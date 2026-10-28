@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "38595234",
+    "doi": "10.19723/j.issn.1671-167X.2024.02.001",
+    "title": "[Dynamic trajectory and cell communication of different cell clusters in malignant progression of glioblastoma]."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To delve deeply into the dynamic trajectories of cell subpopulations and the communication network among immune cell subgroups during the malignant progression of glioblastoma (GBM), and to endeavor to unearth key risk biomarkers in the GBM malignancy progression, so as to provide a more profound understanding for the treatment and prognosis of this disease by integrating transcriptomic data and clinical information of the GBM patients. METHODS: Utilizing single-cell sequencing data analysis, we constructed a cell subgroup atlas during the malignant progression of GBM. The Monocle2 tool was employed to build dynamic progression trajectories of the tumor cell subgroups in GBM. Through gene enrichment analysis, we explored the biological processes enriched in genes that significantly changed with the malignancy progression of GBM tumor cell subpopulations. CellChat was used to identify the communication network between the different immune cell subgroups. Survival analysis helped in identifying risk molecular markers that impacted the patient prognosis during the malignant progression of GBM. This method ological approach offered a comprehensive and detailed examination of the cellular and molecular dynamics within GBM, providing a robust framework for understanding the disease' s progression and potential therapeutic targets. RESULTS: The analysis of single-cell sequencing data identified 6 different cell types, including lymphocytes, pericytes, oligodendrocytes, macrophages, glioma cells, and microglia. The 27 151 cells in the single-cell dataset included 3 881 cells from the patients with low-grade glioma (LGG), 10 166 cells from the patients with newly diagnosed GBM, and 13 104 cells from the patients with recurrent glioma (rGBM). The pseudo-time analysis of the glioma cell subgroups indicated significant cellular heterogeneity during malignant progression. The cell interaction analysis of immune cell subgroups revealed the communication network among the different immune subgroups in GBM malignancy, identifying 22 biologically significant ligand-receptor pairs across 12 key biological pathways. Survival analysis had identified 8 genes related to the prognosis of the GBM patients, among which SERPINE1, COL6A1, SPP1, LTF, C1S, AEBP1, and SAA1L were high-risk genes in the GBM patients, and ABCC8 was low-risk genes in the GBM patients. These findings not only provided new theoretical bases for the treatment of GBM, but also offered fresh insights for the prognosis assessment and treatment decision-making for the GBM patients. CONCLUSION: This research comprehensively and profoundly reveals the dynamic changes in glioma cell subpopulations and the communication patterns among the immune cell subgroups during the malignant progression of GBM. These findings are of significant importance for understanding the complex biological processes of GBM, providing crucial new insights for precision medicine and treatment decisions in GBM. Through these studies, we hope to provide more effective treatment options and more accurate prognostic assessments for the patients with GBM.",
+    "keywords": [
+      "Cell communication",
+      "Cell-cell interaction",
+      "Glioblastoma",
+      "Pseudo-time analysis",
+      "Single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioblastoma/genetics/metabolism/pathology",
+      "*Brain Neoplasms/genetics",
+      "Neoplasm Recurrence, Local",
+      "*Glioma",
+      "Prognosis",
+      "Cell Communication",
+      "Carboxypeptidases",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Xiang",
+        "Wang, Rendong",
+        "Wang, Shijia",
+        "Ren, Ziqi",
+        "Yu, Qiuhong",
+        "Li, Dongguo"
+      ],
+      "short_names": [
+        "Cai X",
+        "Wang R",
+        "Wang S",
+        "Ren Z",
+        "Yu Q",
+        "Li D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Intelligent Medical Engineering, School of Biomedical Engineering, Capital Medical University, Beijing 100069, China.",
+        "Department of Intelligent Medical Engineering, School of Biomedical Engineering, Capital Medical University, Beijing 100069, China.",
+        "Department of Intelligent Medical Engineering, School of Biomedical Engineering, Capital Medical University, Beijing 100069, China.",
+        "Department of Hyperbaric Oxygen, Beijing Tiantan Hospital, Capital Medical University, Beijing 100070, China.",
+        "Department of Hyperbaric Oxygen, Beijing Tiantan Hospital, Capital Medical University, Beijing 100070, China.",
+        "Department of Intelligent Medical Engineering, School of Biomedical Engineering, Capital Medical University, Beijing 100069, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Xiang",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intelligent Medical Engineering, School of Biomedical Engineering, Capital Medical University, Beijing 100069, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Rendong",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intelligent Medical Engineering, School of Biomedical Engineering, Capital Medical University, Beijing 100069, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shijia",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intelligent Medical Engineering, School of Biomedical Engineering, Capital Medical University, Beijing 100069, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Ziqi",
+        "short_name": "Ren Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hyperbaric Oxygen, Beijing Tiantan Hospital, Capital Medical University, Beijing 100070, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Qiuhong",
+        "short_name": "Yu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hyperbaric Oxygen, Beijing Tiantan Hospital, Capital Medical University, Beijing 100070, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongguo",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intelligent Medical Engineering, School of Biomedical Engineering, Capital Medical University, Beijing 100069, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences"
+    ],
+    "journal_abbrev": [
+      "Beijing Da Xue Xue Bao Yi Xue Ban"
+    ],
+    "pub_date": "2024 Apr 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/10 06:42",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36686485",
+      "36054938",
+      "35855914",
+      "35855654",
+      "35140215",
+      "34902524",
+      "34605806",
+      "34594473",
+      "34087162",
+      "33835452",
+      "33608526",
+      "33597522",
+      "32765498",
+      "32488994",
+      "32396858",
+      "31740819",
+      "31185211",
+      "30787437",
+      "30031763",
+      "29608179",
+      "29267363",
+      "21949886",
+      "12734009"
+    ],
+    "similar": [
+      "38595234",
+      "37727789",
+      "33693962",
+      "30894197",
+      "39143438",
+      "33553434",
+      "38851695",
+      "38510250",
+      "37650991",
+      "35677036",
+      "36305410",
+      "34596120",
+      "37485655",
+      "16623952",
+      "32075484",
+      "38994023",
+      "37432454",
+      "34373835",
+      "38274828",
+      "32572951",
+      "37097165",
+      "37397378",
+      "25658639",
+      "27572852",
+      "35436915",
+      "31710121",
+      "32674143",
+      "35144031",
+      "34142341",
+      "38229014",
+      "33832517",
+      "32616845",
+      "37400829",
+      "37149563",
+      "33960636",
+      "32534425",
+      "38007705",
+      "38491408",
+      "36449138",
+      "30872592",
+      "34899682",
+      "38429367",
+      "38339384",
+      "35865002",
+      "35155681",
+      "32765489",
+      "31923345",
+      "36043552",
+      "35942769",
+      "34667077",
+      "25153720",
+      "35411434",
+      "34238116",
+      "36057370",
+      "37730879",
+      "30385717",
+      "37587203",
+      "38560566",
+      "24278465",
+      "39403379",
+      "38887185",
+      "30401645",
+      "30694558",
+      "23907387",
+      "32626942",
+      "33970702",
+      "34018679",
+      "25085363",
+      "31419987",
+      "30311408",
+      "25242542",
+      "34988166",
+      "37660569",
+      "36248907",
+      "31233190",
+      "30132538",
+      "32457755",
+      "38907949",
+      "34475426",
+      "35241019",
+      "37525259",
+      "33449451",
+      "35328072",
+      "34367317",
+      "35187044",
+      "35678909",
+      "38500293",
+      "34919784",
+      "37792606",
+      "36542317",
+      "38335383",
+      "26956052",
+      "29927689",
+      "34354698",
+      "33469841",
+      "36872806",
+      "32467990",
+      "34812552",
+      "24194606",
+      "34923423",
+      "24146797",
+      "35574600",
+      "27081897",
+      "23302469",
+      "28341197",
+      "22446686",
+      "38037768",
+      "38633388",
+      "30152087",
+      "32938364",
+      "37142563",
+      "38534921",
+      "35327982",
+      "39059983",
+      "39062807",
+      "37030479",
+      "39033204",
+      "36862886",
+      "38363895",
+      "36945572",
+      "39409905",
+      "39279122",
+      "39179711",
+      "39191260",
+      "37744266",
+      "39286023",
+      "35456984",
+      "38509672",
+      "37174724",
+      "35815979",
+      "39423857",
+      "35653194",
+      "38129565",
+      "38807663",
+      "34815700",
+      "39061176",
+      "38774283",
+      "38958838",
+      "38947019",
+      "37288604",
+      "39329940",
+      "29780878",
+      "38058808",
+      "33681822",
+      "39235657",
+      "38812741",
+      "39353298",
+      "37031458",
+      "39397186",
+      "38933650",
+      "38616896",
+      "34292672",
+      "38234228",
+      "39211284",
+      "39413821",
+      "39289562",
+      "35941215",
+      "39081966",
+      "33240762",
+      "38831756",
+      "38979247",
+      "37609137",
+      "39343106",
+      "35127517",
+      "33520712",
+      "38947514",
+      "38832259",
+      "32383980",
+      "34541135",
+      "38766170",
+      "38826227",
+      "37131675",
+      "38617348",
+      "32914058",
+      "37214963",
+      "39195544",
+      "34680306",
+      "38585856",
+      "39107318",
+      "39420135",
+      "38671961",
+      "37485377",
+      "28821810",
+      "28706761",
+      "38659966",
+      "39413794",
+      "37260470",
+      "31832309",
+      "38746418",
+      "36338762",
+      "38690565"
+    ],
+    "review": [
+      "38595234",
+      "32674143",
+      "35411434",
+      "25242542",
+      "39059983",
+      "39409905",
+      "35456984",
+      "37174724",
+      "38774283",
+      "39329940",
+      "34292672",
+      "39081966",
+      "33240762",
+      "35127517"
+    ],
+    "pmc": [
+      "11004966"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38595234/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38595234",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1150",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://xuebao.bjmu.edu.cn/EN/Y2024/V56/I2/199",
+        "provider": "Journal of Peking University (Health Sciences)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

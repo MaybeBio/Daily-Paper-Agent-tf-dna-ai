@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.16.520748",
+  "title": "Ligand Gaussian accelerated molecular dynamics 2 (LiGaMD2): Improved calculations of ligand binding thermodynamics and kinetics with closed protein pocket",
+  "authors": "Jinan Wang; Yinglong Miao",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-16",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发LiGaMD2增强采样方法计算配体结合热力学与动力学，虽涉及蛋白口袋动态，但对象为小分子配体-蛋白互作，非蛋白质-DNA或TF-DNA体系，方法可迁移性有限。",
+  "abstract": "Ligand binding thermodynamics and kinetics are critical parameters for drug design. However, it has proven challenging to efficiently predict ligand binding thermodynamics and kinetics from molecular simulations due to limited simulation timescales. Protein dynamics especially in the ligand binding pocket often plays an important role in ligand binding. Based on our previously developed Ligand Gaussian accelerated molecular dynamics (LiGaMD), here we present LiGaMD2 in which a selective boost potential was applied to both the ligand and protein residues in the binding pocket to improve sampling of ligand binding and dissociation. To validate the performance of LiGaMD2, the T4 lysozyme (T4L) mutants with open and closed pockets bound by different ligands were chosen as model systems. LiGaMD2 could efficiently capture repetitive ligand dissociation and binding within microsecond simulations of all T4L systems. The obtained ligand binding kinetic rates and free energies agreed well with available experimental values and previous modeling results. Therefore, LiGaMD2 provides an improved approach to sample opening of closed protein pockets for ligand dissociation and binding, thereby allowing for efficient calculations of ligand binding thermodynamics and kinetics.",
+  "abstract_zh": "配体结合热力学和动力学是药物设计的关键参数。然而，由于模拟时间尺度有限，从分子模拟中高效预测配体结合热力学和动力学已被证明具有挑战性。蛋白质动力学，尤其是在配体结合口袋中的动力学，通常在配体结合中发挥重要作用。基于我们先前开发的配体高斯加速分子动力学 (Ligand Gaussian accelerated molecular dynamics, LiGaMD)，此处我们提出LiGaMD2，其中对配体和结合口袋中的蛋白质残基施加选择性提升势，以改善配体结合和解离的采样。为验证LiGaMD2的性能，我们选择具有开放和闭合口袋的T4溶菌酶 (T4 lysozyme, T4L) 突变体作为模型系统，这些突变体与不同配体结合。LiGaMD2能够在所有T4L系统的微秒级模拟中高效捕获重复的配体解离和结合。获得的配体结合动力学速率和自由能与现有实验值及先前建模结果良好一致。因此，LiGaMD2提供了一种改进的方法，用于采样闭合蛋白质口袋的开放以促进配体解离和结合，从而能够高效计算配体结合热力学和动力学。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.16.520748",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.16.520748",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.16.520748/index.html"
+}

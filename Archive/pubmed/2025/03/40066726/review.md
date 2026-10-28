@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that an 11-residue C-terminal extension of the YB-1 cold shock domain (CSD) stabilizes the domain through a sandwich-like interaction network involving hydrogen bonds and non-covalent contacts. They further claim that phosphorylation of S102 disrupts this network, increases structural flexibility, weakens CSD-DNA interaction, and thereby explains reduced binding affinity observed experimentally. The study uses all-atom molecular dynamics simulations, NMR, and crosslinking experiments.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, experimental details, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, NMR assignments, crosslinking conditions, binding affinity measurements, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis supported by a multi-method approach. However, the current evidence base is insufficient to evaluate the validity of the central claims. Key mechanistic assertions, such as the sandwich-like interaction network and the phosphorylation-induced destabilization, are stated without quantitative support. The link between simulated conformational changes and experimentally measured binding affinity is correlative at best. The work may be of interest to structural biologists and biophysicists, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying RNA/DNA-binding proteins, biophysicists interested in loop dynamics and phosphorylation-mediated regulation, and researchers working on YB-1 as a therapeutic target in cancer and stress response pathways. The mechanistic framework could inform studies of other CSD-containing proteins.
+- **Major strengths** The study addresses a well-defined question with clear biological relevance. The combination of MD simulations with NMR and crosslinking experiments is appropriate for probing dynamic conformational behavior. The focus on a specific phosphorylation site provides a testable molecular mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The extended loop forms a sandwich-like interaction network with the CSD, stabilizing the overall structure via hydrogen bonds and non-covalent interactions, preventing collapse due to electrostatic attractions.
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract asserts a specific interaction network without presenting any quantitative data, such as contact maps, hydrogen bond occupancy, interaction energies, or comparison to control simulations without the loop. The term "sandwich-like" is descriptive but not supported by structural evidence in the abstract.
+  - **Why it matters** The central mechanistic claim rests on this network. Without quantitative characterization, the reader cannot assess whether the proposed stabilization mechanism is real, dominant, or an artifact of the simulation setup.
+  - **Resolution test** Provide contact maps, hydrogen bond occupancy over simulation time, interaction energy decomposition, and replicate simulations with different initial conditions. Show that the network is stable and distinct from a control construct lacking the loop.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** Phosphorylation of S102 disrupts the interaction network, leading to increased structural flexibility and conformational changes, which weakens CSD-DNA interaction and explains the experimentally observed decrease in binding affinity.
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract implies a causal chain from phosphorylation to reduced binding affinity, but no quantitative binding data, free energy calculations, or direct experimental measurements of the phosphorylation effect are presented. The connection between simulated flexibility changes and experimental affinity is not demonstrated.
+  - **Why it matters** The biological significance of the study depends on establishing that phosphorylation-induced conformational changes are functionally relevant. A correlative link is insufficient to support the mechanistic claim.
+  - **Resolution test** Provide experimental binding affinities for phosphorylated and non-phosphorylated CSD, ideally with error bars and replicates. Show that MD-derived conformational ensembles are consistent with these measurements, for example via ensemble docking or free energy perturbation calculations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** All-atom MD simulations, complemented by NMR and crosslinking experiments, reveal the described mechanisms.
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** No simulation details are given, including force field, water model, simulation length, temperature, salt concentration, number of replicates, or convergence criteria. Similarly, NMR and crosslinking data are mentioned but not described in terms of what specific information they provide.
+  - **Why it matters** Reproducibility and assessment of simulation quality are impossible without these details. The reader cannot judge whether the simulations sampled equilibrium conformations or whether the experimental methods actually support the claims.
+  - **Resolution test** Provide full methods in the manuscript, including simulation parameters, convergence analysis, and a clear description of which experimental data support which specific claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "sandwich-like interaction network"
+  - **Issue** The term "sandwich-like" is not defined and may be ambiguous to readers unfamiliar with the system.
+  - **Required correction** Define the term or replace with a more precise structural description, such as "a network of inter-residue contacts between the loop and the beta-barrel surface."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract, "NMR and crosslinking experiments"
+  - **Issue** The abstract does not specify what NMR measurements were performed (for example chemical shift perturbations, relaxation dispersion, or NOE) or what crosslinking strategy was used.
+  - **Required correction** Briefly state the type of NMR data and the crosslinking approach in the abstract or ensure the full text clearly describes these methods and their specific contributions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Binding affinity claim
+  - **Evidence pointer** Abstract, "experimentally observed decrease in binding affinity"
+  - **Issue** No magnitude of the affinity change is given, nor is the method of measurement stated.
+  - **Required correction** Report the binding affinity values or fold change and the assay used, for example surface plasmon resonance or isothermal titration calorimetry.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological detail to support the central mechanistic claims. The causal link between phosphorylation, conformational change, and binding affinity is not established.
+- **Assessment against Nature-style criteria** Originality is moderate, as the concept of loop-mediated stabilization and phosphorylation-induced destabilization is not entirely new, but the specific application to YB-1 CSD may offer novel insight. Scientific importance is potentially high given YB-1's role in disease, but the current evidence does not yet demonstrate a significant advance. Interdisciplinary readership is plausible, spanning structural biology, biophysics, and cell biology, but the abstract is too brief to engage nonspecialists effectively. Technical soundness cannot be assessed from the abstract alone, as no methods or data are presented. Readability for nonspecialists is acceptable but would benefit from clearer definitions of key terms and a more explicit statement of the biological context.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient support for the central claims. A revised manuscript with full methods, quantitative data, and a clear demonstration of the phosphorylation-to-affinity link would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The sandwich-like interaction network and its stabilizing role are asserted without quantitative evidence.
+- The disruption of the network by S102 phosphorylation is stated without supporting data.
+- The causal link between phosphorylation-induced conformational changes and reduced DNA binding affinity is not demonstrated.
+- The claim that the extended loop prevents collapse due to electrostatic attractions is not supported by any presented analysis.
+- The overall mechanistic conclusion is not evaluable from the abstract alone.

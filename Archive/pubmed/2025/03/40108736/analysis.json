@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40108736",
+  "title": "Screening and analysis of programmed cell death related genes and targeted drugs in sepsis.",
+  "authors": "Song, Juanjuan; Ren, Kairui; Wang, Yi; Zhang, Dexin; Sun, Lin; Tang, Zhiqiang; Zhang, Lili; Deng, Ying",
+  "journal": "Hereditas",
+  "published_date": "2025-03-20",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用生物信息学方法筛选脓毒症程序性细胞死亡相关诊断基因和药物，虽构建了TF-miRNA网络，但核心是基因表达与临床关联，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关系微弱。",
+  "abstract": "OBJECTIVE: This study employed bioinformatics techniques to identify diagnostic genes associated with programmed cell death (PCD) and to explore potential therapeutic agents for the treatment of sepsis. METHODS: Gene expression profiles from sepsis patients were analyzed to identify differentially expressed genes (DEGs) and hub genes through Weighted Gene Co-expression Network Analysis (WGCNA). Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were conducted to elucidate the functions of the DEGs. PCD-related genes were cross-referenced with the identified DEGs. Diagnostic genes were selected using Least Absolute Shrinkage and Selection Operator (LASSO) and Random Forest (RF) methodologies. Single-cell RNA sequencing was utilized to assess gene expression in blood cells, while CIBERSORT was employed to evaluate immune cell infiltration. A transcription factor (TF)-microRNA (miRNA)-hub gene network was constructed, and potential therapeutic compounds were predicted using the Drug Gene Interaction Database (DGIdb). Mendelian Randomization (MR) methods were applied to analyze genome-wide association study (GWAS) data for S100A9, TXN, and GSTO1. RESULTS: The analysis revealed 2156 PCD-related genes, 714 DEGs, and 1198 hub genes, with 88 genes enriched in immune and cell death pathways. Five pivotal PCD-related genes (IRAK3, S100A9, TXN, NFATC2, and GSTO1) were identified, leading to the construction of a network comprising six transcription factors and 171 microRNAs. Additionally, seven drugs targeting S100A9, TXN, and NFATC2 were identified. MR analysis suggested that a decrease in GSTO1 levels is associated with an increased risk of sepsis, and that sepsis influences the levels of S100A9, TXN, and GSTO1. CONCLUSIONS: Through bioinformatics approaches, this study successfully identified five genes (IRAK3, S100A9, TXN, NFATC2, and GSTO1) associated with programmed cell death in the context of sepsis. This research identified seven candidate drugs for sepsis treatment and established a methodological framework for predicting biomarkers and drug targets that could be applicable to other diseases.",
+  "abstract_zh": "目的：本研究采用生物信息学技术识别与程序性细胞死亡（PCD）相关的诊断基因，并探索治疗脓毒症的潜在药物。方法：分析脓毒症患者的基因表达谱，通过加权基因共表达网络分析（WGCNA）识别差异表达基因（DEGs）和枢纽基因。进行基因本体论（GO）和京都基因与基因组百科全书（KEGG）分析以阐明DEGs的功能。将PCD相关基因与已识别的DEGs进行交叉比对。使用最小绝对收缩和选择算子（LASSO）和随机森林（RF）方法选择诊断基因。利用单细胞RNA测序评估血细胞中的基因表达，同时采用CIBERSORT评估免疫细胞浸润。构建了转录因子（TF）-微小RNA（miRNA）-枢纽基因网络，并使用药物基因相互作用数据库（DGIdb）预测潜在治疗化合物。应用孟德尔随机化（MR）方法分析S100A9、TXN和GSTO1的全基因组关联研究（GWAS）数据。结果：分析揭示了2156个PCD相关基因、714个DEGs和1198个枢纽基因，其中88个基因富集于免疫和细胞死亡通路。识别出五个关键的PCD相关基因（IRAK3、S100A9、TXN、NFATC2和GSTO1），并构建了包含六个转录因子和171个微小RNA的网络。此外，识别出七种靶向S100A9、TXN和NFATC2的药物。MR分析提示，GSTO1水平降低与脓毒症风险增加相关，且脓毒症影响S100A9、TXN和GSTO1的水平。结论：通过生物信息学方法，本研究成功识别了五个与脓毒症中程序性细胞死亡相关的基因（IRAK3、S100A9、TXN、NFATC2和GSTO1）。本研究确定了七种脓毒症治疗的候选药物，并建立了一个预测生物标志物和药物靶点的方法框架，该框架可能适用于其他疾病。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40108736/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40108736/",
+  "paper_page_path": "papers/pubmed/40108736/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42106409",
+  "title": "CT-TADB predicts TAD boundaries without Hi-C by integrating DNA sequences and epigenomic features.",
+  "authors": "Chen, Tong; Wang, Shuaibin; Jin, Yuyu; Yuan, Yuan; Liang, Zhen; Shen, Yin",
+  "journal": "NPJ systems biology and applications",
+  "published_date": "2026-05-10",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN-Transformer整合DNA序列与表观信号预测TAD边界，虽涉及DNA序列与CTCF结合，但核心是染色质结构域预测而非TF-DNA结合互作建模，方法可迁移但对象偏离。",
+  "abstract": "Topologically associating domains (TADs) are fundamental units of three-dimensional genome organization, and their boundaries play important roles in gene regulation and genomic stability. However, accurate computational prediction of TAD boundaries remains challenging because of the complex interplay between DNA sequence and epigenomic regulatory signals. Here we present CT-TADB, a hybrid CNN-Transformer framework that integrates DNA sequence with histone modification and CTCF binding signals to predict TAD boundaries without requiring Hi-C data. Trained on six human cell lines, CT-TADB achieved AUC values of 0.932-0.950, demonstrating competitive or superior performance relative to existing multi-modal methods. The model maintained stable performance on strictly independent and dataset-specific boundary subsets, and exhibited robust cross-cell-type transferability and cross-species generalization between human and mouse (AUC > 0.80 for human-to-mouse transfer). Feature attribution analysis identified CTCF as the dominant boundary-associated factor, supported by active chromatin marks, and quantitative attention analysis revealed significant long-range CTCF-mediated dependencies (p < 0.001). CT-TADB further identified a clinically validated PITX2-associated TAD boundary linked to cardiac arrhythmia and captured condition-specific boundary dynamics. By leveraging routinely available epigenomic data, CT-TADB provides a practical and complementary framework for investigating chromatin architecture across diverse biological contexts.",
+  "abstract_zh": "拓扑关联结构域（TADs）是三维基因组组织的基本单位，其边界在基因调控和基因组稳定性中发挥重要作用。然而，由于DNA序列与表观基因组调控信号之间的复杂相互作用，TAD边界的准确计算预测仍具挑战性。在此，我们提出CT-TADB，一种混合CNN-Transformer框架，整合DNA序列与组蛋白修饰和CTCF结合信号，无需Hi-C数据即可预测TAD边界。在六种人类细胞系上训练后，CT-TADB实现了0.932-0.950的AUC值，显示出与现有模态方法相比具有竞争力或更优的性能。该模型在严格独立和数据集特异的边界子集上保持稳定性能，并在人类和小鼠之间展现出稳健的跨细胞类型可转移性和跨物种泛化能力（人类到小鼠转移的AUC > 0.80）。特征归因分析确定CTCF为主要的边界相关因子，并得到活性染色质标记的支持，定量注意力分析揭示了显著的CTCF介导的长程依赖性（p < 0.001）。CT-TADB进一步识别了一个与心脏心律失常相关的临床验证的PITX2相关TAD边界，并捕获了条件特异的边界动态。通过利用常规可获得的表观基因组数据，CT-TADB为研究不同生物学背景下的染色质结构提供了一个实用且互补的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42106409/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42106409/",
+  "paper_page_path": "papers/pubmed/42106409/index.html"
+}

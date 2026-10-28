@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "36217463",
+    "doi": "10.1016/j.heliyon.2022.e10866",
+    "title": "SLC7A5 is a lung adenocarcinoma-specific prognostic biomarker and participates in forming immunosuppressive tumor microenvironment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Amino acid metabolism participates in forming immunosuppressive tumor microenvironment. Amino acid transporters (AATs), as a gate for admission, remains to be studied. MATERIALS AND METHODS: We identified LUAD-specific prognostic AATs, SLC7A5 by differential expression analysis, logistic regression, machine learning, Kaplan-Meier analysis, AUC value filtrating and Cox regression. Then differential expression and distribution of SLC7A5 were depicted. Copy number variation, DNA methylation, transcriptional factors and ceRNA network were investigated to explore potential mechanism causing differential expression. The prognostic and clinical relation were evaluated by Kaplan-Meier analysis, Cox regression analysis. GSEA and GSVA were used to analyze altered pathways between SLC7A5 high- and low-groups. The expression of HLA-related genes and immune checkpoint genes, and immune cells infiltration were detected. SLC7A5 expression in immune cells was evaluated by single-cell sequencing data. IPS and an independent immunotherapy cohort assessed response rates of patients with distinct SLC7A5 expression. Proliferation assay and wound healing assay validated the effects of SLC7A5 on proliferation and migration of LUAD cells. Western blotting and cell viability assays were performed to detect mTORC1 pathway activity and sensitivity to rapamycin. RESULTS: SLC7A5 was a LUAD-specific prognostic AAT and had significant differential expression in transcription and translation level. Methylation levels of cg00728300, cg00858400, cg12408911, cg08710629 were negative correlation with SLC7A5 expression. FOXP3 and TFAP2A were possible transcription factors and miR-30a-5p, miR-184, miR-195-5p may target SLC7A5 mRNA. SLC7A5 high-expression indicated poor prognosis and was an independent prognostic factor. mTORC1, cell cycle, DNA damage repair, response to reactive oxygen, angiogenesis, epithelial-mesenchymal transition (EMT) and various growth factors signaling pathways were activated in SLC7A5 high-expression group. Interestingly, SLC7A5 high-expression group had less immune-related genes expression and immune cells infiltration. Single-cell sequencing data also suggested SLC7A5 was downregulated in various T cells, especially effector T cells. Moreover, high SLC7A5 expression indicated poor immunotherapy efficacy and higher sensitivity to inhibitors of mTORC1 pathway, cell cycle and angiogenesis. SLC7A5 deficiency abrogated proliferation, migration and mTORC1 pathway activity. CONCLUSIONS: In summary, as a LUAD-specific prognostic AAT, SLC7A5 is involved in activation of multiple oncogenic pathways and indicates poor prognosis. Moreover, SLC7A5 may participate in forming immunosuppressive TME and is associated with low response of immunotherapy. SLC7A5 is promising to be a new diagnostic and prognostic biomarker and therapeutic target in LUAD.",
+    "keywords": [
+      "Amino acid metabolism",
+      "Amino acid transporter",
+      "Immunotherapy",
+      "Lung adenocarcinoma",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yong",
+        "Ma, Guoyuan",
+        "Liu, Jichang",
+        "Zheng, Haotian",
+        "Huang, Gemu",
+        "Song, Qingtao",
+        "Pang, Zhaofei",
+        "Du, Jiajun"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Ma G",
+        "Liu J",
+        "Zheng H",
+        "Huang G",
+        "Song Q",
+        "Pang Z",
+        "Du J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+        "Department of Thoracic Surgery, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+        "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+        "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+        "Amoy Diagnostics Co., LTD., Xiamen, 361010, Fujian, China.",
+        "Amoy Diagnostics Co., LTD., Xiamen, 361010, Fujian, China.",
+        "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, Shandong, China.",
+        "Department of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, Shandong, China.",
+        "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+        "Department of Thoracic Surgery, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Guoyuan",
+        "short_name": "Ma G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jichang",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Haotian",
+        "short_name": "Zheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Gemu",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Amoy Diagnostics Co., LTD., Xiamen, 361010, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Song, Qingtao",
+        "short_name": "Song Q",
+        "identifiers": [],
+        "affiliations": [
+          "Amoy Diagnostics Co., LTD., Xiamen, 361010, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Zhaofei",
+        "short_name": "Pang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, Shandong, China.",
+          "Department of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Du, Jiajun",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Oncology, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+          "Department of Thoracic Surgery, Shandong Provincial Hospital, Shandong University, Jinan, 250021, Shandong, China.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, Shandong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/12 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "42193979",
+      "41699700",
+      "41486305",
+      "41440381",
+      "41112293",
+      "40917794",
+      "39512508",
+      "39354291",
+      "39228892",
+      "38705513",
+      "38606165",
+      "38584564",
+      "38256136",
+      "37823053",
+      "37699892",
+      "36881404",
+      "36536690"
+    ],
+    "refs": [
+      "34164526",
+      "34108619",
+      "33953707",
+      "33433946",
+      "33203697",
+      "32444850",
+      "32093034",
+      "31803607",
+      "31200873",
+      "31186046",
+      "30820043",
+      "30305738",
+      "30177408",
+      "30127393",
+      "29988369",
+      "29942094",
+      "29904050",
+      "29367342",
+      "28784848",
+      "28724573",
+      "28605656",
+      "28222796",
+      "28209166",
+      "28059703",
+      "28052254",
+      "27846244",
+      "27574741",
+      "26904023",
+      "26420908",
+      "26359337",
+      "26325031",
+      "25477332",
+      "25229481",
+      "25208070",
+      "24919573",
+      "24297251",
+      "24202395",
+      "23912240",
+      "23525088",
+      "23506863",
+      "22974781",
+      "22195744",
+      "21739672",
+      "19203585",
+      "17975149",
+      "11425972"
+    ],
+    "similar": [
+      "36217463",
+      "38265702",
+      "35421944",
+      "36159963",
+      "36091041",
+      "38087364",
+      "34774014",
+      "33869203",
+      "35600867",
+      "35645555",
+      "37576392",
+      "35966511",
+      "35928739",
+      "32775050",
+      "34409029",
+      "36950551",
+      "35568951",
+      "34517904",
+      "36051873",
+      "35347894",
+      "36032135",
+      "34164526",
+      "34268011",
+      "36438661",
+      "35248033",
+      "35769906",
+      "35127546",
+      "34645436",
+      "32278127",
+      "34145797",
+      "34175738",
+      "35855850",
+      "34901148",
+      "32714316",
+      "36060239",
+      "34497755",
+      "38790003",
+      "35418778",
+      "34163207",
+      "35023957",
+      "35756681",
+      "35509603",
+      "35600383",
+      "35027526",
+      "34781123",
+      "34195096",
+      "34335635",
+      "34648954",
+      "32700817",
+      "35907786",
+      "37722290",
+      "35311097",
+      "36153508",
+      "35222371",
+      "33363020",
+      "37323822",
+      "34539658",
+      "33520448",
+      "35070752",
+      "33304656",
+      "34819106",
+      "35814368",
+      "38617968",
+      "36186418",
+      "35434016",
+      "35310607",
+      "33747955",
+      "36291937",
+      "38577587",
+      "33653340",
+      "38910901",
+      "35574409",
+      "35368663",
+      "34863300",
+      "33953707",
+      "35116596",
+      "34745947",
+      "34617407",
+      "35581606",
+      "35814478",
+      "39027522",
+      "33411689",
+      "35095769",
+      "35741714",
+      "33330629",
+      "34616670",
+      "33811453",
+      "33889522",
+      "34471502",
+      "34102206",
+      "34306024",
+      "31812070",
+      "33434533",
+      "37091977",
+      "33660800",
+      "33323549",
+      "33574689",
+      "36101357",
+      "34175739",
+      "35599007",
+      "37718764",
+      "39091583",
+      "38402198",
+      "38978503",
+      "36505791",
+      "36686785",
+      "37375818",
+      "36358653",
+      "36824434",
+      "38617535",
+      "39281564",
+      "36915775",
+      "38672263",
+      "36620589",
+      "31789450",
+      "39229988",
+      "36789439",
+      "37328842",
+      "39167955",
+      "36230798",
+      "37152010",
+      "37458803",
+      "36299592",
+      "36936374",
+      "36313331",
+      "36582828",
+      "36968583",
+      "39162904",
+      "37886338"
+    ],
+    "review": [
+      "36217463",
+      "35222371"
+    ],
+    "pmc": [
+      "9547238"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(22)02154-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36217463/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36217463",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

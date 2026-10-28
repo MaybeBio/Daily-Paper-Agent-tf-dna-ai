@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "40600620",
+    "doi": "10.1002/cam4.71008",
+    "title": "Identification of Crucial Genes Associated With MYCN-Driven Neuroblastoma Based on Single-Cell Analysis and Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Neuroblastoma (NB) with MYCN amplification is strongly correlated with high-risk stratification and poor prognosis. However, the underlying mechanisms remain incompletely understood. Elucidating these pathways is critical for advancing personalized treatments for MYCN-driven NB. METHODS: We performed single-cell transcriptomic analysis comparing NB samples with and without MYCN. Key genes were then identified using machine learning based random survival forest (RSF) and nomogram analyses. The influence of key genes on immune infiltration and molecular mechanisms driving NB progression were further investigated. Finally, we visualized the expression levels and global function of these genes in single-cell datasets and validated their expression in patient samples through RT-qPCR. RESULTS: Single-cell transcriptome analysis of GSE218450 identified marker genes specific to NB cells. RSF and nomogram analyses revealed that overexpression of CKB, PCSK1N, OTUB1, and VGF is associated with poor prognosis, whereas upregulation of NTRK3 indicates a favorable prognosis. These genes are significantly associated with immune cell infiltration and play an important role in modulating the immune microenvironment. Pathway analysis further showed that these genes influence critical signaling pathways, including the Wnt pathway, and interact with tumor-related genes. Additionally, we confirmed that CKB and PCSK1N are positively correlated with MYCN in NB cell lines and are significantly overexpressed in MYCN-amplified NB patients. CONCLUSIONS: Our results provide molecular insights into the transcriptional changes associated with MYCN amplification in NB. In particular, the identification of CKB and PCSK1N suggests their potential role in driving tumor progression, making them promising targets for novel treatments in MYCN-driven NB.",
+    "keywords": [
+      "MYCN amplification",
+      "neuroblastoma",
+      "nomogram model",
+      "random survival forests",
+      "single-cell transcriptome"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neuroblastoma/genetics/mortality/pathology/immunology",
+      "*N-Myc Proto-Oncogene Protein/genetics",
+      "*Machine Learning",
+      "Single-Cell Analysis/methods",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Expression Profiling",
+      "Gene Amplification",
+      "Transcriptome",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jiasi",
+        "Lei, Yichen",
+        "Wang, Yaqin",
+        "Yu, Wen",
+        "Zhao, Xiaoyan",
+        "Zhu, Yongbing",
+        "Zhang, Dedong",
+        "Liu, Siying",
+        "Liu, Aiguo"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Lei Y",
+        "Wang Y",
+        "Yu W",
+        "Zhao X",
+        "Zhu Y",
+        "Zhang D",
+        "Liu S",
+        "Liu A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9442-2009"
+      ],
+      "affiliations": [
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Key Laboratory of Molecular Biological Targeted Therapies of the Ministry of Education, Huazhong University of Science and Technology, China.",
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jiasi",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0001-9442-2009"
+        ],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+          "Key Laboratory of Molecular Biological Targeted Therapies of the Ministry of Education, Huazhong University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Yichen",
+        "short_name": "Lei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yaqin",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Wen",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaoyan",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yongbing",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dedong",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Siying",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Aiguo",
+        "short_name": "Liu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer medicine"
+    ],
+    "journal_abbrev": [
+      "Cancer Med"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 12:29",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39657341",
+      "39454577",
+      "39403102",
+      "39288010",
+      "39042883",
+      "38741163",
+      "38701193",
+      "38401583",
+      "38181797",
+      "38069407",
+      "38058696",
+      "38001143",
+      "37973789",
+      "37781041",
+      "37748124",
+      "37664946",
+      "37611092",
+      "37528411",
+      "37492576",
+      "37324492",
+      "37246217",
+      "37156912",
+      "37145595",
+      "37117846",
+      "36999754",
+      "36973454",
+      "36460335",
+      "36450331",
+      "36162542",
+      "35985323",
+      "35810561",
+      "35688160",
+      "35660252",
+      "35253629",
+      "34999011",
+      "34771457",
+      "34599308",
+      "34297818",
+      "34250611",
+      "33737337",
+      "33497018",
+      "33495232",
+      "33483374",
+      "33450862",
+      "33063446",
+      "32558385",
+      "31942075",
+      "31519694",
+      "30643249",
+      "30425456",
+      "29750782",
+      "29700278",
+      "29146692",
+      "28794054",
+      "28602166",
+      "27069014",
+      "26304901",
+      "25846097",
+      "25822800",
+      "25386934",
+      "25137037",
+      "19890111"
+    ],
+    "similar": [
+      "40600620",
+      "34016720",
+      "27517149",
+      "40764361",
+      "36311753",
+      "33172452",
+      "27599694",
+      "37175848",
+      "26482175",
+      "41420301",
+      "40108662",
+      "40353332",
+      "34751044",
+      "28456710",
+      "31637848",
+      "34655293",
+      "27876123",
+      "39486730",
+      "41423806",
+      "38962012",
+      "27707976",
+      "8589036",
+      "32204764",
+      "37741985",
+      "40349458",
+      "37094904",
+      "37712965",
+      "40087586",
+      "17023822",
+      "32788584",
+      "29374092",
+      "26549029",
+      "29784674",
+      "22907398",
+      "40179430",
+      "32240058",
+      "40718780",
+      "32512012",
+      "23268333",
+      "28574509",
+      "38553589",
+      "20080637",
+      "16047351",
+      "30483774",
+      "38516781",
+      "38745192",
+      "29797634",
+      "39703515",
+      "15363318",
+      "34565342",
+      "31695155",
+      "37230388",
+      "28586032",
+      "37461251",
+      "37545226",
+      "38336749",
+      "17028906",
+      "31615807",
+      "19615087",
+      "32593299",
+      "36982482",
+      "39532261",
+      "39028490",
+      "34110923",
+      "29322842",
+      "39675397",
+      "39215128",
+      "26076666",
+      "33602789",
+      "23091029",
+      "29925504",
+      "28791558",
+      "37611092",
+      "26657295",
+      "19960435",
+      "12960121",
+      "29610116",
+      "31856871",
+      "25323222",
+      "25860940",
+      "36539767",
+      "33525507",
+      "30584073",
+      "33393844",
+      "21557326",
+      "32237073",
+      "31255282",
+      "27448979",
+      "33739795",
+      "32979173",
+      "37460674",
+      "11745206",
+      "12402304",
+      "40619885",
+      "24586395",
+      "33737337",
+      "31444411",
+      "30691436",
+      "34011924",
+      "37975412"
+    ],
+    "review": [
+      "40600620",
+      "40619885"
+    ],
+    "pmc": [
+      "12216506"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://www.ovid.com/40600620.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40600620/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cam4.71008",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CKB-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-244",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

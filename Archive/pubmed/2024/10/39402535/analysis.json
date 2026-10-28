@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39402535",
+  "title": "Identifying transcription factors with cell-type specific DNA binding signatures.",
+  "authors": "Awdeh, Aseel; Turcotte, Marcel; Perkins, Theodore J",
+  "journal": "BMC genomics",
+  "published_date": "2024-10-15",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习SigTFB分析ChIP-seq数据，检测TF结合位点中的细胞类型特异性DNA签名，属于TF-DNA结合位点预测与互作特征研究，但未涉及三维结构建模或动态机制，方法可迁移至本课题。",
+  "abstract": "BACKGROUND: Transcription factors (TFs) bind to different parts of the genome in different types of cells, but it is usually assumed that the inherent DNA-binding preferences of a TF are invariant to cell type. Yet, there are several known examples of TFs that switch their DNA-binding preferences in different cell types, and yet more examples of other mechanisms, such as steric hindrance or cooperative binding, that may result in a \"DNA signature\" of differential binding. RESULTS: To survey this phenomenon systematically, we developed a deep learning method we call SigTFB (Signatures of TF Binding) to detect and quantify cell-type specificity in a TF's known genomic binding sites. We used ENCODE ChIP-seq data to conduct a wide scale investigation of 169 distinct TFs in up to 14 distinct cell types. SigTFB detected statistically significant DNA binding signatures in approximately two-thirds of TFs, far more than might have been expected from the relatively sparse evidence in prior literature. We found that the presence or absence of a cell-type specific DNA binding signature is distinct from, and indeed largely uncorrelated to, the degree of overlap between ChIP-seq peaks in different cell types, and tended to arise by two mechanisms: using established motifs in different frequencies, and by selective inclusion of motifs for distint TFs. CONCLUSIONS: While recent results have highlighted cell state features such as chromatin accessibility and gene expression in predicting TF binding, our results emphasize that, for some TFs, the DNA sequences of the binding sites contain substantial cell-type specific motifs.",
+  "abstract_zh": "背景：转录因子（TFs）在不同类型的细胞中结合基因组的不同区域，但通常假设TF固有的DNA结合偏好不随细胞类型而变化。然而，已知有若干TF在不同细胞类型中切换其DNA结合偏好的例子，并且还有其他机制，如空间位阻或协同结合，可能导致差异结合的“DNA签名”。结果：为系统性地调查这一现象，我们开发了一种深度学习方法，称为SigTFB（TF结合签名），用于检测和量化TF已知基因组结合位点中的细胞类型特异性。我们使用ENCODE ChIP-seq数据，对多达14种不同细胞类型中的169种不同TF进行了广泛调查。SigTFB在约三分之二的TF中检测到统计学上显著的DNA结合签名，远超先前文献中相对稀疏证据所预期的数量。我们发现，细胞类型特异性DNA结合签名的存在与否，与不同细胞类型中ChIP-seq峰的重叠程度不同，且实际上在很大程度上不相关，并且往往通过两种机制产生：以不同频率使用已建立的基序，以及选择性包含不同TF的基序。结论：尽管近期结果强调了染色质可及性和基因表达等细胞状态特征在预测TF结合中的作用，但我们的结果强调，对于某些TF，结合位点的DNA序列包含大量细胞类型特异性基序。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39402535/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39402535/",
+  "paper_page_path": "papers/pubmed/39402535/index.html"
+}

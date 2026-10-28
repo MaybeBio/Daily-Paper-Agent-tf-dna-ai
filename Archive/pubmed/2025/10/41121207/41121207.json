@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "41121207",
+    "doi": "10.1186/s13046-025-03528-y",
+    "title": "Activating NEDD4L suppresses EGFR-driven lung adenocarcinoma growth via facilitating EGFR proteasomal degradation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Resistant mutations and amplification of the epidermal growth factor receptor (EGFR), followed by the upregulation of its translated protein undermines the efficacy of EGFR-tyrosine kinase inhibitors (TKIs) in EGFR-mutant lung adenocarcinoma (LUAD). This underscores that promoting EGFR protein degradation may be a promising strategy for treatment. METHODS: Ubiquitin ligases database analysis identified NEDD4L as a mediator of EGFR proteasomal degradation, which was further confirmed by qPCR, western blot, immunofluorescence staining and CO-IP. The upstream regulatory role of FOXM1 on NEDD4L was elucidated through bioinformatics analyses and validated using dual luciferase reporter assay, ChIP, qPCR, western blot and immunohistochemistry. Virtual screening and molecular docking were used to identify inhibitors of FOXM1. Functional studies and therapeutic strategies were conducted using gain- and loss-of-function assays, and evaluated through in vitro and in vivo experiments. RESULTS: We identified the E3 ubiquitin ligase NEDD4L that targets both wild-type EGFR and osimertinib-sensitive/resistant EGFR mutants for proteasomal degradation, thereby effectively inhibiting EGFR-driven LUAD growth. We found FOXM1 as a critical upstream transcription factor that binds to the promoter of NEDD4L and represses its expression, further promoting tumor growth and osimertinib resistance in LUAD by increasing EGFR protein level. High FOXM1 expression correlates with low NEDD4L expression in LUAD patients, which is associated with poor clinical outcomes. Notably, we further identified that verteporfin, an FDA-approved small molecule drug, as a FOXM1 inhibitor. Verteporfin suppresses FOXM1 to upregulate NEDD4L expression and facilitate EGFR proteasomal degradation, thereby inhibiting EGFR-driven LUAD growth and overcoming osimertinib resistance. Remarkably, the combination of verteporfin and osimertinib shows an additively inhibitory effect on EGFR-mutated LUAD growth compared to monotherapy, both in post-TKI resistance and upfront treatment settings. CONCLUSIONS: This study demonstrates that FOXM1/NEDD4L axis impairs EGFR proteasomal degradation, thus contributing to EGFR-driven LUAD growth and osimertinib resistance. Combination therapy incorporating NEDD4L activation may represent a new valued therapeutic strategy for EGFR-driven LUAD and osimertinib resistance.",
+    "keywords": [
+      "EGFR",
+      "FOXM1",
+      "LUAD",
+      "NEDD4L",
+      "Osimertinib",
+      "Verteporfin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Nedd4 Ubiquitin Protein Ligases/metabolism/genetics",
+      "*Adenocarcinoma of Lung/pathology/genetics/metabolism/drug therapy",
+      "Animals",
+      "ErbB Receptors/metabolism/genetics",
+      "*Proteasome Endopeptidase Complex/metabolism",
+      "Mice",
+      "Forkhead Box Protein M1/metabolism/genetics",
+      "*Lung Neoplasms/pathology/genetics/metabolism/drug therapy",
+      "Proteolysis",
+      "Cell Line, Tumor",
+      "Xenograft Model Antitumor Assays",
+      "Cell Proliferation",
+      "Drug Resistance, Neoplasm",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Maojian",
+        "Jiang, Wei",
+        "Zhan, Jianhua",
+        "Zhang, Shaoping",
+        "Zheng, Jiani",
+        "Huang, Yihua",
+        "He, Junyi",
+        "Yang, Yunpeng",
+        "Zhao, Shen",
+        "Zhang, Yaxiong",
+        "Liu, Jiaqing",
+        "Pang, Lanlan",
+        "Zhang, Li",
+        "Fang, Wenfeng",
+        "Li, Jing"
+      ],
+      "short_names": [
+        "Chen M",
+        "Jiang W",
+        "Zhan J",
+        "Zhang S",
+        "Zheng J",
+        "Huang Y",
+        "He J",
+        "Yang Y",
+        "Zhao S",
+        "Zhang Y",
+        "Liu J",
+        "Pang L",
+        "Zhang L",
+        "Fang W",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Guangdong-Hong Kong Joint Laboratory for RNA Medicine, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, 510120, China.",
+        "Department of Respiratory Oncology, Guangxi Medical University Cancer Hospital, Nanning, 530021, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Thoracic Surgery and Oncology, the First Affiliated Hospital of Guangzhou Medical University, State Key Laboratory of Respiratory Disease & National Clinical Research Center for Respiratory Disease, Guangzhou, 510120, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, School of Medicine, Xiamen Key Laboratory of Antitumor Drug Transformation Research, the First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361000, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Guangdong-Hong Kong Joint Laboratory for RNA Medicine, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, 510120, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China. zhangli@sysucc.org.cn.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China. fangwf@sysucc.org.cn.",
+        "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China. lijing3@sysucc.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Maojian",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Guangdong-Hong Kong Joint Laboratory for RNA Medicine, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, 510120, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Wei",
+        "short_name": "Jiang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Oncology, Guangxi Medical University Cancer Hospital, Nanning, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Jianhua",
+        "short_name": "Zhan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shaoping",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+          "Department of Thoracic Surgery and Oncology, the First Affiliated Hospital of Guangzhou Medical University, State Key Laboratory of Respiratory Disease & National Clinical Research Center for Respiratory Disease, Guangzhou, 510120, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jiani",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+          "Department of Medical Oncology, School of Medicine, Xiamen Key Laboratory of Antitumor Drug Transformation Research, the First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yihua",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Guangdong-Hong Kong Joint Laboratory for RNA Medicine, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, 510120, China."
+        ]
+      },
+      {
+        "full_name": "He, Junyi",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yunpeng",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shen",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaxiong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiaqing",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Lanlan",
+        "short_name": "Pang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Li",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China. zhangli@sysucc.org.cn."
+        ]
+      },
+      {
+        "full_name": "Fang, Wenfeng",
+        "short_name": "Fang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China. fangwf@sysucc.org.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-Sen University Cancer Center, Sun Yat-Sen university, Guangzhou, 510060, China. lijing3@sysucc.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2025 Oct 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/22 06:34",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40076686",
+      "39819860",
+      "38361222",
+      "38296976",
+      "38027016",
+      "37956336",
+      "37783508",
+      "37760554",
+      "37496990",
+      "37479810",
+      "37060646",
+      "36958703",
+      "36934069",
+      "36795481",
+      "36528578",
+      "36482474",
+      "36456730",
+      "36382532",
+      "35977942",
+      "35975458",
+      "35695863",
+      "35646490",
+      "35624501",
+      "35614040",
+      "35534623",
+      "35122001",
+      "34954029",
+      "34880209",
+      "34669962",
+      "34635651",
+      "34539897",
+      "34512149",
+      "34330894",
+      "34182217",
+      "33172899",
+      "33117809",
+      "32878980",
+      "32858223",
+      "32797754",
+      "32694521",
+      "32693293",
+      "32494592",
+      "32265228",
+      "32114396",
+      "32044322",
+      "31717427",
+      "31564718",
+      "31040162",
+      "30848009",
+      "30284706",
+      "30097569",
+      "29945964",
+      "29945960",
+      "29721041",
+      "29506987",
+      "29462255",
+      "29462254",
+      "29175326",
+      "29151359",
+      "28584182",
+      "28202511",
+      "28002618",
+      "27932573",
+      "27793840",
+      "27283993",
+      "26443705",
+      "26141217",
+      "25735773",
+      "25433090",
+      "25387393",
+      "24893891",
+      "24722501",
+      "22217575",
+      "22208852",
+      "21909941",
+      "20360045",
+      "19097774",
+      "18268134",
+      "17355729",
+      "16543144",
+      "15118125",
+      "11864992",
+      "10635327"
+    ],
+    "similar": [
+      "41121207",
+      "41450535",
+      "40618443",
+      "37240137",
+      "40303499",
+      "40713600",
+      "41500820",
+      "38967523",
+      "39658649",
+      "39343971",
+      "35090513",
+      "30382076",
+      "39704929",
+      "35144642",
+      "39090096",
+      "33568630",
+      "41406940",
+      "40482589",
+      "37178919",
+      "40594106",
+      "39587349",
+      "41033606",
+      "41074434",
+      "39231972",
+      "37990309",
+      "33829270",
+      "31228625",
+      "31953310",
+      "40685347",
+      "34706132",
+      "40411680",
+      "32272148",
+      "39661202",
+      "40824711",
+      "39080187",
+      "31821539",
+      "40447190",
+      "40162549",
+      "41362742",
+      "31254668",
+      "40917063",
+      "38073064",
+      "40450112",
+      "41145422",
+      "31138260",
+      "34635651",
+      "31801598",
+      "30732676",
+      "30651547",
+      "37393311",
+      "32552717",
+      "30830869",
+      "33486901",
+      "32513952",
+      "35646490",
+      "37904848",
+      "31043587",
+      "40054177",
+      "41084191",
+      "41356800",
+      "39543744",
+      "34145929",
+      "34255150",
+      "26583948",
+      "40335843",
+      "36652476",
+      "39528815",
+      "38831321",
+      "38438582",
+      "40720248",
+      "40634956",
+      "37269912",
+      "41152910",
+      "38237027",
+      "34330894",
+      "34145930",
+      "38827327",
+      "34102455",
+      "40187661",
+      "38689087",
+      "32395869",
+      "41269207",
+      "38810606",
+      "30661098",
+      "38764025",
+      "35883645",
+      "37418984",
+      "40089784",
+      "25077897",
+      "38761523",
+      "41213916",
+      "39809840",
+      "32878980",
+      "35422085",
+      "34289988",
+      "40234395",
+      "27475501",
+      "40116080",
+      "40374748",
+      "38849009"
+    ],
+    "review": [
+      "41121207"
+    ],
+    "pmc": [
+      "12541971"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-025-03528-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41121207/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

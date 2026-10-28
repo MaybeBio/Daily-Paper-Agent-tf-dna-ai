@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity of the revised structural model of the Impβ:Imp7:H1 complex, the evidence supporting the swapped receptor assignment, and the biochemical validation of the NlB-Impβ interaction
+- **Shared manuscript claim summary** The authors propose that the previously published cryo-EM structure of the Imp7:Impβ:H1 complex (PDB 6N88) has the two importin receptors assigned in swapped positions. Using AlphaFold3 predictions, cross-linking mass spectrometry, ITC, and pull-down experiments, they present a revised model in which H1's globular domain binds exclusively to Imp7, and the NlB region of Imp7 engages the outer surface of Impβ in an FG-nucleoporin-like manner.
+- **Visible evidence base** Main text figures (Figs 1-3), Supplementary Tables S1-S6, Supplementary Figures S1-S15, Methods section describing cloning, expression, purification, ITC, cross-linking, AF3 prediction, and cryo-EM refinement protocols
+- **Missing materials affecting confidence** The actual cryo-EM density maps and validation statistics are only summarized; no FSC curves or map-model correlation values are shown in the main text. The AF3 confidence metrics (pLDDT, PAE) are not reported. The cross-linking data are presented only as summarized counts without spectral evidence. No raw ITC thermograms are shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-argued revision of a previously published structural model, supported by multiple independent experimental approaches. The central claim that the importin receptors were swapped in the original cryo-EM interpretation is convincingly supported by cross-linking data, AF3 predictions, and re-refinement statistics. The biochemical characterization of the NlB region is thorough and provides strong validation for the proposed interaction interface. However, several technical details require clarification, particularly regarding the AF3 prediction methodology, the quantitative assessment of model fit, and the interpretation of ITC data for the truncated NlB fragments. The manuscript would benefit from more explicit presentation of validation metrics and a more cautious framing of the mechanistic model proposed in the discussion.
+- **Who would be interested in the results, and why** Structural biologists studying karyopherin-mediated nuclear transport, researchers using AI-based structure prediction for complex assemblies, and investigators interested in histone chaperone and import mechanisms. The demonstration that AF3 can correct errors in experimentally derived models is of broad methodological interest to the structural biology community.
+- **Major strengths**
+  - The combination of AF3 prediction with multiple experimental validation approaches (cross-linking, ITC, pull-down, cryo-EM re-refinement) provides a robust evidence base for the revised model
+  - The systematic ITC mutagenesis of the NlB region is well designed and provides quantitative support for the proposed interaction interface
+  - The re-refinement of the deposited cryo-EM structures with swapped receptor positions is a rigorous and convincing approach
+  - The manuscript is clearly written and the figures are well organized
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the AF3-predicted models show "substantially improved fit" to the cryo-EM maps compared to the deposited structures, but the quantitative validation metrics are not presented in the main text.
+  - **Evidence pointer** Results section, Figure 2, Supplementary Table S6
+  - **Concern** The manuscript states that "comprehensive validation indicators unequivocally confirm" the swapped assignment, yet the actual FSC curves, FSCaverage values, and map-model correlation coefficients are only referenced in Supplementary Table S6 without being shown or discussed in the main text. The reader cannot independently assess the magnitude of improvement claimed. Given that the cryo-EM map is at 6.2 Å resolution, the discrimination between two similar HEAT-repeat proteins may be subtle, and the quantitative evidence must be presented transparently.
+  - **Why it matters** The central claim of the manuscript rests on the improved fit of the revised model to the experimental map. Without explicit presentation of the validation metrics, the strength of this claim cannot be evaluated. At 6.2 Å resolution, the difference between the two assignments may be marginal, and the authors must demonstrate that the improvement is statistically meaningful and not within the noise of the refinement procedure.
+  - **Resolution test** Present the FSC curves (model versus map) for both the original and revised models in the main text, along with quantitative FSCaverage and CC values. Provide a statistical comparison (e.g., half-test refinement or cross-validation) demonstrating that the improved fit is not due to overfitting.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the cross-linking data "unequivocally demonstrate that the H1 core domain interacts exclusively with Imp7," but the number and distribution of cross-links supporting this conclusion are not clearly presented.
+  - **Evidence pointer** Results section, Figure 1, Supplementary Tables S3-S5
+  - **Concern** The manuscript reports that 21-33 out of 49 cross-links are consistent with the AF3 model for the chicken histone complex, and 15-30 for the human histone complex. This means that a substantial fraction of cross-links (16-28 for chicken, 19-34 for human) are not satisfied by the model. The authors do not discuss whether these unsatisfied cross-links are systematically distributed or whether they might indicate additional or alternative interaction interfaces. Furthermore, the cross-linking data are presented only as counts without showing the actual identified cross-linked residues or their positions in the model.
+  - **Why it matters** The claim of "exclusive" interaction with Imp7 is stronger than what the data appear to support. If a significant number of cross-links are inconsistent with the model, this could indicate conformational heterogeneity, alternative binding modes, or errors in the model. The authors must address the unsatisfied cross-links explicitly and demonstrate that they do not undermine the central conclusion.
+  - **Resolution test** Provide a table or figure listing all identified cross-linked residue pairs, their Cα-Cα distances in the model, and whether they are satisfied or unsatisfied. Discuss the distribution of unsatisfied cross-links and provide a rationale for why they do not support alternative models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose a mechanistic model for assembly and disassembly of the transport complex, including specific claims about the role of the NlB region in modulating Impβ's FG-binding properties and the involvement of Nup153 in complex retention.
+  - **Evidence pointer** Discussion section, "Proposed model for assembly and disassembly of the transport complex"
+  - **Concern** The mechanistic model presented in the discussion extends substantially beyond the experimental data. The claim that NlB occupation of FxFG binding sites on Impβ "may modulate Impβ's binding properties and specificity" and "could impact the transport pathway by excluding certain nucleoporins from binding" is purely speculative. Similarly, the proposed role of Nup153 in complex retention and the involvement of NASP in H1 release are not supported by any direct experimental evidence presented in this manuscript. While such speculation can be valuable in a discussion, it should be clearly labeled as hypothesis rather than presented as a coherent model.
+  - **Why it matters** The distinction between experimentally supported conclusions and speculative models is critical for readers who may not be specialists in nuclear transport. The current presentation risks overstating the certainty of the proposed mechanism, which could mislead future research directions.
+  - **Resolution test** Clearly label the proposed model as a hypothesis and distinguish between experimentally supported observations and speculative extensions. Consider moving the detailed mechanistic model to a separate "Proposed model" subsection with explicit caveats about the lack of direct evidence for several steps.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The ITC experiments are used to validate the structural model of the NlB-Impβ interaction, but the thermodynamic parameters and the interpretation of binding stoichiometry require clarification.
+  - **Evidence pointer** Results section, "Biochemical characterization of NlB region binding to Impβ", Table 1, Supplementary Figure S10
+  - **Concern** The ITC data are presented as binding affinities for various NlB fragments and mutants, but the stoichiometry is preset to N=1 in the analysis. Given that the NlB region contains multiple FG-like motifs (GGYxF and FxFG), it is possible that the binding mode involves multiple contact points or that the GST tag contributes to the interaction. The authors do not discuss whether the N=1 assumption is justified or whether alternative stoichiometries were tested. Additionally, the thermodynamic parameters (ΔH, ΔS) are not reported, which would be informative for understanding the nature of the interaction.
+  - **Why it matters** The ITC data are used to support the structural model, but if the binding stoichiometry is incorrect or if the GST tag influences the interaction, the interpretation could be compromised. The authors should demonstrate that the N=1 assumption is valid and that the measured affinities reflect the specific NlB-Impβ interaction.
+  - **Resolution test** Report the complete thermodynamic parameters for representative titrations. Test alternative stoichiometries in the fitting procedure and discuss whether the data support N=1. Include a control experiment with GST alone to rule out non-specific contributions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section, first paragraph
+  - **Issue** The introduction provides extensive background on nuclear transport and FG-nucleoporins, but the specific relevance to H1 import and the rationale for revisiting the cryo-EM structure could be stated more directly. The connection between the general principles of nuclear transport and the specific questions addressed in this study is not immediately clear.
+  - **Required correction** Consider restructuring the introduction to state the specific problem (the discrepancy between the deposited cryo-EM model and cross-linking data) earlier, then provide the necessary background to understand why this discrepancy matters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, AF3 prediction
+  - **Evidence pointer** Methods section, "Prediction of complexes and their validation using cross-link data"
+  - **Issue** The description of the AF3 prediction methodology is brief. The authors do not specify the version of AF3 used, the input sequences (full-length or truncated), whether multiple sequence alignments were generated internally or provided, or the number of recycles and other sampling parameters. This limits the reproducibility of the predictions.
+  - **Required correction** Provide a more detailed description of the AF3 prediction parameters, including the server version, input preparation, and any post-processing steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1, Supplementary Figures S7-S9
+  - **Issue** The figures are dense and may be difficult to interpret for readers not familiar with structural biology conventions. The cross-linking data in Figure 1 are presented as a network diagram, but the relationship between the cross-links and the structural model is not immediately clear.
+  - **Required correction** Consider adding a simplified schematic showing the overall architecture of the complex and the location of key interaction regions before presenting the detailed structural views.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Discussion, NlB nomenclature
+  - **Evidence pointer** Discussion section, "Proposed model for assembly and disassembly of the transport complex"
+  - **Issue** The authors introduce the term "NlB" (Nucleoporin-like Binding) region and use it throughout the manuscript. While the rationale for this nomenclature is explained, it may cause confusion with the well-established "IBB" (Importin-β-binding) domain terminology. The relationship between NlB and IBB is not explicitly discussed.
+  - **Required correction** Clarify the relationship between the NlB region and the IBB domain, and consider whether the new nomenclature is necessary or whether a more descriptive term would be clearer.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, comparison with previous work
+  - **Evidence pointer** Discussion section, first paragraph
+  - **Issue** The manuscript does not explicitly discuss why the original cryo-EM structure (PDB 6N88) was misinterpreted. The authors mention that the deposited structure required "significant rearrangement" but do not provide a detailed analysis of what led to the original error. This information would be valuable for the community to avoid similar mistakes in future structure determinations.
+  - **Required correction** Add a brief analysis of the likely causes of the original misinterpretation, such as limited resolution, model bias, or insufficient validation against biochemical data.
+
+## Risk / unsupported claims
+- The claim that the NlB region of Imp7 "likely modulates transport pathways and/or enhances the efficiency of H1 nuclear import" is speculative and not directly supported by the experimental data presented.
+- The proposed role of Nup153 in retaining the import complex at the nuclear basket is not supported by any experimental evidence in this manuscript.
+- The involvement of NASP in H1 release from Imp7 is presented as a "putative mechanism" but is not tested experimentally.
+- The statement that the revised model "provides novel insights into the functional roles of the acidic loop (AL) and the NlB region" is partially supported, but the specific mechanistic claims about AL conformational changes during complex assembly are not directly observed.
+- The assertion that the cross-linking data "unequivocally demonstrate" exclusive H1-Imp7 interaction is stronger than the data support, given that a substantial fraction of cross-links are not satisfied by the model.

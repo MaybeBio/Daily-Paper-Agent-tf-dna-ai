@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.04.680417",
+  "title": "Probe-Based Identification of Metal-Binding Sites Using Deep Learning Representations",
+  "authors": "Shijie Xu; Akira Onoda",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-06",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用深度学习预测金属结合位点，对象为蛋白-金属离子互作而非蛋白质-DNA互作，方法虽可借鉴但与本课题TF-DNA结合研究关联较弱。",
+  "abstract": "Metalloproteins play indispensable roles in a multitude of cellular processes. They incorporate metal ions as vital cofactors to catalyze biochemical reactions, stabilize protein structures, and mediate electron transfer. Given their prevalence and importance, identifying metal-binding sites within proteins remains a challenging task, due to the intricate complexity of the protein environments and the promiscuous binding behavior of metal ions. Although computational approaches for predicting metal-binding sites have been developed for decades, their performance often suffers from limited accuracy due to constrained methodologies and data scarcity. Here, we introduce PRIME, a hybrid deep learning framework that harnesses both evolutionary and structural signals to predict metal-binding sites with high accuracy and efficiency. PRIME employs protein language models (PLMs) and pre-trained structure models (PSMs), following the paradigm of deep representation learning, to extract essential information of protein sequences and structures. PRIME integrates a novel probe generation algorithm that bridges sequence- and structure-based predictions by efficiently scanning candidate binding sites. The resulting framework achieves superior accuracy across a wide range of metal ions, including both abundant ions such as Zn 2+ and Ca 2+ and less abundant ions such as K + and Na + , surpassing the performance of existing methods. In addition, ablation analysis shows that PSMs significantly enhance the accuracy of metal-binding site prediction. Case studies on AlphaFold2 models, along with the high prediction speed of PRIME, further demonstrate its potential for high-throughput applications in metalloproteomics.",
+  "abstract_zh": "金属蛋白在众多细胞过程中扮演着不可或缺的角色。它们将金属离子作为关键辅因子，以催化生化反应、稳定蛋白质结构并介导电子传递。鉴于其普遍性和重要性，识别蛋白质内的金属结合位点仍是一项具有挑战性的任务，这源于蛋白质环境的复杂性和金属离子混杂的结合行为。尽管用于预测金属结合位点的计算方法已发展数十年，但其性能常因方法限制和数据稀缺而受限于准确性不足。在此，我们介绍PRIME，一种混合深度学习框架，它利用进化信号和结构信号，以高准确性和高效率预测金属结合位点。PRIME采用蛋白质语言模型（PLMs）和预训练结构模型（PSMs），遵循深度表示学习的范式，提取蛋白质序列和结构的关键信息。PRIME整合了一种新颖的探针生成算法，通过高效扫描候选结合位点，桥接基于序列和基于结构的预测。该框架在多种金属离子上实现了卓越的准确性，包括如Zn²⁺和Ca²⁺等丰富离子，以及如K⁺和Na⁺等较少丰度的离子，超越了现有方法的性能。此外，消融分析表明，PSMs显著增强了金属结合位点预测的准确性。对AlphaFold2模型的案例研究，以及PRIME的高预测速度，进一步展示了其在金属蛋白质组学中高通量应用的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.04.680417",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.04.680417",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.04.680417/index.html"
+}

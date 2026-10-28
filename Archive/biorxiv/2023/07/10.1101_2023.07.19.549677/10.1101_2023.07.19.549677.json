@@ -1,0 +1,299 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.19.549677",
+  "title": "The human genome’s vocabulary as proposed by the DNA language model GROVER",
+  "doi": "10.1101/2023.07.19.549677",
+  "abstract": "Large Language Models (LLMs) on natural language have achieved a level of performance that allows the generation of coherent and syntactically correct text. DNA sequence of genomes follows rules similar to natural language, but a distinguishing factor is the absence of a concept analogous to words. We established byte-pair tokenization on the human genome and trained a foundation language model called GROVER (“ G enome R ules O btained V ia E xtracted R epresentations”) to select the optimal vocabulary with a custom fine-tuning task of next-k-mer prediction. We thus defined a dictionary of words/tokens in the human genome that best carries the information content for DNA language models. Analyzing GROVER’s learned representations, we observed that token embeddings primarily encode information related to their frequency, sequence content, and length. Some tokens are almost exclusively localized in repeats, while the vast majority widely distributes over the genome. The model also learns context and lexical ambiguity. Average embeddings of genomic regions relate to functional genomics annotation and thus indicate that GROVER has learned these structures purely from the contextual relationships of tokens. That we can extract functional annotations from the genome, purely based on sequence representation to the trained model, highlights the extent of information content encoded by the sequence. This is supported by fine-tuning tasks on genome biology with questions of promoter identity and protein-DNA binding. GROVER learns sequence context, a sense for grammatical structures and language rules in the genome. This knowledge can be extracted and used to compose a grammar book for the code of life.",
+  "authors": [
+    "Melissa Sanabria",
+    "Jonas Hirsch",
+    "Anna R. Poetsch"
+  ],
+  "published_date": "2023-07-19",
+  "updated_date": "2023-07-19T17:31:38Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.19.549677",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.19.549677.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            3
+          ]
+        ],
+        "date-time": "2026-08-03T22:35:20Z",
+        "timestamp": 1785796520026,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            19
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 20,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Large Language Models (LLMs) on natural language have achieved a level of performance that allows the generation of coherent and syntactically correct text. DNA sequence of genomes follows rules similar to natural language, but a distinguishing factor is the absence of a concept analogous to words. We established byte-pair tokenization on the human genome and trained a foundation language model called GROVER (“\n                  <jats:underline>G</jats:underline>\n                  enome\n                  <jats:underline>R</jats:underline>\n                  ules\n                  <jats:underline>O</jats:underline>\n                  btained\n                  <jats:underline>V</jats:underline>\n                  ia\n                  <jats:underline>E</jats:underline>\n                  xtracted\n                  <jats:underline>R</jats:underline>\n                  epresentations”) to select the optimal vocabulary with a custom fine-tuning task of next-k-mer prediction. We thus defined a dictionary of words/tokens in the human genome that best carries the information content for DNA language models. Analyzing GROVER’s learned representations, we observed that token embeddings primarily encode information related to their frequency, sequence content, and length. Some tokens are almost exclusively localized in repeats, while the vast majority widely distributes over the genome. The model also learns context and lexical ambiguity. Average embeddings of genomic regions relate to functional genomics annotation and thus indicate that GROVER has learned these structures purely from the contextual relationships of tokens. That we can extract functional annotations from the genome, purely based on sequence representation to the trained model, highlights the extent of information content encoded by the sequence. This is supported by fine-tuning tasks on genome biology with questions of promoter identity and protein-DNA binding. GROVER learns sequence context, a sense for grammatical structures and language rules in the genome. This knowledge can be extracted and used to compose a grammar book for the code of life.\n                </jats:p>",
+      "DOI": "10.1101/2023.07.19.549677",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            19
+          ]
+        ],
+        "date-time": "2023-07-19T17:31:38Z",
+        "timestamp": 1689787898000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "The human genome’s vocabulary as proposed by the DNA language model GROVER"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Melissa",
+          "family": "Sanabria",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonas",
+          "family": "Hirsch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anna R.",
+          "family": "Poetsch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35057062"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/1921227a0"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.3",
+          "unstructured": "Vaswani, A. et al. Attention is all you need. Advances in neural information processing systems 30, (2017). https://proceedings.neurips.cc/paper/7181-attention-is-all"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.4",
+          "first-page": "1877",
+          "article-title": "Language models are few-shot learners",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "2112",
+          "DOI": "10.1093/bioinformatics/btab083",
+          "article-title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.7",
+          "unstructured": "Dalla-Torre, H. et al. The Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics. bioRxiv 2023.01. 11.523679 (2023). https://www.biorxiv.org/content/10.1101/2023.01.11.523679.abstract"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.8",
+          "unstructured": "Devlin, J. , Chang, M.-W. , Lee, K. & Toutanova, K . Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805 (2018). https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sanabria, M. , Hirsch, J. & Poetsch, A. R . Distinguishing word identity and sequence context in DNA language models. bioRxiv (2023). https://www.biorxiv.org/content/10.1101/2023.07.11.548593",
+          "DOI": "10.1101/2023.07.11.548593"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00278187"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "445",
+          "DOI": "10.1016/S0021-9258(18)65663-7",
+          "article-title": "The action of pancreatic desoxyribonuclease. I. Isolation of mono- and dinucleotides",
+          "volume": "208",
+          "year": "1954",
+          "journal-title": "J Biol Chem"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1111098"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ctrv.2011.04.010"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0168-9525(97)01181-5"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1109/TIT.1977.1055714",
+          "article-title": "A universal algorithm for sequential data compression",
+          "volume": "23",
+          "year": "1977",
+          "journal-title": "IEEE Transactions on information theory"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.16",
+          "unstructured": "Mikolov, T. , Chen, K. , Corrado, G. & Dean, J . Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781 (2013). https://arxiv.org/pdf/1301.3781.pdfì— ì„œ"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ethayarajh, K . How contextual are contextualized word representations? Comparing the geometry of BERT, ELMo, and GPT-2 embeddings. arXiv preprint arXiv:1909.00512 (2019). https://arxiv.org/pdf/1909.00512",
+          "DOI": "10.18653/v1/D19-1006"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sennrich, R. , Haddow, B. & Birch, A . Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909 (2015). https://arxiv.org/pdf/1508.07909.pdf",
+          "DOI": "10.18653/v1/P16-1162"
+        },
+        {
+          "key": "2023100221300875000_2023.07.19.549677v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/S13072-020-0328-Z"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.19.549677",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:57:28Z",
+        "timestamp": 1768453048000
+      },
+      "score": 79.216606,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.19.549677"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            19
+          ]
+        ]
+      },
+      "references-count": 20,
+      "URL": "https://doi.org/10.1101/2023.07.19.549677",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

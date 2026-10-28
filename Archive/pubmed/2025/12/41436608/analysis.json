@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41436608",
+  "title": "Characterization of pancreatic cancer stem cells and construction of a stem cell-based prognostic signature.",
+  "authors": "Fang, Junwei; Ji, Huitao; Wang, Meiping; Zheng, Baohua; Zhou, Junwei; Xiao, Chunhong",
+  "journal": "Scientific reports",
+  "published_date": "2025-12-24",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于单细胞和批量转录组数据构建胰腺癌干细胞预后模型，虽涉及转录因子活性分析，但核心是肿瘤分型与预后预测，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Pancreatic cancer is a gastrointestinal malignancy with a dismal prognosis. Cancer stem cells (CSCs) are considered key drivers of its aggressiveness, metastatic capacity, and resistance to treatment. However, the intratumoral heterogeneity of CSCs and their roles within the tumor microenvironment remain poorly characterized. We integrated single-cell transcriptomic data (GSE214295) with large-scale bulk RNA-seq datasets (TCGA-PAAD, GEO and CPTAC) for comprehensive analysis. Malignant epithelial subpopulations were identified and their stemness evaluated using Seurat, CopyKAT, and CytoTRACE. Monocle2, scMetabolism, decoupleR, and CellChat were applied to investigate differentiation trajectories, metabolic characteristics, transcription factor activities, and intercellular communication. Finally, CSC-like prognostic index (CSCLPI) was constructed and validated with multiple machine-learning approaches. The robustness and generalizability of the model were validated using the GEO and CPTAC dataset. Seven malignant epithelial subpopulations were identified. Among them, the C2 cluster displayed the highest stemness score, lowest metabolic activity, and prominent CSC-marker expression. Pseudotime analysis placed C2 at the origin of the differentiation trajectory. C2 also exhibited activation of key stemness-related transcription factors (e.g., SOX9, MYC) and robust cell-cell communication via WNT and TGF-beta signaling. The CSCLPI model, derived from C2-specific genes, stratified patients into distinct risk groups. The CSCLPI score correlated significantly with tumor mutation burden, stemness indices, immune escape, and chemoresistance, and showed consistent prognostic accuracy across multiple cohorts. A nomogram incorporating CSCLPI and clinical parameters demonstrated strong prognostic value in pancreatic cancer. This study systematically characterized the heterogeneity and functional landscape of CSC-related subpopulations in pancreatic cancer. The stemness-based CSCLPI model offers a robust prognostic tool and potential therapeutic targets for personalized treatment and CSC-directed strategies.",
+  "abstract_zh": "胰腺癌是一种预后极差的胃肠道恶性肿瘤。癌症干细胞（CSCs）被认为是其侵袭性、转移能力及治疗耐药性的关键驱动因素。然而，CSCs的瘤内异质性及其在肿瘤微环境中的作用仍缺乏充分表征。我们整合了单细胞转录组数据（GSE214295）与大体积批量RNA-seq数据集（TCGA-PAAD、GEO和CPTAC）进行综合分析。利用Seurat、CopyKAT和CytoTRACE鉴定了恶性上皮亚群并评估其干性。应用Monocle2、scMetabolism、decoupleR和CellChat研究分化轨迹、代谢特征、转录因子活性及细胞间通讯。最后，构建了CSC样预后指数（CSCLPI），并通过多种机器学习方法进行验证。模型的稳健性和泛化能力使用GEO和CPTAC数据集验证。共鉴定出七个恶性上皮亚群。其中，C2簇表现出最高的干性评分、最低的代谢活性以及显著的CSC标志物表达。拟时间分析将C2置于分化轨迹的起点。C2还表现出关键干性相关转录因子（如SOX9、MYC）的激活，以及通过WNT和TGF-beta信号进行的强效细胞间通讯。基于C2特异性基因构建的CSCLPI模型将患者分为不同的风险组。CSCLPI评分与肿瘤突变负荷、干性指数、免疫逃逸和化疗耐药性显著相关，并在多个队列中显示出一致的预后准确性。结合CSCLPI和临床参数的列线图在胰腺癌中显示出强大的预后价值。本研究系统表征了胰腺癌中CSC相关亚群的异质性和功能景观。基于干性的CSCLPI模型为个性化治疗和CSC定向策略提供了稳健的预后工具和潜在治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41436608/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41436608/",
+  "paper_page_path": "papers/pubmed/41436608/index.html"
+}

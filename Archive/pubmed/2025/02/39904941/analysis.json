@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39904941",
+  "title": "Preoperatively Predicting PIT1 Expression in Pituitary Adenomas Using Habitat, Intra-tumoral and Peri-tumoral Radiomics Based on MRI.",
+  "authors": "Zang, Yuying; Zheng, Fei; Feng, Limei; Shi, Xinyao; Chen, Xuzhu",
+  "journal": "Journal of imaging informatics in medicine",
+  "published_date": "2025-02-05",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用MRI影像组学预测垂体腺瘤中PIT1转录因子表达，属于临床影像预测，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关系微弱。",
+  "abstract": "The study aimed to predict expression of pituitary transcription factor 1 (PIT1) in pituitary adenomas using habitat, intra-tumoral and peri-tumoral radiomics models. A total of 129 patients with pituitary adenoma (training set, n = 103; test set, n = 26) were retrospectively enrolled. A total of 12, 18, 14, 13, and 14 radiomics features were selected from the ROI(intra), ROI(intra+peri) (ROI(intra+2mm), ROI(intra+4mm), ROI(intra+6mm)), and ROI(habitat), respectively. Then, three machine learning algorithms were employed to develop radiomic models, including logistic regression (LR), support vector machines (SVM), and multilayer perceptron (MLP). The performances of the intra-tumoral, combined intra-tumoral and peri-tumoral, and habitat models were evaluated. The peritumoral region (ROI(2mm), ROI(4mm), ROI(6mm)) of the combined model with the highest performance was individually selected for further peritumoral analysis. Moreover, a deep learning radiomics nomogram (DLRN) was constructed incorporating clinical characteristics and the peri-tumoral and habitat models for individual prediction. The combined model(intra+2mm) based on ROI(intra+2mm) achieved a better performance (AUC, 0.800) than that of the intra-tumoral model alone (AUC, 0.731). And the habitat model showed a higher performance (AUC, 0.806) than that of the intra-tumoral model. In addition, the performance of the peri-tumoral model based on ROI(2mm) was 0.694 in the testing set. Furthermore, the DLRN achieved the highest performance of 0.900 in the test set. The DLRN showed the best performance for PIT1 expression in pituitary adenomas, followed by the habitat, combined model(intra+2mm), intra-tumoral model, and peri-tumoral model based on ROI(2mm), respectively. These different models are helpful for the model choice in clinical work.",
+  "abstract_zh": "本研究旨在利用病灶内部、病灶周围及生境影像组学模型预测垂体腺瘤中垂体转录因子1（PIT1）的表达。回顾性纳入129例垂体腺瘤患者（训练集，n = 103；测试集，n = 12, 18, 14, 13, 14个影像组学特征分别从ROI(intra)、ROI(intra+peri)（ROI(intra+2mm)、ROI(intra+4mm)、ROI(intra+6mm)）及ROI(habitat)中筛选。随后，采用三种机器学习算法构建影像组学模型，包括逻辑回归（logistic regression, LR）、支持向量机（support vector machines, SVM）和多层感知器（multilayer perceptron, MLP）。评估了病灶内部模型、病灶内部与周围联合模型及生境模型的性能。性能最高的联合模型的病灶周围区域（ROI(2mm)、ROI(4mm)、ROI(6mm)）被单独选出进行进一步的病灶周围分析。此外，构建了结合临床特征及病灶周围和生境模型的深度学习影像组学列线图（deep learning radiomics nomogram, DLRN），用于个体化预测。基于ROI(intra+2mm)的联合模型(intra+2mm)取得了优于单独病灶内部模型的性能（AUC，0.800对比0.731）。生境模型显示出高于病灶内部模型的性能（AUC，0.806对比0.731）。此外，基于ROI(2mm)的病灶周围模型在测试集中的性能为0.694。进一步地，DLRN在测试集中达到了最高性能0.900。DLRN在预测垂体腺瘤PIT1表达方面表现最佳，其次分别为生境模型、联合模型(intra+2mm)、病灶内部模型及基于ROI(2mm)的病灶周围模型。这些不同模型有助于临床工作中的模型选择。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39904941/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39904941/",
+  "paper_page_path": "papers/pubmed/39904941/index.html"
+}

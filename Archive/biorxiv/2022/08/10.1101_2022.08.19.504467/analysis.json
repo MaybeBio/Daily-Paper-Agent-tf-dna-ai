@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.19.504467",
+  "title": "Neural network facilitated ab initio derivation of linear formula: A case study on formulating the relationship between DNA motifs and gene expression",
+  "authors": "Chengyu Liu; Wei Wang",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-22",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用可解释神经网络从启动子序列推导DNA基序与基因表达的线性关系，虽涉及DNA序列调控，但未聚焦蛋白质-DNA互作或TF-DNA结合机制，方法上无三维互作建模，仅属边缘相关。",
+  "abstract": "Developing models with high interpretability and even deriving formulas to quantify relationships between biological data is an emerging need. We propose here a framework for ab initio derivation of sequence motifs and linear formula using a new approach based on the interpretable neural network model called contextual regression model. We showed that this linear model could predict gene expression levels using promoter sequences with a performance comparable to deep neural network models. We uncovered a list of 300 motifs with important regulatory roles on gene expression and showed that they also had significant contributions to cell-type specific gene expression in 154 diverse cell types. This work illustrates the possibility of deriving formulas to represent biology laws that may not be easily elucidated. ( https://github.com/Wang-lab-UCSD/Motif_Finding_Contextual_Regression )",
+  "abstract_zh": "开发具有高可解释性的模型，甚至推导出公式来量化生物数据之间的关系，正成为一种新兴需求。我们在此提出一个框架，用于从头推导序列基序和线性公式，该框架基于一种称为上下文回归模型的可解释神经网络模型的新方法。我们展示了该线性模型能够利用启动子序列预测基因表达水平，其性能可与深度神经网络模型相媲美。我们发现了300个对基因表达具有重要调控作用的基序，并表明它们在154种不同细胞类型中对细胞类型特异性基因表达也有显著贡献。这项工作阐明了推导公式以表示可能不易阐明的生物学规律的可能性。( https://github.com/Wang-lab-UCSD/Motif_Finding_Contextual_Regression )",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.19.504467",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.19.504467",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.19.504467/index.html"
+}

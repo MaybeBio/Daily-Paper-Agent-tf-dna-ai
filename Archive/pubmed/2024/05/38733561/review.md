@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose MulTFBS, a multichannel deep learning framework integrating one-hot encoding, word embedding, and DNA double helix structural features, with a spatial-temporal network combining convolutional neural networks, bidirectional long short-term memory networks, and attention mechanism. They report superior performance over six state-of-the-art methods on 66 universal protein-binding microarray data sets for regression tasks, with average R² of 0.698 and average PCC of 0.833, and also report strong classification performance on TF ChIP-seq data.
+- **Visible evidence base** Abstract text only; no methodological details, data descriptions, or quantitative results beyond the summary statistics reported
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed model architecture, hyperparameter settings, data preprocessing steps, baseline method descriptions, statistical significance tests, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to transcription factor binding site prediction by integrating multiple feature types within a deep learning framework. The reported performance improvements are modest but consistent across a large benchmark. However, the abstract alone does not provide sufficient detail to evaluate the technical soundness, the validity of the comparisons, or the generalizability of the claims. Several key aspects, including the novelty of the word embedding approach in this context, the statistical robustness of the reported gains, and the rigor of the classification evaluation, remain unverifiable from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulation, transcription factor binding prediction, and deep learning applications in genomics would find this work relevant. Researchers developing sequence-based predictive models may also be interested in the multichannel architecture and the integration of structural features with word embeddings.
+- **Major strengths** The integration of multiple complementary feature types, including structural and contextual information, is a reasonable and potentially powerful design choice. The evaluation across 66 data sets with both regression and classification tasks provides a broad assessment. The reported improvements over a strong baseline, CRPTS, suggest practical value.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that MulTFBS performs best on all data sets in regression tasks with average R² of 0.698 and average PCC of 0.833, which are 5.4% and 3.2% higher than CRPTS.  
+  - **Evidence pointer** Abstract, results section (location not provided)  
+  - **Concern** The abstract reports aggregate performance metrics but provides no information on the variance, distribution, or statistical significance of the improvements across the 66 data sets. Without measures such as standard deviations, confidence intervals, or paired statistical tests, it is impossible to determine whether the reported gains are robust or driven by a subset of favorable cases.  
+  - **Why it matters** The claim of superiority over six state-of-the-art methods is central to the paper's contribution. If the improvements are not statistically significant or are inconsistent across data sets, the practical advantage of MulTFBS would be substantially weakened.  
+  - **Resolution test** Provide per-data-set results, statistical significance testing (e.g., paired t-test or Wilcoxon signed-rank test) comparing MulTFBS to each baseline, and report variance or confidence intervals for the aggregate metrics.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The claim that MulTFBS integrates one-hot encoding, word embedding encoding, and double helix three-dimensional structural features in independent channels within a spatial-temporal network.  
+  - **Evidence pointer** Abstract, methods description (location not provided)  
+  - **Concern** The abstract does not describe how the word embedding is trained, what corpus or tokenization scheme is used, how the structural features are computed, or how the channels are combined. Without these details, the architecture cannot be reproduced or compared fairly against baselines.  
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The lack of architectural and training details prevents independent validation and limits the utility of the proposed framework for the community.  
+  - **Resolution test** Provide a complete description of the model architecture, including embedding dimensions, training procedures, hyperparameters, and the exact source and computation of structural features, in the main text or supplementary materials.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Evaluation rigor  
+  - **Claim pointer** The claim that MulTFBS performs well in TFBS classification tasks on TF ChIP-seq data.  
+  - **Evidence pointer** Abstract, results section (location not provided)  
+  - **Concern** The classification evaluation is described only qualitatively, with no quantitative metrics such as area under the receiver operating characteristic curve, precision, recall, or F1 score. The number of data sets, the choice of negative regions, and the comparison to baselines are also unspecified.  
+  - **Why it matters** A qualitative claim of good performance is insufficient to establish the method's utility for classification. Without quantitative results and appropriate comparisons, the classification claim remains unsupported.  
+  - **Resolution test** Report quantitative classification metrics, describe the data sets and negative set construction, and compare against the same or appropriate baselines used in the regression tasks.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, background  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The statement that word embedding representation has not been considered properly in TFBS prediction models is overly broad and may overlook prior work.  
+  - **Required correction** Soften the claim or cite specific prior work that has or has not used word embeddings for TFBS prediction to contextualize the novelty accurately.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract, results  
+  - **Evidence pointer** Abstract, results section  
+  - **Issue** The abstract does not specify the number of ChIP-seq data sets used for classification or the range of transcription factors covered.  
+  - **Required correction** Add the number of data sets and the diversity of transcription factors to the abstract or indicate where this information is available.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, methods  
+  - **Evidence pointer** Abstract, second paragraph  
+  - **Issue** The term spatial-temporal network is used without definition or reference, which may confuse readers unfamiliar with this terminology in the context of genomic sequences.  
+  - **Required correction** Define the term or provide a reference to clarify its meaning in this context.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of statistical validation for the reported performance gains and the absence of architectural and training details prevent the case from being established from the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The integration of word embeddings with structural features in a multichannel framework is a reasonable extension of existing work, but the abstract does not clearly demonstrate a conceptual advance beyond prior deep learning approaches for TFBS prediction.  
+  - Scientific importance: Accurate TFBS prediction is important for understanding gene regulation, and improvements in predictive performance have practical value. However, the modest reported gains do not suggest a transformative impact.  
+  - Interdisciplinary readership: The work bridges machine learning and genomics, which may appeal to computational biologists and bioinformaticians, but the abstract is written in a way that is accessible to specialists in both fields.  
+  - Technical soundness: Cannot be fully assessed from the abstract. The reported metrics lack statistical context, and the architecture is underspecified.  
+  - Readability for nonspecialists: The abstract is generally clear but uses technical terms without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of superior performance and architectural novelty cannot be verified without additional methodological detail and statistical analysis. A revised manuscript addressing the blocking concerns could change this assessment.
+
+## Risk / unsupported claims
+- The claim of superior performance over six state-of-the-art methods is unsupported without per-data-set results and statistical significance testing.
+- The claim of good classification performance on ChIP-seq data is unsupported due to the absence of quantitative metrics.
+- The novelty of the word embedding approach in TFBS prediction is asserted but not substantiated with a comparison to prior work.
+- The architectural details of MulTFBS, including channel integration and training procedures, are not assessable from the abstract.

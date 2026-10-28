@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "34743286",
+    "doi": "10.1007/s12539-021-00489-6",
+    "title": "FTWSVM-SR: DNA-Binding Proteins Identification via Fuzzy Twin Support Vector Machines on Self-Representation."
+  },
+  "content": {
+    "abstract": "Due to the high cost of DNA-binding proteins (DBPs) detection, many machine learning algorithms (ML) have been utilized to large-scale process and detect DBPs. The previous methods took no count of the processing of noise samples. In this study, a fuzzy twin support vector machine (FTWSVM) is employed to detect DBPs. First, multiple types of protein sequence features are formed into kernel matrices; Then, multiple kernel learning (MKL) algorithm is utilized to linear combine multiple kernels; next, self-representation-based membership function is utilized to estimate membership value (weight) of each training sample; finally, we feed the integrated kernel matrix and membership values into the FTWSVM-SR model for training and testing. On comparison with other predictive models, FTWSVM based on SR (FTWSVM-SR) obtains the best performance of Matthew's correlation coefficient (MCC): 0.7410 and 0.5909 on two independent testing sets (PDB186 and PDB2272 datasets), respectively. The results confirm that our method can be an effective DBPs detection tool. Before the biochemical experiment, our model can screen and analyze DBPs on a large scale.",
+    "keywords": [
+      "DNA-binding proteins",
+      "Fuzzy membership",
+      "Fuzzy twin support vector machine",
+      "Multiple kernel fusion",
+      "Self-representation"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*DNA-Binding Proteins",
+      "Machine Learning",
+      "*Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zou, Yi",
+        "Ding, Yijie",
+        "Peng, Li",
+        "Zou, Quan"
+      ],
+      "short_names": [
+        "Zou Y",
+        "Ding Y",
+        "Peng L",
+        "Zou Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Internet of Things Engineering, Jiangnan University, Wuxi, 214122, People's Republic of China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, 324000, People's Republic of China.",
+        "School of Internet of Things Engineering, Jiangnan University, Wuxi, 214122, People's Republic of China. pengli@jiangnan.edu.cn.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, 610054, People's Republic of China. zouquan@nclab.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zou, Yi",
+        "short_name": "Zou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Internet of Things Engineering, Jiangnan University, Wuxi, 214122, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, 324000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Peng, Li",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Internet of Things Engineering, Jiangnan University, Wuxi, 214122, People's Republic of China. pengli@jiangnan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, 610054, People's Republic of China. zouquan@nclab.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Interdisciplinary sciences, computational life sciences"
+    ],
+    "journal_abbrev": [
+      "Interdiscip Sci"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/08 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [
+      "40185915",
+      "37125199",
+      "35693256",
+      "35465187",
+      "35371189"
+    ],
+    "refs": [
+      "34176069",
+      "33476047",
+      "31267738",
+      "30316822",
+      "30239627",
+      "29753757",
+      "26482832",
+      "25184541",
+      "24475169",
+      "21993538",
+      "21935457",
+      "21550880",
+      "19631664",
+      "19385697",
+      "19110489",
+      "18244447",
+      "17586467",
+      "17469239",
+      "15312763",
+      "11043931"
+    ],
+    "similar": [
+      "34743286",
+      "35334314",
+      "34058979",
+      "31454964",
+      "37060772",
+      "31123959",
+      "37501482",
+      "35731758",
+      "31751248",
+      "36334534",
+      "36112635",
+      "28912801",
+      "36087888",
+      "35154264",
+      "25571959",
+      "20529363",
+      "24266942",
+      "24151525",
+      "32300371",
+      "36370585",
+      "30668479",
+      "22574904",
+      "33459673",
+      "34291709",
+      "23607555",
+      "22591472",
+      "32723242",
+      "29949993",
+      "33410688",
+      "31739268",
+      "29853983",
+      "35693256",
+      "35134117",
+      "30943723",
+      "31062114",
+      "26829605",
+      "25036334",
+      "32144887",
+      "30316822",
+      "32352006",
+      "28081808",
+      "23282098",
+      "30029320",
+      "22961457",
+      "26405954",
+      "30565313",
+      "31137231",
+      "26624223",
+      "28961273",
+      "29104167",
+      "37651498",
+      "29297354",
+      "29890988",
+      "24475169",
+      "31812927",
+      "29606958",
+      "34367315",
+      "26353308",
+      "22919428",
+      "21222221",
+      "30125576",
+      "24316676",
+      "25893896",
+      "35062499",
+      "24334394",
+      "23014757",
+      "28293256",
+      "32326887",
+      "33325717",
+      "33381828",
+      "19925685",
+      "23764527",
+      "31052553",
+      "34973030",
+      "32163111",
+      "26038978",
+      "35189529",
+      "31728648",
+      "20427164",
+      "30957840",
+      "18186470",
+      "35297826",
+      "33780870",
+      "25516130",
+      "34815054",
+      "32776208",
+      "18390309",
+      "32505423",
+      "27272007",
+      "29380690",
+      "26482832",
+      "34216880",
+      "28247893",
+      "28937647",
+      "28646763",
+      "33313673",
+      "26636321",
+      "26906674",
+      "35801442",
+      "37734218",
+      "29994755",
+      "34919528",
+      "36180453",
+      "37437362",
+      "37899353",
+      "35389869",
+      "37914440"
+    ],
+    "review": [
+      "34743286",
+      "35154264"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12539-021-00489-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNCG-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

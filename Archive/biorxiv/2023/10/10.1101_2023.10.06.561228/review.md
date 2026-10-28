@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided text; no assessment of figures or supplementary materials beyond what is described
+- **Shared manuscript claim summary** The authors compare five Forkhead transcription factors (FoxA1, FoxC1, FoxG1, FoxL2, FoxP3) over-expressed in mouse embryonic stem cells, and use a joint sequence and chromatin convolutional neural network to show that differential DNA sequence preferences and differential abilities to engage inaccessible chromatin together explain Fox TF binding patterns.
+- **Visible evidence base** Text descriptions of ChIP-exo, ATAC-seq, RNA-seq experiments; CNN architecture and training details; feature attribution methods; references to figures (Fig. 1-8, S1-S14) and tables (Table 1-2, S1-S3) without actual data values
+- **Missing materials affecting confidence** Actual figure panels, quantitative results (correlation coefficients, performance metrics), supplementary tables with peak counts and statistics, genome browser tracks, code repository contents, and detailed hyperparameter values
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in transcription factor biology: whether paralogous Forkhead TFs with similar DNA-binding preferences differ in their ability to engage inaccessible chromatin. The experimental design using a common mES cell environment is well-conceived, and the joint sequence-chromatin CNN approach is a reasonable analytical strategy. However, the manuscript as presented has several significant gaps. The central claim that differential chromatin engagement abilities explain Fox TF binding patterns is supported by indirect evidence (CNN performance improvements, attribution scores) but lacks direct quantitative validation. The description of CNN performance metrics is incomplete, and the manuscript does not provide sufficient detail on how the "differential abilities to engage inaccessible chromatin" are quantified or distinguished from simple sequence preference differences. The biological conclusions are plausible but the evidence base as presented is insufficient to fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying transcription factor biology, particularly pioneer factors and chromatin accessibility; computational biologists developing deep learning models for regulatory genomics; developmental biologists interested in Forkhead family functions. The methodological framework for comparing TF-chromatin interactions could be broadly applicable.
+- **Major strengths** 1) Well-designed experimental system using inducible over-expression in a common chromatin environment, which controls for cell-type-specific effects. 2) The joint sequence-chromatin CNN architecture is a principled approach to disentangle sequence and chromatin contributions. 3) The study addresses an important conceptual question about the generality of pioneer factor activity across a TF family. 4) The use of feature attribution methods to interpret model predictions at individual loci is a modern and appropriate analytical approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We demonstrate that Fox TFs bind different DNA targets, and drive differential gene expression patterns, even when induced in identical chromatin settings" and "differential sequence preferences combined with differential abilities to engage relatively inaccessible chromatin together explain Fox TF binding patterns"
+  - **Evidence pointer** Results section, Figures 2, 4, 5, 6; location not provided
+  - **Concern** The manuscript claims that differential abilities to engage inaccessible chromatin explain binding differences, but the quantitative evidence for this is not presented in the text. The CNN performance improvements from adding chromatin features are described qualitatively ("substantial improvement") without reporting actual performance metrics (e.g., correlation coefficients, AUC values, or explained variance). The attribution score analyses are described narratively but no quantitative comparisons are provided. The three example loci in Figure 6 are illustrative but do not constitute systematic validation.
+  - **Why it matters** The central conclusion of the paper rests on the claim that chromatin engagement abilities differ across Fox TFs and that this explains binding patterns. Without quantitative metrics showing (a) the magnitude of CNN performance improvement from chromatin features, (b) statistical significance of attribution score differences between TFs, and (c) validation that the model's predictions generalize, the case is not fully established.
+  - **Resolution test** Provide quantitative CNN performance metrics (e.g., Pearson correlation between predicted and observed ChIP-exo signal on held-out test chromosomes) for both sequence-only and sequence+chromatin models for each Fox TF. Report statistical tests comparing attribution scores across TFs and clusters. Include validation that model predictions generalize to independent datasets or biological perturbations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design
+  - **Claim pointer** "We over-express the selected Fox TFs in mouse embryonic stem cells, which offer a platform to contrast each TF's binding activity within the same preexisting chromatin background"
+  - **Evidence pointer** Methods, "mES cell lines and culture"; location not provided
+  - **Concern** The manuscript does not report the expression levels of the over-expressed Fox TFs relative to each other or to endogenous levels. If expression levels vary substantially across TFs, differences in binding patterns could reflect differences in protein abundance rather than intrinsic DNA-binding or chromatin engagement properties. The 24-hour time point is described as chosen to "balance between the goal of capturing the earliest DNA-binding activities" but no time course data are shown for the other four TFs (only FoxA1 is mentioned in the time course validation).
+  - **Why it matters** The interpretation that differential binding reflects intrinsic TF properties requires that expression levels are comparable across TFs. If FoxL2 is expressed at much higher levels than FoxP3, for example, its ability to bind inaccessible chromatin could be a concentration effect rather than an intrinsic property. The lack of expression level data undermines the central comparative claim.
+  - **Resolution test** Report Western blot or quantitative mass spectrometry data showing comparable protein expression levels across the five Fox TFs. Alternatively, show that binding differences persist across a range of expression levels. Provide time course data for all five TFs to demonstrate that the 24-hour time point captures comparable stages of binding establishment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** "Our CNN uses early integration of input features to predict the quantitative ChIP enrichment signal at binding sites"
+  - **Evidence pointer** Methods, "Convolutional neural network architecture and training"; location not provided
+  - **Concern** The CNN architecture description is incomplete. The manuscript states that hyperparameters were tuned separately for each Fox TF but does not report the final hyperparameter values in the main text (Table 2 is referenced but not shown). The number of chromatin tracks used as input is not specified. The training procedure mentions data augmentation by shifting windows but does not describe how many augmented examples were generated per peak. The manuscript also does not describe how the "sequence-only" models were matched in architecture to the "sequence+chromatin" models, which is critical for attributing performance differences to the chromatin features.
+  - **Why it matters** For a methods-focused paper, the CNN methodology must be fully reproducible. Without complete architecture details, hyperparameter values, and training procedures, other researchers cannot replicate or build upon the approach. The comparison between sequence-only and sequence+chromatin models is only meaningful if the architectures are matched appropriately.
+  - **Resolution test** Provide complete architecture specifications in the main text or supplement, including all hyperparameter values for each Fox TF model. Describe the exact procedure for matching sequence-only and sequence+chromatin model architectures. Specify the number and identity of chromatin tracks used as input features.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** "The classical pioneer factor FoxA1 mixes both of these binding modes, potentially explaining why its binding sites vary across different cell types despite having documented pioneering activities"
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The interpretation that FoxA1 "mixes" binding modes is based on the observation that FoxA1 shows intermediate levels of association with active and quiescent chromatin. However, the manuscript does not provide a mechanistic explanation for how a single TF could exhibit both pioneer and non-pioneer behavior. The discussion of "differential abilities to engage relatively inaccessible chromatin" is framed as an intrinsic property, but the manuscript does not identify any molecular features (e.g., specific amino acid residues, protein domains) that could explain these differences. The connection to pioneer factor biology is underdeveloped.
+  - **Why it matters** The paper's broader significance depends on providing biological insight into what makes some Fox TFs better pioneers than others. Without identifying molecular determinants or proposing a mechanistic model, the study remains largely descriptive. The claim that FoxA1 "mixes" binding modes is vague and not well-supported by the presented evidence.
+  - **Resolution test** Provide additional analyses linking chromatin engagement ability to specific protein features (e.g., domain architecture, post-translational modifications, protein-protein interaction partners). Discuss how the observed differential chromatin engagement relates to known pioneer factor mechanisms. Consider whether the "mixing" interpretation is the most parsimonious explanation or whether alternative models (e.g., different DNA-binding modes) could explain the data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "Fox TFs display a wide range of affinities for preexiting chromatin states" but "preexiting" is a typo for "preexisting". More substantively, the abstract does not specify the direction of the range (i.e., which TFs have high vs. low affinity for inaccessible chromatin).
+  - **Required correction** Fix the typo and add a brief statement indicating which TFs show higher vs. lower affinity for inaccessible chromatin to give readers a clearer summary of the findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "Fox paralogs bind to different sites when expressed in mES cells"; location not provided
+  - **Issue** The manuscript states "96% of FoxL2's binding sites display significantly greater ChIP enrichment for FoxL2 than FoxA1" but does not report the statistical threshold used for significance or the number of sites tested. The percentage alone is not interpretable without knowing the total number of sites.
+  - **Required correction** Report the total number of sites analyzed and the statistical threshold (e.g., FDR-adjusted p-value) used to define significant differential enrichment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, "Convolutional neural network feature attribution"; location not provided
+  - **Issue** The manuscript states that "di-nucleotide shuffling was performed 10 times on the DNA sequence to get the DNA background set" but does not describe how the background set was used in the DeepLiftShap computation. The choice of background is known to affect attribution results.
+  - **Required correction** Clarify how the background set was incorporated into the attribution calculation and whether results were averaged across the 10 shuffled versions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and code availability section
+  - **Evidence pointer** Data and code availability; location not provided
+  - **Issue** The manuscript states that CNN training scripts are available on GitHub but does not specify the exact repository structure or whether trained model weights are also provided. For reproducibility, trained models should be made available.
+  - **Required correction** Specify whether trained model weights are included in the repository and provide a direct link to the relevant files.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative CNN performance metrics missing), R1-M2 (expression level controls not reported), R1-M3 (incomplete CNN methodology description)
+- **Assessment against Nature-style criteria** 
+  - Originality: The study is original in its systematic comparison of multiple Fox TFs in a common chromatin environment and its use of joint sequence-chromatin CNNs. However, the conceptual framework (pioneer vs. non-pioneer TFs) is well-established, and the novelty lies primarily in the specific application.
+  - Scientific importance: The question of what determines TF binding specificity in chromatin is of high importance. The study has the potential to inform our understanding of pioneer factor biology and TF family functional diversification.
+  - Interdisciplinary readership: The work bridges molecular biology, genomics, and deep learning, and would appeal to readers across these fields. The methodological framework could be of interest to computational biologists beyond the specific biological question.
+  - Technical soundness: The experimental design is sound in principle, but the manuscript as presented lacks sufficient technical detail and quantitative validation to fully assess the soundness of the CNN approach and the biological conclusions.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, but the CNN methodology section assumes familiarity with deep learning concepts. The biological narrative is clear and well-structured.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question with a well-designed experimental system and a reasonable analytical approach. However, the current manuscript does not provide sufficient quantitative evidence to fully establish the central claims. The authors should provide CNN performance metrics, expression level controls, and a more complete methodology description. If these concerns are addressed, the study could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that "differential sequence preferences combined with differential abilities to engage relatively inaccessible chromatin together explain Fox TF binding patterns" is not fully supported by the quantitative evidence presented in the text.
+- The claim that FoxA1 "mixes" pioneer and non-pioneer binding modes is interpretive and not directly tested.
+- The claim that the selected Fox TFs "display a wide range of affinities for preexisting chromatin states" is based on qualitative descriptions of CNN attribution results without reported statistical comparisons.
+- The statement that "sequence features alone do not fully explain the observed differential binding" is supported by CNN performance descriptions but lacks reported quantitative metrics.
+- The biological significance of the differential chromatin engagement abilities (e.g., implications for development or disease) is discussed but not experimentally tested.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.15.694402",
+  "title": "Quantitative profiling of millions of nucleotides reveals sequence-encoded interactions that govern plasmid propagation",
+  "authors": "Copeman T; Fong JH; Mayne JR; Gorochowski TE; Conde SR; Ellis T; Ceroni F",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-16",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用高通量测序和神经网络模型预测质粒传播效率，虽涉及转录因子结合位点同源性等序列特征，但核心是质粒-宿主互作而非TF-DNA结合机制建模，方法可迁移但对象偏离。",
+  "abstract": "Plasmids are central to modern biotechnology, especially therapeutic development, yet their propagation in Escherichia coli remains difficult to predict. Although expression-induced burden is well understood and can be mitigated, the impact of foreign DNA segments that do not function in bacteria on plasmid propagation and stability remains largely unknown. Here we developed a pooled, sequencing-based framework that performs quantitative profiling across millions of bases, enabling high-resolution assessment of plasmid fitness at scale and revealing cryptic, sequence-encoded interactions between foreign DNA elements and bacterial hosts. Promoter-like motifs, transcription factor binding site homology, and recombination-prone architectures emerge as major determinants of propagation efficiency, with context-dependent effects demonstrating that plasmid behaviour arises from higher-order interactions between parts rather than isolated elements. Extending this framework, we introduce TRACE, a neural-network model trained on degenerate sequence libraries that predicts plasmid propagation directly from sequence. TRACE generalises across plasmid architectures and can be fine-tuned on experimental datasets to improve predictions of manufacturability and host compatibility. These advances establish a generalisable, data-driven framework for understanding and designing host-aware plasmids, transforming plasmid production from an empirical process into a predictable property of DNA sequence.",
+  "abstract_zh": "质粒是现代生物技术的核心，尤其在治疗性开发中至关重要，然而其在大肠杆菌中的增殖仍难以预测。尽管表达诱导的负担已被充分理解并可通过措施缓解，但不在细菌中发挥功能的外源DNA片段对质粒增殖和稳定性的影响仍 largely 未知。在此，我们开发了一种基于池化、测序的框架，可在数百万碱基范围内进行定量分析，实现大规模高分辨率评估质粒适应性，并揭示外源DNA元件与细菌宿主之间隐秘的、由序列编码的相互作用。启动子样基序、转录因子结合位点同源性及易重组架构成为增殖效率的主要决定因素，其上下文依赖性效应表明，质粒行为源于各部分之间的高阶相互作用，而非孤立元件。扩展此框架，我们引入TRACE，一种在简并序列文库上训练的神经网络模型，可直接从序列预测质粒增殖。TRACE可跨质粒架构泛化，并可通过实验数据集微调，以改善可制造性和宿主兼容性的预测。这些进展建立了一个可泛化的、数据驱动的框架，用于理解和设计宿主感知型质粒，将质粒生产从经验过程转变为DNA序列的可预测属性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694402",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694402",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.15.694402/index.html"
+}

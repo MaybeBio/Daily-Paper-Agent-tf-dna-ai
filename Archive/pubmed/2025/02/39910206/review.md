@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided.
+- **Assessment boundary** Scientific soundness, methodological clarity, validity of claims, and alignment with Nature-style criteria. Editorial or formatting issues are noted only where they affect scientific comprehension.
+- **Shared manuscript claim summary** The authors present coTF-reg, a computational framework integrating scRNA-seq and scATAC-seq data to identify cooperative transcription factor (TF) pairs that co-regulate target genes (TGs) in oligodendrocytes. The framework identifies co-binding TF pairs in oligodendrocyte-specific regulatory regions, trains deep neural networks to predict TG expression from TF expression, and uses Shapley interaction scores to quantify TF-TF cooperativity. Validation includes eQTL mapping, ChIP-seq enrichment analysis, Boolean logic modeling, and model performance evaluation on external datasets.
+- **Visible evidence base** Main text, methods, figure legends (Figures 1-6), supplementary figure references (S1-S8), and supplementary data references.
+- **Missing materials affecting confidence** Figure panels and supplementary figures were not directly viewable; only figure legends and in-text descriptions were available. Supplementary Data files were referenced but not provided. Specific numerical results (e.g., effect sizes, confidence intervals, exact p-values beyond thresholds) were not fully reported in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful analytical framework for studying cooperative TF interactions in a cell-type-specific context. The integration of single-cell multi-omics data with deep learning and interpretability methods is timely and relevant. However, the current text does not provide sufficient quantitative detail to fully evaluate the robustness of the method, the statistical significance of the findings, or the biological novelty of the discovered TF pairs. Several claims, particularly regarding validation and performance, are stated without adequate supporting evidence in the visible text. The manuscript would benefit from clearer presentation of validation metrics, baseline comparisons, and the biological interpretation of the identified cooperative pairs.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational biology, and oligodendrocyte biology. Those developing or applying deep learning and interpretability methods to single-cell data would find the framework relevant. The focus on oligodendrocyte biology and myelination may also interest neuroscientists studying development and demyelinating diseases.
+- **Major strengths**
+  - The framework addresses an important gap: moving from single-TF to cooperative TF analysis in a cell-type-specific manner.
+  - The integration of multiple validation approaches (eQTL, ChIP-seq, Boolean logic) is commendable and strengthens the potential biological relevance.
+  - The use of Shapley interaction scores is a principled approach to quantify feature interactions in deep learning models.
+  - The framework is presented as generalizable, which could increase its utility beyond oligodendrocytes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that co-binding TF pairs "co-regulate" TG expression is central to the manuscript, and the authors state that "Shapley interaction scores reveal high interactions between co-binding TF pairs."
+  - **Evidence pointer** Results section "Deep learning and Shapley interaction scores to measure cooperativity of co-binding transcription factors"; Figure 4.
+  - **Concern** The manuscript does not provide a clear baseline or null model for what constitutes a "high" Shapley interaction score. Without a comparison to randomly selected TF pairs (beyond the ablation study, which appears to focus on prediction performance rather than interaction scores), it is unclear whether the observed interaction scores are biologically meaningful or an artifact of the model architecture and data characteristics. The ablation study is mentioned but its results are not described in the text.
+  - **Why it matters** The central claim of the paper rests on the interpretation of these interaction scores. If the scores are not calibrated against a meaningful null distribution, the biological conclusions drawn from them are not robust.
+  - **Resolution test** Provide a clear description of the ablation study results, including a comparison of interaction score distributions between real co-binding TF pairs and random TF pairs. Report effect sizes and confidence intervals for the difference in interaction scores between key and non-key TF pairs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "Validation using oligodendrocyte eQTLs and their eGenes that are regulated by these cooperative TFs show potential regulatory roles for genetic variants."
+  - **Evidence pointer** Results section "Independent validation for cooperative TFs"; Figure 6.
+  - **Concern** The text states that eQTLs were mapped onto regulatory regions, but it does not report the number of eQTLs mapped, the proportion of regulatory regions containing eQTLs, or any statistical enrichment analysis comparing the observed overlap to what would be expected by chance. The claim of "potential regulatory roles" is therefore not quantitatively supported.
+  - **Why it matters** This validation is presented as independent evidence for the biological relevance of the identified cooperative TF pairs. Without a statistical framework to assess the significance of the eQTL overlap, the validation is incomplete.
+  - **Resolution test** Report the number of eQTLs mapped, the number of regulatory regions with eQTLs, and perform an enrichment analysis (e.g., permutation test or comparison to matched random regions) to demonstrate that the overlap is statistically significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Experimental validation using ChIP-seq data confirms some cooperative TF pairs, such as SOX10-OLIG2."
+  - **Evidence pointer** Results section "Independent validation for cooperative TFs"; Figure 6.
+  - **Concern** The text describes generating heatmaps of ChIP-seq read density for SOX10 over OLIG2 and NKX2.2 binding sites. However, it does not report quantitative metrics of enrichment (e.g., fold enrichment over input or background, fraction of sites with co-binding) or a statistical test comparing observed co-binding to expectation. The statement that SOX10 binding is "highly enriched" on ~40% of NKX2.2 sites is presented without a clear definition of "highly enriched" or a comparison to a control set of sites.
+  - **Why it matters** The ChIP-seq analysis is intended to provide experimental support for the predicted cooperative pairs. Without quantitative enrichment metrics and appropriate controls, the confirmation is not convincing.
+  - **Resolution test** Provide quantitative enrichment scores (e.g., fold change over background) and statistical tests (e.g., comparison to random genomic regions or matched control sites) for the co-binding of SOX10 with OLIG2 and NKX2.2.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "The results demonstrate stable and consistent performance" of the deep learning models.
+  - **Evidence pointer** Results section "Independent validation for the prediction performance of the models"; Supplementary Figures S5 and S7.
+  - **Concern** The text reports R-squared values for one TG (MBP) on two datasets (0.81 and 0.69). However, no information is provided on the distribution of R-squared values across all 445 TGs, the variance in performance, or the criteria for acceptable performance. The claim of "stable and consistent performance" is not supported by the data presented.
+  - **Why it matters** The generalizability of the framework depends on consistent model performance across many TGs. Reporting a single example is insufficient to support the claim.
+  - **Resolution test** Report the distribution of R-squared (or similar metrics) across all TGs, including median, interquartile range, and the proportion of TGs meeting a pre-specified performance threshold.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Step 2: Identify co-binding transcription factor pairs"
+  - **Evidence pointer** Methods, Step 2.
+  - **Issue** The description of the co-occurrence and co-enrichment analyses is brief. It is unclear how the hypergeometric test is applied (e.g., what constitutes the "population" and "success" in the test).
+  - **Required correction** Provide a more detailed description of the statistical test, including the definition of the background set and the exact null hypothesis being tested.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Deep learning models"
+  - **Evidence pointer** Methods, Step 3.
+  - **Issue** The architecture of the deep neural network is described in general terms (seven hidden layers, LeakyReLU activation), but no details are given on the number of neurons per layer, regularization, dropout, or training hyperparameters.
+  - **Required correction** Provide a full description of the network architecture and training procedure to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section "Oligodendrocyte gene regulatory network analysis"
+  - **Evidence pointer** Figure 5.
+  - **Issue** The description of the TF hierarchy analysis is brief. The criteria for classifying TFs as top, middle, or bottom regulators are given, but the biological interpretation of this hierarchy is not discussed.
+  - **Required correction** Add a brief discussion of what the hierarchy implies for oligodendrocyte gene regulation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Single-cell ATAC-seq data"
+  - **Evidence pointer** Methods, Single-cell ATAC-seq data.
+  - **Issue** The source of the ATAC-seq data is cited as reference 21, but the specific brain region and the number of samples used are not stated in the text.
+  - **Required correction** Specify the brain region and sample size for the ATAC-seq data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Independent validation for cooperative TFs"
+  - **Evidence pointer** Figure 6.
+  - **Issue** The text mentions "Liftover analysis" but does not explain the purpose or the details of this analysis.
+  - **Required correction** Briefly explain the purpose of the Liftover analysis and how it was performed.
+
+## Risk / unsupported claims
+- The claim that co-binding TF pairs "co-regulate" TG expression is not fully supported without a null model for Shapley interaction scores.
+- The claim that eQTL mapping provides evidence of "potential regulatory roles for genetic variants" is not quantitatively supported.
+- The claim that ChIP-seq data "confirms" cooperative TF pairs is not supported without quantitative enrichment metrics.
+- The claim of "stable and consistent performance" of the models is not supported by the limited data presented.
+- The biological novelty of the identified cooperative TF pairs (e.g., SOX10-TCF12, SOX10-NKX2.2) is not discussed in the context of existing literature, making it difficult to assess the scientific importance of the findings.

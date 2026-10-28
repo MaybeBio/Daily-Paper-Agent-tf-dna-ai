@@ -1,0 +1,492 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.11.628078",
+  "title": "Accurate nucleic acid-binding residue identification based on domain-adaptive protein language model and explainable geometric deep learning",
+  "doi": "10.1101/2024.12.11.628078",
+  "abstract": "Protein-nucleic acid interactions play a fundamental and critical role in a wide range of life activities. Accurate identification of nucleic acid-binding residues helps to understand the intrinsic mechanisms of the interactions. However, the accuracy and interpretability of existing computational methods for recognizing nucleic acid-binding residues need to be further improved. Here, we propose a novel method called GeSite based the domain adaptive protein language model and explainable E(3)-equivariant graph convolution neural network. Prediction results across multiple benchmark test sets demonstrate that GeSite is superior or comparable to state-of-the-art prediction methods. The performance comparison on low structure similarity and newly released test proteins demonstrates the robustness and generalization of the method. Detailed experimental results suggest that the advanced performance of GeSite lies in the well-designed nucleic acid-binding protein adaptive language model. Meanwhile, interpretability analysis exposes the perception of the prediction model on various remote and close functional domains, which is the source of its discernment. The data and source code of GeSite are freely accessible at https://github.com/pengsl-lab/GeSite .",
+  "authors": [
+    "Wenwu Zeng",
+    "Liangrui Pan",
+    "Boya Ji",
+    "Liwen Xu",
+    "Shaoliang Peng"
+  ],
+  "published_date": "2024-12-16",
+  "updated_date": "2024-12-20T08:28:50Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.11.628078",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.11.628078.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2026-07-17T19:42:00Z",
+        "timestamp": 1784317320961,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 50,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                16
+              ]
+            ],
+            "date-time": "2024-12-16T00:00:00Z",
+            "timestamp": 1734307200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Protein-nucleic acid interactions play a fundamental and critical role in a wide range of life activities. Accurate identification of nucleic acid-binding residues helps to understand the intrinsic mechanisms of the interactions. However, the accuracy and interpretability of existing computational methods for recognizing nucleic acid-binding residues need to be further improved. Here, we propose a novel method called GeSite based the domain adaptive protein language model and explainable E(3)-equivariant graph convolution neural network. Prediction results across multiple benchmark test sets demonstrate that GeSite is superior or comparable to state-of-the-art prediction methods. The performance comparison on low structure similarity and newly released test proteins demonstrates the robustness and generalization of the method. Detailed experimental results suggest that the advanced performance of GeSite lies in the well-designed nucleic acid-binding protein adaptive language model. Meanwhile, interpretability analysis exposes the perception of the prediction model on various remote and close functional domains, which is the source of its discernment. The data and source code of GeSite are freely accessible at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/pengsl-lab/GeSite\">https://github.com/pengsl-lab/GeSite</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2024.12.11.628078",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            20
+          ]
+        ],
+        "date-time": "2024-12-20T08:28:50Z",
+        "timestamp": 1734683330000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Accurate nucleic acid-binding residue identification based on domain-adaptive protein language model and explainable geometric deep learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Wenwu",
+          "family": "Zeng",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liangrui",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Boya",
+          "family": "Ji",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liwen",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shaoliang",
+          "family": "Peng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth191"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.3",
+          "first-page": "D364",
+          "article-title": "A series of PDB-related databanks for everyday needs",
+          "volume": "43",
+          "year": "2014",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sci-ence.adl2528"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac236"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zeng, W. , Lv, D. , Liu, X. , Chen, G. , Liu, W. and Peng, S. (2023) ESM-NBR: fast and accurate nucleic acid-binding residue prediction via protein language model feature representation and multi-task learning. 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 76–81.",
+          "DOI": "10.1109/BIBM58861.2023.10385509"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae040"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae488"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1253"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1131"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab564"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab044"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v38i3.28044"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae039"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03828-1"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abm4805"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.22",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.23",
+          "first-page": "8844",
+          "article-title": "MSA Transformer",
+          "volume": "139",
+          "year": "2021",
+          "journal-title": "In Proceedings of the 38th International Conference on Machine Learning. PMLR, Proceedings of Machine Learning Research"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.24",
+          "unstructured": "Satorras, V.G. , Hoogeboom, E. and Welling, M. (2021) E (n) equivariant graph neural networks. International conference on machine learning. PMLR, 9323–9332."
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dey, R. and Salem, F.M. (2017) Gate-variants of gated recurrent unit (GRU) neural networks. 2017 IEEE 60th international midwest symposium on circuits and systems (MWSCAS). 1597–1600.",
+          "DOI": "10.1109/MWSCAS.2017.8053243"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-52293-7"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts565"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad630"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks966"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01585-1"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.34",
+          "unstructured": "Devlin, J. , Chang, M.W. , Lee, K. and Toutanova, K. (2019) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. Conference of the North-American-Chapter of the Association-for-Computational-Linguistics - Human Language Technologies (NAACL-HLT), 4171–4186."
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.35",
+          "article-title": "Don’t stop pretraining: Adapt language models to domains and tasks",
+          "year": "2020",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.36",
+          "unstructured": "Wang, M. , Yu, L. , Zheng, D. , Gan, Q. , Gai, Y. , Ye, Z. , Li, M. , Zhou, J. , Huang, Q. , Ma, C. et al. (2019) Deep Graph Library: Towards Efficient and Scalable Deep Learning on Graphs. ArXiv, abs/1909.01315."
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.37",
+          "article-title": "Decoupled weight decay regularization",
+          "year": "2017",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.38",
+          "unstructured": "Hamilton, W.L. , Ying, Z. and Leskovec, J. (2017) Inductive Representation Learning on Large Graphs. Proceedings of the 31st International Conference on Neural Information Processing Systems, 1025–1035."
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.39",
+          "unstructured": "Jing, B. , Eismann, S. , Suriana, P. , Townshend, R.J.L. and Dror, R. (2021) Learning from protein structure with geometric vector perceptrons. International Conference on Learning Representations."
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.40",
+          "article-title": "Graph attention networks",
+          "year": "2017",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.41",
+          "unstructured": "Vaswani, A. , Shazeer, N. , Parmar, N. , Uszkoreit, J. , Jones, L. , Gomez, A.N. , Kaiser, L. and Polosukhin, I. (2017) Attention Is All You Need. Advances in Neural Information Processing Systems, 30."
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.42",
+          "first-page": "e84",
+          "article-title": "DRNApred, fast sequence-based method that accurately predicts and discriminates DNA- and RNA-binding residues",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00749"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.44",
+          "first-page": "bbac538",
+          "article-title": "Prediction of RNA-interacting residues in a protein using CNN and evolutionary profile",
+          "volume": "24",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg062"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.46",
+          "first-page": "D412",
+          "article-title": "Pfam: The protein families database in 2021",
+          "volume": "49",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.47",
+          "unstructured": "Ying, Z. , Bourgeois, D. , You, J. , Zitnik, M. and Leskovec, J. (2019) Gnnexplainer: Generating explanations for graph neural networks. Advances in neural information processing systems, 32."
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.femsre.2004.12.008"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-08296-w"
+        },
+        {
+          "key": "2024122311553650000_2024.12.11.628078v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(01)00318-X"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.11.628078",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:41:17Z",
+        "timestamp": 1768462877000
+      },
+      "score": 119.98712,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.12.11.628078"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            16
+          ]
+        ]
+      },
+      "references-count": 50,
+      "URL": "https://doi.org/10.1101/2024.12.11.628078",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and evidence alignment based solely on the supplied text
+- **Shared manuscript claim summary** The authors present Simulated Solute Tempering 2 (SST2), a novel enhanced sampling method combining simulated tempering with solute tempering scaling, and claim it achieves comparable or superior sampling efficiency to ST, SST1, and REST2 on three test systems (chignolin CLN025, Trp-Cage, and p97/PNGase complex) while requiring fewer temperature rungs and offering simpler implementation
+- **Visible evidence base** Results section text, figure references (Fig. 1-7, S1-S33), table references (Table 1), methods descriptions, discussion text
+- **Missing materials affecting confidence** Figures and tables themselves are not provided; supplementary information is referenced but not included; simulation convergence data referenced as "supplementary" is not visible; specific numerical values for transition probabilities, binding events, and melting temperatures are partially reported but error bars and statistical details are not fully specified
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting hybrid method that combines the practical advantages of simulated tempering with the solute-focused scaling of REST2. The core idea is sound and the implementation appears straightforward. However, the evidence as presented in the text is insufficient to fully substantiate the central claims of comparable or superior efficiency across all test systems. The reported results show mixed outcomes (e.g., SST2 underperforms REST2 for Trp-Cage folding transitions), and the discussion does not adequately reconcile these discrepancies with the overall positive framing. The manuscript would benefit from clearer quantitative comparisons, more rigorous statistical treatment, and a more balanced interpretation of the results.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers working on enhanced sampling methods, particularly those studying protein folding, conformational dynamics, and ligand binding. The method's simplicity of implementation relative to REST2 could appeal to researchers seeking practical alternatives for large biomolecular systems. The application to protein-peptide binding events may interest researchers in drug discovery and protein-protein interaction studies.
+- **Major strengths** The method is conceptually elegant, combining two established techniques in a novel way. The implementation in OpenMM with publicly available code is commendable for reproducibility. The use of multiple test systems, including a protein-peptide complex, demonstrates broader applicability. The discussion of practical considerations such as weight estimation and proline isomerization shows methodological awareness.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims SST2 achieves "comparable or superior sampling efficiency to ST, SST1 and REST2" across test systems
+  - **Evidence pointer** Results section, Fig. 4A and 4B
+  - **Concern** The reported data show SST2 is comparable to REST2 for chignolin but approximately twofold less efficient for Trp-Cage folding transitions. The claim of "comparable or superior" is not consistently supported by the visible evidence. The text acknowledges this discrepancy but does not provide a mechanistic explanation or sufficient discussion of why this occurs and whether it is expected to generalize.
+  - **Why it matters** The central claim of the manuscript is that SST2 offers efficiency comparable to existing methods. If this claim is not robustly supported across all test systems, the practical value proposition of the method is weakened. Readers need to understand the conditions under which SST2 excels versus underperforms.
+  - **Resolution test** Provide a quantitative comparison table with effect sizes and confidence intervals for all methods across all systems. Discuss the Trp-Cage discrepancy explicitly, including potential causes (e.g., system size, energy landscape features, weight convergence) and whether this is a fundamental limitation or a tunable parameter issue.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The manuscript states SST2 can accurately reconstruct thermal stability curves and melting temperatures
+  - **Evidence pointer** Results section, Fig. 5A and 5B
+  - **Concern** The melting temperature estimates for SST2 are reported with uncertainties, but the comparison to experimental values and to other methods is not systematically presented. For Trp-Cage, all methods overestimate the experimental melting temperature by approximately 20 K, which is attributed to force field effects. However, the manuscript does not demonstrate that SST2's estimates are statistically indistinguishable from REST2's, nor does it address whether the mean-field effective temperature approximation introduces systematic biases beyond force field limitations.
+  - **Why it matters** Accurate reconstruction of thermodynamic properties is a key validation criterion for enhanced sampling methods. If SST2's melting temperature estimates carry additional systematic errors beyond known force field limitations, this affects the method's credibility for quantitative thermodynamic predictions.
+  - **Resolution test** Provide a direct statistical comparison of melting temperatures across methods with confidence intervals. Discuss whether the effective temperature approximation in SST2 introduces additional bias compared to REST2 and how this scales with system size or temperature range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript claims SST2 is "particularly well-suited for investigating large biomolecular systems"
+  - **Evidence pointer** Results section, p97/PNGase complex simulations
+  - **Concern** The p97/PNGase complex is the only large system tested, and the comparison is made only against REST2, not against ST or SST1. The claim of suitability for large systems is based on a single example with limited comparative data. The manuscript does not discuss how the computational cost of SST2 scales with system size relative to other methods, nor does it address potential convergence issues for larger solutes.
+  - **Why it matters** The stated advantage for large systems is a key selling point of the method. Without systematic scaling analysis or multiple large-system benchmarks, this claim remains speculative.
+  - **Resolution test** Provide scaling analysis of computational cost versus system size for SST2 compared to REST2 and ST. Include at least one additional large system benchmark or discuss the theoretical scaling behavior of the method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript reports binding event frequencies and cluster occupancies for the p97/PNGase system
+  - **Evidence pointer** Results section, Fig. 6 and 7
+  - **Concern** The binding event counts (8.0 ± 1.1 for SST2 and 6.3 ± 3.9 for REST2) are reported with standard deviations, but the number of independent simulations, the criteria for defining binding events, and the statistical significance of the difference are not clearly stated. The cluster occupancy analysis reports percentages without confidence intervals or assessment of cluster stability across simulations.
+  - **Why it matters** Quantitative claims about binding kinetics and conformational populations require robust statistical treatment. Without this, the comparison between methods cannot be properly evaluated.
+  - **Resolution test** Specify the number of replicates, the statistical tests used, and provide confidence intervals for all reported quantities. Discuss whether the observed differences between methods are statistically significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology consistency
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The manuscript uses "Simulated Solvent Tempering 2" in the Discussion and Conclusion section but "Simulated Solute Tempering 2" in the title, abstract, and elsewhere. This inconsistency could confuse readers.
+  - **Required correction** Standardize the terminology to "Simulated Solute Tempering 2" throughout, or provide a clear explanation for the alternative name.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Parameter reporting
+  - **Evidence pointer** Materials and Methods, Simulation Run section
+  - **Issue** The friction coefficient for the Langevin integrator is reported as 10, 1, and 1 ps⁻¹ for ST, SST1, and SST2, respectively, but the rationale for these different values is not explained. The effect of friction coefficient on sampling efficiency is discussed in the supplementary (Fig. S33), but the main text does not summarize the key findings.
+  - **Required correction** Provide a brief explanation for the choice of friction coefficients and summarize the key conclusions from the supplementary analysis in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Convergence criteria
+  - **Evidence pointer** Results section, convergence discussion
+  - **Issue** The manuscript states weight estimation reaches stability after 2-10 µs depending on the system, but does not define the specific convergence criteria used or show the convergence plots in the main text.
+  - **Required correction** Define the convergence criteria explicitly and consider including a representative convergence plot in the main text or supplementary.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Proline isomerization discussion
+  - **Evidence pointer** Results section, Fig. 3
+  - **Issue** The manuscript describes proline cis-trans isomerization as a potential artifact but does not clearly state whether this is a known limitation of the force field, the enhanced sampling method, or both. The proposed solutions (excluding omega dihedrals or raising maximum temperature) are mentioned but not systematically evaluated.
+  - **Required correction** Clarify the origin of the proline isomerization issue and provide a more systematic evaluation of the proposed mitigation strategies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure quality
+  - **Evidence pointer** Fig. 2
+  - **Issue** The description of Fig. 2 mentions a correlation between RMSD and lambda values, but the figure itself is not visible in the provided text. The text would benefit from a more quantitative description of this correlation.
+  - **Required correction** Provide quantitative measures of the RMSD-lambda correlation (e.g., correlation coefficients) in the text.
+- **Technical failings that need to be addressed before the case is established** The manuscript does not provide sufficient statistical detail for the reported comparisons. Specifically, the number of independent simulations, the criteria for defining binding events, and the statistical significance of differences between methods are not clearly stated. The convergence criteria for weight estimation are not defined. The comparison between SST2 and REST2 for the p97/PNGase system lacks a discussion of whether the observed differences in cluster occupancies are meaningful given the error bars. The manuscript also does not address the potential impact of the mean-field effective temperature approximation on the accuracy of thermodynamic properties beyond the reported melting temperatures.
+
+## Risk / unsupported claims
+- The claim that SST2 achieves "comparable or superior sampling efficiency" is not fully supported by the visible data, particularly for Trp-Cage where SST2 underperforms REST2 by approximately a factor of two.
+- The claim that SST2 is "particularly well-suited for investigating large biomolecular systems" is based on a single test case and lacks systematic scaling analysis.
+- The statement that SST2 offers "easier computation implementation" than REST2 is plausible but not quantitatively demonstrated.
+- The claim that the mean-field approximation for effective temperature estimation is "particularly useful in comparative studies" is asserted but not rigorously justified.
+- The assertion that SST2's continuous trajectory provides advantages for capturing slow conformational changes is speculative and not directly tested.
+- The discussion of machine learning and diffusion model integration is forward-looking but not supported by any results in the current manuscript.

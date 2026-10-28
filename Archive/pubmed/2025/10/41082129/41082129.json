@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "41082129",
+    "doi": "10.1007/s11325-025-03472-3",
+    "title": "Machine learning insights into obesity related genes XRCC4 and ARL6 in obstructive sleep apnea."
+  },
+  "content": {
+    "abstract": "PURPOSE: Obstructive sleep apnea (OSA) is highly prevalent among obese individuals, with a complex and bidirectional relationship wherein obesity not only serves as a primary risk factor for OSA but also exacerbates its severity. This interconnection may be influenced by a set of shared genes; however, the molecular mechanisms linking obesity and OSA remain poorly characterized. This study aims to explore the molecular signatures and mechanisms underlying obesity-related genes in OSA. METHODS: We analyzed gene expression data from the GSE135917 dataset (training dataset) to identify obesity-related differentially expressed genes (DEGs) in OSA patients. Functional enrichment analyses and machine learning approaches were employed to explore associated biological pathways and develop predictive models. The findings were subsequently validated in an independent dataset, GSE38792. RESULTS: A total of 25 significant DEGs were identified, with 13 genes upregulated and 12 downregulated in OSA patients. Functional enrichment analysis revealed associations with insulin resistance, lipid metabolism, and Toll-like receptor signaling. Machine learning models highlighted XRCC4 and ARL6 as potential diagnostic biomarkers, validated in the independent GSE38792 dataset. XRCC4's role in DNA repair may be compromised by obesity-related inflammation and oxidative stress, while ARL6 is implicated in adipocyte function and intracellular signaling. CONCLUSION: Our findings contribute to the understanding of obesity-related genes in OSA, proposing XRCC4 and ARL6 as novel biomarkers. This study underscores the complexity of the interactions between obesity and OSA, paving the way for future research into their shared molecular pathways.",
+    "keywords": [
+      "ARL6",
+      "Computational biology",
+      "Machine learning",
+      "Obesity",
+      "Obstructive sleep apnea",
+      "XRCC4"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sleep Apnea, Obstructive/genetics",
+      "*Machine Learning",
+      "*Obesity/genetics/complications",
+      "*DNA-Binding Proteins/genetics",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yong-Chao",
+        "Wang, Xin",
+        "Yuan, Hu-Wei",
+        "Pan, Yan-Wen",
+        "Pan, Hong-Guang",
+        "Teng, Yi-Shu"
+      ],
+      "short_names": [
+        "Chen YC",
+        "Wang X",
+        "Yuan HW",
+        "Pan YW",
+        "Pan HG",
+        "Teng YS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0835-2468"
+      ],
+      "affiliations": [
+        "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China. 3343579569@qq.com.",
+        "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China.",
+        "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China.",
+        "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China.",
+        "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China.",
+        "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China. tys118@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yong-Chao",
+        "short_name": "Chen YC",
+        "identifiers": [
+          "0000-0003-0835-2468"
+        ],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China. 3343579569@qq.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Xin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Hu-Wei",
+        "short_name": "Yuan HW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Yan-Wen",
+        "short_name": "Pan YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Hong-Guang",
+        "short_name": "Pan HG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Yi-Shu",
+        "short_name": "Teng YS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Shenzhen Children's Hospital, 7019 Yitian Road, Futian District, Shenzhen, Guangdong, China. tys118@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Sleep & breathing = Schlaf & Atmung"
+    ],
+    "journal_abbrev": [
+      "Sleep Breath"
+    ],
+    "pub_date": "2025 Oct 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/13 12:31",
+    "fetched_at": "2026-10-01 04:07:39"
+  },
+  "links": {
+    "cites": [
+      "42512585"
+    ],
+    "refs": [
+      "39690003",
+      "39636493",
+      "39244884",
+      "39152432",
+      "38944218",
+      "38457003",
+      "37955230",
+      "37627544",
+      "37599249",
+      "37244148",
+      "37230968",
+      "37200686",
+      "37099126",
+      "36765282",
+      "35309348",
+      "35153807",
+      "33794304",
+      "32793188",
+      "31300334",
+      "30691323",
+      "28453785",
+      "27589148",
+      "27323230",
+      "25742519",
+      "25728776",
+      "24560188",
+      "23489884",
+      "23079209",
+      "22818968",
+      "22351038",
+      "21982524",
+      "18363635",
+      "18227501",
+      "16933960",
+      "15314642",
+      "11991871",
+      "8548796"
+    ],
+    "similar": [
+      "41082129",
+      "40540134",
+      "37244148",
+      "41474729",
+      "41221287",
+      "39804507",
+      "38316731",
+      "41784220",
+      "40118992",
+      "39475897",
+      "40197140",
+      "39709277",
+      "39220737",
+      "38077447",
+      "39699950",
+      "39081807",
+      "41058921",
+      "41820035",
+      "40966956",
+      "40747360",
+      "37189386",
+      "26429654",
+      "39636493",
+      "39060945",
+      "39252231",
+      "38791576",
+      "39665515",
+      "19413140",
+      "39815737",
+      "30719767",
+      "24790272",
+      "34880901",
+      "41074066",
+      "41089051",
+      "33530245",
+      "37213066",
+      "40736303",
+      "38443855",
+      "29992456",
+      "40759999",
+      "41847390",
+      "33592435",
+      "16160021",
+      "40948653",
+      "35278842",
+      "22754038",
+      "39672284",
+      "35372438",
+      "41247559",
+      "26581829",
+      "26636516",
+      "39690003",
+      "40815837",
+      "33688499",
+      "38169659",
+      "41257924",
+      "35910196",
+      "16634984",
+      "41448284",
+      "40140010",
+      "40162052",
+      "23770180",
+      "23074483",
+      "19022640",
+      "28500380",
+      "40952619",
+      "28590499",
+      "21508507",
+      "36245838",
+      "38178888",
+      "32604683",
+      "36363559",
+      "26897500",
+      "25348129",
+      "25325441",
+      "24688164",
+      "37858225",
+      "37699925",
+      "26446244",
+      "41200172",
+      "33647771",
+      "36468645",
+      "38660729",
+      "38858201",
+      "30032465",
+      "36854279",
+      "21122092",
+      "39236452",
+      "40888857",
+      "41010948",
+      "28834917",
+      "39722420",
+      "40113269",
+      "35559050",
+      "41109884",
+      "21664182",
+      "30311184",
+      "38358332",
+      "31559568",
+      "31196834"
+    ],
+    "review": [
+      "41082129",
+      "41820035",
+      "19413140",
+      "33592435",
+      "16160021",
+      "16634984",
+      "23770180",
+      "38858201"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/obesity.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Obesity"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s11325-025-03472-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

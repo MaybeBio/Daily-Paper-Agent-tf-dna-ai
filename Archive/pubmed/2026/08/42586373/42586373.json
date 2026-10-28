@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "42586373",
+    "doi": "10.1016/j.slast.2026.100459",
+    "title": "MINPP1, HES4 and SLCO5A1 as core signature genes mediating the effects of type 2 diabetes on coronary artery bypass grafting."
+  },
+  "content": {
+    "abstract": "PURPOSE: This study aimed to identify the signature genes that mediate the effects of type 2 diabetes (T2D) on coronary artery bypass grafting (CABG), and to elucidate their molecular regulatory mechanisms and potential clinical therapeutic value for improving the clinical outcomes of T2D patients undergoing CABG. METHODS: An integrated approach of bioinformatics analysis, machine learning, clinical validation and in vitro experiments was employed. Multi-cohort T2D and CABG data were analyzed via differential expression profiling, functional enrichment, PPI network construction, and LASSO regression/Boruta algorithms to screen core signature genes mediating the T2D-CABG interaction. Nomogram models were built and validated to assess the diagnostic value of these genes. LncRNA-miRNA-mRNA regulatory networks were constructed to explore their molecular mechanisms. Potential targeted drugs were predicted via DSigDB mining and molecular docking. Clinical validation was performed in CABG patients, and human aortic smooth muscle cells were used for in vitro experiments to verify the functional role of the key signature gene SLCO5A1. RESULTS: MINPP1, HES4 and SLCO5A1 were identified as core signature genes mediating the adverse effects of T2D on CABG, with consistent abnormal expression in T2D and CABG datasets and all AUC values > 0.625. Nomogram models based on these genes showed excellent calibration and clinical net benefit for evaluating T2D-associated pathological risks in CABG patients. JUN and GATA2 were found to be key transcription factors regulating these genes, and a novel complex lncRNA-miRNA-mRNA regulatory network was constructed. Clinical detection revealed significantly up-regulated SLCO5A1 in T2D patients undergoing CABG, with its expression positively correlated with systemic inflammatory burden. In vitro experiments confirmed that SLCO5A1 knockdown markedly inhibited T2D-related metabolic stress (high glucose/Ox-LDL)-induced vascular inflammation, endothelial dysfunction, oxidative stress and cytoskeletal remodeling via the NF-kappaB pathway. Molecular docking demonstrated high binding affinity of CHEMBL1182312 to SLCO5A1 (docking score = -6.9 kcal/mol) and stable binding of valproic acid to MINPP1 (docking score = -5.0 kcal/mol). CONCLUSION: MINPP1, HES4 and SLCO5A1 were signature genes mediating the effects of T2D on CABG.",
+    "keywords": [
+      "Coronary artery bypass grafting",
+      "Drug analysis",
+      "Enrichment analysis",
+      "Nomogram",
+      "Signature genes",
+      "Type 2 diabetes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetes Mellitus, Type 2/genetics/complications",
+      "*Coronary Artery Bypass",
+      "Gene Expression Profiling",
+      "Computational Biology",
+      "Gene Regulatory Networks",
+      "Male",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Gang",
+        "Feng, Zunyi",
+        "Kang, Shuba",
+        "Li, Bin",
+        "Li, Ke",
+        "Liu, Xiaojun"
+      ],
+      "short_names": [
+        "Wang G",
+        "Feng Z",
+        "Kang S",
+        "Li B",
+        "Li K",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China.",
+        "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China.",
+        "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China.",
+        "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China.",
+        "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China.",
+        "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China. Electronic address: qxxzwk10@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Gang",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Zunyi",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Shuba",
+        "short_name": "Kang S",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bin",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaojun",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Surgery, Qingdao Cardiovascular Hospital, Qingdao, Shandong, China. Electronic address: qxxzwk10@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "SLAS technology"
+    ],
+    "journal_abbrev": [
+      "SLAS Technol"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/12 23:34",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42586373",
+      "39375405",
+      "40916281",
+      "39176085",
+      "42698445",
+      "41703488",
+      "41895505",
+      "42107160",
+      "36527108",
+      "39080630",
+      "40093012",
+      "41836445",
+      "39433858",
+      "41442003",
+      "41132669",
+      "40895573",
+      "40834023",
+      "42109727",
+      "42377012",
+      "42718792",
+      "39139563",
+      "29620215",
+      "41316541",
+      "41909133",
+      "41533020",
+      "41479901",
+      "40406126",
+      "41190071",
+      "41044520",
+      "42123445",
+      "41858783",
+      "41461777",
+      "42565562",
+      "32041280",
+      "42653779",
+      "42537010",
+      "41591671",
+      "41508240",
+      "42530267",
+      "42292668",
+      "41436831",
+      "41052072",
+      "35992146",
+      "41120603",
+      "40216809",
+      "39872314",
+      "41229415",
+      "40355485",
+      "40374866",
+      "42437319",
+      "40913866",
+      "41136974",
+      "40196107",
+      "40676786",
+      "40453984",
+      "39926598",
+      "40821793",
+      "36339449",
+      "41872824",
+      "41342434",
+      "42528957",
+      "41326554",
+      "39749331",
+      "41220037",
+      "42023419",
+      "41214111",
+      "38144565",
+      "40165133",
+      "42509823",
+      "38062833",
+      "41288681",
+      "41136472",
+      "39512836",
+      "41299770",
+      "40025145",
+      "42015036",
+      "38971104",
+      "39145311",
+      "42421348",
+      "42471730",
+      "41200172",
+      "41511918",
+      "41371106",
+      "41635814",
+      "33902539",
+      "42520680",
+      "42327749",
+      "41162503",
+      "29705125",
+      "35957838",
+      "39849508",
+      "40999058",
+      "41683685",
+      "40859027",
+      "41760032",
+      "42268472",
+      "39736250",
+      "41866576",
+      "42471019",
+      "42631563"
+    ],
+    "review": [
+      "42586373"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2472-6303(26)00073-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

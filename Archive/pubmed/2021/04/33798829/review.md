@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or computational details
+- **Shared manuscript claim summary** The study computationally investigates whether the cytotoxic activity of phenanthriplatin depends on the specific size of the phenanthridine ligand pi system. Two derivatives with an additional ring in the N-heterocyclic ligand are designed. DFT and MD simulations examine aquation, guanine binding, methionine deactivation, and DNA intercalation/binding/distortion, compared with phenanthriplatin.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological parameters, or comparative data are provided
+- **Missing materials affecting confidence** Full manuscript, computational methods, all figures and tables, quantitative outcomes, statistical or energetic data, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a well-defined computational hypothesis and a systematic comparative framework. However, the provided material is insufficient to evaluate the validity of the conclusions. No quantitative results, methodological details, or comparative outcomes are visible. The claim that the findings inform the cytotoxic profile is not supported by the abstract alone.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, anticancer drug design, and computational chemistry would be interested. The work addresses a fundamental structure-activity question for monofunctional Pt(II) drugs, which is relevant to the development of improved platinum-based chemotherapeutics.
+- **Major strengths** The research question is focused and mechanistically motivated. The comparative design, testing two derivatives against phenanthriplatin, is logical. The use of both DFT and MD simulations covers multiple relevant aspects of drug reactivity and DNA interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the outcomes of the analysis highlight how the addition of one more ring influences reactivity and, consequently, the cytotoxic profile.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative data, such as activation barriers, binding free energies, or MD trajectory metrics, to support the stated influence on reactivity or cytotoxicity. The phrase "consequently, the cytotoxic profile" implies a causal link that is not demonstrated by the visible evidence.
+  - **Why it matters** Without quantitative results, the reader cannot assess whether the observed differences are significant or merely marginal. The link between computational reactivity and cytotoxic activity is inferential and requires explicit evidence, such as correlation with experimental data or clear mechanistic thresholds.
+  - **Resolution test** Provide specific numerical results for each investigated property for all three complexes, and demonstrate a clear, quantitative trend that supports the claimed influence on cytotoxic potential.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that DFT and MD simulations were employed to investigate the specified aspects.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No details are given on the DFT functional, basis sets, solvation model, MD force field, simulation length, or system setup. These parameters are critical for reproducibility and for judging the reliability of the computational results.
+  - **Why it matters** Computational conclusions are only as credible as the methods used. Without this information, the technical soundness of the study cannot be evaluated, and the results cannot be independently verified.
+  - **Resolution test** Include a full methods section with all computational parameters, or at minimum summarize key settings in the abstract if space permits.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The abstract implies that the findings have implications for the cytotoxic activity of phenanthriplatin derivatives.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The study is purely computational, and no experimental validation is mentioned. The abstract does not acknowledge the limitations of extrapolating from computational reactivity to cellular cytotoxicity.
+  - **Why it matters** Cytotoxic activity depends on many factors beyond the studied properties, including cellular uptake, efflux, and off-target interactions. Overstating the implications without experimental support could mislead readers.
+  - **Resolution test** Add a clear statement of limitations and, if available, reference any experimental data or explicitly frame the results as predictive rather than confirmatory.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "eventually, its identity" is ambiguous regarding whether the identity of the added ring or the ligand as a whole is meant.
+  - **Required correction** Rephrase to specify whether the ring identity or the ligand structure is the variable of interest.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the number of derivatives or their specific structures beyond "increasing the number of rings."
+  - **Required correction** Briefly describe the two derivatives, such as the position and type of the additional ring, to aid reader comprehension.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "cytotoxic profile"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "cytotoxic profile" is used without defining which aspects of cytotoxicity are being referenced, such as potency, selectivity, or resistance profile.
+  - **Required correction** Define the term or replace it with a more specific descriptor, such as "predicted reactivity profile relevant to cytotoxicity."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological details prevents any assessment of the core claims. R1-M3 is non-blocking but should be addressed to avoid overinterpretation.
+- **Assessment against Nature-style criteria** Originality is moderate, as the question of ligand size effects in Pt(II) drugs is a natural extension of existing work on phenanthriplatin. Scientific importance is limited by the lack of experimental validation and the absence of quantitative evidence in the abstract. Interdisciplinary readership is plausible, but the abstract does not provide enough detail to engage non-specialists in computational chemistry. Technical soundness cannot be assessed from the supplied material. Readability for nonspecialists is acceptable, but the abstract assumes familiarity with Pt(II) drug mechanisms and computational methods.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the framework is sound, but the abstract alone does not provide sufficient evidence to support the conclusions. A full review of the manuscript with complete methods and results would be required to determine whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that the addition of one more ring influences the cytotoxic profile is unsupported by the abstract, as no quantitative or experimental evidence is provided.
+- The claim that the computational analysis highlights how ring identity influences reactivity is not assessable without specific results.
+- Any implication that the findings directly relate to cytotoxic activity in cells is unsupported, given the purely computational nature of the study as described.

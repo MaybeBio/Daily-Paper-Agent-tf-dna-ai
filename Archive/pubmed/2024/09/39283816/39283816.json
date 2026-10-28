@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "39283816",
+    "doi": "10.1111/pbi.14446",
+    "title": "High-quality haplotype-resolved chromosome assembly provides evolutionary insights and targeted steviol glycosides (SGs) biosynthesis in Stevia rebaudiana Bertoni."
+  },
+  "content": {
+    "abstract": "Stevia rebaudiana Bertoni is popular source of plant-derived low/no-calorie natural sweeteners (LNCSs), collectively known as steviol glycosides (SGs). Nevertheless, genetic predisposition for targeted biosynthesis of SGs is complex due to multi-substrate functionality of key uridine diphosphate glycosyltransferases (UGTs). Here, we created a high-quality monoploid assembly of 1.34 Gb with N50 value of 110 Mb, 55 551 predicted protein-coding genes, and ~80% repetitive regions in Rebaudioside-A (Reb-A) enriched cultivar of S. rebaudiana. Additionally, a haplotype-based chromosome assembly consisting of haplotype A and haplotype B with an overall genome size of 2.33Gb was resolved, harbouring 639 634 variants including single nucleotide polymorphisms (SNPs), indels and structural variants (SVs). Furthermore, a lineage-specific whole genome duplication analysis revealed that gene families encoding UGTs and Cytochrome-P450 (CYPs) were tandemly duplicated. Additionally, expression analysis revealed five tandemly duplicated gene copies of UGT76G1 having significant correlations with Reb-A content, and identified key residue (leu200val) in the glycosylation of Reb-A. Furthermore, missense variations identified in the acceptor region of UGT76G1 in haplotype resolve genome, transcriptional and molecular docking analysis were confirmed with resequencing of 10 diverse stevia genotypes (~25X). Gene regulatory network analysis identified key transcription factors (MYB, bHLH, bZIP and AP2-ERF) as potential regulators of SG biosynthesis. Overall, this study provides haplotype-resolved chromosome-level genome assembly for genome editing and enhancing breeding efforts for targeted biosynthesis of SGs in S. rebaudiana.",
+    "keywords": [
+      "Stevia rebaudiana",
+      "Cytochrome P450",
+      "LNCS",
+      "haplotype chromosome",
+      "phased genome",
+      "steviol glycosides"
+    ],
+    "mesh_terms": [
+      "*Stevia/genetics/metabolism",
+      "*Diterpenes, Kaurane/metabolism",
+      "*Haplotypes/genetics",
+      "*Chromosomes, Plant/genetics",
+      "Polymorphism, Single Nucleotide/genetics",
+      "Glucosides/biosynthesis/metabolism",
+      "Glycosides/biosynthesis/metabolism",
+      "Glycosyltransferases/genetics/metabolism",
+      "Genome, Plant/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Masand, Mamta",
+        "Sharma, Shikha",
+        "Kumari, Sangeeta",
+        "Pal, Poonam",
+        "Majeed, Aasim",
+        "Singh, Gopal",
+        "Sharma, Ram Kumar"
+      ],
+      "short_names": [
+        "Masand M",
+        "Sharma S",
+        "Kumari S",
+        "Pal P",
+        "Majeed A",
+        "Singh G",
+        "Sharma RK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2113-4230",
+        "ORCID: 0000-0002-1167-9499"
+      ],
+      "affiliations": [
+        "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+        "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+        "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Masand, Mamta",
+        "short_name": "Masand M",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Shikha",
+        "short_name": "Sharma S",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Kumari, Sangeeta",
+        "short_name": "Kumari S",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Poonam",
+        "short_name": "Pal P",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Majeed, Aasim",
+        "short_name": "Majeed A",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Gopal",
+        "short_name": "Singh G",
+        "identifiers": [
+          "0000-0002-2113-4230"
+        ],
+        "affiliations": [
+          "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Ram Kumar",
+        "short_name": "Sharma RK",
+        "identifiers": [
+          "0000-0002-1167-9499"
+        ],
+        "affiliations": [
+          "CSIR-Institute of Himalayan Bioresource Technology, Palampur, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Plant Biotechnol J"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/17 10:44",
+    "fetched_at": "2026-09-30 02:58:16"
+  },
+  "links": {
+    "cites": [
+      "42352998",
+      "41742023",
+      "41378979",
+      "41355941",
+      "41318385",
+      "40961143",
+      "40343350",
+      "39659415"
+    ],
+    "refs": [
+      "37963906",
+      "37301218",
+      "36814384",
+      "36232367",
+      "36038144",
+      "35691507",
+      "34557778",
+      "34425398",
+      "34354050",
+      "34145222",
+      "34059662",
+      "33550805",
+      "33404544",
+      "32893860",
+      "32553272",
+      "32552824",
+      "32440658",
+      "32353626",
+      "32353625",
+      "32300014",
+      "31953413",
+      "31842948",
+      "31727128",
+      "31506640",
+      "31383970",
+      "31324778",
+      "31182573",
+      "31020555",
+      "30931475",
+      "30897351",
+      "30497373",
+      "30342096",
+      "30107434",
+      "30061498",
+      "29703587",
+      "29528490",
+      "28971018",
+      "28928460",
+      "28538728",
+      "28413161",
+      "28401891",
+      "28298431",
+      "28288112",
+      "27717919",
+      "27318204",
+      "27235540",
+      "27131372",
+      "26786968",
+      "26405948",
+      "25409509",
+      "25001368",
+      "24451623",
+      "24065788",
+      "23990416",
+      "23713723",
+      "23486614",
+      "23104886",
+      "22217600",
+      "21593126",
+      "21443767",
+      "20644199",
+      "19910308",
+      "19478138",
+      "19378139",
+      "19349283",
+      "19307242",
+      "19217634",
+      "18510760",
+      "17984973",
+      "17024082",
+      "16845043",
+      "16543274",
+      "16219458",
+      "15980438",
+      "15961478",
+      "15034147",
+      "14759262",
+      "14597658",
+      "12946413",
+      "12134150",
+      "11935018",
+      "11846609",
+      "11130711",
+      "10336605",
+      "9862982",
+      "9023104"
+    ],
+    "similar": [
+      "39283816",
+      "25734328",
+      "30897351",
+      "30466787",
+      "34425398",
+      "27923373",
+      "24811677",
+      "33550805",
+      "33187479",
+      "37566994",
+      "39406770",
+      "23298683",
+      "36576674",
+      "38396813",
+      "34129077",
+      "28215607",
+      "37415121",
+      "30506508",
+      "39356362",
+      "39783863",
+      "29433624",
+      "32468157",
+      "34059662",
+      "31638900",
+      "36041365",
+      "32314186",
+      "25500454",
+      "29433620",
+      "31195254",
+      "31234787",
+      "34196745",
+      "29433622",
+      "37722610",
+      "26042546",
+      "31505448",
+      "22823347",
+      "24246890",
+      "24023961",
+      "21477883",
+      "29433623",
+      "34861537",
+      "38563232",
+      "28928460",
+      "37311291",
+      "39730590",
+      "28886311",
+      "32934264",
+      "22037480",
+      "30606102",
+      "30569490",
+      "39323262",
+      "32218594",
+      "33099759",
+      "31104695",
+      "38870412",
+      "34445254",
+      "39339518",
+      "37963906",
+      "25001368",
+      "34626939",
+      "39769347",
+      "38959519",
+      "28838349",
+      "27108325",
+      "30784987",
+      "31189962",
+      "27246994",
+      "36075450",
+      "31951945",
+      "24249153",
+      "35417157",
+      "34857750",
+      "32745585",
+      "23303701",
+      "31182573",
+      "33811576",
+      "30646526",
+      "16786291",
+      "32549269",
+      "32111874",
+      "28500994",
+      "28838348",
+      "22341569",
+      "30474973",
+      "12221607",
+      "36745615",
+      "37432401",
+      "26438788",
+      "34708277",
+      "31923735",
+      "23199688",
+      "29863335",
+      "29680056",
+      "25822696",
+      "23800667",
+      "35782100",
+      "20102764",
+      "27784241",
+      "30287064",
+      "26192921"
+    ],
+    "review": [
+      "39283816",
+      "34196745",
+      "37722610",
+      "22823347",
+      "37311291",
+      "39323262",
+      "36075450",
+      "34708277"
+    ],
+    "pmc": [
+      "11606428"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39283816/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.14446",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

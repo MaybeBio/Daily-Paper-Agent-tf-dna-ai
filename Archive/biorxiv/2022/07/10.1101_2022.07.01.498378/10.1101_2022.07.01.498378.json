@@ -1,0 +1,280 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.01.498378",
+  "title": "A modular dCas9-based recruitment platform for combinatorial epigenome editing",
+  "doi": "10.1101/2022.07.01.498378",
+  "abstract": "<h4>ABSTRACT</h4> CRISPR-dCas9 based targeted epigenome editing tools allow precise manipulation and functional investigation of various genome modifications. However, these tools often display substantial context dependency, with highly variable efficacy between target genes and cell types, potentially due to underlying variation in the chromatin modifications present. While simultaneous recruitment of multiple distinct ‘effector’ chromatin regulators has improved efficacy, these systems typically lack control over which effectors bind and their spatial organisation. To overcome this we have created a new modular combinatorial epigenome editing platform, called SSSavi. This system acts as an interchangeable and reconfigurable docking platform fused to dCas9 to enable simultaneous recruitment of up to four different effectors, allowing precise control and reconfiguration of the effector composition and spatial ordering of their binding. We demonstrate the activity and specificity of the SSSavi system and compare it to existing multi-effector targeting systems, establishing its efficacy. Furthermore, by altering the spatial ordering of effector recruitment, across multiple target genes and cell lines, we demonstrate the importance of effector recruitment order for effective transcriptional regulation. Together, this system offers the capacity to explore effector co-recruitment to specific loci to potentially enhance the manipulation of chromatin contexts previously resistant to targeted epigenomic editing.",
+  "authors": [
+    "Swain T",
+    "Pflueger C",
+    "Freytag S",
+    "Poppe D",
+    "Pflueger J",
+    "Nguyen T",
+    "Li JK",
+    "Lister R"
+  ],
+  "published_date": "2022-07-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.01.498378",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.01.498378.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR513317",
+    "raw_record": {
+      "id": "PPR513317",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR513317"
+        ]
+      },
+      "doi": "10.1101/2022.07.01.498378",
+      "title": "A modular dCas9-based recruitment platform for combinatorial epigenome editing",
+      "authorString": "Swain T, Pflueger C, Freytag S, Poppe D, Pflueger J, Nguyen T, Li JK, Lister R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Swain T",
+            "lastName": "Swain",
+            "firstName": "Tessa",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2184-1717"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harry Perkins Institute of Medical Research, Nedlands, Western Australia, 6009, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pflueger C",
+            "lastName": "Pflueger",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harry Perkins Institute of Medical Research, Nedlands, Western Australia, 6009, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Freytag S",
+            "lastName": "Freytag",
+            "firstName": "Saskia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harry Perkins Institute of Medical Research, Nedlands, Western Australia, 6009, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Poppe D",
+            "lastName": "Poppe",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harry Perkins Institute of Medical Research, Nedlands, Western Australia, 6009, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pflueger J",
+            "lastName": "Pflueger",
+            "firstName": "Jahnvi",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harry Perkins Institute of Medical Research, Nedlands, Western Australia, 6009, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nguyen T",
+            "lastName": "Nguyen",
+            "firstName": "Trung",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1749-8509"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harry Perkins Institute of Medical Research, Nedlands, Western Australia, 6009, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li JK",
+            "lastName": "Li",
+            "firstName": "Ji Kevin",
+            "initials": "JK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harry Perkins Institute of Medical Research, Nedlands, Western Australia, 6009, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lister R",
+            "lastName": "Lister",
+            "firstName": "Ryan",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6637-7239"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harry Perkins Institute of Medical Research, Nedlands, Western Australia, 6009, Australia"
+                },
+                {
+                  "affiliation": "Australian Research Council Centre of Excellence in Plant Energy Biology, School of Molecular Sciences, The University of Western Australia, Crawley, Western Australia 6009, Australia"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6637-7239"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7820-153X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1749-8509"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5039-2714"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2184-1717"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  CRISPR-dCas9 based targeted epigenome editing tools allow precise manipulation and functional investigation of various genome modifications. However, these tools often display substantial context dependency, with highly variable efficacy between target genes and cell types, potentially due to underlying variation in the chromatin modifications present. While simultaneous recruitment of multiple distinct ‘effector’ chromatin regulators has improved efficacy, these systems typically lack control over which effectors bind and their spatial organisation. To overcome this we have created a new modular combinatorial epigenome editing platform, called SSSavi. This system acts as an interchangeable and reconfigurable docking platform fused to dCas9 to enable simultaneous recruitment of up to four different effectors, allowing precise control and reconfiguration of the effector composition and spatial ordering of their binding. We demonstrate the activity and specificity of the SSSavi system and compare it to existing multi-effector targeting systems, establishing its efficacy. Furthermore, by altering the spatial ordering of effector recruitment, across multiple target genes and cell lines, we demonstrate the importance of effector recruitment order for effective transcriptional regulation. Together, this system offers the capacity to explore effector co-recruitment to specific loci to potentially enhance the manipulation of chromatin contexts previously resistant to targeted epigenomic editing.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/02/2022.07.01.498378.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.01.498378"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR513317"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR513317&type=FILE&fileName=EMS147084-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38000387",
+            "reference": "Nucleic acids research. 2024 Jan;52(1):474-491",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS147084",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-07-04",
+      "firstPublicationDate": "2022-07-02",
+      "firstIndexDate": "2022-07-04",
+      "fullTextReceivedDate": "2022-07-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

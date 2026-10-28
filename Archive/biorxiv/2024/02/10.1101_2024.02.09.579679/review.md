@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, acknowledgements) as provided
+- **Assessment boundary** Structural and functional claims based on crystallography, bioinformatic analyses, and in silico docking; no experimental validation of ligand binding or biological function is included
+- **Shared manuscript claim summary** The authors report the first crystal structures of the ACDC domain from two distinct P. falciparum ApiAP2 proteins and one P. vivax orthologue, revealing a novel left-handed orthogonal four-helix bundle with a characteristic kink in helix α3. They further perform in silico docking against the Tres Cantos Antimalarial Set and identify five compounds that stably associate with the conserved hydrophobic pocket in molecular dynamics simulations, proposing the ACDC domain as a potential therapeutic target.
+- **Visible evidence base** Crystallographic data (Table 1), structural figures (Figures 1, 2), sequence alignment (Figure 3), structural homology search (Figure 4), docking results (Figure 5, 6, Table 2, Supplementary Figures 4, 5), molecular dynamics analyses (Supplementary Videos 1-3)
+- **Missing materials affecting confidence** Electron density maps, crystallographic validation metrics (Ramachandran statistics, B-factors, coordinate errors), full docking pose data, MD trajectory analyses (RMSD/RMSF plots), supplementary tables and figures referenced but not provided, PDB accession codes, experimental validation of ligand binding
+
+## Reviewer
+- **Overall assessment** This manuscript presents the first experimental structures of the ACDC domain from ApiAP2 proteins, a domain of previously unknown structure and function. The crystallographic work appears technically sound, and the identification of a conserved fold with a distinctive helix kink is a valuable contribution. However, the functional implications and the therapeutic potential are supported only by in silico predictions without experimental validation. The docking and MD analyses, while suggestive, lack the depth of analysis required to establish the compounds as credible leads. The manuscript would benefit from additional validation experiments or a more cautious interpretation of the computational results.
+- **Who would be interested in the results, and why** Structural biologists studying transcriptional regulators in Apicomplexa; malaria researchers interested in ApiAP2 protein function; drug discovery groups targeting Plasmodium and related parasites; researchers studying novel protein folds and their evolution.
+- **Major strengths** First experimental structures of the ACDC domain; high-resolution data for the PfAP2-O5 structure (1.75 Å); demonstration of structural conservation despite low sequence identity; identification of a unique fold with a kink in helix α3 as a potential signature; comparative analysis across Plasmodium species; thoughtful discussion of the limitations of the dimeric forms observed in crystals.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of docking and MD
+  - **Claim pointer** "we identified a small molecule that can potentially bind to any Apicomplexan ACDC domain within a pocket highly conserved amongst ApiAP2 proteins" and "five of the selected molecules... exhibited commendable stability throughout the MD simulations, signifying stable interaction with the three ACDC domains"
+  - **Evidence pointer** Results section "Docking analysis of plasmodial inhibitors", Figures 5 and 6, Table 2, Supplementary Figures 4 and 5, Supplementary Videos 1-3
+  - **Concern** The docking and MD analyses are presented as evidence of potential ligand binding, but the methodology has significant limitations. The docking screen used a rigid receptor with only three flexible residues, which may not adequately capture the conformational plasticity of the binding pocket. The selection criteria for the seven prioritized compounds are not fully described, and the MD simulations (100 ns) are relatively short for establishing stable binding. The analysis of MD trajectories is limited to monitoring minimum distance between ligand and pocket, which is insufficient to demonstrate stable binding. No binding free energy calculations, residence time analyses, or detailed interaction profiling are provided. The negative control behavior is described qualitatively, and the claim that five compounds "exhibited commendable stability" is not supported by quantitative data.
+  - **Why it matters** The therapeutic potential of the ACDC domain as a drug target rests entirely on the credibility of the in silico predictions. Without rigorous validation of the docking and MD results, the claim that these compounds could serve as leads for inhibitor development is not established. Overinterpretation of computational results without experimental confirmation could mislead the field.
+  - **Resolution test** Provide quantitative MD analyses (RMSD, RMSF, interaction energies, hydrogen bond occupancy), binding free energy calculations (MM-PBSA or similar), replicate simulations, and a more detailed description of the selection criteria. Ideally, experimental validation using biophysical methods (ITC, MST, NMR) or cellular assays would strengthen the claims.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of the ACDC domain
+  - **Claim pointer** "we propose that, within the context of the full-length protein, the ACDC domain could be involved in protein-protein interactions" and "supporting the hypothesis that the ACDC domain mediates protein-protein interactions"
+  - **Evidence pointer** Discussion section, Figure 1B, crystallographic dimer analyses
+  - **Concern** The proposal that the ACDC domain mediates protein-protein interactions is based on crystallographic dimer formation and a single literature reference to AP2R-2. The crystallographic dimers are acknowledged by the authors to be of uncertain biological relevance, and the AP2R-2 interaction evidence is from a different protein context. The functional hypothesis is reasonable but speculative, and the manuscript does not provide any direct experimental evidence for protein-protein interaction mediated by the ACDC domain.
+  - **Why it matters** The functional role of the ACDC domain is a central question for understanding ApiAP2 biology. If the domain mediates protein-protein interactions, this would have significant implications for transcriptional regulation mechanisms. However, the current evidence is insufficient to support this claim, and the manuscript should either provide experimental data or clearly frame this as a hypothesis requiring future testing.
+  - **Resolution test** Provide experimental evidence for protein-protein interactions involving the ACDC domain (e.g., co-immunoprecipitation, pull-down assays, yeast two-hybrid) or clearly reframe the proposal as a speculative hypothesis in the discussion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural validation and quality
+  - **Claim pointer** "The final structure of PfAP2-O5 was refined at 1.75 Å resolution with Rwork of 20.98% and Rfree of 24.78%" and "Both AP2-I structures were highly similar with a root-mean-square deviation (RMSD) of 0.76 Å over 171 superimposed Cα atoms"
+  - **Evidence pointer** Results section, Table 1
+  - **Concern** The manuscript reports crystallographic statistics in Table 1 but does not provide key validation metrics such as Ramachandran plot statistics, MolProbity scores, coordinate errors, or B-factor distributions. The Rfree/Rwork gap for the PfAP2-O5 structure (3.8%) is acceptable but the manuscript does not discuss the quality of the electron density, particularly for the regions where residues are missing (residues 676-677 in chain A) or where the additional TEV site residues form an extra helical turn. For the lower-resolution AP2-I structures (3.0 and 3.15 Å), the Rfree values (26.35% and 27.81%) are relatively high, and the manuscript does not discuss the quality of the density in the loop regions that required deletion for molecular replacement.
+  - **Why it matters** The structural claims are the foundation of the manuscript. Without adequate validation metrics and discussion of density quality, readers cannot fully assess the reliability of the reported structures, particularly for the lower-resolution AP2-I structures where the helix-swapping dimer is observed.
+  - **Resolution test** Provide complete crystallographic validation statistics, electron density maps for key regions (particularly the helix α3 kink and the helix α4 swapping interface), and a discussion of the density quality in the regions where the models are less well-defined.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Molecular dynamics simulation protocol
+  - **Evidence pointer** Materials and Methods section "Molecular Dynamic Simulation protocol"
+  - **Issue** The MD protocol description lacks several critical details: the number of replicate simulations, the total simulation time per system, the temperature and pressure coupling algorithms used during production, the water box dimensions, and the criteria for determining that a ligand is "stably associated" with the pocket. The description of the negative control selection is also vague.
+  - **Required correction** Provide a complete description of the MD setup, including simulation length, replicates, ensemble, thermostats/barostats, and quantitative criteria for assessing binding stability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figures 1, 2, 5, 6
+  - **Evidence pointer** Results section, figure legends
+  - **Issue** The figure legends are brief and do not fully describe the contents. For example, Figure 1B shows the dimer interface but does not specify which residues are involved or how the interface was analyzed. Figure 5A shows the conserved hydrophobic patch but does not indicate the conservation score threshold used. Figure 6A shows docking poses but does not specify the docking scores for each compound.
+  - **Required correction** Expand figure legends to include all relevant details, including the specific residues shown, the analysis methods used, and the quantitative values displayed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript does not discuss the relationship between the ACDC domain and other known protein-protein interaction domains in Apicomplexan transcription factors, nor does it compare the ACDC fold to other four-helix bundle structures beyond the statement that no similar structures were found. A more detailed comparison with the broader structural database would strengthen the novelty claim.
+  - **Required correction** Add a brief discussion of the structural landscape of four-helix bundles and the specific features that distinguish the ACDC fold from other known bundles.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** PDB deposition
+  - **Evidence pointer** Materials and Methods, Results
+  - **Issue** The manuscript states that structures were deposited in the PDB but does not provide accession codes. This is a standard requirement for publication.
+  - **Required correction** Include PDB accession codes for all three structures.
+- **Technical failings that need to be addressed before the case is established** The docking and MD analyses are not sufficiently rigorous to support the claim of potential therapeutic targeting. The manuscript needs either (1) substantially more detailed computational analyses with quantitative metrics, or (2) experimental validation of ligand binding. The functional hypothesis regarding protein-protein interactions requires experimental support or clear framing as speculation.
+- **Assessment against Nature-style criteria** Originality: The first experimental structures of the ACDC domain represent a novel contribution, and the identification of a unique fold with a kink in helix α3 is original. Scientific importance: The ACDC domain is present in a subset of ApiAP2 proteins, which are essential regulators of parasite development; understanding this domain could have implications for therapeutic development. However, the importance is currently limited by the lack of functional data. Interdisciplinary readership: The work bridges structural biology, parasitology, and drug discovery, which could attract a broad readership. Technical soundness: The crystallographic work appears sound, but the computational docking and MD analyses lack the depth and rigor expected for the claims made. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections of the methods are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural characterization is a valuable contribution, but the docking and MD claims require substantial strengthening or experimental validation before the therapeutic potential can be considered established.
+
+## Risk / unsupported claims
+- The claim that the identified compounds "can potentially bind to any Apicomplexan ACDC domain" is not supported by the data, as only three Plasmodium structures were tested and no experimental binding data are provided.
+- The claim that five compounds "exhibited commendable stability" in MD simulations is not supported by quantitative data.
+- The proposal that the ACDC domain mediates protein-protein interactions is speculative and not directly supported by experimental evidence.
+- The statement that the ACDC domain "can be considered as a new therapeutic target" is premature without functional validation of the domain's role and experimental confirmation of ligand binding.
+- The claim that the ACDC fold is "never-before-seen" is based on a Foldseek search but the search parameters and significance thresholds are not fully described.

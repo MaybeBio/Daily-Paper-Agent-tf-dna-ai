@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability) as provided.
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretability of results as presented in the provided text. No supplementary files, figures, or tables were available for direct inspection.
+- **Shared manuscript claim summary** The authors present a transformer-based model (transformer-XL with convolutional layers) for functional genomics, specifically for transcription start site (TSS) prediction in *Escherichia coli*. They curate a TSS annotation set from multiple experimental sources, train their model on this curated set, and analyze the attention heads of the trained model to extract biological insights, particularly regarding transcription factor binding sites and promoter architecture.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 3.1–3.4), Results (Sections 4.1–4.5), Discussion, Data availability. References to supplementary figures and tables are present but not accessible.
+- **Missing materials affecting confidence** Supplementary Figures S1–S11, Supplementary Tables A1–A2, Supplementary Files 1 and 2, all figures (Figures 1–4), and the full model architecture details. These are critical for evaluating the validity of the attention head analysis and the performance claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely topic: interpretability of transformer models in functional genomics. The authors propose a method to analyze attention heads in a transformer-XL model trained for TSS prediction in *E. coli*, and they report that many attention heads specialize toward identifying transcription factor binding sites and promoter elements. The curation of TSS annotations from multiple experimental datasets is a useful contribution. However, the manuscript has significant methodological gaps. The attention head analysis relies on averaged attention scores and motif construction from a small subset of positions, but the statistical validation of these motifs is not described. The claim that attention heads "specialize" toward transcription factors is not rigorously tested against null models or alternative explanations. The performance comparison between models trained on different annotation sets is presented without confidence intervals or statistical tests. The biological interpretation of the model output profiles, particularly regarding sense-antisense correlations and pseudogenes, is speculative and not supported by quantitative analyses. The manuscript would benefit from a more rigorous evaluation framework and clearer presentation of the methods used to derive biological conclusions.
+- **Who would be interested in the results, and why** Researchers in computational genomics, deep learning interpretability, and prokaryotic gene regulation would be interested. The work demonstrates a potential approach for extracting biological knowledge from transformer models applied to DNA sequences, which is relevant to the broader community working on explainable AI in genomics. The curated TSS dataset for *E. coli* may also be of practical use.
+- **Major strengths** (1) The topic is relevant and timely, addressing the need for interpretability in deep learning models for genomics. (2) The curation of TSS annotations from multiple experimental datasets is a practical contribution. (3) The analysis of attention heads is a novel approach in this domain and could inspire further work. (4) The authors make their code and data available, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that the majority of subunits (attention heads) of the model are specialized towards identifying transcription factors and are able to successfully characterize both their binding sites and consensus sequences."
+  - **Evidence pointer** Section 4.3, Section 4.4, Supplementary Figures S1–S6
+  - **Concern** The claim that attention heads are "specialized" toward transcription factors is not supported by a rigorous statistical framework. The analysis appears to be based on visual inspection of averaged attention score profiles and motif construction from the top 50 scoring positions. There is no description of how the motifs were constructed, how their significance was assessed, or how the authors distinguished genuine biological specialization from random or spurious patterns. The lack of a null model or permutation test makes it impossible to evaluate whether the observed attention patterns are meaningful or could arise by chance.
+  - **Why it matters** The central contribution of the manuscript is the biological interpretation of attention heads. Without statistical validation, the conclusions are not reliable and the method cannot be generalized to other datasets or models.
+  - **Resolution test** The authors should provide a clear description of the motif discovery method, including the algorithm used, the background model, and the significance threshold. They should also include a comparison against a null distribution (e.g., randomized attention scores or shuffled sequences) to demonstrate that the observed motifs are statistically enriched.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The evaluated annotation sets have many different annotated start sites" and "Improved model performances indicate a better quality of the curated custom set."
+  - **Evidence pointer** Section 4.1, Section 4.2, Table 1, Table 2, Figure 2
+  - **Concern** The comparison of TSS annotation sets and the performance evaluation of models trained on different annotation sets lack statistical rigor. The authors report ROC AUC and PR AUC scores but do not provide confidence intervals, standard deviations, or statistical tests to determine whether the observed differences are significant. The claim that the curated set is of "better quality" is based on a single model run, and the possibility of overfitting to the curated set is not addressed.
+  - **Why it matters** The validity of the curated dataset and the performance improvements are key to the manuscript's conclusions. Without statistical evidence, the reader cannot assess whether the curated set is genuinely superior or whether the observed differences are due to chance.
+  - **Resolution test** The authors should report the mean and standard deviation of performance metrics across multiple runs with different random seeds. They should also perform statistical tests (e.g., paired bootstrap or McNemar's test) to compare the performance of models trained on different annotation sets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The full genome sequence is processed in consecutive segments of length *l*" and "A set of fully connected layers transforms *h*(*k*) into a model output *ŷ*(*k*)."
+  - **Evidence pointer** Section 3.2, Section 3.3, Supplementary File 1
+  - **Concern** The description of the model architecture and training procedure is incomplete. The authors mention that the model is based on transformer-XL with convolutional layers, but they do not provide details on the number of layers, hidden dimensions, number of attention heads, dropout rates, learning rate, batch size, or optimization algorithm. The training procedure, including the loss function and early stopping criteria, is only briefly mentioned. Without these details, the experiments cannot be reproduced.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific publications. The lack of architectural and training details prevents other researchers from replicating the results or building upon the work.
+  - **Resolution test** The authors should provide a complete description of the model architecture and training hyperparameters, either in the main text or in a supplementary file. They should also include the code used for training and evaluation, which they claim is available on GitHub.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The increased probabilities along the sense and antisense of noncoding regions corroborate mechanisms of interference as described in literature."
+  - **Evidence pointer** Section 4.5, Figure 4, Supplementary Figure S11
+  - **Concern** The interpretation of the model output profiles in terms of transcriptional interference is speculative. The authors observe increased model output in noncoding regions and on both strands, but they do not provide a quantitative analysis linking these observations to specific mechanisms of interference. The discussion of "head-on interference" and "roadblock interference" is not supported by direct evidence from the model or experiments.
+  - **Why it matters** The biological interpretation of the model output is a key contribution of the manuscript. If the interpretations are not well-supported, the value of the work is diminished.
+  - **Resolution test** The authors should provide a more detailed analysis of the model output profiles, including statistical comparisons between different genomic regions (e.g., coding vs. noncoding, sense vs. antisense). They should also discuss alternative explanations for the observed patterns and, if possible, validate their interpretations with experimental data or literature evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, Table 1
+  - **Evidence pointer** Section 3.1, Table 1
+  - **Issue** The description of the data sources and the curation process is somewhat unclear. The authors mention that they compare annotations from four datasets, but the exact criteria for inclusion in the curated set are not fully specified. The rules for majority voting and the handling of ties are described, but the rationale for these rules is not explained.
+  - **Required correction** The authors should provide a more detailed description of the curation process, including the exact steps taken to merge the datasets and the rationale for the chosen criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.4, Section 4.3
+  - **Evidence pointer** Section 3.4, Section 4.3
+  - **Issue** The description of the attention head analysis is difficult to follow. The authors mention "averaged attention scores" and "grouping the attention scores according to the nucleotide positions," but the exact methodology is not clearly explained. The reader is referred to supplementary figures, which are not available for review.
+  - **Required correction** The authors should provide a clearer step-by-step description of the attention head analysis in the main text, including how the attention scores were aggregated and how the motifs were constructed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.2, Table 2
+  - **Evidence pointer** Section 4.2, Table 2
+  - **Issue** The performance comparison in Table 2 is presented without any indication of variability. The authors report ROC AUC and PR AUC scores for models trained on different annotation sets, but it is unclear whether these are single-run results or averages over multiple runs.
+  - **Required correction** The authors should clarify whether the reported scores are from a single run or averaged over multiple runs, and if the latter, they should report the standard deviation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.5, Figure 4
+  - **Evidence pointer** Section 4.5, Figure 4
+  - **Issue** The discussion of the model output profiles around transcription termination sites and pseudogenes is brief and lacks quantitative detail. The authors mention "slightly increased probability" and "substantial increase" without providing specific numbers or statistical tests.
+  - **Required correction** The authors should provide quantitative summaries of the model output profiles (e.g., median values, interquartile ranges) and, if possible, statistical tests comparing different regions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validation of attention head specialization), R1-M2 (statistical comparison of model performance), R1-M3 (incomplete model description for reproducibility).
+- **Assessment against Nature-style criteria**
+  - **Originality** The idea of using attention heads in transformer models for biological discovery in genomics is not entirely new, but the application to prokaryotic TSS prediction and the specific analysis of attention head specialization is a novel contribution. However, the novelty is somewhat limited by the lack of rigorous validation.
+  - **Scientific importance** The work addresses an important problem: making deep learning models interpretable in genomics. If the claims are validated, the approach could be useful for other genomic annotation tasks. However, the current evidence is insufficient to establish the importance of the findings.
+  - **Interdisciplinary readership** The topic is of interest to both computational biologists and molecular biologists. The manuscript is written in a way that is accessible to both communities, although some technical details are missing.
+  - **Technical soundness** The technical soundness is currently inadequate due to the lack of statistical validation and incomplete model description. The attention head analysis and performance comparisons need to be strengthened.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The authors explain the concepts clearly, but the methods section could be improved for clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims regarding attention head specialization and the quality of the curated dataset are not sufficiently supported. The authors need to address the major concerns, particularly the lack of statistical validation and the incomplete model description, before the case can be made.
+
+## Risk / unsupported claims
+- The claim that "the majority of attention heads is highly selective towards certain promoter regions" is not supported by statistical evidence.
+- The claim that attention heads "specialize towards detecting transcription factor-binding sites" is based on visual inspection and lacks quantitative validation.
+- The claim that the curated TSS dataset is of "better quality" than individual datasets is not supported by statistical tests.
+- The interpretation of model output profiles in terms of transcriptional interference is speculative and not quantitatively supported.
+- The performance improvements of the model trained on the curated set are not shown to be statistically significant.

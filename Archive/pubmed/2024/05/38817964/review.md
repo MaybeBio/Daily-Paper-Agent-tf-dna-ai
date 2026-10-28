@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific soundness, technical validity, reproducibility, and claims as supported by the provided evidence; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors present a computation-guided workflow using homology modeling and molecular docking to engineer the ligand specificity of the LysR-type transcription factor BenM from cis,cis-muconic acid (CCM) to adipic acid (AA). A single amino acid substitution (P196D) identified by the pipeline is experimentally validated in whole-cell and cell-free biosensor systems, showing altered specificity toward AA. Molecular dynamics simulations are used to propose a mechanistic basis for the specificity change.
+- **Visible evidence base** Main text figures (Figs. 1–7), one main table (Table 1), supplementary figure references (S1–S4), supplementary tables (S1, S2), and methods section
+- **Missing materials affecting confidence** Supplementary figures S1–S4 and tables S1–S2 were referenced but not provided; raw flow cytometry data, dose-response curve data points, and MD simulation trajectory analyses were not available for independent verification; no structural validation data (e.g., crystallography or mutagenesis beyond the reported variants) for the P196D mechanism
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful computational pipeline for transcription factor specificity engineering, with a clear demonstration that a single substitution at position 196 of BenM can switch ligand preference from CCM to AA. The work is generally well organized and the experimental validation is appropriate in scope. However, several technical concerns limit the strength of the conclusions, particularly regarding the quantitative rigor of the biosensor characterization, the statistical treatment of the data, and the mechanistic claims derived from MD simulations. The claim of "first application" is appropriately hedged but the broader utility of the pipeline beyond this single case remains underexplored.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and protein engineering would find this work relevant, particularly those interested in transcription factor-based biosensors for industrial chemical detection and high-throughput screening. The computational workflow may also appeal to computational biologists working on protein-ligand specificity prediction. The demonstration of a cell-free biosensor for adipic acid could be of interest to groups working on biopolymer precursor production.
+- **Major strengths** The study addresses a real bottleneck in biosensor development, namely the limited repertoire of transcription factors with desired specificities. The computational pipeline is clearly described and uses open-source tools, which supports reproducibility. The experimental validation is logically designed, comparing the engineered variant against wild-type and a previously reported mutant (AA5). The use of both whole-cell and cell-free systems strengthens the practical relevance. The MD simulations provide a plausible mechanistic hypothesis for the specificity switch.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of quantitative claims
+  - **Claim pointer** The authors state that BenMP196D shows "6.5 more response to AA relative to CCM" and that the sensor "can detect AA at millimolar concentrations, with distinguishable responses starting between 1 mM and 3 mM of AA."
+  - **Evidence pointer** Figure 4A, Figure 4B, Figure S1A; location not provided for exact data points
+  - **Concern** The quantitative claims are based on fold-change values of mean fluorescence intensity, but no statistical analysis is presented. It is unclear whether the reported differences between conditions are statistically significant, what the variability is across replicates, and how the detection threshold was defined. The dose-response curves are described qualitatively, and the "distinguishable responses" claim lacks a defined criterion (e.g., signal-to-noise ratio, statistical test against negative control). Additionally, the fold-change values appear to be reported without error bars or confidence intervals in the described figures.
+  - **Why it matters** The central claim of the paper is that the engineered biosensor has altered specificity and can detect AA. Without statistical rigor, the reader cannot assess the reliability or sensitivity of the sensor, which is critical for any practical application in screening or detection.
+  - **Resolution test** Provide replicate-level data with error bars, perform appropriate statistical tests (e.g., ANOVA or t-tests with multiple comparison correction) comparing induced versus uninduced conditions and AA versus CCM responses, and define the limit of detection based on a pre-specified criterion (e.g., mean plus 3 standard deviations of the blank).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic claims
+  - **Claim pointer** The authors state that "the P196D substitution alters the substrate specificity through the introduction of different interactions and a decrease in volume of the ligand binding pocket, altering the binding mode of BenM."
+  - **Evidence pointer** Figures 6 and 7; methods section for MD simulation parameters
+  - **Concern** The MD simulations are performed on homology models generated from a single crystal structure (PDB: 2FJ7A), and the simulation time is 100 ns per system. The RMSF analysis is used to infer flexibility changes, and MM/PBSA is used to estimate binding energies. However, no convergence analysis is presented, no replicate simulations are described, and the statistical uncertainty of the MM/PBSA estimates is not reported. The pocket volume analysis using fpocket is described as being performed on frames extracted every 10 ns, which is a very small sample size (10 frames per trajectory) for a volumetric claim. The mechanistic conclusion that a smaller pocket excludes CCM while accommodating AA is plausible but not rigorously supported by the data presented.
+  - **Why it matters** The mechanistic interpretation is a key part of the paper's contribution, as it claims to provide insight into how a single mutation alters specificity. If the MD evidence is not robust, the mechanistic claims are overstated.
+  - **Resolution test** Provide evidence of simulation convergence (e.g., RMSD over time), run replicate simulations with different initial velocities, report standard errors for MM/PBSA binding energies, and increase the number of frames analyzed for pocket volume calculations. Alternatively, temper the mechanistic claims to be explicitly hypothesis-generating rather than conclusive.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the pipeline
+  - **Claim pointer** The authors state that "the developed workflow can potentially be applied to other proteins to alter specificity towards molecules of interest."
+  - **Evidence pointer** Discussion section; Figure 1
+  - **Concern** The pipeline is demonstrated on a single transcription factor and a single target ligand pair. The success rate of the computational predictions is modest: of the top seven variants by docking score, only one (P196D) showed the desired specificity profile with high fold change, and others (e.g., P196C, P196H, P196T) showed compromised responses. The authors acknowledge this limitation in the Discussion, but the claim of general applicability is not strongly supported by the data. The pipeline's utility for other TF families, other ligand classes, or cases where the ligand is not structurally similar to the cognate ligand remains untested.
+  - **Why it matters** The broader impact of the work depends on whether the pipeline can be adopted by others for different targets. Without evidence of generalizability, the contribution is primarily a single case study.
+  - **Resolution test** Either temper the generalizability claim to reflect the single demonstration, or provide additional examples (even in silico) of the pipeline applied to other TF-ligand pairs. If additional examples are not available, clearly frame the pipeline as a proof-of-concept requiring further validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Figure 3 heatmap
+  - **Evidence pointer** Figure 3
+  - **Issue** The heatmap uses "X" to indicate variants that could not be generated, but the criteria for "not feasible" are not defined in the main text or methods. It is unclear whether these are steric clashes, failed model generation, or docking failures.
+  - **Required correction** Define the criteria for "not feasible" in the methods section or figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility of computational methods
+  - **Affected element** Methods section, "Molecular docking"
+  - **Evidence pointer** Methods section, "Molecular docking"
+  - **Issue** The docking protocol states that AutoDock Vina was run with a grid box of 20x28x30 Å3 and 1 Å spacing with exhaustiveness of 25, and that flexible docking was used. However, the specific parameters for the flexible residues (which side chains were allowed to move) and the number of docking poses generated and analyzed are not reported.
+  - **Required correction** Provide the full docking parameters, including the list of flexible residues, the number of poses generated, and the scoring function used for ranking.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of supplementary data
+  - **Affected element** Supplementary figures and tables
+  - **Evidence pointer** References to Figure S1–S4 and Tables S1–S2
+  - **Issue** The supplementary materials are referenced but were not provided for review. This limits the ability to verify the dose-response curves, the full docking results table, and the comparison with the AA5 mutant.
+  - **Required correction** Ensure all supplementary materials are available and cross-referenced in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract; Results section "Experimental validation of BenM variants of interest"
+  - **Issue** The abstract states the engineered sensor shows "higher ligand sensitivity," while the Results section reports fold-change values. The term "sensitivity" is used without a formal definition (e.g., limit of detection, EC50). This could be misleading.
+  - **Required correction** Define "sensitivity" operationally (e.g., fold change at a given concentration, limit of detection) and use consistent terminology throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of biosensor characterization) and R1-M2 (robustness of MD-based mechanistic claims) are the primary technical issues. Without addressing these, the central claims of specificity switch and mechanistic insight are not fully established. R1-M3 is important for framing but does not block the core findings.
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific application of a docking-based pipeline to engineer a transcription factor's specificity, and the identification of a single residue that completely switches specificity is a notable finding. However, the computational methods themselves are not novel, and the concept of using docking to guide mutagenesis has been previously reported. Scientific importance: The work addresses a relevant problem in biosensor development and provides a useful demonstration, but the impact is somewhat limited by the single case study and the modest success rate of predictions. Interdisciplinary readership: The work bridges computational biology, protein engineering, and synthetic biology, and would be accessible to researchers in these fields. Technical soundness: The experimental validation is reasonable but lacks statistical rigor, and the MD analysis is not sufficiently robust to support the mechanistic claims. Readability for nonspecialists: The manuscript is generally well written and the figures are clear, but some sections (particularly the MD analysis) assume familiarity with specialized techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that a single substitution identified by docking can switch BenM specificity from CCM to AA, is potentially valuable and of interest to the biosensor community. However, the lack of statistical analysis in the experimental data and the insufficient robustness of the MD simulations prevent the case from being fully established as presented. The authors should address R1-M1 and R1-M2 with additional data or more cautious interpretation.
+
+## Risk / unsupported claims
+- The claim that the engineered sensor "shows higher ligand sensitivity" in the abstract is not quantitatively defined and is not directly supported by the data presented.
+- The claim that the pipeline "can potentially be applied to other proteins" is speculative and not supported by evidence beyond the single case.
+- The mechanistic conclusion that the P196D substitution alters specificity through a combination of new interactions and reduced pocket volume is plausible but not rigorously established given the limited MD sampling and lack of statistical analysis.
+- The statement that BenMP196D "shows essentially no response to CCM" is based on a single concentration point and lacks statistical support.
+- The comparison with the AA5 mutant is described but the data are only in supplementary figures that were not provided, making the comparison unverifiable.

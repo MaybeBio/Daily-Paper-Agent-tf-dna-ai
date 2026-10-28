@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "38747369",
+    "doi": "10.1002/pro.5015",
+    "title": "ProkDBP: Toward more precise identification of prokaryotic DNA binding proteins."
+  },
+  "content": {
+    "abstract": "Prokaryotic DNA binding proteins (DBPs) play pivotal roles in governing gene regulation, DNA replication, and various cellular functions. Accurate computational models for predicting prokaryotic DBPs hold immense promise in accelerating the discovery of novel proteins, fostering a deeper understanding of prokaryotic biology, and facilitating the development of therapeutics targeting for potential disease interventions. However, existing generic prediction models often exhibit lower accuracy in predicting prokaryotic DBPs. To address this gap, we introduce ProkDBP, a novel machine learning-driven computational model for prediction of prokaryotic DBPs. For prediction, a total of nine shallow learning algorithms and five deep learning models were utilized, with the shallow learning models demonstrating higher performance metrics compared to their deep learning counterparts. The light gradient boosting machine (LGBM), coupled with evolutionarily significant features selected via random forest variable importance measure (RF-VIM) yielded the highest five-fold cross-validation accuracy. The model achieved the highest auROC (0.9534) and auPRC (0.9575) among the 14 machine learning models evaluated. Additionally, ProkDBP demonstrated substantial performance with an independent dataset, exhibiting higher values of auROC (0.9332) and auPRC (0.9371). Notably, when benchmarked against several cutting-edge existing models, ProkDBP showcased superior predictive accuracy. Furthermore, to promote accessibility and usability, ProkDBP (https://iasri-sg.icar.gov.in/prokdbp/) is available as an online prediction tool, enabling free access to interested users. This tool stands as a significant contribution, enhancing the repertoire of resources for accurate and efficient prediction of prokaryotic DBPs.",
+    "keywords": [
+      "DNA-binding proteins",
+      "computational biology",
+      "deep learning",
+      "evolutionary features",
+      "machine learning",
+      "prokaryotes"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*Bacterial Proteins/chemistry/metabolism/genetics",
+      "Computational Biology/methods",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pradhan, Upendra Kumar",
+        "Meher, Prabina Kumar",
+        "Naha, Sanchita",
+        "Das, Ritwika",
+        "Gupta, Ajit",
+        "Parsad, Rajender"
+      ],
+      "short_names": [
+        "Pradhan UK",
+        "Meher PK",
+        "Naha S",
+        "Das R",
+        "Gupta A",
+        "Parsad R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7098-8785"
+      ],
+      "affiliations": [
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India.",
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India.",
+        "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India.",
+        "Division of Agricultural Bioinformatics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India.",
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India.",
+        "ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pradhan, Upendra Kumar",
+        "short_name": "Pradhan UK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Meher, Prabina Kumar",
+        "short_name": "Meher PK",
+        "identifiers": [
+          "0000-0002-7098-8785"
+        ],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Naha, Sanchita",
+        "short_name": "Naha S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Das, Ritwika",
+        "short_name": "Das R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Agricultural Bioinformatics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Ajit",
+        "short_name": "Gupta A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Parsad, Rajender",
+        "short_name": "Parsad R",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/15 12:44",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [
+      "40391089",
+      "39909380",
+      "39282397"
+    ],
+    "refs": [
+      "38660008",
+      "37651627",
+      "37158175",
+      "36719781",
+      "36557614",
+      "36416116",
+      "36044786",
+      "35465187",
+      "35447463",
+      "35409369",
+      "35388370",
+      "35008987",
+      "34932484",
+      "34841226",
+      "34714748",
+      "34637468",
+      "33986992",
+      "33837387",
+      "33780341",
+      "33410688",
+      "33237286",
+      "32920048",
+      "32859206",
+      "32606829",
+      "31722485",
+      "30668479",
+      "30590442",
+      "30373514",
+      "30032213",
+      "29753757",
+      "29234465",
+      "28113908",
+      "27490858",
+      "26482832",
+      "26304539",
+      "25196432",
+      "25184541",
+      "24977146",
+      "24658593",
+      "24504871",
+      "24243859",
+      "22759427",
+      "21557077",
+      "20525822",
+      "20156993",
+      "20089514",
+      "20053844",
+      "19597783",
+      "18940859",
+      "18515839",
+      "18175049",
+      "18042272",
+      "17720704",
+      "17624492",
+      "17316627",
+      "16761367",
+      "16551468",
+      "16398926",
+      "16284202",
+      "16274699",
+      "15356290",
+      "15312763",
+      "12758155",
+      "12589754",
+      "11118137",
+      "11104519",
+      "9685485",
+      "9682055",
+      "9254694"
+    ],
+    "similar": [
+      "38747369",
+      "38660008",
+      "37651627",
+      "36416116",
+      "38490467",
+      "37158175",
+      "39316155",
+      "39265460",
+      "42475469",
+      "31123959",
+      "38316843",
+      "41645084",
+      "30598073",
+      "40570739",
+      "35378437",
+      "41566703",
+      "40439671",
+      "39511292",
+      "39708562",
+      "41172803",
+      "39408595",
+      "42021134",
+      "42380674",
+      "40820010",
+      "42163282",
+      "42266687",
+      "35447463",
+      "39881228",
+      "32300371",
+      "37000299",
+      "41822751",
+      "42129635",
+      "40446607",
+      "38439097",
+      "39270885",
+      "38856168",
+      "41814305",
+      "40209920",
+      "40965694",
+      "41427144",
+      "41688057",
+      "41670376",
+      "41065001",
+      "42176445",
+      "34932484",
+      "38986796",
+      "39256656",
+      "39417479",
+      "29753757",
+      "36939943",
+      "42252669",
+      "40830558",
+      "41642902",
+      "41452825",
+      "41834995",
+      "39722081",
+      "38943093",
+      "33865589",
+      "37060772",
+      "41687013",
+      "39657630",
+      "32920048",
+      "38812315",
+      "40665285",
+      "40220943",
+      "31393553",
+      "41957161",
+      "40931232",
+      "41803390",
+      "41686649",
+      "36098562",
+      "30668479",
+      "41969262",
+      "41545932",
+      "40863881",
+      "40416619",
+      "35652477",
+      "37850427",
+      "41934166",
+      "40042853",
+      "42440551",
+      "40195601",
+      "39576972",
+      "40007603",
+      "40418571",
+      "41890713",
+      "41826951",
+      "42399867",
+      "40173433",
+      "41350652",
+      "41394826",
+      "39522017",
+      "40934168",
+      "31151273",
+      "38376838",
+      "39033257",
+      "30351377",
+      "41168713",
+      "39395242",
+      "42412950"
+    ],
+    "review": [
+      "38747369",
+      "40209920",
+      "40220943",
+      "35652477"
+    ],
+    "pmc": [
+      "11094783"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38747369/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.5015",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

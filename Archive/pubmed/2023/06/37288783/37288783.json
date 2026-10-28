@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "37288783",
+    "doi": "10.1080/07391102.2023.2220822",
+    "title": "Identification of small molecule inhibitors of RAD52 for breast cancer therapy: in silico approach."
+  },
+  "content": {
+    "abstract": "The breast cancer susceptibility gene 1/2 (BRCA1/2) are the key regulators in maintaining the genomic integrity and mutations in these genes have been associated with development of breast and ovarian cancers. Also, synthetic lethality has been shown in BRCA1/2 deficient cancers, when the RAD52 gene is silenced by shRNA or small molecules aptamers, suggesting a role for RAD52 in the breast cancers pathogenesis. Thus, to find the potential inhibitors of RAD52, a collection of 21,000 compounds from the ChemBridge screening library was screened to conduct molecular docking and molecular dynamics simulation (MD) against RAD52. Further, the results were validated by a density functional theory (DFT) analysis and using post-dynamics free energy calculations. Out of all screened molecules, the docking study revealed five compounds were found to have promising activities against RAD52. Moreover, the catalytic amino acid residues of RAD52 developed stable contacts with compound 8758 and 10593, as anticipated by DFT calculation, MD simulation, and post dynamics MM-GBSA energy calculation. It appears that compound 8758 is the best inhibitor against RAD52 followed by 10593 compared to the other top hits, in terms of the HOMO orbital energy (-1.0966 eV and -1.2136 eV) from DFT and the post dynamics binding free energy calculation (-54.71 and -52.43 Kcal/mol). Furthermore, a drug-like properties of lead molecules (8758 and 10593) were also seen via ADMET analysis. Based on our computational analysis, we hypothesize that a small molecule 8758 and 10593 possess the therapeutic potential in the management for breast cancer patients with a BRCA mutation via targeting RAD52.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "ADME and molecular dynamics",
+      "RAD52",
+      "breast cancer therapeutics",
+      "small molecule inhibitors",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Rad52 DNA Repair and Recombination Protein/metabolism/chemistry/antagonists & inhibitors",
+      "*Breast Neoplasms/drug therapy/genetics/pathology/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*Small Molecule Libraries/pharmacology/chemistry",
+      "Female",
+      "Protein Binding",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Computer Simulation",
+      "Enzyme Inhibitors/chemistry/pharmacology",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Mukesh",
+        "Dubey, Rajni",
+        "Kumar Shukla, Prakash",
+        "Dayal, Deen",
+        "Kumar Chaubey, Kundan",
+        "Tsai, Lung-Wen",
+        "Kumar, Sanjay"
+      ],
+      "short_names": [
+        "Kumar M",
+        "Dubey R",
+        "Kumar Shukla P",
+        "Dayal D",
+        "Kumar Chaubey K",
+        "Tsai LW",
+        "Kumar S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6296-0291"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, Case Western Reserve University, Cleveland, OH, USA.",
+        "Department of Biophysics, All India Institute of Medical Sciences, New Delhi, India.",
+        "Division of Cardiology, Department of Internal Medicine, Taipei Medical University Hospital, Taipei, Taiwan.",
+        "Department of Radiation Oncology and Huntsman Cancer Institute, University of Utah School of Medicine, Salt Lake City, UT, USA.",
+        "Department of Biotechnology, GLA University, Mathura, Uttar Pradesh, India.",
+        "Division of Research and Innovation, School of Applied and Life Sciences, Uttaranchal University, Dehradun, Uttarakhand, India.",
+        "Department of Medicine Research, Taipei Medical University Hospital, Taipei, Taiwan.",
+        "Department of Information Technology Office, Taipei Medical University Hospital, Taipei, Taiwan.",
+        "Graduate Institute of Data Science, College of Management, Taipei Medical University, Taipei, Taiwan.",
+        "Biological and Bio-computational Lab, Department of Life Sciences, Sharda School of Basic Science and Research, Sharda University, Greater Noida, Uttar Pradesh, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Mukesh",
+        "short_name": "Kumar M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Case Western Reserve University, Cleveland, OH, USA.",
+          "Department of Biophysics, All India Institute of Medical Sciences, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Dubey, Rajni",
+        "short_name": "Dubey R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Department of Internal Medicine, Taipei Medical University Hospital, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kumar Shukla, Prakash",
+        "short_name": "Kumar Shukla P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology and Huntsman Cancer Institute, University of Utah School of Medicine, Salt Lake City, UT, USA."
+        ]
+      },
+      {
+        "full_name": "Dayal, Deen",
+        "short_name": "Dayal D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, GLA University, Mathura, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Kumar Chaubey, Kundan",
+        "short_name": "Kumar Chaubey K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Research and Innovation, School of Applied and Life Sciences, Uttaranchal University, Dehradun, Uttarakhand, India."
+        ]
+      },
+      {
+        "full_name": "Tsai, Lung-Wen",
+        "short_name": "Tsai LW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine Research, Taipei Medical University Hospital, Taipei, Taiwan.",
+          "Department of Information Technology Office, Taipei Medical University Hospital, Taipei, Taiwan.",
+          "Graduate Institute of Data Science, College of Management, Taipei Medical University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kumar, Sanjay",
+        "short_name": "Kumar S",
+        "identifiers": [
+          "0000-0001-6296-0291"
+        ],
+        "affiliations": [
+          "Biological and Bio-computational Lab, Department of Life Sciences, Sharda School of Basic Science and Research, Sharda University, Greater Noida, Uttar Pradesh, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/08 13:08",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "41477589",
+      "41020042",
+      "41007766",
+      "40850948",
+      "40491848",
+      "39062164",
+      "38255306",
+      "37919747"
+    ],
+    "refs": [],
+    "similar": [
+      "37288783",
+      "41193446",
+      "42322571",
+      "37120484",
+      "26784987",
+      "38063166",
+      "38095360",
+      "40367141",
+      "38816444",
+      "39703994",
+      "33063944",
+      "40117728",
+      "33402049",
+      "32186248",
+      "37676262",
+      "41880802",
+      "41187366",
+      "38149858",
+      "40424842",
+      "38847264",
+      "26873923",
+      "34286666",
+      "37715109",
+      "30557817",
+      "39318004",
+      "37565730",
+      "37975405",
+      "38063080",
+      "37695635",
+      "38470555",
+      "37349947",
+      "39135338",
+      "27315035",
+      "42371179",
+      "37661778",
+      "29228881",
+      "33226303",
+      "40471955",
+      "26548611",
+      "39812054",
+      "42322786",
+      "31752564",
+      "39488933",
+      "40007185",
+      "36841551",
+      "38141177",
+      "37942622",
+      "37904521",
+      "36995071",
+      "40239487",
+      "41337159",
+      "41780347",
+      "34514973",
+      "40114577",
+      "39490493",
+      "38088360",
+      "37713363",
+      "33784323",
+      "37349948",
+      "34426159",
+      "29145865",
+      "39817386",
+      "37948299",
+      "37922151",
+      "29334340",
+      "40120151",
+      "37707987",
+      "42323936",
+      "42356531",
+      "38344942",
+      "37855370",
+      "32691963",
+      "39956221",
+      "41312951",
+      "38147404",
+      "37747672",
+      "30415281",
+      "39275052",
+      "37897189",
+      "39948258",
+      "39368576",
+      "37525917",
+      "39115579",
+      "37288734",
+      "42451649",
+      "41111131",
+      "41544342",
+      "32120300",
+      "40939396",
+      "40806603",
+      "37587906",
+      "37948293",
+      "30047845",
+      "40101436",
+      "41161068",
+      "41591785",
+      "42310133",
+      "39253929",
+      "36358960",
+      "42286162"
+    ],
+    "review": [
+      "37288783"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2220822?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD52-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2220822",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

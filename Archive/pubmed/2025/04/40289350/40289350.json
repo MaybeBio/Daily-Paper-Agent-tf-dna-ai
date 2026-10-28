@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "40289350",
+    "doi": "10.2174/0118715206377378250414052656",
+    "title": "Identification of Flavonoid-based Hypoxia-inducible Factor-2 Alpha Inhibitors for the Treatment of Breast Cancer- In silico and In vitro Evidence."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer (BC) is a common malignancy that poses a serious threat to women's health. The hypoxic tumor microenvironment in BC promotes drug resistance, making hypoxia-targeted therapies crucial. Targeting hypoxia-inducible factors (HIFs), particularly HIF-2alpha, has emerged as a promising approach to inhibit tumor growth and improve response to chemotherapy and radiotherapy. However, further research is required to fully understand the role of HIF-2alpha to develop more effective treatments for BC. AIMS: The aim of this study is to identify phytochemicals that target HIF-2alpha and evaluate their effects on the MCF-7 breast cancer cell line under hypoxic conditions. METHODS: Molecular docking identified phytochemicals targeting HIF-2alpha, with high-affinity compounds undergoing stability evaluation via GROMACS molecular dynamics simulations. ADMET and toxicity assessments were performed using SwissADME and ProTox-3.0. In vitro assays on hypoxic MCF-7 cells examined cell viability and gene expression. The expression of HIF-2alpha-regulated genes (VEGFA, CCND1, GLUT1) was analyzed by using qRT-PCR. RESULTS: Molecular docking revealed that naringin (-8.2 Kcal/mol) and morin (-7.1 Kcal/mol) showed better binding affinity than the standard drug, belzutifan (-7.7 Kcal/mol). Dynamic simulations, including RMSD, RMSF, Hbond interactions, Rg, SASA, and PE, confirmed their strong binding potential. Morin, in particular, demonstrated more H-bond interactions and met Lipinski's Rule of Five, making it a promising candidate for in vitro studies. It reduced cell viability with an IC50 of 118 muM and significantly downregulated HIF-2alpha-associated genes. CONCLUSION: Morin demonstrated promising anti-cancer activity under hypoxic conditions by inhibiting HIF-2alpha in the hypoxia signaling pathway.",
+    "keywords": [
+      "Hypoxia-inducible factor-2alpha",
+      "MCF-7 cell line",
+      "breast cancer",
+      "hypoxia",
+      "hypoxia-inducible factor",
+      "molecular docking",
+      "morin",
+      "phytochemicals."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Basic Helix-Loop-Helix Proteins/antagonists & inhibitors/metabolism",
+      "*Flavonoids/pharmacology/chemistry/chemical synthesis",
+      "*Breast Neoplasms/drug therapy/pathology/metabolism",
+      "Drug Screening Assays, Antitumor",
+      "Cell Proliferation/drug effects",
+      "Molecular Docking Simulation",
+      "Structure-Activity Relationship",
+      "Molecular Structure",
+      "Cell Survival/drug effects",
+      "Dose-Response Relationship, Drug",
+      "Female",
+      "*Antineoplastic Agents/pharmacology/chemistry/chemical synthesis",
+      "Tumor Cells, Cultured",
+      "MCF-7 Cells",
+      "Endothelial PAS Domain-Containing Protein 1"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shahinaz",
+        "Baba, Mursaleen",
+        "Gor, Ravi",
+        "Ramamurthy, Chandrasudan",
+        "Mohideen, Habeeb Shaik",
+        "Ramalingam, Satish",
+        "Vijayakumar, Thangavel Mahalingam"
+      ],
+      "short_names": [
+        "Shahinaz",
+        "Baba M",
+        "Gor R",
+        "Ramamurthy C",
+        "Mohideen HS",
+        "Ramalingam S",
+        "Vijayakumar TM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy Practice, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India.",
+        "Department of Genetic Engineering, School of Bioengineering, Bioinformatics and Entomoinformatics Lab, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India.",
+        "Department of Occupational and Environmental Health, The University of Oklahoma Health Sciences, Oklahoma City, OK 73104, USA.",
+        "Department of Genetic Engineering, School of Bioengineering, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India.",
+        "Department of Genetic Engineering, School of Bioengineering, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India.",
+        "Department of Genetic Engineering, School of Bioengineering, Bioinformatics and Entomoinformatics Lab, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India.",
+        "Department of Genetic Engineering, School of Bioengineering, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India.",
+        "Department of Pharmacy Practice, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shahinaz",
+        "short_name": "Shahinaz",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India."
+        ]
+      },
+      {
+        "full_name": "Baba, Mursaleen",
+        "short_name": "Baba M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering, School of Bioengineering, Bioinformatics and Entomoinformatics Lab, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India."
+        ]
+      },
+      {
+        "full_name": "Gor, Ravi",
+        "short_name": "Gor R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational and Environmental Health, The University of Oklahoma Health Sciences, Oklahoma City, OK 73104, USA.",
+          "Department of Genetic Engineering, School of Bioengineering, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India."
+        ]
+      },
+      {
+        "full_name": "Ramamurthy, Chandrasudan",
+        "short_name": "Ramamurthy C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering, School of Bioengineering, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India."
+        ]
+      },
+      {
+        "full_name": "Mohideen, Habeeb Shaik",
+        "short_name": "Mohideen HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering, School of Bioengineering, Bioinformatics and Entomoinformatics Lab, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India."
+        ]
+      },
+      {
+        "full_name": "Ramalingam, Satish",
+        "short_name": "Ramalingam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering, School of Bioengineering, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India."
+        ]
+      },
+      {
+        "full_name": "Vijayakumar, Thangavel Mahalingam",
+        "short_name": "Vijayakumar TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, 603203, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Anti-cancer agents in medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Anticancer Agents Med Chem"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/28 06:27",
+    "fetched_at": "2026-09-30 16:53:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38387335",
+      "38322119",
+      "38287075",
+      "38259989",
+      "38004456",
+      "37881514",
+      "37663256",
+      "37266143",
+      "37111115",
+      "36797231",
+      "36607541",
+      "36224472",
+      "36167425",
+      "35779626",
+      "35406599",
+      "34684783",
+      "33993438",
+      "32866514",
+      "32530303",
+      "32110277",
+      "32059077",
+      "31899947",
+      "30887612",
+      "30876462",
+      "30484873",
+      "27635045",
+      "23694763",
+      "21947448",
+      "6606682"
+    ],
+    "similar": [
+      "40289350",
+      "38623839",
+      "40916439",
+      "34339013",
+      "37120484",
+      "41125614",
+      "39532011",
+      "29492900",
+      "41893869",
+      "40400177",
+      "30340507",
+      "27784428",
+      "40780124",
+      "39506445",
+      "41518939",
+      "41045314",
+      "40961459",
+      "17973296",
+      "39520676",
+      "11156418",
+      "32961574",
+      "23335846",
+      "30670058",
+      "30451119",
+      "40910199",
+      "28734156",
+      "40816411",
+      "31148343",
+      "41627922",
+      "30536571",
+      "42087351",
+      "26548300",
+      "19010893",
+      "33689977",
+      "41416930",
+      "40370237",
+      "22537539",
+      "39146703",
+      "23902893",
+      "38773015",
+      "38141177",
+      "39657281",
+      "40480106",
+      "41954091",
+      "38766832",
+      "25619133",
+      "12912967",
+      "36791645",
+      "36043744",
+      "32110277",
+      "41017166",
+      "36167425",
+      "25218350",
+      "39124882",
+      "40763666",
+      "24486412",
+      "16778202",
+      "34492592",
+      "40108914",
+      "41632099",
+      "35925539",
+      "21927022",
+      "29745344",
+      "39817386",
+      "38959730",
+      "39368576",
+      "27105516",
+      "32088728",
+      "11585776",
+      "41772374",
+      "29651967",
+      "40094223",
+      "41631784",
+      "39834008",
+      "39868843",
+      "18645007",
+      "40207813",
+      "41468763",
+      "21966417",
+      "28738766",
+      "25966094",
+      "38847264",
+      "24403227",
+      "28476028",
+      "32045054",
+      "24461075",
+      "29321085",
+      "28004073",
+      "40013562",
+      "21713389",
+      "41941275",
+      "40505865",
+      "29084538",
+      "38994626",
+      "39278836",
+      "40975960",
+      "16740701",
+      "41330962",
+      "41569310",
+      "41001798"
+    ],
+    "review": [
+      "40289350",
+      "38766832",
+      "36043744",
+      "41632099",
+      "38959730"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-274",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/241478/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

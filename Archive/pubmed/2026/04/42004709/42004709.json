@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "42004709",
+    "doi": "10.7717/peerj.21060",
+    "title": "Integrating co-expression network analysis and machine learning to reveal the regulatory landscape of GPD genes in Chlamydomonas reinhardtii under salinity stress."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Salinity stress imposes major constraints on cellular homeostasis. In Chlamydomonas reinhardtii, glycerol biosynthesis is a key osmoprotective response mediated by glycerol-3-phosphate dehydrogenases (GPDs). Although GPD2 and GPD3 genes are known to be salt-responsive with high sequence identity and shared metabolic roles, the regulatory mechanisms of their differential expression have remained unclear. Here, we leverage publicly available time-course RNA-seq data to dissect the transcriptional regulation of these genes, using an integrative network analysis and machine-learning framework. METHODS: Weighted Gene Co-expression Network Analysis (WGCNA) was applied to transcriptomes of C. reinhardtii exposed to salinity stress. Modules containing GPD2 and GPD3 genes were analyzed for functional enrichment, transcription factor associations, and cis-regulatory elements. Module robustness was independently evaluated using a Random Forest classifier to assess the separability of gene-to-module assignments. RESULTS: GPD2 and GPD3 genes clustered into distinct co-expression modules with contrasting temporal profiles. GPD2 was associated with early stress responses and co-expressed with bZIP and C2C2-GATA transcription factors, whereas GPD3 was linked to later adaptive responses and associated with MYB, SBP, and ALFIN-like transcription factors. These differences were supported by distinct cis-regulatory motifs. Random Forest validation confirmed strong module coherence, providing independent support for the inferred regulatory programs. CONCLUSIONS: Despite their high sequence similarity, GPD2 and GPD3 are embedded in temporally and regulatory distinct transcriptional networks during salinity stress. By integrating co-expression analysis with supervised machine learning for internal module validation, this study introduces a robust strategy to refine regulatory inference from transcriptomic data. More broadly, it highlights the value of data reuse and integrative analysis for uncovering regulatory divergence among genes, with potential implications for functional optimization in microalgae and related biological systems.",
+    "keywords": [
+      "Chlamydomonas reinhardtii",
+      "Co-expression networks",
+      "GPD genes",
+      "Machine learning",
+      "RNA-seq",
+      "Salinity stress",
+      "Transcriptional regulation",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*Chlamydomonas reinhardtii/genetics",
+      "*Machine Learning",
+      "*Salt Stress/genetics",
+      "*Gene Regulatory Networks",
+      "*Glycerolphosphate Dehydrogenase/genetics",
+      "Gene Expression Regulation, Plant",
+      "Transcriptome",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tzec-Interian, Jorge A",
+        "Peraza-Echeverria, Santy",
+        "Herrera-Valencia, Virginia Aurora",
+        "Gongora-Castillo, Elsa B"
+      ],
+      "short_names": [
+        "Tzec-Interian JA",
+        "Peraza-Echeverria S",
+        "Herrera-Valencia VA",
+        "Gongora-Castillo EB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Unidad de Biotecnologia, Centro de Investigacion Cientifica de Yucatan, Merida, Yucatan, Mexico.",
+        "Unidad de Biotecnologia, Centro de Investigacion Cientifica de Yucatan, Merida, Yucatan, Mexico.",
+        "Unidad de Biotecnologia, Centro de Investigacion Cientifica de Yucatan, Merida, Yucatan, Mexico.",
+        "Secihti-Departamento de Recursos del Mar, Centro de Investigacion y de Estudios Avanzados del Instituto Politecnico Nacional, Merida, Yucatan, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tzec-Interian, Jorge A",
+        "short_name": "Tzec-Interian JA",
+        "identifiers": [],
+        "affiliations": [
+          "Unidad de Biotecnología, Centro de Investigación Científica de Yucatán, Merida, Yucatan, Mexico."
+        ]
+      },
+      {
+        "full_name": "Peraza-Echeverria, Santy",
+        "short_name": "Peraza-Echeverria S",
+        "identifiers": [],
+        "affiliations": [
+          "Unidad de Biotecnología, Centro de Investigación Científica de Yucatán, Merida, Yucatan, Mexico."
+        ]
+      },
+      {
+        "full_name": "Herrera-Valencia, Virginia Aurora",
+        "short_name": "Herrera-Valencia VA",
+        "identifiers": [],
+        "affiliations": [
+          "Unidad de Biotecnología, Centro de Investigación Científica de Yucatán, Merida, Yucatan, Mexico."
+        ]
+      },
+      {
+        "full_name": "Gongora-Castillo, Elsa B",
+        "short_name": "Gongora-Castillo EB",
+        "identifiers": [],
+        "affiliations": [
+          "Secihti-Departamento de Recursos del Mar, Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional, Merida, Yucatan, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/20 13:10",
+    "fetched_at": "2026-10-01 19:03:47"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39241983",
+      "39124175",
+      "39020295",
+      "38455553",
+      "38137044",
+      "38115320",
+      "38041099",
+      "38036467",
+      "37838176",
+      "37008314",
+      "36562730",
+      "36544902",
+      "36300620",
+      "35283918",
+      "34817108",
+      "34804097",
+      "34763876",
+      "34269679",
+      "34253868",
+      "34129502",
+      "33809353",
+      "33793846",
+      "33391324",
+      "33327661",
+      "32008095",
+      "31923616",
+      "31861232",
+      "31701126",
+      "31434347",
+      "31189738",
+      "30626322",
+      "30011333",
+      "28588114",
+      "28273364",
+      "27511298",
+      "26968660",
+      "26873097",
+      "26633994",
+      "26022256",
+      "25751142",
+      "25516281",
+      "25515814",
+      "24695404",
+      "24451626",
+      "24302712",
+      "24227677",
+      "24170397",
+      "23613865",
+      "22403401",
+      "22358185",
+      "22209109",
+      "22110026",
+      "21414208",
+      "21301221",
+      "19617889",
+      "19505943",
+      "19114008",
+      "17932292",
+      "16646834",
+      "11940650",
+      "11752327",
+      "10592173"
+    ],
+    "similar": [
+      "42004709",
+      "42475469",
+      "41764430",
+      "28588114",
+      "26968660",
+      "41826822",
+      "42289463",
+      "40360985",
+      "39456877",
+      "40725500",
+      "25189468",
+      "42353798",
+      "33380327",
+      "41052072",
+      "28273364",
+      "40948769",
+      "35283918",
+      "42589656",
+      "41665764",
+      "41816342",
+      "41013556",
+      "38108929",
+      "42233387",
+      "39849193",
+      "41388523",
+      "41225341",
+      "40050719",
+      "30373210",
+      "40093413",
+      "25730421",
+      "41170672",
+      "27922095",
+      "30227676",
+      "40075303",
+      "39815183",
+      "42666489",
+      "42642681",
+      "41595448",
+      "40328901",
+      "40406126",
+      "41716396",
+      "41862521",
+      "40362669",
+      "41733593",
+      "27704223",
+      "42174861",
+      "42265520",
+      "41345903",
+      "41801512",
+      "41601671",
+      "41777388",
+      "41840566",
+      "41620995",
+      "42158856",
+      "41424060",
+      "41899468",
+      "42046055",
+      "34975885",
+      "41432483",
+      "39172989",
+      "42511822",
+      "42139760",
+      "41673553",
+      "41291841",
+      "35879667",
+      "42059390",
+      "40207230",
+      "40313958",
+      "25354782",
+      "40296690",
+      "40362331",
+      "34856364",
+      "26578693",
+      "42223712",
+      "40175579",
+      "41543555",
+      "39336767",
+      "26990640",
+      "42192287",
+      "38769518",
+      "40217159",
+      "40552285",
+      "40973872",
+      "33452393",
+      "42317361",
+      "40742465",
+      "41787525",
+      "41106221",
+      "41986493",
+      "42633900",
+      "40589764",
+      "41107929",
+      "24224019",
+      "40967560",
+      "38865489",
+      "40244966",
+      "42348123",
+      "42015036",
+      "41703488",
+      "42391245"
+    ],
+    "review": [
+      "42004709",
+      "42289463",
+      "41862521",
+      "41345903"
+    ],
+    "pmc": [
+      "13089224"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42004709/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.21060",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

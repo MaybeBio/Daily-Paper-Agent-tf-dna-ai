@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "39947576",
+    "doi": "10.1016/j.envpol.2025.125843",
+    "title": "Screening of estrogen receptor activity of per- and polyfluoroalkyl substances based on deep learning and in vivo assessment."
+  },
+  "content": {
+    "abstract": "Over the past decades, exposure to per- and polyfluoroalkyl substances (PFAS), a group of synthetic chemicals notorious for their environmental persistence, has been shown to pose increased health risks. Despite that some PFAS were reported to have endocrine-disrupting toxicity in previous studies, accurate prediction models based on deep learning and the underlying structural characteristics related to the effect of molecular fluorination remain limited. To address these issues, we proposed a stacking deep learning architecture, GXDNet, that integrates molecular descriptors and molecular graphs to predict the estrogen receptor alpha (ERalpha) activities of compounds, enhancing the generalization ability compared to previous models. Subsequently, we screened the ERalpha activity of 10,067 PFAS molecules using the GXDNet model and identified potential ERalpha binders. The representative PFAS molecules with the top docking scores showed that the introduction of fluorinated alkane chains significantly increased the binding affinities of parent molecules with ERalpha, suggesting that the combination of phenol structural fragments and fluorinated alkane chains has a synergistic effect in improving the binding capacity of the ligands to ERalpha. The binding modes, SHapley Additive Explanations analysis, and attention map emphasized the importance of pi-pi stacking and hydrogen bonding interactions with the phenol group, while the fluorinated alkane chain enhanced the interaction with the hydrophobic amino acids of the active pocket. Experimental validation using zebrafish models further confirmed the ERalpha activity of the representative PFAS molecules. Overall, the current computational workflow is beneficial for the toxicological screening of emerging PFAS and accelerating the development of eco-friendly PFAS molecules, thereby mitigating the environmental and health risks associated with PFAS exposure.",
+    "keywords": [
+      "ERalpha binders",
+      "Experimental assessment",
+      "MD simulations",
+      "PFAS",
+      "Stacking deep learning"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Fluorocarbons/toxicity",
+      "Animals",
+      "*Environmental Pollutants",
+      "*Estrogen Receptor alpha",
+      "*Endocrine Disruptors/toxicity",
+      "*Receptors, Estrogen",
+      "Zebrafish",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pang, Xudi",
+        "Lu, Miao",
+        "Yang, Ying",
+        "Cao, Huiming",
+        "Sun, Yuzhen",
+        "Zhou, Zhen",
+        "Wang, Ling",
+        "Liang, Yong"
+      ],
+      "short_names": [
+        "Pang X",
+        "Lu M",
+        "Yang Y",
+        "Cao H",
+        "Sun Y",
+        "Zhou Z",
+        "Wang L",
+        "Liang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China.",
+        "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China.",
+        "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China.",
+        "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China. Electronic address: hmcao1986@126.com.",
+        "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China.",
+        "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China.",
+        "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China. Electronic address: wangling4212@aliyun.com.",
+        "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pang, Xudi",
+        "short_name": "Pang X",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Miao",
+        "short_name": "Lu M",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ying",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Huiming",
+        "short_name": "Cao H",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China. Electronic address: hmcao1986@126.com."
+        ]
+      },
+      {
+        "full_name": "Sun, Yuzhen",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhen",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ling",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China. Electronic address: wangling4212@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Liang, Yong",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Environmental and Health Effects of Persistent Toxic Substances, School of Environment and Health, Jianghan University, Wuhan, 430056, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental pollution (Barking, Essex : 1987)"
+    ],
+    "journal_abbrev": [
+      "Environ Pollut"
+    ],
+    "pub_date": "2025 Mar 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/14 00:23",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39947576",
+      "23707773",
+      "39694292",
+      "24928891",
+      "39125814",
+      "39245376",
+      "39837032",
+      "40317014",
+      "33887376",
+      "25260197",
+      "37513249",
+      "28622647",
+      "39207093",
+      "32476019",
+      "29601859",
+      "33751946",
+      "39181731",
+      "39298512",
+      "33799614",
+      "34018735",
+      "40024016",
+      "35970987",
+      "38764236",
+      "35293723",
+      "38570156",
+      "35752307",
+      "36969097",
+      "29356860",
+      "31302400",
+      "33498193",
+      "28842010",
+      "39673872",
+      "21163906",
+      "36055502",
+      "27541960",
+      "38477530",
+      "39636584",
+      "33542707",
+      "39133093",
+      "36345062",
+      "36154169",
+      "38134352",
+      "38964036",
+      "38521043",
+      "36907230",
+      "39755088",
+      "35695909",
+      "38401404",
+      "35841995",
+      "32778734",
+      "39383969",
+      "37730032",
+      "33125992",
+      "38319881",
+      "40252356",
+      "37976959",
+      "35750184",
+      "34905348",
+      "31280095",
+      "36947184",
+      "37220906",
+      "39359169",
+      "38163615",
+      "38118198",
+      "22890857",
+      "37134253",
+      "34438039",
+      "34743883",
+      "32540561",
+      "32271623",
+      "34193151",
+      "38452703",
+      "20074635",
+      "39757451",
+      "36282672",
+      "34333169",
+      "38394616",
+      "34875259",
+      "37290352",
+      "35813651",
+      "32786601",
+      "22503158",
+      "34566884",
+      "36075290",
+      "36894112",
+      "39807587",
+      "40024759",
+      "32795691",
+      "39046250",
+      "37857362",
+      "33647299",
+      "31310931",
+      "36414885",
+      "40107212",
+      "37839491",
+      "39389194",
+      "34237332",
+      "39255941",
+      "35908389",
+      "33823190"
+    ],
+    "review": [
+      "39947576",
+      "33751946",
+      "39181731",
+      "35970987",
+      "38764236",
+      "36969097",
+      "33498193",
+      "36055502",
+      "38477530",
+      "39636584",
+      "33542707",
+      "36907230",
+      "39755088",
+      "35695909",
+      "39383969",
+      "37730032",
+      "38319881",
+      "40252356",
+      "37976959",
+      "31280095",
+      "36947184",
+      "37220906",
+      "38118198",
+      "34566884",
+      "40024759",
+      "36414885",
+      "39255941"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0269-7491(25)00216-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

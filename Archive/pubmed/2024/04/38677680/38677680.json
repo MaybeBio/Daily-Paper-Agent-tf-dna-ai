@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "38677680",
+    "doi": "10.1016/j.ijbiomac.2024.131898",
+    "title": "Discovery of a SUCNR1 antagonist for potential treatment of diabetic nephropathy: In silico and in vitro studies."
+  },
+  "content": {
+    "abstract": "Diabetic nephropathy (DN) is one of the most severe complications of diabetes mellitus. Succinate Receptor 1 (SUCNR1), a member of the G-protein-coupled receptor (GPCR) family, represents a potential target for treatment of DN. Here, utilizing multi-strategy in silico virtual screening methods containing AlphaFold2 modelling, molecular dynamics (MD) simulation, ligand-based pharmacophore screening, molecular docking and machine learning-based similarity clustering, we successfully identified a novel antagonist of SUCNR1, AK-968/12117473 (Cpd3). Through extensive in vitro experiments, including dual-luciferase reporter assay, cellular thermal shift assay, immunofluorescence, and western blotting, we substantiated that Cpd3 could specifically target SUCNR1, inhibit the activation of NF-kappaB pathway, and ameliorate epithelial-mesenchymal transition (EMT) and extracellular matrix (ECM) deposition in renal tubular epithelial cells (NRK-52E) under high glucose conditions. Further in silico simulations revealed the molecular basis of the SUCNR1-Cpd3 interaction, and the in vitro metabolic stability assay indicated favorable drug-like pharmacokinetic properties of Cpd3. This work not only successfully pinpointed Cpd3 as a specific antagonist of SUCNR1 to serve as a promising candidate in the realm of therapeutic interventions for DN, but also provides a paradigm of dry-wet combined discovery strategies for GPCR-based therapeutics.",
+    "keywords": [
+      "Diabetic nephropathy",
+      "Drug discovery",
+      "Molecular simulation",
+      "Succinate receptor 1",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "*Diabetic Nephropathies/drug therapy/metabolism",
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*Receptors, G-Protein-Coupled/antagonists & inhibitors/metabolism",
+      "Epithelial-Mesenchymal Transition/drug effects",
+      "Computer Simulation",
+      "Drug Discovery",
+      "NF-kappa B/metabolism/antagonists & inhibitors",
+      "Cell Line",
+      "Animals",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xuting",
+        "Lyu, Dongxin",
+        "Li, Shanshan",
+        "Xiao, Haiming",
+        "Qiu, Yufan",
+        "Xu, Kangwei",
+        "Chen, Nianhang",
+        "Deng, Li",
+        "Huang, Heqing",
+        "Wu, Ruibo"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Lyu D",
+        "Li S",
+        "Xiao H",
+        "Qiu Y",
+        "Xu K",
+        "Chen N",
+        "Deng L",
+        "Huang H",
+        "Wu R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China; Guangzhou Hospital of Integrated Traditional and Western Medicine, Guangzhou 510801, China.",
+        "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China.",
+        "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China.",
+        "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China.",
+        "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China.",
+        "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China.",
+        "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China.",
+        "College of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China. Electronic address: dengli@jnu.edu.cn.",
+        "Guangzhou Hospital of Integrated Traditional and Western Medicine, Guangzhou 510801, China. Electronic address: Huangheq1125@163.com.",
+        "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China. Electronic address: wurb3@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xuting",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China; Guangzhou Hospital of Integrated Traditional and Western Medicine, Guangzhou 510801, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Dongxin",
+        "short_name": "Lyu D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shanshan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Haiming",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yufan",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Kangwei",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Nianhang",
+        "short_name": "Chen N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Li",
+        "short_name": "Deng L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China. Electronic address: dengli@jnu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huang, Heqing",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Hospital of Integrated Traditional and Western Medicine, Guangzhou 510801, China. Electronic address: Huangheq1125@163.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Ruibo",
+        "short_name": "Wu R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China. Electronic address: wurb3@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/28 07:24",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "42131819",
+      "41961807",
+      "41872972",
+      "41648789",
+      "41487503",
+      "40791538"
+    ],
+    "refs": [],
+    "similar": [
+      "38677680",
+      "30785016",
+      "26151815",
+      "24894085",
+      "32200292",
+      "34295152",
+      "34684716",
+      "32339782",
+      "37196773",
+      "30847937",
+      "31655195",
+      "28408805",
+      "37467841",
+      "37146841",
+      "35843189",
+      "30038056",
+      "34580604",
+      "31759089",
+      "33152432",
+      "32297575",
+      "29157600",
+      "25938234",
+      "31645725",
+      "36521551",
+      "38110133",
+      "28539091",
+      "26808164",
+      "26956696",
+      "29627824",
+      "27467277",
+      "27529235",
+      "32545818",
+      "32500512",
+      "29795979",
+      "25219324",
+      "29842849",
+      "32376130",
+      "38325379",
+      "31028762",
+      "35257557",
+      "26664046",
+      "29604956",
+      "32693244",
+      "27378149",
+      "28382382",
+      "31552773",
+      "32344355",
+      "27145370",
+      "31948095",
+      "26552447",
+      "33383483",
+      "24260158",
+      "31564202",
+      "38182909",
+      "27260841",
+      "33253723",
+      "30107367",
+      "22732364",
+      "29017152",
+      "27264074",
+      "24877639",
+      "32365557",
+      "33116403",
+      "26062793",
+      "37489175",
+      "32673708",
+      "32746936",
+      "20447389",
+      "34381133",
+      "29209813",
+      "36622070",
+      "25882007",
+      "32882582",
+      "32240615",
+      "31171269",
+      "31235817",
+      "32758570",
+      "35871203",
+      "29329595",
+      "37797872",
+      "27874055",
+      "28151474",
+      "28707079",
+      "30928803",
+      "32558900",
+      "25672488",
+      "30549040",
+      "22641573",
+      "30699330",
+      "25823828",
+      "38092315",
+      "35057768",
+      "32831998",
+      "38228231",
+      "26646104",
+      "32247822",
+      "34769478",
+      "28237649",
+      "24370587",
+      "34593896",
+      "37307967",
+      "38822212",
+      "34097347"
+    ],
+    "review": [
+      "38677680",
+      "26808164",
+      "38182909"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)02703-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      }
+    ],
+    "text_mined": []
+  }
+}

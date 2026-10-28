@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38589899",
+  "title": "PMF-GRN: a variational inference approach to single-cell gene regulatory network inference using probabilistic matrix factorization.",
+  "authors": "Skok Gibbs, Claudia; Mahmood, Omar; Bonneau, Richard; Cho, Kyunghyun",
+  "journal": "Genome biology",
+  "published_date": "2024-04-09",
+  "window": {
+    "start": "2024-04-08",
+    "end": "2024-04-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用概率矩阵分解和变分推断从单细胞表达数据推断基因调控网络，虽涉及转录因子活性，但缺乏蛋白质-DNA三维互作建模，方法为统计推断而非AI/物理模拟，与课题核心关联较弱。",
+  "abstract": "Inferring gene regulatory networks (GRNs) from single-cell data is challenging due to heuristic limitations. Existing methods also lack estimates of uncertainty. Here we present Probabilistic Matrix Factorization for Gene Regulatory Network Inference (PMF-GRN). Using single-cell expression data, PMF-GRN infers latent factors capturing transcription factor activity and regulatory relationships. Using variational inference allows hyperparameter search for principled model selection and direct comparison to other generative models. We extensively test and benchmark our method using real single-cell datasets and synthetic data. We show that PMF-GRN infers GRNs more accurately than current state-of-the-art single-cell GRN inference methods, offering well-calibrated uncertainty estimates.",
+  "abstract_zh": "从单细胞数据推断基因调控网络（GRNs）因启发式局限性而具有挑战性。现有方法也缺乏不确定性估计。在此，我们提出用于基因调控网络推断的概率矩阵分解方法（PMF-GRN）。利用单细胞表达数据，PMF-GRN推断捕获转录因子活性和调控关系的潜在因子。采用变分推断允许超参数搜索，以实现原则性模型选择，并与其他生成模型进行直接比较。我们使用真实单细胞数据集和合成数据对我们的方法进行了广泛测试和基准评估。我们表明，PMF-GRN比当前最先进的单细胞GRN推断方法更准确地推断GRNs，并提供校准良好的不确定性估计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38589899/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38589899/",
+  "paper_page_path": "papers/pubmed/38589899/index.html"
+}

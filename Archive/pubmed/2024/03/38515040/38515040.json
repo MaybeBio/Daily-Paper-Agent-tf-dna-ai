@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "38515040",
+    "doi": "10.1186/s12864-024-10218-0",
+    "title": "GNNMF: a multi-view graph neural network for ATAC-seq motif finding."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) utilizes the Transposase Tn5 to probe open chromatic, which simultaneously reveals multiple transcription factor binding sites (TFBSs) compared to traditional technologies. Deep learning (DL) technology, including convolutional neural networks (CNNs), has successfully found motifs from ATAC-seq data. Due to the limitation of the width of convolutional kernels, the existing models only find motifs with fixed lengths. A Graph neural network (GNN) can work on non-Euclidean data, which has the potential to find ATAC-seq motifs with different lengths. However, the existing GNN models ignored the relationships among ATAC-seq sequences, and their parameter settings should be improved. RESULTS: In this study, we proposed a novel GNN model named GNNMF to find ATAC-seq motifs via GNN and background coexisting probability. Our experiment has been conducted on 200 human datasets and 80 mouse datasets, demonstrated that GNNMF has improved the area of eight metrics radar scores of 4.92% and 6.81% respectively, and found more motifs than did the existing models. CONCLUSIONS: In this study, we developed a novel model named GNNMF for finding multiple ATAC-seq motifs. GNNMF built a multi-view heterogeneous graph by using ATAC-seq sequences, and utilized background coexisting probability and the iterloss to find different lengths of ATAC-seq motifs and optimize the parameter sets. Compared to existing models, GNNMF achieved the best performance on TFBS prediction and ATAC-seq motif finding, which demonstrates that our improvement is available for ATAC-seq motif finding.",
+    "keywords": [
+      "ATAC-seq motifs",
+      "Coexisting probability",
+      "Graph neural network",
+      "Multi-view heterogeneous graph"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "*High-Throughput Nucleotide Sequencing",
+      "Sequence Analysis, DNA",
+      "Chromatin/genetics",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shuangquan",
+        "Wu, Xiaotian",
+        "Lian, Zhichao",
+        "Zuo, Chunman",
+        "Wang, Yan"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Wu X",
+        "Lian Z",
+        "Zuo C",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun, 130012, China.",
+        "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. lzcts@163.com.",
+        "Institute of Artificial Intelligence, Donghua University, Shanghai, 201620, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shuangquan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaotian",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Zhichao",
+        "short_name": "Lian Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. lzcts@163.com."
+        ]
+      },
+      {
+        "full_name": "Zuo, Chunman",
+        "short_name": "Zuo C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Artificial Intelligence, Donghua University, Shanghai, 201620, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn.",
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2024 Mar 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/22 06:44",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41385391"
+    ],
+    "refs": [
+      "35997564",
+      "35589837",
+      "34765994",
+      "34607350",
+      "33637727",
+      "33355120",
+      "32848148",
+      "32838752",
+      "32824207",
+      "32660981",
+      "32574834",
+      "31787089",
+      "31695723",
+      "31427911",
+      "31372637",
+      "31312633",
+      "30922998",
+      "30808370",
+      "30428075",
+      "29052193",
+      "28825706",
+      "27832532",
+      "27493967",
+      "26213851",
+      "26002080",
+      "20110278",
+      "16873507",
+      "14625684",
+      "12582243"
+    ],
+    "similar": [
+      "38515040",
+      "38643066",
+      "35997564",
+      "36719906",
+      "40102719",
+      "35858748",
+      "32312702",
+      "35195064",
+      "38189539",
+      "36173566",
+      "36062065",
+      "37751945",
+      "35255493",
+      "34488759",
+      "39800872",
+      "36094959",
+      "34870838",
+      "32543102",
+      "35848835",
+      "37211599",
+      "35411004",
+      "37990143",
+      "33191916",
+      "35486242",
+      "32312703",
+      "36807076",
+      "34284136",
+      "34273560",
+      "31427911",
+      "31160376",
+      "31164146",
+      "35478247",
+      "37217250",
+      "32251359",
+      "33606259",
+      "32213349",
+      "35614386",
+      "40167783",
+      "34875002",
+      "35695574",
+      "39501301",
+      "39017885",
+      "35296236",
+      "29052193",
+      "39041910",
+      "37989133",
+      "39127768",
+      "32353042",
+      "35941239",
+      "31110271",
+      "36656543",
+      "37811941",
+      "40402457",
+      "36452861",
+      "33188264",
+      "37010301",
+      "27832532",
+      "30948010",
+      "37218013",
+      "38581422",
+      "30375457",
+      "33498086",
+      "36995609",
+      "38589969",
+      "38329877",
+      "32576878",
+      "35037783",
+      "36807060",
+      "36232500",
+      "35867231",
+      "37118773",
+      "34647036",
+      "33775205",
+      "36807072",
+      "39255248",
+      "35673985",
+      "38735595",
+      "31199868",
+      "37100469",
+      "29490630",
+      "40029523",
+      "32336246",
+      "40165388",
+      "37598467",
+      "38049698",
+      "29982337",
+      "32014034",
+      "40250421",
+      "37590150",
+      "36807065",
+      "34383745",
+      "25559105",
+      "35604124",
+      "28075484",
+      "34382186",
+      "39708840",
+      "32321567",
+      "29155775",
+      "29030848",
+      "36738683"
+    ],
+    "review": [
+      "38515040",
+      "32312702",
+      "35255493",
+      "32312703",
+      "31427911",
+      "35478247",
+      "33606259",
+      "30948010",
+      "39255248"
+    ],
+    "pmc": [
+      "10956247"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-10218-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38515040/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38515040",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

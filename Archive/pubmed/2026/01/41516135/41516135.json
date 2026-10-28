@@ -1,0 +1,496 @@
+{
+  "identity": {
+    "pmid": "41516135",
+    "doi": "10.3390/ijms27010258",
+    "title": "Differentially Expressed Genes Associated with the Development of Cervical Cancer."
+  },
+  "content": {
+    "abstract": "Cervical cancer remains a significant cause of cancer-related mortality among women, particularly in low- and middle-income countries. High-throughput technologies, such as microarrays, have facilitated the comprehensive analysis of gene expression profiles in cervical cancer, enabling the identification of key differentially expressed genes (DEGs) involved in its pathogenesis. The publicly available microarray datasets, including GSE39001, GSE9750, GSE7803, GSE6791, GSE63514, and GSE52903 in combination with bioinformatics database predictions, were used to identify differential expression genes, potential biomarkers, and therapeutic targets for cervical cancer; additionally, we undertook bioinformatic analysis to determine gene ontology and possible miRNA targets related to our DEGs. Our analysis revealed several DEGs significantly associated with cervical cancer progression, such as cell death, regulation of DNA replication, protein binding processes, and transcription factors. The most relevant transcription factors (TFs) identified were SP1, ELF3, E2F1, TP53, RELA, HDAC, and FOXM1. Importantly, the DEGs with more important changes were 11 coding genes that were upregulated (KIF4A, MCM5, RFC4, PLOD2, MMP12, PRC1, TOP2A, MCM2, RAD51AP1, KIF20A, AIM2) and 14 that were downregulated (CXCL14, KRT1, KRT13, MAL, SPINK5, EMP1, CRISP3, ALOX12, CRNN, SPRR3, PPP1R3C, IVL, CFD, CRCT1), which were associated with cervical cancer. Interestingly, hub proteins KIF4A, NUSAP1, BUB1B, CEP55, DLGAP5, NCAPG, CDK1, MELK, KIF11, and KIF20A were found to be potentially regulated by several miRNAs, including miR-107, miR-124-3p, miR-147a, miR-16-5p, miR-34a-5p, miR-34c-5p, miR-126-3p, miR-10b-5p, miR-23b-3p, miR-200b-3p, miR-138-5p, miR-203a-3p, miR-214-3p, and let-7b-5p. The relationship between these genes highlights their potential as candidate biomarkers for further research in treatment, diagnosis, and prognosis.",
+    "keywords": [
+      "cervical cancer",
+      "gene expression",
+      "mRNAs",
+      "microRNAs",
+      "microarray"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Uterine Cervical Neoplasms/genetics/pathology/metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Biomarkers, Tumor/genetics",
+      "Computational Biology/methods",
+      "Gene Regulatory Networks",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alvarado-Camacho, Diego Armando",
+        "Castillo-Velazquez, Ricardo",
+        "Granados-Lopez, Angelica Judith",
+        "Hernandez-Lopez, Hiram",
+        "Lopez-Hernandez, Yamile",
+        "Gutierrez-Hernandez, Rosalinda",
+        "Varela-Silva, Jose Antonio",
+        "Reyes-Estrada, Claudia Araceli",
+        "Solorio-Alvarado, Cesar Rogelio",
+        "Sanchez-Rodriguez, Sergio Hugo",
+        "Garcia-Lopez, David Alejandro",
+        "Lopez, Jesus Adrian"
+      ],
+      "short_names": [
+        "Alvarado-Camacho DA",
+        "Castillo-Velazquez R",
+        "Granados-Lopez AJ",
+        "Hernandez-Lopez H",
+        "Lopez-Hernandez Y",
+        "Gutierrez-Hernandez R",
+        "Varela-Silva JA",
+        "Reyes-Estrada CA",
+        "Solorio-Alvarado CR",
+        "Sanchez-Rodriguez SH",
+        "Garcia-Lopez DA",
+        "Lopez JA"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-2396-6115",
+        "ORCID: 0000-0002-4286-163X",
+        "ORCID: 0000-0002-1068-603X",
+        "ORCID: 0000-0001-6803-925X",
+        "ORCID: 0000-0001-6082-988X",
+        "ORCID: 0000-0003-2064-1959",
+        "ORCID: 0000-0001-8012-7041"
+      ],
+      "affiliations": [
+        "Laboratorio de microRNAs y Cancer, Unidad Academica de Ciencias Biologicas, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico.",
+        "Unidad de Investigacion Biomedica de Zacatecas, Instituto Mexicano del Seguro Social, Zacatecas 98000, Mexico.",
+        "Laboratorio de microRNAs y Cancer, Unidad Academica de Ciencias Biologicas, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico.",
+        "Laboratorio de Sintesis Quimica, Unidad Academica de Ciencias Quimicas, Campus Siglo XXI, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Kilometro 6, Ejido la Escondida, Zacatecas 98160, Mexico.",
+        "Laboratorio de Proteomica y Metabolomica, Unidad Academica de Ciencias Biologicas, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico.",
+        "Laboratorio de Etnofarmacologia y Nutricion, Unidad Academica de Nutricion, Campus Siglo XXI, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Kilometro 6, Ejido la Escondida, Zacatecas 98160, Mexico.",
+        "Laboratorio de microRNAs y Cancer, Unidad Academica de Ciencias Biologicas, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico.",
+        "Laboratorio de Inmunohistoquimica y Estres Oxidativo, Unidad Academica de Medicina Humana, Campus Siglo XXI, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Kilometro 6, Ejido la Escondida, Zacatecas 98160, Mexico.",
+        "Division de Ciencias Naturales y Exactas, Departamento de Quimica, Campus Guanajuato, Universidad de Guanajuato, Noria Alta S/N, Guanajuato 36050, Mexico.",
+        "Laboratorio de Biologia Celular y Neurobiologia, Unidad Academica de Ciencias Biologicas, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico.",
+        "Laboratorio de Biologia Celular y Neurobiologia, Unidad Academica de Ciencias Biologicas, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico.",
+        "Laboratorio de microRNAs y Cancer, Unidad Academica de Ciencias Biologicas, Universidad Autonoma de Zacatecas \"Francisco Garcia Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alvarado-Camacho, Diego Armando",
+        "short_name": "Alvarado-Camacho DA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de microRNAs y Cáncer, Unidad Académica de Ciencias Biológicas, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico."
+        ]
+      },
+      {
+        "full_name": "Castillo-Velázquez, Ricardo",
+        "short_name": "Castillo-Velázquez R",
+        "identifiers": [
+          "0009-0003-2396-6115"
+        ],
+        "affiliations": [
+          "Unidad de Investigación Biomédica de Zacatecas, Instituto Mexicano del Seguro Social, Zacatecas 98000, Mexico."
+        ]
+      },
+      {
+        "full_name": "Granados-López, Angelica Judith",
+        "short_name": "Granados-López AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de microRNAs y Cáncer, Unidad Académica de Ciencias Biológicas, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico."
+        ]
+      },
+      {
+        "full_name": "Hernández-López, Hiram",
+        "short_name": "Hernández-López H",
+        "identifiers": [
+          "0000-0002-4286-163X"
+        ],
+        "affiliations": [
+          "Laboratorio de Síntesis Química, Unidad Académica de Ciencias Químicas, Campus Siglo XXI, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Kilometro 6, Ejido la Escondida, Zacatecas 98160, Mexico."
+        ]
+      },
+      {
+        "full_name": "López-Hernández, Yamilé",
+        "short_name": "López-Hernández Y",
+        "identifiers": [
+          "0000-0002-1068-603X"
+        ],
+        "affiliations": [
+          "Laboratorio de Proteómica y Metabolómica, Unidad Académica de Ciencias Biológicas, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico."
+        ]
+      },
+      {
+        "full_name": "Gutiérrez-Hernández, Rosalinda",
+        "short_name": "Gutiérrez-Hernández R",
+        "identifiers": [
+          "0000-0001-6803-925X"
+        ],
+        "affiliations": [
+          "Laboratorio de Etnofarmacología y Nutrición, Unidad Académica de Nutrición, Campus Siglo XXI, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Kilometro 6, Ejido la Escondida, Zacatecas 98160, Mexico."
+        ]
+      },
+      {
+        "full_name": "Varela-Silva, José Antonio",
+        "short_name": "Varela-Silva JA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de microRNAs y Cáncer, Unidad Académica de Ciencias Biológicas, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico."
+        ]
+      },
+      {
+        "full_name": "Reyes-Estrada, Claudia Araceli",
+        "short_name": "Reyes-Estrada CA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Inmunohistoquímica y Estrés Oxidativo, Unidad Académica de Medicina Humana, Campus Siglo XXI, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Kilometro 6, Ejido la Escondida, Zacatecas 98160, Mexico."
+        ]
+      },
+      {
+        "full_name": "Solorio-Alvarado, Cesar Rogelio",
+        "short_name": "Solorio-Alvarado CR",
+        "identifiers": [
+          "0000-0001-6082-988X"
+        ],
+        "affiliations": [
+          "División de Ciencias Naturales y Exactas, Departamento de Química, Campus Guanajuato, Universidad de Guanajuato, Noria Alta S/N, Guanajuato 36050, Mexico."
+        ]
+      },
+      {
+        "full_name": "Sánchez-Rodríguez, Sergio Hugo",
+        "short_name": "Sánchez-Rodríguez SH",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biología Celular y Neurobiología, Unidad Académica de Ciencias Biológicas, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico."
+        ]
+      },
+      {
+        "full_name": "García-López, David Alejandro",
+        "short_name": "García-López DA",
+        "identifiers": [
+          "0000-0003-2064-1959"
+        ],
+        "affiliations": [
+          "Laboratorio de Biología Celular y Neurobiología, Unidad Académica de Ciencias Biológicas, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico."
+        ]
+      },
+      {
+        "full_name": "López, Jesús Adrián",
+        "short_name": "López JA",
+        "identifiers": [
+          "0000-0001-8012-7041"
+        ],
+        "affiliations": [
+          "Laboratorio de microRNAs y Cáncer, Unidad Académica de Ciencias Biológicas, Universidad Autónoma de Zacatecas \"Francisco García Salinas\", Av. Preparatoria S/N, Zacatecas 98066, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Dec 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 06:31",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [
+      "42180604"
+    ],
+    "refs": [
+      "39806429",
+      "39263322",
+      "38881929",
+      "38572751",
+      "38326874",
+      "38182895",
+      "37932321",
+      "36868096",
+      "36789815",
+      "36550695",
+      "36134718",
+      "35948893",
+      "35933332",
+      "35094292",
+      "34758200",
+      "34671205",
+      "34387848",
+      "34335927",
+      "34178650",
+      "34068980",
+      "33958583",
+      "33954190",
+      "33336057",
+      "33300051",
+      "33210592",
+      "33155930",
+      "33040786",
+      "33028635",
+      "33024199",
+      "32851067",
+      "32674292",
+      "32577500",
+      "32484539",
+      "32431539",
+      "32417880",
+      "32368085",
+      "32099397",
+      "32046419",
+      "31904481",
+      "31872565",
+      "31699366",
+      "31691816",
+      "31634561",
+      "31590680",
+      "31337953",
+      "31118671",
+      "30711417",
+      "30696040",
+      "30638582",
+      "30536619",
+      "30410597",
+      "30362591",
+      "30304474",
+      "30221475",
+      "30020984",
+      "29800326",
+      "29789527",
+      "29627439",
+      "29156006",
+      "29073938",
+      "28782518",
+      "28767691",
+      "28689916",
+      "28670392",
+      "27941992",
+      "27900047",
+      "27716034",
+      "27049264",
+      "26987623",
+      "26935156",
+      "26797462",
+      "25521941",
+      "25520504",
+      "25386925",
+      "25192291",
+      "24939702",
+      "23586463",
+      "23405241",
+      "23056551",
+      "22330141",
+      "22287627",
+      "21983014",
+      "21376230",
+      "21343399",
+      "21264530",
+      "21071411",
+      "19859982",
+      "19684116",
+      "19461653",
+      "19258450",
+      "19167326",
+      "18668040",
+      "18668037",
+      "18596939",
+      "18451214",
+      "17998940",
+      "17991681",
+      "17612493",
+      "17512944",
+      "17243165",
+      "17060945",
+      "16877060",
+      "15514944",
+      "14973191",
+      "14597658",
+      "12734411",
+      "11736643",
+      "2537532",
+      "2175676",
+      "2164772",
+      "1659741"
+    ],
+    "similar": [
+      "41516135",
+      "38949075",
+      "40010175",
+      "31987036",
+      "34840985",
+      "42216537",
+      "31277149",
+      "42180604",
+      "39764737",
+      "33954190",
+      "33678324",
+      "29032608",
+      "34390411",
+      "34734085",
+      "32547322",
+      "31692035",
+      "34686186",
+      "28498428",
+      "32299382",
+      "35313857",
+      "40068024",
+      "30268144",
+      "33407587",
+      "35322101",
+      "32597160",
+      "41300749",
+      "32307200",
+      "38891888",
+      "30711417",
+      "32708601",
+      "30865617",
+      "40763562",
+      "32093341",
+      "32456463",
+      "30762435",
+      "38863714",
+      "36103746",
+      "33390802",
+      "39471019",
+      "38839916",
+      "31498525",
+      "30607582",
+      "39516222",
+      "29328395",
+      "29063236",
+      "31541491",
+      "27377959",
+      "39060960",
+      "30390708",
+      "36291136",
+      "31703725",
+      "37400149",
+      "40287845",
+      "39116715",
+      "25189652",
+      "39080630",
+      "41751506",
+      "31311829",
+      "40438109",
+      "32368784",
+      "40908400",
+      "31642613",
+      "28454467",
+      "32013934",
+      "39881138",
+      "36879084",
+      "38393632",
+      "39028999",
+      "39820173",
+      "41664335",
+      "35428744",
+      "28927412",
+      "36049413",
+      "41162544",
+      "31490264",
+      "33302814",
+      "28952134",
+      "37828118",
+      "25852169",
+      "34020619",
+      "36991484",
+      "39526479",
+      "38087342",
+      "36104591",
+      "38310566",
+      "33299863",
+      "41945968",
+      "26172537",
+      "30604369",
+      "33770351",
+      "35403252",
+      "36398070",
+      "38640322",
+      "26643896",
+      "39306912",
+      "40966023",
+      "29540855",
+      "39911278",
+      "32349536",
+      "31842912"
+    ],
+    "review": [
+      "41516135",
+      "28927412"
+    ],
+    "pmc": [
+      "12786327"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27010258",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41516135/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

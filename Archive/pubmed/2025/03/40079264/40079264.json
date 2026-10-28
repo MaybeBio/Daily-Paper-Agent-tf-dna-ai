@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "40079264",
+    "doi": "10.1093/bib/bbaf092",
+    "title": "Predicting differentially methylated cytosines in TET and DNMT3 knockout mutants via a large language model."
+  },
+  "content": {
+    "abstract": "DNA methylation is an epigenetic marker that directly or indirectly regulates several critical cellular processes. While cytosines in mammalian genomes generally maintain stable methylation patterns over time, other cytosines that belong to specific regulatory regions, such as promoters and enhancers, can exhibit dynamic changes. These changes in methylation are driven by a complex cellular machinery, in which the enzymes DNMT3 and TET play key roles. The objective of this study is to design a machine learning model capable of accurately predicting which cytosines have a fluctuating methylation level [hereafter called differentially methylated cytosines (DMCs)] from the surrounding DNA sequence. Here, we introduce L-MAP, a transformer-based large language model that is trained on DNMT3-knockout and TET-knockout data in human and mouse embryonic stem cells. Our extensive experimental results demonstrate the high accuracy of L-MAP in predicting DMCs. Our experiments also explore whether a classifier trained on human knockout data could predict DMCs in the mouse genome (and vice versa), and whether a classifier trained on DNMT3 knockout data could predict DMCs in TET knockouts (and vice versa). L-MAP enables the identification of sequence motifs associated with the enzymatic activity of DNMT3 and TET, which include known motifs but also novel binding sites that could provide new insights into DNA methylation in stem cells. L-MAP is available at https://github.com/ucrbioinfo/dmc_prediction.",
+    "keywords": [
+      "BERT",
+      "DNA methylation",
+      "DNMT3",
+      "TET",
+      "cytosine methylation",
+      "large language model"
+    ],
+    "mesh_terms": [
+      "*DNA Methylation",
+      "*DNA (Cytosine-5-)-Methyltransferases/genetics",
+      "Animals",
+      "Mice",
+      "Humans",
+      "Machine Learning",
+      "*Cytosine/metabolism",
+      "*Mutation",
+      "DNA Methyltransferase 3A",
+      "Embryonic Stem Cells/metabolism",
+      "DNA Methyltransferase 3B",
+      "*DNA-Binding Proteins/genetics",
+      "Gene Knockout Techniques",
+      "*Proto-Oncogene Proteins/genetics",
+      "Large Language Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sereshki, Saleh",
+        "Lonardi, Stefano"
+      ],
+      "short_names": [
+        "Sereshki S",
+        "Lonardi S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2696-7274"
+      ],
+      "affiliations": [
+        "Department of Computer Science and Engineering, University of California, Riverside, 900 University Ave, Riverside, CA 92521, United States.",
+        "Department of Computer Science and Engineering, University of California, Riverside, 900 University Ave, Riverside, CA 92521, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sereshki, Saleh",
+        "short_name": "Sereshki S",
+        "identifiers": [
+          "0000-0002-2696-7274"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California, Riverside, 900 University Ave, Riverside, CA 92521, United States."
+        ]
+      },
+      {
+        "full_name": "Lonardi, Stefano",
+        "short_name": "Lonardi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California, Riverside, 900 University Ave, Riverside, CA 92521, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Mar 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/13 14:07",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "40966651"
+    ],
+    "refs": [
+      "38852360",
+      "38711449",
+      "38237590",
+      "38203443",
+      "37488355",
+      "37414790",
+      "37206627",
+      "36943184",
+      "36287187",
+      "36070377",
+      "36067881",
+      "35998875",
+      "35080973",
+      "34850907",
+      "34661235",
+      "34440388",
+      "34375615",
+      "33760053",
+      "33538820",
+      "33526924",
+      "32709850",
+      "32620778",
+      "32543182",
+      "32514123",
+      "32318089",
+      "31871774",
+      "31845735",
+      "31404833",
+      "31399642",
+      "30948436",
+      "30001199",
+      "29664133",
+      "29414941",
+      "28273063",
+      "27869616",
+      "27852650",
+      "27372763",
+      "27104639",
+      "26711177",
+      "26151932",
+      "25183525",
+      "24789823",
+      "23593242",
+      "23151479",
+      "22162947",
+      "22156206",
+      "22144682",
+      "21775986",
+      "21601651",
+      "21493656",
+      "21321204",
+      "20818382",
+      "19635165",
+      "18600261",
+      "15854647",
+      "10555141"
+    ],
+    "similar": [
+      "40079264",
+      "39282350",
+      "32514123",
+      "32187373",
+      "30001199",
+      "34986190",
+      "32471981",
+      "26032981",
+      "23812591",
+      "33004415",
+      "33833093",
+      "32543182",
+      "31286885",
+      "39079576",
+      "23719188",
+      "32694513",
+      "26751286",
+      "27760115",
+      "12036582",
+      "22174693",
+      "39542247",
+      "33024290",
+      "31006102",
+      "23926181",
+      "25822089",
+      "25223896",
+      "26952936",
+      "29482634",
+      "22902005",
+      "20939822",
+      "21490601",
+      "32581223",
+      "38811355",
+      "25985232",
+      "11934864",
+      "24135681",
+      "23625996",
+      "27826843",
+      "32620778",
+      "27179026",
+      "31371502",
+      "21514197",
+      "21695170",
+      "21778364",
+      "26299972",
+      "15923607",
+      "29419727",
+      "38299557",
+      "25972343",
+      "33171840",
+      "28854222",
+      "35998875",
+      "21168469",
+      "28038990",
+      "22157888",
+      "26098813",
+      "26397890",
+      "30850438",
+      "19829295",
+      "23111490",
+      "39446312",
+      "36350508",
+      "35705880",
+      "30813436",
+      "30321403",
+      "30917865",
+      "29203910",
+      "10567546",
+      "29074627",
+      "24991018",
+      "23837670",
+      "35914495",
+      "17182866",
+      "23894490",
+      "21817016",
+      "23850245",
+      "24735979",
+      "37219968",
+      "27856615",
+      "23281708",
+      "25263596",
+      "21460836",
+      "16395332",
+      "23804556",
+      "36645190",
+      "33290556",
+      "26073541",
+      "25297731",
+      "19372391",
+      "28225069",
+      "27863519",
+      "38807090",
+      "18544626",
+      "34140676",
+      "21060858",
+      "25942534",
+      "31114612",
+      "25200796",
+      "29414941",
+      "27774769"
+    ],
+    "review": [
+      "40079264",
+      "39079576",
+      "23719188",
+      "33024290",
+      "20939822",
+      "23625996",
+      "27826843",
+      "21168469",
+      "22157888",
+      "26098813",
+      "39446312",
+      "35705880",
+      "30813436",
+      "35914495",
+      "25297731",
+      "25942534",
+      "25200796"
+    ],
+    "pmc": [
+      "11904404"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40079264.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40079264/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt2hd4w7c4",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf092",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

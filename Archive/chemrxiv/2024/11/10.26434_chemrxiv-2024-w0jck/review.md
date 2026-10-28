@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose a workflow using multiple short molecular dynamics simulations with customized Lennard-Jones potentials to predict fragment binding sites and binding modes. The method was tested on four epigenetic target proteins and their fragment binders, reportedly achieving high accuracy in identifying binding sites and native binding modes.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation statistics are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, and any quantitative performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational approach for fragment binding mode prediction, an area of genuine interest in structure-based drug design. However, the current submission provides insufficient detail to evaluate the technical soundness, statistical validity, or generalizability of the proposed method. The core claims of high accuracy are unsupported by any quantitative data in the visible material. The manuscript may merit consideration after full review of the complete text, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working in fragment-based drug discovery would be the primary audience. Researchers developing or applying molecular dynamics-based docking and binding site prediction methods would also find the approach relevant. The potential to predict fragment binding without experimental structures could be valuable for early-stage drug discovery programs targeting epigenetic proteins or other systems where fragment soaking data are limited.
+- **Major strengths** The proposed concept of using customized Lennard-Jones potentials to enable high-concentration fragment simulations is an interesting methodological idea that addresses a real limitation in conventional molecular dynamics approaches. The focus on short simulations is pragmatic and potentially scalable. The application to epigenetic targets, a therapeutically relevant protein class, adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims the method "showed high accuracy in identifying the binding sites as well as predicting the native binding modes" across four epigenetic target proteins.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative performance metrics are provided. The abstract does not report success rates, root-mean-square deviation values, enrichment factors, or any statistical comparison against alternative methods. The term "high accuracy" is undefined and cannot be assessed.
+  - **Why it matters** Without quantitative benchmarks, the central claim of predictive accuracy is unverifiable. The reader cannot determine whether the method outperforms existing approaches, what constitutes a successful prediction, or how robust the results are across the four test systems.
+  - **Resolution test** The full manuscript must provide explicit performance metrics, including numerical accuracy values, comparison to baseline or established methods, and clear definitions of success criteria for binding site and binding mode prediction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "tailored Lennard-Jones potentials enable the simulation of systems with high concentrations of identical fragment molecules" and that "descriptors and binding free energy calculations were implemented to filter out the desired fragment position."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no detail on how the Lennard-Jones potentials were customized, how the parameters were derived or validated, what descriptors were used, or how binding free energies were calculated. The filtering procedure is described only in general terms.
+  - **Why it matters** The methodological novelty appears to reside in the potential customization and the filtering workflow. Without specifics, the approach cannot be reproduced, and the scientific contribution cannot be distinguished from existing fragment mapping or docking protocols.
+  - **Resolution test** The full manuscript must provide complete methodological details, including parameterization procedures, simulation setup, descriptor definitions, free energy calculation methods, and the filtering algorithm. Sufficient detail must be present for independent reproduction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability and validation scope
+  - **Claim pointer** The abstract implies the method is a general alternative for fragment binding mode prediction, stating it "may be useful in fragment-based drug discovery when the corresponding experimental structural data are limited."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The method was tested on only four epigenetic target proteins. The abstract does not indicate the diversity of these targets, the range of fragment properties, or whether the test set includes challenging cases such as cryptic sites, allosteric pockets, or highly flexible binding regions.
+  - **Why it matters** A four-system validation is insufficient to establish generalizability. The claim of broad utility in fragment-based drug discovery requires demonstration across a more diverse and challenging set of targets and fragments.
+  - **Resolution test** The full manuscript should include a more extensive validation set, discussion of target and fragment diversity, and analysis of failure cases. If only four systems are available, the authors should temper the generalizability claims accordingly.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Reliable in silico prediction of fragment binding modes remains a challenge" is a general statement that does not specify the nature of the challenge or how the proposed method addresses it beyond the high-concentration simulation concept.
+  - **Required correction** Specify the key limitations of existing methods that the proposed workflow aims to overcome, such as sampling limitations, force field inaccuracies, or scoring function deficiencies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "customized Lennard-Jones potentials"
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The term "customized" is vague. It is unclear whether this refers to parameter scaling, functional form modification, or system-specific fitting.
+  - **Required correction** Use more precise terminology, such as "parameter-scaled Lennard-Jones potentials" or "system-specific Lennard-Jones parameter optimization," depending on the actual approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, performance claim
+  - **Evidence pointer** Abstract, final results sentence
+  - **Issue** The abstract does not mention any limitations, failure cases, or conditions under which the method might underperform.
+  - **Required correction** Include a brief statement of limitations or conditions for optimal performance to provide a balanced assessment.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and broader validation prevents any assessment of technical soundness or predictive utility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using customized Lennard-Jones potentials for high-concentration fragment simulations appears novel, but the abstract does not provide enough context to establish how it differs from existing fragment mapping methods such as FTMap, MDmix, or conventional docking with explicit solvent. Assessment: potentially original but not established.
+  - Scientific importance: Fragment-based drug discovery is an active and important field, and improved binding mode prediction would be valuable. However, the importance of this specific contribution depends on demonstrated performance gains over existing methods, which are not shown. Assessment: potentially important but unsubstantiated.
+  - Interdisciplinary readership: The work sits at the interface of computational chemistry, structural biology, and medicinal chemistry. The abstract is written in accessible language, but the lack of quantitative results limits its appeal to a broad readership. Assessment: moderate potential, currently limited by evidence.
+  - Technical soundness: Cannot be evaluated from the abstract. The methodological description is too sparse, and no validation data are presented. Assessment: not assessable.
+  - Readability for nonspecialists: The abstract is generally clear and avoids excessive jargon. The core concept is understandable. Assessment: adequate.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting idea, but the absence of quantitative results, methodological detail, and broader validation means the core claims cannot be evaluated. A full review of the complete manuscript is necessary to determine whether the technical concerns can be resolved. The recommendation is conditional on the full text providing the missing evidence.
+
+## Risk / unsupported claims
+- The claim of "high accuracy" in binding site identification and binding mode prediction is unsupported by any quantitative data in the visible material.
+- The claim that the method represents "an alternative method for the prediction of fragment binding modes" is not substantiated without comparison to existing approaches.
+- The implied general utility in fragment-based drug discovery is not supported by the limited four-system test set described.
+- The methodological claims regarding customized Lennard-Jones potentials and the filtering workflow are not assessable without full methodological details.

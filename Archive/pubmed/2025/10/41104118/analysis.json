@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41104118",
+  "title": "Using buccal methylomic data to create explainable aging clocks as well as classifiers and regressors for lifestyle and demographic factors.",
+  "authors": "Shokhirev, Maxim N; Johnson, Adiv A",
+  "journal": "Frontiers in genetics",
+  "published_date": "2025-10-17",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 2,
+  "one_liner_zh": "该文利用口腔黏膜DNA甲基化数据构建衰老时钟及生活方式/人口学因素分类器，虽涉及转录因子靶点富集，但核心是表观遗传预测而非蛋白质-DNA互作建模，且无AI/物理模拟方法聚焦于TF-DNA结合机制。",
+  "abstract": "In human blood, it has been demonstrated that methylomic information can be used to predict smoking status, alcohol intake, and chronological age. While it is possible to robustly predict chronological age using DNA methylation information derived from buccal tissue, it remains to be determined if other variables can be directly predicted in cheek swabs. Here, we demonstrate that classifiers for smoking status and race/ethnicity can be built in a buccal methylomic dataset derived from 8,045 adults spanning an age range of 18-93 years. Furthermore, we build novel regressors for body mass index, alcohol intake, and chronological age. For each of these models, we identify the 1,000 most important CpGs and perform enrichment analyses on them to expose associated biological pathways and transcription factor targets. We additionally explore how the architecture of an epigenetic aging clock-specifically how many hidden layers are present-influences model accuracy. Finally, we build proof-of-concept, explainable deep learning models that connect DNA methylation sites annotated to genes to Reactome pathways or to transcription factors. These pathways and target sets are then used to estimate age, a feature that provides interpretability. All together, these findings further emphasize the usability of buccal data for epigenetic predictions.",
+  "abstract_zh": "在人类血液中，已有研究表明甲基化信息可用于预测吸烟状态、饮酒量和实足年龄。尽管利用来自口腔黏膜组织的DNA甲基化信息能够稳健地预测实足年龄，但其他变量是否能在颊拭子样本中被直接预测仍有待确定。在此，我们证明，在来自8,045名年龄范围18-93岁成年人的口腔黏膜甲基化数据集中，可以构建吸烟状态和种族/民族分类器。此外，我们构建了针对体重指数、饮酒量和实足年龄的新型回归模型。对于每个模型，我们识别出1,000个最重要的CpG位点，并对其进行富集分析，以揭示相关的生物学通路和转录因子靶点。我们还探讨了表观遗传衰老时钟的架构——特别是隐藏层数量——如何影响模型准确性。最后，我们构建了概念验证性的可解释深度学习模型，将注释到基因的DNA甲基化位点与Reactome通路或转录因子相连接。这些通路和靶点集随后用于估计年龄，这一特征提供了可解释性。总体而言，这些发现进一步强调了口腔黏膜数据在表观遗传预测中的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41104118/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41104118/",
+  "paper_page_path": "papers/pubmed/41104118/index.html"
+}

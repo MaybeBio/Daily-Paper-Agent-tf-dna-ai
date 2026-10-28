@@ -1,0 +1,506 @@
+{
+  "identity": {
+    "pmid": "36336658",
+    "doi": "10.1002/cbic.202200450",
+    "title": "The Chromatin Regulator HMGA1a Undergoes Phase Separation in the Nucleus."
+  },
+  "content": {
+    "abstract": "The protein high mobility group A1 (HMGA1) is an important regulator of chromatin organization and function. However, the mechanisms by which it exerts its biological function are not fully understood. Here, we report that the HMGA isoform, HMGA1a, nucleates into foci that display liquid-like properties in the nucleus, and that the protein readily undergoes phase separation to form liquid condensates in vitro. By bringing together machine-leaning modelling, cellular and biophysical experiments and multiscale simulations, we demonstrate that phase separation of HMGA1a is promoted by protein-DNA interactions, and has the potential to be modulated by post-transcriptional effects such as phosphorylation. We further show that the intrinsically disordered C-terminal tail of HMGA1a significantly contributes to its phase separation through electrostatic interactions via AT hooks 2 and 3. Our work sheds light on HMGA1 phase separation as an emergent biophysical factor in regulating chromatin structure.",
+    "keywords": [
+      "HMGA",
+      "chromatin regulators",
+      "liquid-liquid phase separation",
+      "phase diagrams",
+      "protein-DNA interactions"
+    ],
+    "mesh_terms": [
+      "*Chromatin/metabolism",
+      "*HMGA1a Protein/genetics/chemistry/metabolism",
+      "Cell Nucleus/metabolism",
+      "DNA/metabolism",
+      "Phosphorylation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Hongjia",
+        "Narita, Masako",
+        "Joseph, Jerelle A",
+        "Krainer, Georg",
+        "Arter, William E",
+        "Olan, Ioana",
+        "Saar, Kadi L",
+        "Ermann, Niklas",
+        "Espinosa, Jorge R",
+        "Shen, Yi",
+        "Kuri, Masami Ando",
+        "Qi, Runzhang",
+        "Welsh, Timothy J",
+        "Collepardo-Guevara, Rosana",
+        "Narita, Masashi",
+        "Knowles, Tuomas P J"
+      ],
+      "short_names": [
+        "Zhu H",
+        "Narita M",
+        "Joseph JA",
+        "Krainer G",
+        "Arter WE",
+        "Olan I",
+        "Saar KL",
+        "Ermann N",
+        "Espinosa JR",
+        "Shen Y",
+        "Kuri MA",
+        "Qi R",
+        "Welsh TJ",
+        "Collepardo-Guevara R",
+        "Narita M",
+        "Knowles TPJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7707-353X",
+        "ORCID: 0000-0002-9774-4908",
+        "ORCID: 0000-0002-7879-0140"
+      ],
+      "affiliations": [
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK.",
+        "Department of Genetics, University of Cambridge, Cambridge, UK.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, JJ Thomson Avenue, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Transition Bio Ltd., Maxwell Centre, JJ Thomson Avenue, Cambridge, UK.",
+        "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Transition Bio Ltd., Maxwell Centre, JJ Thomson Avenue, Cambridge, UK.",
+        "Transition Bio Ltd., Maxwell Centre, JJ Thomson Avenue, Cambridge, UK.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, JJ Thomson Avenue, Cambridge, UK.",
+        "School of Chemical and Biomolecular Engineering, The University of Sydney, Sydney, Australia.",
+        "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Department of Genetics, University of Cambridge, Cambridge, UK.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, JJ Thomson Avenue, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, JJ Thomson Avenue, Cambridge, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Hongjia",
+        "short_name": "Zhu H",
+        "identifiers": [
+          "0000-0001-7707-353X"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Narita, Masako",
+        "short_name": "Narita M",
+        "identifiers": [
+          "0000-0002-9774-4908"
+        ],
+        "affiliations": [
+          "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, University of Cambridge, Cambridge, UK.",
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, JJ Thomson Avenue, Cambridge, UK.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Krainer, Georg",
+        "short_name": "Krainer G",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Arter, William E",
+        "short_name": "Arter WE",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Transition Bio Ltd., Maxwell Centre, JJ Thomson Avenue, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Olan, Ioana",
+        "short_name": "Olan I",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Saar, Kadi L",
+        "short_name": "Saar KL",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Transition Bio Ltd., Maxwell Centre, JJ Thomson Avenue, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Ermann, Niklas",
+        "short_name": "Ermann N",
+        "identifiers": [],
+        "affiliations": [
+          "Transition Bio Ltd., Maxwell Centre, JJ Thomson Avenue, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [],
+        "affiliations": [
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, JJ Thomson Avenue, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Shen, Yi",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical and Biomolecular Engineering, The University of Sydney, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Kuri, Masami Ando",
+        "short_name": "Kuri MA",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Qi, Runzhang",
+        "short_name": "Qi R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Welsh, Timothy J",
+        "short_name": "Welsh TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, University of Cambridge, Cambridge, UK.",
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, JJ Thomson Avenue, Cambridge, UK.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Narita, Masashi",
+        "short_name": "Narita M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, JJ Thomson Avenue, Cambridge, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chembiochem : a European journal of chemical biology"
+    ],
+    "journal_abbrev": [
+      "Chembiochem"
+    ],
+    "pub_date": "2023 Jan 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/07 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "41904596",
+      "41868013",
+      "39478017",
+      "39134516",
+      "38885177",
+      "38153183",
+      "37935659",
+      "37828010",
+      "37171907",
+      "37164156"
+    ],
+    "refs": [
+      "35795820",
+      "34303931",
+      "34265844",
+      "34001913",
+      "33597515",
+      "33571491",
+      "33502444",
+      "33237286",
+      "32482873",
+      "32305817",
+      "32293175",
+      "32283330",
+      "32144738",
+      "32040349",
+      "32029630",
+      "32025038",
+      "31952807",
+      "31754043",
+      "31618757",
+      "31543265",
+      "31340016",
+      "31334587",
+      "31311575",
+      "30682370",
+      "30200855",
+      "30099028",
+      "29961577",
+      "29860432",
+      "29789601",
+      "29677515",
+      "29650702",
+      "29517898",
+      "29364893",
+      "29133588",
+      "29064502",
+      "28935776",
+      "28924037",
+      "28636604",
+      "28636597",
+      "28225081",
+      "27594427",
+      "27374333",
+      "27357569",
+      "27257057",
+      "26776729",
+      "26705895",
+      "26526393",
+      "26455954",
+      "26412307",
+      "26351690",
+      "26317470",
+      "26015579",
+      "25871460",
+      "25859543",
+      "25768910",
+      "25747659",
+      "25364713",
+      "25288112",
+      "25024921",
+      "24847063",
+      "24484546",
+      "24116630",
+      "23706625",
+      "23558786",
+      "22579281",
+      "22398450",
+      "21500218",
+      "20701767",
+      "20346642",
+      "19460965",
+      "18513496",
+      "18004397",
+      "17913751",
+      "17576687",
+      "17320503",
+      "17169561",
+      "17078040",
+      "16901784",
+      "16626213",
+      "15213251",
+      "11034995",
+      "10706706",
+      "10634468",
+      "10372360",
+      "1508193"
+    ],
+    "similar": [
+      "36336658",
+      "20701767",
+      "15213251",
+      "17960875",
+      "15591590",
+      "15835918",
+      "18662672",
+      "19074878",
+      "33545070",
+      "31340016",
+      "21596776",
+      "16033759",
+      "30514760",
+      "40076747",
+      "27723831",
+      "16293633",
+      "22419021",
+      "19739099",
+      "17550233",
+      "15893306",
+      "12653562",
+      "16157300",
+      "23166588",
+      "21656127",
+      "35864955",
+      "31167352",
+      "26980699",
+      "17627840",
+      "25313540",
+      "20202861",
+      "21461783",
+      "35286385",
+      "37307918",
+      "16870469",
+      "21545188",
+      "21854010",
+      "26265440",
+      "15923078",
+      "29052178",
+      "39134516",
+      "30999005",
+      "22932725",
+      "22106824",
+      "31531802",
+      "31311575",
+      "28345487",
+      "28777374",
+      "18234858",
+      "36231107",
+      "34271007",
+      "22961697",
+      "30614613",
+      "27001612",
+      "28684158",
+      "21087998",
+      "34830152",
+      "40038751",
+      "29678492",
+      "12973668",
+      "15350136",
+      "24367622",
+      "22053823",
+      "31300541",
+      "35137191",
+      "32487073",
+      "20347905",
+      "18651940",
+      "35282770",
+      "39992005",
+      "18202751",
+      "12700639",
+      "22249617",
+      "11145960",
+      "19956671",
+      "19317492",
+      "29743479",
+      "34311273",
+      "17483309",
+      "29618461",
+      "18067116",
+      "34485943",
+      "17877762",
+      "31543265",
+      "21530505",
+      "23658826",
+      "17350957",
+      "33438259",
+      "12628246",
+      "32398950",
+      "17455969",
+      "15650238",
+      "15378028",
+      "12970064",
+      "34572547",
+      "39769030",
+      "16540646",
+      "33648560",
+      "17045586",
+      "35681444",
+      "31582725"
+    ],
+    "review": [
+      "36336658",
+      "40076747",
+      "22419021",
+      "35864955",
+      "26980699",
+      "15923078",
+      "34271007",
+      "30614613",
+      "34830152",
+      "18202751",
+      "34311273",
+      "29618461",
+      "15650238",
+      "34572547"
+    ],
+    "pmc": [
+      "10098602"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36336658/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36336658",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cbic.202200450",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

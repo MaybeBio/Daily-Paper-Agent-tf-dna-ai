@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.08.519600",
+  "title": "Correction of transposase sequence bias in ATAC-seq data with rule ensemble modeling",
+  "authors": "Wolpe JB; Martins AL; Guertin MJ",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-12",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用规则集成机器学习建模并校正Tn5转座酶在ATAC-seq中的序列偏好，虽涉及转录因子结合位点推断，但核心是酶切偏差校正而非TF-DNA互作建模，方法可迁移但对象与互作轴均非直接聚焦。",
+  "abstract": "Chromatin accessibility assays have revolutionized the field of transcription regulation by providing single-nucleotide resolution measurements of regulatory features such as promoters and transcription factor binding sites. ATAC-seq directly measures how well the Tn5 transpose accesses chromatinized DNA. Tn5 has a complex sequence bias that is not effectively scaled with traditional bias-correction methods. We model this complex bias using a rule ensemble machine learning approach that integrates information from many input k-mers proximal to the ATAC sequence reads. We effectively characterize and correct single-nucleotide sequence biases and regional sequence biases of the Tn5 enzyme. Correction of enzymatic sequence bias is an important step in interpreting chromatin accessibility assays that aim to infer transcription factor binding and regulatory activity of elements in the genome.",
+  "abstract_zh": "染色质可及性分析通过提供启动子和转录因子结合位点等调控特征的单核苷酸分辨率测量，彻底改变了转录调控领域。ATAC-seq直接测量Tn5转座酶对染色质化DNA的可及程度。Tn5具有复杂的序列偏好性，传统偏差校正方法无法有效缩放这种偏好。我们采用规则集成机器学习方法，整合来自ATAC序列读段附近多个输入k-mer的信息，对这种复杂偏差进行建模。我们有效表征并校正了Tn5酶的单核苷酸序列偏差和区域序列偏差。酶促序列偏差的校正是解读旨在推断转录因子结合及基因组元件调控活性的染色质可及性分析的重要步骤。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.08.519600",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.08.519600",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.08.519600/index.html"
+}

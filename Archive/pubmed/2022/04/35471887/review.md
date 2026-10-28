@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors present two deep learning tools: deepBICS, a sequence-based model for quantifying transcription factor-DNA binding intensity from ChIP-seq data, and deepBICS4SNV, a language model-based method for predicting pathogenicity of single nucleotide variants. They claim superior performance of deepBICS on ChIP-seq data sets, utility of deepBICS as a language model for classifying disease-related versus neutral variants, and improved prediction accuracy and generalization of deepBICS4SNV on tests related to Mendelian disorders and viral diseases.
+- **Visible evidence base** Abstract text only; no quantitative results, data set descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, data set identifiers, performance metrics, baseline comparisons, statistical tests, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful computational pipeline combining a binding-intensity quantification model with a variant pathogenicity predictor. The conceptual link between transcription factor binding context and variant effect prediction is scientifically reasonable. However, the abstract provides no quantitative evidence, no comparison baselines, no data set specifications, and no methodological detail. The claims of superiority and improved generalization cannot be evaluated from the supplied material. The work may be of interest to the computational genomics community, but the current evidence base is insufficient to assess technical soundness or establish the stated claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, transcription factor binding prediction, and variant effect interpretation. Clinically oriented researchers interested in predicting pathogenicity of non-coding variants in regulatory regions may also find the approach relevant. The language model angle may attract researchers applying NLP methods to genomic sequences.
+- **Major strengths** The abstract identifies a clear biological motivation linking transcription factor binding disruption to disease. The two-stage design, from binding quantification to variant pathogenicity prediction, is a logical progression. The application to both Mendelian disorders and viral diseases suggests an attempt at demonstrating generalizability across disease contexts.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim "superiority of deepBICS on ChIP-seq data sets" and "good performance of deepBICS4SNV" on two tests.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are reported. There are no performance metrics such as area under the curve, correlation coefficients, precision, recall, or accuracy. No baseline methods are named or compared. No statistical significance tests are mentioned. The claim of superiority is therefore unsupported.
+  - **Why it matters** Without quantitative comparisons to existing methods, the reader cannot assess whether deepBICS and deepBICS4SNV offer any advantage over established tools. The core scientific contribution of the work depends on demonstrating measurable improvement.
+  - **Resolution test** Provide performance metrics for deepBICS against at least one established binding-intensity prediction method on the same ChIP-seq data sets, and for deepBICS4SNV against standard variant pathogenicity predictors, with appropriate statistical testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that deepBICS is a "sequence-based deep learning model" and deepBICS4SNV is a "language model-based method."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No architectural details, training procedures, hyperparameters, or data preprocessing steps are described. The data sets used for training and testing are not identified. No information is given on how the language model is constructed or how it is adapted for the SNV prediction task.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational biology tools. Without methodological detail, other researchers cannot implement, validate, or build upon the methods. The scientific value of the work is substantially diminished if the methods are not transparent.
+  - **Resolution test** Include a full methods section describing model architectures, training data, validation splits, hyperparameter selection, and provide code and data availability statements.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim that "sequence contextual information derived from language models can improve prediction accuracy and generalization capability."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract mentions "2 tests related to Mendelian disorders and viral diseases" but provides no details on the nature of these tests, the number of variants, the disease types, or the evaluation protocol. The claim of improved generalization is not supported by any comparative analysis across diverse data sets or conditions.
+  - **Why it matters** Generalization is a strong claim that requires demonstration across multiple independent data sets, ideally with different characteristics. A single or two test scenarios are insufficient to establish generalizability, especially without knowing the relationship between training and test data.
+  - **Resolution test** Describe the two test data sets in detail, including variant counts, disease categories, and how they differ from training data. Show performance comparisons with and without language model features to isolate the contribution of contextual information.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "deepBICS" is introduced without explaining the acronym or the relationship between the "deep learning model" and the "language model" framing. The abstract shifts between these descriptions without clarification.
+  - **Required correction** Define the acronym and explicitly state whether deepBICS and deepBICS4SNV are separate models or share components, and clarify the relationship between the deep learning and language model descriptions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Disease relevance framing
+  - **Evidence pointer** Abstract, first two sentences
+  - **Issue** The abstract states that variants in binding regions "play crucial roles in human disease" but does not specify the proportion of disease-associated variants that fall in such regions or the clinical relevance of the predictions.
+  - **Required correction** Provide context on the fraction of disease-associated variants located in transcription factor binding regions, or temper the claim to reflect the specific scope of the method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data set description
+  - **Evidence pointer** Abstract, "ChIP-seq data sets"
+  - **Issue** The abstract refers to "ChIP-seq data sets" without specifying which transcription factors, cell types, or species are covered.
+  - **Required correction** List the transcription factors, cell types, and species included in the training and evaluation data sets.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and test data set descriptions means the core claims of superiority, reproducibility, and generalization are not established from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of binding-intensity quantification with language model-based variant pathogenicity prediction has some novelty, but the abstract does not clearly differentiate the approach from existing methods in either domain. Not assessable in depth from the abstract.
+  - Scientific importance: The problem of interpreting non-coding variants in regulatory regions is important. However, the abstract does not demonstrate that the method addresses a previously unsolved problem or offers a substantial advance over existing tools.
+  - Interdisciplinary readership: The work bridges machine learning and genomics, which could appeal to a broad readership. However, the abstract is too sparse to convey the interdisciplinary significance effectively.
+  - Technical soundness: Not assessable. No technical details or quantitative results are provided.
+  - Readability for nonspecialists: The abstract is readable but uses terms such as "language model" and "ChIP-seq" without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to assess the validity or significance of the claims. A full manuscript with quantitative results, methodological transparency, and detailed data set descriptions would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- Claim of "superiority of deepBICS on ChIP-seq data sets" is unsupported due to absence of comparative metrics.
+- Claim that deepBICS "could help the classification of disease-related and neutral variants" is vague and unsupported by any reported results.
+- Claim of "good performance of deepBICS4SNV" is unsupported without specific metrics or baseline comparisons.
+- Claim that "sequence contextual information derived from language models can improve prediction accuracy and generalization capability" is unsupported without ablation studies or comparative analysis.
+- The relationship between the two models and the specific contribution of each is not assessable from the abstract.

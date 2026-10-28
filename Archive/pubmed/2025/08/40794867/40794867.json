@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "40794867",
+    "doi": "10.1093/nar/gkaf747",
+    "title": "MexR and NalD are pyocyanin-responsive transcriptional repressors of the efflux pump MexAB-OprM in Pseudomonas aeruginosa."
+  },
+  "content": {
+    "abstract": "The secondary metabolite pyocyanin (PYO) significantly enhances the antibiotic resistance of Pseudomonas aeruginosa by inducing expression of the resistance-nodulation-cell division efflux systems. However, the mechanisms underlying the initial derepression and subsequent upregulation of MexAB-OprM, regulated by multiple transcriptional repressors, remain unclear. Here, we demonstrate that MexR and NalD, the transcriptional repressors of MexAB-OprM, function as PYO receptors, with dissociation constants of 5.17 and 7.03 muM, respectively. Electrophoretic mobility shift assays show that PYO binding to MexR and NalD induces their dissociation from the mexA promoter, leading to the derepression of mexAB-oprM expression. Structural simulations and mutagenesis assays identified residues F17, R21, and M61 in MexR, as well as R66, N129, and F132 in NalD, as critical for PYO binding. Additionally, PYO and the MexAB-OprM substrate novobiocin competitively bind to MexR and NalD, suggesting that PYO can attenuate the effectiveness of clinical antibiotics by triggering mexAB-oprM expression. Furthermore, PYO establishes a negative feedback regulatory mechanism through NalD, which also functions as a transcriptional activator of phenazine biosynthesis genes, thereby restricting PYO overproduction to maintain cellular homeostasis. This regulatory pathway provides an energy-efficient survival strategy for P. aeruginosa in hostile environments.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Pseudomonas aeruginosa/genetics/metabolism",
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "Gene Expression Regulation, Bacterial",
+      "*Pyocyanine/metabolism",
+      "*Repressor Proteins/metabolism/chemistry/genetics",
+      "*Membrane Transport Proteins/genetics/metabolism/chemistry",
+      "Promoter Regions, Genetic",
+      "*Bacterial Outer Membrane Proteins/genetics/metabolism",
+      "Protein Binding",
+      "Membrane Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Cancan",
+        "Wang, Maofeng",
+        "Xiao, Yumeng",
+        "Zhao, Shubao",
+        "Jiang, Xiaoqiong",
+        "Zhang, Kundi",
+        "Wang, Hongwei",
+        "Dong, Hongjie",
+        "Xu, Sujuan",
+        "Su, Tiantian",
+        "Gu, Lichuan"
+      ],
+      "short_names": [
+        "Wu C",
+        "Wang M",
+        "Xiao Y",
+        "Zhao S",
+        "Jiang X",
+        "Zhang K",
+        "Wang H",
+        "Dong H",
+        "Xu S",
+        "Su T",
+        "Gu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8201-403X"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China.",
+        "Research Center of Translational Medicine, Central Hospital Affiliated to Shandong First Medical University, 56 Shanda South Road, Jinan 250013, China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China.",
+        "National Institute of Parasitic Diseases, Chinese Center for Disease Control and Prevention, Shanghai 200025, China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Cancan",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Maofeng",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center of Translational Medicine, Central Hospital Affiliated to Shandong First Medical University, 56 Shanda South Road, Jinan 250013, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yumeng",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shubao",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xiaoqiong",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kundi",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongwei",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Hongjie",
+        "short_name": "Dong H",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Parasitic Diseases, Chinese Center for Disease Control and Prevention, Shanghai 200025, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Sujuan",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Su, Tiantian",
+        "short_name": "Su T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Lichuan",
+        "short_name": "Gu L",
+        "identifiers": [
+          "0000-0002-8201-403X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, 72 Binhai Road, Qingdao 266237, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jul 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 18:33",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42661736",
+      "42630796"
+    ],
+    "refs": [
+      "40011517",
+      "38519499",
+      "37666047",
+      "37291560",
+      "36555423",
+      "36207285",
+      "35752612",
+      "34743315",
+      "34550809",
+      "34531577",
+      "34432045",
+      "33833120",
+      "33690640",
+      "33556480",
+      "32600375",
+      "31722511",
+      "31492517",
+      "31452096",
+      "31167844",
+      "31004360",
+      "30921732",
+      "30380384",
+      "30297364",
+      "30230061",
+      "30002505",
+      "29967320",
+      "29846800",
+      "29276051",
+      "29115136",
+      "29086303",
+      "28900249",
+      "28670937",
+      "27736975",
+      "27517959",
+      "27140419",
+      "26844397",
+      "26787849",
+      "26565910",
+      "25399421",
+      "24803433",
+      "24214679",
+      "23687277",
+      "23140890",
+      "23056420",
+      "22479525",
+      "22393435",
+      "21205015",
+      "19822890",
+      "19363495",
+      "18812515",
+      "18757728",
+      "18272181",
+      "17466326",
+      "17028276",
+      "16879411",
+      "15855505",
+      "15855496",
+      "14605211",
+      "11846609",
+      "11591691",
+      "11514502",
+      "11208776",
+      "11083635"
+    ],
+    "similar": [
+      "40794867",
+      "27060003",
+      "26844397",
+      "17028276",
+      "35536836",
+      "22393435",
+      "11208776",
+      "30297364",
+      "27412168",
+      "11886752",
+      "32875640",
+      "11166990",
+      "39146705",
+      "15387820",
+      "12107151",
+      "15105137",
+      "26866484",
+      "15855496",
+      "29846800",
+      "25644798",
+      "21231970",
+      "39656006",
+      "18757728",
+      "27736975",
+      "12153116",
+      "26221722",
+      "15215631",
+      "16677571",
+      "12604529",
+      "41155235",
+      "30405166",
+      "37852553",
+      "22574700",
+      "12760863",
+      "10671465",
+      "17545281",
+      "20616806",
+      "29157815",
+      "38796070",
+      "39303871",
+      "17586626",
+      "10481088",
+      "12927807",
+      "41148151",
+      "39555917",
+      "24628702",
+      "9449262",
+      "20100880",
+      "14526032",
+      "11430403",
+      "19709308",
+      "30081137",
+      "18676884",
+      "29184094",
+      "27668722",
+      "14973037",
+      "10223959",
+      "12034710",
+      "12121960",
+      "8878574",
+      "19258280",
+      "11083635",
+      "15047536",
+      "27427478",
+      "28806947",
+      "28993173",
+      "20095047",
+      "14734177",
+      "37424105",
+      "9925520",
+      "19786597",
+      "34070225",
+      "31225882",
+      "35302222",
+      "17644596",
+      "10681335",
+      "18812515",
+      "17720796",
+      "9736539",
+      "15465264",
+      "30289929",
+      "11102405",
+      "24478193",
+      "17420563",
+      "12354104",
+      "9661004",
+      "9401051",
+      "15687203",
+      "12193619",
+      "10747818",
+      "39912696",
+      "34248872",
+      "38150012",
+      "35168878",
+      "15325256",
+      "41315177",
+      "24051688",
+      "38874367",
+      "41004622",
+      "31860667"
+    ],
+    "review": [
+      "40794867",
+      "39303871"
+    ],
+    "pmc": [
+      "12571440"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40794867/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf747",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

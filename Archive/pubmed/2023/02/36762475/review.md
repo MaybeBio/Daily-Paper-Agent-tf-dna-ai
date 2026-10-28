@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, availability statements) as provided. Figures, tables, and supplementary materials referenced but not fully available for inspection.
+- **Assessment boundary** Scientific and technical evaluation of the MTLRank method, its validation, and the claims made regarding regulatory network reconstruction from single-cell atlas data. Assessment is limited to the provided text; figures, tables, and supplementary files are referenced but not independently verifiable from the supplied material.
+- **Shared manuscript claim summary** The authors present MTLRank, a multi-task deep learning framework that predicts RNA velocity (rather than gene expression) from transcription factor expression and TF activity scores derived from scATAC-seq and ChIP-seq data, to reconstruct tissue-specific gene regulatory networks across six HuBMAP tissues. They claim improved accuracy over prior methods, validated recovery of known tissue-specific TFs, and novel biologically meaningful network predictions.
+- **Visible evidence base** Text descriptions of methods and results; references to Figure 1, Figure 2, Figure 3, Supplementary Figures S1–S6, Supplementary Tables S1–S5, and Supplementary Files 1–4. Actual figure content, table data, and supplementary files were not provided for direct inspection.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant problem in systems biology: reconstructing gene regulatory networks from single-cell atlas data. The core idea of predicting RNA velocity rather than gene expression, combined with multi-task learning and integration of chromatin accessibility data, is conceptually appealing and potentially impactful. However, the provided text alone does not allow full verification of the method's performance, the validity of the validation strategy, or the biological significance of the predicted networks. Several methodological details are underspecified, and the evaluation approach relies on indirect metrics (R2, recall of known markers) that may not fully establish the accuracy of the inferred regulatory interactions. The claims of improvement over prior methods and biological discovery require the actual figures and supplementary data to be substantiated. The manuscript is likely of interest to computational biologists and researchers working on gene regulatory network inference, but the strength of the conclusions cannot be fully assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists developing and benchmarking gene regulatory network inference methods; researchers using single-cell multi-omics data (scRNA-seq, scATAC-seq) to study gene regulation; systems biologists interested in tissue-specific regulatory programs; and potentially experimental biologists seeking candidate TF-gene interactions for validation in specific tissues (liver, kidney, lung, spleen, large intestine).
+- **Major strengths** The conceptual advance of using RNA velocity as a target for regulatory network inference is well motivated and addresses a known limitation of snapshot expression data. The integration of multiple data modalities (expression, chromatin accessibility, TF binding sites) within a multi-task learning framework is a thoughtful design. The use of atlas-scale data from HuBMAP is a strength in terms of data scale and relevance. The authors also provide a web portal for querying predicted interactions, which is a useful community resource.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / validation
+  - **Claim pointer** The authors claim that MTLRank "greatly improved on prior methods proposed for this task" based on R2 score comparisons and recall of tissue-specific TF markers.
+  - **Evidence pointer** Results section "Comprehensive evaluation of MTLRank models"; Figure 2; Table 3; location not provided for specific data values.
+  - **Concern** The evaluation of MTLRank against prior methods is described only in text. The actual R2 values, the specific methods compared, the statistical significance of differences, and the conditions of comparison (e.g., same genes, same cells, same data splits) are not verifiable from the provided text. The recall-based evaluation using TF-Marker database is acknowledged by the authors to be limited (precision not reported due to incomplete ground truth), which weakens the claim of improved accuracy. Without seeing the actual comparison data, the claim of "greatly improved" performance is not established.
+  - **Why it matters** The central claim of the manuscript is that MTLRank outperforms existing methods. If this is not rigorously demonstrated with appropriate baselines, statistical tests, and transparent reporting, the contribution of the method is not established.
+  - **Resolution test** Provide the full comparison results (e.g., R2 distributions, mean ± SD, number of genes tested), specify the exact baselines and their configurations, and include statistical significance testing. Show that the improvement is consistent across tissues and not driven by a subset of genes or tissues.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / methodology
+  - **Claim pointer** The method uses TF activity scores computed from scATAC-seq and ChIP-seq data, and the authors state that "scATAC-seq is impacted by post-translational modifications and so can be used to infer the actual activity of TFs."
+  - **Evidence pointer** Materials and Methods section "TF activity score"; Figure 1C; location not provided for the specific formula or validation of the activity score.
+  - **Concern** The computation of TF activity scores is described in general terms, but the exact formula (A(sum) and A(mean)) is not fully explained in the provided text. The claim that scATAC-seq reflects post-translational modifications is not directly supported; chromatin accessibility is an indirect proxy for TF activity and may not capture post-translational regulation (e.g., phosphorylation, nuclear localization). The authors do not validate that their activity score correlates with known TF activity or that it adds information beyond expression alone in a controlled manner.
+  - **Why it matters** The activity score is a key input to the model. If it is not properly constructed or validated, the model's performance and the biological interpretation of the inferred networks are compromised.
+  - **Resolution test** Provide the full definition of the activity score, including how ChIP-seq peaks are weighted and how accessibility is integrated. Validate the activity score against known TF targets or TF perturbation data. Show that including the activity score significantly improves performance over using expression alone in a controlled ablation study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / biological validity
+  - **Claim pointer** The authors state that the predicted tissue-specific networks "reveals key pathways and essential organ functions" and present three subnetworks (liver drug metabolism, spleen MAPK-Th1/Th2, kidney calcium signaling).
+  - **Evidence pointer** Results section "Tissue-specific networks reveals key pathways and essential organ functions"; Figure 3; Supplementary Files 2 and 3; location not provided for the full network data.
+  - **Concern** The biological validation of the predicted networks is based on enrichment analyses (GO, KEGG) and literature citations for a few selected genes. This is a weak form of validation. The authors do not demonstrate that the predicted interactions are novel and testable, nor do they compare their predicted networks to established regulatory networks (e.g., from ENCODE, ChIP-seq databases) in a quantitative manner. The selection of the three subnetworks appears post hoc, and the significance of the enrichment (e.g., corrected P-values) is only partially reported in the text.
+  - **Why it matters** The claim that the method produces biologically meaningful networks is a key part of the manuscript's significance. Without rigorous validation against known interactions or experimental follow-up, the biological relevance of the predictions remains speculative.
+  - **Resolution test** Provide a quantitative comparison of predicted TF-gene interactions against known regulatory interactions (e.g., from ChIP-seq, curated databases) using metrics such as precision-recall or enrichment of known targets. Include a more systematic analysis of the predicted networks' functional relevance, and discuss potential novel predictions with testable hypotheses.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility / data availability
+  - **Claim pointer** The authors state that "The script for preprocessing, modeling and analysis of predicted interactions are available at GitHub repository: https://github.com/alexQiSong/MTLRank."
+  - **Evidence pointer** Availability section; location not provided for the repository contents.
+  - **Concern** The availability statement is brief. It is not clear whether the repository includes all scripts, configuration files, and instructions to reproduce the results. The data availability statement is also vague: "Data will be shared on request to the HuBMAP consortium and Cistrome database maintenance team." This may not meet the standards for reproducibility expected for a computational method paper.
+  - **Why it matters** Reproducibility is essential for computational methods. If the code and data are not readily accessible, other researchers cannot build on or verify the method.
+  - **Resolution test** Provide a detailed description of the repository contents, including a README with usage instructions, and ensure that all code and processed data (or clear pointers to raw data) are publicly accessible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided.
+  - **Issue** The abstract states the method "combines neural networks and multi-task learning to predict RNA velocity rather than gene expression values." This is clear, but the abstract could briefly mention the validation approach and the key limitation (e.g., lack of gold standard) to set expectations.
+  - **Required correction** Consider adding one sentence in the abstract summarizing the validation strategy and the main limitation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods section "Model architecture and loss function"
+  - **Evidence pointer** Materials and Methods; location not provided for the loss function equation.
+  - **Issue** The loss function equation is not fully shown in the provided text. The description of the trace norm regularization and the sharing strategy is clear, but the exact loss function would help readers understand the implementation.
+  - **Required correction** Include the full loss function equation in the text or in a supplementary file.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Evaluation based on recall of marker TFs"
+  - **Evidence pointer** Figure 2C; Table 3; location not provided for the hypergeometric test details.
+  - **Issue** The authors report corrected P-values for enrichment of TF markers in liver, kidney, and lung, but the correction method (e.g., Bonferroni, FDR) is not stated.
+  - **Required correction** Specify the multiple testing correction method used for the hypergeometric tests.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion; location not provided.
+  - **Issue** The discussion mentions limitations (e.g., data size, hyperparameter tuning) but does not discuss the potential impact of using averaged scATAC-seq signals for tissues without SNARE-seq data in more depth.
+  - **Required correction** Expand the discussion on the limitations of using averaged versus single-cell-matched chromatin accessibility data and its potential effect on network accuracy.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of verifiable quantitative results from the provided text. The R2 comparisons, recall values, and enrichment analyses are described but not shown in detail. The activity score computation is underspecified. The validation against known regulatory interactions is indirect and incomplete. These issues must be addressed by providing the actual data and analyses for inspection.
+- **Assessment against Nature-style criteria** Originality: The idea of predicting RNA velocity for regulatory network inference is a novel contribution, and the multi-task learning framework with multi-modal data integration is a creative approach. Scientific importance: The problem of reconstructing accurate gene regulatory networks is of high importance, and the use of atlas-scale data is timely. However, the importance of the specific findings is not fully demonstrated without stronger validation. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians; the biological insights are presented in a way that may be accessible to a broader biological audience, but the technical depth may limit appeal. Technical soundness: The method appears technically sound in concept, but the evaluation and validation are not fully convincing from the provided text. Readability for nonspecialists: The manuscript is generally well-written and the logic is clear, but some technical details (e.g., trace norm, SHAP) may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the work has potential, but the current evidence base is insufficient to fully establish the claims of improved performance and biological validity. The authors must provide the actual comparison data, a more rigorous validation strategy, and clearer methodological details.
+
+## Risk / unsupported claims
+- The claim that MTLRank "greatly improved on prior methods" is not supported by the provided text, as the actual comparison results are not shown.
+- The claim that scATAC-seq can be used to infer "the actual activity of TFs" is an overstatement; chromatin accessibility is an indirect proxy and does not directly measure post-translational modifications.
+- The biological significance of the predicted subnetworks (liver, spleen, kidney) is not fully established; the enrichment analyses are suggestive but not conclusive.
+- The statement that the method "accurately" identifies TF-gene interactions is not supported by the available evidence, as the validation is indirect and incomplete.
+- The generalizability of the method to other tissues or datasets beyond the six HuBMAP tissues is not demonstrated.

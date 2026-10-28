@@ -1,0 +1,254 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-bvps7",
+  "title": "Encoding Protein-Ligand Interactions: Binding Affinity Prediction with Multigraph-based Modeling and Graph Convolutional Network",
+  "doi": "10.26434/chemrxiv-2023-bvps7",
+  "abstract": "Machine learning models are increasingly harnessed to expedite drug discovery by effectively predicting the properties of small molecules, such as pKa, solubility, and binding affinity. While these models offer accelerated compound identification and optimization, the challenge arises when studying properties influenced by the interaction between a ligand and its corresponding protein. In response to this challenge, graph neural networks (GNNs) have emerged as a solution for integrating 3D structural data to enhance our understanding of protein-ligand interactions. Our novel model, InterGraph, introduces a unique approach to modeling protein-ligand interactions as topological multigraphs. This approach provides a comprehensive representation of the intricate spatial organization and connectivity patterns within these systems. By incorporating \"interaction spheres\" with varying edge densities, we capture the proximity-based influence of interactions, filtering out those occurring beyond 9 Å from the ligand, which are deemed irrelevant. Our model was trained using a ligand binding dataset from PDBbind and achieved an RMSE value of 1.34 when tested on a hold-out dataset. Our results highlight the efficacy of the multigraph in encoding the significance of close interactions, a critical factor in understanding binding affinity. On average, our model accurately predicts binding affinity values for various protein-ligand complexes and demonstrates heightened accuracy for hydrolase, lyase, and families of proteins involved in mediating protein-protein interactions. Furthermore, when compared to a set of complexes that underwent redocking calculations, the InterGraph method displayed sensitivity to the binding mode. In the context of drug discovery and development, protein-ligand interactions are pivotal in numerous biological processes. Understanding how these interactions affect biological processes is central to advancing pharmaceutical research. Binding affinity, a thermodynamic property characterizing the strength of such interactions, offers invaluable insights into these intricate processes.",
+  "authors": [
+    "Nedra Mekni",
+    "Hosein Fooladi",
+    "Ugo Perricone",
+    "Thierry Langer"
+  ],
+  "published_date": "2023-10-25",
+  "updated_date": "2023-10-26T02:15:17Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-bvps7",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-bvps7",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T11:34:03Z",
+        "timestamp": 1785411243041,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            25
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                25
+              ]
+            ],
+            "date-time": "2023-10-25T00:00:00Z",
+            "timestamp": 1698192000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Machine learning models are increasingly harnessed to expedite drug discovery by effectively predicting the properties of small molecules, such as pKa, solubility, and binding affinity. While these models offer accelerated compound identification and optimization, the challenge arises when studying properties influenced by the interaction between a ligand and its corresponding protein. In response to this challenge, graph neural networks (GNNs) have emerged as a solution for integrating 3D structural data to enhance our understanding of protein-ligand interactions.  Our novel model, InterGraph, introduces a unique approach to modeling protein-ligand interactions as topological multigraphs. This approach provides a comprehensive representation of the intricate spatial organization and connectivity patterns within these systems. By incorporating \"interaction spheres\" with varying edge densities, we capture the proximity-based influence of interactions, filtering out those occurring beyond 9 Å from the ligand, which are deemed irrelevant. Our model was trained using a ligand binding dataset from PDBbind and achieved an RMSE value of 1.34 when tested on a hold-out dataset.  Our results highlight the efficacy of the multigraph in encoding the significance of close interactions, a critical factor in understanding binding affinity. On average, our model accurately predicts binding affinity values for various protein-ligand complexes and demonstrates heightened accuracy for hydrolase, lyase, and families of proteins involved in mediating protein-protein interactions. Furthermore, when compared to a set of complexes that underwent redocking calculations, the InterGraph method displayed sensitivity to the binding mode.  In the context of drug discovery and development, protein-ligand interactions are pivotal in numerous biological processes. Understanding how these interactions affect biological processes is central to advancing pharmaceutical research. Binding affinity, a thermodynamic property characterizing the strength of such interactions, offers invaluable insights into these intricate processes.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-bvps7",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            26
+          ]
+        ],
+        "date-time": "2023-10-26T02:15:17Z",
+        "timestamp": 1698286517000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Encoding Protein-Ligand Interactions: Binding Affinity Prediction with Multigraph-based Modeling and Graph Convolutional Network"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3490-1179",
+          "authenticated-orcid": false,
+          "given": "Nedra",
+          "family": "Mekni",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03prydq77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Vienna",
+              "place": [
+                "Austria"
+              ]
+            },
+            {
+              "name": "Fondazione Rimed"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hosein",
+          "family": "Fooladi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03prydq77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Vienna",
+              "place": [
+                "Austria"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ugo",
+          "family": "Perricone",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fondazione Rimed"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thierry",
+          "family": "Langer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03prydq77",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Vienna",
+              "place": [
+                "Austria"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-bvps7",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:37:25Z",
+        "timestamp": 1778751445000
+      },
+      "score": 127.53462,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-bvps7"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            25
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-bvps7",
+      "relation": {
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.26434/chemrxiv-2023-bvps7-v2",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

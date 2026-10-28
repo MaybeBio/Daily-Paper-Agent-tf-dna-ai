@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "41656416",
+    "doi": "10.1038/s41598-026-39387-6",
+    "title": "Integrating multi-omics analysis identifies DNA damage-related gene CLSPN as a biomarker in gastric cancer."
+  },
+  "content": {
+    "abstract": "DNA damage exhibits a strong correlation with gastric cancer (GC). However, there is still a paucity of comprehensive, in-depth investigations into this relationship. We aimed to explore the association between DNA damage-related genes and GC to provide insights into its molecular mechanisms and potential biomarkers. For this study, Bulk RNA sequencing data of GC were obtained from The Cancer Genome Atlas (TCGA), single-cell RNA sequencing datasets were retrieved from the Gene Expression Omnibus (GEO), and a DNA damage-associated gene set was sourced from the GeneCards database. Through the application of survival analysis, differential expression gene analysis, and weighted gene co-expression network analysis, we identified DNA damage-related genes potentially linked to GC. Subsequently, multiple machine learning approaches were employed to screen out hub genes with considerable diagnostic potential. Analysis of bulk RNA sequencing data verified gene expression patterns in GC. Single-cell analysis further demonstrated cell-type-specific gene expression, and immunohistochemical experiments were conducted to validate the potential biomarker utility of key genes. Our findings revealed that thirteen DNA damage-related genes that may be linked to GC were identified. Subsequently, CLSPN and SALL4 were screened out as hub genes possessing considerable diagnostic potential. Analysis of bulk RNA sequencing data verified the upregulated expression of these two genes in GC, thereby underscoring their predictive significance. Across multiple machine learning methods, CLSPN was consistently ranked as the gene with the highest importance. Single-cell analysis further demonstrated that CLSPN is predominantly highly expressed in tumor cells, which emphasizes its cell-type-specific function in GC. To validate CLSPN's potential as a biomarker, we conducted immunohistochemical experiments; these experiments showed high CLSPN expression in GC tissues, and the expression levels were significantly correlated with age, tumor size, pT stage and lymph node metastasis. This study reinforces the link between DNA damage and GC and offers fresh perspectives on its underlying molecular mechanisms. Nonetheless, further validation in clinical evaluation is essential to confirm its practical value for GC management strategies.",
+    "keywords": [
+      "CLSPN",
+      "DNA damage",
+      "Gastric cancer",
+      "Pathology",
+      "Single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "*Stomach Neoplasms/genetics/pathology/metabolism",
+      "Humans",
+      "*DNA Damage/genetics",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Multiomics",
+      "Gene Expression Profiling",
+      "Machine Learning",
+      "*Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Qiang",
+        "Yang, Xingjie",
+        "Sun, Naiying",
+        "Liu, Limin",
+        "Bao, Jin",
+        "Liu, Li"
+      ],
+      "short_names": [
+        "Ma Q",
+        "Yang X",
+        "Sun N",
+        "Liu L",
+        "Bao J",
+        "Liu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China.",
+        "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China.",
+        "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China.",
+        "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China.",
+        "Department of Pathology, Weifang Fangzi District People's Hospital, 3433 Longshan Road, Weifang, 261206, Shandong Province, P.R. China.",
+        "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China. liuli421405685@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Qiang",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xingjie",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Sun, Naiying",
+        "short_name": "Sun N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Limin",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Bao, Jin",
+        "short_name": "Bao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Weifang Fangzi District People's Hospital, 3433 Longshan Road, Weifang, 261206, Shandong Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Sunshine Union Hospital, 9000 Yingqian Road, Weifang, 261000, Shandong Province, P.R. China. liuli421405685@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 00:29",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41326348",
+      "40555635",
+      "40319897",
+      "40275302",
+      "39979267",
+      "39876093",
+      "39626355",
+      "39492835",
+      "39425187",
+      "39417505",
+      "39062464",
+      "38657117",
+      "38649976",
+      "38492457",
+      "38355684",
+      "38237848",
+      "38062245",
+      "37525212",
+      "37296105",
+      "37268895",
+      "37245017",
+      "36982333",
+      "36010677",
+      "35487167",
+      "34680363",
+      "34288593",
+      "34238917",
+      "34050758",
+      "33066779",
+      "32810436",
+      "32442275",
+      "30240769",
+      "29931808",
+      "29610335",
+      "28942358",
+      "28759889",
+      "28187286",
+      "28108274",
+      "27322403",
+      "27009971",
+      "24860834",
+      "22731782",
+      "19477924",
+      "19365862",
+      "19295406",
+      "16828751",
+      "11090622",
+      "10592173"
+    ],
+    "similar": [
+      "41656416",
+      "40450287",
+      "41436831",
+      "42183248",
+      "41798945",
+      "39294296",
+      "41872824",
+      "42280204",
+      "40330470",
+      "40543274",
+      "41099090",
+      "41559138",
+      "40084401",
+      "42244292",
+      "39810215",
+      "41716413",
+      "40865843",
+      "41351424",
+      "40330458",
+      "42233387",
+      "38622522",
+      "38656888",
+      "42120472",
+      "40205350",
+      "40954153",
+      "41290867",
+      "40004022",
+      "39026663",
+      "39904894",
+      "40386054",
+      "37629071",
+      "42195052",
+      "41106221",
+      "42253954",
+      "41293156",
+      "41388523",
+      "40313958",
+      "42486346",
+      "37608794",
+      "40618698",
+      "41102516",
+      "42396657",
+      "41246350",
+      "41566326",
+      "41106766",
+      "41107929",
+      "39044829",
+      "41249595",
+      "38894657",
+      "40489463",
+      "39747410",
+      "41085794",
+      "31894266",
+      "40225866",
+      "42107026",
+      "33437215",
+      "41094022",
+      "31934786",
+      "34968391",
+      "42015036",
+      "41789084",
+      "41162582",
+      "42475469",
+      "40725485",
+      "39181686",
+      "41914286",
+      "40445003",
+      "38913913",
+      "41425595",
+      "37807645",
+      "39354571",
+      "35570548",
+      "42477639",
+      "37723519",
+      "41918119",
+      "36061144",
+      "39814999",
+      "39527470",
+      "40775648",
+      "39137671",
+      "42479091",
+      "39557952",
+      "42192326",
+      "41551463",
+      "38807601",
+      "41733593",
+      "42211756",
+      "41836446",
+      "42365218",
+      "42123445",
+      "40967560",
+      "40674817",
+      "41233664",
+      "41006377",
+      "39812067",
+      "34899080",
+      "39234248",
+      "38782354",
+      "40013144",
+      "41202314"
+    ],
+    "review": [
+      "41656416"
+    ],
+    "pmc": [
+      "12949068"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-39387-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41656416/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-962",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

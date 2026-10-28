@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.11.622872",
+  "title": "AlphaBind, a Domain-Specific Model to Predict and Optimize Antibody-Antigen Binding Affinity",
+  "authors": "Aditya A. Agarwal; James Harrang; David Noble; Kerry L. McGowan; Adrian W. Lange; Emily Engelhart; Miranda C. Lahman; Jeffrey Adamo; Xin Yu; Oliver Serang; Kyle J. Minch; Kimberly Y. Wellman; David A. Younger; Randolph M. Lopez; Ryan O. Emerson",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-11",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用蛋白语言模型预测抗体-抗原结合亲和力并优化抗体序列，虽属蛋白-蛋白互作且方法可迁移，但非蛋白质-DNA互作体系，与TF-DNA课题关联较弱。",
+  "abstract": "Antibodies are versatile therapeutic molecules that utilize combinatorial sequence diversity to cover a vast fitness landscape. However, designing optimal antibody sequences remains a major challenge. Recent advances in deep learning provide opportunities to address this challenge by learning sequence-function relationships to accurately predict fitness landscapes. These models enable efficient in silico prescreening and optimization of antibody candidates. By focusing experimental efforts on the most promising candidates guided by deep learning predictions, antibodies with optimal properties can be designed more quickly and effectively. Here we present AlphaBind, a domain-specific model that utilizes protein language model embeddings and pre-training on millions of quantitative laboratory measurements of antibody-antigen binding strength to achieve state-of-the-art performance for guided affinity optimization of parental antibodies. We demonstrate that an AlphaBind-powered antibody optimization pipeline can deliver candidates with substantially improved binding affinity across four parental antibodies (some of which were already affinity-matured) and using two different types of training data. Resulting candidates, ranging up to 11 mutations from parental sequence, yield a sequence diversity that allows for optimization of other biophysical characteristics, all while using only a single round of data generation for each parental antibody. AlphaBind weights and code are publicly available at: https://github.com/A-Alpha-Bio/alphabind .",
+  "abstract_zh": "抗体是多功能的治疗分子，利用组合序列多样性来覆盖广阔的适应度景观。然而，设计最优抗体序列仍是一项重大挑战。深度学习的最新进展通过学习序列-功能关系以准确预测适应度景观，为应对这一挑战提供了机会。这些模型能够实现对抗体候选物的高效计算机模拟预筛选和优化。通过将实验工作聚焦于深度学习预测指导下的最有前景的候选物，可以更快速、更有效地设计具有最优特性的抗体。在此，我们介绍AlphaBind，一种领域特异性模型，利用蛋白质语言模型嵌入，并在数百万个抗体-抗原结合强度的定量实验室测量数据上进行预训练，以实现对亲本抗体引导亲和力优化的最先进性能。我们证明，一个由AlphaBind驱动的抗体优化流程能够在四种亲本抗体（其中一些已经过亲和力成熟）中，使用两种不同类型的训练数据，提供结合亲和力显著改善的候选物。所得候选物，其与亲本序列的突变数最多达11个，产生的序列多样性允许优化其他生物物理特性，同时每种亲本抗体仅需一轮数据生成。AlphaBind的权重和代码公开可用，网址为：https://github.com/A-Alpha-Bio/alphabind。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622872",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622872",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.11.622872/index.html"
+}

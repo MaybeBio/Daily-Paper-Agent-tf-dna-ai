@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40011665",
+  "title": "Supervised and unsupervised deep learning-based approaches for studying DNA replication spatiotemporal dynamics.",
+  "authors": "Ng-Kee-Kwong, Julian; Philps, Ben; Smith, Fiona N C; Sobieska, Aleksandra; Chen, Naiming; Alabert, Constance; Bilen, Hakan; Buonomo, Sara C B",
+  "journal": "Communications biology",
+  "published_date": "2025-02-27",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用监督与无监督深度学习分析DNA复制时空动态，核心是细胞周期S期模式分类，不涉及蛋白质-DNA互作或TF-DNA结合建模，仅方法上可借鉴，与本课题关系微弱。",
+  "abstract": "In eukaryotic cells, DNA replication is organised both spatially and temporally, as evidenced by the stage-specific spatial distribution of replication foci in the nucleus. Despite the genetic association of aberrant DNA replication with numerous human diseases, the labour-intensive methods employed to study DNA replication have hindered large-scale analyses of its roles in pathological processes. In this study, we employ two distinct methodologies. We first apply supervised machine learning, successfully classifying S-phase patterns in wild-type mouse embryonic stem cells (mESCs), while additionally identifying altered replication dynamics in Rif1-deficient mESCs. Given the constraints imposed by a classification-based approach, we then develop an unsupervised method for large-scale detection of aberrant S-phase cells. Such a method, which does not aim to classify patterns based on pre-defined categories but rather detects differences autonomously, closely recapitulates expected differences across genotypes. We therefore extend our approach to a well-characterised cellular model of inducible deregulated origin firing, involving cyclin E overexpression. Through parallel EdU- and PCNA-based analyses, we demonstrate the potential applicability of our method to patient samples, offering a means to identify the contribution of deregulated DNA replication to a plethora of pathogenic processes.",
+  "abstract_zh": "在真核细胞中，DNA复制的组织既体现在空间上也体现在时间上，这通过细胞核中复制灶的阶段特异性空间分布得以证实。尽管异常DNA复制与多种人类疾病存在遗传关联，但研究DNA复制所采用的劳动密集型方法阻碍了对其在病理过程中作用的大规模分析。在本研究中，我们采用了两种不同的方法。首先，我们应用监督机器学习，成功地对野生型小鼠胚胎干细胞（mESCs）中的S期模式进行分类，同时识别出Rif1缺陷型mESCs中复制动态的改变。鉴于基于分类方法的局限性，我们随后开发了一种无监督方法，用于大规模检测异常的S期细胞。这种方法不旨在基于预定义类别对模式进行分类，而是自主检测差异，能够紧密重现不同基因型间的预期差异。因此，我们将该方法扩展到一个特征明确的诱导性去调控起始点激活的细胞模型，涉及细胞周期蛋白E过表达。通过并行的EdU和PCNA分析，我们证明了该方法在患者样本中的潜在适用性，为识别去调控DNA复制对众多致病过程的贡献提供了一种手段。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40011665/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40011665/",
+  "paper_page_path": "papers/pubmed/40011665/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41208987",
+  "title": "Single-cell and machine learning-based pyroptosis-related gene signature predicts prognosis and immunotherapy response in glioblastoma.",
+  "authors": "Fang, Liren; Wang, Desheng; Meng, Fanlei; Wang, Yinzhi; Feng, Lu; Li, Hong",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-11-10",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于单细胞和机器学习构建胶质母细胞瘤焦亡相关基因预后模型，虽含转录因子网络分析，但核心是预后与免疫治疗预测，非蛋白质-DNA互作或TF-DNA结合机制建模。",
+  "abstract": "BACKGROUND: Glioblastoma (GBM) is the most aggressive primary malignancy of the central nervous system, characterized by profound heterogeneity and an immunosuppressive microenvironment, leading to dismal prognosis. Pyroptosis, an inflammatory form of programmed cell death, has been increasingly linked to tumor immunity and progression; however, its molecular roles and clinical implications in GBM remain insufficiently understood. METHODS: We integrated bulk transcriptome profiles from TCGA-GBM, CGGA, and GEO datasets with single-cell RNA sequencing data from GSE141383 and GSE223063. A comprehensive GBM single-cell atlas was constructed using Seurat and Harmony, and malignant epithelial cells were inferred via inferCNV. Pyroptosis activity was quantified by five complementary algorithms, while Monocle2 and Slingshot were employed for pseudotime trajectory reconstruction, and SCENIC was applied for transcription factor network analysis. Candidate prognostic genes identified from malignant epithelial subsets were further used to develop a Pyroptosis-Related Gene Signature (PRGS) through a systematic evaluation of ten machine learning algorithms and their combinations, with subsequent validation across multiple cohorts. Functional enrichment (GSVA, GSEA), tumor microenvironment estimation (ESTIMATE, ssGSEA), drug sensitivity prediction (GDSC2), and in vitro experiments were performed to characterize the biological and therapeutic relevance of PRGS, with MAP1B selected for experimental validation. RESULTS: Single-cell analyses revealed heterogeneous pyroptosis activity across GBM cell populations. Distinct ligand-receptor communications were observed between high- and low-pyroptosis groups, among which the SPP1-centered signaling axis showed pronounced remodeling, suggesting a pivotal role in tumor-immune crosstalk. Pseudotime and regulatory network analyses of malignant epithelial cells further delineated differentiation trajectories and transcriptional regulators. The PRGS, established by StepCox[both]+Ridge modeling, demonstrated robust prognostic stratification and predictive power across independent datasets. High PRGS scores were consistently associated with poorer survival outcomes, higher TIDE scores, and reduced IPS values, indicating enhanced immune evasion and attenuated immunotherapy benefit. Enrichment analyses highlighted that high PRGS tumors were linked to metabolic reprogramming and DNA repair pathways, whereas low PRGS tumors exhibited signatures of immune activation. Drug sensitivity analyses revealed distinct therapeutic vulnerabilities between subgroups. Functional assays confirmed that MAP1B promotes proliferation, migration, and invasion in GBM cells, reinforcing its oncogenic role. CONCLUSION: This study systematically elucidates the role of pyroptosis in GBM and establishes PRGS as a reliable prognostic biomarker. PRGS not only refines risk stratification and predicts immunotherapy response but also provides molecular insights into tumor metabolism and immune regulation, thereby offering potential avenues for targeted therapeutic strategies in GBM.",
+  "abstract_zh": "背景：胶质母细胞瘤（GBM）是中枢神经系统最具侵袭性的原发性恶性肿瘤，以高度异质性和免疫抑制微环境为特征，导致预后极差。焦亡（pyroptosis）作为一种炎症形式的程序性细胞死亡，日益与肿瘤免疫和进展相关联；然而，其在GBM中的分子作用和临床意义仍未被充分理解。方法：我们将来自TCGA-GBM、CGGA和GEO数据集的批量转录组谱与GSE141383和GSE223063的单细胞RNA测序数据整合。利用Seurat和Harmony构建了全面的GBM单细胞图谱，并通过inferCNV推断恶性上皮细胞。焦亡活性通过五种互补算法量化，同时采用Monocle2和Slingshot进行伪时间轨迹重建，并应用SCENIC进行转录因子网络分析。从恶性上皮亚群中识别出的候选预后基因进一步用于开发焦亡相关基因签名（PRGS），通过系统评估十种机器学习算法及其组合，并在多个队列中进行后续验证。功能富集分析（GSVA、GSEA）、肿瘤微环境评估（ESTIMATE、ssGSEA）、药物敏感性预测（GDSC2）以及体外实验被用于表征PRGS的生物学和治疗相关性，其中MAP1B被选作实验验证。结果：单细胞分析揭示了GBM细胞群体中异质性的焦亡活性。在高和低焦亡组之间观察到不同的配体-受体通讯，其中以SPP1为中心的信号轴显示出显著重塑，提示其在肿瘤-免疫串扰中的关键作用。恶性上皮细胞的伪时间和调控网络分析进一步描绘了分化轨迹和转录调控因子。通过StepCox[both]+Ridge建模建立的PRGS，在独立数据集中展示了稳健的预后分层和预测能力。高PRGS评分始终与较差的生存结果、较高的TIDE评分和降低的IPS值相关，表明增强的免疫逃逸和减弱的免疫治疗获益。富集分析强调，高PRGS肿瘤与代谢重编程和DNA修复通路相关，而低PRGS肿瘤则表现出免疫激活特征。药物敏感性分析揭示了亚组间不同的治疗脆弱性。功能实验证实MAP1B促进GBM细胞的增殖、迁移和侵袭，强化了其致癌作用。结论：本研究系统阐明了焦亡在GBM中的作用，并确立PRGS作为可靠的预后生物标志物。PRGS不仅细化了风险分层并预测免疫治疗反应，还为肿瘤代谢和免疫调节提供了分子见解，从而为GBM的靶向治疗策略提供了潜在途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41208987/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41208987/",
+  "paper_page_path": "papers/pubmed/41208987/index.html"
+}

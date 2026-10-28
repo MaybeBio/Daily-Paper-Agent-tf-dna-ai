@@ -1,0 +1,498 @@
+{
+  "identity": {
+    "pmid": "42104016",
+    "doi": "10.1038/s12276-026-01718-y",
+    "title": "Machine learning-based integration of transcriptome and digital pathology for predicting chemoresistance in muscle-invasive bladder cancer."
+  },
+  "content": {
+    "abstract": "Muscle-invasive bladder cancer (MIBC) presents with variable clinical and pathological features, leading to inconsistent responses to standard treatments such as neoadjuvant chemotherapy (NAC). Although transcriptome profiling has shown differences in NAC response, reliable predictors of treatment outcome remain elusive. Here this study aimed to improve NAC response prediction by integrating multicohort transcriptomic data and spatial protein expression profiles using machine learning, enabling precision diagnostics and therapeutic strategies. Transcriptome analysis from four independent cohorts (n = 399) using diverse gene classifiers revealed molecular features associated with NAC response, particularly genes involved in stress responses, immunity and cell adhesion. The clinical relevance of 74 markers was validated by digital pathology for analyzing spatial protein expression. The machine learning frameworks reduced complex transcriptome and digital pathology datasets to a clinically manageable number of biomarkers, yielding an optimal antibody panel for immunohistochemistry-based clinical diagnostics. Computational pathology-driven predictions of NAC response demonstrated a strong correlation with survival outcomes in patients with MIBC, highlighting their potential clinical utility. Mechanistically, targeting the KEAP1-NRF2 axis suppressed glutathione dynamics, proliferation, stemness features and invasiveness of cisplatin-resistant MIBC cells, thereby resensitizing them to cisplatin. Combination treatment with cisplatin and inhibitors targeting the KEAP1-NRF2 pathway markedly suppressed tumor growth in an orthotopic xenograft model. Therefore, this study integrates machine learning-based transcriptome profiling and digital pathology analysis to refine gene classifiers, provide a personalized and feasible framework for treatment decision-making, and overcome chemoresistance to improve therapeutic efficacy. This study integrates machine learning with transcriptome and digital pathology data to identify and validate predictive biomarkers for neoadjuvant chemotherapy response in muscle-invasive bladder cancer. The optimized biomarkers, along with a proposed antibody combination, may improve precision medicine approaches. The KEAP1-NRF2 pathway was identified as a potential therapeutic target.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Urinary Bladder Neoplasms/pathology/genetics/drug therapy/metabolism",
+      "*Machine Learning",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Transcriptome",
+      "Animals",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Biomarkers, Tumor/genetics",
+      "NF-E2-Related Factor 2/metabolism",
+      "Neoplasm Invasiveness",
+      "Female",
+      "Mice",
+      "Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Cell Line, Tumor",
+      "Cisplatin/pharmacology",
+      "Prognosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jeong, Jinahn",
+        "Jeong, Gowun",
+        "Kim, YongHwan",
+        "Ju, Hyein",
+        "Im, Hyun Jun",
+        "Kim, Hyun Ji",
+        "Park, Ja-Min",
+        "Jeong, Se Un",
+        "Lee, Seungun",
+        "Jang, Min Gi",
+        "Nam, Yun Ji",
+        "Kwon, Hyungu",
+        "Ha, Seok Woo",
+        "Lee, Siwon",
+        "Lee, Dabin",
+        "Park, Eunyoung",
+        "Kim, Sung Jin",
+        "Park, Inkeun",
+        "Lee, Jae Lyun",
+        "Hong, Bumsik",
+        "Cho, Yong Mee",
+        "Shin, Dong-Myung"
+      ],
+      "short_names": [
+        "Jeong J",
+        "Jeong G",
+        "Kim Y",
+        "Ju H",
+        "Im HJ",
+        "Kim HJ",
+        "Park JM",
+        "Jeong SU",
+        "Lee S",
+        "Jang MG",
+        "Nam YJ",
+        "Kwon H",
+        "Ha SW",
+        "Lee S",
+        "Lee D",
+        "Park E",
+        "Kim SJ",
+        "Park I",
+        "Lee JL",
+        "Hong B",
+        "Cho YM",
+        "Shin DM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0621-5937",
+        "ORCID: 0000-0002-0511-5750"
+      ],
+      "affiliations": [
+        "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "AI Model Development Team, Engineering Development Division, TES Research, CJ Logistics, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Pathology, Kyung Hee University Hospital, Kyung Hee University College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "AinB Inc, Asan Institute for Life Sciences, Seoul, Republic of Korea.",
+        "Department of Urology, Gangneung Asan Hospital, University of Ulsan College of Medicine, Gangwon-do, Republic of Korea.",
+        "Department of Oncology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Oncology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Urology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea. bshong@amc.seoul.kr.",
+        "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea. yongcho@amc.seoul.kr.",
+        "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea. d0shin03@amc.seoul.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jeong, Jinahn",
+        "short_name": "Jeong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Gowun",
+        "short_name": "Jeong G",
+        "identifiers": [],
+        "affiliations": [
+          "AI Model Development Team, Engineering Development Division, TES Research, CJ Logistics, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, YongHwan",
+        "short_name": "Kim Y",
+        "identifiers": [
+          "0000-0003-0621-5937"
+        ],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ju, Hyein",
+        "short_name": "Ju H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Im, Hyun Jun",
+        "short_name": "Im HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyun Ji",
+        "short_name": "Kim HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Ja-Min",
+        "short_name": "Park JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Se Un",
+        "short_name": "Jeong SU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Kyung Hee University Hospital, Kyung Hee University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Seungun",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jang, Min Gi",
+        "short_name": "Jang MG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Nam, Yun Ji",
+        "short_name": "Nam YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Hyungu",
+        "short_name": "Kwon H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ha, Seok Woo",
+        "short_name": "Ha SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Siwon",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Dabin",
+        "short_name": "Lee D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Eunyoung",
+        "short_name": "Park E",
+        "identifiers": [],
+        "affiliations": [
+          "AinB Inc, Asan Institute for Life Sciences, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Sung Jin",
+        "short_name": "Kim SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gangneung Asan Hospital, University of Ulsan College of Medicine, Gangwon-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Inkeun",
+        "short_name": "Park I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jae Lyun",
+        "short_name": "Lee JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hong, Bumsik",
+        "short_name": "Hong B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea. bshong@amc.seoul.kr."
+        ]
+      },
+      {
+        "full_name": "Cho, Yong Mee",
+        "short_name": "Cho YM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea. yongcho@amc.seoul.kr."
+        ]
+      },
+      {
+        "full_name": "Shin, Dong-Myung",
+        "short_name": "Shin DM",
+        "identifiers": [
+          "0000-0002-0511-5750"
+        ],
+        "affiliations": [
+          "Department of Cell and Genetic Engineering, Asan Medical Center, Brain Korea 21 project, University of Ulsan College of Medicine, Seoul, Republic of Korea. d0shin03@amc.seoul.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Experimental & molecular medicine"
+    ],
+    "journal_abbrev": [
+      "Exp Mol Med"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/09 00:33",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41035689",
+      "40121304",
+      "39741187",
+      "39551759",
+      "39522565",
+      "39282910",
+      "39112099",
+      "38945960",
+      "38871816",
+      "38825640",
+      "38789460",
+      "38649976",
+      "38607277",
+      "38441576",
+      "38424190",
+      "37966367",
+      "37797616",
+      "37703174",
+      "37697370",
+      "37449047",
+      "36765266",
+      "35729325",
+      "34782206",
+      "34622225",
+      "33953404",
+      "33454724",
+      "33127883",
+      "32978382",
+      "32490200",
+      "31709755",
+      "31563503",
+      "30851984",
+      "29307581",
+      "28988769",
+      "28967920",
+      "28407145",
+      "28390739",
+      "28195647",
+      "27552339",
+      "26343003",
+      "24525232",
+      "24476821",
+      "23851383",
+      "23849998",
+      "19730975",
+      "18024876"
+    ],
+    "similar": [
+      "42104016",
+      "28408175",
+      "26230923",
+      "28390739",
+      "37797616",
+      "27317490",
+      "42475469",
+      "30290956",
+      "35109796",
+      "41981612",
+      "24837013",
+      "40936892",
+      "29306329",
+      "41233664",
+      "42457640",
+      "41505248",
+      "42174609",
+      "38092611",
+      "39119802",
+      "40330458",
+      "40332226",
+      "40705063",
+      "40247223",
+      "26238431",
+      "39367493",
+      "30712971",
+      "39028025",
+      "42151695",
+      "40438115",
+      "37525222",
+      "39759522",
+      "39107713",
+      "40735323",
+      "40406117",
+      "32101771",
+      "32165065",
+      "38767747",
+      "40362200",
+      "36322407",
+      "32817372",
+      "41656832",
+      "34702726",
+      "40560260",
+      "42479258",
+      "35887247",
+      "41099090",
+      "33127883",
+      "40200221",
+      "42055629",
+      "40918470",
+      "41925913",
+      "41618382",
+      "41685329",
+      "40663496",
+      "30414698",
+      "42192388",
+      "41068039",
+      "27586262",
+      "39835132",
+      "34643090",
+      "40098972",
+      "41345436",
+      "40496857",
+      "32978382",
+      "42220482",
+      "41716413",
+      "37087754",
+      "39726597",
+      "30668336",
+      "39511708",
+      "38824904",
+      "41885969",
+      "41350832",
+      "40409440",
+      "40898244",
+      "41820429",
+      "37087309",
+      "42215586",
+      "41146251",
+      "40429829",
+      "37082269",
+      "41059675",
+      "30224344",
+      "32240302",
+      "32096345",
+      "42470788",
+      "40906037",
+      "35965206",
+      "38759695",
+      "41106221",
+      "40390219",
+      "40916434",
+      "41798945",
+      "24631944",
+      "26851002",
+      "40690100",
+      "26733306",
+      "26268246",
+      "39311994",
+      "39749345"
+    ],
+    "review": [
+      "42104016",
+      "27317490",
+      "41068039"
+    ],
+    "pmc": [
+      "13234436"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s12276-026-01718-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42104016/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

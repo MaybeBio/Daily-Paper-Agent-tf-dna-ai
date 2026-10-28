@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "38013370",
+    "doi": "10.1097/MD.0000000000036070",
+    "title": "Identification of biomarkers associated with pediatric asthma using machine learning algorithms: A review."
+  },
+  "content": {
+    "abstract": "Pediatric asthma is a complex disease with a multifactorial etiology. The identification of biomarkers associated with pediatric asthma can provide insights into the pathogenesis of the disease and aid in the development of novel diagnostic and therapeutic strategies. This study aimed to identify potential biomarkers for pediatric asthma using Weighted Gene Co-expression Network Analysis (WGCNA) and machine learning algorithms. We obtained gene expression data from publicly available databases and performed WGCNA to identify gene co-expression modules associated with pediatric asthma. We then used machine learning algorithms, including random forest, lasso regression algorithm, and support vector machine-recursive feature elimination, to classify asthma cases and controls based on the identified gene modules. We also performed functional enrichment analyses to investigate the biological functions of the identified genes.We detected 24,544 genes exhibiting differential expression between controlled and uncontrolled genes from the GSE135192 dataset. In the combined WCGNA analysis, a total of 104 co-expression genes were screened, both controlled and uncontrolled. After screening, 11 hub genes were identified. They were AK2, PDK4, PER3, GZMH, NUMBL, NRL, SCO2, CREBZF, LARP1B, RXFP1, and VDAC3P1. The areas under their receiver operating characteristic curve were above 0.78. Our study identified potential biomarkers for pediatric asthma using WGCNA and machine learning algorithms. Our findings suggest that 11 hub genes could be used as novel diagnostic markers and treatment targets for pediatric asthma. These findings provide new insights into the pathogenesis of pediatric asthma and may aid in the development of novel diagnostic and therapeutic strategies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Child",
+      "Humans",
+      "*Algorithms",
+      "*Asthma/diagnosis/genetics",
+      "Random Forest",
+      "Biomarkers",
+      "Machine Learning",
+      "Basic-Leucine Zipper Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Kexin",
+        "Wang, Yijie",
+        "Li, Yongjun",
+        "Wang, Youpeng"
+      ],
+      "short_names": [
+        "Lin K",
+        "Wang Y",
+        "Li Y",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-2300-563"
+      ],
+      "affiliations": [
+        "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Province, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Province, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Province, China.",
+        "The Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Kexin",
+        "short_name": "Lin K",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yijie",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yongjun",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Youpeng",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0009-0003-2300-563"
+        ],
+        "affiliations": [
+          "The Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2023 Nov 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/28 06:42",
+    "fetched_at": "2026-09-29 11:18:39"
+  },
+  "links": {
+    "cites": [
+      "42639374",
+      "40253553",
+      "40129528",
+      "39346946",
+      "39257890"
+    ],
+    "refs": [],
+    "similar": [
+      "38013370",
+      "38394492",
+      "34555052",
+      "38608447",
+      "38277517",
+      "38115320",
+      "34107850",
+      "36968495",
+      "37891634",
+      "38420127",
+      "37454542",
+      "37143707",
+      "34767108",
+      "36470144",
+      "38013304",
+      "36792688",
+      "37684281",
+      "36782344",
+      "37904449",
+      "37451513",
+      "37305716",
+      "35764238",
+      "38028617",
+      "37950194",
+      "36341378",
+      "38467737",
+      "36823662",
+      "35865542",
+      "37841288",
+      "39217320",
+      "37289763",
+      "38189881",
+      "37434738",
+      "36325528",
+      "36165511",
+      "37434679",
+      "36660690",
+      "36685847",
+      "32388106",
+      "37783761",
+      "35713363",
+      "36948405",
+      "36576616",
+      "30304558",
+      "37065920",
+      "38007425",
+      "29237456",
+      "37854191",
+      "36725810",
+      "37438356",
+      "36569892",
+      "29048949",
+      "35154510",
+      "37359526",
+      "35151267",
+      "37264340",
+      "37743309",
+      "34445986",
+      "33717664",
+      "35812327",
+      "37173646",
+      "37090698",
+      "36467501",
+      "35651940",
+      "37732314",
+      "38580753",
+      "36919187",
+      "35047008",
+      "37662825",
+      "35350787",
+      "36523600",
+      "36891052",
+      "37166429",
+      "36465614",
+      "36341343",
+      "35932551",
+      "37426641",
+      "36253715",
+      "36518003",
+      "37782162",
+      "36506045",
+      "37008314",
+      "35342071",
+      "35069594",
+      "36923221",
+      "36685864",
+      "38006610",
+      "36225941",
+      "34727921",
+      "32117613",
+      "36418457",
+      "34856750",
+      "37986345",
+      "36831718",
+      "37866944",
+      "37808522",
+      "36898287",
+      "37667923",
+      "36250071",
+      "37893483",
+      "38801616",
+      "38952894",
+      "34585237",
+      "38294824",
+      "39403688",
+      "39347526"
+    ],
+    "review": [
+      "38013370",
+      "38394492"
+    ],
+    "pmc": [
+      "10681392"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=102&issue=47&spage=e36070&aulast=Lin",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthmainchildren.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma in Children"
+      },
+      {
+        "url": "https://www.ovid.com/38013370.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38013370/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38013370",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1030",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000036070",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

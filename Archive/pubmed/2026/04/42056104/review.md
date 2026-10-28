@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion) without supplementary figures, tables, or data files
+- **Assessment boundary** Scientific validity, methodological soundness, evidence sufficiency, and clarity of claims as presented in the provided text
+- **Shared manuscript claim summary** The authors present a framework integrating whole-chromosome haplotyping, allele-specific multiomics (ATAC-seq, TT-seq), and deep learning (ChromBPNet) to map functional non-coding variants in individual human genomes. They report hundreds of allele-specific regulatory elements and genes, identify disrupted transcription factor motifs underlying allele-specific chromatin accessibility, validate known variant-gene associations, and discover a rare variant (rs545467951) that modulates PIK3R5 expression by disrupting an OCT2 binding site.
+- **Visible evidence base** Main text figures 1–4 (described in text), methods section, supplementary figure and data references (contents not provided)
+- **Missing materials affecting confidence** Supplementary figures 1–12, supplementary data 1–5, all numerical results, statistical details beyond those stated, ChIP-seq and eQTL source data, model performance metrics, and validation datasets
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically ambitious and potentially valuable integration of haplotype-resolved personal genomics with deep learning-based variant effect prediction. The conceptual framework, combining whole-chromosome haplotyping with allele-specific chromatin and transcription readouts, is timely and addresses a genuine gap in interpreting non-coding variation at the individual level. The validation of known variant-gene associations and the discovery of a rare variant with experimental follow-up are commendable. However, the evidence as presented is insufficient to fully establish the generalisability and quantitative performance of the framework. Key concerns include the lack of quantitative benchmarking of the deep learning models, incomplete reporting of allele-specific analysis statistics, and the limited scope of experimental validation (single variant, single cell type). The manuscript would benefit from clearer presentation of effect sizes, error rates, and the proportion of explained allele-specific events.
+- **Who would be interested in the results, and why** Researchers in functional genomics, regulatory genomics, and statistical genetics would find this framework relevant for interpreting non-coding variants in individual genomes. The integration of haplotyping with deep learning offers a path toward personalised variant prioritisation, which is of interest to those working on rare disease diagnosis and precision medicine. The demonstration of a rare variant affecting PIK3R5 through OCT2 disruption may interest cancer biologists, given the role of PI3K signalling.
+- **Major strengths** The study addresses a real bottleneck in variant interpretation by leveraging within-individual allele-specific comparisons, which control for trans-acting confounders. The combination of linked-read and Hi-C data for whole-chromosome haplotyping is well justified and benchmarked. The use of ChromBPNet to infer disrupted TF motifs from sequence alone, followed by validation with ChIP-seq, is a strong analytical pipeline. The experimental validation of the PIK3R5 variant using DNA pull-downs and CRISPR editing provides causal evidence. The framework is generalisable in principle to any diploid genome and cell type.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ChromBPNet models can reliably predict variant effects on chromatin accessibility, with ~35% of allele-specific peaks explained by predicted contribution score differences.
+  - **Evidence pointer** Results section "Deep learning identifies LCL-specific regulatory grammar from chromatin accessibility"; Figure 3D; Supplementary Figure 8
+  - **Concern** The claim that ~35% of allele-specific peaks are "reliably explained" by the model is based on a correlation of r=0.3 between predicted and measured effects. This is a weak correlation, and the threshold used to define "explained" (contribution score difference cutoff of 0.02) is not justified. The manuscript does not report the false discovery rate or the proportion of balanced peaks that would be classified as explained at this threshold, which is critical for assessing specificity. The choice of a 50 bp window around variants is also not systematically justified.
+  - **Why it matters** If the model cannot distinguish true functional variants from noise at an acceptable specificity, the framework's utility for prioritising variants in clinical or research settings is substantially diminished. The 35% figure could be an overestimate if the threshold is too permissive, or an underestimate if the window size is suboptimal.
+  - **Resolution test** Provide a precision-recall or ROC-style analysis for the classification of allele-specific versus balanced peaks across a range of contribution score difference thresholds. Report the proportion of balanced peaks classified as explained at the chosen cutoff. Justify the window size with a sensitivity analysis. Ideally, validate predictions against an independent dataset of experimentally confirmed functional variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the framework identifies "hundreds of allele-specific regulatory elements and genes" and that these are enriched for known regulatory mechanisms.
+  - **Evidence pointer** Results section "Allele-specific regulatory elements and genes"; Figure 2B; Supplementary Figures 3–4; Supplementary Data 3
+  - **Concern** The manuscript does not report the total number of peaks and genes tested, the number of allele-specific events per individual, or the overlap of allele-specific events across individuals. The enrichment analyses for known mechanisms (e.g., caQTL, imprinting, allelic exclusion) are described qualitatively, but the statistical significance and effect sizes of these enrichments are not provided. Without these numbers, it is impossible to assess whether the framework is sensitive enough to detect biologically meaningful allele-specific regulation or whether the results are driven by a few individuals.
+  - **Why it matters** The core value of the framework depends on its ability to reliably identify allele-specific regulatory events. If the number of events is small or highly variable across individuals, the generalisability of the approach is questionable. The enrichment analyses are meant to validate the biological relevance of the identified events, but without statistics, this validation is incomplete.
+  - **Resolution test** Report the number of allele-specific peaks and genes per individual, the overlap across individuals, and the results of enrichment tests (e.g., odds ratios, p-values) for caQTL, imprinted genes, and other known mechanisms. Provide a power analysis or confidence intervals for the proportion of allele-specific events detected.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that whole-chromosome haplotypes were reconstructed with high accuracy, with >90% phased variants and mismatch rates <0.5% at low coverage.
+  - **Evidence pointer** Results section "Linked-reads and Hi-C reconstruct whole-chromosome haplotypes with high accuracy"; Figure 1B, 1C; Supplementary Figures 1–2
+  - **Concern** The benchmarking is performed on NA12878 using subsampled data, but the actual sequencing coverage for the five study individuals is not reported. The manuscript does not state whether the coverage for these individuals was sufficient to achieve the accuracy demonstrated in the benchmark. Additionally, the phasing accuracy for indels is reported as ~99% phased, but the error rates for indels are not separately reported. The choice of the "largest haploblock" (MVP block) may exclude substantial portions of the genome, and the fraction of the genome covered by these blocks is not stated.
+  - **Why it matters** The accuracy of the haplotypes underpins all downstream allele-specific analyses. If the actual data quality is lower than the benchmark, the allele-specific calls could be unreliable. The MVP block selection could bias the analysis toward regions with high heterozygosity, potentially missing functional variants in less polymorphic regions.
+  - **Resolution test** Report the sequencing coverage and phasing accuracy metrics for each of the five individuals. Provide the fraction of the genome and the fraction of genes covered by the MVP blocks. Report indel-specific error rates. If possible, validate phasing accuracy using independent methods (e.g., pedigree information or long-read sequencing for a subset of samples).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the framework enables "systematic dissection of variant effects across diverse biological systems" and offers "a framework to investigate disease mechanisms."
+  - **Evidence pointer** Discussion section; Results section "A novel rare variant modulates the expression of PIK3R5"
+  - **Concern** The generalisability of the framework is asserted but not demonstrated. The study is limited to five lymphoblastoid cell lines from healthy individuals. The PIK3R5 variant is validated in a single cell line. The manuscript does not address how the framework would perform in other cell types, disease-relevant contexts, or with lower-quality sequencing data. The claim of "diverse biological systems" is therefore not supported by the evidence presented.
+  - **Why it matters** The broader impact of the framework depends on its applicability beyond the specific cell type and variants studied. If the framework requires high-quality haplotyping and deep multiomics data, its utility in clinical settings, where such data may not be available, is limited.
+  - **Resolution test** Discuss the requirements and limitations of the framework for application to other cell types and disease contexts. If possible, include a proof-of-concept analysis in a second cell type or with simulated lower-quality data. Alternatively, temper the claims of generalisability to reflect the current evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The abstract and introduction use technical terms (e.g., "haplotyping," "allele-specific," "ChromBPNet") without brief definitions. A reader unfamiliar with these methods may struggle to understand the core contribution.
+  - **Required correction** Add brief parenthetical explanations for key terms in the abstract and introduction. For example, "haplotyping (assigning variants to each of the two inherited chromosome copies)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Quantification of allele-specific events"
+  - **Evidence pointer** Methods section
+  - **Issue** The statistical model used to identify allele-specific peaks and genes is not fully described. The manuscript mentions a Wald test from DESeq2 but does not specify how the haplotype-specific counts were modelled or how the dispersion was estimated for the allele-specific comparison.
+  - **Required correction** Provide a more detailed description of the statistical model, including the formula, the dispersion estimation method, and how the haplotype-specific counts were incorporated. This is essential for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Annotation of disrupted TF motifs"
+  - **Evidence pointer** Methods section
+  - **Issue** The threshold for calling a motif "disrupted" (Pearson correlation > 0.7) is stated, but the rationale for this threshold is not provided. The manuscript also does not describe how the correlation is calculated (e.g., over which positions of the motif).
+  - **Required correction** Justify the correlation threshold and describe the calculation in detail. Consider reporting sensitivity of results to this threshold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of clinical applications is speculative and does not address practical challenges such as the cost of haplotyping, the need for matched multiomics data, or the interpretation of variants in non-coding regions with unknown regulatory function.
+  - **Required correction** Add a balanced discussion of the practical challenges and limitations for clinical translation, including cost, data requirements, and the need for functional validation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figure 2, Figure 3, Figure 4 legends
+  - **Issue** The figure legends are dense and assume familiarity with the methods. For example, Figure 2 legend mentions "TAD boundaries" and "caQTL" without explanation.
+  - **Required correction** Expand the figure legends to briefly explain key concepts and abbreviations, making the figures more accessible to a broader audience.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model performance and threshold justification), R1-M2 (quantitative reporting of allele-specific events and enrichments), R1-M3 (actual phasing accuracy and coverage for study samples)
+- **Assessment against Nature-style criteria** Originality: The integration of whole-chromosome haplotyping with deep learning-based variant effect prediction in individual genomes is a novel combination, though each component has been described separately. The framework's emphasis on within-individual allele-specific comparisons is a distinctive and valuable contribution. Scientific importance: The problem of interpreting non-coding variation is of high importance, and the framework offers a potential solution that could be applied to rare disease and personalised medicine. However, the current evidence does not fully establish the framework's reliability and generalisability, limiting its immediate impact. Interdisciplinary readership: The work bridges genomics, computational biology, and molecular biology, and would appeal to researchers across these fields. The clinical implications may also attract a broader biomedical audience. Technical soundness: The methods are largely appropriate and well-described, but key quantitative details are missing (as noted in major concerns), and the performance of the deep learning models is not sufficiently benchmarked. Readability for nonspecialists: The manuscript is clearly written but assumes significant background knowledge. The abstract and introduction could be more accessible with brief definitions of key terms.
+- **Recommendation posture** Supportive if technical concerns are resolved. The framework is conceptually promising and the experimental validation of the PIK3R5 variant is a strong point. However, the manuscript currently lacks sufficient quantitative evidence to fully support the claims of reliability and generalisability. Addressing the major concerns, particularly around model performance, statistical reporting, and phasing accuracy, would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim that ~35% of allele-specific peaks are "reliably explained" by ChromBPNet predictions is not fully supported without a precision-recall analysis and justification of the threshold.
+- The claim that the framework enables "systematic dissection of variant effects across diverse biological systems" is unsupported, as the study is limited to a single cell type.
+- The claim that the framework "offers a framework to investigate disease mechanisms" is speculative, as no disease-relevant context is tested.
+- The generalisability of the haplotyping approach to other individuals and data types is asserted but not demonstrated beyond the five studied individuals.
+- The enrichment of allele-specific events for known regulatory mechanisms is stated without statistical support.

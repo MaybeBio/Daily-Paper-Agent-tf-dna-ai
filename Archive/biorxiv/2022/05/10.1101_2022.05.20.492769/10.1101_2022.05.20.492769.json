@@ -1,0 +1,584 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.20.492769",
+  "title": "Alignment-free metal ion-binding site prediction from protein sequence through pretrained language model and multi-task learning",
+  "doi": "10.1101/2022.05.20.492769",
+  "abstract": "More than one-third of the proteins contain metal ions in the Protein Data Bank. Correct identification of metal ion-binding residues is important for understanding protein functions and designing novel drugs. Due to the small size and high versatility of metal ions, it remains challenging to computationally predict their binding sites from protein sequence. Existing sequence-based methods are of low accuracy due to the lack of structural information, and time-consuming owing to the usage of multi-sequence alignment. Here, we propose LMetalSite, an alignment-free sequence-based predictor for binding sites of the four most frequently seen metal ions (Zn 2+ , Ca 2+ , Mg 2+ and Mn 2+ ). LMetalSite leverages the pretrained language model to rapidly generate informative sequence representations and employs transformer to capture long-range dependencies. Multi-task learning is adopted to compensate for the scarcity of training data and capture the intrinsic similarities between different metal ions. LMetalSite was shown to surpass state-of-the-art structure-based methods by more than 19.7%, 14.4%, 36.8%, and 12.6% in AUPR on the four independent tests, respectively. Further analyses indicated that the self-attention modules are effective to learn the structural contexts of residues from protein sequence.",
+  "authors": [
+    "Qianmu Yuan",
+    "Sheng Chen",
+    "Yu Wang",
+    "Huiying Zhao",
+    "Yuedong Yang"
+  ],
+  "published_date": "2022-05-20",
+  "updated_date": "2022-05-23T03:15:25Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492769",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492769.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:29:21Z",
+        "timestamp": 1768501761583,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 52,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  More than one-third of the proteins contain metal ions in the Protein Data Bank. Correct identification of metal ion-binding residues is important for understanding protein functions and designing novel drugs. Due to the small size and high versatility of metal ions, it remains challenging to computationally predict their binding sites from protein sequence. Existing sequence-based methods are of low accuracy due to the lack of structural information, and time-consuming owing to the usage of multi-sequence alignment. Here, we propose LMetalSite, an alignment-free sequence-based predictor for binding sites of the four most frequently seen metal ions (Zn\n                  <jats:sup>2+</jats:sup>\n                  , Ca\n                  <jats:sup>2+</jats:sup>\n                  , Mg\n                  <jats:sup>2+</jats:sup>\n                  and Mn\n                  <jats:sup>2+</jats:sup>\n                  ). LMetalSite leverages the pretrained language model to rapidly generate informative sequence representations and employs transformer to capture long-range dependencies. Multi-task learning is adopted to compensate for the scarcity of training data and capture the intrinsic similarities between different metal ions. LMetalSite was shown to surpass state-of-the-art structure-based methods by more than 19.7%, 14.4%, 36.8%, and 12.6% in AUPR on the four independent tests, respectively. Further analyses indicated that the self-attention modules are effective to learn the structural contexts of residues from protein sequence.\n                </jats:p>",
+      "DOI": "10.1101/2022.05.20.492769",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            23
+          ]
+        ],
+        "date-time": "2022-05-23T03:15:25Z",
+        "timestamp": 1653275725000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "title": [
+        "Alignment-free metal ion-binding site prediction from protein sequence through pretrained language model and multi-task learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6098-9103",
+          "authenticated-orcid": false,
+          "given": "Qianmu",
+          "family": "Yuan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1428-6778",
+          "authenticated-orcid": false,
+          "given": "Sheng",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9429-3016",
+          "authenticated-orcid": false,
+          "given": "Huiying",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6782-2813",
+          "authenticated-orcid": false,
+          "given": "Yuedong",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx989"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0958-1669(91)90084-I"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ar900015x"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1205",
+          "DOI": "10.1007/s00775-008-0404-5",
+          "article-title": "Metal ions in biological catalysis: from enzyme databases to general principles",
+          "volume": "13",
+          "year": "2008",
+          "journal-title": "JBIC Journal of Biological Inorganic Chemistry"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.bb.19.060190.002201"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt447"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "11014",
+          "DOI": "10.1021/bi0508136",
+          "article-title": "Metal binding sites in proteins: identification and characterization by paramagnetic NMR relaxation",
+          "volume": "44",
+          "year": "2005",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Reed GH , Poyner RR . Mn2+ as a probe of divalent metal ion binding and function in enzymes and other proteins, Metal ions in biological systems 2000:231–256.",
+          "DOI": "10.1201/9781482289893-17"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00407"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa110"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "e51",
+          "DOI": "10.1093/nar/gkab044",
+          "article-title": "GraphBind: protein structural context embedded rules learned by hierarchical graph neural networks for recognizing nucleic-acid-binding residues",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw396"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt544"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "994",
+          "DOI": "10.1109/TCBB.2013.104",
+          "article-title": "Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rives A , Meier J , Sercu T et al. Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences, Proceedings of the National Academy of Sciences 2021;118.",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar A , Heinzinger M , Dallago C et al. ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing, IEEE transactions on pattern analysis and machine intelligence 2021.",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "227",
+          "DOI": "10.1038/s42256-022-00457-9",
+          "article-title": "Learning functional properties of proteins with language models",
+          "volume": "4",
+          "year": "2022",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "30",
+          "DOI": "10.1093/nsr/nwx105",
+          "article-title": "An overview of multi-task learning",
+          "volume": "5",
+          "year": "2018",
+          "journal-title": "National Science Review"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-021-04034-6"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "103376",
+          "DOI": "10.1016/j.jbi.2020.103376",
+          "article-title": "Compositional framework for multitask learning in the identification of cleavage sites of HIV-1 protease",
+          "volume": "102",
+          "year": "2020",
+          "journal-title": "Journal of Biomedical Informatics"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sun Z , Zheng S , Zhao H et al. To improve the predictions of binding residues with DNA, RNA, carbohydrate, and peptide via multi-task deep neural networks, IEEE/ACM transactions on computational biology and bioinformatics 2021.",
+          "DOI": "10.1101/2020.02.11.943571"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.24",
+          "first-page": "bbab521",
+          "article-title": "DeepDISOBind: accurate prediction of RNA-",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "DNA-and protein-binding intrinsically disordered residues with deep multi-task learning, Briefings in Bioinformatics"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.25",
+          "unstructured": "Vaswani A , Shazeer N , Parmar N et al. Attention is all you need. In: Advances in neural information processing systems. 2017, p. 5998–6008."
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.26",
+          "first-page": "47",
+          "article-title": "Predicting retrosynthetic reactions using self-corrected transformer neural networks",
+          "volume": "60",
+          "year": "2019",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "D1096",
+          "DOI": "10.1093/nar/gks966",
+          "article-title": "BioLiP: a semi-manually curated database for biologically relevant ligand–protein interactions",
+          "volume": "41",
+          "year": "2012",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts565"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.29",
+          "first-page": "1",
+          "article-title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "Journal of machine learning research"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm098"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1038/nmeth.1818",
+          "article-title": "HHblits: lightning-fast iterative protein sequence searching by HMM-HMM alignment",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "2577",
+          "DOI": "10.1002/bip.360221211",
+          "article-title": "Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features",
+          "volume": "22",
+          "year": "1983",
+          "journal-title": "Biopolymers: Original Research on Biomolecules"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He K , Zhang X , Ren S et al. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. 2016, pp. 770–778.",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.35",
+          "first-page": "21",
+          "article-title": "Layer Normalization",
+          "volume": "1050",
+          "year": "2016",
+          "journal-title": "stat"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.36",
+          "unstructured": "Kingma DP , Ba J. Adam: A Method for Stochastic Optimization. In: 3rd International Conference on Learning Representations (Poster). 2015."
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.37",
+          "first-page": "8026",
+          "article-title": "Pytorch: An imperative style",
+          "volume": "32",
+          "year": "2019",
+          "journal-title": "high-performance deep learning library, Advances in neural information processing systems"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.38",
+          "first-page": "125",
+          "article-title": "Structure-aware protein–protein interaction site prediction using deep graph convolutional network",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuan Q , Chen S , Rao J et al. AlphaFold2-aware protein–DNA binding site prediction using graph transformer, Briefings in Bioinformatics 2022.",
+          "DOI": "10.1101/2021.08.25.457661"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0118432"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mann HB , Whitney DR . On a test of whether one of two random variables is stochastically larger than the other, The annals of mathematical statistics 1947:50–60.",
+          "DOI": "10.1214/aoms/1177730491"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.42",
+          "unstructured": "Finn C , Abbeel P , Levine S. Model-agnostic meta-learning for fast adaptation of deep networks. In: International conference on machine learning. 2017, pp. 1126–1135. PMLR."
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "1627",
+          "DOI": "10.1021/acs.jcim.0c01416",
+          "article-title": "Meta learning for low-resource molecular optimization",
+          "volume": "61",
+          "year": "2021",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.44",
+          "unstructured": "Jumper J , Evans R , Pritzel A et al. Highly accurate protein structure prediction with AlphaFold, Nature 2021:1–11."
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.46",
+          "first-page": "15820",
+          "article-title": "Generative Models for Graph-Based Protein Design",
+          "volume": "32",
+          "year": "2019",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "4498",
+          "DOI": "10.1172/JCI91553",
+          "article-title": "JAK2-binding long noncoding RNA promotes breast cancer brain metastasis",
+          "volume": "127",
+          "year": "2017",
+          "journal-title": "The Journal of clinical investigation"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2015.05.021"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm100574m"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "3240",
+          "DOI": "10.1021/acs.jcim.0c01494",
+          "article-title": "De novo molecule design through the molecular generative model conditioned by 3D information of protein binding sites",
+          "volume": "61",
+          "year": "2021",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "134",
+          "DOI": "10.1038/s42256-020-0152-y",
+          "article-title": "Predicting drug–protein interaction using quasi-visual question answering system",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2022052304500498000_2022.05.20.492769v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "1308",
+          "DOI": "10.1021/acs.jcim.2c00060",
+          "article-title": "Structure-Aware Multimodal Deep Learning for Drug–Protein Interaction Prediction",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Journal of chemical information and modeling"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.05.20.492769",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:06:08Z",
+        "timestamp": 1768446368000
+      },
+      "score": 140.41196,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.05.20.492769"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "references-count": 52,
+      "URL": "https://doi.org/10.1101/2022.05.20.492769",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbac444",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

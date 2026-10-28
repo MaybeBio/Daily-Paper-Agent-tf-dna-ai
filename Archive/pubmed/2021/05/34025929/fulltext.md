@@ -1,0 +1,153 @@
+# Immune gene prognostic signature for disease free survival of gastric cancer: Translational research of an artificial intelligence survival predictive system
+
+
+## Graphical abstract
+  Graphical abstract
+
+
+## Background
+  Epidemiological data demonstrated gastric cancer (GC) is one of the leading digestive malignant tumors and ranks second for tumor-related deaths with 782,685 deaths in 2018 [1]. Although advances in early screening, diagnosis, and treatments reduced mortality to some extent [2], [3], the prognosis of gastric cancer patients were still unsatisfactory [4]. From a clinical point of view, early identification of high risk GC patients with high mortality and more precise individualized treatments are helpful to improve the prognosis of high risk GC patients. Therefore, reliable and precise individual mortality risk prediction is of great significance for optimizing individual treatment effect.
+
+  Great progress has been made in precision medicine in recent years [5], [6]. Precision medical predictive tools can be used in predicting individual mortality risk in different time-points and the efficacy for different treatments. [7], [8], [9]. However, precision medical predictive tools for predicting mortality risk of gastric cancer patients have not been able to meet the needs of individualized treatment.
+
+  Bioinformatics advances provided tremendous impetus to precision medical research in tumorigenesis and progression. Bioinformatics is helpful to explore the intrinsic biological regulatory mechanisms and potential pathways for tumorigenesis and progression [10], [11], [12], [13]. In recent years, more and more studies have focused on the important role of immune microenvironment in tumorigenesis and progression [14], [15]. Jiang et al. developed a prognostic signature in predicting the prognosis of gastric cancer patients [16]. Yang et al. developed a prognostic signature based on immune genes to predict overall survival of GC patients [17]. However, this prognostic signature did not provide calculation formula and was limited for clinical application. Therefore, it is valuable to develop individualized precision medical predictive tools for early identification of gastric cancer with high mortality risk.
+
+  Precision medical predictive tools can provide individualized mortality risk prediction and help clinicians early identify patients with high mortality risk. Recently, our team has successfully developed several precision medical predictive tools based on genetic data for different tumors [18], [19], [20]. In recent years, the development of artificial intelligence algorithms provides more choices for the predictive studies of tumor prognosis. Multi-task logistic regression algorithm, Cox survival regression algorithm, and random survival forest algorithm have been used to improve the accuracy of predictive models and prognostic models [21], [22], [23], [24], [25], [26], [27], [28], [29], [30], [31], [32], [33], [34]. Therefore the current research was devoted to explore potential immune regulatory mechanism for prognosis of GC and construct artificial intelligence survival prediction tools for predicting individual mortality risk in different time-points.
+
+
+## Methods
+
+### Study datasets
+  Model dataset was downloaded from TCGA database, involving 22,412 mRNAs from 375 GC specimens and 32 normal specimens (TCGA, PanCancer Atlas, Cell 2018, http://www.cbioportal.org/study/summary?id=stad_tcga_pan_can_atlas_2018). Two hundred and sixty five GC patients were included after moving patients with follow-up information less than one month. Validation dataset (GSE62254) was obtained from GEO database. GSE62254 dataset contained two hundred and seventy nine patients and 19,765 mRNAs (GPL570 platform). Probe IDs were translated to official gene symbols according to Gencode.v29 background file.
+
+
+### Differentially expressed analyses
+  Differentially expressed analyses between GC samples and normal samples were performed by R package “edgeR” [35]. Normalization of original data was performed by Trimmed mean of M values (TMM) method. P value < 0.05 and log2 |fold change| >1 were set as cut off values for differentially expressed analyses.
+
+
+### Immune gene and transcription factor
+  Immune genes were obtained from Immunology Database and Analysis Portal (ImmPort) database [36]. Transcription factors act an important role in molecular biology regulation mechanisms of tumorigenesis and progression. To explore potential regulatory relationships between transcription factors and immune genes, three hundred and eighteen transcription factors were identified from Cistrome Cancer database [37]. Associations between tumor infiltrating immune cells and immune genes were explored via Tumor IMmune Estimation Resource (TIMER) database (https://cistrome.shinyapps.io/timer/) [37]. The tumor infiltrating immune cell dataset was downloaded from Tumor IMmune Estimation Resource database involved 11,509 TCGA samples and original values of six tumor infiltrating immune cells (B_cell, CD4_Tcell, CD8_Tcell, Neutrophil, Macrophage, and Dendritic).
+
+
+### Statistical analyses and artificial intelligence algorithms
+  Statistical analyses were carried out by using SPSS Statistics 19.0 (SPSS Inc.,USA). Artificial intelligence algorithms were performed by Python language 3.7.2 and R software 3.5.2 (https://www.r-project.org/) in previous studies [27], [28], [29], [30], [31], [32], [33], [34]. Artificial intelligence algorithms were carried out according to the original articles: Multi-task logistic regression [23], [38], Cox survival regression [24], and Random survival forest [21], [22]. P value < 0.05 was considered statistically significant.
+
+
+## Results
+
+### Study datasets
+  Flow chart in current study was presented in Supplementary Fig. 1. Model cohort contained 265 GC patients and validation cohort contained 279 GC patients. The comparisons of clinical parameters between model cohort and validation cohort were presented in Table 1.Table 1The clinical features of patients in model cohort and validation cohort.TCGA cohortGSE62254 cohortP valuePatient number265279Death [n(%)]98(37.0)152(54.5)<0.001Survival time for living patients(mean ± SD, month)19.6(12.3,32.2)60.0(49.0,76.0)<0.001Survival time for dead patients (mean ± SD, month)10.6(6.0,15.4)9.4(3.9,18.1)0.827Age (mean ± SD, year)64.4 ± 10.661.9 ± 11.30.008Male [(n)%]175(66.0)181(94.9)0.776AJCC Stage (IV)2375<0.001AJCC Stage (III)10386AJCC Stage (II)9189AJCC Stage (I)4129AJCC Stage (NA)70AJCC PT (T4)6620<0.001AJCC PT (T3)12184AJCC PT (T2)62175AJCC PT (T1)160AJCC PT (NA)00AJCC PN (N3)53500.006AJCC PN (N2)5573AJCC PN (N1)67119AJCC PN (N0)8837AJCC PN (NA)20AJCC PM (M1)22270.578AJCC PM (M0)243252AJCC PM (NA)00Targeted molecular therapy (Yes)78NATargeted molecular therapy (No)79NATargeted molecular therapy (NA)108NARadiation treatment adjuvant (Yes)0NARadiation treatment adjuvant (No)155NARadiation treatment adjuvant (NA)110NABarretts esophagus (Yes)12NABarretts esophagus (No)151NABarretts esophagus (NA)102NAH pylori infection (Yes/No/NA)15NAH pylori infection (No)117NAH pylori infection (NA)133NANote: NA, missing data; SD: standard deviation; AJCC: American Joint Committee on Cancer.
+
+
+### Differentially expressed analyses
+  Differentially expressed analyses (Fig. 1A) identified 6047 differentially expressed mRNAs (3539 up-regulated and 2508 down-regulated) out of 22,412 mRNAs. There were 3691 immune genes after interaction between mRNA symbols and immune genes from ImmPort database. Differentially expressed analyses (Fig. 1B) identified 2352 differentially expressed immune genes (1235 up-regulated and 1117 down-regulated).Fig. 1Differentially expression and gene functional.
+
+
+### Functional enrichment analyses
+  Potential biological functions of immune genes were explored through Gene Ontology (GO) functional enrichment analyses. Bar plot (Fig. 1C), bubble plot (Supplementary Fig. 2) and chord plot (Supplementary Fig. 3) indicated potential biological functions of immune genes as following: collagen-containing extracellular matrix, extracellular matrix, endocrine process, extracellular structure organization, regulation of systemic arterial blood pressure by hormone, regulation of systemic arterial blood pressure, positive regulation of response to external stimulus, extracellular matrix organization, regulation of systemic arterial blood pressure mediated by a chemical signal, platelet alpha granule lumen, platelet alpha granule, regulation of inflammatory response, regulation of digestive system process, secretory granule lumen, and cytoplasmic vesicle lumen.
+
+
+### Prognostic immune genes and regulatory network
+  There were 160 immune genes identified as prognostic markers for GC via univariate Cox regression. Transcription factor is a key link in the molecular regulatory pathway. To better understand the regulatory relationship between transcription factors and immune genes, the current study performed correlation analyses to identify transcription factors closely related to immune genes. According to cut off values of |correlation coefficient| > 0.5 and P value < 0.01, 19 transcription factors and 70 immune genes were identified to construct a transcription factor regulatory network of immune genes (Fig. 2) via Cytoscape v3.6.1 [39].Fig. 2Immune gene regulatory network chart.
+
+
+### Construction of prognostic signature
+  Out of previous prognostic immune genes, fourteen immune genes were identified as independent risk factors for DFS (Table2). The risk factor forest chart and survival curve chart of fourteen immune immune genes were presented in Figs. 3 and 4. The prognostic signature was calculated with the following formula: The risk score = (0.5307*CIDEA) + (0.665*VSIG1) + (0.6206*B3GNTL1) + (-0.5741*FERMT1) + (0.7004*RETN) + (-0.8919*NLRC5) + (0.6959*GJB6) + (0.7907*GPC3) + (0.9957*CMTM1) + (0.6608*IFI44L) + (-0.6322*LRP8) + (0.7525*FGB) + (-0.5867*NOX1) + (0.5657*CDSN). A prognostic nomogram was presented in Fig. 5.Table 2Information of prognostic genes.Univariate analysisMultivariate analysisGeneHR95% CIP-valuecoefficientHR95% CIP-valueCIDEA(High/Low)1.9491.302-2.9160.0010.5311.7001.104-2.6200.016VSIG1(High/Low)1.8131.204-2.7280.0040.6651.9451.242-3.0440.004B3GNTL1(High/Low)1.6831.125-2.5170.0110.6211.8601.122-3.0840.016FERMT1(High/Low)0.6050.404-0.9070.015−0.5740.5630.343-0.9250.023RETN(High/Low)1.7981.202-2.6900.0040.7002.0151.267-3.2050.003NLRC5(High/Low)0.6310.423-0.9420.024−0.8920.4100.253-0.6640.000GJB6(High/Low)1.7771.185-2.6640.0050.6962.0061.297-3.1020.002GPC3(High/Low)1.9301.282-2.9060.0020.7912.2051.409-3.4500.001CMTM1(High/Low)1.8401.223-2.7690.0030.9962.7071.537-4.7650.001IFI44L(High/Low)1.5081.009-2.2530.0450.6611.9361.214-3.0880.006LRP8(High/Low)0.6290.421-0.9410.024−0.6320.5310.330-0.8560.009FGB(High/Low)1.5731.054-2.3480.0270.7532.1221.340-3.3620.001NOX1(High/Low)0.5770.383-0.8700.009−0.5870.5560.348-0.8880.014CDSN(High/Low)1.6521.103-2.4730.0150.5661.7611.108-2.7980.017Note: HR, hazard ratio; CI, confidence interval. The medians of gene expression values were used as cut-off values to stratify gene expression values into high expression group (as value 1) and low expression group (as value 0).Fig. 3Immune gene survival forest chart.Fig. 4Survival curves of immune genes.Fig. 5Prognostic nomogram chart.
+
+  Survival curve analyses of immune genes (Fig. 3) demonstrated that DFS were significantly different between different immune expression status (P < 0.05). The predictive value distribution chart and survival status scatter plot were presented in Supplementary Figs. 4 and 5.
+
+
+### Predictive performance in model cohort
+  According to median of prognostic signature score, Fig. 6A demonstrated that there was significant difference between two groups. Concordance indexes were 0.800, 0.809, and 0.856 for 1-year, 3-year, and 5-year DFS (Fig. 6B). Calibration curves were showed in Supplementary Fig. 6.Fig. 6Clinical performance in model cohort.
+
+
+### Predictive performance in validation cohort
+  Survival curves (Fig. 7A) demonstrated that DFS in high risk group was significantly poor than that in low risk group. Concordance indexes were 0.911, 0.815, and 0.815 for 1-year, 3-year, and 5-year DFS (Fig. 7B). Calibration curves were showed in Supplementary Fig. 7. Decision curve charts were presented in Supplementary Fig. 8.Fig. 7Clinical performance in validation cohort.
+
+
+### Artificial intelligence survival predictive system
+  An artificial intelligence survival predictive system was developed to provide on-line prediction for DFS (Fig. 8). This artificial intelligence survival predictive system was provided at: https://zhangzhiqiao7.shinyapps.io/Smart_Cancer_Survival_Predictive_System_15_GC_D1006/. Three individual mortality risk predictive curves predicted by, Multi-task logistic regression (MTLR) algorithm (Fig. 8A), Random survival forest (RFS) algorithm (Fig. 8B), and Cox survival regression algorithm (Fig. 8C). This artificial intelligence survival predictive system could provide 95% confidence interval of predicted mortality and median survival time for an individual patient.Fig. 8Home page of artificial algorithm survival predictive system.
+
+
+### Gene survival analysis screen system
+  Univariate Cox regression recognized 160 immune genes as prognostic markers for GC. A precision medical predictive tool named Gene Survival Analysis Screen System was developed to explore the prognostic influence of these 160 immune genes in different subgroups (Fig. 9). Gene Survival Analysis Screen System was provided at: https://zhangzhiqiao7.shinyapps.io/Gene_Survival_Subgroup_Analysis_15_GC_D1006/.Fig. 9Home page of Gene Survival Analysis Screen System.
+
+
+### Independence assessment
+  In model cohort, this prognostic signature was an independent risk factor for DFS (Table 3). In validation cohort, prognostic signature, American Joint Committee on Cancer PM, and gender were independent risk factors for DFS.Table 3Results of Cox regression analyses.Univariate analysisMultivariate analysisHR95% CIP-valueCoefficientHR95% CIP-valueTCGA cohort (n = 265)Age(High/Low)0.8580.577-1.2740.4470.2651.3030.854-1.9880.220Gender (Male/Female)1.6071.072-2.4090.0220.1141.1200.610-2.0580.714AJCC PT (T3-4/T1-2)1.3850.876-2.1910.1640.4241.5270.885-2.6350.128AJCC PN (N2-3/N0-1)1.6261.094-2.4170.0160.2601.2960.753-2.2330.349AJCC PM (M1/M0)1.0560.512-2.1780.883−0.0980.9070.435-1.8910.794AJCC stage (IV,III/II,I)1.8721.173-2.9880.0090.4091.5050.936-2.4210.092Prognostic model (High/Low)6.0113.685-9.807<0.0011.8096.1033.693-10.080<0.001GSE62254 cohort (n = 279)Age(High/Low)1.3470.979-1.8530.0680.2571.2920.935-1.7860.120Gender (Male/Female)3.5462.425-5.183<0.0010.8652.3761.268-4.4530.007AJCC PT (T3-4/T1-2)2.2701.649-3.125<0.0010.1881.2070.809-1.8010.356AJCC PN (N2-3/N0-1)2.8482.051-3.956<0.0010.0741.0770.668-1.7350.762AJCC PM (M1/M0)3.5012.265-5.413<0.0010.8472.3321.471-3.696<0.001AJCC stage (IV,III/II,I)1.0330.739-1.4450.8480.2421.2730.902-1.7980.170Prognostic model (High/Low)4.2943.050-6.044<0.0011.2933.6452.542-5.228<0.001Note: AJCC, the American Joint Committee on Cancer; HR, hazard ratio; CI, confidence interval. The median of Prognostic model scores was used as the cut-off value to stratify gastric cancer patients into high risk group and low risk group.
+
+
+### Subgroup analyses
+  Subgroup analyses demonstrated that DFS in high risk group was significantly poor than that in low risk group for different stage groups in both model cohort and validation cohort (Fig. 10).Fig. 10Survival curve subgroup analysis.
+
+
+### Clinical correlation analyses
+  Clinical correlation analyses displayed the correlation coefficient between clinical parameters and immune genes (Fig. 11). Supplementary Fig. 9 depicted correlation significance between clinical parameters and immune genes.Fig. 11Clinical variable correlation coefficient heatmap.
+
+
+### Tumor infiltrating immune cell correlation analyses
+  The original values of six tumor infiltrating immune cells (B_cell, CD4_Tcell, CD8_Tcell, Neutrophil, Macrophage, and Dendritic) were downloaded from Tumor IMmune Estimation Resource database. Fig. 12 showed the correlation coefficient between tumor infiltrating immune cells and immune genes. Supplementary Fig. 10 depicted correlation significance between tumor infiltrating immune cells and immune genes.Fig. 12Immune gene correlation coefficient heatmap.
+
+
+### Tumor infiltrating immune cells
+  The median values were used to classify high-risk patients and low-risk patients. Expression of tumor infiltrating immune cells in patients with high risk score and low risk score was presented in Fig. 13. Scatter plots between tumor infiltrating immune cells and immune genes were shown in Fig. 14. Correlation analyses between tumor infiltrating immune cells and prognostic score were shown in Fig. 15.Fig. 13Expression of tumor immune infiltrating cells.Fig. 14Scatter plot between tumor infiltrating immune cells and immune genes.Fig. 15Scatter plot between tumor infiltrating immune cells and prognostic signature.
+
+
+### Subgroup analyses among different races
+  Subgroup analyses demonstrated that there was no significant difference of immune gene prognostic signature among different races (Supplementary Fig. 11).
+
+
+## Discussion
+  The current study identified 14 immune genes closely related to the prognosis of gastric cancer. These immune genes may become valuable prognostic biomarkers and potential targets for tumor immunotherapy. The current study constructed a transcription factor regulatory network of immune genes, which may be helpful to understand the potential molecular regulatory mechanisms of tumorigenesis and progression. The current study developed and validated a prognostic signature for DFS of GC patients. In addition, we developed two novel artificial intelligence survival predictive tools to predict individual mortality risk. Additionally, the artificial intelligence survival predictive system could provide 95% confidence interval of predicted mortality and median survival time. These two artificial intelligence survival predictive tools were convenient in providing individualized mortality risk prediction with advantages of simple operation and intuitive results.
+
+  Previous studies have reported several prognostic models for predicting the prognosis of gastric cancer patients [16], [17]. However, these prognostic models can’t predict the mortality risk for an individual patient. In recent years, artificial intelligence algorithms, including Multi-task logistic regression algorithm, Cox survival regression algorithm, and random survival forest algorithm, have made great progress in survival prediction [21], [22], [23], [24], [25], [26]. With the supports of these advanced artificial intelligence algorithms, we have successfully established artificial intelligence survival predictive system to predict the mortality risk curve for an individual patient. Meanwhile, the current artificial intelligence survival predictive system could provide 95% confidence interval of predicted mortality and median survival time. Individual level survival prediction and median survival time prediction are the unique prediction ability of our artificial intelligence survival predictive system. In the current study, we creatively applied three artificial intelligence algorithms for predicting the individual mortality risk of cancer patients, providing a feasible idea and valuable reference for the future survival prediction studies.
+
+  The current research searched TISIDB databases to explore the biological process of these immune genes (http://cis.hku.hk/TISIDB/index.php). The major biological process of DFFA Like Effector A (CIDEA) is DNA catabolic process, endonucleolytic, temperature homeostasis, and negative regulation of cytokine production. The major biological process of V-set and immunoglobulin domain containing 1 (VSIG1) is tissue homeostasis, epithelial cell development, and epithelial cell morphogenesis. The major biological process of fermitin family member 1 (FERMT1) is ameboidal-type cell migration, establishment or maintenance of cell polarity, and epithelial cell migration. The major biological process of resistin (RETN) is positive regulation of collagen metabolic process, aging and regulation of collagen metabolic process. The major biological process of NLR family, CARD domain containing 5 (NLRC5) is negative regulation of immune system process, response to virus, and positive regulation of cytokine-mediated signaling pathway. The major biological process of gap junction protein, beta 6, 30 kDa (GJB6) is cellular glucose homeostasis, response to molecule of bacterial origin, and aging. The major biological process of glypican 3 (GPC3) is retinoid metabolic process, morphogenesis of a polarized epithelium, and ossification. The major biological process of interferon-induced protein 44-like (IFI44L) is response to virus, defense response to virus, and defense response to other organism. The major biological process of low density lipoprotein receptor-related protein 8 (LRP8) is regulation of cell morphogenesis involved in differentiation, retinoid metabolic process, and isoprenoid metabolic process. The major biological process of fibrinogen beta chain (FGB) is extrinsic apoptotic signaling pathway via death domain receptors, vascular process in circulatory system, and adaptive immune response. The major biological process of NADPH oxidase 1 (NOX1) is oxidoreduction coenzyme metabolic process, angiogenesis, and response to oxidative stress. The major biological process of corneodesmosin (CDSN) is keratinocyte differentiation, epidermis development, and epidermal cell differentiation.
+
+  The current study identified several valuable prognosis-related biomarkers, which might be potential candidates in targeted treatment. Huang Y et al. reported that methylation level of Cell Death Inducing CIDEA was related with tumor microsatellite instability [40]. Cell proliferation was mediated by NADPH Oxidase 1 (Nox1) expression in colon carcinoma cell lines [41]. High expression of Nox1 in colon cancer accelerated the tumor growth and inhibition of Nox1 might become a new therapeutic strategy for colorectal cancer treatment [42]. Low expression of Interferon Induced Protein 44 Like (IFI44L) impaired antiviral state induced by IFN and might be potential candidate for reduction of virus replication [43]. Glypican 3 (GPC3) was potential immune target for hepatocellular carcinoma through fusing to alpha epitope of HBsAg [44]. GPC3-S-Fab could kill GPC3 positive hepatocellular carcinoma cells through natural killer cells [45]. NLR Family CARD Domain Containing 5 (NLRC5) had a weak moderate effect for modulating CD8 + T-cell responses in mice small intestine with rotavirus infection [46]. NLRC5 could mediate proliferation, migration and invasion of renal cell carcinoma through wnt/beta-catenin signaling pathway [47]. Previous studies indicated potential effects of immune genes in molecular biological regulatory mechanisms and pathways of tumorigenesis and progression. The current study constructed a transcription factor regulatory network of immune genes. This regulatory network was helpful to reveal the potential role of immune genes in tumorigenesis and progression.
+
+  Tumor infiltrating macrophages could express interleukin 25, which was significantly related to the prognosis of gastric cancer after radical resection [48]. Macrophages could enhance the invasiveness of gastric cancer cells by enhancing the transforming growth factor beta / bone morphogenetic protein pathway [49]. High expression of CD8 + T cells was associated with prognosis and lymph node metastasis of gastric cancer [50]. High regulatory T cells to CD8 + T cells ratio was significantly correlated with poor prognosis of gastric cancer [51]. High infiltration of CD8 + T cell increased programmed death ligand 1 and decreased survival rate [52]. Tumor antigen could stimulate CD8 + T cells [53], [54]. Neutrophils could inhibit the anti-tumor ability of dendritic cells [55]. Pro-tumoral neutrophils could up-regulate immunosuppressive dendritic cells [56]. Dendritic cell infiltration plays an important role in the initiation of primary anti-tumor immune response [57]. Neutrophils could inhibit immune response and accelerate the progress of gastric tumors via GM-CSF-PD-L1 pathway [58].
+
+  Advantages of current study: The current research developed artificial intelligence predictive tools for GC patients based on three artificial intelligence algorithms. Artificial intelligence survival predictive system was convenient to predict individualized mortality risk with visual illustration and numerical presentation. The artificial intelligence predictive tools can provide more accurate individual prognostic information and are more suitable to meet the needs of individualized treatment and precision medicine. In order to provide more reliable prognostic information for individual patient, three individual mortality risk predictive curves were presented based on different artificial intelligence algorithms. The current artificial intelligence survival predictive system could provide 95% confidence interval of predicted mortality and median survival time.
+
+  Shortcomings of current study: First, the current research explored clinical significance of immune genes in tumorigenesis and progression based on datasets from public databases. However the conclusions have not yet been verified by researchers' own research data. Second, sample size of the current research is relatively small, weakening the credibility of research conclusions to a certain extent. Third, some patients with gastric cancer have comorbidities and the other cancers. The current study did not consider the impacts of comorbidities and the other cancers on the individual mortality curve. Fourth, due to the lack of efficacy indicators of radiotherapy and chemotherapy, our predictive system can’t predict the efficacy of different treatment regimens for cancer patients. Fifth, overall survival is a valuable outcome for prognostic evaluation of gastric cancer. However, due to the lack of effective clinical dataset, the current study did not explore and establish the prognostic model for gastric cancer patients by using overall survival as final outcome. Prospective basic researches are helpful to further explore the potential role of immune genes in molecular biological regulatory mechanism of tumorigenesis and progression. Third, due to the complexity of artificial intelligence algorithms, the calculation process could not be displayed by simple formula, blocking the application of artificial intelligence algorithms in the field of tumor prognosis to a certain extent.
+
+
+## Conclusion
+  The current study constructed a transcription factor regulatory network and developed two artificial intelligence survival prediction tools (https://zhangzhiqiao7.shinyapps.io/Smart_Cancer_Survival_Predictive_System_15_GC_D1006/ and https://zhangzhiqiao7.shinyapps.io/Gene_Survival_Subgroup_Analysis_15_GC_D1006/) for disease free survival of gastric cancer patients. These artificial intelligence survival prediction tools are helpful to predict individual mortality risk and provide valuable prognostic information for individualized treatment decision.
+
+
+## Ethics approval and consent to participate
+  The studies in TCGA database and GEO database have received ethical approval from ethics committees of their respective research institutes. These studies obtained informed consent from patients before admission. The current study is a second study based on public datasets from TCGA database and GEO database. Details of all patients in public datasets have been anonymously processed and therefore the current research does not involve patients' privacy information. The current study was performed according to public database policy and declaration of Helsinki. TCGA database and GEO database allows researchers to use public datasets for scientific purposes. Ethical approval of this study was waived in accordance with the recommendations of Management Measures for Ethical Review of Clinical Research, Ethics Committees of Shunde Hospital, Southern Medical University because the current study was a retrospective study based on public datasets. Therefore ethical approval and informed consent were not required for the current study.
+
+
+## Consent for publication
+  All authors approved the publication.
+
+
+## Availability of data and materials
+  The study data is available at: https://zhangzhiqiao7.shinyapps.io/Gene_Survival_Subgroup_Analysis_15_GC_D1006/.
+
+
+## Funding
+  The current research was funded by Medical Science and Technology Foundation of Guangdong Province (B2018237). Foshan Science and Technology Bureau (2020001004584).
+
+
+## CRediT authorship contribution statement
+  Zhiqiao Zhang: Conceptualization, Methodology, Resources, Investigation, Data curation, Formal analysis, Validation, Software, Project administration, Supervision, Visualization, Funding acquisition. Tingshan He: Conceptualization, Methodology, Resources, Investigation, Data curation, Formal analysis, Validation, Software, Project administration, Supervision. Liwen Huang: Conceptualization, Methodology, Resources, Investigation, Data curation, Formal analysis, Validation, Software, Project administration, Supervision. Jing Li: Conceptualization, Methodology, Resources, Investigation, Data curation, Formal analysis, Validation, Software, Project administration, Supervision. Peng Wang: Conceptualization, Methodology, Resources, Investigation, Data curation, Formal analysis, Validation, Software, Project administration, Supervision, Visualization.
+
+
+## Declaration of Competing Interest
+  The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+
+## Supplementary data
+  The following are the Supplementary data to this article:Supplementary data 1
+
+  Supplementary data 2
+
+
+## Acknowledgements
+  We would like to thank Dr. Gary S Collins (University of Oxford), Dr Manali Rupji (Emory University), Mrs Qingmei Liu for help and support on development of precision medical tools.
+
+  Department of Infectious Diseases, Shunde Hospital, Southern Medical University, Shunde, Guangdong, China.

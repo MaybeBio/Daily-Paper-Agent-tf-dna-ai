@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "34319027",
+    "doi": "10.31557/APJCP.2021.22.7.2053",
+    "title": "Tumor Mutation Burden Prediction Model in Egyptian Breast Cancer patients based on Next Generation Sequencing."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: This study aimed to identify the tumor mutation burden (TMB) value in Egyptian breast cancer (BC) patients. Moreover, to find the best TMB prediction model based on the expression of estrogen (ER), progesterone (PR), human epidermal growth factor receptor 2 (HER-2), and proliferation index Ki-67. METHODS: The Ion AmpliSeq Comprehensive Cancer Panel was used to determine TMB value of 58 Egyptian BC tumor tissues. Different machine learning models were used to select the optimal classification model for prediction of TMB level according to patient's receptor status. RESULTS: The measured TMB value was between 0 and 8.12/Mb. Positive expression of ER and PR was significantly associated with TMB </= 1.25 [(OR =0.35, 95% CI: 0.04-2.98), (OR = 0.17, 95% CI= 0.02-0.44)] respectively. Ki-67 expression positive was significantly associated with TMB >1.25 than those who were Ki-67 expression negative (OR = 9.33, 95% CI= 2.07-42.18). However, no significant differences were observed between HER2 positive and HER2 negative groups. The optimized logistic regression model was TMB = -27.5 -1.82 ER - 0.73 PR + 0.826 HER2 + 2.08 Ki-67. CONCLUSION: Our findings revealed that TMB value can be predicted based on the expression level of ER, PR, HER-2, and Ki-67.",
+    "keywords": [
+      "ER",
+      "Her-2",
+      "Ki-67",
+      "PR",
+      "target panel"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Biomarkers, Tumor/*metabolism",
+      "Breast Neoplasms/*genetics/pathology",
+      "Egypt",
+      "Female",
+      "*High-Throughput Nucleotide Sequencing",
+      "Humans",
+      "Ki-67 Antigen/metabolism",
+      "Machine Learning",
+      "Middle Aged",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Receptors, Estrogen/metabolism",
+      "Receptors, Progesterone/metabolism",
+      "Tumor Burden"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nassar, Auhood",
+        "Lymona, Ahmed M",
+        "Lotfy, Mai M",
+        "Youssef, Amira Salah El-Din",
+        "Mohanad, Marwa",
+        "Manie, Tamer M",
+        "Youssef, Mina M G",
+        "Farahat, Iman G",
+        "Zekri, Abdel-Rhaman N"
+      ],
+      "short_names": [
+        "Nassar A",
+        "Lymona AM",
+        "Lotfy MM",
+        "Youssef ASE",
+        "Mohanad M",
+        "Manie TM",
+        "Youssef MMG",
+        "Farahat IG",
+        "Zekri AN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cancer Biology, National Cancer Institute, Cairo University, Cairo, Egypt.",
+        "Department of Surgical Oncology, National Cancer Institute, Cairo University, Cairo, Egypt.",
+        "Department of Cancer Biology, National Cancer Institute, Cairo University, Cairo, Egypt.",
+        "Department of Cancer Biology, National Cancer Institute, Cairo University, Cairo, Egypt.",
+        "Department of Biochemistry, College of Pharmacy, Misr University for Science and Technology, Cairo University, Cairo, Egypt.",
+        "Department of Surgical Oncology, National Cancer Institute, Cairo University, Cairo, Egypt.",
+        "Norfolk and Norwich University Hospital, Norwich, UK.",
+        "Department of Pathology, National Cancer Institute, Cairo University, Cairo, Egypt.",
+        "Department of Cancer Biology, National Cancer Institute, Cairo University, Cairo, Egypt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nassar, Auhood",
+        "short_name": "Nassar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, National Cancer Institute, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Lymona, Ahmed M",
+        "short_name": "Lymona AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, National Cancer Institute, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Lotfy, Mai M",
+        "short_name": "Lotfy MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, National Cancer Institute, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Youssef, Amira Salah El-Din",
+        "short_name": "Youssef ASE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, National Cancer Institute, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Mohanad, Marwa",
+        "short_name": "Mohanad M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Pharmacy, Misr University for Science and Technology, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Manie, Tamer M",
+        "short_name": "Manie TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, National Cancer Institute, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Youssef, Mina M G",
+        "short_name": "Youssef MMG",
+        "identifiers": [],
+        "affiliations": [
+          "Norfolk and Norwich University Hospital, Norwich, UK."
+        ]
+      },
+      {
+        "full_name": "Farahat, Iman G",
+        "short_name": "Farahat IG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Cancer Institute, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Zekri, Abdel-Rhaman N",
+        "short_name": "Zekri AN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, National Cancer Institute, Cairo University, Cairo, Egypt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Asian Pacific journal of cancer prevention : APJCP"
+    ],
+    "journal_abbrev": [
+      "Asian Pac J Cancer Prev"
+    ],
+    "pub_date": "2021 Jul 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/29 06:00",
+    "fetched_at": "2026-09-27 21:18:17"
+  },
+  "links": {
+    "cites": [
+      "42463895",
+      "41339875",
+      "41050883",
+      "36547062",
+      "36531037",
+      "36308351",
+      "35493779"
+    ],
+    "refs": [
+      "32322420",
+      "31289516",
+      "30475950",
+      "30395155",
+      "30371878",
+      "30238975",
+      "29773717",
+      "29719409",
+      "29562145",
+      "28910822",
+      "28835386",
+      "28716075",
+      "28138153",
+      "28034454",
+      "27481651",
+      "26952546",
+      "26412456",
+      "26379229",
+      "26377084",
+      "24790649",
+      "24132290",
+      "20525992",
+      "17763371",
+      "17239243",
+      "7505195"
+    ],
+    "similar": [
+      "34319027",
+      "29719409",
+      "30694768",
+      "25684532",
+      "24498305",
+      "27619909",
+      "21725655",
+      "23613389",
+      "30722113",
+      "27477822",
+      "26493064",
+      "31550858",
+      "33585986",
+      "31754747",
+      "22004841",
+      "30678383",
+      "29031688",
+      "25778295",
+      "25266526",
+      "29444670",
+      "25600243",
+      "25339035",
+      "27039719",
+      "20137353",
+      "24337596",
+      "27743431",
+      "30916428",
+      "24951027",
+      "27456970",
+      "31983107",
+      "25938238",
+      "31190183",
+      "22359195",
+      "26138872",
+      "31628534",
+      "22961208",
+      "25556461",
+      "24591826",
+      "24652232",
+      "25241230",
+      "24551288",
+      "23192228",
+      "26096243",
+      "32592349",
+      "26742937",
+      "27666130",
+      "22270937",
+      "29261141",
+      "19256737",
+      "29693354",
+      "23701403",
+      "31276668",
+      "33667252",
+      "28193205",
+      "22290394",
+      "26954364",
+      "25880075",
+      "27889196",
+      "23890870",
+      "29286222",
+      "27762648",
+      "37265033",
+      "26612082",
+      "25168102",
+      "32289805",
+      "31300338",
+      "22931039",
+      "25845386",
+      "31640622",
+      "29306240",
+      "14979918",
+      "20213203",
+      "19877382",
+      "26745092",
+      "26486734",
+      "27760283",
+      "25966732",
+      "23040002",
+      "26514283",
+      "30659433",
+      "25081661",
+      "24065473",
+      "31290783",
+      "22949935",
+      "16831279",
+      "27315045",
+      "22903686",
+      "23818347",
+      "32334465",
+      "28099174",
+      "20872186",
+      "22045649",
+      "38820391",
+      "34519589",
+      "37583930",
+      "34689378",
+      "34863681",
+      "39152485"
+    ],
+    "review": [
+      "34319027",
+      "31190183",
+      "27889196"
+    ],
+    "pmc": [
+      "8607104"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34319027/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34319027",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-8",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://journal.waocp.org/?sid=Entrez:PubMed&id=pmid:34319027&key=2021.22.7.2053",
+        "provider": "Asian Pacific Organization for Cancer Prevention",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

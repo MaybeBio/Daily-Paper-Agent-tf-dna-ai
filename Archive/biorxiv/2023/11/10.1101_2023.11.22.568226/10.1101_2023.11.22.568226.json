@@ -1,0 +1,314 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.22.568226",
+  "title": "Mechanisms of transcriptional regulation in Anopheles gambiae revealed by allele specific expression",
+  "doi": "10.1101/2023.11.22.568226",
+  "abstract": "Malaria control relies on insecticides targeting the mosquito vector, but this is increasingly compromised by insecticide resistance, which can be achieved by elevated expression of detoxifying enzymes that metabolize the insecticide. In diploid organisms, gene expression is regulated both in cis , by regulatory sequences on the same chromosome, and by trans acting factors, affecting both alleles equally. Differing levels of transcription can be caused by mutations in cis -regulatory modules (CRM), but few of these have been identified in mosquitoes. We crossed bendiocarb resistant and susceptible Anopheles gambiae strains to identify cis -regulated genes that might be responsible for the resistant phenotype using RNAseq, and cis -regulatory module sequences controlling gene expression in insecticide resistance relevant tissues were predicted using machine learning. We found 115 genes showing allele specific expression in hybrids of insecticide susceptible and resistant strains, suggesting cis regulation is an important mechanism of gene expression regulation in Anopheles gambiae . The genes showing allele specific expression included a higher proportion of Anopheles specific genes on average younger than genes those with balanced allelic expression. <h4>Author Summary</h4> The evolution of insecticide resistance, including resistance that is due to changes in the expression levels of certain resistance associated genes is threatening progress in malaria control. We investigated how the expression of genes in the malaria vector Anopheles gambiae is controlled, by implementing a method for the first time in this species. Each mosquito inherits a set of chromosomes from both parents, so has a maternal and paternal copy of most genes. When a gene is expressed, the DNA encoding that gene is transcribed into messenger RNA. This process is controlled by the cellular environment and by other DNA sequences on the same chromosome as each gene. We crossed mosquitoes from insecticide resistant and susceptible strains to equalize the cellular environment and then measured the levels of messenger RNA from both gene copies. 115 genes showed consistently different messenger RNA levels between gene copies in most crosses, suggesting these genes are regulated by factors on the same chromosome. There were relatively more Anopheles specific genes with imbalanced expression. Using machine learning we identified DNA sequences that may be responsible for controlling gene expression in mosquito tissues; several of these sequences were close to genes with imbalanced expression.",
+  "authors": [
+    "Dyer NA",
+    "Lucas ER",
+    "Nagi SC",
+    "McDermott DP",
+    "Brenas JH",
+    "Miles A",
+    "Clarkson CS",
+    "Mawejje HD",
+    "Wilding CS",
+    "Halfon MS",
+    "Asma H",
+    "Heinz E",
+    "Donnelly MJ"
+  ],
+  "published_date": "2023-11-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.22.568226",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.22.568226.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR763779",
+    "raw_record": {
+      "id": "PPR763779",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR763779"
+        ]
+      },
+      "doi": "10.1101/2023.11.22.568226",
+      "title": "Mechanisms of transcriptional regulation in  <i>Anopheles gambiae</i>  revealed by allele specific expression",
+      "authorString": "Dyer NA, Lucas ER, Nagi SC, McDermott DP, Brenas JH, Miles A, Clarkson CS, Mawejje HD, Wilding CS, Halfon MS, Asma H, Heinz E, Donnelly MJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dyer NA",
+            "lastName": "Dyer",
+            "firstName": "Naomi",
+            "initials": "NA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Vector Biology, Liverpool School of Tropical Medicine, Pembroke Place, Liverpool, L3 5QA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lucas ER",
+            "lastName": "Lucas",
+            "firstName": "Eric",
+            "initials": "ER",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Vector Biology, Liverpool School of Tropical Medicine, Pembroke Place, Liverpool, L3 5QA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nagi SC",
+            "lastName": "Nagi",
+            "firstName": "Sanjay",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Vector Biology, Liverpool School of Tropical Medicine, Pembroke Place, Liverpool, L3 5QA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McDermott DP",
+            "lastName": "McDermott",
+            "firstName": "Daniel",
+            "initials": "DP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Vector Biology, Liverpool School of Tropical Medicine, Pembroke Place, Liverpool, L3 5QA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brenas JH",
+            "lastName": "Brenas",
+            "firstName": "Jon",
+            "initials": "JH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 iSA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miles A",
+            "lastName": "Miles",
+            "firstName": "Alistair",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 iSA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clarkson CS",
+            "lastName": "Clarkson",
+            "firstName": "Chris",
+            "initials": "CS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, CB10 iSA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mawejje HD",
+            "lastName": "Mawejje",
+            "firstName": "Henry",
+            "initials": "HD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Infectious Diseases Research Collaboration (IDRC), Plot 2C Nakasero Hill Road, P.O.Box 7475, Kampala, Uganda"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilding CS",
+            "lastName": "Wilding",
+            "firstName": "Craig",
+            "initials": "CS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological and Environmental Sciences, Liverpool John Moores University, Byrom Street, Liverpool, L3 3AF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Halfon MS",
+            "lastName": "Halfon",
+            "firstName": "Marc",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Jacobs School of Medicine & Biomedical Sciences, University at Buffalo-State University of New York, 955 Main Street, Buffalo, New York 14203, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Asma H",
+            "lastName": "Asma",
+            "firstName": "Hasiba",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Jacobs School of Medicine & Biomedical Sciences, University at Buffalo-State University of New York, 955 Main Street, Buffalo, New York 14203, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heinz E",
+            "lastName": "Heinz",
+            "firstName": "Eva",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Vector Biology, Liverpool School of Tropical Medicine, Pembroke Place, Liverpool, L3 5QA, UK"
+                },
+                {
+                  "affiliation": "Department of Clinical Sciences, Liverpool School of Tropical Medicine, Pembroke Place, Liverpool, L3 5QA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Donnelly MJ",
+            "lastName": "Donnelly",
+            "firstName": "Martin",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Vector Biology, Liverpool School of Tropical Medicine, Pembroke Place, Liverpool, L3 5QA, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Malaria control relies on insecticides targeting the mosquito vector, but this is increasingly compromised by insecticide resistance, which can be achieved by elevated expression of detoxifying enzymes that metabolize the insecticide. In diploid organisms, gene expression is regulated both in  cis , by regulatory sequences on the same chromosome, and by  trans acting factors, affecting both alleles equally. Differing levels of transcription can be caused by mutations in  cis -regulatory modules (CRM), but few of these have been identified in mosquitoes. We crossed bendiocarb resistant and susceptible  Anopheles gambiae strains to identify  cis -regulated genes that might be responsible for the resistant phenotype using RNAseq, and  cis -regulatory module sequences controlling gene expression in insecticide resistance relevant tissues were predicted using machine learning. We found 115 genes showing allele specific expression in hybrids of insecticide susceptible and resistant strains, suggesting  cis regulation is an important mechanism of gene expression regulation in  Anopheles gambiae . The genes showing allele specific expression included a higher proportion of  Anopheles specific genes on average younger than genes those with balanced allelic expression.  <h4>Author Summary</h4>  The evolution of insecticide resistance, including resistance that is due to changes in the expression levels of certain resistance associated genes is threatening progress in malaria control. We investigated how the expression of genes in the malaria vector  Anopheles gambiae is controlled, by implementing a method for the first time in this species. Each mosquito inherits a set of chromosomes from both parents, so has a maternal and paternal copy of most genes. When a gene is expressed, the DNA encoding that gene is transcribed into messenger RNA. This process is controlled by the cellular environment and by other DNA sequences on the same chromosome as each gene. We crossed mosquitoes from insecticide resistant and susceptible strains to equalize the cellular environment and then measured the levels of messenger RNA from both gene copies. 115 genes showed consistently different messenger RNA levels between gene copies in most crosses, suggesting these genes are regulated by factors on the same chromosome. There were relatively more Anopheles specific genes with imbalanced expression. Using machine learning we identified DNA sequences that may be responsible for controlling gene expression in mosquito tissues; several of these sequences were close to genes with imbalanced expression.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/15/2023.11.22.568226.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.11.22.568226"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR763779"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR763779&type=FILE&fileName=EMS191540-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39288798",
+            "reference": "Proceedings. Biological sciences. 2024 Sep;291(2031):20241142",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS191540",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gca",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-11-24",
+      "firstPublicationDate": "2023-11-22",
+      "firstIndexDate": "2023-11-24",
+      "fullTextReceivedDate": "2024-02-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "34673265",
+    "doi": "10.1016/j.bbagrm.2021.194765",
+    "title": "A GO catalogue of human DNA-binding transcription factors."
+  },
+  "content": {
+    "abstract": "To control gene transcription, DNA-binding transcription factors recognise specific sequence motifs in gene regulatory regions. A complete and reliable GO annotation of all DNA-binding transcription factors is key to investigating the delicate balance of gene regulation in response to environmental and developmental stimuli. The need for such information is demonstrated by the many lists of transcription factors that have been produced over the past decade. The COST Action Gene Regulation Ensemble Effort for the Knowledge Commons (GREEKC) Consortium brought together experts in the field of transcription with the aim of providing high quality and interoperable gene regulatory data. The Gene Ontology (GO) Consortium provides strict definitions for gene product function, including factors that regulate transcription. The collaboration between the GREEKC and GO Consortia has enabled the application of those definitions to produce a new curated catalogue of over 1400 human DNA-binding transcription factors, that can be accessed at https://www.ebi.ac.uk/QuickGO/targetset/dbTF. This catalogue has facilitated an improvement in the GO annotation of human DNA-binding transcription factors and led to the GO annotation of almost sixty thousand DNA-binding transcription factors in over a hundred species. Thus, this work will aid researchers investigating the regulation of transcription in both biomedical and basic science.",
+    "keywords": [
+      "Biocuration",
+      "DNA-binding transcription factor",
+      "Gene ontology"
+    ],
+    "mesh_terms": [
+      "DNA/*metabolism",
+      "Databases, Genetic",
+      "*Gene Ontology",
+      "Humans",
+      "*Molecular Sequence Annotation",
+      "Transcription Factors/*classification/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lovering, Ruth C",
+        "Gaudet, Pascale",
+        "Acencio, Marcio L",
+        "Ignatchenko, Alex",
+        "Jolma, Arttu",
+        "Fornes, Oriol",
+        "Kuiper, Martin",
+        "Kulakovskiy, Ivan V",
+        "Laegreid, Astrid",
+        "Martin, Maria J",
+        "Logie, Colin"
+      ],
+      "short_names": [
+        "Lovering RC",
+        "Gaudet P",
+        "Acencio ML",
+        "Ignatchenko A",
+        "Jolma A",
+        "Fornes O",
+        "Kuiper M",
+        "Kulakovskiy IV",
+        "Laegreid A",
+        "Martin MJ",
+        "Logie C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Functional Gene Annotation, Preclinical and Fundamental Science, UCL Institute of Cardiovascular Science, University College London, London WC1E 6BT, United Kingdom. Electronic address: r.lovering@ucl.ac.uk.",
+        "Swiss-Prot Group, SIB Swiss Institute of Bioinformatics, 1 Rue Michel-Servet, 1211 Geneve 4, Switzerland. Electronic address: pascale.gaudet@sib.swiss.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim NO-7491, Norway. Electronic address: marcio.acencio@uni.lu.",
+        "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, United Kingdom. Electronic address: alexsign@ebi.ac.uk.",
+        "Donnelly Centre, University of Toronto, Toronto, Ontario M5S 3E1, Canada. Electronic address: arttu.jolma@gmail.com.",
+        "Centre for Molecular Medicine and Therapeutics, Department of Medical Genetics, BC Children's Hospital Research Institute, University of British Columbia, 950 W 28th Ave, Vancouver, British Columbia V5Z 4H4, Canada. Electronic address: oriol@cmmt.ubc.ca.",
+        "Department of Biology, Norwegian University of Science and Technology, Trondheim NO-7491, Norway. Electronic address: martin.kuiper@ntnu.no.",
+        "Vavilov Institute of General Genetics, Russian Academy of Sciences, Moscow, 119991, Russia; Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, Moscow 119991, Russia. Electronic address: ivan.kulakovskiy@gmail.com.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim NO-7491, Norway. Electronic address: astrid.lagreid@ntnu.no.",
+        "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, United Kingdom. Electronic address: martin@ebi.ac.uk.",
+        "Molecular Biology Department, Faculty of Science, Radboud University, PO Box 9101, 6500HB Nijmegen, the Netherlands. Electronic address: c.logie@science.ru.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lovering, Ruth C",
+        "short_name": "Lovering RC",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Gene Annotation, Preclinical and Fundamental Science, UCL Institute of Cardiovascular Science, University College London, London WC1E 6BT, United Kingdom. Electronic address: r.lovering@ucl.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Gaudet, Pascale",
+        "short_name": "Gaudet P",
+        "identifiers": [],
+        "affiliations": [
+          "Swiss-Prot Group, SIB Swiss Institute of Bioinformatics, 1 Rue Michel-Servet, 1211 Geneve 4, Switzerland. Electronic address: pascale.gaudet@sib.swiss."
+        ]
+      },
+      {
+        "full_name": "Acencio, Marcio L",
+        "short_name": "Acencio ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim NO-7491, Norway. Electronic address: marcio.acencio@uni.lu."
+        ]
+      },
+      {
+        "full_name": "Ignatchenko, Alex",
+        "short_name": "Ignatchenko A",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, United Kingdom. Electronic address: alexsign@ebi.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Jolma, Arttu",
+        "short_name": "Jolma A",
+        "identifiers": [],
+        "affiliations": [
+          "Donnelly Centre, University of Toronto, Toronto, Ontario M5S 3E1, Canada. Electronic address: arttu.jolma@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Fornes, Oriol",
+        "short_name": "Fornes O",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Molecular Medicine and Therapeutics, Department of Medical Genetics, BC Children's Hospital Research Institute, University of British Columbia, 950 W 28th Ave, Vancouver, British Columbia V5Z 4H4, Canada. Electronic address: oriol@cmmt.ubc.ca."
+        ]
+      },
+      {
+        "full_name": "Kuiper, Martin",
+        "short_name": "Kuiper M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Norwegian University of Science and Technology, Trondheim NO-7491, Norway. Electronic address: martin.kuiper@ntnu.no."
+        ]
+      },
+      {
+        "full_name": "Kulakovskiy, Ivan V",
+        "short_name": "Kulakovskiy IV",
+        "identifiers": [],
+        "affiliations": [
+          "Vavilov Institute of General Genetics, Russian Academy of Sciences, Moscow, 119991, Russia; Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, Moscow 119991, Russia. Electronic address: ivan.kulakovskiy@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Lægreid, Astrid",
+        "short_name": "Lægreid A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim NO-7491, Norway. Electronic address: astrid.lagreid@ntnu.no."
+        ]
+      },
+      {
+        "full_name": "Martin, Maria J",
+        "short_name": "Martin MJ",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, United Kingdom. Electronic address: martin@ebi.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Logie, Colin",
+        "short_name": "Logie C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology Department, Faculty of Science, Radboud University, PO Box 9101, 6500HB Nijmegen, the Netherlands. Electronic address: c.logie@science.ru.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Gene regulatory mechanisms"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Gene Regul Mech"
+    ],
+    "pub_date": "2021 Nov-Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/22 06:00",
+    "fetched_at": "2026-09-28 01:01:25"
+  },
+  "links": {
+    "cites": [
+      "42360433",
+      "42204361",
+      "41959091",
+      "41533575",
+      "41294241",
+      "41203846",
+      "40791429",
+      "40447570",
+      "40359455",
+      "40011791",
+      "39967878",
+      "39857274",
+      "39605530",
+      "38701417",
+      "38347224",
+      "37992291",
+      "37971293",
+      "37962376",
+      "37490428",
+      "37370113",
+      "36333382",
+      "34718729",
+      "34579793",
+      "34070697"
+    ],
+    "refs": [],
+    "similar": [
+      "34673265",
+      "34461313",
+      "34425241",
+      "34697638",
+      "23981286",
+      "27812941",
+      "14681408",
+      "27812947",
+      "27812937",
+      "19744993",
+      "24941002",
+      "26994912",
+      "34389511",
+      "34757206",
+      "26141960",
+      "31895510",
+      "26578589",
+      "23160411",
+      "22123736",
+      "34710644",
+      "27812951",
+      "20885853",
+      "27812934",
+      "23327938",
+      "27076901",
+      "29455577",
+      "23763602",
+      "32525872",
+      "28651001",
+      "28790414",
+      "27871221",
+      "27678076",
+      "20157483",
+      "32728244",
+      "25425037",
+      "15960829",
+      "19884132",
+      "27812948",
+      "24507166",
+      "30407545",
+      "27045823",
+      "24067102",
+      "23842463",
+      "30917779",
+      "30526566",
+      "29379090",
+      "16381908",
+      "34823464",
+      "15865625",
+      "27812944",
+      "22955619",
+      "33170273",
+      "24233776",
+      "21335611",
+      "29390084",
+      "26511083",
+      "24042128",
+      "14681407",
+      "23071802",
+      "23110975",
+      "17062145",
+      "30130573",
+      "27098042",
+      "22080564",
+      "19884168",
+      "25070602",
+      "23933972",
+      "32055858",
+      "29138457",
+      "31340029",
+      "27812932",
+      "17726537",
+      "20215877",
+      "26330221"
+    ],
+    "review": [
+      "34673265",
+      "27812937",
+      "20885853",
+      "29455577"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=HUMAN&id=HS07579",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "ZNF214"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1874-9399(21)00083-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

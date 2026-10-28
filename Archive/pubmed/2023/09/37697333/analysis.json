@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37697333",
+  "title": "Identification of metabolic biomarkers associated with nonalcoholic fatty liver disease.",
+  "authors": "Jiang, Hua; Hu, Yang; Zhang, Zhibo; Chen, Xujia; Gao, Jianpeng",
+  "journal": "Lipids in health and disease",
+  "published_date": "2023-09-12",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过GEO数据筛选NAFLD代谢相关生物标志物，虽构建了含转录因子的调控网络，但核心是疾病诊断标志物而非蛋白质-DNA互作机制，且无AI/物理模拟建模方法。",
+  "abstract": "BACKGROUND: Nonalcoholic fatty liver disease (NAFLD) is the most common liver disease. Metabolism-related genes significantly influence the onset and progression of the disease. Hence, it is necessary to screen metabolism-related biomarkers for the diagnosis and treatment of NAFLD patients. METHODS: GSE48452, GSE63067, and GSE89632 datasets including nonalcoholic steatohepatitis (NASH) and healthy controls (HC) analyzed in this study were retrieved from the Gene Expression Omnibus (GEO) database. First, differentially expressed genes (DEGs) between NASH and HC samples were obtained. Next, metabolism-related DEGs (MR-DEGs) were identified by overlapping DEGs and metabolism-related genes (MRG). Further, a protein-protein interaction (PPI) network was developed to show the interaction among MR-DEGs. Subsequently, the \"Least absolute shrinkage and selection operator regression\" and \"Random Forest\" algorithms were used to screen metabolism-related genes (MRGs) in patients with NAFLD. Next, immune cell infiltration and gene set enrichment analyses (GSEA) were performed on these metabolism-related genes. Finally, the expression of metabolism-related gene was determined at the transcription level. RESULTS: First, 129 DEGs related to NAFLD development were identified among patients with nonalcoholic steatohepatitis (NASH) and healthy control. Next, 18 MR-DEGs were identified using the Venn diagram. Subsequently, four genes, including AMDHD1, FMO1, LPL, and P4HA1, were identified using machine learning algorithms. Moreover, a regulatory network consisting of four genes, 25 microRNAs (miRNAs), and 41 transcription factors (TFs) was constructed. Finally, a significant increase in FMO1 and LPL expression levels and a decrease in AMDHD1 and P4HA1 expression levels were observed in patients in the NASH group compared to the HC group. CONCLUSION: Metabolism-related genes associated with NAFLD were identified, containing AMDHD1, FMO1, LPL, and P4HA1, which provide insights into diagnosing and treating patients with NAFLD.",
+  "abstract_zh": "背景：非酒精性脂肪性肝病（NAFLD）是最常见的肝脏疾病。代谢相关基因显著影响该疾病的发生和发展。因此，有必要筛选代谢相关生物标志物，用于NAFLD患者的诊断和治疗。方法：本研究分析了从基因表达综合（GEO）数据库获取的GSE48452、GSE63067和GSE89632数据集，其中包括非酒精性脂肪性肝炎（NASH）和健康对照（HC）。首先，获得NASH与HC样本之间的差异表达基因（DEGs）。接下来，通过重叠DEGs和代谢相关基因（MRG）鉴定代谢相关DEGs（MR-DEGs）。进一步，构建蛋白质-蛋白质相互作用（PPI）网络以展示MR-DEGs之间的相互作用。随后，使用“最小绝对收缩和选择算子回归”和“随机森林”算法筛选NAFLD患者中的代谢相关基因（MRGs）。接着，对这些代谢相关基因进行免疫细胞浸润和基因集富集分析（GSEA）。最后，在转录水平上确定代谢相关基因的表达。结果：首先，在非酒精性脂肪性肝炎（NASH）患者和健康对照中鉴定出129个与NAFLD发展相关的DEGs。接下来，使用维恩图鉴定出18个MR-DEGs。随后，通过机器学习算法识别出四个基因，包括AMDHD1、FMO1、LPL和P4HA1。此外，构建了一个由四个基因、25个微小RNA（miRNAs）和41个转录因子（TFs）组成的调控网络。最后，与HC组相比，NASH组患者中观察到FMO1和LPL表达水平显著升高，而AMDHD1和P4HA1表达水平降低。结论：鉴定了与NAFLD相关的代谢相关基因，包括AMDHD1、FMO1、LPL和P4HA1，这些为NAFLD患者的诊断和治疗提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37697333/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37697333/",
+  "paper_page_path": "papers/pubmed/37697333/index.html"
+}

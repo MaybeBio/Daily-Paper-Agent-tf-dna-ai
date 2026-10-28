@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text and abstract
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided text
+- **Shared manuscript claim summary** The authors use all-atom steered molecular dynamics (SMD) and coarse-grained alchemical simulations to compare mRNA binding affinity to the 40S ribosome in the absence and presence of SARS-CoV-2 NSP1. They report that NSP1 dramatically increases mRNA binding affinity, that electrostatic interactions dominate this process, that water molecules stabilize the complexes, and they identify specific NSP1 residues critical for translation arrest.
+- **Visible evidence base** Abstract, main text sections (Building two complexes, Hydrogen bonds and non-bonded contacts, Binding affinity of mRNA to 40S ribosome: SMD simulations, NSP1 binding to 40S ribosome reduces the electrostatic and vdW interaction energies, Water molecules stabilize the systems, Important NSP1 residues, Binding free energy of mRNA to the 40S ribosome: Alchemical simulations, Conclusion), Supporting Information figure and table legends
+- **Missing materials affecting confidence** Full methods details in Supporting Information, actual figures and tables, simulation parameter files, force field validation details, experimental comparison data, and statistical analysis details
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important biological question regarding the molecular mechanism of SARS-CoV-2 NSP1-mediated translation inhibition. The computational approach combining SMD and alchemical simulations is appropriate in principle, but several technical concerns and incomplete reporting limit the strength of the conclusions. The central claim that NSP1 dramatically increases mRNA binding affinity to the 40S ribosome is supported by the presented simulation data, but the magnitude of the reported effects and the interpretation of electrostatic interactions require careful scrutiny. The identification of specific NSP1 residues is potentially valuable but needs stronger validation.
+- **Who would be interested in the results, and why** Structural biologists and computational biophysicists studying virus-host interactions, particularly those focused on SARS-CoV-2 molecular mechanisms. Researchers investigating translation regulation and ribosome function would also find the results relevant. The identification of specific NSP1 residues could inform drug design efforts targeting NSP1, making the work of interest to medicinal chemists and virologists.
+- **Major strengths** The study addresses a significant unresolved question about NSP1 function using complementary computational methods. The combination of SMD and alchemical simulations provides a reasonable approach to estimate relative and absolute binding affinities. The authors compare their results with experimental data, which strengthens the biological relevance. The identification of specific residues at the NSP1-mRNA interface offers testable predictions for experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that NSP1 binding to the 40S ribosome dramatically increases the binding affinity of mRNA, which suggests that NSP1 can stall mRNA translation.
+  - **Evidence pointer** Figure 2, Table 1, Section "Binding affinity of mRNA to 40S ribosome: SMD simulations"
+  - **Concern** The SMD simulations report extremely high forces (F max = 7875 pN for mRNA-40S-NSP1) and work values (W = 10175 kcal/mol) that are physically unrealistic for biomolecular interactions. These values are several orders of magnitude larger than typical non-covalent binding free energies. The non-equilibrium work values suggest that the pulling protocol may be causing non-physical deformation or that the system setup is problematic. The authors do not discuss whether the simulations were performed at equilibrium or whether the Jarzynski equality or similar methods were properly applied to extract free energies from non-equilibrium work.
+  - **Why it matters** If the simulation protocol produces unrealistic forces and work values, the derived binding free energies and the conclusion that NSP1 dramatically increases mRNA binding affinity may be artifacts of the methodology rather than genuine physical effects. This undermines the central claim of the paper.
+  - **Resolution test** The authors should provide validation of their SMD protocol, including convergence tests, comparison with equilibrium free energy methods, and demonstration that the pulling speed does not significantly affect the results. They should also report the actual free energy values in kcal/mol with appropriate error estimates and compare them with known experimental binding affinities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that electrostatic interactions prevail over van der Waals interactions and that the positive total interaction energy is due to repulsion between negatively charged components.
+  - **Evidence pointer** Figure 3, Table 2, Section "NSP1 binding to 40S ribosome reduces the electrostatic and vdW interaction energies"
+  - **Concern** The reported electrostatic interaction energies are positive and extremely large (ΔE elec = 125493 kcal/mol for mRNA-40S). This is physically counterintuitive for a stable complex. The authors attribute this to repulsion between negatively charged species, but this interpretation is problematic. If the total interaction energy is positive, the complex should be unstable, yet the authors claim it is stabilized by water molecules. The decomposition of interaction energies in this manner may be misleading without proper treatment of solvation effects and long-range electrostatics.
+  - **Why it matters** The claim that electrostatic interactions drive mRNA translation is a key conclusion of the paper. If the energy decomposition is flawed or misinterpreted, this conclusion is not supported. The positive total interaction energy contradicts the existence of a stable bound state and requires more careful analysis.
+  - **Resolution test** The authors should provide a more rigorous energy decomposition that includes solvation free energies, properly accounts for long-range electrostatics, and demonstrates that the bound state is thermodynamically stable. They should also compare their interaction energies with those obtained from more reliable methods such as MM-PBSA or thermodynamic integration.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that alchemical simulations using the coarse-grained MARTINI model provide absolute binding free energies that confirm the SMD results.
+  - **Evidence pointer** Table 3, Section "Binding free energy of mRNA to the 40S ribosome: Alchemical simulations"
+  - **Concern** The alchemical simulations were performed using the MARTINI coarse-grained model, which is known to have limitations in reproducing accurate binding free energies, particularly for charged systems. The authors report a binding free energy for mRNA-40S that is "very close to the experimental value of −10.7±0.1 kcal/mol," but the actual computed value is not stated in the text. The manuscript does not provide sufficient details about the alchemical protocol, including the number of intermediate states, the treatment of electrostatic interactions, or the convergence criteria.
+  - **Why it matters** The alchemical simulations are presented as providing absolute binding free energies that support the SMD results. If the methodology is not properly described or validated, the reliability of these results cannot be assessed. The claim of agreement with experiment is central to the paper's credibility.
+  - **Resolution test** The authors should report the actual computed binding free energy values with error bars, provide details of the alchemical protocol, and demonstrate convergence. They should also discuss the known limitations of the MARTINI model for this type of calculation and justify its use.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that specific NSP1 residues (Asp156, Phe157, Gln158, Glu159, Asn160, Trp161, Asn162) play a key role in triggering translation arrest.
+  - **Evidence pointer** Figure 4, Section "Important NSP1 residues"
+  - **Concern** The identification of critical residues is based solely on per-residue interaction energy calculations from SMD simulations. The authors do not perform any mutational analysis or alanine scanning to validate the functional importance of these residues. The energy values are reported without statistical significance testing, and the relationship between interaction energy and functional importance is not established.
+  - **Why it matters** The identification of specific residues is potentially the most actionable finding of the paper for experimentalists. Without validation or at least a more rigorous analysis, these predictions may be unreliable and could mislead experimental efforts.
+  - **Resolution test** The authors should perform alanine scanning or in silico mutations to test the effect of these residues on binding affinity. They should also provide error estimates for the per-residue energies and discuss the limitations of this approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that NSP1 binding "dramatically increases the binding affinity of mRNA" but does not provide quantitative values. The term "dramatically" is vague and not supported by specific numbers in the abstract.
+  - **Required correction** Include quantitative binding free energy values or fold-changes in the abstract to support the claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** Section "Building two complexes"
+  - **Issue** The manuscript states that the mRNA was "mechanically inserted" into the complexes and that the systems were equilibrated using a combination of coarse-grained and all-atom simulations. The details of this procedure are not provided in the main text, and the Supporting Information is not available for review.
+  - **Required correction** Provide a more detailed description of the system preparation and equilibration protocol in the main text or ensure the Supporting Information contains all necessary details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2, Section "Binding affinity of mRNA to 40S ribosome: SMD simulations"
+  - **Issue** The manuscript reports that results were "averaged over 10 independent simulations" but does not provide information about the spread of individual trajectories or whether any trajectories were excluded.
+  - **Required correction** Report the standard deviation or confidence intervals for all averaged quantities and discuss any outliers or failed trajectories.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Water molecules stabilize the systems"
+  - **Evidence pointer** Section "Water molecules stabilize the systems"
+  - **Issue** The section is very brief and does not provide a clear explanation of how water molecules stabilize the complexes. The total energy with water is reported in Table S2, but the main text does not discuss the physical mechanism.
+  - **Required correction** Expand this section to explain the role of water molecules in stabilizing the complexes and how this relates to the overall binding mechanism.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Binding free energy of mRNA to the 40S ribosome: Alchemical simulations"
+  - **Evidence pointer** Table 3, Section "Binding free energy of mRNA to the 40S ribosome: Alchemical simulations"
+  - **Issue** The manuscript states that results for three time windows are similar "within error bars," but the actual error bars are not reported in the main text.
+  - **Required correction** Report the computed binding free energies with their associated uncertainties for all time windows.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unrealistic SMD forces and work values), R1-M2 (problematic electrostatic energy interpretation), R1-M3 (incomplete alchemical simulation details and validation)
+- **Assessment against Nature-style criteria** Originality: The study addresses a relevant question but builds on prior experimental work and a previous computational study by Borišek et al. The computational approach is not novel in itself. Scientific importance: The question of how NSP1 inhibits translation is important for understanding SARS-CoV-2 pathogenesis, but the incremental advance over existing knowledge is modest. Interdisciplinary readership: The work may appeal to computational biologists, virologists, and structural biologists, but the technical nature and lack of experimental validation limit broader appeal. Technical soundness: Significant concerns about the simulation methodology and energy analysis undermine confidence in the conclusions. Readability for nonspecialists: The manuscript is generally readable but lacks sufficient context for non-experts in computational biology.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims require substantial additional validation and clarification of the methodology before the conclusions can be accepted.
+
+## Risk / unsupported claims
+- The claim that NSP1 binding "dramatically increases" mRNA binding affinity is not quantitatively supported in the abstract or main text with appropriate free energy values.
+- The identification of specific NSP1 residues as critical for translation arrest is based on unvalidated computational predictions without experimental or mutational support.
+- The claim that electrostatic interactions drive mRNA translation is based on an energy decomposition that produces physically counterintuitive positive interaction energies.
+- The reported agreement with experimental data is not quantitatively demonstrated in the provided text.
+- The statement that water molecules stabilize the complexes is not supported by a clear mechanistic explanation in the main text.

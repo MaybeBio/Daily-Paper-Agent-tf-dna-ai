@@ -1,0 +1,357 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.19.629547",
+  "title": "Learning a Pairwise Epigenomic and Transcription Factor Binding Association Score Across the Human Genome",
+  "doi": "10.1101/2024.12.19.629547",
+  "abstract": "Identifying pairwise associations between genomic loci is an important challenge for which large and diverse collections of epigenomic and transcription factor (TF) binding data can potentially be informative. We therefore developed Learning Evidence of Pairwise Association from Epigenomic and TF binding data (LEPAE). LEPAE uses neural networks to quantify evidence of association for pairs of genomic windows from large-scale epigenomic and TF binding data along with distance information. We applied LEPAE using thousands of human datasets. We present evidence using additional data that LEPAE captures biologically meaningful pairwise relationships between genomic loci and expect LEPAE scores to be a resource.",
+  "authors": [
+    "Soo Bin Kwon",
+    "Jason Ernst"
+  ],
+  "published_date": "2024-12-22",
+  "updated_date": "2025-01-01T12:45:01Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629547",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629547.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:56:53Z",
+        "timestamp": 1782280613355,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            22
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 30,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                22
+              ]
+            ],
+            "date-time": "2024-12-22T00:00:00Z",
+            "timestamp": 1734825600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Identifying pairwise associations between genomic loci is an important challenge for which large and diverse collections of epigenomic and transcription factor (TF) binding data can potentially be informative. We therefore developed Learning Evidence of Pairwise Association from Epigenomic and TF binding data (LEPAE). LEPAE uses neural networks to quantify evidence of association for pairs of genomic windows from large-scale epigenomic and TF binding data along with distance information. We applied LEPAE using thousands of human datasets. We present evidence using additional data that LEPAE captures biologically meaningful pairwise relationships between genomic loci and expect LEPAE scores to be a resource.</jats:p>",
+      "DOI": "10.1101/2024.12.19.629547",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T12:45:01Z",
+        "timestamp": 1735735501000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Learning a Pairwise Epigenomic and Transcription Factor Binding Association Score Across the Human Genome"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Soo Bin",
+          "family": "Kwon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4026-7853",
+          "authenticated-orcid": false,
+          "given": "Jason",
+          "family": "Ernst",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gazal, S. et al. Combining SNP-to-gene linking strategies to identify disease genes and assess disease omnigenicity. Nat Genet 54, (2022).",
+          "DOI": "10.1038/s41588-022-01087-y"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09906"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1308-x"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11232"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lieberman-Aiden, E. et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science (1979) 326, (2009).",
+          "DOI": "10.1126/science.1181369"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3286"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.11.021"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.164079.113"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1320308111"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-22653-8"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, J. et al. Learning functional conservation between human and pig to decipher evolutionary mechanisms underlying gene expression and complex traits. Cell Genomics 3, (2023).",
+          "DOI": "10.1101/2023.01.13.523857"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Roces, V. , Guerrero, S. , Alvarez, A. , Pascual, J. & Meijon, M . PlantFUNCO: Integrative Functional Genomics Database Reveals Clues into Duplicates Divergence Evolution. Mol Biol Evol 41, (2024).",
+          "DOI": "10.1093/molbev/msae042"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bromley, J. , Guyon, I. , LeCun, Y. , Säckinger, E. & Shah, R. Signature verification using a ‘Siamese’ time delay neural network. in Proceedings of the Advances in Neural Information Processing Systems 737–744 (1994).",
+          "DOI": "10.1142/9789812797926_0003"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1906"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3157"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14248"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-021-02572-z"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, G. , Sarkar, A. , Carbonetto, P. & Stephens, M . A simple new approach to variable selection in regression, with application to genetic fine mapping. J R Stat Soc Series B Stat Methodol 82, (2020).",
+          "DOI": "10.1111/rssb.12388"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Benner, C. et al. FINEMAP: Efficient variable selection using summary data from genome-wide association studies. Bioinformatics 32, (2016).",
+          "DOI": "10.1101/027342"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kanai, M. et al. Insights from complex trait fine-mapping across diverse populations. medRxiv (2021).",
+          "DOI": "10.1101/2021.09.03.21262975"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kanai, M. et al. Meta-analysis fine-mapping is often miscalibrated at single-variant resolution. Cell Genomics 2, (2022).",
+          "DOI": "10.1101/2022.03.16.22272457"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1087"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-29697-4"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, Y. et al. The 3D Genome Browser: A web-based browser for visualizing 3D genome organization and long-range chromatin interactions. Genome Biol 19, (2018).",
+          "DOI": "10.1186/s13059-018-1519-9"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hinrichs, A. S. et al. The UCSC Genome Browser Database: update 2006. Nucleic Acids Res 34, (2006).",
+          "DOI": "10.1093/nar/gkj144"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.27",
+          "unstructured": "Paszke, A. , et al. Automatic differentiation in PyTorch. in Neural Information Processing Systems Autodiff Workshop (2017)."
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.28",
+          "unstructured": "Pedregosa, F. et al. Scikit-learn : Machine Learning in Python. Journal of Machine Learning Research (2011)."
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1095"
+        },
+        {
+          "key": "2025011301405909000_2024.12.19.629547v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2015.07.012"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.19.629547",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:04:31Z",
+        "timestamp": 1782277471000
+      },
+      "score": 121.82231,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.12.19.629547"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            22
+          ]
+        ]
+      },
+      "references-count": 30,
+      "URL": "https://doi.org/10.1101/2024.12.19.629547",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btag024",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

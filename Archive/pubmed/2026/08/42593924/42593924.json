@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "42593924",
+    "doi": "10.1021/acs.jmedchem.6c01790",
+    "title": "Toxicological Knowledge-Guided Graph Learning for Interpretable and Generalizable Molecular Toxicity Prediction."
+  },
+  "content": {
+    "abstract": "Early identification of toxic liabilities is essential for improving drug safety and reducing attrition. However, structure-based deep learning models often generalize poorly to new chemical scaffolds and provide limited biological mechanistic insight. To address this, we introduce Toxicological Knowledge-guided Graph-based Learning (TKGL), a multiview framework that integrates molecular graphs with substructural alerts and biological mechanism information. TKGL leverages an attention mechanism for interpretable prioritization of toxicity-relevant substructures and biological events. Contrastive learning further aligns heterogeneous chemical and biological information spaces, while domain adaptation robustly enhances generalization under stringent scaffold-dissimilar splits. Across 37 toxicity data sets, TKGL performs favorably against 11 state-of-the-art models. Interpretability analyses confirm that TKGL identifies mechanistically meaningful features, exemplified by the discovery of two potential hepatotoxicity pathways involving p53 and PPARg. Overall, TKGL establishes a new paradigm for toxicity prediction, unifying chemical structure and biological behavior for more accurate, interpretable, and generalizable chemical safety assessment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Tumor Suppressor Protein p53/metabolism",
+      "*Deep Learning",
+      "PPAR gamma/metabolism",
+      "*Drug-Related Side Effects and Adverse Reactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duan, Yanjing",
+        "Chen, Woruo",
+        "Li, Kun",
+        "Shi, Shaohua",
+        "Duan, Jilong",
+        "Ma, Xinqian",
+        "Jiang, Dejun",
+        "Liu, Jin",
+        "Deng, Youchao",
+        "Gu, Xinyu",
+        "Kang, Fenghua",
+        "Lu, Aiping",
+        "Cao, Dongsheng"
+      ],
+      "short_names": [
+        "Duan Y",
+        "Chen W",
+        "Li K",
+        "Shi S",
+        "Duan J",
+        "Ma X",
+        "Jiang D",
+        "Liu J",
+        "Deng Y",
+        "Gu X",
+        "Kang F",
+        "Lu A",
+        "Cao D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5031-5666",
+        "ORCID: 0009-0006-2781-6861",
+        "ORCID: 0000-0002-2035-5074",
+        "ORCID: 0000-0003-3604-3785"
+      ],
+      "affiliations": [
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+        "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+        "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duan, Yanjing",
+        "short_name": "Duan Y",
+        "identifiers": [
+          "0000-0001-5031-5666"
+        ],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+          "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+          "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Woruo",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Kun",
+        "short_name": "Li K",
+        "identifiers": [
+          "0009-0006-2781-6861"
+        ],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Shi, Shaohua",
+        "short_name": "Shi S",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+          "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+          "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Duan, Jilong",
+        "short_name": "Duan J",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xinqian",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+          "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+          "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Dejun",
+        "short_name": "Jiang D",
+        "identifiers": [
+          "0000-0002-2035-5074"
+        ],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jin",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+          "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Deng, Youchao",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Gu, Xinyu",
+        "short_name": "Gu X",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Kang, Fenghua",
+        "short_name": "Kang F",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lu, Aiping",
+        "short_name": "Lu A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+          "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Cao, Dongsheng",
+        "short_name": "Cao D",
+        "identifiers": [
+          "0000-0003-3604-3785"
+        ],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha410013, Hunan, P. R. China.",
+          "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China.",
+          "Institute of Systems Medicine and Health Sciences, School of Chinese Medicine, Hong Kong Baptist University, Kowloon999077, Hong Kong SAR, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2026 Aug 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 21:31",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42593924",
+      "42159741",
+      "42278238",
+      "42475469",
+      "41735233",
+      "41839829",
+      "41846970",
+      "41251678",
+      "40393046",
+      "37561655",
+      "41596767",
+      "41633195",
+      "41037779",
+      "37562046",
+      "41697921",
+      "39423703",
+      "41304505",
+      "42420390",
+      "40830654",
+      "41687302",
+      "40168218",
+      "41540516",
+      "41225642",
+      "41299450",
+      "41052279",
+      "38702021",
+      "40795814",
+      "39749659",
+      "38291362",
+      "42473237",
+      "41364795",
+      "38365583",
+      "40410523",
+      "37453376",
+      "41812926",
+      "42304175",
+      "41481073",
+      "42391027",
+      "41441912",
+      "41161095",
+      "41924825",
+      "41473273",
+      "42383371",
+      "41838774",
+      "39921889",
+      "30591036",
+      "41729823",
+      "40326886",
+      "41982040",
+      "40309751",
+      "41547391",
+      "41021261",
+      "42542678",
+      "40796376",
+      "42185919",
+      "40919587",
+      "39421969",
+      "41046705",
+      "42070862",
+      "40354410",
+      "39150724",
+      "38967119",
+      "41789561",
+      "41881288",
+      "42226315",
+      "40615494",
+      "41287087",
+      "37656647",
+      "35994925",
+      "42429765",
+      "37764319",
+      "42146907",
+      "42021142",
+      "40529180",
+      "38724920",
+      "41795367",
+      "41576687",
+      "40127181",
+      "39437275",
+      "41260779",
+      "41617662",
+      "40056540",
+      "38516950",
+      "42089414",
+      "35940592",
+      "40369624",
+      "40138848",
+      "42479529",
+      "42129298",
+      "34756221",
+      "42487908",
+      "41901224",
+      "41195325",
+      "41802299",
+      "38564358",
+      "41730012",
+      "32783631",
+      "40903750",
+      "39899688",
+      "41201272"
+    ],
+    "review": [
+      "42593924",
+      "37561655",
+      "37562046",
+      "41052279",
+      "41812926",
+      "42070862",
+      "39150724"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.6c01790",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

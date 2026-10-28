@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39953122",
+  "title": "Identification of biomarkers associated with phagocytosis regulatory factors in coronary artery disease using machine learning and network analysis.",
+  "authors": "Jia, Runan; Li, Zhiya; Du, Yingying; Liu, Huixian; Liang, Ruirui",
+  "journal": "Mammalian genome : official journal of the International Mammalian Genome Society",
+  "published_date": "2025-02-15",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习识别冠心病吞噬调节因子相关生物标志物，仅涉及转录因子水平预测的网络分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Coronary artery disease (CAD) is the leading cause of death worldwide, and aberrant phagocytosis may be involved in its development. Understanding this aspect may provide new avenues for prompt CAD diagnosis. METHODS: CAD-related information was obtained from Gene Expression Omnibus datasets GSE66360, GSE113079, and GSE59421. We identified 995 upregulated and 1086 downregulated differentially expressed genes (DEGs) in GSE66360. Weighted gene co-expression network analysis revealed a module of 503 genes relevant to CAD. Using clusterProfiler, we revealed 32 CAD-related PRFs. Eight candidate genes were identified in a protein-protein interaction network. Machine learning algorithms identified CAD biomarkers that underwent gene set enrichment analysis, immune cell analysis with CIBERSORT, microRNA (miRNA) prediction using the miRWalk database, transcription factor (TF) level predication through ChEA3, and drug prediction with DGIdb. Cytoscape visualized the miRNA -mRNA- TF, miRNA-single nucleotide polymorphism-mRNA, and biomarker-drug networks. RESULTS: IL1B, TLR2, FCGR2A, SYK, FCER1G, and HCK were identified as CAD biomarkers. The area under the curve of a diagnostic model based on the six biomarkers was > 0.7 for the GSE66360 and GSE113079 datasets. Gene set enrichment analysis revealed differences in their biological pathways. CIBERSORT revealed that 10 immune cell types were differentially expressed between the CAD and control groups. The TF-mRNA-miRNA network showed that has-miR-1207-5p regulates HCK and FCER1G expression and that RUNX1 and SPI may be important TFs. Ninety-five drugs were predicted, including aspirin, which influenced ILIB and FCERIG. CONCLUSION: In this study, six biomarkers (IL1B, TLR2, FCGR2A, SYK, FCER1G, and HCK) related to CAD phagocytic regulatory factors were identified, and their expression regulatory relationships in CAD were further studied, providing a deeper understanding of the pathogenesis, diagnosis, and potential treatment strategies of CAD.",
+  "abstract_zh": "背景：冠状动脉疾病（CAD）是全球死亡的主要原因，异常吞噬作用可能参与其发展。理解这一方面可能为CAD的及时诊断提供新途径。方法：从Gene Expression Omnibus数据集GSE66360、GSE113079和GSE59421中获取CAD相关信息。我们在GSE66360中鉴定了995个上调和1086个下调的差异表达基因（DEGs）。加权基因共表达网络分析揭示了一个与CAD相关的503个基因模块。使用clusterProfiler，我们发现了32个与CAD相关的吞噬调节因子（PRFs）。在蛋白质-蛋白质相互作用网络中鉴定出8个候选基因。机器学习算法识别出CAD生物标志物，随后进行了基因集富集分析、使用CIBERSORT进行免疫细胞分析、通过miRWalk数据库预测microRNA（miRNA）、通过ChEA3预测转录因子（TF）水平，以及使用DGIdb进行药物预测。Cytoscape可视化了miRNA-mRNA-TF、miRNA-单核苷酸多态性-mRNA和生物标志物-药物网络。结果：IL1B、TLR2、FCGR2A、SYK、FCER1G和HCK被鉴定为CAD生物标志物。基于这六个生物标志物的诊断模型在GSE66360和GSE113079数据集中的曲线下面积>0.7。基因集富集分析揭示了其生物学途径的差异。CIBERSORT显示，CAD组和对照组之间有10种免疫细胞类型差异表达。TF-mRNA-miRNA网络显示，has-miR-1207-5p调节HCK和FCER1G的表达，RUNX1和SPI可能是重要的转录因子。预测了95种药物，包括阿司匹林，其影响IL1B和FCER1G。结论：在本研究中，鉴定了六个与CAD吞噬调节因子相关的生物标志物（IL1B、TLR2、FCGR2A、SYK、FCER1G和HCK），并进一步研究了它们在CAD中的表达调控关系，为CAD的发病机制、诊断和潜在治疗策略提供了更深入的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39953122/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39953122/",
+  "paper_page_path": "papers/pubmed/39953122/index.html"
+}

@@ -1,0 +1,208 @@
+{
+  "identity": {
+    "pmid": "41643219",
+    "doi": "10.1088/2057-1976/ae4239",
+    "title": "Enhancing transcription factor regulatory network analysis through data balancing and representation learning."
+  },
+  "content": {
+    "abstract": "Transcription factor (TF) and target gene interactions are pivotal in gene regulatory networks, influencing molecular biology and disease mechanisms, particularly cancer. Dysregulated TFs contribute to aberrant gene expression, driving tumor progression. While experimental methods like ChIP-seq and RNA-seq provide valuable insights, their high cost and scalability constraints necessitate computational alternatives. Machine learning offers promising solutions, yet data imbalance remains a major challenge affecting predictive accuracy. This study introduces a novel approach integrating K-means++ clustering with a data balancing strategy to enhance TF-target interaction prediction. By selecting low-frequency TFs within clusters based on an inverse information principle, our method mitigates data bias and improves model generalization. Additionally, we incorporate deep learning with random walk sampling and skip-gram embeddings to extract informative representations of heterogeneous biological networks. Experimental results using five-fold cross-validation demonstrate superior performance, achieving an average AUC of 0.9452 +/- 0.0047. Our framework enhances predictive accuracy while addressing data imbalance, offering significant applications in molecular biology and biomedical research for TF-target gene discovery and therapeutic development.",
+    "keywords": [
+      "K-means",
+      "K-means++",
+      "TF regulatory interactions",
+      "data imbalance handling",
+      "heterogeneous biological networks",
+      "meta-path"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Transcription Factors/metabolism/genetics",
+      "Humans",
+      "Representation Machine Learning",
+      "Algorithms",
+      "*Computational Biology/methods",
+      "Clustering Algorithms",
+      "*Machine Learning",
+      "Cluster Analysis",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dang, Xuan Tho"
+      ],
+      "short_names": [
+        "Dang XT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7654-5942"
+      ],
+      "affiliations": [
+        "Academy of Policy and Development, Hanoi City, Vietnam."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dang, Xuan Tho",
+        "short_name": "Dang XT",
+        "identifiers": [
+          "0000-0002-7654-5942"
+        ],
+        "affiliations": [
+          "Academy of Policy and Development, Hanoi City, Vietnam."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedical physics & engineering express"
+    ],
+    "journal_abbrev": [
+      "Biomed Phys Eng Express"
+    ],
+    "pub_date": "2026 Feb 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/05 19:05",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41643219",
+      "41729651",
+      "41288963",
+      "40914877",
+      "40251476",
+      "41662352",
+      "23497388",
+      "38354497",
+      "39679439",
+      "41896196",
+      "40662821",
+      "32054475",
+      "39062480",
+      "18426580",
+      "40461636",
+      "41042660",
+      "40853813",
+      "38342857",
+      "41555486",
+      "42059479",
+      "24564939",
+      "41642902",
+      "38980373",
+      "29187152",
+      "42334640",
+      "41957161",
+      "22456606",
+      "41643202",
+      "41450215",
+      "25707768",
+      "39527186",
+      "41310253",
+      "41782896",
+      "38715516",
+      "41050338",
+      "31857203",
+      "39256197",
+      "38653489",
+      "39401117",
+      "24228871",
+      "41006883",
+      "41043336",
+      "41465103",
+      "38950180",
+      "24565265",
+      "32174324",
+      "31660848",
+      "30547796",
+      "30953525",
+      "41033661",
+      "41052072",
+      "40654959",
+      "41527527",
+      "39602828",
+      "40062616",
+      "39953122",
+      "41805524",
+      "41206950",
+      "39082647",
+      "34962260",
+      "42261796",
+      "39062464",
+      "14555624",
+      "39789329",
+      "34864886",
+      "39142001",
+      "37803124",
+      "41191468",
+      "41917934",
+      "40328901",
+      "40359678",
+      "21496241",
+      "39804102",
+      "32207875",
+      "41544912",
+      "41527853",
+      "37085776",
+      "39535258",
+      "38490467",
+      "39487083",
+      "38451769",
+      "41882521",
+      "19594885",
+      "33037196",
+      "19956545",
+      "31340985",
+      "33169146",
+      "31372637",
+      "31881824",
+      "39697339",
+      "40679953",
+      "16362910",
+      "40102719",
+      "28234893",
+      "41610586",
+      "20360861",
+      "34750410",
+      "42145197",
+      "29654070",
+      "39376034"
+    ],
+    "review": [
+      "41643219",
+      "38715516",
+      "39804102"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1088/2057-1976/ae4239",
+        "provider": "IOP Publishing Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "39376034",
+    "doi": "10.1093/bib/bbae492",
+    "title": "MultiSC: a deep learning pipeline for analyzing multiomics single-cell data."
+  },
+  "content": {
+    "abstract": "Single-cell technologies enable researchers to investigate cell functions at an individual cell level and study cellular processes with higher resolution. Several multi-omics single-cell sequencing techniques have been developed to explore various aspects of cellular behavior. Using NEAT-seq as an example, this method simultaneously obtains three kinds of omics data for each cell: gene expression, chromatin accessibility, and protein expression of transcription factors (TFs). Consequently, NEAT-seq offers a more comprehensive understanding of cellular activities in multiple modalities. However, there is a lack of tools available for effectively integrating the three types of omics data. To address this gap, we propose a novel pipeline called MultiSC for the analysis of MULTIomic Single-Cell data. Our pipeline leverages a multimodal constraint autoencoder (single-cell hierarchical constraint autoencoder) to integrate the multi-omics data during the clustering process and a matrix factorization-based model (scMF) to predict target genes regulated by a TF. Moreover, we utilize multivariate linear regression models to predict gene regulatory networks from the multi-omics data. Additional functionalities, including differential expression, mediation analysis, and causal inference, are also incorporated into the MultiSC pipeline. Extensive experiments were conducted to evaluate the performance of MultiSC. The results demonstrate that our pipeline enables researchers to gain a comprehensive view of cell activities and gene regulatory networks by fully leveraging the potential of multiomics single-cell data. By employing MultiSC, researchers can effectively integrate and analyze diverse omics data types, enhancing their understanding of cellular processes.",
+    "keywords": [
+      "Causal inference",
+      "Cell type annotation",
+      "Gene regulatory network",
+      "Mediation analysis",
+      "Multi-omics",
+      "Pathway analysis",
+      "scATAC-seq",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Deep Learning",
+      "Humans",
+      "Transcription Factors/metabolism/genetics",
+      "Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Xiang",
+        "Jiang, Siqi",
+        "Gao, Le",
+        "Wei, Zhi",
+        "Wang, Junwen"
+      ],
+      "short_names": [
+        "Lin X",
+        "Jiang S",
+        "Gao L",
+        "Wei Z",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6059-4267",
+        "ORCID: 0000-0002-4432-4707"
+      ],
+      "affiliations": [
+        "Department of Quantitative Health Sciences, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ 85259, United States.",
+        "Department of Computer Science, New Jersey Institute of Technology, 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States.",
+        "Department of Computer Science, New Jersey Institute of Technology, 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States.",
+        "Department of Quantitative Health Sciences, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ 85259, United States.",
+        "Department of Computer Science, New Jersey Institute of Technology, 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States.",
+        "Department of Computer Science, New Jersey Institute of Technology, 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States.",
+        "Department of Quantitative Health Sciences, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ 85259, United States.",
+        "Center for Individualized Medicine, and Mayo Clinic Comprehensive Cancer Center, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ 85259, United States.",
+        "Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Sai Ying Pun, Hong Kong SAR, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Xiang",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Health Sciences, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ 85259, United States.",
+          "Department of Computer Science, New Jersey Institute of Technology, 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States."
+        ]
+      },
+      {
+        "full_name": "Jiang, Siqi",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, New Jersey Institute of Technology, 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States."
+        ]
+      },
+      {
+        "full_name": "Gao, Le",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Health Sciences, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ 85259, United States.",
+          "Department of Computer Science, New Jersey Institute of Technology, 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States."
+        ]
+      },
+      {
+        "full_name": "Wei, Zhi",
+        "short_name": "Wei Z",
+        "identifiers": [
+          "0000-0001-6059-4267"
+        ],
+        "affiliations": [
+          "Department of Computer Science, New Jersey Institute of Technology, 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Junwen",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-4432-4707"
+        ],
+        "affiliations": [
+          "Department of Quantitative Health Sciences, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ 85259, United States.",
+          "Center for Individualized Medicine, and Mayo Clinic Comprehensive Cancer Center, Mayo Clinic, 13400 E Shea Blvd, Scottsdale, AZ 85259, United States.",
+          "Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Sai Ying Pun, Hong Kong SAR, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Sep 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/08 10:18",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "41750340",
+      "41596454",
+      "39679439"
+    ],
+    "refs": [
+      "36513636",
+      "35120941",
+      "34963480",
+      "34725479",
+      "34244616",
+      "34083792",
+      "33767149",
+      "33589839",
+      "32946839",
+      "32818441",
+      "32814028",
+      "32393329",
+      "32379315",
+      "32353146",
+      "31611697",
+      "30674886",
+      "30504886",
+      "30213730",
+      "29608179",
+      "29409532",
+      "28759029",
+      "28248113",
+      "27150361",
+      "26083756",
+      "25953818",
+      "23658533",
+      "23402885",
+      "23232398",
+      "22922362",
+      "22455463",
+      "21288871",
+      "20709693",
+      "20696860",
+      "19371792",
+      "19362019",
+      "19027001",
+      "18509086",
+      "17700700",
+      "16873662"
+    ],
+    "similar": [
+      "39376034",
+      "38653489",
+      "42475469",
+      "41588477",
+      "42560939",
+      "41093852",
+      "41643202",
+      "40211981",
+      "41632825",
+      "38980373",
+      "41288963",
+      "37682480",
+      "41067887",
+      "39800872",
+      "42243114",
+      "37365273",
+      "39207727",
+      "42074532",
+      "40068854",
+      "36902216",
+      "41744270",
+      "39833103",
+      "38940155",
+      "41805524",
+      "40856525",
+      "40062616",
+      "40116657",
+      "40591481",
+      "41325188",
+      "39062480",
+      "41655240",
+      "39082647",
+      "41385419",
+      "40633682",
+      "41987329",
+      "40442129",
+      "37244909",
+      "39888834",
+      "40210438",
+      "40795161",
+      "40188497",
+      "40251476",
+      "39910206",
+      "41120274",
+      "41437217",
+      "40471991",
+      "34251625",
+      "36600199",
+      "38950180",
+      "33153500",
+      "41834398",
+      "39581871",
+      "40723810",
+      "41896196",
+      "41518505",
+      "41800139",
+      "36157595",
+      "41601671",
+      "37651607",
+      "41734125",
+      "42225598",
+      "40031269",
+      "39504481",
+      "36147664",
+      "41628222",
+      "41139927",
+      "38426141",
+      "41975483",
+      "41931510",
+      "33827925",
+      "41715092",
+      "37725723",
+      "39264790",
+      "36047285",
+      "39708840",
+      "36513636",
+      "40247122",
+      "39404795",
+      "38887194",
+      "39326643",
+      "40662821",
+      "41029754",
+      "40914154",
+      "42378449",
+      "42059479",
+      "39934664",
+      "39704704",
+      "32054475",
+      "40707940",
+      "40622484",
+      "40197174",
+      "39769196",
+      "41926416",
+      "36168811",
+      "41319809",
+      "41283813",
+      "41588648",
+      "33573289",
+      "41716413",
+      "38460192"
+    ],
+    "review": [
+      "39376034",
+      "37365273",
+      "39207727",
+      "42074532",
+      "37651607"
+    ],
+    "pmc": [
+      "11458747"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39376034.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39376034/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae492",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

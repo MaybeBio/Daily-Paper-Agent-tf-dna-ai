@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "41491113",
+    "doi": "10.1038/s43588-025-00934-2",
+    "title": "Decoding cell state transitions driven by dynamic cell-cell communication in spatial transcriptomics."
+  },
+  "content": {
+    "abstract": "In multicellular systems, cell fate determination emerges from the integration of intracellular signaling and intercellular communication. Spatial transcriptomics (ST) provides opportunities to elucidate these regulatory processes, yet inferring the spatiotemporal dynamics of cell state transitions (CSTs) governed by cell-cell communication (CCC) remains a challenge. Here we introduce CCCvelo to reconstruct CCC-driven CST dynamics by jointly optimizing a dynamic CCC signaling network and a latent CST clock. CCCvelo formulates a unified multiscale nonlinear kinetic model that integrates intercellular ligand-receptor signaling gradients with intracellular transcription-factor activation cascades to capture gene expression dynamics encoding CSTs. Moreover, we devise PINN-CELL, a physics-informed neural-network-based coevolution learning algorithm, which simultaneously optimizes model parameters and pseudotemporal ordering. Application of CCCvelo to high-resolution ST datasets, including mouse cortex, embryonic trunk development and human prostate cancer datasets, demonstrates its ability to successfully recover known morphogenetic trajectories while uncovering dynamic CCC signaling rewiring that orchestrates CST progression.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Lulu",
+        "Zhang, Dongyan",
+        "Sun, Xiaoqiang"
+      ],
+      "short_names": [
+        "Yan L",
+        "Zhang D",
+        "Sun X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3399-7260"
+      ],
+      "affiliations": [
+        "School of Mathematics, Sun Yat-sen University, Guangzhou, China.",
+        "School of Mathematics, Sun Yat-sen University, Guangzhou, China.",
+        "School of Mathematics, Sun Yat-sen University, Guangzhou, China. sunxq6@mail.sysu.edu.cn.",
+        "Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China. sunxq6@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Lulu",
+        "short_name": "Yan L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dongyan",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiaoqiang",
+        "short_name": "Sun X",
+        "identifiers": [
+          "0000-0002-3399-7260"
+        ],
+        "affiliations": [
+          "School of Mathematics, Sun Yat-sen University, Guangzhou, China. sunxq6@mail.sysu.edu.cn.",
+          "Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China. sunxq6@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature computational science"
+    ],
+    "journal_abbrev": [
+      "Nat Comput Sci"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/06 13:06",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [
+      "42704267",
+      "42491402",
+      "42249125"
+    ],
+    "refs": [],
+    "similar": [
+      "41491113",
+      "41542523",
+      "39155292",
+      "41159728",
+      "40262896",
+      "39679382",
+      "36690742",
+      "40577399",
+      "38500834",
+      "40321215",
+      "39904341",
+      "40179878",
+      "38812530",
+      "36147664",
+      "41451540",
+      "37827697",
+      "39494219",
+      "40229908",
+      "40149878",
+      "41415381",
+      "41556263",
+      "34626538",
+      "39187683",
+      "40425827",
+      "41248160",
+      "39975391",
+      "39230711",
+      "41628049",
+      "41282470",
+      "40928910",
+      "38706319",
+      "40948400",
+      "38274364",
+      "39497789",
+      "38827413",
+      "41390348",
+      "40306096",
+      "34463510",
+      "38508302",
+      "39266614",
+      "41626463",
+      "41521668",
+      "40619422",
+      "41342545",
+      "39801521",
+      "41501529",
+      "40877935",
+      "40664156",
+      "35169794",
+      "41237948",
+      "38747737",
+      "41184554",
+      "39993372",
+      "39968356",
+      "40827204",
+      "34858473",
+      "40896262",
+      "41317903",
+      "41313518",
+      "39283594",
+      "41348600",
+      "38327830",
+      "38998388",
+      "39738101",
+      "40980298",
+      "23912807",
+      "41648423",
+      "39570994",
+      "41712686",
+      "40887856",
+      "40701228",
+      "41370630",
+      "30923815",
+      "41730863",
+      "40829806",
+      "40444832",
+      "35191953",
+      "40258830",
+      "40725477",
+      "39715685",
+      "41486374",
+      "40672156",
+      "39804726",
+      "37742712",
+      "41493424",
+      "40597202",
+      "38678389",
+      "41418876",
+      "40862863",
+      "40571903",
+      "41408299",
+      "39554007",
+      "41645434",
+      "28296635",
+      "40055379",
+      "41394607",
+      "38464147",
+      "41542227",
+      "40371462",
+      "37547470"
+    ],
+    "review": [
+      "41491113",
+      "36147664",
+      "40980298",
+      "35191953"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s43588-025-00934-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

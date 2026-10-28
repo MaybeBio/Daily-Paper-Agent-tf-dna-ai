@@ -1,0 +1,125 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.16.628715",
+  "title": "Prediction of Gene Regulatory Connections with Joint Single-Cell Foundation Models and Graph-Based Learning",
+  "doi": "10.1101/2024.12.16.628715",
+  "abstract": "<h4>Motivation</h4> Single-cell RNA sequencing (scRNA-seq) data offers unprecedented opportunities to infer gene regulatory networks (GRNs) at a fine-grained resolution, shedding light on cellular phenotypes at the molecular level. However, the high sparsity, noise, and dropout events inherent in scRNA-seq data pose significant challenges for accurate and reliable GRN inference. The rapid growth in experimentally validated transcription factor-DNA binding data (e.g., ChIP-seq) has enabled supervised machine learning methods, which rely on known gene regulatory interactions to learn patterns, and achieve high accuracy in GRN inference by framing it as a gene regulatory link prediction task. This study addresses the gene regulatory link prediction problem by learning informative vectorized representations at the gene level to predict missing regulatory interactions. However, a higher performance of supervised learning methods requires a large amount of known TF-DNA binding data, which is often experimentally expensive and therefore limited in amount. Advances in large-scale pre-training and transfer learning provide a transformative opportunity to address this challenge. In this study, we leverage large-scale pre-trained models, trained on extensive scRNA-seq datasets and known as single-cell foundation models (scFMs). These models are combined with joint graph-based learning to establish a robust foundation for gene regulatory link prediction. <h4>Results</h4> We propose scRegNet, a novel and effective framework that leverages scFMs with joint graph-based learning for gene regulatory link prediction. scRegNet achieves state-of-the-art results in comparison with nine baseline methods on seven scRNA-seq benchmark datasets. In addition, scRegNet is more robust than the baseline methods on noisy training data. <h4>Availability</h4> The source code is available at https://github.com/sindhura-cs/scRegNet .",
+  "authors": [
+    "Kommu S",
+    "Wang Y",
+    "Wang Y",
+    "Wang X"
+  ],
+  "published_date": "2024-12-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628715",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628715.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR961255",
+    "raw_record": {
+      "id": "PPR961255",
+      "source": "PPR",
+      "doi": "10.1101/2024.12.16.628715",
+      "title": "Prediction of Gene Regulatory Connections with Joint Single-Cell Foundation Models and Graph-Based Learning",
+      "authorString": "Kommu S, Wang Y, Wang Y, Wang X.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kommu S",
+            "lastName": "Kommu",
+            "firstName": "Sindhura",
+            "initials": "S"
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yizhi",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yue",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Wang X",
+            "lastName": "Wang",
+            "firstName": "Xuan",
+            "initials": "X"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Motivation</h4>  Single-cell RNA sequencing (scRNA-seq) data offers unprecedented opportunities to infer gene regulatory networks (GRNs) at a fine-grained resolution, shedding light on cellular phenotypes at the molecular level. However, the high sparsity, noise, and dropout events inherent in scRNA-seq data pose significant challenges for accurate and reliable GRN inference. The rapid growth in experimentally validated transcription factor-DNA binding data (e.g., ChIP-seq) has enabled supervised machine learning methods, which rely on known gene regulatory interactions to learn patterns, and achieve high accuracy in GRN inference by framing it as a gene regulatory link prediction task. This study addresses the gene regulatory link prediction problem by learning informative vectorized representations at the gene level to predict missing regulatory interactions. However, a higher performance of supervised learning methods requires a large amount of known TF-DNA binding data, which is often experimentally expensive and therefore limited in amount. Advances in large-scale pre-training and transfer learning provide a transformative opportunity to address this challenge. In this study, we leverage large-scale pre-trained models, trained on extensive scRNA-seq datasets and known as single-cell foundation models (scFMs). These models are combined with joint graph-based learning to establish a robust foundation for gene regulatory link prediction. <h4>Results</h4>  We propose scRegNet, a novel and effective framework that leverages scFMs with joint graph-based learning for gene regulatory link prediction. scRegNet achieves state-of-the-art results in comparison with nine baseline methods on seven scRNA-seq benchmark datasets. In addition, scRegNet is more robust than the baseline methods on noisy training data. <h4>Availability</h4>  The source code is available at  https://github.com/sindhura-cs/scRegNet .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.16.628715"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.16.628715"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40662821",
+            "reference": "Bioinformatics (Oxford, England). \n    2025 Jul;41(Supplement_1):i619-i627",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-01-02",
+      "firstPublicationDate": "2024-12-20",
+      "firstIndexDate": "2025-01-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

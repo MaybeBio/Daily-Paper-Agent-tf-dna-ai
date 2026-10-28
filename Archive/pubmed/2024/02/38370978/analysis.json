@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38370978",
+  "title": "Construction and evaluation of endometriosis diagnostic prediction model and immune infiltration based on efferocytosis-related genes.",
+  "authors": "Pei, Fang-Li; Jia, Jin-Jin; Lin, Shu-Hong; Chen, Xiao-Xin; Wu, Li-Zheng; Lin, Zeng-Xian; Sun, Bo-Wen; Zeng, Cheng",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2024-02-19",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于胞葬相关基因构建子宫内膜异位症诊断模型并分析免疫浸润，虽涉及转录因子调控网络，但核心是疾病诊断与免疫表型，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Background: Endometriosis (EM) is a long-lasting inflammatory disease that is difficult to treat and prevent. Existing research indicates the significance of immune infiltration in the progression of EM. Efferocytosis has an important immunomodulatory function. However, research on the identification and clinical significance of efferocytosis-related genes (EFRGs) in EM is sparse. Methods: The EFRDEGs (differentially expressed efferocytosis-related genes) linked to datasets associated with endometriosis were thoroughly examined utilizing the Gene Expression Omnibus (GEO) and GeneCards databases. The construction of the protein-protein interaction (PPI) and transcription factor (TF) regulatory network of EFRDEGs ensued. Subsequently, machine learning techniques including Univariate logistic regression, LASSO, and SVM classification were applied to filter and pinpoint diagnostic biomarkers. To establish and assess the diagnostic model, ROC analysis, multivariate regression analysis, nomogram, and calibration curve were employed. The CIBERSORT algorithm and single-cell RNA sequencing (scRNA-seq) were employed to explore immune cell infiltration, while the Comparative Toxicogenomics Database (CTD) was utilized for the identification of potential therapeutic drugs for endometriosis. Finally, immunohistochemistry (IHC) and reverse transcription quantitative polymerase chain reaction (RT-qPCR) were utilized to quantify the expression levels of biomarkers in clinical samples of endometriosis. Results: Our findings revealed 13 EFRDEGs associated with EM, and the LASSO and SVM regression model identified six hub genes (ARG2, GAS6, C3, PROS1, CLU, and FGL2). Among these, ARG2, GAS6, and C3 were confirmed as diagnostic biomarkers through multivariate logistic regression analysis. The ROC curve analysis of GSE37837 (AUC = 0.627) and GSE6374 (AUC = 0.635), along with calibration and DCA curve assessments, demonstrated that the nomogram built on these three biomarkers exhibited a commendable predictive capacity for the disease. Notably, the ratio of nine immune cell types exhibited significant differences between eutopic and ectopic endometrial samples, with scRNA-seq highlighting M0 Macrophages, Fibroblasts, and CD8 Tex cells as the cell populations undergoing the most substantial changes in the three biomarkers. Additionally, our study predicted seven potential medications for EM. Finally, the expression levels of the three biomarkers in clinical samples were validated through RT-qPCR and IHC, consistently aligning with the results obtained from the public database. Conclusion: we identified three biomarkers and constructed a diagnostic model for EM in this study, these findings provide valuable insights for subsequent mechanistic research and clinical applications in the field of endometriosis.",
+  "abstract_zh": "背景：子宫内膜异位症（EM）是一种难以治疗和预防的长期炎症性疾病。现有研究表明免疫浸润在EM进展中的重要性。胞葬作用（efferocytosis）具有重要的免疫调节功能。然而，关于胞葬作用相关基因（EFRGs）在EM中的鉴定及其临床意义的研究尚属稀少。方法：利用基因表达综合数据库（GEO）和GeneCards数据库，对与子宫内膜异位症相关数据集中的EFRDEGs（差异表达的胞葬作用相关基因）进行了全面分析。随后构建了EFRDEGs的蛋白质-蛋白质相互作用（PPI）和转录因子（TF）调控网络。接着，应用机器学习技术，包括单变量逻辑回归、LASSO和SVM分类，来筛选和确定诊断生物标志物。为建立和评估诊断模型，采用了ROC分析、多变量回归分析、列线图和校准曲线。利用CIBERSORT算法和单细胞RNA测序（scRNA-seq）探索免疫细胞浸润，同时利用比较毒物基因组学数据库（CTD）识别子宫内膜异位症的潜在治疗药物。最后，采用免疫组织化学（IHC）和逆转录定量聚合酶链反应（RT-qPCR）来量化临床子宫内膜异位症样本中生物标志物的表达水平。结果：我们的研究发现了13个与EM相关的EFRDEGs，LASSO和SVM回归模型识别出六个核心基因（ARG2、GAS6、C3、PROS1、CLU和FGL2）。其中，通过多变量逻辑回归分析，ARG2、GAS6和C3被确认为诊断生物标志物。GSE37837（AUC = 0.627）和GSE6374（AUC = 0.635）的ROC曲线分析，以及校准和DCA曲线评估，表明基于这三个生物标志物构建的列线图对该疾病表现出良好的预测能力。值得注意的是，九种免疫细胞类型的比例在在位和异位子宫内膜样本之间存在显著差异，scRNA-seq突出显示M0巨噬细胞、成纤维细胞和CD8 Tex细胞是三个生物标志物变化最显著的细胞群体。此外，我们的研究预测了七种针对EM的潜在药物。最后，通过RT-qPCR和IHC验证了临床样本中三个生物标志物的表达水平，与公共数据库获得的结果一致。结论：在本研究中，我们识别了三个生物标志物并构建了EM的诊断模型，这些发现为子宫内膜异位症领域的后续机制研究和临床应用提供了有价值的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38370978/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38370978/",
+  "paper_page_path": "papers/pubmed/38370978/index.html"
+}

@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "41426347",
+    "doi": "10.1109/icip55913.2025.11084625",
+    "title": "MULTIMODAL CELL CONTEXT INSTRUCTION TUNING FOR CONDITIONAL DNA REGULATORY SEQUENCE GENERATION WITH LARGE LANGUAGE MODELS."
+  },
+  "content": {
+    "abstract": "Designing biologically plausible regulatory sequences, such as enhancers, is a key challenge in synthetic biology. Current approaches either classify active enhancers or generate synthetic sequences independently but often fail to address the need for cell-type-specific recruitment of multiple transcription factors (TFs) for effective transcription activation. This oversight leads to suboptimal designs. To overcome these limitations, we propose Leonine, a novel framework redefining enhancer sequence design as a multimodal question-answering task within a cellular context. Leonine utilizes large language models (LLMs) trained on DNA sequences and integrates multimodal cellular data-including promoter sequences, gene expression profiles, and cell type information-to optimize enhancer sequences for specific regulatory environments. A large-scale dataset of over 1.5 million cell-type-specific promoter-enhancer pairs and a robust evaluation benchmark were developed to support this effort. Extensive evaluations across seven cell types demonstrate that Leonine outperforms state-of-the-art LLMs, generating biologically and functionally coherent sequences. This work introduces a new paradigm for context-aware DNA sequence design, advancing research in synthetic biology and gene regulation.",
+    "keywords": [
+      "Discrete Signals",
+      "Multimodal Large Language Models",
+      "Regulatory Sequence Generation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Junhao",
+        "Zhang, Pengpeng",
+        "Xu, Siwei",
+        "Srinivasan, Shushrruth Sai",
+        "Wu, Yongxian",
+        "Zhang, Jing"
+      ],
+      "short_names": [
+        "Liu J",
+        "Zhang P",
+        "Xu S",
+        "Srinivasan SS",
+        "Wu Y",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "University of California, Irvine.",
+        "University of California, Irvine.",
+        "University of California, Irvine.",
+        "University of California, Irvine.",
+        "University of California, Irvine.",
+        "University of California, Irvine."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Junhao",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, Irvine."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pengpeng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, Irvine."
+        ]
+      },
+      {
+        "full_name": "Xu, Siwei",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, Irvine."
+        ]
+      },
+      {
+        "full_name": "Srinivasan, Shushrruth Sai",
+        "short_name": "Srinivasan SS",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, Irvine."
+        ]
+      },
+      {
+        "full_name": "Wu, Yongxian",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, Irvine."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, Irvine."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings. International Conference on Image Processing"
+    ],
+    "journal_abbrev": [
+      "Proc Int Conf Image Proc"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/22 18:09",
+    "fetched_at": "2026-10-01 09:46:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41426347",
+      "42475469",
+      "41862973",
+      "34486522",
+      "36043696",
+      "42434330",
+      "3405222",
+      "23867016",
+      "39322281",
+      "38352499",
+      "38187584",
+      "40199968",
+      "32043966",
+      "36520922",
+      "41478195",
+      "40382355",
+      "41283681",
+      "42094554",
+      "33314144",
+      "32443951",
+      "28716036",
+      "40752409",
+      "42640811",
+      "41905520",
+      "33741075",
+      "40386570",
+      "42185539",
+      "41359545",
+      "30696717",
+      "41861881",
+      "41742185",
+      "41055064",
+      "40775012",
+      "41437153",
+      "39819819",
+      "39184348",
+      "40669074",
+      "41138953",
+      "38086419",
+      "41768065",
+      "42059479",
+      "42009701",
+      "41832145",
+      "35082832",
+      "39131276",
+      "42311233",
+      "42022284",
+      "42109830",
+      "42234579",
+      "40894641",
+      "41554183",
+      "40479778",
+      "30709337",
+      "40472848",
+      "39928922",
+      "41561863",
+      "41880603",
+      "41364806",
+      "26377945",
+      "42400037",
+      "27567672",
+      "41310253",
+      "40560205",
+      "22534400",
+      "40501921",
+      "40658884",
+      "39229027",
+      "40540614",
+      "41696659",
+      "39922842",
+      "42492189",
+      "8413270",
+      "42060707",
+      "23912807",
+      "41256364",
+      "22955984",
+      "38566111",
+      "22412381",
+      "42743039",
+      "35605495",
+      "23732772",
+      "36734516",
+      "38385876",
+      "36693380",
+      "42750043",
+      "34226917",
+      "24714811",
+      "20401945",
+      "40869356",
+      "25035418",
+      "31318408",
+      "28854172",
+      "42184115",
+      "41593145",
+      "39786555",
+      "42448854",
+      "41927666",
+      "42478686",
+      "27026300",
+      "38678389"
+    ],
+    "review": [
+      "41426347",
+      "41862973",
+      "32443951",
+      "41768065",
+      "41554183",
+      "41364806",
+      "42492189",
+      "36693380",
+      "27026300"
+    ],
+    "pmc": [
+      "12718082"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41426347/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

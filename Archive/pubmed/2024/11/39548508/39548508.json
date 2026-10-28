@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "39548508",
+    "doi": "10.1002/pro.5201",
+    "title": "Synchronized motion of interface residues for evaluating protein-RNA complex binding affinity: Application to aptamer-mediated inhibition of TDP-43 aggregates."
+  },
+  "content": {
+    "abstract": "Investigating the binding between proteins and aptamers, such as peptides or RNA molecules, is of crucial importance both for understanding the molecular mechanisms that regulate cellular activities and for therapeutic applications in several pathologies. Here, a new computational procedure, employing mainly docking, clustering analysis, and molecular dynamics simulations, was designed to estimate the binding affinities between a protein and some RNA aptamers, through the investigation of the dynamical behavior of the predicted molecular complex. Using the state-of-the-art software catRAPID, we computationally designed a set of RNA aptamers interacting with the TAR DNA-binding protein 43 (TDP-43), a protein associated with several neurodegenerative diseases, including amyotrophic lateral sclerosis (ALS). We thus devised a computational protocol to predict the RNA-protein molecular complex, so that the structural and dynamical behavior of such a complex can be investigated through extensive molecular dynamics simulation. We hypothesized that the coordinated and synchronized motion of the protein-binding residues, when in contact with RNA molecule, is a critical requisite in order to have a stable binding. Indeed, we calculated the motion covariance exhibited by the interface residues during molecular dynamics simulation: we tested the results against experimental measurements of binding affinity (in this case, the dissociation constant) for six RNA molecules, resulting in a linear correlation of about 0.9. Our findings suggest that the synchronized movement of interface residues plays a pivotal role in ensuring the stability within RNA-protein complexes, moreover providing insights into the contribution of each interface residue. This promising pipeline could thus contribute to the design of RNA aptamers interacting with proteins.",
+    "keywords": [
+      "binding affinity prediction",
+      "computational method",
+      "computational molecular biophysics",
+      "molecular dynamics simulations",
+      "protein-RNA interactions",
+      "synchronized motion"
+    ],
+    "mesh_terms": [
+      "*Aptamers, Nucleotide/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*Protein Binding",
+      "RNA/chemistry/metabolism",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Panei, Francesco Paolo",
+        "Di Rienzo, Lorenzo",
+        "Zacco, Elsa",
+        "Armaos, Alexandros",
+        "Tartaglia, Gian Gaetano",
+        "Ruocco, Giancarlo",
+        "Milanetti, Edoardo"
+      ],
+      "short_names": [
+        "Panei FP",
+        "Di Rienzo L",
+        "Zacco E",
+        "Armaos A",
+        "Tartaglia GG",
+        "Ruocco G",
+        "Milanetti E"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4114-5049",
+        "ORCID: 0000-0002-3046-5170"
+      ],
+      "affiliations": [
+        "Department of Physics, Sapienza University, Rome, Italy.",
+        "Center for Life Nanoscience, Istituto Italiano di Tecnologia, Rome, Italy.",
+        "Center for Life Nanoscience, Istituto Italiano di Tecnologia, Rome, Italy.",
+        "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Genoa, Italy.",
+        "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Genoa, Italy.",
+        "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Genoa, Italy.",
+        "Centre for Genomic Regulation (CRG), Barcelona, Spain.",
+        "Catalan Institution for Research and Advanced Studies, ICREA, Barcelona, Spain.",
+        "Department of Biology 'Charles Darwin', Sapienza University of Rome, Rome, Italy.",
+        "Department of Physics, Sapienza University, Rome, Italy.",
+        "Center for Life Nanoscience, Istituto Italiano di Tecnologia, Rome, Italy.",
+        "Department of Physics, Sapienza University, Rome, Italy.",
+        "Center for Life Nanoscience, Istituto Italiano di Tecnologia, Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Panei, Francesco Paolo",
+        "short_name": "Panei FP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Sapienza University, Rome, Italy.",
+          "Center for Life Nanoscience, Istituto Italiano di Tecnologia, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Rienzo, Lorenzo",
+        "short_name": "Di Rienzo L",
+        "identifiers": [
+          "0000-0003-4114-5049"
+        ],
+        "affiliations": [
+          "Center for Life Nanoscience, Istituto Italiano di Tecnologia, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Zacco, Elsa",
+        "short_name": "Zacco E",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Armaos, Alexandros",
+        "short_name": "Armaos A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Tartaglia, Gian Gaetano",
+        "short_name": "Tartaglia GG",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Genoa, Italy.",
+          "Centre for Genomic Regulation (CRG), Barcelona, Spain.",
+          "Catalan Institution for Research and Advanced Studies, ICREA, Barcelona, Spain.",
+          "Department of Biology 'Charles Darwin', Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Ruocco, Giancarlo",
+        "short_name": "Ruocco G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Sapienza University, Rome, Italy.",
+          "Center for Life Nanoscience, Istituto Italiano di Tecnologia, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Milanetti, Edoardo",
+        "short_name": "Milanetti E",
+        "identifiers": [
+          "0000-0002-3046-5170"
+        ],
+        "affiliations": [
+          "Department of Physics, Sapienza University, Rome, Italy.",
+          "Center for Life Nanoscience, Istituto Italiano di Tecnologia, Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/16 20:04",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "41605259",
+      "41053953"
+    ],
+    "refs": [
+      "38033386",
+      "37186412",
+      "36275618",
+      "35994742",
+      "35739092",
+      "34944548",
+      "34749664",
+      "34265844",
+      "33510441",
+      "33363707",
+      "33068411",
+      "33051572",
+      "32945072",
+      "32269383",
+      "31732673",
+      "31541799",
+      "30926670",
+      "30826182",
+      "30793528",
+      "30742796",
+      "30709880",
+      "30356856",
+      "28935776",
+      "28487370",
+      "28265061",
+      "28225081",
+      "28032625",
+      "27647646",
+      "27289443",
+      "27095203",
+      "26520853",
+      "26412307",
+      "25652699",
+      "24240737",
+      "24240615",
+      "23975767",
+      "23632375",
+      "23527883",
+      "23519609",
+      "23264567",
+      "22155180",
+      "21623348",
+      "21358640",
+      "21300154",
+      "21268114",
+      "20810784",
+      "20691107",
+      "20522253",
+      "20507911",
+      "20478832",
+      "18075575",
+      "17932917",
+      "17492294",
+      "17483510",
+      "17212484",
+      "17023659",
+      "16845003",
+      "15870208",
+      "10984503"
+    ],
+    "similar": [
+      "39548508",
+      "23912807",
+      "34944548",
+      "29279008",
+      "34327241",
+      "42061536",
+      "27545084",
+      "41995416",
+      "36134737",
+      "40702153",
+      "41850140",
+      "39208499",
+      "38466778",
+      "39380150",
+      "39148280",
+      "42496030",
+      "25963836",
+      "30357118",
+      "42446520",
+      "34109652",
+      "35751132",
+      "31241884",
+      "33554306",
+      "42011130",
+      "38748685",
+      "38126188",
+      "30840170",
+      "34227370",
+      "23264567",
+      "41558795",
+      "28793209",
+      "29413905",
+      "32234785",
+      "39354713",
+      "23300771",
+      "28081678",
+      "24497641",
+      "40383336",
+      "39659205",
+      "29866003",
+      "31514688",
+      "26166326",
+      "41688669",
+      "28714502",
+      "33838354",
+      "29738888",
+      "28592206",
+      "34415295",
+      "26370248",
+      "34800084",
+      "38612876",
+      "39390781",
+      "33182550",
+      "38850843",
+      "36841957",
+      "31479821",
+      "41762031",
+      "31689200",
+      "40362314",
+      "35926894",
+      "30188731",
+      "41493642",
+      "40240338",
+      "36812260",
+      "31917988",
+      "41930452",
+      "40489515",
+      "28330421",
+      "33779503",
+      "41138359",
+      "30824544",
+      "38217874",
+      "38160320",
+      "30648555",
+      "26059477",
+      "36315022",
+      "31405145",
+      "25585661",
+      "25877490",
+      "40329889",
+      "27173731",
+      "28315749",
+      "31912987",
+      "35025110",
+      "39879697",
+      "27592836",
+      "29745412",
+      "42653233",
+      "39426615",
+      "41954452",
+      "35297324",
+      "26899418",
+      "40378427",
+      "27317832",
+      "39639531",
+      "23968994",
+      "25886642",
+      "23535583",
+      "41917062",
+      "37498889"
+    ],
+    "review": [
+      "39548508",
+      "30357118",
+      "33554306",
+      "39390781",
+      "33182550",
+      "31479821",
+      "27173731"
+    ],
+    "pmc": [
+      "11567837"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39548508/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.5201",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

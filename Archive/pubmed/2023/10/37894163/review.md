@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, and discussion sections. Figures and tables are referenced but not fully visible in the provided material.
+- **Assessment boundary** The review is based solely on the text provided. No supplementary data, figures, tables, or raw experimental outputs were available for direct inspection.
+- **Shared manuscript claim summary** The authors investigate the DNA binding affinity determinants of the Mycobacterium tuberculosis response regulator MtrA. They analyze 294 binding sequences with quantitative affinity measurements, propose that sequence-specific affinity is not simply determined by conserved motifs, demonstrate that substrate DNA promotes dimerization of unphosphorylated MtrA, and use molecular docking to propose a structural model. They further report that minor groove width at a specific position correlates with binding affinity and that hydrogen bonds play a significant role in MtrA dimerization.
+- **Visible evidence base** The manuscript text includes descriptions of experimental methods (cloning, protein purification, bio-layer interferometry, size exclusion chromatography, phylogenetic analysis, molecular docking, DNA shape analysis) and summarized results with references to figures and tables. Specific numerical data are partially reported in the text (e.g., affinity ranges, fold changes, docking scores).
+- **Missing materials affecting confidence** The actual figures, tables (including Table 3, Table 4, Table 5, Table 6, Table S1), raw affinity data, gel filtration chromatograms, docking models, and detailed statistical outputs were not provided. This limits the ability to independently verify the quantitative claims and structural interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in prokaryotic transcription regulation, specifically the molecular basis of MtrA binding affinity and specificity. The authors present a large dataset of 294 binding sequences with quantitative affinities, which is a valuable resource. The observation that DNA can facilitate dimerization of unphosphorylated MtrA is potentially interesting. However, the manuscript has several significant weaknesses. The statistical methodology for deriving position-specific affinity contributions is not described in sufficient detail. The docking model is based on homology modeling with moderate sequence identity, and the functional significance of the proposed hydrogen bond network is not experimentally validated. The link between minor groove width and affinity is based on a limited set of substitution experiments. The manuscript would benefit from clearer presentation of the data and more rigorous statistical analysis. The claims are partially supported but require additional experimental and analytical evidence to be fully convincing.
+- **Who would be interested in the results, and why** Researchers studying bacterial two-component systems, response regulators, transcription factor DNA binding specificity, and the molecular mechanisms of gene regulation in Mycobacterium tuberculosis. The work may also be of interest to those studying DNA shape readout mechanisms and protein dimerization. The large affinity dataset could be useful for computational biologists developing predictive models of transcription factor binding.
+- **Major strengths** The manuscript presents a comprehensive dataset of 294 MtrA binding sequences with quantitative affinity values, which is a substantial contribution. The observation that DNA binding can promote dimerization of unphosphorylated MtrA is novel and challenges the prevailing view that phosphorylation is strictly required. The integration of sequence analysis, affinity measurements, and structural modeling provides a multi-faceted approach. The finding that minor groove width at a specific position correlates with affinity is a concrete and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the affinity was negatively associated with the value of minor groove width precisely at the 21st position" based on substitution experiments at positions 20 and 21.
+  - **Evidence pointer** Section 3.6, Table 6, Figure 11
+  - **Concern** The conclusion that minor groove width at position 21 determines affinity is based on a small number of substitution experiments (four variants described in the text). The sample size is too small to establish a robust correlation. Furthermore, the authors do not provide a statistical analysis (e.g., correlation coefficient, significance test) to support the claimed negative association. The effect of substitutions on MGW is inferred from computational predictions (DNAshape), not experimentally measured. The possibility that the observed affinity changes are due to direct base-specific contacts rather than shape readout is not excluded.
+  - **Why it matters** The central claim of the paper regarding the mechanistic role of minor groove width in affinity determination rests on this analysis. If the correlation is not statistically robust or if alternative explanations are not ruled out, the main conclusion is weakened.
+  - **Resolution test** Provide a larger set of substitutions at positions 20 and 21 with measured affinities and computed MGW values. Perform a formal statistical correlation analysis (e.g., Spearman rank correlation) with a reported p-value. Include control experiments with substitutions that alter MGW without changing base identity at the predicted contact positions, or vice versa, to distinguish shape readout from base readout.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  umber** Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "substrate DNA can facilitate the dimerization of unphosphorylated MtrA regardless of affinity" and that "the proportion of the dimer was associated with the affinity of substrate DNA."
+  - **Evidence pointer** Section 3.3, Figure 5
+  - **Concern** The size exclusion chromatography data are described qualitatively. The peaks are reported with elution volumes and area percentages, but no calibration with molecular weight standards is described. It is unclear whether the peaks at different elution volumes correspond to monomers, dimers, or higher-order oligomers. The assignment of the main peak to a dimer species is not validated. Additionally, the experiments were performed at a single protein concentration (10 µM) and a single DNA concentration (20 µM), and no titration or control experiments (e.g., with a non-binding DNA) are described beyond the one "confirmed no binding" fragment. The claim that dimer proportion correlates with affinity is based on four data points without statistical analysis.
+  - **Why it matters** The observation of DNA-induced dimerization is a key novel finding. If the chromatographic assignments are incorrect or the correlation is not statistically supported, this claim is not established.
+  - **Resolution test** Calibrate the size exclusion column with molecular weight standards. Perform the experiment with a range of protein and DNA concentrations to demonstrate concentration dependence. Include a non-binding DNA control and a known dimeric protein control. Quantify the dimer fraction from multiple replicates and perform a statistical test for the correlation with affinity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose a structural model of the MtrA dimer-DNA complex based on homology modeling and docking, and they identify 17 intermolecular hydrogen bonds at the dimer interface, including 8 symmetric complementary ones in the α4-β5-α5 face.
+  - **Evidence pointer** Section 3.4, Section 3.5, Table 5, Figures 7, 8, 10
+  - **Concern** The homology model is based on the MtrA monomer structure (2GWR) and the KdpE dimer (4KFC) as a template, with sequence identity of 38.94%. The quality of the dimer model is not critically assessed beyond a Ramachandran plot. The docking score and confidence score are reported, but no validation of the docked complex (e.g., comparison with known protein-DNA complex structures, cross-validation, or experimental validation) is provided. The identification of 17 hydrogen bonds relies entirely on the computational model, which may have significant errors. The functional importance of the proposed hydrogen bond network is not tested experimentally.
+  - **Why it matters** The structural model is used to support claims about the dimerization mechanism and the role of specific residues. If the model is inaccurate, the mechanistic conclusions are unreliable.
+  - **Resolution test** Provide a more detailed assessment of the model quality, including RMSD to the template, MolProbity scores, and visual inspection of the dimer interface. Validate the docked complex using independent docking software or molecular dynamics simulations. Mutate key residues predicted to form hydrogen bonds (e.g., Arg117, Glu96) and test the effect on dimerization and DNA binding experimentally.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors claim to have analyzed 294 binding sequences with quantitative affinity values and derived position-specific affinity contributions.
+  - **Evidence pointer** Section 2.5, Section 3.1, Table 3, Table S1, Figure 4
+  - **Concern** The methodology for calculating position-specific affinity contributions is described only briefly. The Pearson correlation is computed between a one-hot encoded sequence matrix and log-transformed affinity values. This approach does not account for correlations between positions, and the statistical significance of the contributions is not reported. The authors do not provide confidence intervals or p-values for the contribution values. The claim that the contributions "fluctuate periodically" is not supported by any formal periodicity analysis.
+  - **Why it matters** The position-specific contribution analysis is used to support the claim that affinity is not simply associated with specific motifs. If the statistical methodology is inadequate, this conclusion is not robust.
+  - **Resolution test** Provide a more rigorous statistical framework, such as multiple linear regression with regularization or a position weight matrix approach with significance testing. Report confidence intervals for the contribution values. Perform a formal periodicity analysis (e.g., autocorrelation or Fourier transform) to support the claim of periodic fluctuation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is dense and includes many specific findings without clear context. The sentence "The results of the binding box replacement experiment proved that box 2 was essential for binding" is presented without explaining what box 2 is or why this is significant.
+  - **Required correction** Revise the abstract to provide more context for each finding. Briefly define key terms such as "box 2" and explain the significance of the dimerization observation in the context of existing literature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4, location not provided
+  - **Issue** The bio-layer interferometry assay is described briefly. The authors state that a 1:1 binding model was applied, but no details are given on how the model was validated or whether alternative models were tested. The buffer composition is not fully specified.
+  - **Required correction** Provide more details on the binding model fitting, including how the 1:1 model was chosen and whether other models were considered. Specify the complete buffer composition and any controls used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The authors report affinity values ranging from 4.62 × 10−8 M to 9.88 × 10−3 M, but no information is given on the number of replicates, standard errors, or confidence intervals for these measurements.
+  - **Required correction** Report the number of independent measurements and the associated uncertainty for the affinity values. If only single measurements were performed, state this explicitly and discuss the limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Section 1, Section 4, location not provided
+  - **Issue** The introduction and discussion cite several studies on OmpR family members, but the comparison with MtrA is not always systematic. For example, the discussion of the wing domain function mentions PhoP and PmrA but does not fully contextualize the MtrA findings within the broader family.
+  - **Required correction** Strengthen the comparison with other OmpR family members, particularly regarding the role of the wing domain and the dimerization mechanism. Discuss how the MtrA findings extend or challenge existing models.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MGW-affinity correlation), R1-M2 (dimerization evidence), R1-M3 (structural model validation). These are the core technical issues that must be resolved for the main claims to be convincing.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work presents a large dataset and a novel observation regarding DNA-induced dimerization of unphosphorylated MtrA. The application of DNA shape analysis to a prokaryotic response regulator is relatively novel. However, the overall conceptual framework is not entirely new, as similar ideas have been explored in eukaryotic systems.
+  - **Scientific importance** The question of how global transcription factors achieve specificity across many targets is important. The findings could have implications for understanding MtrA function in M. tuberculosis pathogenesis. However, the importance is somewhat limited by the lack of functional validation in a biological context.
+  - **Interdisciplinary readership** The work is primarily of interest to molecular microbiologists and biochemists. The DNA shape analysis component may attract computational biologists, but the overall scope is relatively narrow.
+  - **Technical soundness** The technical soundness is currently insufficient due to the concerns raised above regarding statistical analysis, experimental validation, and structural model reliability.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with the OmpR family and DNA binding assays. The abstract is dense and may be difficult for nonspecialists to follow. The figures and tables are not available for assessment.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and presents a potentially valuable dataset, but the key claims regarding minor groove width, DNA-induced dimerization, and the structural model are not sufficiently supported by the evidence presented. Major revisions and additional experiments are required.
+
+## Risk / unsupported claims
+- The claim that "the affinity was negatively associated with the value of minor groove width precisely at the 21st position" is based on a very small number of substitution experiments and lacks statistical analysis. This is not supported by the provided evidence.
+- The claim that "substrate DNA can facilitate the dimerization of unphosphorylated MtrA regardless of affinity" is based on size exclusion chromatography data that are not fully described and lack molecular weight calibration and statistical analysis. This is not fully supported.
+- The claim that "17 inter-molecule hydrogen bonds identified in the interface of the MtrA dimer, including 8 symmetric complementary ones" is based entirely on a homology model and docking, without experimental validation. This is not supported.
+- The claim that "the unique variation patterns of GC content and periodical and sequential fluctuation of affinity contribution curves were observed" is not supported by a formal statistical or periodicity analysis. This is not supported.
+- The claim that "box 2 was essential for binding" is based on a single replacement experiment. The generality of this finding is not established. This is partially supported but requires additional validation.

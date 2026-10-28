@@ -1,0 +1,897 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.23.733983",
+  "title": "Dual Carbohydrate Recognition by the Chitinase-like Protein CHI3L1 Through Distinct Glycosaminoglycan and Chitin-Binding Interfaces",
+  "doi": "10.64898/2026.06.23.733983",
+  "abstract": "CHI3L1 (YKL-40) is a chitinase-like glycoprotein involved in immune regulation, tissue remodeling, and cancer, yet the molecular principles governing its glycan interactions remain incompletely defined. Previous reports suggested that CHI3L1 can bind to chitin oligosaccharides (COS) and glycosaminoglycan (GAG) ligands, however, the molecular basis and binding sites underlying these interactions remain controversial. Here, a combination of biophysical and computational methods is employed to shed light on carbohydrate interactions of the protein and delineate a potential crosstalk between its glycan-binding interfaces. Our results demonstrate that COS and GAGs bind to distinct, non-overlapping sites on CHI3L1. Both ligand classes exhibit a strong dependence of binding affinity on the degree of polymerization. Molecular dynamics simulations, supported by mutational analysis, identify a GAG-binding site centered on residues R144, R145, and K147 and reveal an additional distal interaction site for longer GAG ligands. Biophysical and biochemical assays fail to confirm a previously proposed allo-or orthosteric interaction between both binding sites. However, physiologically relevant protein–protein interactions mediated by the chitin binding site of CHI3L1 are differentially regulated by GAG and COS ligands. COS inhibit binding of galectin-3 to CHI3L1, whereas GAG ligands enhance the affinity between the proteins by ca. 14-fold. Together, these findings establish CHI3L1 as a dual carbohydrate-binding protein with distinct recognition interfaces and reveal a previously unrecognized role for GAGs in modulating CHI3L1-mediated signaling interactions.",
+  "authors": [
+    "Önder Kurç",
+    "Nick Rähse",
+    "Mohanraj Gopalswamy",
+    "Alexandra Großdorf",
+    "Christian Gorzelanny",
+    "Jonathan Cramer",
+    "Holger Gohlke"
+  ],
+  "published_date": "2026-06-28",
+  "updated_date": "2026-06-29T04:30:13Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.23.733983",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.23.733983.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T13:08:40Z",
+        "timestamp": 1790255320908,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            28
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 80,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                28
+              ]
+            ],
+            "date-time": "2026-06-28T00:00:00Z",
+            "timestamp": 1782604800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Deutsche Forschungsgemeinschaft, SPP 2416 CodeChi",
+          "award": [
+            "GO 1367/7-1 (525826480)"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GO 1367/7-1 (525826480)"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/018mejw64",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Deutsche Forschungsgemeinschaft, SPP 2416 CodeChi",
+          "award": [
+            "CR 811/3-1 (525826480)"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CR 811/3-1 (525826480)"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/018mejw64",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Deutsche Forschungsgemeinschaft, SPP 2416 CodeChi",
+          "award": [
+            "GO 2528/10-1 (525894428)"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GO 2528/10-1 (525894428)"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/018mejw64",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>CHI3L1 (YKL-40) is a chitinase-like glycoprotein involved in immune regulation, tissue remodeling, and cancer, yet the molecular principles governing its glycan interactions remain incompletely defined. Previous reports suggested that CHI3L1 can bind to chitin oligosaccharides (COS) and glycosaminoglycan (GAG) ligands, however, the molecular basis and binding sites underlying these interactions remain controversial. Here, a combination of biophysical and computational methods is employed to shed light on carbohydrate interactions of the protein and delineate a potential crosstalk between its glycan-binding interfaces. Our results demonstrate that COS and GAGs bind to distinct, non-overlapping sites on CHI3L1. Both ligand classes exhibit a strong dependence of binding affinity on the degree of polymerization. Molecular dynamics simulations, supported by mutational analysis, identify a GAG-binding site centered on residues R144, R145, and K147 and reveal an additional distal interaction site for longer GAG ligands. Biophysical and biochemical assays fail to confirm a previously proposed allo-or orthosteric interaction between both binding sites. However, physiologically relevant protein–protein interactions mediated by the chitin binding site of CHI3L1 are differentially regulated by GAG and COS ligands. COS inhibit binding of galectin-3 to CHI3L1, whereas GAG ligands enhance the affinity between the proteins by ca. 14-fold. Together, these findings establish CHI3L1 as a dual carbohydrate-binding protein with distinct recognition interfaces and reveal a previously unrecognized role for GAGs in modulating CHI3L1-mediated signaling interactions.</jats:p>",
+      "DOI": "10.64898/2026.06.23.733983",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2026-06-29T04:30:13Z",
+        "timestamp": 1782707413000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Dual Carbohydrate Recognition by the Chitinase-like Protein CHI3L1 Through Distinct Glycosaminoglycan and Chitin-Binding Interfaces"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Önder",
+          "family": "Kurç",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Heinrich Heine University Düsseldorf, Faculty of Mathematics and Natural Sciences, Institute for Pharmaceutical and Medicinal Chemistry, Düsseldorf, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nick",
+          "family": "Rähse",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Heinrich Heine University Düsseldorf, Faculty of Mathematics and Natural Sciences, Institute for Pharmaceutical and Medicinal Chemistry, Düsseldorf, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohanraj",
+          "family": "Gopalswamy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Heinrich Heine University Düsseldorf, Faculty of Mathematics and Natural Sciences, Institute for Pharmaceutical and Medicinal Chemistry, Düsseldorf, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandra",
+          "family": "Großdorf",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Dermatology and Venereology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Gorzelanny",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Dermatology and Venereology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Cramer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Heinrich Heine University Düsseldorf, Faculty of Mathematics and Natural Sciences, Institute for Pharmaceutical and Medicinal Chemistry, Düsseldorf, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8613-1447",
+          "authenticated-orcid": false,
+          "given": "Holger",
+          "family": "Gohlke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Heinrich Heine University Düsseldorf, Faculty of Mathematics and Natural Sciences, Institute for Pharmaceutical and Medicinal Chemistry, Düsseldorf, Germany"
+            },
+            {
+              "name": "Forschungszentrum Jülich, Institute of Bio-and Geosciences (IBG-4: Bioinformatics), Jülich, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jbmr.5650070506"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2024.107365"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2013.07.032"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.11613/BM.2024.010502",
+          "article-title": "YKL-40 as a biomarker in various inflammatory diseases: A review",
+          "volume": "34",
+          "year": "2024",
+          "journal-title": "Biochem. Med. (Zagreb"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "483",
+          "DOI": "10.1002/alz.13450",
+          "article-title": "Astrocyte biomarkers GFAP and YKL-40 mediate early Alzheimer’s disease progression",
+          "volume": "20",
+          "year": "2024",
+          "journal-title": "Alzheimer’s & Dementia"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "19172",
+          "DOI": "10.1038/s41598-023-46491-4",
+          "article-title": "YKL-40 serum levels are predicted by inflammatory state, age and diagnosis of idiopathic inflammatory myopathies",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7150/ijbs.67587"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.1002/alz.12612",
+          "article-title": "Potential role of chitinase-3-like protein 1 (CHI3L1/YKL-40) in neurodegeneration and Alzheimer’s disease",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Alzheimer’s & Dementia"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "16",
+          "DOI": "10.1186/s12974-019-1404-9",
+          "article-title": "Cerebrospinal fluid levels of glial marker YKL-40 strongly associated with axonal injury in HIV infection",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "J. Neuroinflammation"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v11090767"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "28695",
+          "DOI": "10.1038/s41598-024-80370-w",
+          "article-title": "Assessment of urine calprotectin and YKL-40 levels in urinary tract infection diagnosis in children under 2 years of age",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1046",
+          "DOI": "10.1186/s12879-021-06760-x",
+          "article-title": "Associations between YKL-40 and markers of disease severity and death in patients with necrotizing soft-tissue infection",
+          "volume": "21",
+          "year": "2021",
+          "journal-title": "BMC Infect. Dis"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1019",
+          "DOI": "10.1038/s41416-025-02996-5",
+          "article-title": "YKL-40 and risk of incident cancer in early type 2 diabetes: a Danish cohort study",
+          "volume": "132",
+          "year": "2025",
+          "journal-title": "Br. J. Cancer"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1183",
+          "DOI": "10.1007/s13402-021-00630-z",
+          "article-title": "YKL-40 protein expression in human tumor samples and human tumor cell line xenografts: implications for its use in tumor models",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "Cellular Oncology"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1349-7006.2005.00026.x"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "3139",
+          "DOI": "10.3390/curroncol28040274",
+          "article-title": "Prognostic Impact of YKL-40 Immunohistochemical Expression in Patients with Colorectal Cancer",
+          "volume": "28",
+          "year": "2021",
+          "journal-title": "Curr. Oncol"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "216184",
+          "DOI": "10.1016/j.canlet.2023.216184",
+          "article-title": "YKL-40 derived from infiltrating macrophages cooperates with GDF15 to establish an immune suppressive microenvironment in gallbladder cancer",
+          "volume": "563",
+          "year": "2023",
+          "journal-title": "Cancer Lett"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.3390/md23100379",
+          "article-title": "Characterization of YKL-40 Binding to Extracellular Matrix Glycosaminoglycans",
+          "volume": "23",
+          "year": "2025",
+          "journal-title": "Mar. Drugs"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M601153200"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2140",
+          "DOI": "10.4049/jimmunol.1701442",
+          "article-title": "Galectin-3 Interacts with the CHI3L1 Axis and Contributes to Hermansky–Pudlak Syndrome Lung Disease",
+          "volume": "200",
+          "year": "2018",
+          "journal-title": "The Journal of Immunology"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7150/ijbs.8.39"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s12276-023-01131-9"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "508",
+          "DOI": "10.1002/1878-0261.13138",
+          "article-title": "A small molecule targeting CHI3L1 inhibits lung metastasis by blocking IL-13Rα2-mediated JNK-AP-1 signals",
+          "volume": "16",
+          "year": "2022",
+          "journal-title": "Mol. Oncol"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2346",
+          "DOI": "10.1021/acsmedchemlett.5c00550",
+          "article-title": "Virtual Screening-Guided Discovery of Small-Molecule CHI3L1 Inhibitors with Functional Activity in Glioblastoma Spheroids",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "ACS Med. Chem. Lett"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.3c02255"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M303371200"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M303137200"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M116.764985"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neo.2017.11.011"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.30",
+          "first-page": "101908",
+          "article-title": "Heparin-binding of the human chitinase-like protein YKL-40 is allosterically modified by chitin oligosaccharides",
+          "volume": "41",
+          "year": "2025",
+          "journal-title": "Biochem. Biophys. Rep"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.64898/2026.06.15.732264"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "162",
+          "DOI": "10.1021/acs.joc.5b02468",
+          "article-title": "Formal Synthesis of Anticoagulant Drug Fondaparinux Sodium",
+          "volume": "81",
+          "year": "2016",
+          "journal-title": "J. Org. Chem"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1254",
+          "DOI": "10.3390/ph16091254",
+          "article-title": "Non-Anticoagulant Activities of Low Molecular Weight Heparins—A Review",
+          "volume": "16",
+          "year": "2023",
+          "journal-title": "Pharmaceuticals"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0008-6215(94)00334-C"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "14158",
+          "DOI": "10.1038/s41598-022-17913-6",
+          "article-title": "Biophysical and pharmacokinetic characterization of a small-molecule inhibitor of RUNX1/ETO tetramerization with anti-leukemic effects",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1521-3773(19990614)38:12<1784::AID-ANIE1784>3.0.CO;2-Q"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-013-9644-8"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/glycob/cwz027"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21224"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jz501780a"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.9b00953"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c01153"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACS.JCTC.9B00591/SUPPL_FILE/CT9B00591_SI_002.ZIP"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20820"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01390"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct500918t"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2012.09.022"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct400314y"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0021-9991(77)90098-5"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct5010406"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fphys.2022.895324"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.448118"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360320508"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct400341p"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21787"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.58",
+          "unstructured": "Schrödinger, LLC. (2015) The PyMOL Molecular Graphics System (Version 1.8)."
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "17720",
+          "DOI": "10.1038/s41598-025-02422-z",
+          "article-title": "Identification of non-charged 7.44 analogs interacting with the NHR2 domain of RUNX1-ETO with improved antiproliferative effect in RUNX-ETO positive cells",
+          "volume": "15",
+          "year": "2025",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0686-2"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300709u"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "3026",
+          "DOI": "10.1021/ct100320g",
+          "article-title": "Adaptive Steered Molecular Dynamics of the Long-Distance Unfolding of Neuropeptide Y",
+          "volume": "6",
+          "year": "2010",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1651473"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.78.2690"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "28412",
+          "DOI": "10.1021/acsami.2c00648",
+          "article-title": "Rational Design Yields Molecular Insights on Leaf-Binding of Anchor Peptides",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "ACS Appl. Mater. Interfaces"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "59",
+          "DOI": "10.1038/s43588-022-00389-9",
+          "article-title": "Binding affinity estimation from restrained umbrella sampling simulations",
+          "volume": "3",
+          "year": "2022",
+          "journal-title": "Nat. Comput. Sci"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fchem.2018.00437"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.68",
+          "doi-asserted-by": "crossref",
+          "first-page": "3052",
+          "DOI": "10.1021/acs.jcim.1c00419",
+          "article-title": "Adaptative Steered Molecular Dynamics Study of Mutagenesis Effects on Calcium Affinity in the Regulatory Domain of Cardiac Troponin C",
+          "volume": "61",
+          "year": "2021",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cphc.202200175"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci400370y"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "1337",
+          "DOI": "10.1021/acs.jcim.5c02384",
+          "article-title": "Evidence for Epibatidine Binding to the Desensitization Gate in α7 nAChR from Molecular Dynamics Simulations and Cryo-EM",
+          "volume": "66",
+          "year": "2026",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.72",
+          "doi-asserted-by": "crossref",
+          "first-page": "1894",
+          "DOI": "10.1021/acs.jctc.1c00760",
+          "article-title": "Characterization of Heparin’s Conformational Ensemble by Molecular Dynamics Simulations and Nuclear Magnetic Resonance Spectroscopy",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "2147",
+          "DOI": "10.1021/acs.jcim.2c01472",
+          "article-title": "Solvent Model Benchmark for Molecular Dynamics of Glycosaminoglycans",
+          "volume": "63",
+          "year": "2023",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d0cc01161d"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.75",
+          "first-page": "21",
+          "article-title": "Molecular modeling of protein-glycosaminoglycan interactions. Arteriosclerosis: An Official Journal of the American Heart Association",
+          "volume": "9",
+          "year": "1989",
+          "journal-title": "Inc"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "5373",
+          "DOI": "10.1021/acs.langmuir.8b01802",
+          "article-title": "Interaction of Proteins with Polyelectrolytes: Comparison of Theory to Experiment",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Langmuir"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2504348122"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.78",
+          "doi-asserted-by": "crossref",
+          "first-page": "958",
+          "DOI": "10.1021/jacsau.3c00725",
+          "article-title": "Molecular Mechanisms Underlying Medium-Chain Free Fatty Acid-Regulated Activity of the Phospholipase PlaF from Pseudomonas aeruginosa",
+          "volume": "4",
+          "year": "2024",
+          "journal-title": "JACS Au"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.79",
+          "doi-asserted-by": "crossref",
+          "first-page": "e13068",
+          "DOI": "10.1371/journal.pone.0013068",
+          "article-title": "An Improved Strategy for Generating Forces in Steered Molecular Dynamics: The Mechanical Unfolding of Titin, e2lip3 and Ubiquitin",
+          "volume": "5",
+          "year": "2010",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2026092405400577000_2026.06.23.733983v2.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1172/JCI147552"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.23.733983",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T12:40:34Z",
+        "timestamp": 1790253634000
+      },
+      "score": 85.84028,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.23.733983"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            28
+          ]
+        ]
+      },
+      "references-count": 80,
+      "URL": "https://doi.org/10.64898/2026.06.23.733983",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            28
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

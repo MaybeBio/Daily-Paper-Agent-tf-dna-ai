@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "41648862",
+    "doi": "10.3389/fbinf.2025.1744094",
+    "title": "Cross-disease transcriptomic meta-analysis and network pharmacology reveal key therapeutic targets in rheumatoid arthritis, systemic lupus erythematosus and multiple sclerosis."
+  },
+  "content": {
+    "abstract": "Autoimmune disease has a complex etiology that remains not fully understood. We aimed to identify highly perturbed DEGs and hub genes associated with autoimmune disease Rheumatoid Arthritis (RA), Systemic Lupus Erythematosus (SLE) and Multiple Sclerosis (MS). To find potentially lead to more effective therapies that target the root causes of these diseases. MATERIALS AND METHODS: Datasets for autoimmune diseases (RA, SLE, and MS) were collected from the GEO database. Differentially expressed genes were identified and subjected to meta-analysis to obtain common DEGs, which were then used for functional enrichment analysis GO and pathway analysis. A PPI network was constructed, and topology-based ranking identified hub genes. These hub genes were further analyzed through regulatory network analysis (TF and miRNA), gene-disease association studies, and drug-gene interaction analysis. Finally, molecular docking and molecular dynamics (MD) simulations were performed on the hub genes. RESULTS: A total of 341 differentially expressed genes were identified, with 172 upregulated and 169 downregulated genes. Among these, eight hub genes STAT1, PTPRC, IRF8, JAK2, IL10RA, OAS2, CCR1, and IFI44L were found to be closely associated with the disease. Functional enrichment analysis revealed significant involvement in 143 biological processes, 53 cellular components, and 67 molecular functions, as well as 60 KEGG pathways. Further regulatory network analysis highlighted the interactions of the suggested hub genes with 198 transcription factors (TFs) and 993 microRNAs (miRNAs). Additionally, these genes were associated to 2,769 diseases, and 132 drugs were identified to interact with them. Molecular docking studies, along with Molecular Dynamics Simulation (MDS) stability analysis, demonstrated the potential of natural compounds and known immunomodulatory drugs as promising therapeutic targets for clinical application. CONCLUSION: These findings explored identifying the DEGs among shade of the autoimmune disease RA, SLE, MS, and this hub gene are associated with transcription factors are most crucial role play in the disease potentially clinical therapeutic targets of the autoimmune disease.",
+    "keywords": [
+      "autoimmune diseases",
+      "differentially expressed genes",
+      "functional enrichment analysis",
+      "molecular dynamics",
+      "transcriptome"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lakshmi, K",
+        "Vino, Sundararajan"
+      ],
+      "short_names": [
+        "Lakshmi K",
+        "Vino S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Integrative Multiomics Lab, Department of Bio Sciences, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Integrative Multiomics Lab, Department of Bio Sciences, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lakshmi, K",
+        "short_name": "Lakshmi K",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Multiomics Lab, Department of Bio Sciences, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Vino, Sundararajan",
+        "short_name": "Vino S",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Multiomics Lab, Department of Bio Sciences, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/06 13:18",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41229044",
+      "41196273",
+      "41164200",
+      "40529617",
+      "39759280",
+      "39165588",
+      "38997762",
+      "38596313",
+      "38349399",
+      "38103742",
+      "36055802",
+      "35844538",
+      "35788821",
+      "34387304",
+      "33986412",
+      "33237278",
+      "33081587",
+      "31723137",
+      "31680165",
+      "31504780",
+      "31066453",
+      "30476243",
+      "30053827",
+      "28101184",
+      "26358190",
+      "25521941",
+      "25234143",
+      "25228247",
+      "25058159",
+      "24678608",
+      "24196391",
+      "23193258",
+      "23117242",
+      "19499576",
+      "19131956",
+      "18383365",
+      "17328080",
+      "14597658"
+    ],
+    "similar": [
+      "41648862",
+      "41005317",
+      "31673979",
+      "40739239",
+      "36189314",
+      "35558576",
+      "34553293",
+      "40949741",
+      "34160465",
+      "35368701",
+      "40585331",
+      "36627660",
+      "35030369",
+      "40766309",
+      "41533020",
+      "33604823",
+      "38062833",
+      "38771826",
+      "36699262",
+      "38524085",
+      "41217343",
+      "36291136",
+      "35602512",
+      "36226610",
+      "39445158",
+      "36104591",
+      "40438384",
+      "34234459",
+      "41511918",
+      "41316541",
+      "38170849",
+      "38912340",
+      "41229044",
+      "33468161",
+      "37614232",
+      "39840076",
+      "37113991",
+      "34271942",
+      "38259479",
+      "40537884",
+      "33407587",
+      "40309038",
+      "31987036",
+      "37492576",
+      "33664765",
+      "40102939",
+      "38444712",
+      "36118873",
+      "40131879",
+      "39596553",
+      "33262784",
+      "38701256",
+      "40216809",
+      "40078458",
+      "40082645",
+      "41481752",
+      "36871016",
+      "41492010",
+      "39556279",
+      "36532040",
+      "39080525",
+      "39813219",
+      "37740761",
+      "37776011",
+      "38774864",
+      "41196851",
+      "38044432",
+      "40238799",
+      "40574839",
+      "41255834",
+      "33927789",
+      "39953769",
+      "36899621",
+      "35757392",
+      "37063926",
+      "36247278",
+      "39309832",
+      "29257335",
+      "35935949",
+      "37800460",
+      "38935935",
+      "33868359",
+      "36341378",
+      "34026864",
+      "31321566",
+      "34744455",
+      "32426333",
+      "36311761",
+      "35495609",
+      "33123584",
+      "41211465",
+      "36212136",
+      "34557547",
+      "36506310",
+      "35909518",
+      "41327255",
+      "40043355",
+      "30971889",
+      "41066424",
+      "31178673"
+    ],
+    "review": [
+      "41648862",
+      "38170849"
+    ],
+    "pmc": [
+      "12868135"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41648862/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2025.1744094",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

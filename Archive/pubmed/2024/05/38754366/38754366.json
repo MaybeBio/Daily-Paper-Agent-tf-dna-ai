@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "38754366",
+    "doi": "10.1016/j.cels.2024.04.005",
+    "title": "Causal gene regulatory analysis with RNA velocity reveals an interplay between slow and fast transcription factors."
+  },
+  "content": {
+    "abstract": "Single-cell expression dynamics, from differentiation trajectories or RNA velocity, have the potential to reveal causal links between transcription factors (TFs) and their target genes in gene regulatory networks (GRNs). However, existing methods either overlook these expression dynamics or necessitate that cells be ordered along a linear pseudotemporal axis, which is incompatible with branching trajectories. We introduce Velorama, an approach to causal GRN inference that represents single-cell differentiation dynamics as a directed acyclic graph of cells, constructed from pseudotime or RNA velocity measurements. Additionally, Velorama enables the estimation of the speed at which TFs influence target genes. Applying Velorama, we uncover evidence that the speed of a TF's interactions is tied to its regulatory function. For human corticogenesis, we find that slow TFs are linked to gliomas, while fast TFs are associated with neuropsychiatric diseases. We expect Velorama to become a critical part of the RNA velocity toolkit for investigating the causal drivers of differentiation and disease.",
+    "keywords": [
+      "Granger causality",
+      "RNA velocity",
+      "corticogenesis",
+      "gene regulatory network",
+      "graph neural network",
+      "regulatory dynamics",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/genetics/metabolism",
+      "*Gene Regulatory Networks/genetics",
+      "*Cell Differentiation/genetics",
+      "*RNA/genetics/metabolism",
+      "Single-Cell Analysis/methods",
+      "Gene Expression Regulation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Rohit",
+        "Wu, Alexander P",
+        "Mudide, Anish",
+        "Berger, Bonnie"
+      ],
+      "short_names": [
+        "Singh R",
+        "Wu AP",
+        "Mudide A",
+        "Berger B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA 02139, USA. Electronic address: rsingh@alum.mit.edu.",
+        "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA 02139, USA.",
+        "Phillips Exeter Academy, Exeter, NH 03883, USA; Computer Science and Artificial Intelligence Laboratory and Department of Mathematics, MIT, Cambridge, MA 02139, USA.",
+        "Computer Science and Artificial Intelligence Laboratory and Department of Mathematics, MIT, Cambridge, MA 02139, USA. Electronic address: bab@mit.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Rohit",
+        "short_name": "Singh R",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA 02139, USA. Electronic address: rsingh@alum.mit.edu."
+        ]
+      },
+      {
+        "full_name": "Wu, Alexander P",
+        "short_name": "Wu AP",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Mudide, Anish",
+        "short_name": "Mudide A",
+        "identifiers": [],
+        "affiliations": [
+          "Phillips Exeter Academy, Exeter, NH 03883, USA; Computer Science and Artificial Intelligence Laboratory and Department of Mathematics, MIT, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Berger, Bonnie",
+        "short_name": "Berger B",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Artificial Intelligence Laboratory and Department of Mathematics, MIT, Cambridge, MA 02139, USA. Electronic address: bab@mit.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2024 May 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/17 00:44",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [
+      "42301228",
+      "42231956",
+      "42071151",
+      "42039614",
+      "41875867",
+      "41041318",
+      "40929041",
+      "40883263",
+      "40829806",
+      "40750599",
+      "40671221",
+      "40424181",
+      "40341271",
+      "40062616",
+      "39939367",
+      "39639772",
+      "39345416"
+    ],
+    "refs": [
+      "35489382",
+      "35264768",
+      "35139376",
+      "35102309",
+      "35027767",
+      "34435732",
+      "34390642",
+      "34244611",
+      "33941239",
+      "33705309",
+      "33026066",
+      "32871105",
+      "32747759",
+      "32657375",
+      "32615918",
+      "32424124",
+      "32135093",
+      "32098504",
+      "31907445",
+      "31806696",
+      "31680165",
+      "31176620",
+      "31160421",
+      "30899105",
+      "30677129",
+      "30675018",
+      "30445495",
+      "30420752",
+      "30204897",
+      "30089906",
+      "30078704",
+      "29539636",
+      "29416501",
+      "29409532",
+      "29335606",
+      "29317474",
+      "28968704",
+      "28957658",
+      "28940711",
+      "28825706",
+      "28379368",
+      "26931810",
+      "26796689",
+      "26316173",
+      "26017442",
+      "25953818",
+      "25716830",
+      "25613900",
+      "25103404",
+      "25037921",
+      "23586463",
+      "23332752",
+      "22798495",
+      "20927193",
+      "20123072",
+      "18333962",
+      "17761000",
+      "17303468",
+      "15877071"
+    ],
+    "similar": [
+      "38754366",
+      "32135093",
+      "38896510",
+      "41643202",
+      "38744843",
+      "42059479",
+      "28254369",
+      "34251625",
+      "32871105",
+      "38950180",
+      "35961023",
+      "42119563",
+      "37985457",
+      "41489955",
+      "38980373",
+      "29879919",
+      "35030198",
+      "41310370",
+      "40251476",
+      "34251620",
+      "38609714",
+      "33151298",
+      "42710863",
+      "37085776",
+      "40062616",
+      "39207727",
+      "41767631",
+      "36653899",
+      "41093852",
+      "39585902",
+      "40433981",
+      "40116659",
+      "39535258",
+      "41288963",
+      "42752548",
+      "41544912",
+      "37889053",
+      "37244909",
+      "30547796",
+      "31985403",
+      "38739758",
+      "42061403",
+      "40699953",
+      "25445270",
+      "35090587",
+      "41518505",
+      "42734741",
+      "27604961",
+      "42560939",
+      "24228871",
+      "23497388",
+      "42546633",
+      "32174324",
+      "38653489",
+      "40634286",
+      "40419657",
+      "41213067",
+      "41457100",
+      "41677026",
+      "37113980",
+      "41826830",
+      "36841529",
+      "30445760",
+      "42013480",
+      "42653305",
+      "32019417",
+      "40633682",
+      "38879931",
+      "41554051",
+      "23822978",
+      "40638792",
+      "42398561",
+      "21172055",
+      "22849367",
+      "41317402",
+      "41284187",
+      "41183511",
+      "41229398",
+      "37365273",
+      "32330456",
+      "41498638",
+      "36695505",
+      "30961611",
+      "40956752",
+      "31399483",
+      "33170214",
+      "42129640",
+      "36418514",
+      "34986805",
+      "40374885",
+      "18366607",
+      "33026066",
+      "18682805",
+      "41052197",
+      "39519201",
+      "34251621",
+      "41063489",
+      "30844478",
+      "34758318",
+      "34987704"
+    ],
+    "review": [
+      "38754366",
+      "39207727",
+      "42734741",
+      "41213067",
+      "42013480",
+      "37365273"
+    ],
+    "pmc": [
+      "12204218"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(24)00120-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38754366/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38754366",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

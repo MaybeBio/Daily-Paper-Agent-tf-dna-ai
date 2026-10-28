@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "40838019",
+    "doi": "10.1093/pnasnexus/pgaf235",
+    "title": "Prediction of cell states and key transcription factors of the human cornea through integrated single-cell omics analyses."
+  },
+  "content": {
+    "abstract": "The cornea, a transparent tissue composed of multiple layers, allows light to enter the eye. Several single-cell RNA-seq (scRNA-seq) analyses have been performed to explore the cell states and to understand the cellular composition of the human cornea. However, inconsistences in cell state annotations between these studies complicate the application of these findings in corneal studies. To address this, we integrated scRNA-seq data from four published studies and created a human corneal cell state meta-atlas. This meta-atlas was subsequently evaluated in two applications. First, we developed a machine learning pipeline cPredictor, using the human corneal cell state meta-atlas as input, to annotate corneal cell states. We demonstrated the accuracy of cPredictor and its ability to identify novel marker genes and rare cell states in the human cornea. Furthermore, cPredictor revealed the differences of the cell states between pluripotent stem cell-derived corneal organoids and the human cornea. Second, we integrated the scRNA-seq-based cell state meta-atlas with chromatin accessibility data, conducting motif-focused and gene regulatory network analyses. These approaches identified distinct transcription factors (TFs) driving cell states of the human cornea. The novel marker genes and TFs were validated by immunohistochemistry. Overall, this study offers a reliable and accessible reference for profiling corneal cell states, which facilitates future research in cornea development, disease, and regeneration.",
+    "keywords": [
+      "corneal biology",
+      "gene regulatory networks",
+      "machine learning",
+      "scATAC-seq",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arts, Julian A",
+        "Fallo, Sofia",
+        "Florencio, Melanie S",
+        "Smits, Jos G A",
+        "Lima Cunha, Dulce",
+        "Roubroeks, Janou A Y",
+        "Dickman, Mor M",
+        "LaPointe, Vanessa L S",
+        "Yu, Rosemary",
+        "Zhou, Huiqing"
+      ],
+      "short_names": [
+        "Arts JA",
+        "Fallo S",
+        "Florencio MS",
+        "Smits JGA",
+        "Lima Cunha D",
+        "Roubroeks JAY",
+        "Dickman MM",
+        "LaPointe VLS",
+        "Yu R",
+        "Zhou H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0803-9511",
+        "ORCID: 0009-0007-4162-9816",
+        "ORCID: 0000-0001-5858-3905",
+        "ORCID: 0000-0002-6814-8365",
+        "ORCID: 0000-0001-5019-4091",
+        "ORCID: 0000-0002-0887-7443",
+        "ORCID: 0000-0002-2434-3986"
+      ],
+      "affiliations": [
+        "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+        "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, Maastricht 6200MD, The Netherlands.",
+        "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, Maastricht 6200MD, The Netherlands.",
+        "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+        "Department of Human Genetics, Radboud University Medical Center, P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+        "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+        "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+        "Department of Clinical Genetics, Maastricht University Medical Center+, P.O. Box 5800, Maastricht 6202AZ, The Netherlands.",
+        "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, Maastricht 6200MD, The Netherlands.",
+        "Department of Ophthalmology, University Medical Center Utrecht, P.O. Box 85500, Utrecht 3508GA, The Netherlands.",
+        "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, Maastricht 6200MD, The Netherlands.",
+        "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+        "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+        "Department of Human Genetics, Radboud University Medical Center, P.O. Box 9101, Nijmegen 6500HB, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arts, Julian A",
+        "short_name": "Arts JA",
+        "identifiers": [
+          "0000-0002-0803-9511"
+        ],
+        "affiliations": [
+          "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Fallo, Sofia",
+        "short_name": "Fallo S",
+        "identifiers": [
+          "0009-0007-4162-9816"
+        ],
+        "affiliations": [
+          "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, Maastricht 6200MD, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Florencio, Melanie S",
+        "short_name": "Florencio MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, Maastricht 6200MD, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Smits, Jos G A",
+        "short_name": "Smits JGA",
+        "identifiers": [
+          "0000-0001-5858-3905"
+        ],
+        "affiliations": [
+          "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+          "Department of Human Genetics, Radboud University Medical Center, P.O. Box 9101, Nijmegen 6500HB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lima Cunha, Dulce",
+        "short_name": "Lima Cunha D",
+        "identifiers": [
+          "0000-0002-6814-8365"
+        ],
+        "affiliations": [
+          "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Roubroeks, Janou A Y",
+        "short_name": "Roubroeks JAY",
+        "identifiers": [
+          "0000-0001-5019-4091"
+        ],
+        "affiliations": [
+          "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+          "Department of Clinical Genetics, Maastricht University Medical Center+, P.O. Box 5800, Maastricht 6202AZ, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dickman, Mor M",
+        "short_name": "Dickman MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, Maastricht 6200MD, The Netherlands.",
+          "Department of Ophthalmology, University Medical Center Utrecht, P.O. Box 85500, Utrecht 3508GA, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "LaPointe, Vanessa L S",
+        "short_name": "LaPointe VLS",
+        "identifiers": [
+          "0000-0002-0887-7443"
+        ],
+        "affiliations": [
+          "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, Maastricht 6200MD, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Yu, Rosemary",
+        "short_name": "Yu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huiqing",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0000-0002-2434-3986"
+        ],
+        "affiliations": [
+          "Department of Molecular Developmental Biology, Radboud Institute for Molecular Life Sciences (RIMLS), P.O. Box 9101, Nijmegen 6500HB, The Netherlands.",
+          "Department of Human Genetics, Radboud University Medical Center, P.O. Box 9101, Nijmegen 6500HB, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PNAS nexus"
+    ],
+    "journal_abbrev": [
+      "PNAS Nexus"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/21 06:28",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39672979",
+      "38514716",
+      "38116584",
+      "38039970",
+      "37856539",
+      "37443842",
+      "36882164",
+      "36769341",
+      "36712326",
+      "35858321",
+      "35821117",
+      "35805991",
+      "35805068",
+      "35613826",
+      "35216671",
+      "34949812",
+      "34948208",
+      "34741068",
+      "34584087",
+      "34298659",
+      "33984282",
+      "33865984",
+      "33462242",
+      "33388438",
+      "33197966",
+      "33197019",
+      "33127599",
+      "32769974",
+      "32176273",
+      "31740819",
+      "31500660",
+      "31358806",
+      "31278274",
+      "31019909",
+      "30914743",
+      "30755793",
+      "29380756",
+      "29295995",
+      "28936480",
+      "27561110",
+      "26554513",
+      "26232335",
+      "25970431",
+      "25187087",
+      "24966117",
+      "24142692",
+      "24126846",
+      "24097267",
+      "23844023",
+      "23727298",
+      "22611239",
+      "21693119",
+      "21210345",
+      "20568247",
+      "20223235",
+      "19223989",
+      "17562792",
+      "17065488",
+      "17020902",
+      "16750192",
+      "16675284",
+      "16203745",
+      "15849191",
+      "12742348",
+      "11696550",
+      "10802651",
+      "10037799",
+      "9816138",
+      "8033571",
+      "2443318"
+    ],
+    "similar": [
+      "40838019",
+      "36943152",
+      "33865984",
+      "38664790",
+      "40471991",
+      "37856539",
+      "36712326",
+      "41230160",
+      "40390022",
+      "39703500",
+      "39615587",
+      "40154828",
+      "38577799",
+      "33717140",
+      "39326643",
+      "31419300",
+      "37682480",
+      "36325073",
+      "36549922",
+      "39700048",
+      "40660409",
+      "36583014",
+      "39376034",
+      "38653489",
+      "40591481",
+      "39769196",
+      "41601671",
+      "36855961",
+      "41060151",
+      "41453673",
+      "39500613",
+      "36495457",
+      "40723810",
+      "39800872",
+      "33197966",
+      "37584660",
+      "39762897",
+      "34182556",
+      "35081356",
+      "40898317",
+      "33388438",
+      "33964410",
+      "36238687",
+      "40622484",
+      "40473205",
+      "35195064",
+      "35470070",
+      "39944798",
+      "34011578",
+      "37036418",
+      "39558215",
+      "37244909",
+      "41033661",
+      "36049533",
+      "39574584",
+      "40687986",
+      "39315707",
+      "37930627",
+      "37680467",
+      "39180857",
+      "41139384",
+      "38887194",
+      "39418984",
+      "39082647",
+      "41102292",
+      "39049508",
+      "34335581",
+      "36131234",
+      "38338756",
+      "38944814",
+      "41177882",
+      "40761790",
+      "32654419",
+      "37407342",
+      "36595669",
+      "39975293",
+      "41130333",
+      "39372861",
+      "18411711",
+      "36902216",
+      "38581422",
+      "40038714",
+      "39674047",
+      "37792336",
+      "38352302",
+      "34174007",
+      "37153569",
+      "34871816",
+      "41558828",
+      "33335900",
+      "40062616",
+      "35280984",
+      "36383176",
+      "39018178",
+      "39487083",
+      "38739758",
+      "41147949",
+      "31068142",
+      "23074512",
+      "39403515"
+    ],
+    "review": [
+      "40838019",
+      "36549922",
+      "39500613",
+      "41139384",
+      "38338756",
+      "32654419",
+      "41130333",
+      "18411711"
+    ],
+    "pmc": [
+      "12363670"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40838019/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article-lookup/doi/10.1093/pnasnexus/pgaf235",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

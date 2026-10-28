@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, discussion, and conclusion sections. Tables and figures are referenced but not fully visible in the provided material.
+- **Assessment boundary** This review evaluates the scientific content, methodological rigor, and interpretive validity of the reported in silico analyses. It does not assess editorial quality or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors report an in silico analysis of 22 TetR family transcriptional regulatory (TFTR) genes from Mycobacterium colombiense CECT 3035, identifying transcription start sites (TSSs), promoter regions, conserved motifs, putative transcription factor binding sites, CpG islands, and phylogenetic relationships. They claim that a common motif (MTF1) is present in 100% of the analyzed promoters, matches 15 known prokaryotic motifs, and may serve as a binding site for transcription factors involved in virulence, metabolism, quorum sensing, cell division, and antibiotic resistance. They further claim that CpG islands are abundant in both promoter and body regions and that phylogenetic analysis reveals close evolutionary relationships among the genes.
+- **Visible evidence base** The manuscript provides one table (Table 1) listing TSS positions, predictive scores, and distances from start codons; one table (Table 2) summarizing identified motifs; one table (Table 3) listing matched transcription factor families; two tables (Tables 4 and 5) detailing MspI restriction sites and fragment sizes; and three figures (Figures 1, 2, and 3) showing motif positions, sequence logos, and a phylogenetic tree. The full content of these tables and figures is not visible in the provided material.
+- **Missing materials affecting confidence** The actual sequence data, the complete output of NNPP predictions, the full MEME motif discovery results, the TOMTOM alignment details with statistical scores, the complete CpG island coordinates and parameters, the full phylogenetic tree with bootstrap values, and any supplementary files are not provided. The absence of these materials limits the ability to independently verify the reported findings.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a descriptive in silico analysis of promoter regions in TFTR genes of M. colombiense CECT 3035. The work is largely computational and descriptive, with no experimental validation. While the topic is of potential interest to researchers studying mycobacterial gene regulation, the manuscript has substantial methodological weaknesses, including unclear criteria for TSS selection, lack of statistical rigor in motif analysis, and overinterpretation of CpG island findings in a prokaryotic context. The claims regarding the functional significance of the identified motifs and their relevance to drug development are speculative and not supported by the evidence presented. The manuscript would benefit from a more focused hypothesis, clearer methodology, and appropriate caveats about the limitations of in silico predictions.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in mycobacteria, particularly those interested in TetR family regulators and their role in virulence and antibiotic resistance, may find the descriptive catalog of promoter features useful as a starting point for further investigation. Computational biologists working on promoter prediction and motif discovery in prokaryotes may also have some interest. However, the lack of experimental validation and the descriptive nature of the findings limit the broader impact.
+- **Major strengths** The manuscript addresses a relevant topic, as understanding gene regulation in M. colombiense is important given its clinical significance. The use of multiple bioinformatics tools (NNPP, MEME, TOMTOM, MEGA-X) is appropriate for the stated objectives. The identification of a common motif across all analyzed promoters is a potentially interesting finding that could warrant further investigation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 86.36% of genes have one TSS and 13.64% have two TSSs, and that the identified TSSs define promoter regions for each gene.
+  - **Evidence pointer** Results section, Table 1
+  - **Concern** The methodology for TSS identification is inadequately described. The authors state that NNPP was used with a cutoff score of 0.8, but the criteria for selecting a single TSS when multiple predictions exist are unclear. The statement that "the highest value of prediction score was considered" is ambiguous, and the biological rationale for this choice is not provided. Furthermore, the distances from the start codon vary widely (from 24 bp to 11,105 bp), and the authors do not explain how such distant TSSs are biologically plausible or how they relate to known promoter structures in mycobacteria. The lack of validation against experimentally determined TSS data, such as those available from dRNA-seq studies in related mycobacteria, undermines confidence in these predictions.
+  - **Why it matters** Accurate TSS identification is foundational to all subsequent analyses. If the TSS assignments are incorrect, the promoter regions, motif discovery, and all downstream interpretations are compromised. The wide range of TSS distances suggests potential artifacts in the prediction pipeline.
+  - **Resolution test** The authors should provide a detailed description of the TSS selection criteria, including how multiple predictions were resolved. They should validate their predictions against experimentally known TSSs in M. columbiense or closely related species. They should also provide the complete NNPP output for each gene to allow independent assessment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MTF1 is a common promoter motif present in 100% of TFTR genes and that it matches 15 known prokaryotic motifs, serving as a binding site for transcription factors such as AraC, LexA, and bacterial histone-like proteins.
+  - **Evidence pointer** Results section, Tables 2 and 3, Figures 1 and 2
+  - **Concern** The motif discovery and comparison methodology lacks critical details. The authors do not report the E-value threshold for motif significance beyond stating the lowest E-value for MTF1, nor do they describe how the number of motifs (five) was determined. The claim that MTF1 is present in 100% of promoters is based on the MEME output, but the statistical significance of this enrichment is not assessed. The TOMTOM comparison results are presented without reporting the p-values, q-values, or the specific database version used. The biological interpretation that MTF1 serves as a binding site for the listed transcription factors is speculative, as no experimental evidence (e.g., electrophoretic mobility shift assays, DNase footprinting, or ChIP-seq) is provided to support these interactions.
+  - **Why it matters** The central claim of the paper rests on the identification and functional annotation of MTF1. Without rigorous statistical reporting and experimental validation, the claim that this motif is a conserved regulatory element with specific transcription factor binding partners is not established.
+  - **Resolution test** The authors should report the complete MEME parameters, including the E-value threshold, the number of motifs tested, and the statistical significance of motif enrichment. They should provide the full TOMTOM output, including p-values, q-values, and database versions. They should temper their functional claims and clearly state that the predicted transcription factor binding sites are hypothetical and require experimental validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the identification of CpG islands in promoter and body regions of TFTR genes has "epigenetic regulatory implications" and that these findings, along with the motif analysis, provide insights for drug development against M. colombiense.
+  - **Evidence pointer** Results section, Tables 4 and 5, Discussion section
+  - **Concern** The relevance of CpG islands in prokaryotes is questionable. CpG islands are primarily a eukaryotic concept related to DNA methylation in CpG dinucleotide-dense regions. While mycobacteria do have DNA methylation systems, the functional significance of CpG islands as defined by eukaryotic criteria is not established in prokaryotes. The authors do not discuss this limitation. Furthermore, the connection between the identified CpG islands and drug development is tenuous and not supported by any direct evidence. The discussion section speculates extensively about the roles of the identified transcription factors in virulence and antibiotic resistance without providing any experimental data to support these claims.
+  - **Why it matters** The paper overstates the significance of its findings. The CpG island analysis may be of limited relevance in a prokaryotic context, and the drug development implications are speculative. This weakens the overall contribution of the work.
+  - **Resolution test** The authors should either provide a strong justification for the relevance of CpG islands in M. colombiense or remove this section. They should clearly state that the drug development implications are speculative and require experimental validation. The discussion should be revised to avoid overinterpretation of in silico predictions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that the analysis was performed using NNPP, MEME, TOMTOP, and MEGA-X, and that the results are reproducible.
+  - **Evidence pointer** Materials and Methods section
+  - **Concern** The methods section lacks sufficient detail for reproducibility. The authors do not provide the exact versions of the software tools used, the specific parameters for each tool, the accession numbers of the 22 TFTR gene sequences, or the criteria for selecting these genes. The description of the phylogenetic analysis is particularly sparse, with no mention of the alignment method, substitution model, or bootstrap replication settings. The statement that "all ambiguous positions were removed for each sequence pair" is insufficient.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific publication. Without detailed methods, other researchers cannot replicate the analysis or assess its validity.
+  - **Resolution test** The authors should provide a complete description of all software versions, parameters, and data sources. They should include accession numbers for all sequences and provide the alignment and phylogenetic tree files as supplementary material.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background and Discussion sections
+  - **Evidence pointer** Background section, Discussion section
+  - **Issue** The manuscript contains several grammatical errors and awkward phrasings that impede readability. For example, "Mycobateria are known to display differential drug susceptibility" contains a typo, and the sentence "Pinpointing of these TSS permits the identification of potential binding sites for transcriptional regulators those may inhibit or promote translation" is grammatically incorrect.
+  - **Required correction** The manuscript should be carefully edited for grammar and clarity. A professional language edit is recommended.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The text states that motif locations were found between -994 and -9 bp, but the Discussion section states "between -974 bp and -9 bp." This discrepancy is not explained.
+  - **Required correction** The authors should verify the correct range and ensure consistency between the Results and Discussion sections.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, Tables 4 and 5
+  - **Evidence pointer** Tables 4 and 5
+  - **Issue** The tables list MspI restriction sites and fragment sizes, but the biological significance of these findings is not discussed. The authors do not explain how the presence of MspI sites relates to CpG islands or gene regulation.
+  - **Required correction** The authors should either provide a clear interpretation of the MspI digestion results or remove this data if it does not contribute to the main findings.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the phylogenetic tree is superficial. The authors state that "close relationships among the genes" were observed but do not discuss the implications of these relationships or how they relate to the functional classification of the TFTR genes.
+  - **Required correction** The authors should expand the discussion of the phylogenetic analysis, including the significance of the observed clustering patterns and their relationship to known TFTR subfamilies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (TSS identification methodology), R1-M2 (motif discovery and transcription factor assignment), R1-M3 (overinterpretation of CpG islands and drug development implications), R1-M4 (lack of methodological detail for reproducibility).
+- **Assessment against Nature-style criteria**
+  - **Originality** The manuscript is largely descriptive and applies established bioinformatics tools to a single bacterial strain. The findings are not conceptually novel, and similar analyses have been reported for other mycobacterial species. The claim of being the "first report" for M. colombiense is of limited significance given the descriptive nature of the work.
+  - **Scientific importance** The topic is of moderate interest to the mycobacterial research community, but the findings do not provide significant new insights into gene regulation or virulence mechanisms. The speculative connections to drug development are not supported by evidence.
+  - **Interdisciplinary readership** The manuscript is unlikely to attract a broad interdisciplinary audience. It is primarily of interest to specialists in mycobacterial genomics and transcriptional regulation.
+  - **Technical soundness** The technical soundness is questionable due to the lack of methodological detail, unclear TSS selection criteria, and insufficient statistical reporting for motif analysis. The relevance of CpG island analysis in prokaryotes is not justified.
+  - **Readability for nonspecialists** The manuscript is not easily accessible to nonspecialists due to grammatical issues and a lack of clear explanations of the biological significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revisions to address the major methodological concerns, provide sufficient detail for reproducibility, and temper the speculative claims. Even after these revisions, the descriptive nature of the work may limit its suitability for a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that MTF1 serves as a binding site for specific transcription factors (AraC, LexA, etc.) is unsupported by experimental evidence and is based solely on computational predictions.
+- The claim that CpG islands have "epigenetic regulatory implications" in M. colombiense is unsupported and potentially misleading given the limited understanding of CpG methylation in prokaryotes.
+- The claim that the findings "provide insights for drug development" is speculative and not substantiated by any experimental data.
+- The claim that the identified TSSs are accurate is not verifiable without experimental validation or comparison to known TSS data.
+- The claim of a "close relationship among the genes" based on the phylogenetic tree is not supported by quantitative measures such as bootstrap values or genetic distance metrics, which are not reported.

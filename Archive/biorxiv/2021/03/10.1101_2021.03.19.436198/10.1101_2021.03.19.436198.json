@@ -1,0 +1,791 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.19.436198",
+  "title": "ChromWave: Deciphering the DNA-encoded competition between transcription factors and nucleosomes with deep neural networks",
+  "doi": "10.1101/2021.03.19.436198",
+  "abstract": "Transcription factors (TFs) regulate gene expression by recognising and binding specific DNA sequences. At times, these regulatory elements may be occluded by nucleosomes, making them inaccessible for TF-binding. The competition for DNA occupancy between TFs and nucleosomes, and associated gene regulatory outputs, are important consequences of the cis-regulatory information encoded in the genome. However, these sequence patterns are subtle and remain difficult to interpret. Here, we introduce ChromWave, a deep-learning model that, for the first time, predicts the competing profiles for TF and nucleosomes occupancies with remarkable accuracy. Models trained using short- and long-fragment MNase-Seq data successfully learn the sequence preferences underlying TF and nucleosome occupancies across the entire yeast genome. They recapitulate nucleosome evictions from regions containing “strong” TF binding sites and knock-out simulations show nucleosomes gaining occupancy in the absence of these TFs, accompanied by lateral rearrangement of adjacent nucleosomes. At a local level, models anticipate with high accuracy the outcomes of detailed experimental analysis of partially unwrapped nucleosomes at the GAL4 UAS locus. Finally, we trained a ChromWave model that successfully predicts nucleosome positions at promoters in the human genome. We find that human promoters generally contain few sites at which simple sequence changes can alter nucleosome occupancies and that these positions align well with causal variants linked to DNase hypersensitivity.",
+  "authors": [
+    "Sera Aylin Cakiroglu",
+    "Sebastian Steinhauser",
+    "Jon Smith",
+    "Wei Xing",
+    "Nicholas M. Luscombe"
+  ],
+  "published_date": "2021-03-20",
+  "updated_date": "2021-03-21T04:00:15Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.436198",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.436198.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            13
+          ]
+        ],
+        "date-time": "2026-08-13T12:20:43Z",
+        "timestamp": 1786623643993,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 88,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                20
+              ]
+            ],
+            "date-time": "2021-03-20T00:00:00Z",
+            "timestamp": 1616198400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>Transcription factors (TFs) regulate gene expression by recognising and binding specific DNA sequences. At times, these regulatory elements may be occluded by nucleosomes, making them inaccessible for TF-binding. The competition for DNA occupancy between TFs and nucleosomes, and associated gene regulatory outputs, are important consequences of the cis-regulatory information encoded in the genome. However, these sequence patterns are subtle and remain difficult to interpret. Here, we introduce ChromWave, a deep-learning model that, for the first time, predicts the competing profiles for TF and nucleosomes occupancies with remarkable accuracy. Models trained using short- and long-fragment MNase-Seq data successfully learn the sequence preferences underlying TF and nucleosome occupancies across the entire yeast genome. They recapitulate nucleosome evictions from regions containing “strong” TF binding sites and knock-out simulations show nucleosomes gaining occupancy in the absence of these TFs, accompanied by lateral rearrangement of adjacent nucleosomes. At a local level, models anticipate with high accuracy the outcomes of detailed experimental analysis of partially unwrapped nucleosomes at the GAL4 UAS locus. Finally, we trained a ChromWave model that successfully predicts nucleosome positions at promoters in the human genome. We find that human promoters generally contain few sites at which simple sequence changes can alter nucleosome occupancies and that these positions align well with causal variants linked to DNase hypersensitivity.</jats:p>",
+      "DOI": "10.1101/2021.03.19.436198",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2021-03-21T04:00:15Z",
+        "timestamp": 1616299215000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "ChromWave: Deciphering the DNA-encoded competition between transcription factors and nucleosomes with deep neural networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9562-9626",
+          "authenticated-orcid": false,
+          "given": "Sera Aylin",
+          "family": "Cakiroglu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5940-3870",
+          "authenticated-orcid": false,
+          "given": "Sebastian",
+          "family": "Steinhauser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jon",
+          "family": "Smith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Xing",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5293-4778",
+          "authenticated-orcid": false,
+          "given": "Nicholas M.",
+          "family": "Luscombe",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1995.tb07164.x"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1189-z"
+        },
+        {
+          "issue": "3",
+          "key": "2024080516395575000_2021.03.19.436198v4.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "354",
+          "DOI": "10.1038/s41588-021-00782-6",
+          "article-title": "Base-resolution models of transcription-factor binding reveal soft motif syntax",
+          "volume": "53",
+          "year": "2021",
+          "journal-title": "Nature genetics"
+        },
+        {
+          "issue": "10",
+          "key": "2024080516395575000_2021.03.19.436198v4.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1196",
+          "DOI": "10.1038/s41592-021-01252-x",
+          "article-title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw562"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2008.11.020"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2010.10.012"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.9",
+          "unstructured": "Bergstra, J.S. et al. (2011) ‘Algorithms for Hyper-Parameter Optimization’, in J. Shawe-Taylor et al. (eds) Advances in Neural Information Processing Systems 24. Curran Associates, Inc., pp. 2546–2554."
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.10",
+          "unstructured": "Bergstra, J. , Yamins, D. and Cox, D. (2013 ) ‘Making a Science of Model Search: Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures’, in International Conference on Machine Learning. International Conference on Machine Learning, pp. 115–123."
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11142"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2012.06.028"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1398-0"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.14",
+          "unstructured": "Chollet, F. and Others (2015) Keras. Available at: https://keras.io."
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1081"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10808"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti525"
+        },
+        {
+          "issue": "8",
+          "key": "2024080516395575000_2021.03.19.436198v4.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1184",
+          "DOI": "10.1038/nprot.2009.97",
+          "article-title": "Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt",
+          "volume": "4",
+          "year": "2009",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.113.008995"
+        },
+        {
+          "issue": "12",
+          "key": "2024080516395575000_2021.03.19.436198v4.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2478",
+          "DOI": "10.1038/nprot.2017.124",
+          "article-title": "Chromatin-state discovery and genome annotation with ChromHMM",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2010.03.048"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa516"
+        },
+        {
+          "issue": "11",
+          "key": "2024080516395575000_2021.03.19.436198v4.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003036",
+          "DOI": "10.1371/journal.pgen.1003036",
+          "article-title": "Controls of nucleosome positioning in the human genome",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "PLoS genetics"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq1161"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1206097"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-2-r24"
+        },
+        {
+          "issue": "8",
+          "key": "2024080516395575000_2021.03.19.436198v4.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000134",
+          "DOI": "10.1371/journal.pcbi.1000134",
+          "article-title": "Predicting human nucleosome occupancy from primary sequence",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.02.043"
+        },
+        {
+          "issue": "9",
+          "key": "2024080516395575000_2021.03.19.436198v4.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "597",
+          "DOI": "10.1002/bies.950140905",
+          "article-title": "The interaction of transcription factors with nucleosomal DNA",
+          "volume": "14",
+          "year": "1992",
+          "journal-title": "BioEssays: news and reviews in molecular, cellular and developmental biology"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, K. et al. (2016) ‘Deep Residual Learning for Image Recognition’, in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770–778.",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1110731108"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-14-428"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1045"
+        },
+        {
+          "issue": "1",
+          "key": "2024080516395575000_2021.03.19.436198v4.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "547",
+          "DOI": "10.1186/s12859-016-1298-9",
+          "article-title": "Evaluating tools for transcription factor binding site prediction",
+          "volume": "17",
+          "year": "2016",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "John, S. et al. (2008) ‘Interaction of the Glucocorticoid Receptor with the Chromatin Landscape’, Molecular Cell, pp. 611–624. Available at: https://doi.org/10.1016/j.molcel.2008.02.010.",
+          "DOI": "10.1016/j.molcel.2008.02.010"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.759"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07667"
+        },
+        {
+          "issue": "2",
+          "key": "2024080516395575000_2021.03.19.436198v4.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1001290",
+          "DOI": "10.1371/journal.pgen.1001290",
+          "article-title": "Quantitative models of the mechanisms that control genome-wide patterns of transcription factor binding during early Drosophila development",
+          "volume": "7",
+          "year": "2011",
+          "journal-title": "PLoS genetics"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.1645104"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.227819.117"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kelley, D.R. , Snoek, J. and Rinn, J. (2015) ‘Basset: Learning the regulatory code of the accessible genome with deep convolutional neural networks’, bioRxiv. Available at: https://doi.org/10.1101/028399.",
+          "DOI": "10.1101/028399"
+        },
+        {
+          "issue": "8",
+          "key": "2024080516395575000_2021.03.19.436198v4.42",
+          "first-page": "5229",
+          "article-title": "Chromatin structure modulation in Saccharomyces cerevisiae by centromere and promoter factor 1",
+          "volume": "14",
+          "year": "1994",
+          "journal-title": "Molecular and cellular biology"
+        },
+        {
+          "issue": "11",
+          "key": "2024080516395575000_2021.03.19.436198v4.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "1192",
+          "DOI": "10.1038/nsmb.1500",
+          "article-title": "A quantitative model of transcription factor-activated gene expression",
+          "volume": "15",
+          "year": "2008",
+          "journal-title": "Nature structural & molecular biology"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.12.048"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.09.045"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06867"
+        },
+        {
+          "issue": "4",
+          "key": "2024080516395575000_2021.03.19.436198v4.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1038/nmeth.1923",
+          "article-title": "Fast gapped-read alignment with Bowtie 2",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "24133",
+          "DOI": "10.1038/srep24133",
+          "article-title": "A deformation energy-based model for predicting nucleosome dyads and occupancy",
+          "volume": "6",
+          "year": "2016",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-7-113"
+        },
+        {
+          "issue": "9",
+          "key": "2024080516395575000_2021.03.19.436198v4.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003214",
+          "DOI": "10.1371/journal.pcbi.1003214",
+          "article-title": "The next generation of transcription factor binding site prediction",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mirny, L. (2009) ‘Nucleosome-mediated cooperativity between transcription factors’, Nature Precedings [Preprint]. Available at: https://doi.org/10.1038/npre.2009.2796.1.",
+          "DOI": "10.1038/npre.2009.2796.1"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11212"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.53",
+          "unstructured": "van den Oord, A. , Kalchbrenner, N. , et al. (2016) ‘Conditional Image Generation with PixelCNN Decoders’, arXiv [cs.CV]. Available at: http://arxiv.org/abs/1606.05328."
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.54",
+          "unstructured": "van den Oord, A. , Dieleman, S. , et al. (2016) ‘WaveNet: A Generative Model for Raw Audio’, arXiv [cs.SD]. Available at: http://arxiv.org/abs/1609.03499."
+        },
+        {
+          "issue": "8",
+          "key": "2024080516395575000_2021.03.19.436198v4.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003181",
+          "DOI": "10.1371/journal.pcbi.1003181",
+          "article-title": "Nucleosome free regions in yeast promoters result from competitive binding of transcription factors that interact with chromatin modifiers",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1145"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.6101007"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw257"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2305"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.229518.117"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.192294.115"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14192"
+        },
+        {
+          "issue": "11",
+          "key": "2024080516395575000_2021.03.19.436198v4.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "1118",
+          "DOI": "10.1038/s41592-020-0960-3",
+          "article-title": "DeepC: predicting 3D genome folding using megabase-scale transfer learning",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04979"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2009.01.004"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv350"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.112.143370"
+        },
+        {
+          "issue": "12",
+          "key": "2024080516395575000_2021.03.19.436198v4.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "9335",
+          "DOI": "10.1016/S0021-9258(17)37113-2",
+          "article-title": "Analysis of the competition between nucleosome formation and transcription factor binding",
+          "volume": "269",
+          "year": "1994",
+          "journal-title": "The Journal of biological chemistry"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.70",
+          "unstructured": "Team BC , Maintainer BP (2019) ‘TxDb.Hsapiens.UCSC.hg38.knownGene: Annotation package for TxDb object(s)’, R package version 3.4.6. [Preprint]. Available at: https://bioconductor.org/packages/release/data/annotation/html/TxDb.Hsapiens.UCSC.hg38.knownGene.html."
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.122267.111"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1000414"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2528-x"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky215"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1315"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.093450.109"
+        },
+        {
+          "issue": "2",
+          "key": "2024080516395575000_2021.03.19.436198v4.77",
+          "doi-asserted-by": "crossref",
+          "first-page": "294",
+          "DOI": "10.1016/j.molcel.2018.06.017",
+          "article-title": "Systematic Study of Nucleosome-Displacing Factors in Budding Yeast",
+          "volume": "71",
+          "year": "2018",
+          "journal-title": "Molecular cell"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.24.20.9152-9164.2004"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zeng, H. and Gifford, D.K. (2017) ‘Predicting the impact of non-coding variants on DNA methylation’, Nucleic acids research [Preprint]. Available at: https://doi.org/10.1093/nar/gkx177.",
+          "DOI": "10.1093/nar/gkx177"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.80",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zerbino, D.R. et al. (2018) ‘Ensembl 2018’, Nucleic Acids Research, pp. D754–D761. Available at: https://doi.org/10.1093/nar/gkx1098.",
+          "DOI": "10.1093/nar/gkx1098"
+        },
+        {
+          "issue": "1",
+          "key": "2024080516395575000_2021.03.19.436198v4.81",
+          "doi-asserted-by": "crossref",
+          "first-page": "3696",
+          "DOI": "10.1038/s41467-020-14743-w",
+          "article-title": "An integrative ENCODE resource for cancer genomics",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nature communications"
+        },
+        {
+          "issue": "8",
+          "key": "2024080516395575000_2021.03.19.436198v4.82",
+          "doi-asserted-by": "crossref",
+          "first-page": "847",
+          "DOI": "10.1038/nsmb.1636",
+          "article-title": "Intrinsic histone-DNA interactions are not the major determinant of nucleosome positions in vivo",
+          "volume": "16",
+          "year": "2009",
+          "journal-title": "Nature structural & molecular biology"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1200508"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.84",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao, Y. et al. (2018) ‘NucMap: a database of genome-wide nucleosome positioning map across species’, Nucleic acids research [Preprint]. Available at: https://doi.org/10.1093/nar/gky980",
+          "DOI": "10.1093/nar/gky980"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu408"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.090233.108"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.87",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, F. et al. (2018) ‘The interaction landscape between transcription factors and the nucleosome’, Nature [Preprint]. Available at: https://doi.org/10.1038/s41586-018-0549-5.",
+          "DOI": "10.1038/s41586-018-0549-5"
+        },
+        {
+          "key": "2024080516395575000_2021.03.19.436198v4.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/15.7.607"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.19.436198",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:28:14Z",
+        "timestamp": 1768440494000
+      },
+      "score": 90.38804,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.03.19.436198"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "references-count": 88,
+      "URL": "https://doi.org/10.1101/2021.03.19.436198",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

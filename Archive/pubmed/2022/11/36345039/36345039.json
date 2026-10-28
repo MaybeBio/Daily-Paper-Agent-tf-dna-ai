@@ -1,0 +1,666 @@
+{
+  "identity": {
+    "pmid": "36345039",
+    "doi": "10.1186/s13059-022-02801-z",
+    "title": "Comprehensive transcriptional variability analysis reveals gene networks regulating seed oil content of Brassica napus."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Regulation of gene expression plays an essential role in controlling the phenotypes of plants. Brassica napus (B. napus) is an important source for the vegetable oil in the world, and the seed oil content is an important trait of B. napus. RESULTS: We perform a comprehensive analysis of the transcriptional variability in the seeds of B. napus at two developmental stages, 20 and 40 days after flowering (DAF). We detect 53,759 and 53,550 independent expression quantitative trait loci (eQTLs) for 79,605 and 76,713 expressed genes at 20 and 40 DAF, respectively. Among them, the local eQTLs are mapped to the adjacent genes more frequently. The adjacent gene pairs are regulated by local eQTLs with the same open chromatin state and show a stronger mode of expression piggybacking. Inter-subgenomic analysis indicates that there is a feedback regulation for the homoeologous gene pairs to maintain partial expression dosage. We also identify 141 eQTL hotspots and find that hotspot87-88 co-localizes with a QTL for the seed oil content. To further resolve the regulatory network of this eQTL hotspot, we construct the XGBoost model using 856 RNA-seq datasets and the Basenji model using 59 ATAC-seq datasets. Using these two models, we predict the mechanisms affecting the seed oil content regulated by hotspot87-88 and experimentally validate that the transcription factors, NAC13 and SCL31, positively regulate the seed oil content. CONCLUSIONS: We comprehensively characterize the gene regulatory features in the seeds of B. napus and reveal the gene networks regulating the seed oil content of B. napus.",
+    "keywords": [
+      "Brassica napus",
+      "Machine learning",
+      "Regulatory network",
+      "Seed oil content",
+      "Subgenome",
+      "eQTL"
+    ],
+    "mesh_terms": [
+      "*Brassica napus/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Seeds/genetics/metabolism",
+      "Quantitative Trait Loci",
+      "Plant Oils/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, Zengdong",
+        "Peng, Yan",
+        "Xiong, Yao",
+        "Xiong, Feng",
+        "Zhang, Yuting",
+        "Guo, Ning",
+        "Tu, Zhuo",
+        "Zong, Zhanxiang",
+        "Wu, Xiaokun",
+        "Ye, Jiang",
+        "Xia, Chunjiao",
+        "Zhu, Tao",
+        "Liu, Yinmeng",
+        "Lou, Hongxiang",
+        "Liu, Dongxu",
+        "Lu, Shaoping",
+        "Yao, Xuan",
+        "Liu, Kede",
+        "Snowdon, Rod J",
+        "Golicz, Agnieszka A",
+        "Xie, Weibo",
+        "Guo, Liang",
+        "Zhao, Hu"
+      ],
+      "short_names": [
+        "Tan Z",
+        "Peng Y",
+        "Xiong Y",
+        "Xiong F",
+        "Zhang Y",
+        "Guo N",
+        "Tu Z",
+        "Zong Z",
+        "Wu X",
+        "Ye J",
+        "Xia C",
+        "Zhu T",
+        "Liu Y",
+        "Lou H",
+        "Liu D",
+        "Lu S",
+        "Yao X",
+        "Liu K",
+        "Snowdon RJ",
+        "Golicz AA",
+        "Xie W",
+        "Guo L",
+        "Zhao H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7191-5062"
+      ],
+      "affiliations": [
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Department of Plant Breeding, Justus Liebig University, Giessen, Germany.",
+        "Department of Plant Breeding, Justus Liebig University, Giessen, Germany.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China. weibo.xie@mail.hzau.edu.cn.",
+        "Hubei Hongshan Laboratory, Wuhan, China. weibo.xie@mail.hzau.edu.cn.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China. weibo.xie@mail.hzau.edu.cn.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China. guoliang@mail.hzau.edu.cn.",
+        "Hubei Hongshan Laboratory, Wuhan, China. guoliang@mail.hzau.edu.cn.",
+        "Shenzhen Institute of Nutrition and Health, Huazhong Agricultural University, Wuhan, China. guoliang@mail.hzau.edu.cn.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory of the Ministry of Agriculture, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, China. guoliang@mail.hzau.edu.cn.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China. zhaohu@mail.hzau.edu.cn.",
+        "Hubei Hongshan Laboratory, Wuhan, China. zhaohu@mail.hzau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, Zengdong",
+        "short_name": "Tan Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yan",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yao",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Feng",
+        "short_name": "Xiong F",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuting",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Ning",
+        "short_name": "Guo N",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Zhuo",
+        "short_name": "Tu Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zong, Zhanxiang",
+        "short_name": "Zong Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaokun",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Jiang",
+        "short_name": "Ye J",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Chunjiao",
+        "short_name": "Xia C",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Tao",
+        "short_name": "Zhu T",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yinmeng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Hongxiang",
+        "short_name": "Lou H",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dongxu",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shaoping",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Xuan",
+        "short_name": "Yao X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kede",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Snowdon, Rod J",
+        "short_name": "Snowdon RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Breeding, Justus Liebig University, Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Golicz, Agnieszka A",
+        "short_name": "Golicz AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Breeding, Justus Liebig University, Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Xie, Weibo",
+        "short_name": "Xie W",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China. weibo.xie@mail.hzau.edu.cn.",
+          "Hubei Hongshan Laboratory, Wuhan, China. weibo.xie@mail.hzau.edu.cn.",
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China. weibo.xie@mail.hzau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Guo, Liang",
+        "short_name": "Guo L",
+        "identifiers": [
+          "0000-0001-7191-5062"
+        ],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China. guoliang@mail.hzau.edu.cn.",
+          "Hubei Hongshan Laboratory, Wuhan, China. guoliang@mail.hzau.edu.cn.",
+          "Shenzhen Institute of Nutrition and Health, Huazhong Agricultural University, Wuhan, China. guoliang@mail.hzau.edu.cn.",
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory of the Ministry of Agriculture, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, China. guoliang@mail.hzau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hu",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China. zhaohu@mail.hzau.edu.cn.",
+          "Hubei Hongshan Laboratory, Wuhan, China. zhaohu@mail.hzau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2022 Nov 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/09 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "42579509",
+      "41958017",
+      "41376168",
+      "41161492",
+      "41022763",
+      "41022582",
+      "40528052",
+      "40488597",
+      "40469521",
+      "40176168",
+      "40138370",
+      "39985171",
+      "39977251",
+      "39752491",
+      "39197025",
+      "37932798",
+      "37337206"
+    ],
+    "refs": [
+      "35605194",
+      "35346318",
+      "35149708",
+      "34735437",
+      "34525252",
+      "34260132",
+      "34214659",
+      "34037796",
+      "33750361",
+      "33740972",
+      "33665819",
+      "33619356",
+      "33594406",
+      "33481630",
+      "33387675",
+      "33309900",
+      "33188264",
+      "33068485",
+      "32631406",
+      "32553272",
+      "32546248",
+      "32514149",
+      "32485068",
+      "32394708",
+      "32184350",
+      "32017125",
+      "31932676",
+      "31469515",
+      "31400447",
+      "31253789",
+      "31043757",
+      "30971806",
+      "30923381",
+      "30858362",
+      "30842277",
+      "30808370",
+      "30686579",
+      "30483289",
+      "30448864",
+      "30081834",
+      "29844615",
+      "29725103",
+      "29588361",
+      "29275164",
+      "29265559",
+      "28919077",
+      "28804138",
+      "28434153",
+      "28335009",
+      "27903897",
+      "27637746",
+      "27553510",
+      "27019110",
+      "26301843",
+      "26260942",
+      "25765928",
+      "25559105",
+      "25146293",
+      "25090999",
+      "24908251",
+      "24420573",
+      "23505340",
+      "22143225",
+      "21892150",
+      "21562329",
+      "21349199",
+      "21330290",
+      "20644199",
+      "20488892",
+      "20222981",
+      "20208533",
+      "20162256",
+      "20110278",
+      "19828328",
+      "19584810",
+      "19541911",
+      "19505943",
+      "19136270",
+      "18798982",
+      "18689444",
+      "17701901",
+      "17585298",
+      "17565937",
+      "17324271",
+      "15500472",
+      "12454648",
+      "11398963",
+      "10069079",
+      "8226956"
+    ],
+    "similar": [
+      "36345039",
+      "35346318",
+      "30634904",
+      "30519824",
+      "31018533",
+      "37775748",
+      "23077542",
+      "37337206",
+      "33494188",
+      "30535511",
+      "28594951",
+      "37496273",
+      "24504552",
+      "30830267",
+      "30314449",
+      "30332454",
+      "33677638",
+      "33309900",
+      "35084514",
+      "22042481",
+      "12522424",
+      "26896439",
+      "30514240",
+      "29025408",
+      "26499887",
+      "26302483",
+      "33407143",
+      "34786793",
+      "16575595",
+      "25888376",
+      "35907629",
+      "25523093",
+      "31011871",
+      "26912143",
+      "19828328",
+      "26773545",
+      "22563121",
+      "20439099",
+      "22442419",
+      "30143828",
+      "31931712",
+      "38010528",
+      "29752761",
+      "31832742",
+      "36056567",
+      "18703491",
+      "34051742",
+      "36835614",
+      "18322671",
+      "28393910",
+      "27717475",
+      "31096923",
+      "29381708",
+      "19219639",
+      "25919591",
+      "23216693",
+      "29974306",
+      "20237116",
+      "24289287",
+      "23613820",
+      "25219307",
+      "21076506",
+      "33048384",
+      "30536486",
+      "23226347",
+      "23448243",
+      "27796489",
+      "31272381",
+      "17430545",
+      "38003299",
+      "39041422",
+      "22138974",
+      "33818008",
+      "37392526",
+      "32467731",
+      "37298213",
+      "34525252",
+      "30703566",
+      "37195091",
+      "30555087",
+      "31504915",
+      "24053668",
+      "37439815",
+      "23836385",
+      "28650150",
+      "19760260",
+      "12834062",
+      "32031882",
+      "38812077",
+      "30183130",
+      "28097785",
+      "19093121",
+      "16960716",
+      "37626056",
+      "38003410",
+      "21184048",
+      "19686376",
+      "29205038",
+      "23185526",
+      "21954986",
+      "35885914",
+      "26419915",
+      "27000872",
+      "20162256",
+      "28454707",
+      "17426765",
+      "19825684",
+      "33167895",
+      "30858362",
+      "24393360",
+      "26195728",
+      "21562329",
+      "24128529",
+      "38198218",
+      "36765368",
+      "28056775",
+      "36613800",
+      "37246599",
+      "33923211",
+      "31505838",
+      "38735918",
+      "37221547",
+      "38903439",
+      "37047249",
+      "36432869",
+      "32216029",
+      "36714692",
+      "37154465",
+      "37313324",
+      "37100112",
+      "28510961",
+      "35449889",
+      "38642182",
+      "32752101",
+      "37629083",
+      "37676770",
+      "38899717",
+      "38592934",
+      "38217300",
+      "37514223",
+      "36147221",
+      "36679038",
+      "23692271",
+      "39257006",
+      "33889166",
+      "37309544",
+      "37692433",
+      "39197025",
+      "39375525"
+    ],
+    "review": [
+      "36345039",
+      "27796489",
+      "36613800"
+    ],
+    "pmc": [
+      "9639296"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02801-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36345039/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36345039",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

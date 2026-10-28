@@ -1,0 +1,536 @@
+{
+  "identity": {
+    "pmid": "41593769",
+    "doi": "10.1186/s13046-026-03648-z",
+    "title": "Paroxetine repurposing enhances antitumor immunity via SPOP-mediated PD-L1 ubiquitination and proteasomal degradation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Immunotherapy targeting the PD-1/PD-L1 axis shows promise in colon and lung cancer treatment but faces challenges like high costs, low response rates, and drug resistance. Developing new small molecule inhibitors is complex. Repurposing existing drugs offers advantages, and paroxetine (PAR), an FDA approved antidepressant, has shown potential antitumor effects, yet its role as an immune checkpoint inhibitor is unclear. METHODS: In this study, we investigated PAR as an immune checkpoint inhibitor. We used various cell lines, including colon and lung cancer cells, and in vivo mouse models. Techniques such as Western blotting, flow cytometry, immunofluorescence, and immunohistochemistry were employed to analyze protein expression, cell surface marker levels, and immune cell populations. We also conducted gene knockdown and overexpression experiments, as well as molecular docking and binding assays. RESULTS: PAR downregulates PD-L1 protein levels in a concentration and time dependent manner in multiple cancer cell lines. In vivo, it inhibits tumor growth in colon and lung cancer mouse models by activating T cell immunity. Mechanistically, PAR binds to the Asp130 site of speckle-type POZ protein (SPOP), stabilizing this E3 ubiquitin ligase to promote PD-L1 ubiquitination and proteasomal degradation. Moreover, PAR combines with an anti-CTLA4 antibody enhances cancer cell inhibition, and it also suppresses AOM/DSS induced colon cancer. CONCLUSIONS: Our findings demonstrate that PAR can function as an immune checkpoint inhibitor by targeting SPOP to degrade PD-L1, enhancing antitumor immunity. This provides a new theoretical basis for using PAR in colorectal and lung cancer treatment and offers insights into repurposing other drugs for cancer therapy.",
+    "keywords": [
+      "Cancer",
+      "PD-L1",
+      "Paroxetine",
+      "SPOP",
+      "Ubiquitination"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "*B7-H1 Antigen/metabolism",
+      "Ubiquitination",
+      "*Nuclear Proteins/metabolism",
+      "*Paroxetine/pharmacology/therapeutic use",
+      "*Repressor Proteins/metabolism",
+      "Drug Repositioning",
+      "*Proteasome Endopeptidase Complex/metabolism",
+      "Cell Line, Tumor",
+      "Proteolysis",
+      "Xenograft Model Antitumor Assays",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Mengting",
+        "Tian, Saisai",
+        "Xu, Hanchi",
+        "Xue, Xinying",
+        "Zhang, Qing",
+        "Hu, Hongmei",
+        "Wu, Gaosong",
+        "Geng, Xiangxin",
+        "Yu, Dianping",
+        "Xu, Hanchen",
+        "Xie, Mei",
+        "Li, Linyang",
+        "Li, Xinru",
+        "Li, Simeng",
+        "Xie, Shize",
+        "Lin, Xuwen",
+        "Lyu, Shuzhen",
+        "Xie, Yutong",
+        "Zhang, Biao",
+        "Zhou, Haiyang",
+        "Wang, Qun",
+        "Zhang, Weidong",
+        "Liu, Sanhong"
+      ],
+      "short_names": [
+        "Xu M",
+        "Tian S",
+        "Xu H",
+        "Xue X",
+        "Zhang Q",
+        "Hu H",
+        "Wu G",
+        "Geng X",
+        "Yu D",
+        "Xu H",
+        "Xie M",
+        "Li L",
+        "Li X",
+        "Li S",
+        "Xie S",
+        "Lin X",
+        "Lyu S",
+        "Xie Y",
+        "Zhang B",
+        "Zhou H",
+        "Wang Q",
+        "Zhang W",
+        "Liu S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "Department of Phytochemistry, School of Pharmacy, Second Military Medical University, 325 Guohe Road, Shanghai, 200433, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "Department of Respiratory and Critical Care, Emergency and Critical Care Medical Center, Beijing Shijitan Hospital, Capital Medical University, Beijing, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "Institute of Digestive Diseases, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Respiratory and Critical Care, Emergency and Critical Care Medical Center, Beijing Shijitan Hospital, Capital Medical University, Beijing, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China.",
+        "Department of Phytochemistry, School of Pharmacy, Second Military Medical University, 325 Guohe Road, Shanghai, 200433, China.",
+        "Department of Respiratory and Critical Care, Emergency and Critical Care Medical Center, Beijing Shijitan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Breast Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Pathology, Chinese PLA General Hospital, the First Medical Centre, Beijing, China.",
+        "Shanghai Hui Tian Jin Ze Biomedical Technology Co., Ltd, No. 888, Huanhu West Second Road, Shanghai, 201236, China. zhangb@huitianjinze.com.",
+        "Division of Colorectal Surgery, Changzheng Hospital, No. 415, Fengyang Road, Shanghai, 200003, China. haiyang1985_1@aliyun.com.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China. qunwang0523@163.com.",
+        "Department of Phytochemistry, School of Pharmacy, Second Military Medical University, 325 Guohe Road, Shanghai, 200433, China. wdzhangy@hotmail.com.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100193, China. wdzhangy@hotmail.com.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China. liush@shutcm.edu.cn.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. liush@shutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Mengting",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Saisai",
+        "short_name": "Tian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Phytochemistry, School of Pharmacy, Second Military Medical University, 325 Guohe Road, Shanghai, 200433, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hanchi",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Xinying",
+        "short_name": "Xue X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care, Emergency and Critical Care Medical Center, Beijing Shijitan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qing",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Hongmei",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Gaosong",
+        "short_name": "Wu G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Xiangxin",
+        "short_name": "Geng X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Dianping",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hanchen",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Digestive Diseases, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Mei",
+        "short_name": "Xie M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care, Emergency and Critical Care Medical Center, Beijing Shijitan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Linyang",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinru",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Li, Simeng",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Shize",
+        "short_name": "Xie S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Phytochemistry, School of Pharmacy, Second Military Medical University, 325 Guohe Road, Shanghai, 200433, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xuwen",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care, Emergency and Critical Care Medical Center, Beijing Shijitan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Shuzhen",
+        "short_name": "Lyu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yutong",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Chinese PLA General Hospital, the First Medical Centre, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Biao",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Hui Tian Jin Ze Biomedical Technology Co., Ltd, No. 888, Huanhu West Second Road, Shanghai, 201236, China. zhangb@huitianjinze.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Haiyang",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Colorectal Surgery, Changzheng Hospital, No. 415, Fengyang Road, Shanghai, 200003, China. haiyang1985_1@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Qun",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China. qunwang0523@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weidong",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Phytochemistry, School of Pharmacy, Second Military Medical University, 325 Guohe Road, Shanghai, 200433, China. wdzhangy@hotmail.com.",
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100193, China. wdzhangy@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Sanhong",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China. liush@shutcm.edu.cn.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. liush@shutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2026 Jan 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:46",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40403728",
+      "39181801",
+      "39164687",
+      "39037545",
+      "38938284",
+      "38237597",
+      "37927787",
+      "37906636",
+      "37873692",
+      "37581614",
+      "37291608",
+      "37216761",
+      "37055532",
+      "36806645",
+      "36698265",
+      "36594471",
+      "36527888",
+      "36512624",
+      "36481790",
+      "36198437",
+      "36177034",
+      "35764271",
+      "35641493",
+      "35338151",
+      "35181605",
+      "35132224",
+      "35062949",
+      "34767785",
+      "34518538",
+      "34256042",
+      "34183449",
+      "34168048",
+      "34006473",
+      "33976226",
+      "33906641",
+      "33879767",
+      "33837297",
+      "33537076",
+      "33530981",
+      "33354502",
+      "33213267",
+      "33159034",
+      "32888949",
+      "32555170",
+      "32152439",
+      "31526368",
+      "30634506",
+      "30546008",
+      "30421568",
+      "30397328",
+      "30154154",
+      "29562194",
+      "29160310",
+      "29118007",
+      "29117944",
+      "29092952",
+      "28813417",
+      "28813410",
+      "28803728",
+      "28349925",
+      "28217128",
+      "27765066",
+      "27446497",
+      "27332730",
+      "26858199",
+      "26137860",
+      "24778419",
+      "23890059",
+      "23828940",
+      "23744864",
+      "19818708",
+      "17170702",
+      "15308095",
+      "11731424",
+      "11136637"
+    ],
+    "similar": [
+      "41593769",
+      "29160310",
+      "33537094",
+      "33879767",
+      "34416901",
+      "34026438",
+      "39499771",
+      "41623165",
+      "41534899",
+      "39694700",
+      "38454413",
+      "34353330",
+      "38529546",
+      "41872151",
+      "41922082",
+      "41308740",
+      "42050706",
+      "41075009",
+      "38040417",
+      "38340178",
+      "37758653",
+      "32439799",
+      "37658376",
+      "41184620",
+      "41981629",
+      "40983342",
+      "38953362",
+      "37001908",
+      "32665011",
+      "31044422",
+      "41148213",
+      "38821736",
+      "40506611",
+      "42497523",
+      "41526166",
+      "34054817",
+      "41235233",
+      "37217923",
+      "36481790",
+      "40514069",
+      "36104103",
+      "38520004",
+      "41203822",
+      "40977688",
+      "42442361",
+      "39571269",
+      "41928228",
+      "39962908",
+      "39034411",
+      "40794185",
+      "31678303",
+      "36594471",
+      "40020887",
+      "32024543",
+      "39247194",
+      "34586738",
+      "41875719",
+      "29777712",
+      "40389130",
+      "41053808",
+      "31511071",
+      "39542656",
+      "39740910",
+      "33069770",
+      "39060025",
+      "40083936",
+      "34315872",
+      "34753771",
+      "33992804",
+      "39231544",
+      "41629991",
+      "36198437",
+      "41229436",
+      "35265193",
+      "37914384",
+      "30711516",
+      "41870861",
+      "40216443",
+      "40658314",
+      "41063153",
+      "40253320",
+      "38537440",
+      "36171633",
+      "32690037",
+      "33455075",
+      "33762355",
+      "30709380",
+      "39890194",
+      "40934540",
+      "35638972",
+      "40118325",
+      "31938049",
+      "41038145",
+      "37259060",
+      "34976211",
+      "41406067",
+      "41646985",
+      "40279954",
+      "41580750",
+      "38968790"
+    ],
+    "review": [
+      "41593769"
+    ],
+    "pmc": [
+      "12918487"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-026-03648-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41593769/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

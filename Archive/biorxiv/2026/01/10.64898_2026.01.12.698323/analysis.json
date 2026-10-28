@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.12.698323",
+  "title": "caRBP-Pred: Deep Learning-based Prediction of Chromatin-Associated RNA-Binding Proteins Using Short Peptide Sequences",
+  "authors": "Qiang Sun; Feng Yang; Hao Sun; Xiaona Chen; Huating Wang",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-13",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN-BiLSTM基于染色质接触肽预测染色质相关RNA结合蛋白，虽涉及蛋白-染色质互作但非TF-DNA体系，且无三维互作建模，方法可迁移性有限。",
+  "abstract": "RNA-binding proteins (RBPs) are pivotal in cellular processes ranging from RNA metabolism to 3D genome organization. A distinct subset, chromatin-associated RBPs (caRBPs), binds directly to chromatin to function as transcriptional regulators. However, identifying caRBPs via traditional methods like Chromatin Immunoprecipitation Sequencing (ChIP-seq) and Mass Spectrometry (MS) is labor-intensive and costly. While computational tools for DNA- and RNA-binding protein (DRBP) prediction exist, they often rely on outdated Gene Ontology annotations and fail to capture the unique characteristics of chromatin association. Here, we introduce caRBP-Pred, a novel deep learning approach combining Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory networks (BiLSTM). Unlike previous methods utilizing full-length sequences, our model is trained on chromatin-contact peptides derived from mouse embryonic stem cells (mESCs). caRBP-Pred achieves a superior Area Under the Curve (AUC) of 0.81 using peptide sequence information alone, significantly outperforming existing DRBP predictors which exhibit low recall for caRBPs. We further predicted 52 potential caRBPs in mice. Notably, validation against human homologs confirmed that our model accurately predicts candidates with experimentally verified chromatin-binding capabilities. Collectively, caRBP-Pred is the first tool specifically designed to predict caRBPs based on chromatin-contact peptides, offering a valuable resource for investigating regulatory roles of caRBPs on transcription.",
+  "abstract_zh": "RNA结合蛋白（RBPs）在从RNA代谢到3D基因组组织的细胞过程中起着关键作用。其中一类独特的亚群，染色质相关RNA结合蛋白（caRBPs），直接与染色质结合，作为转录调控因子发挥作用。然而，通过传统方法如染色质免疫沉淀测序（ChIP-seq）和质谱（MS）鉴定caRBPs既费时又昂贵。尽管存在用于预测DNA和RNA结合蛋白（DRBP）的计算工具，但它们往往依赖过时的基因本体注释，未能捕捉染色质关联的独特特征。在此，我们介绍了caRBP-Pred，一种结合卷积神经网络（CNN）和双向长短期记忆网络（BiLSTM）的新型深度学习方法。与以往使用全长序列的方法不同，我们的模型基于源自小鼠胚胎干细胞（mESCs）的染色质接触肽进行训练。caRBP-Pred仅利用肽序列信息即实现了优越的曲线下面积（AUC）0.81，显著优于现有对caRBPs召回率较低的DRBP预测器。我们进一步预测了小鼠中52个潜在的caRBPs。值得注意的是，针对人类同源物的验证确认，我们的模型能准确预测具有实验验证染色质结合能力的候选物。总之，caRBP-Pred是首个专门基于染色质接触肽预测caRBPs的工具，为研究caRBPs在转录中的调控作用提供了宝贵资源。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698323",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698323",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.12.698323/index.html"
+}

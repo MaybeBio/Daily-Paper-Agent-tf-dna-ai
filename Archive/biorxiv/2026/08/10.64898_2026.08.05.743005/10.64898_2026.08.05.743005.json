@@ -1,0 +1,169 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.05.743005",
+  "title": "Evolution-inspired multi-objective Bayesian optimization for protein engineering",
+  "doi": "10.64898/2026.08.05.743005",
+  "abstract": "Protein engineering requires efficient navigation of vast sequence spaces under limited evaluation budgets, especially when multiple properties must be optimized simultaneously. We developed Evolution-inspired Multi-Objective Bayesian Optimization (EvoMOBO), an active-learning framework that integrates path-dependent sequence generation, global competition among generated variants, and explicit multi-objective optimization. Benchmarking against state-of-the-art methods on complete steroid receptor DNA-binding domain and ParD3 antitoxin landscapes demonstrated robust target-region enrichment, Pareto-front advancement, and sequence diversity across two- and three-objective tasks. In the DBD landscape, simulation-derived geometric descriptors served as labels for both initialization and iterative updating, enriching variants with favorable measured activities without experimental labels. Building on this validation, we applied EvoMOBO to two enzyme-engineering tasks using simulation-derived mechanistic descriptors, with experiments reserved for final validation. For an old yellow enzyme ( Gk OYE), 16 of 26 tested variants outperformed the wild type, and the best increased non-native oxidative dehydrogenation conversion from 17.5% to 95%. For a formate oxidase ( Ao FOx), EvoMOBO identified aggregation-resistant variants, two of which nearly doubled diethyl phthalate degradation in a photoenzymatic cascade. Together, these results establish EvoMOBO as a modular framework for multi-objective protein engineering using experimental or mechanism-derived labels.",
+  "authors": [
+    "Wen K",
+    "Wang S",
+    "Sun Y",
+    "Li S",
+    "Wang M",
+    "Liu H",
+    "Li Q",
+    "Zhu J"
+  ],
+  "published_date": "2026-08-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.05.743005",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.05.743005.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1293204",
+    "raw_record": {
+      "id": "PPR1293204",
+      "source": "PPR",
+      "doi": "10.64898/2026.08.05.743005",
+      "title": "Evolution-inspired multi-objective Bayesian optimization for protein engineering",
+      "authorString": "Wen K, Wang S, Sun Y, Li S, Wang M, Liu H, Li Q, Zhu J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wen K",
+            "lastName": "Wen",
+            "firstName": "Kai",
+            "initials": "K"
+          },
+          {
+            "fullName": "Wang S",
+            "lastName": "Wang",
+            "firstName": "Sirui",
+            "initials": "S"
+          },
+          {
+            "fullName": "Sun Y",
+            "lastName": "Sun",
+            "firstName": "Yixin",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Li S",
+            "lastName": "Li",
+            "firstName": "Shiwen",
+            "initials": "S"
+          },
+          {
+            "fullName": "Wang M",
+            "lastName": "Wang",
+            "firstName": "Mengsong",
+            "initials": "M"
+          },
+          {
+            "fullName": "Liu H",
+            "lastName": "Liu",
+            "firstName": "Haoyang",
+            "initials": "H"
+          },
+          {
+            "fullName": "Li Q",
+            "lastName": "Li",
+            "firstName": "Quanshun",
+            "initials": "Q"
+          },
+          {
+            "fullName": "Zhu J",
+            "lastName": "Zhu",
+            "firstName": "Jingxuan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3730-6623"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3730-6623"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Protein engineering requires efficient navigation of vast sequence spaces under limited evaluation budgets, especially when multiple properties must be optimized simultaneously. We developed Evolution-inspired Multi-Objective Bayesian Optimization (EvoMOBO), an active-learning framework that integrates path-dependent sequence generation, global competition among generated variants, and explicit multi-objective optimization. Benchmarking against state-of-the-art methods on complete steroid receptor DNA-binding domain and ParD3 antitoxin landscapes demonstrated robust target-region enrichment, Pareto-front advancement, and sequence diversity across two- and three-objective tasks. In the DBD landscape, simulation-derived geometric descriptors served as labels for both initialization and iterative updating, enriching variants with favorable measured activities without experimental labels. Building on this validation, we applied EvoMOBO to two enzyme-engineering tasks using simulation-derived mechanistic descriptors, with experiments reserved for final validation. For an old yellow enzyme (  Gk OYE), 16 of 26 tested variants outperformed the wild type, and the best increased non-native oxidative dehydrogenation conversion from 17.5% to 95%. For a formate oxidase (  Ao FOx), EvoMOBO identified aggregation-resistant variants, two of which nearly doubled diethyl phthalate degradation in a photoenzymatic cascade. Together, these results establish EvoMOBO as a modular framework for multi-objective protein engineering using experimental or mechanism-derived labels.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Science and Technology Department of Jilin Province",
+            "grantId": "20260102209JC",
+            "orderIn": 0
+          },
+          {
+            "agency": "Fundamental Research Funds of the Central Universities in China",
+            "grantId": "2026-JCXK-13",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "32571468",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "U24A20365",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.08.05.743005"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-08-07",
+      "firstPublicationDate": "2026-08-06",
+      "firstIndexDate": "2026-08-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

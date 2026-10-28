@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "35858839",
+    "doi": "10.1186/s12864-022-08565-x",
+    "title": "Deep learning for de-convolution of Smad2 versus Smad3 binding sites."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The transforming growth factor beta-1 (TGF beta-1) cytokine exerts both pro-tumor and anti-tumor effects in carcinogenesis. An increasing body of literature suggests that TGF beta-1 signaling outcome is partially dependent on the regulatory targets of downstream receptor-regulated Smad (R-Smad) proteins Smad2 and Smad3. However, the lack of Smad-specific antibodies for ChIP-seq hinders convenient identification of Smad-specific binding sites. RESULTS: In this study, we use localization and affinity purification (LAP) tags to identify Smad-specific binding sites in a cancer cell line. Using ChIP-seq data obtained from LAP-tagged Smad proteins, we develop a convolutional neural network with long-short term memory (CNN-LSTM) as a deep learning approach to classify a pool of Smad-bound sites as being Smad2- or Smad3-bound. Our data showed that this approach is able to accurately classify Smad2- versus Smad3-bound sites. We use our model to dissect the role of each R-Smad in the progression of breast cancer using a previously published dataset. CONCLUSIONS: Our results suggests that deep learning approaches can be used to dissect binding site specificity of closely related transcription factors.",
+    "keywords": [
+      "Feature engineering",
+      "Machine learning",
+      "Transcription regulation"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "Cell Line",
+      "*Deep Learning",
+      "Signal Transduction",
+      "Smad2 Protein/chemistry/metabolism",
+      "Smad3 Protein/chemistry/genetics/metabolism",
+      "Transforming Growth Factor beta/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ng, Jeremy W K",
+        "Ong, Esther H Q",
+        "Tucker-Kellogg, Lisa",
+        "Tucker-Kellogg, Greg"
+      ],
+      "short_names": [
+        "Ng JWK",
+        "Ong EHQ",
+        "Tucker-Kellogg L",
+        "Tucker-Kellogg G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8407-9251"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, National University of Singapore, Singapore, Singapore.",
+        "Department of Biological Sciences, National University of Singapore, Singapore, Singapore.",
+        "Cancer and Stem Cell Biology, and Centre for Computational Biology, Duke-NUS Medical School, Singapore, Singapore. Lisa.Tucker-Kellogg@duke-nus.edu.sg.",
+        "Department of Biological Sciences, National University of Singapore, Singapore, Singapore. Greg_T-K@nus.edu.sg.",
+        "Computational Biology Programme, Faculty of Science, National University of Singapore, Singapore, Singapore. Greg_T-K@nus.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ng, Jeremy W K",
+        "short_name": "Ng JWK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ong, Esther H Q",
+        "short_name": "Ong EHQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tucker-Kellogg, Lisa",
+        "short_name": "Tucker-Kellogg L",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Stem Cell Biology, and Centre for Computational Biology, Duke-NUS Medical School, Singapore, Singapore. Lisa.Tucker-Kellogg@duke-nus.edu.sg."
+        ]
+      },
+      {
+        "full_name": "Tucker-Kellogg, Greg",
+        "short_name": "Tucker-Kellogg G",
+        "identifiers": [
+          "0000-0001-8407-9251"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Singapore, Singapore, Singapore. Greg_T-K@nus.edu.sg.",
+          "Computational Biology Programme, Faculty of Science, National University of Singapore, Singapore, Singapore. Greg_T-K@nus.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2022 Jul 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/21 06:00",
+    "fetched_at": "2026-10-04 20:09:23"
+  },
+  "links": {
+    "cites": [
+      "41911462",
+      "40969268",
+      "39402535"
+    ],
+    "refs": [],
+    "similar": [
+      "35858839",
+      "31481467",
+      "18955504",
+      "36539324",
+      "29588413",
+      "17099224",
+      "21624123",
+      "20010874",
+      "34712379",
+      "31582430",
+      "16224064",
+      "17340614",
+      "36549646",
+      "38569937",
+      "24105267",
+      "16806069",
+      "19122240",
+      "10504488",
+      "19667256",
+      "31120873",
+      "21305609",
+      "34360888",
+      "41240192",
+      "17035229",
+      "18729074",
+      "23779087",
+      "20548029",
+      "22219364",
+      "21862595",
+      "17960585",
+      "39190377",
+      "39114961",
+      "32371398",
+      "11262418",
+      "11502752",
+      "9501027",
+      "11027280",
+      "24627487",
+      "17074756",
+      "19473993",
+      "11058129",
+      "25165192",
+      "11013220",
+      "15496141",
+      "17591701",
+      "18471442",
+      "16478646",
+      "16253118",
+      "19711352",
+      "18950738",
+      "22843506",
+      "21613609",
+      "38514720",
+      "15353247",
+      "28320972",
+      "28621502",
+      "21646355",
+      "22039050",
+      "27990439",
+      "19917253",
+      "16314499",
+      "18263591",
+      "23649632",
+      "21949838",
+      "34860252",
+      "28432277",
+      "20515759",
+      "30321401",
+      "24047375",
+      "17135762",
+      "26680585",
+      "25766320",
+      "19531654",
+      "19289081",
+      "14555988",
+      "15253713",
+      "11294908",
+      "27604640",
+      "19620243",
+      "33676893",
+      "12941698",
+      "23390484",
+      "24308972",
+      "27549395",
+      "12051713",
+      "30108174",
+      "19276350",
+      "28666967",
+      "28891814",
+      "17623674",
+      "22880011",
+      "24911914",
+      "14675037",
+      "26919280",
+      "26432290",
+      "22705205",
+      "16357132",
+      "16183370",
+      "19686287",
+      "17440079"
+    ],
+    "review": [
+      "35858839",
+      "17340614",
+      "38569937"
+    ],
+    "pmc": [
+      "9297549"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-022-08565-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35858839/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35858839",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LAP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse190237",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

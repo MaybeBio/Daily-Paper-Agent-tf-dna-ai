@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.22.629997",
+  "title": "Probing mechanical selection in diverse eukaryotic genomes through accurate prediction of 3D DNA mechanics",
+  "authors": "Park J; Prokopchuk G; Popchock AR; Hao J; Liao T; Yan S; Hedman DJ; Larson JD; Walther BK; Becker NA; Basu A; Maher LJ; Wheeler RJ; Asbury CL; Biggins S; Lukeš J; Ha T",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-23",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用序列预测DNA三维力学特性（环化性/弯曲方向），并关联蛋白-DNA复合物弯曲偏好，虽非TF-DNA特异结合，但方法可迁移至TF-DNA互作建模。",
+  "abstract": "Connections between the mechanical properties of DNA and biological functions have been speculative due to the lack of methods to measure or predict DNA mechanics at scale. Recently, a proxy for DNA mechanics, cyclizability, was measured by loop-seq and enabled genome-scale investigation of DNA mechanics. Here, we use this dataset to build a computational model predicting bias-corrected intrinsic cyclizability, with near-perfect accuracy, solely based on DNA sequence. Further, the model predicts intrinsic bending direction in 3D space. Using this tool, we aimed to probe mechanical selection - that is, the evolutionary selection of DNA sequence based on its mechanical properties - in diverse circumstances. First, we found that the intrinsic bend direction of DNA sequences correlated with the observed bending in known protein-DNA complex structures, suggesting that many proteins co-evolved with their DNA partners to capture DNA in its intrinsically preferred bent conformation. We then applied our model to large-scale yeast population genetics data and showed that centromere DNA element II, whose consensus sequence is unknown, leaving its sequence-specific role unclear, is under mechanical selection to increase the stability of inner-kinetochore structure and to facilitate centromeric histone recruitment. Finally, in silico evolution under strong mechanical selection discovered hallucinated sequences with cyclizability values so extreme that they required experimental validation, yet, found in nature in the densely packed mitochondrial(mt) DNA of Namystynia karyoxenos , an ocean-dwelling protist with extreme mitochondrial gene fragmentation. The need to transmit an extraordinarily large amount of mtDNA, estimated to be > 600 Mb, in combination with the absence of mtDNA compaction proteins may have pushed mechanical selection to the extreme. Similarly extreme DNA mechanics are observed in bird microchromosomes, although the functional consequence is not yet clear. The discovery of eccentric DNA mechanics in unrelated unicellular and multicellular eukaryotes suggests that we can predict extreme natural biology which can arise through strong selection. Our methods offer a way to study the biological functions of DNA mechanics in any genome and to engineer DNA sequences with desired mechanical properties.",
+  "abstract_zh": "DNA力学性质与生物学功能之间的联系一直缺乏实证，原因在于缺乏在规模上测量或预测DNA力学的方法。近期，一种DNA力学的替代指标——可环化性（cyclizability）——通过loop-seq得以测量，并推动了对DNA力学的全基因组规模研究。在此，我们利用该数据集构建了一个计算模型，仅基于DNA序列即可近乎完美地预测偏差校正后的内在可环化性。此外，该模型还能预测三维空间中的内在弯曲方向。借助这一工具，我们旨在探究多种情境下的力学选择——即基于力学性质对DNA序列的进化选择。首先，我们发现DNA序列的内在弯曲方向与已知蛋白质-DNA复合物结构中观察到的弯曲相关，这表明许多蛋白质与其DNA伴侣共同进化，以捕获DNA处于其内在偏好的弯曲构象。随后，我们将模型应用于大规模酵母群体遗传学数据，并显示着丝粒DNA元件II（其共有序列未知，导致其序列特异性作用尚不明确）正受到力学选择，以增强内着丝粒结构的稳定性并促进着丝粒组蛋白的招募。最后，在强力学选择下的计算机模拟进化中，我们发现了幻觉序列，其可环化性值极为极端，以至于需要实验验证，然而，这些序列在自然界中存在于Namystynia karyoxenos（一种具有极端线粒体基因片段化的海洋原生生物）的紧密包装的线粒体（mt）DNA中。传递估计超过600 Mb的极大量mtDNA的需求，加上缺乏mtDNA压缩蛋白，可能将力学选择推向了极端。类似的极端DNA力学特性也在鸟类微染色体中观察到，尽管其功能后果尚不明确。在无关的单细胞和多细胞真核生物中发现这种异常的DNA力学特性表明，我们可以预测由强选择产生的极端自然生物学现象。我们的方法为研究任何基因组中DNA力学的生物学功能以及设计具有所需力学特性的DNA序列提供了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.22.629997",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.22.629997",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.22.629997/index.html"
+}

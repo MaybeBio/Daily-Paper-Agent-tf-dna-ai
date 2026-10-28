@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "40024351",
+    "doi": "10.1016/j.bcp.2025.116843",
+    "title": "Discovery of Bi-magnolignan as a novel BRD4 inhibitor inducing apoptosis and DNA damage for cancer therapy."
+  },
+  "content": {
+    "abstract": "Bi-magnolignan (BM), a novel compound isolated from Magnolia Officinalis leaves, exhibits significant anti-tumor activity in vitro. However, the underlying mechanism remains elusive. This study examines the anti-tumor properties of BM and its mechanism of action, specifically through its interaction with BRD4, a key regulator in oncogene transcription and genome stability. Molecular docking and biolayer interferometry assay (BLI) collectively demonstrate that BM exhibits strong binding affinity to the bromodomain (BD) region of BRD4. Cellular thermal shift assay (CETSA) results confirm that BM binding increases the thermostability of BRD4, providing further evidence of the interaction between BM and BRD4. RNA-seq analysis and western blotting reveal that BM abolishes the G2/M DNA damage checkpoint and disrupts homologous recombination (HR) repair mechanisms. To explore the downstream effects of BRD4, we performed gene set enrichment analysis (GSEA) using RNA-seq data. The results indicate that BM significantly inhibits BRD4 function, leading to the downregulation of various BRD4 target genes at the transcriptional level, including MYC. Importantly, overexpression of BRD4 rescues cells from BM-induced apoptosis, DNA damage, disrupted G2/M checkpoint, and HR deficiency (HRD), highlighting the specificity of BM for BRD4. Furthermore, in vivo experiments demonstrate that BM effectively suppresses tumor growth. Collectively, these findings underscore the potential of BM as a novel and potent BRD4 inhibitor, suggesting promising prospects for the development of targeted anti-tumor therapies that specifically inhibit BRD4.",
+    "keywords": [
+      "BRD4",
+      "Bi-magnolignan (BM)",
+      "G2/M DNA damage checkpoint",
+      "homologous recombination (HR)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/antagonists & inhibitors/metabolism/genetics",
+      "*Apoptosis/drug effects/physiology",
+      "*Cell Cycle Proteins/antagonists & inhibitors/metabolism",
+      "*DNA Damage/drug effects/physiology",
+      "Animals",
+      "Mice",
+      "*Lignans/pharmacology/therapeutic use/chemistry/metabolism",
+      "Cell Line, Tumor",
+      "Mice, Nude",
+      "Xenograft Model Antitumor Assays/methods",
+      "Molecular Docking Simulation/methods",
+      "Mice, Inbred BALB C",
+      "Dose-Response Relationship, Drug",
+      "*Antineoplastic Agents, Phytogenic/pharmacology",
+      "*Drug Discovery/methods",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Zifeng",
+        "Chu, Tong",
+        "Ma, Aijun",
+        "Lin, Wanjun",
+        "Gao, Yan",
+        "Zhang, Na",
+        "Shi, Meina",
+        "Zhang, Xuening",
+        "Yang, Yanchao",
+        "Ma, Wenzhe"
+      ],
+      "short_names": [
+        "Huang Z",
+        "Chu T",
+        "Ma A",
+        "Lin W",
+        "Gao Y",
+        "Zhang N",
+        "Shi M",
+        "Zhang X",
+        "Yang Y",
+        "Ma W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China.",
+        "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China.",
+        "School of Biotechnology and Health Sciences, Wuyi University, Jiangmen, Guangdong 529020, China.",
+        "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China.",
+        "Institute of Pharmacy, Shandong University of Traditional Chinese Medicine, Jinan 250355, China.",
+        "Institute of Pharmacy, Shandong University of Traditional Chinese Medicine, Jinan 250355, China.",
+        "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China.",
+        "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China.",
+        "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China.",
+        "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China. Electronic address: wzma@must.edu.mo."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Zifeng",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Tong",
+        "short_name": "Chu T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Aijun",
+        "short_name": "Ma A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology and Health Sciences, Wuyi University, Jiangmen, Guangdong 529020, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Wanjun",
+        "short_name": "Lin W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yan",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacy, Shandong University of Traditional Chinese Medicine, Jinan 250355, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Na",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacy, Shandong University of Traditional Chinese Medicine, Jinan 250355, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Meina",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuening",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yanchao",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Wenzhe",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quality Research in Chinese Medicine, Macau University of Science and Technology, Macau 999078, China. Electronic address: wzma@must.edu.mo."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical pharmacology"
+    ],
+    "journal_abbrev": [
+      "Biochem Pharmacol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/03 00:56",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "41232326"
+    ],
+    "refs": [],
+    "similar": [
+      "40024351",
+      "28586718",
+      "33820450",
+      "39575863",
+      "39090568",
+      "39823809",
+      "39764880",
+      "38749341",
+      "31523195",
+      "38691889",
+      "33191086",
+      "33638254",
+      "39476572",
+      "34803511",
+      "39471878",
+      "29567272",
+      "40252583",
+      "32631570",
+      "32246150",
+      "40311163",
+      "40101452",
+      "32339606",
+      "32175692",
+      "38302114",
+      "30308485",
+      "27573426",
+      "31767403",
+      "32088495",
+      "39849410",
+      "31900258",
+      "38763012",
+      "35958877",
+      "30933440",
+      "38569135",
+      "31765738",
+      "39164524",
+      "31633227",
+      "31708096",
+      "39740323",
+      "33637650",
+      "31199520",
+      "34995979",
+      "39947929",
+      "24796395",
+      "29172540",
+      "34731760",
+      "30308518",
+      "36841551",
+      "32153186",
+      "34908415",
+      "32883643",
+      "31712391",
+      "40023971",
+      "29596834",
+      "31114028",
+      "39671783",
+      "28746938",
+      "38365636",
+      "16782069",
+      "39259687",
+      "34216895",
+      "33798846",
+      "32361153",
+      "37782793",
+      "39602227",
+      "32286255",
+      "27496136",
+      "30926312",
+      "35902869",
+      "31957165",
+      "34390970",
+      "32081805",
+      "33712705",
+      "29333921",
+      "38849043",
+      "30006164",
+      "32371576",
+      "40124272",
+      "34813314",
+      "29954437",
+      "40215812",
+      "33080301",
+      "39773125",
+      "30690335",
+      "30118839",
+      "38761775",
+      "35046638",
+      "36773087",
+      "29050985",
+      "38967943",
+      "39965406",
+      "35017665",
+      "30668360",
+      "39008915",
+      "34010589",
+      "27268146",
+      "38849089",
+      "39956210",
+      "39891210",
+      "29533782"
+    ],
+    "review": [
+      "40024351"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-2952(25)00105-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40024351.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

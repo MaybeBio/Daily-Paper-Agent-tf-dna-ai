@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "42011125",
+    "doi": "10.1142/S0219720026710022",
+    "title": "KANBind as a diagnostic probe for DNA-binding protein prediction: A prevalence-calibrated reality check under strict homology control."
+  },
+  "content": {
+    "abstract": "Deep learning reports over 90% DNA-binding protein (DBP) prediction performance on common benchmarks, but these results are usually obtained on balanced test sets and may not translate to proteome-wide scans with extreme class imbalance. Here, we use KANBind as a diagnostic probe to stress-test sequence-based DBP prediction under strict homology control and realistic prevalence. Evaluated on the homology-controlled HBTD benchmark with prevalence-calibrated reporting, KANBind achieves a calibrated precision of 0.0558 at a realistic bacterial prevalence ([Formula: see text]), implying an expected false discovery rate (FDR) of 94.42%. In a proteome-scale scan, this corresponds to approximately 95 false positives per 100 predicted DBPs. Interpretability analysis indicates that predictions are driven mainly by coarse physicochemical cues such as electrostatics, which may be necessary for DNA binding but are insufficient to determine DBP function. Together, these results suggest that apparent benchmark gains can be dominated by homology leakage and evaluation on balanced sets rather than by generalizable functional rules, motivating stress-test benchmarks with strict homology control and realistic negative backgrounds.",
+    "keywords": [
+      "DNA-binding protein prediction",
+      "Kolmogorov-Arnold network",
+      "class imbalance",
+      "critical benchmarking",
+      "false discovery rate",
+      "homology control",
+      "protein language model"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "*Computational Biology/methods",
+      "Deep Learning",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wen, Qipeng",
+        "Jiang, Shaohua",
+        "Zhang, Yiwen"
+      ],
+      "short_names": [
+        "Wen Q",
+        "Jiang S",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-7218-7380",
+        "ORCID: 0009-0003-9548-2152",
+        "ORCID: 0009-0000-9365-5193"
+      ],
+      "affiliations": [
+        "College of Information Science and Engineering, Hunan Normal University, Changsha, P. R. China.",
+        "College of Information Science and Engineering, Hunan Normal University, Changsha, P. R. China.",
+        "College of Information Science and Engineering, Hunan Normal University, Changsha, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wen, Qipeng",
+        "short_name": "Wen Q",
+        "identifiers": [
+          "0009-0002-7218-7380"
+        ],
+        "affiliations": [
+          "College of Information Science and Engineering, Hunan Normal University, Changsha, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Shaohua",
+        "short_name": "Jiang S",
+        "identifiers": [
+          "0009-0003-9548-2152"
+        ],
+        "affiliations": [
+          "College of Information Science and Engineering, Hunan Normal University, Changsha, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yiwen",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0000-9365-5193"
+        ],
+        "affiliations": [
+          "College of Information Science and Engineering, Hunan Normal University, Changsha, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of bioinformatics and computational biology"
+    ],
+    "journal_abbrev": [
+      "J Bioinform Comput Biol"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/21 13:11",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42011125",
+      "40439671",
+      "32920048",
+      "41172803",
+      "41566703",
+      "38856168",
+      "42412843",
+      "41168713",
+      "42099803",
+      "39657630",
+      "34073705",
+      "35378437",
+      "32689927",
+      "39214282",
+      "41977286",
+      "42015301",
+      "41686649",
+      "25935161",
+      "33372147",
+      "40209920",
+      "36044786",
+      "38316843",
+      "19911048",
+      "30040656",
+      "34905768",
+      "35652477",
+      "38809942",
+      "37651627",
+      "41835510",
+      "36416116",
+      "41421972",
+      "25756377",
+      "39304807",
+      "42068429",
+      "38747369",
+      "32960766",
+      "19154573",
+      "33837387",
+      "41678737",
+      "42157243",
+      "42126889",
+      "29753757",
+      "38491248",
+      "41947423",
+      "34415020",
+      "11478868",
+      "41310253",
+      "25017736",
+      "26563228",
+      "42308045",
+      "40119803",
+      "39357703",
+      "39827171",
+      "39244557",
+      "38986796",
+      "16274699",
+      "17316627",
+      "35447463",
+      "42377576",
+      "42398071",
+      "42280934",
+      "36719781",
+      "42013547",
+      "30943723",
+      "29536446",
+      "38064959",
+      "31881828",
+      "41329305",
+      "40748800",
+      "39833102",
+      "40359455",
+      "19786483",
+      "30316822",
+      "40601254",
+      "38830995",
+      "34932484",
+      "40185915",
+      "39795988",
+      "42450121",
+      "42127163",
+      "15720719",
+      "35801442",
+      "20525822",
+      "42319251",
+      "42173334",
+      "30323214",
+      "41840500",
+      "28056090",
+      "34073774",
+      "36440949",
+      "30668479",
+      "39270885",
+      "41859462",
+      "42323855",
+      "42012716",
+      "36321557",
+      "40195868",
+      "41857714",
+      "41816949",
+      "36653447"
+    ],
+    "review": [
+      "42011125",
+      "25935161",
+      "40209920",
+      "35652477",
+      "25756377",
+      "39833102",
+      "42319251",
+      "36321557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.worldscientific.com/doi/10.1142/S0219720026710022?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

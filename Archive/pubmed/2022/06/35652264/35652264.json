@@ -1,0 +1,519 @@
+{
+  "identity": {
+    "pmid": "35652264",
+    "doi": "10.1002/advs.202201166",
+    "title": "A Functional Screening Identifies a New Organic Selenium Compound Targeting Cancer Stem Cells: Role of c-Myc Transcription Activity Inhibition in Liver Cancer."
+  },
+  "content": {
+    "abstract": "Cancer stem cells (CSCs) are reported to play essential roles in chemoresistance and metastasis. Pathways regulating CSC self-renewal and proliferation, such as Hedgehog, Notch, Wnt/beta-catenin, TGF-beta, and Myc, may be potential therapeutic targets. Here, a functional screening from the focused library with 365 compounds is performed by a step-by-step strategy. Among these candidate molecules, phenyl-2-pyrimidinyl ketone 4-allyl-3-amino selenourea (CU27) is chosen for further identification because it proves to be the most effective compound over others on CSC inhibition. Through ingenuity pathway analysis, it is shown CU27 may inhibit CSC through a well-known stemness-related transcription factor c-Myc. Gene set enrichment analysis, dual-luciferase reporter assays, expression levels of typical c-Myc targets, molecular docking, surface plasmon resonance, immunoprecipitation, and chromatin immunoprecipitation are conducted. These results together suggest CU27 binds c-Myc bHLH/LZ domains, inhibits c-Myc-Max complex formation, and prevents its occupancy on target gene promoters. In mouse models, CU27 significantly sensitizes sorafenib-resistant tumor to sorafenib, reduces the primary tumor size, and inhibits CSC generation, showing a dramatic anti-metastasis potential. Taken together, CU27 exerts inhibitory effects on CSC and CSC-associated traits in hepatocellular carcinoma (HCC) via c-Myc transcription activity inhibition. CU27 may be a promising therapeutic to treat sorafenib-resistant HCC.",
+    "keywords": [
+      "c-Myc, hepatocellular carcinoma",
+      "chemoresistance",
+      "liver cancer stem cells",
+      "metastasis",
+      "selenium"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Carcinoma, Hepatocellular/drug therapy/genetics",
+      "Cell Line, Tumor",
+      "Early Detection of Cancer",
+      "*Liver Neoplasms/drug therapy/genetics",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Neoplastic Stem Cells/metabolism/pathology",
+      "*Selenium/metabolism/pharmacology",
+      "*Selenium Compounds/metabolism/pharmacology",
+      "Sorafenib/metabolism/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Jun-Nian",
+        "Zhang, Biao",
+        "Wang, Hai-Yang",
+        "Wang, Dong-Xing",
+        "Zhang, Ming-Ming",
+        "Zhang, Min",
+        "Wang, Xiao-Kui",
+        "Fan, Shi-Yong",
+        "Xu, Ying-Chen",
+        "Zeng, Quan",
+        "Jia, Ya-Li",
+        "Xi, Jia-Fei",
+        "Nan, Xue",
+        "He, Li-Juan",
+        "Zhou, Xin-Bo",
+        "Li, Song",
+        "Zhong, Wu",
+        "Yue, Wen",
+        "Pei, Xue-Tao"
+      ],
+      "short_names": [
+        "Zhou JN",
+        "Zhang B",
+        "Wang HY",
+        "Wang DX",
+        "Zhang MM",
+        "Zhang M",
+        "Wang XK",
+        "Fan SY",
+        "Xu YC",
+        "Zeng Q",
+        "Jia YL",
+        "Xi JF",
+        "Nan X",
+        "He LJ",
+        "Zhou XB",
+        "Li S",
+        "Zhong W",
+        "Yue W",
+        "Pei XT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7782-234X",
+        "ORCID: 0000-0002-3935-360X"
+      ],
+      "affiliations": [
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China.",
+        "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China.",
+        "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China.",
+        "Department of Hepatobiliary Surgery, Beijing Tongren Hospital, Beijing, 100730, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China.",
+        "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China.",
+        "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China.",
+        "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+        "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Jun-Nian",
+        "short_name": "Zhou JN",
+        "identifiers": [
+          "0000-0002-7782-234X"
+        ],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Biao",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hai-Yang",
+        "short_name": "Wang HY",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dong-Xing",
+        "short_name": "Wang DX",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ming-Ming",
+        "short_name": "Zhang MM",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Min",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiao-Kui",
+        "short_name": "Wang XK",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Fan, Shi-Yong",
+        "short_name": "Fan SY",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ying-Chen",
+        "short_name": "Xu YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Beijing Tongren Hospital, Beijing, 100730, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Quan",
+        "short_name": "Zeng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ya-Li",
+        "short_name": "Jia YL",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xi, Jia-Fei",
+        "short_name": "Xi JF",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Nan, Xue",
+        "short_name": "Nan X",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "He, Li-Juan",
+        "short_name": "He LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xin-Bo",
+        "short_name": "Zhou XB",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Song",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Wu",
+        "short_name": "Zhong W",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Research Center for the Emergency Drug, Beijing Institute of Pharmacology and Toxicology, Beijing, 100850, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yue, Wen",
+        "short_name": "Yue W",
+        "identifiers": [
+          "0000-0002-3935-360X"
+        ],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Pei, Xue-Tao",
+        "short_name": "Pei XT",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Lab, Beijing Institute of Radiation Medicine, Beijing, 100850, P. R. China.",
+          "South China Research Center for Stem Cell and Regenerative Medicine, SCIB, Guangzhou, 510005, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2022 Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/03 06:00",
+    "fetched_at": "2026-09-28 09:12:56"
+  },
+  "links": {
+    "cites": [
+      "42661129",
+      "41635496",
+      "41599624",
+      "41524173",
+      "41438763",
+      "40890130",
+      "40274799",
+      "40268788",
+      "40171259",
+      "39403386",
+      "39238258",
+      "38500165",
+      "38233795",
+      "38219710",
+      "37853437",
+      "37759969",
+      "37202783",
+      "36309750",
+      "36293184",
+      "36290289"
+    ],
+    "refs": [
+      "33020477",
+      "32662250",
+      "31186405",
+      "31062368",
+      "30053872",
+      "29355757",
+      "28643779",
+      "27281222",
+      "27158749",
+      "27058618",
+      "26462961",
+      "25953743",
+      "25820415",
+      "25459512",
+      "25367391",
+      "25242720",
+      "24367230",
+      "23523670",
+      "23316018",
+      "23197193",
+      "22869594",
+      "22773665",
+      "22613880",
+      "22505225",
+      "22105228",
+      "22045676",
+      "21889194",
+      "21394208",
+      "21151206",
+      "20801893",
+      "19836223",
+      "19749794",
+      "19567251",
+      "19549867",
+      "19276364",
+      "18690848",
+      "18509642",
+      "17004703",
+      "16169462",
+      "15897595",
+      "15475948",
+      "13679853",
+      "12049739",
+      "11267922",
+      "10453813",
+      "9719083",
+      "8971064",
+      "5932931",
+      "2805230",
+      "2006410"
+    ],
+    "similar": [
+      "35652264",
+      "33903122",
+      "40883023",
+      "40609277",
+      "28377178",
+      "34208001",
+      "30555042",
+      "30075764",
+      "32024555",
+      "35659728",
+      "25885470",
+      "32296025",
+      "40634958",
+      "30045663",
+      "39080215",
+      "32114388",
+      "27783993",
+      "38573832",
+      "29792038",
+      "31439713",
+      "35767704",
+      "28645561",
+      "36764493",
+      "31075412",
+      "34217777",
+      "30999932",
+      "30959553",
+      "40593458",
+      "40615101",
+      "37820061",
+      "39735272",
+      "40750706",
+      "27614046",
+      "28900199",
+      "33256802",
+      "30359743",
+      "28415588",
+      "29848298",
+      "33970778",
+      "30809310",
+      "31541681",
+      "36017822",
+      "34340705",
+      "29445127",
+      "30391438",
+      "38956074",
+      "32326045",
+      "31319849",
+      "30237545",
+      "34244479",
+      "30849480",
+      "37453868",
+      "32559715",
+      "34649212",
+      "28668848",
+      "31695788",
+      "40857870",
+      "32059741",
+      "28284560",
+      "40681569",
+      "27721018",
+      "36445955",
+      "34649567",
+      "34258777",
+      "28849121",
+      "24692700",
+      "21552419",
+      "38241695",
+      "36674932",
+      "31100681",
+      "35610614",
+      "29940988",
+      "41208883",
+      "33602787",
+      "29259010",
+      "30981107",
+      "28698142",
+      "30770740",
+      "36002126",
+      "40928458",
+      "41318154",
+      "29686061",
+      "28186991",
+      "38084837",
+      "27478926",
+      "40959275",
+      "41249163",
+      "28059452",
+      "30182377",
+      "29698666",
+      "31370822",
+      "41299678",
+      "35338348",
+      "25879771",
+      "27835990",
+      "35946516",
+      "27956228",
+      "40280277",
+      "30419422",
+      "38653946"
+    ],
+    "review": [
+      "35652264",
+      "21552419",
+      "36674932"
+    ],
+    "pmc": [
+      "9353477"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35652264/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35652264",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35652264",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

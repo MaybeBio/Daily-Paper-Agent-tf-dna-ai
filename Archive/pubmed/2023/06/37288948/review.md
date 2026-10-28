@@ -1,0 +1,81 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that residue Lys219 of the Escherichia coli response regulator CpxR is critical for its DNA-binding function and regulatory activity. Mutations at this residue (K219Q, K219A, K219R) abolish binding to the cpxP promoter, reduce resistance to copper and alkaline pH stress, destabilize the protein conformation, down-regulate efflux pump genes, and increase intracellular antibiotic accumulation and reactive oxygen species production, thereby reducing antibiotic resistance. The authors propose that targeting the conserved CpxR sequence may be a promising antibacterial strategy.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, experimental protocols, statistical methods, strain construction details, and raw data
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a coherent and mechanistically plausible narrative linking a single residue in CpxR to antibiotic resistance regulation in E. coli. The study addresses a relevant question in bacterial stress adaptation and antimicrobial resistance. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental design, the quality of the data, or the strength of the conclusions. Several claims, particularly those involving conformational dynamics and the proposed therapeutic strategy, require substantially more evidence than is visible here. The work is potentially interesting to the antimicrobial resistance and bacterial signaling communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying two-component signal transduction systems, bacterial stress responses, antimicrobial resistance mechanisms, and the development of novel antibacterial strategies targeting regulatory proteins. The focus on a specific residue and its downstream effects on efflux pump expression and reactive oxygen species production may also interest those working on antibiotic adjuvant development.
+- **Major strengths** The study combines multiple experimental approaches, including mutagenesis, DNA-binding assays, gene expression analysis, phenotypic resistance testing, and molecular dynamics simulation. The use of three different mutations at the same residue provides a systematic approach to probing the role of Lys219. The link between a single amino acid change, conformational stability, DNA-binding loss, and downstream physiological consequences is a logical and potentially impactful chain of evidence.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that mutation of Lys219 leads to a looser and more unstable conformation of CpxR, resulting in decreased binding affinity with downstream genes.  
+  - **Evidence pointer** Molecular dynamics analysis, conformational analysis, circular dichroism (methods listed in abstract; no data shown)  
+  - **Concern** The abstract states that molecular dynamics analysis revealed a looser and more unstable conformation, but no quantitative metrics are provided, such as root-mean-square deviation, root-mean-square fluctuation, or free energy differences. The circular dichroism results are mentioned but not summarized. Without these data, the conformational claim cannot be evaluated.  
+  - **Why it matters** The conformational change is the central mechanistic link between the mutation and the loss of DNA-binding ability. If this link is not rigorously supported, the entire causal chain from mutation to reduced antibiotic resistance is weakened.  
+  - **Resolution test** Provide quantitative conformational parameters from molecular dynamics simulations, including comparisons between wild-type and mutant proteins, and show circular dichroism spectra with appropriate statistical comparisons.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal inference  
+  - **Claim pointer** The authors claim that Lys219 mutation results in down-regulation of efflux pump genes, leading to antibiotic accumulation and increased reactive oxygen species production, which significantly reduces antibiotic resistance.  
+  - **Evidence pointer** Real-time quantitative PCR, reactive oxygen species determination (methods listed in abstract; no data shown)  
+  - **Concern** The abstract presents a linear causal chain from gene down-regulation to antibiotic accumulation to reactive oxygen species increase to reduced resistance. However, no data are shown to establish these causal links. For example, it is not clear whether antibiotic accumulation was directly measured or inferred, whether reactive oxygen species levels were quantified under antibiotic exposure, or whether the efflux pump changes were sufficient to explain the resistance phenotype.  
+  - **Why it matters** The conclusion that Lys219 is critical for antibiotic resistance depends on this causal chain. If any link is unsupported, the conclusion may be overstated.  
+  - **Resolution test** Show direct measurements of intracellular antibiotic concentration, reactive oxygen species levels under relevant conditions, and demonstrate that efflux pump down-regulation is necessary and sufficient for the observed resistance changes, for example through complementation or inhibitor studies.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability and therapeutic claim  
+  - **Claim pointer** The authors conclude that targeting the highly conserved sequence of CpxR could be a promising strategy for the development of new antibacterial drugs.  
+  - **Evidence pointer** Conclusions section  
+  - **Concern** The abstract provides no evidence that targeting CpxR is druggable, that inhibition of CpxR would be specific enough to avoid toxicity, or that the effect would be broad enough across bacterial species to be therapeutically useful. The study is conducted in a single laboratory strain context with no in vivo or infection model data.  
+  - **Why it matters** The therapeutic claim extends beyond the data presented. While it is framed as a suggestion, it may overstate the translational potential of the findings.  
+  - **Resolution test** Provide evidence of CpxR inhibitor activity in relevant infection models, or temper the conclusion to reflect that CpxR is a potential target requiring further validation.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Phenotypic specificity  
+  - **Claim pointer** The complemented strains eK219A, eK219Q, and eK219R exhibited lower resistance to copper toxicity and alkaline pH toxicity than eWT.  
+  - **Evidence pointer** Results section (abstract)  
+  - **Concern** The abstract reports reduced resistance to copper and alkaline pH, but does not report the actual antibiotic resistance phenotypes that are the stated focus of the study. It is unclear whether the mutant strains show reduced resistance to aminoglycosides, beta-lactams, or polypeptides, which are mentioned in the background.  
+  - **Why it matters** The title and objectives focus on antibiotic resistance, but the only phenotypic data mentioned in the abstract relate to copper and pH stress. The connection to antibiotic resistance is inferred from efflux pump gene expression and reactive oxygen species, but direct antibiotic susceptibility data are not described.  
+  - **Resolution test** Include minimum inhibitory concentration data for relevant antibiotics in the mutant and complemented strains compared to wild-type.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Conclusions section  
+  - **Evidence pointer** Abstract conclusions  
+  - **Issue** The phrase "may potentially reduce to antibiotic resistance" is grammatically awkward and ambiguous. It is unclear whether the authors mean that the mutation reduces antibiotic resistance or that it reduces the potential for resistance.  
+  - **Required correction** Rewrite for clarity, for example "may potentially reduce antibiotic resistance" or "may reduce the potential for antibiotic resistance," depending on the intended meaning.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Methods  
+  - **Evidence pointer** Methods section (abstract)  
+  - **Issue** The abstract lists several methods but does not describe the bacterial strains, growth conditions, antibiotic concentrations, or statistical analysis methods.  
+  - **Required correction** Provide these details in the full manuscript and, if space permits, briefly in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Results  
+  - **Evidence pointer** Results section (abstract)  
+  - **Issue** The abstract states that all three mutant proteins lost cpxP DNA-binding ability, but it is not clear whether this was tested in vitro with purified proteins or in vivo. The distinction matters for interpreting the mechanism.  
+  - **Required correction** Clarify the experimental context of the electrophoretic mobility shift assay, including whether the proteins were purified and how binding was quantified.
+
+## Risk / unsupported claims
+
+- The claim that Lys219 mutation leads to a looser and more unstable CpxR conformation is unsupported without quantitative molecular dynamics and circular dichroism data.
+- The causal chain from efflux pump gene down-regulation to antibiotic accumulation to reactive oxygen species increase to reduced antibiotic resistance is not established from the abstract alone.
+- The therapeutic claim that targeting CpxR is a promising antibacterial strategy is unsupported by the data described.
+- The direct effect of Lys219 mutations on antibiotic resistance phenotypes is not demonstrated in the abstract; only copper and alkaline pH resistance are mentioned.
+- The claim that the three mutant proteins lost cpxP DNA-binding ability is not verifiable without electrophoretic mobility shift assay data.
+- The relevance of the findings to clinically relevant antibiotic resistance is not established from the supplied material.

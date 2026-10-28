@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "40235449",
+    "doi": "10.1161/CIRCRESAHA.124.325201",
+    "title": "T(reg) Cells Attenuate Pulmonary Venous Remodeling in PH-LHD via NLRC3 Signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pulmonary venous remodeling is a key pathological feature of pulmonary hypertension associated with left heart disease (PH-LHD). This study aims to investigate the role of regulatory T (T(reg)) cells in this process. METHODS: We used mouse models with transverse aortic constriction and cell depletion of Foxp3-DTR/tdTomato mice to examine T(reg) cells' function around pulmonary veins in PH-LHD in vivo. To confirm the effect of Nlrc3(-/-) T(reg) cells on PH-LHD, we utilized 3 mouse models: Nlrc3 knockout mice, athymic mice, and endothelial cell lineage tracing Cdh5CreERT2(+/)(-)-mT/mG(+/)(-) mice. The interaction proteins and signaling pathways of T(reg) cells during endothelial-to-mesenchymal transition were elucidated by protein docking prediction, coimmunoprecipitation and cocultivation of T(reg) cells with venous endothelial cells. RESULTS: T(reg) cells were abundant around pulmonary veins of transverse aortic constriction-induced PH-LHD and were essential for promoting inflammation resolution and inhibiting pulmonary venous remodeling. Nlrc3 expression was reduced in mice and patients with PH-LHD. NLRC3 (nucleotide-oligomerization domain-like receptor family CARD domain containing 3) deficiency inhibited T(reg) cell proliferation and impaired their immunosuppressive and endothelial-to-mesenchymal transition-protective effects. Mechanistically, NLRC3 interacted with TRAM (TRIF-related adaptor molecule) and regulated interferon regulatory factor 3 (IRF3)/NF-kappaB (nuclear factor-kappaB) p65 signaling in cluster differentiation 4(+) (CD4(+)) T cells. NLRC3-deficient T(reg) cells promoted interleukin (IL)-18 expression through IRF3/NF-kappaB p65 signaling, and thus IL-18 secretion activated endothelial receptor tyrosine kinase (RTK) signaling, favoring endothelial-to-mesenchymal transition progression in pulmonary veins and PH-LHD progress. This process was reversible with IL-18 binding protein in vivo. CONCLUSIONS: NLRC3 is crucial for T(reg) cells to prevent pulmonary venous remodeling in PH-LHD, primarily by modulating IL-18 secretion, which inhibits endothelial-to-mesenchymal transition and thereby improves disease progression and prognosis.",
+    "keywords": [
+      "T-lymphocytes, regulatory",
+      "endothelial cells",
+      "hypertension, pulmonary",
+      "interleukin-18",
+      "pulmonary veins"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Vascular Remodeling",
+      "Signal Transduction",
+      "*T-Lymphocytes, Regulatory/metabolism/immunology",
+      "Humans",
+      "*Pulmonary Veins/metabolism/pathology/physiopathology/immunology",
+      "*Hypertension, Pulmonary/metabolism/pathology/physiopathology/immunology/genetics",
+      "Mice, Knockout",
+      "Mice",
+      "Disease Models, Animal",
+      "Male",
+      "Transcription Factor RelA/metabolism",
+      "Female",
+      "Mice, Inbred C57BL",
+      "Cells, Cultured"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhakeer, Gulinigeer",
+        "Zeng, Yanxi",
+        "E, Guangxi",
+        "Maimaitiaili, Nuerbiyemu",
+        "Ju, Peinan",
+        "Yao, Hongyun",
+        "Shi, Yefei",
+        "Zhai, Ming",
+        "Li, Ke",
+        "Zhuang, Jianhui",
+        "Cao, Yunshan",
+        "Yu, Qing",
+        "Peng, Wenhui"
+      ],
+      "short_names": [
+        "Zhakeer G",
+        "Zeng Y",
+        "E G",
+        "Maimaitiaili N",
+        "Ju P",
+        "Yao H",
+        "Shi Y",
+        "Zhai M",
+        "Li K",
+        "Zhuang J",
+        "Cao Y",
+        "Yu Q",
+        "Peng W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4505-8735",
+        "ORCID: 0009-0008-0883-7418",
+        "ORCID: 0000-0001-8463-1093",
+        "ORCID: 0000-0003-2937-0024"
+      ],
+      "affiliations": [
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Department of Endocrinology, Xinhua Hospital, School of Medicine, Shanghai Jiaotong University, Shanghai, China (H.Y.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Neuroregeneration Key Laboratory of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China (K.L.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Department of Cardiology, Shigatse People's Hospital, Tibet, China (J.Z.).",
+        "Heart, Lung and Vessels Center, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu Sichuan, China (Y.C.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+        "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhakeer, Gulinigeer",
+        "short_name": "Zhakeer G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yanxi",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      },
+      {
+        "full_name": "E, Guangxi",
+        "short_name": "E G",
+        "identifiers": [
+          "0000-0003-4505-8735"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      },
+      {
+        "full_name": "Maimaitiaili, Nuerbiyemu",
+        "short_name": "Maimaitiaili N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      },
+      {
+        "full_name": "Ju, Peinan",
+        "short_name": "Ju P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      },
+      {
+        "full_name": "Yao, Hongyun",
+        "short_name": "Yao H",
+        "identifiers": [
+          "0009-0008-0883-7418"
+        ],
+        "affiliations": [
+          "Department of Endocrinology, Xinhua Hospital, School of Medicine, Shanghai Jiaotong University, Shanghai, China (H.Y.)."
+        ]
+      },
+      {
+        "full_name": "Shi, Yefei",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      },
+      {
+        "full_name": "Zhai, Ming",
+        "short_name": "Zhai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      },
+      {
+        "full_name": "Li, Ke",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroregeneration Key Laboratory of Shanghai Universities, School of Medicine, Tongji University, Shanghai, China (K.L.)."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Jianhui",
+        "short_name": "Zhuang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.).",
+          "Department of Cardiology, Shigatse People's Hospital, Tibet, China (J.Z.)."
+        ]
+      },
+      {
+        "full_name": "Cao, Yunshan",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0000-0001-8463-1093"
+        ],
+        "affiliations": [
+          "Heart, Lung and Vessels Center, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu Sichuan, China (Y.C.)."
+        ]
+      },
+      {
+        "full_name": "Yu, Qing",
+        "short_name": "Yu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      },
+      {
+        "full_name": "Peng, Wenhui",
+        "short_name": "Peng W",
+        "identifiers": [
+          "0000-0003-2937-0024"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Pan-Vascular Research Institute, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China (G.Z., Y.Z., G.E., N.M., P.J., Y.S., M.Z., J.Z., Q.Y., W.P.)."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Circulation research"
+    ],
+    "journal_abbrev": [
+      "Circ Res"
+    ],
+    "pub_date": "2025 May 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 06:19",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42527663",
+      "42522016",
+      "42078199"
+    ],
+    "refs": [],
+    "similar": [
+      "40235449",
+      "37586455",
+      "33971931",
+      "24039255",
+      "32881898",
+      "31154939",
+      "39615555",
+      "26586659",
+      "39723537",
+      "38908199",
+      "38436712",
+      "32386989",
+      "37139806",
+      "30586716",
+      "38741032",
+      "21216837",
+      "38636714",
+      "38804138",
+      "31130368",
+      "40181773",
+      "29673911",
+      "36244565",
+      "39996311",
+      "38770649",
+      "38047378",
+      "24614212",
+      "23684777",
+      "33152351",
+      "37534464",
+      "30767203",
+      "38214194",
+      "39655444",
+      "30248551",
+      "29545367",
+      "39299482",
+      "21419767",
+      "38531201",
+      "29246894",
+      "30132872",
+      "38572649",
+      "30172777",
+      "39894425",
+      "33309741",
+      "28889947",
+      "29074488",
+      "39107245",
+      "39392679",
+      "38864771",
+      "31597444",
+      "22863753",
+      "38739343",
+      "39932146",
+      "36100327",
+      "38314588",
+      "38873770",
+      "29688896",
+      "40143817",
+      "29664678",
+      "24532577",
+      "28584053",
+      "28842469",
+      "33636365",
+      "21593451",
+      "35234367",
+      "31580221",
+      "34944445",
+      "38860847",
+      "23734780",
+      "17309822",
+      "32884248",
+      "32386462",
+      "32414925",
+      "39618410",
+      "21330657",
+      "30133544",
+      "28889989",
+      "29040945",
+      "38813697",
+      "30379806",
+      "39450979",
+      "31030195",
+      "22849659",
+      "37355224",
+      "26382031",
+      "28560440",
+      "38557054",
+      "39799584",
+      "27068879",
+      "26098770",
+      "39633343",
+      "39578365",
+      "30092353",
+      "39297205",
+      "28755990",
+      "33810533",
+      "29016733",
+      "28327619",
+      "24367030",
+      "38942262",
+      "23973922"
+    ],
+    "review": [
+      "40235449",
+      "37586455"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.124.325201?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=136&issue=10&spage=e113&aulast=Zhakeer",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pulmonaryhypertension.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pulmonary Hypertension"
+      },
+      {
+        "url": "https://www.ovid.com/40235449.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-705",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

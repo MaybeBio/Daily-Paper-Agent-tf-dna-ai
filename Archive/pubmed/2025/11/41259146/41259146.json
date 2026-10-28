@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "41259146",
+    "doi": "10.1073/pnas.2511180122",
+    "title": "A tripartite protein complex promotes DNA transport during natural transformation in Firmicutes."
+  },
+  "content": {
+    "abstract": "Natural genetic transformation is a conserved mechanism of bacterial horizontal gene transfer, which is directed entirely by the recipient cell and facilitates the acquisition of new genetic traits such as antibiotic resistance. Transformation proceeds via the capture of exogenous DNA, its internalization in single strand form (ssDNA) and its integration into the recipient chromosome by homologous recombination. While the proteins involved in these steps have mainly been identified, the specific mechanisms at play remain poorly characterized. This study takes advantage of recent advances in structural modeling to explore the uptake of ssDNA during transformation. Using the monoderm human pathogen Streptococcus pneumoniae, we model a tripartite protein complex composed of the transmembrane channel ComEC, and two cytoplasmic ssDNA-binding proteins ComFA and ComFC. Using targeted mutation and transformation assays, we propose that pneumococcal ComEC features a narrow channel for ssDNA passage, and we show this channel is conserved in the diderm Helicobacter pylori. We identify key residues involved in protein-protein and protein-ssDNA interactions in the pneumococcal tripartite complex model and we show them to be crucial for transformation efficiency. Structural modeling reveals that this tripartite protein complex and its interaction with ssDNA are conserved in Firmicutes. Overall, this study validates a tripartite complex required for the internalization of ssDNA during transformation in Firmicutes, providing insights into the molecular mechanisms involved in this horizontal gene transfer mechanism central to bacterial adaptation. It also demonstrates the power of recent structural modeling techniques such as AlphaFold3 as hypothesis generators and guides for designing experiments.",
+    "keywords": [
+      "DNA transport",
+      "natural genetic transformation",
+      "structural modelling"
+    ],
+    "mesh_terms": [
+      "*Streptococcus pneumoniae/genetics/metabolism",
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "DNA, Single-Stranded/metabolism/genetics",
+      "*Transformation, Bacterial",
+      "Gene Transfer, Horizontal",
+      "*DNA, Bacterial/metabolism/genetics",
+      "Helicobacter pylori/genetics/metabolism",
+      "Models, Molecular",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "Multiprotein Complexes/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dewailly, Marie",
+        "Fauconnet, Yoann",
+        "Ducrot, Cecile",
+        "Soulet, Anne-Lise",
+        "Campo, Nathalie",
+        "Guerois, Raphael",
+        "Radicella, J Pablo",
+        "Polard, Patrice",
+        "Andreani, Jessica",
+        "Johnston, Calum H G"
+      ],
+      "short_names": [
+        "Dewailly M",
+        "Fauconnet Y",
+        "Ducrot C",
+        "Soulet AL",
+        "Campo N",
+        "Guerois R",
+        "Radicella JP",
+        "Polard P",
+        "Andreani J",
+        "Johnston CHG"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-2147-6587",
+        "ORCID: 0000-0001-5294-2858",
+        "ORCID: 0000-0002-8807-7226",
+        "ORCID: 0000-0002-0365-4347",
+        "ORCID: 0000-0003-4435-9093",
+        "ORCID: 0000-0001-5942-9117"
+      ],
+      "affiliations": [
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative, CNRS, Toulouse 31062, France.",
+        "Universite de Toulouse, Toulouse 31062, France.",
+        "Universite Paris-Saclay, Commissariat a l'Energie Atomique, CNRS, Institute for Integrative Biology of the Cell, Gif-sur-Yvette 91198, France.",
+        "Universite Paris-Saclay, Institut de Biologie Francois Jacob/Institut de Radiobiologie Cellulaire et Moleculaire, Commissariat a l'Energie Atomique, Genetic Stability, Stem Cells and Radiation, Fontenay-aux-Roses F-92260, France.",
+        "Universite Paris Cite, Institut de Biologie Francois Jacob/Institut de Radiobiologie Cellulaire et Moleculaire, Commissariat a l'Energie Atomique, Genetic Stability, Stem Cells and Radiation, Fontenay-aux-Roses F-92260, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative, CNRS, Toulouse 31062, France.",
+        "Universite de Toulouse, Toulouse 31062, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative, CNRS, Toulouse 31062, France.",
+        "Universite de Toulouse, Toulouse 31062, France.",
+        "Universite Paris-Saclay, Commissariat a l'Energie Atomique, CNRS, Institute for Integrative Biology of the Cell, Gif-sur-Yvette 91198, France.",
+        "Universite Paris-Saclay, Institut de Biologie Francois Jacob/Institut de Radiobiologie Cellulaire et Moleculaire, Commissariat a l'Energie Atomique, Genetic Stability, Stem Cells and Radiation, Fontenay-aux-Roses F-92260, France.",
+        "Universite Paris Cite, Institut de Biologie Francois Jacob/Institut de Radiobiologie Cellulaire et Moleculaire, Commissariat a l'Energie Atomique, Genetic Stability, Stem Cells and Radiation, Fontenay-aux-Roses F-92260, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative, CNRS, Toulouse 31062, France.",
+        "Universite de Toulouse, Toulouse 31062, France.",
+        "Universite Paris-Saclay, Commissariat a l'Energie Atomique, CNRS, Institute for Integrative Biology of the Cell, Gif-sur-Yvette 91198, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative, CNRS, Toulouse 31062, France.",
+        "Universite de Toulouse, Toulouse 31062, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dewailly, Marie",
+        "short_name": "Dewailly M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative, CNRS, Toulouse 31062, France.",
+          "Université de Toulouse, Toulouse 31062, France."
+        ]
+      },
+      {
+        "full_name": "Fauconnet, Yoann",
+        "short_name": "Fauconnet Y",
+        "identifiers": [
+          "0009-0006-2147-6587"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Commissariat à l'Energie Atomique, CNRS, Institute for Integrative Biology of the Cell, Gif-sur-Yvette 91198, France."
+        ]
+      },
+      {
+        "full_name": "Ducrot, Cécile",
+        "short_name": "Ducrot C",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, Institut de Biologie François Jacob/Institut de Radiobiologie Cellulaire et Moléculaire, Commissariat à l'Energie Atomique, Genetic Stability, Stem Cells and Radiation, Fontenay-aux-Roses F-92260, France.",
+          "Université Paris Cité, Institut de Biologie François Jacob/Institut de Radiobiologie Cellulaire et Moléculaire, Commissariat à l'Energie Atomique, Genetic Stability, Stem Cells and Radiation, Fontenay-aux-Roses F-92260, France."
+        ]
+      },
+      {
+        "full_name": "Soulet, Anne-Lise",
+        "short_name": "Soulet AL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative, CNRS, Toulouse 31062, France.",
+          "Université de Toulouse, Toulouse 31062, France."
+        ]
+      },
+      {
+        "full_name": "Campo, Nathalie",
+        "short_name": "Campo N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative, CNRS, Toulouse 31062, France.",
+          "Université de Toulouse, Toulouse 31062, France."
+        ]
+      },
+      {
+        "full_name": "Guerois, Raphaël",
+        "short_name": "Guerois R",
+        "identifiers": [
+          "0000-0001-5294-2858"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Commissariat à l'Energie Atomique, CNRS, Institute for Integrative Biology of the Cell, Gif-sur-Yvette 91198, France."
+        ]
+      },
+      {
+        "full_name": "Radicella, J Pablo",
+        "short_name": "Radicella JP",
+        "identifiers": [
+          "0000-0002-8807-7226"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Institut de Biologie François Jacob/Institut de Radiobiologie Cellulaire et Moléculaire, Commissariat à l'Energie Atomique, Genetic Stability, Stem Cells and Radiation, Fontenay-aux-Roses F-92260, France.",
+          "Université Paris Cité, Institut de Biologie François Jacob/Institut de Radiobiologie Cellulaire et Moléculaire, Commissariat à l'Energie Atomique, Genetic Stability, Stem Cells and Radiation, Fontenay-aux-Roses F-92260, France."
+        ]
+      },
+      {
+        "full_name": "Polard, Patrice",
+        "short_name": "Polard P",
+        "identifiers": [
+          "0000-0002-0365-4347"
+        ],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative, CNRS, Toulouse 31062, France.",
+          "Université de Toulouse, Toulouse 31062, France."
+        ]
+      },
+      {
+        "full_name": "Andreani, Jessica",
+        "short_name": "Andreani J",
+        "identifiers": [
+          "0000-0003-4435-9093"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Commissariat à l'Energie Atomique, CNRS, Institute for Integrative Biology of the Cell, Gif-sur-Yvette 91198, France."
+        ]
+      },
+      {
+        "full_name": "Johnston, Calum H G",
+        "short_name": "Johnston CHG",
+        "identifiers": [
+          "0000-0001-5942-9117"
+        ],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative, CNRS, Toulouse 31062, France.",
+          "Université de Toulouse, Toulouse 31062, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 18:27",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [
+      "42689412"
+    ],
+    "refs": [
+      "40985778",
+      "39552041",
+      "39480926",
+      "38870521",
+      "38718835",
+      "37695859",
+      "36815589",
+      "36795748",
+      "35414142",
+      "35041498",
+      "35034173",
+      "34373624",
+      "34265844",
+      "33772889",
+      "33754381",
+      "33495250",
+      "33135635",
+      "32881101",
+      "31767852",
+      "31562305",
+      "31549070",
+      "31433955",
+      "31396996",
+      "30885934",
+      "30633871",
+      "30627116",
+      "30615063",
+      "29891864",
+      "28618091",
+      "28561029",
+      "27899574",
+      "27318187",
+      "26569370",
+      "25876066",
+      "24509783",
+      "23860256",
+      "23825953",
+      "23329690",
+      "22904190",
+      "22198341",
+      "21273480",
+      "20722738",
+      "19151095",
+      "18674618",
+      "17803906",
+      "17630974",
+      "16771651",
+      "16009133",
+      "15661011",
+      "15201400",
+      "14763981",
+      "14763980",
+      "12169533",
+      "12123453",
+      "11115120",
+      "9987128",
+      "9466264",
+      "9252185",
+      "8449922",
+      "8045895",
+      "7768800",
+      "6255165",
+      "3185510",
+      "3036770",
+      "2359120"
+    ],
+    "similar": [
+      "41259146",
+      "28618091",
+      "21738490",
+      "31713614",
+      "17803906",
+      "31767852",
+      "39490297",
+      "31160340",
+      "36795748",
+      "35414142",
+      "40258067",
+      "24369431",
+      "29995987",
+      "31433955",
+      "24508048",
+      "39611665",
+      "30017563",
+      "12123453",
+      "14617176",
+      "26135134",
+      "11912014",
+      "24039578",
+      "22904190",
+      "40985778",
+      "27301340",
+      "19396959",
+      "26031909",
+      "40407325",
+      "31396996",
+      "34089559",
+      "18678909",
+      "24118681",
+      "17060320",
+      "27304067",
+      "19285993",
+      "21169364",
+      "16816189",
+      "21968057",
+      "22054219",
+      "40027803",
+      "34928178",
+      "18831760",
+      "23825953",
+      "28575400",
+      "36453941",
+      "28559293",
+      "40215278",
+      "17631629",
+      "31980174",
+      "25569614",
+      "24782530",
+      "11886754",
+      "22373918",
+      "22676068",
+      "28696187",
+      "29722872",
+      "28911099",
+      "21219459",
+      "28128333",
+      "17233830",
+      "28561029",
+      "9109100",
+      "32659399",
+      "31835029",
+      "25138221",
+      "11489125",
+      "36806960",
+      "27469477",
+      "10640603",
+      "23046409",
+      "34126763",
+      "18303950",
+      "18670631",
+      "35876509",
+      "32575751",
+      "15629722",
+      "7568071",
+      "31486677",
+      "24086154",
+      "36979449",
+      "17567566",
+      "11425734",
+      "7962001",
+      "39503503",
+      "27381919",
+      "22876180",
+      "40962056",
+      "38811160",
+      "23779106",
+      "35525",
+      "16322448",
+      "15866218",
+      "29158515",
+      "12438681",
+      "17135441",
+      "24515309",
+      "33812231",
+      "15647253",
+      "21868389",
+      "14596605"
+    ],
+    "review": [
+      "41259146",
+      "31433955",
+      "19396959",
+      "34089559",
+      "23046409",
+      "16322448"
+    ],
+    "pmc": [
+      "12663950"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2511180122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41259146/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

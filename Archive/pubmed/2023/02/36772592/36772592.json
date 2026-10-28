@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "36772592",
+    "doi": "10.3390/s23031552",
+    "title": "A Two-Step Feature Selection Radiomic Approach to Predict Molecular Outcomes in Breast Cancer."
+  },
+  "content": {
+    "abstract": "Breast Cancer (BC) is the most common cancer among women worldwide and is characterized by intra- and inter-tumor heterogeneity that strongly contributes towards its poor prognosis. The Estrogen Receptor (ER), Progesterone Receptor (PR), Human Epidermal Growth Factor Receptor 2 (HER2), and Ki67 antigen are the most examined markers depicting BC heterogeneity and have been shown to have a strong impact on BC prognosis. Radiomics can noninvasively predict BC heterogeneity through the quantitative evaluation of medical images, such as Magnetic Resonance Imaging (MRI), which has become increasingly important in the detection and characterization of BC. However, the lack of comprehensive BC datasets in terms of molecular outcomes and MRI modalities, and the absence of a general methodology to build and compare feature selection approaches and predictive models, limit the routine use of radiomics in the BC clinical practice. In this work, a new radiomic approach based on a two-step feature selection process was proposed to build predictors for ER, PR, HER2, and Ki67 markers. An in-house dataset was used, containing 92 multiparametric MRIs of patients with histologically proven BC and all four relevant biomarkers available. Thousands of radiomic features were extracted from post-contrast and subtracted Dynamic Contrast-Enanched (DCE) MRI images, Apparent Diffusion Coefficient (ADC) maps, and T2-weighted (T2) images. The two-step feature selection approach was used to identify significant radiomic features properly and then to build the final prediction models. They showed remarkable results in terms of F1-score for all the biomarkers: 84%, 63%, 90%, and 72% for ER, HER2, Ki67, and PR, respectively. When possible, the models were validated on the TCGA/TCIA Breast Cancer dataset, returning promising results (F1-score = 88% for the ER+/ER- classification task). The developed approach efficiently characterized BC heterogeneity according to the examined molecular biomarkers.",
+    "keywords": [
+      "Breast Cancer",
+      "feature selection",
+      "machine learning",
+      "radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/diagnostic imaging/pathology",
+      "Ki-67 Antigen",
+      "Magnetic Resonance Imaging/methods",
+      "Diffusion Magnetic Resonance Imaging/methods",
+      "Prognosis",
+      "Receptors, Estrogen"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Brancato, Valentina",
+        "Brancati, Nadia",
+        "Esposito, Giusy",
+        "La Rosa, Massimo",
+        "Cavaliere, Carlo",
+        "Allara, Ciro",
+        "Romeo, Valeria",
+        "De Pietro, Giuseppe",
+        "Salvatore, Marco",
+        "Aiello, Marco",
+        "Sangiovanni, Mara"
+      ],
+      "short_names": [
+        "Brancato V",
+        "Brancati N",
+        "Esposito G",
+        "La Rosa M",
+        "Cavaliere C",
+        "Allara C",
+        "Romeo V",
+        "De Pietro G",
+        "Salvatore M",
+        "Aiello M",
+        "Sangiovanni M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6232-7645",
+        "ORCID: 0000-0001-9061-1187",
+        "ORCID: 0000-0003-2811-4678",
+        "ORCID: 0000-0002-8567-0104",
+        "ORCID: 0000-0002-1603-6396",
+        "ORCID: 0000-0002-4675-5957",
+        "ORCID: 0000-0001-9734-7702",
+        "ORCID: 0000-0002-3676-0664",
+        "ORCID: 0000-0003-4511-5031"
+      ],
+      "affiliations": [
+        "IRCCS SYNLAB SDN, Istituto di Ricerca Diagnostica e Nucleare, Via E. Gianturco 113, 80143 Naples, Italy.",
+        "Institute for High Performance Computing and Networking, National Research Council of Italy (ICAR-CNR), Via P. Castellino 111, 80131 Naples, Italy.",
+        "Bio Check Up S.r.l., Via Riviera di Chiaia 9a, 80122 Naples, Italy.",
+        "Department of Advanced Biomedical Sciences, University of Naples Federico II, 80131 Naples, Italy.",
+        "Institute for High Performance Computing and Networking, National Research Council of Italy (ICAR-CNR), Via P. Castellino 111, 80131 Naples, Italy.",
+        "IRCCS SYNLAB SDN, Istituto di Ricerca Diagnostica e Nucleare, Via E. Gianturco 113, 80143 Naples, Italy.",
+        "Bio Check Up S.r.l., Via Riviera di Chiaia 9a, 80122 Naples, Italy.",
+        "Department of Advanced Biomedical Sciences, University of Naples Federico II, 80131 Naples, Italy.",
+        "Institute for High Performance Computing and Networking, National Research Council of Italy (ICAR-CNR), Via P. Castellino 111, 80131 Naples, Italy.",
+        "IRCCS SYNLAB SDN, Istituto di Ricerca Diagnostica e Nucleare, Via E. Gianturco 113, 80143 Naples, Italy.",
+        "IRCCS SYNLAB SDN, Istituto di Ricerca Diagnostica e Nucleare, Via E. Gianturco 113, 80143 Naples, Italy.",
+        "Institute for High Performance Computing and Networking, National Research Council of Italy (ICAR-CNR), Via P. Castellino 111, 80131 Naples, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Brancato, Valentina",
+        "short_name": "Brancato V",
+        "identifiers": [
+          "0000-0002-6232-7645"
+        ],
+        "affiliations": [
+          "IRCCS SYNLAB SDN, Istituto di Ricerca Diagnostica e Nucleare, Via E. Gianturco 113, 80143 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Brancati, Nadia",
+        "short_name": "Brancati N",
+        "identifiers": [
+          "0000-0001-9061-1187"
+        ],
+        "affiliations": [
+          "Institute for High Performance Computing and Networking, National Research Council of Italy (ICAR-CNR), Via P. Castellino 111, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Esposito, Giusy",
+        "short_name": "Esposito G",
+        "identifiers": [
+          "0000-0003-2811-4678"
+        ],
+        "affiliations": [
+          "Bio Check Up S.r.l., Via Riviera di Chiaia 9a, 80122 Naples, Italy.",
+          "Department of Advanced Biomedical Sciences, University of Naples Federico II, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "La Rosa, Massimo",
+        "short_name": "La Rosa M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for High Performance Computing and Networking, National Research Council of Italy (ICAR-CNR), Via P. Castellino 111, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Cavaliere, Carlo",
+        "short_name": "Cavaliere C",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS SYNLAB SDN, Istituto di Ricerca Diagnostica e Nucleare, Via E. Gianturco 113, 80143 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Allarà, Ciro",
+        "short_name": "Allarà C",
+        "identifiers": [
+          "0000-0002-8567-0104"
+        ],
+        "affiliations": [
+          "Bio Check Up S.r.l., Via Riviera di Chiaia 9a, 80122 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Romeo, Valeria",
+        "short_name": "Romeo V",
+        "identifiers": [
+          "0000-0002-1603-6396"
+        ],
+        "affiliations": [
+          "Department of Advanced Biomedical Sciences, University of Naples Federico II, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "De Pietro, Giuseppe",
+        "short_name": "De Pietro G",
+        "identifiers": [
+          "0000-0002-4675-5957"
+        ],
+        "affiliations": [
+          "Institute for High Performance Computing and Networking, National Research Council of Italy (ICAR-CNR), Via P. Castellino 111, 80131 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Salvatore, Marco",
+        "short_name": "Salvatore M",
+        "identifiers": [
+          "0000-0001-9734-7702"
+        ],
+        "affiliations": [
+          "IRCCS SYNLAB SDN, Istituto di Ricerca Diagnostica e Nucleare, Via E. Gianturco 113, 80143 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Aiello, Marco",
+        "short_name": "Aiello M",
+        "identifiers": [
+          "0000-0002-3676-0664"
+        ],
+        "affiliations": [
+          "IRCCS SYNLAB SDN, Istituto di Ricerca Diagnostica e Nucleare, Via E. Gianturco 113, 80143 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Sangiovanni, Mara",
+        "short_name": "Sangiovanni M",
+        "identifiers": [
+          "0000-0003-4511-5031"
+        ],
+        "affiliations": [
+          "Institute for High Performance Computing and Networking, National Research Council of Italy (ICAR-CNR), Via P. Castellino 111, 80131 Naples, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Sensors (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Sensors (Basel)"
+    ],
+    "pub_date": "2023 Jan 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/12 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [
+      "38755477",
+      "37801198",
+      "37766047"
+    ],
+    "refs": [
+      "36292247",
+      "36143158",
+      "34936160",
+      "34521016",
+      "34490107",
+      "34066451",
+      "33744071",
+      "33538338",
+      "33436929",
+      "33167903",
+      "32154773",
+      "32145597",
+      "32089742",
+      "31794406",
+      "31259153",
+      "31064950",
+      "30842125",
+      "30312139",
+      "30033447",
+      "29914892",
+      "29807560",
+      "29581709",
+      "29568772",
+      "29092951",
+      "28975929",
+      "28678153",
+      "28463931",
+      "28417933",
+      "27853751",
+      "27006077",
+      "26835491",
+      "26756416",
+      "25850931",
+      "25777181",
+      "25028781",
+      "25025374",
+      "24998888",
+      "24015869",
+      "23299535",
+      "22257792",
+      "18972597",
+      "18389253",
+      "16829653",
+      "16192605",
+      "11823860"
+    ],
+    "similar": [
+      "36772592",
+      "29581709",
+      "36418622",
+      "38429796",
+      "33167903",
+      "31209778",
+      "32521567",
+      "28521821",
+      "31794406",
+      "37583930",
+      "31696388",
+      "37526540",
+      "30811717",
+      "27072207",
+      "30695671",
+      "35595629",
+      "34490107",
+      "30358693",
+      "34876340",
+      "32524436",
+      "22527371",
+      "36175898",
+      "26968141",
+      "35341421",
+      "36292247",
+      "38820391",
+      "34600805",
+      "36201887",
+      "34226990",
+      "29070476",
+      "27332719",
+      "27313102",
+      "32709582",
+      "30607868",
+      "33827490",
+      "34233259",
+      "35734595",
+      "30171822",
+      "33744071",
+      "36694221",
+      "28152264",
+      "38905803",
+      "31470420",
+      "24558165",
+      "32004189",
+      "31776744",
+      "22411304",
+      "29428211",
+      "34016188",
+      "25777181",
+      "37724784",
+      "32061014",
+      "37873865",
+      "31783344",
+      "35734585",
+      "33039708",
+      "33795199",
+      "30842125",
+      "30172938",
+      "32388693",
+      "30585764",
+      "25556461",
+      "35965527",
+      "37511674",
+      "29152563",
+      "35728576",
+      "32278690",
+      "32676784",
+      "32957690",
+      "31514736",
+      "32102334",
+      "33289845",
+      "30577820",
+      "31983107",
+      "33309922",
+      "28217825",
+      "36224558",
+      "34590460",
+      "34430998",
+      "30773770",
+      "23240985",
+      "36672769",
+      "30810823",
+      "34740800",
+      "34904187",
+      "38083249",
+      "34295877",
+      "24744091",
+      "31385051",
+      "34572862",
+      "34773446",
+      "27501902",
+      "35869750",
+      "30900614",
+      "34383145",
+      "26837394",
+      "36699499",
+      "33137621",
+      "38083903",
+      "36816095",
+      "37948363",
+      "37434241",
+      "39296227",
+      "39112498",
+      "35871247",
+      "38751516",
+      "38712412",
+      "37373993",
+      "38111330",
+      "37424799",
+      "38316663",
+      "36598637",
+      "39374308",
+      "37189515",
+      "37296843",
+      "36428600",
+      "37783335",
+      "35884530",
+      "36105423",
+      "32274439",
+      "35747502",
+      "37108377",
+      "39045139",
+      "38011513",
+      "37549084",
+      "38231805",
+      "37801493",
+      "36968604",
+      "36046364",
+      "26997872",
+      "36553988",
+      "38275836"
+    ],
+    "review": [
+      "36772592",
+      "27072207",
+      "30695671",
+      "38820391",
+      "37724784",
+      "35728576",
+      "38751516",
+      "38712412",
+      "38111330",
+      "35884530",
+      "36105423",
+      "37108377",
+      "38011513"
+    ],
+    "pmc": [
+      "9921618"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=s23031552",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36772592/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36772592",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

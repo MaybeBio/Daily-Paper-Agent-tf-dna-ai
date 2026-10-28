@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methodology, results, discussion, conclusion, and supplementary figure descriptions.
+- **Assessment boundary** Scientific validity of the computational docking and molecular dynamics simulation claims, consistency between methods and results, and the strength of conclusions drawn from the provided evidence.
+- **Shared manuscript claim summary** The authors claim that Mithramycin-A (Mit-A) and Tolfenamic acid (TA) bind to Sp1 and survivin, that Mit-A is the superior binder to both proteins, and that molecular dynamics simulations confirm stable interactions with critical residues (e.g., Glu757 for Sp1; Val89 and Gln92 for survivin). They further claim that in vitro experiments show both drugs decrease Sp1 and survivin expression in Ewing sarcoma cell lines.
+- **Visible evidence base** Docking results (Table 1, Figures 1–2), MD simulation trajectory analyses (RMSD, RMSF, rGyr, SASA; Figures 4–5), H-bond analysis (Supplementary Figures S5–S6), and Western blot data (Figure 6).
+- **Missing materials affecting confidence** The manuscript does not provide the actual docking scores or binding energy values in the text (Table 1 is referenced but not reproduced). Figures 1–6 are not included in the provided material. Supplementary Figures S1–S6 are referenced but not available. No methodological details for the in vitro Western blot experiments (e.g., antibody concentrations, loading controls, quantification) are provided. No information on the number of replicates or statistical analysis for the in vitro data is given.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in cancer therapeutics, namely the in silico evaluation of two known anti-cancer agents against two cancer-relevant protein targets. The computational workflow is standard and the authors have used appropriate tools for docking and MD simulations. However, the presentation of results is incomplete, with key quantitative data (docking scores, binding energies) not shown in the text. The MD simulation analysis contains inconsistencies in the reporting of RMSD values, and the interpretation of rGyr and SASA data is not fully justified. The in vitro data are presented without sufficient methodological detail to assess their validity. The conclusions regarding the superiority of Mit-A over TA are supported by the docking data only if the missing values confirm this, which cannot be verified from the provided material. The claim that specific residues are "critical" for inhibition is speculative without mutagenesis or free energy calculations. Overall, the study is a preliminary computational analysis that could be of interest to the field, but the current presentation does not fully establish the stated claims.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery and cancer biology, particularly those studying Sp1 and survivin as therapeutic targets. The study may also be of interest to groups working on repurposing or optimizing Mit-A and TA for cancer therapy. The identification of potential binding residues could inform future experimental validation studies.
+- **Major strengths** The study addresses a clinically relevant problem with a clear rationale. The use of multiple computational tools (CASTp, GHECOM, DEPTH) for binding site prediction is a good practice. The combination of docking and MD simulations is appropriate for assessing binding stability. The inclusion of in vitro validation, albeit briefly described, strengthens the translational relevance. The authors acknowledge the limitations of their approach and suggest future work with MM/PBSA and MM/GBSA methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that "Mit-A had higher binding energy against both targets compared to TA" and that this indicates superior binding.
+  - **Evidence pointer** Table 1, Figures 1–2 (not provided in the submitted material)
+  - **Concern** The docking results are referenced as Table 1 and Figures 1–2, but the actual binding energy values are not reported in the text. Without these quantitative data, the claim that Mit-A is superior to TA cannot be evaluated. The reader cannot verify the magnitude of the differences or whether they are meaningful.
+  - **Why it matters** The central conclusion of the manuscript rests on the comparative docking scores. If these values are not presented, the primary evidence for the study's main claim is missing.
+  - **Resolution test** Provide the docking scores (e.g., Glide scores, binding energies in kcal/mol) for all drug-protein complexes in the main text or a table. Include the values for both Mit-A and TA against Sp1 and survivin, and state the criteria used to define "superior" binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Holo1 state gave the RMSD value ranging from ~9.2 to ~13 Å from 70 to 85 ns, ~4.8 to ~7.2 Å from 70 to 85ns and ~4.4 Å to ~6.0 Å from 85ns to 100ns in the case of Holo2."
+  - **Evidence pointer** Results section, "Trajectory analysis of MD simulations" (location not provided)
+  - **Concern** The RMSD reporting is internally inconsistent. The text describes Holo1 with two different ranges for the same time window (70–85 ns), and then introduces Holo2 without clear context. It is unclear which complex is being described at each point. This ambiguity undermines the reliability of the trajectory analysis.
+  - **Why it matters** RMSD is a key metric for assessing protein-ligand complex stability. If the data are not reported clearly, the reader cannot assess whether the complexes were stable during the simulation, which is a central claim of the study.
+  - **Resolution test** Rewrite the RMSD results with clear labels for each complex (Holo1, Holo2, Holo3) and provide the RMSD ranges for each time window without overlap or ambiguity. Consider showing representative RMSD plots in the main text.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that "Glu757 (Sp1), and Val89 and Gln92 (survivin) all seem to play important roles in our complexes and Mit-A's ability to inhibit cancer progression may hinge on these residues."
+  - **Evidence pointer** H-bond analysis section, Supplementary Figures S5–S6 (not provided)
+  - **Concern** The identification of "critical" residues is based solely on the observation that certain H-bonds were not compensated during MD simulations. This is an indirect inference. No free energy calculations (e.g., MM/PBSA, MM/GBSA), alanine scanning, or mutagenesis data are provided to support the functional importance of these residues. The claim that these residues are critical for cancer inhibition is therefore speculative.
+  - **Why it matters** The authors use this claim to suggest a mechanistic basis for Mit-A's anti-cancer activity. Without direct evidence, this conclusion is not supported by the data presented.
+  - **Resolution test** Either soften the language to indicate that these residues are "potentially important" and require experimental validation, or provide additional computational evidence (e.g., per-residue energy decomposition) to strengthen the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "both TA and Mit-A decreased the expression of both survivin and Sp1 in all three cell lines (Figure 6)."
+  - **Evidence pointer** Results section, "Expression of Sp1 and survivin" (Figure 6 not provided)
+  - **Concern** The in vitro experiments are described in a single sentence with no methodological details. No information is provided on the cell culture conditions, drug concentrations (beyond a mention in the methods), treatment duration, antibody validation, loading controls, or quantification methods. The figure is not available for review.
+  - **Why it matters** The in vitro data are used to support the translational relevance of the computational findings. Without proper methodological reporting, the validity of these results cannot be assessed, and the claim that the drugs decrease protein expression is not verifiable.
+  - **Resolution test** Provide a full description of the Western blot protocol, including antibody catalog numbers, dilutions, protein loading amounts, and a representative blot with molecular weight markers. Include quantification data with statistical analysis (e.g., mean ± SD from at least three independent experiments).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states that "Mithramycin-A and Tolfenamic acid are two drugs with innate anti-cancer properties and are suggested to be able to target Sp1 through GC/GT DNA binding interference, however in-depth binding and mechanistic studies are lacking." This sentence is grammatically awkward and could be clearer.
+  - **Required correction** Revise the sentence for clarity, for example: "Mithramycin-A and Tolfenamic acid are two drugs with intrinsic anti-cancer properties that are suggested to target Sp1 through interference with GC/GT DNA binding; however, in-depth binding and mechanistic studies are lacking."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Methodology and Results
+  - **Evidence pointer** Methodology, "Molecular Docking" and Results, "Molecular docking" (location not provided)
+  - **Issue** The methodology states that docking was performed using Glide in extra precision (XP) mode, but the results section mentions "using GLIDE for the inter-molecular interaction" and also references AutoDock for grid analysis. The relationship between the two software packages is unclear.
+  - **Required correction** Clarify whether AutoDock was used for grid preparation and Glide for docking, or if both were used independently. Ensure the methodology and results are consistent in their description of the software workflow.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "location not provided"
+  - **Issue** The discussion introduces Sp3 as an additional target ("we further examined the binding-relationship with Sp3") but this is not mentioned in the abstract or the results section in sufficient detail. The results for Sp3 are only referenced in supplementary figures.
+  - **Required correction** Either include the Sp3 results in the main text or remove the discussion of Sp3 to avoid introducing a target that is not adequately described in the results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Trajectory analysis of MD simulations"
+  - **Evidence pointer** Results section, "location not provided"
+  - **Issue** The text states "Proteins having ligand-interacting residues are denoted by green vertical bars" but it is unclear which figure this refers to and how the bars were determined.
+  - **Required correction** Specify the figure number and describe the criteria used to identify ligand-interacting residues.
+- **Technical failings that need to be addressed before the case is established** The missing docking scores (R1-M1), the inconsistent RMSD reporting (R1-M2), the speculative identification of critical residues without supporting calculations (R1-M3), and the lack of methodological detail for the in vitro experiments (R1-M4) are the primary technical issues. These need to be resolved before the claims of superior binding and mechanistic importance can be accepted.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study applies established computational methods to a specific question that has not been extensively explored in the literature. However, the approach is not methodologically novel, and the findings are incremental rather than transformative.
+  - **Scientific importance** The question of how Mit-A and TA interact with Sp1 and survivin is of interest to the cancer biology community, but the study does not provide definitive mechanistic insights. The importance is moderate.
+  - **Interdisciplinary readership** The work sits at the interface of computational biology and cancer pharmacology. It may appeal to a niche audience of computational chemists and cancer researchers, but the lack of robust quantitative data limits its broader appeal.
+  - **Technical soundness** The computational methods are standard and generally appropriate, but the reporting of results is incomplete and inconsistent in places. The in vitro data are not adequately described. The technical soundness is currently insufficient to support the conclusions.
+  - **Readability for nonspecialists** The manuscript is written in a way that is accessible to readers with a background in molecular biology or computational chemistry, but the missing data and unclear figure references make it difficult for a nonspecialist to follow the key arguments.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the missing quantitative data, inconsistent reporting, and lack of methodological detail for the in vitro experiments prevent the claims from being fully supported. The authors should be encouraged to revise the manuscript to address these issues.
+
+## Risk / unsupported claims
+- The claim that Mit-A is a "superior binding candidate" compared to TA is unsupported because the docking scores are not provided.
+- The claim that specific residues (Glu757, Val89, Gln92) are critical for Mit-A's inhibitory activity is speculative and not supported by free energy calculations or experimental validation.
+- The claim that "Mit-A potentially inhibits both targeted proteins" based on MD simulations is not fully supported due to the inconsistent RMSD reporting and the lack of quantitative binding free energy data.
+- The in vitro claim that "both TA and Mit-A decreased the expression of both survivin and Sp1" is not assessable because the experimental details and figure are not provided.

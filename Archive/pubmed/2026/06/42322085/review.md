@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and author contributions. No figures, tables, or supplementary materials were provided beyond what is referenced in the text.
+- **Assessment boundary** The review is limited to the scientific content, methodological rigor, and logical coherence of the computational analyses as described. No assessment of the raw data, actual tool outputs, or supplementary files is possible.
+- **Shared manuscript claim summary** The authors claim that a 12-tool computational pipeline applied to 347 missense nsSNPs in the p47ING1a isoform of ING1 identifies six high-risk variants (C358S, C374G, W378G, F379V, S382L, R400P), all located in the PHD domain, and that these variants are predicted to destabilize the protein, disrupt H3K4me3 binding, and impair ING1 tumor-suppressor function.
+- **Visible evidence base** The manuscript text includes descriptions of methods, results summaries, and references to tables and figures. Specific numerical outputs are mentioned for some analyses (e.g., ERRAT scores, Ramachandran percentages, RMSD/TM-scores, p-value for ING1 upregulation in endometrioid adenocarcinoma), but the actual tables, figures, and supplementary files are not available for inspection.
+- **Missing materials affecting confidence** All figures (1–8), all tables (1–4), all supporting tables (1–12), and the supporting information files are referenced but not provided. The raw SNP list, tool-specific scores for all 347 variants, and the detailed outputs of each prediction tool are unavailable. This substantially limits the ability to verify the central claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational pipeline for prioritizing deleterious nsSNPs in the p47ING1a isoform of ING1. The topic is of potential interest to the cancer genetics and epigenetics community, and the isoform-specific focus is a reasonable gap to address. However, the manuscript as presented has several critical weaknesses. The central claim that six variants are "consistently predicted" as deleterious is not verifiable from the provided text alone, as the convergence criteria across the 12 tools are not clearly defined. The structural analyses rely on AlphaFold3 models without experimental validation, and the interpretation of RMSD/TM-score values appears internally inconsistent. The pan-cancer expression analysis is presented as a minor add-on with unclear relevance to the variant-focused narrative. The manuscript reads more like a methods report for a bioinformatics pipeline than a scientific study establishing biological insight. The lack of any experimental validation, combined with the absence of the actual data outputs, means the core conclusions are not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers working on ING family tumor suppressors, particularly those interested in isoform-specific functions, may find the prioritized variant list useful as a starting point for experimental studies. Computational biologists developing or applying SNP prioritization pipelines may also be interested in the methodological workflow. However, the broader cancer biology community would require experimental validation to find the results compelling.
+- **Major strengths** The use of 12 independent prediction tools is a reasonable approach to reduce false positives in variant prioritization. The isoform-specific focus on p47ING1a addresses a genuine gap, as most prior work has centered on p33ING1b. The inclusion of previously characterized variants as positive controls for structural analyses is a good practice. The authors acknowledge the purely computational nature of the study and list appropriate limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The authors claim that "integrating all prediction tools, only 8 of the 347 missense nsSNPs were consistently classified as highly deleterious" and that six were selected for downstream analysis.
+  - **Evidence pointer** Section 3.2, Tables 1 and 2, location not provided
+  - **Concern** The criteria for "consistently classified" are not defined. It is unclear whether a variant needed to be predicted deleterious by all 12 tools, by a majority, or by some other threshold. The relationship between the 8 variants in Table 2 and the 6 final variants is not explained. The text states that 12 tools were used, but the specific results from each tool for each variant are not shown in the manuscript text.
+  - **Why it matters** Without a clear and reproducible filtering criterion, the selection of the six "high-risk" variants cannot be independently verified. This is the foundational step of the entire study, and if the selection criteria are arbitrary or unclear, all downstream analyses rest on an unstable base.
+  - **Resolution test** The authors must provide a detailed description of the consensus criteria, including the exact number of tools that had to agree, and present the full matrix of tool predictions for all 347 variants, ideally as a supplementary table. The step from 8 to 6 variants must be explicitly justified.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and verification
+  - **Claim pointer** The authors claim that structural validation reports from ERRAT showed "reliable quality scores ranging from 90 to ~100" and that Ramachandran plots predicted "more than 93% residues in the most favored region."
+  - **Evidence pointer** Section 3.7, Table 4, Supporting Tables 3 and 4, location not provided
+  - **Concern** The actual ERRAT scores, Ramachandran percentages, and per-residue quality metrics for each of the seven models (one native, six mutants) are not presented in the text. The claim of "reliable" quality is a summary judgment that cannot be assessed without the underlying data. Furthermore, the RMSD and TM-score values for the structural comparisons are only partially described, with the text noting that F379V shows the largest deviation and C358S the smallest, but the values for the other four mutants are not given.
+  - **Why it matters** The structural modeling is a central pillar of the study's conclusions about variant impact. If the models are of poor quality or the comparisons are not meaningful, the structural interpretations are invalid. The current presentation does not allow the reader to judge model quality or the significance of the structural differences.
+  - **Resolution test** The authors must provide the full quality metrics for all models, including ERRAT scores, Ramachandran statistics, and the complete RMSD/TM-score table for all pairwise comparisons. They should also clarify why the TM-scores for F379V and C358S are so low (0.33 and 0.32, respectively) and how this is interpreted as meaningful structural deviation rather than model failure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical consistency of structural interpretation
+  - **Claim pointer** The authors state that "C374G displaying the strongest structural deviation" in the Discussion, but in Section 3.7 they state that F379V shows the largest RMSD and C358S the smallest.
+  - **Evidence pointer** Section 3.7 and Section 4, location not provided
+  - **Concern** There is a direct contradiction between the Results and Discussion sections regarding which mutant shows the strongest structural deviation. The Results state F379V has the largest RMSD, while the Discussion attributes this to C374G. This inconsistency undermines confidence in the carefulness of the analysis and interpretation.
+  - **Why it matters** If the authors cannot consistently report their own results, the reader cannot trust the broader conclusions. This is a basic error that should have been caught during manuscript preparation.
+  - **Resolution test** The authors must correct this inconsistency and ensure that all statements about structural deviations are consistent between the Results and Discussion sections.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance and integration of pan-cancer analysis
+  - **Claim pointer** The authors claim that "pan-cancer analysis showed that ING1 mRNA is broadly expressed but variably dysregulated among tumor types" and that "proteomic profiles... revealed cancer-type-specific differences in ING1 abundance, with significant upregulation in endometrioid adenocarcinoma."
+  - **Evidence pointer** Section 3.11, Figure 8, location not provided
+  - **Concern** The connection between the pan-cancer expression analysis and the variant-focused narrative is not clearly established. The manuscript is about specific nsSNPs in p47ING1a, but the expression analysis examines total ING1 levels across cancers. It is unclear how expression levels of the gene relate to the pathogenicity of specific variants. The analysis appears to be an add-on that does not strengthen the central claims.
+  - **Why it matters** The inclusion of tangential analyses without clear integration dilutes the focus of the manuscript and raises questions about the authors' understanding of their own study's scope.
+  - **Resolution test** The authors should either explicitly connect the expression data to the variant analysis (e.g., by discussing whether the six variants are found in cancers with altered ING1 expression) or remove this section to maintain focus.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Overstatement of conclusions
+  - **Claim pointer** The authors conclude that the six variants "are predicted to disrupt protein stability, H3K4me3 binding, and Sin3A/HDAC complex interactions, thereby impairing ING1 tumor-suppressor function."
+  - **Evidence pointer** Abstract and Section 5, location not provided
+  - **Concern** The conclusion states as a near-fact that the variants impair tumor-suppressor function, but the study is entirely computational. The binding affinity predictions (BeAtMuSiC) were only performed for a subset of variants, and the direct effect on Sin3A/HDAC interactions was not modeled at all. The leap from predicted structural destabilization to functional impairment of tumor suppression is not supported by the evidence presented.
+  - **Why it matters** Overstating conclusions from computational predictions is a common weakness in purely in silico studies. The authors themselves acknowledge in the Limitations that experimental validation is needed, yet the abstract and conclusion do not reflect this caution.
+  - **Resolution test** The authors should temper the language in the abstract and conclusion to clearly state that these are predictions requiring experimental validation, not established effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** SNP count discrepancy
+  - **Evidence pointer** Section 2.1 and Section 3.1, location not provided
+  - **Issue** The Methods state that 347 missense nsSNPs were retrieved, while the Results state that 348 were found in the NCBI dbSNP database. The abstract also mentions 347. This discrepancy is not explained.
+  - **Required correction** Clarify the correct number and ensure consistency throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Tool version and parameters
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The manuscript does not specify the versions of the tools used or the exact parameters and default settings applied. This limits reproducibility.
+  - **Required correction** Provide tool versions, access dates, and any non-default parameters used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Pan-cancer analysis
+  - **Evidence pointer** Section 3.11, location not provided
+  - **Issue** The p-value for ING1 upregulation in endometrioid adenocarcinoma is reported as p < 9e-7, but the statistical test used, the number of comparisons, and whether multiple testing correction was applied are not stated.
+  - **Required correction** Specify the statistical test, the correction method, and the total number of cancer types compared.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Figure 6
+  - **Evidence pointer** Section 3.7, location not provided
+  - **Issue** The text states that AlphaFold3 models were generated for the native and six mutant proteins, but it is unclear what Figure 6 actually displays (e.g., overlays, individual models, or specific regions).
+  - **Required correction** Describe the content of Figure 6 in the text and ensure the figure legend is sufficiently detailed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections, location not provided
+  - **Issue** There are several grammatical errors and awkward phrasings throughout the manuscript (e.g., "The p47ING1a gene is located in the subtelomeric region" should be "The ING1 gene is located..."). These do not affect scientific content but reduce readability.
+  - **Required correction** Thorough proofreading and language editing are recommended.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of defined consensus criteria), R1-M2 (incomplete structural data presentation), R1-M3 (internal contradiction in structural interpretation). These must be resolved before the central claims can be evaluated.
+- **Assessment against Nature-style criteria** Originality: The isoform-specific focus on p47ING1a is a modest but genuine contribution, as most prior computational studies have not distinguished between ING1 isoforms. However, the overall approach (multi-tool SNP prioritization) is well-established and not methodologically novel. Scientific importance: The potential importance is moderate. ING1 is a known tumor suppressor, and identifying deleterious variants could have clinical relevance, but the purely computational nature of the study limits its immediate impact. The study does not provide new biological insight beyond what is already known about PHD domain function. Interdisciplinary readership: The manuscript is likely to appeal primarily to computational biologists and ING1 researchers. The lack of experimental validation and the narrow focus limit broader appeal to cancer biologists or clinicians. Technical soundness: The technical approach is reasonable in principle, but the lack of defined criteria, incomplete data presentation, and internal inconsistencies undermine confidence in the technical execution. Readability for nonspecialists: The manuscript is generally readable but contains jargon and assumes familiarity with multiple bioinformatics tools. The logical flow is disrupted by the pan-cancer analysis, which is not well integrated.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a reasonable premise and a systematic approach, but the central claims cannot be verified from the provided text alone. The internal contradiction between Results and Discussion, the undefined consensus criteria, and the incomplete presentation of structural data are significant issues that must be addressed. Even after these are resolved, the study would remain a computational prediction requiring experimental validation to have lasting impact. I would be supportive of the manuscript if the technical concerns are resolved and the conclusions are appropriately tempered, but in its current form, the case is not established.
+
+## Risk / unsupported claims
+- The claim that all six variants are "consistently predicted" as deleterious is unverifiable without the full tool-by-tool results and defined consensus criteria.
+- The claim that the variants "impair ING1 tumor-suppressor function" is unsupported by the evidence, as no functional assays were performed.
+- The claim that five mutants gain a glycosylation site at position 265 is based on a single prediction tool (NetOGlyc 4.0) and is presented without any experimental or structural context.
+- The pan-cancer expression analysis is presented without statistical details and its relevance to the variant-focused narrative is not established.
+- The statement that "C374G displaying the strongest structural deviation" in the Discussion contradicts the Results section and is therefore unreliable.
+- The claim that the study provides "the first isoform-specific mutational landscape of p47ING1a" is difficult to verify without a comprehensive literature search, and the authors do not provide evidence that no prior isoform-specific analysis exists.

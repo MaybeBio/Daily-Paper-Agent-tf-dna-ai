@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results and discussion, experimental methods, and supplementary material references.
+- **Assessment boundary** Scientific validity, methodological rigor, support of claims by presented evidence, and clarity of presentation. No assessment of journal fit or editorial decisions.
+- **Shared manuscript claim summary** The authors present the first full-length model of the c-Myc/Max heterodimer and use Gaussian-accelerated molecular dynamics (GaMD) simulations to characterize the conformational behavior of c-Myc in three states: monomeric, Max-bound, and post-Max-removal. They report that Max binding stabilizes the bHLH-Zipper motif, that the TAD region remains highly plastic, that electrostatic interactions dominate the c-Myc/Max interface with key residues Arg299, Ile403, and Leu420, and that three potential drug binding pockets exist within c-Myc.
+- **Visible evidence base** Abstract, full text of introduction, results and discussion, experimental methods, and references to supplementary figures and tables. Figures and tables are referenced but not directly viewable in the provided material.
+- **Missing materials affecting confidence** Actual figures, tables, and supplementary information are not provided. Simulation parameter details, force field validation data, convergence criteria, and raw trajectory statistics are not directly assessable. The PDB structure 6G6K comparison data and P2Rank output details are referenced but not shown.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and challenging topic, namely the conformational behavior of the intrinsically disordered protein c-Myc using enhanced sampling simulations. The construction of a full-length c-Myc/Max heterodimer model is a potentially useful contribution. However, the evidence presented in the text is insufficient to fully support several central claims, particularly regarding the stability of the bHLH-Zipper motif, the interpretation of free-energy landscapes, and the druggability predictions. The methodological choices are reasonable but require additional validation and more detailed reporting to establish confidence in the conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, molecular dynamics simulation methodology, and cancer drug discovery would find this work relevant. The full-length heterodimer model and the analysis of conformational states could inform future studies on c-Myc targeting strategies and on the behavior of IDPs in protein-protein interactions.
+- **Major strengths** The study tackles a biologically important and technically challenging target. The use of GaMD is appropriate for exploring the conformational landscape of an IDP. The comparison across three states (monomeric, bound, and post-removal) is a useful design. The identification of specific residues contributing to the interaction via MM-PBSA provides a concrete starting point for further investigation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the bHLH-Zipper motif of c-Myc is more stable when bound to Max, based on lower RMSD values in the Max-bound state.
+  - **Evidence pointer** Results section, "Max Protein Stabilizes the bHLH-Zipper Motif of c-Myc", Figure 2a
+  - **Concern** The RMSD comparison between monomeric and Max-bound states is presented as evidence of stabilization, but the text does not report whether the difference is statistically significant across replicates. The spread of RMSD values across the three replicates is large (6.13, 3.85, and 3.77 Å for monomeric; 2.21, 2.41, and 2.31 Å for Max-bound), and no error analysis or replicate-to-replicate variability assessment is provided. Furthermore, RMSD alone is an incomplete measure of conformational stability for an IDP, as it does not capture ensemble breadth or the nature of sampled states.
+  - **Why it matters** The central conclusion of the paper, that Max binding stabilizes the bHLH-Zipper motif, rests on this comparison. Without statistical support and a more nuanced analysis of conformational ensembles, the claim is not robustly established.
+  - **Resolution test** Provide per-replicate RMSD distributions, statistical testing (e.g., mean and standard deviation across replicates, or a permutation test), and complementary metrics such as radius of gyration distributions or secondary structure content over time to demonstrate a clear and significant difference in conformational stability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the combined free-energy landscape (FEL) revealed four distinct conformational states, with conformation 1 (Max-bound replicate 3) being the most stable.
+  - **Evidence pointer** Results section, "Combined FEL Plot Revealed Four Conformational States of c-Myc", Figure 7 and Figure 8
+  - **Concern** The FEL is constructed from all replicates combined, but the text does not specify the reaction coordinates used, the method of binning, or how the basins were identified and distinguished. The assignment of each basin to a specific replicate (e.g., conformation 1 from Max-bound replicate 3) suggests that the basins may reflect replicate-specific sampling rather than distinct, reproducible conformational states. The depth of the basins and the energy barriers between them are not quantified.
+  - **Why it matters** The interpretation of the FEL as revealing four biologically meaningful conformational states is a key result. If the basins are artifacts of insufficient sampling or replicate variability, the conclusion is not valid.
+  - **Resolution test** Specify the FEL construction parameters, show the FEL for each replicate individually, and demonstrate that the four basins are reproducible across replicates and not an artifact of combining trajectories. Quantify the free-energy differences between basins and the barriers separating them.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the interaction between c-Myc and Max is driven mainly by electrostatic interactions, based on MM-PBSA calculations and the identification of Arg299, Ile403, and Leu420 as key residues.
+  - **Evidence pointer** Results section, "MM-PBSA Calculations Revealed That the Interaction between c-Myc and Max Is Driven by Electrostatic Interactions", Table 1 and Figure 9
+  - **Concern** The MM-PBSA method is known to be sensitive to the choice of parameters, including the dielectric constant, the entropy contribution, and the conformational ensemble used. The text does not report the specific MM-PBSA parameters used, whether entropy was included, or how the per-residue decomposition was performed. The claim that the interaction is "driven mainly by electrostatic interactions" requires a comparison of the magnitudes of electrostatic versus van der Waals contributions, which is not provided in the text. The identification of Ile403 and Leu420 as key residues is surprising given the claim of electrostatic dominance, as these are hydrophobic residues.
+  - **Why it matters** The mechanistic interpretation of the c-Myc/Max interaction is a central finding. Without detailed methodological reporting and a clear breakdown of energy contributions, the claim is not fully supported.
+  - **Resolution test** Report all MM-PBSA parameters, including dielectric constants and entropy treatment. Provide a table of the electrostatic, van der Waals, and solvation energy contributions separately. Explain the role of hydrophobic residues in an electrostatically driven interaction, or revise the interpretation accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that three potential drug binding pockets were identified within c-Myc, with pocket 1 in conformation 1 having the highest scores.
+  - **Evidence pointer** Results section, "Three Potential Drug Binding Pockets Were Identified within c-Myc in Conformation 1, Conformation 3, and Conformation 4", Table 2 and Figure 11
+  - **Concern** The drug binding pocket prediction is performed using P2Rank on a single conformation from each state. For an IDP, which samples a broad ensemble of conformations, a single conformation is unlikely to be representative of the druggable surface. The text does not discuss whether the identified pockets are persistent across the conformational ensemble or whether they are transient features of a specific snapshot. The functional relevance of these pockets is not experimentally validated or compared to known c-Myc binders.
+  - **Why it matters** The druggability prediction is a key translational claim of the paper. If the pockets are not stable features of the ensemble, the claim is misleading for drug development efforts.
+  - **Resolution test** Perform pocket prediction on multiple snapshots across the trajectory and report the persistence of the identified pockets. Compare the predicted pockets to known c-Myc binding sites from experimental structures or literature. Discuss the limitations of pocket prediction for IDPs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction lists several diseases associated with IDPs but does not provide a clear explanation of why the lack of a defined structure makes IDPs difficult to target, which is a key concept for the nonspecialist reader.
+  - **Required correction** Add a brief explanation of how conformational plasticity complicates traditional structure-based drug design.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, GaMD simulations
+  - **Evidence pointer** Experimental Methods, "Gaussian-Accelerated Molecular Dynamics (GaMD) Simulations"
+  - **Issue** The text states that GaMD equilibration was carried out for 50 ns with a dual boost potential, but the specific values of the boost parameters (e.g., the threshold energy and the upper limit of the boost) are not reported.
+  - **Required correction** Report the specific GaMD parameters used, including the boost potential settings and the criteria for choosing them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, RMSF analysis
+  - **Evidence pointer** Results section, "Amino Acid Residues from the Disordered Regions of bHLH-Zipper Motif in Monomeric c-Myc Exhibited Higher Fluctuations Than That in Max-Bound c-Myc", Figure 6
+  - **Issue** The text reports that residues Glu410 to Lys422 showed higher RMSF in the monomeric state, but the biological significance of this specific region is not discussed beyond a general statement about disordered regions.
+  - **Required correction** Discuss the potential functional relevance of this specific region, for example, whether it corresponds to a known interaction site or a region involved in DNA binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, MM-PBSA section
+  - **Evidence pointer** Results section, "MM-PBSA Calculations Revealed That the Interaction between c-Myc and Max Is Driven by Electrostatic Interactions"
+  - **Issue** The term "MM-PBSA" is used without a brief explanation of what the method calculates, which may be unclear to readers outside the computational biophysics community.
+  - **Required correction** Add a one-sentence explanation of MM-PBSA as a method for estimating binding free energies from molecular dynamics trajectories.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical support for RMSD differences), R1-M2 (FEL construction and reproducibility), R1-M3 (MM-PBSA parameter reporting and energy decomposition), R1-M4 (ensemble-based pocket analysis).
+- **Assessment against Nature-style criteria** Originality: The full-length c-Myc/Max heterodimer model is a novel contribution, as the authors correctly note that previous studies focused on partial structures. However, the methodological approach is not new, and the originality is primarily in the system studied rather than in the methods or concepts. Scientific importance: The topic is important given the role of c-Myc in cancer and the challenges of targeting IDPs. However, the translational relevance of the findings is not yet established, and the druggability claims require stronger evidence. Interdisciplinary readership: The work is primarily of interest to computational biophysicists and structural biologists. The broader cancer biology community would need clearer connections to experimental observations or therapeutic implications. Technical soundness: The choice of GaMD and the force field/water model combination is reasonable, but the analysis lacks statistical rigor and methodological detail. The FEL and MM-PBSA analyses require more careful reporting and validation. Readability for nonspecialists: The manuscript is generally readable but assumes familiarity with MD simulation terminology. Some concepts, such as MM-PBSA and FEL, could benefit from brief explanations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem and presents a potentially useful model system, but the central claims require stronger statistical support, more detailed methodological reporting, and a more rigorous treatment of the conformational ensemble to be fully convincing.
+
+## Risk / unsupported claims
+- The claim that the bHLH-Zipper motif is "more stable" when bound to Max is not statistically supported.
+- The claim that the FEL reveals four distinct conformational states is not reproducible from the provided evidence.
+- The claim that the interaction is "driven mainly by electrostatic interactions" is not fully supported without a detailed energy decomposition.
+- The claim that three potential drug binding pockets were identified is based on single conformations and is not representative of the IDP ensemble.
+- The statement that this is the "first MD simulation study ever done with the full-length c-Myc and c-Myc/Max heterodimers" is a strong claim that cannot be verified from the provided material.
+- The biological interpretation that TAD flexibility is important for partner protein interactions is speculative and not directly tested.

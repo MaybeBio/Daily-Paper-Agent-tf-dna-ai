@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and data availability statements. Figures and tables referenced but not provided.
+- **Assessment boundary** Scientific validity of the claimed bias, the proposed mitigation strategy, the benchmark results, and the utility of the released software package. Assessment is limited to the provided text; figures, tables, and supplementary materials were not available for inspection.
+- **Shared manuscript claim summary** The authors claim that existing miRNA binding site datasets suffer from a "miRNA frequency class bias" caused by in silico negative sample generation, that this bias inflates model performance, that their novel negative sampling strategy corrects this bias, and that a simple CNN retrained on their new large-scale dataset outperforms existing state-of-the-art methods.
+- **Visible evidence base** Text descriptions of methods and results, including APS values for decision tree sanity checks, benchmark APS values for seven methods across four test sets, retraining results for miRNA_CNN_Hejret2023, and scaling experiments. No actual figures, tables, or code were available for direct verification.
+- **Missing materials affecting confidence** All figures (Fig. 2, 3, 4, 5), all tables (Table 1, 2, 3), the actual dataset files, the Python package code, and the full preprocessing pipeline. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript identifies a plausible and potentially important source of bias in miRNA binding site prediction datasets, proposes a reasonable mitigation strategy, and provides a substantial new resource. However, the evidence presented in the text alone is insufficient to fully establish the claims. The key results are described but not shown, and several methodological details are missing. The core idea is promising and the resource could be valuable, but the current manuscript does not provide enough verifiable evidence to support all conclusions.
+- **Who would be interested in the results, and why** Researchers developing computational methods for miRNA target prediction, machine learning practitioners working on biological sequence data, and experimental biologists who use prediction tools to prioritize miRNA targets. The dataset resource and the identified bias are directly relevant to anyone training or benchmarking such models.
+- **Major strengths** The identification of a specific, previously unreported bias is a valuable contribution. The proposed mitigation strategy is conceptually sound and addresses a real weakness in common negative sampling approaches. The scale of the new dataset, particularly the Manakov2022 set, is a significant resource. The provision of an accessible Python package lowers the barrier for adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the miRNA frequency class bias is present in existing datasets and inflates model performance.
+  - **Evidence pointer** Section 3.1, Table 1 (not provided)
+  - **Concern** The central claim of the paper rests on the demonstration that a decision tree trained only on miRNA k-mer features achieves high APS on biased datasets, and that this drops when the bias is corrected. However, the actual APS values, the experimental setup, and the statistical significance of the differences are only described in text. Without the actual table and figure, the reader cannot assess whether the effect is robust or whether the decision tree setup is a fair test. Additionally, the claim that "several models are affected" is based on Table 1, which is not available for inspection.
+  - **Why it matters** This is the foundational claim of the manuscript. If the bias is not convincingly demonstrated, the entire motivation for the new datasets and the mitigation strategy collapses.
+  - **Resolution test** Provide Table 1 with APS values for all methods on both biased and corrected datasets, including confidence intervals or error bars. Show the decision tree results with clear experimental details and statistical testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The claim that the novel negative sampling strategy "effectively mitigates" the miRNA frequency class bias.
+  - **Evidence pointer** Section 2.2, Section 3.2
+  - **Concern** The description of the negative sampling strategy is incomplete. The text states that negatives are generated "per miRNA family" while preserving the proportion of families, and that binding sites are selected from clusters other than those in the positive examples. However, key details are missing: how are negative binding sites selected within a cluster? Is the selection random or deterministic? How is the 90% similarity clustering threshold justified? How are binding site lengths handled? The validation of the strategy relies on the decision tree test in Section 3.2, but the APS of 0.39 is described as "lower than random" and attributed to train/test split imbalance. This explanation is plausible but not rigorously demonstrated.
+  - **Why it matters** The mitigation strategy is the core methodological contribution. Without a complete and reproducible description, other researchers cannot implement or evaluate it. The validation is also weak, as a single decision tree result with an ad hoc explanation is not sufficient to prove the bias is fully corrected.
+  - **Resolution test** Provide a complete algorithmic description of the negative sampling procedure, including pseudocode or a detailed step-by-step protocol. Show that the decision tree result of 0.39 is statistically distinguishable from 0.5 and provide a more thorough analysis of why it is below random, possibly with simulations or additional experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Result verification
+  - **Claim pointer** The claim that a simple CNN retrained on the new datasets outperforms all state-of-the-art methods.
+  - **Evidence pointer** Section 3.5, Table 3, Figure 4 (not provided)
+  - **Concern** The benchmark results are described in text but the actual numbers are not shown. The claim that the retrained CNN achieves APS of 0.86 on the Hejret2023 test set and 0.81-0.84 on other test sets is presented without any measure of variance, number of runs, or statistical comparison to other methods. The statement that "no single method consistently outperforms the others" is a qualitative summary that cannot be verified without the full results table.
+  - **Why it matters** The benchmark results are the primary evidence for the utility of the new datasets. Without the actual numbers, the reader cannot judge whether the improvements are meaningful or whether the comparisons are fair.
+  - **Resolution test** Provide Table 3 with APS values for all methods on all test sets, including standard deviations or confidence intervals. Describe the number of independent runs and the statistical tests used to compare methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that the Manakov2022 left-out dataset, containing miRNA families unique to that dataset, is useful for evaluating generalizability.
+  - **Evidence pointer** Section 2.2, Section 3.5
+  - **Concern** The left-out dataset is described as containing only miRNA families not found in the other datasets. However, the text also notes that models perform worse on this dataset (APS 0.81 vs 0.84 on other test sets). The authors attribute this to "experiment- or dataset-specific elements" but do not investigate what these might be. The claim that this dataset is useful for evaluating generalizability is reasonable, but the analysis is superficial.
+  - **Why it matters** The left-out dataset is presented as a key feature of the resource. A deeper analysis of why performance drops on this dataset would strengthen the paper and provide insights into the limitations of current models.
+  - **Resolution test** Provide a more detailed analysis of the left-out dataset, including characteristics of the unique miRNA families, potential reasons for the performance drop, and suggestions for how future models might address these challenges.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, APS definition
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The formula for APS is mentioned but not shown. The text states "APS is given by: where P n and R n are..." but the actual equation is missing from the provided text.
+  - **Required correction** Include the full APS formula in the text or as an equation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.2, dataset preprocessing
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The text mentions "modifications were made to the original pipeline" for HybriDetector, but does not specify what these modifications were.
+  - **Required correction** Describe the specific modifications made to the HybriDetector pipeline, or provide a link to a detailed description.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.4, Figure 2A
+  - **Evidence pointer** Section 3.4, Figure 2A (not provided)
+  - **Issue** The text states that Klimentova2022 shows only 23% of binding sites mapping to 3'UTR, while Hejret2023 and Manakov2022 show 37% and 41%. The authors note that "chimeric eCLIP appears to have more intronic targets than CLASH" but do not discuss the implications of the low 3'UTR proportion in Klimentova2022.
+  - **Required correction** Add a brief discussion of why Klimentova2022 has a lower 3'UTR proportion and what this means for models trained on that dataset.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.5, scaling experiments
+  - **Evidence pointer** Section 3.5, Figure 5 (not provided)
+  - **Issue** The text states that performance increases logarithmically with training set size and plateaus around 4,084 examples, but does not provide the actual data points or the fitted curve.
+  - **Required correction** Show the data points and the fitted logarithmic curve in Figure 5, and report the parameters of the fit.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures and tables is a critical failing. The manuscript cannot be properly evaluated without them. Additionally, the incomplete description of the negative sampling methodology and the lack of statistical rigor in the benchmark comparisons are technical shortcomings that must be addressed.
+- **Assessment against Nature-style criteria** Originality: The identification of miRNA frequency class bias is a novel and important observation. Scientific importance: The bias likely affects many existing models and datasets, so correcting it has broad implications. Interdisciplinary readership: The work is relevant to both computational biologists and machine learning researchers, but the presentation is somewhat technical. Technical soundness: The core idea is sound, but the evidence presented is insufficient to fully verify the claims. Readability for nonspecialists: The abstract is clear, but the methods section assumes significant background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is valuable and the resource is potentially important, but the current manuscript does not provide enough verifiable evidence. The authors must provide the missing figures and tables, complete the methodological description, and add statistical rigor to the benchmark comparisons.
+
+## Risk / unsupported claims
+- The claim that the miRNA frequency class bias is "prevalent" in existing datasets is not fully supported without the actual decision tree results and a broader survey of datasets.
+- The claim that the negative sampling strategy "effectively mitigates" the bias is not fully established, as the validation is limited to a single decision tree experiment with an ad hoc explanation for the below-random performance.
+- The claim that the retrained CNN "outperforms state-of-the-art methods" is not verifiable without the actual benchmark results and statistical comparisons.
+- The claim that the Manakov2022 left-out dataset is useful for evaluating generalizability is plausible but not demonstrated with sufficient analysis.
+- The claim that the dataset resource is "orders of magnitude larger" than existing ones is stated but not quantified in the provided text.

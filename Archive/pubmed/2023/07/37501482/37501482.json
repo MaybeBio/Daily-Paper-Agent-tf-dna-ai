@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "37501482",
+    "doi": "10.3934/mbe.2023586",
+    "title": "Identification of DNA-binding protein based multiple kernel model."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) play a critical role in the development of drugs for treating genetic diseases and in DNA biology research. It is essential for predicting DNA-binding proteins more accurately and efficiently. In this paper, a Laplacian Local Kernel Alignment-based Restricted Kernel Machine (LapLKA-RKM) is proposed to predict DBPs. In detail, we first extract features from the protein sequence using six methods. Second, the Radial Basis Function (RBF) kernel function is utilized to construct pre-defined kernel metrics. Then, these metrics are combined linearly by weights calculated by LapLKA. Finally, the fused kernel is input to RKM for training and prediction. Independent tests and leave-one-out cross-validation were used to validate the performance of our method on a small dataset and two large datasets. Importantly, we built an online platform to represent our model, which is now freely accessible via http://8.130.69.121:8082/.",
+    "keywords": [
+      "DNA-binding proteins",
+      "local kernel alignment",
+      "multiple kernel learning",
+      "restricted kernel machine"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins",
+      "*Algorithms",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qian, Yuqing",
+        "Shang, Tingting",
+        "Guo, Fei",
+        "Wang, Chunliang",
+        "Cui, Zhiming",
+        "Ding, Yijie",
+        "Wu, Hongjie"
+      ],
+      "short_names": [
+        "Qian Y",
+        "Shang T",
+        "Guo F",
+        "Wang C",
+        "Cui Z",
+        "Ding Y",
+        "Wu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China.",
+        "College of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, China.",
+        "The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "College of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, China.",
+        "College of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qian, Yuqing",
+        "short_name": "Qian Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Tingting",
+        "short_name": "Shang T",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Fei",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chunliang",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhiming",
+        "short_name": "Cui Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hongjie",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mathematical biosciences and engineering : MBE"
+    ],
+    "journal_abbrev": [
+      "Math Biosci Eng"
+    ],
+    "pub_date": "2023 Jun 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/28 06:42",
+    "fetched_at": "2026-09-29 04:31:06"
+  },
+  "links": {
+    "cites": [
+      "40045181"
+    ],
+    "refs": [],
+    "similar": [
+      "37501482",
+      "35334314",
+      "35731758",
+      "34743286",
+      "37060772",
+      "31123959",
+      "38316843",
+      "34058979",
+      "30668479",
+      "23497081",
+      "28247893",
+      "29753757",
+      "25893896",
+      "35922903",
+      "35378437",
+      "28060807",
+      "24475169",
+      "32300371",
+      "31454964",
+      "28541376",
+      "32352006",
+      "30957840",
+      "35242211",
+      "24262978",
+      "38747369",
+      "29097781",
+      "26829605",
+      "29504897",
+      "27740495",
+      "26415726",
+      "34932484",
+      "33410688",
+      "30478811",
+      "31062114",
+      "31998772",
+      "31362714",
+      "30943723",
+      "36416116",
+      "24566145",
+      "36044786",
+      "29741583",
+      "33780341",
+      "31693872",
+      "26517719",
+      "28646763",
+      "36087888",
+      "23460833",
+      "18366736",
+      "34241771",
+      "27032459",
+      "34291709",
+      "25521807",
+      "21739137",
+      "30239627",
+      "21106125",
+      "19925685",
+      "30316822",
+      "32938375",
+      "30032609",
+      "23878814",
+      "35325031",
+      "22373313",
+      "32211144",
+      "36735971",
+      "28293256",
+      "29380342",
+      "26482832",
+      "28629202",
+      "25243224",
+      "25036334",
+      "37456753",
+      "22574904",
+      "37734218",
+      "34372777",
+      "24729748",
+      "35590801",
+      "28912801",
+      "31521253",
+      "25401312",
+      "36980852",
+      "31027046",
+      "29606958",
+      "34225139",
+      "30075354",
+      "30800250",
+      "32775434",
+      "32144887",
+      "16526956",
+      "36112635",
+      "34722764",
+      "29566671",
+      "23737141",
+      "29297354",
+      "35447463"
+    ],
+    "review": [
+      "37501482"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aimspress.com/article/doi/10.3934/mbe.2023586",
+        "provider": "American Institute of Mathematical Sciences",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

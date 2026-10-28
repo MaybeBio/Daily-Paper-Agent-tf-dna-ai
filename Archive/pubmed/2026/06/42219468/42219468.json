@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "42219468",
+    "doi": "10.1186/s12885-026-16257-y",
+    "title": "CCDC6, a ferroptosis-related gene, modulates stemness features of pancreatic cancer cells in vitro."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Pancreatic cancer (PC) poses a significant threat to patient quality of life. Ferroptosis, a novel form of non-apoptotic cell death, is implicated in pancreatic tumorigenesis and therapy resistance. This study aims to identify key ferroptosis-related genes (FRGs) as prognostic biomarkers, to construct a risk model for predicting patient outcomes, and to explore the underlying biological mechanisms. METHODS: We integrated transcriptomic and single-cell RNA sequencing (scRNA-seq) data to develop a prognostic model. We used cross-validation across three machine learning algorithms to identify core FRGs with high prognostic value. A risk prediction model was then constructed and validated using independent datasets. Immunological profiling was conducted to characterize the tumor microenvironment of different risk groups. In vitro experiments, including gene knockdown and spheroid formation assays, were performed to functionally validate the role of a key gene. RESULTS: Cross-validated analysis identified YAP1, CCDC6, and CIRBP as pivotal prognostic FRGs. The risk prediction model based on these genes demonstrated clinically satisfactory performance, particularly for long-term survival, and was robustly validated. Immunological profiling revealed that high-risk patients exhibited elevated expression of immune checkpoint molecules CEACAM1 and LGALS3, whereas the low-risk group was enriched for myogenesis features. Experimentally, we confirmed CCDC6 overexpression in pancreatic cancer cells. CCDC6 knockdown suppressed the stemness markers NANOG and SOX2 and reduced cancer cell self‑renewal. It also downregulated GPX4 and SLC7A11. Treatment with the ferroptosis inhibitor Ferrostatin-1 partially restored the stemness markers, suggesting that CCDC6 sustains stemness-associated traits at least in part through ferroptosis regulation. CONCLUSION: This study establishes a robust FRGs-based prognostic model for pancreatic cancer. In vitro, CCDC6 knockdown downregulated GPX4 and SLC7A11, and ferroptosis inhibition partially rescued stemness marker loss, suggesting that CCDC6 may link ferroptosis defense to stemness maintenance. These findings warrant further in vivo validation.",
+    "keywords": [
+      "CCDC6",
+      "Cancer Stemness",
+      "Ferroptosis",
+      "Pancreatic cancer",
+      "Prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/genetics/pathology/mortality",
+      "*Ferroptosis/genetics",
+      "Prognosis",
+      "*Neoplastic Stem Cells/pathology/metabolism",
+      "Cell Line, Tumor",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Tumor Microenvironment/genetics",
+      "Gene Expression Profiling",
+      "Transcription Factors/genetics",
+      "YAP-Signaling Proteins",
+      "RNA-Binding Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Junquan",
+        "Dai, Zhengxing",
+        "Ge, Chen",
+        "Zhang, Ye",
+        "Cai, Fengjun",
+        "Tong, Genxi",
+        "Gong, Jiantao",
+        "Xu, Zipeng",
+        "Chen, Chaobo"
+      ],
+      "short_names": [
+        "Wu J",
+        "Dai Z",
+        "Ge C",
+        "Zhang Y",
+        "Cai F",
+        "Tong G",
+        "Gong J",
+        "Xu Z",
+        "Chen C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Xishan People's Hospital of Wuxi City, 214105, Wuxi, China.",
+        "Department of Interventional and Vascular Surgery, Xishan People's Hospital of Wuxi City, 214105, Wuxi, China.",
+        "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China.",
+        "Department of Pathology, Xishan People's Hospital of Wuxi City, 214105, Wuxi, China.",
+        "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China.",
+        "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China.",
+        "Department of Gastroenterology, Xishan People's Hospital of Wuxi City, 214105, Wuxi, China. 13812202179@139.com.",
+        "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China. xuzipeng1989@126.com.",
+        "Department of Surgery, School of Medicine, Southeast University, Nanjing, 210009, China. xuzipeng1989@126.com.",
+        "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China. bobo19820106@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Junquan",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Xishan People's Hospital of Wuxi City, 214105, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Zhengxing",
+        "short_name": "Dai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional and Vascular Surgery, Xishan People's Hospital of Wuxi City, 214105, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Chen",
+        "short_name": "Ge C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ye",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Xishan People's Hospital of Wuxi City, 214105, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Fengjun",
+        "short_name": "Cai F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Genxi",
+        "short_name": "Tong G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Jiantao",
+        "short_name": "Gong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Xishan People's Hospital of Wuxi City, 214105, Wuxi, China. 13812202179@139.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Zipeng",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China. xuzipeng1989@126.com.",
+          "Department of Surgery, School of Medicine, Southeast University, Nanjing, 210009, China. xuzipeng1989@126.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Chaobo",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Xishan People's Hospital of Wuxi City, Wuxi, China. bobo19820106@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2026 Jun 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/01 00:33",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40164329",
+      "39879992",
+      "39629136",
+      "39135069",
+      "38467382",
+      "37931247",
+      "37732406",
+      "36716293",
+      "36186907",
+      "35964058",
+      "35861061",
+      "35859150",
+      "35793870",
+      "35793384",
+      "35761336",
+      "35702180",
+      "35672802",
+      "35350771",
+      "34733656",
+      "34712237",
+      "34552818",
+      "34381026",
+      "34195205",
+      "34049975",
+      "33421513",
+      "33311482",
+      "33271455",
+      "32221015",
+      "32206112",
+      "31232522",
+      "31105042",
+      "30535490",
+      "30050119",
+      "27372520",
+      "26653790",
+      "23198911",
+      "18762024"
+    ],
+    "similar": [
+      "42219468",
+      "38885819",
+      "41716413",
+      "41235257",
+      "41350704",
+      "41206435",
+      "41436608",
+      "39271768",
+      "41425595",
+      "40763838",
+      "41832427",
+      "41200204",
+      "41436831",
+      "41798945",
+      "34195903",
+      "41106766",
+      "41613147",
+      "40534868",
+      "41080575",
+      "40746552",
+      "40375987",
+      "40688078",
+      "41639165",
+      "41944114",
+      "42445428",
+      "40855439",
+      "38007403",
+      "39748113",
+      "40016772",
+      "34624650",
+      "42565568",
+      "32781084",
+      "40666516",
+      "39351249",
+      "40141028",
+      "36407322",
+      "38817665",
+      "40486509",
+      "40765357",
+      "42550740",
+      "41992345",
+      "42212140",
+      "39587687",
+      "39107713",
+      "41152153",
+      "39117252",
+      "42027871",
+      "40460484",
+      "41656832",
+      "39726597",
+      "42477639",
+      "41394830",
+      "42093974",
+      "41659855",
+      "42238592",
+      "42292425",
+      "38704606",
+      "34059009",
+      "42244292",
+      "41123817",
+      "38774759",
+      "38694506",
+      "41208974",
+      "42035196",
+      "41942785",
+      "42079608",
+      "34708125",
+      "41583466",
+      "33777046",
+      "42120472",
+      "41929495",
+      "35974300",
+      "40438115",
+      "42212130",
+      "41966742",
+      "40286882",
+      "41050691",
+      "40616092",
+      "41872824",
+      "41567189",
+      "42010553",
+      "34418441",
+      "39431237",
+      "40465746",
+      "40496864",
+      "37940859",
+      "40956482",
+      "35282071",
+      "40423850",
+      "38172792",
+      "41346575",
+      "41351424",
+      "41613120",
+      "41601657",
+      "41507915",
+      "40744688",
+      "41947260",
+      "40065365",
+      "40247223",
+      "29248440"
+    ],
+    "review": [
+      "42219468"
+    ],
+    "pmc": [
+      "13435597"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-026-16257-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42219468/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NANOG-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1179",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

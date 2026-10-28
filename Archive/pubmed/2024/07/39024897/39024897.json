@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "39024897",
+    "doi": "10.1016/j.ebiom.2024.105251",
+    "title": "Blood DNA methylation in post-acute sequelae of COVID-19 (PASC): a prospective cohort study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: DNA methylation integrates environmental signals with transcriptional programs. COVID-19 infection induces changes in the host methylome. While post-acute sequelae of COVID-19 (PASC) is a long-term complication of acute illness, its association with DNA methylation is unknown. No universal blood marker of PASC, superseding single organ dysfunctions, has yet been identified. METHODS: In this single centre prospective cohort study, PASC, post-COVID without PASC, and healthy participants were enrolled to investigate their symptoms association with peripheral blood DNA methylation data generated with state-of-the-art whole genome sequencing. PASC-induced quality-of-life deterioration was scored with a validated instrument, SF-36. Analyses were conducted to identify potential functional roles of differentially methylated loci, and machine learning algorithms were used to resolve PASC severity. FINDINGS: 103 patients with PASC (22.3% male, 77.7% female), 15 patients with previous COVID-19 infection but no PASC (40.0% male, 60.0% female), and 27 healthy volunteers (48.1% male, 51.9% female) were enrolled. Whole genome methylation sequencing revealed 39 differentially methylated regions (DMRs) specific to PASC, each harbouring an average of 15 consecutive positions, that differentiate patients with PASC from the two control groups. Motif analyses of PASC-regulated DMRs identify binding domains for transcription factors regulating circadian rhythm and others. Some DMRs annotated to protein coding genes were associated with changes of RNA expression. Machine learning support vector algorithm and random forest hierarchical clustering reveal 28 unique differentially methylated positions (DMPs) in the genome discriminating patients with better and worse quality of life. INTERPRETATION: Blood DNA methylation levels identify PASC, stratify PASC severity, and suggest that DNA motifs are targeted by circadian rhythm-regulating pathways in PASC. FUNDING: This project has been funded by the following agencies: NIH-AI173035 (A. Jaitovich and R. Alisch); and NIH-AG066179 (R. Alisch).",
+    "keywords": [
+      "COVID-19",
+      "DNA methylation",
+      "Machine learning",
+      "PASC",
+      "Quality-of-life"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation",
+      "*COVID-19/genetics/blood/virology",
+      "Female",
+      "Male",
+      "Middle Aged",
+      "*SARS-CoV-2/genetics",
+      "Prospective Studies",
+      "Adult",
+      "Aged",
+      "Post-Acute COVID-19 Syndrome",
+      "Machine Learning",
+      "Whole Genome Sequencing",
+      "Biomarkers/blood",
+      "Quality of Life"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Balnis, Joseph",
+        "Madrid, Andy",
+        "Drake, Lisa A",
+        "Vancavage, Rachel",
+        "Tiwari, Anupama",
+        "Patel, Vraj J",
+        "Ramos, Ramon Bossardi",
+        "Schwarz, John J",
+        "Yucel, Recai",
+        "Singer, Harold A",
+        "Alisch, Reid S",
+        "Jaitovich, Ariel"
+      ],
+      "short_names": [
+        "Balnis J",
+        "Madrid A",
+        "Drake LA",
+        "Vancavage R",
+        "Tiwari A",
+        "Patel VJ",
+        "Ramos RB",
+        "Schwarz JJ",
+        "Yucel R",
+        "Singer HA",
+        "Alisch RS",
+        "Jaitovich A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA; Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA.",
+        "Department of Neurological Surgery, University of Wisconsin, Madison, WI, USA.",
+        "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA; Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA.",
+        "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA.",
+        "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA.",
+        "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA.",
+        "Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA.",
+        "Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA.",
+        "Department of Epidemiology and Biostatistics, Temple University, PA, USA.",
+        "Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA.",
+        "Department of Neurological Surgery, University of Wisconsin, Madison, WI, USA.",
+        "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA; Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA. Electronic address: jaitova@amc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Balnis, Joseph",
+        "short_name": "Balnis J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA; Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Madrid, Andy",
+        "short_name": "Madrid A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurological Surgery, University of Wisconsin, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Drake, Lisa A",
+        "short_name": "Drake LA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA; Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Vancavage, Rachel",
+        "short_name": "Vancavage R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Tiwari, Anupama",
+        "short_name": "Tiwari A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Patel, Vraj J",
+        "short_name": "Patel VJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ramos, Ramon Bossardi",
+        "short_name": "Ramos RB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Schwarz, John J",
+        "short_name": "Schwarz JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yucel, Recai",
+        "short_name": "Yucel R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, Temple University, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Singer, Harold A",
+        "short_name": "Singer HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Alisch, Reid S",
+        "short_name": "Alisch RS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurological Surgery, University of Wisconsin, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Jaitovich, Ariel",
+        "short_name": "Jaitovich A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary and Critical Care Medicine, Albany Medical Center, Albany, NY, USA; Department of Molecular and Cellular Physiology, Albany Medical College, Albany, NY, USA. Electronic address: jaitova@amc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "EBioMedicine"
+    ],
+    "journal_abbrev": [
+      "EBioMedicine"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/19 00:41",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42514186",
+      "42454043",
+      "42288901",
+      "42159289",
+      "41958356",
+      "41603032",
+      "41468414",
+      "41419966",
+      "41410771",
+      "40842550",
+      "40724879",
+      "40025839",
+      "39982115",
+      "39497009"
+    ],
+    "refs": [],
+    "similar": [
+      "39024897",
+      "42288901",
+      "41494242",
+      "39164752",
+      "41761254",
+      "40449327",
+      "34256735",
+      "41958356",
+      "40119174",
+      "39146534",
+      "37880596",
+      "39890144",
+      "39520983",
+      "41633328",
+      "41845161",
+      "38684819",
+      "35871090",
+      "41841761",
+      "37704012",
+      "34034806",
+      "40004214",
+      "38424349",
+      "34262570",
+      "40170038",
+      "38745298",
+      "40717948",
+      "39592950",
+      "40833451",
+      "39847575",
+      "39324686",
+      "39252682",
+      "41561974",
+      "40591496",
+      "35725782",
+      "39466241",
+      "41043442",
+      "42192338",
+      "39169287",
+      "41824803",
+      "40032512",
+      "40258532",
+      "42508134",
+      "39200685",
+      "40642078",
+      "41161027",
+      "33054850",
+      "38259488",
+      "41521322",
+      "35605238",
+      "39182422",
+      "40124412",
+      "39532773",
+      "40307894",
+      "41202571",
+      "33867313",
+      "39339845",
+      "41316170",
+      "39356444",
+      "41372813",
+      "40059124",
+      "40723800",
+      "38950954",
+      "38991216",
+      "39020437",
+      "39172652",
+      "41273049",
+      "40307834",
+      "35216672",
+      "40629965",
+      "33148325",
+      "42154742",
+      "34763058",
+      "41067382",
+      "40519899",
+      "35082777",
+      "39870998",
+      "40253714",
+      "40128677",
+      "39507365",
+      "39298620",
+      "41396732",
+      "38886689",
+      "37278994",
+      "34425843",
+      "34504487",
+      "38433036",
+      "40724879",
+      "40923924",
+      "34895312",
+      "33001180",
+      "42212121",
+      "37082741",
+      "40467399",
+      "41271424",
+      "35866388",
+      "42246840",
+      "37072092",
+      "41840532",
+      "40429707",
+      "38348267"
+    ],
+    "review": [
+      "39024897"
+    ],
+    "pmc": [
+      "11286994"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352-3964(24)00287-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39024897/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2352-3964(24)00287-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=phs003658",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

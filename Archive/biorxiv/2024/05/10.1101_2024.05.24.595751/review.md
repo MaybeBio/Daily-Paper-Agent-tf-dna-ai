@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplemental figure legends
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that the Mek1 FHA domain contains an acidic loop (D78, E79, D80) that non-canonically binds to RPXKR motifs in a subset of Mek1 substrates, including Ndt80 and Rrm3. They use AlphaFold modeling, two-hybrid assays, in vitro kinase assays, and phenotypic analyses to support this model.
+- **Visible evidence base** Figures 1-7, Supplemental Figures S1-S4, Tables 1-2, and associated methods as described in the text
+- **Missing materials affecting confidence** Actual figure images, numerical data points, statistical test outputs, strain validation data, and raw blots are not available for direct inspection
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting non-canonical interaction mechanism between a kinase FHA domain and substrate motifs. The combination of structural prediction with genetic validation is commendable. However, several key claims are not fully supported by the data as presented, particularly regarding the biological significance of the Rrm3 interaction and the existence of additional substrates. The phenotypic differences between the acidic loop mutants and NDT80-mid are intriguing but require more mechanistic depth.
+- **Who would be interested in the results, and why** Researchers studying meiotic recombination, kinase-substrate specificity, FHA domain biology, and the DNA damage checkpoint in yeast. The non-canonical FHA domain interaction may also interest structural biologists studying phospho-independent protein interactions.
+- **Major strengths** 1) The identification of a non-canonical FHA domain interaction surface is novel and potentially generalizable. 2) The combination of AlphaFold prediction with experimental validation is a modern and rigorous approach. 3) The genetic analyses are thorough, using multiple alleles and phenotypic assays. 4) The authors are appropriately cautious about the in vivo significance of the Rrm3 interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for biological significance
+  - **Claim pointer** The claim that the acidic loop is required for binding to additional, unknown Mek1 substrates beyond Ndt80 and Rrm3
+  - **Evidence pointer** Figure 6C, Discussion section
+  - **Concern** The authors infer the existence of additional substrates based on the observation that mek1-D78A E79A in the hedΔR background has lower spore viability than hedΔR NDT80-mid. However, this is an indirect inference. The D78A E79A mutant could affect other aspects of Mek1 function beyond substrate binding, such as protein stability, localization, or interactions with other proteins. The authors do not provide direct evidence for additional substrates.
+  - **Why it matters** This claim is central to the broader significance of the work. If the acidic loop only mediates Ndt80 and Rrm3 binding, the story is more limited. The inference of additional substrates is speculative without direct identification.
+  - **Resolution test** The authors should either identify additional substrates experimentally (e.g., through proteomic approaches) or temper the claim to state that the data are "consistent with" but do not prove the existence of additional substrates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance of Rrm3 phosphorylation
+  - **Claim pointer** The claim that Rrm3 is an in vitro substrate of Mek1 and that this phosphorylation may be biologically relevant
+  - **Evidence pointer** Figure 2A-D, Discussion section
+  - **Concern** While the in vitro kinase assay demonstrates that Rrm3 can be phosphorylated by Mek1, the authors themselves note that no in vivo mobility shift was observed and that mutations in the putative phosphorylation sites had no obvious phenotypes. The C-terminal phosphosite mutants actually increased spore viability, which is difficult to interpret. The biological relevance of Rrm3 phosphorylation by Mek1 remains unclear.
+  - **Why it matters** The manuscript title emphasizes the interaction with "a subset of Mek1 substrates," implying functional significance. If the Rrm3 interaction has no clear biological consequence, the significance of this finding is diminished.
+  - **Resolution test** The authors should either provide evidence for in vivo phosphorylation of Rrm3 by Mek1 or explicitly state that the biological significance of this interaction is not yet established and is a limitation of the study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic understanding of the interaction
+  - **Claim pointer** The claim that the acidic loop and E333 form a binding interface for RPXKR motifs
+  - **Evidence pointer** Figures 3, 4, S1, S2
+  - **Concern** The AlphaFold models are used to predict the interaction interface, and the two-hybrid data support the involvement of the DED loop and E333. However, the authors do not provide direct biochemical evidence for the physical interaction, such as co-immunoprecipitation or binding assays with purified proteins. The two-hybrid assay is indirect and can be affected by many factors.
+  - **Why it matters** Direct biochemical evidence would strengthen the claim that this is a direct physical interaction and not an indirect effect through other proteins or altered protein stability.
+  - **Resolution test** The authors should perform in vitro binding assays with purified Mek1 variants and Ndt80/Rrm3 peptides to demonstrate direct physical interaction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the interaction
+  - **Claim pointer** The claim that the interaction is specific to RPXKR motifs and not a general electrostatic interaction
+  - **Evidence pointer** Figures 1C, 4A
+  - **Concern** The authors show that mutation of the KR residues in Rrm3 disrupts the interaction, and that the DED loop mutations disrupt binding to Ndt80 and Rrm3. However, they do not test whether other basic motifs (e.g., RXXR, KXXK) can also bind to the acidic loop. The specificity of the RPXKR motif is not fully established.
+  - **Why it matters** If the interaction is a general electrostatic interaction with basic patches, the specificity of the proposed motif would be overstated.
+  - **Resolution test** The authors should test additional basic motifs in the two-hybrid assay or perform peptide competition experiments to demonstrate specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Figure 2D
+  - **Issue** The statistical comparisons in Figure 2D are not clearly described. It is unclear which pairwise comparisons were performed and whether multiple testing corrections were applied.
+  - **Required correction** Provide a clear description of the statistical tests used and the specific comparisons made in the figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of data
+  - **Affected element** Figure 5C
+  - **Evidence pointer** Figure 5C
+  - **Issue** The "nuclei with > four DAPI foci" metric is described, but the number of nuclei counted per sample and the number of biological replicates are not stated.
+  - **Required correction** Include the sample sizes and number of replicates in the figure legend or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, last paragraph
+  - **Issue** The text contains "hedΔR" in the last sentence of the introduction, which appears to be a typographical error or incomplete phrase.
+  - **Required correction** Correct the typographical error and complete the sentence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** AlphaFold modeling
+  - **Evidence pointer** Methods section, AlphaFold Multimer analysis
+  - **Issue** The methods for AlphaFold modeling are very brief. It is unclear how the models were validated, what confidence thresholds were used, and how the specific interface residues were identified.
+  - **Required correction** Provide more detail on the AlphaFold modeling parameters, model selection, and how the interaction interface was defined.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Figure 6B
+  - **Evidence pointer** Figure 6B
+  - **Issue** The chromosome VIII mis-segregation data for mek1-D78A E79A and E79A D80A show low levels of mis-segregation, but it is unclear if these are statistically different from wild type. The text states they are "nearly WT" but does not provide statistical support.
+  - **Required correction** Provide statistical analysis for these comparisons or state that they are not significantly different.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of non-canonical FHA domain interactions is brief. A more thorough comparison with other known non-canonical FHA interactions would strengthen the context.
+  - **Required correction** Expand the discussion to include more examples of non-canonical FHA domain interactions and how this work fits into that broader context.
+
+## Risk / unsupported claims
+- The existence of additional, unknown Mek1 substrates that bind via the acidic loop is inferred but not directly demonstrated
+- The biological significance of Rrm3 phosphorylation by Mek1 is not established, as no in vivo phosphorylation or phenotypic consequences were observed
+- The claim that the acidic loop mutations specifically disrupt substrate binding without affecting other Mek1 functions is not fully validated
+- The AlphaFold predictions are used as a central piece of evidence, but the confidence levels and validation of the models are not thoroughly described
+- The specificity of the RPXKR motif for the acidic loop is not tested against other basic motifs
+- The in vitro kinase assay demonstrates phosphorylation but does not identify which residues are phosphorylated or whether this is biologically relevant

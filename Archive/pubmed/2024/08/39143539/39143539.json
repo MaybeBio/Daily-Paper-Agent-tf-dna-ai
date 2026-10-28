@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "39143539",
+    "doi": "10.1186/s13058-024-01879-6",
+    "title": "Validation of an AI-based solution for breast cancer risk stratification using routine digital histopathology images."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Stratipath Breast is a CE-IVD marked artificial intelligence-based solution for prognostic risk stratification of breast cancer patients into high- and low-risk groups, using haematoxylin and eosin (H&E)-stained histopathology whole slide images (WSIs). In this validation study, we assessed the prognostic performance of Stratipath Breast in two independent breast cancer cohorts. METHODS: This retrospective multi-site validation study included 2719 patients with primary breast cancer from two Swedish hospitals. The Stratipath Breast tool was applied to stratify patients based on digitised WSIs of the diagnostic H&E-stained tissue sections from surgically resected tumours. The prognostic performance was evaluated using time-to-event analysis by multivariable Cox Proportional Hazards analysis with progression-free survival (PFS) as the primary endpoint. RESULTS: In the clinically relevant oestrogen receptor (ER)-positive/human epidermal growth factor receptor 2 (HER2)-negative patient subgroup, the estimated hazard ratio (HR) associated with PFS between low- and high-risk groups was 2.76 (95% CI: 1.63-4.66, p-value < 0.001) after adjusting for established risk factors. In the ER+/HER2- Nottingham histological grade (NHG) 2 subgroup, the HR was 2.20 (95% CI: 1.22-3.98, p-value = 0.009) between low- and high-risk groups. CONCLUSION: The results indicate an independent prognostic value of Stratipath Breast among all breast cancer patients, as well as in the clinically relevant ER+/HER2- subgroup and the NHG2/ER+/HER2- subgroup. Improved risk stratification of intermediate-risk ER+/HER2- breast cancers provides information relevant for treatment decisions of adjuvant chemotherapy and has the potential to reduce both under- and overtreatment. Image-based risk stratification provides the added benefit of short lead times and substantially lower cost compared to molecular diagnostics and therefore has the potential to reach broader patient groups.",
+    "keywords": [
+      "Artificial intelligence",
+      "Breast cancer",
+      "Computational pathology",
+      "Histopathology",
+      "Prognostics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/pathology/diagnosis",
+      "Female",
+      "Middle Aged",
+      "Retrospective Studies",
+      "Prognosis",
+      "Risk Assessment/methods",
+      "Aged",
+      "Artificial Intelligence",
+      "Receptors, Estrogen/metabolism",
+      "Adult",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Biomarkers, Tumor",
+      "Risk Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Abhinav",
+        "Lovgren, Sandy Kang",
+        "Eriksson, Kajsa Ledesma",
+        "Wang, Yinxi",
+        "Robertson, Stephanie",
+        "Hartman, Johan",
+        "Rantalainen, Mattias"
+      ],
+      "short_names": [
+        "Sharma A",
+        "Lovgren SK",
+        "Eriksson KL",
+        "Wang Y",
+        "Robertson S",
+        "Hartman J",
+        "Rantalainen M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+        "Stratipath AB, Solna, Sweden.",
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+        "Stratipath AB, Solna, Sweden.",
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+        "Stratipath AB, Solna, Sweden.",
+        "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+        "Stratipath AB, Solna, Sweden.",
+        "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden.",
+        "MedTechLabs, BioClinicum, Karolinska University Hospital, Solna, Sweden.",
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden. mattias.rantalainen@ki.se.",
+        "MedTechLabs, BioClinicum, Karolinska University Hospital, Solna, Sweden. mattias.rantalainen@ki.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Abhinav",
+        "short_name": "Sharma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lövgren, Sandy Kang",
+        "short_name": "Lövgren SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+          "Stratipath AB, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Eriksson, Kajsa Ledesma",
+        "short_name": "Eriksson KL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+          "Stratipath AB, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Wang, Yinxi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+          "Stratipath AB, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Robertson, Stephanie",
+        "short_name": "Robertson S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+          "Stratipath AB, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Hartman, Johan",
+        "short_name": "Hartman J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+          "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden.",
+          "MedTechLabs, BioClinicum, Karolinska University Hospital, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Rantalainen, Mattias",
+        "short_name": "Rantalainen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden. mattias.rantalainen@ki.se.",
+          "MedTechLabs, BioClinicum, Karolinska University Hospital, Solna, Sweden. mattias.rantalainen@ki.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research : BCR"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res"
+    ],
+    "pub_date": "2024 Aug 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/15 00:42",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "42650034",
+      "42495052",
+      "42161927",
+      "41930306",
+      "41919095",
+      "41828443",
+      "41736658",
+      "41380230",
+      "41226068",
+      "40924944",
+      "40898298",
+      "40836358",
+      "40762329"
+    ],
+    "refs": [
+      "34756513",
+      "33803148",
+      "33077923",
+      "31926806",
+      "31434940",
+      "31308507",
+      "31157962",
+      "30977119",
+      "30846393",
+      "30224757",
+      "30182055",
+      "29860917",
+      "29450494",
+      "27400969",
+      "27185370",
+      "27165105",
+      "27130929",
+      "26412349",
+      "26297356",
+      "25332252",
+      "24347518",
+      "24035531",
+      "23816962",
+      "21807638",
+      "20819528",
+      "20804570",
+      "20212256",
+      "18490649",
+      "18258979",
+      "18042430",
+      "17079448",
+      "16720680",
+      "16478745",
+      "15591335"
+    ],
+    "similar": [
+      "39143539",
+      "34756513",
+      "38592541",
+      "38287342",
+      "37494846",
+      "38831336",
+      "38395930",
+      "39576843",
+      "27782306",
+      "33357231",
+      "37843776",
+      "27349747",
+      "38217716",
+      "30679318",
+      "27762648",
+      "39954110",
+      "40143808",
+      "34090143",
+      "32601800",
+      "34244052",
+      "28057031",
+      "23749689",
+      "27743431",
+      "33152285",
+      "24725534",
+      "21472372",
+      "31378534",
+      "25193543",
+      "36224558",
+      "34464510",
+      "39424816",
+      "17636399",
+      "31434940",
+      "29168063",
+      "21762477",
+      "30462685",
+      "26579819",
+      "25600243",
+      "39545625",
+      "23318089",
+      "22621334",
+      "20713855",
+      "23146280",
+      "26124351",
+      "38692082",
+      "31098866",
+      "31811505",
+      "35671774",
+      "32229175",
+      "28416639",
+      "30796653",
+      "27281556",
+      "27116185",
+      "37777578",
+      "16497822",
+      "25880075",
+      "38000091",
+      "35074178",
+      "29482885",
+      "31348505",
+      "30367449",
+      "33676449",
+      "36175898",
+      "38770648",
+      "38722442",
+      "23240985",
+      "40148997",
+      "27026268",
+      "39350043",
+      "39191270",
+      "21331623",
+      "38861871",
+      "21092276",
+      "38867570",
+      "38519745",
+      "39232268",
+      "33769862",
+      "27619909",
+      "20437866",
+      "26493064",
+      "27022068",
+      "33743484",
+      "39350085",
+      "34257555",
+      "28532429",
+      "27495815",
+      "30080878",
+      "27312051",
+      "27569020",
+      "30061244",
+      "32621251",
+      "20020198",
+      "30411431",
+      "33187507",
+      "20049641",
+      "27764697",
+      "32962980",
+      "21725655",
+      "39633505",
+      "34146382"
+    ],
+    "review": [
+      "39143539"
+    ],
+    "pmc": [
+      "11323658"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-024-01879-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39143539/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

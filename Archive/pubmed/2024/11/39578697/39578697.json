@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "39578697",
+    "doi": "10.1093/nar/gkae1086",
+    "title": "miRStart 2.0: enhancing miRNA regulatory insights through deep learning-based TSS identification."
+  },
+  "content": {
+    "abstract": "MicroRNAs (miRNAs) are small non-coding RNAs that regulate gene expression by binding to the 3'-untranslated regions of target mRNAs, influencing various biological processes at the post-transcriptional level. Identifying miRNA transcription start sites (TSSs) and transcription factors' (TFs) regulatory roles is crucial for elucidating miRNA function and transcriptional regulation. miRStart 2.0 integrates over 4500 high-throughput datasets across five data types, utilizing a multi-modal approach to annotate 28 828 putative TSSs for 1745 human and 1181 mouse miRNAs, supported by sequencing-based signals. Over 6 million tissue-specific TF-miRNA interactions, integrated from ChIP-seq data, are supplemented by DNase hypersensitivity and UCSC conservation data, with network visualizations. Our deep learning-based model outperforms existing tools in miRNA TSS prediction, achieving the most overlaps with both cell-specific and non-cell-specific validated TSSs. The user-friendly web interface and visualization tools make miRStart 2.0 easily accessible to researchers, enabling efficient identification of miRNA upstream regulatory elements in relation to their TSSs. This updated database provides systems-level insights into gene regulation and disease mechanisms, offering a valuable resource for translational research, facilitating the discovery of novel therapeutic targets and precision medicine strategies. miRStart 2.0 is now accessible at https://awi.cuhk.edu.cn/ approximately miRStart2.",
+    "keywords": [],
+    "mesh_terms": [
+      "*MicroRNAs/genetics/metabolism",
+      "*Deep Learning",
+      "Humans",
+      "*Transcription Initiation Site",
+      "Animals",
+      "Mice",
+      "*Software",
+      "Gene Expression Regulation",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Jiatong",
+        "Wan, Jingting",
+        "Huang, Hsi-Yuan",
+        "Chen, Yigang",
+        "Huang, Yixian",
+        "Huang, Junyang",
+        "Zhang, Ziyue",
+        "Su, Chang",
+        "Zhou, Yuming",
+        "Lin, Xingqiao",
+        "Lin, Yang-Chi-Dung",
+        "Huang, Hsien-Da"
+      ],
+      "short_names": [
+        "Xu J",
+        "Wan J",
+        "Huang HY",
+        "Chen Y",
+        "Huang Y",
+        "Huang J",
+        "Zhang Z",
+        "Su C",
+        "Zhou Y",
+        "Lin X",
+        "Lin YC",
+        "Huang HD"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2857-7023"
+      ],
+      "affiliations": [
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+        "Department of Endocrinology, Key Laboratory of Endocrinology of National Ministry of Health, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, No.9 Dongdansantiao Street, Dongcheng District, Beijing 100730, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Jiatong",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wan, Jingting",
+        "short_name": "Wan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsi-Yuan",
+        "short_name": "Huang HY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yigang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yixian",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Junyang",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziyue",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Su, Chang",
+        "short_name": "Su C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuming",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xingqiao",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yang-Chi-Dung",
+        "short_name": "Lin YC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsien-Da",
+        "short_name": "Huang HD",
+        "identifiers": [
+          "0000-0003-2857-7023"
+        ],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Guangdong Provincial Key Laboratory of Digital Biology and Drug Development, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, P.R. China.",
+          "Department of Endocrinology, Key Laboratory of Endocrinology of National Ministry of Health, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, No.9 Dongdansantiao Street, Dongcheng District, Beijing 100730, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jan 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/23 11:17",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [
+      "41488367",
+      "41463366",
+      "41126307",
+      "39658041"
+    ],
+    "refs": [
+      "38886500",
+      "38749504",
+      "38261650",
+      "37953330",
+      "37937685",
+      "37393665",
+      "37214422",
+      "36510136",
+      "36420896",
+      "36038011",
+      "35428787",
+      "33245765",
+      "32170928",
+      "32153563",
+      "32003428",
+      "31861404",
+      "31713622",
+      "30670076",
+      "30423142",
+      "30184526",
+      "29126224",
+      "29077896",
+      "27153609",
+      "27109497",
+      "26969732",
+      "26258633",
+      "25723102",
+      "25492647",
+      "25486472",
+      "24889152",
+      "24670764",
+      "22457063",
+      "21821656",
+      "21245828",
+      "20110278",
+      "19056895",
+      "18436575",
+      "17540599",
+      "16885212",
+      "16845048",
+      "16041695",
+      "15525708",
+      "15372072",
+      "14744438",
+      "14663149",
+      "14508493",
+      "11779458",
+      "11752328"
+    ],
+    "similar": [
+      "39578697",
+      "21821656",
+      "29077896",
+      "28460090",
+      "29959670",
+      "33707582",
+      "27153609",
+      "23200141",
+      "26586797",
+      "33245765",
+      "27207881",
+      "32003428",
+      "23161675",
+      "19786497",
+      "36528241",
+      "39530226",
+      "30371815",
+      "34850920",
+      "39578692",
+      "25707768",
+      "17971223",
+      "35428787",
+      "25972521",
+      "25087086",
+      "22499686",
+      "23368412",
+      "37956335",
+      "32858223",
+      "30005074",
+      "20398296",
+      "22824421",
+      "23246694",
+      "22369687",
+      "27871221",
+      "21791068",
+      "23377977",
+      "19838305",
+      "22583976",
+      "26763900",
+      "27766936",
+      "22941648",
+      "21037263",
+      "27107716",
+      "29226599",
+      "23174015",
+      "29133016",
+      "27035433",
+      "25922940",
+      "26611531",
+      "23994683",
+      "31075273",
+      "22955978",
+      "24564886",
+      "22050994",
+      "22940442",
+      "39519370",
+      "25492647",
+      "39326643",
+      "21551220",
+      "35757392",
+      "27064982",
+      "26661887",
+      "24968068",
+      "30709337",
+      "33219685",
+      "27292125",
+      "26748710",
+      "21143779",
+      "21771325",
+      "33104784",
+      "24565134",
+      "18950538",
+      "22618880",
+      "28092569",
+      "26051695",
+      "39987699",
+      "22039215",
+      "38643080",
+      "20805189",
+      "31647101",
+      "24889152",
+      "35869513",
+      "23445489",
+      "30689845",
+      "21483898",
+      "20731828",
+      "36232605",
+      "24330401",
+      "23246696",
+      "23175680",
+      "21375730",
+      "25957350",
+      "25692236",
+      "27879476",
+      "31830251",
+      "27519343",
+      "23497388",
+      "27144897",
+      "22260379",
+      "22176772"
+    ],
+    "review": [
+      "39578697",
+      "32003428",
+      "23246696"
+    ],
+    "pmc": [
+      "11701676"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39578697/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae1086",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

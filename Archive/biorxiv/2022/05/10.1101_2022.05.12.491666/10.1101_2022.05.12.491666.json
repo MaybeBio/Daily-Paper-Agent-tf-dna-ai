@@ -1,0 +1,333 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.12.491666",
+  "title": "Using methylation data to improve transcription factor binding prediction",
+  "doi": "10.1101/2022.05.12.491666",
+  "abstract": "Scanning the genome for the sequence patterns defined by Position Weight Matrices (PWM) is commonly used to estimate transcription factor (TF) binding “motif” locations. However, the PWM-based scores assigned to these inferred locations are associated with only modest accuracy when benchmarked against in vivo TF binding. One reason for this limited performance may be because PWMs do not incorporate information regarding the epigenetic context necessary for TF binding. To investigate this, we developed a framework to score inferred TF binding locations using CpG methylation data. We intersected motif locations identified using PWMs with methylation information captured in both whole genome bisulfite sequencing and Illumina EPIC array data for six cell lines, scored motif locations based on these data, and compared with experimental data characterizing TF binding (ChIP-seq). We found that, for most TFs, binding is better predicted using methylation-based scoring compared to standard PWM scores. In addition, our analysis shows that, while most TFs do not bind to methylated promoter regions, there are several exceptions to this rule, indicating that the role of methylation in TF binding may be cell-type and context specific. Finally, we also illustrate that our approach can be generalized to infer TF binding when methylation information is only proximally available, i.e . measured for nearby CpGs that do not directly overlap with a motif location. Overall, our approach provides a framework for inferring context specific TF binding using methylation data, a crucial initial step for understanding the impact of methylation on gene regulatory processes.",
+  "authors": [
+    "Daniel Morgan",
+    "Dawn L. DeMeo",
+    "Kimberly Glass"
+  ],
+  "published_date": "2022-05-13",
+  "updated_date": "2022-05-20T04:24:52Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.12.491666",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.12.491666.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:39:46Z",
+        "timestamp": 1768498786412,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 28,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Scanning the genome for the sequence patterns defined by Position Weight Matrices (PWM) is commonly used to estimate transcription factor (TF) binding “motif” locations. However, the PWM-based scores assigned to these inferred locations are associated with only modest accuracy when benchmarked against\n                  <jats:italic>in vivo</jats:italic>\n                  TF binding. One reason for this limited performance may be because PWMs do not incorporate information regarding the epigenetic context necessary for TF binding. To investigate this, we developed a framework to score inferred TF binding locations using CpG methylation data. We intersected motif locations identified using PWMs with methylation information captured in both whole genome bisulfite sequencing and Illumina EPIC array data for six cell lines, scored motif locations based on these data, and compared with experimental data characterizing TF binding (ChIP-seq). We found that, for most TFs, binding is better predicted using methylation-based scoring compared to standard PWM scores. In addition, our analysis shows that, while most TFs do not bind to methylated promoter regions, there are several exceptions to this rule, indicating that the role of methylation in TF binding may be cell-type and context specific. Finally, we also illustrate that our approach can be generalized to infer TF binding when methylation information is only proximally available,\n                  <jats:italic>i.e</jats:italic>\n                  . measured for nearby CpGs that do not directly overlap with a motif location. Overall, our approach provides a framework for inferring context specific TF binding using methylation data, a crucial initial step for understanding the impact of methylation on gene regulatory processes.\n                </jats:p>",
+      "DOI": "10.1101/2022.05.12.491666",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ],
+        "date-time": "2022-05-20T04:24:52Z",
+        "timestamp": 1653020692000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Using methylation data to improve transcription factor binding prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Daniel",
+          "family": "Morgan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dawn L.",
+          "family": "DeMeo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4394-5779",
+          "authenticated-orcid": false,
+          "given": "Kimberly",
+          "family": "Glass",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1061"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.112623.110"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw427"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1741-7007-9-80"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1642-2"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku810"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3772"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13072-015-0028-2"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.aao1799"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv151"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-11-519"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1005"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2015.07.024"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv255"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature16462"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaj2239"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-01996-3"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz945"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1081"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0139516"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp942"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41540-021-00208-3"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1008688107"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.146654.112"
+        },
+        {
+          "key": "2022052005354694000_2022.05.12.491666v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2015.03.002"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.05.12.491666",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:02:03Z",
+        "timestamp": 1768446123000
+      },
+      "score": 117.72951,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.05.12.491666"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            13
+          ]
+        ]
+      },
+      "references-count": 28,
+      "URL": "https://doi.org/10.1101/2022.05.12.491666",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1080/15592294.2024.2309826",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

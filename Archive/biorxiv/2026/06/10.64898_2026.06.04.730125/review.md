@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Methods, Results, Discussion, Data availability, Code availability, Supplementary table legends)
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and suitability for a high-impact generalist journal. Not assessed: grammatical style, formatting, or minor language issues except where they impede comprehension.
+- **Shared manuscript claim summary** The authors integrate paired scRNA-seq and scATAC-seq data from 19 ccRCC samples spanning WHO grades 1–3 to characterize malignant evolutionary trajectories, CD8+ T cell exhaustion, macrophage polarization, and intercellular communication. They construct a prognostic model (CBG) from regulatory network hub genes and validate it in independent cohorts, identifying SLC11A1 and SH3YL1 as antagonistic survival determinants.
+- **Visible evidence base** Abstract, full Introduction, full Methods (narrative), full Results (six sections), Discussion, Data availability, Code availability, Supplementary table legends. No figures, tables, or supplementary files were provided for direct inspection.
+- **Missing materials affecting confidence** All figures and supplementary tables (S1, S2) are referenced but not provided. This substantially limits verification of clustering quality, trajectory inference, regulatory network construction, model performance metrics, and clinical associations. No code or analysis scripts were inspected.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question: how multi-omic single-cell profiles evolve across WHO grades in ccRCC and whether regulatory network hubs can inform prognosis. The conceptual framing is timely and the integration of scRNA-seq and scATAC-seq is commendable. However, the current evidence base is insufficient to support several central claims. Key concerns include: (1) the absence of any figures or supplementary data to verify analytical quality; (2) the lack of a clear statistical framework for comparing trajectories across grades; (3) the prognostic model construction appears circular, as candidate genes were selected from the same datasets used for validation; (4) the claim that epigenetic alterations "precede" transcriptional changes is not supported by the cross-sectional design; and (5) the external validation cohort is small and lacks key clinical annotations. The manuscript has potential but requires major revisions and additional analyses before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in renal cell carcinoma biology, single-cell genomics, tumor immunology, and computational oncology would find the atlas and regulatory network analyses of interest. Clinicians and translational researchers focused on prognostic biomarkers in ccRCC may also be interested in the CBG model, provided its independent validation is strengthened. The general approach of integrating scRNA-seq and scATAC-seq to dissect grade progression could interest methodologists, though the technical novelty is limited.
+- **Major strengths** 1. The study addresses a clinically relevant gap: linking WHO grade progression to molecular and immune changes at single-cell resolution. 2. The integration of paired scRNA-seq and scATAC-seq across grades is a valuable design. 3. The use of regulatory network hubs to inform prognostic modeling is conceptually appealing. 4. The authors acknowledge limitations and provide code and data availability statements.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence integrity
+  - **Claim pointer** The manuscript claims that "epigenetic alterations consistently precede metabolic reprogramming and invasive adaptation" in tumor cells.
+  - **Evidence pointer** Results Section 2, Figures 2G–I (not provided)
+  - **Concern** The claim of temporal precedence is made from cross-sectional data. scRNA-seq and scATAC-seq provide snapshots, not time-resolved measurements. The observation that chromatin accessibility changes appear earlier along a pseudotime trajectory does not establish causality or temporal ordering in a biological sense. Pseudotime is an inferred latent variable, not a real time axis. The authors must temper this claim or provide orthogonal evidence (e.g., time-course experiments, or at minimum a clear statement that this is a computational inference with inherent limitations).
+  - **Why it matters** This is a central conceptual claim of the paper. If overstated, it misleads readers about the nature of the evidence and could influence downstream research directions.
+  - **Resolution test** Revise the claim to state that "chromatin accessibility changes are inferred to occur earlier along pseudotime, suggesting a potential priming role, which requires experimental validation." Alternatively, provide experimental validation (e.g., time-course chromatin remodeling assays) to support the causal claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The CBG prognostic model is claimed to be "robust" and to "outperform" published models.
+  - **Evidence pointer** Results Section 6, Figures 6B–E, 7A–C; Supplementary Table S2 (not provided)
+  - **Concern** The model selection process is not adequately described. The authors state that 117 model combinations were tested and the one with the highest C-index in validation was selected. This is a form of multiple testing that can lead to overfitting, even with internal validation. The manuscript does not report whether the model was locked before validation, how many models were compared, or whether any correction for multiple comparisons was applied. Additionally, the external validation cohort (E-MA-1980, n=101) is small, and the authors do not report whether this cohort was used in any way during model development. The comparison with published models (Figure 7A–C) lacks detail on how those models were implemented and whether they were retrained or applied as originally published.
+  - **Why it matters** Prognostic models are only useful if they generalize. Without rigorous validation procedures, the reported performance may be optimistic and non-reproducible.
+  - **Resolution test** Provide a detailed description of the model selection protocol, including the number of models tested, the validation strategy (e.g., nested cross-validation), and whether the external cohort was held out throughout. Report performance metrics with confidence intervals. If possible, validate the model in an additional independent cohort.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims to have established a "multi-omics framework" and "regulatory networks" with specific hub genes.
+  - **Evidence pointer** Methods sections on scRNA-seq/scATAC-seq integration, regulatory network construction; Figures 1–4 (not provided)
+  - **Concern** The Methods lack critical details for reproducibility. For example: (1) the exact parameters for inferCNV are not fully specified (e.g., how the reference population was defined beyond "B cells"); (2) the criteria for defining "core nodes" in regulatory networks are vague ("top 15 regulatory nodes... using maximum clique centrality" but no threshold or statistical significance is reported); (3) the integration of scRNA-seq and scATAC-seq for regulatory network construction is not described in sufficient detail (e.g., how peaks are linked to genes, how motif enrichment is integrated); (4) the number of cells per cluster, cluster quality metrics, and batch effect assessment are not reported.
+  - **Why it matters** Reproducibility is a core requirement for scientific publication. Without detailed methods, other groups cannot replicate or build upon this work.
+  - **Resolution test** Provide a complete Methods section with all parameters, thresholds, and software versions. Include quality control metrics (e.g., number of cells, genes per cell, doublet rate, batch effect visualization). Deposit all code and processed data in a public repository.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence integrity
+  - **Claim pointer** The manuscript claims that "CD8+ T cell exhaustion followed a trajectory shifting from IRF7– to ZNF683-regulated states" and that "monocytes differentiated toward M1 and M2 macrophages orchestrated by NFIC/IL1B and CEBPD/GLI2."
+  - **Evidence pointer** Results Sections 3 and 4, Figures 3A–F, 4A–F (not provided)
+  - **Concern** The trajectory analyses are described qualitatively. No statistical tests are reported to support the claim that the identified trajectories are significant or that the regulatory networks are specifically associated with the described transitions. The manuscript does not report how many cells were used for trajectory inference, whether the trajectories were robust to parameter changes, or whether the identified hub genes are differentially expressed or accessible in a statistically significant manner along the trajectory.
+  - **Why it matters** Trajectory inference is highly sensitive to parameters and can produce artifacts. Without statistical support, the described trajectories and regulatory networks may not be biologically meaningful.
+  - **Resolution test** Provide statistical evidence for trajectory significance (e.g., permutation tests, trajectory stability analysis). Report differential expression/accessibility statistics for hub genes along trajectories. Include confidence intervals or effect sizes.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the CBG model "provides a robust framework for subtype-specific prognostication and precision therapeutic targeting."
+  - **Evidence pointer** Results Section 6, Discussion
+  - **Concern** The clinical utility of the CBG model is not demonstrated. The authors do not report whether the model adds predictive value beyond standard clinical variables (e.g., stage, grade, performance status) in a multivariable analysis. The claim of "precision therapeutic targeting" is speculative, as no drug response or treatment outcome data are presented.
+  - **Why it matters** For a prognostic model to be clinically useful, it must demonstrate incremental value over existing tools. Overstating clinical implications without evidence can mislead clinicians and patients.
+  - **Resolution test** Perform multivariable analysis adjusting for established clinical predictors. If possible, test the model in a cohort with treatment data to assess predictive value for therapy response. Alternatively, temper the claims to reflect that the model is a research tool requiring further validation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "pronounced heterogeneity across WHO histological grades" is vague. It is unclear whether this refers to transcriptional, epigenetic, or cellular composition heterogeneity.
+  - **Required correction** Specify the type of heterogeneity (e.g., "transcriptional and chromatin accessibility heterogeneity").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results Section 6
+  - **Evidence pointer** Figure 6B (not provided)
+  - **Issue** The C-index comparison across 117 models is reported only as a single value for the best model. No distribution of C-indices across models is shown, making it difficult to assess whether the best model is meaningfully better than alternatives.
+  - **Required correction** Provide a boxplot or histogram of C-indices across all 117 models, with the best model highlighted.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Sample Information
+  - **Evidence pointer** Methods, Sample Information section
+  - **Issue** The authors state that 19 paired scRNA-seq and scATAC-seq profiles were used, but the number of patients, tumor regions, and whether these are independent samples or multiple regions from the same patient is unclear.
+  - **Required correction** Clarify the number of unique patients, whether samples are from primary or metastatic sites, and whether multiple samples per patient were included.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results Section 5
+  - **Evidence pointer** Results Section 5, Figure 5A–C (not provided)
+  - **Issue** The description of the intercellular communication analysis is brief. It is unclear how "top 15 ligand-receptor pairs" were selected and whether the analysis was performed per grade or across all grades.
+  - **Required correction** Provide details on the selection criteria and whether the analysis was grade-specific or pooled.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, Limitations paragraph
+  - **Issue** The limitations section is brief and does not address the potential for batch effects across the 19 samples, the lack of spatial context, or the absence of functional validation for the identified regulatory networks.
+  - **Required correction** Expand the limitations to address these points and discuss how they might affect the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal claim from cross-sectional data), R1-M2 (model validation rigor), R1-M3 (reproducibility of methods), R1-M4 (statistical support for trajectories and networks).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The integration of scRNA-seq and scATAC-seq across WHO grades in ccRCC is not entirely novel, as similar multi-omic approaches have been applied to other cancers and to ccRCC specifically. The specific focus on grade progression and regulatory network hubs adds some novelty, but the conceptual framework is largely derivative of existing single-cell cancer atlas studies.
+  - **Scientific importance** Moderate. The study addresses a clinically relevant question and could inform prognostic biomarkers. However, the lack of functional validation and the limited external validation reduce the immediate impact. The findings are more incremental than transformative.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to cancer biologists, computational biologists, and oncologists. The clinical implications are not developed enough to attract a broader medical audience, and the methods are not novel enough to appeal to methodologists.
+  - **Technical soundness** Currently insufficient. The lack of statistical rigor in trajectory and network analyses, the potential for overfitting in model selection, and the absence of key quality control metrics undermine confidence in the results.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with single-cell genomics and machine learning terminology. The abstract is accessible, but the results sections are dense and would be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires major revisions, including additional analyses, more rigorous statistical support, and tempering of causal claims. I would be supportive if these concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that "epigenetic alterations consistently precede metabolic reprogramming and invasive adaptation" is unsupported by the cross-sectional data presented.
+- The claim that the CBG model "outperforms" published models is not adequately supported, as the comparison methodology is not described in sufficient detail.
+- The claim that SLC11A1 and SH3YL1 are "antagonistic survival determinants" is based on correlation analysis only and lacks mechanistic or functional validation.
+- The claim that the study provides "a robust framework for subtype-specific prognostication and precision therapeutic targeting" is overstated given the lack of multivariable analysis and treatment outcome data.
+- The statement that "CD8+ T cell exhaustion followed a trajectory shifting from IRF7– to ZNF683-regulated states" is presented as a definitive finding but lacks statistical support for the trajectory and the regulatory network assignments.

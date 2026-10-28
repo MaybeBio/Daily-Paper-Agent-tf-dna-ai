@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "40340014",
+    "doi": "10.1016/j.expneurol.2025.115290",
+    "title": "Identification of Npas4 as a biomarker for CICI by transcriptomics combined with bioinformatics and machine learning approaches."
+  },
+  "content": {
+    "abstract": "Chemotherapy is one of the most successful strategies for treating cancer. Unfortunately, up to 70 % of cancer survivors develop cognitive impairment during or after chemotherapy, which severely affects their quality of life. We first established a mouse model of CICI and combined bioinformatics, machine learning, and transcriptome sequencing to screen diagnostic genes associated with CICI. Relevant DEGs were screened by differential analysis, and potential biological functions of DEGs were explored by GO and KEGG analysis. WGCNA analysis was then used to find the most relevant modules for CICI. The diagnostic gene Npas4 was screened by combining the three machine learning methods; its diagnostic value was proved by ROC analysis, GSEA analyzed its potential biological function, and then we preliminarily explored the chemicals associated with Npas4. Our study found that Npas4 can be used as an early diagnostic gene for CICI, which provides a theoretical basis for further research.",
+    "keywords": [
+      "Biomarker",
+      "CICI",
+      "LASSO",
+      "Molecular structure",
+      "Npas4",
+      "RF",
+      "SVM-REF"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Machine Learning",
+      "Mice",
+      "*Basic Helix-Loop-Helix Proteins/genetics/metabolism",
+      "*Computational Biology/methods",
+      "Gene Expression Profiling/methods",
+      "*Transcriptome",
+      "Male",
+      "Biomarkers",
+      "Mice, Inbred C57BL",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Zhenyu",
+        "Ma, Huanhuan",
+        "Zhang, Yu",
+        "Chen, Liping",
+        "Pang, Yueling",
+        "Ding, Xiaoshan",
+        "Wang, Yanan",
+        "Liu, Yongqi",
+        "Li, Ling",
+        "Li, Jiawei"
+      ],
+      "short_names": [
+        "He Z",
+        "Ma H",
+        "Zhang Y",
+        "Chen L",
+        "Pang Y",
+        "Ding X",
+        "Wang Y",
+        "Liu Y",
+        "Li L",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China. Electronic address: liuyongqi73@163.com.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China. Electronic address: liling0114@163.com.",
+        "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China; Gansu University of Chinese Medicine Scientific Research and Experimental Center, China. Electronic address: jiaweili@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Zhenyu",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Huanhuan",
+        "short_name": "Ma H",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Liping",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Yueling",
+        "short_name": "Pang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Xiaoshan",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yongqi",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China. Electronic address: liuyongqi73@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Ling",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China. Electronic address: liling0114@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Jiawei",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu University Key Laboratory for Molecular Medicine & Chinese Medicine Prevention and Treatment of Major Diseases, Gansu University of Chinese Medicine, Lanzhou, China; Key Laboratory of Dunhuang Medical and Transformation, Ministry of Education of The People's Republic of China, Gansu University of Chinese Medicine, Lanzhou, China; Gansu University of Chinese Medicine Scientific Research and Experimental Center, China. Electronic address: jiaweili@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Experimental neurology"
+    ],
+    "journal_abbrev": [
+      "Exp Neurol"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/09 11:52",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [
+      "40506775"
+    ],
+    "refs": [],
+    "similar": [
+      "40340014",
+      "39351239",
+      "41479901",
+      "39616855",
+      "41013556",
+      "39375405",
+      "41200172",
+      "39142001",
+      "40406126",
+      "40374840",
+      "40129981",
+      "40599778",
+      "41104127",
+      "40328901",
+      "41008561",
+      "37704087",
+      "39735547",
+      "40421012",
+      "40967560",
+      "41214111",
+      "41052072",
+      "38863714",
+      "41146237",
+      "39050860",
+      "39043774",
+      "39405930",
+      "39559355",
+      "40374866",
+      "39609718",
+      "39650552",
+      "39754246",
+      "40596265",
+      "39845878",
+      "41006883",
+      "39763654",
+      "41132671",
+      "40830558",
+      "41398629",
+      "39730451",
+      "40296822",
+      "39875572",
+      "39835132",
+      "40901474",
+      "41164826",
+      "40725485",
+      "23029555",
+      "38767974",
+      "40313958",
+      "39738398",
+      "39934690",
+      "38678595",
+      "38686376",
+      "41316541",
+      "41137290",
+      "39553728",
+      "40406118",
+      "39904830",
+      "34714891",
+      "40196107",
+      "39396400",
+      "39406802",
+      "38755717",
+      "40340571",
+      "41192647",
+      "39914590",
+      "41300841",
+      "39341981",
+      "40312440",
+      "38656456",
+      "39398336",
+      "39723205",
+      "40368512",
+      "38608447",
+      "27993645",
+      "39346628",
+      "39699225",
+      "40435035",
+      "40362669",
+      "36157062",
+      "24465693",
+      "41327289",
+      "39544937",
+      "41188996",
+      "40565607",
+      "39139563",
+      "40247093",
+      "38645867",
+      "36072904",
+      "41107929",
+      "40084401",
+      "39779817",
+      "40997906",
+      "39418810",
+      "39403102",
+      "40782934",
+      "40165133",
+      "40500570",
+      "39917301",
+      "40304918",
+      "41291841"
+    ],
+    "review": [
+      "40340014"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-4886(25)00154-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

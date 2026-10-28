@@ -1,0 +1,490 @@
+{
+  "identity": {
+    "pmid": "41446109",
+    "doi": "10.64898/2025.12.15.694070",
+    "title": "Comprehensive perturbation of transcription factors in human cardiomyocytes reveals the regulatory architecture of congenital heart disease."
+  },
+  "content": {
+    "abstract": "Over 100 genes have been implicated in congenital heart disease (CHD), yet the genetic basis for >50% of CHD remains unexplained. A key challenge is to define the regulatory architecture of CHD genes. Here, we systematically perturb 1983 transcription factors (TFs) during cardiomyocyte differentiation of human stem cells. Our analysis links TFs to gene expression phenotypes across scales and nominates TFs in cardiac cell fate commitment, dosage sensitivity, and transposable element regulation. By deriving TF-gene regulatory networks from experimental perturbation, we gain insights into how developmental networks are structured, use this map to interpret the regulatory architecture of CHD, and deorphanize TFs with roles in CHD that have been under-sampled by genetic studies. To extend these networks to include enhancer-TF-gene linkages, we also perturb 981 putative enhancers of TFs. Finally, we develop a deep learning transformer model to accurately predict perturbed TFs from altered transcriptomes, which we apply to interpret CHD patient transcriptomes. This reference map represents a foundational platform to model the functions of TFs and aids in interpreting CHD variants and mechanisms.",
+    "keywords": [
+      "congenital heart disease",
+      "development",
+      "enhancers",
+      "functional genomics",
+      "gene regulatory network",
+      "machine learning",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Takeuchi, Chikara",
+        "Sivakumar, Sushama",
+        "Sundarrajan, Anjana",
+        "Wang, Yihan",
+        "Goetsch, Sean C",
+        "Zhao, Huan",
+        "Wang, Lei",
+        "Nzima, Mpathi",
+        "Deng, Minnie",
+        "Kulkarni, Kartik N",
+        "Xu, Lin",
+        "Wu, Jun",
+        "Posner, Bruce A",
+        "Chahrour, Maria H",
+        "Kraus, W Lee",
+        "Munshi, Nikhil V",
+        "Hon, Gary C"
+      ],
+      "short_names": [
+        "Takeuchi C",
+        "Sivakumar S",
+        "Sundarrajan A",
+        "Wang Y",
+        "Goetsch SC",
+        "Zhao H",
+        "Wang L",
+        "Nzima M",
+        "Deng M",
+        "Kulkarni KN",
+        "Xu L",
+        "Wu J",
+        "Posner BA",
+        "Chahrour MH",
+        "Kraus WL",
+        "Munshi NV",
+        "Hon GC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8786-2986",
+        "ORCID: 0000-0002-1615-0391"
+      ],
+      "affiliations": [
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Department of Internal Medicine, Division of Cardiology.",
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Department of Internal Medicine, Division of Cardiology.",
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Department of Internal Medicine, Division of Cardiology.",
+        "Department of Internal Medicine, Division of Cardiology.",
+        "Quantitative Biomedical Research Center, Peter O'Donnell Jr School of Public Health.",
+        "Department of Pediatrics, Division of Hematology/Oncology.",
+        "Department of Molecular Biology.",
+        "Department of Biochemistry.",
+        "Department of Neuroscience.",
+        "Eugene McDermott Center for Human Growth and Development.",
+        "Department of Psychiatry.",
+        "Center for the Genetics of Host Defense.",
+        "Peter O'Donnell Jr Brain Institute.",
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Department of Obstetrics and Gynecology.",
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Department of Internal Medicine, Division of Cardiology.",
+        "Eugene McDermott Center for Human Growth and Development.",
+        "Department of Molecular Biology.",
+        "Hamon Center for Regenerative Science and Medicine.",
+        "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+        "Department of Obstetrics and Gynecology.",
+        "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Takeuchi, Chikara",
+        "short_name": "Takeuchi C",
+        "identifiers": [],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences."
+        ]
+      },
+      {
+        "full_name": "Sivakumar, Sushama",
+        "short_name": "Sivakumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Division of Cardiology."
+        ]
+      },
+      {
+        "full_name": "Sundarrajan, Anjana",
+        "short_name": "Sundarrajan A",
+        "identifiers": [],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences."
+        ]
+      },
+      {
+        "full_name": "Wang, Yihan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences."
+        ]
+      },
+      {
+        "full_name": "Goetsch, Sean C",
+        "short_name": "Goetsch SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Division of Cardiology."
+        ]
+      },
+      {
+        "full_name": "Zhao, Huan",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences."
+        ]
+      },
+      {
+        "full_name": "Nzima, Mpathi",
+        "short_name": "Nzima M",
+        "identifiers": [],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences."
+        ]
+      },
+      {
+        "full_name": "Deng, Minnie",
+        "short_name": "Deng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Division of Cardiology."
+        ]
+      },
+      {
+        "full_name": "Kulkarni, Kartik N",
+        "short_name": "Kulkarni KN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Division of Cardiology."
+        ]
+      },
+      {
+        "full_name": "Xu, Lin",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Biomedical Research Center, Peter O'Donnell Jr School of Public Health.",
+          "Department of Pediatrics, Division of Hematology/Oncology."
+        ]
+      },
+      {
+        "full_name": "Wu, Jun",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology."
+        ]
+      },
+      {
+        "full_name": "Posner, Bruce A",
+        "short_name": "Posner BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry."
+        ]
+      },
+      {
+        "full_name": "Chahrour, Maria H",
+        "short_name": "Chahrour MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience.",
+          "Eugene McDermott Center for Human Growth and Development.",
+          "Department of Psychiatry.",
+          "Center for the Genetics of Host Defense.",
+          "Peter O'Donnell Jr Brain Institute."
+        ]
+      },
+      {
+        "full_name": "Kraus, W Lee",
+        "short_name": "Kraus WL",
+        "identifiers": [
+          "0000-0002-8786-2986"
+        ],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+          "Department of Obstetrics and Gynecology."
+        ]
+      },
+      {
+        "full_name": "Munshi, Nikhil V",
+        "short_name": "Munshi NV",
+        "identifiers": [],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+          "Department of Internal Medicine, Division of Cardiology.",
+          "Eugene McDermott Center for Human Growth and Development.",
+          "Department of Molecular Biology.",
+          "Hamon Center for Regenerative Science and Medicine."
+        ]
+      },
+      {
+        "full_name": "Hon, Gary C",
+        "short_name": "Hon GC",
+        "identifiers": [
+          "0000-0002-1615-0391"
+        ],
+        "affiliations": [
+          "Cecil H. and Ida Green Center for Reproductive Biology Sciences.",
+          "Department of Obstetrics and Gynecology.",
+          "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jan 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/25 07:40",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40393991",
+      "39825430",
+      "38466780",
+      "38409223",
+      "38378865",
+      "38326615",
+      "38279009",
+      "37962376",
+      "37735198",
+      "37730438",
+      "37365273",
+      "37192616",
+      "37024583",
+      "36709316",
+      "36305825",
+      "36303069",
+      "36198796",
+      "35688146",
+      "35522174",
+      "35395180",
+      "35182466",
+      "35172133",
+      "33999185",
+      "33674594",
+      "33436076",
+      "32601476",
+      "32461654",
+      "31907445",
+      "31775028",
+      "31690123",
+      "31604926",
+      "31427791",
+      "31422865",
+      "31110232",
+      "30661772",
+      "30567574",
+      "30504886",
+      "30455182",
+      "29976198",
+      "28991257",
+      "28787104",
+      "28302740",
+      "28273063",
+      "27479907",
+      "25274305",
+      "23677905",
+      "23665959",
+      "23639964",
+      "22543974",
+      "22449847",
+      "22366306",
+      "22241837",
+      "22158539",
+      "21217753",
+      "18295582",
+      "17417638",
+      "17008524",
+      "16990131",
+      "16887934",
+      "14667410",
+      "14607454",
+      "14517948",
+      "12845333",
+      "12732450",
+      "12379849",
+      "11572777",
+      "11533658",
+      "9651244",
+      "9162005",
+      "9096323",
+      "8988165",
+      "8988164",
+      "8757136",
+      "7958916",
+      "2181449"
+    ],
+    "similar": [
+      "41446109",
+      "42475469",
+      "39838281",
+      "25887857",
+      "39606363",
+      "41509364",
+      "33321106",
+      "37096669",
+      "41484984",
+      "29373717",
+      "29325558",
+      "39589130",
+      "38354497",
+      "42239343",
+      "39637134",
+      "36114445",
+      "42680482",
+      "42323439",
+      "27899510",
+      "37811720",
+      "34189529",
+      "21496241",
+      "37705079",
+      "41314178",
+      "31659164",
+      "41498638",
+      "35849618",
+      "30709337",
+      "36043696",
+      "21729923",
+      "29421235",
+      "37772400",
+      "33537074",
+      "31322043",
+      "29378629",
+      "25058891",
+      "28951888",
+      "31399483",
+      "22456606",
+      "42074532",
+      "41782896",
+      "36497174",
+      "42636032",
+      "41034720",
+      "20942926",
+      "29273624",
+      "36951126",
+      "41542063",
+      "41643202",
+      "39314298",
+      "22784627",
+      "25252941",
+      "33505431",
+      "42490494",
+      "37805453",
+      "30844478",
+      "25765133",
+      "34864886",
+      "24496624",
+      "20668662",
+      "40080060",
+      "41826830",
+      "23184988",
+      "18682805",
+      "40028843",
+      "38886500",
+      "23497388",
+      "32054475",
+      "40079339",
+      "39829922",
+      "32772801",
+      "33044128",
+      "40179192",
+      "29879919",
+      "40240607",
+      "40162990",
+      "42141441",
+      "21415370",
+      "38378865",
+      "40607808",
+      "31628347",
+      "36693565",
+      "39825430",
+      "29617928",
+      "41861881",
+      "42546633",
+      "38739758",
+      "41677026",
+      "26526635",
+      "24972496",
+      "39354714",
+      "40131776",
+      "38632500",
+      "37682477",
+      "35757392",
+      "41288963",
+      "42724214",
+      "41565813",
+      "40205063",
+      "34244796"
+    ],
+    "review": [
+      "41446109",
+      "39637134",
+      "42323439",
+      "37811720",
+      "42074532"
+    ],
+    "pmc": [
+      "12724611"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41446109/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2025.12.15.694070",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

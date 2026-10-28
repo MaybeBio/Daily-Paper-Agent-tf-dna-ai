@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "38260640",
+    "doi": "10.1101/2024.01.03.574032",
+    "title": "Targeting transcription factors through an IMiD independent zinc finger domain."
+  },
+  "content": {
+    "abstract": "Immunomodulatory imide drugs (IMiDs) degrade specific C2H2 zinc finger degrons in transcription factors, making them effective against certain cancers. SALL4, a cancer driver, contains seven C2H2 zinc fingers in four clusters, including an IMiD degron in zinc finger cluster two (ZFC2). Surprisingly, IMiDs do not inhibit growth of SALL4 expressing cancer cells. To overcome this limit, we focused on a non-IMiD degron, SALL4 zinc finger cluster four (ZFC4). By combining AlphaFold and the ZFC4-DNA crystal structure, we identified a potential ZFC4 drug pocket. Utilizing an in silico docking algorithm and cell viability assays, we screened chemical libraries and discovered SH6, which selectively targets SALL4-expressing cancer cells. Mechanistic studies revealed that SH6 degrades SALL4 protein through the CUL4A/CRBN pathway, while deletion of ZFC4 abolished this activity. Moreover, SH6 led to significant 62% tumor growth inhibition of SALL4+ xenografts in vivo and demonstrated good bioavailability in pharmacokinetic studies. In summary, these studies represent a new approach for IMiD independent drug discovery targeting C2H2 transcription factors in cancer.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Bee Hui",
+        "Liu, Miao",
+        "Radhakrishnan, Sridhar",
+        "Jaladanki, Chaitanya Kumar",
+        "Gao, Chong",
+        "Tang, Jing Ping",
+        "Kumari, Kalpana",
+        "Go, Mei Lin",
+        "Vu, Kim Anh L",
+        "Seo, Hyuk-Soo",
+        "Song, Kijun",
+        "Tian, Xi",
+        "Feng, Li",
+        "Tan, Justin L",
+        "Bassal, Mahmoud A",
+        "Arthanari, Haribabu",
+        "Qi, Jun",
+        "Dhe-Paganon, Sirano",
+        "Fan, Hao",
+        "Tenen, Daniel G",
+        "Chai, Li"
+      ],
+      "short_names": [
+        "Liu BH",
+        "Liu M",
+        "Radhakrishnan S",
+        "Jaladanki CK",
+        "Gao C",
+        "Tang JP",
+        "Kumari K",
+        "Go ML",
+        "Vu KAL",
+        "Seo HS",
+        "Song K",
+        "Tian X",
+        "Feng L",
+        "Tan JL",
+        "Bassal MA",
+        "Arthanari H",
+        "Qi J",
+        "Dhe-Paganon S",
+        "Fan H",
+        "Tenen DG",
+        "Chai L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0646-2102",
+        "ORCID: 0000-0002-6423-3888"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Bee Hui",
+        "short_name": "Liu BH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Miao",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Radhakrishnan, Sridhar",
+        "short_name": "Radhakrishnan S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Jaladanki, Chaitanya Kumar",
+        "short_name": "Jaladanki CK",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gao, Chong",
+        "short_name": "Gao C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tang, Jing Ping",
+        "short_name": "Tang JP",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kumari, Kalpana",
+        "short_name": "Kumari K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Go, Mei Lin",
+        "short_name": "Go ML",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Vu, Kim Anh L",
+        "short_name": "Vu KAL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Seo, Hyuk-Soo",
+        "short_name": "Seo HS",
+        "identifiers": [
+          "0000-0003-0646-2102"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Song, Kijun",
+        "short_name": "Song K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tian, Xi",
+        "short_name": "Tian X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Feng, Li",
+        "short_name": "Feng L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tan, Justin L",
+        "short_name": "Tan JL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bassal, Mahmoud A",
+        "short_name": "Bassal MA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Arthanari, Haribabu",
+        "short_name": "Arthanari H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Qi, Jun",
+        "short_name": "Qi J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dhe-Paganon, Sirano",
+        "short_name": "Dhe-Paganon S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Fan, Hao",
+        "short_name": "Fan H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tenen, Daniel G",
+        "short_name": "Tenen DG",
+        "identifiers": [
+          "0000-0002-6423-3888"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chai, Li",
+        "short_name": "Chai L",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jan 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 12:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38260640",
+      "40369156",
+      "36257403",
+      "37461690",
+      "41176706",
+      "30385546",
+      "32929090",
+      "41313965",
+      "38086859",
+      "32071327",
+      "32948804",
+      "30067223",
+      "38559242",
+      "36635047",
+      "33879556",
+      "37511270",
+      "38975872",
+      "41385308",
+      "32677118",
+      "37902300",
+      "36701892",
+      "9171100",
+      "33406418",
+      "34207079",
+      "20478078",
+      "16086360",
+      "29954751",
+      "16402211",
+      "36764755",
+      "15288776",
+      "33406384",
+      "30373817",
+      "41279046",
+      "31446059",
+      "36439455",
+      "34680233",
+      "31510939",
+      "21888896",
+      "15640031",
+      "26117057",
+      "32547602",
+      "39981045",
+      "41050081",
+      "8132543",
+      "18559114",
+      "38116854",
+      "9835615",
+      "27103457",
+      "38866076",
+      "35269875",
+      "28530236",
+      "23175232",
+      "38062245",
+      "27444278",
+      "8114711",
+      "19348505",
+      "39624126",
+      "36872339",
+      "38873893",
+      "34573282",
+      "33186626",
+      "15020707",
+      "38317660",
+      "34834536",
+      "35525905",
+      "34614283",
+      "32835442",
+      "31706027",
+      "37337914",
+      "38904842",
+      "39466433",
+      "34583995",
+      "9568537",
+      "19060217",
+      "38723281",
+      "11361095",
+      "28867346",
+      "26818834",
+      "16172918",
+      "29130642",
+      "27983924",
+      "41495890",
+      "34804129",
+      "41114529",
+      "34249098",
+      "27705911",
+      "24811678",
+      "29718735",
+      "32512378",
+      "27068105",
+      "40252382",
+      "32251415",
+      "28024514",
+      "36010677",
+      "7673192",
+      "34965125",
+      "31336010",
+      "30760870",
+      "33959385",
+      "30190590"
+    ],
+    "review": [
+      "38260640",
+      "20478078",
+      "36439455",
+      "34680233",
+      "15640031",
+      "35269875",
+      "27444278",
+      "38873893",
+      "34573282",
+      "34834536",
+      "37337914",
+      "11361095"
+    ],
+    "pmc": [
+      "10802279"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38260640/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.01.03.574032",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "36802342",
+    "doi": "10.1242/bio.059698",
+    "title": "Deep learning enabled multi-organ segmentation of mouse embryos."
+  },
+  "content": {
+    "abstract": "The International Mouse Phenotyping Consortium (IMPC) has generated a large repository of three-dimensional (3D) imaging data from mouse embryos, providing a rich resource for investigating phenotype/genotype interactions. While the data is freely available, the computing resources and human effort required to segment these images for analysis of individual structures can create a significant hurdle for research. In this paper, we present an open source, deep learning-enabled tool, Mouse Embryo Multi-Organ Segmentation (MEMOS), that estimates a segmentation of 50 anatomical structures with a support for manually reviewing, editing, and analyzing the estimated segmentation in a single application. MEMOS is implemented as an extension on the 3D Slicer platform and is designed to be accessible to researchers without coding experience. We validate the performance of MEMOS-generated segmentations through comparison to state-of-the-art atlas-based segmentation and quantification of previously reported anatomical abnormalities in a Cbx4 knockout strain. This article has an associated First Person interview with the first author of the paper.",
+    "keywords": [
+      "Automated",
+      "Deep learning",
+      "Embryo",
+      "Micro-CT",
+      "Mouse",
+      "Segmentation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Deep Learning",
+      "*Embryo, Mammalian",
+      "Ligases",
+      "Polycomb-Group Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rolfe, S M",
+        "Whikehart, S M",
+        "Maga, A M"
+      ],
+      "short_names": [
+        "Rolfe SM",
+        "Whikehart SM",
+        "Maga AM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9514-7774",
+        "ORCID: 0000-0001-7919-9056",
+        "ORCID: 0000-0002-7921-9018"
+      ],
+      "affiliations": [
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA 98101, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA 98101, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA 98101, USA.",
+        "Department of Pediatrics, University of Washington, Seattle, WA 98105, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rolfe, S M",
+        "short_name": "Rolfe SM",
+        "identifiers": [
+          "0000-0001-9514-7774"
+        ],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA 98101, USA."
+        ]
+      },
+      {
+        "full_name": "Whikehart, S M",
+        "short_name": "Whikehart SM",
+        "identifiers": [
+          "0000-0001-7919-9056"
+        ],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA 98101, USA."
+        ]
+      },
+      {
+        "full_name": "Maga, A M",
+        "short_name": "Maga AM",
+        "identifiers": [
+          "0000-0002-7921-9018"
+        ],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA 98101, USA.",
+          "Department of Pediatrics, University of Washington, Seattle, WA 98105, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology open"
+    ],
+    "journal_abbrev": [
+      "Biol Open"
+    ],
+    "pub_date": "2023 Feb 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/22 06:00",
+    "fetched_at": "2026-09-28 20:46:54"
+  },
+  "links": {
+    "cites": [
+      "41969925",
+      "41479453",
+      "41274934",
+      "40832189",
+      "40433986",
+      "40421888",
+      "39768073",
+      "39720527",
+      "39554050",
+      "39205304",
+      "39045422",
+      "38855547",
+      "38268040"
+    ],
+    "refs": [
+      "38776843",
+      "33907199",
+      "33574040",
+      "33421919",
+      "33159057",
+      "31107915",
+      "29975151",
+      "27626380",
+      "26046403",
+      "24817849",
+      "23362346",
+      "22872090",
+      "22770690",
+      "22556102",
+      "20576463",
+      "18050352",
+      "16860573",
+      "14974593",
+      "12774894"
+    ],
+    "similar": [
+      "36802342",
+      "33574040",
+      "24850858",
+      "22872090",
+      "22556102",
+      "36249866",
+      "33459255",
+      "30480818",
+      "41681030",
+      "41077044",
+      "37666698",
+      "28730602",
+      "40996470",
+      "32030668",
+      "20656039",
+      "41544837",
+      "39516256",
+      "36883992",
+      "23519032",
+      "30738207",
+      "36946294",
+      "40960397",
+      "41031902",
+      "38779855",
+      "32155670",
+      "40671620",
+      "27742664",
+      "31775825",
+      "39167059",
+      "41494208",
+      "41557732",
+      "38684904",
+      "34958147",
+      "23879987",
+      "30676949",
+      "19939358",
+      "32786071",
+      "40329157",
+      "41325317",
+      "38878813",
+      "33246228",
+      "30910724",
+      "39110559",
+      "39266784",
+      "36000762",
+      "33930003",
+      "40718007",
+      "31147353",
+      "36964964",
+      "32754893",
+      "38662100",
+      "35979964",
+      "28656622",
+      "32982989",
+      "36304320",
+      "39577575",
+      "38495377",
+      "36180029",
+      "40050174",
+      "31762532",
+      "40183298",
+      "29414435",
+      "34350410",
+      "24784800",
+      "33524814",
+      "36608414",
+      "34676555",
+      "35524783",
+      "40767616",
+      "28445774",
+      "38797827",
+      "41439587",
+      "30927965",
+      "39969540",
+      "40208877",
+      "24386367",
+      "32738913",
+      "36870441",
+      "38100790",
+      "38857570",
+      "38626778",
+      "40665544",
+      "38067181",
+      "35224185",
+      "34266391",
+      "36304332",
+      "32565223",
+      "38691411",
+      "33409788",
+      "36071089",
+      "39775630",
+      "36800143",
+      "33755564",
+      "35240585",
+      "36900410",
+      "32410405",
+      "32166768",
+      "33650569",
+      "38250039",
+      "33226942"
+    ],
+    "review": [
+      "36802342",
+      "32030668"
+    ],
+    "pmc": [
+      "9990908"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36802342/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36802342",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://journals.biologists.com/bio/article-lookup/doi/10.1242/bio.059698",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

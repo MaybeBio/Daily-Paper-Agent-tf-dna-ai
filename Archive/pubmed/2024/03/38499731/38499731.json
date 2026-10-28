@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "38499731",
+    "doi": "10.1038/s41598-024-57247-z",
+    "title": "De novo antioxidant peptide design via machine learning and DFT studies."
+  },
+  "content": {
+    "abstract": "Antioxidant peptides (AOPs) are highly valued in food and pharmaceutical industries due to their significant role in human function. This study introduces a novel approach to identifying robust AOPs using a deep generative model based on sequence representation. Through filtration with a deep-learning classification model and subsequent clustering via the Butina cluster algorithm, twelve peptides (GP1-GP12) with potential antioxidant capacity were predicted. Density functional theory (DFT) calculations guided the selection of six peptides for synthesis and biological experiments. Molecular orbital representations revealed that the HOMO for these peptides is primarily localized on the indole segment, underscoring its pivotal role in antioxidant activity. All six synthesized peptides exhibited antioxidant activity in the DPPH assay, while the hydroxyl radical test showed suboptimal results. A hemolysis assay confirmed the non-hemolytic nature of the generated peptides. Additionally, an in silico investigation explored the potential inhibitory interaction between the peptides and the Keap1 protein. Analysis revealed that ligands GP3, GP4, and GP12 induced significant structural changes in proteins, affecting their stability and flexibility. These findings highlight the capability of machine learning approaches in generating novel antioxidant peptides.",
+    "keywords": [
+      "Antioxidant peptides",
+      "DFT calculation",
+      "De novo design",
+      "Deep learning",
+      "Machine learning",
+      "Molecular dynamics simulations"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Antioxidants/pharmacology/chemistry",
+      "Kelch-Like ECH-Associated Protein 1",
+      "*NF-E2-Related Factor 2",
+      "Peptides/pharmacology/chemistry",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hesamzadeh, Parsa",
+        "Seif, Abdolvahab",
+        "Mahmoudzadeh, Kazem",
+        "Ganjali Koli, Mokhtar",
+        "Mostafazadeh, Amrollah",
+        "Nayeri, Kosar",
+        "Mirjafary, Zohreh",
+        "Saeidian, Hamid"
+      ],
+      "short_names": [
+        "Hesamzadeh P",
+        "Seif A",
+        "Mahmoudzadeh K",
+        "Ganjali Koli M",
+        "Mostafazadeh A",
+        "Nayeri K",
+        "Mirjafary Z",
+        "Saeidian H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Science and Research Branch, Islamic Azad University, Tehran, Iran.",
+        "Dipartimento di Fisica, Universita' di Padova, Via Marzolo 8, 35131, Padua, Italy.",
+        "Department of Chemistry, University of Turin, Via Pietro Giuria 7, 10125, Turin, Italy.",
+        "Department of Organic Chemistry and Oil, Faculty of Chemistry, Shahid Beheshti University, Tehran, Iran.",
+        "Department of Chemistry, University of Kurdistan, Sanandaj, Iran.",
+        "Cellular and Molecular Biology Research Center, Health Research Institute, Babol University of Medical Sciences, Babol, Iran.",
+        "Student Research Committee, Babol University of Medical Sciences, Babol, Iran.",
+        "Department of Chemistry, Science and Research Branch, Islamic Azad University, Tehran, Iran.",
+        "Department of Science, Payame Noor University (PNU), PO Box: 19395-4697, Tehran, Iran. Saeidian1980@pnu.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hesamzadeh, Parsa",
+        "short_name": "Hesamzadeh P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Science and Research Branch, Islamic Azad University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Seif, Abdolvahab",
+        "short_name": "Seif A",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Fisica, Universita' di Padova, Via Marzolo 8, 35131, Padua, Italy.",
+          "Department of Chemistry, University of Turin, Via Pietro Giuria 7, 10125, Turin, Italy."
+        ]
+      },
+      {
+        "full_name": "Mahmoudzadeh, Kazem",
+        "short_name": "Mahmoudzadeh K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Organic Chemistry and Oil, Faculty of Chemistry, Shahid Beheshti University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Ganjali Koli, Mokhtar",
+        "short_name": "Ganjali Koli M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Kurdistan, Sanandaj, Iran."
+        ]
+      },
+      {
+        "full_name": "Mostafazadeh, Amrollah",
+        "short_name": "Mostafazadeh A",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Biology Research Center, Health Research Institute, Babol University of Medical Sciences, Babol, Iran."
+        ]
+      },
+      {
+        "full_name": "Nayeri, Kosar",
+        "short_name": "Nayeri K",
+        "identifiers": [],
+        "affiliations": [
+          "Student Research Committee, Babol University of Medical Sciences, Babol, Iran."
+        ]
+      },
+      {
+        "full_name": "Mirjafary, Zohreh",
+        "short_name": "Mirjafary Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Science and Research Branch, Islamic Azad University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Saeidian, Hamid",
+        "short_name": "Saeidian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science, Payame Noor University (PNU), PO Box: 19395-4697, Tehran, Iran. Saeidian1980@pnu.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Mar 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/19 06:43",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "42484757",
+      "42421200",
+      "42353741",
+      "41940145",
+      "41724836",
+      "41594429",
+      "41542079",
+      "41366240",
+      "41111544",
+      "40429715",
+      "40123800",
+      "39747219",
+      "39285914",
+      "39252832"
+    ],
+    "refs": [
+      "37986524",
+      "37829032",
+      "37330849",
+      "36500647",
+      "36461699",
+      "35918356",
+      "35773306",
+      "35209132",
+      "35052631",
+      "34999757",
+      "34478499",
+      "34349895",
+      "34325244",
+      "34249600",
+      "34182364",
+      "33638635",
+      "33293615",
+      "32756904",
+      "32415162",
+      "30710587",
+      "30263666",
+      "29679519",
+      "29025362",
+      "26851866",
+      "26771594",
+      "26631602",
+      "26579458",
+      "25816325",
+      "25748215",
+      "25555724",
+      "25130509",
+      "24988348",
+      "24933428",
+      "24058508",
+      "23620713",
+      "23180855",
+      "20496934",
+      "19580743",
+      "19360913",
+      "18482592",
+      "18164724",
+      "16509740",
+      "15772311",
+      "9895674",
+      "9377276",
+      "7674305"
+    ],
+    "similar": [
+      "38499731",
+      "41174394",
+      "40774187",
+      "42421200",
+      "42276016",
+      "39546995",
+      "42475469",
+      "42184520",
+      "38145582",
+      "37853837",
+      "40983012",
+      "42387605",
+      "39977993",
+      "41794522",
+      "37690095",
+      "34710694",
+      "40207866",
+      "39392363",
+      "41645680",
+      "39922038",
+      "35761579",
+      "38837798",
+      "36461408",
+      "34226415",
+      "41429090",
+      "36677922",
+      "41539815",
+      "36444095",
+      "38631199",
+      "39779560",
+      "32919266",
+      "42270250",
+      "37049715",
+      "39986793",
+      "40649755",
+      "41505276",
+      "29745220",
+      "36914354",
+      "38945266",
+      "32190865",
+      "38387316",
+      "40968251",
+      "36292968",
+      "40651143",
+      "40817841",
+      "40058928",
+      "38064839",
+      "40344592",
+      "41828583",
+      "40196985",
+      "36549163",
+      "38402773",
+      "34182364",
+      "38138465",
+      "34176443",
+      "41197298",
+      "41819897",
+      "39733526",
+      "36892038",
+      "40482480",
+      "41511542",
+      "42357553",
+      "39772654",
+      "40203694",
+      "38343291",
+      "40077777",
+      "40552091",
+      "42042215",
+      "37242256",
+      "41067126",
+      "38266414",
+      "40505314",
+      "40123800",
+      "41886992",
+      "39201537",
+      "41606864",
+      "33683866",
+      "37689894",
+      "26935067",
+      "38358942",
+      "42118388",
+      "28801166",
+      "23912807",
+      "32454270",
+      "40790677",
+      "29679519",
+      "41312787",
+      "41720062",
+      "41483313",
+      "41524971",
+      "37986452",
+      "38437762",
+      "38958100",
+      "41794516",
+      "42144068",
+      "40508195",
+      "26122987",
+      "38078849",
+      "39950947",
+      "35761620"
+    ],
+    "review": [
+      "38499731",
+      "41429090"
+    ],
+    "pmc": [
+      "10948870"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/antioxidants.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antioxidants"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-57247-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38499731/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38499731",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "36510032",
+    "doi": "10.1007/s12064-022-00381-x",
+    "title": "Formal verification confirms the role of p53 protein in cell fate decision mechanism."
+  },
+  "content": {
+    "abstract": "The bio-cell cycle is controlled by a complex biochemical network of signaling pathways. Modeling such challenging networks accurately is imperative for the understanding of their detailed dynamical behavior. In this paper, we construct, analyze, and verify a hybrid Petri net (HPN) model of a complex biochemical network that captures the role of an important protein (namely p53) in deciding the fate of the cell. We model the behavior of the cell nucleus and cytoplasm as two stochastic and continuous Petri nets, respectively, combined together into a single HPN. We use simulative model checking to verify three different properties that capture the dynamical behavior of p53 protein with respect to the intensity of the ionizing radiation (IR) to which the cell is exposed. For each IR dose, 1000 simulation runs are carried out to verify each property. Our verification results showed that the fluctuations in p53, which relies on IR intensity, are compatible with the findings of the preceding simulation studies that have previously examined the role of p53 in cell fate decision.",
+    "keywords": [
+      "Cell fate decision",
+      "Hybrid Petri nets",
+      "Hybrid modeling",
+      "Model checking",
+      "PLTL",
+      "Simulative model checking"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53",
+      "*Models, Biological",
+      "Cell Differentiation",
+      "Computer Simulation",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mahmoud, Eman Abdelaziz",
+        "Herajy, Mostafa",
+        "Ziedan, Ibrahim E",
+        "Shehata, Hazem I"
+      ],
+      "short_names": [
+        "Mahmoud EA",
+        "Herajy M",
+        "Ziedan IE",
+        "Shehata HI"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7181-6144"
+      ],
+      "affiliations": [
+        "Computer and Systems Department, Faculty of Engineering, Zagazig University, Zagazig, Egypt. e.abdelaziz@eng.zu.edu.eg.",
+        "Mathematics and Computer Science Department, Faculty of Science, Port Said University, Port Said, Egypt.",
+        "Computer and Systems Department, Faculty of Engineering, Zagazig University, Zagazig, Egypt.",
+        "Computer and Systems Department, Faculty of Engineering, Zagazig University, Zagazig, Egypt.",
+        "Computer Engineering Department, College of Computing and Information Technology, Shaqra University, Shaqra, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mahmoud, Eman Abdelaziz",
+        "short_name": "Mahmoud EA",
+        "identifiers": [],
+        "affiliations": [
+          "Computer and Systems Department, Faculty of Engineering, Zagazig University, Zagazig, Egypt. e.abdelaziz@eng.zu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Herajy, Mostafa",
+        "short_name": "Herajy M",
+        "identifiers": [
+          "0000-0001-7181-6144"
+        ],
+        "affiliations": [
+          "Mathematics and Computer Science Department, Faculty of Science, Port Said University, Port Said, Egypt."
+        ]
+      },
+      {
+        "full_name": "Ziedan, Ibrahim E",
+        "short_name": "Ziedan IE",
+        "identifiers": [],
+        "affiliations": [
+          "Computer and Systems Department, Faculty of Engineering, Zagazig University, Zagazig, Egypt."
+        ]
+      },
+      {
+        "full_name": "Shehata, Hazem I",
+        "short_name": "Shehata HI",
+        "identifiers": [],
+        "affiliations": [
+          "Computer and Systems Department, Faculty of Engineering, Zagazig University, Zagazig, Egypt.",
+          "Computer Engineering Department, College of Computing and Information Technology, Shaqra University, Shaqra, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Theory in biosciences = Theorie in den Biowissenschaften"
+    ],
+    "journal_abbrev": [
+      "Theory Biosci"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/13 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "40416937",
+      "38961813",
+      "37160165"
+    ],
+    "refs": [
+      "34638930",
+      "32764598",
+      "32750877",
+      "31582789",
+      "29982167",
+      "29875647",
+      "28754122",
+      "26931810",
+      "26910830",
+      "25217223",
+      "25003668",
+      "24252182",
+      "23306555",
+      "23067820",
+      "21576488",
+      "21394211",
+      "21106117",
+      "20139470",
+      "19617533",
+      "19274075",
+      "18471974",
+      "18073771",
+      "17245126",
+      "17037977",
+      "16949371",
+      "16186499",
+      "15725723",
+      "14730303",
+      "11016968",
+      "10950947",
+      "10930419",
+      "10902182",
+      "10617566",
+      "10022118",
+      "9747872",
+      "9516487"
+    ],
+    "similar": [
+      "36510032",
+      "19393101",
+      "21685566",
+      "21373654",
+      "21685563",
+      "32142804",
+      "25003668",
+      "16789909",
+      "15712121",
+      "18257938",
+      "19617533",
+      "12954095",
+      "36208026",
+      "21685569",
+      "34492317",
+      "15617157",
+      "29982167",
+      "26713449",
+      "17503360",
+      "15724280",
+      "16376130",
+      "26299837",
+      "17099944",
+      "16268794",
+      "21095219",
+      "19226663",
+      "21685568",
+      "22430221",
+      "21248370",
+      "21685573",
+      "25912236",
+      "20858413",
+      "10902182",
+      "18463702",
+      "26156221",
+      "17503361",
+      "24012741",
+      "21106117",
+      "28754122",
+      "21685562",
+      "26278643",
+      "18611428",
+      "22700930",
+      "27526774",
+      "19640162",
+      "20837528",
+      "20649007",
+      "22430224",
+      "20685653",
+      "26433055",
+      "19119996",
+      "26928575",
+      "19619456",
+      "33445890",
+      "21685576",
+      "27781158",
+      "22144165",
+      "30414319",
+      "20042075",
+      "17258508",
+      "21685572",
+      "25150626",
+      "25080237",
+      "34995696",
+      "26090895",
+      "22671997",
+      "36232625",
+      "21556066",
+      "29048401",
+      "15896791",
+      "21576488",
+      "31561425",
+      "22430220",
+      "23845991",
+      "29576759",
+      "18775676",
+      "28440122",
+      "34543693",
+      "18039375",
+      "36146285",
+      "20144236",
+      "22809307",
+      "19197384",
+      "30488759",
+      "24113167",
+      "28005249",
+      "25298927",
+      "18573813",
+      "22114721",
+      "28177883",
+      "32424393",
+      "25175563",
+      "22230936",
+      "36830988",
+      "35196198"
+    ],
+    "review": [
+      "36510032",
+      "26278643",
+      "24113167"
+    ],
+    "pmc": [
+      "9925526"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36510032/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12064-022-00381-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36510032",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

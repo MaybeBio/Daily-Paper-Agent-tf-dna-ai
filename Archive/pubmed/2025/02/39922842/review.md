@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary information descriptions.
+- **Assessment boundary** Scientific validity, technical soundness, conceptual novelty, and clarity of claims as presented in the provided text. No assessment of supplementary data files, figures, or tables beyond what is described in the text.
+- **Shared manuscript claim summary** The authors propose a new concept, the transcription factor binding unit (TFBU), which modularly models enhancers by quantifying the contribution of sequences surrounding core TFBSs using deep learning. They develop a toolkit, DeepTFBU, for enhancer design and validate it with MPRA and flow cytometry experiments, showing that designing TFBS-context sequences can modulate enhancer activity, generate cell type-specific responses, enable de novo design of multi-TFBS enhancers, and optimize existing enhancers such as the CMV enhancer.
+- **Visible evidence base** Text descriptions of MPRA experiments (over 36,000 sequences), flow cytometry results, model training on ChIP-seq data from ENCODE (198 TFs in HepG2, additional K562 models), and computational analyses (TFBS motif scanning, DNA shape, R-loop, non-B motif features). Specific numerical results are cited in the text (e.g., 82.9% of TFs, fold changes, PCC values) but underlying data are in supplementary files not provided.
+- **Missing materials affecting confidence** Supplementary figures, tables, datasets, and source data are not available for inspection. This limits verification of statistical claims, model performance metrics, and experimental reproducibility. The full methodological details for deep learning architecture, hyperparameters, and training/validation splits are only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful framework for enhancer modeling and design. The idea of modularizing enhancers into TF binding units, where the context around a core TFBS is explicitly modeled, addresses a recognized gap in the field. The experimental validation, involving large-scale MPRA and flow cytometry, is substantial. However, several technical concerns and gaps in evidence prevent full endorsement of the claims as currently presented. The novelty relative to existing deep learning enhancer models needs sharper articulation, and the statistical and methodological rigor of some analyses requires strengthening.
+- **Who would be interested in the results, and why** Researchers in gene regulation, synthetic biology, and computational genomics would be interested. The TFBU concept offers a modular framework that could aid in designing synthetic enhancers for gene therapy and genetic engineering. The toolkit, DeepTFBU, provides practical tools for such design. The finding that context sequences can be engineered to modulate enhancer activity in a cell type-specific manner has direct applications in precision medicine and synthetic circuit design.
+- **Major strengths**
+  - The TFBU concept is a clear and useful abstraction that separates core TFBS from context, enabling modular analysis and design.
+  - The scale of experimental validation (over 36,000 sequences) is impressive and provides a solid empirical basis.
+  - The demonstration of cell type-specific enhancer design is a notable advance with practical implications.
+  - The toolkit integrates multiple design strategies (single TFBU, multi-TFBU, decoupling/optimization) into a coherent framework.
+  - The analysis of underlying features (TFBS co-occurrence, DNA shape, weak binding sites, R-loop propensity) adds mechanistic insight beyond purely predictive modeling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the TFBS-context deep learning models "captured the patterns conducive to TF binding" and that these patterns are "TF-specific and cell type-specific."
+  - **Evidence pointer** Results section "Overview of DeepTFBU"; Methods section "Preparation of dataset for deep learning model"
+  - **Concern** The training data for the models are derived from ChIP-seq peaks, which reflect binding in a specific cellular context. The negative set is constructed from ATAC-seq peaks without ChIP-seq signal. This design may introduce biases: (1) the model may learn features associated with chromatin accessibility rather than TF-specific binding; (2) the balancing of GC content and histone marks, while reasonable, does not guarantee that other confounding factors (e.g., nucleosome positioning, DNA methylation) are controlled. The claim of TF-specificity is not rigorously demonstrated, as the authors do not show that a model trained for one TF fails to predict binding for another TF. The cell type-specificity claim relies on comparing models trained on different cell types, but the authors do not report cross-cell-type validation metrics (e.g., AUC of HepG2 model on K562 data and vice versa).
+  - **Why it matters** If the models are capturing generic accessibility or sequence composition features rather than TF-specific context preferences, the central claim of the TFBU concept is weakened. The design of cell type-specific enhancers depends critically on the models' ability to distinguish between cell types. Without cross-validation, the observed cell type-specificity in experiments could arise from other factors (e.g., differences in transfection efficiency or cellular state) rather than the designed context sequences.
+  - **Resolution test** Provide cross-cell-type and cross-TF validation of the models. Show that a model trained on HepG2 data for TF X does not predict K562 binding for TF X as well as the K562-trained model, and that a model trained for TF X does not predict binding for TF Y. Report AUC or similar metrics for these comparisons. Additionally, include negative control experiments where context sequences designed for one cell type are tested in the other cell type without the intended TF, to confirm that the observed specificity is TF-dependent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report that "designing TFBS-context can significantly modulate enhancer activity for most TFs (82.9%, 97/117)" and cite fold changes and PCC values.
+  - **Evidence pointer** Results section "Manipulating TFBU sequences can significantly regulate enhancer activity"; Figure 2
+  - **Concern** The statistical framework for determining "significant" modulation is not described. The text mentions t-tests and PCCs, but the multiple testing burden across 117 TFs is not addressed. The fold change threshold for calling a TF "responsive" is not stated. The authors also removed outliers (e.g., two outliers in Figure 2d) without a pre-specified criterion. The number of biological replicates (three) is modest, and the variability across replicates is not reported for individual TFs.
+  - **Why it matters** Without proper multiple testing correction and pre-specified criteria, the 82.9% figure could be inflated by false positives. The claim that the effect is "significant for most TFs" is a key quantitative result and must be robust to statistical scrutiny.
+  - **Resolution test** Provide a detailed statistical analysis plan: state the primary outcome measure, the threshold for significance (e.g., FDR-adjusted p-value), and the fold change cutoff. Report the number of TFs that pass each criterion. Include confidence intervals for fold changes. Justify the outlier removal with a pre-defined rule. Consider using a mixed-effects model that accounts for replicate variability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and positioning
+  - **Claim pointer** The authors state that "unlike TF binding motifs, the complex features within the context sequences make it difficult to assess their impact" and position TFBU as a new concept.
+  - **Evidence pointer** Introduction; Discussion
+  - **Concern** The field already has deep learning models that predict enhancer activity from sequence (e.g., Enformer, Basenji, DeepSEED). The authors cite their previous work (DeepSEED) but do not clearly differentiate TFBU from these existing approaches. The claim that TFBU is a "crucial concept" needs a more explicit comparison. Specifically, how does the modular TFBU approach outperform or provide different insights than end-to-end models that implicitly learn context effects? The authors show that a linear model using TFBU features performs comparably to deep learning on raw sequences (Figure 5b), but this is a single comparison and the practical advantage of the modular approach is not fully articulated.
+  - **Why it matters** For a Nature Communications audience, the conceptual advance must be clear. If TFBU is essentially a feature engineering scheme applied to existing deep learning predictions, the novelty is incremental. The authors need to articulate what new biological or design capabilities the TFBU framework enables that end-to-end models do not.
+  - **Resolution test** Add a section in the Discussion that directly compares TFBU to end-to-end deep learning models. Discuss scenarios where the modular approach is advantageous (e.g., interpretability, transferability across cell types, design with constraints on TFBS number). Provide a concrete example where TFBU-based design achieves a result that an end-to-end model cannot, or where the modular decomposition provides new biological insight.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The authors describe the DeepTFBU toolkit and its modules (SigTFBU, CSpTFBU, DeMulTFBU, ModOptTFBU).
+  - **Evidence pointer** Methods section "Sequence design and optimization"; Results sections
+  - **Concern** The manuscript does not provide sufficient detail for others to reproduce the toolkit. Key parameters for the genetic algorithm (mutation rate, recombination rate, population size, convergence criteria) are not fully specified. The deep learning architecture is described at a high level (convolution, LSTM, dense blocks) but without layer sizes, activation functions, dropout rates, or training details (optimizer, learning rate, batch size, epochs). The code and trained models are not stated to be publicly available.
+  - **Why it matters** Reproducibility is a core requirement for a methods-focused paper. Without these details, the toolkit cannot be independently implemented or benchmarked.
+  - **Resolution test** Provide a detailed description of the model architecture and training procedure in the Methods or Supplementary Information. State the availability of code and models (e.g., GitHub repository, Zenodo). Include a table of hyperparameters. Describe the genetic algorithm parameters and the exact objective functions for each module.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "We prove that TFBU is a crucial concept." The word "prove" is too strong for an empirical study. The evidence supports the utility of the concept, not a mathematical proof.
+  - **Required correction** Change "prove" to "demonstrate" or "provide evidence for."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Manipulating TFBU sequences can significantly regulate enhancer activity"
+  - **Evidence pointer** Figure 2a
+  - **Issue** The box plots in Figure 2a show outliers as hollow circles, but the number of data points per group is not stated. The text mentions "each point in control groups denotes one biological replicate," but for optimized groups, each point is the average of three replicates. This asymmetry is not clearly explained in the figure legend.
+  - **Required correction** Clarify in the figure legend how many independent samples are represented by each point in each group, and state the total number of replicates per condition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "MPRA library design"
+  - **Evidence pointer** Methods section "MPRA library design"
+  - **Issue** The text states "For each TF, 2000 TFBS-contexts with different TFBS-context scores were generated with the genetic algorithm. 4000 genome TFBS-contexts with different TFBS-context scores were selected from the TFBS-context samples." It is unclear what "TFBS-context samples" refers to in the second sentence. Are these from the same pool as the generated ones, or from a separate genomic selection?
+  - **Required correction** Clarify the source of the 4000 genome TFBS-contexts and how they were selected.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Manipulating TFBU sequences can significantly regulate enhancer activity"
+  - **Evidence pointer** Figure 2c
+  - **Issue** The authors note that for HNF4A, the highest-scoring generated TFBS-contexts collapsed into repeated fragments of the HNF4A TFBS, leading to decreased activity. This is an important caveat but is only mentioned in passing. It suggests that the model's objective function may not penalize repetitive sequences, which could be a limitation for other TFs as well.
+  - **Required correction** Discuss this failure mode more explicitly in the Results or Discussion. Consider whether the genetic algorithm should include a penalty for sequence repetitiveness or for the presence of unintended TFBSs.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "TFBS-based modeling promises a flexible framework for enhancer decoupling and optimization"
+  - **Evidence pointer** Figure 5
+  - **Issue** The text states that the linear model using TFBU features outperforms deep learning models on the test set (PCC 0.7942 vs. typical deep learning models). However, the specific deep learning models compared are not named, and the comparison is not shown in a figure or table. This is a strong claim that needs more detail.
+  - **Required correction** Specify which deep learning models were compared, how they were trained, and show the comparison in a figure or table.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of cross-validation for TF-specificity and cell type-specificity of the models.
+  - R1-M2: Inadequate statistical framework for the key quantitative claim (82.9% of TFs).
+  - R1-M4: Insufficient methodological detail for reproducibility of the toolkit.
+- **Assessment against Nature-style criteria**
+  - **Originality** The TFBU concept is a useful modular abstraction, but its novelty relative to existing deep learning enhancer models is not sharply defined. The idea of modeling context around TFBSs is not entirely new, and the authors need to more clearly articulate what is conceptually novel.
+  - **Scientific importance** The ability to design enhancers with predictable activity and cell type specificity is of high importance for synthetic biology and gene therapy. The large-scale experimental validation strengthens the potential impact.
+  - **Interdisciplinary readership** The work bridges computational biology, genomics, and synthetic biology. The writing is generally accessible, but the Methods section assumes familiarity with deep learning and MPRA. The conceptual framing in the Introduction is clear for a broad audience.
+  - **Technical soundness** The experimental design is generally sound, but the statistical rigor of the key claims and the lack of cross-validation for model specificity are significant weaknesses. The reproducibility of the computational methods is also a concern.
+  - **Readability for nonspecialists** The abstract and introduction are clear. The Results section is dense but understandable. The Discussion effectively places the work in context, though the comparison to existing methods could be more explicit.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept and experimental validation are promising, but the manuscript requires substantial revisions to address the statistical rigor, model validation, and reproducibility concerns before the claims can be fully accepted.

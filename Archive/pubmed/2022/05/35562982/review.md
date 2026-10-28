@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, and methods sections.
+- **Assessment boundary** Evaluation is limited to the scientific content, methodology, and claims presented in the provided manuscript. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered linker (IDL) of the plant transcriptional repressor VRN1 regulates its phase separation with DNA through two mechanisms: (1) modulating the effective local concentration of the two B3 DNA-binding domains, thereby controlling binding affinity, and (2) influencing the phase diagram of VRN1-DNA condensates, with an optimal linker length for phase separation. They further claim that charge-segregated IDL sequences, as found in natural VRN1 proteins, confer robust phase separation independent of linker length.
+- **Visible evidence base** The manuscript includes experimental binding affinity data from a prior study (Table 1), polymer model fits (WLC and RMC) to these data (Figure 2), predictions of optimal linker length (Figure 3), lattice-based Monte-Carlo phase diagram simulations for neutral linkers of varying length (Figure 4), simulations with charged patches (Figure 5), and simulations varying charged patch length (Figure 6). Methods are described in Section 4.
+- **Missing materials affecting confidence** The following were not provided and would affect confidence: (1) the original experimental data points for binding affinities in Table 1, (2) full parameterization details for the LASSI simulations, including interaction energy values for all bead types beyond those mentioned, (3) error bars or statistical uncertainties for simulation results, (4) the supplementary figures (Figure S1) and table (Table S1) referenced in the text, (5) details on how the "1100" linker architecture was constructed and validated, and (6) any experimental validation of the predicted optimal linker length or phase behavior.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of biomolecular condensates: how intrinsically disordered linkers regulate the phase separation of multidomain proteins with nucleic acids. The authors combine polymer physics models with coarse-grained simulations to provide a mechanistic framework for understanding the role of IDL length and charge patterning in VRN1-DNA phase separation. The work is conceptually interesting and the conclusions are broadly consistent with existing experimental observations. However, several technical aspects require clarification and strengthening before the case is fully established. In particular, the treatment of the effective local concentration, the parameterization of the simulation model, and the interpretation of the phase diagram results need more rigorous justification. The manuscript would benefit from a clearer articulation of the relationship between the polymer model predictions and the simulation outcomes, and from a more critical discussion of the limitations of the coarse-grained approach.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, and the biophysics of transcriptional regulation would find this work relevant. The study provides a generalizable framework for understanding how linker length and charge distribution in multidomain proteins can tune binding affinity and phase behavior, which is of interest to the broader community working on biomolecular condensates and their role in gene regulation. The findings may also inform the design of synthetic proteins with tunable phase separation properties.
+- **Major strengths** The manuscript presents a clear and well-structured investigation of a specific biophysical question. The use of polymer models to connect linker length to binding affinity is elegant and provides a quantitative link to prior experimental data. The simulation approach using LASSI is appropriate for studying phase behavior in a coarse-grained manner. The authors also make a useful connection between their findings and the evolution of charge-segregated IDL sequences in natural proteins. The discussion of potential applications in synthetic biology is a valuable addition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the effective local concentration calculation
+  - **Claim pointer** The authors claim that the effective local concentration (Ceff) of the two B3 domains, calculated from the polymer model, directly determines the apparent binding affinity of VRN1 to DNA, and that this relationship explains the experimental data.
+  - **Evidence pointer** Section 2.1, Equations (1)-(4), Figure 2, Table 1
+  - **Concern** The derivation of Ceff from the polymer model and its relationship to the apparent binding affinity is not fully justified. Equation (1) defines Ceff as the ratio of the product of single-domain binding affinities to the apparent VRN1-DNA affinity, but the physical meaning of this quantity is not clearly explained. The polymer model provides a probability distribution for the end-to-end distance of the linker, but the connection between this distribution and the effective concentration of one domain relative to the other when bound to DNA is not rigorously established. The authors assume that the linker acts as a simple entropic spring, but do not account for potential excluded volume effects between the domains and the DNA, or for the possibility of non-specific interactions between the linker and DNA. The fitted end-to-end distances (re = 31.6 Å for WLC and 24.9 Å for RMC) are not discussed in terms of their physical plausibility given the linker lengths studied.
+  - **Why it matters** The effective local concentration is the central concept linking the polymer model to the binding affinity data. If this relationship is not rigorously established, the quantitative agreement between the model and experiment (Figure 2) may be coincidental or an artifact of the fitting procedure. This would undermine the mechanistic claim that IDL length controls binding affinity via entropic effects.
+  - **Resolution test** The authors should provide a more detailed derivation of Ceff from the polymer model, including a clear statement of the assumptions made. They should also discuss the physical interpretation of the fitted re values and compare them to the expected dimensions of the linker. Ideally, they could test the model against additional experimental data, such as binding affinities for linkers of different compositions or with mutations that alter flexibility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the simulation model parameterization
+  - **Claim pointer** The authors claim that their lattice-based Monte-Carlo simulations reproduce the experimentally observed phase behavior of VRN1 variants with different linker lengths and charge patterns.
+  - **Evidence pointer** Section 2.2, Section 2.3, Section 4.2, Figures 4-6, Table S1
+  - **Concern** The parameterization of the LASSI simulations is not described in sufficient detail. The authors state that the contact energy between protein-protein, protein-DNA, and DNA-DNA are set to 0.4 kBT0, -0.4 kBT0, and 10 kBT0, respectively, but do not justify these values. The DNA-DNA repulsion of 10 kBT0 seems very large and may dominate the phase behavior. The treatment of the charged patches is also unclear. The authors state that the contact energies are listed in Table S1, but this table is not provided. The mapping from the net charge of each bead type to the contact energy is not explained. Furthermore, the implicit linker model, which is parameterized by a distance restraint, is not described in terms of its spring constant or how it relates to the polymer models used in Section 2.1. The choice of 10 base pairs per bead for DNA and the use of only 5 beads for a 50 bp DNA fragment may be too coarse to capture the relevant physics.
+  - **Why it matters** The simulation results are the primary evidence for the phase diagram predictions. If the model parameters are not justified or are unrealistic, the predicted phase behavior may not be reliable. The lack of detail prevents the reader from assessing the robustness of the results or reproducing the simulations.
+  - **Resolution test** The authors should provide a complete table of all interaction parameters used in the simulations, with a justification for each value. They should also describe the sensitivity of the results to these parameters. The implicit linker model should be described in detail, including the form of the distance restraint and its relationship to the polymer models. Ideally, the authors could validate the simulation model against a known experimental system before applying it to VRN1.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of phase diagram results
+  - **Claim pointer** The authors claim that the phase diagram simulations show that the ability of VRN1 to undergo phase separation first increases and then decreases with increasing linker length, with the strongest phase separation occurring between L = 40 and L = 60.
+  - **Evidence pointer** Section 2.2, Figure 4
+  - **Concern** The interpretation of the phase diagram results is somewhat ambiguous. The authors use the upper critical solution temperature (UCST) as a proxy for phase separation ability, but do not clearly explain how the UCST is determined from the simulations. The statement that "the concentration allowed to undergo phase separation globally became lower" is confusing. It is also unclear how the phase diagram relates to the binding affinity predictions from Section 2.1. The authors state that a higher affinity is more favorable for phase separation, but do not quantitatively connect the two. The observation that the strongest phase separation occurs at L = 40-60, while the optimal binding affinity is predicted at L = 43, is suggestive but not rigorously established.
+  - **Why it matters** The phase diagram is the key output of the simulations and is used to make claims about the optimal linker length for phase separation. If the interpretation is ambiguous or the connection to binding affinity is not clear, the conclusions are weakened.
+  - **Resolution test** The authors should provide a clearer definition of how the UCST is extracted from the simulations and how the phase boundary is determined. They should also provide a more quantitative analysis of the relationship between binding affinity and phase separation, perhaps by plotting the UCST against the predicted binding affinity for different linker lengths.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Section 2.1, Equation (1)
+  - **Evidence pointer** Section 2.1
+  - **Issue** The notation in Equation (1) is confusing. The superscripts and subscripts are not clearly defined. It is not immediately obvious what KdB3 and KdVRN1 represent in terms of the binding equilibria.
+  - **Required correction** The authors should define all symbols in Equation (1) explicitly in the text, and consider using a clearer notation, such as Kd,B3 and Kd,VRN1.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Section 4.2
+  - **Issue** The description of the LASSI simulation setup is incomplete. The authors do not specify the size of the simulation box, the number of grid points, or the boundary conditions. The equilibration and production run lengths are given, but the number of independent simulations is not stated for each condition.
+  - **Required correction** The authors should provide a complete description of the simulation setup, including box size, grid dimensions, boundary conditions, and the number of independent simulations performed for each condition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 3
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of the limitations of the coarse-grained model is brief. The authors do not discuss the potential impact of the implicit solvent model, the neglect of specific ion effects, or the lack of atomistic detail on the conclusions.
+  - **Required correction** The authors should add a paragraph to the Discussion acknowledging the limitations of the coarse-grained approach and discussing how these might affect the generality of the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 1
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction cites several databases and previous studies, but some statements lack specific references. For example, the claim that "nearly half of human proteins are IDPs" is made in the Discussion without a citation.
+  - **Required correction** The authors should ensure that all factual claims are supported by appropriate references.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are considered blocking concerns. The derivation of the effective local concentration and the parameterization of the simulations are central to the manuscript's claims. Without addressing these issues, the quantitative conclusions cannot be considered reliable. R1-M3 is a major concern that should be addressed but may not be blocking if the interpretation is clarified.
+
+## Risk / unsupported claims
+- The claim that the IDL controls binding affinity via the effective local concentration is supported by the polymer model fits, but the derivation of Ceff is not rigorously justified (R1-M1).
+- The claim that the phase diagram simulations reproduce experimental observations is not fully supported due to incomplete parameterization details (R1-M2).
+- The claim that charge-segregated IDL sequences confer robust phase separation is supported by the simulations, but the lack of parameter details limits confidence.
+- The claim that the strongest phase separation occurs at L = 40-60 is based on the simulations, but the interpretation of the phase diagrams is ambiguous (R1-M3).
+- The prediction of an optimal linker length of approximately 43 residues for binding affinity is based on the polymer model, but this is not experimentally validated.
+- The discussion of potential applications in synthetic biology is speculative and not supported by data in this manuscript.

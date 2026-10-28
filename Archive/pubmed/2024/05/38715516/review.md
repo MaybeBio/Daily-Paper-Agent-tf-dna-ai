@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the review article as provided
+- **Shared manuscript claim summary** The manuscript reviews computational and experimental approaches for deciphering transcriptional regulatory networks, focusing on cis-regulatory elements, and discusses methods including expression-based network inference, MPRA, STARR-seq, CRISPR-Cas9 screens, and machine learning models, with emphasis on their contributions and limitations.
+- **Visible evidence base** Full text including summary, introduction, sections on transcription factor networks, functional examination of cis-regulatory elements, machine learning applications, conclusions, and data availability statement
+- **Missing materials affecting confidence** Figures and tables referenced in the text (Figures 1-4, Tables 1-2) were not provided; reference list was not provided
+
+## Reviewer
+- **Overall assessment** This is a broad and generally well-structured review covering the intersection of transcriptional regulatory network inference, cis-regulatory element functional assays, and machine learning applications. The manuscript is informative and touches on many relevant topics, but it suffers from a lack of depth in several areas, an over-reliance on listing methods without critical comparison, and some organizational issues. The review would benefit from a clearer synthesis of how the different approaches complement or contradict each other, and from a more critical evaluation of the limitations and validation standards in the field. The absence of figures and tables in the provided material limits full assessment of the illustrative content.
+- **Who would be interested in the results, and why** Researchers in genomics, computational biology, and gene regulation would find this review useful as an entry point to the field. It may also appeal to experimental biologists seeking an overview of available computational tools and high-throughput assays for studying cis-regulatory elements. The clinical relevance mentioned in the context of disease-associated variants could attract readers interested in precision medicine applications.
+- **Major strengths** The manuscript covers a wide range of methods and recent developments, providing a useful overview for newcomers. The distinction between co-expression networks, GRNs, and TRNs is helpful for clarifying terminology. The inclusion of both experimental and computational approaches, and the discussion of their integration, is a positive feature. The mention of recent tools and studies (e.g., Enformer, Perturb-seq, scMPRA) keeps the review current.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "machine learning-based tools have been used to identify TFBSs, predict promoters, enhancers, and their interactions, and to infer the cis-regulatory grammar in DNA sequences" and that deep learning methods "have shown promise in inferring TRNs with higher accuracy and the ability to capture nonlinear dependencies."
+  - **Evidence pointer** Sections "Deep learning methods for constructing TRNs" and "Applying machine learning techniques to decipher the cis-regulatory code"; location not provided
+  - **Concern** The manuscript makes broad claims about the superiority or promise of deep learning methods without providing quantitative comparisons or benchmarks. For example, the statement that deep learning methods achieve "higher accuracy" is not supported by specific performance metrics or comparative studies. The BEELINE framework is mentioned but no results from benchmarking studies are discussed. The review would benefit from a critical assessment of whether deep learning methods actually outperform simpler approaches in practice, and under what conditions.
+  - **Why it matters** Unsupported claims about method performance can mislead readers, particularly those new to the field, into adopting methods that may not be appropriate for their specific questions. A review article should provide balanced, evidence-based guidance.
+  - **Resolution test** Provide specific examples with quantitative results (e.g., AUROC, precision-recall) comparing deep learning methods to alternative approaches on standard benchmarks, or temper the claims to reflect the current state of evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript states that "over 90% of disease-associated variants are in non-coding regions" and implies that incomplete knowledge of cis-regulatory grammar hinders prediction of mutation consequences.
+  - **Evidence pointer** Introduction; location not provided
+  - **Concern** The 90% statistic is presented without citation and is a well-known but often-misinterpreted figure. The manuscript does not discuss the nuances of this claim, such as the distinction between variants in non-coding regions and variants that actually affect regulation, nor does it address the ongoing debate about the fraction of disease-associated variants that act through cis-regulatory mechanisms. The claim is used to motivate the entire review but is not critically examined.
+  - **Why it matters** The framing of the problem influences how readers perceive the importance and potential impact of the reviewed methods. An uncritical presentation of a contested statistic weakens the scientific foundation of the review.
+  - **Resolution test** Add a citation for the statistic and briefly discuss its context and limitations, or rephrase to acknowledge the complexity of linking non-coding variants to regulatory function.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript aims to review "advances in computational and experimental approaches for deciphering transcriptional regulatory networks" for a broad audience.
+  - **Evidence pointer** Throughout; location not provided
+  - **Concern** The manuscript frequently introduces methods and concepts without sufficient explanation for nonspecialists. For example, terms like "latent Dirichlet allocation," "variational graph autoencoder," and "denoising diffusion probabilistic models" are mentioned without explanation of what they do or why they are relevant. Similarly, the distinction between different CRISPR-based methods (e.g., CRISPRa vs. CRISPRi) is introduced but the mechanistic basis is not explained clearly. The review assumes a level of background knowledge that may exclude readers from adjacent fields.
+  - **Why it matters** A review in a journal like BioEssays should be accessible to a broad readership. If the intended audience includes experimental biologists or computational scientists from other areas, the lack of explanation will limit the utility of the review.
+  - **Resolution test** Add brief explanations or a glossary for technical terms, and provide more context for why specific methods are used and how they work at a conceptual level.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "single-cell technologies present tremendous opportunities for constructing TRNs" and that "the immense increase in data size does propose challenges in terms of computational resources."
+  - **Evidence pointer** Section "Transcription factor networks"; location not provided
+  - **Concern** The discussion of single-cell TRN inference is superficial. The manuscript mentions challenges such as dropout and computational resources but does not discuss specific solutions or recent developments in the field, such as imputation methods, pseudotime-based approaches, or the use of variational autoencoders for single-cell data. The claim that "bulk methods... can fail to complete" on single-cell data is presented without examples or discussion of scalability issues.
+  - **Why it matters** Single-cell TRN inference is a rapidly evolving area with unique challenges and solutions. A review that mentions this area but does not provide substantive discussion misses an opportunity to guide readers and may give an incomplete picture of the state of the art.
+  - **Resolution test** Expand the discussion of single-cell-specific methods and challenges, including specific examples of how methods have been adapted or developed for single-cell data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Section "Transcription factor networks"; location not provided
+  - **Issue** The manuscript introduces a distinction between GCNs, GRNs, and TRNs but the definitions are somewhat buried in the text. The distinction is useful but could be presented more prominently and clearly.
+  - **Required correction** Consider presenting the definitions in a table or boxed text for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Sections on MPRA and CRISPR; location not provided
+  - **Issue** The discussion of MPRA and CRISPR methods focuses on their capabilities but gives limited attention to their limitations, such as the episomal context of traditional MPRA (though this is mentioned), the potential for off-target effects in CRISPR screens, and the challenges of scaling these assays.
+  - **Required correction** Add a more balanced discussion of limitations for each method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Structure
+  - **Evidence pointer** Section "Applying machine learning techniques to decipher the cis-regulatory code"; location not provided
+  - **Issue** The section on machine learning is a list of methods and tools without a clear narrative or comparative framework. It reads as a catalog rather than a critical review.
+  - **Required correction** Consider reorganizing the section around key questions or challenges, such as interpretability, data requirements, or generalization across cell types.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Statement about STARR-seq
+  - **Evidence pointer** Section "MPRAs and STARR-seq in gene regulation research"; location not provided
+  - **Issue** The statement that STARR-seq "can detect enhancer activity within inaccessible chromatin regions" is potentially misleading. STARR-seq is typically performed on fragmented DNA and does not directly assess chromatin accessibility; the detection of activity in regions that are inaccessible in the native context may reflect the assay conditions rather than endogenous function.
+  - **Required correction** Clarify that STARR-seq identifies enhancer activity in a plasmid context and that overlap with inaccessible chromatin may indicate latent enhancer potential.
+- **Technical failings that need to be addressed before the case is established** The manuscript does not provide quantitative evidence for claims about the relative performance of different methods. The lack of figures and tables in the provided material prevents assessment of whether the illustrative content adequately supports the text. The review would benefit from a more critical and comparative approach rather than a descriptive listing of methods.
+- **Assessment against Nature-style criteria** 
+  - Originality: The review covers a broad and well-trodden area. While it touches on recent developments, it does not offer a novel framework or perspective that would distinguish it from existing reviews. The originality is limited.
+  - Scientific importance: The topic is important, and the review highlights relevant recent work. However, the lack of critical synthesis and quantitative comparisons reduces its potential impact as a reference.
+  - Interdisciplinary readership: The review spans molecular biology, genomics, and computational biology, which is appropriate for the journal. However, the accessibility for nonspecialists is limited by unexplained technical jargon.
+  - Technical soundness: The descriptions of methods are generally accurate but lack depth and critical evaluation. Some claims are unsupported by specific evidence.
+  - Readability for nonspecialists: The prose is generally clear but the density of method names without explanation will challenge readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript has the potential to be a useful review, but it requires substantial revision to address the lack of critical synthesis, unsupported performance claims, and accessibility issues.
+
+## Risk / unsupported claims
+- The claim that deep learning methods achieve "higher accuracy" in TRN inference is not supported by specific benchmarks or comparisons.
+- The statistic that "over 90% of disease-associated variants are in non-coding regions" is presented without citation or critical discussion.
+- The statement that STARR-seq can detect enhancer activity in inaccessible chromatin regions is potentially misleading without further clarification.
+- The claim that "bulk methods... can fail to complete" on single-cell datasets is presented without examples or context.
+- The assertion that "the quality of transformer models can be overestimated under certain test scenarios" is mentioned without specific references or evidence.

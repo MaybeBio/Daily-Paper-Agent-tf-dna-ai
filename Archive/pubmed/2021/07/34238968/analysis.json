@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34238968",
+  "title": "Early prediction of neoadjuvant chemotherapy response by exploiting a transfer learning approach on breast DCE-MRIs.",
+  "authors": "Comes, Maria Colomba; Fanizzi, Annarita; Bove, Samantha; Didonna, Vittorio; Diotaiuti, Sergio; La Forgia, Daniele; Latorre, Agnese; Martinelli, Eugenio; Mencattini, Arianna; Nardone, Annalisa; Paradiso, Angelo Virgilio; Ressa, Cosmo Maurizio; Tamborra, Pasquale; Lorusso, Vito; Massafra, Raffaella",
+  "journal": "Scientific reports",
+  "published_date": "2021-07-10",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用迁移学习预测乳腺癌新辅助化疗反应，属于医学影像分类，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "The dynamic contrast-enhanced MR imaging plays a crucial role in evaluating the effectiveness of neoadjuvant chemotherapy (NAC) even since its early stage through the prediction of the final pathological complete response (pCR). In this study, we proposed a transfer learning approach to predict if a patient achieved pCR (pCR) or did not (non-pCR) by exploiting, separately or in combination, pre-treatment and early-treatment exams from I-SPY1 TRIAL public database. First, low-level features, i.e., related to local structure of the image, were automatically extracted by a pre-trained convolutional neural network (CNN) overcoming manual feature extraction. Next, an optimal set of most stable features was detected and then used to design an SVM classifier. A first subset of patients, called fine-tuning dataset (30 pCR; 78 non-pCR), was used to perform the optimal choice of features. A second subset not involved in the feature selection process was employed as an independent test (7 pCR; 19 non-pCR) to validate the model. By combining the optimal features extracted from both pre-treatment and early-treatment exams with some clinical features, i.e., ER, PgR, HER2 and molecular subtype, an accuracy of 91.4% and 92.3%, and an AUC value of 0.93 and 0.90, were returned on the fine-tuning dataset and the independent test, respectively. Overall, the low-level CNN features have an important role in the early evaluation of the NAC efficacy by predicting pCR. The proposed model represents a first effort towards the development of a clinical support tool for an early prediction of pCR to NAC.",
+  "abstract_zh": "动态增强磁共振成像（dynamic contrast-enhanced MR imaging）在评估新辅助化疗（neoadjuvant chemotherapy, NAC）疗效中发挥着关键作用，即使在其早期阶段，也能通过预测最终的病理完全缓解（pathological complete response, pCR）来实现。在本研究中，我们提出了一种迁移学习方法，通过分别或组合利用I-SPY1 TRIAL公共数据库中的治疗前和早期治疗检查，来预测患者是否达到pCR（pCR）或未达到（non-pCR）。首先，通过预训练的卷积神经网络（convolutional neural network, CNN）自动提取低级特征，即与图像局部结构相关的特征，从而克服了手动特征提取的局限。接着，检测出一组最优的最稳定特征，并用于设计SVM分类器。第一组患者子集，称为微调数据集（30例pCR；78例non-pCR），用于进行特征的最优选择。第二组未参与特征选择过程的子集作为独立测试集（7例pCR；19例non-pCR）来验证模型。通过将治疗前和早期治疗检查中提取的最优特征与一些临床特征（即ER、PgR、HER2和分子亚型）相结合，在微调数据集和独立测试集上分别获得了91.4%和92.3%的准确率，以及0.93和0.90的AUC值。总体而言，低级CNN特征在通过预测pCR来早期评估NAC疗效中发挥着重要作用。所提出的模型代表了向开发用于早期预测NAC后pCR的临床支持工具迈出的初步努力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34238968/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34238968/",
+  "paper_page_path": "papers/pubmed/34238968/index.html"
+}

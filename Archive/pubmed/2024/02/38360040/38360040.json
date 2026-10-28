@@ -1,0 +1,530 @@
+{
+  "identity": {
+    "pmid": "38360040",
+    "doi": "10.1136/jitc-2023-007987",
+    "title": "Machine learning analysis of pathological images to predict 1-year progression-free survival of immunotherapy in patients with small-cell lung cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In small-cell lung cancer (SCLC), the tumor immune microenvironment (TIME) could be a promising biomarker for immunotherapy, but objectively evaluating TIME remains challenging. Hence, we aimed to develop a predictive biomarker of immunotherapy efficacy through a machine learning analysis of the TIME. METHODS: We conducted a biomarker analysis in a prospective study of patients with extensive-stage SCLC who received chemoimmunotherapy as the first-line treatment. We trained a model to predict 1-year progression-free survival (PFS) using pathological images (H&E, programmed cell death-ligand 1 (PD-L1), and double immunohistochemical assay (cluster of differentiation 8 (CD8) and forkhead box P3 (FoxP3)) and patient information. The primary outcome was the mean area under the curve (AUC) of machine learning models in predicting the 1-year PFS. RESULTS: We analyzed 100,544 patches of pathological images from 78 patients. The mean AUC values of patient information, pathological image, and combined models were 0.789 (range 0.571-0.982), 0.782 (range 0.750-0.911), and 0.868 (range 0.786-0.929), respectively. The PFS was longer in the high efficacy group than in the low efficacy group in all three models (patient information model, HR 0.468, 95% CI 0.287 to 0.762; pathological image model, HR 0.334, 95% CI 0.117 to 0.628; combined model, HR 0.353, 95% CI 0.195 to 0.637). The machine learning analysis of the TIME had better accuracy than the human count evaluations (AUC of human count, CD8-positive lymphocyte: 0.681, FoxP3-positive lymphocytes: 0.626, PD-L1 score: 0.567). CONCLUSIONS: The spatial analysis of the TIME using machine learning predicted the immunotherapy efficacy in patients with SCLC, thus supporting its role as an immunotherapy biomarker.",
+    "keywords": [
+      "Computational Biology",
+      "Immune Checkpoint Inhibitors",
+      "Lung Neoplasms",
+      "Tumor Biomarkers",
+      "Tumor Microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lung Neoplasms/drug therapy",
+      "*Carcinoma, Non-Small-Cell Lung/pathology",
+      "Progression-Free Survival",
+      "B7-H1 Antigen",
+      "Prospective Studies",
+      "*Small Cell Lung Carcinoma/therapy",
+      "Biomarkers, Tumor/analysis",
+      "Immunotherapy/methods",
+      "Machine Learning",
+      "Forkhead Transcription Factors",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shibaki, Ryota",
+        "Fujimoto, Daichi",
+        "Nozawa, Tsukasa",
+        "Sano, Akira",
+        "Kitamura, Yuka",
+        "Fukuoka, Junya",
+        "Sato, Yuki",
+        "Kijima, Takashi",
+        "Matsumoto, Hirotaka",
+        "Yokoyama, Toshihide",
+        "Miura, Satoru",
+        "Hata, Akito",
+        "Tamiya, Motohiro",
+        "Taniguchi, Yoshihiko",
+        "Sugisaka, Jun",
+        "Furuya, Naoki",
+        "Tanaka, Hisashi",
+        "Yamamoto, Nobuyuki",
+        "Koh, Yasuhiro",
+        "Akamatsu, Hiroaki"
+      ],
+      "short_names": [
+        "Shibaki R",
+        "Fujimoto D",
+        "Nozawa T",
+        "Sano A",
+        "Kitamura Y",
+        "Fukuoka J",
+        "Sato Y",
+        "Kijima T",
+        "Matsumoto H",
+        "Yokoyama T",
+        "Miura S",
+        "Hata A",
+        "Tamiya M",
+        "Taniguchi Y",
+        "Sugisaka J",
+        "Furuya N",
+        "Tanaka H",
+        "Yamamoto N",
+        "Koh Y",
+        "Akamatsu H"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-6094-4858",
+        "ORCID: 0000-0003-4249-4021",
+        "ORCID: 0000-0001-7868-6661"
+      ],
+      "affiliations": [
+        "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan.",
+        "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan daichi@wakayama-med.ac.jp.",
+        "ExaWizards Inc, Tokyo, Japan.",
+        "ExaWizards Inc, Tokyo, Japan.",
+        "Department of pathology informatics, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of pathology informatics, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan.",
+        "Department of Respiratory Medicine, Kobe City Medical Center General Hospital, Hyogo, Japan.",
+        "Department of Respiratory Medicine and Hematology, Hyogo Medical University, Hyogo, Japan.",
+        "Department of Respiratory Medicine, Hyogo Prefectural Amagasaki General Medical Center, Hyogo, Japan.",
+        "Department of Respiratory Medicine, Kurashiki Central Hospital, Okayama, Japan.",
+        "Department of Internal Medicine, Niigata Cancer Center Hospital, Niigata, Japan.",
+        "Division of Thoracic Oncology, Kobe Minimally Invasive Cancer Center, Hyogo, Japan.",
+        "Department of Thoracic Oncology, Osaka International Cancer Institute, Osaka, Japan.",
+        "Department of Internal Medicine, NHO Kinki Chuo Chest Medical Center, Osaka, Japan.",
+        "Department of Pulmonary Medicine, Sendai Kousei Hospital, Miyagi, Japan.",
+        "Division of Respiratory Medicine, Department of Internal Medicine, St. Marianna University School of Medicine, Kanagawa, Japan.",
+        "Department of Respiratory Medicine, Hirosaki University Graduate School of Medicine, Hirosaki, Aomori, Japan.",
+        "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan.",
+        "Center for Biomedical Sciences, Wakayama Medical University, Wakayama, Japan.",
+        "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan.",
+        "Center for Biomedical Sciences, Wakayama Medical University, Wakayama, Japan.",
+        "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shibaki, Ryota",
+        "short_name": "Shibaki R",
+        "identifiers": [],
+        "affiliations": [
+          "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Fujimoto, Daichi",
+        "short_name": "Fujimoto D",
+        "identifiers": [
+          "0009-0002-6094-4858"
+        ],
+        "affiliations": [
+          "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan daichi@wakayama-med.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Nozawa, Tsukasa",
+        "short_name": "Nozawa T",
+        "identifiers": [],
+        "affiliations": [
+          "ExaWizards Inc, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sano, Akira",
+        "short_name": "Sano A",
+        "identifiers": [],
+        "affiliations": [
+          "ExaWizards Inc, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kitamura, Yuka",
+        "short_name": "Kitamura Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of pathology informatics, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Fukuoka, Junya",
+        "short_name": "Fukuoka J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of pathology informatics, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Sato, Yuki",
+        "short_name": "Sato Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Kobe City Medical Center General Hospital, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kijima, Takashi",
+        "short_name": "Kijima T",
+        "identifiers": [
+          "0000-0003-4249-4021"
+        ],
+        "affiliations": [
+          "Department of Respiratory Medicine and Hematology, Hyogo Medical University, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsumoto, Hirotaka",
+        "short_name": "Matsumoto H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Hyogo Prefectural Amagasaki General Medical Center, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yokoyama, Toshihide",
+        "short_name": "Yokoyama T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Kurashiki Central Hospital, Okayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Miura, Satoru",
+        "short_name": "Miura S",
+        "identifiers": [
+          "0000-0001-7868-6661"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Niigata Cancer Center Hospital, Niigata, Japan."
+        ]
+      },
+      {
+        "full_name": "Hata, Akito",
+        "short_name": "Hata A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Thoracic Oncology, Kobe Minimally Invasive Cancer Center, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Tamiya, Motohiro",
+        "short_name": "Tamiya M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Osaka International Cancer Institute, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Taniguchi, Yoshihiko",
+        "short_name": "Taniguchi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, NHO Kinki Chuo Chest Medical Center, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugisaka, Jun",
+        "short_name": "Sugisaka J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary Medicine, Sendai Kousei Hospital, Miyagi, Japan."
+        ]
+      },
+      {
+        "full_name": "Furuya, Naoki",
+        "short_name": "Furuya N",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Respiratory Medicine, Department of Internal Medicine, St. Marianna University School of Medicine, Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Hisashi",
+        "short_name": "Tanaka H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Hirosaki University Graduate School of Medicine, Hirosaki, Aomori, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamamoto, Nobuyuki",
+        "short_name": "Yamamoto N",
+        "identifiers": [],
+        "affiliations": [
+          "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan.",
+          "Center for Biomedical Sciences, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Koh, Yasuhiro",
+        "short_name": "Koh Y",
+        "identifiers": [],
+        "affiliations": [
+          "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan.",
+          "Center for Biomedical Sciences, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Akamatsu, Hiroaki",
+        "short_name": "Akamatsu H",
+        "identifiers": [],
+        "affiliations": [
+          "Internal Medicine Ⅲ, Wakayama Medical University, Wakayama, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal for immunotherapy of cancer"
+    ],
+    "journal_abbrev": [
+      "J Immunother Cancer"
+    ],
+    "pub_date": "2024 Feb 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/16 00:42",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42459675",
+      "42088381",
+      "41674955",
+      "41158400",
+      "40647543",
+      "40386724",
+      "40358752",
+      "40128015",
+      "39763611",
+      "39358575",
+      "39138341"
+    ],
+    "refs": [
+      "37922931",
+      "36826813",
+      "36701150",
+      "35661148",
+      "35612853",
+      "35585090",
+      "35271299",
+      "35090594",
+      "34172722",
+      "33482121",
+      "33439693",
+      "33208341",
+      "33051342",
+      "32461698",
+      "32417680",
+      "32385277",
+      "31912902",
+      "31719058",
+      "31590988",
+      "31399699",
+      "31290993",
+      "30762312",
+      "30318143",
+      "30280641",
+      "30028179",
+      "29990622",
+      "29988129",
+      "29658856",
+      "28888101",
+      "28465554",
+      "28177181",
+      "27718847",
+      "27552095",
+      "26787825",
+      "25965356",
+      "24600387",
+      "24157572",
+      "24138885",
+      "22674334",
+      "22583114",
+      "16476504"
+    ],
+    "similar": [
+      "38360040",
+      "34006632",
+      "31290993",
+      "40329352",
+      "33058504",
+      "36394839",
+      "33500713",
+      "35615798",
+      "38750370",
+      "39724105",
+      "39127923",
+      "33655698",
+      "39538166",
+      "30337185",
+      "39626945",
+      "37730276",
+      "30120041",
+      "39787635",
+      "32988161",
+      "32636239",
+      "39455880",
+      "39615893",
+      "37865396",
+      "30077124",
+      "33082168",
+      "39905663",
+      "33316104",
+      "39723204",
+      "40075326",
+      "38641349",
+      "36331328",
+      "33839362",
+      "34061904",
+      "33059196",
+      "31773516",
+      "38254087",
+      "33930176",
+      "36948245",
+      "37161541",
+      "32047958",
+      "37244159",
+      "39151386",
+      "38057736",
+      "31982822",
+      "27602763",
+      "39752605",
+      "38625495",
+      "33465302",
+      "38124739",
+      "29269008",
+      "39358575",
+      "38233798",
+      "39556888",
+      "39085146",
+      "33819965",
+      "37197440",
+      "33979899",
+      "40240495",
+      "34376553",
+      "39189250",
+      "38496688",
+      "34517693",
+      "36773776",
+      "38781965",
+      "32610210",
+      "33927719",
+      "32335185",
+      "36420269",
+      "37554310",
+      "31060602",
+      "30978241",
+      "34297160",
+      "38915398",
+      "38287356",
+      "38964333",
+      "28832075",
+      "34732416",
+      "39085788",
+      "38126740",
+      "37422576",
+      "34114477",
+      "32910245",
+      "39315096",
+      "37970475",
+      "31432460",
+      "31030326",
+      "36430974",
+      "33837261",
+      "32944405",
+      "38840327",
+      "36002182",
+      "40234811",
+      "39482992",
+      "39240302",
+      "32400056",
+      "33388161",
+      "39076994",
+      "35811500",
+      "31719056",
+      "34423578"
+    ],
+    "review": [
+      "38360040",
+      "31290993",
+      "33058504",
+      "33316104",
+      "33930176",
+      "37161541",
+      "31982822",
+      "38625495",
+      "33465302",
+      "37554310",
+      "34297160",
+      "38915398",
+      "34114477",
+      "31432460",
+      "36430974",
+      "32944405",
+      "38840327",
+      "33388161",
+      "34423578"
+    ],
+    "pmc": [
+      "10875545"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jitc.bmj.com/lookup/pmidlookup?view=long&pmid=38360040",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38360040/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38360040",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38360040",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

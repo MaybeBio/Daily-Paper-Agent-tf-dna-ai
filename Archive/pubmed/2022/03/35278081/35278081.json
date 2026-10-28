@@ -1,0 +1,504 @@
+{
+  "identity": {
+    "pmid": "35278081",
+    "doi": "10.1093/ibd/izab350",
+    "title": "Artificial Intelligence Program to Predict p53 Mutations in Ulcerative Colitis-Associated Cancer or Dysplasia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The diagnosis of colitis-associated cancer or dysplasia is important in the treatment of ulcerative colitis. Immunohistochemistry of p53 along with hematoxylin and eosin (H&E) staining is conventionally used to accurately diagnose the pathological conditions. However, evaluation of p53 immunohistochemistry in all biopsied specimens is expensive and time-consuming for pathologists. In this study, we aimed to develop an artificial intelligence program using a deep learning algorithm to investigate and predict p53 immunohistochemical staining from H&E-stained slides. METHODS: We cropped 25 849 patches from whole-slide images of H&E-stained slides with the corresponding p53-stained slides. These slides were prepared from samples of 12 patients with colitis-associated neoplasia who underwent total colectomy. We annotated all glands in the whole-slide images of the H&E-stained slides and grouped them into 3 classes: p53 positive, p53 negative, and p53 null. We used 80% of the patches for training a convolutional neural network (CNN), 10% for validation, and 10% for final testing. RESULTS: The trained CNN glands were classified into 2 or 3 classes according to p53 positivity, with a mean average precision of 0.731 to 0.754. The accuracy, sensitivity (recall), specificity, positive predictive value (precision), and F-measure of the prediction of p53 immunohistochemical staining of the glands detected by the trained CNN were 0.86 to 0.91, 0.73 to 0.83, 0.91 to 0.92, 0.82 to 0.89, and 0.77 to 0.86, respectively. CONCLUSIONS: Our trained CNN can be used as a reasonable alternative to conventional p53 immunohistochemical staining in the pathological diagnosis of colitis-associated neoplasia, which is accurate, saves time, and is cost-effective.",
+    "keywords": [
+      "artificial intelligence",
+      "colitis-associated neoplasia",
+      "diagnostic program",
+      "p53 positivity",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "Artificial Intelligence",
+      "*Colitis, Ulcerative/complications/genetics/pathology",
+      "*Colitis-Associated Neoplasms",
+      "Humans",
+      "Hyperplasia/complications",
+      "Mutation",
+      "*Neoplasms/complications",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Noguchi, Tatsuki",
+        "Ando, Takumi",
+        "Emoto, Shigenobu",
+        "Nozawa, Hiroaki",
+        "Kawai, Kazushige",
+        "Sasaki, Kazuhito",
+        "Murono, Koji",
+        "Kishikawa, Junko",
+        "Ishi, Hiroaki",
+        "Yokoyama, Yuichiro",
+        "Abe, Shinya",
+        "Nagai, Yuzo",
+        "Anzai, Hiroyuki",
+        "Sonoda, Hirofumi",
+        "Hata, Keisuke",
+        "Sasaki, Takeshi",
+        "Ishihara, Soichiro"
+      ],
+      "short_names": [
+        "Noguchi T",
+        "Ando T",
+        "Emoto S",
+        "Nozawa H",
+        "Kawai K",
+        "Sasaki K",
+        "Murono K",
+        "Kishikawa J",
+        "Ishi H",
+        "Yokoyama Y",
+        "Abe S",
+        "Nagai Y",
+        "Anzai H",
+        "Sonoda H",
+        "Hata K",
+        "Sasaki T",
+        "Ishihara S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1297-0699",
+        "ORCID: 0000-0003-4064-8701"
+      ],
+      "affiliations": [
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Pathology, University of Tokyo, Tokyo, Japan.",
+        "Department of Next-Generation Pathology Information Networking, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan.",
+        "Department of Pathology, University of Tokyo, Tokyo, Japan.",
+        "Department of Next-Generation Pathology Information Networking, University of Tokyo, Tokyo, Japan.",
+        "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Noguchi, Tatsuki",
+        "short_name": "Noguchi T",
+        "identifiers": [
+          "0000-0003-1297-0699"
+        ],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ando, Takumi",
+        "short_name": "Ando T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Tokyo, Tokyo, Japan.",
+          "Department of Next-Generation Pathology Information Networking, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Emoto, Shigenobu",
+        "short_name": "Emoto S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Nozawa, Hiroaki",
+        "short_name": "Nozawa H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kawai, Kazushige",
+        "short_name": "Kawai K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sasaki, Kazuhito",
+        "short_name": "Sasaki K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Murono, Koji",
+        "short_name": "Murono K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kishikawa, Junko",
+        "short_name": "Kishikawa J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishi, Hiroaki",
+        "short_name": "Ishi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yokoyama, Yuichiro",
+        "short_name": "Yokoyama Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Abe, Shinya",
+        "short_name": "Abe S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Nagai, Yuzo",
+        "short_name": "Nagai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Anzai, Hiroyuki",
+        "short_name": "Anzai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sonoda, Hirofumi",
+        "short_name": "Sonoda H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Hata, Keisuke",
+        "short_name": "Hata K",
+        "identifiers": [
+          "0000-0003-4064-8701"
+        ],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sasaki, Takeshi",
+        "short_name": "Sasaki T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Tokyo, Tokyo, Japan.",
+          "Department of Next-Generation Pathology Information Networking, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishihara, Soichiro",
+        "short_name": "Ishihara S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, University of Tokyo, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammatory bowel diseases"
+    ],
+    "journal_abbrev": [
+      "Inflamm Bowel Dis"
+    ],
+    "pub_date": "2022 Jul 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/13 06:00",
+    "fetched_at": "2026-09-28 06:03:24"
+  },
+  "links": {
+    "cites": [
+      "42450092",
+      "42268244",
+      "41976841",
+      "41857729",
+      "41857227",
+      "41809465",
+      "41700159",
+      "41676098",
+      "40959426",
+      "40718706",
+      "40597706",
+      "40556746",
+      "40275746",
+      "40098604",
+      "40074858",
+      "39345902",
+      "39247718",
+      "37626636",
+      "37518274",
+      "37352403"
+    ],
+    "refs": [],
+    "similar": [
+      "35278081",
+      "24886509",
+      "12725330",
+      "24029705",
+      "37515411",
+      "12818291",
+      "32953248",
+      "28621756",
+      "33909150",
+      "33328045",
+      "10435567",
+      "37527779",
+      "11865380",
+      "21509910",
+      "12229164",
+      "9735666",
+      "36841434",
+      "15067728",
+      "10022646",
+      "32295888",
+      "39422217",
+      "35513774",
+      "11737306",
+      "18314606",
+      "11950911",
+      "17285596",
+      "27407732",
+      "19103203",
+      "32432709",
+      "8500720",
+      "14598247",
+      "25333414",
+      "34354733",
+      "36888621",
+      "33576323",
+      "32663285",
+      "8495305",
+      "30994228",
+      "12533829",
+      "7610353",
+      "9468583",
+      "11223540",
+      "33014803",
+      "8563884",
+      "39409892",
+      "28884228",
+      "27567189",
+      "10931232",
+      "8160776",
+      "30254411",
+      "34597671",
+      "18228558",
+      "27578918",
+      "21618350",
+      "7611778",
+      "14991492",
+      "15893280",
+      "15378773",
+      "9027653",
+      "2452723",
+      "10571818",
+      "33089869",
+      "8537051",
+      "12203775",
+      "39284932",
+      "29411405",
+      "38791889",
+      "31348505",
+      "35941800",
+      "14671483",
+      "9177146",
+      "11052476",
+      "32238879",
+      "10452501",
+      "31129383",
+      "16444378",
+      "36237543",
+      "9533753",
+      "37712321",
+      "15228225",
+      "31826599",
+      "33025294",
+      "34716754",
+      "31325876",
+      "16206288",
+      "12827612",
+      "21425209",
+      "36675952",
+      "32758706",
+      "37257824",
+      "37880949",
+      "18050970",
+      "11089596",
+      "7927312",
+      "38619651",
+      "10213117",
+      "15747078",
+      "36721878",
+      "27688929",
+      "17016603",
+      "14563184",
+      "36551720",
+      "10323884",
+      "33039706",
+      "10464383",
+      "30268542",
+      "39059545",
+      "22034886",
+      "11761024",
+      "18172251",
+      "2793156",
+      "2800882",
+      "36890209",
+      "36065012",
+      "32903653",
+      "34908807",
+      "36135637",
+      "36641379",
+      "36162012",
+      "36330383",
+      "36198869",
+      "36011133",
+      "38396472",
+      "36691055",
+      "39360579",
+      "36353548",
+      "38148967",
+      "38132269",
+      "39197433",
+      "36798940",
+      "35469069",
+      "35274903",
+      "33343993",
+      "38460608",
+      "36195956",
+      "36523610",
+      "35242448",
+      "34881099",
+      "35905641",
+      "34368439",
+      "37877208",
+      "38241314",
+      "35644123",
+      "36683726",
+      "35242446",
+      "38066073",
+      "38633803",
+      "38384407",
+      "35342954",
+      "38752165",
+      "35443570",
+      "36825084",
+      "37790315",
+      "34541020",
+      "37101624",
+      "33557152",
+      "35070481",
+      "37860768",
+      "38961276",
+      "36970330",
+      "32377574",
+      "34262235",
+      "34638322",
+      "35792413",
+      "39024079",
+      "35884502",
+      "23887293",
+      "38033942"
+    ],
+    "review": [
+      "35278081",
+      "28621756",
+      "30994228",
+      "9177146",
+      "38619651",
+      "35274903",
+      "35342954"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/35278081.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/ibdjournal/article-lookup/doi/10.1093/ibd/izab350",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

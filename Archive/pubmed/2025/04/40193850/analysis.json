@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40193850",
+  "title": "Role of pore dilation in molecular transport through the nuclear pore complex: Insights from polymer scaling theory.",
+  "authors": "Matsuda, Atsushi; Mofrad, Mohammad R K",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-04-07",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过聚合物标度理论和布朗动力学模拟研究核孔复合物孔径扩张对分子运输的影响，虽非直接TF-DNA结合，但涉及转录因子等蛋白通过NPC的转运机制，其建模方法可迁移至TF-DNA互作研究。",
+  "abstract": "The nuclear pore complex (NPC), a channel within the nuclear envelope filled with intrinsically disordered proteins, regulates the transport of macromolecules between the nucleus and the cytoplasm. Recent studies have highlighted the NPC's ability to adjust its diameter in response to the membrane tension, underscoring the importance of exploring how variations in pore size influence molecular transport through the NPC. In this study, we investigated the relationship between pore size and transport rate and proposed a mathematical model describing this connection. We began by theoretically analyzing how the pore size scales with the characteristic dimensions of the mesh-like structure within the pore. By introducing key assumptions about how the meshwork structure influences molecular diffusion, we derived a mathematical expression for the transport rate based on the size of the pore and the transported molecules. To validate our model, we conducted Brownian dynamics simulations using a coarse-grained representation of the NPC. These simulations, performed across a range of pore sizes, demonstrated strong agreement with our model's predictions, confirming its accuracy and applicability. Our model is specifically tailored for small-to-medium-sized molecules, approximately 5 nanometers in size, making it relevant to a wide range of transcription factors and signaling molecules. It also extends to molecules with weak and transient interactions with FG-Nups, such as importin-beta. By presenting this model formula, our study offers a quantitative framework for analyzing the effects of pore dilation on nucleocytoplasmic transport.",
+  "abstract_zh": "核孔复合体（NPC）是核膜内充满固有无序蛋白的通道，调控大分子在细胞核与细胞质之间的转运。近期研究强调了NPC响应膜张力而调节其直径的能力，凸显了探索孔径变化如何影响通过NPC的分子转运的重要性。在本研究中，我们考察了孔径与转运速率之间的关系，并提出了一种描述这一联系的数学模型。我们首先从理论上分析了孔径如何随孔内网状结构的特征尺寸进行缩放。通过引入关于网状结构如何影响分子扩散的关键假设，我们推导出基于孔径和转运分子尺寸的转运速率数学表达式。为验证我们的模型，我们使用NPC的粗粒化表示进行了布朗动力学模拟。这些模拟在多种孔径范围内进行，结果与模型预测高度一致，确认了其准确性和适用性。我们的模型特别适用于约5纳米大小的小至中等尺寸分子，使其与多种转录因子和信号分子相关。它还扩展到与FG-Nups发生弱且瞬时相互作用的分子，如importin-beta。通过呈现这一模型公式，我们的研究为分析孔径扩张对核质转运的影响提供了定量框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40193850/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40193850/",
+  "paper_page_path": "papers/pubmed/40193850/index.html"
+}

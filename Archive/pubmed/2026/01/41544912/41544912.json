@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "41544912",
+    "doi": "10.1016/j.jbi.2026.104985",
+    "title": "DMDGRN: A data augmentation-based multilayer directed graph convolutional network for gene regulatory network inference."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Gene regulatory networks (GRNs) provide a graphical representation of the regulatory interactions between transcription factors (TFs) and their target genes, governing transcriptional states that define cell identity and function. Deciphering GRNs is fundamental for deciphering disease pathogenesis and remains a central challenge in systems biology. Graph neural network-based methods have made significant progress in GRN inference in recent years due to their exceptional ability to model graph-structured biological data. However, the inherent characteristics of GRNs usually have been ignored, including the directionality, the sparsity and abundant high-order regulatory interactions of GRNs. METHODS: In this study, we propose DMDGRN, a data augmentation-based multilayer directed graph convolutional network for GRN inference. To capture the direction of GRNs, DMDGRN employs phase matrix to construct the Laplacian operator, which can track message propagation pathways. Considering the inherent sparsity of known GRNs, DMDGRN incorporates data augmentation techniques to overcome the network sparsity. Moreover, DMDGRN adopts a multilayer directed network architecture with residual connections to extract higher-order neighborhood information. RESULTS: Comprehensive evaluations on benchmark datasets demonstrate that DMDGRN significantly improves GRN inference accuracy. Notably, the application on breast cancer shows that our framework successfully identifies relevant therapeutic candidates for human breast cancer. CONCLUSIONS: The findings demonstrate that the strategies we adopted are effective for inferring GRNs. The successful application to breast cancer data further highlights its potential of DMDGRN in uncovering disease-relevant regulatory mechanisms and identifying therapeutic targets, making it a promising tool for advancing both computational biology and translational medicine.",
+    "keywords": [
+      "Data augmentation",
+      "Directed graph convolutional network",
+      "Gene regulatory network",
+      "Sparse graph"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "Graph Neural Networks",
+      "Humans",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "Breast Neoplasms/genetics",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Pi-Jing",
+        "Sun, Mingzhu",
+        "Ding, Zheng",
+        "Cao, Rui-Fen",
+        "Gao, Zhen",
+        "Zheng, Chun-Hou"
+      ],
+      "short_names": [
+        "Wei PJ",
+        "Sun M",
+        "Ding Z",
+        "Cao RF",
+        "Gao Z",
+        "Zheng CH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institute of Physical Science and Information Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institute of Physical Science and Information Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institute of Physical Science and Information Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "School of Computer and Communication Engineering, Changsha University of Science and Technology, 410076 Changsha, China. Electronic address: gaozhenchn@163.com.",
+        "School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China. Electronic address: zhengch99@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Pi-Jing",
+        "short_name": "Wei PJ",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institute of Physical Science and Information Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Mingzhu",
+        "short_name": "Sun M",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institute of Physical Science and Information Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Zheng",
+        "short_name": "Ding Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institute of Physical Science and Information Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Rui-Fen",
+        "short_name": "Cao RF",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zhen",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Communication Engineering, Changsha University of Science and Technology, 410076 Changsha, China. Electronic address: gaozhenchn@163.com."
+        ]
+      },
+      {
+        "full_name": "Zheng, Chun-Hou",
+        "short_name": "Zheng CH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China. Electronic address: zhengch99@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomedical informatics"
+    ],
+    "journal_abbrev": [
+      "J Biomed Inform"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/17 00:36",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41544912",
+      "30547796",
+      "42653305",
+      "40699953",
+      "38935070",
+      "37985457",
+      "38581416",
+      "40251476",
+      "38950180",
+      "41206950",
+      "41554051",
+      "42475469",
+      "40116659",
+      "40708222",
+      "41489955",
+      "42059479",
+      "41317402",
+      "38342857",
+      "40956752",
+      "42335450",
+      "37085776",
+      "42265576",
+      "41067887",
+      "42632029",
+      "39934680",
+      "41883144",
+      "39960893",
+      "39417321",
+      "39401117",
+      "40415678",
+      "41329984",
+      "40670912",
+      "34986805",
+      "39340962",
+      "42614561",
+      "37016281",
+      "42133704",
+      "41775092",
+      "39535258",
+      "41288963",
+      "27479082",
+      "35062026",
+      "37939200",
+      "38996550",
+      "40662821",
+      "42061403",
+      "39082651",
+      "40062616",
+      "41267133",
+      "41465557",
+      "37267145",
+      "24228871",
+      "31617458",
+      "38778003",
+      "27876826",
+      "38963312",
+      "35045805",
+      "38980373",
+      "36450117",
+      "30051742",
+      "42560939",
+      "33294129",
+      "40127172",
+      "37803124",
+      "41675529",
+      "41132794",
+      "38896510",
+      "41871930",
+      "37078865",
+      "40702704",
+      "42024938",
+      "27342648",
+      "37607190",
+      "38879931",
+      "25807392",
+      "37889053",
+      "23497388",
+      "25971253",
+      "39387266",
+      "41704237",
+      "19594874",
+      "20927193",
+      "32697830",
+      "41774282",
+      "37897702",
+      "39605181",
+      "29879919",
+      "28155637",
+      "36464123",
+      "39266676",
+      "29994618",
+      "41394782",
+      "40983951",
+      "35524190",
+      "38261340",
+      "40966655",
+      "39311699",
+      "29219084",
+      "38861487",
+      "32690031"
+    ],
+    "review": [
+      "41544912",
+      "42632029"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1532-0464(26)00009-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

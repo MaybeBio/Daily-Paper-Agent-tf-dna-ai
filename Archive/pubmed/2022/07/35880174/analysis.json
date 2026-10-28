@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35880174",
+  "title": "Inflammation in Preeclampsia: Genetic Biomarkers, Mechanisms, and Therapeutic Strategies.",
+  "authors": "Wang, Yue; Li, Baoxuan; Zhao, Yan",
+  "journal": "Frontiers in immunology",
+  "published_date": "2022-07-27",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该文基于转录组筛选子痫前期炎症相关生物标志物，虽用RcisTarget预测转录因子并做分子对接，但核心是疾病标志物与药物预测，非蛋白质-DNA互作机制建模，与本课题关联较弱。",
+  "abstract": "OBJECTIVE: Preeclampsia is a common and serious complication of pregnancy, posing a threat to maternal and fetal safety due to the lack of effective biomarkers and treatment strategies. This study aimed to identify potential biomarkers that can be used to predict preeclampsia and identify the molecular mechanisms of preeclampsia pathogenesis and drug prediction at the transcriptome level. METHODS: We analyzed differential expression genes (DEGs) in preeclampsia and non-preeclampsia groups in the GSE75010 dataset, cross-linking with extracted inflammatory response-related genes to obtain differentially expressed inflammation-related genes (DINRGs). Enrichment analysis and protein-protein interaction (PPI) networks were constructed to understand the functions and enrichment pathways. Machine learning models were used to identify key genes associated with preeclampsia and build a nomogram in the training set, which was validated in the validation set. The R package RcisTarget was used to predict transcription factors, and Cytoscape was used to construct miRNA-mRNA pathways, which could identify the molecular mechanisms. Then, we conducted molecular docking of the obtained key genes INHBA (inhibin subunit beta A), OPRK1 (opioid receptor kappa 1), and TPBG (trophoblast glycoprotein), as well as predicted transcription factors with drug molecules. Additionally, the CIBERSORT method explored the differences in immune cell infiltration between preeclampsia and non-preeclampsia samples based on the GSE75010 dataset. RESULTS: A total of 69 DINRGs associated with preeclampsia patients were screened. INHBA, OPRK1, and TPBG were the key genes based on machine learning models. A nomogram for prediction was further constructed, and the receiver operating curves (ROCs) showed good performance. Based on the transcriptome level of key genes, we proposed that RELA-miR-548K/miR-1206-TPBG may be a potential RNA regulatory pathway regulating the progression of early preeclampsia. Molecular docking suggested the effectiveness of curcumin in the treatment of preeclampsia. Additionally, regulatory T cells (Tregs) and resting mast cells were significantly different between the two groups. CONCLUSION: In summary, we identified three key inflammation-associated genes, namely INHBA, OPRK1, and TPBG, which can be used as potential genetic biomarkers for preeclampsia prediction and treatment, and established a nomogram as a predictive model. Additionally, we provided insights into the mechanisms of preeclampsia development at the transcriptome level and performed corresponding drug predictions.",
+  "abstract_zh": "目的：子痫前期是一种常见且严重的妊娠并发症，由于缺乏有效的生物标志物和治疗策略，对母婴安全构成威胁。本研究旨在识别可用于预测子痫前期的潜在生物标志物，并在转录组水平上阐明子痫前期发病的分子机制及药物预测。方法：我们分析了GSE75010数据集中子痫前期与非子痫前期组的差异表达基因（DEGs），并与提取的炎症反应相关基因交叉，获得差异表达的炎症相关基因（DINRGs）。通过富集分析和蛋白质-蛋白质相互作用（PPI）网络构建，以了解其功能和富集通路。使用机器学习模型识别与子痫前期相关的关键基因，并在训练集中构建列线图，在验证集中进行验证。利用R包RcisTarget预测转录因子，并使用Cytoscape构建miRNA-mRNA通路，以识别分子机制。随后，我们对获得的关键基因INHBA（抑制素亚基βA）、OPRK1（阿片受体κ1）和TPBG（滋养层糖蛋白）以及预测的转录因子进行了药物分子对接。此外，基于GSE75010数据集，采用CIBERSORT方法探讨了子痫前期与非子痫前期样本间免疫细胞浸润的差异。结果：共筛选出69个与子痫前期患者相关的DINRGs。基于机器学习模型，INHBA、OPRK1和TPBG为关键基因。进一步构建了预测列线图，受试者工作特征曲线（ROCs）显示出良好性能。基于关键基因的转录组水平，我们提出RELA-miR-548K/miR-1206-TPBG可能是调控早期子痫前期进展的潜在RNA调控通路。分子对接提示姜黄素在子痫前期治疗中的有效性。此外，调节性T细胞（Tregs）和静息肥大细胞在两组间存在显著差异。结论：总之，我们识别了三个关键炎症相关基因，即INHBA、OPRK1和TPBG，可作为子痫前期预测和治疗的潜在遗传生物标志物，并建立了列线图作为预测模型。此外，我们在转录组水平上提供了子痫前期发生机制的见解，并进行了相应的药物预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35880174/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35880174/",
+  "paper_page_path": "papers/pubmed/35880174/index.html"
+}

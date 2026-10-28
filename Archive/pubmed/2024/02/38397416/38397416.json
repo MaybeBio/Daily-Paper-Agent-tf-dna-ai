@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "38397416",
+    "doi": "10.3390/biom14020179",
+    "title": "Identifying OGN as a Biomarker Covering Multiple Pathogenic Pathways for Diagnosing Heart Failure: From Machine Learning to Mechanism Interpretation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The pathophysiologic heterogeneity of heart failure (HF) necessitates a more detailed identification of diagnostic biomarkers that can reflect its diverse pathogenic pathways. METHODS: We conducted weighted gene and multiscale embedded gene co-expression network analysis on differentially expressed genes obtained from HF and non-HF specimens. We employed a machine learning integration framework and protein-protein interaction network to identify diagnostic biomarkers. Additionally, we integrated gene set variation analysis, gene set enrichment analysis (GSEA), and transcription factor (TF)-target analysis to unravel the biomarker-dominant pathways. Leveraging single-sample GSEA and molecular docking, we predicted immune cells and therapeutic drugs related to biomarkers. Quantitative polymerase chain reaction validated the expressions of biomarkers in the plasma of HF patients. A two-sample Mendelian randomization analysis was implemented to investigate the causal impact of biomarkers on HF. RESULTS: We first identified COL14A1, OGN, MFAP4, and SFRP4 as candidate biomarkers with robust diagnostic performance. We revealed that regulating biomarkers in HF pathogenesis involves TFs (BNC2, MEOX2) and pathways (cell adhesion molecules, chemokine signaling pathway, cytokine-cytokine receptor interaction, oxidative phosphorylation). Moreover, we observed the elevated infiltration of effector memory CD4+ T cells in HF, which was highly related to biomarkers and could impact immune pathways. Captopril, aldosterone antagonist, cyclopenthiazide, estradiol, tolazoline, and genistein were predicted as therapeutic drugs alleviating HF via interactions with biomarkers. In vitro study confirmed the up-regulation of OGN as a plasma biomarker of HF. Mendelian randomization analysis suggested that genetic predisposition toward higher plasma OGN promoted the risk of HF. CONCLUSIONS: We propose OGN as a diagnostic biomarker for HF, which may advance our understanding of the diagnosis and pathogenesis of HF.",
+    "keywords": [
+      "bioinformatics",
+      "diagnostic biomarker",
+      "heart failure",
+      "pathogenic mechanism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Biomarkers",
+      "Captopril",
+      "Carrier Proteins",
+      "Extracellular Matrix Proteins",
+      "Glycoproteins",
+      "*Heart Failure/diagnosis/genetics",
+      "Intercellular Signaling Peptides and Proteins",
+      "Molecular Docking Simulation",
+      "Oxidative Phosphorylation",
+      "*Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yihao",
+        "Chen, Bin",
+        "Zu, Yao"
+      ],
+      "short_names": [
+        "Zhu Y",
+        "Chen B",
+        "Zu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8081-9136"
+      ],
+      "affiliations": [
+        "International Research Center for Marine Biosciences, Ministry of Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Key Laboratory of Exploration and Utilization of Aquatic Genetic Resources, Ministry of Education, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine (Lin-gang), Shanghai 201306, China.",
+        "International Research Center for Marine Biosciences, Ministry of Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Key Laboratory of Exploration and Utilization of Aquatic Genetic Resources, Ministry of Education, Shanghai Ocean University, Shanghai 201306, China.",
+        "Marine Biomedical Science and Technology Innovation Platform of Lin-gang Special Area, Shanghai 201306, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yihao",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "International Research Center for Marine Biosciences, Ministry of Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+          "Key Laboratory of Exploration and Utilization of Aquatic Genetic Resources, Ministry of Education, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Bin",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine (Lin-gang), Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Zu, Yao",
+        "short_name": "Zu Y",
+        "identifiers": [
+          "0000-0001-8081-9136"
+        ],
+        "affiliations": [
+          "International Research Center for Marine Biosciences, Ministry of Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+          "Key Laboratory of Exploration and Utilization of Aquatic Genetic Resources, Ministry of Education, Shanghai Ocean University, Shanghai 201306, China.",
+          "Marine Biomedical Science and Technology Innovation Platform of Lin-gang Special Area, Shanghai 201306, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2024 Feb 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/24 11:44",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "42563959",
+      "41863696",
+      "41860822",
+      "41782204",
+      "41578355",
+      "41150779",
+      "40868317",
+      "40060963",
+      "39678686",
+      "39496776",
+      "39062199"
+    ],
+    "refs": [
+      "36859608",
+      "36776621",
+      "36548062",
+      "36303835",
+      "36088459",
+      "36071497",
+      "35971878",
+      "35687925",
+      "35644509",
+      "35561164",
+      "35346191",
+      "35145098",
+      "35083827",
+      "34593936",
+      "34584445",
+      "34285580",
+      "34285551",
+      "34218797",
+      "34079012",
+      "34062119",
+      "33852110",
+      "33663906",
+      "33530700",
+      "33469552",
+      "33459785",
+      "33281603",
+      "33238736",
+      "33141515",
+      "32902739",
+      "32856514",
+      "32620106",
+      "31969688",
+      "31915373",
+      "31902369",
+      "31784280",
+      "31748532",
+      "31657881",
+      "31443682",
+      "31312768",
+      "31183637",
+      "31113729",
+      "29663841",
+      "29361464",
+      "29360572",
+      "29164242",
+      "29099853",
+      "29087512",
+      "29037197",
+      "28991892",
+      "28976966",
+      "28958774",
+      "28785469",
+      "28510083",
+      "28446515",
+      "28212715",
+      "27068635",
+      "26771021",
+      "26618778",
+      "26460565",
+      "25990557",
+      "25814236",
+      "25677125",
+      "25528681",
+      "25521941",
+      "25520363",
+      "25352553",
+      "25156856",
+      "24929535",
+      "24372567",
+      "24339868",
+      "23323831",
+      "22906538",
+      "22753213",
+      "22455463",
+      "22206000",
+      "21871578",
+      "21414208",
+      "21059352",
+      "20716671",
+      "20528676",
+      "19499576",
+      "19436016",
+      "19404737",
+      "19156878",
+      "19114008",
+      "18647401",
+      "18480207",
+      "18443592",
+      "16335786",
+      "16199517",
+      "14980016",
+      "14615493",
+      "14610160",
+      "14597658",
+      "12742987",
+      "12693733",
+      "12578875",
+      "11994254",
+      "11108131",
+      "3378660"
+    ],
+    "similar": [
+      "38397416",
+      "39062507",
+      "34218797",
+      "40406620",
+      "41789108",
+      "41189222",
+      "39351221",
+      "39351239",
+      "40617086",
+      "38656659",
+      "40630963",
+      "37390254",
+      "40901835",
+      "37008314",
+      "40789551",
+      "39559355",
+      "40421012",
+      "39143741",
+      "41333919",
+      "40453984",
+      "40782934",
+      "39346628",
+      "41052072",
+      "37275875",
+      "39929468",
+      "39909085",
+      "41393260",
+      "40406126",
+      "37974098",
+      "40405297",
+      "39370621",
+      "40967560",
+      "41836872",
+      "32620106",
+      "38355637",
+      "40611294",
+      "40205951",
+      "41080564",
+      "38699746",
+      "41548166",
+      "40192032",
+      "39427832",
+      "41158506",
+      "41657790",
+      "41773807",
+      "40362543",
+      "39139563",
+      "41731716",
+      "41674945",
+      "40916281",
+      "39574022",
+      "32885678",
+      "41743406",
+      "35367598",
+      "40340571",
+      "41479901",
+      "41477636",
+      "41432483",
+      "41410587",
+      "40196107",
+      "38236461",
+      "38562184",
+      "33259868",
+      "40253457",
+      "41163278",
+      "39717623",
+      "41328587",
+      "41214111",
+      "41415264",
+      "40375290",
+      "36782329",
+      "39717447",
+      "36544902",
+      "36699999",
+      "41678948",
+      "41000338",
+      "40909263",
+      "41879435",
+      "40860289",
+      "36204659",
+      "35346191",
+      "35058712",
+      "41316541",
+      "35227296",
+      "38509983",
+      "38566143",
+      "38089628",
+      "40368512",
+      "41947915",
+      "40540134",
+      "36304554",
+      "38062883",
+      "39950836",
+      "41766874",
+      "40660343",
+      "40374840",
+      "40024421",
+      "39022342",
+      "40355226",
+      "40151199"
+    ],
+    "review": [
+      "38397416",
+      "35367598"
+    ],
+    "pmc": [
+      "10886937"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom14020179",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38397416/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38397416",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

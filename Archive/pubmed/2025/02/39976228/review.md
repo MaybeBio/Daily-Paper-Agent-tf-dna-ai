@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that BCL11B's N-terminal atypical CCHC zinc finger domain (ZF0) forms tetramers, not dimers as previously suggested, and present a new 3D structural model based on replica-exchange molecular dynamics simulations, supported by size exclusion chromatography, crosslinking, circular dichroism spectroscopy, and reinterpretation of prior FRET-FACS data.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion, Conclusion, Author Contributions, Disclosure, Data Availability Statement, Acknowledgments
+- **Missing materials affecting confidence** Figures 1 and 2 are referenced but not provided; Supporting Information (Figures S1–S5, Table S1) is referenced but not provided; prior FRET-FACS data from reference [14] is discussed but not shown; methodological details for simulations (force field, simulation length, convergence criteria) are not fully described in the text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question regarding the oligomeric state of BCL11B, a transcription factor of significant therapeutic interest. The combination of experimental and computational approaches is appropriate and potentially powerful. However, the current text does not provide sufficient detail to fully evaluate the validity of the proposed tetrameric model. Key figures and supporting information are not available in the provided material, and several claims regarding the interpretation of prior data and the stability of the new interfaces require more rigorous support. The manuscript is promising but not yet fully established from the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying BCL11B biology, transcription factor oligomerization, zinc finger protein structure and function, and those interested in therapeutic targeting of transcription factors. The work may also be of interest to computational biologists developing and applying enhanced sampling methods for protein assembly prediction.
+- **Major strengths** The study revisits a previously published model and provides new experimental data (SEC, crosslinking) that challenges the earlier dimer hypothesis. The use of an improved replica-exchange algorithm (TIGER2hPE) and validation against AlphaFold 3 predictions is a strong computational approach. The reinterpretation of prior FRET-FACS data in light of the new model is a thoughtful and transparent exercise. The identification of specific interfaces (IF-α, IF-β, IF-γ) and the proposed stepwise assembly mechanism provide a testable framework for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SEC and crosslinking experiments demonstrate tetramer formation for BCL11B42–94, BCL11B42–220, and BCL11B42–426.
+  - **Evidence pointer** Results and Discussion, Figure 1B–D, Figure S1, Figure S2
+  - **Concern** The SEC data for BCL11B42–94 and BCL11B42–220 indicate "apparent larger complexes" than tetramers, which the authors attribute to shape-dependent elution behavior. However, no calibration or shape-correction analysis is presented in the text. The crosslinking data for the longer constructs (BCL11B42–220, BCL11B42–426) are stated to "not result in the expected display of multimers" and are not shown. The claim that tetramers are the predominant form for all constructs is therefore not directly supported by the visible data.
+  - **Why it matters** The central conclusion of the manuscript is that BCL11B forms tetramers. If the experimental evidence for tetramer formation is ambiguous or incomplete, the proposed model lacks a solid experimental foundation.
+  - **Resolution test** Provide the actual SEC elution profiles with molecular weight standards and a quantitative analysis of the apparent molecular weights. Show the crosslinking data for the longer constructs or explain why they are omitted. If shape effects are invoked, provide independent evidence (e.g., multi-angle light scattering) to support the tetramer assignment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the new 3D structure obtained from TIGER2hPE simulations is "in strong agreement with experimental data."
+  - **Evidence pointer** Results and Discussion, Figure 2, Figures S3–S5, Table S1
+  - **Concern** The simulation methodology is described only briefly. No details are provided on the force field, water model, simulation length, number of replicas, temperature range, or convergence criteria. The agreement with experimental data is asserted but not quantitatively demonstrated. The comparison with AlphaFold 3 is mentioned but the RMSD values are only given as a range without specifying which models or regions were compared.
+  - **Why it matters** The proposed tetrameric structure is the key deliverable of this work. Without detailed methodological information and a rigorous quantitative comparison to experimental data, the structural model cannot be independently assessed or reproduced.
+  - **Resolution test** Provide full simulation parameters in the Methods or Supporting Information. Present a quantitative comparison between the simulated structure and experimental data (e.g., crosslinking distance constraints, mutagenesis effects on stability). Show the AlphaFold 3 comparison in detail, including the specific models used and the regions over which RMSD was calculated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "understanding the nature of BCL11B's multimerization could potentially enhance our ability to target this protein effectively" and that the updated model "opens new opportunities to drug this by now undruggable transcription factor."
+  - **Evidence pointer** Abstract, Introduction, Conclusion
+  - **Concern** The therapeutic implications are stated but not developed. No specific hypotheses are offered regarding how the tetrameric structure could be targeted (e.g., interface inhibitors, peptide mimetics) or how the new model changes the druggability assessment compared to the dimer model. The link between the structural findings and therapeutic potential remains speculative.
+  - **Why it matters** The stated significance of the work partly rests on its therapeutic implications. If these are not substantiated or developed, the broader impact of the study is diminished.
+  - **Resolution test** Add a section discussing specific strategies for targeting the tetramer interfaces and how the new model informs these strategies. Alternatively, temper the claims about therapeutic potential to match the evidence presented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses technical terms (e.g., "Förster Resonance Energy Transfer-assisted Fluorescence-Activated Cell Sorting", "Hybrid Solvent Replica-Exchange Simulations") without brief explanations, which may hinder readers outside the biophysics/computational chemistry community.
+  - **Required correction** Add brief parenthetical explanations for these techniques or rephrase to make the abstract more accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, mutant analysis
+  - **Evidence pointer** Results and Discussion, Figure 1D, Figure S2
+  - **Issue** The authors state that I70A and I74A mutations "resulted in the formation of dimers only" but also note that CD spectra indicate altered folding for these mutants. The text does not clearly distinguish whether the loss of tetramer formation is due to direct disruption of the interface or to global misfolding.
+  - **Required correction** Clarify the interpretation by discussing whether the CD changes are consistent with local interface disruption or global unfolding, and consider additional experiments (e.g., sedimentation equilibrium) to resolve this ambiguity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The clinical and pathological context of BCL11B is described in broad terms without specific references to the most relevant recent literature. This may make it harder for readers from different disciplines to appreciate the significance of the findings.
+  - **Required correction** Add more specific citations and a brief summary of the key evidence linking BCL11B to the mentioned pathologies.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2
+- **Assessment against Nature-style criteria** Originality: The work revisits a previously published model and proposes a revised oligomeric state, which is a meaningful contribution, though the concept of transcription factor tetramerization is not novel. Scientific importance: BCL11B is an important therapeutic target, and clarifying its oligomeric state has implications for drug discovery. However, the therapeutic claims are not fully developed. Interdisciplinary readership: The work bridges structural biology, computational chemistry, and cancer biology, which could appeal to a broad audience, but the technical presentation may limit accessibility. Technical soundness: The combination of experimental and computational methods is appropriate, but the lack of methodological detail and incomplete experimental evidence currently undermine the technical case. Readability for nonspecialists: The manuscript is generally well-written but uses technical jargon without sufficient explanation in key sections.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the approach is appropriate, but the current evidence is insufficient to fully establish the tetrameric model. The authors must provide the missing experimental data, detailed simulation parameters, and a more rigorous quantitative comparison between simulation and experiment.
+
+## Risk / unsupported claims
+- The claim that BCL11B forms tetramers as its primary form is not fully supported by the visible experimental data, as SEC for shorter constructs suggests larger species and crosslinking for longer constructs was unsuccessful.
+- The claim that the new 3D structure is "in strong agreement with experimental data" is not quantitatively demonstrated in the provided text.
+- The claim that the updated model "opens new opportunities to drug this by now undruggable transcription factor" is speculative and not substantiated with specific targeting strategies.
+- The statement that "mutations within the β-sheet region, particularly residues 54–58, may result in the formation of monomers only" is presented as a future direction without supporting data.
+- The reinterpretation of prior FRET-FACS data is discussed but the original data are not shown, making it impossible to independently evaluate the reinterpretation.

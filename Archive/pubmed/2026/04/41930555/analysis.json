@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41930555",
+  "title": "A radiomics-based interpretable model to distinguish Xp11.2/TFE3 translocation renal cell carcinoma and common types of renal cell carcinoma on CT images.",
+  "authors": "Liu, Yi; Shen, Qi; Wang, Kexin; Zhang, Yaofeng; Liu, Jiangtao; Qiu, Jianxing; Wang, Xiaoying",
+  "journal": "Cancer treatment and research communications",
+  "published_date": "2026-04-03",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用CT影像组学机器学习区分肾细胞癌亚型，属纯影像诊断，无蛋白质-DNA互作体系、无结合建模，与本课题完全无关。",
+  "abstract": "BACKGROUND: TFE3-RCC is rare, hard to distinguish from common RCC on CT, posing preoperative diagnostic challenges for clinicians. This two-center study aimed to develop interpretable machine learning models using radiomics to differentiate Xp11.2/TFE3 translocation renal cell carcinoma (TFE3-RCC) from common renal cell carcinoma (RCC) subtypes using computed tomography (CT) images. METHODS: Retrospective data from 1394 patients (39 TFE3-RCC, 1355 non-TFE3 RCC) were analyzed. A propensity score matching (PSM) was applied, resulting in 234 cases (TFE3: n = 39, non-TFE3: n = 195) included in the radiomics study. CT images were segmented using an AI-based model, and 102 radiomic features (shape, first-order statistics, texture) were extracted. Recursive feature elimination (RFE) with random forest and gradient boosting models were used for feature selection and model development. Performance was evaluated via area under the receiver operating characteristic curve (AUC), accuracy, sensitivity, and specificity. RESULTS: The patients with TFE3-RCC were significantly younger (36.51 +/- 12.68 vs. 57.30 +/- 12.00 years, P < 0.05), and had more frequent calcification (30.8% vs. 6.4%, P < 0.05) and were larger (5.50 +/- 3.17 cm vs. 4.11 +/- 2.06 cm, P = 0.005) than those with non-TFE3 RCC, and preferred to implicate females (female: 46.2% vs. 29.3%, P = 0.023). The model identified six optimal features, with skewness (relative weight: 44.57%) and first-order statistics as key predictors. The training set and test set achieved stable performances with AUC (0.951 (95% CI: 0.920-0.983) and 0.864 (95% CI: 0.749-0.979)) and accuracy (0.878 and 0.852). CONCLUSION: Interpretable radiomics-based machine learning models effectively differentiate TFE3-RCC from common RCC subtypes, with skewness and intensity features as critical biomarkers. This approach may improve preoperative diagnosis, though larger multi-center studies and integration of multi-omics data are needed for clinical translation.",
+  "abstract_zh": "背景：TFE3-RCC罕见，在CT上难以与常见RCC区分，给临床医生的术前诊断带来挑战。这项双中心研究旨在利用影像组学开发可解释的机器学习模型，通过计算机断层扫描（CT）图像区分Xp11.2/TFE3易位肾细胞癌（TFE3-RCC）与常见肾细胞癌（RCC）亚型。方法：分析了1394例患者（39例TFE3-RCC，1355例非TFE3 RCC）的回顾性数据。应用倾向性评分匹配（PSM），最终纳入234例（TFE3：n = 39，非TFE3：n = 195）进行影像组学研究。使用基于AI的模型对CT图像进行分割，提取了102个影像组学特征（形状、一阶统计量、纹理）。采用递归特征消除（RFE）结合随机森林和梯度提升模型进行特征选择和模型开发。通过受试者工作特征曲线下面积（AUC）、准确率、敏感性和特异性评估性能。结果：与非TFE3 RCC患者相比，TFE3-RCC患者显著更年轻（36.51 ± 12.68岁 vs. 57.30 ± 12.00岁，P < 0.05），钙化更频繁（30.8% vs. 6.4%，P < 0.05），病灶更大（5.50 ± 3.17 cm vs. 4.11 ± 2.06 cm，P = 0.005），且更倾向于女性（女性：46.2% vs. 29.3%，P = 0.023）。模型识别出六个最优特征，其中偏度（相对权重：44.57%）和一阶统计量是关键预测因子。训练集和测试集均实现了稳定性能，AUC分别为0.951（95% CI：0.920-0.983）和0.864（95% CI：0.749-0.979），准确率分别为0.878和0.852。结论：基于可解释影像组学的机器学习模型能有效区分TFE3-RCC与常见RCC亚型，其中偏度和强度特征作为关键生物标志物。该方法可能改善术前诊断，但仍需更大规模的多中心研究和多组学数据整合以促进临床转化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41930555/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41930555/",
+  "paper_page_path": "papers/pubmed/41930555/index.html"
+}

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors report that lysosomal acid lipase (LAL) expression is reduced in two liver fibrosis animal models, that reduced LAL is associated with hepatic stellate cell (HSC) activation, that morroniside inhibits HSC activation in vitro, and that this effect is mediated by morroniside binding to GATA3 and reducing GATA3 expression, thereby increasing LAL expression. The authors conclude that LAL is a novel liver fibrosis biomarker and that morroniside is a candidate therapeutic for liver fibrosis.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, statistical analyses, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full methods, all experimental data, statistical reporting, validation of computational predictions, MD simulation parameters and results, dose-response data, in vivo efficacy data for morroniside, and any negative controls or specificity experiments.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between morroniside, GATA3, and LAL in the context of liver fibrosis. However, the evidence as summarized is insufficient to establish the central claims. Key mechanistic steps are asserted without supporting data, the novelty of LAL as a biomarker is not adequately contextualized, and the in vitro scope limits the translational significance. The abstract is written in a clear style but contains several logical gaps and overstatements relative to the evidence described.
+- **Who would be interested in the results, and why** Researchers in hepatology, particularly those studying liver fibrosis and hepatic stellate cell biology, would be interested. Investigators working on natural product pharmacology and iridoid glycosides may also find the compound of interest. Those studying transcriptional regulation of lipid metabolism genes in the liver could be engaged by the GATA3-LAL axis. The potential clinical relevance for liver fibrosis therapeutics would attract translational researchers, though the current evidence is preliminary.
+- **Major strengths** The study addresses an important clinical problem, namely liver fibrosis progression. The focus on LAL as a potential biomarker and therapeutic target is timely given the emerging role of lipid metabolism in fibrosis. The use of two complementary animal models for initial LAL expression analysis is a reasonable approach. The proposed mechanism, involving a natural compound binding to a transcription factor and modulating gene expression, is mechanistically interesting and testable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that morroniside binds to the hydrophobic sites of GATA3 and reduces GATA3 expression, which increases LAL expression.  
+  - **Evidence pointer** Methods section, MD simulation; Results section, mechanistic studies. Location not provided.  
+  - **Concern** The abstract states that MD simulation was performed to explore protein-ligand interaction, but no results from this simulation are reported. The claim that morroniside binds to GATA3 hydrophobic sites is presented as a finding, yet no binding affinity, structural data, or experimental validation (e.g., mutagenesis, surface plasmon resonance, or cellular thermal shift assay) is described.  
+  - **Why it matters** The proposed mechanism depends on a direct physical interaction between morroniside and GATA3. Without experimental or computational evidence supporting this binding, the mechanistic model is unsupported. The abstract also does not clarify whether the reduction in GATA3 expression is a consequence of binding or an independent effect.  
+  - **Resolution test** Provide MD simulation results including binding energies and key contacts, and include experimental validation of the morroniside-GATA3 interaction using orthogonal methods. Clarify the causal relationship between binding and GATA3 downregulation.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that morroniside exerts anti-liver fibrosis effects in vitro and that this is mediated by the GATA3-LAL axis.  
+  - **Evidence pointer** Results section, in vitro experiments. Location not provided.  
+  - **Concern** The abstract reports only that morroniside inhibits HSC activation in vitro. No data are shown for the magnitude of the effect, the concentrations used, the specific HSC cell lines or primary cells, or the assays employed. The causal link between GATA3 reduction, LAL increase, and inhibition of HSC activation is asserted but not demonstrated with loss-of-function or rescue experiments.  
+  - **Why it matters** Without demonstrating that GATA3 knockdown or LAL overexpression phenocopies morroniside effects, or that GATA3 overexpression or LAL knockdown blocks morroniside effects, the proposed mechanism remains correlative. The abstract does not provide evidence that the observed effects are specific to the proposed pathway.  
+  - **Resolution test** Include dose-response data for morroniside, show that GATA3 modulation is necessary and sufficient for the effect, and perform rescue experiments with LAL modulation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability and translational relevance  
+  - **Claim pointer** The authors conclude that LAL is a novel biomarker for liver fibrosis and that morroniside is a candidate for liver injury prevention and treatment.  
+  - **Evidence pointer** Results section, animal models; Conclusions. Location not provided.  
+  - **Concern** The biomarker claim is based on reduced LAL expression in two animal models, but no data on sensitivity, specificity, or comparison with existing biomarkers are provided. The therapeutic claim is based solely on in vitro experiments, with no in vivo efficacy data for morroniside. The abstract does not address whether the animal model findings translate to human disease.  
+  - **Why it matters** Biomarker claims require validation against established standards and ideally in human samples. Therapeutic claims require in vivo proof-of-concept. The current evidence is too preliminary to support either conclusion.  
+  - **Resolution test** Provide receiver operating characteristic analysis or comparative data for LAL against known fibrosis biomarkers, include human liver tissue data, and present in vivo efficacy studies for morroniside in fibrosis models.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty and contextualization  
+  - **Claim pointer** The authors state that this study, for the first time, suggests LAL is a novel biomarker for liver fibrosis.  
+  - **Evidence pointer** Conclusions. Location not provided.  
+  - **Concern** The abstract does not discuss prior literature on LAL in liver disease. Given that LAL deficiency is a known cause of hepatic steatosis and fibrosis, the claim of novelty requires explicit comparison with existing knowledge.  
+  - **Why it matters** The novelty claim is central to the paper's significance. Without contextualization, the claim may be overstated or redundant with existing literature.  
+  - **Resolution test** Add a literature review in the introduction and discussion that explicitly addresses prior LAL findings in liver fibrosis and clarifies the incremental contribution of this study.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Background section  
+  - **Evidence pointer** Background. Location not provided.  
+  - **Issue** The phrase "the mechanism of action underling the anti-liver fibrosis effects" contains a typographical error ("underling" should be "underlying").  
+  - **Required correction** Correct the typographical error.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Methodological transparency  
+  - **Affected element** Methods section  
+  - **Evidence pointer** Methods. Location not provided.  
+  - **Issue** The abstract mentions the use of PROMO-ALGGEN v8.3 and ENCODE ChIP-Seq Significance Tool for identifying transcription factor binding sites, but does not state how many putative sites were identified or which ones were prioritized for experimental validation.  
+  - **Required correction** Briefly state the number of candidate sites and the criteria for selecting GATA3 for further study.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** Results section  
+  - **Evidence pointer** Results. Location not provided.  
+  - **Issue** No statistical information is provided for any of the reported differences, including the reduced LAL expression in animal models.  
+  - **Required correction** Include statistical significance values and effect sizes for key comparisons.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Conclusions  
+  - **Evidence pointer** Conclusions. Location not provided.  
+  - **Issue** The term "novel alternative or complementary therapeutics" is vague and not standard in the field.  
+  - **Required correction** Use more precise terminology, such as "a candidate therapeutic agent" or "a potential adjunct treatment."  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The binding interaction between morroniside and GATA3 is not evidenced, the causal mechanism is not experimentally demonstrated, and the biomarker and therapeutic claims lack validation and in vivo support.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The GATA3-LAL axis in HSC activation is a potentially novel angle, but the abstract does not sufficiently differentiate from existing literature on LAL in liver disease.  
+  - Scientific importance: Moderate. Liver fibrosis is a major clinical problem, and new therapeutic targets are valuable. However, the current evidence is preliminary and in vitro only.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to hepatologists and natural product pharmacologists. The mechanistic depth is not yet sufficient to attract a broad readership.  
+  - Technical soundness: Not assessable from the abstract. Key methods and data are missing, and the described evidence does not support the mechanistic claims.  
+  - Readability for nonspecialists: The abstract is generally clear, but the mechanistic claims are presented without sufficient context or supporting detail, which may confuse nonspecialist readers.
+
+## Risk / unsupported claims
+- The claim that morroniside binds to GATA3 hydrophobic sites is unsupported, as no binding data are presented.
+- The claim that morroniside reduces GATA3 expression is reported but not quantified or contextualized.
+- The claim that reduced LAL expression is associated with HSC activation is correlative and not mechanistically established.
+- The claim that LAL is a novel biomarker for liver fibrosis is unsupported without comparative or human data.
+- The claim that morroniside has therapeutic potential for liver injury prevention and treatment is unsupported by in vivo evidence.

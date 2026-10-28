@@ -1,0 +1,208 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.10.540098",
+  "title": "Detection of new pioneer transcription factors as cell-type specific nucleosome binders",
+  "doi": "10.1101/2023.05.10.540098",
+  "abstract": "Wrapping of DNA into nucleosomes restricts accessibility to the DNA and may affect the recognition of binding motifs by transcription factors. A certain class of transcription factors, the pioneer transcription factors, can specifically recognize their DNA binding sites on nucleosomes, may initiate local chromatin opening and facilitate the binding of co-factors in a cell-type-specific manner. For the majority of human pioneer transcription factors, the locations of their binding sites, mechanisms of binding and regulation remain unknown. We have developed a computational method to predict the cell-type-specific ability of transcription factors to bind nucleosomes by integrating ChIP-seq, MNase-seq and DNase-seq data with details of nucleosome structure. We have demonstrated the ability of our approach in discriminating pioneer from canonical transcription factors and predicted new potential pioneer transcription factors in H1, K562, HepG2 and HeLa cell lines. Lastly, we systemically analyzed the interaction modes between various pioneer transcription factors and detected several clusters of distinctive binding sites on nucleosomal DNA.",
+  "authors": [
+    "Peng Y",
+    "Song W",
+    "Teif VB",
+    "Ovcharenko I",
+    "Landsman D",
+    "Panchenko AR"
+  ],
+  "published_date": "2023-05-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.10.540098",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.10.540098.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR659170",
+    "raw_record": {
+      "id": "PPR659170",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR659170"
+        ]
+      },
+      "doi": "10.1101/2023.05.10.540098",
+      "title": "Detection of new pioneer transcription factors as cell-type specific nucleosome binders",
+      "authorString": "Peng Y, Song W, Teif VB, Ovcharenko I, Landsman D, Panchenko AR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Peng Y",
+            "lastName": "Peng",
+            "firstName": "Yunhui",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Library of Medicine, National Institutes of Health, Bethesda, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Song W",
+            "lastName": "Song",
+            "firstName": "Wei",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Library of Medicine, National Institutes of Health, Bethesda, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Teif VB",
+            "lastName": "Teif",
+            "firstName": "Vladimir",
+            "initials": "VB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, University of Essex, Wivenhoe Park, Colchester, CO4 3SQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ovcharenko I",
+            "lastName": "Ovcharenko",
+            "firstName": "Ivan",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Library of Medicine, National Institutes of Health, Bethesda, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Landsman D",
+            "lastName": "Landsman",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Library of Medicine, National Institutes of Health, Bethesda, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Panchenko AR",
+            "lastName": "Panchenko",
+            "firstName": "Anna",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Molecular Medicine, Queen’s University, ON, Canada"
+                },
+                {
+                  "affiliation": "Department of Biology and Molecular Sciences, Queen’s University, ON, Canada"
+                },
+                {
+                  "affiliation": "School of Computing, Queen’s University, ON, Canada"
+                },
+                {
+                  "affiliation": "Ontario Institute of Cancer Research, Toronto, ON, Canada"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Wrapping of DNA into nucleosomes restricts accessibility to the DNA and may affect the recognition of binding motifs by transcription factors. A certain class of transcription factors, the pioneer transcription factors, can specifically recognize their DNA binding sites on nucleosomes, may initiate local chromatin opening and facilitate the binding of co-factors in a cell-type-specific manner. For the majority of human pioneer transcription factors, the locations of their binding sites, mechanisms of binding and regulation remain unknown. We have developed a computational method to predict the cell-type-specific ability of transcription factors to bind nucleosomes by integrating ChIP-seq, MNase-seq and DNase-seq data with details of nucleosome structure. We have demonstrated the ability of our approach in discriminating pioneer from canonical transcription factors and predicted new potential pioneer transcription factors in H1, K562, HepG2 and HeLa cell lines. Lastly, we systemically analyzed the interaction modes between various pioneer transcription factors and detected several clusters of distinctive binding sites on nucleosomal DNA.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.10.540098"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR659170"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR659170&type=FILE&fileName=EMS175718-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38293962",
+            "reference": "eLife. 2024 Jan;12:RP88936",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS175718",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-05-14",
+      "firstPublicationDate": "2023-05-12",
+      "firstIndexDate": "2023-05-14",
+      "fullTextReceivedDate": "2024-01-22",
+      "hasEvaluations": "Y"
+    }
+  }
+}

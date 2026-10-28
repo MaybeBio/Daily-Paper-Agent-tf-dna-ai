@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "36164647",
+    "doi": "10.1016/j.crstbi.2022.09.002",
+    "title": "Comparative computational and experimental analyses of some natural small molecules to restore transcriptional activation function of p53 in cancer cells harbouring wild type and p53(Ser46) mutant."
+  },
+  "content": {
+    "abstract": "Genetic mutations in p53 are frequently associated with many types of cancers that affect its stability and activity through multiple ways. The Ser46 residue present in the transactivation domain2 (TAD2) domain of p53 undergoes phosphorylation that blocks its degradation by MDM2 and leads to cell cycle arrest/apoptosis/necrosis upon intrinsic or extrinsic stresses. On the other hand, unphosphorylated p53 mutants escape cell arrest or death triggered by these molecular signaling axes and lead to carcinogenesis. Phosphorylation of Ser in the TAD2 domain of p53 mediates its interactions with transcription factor p62, yielding transcriptional activation of downstream pro-apoptotic genes. The p53 phosphorylation causes string-like elongated conformation that increases its binding affinity with the PH domain of p62. On the other hand, lack of phosphorylation causes helix-like motifs and low binding affinity to p62. We undertook molecular simulation analyses to investigate the potential of some natural small molecules (Withanone (Wi-N) & Withaferin-A (Wi-A) from Ashwagandha; Cucurbitacin-B (Cuc-B) from bitter Cucumber; and Caffeic acid phenethyl ester (CAPE) and Artepillin C (ARC) from honeybee propolis) to interact with p62-binding region of p53 and restore its wild-type activity. We found that Wi-N, Wi-A, and Cuc-B have the potential to restore p53-p62 interaction for phosphorylation-deficient p53 mutants. Wi-N, in particular, caused a reversal of the alpha-helical structure into an elongated string-like conformation similar to the wild-type p53. These data suggested the use of these natural compounds for the treatment of p53(Ser46) mutant harbouring cancers. We also compared the efficiency of Wi-N, Wi-A, Cuc-B, CAPE, and ARC to abrogate Mortalin-p53 binding resulting in nuclear translocation and reactivation of p53 function and provide experimental evidence to the computational analysis. Taken together, the use of these small molecules for reactivation of p53 in cancer cells is suggested.",
+    "keywords": [
+      "Anti-cancer drugs",
+      "Mortalin inhibitor",
+      "Natural drugs",
+      "Phosphor mutant p53",
+      "Ser46-mutant p53",
+      "p53"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shefrin, Seyad",
+        "Sari, Anissa Nofita",
+        "Kumar, Vipul",
+        "Zhang, Huayue",
+        "Meidinna, Hazna Noor",
+        "Kaul, Sunil C",
+        "Wadhwa, Renu",
+        "Sundar, Durai"
+      ],
+      "short_names": [
+        "Shefrin S",
+        "Sari AN",
+        "Kumar V",
+        "Zhang H",
+        "Meidinna HN",
+        "Kaul SC",
+        "Wadhwa R",
+        "Sundar D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT)-Delhi, Hauz Khas, New Delhi, 110-016, India.",
+        "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan.",
+        "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT)-Delhi, Hauz Khas, New Delhi, 110-016, India.",
+        "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan.",
+        "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan.",
+        "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan.",
+        "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan.",
+        "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT)-Delhi, Hauz Khas, New Delhi, 110-016, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shefrin, Seyad",
+        "short_name": "Shefrin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT)-Delhi, Hauz Khas, New Delhi, 110-016, India."
+        ]
+      },
+      {
+        "full_name": "Sari, Anissa Nofita",
+        "short_name": "Sari AN",
+        "identifiers": [],
+        "affiliations": [
+          "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan."
+        ]
+      },
+      {
+        "full_name": "Kumar, Vipul",
+        "short_name": "Kumar V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT)-Delhi, Hauz Khas, New Delhi, 110-016, India."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huayue",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan."
+        ]
+      },
+      {
+        "full_name": "Meidinna, Hazna Noor",
+        "short_name": "Meidinna HN",
+        "identifiers": [],
+        "affiliations": [
+          "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan."
+        ]
+      },
+      {
+        "full_name": "Kaul, Sunil C",
+        "short_name": "Kaul SC",
+        "identifiers": [],
+        "affiliations": [
+          "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan."
+        ]
+      },
+      {
+        "full_name": "Wadhwa, Renu",
+        "short_name": "Wadhwa R",
+        "identifiers": [],
+        "affiliations": [
+          "AIST-INDIA DAILAB, National Institute of Advanced Industrial Science & Technology (AIST), Tsukuba, 305-8565, Japan."
+        ]
+      },
+      {
+        "full_name": "Sundar, Durai",
+        "short_name": "Sundar D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering & Biotechnology, Indian Institute of Technology (IIT)-Delhi, Hauz Khas, New Delhi, 110-016, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current research in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Res Struct Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/28 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "41963364",
+      "38203539",
+      "37259311"
+    ],
+    "refs": [
+      "35201513",
+      "35011307",
+      "34118289",
+      "33671256",
+      "33530424",
+      "32469279",
+      "32380701",
+      "31856867",
+      "31112603",
+      "30808373",
+      "30628118",
+      "29393408",
+      "29125602",
+      "28902511",
+      "27698914",
+      "26584231",
+      "26410586",
+      "26376435",
+      "26222319",
+      "26188124",
+      "25835573",
+      "25671187",
+      "25216154",
+      "25198391",
+      "24687350",
+      "23828548",
+      "23579614",
+      "23319326",
+      "22973447",
+      "22920904",
+      "21905107",
+      "21714113",
+      "21684858",
+      "21394211",
+      "21233847",
+      "20354892",
+      "20153329",
+      "17034125",
+      "16619038",
+      "16247456",
+      "16176931",
+      "15532096",
+      "11747320",
+      "11420746",
+      "11418864",
+      "11156371",
+      "10734067",
+      "10673500",
+      "10549356",
+      "10202144",
+      "10022862",
+      "9925639",
+      "9792667",
+      "8952529",
+      "7935417"
+    ],
+    "similar": [
+      "36164647",
+      "32380701",
+      "33530424",
+      "32431217",
+      "35028596",
+      "35201513",
+      "30808373",
+      "37129211",
+      "25216154",
+      "26029824",
+      "35159054",
+      "22973447",
+      "22155302",
+      "35054590",
+      "31856867",
+      "35204712",
+      "11429785",
+      "29393408",
+      "18160537",
+      "27599722",
+      "16793543",
+      "16219768",
+      "27698914",
+      "25788262",
+      "19828042",
+      "20123963",
+      "27129302",
+      "31307507",
+      "31502598",
+      "12612087",
+      "22807444",
+      "8327466",
+      "35011307",
+      "39272948",
+      "33671256",
+      "25260780",
+      "19166313",
+      "11313999",
+      "17172844",
+      "17349958",
+      "18566224",
+      "23360998",
+      "31248328",
+      "17957142",
+      "35227287",
+      "32825706",
+      "9632751",
+      "14508081",
+      "14649328",
+      "11179471",
+      "22166212",
+      "10226602",
+      "31780930",
+      "33110364",
+      "26732534",
+      "17401433",
+      "15657359",
+      "27380217",
+      "9094635",
+      "22803956",
+      "19139122",
+      "8676920",
+      "34207240",
+      "17591690",
+      "16377624",
+      "12881704",
+      "33278547",
+      "21165951",
+      "30324219",
+      "19363523",
+      "19663772",
+      "34084225",
+      "26376435",
+      "21762075",
+      "12174820",
+      "21233847",
+      "30160791",
+      "20849851",
+      "29718136",
+      "11395510",
+      "17339337",
+      "15060172",
+      "32497081",
+      "24447832",
+      "24505404",
+      "16247456",
+      "20233581",
+      "29615516",
+      "28477117",
+      "17349959",
+      "9000127",
+      "8799159",
+      "24915467",
+      "17584297",
+      "36172283",
+      "38927944",
+      "22715313",
+      "39141804"
+    ],
+    "review": [
+      "36164647",
+      "14508081",
+      "14649328",
+      "26732534",
+      "17401433",
+      "30324219"
+    ],
+    "pmc": [
+      "9507986"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2665-928X(22)00026-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36164647/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36164647",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

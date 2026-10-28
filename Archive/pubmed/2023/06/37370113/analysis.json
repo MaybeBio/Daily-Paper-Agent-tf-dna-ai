@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37370113",
+  "title": "ExplaiNN: interpretable and transparent neural networks for genomics.",
+  "authors": "Novakovsky, Gherman; Fornes, Oriol; Saraswat, Manu; Mostafavi, Sara; Wasserman, Wyeth W",
+  "journal": "Genome biology",
+  "published_date": "2023-06-28",
+  "window": {
+    "start": "2023-06-26",
+    "end": "2023-07-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出可解释神经网络ExplaiNN，用于预测TF结合和染色质可及性并从头发现基序，虽聚焦序列级预测而非三维互作建模，但方法可迁移至TF-DNA结合位点预测，与课题相关。",
+  "abstract": "Deep learning models such as convolutional neural networks (CNNs) excel in genomic tasks but lack interpretability. We introduce ExplaiNN, which combines the expressiveness of CNNs with the interpretability of linear models. ExplaiNN can predict TF binding, chromatin accessibility, and de novo motifs, achieving performance comparable to state-of-the-art methods. Its predictions are transparent, providing global (cell state level) as well as local (individual sequence level) biological insights into the data. ExplaiNN can serve as a plug-and-play platform for pretrained models and annotated position weight matrices. ExplaiNN aims to accelerate the adoption of deep learning in genomic sequence analysis by domain experts.",
+  "abstract_zh": "卷积神经网络（CNNs）等深度学习模型在基因组任务中表现出色，但缺乏可解释性。我们引入了ExplaiNN，它结合了CNN的表达能力与线性模型的可解释性。ExplaiNN能够预测转录因子结合、染色质可及性及从头基序，其性能可与最先进的方法相媲美。其预测具有透明性，提供全局（细胞状态层面）及局部（单个序列层面）的生物学见解。ExplaiNN可作为预训练模型和注释位置权重矩阵的即插即用平台。ExplaiNN旨在加速领域专家在基因组序列分析中采用深度学习技术。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37370113/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37370113/",
+  "paper_page_path": "papers/pubmed/37370113/index.html"
+}

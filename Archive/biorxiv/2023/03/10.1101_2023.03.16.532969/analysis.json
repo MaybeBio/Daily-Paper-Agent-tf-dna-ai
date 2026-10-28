@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.16.532969",
+  "title": "Benchmarking of deep neural networks for predicting personal gene expression from DNA sequence highlights shortcomings",
+  "authors": "Alexander Sasse; Bernard Ng; Anna E. Spiro; Shinya Tasaki; David A. Bennett; Christopher Gaiteri; Philip L. De Jager; Maria Chikina; Sara Mostafavi",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-20",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度神经网络从DNA序列预测个体基因表达并做基准测试，虽涉及序列调控建模，但核心是基因表达预测而非TF-DNA结合位点或互作机制建模，方法可迁移性有限。",
+  "abstract": "Introductory Paragraph Deep learning methods have recently become the state-of-the-art in a variety of regulatory genomic tasks 1–6 including the prediction of gene expression from genomic DNA. As such, these methods promise to serve as important tools in interpreting the full spectrum of genetic variation observed in personal genomes. Previous evaluation strategies have assessed their predictions of gene expression across genomic regions, however, systematic benchmarking is lacking to assess their predictions across individuals, which would directly evaluates their utility as personal DNA interpreters. We used paired Whole Genome Sequencing and gene expression from 839 individuals in the ROSMAP study 7 to evaluate the ability of current methods to predict gene expression variation across individuals at varied loci. Our approach identifies a limitation of current methods to correctly predict the direction of variant effects. We show that this limitation stems from insufficiently learnt sequence motif grammar, and suggest new model training strategies to improve performance.",
+  "abstract_zh": "引言段落 深度学习方法近期已成为多种调控基因组任务中的最先进技术1–6，包括从基因组DNA预测基因表达。因此，这些方法有望成为解读个人基因组中观察到的全部遗传变异的重要工具。先前的评估策略已评估了它们对跨基因组区域基因表达的预测，但缺乏系统性基准测试来评估它们对跨个体预测的能力，这将直接评估其作为个人DNA解读工具的实用性。我们利用ROSMAP研究7中839个个体的配对全基因组测序和基因表达数据，评估当前方法在不同位点预测跨个体基因表达变异的能力。我们的方法揭示了当前方法在正确预测变异效应方向上的局限性。我们表明，这一局限性源于序列基序语法学习不足，并提出了新的模型训练策略以提升性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.16.532969",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.16.532969",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.16.532969/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40474131",
+  "title": "A radiogenomics study on (18)F-FDG PET/CT in endometrial cancer by a novel deep learning segmentation algorithm.",
+  "authors": "Li, Xuanyi; Shi, Weijun; Zhang, Qianwen; Lin, Xinhui; Sun, Hongzan",
+  "journal": "BMC cancer",
+  "published_date": "2025-06-06",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用深度学习分割算法和影像组学预测子宫内膜癌的MMR和TP53基因表达，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "OBJECTIVE: To create an automated PET/CT segmentation method and radiomics model to forecast Mismatch repair (MMR) and TP53 gene expression in endometrial cancer patients, and to examine the effect of gene expression variability on image texture features. MATERIALS AND METHODS: We generated two datasets in this retrospective and exploratory study. The first, with 123 histopathologically confirmed patient cases, was used to develop an endometrial cancer segmentation model. The second dataset, including 249 patients for MMR and 179 for TP53 mutation prediction, was derived from PET/CT exams and immunohistochemical analysis. A PET-based Attention-U Net network was used for segmentation, followed by region-growing with co-registered PET and CT images. Feature models were constructed using PET, CT, and combined data, with model selection based on performance comparison. RESULTS: Our segmentation model achieved 99.99% training accuracy and a dice coefficient of 97.35%, with validation accuracy at 99.93% and a dice coefficient of 84.81%. The combined PET + CT model demonstrated superior predictive power for both genes, with AUCs of 0.8146 and 0.8102 for MMR, and 0.8833 and 0.8150 for TP53 in training and test sets, respectively. MMR-related protein heterogeneity and TP53 expression differences were predominantly seen in PET images. CONCLUSION: An efficient deep learning algorithm for endometrial cancer segmentation has been established, highlighting the enhanced predictive power of integrated PET and CT radiomics for MMR and TP53 expression. The study underscores the distinct influences of MMR and TP53 gene expression on tumor characteristics.",
+  "abstract_zh": "目的：构建一种自动化的PET/CT分割方法和影像组学模型，以预测子宫内膜癌患者的错配修复（MMR）和TP53基因表达，并探讨基因表达变异性对图像纹理特征的影响。材料与方法：在这项回顾性和探索性研究中，我们生成了两个数据集。第一个数据集包含123例经组织病理学确诊的患者病例，用于开发子宫内膜癌分割模型。第二个数据集包括249例用于MMR预测和179例用于TP53突变预测的患者，来源于PET/CT检查和免疫组织化学分析。使用基于PET的Attention-U Net网络进行分割，随后结合共配准的PET和CT图像进行区域生长。使用PET、CT及联合数据构建特征模型，并通过性能比较进行模型选择。结果：我们的分割模型实现了99.99%的训练准确率和97.35%的Dice系数，验证准确率为99.93%，Dice系数为84.81%。联合PET+CT模型对两种基因均表现出优越的预测能力，在训练集和测试集中，MMR的AUC分别为0.8146和0.8102，TP53的AUC分别为0.8833和0.8150。MMR相关蛋白异质性和TP53表达差异主要见于PET图像。结论：我们建立了一种高效的子宫内膜癌分割深度学习算法，突显了PET和CT联合影像组学对MMR和TP53表达的增强预测能力。该研究强调了MMR和TP53基因表达对肿瘤特征的显著不同影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40474131/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40474131/",
+  "paper_page_path": "papers/pubmed/40474131/index.html"
+}

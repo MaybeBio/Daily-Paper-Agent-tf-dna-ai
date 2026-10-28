@@ -1,0 +1,401 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.06.680553",
+  "title": "ceQTL: A co-expression QTL model to detect a variant that affects transcription factor binding and its target regulation",
+  "doi": "10.1101/2025.10.06.680553",
+  "abstract": "Expression quantitative trait locus (eQTL) mapping is used to identify a functional link between a genomic variant, such as single nucleotide polymorphism (SNP), and gene expression (often close-by pair for cis-eQTL) by linear regression, commonly done when matching genotype and expression data from same individuals are available. Millions of significant eQTLs have been reported by both individual studies and coordinated large consortiums such as Genotype-Tissue Expression project (GTEx). A significant eQTL association does not establish a causal relationship or provide any underlying mechanism so further investigation is needed to understand how a SNP impacts gene expression. One of the plausible explanations for eQTL is that a genomic variant affects transcription factor (TF) binding and thus impacts its regulation on its target genes (TGs). However, data-driven or formal statistical methods to prove that hypothesis are still lacking. To address the gap, we propose a new method called differential co-expression QTL (ceQTL) among different alleles using Chow statistics to specifically detect eQTLs that are modulated by a particular TF. We start with building a trio of TF, its TG, and related SNP and then test the significant coefficient difference among different levels of SNP in terms of TF and TG correlation. We applied this ceQTL model to simulated data and the lung tissue datasets from the GTEx project. The simulated data results showed that the model was robust to detect true ceQTLs at variable sample sizes and different minor allele frequencies as measured by Area Under the Curve (AUC). In normal lung tissue, a small fraction of eQTLs were found to have strong ceQTLs, i.e., eQTLs where SNP affects gene expression though TF binding. Some ceQTLs may not be detected by traditional eQTL analysis. Our tool also performed a TF binding affinity analysis to add another layer of evidence for functional interpretation. Comparisons with other similar tools were also presented. In summary, ceQTL analysis provides a more interpretable and biological insight into the mechanism of eQTL, which would help us better understand how genomic variants affect phenotypes and diseases.",
+  "authors": [
+    "Panwen Wang",
+    "Li Liu",
+    "Junwen Wang",
+    "Ping Yang",
+    "Zhifu Sun"
+  ],
+  "published_date": "2025-10-06",
+  "updated_date": "2025-10-07T04:25:21Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.06.680553",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.06.680553.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:46:10Z",
+        "timestamp": 1768527970475,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 32,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                6
+              ]
+            ],
+            "date-time": "2025-10-06T00:00:00Z",
+            "timestamp": 1759708800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "name": "NIH"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Expression quantitative trait locus (eQTL) mapping is used to identify a functional link between a genomic variant, such as single nucleotide polymorphism (SNP), and gene expression (often close-by pair for cis-eQTL) by linear regression, commonly done when matching genotype and expression data from same individuals are available. Millions of significant eQTLs have been reported by both individual studies and coordinated large consortiums such as Genotype-Tissue Expression project (GTEx). A significant eQTL association does not establish a causal relationship or provide any underlying mechanism so further investigation is needed to understand how a SNP impacts gene expression. One of the plausible explanations for eQTL is that a genomic variant affects transcription factor (TF) binding and thus impacts its regulation on its target genes (TGs). However, data-driven or formal statistical methods to prove that hypothesis are still lacking. To address the gap, we propose a new method called differential co-expression QTL (ceQTL) among different alleles using Chow statistics to specifically detect eQTLs that are modulated by a particular TF. We start with building a trio of TF, its TG, and related SNP and then test the significant coefficient difference among different levels of SNP in terms of TF and TG correlation. We applied this ceQTL model to simulated data and the lung tissue datasets from the GTEx project. The simulated data results showed that the model was robust to detect true ceQTLs at variable sample sizes and different minor allele frequencies as measured by Area Under the Curve (AUC). In normal lung tissue, a small fraction of eQTLs were found to have strong ceQTLs, i.e., eQTLs where SNP affects gene expression though TF binding. Some ceQTLs may not be detected by traditional eQTL analysis. Our tool also performed a TF binding affinity analysis to add another layer of evidence for functional interpretation. Comparisons with other similar tools were also presented. In summary, ceQTL analysis provides a more interpretable and biological insight into the mechanism of eQTL, which would help us better understand how genomic variants affect phenotypes and diseases.</jats:p>",
+      "DOI": "10.1101/2025.10.06.680553",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            7
+          ]
+        ],
+        "date-time": "2025-10-07T04:25:21Z",
+        "timestamp": 1759811121000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ceQTL: A co-expression QTL model to detect a variant that affects transcription factor binding and its target regulation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Panwen",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4002-7497",
+          "authenticated-orcid": false,
+          "given": "Li",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Junwen",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ping",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhifu",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1120"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1133"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1229"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr1182"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/database/baae010"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr798"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2012.0362"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz1776"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-021-00913-z"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1009719"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chow, G.C. Tests of equality between sets of coefficients in two linear regressions. Econometrica: Journal of the Econometric Society 1960, 591–605.",
+          "DOI": "10.2307/1910133"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0173847"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.13",
+          "first-page": "340",
+          "article-title": "Discovering Precision AD Biomarkers with Varying Prognosis Effects in Genetics Driven Subpopulations",
+          "volume": "2023",
+          "year": "2023",
+          "journal-title": "AMIA Jt Summits Transl Sci Proc"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/database/baac083"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts163"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv328"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1249"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv470"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13742-015-0047-8"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1851-8"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.21",
+          "article-title": "An overview of gradient descent optimization algorithms",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13023-025-03596-5"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1164/rccm.200601-084OC"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/ajplung.00023.2020"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/ajplung.00413.2022"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep05416"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1200/JCO.2005.08.127"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2021/6651764"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2012.05.001"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.5571506"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1007837"
+        },
+        {
+          "key": "2025101001250508000_2025.10.06.680553v1.32",
+          "first-page": "68",
+          "article-title": "Review The Cancer Genome Atlas (TCGA): an immeasurable source of knowledge",
+          "volume": "2015",
+          "year": "2015",
+          "journal-title": "Contemporary Oncology/Współczesna Onkologia"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.06.680553",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:45:04Z",
+        "timestamp": 1768470304000
+      },
+      "score": 111.20036,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.06.680553"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "references-count": 32,
+      "URL": "https://doi.org/10.1101/2025.10.06.680553",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "identity": {
+    "pmid": "41512255",
+    "doi": "10.1021/acs.jcim.5c02497",
+    "title": "Computational Framework for Causal Inference in Molecular Dynamics Analysis of Lipid-Protein Interactions."
+  },
+  "content": {
+    "abstract": "Direct experimental observation of lipid-protein reorganization is limited by temporal and spatial resolution. Molecular dynamics (MD) simulations address this limitation by providing atomic-resolution trajectories, yet, conventional analysis methods cannot distinguish causal relationships from correlations. To address this challenge, LIPAC (Lipid-Protein Analysis with Causal inference), a computational framework that applies hierarchical Bayesian causal inference to MD simulations, was developed. LIPAC quantifies causal, rather than merely correlational, relationships between lipid binding and membrane organization, providing effect size estimates with full uncertainty quantification at both individual and population levels. The framework consists of two complementary stages: (1) between-system analysis to detect potential causal relationships and (2) within-system Bayesian inference to evaluate their magnitudes under a unified statistical model. Applied to receptor-membrane systems (EphA2-GM3 and Notch-GM3), LIPAC correctly distinguished strong, reproducible effects (EphA2: consistent DIPC depletion with narrow credible intervals) from weak, inconsistent effects (Notch: wide credible intervals, inconsistent directionality across copies), demonstrating both sensitivity and specificity. For EphA2, GM3 binding causally induces local enrichment of cholesterol and sphingomyelin while depleting unsaturated phosphatidylcholine, consistent with lipid-raft formation. This study establishes a general paradigm for extracting mechanistic insight from MD trajectories beyond traditional correlation-based approaches.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Bayes Theorem",
+      "Receptor, EphA2/metabolism/chemistry",
+      "Receptors, Notch/metabolism/chemistry",
+      "*Lipids/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sato, Takeshi"
+      ],
+      "short_names": [
+        "Sato T"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-9156-8655"
+      ],
+      "affiliations": [
+        "Kyoto Pharmaceutical University, 5 Misasaginakauchi-cho, Yamashina-ku, Kyoto City,Kyoto 607-8414, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sato, Takeshi",
+        "short_name": "Sato T",
+        "identifiers": [
+          "0009-0006-9156-8655"
+        ],
+        "affiliations": [
+          "Kyoto Pharmaceutical University, 5 Misasaginakauchi-cho, Yamashina-ku, Kyoto City,Kyoto 607-8414, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Jan 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/09 18:31",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [
+      "41750340"
+    ],
+    "refs": [],
+    "similar": [
+      "41512255",
+      "29887500",
+      "40280119",
+      "29667836",
+      "23912807",
+      "26724997",
+      "40172093",
+      "42156670",
+      "33118046",
+      "36193708",
+      "23592976",
+      "28602916",
+      "41452942",
+      "40020258",
+      "39262267",
+      "41712319",
+      "34229012",
+      "28782177",
+      "42156701",
+      "39025580",
+      "20804205",
+      "33203907",
+      "39459303",
+      "38760929",
+      "41861422",
+      "41310859",
+      "39699738",
+      "27526497",
+      "26695055",
+      "24056764",
+      "39978121",
+      "41512598",
+      "31010664",
+      "25340788",
+      "26910424",
+      "34038536",
+      "41186507",
+      "34523933",
+      "22102317",
+      "27763725",
+      "41427731",
+      "40379931",
+      "24892900",
+      "23301023",
+      "14645066",
+      "41763001",
+      "37425774",
+      "38913814",
+      "26351667",
+      "38960299",
+      "31476127",
+      "30978005",
+      "40069393",
+      "40135901",
+      "42247462",
+      "25380315",
+      "23061835",
+      "40772804",
+      "40474679",
+      "28665188",
+      "37291458",
+      "28637405",
+      "40324614",
+      "36742460",
+      "20017540",
+      "41057068",
+      "39349594",
+      "37910792",
+      "39025569",
+      "42000490",
+      "20223987",
+      "28964039",
+      "31928763",
+      "42216919",
+      "30939128",
+      "42031268",
+      "31593215",
+      "31015204",
+      "30281048",
+      "23747485",
+      "40916281",
+      "39942820",
+      "41699549",
+      "30908042",
+      "19473544",
+      "19754142",
+      "38474536",
+      "35297484",
+      "22571430",
+      "33349923",
+      "35195069",
+      "23896554",
+      "39105757",
+      "24158802",
+      "26042329",
+      "41738539",
+      "25219456",
+      "42118388",
+      "31241940",
+      "42179351"
+    ],
+    "review": [
+      "41512255",
+      "36193708",
+      "38913814",
+      "30978005",
+      "28637405",
+      "36742460"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1784",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02497",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

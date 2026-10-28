@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37643374",
+  "title": "DeepICSH: a complex deep learning framework for identifying cell-specific silencers and their strength from the human genome.",
+  "authors": "Zhang, Tianjiao; Li, Liangyu; Sun, Hailong; Xu, Dali; Wang, Guohua",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-08-29",
+  "window": {
+    "start": "2023-08-28",
+    "end": "2023-09-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习框架DeepICSH基于多组学数据识别细胞特异性沉默子及其强度，虽涉及转录因子相关表观信号，但核心是基因调控元件而非TF-DNA结合互作建模，方法可迁移但对象和互作轴匹配度中等。",
+  "abstract": "Silencers are noncoding DNA sequence fragments located on the genome that suppress gene expression. The variation of silencers in specific cells is closely related to gene expression and cancer development. Computational approaches that exclusively rely on DNA sequence information for silencer identification fail to account for the cell specificity of silencers, resulting in diminished accuracy. Despite the discovery of several transcription factors and epigenetic modifications associated with silencers on the genome, there is still no definitive biological signal or combination thereof to fully characterize silencers, posing challenges in selecting suitable biological signals for their identification. Therefore, we propose a sophisticated deep learning framework called DeepICSH, which is based on multiple biological data sources. Specifically, DeepICSH leverages a deep convolutional neural network to automatically capture biologically relevant signal combinations strongly associated with silencers, originating from a diverse array of biological signals. Furthermore, the utilization of attention mechanisms facilitates the scoring and visualization of these signal combinations, whereas the employment of skip connections facilitates the fusion of multilevel sequence features and signal combinations, thereby empowering the accurate identification of silencers within specific cells. Extensive experiments on HepG2 and K562 cell line data sets demonstrate that DeepICSH outperforms state-of-the-art methods in silencer identification. Notably, we introduce for the first time a deep learning framework based on multi-omics data for classifying strong and weak silencers, achieving favorable performance. In conclusion, DeepICSH shows great promise for advancing the study and analysis of silencers in complex diseases. The source code is available at https://github.com/lyli1013/DeepICSH.",
+  "abstract_zh": "沉默子是位于基因组上的非编码DNA序列片段，能够抑制基因表达。特定细胞中沉默子的变异与基因表达及癌症发展密切相关。仅依赖DNA序列信息进行沉默子识别的计算方法未能考虑沉默子的细胞特异性，导致准确性降低。尽管已发现多种与基因组上沉默子相关的转录因子和表观遗传修饰，但仍无明确的生物学信号或其组合能完全表征沉默子，这为选择适合的生物学信号进行识别带来了挑战。因此，我们提出了一种基于多种生物学数据源的复杂深度学习框架，称为DeepICSH。具体而言，DeepICSH利用深度卷积神经网络自动捕获与沉默子强相关的生物学信号组合，这些信号源自多样化的生物学信号集合。此外，注意力机制的运用促进了这些信号组合的评分和可视化，而跳跃连接的采用则有助于多层级序列特征与信号组合的融合，从而实现在特定细胞中准确识别沉默子。在HepG2和K562细胞系数据集上的广泛实验表明，DeepICSH在沉默子识别方面优于现有最先进方法。值得注意的是，我们首次引入了基于多组学数据的深度学习框架来分类强沉默子和弱沉默子，并取得了良好性能。总之，DeepICSH在推进复杂疾病中沉默子的研究和分析方面展现出巨大潜力。源代码可在https://github.com/lyli1013/DeepICSH获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37643374/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37643374/",
+  "paper_page_path": "papers/pubmed/37643374/index.html"
+}

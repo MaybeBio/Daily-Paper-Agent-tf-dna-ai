@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "41800124",
+    "doi": "10.7717/peerj.20761",
+    "title": "Identification and validation of biomarkers associated with lactic acid metabolism in diabetic nephropathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Previous studies have demonstrated a close association between diabetic nephropathy (DN) and lactic acid metabolism; however, the underlying mechanisms remain unclear. This study aimed to investigate the role of lactic acid metabolism-related biomarkers in the pathogenesis of DN. METHODS: The DN training and validation datasets were obtained from public databases, while lactic acid metabolism-related genes (LRGs) were sourced from the literature. Using a comprehensive bioinformatics approach, we screened for potential biomarkers. Subsequent analyses included nomogram construction, functional enrichment, immune cell infiltration profiling, regulatory network mapping, drug target prediction, and molecular docking to elucidate the biomarkers' roles in DN pathogenesis. Finally, reverse transcription quantitative polymerase chain reaction (RT-qPCR) was performed to validate biomarker expression levels in clinical samples. RESULTS: Through a comprehensive analysis of bioinformatics methods, we identified two biomarkers-PTGS2 and NFE2L2-as significant candidates in DN. The nomogram demonstrated robust predictive efficacy, validating their utility. NFE2L2 and PTGS2 were positively correlated with the five signal pathways, such as hypoxia and IL2 STAT5 signaling. Both PTGS2 and NFE2L2 had the highest positive correlation with T follicular helper cells (correlation coefficient (cor) = 0.49, p < 0.01, and cor = 0.54, p < 0.01). Two biomarkers predicted multiple miRNAs and transcription factors (TFs), such as miR-144-3p, GATA2, and GATA3. Drug-target analysis highlighted high-affinity interactions for NFE2L2 -lagascatriol and PTGS2 -cimicoxib, further supported by molecular docking. Finally, RT-qPCR confirmed significantly elevated expression of PTGS2 and NFE2L2 in DN samples compared to controls (p < 0.05), aligning with bioinformatics predictions.",
+    "keywords": [
+      "Biomarkers",
+      "Diabetic nephropathy",
+      "Lactic acid metabolism",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "*Diabetic Nephropathies/metabolism/genetics",
+      "Humans",
+      "*Biomarkers/metabolism",
+      "*Cyclooxygenase 2/metabolism/genetics",
+      "*Lactic Acid/metabolism",
+      "*NF-E2-Related Factor 2/metabolism/genetics",
+      "Computational Biology",
+      "Molecular Docking Simulation",
+      "Nomograms",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Hua",
+        "Lu, Xiaoman",
+        "Fang, Guilin",
+        "Qi, Yun",
+        "Cui, Huili",
+        "Zhang, Xiaojuan"
+      ],
+      "short_names": [
+        "Guo H",
+        "Lu X",
+        "Fang G",
+        "Qi Y",
+        "Cui H",
+        "Zhang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatric Cardiology, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China.",
+        "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China.",
+        "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China.",
+        "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China.",
+        "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China.",
+        "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Hua",
+        "short_name": "Guo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Cardiology, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xiaoman",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Guilin",
+        "short_name": "Fang G",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yun",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Huili",
+        "short_name": "Cui H",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaojuan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Kidney Diseases, Jinling Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/09 17:37",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40751834",
+      "40333742",
+      "39305267",
+      "38855868",
+      "38772735",
+      "38748648",
+      "38695335",
+      "38689649",
+      "38200523",
+      "38168661",
+      "38004587",
+      "37958942",
+      "37843477",
+      "37705740",
+      "37545494",
+      "37415097",
+      "37395441",
+      "37308949",
+      "37287620",
+      "36936929",
+      "36796246",
+      "36427568",
+      "36411664",
+      "36385487",
+      "36376165",
+      "36202498",
+      "35983418",
+      "35790774",
+      "35751589",
+      "35728388",
+      "35531774",
+      "35514086",
+      "35368588",
+      "34557218",
+      "34280516",
+      "34149999",
+      "34037990",
+      "33988300",
+      "33932899",
+      "33912042",
+      "33469277",
+      "33323553",
+      "32739204",
+      "32582146",
+      "32361557",
+      "32315976",
+      "32267079",
+      "31701441",
+      "31421134",
+      "30959066",
+      "30450911",
+      "29848325",
+      "28645171",
+      "27477820",
+      "26984380",
+      "25605792",
+      "25516281",
+      "24651729",
+      "24138885",
+      "24135141",
+      "23949796",
+      "23323831",
+      "22455463",
+      "22446165",
+      "21414208",
+      "21269502",
+      "18845810",
+      "16728594",
+      "11846609"
+    ],
+    "similar": [
+      "41800124",
+      "40374840",
+      "41378129",
+      "41479901",
+      "39265357",
+      "40764924",
+      "39444490",
+      "38851464",
+      "38774257",
+      "36329882",
+      "41497483",
+      "38951833",
+      "40467639",
+      "42059276",
+      "40742465",
+      "42461218",
+      "40312440",
+      "42402786",
+      "39456069",
+      "37760894",
+      "39370621",
+      "39865825",
+      "41962331",
+      "39995931",
+      "35651615",
+      "39975557",
+      "41669232",
+      "42181212",
+      "41438111",
+      "40969366",
+      "40775242",
+      "41766874",
+      "41692077",
+      "41340627",
+      "42232759",
+      "40555691",
+      "35909518",
+      "36681521",
+      "40681605",
+      "36969169",
+      "37250717",
+      "42306043",
+      "40460381",
+      "39290792",
+      "40703651",
+      "41709877",
+      "38712372",
+      "40958910",
+      "41743406",
+      "41928356",
+      "39268370",
+      "38332893",
+      "36482994",
+      "40722759",
+      "35845512",
+      "40532306",
+      "39022342",
+      "41825713",
+      "41115648",
+      "41246299",
+      "38690269",
+      "40119934",
+      "40195568",
+      "40927289",
+      "39962573",
+      "41503644",
+      "40597829",
+      "41291841",
+      "42021359",
+      "41070131",
+      "42292364",
+      "41030501",
+      "38379386",
+      "39080630",
+      "40370590",
+      "36280016",
+      "40835195",
+      "34424825",
+      "40425742",
+      "40927188",
+      "41220037",
+      "39920798",
+      "40406126",
+      "41366482",
+      "40825025",
+      "40619276",
+      "31277135",
+      "37745718",
+      "35937822",
+      "40501365",
+      "40082645",
+      "42342966",
+      "41044520",
+      "36291136",
+      "39697326",
+      "40913866",
+      "27279428",
+      "41706425",
+      "36627452",
+      "42398170"
+    ],
+    "review": [
+      "41800124",
+      "36681521"
+    ],
+    "pmc": [
+      "12965171"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41800124/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1270",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.20761",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

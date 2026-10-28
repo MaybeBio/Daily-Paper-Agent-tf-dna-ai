@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and claims as presented in the supplied text; no supplementary files, figures, or tables were available for direct inspection
+- **Shared manuscript claim summary** The authors report development of a domain-specific computational classifier for BRCA1 BRCT missense variants, combined with functional pull-down assays and structural modeling, to interpret variants of uncertain significance (VUS). They claim the classifier outperforms individual in silico tools and matches or exceeds protein language AI models, and that integration of evidence allows reclassification of 12 VUS under ACMG-AMP guidelines.
+- **Visible evidence base** Text descriptions of methods and results; figure and table references cited but not directly viewable; supplementary tables referenced but not provided
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials; raw data; detailed model parameters; complete variant lists; statistical outputs beyond reported confidence intervals
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically important problem: the interpretation of BRCA1 BRCT domain VUS. The authors combine computational prediction, functional assays, and structural modeling in a domain-specific approach. The concept is sound and the clinical motivation is clear. However, the evidence as presented has several gaps that limit confidence in the central claims. The classifier development is described but key validation details are incomplete, the functional assay results are reported only as summary statements without quantitative data, and the structural modeling is acknowledged as static and non-energetic. The claim of ACMG-AMP reclassification for 12 VUS is potentially significant but the evidence chain supporting this is not fully transparent from the text alone. The manuscript would benefit from clearer presentation of data, more rigorous statistical treatment, and discussion of limitations in the context of existing BRCA1 variant interpretation efforts.
+- **Who would be interested in the results, and why** Clinical geneticists and genetic counselors would be interested given the direct relevance to VUS interpretation and patient management. Cancer genetics researchers studying BRCA1 function would find the domain-specific classifier approach and functional data useful. Computational biologists developing variant effect predictors would be interested in the comparative performance claims against AlphaMissense and other tools. Clinicians managing hereditary breast and ovarian cancer patients would value any improvement in VUS classification that impacts clinical decision-making.
+- **Major strengths** The domain-specific approach is well justified given the functional importance of BRCT domains and the concentration of VUS in this region. The integration of multiple evidence types (computational, functional, structural) is appropriate and mirrors ACMG-AMP philosophy. The selection of VUS spanning the classifier score range for functional validation is a sensible design. The use of known pathogenic and benign controls is appropriate. The acknowledgment of limitations in the pull-down assay and structural modeling shows scientific honesty. The comparison to protein language models is timely and relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of classifier validation
+  - **Claim pointer** The classifier achieved 91.1% accuracy on the training set validation fold and 87.9% on the test set, and matched or outperformed AlphaMissense, ESM, and CPT-1.
+  - **Evidence pointer** Section 3.2, Supplementary Tables S1-S3
+  - **Concern** The validation approach is described but critical details are missing. The training set is small (92 pathogenic, 43 benign) and the test set smaller (23 pathogenic, 10 benign). The text does not describe how the train/test split was performed, whether stratification was used, whether variants from the same codon appeared in both sets, or whether any cross-validation was performed on the test set. The comparison to AlphaMissense, ESM, and CPT-1 is mentioned but the methodology for this comparison is not described. Were these models retrained, fine-tuned, or used as-is? What metric was used for comparison? The claim of "matching or outperforming" is not substantiated with statistical testing.
+  - **Why it matters** The central claim of the manuscript is that this domain-specific classifier provides enhanced accuracy for BRCT VUS interpretation. If the validation is not robust, the classifier's utility is not established. The comparison to established AI models is a key differentiator but requires rigorous methodology to be credible.
+  - **Resolution test** Provide detailed description of train/test splitting methodology, including stratification and handling of variants at the same position. Describe the comparison protocol with AlphaMissense, ESM, and CPT-1, including whether these were used as pre-trained models or adapted. Report statistical significance testing for accuracy differences. Provide confusion matrices and per-class performance metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality for functional claims
+  - **Claim pointer** Functional assays demonstrated significant reductions in phosphopeptide binding and/or FLAG signals for specific VUS, with outcomes categorized into four functional groups.
+  - **Evidence pointer** Sections 3.4, 3.5, Figures 3-5
+  - **Concern** The functional results are described only in summary text. No quantitative data are presented in the text. The reader cannot assess effect sizes, variability, or the consistency of results across replicates. The threshold for "significant" is stated as p < 0.05, but the text notes that some results were "not consistently significant" without presenting the actual p-values or effect sizes. The categorization of VUS into functional groups appears to be based on patterns of significance across multiple comparisons, but the multiple testing correction is not described. The anti-BRCA1 co-immunoprecipitation results are described as "generally aligned" with anti-FLAG results, but the degree of alignment is not quantified.
+  - **Why it matters** The functional evidence is a cornerstone of the ACMG-AMP reclassification claims. Without quantitative data, the strength of evidence cannot be evaluated. The manuscript's own threshold-setting exercise (using T1720A to set p < 0.01 as the threshold for LOF) is circular if the same data are used to both set and apply the threshold.
+  - **Resolution test** Present quantitative data for all functional assays, including mean values, standard deviations or standard errors, individual replicate values, and exact p-values. Describe the multiple testing correction approach. Provide a clear description of how the p < 0.01 threshold was determined and whether it was pre-specified or data-derived. Show the full data for the anti-BRCA1 co-immunoprecipitation experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural modeling limitations
+  - **Claim pointer** Structural modeling provided insight into mechanisms by which VUS may impact BRCT folding and function, with variants in structured regions generally demonstrating loss of function.
+  - **Evidence pointer** Section 3.6, Figure 6, Supplementary Table S5
+  - **Concern** The structural modeling is described as using PyMOL for visualization and in silico substitution, but no details are provided about the structural templates used, the quality of the structures, or the criteria for assessing "disrupted" interactions. The authors acknowledge the static nature of the modeling and absence of energetic calculations, but the interpretive weight placed on these models in the discussion is substantial. The claim that variants in structured regions "generally" demonstrate LOF is presented without statistical support.
+  - **Why it matters** Structural context is used to support mechanistic interpretations and to complement functional data. If the structural analysis is not rigorous, the mechanistic claims are weakened. The "general" pattern described could be coincidental given the small number of variants.
+  - **Resolution test** Provide details on PDB structures used, including resolution and chain selection. Describe the criteria for determining whether a substitution disrupts interactions. Quantify the relationship between structural location and functional outcome with appropriate statistical tests. Consider adding energetic calculations or molecular dynamics simulations to strengthen mechanistic claims.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and external validity
+  - **Claim pointer** The classifier can be applied as a method for stratifying VUS, and the approach could be extended to other pleiotropic cancer susceptibility genes.
+  - **Evidence pointer** Sections 4, 5
+  - **Concern** The classifier was trained and tested on ClinVar variants from a single domain of a single gene. The text mentions potential external datasets from other BRCT-bearing proteins but notes that EVE does not provide predictions for these, limiting the classifier's applicability. The claim of generalizability to other genes is not supported by any data. The small number of benign variants in the training set (n = 43) raises concerns about the classifier's ability to accurately identify benign variants, which is critical for clinical utility.
+  - **Why it matters** The clinical value of the classifier depends on its ability to accurately classify VUS across the full spectrum of possible variants. If the classifier is biased toward pathogenic calls or cannot generalize beyond BRCA1 BRCT, its utility is limited.
+  - **Resolution test** Validate the classifier on an independent dataset of BRCA1 BRCT variants with known functional status. Test the classifier on variants from other BRCT domains or other genes if feasible. Report the classifier's performance on benign variants separately from pathogenic variants. Discuss the limitations of the training data composition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Section 2.2, model selection
+  - **Evidence pointer** Section 2.2
+  - **Issue** The text states that "automated training was performed across all 32 available supervised models" but does not specify which models were considered, how hyperparameters were tuned, or whether the final model selection was based on validation or test performance.
+  - **Required correction** Provide a list of the 32 models considered, describe the hyperparameter tuning approach, and clarify that model selection was based on validation performance only, with the test set used once for final evaluation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.4, functional assay statistics
+  - **Evidence pointer** Section 3.4
+  - **Issue** The text reports "significant" reductions but does not specify which statistical test was used, whether data met test assumptions, or how multiple comparisons across multiple phosphopeptides and VUS were handled.
+  - **Required correction** Specify the statistical test used for each comparison, describe how assumptions were verified, and state the multiple testing correction method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** All results
+  - **Evidence pointer** Sections 3.2-3.6
+  - **Issue** The manuscript references supplementary tables and figures extensively, but these are not provided for review. Key data such as complete VUS lists, classifier scores, and functional assay results are only available in supplementary materials.
+  - **Required correction** Ensure all supplementary materials are available for review. Consider including key data in the main text or as accessible supplementary files.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion mentions prior studies by Findlay et al. and Adamovich et al. but does not provide a detailed comparison of how the current results align or diverge from these published functional datasets for the same variants.
+  - **Required correction** Provide a more detailed comparison with published functional data for the VUS studied, highlighting concordance and discordance and discussing implications.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Sections 3.4, 4
+  - **Issue** The term "loss of function" (LOF) is used to describe reduced phosphopeptide binding and/or reduced protein levels, but the manuscript does not clearly define what constitutes LOF in the context of BRCA1 tumor suppressor function.
+  - **Required correction** Provide a clear operational definition of LOF as used in this study, and discuss the relationship between the measured assays and biologically relevant BRCA1 function.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (classifier validation methodology), R1-M2 (quantitative functional data), R1-M3 (structural modeling rigor)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. Domain-specific classifier approaches for BRCA1 are not entirely novel, but the combination of computational, functional, and structural methods in a single study is a reasonable contribution. The comparison to protein language models adds contemporary relevance.
+  - **Scientific importance** High. Improving VUS interpretation in BRCA1 has direct clinical implications for hereditary cancer risk assessment. The problem is significant and well-recognized.
+  - **Interdisciplinary readership** Moderate. The work bridges computational biology, molecular biology, and clinical genetics. However, the presentation is somewhat specialized and may not attract broad interdisciplinary attention without clearer framing of broader implications.
+  - **Technical soundness** Currently insufficient. The classifier validation lacks critical details, the functional data are not quantitatively presented, and the structural modeling is acknowledged as limited. These issues must be resolved to establish technical soundness.
+  - **Readability for nonspecialists** Adequate but improvable. The manuscript is generally well-written, but the methods and results sections assume familiarity with variant interpretation frameworks and computational approaches. A clearer explanation of the clinical significance of VUS and the ACMG-AMP system would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem with a reasonable approach, but the evidence as presented is insufficient to support the central claims. The classifier validation methodology must be clarified, quantitative functional data must be provided, and the structural modeling limitations must be addressed. If these issues are resolved, the manuscript could make a useful contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the classifier "matched or outperformed" AlphaMissense, ESM, and CPT-1 is not substantiated with sufficient methodological detail or statistical testing.
+- The claim that 12 VUS can be reclassified under ACMG-AMP guidelines is not fully supported by the evidence presented in the text, as the functional data are not quantitatively shown and the integration of evidence types is not transparent.
+- The claim that variants in structured regions "generally" demonstrate LOF is not statistically supported.
+- The assertion that reduced FLAG signal reflects reduced steady-state protein levels due to misfolding is presented as a proposal but is not directly tested.
+- The generalizability of the classifier to other BRCT domains or other genes is claimed but not demonstrated.

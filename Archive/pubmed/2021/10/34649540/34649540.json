@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "34649540",
+    "doi": "10.1186/s12903-021-01776-w",
+    "title": "STAT1: a novel candidate biomarker and potential therapeutic target of the recurrent aphthous stomatitis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The recurrent aphthous stomatitis (RAS) frequently affects patient quality of life as a result of long lasting and recurrent episodes of burning pain. However, there were temporarily few available effective medical therapies currently. Drug target identification was the first step in drug discovery, was usually finding the best interaction mode between the potential target candidates and probe small molecules. Therefore, elucidating the molecular mechanism of RAS pathogenesis and exploring the potential molecular targets of medical therapies for RAS was of vital importance. METHODS: Bioinformatics data mining techniques were applied to explore potential novel targets, weighted gene co-expression network analysis (WGCNA) was used to construct a co-expression module of the gene chip data from GSE37265, and the hub genes were identified by the Molecular Complex Detection (MCODE) plugin. RESULTS: A total of 16 co-expression modules were identified, and 30 hub genes in the turquoise module were identified. In addition, functional analysis of Hub genes in modules of interest was performed, which indicated that such hub genes were mainly involved in pathways related to immune response, virus infection, epithelial cell, signal transduction. Two clusters (highly interconnected regions) were determined in the network, with score = 17.647 and 10, respectively, cluster 1 and cluster 2 are linked by STAT1 and ICAM1, it is speculated that STAT1 may be a primary gene of RAS. Finally, genistein, daidzein, kaempferol, resveratrol, rosmarinic acid, triptolide, quercetin and (-)-epigallocatechin-3-gallate were selected from the TCMSP database, and both of them is the STAT-1 inhibitor. The results of reverse molecular docking suggest that in addition to triptolide, (-)-Epigallocatechin-3-gallate and resveratrol, the other 5 compounds (flavonoids) with similar structures may bind to the same position of STAT1 protein with different docking score. CONCLUSIONS: Our study identified STAT1 as the potential biomarkers that might contribute to the diagnosis and potential therapeutic target of RAS, and we can also screen RAS therapeutic drugs from STAT-1 inhibitors.",
+    "keywords": [
+      "Hub genes",
+      "Reverse molecular docking",
+      "STAT1",
+      "The recurrent aphthous stomatitis",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Biomarkers",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Quality of Life",
+      "*STAT1 Transcription Factor/genetics",
+      "*Stomatitis, Aphthous/drug therapy/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Mingchen",
+        "Li, Lei",
+        "Xu, Long",
+        "Fang, Mengxiang",
+        "Xing, Xiaomin",
+        "Zhou, Changkai",
+        "Ren, Wei",
+        "Wang, Longyuan",
+        "Jing, Fanbo"
+      ],
+      "short_names": [
+        "Cao M",
+        "Li L",
+        "Xu L",
+        "Fang M",
+        "Xing X",
+        "Zhou C",
+        "Ren W",
+        "Wang L",
+        "Jing F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Pharmacy, Huang Dao District Second Hospital of Traditional Chinese Medicine, Qingdao, China.",
+        "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China. jingbf178@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Mingchen",
+        "short_name": "Cao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lei",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Long",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Mengxiang",
+        "short_name": "Fang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Huang Dao District Second Hospital of Traditional Chinese Medicine, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Xiaomin",
+        "short_name": "Xing X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Changkai",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Wei",
+        "short_name": "Ren W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Longyuan",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Fanbo",
+        "short_name": "Jing F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Hospital of Qingdao University, Qingdao, China. jingbf178@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC oral health"
+    ],
+    "journal_abbrev": [
+      "BMC Oral Health"
+    ],
+    "pub_date": "2021 Oct 14",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/16 06:00",
+    "fetched_at": "2026-09-28 00:48:48"
+  },
+  "links": {
+    "cites": [
+      "39844998",
+      "36105052"
+    ],
+    "refs": [
+      "33641161",
+      "33291049",
+      "32764968",
+      "32209697",
+      "31665520",
+      "30833765",
+      "30558329",
+      "30476243",
+      "30360719",
+      "29278022",
+      "29156006",
+      "28970155",
+      "28968751",
+      "28472422",
+      "28360966",
+      "28109426",
+      "27293534",
+      "26028911",
+      "25651848",
+      "24790718",
+      "24735618",
+      "24725989",
+      "24278055",
+      "24217985",
+      "24118356",
+      "23953240",
+      "21433155",
+      "21388137",
+      "21062258",
+      "19935876",
+      "19648160",
+      "19499576",
+      "18370868",
+      "18274639",
+      "16199517",
+      "14597658",
+      "11813159",
+      "11063876"
+    ],
+    "similar": [
+      "34649540",
+      "36189637",
+      "36352034",
+      "33971891",
+      "29340037",
+      "31608184",
+      "35333927",
+      "38994368",
+      "32547544",
+      "33099311",
+      "32401299",
+      "28182354",
+      "35128826",
+      "34218797",
+      "34215202",
+      "34580642",
+      "34338989",
+      "36046789",
+      "34856750",
+      "32959187",
+      "34852788",
+      "34435051",
+      "33553345",
+      "33619665",
+      "32117620",
+      "32388106",
+      "34908186",
+      "32206083",
+      "32953751",
+      "31311529",
+      "39343890",
+      "32160184",
+      "35091780",
+      "35016690",
+      "31108164",
+      "34532385",
+      "33391181",
+      "29377892",
+      "31257514",
+      "35295951",
+      "33413749",
+      "35069594",
+      "32627011",
+      "31987036",
+      "29132311",
+      "34130651",
+      "32299499",
+      "31059139",
+      "32298610",
+      "29608426",
+      "37480086",
+      "33622336",
+      "9715368",
+      "26662407",
+      "33535891",
+      "31139013",
+      "32620106",
+      "31268042",
+      "34663380",
+      "25710482",
+      "28150292",
+      "23772946",
+      "30189426",
+      "32537629",
+      "32444534",
+      "34749208",
+      "34861820",
+      "30275705",
+      "35187175",
+      "31512745",
+      "31798636",
+      "8721206",
+      "32036224",
+      "34746302",
+      "33407182",
+      "33133125",
+      "33746571",
+      "33423377",
+      "35047008",
+      "34248836",
+      "34975915",
+      "30988639",
+      "30887286",
+      "32973873",
+      "31180534",
+      "31390578",
+      "34926700",
+      "36937834",
+      "36297027",
+      "33874942"
+    ],
+    "review": [
+      "34649540",
+      "9715368"
+    ],
+    "pmc": [
+      "8515754"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-021-01776-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cankersores.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Canker Sores"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34649540/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34649540",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

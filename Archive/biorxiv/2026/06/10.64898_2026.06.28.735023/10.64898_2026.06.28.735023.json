@@ -1,0 +1,481 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.28.735023",
+  "title": "Peptide:MHC Binding Stability Prediction Using Protein Language Models",
+  "doi": "10.64898/2026.06.28.735023",
+  "abstract": "A bstract Peptide:MHC class I (pMHC-I) binding stability governs the persistence of antigenic complexes at the cell surface and plays a key role in facilitating downstream immunological signals such as antigen presentation, T-cell activation, and immunodominance. However, methods for in silico stability prediction remain underexplored relative to binding affinity prediction, in part because available half-life datasets are sparse and expensive to collect. Here, we perform a systematic reassessment of pMHC-I stability prediction using controlled, similarity-aware data splits and apply a recently introduced supervised transfer-learning strategy to MINT, an interaction-aware protein language model, pre-trained on binding affinity and fine-tuned for quantitative half-life prediction. We show that MINT improves stability prediction over standard ESM-2 representations and existing predictors, and that assay-conditioned recalibration corrects systematic shifts across experimental measurement modalities. Across eluted ligand, immunogenicity, and personalized neoantigen prioritization benchmarks, predicted stability provides signal beyond binding affinity, enriching for naturally presented and immunogenic peptides within affinity-filtered candidate sets. These results establish pMHC-I half-life as an orthogonal and transferable biophysical signal connecting peptide binding, surface presentation, and T-cell recognition, and provide a leakage-aware, assay-aware framework for future antigen-presentation modeling.",
+  "authors": [
+    "Dhuvarakesh Karthikeyan",
+    "Benjamin Vincent",
+    "Alexander Rubinsteyn"
+  ],
+  "published_date": "2026-06-29",
+  "updated_date": "2026-06-30T04:55:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735023",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735023.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            2
+          ]
+        ],
+        "date-time": "2026-07-02T00:47:00Z",
+        "timestamp": 1782953220651,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 38,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                29
+              ]
+            ],
+            "date-time": "2026-06-29T00:00:00Z",
+            "timestamp": 1782691200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:p>\n                  Peptide:MHC class I (pMHC-I) binding stability governs the persistence of antigenic complexes at the cell surface and plays a key role in facilitating downstream immunological signals such as antigen presentation, T-cell activation, and immunodominance. However, methods for\n                  <jats:italic>in silico</jats:italic>\n                  stability prediction remain underexplored relative to binding affinity prediction, in part because available half-life datasets are sparse and expensive to collect. Here, we perform a systematic reassessment of pMHC-I stability prediction using controlled, similarity-aware data splits and apply a recently introduced supervised transfer-learning strategy to MINT, an interaction-aware protein language model, pre-trained on binding affinity and fine-tuned for quantitative half-life prediction. We show that MINT improves stability prediction over standard ESM-2 representations and existing predictors, and that assay-conditioned recalibration corrects systematic shifts across experimental measurement modalities. Across eluted ligand, immunogenicity, and personalized neoantigen prioritization benchmarks, predicted stability provides signal beyond binding affinity, enriching for naturally presented and immunogenic peptides within affinity-filtered candidate sets. These results establish pMHC-I half-life as an orthogonal and transferable biophysical signal connecting peptide binding, surface presentation, and T-cell recognition, and provide a leakage-aware, assay-aware framework for future antigen-presentation modeling.\n                </jats:p>",
+      "DOI": "10.64898/2026.06.28.735023",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            30
+          ]
+        ],
+        "date-time": "2026-06-30T04:55:19Z",
+        "timestamp": 1782795319000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Peptide:MHC Binding Stability Prediction Using Protein Language Models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5819-7561",
+          "authenticated-orcid": false,
+          "given": "Dhuvarakesh",
+          "family": "Karthikeyan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Personalized Immunotherapy Research Lab, UNC Chapel Hill"
+            },
+            {
+              "name": "Bioinformatics and Computational Biology, UNC Chapel Hill"
+            },
+            {
+              "name": "Computational Medicine Program, UNC School of Medicine"
+            },
+            {
+              "name": "Department of Biochemistry and Biophysics, UNC School of Medicine"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Benjamin",
+          "family": "Vincent",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Personalized Immunotherapy Research Lab, UNC Chapel Hill"
+            },
+            {
+              "name": "Bioinformatics and Computational Biology, UNC Chapel Hill"
+            },
+            {
+              "name": "Computational Medicine Program, UNC School of Medicine"
+            },
+            {
+              "name": "Lineberger Comprehensive Cancer Center, UNC Chapel Hill"
+            },
+            {
+              "name": "Department of Microbiology and Immunology, UNC Chapel Hill"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2839-2870",
+          "authenticated-orcid": false,
+          "given": "Alexander",
+          "family": "Rubinsteyn",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Personalized Immunotherapy Research Lab, UNC Chapel Hill"
+            },
+            {
+              "name": "Bioinformatics and Computational Biology, UNC Chapel Hill"
+            },
+            {
+              "name": "Computational Medicine Program, UNC School of Medicine"
+            },
+            {
+              "name": "Lineberger Comprehensive Cancer Center, UNC Chapel Hill"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "4",
+          "key": "2026070117254296000_2026.06.28.735023v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1507",
+          "DOI": "10.4049/jimmunol.158.4.1507",
+          "article-title": "Mhc affinity, peptide liberation, t cell repertoire, and immunodominance all contribute to the paucity of mhc class i-restricted peptides recognized by antiviral ctl",
+          "volume": "158",
+          "year": "1997",
+          "journal-title": "Journal of immunology"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.immunol.17.1.51"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/eji.201141774"
+        },
+        {
+          "issue": "9",
+          "key": "2026070117254296000_2026.06.28.735023v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "3308",
+          "DOI": "10.4049/jimmunol.156.9.3308",
+          "article-title": "Immunogenicity of peptides bound to mhc class i molecules depends on the mhc-peptide complex stability",
+          "volume": "156",
+          "year": "1996",
+          "journal-title": "The Journal of Immunology"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.10.26.684631"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa379"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2025.1616113"
+        },
+        {
+          "issue": "1",
+          "key": "2026070117254296000_2026.06.28.735023v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.1016/j.cels.2020.06.010",
+          "article-title": "Mhcflurry 2.0: Improved pan-allele prediction of mhc class i-presented peptides by incorporating antigen processing",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Cell systems"
+        },
+        {
+          "issue": "4",
+          "key": "2026070117254296000_2026.06.28.735023v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1517",
+          "DOI": "10.4049/jimmunol.1600582",
+          "article-title": "Pan-specific prediction of peptide–mhc class i complex stability, a correlate of t cell immunogenicity",
+          "volume": "197",
+          "year": "2016",
+          "journal-title": "The Journal of Immunology"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuno.2023.100030"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-025-67971-3"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.13",
+          "first-page": "1",
+          "article-title": "Netmhcpan, a method for mhc class i binding prediction beyond humans",
+          "volume": "61",
+          "year": "2008",
+          "journal-title": "Immunogenetics"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M114.566174"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.106.096602"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M113.490664"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2304055120"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz950"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1006"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.20",
+          "first-page": "217",
+          "article-title": "An immunogenic personal neoantigen vaccine for patients with melanoma",
+          "volume": "547",
+          "year": "7662",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-020-01206-4"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08507-5"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06063-y"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08508-4"
+        },
+        {
+          "issue": "3",
+          "key": "2026070117254296000_2026.06.28.735023v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "881",
+          "DOI": "10.1038/s41591-024-03418-4",
+          "article-title": "Personalized, autologous neoantigen-specific T cell therapy in metastatic melanoma: a phase 1 trial",
+          "volume": "31",
+          "year": "2025",
+          "journal-title": "Nat. Med"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm098"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2406285121"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.28",
+          "unstructured": "Etowah Adams , Liam Bai , Minji Lee , Yiyang Yu , and Mohammed Alquraishi . From mechanistic interpretability to mechanistic biology: Training, evaluating, and interpreting sparse autoencoders on protein language models. In Aarti Singh , Maryam Fazel , Daniel Hsu , Simon Lacoste-Julien , Felix Berkenkamp , Tegan Maharaj , Kiri Wagstaff , and Jerry Zhu , editors, Proceedings of the 42nd International Conference on Machine Learning, volume 267 of Proceedings of Machine Learning Research, pages 460–476. PMLR, 13–19 Jul 2025. URL https://proceedings.mlr.press/v267/adams25a.html."
+        },
+        {
+          "issue": "10",
+          "key": "2026070117254296000_2026.06.28.735023v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "2107",
+          "DOI": "10.1038/s41592-025-02836-7",
+          "article-title": "Interplm: discovering interpretable features in protein language models via sparse autoencoders",
+          "volume": "22",
+          "year": "2025",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1207380",
+          "DOI": "10.3389/fbinf.2023.1207380",
+          "article-title": "Improved prediction of mhc-peptide binding using protein language models",
+          "volume": "3",
+          "year": "2023",
+          "journal-title": "Frontiers in Bioinformatics"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1000"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ethan Perez , Florian Strub , Harm de Vries , Vincent Dumoulin , and Aaron Courville. Film: Visual reasoning with a general conditioning layer, 2017. URL https://arxiv.org/abs/1709.07871.",
+          "DOI": "10.1609/aaai.v32i1.11671"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.33",
+          "unstructured": "Ilya Loshchilov and Frank Hutter . Decoupled weight decay regularization, 2019. URL https://arxiv.org/abs/1711.05101."
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.34",
+          "unstructured": "Lukas Biewald . Experiment tracking with weights and biases, 2020. URL https://www.wandb.com/. Software available from wandb.com."
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2532051"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-20166-4"
+        },
+        {
+          "key": "2026070117254296000_2026.06.28.735023v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.262691"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.28.735023",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            2
+          ]
+        ],
+        "date-time": "2026-07-02T00:25:51Z",
+        "timestamp": 1782951951000
+      },
+      "score": 113.4469,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.28.735023"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 38,
+      "URL": "https://doi.org/10.64898/2026.06.28.735023",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

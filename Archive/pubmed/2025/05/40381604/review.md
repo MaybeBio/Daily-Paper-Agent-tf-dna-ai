@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that PCV3 capsid protein (Cap) induces S-phase cell cycle arrest and mitochondrial Caspase-9-dependent apoptosis in PK-15 cells. They map the apoptotic determinant to the N-terminal 1-34 amino acids of Cap, identify hnRNP K as a binding partner, and propose that genotype-specific residues at positions 24 and 27 modulate hnRNP K binding affinity and apoptosis-inducing capacity, with PCV3c Cap showing higher affinity and superior apoptosis induction compared to PCV3a/b variants.
+- **Visible evidence base** Abstract text only; no experimental data, statistical analyses, structural models, or docking results are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, statistical details, structural modelling parameters, docking scores, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between PCV3 Cap genotype variation and apoptosis via hnRNP K binding. However, the evidence base is entirely inaccessible from the abstract alone, and several claims are stated without quantitative support. The central mechanistic model, while plausible, is not verifiable from the supplied material. The work may be of interest to veterinary virologists and researchers studying circovirus pathogenesis, but the current abstract does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Veterinary virologists, porcine disease researchers, and scientists studying circovirus pathogenesis or host-virus protein interactions would be interested. The genotype-specific differences in apoptosis induction could inform vaccine and diagnostic development for PCV3, which is a globally emerging pathogen.
+- **Major strengths** The study addresses a clinically relevant and understudied aspect of PCV3 pathogenesis. The identification of a specific host protein (hnRNP K) and genotype-specific residues provides a concrete molecular hypothesis. The combination of functional assays, truncation analysis, and structural modelling is a reasonable multi-pronged approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PCV3 Cap induced cell cycle arrest of PK-15 cells in S-phase and initiated apoptosis via a mitochondrial Caspase-9-dependent pathway"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states these findings as established facts but provides no quantitative data, such as percentages of cells in S-phase, apoptosis rates, Caspase-9 activity measurements, or Cyt-c release levels. No statistical comparisons or experimental conditions are described.
+  - **Why it matters** Without quantitative evidence and appropriate controls, the reader cannot assess the magnitude or robustness of the observed effects. The claim of a "mitochondrial Caspase-9-dependent pathway" requires demonstration of pathway specificity, not just correlation.
+  - **Resolution test** Provide representative data with statistical analysis, including dose-response and time-course experiments, and show that Caspase-9 inhibition or knockdown abrogates apoptosis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** "hnRNP K was identified as a host protein that binds to PCV3 Cap" and "Overexpression of hnRNP K reduced PCV3 Cap-induced release of Cyt-c into the cytoplasm, implying a regulatory role in apoptosis"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The binding interaction is stated but the method of identification (e.g., co-immunoprecipitation, pull-down, yeast two-hybrid) is not specified. The functional claim relies on overexpression alone, which does not establish a physiological regulatory role. No loss-of-function experiments are mentioned.
+  - **Why it matters** Overexpression can produce artefactual effects. A regulatory role requires evidence that endogenous hnRNP K levels or activity modulate apoptosis, and that the interaction is direct and specific.
+  - **Resolution test** Include loss-of-function studies (e.g., siRNA or CRISPR knockdown), demonstrate direct binding with purified proteins or domain mapping, and show that hnRNP K mutants lacking Cap binding fail to regulate apoptosis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support for genotype-specific differences
+  - **Claim pointer** "PCV3c Cap (V24/K27 and V24/R27) had higher affinity than PCV3a Cap (A24/R27) or PCV3b Cap (A24/K27), consistent with its superior apoptosis-inducing capacity compared to PCV3a/b variants"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports affinity differences and apoptosis capacity differences but provides no binding constants, docking scores, or functional data comparing the variants. The phrase "consistent with" implies correlation, not causation, and the direction of causality is not established.
+  - **Why it matters** The genotype-specific claim is a central novel finding. Without quantitative binding data and direct functional comparisons, the conclusion that residues 24 and 27 determine apoptosis via hnRNP K binding is speculative.
+  - **Resolution test** Provide binding affinity measurements (e.g., surface plasmon resonance or isothermal titration calorimetry) for each variant, and show that apoptosis induction correlates with binding affinity in a dose-dependent manner, ideally with mutant rescue experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Apoptotic determinant mapping
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that truncation analysis localized the determinant to the N-terminal 1-34 aa but does not specify which truncations were tested or how the boundary was defined.
+  - **Required correction** Briefly describe the truncation strategy and the minimal region required for apoptosis induction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "mitochondrial Caspase-9-dependent pathway"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term is somewhat redundant since Caspase-9 is classically part of the intrinsic mitochondrial pathway. Clarify whether the claim is about the intrinsic pathway specifically or a novel mitochondrial mechanism.
+  - **Required correction** Use standard terminology (e.g., "intrinsic apoptosis pathway") or explicitly state what is novel about the pathway.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Cell line choice
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The study uses only PK-15 cells. It is unclear whether the findings are cell-type specific or generalizable to other porcine cell types or primary cells.
+  - **Required correction** Acknowledge this limitation or provide data from at least one additional cell line.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence, loss-of-function validation, and direct binding data for the genotype-specific claims. Without these, the central mechanistic model is not established.
+- **Assessment against Nature-style criteria** Originality: The study addresses a novel aspect of PCV3 pathogenesis, and the genotype-specific hnRNP K interaction is a fresh angle. Scientific importance: Moderate to high for the veterinary virology community, but the broader impact is limited by the narrow focus on one virus and one host protein. Interdisciplinary readership: Limited; the work is primarily of interest to virologists and veterinary scientists, with less appeal to general cell biology or immunology audiences. Technical soundness: Cannot be assessed from the abstract alone; the described methods are reasonable but unverifiable. Readability for nonspecialists: The abstract is concise and understandable, though some terms (e.g., "hnRNP K") assume background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and mechanistic support needed to substantiate the claims. I would be supportive if the full manuscript provides the missing data and addresses the major concerns.
+
+## Risk / unsupported claims
+- The claim that PCV3 Cap induces S-phase arrest and mitochondrial apoptosis is unsupported without quantitative data.
+- The identification of hnRNP K as a binding partner is unverifiable without method details.
+- The regulatory role of hnRNP K in apoptosis is unsupported without loss-of-function experiments.
+- The genotype-specific affinity and apoptosis differences are unsupported without binding constants and functional comparisons.
+- The statement that findings "will inform development of vaccines and diagnostics" is speculative and not directly supported by the data described.

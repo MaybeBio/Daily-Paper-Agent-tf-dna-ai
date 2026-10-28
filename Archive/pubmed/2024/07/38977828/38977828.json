@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "38977828",
+    "doi": "10.1038/s41598-024-66591-z",
+    "title": "Noninvasive, label-free image approaches to predict multimodal molecular markers in pluripotency assessment."
+  },
+  "content": {
+    "abstract": "Manufacturing regenerative medicine requires continuous monitoring of pluripotent cell culture and quality assessment while eliminating cell destruction and contaminants. In this study, we employed a novel method to monitor the pluripotency of stem cells through image analysis, avoiding the traditionally used invasive procedures. This approach employs machine learning algorithms to analyze stem cell images to predict the expression of pluripotency markers, such as OCT4 and NANOG, without physically interacting with or harming cells. We cultured induced pluripotent stem cells under various conditions to induce different pluripotent states and imaged the cells using bright-field microscopy. Pluripotency states of induced pluripotent stem cells were assessed using invasive methods, including qPCR, immunostaining, flow cytometry, and RNA sequencing. Unsupervised and semi-supervised learning models were applied to evaluate the results and accurately predict the pluripotency of the cells using only image analysis. Our approach directly links images to invasive assessment results, making the analysis of cell labeling and annotation of cells in images by experts dispensable. This core achievement not only contributes for safer and more reliable stem cell research but also opens new avenues for real-time monitoring and quality control in regenerative medicine manufacturing. Our research fills an important gap in the field by providing a viable, noninvasive alternative to traditional invasive methods for assessing pluripotency. This innovation is expected to make a significant contribution to improving regenerative medicine manufacturing because it will enable a more detailed and feasible understanding of cellular status during the manufacturing process.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Induced Pluripotent Stem Cells/metabolism/cytology",
+      "*Biomarkers/metabolism",
+      "Humans",
+      "Octamer Transcription Factor-3/metabolism/genetics",
+      "Nanog Homeobox Protein/metabolism/genetics",
+      "Image Processing, Computer-Assisted/methods",
+      "Machine Learning",
+      "Regenerative Medicine/methods",
+      "Flow Cytometry/methods",
+      "Animals",
+      "Cell Differentiation",
+      "Cells, Cultured"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akiyoshi, Ryutaro",
+        "Hase, Takeshi",
+        "Sathiyananthavel, Mayuri",
+        "Ghosh, Samik",
+        "Kitano, Hiroaki",
+        "Yachie, Ayako"
+      ],
+      "short_names": [
+        "Akiyoshi R",
+        "Hase T",
+        "Sathiyananthavel M",
+        "Ghosh S",
+        "Kitano H",
+        "Yachie A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Yokogawa Electric Corporation, 2-9-32 Nakacho, Musashino-shi, Tokyo, 180-8750, Japan.",
+        "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan.",
+        "SBX BioSciences, Inc, 1111 West Georgia Street, 20th Floor, Vancouver, BC, V6E 4G2, Canada.",
+        "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan.",
+        "SBX BioSciences, Inc, 1111 West Georgia Street, 20th Floor, Vancouver, BC, V6E 4G2, Canada.",
+        "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan.",
+        "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan.",
+        "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan. yachie@sbx-biosci.com.",
+        "SBX BioSciences, Inc, 1111 West Georgia Street, 20th Floor, Vancouver, BC, V6E 4G2, Canada. yachie@sbx-biosci.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akiyoshi, Ryutaro",
+        "short_name": "Akiyoshi R",
+        "identifiers": [],
+        "affiliations": [
+          "Yokogawa Electric Corporation, 2-9-32 Nakacho, Musashino-shi, Tokyo, 180-8750, Japan."
+        ]
+      },
+      {
+        "full_name": "Hase, Takeshi",
+        "short_name": "Hase T",
+        "identifiers": [],
+        "affiliations": [
+          "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan.",
+          "SBX BioSciences, Inc, 1111 West Georgia Street, 20th Floor, Vancouver, BC, V6E 4G2, Canada."
+        ]
+      },
+      {
+        "full_name": "Sathiyananthavel, Mayuri",
+        "short_name": "Sathiyananthavel M",
+        "identifiers": [],
+        "affiliations": [
+          "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan.",
+          "SBX BioSciences, Inc, 1111 West Georgia Street, 20th Floor, Vancouver, BC, V6E 4G2, Canada."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Samik",
+        "short_name": "Ghosh S",
+        "identifiers": [],
+        "affiliations": [
+          "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan."
+        ]
+      },
+      {
+        "full_name": "Kitano, Hiroaki",
+        "short_name": "Kitano H",
+        "identifiers": [],
+        "affiliations": [
+          "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan."
+        ]
+      },
+      {
+        "full_name": "Yachie, Ayako",
+        "short_name": "Yachie A",
+        "identifiers": [],
+        "affiliations": [
+          "The Systems Biology Institute, Saisei Ikedayama Bldg., 5-10-25, Higashi Gotanda, Shinagawa-ku, Tokyo, 141-0022, Japan. yachie@sbx-biosci.com.",
+          "SBX BioSciences, Inc, 1111 West Georgia Street, 20th Floor, Vancouver, BC, V6E 4G2, Canada. yachie@sbx-biosci.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jul 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/09 00:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "41828604",
+      "41752020"
+    ],
+    "refs": [
+      "37627140",
+      "37232862",
+      "36613583",
+      "36459966",
+      "34557778",
+      "34502254",
+      "32747659",
+      "31877128",
+      "30880077",
+      "30741960",
+      "30423086",
+      "30272273",
+      "29765017",
+      "29656897",
+      "28489815",
+      "27586164",
+      "25751142",
+      "25280218",
+      "24866112",
+      "24227677",
+      "22965355",
+      "22761414",
+      "21464514",
+      "21378979",
+      "19703398",
+      "18627312",
+      "18097409",
+      "17588935",
+      "17251147",
+      "8378314"
+    ],
+    "similar": [
+      "38977828",
+      "31570522",
+      "31389301",
+      "33256572",
+      "29893054",
+      "32311348",
+      "33226623",
+      "26358783",
+      "23253934",
+      "28545230",
+      "31322312",
+      "32233339",
+      "23197756",
+      "23629142",
+      "30289916",
+      "28165055",
+      "31709909",
+      "27146218",
+      "33226621",
+      "26153797",
+      "26654216",
+      "27996082",
+      "33397195",
+      "28457890",
+      "27541086",
+      "28153093",
+      "31412978",
+      "22970157",
+      "27636107",
+      "28901500",
+      "23333380",
+      "21898682",
+      "27591478",
+      "26877091",
+      "20030562",
+      "28712847",
+      "30529251",
+      "29566770",
+      "19890879",
+      "26424535",
+      "24492934",
+      "39358374",
+      "32777770",
+      "29993328",
+      "29933066",
+      "22696450",
+      "30457474",
+      "19688839",
+      "25826722",
+      "29378844",
+      "24167316",
+      "23421367",
+      "32428045",
+      "23097321",
+      "23582880",
+      "21156086",
+      "23064289",
+      "30557557",
+      "26882313",
+      "27473118",
+      "26758557",
+      "34056710",
+      "23326334",
+      "28625858",
+      "20027182",
+      "23769173",
+      "27296060",
+      "21852325",
+      "21944493",
+      "34725790",
+      "31664691",
+      "19373451",
+      "20698766",
+      "36523163",
+      "29170476",
+      "24560741",
+      "31248595",
+      "24218367",
+      "22079579",
+      "26642061",
+      "26453549",
+      "17267691",
+      "30598530",
+      "22669820",
+      "20026622",
+      "28253866",
+      "31570708",
+      "24715528",
+      "21738644",
+      "23649632",
+      "24937776",
+      "28436127",
+      "21124894",
+      "38700983",
+      "32150692",
+      "30275266",
+      "29717132",
+      "31898359",
+      "27245508",
+      "18388306",
+      "26970624",
+      "38994744",
+      "38710387",
+      "39431783"
+    ],
+    "review": [
+      "38977828",
+      "28901500",
+      "26424535",
+      "21156086"
+    ],
+    "pmc": [
+      "11231322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-66591-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38977828/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NANOG-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse256303",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

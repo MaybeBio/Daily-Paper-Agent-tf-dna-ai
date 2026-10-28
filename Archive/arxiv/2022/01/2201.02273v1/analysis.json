@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2201.02273v1",
+  "title": "PWM2Vec: An Efficient Embedding Approach for Viral Host Specification from Coronavirus Spike Sequences",
+  "authors": "Sarwan Ali; Babatunde Bello; Prakash Chourasia; Ria Thazhe Punathil; Yijing Zhou; Murray Patterson",
+  "journal": "",
+  "published_date": "2022-01-06",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用PWM嵌入对冠状病毒刺突蛋白序列进行宿主分类，虽提及PWM在TF结合位点识别中的应用，但核心是病毒宿主预测，非蛋白质-DNA互作体系，且无AI/物理模拟结合建模方法。",
+  "abstract": "COVID-19 pandemic, is still unknown and is an important open question. There are speculations that bats are a possible origin. Likewise, there are many closely related (corona-) viruses, such as SARS, which was found to be transmitted through civets. The study of the different hosts which can be potential carriers and transmitters of deadly viruses to humans is crucial to understanding, mitigating and preventing current and future pandemics. In coronaviruses, the surface (S) protein, or spike protein, is an important part of determining host specificity since it is the point of contact between the virus and the host cell membrane. In this paper, we classify the hosts of over five thousand coronaviruses from their spike protein sequences, segregating them into clusters of distinct hosts among avians, bats, camels, swines, humans and weasels, to name a few. We propose a feature embedding based on the well-known position-weight matrix (PWM), which we call PWM2Vec, and use to generate feature vectors from the spike protein sequences of these coronaviruses. While our embedding is inspired by the success of PWMs in biological applications such as determining protein function, or identifying transcription factor binding sites, we are the first (to the best of our knowledge) to use PWMs in the context of host classification from viral sequences to generate a fixed-length feature vector representation. The results on the real world data show that in using PWM2Vec, we are able to perform comparably well as compared to baseline models. We also measure the importance of different amino acids using information gain to show the amino acids which are important for predicting the host of a given coronavirus.",
+  "abstract_zh": "COVID-19大流行的起源至今仍未知，这是一个重要的未解问题。有推测认为蝙蝠可能是可能的起源。同样，存在许多密切相关的（冠状）病毒，例如SARS，已发现其通过果子狸传播。研究可能成为致命病毒向人类传播的潜在携带者和传播者的不同宿主，对于理解、缓解和预防当前及未来的大流行至关重要。在冠状病毒中，表面（S）蛋白，即刺突蛋白，是决定宿主特异性的重要部分，因为它是病毒与宿主细胞膜接触的位点。本文中，我们根据刺突蛋白序列对超过五千种冠状病毒的宿主进行分类，将其划分为鸟类、蝙蝠、骆驼、猪、人类和鼬等不同宿主的簇。我们提出了一种基于著名位置权重矩阵（PWM）的特征嵌入方法，称为PWM2Vec，并用于从这些冠状病毒的刺突蛋白序列生成特征向量。虽然我们的嵌入方法受到PWM在生物应用（如确定蛋白质功能或识别转录因子结合位点）中成功的启发，但据我们所知，我们是首次在从病毒序列进行宿主分类的背景下使用PWM来生成固定长度的特征向量表示。真实世界数据的结果显示，使用PWM2Vec时，我们能够与基线模型表现相当。我们还利用信息增益衡量不同氨基酸的重要性，以展示对预测给定冠状病毒宿主至关重要的氨基酸。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2201.02273v1",
+  "source_url": "https://arxiv.org/abs/2201.02273v1",
+  "paper_page_path": "papers/arxiv/2201.02273v1/index.html"
+}

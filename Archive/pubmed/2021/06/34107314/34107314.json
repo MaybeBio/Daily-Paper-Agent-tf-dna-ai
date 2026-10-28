@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "34107314",
+    "doi": "10.1016/j.cca.2021.06.008",
+    "title": "Noninvasive discrimination of benign and malignant breast lesions using genome-wide nucleosome profiles of plasma cell-free DNA."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast malignancy is the most frequently diagnosed malignancy in women worldwide, and the diagnosis relies on invasive examinations. However, most clinical breast changes in women are benign, and invasive diagnostic approaches cause unnecessary suffering for the patients. Thus, a novel noninvasive approach for discriminating malignant breast lesions from benign lesions is needed. METHODS: We performed cell-free DNA (cfDNA) sequencing on plasma samples from 173 malignant breast lesion patients, 158 benign breast lesion patients, and 102 healthy women. We then analyzed the cfDNA-based nucleosome profiles, which reflect the various tissues of origin and transcription factor activities. Moreover, by using machine learning classifiers along with the cfDNA sequencing data, we built classifiers for discriminating benign from malignant breast lesions. Receiver operating characteristic curve analyses were used to evaluate the performance of the classifiers. RESULTS: cfDNA-based nucleosome profiles reflected the various tissues of origin and transcription factor activities in benign and malignant breast lesions. The cfDNA-based transcription factor activities and breast malignancy-specific transcription factor-binding site accessibility profiles could accurately distinguish benign and malignant breast lesions, with area under the curve values of 0.777 and 0.824, respectively. CONCLUSIONS: Our proof-of-principle study established a methodology for noninvasively discriminating benign from malignant breast lesions.",
+    "keywords": [
+      "Benign breast lesion",
+      "Breast malignancy",
+      "Cell-free DNA",
+      "Nucleosome"
+    ],
+    "mesh_terms": [
+      "Breast",
+      "*Breast Neoplasms/diagnosis/genetics",
+      "*Cell-Free Nucleic Acids/genetics",
+      "Diagnosis, Differential",
+      "Female",
+      "Humans",
+      "Nucleosomes/genetics",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Bo-Wei",
+        "Cai, Geng-Xi",
+        "Liu, Qing",
+        "Yang, Xu",
+        "Guo, Zhi-Wei",
+        "Huang, Li-Min",
+        "Li, Kun",
+        "Ouyang, Guo-Jun",
+        "Yang, Xue-Xi",
+        "Ye, Guo-Lin",
+        "Wu, Ying-Song"
+      ],
+      "short_names": [
+        "Han BW",
+        "Cai GX",
+        "Liu Q",
+        "Yang X",
+        "Guo ZW",
+        "Huang LM",
+        "Li K",
+        "Ouyang GJ",
+        "Yang XX",
+        "Ye GL",
+        "Wu YS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China.",
+        "Department of Breast Surgery, The First People's Hospital of Foshan, Foshan 528000, China; Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510120, China.",
+        "Department of Pathology, The First People's Hospital of Foshan, Foshan 528000, China.",
+        "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China.",
+        "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China.",
+        "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China.",
+        "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China; Guangzhou XGene Co., Ltd., Guangzhou 510500, China.",
+        "Guangzhou Darui Biotechnology Co., Ltd., Guangzhou 510663, China.",
+        "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China. Electronic address: yxx1214@smu.edu.cn.",
+        "Department of Breast Surgery, The First People's Hospital of Foshan, Foshan 528000, China. Electronic address: yglin@fsyyy.com.",
+        "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China. Electronic address: wg@smu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Bo-Wei",
+        "short_name": "Han BW",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Geng-Xi",
+        "short_name": "Cai GX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First People's Hospital of Foshan, Foshan 528000, China; Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qing",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First People's Hospital of Foshan, Foshan 528000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xu",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhi-Wei",
+        "short_name": "Guo ZW",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Li-Min",
+        "short_name": "Huang LM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kun",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China; Guangzhou XGene Co., Ltd., Guangzhou 510500, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Guo-Jun",
+        "short_name": "Ouyang GJ",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Darui Biotechnology Co., Ltd., Guangzhou 510663, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xue-Xi",
+        "short_name": "Yang XX",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China. Electronic address: yxx1214@smu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ye, Guo-Lin",
+        "short_name": "Ye GL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First People's Hospital of Foshan, Foshan 528000, China. Electronic address: yglin@fsyyy.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Ying-Song",
+        "short_name": "Wu YS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Antibody Engineering, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou 510515, China. Electronic address: wg@smu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinica chimica acta; international journal of clinical chemistry"
+    ],
+    "journal_abbrev": [
+      "Clin Chim Acta"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/10 06:00",
+    "fetched_at": "2026-09-27 19:01:59"
+  },
+  "links": {
+    "cites": [
+      "42003932",
+      "40830871",
+      "40097933",
+      "36338263"
+    ],
+    "refs": [],
+    "similar": [
+      "34107314",
+      "31364001",
+      "32364311",
+      "30634138",
+      "31472049",
+      "20489111",
+      "33608029",
+      "28929243",
+      "23548472",
+      "33067211",
+      "28460452",
+      "36386459",
+      "25889380",
+      "17431649",
+      "36463275",
+      "36001652",
+      "32993571",
+      "33389371",
+      "29369183",
+      "31811000",
+      "26724648",
+      "33439373",
+      "31658463",
+      "38337183",
+      "27765598",
+      "26356673",
+      "37740218",
+      "10894069",
+      "32871130",
+      "28526455",
+      "21211028",
+      "31318932",
+      "36675018",
+      "32345804",
+      "29656388",
+      "26771485",
+      "32061014",
+      "33289355",
+      "29165847",
+      "14519877",
+      "17507720",
+      "29952951",
+      "25430023",
+      "32979051",
+      "26071495",
+      "31102067",
+      "32517657",
+      "25466772",
+      "25154847",
+      "33179809",
+      "37715016",
+      "21926864",
+      "21212365",
+      "30308430",
+      "32741373",
+      "24306042",
+      "27955879",
+      "31425816",
+      "21972043",
+      "27993161",
+      "28780840",
+      "28162171",
+      "29376201",
+      "32504098",
+      "31234922",
+      "19929254",
+      "23341385",
+      "32924988",
+      "29504912",
+      "33947882",
+      "24119350",
+      "32067681",
+      "23062280",
+      "29957029",
+      "28189199",
+      "22593124",
+      "24750508",
+      "32973745",
+      "22245697",
+      "31112086",
+      "31203487",
+      "25636031",
+      "26343918",
+      "34189876",
+      "27519160",
+      "30993927",
+      "30255252",
+      "27978930",
+      "28876982",
+      "26745902",
+      "34649537",
+      "26688549",
+      "23706826",
+      "37439529",
+      "34926480",
+      "35484288",
+      "17549664",
+      "31604930",
+      "30575273",
+      "39068267",
+      "37540006",
+      "19311957"
+    ],
+    "review": [
+      "34107314",
+      "28460452"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-8981(21)00206-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

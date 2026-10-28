@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "42510881",
+    "doi": "10.3390/genes17070841",
+    "title": "Macrophage-Centered Integration of Single-Cell and Bulk Transcriptomic Data Identifies CCL3, CCL4, and JUNB as Inflammatory Regulatory Signatures in Ulcerative Colitis."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: This study aimed to identify and characterize macrophage-associated inflammatory regulatory signatures in ulcerative colitis (UC) by integrating bulk and single-cell transcriptomic data, and to explore their potential regulatory and pharmacological relevance. METHODS: Two colonic bulk microarray datasets (GSE179285 and GSE87466) and one single-cell RNA-sequencing dataset (GSE231993) were analyzed. Differential expression analysis, area under the recovery curve-based single-cell gene-set scoring (AUCell) scoring, macrophage high-dimensional Weighted Gene Co-Expression Network Analysis (hdWGCNA), and three machine learning algorithms were combined to prioritize candidate genes. Their expression and diagnostic performance were externally validated. Macrophage trajectory analysis, cell-cell communication analysis, virtual perturbation, transcription factor activity inference, compound prediction, and molecular docking were further performed. RESULTS: Single-cell preprocessing retained 30,737 high-quality cells, and macrophages exhibited relatively high innate immune cell barrier-related gene activity. Integrated screening identified CCL3, CCL4, JUNB, and FOS, whereas machine learning consensus retained CCL3, CCL4, and JUNB as the final signatures. These genes were consistently upregulated in UC, with validation area-under-the-curve values of 0.917, 0.958, and 0.888, respectively. Their expression varied along an inferred macrophage inflammatory state continuum, and UC showed remodeled macrophage-centered communication, including CXCL8-ACKR1 signaling. Virtual perturbation linked CCL3 and CCL4 to chemotaxis and lysosomal programs and JUNB to antigen processing and major histocompatibility complex (MHC) class II pathways; RFX5 was prioritized as a potential upstream regulator. CID11879209 was predicted as a shared candidate compound, with docking energies of -6.55, -6.31, and -4.50 kcal/mol for CCL3, CCL4, and JUNB, respectively. CONCLUSIONS: CCL3, CCL4, and JUNB constitute a macrophage-associated inflammatory signature connecting tissue-level UC dysregulation with macrophage state remodeling. These findings provide testable molecular and pharmacological hypotheses requiring further experimental and clinical validation.",
+    "keywords": [
+      "cell-cell communication",
+      "macrophages",
+      "regulatory network",
+      "single-cell RNA sequencing",
+      "transcriptomics",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "*Colitis, Ulcerative/genetics/pathology/metabolism",
+      "*Macrophages/metabolism/pathology",
+      "Humans",
+      "*Chemokine CCL3/genetics/metabolism",
+      "*Chemokine CCL4/genetics/metabolism",
+      "Single-Cell Analysis",
+      "*Transcriptome/genetics",
+      "Single-Cell Gene Expression Analysis",
+      "Gene Regulatory Networks",
+      "*Transcription Factors/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Inflammation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Haoyang",
+        "Chen, Yongliang",
+        "Chai, Yongchun",
+        "Yu, Sike",
+        "Ma, Peiyao",
+        "Lei, Ruibin",
+        "Zhou, Shuhan",
+        "Lv, Wenliang"
+      ],
+      "short_names": [
+        "Meng H",
+        "Chen Y",
+        "Chai Y",
+        "Yu S",
+        "Ma P",
+        "Lei R",
+        "Zhou S",
+        "Lv W"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4173-7225",
+        "ORCID: 0009-0004-2620-9045"
+      ],
+      "affiliations": [
+        "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China.",
+        "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China.",
+        "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China.",
+        "School of Pharmaceutical Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China.",
+        "School of Pharmaceutical Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China.",
+        "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Haoyang",
+        "short_name": "Meng H",
+        "identifiers": [
+          "0009-0004-4173-7225"
+        ],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yongliang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Yongchun",
+        "short_name": "Chai Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Sike",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Peiyao",
+        "short_name": "Ma P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Ruibin",
+        "short_name": "Lei R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shuhan",
+        "short_name": "Zhou S",
+        "identifiers": [
+          "0009-0004-2620-9045"
+        ],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Wenliang",
+        "short_name": "Lv W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hubei University of Chinese Medicine, Wuhan 430061, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Jul 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:37",
+    "fetched_at": "2026-10-02 02:42:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41528944",
+      "41094572",
+      "40597456",
+      "40102386",
+      "39904604",
+      "39756419",
+      "39572132",
+      "39438660",
+      "38374043",
+      "37731821",
+      "37698559",
+      "37573077",
+      "37495570",
+      "37426759",
+      "37344477",
+      "37261911",
+      "37235748",
+      "37231261",
+      "37209960",
+      "37069320",
+      "36742294",
+      "36725964",
+      "36370105",
+      "36103851",
+      "35510185",
+      "35163326",
+      "34635919",
+      "34561227",
+      "34557778",
+      "34423492",
+      "34278794",
+      "34052735",
+      "34019798",
+      "33634985",
+      "33597522",
+      "33570153",
+      "33359090",
+      "31340985",
+      "29485622",
+      "29401083",
+      "28991892",
+      "27207943",
+      "26771021",
+      "26479676",
+      "25605792",
+      "24658644",
+      "23180781",
+      "21414208"
+    ],
+    "similar": [
+      "42510881",
+      "41242266",
+      "42404897",
+      "42265520",
+      "42099632",
+      "42074501",
+      "42233387",
+      "42099592",
+      "42510819",
+      "41789070",
+      "39647286",
+      "40979590",
+      "42123445",
+      "42309401",
+      "40433374",
+      "42435052",
+      "42024670",
+      "39791167",
+      "41459538",
+      "40764361",
+      "39707393",
+      "41153430",
+      "42136960",
+      "42317318",
+      "41300794",
+      "41972123",
+      "42317364",
+      "42256531",
+      "41300749",
+      "42088521",
+      "40821793",
+      "41735888",
+      "41094572",
+      "41029776",
+      "42553137",
+      "41388523",
+      "41601657",
+      "41785251",
+      "42253985",
+      "41324863",
+      "41611834",
+      "42577419",
+      "41009970",
+      "41409278",
+      "40525338",
+      "42045413",
+      "42249833",
+      "41406086",
+      "41436831",
+      "40859509",
+      "41711656",
+      "42450069",
+      "41299485",
+      "37369160",
+      "39975557",
+      "38656456",
+      "42471019",
+      "41009952",
+      "42385606",
+      "42074514",
+      "40948782",
+      "40963602",
+      "41601671",
+      "41739808",
+      "41656832",
+      "41816342",
+      "41563994",
+      "42079609",
+      "42136644",
+      "40711603",
+      "40304766",
+      "42349804",
+      "41939783",
+      "40918148",
+      "41208987",
+      "42492262",
+      "41840566",
+      "42569390",
+      "41050686",
+      "40600991",
+      "41940383",
+      "38849409",
+      "41212891",
+      "42059276",
+      "38880160",
+      "39673621",
+      "41895505",
+      "42352882",
+      "36742294",
+      "40454507",
+      "41716413",
+      "42196413",
+      "39364414",
+      "41601651",
+      "41722860",
+      "42158856",
+      "42510776",
+      "40701122",
+      "41200169",
+      "41789108"
+    ],
+    "review": [
+      "42510881"
+    ],
+    "pmc": [
+      "13409952"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17070841",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42510881/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

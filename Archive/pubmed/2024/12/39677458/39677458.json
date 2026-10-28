@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "39677458",
+    "doi": "10.1101/2024.12.01.24318008",
+    "title": "Network-based drug repurposing for psychiatric disorders using single-cell genomics."
+  },
+  "content": {
+    "abstract": "Neuropsychiatric disorders lack effective treatments due to a limited understanding of underlying cellular and molecular mechanisms. To address this, we integrated population-scale single-cell genomics data and analyzed cell-type-level gene regulatory networks across schizophrenia, bipolar disorder, and autism (23 cell classes/subclasses). Our analysis revealed potential druggable transcription factors co-regulating known risk genes that converge into cell-type-specific co-regulated modules. We applied graph neural networks on those modules to prioritize novel risk genes and leveraged them in a network-based drug repurposing framework to identify 220 drug molecules with the potential for targeting specific cell types. We found evidence for 37 of these drugs in reversing disorder-associated transcriptional phenotypes. Additionally, we discovered 335 drug-associated cell-type eQTLs, revealing genetic variation's influence on drug target expression at the cell-type level. Our results provide a single-cell network medicine resource that provides mechanistic insights for advancing treatment options for neuropsychiatric disorders.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Chirag",
+        "Kalafut, Noah Cohen",
+        "Clarke, Declan",
+        "Choi, Jerome J",
+        "Arachchilage, Kalpana Hanthanan",
+        "Khullar, Saniya",
+        "Xia, Yan",
+        "Zhou, Xiao",
+        "Gerstein, Mark",
+        "Wang, Daifeng"
+      ],
+      "short_names": [
+        "Gupta C",
+        "Kalafut NC",
+        "Clarke D",
+        "Choi JJ",
+        "Arachchilage KH",
+        "Khullar S",
+        "Xia Y",
+        "Zhou X",
+        "Gerstein M",
+        "Wang D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9190-3704"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Chirag",
+        "short_name": "Gupta C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kalafut, Noah Cohen",
+        "short_name": "Kalafut NC",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Clarke, Declan",
+        "short_name": "Clarke D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Choi, Jerome J",
+        "short_name": "Choi JJ",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Arachchilage, Kalpana Hanthanan",
+        "short_name": "Arachchilage KH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Khullar, Saniya",
+        "short_name": "Khullar S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xia, Yan",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhou, Xiao",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gerstein, Mark",
+        "short_name": "Gerstein M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Daifeng",
+        "short_name": "Wang D",
+        "identifiers": [
+          "0000-0001-9190-3704"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2024 Dec 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/16 17:25",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39677458",
+      "40972584",
+      "40653482",
+      "40102990",
+      "39830273",
+      "36945630",
+      "40496862",
+      "36993726",
+      "36055211",
+      "35849618",
+      "31797637",
+      "37314780",
+      "32889528",
+      "29297292",
+      "33407556",
+      "39483867",
+      "39828023",
+      "33704401",
+      "40362692",
+      "40784413",
+      "38321095",
+      "38190860",
+      "25360157",
+      "27483382",
+      "39775833",
+      "31500805",
+      "36064320",
+      "30772379",
+      "41409427",
+      "37577650",
+      "28809398",
+      "34189529",
+      "40727846",
+      "37862243",
+      "30478419",
+      "20562745",
+      "26283638",
+      "37365631",
+      "38002524",
+      "40895757",
+      "39644579",
+      "36385761",
+      "39661350",
+      "40852779",
+      "38660492",
+      "41029193",
+      "26826498",
+      "38443977",
+      "39884058",
+      "40385394",
+      "41271629",
+      "41445618",
+      "38640424",
+      "39399035",
+      "39976098",
+      "33720009",
+      "39337329",
+      "27771971",
+      "37985457",
+      "39191171",
+      "38864245",
+      "34604234",
+      "33192679",
+      "19457258",
+      "34750486",
+      "38600056",
+      "34537986",
+      "23046216",
+      "36424644",
+      "31059518",
+      "39862994",
+      "24564939",
+      "39236717",
+      "34230558",
+      "39333906",
+      "35412455",
+      "37293101",
+      "25849321",
+      "36090817",
+      "29246163",
+      "28529066",
+      "37904203",
+      "33919660",
+      "37037607",
+      "39829962",
+      "40653240",
+      "38781369",
+      "31127088",
+      "30545856",
+      "26100720",
+      "33330858",
+      "38675137",
+      "35508467",
+      "37418754",
+      "39950180",
+      "30586385",
+      "41465535",
+      "38181731",
+      "36757824",
+      "40656105"
+    ],
+    "review": [
+      "39677458",
+      "33704401",
+      "20562745",
+      "26826498",
+      "34537986"
+    ],
+    "pmc": [
+      "11643187"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39677458/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.01.24318008",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report a computational screening of marine natural products (MNPs) from the CMNPD database against the LasR transcriptional activator of Pseudomonas aeruginosa, using molecular docking and molecular dynamics simulations. They identify ten MNPs with docking scores below -11.7 kcal/mol, select five for 100 ns simulations based on MM/GBSA binding energies, and report that three compounds (CMNPD10886, CMNPD20987, CMNPD20960) maintain stability across multiple metrics. The authors conclude these compounds hold potential as LasR inhibitors.
+- **Visible evidence base** Docking scores for ten MNPs, comparator values for 3-oxo-C12-HSL and cladodionen, MM/GBSA-based selection of five compounds, simulation duration (100 ns), stability metrics (RMSD, RMSF, radius of gyration, hydrogen bonds), and essential dynamics analyses (PCA, DCCM)
+- **Missing materials affecting confidence** Full methods, docking protocol parameters, force field details, simulation setup, validation of docking against known inhibitors, structural figures, trajectory analyses, compound structures, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a straightforward computational pipeline for identifying potential LasR inhibitors from marine natural products. The work is technically plausible but limited in scope and novelty. The core claims regarding compound stability are supported only by simulation metrics, which are necessary but insufficient to establish genuine inhibitory potential. The absence of experimental validation, limited comparison with established inhibitors, and lack of methodological detail in the abstract prevent full assessment. The study may be of interest to computational chemists and microbiologists working on quorum sensing, but the claims of therapeutic potential are overstated relative to the evidence presented.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, particularly those focused on quorum sensing and anti-virulence strategies against Pseudomonas aeruginosa, would find the screening approach and identified hit compounds of interest. The work may also appeal to marine natural product chemists seeking new biological targets for characterized compounds. However, the interest is likely to be narrow given the purely computational nature of the study and the absence of experimental follow-up.
+- **Major strengths** The study addresses a relevant biological target (LasR) in the context of antimicrobial resistance. The use of a marine natural product database (CMNPD) provides a somewhat distinctive chemical space. The inclusion of multiple computational metrics (docking, MM/GBSA, MD stability, essential dynamics) represents a reasonably comprehensive in silico workflow. The comparison with the native ligand and a reference compound provides a baseline for interpreting docking scores.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim that three MNPs "maintained high stability throughout the 100 ns simulation period" and that these compounds "hold potential as inhibitors of LasR."
+  - **Evidence pointer** Abstract, simulation metrics section
+  - **Concern** The stability of a ligand-protein complex over 100 ns, as measured by RMSD, RMSF, radius of gyration, and hydrogen bonds, is a necessary but weak indicator of inhibitory potential. These metrics demonstrate that the complex does not undergo major conformational changes, but they do not establish that the compound binds with high affinity, occupies the functional site in a manner that blocks LasR activity, or would have any effect in a biological system. The abstract provides no binding free energy values from the simulations, no comparison of the three selected compounds against each other or against the native ligand in terms of simulation-derived energetics, and no assessment of whether the binding mode is consistent with known LasR antagonism.
+  - **Why it matters** The central conclusion of the paper rests on the inference that simulation stability equates to inhibitory potential. Without energetic or functional evidence, this inference is unsupported. The claim of "potential as inhibitors" is therefore premature and could mislead readers into overinterpreting the significance of these computational findings.
+  - **Resolution test** Provide simulation-derived binding free energies (e.g., MM/GBSA or MM/PBSA values from the MD trajectories) for the three compounds and comparators. Show that the compounds maintain a binding mode consistent with known LasR antagonists, ideally by comparison with the co-crystal ligand pose. If possible, include a positive control (a known LasR inhibitor) run through the same pipeline to calibrate the stability metrics against a functionally validated compound.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** External validity
+  - **Claim pointer** The authors state that the identified MNPs "offer promising prospects for the development of treatments against infections."
+  - **Evidence pointer** Abstract, concluding statement
+  - **Concern** The abstract provides no experimental validation whatsoever. No in vitro assays, no bacterial growth or biofilm inhibition data, no gene expression analysis, and no cytotoxicity assessment are mentioned. The leap from computational predictions to therapeutic prospects is unsupported. While computational screening is a legitimate first step, the claim of "promising prospects for the development of treatments" implies a level of confidence that cannot be derived from the presented evidence.
+  - **Why it matters** Overstating the translational relevance of purely computational findings can mislead the broader readership, including those who may not be specialists in computational methods. The claim could also encourage premature investment in these compounds without appropriate validation.
+  - **Resolution test** Either temper the conclusion to state that these compounds warrant experimental evaluation, or provide any experimental data that supports the therapeutic claim. If no experimental data exists, the conclusion should be revised to reflect the hypothesis-generating nature of the study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors report docking scores and MM/GBSA binding energies as selection criteria.
+  - **Evidence pointer** Abstract, methods description
+  - **Concern** The abstract does not specify the docking software, scoring function, protein preparation protocol, ligand preparation details, or the MM/GBSA calculation parameters. It is also unclear whether the docking was validated by redocking the co-crystal ligand to reproduce its binding pose. Without these details, the reproducibility of the results cannot be assessed, and the reliability of the docking scores as a ranking metric is uncertain.
+  - **Why it matters** Docking scores are highly dependent on the software and parameters used. The absence of methodological detail prevents other researchers from reproducing the work and makes it difficult to judge whether the reported scores are meaningful. The claim that the ten MNPs "surpass" the binding energy of the co-crystal ligand is only interpretable in the context of the specific docking protocol.
+  - **Resolution test** Provide full methodological details in the manuscript, including software versions, scoring functions, preparation protocols, and validation results from redocking experiments. If redocking was not performed, this should be acknowledged and the limitations discussed.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Selection criteria
+  - **Evidence pointer** Abstract, selection of five MNPs
+  - **Issue** The abstract states that five MNPs were selected for MD simulations based on "the highest MM/GBSA binding energies," but it is unclear whether this selection was made from the ten docking hits or from a larger pool. The relationship between the docking score ranking and the MM/GBSA ranking is not explained.
+  - **Required correction** Clarify the selection workflow, including how many compounds were subjected to MM/GBSA calculations and the criteria used to move from ten docking hits to five simulation candidates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound identification
+  - **Evidence pointer** Abstract, compound names
+  - **Issue** The three lead compounds are identified only by database IDs (CMNPD10886, CMNPD20987, CMNPD20960). No chemical names, structures, or known biological activities are provided.
+  - **Required correction** Include chemical names and structures for the lead compounds, and note any previously reported biological activities, to allow readers to assess their drug-likeness and novelty.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Essential dynamics
+  - **Evidence pointer** Abstract, PCA and DCCM
+  - **Issue** The abstract mentions that PCA and DCCM were performed to "analyse the correlated motion of amino acids," but no results or interpretation of these analyses are provided. It is unclear what these analyses added to the study or how they support the conclusions.
+  - **Required correction** Summarize the key findings from the PCA and DCCM analyses and explain how they inform the assessment of the three lead compounds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparator selection
+  - **Evidence pointer** Abstract, reference compound
+  - **Issue** The reference compound cladodionen is mentioned with a docking score of -6.71 kcal/mol, but its relevance as a comparator is not explained. It is unclear whether cladodionen is a known LasR inhibitor or a previously studied MNP.
+  - **Required correction** Provide context for the choice of cladodionen as a reference compound and explain its significance in the context of LasR inhibition.
+
+## Risk / unsupported claims
+- The claim that the three MNPs "hold potential as inhibitors of LasR" is unsupported by the evidence presented in the abstract, as simulation stability alone does not establish inhibitory function.
+- The claim that these compounds offer "promising prospects for the development of treatments against infections" is unsupported in the absence of any experimental validation.
+- The assertion that the ten MNPs "surpass" the binding energy of the co-crystal ligand is not fully assessable without details of the docking protocol and validation.
+- The relevance of the essential dynamics analyses (PCA and DCCM) to the conclusions is not assessable from the abstract, as no results are reported.
+- The selection criteria for moving from ten docking hits to five MD candidates are not fully transparent.

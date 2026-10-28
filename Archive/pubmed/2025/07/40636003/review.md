@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, conclusions, and supplementary figure/table references
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and consistency between evidence and conclusions. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report that endosperm-specific overexpression of the wheat transcription factor TaDOF6 increases soluble sugar and gibberellin (GA3) accumulation in developing grains. They identify TaSWEET13h as a direct transcriptional target of TaDOF6 via binding to a P-box motif in its promoter. They further characterize TaSWEET13h as a plasma membrane-localized transporter capable of transporting sucrose, glucose, fructose, galactose, mannose, and GA3, and use molecular dynamics simulations to propose a shared active-site pocket with hydrophobic interactions as the primary binding mechanism.
+- **Visible evidence base** RNA-seq data (one overexpression line vs. Fielder, three biological replicates), RT-qPCR, yeast one-hybrid assay, EMSA, dual-luciferase reporter assay, subcellular localization in wheat protoplasts, yeast complementation assays for sugar transport, yeast three-hybrid assay for GA3 transport, molecular docking, 1000 ns MD simulations, MM/PBSA binding free energy calculations, and site-directed mutagenesis of candidate residues
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S5, Tables S1–S4) were referenced but not provided. Raw RNA-seq data were not accessible for independent analysis. No phenotypic data for TaSWEET13h overexpression or knockout lines are presented. Statistical details for several assays (replicate numbers, error bars, significance tests) are not fully described in the visible text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible regulatory model linking TaDOF6 to TaSWEET13h expression and sugar/GA3 transport during wheat grain filling. The combination of transcriptomic, biochemical, and computational approaches is ambitious and the topic is of agronomic relevance. However, the evidence as presented has several important gaps. The direct claim that TaSWEET13h transports GA3 relies on a yeast three-hybrid system that is not fully validated in the visible text, and the physiological relevance of GA3 transport by a SWEET protein is not demonstrated in planta. The MD simulation results are descriptive and the mutagenesis data are only shown as growth phenotypes without quantitative transport measurements. The absence of any loss-of-function or gain-of-function data for TaSWEET13h in wheat limits the strength of the causal claims. The manuscript would be substantially strengthened by direct transport assays with purified protein or proteoliposomes, quantitative uptake measurements in yeast, and phenotypic analysis of TaSWEET13h-modified wheat lines.
+- **Who would be interested in the results, and why** Researchers studying cereal grain development, sugar transport physiology, and transcription factor networks controlling yield traits. The work may also interest those working on SWEET transporter substrate specificity and the emerging role of these transporters in phytohormone transport. Breeders targeting yield improvement in wheat may find the TaDOF6-TaSWEET13h module a candidate for marker-assisted selection or transgenic approaches.
+- **Major strengths** The study addresses an important question in wheat grain development with a multi-method approach. The identification of TaSWEET13h as a direct target of TaDOF6 is supported by complementary assays (Y1H, EMSA, dual-luciferase). The demonstration that TaSWEET13h can transport multiple sugars in yeast is convincing. The MD simulation approach to identify key residues, followed by mutagenesis validation, is a thoughtful strategy. The endosperm-specific overexpression context is agronomically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for GA3 transport
+  - **Claim pointer** The authors claim that TaSWEET13h is a transporter of GA3 based on a yeast three-hybrid assay.
+  - **Evidence pointer** Results section "TaSWEET13h has a substrate transport function", Figure 5D
+  - **Concern** The yeast three-hybrid system for GA3 transport is described only briefly. The assay relies on the interaction of GA3 with the GID1 receptor to reconstitute transcriptional activation, but the visible text does not provide details on how GA3 uptake into yeast is ensured, whether the system was validated with known GA3 transporters as positive controls, or whether the growth difference could be due to indirect effects. The GA3 concentration used, the specificity of the response, and the reproducibility across independent transformants are not described. Without these controls, the claim that TaSWEET13h transports GA3 is not established.
+  - **Why it matters** The dual transport of sugars and GA3 is a central novelty of the manuscript. If the GA3 transport claim is not robust, the proposed model of TaSWEET13h facilitating both sugar and gibberellin transport during grain filling loses a key pillar. The physiological significance of GA3 transport by a SWEET protein is also unusual and requires stronger evidence.
+  - **Resolution test** Provide validation of the yeast three-hybrid system with a known GA3 transporter (e.g., OsSWEET3a or NPF family members) as a positive control. Include a dose-response curve for GA3, demonstrate that the growth phenotype is dependent on TaSWEET13h expression, and show that the system does not respond to other hormones. Ideally, direct GA3 uptake assays using radiolabeled or fluorescently labeled GA3 in yeast or proteoliposomes should be performed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between TaSWEET13h and grain phenotype
+  - **Claim pointer** The abstract and discussion state that TaDOF6 enhances grain development by regulating TaSWEET13h expression and facilitating sugar and GA3 transport.
+  - **Evidence pointer** Abstract, Discussion section "TaSWEET13h is involved in multiple substrate transport", Figure 8
+  - **Concern** The manuscript does not present any direct evidence that TaSWEET13h function is required or sufficient for the grain phenotype observed in TaDOF6 overexpression lines. No TaSWEET13h knockout, knockdown, or overexpression lines are shown. The proposed model in Figure 8 is entirely hypothetical. The grain size and weight phenotype was previously reported for TaDOF6 overexpression (Ding et al., 2024), but the contribution of TaSWEET13h to that phenotype is not tested here.
+  - **Why it matters** The title and abstract imply a causal pathway from TaDOF6 to TaSWEET13h to grain development. Without genetic perturbation of TaSWEET13h, the manuscript cannot exclude the possibility that other TaDOF6 targets mediate the observed effects. The claim that TaSWEET13h is the key downstream effector is therefore not supported by the data presented.
+  - **Resolution test** Generate or analyze TaSWEET13h knockout or knockdown lines in wheat and assess grain size, weight, sugar content, and GA3 levels. Alternatively, show that TaSWEET13h overexpression in a heterologous system or in wheat recapitulates the grain phenotype. Complementation of TaDOF6 overexpression phenotype by TaSWEET13h loss-of-function would provide direct causal evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative transport kinetics
+  - **Claim pointer** The authors state that TaSWEET13h transports sucrose, glucose, fructose, galactose, mannose, and GA3.
+  - **Evidence pointer** Results section "TaSWEET13h has a substrate transport function", Figures 5A–C, 7A–B
+  - **Concern** The yeast growth complementation assays are qualitative. Growth on selective media is scored visually or by serial dilution, but no quantitative measurements of substrate uptake rates, substrate affinity (Km), or transport kinetics are provided. The mutagenesis experiments show reduced growth but do not quantify the reduction in transport activity. Without kinetic parameters, it is difficult to assess whether TaSWEET13h is a high-affinity or low-affinity transporter for each substrate, and whether the mutated residues affect substrate binding or overall protein stability.
+  - **Why it matters** The claim that TaSWEET13h is a multifunctional transporter for diverse substrates requires quantitative evidence. The relative transport efficiency for different sugars and GA3 is important for understanding physiological relevance. The mutagenesis data are interpreted as identifying "critical residues," but without quantitative transport assays, the reduction in growth could reflect protein misfolding or reduced expression rather than specific loss of transport activity.
+  - **Resolution test** Perform radiolabeled substrate uptake assays in yeast expressing TaSWEET13h and mutant variants. Determine uptake kinetics (Km and Vmax) for each substrate. For mutants, confirm equivalent protein expression by western blot and measure transport activity directly. If possible, perform electrophysiological or proteoliposome-based transport assays to confirm substrate specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and replicate information
+  - **Claim pointer** The manuscript reports significant increases in soluble sugar and GA3 levels in TaDOF6 overexpression grains, and significant differences in yeast growth assays.
+  - **Evidence pointer** Results section "Overexpression of TaDOF6 promotes the soluble sugar accumulation and the expression of genes encoding sugar transporters", Figures 1A–D, 5, 7
+  - **Concern** The number of biological replicates, the statistical tests used, and the error bar definitions are not stated in the visible text for most figures. For the metabolite measurements, only one time point (15 DPA) is shown. For the yeast growth assays, it is unclear how many independent transformants were tested and whether the growth differences were quantified or only visually assessed. The RNA-seq analysis uses one overexpression line (TaDOF6 OE2) compared to Fielder, which does not account for line-to-line variation.
+  - **Why it matters** Reproducibility and statistical robustness are essential for the claims of significant differences. Without clear replicate numbers and statistical methods, the reader cannot assess the reliability of the reported effects. The use of a single overexpression line for RNA-seq is a particular concern.
+  - **Resolution test** Provide full statistical details for all experiments, including the number of biological and technical replicates, the statistical tests used, and the definition of error bars. For RNA-seq, include additional overexpression lines or at least validate key gene expression changes by RT-qPCR in multiple independent lines. For yeast assays, quantify growth (e.g., OD600 over time) and report results from at least three independent transformants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Results section "Overexpression of TaDOF6 promotes the soluble sugar accumulation and the expression of genes encoding sugar transporters"
+  - **Evidence pointer** Figure 1E–G
+  - **Issue** The sentence "In total, 194 differentially expressed genes (DEGs) were identified, including 73 up-regulated and 121 down-regulated DEGs" is clear, but the subsequent description of GO enrichment is vague. The text states that upregulated DEGs are enriched in "carbohydrate transport, enzyme inhibitor activity, auxin response" but does not provide enrichment scores or the number of genes in each category.
+  - **Required correction** Provide the GO enrichment statistics (e.g., adjusted p-values) and the gene counts for each enriched term. Consider showing a bar plot or table of the top enriched GO terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 4
+  - **Evidence pointer** Results section "Molecular structure of TaSWEET13h for substrate transport"
+  - **Issue** The docking results are presented as binding energies and hydrogen bond distances, but the figure is not described in sufficient detail. It is unclear whether the figure shows the docking poses, the interaction maps, or the energy values. The text mentions "hydrogen bond distances below 4 Å" but does not specify which residues form these hydrogen bonds.
+  - **Required correction** Clarify what is shown in each panel of Figure 4. Include a table listing the binding energies, hydrogen bond partners, and distances for each ligand. Consider showing a 2D interaction diagram for the key complexes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "Stability and dynamics of TaSWEET13h-sucrose/GA3 complexes in MD simulation"
+  - **Evidence pointer** Figure 6E–F
+  - **Issue** The text states that W60 contributes to sucrose binding with a ΔGbind of 1.97 kcal·mol-1, but this is a positive value, which typically indicates an unfavorable contribution. The text later states that W60 and W181 have ΔGMM < -2.00 kcal·mol-1, which is inconsistent with the reported ΔGbind for W60. The sign convention is confusing.
+  - **Required correction** Clarify the sign convention for the energy values. If positive values indicate favorable contributions, state this explicitly. If the values are unfavorable, explain why W60 is still considered a key residue. Ensure consistency between the reported ΔGbind and ΔGMM values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The data availability statement says datasets can be found in online repositories but does not specify which repository or provide accession numbers beyond the RNA-seq data (PRJNA1248066). The MD simulation trajectories, docking results, and other raw data are not mentioned.
+  - **Required correction** Specify the repository and accession numbers for all datasets, including MD simulation inputs and outputs, docking results, and any other supporting data. If some data cannot be shared, state this explicitly.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Supplementary material
+  - **Affected element** Supplementary figures and tables
+  - **Evidence pointer** Multiple references to Supplementary Figures S1–S5 and Tables S1–S4
+  - **Issue** The supplementary material is referenced extensively but was not provided for review. Key information, such as primer sequences (Table S1), promoter cloning details (Table S2), RNA-seq quality metrics (Table S3), and MD simulation energy components (Table S4), is only available in the supplementary files.
+  - **Required correction** Ensure all supplementary files are accessible and that the main text provides sufficient context for each supplementary item. Consider moving critical information (e.g., primer sequences, statistical details) to the main text or tables.
+
+## Risk / unsupported claims
+- The claim that TaSWEET13h transports GA3 is not fully supported by the visible evidence. The yeast three-hybrid assay is described without sufficient validation or controls, and no direct transport measurements are provided.
+- The claim that TaDOF6 enhances grain development by regulating TaSWEET13h expression is not causally tested. No TaSWEET13h loss-of-function or gain-of-function data are presented.
+- The statement that "hydrophobic interactions among non-polar amino acids primarily drive the transport of sucrose and GA3" is based on MD simulations and MM/PBSA calculations, but the experimental validation via mutagenesis is only qualitative and does not confirm the transport mechanism.
+- The physiological relevance of GA3 transport by TaSWEET13h in wheat grain development is speculative. No data on GA3 distribution, transport direction, or flux in planta are provided.
+- The RNA-seq analysis is based on a single overexpression line, which limits the generalizability of the differential expression results.
+- The claim that TaSWEET13h transports "diverse soluble sugars" is supported by yeast growth assays, but the specificity and relative efficiency for each sugar are not quantified.

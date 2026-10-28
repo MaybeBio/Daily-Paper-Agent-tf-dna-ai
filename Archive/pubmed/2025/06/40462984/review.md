@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that the 12-subunit RNA polymerase II (Pol II) complex is reorganized to a 7-subunit form in vivo to support transcription of the infectious noncoding RNA of potato spindle tuber viroid (PSTVd). They report that five subunits (Rpb4, Rpb5, Rpb6, Rpb7, Rpb9) are dispensable for PSTVd transcription in planta, that a splicing variant of TFIIIA with seven zinc fingers (TFIIIA-7ZF) facilitates this process, and that AlphaFold3-predicted structures plus experimental data support a model in which TFIIIA-7ZF bridges PSTVd RNA and the remodeled Pol II. They further report that a specific RNA loop (loop 8) is critical for the TFIIIA-7ZF/PSTVd interaction.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were accessible
+- **Missing materials affecting confidence** Full manuscript, all experimental methods, all figures and tables, statistical analyses, AlphaFold3 prediction details, and any raw or processed data
+
+## Reviewer
+- **Overall assessment** The abstract presents a provocative and potentially significant claim that the essential Pol II enzyme can undergo subunit loss to acquire RNA-dependent RNA polymerase activity in vivo. The proposed mechanism involving TFIIIA-7ZF as a bridging factor is novel and would be of broad interest to virologists, plant biologists, and RNA biologists. However, the evidence base available for this review is limited to the abstract, which contains no quantitative data, no experimental controls, and no methodological detail. Several claims are stated without supporting numbers or statistical measures, and one sentence contains an apparent grammatical error that obscures meaning. The core conclusion, that a 7-subunit Pol II is the active form for PSTVd transcription, is not established from the abstract alone. The work is potentially important, but the current evidence cannot be fully assessed.
+- **Who would be interested in the results, and why** Plant virologists studying viroid replication mechanisms, RNA polymerase biochemists interested in subunit plasticity and alternative functions of essential enzymes, and researchers working on RNA-dependent RNA polymerase evolution. The proposed reorganization of Pol II would also interest structural biologists studying transcription complex assembly and anyone investigating host factors that enable noncoding RNA pathogens to replicate.
+- **Major strengths** The central hypothesis is conceptually bold and challenges the prevailing view that Pol II functions exclusively as a 12-subunit DNA-dependent enzyme. The combination of in planta functional assays with AlphaFold3 structural prediction is a modern and potentially powerful approach. The identification of a specific TFIIIA splicing variant as a host factor is a concrete and testable mechanistic proposal. The focus on a single RNA loop as a critical interaction determinant provides a clear target for follow-up mutagenesis studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "Rpb4, Rpb5, Rpb6, Rpb7, and Rpb9 are not involved in PSTVd transcription in planta" and that this supports a 7-subunit active Pol II complex.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that these five subunits are "not involved" but provides no experimental detail on how this was determined. No mention is made of knockdown, knockout, or dominant-negative approaches, nor of the sensitivity or specificity of the assays used. The absence of a subunit in a functional assay could reflect technical failure rather than biological irrelevance.
+  - **Why it matters** The entire premise of the paper rests on the claim that a 7-subunit Pol II is the active form. If the evidence for subunit dispensability is weak or based on incomplete depletion, the central conclusion collapses. The abstract does not allow the reader to distinguish between "not required" and "not tested adequately."
+  - **Resolution test** Provide quantitative data from at least two independent methods (for example, virus-induced gene silencing and stable transgenic knockdown) showing that depletion of each of the five subunits does not reduce PSTVd accumulation, while a positive control (for example, Rpb1 or Rpb2 depletion) does. Include statistical comparisons and demonstrate that the assays are sufficiently sensitive to detect changes in viroid RNA levels.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural claim validation
+  - **Claim pointer** The authors state that "the predicted structure and experimental data both show that the N-terminus of TFIIIA-7ZF binds to the left terminal domain of PSTVd, while the C-terminus interacts with Rpb2."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify what experimental data were used to validate the AlphaFold3 prediction. No mention is made of mutagenesis, crosslinking, pull-down assays, or any biochemical or genetic test that would independently confirm the predicted contacts. The phrase "experimental data" is vague and could refer to anything from co-immunoprecipitation to yeast two-hybrid, each with different evidential weight.
+  - **Why it matters** AlphaFold3 predictions are not experimental evidence. If the only support for the binding model is the prediction itself plus indirect phenotypic data, the structural claims are not established. The specific claim that the C-terminus interacts with Rpb2 is critical because it links TFIIIA-7ZF to the remodeled Pol II, and this interaction must be demonstrated directly.
+  - **Resolution test** Provide direct biochemical evidence for the TFIIIA-7ZF/Rpb2 interaction (for example, co-immunoprecipitation from plant extracts or recombinant protein pull-down) and for the TFIIIA-7ZF/PSTVd interaction (for example, electrophoretic mobility shift assay or RNA pull-down). Show that mutations in the predicted binding interfaces abolish these interactions and that such mutations also impair PSTVd replication in vivo.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance of loop 8
+  - **Claim pointer** The authors claim that "replacing this loop 8 with a rigid double-stranded conformation impairs the TFIIIA-7ZF/PSTVd interaction."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not state whether the loop 8 replacement was tested in the context of PSTVd replication in planta or only in a binding assay. If the replacement affects binding but does not affect viroid replication, the functional relevance of the interaction is unclear. Conversely, if the replacement affects replication, the abstract does not say so.
+  - **Why it matters** The loop 8 experiment appears to be the only functional test of the structural model. If it is only a binding assay, it does not connect the structural prediction to the biological process of viroid replication. The claim as written is ambiguous about the level of analysis.
+  - **Resolution test** Clarify whether the loop 8 replacement was tested in an in vivo replication assay. If so, provide quantitative data on PSTVd accumulation with and without the replacement. If only binding was tested, add an in vivo experiment showing that the replacement reduces viroid replication and that this reduction correlates with loss of TFIIIA-7ZF binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clarity and completeness
+  - **Claim pointer** The final sentence reads "Altogether, our demonstrate an active form of heterogenous organization of the essential Pol II enzyme in vivo and provide structural insights into the organization of Pol II transcription complex on RNA template."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** This sentence contains a grammatical error ("our demonstrate") and is missing a noun after "our." The intended meaning is likely "our data demonstrate" or "our results demonstrate," but as written the sentence is incomplete. Additionally, the phrase "heterogenous organization" is not defined, and it is unclear whether the authors mean a stable alternative complex or a dynamic equilibrium between different subunit compositions.
+  - **Why it matters** The final sentence is the take-home message of the abstract. If it is grammatically unclear, readers may misinterpret the central claim. The lack of definition for "heterogenous organization" also leaves the conceptual framework ambiguous.
+  - **Resolution test** Rewrite the sentence to clearly state what was demonstrated and define "heterogenous organization" in the context of the study. For example, specify whether the 7-subunit form is the only active form or whether multiple forms coexist.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "transcription" for viroid RNA replication
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses "transcription" to describe Pol II activity on an RNA template. While this is technically defensible, it may confuse readers who associate transcription exclusively with DNA templates. The term "RNA-templated transcription" or "RNA-dependent RNA synthesis" would be more precise.
+  - **Required correction** Add a qualifier such as "RNA-templated" when using "transcription" in the context of PSTVd replication, or define the term at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Missing methodological context
+  - **Affected element** In planta assays
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the host plant species used for the in planta experiments. This is relevant because viroid host range and Pol II subunit requirements may vary between plant species.
+  - **Required correction** State the host plant species in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Structural prediction limitations
+  - **Affected element** AlphaFold3 model
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention the confidence scores or limitations of the AlphaFold3 prediction. Structural predictions of RNA-protein complexes are less well validated than protein-protein predictions, and this should be acknowledged.
+  - **Required correction** Add a sentence noting the predicted local distance difference test (pLDDT) or equivalent confidence metric, and state that the model requires experimental validation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No statistical measures are reported in the abstract. For claims such as "not involved" or "impairs," it is unclear whether the effects are statistically significant and what the effect sizes are.
+  - **Required correction** Include representative quantitative data with error bars and statistical tests in the abstract or refer to specific figures that contain this information.
+
+## Risk / unsupported claims
+- The claim that a 7-subunit Pol II is the active form for PSTVd transcription is unsupported from the abstract alone, as no experimental data on subunit depletion or activity are provided.
+- The claim that TFIIIA-7ZF "aids" the remodeled Pol II is unsupported without functional data showing that TFIIIA-7ZF is required for PSTVd replication and that its effect is mediated through the proposed interaction.
+- The claim that the AlphaFold3-predicted structure is validated by "experimental data" is unverifiable from the abstract, as the nature of those data is not specified.
+- The claim that loop 8 replacement "impairs" the TFIIIA-7ZF/PSTVd interaction is not quantifiable from the abstract, and the functional consequence for replication is not stated.
+- The overall conclusion of "heterogenous organization" of Pol II is not defined and cannot be evaluated from the abstract.

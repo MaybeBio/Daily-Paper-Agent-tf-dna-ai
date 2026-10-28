@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39277794",
+  "title": "Dynamics-based protein network features accurately discriminate neutral and rheostat positions.",
+  "authors": "Campitelli, P; Ross, D; Swint-Kruse, L; Ozkan, S B",
+  "journal": "Biophysical journal",
+  "published_date": "2024-09-15",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用分子动力学模拟和动态网络特征区分乳糖阻遏蛋白LacI中的rheostat位点，虽涉及蛋白-DNA互作体系（LacI为转录因子），但核心聚焦突变功能分类而非TF-DNA结合位点预测或互作机制建模，方法可迁移但对象与互作轴匹配度中等。",
+  "abstract": "In some proteins, a unique class of nonconserved positions is characterized by their ability to generate diverse functional outcomes through single amino acid substitutions. Due to their ability to tune protein function, accurately identifying such \"rheostat\" positions is crucial for protein design, for understanding the impact of mutations observed in humans, and for predicting the evolution of pathogen drug resistance. However, identifying rheostat positions has been challenging, due-in part-to the absence of a clear structural relationship with binding sites. In this study, experimental data from our previous study of the Escherichia coli lactose repressor protein (LacI) was used to identify rheostat positions for which mutations tune in vivo EC(50) for the allosteric ligand \"IPTG.\" We next used the rheostat assignments to test the hypothesis that rheostat positions have unique dynamic features that will enable their identification. To that end, we integrated all-atom molecular dynamics simulations with perturbation residue response analysis. Results first revealed distinct dynamic behavior in IPTG-bound LacI compared with apo LacI, which was consistent with IPTG's role as an allosteric inducer. Next, we used a variety of dynamic features to build a classification model that discriminates experimentally characterized rheostat positions in LacI from positions with other types of substitution outcomes. In parallel, we built a second classifier model based on the 3D structural \"static\" network features of LacI. In comparative studies, the dynamic model better identified rheostat positions that were >8 A from the binding site. In summary, our study provides insights into the dynamic characteristics of rheostat positions and suggests that models built on dynamic features may be useful for predicting the locations of rheostat positions in a wide range of proteins.",
+  "abstract_zh": "在一些蛋白质中，一类独特的非保守位置以其通过单个氨基酸替换产生多样化功能结果的能力为特征。由于它们能够调节蛋白质功能，准确识别这类“变阻器”位置对于蛋白质设计、理解人类中观察到的突变影响以及预测病原体药物耐药性的进化至关重要。然而，识别变阻器位置一直具有挑战性，部分原因在于其与结合位点缺乏明确的结构关系。在本研究中，我们利用先前对大肠杆菌乳糖阻遏蛋白（LacI）研究的实验数据，识别出突变可调节体内EC(50)（针对变构配体“IPTG”）的变阻器位置。接下来，我们使用变阻器分配来测试假设，即变阻器位置具有独特的动态特征，这些特征将有助于其识别。为此，我们将全原子分子动力学模拟与扰动残基响应分析相结合。结果首先揭示了IPTG结合的LacI与脱辅基LacI相比具有不同的动态行为，这与IPTG作为变构诱导剂的作用一致。接着，我们利用多种动态特征构建了一个分类模型，该模型能够区分LacI中实验表征的变阻器位置与具有其他类型替换结果的位置。同时，我们基于LacI的三维结构“静态”网络特征构建了第二个分类器模型。在比较研究中，动态模型更好地识别了距离结合位点>8 Å的变阻器位置。总之，我们的研究提供了对变阻器位置动态特征的见解，并表明基于动态特征构建的模型可能有助于预测广泛蛋白质中变阻器位置的位置。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39277794/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39277794/",
+  "paper_page_path": "papers/pubmed/39277794/index.html"
+}

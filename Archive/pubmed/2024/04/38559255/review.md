@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary materials description
+- **Assessment boundary** Scientific claims, methodological soundness, interpretability of results, and alignment with stated conclusions based on the provided manuscript text
+- **Shared manuscript claim summary** The authors present CLIPNET, a deep learning model trained on population-scale PRO-cap data, which predicts transcription initiation position and quantity at single nucleotide resolution. They report that interpretation of the model reveals a core promoter syntax comprising five DNA-protein interaction positions between −200 and +50 bp relative to the TSS, that transcriptional activator and core promoter motifs act non-additively, and that AT-rich TBP binding sequences and DPR motifs explain initiation patterns in most promoters and enhancers.
+- **Visible evidence base** Abstract, full introduction, full results sections, full discussion, full methods, data availability statement
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; supplementary information files (Supplementary Info. 1–10) are not available; exact model architecture details are partially described but hyperparameter values beyond those stated are not given; no code repository is referenced
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial advance in modeling transcription initiation with single nucleotide resolution and offers interpretable insights into core promoter syntax. The methodological approach is largely sound and the claims are generally supported by the described analyses. However, several concerns regarding the interpretation of attribution scores, the specificity of the five identified positions, and the generalizability of the findings warrant attention. The work is likely to be of interest to a broad readership in gene regulation and computational biology.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, core promoter biology, and cis-regulatory element function will find the model and its interpretations valuable. Computational biologists developing sequence-to-function deep learning models will be interested in the architectural choices and interpretability methods. Geneticists studying regulatory variants and QTLs may find the model useful for predicting functional impacts of SNPs.
+- **Major strengths** The use of population-scale PRO-cap data with individualized genomes is a notable strength. The decomposition of predictions into profile and quantity components with separate loss terms is a thoughtful design. The integration of structural data from cryo-EM PIC complexes to validate attribution results is a compelling approach. The identification of a DPR motif in human promoters addresses an important gap in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of attribution interpretation
+  - **Claim pointer** The authors claim that interpretation of CLIPNET revealed a complex regulatory syntax consisting of DNA-protein interactions in five major positions between −200 and +50 bp relative to the TSS.
+  - **Evidence pointer** Results section "Five distinct DNA-protein interactions form the core syntax of transcription initiation", Figure 4B–C (not provided)
+  - **Concern** The five positions identified from ISM shuffle profiles are interpreted as distinct DNA-protein interactions. However, the ISM shuffle method measures the impact of mutating 10 bp windows on model predictions, which reflects the model's sensitivity to sequence changes at those positions. This does not directly demonstrate that these positions correspond to actual DNA-protein interactions in vivo. The assignment of the −25 bp mode to TBP binding and the +25 bp mode to DPR is plausible but relies on prior knowledge rather than being independently established by the model interpretation.
+  - **Why it matters** The central claim of the paper is the discovery of a core promoter syntax. If the five positions are not rigorously linked to specific molecular interactions, the interpretation may be overreaching. The distinction between model sensitivity and biological interaction is critical for the validity of the conclusions.
+  - **Resolution test** The authors should provide additional evidence that the five positions correspond to bona fide DNA-protein interactions, such as orthogonal validation with ChIP-exo or in vitro binding assays for representative loci, or demonstrate that the positions are enriched for known transcription factor binding sites beyond what would be expected by chance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The authors claim that CLIPNET identified core promoter motifs that explain initiation patterns in the majority of promoters and enhancers, including DPR motifs and AT-rich TBP binding sequences in TATA-less promoters.
+  - **Evidence pointer** Results section "DNA sequence specificity of the human DPR", Figure 6B–D (not provided)
+  - **Concern** The analysis of DPR motifs is based on TF-MoDISco clustering of attribution scores. The authors report that DPR occurs about twice as frequently as a canonical TATA box, but the denominator for this frequency is unclear. It is also unclear whether the DPR motif identified is specific to the model's learned representations or reflects a genuine biological signal. The claim that DPR explains initiation patterns in the majority of promoters and enhancers is strong and requires careful statistical support.
+  - **Why it matters** The generalizability of the DPR finding to the majority of promoters and enhancers is a key claim that would have broad implications for understanding core promoter function. If the frequency estimate is inflated or the motif is not robustly associated with initiation patterns, the conclusion would be weakened.
+  - **Resolution test** The authors should provide a clear definition of the promoter and enhancer sets used for frequency calculations, include appropriate background controls for motif enrichment, and demonstrate that the DPR motif is predictive of initiation patterns in held-out data or independent experimental datasets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with existing methods
+  - **Claim pointer** The authors claim that CLIPNET predicts transcription initiation more accurately than existing approaches.
+  - **Evidence pointer** Results section "CLIPNET predicts transcription initiation from regulatory sequence", Figure 1C (not provided)
+  - **Concern** The comparison with Puffin is described, but the specific metrics, datasets, and statistical significance of the improvements are not fully detailed in the text. The claim of "more accurately" requires a rigorous benchmarking framework that accounts for potential confounders such as training data differences, model capacity, and evaluation on diverse genomic contexts.
+  - **Why it matters** The superiority claim is a key selling point of the model. Without a thorough and transparent comparison, readers cannot assess whether the improvement is meaningful and generalizable.
+  - **Resolution test** The authors should provide a detailed benchmarking table with confidence intervals, describe the evaluation protocol, and ideally include comparisons on independent datasets from different cell types or experimental conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Model training details
+  - **Evidence pointer** Methods section "CLIPNET architecture and training"
+  - **Issue** The description of the two-hot encoding scheme is clear, but the rationale for excluding indels and structural variants is only briefly stated. The potential impact of this exclusion on model performance and interpretation is not discussed.
+  - **Required correction** Add a brief discussion of the potential limitations imposed by excluding indels and structural variants, and whether the model's predictions might be affected at loci harboring such variants.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** QTL benchmarking
+  - **Evidence pointer** Methods section "tiQTL and diQTL prediction benchmarks"
+  - **Issue** The filtering criteria for QTLs are described, but the rationale for the p-value thresholds (10−6 for tiQTLs and 10−3 for diQTLs) is not provided. The imbalance in stringency between the two QTL types is not explained.
+  - **Required correction** Justify the choice of p-value thresholds and discuss whether the different thresholds could affect the comparability of tiQTL and diQTL prediction performance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Data availability statement
+  - **Issue** The data availability statement mentions model weights and processed data, but no code repository is referenced. For a computational method paper, code availability is essential for reproducibility.
+  - **Required correction** Provide a link to a public code repository (e.g., GitHub) containing the model implementation, training scripts, and analysis pipelines.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns that must be addressed to establish the central claims of the paper. R1-M3 is important but not blocking.
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of deep learning to single nucleotide resolution transcription initiation prediction with interpretability. Scientific importance: The findings have the potential to advance understanding of core promoter syntax and regulatory logic, which is a fundamental question in gene regulation. Interdisciplinary readership: The work bridges computational biology, genomics, and molecular biology, and would appeal to readers across these disciplines. Technical soundness: The methodology is generally sound, but the interpretation of attribution scores as direct evidence of DNA-protein interactions requires additional validation. Readability for nonspecialists: The manuscript is clearly written and accessible, though some sections assume familiarity with deep learning interpretability methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core methodology and findings are promising, but the interpretation of the five positions as DNA-protein interactions and the generalizability of the DPR finding require additional evidence and clarification.
+
+## Risk / unsupported claims
+- The claim that the five positions identified by ISM shuffle correspond to distinct DNA-protein interactions is not fully supported by the provided evidence; the ISM shuffle measures model sensitivity, not direct molecular interactions.
+- The claim that DPR motifs explain initiation patterns in the majority of promoters and enhancers is not adequately quantified or statistically supported in the text.
+- The claim that CLIPNET predicts transcription initiation "more accurately" than existing approaches is stated but not fully substantiated with detailed benchmarking results.
+- The assertion that "transcriptional activator and core promoter motifs work non-additively" is presented as a key finding, but the specific evidence for non-additivity is not clearly described in the text.
+- The claim that "TBP binds the most AT-rich sub-sequence in a promoter or enhancer" is an interpretation based on model attribution and sequence analysis, but direct biochemical evidence is not provided.

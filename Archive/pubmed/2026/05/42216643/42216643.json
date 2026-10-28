@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "42216643",
+    "doi": "10.31083/JIN49669",
+    "title": "Single-Cell and Integrative Analyses Uncover Therapeutic Potential of RFX1-Mediated Cuproptosis in PitNETs."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pituitary neuroendocrine tumors (PitNETs) have different cell types and levels of growth. We do not fully understand why they grow so much. Cuproptosis is a new way that copper kills cells and it is important in cancer. But, we do not know how it works in PitNETs yet. METHODS: We used several methods like bulk and single-cell sequencing with machine learning to investigate cuproptosis in PitNETs. We used Weighted Gene Co-expression Network Analysis (WGCNA) and random forest to find important genes. Then, we did tests in the lab to see how these genes work. RESULTS: Analysis of cuproptosis-related genes (CRGs) revealed significant differences in expression and immune landscapes between invasive and non-invasive PitNETs. We established CRG-based molecular subtypes and a high-performance predictive model for tumor invasiveness. Notably, regulatory factor X1 (RFX1) was identified and validated as a key regulator that suppresses tumor growth and sensitizes cells to cuproptosis. These results highlight the clinical relevance of cuproptosis in PitNET progression and suggest RFX1 as a potential therapeutic target. CONCLUSION: This study establishes a single-cell-based molecular landscape of PitNETs and uncovers RFX1-mediated cuproptosis as a key suppressive mechanism of tumor progression. These findings not only deepen the understanding of PitNET heterogeneity but also propose RFX1 as a promising therapeutic target for PitNETs.",
+    "keywords": [
+      "cell death",
+      "machine learning",
+      "molecular targeted therapy",
+      "pituitary neoplasms",
+      "single-cell analysis"
+    ],
+    "mesh_terms": [
+      "*Cuproptosis",
+      "Humans",
+      "*Neuroendocrine Tumors/metabolism/genetics",
+      "*Regulatory Factor X1/metabolism/genetics",
+      "*Pituitary Neoplasms/metabolism/genetics",
+      "Single-Cell Analysis",
+      "Single-Cell Gene Expression Analysis",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Shuangjian",
+        "Pu, Changqin",
+        "Deng, Congcong",
+        "Bai, Xuexue",
+        "Wu, Si",
+        "Tian, Chenxin",
+        "Xu, Xueyou",
+        "Wang, Renzhi",
+        "Chang, Mengqi",
+        "Feng, Ming"
+      ],
+      "short_names": [
+        "Yang S",
+        "Pu C",
+        "Deng C",
+        "Bai X",
+        "Wu S",
+        "Tian C",
+        "Xu X",
+        "Wang R",
+        "Chang M",
+        "Feng M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, 550004 Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+        "Institute of Clinical Medicine, National Infrastructures for Translational Medicine, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, 100007 Beijing, China.",
+        "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Shuangjian",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Changqin",
+        "short_name": "Pu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Congcong",
+        "short_name": "Deng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Xuexue",
+        "short_name": "Bai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Si",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Chenxin",
+        "short_name": "Tian C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xueyou",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, 550004 Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Renzhi",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Mengqi",
+        "short_name": "Chang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China.",
+          "Institute of Clinical Medicine, National Infrastructures for Translational Medicine, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, 100007 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Ming",
+        "short_name": "Feng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Pituitary Disease Registry Center, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, 100730 Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of integrative neuroscience"
+    ],
+    "journal_abbrev": [
+      "J Integr Neurosci"
+    ],
+    "pub_date": "2026 May 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/30 06:36",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42216643",
+      "41051622",
+      "37534217",
+      "41521161",
+      "42331202",
+      "38658971",
+      "37563740",
+      "37326745",
+      "36479114",
+      "37522128",
+      "40621753",
+      "39548559",
+      "34712204",
+      "39497055",
+      "39093695",
+      "38692018",
+      "40813692",
+      "37497230",
+      "36045691",
+      "41573212",
+      "39865310",
+      "37275904",
+      "42107026",
+      "38835051",
+      "41194198",
+      "41393284",
+      "41436831",
+      "33391466",
+      "40442104",
+      "40411678",
+      "39114291",
+      "41826383",
+      "34708902",
+      "37822927",
+      "33362712",
+      "34758873",
+      "41006377",
+      "40024300",
+      "41186622",
+      "38167466",
+      "41510173",
+      "41857481",
+      "37143115",
+      "37776237",
+      "42149287",
+      "38565081",
+      "42159881",
+      "37529244",
+      "37333810",
+      "38643763",
+      "42062862",
+      "39934142",
+      "37762710",
+      "40869149",
+      "41539368",
+      "40165133",
+      "38687912",
+      "40220407",
+      "40223192",
+      "39652303",
+      "39583859",
+      "36647100",
+      "42383521",
+      "37822923",
+      "40655146",
+      "41021161",
+      "37409114",
+      "41377197",
+      "35212383",
+      "36760248",
+      "41296644",
+      "36605188",
+      "40276654",
+      "39738206",
+      "39315155",
+      "41141357",
+      "37712959",
+      "39428264",
+      "41716413",
+      "41824199",
+      "38228887",
+      "33908609",
+      "38947313",
+      "37378675",
+      "42164373",
+      "38935114",
+      "36341328",
+      "41460373",
+      "39867949",
+      "40362297",
+      "37451513",
+      "41639477",
+      "41484731",
+      "40064752",
+      "35721701",
+      "39579326",
+      "37205181",
+      "37308925",
+      "41836061",
+      "40671235"
+    ],
+    "review": [
+      "42216643",
+      "36045691",
+      "39114291",
+      "38228887",
+      "40362297"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pituitarytumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pituitary Tumors"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.imrpress.com/journal/JIN/25/5/10.31083/JIN49669",
+        "provider": "IMR Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

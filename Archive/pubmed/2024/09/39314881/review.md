@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text. No external data, supplementary files, or raw sequencing data were accessed.
+- **Shared manuscript claim summary** The authors report identification of a small molecule, BFstatin, from a chemical library screen that inhibits the activity of BrpR, a transcriptional regulator controlling biofilm formation in Vibrio vulnificus. They propose that BFstatin binds directly to BrpR, alters its structure, reduces its DNA-binding activity, downregulates the BrpR regulon, and consequently diminishes biofilm formation without affecting bacterial growth or host cell viability.
+- **Visible evidence base** Reporter assays in E. coli and V. vulnificus, EC50 determination, MST binding data, EMSA, AlphaFold2 structural prediction, molecular docking, 100 ns MD simulation, RNA-seq transcriptomics, EPS quantification by SDS-PAGE, colony morphology imaging, and crystal violet biofilm assays.
+- **Missing materials affecting confidence** Supplementary Tables S1 and S2, Supplementary Figures S1, Supplementary Materials S1–S5, raw RNA-seq data, MD simulation trajectory details, and full gating/statistical parameters for MST and EMSA quantifications were not provided. These are required to fully evaluate reproducibility and quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward and potentially useful screening approach to identify a small-molecule inhibitor of a biofilm regulator in a clinically relevant pathogen. The phenotypic data on biofilm reduction are consistent with the proposed mechanism. However, several technical concerns, particularly around the specificity of BFstatin, the quantitative rigor of the transcriptomic analysis, and the interpretation of the MD simulation, limit the strength of the mechanistic conclusions. The core claim that BFstatin acts specifically through BrpR is plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers working on anti-biofilm strategies, Vibrio pathogenesis, transcriptional regulation in bacteria, and small-molecule screening for virulence factor inhibitors. The work may also be of interest to the seafood safety and food microbiology community given the focus on V. vulnificus.
+- **Major strengths** The screening strategy using a BrpR-repressible reporter is logical and designed to avoid false positives from luminescence inhibition. The combination of biophysical (MST), biochemical (EMSA), and phenotypic (biofilm, EPS) assays provides a multi-level characterization. The inclusion of a human cell cytotoxicity assay is a practical addition for translational relevance. The transcriptomic comparison between BFstatin-treated and ΔbrpR strains is a thoughtful approach to assess on-target effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of BFstatin for BrpR
+  - **Claim pointer** The manuscript claims that BFstatin specifically inhibits BrpR activity and that its effects on biofilm genes are mediated through BrpR.
+  - **Evidence pointer** Results sections "Small molecules interfere with BrpR", "BFstatin interacts with BrpR", "BFstatin affects the expression of the BrpR regulon"; Figures 3, 5
+  - **Concern** The manuscript does not demonstrate that BFstatin is specific for BrpR. No counter-screen against other transcriptional regulators or DNA-binding proteins is presented. The transcriptomic data show that BFstatin affects genes outside the BrpR regulon (e.g., VV2_0193-0195, VV2_1402, VV2_1403), which the authors acknowledge but do not fully reconcile with the claim of specificity. The comparable transcriptomes of BFstatin-treated ΔbrpR and DMSO-treated ΔbrpR suggest no major off-target effects on biofilm genes, but this does not exclude effects on other pathways.
+  - **Why it matters** The central premise of the manuscript is that BFstatin is a BrpR-targeting anti-biofilm agent. If BFstatin has broader off-target effects, the mechanistic conclusions and the proposed utility as a specific anti-biofilm agent are weakened.
+  - **Resolution test** Provide data from a counter-screen using a panel of related or unrelated transcriptional regulators to show BFstatin does not inhibit their activity. Alternatively, perform a genome-wide transcriptional analysis with a focus on known BrpR-independent pathways to demonstrate that the only significant changes are in the BrpR regulon. A pull-down or cellular thermal shift assay (CETSA) to show direct binding to BrpR in a cellular context would also strengthen specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of transcriptomic analysis
+  - **Claim pointer** The manuscript claims that BFstatin reduces the expression of the BrpR regulon based on RNA-seq data.
+  - **Evidence pointer** Results section "BFstatin affects the expression of the BrpR regulon"; Figure 5; Supplementary Materials S3–S5
+  - **Concern** The transcriptomic analysis is described only in qualitative terms. No information is provided on the number of biological replicates, the criteria for differential expression (fold-change cutoff, adjusted p-value), the total number of differentially expressed genes, or whether the data were validated by RT-qPCR. The statement that "BFstatin has no extra effects on the expression of the biofilm genes other than the inhibition of the BrpR activity" is based on a comparison of BFstatin-treated ΔbrpR and DMSO-treated ΔbrpR, but the statistical power of this comparison is not reported.
+  - **Why it matters** The transcriptomic data are a key piece of evidence linking BFstatin treatment to BrpR regulon downregulation. Without quantitative rigor, the reader cannot assess the robustness of this finding or the validity of the conclusion that BFstatin acts on-target.
+  - **Resolution test** Provide the full differential expression analysis, including the number of replicates, the statistical thresholds used, and a complete list of differentially expressed genes. Include RT-qPCR validation for at least the key BrpR regulon genes (cabABC, brp locus) and the off-target genes (VV2_0193-0195, VV2_1402, VV2_1403). Report the effect sizes and confidence intervals for the key comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of MD simulation
+  - **Claim pointer** The manuscript claims that MD simulation shows BFstatin modifies the structure of BrpR, especially the DNA-binding domain, and that this explains the inhibition of DNA binding.
+  - **Evidence pointer** Results section "BFstatin modifies the structure of BrpR"; Figure 4
+  - **Concern** The MD simulation is presented as supporting the mechanism, but the analysis is superficial. No quantitative metrics are provided, such as root-mean-square deviation (RMSD), root-mean-square fluctuation (RMSF), or binding free energy calculations. The claim that the DBD undergoes a structural change is not supported by any numerical data or comparison to an apo-state simulation. The figure shows a snapshot but no quantitative trajectory analysis.
+  - **Why it matters** The MD simulation is used to propose a mechanistic explanation for how BFstatin inhibits BrpR DNA binding. Without quantitative analysis, the structural claim is speculative and does not add strong support to the biochemical data.
+  - **Resolution test** Provide RMSD and RMSF plots for the BrpR-BFstatin complex compared to an apo-BrpR simulation, and quantify the conformational change in the DBD. If possible, calculate binding free energy using MM-PBSA or similar methods. Alternatively, soften the claim to state that the simulation is consistent with, but does not prove, an allosteric mechanism.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dose-response and specificity of phenotypic effects
+  - **Claim pointer** The manuscript claims that BFstatin diminishes biofilm formation in a concentration-dependent manner.
+  - **Evidence pointer** Results section "BFstatin suppresses the biofilm formation of Vibrio vulnificus"; Figure 7
+  - **Concern** The biofilm inhibition data are presented as a function of time and concentration, but the relationship between the EC50 for BrpR inhibition (8.01 μM) and the concentrations used in the biofilm assays is not discussed. It is unclear whether the concentrations used in the biofilm assays are relevant to the EC50 or whether higher concentrations are needed for phenotypic effects. Additionally, the manuscript does not address whether BFstatin affects biofilm formation through BrpR-independent mechanisms at the concentrations used.
+  - **Why it matters** The translational claim that BFstatin could be used as an anti-biofilm agent depends on the concentration-dependence of the phenotypic effect and its alignment with the molecular target engagement.
+  - **Resolution test** Provide a dose-response curve for biofilm inhibition that spans the EC50 range and discuss the relationship between target engagement and phenotypic outcome. Include a control experiment using a BrpR-independent biofilm-inducing condition to show that BFstatin does not affect biofilm formation through a general toxicity or matrix-disruption mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility of MST data
+  - **Affected element** Methods section "Protein purification, microscale thermophoresis, and electrophoretic mobility shift assay"
+  - **Evidence pointer** Methods, Figure 3A
+  - **Issue** The MST experiment is described but the number of independent replicates and the error bars on the binding curve are not reported. The KD value of 7.14 μM is stated without confidence intervals.
+  - **Required correction** Report the number of independent MST runs, the standard deviation or confidence interval for the KD, and show the raw data points on the binding curve.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** EMSA quantification
+  - **Affected element** Results section "BFstatin interacts with BrpR to inhibit its binding to target promoter DNA"
+  - **Evidence pointer** Figure 3B, 3C
+  - **Issue** The EMSA gels are shown but not quantified. The claim that BFstatin reduces the retarded band in a concentration-dependent manner is based on visual inspection.
+  - **Required correction** Provide densitometric quantification of the retarded bands from at least three independent EMSA experiments, with statistical analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** EPS quantification
+  - **Affected element** Results section "BFstatin interrupts the development of the biofilm matrix"
+  - **Evidence pointer** Figure 6A, 6B
+  - **Issue** The EPS data are presented as a gel image and a bar graph, but the number of biological replicates and the statistical test used are not stated in the text.
+  - **Required correction** State the number of replicates and the statistical test used for the EPS quantification in the figure legend or methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of screening hit criteria
+  - **Affected element** Methods section "High-throughput screening"
+  - **Evidence pointer** Methods, Results "Small molecules interfere with BrpR"
+  - **Issue** The text states that 6,750 compounds were screened in the abstract and discussion, but the results section mentions 6,696 molecules. The discrepancy is not explained.
+  - **Required correction** Reconcile the numbers or clarify whether the difference is due to exclusion of certain compounds after screening.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality and labeling
+  - **Affected element** Figures 4 and 7
+  - **Evidence pointer** Figure 4, Figure 7
+  - **Issue** The MD simulation figure (Figure 4) lacks clear labels for the domains and the binding pocket. The biofilm visualization images (Figure 7B) are not quantified or described in terms of scale.
+  - **Required correction** Add domain labels and a scale bar to Figure 4. Provide a scale bar and a description of the imaging conditions for Figure 7B.
+
+## Risk / unsupported claims
+- The claim that BFstatin "selectively inhibits" BrpR is not supported by specificity data against other regulators.
+- The claim that the MD simulation shows a structural change in the DBD is not quantitatively supported.
+- The claim that BFstatin has "no extra effects" on biofilm gene expression beyond BrpR inhibition is based on an under-reported transcriptomic comparison.
+- The claim that BFstatin could be used in seafood industry applications is speculative and not supported by data on stability, toxicity in relevant models, or efficacy in food-relevant conditions.
+- The statement that BFstatin "could allow better effectiveness of antibiotics" is a hypothesis without direct experimental evidence.

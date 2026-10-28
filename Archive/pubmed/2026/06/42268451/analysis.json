@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42268451",
+  "title": "Identifying the relationship between exosome genes and breast cancer risk using bioinformatics and machine learning methods.",
+  "authors": "Wang, Xuwen; Ding, Yongyong; Shi, Shengyu; Ji, Xiaomin; Jiang, Zekun; Liu, Tian",
+  "journal": "Discover oncology",
+  "published_date": "2026-06-10",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习分析乳腺癌外泌体基因与预后，虽含基因-转录因子网络和分子对接，但核心是疾病风险预测而非TF-DNA互作机制建模，方法可迁移性有限。",
+  "abstract": "BACKGROUND: Breast cancer (BC) is the most prevalent cancer among women globally, with a high mortality rate. The treatment and prevention of this disease are of utmost importance. Exosomes-nanovesicles derived from cells-play a vital role in intercellular communication and have profound implications for numerous physiological and pathological processes. However, relationships between exosomes and the development and prognosis of BC have not been fully elucidated. METHODS: Using gene expression data obtained from the NCBI GEO database for BC and normal tissues, we analyzed differential gene expression. The intersection of differentially expressed genes and exosome-related genes was obtained, and a gene interaction network was established. Genes associated with BC were identified using the Least Absolute Shrinkage and Selection Operator (LASSO), Support Vector Machine-Recursive Feature Elimination (SVM-RFE), and Random Forest (RF) algorithms. Shared genes identified using the three algorithms were used to construct a nomogram for predicting the risk and prognosis of BC. Gene-drug, gene-RNA binding protein, and gene-transcription factor interaction networks were analyzed. Finally, we evaluated relationships between drugs and proteins using molecular docking analyses. RESULTS: We identified 595 differentially expressed genes and obtained 37 exosome-related genes. Five differentially expressed exosome-related genes associated with the risk of disease were identified using three machine learning methods. These genes were involved in the regulation of various biological processes and were associated with immune cell infiltration. Drugs targeting four of the five genes were identified. CONCLUSION: Exosome genes are related to the occurrence and prognosis of BC and can be used as targets for drug therapy.",
+  "abstract_zh": "背景：乳腺癌（BC）是全球女性中最常见的癌症，死亡率高。该疾病的治疗和预防至关重要。外泌体——源自细胞的纳米囊泡——在细胞间通讯中发挥关键作用，并对众多生理和病理过程具有深远影响。然而，外泌体与BC发生发展及预后之间的关系尚未完全阐明。方法：利用从NCBI GEO数据库获得的BC和正常组织的基因表达数据，我们分析了差异基因表达。获取差异表达基因与外泌体相关基因的交集，并建立基因相互作用网络。使用最小绝对收缩和选择算子（LASSO）、支持向量机-递归特征消除（SVM-RFE）和随机森林（RF）算法识别与BC相关的基因。使用三种算法识别的共享基因构建列线图，以预测BC的风险和预后。分析了基因-药物、基因-RNA结合蛋白和基因-转录因子相互作用网络。最后，我们通过分子对接分析评估了药物与蛋白质之间的关系。结果：我们识别出595个差异表达基因，并获得37个外泌体相关基因。使用三种机器学习方法识别出五个与疾病风险相关的差异表达外泌体相关基因。这些基因参与多种生物过程的调控，并与免疫细胞浸润相关。识别出针对五个基因中四个的药物。结论：外泌体基因与BC的发生和预后相关，并可作为药物治疗的靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42268451/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42268451/",
+  "paper_page_path": "papers/pubmed/42268451/index.html"
+}

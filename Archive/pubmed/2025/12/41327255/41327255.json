@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "41327255",
+    "doi": "10.1186/s12985-025-03026-9",
+    "title": "Decoding cross-talk between Mpox and HIV: insights from transcriptomics and network-based analyses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: At present, the Monkeypox virus (MPXV) outbreak has become a significant public health concern, and its severity is increasing based on different clades globally, which, combined, are leading to severe complications. However, it was observed that MPXV infection was highly expressed in individuals with Human Immunodeficiency Virus (HIV), and the mechanism of cross-talk has not been explored. METHODS: This study employed a network-based methodology to examine the role of differentially expressed genes (DEGs) in HIV and monkeypox (Mpox) infections. The commonly shared DEGs in Mpox and HIV were examined, followed by their functional enrichment, co-expression, transcriptional factor, potential correlation with disease, and promising drug-associated network. Additionally, the docking analysis was accomplished to gain the interaction site of the compound towards these target genes. RESULTS: The GEO datasets of Mpox and HIV were examined, wherein a total of 570 Mpox and 642 HIV DEGs were identified. Among them, 41 DEGs were common, and functional enrichment and pathway analysis revealed their involvement in vital biological functions and pathways. Further, the PPI and co-expression analysis of these genes was conducted, which revealed 8 key genes or hub genes, which included SOCS3, NFKBIA, IFIT1, CCNB2, PLK3, PTGS1, ZFP36L2, and RGS16. Moreover, transcription factors (TFs) and miRNAs of the hub genes were also examined, which offered new insight into potential therapeutic targets. The gene-disease network also revealed several other diseases linked to the common and hub genes. Subsequently, the docking analysis revealed that the selected compound actively bound to the target genes and could be a potential lead to combat this. CONCLUSIONS: This study unveils the shared mechanism between HIV and Mpox based on the hub genes perspective, offering new insights into co-infection and highlighting potential possibilities for simultaneous therapeutic intervention in both diseases.",
+    "keywords": [
+      "Co-expression",
+      "Cross-talk",
+      "DEGs",
+      "HIV",
+      "Molecular docking",
+      "Monkeypox",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*HIV Infections/genetics/virology",
+      "Gene Expression Profiling",
+      "*Monkeypox virus/genetics",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "*Host-Pathogen Interactions/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "Computational Biology",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mishra, Saurav Kumar",
+        "Chhetri, Tabsum",
+        "Roy, Sneha",
+        "Al-Mutairi, Aamal A",
+        "Aragaw, Adino Asmare",
+        "Sindi, Emad Rashad",
+        "Zaki, Magdi E A",
+        "Georrge, John J"
+      ],
+      "short_names": [
+        "Mishra SK",
+        "Chhetri T",
+        "Roy S",
+        "Al-Mutairi AA",
+        "Aragaw AA",
+        "Sindi ER",
+        "Zaki MEA",
+        "Georrge JJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioinformatics, District-Darjeeling, University of North Bengal, District-Darjeeling, West Bengal, 734013, India.",
+        "Department of Bioinformatics, District-Darjeeling, University of North Bengal, District-Darjeeling, West Bengal, 734013, India.",
+        "Department of Bioinformatics, District-Darjeeling, University of North Bengal, District-Darjeeling, West Bengal, 734013, India.",
+        "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, 11623, Kingdom of Saudi Arabia.",
+        "Department of Biology, College of Natural and Computational Science, Woldia University, Woldia, Ethiopia. dradinoasmare@gmail.com.",
+        "Division of Clinical Biochemistry, Department of Basic Medical Sciences, College of Medicine, University of Jeddah, Jeddah, 23890, Saudi Arabia.",
+        "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, 11623, Kingdom of Saudi Arabia.",
+        "Department of Bioinformatics, District-Darjeeling, University of North Bengal, District-Darjeeling, West Bengal, 734013, India. johnjgeorrge@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mishra, Saurav Kumar",
+        "short_name": "Mishra SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, District-Darjeeling, University of North Bengal, District-Darjeeling, West Bengal, 734013, India."
+        ]
+      },
+      {
+        "full_name": "Chhetri, Tabsum",
+        "short_name": "Chhetri T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, District-Darjeeling, University of North Bengal, District-Darjeeling, West Bengal, 734013, India."
+        ]
+      },
+      {
+        "full_name": "Roy, Sneha",
+        "short_name": "Roy S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, District-Darjeeling, University of North Bengal, District-Darjeeling, West Bengal, 734013, India."
+        ]
+      },
+      {
+        "full_name": "Al-Mutairi, Aamal A",
+        "short_name": "Al-Mutairi AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, 11623, Kingdom of Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Aragaw, Adino Asmare",
+        "short_name": "Aragaw AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Natural and Computational Science, Woldia University, Woldia, Ethiopia. dradinoasmare@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Sindi, Emad Rashad",
+        "short_name": "Sindi ER",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Clinical Biochemistry, Department of Basic Medical Sciences, College of Medicine, University of Jeddah, Jeddah, 23890, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Zaki, Magdi E A",
+        "short_name": "Zaki MEA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, 11623, Kingdom of Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Georrge, John J",
+        "short_name": "Georrge JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, District-Darjeeling, University of North Bengal, District-Darjeeling, West Bengal, 734013, India. johnjgeorrge@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Virology journal"
+    ],
+    "journal_abbrev": [
+      "Virol J"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 07:37",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40673003",
+      "40573344",
+      "40382432",
+      "40273195",
+      "40074431",
+      "39939881",
+      "39872469",
+      "39866232",
+      "39844097",
+      "39558165",
+      "39496786",
+      "39093763",
+      "38855910",
+      "38768914",
+      "38745559",
+      "38734408",
+      "38730352",
+      "38728644",
+      "38622352",
+      "38443319",
+      "38249378",
+      "38241362",
+      "38217083",
+      "38199208",
+      "38148355",
+      "38107964",
+      "37943830",
+      "37692541",
+      "37657009",
+      "37326481",
+      "37140474",
+      "36851124",
+      "36828001",
+      "36758567",
+      "36582623",
+      "36403584",
+      "36389792",
+      "36345302",
+      "36323643",
+      "36269839",
+      "36120550",
+      "35753658",
+      "35623380",
+      "35464423",
+      "35180863",
+      "35140617",
+      "34471004",
+      "34271875",
+      "34265844",
+      "34025935",
+      "32052029",
+      "31965022",
+      "31644906",
+      "30939065",
+      "30476243",
+      "30267440",
+      "29875770",
+      "29126174",
+      "27797603",
+      "27141961",
+      "26907218",
+      "26604633",
+      "26180518",
+      "25915845",
+      "25605792",
+      "25521941",
+      "25251832",
+      "24223959",
+      "24138793",
+      "23740750",
+      "23586463",
+      "23579614",
+      "23460397",
+      "23193258",
+      "22455463",
+      "21704071",
+      "20667104",
+      "20576703",
+      "19949916",
+      "19738427",
+      "19434839",
+      "18952571",
+      "17496320",
+      "17483251",
+      "16288398",
+      "15998835",
+      "15027865",
+      "14960456",
+      "14722302",
+      "14519976",
+      "12360211",
+      "10592235",
+      "6249508",
+      "4597658",
+      "1280569"
+    ],
+    "similar": [
+      "41327255",
+      "39496786",
+      "39848951",
+      "38730352",
+      "40498594",
+      "40673003",
+      "40574839",
+      "39176085",
+      "37776011",
+      "39192637",
+      "34553293",
+      "39796253",
+      "41300749",
+      "41362268",
+      "40834023",
+      "39086489",
+      "40406126",
+      "39134619",
+      "36389792",
+      "38793665",
+      "41120603",
+      "36049413",
+      "38415010",
+      "34218797",
+      "31987036",
+      "38601162",
+      "41196851",
+      "40898538",
+      "38062833",
+      "40977739",
+      "40628511",
+      "38259479",
+      "40253531",
+      "34975885",
+      "41005317",
+      "39604570",
+      "34875552",
+      "39093763",
+      "40216809",
+      "40821971",
+      "34160465",
+      "40370100",
+      "37740761",
+      "33816621",
+      "32811479",
+      "32756534",
+      "39118438",
+      "32088906",
+      "34215202",
+      "39955676",
+      "34248836",
+      "39306912",
+      "39201364",
+      "37039003",
+      "36104591",
+      "38771826",
+      "38319987",
+      "35390032",
+      "36852684",
+      "35762549",
+      "39367003",
+      "40024299",
+      "39456924",
+      "38873601",
+      "40843941",
+      "39556279",
+      "36291136",
+      "41316541",
+      "39184354",
+      "32581210",
+      "39434198",
+      "38839916",
+      "41042757",
+      "33622336",
+      "39080525",
+      "40241169",
+      "38978245",
+      "38107964",
+      "39251231",
+      "40859027",
+      "39675129",
+      "38549107",
+      "39341952",
+      "36899621",
+      "39519306",
+      "36471356",
+      "41009659",
+      "38847168",
+      "28952134",
+      "36305413",
+      "34493981",
+      "33462173",
+      "37115075",
+      "30935420",
+      "32056139",
+      "38073349",
+      "38761900",
+      "39351239",
+      "40055592",
+      "36316672"
+    ],
+    "review": [
+      "41327255",
+      "38793665"
+    ],
+    "pmc": [
+      "12777129"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://virologyj.biomedcentral.com/articles/10.1186/s12985-025-03026-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/hiv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HIV"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41327255/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IFIT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

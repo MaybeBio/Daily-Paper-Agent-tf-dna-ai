@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, SI figure legends) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and claim-evidence alignment based solely on the supplied material
+- **Shared manuscript claim summary** The authors report the identification and characterization of a cyanobacterial FeSBCP (CyPhrB) from Cyanobium sp., using in silico modelling, phylogenetics, and in vitro biochemical assays, and propose a speculative FeS-FAD-DNA electron transfer triangle.
+- **Visible evidence base** Abstract, introduction, methods (narrative), results (narrative), discussion, conclusion, SI figure legends
+- **Missing materials affecting confidence** Experimental figures (FIG 1-5), SI figures (S1-S4), SI tables (S1), raw spectra, gel images, EMSA quantification, phylogenetic tree data, sequence alignment data, and all numerical values supporting binding and repair claims
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting topic, the characterization of a newly identified cyanobacterial FeSBCP, which is a relatively underexplored area. However, the current version is largely descriptive and relies heavily on in silico predictions and qualitative observations. The central claims of DNA repair activity and FeS cluster involvement are not quantitatively supported by the evidence presented in the text. The manuscript would benefit from substantial additional experimental data and a more rigorous presentation of results before it can be considered for publication in a high-impact venue.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA repair, photobiology, and prokaryotic enzymology would be interested. The identification of a second cyanobacterial FeSBCP and the comparative analysis with other FeS cluster-containing DNA repair proteins could be of value to those studying the evolution and mechanism of the cryptochrome/photolyase family. The speculative model of a FeS-FAD-DNA electron transfer triangle may also attract interest from those working on redox-mediated DNA repair mechanisms.
+- **Major strengths** 1. The study addresses a relatively novel subject, the characterization of a cyanobacterial FeSBCP, which is a niche area with limited prior reports. 2. The authors combine multiple approaches, including homology modelling, phylogenetics, and in vitro assays, to provide a preliminary characterization. 3. The comparative analysis with other FeS cluster-containing DNA repair proteins is a useful conceptual framework that could generate testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that CyPhrB exhibits DNA repair activity, specifically for 6-4 photolesions, based on fluorescence measurements.
+  - **Evidence pointer** Results section, FIG 4
+  - **Concern** The claim of DNA repair activity is based solely on a qualitative observation of decreased fluorescence intensity after incubation with CyPhrB and blue light. No quantitative data, such as repair yields, kinetics, or comparison to a known active enzyme, are provided. The fluorescence assay is also not well-controlled, as the potential for protein-induced fluorescence quenching or inner filter effects is not addressed.
+  - **Why it matters** The central functional claim of the manuscript, that CyPhrB is a 6-4 photolyase, rests entirely on this assay. Without quantitative and controlled data, the conclusion is not supported.
+  - **Resolution test** Provide quantitative repair data, e.g., percentage of lesion repaired over time, with appropriate controls including a known active photolyase, a catalytically dead mutant, and protein-only and DNA-only samples. Address potential fluorescence artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that the modelled CyPhrB structure is validated by a low RMSD value (0.9 Å) compared to the AlphaFold predicted structure.
+  - **Evidence pointer** Results section, FIG 1
+  - **Concern** The RMSD value is mentioned in the text but the comparison is not shown or described in detail. It is unclear which regions were compared, whether the comparison was global or local, and what the significance of this value is. A single RMSD value is insufficient to validate a homology model, especially for functional interpretations.
+  - **Why it matters** The structural model is the basis for all subsequent in silico analyses, including docking and residue comparisons. If the model is not adequately validated, the downstream conclusions are weakened.
+  - **Resolution test** Provide a detailed model validation section, including Ramachandran plots, QMEAN or similar scores, and a clear description of the RMSD calculation. Show a structural overlay of the model and the AlphaFold prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that EMSA results show a higher binding affinity of CyPhrB for damaged DNA over undamaged DNA, with a Kd range of 400-300 nM.
+  - **Evidence pointer** Results section, FIG 5
+  - **Concern** The Kd values are reported as a range, which is unusual and not statistically meaningful. No error bars, number of replicates, or details of the fitting procedure are provided. The EMSA gels are not shown in the provided material, so the quality of the data cannot be assessed.
+  - **Why it matters** The binding affinity claim is a key piece of evidence for the functional relevance of CyPhrB. Without proper quantification and statistical analysis, the claim is not robust.
+  - **Resolution test** Provide representative EMSA gels, a detailed description of the quantification method, and Kd values with standard deviations from at least three independent experiments. Use a proper binding model for the fit.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The manuscript speculates on the existence of a FeS-FAD-DNA electron transfer triangle and the role of the FeS cluster in lesion detection and repair.
+  - **Evidence pointer** Discussion section, FIG S4
+  - **Concern** This is a highly speculative model with no direct experimental evidence. The distance measurements are presented as supportive, but the functional significance of these distances is not established. The comparison with other FeS proteins is qualitative and does not provide mechanistic insight.
+  - **Why it matters** While speculation is acceptable in a discussion, it must be clearly framed as a hypothesis. The current text presents this model as a plausible conclusion, which overreaches the available data.
+  - **Resolution test** Clearly label this as a speculative model. Provide a more rigorous discussion of alternative hypotheses and what specific experiments would be needed to test the model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, DNA Damage and Repair Studies
+  - **Issue** The description of the DNA damage and repair assay is incomplete. The exact conditions, such as buffer composition, protein concentration, and DNA concentration, are not fully specified. The statement "at 4n" appears to be a typo.
+  - **Required correction** Provide a complete description of the assay conditions and correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section
+  - **Evidence pointer** Results, CyPhrB: structure, sequence and evolution
+  - **Issue** The UV-Vis spectrum is described qualitatively. The peaks are assigned to specific chromophores, but no quantitative analysis, such as extinction coefficients or redox state determination, is provided.
+  - **Required correction** Provide a figure of the UV-Vis spectrum and a more quantitative analysis of the observed peaks.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature support
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The discussion of the role of FeS clusters in DNA repair proteins is general and lacks specific citations for some claims, such as the role of FeS clusters in lesion detection.
+  - **Required correction** Add appropriate citations to support the statements about FeS cluster functions in DNA repair.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Overexpression and Protein Purification
+  - **Evidence pointer** Methods section
+  - **Issue** The purification method is described, but the yield and purity of the final protein sample are not reported. This is important for assessing the quality of the protein used in the assays.
+  - **Required correction** Report the final protein yield and purity, e.g., based on SDS-PAGE analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative data for the central functional claims, the insufficient validation of the structural model, and the inadequate statistical treatment of binding data are critical issues that must be resolved.
+- **Assessment against Nature-style criteria** Originality: The topic is of moderate originality, as the characterization of a new FeSBCP is a niche contribution, but the approaches are largely standard. Scientific importance: The potential importance is moderate, as the study could inform understanding of FeSBCP diversity, but the current evidence does not establish a significant conceptual advance. Interdisciplinary readership: The topic may appeal to a limited interdisciplinary audience, primarily within DNA repair and photobiology. Technical soundness: The technical soundness is currently weak due to the lack of quantitative data and incomplete method descriptions. Readability for nonspecialists: The manuscript is generally readable but includes some jargon and speculative statements that may be challenging for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial additional experimental data, particularly quantitative repair and binding assays, and a more rigorous validation of the structural model before the central claims can be supported.
+
+## Risk / unsupported claims
+- The claim of 6-4 photolesion repair activity is unsupported due to the lack of quantitative and controlled fluorescence data.
+- The claim of higher binding affinity for damaged DNA is unsupported due to the lack of proper statistical analysis and replicates.
+- The validation of the homology model based on a single RMSD value is insufficient and not fully described.
+- The speculative FeS-FAD-DNA electron transfer triangle is presented as a plausible conclusion rather than a hypothesis, which is not supported by direct evidence.
+- The assignment of UV-Vis spectral peaks to specific chromophores is qualitative and not quantitatively supported.

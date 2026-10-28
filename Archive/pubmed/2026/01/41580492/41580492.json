@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "41580492",
+    "doi": "10.1038/s41598-026-37061-5",
+    "title": "Research on the molecular mechanism of celastrol targeting CTNNB1/STAT3 to inhibit uveal melanoma based on network pharmacology and multi-omics analysis."
+  },
+  "content": {
+    "abstract": "Uveal melanoma (UM) is among the most prevalent intraocular malignant tumors worldwide. Celastrol exhibits broad-spectrum anticancer properties; however, its underlying therapeutic mechanism in UM is yet to be elucidated. In this study, a network pharmacology approach was employed to identify potential common targets of celastrol and UM. These targets were further analyzed in conjunction with transcriptomic data and machine learning algorithms, which led to the identification of CTNNB1 and STAT3 as key molecular targets. The functional roles of these targets were investigated through immune infiltration analysis and single-cell RNA sequencing (scRNA-seq), while the binding stability between celastrol and CTNNB1/STAT3 was assessed using molecular docking (MD) and molecular dynamics simulation (MDS). Subsequently, celastrol was administered to B16-F10 and C918 cell lines, demonstrating that it significantly suppresses cell proliferation and migration by downregulating CTNNB1 and STAT3 expression, while simultaneously inducing apoptosis and cell cycle arrest. Moreover, real-time quantitative PCR (qPCR) and western blot (WB) analyses corroborated the modulation of target expression levels. Therefore, celastrol exerts potent anti-tumor effects in UM by inhibiting the CTNNB1 and STAT3 signaling pathways, thereby suppressing tumor cell proliferation and metastasis, as well as promoting cell cycle arrest and apoptosis.",
+    "keywords": [
+      "Celastrol",
+      "Machine learning",
+      "Molecular dynamics",
+      "Network pharmacology",
+      "Uveal melanoma"
+    ],
+    "mesh_terms": [
+      "*beta Catenin/metabolism/genetics/chemistry",
+      "*Pentacyclic Triterpenes/pharmacology/chemistry",
+      "*STAT3 Transcription Factor/metabolism/genetics/chemistry",
+      "*Uveal Neoplasms/drug therapy/metabolism/pathology/genetics",
+      "Uveal Melanoma",
+      "*Melanoma/drug therapy/metabolism/pathology/genetics",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Cell Proliferation/drug effects",
+      "Cell Line, Tumor",
+      "Molecular Dynamics Simulation",
+      "Network Pharmacology",
+      "Apoptosis/drug effects",
+      "Animals",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Cell Movement/drug effects",
+      "Mice",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Zhanglong",
+        "Xi, Ruofan",
+        "Han, Xudong",
+        "Zhao, Ping"
+      ],
+      "short_names": [
+        "Li Z",
+        "Xi R",
+        "Han X",
+        "Zhao P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Medical College of Optometry and Ophthalmology, Shandong University of Traditional Chinese Medicine, Jinan, 250014, Shandong, China.",
+        "Medical College of Optometry and Ophthalmology, Shandong University of Traditional Chinese Medicine, Jinan, 250014, Shandong, China.",
+        "College of Artificial Intelligence and Big Data for Medical Sciences, Shandong First Medical University, Jinan, 250021, China. hanxd1217@163.com.",
+        "Medical College of Optometry and Ophthalmology, Shandong University of Traditional Chinese Medicine, Jinan, 250014, Shandong, China. zp911215@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Zhanglong",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College of Optometry and Ophthalmology, Shandong University of Traditional Chinese Medicine, Jinan, 250014, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xi, Ruofan",
+        "short_name": "Xi R",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College of Optometry and Ophthalmology, Shandong University of Traditional Chinese Medicine, Jinan, 250014, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xudong",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Artificial Intelligence and Big Data for Medical Sciences, Shandong First Medical University, Jinan, 250021, China. hanxd1217@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ping",
+        "short_name": "Zhao P",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College of Optometry and Ophthalmology, Shandong University of Traditional Chinese Medicine, Jinan, 250014, Shandong, China. zp911215@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jan 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/25 00:37",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41128887",
+      "40490746",
+      "40240779",
+      "40107442",
+      "40001245",
+      "39181414",
+      "39075441",
+      "38894850",
+      "38771435",
+      "38701937",
+      "38641203",
+      "38631048",
+      "38397437",
+      "38040071",
+      "37861963",
+      "37152048",
+      "36858276",
+      "36732502",
+      "35785219",
+      "35190695",
+      "34999237",
+      "34980884",
+      "34942200",
+      "34830841",
+      "34785888",
+      "34593944",
+      "34508794",
+      "34136662",
+      "33976105",
+      "33338839",
+      "33256785",
+      "33177245",
+      "33125081",
+      "32972405",
+      "32742301",
+      "32300100",
+      "32273508",
+      "32061838",
+      "31441146",
+      "31053160",
+      "30268831",
+      "30093564",
+      "29769598",
+      "29625446",
+      "29414668",
+      "29344893",
+      "28873455",
+      "28203054",
+      "26000480",
+      "25348333",
+      "23787177",
+      "16199517",
+      "10592173"
+    ],
+    "similar": [
+      "41580492",
+      "39442901",
+      "41567202",
+      "41293954",
+      "39219277",
+      "40812391",
+      "34522027",
+      "41490553",
+      "41966774",
+      "40133025",
+      "33976105",
+      "31508890",
+      "34614446",
+      "40311593",
+      "41484167",
+      "41677388",
+      "22477711",
+      "27881235",
+      "39181531",
+      "29899166",
+      "40684202",
+      "39427522",
+      "29233905",
+      "40482913",
+      "41312415",
+      "41261300",
+      "40107442",
+      "40466882",
+      "38971541",
+      "32127003",
+      "40583537",
+      "39308299",
+      "30825222",
+      "38518635",
+      "28766683",
+      "22419847",
+      "41833878",
+      "41977217",
+      "32347651",
+      "39848416",
+      "31526394",
+      "41103423",
+      "42120529",
+      "41380825",
+      "35781872",
+      "39617007",
+      "40259252",
+      "28455241",
+      "39635521",
+      "31588689",
+      "41946410",
+      "29332125",
+      "38810557",
+      "40413339",
+      "32017066",
+      "24553082",
+      "39342122",
+      "29692251",
+      "41832498",
+      "42011617",
+      "31385607",
+      "41400319",
+      "39566403",
+      "41740484",
+      "41962187",
+      "39195238",
+      "29696577",
+      "39701786",
+      "28330694",
+      "40615101",
+      "29382357",
+      "40208012",
+      "40842169",
+      "41942580",
+      "38872110",
+      "39181414",
+      "12766035",
+      "40812665",
+      "38150154",
+      "33744595",
+      "39389443",
+      "41408107",
+      "33577798",
+      "39355878",
+      "39244135",
+      "31718679",
+      "28791340",
+      "41533160",
+      "39916959",
+      "40076902",
+      "41247132",
+      "42032729",
+      "39800242",
+      "40886867",
+      "41351348",
+      "41508245",
+      "38776853",
+      "38520835",
+      "40266298",
+      "28981601"
+    ],
+    "review": [
+      "41580492",
+      "39355878"
+    ],
+    "pmc": [
+      "12902046"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-37061-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41580492/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

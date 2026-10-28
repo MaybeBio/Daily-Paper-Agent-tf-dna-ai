@@ -1,0 +1,331 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.12.557341",
+  "title": "Single-cell epigenomic reconstruction of developmental trajectories in human neural organoid systems from pluripotency",
+  "doi": "10.1101/2023.09.12.557341",
+  "abstract": "Human cell type diversity emerges through a highly regulated series of fate restrictions from pluripotent progenitors. Fate restriction is orchestrated in part through epigenetic modifications at genes and regulatory elements, however it has been difficult to study these mechanisms in humans. Here, we use organoid models of the human central nervous system and establish single-cell profiling of histone modifications (H3K27ac, H3K27me3, H3K4me3) in organoid cells over a time course to reconstruct epigenomic trajectories governing cell identity acquisition from human pluripotency. We capture transitions from pluripotency through neuroepithelium, to retinal and brain region specification, as well as differentiation from progenitors to neuronal and glial terminal states. We find that switching of repressive and activating epigenetic modifications can precede and predict decisions at each stage, providing a temporal census of gene regulatory elements and transcription factors that we characterize in a gene regulatory network underlying human cerebral fate acquisition. We use transcriptome and chromatin accessibility measurements in the same cell from a human developing brain to validate this regulatory mode in a primary tissue. We show that abolishing histone 3 lysine 27 trimethylation (H3K27me3) through inhibition of the polycomb group protein Embryonic Ectoderm Development (EED) at the neuroectoderm stage disrupts fate restriction and leads to aberrant cell fate acquisition, ultimately influencing cell type composition in brain organoids. Altogether, our single-cell genome wide map of histone modifications during human neural organoid development serves as a blueprint ( https://episcape.ethz.ch ) to explore human cell fate decisions in normal physiology and in neurodevelopmental disorders. More broadly, this approach can be used to study human epigenomic trajectory mechanisms in any human organoid system. <h4>Summary</h4> Unguided neural organoids reveal widespread and dynamic switching of epigenetic modifications during development and recapitulate fate restriction from pluripotency to terminally differentiated cells of the human central nervous system.",
+  "authors": [
+    "Zenk F",
+    "Fleck JS",
+    "Jansen SMJ",
+    "Kashanian B",
+    "Eisinger B",
+    "Santel M",
+    "Dupre J",
+    "Camp JG",
+    "Treutlein B"
+  ],
+  "published_date": "2023-09-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.12.557341",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.12.557341.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR724057",
+    "raw_record": {
+      "id": "PPR724057",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR724057"
+        ]
+      },
+      "doi": "10.1101/2023.09.12.557341",
+      "title": "Single-cell epigenomic reconstruction of developmental trajectories in human neural organoid systems from pluripotency",
+      "authorString": "Zenk F, Fleck JS, Jansen SMJ, Kashanian B, Eisinger B, Santel M, Dupre J, Camp JG, Treutlein B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zenk F",
+            "lastName": "Zenk",
+            "firstName": "Fides",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0324-0902"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fleck JS",
+            "lastName": "Fleck",
+            "firstName": "Jonas Simon",
+            "initials": "JS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4686-7254"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jansen SMJ",
+            "lastName": "Jansen",
+            "firstName": "Sophie Martina Johanna",
+            "initials": "SMJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1985-0596"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kashanian B",
+            "lastName": "Kashanian",
+            "firstName": "Bijan",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eisinger B",
+            "lastName": "Eisinger",
+            "firstName": "Benedikt",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santel M",
+            "lastName": "Santel",
+            "firstName": "Małgorzata",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-4947-8509"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dupre J",
+            "lastName": "Dupre",
+            "firstName": "Jean",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Human Biology (IHB), Roche Pharma Research and Early Development, Roche Innovation Center Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Camp JG",
+            "lastName": "Camp",
+            "firstName": "Gray",
+            "initials": "JG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3295-1225"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Human Biology (IHB), Roche Pharma Research and Early Development, Roche Innovation Center Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Treutlein B",
+            "lastName": "Treutlein",
+            "firstName": "Barbara",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3299-5597"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0324-0902"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1985-0596"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3299-5597"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4686-7254"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3295-1225"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-4947-8509"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Human cell type diversity emerges through a highly regulated series of fate restrictions from pluripotent progenitors. Fate restriction is orchestrated in part through epigenetic modifications at genes and regulatory elements, however it has been difficult to study these mechanisms in humans. Here, we use organoid models of the human central nervous system and establish single-cell profiling of histone modifications (H3K27ac, H3K27me3, H3K4me3) in organoid cells over a time course to reconstruct epigenomic trajectories governing cell identity acquisition from human pluripotency. We capture transitions from pluripotency through neuroepithelium, to retinal and brain region specification, as well as differentiation from progenitors to neuronal and glial terminal states. We find that switching of repressive and activating epigenetic modifications can precede and predict decisions at each stage, providing a temporal census of gene regulatory elements and transcription factors that we characterize in a gene regulatory network underlying human cerebral fate acquisition. We use transcriptome and chromatin accessibility measurements in the same cell from a human developing brain to validate this regulatory mode in a primary tissue. We show that abolishing histone 3 lysine 27 trimethylation (H3K27me3) through inhibition of the polycomb group protein Embryonic Ectoderm Development (EED) at the neuroectoderm stage disrupts fate restriction and leads to aberrant cell fate acquisition, ultimately influencing cell type composition in brain organoids. Altogether, our single-cell genome wide map of histone modifications during human neural organoid development serves as a blueprint (  https://episcape.ethz.ch ) to explore human cell fate decisions in normal physiology and in neurodevelopmental disorders. More broadly, this approach can be used to study human epigenomic trajectory mechanisms in any human organoid system.  <h4>Summary</h4>  Unguided neural organoids reveal widespread and dynamic switching of epigenetic modifications during development and recapitulate fate restriction from pluripotency to terminally differentiated cells of the human central nervous system.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "874606",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "758877",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "803441",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2023.09.12.557341"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.12.557341"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR724057"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR724057&type=FILE&fileName=EMS187987-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38914828",
+            "reference": "Nature neuroscience. 2024 Jul;27(7):1376-1386",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS187987",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-09-15",
+      "firstPublicationDate": "2023-09-13",
+      "firstIndexDate": "2023-09-15",
+      "fullTextReceivedDate": "2023-11-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.22.619701",
+  "title": "Functional Yeast Promoter Sequence Design Using Autoregressive Generative Models",
+  "authors": "Alsaggaf I; Freitas AA; de Magalhães JP; Wan C",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-25",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用自回归生成模型设计功能性酵母启动子序列，虽涉及转录因子结合位点分布，但核心是序列生成而非TF-DNA互作机制建模，方法可迁移但深度不足。",
+  "abstract": "Functional promoter sequence design plays a crucial role in accurately controlling gene expression processes that are one of the most fundamental mechanisms in biological systems. Thanks to the recent community effort, we are now able to elucidate the associations between yeast promoter sequences and their corresponding expression levels using advanced deep learning methods. This milestone boosts the further development of many downstream biological sequence research tasks including synthetic DNA sequence design. In this work, we propose a novel synthetic promoter sequence generation method, namely Gen-DNA-TCN, which exploits a pre-trained sequence-to-expression predictive model to facilitate its autoregressive generative model training. A large-scale evaluation confirms that Gen-DNA-TCN successfully generates a large number of unique, diverse and functional synthetic yeast promoter sequences that also encode similar transcription factor binding site distributions compared with real yeast promoter sequences.",
+  "abstract_zh": "功能性启动子序列设计在精确控制基因表达过程中起着关键作用，而基因表达是生物系统中最基本的机制之一。得益于近期社区的努力，我们现在能够利用先进的深度学习方法阐明酵母启动子序列与其相应表达水平之间的关联。这一里程碑推动了包括合成DNA序列设计在内的许多下游生物序列研究任务的进一步发展。在本工作中，我们提出了一种新颖的合成启动子序列生成方法，即Gen-DNA-TCN，该方法利用预训练的序列到表达预测模型来促进其自回归生成模型训练。大规模评估证实，Gen-DNA-TCN成功生成了大量独特、多样且功能性的合成酵母启动子序列，这些序列还编码了与真实酵母启动子序列相似的转录因子结合位点分布。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.22.619701",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.22.619701",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.22.619701/index.html"
+}

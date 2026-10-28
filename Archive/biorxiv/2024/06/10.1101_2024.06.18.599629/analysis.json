@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.18.599629",
+  "title": "PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model",
+  "authors": "Sajib Acharjee Dip; Uddip Acharjee Shuvo; Tran Chau; Haoqiu Song; Petra Choi; Xuan Wang; Liqing Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-22",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用基因组基础模型PathoLM从DNA序列识别病原性，属于序列分类任务，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Pathogen identification is pivotal in diagnosing, treating, and preventing diseases, crucial for controlling infections and safeguarding public health. Traditional alignment-based methods, though widely used, are computationally intense and reliant on extensive reference databases, often failing to detect novel pathogens due to their low sensitivity and specificity. Similarly, conventional machine learning techniques, while promising, require large annotated datasets and extensive feature engineering and are prone to overfitting. Addressing these challenges, we introduce PathoLM, a cutting-edge pathogen language model optimized for the identification of pathogenicity in bacterial and viral sequences. Leveraging the strengths of pre-trained DNA models such as the Nucleotide Transformer, PathoLM requires minimal data for fine-tuning, thereby enhancing pathogen detection capabilities. It effectively captures a broader genomic context, significantly improving the identification of novel and divergent pathogens. We developed a comprehensive data set comprising approximately 30 species of viruses and bacteria, including ESKAPEE pathogens, seven notably virulent bacterial strains resistant to antibiotics. Additionally, we curated a species classification dataset centered specifically on the ESKAPEE group. In comparative assessments, PathoLM dramatically outperforms existing models like DciPatho, demonstrating robust zero-shot and few-shot capabilities. Furthermore, we expanded PathoLM-Sp for ESKAPEE species classification, where it showed superior performance compared to other advanced deep learning methods, despite the complexities of the task.",
+  "abstract_zh": "病原体识别在疾病的诊断、治疗和预防中至关重要，对于控制感染和维护公共卫生具有关键作用。传统的基于比对的方法虽然被广泛使用，但计算强度大，且依赖庞大的参考数据库，往往因灵敏度和特异性较低而无法检测新型病原体。同样，传统机器学习技术虽有前景，但需要大量标注数据集和广泛的特征工程，且容易过拟合。为应对这些挑战，我们引入了PathoLM，一种前沿的病原体语言模型，专为优化细菌和病毒序列的致病性识别而设计。利用预训练DNA模型（如Nucleotide Transformer）的优势，PathoLM在微调时仅需最少数据，从而增强病原体检测能力。它有效捕获更广泛的基因组上下文，显著提高对新型和分歧病原体的识别。我们开发了一个综合数据集，涵盖约30种病毒和细菌物种，包括ESKAPEE病原体，以及七种显著毒力且对抗生素耐药的细菌菌株。此外，我们构建了一个专门针对ESKAPEE组的物种分类数据集。在比较评估中，PathoLM显著优于现有模型如DciPatho，展现出强大的零样本和少样本能力。进一步地，我们将PathoLM-Sp扩展用于ESKAPEE物种分类，尽管任务复杂，其性能仍优于其他先进深度学习方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.18.599629",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.18.599629",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.18.599629/index.html"
+}

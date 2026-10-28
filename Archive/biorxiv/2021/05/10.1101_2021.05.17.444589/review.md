@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and references.
+- **Assessment boundary** Scientific soundness, validity of claims against provided evidence, technical execution, and alignment with Nature-style criteria. Editorial or stylistic preferences are noted only where they affect clarity or comprehension.
+- **Shared manuscript claim summary** The authors propose that specific amino acid residues (Lys31, Ile42, Leu56) in the DNA-binding domain of CcpA in *Bacillus licheniformis* modulate its binding affinity to cre sites, thereby influencing selective carbon source utilization (glucose vs. xylose). They report that alanine substitutions at Lys31 and Ile42 weaken DNA binding and alleviate glucose-mediated repression of xylose utilization, while a Leu56Arg mutation enhances binding and increases glucose preference. The study is framed as a structure-function analysis with potential applications in industrial strain engineering.
+- **Visible evidence base** Homology model quality metrics (Verify3D, ERRAT); sequence alignment across seven *Bacillus* species; SDS-PAGE of purified proteins; fluorescence polarization (FPIA) and electrophoretic mobility shift assay (EMSA) data; gene deletion confirmation via PCR and qPCR; carbon source consumption data via HPLC; expression level controls via qPCR and Western blot-like analysis.
+- **Missing materials affecting confidence** Raw numerical data for FPIA, EMSA, HPLC consumption curves, and qPCR are not provided. Statistical analysis details (e.g., error bars, replicates, significance tests) are absent. The cre site sequence used in binding assays is only referenced as supplementary. No structural coordinates or model validation beyond summary scores are given. The manuscript lacks a clear statement on whether the cre site used corresponds to a native promoter region of *B. licheniformis*.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in microbial carbon catabolite regulation, with potential biotechnological implications. The combination of in vitro binding assays and in vivo phenotypic characterization is a reasonable strategy. However, the evidence as presented is incomplete and in places internally inconsistent, particularly regarding the identity of the third mutant (Leu56 vs. Ile56), the quantitative basis for binding affinity claims, and the statistical robustness of the phenotypic data. The central claims are plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in microbial physiology, metabolic engineering, and synthetic biology, particularly those working on *Bacillus* species as industrial hosts. The work may also interest structural biologists studying LacI-GalR family regulators, though the structural depth is limited. The potential to modulate carbon source preference via single amino acid changes in a global regulator is conceptually appealing for lignocellulosic biomass utilization.
+- **Major strengths** 1. The study targets a less-explored region (DNA-binding domain) of CcpA, moving beyond the commonly studied cofactor-binding domain. 2. The use of both FPIA and EMSA provides complementary in vitro evidence for binding changes. 3. The inclusion of a CcpA deletion strain as a background for complementation is a sound genetic approach. 4. The work has clear applied relevance for engineering carbon source utilization in industrial fermentation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim consistency and data integrity
+  - **Claim pointer** The abstract and discussion state that Lys31, Ile42, and Leu56 were investigated, and the discussion concludes with "Lys31, Ile42 and Ile56" as the key residues. The results section also refers to "Ile56Ala" in one instance.
+  - **Evidence pointer** Abstract; Discussion section; Results section, "The binding ability of CcpA to cre sites changed due to the amino acid mutation"
+  - **Concern** There is a clear inconsistency in the identity of the third residue: Leu56 is used throughout the methods and most of the results, but the discussion and one results sentence refer to Ile56. This is not a minor typo; it affects the interpretation of which mutant was actually constructed and characterized.
+  - **Why it matters** If the mutant is Leu56Arg, the claim about the 4th helix is specific to that residue. If it is Ile56, the entire set of conclusions changes. The reader cannot determine which residue was actually mutated, undermining the reproducibility and validity of the study.
+  - **Resolution test** The authors must clarify the exact residue identity in all instances, provide the corresponding sequence alignment evidence, and ensure that all figures, tables, and text are consistent. A corrected figure or table listing the exact mutations is required.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence for binding affinity
+  - **Claim pointer** The results state that Lys31Ala and Ile42Ala "significantly weakened the binding strength" and Leu56Arg "exhibited enhanced binding affinity" based on FPIA and EMSA.
+  - **Evidence pointer** Results section, "The binding ability of CcpA to cre sites changed due to the amino acid mutation"; Figure 3
+  - **Concern** The FPIA data are presented only as a bar chart of polarization values, with no binding curves, dissociation constants (Kd), or statistical comparisons. The EMSA results are described qualitatively ("substantial shift", "no obvious shift") without quantification. The claim of "significantly weakened" or "enhanced" binding is therefore not supported by the data as presented.
+  - **Why it matters** The central mechanistic claim of the paper is that specific amino acid changes alter DNA-binding affinity. Without quantitative binding parameters or at least a statistical comparison across replicates, the reader cannot assess the magnitude or significance of the reported effects.
+  - **Resolution test** Provide dose-response binding curves with calculated Kd values for wild-type and each mutant, or at minimum, quantitative EMSA data with multiple protein concentrations and statistical analysis of replicate experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and quantitative support for phenotypic claims
+  - **Claim pointer** The results claim that Lys31Ala and Ile42Ala increase xylose consumption rates by 5- and 3.8-fold, respectively, and that Leu56Arg decreases it by 5.25-fold, with corresponding changes in glucose/xylose utilization ratios.
+  - **Evidence pointer** Results section, "The effect of CcpA mutants on glucose/xylose selective utilization"; Figure 6
+  - **Concern** The consumption rates are reported as averages with error bars, but no statistical test is described, and the number of biological replicates is not stated. The time point for the reported rates (21 h) is mentioned, but the full time-course data are not shown. The claim that these differences are due to binding affinity changes rather than other effects (e.g., protein stability, expression level) is only partially addressed.
+  - **Why it matters** The phenotypic data are the in vivo validation of the in vitro findings. Without proper statistical analysis and full time-course data, the reader cannot determine whether the observed differences are robust or within experimental noise.
+  - **Resolution test** Provide full time-course consumption curves for all strains, state the number of biological and technical replicates, and perform appropriate statistical tests (e.g., ANOVA with post-hoc comparisons) for the reported rates and ratios.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link between binding affinity and carbon source preference
+  - **Claim pointer** The authors state that changes in cre binding affinity directly cause the observed changes in xylose utilization, implying a causal relationship.
+  - **Evidence pointer** Results section, "The effect of CcpA mutants on glucose/xylose selective utilization"; Discussion
+  - **Concern** The manuscript does not demonstrate that the cre site used in the in vitro binding assays corresponds to a regulatory region of a xylose utilization gene (e.g., xylA or xylB) in *B. licheniformis*. Without this link, the in vitro binding data cannot be directly connected to the in vivo phenotype.
+  - **Why it matters** The proposed mechanism is that CcpA binding to cre sites represses xylose utilization genes. If the cre site used in FPIA/EMSA is not from a xylose-related promoter, the correlation between binding affinity and xylose consumption is circumstantial.
+  - **Resolution test** Identify and validate the cre site(s) in the promoter regions of xylose utilization genes in *B. licheniformis*, and demonstrate that the mutants show differential binding to these native cre sites.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Materials and Methods, "CcpA fixed point mutants"
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The PCR-based site-directed mutagenesis method is described briefly, and the template plasmid is referred to as "pET28aPA" without prior introduction.
+  - **Required correction** Provide a clear description of the mutagenesis protocol, including the template plasmid construction, primer design, and confirmation of the full coding sequence after mutagenesis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Results section, "The binding ability of CcpA to cre sites changed due to the amino acid mutation"
+  - **Issue** The FPIA bar chart does not indicate the protein concentration used, the DNA concentration, or the buffer conditions. The EMSA gel images are not shown, only described.
+  - **Required correction** Include the experimental conditions in the figure legend, and provide representative gel images for the EMSA data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract; Results; Discussion
+  - **Issue** The term "3 rd helices" and "4 th helices" is used inconsistently; the correct terminology should be "3rd helix" and "4th helix" (singular).
+  - **Required correction** Correct the grammatical usage of helix numbering throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of supplementary data
+  - **Affected element** Supplementary information
+  - **Evidence pointer** Materials and Methods, "Screening of mutant proteins"
+  - **Issue** The cre site sequence is stated to be in the supplementary information, but this is not provided in the manuscript package.
+  - **Required correction** Ensure the supplementary file containing the cre site sequence is included and referenced.
+- **Technical failings that need to be addressed before the case is established** 1. Residue identity inconsistency (Leu56 vs. Ile56) must be resolved. 2. Quantitative binding data (Kd or equivalent) are required. 3. Statistical analysis of phenotypic data is missing. 4. The link between the in vitro cre site and native xylose gene promoters is not established.
+- **Assessment against Nature-style criteria** Originality: Moderate. The concept of engineering a global regulator's DNA-binding domain to alter carbon source preference is not entirely new, but the specific residues and the systematic approach have some novelty. Scientific importance: Moderate. The findings could inform metabolic engineering strategies, but the mechanistic depth is limited. Interdisciplinary readership: Limited. The work is primarily of interest to microbiologists and metabolic engineers; the structural biology component is too shallow to attract a broader audience. Technical soundness: Currently insufficient. The inconsistencies and lack of quantitative data prevent a robust assessment. Readability for nonspecialists: Acceptable. The manuscript is generally clear, though some terminology and the helix numbering issue may confuse readers.
+- **Recommendation posture** Not currently established from the provided evidence. The core claims are plausible but require substantial additional data and clarification. A revised manuscript addressing the major concerns, particularly the residue identity, quantitative binding analysis, and statistical treatment of phenotypic data, could be reconsidered.

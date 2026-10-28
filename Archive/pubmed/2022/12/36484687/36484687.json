@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "36484687",
+    "doi": "10.1093/bioinformatics/btac798",
+    "title": "Computational prediction and characterization of cell-type-specific and shared binding sites."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Cell-type-specific gene expression is maintained in large part by transcription factors (TFs) selectively binding to distinct sets of sites in different cell types. Recent research works have provided evidence that such cell-type-specific binding is determined by TF's intrinsic sequence preferences, cooperative interactions with co-factors, cell-type-specific chromatin landscapes and 3D chromatin interactions. However, computational prediction and characterization of cell-type-specific and shared binding sites is rarely studied. RESULTS: In this article, we propose two computational approaches for predicting and characterizing cell-type-specific and shared binding sites by integrating multiple types of features, in which one is based on XGBoost and another is based on convolutional neural network (CNN). To validate the performance of our proposed approaches, ChIP-seq datasets of 10 binding factors were collected from the GM12878 (lymphoblastoid) and K562 (erythroleukemic) human hematopoietic cell lines, each of which was further categorized into cell-type-specific (GM12878- and K562-specific) and shared binding sites. Then, multiple types of features for these binding sites were integrated to train the XGBoost- and CNN-based models. Experimental results show that our proposed approaches significantly outperform other competing methods on three classification tasks. Moreover, we identified independent feature contributions for cell-type-specific and shared sites through SHAP values and explored the ability of the CNN-based model to predict cell-type-specific and shared binding sites by excluding or including DNase signals. Furthermore, we investigated the generalization ability of our proposed approaches to different binding factors in the same cellular environment. AVAILABILITY AND IMPLEMENTATION: The source code is available at: https://github.com/turningpoint1988/CSSBS. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Protein Binding/genetics",
+      "Binding Sites/genetics",
+      "*Chromatin",
+      "*Transcription Factors/metabolism",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qinhu",
+        "Teng, Pengrui",
+        "Wang, Siguo",
+        "He, Ying",
+        "Cui, Zhen",
+        "Guo, Zhenghao",
+        "Liu, Yixin",
+        "Yuan, Changan",
+        "Liu, Qi",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "Teng P",
+        "Wang S",
+        "He Y",
+        "Cui Z",
+        "Guo Z",
+        "Liu Y",
+        "Yuan C",
+        "Liu Q",
+        "Huang DS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4232-7736",
+        "ORCID: 0000-0002-9592-7727",
+        "ORCID: 0000-0001-5522-6750"
+      ],
+      "affiliations": [
+        "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "School of Information and Control Engineering, China University of Mining and Technology, Xuzhou 221116, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai 201804, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai 201804, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai 201804, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai 201804, China.",
+        "School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai 200093, China.",
+        "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning 530007, China.",
+        "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "EIT Institute for Advanced Study, Ningbo, Zhejiang 315201, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0002-4232-7736"
+        ],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Pengrui",
+        "short_name": "Teng P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Control Engineering, China University of Mining and Technology, Xuzhou 221116, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai 201804, China."
+        ]
+      },
+      {
+        "full_name": "He, Ying",
+        "short_name": "He Y",
+        "identifiers": [
+          "0000-0002-9592-7727"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai 201804, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhen",
+        "short_name": "Cui Z",
+        "identifiers": [
+          "0000-0001-5522-6750"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai 201804, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhenghao",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai 201804, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yixin",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai 200093, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Changan",
+        "short_name": "Yuan C",
+        "identifiers": [],
+        "affiliations": [
+          "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning 530007, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qi",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [],
+        "affiliations": [
+          "EIT Institute for Advanced Study, Ningbo, Zhejiang 315201, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2023 Jan 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/10 06:00",
+    "fetched_at": "2026-09-28 17:16:10"
+  },
+  "links": {
+    "cites": [
+      "42160323",
+      "40191610",
+      "39082647",
+      "39076052",
+      "38517697",
+      "38189539",
+      "37266407",
+      "37140548"
+    ],
+    "refs": [
+      "35263332",
+      "34850907",
+      "34157284",
+      "33741685",
+      "33498086",
+      "33237311",
+      "32647330",
+      "31639474",
+      "31605096",
+      "31001455",
+      "30922998",
+      "30630522",
+      "30567711",
+      "30183639",
+      "29425488",
+      "27153584",
+      "27084946",
+      "26686651",
+      "26301843",
+      "26213851",
+      "25732821",
+      "25516281",
+      "25033408",
+      "24076218",
+      "23090257",
+      "22955990",
+      "22955984",
+      "22955616",
+      "20944595",
+      "19029915",
+      "16998473",
+      "16845028"
+    ],
+    "similar": [
+      "36484687",
+      "22955984",
+      "28750606",
+      "26818008",
+      "27153645",
+      "25957350",
+      "31639474",
+      "39402535",
+      "32960766",
+      "40102719",
+      "39701486",
+      "27993786",
+      "26703974",
+      "27311443",
+      "40848288",
+      "35681170",
+      "38940155",
+      "35042722",
+      "35997565",
+      "34073774",
+      "30835229",
+      "33372147",
+      "31161194",
+      "31754708",
+      "34929739",
+      "30084962",
+      "42099803",
+      "31899481",
+      "41527854",
+      "41601205",
+      "35652477",
+      "38701417",
+      "22955990",
+      "22721266",
+      "28203701",
+      "31742324",
+      "22863112",
+      "37140548",
+      "38732207",
+      "20838582",
+      "38643066",
+      "41634097",
+      "31742318",
+      "39350338",
+      "30598100",
+      "28961802",
+      "24974204",
+      "35293310",
+      "27845669",
+      "34272562",
+      "40652995",
+      "35997560",
+      "25957351",
+      "22954627",
+      "28881969",
+      "31974574",
+      "31723409",
+      "38422958",
+      "33999190",
+      "32574834",
+      "40646507",
+      "31595288",
+      "34996354",
+      "23935523",
+      "20158869",
+      "24042128",
+      "29722865",
+      "33522898",
+      "37873361",
+      "37805453",
+      "42145197",
+      "29069282",
+      "29326300",
+      "35696584",
+      "22534400",
+      "32976105",
+      "31138617",
+      "40334196",
+      "38670416",
+      "25927199",
+      "40914877",
+      "38293962",
+      "41022541",
+      "31347689",
+      "39535534",
+      "34292930",
+      "22955985",
+      "28704389",
+      "39482734",
+      "34244796",
+      "32187374",
+      "31510655",
+      "35561200",
+      "38950180",
+      "40702706",
+      "28890129",
+      "40186170",
+      "26130577",
+      "35997564",
+      "40065237"
+    ],
+    "review": [
+      "36484687",
+      "31639474",
+      "30084962",
+      "35652477",
+      "31742324"
+    ],
+    "pmc": [
+      "9825777"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36484687.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36484687/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36484687",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac798",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

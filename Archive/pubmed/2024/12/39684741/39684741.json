@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "39684741",
+    "doi": "10.3390/ijms252313029",
+    "title": "Metabolomics-Based Machine Learning Models Accurately Predict Breast Cancer Estrogen Receptor Status."
+  },
+  "content": {
+    "abstract": "Breast cancer is a global concern as a leading cause of death for women. Early and precise diagnosis can be vital in handling the disease efficiently. Breast cancer subtyping based on estrogen receptor (ER) status is crucial for determining prognosis and treatment. This study uses metabolomics data from plasma samples to detect metabolite biomarkers that could distinguish ER-positive from ER-negative breast cancers in a non-invasive manner. The dataset includes demographic information, ER status, and metabolite levels from 188 breast cancer patients and 73 healthy controls. Recursive Feature Elimination (RFE) with a Random Forest (RF) classifier identified an optimal subset of 30 features-29 biomarkers and age-that achieved the highest area under the curve (AUC). To address the class imbalance, Gaussian noise-based augmentation and Adaptive Synthetic Oversampling (ADASYN) were applied, ensuring balanced representation during training. Four machine learning (ML) algorithms-Random Forest, Support Vector Classifier (SVC), XGBoost, and Logistic Regression (LR)-were evaluated using grid search. The Random Forest classifier emerged as the top performer, achieving an AUC of 0.95 and an accuracy of 93%. These results suggest that ML has great promise for identifying specific metabolites linked to ER expression, paving the development of a novel analytical tool that can minimize current challenges in identifying ER status, and improve the precision of breast cancer subtyping.",
+    "keywords": [
+      "breast cancer",
+      "estrogen receptors",
+      "machine learning models",
+      "metabolomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/metabolism/blood/diagnosis",
+      "Female",
+      "*Receptors, Estrogen/metabolism",
+      "*Machine Learning",
+      "*Metabolomics/methods",
+      "*Biomarkers, Tumor/blood/metabolism",
+      "Middle Aged",
+      "Adult",
+      "Algorithms",
+      "Aged",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arumalla, Kamala K",
+        "Haince, Jean-Francois",
+        "Bux, Rashid A",
+        "Huang, Guoyu",
+        "Tappia, Paramjit S",
+        "Ramjiawan, Bram",
+        "Ford, W Randolph",
+        "Vaida, Maria"
+      ],
+      "short_names": [
+        "Arumalla KK",
+        "Haince JF",
+        "Bux RA",
+        "Huang G",
+        "Tappia PS",
+        "Ramjiawan B",
+        "Ford WR",
+        "Vaida M"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5261-9967",
+        "ORCID: 0009-0004-5854-9482",
+        "ORCID: 0000-0001-8307-2760"
+      ],
+      "affiliations": [
+        "Department of Analytics, Harrisburg University of Science and Technology, Harrisburg, PA 17101, USA.",
+        "BioMark Diagnostic Solutions Inc., Quebec, QC G1K 3G5, Canada.",
+        "BioMark Diagnostics Inc., Richmond, BC V6X 2W2, Canada.",
+        "BioMark Diagnostic Solutions Inc., Quebec, QC G1K 3G5, Canada.",
+        "BioMark Diagnostics Inc., Richmond, BC V6X 2W2, Canada.",
+        "Asper Clinical Research Institute, Winnipeg, MB R2H2A6, Canada.",
+        "Asper Clinical Research Institute, Winnipeg, MB R2H2A6, Canada.",
+        "Department of Pharmacology & Therapeutics, Max Rady College of Medicine, University of Manitoba, Winnipeg, MB R3E 0T6, Canada.",
+        "Department of Analytics, Harrisburg University of Science and Technology, Harrisburg, PA 17101, USA.",
+        "Department of Analytics, Harrisburg University of Science and Technology, Harrisburg, PA 17101, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arumalla, Kamala K",
+        "short_name": "Arumalla KK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Analytics, Harrisburg University of Science and Technology, Harrisburg, PA 17101, USA."
+        ]
+      },
+      {
+        "full_name": "Haince, Jean-François",
+        "short_name": "Haince JF",
+        "identifiers": [
+          "0009-0002-5261-9967"
+        ],
+        "affiliations": [
+          "BioMark Diagnostic Solutions Inc., Quebec, QC G1K 3G5, Canada."
+        ]
+      },
+      {
+        "full_name": "Bux, Rashid A",
+        "short_name": "Bux RA",
+        "identifiers": [],
+        "affiliations": [
+          "BioMark Diagnostics Inc., Richmond, BC V6X 2W2, Canada."
+        ]
+      },
+      {
+        "full_name": "Huang, Guoyu",
+        "short_name": "Huang G",
+        "identifiers": [
+          "0009-0004-5854-9482"
+        ],
+        "affiliations": [
+          "BioMark Diagnostic Solutions Inc., Quebec, QC G1K 3G5, Canada.",
+          "BioMark Diagnostics Inc., Richmond, BC V6X 2W2, Canada."
+        ]
+      },
+      {
+        "full_name": "Tappia, Paramjit S",
+        "short_name": "Tappia PS",
+        "identifiers": [
+          "0000-0001-8307-2760"
+        ],
+        "affiliations": [
+          "Asper Clinical Research Institute, Winnipeg, MB R2H2A6, Canada."
+        ]
+      },
+      {
+        "full_name": "Ramjiawan, Bram",
+        "short_name": "Ramjiawan B",
+        "identifiers": [],
+        "affiliations": [
+          "Asper Clinical Research Institute, Winnipeg, MB R2H2A6, Canada.",
+          "Department of Pharmacology & Therapeutics, Max Rady College of Medicine, University of Manitoba, Winnipeg, MB R3E 0T6, Canada."
+        ]
+      },
+      {
+        "full_name": "Ford, W Randolph",
+        "short_name": "Ford WR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Analytics, Harrisburg University of Science and Technology, Harrisburg, PA 17101, USA."
+        ]
+      },
+      {
+        "full_name": "Vaida, Maria",
+        "short_name": "Vaida M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Analytics, Harrisburg University of Science and Technology, Harrisburg, PA 17101, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Dec 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/17 11:50",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [
+      "41972574",
+      "41596237",
+      "41078537",
+      "40269562"
+    ],
+    "refs": [
+      "38500769",
+      "37926067",
+      "37835383",
+      "37495653",
+      "37434799",
+      "37391812",
+      "36267967",
+      "35888767",
+      "35789315",
+      "35698545",
+      "35163138",
+      "35105939",
+      "34033488",
+      "33824479",
+      "33723391",
+      "33439725",
+      "32637048",
+      "32445323",
+      "30976105",
+      "30691108",
+      "30562627",
+      "29110491",
+      "28496143",
+      "24955090",
+      "24562447",
+      "24070170",
+      "23642215",
+      "22232133",
+      "20406502",
+      "20348243",
+      "17387718"
+    ],
+    "similar": [
+      "39684741",
+      "29110491",
+      "40282875",
+      "39519384",
+      "40234520",
+      "38720675",
+      "36183055",
+      "39940000",
+      "38813626",
+      "39979511",
+      "38031071",
+      "40262081",
+      "31664624",
+      "39396025",
+      "39931483",
+      "26848530",
+      "39800743",
+      "39352921",
+      "39225775",
+      "23894323",
+      "40175458",
+      "37867334",
+      "33515764",
+      "39151526",
+      "38158124",
+      "40165301",
+      "25151299",
+      "30228989",
+      "34445986",
+      "32350370",
+      "38791370",
+      "30358693",
+      "39799234",
+      "24125731",
+      "35932551",
+      "35465161",
+      "35700192",
+      "32466777",
+      "39154641",
+      "30114914",
+      "38554554",
+      "24312637",
+      "28076849",
+      "38592291",
+      "39569974",
+      "29848291",
+      "39026540",
+      "39031414",
+      "40242771",
+      "31348505",
+      "40143808",
+      "30979733",
+      "40019633",
+      "39576972",
+      "35348878",
+      "39432469",
+      "38652345",
+      "38641451",
+      "40163811",
+      "34721656",
+      "40122552",
+      "30426507",
+      "34682416",
+      "39945884",
+      "35712068",
+      "38481447",
+      "30902088",
+      "39614188",
+      "40116097",
+      "35509861",
+      "31780739",
+      "33734319",
+      "23369435",
+      "38875420",
+      "39826386",
+      "38645446",
+      "26319120",
+      "28601929",
+      "39838027",
+      "38853190",
+      "39471028",
+      "36284327",
+      "39675593",
+      "32222795",
+      "40182636",
+      "39539120",
+      "38996687",
+      "39465343",
+      "28082280",
+      "37995359",
+      "39966886",
+      "29044896",
+      "39710777",
+      "22407957",
+      "34226990",
+      "36308351",
+      "35263321",
+      "31286302",
+      "39333659",
+      "26092859"
+    ],
+    "review": [
+      "39684741"
+    ],
+    "pmc": [
+      "11641454"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms252313029",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39684741/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

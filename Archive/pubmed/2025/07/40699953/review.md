@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose LineGRN, a line graph neural network framework for gene regulatory network (GRN) inference from single-cell RNA sequencing (scRNA-seq) data. The method models neighborhood relationships between gene pairs to preserve interaction signals and uses a line graph transformation to produce a high-degree-node-dominated topology for efficient information propagation. The authors claim significant outperformance over seven state-of-the-art methods on real datasets, low sensitivity to parameter variations and noise, and empirical evidence from case studies for uncovering potential TF-target regulatory associations.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline specifications, or case study details are provided
+- **Missing materials affecting confidence** Full methods, experimental setup, dataset names and preprocessing details, baseline versions and hyperparameters, performance metrics, statistical significance tests, case study figures, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting application of line graph neural networks to GRN inference, with a plausible motivation regarding low-degree-node-dominated topologies in prior GRNs. However, the evidence provided in the abstract is insufficient to evaluate the validity of the core claims. No quantitative results, dataset details, or methodological specifics are given, making it impossible to assess technical soundness or the significance of the reported improvements. The case study claim is vague and lacks any supporting detail. The work may have merit, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell transcriptomics analysis, and graph-based deep learning methods. Researchers developing graph neural network architectures for biological applications may also find the line graph transformation approach of interest, particularly for addressing information propagation limitations in sparse network topologies.
+- **Major strengths** The motivation is clearly articulated, specifically the limitation of low-degree-node-dominated topologies in prior GRNs and the potential of line graph transformations to address this. The proposed approach is conceptually novel in its application to GRN inference, as line graph neural networks are not commonly used in this domain. The abstract claims comprehensive benchmarking against seven state-of-the-art methods, which suggests a thorough experimental design if the claims are substantiated in the full manuscript.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Comprehensive experiments on real datasets demonstrate that LineGRN significantly outperforms seven state-of-the-art methods."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative results, no dataset names, no performance metrics, and no statistical significance values to support the claim of significant outperformance. The term "significantly" implies statistical testing, but no p-values, confidence intervals, or effect sizes are reported.
+  - **Why it matters** Without quantitative evidence, the central claim of the paper cannot be evaluated. The reader cannot determine whether the improvement is marginal or substantial, whether it holds across diverse datasets, or whether the comparison was fair in terms of baseline tuning and evaluation protocols.
+  - **Resolution test** Provide in the abstract or full manuscript the specific datasets used, the evaluation metrics (e.g., AUROC, AUPRC), the performance values for LineGRN and each baseline, and the statistical test used with resulting p-values or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "By modeling the neighborhood relationships between gene pairs, LineGRN effectively preserves interaction signals within the topological structure. Moreover, the line graph transformation produces a high-degree-node-dominated local network topology, which enables more efficient information propagation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract describes the method at a conceptual level but provides no details on the model architecture, input features, training procedure, or how the line graph transformation is specifically implemented for GRN inference. The claim that the line graph transformation "enables more efficient information propagation" is asserted without any theoretical or empirical justification.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without architectural and implementation details, other researchers cannot build upon or validate the approach. The efficiency claim is also unsubstantiated, as no runtime comparisons or convergence analyses are mentioned.
+  - **Resolution test** Include in the full manuscript a detailed description of the model architecture, input representation, training details, and a comparison of computational efficiency against baselines. Provide theoretical or empirical evidence for the information propagation benefit of the line graph transformation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** "Notably, case studies provide empirical evidence of the model's ability to uncover potential TF-target regulatory associations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The case study claim is entirely unsupported in the abstract. No specific transcription factors, target genes, biological contexts, or validation approaches are mentioned. It is unclear whether the identified associations were validated experimentally, through literature curation, or through other computational resources.
+  - **Why it matters** The case study is presented as a notable contribution, but without details, the reader cannot assess the biological relevance or novelty of the findings. Unvalidated predictions are common in GRN inference, and the claim of "empirical evidence" requires clarification on what form of validation was performed.
+  - **Resolution test** Describe in the abstract or full manuscript the specific case study, the predicted TF-target pairs, the validation method (e.g., literature evidence, ChIP-seq data, perturbation experiments), and the criteria for considering an association as "potential."
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** First sentence
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "GRNs depicts" contains a subject-verb agreement error; "GRNs" is plural and should take "depict."
+  - **Required correction** Change "depicts" to "depict."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that LineGRN outperforms seven state-of-the-art methods but does not name any of them. This omission limits the reader's ability to contextualize the comparison.
+  - **Required correction** List the names of the seven baseline methods in the abstract or full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Robustness claim
+  - **Affected element** "low sensitivity to parameter variations and noise interference"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The robustness claim is stated without any indication of the parameter ranges tested, the types and levels of noise introduced, or the metrics used to assess sensitivity.
+  - **Required correction** Specify the parameters varied, the noise models and levels applied, and the quantitative results demonstrating robustness.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence for the central performance claim), R1-M2 (insufficient methodological detail for reproducibility and for substantiating the efficiency claim), R1-M3 (unsupported case study claim)
+- **Assessment against Nature-style criteria** Originality: The application of line graph neural networks to GRN inference appears conceptually novel, though the abstract does not provide enough context to determine the degree of novelty relative to existing graph-based GRN methods. Scientific importance: GRN inference from scRNA-seq data is an active and important area, and addressing information propagation limitations in sparse networks is a relevant problem; however, the significance of the contribution cannot be assessed without quantitative results. Interdisciplinary readership: The work bridges machine learning and computational biology, which could appeal to both communities, but the abstract is too brief to engage nonspecialists effectively. Technical soundness: Not assessable from the abstract; no architectural details, experimental protocols, or statistical analyses are provided. Readability for nonspecialists: The abstract is generally readable, but terms such as "line graph transformation" and "high-degree-node-dominated topology" are used without explanation, which may hinder comprehension for biologists unfamiliar with graph theory.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising, and the authors may have conducted thorough experiments, but the abstract alone does not provide sufficient information to evaluate the validity of the core claims. A supportive stance would require access to the full manuscript with detailed methods, quantitative results, and validated case studies.
+
+## Risk / unsupported claims
+- The claim of significant outperformance over seven state-of-the-art methods is unsupported in the abstract due to the absence of any quantitative data or statistical tests.
+- The claim that the line graph transformation "enables more efficient information propagation" is asserted without theoretical or empirical support.
+- The claim of "low sensitivity to parameter variations and noise interference" is unsubstantiated without details on the parameter ranges, noise conditions, or results.
+- The case study claim of uncovering potential TF-target regulatory associations is unsupported without specific examples or validation details.
+- The overall effectiveness of the method cannot be evaluated from the abstract alone.

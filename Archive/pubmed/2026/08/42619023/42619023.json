@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "42619023",
+    "doi": "10.1002/cmdc.70427",
+    "title": "Docking-Based Virtual Screening Identifies a Small-Molecule Inhibitor of the Translesion Synthesis REV7/REV3 Protein-Protein Interaction."
+  },
+  "content": {
+    "abstract": "REV7 is an adaptor protein that mediates protein-protein interactions (PPIs) in DNA damage response and cell cycle control. REV7 functions as a subunit of the translesion synthesis (TLS) DNA polymerase POLzeta, which is involved in the replicative bypass of DNA lesions. REV7 is also a component of the shieldin complex, which mediates the choice of pathway for DNA double-stranded break (DSB) repair. TLS promotes cancer cell survival after DNA damage and serves as a mechanism through which cancers develop acquired chemoresistance. DSB repair helps cancers mitigate DNA breaks induced by radiation; therefore, inhibition of REV7 PPIs has emerged as a therapeutic strategy. We performed a docking-based virtual screen to identify compounds predicted to disrupt PPIs between REV7 and the REV7-binding motifs (RBMs) found in the REV3 subunit of POLzeta (TLS) and the SHLD3 subunit of shieldin (DSB repair). Biochemical analysis of a promising hit compound and several analogues demonstrated the ability of this scaffold to disrupt the REV7/RBM(REV3) PPI. Several REV7 inhibitors sensitize human cancer cells to radiation treatment, identifying these compounds as a new class of TLS and DSB-repair targeted anticancer drugs with potential as adjuvant therapies to improve the efficacy of genotoxic cancer therapies.",
+    "keywords": [
+      "virtual screening",
+      "DNA damage",
+      "DNA polymerase",
+      "DNA repair",
+      "cancer research",
+      "medicinal chemistry",
+      "signal transducing adaptor protein",
+      "small molecule"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*DNA-Directed DNA Polymerase/metabolism",
+      "*Mad2 Proteins/metabolism/antagonists & inhibitors/chemistry",
+      "*Small Molecule Libraries/pharmacology/chemistry/chemical synthesis",
+      "Translesion DNA Synthesis",
+      "*DNA-Binding Proteins/metabolism/antagonists & inhibitors",
+      "Protein Binding/drug effects",
+      "Structure-Activity Relationship",
+      "Molecular Structure",
+      "Dose-Response Relationship, Drug",
+      "Drug Evaluation, Preclinical",
+      "*Antineoplastic Agents/pharmacology/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Harrahill, Noah J",
+        "Patel, Seema M",
+        "Dash, Radha Charan",
+        "Zaino, Angela M",
+        "Gupta, Vihit",
+        "Geddes-Buehre, Dane H",
+        "Brereton, Colin",
+        "Rizzo, Alessandro A",
+        "Chatterjee, Nimrat",
+        "Korzhnev, Dmitry M",
+        "Hadden, M Kyle"
+      ],
+      "short_names": [
+        "Harrahill NJ",
+        "Patel SM",
+        "Dash RC",
+        "Zaino AM",
+        "Gupta V",
+        "Geddes-Buehre DH",
+        "Brereton C",
+        "Rizzo AA",
+        "Chatterjee N",
+        "Korzhnev DM",
+        "Hadden MK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9958-4717",
+        "ORCID: 0000-0003-0696-4962",
+        "ORCID: 0009-0008-9007-165X",
+        "ORCID: 0000-0002-1861-0515",
+        "ORCID: 0009-0003-6514-0290",
+        "ORCID: 0000-0001-6556-9423",
+        "ORCID: 0000-0002-3556-2447",
+        "ORCID: 0000-0001-9482-1712"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA.",
+        "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA.",
+        "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA.",
+        "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA.",
+        "University of Vermont Cancer Center and Department of Microbiology and Molecular Genetics, University of Vermont, Burlington, Vermont, USA.",
+        "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, Connecticut, USA.",
+        "University of Vermont Cancer Center and Department of Microbiology and Molecular Genetics, University of Vermont, Burlington, Vermont, USA.",
+        "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, Connecticut, USA.",
+        "University of Vermont Cancer Center and Department of Microbiology and Molecular Genetics, University of Vermont, Burlington, Vermont, USA.",
+        "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, Connecticut, USA.",
+        "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Harrahill, Noah J",
+        "short_name": "Harrahill NJ",
+        "identifiers": [
+          "0000-0002-9958-4717"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Patel, Seema M",
+        "short_name": "Patel SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Dash, Radha Charan",
+        "short_name": "Dash RC",
+        "identifiers": [
+          "0000-0003-0696-4962"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Zaino, Angela M",
+        "short_name": "Zaino AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Gupta, Vihit",
+        "short_name": "Gupta V",
+        "identifiers": [
+          "0009-0008-9007-165X"
+        ],
+        "affiliations": [
+          "University of Vermont Cancer Center and Department of Microbiology and Molecular Genetics, University of Vermont, Burlington, Vermont, USA."
+        ]
+      },
+      {
+        "full_name": "Geddes-Buehre, Dane H",
+        "short_name": "Geddes-Buehre DH",
+        "identifiers": [
+          "0000-0002-1861-0515"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Brereton, Colin",
+        "short_name": "Brereton C",
+        "identifiers": [
+          "0009-0003-6514-0290"
+        ],
+        "affiliations": [
+          "University of Vermont Cancer Center and Department of Microbiology and Molecular Genetics, University of Vermont, Burlington, Vermont, USA."
+        ]
+      },
+      {
+        "full_name": "Rizzo, Alessandro A",
+        "short_name": "Rizzo AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Chatterjee, Nimrat",
+        "short_name": "Chatterjee N",
+        "identifiers": [
+          "0000-0001-6556-9423"
+        ],
+        "affiliations": [
+          "University of Vermont Cancer Center and Department of Microbiology and Molecular Genetics, University of Vermont, Burlington, Vermont, USA."
+        ]
+      },
+      {
+        "full_name": "Korzhnev, Dmitry M",
+        "short_name": "Korzhnev DM",
+        "identifiers": [
+          "0000-0002-3556-2447"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Hadden, M Kyle",
+        "short_name": "Hadden MK",
+        "identifiers": [
+          "0000-0001-9482-1712"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Connecticut, Storrs, Connecticut, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ChemMedChem"
+    ],
+    "journal_abbrev": [
+      "ChemMedChem"
+    ],
+    "pub_date": "2026 Aug 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/20 05:43",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39366370",
+      "38749343",
+      "37958783",
+      "37625405",
+      "36980607",
+      "36755961",
+      "36592930",
+      "34147298",
+      "33962851",
+      "33614910",
+      "33179552",
+      "33144509",
+      "32332881",
+      "31627876",
+      "31484720",
+      "31410467",
+      "30948458",
+      "30657231",
+      "30111544",
+      "30046110",
+      "30037752",
+      "30022168",
+      "30022119",
+      "29656893",
+      "29567631",
+      "29494238",
+      "28938088",
+      "28887307",
+      "28541665",
+      "28485537",
+      "28003236",
+      "27500492",
+      "27448776",
+      "27362876",
+      "26598612",
+      "26590714",
+      "25737057",
+      "25709118",
+      "25567983",
+      "24100295",
+      "23457261",
+      "23066099",
+      "22999981",
+      "22859296",
+      "22859295",
+      "22828282",
+      "22465957",
+      "21926160",
+      "21514164",
+      "21152103",
+      "21068378",
+      "21068376",
+      "21063390",
+      "20965415",
+      "20164194",
+      "20139724",
+      "20088965",
+      "19753112",
+      "19367366",
+      "19153606",
+      "17124629",
+      "16631579",
+      "16618761",
+      "16476771",
+      "15588843",
+      "12154119",
+      "11459825",
+      "9757827"
+    ],
+    "similar": [
+      "42619023",
+      "31257254",
+      "39366370",
+      "30111544",
+      "28541665",
+      "36592930",
+      "37129702",
+      "31796627",
+      "27448776",
+      "20164194",
+      "26982350",
+      "33051298",
+      "30037752",
+      "38749343",
+      "31361935",
+      "23143872",
+      "21926160",
+      "28440919",
+      "34174285",
+      "32332881",
+      "24356953",
+      "40106439",
+      "36044844",
+      "27362876",
+      "31915374",
+      "33179552",
+      "34147298",
+      "30289707",
+      "37958783",
+      "20088965",
+      "33597306",
+      "33314657",
+      "28075014",
+      "33144509",
+      "22859296",
+      "32499490",
+      "26939044",
+      "37031298",
+      "30046110",
+      "29656893",
+      "27130816",
+      "22303021",
+      "39050797",
+      "31484720",
+      "25799992",
+      "22869133",
+      "12800216",
+      "30154076",
+      "38557443",
+      "34521823",
+      "33962851",
+      "22711820",
+      "31178121",
+      "41468732",
+      "30548204",
+      "24449906",
+      "16227619",
+      "12459441",
+      "25567983",
+      "25655219",
+      "24922507",
+      "32811646",
+      "20054135",
+      "39630591",
+      "23580445",
+      "32807989",
+      "40194519",
+      "28482218",
+      "16169844",
+      "31627876",
+      "20028736",
+      "31891209",
+      "29710850",
+      "24875188",
+      "22691049",
+      "23303771",
+      "35163901",
+      "40613708",
+      "34577015",
+      "25113059",
+      "24120860",
+      "23287467",
+      "22828282",
+      "28887307",
+      "39244972",
+      "34508659",
+      "41161068",
+      "17030609",
+      "30022158",
+      "39062611",
+      "25799990",
+      "40437303",
+      "23395113",
+      "22387291",
+      "34333394",
+      "29976942",
+      "26004212",
+      "25978000",
+      "38720088",
+      "41218699"
+    ],
+    "review": [
+      "42619023",
+      "31257254",
+      "27362876",
+      "33179552",
+      "34147298",
+      "12800216",
+      "33962851",
+      "12459441",
+      "25655219",
+      "31627876",
+      "34577015"
+    ],
+    "pmc": [
+      "13490628"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42619023/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cmdc.70427",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-944",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

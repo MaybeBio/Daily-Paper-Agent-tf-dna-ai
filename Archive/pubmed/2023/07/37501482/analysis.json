@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37501482",
+  "title": "Identification of DNA-binding protein based multiple kernel model.",
+  "authors": "Qian, Yuqing; Shang, Tingting; Guo, Fei; Wang, Chunliang; Cui, Zhiming; Ding, Yijie; Wu, Hongjie",
+  "journal": "Mathematical biosciences and engineering : MBE",
+  "published_date": "2023-07-28",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于多核学习预测DNA结合蛋白，虽属蛋白-DNA互作范畴且用AI方法，但仅序列特征预测，未涉及TF-DNA特异性结合或三维互作机制建模，深度有限。",
+  "abstract": "DNA-binding proteins (DBPs) play a critical role in the development of drugs for treating genetic diseases and in DNA biology research. It is essential for predicting DNA-binding proteins more accurately and efficiently. In this paper, a Laplacian Local Kernel Alignment-based Restricted Kernel Machine (LapLKA-RKM) is proposed to predict DBPs. In detail, we first extract features from the protein sequence using six methods. Second, the Radial Basis Function (RBF) kernel function is utilized to construct pre-defined kernel metrics. Then, these metrics are combined linearly by weights calculated by LapLKA. Finally, the fused kernel is input to RKM for training and prediction. Independent tests and leave-one-out cross-validation were used to validate the performance of our method on a small dataset and two large datasets. Importantly, we built an online platform to represent our model, which is now freely accessible via http://8.130.69.121:8082/.",
+  "abstract_zh": "DNA结合蛋白（DBPs）在治疗遗传疾病药物开发及DNA生物学研究中扮演关键角色。更准确、高效地预测DNA结合蛋白至关重要。本文提出了一种基于拉普拉斯局部核对齐的受限核机（LapLKA-RKM）用于预测DBPs。具体而言，我们首先通过六种方法从蛋白质序列中提取特征。其次，利用径向基函数（RBF）核函数构建预定义核度量。然后，通过LapLKA计算的权重将这些度量线性组合。最后，将融合后的核输入RKM进行训练和预测。采用独立测试和留一交叉验证在小型数据集及两个大型数据集上验证了我们方法的性能。重要的是，我们构建了一个在线平台来展示我们的模型，现可通过http://8.130.69.121:8082/免费访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37501482/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37501482/",
+  "paper_page_path": "papers/pubmed/37501482/index.html"
+}

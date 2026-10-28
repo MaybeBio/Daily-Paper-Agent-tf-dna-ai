@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37684281",
+  "title": "Identification of co-diagnostic effect genes for aortic dissection and metabolic syndrome by multiple machine learning algorithms.",
+  "authors": "Zhang, Yang; Li, Jinwei; Chen, Lihua; Liang, Rui; Liu, Quan; Wang, Zhiyi",
+  "journal": "Scientific reports",
+  "published_date": "2023-09-09",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习算法识别主动脉夹层与代谢综合征的共诊断基因，虽涉及转录因子结合富集，但核心是疾病诊断标志物，无蛋白质-DNA互作建模或TF-DNA结合机制研究。",
+  "abstract": "Aortic dissection (AD) is a life-threatening condition in which the inner layer of the aorta tears. It has been reported that metabolic syndrome (MS) has a close linkage with aortic dissection. However, the inter-relational mechanisms between them were still unclear. This article explored the hub gene signatures and potential molecular mechanisms in AD and MS. We obtained five bulk RNA-seq datasets of AD, one single cell RNA-seq (scRNA-seq) dataset of ascending thoracic aortic aneurysm (ATAA), and one bulk RNA-seq dataset of MS from the gene expression omnibus (GEO) database. Identification of differentially expressed genes (DEGs) and key modules via weighted gene co-expression network analysis (WGCNA), functional enrichment analysis, and machine learning algorithms (Random Forest and LASSO regression) were used to identify hub genes for diagnosing AD with MS. XGBoost further improved the diagnostic performance of the model. The receiver operating characteristic (ROC) and precision-recall (PR) curves were developed to assess the diagnostic value. Then, immune cell infiltration and metabolism-associated pathways analyses were created to investigate immune cell and metabolism-associated pathway dysregulation in AD and MS. Finally, the scRNA-seq dataset was performed to confirm the expression levels of identified hub genes. 406 common DEGs were identified between the merged AD and MS datasets. Functional enrichment analysis revealed these DEGs were enriched for applicable terms of metabolism, cellular processes, organismal systems, and human diseases. Besides, the positively related key modules of AD and MS were mainly enriched in transcription factor binding and inflammatory response. In contrast, the negatively related modules were significantly associated with adaptive immune response and regulation of nuclease activity. Through machine learning, nine genes with common diagnostic effects were found in AD and MS, including MAD2L2, IMP4, PRPF4, CHSY1, SLC20A1, SLC9A1, TIPRL, DPYD, and MAPKAPK2. In the training set, the AUC of the hub gene on RP and RR curves was 1. In the AD verification set, the AUC of the Hub gene on RP and RR curves were 0.946 and 0.955, respectively. In the MS set, the AUC of the Hub gene on RP and RR curves were 0.978 and 0.98, respectively. scRNA-seq analysis revealed that the SLC20A1 was found to be relevant in fatty acid metabolic pathways and expressed in endothelial cells. Our study revealed the common pathogenesis of AD and MS. These common pathways and hub genes might provide new ideas for further mechanism research.",
+  "abstract_zh": "主动脉夹层（aortic dissection, AD）是一种危及生命的疾病，其中主动脉内层发生撕裂。已有报道指出，代谢综合征（metabolic syndrome, MS）与主动脉夹层密切相关。然而，两者之间的相互关系机制仍不清楚。本文探讨了AD和MS中的核心基因特征及潜在分子机制。我们从基因表达综合（gene expression omnibus, GEO）数据库中获取了五个AD的批量RNA测序（bulk RNA-seq）数据集、一个升胸主动脉瘤（ascending thoracic aortic aneurysm, ATAA）的单细胞RNA测序（single cell RNA-seq, scRNA-seq）数据集，以及一个MS的批量RNA测序数据集。通过加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）鉴定差异表达基因（differentially expressed genes, DEGs）和关键模块，并结合功能富集分析及机器学习算法（随机森林和LASSO回归）来识别用于诊断AD伴MS的核心基因。XGBoost进一步提高了模型的诊断性能。我们绘制了受试者工作特征（receiver operating characteristic, ROC）曲线和精确率-召回率（precision-recall, PR）曲线以评估诊断价值。随后，进行了免疫细胞浸润和代谢相关通路分析，以探究AD和MS中免疫细胞及代谢相关通路的失调情况。最后，利用scRNA-seq数据集验证了所识别核心基因的表达水平。在合并的AD和MS数据集中，共鉴定出406个共同DEGs。功能富集分析显示，这些DEGs富集于代谢、细胞过程、生物体系统和人类疾病等相关条目。此外，AD和MS的正相关关键模块主要富集于转录因子结合和炎症反应，而负相关模块则与适应性免疫反应和核酸酶活性调控显著相关。通过机器学习，我们在AD和MS中发现了九个具有共同诊断效应的基因，包括MAD2L2、IMP4、PRPF4、CHSY1、SLC20A1、SLC9A1、TIPRL、DPYD和MAPKAPK2。在训练集中，核心基因在RP和RR曲线上的AUC为1。在AD验证集中，核心基因在RP和RR曲线上的AUC分别为0.946和0.955。在MS数据集中，核心基因在RP和RR曲线上的AUC分别为0.978和0.98。scRNA-seq分析显示，SLC20A1与脂肪酸代谢通路相关，并在内皮细胞中表达。我们的研究揭示了AD和MS的共同发病机制。这些共同通路和核心基因可能为进一步的机制研究提供新思路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37684281/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37684281/",
+  "paper_page_path": "papers/pubmed/37684281/index.html"
+}

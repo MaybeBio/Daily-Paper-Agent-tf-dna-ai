@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The study investigates disease-associated missense SNPs in the THRB gene using in silico prediction, molecular docking and simulation, and cell-based assays to characterize effects on receptor structure, stability, T(3) and RXR interactions, subcellular localization, transcriptional function, and chromatin interactions, with implications for personalized medicine and novel therapeutics.
+- **Visible evidence base** Abstract text only; no specific data, statistical results, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, statistical analyses, variant selection criteria, cell lines used, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and ambitious study aimed at linking disease-associated THRB SNPs to functional receptor deficits through a multi-tiered approach. The rationale is clinically relevant and the scope is potentially impactful. However, the abstract lacks specific findings, quantitative data, and methodological transparency, making it impossible to evaluate the validity or novelty of the claims. The stated conclusions are largely speculative and not supported by any visible evidence in the provided material.
+- **Who would be interested in the results, and why** Endocrinologists and molecular biologists studying thyroid hormone signaling, geneticists interested in SNP functional annotation, and clinicians managing thyroid hormone resistance or related metabolic disorders would find the results relevant. The potential for SNP-based diagnostics and therapeutic targeting of THRbeta could also attract translational researchers and pharmaceutical scientists.
+- **Major strengths** The study addresses a clinically important gap in understanding how THRB SNPs affect receptor function beyond computational predictions. The integration of computational and cell-based approaches is commendable. The focus on structural and conformational determinants of receptor function is mechanistically sound.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the study "investigated" and "evaluated" the impact of variants on receptor function and that "critical deviations are associated with several metabolic/endocrine disease states."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No specific results are reported. The abstract describes the methods and the intended scope but provides no data on which variants were studied, what effects were observed, or how the conclusions were derived. The claim of association between structural deviations and disease states is presented as a finding, but no supporting evidence is visible.
+  - **Why it matters** Without any reported outcomes, the scientific contribution cannot be assessed. The abstract does not allow a reviewer or reader to determine whether the study achieved its aims or whether the conclusions are justified.
+  - **Resolution test** The full manuscript must provide explicit results for each assay, including statistical significance, effect sizes, and a clear link between specific variants and observed functional changes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "molecular docking and simulation approach then evaluated the impact of these variants on interactions with T(3) and RXR" and that "cell-based assays" were used.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided. The abstract does not specify which computational tools, force fields, simulation times, cell lines, reporter constructs, or experimental conditions were used. This lack of detail prevents evaluation of technical soundness and reproducibility.
+  - **Why it matters** Reproducibility is a core requirement for any study claiming functional insights. Without methodological specifics, the results cannot be independently verified or compared with existing literature.
+  - **Resolution test** The full methods section must include all software versions, parameters, cell culture conditions, assay protocols, and statistical methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and contextualization
+  - **Claim pointer** The abstract claims that "a significant gap remains in understanding the impact of SNPs on THRbeta cellular function and disease etiology" and that the study addresses this gap.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not reference prior studies on THRB SNPs or explain how this work advances beyond existing knowledge. The claim of a "significant gap" is not substantiated with a literature context.
+  - **Why it matters** For a study to be impactful, it must clearly position itself relative to prior work. Without this context, the novelty and scientific importance cannot be judged.
+  - **Resolution test** The introduction and discussion must cite and critically evaluate prior functional studies of THRB variants and explicitly state what new insights this study provides.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, sentence on "prospects of personalized medicine"
+  - **Issue** The statement about personalized medicine and SNP-based genomic tests is speculative and not directly supported by the described work.
+  - **Required correction** Rephrase to indicate these are potential future implications rather than direct outcomes of the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Variant description
+  - **Evidence pointer** Abstract, "disease-associated missense THRbeta-SNPs"
+  - **Issue** The abstract does not specify how many variants were studied or which diseases they are associated with.
+  - **Required correction** Include the number of variants and the associated disease conditions in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "receptor-chromatin interactions"
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The term is used without explanation of the assay type, which may confuse nonspecialist readers.
+  - **Required correction** Briefly clarify the method used to assess chromatin interactions, such as chromatin immunoprecipitation or imaging.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of any reported results and the lack of methodological detail mean the core claims cannot be evaluated. The study's conclusions are not established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The approach is not novel in concept, but the specific variant set and integrated analysis could be original. No comparison with prior work is provided.
+  - Scientific importance: Potentially high given the clinical relevance of THRB mutations, but the abstract does not demonstrate a significant advance.
+  - Interdisciplinary readership: The topic bridges endocrinology, genetics, and structural biology, which could appeal to a broad audience. However, the abstract is too general to attract specific interest.
+  - Technical soundness: Not assessable. No methods or results are visible.
+  - Readability for nonspecialists: The abstract is readable but uses jargon without explanation, such as "heterodimeric partner RXR" and "receptor-chromatin interactions."
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not allow a fair assessment of the study's validity or impact. A full manuscript with detailed methods and results is required before any supportive recommendation can be considered.
+
+## Risk / unsupported claims
+- The claim that "critical deviations are associated with several metabolic/endocrine disease states" is unsupported in the abstract, as no data are presented.
+- The statement that the study "suggests the prospects of personalized medicine and the development of SNP-based genomic tests" is speculative and not directly derived from the described work.
+- The assertion that findings "may also facilitate the discovery of novel small-molecule modulators" is a general hope rather than a demonstrated outcome.
+- All functional claims regarding receptor localization, transcriptional activity, and chromatin interactions are unverifiable from the abstract.

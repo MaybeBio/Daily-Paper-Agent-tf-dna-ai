@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "40661543",
+    "doi": "10.1101/2025.06.10.658920",
+    "title": "Systematic characterization of the ovarian landscape across mouse menopause models."
+  },
+  "content": {
+    "abstract": "Menopause not only affects fertility but also has widespread impact on systemic health. Yet, the molecular mechanisms underlying this process are not fully understood, partly due to the absence of robust, age-relevant preclinical models with comprehensive molecular and phenotypic characterization. To address this, we systematically compared three candidate mouse models of menopause: (1) intact aging, (2) chemical ovarian follicle depletion using 4-vinylcyclohexene diepoxide (VCD) administered at multiple ages, and (3) Foxl2 haploinsufficiency, a genetic model based on a transcription factor linked to human premature ovarian failure. Through histology, serum hormone profiling, single-cell transcriptomics and machine-learning approaches, we uncovered both shared and model-specific features of follicle loss, endocrine disruption, and transcriptional remodeling. The VCD and Foxl2 haploinsufficiency models revealed distinct patterns of hormonal and immune alterations not captured by intact aging alone. This comparative framework enables informed selection of context-appropriate preclinical rodent models to study menopause and the broader physiological consequences of ovarian aging.",
+    "keywords": [
+      "Menopause",
+      "ovarian age clock",
+      "ovarian aging",
+      "preclinical models",
+      "single-cell RNAseq"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Minhoo",
+        "Bhala, Rajyk",
+        "Wang, Justin",
+        "Lu, Ryan J",
+        "Lee, Evelyn H",
+        "Alvarenga, Julio L",
+        "Williams, Rapheal G",
+        "Benayoun, Berenice A"
+      ],
+      "short_names": [
+        "Kim M",
+        "Bhala R",
+        "Wang J",
+        "Lu RJ",
+        "Lee EH",
+        "Alvarenga JL",
+        "Williams RG",
+        "Benayoun BA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4783-4884",
+        "ORCID: 0000-0001-6089-6177",
+        "ORCID: 0009-0004-0803-566X",
+        "ORCID: 0000-0001-8627-2880",
+        "ORCID: 0009-0008-2079-2224",
+        "ORCID: 0009-0009-6990-006X",
+        "ORCID: 0000-0003-1392-2242",
+        "ORCID: 0000-0002-7401-4777"
+      ],
+      "affiliations": [
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Department of Chemistry, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Molecular and Computational Biology Department, USC Dornsife College of Letters, Arts and Sciences, Los Angeles, CA 90089, USA.",
+        "Cancer Biology Department, USC Keck School of Medicine, Los Angeles, CA 90033, USA.",
+        "USC Norris Comprehensive Cancer Center, Epigenetics and Gene Regulation, Los Angeles, CA 90033, USA.",
+        "Pharmacology & Pharmaceutical Sciences Department, USC Alfred E. Mann School of Pharmacy, Los Angeles, CA 90033, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Minhoo",
+        "short_name": "Kim M",
+        "identifiers": [
+          "0000-0002-4783-4884"
+        ],
+        "affiliations": [
+          "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Bhala, Rajyk",
+        "short_name": "Bhala R",
+        "identifiers": [
+          "0000-0001-6089-6177"
+        ],
+        "affiliations": [
+          "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Justin",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0009-0004-0803-566X"
+        ],
+        "affiliations": [
+          "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA.",
+          "Department of Chemistry, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Ryan J",
+        "short_name": "Lu RJ",
+        "identifiers": [
+          "0000-0001-8627-2880"
+        ],
+        "affiliations": [
+          "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Evelyn H",
+        "short_name": "Lee EH",
+        "identifiers": [
+          "0009-0008-2079-2224"
+        ],
+        "affiliations": [
+          "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Alvarenga, Julio L",
+        "short_name": "Alvarenga JL",
+        "identifiers": [
+          "0009-0009-6990-006X"
+        ],
+        "affiliations": [
+          "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Williams, Rapheal G",
+        "short_name": "Williams RG",
+        "identifiers": [
+          "0000-0003-1392-2242"
+        ],
+        "affiliations": [
+          "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Benayoun, Bérénice A",
+        "short_name": "Benayoun BA",
+        "identifiers": [
+          "0000-0002-7401-4777"
+        ],
+        "affiliations": [
+          "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089, USA.",
+          "Molecular and Computational Biology Department, USC Dornsife College of Letters, Arts and Sciences, Los Angeles, CA 90089, USA.",
+          "Cancer Biology Department, USC Keck School of Medicine, Los Angeles, CA 90033, USA.",
+          "USC Norris Comprehensive Cancer Center, Epigenetics and Gene Regulation, Los Angeles, CA 90033, USA.",
+          "Pharmacology & Pharmaceutical Sciences Department, USC Alfred E. Mann School of Pharmacy, Los Angeles, CA 90033, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jun 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 06:27",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41776310",
+      "39578560",
+      "39470721",
+      "39469582",
+      "38936341",
+      "38777831",
+      "38698852",
+      "38334621",
+      "38200272",
+      "38129670",
+      "38126810",
+      "38093329",
+      "37899138",
+      "37249233",
+      "37118510",
+      "37096871",
+      "36714222",
+      "36699385",
+      "36545281",
+      "36285248",
+      "36205477",
+      "35974106",
+      "35258562",
+      "35236988",
+      "35020427",
+      "34970652",
+      "34869323",
+      "34788843",
+      "34557778",
+      "34556652",
+      "34187808",
+      "34172974",
+      "34062119",
+      "34035083",
+      "33815272",
+      "33774659",
+      "33674594",
+      "33618746",
+      "33475143",
+      "33432051",
+      "33257685",
+      "33095879",
+      "32989329",
+      "32527937",
+      "32004457",
+      "31740819",
+      "31501871",
+      "30643263",
+      "30017799",
+      "29207374",
+      "28894104",
+      "28091601",
+      "27465713",
+      "27188659",
+      "27081111",
+      "26490707",
+      "25700766",
+      "25605792",
+      "25516281",
+      "24973035",
+      "24323947",
+      "23583565",
+      "22617385",
+      "21886162",
+      "21789206",
+      "21211517",
+      "21159842",
+      "20429427",
+      "20005806",
+      "19589949",
+      "19429596",
+      "19114008",
+      "18800157",
+      "18197593",
+      "17999378",
+      "17200939",
+      "17161927",
+      "17082260",
+      "16556768",
+      "15951675",
+      "15613667",
+      "15591235",
+      "15459170",
+      "15056605",
+      "14736745",
+      "14678335",
+      "12149404",
+      "12017547",
+      "11175783",
+      "10986010",
+      "9660432",
+      "8671489",
+      "7925747"
+    ],
+    "similar": [
+      "40661543",
+      "34124295",
+      "27793768",
+      "19470706",
+      "39826372",
+      "21221022",
+      "32949557",
+      "39389279",
+      "25080405",
+      "21211517",
+      "18829706",
+      "30965055",
+      "29025323",
+      "40266891",
+      "37661923",
+      "36714222",
+      "27264932",
+      "38646488",
+      "24926825",
+      "17389681",
+      "41005449",
+      "39711362",
+      "37393819",
+      "22228319",
+      "29969652",
+      "41648121",
+      "19439618",
+      "32539154",
+      "28208728",
+      "40765000",
+      "20158943",
+      "17974126",
+      "16422148",
+      "16428448",
+      "16352410",
+      "32383991",
+      "33358858",
+      "12401505",
+      "18348702",
+      "33888135",
+      "31050200",
+      "32604417",
+      "38500268",
+      "29738870",
+      "40982979",
+      "41250173",
+      "12408955",
+      "14998904",
+      "16952357",
+      "22696150",
+      "11215690",
+      "38499957",
+      "26491098",
+      "38180450",
+      "24747886",
+      "17342769",
+      "39935178",
+      "22776052",
+      "25511107",
+      "12488331",
+      "34601586",
+      "31152926",
+      "23561932",
+      "35794872",
+      "23136135",
+      "32850784",
+      "27456335",
+      "28710146",
+      "26753941",
+      "33038381",
+      "9579435",
+      "3536609",
+      "19150572",
+      "37001841",
+      "25801548",
+      "29778464",
+      "38064437",
+      "12773939",
+      "24437079",
+      "35386089",
+      "41282256",
+      "31394142",
+      "41054364",
+      "25564616",
+      "39977580",
+      "18448842",
+      "36889083",
+      "39302361",
+      "41019345",
+      "39963865",
+      "34417809",
+      "38184290",
+      "22239082",
+      "28584559",
+      "27252160",
+      "27647594",
+      "19295054",
+      "11452144",
+      "39017946",
+      "34284777"
+    ],
+    "review": [
+      "40661543",
+      "39826372",
+      "21211517",
+      "16352410",
+      "11215690",
+      "17342769",
+      "28710146",
+      "3536609",
+      "12773939",
+      "39977580",
+      "41019345",
+      "22239082"
+    ],
+    "pmc": [
+      "12259092"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40661543/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.06.10.658920",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

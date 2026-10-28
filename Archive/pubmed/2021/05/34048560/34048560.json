@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "34048560",
+    "doi": "10.1093/nar/gkab429",
+    "title": "DeepFun: a deep learning sequence-based model to decipher non-coding variant effect in a tissue- and cell type-specific manner."
+  },
+  "content": {
+    "abstract": "More than 90% of the genetic variants identified from genome-wide association studies (GWAS) are located in non-coding regions of the human genome. Here, we present a user-friendly web server, DeepFun (https://bioinfo.uth.edu/deepfun/), to assess the functional activity of non-coding genetic variants. This new server is built on a convolutional neural network (CNN) framework that has been extensively evaluated. Specifically, we collected chromatin profiles from ENCODE and Roadmap projects to construct the feature space, including 1548 DNase I accessibility, 1536 histone mark, and 4795 transcription factor binding profiles covering 225 tissues or cell types. With such comprehensive epigenomics annotations, DeepFun expands the functionality of existing non-coding variant prioritizing tools to provide a more specific functional assessment on non-coding variants in a tissue- and cell type-specific manner. By using the datasets from various GWAS studies, we conducted independent validations and demonstrated the functions of the DeepFun web server in predicting the effect of a non-coding variant in a specific tissue or cell type, as well as visualizing the potential motifs in the region around variants. We expect our server will be widely used in genetics, functional genomics, and disease studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Chromatin/metabolism",
+      "Computer Simulation",
+      "Deep Learning",
+      "*Genetic Variation",
+      "Genome, Human",
+      "Genome-Wide Association Study",
+      "Histone Code",
+      "Humans",
+      "Mutagenesis",
+      "Organ Specificity",
+      "*Software",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Guangsheng",
+        "Hu, Ruifeng",
+        "Jia, Peilin",
+        "Zhao, Zhongming"
+      ],
+      "short_names": [
+        "Pei G",
+        "Hu R",
+        "Jia P",
+        "Zhao Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1804-7598",
+        "ORCID: 0000-0001-5549-3082",
+        "ORCID: 0000-0003-4523-4153",
+        "ORCID: 0000-0002-3477-0914"
+      ],
+      "affiliations": [
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "Human Genetics Center, School of Public Health, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Guangsheng",
+        "short_name": "Pei G",
+        "identifiers": [
+          "0000-0003-1804-7598"
+        ],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Ruifeng",
+        "short_name": "Hu R",
+        "identifiers": [
+          "0000-0001-5549-3082"
+        ],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Jia, Peilin",
+        "short_name": "Jia P",
+        "identifiers": [
+          "0000-0003-4523-4153"
+        ],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhongming",
+        "short_name": "Zhao Z",
+        "identifiers": [
+          "0000-0002-3477-0914"
+        ],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+          "Human Genetics Center, School of Public Health, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+          "MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Jul 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/29 06:00",
+    "fetched_at": "2026-09-27 18:07:38"
+  },
+  "links": {
+    "cites": [
+      "42645777",
+      "41407553",
+      "39631147",
+      "39276327",
+      "39198917",
+      "38979289",
+      "38538340",
+      "38499654",
+      "38306043",
+      "37841839",
+      "37569400",
+      "36155798",
+      "36124301",
+      "36096444",
+      "36083269",
+      "36063453",
+      "35470070",
+      "34262604"
+    ],
+    "refs": [
+      "34608324",
+      "33300042",
+      "33272935",
+      "32728249",
+      "32528130",
+      "32228713",
+      "31768052",
+      "31680168",
+      "31672653",
+      "31133750",
+      "31133749",
+      "30498474",
+      "30013180",
+      "29727686",
+      "29617928",
+      "29588361",
+      "29486777",
+      "27197224",
+      "27084946",
+      "26582918",
+      "26301843",
+      "26287746",
+      "26213851",
+      "26075791",
+      "25693563",
+      "25273974",
+      "24487584",
+      "24487276",
+      "24210251",
+      "23723249",
+      "22955616",
+      "21208483",
+      "20955926",
+      "20601685",
+      "19474294",
+      "19122664",
+      "16381938"
+    ],
+    "similar": [
+      "34048560",
+      "33300042",
+      "29069282",
+      "27923386",
+      "36063453",
+      "31672653",
+      "29378629",
+      "25306238",
+      "27407109",
+      "23723249",
+      "35293310",
+      "27798116",
+      "26969411",
+      "31590652",
+      "34973416",
+      "33751027",
+      "31544924",
+      "36744920",
+      "33686085",
+      "35576194",
+      "26340055",
+      "29771388",
+      "36271868",
+      "31324140",
+      "35389435",
+      "30245696",
+      "38773771",
+      "34078253",
+      "35639771",
+      "37569400",
+      "33999180",
+      "34996498",
+      "31077144",
+      "29084591",
+      "29482603",
+      "25262152",
+      "31693090",
+      "30176808",
+      "32578842",
+      "35216679",
+      "22693211",
+      "33219661",
+      "31510916",
+      "25886982",
+      "34643213",
+      "30518757",
+      "22072382",
+      "27336171",
+      "30922998",
+      "27128317",
+      "24920305",
+      "33371893",
+      "27005890",
+      "24997396",
+      "26859295",
+      "36650801",
+      "34260700",
+      "31469829",
+      "34529725",
+      "34648033",
+      "26818008",
+      "38359659",
+      "33096239",
+      "32240371",
+      "32330239",
+      "30835229",
+      "31888639",
+      "27980060",
+      "28821228",
+      "23570689",
+      "35943817",
+      "31691385",
+      "31680168",
+      "34570217",
+      "33095866",
+      "27224906",
+      "28716001",
+      "25228660",
+      "29617928",
+      "33196774",
+      "32620158",
+      "26476779",
+      "34774128",
+      "33258967",
+      "27612452",
+      "33045747",
+      "23782616",
+      "34037796",
+      "31500627",
+      "38183205",
+      "34370721",
+      "37873263",
+      "39326416"
+    ],
+    "review": [
+      "34048560",
+      "30245696"
+    ],
+    "pmc": [
+      "8262726"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34048560/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34048560",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_deepfun",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/34048560",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab429",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.28.497553",
+  "title": "Discovery of a non-canonical GRHL1 binding site using deep convolutional and recurrent neural networks",
+  "doi": "10.1101/2022.06.28.497553",
+  "abstract": "Transcription factors regulate gene expression by binding to transcription factor binding sites (TFBSs). Most models for predicting TFBSs are based on position weight matrices (PWMs), which require a specific motif to be present in the DNA sequence and do not consider interdependencies of nucleotides. Novel approaches such as Transcription Factor Flexible Models or recurrent neural networks consequently provide higher accuracies. However, it is unclear whether such approaches can uncover novel non-canonical, hitherto unexpected TFBSs relevant to human transcriptional regulation. In this study, we trained a convolutional recurrent neural network with HT-SELEX data for GRHL1 binding and applied it to a set of GRHL1 binding sites obtained from ChIP-Seq experiments from human cells. We identified 46 non-canonical GRHL1 binding sites, which were not found by a conventional PWM approach. Unexpectedly, some of the newly predicted binding sequences lacked the CNNG core motif, so far considered obligatory for GRHL1 binding. Using isothermal titration calorimetry, we experimentally confirmed binding between the GRHL1-DNA binding domain and predicted GRHL1 binding sites, including a non-canonical GRHL1 binding site. Mutagenesis of individual nucleotides revealed a correlation between predicted binding strength and experimentally validated binding affinity across representative sequences. This correlation was neither observed with a PWM-based nor another deep learning approach. Our results show that convolutional recurrent neural networks may uncover unanticipated binding sites and facilitate quantitative transcription factor binding predictions.",
+  "authors": [
+    "Sebastian Proft",
+    "Janna Leiz",
+    "Udo Heinemann",
+    "Dominik Seelow",
+    "Kai M. Schmidt-Ott",
+    "Maria Rutkiewicz"
+  ],
+  "published_date": "2022-07-01",
+  "updated_date": "2022-07-02T03:05:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.28.497553",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.28.497553.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:37:44Z",
+        "timestamp": 1768502264323,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            1
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Transcription factors regulate gene expression by binding to transcription factor binding sites (TFBSs). Most models for predicting TFBSs are based on position weight matrices (PWMs), which require a specific motif to be present in the DNA sequence and do not consider interdependencies of nucleotides. Novel approaches such as Transcription Factor Flexible Models or recurrent neural networks consequently provide higher accuracies. However, it is unclear whether such approaches can uncover novel non-canonical, hitherto unexpected TFBSs relevant to human transcriptional regulation. In this study, we trained a convolutional recurrent neural network with HT-SELEX data for GRHL1 binding and applied it to a set of GRHL1 binding sites obtained from ChIP-Seq experiments from human cells. We identified 46 non-canonical GRHL1 binding sites, which were not found by a conventional PWM approach. Unexpectedly, some of the newly predicted binding sequences lacked the CNNG core motif, so far considered obligatory for GRHL1 binding. Using isothermal titration calorimetry, we experimentally confirmed binding between the GRHL1-DNA binding domain and predicted GRHL1 binding sites, including a non-canonical GRHL1 binding site. Mutagenesis of individual nucleotides revealed a correlation between predicted binding strength and experimentally validated binding affinity across representative sequences. This correlation was neither observed with a PWM-based nor another deep learning approach. Our results show that convolutional recurrent neural networks may uncover unanticipated binding sites and facilitate quantitative transcription factor binding predictions.</jats:p>",
+      "DOI": "10.1101/2022.06.28.497553",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            2
+          ]
+        ],
+        "date-time": "2022-07-02T03:05:13Z",
+        "timestamp": 1656731113000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Discovery of a non-canonical GRHL1 binding site using deep convolutional and recurrent neural networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1707-0625",
+          "authenticated-orcid": false,
+          "given": "Sebastian",
+          "family": "Proft",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6531-7047",
+          "authenticated-orcid": false,
+          "given": "Janna",
+          "family": "Leiz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8191-3850",
+          "authenticated-orcid": false,
+          "given": "Udo",
+          "family": "Heinemann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9746-4412",
+          "authenticated-orcid": false,
+          "given": "Dominik",
+          "family": "Seelow",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7700-7142",
+          "authenticated-orcid": false,
+          "given": "Kai M.",
+          "family": "Schmidt-Ott",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8339-3230",
+          "authenticated-orcid": false,
+          "given": "Maria",
+          "family": "Rutkiewicz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.86.4.1183"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2200121"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1162327"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1113"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1112"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003214"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "16",
+          "DOI": "10.1016/j.coisb.2020.04.001",
+          "article-title": "Deep learning for inferring transcription factor binding sites",
+          "volume": "19",
+          "year": "2020",
+          "journal-title": "Curr Opin Syst Biol"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "219256",
+          "DOI": "10.1109/ACCESS.2020.3042903",
+          "article-title": "A Review About Transcription Factor Binding Sites Prediction Based on Deep Learning",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, Y. , Shen, Z. , Zhang, Q. , Wang, S. and Huang, D.S. (2021) A survey on deep learning in DNA/RNA motif mining. Brief Bioinform, 22.",
+          "DOI": "10.1093/bib/bbaa229"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "147",
+          "DOI": "10.1515/medgen-2021-2073",
+          "article-title": "Technologies for profiling the impact of genomic variants on transcription factor binding",
+          "volume": "33",
+          "year": "2021",
+          "journal-title": "Medizinische Genetik"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "511",
+          "DOI": "10.1186/s12864-018-4889-1",
+          "article-title": "Prediction of RNA-protein sequence and structure binding preferences using deep convolutional and recurrent neural networks",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "BMC Genom"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-018-33321-1"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "179",
+          "DOI": "10.1207/s15516709cog1402_1",
+          "article-title": "Finding Structure in Time",
+          "volume": "14",
+          "year": "1990",
+          "journal-title": "Cognitive Science"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "267",
+          "DOI": "10.1007/BF00848156",
+          "article-title": "Mutations affecting the pattern of the larval cuticle in Drosophila melanogaster",
+          "volume": "193",
+          "year": "1984",
+          "journal-title": "Wilhelm Roux’s Arch. Dev. Biol"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.5.9.1672"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.modgep.2006.03.011"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2008.24"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.23",
+          "first-page": "123",
+          "article-title": "Palmoplantar keratodermas: clinical and genetic aspects",
+          "volume": "14",
+          "year": "2016",
+          "journal-title": "J Dtsch Dermatol Ges"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-13-1904"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0089247"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "430",
+          "DOI": "10.1038/s41419-021-03721-9",
+          "article-title": "EGFR-ERK induced activation of GRHL1 promotes cell cycle progression by up-regulating cell cycle related genes in lung cancer",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Death Dis"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.116.195685"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "2082",
+          "DOI": "10.1093/nar/gkx1299",
+          "article-title": "Structural basis of gene regulation by the Grainyhead/CP2 transcription factor family",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2012-13-9-r50"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3101"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.07.012"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nishizaki, S.S. , Ng, N. , Dong, S. , Porter, R.S. , Morterud, C. , Williams, C. , Asman, C. , Switzenberg, J.A. , Boyle, A.P. and Hancock, J. (2019) Predicting the effects of SNPs on transcription factor binding affinity. Bioinformatics.",
+          "DOI": "10.1101/581306"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm067"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-248"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty222"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "198",
+          "DOI": "10.1038/s41588-019-0554-0",
+          "article-title": "ARID1A determines luminal identity and therapeutic response in estrogen-receptor-positive breast cancer",
+          "volume": "52",
+          "year": "2020",
+          "journal-title": "Nat Genet"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00916-12"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "402",
+          "DOI": "10.1177/1535370220903009",
+          "article-title": "Grainyhead-like transcription factors in cancer – Focus on recent developments",
+          "volume": "245",
+          "year": "2020",
+          "journal-title": "Exp. Biol. Med"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gasperoni, J.G. , Fuller, J.N. , Darido, C. , Wilanowski, T. and Dworkin, S. (2022) Grainyhead-like (Grhl) Target Genes in Development and Cancer. Int. J. Mol. Sci., 23.",
+          "DOI": "10.3390/ijms23052735"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz339"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1749-6632.1999.tb08916.x"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abd7331"
+        },
+        {
+          "key": "2023071913002303000_2022.06.28.497553v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-80430-x"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.28.497553",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:17:34Z",
+        "timestamp": 1768447054000
+      },
+      "score": 122.23103,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.28.497553"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            1
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.1101/2022.06.28.497553",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s12864-023-09830-3",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

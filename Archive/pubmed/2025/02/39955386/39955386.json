@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "39955386",
+    "doi": "10.1038/s41598-025-89333-1",
+    "title": "Classification patterns identification of immunogenic cell death-related genes in heart failure based on deep learning."
+  },
+  "content": {
+    "abstract": "Heart failure (HF) is a complex and prevalent condition, particularly in the elderly, presenting symptoms like chest tightness, shortness of breath, and dyspnea. The study aimed to improve the classification of HF subtypes and identify potential drug targets by exploring the role of Immunogenic Cell Death (ICD), a process known for its role in tumor immunity but underexplored in HF research. Additionally, the study sought to apply deep learning models to enhance HF classification and identify diagnosis-related genes. Various deep learning encoder models were employed to evaluate their effectiveness in clustering HF based on ICD-related genes. Identified HF subtypes were further refined using differentially expressed genes, allowing for the assessment of immune infiltration and functional enrichment. Advanced machine learning techniques were used to identify diagnosis-related genes, and these genes were used to construct nomogram models. The study also explored gene interactions with miRNA and transcription factors. Distinct HF subtypes were identified through clustering based on ICD-related genes. Differentially expressed genes revealed significant variations in immune infiltration and functional enrichment across these subtypes. The diagnostic model showed excellent performance, with an AUC exceeding 0.99 in both internal and external test sets. Diagnosis-related genes were also identified, serving as the foundation for nomogram models and further exploration of their regulatory interactions. This study provides a novel insight into HF by combining the exploration of ICD, the application of deep learning models, and the identification of diagnosis-related genes. These findings contribute to a deeper understanding of HF subtypes and highlight potential therapeutic targets for improving HF classification and treatment.",
+    "keywords": [
+      "Biomarkers",
+      "Diagnosis",
+      "Encoder",
+      "Heart failure",
+      "Subtype identification"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Heart Failure/genetics/immunology/classification/diagnosis",
+      "*Cell Death/genetics/immunology",
+      "Gene Expression Profiling",
+      "Male",
+      "MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Zhihui",
+        "Ma, Shixin",
+        "Chen, Bin",
+        "Zhang, Yongjun",
+        "Zeng, Jinmei",
+        "Tao, Jianping",
+        "Hu, Yu"
+      ],
+      "short_names": [
+        "Ma Z",
+        "Ma S",
+        "Chen B",
+        "Zhang Y",
+        "Zeng J",
+        "Tao J",
+        "Hu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China. shxma@sina.com.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Zhihui",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Shixin",
+        "short_name": "Ma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China. shxma@sina.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Bin",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongjun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jinmei",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Jianping",
+        "short_name": "Tao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yu",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Feb 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/16 01:33",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39417505",
+      "39225910",
+      "38583167",
+      "38395786",
+      "38040216",
+      "36769358",
+      "36697141",
+      "36499552",
+      "35377865",
+      "35026404",
+      "34655282",
+      "34489957",
+      "33829388",
+      "32890260",
+      "32671751",
+      "32666082",
+      "31746373",
+      "31441146",
+      "28432635",
+      "27372044",
+      "27340274",
+      "22453763",
+      "21821297",
+      "20185794",
+      "15653599",
+      "15161427",
+      "14727998",
+      "12431443",
+      "10592173",
+      "9647609",
+      "8767611",
+      "2195340"
+    ],
+    "similar": [
+      "39955386",
+      "40630963",
+      "40405297",
+      "42475469",
+      "40205951",
+      "39351221",
+      "40901835",
+      "41252712",
+      "37919056",
+      "39427832",
+      "39275894",
+      "41789108",
+      "38509983",
+      "38360586",
+      "40617086",
+      "40818967",
+      "41126838",
+      "38089628",
+      "42181687",
+      "38355637",
+      "42468380",
+      "40112740",
+      "41189222",
+      "42244292",
+      "36204659",
+      "41150760",
+      "40406620",
+      "38533476",
+      "38914792",
+      "38656659",
+      "39622968",
+      "41759266",
+      "39062507",
+      "38062883",
+      "41927755",
+      "36248807",
+      "36782329",
+      "37090740",
+      "37974098",
+      "39574022",
+      "40034711",
+      "36304554",
+      "38347953",
+      "40775796",
+      "40660343",
+      "39372411",
+      "39650656",
+      "37092838",
+      "41393260",
+      "41432483",
+      "36601430",
+      "40425742",
+      "42411484",
+      "40500570",
+      "37507655",
+      "42361012",
+      "41006883",
+      "39507054",
+      "42441434",
+      "37153540",
+      "41044520",
+      "40526611",
+      "37008314",
+      "42363518",
+      "39555084",
+      "39779817",
+      "41265166",
+      "38600309",
+      "41299729",
+      "41291841",
+      "40406118",
+      "41209574",
+      "35727093",
+      "38397416",
+      "42577419",
+      "39870964",
+      "39351239",
+      "37275875",
+      "42650150",
+      "39583859",
+      "42536548",
+      "41268541",
+      "42419189",
+      "40297163",
+      "41559128",
+      "41116042",
+      "41892599",
+      "40374840",
+      "40819162",
+      "42292393",
+      "40450287",
+      "40362233",
+      "39853851",
+      "41913032",
+      "42109201",
+      "40830558",
+      "37269346",
+      "39293745",
+      "40240734",
+      "42292668"
+    ],
+    "review": [
+      "39955386"
+    ],
+    "pmc": [
+      "11829947"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-89333-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39955386/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

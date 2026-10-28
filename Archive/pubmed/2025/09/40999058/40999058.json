@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "40999058",
+    "doi": "10.1038/s41598-025-18211-7",
+    "title": "Identification of genes related to the effects of bicalutamide and zoladex on benign prostatic hyperplasia."
+  },
+  "content": {
+    "abstract": "Existing research indicates that bicalutamide and zoladex show significant potential in treating prostate cancer. However, in the clinical application of treating benign prostatic hyperplasia (BPH), it is limited due to relatively severe side effects, and the specific mechanism of action has not been fully studied. This research aimed to identify and validate key genes linked to the effects of bicalutamide and zoladex in BPH, potentially guiding the development of targeted therapeutic strategies. BPH-related datasets were retrieved from publicly available databases (|log2FC| > 0.5, p value < 0.05). Initially, intersection genes were identified by overlapping results from differential expression analysis (comparing BPH and control groups) with the target genes of bicalutamide and zoladex, which were sourced from database searches. Key genes were then pinpointed using protein-protein interaction (PPI) networks, machine learning algorithms (SVM-RFE and Random Forest), and gene expression analyses (IHC, immunohistochemical). To explore the biological mechanisms underlying these genes, functional enrichment (GO, KEGG and GSEA) molecular docking analyses were performed, construction of lncRNA miRNA mRNA molecular regulatory network, transcription factor (TFs) regulatory network, SNPs analysis, and disease prediction. Validation of gene expression levels was conducted through IHC analysis of clinical samples. The study identified NQO1, CLPP, HMGCR, and SORD as critical genes associated with BPH, all showing significantly reduced expression in BPH samples. These genes were notably co-enriched in the \"oxidative phosphorylation\" pathway. Moreover, CLPP, HMGCR, and NQO1 exhibited strong binding affinities with bicalutamide and zoladex. Specifically, the NQO1-bicalutamide interaction had a binding energy of -10.8 kcal/mol, while the NQO1-zoladex interaction demonstrated a binding energy of -38.05 kcal/mol. IHC analysis revealed significantly higher expression levels of NQO1, CLPP, HMGCR, and SORD in the treated group compared to the untreated group. This study underscores NQO1, CLPP, HMGCR, and SORD as potential therapeutic targets for BPH, offers mechanistic insights into the efficacy of bicalutamide and zoladex and provides novel insights into potential therapeutic strategies for patients with BPH. However, attention should still be paid to the control of side effects in their clinical application.",
+    "keywords": [
+      "Benign prostatic hyperplasia",
+      "Bicalutamide",
+      "Molecular docking",
+      "Oxidative phosphorylation",
+      "Zoladex"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Tosyl Compounds/pharmacology/therapeutic use",
+      "*Prostatic Hyperplasia/genetics/drug therapy/metabolism/pathology",
+      "*Anilides/pharmacology/therapeutic use",
+      "*Nitriles/pharmacology/therapeutic use",
+      "Protein Interaction Maps/drug effects",
+      "Gene Regulatory Networks/drug effects",
+      "Molecular Docking Simulation",
+      "Gene Expression Profiling",
+      "RNA, Long Noncoding/genetics",
+      "NAD(P)H Dehydrogenase (Quinone)/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Guohui",
+        "Liang, Zicun",
+        "Zuo, Fei",
+        "Li, Jiuming",
+        "Han, Fei",
+        "Zhang, Bin",
+        "Shen, Hua"
+      ],
+      "short_names": [
+        "Peng G",
+        "Liang Z",
+        "Zuo F",
+        "Li J",
+        "Han F",
+        "Zhang B",
+        "Shen H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China. pengguohui1282025@163.com.",
+        "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China.",
+        "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China.",
+        "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China.",
+        "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China.",
+        "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China.",
+        "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Guohui",
+        "short_name": "Peng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China. pengguohui1282025@163.com."
+        ]
+      },
+      {
+        "full_name": "Liang, Zicun",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Fei",
+        "short_name": "Zuo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiuming",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China."
+        ]
+      },
+      {
+        "full_name": "Han, Fei",
+        "short_name": "Han F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Hua",
+        "short_name": "Shen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanjing BenQ Medical Center, The Affiliated BenQ Hospital of Nanjing Medical University, Nanjing, 210019, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Sep 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 00:30",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39434759",
+      "39304797",
+      "39120303",
+      "39036761",
+      "38934050",
+      "38868715",
+      "38318809",
+      "38219259",
+      "38165846",
+      "38149792",
+      "37539055",
+      "37324939",
+      "37014713",
+      "36943151",
+      "36902342",
+      "36839177",
+      "36674430",
+      "36618352",
+      "36595504",
+      "36403772",
+      "36362924",
+      "36196467",
+      "36075260",
+      "35751589",
+      "35748976",
+      "35692516",
+      "35653190",
+      "35362394",
+      "35186455",
+      "35011166",
+      "34895945",
+      "34604049",
+      "34421815",
+      "34384237",
+      "34270690",
+      "33774477",
+      "33637676",
+      "33610949",
+      "33593479",
+      "33416009",
+      "33407865",
+      "33124118",
+      "32960781",
+      "32893964",
+      "32367058",
+      "32332823",
+      "31807429",
+      "31697319",
+      "31030823",
+      "30943489",
+      "30811062",
+      "29287975",
+      "28718166",
+      "28540239",
+      "28453908",
+      "28247711",
+      "27582609",
+      "26966595",
+      "26331999",
+      "25605792",
+      "23937229",
+      "22455463",
+      "21620560",
+      "21269502",
+      "20179076",
+      "14597658",
+      "12497037",
+      "11085067"
+    ],
+    "similar": [
+      "40999058",
+      "39017714",
+      "41305716",
+      "40839986",
+      "39703506",
+      "40986097",
+      "37147755",
+      "38168866",
+      "37861557",
+      "41286044",
+      "39842747",
+      "17914091",
+      "11967953",
+      "41442003",
+      "11241549",
+      "25285958",
+      "41306978",
+      "29069648",
+      "28500234",
+      "17313204",
+      "41112764",
+      "29110315",
+      "29381490",
+      "36532015",
+      "31187492",
+      "22072572",
+      "30138363",
+      "19415464",
+      "41368570",
+      "37426635",
+      "37454501",
+      "30324761",
+      "41204712",
+      "25971429",
+      "26968201",
+      "40406126",
+      "41009659",
+      "41006883",
+      "29860890",
+      "39757646",
+      "38034660",
+      "37781794",
+      "36403772",
+      "32430253",
+      "36064190",
+      "40332792",
+      "40211238",
+      "26907477",
+      "39121689",
+      "41068906",
+      "29359788",
+      "26048455",
+      "39118036",
+      "39251712",
+      "19240160",
+      "17804755",
+      "28827103",
+      "32332626",
+      "39780215",
+      "18475288",
+      "17596848",
+      "41190071",
+      "39838074",
+      "40393639",
+      "41009982",
+      "31434793",
+      "27497762",
+      "33496795",
+      "40223034",
+      "23532738",
+      "19902473",
+      "10386468",
+      "40223182",
+      "40269514",
+      "40184012",
+      "38144565",
+      "16896884",
+      "19285710",
+      "22915157",
+      "26774508",
+      "26442831",
+      "30189902",
+      "11406537",
+      "17991545",
+      "38840248",
+      "38310567",
+      "41310859",
+      "29671889",
+      "41150817",
+      "34129879",
+      "40392347",
+      "41460372",
+      "26024831",
+      "40467639",
+      "40598243",
+      "27131065",
+      "15371850",
+      "41200172",
+      "40676786",
+      "36906158"
+    ],
+    "review": [
+      "40999058"
+    ],
+    "pmc": [
+      "12464220"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/enlargedprostatebph.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Enlarged Prostate (BPH)"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-18211-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40999058/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3910",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

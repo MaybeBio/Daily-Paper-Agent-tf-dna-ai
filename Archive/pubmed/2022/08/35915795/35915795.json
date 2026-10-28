@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "35915795",
+    "doi": "10.1155/2022/8080679",
+    "title": "Network-Based Pharmacology and Bioinformatics Study on the Mechanism of Action of Gujiansan in the Treatment of Steroid-Induced Avascular Necrosis of the Femoral Head."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To investigate the main pharmacological basis and mechanism of action of Gujiansan in the treatment of steroid-induced avascular necrosis of the femoral head (SANFH). METHODS: The active constituents and targets of Gujiansan were screened by using TCMSP and other databases, and relevant disease targets were obtained by analyzing the microarray of SANFH in the GEO database. The intersection of the two was taken to obtain the potential targets of Gujiansan for the treatment of SANFH, and key active constituents were screened with the \"active constituent-target\" network constructed by the Cytoscape software; then, the STRING database was used to construct the protein interaction network to screen the key targets. The Gene Ontology and Kyoto Encyclopedia of Genes and Genomes enrichment analyses of key targets were performed by the DAVID database, and the relationship between the \"key active constituent-key target-key signaling pathway\" was explored. Finally, the molecular docking between key active constituents and key targets was verified. In addition, qPCR detection technology was used to evaluate the preventive and therapeutic effects of key active constituents of Gujiansan in a rat osteoblast model of SANFH to verify the possible mechanism of the effect of Gujiansan in the treatment of SANFH. RESULTS: (1) 106 active constituents and 55 targets were obtained for the treatment of SANFH. (2) Quercetin, luteolin, kaempferol, cryptotanshinone, and naringenin were the key active constituents for the treatment of SANFH. (3) IL1B, STAT3, CAT, PTGS2, and MAPK3 were the key targets for the treatment of SANFH. (4) IL1B, STAT3, CAT, PTGS2, MAPK3, and HMOX1 are key targets in the protein interaction network. (5) DAVID enrichment analysis mainly covers the regulation of DNA-binding transcription factor activity, positive regulation of cytokine production, and response to oxidative stress and other biological processes, involving IL-17, AGE-RAGE, C-type lectin receptor, and other signaling pathways. (6) Gujiansan is a multitarget and multisignaling pathway for the treatment of SANFH. (7) Good binding activity exists between key active constituents and key targets. CONCLUSION: This study analyzes the potential mechanism of action of Gujiansan in the treatment of SANFH with network pharmacology, which can provide a reference for the further study of its pharmacological basis and targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Computational Biology",
+      "Cyclooxygenase 2",
+      "*Drugs, Chinese Herbal/chemistry",
+      "*Femur Head Necrosis/chemically induced/drug therapy/genetics",
+      "Medicine, Chinese Traditional",
+      "Molecular Docking Simulation",
+      "Rats",
+      "Steroids"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ren, Guo-Wu",
+        "Wen, Shuai-Bo",
+        "Han, Jie",
+        "Xu, Zhi-Wei",
+        "Qi, Wen",
+        "Shang, Yu-Zhi",
+        "Wu, Yu-Kun"
+      ],
+      "short_names": [
+        "Ren GW",
+        "Wen SB",
+        "Han J",
+        "Xu ZW",
+        "Qi W",
+        "Shang YZ",
+        "Wu YK"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1750-4400"
+      ],
+      "affiliations": [
+        "Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530001, China.",
+        "Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530001, China.",
+        "Ruikang Hospital Affiliated to Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530011, China.",
+        "Ruikang Hospital Affiliated to Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530011, China.",
+        "Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530001, China.",
+        "Ruikang Hospital Affiliated to Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530011, China.",
+        "Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ren, Guo-Wu",
+        "short_name": "Ren GW",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530001, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Shuai-Bo",
+        "short_name": "Wen SB",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530001, China."
+        ]
+      },
+      {
+        "full_name": "Han, Jie",
+        "short_name": "Han J",
+        "identifiers": [
+          "0000-0003-1750-4400"
+        ],
+        "affiliations": [
+          "Ruikang Hospital Affiliated to Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530011, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhi-Wei",
+        "short_name": "Xu ZW",
+        "identifiers": [],
+        "affiliations": [
+          "Ruikang Hospital Affiliated to Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530011, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Wen",
+        "short_name": "Qi W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530001, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Yu-Zhi",
+        "short_name": "Shang YZ",
+        "identifiers": [],
+        "affiliations": [
+          "Ruikang Hospital Affiliated to Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530011, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yu-Kun",
+        "short_name": "Wu YK",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi University of Traditional Chinese Medicine, Nanning City, Guangxi Zhuang Autonomous Region 530001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/03 06:00",
+    "fetched_at": "2026-10-04 20:43:48"
+  },
+  "links": {
+    "cites": [
+      "42157910",
+      "41680130",
+      "40661830",
+      "39558045",
+      "39069636"
+    ],
+    "refs": [
+      "34824272",
+      "34721646",
+      "34699913",
+      "34512780",
+      "34397740",
+      "34310007",
+      "34286341",
+      "33376732",
+      "33347709",
+      "33204288",
+      "32963569",
+      "32773408",
+      "32643448",
+      "32606908",
+      "32398957",
+      "32344607",
+      "32292697",
+      "32010453",
+      "31898972",
+      "31829205",
+      "31594271",
+      "31508309",
+      "30993010",
+      "30941682",
+      "30899719",
+      "30878453",
+      "30506914",
+      "30274530",
+      "30035064",
+      "30021118",
+      "29956067",
+      "29952419",
+      "29917210",
+      "29859289",
+      "29620250",
+      "29512766",
+      "29363725",
+      "29257271",
+      "29162103",
+      "28857167",
+      "28371498",
+      "27924014",
+      "27271803",
+      "26879404",
+      "26408664",
+      "26174858",
+      "26073152",
+      "25990083",
+      "25645952",
+      "25521941",
+      "25036228",
+      "24644379",
+      "24583150",
+      "24123071",
+      "23193258",
+      "23181522",
+      "22198064",
+      "19924377",
+      "19769253",
+      "19207477",
+      "18576917",
+      "18563358",
+      "17207088",
+      "16989810",
+      "15613018",
+      "15449127",
+      "15265685",
+      "12045254",
+      "11675379",
+      "11418010",
+      "9794252"
+    ],
+    "similar": [
+      "35915795",
+      "38115279",
+      "35837376",
+      "38109076",
+      "37340752",
+      "40676786",
+      "40013962",
+      "35616676",
+      "37287284",
+      "34605344",
+      "33645090",
+      "38204239",
+      "33299870",
+      "37833363",
+      "37282883",
+      "34512780",
+      "36637916",
+      "37807411",
+      "38704482",
+      "35430443",
+      "35227068",
+      "33376732",
+      "34873575",
+      "36550856",
+      "37469733",
+      "40922365",
+      "37345246",
+      "38213248",
+      "34746316",
+      "40237055",
+      "36213575",
+      "40725959",
+      "34660782",
+      "35960089",
+      "38916485",
+      "37832514",
+      "35757473",
+      "33208065",
+      "34125845",
+      "37709244",
+      "38951468",
+      "36472040",
+      "33243703",
+      "40605076",
+      "33645094",
+      "40128047",
+      "40132971",
+      "37233418",
+      "36372090",
+      "39259113",
+      "38783679",
+      "41261616",
+      "40988247",
+      "36735641",
+      "35040393",
+      "38759074",
+      "40035402",
+      "41367024",
+      "36890149",
+      "39015338",
+      "38343057",
+      "39558045",
+      "38050247",
+      "37556042",
+      "40585331",
+      "35097126",
+      "38178684",
+      "38619514",
+      "35960090",
+      "36401375",
+      "35035498",
+      "35850844",
+      "40065477",
+      "36820318",
+      "39465738",
+      "39074420",
+      "37115092",
+      "40574364",
+      "37718520",
+      "35024051",
+      "35432563",
+      "39993869",
+      "36472041",
+      "40119331",
+      "40725923",
+      "33358854",
+      "37080367",
+      "34621817",
+      "37861047",
+      "39617073",
+      "40388786",
+      "35692141",
+      "35285205",
+      "36158891",
+      "39928767",
+      "33645014",
+      "38167125",
+      "34951253",
+      "34733451",
+      "36803762"
+    ],
+    "review": [
+      "35915795",
+      "33243703",
+      "36735641"
+    ],
+    "pmc": [
+      "9338865"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35915795/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35915795",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/8080679",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv:2504.04453v2)
+- **Assessment boundary** Scientific and technical claims as presented in the provided text; no external data or code were accessed
+- **Shared manuscript claim summary** The authors introduce Prot42, a family of autoregressive protein language models (500M and 1.1B parameters) with extended context length up to 8,192 residues, and demonstrate its use for target-aware protein binder generation and DNA sequence-specific binder generation, using only sequence information and without structural input. They report state-of-the-art performance on PEER benchmark tasks and present predicted binding affinities for several therapeutic targets.
+- **Visible evidence base** Model architecture and training details (Table 1, Table 2); perplexity evaluations (Figure 2); t-SNE visualization of embeddings for subcellular localization (Figure 3); example of generated binder for InsR (Figure 1); comparison of dissociation constants against AlphaProteo and other methods (Figure 7); structural example for SARS-CoV-2 RBD (Figure 8); DNA binder examples (Figure 9)
+- **Missing materials affecting confidence** No code, model weights, training data, or evaluation scripts are provided. No experimental validation of generated binders is reported. The PEER benchmark results are described qualitatively but no tables or figures with quantitative comparisons are shown in the provided text. The DNA binder evaluation relies on DeepPBS but no quantitative scores are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful contribution in the form of a new family of protein language models with extended context length and a sequence-only pipeline for binder generation. However, the current text is largely descriptive and lacks the quantitative rigor expected for a claim of state-of-the-art performance. Key results are either not shown or only qualitatively described, and the absence of experimental validation or strong computational benchmarks weakens the central claims. The work may be of interest to the protein design community, but the evidence as presented is insufficient to establish the stated advantages over existing methods.
+- **Who would be interested in the results, and why** Researchers in computational protein design, protein language models, and AI-driven therapeutic development would be interested. The claim of sequence-only binder generation without structural input, if substantiated, would be relevant to those seeking to avoid structure-dependent pipelines. The extended context length may also interest groups working on large multi-domain proteins.
+- **Major strengths** The idea of using a sequence-only, autoregressive pLM for binder generation is timely and potentially impactful. The context extension to 8,192 residues is a technical achievement worth noting. The integration of genomic embeddings for DNA-binding protein generation is a novel angle. The authors are transparent about their use of existing tools (Boltz-1, Prodigy, DeepPBS) for evaluation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that Prot42 "excels in generating high-affinity protein binders" and that it outperforms or matches AlphaProteo across multiple targets.
+  - **Evidence pointer** Figure 7; Section 4.2
+  - **Concern** The quantitative comparison against AlphaProteo is presented only as a bar chart of predicted Kd values. No error bars, confidence intervals, or statistical tests are reported. The methodology for selecting "strongest binders" is not described, and the conversion from Prodigy ΔG to Kd is mentioned but not validated. The claim of superiority or parity is therefore not supported by the evidence shown.
+  - **Why it matters** The central value proposition of the paper is that Prot42 can generate high-affinity binders competitively with state-of-the-art methods. Without robust quantitative evidence, this claim is unsubstantiated.
+  - **Resolution test** Provide a table with Kd values (predicted and, if available, experimental) for all targets, including standard deviations across multiple generation runs, and a clear description of the selection and ranking procedure. If experimental data are unavailable, state this explicitly and temper the claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that Prot42 models are "publicly available" and that the training and fine-tuning procedures are fully described.
+  - **Evidence pointer** Section 3.2; Table 1; Table 2; Hugging Face link
+  - **Concern** While a Hugging Face link is provided, no model card, training code, or evaluation scripts are referenced in the text. The hyperparameter details in Table 1 are incomplete (e.g., learning rate is given as "4.8e4" which appears to be a typo for 4.8e-4, and the batch size in tokens is stated but not the number of steps). The data filtering for the binder fine-tuning is described but the exact pipeline is not reproducible from the text alone.
+  - **Why it matters** For a methods paper, reproducibility is essential. Without access to the models or detailed training procedures, other groups cannot build on or verify the work.
+  - **Resolution test** Provide a clear model card with download instructions, training code, and a step-by-step description of the fine-tuning pipeline. Correct the learning rate typo and specify all hyperparameters needed for replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The manuscript claims "state-of-the-art results" on PEER benchmark tasks (Section 4.1).
+  - **Evidence pointer** Section 4.1; no table or figure provided
+  - **Concern** The PEER benchmark results are described only in qualitative terms. No quantitative scores, rankings, or comparisons against baseline models are shown. The reader cannot assess which tasks were improved, by how much, or against which baselines.
+  - **Why it matters** This is a strong claim that requires direct evidence. Without numbers, the claim is not verifiable.
+  - **Resolution test** Include a table with performance metrics for all 14 PEER tasks, comparing Prot42 against the top five models on the leaderboard, with clear task definitions and evaluation protocols.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of evaluation
+  - **Claim pointer** The manuscript claims that generated binders are "high-affinity" based on Prodigy-predicted Kd values.
+  - **Evidence pointer** Section 4.2; Figure 7
+  - **Concern** Prodigy is a docking-based scoring tool, not a binding affinity predictor validated for de novo designed binders. Using Prodigy ΔG to claim "high-affinity" binding is methodologically questionable. The authors do not acknowledge the limitations of this approach or compare against experimental affinity measurements.
+  - **Why it matters** The term "high-affinity" implies a level of confidence that computational scoring alone cannot provide. Overstating confidence in predicted affinities could mislead readers.
+  - **Resolution test** Either provide experimental validation for at least a subset of binders, or clearly reframe claims as "computationally predicted affinity" and discuss the limitations of the scoring method.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2, learning rate value
+  - **Evidence pointer** Table 1
+  - **Issue** The learning rate is stated as "4.8e4" which is likely a typo for 4.8e-4. This needs correction.
+  - **Required correction** Correct the value to 4.8e-4 or provide the actual learning rate used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.2, target descriptions
+  - **Evidence pointer** Section 4.2
+  - **Issue** The target descriptions are provided as bullet points with PDB IDs, but the text does not explain how the binding hotspots were identified or why these specific targets were chosen.
+  - **Required correction** Add a brief description of the hotspot identification method and the rationale for target selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4, DNA binder generation
+  - **Evidence pointer** Section 3.4
+  - **Issue** The description of the DNA-protein model is dense and lacks a clear schematic or pseudocode. The cross-attention mechanism is described in text but not illustrated.
+  - **Required correction** Add a figure or pseudocode to clarify the model architecture for the DNA-conditioned generation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.3, DeepPBS evaluation
+  - **Evidence pointer** Section 4.3
+  - **Issue** The DeepPBS evaluation is mentioned but no quantitative results (e.g., PWM scores, specificity metrics) are reported.
+  - **Required correction** Provide quantitative DeepPBS scores for the generated DNA-binding proteins, or state that this evaluation is qualitative.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2 (Related Works)
+  - **Evidence pointer** Section 2
+  - **Issue** The related works section is a single paragraph that mixes multiple topics (pLMs, structure-based design, DNA-binding proteins) without clear structure.
+  - **Required correction** Split into subsections with clear headings and add a summary table comparing existing methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for binder affinity claims), R1-M2 (reproducibility), R1-M3 (PEER benchmark evidence), R1-M4 (use of Prodigy for affinity claims)
+- **Assessment against Nature-style criteria** Originality: The idea of sequence-only binder generation with a pLM is not entirely new, but the specific combination of extended context, instruction tuning, and DNA-binding generation has some novelty. Scientific importance: Potentially high if the claims are substantiated, but currently the evidence is too weak to assess real impact. Interdisciplinary readership: The topic bridges ML and biology, but the manuscript is written in a way that assumes familiarity with both fields without sufficient background. Technical soundness: The architecture and training are plausible, but the evaluation methodology has significant gaps. Readability for nonspecialists: The abstract is accessible, but the methods and results sections are dense and would benefit from clearer explanations and visual aids.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial revisions to provide quantitative evidence, improve reproducibility, and temper claims to match the level of validation presented.

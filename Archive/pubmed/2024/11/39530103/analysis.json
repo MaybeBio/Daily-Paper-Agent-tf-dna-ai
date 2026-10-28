@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39530103",
+  "title": "Computational staining of CD3/CD20 positive lymphocytes in human tissues with experimental confirmation in a genetically engineered mouse model.",
+  "authors": "Li, Xiang; Heirman, Casey C; Rickard, Ashlyn G; Sotolongo, Gina; Castillo, Rico; Adanlawo, Temitayo; Everitt, Jeffery I; Hodgin, Jeffery B; Watts, Tammara L; Janowczyk, Andrew; Mowery, Yvonne M; Barisoni, Laura; Lafata, Kyle J",
+  "journal": "Frontiers in immunology",
+  "published_date": "2024-11-13",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习在H&E组织上染色检测淋巴细胞，属细胞表型识别，无蛋白质-DNA互作体系、无结合建模，与本课题无关。",
+  "abstract": "INTRODUCTION: Immune dysregulation plays a major role in cancer progression. The quantification of lymphocytic spatial inflammation may enable spatial system biology, improve understanding of therapeutic resistance, and contribute to prognostic imaging biomarkers. METHODS: In this paper, we propose a knowledge-guided deep learning framework to measure the lymphocytic spatial architecture on human H&E tissue, where the fidelity of training labels is maximized through single-cell resolution image registration of H&E to IHC. We demonstrate that such an approach enables pixel-perfect ground-truth labeling of lymphocytes on H&E as measured by IHC. We then experimentally validate our technique in a genetically engineered, immune-compromised Rag2 mouse model, where Rag2 knockout mice lacking mature lymphocytes are used as a negative experimental control. Such experimental validation moves beyond the classical statistical testing of deep learning models and demonstrates feasibility of more rigorous validation strategies that integrate computational science and basic science. RESULTS: Using our developed approach, we automatically annotated more than 111,000 human nuclei (45,611 CD3/CD20 positive lymphocytes) on H&E images to develop our model, which achieved an AUC of 0.78 and 0.71 on internal hold-out testing data and external testing on an independent dataset, respectively. As a measure of the global spatial architecture of the lymphocytic microenvironment, the average structural similarity between predicted lymphocytic density maps and ground truth lymphocytic density maps was 0.86 +/- 0.06 on testing data. On experimental mouse model validation, we measured a lymphocytic density of 96.5 +/- %1% in a Rag2(+/-) control mouse, compared to an average of 16.2 +/- %5% in Rag2(-/-) immune knockout mice (p<0.0001, ANOVA-test). DISCUSSION: These results demonstrate that CD3/CD20 positive lymphocytes can be accurately detected and characterized on H&E by deep learning and generalized across species. Collectively, these data suggest that our understanding of complex biological systems may benefit from computationally-derived spatial analysis, as well as integration of computational science and basic science.",
+  "abstract_zh": "引言：免疫失调在癌症进展中扮演重要角色。淋巴细胞空间炎症的量化可能实现空间系统生物学，增进对治疗耐药性的理解，并有助于预后影像生物标志物的开发。方法：在本文中，我们提出了一种知识引导的深度学习框架，用于测量人类H&E组织上的淋巴细胞空间结构，通过将H&E与IHC进行单细胞分辨率图像配准，最大化训练标签的保真度。我们证明，这种方法能够实现H&E上淋巴细胞像素级精确的地面真值标注，如IHC所测量。随后，我们在基因工程改造的免疫缺陷Rag2小鼠模型中对我们的技术进行了实验验证，其中缺乏成熟淋巴细胞的Rag2基因敲除小鼠被用作阴性实验对照。这种实验验证超越了深度学习模型的经典统计测试，展示了整合计算科学与基础科学的更严格验证策略的可行性。结果：使用我们开发的方法，我们在H&E图像上自动标注了超过111,000个人类细胞核（45,611个CD3/CD20阳性淋巴细胞）以开发我们的模型，该模型在内部留出测试数据和独立数据集的外部测试中分别达到了0.78和0.71的AUC。作为淋巴细胞微环境全局空间结构的度量，预测淋巴细胞密度图与地面真值密度图之间的平均结构相似性在测试数据上为0.86 ± 0.06。在实验小鼠模型验证中，我们在Rag2(+/-)对照小鼠中测量到淋巴细胞密度为96.5 ± 1%，而Rag2(-/-)免疫敲除小鼠平均为16.2 ± 5%（p<0.0001，ANOVA检验）。讨论：这些结果表明，CD3/CD20阳性淋巴细胞可以通过深度学习在H&E上准确检测和表征，并跨物种泛化。总体而言，这些数据提示，我们对复杂生物系统的理解可能受益于计算衍生的空间分析，以及计算科学与基础科学的整合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39530103/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39530103/",
+  "paper_page_path": "papers/pubmed/39530103/index.html"
+}

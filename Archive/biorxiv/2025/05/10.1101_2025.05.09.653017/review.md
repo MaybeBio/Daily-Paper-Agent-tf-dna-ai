@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, experimental logic, methodological soundness, and interpretation as presented in the text; structural biology and biophysical claims are assessed based on described methods and results
+- **Shared manuscript claim summary** The authors report that the NAC domain of the Arabidopsis transcription factor SOG1 (SOG1 NAC) binds DNA as a dimer with nanomolar affinity, recognizes the Bourbousse motifs rather than the more restrictive Ogita motif, and undergoes liquid-liquid phase separation (LLPS) in the presence of RNA or double-stranded DNA. They further claim that dimerization and an intact positively charged DNA-binding surface are required for spherical droplet formation, and that DNA and RNA compete for overlapping binding sites, suggesting a regulatory interplay relevant to transcription-associated condensates.
+- **Visible evidence base** Text descriptions of EMSA, radioactive EMSA, ITC, analytical SEC, CD, DLS, fluorescence microscopy, FRAP, BLI, and AlphaFold3 structure predictions; references to Figures 1-7 and Supplementary Figures S1-S6; Table 1 (DNA sequences)
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials; raw data for ITC, EMSA, FRAP, DLS, and BLI; experimental replicates and statistical analyses; AlphaFold3 prediction confidence metrics; protein concentration and buffer conditions for LLPS assays; details on fluorescent labelling efficiency and potential artefacts
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of transcriptional regulation: how DNA-binding specificity, dimerization, and phase separation are functionally linked in a folded transcription factor domain. The authors provide a systematic in vitro characterization of SOG1 NAC, combining biophysical and biochemical approaches. The central claims are plausible and the experimental design is generally logical. However, the manuscript has several technical weaknesses that currently prevent full support of the conclusions. The most significant issues are the lack of quantitative controls for LLPS assays, the absence of binding affinity measurements for the mutant proteins, the reliance on AlphaFold3 predictions without experimental validation of the dimer interface, and the incomplete description of the competition experiments. The claim that DNA and RNA share overlapping binding sites is inferred from indirect evidence and requires more direct support. The manuscript would benefit from additional experiments and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Plant molecular biologists studying DNA damage responses and SOG1 function; researchers in the phase separation field interested in the role of folded domains in LLPS; structural biologists studying NAC transcription factors; and scientists investigating the interplay between DNA and RNA binding in transcriptional condensates. The work provides a potential mechanistic link between specific DNA recognition and condensate formation, which is of broad interest to the transcription and gene regulation communities.
+- **Major strengths** The study addresses a gap in the literature by focusing on a folded, globular domain rather than intrinsically disordered regions in LLPS. The combination of EMSA, ITC, SEC, and mutational analysis provides a multi-angle approach. The identification of the Bourbousse motifs as better descriptors of SOG1 binding specificity than the Ogita motif is a useful contribution. The competition experiments between DNA and RNA are conceptually interesting and relevant to current models of transcription-associated condensates.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of LLPS characterization
+  - **Claim pointer** The authors claim that SOG1 NAC undergoes LLPS in the presence of RNA or double-stranded DNA, and that this behaviour is dependent on dimerization and an intact DNA-binding surface.
+  - **Evidence pointer** Results section "SOG1 NAC undergoes nucleic acids-driven phase separation in vitro"; Figures 4 and 5; Supplementary Figure S5
+  - **Concern** The LLPS experiments are described qualitatively. The turbidity assay measures OD 390, but no threshold for "phase separation" is defined, and no controls for non-specific aggregation (e.g., centrifugation, microscopy with differential interference contrast, or fluorescence recovery controls) are described. The claim that droplets are "liquid-like" is supported only by FRAP recovery of 27% for poly-A-induced droplets, which is low and may indicate a gel-like state rather than a liquid. The FRAP recovery of 80% for DNA-induced clusters is mentioned but not quantified with error bars or replicate numbers. The dependence of LLPS on protein concentration, nucleic acid concentration, and stoichiometry is not systematically mapped, making it difficult to assess whether the observed behaviour is physiologically relevant or an in vitro artefact.
+  - **Why it matters** The central claim of the manuscript is that SOG1 NAC undergoes LLPS and that this is functionally linked to DNA binding and dimerization. Without rigorous, quantitative characterization of the phase behaviour, including controls for aggregation and a clear definition of the phase boundary, the claim is not fully established. The low FRAP recovery for poly-A droplets raises the possibility that the observed structures are not true liquid condensates.
+  - **Resolution test** Provide quantitative phase diagrams (protein concentration vs. nucleic acid concentration) for WT and mutant proteins, include centrifugation assays to distinguish condensates from aggregates, report FRAP recovery with replicates and statistical analysis, and include microscopy images with time-lapse showing droplet fusion and dripping, which are hallmarks of liquid behaviour.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Missing quantitative binding data for mutants
+  - **Claim pointer** The authors claim that the SOG1 NACΔ1-6 mutant binds DNA with lower affinity and that the RKRR and DNA-strand mutants completely lose DNA binding, linking these surfaces to both DNA recognition and LLPS.
+  - **Evidence pointer** Results section "Dimerization of the SOG1 NAC domain is required for spherical droplet formation and proper DNA-binding"; Figures 6A-D; Supplementary Figure S3
+  - **Concern** The affinity of the SOG1 NACΔ1-6 mutant for DNA is described as "lower" but no quantitative K D value is provided. The ITC experiments for this mutant were not possible due to instability, and no alternative method (e.g., fluorescence anisotropy or surface plasmon resonance) was used to obtain a binding constant. For the RKRR and DNA-strand mutants, the loss of binding is shown only by EMSA, which is not quantitative and may not detect weak or transient binding. Without quantitative binding data, the claim that these mutations abolish or reduce DNA binding is not rigorously supported.
+  - **Why it matters** The manuscript proposes a functional link between DNA-binding affinity, dimerization, and LLPS. To establish this link, it is essential to quantify the binding affinities of the mutants and compare them to WT. The current data are insufficient to determine whether the observed changes in LLPS are due to loss of DNA binding, loss of dimerization, or other effects of the mutations.
+  - **Resolution test** Perform quantitative binding assays (e.g., fluorescence anisotropy or microscale thermophoresis) for WT and all mutants with the pBRCA1 target DNA, and report K D values with confidence intervals. For the Δ1-6 mutant, use a method that does not require high protein concentrations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural basis of dimerization and DNA binding
+  - **Claim pointer** The authors state that AlphaFold3 predictions reveal a cluster of positive charges involved in DNA binding and that the Δ1-6 truncation disrupts dimerization.
+  - **Evidence pointer** Results section "The SOG1 NAC dimer binds specifically to DNA in vitro"; Figure 2D; Supplementary Figures S3 and S6
+  - **Concern** The manuscript relies heavily on AlphaFold3 predictions for structural interpretations, including the identification of the DNA-binding surface and the design of the Δ1-6 truncation mutant. However, no experimental validation of the predicted dimer interface or the DNA-binding mode is provided. The SEC data show that the Δ1-6 mutant is monomeric, but the authors do not demonstrate that the truncation specifically disrupts the dimer interface without affecting the overall fold. The CD spectra are described as "similar" but no quantitative comparison (e.g., secondary structure content estimation) is shown.
+  - **Why it matters** The structural model underpins the interpretation of the mutational data and the proposed mechanism linking dimerization to LLPS. Without experimental validation (e.g., mutagenesis of the predicted dimer interface, small-angle X-ray scattering, or nuclear magnetic resonance), the structural claims remain speculative.
+  - **Resolution test** Provide experimental evidence for the dimer interface, such as site-directed mutagenesis of predicted interface residues followed by SEC or analytical ultracentrifugation, or a low-resolution structure (e.g., SAXS) of the WT and mutant proteins. Include quantitative secondary structure analysis from CD data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of DNA-RNA competition experiments
+  - **Claim pointer** The authors claim that DNA and RNA compete for overlapping binding sites on SOG1 NAC, based on the observation that target DNA dissolves poly-A-induced condensates and that BLI shows faster dissociation of poly-A in the presence of target DNA.
+  - **Evidence pointer** Results section "The phase-separating behaviour of SOG1 NAC is controlled by a tight interplay between DNA and RNA binding"; Figures 7A-D
+  - **Concern** The competition experiments are described qualitatively. The microscopy images show that target DNA dissolves condensates, but no quantification of condensate dissolution (e.g., number, size, or turbidity over time) is provided. The BLI experiment shows a higher observed off-rate for poly-A in the presence of target DNA, but the data are not shown with replicates or statistical analysis. The interpretation that this reflects competition for the same binding site is one possibility, but alternative explanations (e.g., allosteric effects, non-specific electrostatic competition) are not excluded.
+  - **Why it matters** The proposed model of a DNA-RNA competition mechanism is a key conceptual contribution of the manuscript. If the evidence is not quantitative and does not exclude alternative mechanisms, the model is not convincingly established.
+  - **Resolution test** Quantify condensate dissolution (e.g., turbidity or microscopy-based counting) as a function of DNA concentration, and perform BLI experiments with replicates and statistical analysis. Include a control with non-target DNA at the same concentrations to demonstrate specificity. Consider direct binding assays (e.g., competitive fluorescence anisotropy) to show that DNA and RNA compete for the same site.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of nomenclature
+  - **Affected element** Terminology for SOG1 NAC and mutants
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The naming of the protein constructs (e.g., SOG1 NAC, SOG1 NACΔ1-6, SOG1 NAC-RKRR, SOG1 NAC-DNAstrand) is inconsistent in places, with some instances using "SOG1 NAC" and others "SOG NAC" (e.g., in the Results section). This could confuse readers.
+  - **Required correction** Standardize the nomenclature throughout the manuscript, including figures and supplementary materials.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** LLPS assay conditions
+  - **Evidence pointer** Materials and Methods section "Turbidity assay" and "Microscopy"
+  - **Issue** The buffer conditions for LLPS assays (e.g., pH, salt concentration, presence of reducing agents) are not fully specified. The protein concentrations used for turbidity and microscopy are mentioned but not systematically varied or reported in a table.
+  - **Required correction** Provide a detailed description of buffer composition, protein concentration ranges, and nucleic acid concentrations for all LLPS experiments, ideally in a table format.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** FRAP and BLI data
+  - **Evidence pointer** Results sections on FRAP and BLI
+  - **Issue** FRAP recovery percentages (27% and 80%) are reported without standard deviation, number of replicates, or statistical comparison. BLI off-rates are described qualitatively without error bars.
+  - **Required correction** Report all quantitative data with mean, standard deviation, and number of independent experiments. Perform appropriate statistical tests where comparisons are made.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure referencing
+  - **Affected element** Supplementary Figure S4
+  - **Evidence pointer** Results section "SOG1 NAC undergoes nucleic acids-driven phase separation in vitro"
+  - **Issue** The text refers to Supplementary Figure S4 for salt-dependent turbidity data, but the figure is not described in the text. It is unclear whether this figure shows the same data as Figure 4F or additional data.
+  - **Required correction** Clarify the content of Supplementary Figure S4 and ensure it is explicitly referenced in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion does not address the limitations of the in vitro system, such as the absence of post-translational modifications, the use of a truncated domain rather than the full-length protein, and the potential relevance of crowding agents in vivo.
+  - **Required correction** Add a paragraph acknowledging these limitations and discussing how they might affect the physiological relevance of the findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative LLPS characterization), R1-M2 (quantitative binding data for mutants), R1-M3 (experimental validation of structural model), R1-M4 (quantitative competition data)
+- **Assessment against Nature-style criteria** Originality: The manuscript addresses a relatively underexplored area, namely the role of a folded DNA-binding domain in LLPS, and the link between specific DNA recognition and phase separation. This is a valuable contribution, though the concept of DNA/RNA competition in transcriptional condensates has been proposed by others. Scientific importance: The findings have potential implications for understanding SOG1 function in the DNA damage response and for the broader field of transcriptional regulation. However, the physiological relevance is not demonstrated, and the in vitro nature of the study limits the immediate impact. Interdisciplinary readership: The topic bridges plant biology, biophysics, and phase separation research, which could attract a broad audience. Technical soundness: The experimental design is generally sound, but the lack of quantitative data and controls in several key experiments weakens the technical rigor. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., the description of the competition experiments) could be clearer. Overall, the manuscript has potential but does not currently meet the standard for a high-impact journal due to the technical gaps identified.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the experiments are relevant, but the manuscript requires substantial additional work to quantitatively support the claims, particularly regarding LLPS characterization, mutant binding affinities, and the competition mechanism.
+
+## Risk / unsupported claims
+- The claim that SOG1 NAC undergoes LLPS with RNA and DNA is supported only by qualitative turbidity and microscopy data; the liquid-like nature of the droplets is not rigorously established.
+- The claim that dimerization is required for spherical droplet formation is based on a single truncation mutant without validation that the truncation specifically disrupts dimerization.
+- The claim that the RKRR and DNA-strand mutants completely lose DNA binding is based on EMSA only, which may not detect weak binding.
+- The claim that DNA and RNA compete for overlapping binding sites is inferred from indirect competition experiments without direct binding data.
+- The physiological relevance of the observed LLPS behaviour is not demonstrated, and the authors do not provide evidence that SOG1 forms condensates in plant cells.
+- The use of AlphaFold3 predictions for structural interpretations is not experimentally validated.

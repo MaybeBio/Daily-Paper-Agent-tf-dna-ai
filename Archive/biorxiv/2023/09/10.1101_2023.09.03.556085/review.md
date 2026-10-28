@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, supplementary figure captions)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the provided text
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to propose a structural model of the cGAS-DNA monomer (cGAS₁-DNA₁ complex) in which DNA binds simultaneously to major portions of both DNA-binding sites A and B, the active site is largely immature, and the monomer is thermodynamically and kinetically disfavored relative to the dimer. They further propose that formation of a cGAS₄-DNA₂ complex from a cGAS₂-DNA₂ complex and two additional cGAS molecules is energetically favorable without a barrier, rationalizing length- and concentration-dependent cGAS activation.
+- **Visible evidence base** Abstract, Introduction, Results sections (three subsections), Discussion, Concluding Remarks, Methods (MD simulation and MM/GBSA analysis), Supplementary Figure captions S1-S2, Table 1 referenced but not shown
+- **Missing materials affecting confidence** Table 1 (referenced but not provided), Supplementary Figures S1-S2 (captions only), Movies S1-S3 (referenced but not viewable), force-probe MD simulation parameters (only one set described in detail), convergence and error analysis details, PDB validation metrics for starting structures
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant question in innate immune signaling: the structural and energetic basis of cGAS-DNA oligomerization. The authors present a plausible model for the cGAS₁-DNA₁ monomer conformation and provide energetic estimates from MM/GBSA calculations. However, the evidence base is incomplete in several critical respects. The central claims regarding the stability of the monomer, the energy barrier for dimer formation, and the barrierless assembly of the cGAS₄-DNA₂ complex rest on MM/GBSA free energy estimates that are not fully described or validated. The force-probe MD simulations are described with insufficient methodological detail to assess their reliability. The manuscript would benefit from additional validation, clearer presentation of error estimates, and direct comparison with experimental data.
+- **Who would be interested in the results, and why** Researchers in innate immunity, nucleic acid sensing, and cGAS-STING biology would be interested in the proposed structural model of the cGAS-DNA monomer and the energetic rationale for length-dependent activation. Computational biophysicists studying protein-DNA interactions and oligomerization would also find the methodological approach relevant. The proposed connection between electrostatic surface potential and functional regulation may interest structural biologists.
+- **Major strengths** The manuscript addresses a mechanistically important question with atomistic simulations. The observation that the monomer adopts a conformation distinct from that in the dimer, with DNA engaging both binding sites simultaneously, is a novel and potentially significant finding. The energetic analysis attempts to connect thermodynamic and kinetic aspects of oligomerization to the experimentally observed length and concentration dependence of cGAS activation. The proposed categorization of key residues into functional classes provides a testable framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the cGAS₁-DNA₁ complex (named cGAS₁-DNA₁^AB) is the most stable monomer conformation and that its free energy is about -146 ± 21 kcal/mol, significantly lower than the conformation observed in the dimer.
+  - **Evidence pointer** Results section "DNA binding interface in the cGAS₁-DNA₁ complex", Table 1 (not provided)
+  - **Concern** The MM/GBSA free energy values are presented as absolute numbers with error estimates, but the methodology for error calculation is not described. The internal dielectric constant of 10 is used, which is unusually high and may significantly affect the results. The entropy contribution is estimated from normal-mode analysis on only 30 frames, which is generally considered insufficient for convergence. The manuscript does not report whether the MM/GBSA results are converged with respect to simulation length or number of frames analyzed.
+  - **Why it matters** The central energetic claims of the manuscript, including the relative stability of the monomer versus dimer and the barrier heights for oligomerization, depend entirely on the reliability of the MM/GBSA calculations. If the error estimates are not robust or the methodology is not standard, the quantitative conclusions cannot be trusted.
+  - **Resolution test** Provide a detailed description of the error analysis methodology, demonstrate convergence of the MM/GBSA calculations with respect to simulation time and frame sampling, and compare results with alternative free energy methods (e.g., umbrella sampling, metadynamics) for at least one key transition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the energy barrier for formation of the cGAS₂-DNA₂ complex from two cGAS₁-DNA₁ complexes is high, and that formation of the cGAS₄-DNA₂ complex from cGAS₂-DNA₂ plus two cGAS molecules is energetically favored without an energy barrier.
+  - **Evidence pointer** Results section "Energetics of various complexes in oligomerization from MM/GBSA analysis", Table 1 (not provided)
+  - **Concern** The manuscript reports free energies for binary, ternary, and quaternary complexes but does not describe how the barrier heights were estimated. The claim of "no energy barrier" for the cGAS₄-DNA₂ complex formation is particularly strong and requires either a free energy profile along a reaction coordinate or enhanced sampling simulations to support it. The MM/GBSA method provides end-point free energies and cannot directly assess barriers.
+  - **Why it matters** The kinetic claims are central to the proposed model of length-dependent activation. If the barrier heights are not computed with appropriate methods, the conclusion that short DNA is kinetically trapped while long DNA assembles without a barrier is unsupported.
+  - **Resolution test** Perform enhanced sampling simulations (e.g., umbrella sampling, metadynamics) along a defined reaction coordinate for the dimerization and tetramerization processes, and report free energy profiles with error estimates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that force-probe MD simulations reveal distinct disassembly pathways for the cGAS₂-DNA₂ complex depending on whether DNA is free or restrained.
+  - **Evidence pointer** Results section "Disassembly of the cGAS₂-DNA₂ complex", Methods section "Molecular Dynamics Simulation"
+  - **Concern** The force-probe MD simulation parameters are incompletely described. The pulling velocity is given as 0.003 nm/ns, but the spring constant for the pulling potential, the direction of pulling, and the equilibration protocol are not specified. The manuscript states that "two sets of simulations (three each) were carried out" but does not report the initial conditions for each replicate or whether they were independent. The restraint protocol for the DNA in the second set is described only as "distance restraints on four distances" without specifying which distances or the force constant.
+  - **Why it matters** Force-probe MD results are highly sensitive to pulling speed, spring constant, and restraint setup. Without complete methodological details, the observed disassembly pathways cannot be reproduced or assessed for artifacts.
+  - **Resolution test** Provide complete force-probe MD parameters, including spring constants, pulling directions, equilibration protocols, and initial configurations for all replicates. Report the forces and work values for each simulation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their results "rationalized the cooperative DNA sensing of cGAS in a concentration- and length-dependent manner."
+  - **Evidence pointer** Discussion section, Concluding Remarks
+  - **Concern** The manuscript does not directly connect the simulation results to experimental observations of cGAS activation. No quantitative comparison is made with experimental data on DNA length-dependent activation thresholds, binding affinities, or oligomerization states. The proposed model is plausible but remains speculative without such validation.
+  - **Why it matters** The broader significance of the work depends on its ability to explain experimental observations. Without direct comparison, the relevance of the computational model to the biological system is unclear.
+  - **Resolution test** Compare the predicted free energy differences and barrier heights with experimental binding affinities or activation data for cGAS with different DNA lengths. Discuss how the model quantitatively explains the observed length threshold.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Nomenclature
+  - **Evidence pointer** Results section "DNA binding interface in the cGAS₁-DNA₁ complex"
+  - **Issue** The name for the proposed monomer conformation is missing from the text. The sentence reads "The conformation is considered to be the most stable structure for the cGAS₁-DNA₁ monomer and is named as ." The name appears to have been lost during formatting.
+  - **Required correction** Insert the name of the conformation in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Results section "Energetics of various complexes in oligomerization from MM/GBSA analysis"
+  - **Issue** Table 1 is referenced but not included in the provided text. The free energy values for the various complexes are central to the manuscript's claims.
+  - **Required correction** Ensure Table 1 is included with all values, error estimates, and a clear description of what each row and column represents.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1d
+  - **Evidence pointer** Results section "DNA binding interface in the cGAS₁-DNA₁ complex"
+  - **Issue** The text refers to "the interactions between cGAS and DNA at the site A ( ) and the one between cGAS and DNA at site B ( )" but the symbols are missing. The comparison between the monomer and dimer interactions is difficult to follow without these labels.
+  - **Required correction** Insert the missing symbols or use descriptive text to clarify which interactions are being compared.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary figures
+  - **Evidence pointer** Supplementary Material section
+  - **Issue** The supplementary figures S1 and S2 are described only by caption. The PCA results and their interpretation cannot be assessed without seeing the figures.
+  - **Required correction** Ensure the supplementary figures are available and that the captions fully describe the content and its relevance to the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "Molecular Dynamics Simulation"
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript states that "the crystal structure (PDB ID: 4LEY) was used as the starting model for the simulation of the cGAS-DNA dimer and its chains A, E, and F was selected to be the starting structure for the simulation of the cGAS-DNA dimer." This sentence is confusing because it appears to describe the same structure twice. It is unclear whether chains A, E, and F form the dimer or whether a different selection was intended.
+  - **Required correction** Clarify which chains were used for which simulation and correct the grammatical error.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "MM/GBSA Analysis"
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript states that "the last 400 ns trajectories for the apo cGAS and the cGAS-DNA dimer were analyzed, while the last 300 ns trajectories for the cGAS-DNA monomer and the last 50 ns for force-probe MD simulations of the cGAS-DNA dimer were used for MM/GBSA analysis." The analysis windows differ substantially between systems, which may affect the comparability of the results.
+  - **Required correction** Justify the choice of analysis windows or use consistent windows across systems.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the "DNA-protein ladder model" would benefit from a more explicit description of how the simulation results map onto the steps of the model. The current text is somewhat general.
+  - **Required correction** Provide a step-by-step mapping of the simulation findings to the ladder model, perhaps with a schematic figure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MM/GBSA error and convergence), R1-M2 (barrier height estimation), R1-M3 (force-probe MD parameter reporting)
+- **Assessment against Nature-style criteria** Originality: The proposed monomer conformation with simultaneous engagement of both DNA-binding sites is a novel contribution. Scientific importance: The question of length- and concentration-dependent cGAS activation is significant, but the manuscript does not yet establish a quantitative link to experimental data. Interdisciplinary readership: The work bridges structural biology, biophysics, and immunology, but the presentation is heavily computational and may not be accessible to experimental immunologists without additional context. Technical soundness: The MM/GBSA methodology and force-probe MD simulations are not described with sufficient detail or validation to assess their reliability. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with MD simulation methods and cGAS biology; the missing symbols and incomplete table reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible model but the central energetic and kinetic claims are not supported by the evidence as presented. Major methodological concerns must be addressed, including error analysis, convergence testing, barrier height estimation, and complete reporting of simulation parameters. The manuscript would also benefit from direct comparison with experimental data to establish biological relevance.
+
+## Risk / unsupported claims
+- The claim that the cGAS₁-DNA₁^AB complex is the most stable monomer conformation is based on MM/GBSA calculations with unvalidated error estimates and an unusually high internal dielectric constant.
+- The claim of a high energy barrier for cGAS₂-DNA₂ formation from two monomers is not supported by any free energy profile calculation.
+- The claim that cGAS₄-DNA₂ formation is barrierless is not supported by enhanced sampling or free energy calculations along a reaction coordinate.
+- The claim that the disassembly pathway differs between short and long DNA is based on force-probe MD simulations with incompletely described parameters and only three replicates per condition.
+- The proposed categorization of residues into functional classes (essential for dimerization, active site positioning, or both) is speculative and not directly tested.
+- The statement that "the cGAS₁-DNA₁ complex is more stable than the one seen in the cGAS₂-DNA₂ complex" is not clearly defined, as the comparison is between a monomer and a dimer, which are not directly comparable free energy states.
+- The claim that "subtle changes in the active site of cGAS in cGAS₁-DNA₁^AB reduce the catalytic activity to a great extent" is inferred from structural comparison but not tested functionally.

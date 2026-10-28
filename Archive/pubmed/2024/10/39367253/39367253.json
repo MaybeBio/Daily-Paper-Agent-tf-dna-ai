@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "39367253",
+    "doi": "10.1038/s41594-024-01385-5",
+    "title": "Mesoscale chromatin confinement facilitates target search of pioneer transcription factors in live cells."
+  },
+  "content": {
+    "abstract": "Pioneer transcription factors (PTFs) possess the unique capability to access closed chromatin regions and initiate cell fate changes, yet the underlying mechanisms remain elusive. Here, we characterized the single-molecule dynamics of PTFs targeting chromatin in living cells, revealing a notable 'confined target search' mechanism. PTFs such as FOXA1, FOXA2, SOX2, OCT4 and KLF4 sampled chromatin more frequently than non-PTF MYC, alternating between fast free diffusion in the nucleus and slower confined diffusion within mesoscale zones. Super-resolved microscopy showed closed chromatin organized as mesoscale nucleosome-dense domains, confining FOXA2 diffusion locally and enriching its binding. We pinpointed specific histone-interacting disordered regions, distinct from DNA-binding domains, crucial for confined target search kinetics and pioneer activity within closed chromatin. Fusion to other factors enhanced pioneer activity. Kinetic simulations suggested that transient confinement could increase target association rate by shortening search time and binding repeatedly. Our findings illuminate how PTFs recognize and exploit closed chromatin organization to access targets, revealing a pivotal aspect of gene regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/metabolism/chemistry",
+      "Kruppel-Like Factor 4",
+      "*Transcription Factors/metabolism",
+      "Humans",
+      "Protein Binding",
+      "Histones/metabolism",
+      "Nucleosomes/metabolism",
+      "Kinetics",
+      "Single Molecule Imaging"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Zuhui",
+        "Wang, Bo",
+        "Niu, Di",
+        "Yin, Chao",
+        "Bi, Ying",
+        "Cattoglio, Claudia",
+        "Loh, Kyle M",
+        "Lavis, Luke D",
+        "Ge, Hao",
+        "Deng, Wulan"
+      ],
+      "short_names": [
+        "Wang Z",
+        "Wang B",
+        "Niu D",
+        "Yin C",
+        "Bi Y",
+        "Cattoglio C",
+        "Loh KM",
+        "Lavis LD",
+        "Ge H",
+        "Deng W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0610-4818",
+        "ORCID: 0009-0004-0989-2225",
+        "ORCID: 0000-0002-8042-0149",
+        "ORCID: 0000-0002-0789-6343",
+        "ORCID: 0000-0003-0404-5268",
+        "ORCID: 0000-0001-7450-7128"
+      ],
+      "affiliations": [
+        "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+        "Peking University-Tsinghua University-National Institute of Biological Sciences Joint Graduate Program, Peking University, Beijing, China.",
+        "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China.",
+        "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+        "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China.",
+        "Peking-Tsinghua Center for Life Sciences (CLS), Peking University, Beijing, China.",
+        "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+        "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China.",
+        "Peking-Tsinghua Center for Life Sciences (CLS), Peking University, Beijing, China.",
+        "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+        "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China.",
+        "Peking-Tsinghua Center for Life Sciences (CLS), Peking University, Beijing, China.",
+        "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+        "Peking University-Tsinghua University-National Institute of Biological Sciences Joint Graduate Program, Peking University, Beijing, China.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Howard Hughes Medical Institute, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Developmental Biology, Stanford University, Stanford, CA, USA.",
+        "Institute for Stem Cell Biology & Regenerative Medicine, Stanford University, Stanford, CA, USA.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+        "Beijing International Center for Mathematical Research, Peking University, Beijing, China.",
+        "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China. wdeng@pku.edu.cn.",
+        "Peking University-Tsinghua University-National Institute of Biological Sciences Joint Graduate Program, Peking University, Beijing, China. wdeng@pku.edu.cn.",
+        "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China. wdeng@pku.edu.cn.",
+        "Peking-Tsinghua Center for Life Sciences (CLS), Peking University, Beijing, China. wdeng@pku.edu.cn.",
+        "Beijing Advanced Innovation Center for Genomics (ICG), Peking University, Beijing, China. wdeng@pku.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Zuhui",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0002-0610-4818"
+        ],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+          "Peking University-Tsinghua University-National Institute of Biological Sciences Joint Graduate Program, Peking University, Beijing, China.",
+          "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bo",
+        "short_name": "Wang B",
+        "identifiers": [
+          "0009-0004-0989-2225"
+        ],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+          "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China.",
+          "Peking-Tsinghua Center for Life Sciences (CLS), Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Di",
+        "short_name": "Niu D",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+          "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China.",
+          "Peking-Tsinghua Center for Life Sciences (CLS), Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Chao",
+        "short_name": "Yin C",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+          "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China.",
+          "Peking-Tsinghua Center for Life Sciences (CLS), Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Ying",
+        "short_name": "Bi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+          "Peking University-Tsinghua University-National Institute of Biological Sciences Joint Graduate Program, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Cattoglio, Claudia",
+        "short_name": "Cattoglio C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA.",
+          "Howard Hughes Medical Institute, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Loh, Kyle M",
+        "short_name": "Loh KM",
+        "identifiers": [
+          "0000-0002-8042-0149"
+        ],
+        "affiliations": [
+          "Department of Developmental Biology, Stanford University, Stanford, CA, USA.",
+          "Institute for Stem Cell Biology & Regenerative Medicine, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lavis, Luke D",
+        "short_name": "Lavis LD",
+        "identifiers": [
+          "0000-0002-0789-6343"
+        ],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Ge, Hao",
+        "short_name": "Ge H",
+        "identifiers": [
+          "0000-0003-0404-5268"
+        ],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China.",
+          "Beijing International Center for Mathematical Research, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Wulan",
+        "short_name": "Deng W",
+        "identifiers": [
+          "0000-0001-7450-7128"
+        ],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China. wdeng@pku.edu.cn.",
+          "Peking University-Tsinghua University-National Institute of Biological Sciences Joint Graduate Program, Peking University, Beijing, China. wdeng@pku.edu.cn.",
+          "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China. wdeng@pku.edu.cn.",
+          "Peking-Tsinghua Center for Life Sciences (CLS), Peking University, Beijing, China. wdeng@pku.edu.cn.",
+          "Beijing Advanced Innovation Center for Genomics (ICG), Peking University, Beijing, China. wdeng@pku.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature structural & molecular biology"
+    ],
+    "journal_abbrev": [
+      "Nat Struct Mol Biol"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/05 11:43",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42595790",
+      "42319935",
+      "42094396",
+      "42050111",
+      "41656376",
+      "41264243",
+      "41152234",
+      "40024204",
+      "39705880",
+      "39651159"
+    ],
+    "refs": [
+      "37833263",
+      "37405916",
+      "37225990",
+      "36536103",
+      "36322456",
+      "35863165",
+      "35835866",
+      "35264768",
+      "34896367",
+      "34772790",
+      "34757077",
+      "34375585",
+      "34003257",
+      "33626344",
+      "33561389",
+      "32967822",
+      "32886547",
+      "32811816",
+      "32678275",
+      "32350470",
+      "32327602",
+      "32203463",
+      "31792445",
+      "31611693",
+      "31303471",
+      "31291575",
+      "30675018",
+      "30589412",
+      "30250250",
+      "29930091",
+      "29930090",
+      "29395046",
+      "29378780",
+      "29358654",
+      "29300163",
+      "28846090",
+      "28467304",
+      "28147275",
+      "27776112",
+      "26982363",
+      "26344046",
+      "25892221",
+      "25768910",
+      "25755260",
+      "24925319",
+      "24771516",
+      "24630727",
+      "24412311",
+      "23828889",
+      "23712942",
+      "23524394",
+      "23396281",
+      "23012405",
+      "19897491",
+      "19339686",
+      "18604216",
+      "18176568",
+      "17525339",
+      "15178741",
+      "11864602",
+      "2642903"
+    ],
+    "similar": [
+      "39367253",
+      "37405916",
+      "36495920",
+      "25892221",
+      "34354236",
+      "25512556",
+      "39121853",
+      "34313223",
+      "31350899",
+      "33504790",
+      "31484078",
+      "32574554",
+      "39757199",
+      "39099839",
+      "38991237",
+      "32027821",
+      "37225990",
+      "35863165",
+      "31761495",
+      "30065231",
+      "36996811",
+      "32350470",
+      "32678275",
+      "36130732",
+      "19339686",
+      "27458208",
+      "38755200",
+      "31303471",
+      "33684542",
+      "37327775",
+      "31147470",
+      "29954426",
+      "29986887",
+      "27159561",
+      "26826681",
+      "39946792",
+      "8887561",
+      "36321206",
+      "33263279",
+      "35835866",
+      "32512172",
+      "32778600",
+      "38293962",
+      "32886547",
+      "17466507",
+      "23603987",
+      "31527274",
+      "21704204",
+      "30373774",
+      "39208807",
+      "26648124",
+      "29126175",
+      "39362301",
+      "31151739",
+      "28610839",
+      "27259199",
+      "38365978",
+      "31571238",
+      "25304387",
+      "35622093",
+      "38778580",
+      "33221335",
+      "28287392",
+      "33957053",
+      "34757077",
+      "38958075",
+      "30017582",
+      "28345796",
+      "17996059",
+      "20886052",
+      "30888317",
+      "39058903",
+      "29331030",
+      "15601846",
+      "11571307",
+      "9826764",
+      "26872330",
+      "35876491",
+      "33181171",
+      "23071745",
+      "34967395",
+      "30605682",
+      "29284710",
+      "33191916",
+      "28212747",
+      "29339721",
+      "22388813",
+      "31868585",
+      "17142268",
+      "34898278",
+      "34001913",
+      "29506273",
+      "29949240",
+      "27058788",
+      "34099689",
+      "33865440",
+      "10025404",
+      "32356891",
+      "40024204",
+      "21705643"
+    ],
+    "review": [
+      "39367253",
+      "25512556",
+      "39757199",
+      "39099839",
+      "38991237",
+      "35863165",
+      "30065231",
+      "26826681",
+      "39946792",
+      "32886547",
+      "17466507",
+      "21704204",
+      "39362301",
+      "28610839",
+      "38778580",
+      "33221335",
+      "33957053",
+      "38958075",
+      "28345796",
+      "26872330",
+      "29284710",
+      "29949240",
+      "40024204"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41594-024-01385-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

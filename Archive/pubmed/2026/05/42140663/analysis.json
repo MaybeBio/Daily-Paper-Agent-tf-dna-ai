@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42140663",
+  "title": "Deep learning the TF regulatory code for gene expression.",
+  "authors": "Li, Yuanyuan; Huang, Xiaohui; Qi, Yixuan; Zhang, Zheng; Ding, Hui; Zou, Quan; Liu, Li",
+  "journal": "Genome research",
+  "published_date": "2026-05-16",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出DeepTF深度学习模型，从TF结合谱预测基因表达，虽涉及TF-DNA结合模式但未聚焦三维互作建模，方法可迁移至TF-DNA结合位点预测，属广义蛋白-DNA互作相关。",
+  "abstract": "Gene transcription is activated through the interaction between cis-regulatory elements (CREs) and transcription factors (TFs). CREs serve as templates to provide binding sites, whereas TFs provide functions to directly initiate transcription. Current research mainly focuses on deciphering cis-regulatory code, while neglecting TF regulatory code. However, CREs alone are not sufficient to determine the binding of TFs, which makes the interpretation of cis-regulatory code ambiguous. In this study, we systematically analyze 13 TF binding profiles associated with transcription initiation and encode them as TF sequence to explore the TF regulatory code. Furthermore, we propose a deep learning model named DeepTF to predict gene expression from TF sequence. Results show that TF binding exhibits conserved positional preferences and combinatorial patterns in promoters and DeepTF is able to predict gene expression with high accuracy (AUROC = 0.97). Meanwhile, cross-cell-line validation (AUROC > 0.90) further confirms the model's transferability. Model interpretation reveals DeepTF successfully captures the TF regulatory grammar associated with gene expression. Compared with the cis-regulatory code, our proposed TF regulatory code is better suited for investigating the relationship between TF binding positions or combinatorial patterns and gene expression. Collectively, DeepTF simplifies gene expression prediction and provides clear biological insights of transcriptional regulation.",
+  "abstract_zh": "基因转录通过顺式调控元件（cis-regulatory elements, CREs）与转录因子（transcription factors, TFs）之间的相互作用被激活。CREs作为模板提供结合位点，而TFs则提供功能以直接启动转录。当前研究主要集中于解读顺式调控代码，而忽视了TF调控代码。然而，仅凭CREs不足以决定TFs的结合，这使得顺式调控代码的解释变得模糊。在本研究中，我们系统分析了与转录起始相关的13种TF结合谱，并将其编码为TF序列以探索TF调控代码。此外，我们提出了一种名为DeepTF的深度学习模型，用于从TF序列预测基因表达。结果表明，TF结合在启动子中表现出保守的位置偏好和组合模式，且DeepTF能够以高准确性（AUROC = 0.97）预测基因表达。同时，跨细胞系验证（AUROC > 0.90）进一步确认了该模型的可转移性。模型解释揭示，DeepTF成功捕获了与基因表达相关的TF调控语法。与顺式调控代码相比，我们提出的TF调控代码更适合研究TF结合位置或组合模式与基因表达之间的关系。总之，DeepTF简化了基因表达预测，并为转录调控提供了清晰的生物学见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42140663/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42140663/",
+  "paper_page_path": "papers/pubmed/42140663/index.html"
+}

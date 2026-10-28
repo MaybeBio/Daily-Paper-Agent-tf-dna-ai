@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.21.508821",
+  "title": "Predicting gene and protein expression levels from DNA and protein sequences with Perceiver",
+  "authors": "Matteo Stefanini; Marta Lovino; Rita Cucchiara; Elisa Ficarra",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-22",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Perceiver架构从DNA和蛋白序列预测mRNA和蛋白表达水平，虽涉及DNA序列和转录起始位点，但核心是表达量预测而非TF-DNA结合互作建模，方法上无三维结构或结合机制研究，仅序列级深度学习，与课题关联较弱。",
+  "abstract": "Background and Objective The functions of an organism and its biological processes result from the expression of genes and proteins. Therefore quantifying and predicting mRNA and protein levels is a crucial aspect of scientific research. Concerning the prediction of mRNA levels, the available approaches use the sequence straddling the Transcription Start Site (TSS) as input to neural networks. The State-of-the-art models (e.g., Xpresso and Basenjii) predict mRNA levels exploiting Convolutional (CNN) or Long Short Term Memory (LSTM) Networks. However, CNN prediction depends on convolutional kernel size, and LSTM suffers from capturing long-range dependencies in the sequence. Concerning the prediction of protein levels, as far as we know, there is no model for predicting protein levels by exploiting the gene or protein sequences. Methods Here, we exploit a new model type (called Perceiver) for mRNA and protein level prediction, exploiting a Transformer-based architecture with an attention module to attend to long-range interactions in the sequences. In addition, the Perceiver model overcomes the quadratic complexity of the standard Transformer architectures. This work’s contributions are 1. DNAPerceiver model to predict mRNA levels from the sequence straddling the TSS; 2. ProteinPerceiver model to predict protein levels from the protein sequence; 3. Protein&DNAPerceiver model to predict protein levels from TSS-straddling and protein sequences. Results The models are evaluated on cell lines, mice, glioblastoma, and lung cancer tissues. The results show the effectiveness of the Perceiver-type models in predicting mRNA and protein levels. Conclusions This paper presents a Perceiver architecture for mRNA and protein level prediction. In the future, inserting regulatory and epigenetic information into the model could improve mRNA and protein level predictions. The source code is freely available at https://github.com/MatteoStefanini/DNAPerceiver Graphical Abstract Highlights Predicting mRNA and protein levels from DNA and protein sequences is crucial in clinical applications. A transformer-based architecture with asymmetric attention (Perceiver) is exploited for mRNA and protein level prediction. The Perceiver architecture attends to longer range interactions compared to Transformer, CNN, and LSTM. The proposed model achieves state-of-the-art performance for mRNA level prediction. To the best of our knowledge, the protein level prediction task is addressed. The proposed model is tested on glioblastoma and lung cancer tissues.",
+  "abstract_zh": "背景与目标 生物体的功能及其生物学过程源于基因和蛋白质的表达。因此，定量和预测mRNA及蛋白质水平是科学研究的关键方面。关于mRNA水平的预测，现有方法利用跨越转录起始位点（TSS）的序列作为神经网络的输入。最先进的模型（如Xpresso和Basenjii）通过卷积神经网络（CNN）或长短期记忆网络（LSTM）预测mRNA水平。然而，CNN的预测依赖于卷积核大小，而LSTM在处理序列中的长距离依赖时存在局限。关于蛋白质水平的预测，据我们所知，目前尚无利用基因或蛋白质序列预测蛋白质水平的模型。方法 在此，我们采用一种新型模型（称为Perceiver）进行mRNA和蛋白质水平预测，该模型基于Transformer架构，并利用注意力模块处理序列中的长距离相互作用。此外，Perceiver模型克服了标准Transformer架构的二次复杂度问题。本工作的贡献包括：1. DNAPerceiver模型，用于从跨越TSS的序列预测mRNA水平；2. ProteinPerceiver模型，用于从蛋白质序列预测蛋白质水平；3. Protein&DNAPerceiver模型，用于从跨越TSS的序列和蛋白质序列预测蛋白质水平。结果 模型在细胞系、小鼠、胶质母细胞瘤和肺癌组织上进行了评估。结果表明，Perceiver型模型在预测mRNA和蛋白质水平方面具有有效性。结论 本文提出了一种用于mRNA和蛋白质水平预测的Perceiver架构。未来，将调控和表观遗传信息整合到模型中可能改善mRNA和蛋白质水平的预测。源代码可在 https://github.com/MatteoStefanini/DNAPerceiver 免费获取。图形摘要 亮点 从DNA和蛋白质序列预测mRNA和蛋白质水平在临床应用中至关重要。采用基于Transformer架构且具有非对称注意力的Perceiver模型进行mRNA和蛋白质水平预测。与Transformer、CNN和LSTM相比，Perceiver架构能处理更长距离的相互作用。所提模型在mRNA水平预测方面达到了最先进的性能。据我们所知，蛋白质水平预测任务已得到解决。所提模型在胶质母细胞瘤和肺癌组织上进行了测试。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.21.508821",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.21.508821",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.21.508821/index.html"
+}

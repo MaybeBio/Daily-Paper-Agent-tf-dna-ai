@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "42236716",
+    "doi": "10.1038/s41467-026-73634-8",
+    "title": "Genome-wide modelling of plant transcription factor binding captures regulatory variants associated with phenotypic traits."
+  },
+  "content": {
+    "abstract": "The sequence-specific recognition of cis-regulatory elements (CRE) by transcription factors (TF) propagates genotype information to phenotypes. Understanding how genetic variation affects gene regulation remains limited by the diversity and complexity of CRE interactions. Here, we address this challenge using an explainable multi-label deep learning model trained on A. thaliana DNA-binding data to capture how CRE sequence, their broader sequence context, and syntax influence TF occupancy. Once trained, the model annotates cistrome-wide TF-binding sites and uncovers condition-specific regulatory syntax. By integrating genomic and GWAS data from A. thaliana, our approach predicts differential TF-binding and identifies regulatory gene variants within quantitative trait loci. Experimental validation highlights the link between cis-regulatory variation, gene expression, and phenotypic outcomes. Finally, applying our model to untargeted DNA binding assays in Z. mays under heat-stress conditions demonstrates its potential to characterize condition-responsive TF binding in phylogenetically distant crops.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "Quantitative Trait Loci/genetics",
+      "Phenotype",
+      "Genome-Wide Association Study",
+      "Binding Sites",
+      "*Arabidopsis/genetics/metabolism",
+      "Gene Expression Regulation, Plant",
+      "*Genome, Plant",
+      "Zea mays/genetics/metabolism",
+      "Protein Binding",
+      "Genetic Variation",
+      "*Plant Proteins/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peleke, Fritz Forbang",
+        "Zumkeller, Simon Maria",
+        "Schirmer, Dominic",
+        "Schmitz, Gernot",
+        "Hartwig, Thomas",
+        "Engelhorn, Julia",
+        "Weizel, Sergius",
+        "Schmitt, Armin Otto",
+        "Jores, Tobias",
+        "Szymanski, Jedrzej"
+      ],
+      "short_names": [
+        "Peleke FF",
+        "Zumkeller SM",
+        "Schirmer D",
+        "Schmitz G",
+        "Hartwig T",
+        "Engelhorn J",
+        "Weizel S",
+        "Schmitt AO",
+        "Jores T",
+        "Szymanski J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7394-5994",
+        "ORCID: 0009-0006-1427-4661",
+        "ORCID: 0009-0002-9460-2055",
+        "ORCID: 0000-0002-2707-2771",
+        "ORCID: 0000-0002-4910-9467",
+        "ORCID: 0000-0002-1804-7187",
+        "ORCID: 0000-0003-1086-0920"
+      ],
+      "affiliations": [
+        "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland, Germany.",
+        "NPZ Innovation GmbH, Holtsee, Germany.",
+        "Institute of Bio- and Geosciences (IBG-4: Bioinformatics), CEPLAS, BIOSC, Forschungszentrum Julich, Julich, Germany. s.zumkeller@fz-juelich.de.",
+        "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Dusseldorf, CEPLAS, Dusseldorf, Germany. s.zumkeller@fz-juelich.de.",
+        "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Dusseldorf, CEPLAS, Dusseldorf, Germany.",
+        "Institute of Bio- and Geosciences (IBG-4: Bioinformatics), CEPLAS, BIOSC, Forschungszentrum Julich, Julich, Germany.",
+        "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Dusseldorf, CEPLAS, Dusseldorf, Germany.",
+        "Max Planck Institute for Plant Breeding Research, Cologne, Germany.",
+        "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Dusseldorf, CEPLAS, Dusseldorf, Germany.",
+        "Max Planck Institute for Plant Breeding Research, Cologne, Germany.",
+        "DIADE, Univ Montpellier, CIRAD, IRD, Montpellier, France.",
+        "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Dusseldorf, CEPLAS, Dusseldorf, Germany.",
+        "Max Planck Institute for Plant Breeding Research, Cologne, Germany.",
+        "Breeding Informatics Group, University of Gottingen, Gottingen, Germany.",
+        "Center of Integrated Breeding Research (CiBreed), Gottingen, Germany.",
+        "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Dusseldorf, CEPLAS, Dusseldorf, Germany.",
+        "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland, Germany. j.szymanski@fz-juelich.de.",
+        "Institute of Bio- and Geosciences (IBG-4: Bioinformatics), CEPLAS, BIOSC, Forschungszentrum Julich, Julich, Germany. j.szymanski@fz-juelich.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peleke, Fritz Forbang",
+        "short_name": "Peleke FF",
+        "identifiers": [
+          "0000-0001-7394-5994"
+        ],
+        "affiliations": [
+          "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland, Germany.",
+          "NPZ Innovation GmbH, Holtsee, Germany."
+        ]
+      },
+      {
+        "full_name": "Zumkeller, Simon Maria",
+        "short_name": "Zumkeller SM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bio- and Geosciences (IBG-4: Bioinformatics), CEPLAS, BIOSC, Forschungszentrum Jülich, Jülich, Germany. s.zumkeller@fz-juelich.de.",
+          "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Düsseldorf, CEPLAS, Düsseldorf, Germany. s.zumkeller@fz-juelich.de."
+        ]
+      },
+      {
+        "full_name": "Schirmer, Dominic",
+        "short_name": "Schirmer D",
+        "identifiers": [
+          "0009-0006-1427-4661"
+        ],
+        "affiliations": [
+          "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Düsseldorf, CEPLAS, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmitz, Gernot",
+        "short_name": "Schmitz G",
+        "identifiers": [
+          "0009-0002-9460-2055"
+        ],
+        "affiliations": [
+          "Institute of Bio- and Geosciences (IBG-4: Bioinformatics), CEPLAS, BIOSC, Forschungszentrum Jülich, Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Hartwig, Thomas",
+        "short_name": "Hartwig T",
+        "identifiers": [
+          "0000-0002-2707-2771"
+        ],
+        "affiliations": [
+          "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Düsseldorf, CEPLAS, Düsseldorf, Germany.",
+          "Max Planck Institute for Plant Breeding Research, Cologne, Germany."
+        ]
+      },
+      {
+        "full_name": "Engelhorn, Julia",
+        "short_name": "Engelhorn J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Düsseldorf, CEPLAS, Düsseldorf, Germany.",
+          "Max Planck Institute for Plant Breeding Research, Cologne, Germany.",
+          "DIADE, Univ Montpellier, CIRAD, IRD, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Weizel, Sergius",
+        "short_name": "Weizel S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Düsseldorf, CEPLAS, Düsseldorf, Germany.",
+          "Max Planck Institute for Plant Breeding Research, Cologne, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmitt, Armin Otto",
+        "short_name": "Schmitt AO",
+        "identifiers": [
+          "0000-0002-4910-9467"
+        ],
+        "affiliations": [
+          "Breeding Informatics Group, University of Göttingen, Göttingen, Germany.",
+          "Center of Integrated Breeding Research (CiBreed), Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Jores, Tobias",
+        "short_name": "Jores T",
+        "identifiers": [
+          "0000-0002-1804-7187"
+        ],
+        "affiliations": [
+          "Institute for Molecular Physiology, Faculty of Mathematics and Natural Sciences, Heinrich-Heine University Düsseldorf, CEPLAS, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Szymański, Jędrzej",
+        "short_name": "Szymański J",
+        "identifiers": [
+          "0000-0003-1086-0920"
+        ],
+        "affiliations": [
+          "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland, Germany. j.szymanski@fz-juelich.de.",
+          "Institute of Bio- and Geosciences (IBG-4: Bioinformatics), CEPLAS, BIOSC, Forschungszentrum Jülich, Jülich, Germany. j.szymanski@fz-juelich.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jun 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/04 00:36",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40789919",
+      "40506505",
+      "40485594",
+      "38773361",
+      "38093018",
+      "38057719",
+      "37962376",
+      "37229121",
+      "37158941",
+      "36909440",
+      "36345007",
+      "35955798",
+      "35787631",
+      "35551305",
+      "35353884",
+      "34918159",
+      "34837823",
+      "34478160",
+      "34383745",
+      "34281241",
+      "34083762",
+      "33603233",
+      "33104784",
+      "33037196",
+      "33009513",
+      "32868838",
+      "32164557",
+      "32014062",
+      "31740773",
+      "31642487",
+      "31462772",
+      "30922998",
+      "29298290",
+      "29059333",
+      "28864470",
+      "27203113",
+      "27197224",
+      "27197208",
+      "26904076",
+      "26758694",
+      "26213851",
+      "25474422",
+      "24922306",
+      "24867218",
+      "24799436",
+      "24507493",
+      "24237261",
+      "23940555",
+      "22868264",
+      "22331621",
+      "21931939",
+      "21335373",
+      "21330290",
+      "21272351",
+      "20110278",
+      "19505943",
+      "19386380",
+      "18798982",
+      "16166257",
+      "15767672",
+      "9556498",
+      "1498606"
+    ],
+    "similar": [
+      "42236716",
+      "40789919",
+      "40827700",
+      "40506505",
+      "33098715",
+      "37158941",
+      "29041960",
+      "36494366",
+      "25220462",
+      "40250421",
+      "39977251",
+      "28957321",
+      "34162419",
+      "40032817",
+      "39695844",
+      "29898900",
+      "33104784",
+      "40365911",
+      "40245149",
+      "41518500",
+      "27798116",
+      "21467266",
+      "40808255",
+      "34383745",
+      "42475469",
+      "31337639",
+      "25361952",
+      "21515819",
+      "40369872",
+      "33631799",
+      "34087008",
+      "25918418",
+      "22300769",
+      "31177403",
+      "28373393",
+      "22773751",
+      "42195025",
+      "32184350",
+      "41518494",
+      "21272351",
+      "41514301",
+      "28193859",
+      "33230299",
+      "42065964",
+      "31849006",
+      "38922302",
+      "22852874",
+      "27866169",
+      "34120648",
+      "42424006",
+      "24148294",
+      "34486522",
+      "32631406",
+      "30935363",
+      "39152038",
+      "29992670",
+      "25233095",
+      "28166722",
+      "33661350",
+      "33964211",
+      "35100260",
+      "41668066",
+      "30375394",
+      "25261191",
+      "32363570",
+      "38889146",
+      "24914054",
+      "27457124",
+      "24693880",
+      "14742877",
+      "19956545",
+      "39476040",
+      "23935528",
+      "33077858",
+      "40127931",
+      "31362973",
+      "39095994",
+      "34208629",
+      "24989046",
+      "35799371",
+      "25361955",
+      "31362726",
+      "39626022",
+      "32043966",
+      "28064247",
+      "16978413",
+      "39922197",
+      "34953471",
+      "41552871",
+      "26103993",
+      "38012720",
+      "40155810",
+      "40312298",
+      "37788349",
+      "26386250",
+      "30866803",
+      "30758092",
+      "32929017",
+      "16873495",
+      "42074517"
+    ],
+    "review": [
+      "42236716",
+      "41668066",
+      "24693880",
+      "34208629"
+    ],
+    "pmc": [
+      "13234004"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-73634-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42236716/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

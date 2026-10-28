@@ -1,0 +1,120 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.21.655414",
+  "title": "“Frustratingly easy” domain adaptation for cross-species transcription factor binding prediction",
+  "doi": "10.1101/2025.05.21.655414",
+  "abstract": "<h4>Motivation</h4> Understanding how DNA sequence encodes gene regulation remains a central challenge in genomics. While deep learning models can predict regulatory activity from sequence with high accuracy, their generalizability across species—and thus their ability to capture fundamental biological principles—remains limited. Cross-species prediction provides a powerful test of model robustness and offers a window into conserved regulatory logic, but effectively bridging species-specific genomic differences remains a major barrier. <h4>Results</h4> We present MORALE, a novel and scalable domain adaptation framework that significantly advances cross-species prediction of transcription factor (TF) binding. By aligning statistical moments of sequence embeddings across species, MORALE enables deep learning models to learn species-invariant regulatory features without requiring adversarial training or complex architectures. Applied to multi-species TF ChIP-seq datasets, MORALE achieves state-of-the-art performance—outperforming both baseline and adversarial approaches across all TFs—while preserving model interpretability and recovering canonical motifs with greater precision. In the five-species transfer setting, MORALE not only improves human prediction accuracy beyond human-only training but also reveals regulatory features conserved across mammals. These results highlight the potential of simple yet powerful domain adaptation techniques to drive generalization and discovery in regulatory genomics. Crucially, MORALE is architecture-agnostic and can be seamlessly integrated into any embedding-based sequence model. <h4>Availability</h4> Code is available at https://github.com/loudrxiv/frustrating .",
+  "authors": [
+    "Ebeid MM",
+    "Balcı AT",
+    "Chikina M",
+    "Benos PV",
+    "Kostka D"
+  ],
+  "published_date": "2025-05-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655414",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655414.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1025990",
+    "raw_record": {
+      "id": "PPR1025990",
+      "source": "PPR",
+      "doi": "10.1101/2025.05.21.655414",
+      "title": "“Frustratingly easy” domain adaptation for cross-species transcription factor binding prediction",
+      "authorString": "Ebeid MM, Balcı AT, Chikina M, Benos PV, Kostka D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ebeid MM",
+            "lastName": "Ebeid",
+            "firstName": "Mark Maher",
+            "initials": "MM"
+          },
+          {
+            "fullName": "Balcı AT",
+            "lastName": "Balcı",
+            "firstName": "Ali Tuğrul",
+            "initials": "AT"
+          },
+          {
+            "fullName": "Chikina M",
+            "lastName": "Chikina",
+            "firstName": "Maria",
+            "initials": "M"
+          },
+          {
+            "fullName": "Benos PV",
+            "lastName": "Benos",
+            "firstName": "Panayiotis",
+            "initials": "PV"
+          },
+          {
+            "fullName": "Kostka D",
+            "lastName": "Kostka",
+            "firstName": "Dennis",
+            "initials": "D"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Motivation</h4>  Understanding how DNA sequence encodes gene regulation remains a central challenge in genomics. While deep learning models can predict regulatory activity from sequence with high accuracy, their generalizability across species—and thus their ability to capture fundamental biological principles—remains limited. Cross-species prediction provides a powerful test of model robustness and offers a window into conserved regulatory logic, but effectively bridging species-specific genomic differences remains a major barrier. <h4>Results</h4>  We present MORALE, a novel and scalable domain adaptation framework that significantly advances cross-species prediction of transcription factor (TF) binding. By aligning statistical moments of sequence embeddings across species, MORALE enables deep learning models to learn species-invariant regulatory features without requiring adversarial training or complex architectures. Applied to multi-species TF ChIP-seq datasets, MORALE achieves state-of-the-art performance—outperforming both baseline and adversarial approaches across all TFs—while preserving model interpretability and recovering canonical motifs with greater precision. In the five-species transfer setting, MORALE not only improves human prediction accuracy beyond human-only training but also reveals regulatory features conserved across mammals. These results highlight the potential of simple yet powerful domain adaptation techniques to drive generalization and discovery in regulatory genomics. Crucially, MORALE is architecture-agnostic and can be seamlessly integrated into any embedding-based sequence model. <h4>Availability</h4>  Code is available at  https://github.com/loudrxiv/frustrating .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/26/2025.05.21.655414.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.21.655414"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-05-27",
+      "firstPublicationDate": "2025-05-26",
+      "firstIndexDate": "2025-05-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

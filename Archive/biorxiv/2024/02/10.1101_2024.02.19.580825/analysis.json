@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.19.580825",
+  "title": "RUDEUS, a machine learning classification system to study DNA-Binding proteins",
+  "authors": "David Medina-Ortiz; Gabriel Cabas-Mora; Iván Moya-Barría; Nicole Soto-Garcia; Roberto Uribe-Paredes",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-21",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了基于蛋白质语言模型和分层分类的机器学习系统RUDEUS，用于预测DNA结合蛋白及单/双链结合类型，并辅以分子对接验证，属于广义蛋白-DNA互作预测，方法可迁移至TF-DNA研究，但未聚焦转录因子特异性结合机制。",
+  "abstract": "DNA-binding proteins are essential in different biological processes, including DNA replication, transcription, packaging, and chromatin remodelling. Exploring their characteristics and functions has become relevant in diverse scientific domains. Computational biology and bioinformatics have assisted in studying DNA-binding proteins, complementing traditional molecular biology methods. While recent advances in machine learning have enabled the integration of predictive systems with bioinformatic approaches, there still needs to be generalizable pipelines for identifying unknown proteins as DNA-binding and assessing the specific type of DNA strand they recognize. In this work, we introduce RUDEUS, a Python library featuring hierarchical classification models designed to identify DNA-binding proteins and assess the specific interaction type, whether single-stranded or double-stranded. RUDEUS has a versatile pipeline capable of training predictive models, synergizing protein language models with supervised learning algorithms, and integrating Bayesian optimization strategies. The trained models have high performance, achieving a precision rate of 95% for DNA-binding identification and 89% for discerning between single-stranded and doublestranded interactions. RUDEUS includes an exploration tool for evaluating unknown protein sequences, annotating them as DNA-binding, and determining the type of DNA strand they recognize. Moreover, a structural bioinformatic pipeline has been integrated into RUDEUS for validating the identified DNA strand through DNA-protein molecular docking. These comprehensive strategies and straightforward implementation demonstrate comparable performance to high-end models and enhance usability for integration into protein engineering pipelines.",
+  "abstract_zh": "DNA结合蛋白在多种生物学过程中至关重要，包括DNA复制、转录、包装和染色质重塑。探索它们的特征和功能已成为多个科学领域中的相关课题。计算生物学和生物信息学已辅助研究DNA结合蛋白，补充了传统分子生物学方法。尽管机器学习的最新进展使得将预测系统与生物信息学方法相结合成为可能，但仍需要通用化的流程来识别未知蛋白质是否为DNA结合蛋白，并评估它们识别的DNA链的具体类型。在本工作中，我们介绍了RUDEUS，一个Python库，具有分层分类模型，旨在识别DNA结合蛋白并评估特定相互作用类型，无论是单链还是双链。RUDEUS具有多功能的流程，能够训练预测模型，将蛋白质语言模型与监督学习算法协同，并整合贝叶斯优化策略。训练后的模型性能高，在DNA结合识别方面达到95%的精确率，在区分单链和双链相互作用方面达到89%。RUDEUS包括一个探索工具，用于评估未知蛋白质序列，将其注释为DNA结合蛋白，并确定它们识别的DNA链类型。此外，一个结构生物信息学流程已整合到RUDEUS中，通过DNA-蛋白质分子对接验证识别的DNA链。这些综合策略和直接实现展示了与高端模型相当的性能，并增强了在蛋白质工程流程中的可用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.19.580825",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.580825",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.19.580825/index.html"
+}

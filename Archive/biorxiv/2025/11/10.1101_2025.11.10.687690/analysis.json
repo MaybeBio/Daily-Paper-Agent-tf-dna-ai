@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.10.687690",
+  "title": "Deep Learning links TP53 genotype to expression-defined transcriptional program in Acute Myeloid Leukemia",
+  "authors": "Tsesmelis M; Andersson R; Perez AF; Vazquez SM; Carolina Florian M; Mulaw MA",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-12",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用深度学习关联TP53基因型与AML转录程序，但核心是基因表达分类而非蛋白质-DNA互作建模，无TF-DNA结合位点或互作机制研究，仅边缘相关。",
+  "abstract": "Acute myeloid leukemia (AML) is a hematological cancer characterized by genetic diversity and poor clinical outcomes. Among various genetic mutations in AML, TP53 mutations have relatively low prevalence and present very dismal survival rates. While the genetic features of AML are well understood, the transcriptional programs associated with TP53 dysfunction are less clear, especially across different clinical groups. To fill this gap, we used deep learning on four bulk RNA-seq datasets grouped by p53 expression and a single-cell TARGET-seq dataset classified by TP53 genotype. The bulk data revealed disruptions in chromatin regulation, DNA repair, and immune pathways, with the low-p53 state showing activation of chemokine and interleukin signaling. In the single-cell data, deep learning classifiers successfully distinguished WT from multi-hit TP53-mutant cells, while heterozygous TP53 cells remained transcriptionally similar to WT. Comparing bulk and single-cell results, we found a strong positive correlation between p53-low expression states and TP53-inactive genotypes, linking the expression-based and mutation-based axes of p53 activity. Our study identifies a consistent TP53-related transcriptional signature that connects p53-low expression patterns with underlying TP53 AML.",
+  "abstract_zh": "急性髓系白血病（acute myeloid leukemia, AML）是一种以遗传多样性和不良临床结局为特征的血液系统恶性肿瘤。在AML的多种基因突变中，TP53突变患病率相对较低，且生存率极差。尽管AML的遗传特征已被充分了解，但与TP53功能障碍相关的转录程序尚不明确，尤其是在不同临床分组之间。为填补这一空白，我们利用深度学习分析了四组按p53表达分层的批量RNA-seq数据集，以及一组按TP53基因型分类的单细胞TARGET-seq数据集。批量数据揭示了染色质调控、DNA修复和免疫通路中的紊乱，其中低p53状态表现出趋化因子和白细胞介素信号通路的激活。在单细胞数据中，深度学习分类器成功区分了野生型（WT）与多打击TP53突变细胞，而杂合子TP53细胞在转录水平上与WT保持相似。通过比较批量与单细胞结果，我们发现p53低表达状态与TP53失活基因型之间存在强正相关，从而将p53活性的表达轴与突变轴联系起来。我们的研究识别出一致的TP53相关转录特征，将p53低表达模式与潜在的TP53 AML相关联。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687690",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687690",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.10.687690/index.html"
+}

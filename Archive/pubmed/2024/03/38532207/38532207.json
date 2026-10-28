@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "38532207",
+    "doi": "10.1007/s00414-024-03210-6",
+    "title": "Development of a screening system of gene sets for estimating the time of early skeletal muscle injury based on second-generation sequencing technology."
+  },
+  "content": {
+    "abstract": "The present study is aimed to address the challenge of wound age estimation in forensic science by identifying reliable genetic markers using low-cost and high-precision second-generation sequencing technology. A total of 54 Sprague-Dawley rats were randomly assigned to a control group or injury groups, with injury groups being further divided into time points (4 h, 8 h, 12 h, 16 h, 20 h, 24 h, 28 h, and 32 h after injury, n = 6) to establish rat skeletal muscle contusion models. Gene expression data were obtained using second-generation sequencing technology, and differential gene expression analysis, weighted gene co-expression network analysis (WGCNA) and time-dependent expression trend analysis were performed. A total of six sets of biomarkers were obtained: differentially expressed genes at adjacent time points (127 genes), co-expressed genes most associated with wound age (213 genes), hub genes exhibiting time-dependent expression (264 genes), and sets of transcription factors (TF) corresponding to the above sets of genes (74, 87, and 99 genes, respectively). Then, random forest (RF), support vector machine (SVM) and multilayer perceptron (MLP), were constructed for wound age estimation from the above gene sets. The results estimated by transcription factors were all superior to the corresponding hub genes, with the transcription factor group of WGCNA performed the best, with average accuracy rates of 96% for three models' internal testing, and 91.7% for the highest external validation. This study demonstrates the advantages of the indicator screening system based on second-generation sequencing technology and transcription factor level for wound age estimation.",
+    "keywords": [
+      "Computational biology",
+      "Forensic pathology",
+      "Machine learning.",
+      "Next-generation sequencing",
+      "Transcription factors",
+      "Wound age estimation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Muscle, Skeletal/injuries/metabolism",
+      "*Rats, Sprague-Dawley",
+      "*Contusions/genetics",
+      "Time Factors",
+      "Support Vector Machine",
+      "High-Throughput Nucleotide Sequencing",
+      "Rats",
+      "Gene Expression Profiling",
+      "Genetic Markers",
+      "Male",
+      "Forensic Genetics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Junyi",
+        "Sun, Hao",
+        "Zhou, Shidong",
+        "Wang, Liangliang",
+        "Dong, Chaoxiu",
+        "Ren, Kang",
+        "Du, Qiuxiang",
+        "Cao, Jie",
+        "Wang, Yingyuan",
+        "Sun, Junhong"
+      ],
+      "short_names": [
+        "Shen J",
+        "Sun H",
+        "Zhou S",
+        "Wang L",
+        "Dong C",
+        "Ren K",
+        "Du Q",
+        "Cao J",
+        "Wang Y",
+        "Sun J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6970-2620"
+      ],
+      "affiliations": [
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China.",
+        "Institute of Forensic Science Public Security Department of Shanxi, Taiyuan, China.",
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China.",
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China.",
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China.",
+        "Institute of Forensic Science Public Security Department of Shanxi, Taiyuan, China.",
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China.",
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China.",
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China.",
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China. wyy580218@163.com.",
+        "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China. junhong.sun@sxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Junyi",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China.",
+          "Institute of Forensic Science Public Security Department of Shanxi, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Hao",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shidong",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liangliang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Chaoxiu",
+        "short_name": "Dong C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Forensic Science Public Security Department of Shanxi, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Kang",
+        "short_name": "Ren K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China."
+        ]
+      },
+      {
+        "full_name": "Du, Qiuxiang",
+        "short_name": "Du Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Jie",
+        "short_name": "Cao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingyuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China. wyy580218@163.com."
+        ]
+      },
+      {
+        "full_name": "Sun, Junhong",
+        "short_name": "Sun J",
+        "identifiers": [
+          "0000-0002-6970-2620"
+        ],
+        "affiliations": [
+          "Department of Forensic Medicine, Shanxi Medical University, Jinzhong, China. junhong.sun@sxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of legal medicine"
+    ],
+    "journal_abbrev": [
+      "Int J Legal Med"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/27 06:43",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "41652227"
+    ],
+    "refs": [
+      "36852075",
+      "36382190",
+      "35640312",
+      "34928395",
+      "34102486",
+      "33745759",
+      "33514709",
+      "32968335",
+      "32527289",
+      "31320689",
+      "31114916",
+      "31096307",
+      "30976839",
+      "30483664",
+      "28129582",
+      "27924014",
+      "27573239",
+      "27508061",
+      "27376479",
+      "26311174",
+      "25751142",
+      "25605792",
+      "25058159",
+      "23259851",
+      "19114008",
+      "16597342",
+      "10592173"
+    ],
+    "similar": [
+      "38532207",
+      "35640312",
+      "30631906",
+      "29231000",
+      "31135109",
+      "33550722",
+      "33398324",
+      "19184079",
+      "24045877",
+      "21845441",
+      "31135108",
+      "26245080",
+      "37415796",
+      "26311174",
+      "28129582",
+      "19697769",
+      "29219261",
+      "36766500",
+      "32909067",
+      "36797435",
+      "37804331",
+      "24781786",
+      "22435328",
+      "18404983",
+      "31135110",
+      "34515836",
+      "26442366",
+      "26821471",
+      "22381171",
+      "20535492",
+      "19241963",
+      "31282618",
+      "21434923",
+      "34555052",
+      "29230999",
+      "38711508",
+      "38518639",
+      "25845221",
+      "29354938",
+      "27404628",
+      "29926669",
+      "38755717",
+      "33149108",
+      "27497723",
+      "38851698",
+      "33705733",
+      "35151267",
+      "31282620",
+      "36426689",
+      "27376479",
+      "36740424",
+      "31881887",
+      "34687982",
+      "29577699",
+      "27364281",
+      "29631189",
+      "37451513",
+      "37054694",
+      "36817234",
+      "22918836",
+      "38476236",
+      "38044432",
+      "16850590",
+      "31155865",
+      "37454542",
+      "36195955",
+      "23651547",
+      "34663380",
+      "22714676",
+      "31416143",
+      "27287006",
+      "37339448",
+      "32453457",
+      "36032660",
+      "29441762",
+      "35812327",
+      "37092838",
+      "37235796",
+      "18709848",
+      "35047008",
+      "29850515",
+      "36341378",
+      "35558576",
+      "26058124",
+      "29105465",
+      "33669581",
+      "37854191",
+      "38440848",
+      "17478534",
+      "34698087",
+      "35143088",
+      "26097533",
+      "32705275",
+      "36062789",
+      "27543959"
+    ],
+    "review": [
+      "38532207",
+      "27543959"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bruises.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bruises"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00414-024-03210-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

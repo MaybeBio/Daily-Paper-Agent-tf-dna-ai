@@ -1,0 +1,125 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.11.642297",
+  "title": "Decoding stress specific transcriptional regulation by causality aware Graph-Transformer deep learning",
+  "doi": "10.1101/2025.03.11.642297",
+  "abstract": "Cells respond to environmental stimuli through transcriptional reprogramming orchestrated by transcription factors (TFs), which interpret cis-regulatory DNA sequences to determine the timing and location of gene expression. The diversification of TFs and their interactions with cis-regulatory elements (CREs) underpins plant adaptation to stress through the formation of gene regulatory networks (GRNs). However, deciphering condition-specific GRNs and identifying transcription factor binding motifs (TFBMs) for spatio-temporal gene expression remain major challenges in plant biology. To decipher the conditional networks governing TF-Target gene interactions, we developed CTF-BIND, a novel computational framework designed to reason about the spatio-temporal dynamics of TF activity. Leveraging over ∼23TB of multi-omics data (ChIP-seq, RNA-seq, and protein-protein interaction data), we constructed Bayesian causal networks capable of explaining TF activity across diverse conditions. These networks, validated against extensive experimental data, were then integrated into a Graph Transformer deep learning system. This system uses expression information of network components to quantitatively determine TF activity levels. Models were developed for 110 abiotic stress-related TFs, enabling accurate condition-specific detection of TF binding directly from RNA-seq data, eliminating the need for separate ChIP-seq experiments. CTF-BIND achieved a high average accuracy of ∼93% when tested against experimentally established data from various conditions. It is implemented as an interactive, open-access web server, it not only provides TF binding profiles but also facilitates downstream functional analysis. Furthermore, we developed CTF-BIND-DB, ( https://hichicob.ihbt.res.in/ctfbind/ ) a database capturing dynamic shifts in regulatory pathways, providing information on TGs, network ontology, and binding motifs. CTF-BIND and CTF-BIND-DB represent a transformative approach for understanding and determining TF activity in plant stress responses, offering a powerful tool for crop improvement and bypassing the limitations of traditional methods and extensive experimental validation.",
+  "authors": [
+    "Bhati U",
+    "Sharma A",
+    "Gupta S",
+    "Kumar A",
+    "Pradhan UK",
+    "Shankar R"
+  ],
+  "published_date": "2025-03-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.11.642297",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.11.642297.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR989871",
+    "raw_record": {
+      "id": "PPR989871",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.11.642297",
+      "title": "Decoding stress specific transcriptional regulation by causality aware Graph-Transformer deep learning",
+      "authorString": "Bhati U, Sharma A, Gupta S, Kumar A, Pradhan UK, Shankar R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bhati U",
+            "lastName": "Bhati",
+            "firstName": "Umesh",
+            "initials": "U"
+          },
+          {
+            "fullName": "Sharma A",
+            "lastName": "Sharma",
+            "firstName": "Akanksha",
+            "initials": "A"
+          },
+          {
+            "fullName": "Gupta S",
+            "lastName": "Gupta",
+            "firstName": "Sagar",
+            "initials": "S"
+          },
+          {
+            "fullName": "Kumar A",
+            "lastName": "Kumar",
+            "firstName": "Anchit",
+            "initials": "A"
+          },
+          {
+            "fullName": "Pradhan UK",
+            "lastName": "Pradhan",
+            "firstName": "Upendra Kumar",
+            "initials": "UK"
+          },
+          {
+            "fullName": "Shankar R",
+            "lastName": "Shankar",
+            "firstName": "Ravi",
+            "initials": "R"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Cells respond to environmental stimuli through transcriptional reprogramming orchestrated by transcription factors (TFs), which interpret cis-regulatory DNA sequences to determine the timing and location of gene expression. The diversification of TFs and their interactions with cis-regulatory elements (CREs) underpins plant adaptation to stress through the formation of gene regulatory networks (GRNs). However, deciphering condition-specific GRNs and identifying transcription factor binding motifs (TFBMs) for spatio-temporal gene expression remain major challenges in plant biology. To decipher the conditional networks governing TF-Target gene interactions, we developed CTF-BIND, a novel computational framework designed to reason about the spatio-temporal dynamics of TF activity. Leveraging over ∼23TB of multi-omics data (ChIP-seq, RNA-seq, and protein-protein interaction data), we constructed Bayesian causal networks capable of explaining TF activity across diverse conditions. These networks, validated against extensive experimental data, were then integrated into a Graph Transformer deep learning system. This system uses expression information of network components to quantitatively determine TF activity levels. Models were developed for 110 abiotic stress-related TFs, enabling accurate condition-specific detection of TF binding directly from RNA-seq data, eliminating the need for separate ChIP-seq experiments. CTF-BIND achieved a high average accuracy of ∼93% when tested against experimentally established data from various conditions. It is implemented as an interactive, open-access web server, it not only provides TF binding profiles but also facilitates downstream functional analysis. Furthermore, we developed CTF-BIND-DB, (  https://hichicob.ihbt.res.in/ctfbind/ ) a database capturing dynamic shifts in regulatory pathways, providing information on TGs, network ontology, and binding motifs. CTF-BIND and CTF-BIND-DB represent a transformative approach for understanding and determining TF activity in plant stress responses, offering a powerful tool for crop improvement and bypassing the limitations of traditional methods and extensive experimental validation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.11.642297"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-16",
+      "firstPublicationDate": "2025-03-13",
+      "firstIndexDate": "2025-03-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

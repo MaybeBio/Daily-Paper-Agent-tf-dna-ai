@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report a computational study using RMSF, hydrogen bond, hydrophobic, and MMPBSA analyses to construct an interface-specific map of PARP1 activation, proposing that DNA, Zn ions, and NAD+ act cooperatively at specific domain interfaces to drive allosteric activation and catalytic pocket opening
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation data, or quantitative results were provided
+- **Missing materials affecting confidence** Full methods, simulation system setup, force field parameters, convergence criteria, error estimates, control simulations, structural coordinates, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic narrative for PARP1 allosteric activation, but the evidence base is entirely inaccessible. No quantitative data, methodological validation, or comparative analyses are provided. The claims are broad and mechanistic in nature, yet the supporting evidence cannot be assessed from the supplied material. The work may be of interest to the structural biology and cancer therapeutics communities, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Structural biologists studying allosteric regulation in multi-domain proteins, cancer researchers focused on PARP inhibitor development and synthetic lethality, and computational chemists interested in protein-DNA-ligand interaction dynamics. The proposed interface-specific map of PARP1 activation could inform inhibitor design strategies targeting specific domain interfaces.
+- **Major strengths** The abstract addresses a biologically and clinically relevant question with clear translational implications. The proposed mechanistic framework integrates multiple components (DNA, Zn ions, NAD+) into a coherent activation model. The focus on interface-specific interactions is a potentially valuable conceptual contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that RMSF, hydrogen bond, hydrophobic, and MMPBSA analyses reveal how DNA, Zn ions, and NAD+ act at each domain interface to drive PARP1 activation
+  - **Evidence pointer** Methods section not provided; location not provided
+  - **Concern** No methodological details are available. The simulation system composition, force field, simulation length, sampling convergence, and analysis protocols are entirely absent. Without this information, the reliability of the reported interface-specific interactions cannot be evaluated.
+  - **Why it matters** Molecular dynamics-based conclusions are highly sensitive to system setup and sampling quality. Claims about specific allosteric contacts and their strengthening or weakening require demonstration of converged sampling and appropriate statistical treatment.
+  - **Resolution test** Provide full methods including system construction, equilibration protocol, production run length, replica or independent run information, convergence metrics, and error estimates for all reported quantities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that full PARP1 activation requires the PARP1-DNA-Zn-NAD+ complex and that this complex opens the catalytic pocket for NAD+ binding
+  - **Evidence pointer** Results section not provided; location not provided
+  - **Concern** The abstract states a definitive conclusion about the necessity of the full complex for activation, but no comparative data are shown. There is no evidence that alternative complexes (e.g., PARP1-DNA without Zn, or PARP1-DNA-NAD+ without Zn) were tested and found insufficient.
+  - **Why it matters** A claim of necessity requires demonstration that removing any single component abolishes or significantly reduces the activation response. Without such comparative analysis, the claim is unsupported.
+  - **Resolution test** Provide comparative simulation or experimental data showing that activation-associated conformational changes and catalytic pocket opening occur only in the full complex and are diminished or absent in partial complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Zn ions at ZF1 stabilize DNA binding and that Zn ions reinforce the ZF3-WGR interface
+  - **Evidence pointer** Results section not provided; location not provided
+  - **Concern** The specific role of Zn ions is asserted without any quantitative support. No binding free energy decomposition, coordination geometry analysis, or comparison to Zn-free simulations is presented in the abstract.
+  - **Why it matters** Zn ions are known structural cofactors in PARP1 zinc fingers. Distinguishing structural stabilization from active allosteric participation requires careful analysis of Zn coordination stability and its contribution to interface energetics.
+  - **Resolution test** Provide Zn coordination analysis over simulation time, per-residue energy decomposition for Zn-binding residues, and control simulations without Zn ions to demonstrate the specific contribution of Zn to interface stability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** Domain abbreviations (ZF1, ZF3, WGR, HD, ART) are used without definition or brief functional context, which may limit accessibility for readers outside the PARP field.
+  - **Required correction** Define each domain abbreviation at first use and provide a one-sentence functional description for each.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance framing
+  - **Affected element** Translational claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The statement that findings "may aid development of targeted inhibitors" is vague and does not specify which interface or interaction would be the most tractable target.
+  - **Required correction** Specify which identified interface or interaction is proposed as the most promising inhibitor target and why, based on the reported data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methodological scope
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists RMSF, hydrogen bond, hydrophobic, and MMPBSA analyses but does not mention whether free energy calculations were validated against experimental binding data or whether multiple independent simulations were performed.
+  - **Required correction** Add a sentence in the abstract or methods indicating simulation replicates, convergence assessment, and any validation against experimental structures or binding affinities.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing methodological detail), R1-M2 (unsupported necessity claim), R1-M3 (unsubstantiated Zn-specific role)
+- **Assessment against Nature-style criteria** Originality: the interface-specific mapping approach is potentially novel, but the abstract does not demonstrate how this differs from prior PARP1 simulation studies. Scientific importance: the topic is significant for cancer biology and drug development, but the abstract does not provide sufficient mechanistic detail to judge the depth of insight. Interdisciplinary readership: the work bridges structural biology, computational chemistry, and oncology, but the abstract is too specialized in its current form. Technical soundness: cannot be assessed from the supplied material. Readability for nonspecialists: the abstract uses domain abbreviations without definition and assumes familiarity with PARP biology.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic narrative is coherent and potentially valuable, but the absence of methodological detail, quantitative results, and comparative analyses prevents assessment of technical validity. Supportive if the full manuscript provides adequate methods, validation, and comparative data addressing the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that full PARP1 activation requires the PARP1-DNA-Zn-NAD+ complex is unsupported without comparative simulations or experiments testing partial complexes
+- The claim that Zn ions specifically stabilize DNA binding at ZF1 and reinforce the ZF3-WGR interface is unsupported without Zn-free control simulations or coordination analysis
+- The claim that NAD+ induces a conformational shift in the HD domain is unsupported without evidence distinguishing NAD+ effects from DNA and Zn effects
+- The claim that the study "constructs an interface-specific map" is not verifiable from the abstract alone
+- All quantitative claims about interaction strengths, conformational changes, and pocket opening are unassessable without figures, tables, or numerical values

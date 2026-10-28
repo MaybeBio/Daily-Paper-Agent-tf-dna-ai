@@ -1,0 +1,460 @@
+{
+  "identity": {
+    "pmid": "36158891",
+    "doi": "10.1155/2022/3268773",
+    "title": "Network Pharmacology-Integrated Molecular Docking Reveals the Expected Anticancer Mechanism of Picrorhizae Rhizoma Extract."
+  },
+  "content": {
+    "abstract": "This study sought to explore the anticancer mechanism of Picrorhizae Rhizoma (PR) extract based on network pharmacology and molecular docking. The potential chemicals of PR were screened through the Traditional Chinese Medicine Systems Pharmacology (TCMSP) database and relevant literatures. Corresponding targets of active ingredients were found with the help of the UniProtKB database, and therapeutic targets for cancer action were screened with the help of the GeneCards database. We used Cytoscape software to construct the compound-target-pathway network of PR extract. We utilized the STRING database to obtain the protein-protein interaction (PPI) network. We used DAVID database combining Gene Ontology (GO) analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis. Finally, molecular docking was employed for initial efficacy checking. We have identified 16 potential active components of PR through screening, involving 112 disease action targets. Utilizing the GeneCards database, 112 intersecting targets between PR extract and cancer were found, which mainly exerts anticancer effects by regulating tumor necrosis factor (TNF), recombinant caspase 3 (CASP3), c-Jun NH2-terminal kinase (JNK)/JUN, epidermal growth factor receptor (EGFR), and estrogen receptor-1 (ESR1) with some other target genes and pathways associated with cancer. The major anticancer species are prostate cancer, colorectal cancer, small cell lung cancer, etc. In the molecular docking study, herbactin had a strong affinity for TNF. Based on network pharmacology and molecular docking studies, PR and their compounds have demonstrated potential anticancer activities against several key targets. Our preliminary findings provide a strong foundation for further experiments with PR constituents.",
+    "keywords": [],
+    "mesh_terms": [
+      "Caspase 3",
+      "*Drugs, Chinese Herbal/chemistry",
+      "ErbB Receptors",
+      "Humans",
+      "Medicine, Chinese Traditional",
+      "Molecular Docking Simulation",
+      "*Neoplasms/drug therapy",
+      "Network Pharmacology",
+      "Receptors, Estrogen",
+      "Tumor Necrosis Factors/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Retracted Publication"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Xiaomeng",
+        "Zhao, Shengchao",
+        "Cai, Yi",
+        "Swain, Shasank S",
+        "Yao, Liangliang",
+        "Liu, Wei",
+        "Yan, Tingdong"
+      ],
+      "short_names": [
+        "Hu X",
+        "Zhao S",
+        "Cai Y",
+        "Swain SS",
+        "Yao L",
+        "Liu W",
+        "Yan T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2296-222X",
+        "ORCID: 0000-0001-5089-8304",
+        "ORCID: 0000-0002-8435-5954",
+        "ORCID: 0000-0002-4404-6348",
+        "ORCID: 0000-0002-5193-022X"
+      ],
+      "affiliations": [
+        "University and College Key Lab of Natural Product Chemistry and Application in Xinjiang, School of Chemistry and Environmental Science, Yili Normal University, Yining 835000, China.",
+        "University and College Key Lab of Natural Product Chemistry and Application in Xinjiang, School of Chemistry and Environmental Science, Yili Normal University, Yining 835000, China.",
+        "School of Life Sciences, Shanghai University, 99 Shangda Road, Shanghai 200444, China.",
+        "Guangzhou Municipal and Guangdong Provincial Key Laboratory of Molecular Target & Clinical Pharmacology, The NMPA and State Key Laboratory of Respiratory Disease, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou 511436, China.",
+        "Division of Microbiology and NCDs, ICMR-Regional Medical Research Centre, Bhubaneswar, 751023 Odisha, India.",
+        "Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang 330006, China.",
+        "University and College Key Lab of Natural Product Chemistry and Application in Xinjiang, School of Chemistry and Environmental Science, Yili Normal University, Yining 835000, China.",
+        "School of Life Sciences, Shanghai University, 99 Shangda Road, Shanghai 200444, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Xiaomeng",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "University and College Key Lab of Natural Product Chemistry and Application in Xinjiang, School of Chemistry and Environmental Science, Yili Normal University, Yining 835000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shengchao",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "University and College Key Lab of Natural Product Chemistry and Application in Xinjiang, School of Chemistry and Environmental Science, Yili Normal University, Yining 835000, China.",
+          "School of Life Sciences, Shanghai University, 99 Shangda Road, Shanghai 200444, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yi",
+        "short_name": "Cai Y",
+        "identifiers": [
+          "0000-0003-2296-222X"
+        ],
+        "affiliations": [
+          "Guangzhou Municipal and Guangdong Provincial Key Laboratory of Molecular Target & Clinical Pharmacology, The NMPA and State Key Laboratory of Respiratory Disease, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou 511436, China."
+        ]
+      },
+      {
+        "full_name": "Swain, Shasank S",
+        "short_name": "Swain SS",
+        "identifiers": [
+          "0000-0001-5089-8304"
+        ],
+        "affiliations": [
+          "Division of Microbiology and NCDs, ICMR-Regional Medical Research Centre, Bhubaneswar, 751023 Odisha, India."
+        ]
+      },
+      {
+        "full_name": "Yao, Liangliang",
+        "short_name": "Yao L",
+        "identifiers": [
+          "0000-0002-8435-5954"
+        ],
+        "affiliations": [
+          "Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang 330006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [
+          "0000-0002-4404-6348"
+        ],
+        "affiliations": [
+          "University and College Key Lab of Natural Product Chemistry and Application in Xinjiang, School of Chemistry and Environmental Science, Yili Normal University, Yining 835000, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Tingdong",
+        "short_name": "Yan T",
+        "identifiers": [
+          "0000-0002-5193-022X"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Shanghai University, 99 Shangda Road, Shanghai 200444, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Retracted Publication"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/27 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "38230197"
+    ],
+    "refs": [
+      "35658233",
+      "35610639",
+      "35608730",
+      "35608132",
+      "35605589",
+      "35598658",
+      "35590371",
+      "35590292",
+      "35583792",
+      "35575456",
+      "35573727",
+      "35562734",
+      "35543858",
+      "35536149",
+      "35525235",
+      "35491899",
+      "35447933",
+      "35432535",
+      "35392242",
+      "35384056",
+      "35383531",
+      "35330393",
+      "35307646",
+      "35286235",
+      "35279406",
+      "35184402",
+      "35174161",
+      "35096574",
+      "35090315",
+      "35073820",
+      "35054980",
+      "34976001",
+      "34961764",
+      "34830027",
+      "34829734",
+      "34249422",
+      "34226297",
+      "34109171",
+      "34054937",
+      "34040390",
+      "33968184",
+      "33402390",
+      "32576198",
+      "32565768",
+      "30975278",
+      "30153855",
+      "29593717",
+      "29032648",
+      "27469200",
+      "26004706",
+      "25246345",
+      "24377128",
+      "23333583",
+      "22581361",
+      "22268921",
+      "18297114"
+    ],
+    "similar": [
+      "36158891",
+      "37879505",
+      "38759074",
+      "39205203",
+      "35069454",
+      "37799727",
+      "39041127",
+      "38403323",
+      "36472040",
+      "33645090",
+      "38114219",
+      "38608086",
+      "35616676",
+      "35837376",
+      "36403742",
+      "38114126",
+      "34951253",
+      "34873575",
+      "36181021",
+      "38050247",
+      "35730236",
+      "37474991",
+      "36472042",
+      "35430443",
+      "35178961",
+      "36316904",
+      "37282883",
+      "36590763",
+      "33645014",
+      "37233418",
+      "34658345",
+      "37469733",
+      "36604925",
+      "33358854",
+      "33743701",
+      "37499457",
+      "36401375",
+      "35960090",
+      "33634308",
+      "34660782",
+      "36452059",
+      "36372090",
+      "34259096",
+      "36803762",
+      "37773840",
+      "37802827",
+      "31760157",
+      "38812203",
+      "36032542",
+      "36626454",
+      "36455142",
+      "34581057",
+      "36596057",
+      "37478218",
+      "35850844",
+      "36595795",
+      "36471963",
+      "35265311",
+      "34941025",
+      "36164911",
+      "36576506",
+      "37478234",
+      "32928080",
+      "38875382",
+      "34353081",
+      "36472041",
+      "35850814",
+      "35227068",
+      "34159207",
+      "35040393",
+      "34047082",
+      "37833363",
+      "37843333",
+      "35933455",
+      "37345246",
+      "33082858",
+      "34994141",
+      "37563784",
+      "36911881",
+      "36550856",
+      "33299870",
+      "37480968",
+      "34472273",
+      "37802787",
+      "34872267",
+      "36158488",
+      "33208065",
+      "33496115",
+      "33645088",
+      "35851128",
+      "37244150",
+      "38206683",
+      "34908920",
+      "37990309",
+      "38115279",
+      "36221378",
+      "35718495",
+      "33750656",
+      "37005817",
+      "33243703",
+      "35178927",
+      "36817858",
+      "35442463",
+      "38552047",
+      "39049631",
+      "38905394",
+      "39278295",
+      "38685167",
+      "34178945",
+      "38327605",
+      "38555283",
+      "38335401",
+      "38747108",
+      "38645989",
+      "36660662",
+      "38370566",
+      "39147995",
+      "38518016",
+      "34773964",
+      "37306420",
+      "38618280",
+      "38608062",
+      "38268042",
+      "38019769",
+      "38552049",
+      "33262572",
+      "37148401",
+      "38326539",
+      "34899953",
+      "38297292",
+      "38501406",
+      "37906275",
+      "39328854",
+      "38275061",
+      "32475979",
+      "38785796",
+      "37946484",
+      "38761877",
+      "38872917",
+      "38213175",
+      "38837097",
+      "37129744",
+      "39035784",
+      "37170985",
+      "39000173",
+      "38676780",
+      "37668687",
+      "39297880",
+      "38481549",
+      "38313313",
+      "35423607",
+      "38338298",
+      "37793997",
+      "39257141",
+      "36418713",
+      "38964723",
+      "39038361",
+      "37340727",
+      "39113883",
+      "35421091",
+      "39224251",
+      "37957642",
+      "38310573",
+      "38764617",
+      "36145718",
+      "35207564",
+      "38230197",
+      "39361173",
+      "34992663",
+      "38385359",
+      "39108872",
+      "38845574",
+      "38934276",
+      "38737798",
+      "38389971",
+      "38454426",
+      "38270380",
+      "38646849",
+      "38794187",
+      "32922299",
+      "38250414",
+      "39425858",
+      "38504075",
+      "35531567",
+      "38250532",
+      "39430520",
+      "28659988"
+    ],
+    "review": [
+      "36158891",
+      "33358854",
+      "37478234",
+      "38875382"
+    ],
+    "pmc": [
+      "9507705"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36158891/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36158891",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/3268773",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

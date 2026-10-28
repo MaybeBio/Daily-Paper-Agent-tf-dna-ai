@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of a parallel G-quadruplex (R1WT) in the distal promoter of the stemness gene REX1, characterize its biophysical properties, demonstrate differential interactions with two small-molecule ligands, confirm endogenous formation via BG4 ChIP, identify four transcription factors that bind the GQ region, and propose a regulatory role in promoter DNA relaxation linked to cancer stemness and metastasis.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, computational methods, statistical analyses, cell lines used, antibody validation data, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding a G-quadruplex in the REX1 promoter with possible regulatory relevance. However, the evidence base available for assessment is limited to the abstract, which contains several claims that cannot be evaluated without the underlying data. The central conclusions regarding drug interactions, endogenous GQ formation, transcription factor binding, and functional consequences require substantial experimental support that is not visible in the supplied material. The claim of a "molecular switch" controlling promoter activity and seeding stemness characteristics in cancer cells is ambitious and currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in G-quadruplex biology, gene regulation, and cancer epigenetics would find these results relevant. The identification of a GQ in a stemness gene promoter with differential ligand responses and transcription factor interactions could inform studies on transcriptional control mechanisms and potential therapeutic targeting of GQs in cancer. The work may also interest those studying REX1 function in pluripotency and metastasis.
+- **Major strengths** The abstract reports a novel genomic location for a G-quadruplex in the REX1 promoter, which has not been previously described. The combination of biophysical, biochemical, and computational approaches is appropriate for characterizing GQ structure and dynamics. The use of BG4 antibody-based ChIP to confirm endogenous GQ formation adds credibility to the claim of in vivo relevance. The identification of specific transcription factors interacting with the GQ region provides a mechanistic angle that could be valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that TMPyP4 destabilizes and BRACO-19 stabilizes the R1mut2 GQ, and that this "distinctive drug interactivity suggests the in cellulo R1WT to be a promising drug target."
+  - **Evidence pointer** Abstract, drug interaction section; location not provided
+  - **Concern** The abstract reports differential effects of two ligands on GQ stability but provides no quantitative data, such as melting temperatures, binding affinities, or dose-response curves. The claim that differential ligand responses make R1WT a "promising drug target" is speculative without evidence of selectivity over other GQs or functional consequences in cells.
+  - **Why it matters** Differential ligand effects on a monomeric GQ construct in vitro do not establish drug target potential. Without selectivity data, cellular activity, or functional readouts, the therapeutic relevance cannot be assessed. The extrapolation from a mutated monomeric form to the endogenous wild-type sequence is also not justified in the abstract.
+  - **Resolution test** Provide quantitative biophysical data (e.g., ΔTm values, Kd values) for both ligands, demonstrate selectivity against other GQ-forming sequences, and show cellular effects of ligand treatment on REX1 expression or promoter activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "the endogenous existence of R1WT was confirmed by BG4 antibody derived chromatin immunoprecipitation experiment."
+  - **Evidence pointer** Abstract, BG4 ChIP section; location not provided
+  - **Concern** The abstract states endogenous GQ existence was confirmed by BG4 ChIP but provides no details on the experimental design, including whether the ChIP was performed with appropriate negative controls, whether the signal was enriched specifically at the REX1 promoter relative to other loci, or whether the BG4 antibody was validated for ChIP under the conditions used. The term "confirmed" is strong given the absence of any quantitative enrichment data.
+  - **Why it matters** BG4 ChIP is a specialized technique with known challenges regarding specificity and background. Without evidence of enrichment over controls and demonstration that the signal is GQ-dependent (e.g., loss of signal upon GQ disruption), the claim of endogenous existence is not established.
+  - **Resolution test** Show ChIP-qPCR data with enrichment values relative to negative control regions, include a GQ-disrupting mutant or ligand competition control, and provide BG4 validation data for ChIP applications.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract concludes that R1WT "controls promoter DNA relaxation with the coordinated interaction of transcription factors, the deregulation of which seeds stemness characteristic in cancer cells for further metastatic progression."
+  - **Evidence pointer** Abstract, concluding section; location not provided
+  - **Concern** The abstract presents a causal model linking R1WT to promoter DNA relaxation, transcription factor coordination, and cancer stemness without providing any functional data. No experiments are described that manipulate R1WT (e.g., mutation, knockdown, ligand treatment) and measure effects on REX1 expression, promoter activity, DNA topology, or cellular phenotypes such as stemness or metastasis.
+  - **Why it matters** The proposed model is the central scientific claim of the work. Without functional evidence, the model remains speculative. The leap from in vitro GQ characterization and binding studies to a role in metastatic progression is not supported by the abstract.
+  - **Resolution test** Provide functional assays showing that disruption of R1WT alters REX1 promoter activity or expression, that transcription factor binding is functionally relevant, and that these changes correlate with stemness or metastatic phenotypes in cellular models.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "the flexibility of R1WT between folded and unfolded states, obtained from experimental and computational analysis strongly suggests R1WT to be an important gene regulatory element in the genome."
+  - **Evidence pointer** Abstract, flexibility section; location not provided
+  - **Concern** The abstract mentions experimental and computational analysis of GQ flexibility but provides no details on the methods used, the timescales probed, or the quantitative measures of flexibility. The inference from conformational flexibility to regulatory importance is not logically necessary and requires additional context.
+  - **Why it matters** Conformational dynamics are common among GQs and do not by themselves establish regulatory function. The claim of importance as a gene regulatory element needs to be tied to functional evidence rather than inferred from biophysical properties alone.
+  - **Resolution test** Provide specific data on the flexibility measurements (e.g., single-molecule FRET, NMR dynamics, MD simulations) and connect these to functional outcomes through mutational or cellular assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract, overall text; location not provided
+  - **Issue** The abstract uses terms such as "flexile," "in cellulo," and "diphosphatase" without definition or context. The term "flexile" is unusual and may be a typographical variant of "flexible."
+  - **Required correction** Define or replace nonstandard terms. Use "flexible" instead of "flexile" and provide brief context for specialized terms such as "in cellulo" and "diphosphatase."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Transcription factor binding claims
+  - **Evidence pointer** Abstract, transcription factor section; location not provided
+  - **Issue** The abstract lists four transcription factors (Sp1, NM23-H2, CNBP, hnRNPK) that interact with R1WT and states that NCL binding was low. No information is provided on how these interactions were identified or quantified.
+  - **Required Correction** Specify the methods used to identify and quantify transcription factor binding (e.g., EMSA, pull-down, ChIP) and provide quantitative comparisons, including the basis for the "low" NCL binding claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract, introduction and conclusion; location not provided
+  - **Issue** The abstract does not place the finding in the context of existing G-quadruplex literature in promoter regions or discuss how R1WT compares to other known promoter GQs.
+  - **Required Correction** Add brief context on known promoter GQs and their regulatory roles to help readers assess the novelty and significance of the REX1 GQ.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (drug interaction data not quantified), R1-M2 (BG4 ChIP validation and controls not described), R1-M3 (no functional evidence for the proposed regulatory model), R1-M4 (flexibility data not detailed and relevance not established)
+- **Assessment against Nature-style criteria** Originality: The identification of a GQ in the REX1 promoter appears novel, but the abstract does not demonstrate how this advances beyond existing promoter GQ studies. Scientific importance: The potential link to stemness and metastasis is interesting but not supported by functional data in the abstract. Interdisciplinary readership: The work could appeal to biophysicists, molecular biologists, and cancer researchers, but the abstract is too specialized and lacks context for broad appeal. Technical soundness: The described methods are appropriate in principle, but the abstract lacks the quantitative and control data needed to assess rigor. Readability for nonspecialists: The abstract uses jargon without explanation and does not provide sufficient background, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting hypothesis, but the key claims regarding drug target potential, endogenous GQ existence, transcription factor interactions, and functional consequences cannot be evaluated or supported from the supplied material. Substantial additional data, particularly functional experiments, are required before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that R1WT is a "promising drug target" is unsupported without selectivity and cellular activity data.
+- The claim that endogenous R1WT existence was "confirmed" by BG4 ChIP is unsupported without control and validation details.
+- The claim that R1WT "controls promoter DNA relaxation" is unsupported by any functional evidence in the abstract.
+- The claim that deregulation of R1WT "seeds stemness characteristic in cancer cells for further metastatic progression" is unsupported and speculative.
+- The claim that R1WT is "an important gene regulatory element in the genome" is an overinterpretation of biophysical flexibility data.
+- The differential binding of four transcription factors and low NCL binding cannot be assessed without methodological and quantitative details.

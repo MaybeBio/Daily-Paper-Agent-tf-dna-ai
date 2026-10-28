@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, and supplementary statements) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the presented methodology, experimental design, results, and claims. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose Hybrid_DBP, a predictor for DNA-binding proteins (DBP) using hybrid features (MonoDiKGap and Kmer) with MRMD2.0 dimensionality reduction and a convolutional neural network (CNN) classifier. They report 94% accuracy on validation and 91.2% accuracy on an independent test set (PDB186), claiming superiority over previous methods.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1–2.5), Results (Sections 3.1–3.6), Conclusion, Data availability, Author contributions, Funding, Conflict of interest, Publisher’s note. Figures and tables referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–5 and Tables 1–2 are referenced but not included. No hyperparameter details, training/validation split specifics, cross-validation strategy, or code availability. No statistical significance tests or confidence intervals reported.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant bioinformatics problem with a plausible hybrid feature approach. However, the evidence provided is insufficient to establish the claimed performance or generalizability. Critical methodological details are missing, and the results section contains inconsistencies and unsupported statements. The work may have merit but requires substantial revision and additional experiments to substantiate the claims.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-binding protein identification, and application of deep learning to biological sequence analysis. The hybrid feature approach could be of interest to those seeking to improve predictive performance in similar classification tasks.
+- **Major strengths** The problem is well-motivated and practically relevant. The combination of multiple feature types (sequence composition and evolutionary information) is a reasonable strategy. The use of an independent test set for generalization assessment is appropriate. The comparison with multiple classifiers and previous methods is a useful contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that combining MonoDiKGap and Kmer features with MRMD2.0 and CNN yields 94% accuracy on validation and 91.2% on the independent test set.
+  - **Evidence pointer** Section 3.3, Table 1 (not provided); Section 3.4, Figure 4 (not provided)
+  - **Concern** The reported results cannot be verified without the actual figures and tables. More critically, the manuscript does not describe the training/validation split procedure, cross-validation strategy, or hyperparameter tuning. The validation accuracy of 94% is reported without confidence intervals or statistical significance testing. The independent test set results are presented without error bars or comparison of variance across runs.
+  - **Why it matters** Without these details, the robustness and reproducibility of the reported performance cannot be assessed. The claims of superiority over previous methods are not supported by statistical evidence.
+  - **Resolution test** Provide the missing figures and tables, describe the exact data partitioning (e.g., k-fold cross-validation, random seed), report mean and standard deviation across multiple runs, and include statistical tests (e.g., McNemar's test) for comparison with baseline methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "monoTriKGap outperformed better than other two feature selection methods" (Section 3.1), but the method described in the Introduction and Methods is "MonoDiKGap". The naming is inconsistent throughout.
+  - **Evidence pointer** Section 1, Section 2.2.1, Section 3.1, Section 3.3, Section 3.6
+  - **Concern** The manuscript uses "MonoDiKGap" and "monoTriKGap" interchangeably, which is confusing and suggests a potential error. The feature dimension and composition of the final model are unclear. If the final model uses MonoDiKGap, the comparison in Section 3.1 should be consistent. If monoTriKGap is a different method, it is not defined.
+  - **Why it matters** Inconsistent terminology undermines the clarity and reproducibility of the method. Readers cannot determine which feature set was actually used in the final model.
+  - **Resolution test** Clarify the terminology throughout, define all feature methods precisely, and ensure the final model description matches the reported results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the CNN architecture with three convolutional layers (kernel sizes 10, 5, 5; filter numbers 256, 128, 64) is effective, but no justification or ablation study is provided.
+  - **Evidence pointer** Section 2.4, Section 3.1
+  - **Concern** The choice of CNN architecture is not justified. No experiments are shown to demonstrate that this specific architecture is optimal or even appropriate for the input feature vectors. The input dimensionality after MRMD2.0 reduction is not stated, making it impossible to assess whether the architecture is suitable.
+  - **Why it matters** Without architecture justification or ablation studies, the contribution of the CNN component to the overall performance is unclear. The method may work for reasons unrelated to the neural network design.
+  - **Resolution test** Provide a rationale for the architecture, report the input feature dimension, and include ablation experiments (e.g., varying depth, kernel sizes, or comparing with simpler classifiers on the same features).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that "the model developed in this paper was extremely useful for identifying DBP" (Section 3.4) and that it outperforms previous methods (Section 3.6).
+  - **Evidence pointer** Section 3.4, Section 3.6, Table 2 (not provided)
+  - **Concern** The comparison with previous methods in Table 2 is not provided, so the claimed improvements cannot be evaluated. The manuscript does not discuss potential limitations of the dataset (e.g., sequence redundancy, homology bias) or the generalizability to other organisms or protein families.
+  - **Why it matters** The scientific contribution depends on demonstrating meaningful improvement over existing methods and understanding the scope of applicability. Without this, the novelty and importance of the work are not established.
+  - **Resolution test** Provide Table 2 with full details of previous methods and their performance, discuss dataset limitations, and include external validation on independent datasets beyond PDB186.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract states "94% of DBP were correctly recognized" without specifying whether this is accuracy, sensitivity, or another metric. The introduction contains grammatical errors and awkward phrasing (e.g., "The limitation of identifying DNA-binding protein members from the sequence database is time-consuming, costly, and ineffective").
+  - **Required correction** Clarify the metric in the abstract and revise the introduction for clarity and grammatical correctness.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2.1
+  - **Evidence pointer** Section 2.2.1, Eq. 1
+  - **Issue** The notation in Eq. 1 is unclear. The subscript "k1" and "k2" are used, but the text refers to KGap=1 and KGap=2. The total feature count of 16,000 is stated, but the derivation is not explained.
+  - **Required correction** Clarify the notation and explain how the 16,000 features are derived from the MonoDiKGap method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2.2
+  - **Evidence pointer** Section 2.2.2, Eq. 2
+  - **Issue** The CC-PSSM formula is presented without defining the range of i1 and i2, and the resulting vector length of 760 is not derived.
+  - **Required correction** Define all variables and explain how the 760-dimensional vector is obtained.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The dataset is described as obtained from Liu et al. (2014), but the exact accession numbers, version, or download date are not provided. The GitHub link is mentioned but not verified.
+  - **Required correction** Provide the exact dataset version and accession details, and ensure the GitHub repository is publicly accessible.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Section 3.5, Figure 5 (not provided)
+  - **Issue** The comparison of classifiers reports AUC and PRC values but does not specify whether these are from the validation or test set, nor the number of runs.
+  - **Required correction** Specify the evaluation protocol and report variability across runs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing experimental details and statistical support), R1-M2 (inconsistent terminology), R1-M3 (unjustified architecture), R1-M4 (incomplete comparison and lack of external validation).
+- **Assessment against Nature-style criteria** Originality: Moderate. The hybrid feature approach is not entirely novel, as similar strategies exist in the literature. Scientific importance: Not yet established. The claimed improvements are not verifiable from the provided evidence. Interdisciplinary readership: The topic is relevant to bioinformatics and computational biology, but the presentation is not accessible to a broader audience due to unclear methodology. Technical soundness: Insufficient. Missing details on data splitting, hyperparameters, and statistical testing prevent assessment of robustness. Readability for nonspecialists: Poor. The manuscript contains grammatical errors, inconsistent terminology, and lacks clear explanations of key steps.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions, including full experimental details, consistent terminology, statistical validation, and external validation, before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim of 94% validation accuracy and 91.2% independent test accuracy is unsupported without the referenced figures and tables.
+- The claim that "monoTriKGap outperformed better than other two feature selection methods" is unsupported due to inconsistent terminology and missing results.
+- The claim that the CNN architecture is effective is unsupported without justification or ablation studies.
+- The claim of superiority over previous methods (Section 3.6) is unsupported without Table 2.
+- The statement that the model is "extremely useful for identifying DBP" is an overstatement not supported by the evidence provided.

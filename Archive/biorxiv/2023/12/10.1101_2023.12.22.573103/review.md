@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary figure legends
+- **Assessment boundary** Technical soundness, methodological novelty, validation strength, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors present LigandMPNN, a deep learning method for protein sequence design that explicitly models non-protein atoms (small molecules, nucleotides, metals). They claim significant improvements over Rosetta and ProteinMPNN in native sequence recovery near ligands, and demonstrate experimental validation for small molecule and DNA-binding protein designs.
+- **Visible evidence base** Abstract, main text, methods section, supplementary figure legends (S1-S5), and reference lists
+- **Missing materials affecting confidence** Actual figures and supplementary data files, detailed experimental protocols, raw sequence recovery data, statistical significance tests, and code implementation details
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially impactful extension of the ProteinMPNN architecture to explicitly incorporate non-protein atomic context. The methodological approach is logical and the reported performance improvements are substantial. However, several technical details and validation aspects require clarification and additional evidence to fully establish the claims.
+- **Who would be interested in the results, and why** Researchers in computational protein design, enzyme engineering, and synthetic biology would find this work highly relevant. The ability to design sequences in the context of small molecules, nucleotides, and metals addresses a critical gap in current deep learning-based design methods. The method's speed and ease of use compared to Rosetta could make it widely adopted.
+- **Major strengths** The extension of a proven architecture (ProteinMPNN) to handle non-protein atoms is a natural and important advance. The reported performance gains over both Rosetta and ProteinMPNN are substantial and consistent across different ligand types. The inclusion of side-chain packing prediction within the same framework is a valuable addition. The experimental validation, while limited in detail, demonstrates real-world utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "LigandMPNN significantly outperforms Rosetta and ProteinMPNN on native backbone sequence recovery for residues interacting with small molecules (63.3% vs. 50.4% & 50.5%), nucleotides (50.5% vs. 35.2% & 34.0%), and metals (77.5% vs. 36.0% & 40.6%)."
+  - **Evidence pointer** Figure 2A, location not provided
+  - **Concern** The reported sequence recovery improvements are presented as median values, but no statistical significance testing is described. The variance across the test set proteins is not quantified, and it is unclear whether the improvements are consistent or driven by a subset of proteins. Additionally, the comparison with Rosetta uses a specific energy function (genpot), and it is unclear if this is the optimal Rosetta protocol for these ligand types.
+  - **Why it matters** Without statistical rigor, the claimed "significant" improvements cannot be properly evaluated. The choice of Rosetta protocol could bias the comparison, and the lack of variance reporting prevents assessment of robustness.
+  - **Resolution test** Provide per-protein recovery distributions, statistical tests (e.g., paired Wilcoxon signed-rank test), and details on Rosetta protocol optimization for each ligand type.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation strength
+  - **Claim pointer** "Experimental characterization demonstrates that LigandMPNN generates small molecule and DNA-binding proteins with high affinity and specificity."
+  - **Evidence pointer** Main text "Experimental validation" section, location not provided
+  - **Concern** The experimental validation section is extremely brief. Only two examples are mentioned (rocuronium and cholic acid binders), with no quantitative binding data, specificity measurements, or comparison to controls. The claim of "high affinity and specificity" is not supported by any presented data. The reference to "more than 100 protein-DNA binding interfaces and protein-small molecule binding interfaces" is made in the Discussion but not detailed.
+  - **Why it matters** The experimental validation is crucial for establishing real-world utility. Without quantitative data, the claim of "high affinity and specificity" is unsubstantiated, and the reader cannot assess the practical value of the method.
+  - **Resolution test** Provide binding affinity measurements (e.g., Kd values), specificity data (e.g., binding to off-targets), and details on the experimental protocols. If the full dataset is too large, provide representative examples with clear quantification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We trained a sidechain packing neural network using the basic LigandMPNN architecture to predict the four side-chain torsion angles for each residue given a protein backbone and amino acid sequence inputs."
+  - **Evidence pointer** Main text, "Materials and Methods" section, location not provided
+  - **Concern** The side-chain packing model is described but its performance is only briefly compared to Rosetta and ProteinMPNN in terms of chi1 fraction recovery. No comparison to established side-chain packing tools (e.g., Rosetta packer, SCWRL) is provided, and the practical utility of the predicted side-chain conformations is not demonstrated beyond the recovery metric.
+  - **Why it matters** The side-chain packing capability is presented as a key feature, but its accuracy and utility relative to existing methods are not established. This limits the assessment of its added value.
+  - **Resolution test** Provide a more comprehensive comparison of side-chain prediction accuracy, including RMSD distributions and comparison to established tools. Demonstrate utility in a design scenario where side-chain prediction is critical.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "We are making the code available at https://github.com/dauparas/LigandMPNN"
+  - **Evidence pointer** Main text, "Data and materials availability" section, location not provided
+  - **Concern** While code availability is stated, no details on the specific implementation, dependencies, or usage instructions are provided in the manuscript. The training data preparation pipeline, particularly the handling of non-protein atoms and the construction of ligand graphs, is not fully specified.
+  - **Why it matters** Reproducibility is a cornerstone of scientific progress. Without clear implementation details, other researchers may struggle to replicate or build upon this work.
+  - **Resolution test** Provide a detailed description of the implementation, including hyperparameters, data preprocessing steps, and any custom modifications to the ProteinMPNN architecture. Consider including a link to a documented code repository with usage examples.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 description
+  - **Evidence pointer** Main text, location not provided
+  - **Issue** The description of the ligand graph construction is somewhat unclear. The phrase "fully connected ligand graph for each protein residue with its nearest neighbor ligand atoms as nodes" could be interpreted in multiple ways.
+  - **Required correction** Clarify whether the ligand graph is constructed per-residue or globally, and specify the exact connectivity pattern.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Ablation studies
+  - **Evidence pointer** Supplementary Figure S1, location not provided
+  - **Issue** The ablation studies are only described in the supplementary materials. The main text mentions the results but does not provide sufficient context for the reader to understand the significance of each ablation.
+  - **Required correction** Briefly summarize the key ablation findings in the main text, particularly the impact of removing ligand graphs and chemical element types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Sequence recovery comparisons
+  - **Evidence pointer** Figure 2, location not provided
+  - **Issue** The manuscript reports median sequence recoveries but does not provide confidence intervals or other measures of uncertainty.
+  - **Required correction** Include confidence intervals or interquartile ranges for the reported median values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Main text "Discussion" section, location not provided
+  - **Issue** The Discussion does not address potential limitations of the method, such as performance on ligands with unusual chemistry or the impact of ligand flexibility.
+  - **Required correction** Add a brief discussion of known limitations and potential avenues for future improvement.
+
+## Risk / unsupported claims
+- The claim of "high affinity and specificity" in experimental validation is not supported by any quantitative data presented in the manuscript.
+- The statement that "more than 100 protein-DNA binding interfaces and protein-small molecule binding interfaces designed using LigandMPNN have been experimentally demonstrated to bind to their targets" is made without providing details or references to these experiments.
+- The claim that LigandMPNN "significantly outperforms" Rosetta and ProteinMPNN lacks statistical testing to support the use of "significantly."
+- The side-chain packing model's performance is not compared to established tools, making its claimed utility difficult to assess.
+- The generalizability of the method to ligands with chemistries not well represented in the PDB is not discussed, despite the authors noting this as a potential concern in the Discussion.

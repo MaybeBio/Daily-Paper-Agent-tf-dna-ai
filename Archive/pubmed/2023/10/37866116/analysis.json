@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37866116",
+  "title": "Protein-DNA interface hotspots prediction based on fusion features of embeddings of protein language model and handcrafted features.",
+  "authors": "Li, Xiang; Wang, Gang-Ao; Wei, Zhuoyu; Wang, Hong; Zhu, Xiaolei",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2023-10-23",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文利用蛋白质语言模型嵌入与手工特征融合，预测蛋白-DNA界面热点残基，属于TF-DNA互作界面关键位点识别，方法为AI建模，高度契合本课题。",
+  "abstract": "The identification of hotspot residues at the protein-DNA binding interfaces plays a crucial role in various aspects such as drug discovery and disease treatment. Although experimental methods such as alanine scanning mutagenesis have been developed to determine the hotspot residues on protein-DNA interfaces, they are both inefficient and costly. Therefore, it is highly necessary to develop efficient and accurate computational methods for predicting hotspot residues. Several computational methods have been developed, however, they are mainly based on hand-crafted features which may not be able to represent all the information of proteins. In this regard, we propose a model called PDH-EH, which utilizes fused features of embeddings extracted from a protein language model (PLM) and handcrafted features. After we extracted the total 1141 dimensional features, we used mRMR to select the optimal feature subset. Based on the optimal feature subset, several different learning algorithms such as Random Forest, Support Vector Machine, and XGBoost were used to build the models. The cross-validation results on the training dataset show that the model built by using Random Forest achieves the highest AUROC. Further evaluation on the independent test set shows that our model outperforms the existing state-of-the-art models. Moreover, the effectiveness and interpretability of embeddings extracted from PLM were demonstrated in our analysis. The codes and datasets used in this study are available at: https://github.com/lixiangli01/PDH-EH.",
+  "abstract_zh": "蛋白-DNA结合界面上热点残基的识别在药物发现和疾病治疗等多个方面发挥着关键作用。尽管已开发出如丙氨酸扫描诱变等实验方法来确定蛋白-DNA界面上的热点残基，但这些方法既低效又昂贵。因此，开发高效且准确的计算方法来预测热点残基显得非常必要。已有多种计算方法被开发出来，然而它们主要基于手工设计的特征，这可能无法完全代表蛋白质的所有信息。鉴于此，我们提出了一种名为PDH-EH的模型，该模型利用了从蛋白质语言模型（PLM）中提取的嵌入特征与手工设计特征的融合特征。在提取了总计1141维特征后，我们使用mRMR方法选择最优特征子集。基于该最优特征子集，我们采用了多种不同的学习算法，如随机森林、支持向量机和XGBoost来构建模型。训练数据集上的交叉验证结果表明，使用随机森林构建的模型达到了最高的AUROC值。在独立测试集上的进一步评估显示，我们的模型优于现有的最先进模型。此外，我们的分析还证明了从PLM中提取的嵌入特征的有效性和可解释性。本研究所使用的代码和数据集可在以下网址获取：https://github.com/lixiangli01/PDH-EH。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37866116/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37866116/",
+  "paper_page_path": "papers/pubmed/37866116/index.html"
+}

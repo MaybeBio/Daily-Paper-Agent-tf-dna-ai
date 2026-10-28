@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "37357985",
+    "doi": "10.1093/bfgp/elad024",
+    "title": "Prediction of strand-specific and cell-type-specific G-quadruplexes based on high-resolution CUT&Tag data."
+  },
+  "content": {
+    "abstract": "G-quadruplex (G4), a non-classical deoxyribonucleic acid structure, is widely distributed in the genome and involved in various biological processes. In vivo, high-throughput sequencing has indicated that G4s are significantly enriched at functional regions in a cell-type-specific manner. Therefore, the prediction of G4s based on computational methods is necessary instead of the time-consuming and laborious experimental methods. Recently, G4 CUT&Tag has been developed to generate higher-resolution sequencing data than ChIP-seq, which provides more accurate training samples for model construction. In this paper, we present a new dataset construction method based on G4 CUT&Tag sequencing data and an XGBoost prediction model based on the machine learning boost method. The results show that our model performs well within and across cell types. Furthermore, sequence analysis indicates that the formation of G4 structure is greatly affected by the flanking sequences, and the GC content of the G4 flanking sequences is higher than non-G4. Moreover, we also identified G4 motifs in the high-resolution dataset, among which we found several motifs for known transcription factors (TFs), such as SP2 and BPC. These TFs may directly or indirectly affect the formation of the G4 structure.",
+    "keywords": [
+      "CUT&Tag",
+      "DNA sequence",
+      "G-quadruplex",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*G-Quadruplexes",
+      "Humans",
+      "Machine Learning",
+      "High-Throughput Nucleotide Sequencing/methods",
+      "Transcription Factors/metabolism/genetics",
+      "Computational Biology/methods",
+      "Base Composition/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Yizhi",
+        "Liu, Hongzhi",
+        "Ming, Yutong",
+        "Zhang, Zheng",
+        "Liu, Li",
+        "Liu, Ruijun"
+      ],
+      "short_names": [
+        "Cui Y",
+        "Liu H",
+        "Ming Y",
+        "Zhang Z",
+        "Liu L",
+        "Liu R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0535-4361"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Beijing Technology and Business University, Beijing, 100048, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, 324003, Zhejiang, China.",
+        "School of Computer Science and Engineering, Beijing Technology and Business University, Beijing, 100048, China.",
+        "School of Computer Science and Engineering, Beijing Technology and Business University, Beijing, 100048, China.",
+        "Department of Computer Science and Software Engineering, Auburn University, Auburn, 36830, Alabama, USA.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, 324003, Zhejiang, China.",
+        "School of Computer Science and Engineering, Beijing Technology and Business University, Beijing, 100048, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Yizhi",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Beijing Technology and Business University, Beijing, 100048, China.",
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, 324003, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongzhi",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Beijing Technology and Business University, Beijing, 100048, China."
+        ]
+      },
+      {
+        "full_name": "Ming, Yutong",
+        "short_name": "Ming Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Beijing Technology and Business University, Beijing, 100048, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zheng",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Software Engineering, Auburn University, Auburn, 36830, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0003-0535-4361"
+        ],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, 324003, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ruijun",
+        "short_name": "Liu R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Beijing Technology and Business University, Beijing, 100048, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in functional genomics"
+    ],
+    "journal_abbrev": [
+      "Brief Funct Genomics"
+    ],
+    "pub_date": "2024 May 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/26 13:07",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "42194040",
+      "40467867",
+      "39414858"
+    ],
+    "refs": [],
+    "similar": [
+      "37357985",
+      "40682824",
+      "34383754",
+      "39818384",
+      "29109402",
+      "39414858",
+      "40945842",
+      "34040612",
+      "26192317",
+      "34400476",
+      "37389723",
+      "34792172",
+      "36282946",
+      "40646558",
+      "38521585",
+      "37953924",
+      "41097033",
+      "37438149",
+      "39419074",
+      "39941033",
+      "37094040",
+      "29470465",
+      "35717172",
+      "29449667",
+      "34650044",
+      "36739600",
+      "34880271",
+      "37743888",
+      "33347280",
+      "32295768",
+      "25471935",
+      "38484151",
+      "36830661",
+      "41153448",
+      "41392711",
+      "32313204",
+      "36791413",
+      "32898859",
+      "41020615",
+      "31754698",
+      "41345408",
+      "34162892",
+      "40725120",
+      "33872156",
+      "35955535",
+      "32454109",
+      "27618450",
+      "23326389",
+      "36116264",
+      "39256800",
+      "36636928",
+      "19617376",
+      "20676380",
+      "36522639",
+      "41240428",
+      "31067825",
+      "38005893",
+      "33193663",
+      "39386625",
+      "26200754",
+      "38417105",
+      "25527104",
+      "39041320",
+      "41360274",
+      "30892612",
+      "36964238",
+      "19958507",
+      "37572578",
+      "36630443",
+      "36897885",
+      "38203805",
+      "40884402",
+      "36662540",
+      "32183702",
+      "37528048",
+      "40527376",
+      "35934478",
+      "39608571",
+      "32404420",
+      "33524709",
+      "34664713",
+      "31444763",
+      "33671470",
+      "40571221",
+      "30265731",
+      "36980918",
+      "29269411",
+      "34875077",
+      "37427784",
+      "36453997",
+      "33706790",
+      "26427557",
+      "35092818",
+      "39142279",
+      "30923812",
+      "40542407",
+      "31088636",
+      "38136947",
+      "35055110",
+      "38693737"
+    ],
+    "review": [
+      "37357985",
+      "39818384",
+      "37438149",
+      "32313204",
+      "32898859",
+      "31754698",
+      "36636928",
+      "41240428",
+      "38005893",
+      "37572578",
+      "33524709"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37357985.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bfg/article-lookup/doi/10.1093/bfgp/elad024",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

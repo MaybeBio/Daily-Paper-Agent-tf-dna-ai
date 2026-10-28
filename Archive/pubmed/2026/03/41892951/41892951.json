@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "41892951",
+    "doi": "10.3390/md24030092",
+    "title": "Crude Venom from Sea Anemone Macrodactyla doreensis Suppresses Glioblastoma via the p53 Pathway."
+  },
+  "content": {
+    "abstract": "Glioblastoma is a highly invasive primary brain tumor with a poor prognosis, highlighting the need for new therapeutic strategies. Toxins derived from Macrodactyla doreensis have attracted attention for their potential anticancer activity. This study evaluated the anticancer and cytotoxic effects of M. doreensis crude venom on two commonly used glioblastoma cell lines (U251 and LN229), which mirror the phenotype of primary tumors. Cell viability and proliferation were assessed using the CCK-8 assay and colony formation assay, while cell migration and invasion capabilities were detected via wound healing assay and Transwell assay. Annexin V/PI staining and PI-based cell cycle analysis indicated that the crude venom significantly induced cell apoptosis and caused S-phase arrest. Proteomic analysis combined with GO and KEGG enrichment analyses as well as bioinformatics approaches showed that M. doreensis crude venom inhibits glioblastoma cell proliferation by downregulating the expression of CDK2, RRM2, and CHEK1, thereby hindering cell cycle progression and regulating the p53 signaling pathway. Notably, the downregulation of these key glioblastoma-related target genes was validated by qPCR. In addition, network pharmacology analysis indicated that several peptide families present in the sea anemone crude venom, including ShK peptides, inhibitor cystine knot (ICK) peptides, and EGF-like peptides, exhibit notable antitumor potential. Combined with AlphaFold2-based structural modeling and molecular docking, these analyses further elucidated the potential molecular mechanisms underlying their interactions with key targets, such as MD-381 with RRM2, MD-322 with CDK2, and MD-429 with CHEK1. Collectively, these findings highlight the therapeutic potential of M. doreensis crude venom and lay a foundation for the subsequent isolation of novel peptides and their further development in glioblastoma treatment.",
+    "keywords": [
+      "Macrodactyla doreensis",
+      "antiglioma activity",
+      "p53 signaling pathway",
+      "proteomics",
+      "sea anemones"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "Cell Line, Tumor",
+      "*Glioblastoma/drug therapy/pathology/metabolism",
+      "Cell Proliferation/drug effects",
+      "*Sea Anemones/chemistry",
+      "Signal Transduction/drug effects",
+      "*Antineoplastic Agents/pharmacology",
+      "Apoptosis/drug effects",
+      "*Cnidarian Venoms/pharmacology/chemistry",
+      "*Brain Neoplasms/drug therapy/pathology",
+      "Cell Movement/drug effects",
+      "Cell Survival/drug effects",
+      "Proteomics",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Limin",
+        "Huang, Meiling",
+        "Yang, Wanting",
+        "Hua, Ziqiang",
+        "Chen, Zhen",
+        "He, Panmin",
+        "Mao, Kailin",
+        "Cheng, Shuanghuai",
+        "Ma, Linlin",
+        "Cui, Shuaiying",
+        "Yi, Bo",
+        "Gao, Bingmiao"
+      ],
+      "short_names": [
+        "Lin L",
+        "Huang M",
+        "Yang W",
+        "Hua Z",
+        "Chen Z",
+        "He P",
+        "Mao K",
+        "Cheng S",
+        "Ma L",
+        "Cui S",
+        "Yi B",
+        "Gao B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4716-5158",
+        "ORCID: 0000-0001-9104-8517",
+        "ORCID: 0000-0003-1042-1768"
+      ],
+      "affiliations": [
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China.",
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China.",
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China.",
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China.",
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China.",
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China.",
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China.",
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China.",
+        "Institute for Biomedicine and Glycomics, School of Environment and Science, Griffith University, Nathan, QLD 4111, Australia.",
+        "Department of Medicine, Section of Hematology-Medical Oncology, Boston University Chobanian & Avedisian School of Medicine, Boston, MA 02118, USA.",
+        "Department of Pharmacy, 928th Hospital of PLA Joint Logistics Support Force, Haikou 571199, China.",
+        "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Limin",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Meiling",
+        "short_name": "Huang M",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wanting",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Ziqiang",
+        "short_name": "Hua Z",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhen",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "He, Panmin",
+        "short_name": "He P",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Kailin",
+        "short_name": "Mao K",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Shuanghuai",
+        "short_name": "Cheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Linlin",
+        "short_name": "Ma L",
+        "identifiers": [
+          "0000-0002-4716-5158"
+        ],
+        "affiliations": [
+          "Institute for Biomedicine and Glycomics, School of Environment and Science, Griffith University, Nathan, QLD 4111, Australia."
+        ]
+      },
+      {
+        "full_name": "Cui, Shuaiying",
+        "short_name": "Cui S",
+        "identifiers": [
+          "0000-0001-9104-8517"
+        ],
+        "affiliations": [
+          "Department of Medicine, Section of Hematology-Medical Oncology, Boston University Chobanian & Avedisian School of Medicine, Boston, MA 02118, USA."
+        ]
+      },
+      {
+        "full_name": "Yi, Bo",
+        "short_name": "Yi B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, 928th Hospital of PLA Joint Logistics Support Force, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Bingmiao",
+        "short_name": "Gao B",
+        "identifiers": [
+          "0000-0003-1042-1768"
+        ],
+        "affiliations": [
+          "Engineering Research Center of Tropical Medicine Innovation and Transformation of Ministry of Education, Hainan Key Laboratory for Research and Development of Tropical Herbs, International Joint Research Center of Human-Machine Intelligent Collaborative for Tumor Precision Diagnosis and Treatment of Hainan Province, School of Pharmacy, Hainan Medical University, Haikou 571199, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Marine drugs"
+    ],
+    "journal_abbrev": [
+      "Mar Drugs"
+    ],
+    "pub_date": "2026 Feb 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 17:37",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41014798",
+      "41003302",
+      "40819186",
+      "40802352",
+      "40705827",
+      "40302810",
+      "40243478",
+      "39997209",
+      "39853042",
+      "39823328",
+      "39702297",
+      "39301883",
+      "39071636",
+      "38849066",
+      "38761500",
+      "38702989",
+      "38686917",
+      "38607073",
+      "38561372",
+      "38535452",
+      "38393042",
+      "38225605",
+      "37445894",
+      "37226201",
+      "37045903",
+      "36613772",
+      "36316307",
+      "36252775",
+      "35898493",
+      "35880756",
+      "35738390",
+      "35674307",
+      "35529825",
+      "35304294",
+      "35265202",
+      "35191808",
+      "35054787",
+      "33789090",
+      "33581134",
+      "33477674",
+      "33348592",
+      "32719967",
+      "32451414",
+      "32182988",
+      "31302115",
+      "30208576",
+      "29698549",
+      "29149101",
+      "28902151",
+      "28797284",
+      "28615614",
+      "28281173",
+      "27035875",
+      "26094698",
+      "25918937",
+      "24190482",
+      "23896509",
+      "23167797",
+      "20516129",
+      "18593927",
+      "18418218",
+      "17287757",
+      "15135315",
+      "14597658",
+      "9028743"
+    ],
+    "similar": [
+      "41892951",
+      "38723526",
+      "40615101",
+      "39939015",
+      "30562758",
+      "25523932",
+      "30922391",
+      "41421082",
+      "37451151",
+      "29969452",
+      "40476323",
+      "39452877",
+      "41987738",
+      "29662304",
+      "33688998",
+      "33190170",
+      "32451414",
+      "37557938",
+      "42277880",
+      "29970196",
+      "40640878",
+      "38842135",
+      "35016881",
+      "42336026",
+      "32445778",
+      "33508300",
+      "34427888",
+      "38587542",
+      "34826438",
+      "31128995",
+      "25913706",
+      "36235222",
+      "41293954",
+      "39232721",
+      "40939916",
+      "41190352",
+      "41326907",
+      "41380825",
+      "39396175",
+      "39341126",
+      "39060768",
+      "42260484",
+      "38702989",
+      "29414809",
+      "41652630",
+      "33370709",
+      "39153914",
+      "41846012",
+      "35281458",
+      "33400072",
+      "40849803",
+      "39570470",
+      "28262948",
+      "41351348",
+      "32810491",
+      "40597639",
+      "30078202",
+      "39203027",
+      "27394418",
+      "39427522",
+      "29989652",
+      "32862615",
+      "42129454",
+      "30078005",
+      "28791366",
+      "41653375",
+      "32498425",
+      "25965832",
+      "40234687",
+      "41962187",
+      "41003302",
+      "40295613",
+      "41214713",
+      "41832498",
+      "30816477",
+      "34997858",
+      "32020219",
+      "38873643",
+      "30323558",
+      "40802352",
+      "41162525",
+      "39199428",
+      "21743969",
+      "30867411",
+      "29508248",
+      "42035373",
+      "42217519",
+      "32020210",
+      "29363722",
+      "41461674",
+      "38357946",
+      "31114156",
+      "34440745",
+      "41387379",
+      "30497066",
+      "28449039",
+      "41719100",
+      "23482671",
+      "40452077",
+      "34750208"
+    ],
+    "review": [
+      "41892951"
+    ],
+    "pmc": [
+      "13028384"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=md24030092",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41892951/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

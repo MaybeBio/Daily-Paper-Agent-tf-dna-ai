@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38495565",
+  "title": "Machine and deep learning methods for predicting 3D genome organization.",
+  "authors": "Wall, Brydon P G; Nguyen, My; Harrell, J Chuck; Dozmorov, Mikhail G",
+  "journal": "ArXiv",
+  "published_date": "2024-03-18",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述讨论用机器/深度学习方法预测3D基因组组织（如增强子-启动子互作、TAD边界），虽涉及TFBS基序特征，但核心是染色质结构而非TF-DNA结合机制，方法可迁移但对象和互作轴偏离。",
+  "abstract": "Three-Dimensional (3D) chromatin interactions, such as enhancer-promoter interactions (EPIs), loops, Topologically Associating Domains (TADs), and A/B compartments play critical roles in a wide range of cellular processes by regulating gene expression. Recent development of chromatin conformation capture technologies has enabled genome-wide profiling of various 3D structures, even with single cells. However, current catalogs of 3D structures remain incomplete and unreliable due to differences in technology, tools, and low data resolution. Machine learning methods have emerged as an alternative to obtain missing 3D interactions and/or improve resolution. Such methods frequently use genome annotation data (ChIP-seq, DNAse-seq, etc.), DNA sequencing information (k-mers, Transcription Factor Binding Site (TFBS) motifs), and other genomic properties to learn the associations between genomic features and chromatin interactions. In this review, we discuss computational tools for predicting three types of 3D interactions (EPIs, chromatin interactions, TAD boundaries) and analyze their pros and cons. We also point out obstacles of computational prediction of 3D interactions and suggest future research directions.",
+  "abstract_zh": "三维（3D）染色质相互作用，如增强子-启动子相互作用（EPIs）、环、拓扑关联结构域（TADs）及A/B区室，在调控基因表达方面对多种细胞过程起着关键作用。染色质构象捕获技术的最新发展已能够实现全基因组范围内各种3D结构的分析，甚至达到单细胞水平。然而，由于技术、工具差异及数据分辨率低，当前3D结构目录仍不完整且不可靠。机器学习方法已成为获取缺失3D相互作用和/或提高分辨率的替代方案。此类方法常利用基因组注释数据（如ChIP-seq、DNAse-seq等）、DNA测序信息（如k-mers、转录因子结合位点（TFBS）基序）及其他基因组特性，来学习基因组特征与染色质相互作用之间的关联。在本综述中，我们讨论了预测三类3D相互作用（EPIs、染色质相互作用、TAD边界）的计算工具，并分析了它们的优缺点。我们还指出了3D相互作用计算预测的障碍，并提出了未来的研究方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38495565/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38495565/",
+  "paper_page_path": "papers/pubmed/38495565/index.html"
+}

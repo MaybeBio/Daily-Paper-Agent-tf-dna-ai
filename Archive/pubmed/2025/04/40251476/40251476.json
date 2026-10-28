@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "40251476",
+    "doi": "10.1186/s12859-025-06116-1",
+    "title": "GRLGRN: graph representation-based learning to infer gene regulatory networks from single-cell RNA-seq data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: A gene regulatory network (GRN) is a graph-level representation that describes the regulatory relationships between transcription factors and target genes in cells. The reconstruction of GRNs can help investigate cellular dynamics, drug design, and metabolic systems, and the rapid development of single-cell RNA sequencing (scRNA-seq) technology provides important opportunities while posing significant challenges for reconstructing GRNs. A number of methods for inferring GRNs have been proposed in recent years based on traditional machine learning and deep learning algorithms. However, inferring the GRN from scRNA-seq data remains challenging owing to cellular heterogeneity, measurement noise, and data dropout. RESULTS: In this study, we propose a deep learning model called graph representational learning GRN (GRLGRN) to infer the latent regulatory dependencies between genes based on a prior GRN and data on the profiles of single-cell gene expressions. GRLGRN uses a graph transformer network to extract implicit links from the prior GRN, and encodes the features of genes by using both an adjacency matrix of implicit links and a matrix of the profile of gene expression. Moreover, it uses attention mechanisms to improve feature extraction, and feeds the refined gene embeddings into an output module to infer gene regulatory relationships. To evaluate the performance of GRLGRN, we compared it with prevalent models and performed ablation experiments on seven cell-line datasets with three ground-truth networks. The results showed that GRLGRN achieved the best predictions in AUROC and AUPRC on 78.6% and 80.9% of the datasets, and achieved an average improvement of 7.3% in AUROC and 30.7% in AUPRC. The interpretation discussion and the network visualization were conducted. CONCLUSIONS: The experimental results and case studies illustrate the considerable performance of GRLGRN in predicting gene interactions and provide interpretability for the prediction tasks, such as identifying hub genes in the network and uncovering implicit links.",
+    "keywords": [
+      "Gene expression data",
+      "Gene regulatory network",
+      "Graph representation learning",
+      "Implicit links"
+    ],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Gene Regulatory Networks",
+      "*RNA-Seq/methods",
+      "Algorithms",
+      "*Deep Learning",
+      "Sequence Analysis, RNA/methods",
+      "Humans",
+      "Machine Learning",
+      "Computational Biology/methods",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Kai",
+        "Li, Yulong",
+        "Liu, Fei",
+        "Luan, Xiaoli",
+        "Wang, Xinglong",
+        "Zhou, Jingwen"
+      ],
+      "short_names": [
+        "Wang K",
+        "Li Y",
+        "Liu F",
+        "Luan X",
+        "Wang X",
+        "Zhou J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+        "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+        "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+        "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+        "Key Laboratory of Industrial Biotechnology, Ministry of Education and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+        "Jiangsu Province Engineering Research Center of Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China. zhoujw1982@jiangnan.edu.cn.",
+        "Key Laboratory of Industrial Biotechnology, Ministry of Education and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China. zhoujw1982@jiangnan.edu.cn.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China. zhoujw1982@jiangnan.edu.cn.",
+        "Jiangsu Province Engineering Research Center of Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China. zhoujw1982@jiangnan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yulong",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fei",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Luan, Xiaoli",
+        "short_name": "Luan X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinglong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+          "Key Laboratory of Industrial Biotechnology, Ministry of Education and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China.",
+          "Jiangsu Province Engineering Research Center of Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingwen",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China. zhoujw1982@jiangnan.edu.cn.",
+          "Key Laboratory of Industrial Biotechnology, Ministry of Education and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China. zhoujw1982@jiangnan.edu.cn.",
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China. zhoujw1982@jiangnan.edu.cn.",
+          "Jiangsu Province Engineering Research Center of Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, 214122, Jiangsu, China. zhoujw1982@jiangnan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2025 Apr 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/19 00:56",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42093817",
+      "42061403",
+      "41883144"
+    ],
+    "refs": [
+      "39420919",
+      "38589899",
+      "38217125",
+      "37985457",
+      "37752445",
+      "37267145",
+      "37085776",
+      "37078865",
+      "37004161",
+      "36879188",
+      "36434499",
+      "35961023",
+      "35716619",
+      "35432468",
+      "35255808",
+      "34999771",
+      "34424948",
+      "33836000",
+      "33795376",
+      "33539514",
+      "33303016",
+      "32708319",
+      "32561888",
+      "32217482",
+      "31950997",
+      "31907445",
+      "31822622",
+      "31462772",
+      "31160420",
+      "30953525",
+      "30476243",
+      "30445495",
+      "29322514",
+      "23794736",
+      "20927193",
+      "20670887",
+      "19786833",
+      "19736561",
+      "9915498"
+    ],
+    "similar": [
+      "40251476",
+      "37985457",
+      "38950180",
+      "39417321",
+      "38980373",
+      "40062616",
+      "40116659",
+      "41554051",
+      "35961023",
+      "40662821",
+      "39934680",
+      "40708222",
+      "41052197",
+      "30547796",
+      "39960893",
+      "42653305",
+      "42265576",
+      "41317402",
+      "39708840",
+      "38896510",
+      "41191468",
+      "38892162",
+      "39939367",
+      "41871930",
+      "39487083",
+      "40956752",
+      "37686146",
+      "41206950",
+      "40069807",
+      "41329984",
+      "40838782",
+      "38744843",
+      "40699953",
+      "41896196",
+      "41191474",
+      "42059479",
+      "41300707",
+      "40409400",
+      "39694856",
+      "42337558",
+      "37004161",
+      "39800872",
+      "40220759",
+      "41257571",
+      "40511990",
+      "42614561",
+      "39999494",
+      "40671174",
+      "36168811",
+      "39605181",
+      "38261340",
+      "40426257",
+      "41043336",
+      "33876191",
+      "34424948",
+      "40983951",
+      "41288963",
+      "37085776",
+      "39975293",
+      "39062480",
+      "39494609",
+      "41883144",
+      "38778003",
+      "41984780",
+      "41544912",
+      "42225598",
+      "41534143",
+      "42752548",
+      "38810116",
+      "36070863",
+      "41330999",
+      "41139927",
+      "39504287",
+      "42093817",
+      "40362602",
+      "40713495",
+      "40468846",
+      "41981652",
+      "39504481",
+      "40366859",
+      "39900656",
+      "39578307",
+      "39264790",
+      "39266676",
+      "38879931",
+      "36877552",
+      "35050715",
+      "40689508",
+      "42332576",
+      "40415678",
+      "32532794",
+      "36733262",
+      "40797190",
+      "39373051",
+      "41354912",
+      "35901457",
+      "39401117",
+      "41229398",
+      "37897702",
+      "42378449"
+    ],
+    "review": [
+      "40251476",
+      "39939367"
+    ],
+    "pmc": [
+      "12008888"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06116-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40251476/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40251476",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

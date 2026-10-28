@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and logical coherence based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that spontaneous, directed loop extrusion by SMC complexes arises from the combination of broken detailed balance (ATP-driven irreversibility) and an anisotropic, geometrically constrained DNA search by the hinge domain. They support this with AFM measurements of yeast condensin hinge motion and coarse-grained simulations of loop extrusion.
+- **Visible evidence base** Text descriptions of AFM experiments (liquid HS-AFM and dry AFM), simulation methodology, and qualitative results; references to figures and supplementary material not directly visible
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, supplementary movies, and detailed numerical data; exact simulation parameters beyond those mentioned; statistical analysis details; raw AFM data and analysis scripts
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant open question in SMC biology, namely the mechanistic origin of rectified loop extrusion. The central hypothesis, that anisotropic DNA capture by the hinge combined with broken detailed balance is sufficient for directed loop growth, is conceptually appealing and potentially impactful. However, the current text provides insufficient quantitative evidence to fully evaluate the claims. The AFM data are described only qualitatively, and the simulation results lack the statistical depth needed to convincingly distinguish the proposed mechanism from alternatives. The work is likely of interest to the biophysics and chromosome biology communities, but the case would be substantially strengthened by more rigorous presentation of the experimental and computational evidence.
+- **Who would be interested in the results, and why** Researchers studying SMC complexes, loop extrusion, chromosome organization, and active matter biophysics. The proposed mechanism, if validated, would provide a general principle for how molecular machines achieve directionality on non-polar substrates, which is of broad interest to the biophysics community.
+- **Major strengths** The manuscript identifies a clear and important gap in current models of loop extrusion, namely the lack of a mechanistic explanation for rectification. The combination of AFM imaging and simulation is appropriate and complementary. The central idea, that geometric constraints on the hinge search create a spatial asymmetry that rectifies an otherwise random process, is elegant and testable. The authors also correctly emphasize that broken detailed balance alone is insufficient for directed motion, a point that is often overlooked.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that AFM reveals the hinge extends within a truncated circular sector orthogonally to the bound DNA, with a Gaussian distribution centered at 88 ± 23 degrees.
+  - **Evidence pointer** Results section, Figure 1, Supplementary Figure S1
+  - **Concern** The AFM data are described only in qualitative terms. No sample sizes, number of independent measurements, statistical tests, or details of the angle measurement methodology are provided in the text. The claim of a Gaussian distribution is stated but not supported by any visible quantitative analysis. The distinction between the liquid HS-AFM and dry AFM measurements, and how they are reconciled, is also unclear.
+  - **Why it matters** The entire simulation model is parameterized by the AFM-derived geometric constraint. If the experimental evidence for this constraint is not rigorously presented, the foundation of the computational model is weakened.
+  - **Resolution test** Provide quantitative AFM analysis, including sample sizes, angle distributions with statistical comparisons, and a clear description of how angles were measured. Show that the Gaussian fit is appropriate and that the result is reproducible across independent experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that simulations with anisotropic capture (gamma < 360 degrees) display persistently growing loops with clear rectification, while isotropic capture (gamma = 360 degrees) results in random-walk behavior.
+  - **Evidence pointer** Results section, Figures 3 and 4, Supplementary Figures S2-S7
+  - **Concern** The simulation results are described qualitatively. No quantitative metrics of rectification are defined or reported. The text mentions "root mean squared extruded length" but does not provide the actual values, error bars, or statistical comparisons between conditions. The number of replicates is stated (at least 30), but the variability across replicates is not shown. The claim that the stepping rate does not affect the behavior is not supported by any visible data.
+  - **Why it matters** The central conclusion of the paper rests on the simulation results. Without quantitative evidence, the reader cannot assess whether the observed rectification is statistically significant or robust to parameter variations.
+  - **Resolution test** Provide quantitative simulation results, including time series of loop length, distributions of step sizes, and statistical comparisons between anisotropic and isotropic conditions. Define a clear metric for rectification and report its values with error bars. Show that the results are robust to variations in stepping rate and other parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual clarity
+  - **Claim pointer** The claim that the model "covers a full ATP-cycle" and that the work done by pulling DNA into the complex is not enough for rectification.
+  - **Evidence pointer** Materials and methods, Results section
+  - **Concern** The description of the ATP cycle in the model is vague. The text states that the procedure "extracts work by manually stretching the spring" but does not explain how this relates to the biochemical ATP cycle of condensin. The claim that broken detailed balance is necessary but not sufficient is clear, but the specific role of ATP hydrolysis in the model is not well defined.
+  - **Why it matters** The title and abstract emphasize the role of broken detailed balance. If the model's implementation of this concept is not clearly explained, the conceptual contribution of the paper is diminished.
+  - **Resolution test** Clarify the relationship between the model's update rules and the biochemical states of the SMC ATPase cycle. Explain how the model breaks detailed balance and why this is distinct from simply doing mechanical work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, paragraph 3
+  - **Evidence pointer** Text
+  - **Issue** The sentence "This model includes a cycle between states of the protein that is irreversible, thus requiring ATP consumption to break detailed balance" is somewhat circular and could be clearer.
+  - **Required correction** Rephrase to more directly explain how the model's irreversibility is implemented and why it requires ATP.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, Model section
+  - **Evidence pointer** Text
+  - **Issue** The simulation parameters are not fully specified. The text mentions the number of beads, bead size, and timestep, but not the total simulation time, the equilibration protocol, or the criteria for determining steady state.
+  - **Required correction** Provide a complete list of simulation parameters and protocols to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion, "Comparison with other models"
+  - **Evidence pointer** Text
+  - **Issue** The discussion of how the proposed mechanism aligns with other models (reel-and-seal, DNA-segment capture) is brief and could be expanded to clarify the unique predictions of the proposed model.
+  - **Required correction** Expand the comparison to highlight specific, testable predictions that distinguish the proposed mechanism from alternatives.
+
+## Risk / unsupported claims
+- The claim that the AFM-measured angle distribution is Gaussian and centered at 88 ± 23 degrees is unsupported without the underlying data and statistical analysis.
+- The claim that simulations with gamma = 60 degrees produce step sizes of approximately 50 nm, "in line with that seen in experiments," is unsupported without quantitative data.
+- The claim that the proposed mechanism "may be conserved across different SMC complexes" is speculative and not directly supported by the data presented.
+- The claim that the model "covers a full ATP-cycle" is not fully supported by the methodological description.
+- The claim that the results "explain a number of other puzzling experimental observations" (in trans capture, bypassing, Z-loops) is presented without detailed argument or evidence.

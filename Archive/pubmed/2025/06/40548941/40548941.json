@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "40548941",
+    "doi": "10.1093/nar/gkaf551",
+    "title": "Building a neural network model to define DNA sequence specificity in V(D)J recombination."
+  },
+  "content": {
+    "abstract": "In developing lymphocytes, V(D)J recombination assembles functional antigen receptor (AgR) genes through rearrangement of the AgR loci to adjoin component gene segments. Each candidate gene segment for recombination is flanked by a recombination signal sequence (RSS), composed of heptamer and nonamer motifs separated by 12 or 23 base pairs. To initiate V(D)J recombination, the recombination activating proteins RAG1 and RAG2 create DNA double-stranded breaks between a 12/23-RSS pair and their adjoining gene segments. The basis for selection of individual RSSs during each V(D)J recombination event is not well understood due, in part, to the wide-spread distribution of the semi-conserved RSSs across the AgR loci. Using publicly-available data for V(D)J recombination efficiencies on randomized 12-RSSs, we first built a neural network model that delineates how changes in sequence at certain positions in the RSS affects recombination efficiency. Second, to interpret the model's decision-making process, we repurposed the game theoretic SHapley Additive exPlanations (SHAP) approach, with the results illustrating how nucleotides at pairwise positions in the heptamer provide synergistic contributions to recombination efficiency. Third, we trained a nonamer-informed neural network model with varied nonamer RSS substrates, and subsequently identified interdependent effects between the heptamer and nonamer regions on recombination efficiency.",
+    "keywords": [],
+    "mesh_terms": [
+      "*V(D)J Recombination",
+      "*Neural Networks, Computer",
+      "Homeodomain Proteins/metabolism/genetics",
+      "Base Sequence",
+      "DNA-Binding Proteins/metabolism",
+      "DNA/chemistry",
+      "Animals",
+      "Humans",
+      "Receptors, Antigen/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Harris, Justin C",
+        "Byrum, Jennifer N",
+        "McKinney, Cooper B",
+        "Fairchild, Victoria",
+        "Wu, Dee H",
+        "Fagg, Andrew H",
+        "Rodgers, Karla K"
+      ],
+      "short_names": [
+        "Harris JC",
+        "Byrum JN",
+        "McKinney CB",
+        "Fairchild V",
+        "Wu DH",
+        "Fagg AH",
+        "Rodgers KK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7338-0281"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States.",
+        "Department of Microbiology and Immunology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States.",
+        "Department of Microbiology and Immunology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States.",
+        "Department of Microbiology and Immunology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States.",
+        "Department of Radiological Sciences, University of Oklahoma Health Sciences, Oklahoma City, OK, United States 73104.",
+        "Department of Computer Science, University of Oklahoma, Norman, OK 73019, United States.",
+        "Department of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States.",
+        "Department of Microbiology and Immunology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Harris, Justin C",
+        "short_name": "Harris JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States."
+        ]
+      },
+      {
+        "full_name": "Byrum, Jennifer N",
+        "short_name": "Byrum JN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States."
+        ]
+      },
+      {
+        "full_name": "McKinney, Cooper B",
+        "short_name": "McKinney CB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States."
+        ]
+      },
+      {
+        "full_name": "Fairchild, Victoria",
+        "short_name": "Fairchild V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States."
+        ]
+      },
+      {
+        "full_name": "Wu, Dee H",
+        "short_name": "Wu DH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiological Sciences, University of Oklahoma Health Sciences, Oklahoma City, OK, United States 73104."
+        ]
+      },
+      {
+        "full_name": "Fagg, Andrew H",
+        "short_name": "Fagg AH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Oklahoma, Norman, OK 73019, United States."
+        ]
+      },
+      {
+        "full_name": "Rodgers, Karla K",
+        "short_name": "Rodgers KK",
+        "identifiers": [
+          "0000-0002-7338-0281"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States.",
+          "Department of Microbiology and Immunology, University of Oklahoma Health Sciences, Oklahoma City, OK 73104, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jun 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/24 10:56",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39633594",
+      "39560443",
+      "38811728",
+      "38578524",
+      "38463880",
+      "37983521",
+      "37854700",
+      "37779976",
+      "37479682",
+      "36798124",
+      "36370096",
+      "35573928",
+      "35573672",
+      "35169260",
+      "34977072",
+      "34245989",
+      "33077885",
+      "32449932",
+      "32097086",
+      "32076119",
+      "32015543",
+      "31075127",
+      "30565244",
+      "30476719",
+      "30061602",
+      "29628308",
+      "29204143",
+      "27825771",
+      "27477910",
+      "27264181",
+      "26548953",
+      "26477370",
+      "26477369",
+      "26234156",
+      "25831509",
+      "22434887",
+      "22064481",
+      "21854230",
+      "21599978",
+      "21149691",
+      "20728025",
+      "20478831",
+      "19524534",
+      "19304878",
+      "19233873",
+      "18768869",
+      "18033247",
+      "15242399",
+      "14662863",
+      "14551903",
+      "12537561",
+      "10567535",
+      "9465037",
+      "8636407",
+      "8330743",
+      "7963524"
+    ],
+    "similar": [
+      "40548941",
+      "36370096",
+      "41408651",
+      "26303526",
+      "19317908",
+      "30476719",
+      "37779976",
+      "26548953",
+      "21740486",
+      "12644467",
+      "14607931",
+      "10490593",
+      "9166431",
+      "10850719",
+      "14551903",
+      "26742581",
+      "27702897",
+      "8598914",
+      "23293004",
+      "9632694",
+      "9697841",
+      "22891626",
+      "32449932",
+      "10207091",
+      "25831509",
+      "10390537",
+      "9078384",
+      "12045092",
+      "11839801",
+      "9671477",
+      "38811728",
+      "16531612",
+      "9060432",
+      "12897800",
+      "27056670",
+      "9184212",
+      "20139091",
+      "32098847",
+      "9200326",
+      "19232525",
+      "24415779",
+      "25903130",
+      "10207102",
+      "40729386",
+      "14662863",
+      "9019407",
+      "15367690",
+      "34644584",
+      "31781122",
+      "9372925",
+      "11479318",
+      "21854230",
+      "10475610",
+      "9418911",
+      "11390401",
+      "23325855",
+      "15328366",
+      "12530976",
+      "25060705",
+      "9200327",
+      "10066757",
+      "10852117",
+      "10933591",
+      "8276236",
+      "27825771",
+      "32886094",
+      "11828005",
+      "12145216",
+      "12193271",
+      "31875554",
+      "18089566",
+      "9671478",
+      "8208601",
+      "19233873",
+      "15899848",
+      "30905508",
+      "18380906",
+      "17636023",
+      "15249552",
+      "12456668",
+      "10801420",
+      "27973733",
+      "8670820",
+      "22119487",
+      "19647518",
+      "9535663",
+      "32047031",
+      "39046890",
+      "26124138",
+      "11238939",
+      "10666467",
+      "14670978",
+      "29628308",
+      "26593423",
+      "8503900",
+      "18187418",
+      "26234156",
+      "15242399",
+      "18234093",
+      "11134333"
+    ],
+    "review": [
+      "40548941",
+      "30476719",
+      "37779976",
+      "12045092",
+      "9200326",
+      "21854230",
+      "25060705",
+      "9200327",
+      "10852117",
+      "10933591",
+      "27825771",
+      "27973733",
+      "15242399"
+    ],
+    "pmc": [
+      "12205992"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40548941/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf551",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

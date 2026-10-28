@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "37852600",
+    "doi": "10.1016/j.jmb.2023.168314",
+    "title": "Improving Enhancer Identification with a Multi-Classifier Stacked Ensemble Model."
+  },
+  "content": {
+    "abstract": "Enhancers are DNA regions that are responsible for controlling the expression of genes. Enhancers are usually found upstream or downstream of a gene, or even inside a gene's intron region, but are normally located at a distant location from the genes they control. By integrating experimental and computational approaches, it is possible to uncover enhancers within DNA sequences, which possess regulatory properties. Experimental techniques such as ChIP-seq and ATAC-seq can identify genomic regions that are associated with transcription factors or accessible to regulatory proteins. On the other hand, computational techniques can predict enhancers based on sequence features and epigenetic modifications. In our study, we have developed a multi-classifier stacked ensemble (MCSE-enhancer) model that can accurately identify enhancers. We utilized feature descriptors from various physiochemical properties as input for our six baseline classifiers and built a stacked classifier, which outperformed previous enhancer classification techniques in terms of accuracy, specificity, sensitivity, and Mathew's correlation coefficient. Our model achieved an accuracy of 81.5%, representing a 2-3% improvement over existing models.",
+    "keywords": [
+      "DNA sequences",
+      "bioinformatics",
+      "computational biology",
+      "enhancers",
+      "meta classification"
+    ],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "DNA/chemistry/genetics",
+      "*Enhancer Elements, Genetic",
+      "Transcription Factors/chemistry",
+      "*Sequence Analysis, DNA/methods",
+      "*Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mir, Bilal Ahmad",
+        "Rehman, Mobeen Ur",
+        "Tayara, Hilal",
+        "Chong, Kil To"
+      ],
+      "short_names": [
+        "Mir BA",
+        "Rehman MU",
+        "Tayara H",
+        "Chong KT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, South Korea. Electronic address: bilalmir93@jbnu.ac.kr.",
+        "Khalifa University Center for Autonomous Robotic Systems (KUCARS), Khalifa University, Abu Dhabi 127788, United Arab Emirates. Electronic address: cmobeenrahman@gmail.com.",
+        "School of international Engineering and Science, Jeonbuk National University, Jeonju 54896, South Korea. Electronic address: hilaltayara@jbnu.ac.kr.",
+        "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, South Korea; Advances Electronics and Information Research Center, Jeonbuk National University, Jeonju 54896, South Korea. Electronic address: kitchong@jbnu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mir, Bilal Ahmad",
+        "short_name": "Mir BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, South Korea. Electronic address: bilalmir93@jbnu.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Rehman, Mobeen Ur",
+        "short_name": "Rehman MU",
+        "identifiers": [],
+        "affiliations": [
+          "Khalifa University Center for Autonomous Robotic Systems (KUCARS), Khalifa University, Abu Dhabi 127788, United Arab Emirates. Electronic address: cmobeenrahman@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Tayara, Hilal",
+        "short_name": "Tayara H",
+        "identifiers": [],
+        "affiliations": [
+          "School of international Engineering and Science, Jeonbuk National University, Jeonju 54896, South Korea. Electronic address: hilaltayara@jbnu.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Chong, Kil To",
+        "short_name": "Chong KT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, South Korea; Advances Electronics and Information Research Center, Jeonbuk National University, Jeonju 54896, South Korea. Electronic address: kitchong@jbnu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2023 Dec 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/19 00:46",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [
+      "42079104",
+      "41593209",
+      "40778316",
+      "39438319",
+      "39275529",
+      "38139375",
+      "37998588"
+    ],
+    "refs": [],
+    "similar": [
+      "37852600",
+      "36715222",
+      "31340596",
+      "34226917",
+      "36520922",
+      "27490187",
+      "30374023",
+      "27662874",
+      "33802922",
+      "30375457",
+      "24604095",
+      "36071071",
+      "29072144",
+      "25378307",
+      "37021401",
+      "30286077",
+      "29219068",
+      "34364858",
+      "28688491",
+      "30905748",
+      "37600946",
+      "28716036",
+      "28096768",
+      "24565409",
+      "22759862",
+      "28239713",
+      "33184104",
+      "30822398",
+      "36671456",
+      "33133227",
+      "26634919",
+      "23685394",
+      "35417351",
+      "32689977",
+      "30589856",
+      "31874637",
+      "33741075",
+      "26100358",
+      "21415370",
+      "32443951",
+      "36030022",
+      "21875935",
+      "33481715",
+      "32946398",
+      "35015646",
+      "31419358",
+      "33044128",
+      "26072434",
+      "36063523",
+      "33539511",
+      "30917778",
+      "38485768",
+      "33581335",
+      "24945732",
+      "16769978",
+      "23019145",
+      "38946113",
+      "33808317",
+      "17406258",
+      "35190950",
+      "35422876",
+      "28683716",
+      "28589862",
+      "35264081",
+      "28334114",
+      "30247654",
+      "35887306",
+      "30959806",
+      "15345045",
+      "22412381",
+      "31529021",
+      "29070071",
+      "29945198",
+      "36043696",
+      "31201999",
+      "22537144",
+      "29602043",
+      "29572403",
+      "35997250",
+      "38816426",
+      "36376800",
+      "35942693",
+      "35082832",
+      "32573785",
+      "33535061",
+      "26499213",
+      "24967590",
+      "33537074",
+      "27899590",
+      "20401945",
+      "31665135",
+      "32961076",
+      "29284524",
+      "31740966",
+      "38385876",
+      "32031521",
+      "32732264",
+      "38048082",
+      "37760334",
+      "38670418",
+      "39229027",
+      "38187673",
+      "35576146",
+      "36640767",
+      "37173718",
+      "35933367",
+      "39084477"
+    ],
+    "review": [
+      "37852600",
+      "37021401",
+      "26634919",
+      "23685394",
+      "26100358",
+      "32443951",
+      "26072434",
+      "24945732",
+      "29602043",
+      "26499213",
+      "32961076",
+      "38048082"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(23)00425-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40894479",
+    "doi": "10.3389/fcvm.2025.1600321",
+    "title": "An oxidative stress-related molecular signature in atherosclerosis: identification of risk genes, construction of a diagnostic model, and characterization of immunocyte landscape."
+  },
+  "content": {
+    "abstract": "Atherosclerosis (AS), the primary cause of cardiovascular disorders and stroke, is a complex, multifactorial disease. Numerous studies have shown that oxidative stress and circadian disruption are paramount contributors to the development of AS and its complications. Nevertheless, there is no applicable related diagnostic model to assess the AS clinical risk according to patients' oxidative stress status and circadian rhythm molecular expression. This study aimed to develop an oxidative stress-circadian rhythm-related model using AS cohorts (GSE100927 and GSE43292) to explore the potential relationship between AS and oxidative stress with circadian rhythm. We screened the significant oxidative stress-circadian rhythm-related genes in AS samples by integrating two datasets by various machine learning methods. Then, we developed an oxidative stress-circadian rhythm-related diagnostic model based on six risk genes (IL1RN, CA2, PDE8B, RYR2, DPP4, TDO2) identified through LASSO regression analysis and a nomogram diagram. Calibration and decision curve analysis (DCA) showed the relevant accuracy of the risk model. Receiver operating characteristic curve (ROC) delineated the higher reliability of our model than each single risk gene diagnostic model. Then, we verified the accuracy of our model in the validation dataset (GSE27034). Latent regulatory networks (including miRNA, transcription factor, and small-molecule compound) regarding risk genes were also constructed using the ENCORO, ChIPBase, and CTD databases. We observed significantly greater immune infiltration in the high-risk group of AS samples than that in the low-risk group based on the linear predictor derived from our logistic model. Finally, we classified the AS samples into two subtypes according to the expression patterns of risk genes and, interestingly, found an obvious discrepancy in immune cell infiltration between these subtypes.",
+    "keywords": [
+      "atherosclerosis",
+      "circadian rhythm",
+      "immune infiltration",
+      "oxidative stress",
+      "risk model"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Zhile",
+        "Ling, Hong",
+        "Wei, Qiuyu",
+        "Tang, Xiukai",
+        "Zhang, Danyi",
+        "Huang, Zhaohe"
+      ],
+      "short_names": [
+        "Li Z",
+        "Ling H",
+        "Wei Q",
+        "Tang X",
+        "Zhang D",
+        "Huang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Laboratory of the Atherosclerosis and Ischemic Cardiovascular Diseases, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Laboratory of the Atherosclerosis and Ischemic Cardiovascular Diseases, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Laboratory of the Atherosclerosis and Ischemic Cardiovascular Diseases, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Zhile",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+          "Laboratory of the Atherosclerosis and Ischemic Cardiovascular Diseases, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Hong",
+        "short_name": "Ling H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of the Atherosclerosis and Ischemic Cardiovascular Diseases, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Qiuyu",
+        "short_name": "Wei Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Xiukai",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Danyi",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhaohe",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+          "Laboratory of the Atherosclerosis and Ischemic Cardiovascular Diseases, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 22:31",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38989284",
+      "38664575",
+      "38484032",
+      "38369442",
+      "38294647",
+      "38294261",
+      "37462143",
+      "37355229",
+      "37331416",
+      "37265567",
+      "37151293",
+      "37116607",
+      "36810794",
+      "36685487",
+      "36497101",
+      "35993051",
+      "35679834",
+      "35625450",
+      "35498043",
+      "35345337",
+      "35226994",
+      "35102280",
+      "35008500",
+      "34862329",
+      "34733107",
+      "34562797",
+      "34126961",
+      "34071006",
+      "33558567",
+      "33309175",
+      "33232925",
+      "32772254",
+      "32110880",
+      "31813106",
+      "31726290",
+      "31354915",
+      "30414472",
+      "30315268",
+      "30185234",
+      "28921056",
+      "28619058",
+      "28587975",
+      "28389603",
+      "28209797",
+      "27892899",
+      "27330311",
+      "27207962",
+      "26892962",
+      "26824441",
+      "24140020",
+      "23995626",
+      "23635324",
+      "23365489",
+      "22291917",
+      "22101268",
+      "21979058",
+      "21321594",
+      "17848967",
+      "16313278",
+      "15843671",
+      "12490960",
+      "10051290"
+    ],
+    "similar": [
+      "40894479",
+      "40970657",
+      "40362233",
+      "38509983",
+      "37346073",
+      "39396400",
+      "41239638",
+      "38169659",
+      "40642528",
+      "37275875",
+      "36685865",
+      "36238290",
+      "41430351",
+      "37173373",
+      "38071320",
+      "40070840",
+      "38897129",
+      "41064491",
+      "38370978",
+      "39556279",
+      "37475857",
+      "37415143",
+      "37032832",
+      "39586719",
+      "38978048",
+      "41044520",
+      "41200172",
+      "41031266",
+      "39981438",
+      "40500570",
+      "40694561",
+      "40565338",
+      "41261600",
+      "39225907",
+      "40949924",
+      "36470144",
+      "34315402",
+      "38051734",
+      "39375405",
+      "36451813",
+      "40225045",
+      "38246894",
+      "39213172",
+      "38500978",
+      "39553847",
+      "37980291",
+      "40622977",
+      "41342434",
+      "37173646",
+      "39909964",
+      "37529244",
+      "38463816",
+      "38518167",
+      "37064154",
+      "40113615",
+      "41234888",
+      "38265551",
+      "38274787",
+      "40901474",
+      "39697698",
+      "39145311",
+      "41432483",
+      "41165032",
+      "39660117",
+      "41084051",
+      "37144994",
+      "40151199",
+      "36479114",
+      "36689018",
+      "37554330",
+      "40207815",
+      "41222888",
+      "39188714",
+      "40594234",
+      "40838069",
+      "38305808",
+      "36225179",
+      "36405735",
+      "41324863",
+      "41202314",
+      "38499050",
+      "39165378",
+      "40594252",
+      "40918403",
+      "41309827",
+      "37633529",
+      "41188996",
+      "39669999",
+      "37251379",
+      "38690269",
+      "40603950",
+      "36969166",
+      "38599581",
+      "39188323",
+      "39472994",
+      "36699685",
+      "41322408",
+      "36035208",
+      "34660598",
+      "39155811"
+    ],
+    "review": [
+      "40894479",
+      "36405735"
+    ],
+    "pmc": [
+      "12392417"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40894479/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2025.1600321",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

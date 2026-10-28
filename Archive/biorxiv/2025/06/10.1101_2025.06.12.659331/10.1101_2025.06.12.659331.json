@@ -1,0 +1,286 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.12.659331",
+  "title": "Phage-Assisted Evolution of Allosteric Protein Switches",
+  "doi": "10.1101/2025.06.12.659331",
+  "abstract": "Allostery, the transmission of locally induced conformational changes to distant functional sites, is a key mechanism for protein regulation 1 . Artificial allosteric effectors enable remote manipulation of cell function 2,3 ; their engineering, however, is hampered by our limited understanding of allosteric residue networks. Here, we introduce a phage-assisted evolution 4 platform for in vivo optimization of allosteric proteins. It applies opposing selection pressures to enhance activity and switchability of phage-encoded effectors and leverages retron-based recombineering 5 to broadly explore fitness landscapes, introducing point mutations, insertions, and deletions. Applying this framework to the transcription factor AraC yielded near-binary optogenetic switches, with light-controlled activity spanning ∼1,000-fold dynamic range. Long-read sequencing across selection cycles enabled high-resolution tracking of evolving variant pools, revealing adaptive trajectories and context-dependent residue interactions. Mechanistically, we found that linker mutations promoting α-helix extension at the sensor-effector junction enhance conformational coupling between LOV2 and AraC. These variants emerged consistently across independently evolved pools, underscoring their functional relevance. Together, we developed a framework for the directed evolution of programmable allosteric switches in vivo . By coupling dynamic selection with deep mutational scanning and temporal sequencing, it enables both functional optimization and mechanistic insight into allosteric networks.",
+  "authors": [
+    "Southern NT",
+    "von Bachmann A",
+    "Hovsepyan A",
+    "Griebl M",
+    "Wolf B",
+    "Lemmen N",
+    "Kroell A",
+    "Westermann S",
+    "Mathony J",
+    "Niopek D"
+  ],
+  "published_date": "2025-06-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.12.659331",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.12.659331.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1035806",
+    "raw_record": {
+      "id": "PPR1035806",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1035806"
+        ]
+      },
+      "doi": "10.1101/2025.06.12.659331",
+      "title": "Phage-Assisted Evolution of Allosteric Protein Switches",
+      "authorString": "Southern NT, von Bachmann A, Hovsepyan A, Griebl M, Wolf B, Lemmen N, Kroell A, Westermann S, Mathony J, Niopek D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Southern NT",
+            "lastName": "Southern",
+            "firstName": "Nicholas",
+            "initials": "NT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6836-1545"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "von Bachmann A",
+            "lastName": "von Bachmann",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                },
+                {
+                  "affiliation": "Zuse School ELIZA, Darmstadt, 64289, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hovsepyan A",
+            "lastName": "Hovsepyan",
+            "firstName": "Alisa",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Griebl M",
+            "lastName": "Griebl",
+            "firstName": "Marielouise",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wolf B",
+            "lastName": "Wolf",
+            "firstName": "Benedict",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lemmen N",
+            "lastName": "Lemmen",
+            "firstName": "Nina",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kroell A",
+            "lastName": "Kroell",
+            "firstName": "Ann-Sophie",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Westermann S",
+            "lastName": "Westermann",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mathony J",
+            "lastName": "Mathony",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Niopek D",
+            "lastName": "Niopek",
+            "firstName": "Dominik",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7479-530X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacy and Molecular Biotechnology (IPMB), Faculty of Engineering Sciences, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7479-530X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6836-1545"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Allostery, the transmission of locally induced conformational changes to distant functional sites, is a key mechanism for protein regulation  1 . Artificial allosteric effectors enable remote manipulation of cell function  2,3 ; their engineering, however, is hampered by our limited understanding of allosteric residue networks. Here, we introduce a phage-assisted evolution  4 platform for  in vivo optimization of allosteric proteins. It applies opposing selection pressures to enhance activity and switchability of phage-encoded effectors and leverages retron-based recombineering  5 to broadly explore fitness landscapes, introducing point mutations, insertions, and deletions. Applying this framework to the transcription factor AraC yielded near-binary optogenetic switches, with light-controlled activity spanning ∼1,000-fold dynamic range. Long-read sequencing across selection cycles enabled high-resolution tracking of evolving variant pools, revealing adaptive trajectories and context-dependent residue interactions. Mechanistically, we found that linker mutations promoting α-helix extension at the sensor-effector junction enhance conformational coupling between LOV2 and AraC. These variants emerged consistently across independently evolved pools, underscoring their functional relevance. Together, we developed a framework for the directed evolution of programmable allosteric switches  in vivo . By coupling dynamic selection with deep mutational scanning and temporal sequencing, it enables both functional optimization and mechanistic insight into allosteric networks.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/12/2025.06.12.659331.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.12.659331"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1035806"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1035806&type=FILE&fileName=EMS206476-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41980963",
+            "reference": "Nature communications. 2026 Apr;17(1):3498",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206476",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-06-15",
+      "firstPublicationDate": "2025-06-12",
+      "firstIndexDate": "2025-06-15",
+      "fullTextReceivedDate": "2025-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

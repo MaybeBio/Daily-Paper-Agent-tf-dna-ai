@@ -1,0 +1,637 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.21.739884",
+  "title": "Bacterial RNA polymerase exemplifies a general physical mechanism for accelerating protein-DNA association",
+  "doi": "10.64898/2026.07.21.739884",
+  "abstract": "Bacterial RNA polymerases (RNAPs) have two flexibly tethered α subunit C-terminal domains (α-CTDs) that bind DNA. Interaction between α-CTDs and some promoter DNA motifs is known to accelerate transcription initiation, but the physical mechanism by which it does so is unclear. We used single-molecule multiwavelength fluorescence microscopy to test how the diffusion-limited binding kinetics of core RNAP to non-promoter DNA differ from those of mutant RNAPs that lack one or both α-CTDs. We find that even though α-CTDs and their tethers are small compared to the complete RNAP molecule, the presence of two α-CTDs accelerates DNA binding by ∼10-fold and ∼55-fold respectively relative to RNAP constructs in which one or both α-CTDs are deleted. In contrast, the presence of α-CTDs did not have a detectable effect on RNAP-DNA complex lifetimes in the absence of RNA synthesis. We explain how α-CTDs achieve the dramatic acceleration of RNAP binding to DNA using a quantitative three-state kinetic model that includes a transient binding intermediate where only the α-CTD(s) are bound to DNA, tethering the rest of the RNAP in the vicinity of DNA. The model and assumed parameters are validated using Brownian dynamics simulations of the DNA association reactions for two-, one-, or zero-CTD RNAP constructs. The combination of single-molecule experiments, mathematical theory, and simulations suggests that adding a flexible DNA-binding tether is a general physical mechanism which can accelerate the diffusion-limited binding of a large protein like RNAP to DNA and quantitatively defines the conditions under which this acceleration can occur. Significance Statement Large enzymes that must associate with DNA to perform their biological functions are expected to bind DNA only slowly because of slow enzyme diffusion. However, some DNA-binding enzymes have one or more additional small DNA-binding domains that can diffuse rapidly but are attached to the enzyme through an unstructured flexible tether. Combining single-molecule experiments, theory, and computation, we present evidence for a general mechanism by which such tethered domains can accelerate enzyme binding to DNA by orders of magnitude, while not significantly changing the duration of the DNA-bound state. We demonstrate this effect for the flexibly-tethered α-subunit C-terminal domain of bacterial RNA polymerase. The mechanism may allow the polymerase to rapidly bind DNA while minimizing non-functional sequestration on the genome.",
+  "authors": [
+    "Francis Rivera",
+    "Alex Turek",
+    "Wencheng Ji",
+    "Matt Copeland",
+    "Larry Friedman",
+    "Fiona Stewart",
+    "Johnson Chung",
+    "Ariel Amir",
+    "Jane Kondev",
+    "Jeff Gelles"
+  ],
+  "published_date": "2026-07-22",
+  "updated_date": "2026-07-23T03:45:11Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.21.739884",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.21.739884.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:03:56Z",
+        "timestamp": 1785420236991,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            22
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 44,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                22
+              ]
+            ],
+            "date-time": "2026-07-22T00:00:00Z",
+            "timestamp": 1784678400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Clore Center for Biological Physics, Weizmann Institute of Science"
+        },
+        {
+          "award": [
+            "R01 GM081648"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01 GM081648"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000893",
+          "name": "Simons Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "MPS-SIP-00687713"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MPS-SIP-00687713"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000893",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/02qenvm24",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Bacterial RNA polymerases (RNAPs) have two flexibly tethered α subunit C-terminal domains (α-CTDs) that bind DNA. Interaction between α-CTDs and some promoter DNA motifs is known to accelerate transcription initiation, but the physical mechanism by which it does so is unclear. We used single-molecule multiwavelength fluorescence microscopy to test how the diffusion-limited binding kinetics of core RNAP to non-promoter DNA differ from those of mutant RNAPs that lack one or both α-CTDs. We find that even though α-CTDs and their tethers are small compared to the complete RNAP molecule, the presence of two α-CTDs accelerates DNA binding by ∼10-fold and ∼55-fold respectively relative to RNAP constructs in which one or both α-CTDs are deleted. In contrast, the presence of α-CTDs did not have a detectable effect on RNAP-DNA complex lifetimes in the absence of RNA synthesis. We explain how α-CTDs achieve the dramatic acceleration of RNAP binding to DNA using a quantitative three-state kinetic model that includes a transient binding intermediate where only the α-CTD(s) are bound to DNA, tethering the rest of the RNAP in the vicinity of DNA. The model and assumed parameters are validated using Brownian dynamics simulations of the DNA association reactions for two-, one-, or zero-CTD RNAP constructs. The combination of single-molecule experiments, mathematical theory, and simulations suggests that adding a flexible DNA-binding tether is a general physical mechanism which can accelerate the diffusion-limited binding of a large protein like RNAP to DNA and quantitatively defines the conditions under which this acceleration can occur.</jats:p>\n                <jats:sec>\n                  <jats:title>Significance Statement</jats:title>\n                  <jats:p>Large enzymes that must associate with DNA to perform their biological functions are expected to bind DNA only slowly because of slow enzyme diffusion. However, some DNA-binding enzymes have one or more additional small DNA-binding domains that can diffuse rapidly but are attached to the enzyme through an unstructured flexible tether. Combining single-molecule experiments, theory, and computation, we present evidence for a general mechanism by which such tethered domains can accelerate enzyme binding to DNA by orders of magnitude, while not significantly changing the duration of the DNA-bound state. We demonstrate this effect for the flexibly-tethered α-subunit C-terminal domain of bacterial RNA polymerase. The mechanism may allow the polymerase to rapidly bind DNA while minimizing non-functional sequestration on the genome.</jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.07.21.739884",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T03:45:11Z",
+        "timestamp": 1784778311000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Bacterial RNA polymerase exemplifies a general physical mechanism for accelerating protein-DNA association"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Francis",
+          "family": "Rivera",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Dept. of Physics, Brandeis Univ., Waltham, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alex",
+          "family": "Turek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biochemistry and Biophysics Graduate Program, Brandeis Univ., Waltham, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wencheng",
+          "family": "Ji",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, Israel"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matt",
+          "family": "Copeland",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biochemistry and Biophysics Graduate Program, Brandeis Univ., Waltham, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Larry",
+          "family": "Friedman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Biochemistry, Brandeis Univ., Waltham, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fiona",
+          "family": "Stewart",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Biochemistry, Brandeis Univ., Waltham, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Johnson",
+          "family": "Chung",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Biochemistry, Brandeis Univ., Waltham, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ariel",
+          "family": "Amir",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, Israel"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jane",
+          "family": "Kondev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Physics, Brandeis Univ., Waltham, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7910-3421",
+          "authenticated-orcid": false,
+          "given": "Jeff",
+          "family": "Gelles",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Biochemistry, Brandeis Univ., Waltham, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.bb.14.060185.001023"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. E. Halford , An end to 40 years of mistakes in DNA–protein association kinetics? Biochem. Soc. Trans. 37, 343 (2009).",
+          "DOI": "10.1042/BST0370343"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0842"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Mirny , et al., How a protein searches for its site on DNA: the mechanism of facilitated diffusion. J. Phys. Math. Theor. 42, 434013 (2009).",
+          "DOI": "10.1088/1751-8113/42/43/434013"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.160259697"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.9b08793"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0239350",
+          "DOI": "10.1371/journal.pone.0239350",
+          "article-title": "RNA polymerases in strict endosymbiont bacteria with extreme genome reduction show distinct erosions that might result in limited and differential promoter recognition",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "PLOS ONE"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.10.1.16"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "4358",
+          "DOI": "10.1002/j.1460-2075.1996.tb00809.x",
+          "article-title": "Transcription factor recognition surface on the RNA polymerase alpha subunit is involved in contact with the DNA enhancer element",
+          "volume": "15",
+          "year": "1996",
+          "journal-title": "EMBO J"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Shin , et al., Structural basis of ribosomal RNA transcription regulation. Nat. Commun. 12, 528 (2021).",
+          "DOI": "10.1038/s41467-020-20776-y"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1998.2084"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(91)90553-B"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. P. Mumm , L. J. Friedman , J. Gelles , Mechanism of upstream promoter element stimulation of transcription at a ribosomal RNA promoter determined by single-molecule imaging. [Preprint] (2020). Available at: https://www.biorxiv.org/content/10.1101/2020.02.17.953182v1 [Accessed 23 June 2022].",
+          "DOI": "10.1101/2020.02.17.953182"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.2000.01972.x"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0405814102"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.1079403"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2301402120",
+          "DOI": "10.1073/pnas.2301402120",
+          "article-title": "RNA polymerase sliding on DNA can couple the transcription of nearby bacterial operons",
+          "volume": "120",
+          "year": "2023",
+          "journal-title": "Proc. Natl. Acad. Sci"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. T. Harden , et al., Alternative transcription cycle for bacterial RNA polymerase. Nat. Commun. 11, 448 (2020).",
+          "DOI": "10.1038/s41467-019-14208-9"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13889-6"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W. Kang , S. Hwang , J. Y. Kang , C. Kang , S. Hohng , Hopping and Flipping of RNA Polymerase on DNA during Recycling for Reinitiation after Intrinsic Termination in Bacterial Transcription. Int. J. Mol. Sci. 22, 2398 (2021).",
+          "DOI": "10.3390/ijms22052398"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.21",
+          "unstructured": "J. J. Brewer , et al., RapA opens the RNA polymerase clamp to disrupt post-termination complexes and prevent cytotoxic R-loop formation. [Preprint] (2024). Available at: https://www.biorxiv.org/content/10.1101/2024.09.28.614012v1 [Accessed 11 February 2025]."
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.622"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.01.018"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.106.091561"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-02159-5"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.8.3338"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Zhu , et al., Transcription factors modulate RNA polymerase conformational equilibrium. Nat. Commun. 13, 1546 (2022).",
+          "DOI": "10.1038/s41467-022-29148-0"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(03)00201-6"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Qian , B. Wang , I. Artsimovitch , D. Dunlap , L. Finzi , Force and the α-C-terminal domains bias RNA polymerase recycling. Nat. Commun. 15, 7520 (2024).",
+          "DOI": "10.1038/s41467-024-51603-3"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "269",
+          "DOI": "10.1385/MB:12:3:269",
+          "article-title": "The use of recombinant fusion proteases in the affinity purification of recombinant proteins",
+          "volume": "12",
+          "year": "1999",
+          "journal-title": "Mol. Biotechnol"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1616525114"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2013.05.015"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.94.5.1709"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00291a017"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2303849120"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.106.084004"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1261/rna.794808"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Fleming , et al., AlphaFold Protein Structure Database and 3D-Beacons: New Data and Capabilities. J. Mol. Biol. 437, 168967 (2025).",
+          "DOI": "10.1016/j.jmb.2025.168967"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm363"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2021.08.039"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. J. Emenecker , D. Griffith , A. S. Holehouse , Metapredict V2: An update to metapredict, a fast, accurate, and easy-to-use predictor of consensus disorder and structure. [Preprint] (2022). Available at: https://www.biorxiv.org/content/10.1101/2022.06.06.494887v2 [Accessed 24 January 2025].",
+          "DOI": "10.1101/2022.06.06.494887"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.0902"
+        },
+        {
+          "key": "2026072702404382000_2026.07.21.739884v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.21.739884",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2026-07-27T09:40:54Z",
+        "timestamp": 1785145254000
+      },
+      "score": 67.85145,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.21.739884"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            22
+          ]
+        ]
+      },
+      "references-count": 44,
+      "URL": "https://doi.org/10.64898/2026.07.21.739884",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

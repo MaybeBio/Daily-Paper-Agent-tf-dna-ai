@@ -1,0 +1,557 @@
+{
+  "identity": {
+    "pmid": "35926038",
+    "doi": "10.1126/science.abn5800",
+    "title": "The continuum of Drosophila embryonic development at single-cell resolution."
+  },
+  "content": {
+    "abstract": "Drosophila melanogaster is a powerful, long-standing model for metazoan development and gene regulation. We profiled chromatin accessibility in almost 1 million and gene expression in half a million nuclei from overlapping windows spanning the entirety of embryogenesis. Leveraging developmental asynchronicity within embryo collections, we applied deep neural networks to infer the age of each nucleus, resulting in continuous, multimodal views of molecular and cellular transitions in absolute time. We identify cell lineages; infer their developmental relationships; and link dynamic changes in enhancer usage, transcription factor (TF) expression, and the accessibility of TFs' cognate motifs. With these data, the dynamics of enhancer usage and gene expression can be explored within and across lineages at the scale of minutes, including for precise transitions like zygotic genome activation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Cell Lineage/genetics",
+      "*Drosophila Proteins/genetics/metabolism",
+      "*Drosophila melanogaster/cytology/embryology/genetics",
+      "*Embryonic Development/genetics",
+      "Enhancer Elements, Genetic",
+      "*Gene Expression Regulation, Developmental",
+      "Neural Networks, Computer",
+      "Single-Cell Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Calderon, Diego",
+        "Blecher-Gonen, Ronnie",
+        "Huang, Xingfan",
+        "Secchia, Stefano",
+        "Kentro, James",
+        "Daza, Riza M",
+        "Martin, Beth",
+        "Dulja, Alessandro",
+        "Schaub, Christoph",
+        "Trapnell, Cole",
+        "Larschan, Erica",
+        "O'Connor-Giles, Kate M",
+        "Furlong, Eileen E M",
+        "Shendure, Jay"
+      ],
+      "short_names": [
+        "Calderon D",
+        "Blecher-Gonen R",
+        "Huang X",
+        "Secchia S",
+        "Kentro J",
+        "Daza RM",
+        "Martin B",
+        "Dulja A",
+        "Schaub C",
+        "Trapnell C",
+        "Larschan E",
+        "O'Connor-Giles KM",
+        "Furlong EEM",
+        "Shendure J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6990-9066",
+        "ORCID: 0000-0003-2847-1149",
+        "ORCID: 0000-0003-1000-8543",
+        "ORCID: 0000-0002-1315-6149",
+        "ORCID: 0000-0003-1635-8675",
+        "ORCID: 0000-0002-9661-014X",
+        "ORCID: 0000-0002-2245-9280",
+        "ORCID: 0000-0003-3714-0050",
+        "ORCID: 0000-0002-8105-4347",
+        "ORCID: 0000-0002-2259-8408",
+        "ORCID: 0000-0002-9544-8339",
+        "ORCID: 0000-0002-1516-1865"
+      ],
+      "affiliations": [
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "The Crown Genomics Institute of the Nancy and Stephen Grand Israel National Center for Personalized Medicine, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA 98195, USA.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany.",
+        "Molecular Biology, Cell Biology, and Biochemistry Graduate Program, Brown University, Providence, RI 02912, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA 98195, USA.",
+        "Allen Discovery Center for Cell Lineage Tracing, Seattle, WA 98195, USA.",
+        "Molecular Biology, Cell Biology, and Biochemistry Graduate Program, Brown University, Providence, RI 02912, USA.",
+        "Department of Neuroscience and Carney Institute for Brain Science, Brown University, Providence, RI 02912, USA.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA 98195, USA.",
+        "Allen Discovery Center for Cell Lineage Tracing, Seattle, WA 98195, USA.",
+        "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Calderon, Diego",
+        "short_name": "Calderon D",
+        "identifiers": [
+          "0000-0002-6990-9066"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Blecher-Gonen, Ronnie",
+        "short_name": "Blecher-Gonen R",
+        "identifiers": [
+          "0000-0003-2847-1149"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+          "The Crown Genomics Institute of the Nancy and Stephen Grand Israel National Center for Personalized Medicine, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Huang, Xingfan",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+          "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Secchia, Stefano",
+        "short_name": "Secchia S",
+        "identifiers": [
+          "0000-0003-1000-8543"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kentro, James",
+        "short_name": "Kentro J",
+        "identifiers": [
+          "0000-0002-1315-6149"
+        ],
+        "affiliations": [
+          "Molecular Biology, Cell Biology, and Biochemistry Graduate Program, Brown University, Providence, RI 02912, USA."
+        ]
+      },
+      {
+        "full_name": "Daza, Riza M",
+        "short_name": "Daza RM",
+        "identifiers": [
+          "0000-0003-1635-8675"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Martin, Beth",
+        "short_name": "Martin B",
+        "identifiers": [
+          "0000-0002-9661-014X"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Dulja, Alessandro",
+        "short_name": "Dulja A",
+        "identifiers": [
+          "0000-0002-2245-9280"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Schaub, Christoph",
+        "short_name": "Schaub C",
+        "identifiers": [
+          "0000-0003-3714-0050"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Trapnell, Cole",
+        "short_name": "Trapnell C",
+        "identifiers": [
+          "0000-0002-8105-4347"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+          "Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA 98195, USA.",
+          "Allen Discovery Center for Cell Lineage Tracing, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Larschan, Erica",
+        "short_name": "Larschan E",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology, and Biochemistry Graduate Program, Brown University, Providence, RI 02912, USA."
+        ]
+      },
+      {
+        "full_name": "O'Connor-Giles, Kate M",
+        "short_name": "O'Connor-Giles KM",
+        "identifiers": [
+          "0000-0002-2259-8408"
+        ],
+        "affiliations": [
+          "Department of Neuroscience and Carney Institute for Brain Science, Brown University, Providence, RI 02912, USA."
+        ]
+      },
+      {
+        "full_name": "Furlong, Eileen E M",
+        "short_name": "Furlong EEM",
+        "identifiers": [
+          "0000-0002-9544-8339"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Shendure, Jay",
+        "short_name": "Shendure J",
+        "identifiers": [
+          "0000-0002-1516-1865"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+          "Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA 98195, USA.",
+          "Allen Discovery Center for Cell Lineage Tracing, Seattle, WA 98195, USA.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2022 Aug 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/05 06:00",
+    "fetched_at": "2026-10-04 20:43:48"
+  },
+  "links": {
+    "cites": [
+      "42696754",
+      "42635195",
+      "42560964",
+      "42538996",
+      "42336864",
+      "42328733",
+      "42310789",
+      "42114111",
+      "41902664",
+      "41818367",
+      "41692970",
+      "41662466",
+      "41632074",
+      "41571655",
+      "41535949",
+      "41526381",
+      "41429956",
+      "41332731",
+      "41279708",
+      "41223223",
+      "41152557",
+      "41116172",
+      "41053423",
+      "40972761",
+      "40764461",
+      "40694852",
+      "40676652",
+      "40670357",
+      "40662496",
+      "40503684",
+      "40500297",
+      "40341271",
+      "40258079",
+      "40240144",
+      "40148291",
+      "40080917",
+      "40027737",
+      "39975433",
+      "39868093",
+      "39829925",
+      "39742806",
+      "39623476",
+      "39587678",
+      "39554192",
+      "39553973",
+      "39438113",
+      "39345416",
+      "39257806",
+      "39230694",
+      "39152459",
+      "39051702",
+      "39005400",
+      "38977847",
+      "38744973",
+      "38724668",
+      "38643988",
+      "38607588",
+      "38355799",
+      "38293065",
+      "38174902",
+      "38086418",
+      "37858470",
+      "37824616",
+      "37620964",
+      "37557175",
+      "37551428",
+      "37502885",
+      "37232385",
+      "37066300",
+      "37051467",
+      "36950383",
+      "36817475"
+    ],
+    "refs": [
+      "36204155",
+      "35512700",
+      "35288709",
+      "35239393",
+      "35176234",
+      "34342574",
+      "34321664",
+      "33932341",
+      "33749594",
+      "33555999",
+      "33184180",
+      "33171098",
+      "33149298",
+      "33137190",
+      "33028630",
+      "32122991",
+      "31915294",
+      "31488706",
+      "31363221",
+      "31235656",
+      "30787437",
+      "30787436",
+      "30329093",
+      "29727464",
+      "29700227",
+      "29539636",
+      "29284660",
+      "28860209",
+      "27879204",
+      "27840106",
+      "26358870",
+      "25748651",
+      "24896182",
+      "24658644",
+      "24359758",
+      "23578928",
+      "22304916",
+      "22231485",
+      "22028662",
+      "21179090",
+      "19890324",
+      "17645804",
+      "12403718",
+      "12193790",
+      "10976053",
+      "10744543",
+      "9331336",
+      "8612588",
+      "7913013"
+    ],
+    "similar": [
+      "35926038",
+      "29539636",
+      "33171098",
+      "37557175",
+      "40494353",
+      "22537497",
+      "33795866",
+      "29727464",
+      "27879204",
+      "40148291",
+      "27626650",
+      "22028675",
+      "33795867",
+      "34236313",
+      "40957418",
+      "40670357",
+      "21569360",
+      "40147870",
+      "28369060",
+      "22231485",
+      "34930411",
+      "23922708",
+      "38977847",
+      "24321690",
+      "23560912",
+      "26335633",
+      "28706074",
+      "19772636",
+      "23886579",
+      "19013145",
+      "41226380",
+      "21346796",
+      "29764918",
+      "39661467",
+      "23799133",
+      "34887421",
+      "23847101",
+      "30962180",
+      "32094114",
+      "20558325",
+      "20384991",
+      "18772429",
+      "22028662",
+      "25043061",
+      "27397649",
+      "39008179",
+      "17322403",
+      "26335634",
+      "28024300",
+      "39513866",
+      "23184988",
+      "21821017",
+      "34342574",
+      "17179074",
+      "33720012",
+      "32728245",
+      "26700685",
+      "32098765",
+      "24909324",
+      "38869221",
+      "9254904",
+      "28343963",
+      "18931655",
+      "34736520",
+      "24896182",
+      "37440660",
+      "28671979",
+      "30982648",
+      "32579915",
+      "22396663",
+      "24359758",
+      "31875538",
+      "17224916",
+      "32226006",
+      "32511091",
+      "26391952",
+      "29535190",
+      "36626871",
+      "21637778",
+      "39514304",
+      "18832394",
+      "29187214",
+      "22304916",
+      "30993896",
+      "39745652",
+      "18986212",
+      "18627097",
+      "25834215",
+      "23972280",
+      "26377945",
+      "39742495",
+      "26252385",
+      "24972496",
+      "20571532",
+      "31114856",
+      "25313869",
+      "28077304",
+      "33993980",
+      "41499513",
+      "32142172"
+    ],
+    "review": [
+      "35926038",
+      "38869221",
+      "28077304"
+    ],
+    "pmc": [
+      "9371440"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.abn5800",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=35926038",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/35926038.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35926038/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35926038",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt7w8827wk",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse190130",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

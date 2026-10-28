@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion, data availability)
+- **Assessment boundary** Scientific and technical evaluation of the claims as presented; no assessment of code functionality or data reproducibility beyond what is described
+- **Shared manuscript claim summary** The authors claim that pretrained DNA foundation models, particularly HyenaDNA, outperform specialized TFBS prediction methods (motif-based, DeepBind, BERT-TFBS) in accuracy and computational efficiency for plant TFBS prediction, and that HyenaDNA achieves parameter-efficient fine-tuning with minimal performance loss
+- **Visible evidence base** Main text tables (Tables 1, 2a–2c), figures (Figures 1–3), and references to supplementary materials (Tables S1–S9, Figures S1–S4, Section S1.2, S2, S3.2)
+- **Missing materials affecting confidence** Supplementary tables and figures referenced but not provided; detailed hyperparameter settings; per-chromosome and per-seed variance data; exact negative sample generation code; MEME motif parameters; statistical test details beyond what is stated
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant question: whether DNA foundation models can improve cross-species TFBS prediction in plants. The experimental design is thoughtful, with three evaluation protocols that test generalization across chromosomes, datasets, and species. The results are presented with appropriate statistical rigor in some sections. However, several concerns limit the strength of the claims. The cross-species evaluation is confounded by high motif conservation between the two species, which may not reflect the harder transfer problem the authors ultimately target. The ablation study is informative but incomplete, as it does not report inference-time memory savings or evaluate the frozen-backbone regime on the cross-dataset task. The comparison with BERT-TFBS is potentially unfair because BERT-TFBS was designed for a different input format and may require architectural adaptation. The manuscript would benefit from clearer reporting of variance across seeds and from a more direct test of the "imputation" use case described in the conclusion. Overall, the work is promising and likely of interest to the plant genomics and machine learning communities, but the current evidence does not fully establish the superiority claim for foundation models in the general cross-species setting.
+- **Who would be interested in the results, and why** Plant molecular biologists studying gene regulation, particularly those working on transcription factor binding and regulatory genomics in non-model species. Computational biologists and machine learning researchers developing or applying foundation models to genomic tasks will also find the benchmarking and efficiency analyses valuable. The parameter-efficient fine-tuning results may interest practitioners deploying large models with limited computational resources.
+- **Major strengths** The study addresses a clear gap in the literature by systematically benchmarking multiple foundation models on plant TFBS prediction. The three evaluation protocols are well designed to test different aspects of generalization. The inclusion of computational efficiency metrics alongside accuracy is valuable for practical deployment decisions. The ablation study on parameter-efficient fine-tuning is a useful contribution. The use of DAP-seq data from two related species with known motif conservation provides a biologically grounded test case.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Our results demonstrate that foundation models, particularly HyenaDNA, offer superior predictive accuracy and computational efficiency, highlighting their potential for scalable, genome-wide TFBS prediction in plants."
+  - **Evidence pointer** Section 3.3, Figure 3, Supplementary Table S8
+  - **Concern** The cross-species evaluation is performed on A. thaliana and S. irio, two species for which the authors themselves note that AREB/ABF binding motifs are "essentially conserved" and that "DNA-binding preferences... are essentially conserved across Brassicaceae species." This means the transfer task is relatively easy, as the models are essentially learning a conserved motif that is nearly identical between the two species. The claim of "superior predictive accuracy" for cross-species generalization is therefore not tested under conditions where motif divergence exists. The conclusion that foundation models "generalize across species" is overstated given this confound.
+  - **Why it matters** The stated goal in the introduction and conclusion is to enable prediction in species lacking experimental data, which will often involve greater evolutionary distance and potential motif divergence. The current experimental design does not test this harder scenario, so the central claim of cross-species utility is not established.
+  - **Resolution test** The authors should either (a) include a third species with greater phylogenetic distance and known or suspected motif divergence, (b) explicitly acknowledge this limitation and temper the cross-species claim, or (c) provide evidence that the models capture sequence features beyond the conserved motif that would aid transfer to more divergent species.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "BERT-TFBS [11] integrates three modules: (1) a pretrained DNABERT-2 [4] encoder to capture long-range dependencies, (2) a CNN stack to extract high-order local features from the sequence, and (3) a Convolutional Block Attention Module (CBAM) [19]..."
+  - **Evidence pointer** Section 2.3, Section 3.1, Table 1
+  - **Concern** BERT-TFBS was originally designed for a specific input format and task configuration. The authors do not describe how BERT-TFBS was adapted for this benchmark, including whether the original hyperparameters, input length, or output head were modified. If BERT-TFBS was used with its default settings without adaptation to the 265 bp input length or the plant genomic context, the comparison may be unfair and the reported performance may not reflect the model's true capability.
+  - **Why it matters** A benchmark comparison is only valid if all models are given a fair chance to perform well. If BERT-TFBS was disadvantaged by inappropriate input handling or hyperparameter choices, the claim that foundation models "substantially outperform" it is weakened.
+  - **Resolution test** The authors should describe the exact adaptation of BERT-TFBS for this task, including any changes to input processing, hyperparameters, or architecture. If no adaptation was performed, they should justify why the default configuration is appropriate for this benchmark.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** "Tables 2a–2c compare these regimes across cross-chromosome, cross-species and cross-dataset tasks. In every case, updating only the embeddings and classification head (Backbone.layers) delivers performance nearly identical to full fine-tuning while adjusting under 0.6% of parameters."
+  - **Evidence pointer** Section 3.4, Tables 2a–2c, Supplementary Table S9
+  - **Concern** The ablation study reports that the "Backbone" regime (fully frozen backbone, only classification head trained) is not shown for the cross-dataset task in Tables 2a–2c, or at least this is not clear from the text. The authors state that "Backbone.layers" performs nearly identically to full fine-tuning, but do not report the performance of the fully frozen regime on all three tasks. This omission makes it difficult to assess whether the parameter-efficient result is consistent across tasks or specific to certain conditions.
+  - **Why it matters** The claim of parameter-efficient adaptability is stronger if it holds across all evaluation protocols. Without the fully frozen baseline on all tasks, the reader cannot determine whether the "Backbone.layers" result is robust or an artifact of a particular task.
+  - **Resolution test** The authors should report the "Backbone" regime results for all three tasks, or explicitly state why this regime was not evaluated on the cross-dataset task.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Negative samples were generated by random permutation of nucleotides within each positive sequence, using a dinucleotide-preserving shuffling procedure that maintains both sequence length and dinucleotide composition."
+  - **Evidence pointer** Section 2.1, Supplementary Section S1.2
+  - **Concern** The negative sample generation procedure is described only briefly. The authors do not specify the exact algorithm used for dinucleotide-preserving shuffling, the number of negative samples generated per positive sample, or whether the same negative samples were used across all models and seeds. This lack of detail affects reproducibility.
+  - **Why it matters** Negative sample generation is a critical step in TFBS prediction benchmarks. If the procedure is not fully specified, other researchers cannot replicate the experiments or assess whether the results are sensitive to the negative sampling strategy.
+  - **Resolution test** The authors should provide the exact algorithm or code for negative sample generation, specify the number of negatives per positive, and state whether the same negative set was used across all models and seeds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1 heading
+  - **Evidence pointer** Section 3.1
+  - **Issue** The heading "Cross-Chromosome Evaluation on A. thaliana AREB/ABF1-4 Binding Sites" is followed by a second subsection also numbered 3.1 ("Cross-Dataset Evaluation on A. thaliana AREB/ABF2 Binding Regions"). The duplicate numbering is confusing.
+  - **Required correction** Renumber the second subsection as 3.2 and adjust subsequent numbering accordingly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of DNABERT-2 and HyenaDNA lacks key architectural details, such as the number of layers, hidden dimensions, and pretraining data for DNABERT-2, and the specific configuration of HyenaDNA used (e.g., model size, context length).
+  - **Required correction** Add a table or text specifying the exact model versions and configurations used for each foundation model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.1, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 reports macro-mean performance metrics but does not include standard deviations or confidence intervals across the 25 runs. The text mentions "distribution of these metrics" in a supplementary figure, but the main table lacks variance information.
+  - **Required correction** Include standard deviations or confidence intervals in Table 1, or state in the text that variance information is available in the supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3
+  - **Issue** The sentence "deep learning models generalized well across species, whereas the motif-based baseline showed limited predictive power (mean MCC: 0.720 trained on A. thaliana, 0.426 on S. irio)" is ambiguous. It is unclear whether the MCC values refer to the motif-based baseline or to the deep learning models.
+  - **Required correction** Clarify which model the MCC values refer to, for example by writing "the motif-based baseline showed limited predictive power (mean MCC: 0.720 when trained on A. thaliana, 0.426 when trained on S. irio)".
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The authors state that sequences were "standardized to maximum length of 265bp by padding shorter sequences" but do not specify the padding strategy (e.g., zero-padding, N-padding) or whether padding was applied symmetrically or at the 3' end.
+  - **Required correction** Specify the padding strategy used for sequence standardization.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The ablation study reports parameter counts for the "Backbone" and "Backbone.layers" regimes but does not report the number of parameters for the full fine-tuning regime, making it difficult to interpret the "under 0.6% of parameters" claim.
+  - **Required correction** Report the total parameter count for the full model and the percentage of trainable parameters for each regime.
+
+## Risk / unsupported claims
+- The claim that foundation models "generalize across species" is not fully supported because the two species tested have highly conserved binding motifs, making the transfer task relatively easy.
+- The claim that HyenaDNA offers "superior predictive accuracy" is not consistently supported across all evaluation protocols; in the cross-species setting, AgroNT achieved slightly higher accuracy, F1, and MCC, and the differences may not be statistically significant.
+- The claim that BERT-TFBS is "substantially outperformed" may be unfair if the model was not properly adapted to the benchmark's input format and task configuration.
+- The claim of "parameter-efficient adaptability" is weakened by the incomplete reporting of the fully frozen backbone regime across all tasks.
+- The statement that the revised manuscript "has been accepted for publication in Proceedings of Machine Learning Research" is a claim about publication status that cannot be verified from the provided materials and is not relevant to the scientific evaluation.

@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "40604083",
+    "doi": "10.1038/s41598-025-94084-0",
+    "title": "Cohesive data analysis for the identification of prognostic hub genes and significant pathways associated with HER2 + and TN breast cancer types."
+  },
+  "content": {
+    "abstract": "Breast cancer is the most prevalent and lethal form of cancer being the utmost common medical concern of women. Breast cancer etiology implicates numerous cellular protein receptors such as estrogen receptors (ER), progesterone receptors (PR), and human epidermal growth factor/receptor 2 (HER2) which turn on oncogenic cascade often attributed to certain genetic variations. Breast Cancer is thus classified into ER + /-, PR + /-, HER2 +/- and Triple Negative types. This study seeks to build upon our current knowledge of HER2 + and TNBC BC types to discover novel patterns for diagnosis and prognosis. The study exploits wealth of HER2 + and TNBC transcriptome (RNA Seq) data to elucidate the key hub genes, their associated networks, pathways, stage-wise expression profile, role in prognosis and survival expectancy, and regulatory transcription factors. The study also employs machine learning models including support vector machine (SVM), XGBoost, Random Forest, k nearest neighbor (kNN), Naive Bayes and Voting Classifier to distinguish between HER2 + and TNBC transcriptomes which is a key variable for early detection and choice of therapeutic alternatives. RNA Seq datasets consisting of 49 HER2 + and 44 TNBC breast tumor samples were retrieved and pre-processed. Differentially Expressed Genes (DEGs) along with their logFC and p-values were fetched. The KEGG (Kyoto Encyclopedia of Genes and Genomes) and GO (Gene Ontology) analyses of DEGs were conducted on DAVID (the Database for Annotation, Visualization and Integrated Discovery) and interaction network was constructed through Cytoscape. Ten hub genes were obtained based on maximum clique centrality (MCC), maximum neighborhood component (MNC), degree, closeness and betweenness using cytoHubba which included ACTB, ATM, ESR1, GAPDH, HNRNPK, KRAS, MDM2, SIRT1, TP53, and H3F3C (H3-5). These hub genes were found to be associated with cell proliferation, invasion and migration. Transcription factors and association of the expression profile of these hub genes with survival expectancy was also determined. Among the ML models, SVM stood out, exhibiting classification success between HER2 + and TNBC transcriptomes with an accuracy of 90%. The findings of this study can therefore effectively aid in tracing the initial prognosis of BC and identify biomarkers for the personalized prevention, prediction, diagnosis, and treatment of BC.",
+    "keywords": [
+      "Breast cancer (BC)",
+      "CytoHubba",
+      "Cytoscape",
+      "Differentially expressed genes (DEGs')",
+      "Expression analysis",
+      "GEPIA",
+      "Gene ontology",
+      "Hub genes",
+      "Human epidermal growth factor 2 (HER2 +)",
+      "Machine learning",
+      "Network analysis",
+      "NetworkAnalyst and TIMER",
+      "Pathway analysis",
+      "Survival analysis",
+      "Triple negative breast cancer (TNBC)",
+      "UALCAN"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Prognosis",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Triple Negative Breast Neoplasms/genetics/metabolism/pathology/mortality",
+      "Gene Regulatory Networks",
+      "Biomarkers, Tumor/genetics",
+      "Transcriptome",
+      "Gene Expression Profiling",
+      "*Breast Neoplasms/genetics",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zakir, Mahrukh",
+        "Saddiqa, Alishbah",
+        "Sheikh, Mawara",
+        "Zakir, Lalarukh",
+        "Sami, Fatima",
+        "Ahmad, Faisal Sardar",
+        "Rauf, Sadaf Abdul",
+        "Ali, Iqra",
+        "Muneer, Zahid",
+        "Alonazi, Wadi B",
+        "Siddiqi, Abdul Rauf"
+      ],
+      "short_names": [
+        "Zakir M",
+        "Saddiqa A",
+        "Sheikh M",
+        "Zakir L",
+        "Sami F",
+        "Ahmad FS",
+        "Rauf SA",
+        "Ali I",
+        "Muneer Z",
+        "Alonazi WB",
+        "Siddiqi AR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan.",
+        "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan.",
+        "Pakistan Agriculture Research Council Islamabad, Islamabad, Pakistan.",
+        "Azad Jammu and Kashmir Medical College, Muzaffrabad, Pakistan.",
+        "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan.",
+        "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan.",
+        "Fatima Jinnah Women University, Rawalpindi, Pakistan.",
+        "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan.",
+        "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan.",
+        "Health Administration Department, College of Business Administration, King Saud University, PO. Box 71115, 11587, Riyadh, Saudi Arabia. waalonazi@ksu.edu.sa.",
+        "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan. araufsiddiqi@comsats.edu.pk.",
+        "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road, Tarlai Kalan, Islamabad, 45550, Pakistan. araufsiddiqi@comsats.edu.pk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zakir, Mahrukh",
+        "short_name": "Zakir M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Saddiqa, Alishbah",
+        "short_name": "Saddiqa A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Sheikh, Mawara",
+        "short_name": "Sheikh M",
+        "identifiers": [],
+        "affiliations": [
+          "Pakistan Agriculture Research Council Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Zakir, Lalarukh",
+        "short_name": "Zakir L",
+        "identifiers": [],
+        "affiliations": [
+          "Azad Jammu and Kashmir Medical College, Muzaffrabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Sami, Fatima",
+        "short_name": "Sami F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Faisal Sardar",
+        "short_name": "Ahmad FS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Rauf, Sadaf Abdul",
+        "short_name": "Rauf SA",
+        "identifiers": [],
+        "affiliations": [
+          "Fatima Jinnah Women University, Rawalpindi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ali, Iqra",
+        "short_name": "Ali I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Muneer, Zahid",
+        "short_name": "Muneer Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Alonazi, Wadi B",
+        "short_name": "Alonazi WB",
+        "identifiers": [],
+        "affiliations": [
+          "Health Administration Department, College of Business Administration, King Saud University, PO. Box 71115, 11587, Riyadh, Saudi Arabia. waalonazi@ksu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Siddiqi, Abdul Rauf",
+        "short_name": "Siddiqi AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, COMSATS University, Park Road Islamabad, Islamabad, Pakistan. araufsiddiqi@comsats.edu.pk.",
+          "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road, Tarlai Kalan, Islamabad, 45550, Pakistan. araufsiddiqi@comsats.edu.pk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 06:27",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42607092",
+      "42072050",
+      "41257975"
+    ],
+    "refs": [
+      "39417505",
+      "38811600",
+      "38706955",
+      "36077333",
+      "35801800",
+      "35078134",
+      "34776511",
+      "34610510",
+      "33972826",
+      "33780170",
+      "33716731",
+      "33538338",
+      "33498339",
+      "32731409",
+      "32615131",
+      "32479607",
+      "32437461",
+      "32406821",
+      "32358373",
+      "31854162",
+      "31632087",
+      "31538344",
+      "31477170",
+      "31211495",
+      "31197620",
+      "31114875",
+      "30931480",
+      "30302816",
+      "30171067",
+      "28867445",
+      "28832679",
+      "28407145",
+      "27924014",
+      "27215579",
+      "27141961",
+      "27070141",
+      "26341644",
+      "26241661",
+      "25948244",
+      "25880075",
+      "25859407",
+      "25521941",
+      "25352553",
+      "25074810",
+      "24703318",
+      "24114677",
+      "24114568",
+      "23641305",
+      "23586463",
+      "23476714",
+      "23266771",
+      "23012296",
+      "22795637",
+      "22542455",
+      "21965336",
+      "21900491",
+      "21778691",
+      "21274551",
+      "21067385",
+      "19779498",
+      "19729833",
+      "19131956",
+      "19022660",
+      "18807267",
+      "18568040",
+      "18565893",
+      "17947979",
+      "17604446",
+      "17576678",
+      "16958054",
+      "16918139",
+      "16269335",
+      "15279773",
+      "15170860",
+      "14731609",
+      "14597658",
+      "12734009",
+      "12619104",
+      "12184808",
+      "11900880",
+      "10769197",
+      "10549356",
+      "10065155",
+      "9537233",
+      "3574400",
+      "3304147"
+    ],
+    "similar": [
+      "40604083",
+      "39242688",
+      "32358373",
+      "31197620",
+      "31733575",
+      "31178227",
+      "35474355",
+      "40635123",
+      "32681437",
+      "30302816",
+      "38713229",
+      "34797837",
+      "35996248",
+      "30128822",
+      "40092695",
+      "32775256",
+      "30358191",
+      "40438115",
+      "33499770",
+      "33688252",
+      "31974598",
+      "34610510",
+      "34055036",
+      "34895070",
+      "35627287",
+      "34184566",
+      "29081411",
+      "41189173",
+      "41392640",
+      "39380273",
+      "28075450",
+      "31986408",
+      "39048164",
+      "35504321",
+      "37556419",
+      "40936892",
+      "31926587",
+      "35465161",
+      "39350059",
+      "40227228",
+      "31434940",
+      "30175120",
+      "31257479",
+      "33743484",
+      "41058682",
+      "39206896",
+      "40179432",
+      "37893423",
+      "33734898",
+      "30506958",
+      "34053447",
+      "33757543",
+      "30203490",
+      "32578582",
+      "31924747",
+      "26103053",
+      "32616754",
+      "39427606",
+      "38688978",
+      "39561272",
+      "28030809",
+      "32816580",
+      "38755543",
+      "39254769",
+      "39794693",
+      "40898538",
+      "32766313",
+      "32338339",
+      "33138797",
+      "24086418",
+      "34172056",
+      "39576843",
+      "40991980",
+      "39587411",
+      "34814332",
+      "39317050",
+      "32598242",
+      "38142454",
+      "33376723",
+      "35758508",
+      "29368311",
+      "41327380",
+      "33080677",
+      "39707785",
+      "40425926",
+      "29328377",
+      "23009584",
+      "32190687",
+      "36567949",
+      "40287845",
+      "39271768",
+      "40888212",
+      "40542771",
+      "36930083",
+      "39689602",
+      "24004841",
+      "34830241",
+      "33403032",
+      "31895772",
+      "40216945"
+    ],
+    "review": [
+      "40604083",
+      "33080677"
+    ],
+    "pmc": [
+      "12222827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-94084-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40604083/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3542",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

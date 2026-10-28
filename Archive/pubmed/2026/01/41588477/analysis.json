@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41588477",
+  "title": "Aligned cross-modal integration and regulatory heterogeneity characterization of single-cell multiomic data with deep contrastive learning.",
+  "authors": "Cheng, Yue; Su, Yanchi; Fan, Yi; Yang, Yuning; Chen, Xingjian; Wang, Fuzhou; Wong, Ka-Chun; Li, Xiangtao",
+  "journal": "Genome medicine",
+  "published_date": "2026-01-27",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用对比学习整合单细胞多组学数据，虽涉及转录因子ELF1与调控元件关联，但核心是细胞聚类与数据整合，非TF-DNA结合建模，方法可迁移但对象与互作轴偏弱。",
+  "abstract": "BACKGROUND: Single-cell multi-omics (scMulti-omics) technologies have revolutionized our understanding of cellular functions and interactions by enabling the simultaneous measurement of diverse cellular modalities. Integrating these heterogeneous data types presents significant challenges due to differences in scale, resolution, and biological variability across the omics layers. Traditional computational methods often fail to reconcile these differences, leading to a loss of critical biological variability and subtle intermolecular interactions. METHODS: To address these challenges, we have developed a single-cell multi-omics deep learning model (scMDCF) based on contrastive learning, tailored for the efficient characterization and integration of scMulti-omics data. scMDCF features a cross-modality contrastive learning module that harmonizes data representations across different omics types, ensuring consistency and preserving data heterogeneity by accommodating information entropy. Furthermore, a cross-modality feature fusion module extracts common low-dimensional latent representations of scMulti-omics data, effectively balancing the diverse characteristics of these data types. RESULTS: Extensive empirical studies demonstrate that scMDCF outperforms existing state-of-the-art scMulti-omics models across various types of scMulti-omics data. In particular, scMDCF exhibits advanced analytical capabilities in extracting cell-type-specific peak-gene associations and cis-regulatory elements from SNARE-seq data, and in elucidating immune regulation from CITE-seq data. In a post-BNT162b2 mRNA SARS-CoV-2 vaccination dataset, scMDCF successfully annotates specific vaccine-induced B cell subpopulations, uncovering dynamic interactions and regulatory mechanisms within the immune system post-vaccination. Most importantly, using Alzheimer's disease-specific data, scMDCF identifies computational minority Microglia and Endothelial cell populations, revealing ELF1 as a putative candidate transcription factor biomarker in Microglia, which potentially influences GTPase activity and may suppresses Alzheimer's pathology. CONCLUSIONS: We propose scMDCF, a contrastive learning based framework for single-cell multi-omics integration that harmonizes cross-modality representations while preserving biological heterogeneity. Applications across diverse scMulti-omics datasets demonstrate improved clustering performance, effective batch-effect mitigation, and mechanistic insights into underlying biological processes. Code and reproducible workflows are openly available.",
+  "abstract_zh": "背景：单细胞多组学（scMulti-omics）技术通过同时测量多种细胞模态，彻底改变了我们对细胞功能和相互作用的理解。由于不同组学层在尺度、分辨率和生物变异性上的差异，整合这些异质数据类型面临重大挑战。传统计算方法往往无法调和这些差异，导致关键生物变异性和细微分子间相互作用的丢失。方法：为应对这些挑战，我们开发了一种基于对比学习的单细胞多组学深度学习模型（scMDCF），专门用于高效表征和整合scMulti-omics数据。scMDCF包含一个跨模态对比学习模块，通过容纳信息熵来协调不同组学类型间的数据表示，确保一致性并保留数据异质性。此外，一个跨模态特征融合模块提取scMulti-omics数据的共同低维潜在表示，有效平衡这些数据类型的不同特征。结果：大量实证研究表明，scMDCF在多种类型的scMulti-omics数据上优于现有最先进的scMulti-omics模型。特别是，scMDCF在从SNARE-seq数据中提取细胞类型特异性峰-基因关联和顺式调控元件，以及从CITE-seq数据中阐明免疫调控方面展现出先进的分析能力。在一个BNT162b2 mRNA SARS-CoV-2疫苗接种后数据集中，scMDCF成功注释了特定的疫苗诱导B细胞亚群，揭示了接种后免疫系统内的动态相互作用和调控机制。最重要的是，利用阿尔茨海默病特异性数据，scMDCF识别出计算性少数小胶质细胞和内皮细胞群体，揭示ELF1作为小胶质细胞中推定的候选转录因子生物标志物，可能影响GTPase活性并可能抑制阿尔茨海默病病理。结论：我们提出scMDCF，一种基于对比学习的单细胞多组学整合框架，在保留生物异质性的同时协调跨模态表示。在多种scMulti-omics数据集上的应用展示了改进的聚类性能、有效的批次效应缓解以及对潜在生物过程的机制性洞察。代码和可复现工作流程已公开提供。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41588477/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41588477/",
+  "paper_page_path": "papers/pubmed/41588477/index.html"
+}

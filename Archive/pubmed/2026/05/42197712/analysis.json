@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42197712",
+  "title": "Deciphering Cell-Type-Specific Transcriptional Regulation in Tomato Leaves Through Ensemble Machine Learning and Single-Cell Transcriptomics.",
+  "authors": "Shen, Hui; Liu, Wen; Li, Yuanheng; He, Zhaoyilan; Yang, Zheng'an; Hu, Zongli; Wu, Ting",
+  "journal": "Plants (Basel, Switzerland)",
+  "published_date": "2026-05-27",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用集成机器学习与单细胞转录组解析番茄叶片细胞类型特异性转录调控，虽涉及转录因子候选预测，但缺乏蛋白质-DNA三维互作建模与物理模拟，方法可迁移性有限。",
+  "abstract": "High-throughput single-cell RNA sequencing (scRNA-seq) has substantially advanced plant transcriptional landscapes. However, decoding cell-type-specific transcriptional regulation in non-model crops like tomato (Solanum lycopersicum) remains challenging. An integrated computational pipeline was applied using high-dimensional weighted gene co-expression (hdWGCNA) and ensemble machine learning to analyze tomato leaf single-cell transcriptomes. Unsupervised clustering identified 19 cell subpopulations mapped to five major cell-types: mesophyll cells (50.6%), guard cells (31.0%), trichomes (8.3%), vascular cells (7.5%), and lamina epidermis (2.6%). hdWGCNA revealed eight cell-type-specific modules, linking mesophyll cells to photosynthesis and guard cells to redox homeostasis. Machine learning classifiers prioritized candidate transcription factors (TFs), with XGBoost achieving the highest accuracy (0.85) to define cell identity. A consensus of 33 core TFs was identified, from which four candidate TFs (SlWRKY-78, SlWRKY-75, SlERF-57, and SlGLK-49) were selected for in silico knockout (KO) analysis. The simulations predicted that these knockouts might dysregulate core functional pathways, such as serine-type endopeptidase inhibitor activity and protein binding. Furthermore, CellOracle simulations suggested that the virtual deletion of the guard-cell-associated SlWRKY-78 and SlWRKY-75 could induce a directional trajectory shift from the terminally differentiated guard cells back to the less differentiated mesophyll territory. These findings provide a promising computational framework for deciphering cell-type-specific regulatory programs in horticultural crops.",
+  "abstract_zh": "高通量单细胞RNA测序（scRNA-seq）已显著推进植物转录组景观的研究。然而，在非模式作物如番茄（Solanum lycopersicum）中解码细胞类型特异性的转录调控仍具挑战性。本研究采用集成计算流程，结合高维加权基因共表达网络分析（hdWGCNA）和集成机器学习，对番茄叶片单细胞转录组进行了分析。无监督聚类识别出19个细胞亚群，映射到五种主要细胞类型：叶肉细胞（50.6%）、保卫细胞（31.0%）、毛状体（8.3%）、维管细胞（7.5%）和叶片表皮细胞（2.6%）。hdWGCNA揭示了八个细胞类型特异性模块，将叶肉细胞与光合作用相关联，保卫细胞与氧化还原稳态相关联。机器学习分类器优先筛选候选转录因子（TFs），其中XGBoost在定义细胞身份方面达到最高准确率（0.85）。共识别出33个核心转录因子的共识集，从中选出四个候选转录因子（SlWRKY-78、SlWRKY-75、SlERF-57和SlGLK-49）进行计算机敲除（KO）分析。模拟预测这些敲除可能导致核心功能通路失调，如丝氨酸型内肽酶抑制剂活性和蛋白质结合。此外，CellOracle模拟表明，与保卫细胞相关的SlWRKY-78和SlWRKY-75的虚拟删除可能诱导方向性轨迹转变，从终末分化的保卫细胞回到分化程度较低的叶肉细胞区域。这些发现为解析园艺作物中细胞类型特异性调控程序提供了一个有前景的计算框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42197712/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42197712/",
+  "paper_page_path": "papers/pubmed/42197712/index.html"
+}

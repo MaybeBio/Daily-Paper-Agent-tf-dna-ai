@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.17.643816",
+  "title": "Contextualizing gene expression with feature rich graph neural networks",
+  "authors": "Ho SS; Mills R",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-18",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络整合多组学数据预测基因表达，虽涉及转录因子结合与调控元件，但核心是基因表达预测而非TF-DNA互作建模，方法可迁移但对象和互作深度有限。",
+  "abstract": "Variation in gene expression arises from the interplay between chromatin architecture, epigenetic marks, transcription factor binding, and regulatory elements - none alone capture the full complexity of the regulatory landscape. We introduce Omics Graph Learning (OGL), a deep learning paradigm that integrates multi-omics data into a network of biological entities. Leveraging over 950 curated datasets, OGL achieves highly accurate gene expression prediction across 20 cell lines and tissues. Through > 81 million in-silico perturbations, we uncover tissue-specific patterns of feature utilization, reveal non-additive interactions among epigenetic marks, and identify regulatory elements with disproportionate influence on gene expression. Our findings highlight complex synergistic and antagonistic relationships among molecular features that vary by cellular context. By bridging predictive accuracy with biological interpretation, OGL provides a framework for deciphering multifaceted mechanisms that shape the transcriptome.",
+  "abstract_zh": "基因表达的变化源于染色质结构、表观遗传标记、转录因子结合及调控元件之间的相互作用——单独任何一项都无法完全捕捉调控景观的全部复杂性。我们引入了组学图学习（Omics Graph Learning, OGL），这是一种深度学习范式，将多组学数据整合到生物实体网络中。利用超过950个精选数据集，OGL在20种细胞系和组织中实现了高度准确的基因表达预测。通过超过8100万次计算机模拟扰动，我们揭示了特征利用的组织特异性模式，发现了表观遗传标记间的非加性相互作用，并识别出对基因表达具有不成比例影响的调控元件。我们的发现突显了分子特征之间复杂的协同与拮抗关系，这些关系随细胞环境而变化。通过将预测准确性与生物学解释相结合，OGL为解读塑造转录组的多方面机制提供了一个框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643816",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643816",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.17.643816/index.html"
+}

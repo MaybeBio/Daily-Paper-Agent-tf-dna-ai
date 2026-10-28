@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "41104118",
+    "doi": "10.3389/fgene.2025.1637186",
+    "title": "Using buccal methylomic data to create explainable aging clocks as well as classifiers and regressors for lifestyle and demographic factors."
+  },
+  "content": {
+    "abstract": "In human blood, it has been demonstrated that methylomic information can be used to predict smoking status, alcohol intake, and chronological age. While it is possible to robustly predict chronological age using DNA methylation information derived from buccal tissue, it remains to be determined if other variables can be directly predicted in cheek swabs. Here, we demonstrate that classifiers for smoking status and race/ethnicity can be built in a buccal methylomic dataset derived from 8,045 adults spanning an age range of 18-93 years. Furthermore, we build novel regressors for body mass index, alcohol intake, and chronological age. For each of these models, we identify the 1,000 most important CpGs and perform enrichment analyses on them to expose associated biological pathways and transcription factor targets. We additionally explore how the architecture of an epigenetic aging clock-specifically how many hidden layers are present-influences model accuracy. Finally, we build proof-of-concept, explainable deep learning models that connect DNA methylation sites annotated to genes to Reactome pathways or to transcription factors. These pathways and target sets are then used to estimate age, a feature that provides interpretability. All together, these findings further emphasize the usability of buccal data for epigenetic predictions.",
+    "keywords": [
+      "DNA methylation",
+      "aging biomarkers",
+      "aging clocks",
+      "alcohol intake",
+      "body mass index",
+      "chronological age",
+      "random forest",
+      "smoking status"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shokhirev, Maxim N",
+        "Johnson, Adiv A"
+      ],
+      "short_names": [
+        "Shokhirev MN",
+        "Johnson AA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tally Health, New York, NY, United States.",
+        "Tally Health, New York, NY, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shokhirev, Maxim N",
+        "short_name": "Shokhirev MN",
+        "identifiers": [],
+        "affiliations": [
+          "Tally Health, New York, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Johnson, Adiv A",
+        "short_name": "Johnson AA",
+        "identifiers": [],
+        "affiliations": [
+          "Tally Health, New York, NY, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/17 06:27",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "42294499"
+    ],
+    "refs": [
+      "40691975",
+      "40616903",
+      "40533678",
+      "40441662",
+      "39806006",
+      "39552041",
+      "39351485",
+      "39023350",
+      "38612707",
+      "38441802",
+      "38243142",
+      "38225268",
+      "38093305",
+      "37941124",
+      "37116245",
+      "37099381",
+      "36866529",
+      "36855161",
+      "36834337",
+      "36812475",
+      "36599349",
+      "36516495",
+      "36300620",
+      "36287187",
+      "35778957",
+      "35029144",
+      "32905769",
+      "31995162",
+      "31710662",
+      "31611402",
+      "31466478",
+      "30669119",
+      "30048243",
+      "29676998",
+      "29320735",
+      "27989698",
+      "27843151",
+      "26771021",
+      "26424855",
+      "26110923",
+      "24478339",
+      "24452255",
+      "24138928",
+      "23476028",
+      "23177740",
+      "18204136",
+      "1792239"
+    ],
+    "similar": [
+      "41104118",
+      "38441802",
+      "40050559",
+      "36304118",
+      "33300551",
+      "41073833",
+      "33059731",
+      "39411517",
+      "36345722",
+      "27249102",
+      "39073811",
+      "37278618",
+      "38585956",
+      "34655509",
+      "40691975",
+      "32199607",
+      "35052436",
+      "39916723",
+      "41351063",
+      "32580727",
+      "34120642",
+      "39754638",
+      "38103096",
+      "40533678",
+      "35580182",
+      "30300865",
+      "35031073",
+      "30142075",
+      "39780748",
+      "34523051",
+      "37443060",
+      "37118759",
+      "30053132",
+      "30348905",
+      "34591235",
+      "40151157",
+      "34655469",
+      "33821798",
+      "35984867",
+      "37268982",
+      "38285616",
+      "37944549",
+      "36515535",
+      "39687863",
+      "36202132",
+      "39000578",
+      "33109080",
+      "37584423",
+      "35257385",
+      "34587750",
+      "39092674",
+      "37660147",
+      "39215995",
+      "38674360",
+      "37707649",
+      "34698996",
+      "35346416",
+      "39402823",
+      "37315204",
+      "34482522",
+      "41403206",
+      "39907822",
+      "39760516",
+      "40145332",
+      "31900199",
+      "24490752",
+      "38482631",
+      "38274286",
+      "38263575",
+      "26861258",
+      "37401200",
+      "34425884",
+      "32661599",
+      "38235295",
+      "37542794",
+      "33826720",
+      "33082299",
+      "34118182",
+      "35681159",
+      "39983295",
+      "39375688",
+      "37751697",
+      "40096548",
+      "37924441",
+      "31001624",
+      "35719387",
+      "27274774",
+      "33933877",
+      "34487267",
+      "38890131",
+      "36206857",
+      "34001218",
+      "41346123",
+      "30241605",
+      "32930491",
+      "41445615",
+      "35856194",
+      "35141217",
+      "30270726",
+      "33175612"
+    ],
+    "review": [
+      "41104118",
+      "40691975",
+      "40533678",
+      "36515535",
+      "39000578",
+      "39215995",
+      "35346416",
+      "37401200",
+      "32661599",
+      "31001624",
+      "36206857",
+      "30241605"
+    ],
+    "pmc": [
+      "12521809"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41104118/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2025.1637186",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

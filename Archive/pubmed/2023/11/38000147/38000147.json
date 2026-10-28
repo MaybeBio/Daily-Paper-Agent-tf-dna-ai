@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "38000147",
+    "doi": "10.1016/j.tranon.2023.101828",
+    "title": "Lipid metabolism-associated genes serve as potential predictive biomarkers in neoadjuvant chemoradiotherapy combined with immunotherapy in rectal cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The aim of this study was to investigate the potential role of lipid metabolism-associated genes (LMAGs) in neoadjuvant chemoradiotherapy (nCRT) and immunotherapy for rectal cancer. METHODS: Differential LMAGs were characterized and functional enrichment analysis was performed. Multiple machine learning algorithms were combined to explore candidate LMAGs. ROC analysis was performed to evaluate the predicting accuracy of candidate LMAGs. The expression patterns, prognostic value, genetic alterations, and immune cell infiltration of the top-ranked LMAGs were investigated. RESULTS: We identified 45 LMAGs that were differentially expressed in tumor samples of nCRT responders and non-responders. These LMAGs were closely associated with lipid metabolism-related biological processes and pathways. ROC analysis revealed that the SREBF2 gene, an important transcription factor in regulating lipid metabolism, was the highest predictor of nCRT in rectal cancer. SREBF2 was highly expressed in rectal cancer tissues and high expression of SREBF2 was associated with favorable prognosis. Multivariate analysis showed that SREBF2 was an independent prognostic factor, and we integrated it with other clinical factors to establish an effective prognostic nomogram. SREBF2 also played a synergistic role with its co-expressed genes in the prognostic process of rectal cancer. Furthermore, SREBF2 was demonstrated to be closely associated with multiple immune infiltrating cells, and immunotherapy-related genes and may be used to predict the response to immunotherapy. CONCLUSION: Our study suggests that LMAGs may serve as promising biomarkers in nCRT combined with immunotherapy for rectal cancer. However, large-scale clinical trials and biological experiments are necessary to demonstrate the efficacy and underlying mechanisms.",
+    "keywords": [
+      "Immunotherapy",
+      "Lipid metabolism",
+      "Machine learning",
+      "Neoadjuvant chemoradiotherapy",
+      "Rectal cancer"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Qiliang",
+        "Tao, Jialong",
+        "Xu, Yingjie",
+        "Shen, Yi",
+        "Wang, Yong",
+        "Jiao, Yang",
+        "Mao, Yiheng",
+        "Zhu, Yaqun",
+        "Liu, Yulong",
+        "Tian, Ye"
+      ],
+      "short_names": [
+        "Peng Q",
+        "Tao J",
+        "Xu Y",
+        "Shen Y",
+        "Wang Y",
+        "Jiao Y",
+        "Mao Y",
+        "Zhu Y",
+        "Liu Y",
+        "Tian Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China; State Key Laboratory of Radiation Medicine and Protection, Soochow University, Suzhou, China.",
+        "Department of Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Radiation Oncology, Suzhou Hospital, Affiliated Hospital of Medical School, Nanjing University, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China.",
+        "Re-Stem Biotechnology Co., Ltd, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China. Electronic address: szzhuyaqun@sina.com.",
+        "Department of Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Medical College of Soochow University, Suzhou, China. Electronic address: yulongliu2002@suda.edu.cn.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China. Electronic address: dryetian@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Qiliang",
+        "short_name": "Peng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China; State Key Laboratory of Radiation Medicine and Protection, Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Jialong",
+        "short_name": "Tao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yingjie",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yi",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Suzhou Hospital, Affiliated Hospital of Medical School, Nanjing University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Yang",
+        "short_name": "Jiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Re-Stem Biotechnology Co., Ltd, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Yiheng",
+        "short_name": "Mao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yaqun",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China. Electronic address: szzhuyaqun@sina.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Yulong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Medical College of Soochow University, Suzhou, China. Electronic address: yulongliu2002@suda.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tian, Ye",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China; Institute of Radiotherapy & Oncology, Soochow University, Suzhou, China. Electronic address: dryetian@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational oncology"
+    ],
+    "journal_abbrev": [
+      "Transl Oncol"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/25 07:42",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "42566104",
+      "42399563",
+      "42158872",
+      "41339875",
+      "40075399"
+    ],
+    "refs": [
+      "37139414",
+      "37064872",
+      "36988595",
+      "36917948",
+      "36905928",
+      "36856579",
+      "36569918",
+      "36522474",
+      "36505493",
+      "36441416",
+      "36370105",
+      "35906199",
+      "35501268",
+      "35263150",
+      "34830482",
+      "34742349",
+      "34580473",
+      "34417571",
+      "34127848",
+      "33945792",
+      "33790024",
+      "33359620",
+      "33125081",
+      "33119477",
+      "33059609",
+      "32913098",
+      "32493303",
+      "31978347",
+      "31922268",
+      "31813823",
+      "31509607",
+      "31243334",
+      "31213644",
+      "30903160",
+      "30523332",
+      "30395331",
+      "30307160",
+      "30127393",
+      "30034873",
+      "29971572",
+      "29625045",
+      "29147025",
+      "29136207",
+      "29045536",
+      "28849786",
+      "28768162",
+      "28611773",
+      "26685270",
+      "21546393",
+      "20812908",
+      "18323559",
+      "18202123"
+    ],
+    "similar": [
+      "38000147",
+      "29956755",
+      "25496125",
+      "35603163",
+      "34990823",
+      "37138287",
+      "37953237",
+      "31874536",
+      "35997210",
+      "36016621",
+      "25519018",
+      "30269327",
+      "30852633",
+      "31054555",
+      "33900006",
+      "35292026",
+      "25963525",
+      "36263216",
+      "32982448",
+      "36569918",
+      "36438711",
+      "38074647",
+      "37346073",
+      "33660299",
+      "30282671",
+      "34572869",
+      "29108299",
+      "32753901",
+      "26209749",
+      "26861291",
+      "36330335",
+      "33559307",
+      "36238279",
+      "31842156",
+      "32274615",
+      "29228455",
+      "37433373",
+      "30151676",
+      "30703795",
+      "36621808",
+      "37709314",
+      "34302510",
+      "35787802",
+      "37483592",
+      "36221784",
+      "37395868",
+      "33363048",
+      "25159232",
+      "27116012",
+      "33816284",
+      "33880038",
+      "34788143",
+      "35439946",
+      "28423701",
+      "25929810",
+      "34464382",
+      "33878824",
+      "36997107",
+      "30041962",
+      "35530332",
+      "33298472",
+      "30483843",
+      "32192307",
+      "35277532",
+      "36200095",
+      "36428666",
+      "28272347",
+      "37895091",
+      "37511236",
+      "37898442",
+      "27353106",
+      "36310703",
+      "38107762",
+      "28105657",
+      "34232421",
+      "25241658",
+      "27634904",
+      "35123891",
+      "36739228",
+      "31293979",
+      "36048198",
+      "31521947",
+      "33878826",
+      "34034478",
+      "32936987",
+      "35945555",
+      "30867256",
+      "34585288",
+      "33971705",
+      "37593098"
+    ],
+    "review": [
+      "38000147",
+      "36569918"
+    ],
+    "pmc": [
+      "10709626"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1936-5233(23)00214-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38000147/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38000147",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1936-5233(23)00214-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

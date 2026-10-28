@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "35456975",
+    "doi": "10.3390/ijms23084157",
+    "title": "Recognition of a Novel Gene Signature for Human Glioblastoma."
+  },
+  "content": {
+    "abstract": "Glioblastoma (GBM) is one of the most common malignant and incurable brain tumors. The identification of a gene signature for GBM may be helpful for its diagnosis, treatment, prediction of prognosis and even the development of treatments. In this study, we used the GSE108474 database to perform GSEA and machine learning analysis, and identified a 33-gene signature of GBM by examining astrocytoma or non-GBM glioma differential gene expression. The 33 identified signature genes included the overexpressed genes COL6A2, ABCC3, COL8A1, FAM20A, ADM, CTHRC1, PDPN, IBSP, MIR210HG, GPX8, MYL9 and PDLIM4, as well as the underexpressed genes CHST9, CSDC2, ENHO, FERMT1, IGFN1, LINC00836, MGAT4C, SHANK2 and VIPR2. Protein functional analysis by CELLO2GO implied that these signature genes might be involved in regulating various aspects of biological function, including anatomical structure development, cell proliferation and adhesion, signaling transduction and many of the genes were annotated in response to stress. Of these 33 signature genes, 23 have previously been reported to be functionally correlated with GBM; the roles of the remaining 10 genes in glioma development remain unknown. Our results were the first to reveal that GBM exhibited the overexpressed GPX8 gene and underexpressed signature genes including CHST9, CSDC2, ENHO, FERMT1, IGFN1, LINC00836, MGAT4C and SHANK2, which might play crucial roles in the tumorigenesis of different gliomas.",
+    "keywords": [
+      "astrocytoma",
+      "biomarker signature",
+      "gene signature",
+      "glioblastoma",
+      "glioma",
+      "machine learning",
+      "oligodendrocytoma",
+      "survival"
+    ],
+    "mesh_terms": [
+      "Biomarkers, Tumor/genetics/metabolism",
+      "*Brain Neoplasms/pathology",
+      "DNA-Binding Proteins/metabolism",
+      "Extracellular Matrix Proteins",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "*Glioblastoma/metabolism",
+      "*Glioma/metabolism",
+      "Humans",
+      "Intercellular Signaling Peptides and Proteins",
+      "LIM Domain Proteins/genetics",
+      "Membrane Proteins/metabolism",
+      "Neoplasm Proteins/metabolism",
+      "Peroxidases",
+      "Sulfotransferases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Chih-Hao",
+        "Wei, Sung-Tai",
+        "Liu, Jia-Jun",
+        "Chang, Yu-Jen",
+        "Lin, Yu-Feng",
+        "Yu, Chin-Sheng",
+        "Chang, Sunny Li-Yun"
+      ],
+      "short_names": [
+        "Lu CH",
+        "Wei ST",
+        "Liu JJ",
+        "Chang YJ",
+        "Lin YF",
+        "Yu CS",
+        "Chang SL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8363-6244",
+        "ORCID: 0000-0003-1998-3310"
+      ],
+      "affiliations": [
+        "The Ph.D. Program of Biotechnology and Biomedical Industry, China Medical University, Taichung 404333, Taiwan.",
+        "Department of Medical Laboratory Science and Biotechnology, China Medical University, Taichung 404333, Taiwan.",
+        "Graduate Institute of Biomedical Sciences, China Medical University, Taichung 404333, Taiwan.",
+        "Department of Neurosurgery, China Medical University Hospital, Taichung 404332, Taiwan.",
+        "The Ph.D. Program of Biotechnology and Biomedical Industry, China Medical University, Taichung 404333, Taiwan.",
+        "The Ph.D. Program of Biotechnology and Biomedical Industry, China Medical University, Taichung 404333, Taiwan.",
+        "Department of Medical Laboratory Science and Biotechnology, Asia University, Taichung 413305, Taiwan.",
+        "Department of Information Engineering and Computer Science, Feng Chia University, Taichung 407102, Taiwan.",
+        "Graduate Institute of Biomedical Sciences, China Medical University, Taichung 404333, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Chih-Hao",
+        "short_name": "Lu CH",
+        "identifiers": [
+          "0000-0002-8363-6244"
+        ],
+        "affiliations": [
+          "The Ph.D. Program of Biotechnology and Biomedical Industry, China Medical University, Taichung 404333, Taiwan.",
+          "Department of Medical Laboratory Science and Biotechnology, China Medical University, Taichung 404333, Taiwan.",
+          "Graduate Institute of Biomedical Sciences, China Medical University, Taichung 404333, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wei, Sung-Tai",
+        "short_name": "Wei ST",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, China Medical University Hospital, Taichung 404332, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Liu, Jia-Jun",
+        "short_name": "Liu JJ",
+        "identifiers": [],
+        "affiliations": [
+          "The Ph.D. Program of Biotechnology and Biomedical Industry, China Medical University, Taichung 404333, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Yu-Jen",
+        "short_name": "Chang YJ",
+        "identifiers": [],
+        "affiliations": [
+          "The Ph.D. Program of Biotechnology and Biomedical Industry, China Medical University, Taichung 404333, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Yu-Feng",
+        "short_name": "Lin YF",
+        "identifiers": [
+          "0000-0003-1998-3310"
+        ],
+        "affiliations": [
+          "Department of Medical Laboratory Science and Biotechnology, Asia University, Taichung 413305, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Yu, Chin-Sheng",
+        "short_name": "Yu CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Engineering and Computer Science, Feng Chia University, Taichung 407102, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Sunny Li-Yun",
+        "short_name": "Chang SL",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Sciences, China Medical University, Taichung 404333, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Apr 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/24 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "42521620",
+      "42366284",
+      "42192542",
+      "42180909",
+      "42099239",
+      "41794040",
+      "41347826",
+      "41096631",
+      "40696387",
+      "40002166",
+      "39948325",
+      "39941811",
+      "39757305",
+      "39697698",
+      "39561123",
+      "39467632",
+      "39125915",
+      "38976072",
+      "38894702",
+      "38790894",
+      "38159261",
+      "38150033",
+      "37761814",
+      "37434432",
+      "37370767",
+      "36505882",
+      "36052280"
+    ],
+    "refs": [
+      "34970298",
+      "34814915",
+      "34518802",
+      "34445128",
+      "34419719",
+      "34335936",
+      "34302977",
+      "34288803",
+      "34257545",
+      "34193921",
+      "34185076",
+      "34111521",
+      "34093386",
+      "33713320",
+      "33667657",
+      "33477668",
+      "33446260",
+      "33317536",
+      "33239887",
+      "33085022",
+      "32975378",
+      "32925027",
+      "32922954",
+      "32919304",
+      "32817494",
+      "32661924",
+      "32647207",
+      "32581558",
+      "32392183",
+      "32183406",
+      "32161779",
+      "32012786",
+      "32003685",
+      "31966804",
+      "31897128",
+      "31888886",
+      "31691815",
+      "31602219",
+      "31320900",
+      "31270134",
+      "31130992",
+      "30832246",
+      "30431099",
+      "30335789",
+      "30106394",
+      "29568396",
+      "29531073",
+      "29405201",
+      "29321659",
+      "28924212",
+      "28885661",
+      "28840962",
+      "28341197",
+      "28073370",
+      "27673330",
+      "27472461",
+      "27229531",
+      "27157931",
+      "26771021",
+      "26339454",
+      "26172926",
+      "25765001",
+      "25246098",
+      "24911789",
+      "24688313",
+      "24137015",
+      "24039914",
+      "23900722",
+      "23193258",
+      "22496589",
+      "21655262",
+      "21649900",
+      "21156230",
+      "21151387",
+      "18772890",
+      "17618441",
+      "17285623",
+      "16199517",
+      "15188009",
+      "11752295",
+      "11145597",
+      "10867818",
+      "9847135"
+    ],
+    "similar": [
+      "35456975",
+      "24158112",
+      "16623952",
+      "31896490",
+      "29299749",
+      "33553434",
+      "30414097",
+      "31233190",
+      "35049227",
+      "33469841",
+      "35413821",
+      "32594352",
+      "33406529",
+      "15720813",
+      "32616845",
+      "18260157",
+      "30401645",
+      "11454714",
+      "27476114",
+      "24220141",
+      "35436915",
+      "31377205",
+      "33230136",
+      "20735813",
+      "29393370",
+      "33917452",
+      "34812552",
+      "35283227",
+      "27495233",
+      "34301218",
+      "31075138",
+      "32572951",
+      "16314830",
+      "31710121",
+      "28481733",
+      "31419987",
+      "31322259",
+      "24146797",
+      "16103883",
+      "34367317",
+      "32323832",
+      "27770278",
+      "26712519",
+      "21595984",
+      "33167941",
+      "27713134",
+      "30341039",
+      "30894197",
+      "19732454",
+      "30898167",
+      "34897892",
+      "26967788",
+      "32467990",
+      "32065482",
+      "26295306",
+      "34211612",
+      "20530493",
+      "33970702",
+      "29864158",
+      "31157866",
+      "31270134",
+      "25498217",
+      "32111229",
+      "31298733",
+      "29614978",
+      "31960992",
+      "27429043",
+      "25487955",
+      "31617063",
+      "23986257",
+      "22162832",
+      "30864699",
+      "31215106",
+      "32079743",
+      "28365151",
+      "29473166",
+      "32626942",
+      "24078801",
+      "35241019",
+      "33389566",
+      "32642801",
+      "26692101",
+      "30953587",
+      "28380429",
+      "34118380",
+      "30816483",
+      "35690717",
+      "24601786",
+      "35044082",
+      "34211843",
+      "38947019",
+      "37795080",
+      "37333072",
+      "37790408",
+      "34068300"
+    ],
+    "review": [
+      "35456975",
+      "19732454",
+      "35690717"
+    ],
+    "pmc": [
+      "9029857"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23084157",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35456975/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35456975",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

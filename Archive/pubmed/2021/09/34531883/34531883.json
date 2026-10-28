@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "34531883",
+    "doi": "10.3389/fpls.2021.708286",
+    "title": "Network Inference of Transcriptional Regulation in Germinating Low Phytic Acid Soybean Seeds."
+  },
+  "content": {
+    "abstract": "The low phytic acid (lpa) trait in soybeans can be conferred by loss-of-function mutations in genes encoding myo-inositol phosphate synthase and two epistatically interacting genes encoding multidrug-resistance protein ATP-binding cassette (ABC) transporters. However, perturbations in phytic acid biosynthesis are associated with poor seed vigor. Since the benefits of the lpa trait, in terms of end-use quality and sustainability, far outweigh the negatives associated with poor seed performance, a fuller understanding of the molecular basis behind the negatives will assist crop breeders and engineers in producing variates with lpa and better germination rate. The gene regulatory network (GRN) for developing low and normal phytic acid soybean seeds was previously constructed, with genes modulating a variety of processes pertinent to phytic acid metabolism and seed viability being identified. In this study, a comparative time series analysis of low and normal phytic acid soybeans was carried out to investigate the transcriptional regulatory elements governing the transitional dynamics from dry seed to germinated seed. GRNs were reverse engineered from time series transcriptomic data of three distinct genotypic subsets composed of lpa soybean lines and their normal phytic acid sibling lines. Using a robust unsupervised network inference scheme, putative regulatory interactions were inferred for each subset of genotypes. These interactions were further validated by published regulatory interactions found in Arabidopsis thaliana and motif sequence analysis. Results indicate that lpa seeds have increased sensitivity to stress, which could be due to changes in phytic acid levels, disrupted inositol phosphate signaling, disrupted phosphate ion (Pi) homeostasis, and altered myo-inositol metabolism. Putative regulatory interactions were identified for the latter two processes. Changes in abscisic acid (ABA) signaling candidate transcription factors (TFs) putatively regulating genes in this process were identified as well. Analysis of the GRNs reveal altered regulation in processes that may be affecting the germination of lpa soybean seeds. Therefore, this work contributes to the ongoing effort to elucidate molecular mechanisms underlying altered seed viability, germination and field emergence of lpa crops, understanding of which is necessary in order to mitigate these problems.",
+    "keywords": [
+      "abscisic acid signaling",
+      "gene regulatory network",
+      "multidrug-resistance protein ABC transporter",
+      "myo-inositol phosphate synthase",
+      "phosphate homeostasis",
+      "phytic acid",
+      "seed germination",
+      "unsupervised machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "DeMers, Lindsay C",
+        "Raboy, Victor",
+        "Li, Song",
+        "Saghai Maroof, M A"
+      ],
+      "short_names": [
+        "DeMers LC",
+        "Raboy V",
+        "Li S",
+        "Saghai Maroof MA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, United States.",
+        "National Small Grains Germplasm Research Center, Agricultural Research Service (USDA), Aberdeen, ID, United States.",
+        "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, United States.",
+        "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "DeMers, Lindsay C",
+        "short_name": "DeMers LC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, United States."
+        ]
+      },
+      {
+        "full_name": "Raboy, Victor",
+        "short_name": "Raboy V",
+        "identifiers": [],
+        "affiliations": [
+          "National Small Grains Germplasm Research Center, Agricultural Research Service (USDA), Aberdeen, ID, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Song",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, United States."
+        ]
+      },
+      {
+        "full_name": "Saghai Maroof, M A",
+        "short_name": "Saghai Maroof MA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/18 06:00",
+    "fetched_at": "2026-09-27 23:40:32"
+  },
+  "links": {
+    "cites": [
+      "41788214",
+      "41315536",
+      "39710639",
+      "39572930",
+      "38205057"
+    ],
+    "refs": [
+      "32973854",
+      "32584851",
+      "32315334",
+      "31979164",
+      "31963418",
+      "31856712",
+      "30445315",
+      "29779236",
+      "29250090",
+      "28100173",
+      "28002408",
+      "27924042",
+      "27824062",
+      "27818791",
+      "27641093",
+      "27203113",
+      "27135325",
+      "26678836",
+      "26440435",
+      "25670768",
+      "25516281",
+      "25108476",
+      "24925680",
+      "24227677",
+      "23986496",
+      "23951554",
+      "23805876",
+      "23173819",
+      "23104886",
+      "22796662",
+      "22136565",
+      "21698461",
+      "21505066",
+      "21395595",
+      "21323773",
+      "20927193",
+      "20713515",
+      "20215587",
+      "20192755",
+      "20075913",
+      "20008513",
+      "19797057",
+      "19752887",
+      "19370321",
+      "19224193",
+      "19150482",
+      "19074628",
+      "18357620",
+      "17676037",
+      "17410169",
+      "17214507",
+      "16963520",
+      "16963519",
+      "16723010",
+      "16664485",
+      "16664296",
+      "16652951",
+      "16463103",
+      "16395584",
+      "15821988",
+      "15695463",
+      "15479708",
+      "15181210",
+      "15155892",
+      "14523526",
+      "12753973",
+      "12740579",
+      "12237375",
+      "12231689",
+      "11842168",
+      "11806832",
+      "11287670",
+      "10982449",
+      "10504579",
+      "9576785",
+      "8744267",
+      "8672884",
+      "7640527",
+      "3113327",
+      "1869811"
+    ],
+    "similar": [
+      "34531883",
+      "29250090",
+      "26678836",
+      "31856712",
+      "21395595",
+      "17701395",
+      "21698461",
+      "26911482",
+      "28100173",
+      "27135314",
+      "19021878",
+      "18726583",
+      "24280240",
+      "22733447",
+      "11842168",
+      "29576062",
+      "38761097",
+      "17676037",
+      "33991859",
+      "11299373",
+      "38531421",
+      "19370321",
+      "19601673",
+      "33228287",
+      "37043305",
+      "33888781",
+      "23692661",
+      "36555815",
+      "21668981",
+      "16395584",
+      "12586875",
+      "15918884",
+      "12620321",
+      "19648230",
+      "31948109",
+      "14523526",
+      "31426836",
+      "19323582",
+      "32973854",
+      "30541281",
+      "11500558",
+      "31899920",
+      "18052121",
+      "31566383",
+      "26259185",
+      "31123331",
+      "36336866",
+      "32542681",
+      "19224193",
+      "35526500",
+      "29963066",
+      "26902640",
+      "18603618",
+      "28664974",
+      "10982449",
+      "30073129",
+      "30977368",
+      "36614175",
+      "23460823",
+      "17219209",
+      "24908508",
+      "16664398",
+      "36646408",
+      "31925954",
+      "32584851",
+      "33302334",
+      "35319134",
+      "23844166",
+      "23818868",
+      "31979164",
+      "24467907",
+      "20960216",
+      "37022148",
+      "31461539",
+      "27135349",
+      "36142495",
+      "31771191",
+      "32647462",
+      "24163287",
+      "34152411",
+      "25231959",
+      "28700604",
+      "29771466",
+      "33043645",
+      "33017647",
+      "35275483",
+      "23573029",
+      "19306919",
+      "31092208",
+      "17138579",
+      "28587634",
+      "31766569",
+      "31123050",
+      "34674010",
+      "27110682",
+      "36423345",
+      "22292455",
+      "34715792",
+      "16665787",
+      "34603775",
+      "36931562",
+      "38974864",
+      "39040511"
+    ],
+    "review": [
+      "34531883",
+      "33991859",
+      "31948109",
+      "32973854",
+      "27135349",
+      "35275483"
+    ],
+    "pmc": [
+      "8438133"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34531883/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34531883",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2021.708286",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse172018",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

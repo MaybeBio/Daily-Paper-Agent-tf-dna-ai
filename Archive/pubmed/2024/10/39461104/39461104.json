@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "39461104",
+    "doi": "10.1016/j.compbiomed.2024.109279",
+    "title": "Screening of BindingDB database ligands against EGFR, HER2, Estrogen, Progesterone and NF-kappaB receptors based on machine learning and molecular docking."
+  },
+  "content": {
+    "abstract": "Breast cancer, the second most prevalent cancer among women worldwide, necessitates the exploration of novel therapeutic approaches. To target the four subgroups of breast cancer \"hormone receptor-positive and HER2-negative, hormone receptor-positive and HER2-positive, hormone receptor-negative and HER2-positive, and hormone receptor-negative and HER2-negative\" it is crucial to inhibit specific targets such as EGFR, HER2, ER, NF-kappaB, and PR. In this study, we evaluated various methods for binary and multiclass classification. Among them, the GA-SVM-SVM:GA-SVM-SVM model was selected with an accuracy of 0.74, an F1-score of 0.73, and an AUC of 0.92 for virtual screening of ligands from the BindingDB database. This model successfully identified 4454, 803, 438, and 378 ligands with over 90% precision in both active/inactive and target prediction for the classes of EGFR+HER2, ER, NF-kappaB, and PR, respectively, from the BindingDB database. Based on to the selected ligands, we created a dendrogram that categorizes different ligands based on their targets. This dendrogram aims to facilitate the exploration of chemical space for various therapeutic targets. Ligands that surpassed a 90% threshold in the product of activity probability and correct target selection probability were chosen for further investigation using molecular docking. The binding energy range for these ligands against their respective targets was calculated to be between -15 and -5 kcal/mol. Finally, based on general and common rules in medicinal chemistry, we selected 2, 3, 3, and 8 new ligands with high priority for further studies in the EGFR+HER2, ER, NF-kappaB, and PR classes, respectively.",
+    "keywords": [
+      "Breast cancer",
+      "Machine learning",
+      "Molecular docking",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*ErbB Receptors/metabolism/chemistry",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/chemistry",
+      "Ligands",
+      "*Machine Learning",
+      "*NF-kappa B/metabolism/chemistry",
+      "*Receptors, Estrogen/metabolism/chemistry",
+      "Female",
+      "Breast Neoplasms/metabolism",
+      "Receptors, Progesterone/metabolism/chemistry",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rezaee, Parham",
+        "Rezaee, Shahab",
+        "Maaza, Malik",
+        "Arab, Seyed Shahriar"
+      ],
+      "short_names": [
+        "Rezaee P",
+        "Rezaee S",
+        "Maaza M",
+        "Arab SS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biophysics, School of Biological Sciences, Tarbiat Modares University, Tehran, Iran; UNESCO-UNISA-iTLABS Africa Chair in Nanoscience and Nanotechnology (U2ACN2), College of Graduate Studies, University of South Africa (UNISA), Pretoria, South Africa.",
+        "Department of Biophysics, School of Biological Sciences, Tarbiat Modares University, Tehran, Iran.",
+        "UNESCO-UNISA-iTLABS Africa Chair in Nanoscience and Nanotechnology (U2ACN2), College of Graduate Studies, University of South Africa (UNISA), Pretoria, South Africa.",
+        "Department of Pediatrics, University of California, La Jolla, San Diego, 92093, CA, USA. Electronic address: ssarab@health.ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rezaee, Parham",
+        "short_name": "Rezaee P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, School of Biological Sciences, Tarbiat Modares University, Tehran, Iran; UNESCO-UNISA-iTLABS Africa Chair in Nanoscience and Nanotechnology (U2ACN2), College of Graduate Studies, University of South Africa (UNISA), Pretoria, South Africa."
+        ]
+      },
+      {
+        "full_name": "Rezaee, Shahab",
+        "short_name": "Rezaee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, School of Biological Sciences, Tarbiat Modares University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Maaza, Malik",
+        "short_name": "Maaza M",
+        "identifiers": [],
+        "affiliations": [
+          "UNESCO-UNISA-iTLABS Africa Chair in Nanoscience and Nanotechnology (U2ACN2), College of Graduate Studies, University of South Africa (UNISA), Pretoria, South Africa."
+        ]
+      },
+      {
+        "full_name": "Arab, Seyed Shahriar",
+        "short_name": "Arab SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California, La Jolla, San Diego, 92093, CA, USA. Electronic address: ssarab@health.ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/27 17:12",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "41836157",
+      "41113205"
+    ],
+    "refs": [],
+    "similar": [
+      "39461104",
+      "41459849",
+      "33525984",
+      "41405264",
+      "24591826",
+      "40480106",
+      "17001676",
+      "39985907",
+      "17620428",
+      "41895875",
+      "37409735",
+      "38648537",
+      "40411320",
+      "35409325",
+      "30613307",
+      "18098228",
+      "40806603",
+      "40143808",
+      "10900013",
+      "27619909",
+      "29330212",
+      "37713334",
+      "41061345",
+      "33345701",
+      "39535182",
+      "30128822",
+      "25736840",
+      "35711896",
+      "24652232",
+      "34957309",
+      "41524544",
+      "36235128",
+      "25880075",
+      "26138872",
+      "24065473",
+      "19239686",
+      "22370627",
+      "19432961",
+      "32592349",
+      "19620495",
+      "34673584",
+      "25966732",
+      "27743431",
+      "40147847",
+      "41627261",
+      "30694768",
+      "30138940",
+      "37947928",
+      "33373867",
+      "25174527",
+      "40936892",
+      "30927939",
+      "29844572",
+      "38234016",
+      "39924532",
+      "16757721",
+      "41213110",
+      "41898839",
+      "19898422",
+      "28114999",
+      "19629680",
+      "38334133",
+      "38615482",
+      "33889251",
+      "20087739",
+      "32423453",
+      "40108914",
+      "27315045",
+      "31628534",
+      "23302996",
+      "34244052",
+      "25520097",
+      "41835980",
+      "17700572",
+      "22727195",
+      "38021219",
+      "40597935",
+      "38822357",
+      "26437901",
+      "22903686",
+      "28975433",
+      "41637793",
+      "41744185",
+      "39596465",
+      "30415281",
+      "26279132",
+      "25012047",
+      "36175898",
+      "33667252",
+      "41443030",
+      "31410192",
+      "34161883",
+      "23317209",
+      "30415122",
+      "22679488",
+      "38641451",
+      "40341568",
+      "24004841",
+      "41590326",
+      "21965309"
+    ],
+    "review": [
+      "39461104",
+      "17001676",
+      "41524544"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(24)01364-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(24)01364-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt3sq9p7w5",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

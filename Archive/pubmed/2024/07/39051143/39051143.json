@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "39051143",
+    "doi": "10.1142/S0219720024500173",
+    "title": "Construction of transcript regulation mechanism prediction models based on binding motif environment of transcription factor AoXlnR in Aspergillus oryzae."
+  },
+  "content": {
+    "abstract": "DNA-binding transcription factors (TFs) play a central role in transcriptional regulation mechanisms, mainly through their specific binding to target sites on the genome and regulation of the expression of downstream genes. Therefore, a comprehensive analysis of the function of these TFs will lead to the understanding of various biological mechanisms. However, the functions of TFs in vivo are diverse and complicated, and the identified binding sites on the genome are not necessarily involved in the regulation of downstream gene expression. In this study, we investigated whether DNA structural information around the binding site of TFs can be used to predict the involvement of the binding site in the regulation of the expression of genes located downstream of the binding site. Specifically, we calculated the structural parameters based on the DNA shape around the DNA binding motif located upstream of the gene whose expression is directly regulated by one TF AoXlnR from Aspergillus oryzae, and showed that the presence or absence of expression regulation can be predicted from the sequence information with high accuracy ([Formula: see text]-1.0) by machine learning incorporating these parameters.",
+    "keywords": [
+      "Aspergillus oryzae",
+      "Bioinformatics",
+      "machine learning",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "*Aspergillus oryzae/genetics/metabolism",
+      "Binding Sites",
+      "*Gene Expression Regulation, Fungal",
+      "Fungal Proteins/genetics/metabolism/chemistry",
+      "Machine Learning",
+      "Nucleotide Motifs",
+      "Computational Biology/methods",
+      "Models, Genetic",
+      "DNA, Fungal/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oka, Hiroya",
+        "Kojima, Takaaki",
+        "Kato, Ryuji",
+        "Ihara, Kunio",
+        "Nakano, Hideo"
+      ],
+      "short_names": [
+        "Oka H",
+        "Kojima T",
+        "Kato R",
+        "Ihara K",
+        "Nakano H"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-6791-4148",
+        "ORCID: 0000-0001-7282-121X",
+        "ORCID: 0000-0003-3604-9407",
+        "ORCID: 0000-0002-1831-3617",
+        "ORCID: 0000-0001-6133-9794"
+      ],
+      "affiliations": [
+        "Department of Applied Biosciences, Graduate School of Bioagricultural Sciences, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan.",
+        "Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "Department of Applied Biosciences, Graduate School of Bioagricultural Sciences, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan.",
+        "Department of Agrobiological Resources, Faculty of Agriculture, Meijo University, Shiogamaguchi, Tempaku Nagoya 468-8502, Japan.",
+        "Department of Basic Medicinal Sciences, Graduate School of Pharmaceutical Sciences, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan.",
+        "Center for Gene Research, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan.",
+        "Department of Applied Biosciences, Graduate School of Bioagricultural Sciences, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Oka, Hiroya",
+        "short_name": "Oka H",
+        "identifiers": [
+          "0009-0007-6791-4148"
+        ],
+        "affiliations": [
+          "Department of Applied Biosciences, Graduate School of Bioagricultural Sciences, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan.",
+          "Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Kojima, Takaaki",
+        "short_name": "Kojima T",
+        "identifiers": [
+          "0000-0001-7282-121X"
+        ],
+        "affiliations": [
+          "Department of Applied Biosciences, Graduate School of Bioagricultural Sciences, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan.",
+          "Department of Agrobiological Resources, Faculty of Agriculture, Meijo University, Shiogamaguchi, Tempaku Nagoya 468-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Kato, Ryuji",
+        "short_name": "Kato R",
+        "identifiers": [
+          "0000-0003-3604-9407"
+        ],
+        "affiliations": [
+          "Department of Basic Medicinal Sciences, Graduate School of Pharmaceutical Sciences, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan."
+        ]
+      },
+      {
+        "full_name": "Ihara, Kunio",
+        "short_name": "Ihara K",
+        "identifiers": [
+          "0000-0002-1831-3617"
+        ],
+        "affiliations": [
+          "Center for Gene Research, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakano, Hideo",
+        "short_name": "Nakano H",
+        "identifiers": [
+          "0000-0001-6133-9794"
+        ],
+        "affiliations": [
+          "Department of Applied Biosciences, Graduate School of Bioagricultural Sciences, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of bioinformatics and computational biology"
+    ],
+    "journal_abbrev": [
+      "J Bioinform Comput Biol"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/26 12:39",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "38392785"
+    ],
+    "refs": [],
+    "similar": [
+      "39051143",
+      "30621576",
+      "25883143",
+      "19777228",
+      "26291518",
+      "12297320",
+      "41118253",
+      "26573537",
+      "21514215",
+      "11848678",
+      "30737353",
+      "10830498",
+      "10471703",
+      "21342785",
+      "18500999",
+      "26960315",
+      "19158363",
+      "38211972",
+      "29654355",
+      "26160164",
+      "9726865",
+      "23391935",
+      "26539735",
+      "18448366",
+      "22189060",
+      "16673111",
+      "30637636",
+      "11459183",
+      "15727819",
+      "16597938",
+      "32072240",
+      "10743566",
+      "32220376",
+      "35041649",
+      "20337533",
+      "23622718",
+      "20960969",
+      "28058997",
+      "33155715",
+      "20057127",
+      "22692006",
+      "33876331",
+      "34643660",
+      "40240607",
+      "31541261",
+      "19332290",
+      "27520586",
+      "30790620",
+      "16362910",
+      "26126743",
+      "32054475",
+      "20350613",
+      "39964163",
+      "25048221",
+      "30731118",
+      "19956545",
+      "27567672",
+      "23209563",
+      "34245563",
+      "17178246",
+      "31372637",
+      "17341818",
+      "31742324",
+      "25280730",
+      "19850146",
+      "40985633",
+      "14507380",
+      "9758790",
+      "25775564",
+      "32561986",
+      "1569930",
+      "39541188",
+      "23889147",
+      "12553937",
+      "40607808",
+      "22146299",
+      "12882555",
+      "8312971",
+      "21551246",
+      "14675766",
+      "28865010",
+      "34176737",
+      "15137914",
+      "39589130",
+      "27917435",
+      "1339327",
+      "15388966",
+      "20849972",
+      "33372147",
+      "12381299",
+      "9697188",
+      "25674804",
+      "23272209",
+      "1281415",
+      "11243777",
+      "32783085",
+      "29427255",
+      "27050120",
+      "41271683",
+      "10905428"
+    ],
+    "review": [
+      "39051143",
+      "38211972",
+      "17341818"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.worldscientific.com/doi/10.1142/S0219720024500173?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

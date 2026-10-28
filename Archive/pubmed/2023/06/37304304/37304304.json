@@ -1,0 +1,454 @@
+{
+  "identity": {
+    "pmid": "37304304",
+    "doi": "10.3389/fimmu.2023.1094042",
+    "title": "Bulk and single-cell RNA-sequencing analyses along with abundant machine learning methods identify a novel monocyte signature in SKCM."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Global patterns of immune cell communications in the immune microenvironment of skin cutaneous melanoma (SKCM) haven't been well understood. Here we recognized signaling roles of immune cell populations and main contributive signals. We explored how multiple immune cells and signal paths coordinate with each other and established a prognosis signature based on the key specific biomarkers with cellular communication. METHODS: The single-cell RNA sequencing (scRNA-seq) dataset was downloaded from the Gene Expression Omnibus (GEO) database, in which various immune cells were extracted and re-annotated according to cell markers defined in the original study to identify their specific signs. We computed immune-cell communication networks by calculating the linking number or summarizing the communication probability to visualize the cross-talk tendency in different immune cells. Combining abundant analyses of communication networks and identifications of communication modes, all networks were quantitatively characterized and compared. Based on the bulk RNA sequencing data, we trained specific markers of hub communication cells through integration programs of machine learning to develop new immune-related prognostic combinations. RESULTS: An eight-gene monocyte-related signature (MRS) has been built, confirmed as an independent risk factor for disease-specific survival (DSS). MRS has great predictive values in progression free survival (PFS) and possesses better accuracy than traditional clinical variables and molecular features. The low-risk group has better immune functions, infiltrated with more lymphocytes and M1 macrophages, with higher expressions of HLA, immune checkpoints, chemokines and costimulatory molecules. The pathway analysis based on seven databases confirms the biological uniqueness of the two risk groups. Additionally, the regulon activity profiles of 18 transcription factors highlight possible differential regulatory patterns between the two risk groups, suggesting epigenetic event-driven transcriptional networks may be an important distinction. MRS has been identified as a powerful tool to benefit SKCM patients. Moreover, the IFITM3 gene has been identified as the key gene, validated to express highly at the protein level via the immunohistochemical assay in SKCM. CONCLUSION: MRS is accurate and specific in evaluating SKCM patients' clinical outcomes. IFITM3 is a potential biomarker. Moreover, they are promising to improve the prognosis of SKCM patients.",
+    "keywords": [
+      "IFITM3",
+      "machine learning",
+      "monocyte",
+      "single-cell",
+      "skin cutaneous melanoma",
+      "tumor immune microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Melanoma/diagnosis/genetics",
+      "*Skin Neoplasms",
+      "Monocytes",
+      "Macrophages",
+      "Tumor Microenvironment",
+      "Membrane Proteins",
+      "RNA-Binding Proteins",
+      "Cutaneous Malignant Melanoma"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yuyao",
+        "Zhang, Haoxue",
+        "Mao, Yan",
+        "Shi, Yangyang",
+        "Wang, Xu",
+        "Shi, Shaomin",
+        "Hu, Delin",
+        "Liu, Shengxiu"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Zhang H",
+        "Mao Y",
+        "Shi Y",
+        "Wang X",
+        "Shi S",
+        "Hu D",
+        "Liu S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Burns, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Dermatovenerology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Key Laboratory of Dermatology, Ministry of Education, Hefei, Anhui, China.",
+        "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Dermatology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Emergency Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Dermatology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Burns, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Dermatovenerology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Key Laboratory of Dermatology, Ministry of Education, Hefei, Anhui, China.",
+        "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, Anhui Medical University, Hefei, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yuyao",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haoxue",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatovenerology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Key Laboratory of Dermatology, Ministry of Education, Hefei, Anhui, China.",
+          "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Yan",
+        "short_name": "Mao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yangyang",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Shaomin",
+        "short_name": "Shi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Delin",
+        "short_name": "Hu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shengxiu",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatovenerology, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Key Laboratory of Dermatology, Ministry of Education, Hefei, Anhui, China.",
+          "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, Anhui Medical University, Hefei, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/12 06:42",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "42507213",
+      "42353763",
+      "42253503",
+      "41003812",
+      "39440060",
+      "38817855",
+      "38663915",
+      "38297270",
+      "38173195",
+      "38099857"
+    ],
+    "refs": [
+      "36550535",
+      "36309694",
+      "36191966",
+      "35981602",
+      "35941699",
+      "35865532",
+      "35790864",
+      "35773407",
+      "35664780",
+      "35572582",
+      "35145098",
+      "34936229",
+      "34503719",
+      "34447611",
+      "34062119",
+      "34059243",
+      "33982546",
+      "33866228",
+      "33835452",
+      "33811125",
+      "33750785",
+      "33597522",
+      "33259885",
+      "33218971",
+      "33179754",
+      "32888471",
+      "32810447",
+      "32671117",
+      "32547744",
+      "32522692",
+      "32479800",
+      "32243801",
+      "31866016",
+      "31852866",
+      "31350295",
+      "31126321",
+      "31024627",
+      "30923336",
+      "30643263",
+      "30610226",
+      "30527396",
+      "30388455",
+      "30238891",
+      "30087833",
+      "30040090",
+      "29628290",
+      "29532857",
+      "29141660",
+      "29092952",
+      "29028110",
+      "28787399",
+      "28741528",
+      "28434398",
+      "28212749",
+      "27924014",
+      "27908289",
+      "26845449",
+      "26771021",
+      "26277601",
+      "25885228",
+      "25867923",
+      "25866567",
+      "25822800",
+      "23182705",
+      "21159506",
+      "20598126",
+      "19847166",
+      "16632515"
+    ],
+    "similar": [
+      "37304304",
+      "34291650",
+      "38795156",
+      "38279987",
+      "36211371",
+      "32799111",
+      "33168410",
+      "37955686",
+      "34763233",
+      "34660598",
+      "34613934",
+      "33031392",
+      "35957812",
+      "32902917",
+      "38006451",
+      "36353635",
+      "37004045",
+      "34604952",
+      "37847069",
+      "38660305",
+      "33164879",
+      "37930439",
+      "34384498",
+      "39167030",
+      "38766879",
+      "37031510",
+      "36032150",
+      "36443341",
+      "36973787",
+      "36741909",
+      "38286055",
+      "34087900",
+      "36173063",
+      "31138334",
+      "36371223",
+      "38077400",
+      "36353107",
+      "33169786",
+      "35899194",
+      "35940218",
+      "35171924",
+      "36438905",
+      "32508531",
+      "38881438",
+      "37638981",
+      "37401939",
+      "35870015",
+      "34986671",
+      "34755462",
+      "37215879",
+      "34903008",
+      "35543550",
+      "33877656",
+      "37945816",
+      "34220795",
+      "38364052",
+      "39093712",
+      "34675611",
+      "37267825",
+      "37138850",
+      "34247183",
+      "35607442",
+      "34844613",
+      "32860274",
+      "36466837",
+      "36793711",
+      "36675674",
+      "34858419",
+      "37010617",
+      "34930258",
+      "35300113",
+      "34795805",
+      "36830707",
+      "32370744",
+      "38560689",
+      "37147395",
+      "31519199",
+      "38082384",
+      "35373463",
+      "39051739",
+      "37875556",
+      "33836680",
+      "38363903",
+      "38879775",
+      "33364806",
+      "34517481",
+      "37296415",
+      "37944578",
+      "36284715",
+      "35057634",
+      "37426410",
+      "39267668",
+      "38911384",
+      "38979407",
+      "37312186",
+      "39132169",
+      "35116494",
+      "37752452",
+      "38896289",
+      "36059641",
+      "36818162",
+      "35991567",
+      "35637872",
+      "35312867",
+      "36912943",
+      "34722301",
+      "33777046",
+      "36034394",
+      "36631465",
+      "35345444",
+      "35361740",
+      "36061054",
+      "36248853",
+      "33182068",
+      "38811681",
+      "35530289",
+      "36474171",
+      "34621670",
+      "36341357",
+      "35855761",
+      "37189408",
+      "36110204",
+      "37213285",
+      "34471502",
+      "36424614",
+      "35186949",
+      "33976978",
+      "37449151",
+      "32199022",
+      "37227816",
+      "38460046",
+      "38863979",
+      "38444758",
+      "38230203",
+      "38570935",
+      "38017056",
+      "37186446",
+      "38591163",
+      "36897727",
+      "37772659",
+      "37229623",
+      "37996489",
+      "38555737",
+      "38770150",
+      "39071565",
+      "39040415",
+      "37467716",
+      "38362682",
+      "37848979",
+      "38509896",
+      "39355378",
+      "39377494",
+      "39044041",
+      "38500821",
+      "37809065",
+      "37563418",
+      "34900395",
+      "38183207",
+      "33336197",
+      "37693904",
+      "37438390",
+      "38818125",
+      "37719139",
+      "36824286"
+    ],
+    "review": [
+      "37304304",
+      "37809065"
+    ],
+    "pmc": [
+      "10248046"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/skincancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Skin Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37304304/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37304304",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-DRA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1094042",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

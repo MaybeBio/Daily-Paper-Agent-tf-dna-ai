@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, declarations) as provided
+- **Assessment boundary** Scientific content and technical soundness of the claims as presented; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors report that PARP1 inhibitors bind to PARP1 in the absence of DNA, induce compaction and loss of conformational flexibility of PARP1 as observed by AFM and DLS, and that pre-incubation with high-potency trapping inhibitors (olaparib, talazoparib) reduces subsequent PARP1 binding to single-strand break DNA, as measured by single-molecule counting and fluorescence polarization.
+- **Visible evidence base** Methods for AFM, HS-AFM, DLS, FP; Results sections with figures referenced (Fig. 1A-E, Fig. 2A-C, Fig. 3A-B, Fig. 4C); Supplementary figures and tables referenced but not provided
+- **Missing materials affecting confidence** Figures and supplementary materials (Supplementary Videos 1-6, Supplementary Figures 1-5, Supplementary Tables S1-S2) are referenced but not included in the provided text; raw data and statistical outputs are not available; detailed DLS methodology is incomplete
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in PARP inhibitor biology, namely whether inhibitor effects on PARP1 extend beyond the DNA-bound state and whether these effects could contribute to drug mechanism of action. The use of HS-AFM to visualize conformational dynamics of full-length PARP1 is technically ambitious and potentially valuable. However, the evidence as presented is incomplete in several critical respects. The central claim that inhibitor-induced compaction in the absence of DNA reduces subsequent DNA binding is supported by correlative data, but the mechanistic link is not directly demonstrated. The distinction between PARP1 and PARP2 responses is interesting but under-interpreted. Several technical details and control experiments are missing or inadequately described, and the statistical treatment is not fully reported. The manuscript is clearly written and the conceptual framing is strong, but the current evidence base does not fully establish the proposed DNA-independent mechanism of action.
+- **Who would be interested in the results, and why** Researchers in DNA repair biology, cancer pharmacology, and structural biology of multi-domain proteins. The findings could be relevant to understanding the clinical differences among PARP inhibitors and to the design of next-generation inhibitors. The methodological approach using HS-AFM for dynamic conformational analysis of a therapeutic target may also interest biophysicists and structural biologists.
+- **Major Strengths** The use of single-molecule HS-AFM to directly visualize conformational dynamics of full-length PARP1 is a significant technical achievement. The observation that inhibitors can affect PARP1 conformation in the absence of DNA is novel and potentially important. The correlation between inhibitor trapping potency and degree of compaction is an interesting and potentially clinically relevant finding. The inclusion of PARP2 as a comparator is a useful design element. The bulk FP assays provide complementary evidence to the single-molecule AFM data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for causal claim
+  - **Claim pointer** The authors claim that inhibitor-induced PARP1 compaction in the absence of DNA reduces subsequent binding of PARP1 to single-strand breaks, implying a causal relationship between the observed conformational change and reduced DNA binding.
+  - **Evidence pointer** Results sections "PARP1/PARP2 compaction studies under AFM" and "PARP1-DNA complex studies"; Fig. 1 and Fig. 3
+  - **Concern** The manuscript presents correlative data showing that inhibitors that cause greater compaction also cause greater reduction in DNA binding. However, no direct evidence is provided that the compaction itself is the cause of reduced DNA binding. Alternative explanations, such as steric occlusion of the DNA binding site by the inhibitor, or inhibitor-induced allosteric changes that independently affect both compaction and DNA binding, are not excluded. The recovery experiments (Fig. 4C) demonstrate that fresh PARP1 can restore binding, but this does not distinguish between the proposed mechanism and simple competitive inhibition.
+  - **Why it matters** The central claim of the manuscript is that a DNA-independent mechanism of action exists, distinct from the canonical trapping mechanism. If the reduced DNA binding is simply due to inhibitor occupancy of the active site affecting DNA binding through known allosteric pathways, the novelty of the claim is substantially diminished.
+  - **Resolution test** Provide direct evidence that the compacted conformation is incompatible with DNA binding, for example by correlating the degree of compaction with DNA binding affinity in a quantitative manner, or by using mutant PARP1 that cannot undergo compaction but retains inhibitor binding, and showing that DNA binding is not reduced in this mutant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation of AFM measurements
+  - **Claim pointer** The authors report significant compaction of PARP1 upon inhibitor binding based on AFM volume and DLS diameter measurements.
+  - **Evidence pointer** Results section "PARP1/PARP2 compaction studies under AFM"; Fig. 1B-E; Supplementary Table S1
+  - **Concern** The AFM volume measurements of soft, flexible proteins are known to be subject to systematic errors, including tip convolution, deformation, and substrate interactions. The manuscript does not report calibration of the volume measurements against a standard, nor does it describe how the threshold for particle identification was set and validated. The DLS measurements are presented as confirmation, but the DLS methodology is incompletely described (buffer conditions, protein concentration, data analysis model). The discrepancy between the expected two-fold difference in volume between PARP1 and PARP2 and the observed smaller difference is attributed to "inherent uncertainty" but this is not quantified or addressed systematically.
+  - **Why it matters** The quantitative claims about the degree of compaction and the differences between inhibitors rely on the accuracy and reproducibility of these measurements. If the measurements are not properly calibrated, the correlation between compaction and trapping potency may be artefactual.
+  - **Resolution test** Provide calibration of AFM volume measurements using proteins of known molecular weight under identical conditions. Report the reproducibility of the measurements across independent experiments and batches of protein. Provide full DLS methodology including autocorrelation analysis and size distribution fitting.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of HS-AFM dynamics data
+  - **Claim pointer** The authors interpret HS-AFM data as showing that untreated PARP1 is conformationally flexible, while talazoparib-treated PARP1 is static and compact.
+  - **Evidence pointer** Results section "High-speed AFM highlights inhibitor-induced PARP1 conformational regulation"; Fig. 2A-C; Supplementary Videos 1-6
+  - **Concern** The circularity analysis is presented as a measure of conformational flexibility, but the relationship between circularity variance and actual conformational dynamics is not established. The time resolution of the HS-AFM (frame rate not stated) may not capture the relevant conformational transitions. The classification of PARP1 into "single lobed, two lobed and extended" conformations is qualitative, and the criteria for this classification are not described. The number of proteins analyzed and the number of frames per protein are not reported.
+  - **Why it matters** The claim that inhibitors reduce conformational flexibility is central to the proposed mechanism. If the HS-AFM data are not quantitatively robust, this claim is weakened.
+  - **Resolution test** Provide quantitative analysis of conformational transitions, such as dwell times in different conformational states, transition rates, and the distribution of circularity values over time for individual proteins. Report the number of proteins and frames analyzed, and the frame rate of the HS-AFM.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The authors report significant differences between conditions based on Student's t-tests.
+  - **Evidence pointer** Statistics section; Fig. 1B-C, Fig. 2B-C, Fig. 3B
+  - **Concern** The number of biological and technical replicates is not stated for most experiments. The statistical tests are described only as "Student's t-tests" without specifying whether they were paired or unpaired, one- or two-tailed, and whether corrections for multiple comparisons were applied. The variance within groups is not reported. For the FP dose-response curves, the fitting procedure is described but the number of independent experiments and the error estimates for the fitted parameters are not provided.
+  - **Why it matters** Without proper statistical reporting, the reliability of the claimed differences between conditions cannot be assessed.
+  - **Resolution test** Provide full statistical details for each experiment, including the number of replicates, the type of test used, the test statistic, and the exact p-values. For dose-response curves, report the number of independent experiments and the confidence intervals for the fitted parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** DLS methodology
+  - **Evidence pointer** Methods section "Dynamic Light Scattering"
+  - **Issue** The DLS methods section is incomplete. It does not state the protein concentration, buffer composition, temperature, or the data analysis model used to derive particle diameters.
+  - **Required correction** Provide full details of the DLS experimental conditions and data analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of PARP2 data
+  - **Affected element** Fig. 1C, Fig. 1E, Fig. 2B-C
+  - **Evidence pointer** Results sections on compaction and HS-AFM
+  - **Issue** The PARP2 data are presented as a contrast to PARP1, but the interpretation is underdeveloped. The authors note that PARP2 lacks the DNA binding domain and shows less pronounced changes, but do not discuss what this implies for the mechanism of compaction or for the role of the DNA binding domain in the observed effects.
+  - **Required correction** Expand the discussion of PARP2 results and their implications for the proposed mechanism.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Fig. 3B and Fig. 4C
+  - **Evidence pointer** Results sections on PARP1-DNA complex studies and FP assays
+  - **Issue** The figure legends are not provided in the manuscript text, making it difficult to interpret the figures. The axis labels and units for the FP data are not described.
+  - **Required correction** Provide complete figure legends and ensure all axes are labeled with units.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract; Results section on HS-AFM
+  - **Issue** The term "static" is used to describe talazoparib-treated PARP1, but the HS-AFM data show that the protein is still dynamic, just less so than untreated PARP1. The term "static" is misleading.
+  - **Required correction** Use more precise language, such as "reduced conformational dynamics" or "more compact and less flexible".
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal claim not directly supported), R1-M2 (AFM volume calibration and DLS methodology incomplete), R1-M3 (HS-AFM dynamics quantification insufficient)
+- **Assessment against Nature-style criteria** Originality: The claim of a DNA-independent mechanism of action for PARP inhibitors is conceptually novel and could shift thinking in the field. However, the novelty is partially undercut by the lack of direct mechanistic evidence. Scientific importance: The question of how PARP inhibitors work beyond catalytic inhibition and trapping is clinically relevant and important. Interdisciplinary readership: The topic bridges cancer biology, pharmacology, and biophysics, and the HS-AFM approach could attract interest from structural biologists. Technical soundness: The core AFM methodology is appropriate but incompletely validated and reported. The FP assays are standard but the statistical reporting is insufficient. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with AFM terminology. Overall, the manuscript has potential but does not currently meet the standard of evidence required for a high-impact general journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the methodology is potentially powerful, but the current evidence does not fully establish the proposed DNA-independent mechanism. The authors should address the causal link between compaction and reduced DNA binding, provide proper calibration and validation of the AFM measurements, and improve the statistical reporting.
+
+## Risk / unsupported claims
+- The claim that inhibitor-induced compaction causes reduced DNA binding is not directly supported; only correlative evidence is presented.
+- The claim that PARP1 compaction occurs "in the absence of DNA" is supported by the data, but the physiological relevance of this finding is not established.
+- The claim that the observed conformational changes are due to "reverse allostery" is inferred but not directly demonstrated.
+- The claim that the DNA binding domain is responsible for the observed compaction is speculative and not directly tested.
+- The quantitative degree of compaction and the differences between inhibitors are not reliably established due to missing calibration and methodology details.
+- The claim that PARP2 shows less pronounced changes is based on data that are not fully reported.
+- The recovery experiments (Fig. 4C) are described but the results are not fully interpreted in the context of the proposed mechanism.

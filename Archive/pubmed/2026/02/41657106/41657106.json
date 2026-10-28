@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "41657106",
+    "doi": "10.1002/art.70085",
+    "title": "Cystathionine gamma-Lyase-Dependent S-Sulfhydration of Smad3: A Novel Target to Alleviate Fibrosis in Systemic Sclerosis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The cystathionine gamma-lyase (CSE)/hydrogen sulfide (H(2)S) axis has emerged as a key regulator in tissue fibrogenesis. This study aimed to explore the role of the CSE/H(2)S axis in systemic sclerosis (SSc) and to investigate its underlying mechanisms to identify promising therapeutic targets. METHODS: CSE/H(2)S levels were assessed in serum samples from 25 patients with SSc and 28 healthy controls. Human dermal fibroblasts from patients with SSc and healthy controls were used for functional studies, including propargylglycine (CSE inhibitor) treatment, Gyy4137, a slow-releasing hydrogen sulfide donor, CSE silencing, and CSE overexpression, combined with liquid chromatography-tandem mass spectrometry (LC-MS/MS)-based S-sulfhydration proteomics. Molecular dynamics simulations were performed to study the effects of S-sulfhydration on protein structure, and an Smad3 C121S (cysteine [Cys] 121 mutated to Ser) mutant was generated to verify the function targets of S-sulfhydration. In vivo, bleomycin-induced mouse models of skin and lung fibrosis were constructed to evaluate the effects of CSE overexpression. RESULTS: In human samples, CSE/H(2)S levels were reduced in SSc. CSE inhibition promoted extracellular matrix deposition. S-sulfhydration proteomics showed that S-sulfhydration levels were globally reduced in SSc compared to controls. CSE overexpression increased S-sulfhydration on Smad3, suppressed transforming growth factor beta 1 (TGFbeta1)/Smad3 signaling, mitigating skin fibrosis. Notably, Cys121 on Smad3, identified as a pivotal target for S-sulfhydration by proteomics, was shown to fine-tune its MH1 domain, with its mutation impairing the antifibrotic effects. In mice, CSE overexpression attenuated bleomycin-induced skin and lung fibrosis. CONCLUSION: Smad3 S-sulfhydration mediates the antifibrotic effect of CSE in SSc, highlighting it as a critical mechanism and promising therapeutic target.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Scleroderma, Systemic/metabolism/pathology",
+      "*Cystathionine gamma-Lyase/metabolism/antagonists & inhibitors",
+      "*Smad3 Protein/metabolism/genetics",
+      "Animals",
+      "Mice",
+      "Fibroblasts/metabolism/drug effects",
+      "Female",
+      "*Hydrogen Sulfide/metabolism/blood",
+      "Male",
+      "Bleomycin",
+      "Glycine/analogs & derivatives/pharmacology",
+      "Fibrosis/metabolism",
+      "Middle Aged",
+      "Skin/pathology/metabolism",
+      "Alkynes/pharmacology",
+      "Disease Models, Animal",
+      "Adult",
+      "*Pulmonary Fibrosis/metabolism",
+      "Organothiophosphorus Compounds/pharmacology",
+      "Morpholines/pharmacology",
+      "Case-Control Studies",
+      "Tandem Mass Spectrometry",
+      "Proteomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jiani",
+        "Xiao, Yangfan",
+        "Liu, Licong",
+        "Xiao, Xuan",
+        "Pi, Zixin",
+        "Song, Zehong",
+        "Yang, Qianyu",
+        "Zeng, Zhuotong",
+        "Zhu, Ruixuan",
+        "Shi, Yaqian",
+        "Xiao, Rong"
+      ],
+      "short_names": [
+        "Liu J",
+        "Xiao Y",
+        "Liu L",
+        "Xiao X",
+        "Pi Z",
+        "Song Z",
+        "Yang Q",
+        "Zeng Z",
+        "Zhu R",
+        "Shi Y",
+        "Xiao R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6214-8057"
+      ],
+      "affiliations": [
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Anesthesiology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Clinical Nursing Teaching and Research Section, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Medical Genetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jiani",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yangfan",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Clinical Nursing Teaching and Research Section, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Licong",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xuan",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Pi, Zixin",
+        "short_name": "Pi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zehong",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qianyu",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zhuotong",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ruixuan",
+        "short_name": "Zhu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yaqian",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Rong",
+        "short_name": "Xiao R",
+        "identifiers": [
+          "0000-0002-6214-8057"
+        ],
+        "affiliations": [
+          "Department of Dermatology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan Key Laboratory of Medical Epigenetics, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Arthritis & rheumatology (Hoboken, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Arthritis Rheumatol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 06:29",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [
+      "42072453"
+    ],
+    "refs": [
+      "40562314",
+      "40533058",
+      "39442983",
+      "39404508",
+      "39164267",
+      "38393748",
+      "38266576",
+      "38242281",
+      "38116467",
+      "37789119",
+      "37658167",
+      "37391440",
+      "36989759",
+      "36951067",
+      "36750014",
+      "35931887",
+      "35731139",
+      "35435014",
+      "35234358",
+      "35131402",
+      "34995795",
+      "34860252",
+      "34692303",
+      "34487318",
+      "34286853",
+      "33647858",
+      "33318872",
+      "33318862",
+      "33310503",
+      "32799115",
+      "32781284",
+      "32219872",
+      "31856060",
+      "30902393",
+      "30017632",
+      "30012885",
+      "29201208",
+      "28932194",
+      "28800080",
+      "27549117",
+      "27468384",
+      "27449814",
+      "27108839",
+      "25725521",
+      "25293445",
+      "24092682",
+      "22781905",
+      "19132878",
+      "18476815",
+      "12563684",
+      "1846973"
+    ],
+    "similar": [
+      "41657106",
+      "23704251",
+      "26946260",
+      "29970364",
+      "36951067",
+      "24058499",
+      "31140595",
+      "27553984",
+      "28158956",
+      "23872072",
+      "33307764",
+      "27638782",
+      "31350829",
+      "26781077",
+      "31439591",
+      "38589317",
+      "35586979",
+      "33276745",
+      "30195191",
+      "31160338",
+      "33535851",
+      "31108104",
+      "38914678",
+      "29191638",
+      "36327794",
+      "27793816",
+      "26087745",
+      "27390295",
+      "19877032",
+      "18759267",
+      "26272431",
+      "24470401",
+      "32900241",
+      "25740991",
+      "32560137",
+      "24448349",
+      "39427745",
+      "31840939",
+      "29357418",
+      "23846016",
+      "20506342",
+      "41443333",
+      "31706571",
+      "38244760",
+      "25155144",
+      "38836592",
+      "40961685",
+      "40021656",
+      "30175895",
+      "26401978",
+      "41321019",
+      "27603231",
+      "38058959",
+      "20440442",
+      "31173491",
+      "40381666",
+      "29486221",
+      "42316187",
+      "28971603",
+      "24709861",
+      "31048218",
+      "33903093",
+      "27138707",
+      "41181125",
+      "30136377",
+      "32865918",
+      "15671155",
+      "24504814",
+      "29676521",
+      "24757152",
+      "33826201",
+      "37626391",
+      "16617354",
+      "25203395",
+      "32219872",
+      "40478772",
+      "22139817",
+      "23436317",
+      "25959255",
+      "35843061",
+      "23122581",
+      "25603829",
+      "17665426",
+      "28842346",
+      "27364855",
+      "33431651",
+      "40028711",
+      "15215176",
+      "22549363",
+      "26047341",
+      "26993223",
+      "29431122",
+      "30658157",
+      "25990837",
+      "38830571",
+      "40301970",
+      "32139610",
+      "22744006",
+      "32305523",
+      "41621574"
+    ],
+    "review": [
+      "41657106",
+      "38244760"
+    ],
+    "pmc": [
+      "13430133"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pulmonaryfibrosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pulmonary Fibrosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41657106/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/art.70085",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

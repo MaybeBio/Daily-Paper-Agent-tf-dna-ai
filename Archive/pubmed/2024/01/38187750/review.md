@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text. No external data or code were accessed.
+- **Shared manuscript claim summary** The authors introduce "foldtuning," a method that fine-tunes protein language models on natural sequences from specific folds, then iteratively generates and selects far-from-natural sequences predicted to adopt target folds. They apply this to 727 structural targets, characterize sequence novelty and structural preservation in silico, and provide experimental validation for three targets (SH3, barstar, insulin).
+- **Visible evidence base** Main text figures (Fig. 1–7), supplementary figures (Fig. S1–S18), and supplementary tables (Table S1) are referenced. Experimental details for SH3 expression, barstar rescue, and insulin binding are described in text but protocols are not fully provided.
+- **Missing materials affecting confidence** Full methods section, detailed experimental protocols, raw data, statistical analysis details, and supplementary figure/table contents are not available in the provided material. This limits verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting approach to protein sequence design, with a broad computational survey and three experimental validations. The core idea of using PLMs to explore sequence space beyond natural homology is timely. However, the evidence as presented has several gaps: the "designability" metric is a proxy without direct validation, the experimental sections lack methodological detail, and some claims about functional novelty appear overstated relative to the data shown. The work is potentially significant but requires substantial clarification and additional evidence to fully support its conclusions.
+- **Who would be interested in the results, and why** Researchers in protein engineering, synthetic biology, and computational biology would be interested. The method offers a scalable way to generate diverse sequences for a given fold, which is relevant for designing novel binders, enzymes, and therapeutic proteins. The large library of foldtuned models is a resource for the community.
+- **Major strengths** 1) The scale of the computational study (727 folds) is impressive and provides a broad map of sequence-structure relationships. 2) The combination of computational prediction with experimental validation for three distinct targets strengthens the practical relevance. 3) The analysis of sequence "vocabulary" shifts and structural exploration provides useful insights into how PLMs navigate sequence space. 4) The work addresses a fundamental question about the extent of sequence space compatible with a given fold.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology / Evidence
+  - **Claim pointer** The authors claim that foldtuned sequences are "far-from-natural" and lack "detectable homology to any known protein," and that this represents a significant advance in accessing unexplored sequence space.
+  - **Evidence pointer** Fig. 2A, Fig. 3C–D, Section "Foldtuning explores new sequence rules and populations"
+  - **Concern** The definition and measurement of "sequence escape rate" and "no detectable homology" are not fully described. The threshold for "detectable homology" using Foldseek-TMalign is mentioned, but the specific parameters and the sensitivity of this method for detecting remote homology are not discussed. It is unclear whether "no detectable homology" truly means no evolutionary relationship, or simply no statistically significant alignment under the chosen thresholds. The claim that these sequences are "unexplored" by nature is strong and requires a more rigorous demonstration that the generated sequences are not simply sampling very distant but still homologous regions.
+  - **Why it matters** The central premise of the paper is that foldtuning accesses genuinely novel sequence space. If the "escape" is an artifact of the detection method's sensitivity, the novelty claim is weakened. The biological and practical significance of the work depends on this distinction.
+  - **Resolution test** Provide a detailed description of the homology detection pipeline, including parameters and statistical thresholds. Include a control analysis showing that the method can detect known remote homologs (e.g., from the same SCOP fold but different superfamilies) in natural sequences. Show that the "escaped" sequences are not enriched for known structural or functional motifs that would indicate cryptic homology.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Methodology / Evidence
+  - **Claim pointer** The authors state that "foldtuning does not display any significant tradeoff between structural hit rate and sequence escape rate" and use the product of these as a "designability" proxy.
+  - **Evidence pointer** Fig. 2A–C, Section "Sequence exploration with 'soft' structure constraints"
+  - **Concern** The "designability" metric is defined as the product of structural hit rate and sequence escape rate. This is a novel composite metric, but its validity is not established. It is not shown to correlate with any experimental measure of designability, such as expression, stability, or function. The claim of "no tradeoff" is based on aggregate trends across folds, but individual folds may show strong tradeoffs. The metric conflates two different properties (structural robustness and sequence novelty) into a single number, which may obscure important distinctions.
+  - **Why it matters** The ranking of folds by "designability" is a key output of the paper and is used to identify "high-priority targets." If the metric is not validated, the prioritization is not reliable. The claim of "no tradeoff" is important for the practical utility of the method, but it needs to be demonstrated more rigorously.
+  - **Resolution test** Validate the designability metric against an experimental readout for a subset of folds (e.g., expression level or stability). Show the tradeoff analysis at the level of individual folds, not just aggregates. Discuss the limitations of using a proxy metric and consider alternative definitions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence / Reproducibility
+  - **Claim pointer** The authors claim experimental validation for SH3 (expression), barstar (function), and insulin (binding).
+  - **Evidence pointer** Sections "Foldtuned SH3 domains express stably", "Foldtuned barstars rescue bacteria from barnase toxicity", "Foldtuned insulins are INSR binders", Fig. 5–7
+  - **Concern** The experimental sections are described at a high level, but critical details are missing. For SH3, the "expression" is measured in a cell-free system, but the criteria for "detectable" and the quantification method are not specified. For barstar, the rescue assay is described, but the number of replicates, the statistical test used, and the effect size are not given. For insulin, the screening method is referenced to another paper, but the specific conditions and the criteria for "enriched" are not fully described. The lack of methodological detail prevents assessment of the robustness and significance of these results.
+  - **Why it matters** The experimental validation is a key strength of the paper, but without sufficient detail, the results cannot be evaluated or reproduced. The claims of "function" and "binding" are based on these experiments, and their reliability is central to the paper's conclusions.
+  - **Resolution test** Provide full experimental protocols, including construct design, expression conditions, purification, assay details, number of replicates, and statistical analysis. For the barstar rescue, show dose-response or growth curves. For insulin binding, show binding curves or affinity measurements.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation / Overclaiming
+  - **Claim pointer** The authors state that foldtuned proteins "reflect distinctive new 'rules of language' for sequence innovation" and that the method "promises to push forward the redesign and reconstitution of novel-to-nature synthetic biological systems."
+  - **Evidence pointer** Abstract, Sections "Foldtuning explores new sequence rules and populations", "Conclusion"
+  - **Concern** The interpretation of the sequence and structural analyses as revealing "new rules of language" is speculative. The n-gram analysis shows statistical shifts in sequence composition, but this does not necessarily imply a new "language" or grammar. The claim that the method can "reconstitute" novel biological systems is a forward-looking statement that is not directly supported by the data presented. The experimental validations are limited to three targets and do not demonstrate the broad applicability implied by the conclusion.
+  - **Why it matters** Overinterpretation of results can mislead readers about the current capabilities and limitations of the method. The distinction between statistical sequence biases and functional "rules" is important for setting realistic expectations.
+  - **Resolution test** Temper the language in the abstract and conclusion. Provide a more nuanced discussion of what the n-gram and structural analyses can and cannot tell us. Clearly state that the experimental validation is a proof-of-concept and that broader applicability remains to be demonstrated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses jargon ("foldtuned," "deep space") without clear definitions. The phrase "generation 'in the limit'" is not explained.
+  - **Required correction** Define "foldtuning" and "deep space" in the abstract. Clarify what "generation in the limit" means in this context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section "Foldtuned barstars rescue bacteria from barnase toxicity"
+  - **Evidence pointer** Section "Foldtuned barstars rescue bacteria from barnase toxicity"
+  - **Issue** The text states "11 foldtuned barstar variants were significantly enriched (p < 0.05) relative to control" and then repeats the same statement with additional detail about the statistical correction. This is redundant.
+  - **Required correction** Combine the two statements into one concise sentence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Foldtuned insulins are INSR binders"
+  - **Evidence pointer** Section "Foldtuned insulins are INSR binders"
+  - **Issue** The term "foldtunded" appears to be a typo for "foldtuned."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Foldtuning explores new sequence rules and populations"
+  - **Evidence pointer** Section "Foldtuning explores new sequence rules and populations"
+  - **Issue** The section title contains a typo: "populationss" should be "populations."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Foldtuned SH3 domains express stably"
+  - **Evidence pointer** Section "Foldtuned SH3 domains express stably"
+  - **Issue** The phrase "disorded loops" appears to be a typo for "disordered loops."
+  - **Required correction** Correct the typo.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (homology detection sensitivity), R1-M2 (designability metric validation), R1-M3 (experimental detail). These are blocking because they affect the core claims of novelty, the utility of the ranking, and the reliability of the experimental validation.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of using PLMs to explore sequence space beyond natural homology is original and timely. The "foldtuning" approach is a novel contribution.
+  - **Scientific importance** The question of how much sequence space is compatible with a given fold is fundamental. The potential to design novel proteins for synthetic biology is significant. However, the importance is currently tempered by the lack of rigorous validation of the key metrics.
+  - **Interdisciplinary readership** The work bridges computational biology, protein engineering, and synthetic biology. It should appeal to a broad audience, but the dense presentation and jargon may limit accessibility.
+  - **Technical soundness** The computational pipeline is plausible, but the validation of the "designability" metric and the sensitivity of the homology detection are not adequately addressed. The experimental sections lack sufficient detail to assess their technical rigor.
+  - **Readability for nonspecialists** The abstract and introduction are somewhat accessible, but the results sections are dense and assume significant background knowledge. The use of jargon without clear definitions is a barrier.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, and the scale of the work is impressive. However, the current evidence does not fully establish the central claims of novelty and designability. The experimental validation needs to be more rigorously presented. If the authors can address the concerns regarding homology detection, metric validation, and experimental detail, the work could be a significant contribution.
+
+## Risk / unsupported claims
+- The claim that foldtuned sequences represent "unexplored regions" of sequence space is not fully supported without a more rigorous demonstration of the sensitivity of the homology detection method.
+- The "designability" metric is a proxy that is not validated against experimental data, so the ranking of folds is not reliable.
+- The claim that foldtuned proteins reflect "new rules of language" is speculative and not directly supported by the data.
+- The statement that the method "promises to push forward the redesign and reconstitution of novel-to-nature synthetic biological systems" is a forward-looking claim that is not supported by the limited experimental validation.
+- The experimental results for SH3, barstar, and insulin are described without sufficient methodological detail to assess their robustness or significance.

@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "40536575",
+    "doi": "10.1007/s10142-025-01631-z",
+    "title": "WISP2/CCN5 revealed as a potential diagnostic biomarker for endometriosis based on machine learning and single-cell transcriptomic analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Endometriosis is a prevalent gynecological disease characterized by the ectopic growth of functional endometrial tissue outside the uterine cavity, affecting millions of women worldwide. Currently, the definitive diagnosis relies on invasive laparoscopy (the gold standard), with an average diagnostic delay of 7-10 years from symptom onset. Non-invasive biomarkers from blood or endometrial samples could enable early screening and reduce diagnostic time. Emerging technologies like single-cell sequencing and transcriptomics offer promising approaches for identifying highly specific biomarkers, advancing endometriosis research into the precision medicine era. MATERIALS AND METHODS: Using three machine learning algorithms, we selected four hub genes, among which WISP2/CCN5 was validated as a potential diagnostic biomarker. We discovered higher-than-normal gene expression of WISP2/CCN5 in the eutopic endometrium, and substantially higher expression in the ectopic endometrium compared with that in the eutopic endometrium. RESULTS: Finally, through cell communication analysis, we found that elevated WISP2/CCN5 expression in stem cells within ectopic lesions may be mediated by the mitogen-activated protein kinase and Wnt signaling pathways, acting downstream of the fibroblast growth factor pathway. CONCLUSIONS: The transition of endometrial tissue from normal to eutopic, and ultimately to ectopic, was found to coincide with progressively increased expression of WISP2/CCN5, which may serve as a biomarker of endometriosis.",
+    "keywords": [
+      "WISP2/CCN5",
+      "Ectopic",
+      "Endometriosis",
+      "Eutopic",
+      "Manchine learning",
+      "Single cell sequence stem cells"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Endometriosis/genetics/diagnosis/metabolism/pathology",
+      "Female",
+      "*CCN Intercellular Signaling Proteins/genetics/metabolism",
+      "*Machine Learning",
+      "Single-Cell Analysis",
+      "Biomarkers/metabolism",
+      "*Transcriptome",
+      "Endometrium/metabolism/pathology",
+      "Wnt Signaling Pathway",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dou, Sheng",
+        "Ling, Shaohua",
+        "Nong, Weihua",
+        "Wei, Bixiao",
+        "Huang, Yuehua",
+        "Li, Guangjing",
+        "Wang, Rong",
+        "Qin, Haimei"
+      ],
+      "short_names": [
+        "Dou S",
+        "Ling S",
+        "Nong W",
+        "Wei B",
+        "Huang Y",
+        "Li G",
+        "Wang R",
+        "Qin H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Reproductive Medicine Center, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China.",
+        "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China.",
+        "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+        "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000.",
+        "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China.",
+        "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+        "Clinical laboratory, People's Hosipital of Baise, Baise, Guangxi, 533000, China.",
+        "Reproductive Medicine Center, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China.",
+        "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China.",
+        "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+        "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000.",
+        "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China.",
+        "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+        "Clinical laboratory, People's Hosipital of Baise, Baise, Guangxi, 533000, China.",
+        "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000.",
+        "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China.",
+        "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China.",
+        "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+        "Blood transfusion department, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China.",
+        "Blood transfusion department, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China.",
+        "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China. rongwang@ymun.edu.cn.",
+        "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China. rongwang@ymun.edu.cn.",
+        "Blood transfusion department, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China. rongwang@ymun.edu.cn.",
+        "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000. rongwang@ymun.edu.cn.",
+        "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China. rongwang@ymun.edu.cn.",
+        "Reproductive Medicine Center, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China. qinhaimei@ymcn.edu.cn.",
+        "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China. qinhaimei@ymcn.edu.cn.",
+        "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China. qinhaimei@ymcn.edu.cn.",
+        "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000. qinhaimei@ymcn.edu.cn.",
+        "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China. qinhaimei@ymcn.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dou, Sheng",
+        "short_name": "Dou S",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medicine Center, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China.",
+          "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China.",
+          "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+          "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000.",
+          "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Shaohua",
+        "short_name": "Ling S",
+        "identifiers": [],
+        "affiliations": [
+          "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+          "Clinical laboratory, People's Hosipital of Baise, Baise, Guangxi, 533000, China."
+        ]
+      },
+      {
+        "full_name": "Nong, Weihua",
+        "short_name": "Nong W",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medicine Center, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China.",
+          "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China.",
+          "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+          "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000.",
+          "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Bixiao",
+        "short_name": "Wei B",
+        "identifiers": [],
+        "affiliations": [
+          "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+          "Clinical laboratory, People's Hosipital of Baise, Baise, Guangxi, 533000, China.",
+          "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000.",
+          "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuehua",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China.",
+          "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China.",
+          "Blood transfusion department, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Guangjing",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Blood transfusion department, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Rong",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China. rongwang@ymun.edu.cn.",
+          "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China. rongwang@ymun.edu.cn.",
+          "Blood transfusion department, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China. rongwang@ymun.edu.cn.",
+          "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000. rongwang@ymun.edu.cn.",
+          "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China. rongwang@ymun.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Qin, Haimei",
+        "short_name": "Qin H",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medicine Center, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, 533000, China. qinhaimei@ymcn.edu.cn.",
+          "Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases, Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, 533000, China. qinhaimei@ymcn.edu.cn.",
+          "Industrial College of biomedicine and health industry, Youjiang Medical University For Nationalities, Baise, Guangxi, 533000, China. qinhaimei@ymcn.edu.cn.",
+          "Guangxi Engineering Research Center for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, Baise, China, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, Guangxi, 533000. qinhaimei@ymcn.edu.cn.",
+          "Engineering Research Center of Guangxi Higher Education Institutions for Precise Genetic Testing of Long-dwelling Nationalities, Youjiang Medical University for Nationalities, 98 Cheng-cheng Road, Youjiang District, Baise City, Guangxi, 533000, China, 533000, baise, China. qinhaimei@ymcn.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Functional & integrative genomics"
+    ],
+    "journal_abbrev": [
+      "Funct Integr Genomics"
+    ],
+    "pub_date": "2025 Jun 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/19 12:25",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [
+      "41961331"
+    ],
+    "refs": [
+      "33948974",
+      "33640070",
+      "32858595",
+      "31785417",
+      "30715151",
+      "30670081",
+      "30314882",
+      "29594332",
+      "28189296",
+      "27036966",
+      "26032417",
+      "25312291",
+      "21895474",
+      "21586449",
+      "21586343",
+      "20665377",
+      "20376786",
+      "19969738",
+      "19726630",
+      "17322368",
+      "16322748",
+      "16039586",
+      "15950672",
+      "15085950",
+      "15031118",
+      "12235165",
+      "8755660",
+      "8290196",
+      "7926125",
+      "2065804",
+      "1442937"
+    ],
+    "similar": [
+      "40536575",
+      "38342342",
+      "40140093",
+      "40640862",
+      "27863006",
+      "39744178",
+      "22968642",
+      "29871794",
+      "31233772",
+      "39788102",
+      "36339397",
+      "21910347",
+      "27471094",
+      "26675577",
+      "31941945",
+      "30021652",
+      "30395261",
+      "38441813",
+      "28333208",
+      "36996608",
+      "24246915",
+      "26370665",
+      "22259059",
+      "33066976",
+      "22883128",
+      "23006437",
+      "23575144",
+      "30134548",
+      "40046872",
+      "40072055",
+      "19200988",
+      "33246341",
+      "8822457",
+      "24412827",
+      "35249874",
+      "11163831",
+      "34948212",
+      "39169201",
+      "26342048",
+      "41272701",
+      "19157676",
+      "34844098",
+      "24498388",
+      "31437074",
+      "32733932",
+      "30496412",
+      "26604067",
+      "22672593",
+      "29712562",
+      "27222232",
+      "18353325",
+      "22210725",
+      "26977530",
+      "9194623",
+      "31273584",
+      "22333228",
+      "40698088",
+      "37047609",
+      "26198055",
+      "39595577",
+      "33693877",
+      "21672902",
+      "16762179",
+      "23638035",
+      "12524084",
+      "31377021",
+      "25904015",
+      "29247377",
+      "32619126",
+      "20858696",
+      "30485900",
+      "38397067",
+      "40769439",
+      "29417283",
+      "28457937",
+      "19135668",
+      "27619769",
+      "40575905",
+      "18799756",
+      "26918694",
+      "18818281",
+      "38155071",
+      "39643002",
+      "11912283",
+      "31796963",
+      "11917227",
+      "19094579",
+      "31843088",
+      "17481627",
+      "9886539",
+      "22147918",
+      "33029756",
+      "24451367",
+      "41399389",
+      "16179118",
+      "11006195",
+      "20300586",
+      "18644593",
+      "10764452",
+      "28158750"
+    ],
+    "review": [
+      "40536575",
+      "27863006",
+      "40072055",
+      "34948212",
+      "21672902"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10142-025-01631-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

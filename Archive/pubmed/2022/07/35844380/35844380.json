@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "35844380",
+    "doi": "10.1016/j.sjbs.2022.02.004",
+    "title": "Integrated computational approaches to screen gene expression data to determine key genes and therapeutic targets for type-2 diabetes mellitus."
+  },
+  "content": {
+    "abstract": "There is a rapid rise in cases of Type-2-diabetes mellitus (T2DM) globally, irrespective of the geography, ethnicity or any other variable factors. The molecular mechanisms that could cause the condition of T2DM need to be more thoroughly analysed to understand the clinical manifestations and to derive better therapeutic regimes. Tools in bioinformatics are used to trace out key gene elements and to identify the key causative gene elements and their possible therapeutic agents. Microarray datasets were retrieved from the Gene expression omnibus database and studied using R to derive different expressed gene (DEG) elements. With the comparison of the expressed genes with disease specific genes in DisGeNET, the final annotated genes were taken for analysis. Gene Ontology studies, Protein-protein interaction (PPI), Co-expression analysis, Gene-drug interactions were performed to scale down the hub genes and to identify the novelty across the genes analysed so far. In vivo and invitro analysis of key genes and the trace of interaction pathway is crucial to better understand the unique outcomes from the novel genes, forming the basis to understand the pathway that ends up causing T2DM. Afterwards, docking was executed enabling recognition of interacting residues involved in inhibition. The complex CCL5-265 and CD8A-40585 thus docked showed best results as is evident from its PCA analysis and MMGBSA calculation. There is now scope for deriving candidate drugs that could possibly detect personalized therapies for T2DM.",
+    "keywords": [
+      "Differently expressed genes",
+      "Gene expression omnibus",
+      "Molecular dynamics simulation",
+      "Transcription factors",
+      "Type-2 diabetes mellitus"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alhumaydhi, Fahad A"
+      ],
+      "short_names": [
+        "Alhumaydhi FA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 52571, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alhumaydhi, Fahad A",
+        "short_name": "Alhumaydhi FA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 52571, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Saudi journal of biological sciences"
+    ],
+    "journal_abbrev": [
+      "Saudi J Biol Sci"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/19 06:00",
+    "fetched_at": "2026-10-04 20:09:23"
+  },
+  "links": {
+    "cites": [
+      "41553552",
+      "40041913",
+      "37954293",
+      "36647719"
+    ],
+    "refs": [
+      "34765641",
+      "34655900",
+      "34589547",
+      "34588861",
+      "34509085",
+      "34262943",
+      "33867606",
+      "33237311",
+      "33237278",
+      "32907876",
+      "31690884",
+      "31341475",
+      "30944926",
+      "30723263",
+      "30499778",
+      "30407594",
+      "30149624",
+      "29351335",
+      "28190580",
+      "27107818",
+      "26656494",
+      "25373852",
+      "25363329",
+      "25250942",
+      "25165537",
+      "24914333",
+      "23193258",
+      "22064493",
+      "20667665",
+      "18940857",
+      "18837086",
+      "17784955",
+      "14646169",
+      "12395331"
+    ],
+    "similar": [
+      "35844380",
+      "34588861",
+      "32547141",
+      "38704482",
+      "31275749",
+      "31524257",
+      "36049411",
+      "38366952",
+      "33792237",
+      "30975489",
+      "33915220",
+      "37234659",
+      "32705173",
+      "38886539",
+      "39108650",
+      "34466069",
+      "38444712",
+      "34675622",
+      "28432618",
+      "33902539",
+      "36368953",
+      "36104591",
+      "38166912",
+      "32781959",
+      "35307059",
+      "36046789",
+      "33728329",
+      "39176085",
+      "35271662",
+      "31987036",
+      "38595695",
+      "36499614",
+      "36994393",
+      "35381625",
+      "35368701",
+      "35402578",
+      "37784117",
+      "33827531",
+      "34779951",
+      "38464509",
+      "35403252",
+      "35187175",
+      "38532421",
+      "36157062",
+      "35680809",
+      "33865459",
+      "28800317",
+      "38034011",
+      "39145311",
+      "38524085",
+      "38899746",
+      "35990977",
+      "37122694",
+      "32851081",
+      "37111057",
+      "34413670",
+      "31797865",
+      "38169604",
+      "37189611",
+      "38703871",
+      "36248844",
+      "36166989",
+      "34218797",
+      "30542696",
+      "35046895",
+      "34908186",
+      "36084605",
+      "38073349",
+      "37244150",
+      "34824300",
+      "34553293",
+      "33890634",
+      "39096856",
+      "35119030",
+      "33532314",
+      "31088900",
+      "33149760",
+      "36854280",
+      "37140276",
+      "35054979",
+      "35395988",
+      "34257537",
+      "36852684",
+      "32131938",
+      "38680704",
+      "30233781",
+      "33891717",
+      "30197309",
+      "36443035",
+      "33083497",
+      "35145474",
+      "30708140",
+      "38376276",
+      "34296682",
+      "31897151"
+    ],
+    "review": [
+      "35844380",
+      "35119030"
+    ],
+    "pmc": [
+      "9280245"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1319-562X(22)00080-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35844380/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35844380",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

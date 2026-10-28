@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36980170",
+  "title": "iProm-Sigma54: A CNN Base Prediction Tool for sigma(54) Promoters.",
+  "authors": "Shujaat, Muhammad; Kim, Hoonjoo; Tayara, Hilal; Chong, Kil To",
+  "journal": "Cells",
+  "published_date": "2023-03-30",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用CNN预测sigma54启动子序列，属于序列分类工具，未涉及TF-DNA三维互作建模或结合机制，与课题关联较弱。",
+  "abstract": "The sigma (sigma) factor of RNA holoenzymes is essential for identifying and binding to promoter regions during gene transcription in prokaryotes. sigma54 promoters carried out various ancillary methods and environmentally responsive procedures; therefore, it is crucial to accurately identify sigma54 promoter sequences to comprehend the underlying process of gene regulation. Herein, we come up with a convolutional neural network (CNN) based prediction tool named \"iProm-Sigma54\" for the prediction of sigma54 promoters. The CNN consists of two one-dimensional convolutional layers, which are followed by max pooling layers and dropout layers. A one-hot encoding scheme was used to extract the input matrix. To determine the prediction performance of iProm-Sigma54, we employed four assessment metrics and five-fold cross-validation; performance was measured using a benchmark and test dataset. According to the findings of this comparison, iProm-Sigma54 outperformed existing methodologies for identifying sigma54 promoters. Additionally, a publicly accessible web server was constructed.",
+  "abstract_zh": "RNA全酶中的sigma（σ）因子在原核生物基因转录过程中对识别和结合启动子区域至关重要。sigma54启动子采用了多种辅助方法和环境响应程序；因此，准确识别sigma54启动子序列对于理解基因调控的潜在过程至关重要。在此，我们提出了一种基于卷积神经网络（CNN）的预测工具，命名为“iProm-Sigma54”，用于预测sigma54启动子。该CNN包含两个一维卷积层，随后是最大池化层和丢弃层。采用独热编码方案提取输入矩阵。为评估iProm-Sigma54的预测性能，我们使用了四种评估指标和五折交叉验证；性能通过基准数据集和测试数据集进行衡量。根据比较结果，iProm-Sigma54在识别sigma54启动子方面优于现有方法。此外，我们还构建了一个公开可访问的网络服务器。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36980170/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36980170/",
+  "paper_page_path": "papers/pubmed/36980170/index.html"
+}

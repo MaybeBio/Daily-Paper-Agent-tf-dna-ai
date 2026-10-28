@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "38381309",
+    "doi": "10.1007/s12010-024-04887-6",
+    "title": "Integrating Network Pharmacology and Experimental Verification to Explore the Pharmacological Mechanisms of Radix Paeoniae Rubra Against Glioma."
+  },
+  "content": {
+    "abstract": "Glioma has a high mortality and can hardly be completely cured. Radix Paeoniae Rubra (RPR) is a prevalent component in traditional Chinese medicine used for tumor treatments. We explored the mechanism of RPR in treating glioma using network pharmacology and experiments. A network pharmacology approach was used to screen active ingredients, targets of RPR and glioma. We then constructed a herb-active ingredient-target-pathway network and conducted protein-protein interaction (PPI) network analysis, as well as Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis. Molecular docking was also performed. Using CCK-8, colony formation, and xenograft experiments, we evaluated the effect of RPR on glioma. The involved pathway and proteins were identified by Western blot. From public databases, we identified nine active RPR ingredients and 40 overlapping targets among 109 RPR targets and 1360 glioma-associated targets. The PPI analysis revealed ten targets, such as AKT1, TP53, and VEGFA, which were identified as hub genes. The results from GO and KEGG analysis highlighted the involvement of the PI3K/AKT pathway. A herb-active ingredient-target-pathway network was constructed. By docking molecular structures, six suitable conformations have been identified. The RPR extract demonstrated anti-tumor properties by inhibiting glioma cell proliferation in vitro and in vivo, likely achieved by suppressing the phosphorylation of the PI3K/AKT signaling pathway. RPR concurrently downregulated the phosphorylation level of AKT1 and the protein expression level of VEGFA, while upregulating the expression of P53 in the U251 cell line. Utilizing network pharmacology and molecular docking, our study not only predicted the impact of RPR on glioma but also delineated the herb-active ingredient-target-pathway network. Experimentally, we confirmed that RPR may exert its anti-tumor properties by inhibiting the phosphorylation of the PI3K/AKT pathway, including AKT1, and by regulating the expression levels of VEGFA and P53.",
+    "keywords": [
+      "Experimental verification",
+      "Glioma",
+      "Molecular docking",
+      "Network pharmacology",
+      "PI3K/AKT signaling pathway",
+      "Radix Paeoniae Rubra"
+    ],
+    "mesh_terms": [
+      "*Glioma/drug therapy/metabolism/genetics/pathology",
+      "*Paeonia/chemistry",
+      "Humans",
+      "Animals",
+      "*Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry",
+      "*Network Pharmacology",
+      "Mice",
+      "Protein Interaction Maps/drug effects",
+      "Mice, Nude",
+      "Cell Proliferation/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "Signal Transduction/drug effects",
+      "Tumor Suppressor Protein p53/metabolism/genetics",
+      "Vascular Endothelial Growth Factor A/metabolism/genetics",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Brain Neoplasms/drug therapy/metabolism/genetics/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Siyu",
+        "Jin, Qianxu",
+        "Zhang, Shiyang",
+        "Song, Zihan",
+        "Zhang, Shiqi",
+        "Zhao, Zongmao"
+      ],
+      "short_names": [
+        "Zhu S",
+        "Jin Q",
+        "Zhang S",
+        "Song Z",
+        "Zhang S",
+        "Zhao Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-9982-8669"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Neurosurgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China. zzm@hbmu.edu.",
+        "Department of Neurosurgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei, China. zzm@hbmu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Siyu",
+        "short_name": "Zhu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Qianxu",
+        "short_name": "Jin Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shiyang",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zihan",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shiqi",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zongmao",
+        "short_name": "Zhao Z",
+        "identifiers": [
+          "0009-0006-9982-8669"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, China. zzm@hbmu.edu.",
+          "Department of Neurosurgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei, China. zzm@hbmu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Applied biochemistry and biotechnology"
+    ],
+    "journal_abbrev": [
+      "Appl Biochem Biotechnol"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/21 12:42",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "39718608"
+    ],
+    "refs": [
+      "37705740",
+      "37277066",
+      "37195411",
+      "37185746",
+      "36660250",
+      "36370105",
+      "36343798",
+      "36339551",
+      "36322624",
+      "36267278",
+      "36248844",
+      "36230822",
+      "35991869",
+      "35957872",
+      "35735092",
+      "35548356",
+      "35526323",
+      "35406619",
+      "35303581",
+      "35163465",
+      "35127370",
+      "35121865",
+      "35115535",
+      "34959221",
+      "34889224",
+      "34830491",
+      "34830271",
+      "34829868",
+      "34815385",
+      "34676613",
+      "34419533",
+      "33897701",
+      "33708631",
+      "33577785",
+      "33538338",
+      "33519190",
+      "33357769",
+      "32754038",
+      "32167760",
+      "32047913",
+      "32014006"
+    ],
+    "similar": [
+      "38381309",
+      "38951468",
+      "39004032",
+      "36058476",
+      "34246740",
+      "39307810",
+      "34889224",
+      "39066538",
+      "38114219",
+      "37879505",
+      "38243957",
+      "36403742",
+      "37666859",
+      "38964628",
+      "40255473",
+      "38759074",
+      "35926779",
+      "37799727",
+      "39041101",
+      "39771032",
+      "38342157",
+      "39399124",
+      "38845538",
+      "35837376",
+      "38830298",
+      "38275061",
+      "38110130",
+      "37080367",
+      "37190808",
+      "39701786",
+      "35777610",
+      "37833363",
+      "39038503",
+      "38432577",
+      "35734366",
+      "34994139",
+      "37690812",
+      "39742571",
+      "39374878",
+      "35970314",
+      "38941043",
+      "40004956",
+      "39061044",
+      "39955364",
+      "36563889",
+      "37437794",
+      "39074420",
+      "36044117",
+      "39278295",
+      "39343107",
+      "39577223",
+      "39326136",
+      "34262258",
+      "38742934",
+      "34349502",
+      "35850814",
+      "39140079",
+      "35667260",
+      "40013962",
+      "36280016",
+      "39472740",
+      "38042385",
+      "37403397",
+      "40233887",
+      "37282941",
+      "36775078",
+      "36220511",
+      "38670393",
+      "35872979",
+      "38582151",
+      "36581572",
+      "35616676",
+      "37287284",
+      "39565454",
+      "38493718",
+      "35405254",
+      "37807411",
+      "38376772",
+      "38502457",
+      "35757520",
+      "38213142",
+      "38588987",
+      "39735336",
+      "39244670",
+      "39532679",
+      "37777029",
+      "40185258",
+      "39307799",
+      "39380230",
+      "35178959",
+      "38916485",
+      "37282910",
+      "39923956",
+      "39470475",
+      "34511884",
+      "38428659",
+      "40057142",
+      "33634308",
+      "35899176",
+      "39331210"
+    ],
+    "review": [
+      "38381309"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12010-024-04887-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

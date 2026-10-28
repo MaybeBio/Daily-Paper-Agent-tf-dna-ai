@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "38215789",
+    "doi": "10.1093/hmg/ddad212",
+    "title": "Identifying BMI-associated genes via a genome-wide multi-omics integrative approach using summary data."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study aims to identify BMI-associated genes by integrating aggregated summary information from different omics data. METHODS: We conducted a meta-analysis to leverage information from a genome-wide association study (n = 339 224), a transcriptome-wide association study (n = 5619), and an epigenome-wide association study (n = 3743). We prioritized the significant genes with a machine learning-based method, netWAS, which borrows information from adipose tissue-specific interaction networks. We also used the brain-specific network in netWAS to investigate genes potentially involved in brain-adipose interaction. RESULTS: We identified 195 genes that were significantly associated with BMI through meta-analysis. The netWAS analysis narrowed down the list to 21 genes in adipose tissue. Among these 21 genes, six genes, including FUS, STX4, CCNT2, FUBP1, NDUFS3, and RAPSN, were not reported to be BMI-associated in PubMed or GWAS Catalog. We also identified 11 genes that were significantly associated with BMI in both adipose and whole brain tissues. CONCLUSION: This study integrated three types of omics data and identified a group of genes that have not previously been reported to be associated with BMI. This strategy could provide new insights for future studies to identify molecular mechanisms contributing to BMI regulation.",
+    "keywords": [
+      "GWAS",
+      "expression",
+      "methylation",
+      "obesity",
+      "omics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Multiomics",
+      "Body Mass Index",
+      "*Genome-Wide Association Study/methods",
+      "Transcriptome",
+      "Obesity/genetics",
+      "Cyclin T/genetics",
+      "DNA-Binding Proteins/genetics",
+      "RNA-Binding Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Jingxian",
+        "Xu, Hanfei",
+        "Xin, Zihao",
+        "Mei, Quanshun",
+        "Gao, Musong",
+        "Yang, Tiantian",
+        "Zhang, Xiaoyu",
+        "Levy, Daniel",
+        "Liu, Ching-Ti"
+      ],
+      "short_names": [
+        "Tang J",
+        "Xu H",
+        "Xin Z",
+        "Mei Q",
+        "Gao M",
+        "Yang T",
+        "Zhang X",
+        "Levy D",
+        "Liu CT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0703-0742"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States.",
+        "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States.",
+        "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States.",
+        "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States.",
+        "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States.",
+        "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States.",
+        "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States.",
+        "Framingham Heart Study, National Heart, Lung, and Blood Institute's Framingham Heart Study, 73 Mt Wayte Ave, Framingham, MA, United States.",
+        "Population Sciences Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, 9000 Rockville Pike, Bethesda, MD, United States.",
+        "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Jingxian",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Hanfei",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+        ]
+      },
+      {
+        "full_name": "Xin, Zihao",
+        "short_name": "Xin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+        ]
+      },
+      {
+        "full_name": "Mei, Quanshun",
+        "short_name": "Mei Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+        ]
+      },
+      {
+        "full_name": "Gao, Musong",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+        ]
+      },
+      {
+        "full_name": "Yang, Tiantian",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoyu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+        ]
+      },
+      {
+        "full_name": "Levy, Daniel",
+        "short_name": "Levy D",
+        "identifiers": [],
+        "affiliations": [
+          "Framingham Heart Study, National Heart, Lung, and Blood Institute's Framingham Heart Study, 73 Mt Wayte Ave, Framingham, MA, United States.",
+          "Population Sciences Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, 9000 Rockville Pike, Bethesda, MD, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Ching-Ti",
+        "short_name": "Liu CT",
+        "identifiers": [
+          "0000-0002-0703-0742"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Boston University School of Public Health, 801 Massachusetts Ave, Boston, MA 02118, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human molecular genetics"
+    ],
+    "journal_abbrev": [
+      "Hum Mol Genet"
+    ],
+    "pub_date": "2024 Apr 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/13 00:42",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "42074171",
+      "41374408",
+      "40581728",
+      "40564803",
+      "38863482"
+    ],
+    "refs": [
+      "36376304",
+      "35379992",
+      "35029059",
+      "34715901",
+      "34659337",
+      "34594039",
+      "34556834",
+      "34382344",
+      "34162941",
+      "34021172",
+      "33980691",
+      "32203549",
+      "31955990",
+      "31801406",
+      "31745258",
+      "31669095",
+      "30805717",
+      "30239722",
+      "30232418",
+      "30124842",
+      "29936662",
+      "29522093",
+      "29449715",
+      "29273807",
+      "28674662",
+      "28523759",
+      "28472511",
+      "28448500",
+      "28095459",
+      "27627980",
+      "27604177",
+      "26449484",
+      "26414676",
+      "25955518",
+      "25915600",
+      "25673413",
+      "25642630",
+      "24096619",
+      "23280227",
+      "21605215",
+      "19998366",
+      "17966093",
+      "17605044",
+      "17521684",
+      "17372189",
+      "15464446",
+      "474565"
+    ],
+    "similar": [
+      "38215789",
+      "31801406",
+      "37170220",
+      "40128644",
+      "39000053",
+      "34207686",
+      "36977197",
+      "38824563",
+      "37742034",
+      "40091050",
+      "29151593",
+      "37679740",
+      "33627773",
+      "39444114",
+      "40045304",
+      "34340684",
+      "39690817",
+      "30232418",
+      "39792054",
+      "35090585",
+      "34670603",
+      "39394142",
+      "39844246",
+      "26854917",
+      "38129841",
+      "28947923",
+      "39406522",
+      "38933282",
+      "37964699",
+      "40162720",
+      "39538342",
+      "40049431",
+      "32928872",
+      "29854750",
+      "26110892",
+      "32363570",
+      "39026663",
+      "39051921",
+      "39736412",
+      "25953783",
+      "38754426",
+      "40135555",
+      "38723632",
+      "39751206",
+      "25935004",
+      "24630777",
+      "40036903",
+      "38802969",
+      "35274129",
+      "28105929",
+      "35943854",
+      "39707330",
+      "26915271",
+      "40301990",
+      "38245754",
+      "36991131",
+      "39222055",
+      "39500920",
+      "30669151",
+      "40148470",
+      "38937676",
+      "37620670",
+      "31092860",
+      "38956662",
+      "39713086",
+      "37882969",
+      "40062439",
+      "39812506",
+      "39259428",
+      "39830273",
+      "39363202",
+      "20532202",
+      "37747674",
+      "38408933",
+      "39680155",
+      "39107272",
+      "37672078",
+      "29608557",
+      "39187864",
+      "26376864",
+      "39665162",
+      "29566149",
+      "36717394",
+      "26458734",
+      "35763030",
+      "38898508",
+      "39719581",
+      "34626721",
+      "39160153",
+      "25861810",
+      "38909833",
+      "38664746",
+      "30124842",
+      "40045424",
+      "40285955",
+      "39986329",
+      "36479596",
+      "36648426",
+      "39467451",
+      "36057424"
+    ],
+    "review": [
+      "38215789",
+      "37170220",
+      "39538342",
+      "29854750",
+      "25953783",
+      "35274129",
+      "26915271",
+      "38937676",
+      "37620670",
+      "39363202",
+      "38408933",
+      "37672078",
+      "26376864",
+      "36717394",
+      "35763030",
+      "30124842",
+      "39986329"
+    ],
+    "pmc": [
+      "11000658"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38215789.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38215789/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-99",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/hmg/article-lookup/doi/10.1093/hmg/ddad212",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

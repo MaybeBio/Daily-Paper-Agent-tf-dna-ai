@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "39899150",
+    "doi": "10.1007/s11033-024-10182-8",
+    "title": "Multiple combinatorial interactions among natural structural variants of Brassica SOC1 promoters and SVP: conservation of binding affinity despite diversity in bimolecular interactions."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Analysis of binding patterns of biomolecules underpin new paradigms for trait engineering. One way of designing early flowering crops is to manipulate genes controlling flowering time. SOC1, a central integrator of flowering, is downregulated by SVP. In amphidiploid Brassica juncea, flowering is plausibly mediated by combinatorial interactions involving natural variants of SOC1 promoter and SVP protein homologs. Although fluctuating temperatures influence energetics of molecular interactions and phenotypes, mechanistic insights on these remain unknown. Herein, we report diversity in 50 homologs of SVP proteins from 25 Brassicaceae species. MATERIALS AND METHODS AND RESULTS: Sequence and phylogenetic analysis of 9 natural variants of B. juncea SVP revealed differences in MIKC domains and sub-genome of origin. Generation and refinement of 15 SVP protein models (natural and hypothetical) using I-TASSER and ALPHAFOLD, and 3 SOC1 promoter fragments using 3D-DART, revealed structural diversity. Notwithstanding, binding affinity of 48 docked complexes analysed using HADDOCK and PreDBA were similar. Analysis of 27 docked complexes for distribution of shared or unique binding patterns and type of molecular contacts (pi-pi stacking, hydrophobic interactions, Van-der-Waals forces, H-bonds) using PyMOL, CCP4i, DNAproDB, PremPDI and DIMPLOT revealed extensive variation implicating compensatory mutations in preserving binding affinity. Yeast one-hybrid assays validated binding potential predicted in docked complexes. Conserved amino-acid and nucleotide residues involved in non-covalent interactions were identified. Computational alanine substitution established cruciality of amino-acid hotspots conferring stability to docked complexes. CONCLUSIONS: Our study is important as identification of crucial amino-acid hotspots is essential for rational protein design. Targeted mutagenesis resulting in modified binding spectrum of regulatory proteins suggests a way forward for trait engineering.",
+    "keywords": [
+      "Crop engineering",
+      "Docking",
+      "Flowering",
+      "Homeologs",
+      "Polyploidy",
+      "Y1H"
+    ],
+    "mesh_terms": [
+      "Promoter Regions, Genetic/genetics",
+      "*Plant Proteins/genetics/metabolism/chemistry",
+      "*Brassica/genetics/metabolism",
+      "Phylogeny",
+      "Protein Binding",
+      "*MADS Domain Proteins/genetics/metabolism",
+      "Gene Expression Regulation, Plant/genetics",
+      "Molecular Docking Simulation",
+      "Flowers/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaur, Simran",
+        "Sisodia, Rinki",
+        "Gupta, Bharat",
+        "Gaikwad, Kishor",
+        "Madhurantakam, Chaithanya",
+        "Singh, Anandita"
+      ],
+      "short_names": [
+        "Kaur S",
+        "Sisodia R",
+        "Gupta B",
+        "Gaikwad K",
+        "Madhurantakam C",
+        "Singh A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1967-8538",
+        "ORCID: 0000-0002-4568-7331"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, Brassica Developmental Biology Laboratory, TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India.",
+        "Department of Biotechnology, Structural and Molecular Biology Laboratory (SMBL), TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India.",
+        "Department of Biotechnology, Brassica Developmental Biology Laboratory, TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India.",
+        "Division of Genetics, Lab No.22, Indian Agricultural Research Institute (IARI), New Delhi, 110012, India.",
+        "Principal Scientist, National Institute for Plant Biotechnology, LBS Centre, Pusa Campus, New Delhi, 110012, India.",
+        "Department of Biotechnology, Structural and Molecular Biology Laboratory (SMBL), TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India. chaithanya.madhurantakam@terisas.ac.in.",
+        "Department of Biotechnology, Brassica Developmental Biology Laboratory, TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India. asingh@terisas.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaur, Simran",
+        "short_name": "Kaur S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Brassica Developmental Biology Laboratory, TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India."
+        ]
+      },
+      {
+        "full_name": "Sisodia, Rinki",
+        "short_name": "Sisodia R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Structural and Molecular Biology Laboratory (SMBL), TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Bharat",
+        "short_name": "Gupta B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Brassica Developmental Biology Laboratory, TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India.",
+          "Division of Genetics, Lab No.22, Indian Agricultural Research Institute (IARI), New Delhi, 110012, India."
+        ]
+      },
+      {
+        "full_name": "Gaikwad, Kishor",
+        "short_name": "Gaikwad K",
+        "identifiers": [],
+        "affiliations": [
+          "Principal Scientist, National Institute for Plant Biotechnology, LBS Centre, Pusa Campus, New Delhi, 110012, India."
+        ]
+      },
+      {
+        "full_name": "Madhurantakam, Chaithanya",
+        "short_name": "Madhurantakam C",
+        "identifiers": [
+          "0000-0002-1967-8538"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Structural and Molecular Biology Laboratory (SMBL), TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India. chaithanya.madhurantakam@terisas.ac.in."
+        ]
+      },
+      {
+        "full_name": "Singh, Anandita",
+        "short_name": "Singh A",
+        "identifiers": [
+          "0000-0002-4568-7331"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Brassica Developmental Biology Laboratory, TERI School of Advanced Studies, 10 Institutional Area, Vasant Kunj, New Delhi, Delhi, 110070, India. asingh@terisas.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology reports"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Rep"
+    ],
+    "pub_date": "2025 Feb 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/03 12:23",
+    "fetched_at": "2026-09-30 10:52:49"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34791371",
+      "34265844",
+      "34174129",
+      "34052911",
+      "33384422",
+      "32126279",
+      "31114927",
+      "31001712",
+      "30466591",
+      "29943206",
+      "29788355",
+      "29532337",
+      "29029172",
+      "28472402",
+      "28431131",
+      "26276216",
+      "26079281",
+      "24067612",
+      "23975762",
+      "22791302",
+      "21919503",
+      "20431534",
+      "20383002",
+      "20219261",
+      "18606145",
+      "17846036",
+      "17322399",
+      "16925837",
+      "15215436",
+      "10715212",
+      "8672883",
+      "2243767"
+    ],
+    "similar": [
+      "39899150",
+      "32126279",
+      "26276216",
+      "29943206",
+      "22268548",
+      "32597066",
+      "40769562",
+      "34576289",
+      "34502271",
+      "25979999",
+      "17005923",
+      "38658145",
+      "22071267",
+      "22325870",
+      "19656342",
+      "21572092",
+      "29397941",
+      "20413527",
+      "40088677",
+      "22791302",
+      "29596826",
+      "30946745",
+      "23963585",
+      "22409646",
+      "37326883",
+      "33797588",
+      "23860795",
+      "41014325",
+      "36077350",
+      "18339670",
+      "32604952",
+      "24693922",
+      "25853185",
+      "25355864",
+      "24532606",
+      "24465009",
+      "39684642",
+      "15777618",
+      "31533070",
+      "22350155",
+      "22539207",
+      "18453531",
+      "34639205",
+      "21343416",
+      "24055423",
+      "18606145",
+      "30890145",
+      "21988498",
+      "17566572",
+      "39763298",
+      "39490648",
+      "32947048",
+      "28330561",
+      "35457106",
+      "34091722",
+      "36721922",
+      "39879831",
+      "29752548",
+      "31769506",
+      "39674274",
+      "41108492",
+      "39128921",
+      "30295903",
+      "34758403",
+      "41056649",
+      "24043856",
+      "30466591",
+      "33244934",
+      "24038650",
+      "32391591",
+      "36002429",
+      "31001712",
+      "40729954",
+      "23437850",
+      "21431295",
+      "31624282",
+      "23396600",
+      "19825833",
+      "25955034",
+      "29761290",
+      "39257299",
+      "40889422",
+      "22232549",
+      "34048949",
+      "25105952",
+      "38956488",
+      "22925611",
+      "25972261",
+      "36016495",
+      "15539492",
+      "18251886",
+      "29532337",
+      "40597649",
+      "24787903",
+      "35870881",
+      "36199018",
+      "25881193",
+      "25602439",
+      "25917508",
+      "21241311"
+    ],
+    "review": [
+      "39899150",
+      "20413527"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11033-024-10182-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "41256382",
+    "doi": "10.1101/2025.10.02.680074",
+    "title": "Population-Specific Transcriptomic Shifts Underlie Secondary Metabolic Diversification in Aspergillus flavus and the Domestication of Aspergillus oryzae."
+  },
+  "content": {
+    "abstract": "The genomic signatures of microbial domestication remain poorly understood within the context of natural population variation. Here, we demonstrate that Aspergillus oryzae, the filamentous fungus used in soy sauce production, shares more recent ancestry with a predominantly northern, largely non-aflatoxigenic population of Aspergillus flavus (population C). Strikingly, A. oryzae isolates also overlap with the recently described, clinically enriched A. flavus population D, suggesting the possibility of multiple domestication events. Although A. oryzae exhibits reduced virulence compared to A. flavus, all isolates tested retained pathogenicity in a zebrafish infection model. At the transcriptomic level, Aspergillus populations are significantly differentiated, with distinct responses to population density, indicating that population-specific transcriptomes adapt differently to ecological conditions. These differences extend beyond gene content and are not always explained by phylogenetic relationships, suggesting that phenotypic diversification occurs through the rapid reorganization of transcriptomic architectures. For example, A. oryzae displays significantly elevated expression of a module enriched for carbohydrate metabolism. Population-specific variation is also evident among secondary metabolite (SM) gene clusters. While A. oryzae shows markedly reduced expression of specific SM genes, particularly those involved in aflatoxin biosynthesis, this trend does not extend across the entire secondary metabolome. Using machine-learning-based gene regulatory network inference, we identified population-specific transcriptomic differences linked to distinct transcription factors, with evidence for both cis- and trans-acting regulatory divergence, but no changes in global regulators such as laeA. Together, these findings provide new insights into the domestication of A. oryzae, its global significance, and the microevolution of fungal secondary metabolic pathways.",
+    "keywords": [
+      "Domestication",
+      "evolution of secondary metabolism",
+      "mycotoxins",
+      "population transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Drott, Milton T",
+        "Wang, Yen-Wen",
+        "Hatmaker, E Anne",
+        "Mercado-Soto, Nayanna M",
+        "Elmore, J Mitch",
+        "Luciano-Rosaro, Dianiris",
+        "Yu, Jae-Hyuk",
+        "Rokas, Antonis",
+        "Gibbons, John G",
+        "Huttenlocher, Anna",
+        "Yang, Kunlong",
+        "Keller, Nancy P"
+      ],
+      "short_names": [
+        "Drott MT",
+        "Wang YW",
+        "Hatmaker EA",
+        "Mercado-Soto NM",
+        "Elmore JM",
+        "Luciano-Rosaro D",
+        "Yu JH",
+        "Rokas A",
+        "Gibbons JG",
+        "Huttenlocher A",
+        "Yang K",
+        "Keller NP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "U.S. Department of Agriculture-Agricultural Research Service, Cereal Disease Laboratory, St. Paul, MN 55108, U.S.A.",
+        "Department of Biostatistics, Yale School of Public Health, New Haven, CT, USA.",
+        "U.S. Department of Agriculture-Agricultural Research Service, Cereal Disease Laboratory, St. Paul, MN 55108, U.S.A.",
+        "Department of Medical Microbiology and Immunology, University of Wisconsin-Madison, WI, USA.",
+        "U.S. Department of Agriculture-Agricultural Research Service, Cereal Disease Laboratory, St. Paul, MN 55108, U.S.A.",
+        "U.S. Department of Agriculture-Agricultural Research Service, Food Quality Laboratory, Beltsville, MD, USA.",
+        "Department of Bacteriology, University of Wisconsin, Madison, WI, USA.",
+        "Department of Biological Sciences, Vanderbilt University, Nashville, TN, USA.",
+        "Department of Food Science, College of Natural Sciences, University of Massachusetts Amherst, Amherst, Massachusetts, USA.",
+        "Department of Medical Microbiology and Immunology, University of Wisconsin-Madison, WI, USA.",
+        "Department of Medical Microbiology and Immunology, University of Wisconsin-Madison, WI, USA.",
+        "Department of Medical Microbiology and Immunology, University of Wisconsin-Madison, WI, USA.",
+        "Department of Plant Pathology, University of Wisconsin, Madison, WI, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Drott, Milton T",
+        "short_name": "Drott MT",
+        "identifiers": [],
+        "affiliations": [
+          "U.S. Department of Agriculture-Agricultural Research Service, Cereal Disease Laboratory, St. Paul, MN 55108, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Wang, Yen-Wen",
+        "short_name": "Wang YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Yale School of Public Health, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Hatmaker, E Anne",
+        "short_name": "Hatmaker EA",
+        "identifiers": [],
+        "affiliations": [
+          "U.S. Department of Agriculture-Agricultural Research Service, Cereal Disease Laboratory, St. Paul, MN 55108, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Mercado-Soto, Nayanna M",
+        "short_name": "Mercado-Soto NM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Microbiology and Immunology, University of Wisconsin-Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Elmore, J Mitch",
+        "short_name": "Elmore JM",
+        "identifiers": [],
+        "affiliations": [
+          "U.S. Department of Agriculture-Agricultural Research Service, Cereal Disease Laboratory, St. Paul, MN 55108, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Luciano-Rosaro, Dianiris",
+        "short_name": "Luciano-Rosaro D",
+        "identifiers": [],
+        "affiliations": [
+          "U.S. Department of Agriculture-Agricultural Research Service, Food Quality Laboratory, Beltsville, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Jae-Hyuk",
+        "short_name": "Yu JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bacteriology, University of Wisconsin, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Rokas, Antonis",
+        "short_name": "Rokas A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Vanderbilt University, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Gibbons, John G",
+        "short_name": "Gibbons JG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Science, College of Natural Sciences, University of Massachusetts Amherst, Amherst, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Huttenlocher, Anna",
+        "short_name": "Huttenlocher A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Microbiology and Immunology, University of Wisconsin-Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Kunlong",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Microbiology and Immunology, University of Wisconsin-Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Keller, Nancy P",
+        "short_name": "Keller NP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Microbiology and Immunology, University of Wisconsin-Madison, WI, USA.",
+          "Department of Plant Pathology, University of Wisconsin, Madison, WI, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Oct 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 06:32",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41256382",
+      "41309709",
+      "38225047",
+      "40307734",
+      "40607808",
+      "42729629",
+      "22795693",
+      "34326825",
+      "38693487",
+      "34016748",
+      "11273679",
+      "36318036",
+      "32795262",
+      "32665272",
+      "42475469",
+      "30520983",
+      "32977505",
+      "24385353",
+      "27527502",
+      "41193539",
+      "20447271",
+      "36744888",
+      "41590422",
+      "31755931",
+      "39728797",
+      "41675126",
+      "31456789",
+      "41522572",
+      "40195023",
+      "40484528",
+      "16430983",
+      "32238572",
+      "30408940",
+      "39662646",
+      "39964163",
+      "30442975",
+      "36920196",
+      "41730464",
+      "17955191",
+      "27224419",
+      "34523946",
+      "24960201",
+      "30782658",
+      "38786667",
+      "25945335",
+      "35080432",
+      "33563821",
+      "26573537",
+      "28066369",
+      "30787113",
+      "30635379",
+      "24951444",
+      "29487238",
+      "27020290",
+      "32211196",
+      "37851522",
+      "26404375",
+      "24780887",
+      "41711450",
+      "22083274",
+      "27175167",
+      "16385126",
+      "39026826",
+      "38534157",
+      "42668165",
+      "37666447",
+      "40492789",
+      "29564395",
+      "30131770",
+      "41591169",
+      "33251654",
+      "40817095",
+      "35034288",
+      "30478227",
+      "26420172",
+      "29990635",
+      "38578660",
+      "29434580",
+      "31429498",
+      "23729383",
+      "39902287",
+      "34682254",
+      "24957367",
+      "34822579",
+      "29263278",
+      "16372010",
+      "24040154",
+      "29978373",
+      "32269157",
+      "39853104",
+      "28874473",
+      "21608094",
+      "32817009",
+      "23894339",
+      "39770704",
+      "39773712",
+      "32047138",
+      "31417528",
+      "37358460",
+      "30361280"
+    ],
+    "review": [
+      "41256382",
+      "39662646",
+      "41730464"
+    ],
+    "pmc": [
+      "12621884"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41256382/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.10.02.680074",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

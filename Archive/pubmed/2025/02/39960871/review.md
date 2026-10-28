@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions
+- **Assessment boundary** Scientific content, methodological rigor, interpretation of results, and internal consistency of claims
+- **Shared manuscript claim summary** The authors report a cocrystal structure of the POU-family transcription factor OCT2 bound to the MORE DNA element, and combine this with fluorescence polarization titrations, electrophoretic mobility shift assays, and molecular dynamics simulations to propose that dimeric OCT2/DNA recognition is coupled to secondary, higher-order complexes at thermodynamic equilibrium, with nonspecific DNA interactions playing a compensatory role modulated by salt concentration
+- **Visible evidence base** Abstract, full methods, results, discussion, and conclusions sections; one table referenced in text (Table 1, Table 2); multiple figures referenced (Figures 1-5); supplementary materials referenced but not provided
+- **Missing materials affecting confidence** Supplementary figures and tables (Table S1, Figures S1, S2), crystallographic data validation reports, raw titration data, simulation trajectory analyses, and the complete PDB validation metrics
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting biophysical characterization of OCT2 dimeric DNA binding, with a novel claim regarding the coupling of site-specific binding to secondary complexes. The crystallographic structure appears to be of reasonable quality based on the description, and the combination of experimental and computational approaches is commendable. However, several aspects of the quantitative analysis require closer scrutiny, particularly the treatment of the fluorescence anisotropy data, the interpretation of the Hill coefficient, and the thermodynamic framework used to interpret salt dependence. The proposed equilibrium model, while conceptually appealing, is not uniquely constrained by the data presented. The manuscript would benefit from clearer presentation of the fitting procedures and more rigorous statistical treatment of the parameters derived from the titrations.
+- **Who would be interested in the results, and why** Researchers in the fields of transcription factor biophysics, protein-DNA recognition, and gene regulation would find this work relevant. The study addresses fundamental questions about how dimeric transcription factors achieve site-specific recognition and how nonspecific interactions contribute to target site localization. The proposed model of coupled equilibria involving secondary complexes could have implications for understanding how POU-family factors function in chromatin contexts. The methodological approach combining crystallography, solution biophysics, and simulation may also interest investigators studying other multimeric DNA-binding proteins.
+- **Major strengths** The combination of multiple complementary techniques (crystallography, fluorescence anisotropy, EMSA, MD simulations) provides a multifaceted view of the system. The crystallographic observation of subunit nonequivalence in a homodimer bound to a palindromic site is an interesting finding. The systematic variation of salt concentration and the inclusion of a nonspecific competitor DNA represent thoughtful experimental design. The authors are appropriately cautious in some interpretations, acknowledging the empirical nature of the excess binding parameter.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Quantitative analysis and model validation
+- **Claim pointer** The authors claim that the excess anisotropy change in fluorescence polarization titrations represents secondary complexes that are "strictly contingent to the site-specific complex" and that these complexes are "significantly populated at subsaturating OCT2 concentrations"
+- **Evidence pointer** Results section, Figure 2B, Equation 1
+- **Concern** The treatment of the excess anisotropy as a linear function of free OCT2 concentration (parameterized by phi) is purely empirical, yet the authors draw specific mechanistic conclusions from this parameter. The claim that secondary complexes are "strictly contingent" on the site-specific complex is based on the observation that excess binding is inhibited by unlabeled MORE, but this does not exclude the possibility that the excess anisotropy arises from nonspecific binding that is simply outcompeted by the unlabeled specific site. The distinction between "secondary complexes contingent on site-specific binding" and "nonspecific binding that is thermodynamically coupled through competition" is not clearly established by the data presented.
+- **Why it matters** The central thesis of the manuscript rests on the existence and nature of these secondary complexes. If the excess anisotropy simply reflects weak nonspecific binding that is displaced by the unlabeled specific competitor, the interpretation would be substantially different. The authors need to provide more direct evidence for the stoichiometry and nature of the proposed secondary complexes, such as analytical ultracentrifugation or mass spectrometry under similar conditions.
+- **Resolution test** Provide direct biophysical evidence for the stoichiometry of the proposed secondary complexes (e.g., sedimentation equilibrium or velocity experiments, native mass spectrometry). Alternatively, demonstrate that the excess binding cannot be explained by a simple competitive binding model without invoking secondary complexes.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Thermodynamic interpretation of salt dependence
+- **Claim pointer** The authors interpret the salt dependence of KD using polyelectrolyte theory and claim that the difference in slopes with and without poly[d(I-C)] indicates "opposing mechanisms viz-à-viz depletion of unbound protein versus intersegmental transfer"
+- **Evidence pointer** Results section, Figure 3A, Equation 5
+- **Concern** The interpretation of the salt dependence relies on the assumption that the observed slope SK can be decomposed into contributions from DNA counterion release and "other" contributions. However, the value of Z = -11 used in Equation 5 is derived from contacts within 4 Å in the cocrystal structure, which represents a single static conformation. The number of ion pairs formed upon binding is likely to be dynamic and may differ substantially in solution. Furthermore, the crossover behavior in KD with and without poly[d(I-C)] is interpreted as evidence for intersegmental transfer, but alternative explanations (e.g., changes in protein oligomerization state at high salt, or salt-dependent conformational changes in the DNA) are not considered.
+- **Why it matters** The proposed mechanism of intersegmental transfer as a compensatory pathway is a key conclusion of the study. If the salt-dependent effects can be explained by simpler mechanisms, the proposed model would not be uniquely supported.
+- **Resolution test** Measure the salt dependence of binding over a wider range of salt concentrations and test for deviations from linearity in the log-log plots. Perform binding experiments with a DNA competitor that cannot support intersegmental transfer (e.g., a short duplex lacking flanking sequences) to directly test the proposed mechanism.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Simulation methodology and interpretation
+- **Claim pointer** The authors claim that MD simulations "extend a mechanism, previously proposed for POU monomers, in which the two subdomains dynamically cross-link DNA strands to form supramolecular dimeric POU/DNA complexes at equilibrium"
+- **Evidence pointer** Results section, Figure 4, Molecular Dynamics Simulations subsection
+- **Concern** The MD simulations are described as supporting the proposed model, but the details of the simulation setup are limited. The authors state that they used a homology model for the OCT2/DNA complex with the MORE sequence substituted with alternating d(I-C), but the construction of this model is not described in sufficient detail. The simulations are only 200 ns in length, which may be insufficient to sample the conformational dynamics relevant to the proposed cross-linking mechanism. The rotational correlation times computed from the simulations are compared to the experimental anisotropy data, but the relationship between the computed tau_c values and the observed anisotropy changes is not quantitatively established.
+- **Why it matters** The simulations are used to support the proposed model of secondary complex formation and cross-linking. If the simulations are not adequately sampling the relevant conformational space or if the model construction introduces artifacts, the conclusions drawn from them would be weakened.
+- **Resolution test** Provide more detailed information about the simulation setup, including the construction of the homology model, the equilibration protocol, and the convergence criteria. Consider longer simulations or enhanced sampling methods to more thoroughly explore the conformational landscape. Provide a more quantitative comparison between the computed rotational correlation times and the experimental anisotropy data.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Generalizability of the proposed model
+- **Claim pointer** The authors state in the Conclusions that "this model for OCT2 should be generalizable to other POU members"
+- **Evidence pointer** Conclusions section
+- **Concern** The claim of generalizability to other POU members is not supported by any comparative data. The authors note that OCT2 carries the longest linker among POU factors, which they suggest may facilitate the coupled interactions. This observation actually argues against generalizability, as shorter linkers or those with structure-forming elements would be expected to behave differently. The authors should either provide comparative data with other POU factors or temper this claim.
+- **Why it matters** The generalizability claim extends the significance of the work beyond the specific system studied. Without supporting evidence, this claim is speculative and could mislead readers about the broader applicability of the findings.
+- **Resolution test** Provide comparative binding data with at least one other POU family member with a shorter linker, or revise the claim to be more modest and system-specific.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity of presentation
+- **Affected element** Equation 1
+- **Evidence pointer** Materials and Methods, Fluorescence Polarization Titrations
+- **Issue** The relationship between the measured anisotropy and the concentrations of the various species is not fully explained. The subscripts and the meaning of the linear coefficient phi could be defined more explicitly.
+- **Required correction** Provide a more detailed derivation of Equation 1, including definitions of all terms and the assumptions underlying the linear treatment of excess binding.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Statistical treatment
+- **Affected element** Reported KD and phi values
+- **Evidence pointer** Results section, Tables 1 and 2
+- **Issue** The reported parameters are given with uncertainties, but the number of independent experiments and the method used to calculate the uncertainties are not stated.
+- **Required correction** Specify the number of replicate experiments and the statistical method used to derive the reported uncertainties.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Crystallographic analysis
+- **Affected element** Cocrystal structure description
+- **Evidence pointer** Results section, Co-Crystal Structure subsection
+- **Issue** The description of the crystallographic analysis is brief. The authors mention subunit nonequivalence but do not provide quantitative measures of this asymmetry (e.g., RMSD between the two subunits).
+- **Required correction** Provide quantitative measures of the structural asymmetry between the two subunits and discuss the potential functional significance of this asymmetry.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Terminology
+- **Affected element** Use of the term "oxidized oxygen atom (OCT2)"
+- **Evidence pointer** Discussion section, first paragraph
+- **Issue** The phrase "oxidized oxygen atom (OCT2)" appears to be an error or an unusual way to refer to the OCT2 protein. This is likely a typographical or formatting error.
+- **Required correction** Correct this phrase to simply refer to OCT2 or clarify the intended meaning.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Completeness of methods
+- **Affected element** MD simulation details
+- **Evidence pointer** Materials and Methods, Molecular Dynamics Simulations
+- **Issue** The description of the MD simulations lacks important details, including the specific version of the force field parameters, the water model, the ion concentration and composition, and the temperature/pressure coupling schemes.
+- **Required correction** Provide a complete description of the simulation parameters to allow reproduction of the simulations.
+- **Concern ID** R1-m6
+- **Severity** Minor
+- **Axis** Figure quality
+- **Affected element** Figure 5
+- **Evidence pointer** Results section, Discussion
+- **Issue** The schematic in Figure 5A is described in the text but the figure itself is not available for review. The description of the equilibrium model would benefit from a clear visual representation.
+- **Required correction** Ensure that Figure 5 clearly illustrates the proposed equilibrium model with all species and transitions labeled consistently with the text.
+
+## Risk / unsupported claims
+- The claim that secondary complexes are "strictly contingent" on the site-specific complex is not uniquely established by the competition experiment; alternative explanations involving competitive nonspecific binding are possible
+- The proposed equilibrium model with five major species is not uniquely constrained by the titration data; multiple alternative models could likely fit the data equally well
+- The generalizability claim to other POU family members is unsupported by comparative data
+- The interpretation of the salt dependence using polyelectrolyte theory relies on assumptions about the number of ion pairs formed that are not directly validated
+- The MD simulation results are used to support mechanistic conclusions, but the simulations are relatively short and the model construction is not described in sufficient detail to assess potential artifacts
+- The relationship between the computed rotational correlation times and the experimental anisotropy changes is not quantitatively established

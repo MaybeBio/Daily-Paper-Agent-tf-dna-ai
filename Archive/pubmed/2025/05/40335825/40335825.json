@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40335825",
+    "doi": "10.1186/s43556-025-00268-5",
+    "title": "MRI-based machine learning reveals proteasome subunit PSMB8-mediated malignant glioma phenotypes through activating TGFBR1/2-SMAD2/3 axis."
+  },
+  "content": {
+    "abstract": "Gliomas are the most prevalent and aggressive neoplasms of the central nervous system, representing a major challenge for effective treatment and patient prognosis. This study identifies the proteasome subunit beta type-8 (PSMB8/LMP7) as a promising prognostic biomarker for glioma. Using a multiparametric radiomic model derived from preoperative magnetic resonance imaging (MRI), we accurately predicted PSMB8 expression levels. Notably, radiomic prediction of poor prognosis was highly consistent with elevated PSMB8 expression. Our findings demonstrate that PSMB8 depletion not only suppressed glioma cell proliferation and migration but also induced apoptosis via activation of the transforming growth factor beta (TGF-beta) signaling pathway. This was supported by downregulation of key receptors (TGFBR1 and TGFBR2). Furthermore, interference with PSMB8 expression impaired phosphorylation and nuclear translocation of SMAD2/3, critical mediators of TGF-beta signaling. Consequently, these molecular alterations resulted in reduced tumor progression and enhanced sensitivity to temozolomide (TMZ), a standard chemotherapeutic agent. Overall, our findings highlight PSMB8's pivotal role in glioma pathophysiology and its potential as a prognostic marker. This study also demonstrates the clinical utility of MRI radiomics for preoperative risk stratification and pre-diagnosis. Targeted inhibition of PSMB8 may represent a therapeutic strategy to overcome TMZ resistance and improve glioma patient outcomes.",
+    "keywords": [
+      "Apoptosis",
+      "Glioma",
+      "Proliferation",
+      "Proteasome subunit beta type-8 (PSMB8)",
+      "Radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioma/metabolism/diagnostic imaging/pathology/genetics",
+      "*Magnetic Resonance Imaging/methods",
+      "*Proteasome Endopeptidase Complex/metabolism/genetics",
+      "Signal Transduction",
+      "Cell Line, Tumor",
+      "*Receptor, Transforming Growth Factor-beta Type I/metabolism",
+      "*Smad2 Protein/metabolism",
+      "*Brain Neoplasms/diagnostic imaging/metabolism/pathology",
+      "Temozolomide/pharmacology",
+      "Phenotype",
+      "Cell Proliferation",
+      "*Smad3 Protein/metabolism",
+      "Prognosis",
+      "Animals",
+      "Cell Movement",
+      "Apoptosis",
+      "Male",
+      "Female",
+      "Receptor, Transforming Growth Factor-beta Type II"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Dongling",
+        "Ma, Zeyu",
+        "Qiu, Yuning",
+        "Wang, Minkai",
+        "Wang, Zilong",
+        "Liu, Xianzhi",
+        "Zhang, Long",
+        "Zhang, Zhenyu",
+        "Li, Ran",
+        "Yan, Dongming"
+      ],
+      "short_names": [
+        "Pei D",
+        "Ma Z",
+        "Qiu Y",
+        "Wang M",
+        "Wang Z",
+        "Liu X",
+        "Zhang L",
+        "Zhang Z",
+        "Li R",
+        "Yan D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China.",
+        "MOE Laboratory of Biosystems Homeostasis & Protection and Innovation Center for Cell Signaling Network, Life Sciences Institute, Zhejiang University, Hangzhou, 310058, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China. fcczhangzy1@zzu.edu.cn.",
+        "School of Medicine, Hangzhou City University, Hangzhou, 310015, Zhejiang, China. ranli1993@zju.edu.cn.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China. mrdmyan@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Dongling",
+        "short_name": "Pei D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Zeyu",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yuning",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Minkai",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zilong",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xianzhi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Long",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Laboratory of Biosystems Homeostasis & Protection and Innovation Center for Cell Signaling Network, Life Sciences Institute, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhenyu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China. fcczhangzy1@zzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Ran",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Hangzhou City University, Hangzhou, 310015, Zhejiang, China. ranli1993@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yan, Dongming",
+        "short_name": "Yan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450001, Henan, China. mrdmyan@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biomedicine"
+    ],
+    "journal_abbrev": [
+      "Mol Biomed"
+    ],
+    "pub_date": "2025 May 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/08 00:24",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37975957",
+      "36853347",
+      "36746983",
+      "36534225",
+      "36424389",
+      "36066969",
+      "36001125",
+      "35601966",
+      "35461253",
+      "35127472",
+      "34951955",
+      "34563923",
+      "34543427",
+      "34519578",
+      "34312469",
+      "34185076",
+      "33707310",
+      "33577785",
+      "33525943",
+      "33123732",
+      "32816328",
+      "32620753",
+      "31162820",
+      "30742122",
+      "30661193",
+      "29789422",
+      "29652515",
+      "29643418",
+      "29428669",
+      "29092951",
+      "29016879",
+      "28721901",
+      "28289061",
+      "28246180",
+      "27310651",
+      "26894977",
+      "26636107",
+      "25944528",
+      "24751956",
+      "22344298",
+      "20378467",
+      "20371685",
+      "19525961",
+      "19371762",
+      "18485877",
+      "17292826",
+      "15758009",
+      "15180520",
+      "15118874",
+      "12015144",
+      "8612775",
+      "7635563",
+      "1427755"
+    ],
+    "similar": [
+      "40335825",
+      "29428669",
+      "29899418",
+      "25891822",
+      "39502045",
+      "26356815",
+      "25165192",
+      "40093646",
+      "24370825",
+      "21624123",
+      "34712379",
+      "40088962",
+      "31796105",
+      "40165301",
+      "19431147",
+      "10861501",
+      "26715270",
+      "30196284",
+      "33087705",
+      "34421346",
+      "30336060",
+      "26733179",
+      "32816328",
+      "39030882",
+      "29414809",
+      "39473426",
+      "16871886",
+      "37974228",
+      "30475986",
+      "30320350",
+      "27527869",
+      "39626317",
+      "38458887",
+      "30317578",
+      "27813087",
+      "38824087",
+      "27878252",
+      "33106913",
+      "35701983",
+      "39514365",
+      "24347165",
+      "27574009",
+      "39164996",
+      "39733737",
+      "19122240",
+      "35490896",
+      "31534499",
+      "40155892",
+      "24093630",
+      "39266624",
+      "38235619",
+      "39719558",
+      "32975228",
+      "32194140",
+      "32833501",
+      "33070553",
+      "24436439",
+      "38634120",
+      "38279197",
+      "31381269",
+      "33188501",
+      "30081068",
+      "40032983",
+      "31291988",
+      "34110366",
+      "32143140",
+      "39629744",
+      "30145936",
+      "36183123",
+      "35817771",
+      "22344298",
+      "32194873",
+      "32740813",
+      "35505656",
+      "26188279",
+      "32128987",
+      "26908446",
+      "39251442",
+      "34059782",
+      "32393472",
+      "37889272",
+      "36521657",
+      "26741507",
+      "25701598",
+      "31613821",
+      "31353638",
+      "40225573",
+      "40180114",
+      "27473823",
+      "39075053",
+      "38467631",
+      "34657141",
+      "21948232",
+      "32139705",
+      "30691485",
+      "24986090",
+      "39784150",
+      "39929351",
+      "33316781",
+      "27818294"
+    ],
+    "review": [
+      "40335825",
+      "38824087"
+    ],
+    "pmc": [
+      "12058589"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40335825/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "34008220",
+    "doi": "10.1002/prot.26150",
+    "title": "Structures of MERS-CoV macro domain in aqueous solution with dynamics: Impacts of parallel tempering simulation techniques and CHARMM36m and AMBER99SB force field parameters."
+  },
+  "content": {
+    "abstract": "A novel virus, severe acute respiratory syndrome Coronavirus 2 (SARS-CoV-2), causing coronavirus disease 2019 (COVID-19) worldwide appeared in 2019. Detailed scientific knowledge of the members of the Coronaviridae family, including the Middle East Respiratory Syndrome Coronavirus (MERS-CoV) is currently lacking. Structural studies of the MERS-CoV proteins in the current literature are extremely limited. We present here detailed characterization of the structural properties of MERS-CoV macro domain in aqueous solution. Additionally, we studied the impacts of chosen force field parameters and parallel tempering simulation techniques on the predicted structural properties of MERS-CoV macro domain in aqueous solution. For this purpose, we conducted extensive Hamiltonian-replica exchange molecular dynamics simulations and Temperature-replica exchange molecular dynamics simulations using the CHARMM36m and AMBER99SB parameters for the macro domain. This study shows that the predicted secondary structure properties including their propensities depend on the chosen simulation technique and force field parameter. We perform structural clustering based on the radius of gyration and end-to-end distance of MERS-CoV macro domain in aqueous solution. We also report and analyze the residue-level intrinsic disorder features, flexibility and secondary structure. Furthermore, we study the propensities of this macro domain for protein-protein interactions and for the RNA and DNA binding. Overall, results are in agreement with available nuclear magnetic resonance spectroscopy findings and present more detailed insights into the structural properties of MERS CoV macro domain in aqueous solution. All in all, we present the structural properties of the aqueous MERS-CoV macro domain using different parallel tempering simulation techniques, force field parameters and bioinformatics tools.",
+    "keywords": [
+      "H-REMD simulations",
+      "MERS-CoV",
+      "T-REMD simulations",
+      "bioinformatics",
+      "force field parameters",
+      "simulation protocols"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Middle East Respiratory Syndrome Coronavirus/*chemistry/*metabolism",
+      "*Molecular Dynamics Simulation",
+      "Protein Domains/physiology",
+      "Protein Structure, Secondary",
+      "Solutions",
+      "Water/*chemistry/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akbayrak, Ibrahim Yagiz",
+        "Caglayan, Sule Irem",
+        "Durdagi, Serdar",
+        "Kurgan, Lukasz",
+        "Uversky, Vladimir N",
+        "Ulver, Burak",
+        "Dervisoglu, Havvanur",
+        "Haklidir, Mehmet",
+        "Hasekioglu, Orkun",
+        "Coskuner-Weber, Orkid"
+      ],
+      "short_names": [
+        "Akbayrak IY",
+        "Caglayan SI",
+        "Durdagi S",
+        "Kurgan L",
+        "Uversky VN",
+        "Ulver B",
+        "Dervisoglu H",
+        "Haklidir M",
+        "Hasekioglu O",
+        "Coskuner-Weber O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7749-0314",
+        "ORCID: 0000-0002-0772-9350"
+      ],
+      "affiliations": [
+        "Materials Sciences and Technologies, College of Sciences, Turkish-German University, Istanbul, Turkey.",
+        "Molecular Biotechnology, College of Sciences, Turkish-German University, Istanbul, Turkey.",
+        "Department of Biophysics, School of Medicine, Bahcesehir University, Istanbul, Turkey.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA.",
+        "Department of Molecular Medicine, USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, Florida, USA.",
+        "Laboratory of New Methods in Biology, Institute for Biological Instrumentation of the Russian Academy of Sciences, Federal Research Center \"Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences\", Pushchino, Russia.",
+        "TUBITAK, Turkish Scientific and Technological Research Council, BILGEM, Istanbul, Turkey.",
+        "TUBITAK, Turkish Scientific and Technological Research Council, BILGEM, Istanbul, Turkey.",
+        "TUBITAK, Turkish Scientific and Technological Research Council, BILGEM, Istanbul, Turkey.",
+        "TUBITAK, Turkish Scientific and Technological Research Council, BILGEM, Istanbul, Turkey.",
+        "Molecular Biotechnology, College of Sciences, Turkish-German University, Istanbul, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akbayrak, Ibrahim Yagiz",
+        "short_name": "Akbayrak IY",
+        "identifiers": [],
+        "affiliations": [
+          "Materials Sciences and Technologies, College of Sciences, Turkish-German University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Caglayan, Sule Irem",
+        "short_name": "Caglayan SI",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, College of Sciences, Turkish-German University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Durdagi, Serdar",
+        "short_name": "Durdagi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, School of Medicine, Bahcesehir University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [
+          "0000-0002-7749-0314"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, Florida, USA.",
+          "Laboratory of New Methods in Biology, Institute for Biological Instrumentation of the Russian Academy of Sciences, Federal Research Center \"Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences\", Pushchino, Russia."
+        ]
+      },
+      {
+        "full_name": "Ulver, Burak",
+        "short_name": "Ulver B",
+        "identifiers": [],
+        "affiliations": [
+          "TUBITAK, Turkish Scientific and Technological Research Council, BİLGEM, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Dervisoğlu, Havvanur",
+        "short_name": "Dervisoğlu H",
+        "identifiers": [],
+        "affiliations": [
+          "TUBITAK, Turkish Scientific and Technological Research Council, BİLGEM, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Haklidir, Mehmet",
+        "short_name": "Haklidir M",
+        "identifiers": [],
+        "affiliations": [
+          "TUBITAK, Turkish Scientific and Technological Research Council, BİLGEM, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Hasekioglu, Orkun",
+        "short_name": "Hasekioglu O",
+        "identifiers": [],
+        "affiliations": [
+          "TUBITAK, Turkish Scientific and Technological Research Council, BİLGEM, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Coskuner-Weber, Orkid",
+        "short_name": "Coskuner-Weber O",
+        "identifiers": [
+          "0000-0002-0772-9350"
+        ],
+        "affiliations": [
+          "Molecular Biotechnology, College of Sciences, Turkish-German University, Istanbul, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2021 Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/20 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "42569031",
+      "40025024",
+      "39802026",
+      "38910419",
+      "36466947"
+    ],
+    "refs": [
+      "32293807",
+      "32288937",
+      "32288305",
+      "31510679",
+      "31462972",
+      "30250773",
+      "30169574",
+      "29860432",
+      "29495250",
+      "28334258",
+      "28132027",
+      "27712621",
+      "26993639",
+      "26792741",
+      "26740631",
+      "23832629",
+      "20100603",
+      "18412437",
+      "17212484",
+      "16981200",
+      "16618368",
+      "15955779",
+      "15769473",
+      "12927536",
+      "11093259",
+      "6667333"
+    ],
+    "similar": [
+      "34008220",
+      "33580600",
+      "26993639",
+      "26740631",
+      "33504944",
+      "34686999",
+      "30250773",
+      "31776269",
+      "36650897",
+      "28250277",
+      "32962355",
+      "29803965",
+      "35059035",
+      "29162711",
+      "29258555",
+      "31903719",
+      "31703698",
+      "33534822",
+      "34176764",
+      "35032548",
+      "36239696",
+      "30135128",
+      "32295925",
+      "26311885",
+      "32249203",
+      "29996104",
+      "31883086",
+      "26281793",
+      "36466947",
+      "25142582",
+      "26249685",
+      "25733052",
+      "32306854",
+      "30644840",
+      "27025250",
+      "34287009",
+      "33461573",
+      "30646495",
+      "32370153",
+      "31167913",
+      "34817197",
+      "33486617",
+      "30938227",
+      "31399512",
+      "28608547",
+      "27245450",
+      "33144319",
+      "38910419",
+      "24992731",
+      "33509045",
+      "27750111",
+      "33313272",
+      "32503352",
+      "34648601",
+      "28747502",
+      "35075213",
+      "30791410",
+      "21289072",
+      "20919750",
+      "33653888",
+      "24362959",
+      "27795425",
+      "26658006",
+      "29950421",
+      "30847572",
+      "28906430",
+      "31562757",
+      "25609809",
+      "25320088",
+      "33914244",
+      "25952623",
+      "36662469",
+      "38147592",
+      "36410027",
+      "36567735",
+      "34483415",
+      "38230998",
+      "38963184"
+    ],
+    "review": [
+      "34008220",
+      "35059035"
+    ],
+    "pmc": [
+      "8242390"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34008220/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34008220",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26150",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34008220",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

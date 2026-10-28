@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "38256867",
+    "doi": "10.3390/ph17010033",
+    "title": "HIV-1 Transcription Inhibition Using Small RNA-Binding Molecules."
+  },
+  "content": {
+    "abstract": "The HIV-1 transactivator protein Tat interacts with the transactivation response element (TAR) at the three-nucleotide UCU bulge to facilitate the recruitment of transcription elongation factor-b (P-TEFb) and induce the transcription of the integrated proviral genome. Therefore, the Tat-TAR interaction, unique to the virus, is a promising target for developing antiviral therapeutics. Currently, there are no FDA-approved drugs against HIV-1 transcription, suggesting the need to develop novel inhibitors that specifically target HIV-1 transcription. We have identified potential candidates that effectively inhibit viral transcription in myeloid and T cells without apparent toxicity. Among these candidates, two molecules showed inhibition of viral protein expression. A molecular docking and simulation approach was used to determine the binding dynamics of these small molecules on TAR RNA in the presence of the P-TEFb complex, which was further validated by a biotinylated RNA pulldown assay. Furthermore, we examined the effect of these molecules on transcription factors, including the SWI/SNF complex (BAF or PBAF), which plays an important role in chromatin remodeling near the transcription start site and hence regulates virus transcription. The top candidates showed significant viral transcription inhibition in primary cells infected with HIV-1 (98.6). Collectively, our study identified potential transcription inhibitors that can potentially complement existing cART drugs to address the current therapeutic gap in current regimens. Additionally, shifting of the TAR RNA loop towards Cyclin T1 upon molecule binding during molecular simulation studies suggested that targeting the TAR loop and Tat-binding UCU bulge together should be an essential feature of TAR-binding molecules/inhibitors to achieve complete viral transcription inhibition.",
+    "keywords": [
+      "HIV-1 transcription",
+      "SWI/SNF complex",
+      "molecular modeling",
+      "molecular simulation",
+      "transactivation response element (TAR) RNA",
+      "transcription elongation factor-b (P-TEFb)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khatkar, Pooja",
+        "Mensah, Gifty",
+        "Ning, Shangbo",
+        "Cowen, Maria",
+        "Kim, Yuriy",
+        "Williams, Anastasia",
+        "Abulwerdi, Fardokht A",
+        "Zhao, Yunjie",
+        "Zeng, Chen",
+        "Le Grice, Stuart F J",
+        "Kashanchi, Fatah"
+      ],
+      "short_names": [
+        "Khatkar P",
+        "Mensah G",
+        "Ning S",
+        "Cowen M",
+        "Kim Y",
+        "Williams A",
+        "Abulwerdi FA",
+        "Zhao Y",
+        "Zeng C",
+        "Le Grice SFJ",
+        "Kashanchi F"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3842-5146",
+        "ORCID: 0000-0001-8658-6863",
+        "ORCID: 0000-0002-5256-9456",
+        "ORCID: 0000-0001-9681-2780"
+      ],
+      "affiliations": [
+        "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA.",
+        "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA.",
+        "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China.",
+        "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA.",
+        "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA.",
+        "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA.",
+        "Basic Research Laboratory, National Cancer Institute, Frederick, MD 21702, USA.",
+        "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China.",
+        "Physics Department, The George Washington University, Washington, DC 20052, USA.",
+        "Basic Research Laboratory, National Cancer Institute, Frederick, MD 21702, USA.",
+        "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khatkar, Pooja",
+        "short_name": "Khatkar P",
+        "identifiers": [
+          "0000-0003-3842-5146"
+        ],
+        "affiliations": [
+          "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA."
+        ]
+      },
+      {
+        "full_name": "Mensah, Gifty",
+        "short_name": "Mensah G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA."
+        ]
+      },
+      {
+        "full_name": "Ning, Shangbo",
+        "short_name": "Ning S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+        ]
+      },
+      {
+        "full_name": "Cowen, Maria",
+        "short_name": "Cowen M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Yuriy",
+        "short_name": "Kim Y",
+        "identifiers": [
+          "0000-0001-8658-6863"
+        ],
+        "affiliations": [
+          "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA."
+        ]
+      },
+      {
+        "full_name": "Williams, Anastasia",
+        "short_name": "Williams A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA."
+        ]
+      },
+      {
+        "full_name": "Abulwerdi, Fardokht A",
+        "short_name": "Abulwerdi FA",
+        "identifiers": [],
+        "affiliations": [
+          "Basic Research Laboratory, National Cancer Institute, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yunjie",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-5256-9456"
+        ],
+        "affiliations": [
+          "Institute of Biophysics and Department of Physics, Central China Normal University, Wuhan 430079, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Chen",
+        "short_name": "Zeng C",
+        "identifiers": [],
+        "affiliations": [
+          "Physics Department, The George Washington University, Washington, DC 20052, USA."
+        ]
+      },
+      {
+        "full_name": "Le Grice, Stuart F J",
+        "short_name": "Le Grice SFJ",
+        "identifiers": [],
+        "affiliations": [
+          "Basic Research Laboratory, National Cancer Institute, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Kashanchi, Fatah",
+        "short_name": "Kashanchi F",
+        "identifiers": [
+          "0000-0001-9681-2780"
+        ],
+        "affiliations": [
+          "Laboratory of Molecular Virology, School of Systems Biology, George Mason University, Manassas, VA 20110, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceuticals (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Pharmaceuticals (Basel)"
+    ],
+    "pub_date": "2023 Dec 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 06:42",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "42188843",
+      "42079651",
+      "42074139",
+      "40732322",
+      "40687432",
+      "39456178"
+    ],
+    "refs": [
+      "34762866",
+      "34696435",
+      "33586776",
+      "32977702",
+      "32545835",
+      "32403278",
+      "32042107",
+      "31080171",
+      "30992052",
+      "30514815",
+      "30481318",
+      "30323330",
+      "28862291",
+      "28521030",
+      "28002966",
+      "27450546",
+      "27149428",
+      "26616767",
+      "25672887",
+      "25540204",
+      "25466178",
+      "25290691",
+      "24727379",
+      "24227837",
+      "24055802",
+      "23661700",
+      "23486721",
+      "23370291",
+      "23247501",
+      "23089590",
+      "22771113",
+      "22419892",
+      "22417909",
+      "22371439",
+      "22355797",
+      "21706033",
+      "21574948",
+      "20599239",
+      "20535204",
+      "19644384",
+      "19584251",
+      "17613711",
+      "17584612",
+      "17576689",
+      "16893449",
+      "16687403",
+      "16601680",
+      "16200636",
+      "15264254",
+      "15105155",
+      "14970387",
+      "11940654",
+      "11773079",
+      "11689053",
+      "10888618",
+      "10866664",
+      "10837072",
+      "10708768",
+      "10329125",
+      "9989493",
+      "9733868",
+      "8918800",
+      "7563092",
+      "7502045",
+      "6163133",
+      "2478293",
+      "2470647"
+    ],
+    "similar": [
+      "38256867",
+      "34696435",
+      "10913173",
+      "30481318",
+      "12009901",
+      "20976203",
+      "16712471",
+      "29037489",
+      "10958691",
+      "19584251",
+      "16893449",
+      "34762866",
+      "10393900",
+      "23392246",
+      "10077579",
+      "10775603",
+      "10550206",
+      "9649438",
+      "23274668",
+      "27731797",
+      "15498776",
+      "7490754",
+      "12438619",
+      "8009832",
+      "24727379",
+      "20064163",
+      "24832514",
+      "24985467",
+      "16535863",
+      "7831824",
+      "37298089",
+      "36584296",
+      "17540406",
+      "8871552",
+      "15905409",
+      "23007159",
+      "9696809",
+      "31080171",
+      "10944537",
+      "15564463",
+      "12832472",
+      "16855296",
+      "24843025",
+      "30992052",
+      "21876670",
+      "9832504",
+      "22943434",
+      "12368330",
+      "21625572",
+      "19223581",
+      "15992410",
+      "10995220",
+      "11325424",
+      "30514815",
+      "10964778",
+      "33827943",
+      "29743242",
+      "24204263",
+      "9300036",
+      "12126615",
+      "9491887",
+      "16687403",
+      "12458222",
+      "17537237",
+      "38918875",
+      "7638159",
+      "1868081",
+      "7609059",
+      "35464972",
+      "15737233",
+      "15169877",
+      "11549886",
+      "7563092",
+      "7892280",
+      "17576689",
+      "16280076",
+      "10573156",
+      "18620576",
+      "8078772",
+      "20227666",
+      "28641535",
+      "1565648",
+      "19029897",
+      "15638724",
+      "9254702",
+      "21763500",
+      "1752441",
+      "28081678",
+      "12323396",
+      "7756257",
+      "9760258",
+      "24832049",
+      "14569024",
+      "12048247",
+      "1830589",
+      "11880033",
+      "19603446",
+      "10846086",
+      "18931076",
+      "28864671"
+    ],
+    "review": [
+      "38256867",
+      "16712471",
+      "10550206",
+      "16535863",
+      "31080171",
+      "16280076",
+      "28641535"
+    ],
+    "pmc": [
+      "10819208"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ph17010033",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38256867/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38256867",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

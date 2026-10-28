@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.03.674126",
+  "title": "STRUMP-I: Structure-based machine learning approach to pMHC-I binding prediction using force field energy features",
+  "authors": "Adam Voshall; Jeongjun Chae; Honglan Li; Junsu Ko; Woongyang Park; Eunjung Alice Lee; Yoonjoo Choi",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-08",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用基于结构的机器学习方法预测pMHC-I结合，虽非TF-DNA体系，但涉及蛋白-肽互作建模与力场能量特征，方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "The adaptive immune system monitors cellular integrity by recognizing short peptides from intracellular proteins presented on Major Histocompatibility Complex class I (MHC-I) molecules, collectively termed peptide-MHC complexes (pMHC), enabling detection of foreign or mutated proteins. With the rising importance of immunotherapies targeting neoantigens in cancers, the ability to accurately predict which peptides will bind to the diverse population of MHC alleles is critically important. Current computational methods for pMHC-I prediction fall broadly into sequence-based methods, which rely heavily on large training datasets, and structure-based methods that leverage structural modeling and energetics of pMHC binding. While sequence-based methods have been popularly used, their performance is dependent on the size and quality of training data. On the other hands, while structure-based approaches can generalize better across diverse MHC alleles, they traditionally depend on identifying a single global minimum energy conformation, an assumption that often fails due to the inherent binding promiscuity of MHC-I molecules. To address these limitations, we developed a STRUMP-I (STRUcture-based pMHC Prediction (for class I)), a novel pMHC binding prediction tool that directly leverages a broad set of force-field-derived energy terms as machine-learning features. STRUMP-I achieves performance comparable to state-of-the-art sequence-based models while significantly outperforming them on MHC alleles with limited representation in training data. Furthermore, STRUMP-I demonstrates strong synergy when integrated with sequence-based methods, notably enhancing prediction precision. The robustness and generalizability of STRUMP-I were confirmed by evaluating its predictive performance on independent, previously unseen datasets, including an experimentally validated cancer neoantigen dataset. This combined approach advances our capability to reliably identify clinically relevant neoantigen targets. The source code and trained models are available at https://github.com/yoonjoolab/STRUMP-I",
+  "abstract_zh": "适应性免疫系统通过识别由主要组织相容性复合体I类（MHC-I）分子呈递的细胞内蛋白短肽（统称为肽-MHC复合物（pMHC））来监测细胞完整性，从而能够检测外来或突变蛋白。随着针对癌症新抗原的免疫疗法重要性日益增加，准确预测哪些肽能结合多样化的MHC等位基因群体变得至关重要。当前用于pMHC-I预测的计算方法大致分为基于序列的方法（严重依赖大型训练数据集）和基于结构的方法（利用pMHC结合的结构建模和能量学）。虽然基于序列的方法已被广泛使用，但其性能依赖于训练数据的大小和质量。另一方面，尽管基于结构的方法在多样化MHC等位基因间具有更好的泛化能力，但它们传统上依赖于识别单一全局最小能量构象，这一假设常因MHC-I分子固有的结合混杂性而失效。为解决这些局限性，我们开发了STRUMP-I（基于结构的pMHC预测（I类）），一种新型pMHC结合预测工具，直接利用广泛的力场衍生能量项作为机器学习特征。STRUMP-I达到了与最先进的基于序列模型相当的性能，并在训练数据中代表性有限的MHC等位基因上显著优于它们。此外，STRUMP-I与基于序列方法整合时展现出强协同效应，显著提高了预测精度。通过在独立、未见过的数据集（包括实验验证的癌症新抗原数据集）上评估其预测性能，确认了STRUMP-I的稳健性和泛化能力。这种组合方法推进了我们可靠识别临床相关新抗原靶点的能力。源代码和训练模型可在https://github.com/yoonjoolab/STRUMP-I获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.03.674126",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.03.674126",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.03.674126/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a hybrid kernel alignment maximization-based multiple kernel model (HKAM-MKM) for predicting DNA-binding proteins (DBPs) from sequence-derived features. The method integrates global and local kernel alignment, optimizes kernel weights by maximizing hybrid alignment, and feeds the fused kernel into a support vector machine. Reported performance on independent test sets PDB186 and PDB2272 includes MCC values of 0.768 and 0.5962 and accuracies of 87.1% and 78.43%, claimed superior to other predictors.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline comparisons, or numerical results beyond those stated in the abstract
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction details, feature extraction procedures, kernel definitions, parameter settings, baseline predictor descriptions, statistical significance tests, and code or data availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach for DBP identification, combining global and local kernel alignment within a multiple kernel learning framework. The reported performance metrics are promising. However, the abstract alone provides insufficient detail to evaluate the novelty, technical soundness, or robustness of the method. Key methodological choices, validation procedures, and comparisons are not described, and the claimed superiority over other predictors cannot be verified from the supplied material. The work may be of interest to the computational biology community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in bioinformatics and computational biology working on protein function prediction, particularly those developing machine learning methods for sequence-based classification. The multiple kernel learning approach with local alignment may also interest methodologists in kernel-based learning applied to biological data.
+- **Major strengths** The proposed hybrid of global and local kernel alignment is a conceptually interesting idea that may address limitations of standard kernel alignment. The use of multiple feature groups and kernel fusion is a well-established strategy in this domain. Reported performance on independent test sets appears competitive, though verification requires full details.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method combines global and local kernel alignment to improve prediction performance, with reported MCC of 0.768 and 0.5962 on PDB186 and PDB2272, respectively.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how local kernel alignment is computed, how the balance between global and local alignment is optimized, or how kernel weights are derived from the maximization procedure. Without these details, the technical validity of the proposed method cannot be assessed.
+  - **Why it matters** The core novelty of the method rests on the hybrid alignment mechanism. If the implementation is flawed or the optimization is not well-posed, the reported results may not be reproducible or generalizable.
+  - **Resolution test** Provide a complete mathematical formulation of the local kernel alignment, the hybrid objective function, the optimization procedure, and convergence guarantees. Include pseudocode or code.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** The method is claimed superior to other predictors on independent test sets PDB186 and PDB2272.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which baseline predictors were compared, how they were configured, or whether differences in performance are statistically significant. Without this information, the claim of superiority is unsupported.
+  - **Why it matters** Superiority claims require rigorous benchmarking against state-of-the-art methods with appropriate statistical testing. The absence of these details prevents assessment of whether the reported improvements are meaningful or due to chance.
+  - **Resolution test** List all baseline methods, their parameter settings, and report performance with confidence intervals or significance tests. Provide full comparison tables.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model is described as an efficient prediction tool for DBPs.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on dataset composition, feature extraction details, hyperparameter values, or computational resources. The abstract does not state whether code or data are publicly available.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational biology tools. Without access to data and code, other researchers cannot validate or build upon the method.
+  - **Resolution test** Provide public access to datasets, code, and a detailed protocol for reproducing all results.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "hot issue" is informal and not standard in scientific writing.
+  - **Required correction** Replace with a more formal expression such as "an active area of research."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance reporting
+  - **Evidence pointer** Abstract, final results sentence
+  - **Issue** Only MCC and accuracy are reported. Other standard metrics such as sensitivity, specificity, and AUC are not mentioned.
+  - **Required correction** Include additional performance metrics to provide a more complete evaluation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Hybrid kernel alignment model"
+  - **Evidence pointer** Abstract, method description
+  - **Issue** The term "hybrid" is used to describe the combination of global and local alignment, but the abstract does not clarify whether this is a novel contribution or an adaptation of existing methods.
+  - **Required correction** Clarify the novelty relative to prior kernel alignment approaches.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The hybrid global-local kernel alignment idea has potential novelty, but the abstract does not provide enough context to distinguish it from existing multiple kernel learning methods. Not assessable from the supplied material.
+  - Scientific importance: DBP prediction is a relevant problem in functional genomics, and improved computational methods would be valuable. However, the incremental contribution over existing tools is unclear.
+  - Interdisciplinary readership: The work bridges machine learning and molecular biology, which could appeal to a broad audience. The abstract is accessible but lacks depth for methodologists.
+  - Technical soundness: Not assessable from the abstract. The optimization and validation details are missing.
+  - Readability for nonspecialists: The abstract is generally clear, though some terms such as "kernel alignment" and "MCC" may require prior knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible method with promising results, but the lack of methodological detail, validation rigor, and reproducibility information prevents a supportive recommendation. A full manuscript review would be required to assess whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of superiority over other predictors is unsupported without baseline details and statistical testing.
+- The efficiency of the tool as a prediction method is not assessable without runtime or complexity analysis.
+- The novelty of the hybrid kernel alignment approach cannot be evaluated without comparison to prior work.
+- All performance metrics and methodological descriptions are unverifiable from the abstract alone.

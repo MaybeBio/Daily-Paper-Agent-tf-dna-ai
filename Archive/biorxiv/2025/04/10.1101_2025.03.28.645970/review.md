@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, declarations)
+- **Assessment boundary** Scientific and technical evaluation of the reported platform modifications, validation data, and screening outcome, based solely on the supplied text
+- **Shared manuscript claim summary** The authors report a redesigned Transcription Block Survival (TBS) reporter system in which transcription factor binding sites are placed in the 5'-promoter/UTR region of the mouse dihydrofolate reductase (mDHFR) gene rather than within the coding sequence. This is claimed to enable rapid target switching, improved selection stringency, and successful screening of an 11.3-million-member peptide library against ATF2, yielding a peptide antagonist (ATF2W) validated by circular dichroism and fluorescence polarisation.
+- **Visible evidence base** Text descriptions of plasmid constructs, control strain growth assays (Table 1, Figures 1-3, Figures S1-S4), library construction statistics, and biophysical characterisation of ATF2W (Figures 4, S5-S8)
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; numerical growth data, raw CD and FP curves, library screening details (selection pressure, passage conditions), and sequence information for constructs and peptide library are not available in the supplied text
+
+## Reviewer
+- **Overall assessment** The manuscript describes a pragmatic and potentially valuable modification to an existing screening platform. The conceptual shift from coding-region insertion to promoter/UTR insertion of binding sites is logical and addresses a real bottleneck in target switching. However, the evidence provided in the text alone is insufficient to fully evaluate the strength of the transcriptional block, the reproducibility of the growth assays, the quality of the biophysical binding data, or the robustness of the screening outcome. The claims are plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers developing intracellular peptide screening platforms, those studying transcription factor inhibition as a therapeutic strategy, and groups working on protein-protein and protein-DNA interaction modulators. The reported simplification of target switching and the demonstration of full-length TF screening would be of practical interest to the peptide engineering and chemical biology communities.
+- **Major strengths** The redesign rationale is clear and addresses a documented limitation. The use of multiple TF targets (CREB1, ATF2, DLX5) and two distinct DNA binding site types supports generalisability. The demonstration of full-length TF compatibility is a notable advance. The reported timeline from library construction to validated peptide is impressive if accurate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the 9xCRE reporter produces a "greater reduction in growth" and "enhanced transcription block" compared to 5xCRE, and that this is sufficient for stringent screening.
+  - **Evidence pointer** Table 1, Figures 1-3, location not provided
+  - **Concern** The text describes qualitative differences in colony growth but provides no quantitative data (e.g., colony counts, growth curves, viability percentages). Without numerical values or statistical analysis, the magnitude of the transcriptional block and the claimed stringency improvement cannot be assessed. The difference between 5x and 9x constructs is stated but not demonstrated with data.
+  - **Why it matters** The entire screening platform depends on a sufficiently strong transcriptional block to create a robust selection window. If the block is weak or variable, the selection outcome could be dominated by non-specific effects. The claim of "improved selection stringency" is central to the manuscript's value proposition.
+  - **Resolution test** Provide quantitative growth data (e.g., colony-forming unit counts, optical density time courses) for all control strains, with replicates and statistical comparisons between 5x and 9x constructs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that ATF2W is a validated peptide antagonist of ATF2-CRE binding, based on CD and FP experiments.
+  - **Evidence pointer** Figures 4, S5-S8, location not provided
+  - **Concern** The CD data show a 32% increase in helicity upon mixing, but the raw spectra are not shown and the noise from TCEP is acknowledged. The FP competition assay reports an IC50 of 1346±145 nM, but no details on the assay conditions, replicates, or fitting procedures are provided. The claim that ATF2W does not bind DNA is supported only by a supplementary figure that is not available. The stoichiometry of the proposed coiled-coil interaction is not established.
+  - **Why it matters** The biophysical validation is the primary evidence that the screening output is a genuine, mechanism-based antagonist. Weak or incomplete binding data would undermine the claim that the platform successfully identified a functional inhibitor.
+  - **Resolution test** Provide raw CD spectra with buffer controls, thermal melt curves with replicates, FP binding and competition curves with error bars, and a clear statement of the binding model used for fitting. Include a direct binding assay between ATF2W and ATF2 (e.g., pull-down or size exclusion) to confirm complex formation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the 11.3-million-member library was successfully screened against ATF2, yielding ATF2W as the sole winner.
+  - **Evidence pointer** Results and discussion, location not provided
+  - **Concern** The screening process is described in a single sentence. No details are provided on selection stringency, number of rounds, enrichment criteria, sequencing depth, or how ATF2W was identified as the single winner. The probability of library coverage is stated (99.3% and 99.8%) but the calculation basis is not given. The absence of any negative control or counter-screen is notable.
+  - **Why it matters** The screening outcome is the central demonstration of the platform's utility. Without details on the selection process and the criteria for identifying the winner, the result cannot be reproduced or independently evaluated. The claim of "single winner" is surprising and requires supporting evidence.
+  - **Resolution test** Provide a full description of the screening protocol, including selection rounds, growth conditions, sequencing depth, and bioinformatic analysis. Show enrichment data for ATF2W across rounds and include a counter-screen against a non-cognate TF or DNA site.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Control strain numbering
+  - **Evidence pointer** Table 1, location not provided
+  - **Issue** The text refers to strains 6 and 7 in one instance and strains 8-10 in another, but the table is not provided. The numbering appears inconsistent with the earlier description of strains 1-6.
+  - **Required correction** Ensure all strain numbers are consistent between text and table, and clarify the mapping of strains to constructs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Library design details
+  - **Evidence pointer** Results and discussion, location not provided
+  - **Issue** The peptide library design is described only in terms of semi-randomised positions. The length of the randomised region, the exact amino acid options at each position, and the linker to the acidic domain are not specified.
+  - **Required correction** Provide a full description of the library design, including the peptide length, the sequence of the acidic domain, and the complete list of randomised positions and allowed residues.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** FP assay conditions
+  - **Evidence pointer** Results and discussion, location not provided
+  - **Issue** The FP assay buffer, temperature, incubation time, and the concentration of labelled DNA are not stated. The IC50 value is given without confidence intervals.
+  - **Required correction** Specify all assay conditions and provide confidence intervals for the IC50 and KD values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Full-length DLF5 toxicity
+  - **Evidence pointer** Figure S4, location not provided
+  - **Issue** The text states that full-length DLX5 shows toxicity at 1 mM IPTG and that reducing IPTG to 0.2 mM mitigates this. However, the effect of reduced IPTG on the transcriptional block strength is not discussed.
+  - **Required correction** Discuss whether the reduced IPTG concentration affects the stringency of the transcriptional block and whether this could impact screening outcomes for full-length TFs.
+- **Technical failings that need to be addressed before the case is established** Quantitative growth data for all control strains; full biophysical characterisation of ATF2W including raw data and binding model; detailed screening protocol with enrichment data; sequence information for all constructs and the peptide library; statistical analysis for all quantitative claims.
+
+## Risk / unsupported claims
+- The claim that the redesigned platform "dramatically improves screening efficiency and selection pressure" is not supported by quantitative comparison with the previous system.
+- The claim that ATF2W is a "potent" antagonist is not supported by any potency metric beyond a single IC50 value without context.
+- The claim that the platform "continues to function exclusively by selecting for disruption of protein-protein binding" is not experimentally demonstrated; off-target or non-mechanistic selection events are not ruled out.
+- The claim of successful screening of an 11.3-million-member library is not verifiable without sequencing and enrichment data.
+- The claim that the full-length DLX5 system is functional is based on qualitative growth observations only.

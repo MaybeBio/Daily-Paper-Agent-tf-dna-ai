@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "35860330",
+    "doi": "10.3389/fbioe.2022.914450",
+    "title": "Cardiomyocyte Cell-Cycle Regulation in Neonatal Large Mammals: Single Nucleus RNA-Sequencing Data Analysis via an Artificial-Intelligence-Based Pipeline."
+  },
+  "content": {
+    "abstract": "Adult mammalian cardiomyocytes have very limited capacity to proliferate and repair the myocardial infarction. However, when apical resection (AR) was performed in pig hearts on postnatal day (P) 1 (AR(P1)) and acute myocardial infarction (MI) was induced on P28 (MI(P28)), the animals recovered with no evidence of myocardial scarring or decline in contractile performance. Furthermore, the repair process appeared to be driven by cardiomyocyte proliferation, but the regulatory molecules that govern the AR(P1)-induced enhancement of myocardial recovery remain unclear. Single-nucleus RNA sequencing (snRNA-seq) data collected from fetal pig hearts and the hearts of pigs that underwent AR(P1), MI(P28), both AR(P1) and MI, or neither myocardial injury were evaluated via autoencoder, cluster analysis, sparse learning, and semisupervised learning. Ten clusters of cardiomyocytes (CM1-CM10) were identified across all experimental groups and time points. CM1 was only observed in AR(P1) hearts on P28 and was enriched for the expression of T-box transcription factors 5 and 20 (TBX5 and TBX20, respectively), Erb-B2 receptor tyrosine kinase 4 (ERBB4), and G Protein-Coupled Receptor Kinase 5 (GRK5), as well as genes associated with the proliferation and growth of cardiac muscle. CM1 cardiomyocytes also highly expressed genes for glycolysis while lowly expressed genes for adrenergic signaling, which suggested that CM1 were immature cardiomyocytes. Thus, we have identified a cluster of cardiomyocytes, CM1, in neonatal pig hearts that appeared to be generated in response to AR injury on P1 and may have been primed for activation of CM cell-cycle activation and proliferation by the upregulation of TBX5, TBX20, ERBB4, and GRK5.",
+    "keywords": [
+      "autoencoder",
+      "cardiomyocytes",
+      "cell cycle",
+      "heart",
+      "infarct",
+      "single-nucleus RNA-sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nguyen, Thanh",
+        "Wei, Yuhua",
+        "Nakada, Yuji",
+        "Zhou, Yang",
+        "Zhang, Jianyi"
+      ],
+      "short_names": [
+        "Nguyen T",
+        "Wei Y",
+        "Nakada Y",
+        "Zhou Y",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States.",
+        "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States.",
+        "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States.",
+        "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States.",
+        "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States.",
+        "Cardiovascular Diseases, Department of Medicine, University of Alabama at Birmingham, Birmingham, AL, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nguyen, Thanh",
+        "short_name": "Nguyen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States."
+        ]
+      },
+      {
+        "full_name": "Wei, Yuhua",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States."
+        ]
+      },
+      {
+        "full_name": "Nakada, Yuji",
+        "short_name": "Nakada Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianyi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Alabama at Birmingham, Birmingham, AL, United States.",
+          "Cardiovascular Diseases, Department of Medicine, University of Alabama at Birmingham, Birmingham, AL, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioengineering and biotechnology"
+    ],
+    "journal_abbrev": [
+      "Front Bioeng Biotechnol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/22 06:00",
+    "fetched_at": "2026-10-04 20:09:23"
+  },
+  "links": {
+    "cites": [
+      "40229986",
+      "40001614",
+      "39692006",
+      "38587452",
+      "38340541",
+      "38288246",
+      "37965091",
+      "37100826",
+      "36407327"
+    ],
+    "refs": [
+      "35666813",
+      "34610308",
+      "34531036",
+      "34062119",
+      "33951921",
+      "33857482",
+      "33589635",
+      "33560342",
+      "33237311",
+      "32866067",
+      "32730272",
+      "32271675",
+      "32220304",
+      "32193376",
+      "31723062",
+      "31691815",
+      "31604922",
+      "31604912",
+      "31399192",
+      "30674886",
+      "30617341",
+      "30576740",
+      "30571359",
+      "30526659",
+      "30521808",
+      "30030418",
+      "30030417",
+      "29986945",
+      "29087512",
+      "28543863",
+      "28353145",
+      "28082453",
+      "28009297",
+      "27899662",
+      "26841808",
+      "26829117",
+      "26586429",
+      "26515328",
+      "25516281",
+      "25378336",
+      "25344367",
+      "25260700",
+      "24858909",
+      "24344691",
+      "24174526",
+      "23743228",
+      "23104886",
+      "22859683",
+      "22226977",
+      "21868861",
+      "21593865",
+      "21350179",
+      "21284933",
+      "21145416",
+      "20671236",
+      "20505524",
+      "20473294",
+      "19801552",
+      "19632177",
+      "19131956",
+      "19084512",
+      "19035347",
+      "18711143",
+      "18579750",
+      "18536715",
+      "17576928",
+      "12426568",
+      "10559147",
+      "2304459"
+    ],
+    "similar": [
+      "35860330",
+      "38587452",
+      "37100826",
+      "38340541",
+      "38288246",
+      "26841808",
+      "23751911",
+      "28642276",
+      "26082557",
+      "32730272",
+      "23575307",
+      "38826249",
+      "32802181",
+      "33951921",
+      "30832495",
+      "24906204",
+      "22226977",
+      "33530926",
+      "38948744",
+      "35616010",
+      "29903739",
+      "34726469",
+      "30030418",
+      "33769920",
+      "34646377",
+      "35660800",
+      "22931955",
+      "31757861",
+      "31954694",
+      "17368590",
+      "32098494",
+      "32850848",
+      "32973339",
+      "28834610",
+      "23406316",
+      "29233823",
+      "34335970",
+      "29162747",
+      "32710980",
+      "26198574",
+      "30030417",
+      "32475201",
+      "34655601",
+      "38828141",
+      "36908856",
+      "29115400",
+      "32600062",
+      "23778361",
+      "31010673",
+      "12522130",
+      "30254108",
+      "26333362",
+      "32384695",
+      "32220304",
+      "34722687",
+      "36774363",
+      "28948298",
+      "34081213",
+      "36399125",
+      "9647433",
+      "36518540",
+      "33500391",
+      "32013057",
+      "33897872",
+      "30571978",
+      "35312066",
+      "36058431",
+      "32871229",
+      "31969690",
+      "23161881",
+      "30700554",
+      "36248630",
+      "30339498",
+      "35810562",
+      "19632177",
+      "31042497",
+      "34193613",
+      "29358670",
+      "30611794",
+      "32724455",
+      "27472922",
+      "35644482",
+      "33301914",
+      "10625304",
+      "23426372"
+    ],
+    "review": [
+      "35860330",
+      "38340541",
+      "35660800",
+      "31757861",
+      "34081213"
+    ],
+    "pmc": [
+      "9289371"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35860330/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35860330",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbioe.2022.914450",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse144883",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

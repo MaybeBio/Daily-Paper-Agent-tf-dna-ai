@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, figure captions, methods references) as provided in the preprint.
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the supplied text. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors report that the transcription factor NANOG forms self-limiting, aging micelles at high concentrations, which drive a sol-gel transition. They further report that these micelles, with exposed DNA-binding domains, can stabilize DNA entanglements and modulate DNA dynamics at physiological concentrations, proposing a mechanism whereby NANOG regulates genome dynamics rather than genome folding.
+- **Visible evidence base** Text descriptions of: electrophoretic mobility shift assay (Fig. 1b); qualitative sol-gel observation (Fig. 1c); microrheology MSD measurements (Fig. 1d-g); generalized Stokes-Einstein analysis (Fig. 1h-i); Mpipi coarse-grained simulations (Fig. 2a-d); cryo-EM, mass photometry, dynamic light scattering (Fig. 2e-g); microrheology of NANOG-DNA mixtures (Fig. 3a-c, Fig. 4); references to supplementary figures (S1-S5).
+- **Missing materials affecting confidence** Figures and supplementary information are not provided. Numerical values for MSD exponents, viscosity estimates, cluster size distributions, and statistical error bars are not available. Simulation parameters beyond basic setup are not fully described. The manuscript states "see SI" for several key analyses, but the SI is not accessible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel and potentially significant finding: that NANOG, a key pluripotency transcription factor, forms self-limiting micelles rather than unbounded condensates, and that these micelles can modulate DNA dynamics through a gelation mechanism. The combination of simulations and multiple experimental techniques is commendable. However, the evidence as presented is incomplete. The central claims of self-limiting micelle formation and DNA-mediated gelation at physiological concentrations rest on data that are described but not fully shown or quantified in the provided text. The link between the in vitro rheology and the proposed in vivo functional role remains conjectural. The manuscript is technically ambitious but the current evidence base is insufficient to fully establish the case.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft matter physics, and molecular biology, particularly those studying phase separation, transcription factor dynamics, chromatin organization, and the physical mechanisms of gene regulation. The finding that a transcription factor forms self-limiting micelles with a distinct functional consequence (modulating DNA dynamics) would be of broad interest to those studying nuclear organization and gene control.
+- **Major strengths** The study addresses a fundamental question about the physical state of a key transcription factor. The use of multiple orthogonal techniques (simulations, cryo-EM, mass photometry, DLS, microrheology) is a major strength. The discovery of self-limiting micelles, as opposed to unbounded condensates, is a conceptually novel and important distinction. The proposal that NANOG modulates genome dynamics rather than folding is a testable and potentially paradigm-shifting hypothesis.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The claim that NANOG forms self-limiting micelles with a well-defined size of approximately 30 proteins (Fig. 2a) and that this is confirmed by cryo-EM and mass photometry (Fig. 2e-f).
+    - **Evidence pointer** Fig. 2a, 2e, 2f; text in "Simulations reveal..." and "Experimental validation..." sections.
+    - **Concern** The quantitative evidence for the micelle size and its self-limiting nature is not presented in the text. The cluster size of ~30 proteins is stated, but the distribution, error, and method of determination from simulation are not given. For cryo-EM, the text states complexes were "monodisperse in size, approximately 25 nm" but no images, class averages, or size distribution histograms are shown. Mass photometry identifies a molecular weight of ~0.8 MDa, but the peak width and the precision of this estimate are not reported. The DLS data (Fig. 2g) shows a shift in hydrodynamic size, but the text does not state the final size or the distribution width. Without these quantitative details, the claim of a "self-limiting" and "well-defined" size cannot be rigorously assessed.
+    - **Why it matters** The self-limiting nature of the assemblies is a central and novel claim that distinguishes this work from typical IDP condensate behavior. If the size distribution is broad or the assemblies continue to grow slowly, the interpretation of "self-limiting micelles" is weakened. The entire subsequent argument about gelation and DNA crosslinking depends on this structural model.
+    - **Resolution test** Provide the full size distribution data from simulations (e.g., cluster size histogram with error bars across replicas). Provide representative cryo-EM images and a size distribution histogram from particle picking. Provide the mass photometry histogram showing the mass peak and its width. Provide the DLS intensity-weighted size distribution at multiple time points, including the final equilibrium size.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The claim that NANOG-DNA solutions form aging gels at physiological concentrations (1-10 µM) and that this is due to micelles crosslinking DNA (Fig. 3, Fig. 4).
+    - **Evidence pointer** Fig. 3a-c, Fig. 4; text in "NANOG-DNA solutions..." section.
+    - **Concern** The microrheology data for NANOG-DNA mixtures is described qualitatively ("marked, and abrupt, sub-diffusive behaviour") but the actual MSD curves are not shown in the text. The concentration dependence is described, but the threshold concentration for the transition is not precisely stated. The aging behavior at 37°C is mentioned, but the time-dependent evolution of the MSD or the extracted moduli is not presented. The claim that this is a "gel" requires a demonstration that the elastic modulus (G') exceeds the viscous modulus (G'') over a range of frequencies, which is not shown for the DNA-containing samples.
+    - **Why it matters** The physiological relevance of the finding hinges on the demonstration that NANOG can gel DNA at concentrations and temperatures relevant to the cell. A qualitative description of "sub-diffusive behavior" is not sufficient to establish gelation. The mechanism of crosslinking (micelles acting as multivalent linkers) is inferred but not directly tested.
+    - **Resolution test** Show the full MSD curves for all conditions (DNA only, DNA+NANOG WT at various concentrations, DNA+mutants). Plot G' and G'' as a function of frequency for the gelled samples. Show the time evolution of the MSD or G' to demonstrate aging. Include a control with a non-binding mutant (N51A) at the same concentrations to demonstrate the requirement for DNA binding.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the effective viscosity of WT and N51A solutions increased 10,000-fold after 12h of incubation (Fig. 1g).
+    - **Evidence pointer** Fig. 1g; text in "Gelling and aging..." section.
+    - **Concern** The viscosity is estimated from the long-time diffusion coefficient using the Stokes-Einstein relation. The text notes that for sub-diffusive MSDs, the diffusion coefficient was approximated by its upper bound. This is a crude approximation. For a material that is gelling, the MSD may not reach a linear diffusive regime, making the estimation of D and hence viscosity unreliable. The 10,000-fold increase is a single number without error bars or a clear description of how it was calculated from the data.
+    - **Why it matters** The magnitude of the viscosity increase is used to support the claim of a dramatic sol-gel transition. If the calculation is flawed, the strength of this claim is reduced.
+    - **Resolution test** Provide the raw MSD curves and the method of fitting the diffusion coefficient. Show the frequency-dependent moduli G' and G'' from the generalized Stokes-Einstein relation, which is a more robust measure of gelation. Provide error bars on the viscosity estimate from multiple independent measurements.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Conceptual clarity
+    - **Claim pointer** The conjecture that NANOG "may contribute to regulate gene expression by creating local gel-like environments that restrict genome dynamics and that its aging may ingrain mechanical memory in gene regulatory networks."
+    - **Evidence pointer** Conclusions section.
+    - **Concern** This is a significant extrapolation from the in vitro data. The connection between the observed rheological properties of NANOG-DNA solutions and the proposed in vivo function is not developed. The manuscript does not discuss how a "gel-like environment" would specifically affect gene expression, nor does it propose a mechanism for how "mechanical memory" would be read out by the transcriptional machinery. The link to gene regulation is speculative.
+    - **Why it matters** While speculation is acceptable in a conclusions section, the framing of this as a "model" that "could explain" phenomena implies a level of support that is not present. The manuscript would be strengthened by a more careful discussion of the assumptions and limitations of this extrapolation.
+    - **Resolution test** Provide a more nuanced discussion of the model, explicitly stating the assumptions required to connect the in vitro observations to in vivo function. Alternatively, present testable predictions that would distinguish this model from others.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Fig. 1b description
+    - **Evidence pointer** Fig. 1b; text in "Gelling and aging..." section.
+    - **Issue** The text states that the N51A mutant exhibits "substantially reduced DNA-binding affinity" and that W10A "lacks the oligomeric (O) band". The distinction between the two mutants' behavior in the EMSA is not fully explained. Does N51A still form oligomers but bind DNA poorly, or is its oligomerization also affected?
+    - **Required correction** Clarify the interpretation of the EMSA bands for each mutant. State explicitly whether the N51A mutant retains the ability to oligomerize.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Simulation details
+    - **Evidence pointer** "Simulations reveal..." section.
+    - **Issue** The simulation is described as using the Mpipi model, but the specific parameters for NANOG (e.g., the sequence used, the force field parameters for the WR domain) are not given. The simulation time of 20 µs is stated, but the equilibration protocol is not described.
+    - **Required correction** Provide full simulation details in the methods or SI, including the exact sequence used, the force field parameters, the equilibration protocol, and the method for identifying clusters.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Fig. 1c
+    - **Evidence pointer** Fig. 1c; text in "Gelling and aging..." section.
+    - **Issue** The qualitative observation of sol-gel transition (Fig. 1c) is described as "noticed" after overnight incubation. A photograph of the vials is presumably shown, but the text does not describe the visual difference between the samples.
+    - **Required correction** Describe the visual appearance of the samples (e.g., "the WT sample formed a solid gel that did not flow upon inversion, while the W10A sample remained a free-flowing liquid").
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Fig. 2g and c
+    - **Evidence pointer** Fig. 2g; text in "Experimental validation..." section.
+    - **Issue** The DLS data shows a shift in hydrodynamic size with time, but the text states the shift "stops after 96h incubation". The relationship between the DLS size and the simulation-derived micelle size (30 proteins, ~25 nm) is not discussed. The DLS size appears to be ~80 nm, which is larger than the cryo-EM size.
+    - **Required correction** Discuss the discrepancy between the DLS hydrodynamic radius and the cryo-EM/simulation size. Is the DLS size consistent with a micelle of 22-25 monomers, or does it suggest some clustering or elongation?
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Fig. 3a-c
+    - **Evidence pointer** Fig. 3a-c; text in "NANOG-DNA solutions..." section.
+    - **Issue** The text states that the transition to sub-diffusive behavior occurs at "around 7.9 µM NANOG concentration". It is unclear if this is a sharp threshold or a gradual transition. The data for concentrations below and above this value are not described.
+    - **Required correction** Describe the concentration dependence more precisely. Is there a critical concentration for gelation? How does the MSD exponent change with concentration?
+
+## Risk / unsupported claims
+- The claim that NANOG forms "self-limiting micelles" is supported by simulation and indirect experimental evidence, but the quantitative size distribution data is not shown. This is a central claim and is currently not fully verifiable from the provided text.
+- The claim that NANOG-DNA solutions form "aging gels" at physiological concentrations is based on qualitative descriptions of MSD data. The frequency-dependent moduli are not shown, so the gel state is not rigorously demonstrated.
+- The conjecture that NANOG's gelation and aging properties are functionally relevant for gene regulation in vivo is entirely speculative and not supported by any direct experimental evidence.
+- The statement that the "time-cure superposition analysis does not align with the one expected for simple Maxwell fluids" is mentioned but the analysis is not shown, making it unverifiable.
+- The claim that the N51A mutant "does not bind DNA as strongly" is based on the EMSA, but the quantitative binding affinity is not reported.

@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that the identity of the amino acid at residue 103 in the DNA-binding domain of HSF1 (cysteine, tyrosine, or phenylalanine) determines the temperature at which HSF1 trimerizes across three species (human, goldfish, walleye pollock), and that trimerization involves either disulfide bonds (C-C) or non-covalent interactions between cysteine and aromatic residues (C-Y, C-F)
+- **Visible evidence base** Western blotting results described in text; Trp-fluorescence spectroscopy; cross-linking assays; site-directed mutagenesis; AlphaFold2 and ROSIE structural modeling
+- **Missing materials affecting confidence** Figures 1-9 are referenced but not provided; no raw data, quantification, replicates, or statistical analyses are shown; methods for mutagenesis validation and structural modeling parameters are incomplete; no sequence alignment data for the three species
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting question regarding how specific amino acid residues in HSF1 may modulate trimerization temperature across species adapted to different thermal environments. The central hypothesis, that residue 103 identity controls trimerization temperature, is plausible and potentially of interest to the stress biology and protein biophysics communities. However, the evidence as presented is insufficient to establish the claims. The text is internally inconsistent in several places, figure references are mismatched, and critical experimental details and quantitative data are absent. The structural modeling section is underdeveloped and does not clearly connect to the experimental findings. The manuscript requires substantial revision and additional data before the conclusions can be considered supported.
+- **Who would be interested in the results, and why** Researchers studying heat shock factor biology, thermal stress responses in ectotherms, protein trimerization mechanisms, and comparative biochemistry across species adapted to different thermal niches. The potential link between a single amino acid substitution and thermal sensitivity of a stress response regulator could also interest evolutionary biologists and aquaculture scientists.
+- **Major strengths** The cross-species comparative approach is a useful strategy to link molecular variation to physiological temperature thresholds. The mutagenesis experiments, if properly validated and quantified, could provide direct evidence for the role of residue 103. The idea that non-covalent interactions between cysteine and aromatic residues can support trimerization, in addition to disulfide bonds, is a novel contribution worth exploring.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that trimerization temperature is determined solely by the amino acid at residue 103, regardless of species background.
+  - **Evidence pointer** Section 3.3, Figures 5A-C (not provided)
+  - **Concern** The claim that residue 103 identity alone dictates trimerization temperature is based on mutagenesis experiments, but no quantitative data, replicate numbers, or statistical analyses are provided. The western blots are described qualitatively, and it is unclear how trimerization temperature was precisely determined from these blots. The possibility that other residues or structural context contribute to the observed temperature differences is not addressed.
+  - **Why it matters** Without quantitative and replicated data, the central claim of the paper cannot be evaluated. The conclusion that a single residue controls trimerization temperature across species is strong and requires robust evidence.
+  - **Resolution test** Provide densitometric quantification of trimer bands across temperatures, with at least three independent replicates, and statistical comparison of trimerization thresholds between wild-type and mutant proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The manuscript states in the Discussion that "the non-covalent bonds did not survive the rise in temperature" for goldfish and walleye pollock, but the Results section (3.7) describes this experiment as testing bond strength after cross-linking at trimerization temperatures.
+  - **Evidence pointer** Section 3.7, Figure 9B (not provided)
+  - **Concern** The logic of the bond-strength experiment is unclear. If cross-linking was performed at the trimerization temperature, the cross-linker would stabilize the trimer. Heating to a higher temperature after cross-linking tests the stability of the cross-linked complex, not the intrinsic bond strength. The interpretation that non-covalent bonds "did not survive" is not justified by the described protocol. Additionally, the temperatures chosen for the "higher temperature" condition are not justified.
+  - **Why it matters** The distinction between covalent and non-covalent interactions is central to the proposed mechanism. If the experiment does not actually test bond type, the mechanistic conclusion is unsupported.
+  - **Resolution test** Clarify the experimental design, include appropriate controls (e.g., cross-linker alone, heat alone), and provide a clear rationale for the chosen temperatures. Alternatively, use a direct biochemical assay for bond type, such as reducing versus non-reducing conditions or mass spectrometry.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that Trp-fluorescence spectroscopy shows HSF1 is a "thermophilic protein" because fluorescence intensity increased after heat shock at 42°C for human HSF1.
+  - **Evidence pointer** Section 3.3, Figures 2A and 4A-C (not provided)
+  - **Concern** The interpretation of the Trp-fluorescence data is problematic. Increased fluorescence intensity upon heating could indicate protein aggregation, exposure of tryptophan to a more hydrophobic environment, or light scattering, rather than a more folded state. The term "thermophilic protein" is not defined or supported. No controls (e.g., a known unfolding protein) or spectral scans are shown to support the interpretation.
+  - **Why it matters** The fluorescence data are used to support the claim that trimerization involves a compact folded state. If the interpretation is incorrect, the mechanistic model is weakened.
+  - **Resolution test** Provide full emission spectra, controls for aggregation (e.g., dynamic light scattering), and a clearer biophysical framework for interpreting the fluorescence changes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript states that "the trimmer structure of hHSF1, gHSF1, and wHSF1 was schematically illustrated" based on modeling, and that mutations were introduced at residue 22.
+  - **Evidence pointer** Section 3.8, Figure 7 (not provided)
+  - **Concern** The structural modeling section is underdeveloped. The text mentions AlphaFold2 predictions and ROSIE symmetric docking, but no details on model quality, validation, or how the models explain the experimental data are provided. The statement that mutations were introduced at residue 22 is inconsistent with the rest of the manuscript, which focuses on residue 103. This appears to be an error or an unexplained discrepancy.
+  - **Why it matters** The modeling is presented as supporting evidence for the proposed interaction mechanism. Without details and validation, the structural claims are not assessable. The residue 22 reference suggests a possible error in the manuscript.
+  - **Resolution test** Provide model quality metrics, a clear description of how models were generated and validated, and correct the residue numbering inconsistency. Show how the models specifically support the proposed C-Y and C-F interactions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The manuscript claims that the findings have implications for aquaculture and understanding thermal stress in fish.
+  - **Evidence pointer** Discussion section
+  - **Concern** The aquaculture relevance is stated but not developed. No data or discussion on how these findings could be applied to fish farming or conservation is provided. The claim is speculative.
+  - **Why it matters** The stated broader impact is not supported by the presented work. Overstating implications can mislead readers from applied fields.
+  - **Resolution test** Either remove the speculative claims or add a focused discussion with concrete examples of how the findings could inform aquaculture practices or thermal tolerance predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Methods text
+  - **Issue** The cross-linking assay description is incomplete. The concentration of EGS, incubation conditions, and how cross-linking was quenched are not specified.
+  - **Required correction** Provide full details of the cross-linking protocol, including reagent concentrations, buffers, and quenching steps.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section 3.3 heading
+  - **Evidence pointer** Section 3.3
+  - **Issue** The heading "Trp-Floursence" contains a typographical error.
+  - **Required correction** Correct the spelling to "Trp-Fluorescence".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.8
+  - **Evidence pointer** Section 3.8
+  - **Issue** The text states that mutations were introduced at residue 22, but the rest of the manuscript focuses on residue 103. This is confusing and likely an error.
+  - **Required correction** Clarify which residue was mutated in the modeling study and ensure consistency throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction text
+  - **Issue** The introduction contains several run-on sentences and informal phrasing, such as "And they undergo changes that misfolded or damaged proteins by stress."
+  - **Required correction** Revise for clarity and grammatical correctness.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical completeness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Methods text
+  - **Issue** The PCR cycling conditions are described as "twenty-seven cycles of the following single cycle," which is unclear.
+  - **Required correction** Rewrite to clearly describe the thermal cycling parameters.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figures 2-9
+  - **Evidence pointer** All figures referenced in Results
+  - **Issue** Figures are referenced but not provided in the manuscript text. No figure legends are included.
+  - **Required correction** Include all figures with complete legends, including experimental conditions and statistical annotations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative data), R1-M2 (flawed experimental logic for bond-type determination), R1-M3 (unsupported interpretation of fluorescence data), R1-M4 (underdeveloped and inconsistent structural modeling)
+- **Assessment against Nature-style criteria** Originality: The concept of linking a single residue in HSF1 to species-specific trimerization temperatures is moderately original, though the broader idea that HSF1 trimerization is redox- and temperature-sensitive is established. Scientific importance: If rigorously demonstrated, the findings could inform understanding of thermal adaptation in fish, but the current evidence does not establish the case. Interdisciplinary readership: The topic could appeal to biochemists, stress biologists, and evolutionary biologists, but the presentation is too narrow and lacks the broader context needed for a general audience. Technical soundness: The experimental approaches are appropriate in principle, but the lack of quantification, controls, and methodological detail undermines confidence. Readability for nonspecialists: The manuscript is not accessible to nonspecialists due to unclear writing, inconsistent figure references, and unexplained technical terms.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a potentially interesting question, but the claims are not supported by the data as presented. Major revisions, including quantitative data, corrected experimental logic, and a more rigorous structural analysis, are required before the case can be evaluated fairly.

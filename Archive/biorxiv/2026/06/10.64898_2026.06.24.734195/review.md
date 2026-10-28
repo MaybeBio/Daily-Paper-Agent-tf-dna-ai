@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors evaluate MM-P(G)BSA methods across 138 protein-protein complexes, report a maximum Pearson correlation of R = 0.42 with experimental binding free energies, demonstrate near-perfect collinearity (R² ≥ 0.99) between Coulomb and GB solvation terms and strong correlation between van der Waals and SA terms, show that entropy corrections (IE and C2) are strongly dependent and worsen accuracy, and recommend combining correlated terms into effective polar, nonpolar, and entropic contributions.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, simulation details, or statistical analyses are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, system preparation details, force field parameters, convergence criteria, statistical methods, and the complete set of results for the 138 complexes
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important cautionary finding regarding the use of decomposed MM-P(G)BSA energy terms as independent predictors in protein-protein binding free energy calculations. The claim of near-perfect collinearity between Coulomb and GB terms is mechanistically plausible and, if rigorously demonstrated, would have practical implications for regression-based approaches. However, the abstract alone provides insufficient detail to assess the robustness of the statistical analyses, the diversity of the complex set, or the validity of the entropy correction treatment. The reported maximum correlation of R = 0.42 is notably low and warrants careful scrutiny of the benchmark construction and experimental reference data.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists who use end-state free energy methods in drug discovery and protein engineering would find these results directly relevant. Method developers working on implicit solvation models and binding affinity prediction would also be interested, as the collinearity findings challenge common practices in regression-based scoring function development. The work may also interest experimentalists who rely on computational predictions for interpreting protein-protein interaction data.
+- **Major strengths** The study addresses a widely used but insufficiently scrutinized methodology. The use of a large diverse set of 138 protein-protein complexes is a notable strength. The analytic derivation combined with large-scale molecular dynamics simulations suggests a multi-pronged approach. The finding that entropy corrections worsen accuracy is practically relevant and potentially actionable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The authors claim a maximum Pearson correlation of R = 0.42 with experimental binding free energies across 138 protein-protein complexes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports a single maximum correlation value without providing the distribution of correlations across method variants, the confidence intervals, or the statistical significance of these correlations. It is unclear whether R = 0.42 represents the best case among many variants or a typical value, and whether this correlation is significantly different from zero given the sample size.
+  - **Why it matters** The central claim of limited accuracy rests entirely on this correlation value. Without measures of uncertainty, the reader cannot assess whether the reported performance is meaningfully different from other methods or from random chance. The interpretation of "true RBFE accuracy" depends critically on the statistical rigor of this benchmark.
+  - **Resolution test** Provide the full distribution of Pearson correlations across all method variants, with 95% confidence intervals and p-values. Report the number of complexes used for each correlation and justify the choice of experimental reference data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors claim to evaluate "all variants available in the literature" of MM-P(G)BSA methods.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which variants were included, how they were parameterized, or whether standard protocols were followed. The claim of evaluating all literature variants is strong and requires a comprehensive enumeration of the methods tested, including the specific choices for PB versus GB, the GB models used, the surface area treatment, and the entropy correction schemes.
+  - **Why it matters** The generalizability of the conclusions depends on the completeness and representativeness of the method variants tested. If important variants were excluded or if nonstandard parameterizations were used, the conclusions may not apply to the broader MM-P(G)BSA literature.
+  - **Resolution test** Provide a complete list of method variants tested, with references to the original implementations, and describe the parameterization choices for each variant in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Collinearity analysis
+  - **Claim pointer** The authors claim near-perfect collinearity (R² ≥ 0.99) between Coulomb interaction energy and GB solvation correction, and strong correlation between van der Waals and SA terms.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that collinearity holds "at the level of instantaneous trajectory fluctuations and when averaged across a diverse set of 138 PP complexes" and "persist in both single-trajectory and three-trajectory MM-GBSA protocols." However, no details are provided on how collinearity was quantified, whether the R² values refer to per-complex or pooled analyses, or whether the correlations are driven by a subset of complexes. The claim of persistence across protocols requires explicit comparison.
+  - **Why it matters** The collinearity finding is the central methodological contribution. If the analysis is not rigorously described, the claim cannot be evaluated or reproduced. The distinction between instantaneous and averaged collinearity is important because the former may reflect trivial mathematical relationships while the latter has more practical implications.
+  - **Resolution test** Provide the full statistical methodology for the collinearity analysis, including the exact quantities correlated, the level of analysis (per-frame, per-complex, pooled), and the distribution of R² values across complexes. Show representative scatter plots and provide the full correlation matrix for all energy terms.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Entropy treatment
+  - **Claim pointer** The authors claim that interaction entropy (IE) and C2 entropy corrections are "strongly dependent on each other" and "worsen the overall accuracy of the methods."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how the entropy corrections were computed, how their mutual dependence was established, or how their impact on accuracy was quantified. The claim that they worsen accuracy requires a comparison of accuracy with and without these corrections across the full complex set.
+  - **Why it matters** Entropy corrections are notoriously difficult to converge in protein-protein systems. If the finding is that these corrections systematically degrade accuracy, this has practical implications for practitioners. However, the result may be sensitive to the specific entropy calculation method and the simulation length.
+  - **Resolution test** Provide details of the entropy calculation protocols, convergence criteria, and the accuracy comparison with and without entropy corrections. Report the statistical significance of the accuracy differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "resulting in totally empirical coefficients on energy terms and breaking the underlying physics" is vague and could be interpreted as a value judgment rather than a technical statement.
+  - **Required correction** Clarify what is meant by "breaking the underlying physics" with a specific technical description of how empirical coefficients deviate from the physical model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Complex set description
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The abstract mentions "a diverse set of 138 PP complexes" but provides no information on the nature of the complexes, the range of binding affinities, or the source of experimental data.
+  - **Required correction** Add a brief description of the complex set composition and the experimental reference data source in the abstract or indicate where this information is provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "True RBFE accuracy"
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The phrase "true RBFE accuracy" implies an absolute standard that may not be well defined, as accuracy is always relative to a chosen reference and metric.
+  - **Required correction** Rephrase to "the accuracy of RBFE predictions as measured by Pearson correlation with experimental values" to avoid implying an absolute truth.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validity of the correlation claim), R1-M2 (completeness of method variant enumeration), R1-M3 (rigor of the collinearity analysis), R1-M4 (entropy correction methodology and impact assessment)
+- **Assessment against Nature-style criteria** Originality: The collinearity observation is potentially novel and practically relevant, though the underlying mathematical relationship between Coulomb and GB terms is mechanistically expected. Scientific importance: If rigorously established, the findings would caution against common regression-based practices in MM-P(G)BSA applications, which is of moderate to high importance for the computational chemistry community. Interdisciplinary readership: The work is primarily of interest to computational chemists and biophysicists; broader interdisciplinary appeal is limited. Technical soundness: Cannot be fully assessed from the abstract alone; the statistical methods, simulation protocols, and convergence criteria are not described. Readability for nonspecialists: The abstract is reasonably accessible but uses field-specific terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting claims, but the lack of methodological detail prevents assessment of the statistical rigor and generalizability of the findings. The authors should provide the full manuscript with complete methodological descriptions, including the collinearity analysis details, entropy calculation protocols, and the full distribution of correlation results, before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of "true RBFE accuracy" with a maximum R = 0.42 is unsupported without confidence intervals, significance testing, and a description of the benchmark construction.
+- The claim of evaluating "all variants available in the literature" is unverifiable from the abstract alone.
+- The collinearity claim (R² ≥ 0.99) is stated without the statistical methodology or representative data.
+- The claim that entropy corrections "worsen the overall accuracy" is unsupported without a quantitative comparison.
+- The recommendation to combine correlated terms into effective polar, nonpolar, and entropic contributions is presented as a conclusion but is not derived from visible evidence.

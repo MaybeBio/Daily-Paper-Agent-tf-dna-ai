@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without figures, tables, or supplementary material
+- **Assessment boundary** Technical soundness, methodological novelty, experimental design, and validity of claims based solely on the provided text
+- **Shared manuscript claim summary** The authors propose EGPDI, a multi-view graph embedding fusion method combining Equivariant Graph Neural Networks (EGNN) and Graph Convolutional Networks II (GCNII) with a gated multi-head attention mechanism, to predict protein-DNA binding sites. They claim state-of-the-art performance on benchmark datasets and independent test sets.
+- **Visible evidence base** Text descriptions of datasets (DNA_573_Train, DNA_129_Test, DNA_181_Test), feature ablation results (Table 4), module comparison results (Table 5, Fig. 2), fusion strategy comparisons (Table 6, Fig. 3), performance comparisons with five existing methods (Table 7), and two case studies (Fig. 4)
+- **Missing materials affecting confidence** All figures, tables, and supplementary material; detailed hyperparameter settings; training procedures; statistical significance tests; computational cost analysis; full mathematical formulations of the gated multi-head attention mechanism
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology with a technically plausible architecture. The combination of EGNN and GCNII for complementary global and local feature extraction is conceptually reasonable, and the introduction of residual connections and identity mapping to EGNN is a sensible adaptation. However, the current text does not provide sufficient technical detail to fully evaluate the method's novelty and robustness. Several claims, particularly regarding state-of-the-art performance and the superiority of the fusion strategy, require stronger statistical evidence and more rigorous comparison protocols. The manuscript would benefit from clearer descriptions of the model architecture, training details, and ablation study design.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on protein function prediction, specifically those developing deep learning methods for binding site identification. The work may also interest method developers in graph neural network applications to biological problems, as it demonstrates a multi-view fusion approach combining equivariant and convolutional graph architectures.
+- **Major Strengths** The problem is well-motivated and practically relevant. The architectural choice to combine EGNN and GCNII for complementary feature extraction is thoughtful and addresses a known limitation of single-encoder approaches. The introduction of residual connections and identity mapping to EGNN is a reasonable extension that may mitigate over-smoothing. The use of diverse feature sources (handcrafted features, pLM embeddings, structural information) is comprehensive. The authors provide code and data availability, supporting reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results of five-fold cross-validation and independent testing demonstrate that EGPDI outperforms state-of-the-art methods."
+  - **Evidence pointer** Table 7, Section "Performance comparison with other methods"
+  - **Concern** The claim of outperforming state-of-the-art methods is based on comparisons with only five existing methods, and the text does not report statistical significance testing (e.g., paired tests across cross-validation folds or multiple runs). The reported improvements in F1, AUC, and MCC are presented as point estimates without confidence intervals or variance measures. Given that the 5-CV was repeated 10 times, the authors should report mean and standard deviation, and perform appropriate statistical tests to support the superiority claim.
+  - **Why it matters** Without statistical rigor, the central claim of the paper cannot be reliably assessed. Performance differences in computational biology benchmarks are often within the range of random variation, and the absence of significance testing weakens the evidence for the method's practical utility.
+  - **Resolution test** Provide mean and standard deviation across the 10 repeats for all metrics, and perform paired statistical tests (e.g., Wilcoxon signed-rank test) comparing EGPDI against each baseline. Report exact p-values and effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "To our knowledge, this is the first time that multi-view graph embedding fusion has been applied to the task of protein–DNA binding site prediction."
+  - **Evidence pointer** Section "Introduction", Section "Materials and methods"
+  - **Concern** The novelty claim is not adequately supported. The text does not provide a systematic literature review demonstrating that no prior work has used multi-view graph embedding fusion for this task. Several recent methods (e.g., EquiPNAS, GLMSite) already use graph neural networks with multiple feature types. The distinction between "multi-view graph embedding fusion" and existing approaches that combine multiple feature representations needs to be clarified. The authors should explicitly discuss what constitutes a "view" in their framework and how this differs from prior feature concatenation strategies.
+  - **Why it matters** The novelty claim is a key contribution statement. If the approach is not clearly differentiated from existing methods, the scientific contribution is diminished. Reviewers and readers need to understand precisely what is new.
+  - **Resolution test** Provide a comprehensive comparison table of existing methods with their feature types, encoders, and fusion strategies. Clearly articulate the specific novelty of the multi-view fusion approach relative to each prior method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The optimal performance was achieved when the number reaches 8" (referring to independent gated multi-head attention mechanisms)
+  - **Evidence pointer** Fig. 2F, Section "Effectiveness of basic modules"
+  - **Concern** The selection of the number of attention heads (N=8) is presented as an empirical finding, but the text does not describe the hyperparameter search procedure. It is unclear whether this was tuned on the training set, validation set, or test set. If tuned on the test set, this constitutes data leakage and inflates performance estimates. The authors should clarify the model selection protocol.
+  - **Why it matters** Proper model selection is essential for unbiased performance evaluation. If hyperparameters are tuned on test data, the reported results are optimistically biased and not representative of real-world performance.
+  - **Resolution test** Describe the validation strategy used for hyperparameter selection. If test set was used for tuning, re-evaluate with a proper train/validation/test split and report the impact on performance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "The datasets and the source code of EGPDI are freely available at https://github.com/HaaZheng/EGPDI"
+  - **Evidence pointer** Section "Data availability"
+  - **Concern** While the authors state that code and data are available, the manuscript does not provide sufficient implementation details for independent reproduction. Key information is missing: the specific version of AlphaFold2 used, the exact pLM models (ESM-2 variant, ProtTrans model), the training hyperparameters (learning rate, batch size, optimizer, number of epochs), hardware specifications, and training time. The text also does not specify how the 0.5 Å distance threshold for defining binding sites was applied or whether this is consistent with prior work.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without complete implementation details, other researchers cannot verify the results or build upon the method.
+  - **Resolution test** Provide a detailed implementation section or supplementary document with all hyperparameters, software versions, and computational resources. Include a reproducibility checklist.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design
+  - **Claim pointer** "The proposed method undergoes objective evaluation using five-fold cross-validation (5-CV), and repeats 10 times to ensure reliable predictive results."
+  - **Evidence pointer** Section "Results and discussion"
+  - **Concern** The evaluation protocol is not fully described. It is unclear whether the cross-validation was performed at the protein level or the residue level. If residues from the same protein appear in both training and test folds, this introduces data leakage and inflates performance. The text should clarify the splitting strategy and whether sequence similarity between training and test proteins was controlled beyond the 30% identity threshold mentioned.
+  - **Why it matters** The validity of the performance evaluation depends critically on the cross-validation protocol. Residue-level leakage can lead to overly optimistic results that do not generalize to new proteins.
+  - **Resolution test** Describe the exact splitting procedure, including whether it was protein-level or residue-level. Report performance under both protocols if applicable. Discuss potential sequence similarity between training and test sets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Materials and methods", "Benchmark datasets"
+  - **Evidence pointer** Table 1
+  - **Issue** The text states that datasets were obtained by "selecting proteins with potentially similar biological functions from multiple DNA-protein complexes," but this selection criterion is vague. It is unclear how this selection was performed and whether it introduces bias.
+  - **Required correction** Clarify the dataset construction process, including the criteria for selecting proteins and the source of the complexes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Section "Materials and methods", "Node representations"
+  - **Evidence pointer** Table 2
+  - **Issue** The text mentions a 6524-dimensional feature vector but does not explain the composition of each feature type or how they are normalized. The reader cannot assess the potential redundancy or complementarity of the features.
+  - **Required correction** Provide a detailed breakdown of the feature dimensions and describe any normalization or scaling procedures applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Section "Materials and methods", "Edge representations"
+  - **Evidence pointer** Table 3
+  - **Issue** The text mentions "two different types of position encodings" but does not describe what these encodings are or how they are computed. The edge features are critical for the graph construction.
+  - **Required correction** Describe the two types of position encodings in detail and explain their role in the model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section "Results and discussion", "Case studies"
+  - **Evidence pointer** Fig. 4
+  - **Issue** The case studies report the number of correctly predicted residues but do not provide quantitative comparison with the baseline method (EquiPNAS) in terms of precision or false positive rates. The visual analysis is subjective.
+  - **Required correction** Provide quantitative metrics for the case studies, including precision, recall, and F1 for both EGPDI and EquiPNAS on the selected proteins.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Results and discussion", "Performance comparison with other methods"
+  - **Evidence pointer** Table 7
+  - **Issue** The comparison with existing methods does not report computational cost or inference time. For practical utility, the efficiency of the method is relevant.
+  - **Required correction** Report model size, training time, and inference time for EGPDI and compare with baseline methods where possible.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Materials and methods", "The architecture of EGPDI"
+  - **Evidence pointer** Fig. 1
+  - **Issue** The description of the architecture is high-level and lacks specific details about layer dimensions, activation functions, and the exact implementation of the gated multi-head attention mechanism.
+  - **Required correction** Provide a more detailed architectural description, including layer-by-layer specifications and the mathematical formulation of the gating mechanism.
+
+## Risk / unsupported claims
+- The claim of being the "first time" multi-view graph embedding fusion has been applied to protein-DNA binding site prediction is not verifiable from the provided text and requires a more comprehensive literature review.
+- The claim of "outperforming state-of-the-art methods" is not statistically supported without significance testing and variance reporting.
+- The statement that "the optimal performance was achieved when the number reaches 8" for attention heads is not supported by a described hyperparameter search procedure.
+- The assertion that EGPDI "reduces false positives" based on visual inspection of 3D maps is subjective and not quantitatively validated.
+- The claim that the 0.5 Å distance threshold for defining binding sites is appropriate is not justified or compared with alternative thresholds used in prior work.
+- The statement that "the incorporation of the EGNN module enables the retention of crucial structural prior knowledge" is plausible but not directly demonstrated through targeted experiments.
+- The generalizability claim based on two case studies is weak; the selection criteria for these proteins and their representativeness are not discussed.

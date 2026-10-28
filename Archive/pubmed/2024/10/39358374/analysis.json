@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39358374",
+  "title": "Reassessment of marker genes in human induced pluripotent stem cells for enhanced quality control.",
+  "authors": "Dobner, Jochen; Diecke, Sebastian; Krutmann, Jean; Prigione, Alessandro; Rossi, Andrea",
+  "journal": "Nature communications",
+  "published_date": "2024-10-03",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用纳米孔测序和机器学习开发iPSC多能性评分系统，但核心是细胞状态标记基因分类，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Human induced pluripotent stem cells (iPSCs) have great potential in research, but pluripotency testing faces challenges due to non-standardized methods and ambiguous markers. Here, we use long-read nanopore transcriptome sequencing to discover 172 genes linked to cell states not covered by current guidelines. We validate 12 genes by qPCR as unique markers for specific cell fates: pluripotency (CNMD, NANOG, SPP1), endoderm (CER1, EOMES, GATA6), mesoderm (APLNR, HAND1, HOXB7), and ectoderm (HES5, PAMR1, PAX6). Using these genes, we develop a machine learning-based scoring system, \"hiPSCore\", trained on 15 iPSC lines and validated on 10 more. hiPSCore accurately classifies pluripotent and differentiated cells and predicts their potential to become specialized 2D cells and 3D organoids. Our re-evaluation of cell fate marker genes identifies key targets for future studies on cell fate assessment. hiPSCore improves iPSC testing by reducing time, subjectivity, and resource use, thus enhancing iPSC quality for scientific and medical applications.",
+  "abstract_zh": "人诱导多能干细胞（iPSCs）在研究领域具有巨大潜力，但多能性检测因方法非标准化和标志物不明确而面临挑战。在此，我们利用长读长纳米孔转录组测序，发现了172个与当前指南未覆盖的细胞状态相关的基因。我们通过qPCR验证了12个基因作为特定细胞命运的特异性标志物：多能性（CNMD、NANOG、SPP1）、内胚层（CER1、EOMES、GATA6）、中胚层（APLNR、HAND1、HOXB7）和外胚层（HES5、PAMR1、PAX6）。利用这些基因，我们开发了一种基于机器学习的评分系统“hiPSCore”，该系统在15个iPSC细胞系上训练，并在另外10个细胞系上验证。hiPSCore能准确分类多能细胞和分化细胞，并预测其分化为特化2D细胞和3D类器官的潜力。我们对细胞命运标志物基因的重新评估，为未来细胞命运评估研究确定了关键靶点。hiPSCore通过减少时间、主观性和资源消耗，改善了iPSC检测，从而提升了iPSC在科学和医学应用中的质量。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39358374/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39358374/",
+  "paper_page_path": "papers/pubmed/39358374/index.html"
+}

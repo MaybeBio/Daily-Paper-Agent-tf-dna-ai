@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "40883323",
+    "doi": "10.1038/s41540-025-00579-x",
+    "title": "Utility of the continuous spectrum formed by pathological states in characterizing disease properties."
+  },
+  "content": {
+    "abstract": "Understanding diseases as the result of continuous transitions from a healthy system is more realistic than understanding them as discrete states. Here, we designed the spectrum formation approach (SFA), a machine learning-based method that extracts key features contributing to disease state continuity. We applied the SFA to transcriptomic data from patients with progressive liver disease and neurodegenerative movement disorders to examine its effectiveness in identifying biologically relevant gene sets. The SFA identified transcription factors that potentially regulate liver inflammation and voluntary movement. In neurodegenerative disorders, the SFA also identified genes regulated by ETS-1, with unclear effects on movement. In functional assessment using human iPSC-derived neurons, ETS-1 overexpression disrupted dopamine receptor balance, reduced GABA-producing enzyme levels, and promoted cell death. These findings suggest that the SFA enables the discovery of regulatory factors capable of modifying disease states and provides a framework for the continuity-based interpretation of biological systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Machine Learning",
+      "Transcriptome/genetics",
+      "Gene Expression Profiling/methods",
+      "*Neurodegenerative Diseases/genetics",
+      "*Liver Diseases/genetics/pathology",
+      "Computational Biology/methods",
+      "Neurons/metabolism",
+      "Induced Pluripotent Stem Cells/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fujiwara, Takashi",
+        "Kariya, Yoshiaki",
+        "Kobayashi, Kanata",
+        "Matsui, Soma",
+        "Takada, Tappei"
+      ],
+      "short_names": [
+        "Fujiwara T",
+        "Kariya Y",
+        "Kobayashi K",
+        "Matsui S",
+        "Takada T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan. kyoshiaki-tky@g.ecc.u-tokyo.ac.jp.",
+        "Education Center for Medical Pharmaceutics, Graduate School of Pharmaceutical Sciences, The University of Tokyo, Tokyo, Japan. kyoshiaki-tky@g.ecc.u-tokyo.ac.jp.",
+        "Laboratory of Pharmaceutical Regulatory Sciences, Graduate School of Pharmaceutical Sciences, The University of Tokyo, Tokyo, Japan. kyoshiaki-tky@g.ecc.u-tokyo.ac.jp.",
+        "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan. tappei-tky@g.ecc.u-tokyo.ac.jp.",
+        "Education Center for Medical Pharmaceutics, Graduate School of Pharmaceutical Sciences, The University of Tokyo, Tokyo, Japan. tappei-tky@g.ecc.u-tokyo.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fujiwara, Takashi",
+        "short_name": "Fujiwara T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kariya, Yoshiaki",
+        "short_name": "Kariya Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan. kyoshiaki-tky@g.ecc.u-tokyo.ac.jp.",
+          "Education Center for Medical Pharmaceutics, Graduate School of Pharmaceutical Sciences, The University of Tokyo, Tokyo, Japan. kyoshiaki-tky@g.ecc.u-tokyo.ac.jp.",
+          "Laboratory of Pharmaceutical Regulatory Sciences, Graduate School of Pharmaceutical Sciences, The University of Tokyo, Tokyo, Japan. kyoshiaki-tky@g.ecc.u-tokyo.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Kobayashi, Kanata",
+        "short_name": "Kobayashi K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsui, Soma",
+        "short_name": "Matsui S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Takada, Tappei",
+        "short_name": "Takada T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The University of Tokyo Hospital, Faculty of Medicine, The University of Tokyo, Tokyo, Japan. tappei-tky@g.ecc.u-tokyo.ac.jp.",
+          "Education Center for Medical Pharmaceutics, Graduate School of Pharmaceutical Sciences, The University of Tokyo, Tokyo, Japan. tappei-tky@g.ecc.u-tokyo.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2025 Aug 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/31 04:44",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42346110"
+    ],
+    "refs": [
+      "38826669",
+      "38766899",
+      "38527697",
+      "38200349",
+      "37665145",
+      "37600831",
+      "37399090",
+      "37386015",
+      "37256433",
+      "36859484",
+      "36741471",
+      "35627112",
+      "34950105",
+      "34626720",
+      "34440675",
+      "34166191",
+      "33826459",
+      "32832207",
+      "31927536",
+      "31823227",
+      "30944313",
+      "30590105",
+      "30004136",
+      "29951994",
+      "29375298",
+      "29176962",
+      "28808418",
+      "27924018",
+      "27501026",
+      "27069383",
+      "26619117",
+      "26066708",
+      "26015978",
+      "25358448",
+      "24619556",
+      "22399227",
+      "20018729",
+      "19679276",
+      "19114008",
+      "19022249",
+      "16288013",
+      "11839795"
+    ],
+    "similar": [
+      "40883323",
+      "34943986",
+      "38940987",
+      "40735840",
+      "26423934",
+      "34556644",
+      "40725485",
+      "28096185",
+      "40332425",
+      "40912258",
+      "30546007",
+      "26631648",
+      "33602141",
+      "35327542",
+      "41044372",
+      "28593578",
+      "34680045",
+      "27356918",
+      "30239706",
+      "34358451",
+      "39543487",
+      "40862733",
+      "27341390",
+      "28478951",
+      "32991286",
+      "24374161",
+      "30503143",
+      "39238187",
+      "26740550",
+      "38526223",
+      "38574750",
+      "23812039",
+      "41002383",
+      "30208291",
+      "31357387",
+      "32344649",
+      "28973411",
+      "30465765",
+      "39424619",
+      "33540322",
+      "34921676",
+      "40558550",
+      "41191057",
+      "34782629",
+      "26108437",
+      "32562237",
+      "41273593",
+      "39636731",
+      "40565607",
+      "40143812",
+      "41324988",
+      "25664506",
+      "31767646",
+      "37002587",
+      "29348408",
+      "39507054",
+      "25707768",
+      "33432232",
+      "31121115",
+      "31107959",
+      "38676626",
+      "32862797",
+      "41200172",
+      "33322219",
+      "40281306",
+      "33106934",
+      "33270954",
+      "28666936",
+      "31303172",
+      "41052072",
+      "33941559",
+      "30300891",
+      "27732689",
+      "31184999",
+      "27402083",
+      "40830558",
+      "33441552",
+      "40599778",
+      "35102668",
+      "41288989",
+      "27730449",
+      "32597303",
+      "29852216",
+      "41145510",
+      "39851491",
+      "38512690",
+      "32277755",
+      "30552117",
+      "30685436",
+      "39456924",
+      "30185603",
+      "38221677",
+      "33692779",
+      "39358374",
+      "30785874",
+      "40409528",
+      "37408278",
+      "34329596",
+      "32335273",
+      "32295833"
+    ],
+    "review": [
+      "40883323",
+      "26423934",
+      "40332425",
+      "26631648",
+      "35327542",
+      "28593578",
+      "24374161",
+      "38526223",
+      "38574750",
+      "30208291",
+      "32344649",
+      "30465765",
+      "33540322",
+      "34921676",
+      "31767646",
+      "37002587",
+      "33270954",
+      "30300891",
+      "35102668",
+      "30185603",
+      "38221677",
+      "37408278"
+    ],
+    "pmc": [
+      "12397437"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/liverdiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Diseases"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41540-025-00579-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40883323/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1206",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

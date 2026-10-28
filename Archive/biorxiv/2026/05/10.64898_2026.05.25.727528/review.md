@@ -1,0 +1,124 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, data availability statement) with figure legends referenced but not provided in full
+- **Assessment boundary** Scientific validity, methodological rigor, evidence sufficiency, and clarity of claims as presented in the supplied text
+- **Shared manuscript claim summary** The authors present a computational framework that uses Evo2, a DNA foundation model, to score promoter-associated variants in colorectal cancer (CRC) by computing delta scores (difference in sequence probability between reference and alternate alleles). They report that promoter variants show higher delta scores than non-promoter variants, identify 287 high-impact variants across 198 CRC-associated genes, demonstrate enrichment in CRC-relevant pathways (Wnt, p53, cell cycle), and validate findings through overlap with GWAS loci, transcription factor binding sites, and motif-disrupting positions. The authors claim the framework offers scalable, annotation-free prioritization of noncoding regulatory variants.
+- **Visible evidence base** Abstract, Introduction, Methods (partial), Results (with references to Figures 1-4 and Tables 1, Supplementary Tables S1-S6), Discussion, Conclusion, Data Availability statement. Figure legends and actual figures/tables not provided in full.
+- **Missing materials affecting confidence** Full figure content and legends, all tables (including Supplementary Tables S1-S6), exact statistical outputs beyond reported p-values and correlations, details of the Evo2 API implementation, complete methods for differential expression analysis, and the full list of CRC-associated genes used
+
+## Reviewer
+
+- **Overall assessment** The manuscript presents a conceptually interesting application of a DNA foundation model to noncoding variant prioritization in CRC. The core idea, using Evo2-derived delta scores to rank promoter variants without supervised training or predefined annotations, is timely and potentially useful. However, the evidence as presented is insufficient to fully establish the claims. Several critical methodological details are missing or under-specified, the validation strategy relies on indirect correlations rather than functional assays, and the reported effect sizes are modest. The pathway enrichment analysis, while addressing circularity, requires more detail to assess robustness. The manuscript would benefit from clearer presentation of the pipeline architecture, more rigorous statistical reporting, and a more critical discussion of what the delta scores actually measure biologically.
+- **Who would be interested in the results, and why** Computational biologists and cancer genomics researchers working on noncoding variant interpretation would find this framework relevant. Researchers developing or applying foundation models to regulatory genomics would be interested in the application to CRC. Clinically oriented groups studying CRC susceptibility and seeking to prioritize variants for functional validation may also find the approach useful, though the lack of experimental validation limits immediate translational applicability.
+- **Major strengths** The use of a foundation model (Evo2) for variant prioritization is conceptually novel in the CRC context and aligns with current trends in genomic deep learning. The framework is designed to be annotation-free, which addresses a real limitation of existing methods. The inclusion of negative controls (random non-regulatory variants and dinucleotide-shuffled sequences) is a good practice. The authors address potential circularity in pathway enrichment by using an expanded background gene set. The framework is presented as scalable and reproducible, with code and data made available.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Promoter variants showed greater predicted regulatory impact than non-promoter variants (median delta = 0.015 vs. 0.002; overall mean = 0.018, SD = 0.011)."
+  - **Evidence pointer** Results, Figure 3, Table 1
+  - **Concern** The comparison between promoter and non-promoter variants is central to the claim of specificity, but the definition of "non-promoter variants" is not clearly specified. Are these variants from the same CRC-associated gene set but outside promoter regions, or are they genome-wide random variants? The negative control section mentions "1,250 randomly sampled variants outside all annotated promoter, exonic, and regulatory regions," but it is unclear whether the non-promoter comparison group in Figure 3 is the same as this control or a different set. The statistical test used (Wilcoxon rank-sum) is appropriate for comparing distributions, but the reported p-value (p<1×10⁻⁵) lacks precision, and the effect size (median difference of 0.013) is small. The biological significance of this difference needs more discussion, particularly given that the absolute delta values are modest.
+  - **Why it matters** If the non-promoter comparison group is not well-defined or is not matched for genomic context (e.g., GC content, CpG density, repeat content), the observed difference could be driven by sequence composition artifacts rather than regulatory relevance. The small effect size raises questions about whether the delta score threshold of 0.020 is robust and whether the top 25% cutoff is biologically meaningful or arbitrary.
+  - **Resolution test** Provide a clear definition of the non-promoter variant set, including how it was selected and matched. Report the full distribution statistics (not just medians) for both groups, including confidence intervals. Perform a sensitivity analysis showing how the proportion of high-impact variants changes with different delta thresholds. Consider matching non-promoter variants for sequence composition features to rule out artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Applying a distributional threshold (delta > 0.020; top ∼25%) identified 287 high-impact variants across 198 CRC-associated genes."
+  - **Evidence pointer** Results, Figure 2, Figure 4, Table 1
+  - **Concern** The choice of the 75th percentile (delta > 0.020) as the threshold for "high-impact" variants is described as "data-driven" and supported by "a marked increase in the frequency of transcription factor motif disruption above this value." However, the details of this analysis are not provided. How was the motif disruption frequency calculated? What is the baseline frequency below the threshold? The claim that this provides "functional corroboration" requires quantitative evidence. Additionally, the number of variants (287) and genes (198) is derived from an unspecified total number of promoter variants. The total number of variants analyzed, the number of genes in the initial candidate set, and the proportion of variants falling in promoter regions are not stated clearly.
+  - **Why it matters** The threshold defines the core output of the framework. If the threshold is not robustly justified, the list of 287 high-impact variants cannot be considered reliable. The lack of clarity on the total variant count and gene set size makes it difficult to assess the generalizability and completeness of the analysis.
+  - **Resolution test** Provide a detailed description of the threshold selection process, including a plot of delta score distribution with the threshold marked. Quantify the motif disruption frequency as a function of delta score, showing the inflection point. Report the total number of variants analyzed, the number of promoter variants, and the number of genes in the candidate set. Provide a table listing all 287 high-impact variants with their genomic coordinates, associated genes, and delta scores.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Independent validation showed high-impact variants were enriched at CRC GWAS loci and overlapped transcription factor binding sites (∼32%) and motif-disrupting positions (∼21%), supporting their functional relevance."
+  - **Evidence pointer** Results, Supplementary Tables S3, S4
+  - **Concern** The validation strategy relies on overlap with GWAS loci, TF binding sites, and motif-disrupting positions. However, the details of these analyses are not provided. How were CRC GWAS loci defined? What is the expected overlap by chance? The enrichment statistics are not reported (only percentages). For TF binding site overlap, which cell types or conditions were used? TF binding is highly context-dependent, and using a generic set of binding sites may not be appropriate for CRC. The motif disruption analysis requires a clear description of the motif database and the scoring method. Without these details, the validation is not interpretable.
+  - **Why it matters** The validation claims are central to the biological relevance of the framework. If the enrichment is not properly benchmarked against a null expectation, the results could be misleading. The lack of context-specific TF binding data is particularly concerning given the authors' own emphasis on context-dependent regulatory effects.
+  - **Resolution test** Provide a detailed description of the GWAS locus definition, including the source of GWAS data and the criteria for locus boundaries. Report enrichment statistics with appropriate null models (e.g., permutation-based or matched random variants). Specify the TF binding site dataset, including cell types and experimental methods. Describe the motif database and the scoring algorithm for motif disruption. Provide a comparison of observed vs. expected overlap for all three validation analyses.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Benchmarking against established variant scoring tools revealed moderate correlation between Evo2 delta scores and CADD Phred scores (Spearman ρ=0.47, p=2.1×10⁻¹⁸), weak correlation with phastCons vertebrate conservation scores (ρ=0.31, p=8.4×10⁻⁸), and strongest concordance with DeepSEA functional significance scores (ρ=0.61, p=3.7×10⁻³¹)."
+  - **Evidence pointer** Results, Supplementary Table S4
+  - **Concern** The benchmarking analysis is described in a single sentence with no methodological detail. How were CADD, DeepSEA, and phastCons scores obtained for the variants? Were the same variants used for all comparisons? The correlations are reported as Spearman rho with p-values, but the sample size is not stated. The interpretation that "Evo2-derived scoring captures regulatory signals that are partially independent of evolutionary constraint" is not directly supported by the correlation values. A moderate correlation with CADD and weak correlation with phastCons could simply reflect that these tools measure different aspects of variant impact, not necessarily that Evo2 captures something novel.
+  - **Why it matters** The benchmarking is presented as evidence of the framework's validity, but without methodological detail and appropriate interpretation, it does not substantiate the claims. The claim of complementarity to existing methods requires a more nuanced analysis, such as examining variants where Evo2 and other tools disagree and assessing which is more accurate.
+  - **Resolution test** Provide a detailed description of the benchmarking methodology, including the variant set used, the version of each tool, and the exact scoring procedures. Report the sample size for each correlation. Discuss the interpretation of the correlation values in the context of what each tool measures. Consider performing a discordance analysis to identify variants where Evo2 and other tools disagree and assess the potential biological relevance of these cases.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "These genes were enriched in CRC-relevant pathways such as Wnt signaling, p53 signaling, and cell cycle regulation and 36.4% (72/198) overlapped known cancer genes (2.3-fold enrichment, p = 8.7×10⁻⁶)."
+  - **Evidence pointer** Results, Supplementary Table S2
+  - **Concern** The pathway enrichment analysis is a key biological validation, but the methods are not described. Which pathway database was used (e.g., KEGG, GO, Reactome)? What was the background gene set for the initial analysis? The authors mention addressing circularity by using an expanded background, but the details of this analysis are not provided. The overlap with known cancer genes is reported as a fold enrichment, but the expected overlap and the source of the cancer gene list are not stated. The p-value is reported without the test used.
+  - **Why it matters** Pathway enrichment results are highly dependent on the choice of database, background set, and statistical test. Without these details, the biological relevance claim is not verifiable. The overlap with known cancer genes is a weak validation if the cancer gene list is broad and includes many genes.
+  - **Resolution test** Provide a detailed description of the pathway enrichment methodology, including the database, background set, and statistical test. Report the full enrichment results with adjusted p-values. Specify the source and size of the cancer gene list used for the overlap analysis. Consider performing a more stringent validation, such as checking whether the high-impact variants are enriched in genes with known CRC driver status.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Differential Expression Analysis
+  - **Evidence pointer** Methods section, "Differential Expression Analysis"
+  - **Issue** The description of the differential expression analysis is brief. It states that a "Python implementation of the limma framework" was used, but the specific implementation is not identified. The criteria for defining significant genes (e.g., fold-change threshold, FDR cutoff) are not stated.
+  - **Required correction** Specify the exact software package and version used for the limma implementation. State the significance thresholds used for identifying differentially expressed genes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Dataset and Clinical Annotation
+  - **Evidence pointer** Methods section, "Dataset and Clinical Annotation"
+  - **Issue** The source of CRC-associated variants is described as "TCGA-COAD/READ somatic mutation calls and curated noncoding variant sets from the PCAWG noncoding driver catalog." The specific version of the TCGA data and the criteria for inclusion in the PCAWG catalog are not stated.
+  - **Required correction** Provide the specific data versions and access dates for TCGA and PCAWG data. Describe the criteria used to define the curated noncoding variant set.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Results, "The computational pipeline successfully processed genetic variant inputs across multiple formats"
+  - **Issue** Figure 1 is referenced but not described in the text. The figure presumably shows the pipeline architecture, but the text does not explain what the figure displays.
+  - **Required correction** Add a brief description of Figure 1 in the text, explaining the pipeline steps and how the figure illustrates them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 2
+  - **Evidence pointer** Results, "the distribution was examined for natural inflection points"
+  - **Issue** Figure 2 is referenced in the context of the delta score distribution and threshold selection, but the figure content is not described. It is unclear whether the figure shows the distribution, the threshold, or both.
+  - **Required correction** Describe the content of Figure 2 in the text, including what is plotted and how the threshold is indicated.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 3
+  - **Evidence pointer** Results, "Promoter variants exhibited significantly higher delta scores compared to non-promoter variants"
+  - **Issue** Figure 3 is referenced for the comparison between promoter and non-promoter variants, but the figure type (e.g., boxplot, violin plot) and the specific groups compared are not described.
+  - **Required correction** Describe the content of Figure 3, including the type of plot and the groups being compared.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 4
+  - **Evidence pointer** Results, "Variants exceeding this threshold (n = 287; 198 genes) were classified as high-impact candidates"
+  - **Issue** Figure 4 is referenced in the context of high-impact variants and gene-level aggregation, but the figure content is not described.
+  - **Required correction** Describe the content of Figure 4, including what is plotted and how it supports the claims about high-impact variant distribution.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "Delta scores were modest in absolute magnitude, which is expected as regulatory variants rarely produce large sequence probability shifts"
+  - **Issue** The discussion of modest delta scores is reasonable but would benefit from a quantitative comparison to known regulatory variant effect sizes from other studies or models.
+  - **Required correction** Add a brief comparison to effect sizes reported in other foundation model or regulatory variant prediction studies to contextualize the observed delta values.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Data and Code Availability
+  - **Evidence pointer** Data and Code Availability section
+  - **Issue** The statement says all code and data are available on GitHub, but the specific contents of the repository are not described. It is unclear whether the raw data, processed data, and analysis scripts are all included.
+  - **Required correction** Provide a brief description of the repository contents, including the types of data and scripts included, and any instructions for reproducing the analysis.
+
+## Risk / unsupported claims
+- The claim that "promoter variants showed greater predicted regulatory impact than non-promoter variants" is supported by the reported comparison, but the definition of the non-promoter group is unclear, making the claim difficult to fully assess.
+- The claim that the threshold of delta > 0.020 identifies "high-impact" variants is supported by the data-driven selection, but the functional corroboration via motif disruption frequency is not quantitatively described.
+- The claim that high-impact variants are "enriched at CRC GWAS loci" is not supported by reported enrichment statistics or a null model.
+- The claim that the framework "can scalably prioritize noncoding regulatory candidates in CRC without supervised training or predefined annotations" is plausible but not fully established without more detailed benchmarking and validation.
+- The claim that "regulatory variants may directly perturb transcription factor binding in key oncogenic pathways" is speculative and not directly tested.
+- The claim that the framework "demonstrates high reproducibility and stability across repeated evaluations" is not supported by any reported reproducibility analysis in the provided text.
+- The claim that "results support the biological relevance of even small delta values" is not fully supported, as the correlation with gene expression is modest and the functional significance of small delta scores is not established.

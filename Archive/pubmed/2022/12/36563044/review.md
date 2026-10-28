@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular modeling and molecular dynamics simulations to investigate sequence-specific recognition of methylated DNA by the C2H2 zinc finger protein Kaiso. They report that Kaiso binds preferentially to the MeECad sequence over MeCG2, that a 5'-flanking C/G pair (versus T/A) enhances recognition of the core mCpG site by residue GLU535, and that the core mCGmCG site is essential for stable complex formation.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, statistical analyses, or structural coordinates are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology details, force field parameters, convergence criteria, replicate information, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a relevant question in epigenetic recognition. The central claim that a 5'-flanking C/G pair enhances Kaiso binding to methylated DNA is interesting and potentially valuable. However, the abstract provides insufficient quantitative evidence to evaluate the robustness of the simulation results, the statistical significance of the reported differences, or the methodological soundness of the approach. The case for the central claim is not established from the supplied material alone.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, structural biology, and epigenetics would be interested. The work addresses how a transcription factor discriminates between DNA sequences based on methylation status and flanking context, which has implications for understanding gene regulation mechanisms and for designing targeted experiments on Kaiso and related methyl-CpG binding proteins.
+- **Major strengths** The study addresses a specific and mechanistically important question that prior work has not resolved. The comparison of multiple DNA sequences (MeECad, MeCG2, MeCG2_mutCG) is a sensible design for isolating the effect of the 5'-flanking base pair. The focus on a specific residue (GLU535) provides a concrete molecular hypothesis that could be tested experimentally.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "the Kaiso-meDNA interaction is sequence specific" and that "recognition is enhanced in the MeECad sequence compared to the MeCG2 sequence"
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The abstract reports qualitative differences in binding between sequences but provides no quantitative metrics such as binding free energies, interaction energies, hydrogen bond occupancies, or root-mean-square deviation values. Without numerical data, it is impossible to assess whether the reported differences are statistically meaningful or within simulation error.
+  - **Why it matters** Sequence specificity is the central claim of the study. If the differences between MeECad and MeCG2 are within thermal fluctuations or force field uncertainty, the conclusion would not hold. The abstract does not provide any error bars, replicate information, or statistical tests.
+  - **Resolution test** Provide quantitative binding metrics with standard deviations across multiple independent simulations, and report statistical significance (e.g., p-values or confidence intervals) for the MeECad versus MeCG2 comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "a C/G base pair allows GLU535 of Kaiso to preferably recognize and bind the core mCpG site"
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The abstract states that GLU535 "preferably recognizes" the core mCpG site in the presence of a C/G flanking pair, but no structural or energetic evidence is described. It is unclear whether this preference is based on hydrogen bonding patterns, electrostatic interactions, or conformational changes. The abstract does not specify how this preference was quantified.
+  - **Why it matters** The residue-level mechanism is a key contribution of the study. Without a clear description of the interaction metrics used to define "preference," the claim is not falsifiable from the provided information.
+  - **Resolution test** Report specific interaction metrics for GLU535 with the mCpG site in each sequence context, such as hydrogen bond distances and occupancies, and show that these differ significantly between C/G and T/A flanking contexts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall simulation-based conclusions
+  - **Evidence pointer** Abstract, methods section (location not provided)
+  - **Concern** The abstract provides no information on simulation methodology, including force field parameters, water model, simulation length, temperature coupling, equilibration protocol, or number of replicates. Without these details, the reproducibility of the simulations cannot be evaluated.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup. The absence of methodological details prevents assessment of whether the results are artifacts of specific parameter choices.
+  - **Resolution test** Provide full simulation parameters in the methods section, including software version, force field, water model, salt concentration, simulation time, and number of independent replicates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of sequence names
+  - **Evidence pointer** Abstract, first paragraph (location not provided)
+  - **Issue** The sequences MeECad, MeCG2, and MeCG2_mutCG are named but not defined. Readers cannot determine the exact nucleotide sequences or the methylation pattern without consulting prior literature or the full text.
+  - **Required correction** Provide the full DNA sequences with methylation positions clearly indicated, either in the abstract or by referencing a figure or table in the full text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract, first paragraph (location not provided)
+  - **Issue** The abstract mentions "previous studies in Kaiso-meDNA interactions" but does not state what specific gap this work fills beyond "detailed structural investigations are lacking." A more precise statement of the novel contribution would help position the work.
+  - **Required correction** Briefly state what specific structural or mechanistic question was previously unanswered and how this study addresses it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Statement on the core mCGmCG site
+  - **Evidence pointer** Abstract, final sentence (location not provided)
+  - **Issue** The claim that "the core mCGmCG site is crucial for the recognition process and formation of a stable complex" is presented without comparative evidence. It is unclear whether this is a new finding or a confirmation of prior work.
+  - **Required correction** Clarify whether this conclusion is supported by new simulations in this study or is a restatement of known biology, and provide the relevant comparative data.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, interaction metrics, and methodological details means the central claims cannot be evaluated from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The question of flanking sequence effects on Kaiso binding is a reasonable extension of prior work, but the abstract does not demonstrate a conceptually novel insight beyond what might be expected from existing knowledge of zinc finger DNA recognition. Scientific importance: The topic is relevant to epigenetic regulation, but the significance is moderate and the abstract does not articulate broader implications. Interdisciplinary readership: The work would appeal to computational biophysicists and structural biologists, but the abstract is too technical and lacks context for a broader audience. Technical soundness: Not assessable from the abstract due to missing methodology and quantitative data. Readability for nonspecialists: The abstract assumes familiarity with Kaiso, methyl-CpG binding proteins, and MD simulation terminology, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the absence of quantitative results, methodological details, and statistical support means the central claims cannot be verified. A revised version with full methodological transparency and quantitative evidence would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim that Kaiso-meDNA interaction is sequence specific is unsupported without quantitative binding metrics.
+- The claim that a C/G flanking pair enhances GLU535 recognition of the core mCpG site is unsupported without interaction-level data.
+- The claim that the core mCGmCG site is crucial for stable complex formation is unsupported without comparative stability data.
+- The relative binding preference of MeECad over MeCG2 is unquantified and cannot be evaluated.
+- All simulation-based conclusions are not reproducible from the abstract due to missing methodology.

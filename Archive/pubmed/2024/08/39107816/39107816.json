@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "39107816",
+    "doi": "10.1186/s12920-024-01967-8",
+    "title": "Identification and analysis of key genes related to efferocytosis in colorectal cancer."
+  },
+  "content": {
+    "abstract": "The impact of efferocytosis-related genes (ERGs) on the diagnosis of colorectal cancer (CRC) remains unclear. In this study, efferocytosis-associated biomarkers for the diagnosis of CRC were identified by integrating data from transcriptome sequencing and public databases. Finally, the expression of biomarkers was validated by real-time quantitative polymerase chain reaction (RT-qPCR). Our study may provide a reference for CRC diagnosis. BACKGROUND: It has been shown that some efferocytosis related genes (ERGs) are associated with the development of cancer. However, it is still uncertain how ERGs may influence the diagnosis of colorectal cancer (CRC). METHODS: In our study, the CRC cohorts were gained from transcriptome sequencing and the gene expression omnibus (GEO) database (GSE71187). Efferocytosis related biomarkers with diagnostic utility for CRC were identified through combining differentially expressed analysis, machine learning algorithms, and receiver operating characteristic (ROC) analysis. Then, infiltration abundance of immune cells between CRC and control was evaluated. The regulatory networks (including mRNA-miRNA-lncRNA and miRNA/transcription factors (TF)-mRNA networks) were created. Finally, the expression of biomarkers was validated via real-time quantitative polymerase chain reaction (RT-qPCR). RESULTS: There were 3 biomarkers (ELMO3, P2RY12, and PDK4) related diagnosis for CRC patients gained. ELMO3 was highly expressed in CRC group, while P2RY12 and PDK4 was lowly expressed. Besides, the infiltrating abundance of 3 immune cells between CRC and control groups was significantly differential, namely activated CD4 memory T cells, macrophages M0, and resting mast cells. We then constructed a mRNA-miRNA-lncRNA network containing 3 mRNAs, 33 miRNAs, and 22 lncRNAs, and a miRNA/TF-mRNA network including 3 mRNAs, 33 miRNAs, and 7 TFs. Additionally, RT-qPCR results revealed that the expression trends of all biomarkers were consistent with the transcriptome sequencing data and GSE71187. CONCLUSION: Taken together, this study provides three efferocytosis related biomarkers (ELMO3, P2RY12, and PDK4) for diagnosis of CRC, providing a scientific reference for further studies of CRC.",
+    "keywords": [
+      "Biomarkers",
+      "Colorectal cancer",
+      "Diagnosis",
+      "Efferocytosis",
+      "Immune"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Biomarkers, Tumor/genetics",
+      "*Colorectal Neoplasms/genetics/pathology",
+      "*Efferocytosis/genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "MicroRNAs/genetics",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shengliang",
+        "Jiang, Ying",
+        "Shi, Lei",
+        "Wei, Tianning",
+        "Lai, Zhiwen",
+        "Feng, Xuan",
+        "Li, Shiyuan",
+        "Tang, Detao"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Jiang Y",
+        "Shi L",
+        "Wei T",
+        "Lai Z",
+        "Feng X",
+        "Li S",
+        "Tang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China.",
+        "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China.",
+        "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China.",
+        "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China.",
+        "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China.",
+        "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China.",
+        "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China.",
+        "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China. tangdetaoyi@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shengliang",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ying",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Lei",
+        "short_name": "Shi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Tianning",
+        "short_name": "Wei T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Zhiwen",
+        "short_name": "Lai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Xuan",
+        "short_name": "Feng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shiyuan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Detao",
+        "short_name": "Tang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal and Breast Surgery, Guizhou University of Traditional Chinese Medicine, The First Affiliated Hospital of Guizhou University of Traditional Chinese Medicine of China, Guizhou, China. tangdetaoyi@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Med Genomics"
+    ],
+    "pub_date": "2024 Aug 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/07 00:42",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "42137185",
+      "42042087",
+      "41626625",
+      "41378121",
+      "40125433"
+    ],
+    "refs": [
+      "38187237",
+      "38107270",
+      "38044218",
+      "37991258",
+      "37903887",
+      "37844241",
+      "37779161",
+      "37773732",
+      "37585658",
+      "37564983",
+      "37354608",
+      "37224504",
+      "37144022",
+      "37110626",
+      "36999888",
+      "36977932",
+      "36920728",
+      "36611973",
+      "36442237",
+      "36291568",
+      "35689211",
+      "35650427",
+      "35250982",
+      "35197754",
+      "34671202",
+      "34650693",
+      "34589424",
+      "34557778",
+      "34433074",
+      "34074695",
+      "34062411",
+      "33816214",
+      "33658390",
+      "33329610",
+      "33239426",
+      "32731413",
+      "32532960",
+      "31134158",
+      "30555260",
+      "30374620",
+      "30345300",
+      "30341162",
+      "29495584",
+      "29168312",
+      "28208156",
+      "28166396",
+      "28073370",
+      "28039609",
+      "27508061",
+      "26325386",
+      "25501392",
+      "23937229",
+      "22287627",
+      "21624112",
+      "20808728",
+      "19910308",
+      "15832407",
+      "14597658",
+      "12167121"
+    ],
+    "similar": [
+      "39107816",
+      "33639954",
+      "42565562",
+      "41907458",
+      "41436831",
+      "42004723",
+      "42243611",
+      "40936758",
+      "39552597",
+      "36189298",
+      "35842644",
+      "35576491",
+      "34262080",
+      "35907803",
+      "36185995",
+      "34344319",
+      "42237250",
+      "42108926",
+      "39433800",
+      "39028420",
+      "30985693",
+      "39227669",
+      "32256018",
+      "38863714",
+      "30138363",
+      "34840985",
+      "41938513",
+      "35757392",
+      "41510107",
+      "33779949",
+      "29739047",
+      "39512836",
+      "40547309",
+      "41342434",
+      "38377721",
+      "34390411",
+      "41486187",
+      "36793496",
+      "39830506",
+      "41235474",
+      "41345972",
+      "36160034",
+      "32853944",
+      "29112225",
+      "41836397",
+      "30581274",
+      "32932199",
+      "22703586",
+      "41367897",
+      "39738606",
+      "33302562",
+      "36438903",
+      "41947260",
+      "39901036",
+      "30601194",
+      "42292425",
+      "40959081",
+      "42000858",
+      "41340627",
+      "42180604",
+      "37378929",
+      "39022342",
+      "35151227",
+      "30542696",
+      "38370978",
+      "31619123",
+      "40345591",
+      "41569184",
+      "38914980",
+      "40362431",
+      "41388523",
+      "39199281",
+      "30654001",
+      "39318221",
+      "30734239",
+      "32016349",
+      "40034693",
+      "41163216",
+      "39428538",
+      "40068177",
+      "31960204",
+      "36319976",
+      "38083905",
+      "30132881",
+      "36931200",
+      "40454893",
+      "40755754",
+      "41052072",
+      "34364366",
+      "39382748",
+      "40959565",
+      "33397428",
+      "39745049",
+      "35941638",
+      "41246299",
+      "40665394",
+      "34536521",
+      "40613560",
+      "39949372",
+      "40355841"
+    ],
+    "review": [
+      "39107816",
+      "31960204"
+    ],
+    "pmc": [
+      "11304617"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-024-01967-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39107816/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

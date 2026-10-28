@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "35081903",
+    "doi": "10.1186/s12859-022-04569-2",
+    "title": "A deep learning approach to predict inter-omics interactions in multi-layer networks."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Despite enormous achievements in the production of high-throughput datasets, constructing comprehensive maps of interactions remains a major challenge. Lack of sufficient experimental evidence on interactions is more significant for heterogeneous molecular types. Hence, developing strategies to predict inter-omics connections is essential to construct holistic maps of disease. RESULTS: Here, as a novel nonlinear deep learning method, Data Integration with Deep Learning (DIDL) was proposed to predict inter-omics interactions. It consisted of an encoder that performs automatic feature extraction for biomolecules according to existing interactions coupled with a predictor that predicts unforeseen interactions. Applicability of DIDL was assessed on different networks, namely drug-target protein, transcription factor-DNA element, and miRNA-mRNA. Also, validity of the novel predictions was evaluated by literature surveys. According to the results, the DIDL outperformed state-of-the-art methods. For all three networks, the areas under the curve and the precision-recall curve exceeded 0.85 and 0.83, respectively. CONCLUSIONS: DIDL offers several advantages like automatic feature extraction from raw data, end-to-end training, and robustness to network sparsity. In addition, reliance solely on existing inter-layer interactions and independence of biochemical features of interacting molecules make this algorithm applicable for a wide variety of networks. DIDL paves the way to understand the underlying mechanisms of complex disorders through constructing integrative networks.",
+    "keywords": [
+      "Data Integration",
+      "Deep learning",
+      "Feature representation",
+      "Inter-omics interaction prediction"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*Deep Learning",
+      "Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Borhani, Niloofar",
+        "Ghaisari, Jafar",
+        "Abedi, Maryam",
+        "Kamali, Marzieh",
+        "Gheisari, Yousof"
+      ],
+      "short_names": [
+        "Borhani N",
+        "Ghaisari J",
+        "Abedi M",
+        "Kamali M",
+        "Gheisari Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, 84156-83111, Iran.",
+        "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, 84156-83111, Iran. ghaisari@iut.ac.ir.",
+        "Regenerative Medicine Research Center, Isfahan University of Medical Sciences, Isfahan, Iran.",
+        "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, 84156-83111, Iran.",
+        "Regenerative Medicine Research Center, Isfahan University of Medical Sciences, Isfahan, Iran. ygheisari@med.mui.ac.ir.",
+        "Department of Genetics and Molecular Biology, Isfahan University of Medical Sciences, Isfahan, Iran. ygheisari@med.mui.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Borhani, Niloofar",
+        "short_name": "Borhani N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, 84156-83111, Iran."
+        ]
+      },
+      {
+        "full_name": "Ghaisari, Jafar",
+        "short_name": "Ghaisari J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, 84156-83111, Iran. ghaisari@iut.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Abedi, Maryam",
+        "short_name": "Abedi M",
+        "identifiers": [],
+        "affiliations": [
+          "Regenerative Medicine Research Center, Isfahan University of Medical Sciences, Isfahan, Iran."
+        ]
+      },
+      {
+        "full_name": "Kamali, Marzieh",
+        "short_name": "Kamali M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, 84156-83111, Iran."
+        ]
+      },
+      {
+        "full_name": "Gheisari, Yousof",
+        "short_name": "Gheisari Y",
+        "identifiers": [],
+        "affiliations": [
+          "Regenerative Medicine Research Center, Isfahan University of Medical Sciences, Isfahan, Iran. ygheisari@med.mui.ac.ir.",
+          "Department of Genetics and Molecular Biology, Isfahan University of Medical Sciences, Isfahan, Iran. ygheisari@med.mui.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2022 Jan 26",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/28 06:00",
+    "fetched_at": "2026-09-28 04:33:33"
+  },
+  "links": {
+    "cites": [
+      "41754934",
+      "40980482",
+      "40581797",
+      "38988328",
+      "36158572",
+      "35563350"
+    ],
+    "refs": [
+      "32938374",
+      "32754259",
+      "32586280",
+      "32367110",
+      "32251445",
+      "32183788",
+      "32047509",
+      "31584634",
+      "31352788",
+      "30467459",
+      "30123072",
+      "30005074",
+      "29783926",
+      "28936969",
+      "27999212",
+      "27853626",
+      "27474269",
+      "27141961",
+      "27007977",
+      "26939991",
+      "26353207",
+      "26267216",
+      "26166038",
+      "25501507",
+      "25416803",
+      "25273528",
+      "25103110",
+      "24670451",
+      "24435757",
+      "23249749",
+      "21912671",
+      "21703006",
+      "19706745",
+      "16381955",
+      "10902190"
+    ],
+    "similar": [
+      "35081903",
+      "36739624",
+      "35100418",
+      "37147619",
+      "36443676",
+      "37139048",
+      "38029721",
+      "33761889",
+      "34791014",
+      "31787089",
+      "31245182",
+      "29566671",
+      "32804365",
+      "32234433",
+      "34891654",
+      "32363401",
+      "33706810",
+      "32497603",
+      "33822890",
+      "32933515",
+      "31521253",
+      "31349729",
+      "30685762",
+      "37930027",
+      "35200015",
+      "32249297",
+      "36104347",
+      "33822879",
+      "33067636",
+      "32367110",
+      "35672685",
+      "32763377",
+      "30066652",
+      "34082280",
+      "34442330",
+      "32437848",
+      "33740884",
+      "34893648",
+      "30265280",
+      "33427480",
+      "35079777",
+      "35089332",
+      "34337396",
+      "31208331",
+      "30853547",
+      "32599617",
+      "37672551",
+      "36774402",
+      "28245811",
+      "32155605",
+      "30944926",
+      "31787076",
+      "38040847",
+      "36187912",
+      "32938374",
+      "38444019",
+      "33388506",
+      "31200912",
+      "33086649",
+      "30423072",
+      "32173583",
+      "32183788",
+      "31189390",
+      "29137601",
+      "30524056",
+      "33373885",
+      "30654174",
+      "30906311",
+      "33989895",
+      "32432096",
+      "33901196",
+      "33639834",
+      "32444875",
+      "33838602",
+      "34298474",
+      "33267753",
+      "38872306",
+      "30999838",
+      "32808039",
+      "34891938",
+      "31588387",
+      "32913254",
+      "32222424",
+      "35690250",
+      "33933121",
+      "36593394",
+      "35679533",
+      "35248795",
+      "36244991",
+      "39027641"
+    ],
+    "review": [
+      "35081903",
+      "34791014",
+      "32804365",
+      "32363401",
+      "30265280",
+      "35089332"
+    ],
+    "pmc": [
+      "8793231"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04569-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35081903/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35081903",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

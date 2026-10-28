@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39763654",
+  "title": "Identification and experimental validation of diagnostic and prognostic genes CX3CR1, PID1 and PTGDS in sepsis and ARDS using bulk and single-cell transcriptomic analysis and machine learning.",
+  "authors": "Jiang, Jijin; Chen, Yan; Su, Yue; Zhang, Li; Qian, Hao; Song, Xinmiao; Xu, Jin-Fu",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-01-07",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过转录组和机器学习筛选脓毒症与ARDS诊断预后基因，虽含转录因子预测和分子对接，但核心是疾病标志物而非蛋白质-DNA互作机制建模，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Sepsis is an uncontrolled reaction to infection that causes severe organ dysfunction and is a primary cause of ARDS. Patients suffering both sepsis and ARDS have a poor prognosis and high mortality. However, the mechanisms behind their simultaneous occurrence are unclear. METHODS: We acquired sepsis and ARDS datasets from GEO and Arrayexpress databases and screened hub genes by WGCNA and machine learning algorithm. For diagnosis and prognosis, ROC curve and survival analysis were used. We performed GO, KEGG, GSEA, immune cell infiltration, drug prediction, molecular docking, transcription factor prediction, and constructed PPI and ceRNA networks to explore these genes and the common mechanisms of sepsis and ARDS. Single-cell data analysis compared immune cell profiles and hub gene localization. Finally, RT-qPCR and H&E staining confirmed the reliability of hub genes using PBMCs samples and mouse models. RESULTS: We identified 242 common differentially expressed genes in sepsis and ARDS. WGCNA analysis showed that the turquoise module in GSE95233 is strongly linked to sepsis occurrence and poor prognosis, while the black module in GSE10474 is associated with ARDS. Using WGCNA and three machine learning methods (LASSO, random forest and Boruta), we identified three key genes CX3CR1, PID1 and PTGDS. Models built with them showed high AUC values in ROC curve evaluations and were validated by external datasets, accurately predicting the occurrence and mortality. We further explored the immunological landscape of these genes using immune infiltration and single-cell analysis. Then, the ceRNA, predicted drugs and molecular docking were analyzed. Ultimately, we demonstrated that these genes are expressed differently in human and mouse samples with sepsis and ARDS. CONCLUSION: This study identified three molecular signatures (CX3CR1, PID1 and PTGDS) linked to the diagnosis and poor prognosis of sepsis and ARDS, validated by RT-qPCR and H&E staining in both patient and mouse samples. This research may be valuable for identifying shared biological mechanisms and potential treatment targets for both diseases.",
+  "abstract_zh": "背景：脓毒症是对感染的失控反应，导致严重器官功能障碍，是ARDS的主要原因。同时患有脓毒症和ARDS的患者预后不良且死亡率高。然而，这两种疾病同时发生的机制尚不清楚。方法：我们从GEO和Arrayexpress数据库获取脓毒症和ARDS数据集，并通过WGCNA和机器学习算法筛选核心基因。对于诊断和预后，使用ROC曲线和生存分析。我们进行了GO、KEGG、GSEA、免疫细胞浸润、药物预测、分子对接、转录因子预测，并构建了PPI和ceRNA网络，以探索这些基因及脓毒症和ARDS的共同机制。单细胞数据分析比较了免疫细胞谱和核心基因定位。最后，使用PBMC样本和小鼠模型，通过RT-qPCR和H&E染色确认了核心基因的可靠性。结果：我们在脓毒症和ARDS中识别出242个共同差异表达基因。WGCNA分析显示，GSE95233中的turquoise模块与脓毒症发生和不良预后密切相关，而GSE10474中的black模块与ARDS相关。通过WGCNA和三种机器学习方法（LASSO、随机森林和Boruta），我们识别出三个关键基因CX3CR1、PID1和PTGDS。基于这些基因构建的模型在ROC曲线评估中显示出高AUC值，并通过外部数据集验证，准确预测了发生率和死亡率。我们进一步利用免疫浸润和单细胞分析探索了这些基因的免疫景观。然后，分析了ceRNA、预测药物和分子对接。最终，我们证明这些基因在脓毒症和ARDS的人和小鼠样本中表达不同。结论：本研究识别出三个分子标志物（CX3CR1、PID1和PTGDS），与脓毒症和ARDS的诊断及不良预后相关，并在患者和小鼠样本中通过RT-qPCR和H&E染色验证。这项研究可能有助于识别这两种疾病的共同生物学机制和潜在治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39763654/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39763654/",
+  "paper_page_path": "papers/pubmed/39763654/index.html"
+}

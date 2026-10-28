@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors report multiscale simulations of the full-length human NOTCH ectodomain (1756 amino acids), combining fragment-based modeling, coarse-grained dynamics, atomistic simulations, and integrative modeling. They claim glycosylation modulates conformational transitions from an elongated (~86 nm) to a semicompact state (~23.81 ± 9.98 nm) consistent with cryo-EM data. They further model NOTCH-DLL4 and NOTCH-JAG1 complexes, identify a larger binding surface than previously reported, and characterize pathogenic mutations E360K, R448Q, and C1133Y as disrupting ligand binding or protein stability.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, validation metrics, cryo-EM comparison details, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious multiscale modeling effort addressing a biologically important question, namely the structural architecture of full-length NOTCH and its ligand interactions. The claims are potentially significant, but the abstract alone provides insufficient evidence to evaluate technical soundness, validation rigor, or the robustness of the reported conformational transitions and mutation effects. The central claims regarding glycosylation-dependent conformational switching and the larger binding surface require detailed methodological and quantitative support that is not visible here.
+- **Who would be interested in the results, and why** Structural biologists studying transmembrane receptor signaling, computational biophysicists developing multiscale simulation approaches, and researchers in NOTCH biology and therapeutic development targeting NOTCH-pathway disorders. The proposed full-length ectodomain model and ligand interaction surfaces could inform drug design efforts, and the mutation analysis may have clinical relevance for NOTCH-related pathologies.
+- **Major strengths** The study addresses a substantial gap in structural knowledge of full-length NOTCH, which has been refractory to experimental structure determination. The multiscale approach combining coarse-grained and atomistic simulations is appropriate for the size and complexity of the system. The inclusion of glycosylation effects and pathogenic mutations adds biological relevance beyond static structure prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that glycosylated NOTCH transitions from an elongated structure of ~86 nm to a semicompact state of ~23.81 ± 9.98 nm, aligning with cryo-EM data.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single elongated value (~86 nm) without an uncertainty estimate, while the semicompact state has a large standard deviation (~10 nm, approximately 42% of the mean). No information is provided on how these values were derived from coarse-grained simulations, what conformational sampling was performed, whether equilibrium was reached, or how the cryo-EM comparison was quantified. The absence of error bars on the elongated state and the large spread in the semicompact state raise questions about the statistical robustness of the claimed transition.
+  - **Why it matters** The conformational transition is a central finding of the study. If the elongated state is not reproducibly sampled or the semicompact state is not well-defined, the claim of glycosylation-dependent conformational switching is not established. The alignment with cryo-EM data is a key validation point, but without quantitative comparison metrics, this claim cannot be assessed.
+  - **Resolution test** Provide simulation convergence metrics, replicate analyses, and uncertainty estimates for both conformational states. Include a quantitative comparison to cryo-EM data, such as envelope fitting scores or root-mean-square deviation values, and specify the cryo-EM reference used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that integrative modeling of full-length NOTCH-ligand complexes suggests a larger binding surface than reported previously.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that the binding surface is larger than previously reported, but no quantitative details are given. It is unclear what the previous reported surface area was, what the new surface area is, how the binding interface was defined, and what confidence can be placed in the integrative models. Integrative modeling often relies on low-resolution restraints, and the accuracy of the predicted interface depends heavily on the quality and completeness of those restraints.
+  - **Why it matters** The claim of a larger binding surface has implications for understanding NOTCH-ligand specificity and for designing therapeutic interventions. If the interface prediction is not rigorously validated, the claim could mislead downstream applications.
+  - **Resolution test** Provide quantitative interface areas for the new models and for previously reported structures or models, specify the definition of binding surface used, and describe validation of the integrative models, such as cross-validation against experimental data or consistency with mutagenesis data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that pathogenic mutations E360K and R448Q disrupt NOTCH-ligand interaction surfaces causing dissociation, and that C1133Y compromises protein stability by disrupting domain interaction in the apo form.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports simulation outcomes for three mutations but provides no details on the simulation setup, the duration of simulations, the number of replicates, the force field parameters, or the criteria used to define "dissociation" and "compromised stability." For E360K and R448Q, it is unclear whether dissociation was observed in multiple independent simulations or a single trajectory. For C1133Y, the mechanism of destabilization is stated without supporting energetic or structural analysis.
+  - **Why it matters** Mutation effects are often sensitive to simulation conditions and analysis criteria. Without evidence of reproducibility and quantitative metrics, the mechanistic claims for these pathogenic mutations are not established, which limits their translational relevance.
+  - **Resolution test** Provide simulation protocols, replicate information, and quantitative metrics for dissociation (e.g., contact persistence, binding free energy estimates) and stability (e.g., root-mean-square fluctuation, domain-domain distance distributions). Include statistical comparisons between wild-type and mutant simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "fragment-based modeling," "coarse-grained dynamics," and "integrative modeling" without brief explanations. Nonspecialist readers in biology or medicine may not understand the methodological distinctions and their implications for result reliability.
+  - **Required correction** Add brief parenthetical explanations for these methods, such as "coarse-grained simulations (reduced representation of amino acids for long-timescale sampling)" and "integrative modeling (combining multiple experimental restraints with computational prediction)."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that findings "could enable the development of novel therapeutic approaches" but does not specify which aspects of the findings are most actionable or how they differ from existing therapeutic strategies targeting NOTCH.
+  - **Required correction** Clarify the specific structural or mechanistic insights that could inform therapeutic design, such as the identification of a novel binding pocket or a conformational state that could be targeted selectively.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports the semicompact state as "~23.81 ± 9.98 nm" but does not specify whether this is a mean over time, over multiple simulations, or over different starting conditions. The precision of two decimal places seems inconsistent with the large standard deviation.
+  - **Required correction** Specify the statistical basis of the reported value and consider rounding to a precision consistent with the uncertainty, such as "24 ± 10 nm."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail or quantitative validation to establish the central claims of conformational transition, larger binding surface, and mutation mechanisms.
+- **Assessment against Nature-style criteria** Originality is high, as full-length NOTCH architecture has not been previously characterized by simulation. Scientific importance is substantial given the central role of NOTCH signaling in development and disease. Interdisciplinary readership is plausible, spanning structural biology, computational biophysics, and cell signaling. Technical soundness cannot be assessed from the abstract alone, and the lack of validation details is a significant concern. Readability for nonspecialists is moderate, with some jargon that could be clarified. Overall, the work has potential for broad interest, but the evidence base provided is insufficient to evaluate its technical rigor.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising directions, but the central claims require detailed methodological and quantitative support. A supportive recommendation would be contingent on the full manuscript demonstrating simulation convergence, validation against experimental data, and robust statistical analysis of mutation effects.
+
+## Risk / unsupported claims
+- The claim of a conformational transition from ~86 nm to ~23.81 ± 9.98 nm is unsupported without convergence metrics and uncertainty estimates for the elongated state.
+- The claim of a larger binding surface than previously reported is unsupported without quantitative interface definitions and comparisons.
+- The mechanistic claims for E360K, R448Q, and C1133Y are unsupported without simulation protocols, replicate information, and quantitative metrics.
+- The alignment with cryo-EM data is unverifiable without specifying the reference structure and the comparison method.
+- The statement that findings "could enable the development of novel therapeutic approaches" is speculative and not supported by the abstract content.

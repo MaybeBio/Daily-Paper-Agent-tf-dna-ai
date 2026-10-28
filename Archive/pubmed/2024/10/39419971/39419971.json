@@ -1,0 +1,741 @@
+{
+  "identity": {
+    "pmid": "39419971",
+    "doi": "10.1038/s41467-024-53164-x",
+    "title": "The integrated molecular and histological analysis defines subtypes of esophageal squamous cell carcinoma."
+  },
+  "content": {
+    "abstract": "Esophageal squamous cell carcinoma (ESCC) is highly heterogeneous. Our understanding of full molecular and immune landscape of ESCC remains limited, hindering the development of personalised therapeutic strategies. To address this, we perform genomic-transcriptomic characterizations and AI-aided histopathological image analysis of 120 Chinese ESCC patients. Here we show that ESCC can be categorized into differentiated, metabolic, immunogenic and stemness subtypes based on bulk and single-cell RNA-seq, each exhibiting specific molecular and histopathological features based on an amalgamated deep-learning model. The stemness subgroup with signature genes, such as WFDC2, SFRP1, LGR6 and VWA2, has the poorest prognosis and is associated with downregulated immune activities, a high frequency of EP300 mutation/activation, functional mutation enrichment in Wnt signalling and the highest level of intratumoural heterogeneity. The immune profiling by transcriptomics and immunohistochemistry reveals ESCC cells overexpress natural killer cell markers XCL1 and CD160 as immune evasion. Strikingly, XCL1 expression also affects the sensitivity of ESCC cells to common chemotherapy drugs. This study opens avenues for ESCC treatment and provides a valuable public resource to better understand ESCC.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Esophageal Squamous Cell Carcinoma/genetics/pathology/immunology/metabolism",
+      "*Esophageal Neoplasms/genetics/pathology/immunology/metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "Female",
+      "Male",
+      "Prognosis",
+      "Middle Aged",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Transcriptome",
+      "Mutation",
+      "Cell Line, Tumor",
+      "Gene Expression Profiling",
+      "Aged",
+      "E1A-Associated p300 Protein/metabolism/genetics",
+      "Antigens, CD/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Guozhong",
+        "Wang, Zhizhong",
+        "Cheng, Zhenguo",
+        "Wang, Weiwei",
+        "Lu, Shuangshuang",
+        "Zhang, Zifang",
+        "Anene, Chinedu A",
+        "Khan, Faraz",
+        "Chen, Yue",
+        "Bailey, Emma",
+        "Xu, Huisha",
+        "Dong, Yunshu",
+        "Chen, Peinan",
+        "Zhang, Zhongxian",
+        "Gao, Dongling",
+        "Wang, Zhimin",
+        "Miao, Jinxin",
+        "Xue, Xia",
+        "Wang, Pengju",
+        "Zhang, Lirong",
+        "Gangeswaran, Rathi",
+        "Liu, Peng",
+        "Chard Dunmall, Louisa S",
+        "Li, Junkuo",
+        "Guo, Yongjun",
+        "Dong, Jianzeng",
+        "Lemoine, Nicholas R",
+        "Li, Wencai",
+        "Wang, Jun",
+        "Wang, Yaohe"
+      ],
+      "short_names": [
+        "Jiang G",
+        "Wang Z",
+        "Cheng Z",
+        "Wang W",
+        "Lu S",
+        "Zhang Z",
+        "Anene CA",
+        "Khan F",
+        "Chen Y",
+        "Bailey E",
+        "Xu H",
+        "Dong Y",
+        "Chen P",
+        "Zhang Z",
+        "Gao D",
+        "Wang Z",
+        "Miao J",
+        "Xue X",
+        "Wang P",
+        "Zhang L",
+        "Gangeswaran R",
+        "Liu P",
+        "Chard Dunmall LS",
+        "Li J",
+        "Guo Y",
+        "Dong J",
+        "Lemoine NR",
+        "Li W",
+        "Wang J",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2967-811X",
+        "ORCID: 0000-0002-3591-3358",
+        "ORCID: 0000-0002-5783-1281",
+        "ORCID: 0000-0003-2380-0900",
+        "ORCID: 0000-0003-1641-2969",
+        "ORCID: 0000-0001-7299-7805",
+        "ORCID: 0000-0003-2509-9599",
+        "ORCID: 0000-0003-2367-6313"
+      ],
+      "affiliations": [
+        "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Department of Molecular Pathology, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou, 450008, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom.",
+        "Centre for Biomedical Science Research, Leeds Beckett University, Leeds, LS1 3HE, UK.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "CAS Key Laboratory of Infection and Immunity, Institute of Biophysics, Chinese Academy of Sciences, Beijing, People's Republic of China.",
+        "Department of Molecular Pathology, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou, 450008, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Department of Pharmacology, School of Basic Medical Sciences, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450001, People's Republic of China.",
+        "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK.",
+        "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK.",
+        "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK.",
+        "Department of Molecular Pathology, Anyang Cancer Hospital, Anyang City, 455000, Henan Province, People's Republic of China.",
+        "Department of Molecular Pathology, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou, 450008, People's Republic of China.",
+        "Department of Cardiology, Centre for Cardiovascular Diseases, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Henan Key Laboratory of Hereditary Cardiovascular Diseases, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Department of Cardiology, Beijing Anzhen Hospital, Capital Medical University, No. 2, Anzhen Road, Chao Yang District, Beijing, 100029, People's Republic of China.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+        "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK.",
+        "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China. liwencai@zzu.edu.cn.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom. j.a.wang@qmul.ac.uk.",
+        "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China. Yaohe.wang@qmul.ac.uk.",
+        "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China. Yaohe.wang@qmul.ac.uk.",
+        "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China. Yaohe.wang@qmul.ac.uk.",
+        "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK. Yaohe.wang@qmul.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Guozhong",
+        "short_name": "Jiang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhizhong",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0002-2967-811X"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathology, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou, 450008, People's Republic of China.",
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Zhenguo",
+        "short_name": "Cheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Weiwei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shuangshuang",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zifang",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Anene, Chinedu A",
+        "short_name": "Anene CA",
+        "identifiers": [
+          "0000-0002-3591-3358"
+        ],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom.",
+          "Centre for Biomedical Science Research, Leeds Beckett University, Leeds, LS1 3HE, UK."
+        ]
+      },
+      {
+        "full_name": "Khan, Faraz",
+        "short_name": "Khan F",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Chen, Yue",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bailey, Emma",
+        "short_name": "Bailey E",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Xu, Huisha",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yunshu",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "CAS Key Laboratory of Infection and Immunity, Institute of Biophysics, Chinese Academy of Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Peinan",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pathology, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou, 450008, People's Republic of China.",
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhongxian",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Dongling",
+        "short_name": "Gao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhimin",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Miao, Jinxin",
+        "short_name": "Miao J",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xue, Xia",
+        "short_name": "Xue X",
+        "identifiers": [
+          "0000-0002-5783-1281"
+        ],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pengju",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lirong",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Basic Medical Sciences, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gangeswaran, Rathi",
+        "short_name": "Gangeswaran R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Liu, Peng",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Chard Dunmall, Louisa S",
+        "short_name": "Chard Dunmall LS",
+        "identifiers": [
+          "0000-0003-2380-0900"
+        ],
+        "affiliations": [
+          "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Li, Junkuo",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pathology, Anyang Cancer Hospital, Anyang City, 455000, Henan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yongjun",
+        "short_name": "Guo Y",
+        "identifiers": [
+          "0000-0003-1641-2969"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathology, The Affiliated Cancer Hospital of Zhengzhou University & Henan Cancer Hospital, Zhengzhou, 450008, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dong, Jianzeng",
+        "short_name": "Dong J",
+        "identifiers": [
+          "0000-0001-7299-7805"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Centre for Cardiovascular Diseases, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Henan Key Laboratory of Hereditary Cardiovascular Diseases, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Department of Cardiology, Beijing Anzhen Hospital, Capital Medical University, No. 2, Anzhen Road, Chao Yang District, Beijing, 100029, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lemoine, Nicholas R",
+        "short_name": "Lemoine NR",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China.",
+          "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Li, Wencai",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, People's Republic of China. liwencai@zzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Jun",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0003-2509-9599"
+        ],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, United Kingdom. j.a.wang@qmul.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Wang, Yaohe",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0003-2367-6313"
+        ],
+        "affiliations": [
+          "National Centre for International Research in Cell and Gene Therapy, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China. Yaohe.wang@qmul.ac.uk.",
+          "Sino-British Research Centre for Molecular Oncology, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China. Yaohe.wang@qmul.ac.uk.",
+          "State Key Laboratory of Esophageal Cancer Prevention & Treatment, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, 450052, People's Republic of China. Yaohe.wang@qmul.ac.uk.",
+          "Centre for Cancer Biomarkers & Biotherapeutics, Barts Cancer Institute, Queen Mary University of London, London, EC1M 6BQ, UK. Yaohe.wang@qmul.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Oct 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/18 00:30",
+    "fetched_at": "2026-09-30 04:26:09"
+  },
+  "links": {
+    "cites": [
+      "42478448",
+      "42404587",
+      "42400826",
+      "42400651",
+      "42352257",
+      "42302781",
+      "42245714",
+      "42215475",
+      "42109526",
+      "42064062",
+      "41986343",
+      "41814475",
+      "41772662",
+      "41756301",
+      "41754923",
+      "41714596",
+      "41703614",
+      "41613113",
+      "41539687",
+      "41479646",
+      "41209039",
+      "40940814",
+      "40817061",
+      "40774225",
+      "40657371",
+      "40303992",
+      "40264204",
+      "40170133",
+      "39684640",
+      "39682231"
+    ],
+    "refs": [
+      "37244912",
+      "35944502",
+      "34489433",
+      "34480339",
+      "33167919",
+      "32699215",
+      "32663469",
+      "32555172",
+      "32398863",
+      "32115573",
+      "31941899",
+      "31632486",
+      "31332204",
+      "30975989",
+      "30862505",
+      "30718927",
+      "30207593",
+      "30013048",
+      "29879950",
+      "29659813",
+      "29344893",
+      "29141660",
+      "29092952",
+      "29056346",
+      "28945253",
+      "28823862",
+      "28748917",
+      "28548104",
+      "28356956",
+      "28320055",
+      "28239471",
+      "28187284",
+      "27765066",
+      "27268795",
+      "27015306",
+      "26925227",
+      "26873401",
+      "26465158",
+      "26003801",
+      "25605792",
+      "25594174",
+      "25319062",
+      "25129146",
+      "24670651",
+      "24633410",
+      "24522499",
+      "24390350",
+      "23934153",
+      "23698071",
+      "23396013",
+      "23180760",
+      "22904074",
+      "22285995",
+      "22100876",
+      "21715317",
+      "21390126",
+      "21376230",
+      "20427518",
+      "20354512",
+      "20164468",
+      "19913446",
+      "18193050",
+      "15016911",
+      "12824425",
+      "12734009",
+      "10700188",
+      "7973732"
+    ],
+    "similar": [
+      "39419971",
+      "39696540",
+      "34054840",
+      "40281492",
+      "39944684",
+      "40066443",
+      "32103760",
+      "39497541",
+      "38816411",
+      "34044866",
+      "32810627",
+      "40068710",
+      "31793228",
+      "40208395",
+      "39835116",
+      "40098145",
+      "38924839",
+      "38652547",
+      "39840762",
+      "40119618",
+      "40303412",
+      "32375686",
+      "34488675",
+      "39604874",
+      "34162127",
+      "39825491",
+      "39463444",
+      "34921160",
+      "34257544",
+      "39748249",
+      "38843392",
+      "39864540",
+      "33004764",
+      "31236983",
+      "40155014",
+      "39196978",
+      "40329370",
+      "32580137",
+      "39889995",
+      "31651222",
+      "34365093",
+      "31050728",
+      "33691689",
+      "39324651",
+      "40158127",
+      "39612809",
+      "39966857",
+      "34162562",
+      "34586751",
+      "39536938",
+      "39344350",
+      "38682192",
+      "31512786",
+      "38719775",
+      "40225867",
+      "39742278",
+      "38802161",
+      "39638799",
+      "31815134",
+      "32867821",
+      "39891717",
+      "39993802",
+      "32872669",
+      "40272582",
+      "32012470",
+      "32727517",
+      "32653032",
+      "32931889",
+      "31917882",
+      "28556501",
+      "38818465",
+      "34257599",
+      "38762674",
+      "31319137",
+      "31981592",
+      "38832974",
+      "30933965",
+      "32239565",
+      "39994631",
+      "35871890",
+      "32319588",
+      "38954215",
+      "32905814",
+      "32788880",
+      "33650665",
+      "38342234",
+      "30519852",
+      "34722771",
+      "34016746",
+      "33323378",
+      "34232175",
+      "30556869",
+      "39511268",
+      "40295071",
+      "31679450",
+      "29885401",
+      "29524086",
+      "38724465",
+      "40406147",
+      "31638164"
+    ],
+    "review": [
+      "39419971"
+    ],
+    "pmc": [
+      "11487165"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-024-53164-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39419971/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-WFDC2-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

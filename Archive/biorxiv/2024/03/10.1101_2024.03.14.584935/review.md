@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided by the author.
+- **Assessment boundary** Scientific and technical evaluation of the dataset curation, model architecture, experimental design, and reported results. No assessment of code availability, reproducibility scripts, or supplementary materials beyond what is described in the text.
+- **Shared manuscript claim summary** The authors claim to (1) have manually curated the largest dataset of structure-based pairwise protein-protein interactions with experimentally determined binding affinities (2,285 unique pairs), and (2) have developed ProAffinity-GNN, a deep learning framework combining a protein language model (ESM-2) and graph neural networks (AttentiveFP) that outperforms existing methods in accuracy and generalization for binding affinity prediction.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (dataset creation, data preparation, graph construction, network architecture, training details, evaluation metrics), Results and Discussion (5-fold cross-validation, benchmark comparisons, external SKEMPI evaluation, ablation study), Conclusion, Acknowledgements, Footnotes. Figures and tables are referenced but not provided in the supplied text.
+- **Missing materials affecting confidence** Figures 1–6 and Tables 1–3 are referenced but not included. Specific numerical results (e.g., R and MAE values for benchmark comparisons, ablation outcomes) are only partially reported in the text. Details on dataset curation decisions (e.g., handling of ambiguous cases, inter-annotator agreement) are not fully described. No information on hyperparameter tuning, model selection criteria, or computational cost beyond GPU type.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and underexplored problem in structural bioinformatics: quantitative prediction of protein-protein binding affinity. The authors have made a substantial effort to curate a larger dataset than previously available, which is a valuable contribution. The proposed model architecture is reasonable and leverages modern techniques (ESM-2 embeddings, GAT-based graph neural networks). However, the manuscript as presented has several significant gaps. The most critical issue is the lack of reported numerical results in the text; the reader is referred to tables and figures that are not provided. This makes it impossible to evaluate the strength of the claims. Additionally, the comparison with existing methods is incomplete, and the dataset curation process, while described, lacks quantitative validation (e.g., inter-annotator agreement, consistency checks). The claim of being "the first purely deep learning-based approach" for this task is strong and requires careful verification against the literature. Overall, the work has potential, but the current evidence base is insufficient to support the central claims.
+- **Who would be interested in the results, and why** Researchers in structural bioinformatics, computational biophysics, and machine learning applied to biology would be interested. Specifically, those working on protein-protein interaction prediction, binding affinity estimation, and development of structure-based deep learning methods would find the dataset and model relevant. The dataset could serve as a benchmark for future method development. The model's approach of combining language model embeddings with graph neural networks may also interest researchers in protein representation learning.
+- **Major strengths** 1. The manual curation of a larger pairwise PPI binding affinity dataset (2,285 pairs) addresses a recognized bottleneck in the field. 2. The model design is sensible, integrating sequence (ESM-2) and structure (graph) information in a unified framework. 3. The evaluation includes multiple benchmark sets and an external dataset (SKEMPI), which is good practice. 4. The ablation study is a useful step to understand component contributions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that ProAffinity-GNN "outperforms existing models" and shows "strong generalization capabilities" is central to the paper.
+  - **Evidence pointer** Results and Discussion, Tables 1 and 2 (referenced, not provided); text provides only qualitative statements.
+  - **Concern** The manuscript does not report the actual numerical results (R, MAE) for the benchmark comparisons or the SKEMPI evaluation. The reader is directed to Tables 1 and 2, which are not included in the provided material. Without these numbers, the performance claims cannot be assessed. Furthermore, the comparison with PPI-Affinity on the cross-validation set is only mentioned as "notable improvement" without specific values.
+  - **Why it matters** The core scientific contribution is the claimed superior performance. Without quantitative evidence, the case is not established. The reader cannot judge whether the improvement is statistically significant or practically meaningful.
+  - **Resolution test** Provide the full tables with numerical results for all benchmark sets and the SKEMPI evaluation, including standard deviations and, ideally, statistical significance tests (e.g., paired t-test or Wilcoxon) against baseline methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset validation
+  - **Claim pointer** The claim of creating "the largest dataset for structure-based pairwise protein interaction with binding affinity to date" and the reliability of the manual curation process.
+  - **Evidence pointer** Materials and Methods, Dataset creation; Figure 2 (referenced, not provided).
+  - **Concern** The manual curation process is described, but there is no quantitative assessment of its reliability. How many cases required consultation of the literature? What was the inter-annotator agreement if multiple annotators were involved? Were there any consistency checks (e.g., comparing against existing annotations in the benchmark database)? The exclusion of "a few exceptionally challenging cases" is mentioned, but the number and criteria are not specified. The claim of being the "largest" dataset also needs a clear comparison with existing resources (e.g., PDBbind, SKEMPI) in terms of unique pairwise interactions.
+  - **Why it matters** The dataset is a primary contribution. If the curation is not validated, the reliability of the dataset and any model trained on it is questionable. The "largest" claim needs to be substantiated with a direct comparison.
+  - **Resolution test** Provide a detailed breakdown of the curation process: number of cases in each category (simple two-chain, multi-chain requiring literature, symmetric complexes), inter-annotator agreement statistics if applicable, and a table comparing the number of unique pairwise interactions in this dataset versus existing resources.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and literature context
+  - **Claim pointer** The claim that "this is the first purely deep learning-based approach for the structure-based prediction of protein-protein binding affinities."
+  - **Evidence pointer** Introduction, last paragraph.
+  - **Concern** This is a strong claim that requires a thorough literature review. The authors mention PRODIGY and PPI-Affinity as prior work, but there are other deep learning methods for PPI binding affinity prediction (e.g., those based on 3D-CNNs, graph transformers, or equivariant networks). The claim of "first purely deep learning-based" needs to be verified against a comprehensive survey of the field. If other deep learning methods exist, the claim should be revised or removed.
+  - **Why it matters** Overclaiming novelty can undermine the credibility of the work. The contribution should be positioned accurately relative to the state of the art.
+  - **Resolution test** Conduct a systematic literature search and either provide evidence that no prior purely deep learning method exists for this specific task or revise the claim to be more specific (e.g., "first to combine ESM-2 embeddings with AttentiveFP for this task").
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of evaluation
+  - **Claim pointer** The use of 5-fold cross-validation and the comparison with PPI-Affinity on the development set.
+  - **Evidence pointer** Results and Discussion, Performance through 5-Fold cross-validation; Table 1 (referenced).
+  - **Concern** The cross-validation is performed on the training set, and the comparison with PPI-Affinity is made against its reported performance on its own development set. This is not a fair comparison. The PPI-Affinity model was not retrained or evaluated on the same data splits. The authors should either retrain PPI-Affinity on their dataset or use a common benchmark for a fair comparison. Additionally, the benchmark test sets (79 and 90 data points) are relatively small; the authors should report confidence intervals or perform statistical tests to ensure the observed differences are not due to chance.
+  - **Why it matters** The evaluation protocol directly affects the validity of the performance claims. An unfair comparison or lack of statistical rigor weakens the conclusions.
+  - **Resolution test** Retrain baseline methods (e.g., PPI-Affinity, PRODIGY) on the same training data and evaluate on the same test splits. Report confidence intervals or perform statistical significance tests for the differences in R and MAE.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Graph construction, edge features
+  - **Evidence pointer** Materials and Methods, Graph construction.
+  - **Issue** The description of edge features is incomplete. The text mentions "onion-like" shells and atom-type pairs, but the exact construction of the edge feature vector (e.g., how the 28 atom-pair types are counted per shell) is not fully specified. The relationship between the intra- and inter-molecular cutoffs and the shell thickness is also unclear.
+  - **Required correction** Provide a more detailed and formal description of the edge feature construction, including equations or pseudocode. Clarify how the shell thickness and cutoffs are chosen and whether they are optimized.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Training details
+  - **Evidence pointer** Materials and Methods, Model training.
+  - **Issue** The training procedure is described briefly. Details such as the number of parameters in the final model, the exact architecture (number of GAT layers, hidden dimensions), the learning rate schedule, and the early stopping criterion are not fully specified. The random seed for data splitting is not mentioned.
+  - **Required correction** Provide a complete description of the model architecture and training hyperparameters. State the random seed used for data splitting and report the variance across different seeds if possible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data processing
+  - **Affected element** Data preparation, filtering
+  - **Evidence pointer** Materials and Methods, Data preparation.
+  - **Issue** The text mentions filtering out entries with DNA/RNA, but it is unclear if other filters were applied (e.g., resolution cutoffs, sequence identity thresholds for redundancy reduction). The final number of entries (2,133) after removing benchmark overlaps is stated, but the overlap removal process is not described in detail.
+  - **Required correction** Describe all filtering steps and the criteria for removing entries that overlap with benchmark sets. Report the number of entries removed at each step.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation of results
+  - **Affected element** Ablation study, Table 3 and Figure 6 (referenced).
+  - **Evidence pointer** Results and Discussion, Ablation study.
+  - **Issue** The ablation study results are only described qualitatively. The text states that Variant A performs worse, and Variant C is comparable to Variant B, but no numerical values are given.
+  - **Required correction** Include the numerical results for all variants in the text or in a table, with standard deviations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Units and conventions
+  - **Affected element** Binding affinity representation
+  - **Evidence pointer** Materials and Methods, Data preparation.
+  - **Issue** The text mentions converting Kd, Ki, and IC50 to pKa, but the equation is not shown in the provided text. The use of pKa (which typically refers to acid dissociation) for binding affinity is unconventional; pKd or pIC50 might be more standard. The conversion to ΔG is described, but the equation is missing.
+  - **Required correction** Show the equations for pKa and ΔG conversion. Consider using pKd to avoid confusion with acid-base chemistry.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing numerical results) and R1-M2 (dataset validation) are blocking. R1-M4 (evaluation protocol) is also critical and should be addressed. R1-M3 (novelty claim) requires revision.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The dataset curation is a valuable and original contribution. The model architecture, while combining existing techniques (ESM-2, GAT, AttentiveFP), is not fundamentally novel. The claim of being "first purely deep learning-based" needs verification.  
+  - **Scientific importance** The problem is important, and a larger, well-curated dataset would be a significant resource. However, the importance of the model itself depends on the demonstrated performance, which is currently not assessable.  
+  - **Interdisciplinary readership** The topic is of interest to structural biologists, computational chemists, and machine learning researchers. The manuscript is written in a way that is accessible to these groups, though some technical details are missing.  
+  - **Technical soundness** The methodology is generally sound in concept, but the lack of numerical results and the incomplete evaluation protocol prevent a full assessment. The dataset curation process needs quantitative validation.  
+  - **Readability for nonspecialists** The manuscript is reasonably well-written and explains concepts clearly. However, the missing equations and incomplete results sections hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The work has potential, but the central claims of superior performance and dataset size cannot be evaluated without the missing tables, figures, and numerical results. The dataset curation needs validation, and the evaluation protocol needs to be made fairer and more rigorous. I would be supportive if these technical concerns are resolved and the evidence is provided.
+
+## Risk / unsupported claims
+- The claim that ProAffinity-GNN "outperforms existing models" is unsupported without the numerical results in Tables 1 and 2.
+- The claim of "strong generalization capabilities" is unsupported without the SKEMPI results.
+- The claim of creating "the largest dataset" is not substantiated with a direct comparison to existing resources.
+- The claim of being "the first purely deep learning-based approach" is not verified against the literature.
+- The statement that the model shows "notable improvement" over PPI-Affinity on the cross-validation set is unsupported without specific values.
+- The ablation study conclusions are unsupported without numerical results.

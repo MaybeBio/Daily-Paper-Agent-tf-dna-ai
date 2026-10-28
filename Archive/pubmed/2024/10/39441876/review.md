@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supporting information references.
+- **Assessment boundary** Evaluation of the methodological benchmarking approach, validity of conclusions, and reproducibility based solely on the provided manuscript content.
+- **Shared manuscript claim summary** The authors benchmark multiple computational methods for identifying differentially-active transcription factors from ATAC-seq data, using curated perturbation datasets and semi-simulations, and identify three top-performing approaches. They also apply these methods to a novel TRAFTAC experiment targeting NFkB.
+- **Visible evidence base** Main text figures (Figs 1-6), supplementary figures referenced (Figs A-R in S1 Appendix), tables (Tables 1-2), and methods descriptions. No raw data, code output, or supplementary files were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1 Appendix, S1 Table) are referenced but not included. Code repository and Zenodo datasets are mentioned but not accessible. Full parameter settings for all methods and detailed statistical outputs are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in epigenomics: how to reliably identify differentially-active transcription factors from ATAC-seq data. The authors conduct a comprehensive benchmark of existing and adapted methods, using both real perturbation datasets and carefully designed semi-simulations. The work is methodologically rigorous, with thoughtful consideration of confounding factors such as GC bias and technical variation. The identification of three promising approaches, including a modified chromVAR-limma workflow, provides practical guidance for the community. However, several technical concerns regarding reproducibility, statistical rigor, and interpretation of results need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or applying epigenomic analysis tools, as well as experimental biologists using ATAC-seq to study transcriptional regulation. The benchmark provides practical recommendations for method selection, and the semi-simulation framework offers a valuable resource for future method validation.
+- **Major strengths** 1) Comprehensive benchmarking across diverse real datasets and controlled semi-simulations. 2) Inclusion of both specialized (chromVAR, monaLisa) and repurposed (VIPER, decoupleR) methods. 3) Careful consideration of technical biases, particularly GC content and fragment length. 4) Novel application to TRAFTAC data demonstrating real-world utility. 5) Transparent discussion of limitations and open questions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that "a chromVAR-limma workflow with critical adjustments" is one of the top-performing methods, but the exact adjustments are not fully specified.
+  - **Evidence pointer** Section 2.3.1, Fig 1
+  - **Concern** The description of the "critical adjustments" to the chromVAR workflow is vague. The authors mention increasing background iterations to 2000 and using limma on z-scores, but other modifications (e.g., specific normalization steps, handling of archetypes) are not clearly detailed. This lack of specificity hinders reproducibility.
+  - **Why it matters** For a benchmarking study, the primary value lies in enabling others to apply the recommended methods. Without precise methodological details, the "adjusted" chromVAR workflow cannot be faithfully reproduced or compared against in future studies.
+  - **Resolution test** Provide a step-by-step protocol for the adjusted chromVAR workflow, including all parameters, normalization steps, and code snippets. Ideally, this should be available as a documented script or vignette in the associated repository.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state that "monaLisa (vsOthers) offered greater sensitivity than other methods, being the only approach marking the true factor for all simulated TFs and paradigms as significant."
+  - **Evidence pointer** Section 3.7, Fig 4C, Fig P in S1 Appendix
+  - **Concern** The claim of "greater sensitivity" is based on a single threshold (adjusted p-value ≤ 0.05) and does not account for multiple testing across the many motifs tested. The authors do not report how many motifs were tested per dataset, nor do they discuss the expected number of false positives under the null. The sensitivity comparison may be confounded by differences in statistical power across methods.
+  - **Why it matters** Sensitivity claims are central to the paper's recommendations. If monaLisa's apparent advantage is due to a more liberal test rather than genuine biological signal, users may be misled. A more rigorous comparison should include calibration plots or false discovery rate estimates under the null.
+  - **Resolution test** Perform a null simulation (no perturbation) for each method and report the distribution of p-values or adjusted p-values. Show that the observed sensitivity at the chosen threshold is not simply due to inflated type I error. Alternatively, report sensitivity across a range of thresholds (e.g., ROC-style analysis).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of results
+  - **Claim pointer** The authors conclude that "the reduction in AP-1 activity that we observe in the NFkB knockdown suggests a cross-talk between these two downstream signaling pathways."
+  - **Evidence pointer** Section 3.8, Fig 5
+  - **Concern** This conclusion is based on a single experiment with limited replication (implied, but not explicitly stated). The observed AP-1 signal could be due to off-target effects of the TRAFTAC construct, indirect effects of NFkB loss on cell state, or technical artifacts. The authors do not provide orthogonal validation (e.g., qPCR, Western blot for AP-1 targets) to support this biological claim.
+  - **Why it matters** The TRAFTAC application is presented as a demonstration of the methods' utility. Over-interpreting a single observation as evidence of pathway cross-talk could mislead readers about the biological robustness of the finding.
+  - **Resolution test** Either temper the conclusion to reflect the preliminary nature of the observation, or provide additional experimental validation (e.g., RNA-seq or qPCR for known AP-1 target genes) to support the cross-talk hypothesis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** The authors state that "we include both methods specifically designed for this type of data as well as some that can be repurposed for it."
+  - **Evidence pointer** Section 2.3
+  - **Concern** The selection of methods is not justified. Several recent methods for TF activity inference from ATAC-seq (e.g., HINT-ATAC, TFEA) are not included, and the authors do not explain why these were omitted. Additionally, the choice of "default" parameters for each method is not consistently justified.
+  - **Why it matters** A benchmark is only as comprehensive as its method list. Omitting well-established methods without justification weakens the claim that the identified top performers are truly the best available.
+  - **Resolution test** Add a paragraph in the Methods or Discussion justifying the method selection, including criteria for inclusion/exclusion. If feasible, add at least one or two additional methods to the benchmark to strengthen the conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract mentions "a combination of GC smooth quantile normalization and multivariate modeling" as one of the top approaches, but the specific method name (GC>fastMLM>limma) is not introduced until later in the text.
+  - **Required correction** Introduce the method name in the abstract or rephrase to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The description of preprocessing for the SpearATAC-seq datasets is incomplete. The authors mention "processed object" and "fragment file" but do not specify the exact software versions or parameters for merging fragments and creating pseudobulk samples.
+  - **Required correction** Provide a more detailed protocol, including software versions and commands, or refer to a specific script in the repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The description of the "network score" and "archetype score" is clear, but the authors do not report the number of interactors or archetypes used for each dataset, which could affect the interpretation of these metrics.
+  - **Required correction** Add a supplementary table listing the number of interactors and archetypes per dataset.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Fig 2A
+  - **Evidence pointer** Fig 2A
+  - **Issue** The precision-recall plot is informative, but the authors do not specify how "precision" is defined when multiple motifs are considered true positives (e.g., for ESR1/ESR2 or MYC/MAX).
+  - **Required correction** Clarify the definition of true positives in the figure legend or Methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.8
+  - **Evidence pointer** Section 3.8
+  - **Issue** The TRAFTAC experiment is described, but the number of replicates and the statistical test used for differential accessibility are not explicitly stated.
+  - **Required correction** Add details on experimental design and statistical analysis for the TRAFTAC dataset.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of precise methodological details for the adjusted chromVAR workflow (R1-M1). 2) Insufficient statistical calibration analysis to support sensitivity claims (R1-M2). 3) Over-interpretation of a single TRAFTAC experiment (R1-M3). 4) Incomplete justification of method selection (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The work is original in its comprehensive benchmarking approach and the introduction of a semi-simulation framework, though individual methods are not novel. Scientific importance: High, as it addresses a common analytical question with practical implications for many researchers. Interdisciplinary readership: Moderate, primarily relevant to computational biologists and epigenomics researchers, but the TRAFTAC application may attract a broader cell biology audience. Technical soundness: Generally strong, but concerns about statistical calibration and reproducibility need to be addressed. Readability for nonspecialists: The manuscript is well-written and accessible, with clear explanations of complex methods, though some sections (e.g., multivariate modeling) may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core benchmarking effort is valuable and the conclusions are likely to be robust, but the manuscript requires revisions to ensure reproducibility, strengthen statistical rigor, and temper over-interpretation of biological findings.
+
+## Risk / unsupported claims
+- The claim that the adjusted chromVAR workflow is "top-performing" is not fully reproducible due to vague methodological descriptions.
+- The sensitivity advantage of monaLisa is not supported by calibration analysis under the null hypothesis.
+- The biological conclusion about NFkB-AP1 cross-talk is based on a single experiment without orthogonal validation.
+- The statement that "the top methods were specifically designed for chromatin data" is an overgeneralization, as some top performers (e.g., GC>fastMLM>limma) are repurposed from other domains.
+- The semi-simulation results are presented as confirming real-data findings, but the simulation assumptions (e.g., relationship between binding and accessibility) are not fully validated against real data.

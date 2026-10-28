@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors state that Deep Targeted Discrimination Analysis (DeepTDA) was used to design collective variables (CVs) for enhanced sampling simulations of the binding of a cyclic peptide, L22, to the TAR RNA of HIV. These CVs were applied in on-the-fly probability-based enhanced sampling and well-tempered metadynamics simulations, yielding multiple reversible binding and unbinding events and enabling calculation of the free energy surface for the peptide binding process. The authors conclude that DeepTDA shows potential for designing CVs for complex biomolecular recognition processes.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, convergence criteria, free energy surface plots, error estimates, and any comparison with conventional CV-based approaches
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible application of a recently developed deep learning method, DeepTDA, to a challenging biomolecular recognition problem, namely peptide-RNA binding. The choice of system, the HIV TAR RNA with a cyclic peptide, is of biological relevance, and the methodological motivation is clearly articulated. However, the abstract provides no quantitative evidence to support the central claims. Key details such as the number of binding and unbinding events, the free energy estimates, the convergence of the simulations, and the validation of the learned CVs are entirely absent. As such, the scientific case is not established from the supplied material, and the abstract reads more as a programmatic statement than a report of completed and verified findings.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and chemistry, particularly those working on enhanced sampling methods, machine learning for molecular simulations, and RNA-ligand interactions. The work could also interest experimental groups studying HIV TAR RNA as a drug target, as improved simulation methods for peptide-RNA binding may inform therapeutic design. The methodological angle, applying DeepTDA to a flexible host-guest system, would attract method developers in the deep learning for molecular simulation community.
+- **Major strengths** The problem is well motivated, and the choice of DeepTDA is appropriate given the difficulty of selecting CVs for flexible host-guest systems. The use of two complementary enhanced sampling techniques, on-the-fly probability-based enhanced sampling and well-tempered metadynamics, is a reasonable strategy to cross-validate results. The system is of clear biological and pharmacological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the enhanced sampling simulations revealed multiple binding and unbinding events, which enabled the calculation of the free energy surface for the peptide binding process.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data on the number of binding and unbinding events, the free energy values, the error bars, or the convergence of the simulations. Without these, the claim that the free energy surface was calculated is unsupported.
+  - **Why it matters** The central scientific contribution of the work, namely that DeepTDA-based CVs enable reliable sampling of peptide-RNA binding, rests on the demonstration that the simulations are converged and that the free energy surface is accurate. The absence of any numerical evidence makes the claim unverifiable.
+  - **Resolution test** Provide the number of observed binding and unbinding events, the free energy difference between bound and unbound states with associated uncertainties, and convergence metrics such as time evolution of free energy estimates or CV distributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** The authors imply that the DeepTDA-designed CVs are effective for this system, as they were used in enhanced sampling simulations that sampled reversible binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No validation of the learned CVs is presented. It is unclear whether the CVs distinguish the bound and unbound states as intended, whether they capture the relevant conformational changes of both the peptide and the RNA, and whether they are free of artifacts such as hysteresis or dependence on initial conditions.
+  - **Why it matters** The effectiveness of DeepTDA is the methodological premise of the work. Without validation, the reader cannot assess whether the observed binding events are a genuine feature of the system or an artifact of poorly designed CVs.
+  - **Resolution test** Show that the CVs separate the metastable states in unbiased simulations, compare the free energy surface with results from independent methods or experimental binding affinities, and test the sensitivity of the results to the training data and hyperparameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that DeepTDA was employed to design CVs and that these were used in specific enhanced sampling methods.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation details are given, including the force field, the RNA and peptide starting structures, the length of the simulations, the number of replicas, the bias parameters, or the DeepTDA training protocol. These details are essential for reproducing the work.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of these details prevents other groups from repeating the simulations or assessing the robustness of the approach.
+  - **Resolution test** Provide a full methods section with all simulation parameters, software versions, and training details, and make the input files and trajectories available where possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "on-the-fly probability-based enhanced sampling" is used without a citation or brief explanation. This method may not be familiar to all readers.
+  - **Required correction** Add a citation and a one-sentence description of the method, or use a more commonly recognized name if applicable.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final sentence claims that the results "demonstrate the potential of the DeepTDA method for designing CVs to study complex biomolecular recognition processes." This is a broad claim based on a single system.
+  - **Required correction** Soften the claim to reflect that this is a single case study, and suggest that further validation on diverse systems is needed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with existing methods
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No comparison is made with conventional CV choices or other machine learning-based CV methods for this system.
+  - **Required correction** Include a brief statement in the abstract or main text on how the DeepTDA-based CVs perform relative to standard approaches, such as RMSD-based or contact-based CVs.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, validation of the CVs, and simulation details collectively prevent the case from being established.
+
+## Risk / unsupported claims
+- The claim that "multiple binding and unbinding events" were observed is unsupported without numerical counts or representative trajectories.
+- The claim that a "free energy surface" was calculated is unsupported without plots, free energy differences, or error estimates.
+- The claim that DeepTDA "demonstrates potential" for complex biomolecular recognition is a general statement that cannot be evaluated from a single system without validation.
+- The effectiveness of the DeepTDA-designed CVs is not assessable from the abstract alone, as no comparison with unbiased simulations or alternative CVs is provided.

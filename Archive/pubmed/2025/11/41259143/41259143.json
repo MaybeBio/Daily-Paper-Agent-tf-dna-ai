@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "41259143",
+    "doi": "10.1073/pnas.2509312122",
+    "title": "Glutathionylated DNA adducts accumulate in mitochondrial DNA and are regulated by AP endonuclease 1 and tyrosyl-DNA phosphodiesterase 1."
+  },
+  "content": {
+    "abstract": "Mitochondrial DNA (mtDNA) is crucial for cellular energy production, metabolism, and signaling. Its dysfunction is implicated in various diseases, including mitochondrial disorders, neurodegeneration, and diabetes. mtDNA is susceptible to damage by endogenous and environmental factors; however, unlike nuclear DNA (nDNA), mtDNA lesions do not necessarily lead to an increased mutation load in mtDNA. Instead, mtDNA lesions have been implicated in innate immunity and inflammation. Here, we report a type of mtDNA damage: glutathionylated DNA (GSH-DNA) adducts. These adducts are formed from abasic (AP) sites, key intermediates in base excision repair, or from alkylation DNA damage. Using mass spectrometry, we quantified the GSH-DNA lesion in both nDNA and mtDNA and found its significant accumulation in mtDNA of two different human cell lines, with levels one or two orders of magnitude higher than in nDNA. The formation of GSH-DNA adducts is influenced by TFAM and polyamines, and their levels are regulated by repair enzymes AP endonuclease 1 (APE1) and tyrosyl-DNA phosphodiesterase 1 (TDP1). The accumulation of GSH-DNA adducts is associated with the downregulation of several ribosomal and complex I subunit proteins and the upregulation of proteins related to redox balance and mitochondrial dynamics. Molecular dynamics (MD) simulations revealed that the GSH-DNA lesion stabilizes the TFAM-DNA binding, suggesting shielding effects from mtDNA transactions. Collectively, this study provides critical insights into the formation, regulation, and biological effects of GSH-DNA adducts in mtDNA. Our findings underscore the importance of understanding how these lesions may contribute to innate immunity and inflammation.",
+    "keywords": [
+      "DNA damage",
+      "DNA repair",
+      "GSH",
+      "PRDX6",
+      "TFAM"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA, Mitochondrial/metabolism/genetics/chemistry",
+      "*DNA Adducts/metabolism/genetics",
+      "*DNA-(Apurinic or Apyrimidinic Site) Lyase/metabolism/genetics",
+      "*Phosphoric Diester Hydrolases/metabolism/genetics",
+      "*Glutathione/metabolism",
+      "DNA Damage",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "DNA Repair",
+      "Transcription Factors/metabolism/genetics",
+      "Mitochondria/metabolism/genetics",
+      "Mitochondrial Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yu Hsuan",
+        "Esparza Sanchez, Martin",
+        "Hung, Ta I",
+        "Tang, Jin",
+        "Xu, Wenyan",
+        "Yin, Jiekai",
+        "Wang, Yinsheng",
+        "Chang, Chia-En A",
+        "Zhang, Huimin",
+        "Chen, Junjie",
+        "Zhao, Linlin"
+      ],
+      "short_names": [
+        "Chen YH",
+        "Esparza Sanchez M",
+        "Hung TI",
+        "Tang J",
+        "Xu W",
+        "Yin J",
+        "Wang Y",
+        "Chang CA",
+        "Zhang H",
+        "Chen J",
+        "Zhao L"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-4622-5031",
+        "ORCID: 0009-0009-9735-1168",
+        "ORCID: 0009-0008-9702-3829",
+        "ORCID: 0000-0002-3844-6484",
+        "ORCID: 0000-0003-2034-2828",
+        "ORCID: 0000-0001-5565-283X",
+        "ORCID: 0000-0002-6504-8529",
+        "ORCID: 0000-0002-1493-2189",
+        "ORCID: 0000-0002-8821-4198"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Environmental Toxicology Graduate Program, University of California, Riverside, CA 92521.",
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Environmental Toxicology Graduate Program, University of California, Riverside, CA 92521.",
+        "Department of Experimental Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030.",
+        "Department of Experimental Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030.",
+        "Department of Chemistry, University of California, Riverside, CA 92521.",
+        "Environmental Toxicology Graduate Program, University of California, Riverside, CA 92521."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yu Hsuan",
+        "short_name": "Chen YH",
+        "identifiers": [
+          "0009-0005-4622-5031"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521."
+        ]
+      },
+      {
+        "full_name": "Esparza Sanchez, Martin",
+        "short_name": "Esparza Sanchez M",
+        "identifiers": [
+          "0009-0009-9735-1168"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521."
+        ]
+      },
+      {
+        "full_name": "Hung, Ta I",
+        "short_name": "Hung TI",
+        "identifiers": [
+          "0009-0008-9702-3829"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521."
+        ]
+      },
+      {
+        "full_name": "Tang, Jin",
+        "short_name": "Tang J",
+        "identifiers": [
+          "0000-0002-3844-6484"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenyan",
+        "short_name": "Xu W",
+        "identifiers": [
+          "0000-0003-2034-2828"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521."
+        ]
+      },
+      {
+        "full_name": "Yin, Jiekai",
+        "short_name": "Yin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521."
+        ]
+      },
+      {
+        "full_name": "Wang, Yinsheng",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-5565-283X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521.",
+          "Environmental Toxicology Graduate Program, University of California, Riverside, CA 92521."
+        ]
+      },
+      {
+        "full_name": "Chang, Chia-En A",
+        "short_name": "Chang CA",
+        "identifiers": [
+          "0000-0002-6504-8529"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521.",
+          "Environmental Toxicology Graduate Program, University of California, Riverside, CA 92521."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huimin",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Experimental Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Chen, Junjie",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-1493-2189"
+        ],
+        "affiliations": [
+          "Department of Experimental Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Zhao, Linlin",
+        "short_name": "Zhao L",
+        "identifiers": [
+          "0000-0002-8821-4198"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA 92521.",
+          "Environmental Toxicology Graduate Program, University of California, Riverside, CA 92521."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 18:27",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [
+      "42246514",
+      "42051540"
+    ],
+    "refs": [
+      "39914164",
+      "39607700",
+      "39494541",
+      "38779772",
+      "38432635",
+      "38347148",
+      "37601565",
+      "37293974",
+      "36815695",
+      "36797275",
+      "36583367",
+      "36381197",
+      "36332130",
+      "35947695",
+      "35869071",
+      "35835107",
+      "35612610",
+      "35533204",
+      "35129338",
+      "34707288",
+      "34088564",
+      "32486637",
+      "32417669",
+      "31627882",
+      "31627879",
+      "31413200",
+      "30002158",
+      "29950568",
+      "29712893",
+      "28415858",
+      "27550180",
+      "27023847",
+      "26560306",
+      "26283391",
+      "26055793",
+      "25111769",
+      "24675282",
+      "24369694",
+      "23991223",
+      "23747014",
+      "23721969",
+      "23637283",
+      "23629515",
+      "22037172",
+      "21948790",
+      "21865600",
+      "20065039",
+      "19558212",
+      "17581862",
+      "17173371",
+      "16263714",
+      "15811850",
+      "14982943",
+      "12624104",
+      "12023295",
+      "9171104",
+      "6941276",
+      "6148944",
+      "3608940",
+      "3263620",
+      "3211148",
+      "2460081",
+      "320196"
+    ],
+    "similar": [
+      "41259143",
+      "38963041",
+      "39607700",
+      "40660915",
+      "24161509",
+      "31413200",
+      "15107486",
+      "26268226",
+      "27129632",
+      "38492429",
+      "22084197",
+      "35349719",
+      "27687298",
+      "12024022",
+      "22709585",
+      "36583367",
+      "36930463",
+      "31816044",
+      "20446108",
+      "33197464",
+      "9488440",
+      "20739229",
+      "28065385",
+      "28242328",
+      "40621827",
+      "33465003",
+      "41257340",
+      "28508041",
+      "32460231",
+      "22580151",
+      "26013813",
+      "29730300",
+      "41463362",
+      "29097205",
+      "31723605",
+      "37850658",
+      "27262192",
+      "38087167",
+      "24667595",
+      "31226795",
+      "11554302",
+      "24754999",
+      "39763436",
+      "21041670",
+      "26762090",
+      "21276450",
+      "19428378",
+      "22822062",
+      "33028238",
+      "33505969",
+      "24209961",
+      "22465614",
+      "19197988",
+      "26165189",
+      "37612054",
+      "18166975",
+      "17685223",
+      "24345202",
+      "18635552",
+      "26893822",
+      "22375014",
+      "22992591",
+      "26335988",
+      "39611328",
+      "29929044",
+      "22024594",
+      "23898172",
+      "15509786",
+      "27994014",
+      "20544882",
+      "30242167",
+      "39438191",
+      "29475157",
+      "31226203",
+      "39743698",
+      "14697759",
+      "19496804",
+      "33515431",
+      "30359878",
+      "22841870",
+      "22522093",
+      "25609251",
+      "28360037",
+      "27231905",
+      "32998246",
+      "26134573",
+      "35163779",
+      "27682167",
+      "18263880",
+      "40120895",
+      "15126284",
+      "38797339",
+      "23786028",
+      "34445469",
+      "25847267",
+      "30633249",
+      "35297620",
+      "35044663",
+      "21575134",
+      "37293974"
+    ],
+    "review": [
+      "41259143",
+      "24161509",
+      "31816044",
+      "40621827",
+      "38087167",
+      "31226795",
+      "11554302",
+      "24754999",
+      "26762090",
+      "22465614",
+      "18166975",
+      "17685223",
+      "22992591",
+      "20544882",
+      "39438191",
+      "27682167"
+    ],
+    "pmc": [
+      "12663966"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2509312122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41259143/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-APEX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-23",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

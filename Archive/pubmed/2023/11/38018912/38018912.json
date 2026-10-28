@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "38018912",
+    "doi": "10.1093/bib/bbad428",
+    "title": "Characterization on the oncogenic effect of the missense mutations of p53 via machine learning."
+  },
+  "content": {
+    "abstract": "Dysfunctions caused by missense mutations in the tumour suppressor p53 have been extensively shown to be a leading driver of many cancers. Unfortunately, it is time-consuming and labour-intensive to experimentally elucidate the effects of all possible missense variants. Recent works presented a comprehensive dataset and machine learning model to predict the functional outcome of mutations in p53. Despite the well-established dataset and precise predictions, this tool was trained on a complicated model with limited predictions on p53 mutations. In this work, we first used computational biophysical tools to investigate the functional consequences of missense mutations in p53, informing a bias of deleterious mutations with destabilizing effects. Combining these insights with experimental assays, we present two interpretable machine learning models leveraging both experimental assays and in silico biophysical measurements to accurately predict the functional consequences on p53 and validate their robustness on clinical data. Our final model based on nine features obtained comparable predictive performance with the state-of-the-art p53 specific method and outperformed other generalized, widely used predictors. Interpreting our models revealed that information on residue p53 activity, polar atom distances and changes in p53 stability were instrumental in the decisions, consistent with a bias of the properties of deleterious mutations. Our predictions have been computed for all possible missense mutations in p53, offering clinical diagnostic utility, which is crucial for patient monitoring and the development of personalized cancer treatment.",
+    "keywords": [
+      "machine learning analysis",
+      "missense mutation",
+      "p53",
+      "protein structure"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation, Missense",
+      "Tumor Suppressor Protein p53/genetics",
+      "Mutation",
+      "*Neoplasms/genetics",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Qisheng",
+        "Portelli, Stephanie",
+        "Nguyen, Thanh Binh",
+        "Ascher, David B"
+      ],
+      "short_names": [
+        "Pan Q",
+        "Portelli S",
+        "Nguyen TB",
+        "Ascher DB"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2948-2413"
+      ],
+      "affiliations": [
+        "School of Chemistry and Molecular Bioscience, University of Queensland, Brisbane Queensland 4072, Australia.",
+        "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne Victoria 3004, Australia.",
+        "School of Chemistry and Molecular Bioscience, University of Queensland, Brisbane Queensland 4072, Australia.",
+        "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne Victoria 3004, Australia.",
+        "School of Chemistry and Molecular Bioscience, University of Queensland, Brisbane Queensland 4072, Australia.",
+        "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne Victoria 3004, Australia.",
+        "School of Chemistry and Molecular Bioscience, University of Queensland, Brisbane Queensland 4072, Australia.",
+        "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne Victoria 3004, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Qisheng",
+        "short_name": "Pan Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Molecular Bioscience, University of Queensland, Brisbane Queensland 4072, Australia.",
+          "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne Victoria 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Portelli, Stephanie",
+        "short_name": "Portelli S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Molecular Bioscience, University of Queensland, Brisbane Queensland 4072, Australia.",
+          "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne Victoria 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Thanh Binh",
+        "short_name": "Nguyen TB",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Molecular Bioscience, University of Queensland, Brisbane Queensland 4072, Australia.",
+          "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne Victoria 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Ascher, David B",
+        "short_name": "Ascher DB",
+        "identifiers": [
+          "0000-0003-2948-2413"
+        ],
+        "affiliations": [
+          "School of Chemistry and Molecular Bioscience, University of Queensland, Brisbane Queensland 4072, Australia.",
+          "Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne Victoria 3004, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Nov 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/29 12:42",
+    "fetched_at": "2026-09-29 11:18:39"
+  },
+  "links": {
+    "cites": [
+      "41642195",
+      "40796919",
+      "40751491",
+      "40463096",
+      "39276018"
+    ],
+    "refs": [
+      "37733863",
+      "37563329",
+      "37550700",
+      "36675980",
+      "36180205",
+      "35948006",
+      "35729312",
+      "35341741",
+      "35189634",
+      "35043155",
+      "34861178",
+      "34850941",
+      "34667533",
+      "34530752",
+      "34265844",
+      "34144191",
+      "34141133",
+      "34050760",
+      "33579943",
+      "33435356",
+      "33325500",
+      "33300245",
+      "33263541",
+      "33230179",
+      "33093532",
+      "32881105",
+      "32873579",
+      "32739866",
+      "32607472",
+      "32601264",
+      "32432715",
+      "32158625",
+      "31170280",
+      "31114883",
+      "30337649",
+      "30224644",
+      "30057026",
+      "29979965",
+      "29718330",
+      "29226803",
+      "29165669",
+      "29099487",
+      "28525590",
+      "28383703",
+      "28270529",
+      "27964945",
+      "27754743",
+      "27322406",
+      "26110438",
+      "25883149",
+      "25851949",
+      "25801821",
+      "25794615",
+      "25741868",
+      "24829462",
+      "24281696",
+      "24132290",
+      "24071849",
+      "23986568",
+      "23747015",
+      "23594441",
+      "23315928",
+      "22509031",
+      "21071423",
+      "20404322",
+      "20393554",
+      "20003500",
+      "19304878",
+      "17360476",
+      "17311302",
+      "16278824",
+      "15072433",
+      "12952892",
+      "12826609",
+      "12619103",
+      "12007217",
+      "11696333",
+      "11557844",
+      "11342709",
+      "11337480",
+      "11254392",
+      "11151013",
+      "10940251",
+      "10710310",
+      "9847231",
+      "9405613",
+      "9254694",
+      "8875929",
+      "8580842",
+      "8276238",
+      "8254673",
+      "8035799",
+      "8023157",
+      "7958916",
+      "7878469",
+      "7859740",
+      "6667333",
+      "6100188",
+      "1905840",
+      "1423616"
+    ],
+    "similar": [
+      "38018912",
+      "35043155",
+      "39276018",
+      "34058752",
+      "24687952",
+      "37373306",
+      "31216622",
+      "35729312",
+      "28446506",
+      "18550490",
+      "25378323",
+      "14519637",
+      "30417935",
+      "37201251",
+      "16395672",
+      "26269570",
+      "37817080",
+      "39140857",
+      "12606942",
+      "30253099",
+      "39253604",
+      "35809339",
+      "12826609",
+      "21285512",
+      "37883464",
+      "17073727",
+      "9766574",
+      "29069390",
+      "31645443",
+      "28052007",
+      "28270093",
+      "30496442",
+      "26402258",
+      "36220282",
+      "36522371",
+      "37598215",
+      "17208429",
+      "31202631",
+      "34768775",
+      "27517620",
+      "16173033",
+      "22028641",
+      "30037003",
+      "38460939",
+      "38211594",
+      "26200835",
+      "38135759",
+      "18465328",
+      "20407015",
+      "39333476",
+      "27836911",
+      "11156366",
+      "38084013",
+      "29527478",
+      "23819521",
+      "37897811",
+      "27347849",
+      "27003724",
+      "37723592",
+      "31395785",
+      "24233781",
+      "38802532",
+      "14745729",
+      "16522644",
+      "31693276",
+      "29099487",
+      "20656489",
+      "34599296",
+      "12619119",
+      "36575568",
+      "32748433",
+      "10606233",
+      "30180862",
+      "19654296",
+      "19881536",
+      "24100332",
+      "20978130",
+      "37550700",
+      "17311302",
+      "38743747",
+      "27043210",
+      "16969499",
+      "19671129",
+      "15865939",
+      "37380723",
+      "19097939",
+      "10064694",
+      "24662829",
+      "14573481",
+      "35383292",
+      "35887312",
+      "29226803",
+      "23772609",
+      "10499623",
+      "11287278",
+      "19806023",
+      "10554037",
+      "22551440",
+      "27341992",
+      "17294448",
+      "1631137",
+      "17401430",
+      "20113312",
+      "17401426",
+      "37332013",
+      "39349509",
+      "35189634",
+      "39192324",
+      "38508191",
+      "34136829",
+      "39075588",
+      "38234851",
+      "37945793",
+      "39166462"
+    ],
+    "review": [
+      "38018912",
+      "18550490",
+      "35809339",
+      "30496442",
+      "17208429",
+      "30037003",
+      "27836911",
+      "11156366",
+      "27003724",
+      "29099487",
+      "20656489",
+      "12619119",
+      "15865939",
+      "35383292",
+      "17401430"
+    ],
+    "pmc": [
+      "10685404"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38018912.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38018912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38018912",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad428",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

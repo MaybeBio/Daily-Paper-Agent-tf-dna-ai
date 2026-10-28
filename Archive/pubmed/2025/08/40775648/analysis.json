@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40775648",
+  "title": "Integrative multiomics analysis reveals the subtypes and key mechanisms of platinum resistance in gastric cancer: identification of KLF9 as a promising therapeutic target.",
+  "authors": "Zhang, Pengcheng; Wang, Lexin; Lin, Haonan; Han, Yihui; Zhou, Jingfang; Song, Hang; Wang, Peng; Tan, Huanhuan; Fu, Yajuan",
+  "journal": "Journal of translational medicine",
+  "published_date": "2025-08-08",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过多组学整合和机器学习对胃癌铂耐药进行分型，虽涉及转录因子KLF9，但核心是耐药分型与临床关联，未聚焦TF-DNA结合或互作机制建模，方法上仅用机器学习预测，无AI/物理模拟的互作建模。",
+  "abstract": "BACKGROUND: Gastric cancer (GC) is characterized by significant intertumoral heterogeneity, which often leads to the development of resistance to platinum-based chemotherapy. Combining platinum drugs with other therapeutic strategies may improve treatment efficacy; however, the mechanisms underlying platinum resistance in GC remain unclear. METHODS: Key genes related to platinum resistance in GC were selected from the platinum resistance gene database and GC resistance datasets. The Similarity Network Fusion (SNF) algorithm was employed, along with prognosis-related methylation data and somatic mutation data, to classify the molecular subtypes of GC based on GC platinum resistance genes. Gene expression profiles, prognosis, immune cell infiltration, chemotherapy sensitivity, and immunotherapy responsiveness were comprehensively evaluated for each subtype. Localization and functional evaluation were conducted at the single-cell and spatial transcriptomics levels, and predictive models were developed using machine learning techniques. These functional differences in platinum resistance gene models were further explored in GC. Moreover, experimental validation was conducted to elucidate the mechanisms of key genes involved in platinum resistance in GC. RESULTS: Stomach adenocarcinoma (STAD) patients were classified into three subtypes using the SNF algorithm and multiomics data. Patients with subtype CS2 exhibited a significantly poorer prognosis than those with subtypes CS1 and CS3 (p < 0.05). Subtype CS1 was characterized as immune-deprived, CS2 as stroma-enriched, and CS3 as immune-enriched. Patients with subtype CS2 also exhibited the most adverse therapeutic responses to docetaxel, cisplatin, and gemcitabine. Single-cell analysis revealed high enrichment of M1 module cells with elevated expression of resistance genes, including the transcription factor KLF9. Spatial transcriptomic analysis further confirmed the independent spatial distribution of malignant cells with high expression of drug resistance genes (DRGs). Predictive models based on machine learning demonstrated excellent prognostic performance. Patients in the high DRG group also exhibited poorer responses to immunotherapy. Cellular experiments revealed that KLF9 overexpression significantly inhibited the proliferation of AGS cells (p < 0.05), reduced their resistance to platinum-based drugs, and markedly decreased the levels of inflammatory cytokines in them. CONCLUSION: KLF9 was identified as a promising therapeutic target for overcoming platinum resistance in GC, warranting further investigation into its role and potential clinical applications.",
+  "abstract_zh": "背景：胃癌（Gastric cancer, GC）以显著的肿瘤间异质性为特征，这常导致对铂类化疗药物产生耐药性。将铂类药物与其他治疗策略联合可能提高疗效；然而，GC中铂类耐药的内在机制仍不清楚。方法：从铂类耐药基因数据库和GC耐药数据集中筛选与GC铂类耐药相关的关键基因。采用相似性网络融合（Similarity Network Fusion, SNF）算法，结合预后相关甲基化数据和体细胞突变数据，基于GC铂类耐药基因对GC进行分子亚型分类。对各亚型的基因表达谱、预后、免疫细胞浸润、化疗敏感性和免疫治疗反应性进行全面评估。在单细胞和空间转录组水平进行定位和功能评价，并利用机器学习技术开发预测模型。进一步在GC中探讨铂类耐药基因模型的功能差异。此外，通过实验验证阐明GC中关键基因参与铂类耐药的机制。结果：使用SNF算法和多组学数据将胃腺癌（Stomach adenocarcinoma, STAD）患者分为三个亚型。CS2亚型患者的预后显著差于CS1和CS3亚型（p < 0.05）。CS1亚型特征为免疫贫乏型，CS2为基质富集型，CS3为免疫富集型。CS2亚型患者对多西他赛、顺铂和吉西他滨的治疗反应也最差。单细胞分析显示，M1模块细胞高度富集，且耐药基因（包括转录因子KLF9）表达升高。空间转录组分析进一步证实了高表达耐药基因（drug resistance genes, DRGs）的恶性细胞具有独立的空间分布。基于机器学习的预测模型表现出优异的预后性能。高DRG组患者对免疫治疗的反应也较差。细胞实验显示，KLF9过表达显著抑制AGS细胞增殖（p < 0.05），降低其对铂类药物的耐药性，并显著减少细胞中炎症细胞因子水平。结论：KLF9被确定为克服GC铂类耐药的有前景的治疗靶点，值得进一步研究其作用和潜在临床应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40775648/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40775648/",
+  "paper_page_path": "papers/pubmed/40775648/index.html"
+}

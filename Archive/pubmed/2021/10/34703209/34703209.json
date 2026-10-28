@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "34703209",
+    "doi": "10.2147/DDDT.S322502",
+    "title": "Triptolide is a Promising Therapeutic Approach in Treating Thyroid Cancer Based on in silico and in vitro Experiment."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Thyroid cancer is a familiar kind of cancer. Natural products are promising therapeutic approaches in treating thyroid cancer. Triptolide is a diterpenoid epoxide extracted from Tripterygium wilfordii. The mechanism of triptolide in the treatment of thyroid cancer has not been investigated clearly. METHODS: We evaluated triptolide targets and thyroid cancer targets with related databases. The protein-protein interaction (PPI) networks of the triptolide targets and thyroid cancer targets were constructed with Cytoscape software. Gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses of the core PPI network were obtained. Molecular docking analysis was used to evaluated the binding of triptolide with core targets. Furthermore, apoptosis assays, real-time polymerase chain reaction (RT-PCR) and Western blotting were used to evaluate the anticancer functions of triptolide. RESULTS: Triptolide had 34 targets, and thyroid cancer had 210 targets. The core PPI network of merged PPI networks had 164 nodes and 4513 edges. GO and KEGG enrichment analyses showed that triptolide were related to the cell cycle, apoptosis, and inflammatory signaling pathways. Molecular docking analysis showed that triptolide directly reacted with four core targets: cyclin-dependent kinase inhibitor 1A (CDKN1A), c-JUN, RELA, and tumor protein p53 (TP53). CB-Dock analysis indicated that triptolide could stably bind to core targets. Triptolide inhibited the growth but induced apoptosis of thyroid cancer cells. Triptolide increased the mRNA expression of CDKN1A and TP53 but reduced the mRNA expression of c-JUN and RELA, as shown by RT-PCR. Triptolide increased the protein levels of CDKN1A and phospho-p53 but reduced those of phospho-c-JUN and phospho-NF-kappaB p65, as shown by Western blotting. DISCUSSION: We considered that triptolide could treat thyroid cancer by inhibiting cell proliferation, inducing apoptosis and inhibiting inflammatory pathways such as the NF-kappaB and MAPK signaling pathways. CDKN1A, c-JUN, RELA, and TP53 were involved in the antithyroid cancer mechanism of triptolide.",
+    "keywords": [
+      "apoptosis",
+      "inflammation",
+      "molecular docking",
+      "thyroid cancer",
+      "triptolide"
+    ],
+    "mesh_terms": [
+      "Antineoplastic Agents, Alkylating/*pharmacology",
+      "Apoptosis/*drug effects",
+      "Cell Line, Tumor",
+      "Diterpenes/*pharmacology",
+      "Epoxy Compounds/pharmacology",
+      "Humans",
+      "MAP Kinase Signaling System/drug effects",
+      "Molecular Docking Simulation",
+      "NF-kappa B/metabolism",
+      "Phenanthrenes/*pharmacology",
+      "Protein Interaction Maps",
+      "Thyroid Neoplasms/*drug therapy/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Fang",
+        "An, Shu-Jing",
+        "Yin, Yirong",
+        "Li, Juan-Juan",
+        "Sun, Chun-Hui",
+        "Lan, Jie",
+        "Zhao, Wen-Juan",
+        "Li, Cheng-Qian"
+      ],
+      "short_names": [
+        "Wang F",
+        "An SJ",
+        "Yin Y",
+        "Li JJ",
+        "Sun CH",
+        "Lan J",
+        "Zhao WJ",
+        "Li CQ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China.",
+        "Department of Oral Surgery, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China.",
+        "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China.",
+        "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China.",
+        "Department of Endocrinology, The Third People's Hospital of Qingdao Affiliated to Qingdao University, Qingdao, 266003, People's Republic of China.",
+        "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China.",
+        "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China.",
+        "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Fang",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "An, Shu-Jing",
+        "short_name": "An SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Surgery, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yin, Yirong",
+        "short_name": "Yin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Juan-Juan",
+        "short_name": "Li JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Chun-Hui",
+        "short_name": "Sun CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The Third People's Hospital of Qingdao Affiliated to Qingdao University, Qingdao, 266003, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lan, Jie",
+        "short_name": "Lan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Wen-Juan",
+        "short_name": "Zhao WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Cheng-Qian",
+        "short_name": "Li CQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The Affiliated Hospital of Qingdao University, Qingdao, 266003, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/28 06:00",
+    "fetched_at": "2026-09-28 01:14:33"
+  },
+  "links": {
+    "cites": [
+      "42638573",
+      "42198406",
+      "42049851",
+      "41845509",
+      "40490812",
+      "39519020",
+      "39091932",
+      "38678240",
+      "38189054",
+      "37954148"
+    ],
+    "refs": [
+      "33538338",
+      "32409139",
+      "32203277",
+      "31885322",
+      "31866868",
+      "31652660",
+      "31121546",
+      "30975442",
+      "30956264",
+      "30824861",
+      "30792387",
+      "30717895",
+      "30655165",
+      "30648461",
+      "29491837",
+      "29379212",
+      "29149101",
+      "29102432",
+      "28629126",
+      "28506407",
+      "28127048",
+      "28098861",
+      "27240885",
+      "27033256",
+      "26298168",
+      "24045534",
+      "23774098",
+      "19854299",
+      "19238148",
+      "19158360"
+    ],
+    "similar": [
+      "34703209",
+      "34926700",
+      "33573560",
+      "17970088",
+      "27470546",
+      "19885592",
+      "28892788",
+      "29428961",
+      "11753684",
+      "35132912",
+      "34213719",
+      "26420756",
+      "31972422",
+      "26575184",
+      "27239780",
+      "22799376",
+      "24175808",
+      "24880464",
+      "30111354",
+      "32013860",
+      "20878065",
+      "31756335",
+      "34348580",
+      "18761708",
+      "23428154",
+      "20523343",
+      "18391982",
+      "24615157",
+      "21820422",
+      "12526088",
+      "23243057",
+      "24481531",
+      "25354591",
+      "24706025",
+      "19524422",
+      "24707876",
+      "37877568",
+      "12171899",
+      "28901387",
+      "22545132",
+      "29864943",
+      "21273574",
+      "30956264",
+      "26935527",
+      "27004407",
+      "15199630",
+      "25893635",
+      "20691473",
+      "21152873",
+      "20607649",
+      "21486687",
+      "19922946",
+      "24986326",
+      "23233170",
+      "25280518",
+      "32495392",
+      "15972136",
+      "22315045",
+      "15541481",
+      "19796825",
+      "26786618",
+      "30022148",
+      "29523159",
+      "16385419",
+      "23314229",
+      "24244715",
+      "22666381",
+      "20434451",
+      "19158360",
+      "27461934",
+      "33000264",
+      "17109129",
+      "18187663",
+      "19383029",
+      "17049119",
+      "25448849",
+      "23803076",
+      "19783906",
+      "19478552",
+      "23906293",
+      "21364906",
+      "19569053",
+      "17390080",
+      "31142691",
+      "17165577",
+      "15101726",
+      "20013316",
+      "28038429",
+      "24352031",
+      "17699869",
+      "20932347",
+      "23549790",
+      "31375092",
+      "21805042",
+      "22282961",
+      "21823003",
+      "23985699",
+      "26107205",
+      "19723894",
+      "30419860",
+      "28381158",
+      "23900299",
+      "27197304",
+      "23499892",
+      "36306461",
+      "38731894",
+      "38246224",
+      "37629739",
+      "22926559",
+      "38230794",
+      "36482625",
+      "39054545",
+      "38416196",
+      "38259290",
+      "37403451",
+      "28230788",
+      "37624431",
+      "37143277",
+      "35693277",
+      "34396744",
+      "35366242",
+      "38192048",
+      "35992839",
+      "39231689",
+      "35721205",
+      "38666938",
+      "38293343",
+      "36797237",
+      "39229580",
+      "36876465",
+      "32110379",
+      "37719193",
+      "35685889",
+      "35116303",
+      "37289019",
+      "38994171",
+      "36959927"
+    ],
+    "review": [
+      "34703209",
+      "17165577",
+      "36482625",
+      "37403451",
+      "37624431",
+      "34396744",
+      "35721205",
+      "38293343"
+    ],
+    "pmc": [
+      "8523527"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/DDDT.S322502?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/thyroidcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34703209/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34703209",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S322502",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

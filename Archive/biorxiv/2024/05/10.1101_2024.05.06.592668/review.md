@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussions) as provided on bioRxiv
+- **Assessment boundary** Technical and scientific evaluation of the LiGaMD3 method, its validation on three MDM2 systems, and the claims made regarding binding thermodynamics and kinetics
+- **Shared manuscript claim summary** The authors present LiGaMD3, an enhanced sampling method applying triple boosts to ligand non-bonded, remaining non-bonded, and system bonded potentials, and claim it captures repetitive binding/dissociation of small molecules and flexible peptides within 2 microsecond simulations, yielding kinetic rates and free energies consistent with experiment
+- **Visible evidence base** Methods section (LiGaMD3 algorithm, reweighting, system setup, simulation protocol, analysis), Results section (Figures 1-5, Tables 1-2, Table S1-S2 referenced), Discussion section
+- **Missing materials affecting confidence** Figures and tables referenced but not fully visible in the provided text; Supporting Information (Tables S1, S2, Figures S1, S2) not provided; no convergence metrics or error analysis for the PMF calculations; no comparison of computational cost against other methods beyond qualitative statements
+
+## Reviewer
+- **Overall assessment** The manuscript presents a logical extension of the LiGaMD family of methods, addressing a genuine gap in sampling flexible peptide binding. The triple-boost strategy is physically motivated and the choice of MDM2 with three distinct ligands (small molecule, two peptides) is appropriate for demonstrating generality. However, the evidence as presented is insufficient to fully establish the claims. Key quantitative validations (e.g., comparison of predicted vs experimental k_on/k_off with uncertainties, convergence of PMF, robustness of reweighting) are either missing or not clearly reported. The methodological novelty over LiGaMD2 is incremental, and the manuscript would benefit from clearer articulation of when the third boost is necessary and how it affects accuracy.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists developing or applying enhanced sampling methods for ligand binding; drug discovery researchers interested in predicting binding kinetics for both small molecules and peptide therapeutics; method developers in the molecular dynamics community who follow the GaMD/LiGaMD lineage.
+- **Major strengths** (1) The triple-boost scheme is a reasonable and well-motivated extension addressing peptide flexibility, a known limitation of prior LiGaMD versions. (2) The choice of three MDM2 systems with chemically diverse ligands provides a good test bed. (3) The use of Kramers' rate theory for kinetics reweighting is appropriate and consistent with prior work. (4) The reported agreement with experimental binding free energies (RMSE 0.94 kcal/mol) is encouraging if the underlying calculations are robust.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The predicted binding kinetic constant rates and free energies from LiGaMD3 agreed with available experimental values and previous simulation results."
+  - **Evidence pointer** Table 2, Table S2, location not provided
+  - **Concern** The manuscript reports predicted k_on and k_off values with standard deviations, but no statistical comparison to experimental values is provided (e.g., confidence intervals, p-values, or explicit statement of agreement within uncertainty). The experimental values cited (e.g., k_off for Nutlin 3 at 0.48 s^-1 vs predicted 15.45 s^-1) differ by over an order of magnitude, yet the text claims agreement. This discrepancy is not discussed.
+  - **Why it matters** The central claim of the paper is that LiGaMD3 provides accurate kinetics. If the predicted values are systematically off by 10-30x from experiment, the method's utility for drug design is questionable. The authors must either provide a more nuanced discussion of these deviations or demonstrate that the discrepancies are within acceptable error for the method.
+  - **Resolution test** Provide a quantitative comparison table with experimental values, predicted values, and uncertainties for all three systems. Discuss any deviations greater than 2-3x and explain potential sources (force field, reweighting approximation, finite sampling).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "LiGaMD3 could efficiently capture repetitive small-molecule/peptide dissociation and binding events within 2 microsecond simulations."
+  - **Evidence pointer** Figures 1, 2, Table 1, location not provided
+  - **Concern** The number of binding/dissociation events (5-7 per 2 microsecond simulation) is reported, but no analysis of convergence is shown. It is unclear whether these event counts are sufficient for statistically reliable estimates of rate constants. The manuscript does not report how the event counts vary across the three independent replicas, nor whether the rate constants stabilize with simulation length.
+  - **Why it matters** For kinetics to be reliable, the simulations must sample a sufficient number of transitions. With only 5-7 events per replica, the statistical uncertainty in k_on and k_off could be large (coefficient of variation ~40% for Poisson statistics). Without convergence analysis, the reported rate constants may not be robust.
+  - **Resolution test** Provide a plot of cumulative k_on and k_off as a function of simulation time for each replica, demonstrating that the values stabilize. Report the number of events per replica and the associated statistical uncertainty (e.g., via bootstrapping).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** "we present a new approach, termed 'LiGaMD3', in which we introduce triple boosts into three individual energy terms"
+  - **Evidence pointer** Methods section, LiGaMD3: Triple boost for ligand dissociation and rebinding
+  - **Concern** The methodological advance over LiGaMD2 is the addition of a third boost on the system bonded potential. However, the manuscript does not demonstrate that this third boost is necessary or beneficial. No comparison is shown between LiGaMD3 and LiGaMD2 for the same systems (except for the PMI case where LiGaMD2 failed to capture rebinding). It is unclear whether the improved PMI sampling is due to the third boost or to other differences in simulation setup.
+  - **Why it matters** If the third boost provides marginal benefit, the method is essentially LiGaMD2 with a minor modification. The novelty claim would be weakened. A systematic ablation study would strengthen the case for LiGaMD3 as a distinct contribution.
+  - **Resolution test** Run LiGaMD2 and LiGaMD3 on the same systems with identical simulation parameters and compare event counts, rate constants, and PMF profiles. Show that the third boost specifically enables peptide rebinding that LiGaMD2 cannot capture.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The reweighted k_on values were predicted as 5.76±4.80×10^8 and 8.03±7.42×10^8, being consistent with the corresponding experimental values of 5.27×10^8 and 9.20×10^6 M^-1.s^-1"
+  - **Evidence pointer** Table 2, location not provided
+  - **Concern** The uncertainty on the predicted k_on values is extremely large (relative error 83% and 92% for PMI and P53, respectively). For P53, the predicted value (8.03×10^8) is nearly two orders of magnitude larger than the experimental value (9.20×10^6). The claim of agreement is not supported by the data as presented.
+  - **Why it matters** Large uncertainties and order-of-magnitude deviations from experiment undermine the claim of accurate kinetics prediction. The authors need to address whether the reweighting procedure is introducing systematic bias or whether the experimental values are not directly comparable (e.g., different solution conditions).
+  - **Resolution test** Provide a detailed error analysis for the reweighted rate constants, including the contribution from PMF barrier uncertainties and diffusion coefficient estimates. Discuss the P53 discrepancy explicitly and propose explanations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction lists many enhanced sampling methods without a clear comparative framework. The reader is not told why LiGaMD3 is expected to outperform, e.g., metadynamics with well-chosen CVs, beyond a general statement about computational cost.
+  - **Required correction** Add a brief comparative table or paragraph summarizing the key limitations of each prior method (e.g., CV dependence, cost, applicability to peptides) and how LiGaMD3 addresses them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, System Setup
+  - **Evidence pointer** Methods, System Setup, location not provided
+  - **Issue** The ligand concentration is reported as 0.00335 M, which is used in the k_on calculation. However, the box size and number of water molecules are not reported, making it difficult to assess whether this concentration is physically reasonable and whether finite-size effects could influence the kinetics.
+  - **Required correction** Report the box dimensions, number of water molecules, and total atom count for each system. Discuss potential finite-size effects on the calculated rate constants.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Simulation Protocol
+  - **Evidence pointer** Methods, Simulation Protocol, location not provided
+  - **Issue** The equilibration protocol is described, but the total simulation time for the "50.0 ns LiGaMD3 equilibration" is not justified. It is unclear whether this is sufficient for the boost potential to stabilize and for the system to reach a steady state.
+  - **Required correction** Provide evidence that the boost potential statistics (mean, standard deviation) stabilize during the equilibration period, e.g., a plot of boost potential vs. time.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results, Section "Small-molecule and Peptide binding to the MDM2 involved Induced Fit"
+  - **Evidence pointer** Results, location not provided
+  - **Issue** The term "induced fit" is used to describe the observed conformational changes, but the evidence is largely qualitative (visual inspection of PMF profiles). No quantitative metric (e.g., change in solvent-accessible surface area, hydrogen bond occupancy) is provided to support this mechanistic claim.
+  - **Required correction** Provide quantitative measures of conformational change (e.g., RMSD distributions, contact maps) that distinguish induced fit from conformational selection.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of convergence analysis for kinetics and PMF calculations (R1-M2). (2) Inadequate statistical comparison of predicted vs experimental rate constants, with order-of-magnitude discrepancies unaddressed (R1-M1, R1-M4). (3) No ablation study isolating the effect of the third boost (R1-M3). (4) Missing details on system composition and finite-size effects (R1-m2).
+- **Assessment against Nature-style criteria** Originality: Moderate. The triple-boost concept is a logical extension but not a paradigm shift. The application to flexible peptides is a useful advance. Scientific importance: Moderate. Accurate peptide binding kinetics is relevant for drug discovery, but the demonstrated accuracy is not yet convincing. Interdisciplinary readership: Limited. The manuscript is written primarily for computational biophysicists; the broader drug discovery community would need clearer translational context. Technical soundness: Weak as presented. The lack of convergence analysis and the large discrepancies in kinetics undermine confidence. Readability for nonspecialists: Acceptable but could be improved with a clearer comparative framework in the introduction and more explicit statements of what is new versus incremental.
+- **Recommendation posture** Currently not established from the provided evidence. The method is promising and the direction is sound, but the quantitative claims require substantial additional analysis. I would be supportive if the authors address the convergence, error analysis, and ablation concerns, and provide a more honest discussion of the discrepancies with experiment.
+
+## Risk / unsupported claims
+- The claim that LiGaMD3 predictions "agreed with available experimental values" is not supported for P53 k_on, where the discrepancy is ~100x.
+- The claim that LiGaMD3 "provides a more general and efficient approach" is not quantitatively supported without a direct comparison of computational cost and sampling efficiency against LiGaMD2 and other methods.
+- The identification of "pathway 1" and "pathway 2" as distinct binding/dissociation routes is based on visual inspection of trajectories; no statistical test or free energy barrier comparison is provided to establish that these are truly distinct pathways rather than variations of a single route.
+- The "induced fit" mechanism claim is qualitative and not rigorously distinguished from conformational selection.

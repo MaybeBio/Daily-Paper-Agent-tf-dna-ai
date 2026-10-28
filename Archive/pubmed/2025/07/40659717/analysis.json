@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40659717",
+  "title": "Identification of potential shared core biomarkers in type 2 diabetes and sarcopenia.",
+  "authors": "Zhang, Ping; Du, Yijun; Zhong, Xing; Wang, Yue; Pan, Tianrong",
+  "journal": "Scientific reports",
+  "published_date": "2025-07-15",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过转录组差异表达和WGCNA筛选2型糖尿病与肌少症共享生物标志物，虽构建了转录因子调控网络，但核心是疾病标志物发现，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Type 2 diabetes (T2D) and sarcopenia (SA) commonly co-occur in clinical settings. This study aims to identify overlapping biomarkers for T2D and SA, thereby advancing the understanding of shared pathophysiological mechanisms. Gene expression data from the NCBI GEO database were analyzed to detect differentially expressed genes (DEGs) in T2D and SA using the limma package. Weighted Gene Co-expression Network Analysis (WGCNA) was applied to identify significant gene modules in each condition, followed by functional enrichment analysis. A risk assessment model was established and evaluated through Support Vector Machine (SVM) analysis. Additionally, regulatory networks, including miRNAs and transcription factors, were constructed to investigate gene regulation. qRT‒PCR and western blotting were employed to validate the expression of these biomarkers in the muscle tissues of db/db mice. A total of 330 DEGs were identified in the T2D dataset, while 1054 were found in the SA dataset, with 50 overlapping genes. Key modules in each condition highlighted 30 shared genes, which were enriched in biological processes and pathways related to metabolic and immune functions. Fourteen intersecting hub genes exhibited significant differential expression across the disease datasets, supporting the development of a robust risk classification model. This model demonstrated strong predictive performance, with AUC values of 0.944 for T2D and 0.940 for SA. BDH1, FGF9, and LDHA were identified as key biomarkers through bioinformatics analysis and experimental validation. The identification of BDH1, FGF9, and LDHA offers both diagnostic value and potential therapeutic targets for T2D and SA, thus clarifying the shared pathogenesis of these diseases.",
+  "abstract_zh": "2型糖尿病（T2D）与肌少症（SA）在临床中常共同出现。本研究旨在识别T2D与SA的重叠生物标志物，从而加深对其共享病理生理机制的理解。利用NCBI GEO数据库中的基因表达数据，通过limma包检测T2D和SA中的差异表达基因（DEGs）。应用加权基因共表达网络分析（WGCNA）识别每种条件下的显著基因模块，随后进行功能富集分析。通过支持向量机（SVM）分析建立并评估风险预测模型。此外，构建了包括miRNA和转录因子在内的调控网络，以探究基因调控机制。采用qRT-PCR和western blotting验证这些生物标志物在db/db小鼠肌肉组织中的表达。在T2D数据集中共鉴定出330个DEGs，而SA数据集中发现1054个，其中50个基因重叠。每种条件下的关键模块突出了30个共享基因，这些基因富集于与代谢和免疫功能相关的生物学过程及通路中。十四个交叉枢纽基因在疾病数据集中表现出显著差异表达，支持了稳健风险分类模型的构建。该模型展现出强大的预测性能，T2D的AUC值为0.944，SA的AUC值为0.940。通过生物信息学分析和实验验证，BDH1、FGF9和LDHA被确定为关键生物标志物。BDH1、FGF9和LDHA的识别为T2D和SA提供了诊断价值及潜在治疗靶点，从而阐明了这些疾病的共享发病机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40659717/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40659717/",
+  "paper_page_path": "papers/pubmed/40659717/index.html"
+}

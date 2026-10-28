@@ -1,0 +1,343 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.05.15.25327712",
+  "title": "Shared proteomic landscape between arteriosclerosis and cardiovascular endpoints: a Mendelian randomization and observational study integrating AlphaFold3 for structural prediction",
+  "doi": "10.1101/2025.05.15.25327712",
+  "abstract": "<h4>Background</h4> Atherosclerosis and arteriosclerosis are major contributors to cardiovascular disease (CVD), yet their shared and distinct molecular underpinnings remain incompletely understood. This study integrates proteomics, Bayesian colocalization, and Mendelian randomization (MR), and structural modelling to explore the shared and distinct plasma proteome associated with arteriosclerosis and atherosclerosis across different vascular beds. <h4>Methods</h4> We leveraged cis -pQTLs for 5,813 unique proteins from the UK Biobank (UKB) Pharma Proteomics Project (N=54,219) and deCODE genetics (N=35,559) and assessed the association with five arteriosclerotic/atherosclerotic markers, as well as eight cardiovascular events, using Bayesian colocalization and bidirectional MR. We validated the findings through tissue-specific transcriptomics, observational data from UKB, and AlphaFold3 for structural prediction. Finally, mediation analysis evaluated the role of vascular traits in linking proteins to CVD risk. <h4>Results</h4> We prioritized ten proteins potentially causally associated with both the arteriosclerotic/atherosclerotic markers and cardiovascular events. Five of them (ANGPTL4, APOB, BRAP, LPA, and ZPR1), were associated with increased levels of arteriosclerosis/ atherosclerosis and risk of CVD, whereas four (DUSP13, FN1, IL6R, and MMP12) were associated with reduced levels of arteriosclerosis/ atherosclerosis and risk of CVD. ABO was associated with increased risk of peripheral artery disease (PAD) and CVD but inversely related to ASI. Mediation analyses estimated that LPA’s effect on stroke was primarily mediated through carotid plaque (92.4%), while DUSP13’s effect on coronary artery disease was primarily mediated via PAD (91.0%). Observational analyses and transcriptomic validation corroborated these associations. Structural modelling using AlphaFold3 identified key functional variants in several proteins, including ANGPTL4 and FN1, potentially underlying the pathogenic mechanists. <h4>Conclusions</h4> The present study elucidates the shared and distinct proteomic signatures across arteriosclerosis, atherosclerosis, and cardiovascular disease, underscoring the importance of vascular-bed-specific mechanisms. These identified proteins offer promising avenues for biomarker-driven risk stratification and therapeutic interventions, with potential for dual-purpose interventions across vascular territories.",
+  "authors": [
+    "Huang J",
+    "Achtari M",
+    "Meena D",
+    "Smith A",
+    "Judy R",
+    "Mimouni N",
+    "Bis JC",
+    "Franceschini N",
+    "Damrauer SM",
+    "Tzoulaki I",
+    "Dehghan A"
+  ],
+  "published_date": "2025-05-16",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.05.15.25327712",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.05.15.25327712.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1021553",
+    "raw_record": {
+      "id": "PPR1021553",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1021553"
+        ]
+      },
+      "doi": "10.1101/2025.05.15.25327712",
+      "title": "Shared proteomic landscape between arteriosclerosis and cardiovascular endpoints: a Mendelian randomization and observational study integrating AlphaFold3 for structural prediction",
+      "authorString": "Huang J, Achtari M, Meena D, Smith A, Judy R, Mimouni N, Bis JC, Franceschini N, Damrauer SM, Tzoulaki I, Dehghan A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Huang J",
+            "lastName": "Huang",
+            "firstName": "Jingxian",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8969-8382"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology and Biostatistics, School of Public Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Achtari M",
+            "lastName": "Achtari",
+            "firstName": "Margaux",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology and Biostatistics, School of Public Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meena D",
+            "lastName": "Meena",
+            "firstName": "Devendra",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology and Biostatistics, School of Public Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith A",
+            "lastName": "Smith",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology and Biostatistics, School of Public Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Judy R",
+            "lastName": "Judy",
+            "firstName": "Renae",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Perelman School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mimouni N",
+            "lastName": "Mimouni",
+            "firstName": "Nour",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-1203-543X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Perelman School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bis JC",
+            "lastName": "Bis",
+            "firstName": "Joshua",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Health Research Unit, Department of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Franceschini N",
+            "lastName": "Franceschini",
+            "firstName": "Nora",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Damrauer SM",
+            "lastName": "Damrauer",
+            "firstName": "Scott",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Perelman School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tzoulaki I",
+            "lastName": "Tzoulaki",
+            "firstName": "Ioanna",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4275-9328"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology and Biostatistics, School of Public Health, , ,"
+                },
+                {
+                  "affiliation": "at , ,"
+                },
+                {
+                  "affiliation": "British Heart Foundation Centre of Research Excellence, , ,"
+                },
+                {
+                  "affiliation": "Centre for Systems Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dehghan A",
+            "lastName": "Dehghan",
+            "firstName": "Abbas",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6403-016X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology and Biostatistics, School of Public Health, , ,"
+                },
+                {
+                  "affiliation": "at , ,"
+                },
+                {
+                  "affiliation": "British Heart Foundation Centre of Research Excellence, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6403-016X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4275-9328"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8969-8382"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-1203-543X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Background</h4> Atherosclerosis and arteriosclerosis are major contributors to cardiovascular disease (CVD), yet their shared and distinct molecular underpinnings remain incompletely understood. This study integrates proteomics, Bayesian colocalization, and Mendelian randomization (MR), and structural modelling to explore the shared and distinct plasma proteome associated with arteriosclerosis and atherosclerosis across different vascular beds. <h4>Methods</h4> We leveraged cis -pQTLs for 5,813 unique proteins from the UK Biobank (UKB) Pharma Proteomics Project (N=54,219) and deCODE genetics (N=35,559) and assessed the association with five arteriosclerotic/atherosclerotic markers, as well as eight cardiovascular events, using Bayesian colocalization and bidirectional MR. We validated the findings through tissue-specific transcriptomics, observational data from UKB, and AlphaFold3 for structural prediction. Finally, mediation analysis evaluated the role of vascular traits in linking proteins to CVD risk. <h4>Results</h4> We prioritized ten proteins potentially causally associated with both the arteriosclerotic/atherosclerotic markers and cardiovascular events. Five of them (ANGPTL4, APOB, BRAP, LPA, and ZPR1), were associated with increased levels of arteriosclerosis/ atherosclerosis and risk of CVD, whereas four (DUSP13, FN1, IL6R, and MMP12) were associated with reduced levels of arteriosclerosis/ atherosclerosis and risk of CVD. ABO was associated with increased risk of peripheral artery disease (PAD) and CVD but inversely related to ASI. Mediation analyses estimated that LPA’s effect on stroke was primarily mediated through carotid plaque (92.4%), while DUSP13’s effect on coronary artery disease was primarily mediated via PAD (91.0%). Observational analyses and transcriptomic validation corroborated these associations. Structural modelling using AlphaFold3 identified key functional variants in several proteins, including ANGPTL4 and FN1, potentially underlying the pathogenic mechanists. <h4>Conclusions</h4> The present study elucidates the shared and distinct proteomic signatures across arteriosclerosis, atherosclerosis, and cardiovascular disease, underscoring the importance of vascular-bed-specific mechanisms. These identified proteins offer promising avenues for biomarker-driven risk stratification and therapeutic interventions, with potential for dual-purpose interventions across vascular territories.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RE/18/4/34215",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2025/05/16/2025.05.15.25327712.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.15.25327712"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1021553"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1021553&type=FILE&fileName=EMS205614-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42133815",
+            "reference": "Cardiovascular research. \n    2026 May;:cvag095",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205614",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp"
+        ]
+      },
+      "dateOfCreation": "2025-05-18",
+      "firstPublicationDate": "2025-05-16",
+      "firstIndexDate": "2025-05-21",
+      "fullTextReceivedDate": "2025-05-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

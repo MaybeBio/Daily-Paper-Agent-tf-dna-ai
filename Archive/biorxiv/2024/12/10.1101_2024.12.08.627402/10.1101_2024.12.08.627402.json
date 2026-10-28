@@ -1,0 +1,345 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.08.627402",
+  "title": "EXTRA-seq: a genome-integrated extended massively parallel reporter assay to quantify enhancer-promoter communication",
+  "doi": "10.1101/2024.12.08.627402",
+  "abstract": "Precise control of gene expression is essential for cellular function, but the mechanisms by which enhancers communicate with promoters to coordinate this process are not fully understood. While sequence-based deep learning models show promise in predicting enhancer-driven gene expression, experimental validation and human-interpretable mechanistic insights lag behind. Here, we present EXTRA-seq , a novel EXT ended R eporter A ssay followed by seq uencing designed to quantify enhancer activity in endogenous contexts over kilobase-scale distances. We demonstrate that EXTRA-seq can be targeted to disease-relevant loci and captures expression changes at the resolution of individual transcription factor binding sites, enabling mechanistic discovery. Using engineered synthetic enhancer-promoter combinations, we reveal that the TATA-box acts as a dynamic range amplifier, modulating expression levels in function of enhancer strength. Importantly, we find that integrating state-of-the-art deep learning models with plasmid-based enhancer assays improves the prediction of gene expression as measured by EXTRA-seq. These findings open new avenues for predictive modeling and therapeutic applications. Overall, our work provides a powerful experimental platform to interrogate the complex interplay between enhancers and promoters, bridging the gap between in silico predictions and human-interpretable biological mechanisms.",
+  "authors": [
+    "Kribelbauer-Swietek JF",
+    "Gardeux V",
+    "Llimos-Aubach G",
+    "Faltejskova K",
+    "Russeil J",
+    "Grenningloh N",
+    "Levassor L",
+    "Steiner C",
+    "Vondrasek J",
+    "Deplancke B"
+  ],
+  "published_date": "2024-12-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.08.627402",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.08.627402.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR952865",
+    "raw_record": {
+      "id": "PPR952865",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR952865"
+        ]
+      },
+      "doi": "10.1101/2024.12.08.627402",
+      "title": "EXTRA-seq: a genome-integrated extended massively parallel reporter assay to quantify enhancer-promoter communication",
+      "authorString": "Kribelbauer-Swietek JF, Gardeux V, Llimos-Aubach G, Faltejskova K, Russeil J, Grenningloh N, Levassor L, Steiner C, Vondrasek J, Deplancke B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kribelbauer-Swietek JF",
+            "lastName": "Kribelbauer-Swietek",
+            "firstName": "Judith",
+            "initials": "JF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8072-7773"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gardeux V",
+            "lastName": "Gardeux",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8954-2161"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Llimos-Aubach G",
+            "lastName": "Llimos-Aubach",
+            "firstName": "Gerard",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3311-6782"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Faltejskova K",
+            "lastName": "Faltejskova",
+            "firstName": "Katerina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Computer Science Institute, Faculty of Mathematics and Physics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Russeil J",
+            "lastName": "Russeil",
+            "firstName": "Julie",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grenningloh N",
+            "lastName": "Grenningloh",
+            "firstName": "Nadia",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-8321-8852"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levassor L",
+            "lastName": "Levassor",
+            "firstName": "Lucas",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3261-9911"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steiner C",
+            "lastName": "Steiner",
+            "firstName": "Clémence",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vondrasek J",
+            "lastName": "Vondrasek",
+            "firstName": "Jiri",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6066-973X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deplancke B",
+            "lastName": "Deplancke",
+            "firstName": "Bart",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9935-843X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8954-2161"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9935-843X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3261-9911"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6066-973X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8072-7773"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3311-6782"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-8321-8852"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Precise control of gene expression is essential for cellular function, but the mechanisms by which enhancers communicate with promoters to coordinate this process are not fully understood. While sequence-based deep learning models show promise in predicting enhancer-driven gene expression, experimental validation and human-interpretable mechanistic insights lag behind. Here, we present  EXTRA-seq , a novel  EXT ended  R eporter  A ssay followed by  seq uencing designed to quantify enhancer activity in endogenous contexts over kilobase-scale distances. We demonstrate that EXTRA-seq can be targeted to disease-relevant loci and captures expression changes at the resolution of individual transcription factor binding sites, enabling mechanistic discovery. Using engineered synthetic enhancer-promoter combinations, we reveal that the TATA-box acts as a dynamic range amplifier, modulating expression levels in function of enhancer strength. Importantly, we find that integrating state-of-the-art deep learning models with plasmid-based enhancer assays improves the prediction of gene expression as measured by EXTRA-seq. These findings open new avenues for predictive modeling and therapeutic applications.  Overall, our work provides a powerful experimental platform to interrogate the complex interplay between enhancers and promoters, bridging the gap between  in silico predictions and human-interpretable biological mechanisms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "197082",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.08.627402"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.08.627402"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR952865"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR952865&type=FILE&fileName=EMS201927-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS201927",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refsnp",
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2024-12-13",
+      "firstPublicationDate": "2024-12-11",
+      "firstIndexDate": "2024-12-13",
+      "fullTextReceivedDate": "2024-12-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

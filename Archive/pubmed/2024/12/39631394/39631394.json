@@ -1,0 +1,494 @@
+{
+  "identity": {
+    "pmid": "39631394",
+    "doi": "10.1016/j.molcel.2024.11.009",
+    "title": "DNA hypomethylation promotes UHRF1-and SUV39H1/H2-dependent crosstalk between H3K18ub and H3K9me3 to reinforce heterochromatin states."
+  },
+  "content": {
+    "abstract": "Mono-ubiquitination of lysine 18 on histone H3 (H3K18ub), catalyzed by UHRF1, is a DNMT1 docking site that facilitates replication-coupled DNA methylation maintenance. Its functions beyond this are unknown. Here, we genomically map simultaneous increases in UHRF1-dependent H3K18ub and SUV39H1/H2-dependent H3K9me3 following DNMT1 inhibition. Mechanistically, transient accumulation of hemi-methylated DNA at CpG islands facilitates UHRF1 recruitment and E3 ligase activity toward H3K18. Notably, H3K18ub enhances SUV39H1/H2 methyltransferase activity and, in colon cancer cells, nucleates new H3K9me3 domains at CpG island promoters of DNA methylation-silenced tumor suppressor genes (TSGs). Disrupting UHRF1 enzyme activity prevents H3K9me3 accumulation while promoting PRC2-dependent H3K27me3 as a tertiary layer of gene repression in these regions. By contrast, disrupting H3K18ub-dependent SUV39H1/H2 activity enhances the transcriptional activating and antiproliferative effects of DNMT1 inhibition. Collectively, these findings reveal roles for UHRF1 and H3K18ub in regulating a hierarchy of repressive histone methylation signaling and rationalize a combination strategy for epigenetic cancer therapy.",
+    "keywords": [
+      "DNA methylation",
+      "SUV39H1/H2",
+      "UHRF1",
+      "epigenetic therapy",
+      "histone methylation",
+      "histone ubiquitination"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*CCAAT-Enhancer-Binding Proteins/metabolism/genetics",
+      "*Histones/metabolism/genetics",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "*DNA Methylation",
+      "*Heterochromatin/metabolism/genetics",
+      "*Repressor Proteins/metabolism/genetics",
+      "DNA (Cytosine-5-)-Methyltransferase 1",
+      "*Methyltransferases/metabolism/genetics",
+      "Ubiquitination",
+      "DNA (Cytosine-5-)-Methyltransferases/metabolism/genetics/antagonists & inhibitors",
+      "CpG Islands",
+      "Cell Line, Tumor",
+      "HCT116 Cells",
+      "Histone-Lysine N-Methyltransferase/metabolism",
+      "Promoter Regions, Genetic",
+      "HEK293 Cells",
+      "Colonic Neoplasms/genetics/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yanqing",
+        "Hrit, Joel A",
+        "Chomiak, Alison A",
+        "Stransky, Stephanie",
+        "Hoffman, Jordan R",
+        "Tiedemann, Rochelle L",
+        "Wiseman, Ashley K",
+        "Kariapper, Leena S",
+        "Dickson, Bradley M",
+        "Worden, Evan J",
+        "Fry, Christopher J",
+        "Sidoli, Simone",
+        "Rothbart, Scott B"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Hrit JA",
+        "Chomiak AA",
+        "Stransky S",
+        "Hoffman JR",
+        "Tiedemann RL",
+        "Wiseman AK",
+        "Kariapper LS",
+        "Dickson BM",
+        "Worden EJ",
+        "Fry CJ",
+        "Sidoli S",
+        "Rothbart SB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461, USA.",
+        "Cell Signaling Technology, Danvers, MA 01923, USA.",
+        "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Cell Signaling Technology, Danvers, MA 01923, USA.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461, USA.",
+        "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA. Electronic address: scott.rothbart@vai.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yanqing",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Hrit, Joel A",
+        "short_name": "Hrit JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Chomiak, Alison A",
+        "short_name": "Chomiak AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Stransky, Stephanie",
+        "short_name": "Stransky S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461, USA."
+        ]
+      },
+      {
+        "full_name": "Hoffman, Jordan R",
+        "short_name": "Hoffman JR",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Signaling Technology, Danvers, MA 01923, USA."
+        ]
+      },
+      {
+        "full_name": "Tiedemann, Rochelle L",
+        "short_name": "Tiedemann RL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Wiseman, Ashley K",
+        "short_name": "Wiseman AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Kariapper, Leena S",
+        "short_name": "Kariapper LS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Dickson, Bradley M",
+        "short_name": "Dickson BM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Worden, Evan J",
+        "short_name": "Worden EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Fry, Christopher J",
+        "short_name": "Fry CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Signaling Technology, Danvers, MA 01923, USA."
+        ]
+      },
+      {
+        "full_name": "Sidoli, Simone",
+        "short_name": "Sidoli S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461, USA."
+        ]
+      },
+      {
+        "full_name": "Rothbart, Scott B",
+        "short_name": "Rothbart SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics, Van Andel Institute, Grand Rapids, MI 49503, USA. Electronic address: scott.rothbart@vai.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2025 Jan 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/05 05:30",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "42346035",
+      "42294794",
+      "42006373",
+      "41994991",
+      "41929164",
+      "41885367",
+      "41876725",
+      "41774300",
+      "41718410",
+      "41488357",
+      "41383632",
+      "41381501",
+      "41315942",
+      "41197730",
+      "41007433",
+      "40960568",
+      "40911795",
+      "40909655",
+      "40827946",
+      "40694195",
+      "40680746",
+      "40662873",
+      "40446033"
+    ],
+    "refs": [
+      "39607687",
+      "39178860",
+      "38536911",
+      "38455390",
+      "37311462",
+      "37160995",
+      "36617464",
+      "36550219",
+      "36347867",
+      "35873672",
+      "35859152",
+      "35637307",
+      "35604167",
+      "35562425",
+      "35307512",
+      "34790902",
+      "34739871",
+      "34524082",
+      "33844406",
+      "33479123",
+      "33308996",
+      "33306668",
+      "33207202",
+      "33097091",
+      "32994221",
+      "32841603",
+      "32220303",
+      "31922488",
+      "31883950",
+      "31882993",
+      "31733991",
+      "31481468",
+      "31477886",
+      "31468675",
+      "31399642",
+      "31229920",
+      "30956060",
+      "30498785",
+      "30392931",
+      "30392929",
+      "30104358",
+      "30085201",
+      "29790754",
+      "29610480",
+      "29120462",
+      "29053958",
+      "27924034",
+      "27629931",
+      "27595565",
+      "27286567",
+      "27151458",
+      "27114506",
+      "26989773",
+      "26807716",
+      "26212453",
+      "26204160",
+      "25747664",
+      "25719549",
+      "25693563",
+      "25516281",
+      "24856970",
+      "24812344",
+      "24799436",
+      "24789823",
+      "24336642",
+      "24270890",
+      "24157548",
+      "24013172",
+      "23752590",
+      "23476028",
+      "23463006",
+      "23161542",
+      "23022729",
+      "22936215",
+      "22422453",
+      "22391556",
+      "22388286",
+      "22373907",
+      "22122642",
+      "22120008",
+      "21839163",
+      "21706001",
+      "21239496",
+      "21221095",
+      "20709693",
+      "20348135",
+      "20147306",
+      "20142834",
+      "20110278",
+      "19910308",
+      "19734887",
+      "19505943",
+      "19410543",
+      "19177017",
+      "18925949",
+      "18798982",
+      "18772891",
+      "18772889",
+      "18772888",
+      "18632628",
+      "18083099",
+      "17673620",
+      "17457052",
+      "17325422",
+      "17211412",
+      "16199517",
+      "15952895",
+      "15774718",
+      "12808457",
+      "12042769",
+      "11846609",
+      "10555141",
+      "9426064"
+    ],
+    "similar": [
+      "39631394",
+      "33170271",
+      "39607687",
+      "23836914",
+      "39621902",
+      "27595565",
+      "23463006",
+      "31680384",
+      "31400111",
+      "26065575",
+      "28100769",
+      "22064703",
+      "41197730",
+      "19943104",
+      "22330138",
+      "30392929",
+      "32726623",
+      "18332107",
+      "26590302",
+      "30392931",
+      "12711603",
+      "18004385",
+      "38446667",
+      "21268065",
+      "24782312",
+      "31481468",
+      "12711675",
+      "40836920",
+      "30104358",
+      "23161542",
+      "24927542",
+      "40960568",
+      "21489993",
+      "28973434",
+      "30956060",
+      "24368767",
+      "27733730",
+      "29506131",
+      "21745816",
+      "41094145",
+      "28803780",
+      "30669400",
+      "17085482",
+      "40653371",
+      "39267107",
+      "27839516",
+      "33097091",
+      "19800870",
+      "21045206",
+      "29750576",
+      "18772889",
+      "40467490",
+      "30241941",
+      "15467427",
+      "25349215",
+      "40440427",
+      "19001366",
+      "39169036",
+      "28241740",
+      "39810240",
+      "25512341",
+      "27045799",
+      "36372834",
+      "17657744",
+      "32675241",
+      "24292684",
+      "29507645",
+      "34238980",
+      "24013172",
+      "24844570",
+      "17673620",
+      "12101246",
+      "38580649",
+      "24253042",
+      "21598301",
+      "19723660",
+      "21777816",
+      "39178260",
+      "20588255",
+      "40542373",
+      "21339843",
+      "18460542",
+      "28334952",
+      "33795533",
+      "31064417",
+      "36458887",
+      "26971997",
+      "37573395",
+      "25982273",
+      "28963472",
+      "33691908",
+      "16980612",
+      "25323766",
+      "16519522",
+      "16682412",
+      "29471350",
+      "28760201",
+      "20613874",
+      "31617338",
+      "33465813"
+    ],
+    "review": [
+      "39631394",
+      "26590302",
+      "40960568",
+      "30669400",
+      "40653371",
+      "27839516",
+      "40467490",
+      "36372834"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(24)00914-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39631394/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39631394",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

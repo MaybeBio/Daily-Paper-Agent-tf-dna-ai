@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report an in silico study proposing a novel protein-protein interaction between the FHA domain of MDC1 (a DDR scaffold protein) and the CCD of Beclin-1 (an autophagy inducer), modeled via docking and assessed for stability and binding affinity, with the functional implication that MDC1 may recruit Beclin-1 to DNA double-strand breaks, enabling Beclin-1 to modulate DDR.
+- **Visible evidence base** Abstract text only; methods named (ClusPro2.0, Ramachandran plot, MD simulation, MM/GBSA, PRODIGY, DrugScore(PPI)) but no numerical results, structural details, or validation metrics are reported
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, docking scores, MD simulation trajectories, binding free energy values, alanine scanning results, and any experimental or orthogonal validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational hypothesis for a direct interaction between MDC1 and Beclin-1, which could be of interest to researchers studying crosstalk between DNA damage response and autophagy. However, the evidence base is limited to a summary of methods and qualitative outcomes. No quantitative results are provided, and the functional claim that MDC1 recruits Beclin-1 to double-strand breaks is speculative and not supported by the data described. The study may be technically sound in its execution, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in DNA damage response, autophagy, and cancer biology would be interested because the proposed interaction offers a potential molecular link between two major homeostatic pathways whose dysregulation contributes to tumorigenesis. Computational biologists studying protein-protein interactions and docking methodologies may also find the approach relevant.
+- **Major strengths** The study addresses a timely and important question regarding the molecular convergence of DDR and autophagy. The use of multiple complementary computational tools (docking, MD simulation, binding free energy calculations, and alanine scanning) is methodologically thorough. The focus on a specific domain-domain interaction (FHA-CCD) provides a testable hypothesis.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims "significant interaction between MDC1 and Beclin-1" and that "MDC1 possibly recruits Beclin-1 to the DSBs."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No quantitative data are presented to support the claim of significant interaction. Docking scores, binding free energies from MM/GBSA, PRODIGY predictions, and MD simulation stability metrics are not reported. The term "significant" is used without statistical or energetic context.  
+  - **Why it matters** Without numerical results, the reader cannot assess whether the predicted interaction is thermodynamically plausible or merely an artifact of the docking algorithm. The functional recruitment claim requires evidence that the interaction is stable and specific under physiological conditions.  
+  - **Resolution test** Provide docking scores, binding free energy values with errors, MD simulation RMSD/RMSF plots, and a comparison against a negative control interaction to demonstrate specificity.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim overreach  
+  - **Claim pointer** The abstract states that "Beclin-1 is able to modulate DDR" as a consequence of the proposed interaction.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** This functional conclusion is not derivable from the computational methods described. Docking and MD simulation can predict binding but cannot establish a biological consequence such as modulation of DDR. No experimental validation (e.g., co-immunoprecipitation, cellular assays) is mentioned.  
+  - **Why it matters** The claim extends beyond the scope of in silico analysis and implies a biological mechanism that the presented evidence cannot support. This overreach could mislead readers into treating a hypothesis as an established finding.  
+  - **Resolution test** Either remove the functional claim or clearly label it as a hypothesis requiring experimental testing. If retained, provide supporting experimental data or cite prior evidence for such a mechanism.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Model validity  
+  - **Claim pointer** The abstract states that the docking complex was modeled "based on the crystal structure for the dimerized MDC1 FHA domain and Beclin-1 CCD."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The use of a dimerized FHA domain as the docking template is unusual, as the functional unit for interaction with Beclin-1 is not established. The abstract does not clarify whether the dimer is the biologically relevant form or whether the docking was performed with a monomer. This ambiguity affects the interpretation of the modeled interface.  
+  - **Why it matters** If the dimer is not the relevant species, the predicted interface may not reflect the actual binding mode. The validity of the entire computational pipeline depends on the appropriateness of the starting structure.  
+  - **Resolution test** Clarify the oligomeric state used in docking and justify its biological relevance. If possible, perform docking with both monomer and dimer and compare results.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract lists several computational tools but does not specify the parameters used or the criteria for assessing complex stability.  
+  - **Required correction** Provide brief methodological details, such as simulation length, force field, and criteria for defining a stable complex.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "unconventional interactions" in the title  
+  - **Evidence pointer** Title  
+  - **Issue** The term "unconventional" is not defined or justified in the abstract. It is unclear whether this refers to a novel interaction type, an unexpected binding mode, or a previously unknown pair.  
+  - **Required correction** Define what makes the interaction unconventional, or rephrase the title to be more descriptive.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Hot-spot residue identification  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract mentions computational alanine scanning but does not report which residues were identified as hot spots or how they relate to known functional motifs.  
+  - **Required correction** Summarize key hot-spot residues and discuss their potential functional relevance.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence), R1-M2 (functional claim overreach), R1-M3 (unclear oligomeric state in docking model)
+
+## Risk / unsupported claims
+- The claim of "significant interaction" is unsupported due to absence of quantitative binding data.
+- The claim that "Beclin-1 is able to modulate DDR" is unsupported by the computational evidence presented.
+- The statement that "MDC1 possibly recruits Beclin-1 to the DSBs" is speculative and not testable from the described methods.
+- The biological relevance of the modeled complex cannot be assessed without experimental validation or comparison to known interaction data.

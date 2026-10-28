@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41751574",
+  "title": "Integrated Transcriptomic and Histological Analysis of TP53/CTNNB1 Mutations and Microvascular Invasion in Hepatocellular Carcinoma.",
+  "authors": "Garach, Ignacio; Hernandez, Nerea; Herrera, Luis J; Ortuno, Francisco M; Rojas, Ignacio",
+  "journal": "Genes",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究整合转录组与组织学分析肝癌TP53/CTNNB1突变及微血管侵犯，虽用深度学习但聚焦临床表型关联，无蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "Background/Objectives: Hepatocellular carcinoma (HCC) shows marked molecular and histopathological heterogeneity. Among the alterations most strongly associated with clinical outcome are mutations in TP53 and CTNNB1, as well as the presence of microvascular invasion (MVI). Although these factors are well established as prognostic indicators, how their molecular effects relate to tumor morphology remains unclear. In this work, we studied transcriptomic changes linked to TP53 and CTNNB1 mutational status and to MVI, and examined whether these changes are reflected in routine histology. Methods: RNA sequencing data from HCC samples annotated for mutations and vascular invasion were analyzed using differential expression analysis combined with machine learning-based feature selection to characterize the underlying transcriptional programs. In parallel, we trained a weakly supervised multitask deep learning model on hematoxylin and eosin-stained whole-slide images using slide-level labels only, without spatial annotations, to assess whether these features could be inferred from global histological patterns. Results: Distinct gene expression profiles were observed for TP53-mutated, CTNNB1-mutated, and MVI-positive tumors, involving pathways related to proliferation, metabolism, and invasion. Image-based models were able to capture morphological patterns associated with these states, achieving above-random discrimination with variable performance across tasks. Conclusions: Taken together, these results support the existence of coherent biological programs underlying key risk determinants in HCC and indicate that their phenotypic effects are, at least in part, detectable in routine histopathology. This provides a rationale for integrative morpho-molecular approaches to risk assessment in HCC.",
+  "abstract_zh": "背景/目标：肝细胞癌（HCC）表现出显著的分子和组织病理学异质性。在与临床结局最密切相关的改变中，包括TP53和CTNNB1突变，以及微血管侵犯（MVI）的存在。尽管这些因素已被确认为预后指标，但其分子效应与肿瘤形态之间的关系仍不清楚。在本研究中，我们探讨了与TP53和CTNNB1突变状态及MVI相关的转录组变化，并检查这些变化是否反映在常规组织学中。方法：利用差异表达分析结合基于机器学习的特征选择，对带有突变和血管侵犯注释的HCC样本RNA测序数据进行分析，以表征潜在的转录程序。同时，我们在苏木精-伊红染色的全切片图像上训练了一个弱监督多任务深度学习模型，仅使用切片级标签，无空间注释，以评估这些特征是否能从全局组织学模式中推断出来。结果：观察到TP53突变、CTNNB1突变和MVI阳性肿瘤具有不同的基因表达谱，涉及增殖、代谢和侵袭相关通路。基于图像的模型能够捕捉与这些状态相关的形态模式，在不同任务中实现了高于随机的判别性能，但表现存在差异。结论：综合来看，这些结果支持HCC关键风险决定因素背后存在连贯的生物学程序，并表明其表型效应至少部分可在常规组织病理学中检测到。这为HCC风险评估的整合性形态-分子方法提供了理论依据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41751574/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41751574/",
+  "paper_page_path": "papers/pubmed/41751574/index.html"
+}

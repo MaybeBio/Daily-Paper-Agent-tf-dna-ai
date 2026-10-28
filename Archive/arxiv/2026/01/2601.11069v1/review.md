@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Methods, Results and discussion, Conclusion) with figure references but no figures or supplementary material provided.
+- **Assessment boundary** Assessment is limited to the written claims, methodological descriptions, and reported numerical results as presented in the text. No figures, tables, or supplementary data were available for independent verification.
+- **Shared manuscript claim summary** The authors use all-atom MD and SMD simulations to compare the structural, dynamic, and mechanical consequences of a non-hotspot partial loss-of-function mutation (E180R) and a hotspot complete loss-of-function mutation (R248W) in the p53 DNA-binding domain dimer. They report that E180R disrupts dimer interface interactions and mechanical stability, while R248W primarily disrupts DNA binding, and propose distinct therapeutic strategies for each mutation class.
+- **Visible evidence base** Text descriptions of simulation setups, analysis methods, and selected numerical results (e.g., hydrogen bond occupancies, contact numbers, Fmax ordering). Figure and supplementary figure captions are referenced but the figures themselves are not provided.
+- **Missing materials affecting confidence** All figures (Figs. 1-7), all supplementary figures (Figs. S1-S8), simulation trajectory data, force-distance curves, and statistical details of replicate analyses. Without these, quantitative claims cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question regarding the differential allosteric mechanisms of two classes of p53 mutations. The choice of E180R as a representative non-hotspot mutation and R248W as a hotspot mutation is reasonable, and the dimer model is justified. However, the evidence presented in the text is insufficient to fully support several central claims, particularly regarding the allosteric pathway connecting E180R to distal loop flexibility, the quantitative comparison of DNA-binding impairment between the two mutants, and the mechanical stability rankings derived from SMD. The manuscript would benefit from clearer presentation of statistical reproducibility across replicates and from a more direct connection between simulated observables and the functional phenotypes (partial vs. complete loss of function) that motivate the study.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein allostery, and cancer biology, particularly those studying p53 structure-function relationships and mutation-specific therapeutic strategies. The distinction between cooperative and DNA-contact mutations has potential translational relevance for prognosis and treatment selection.
+- **Major strengths** The study addresses a clinically important distinction between mutation classes that is often conflated. The use of a dimer model is well justified given the role of dimerization in cooperative DNA binding. The combination of equilibrium MD and SMD provides complementary views of structural stability and mechanical response. The authors connect their findings to experimentally observed phenotypes (partial vs. complete loss of function) and propose mutation-class-specific therapeutic directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that E180R "perturbs dimer interface interactions, impairing dimer stability and cooperative DNA binding" and that this is the "core molecular mechanism underlying the reduced cooperative activity" observed experimentally.
+  - **Evidence pointer** Section 3.2, Figs. 3-4, Fig. S3 (location not provided)
+  - **Concern** The text describes changes in contact frequencies and inter-helix spacing for the E180R mutant, but no quantitative measures of dimer binding free energy or cooperative binding affinity are presented. The claim that impaired dimer stability directly causes reduced cooperative DNA binding is inferred from structural observables rather than demonstrated through free energy calculations or binding assays.
+  - **Why it matters** The central distinction between the two mutation classes rests on the claim that E180R acts primarily through dimer destabilization. Without a quantitative link between the observed structural changes and binding affinity, this mechanism remains speculative.
+  - **Resolution test** Provide free energy calculations (e.g., MM-PBSA or umbrella sampling) for dimer association in WT vs. E180R, or cite experimental binding data for E180R that directly quantifies dimer affinity and cooperative DNA binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that R248W "disrupts interactions between the L3/L1 loops and DNA, leading to loss of DNA-binding capacity" and that this is the primary mechanism for complete loss of function.
+  - **Evidence pointer** Section 3.3, Figs. 5, S4 (location not provided)
+  - **Concern** The text reports reduced contact numbers and hydrogen bond occupancies for the R248W mutant, but the claim of "loss of DNA-binding capacity" is a functional assertion that requires a quantitative measure of binding affinity. The authors note that W248 maintains hydrophobic contacts with DNA, which complicates the interpretation that DNA binding is abolished. No binding free energy or dissociation constant is provided.
+  - **Why it matters** The classification of R248W as a complete loss-of-function mutation due to disrupted DNA binding is a key conclusion. If the mutant retains partial DNA binding, the mechanistic distinction from E180R becomes less clear.
+  - **Resolution test** Provide binding free energy estimates or experimental Kd values for R248W-DNA interaction, and clarify whether the residual hydrophobic contacts contribute to measurable residual binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and statistical rigor
+  - **Claim pointer** The authors state that Fmax follows the order p53-WT > p53-R248W > p53-E180R and that this trend is "consistently reproduced" across two pulling directions.
+  - **Evidence pointer** Section 3.4, Figs. 6, S5-S6 (location not provided)
+  - **Concern** The text mentions three independent replicates for MD simulations but does not report the number of SMD replicates, the variance in Fmax values, or any statistical test supporting the ordering. The claim of consistency across pulling directions is qualitative.
+  - **Why it matters** The mechanical stability ranking is a central result. Without error bars or replicate-level data, the reader cannot assess whether the differences between mutants are significant or within noise.
+  - **Resolution test** Report Fmax values with standard deviations or confidence intervals for each system and pulling direction, and perform a statistical comparison (e.g., t-test or ANOVA).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors claim that both mutations "accelerate the dissociation process of p53 dimers under mechanical stretching" and that E180R exerts the most prominent disruptive effect on dimer mechanical stability.
+  - **Evidence pointer** Section 3.4, Figs. 6-7, S7-S8 (location not provided)
+  - **Concern** The SMD setup pulls on selected residue groups while fixing others, which may bias the dissociation pathway. The authors do not discuss whether the observed differences in Fmax reflect intrinsic mechanical stability or artifacts of the pulling geometry. The decomposition of interfacial contacts during pulling is presented for WT only in the main text, with mutant data relegated to supplementary figures.
+  - **Why it matters** The mechanical stability conclusions depend on the SMD protocol being unbiased and the contact decomposition being comprehensive across all systems.
+  - **Resolution test** Discuss potential biases in the pulling protocol, show that results are robust to pulling direction and velocity, and present the contact decomposition for all systems in the main text or with clear supplementary summaries.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Text description of system preparation
+  - **Issue** The text states that the initial structure was taken from PDB 3KMD and that two chains and a DNA half-site were extracted, but it is unclear whether the DNA half-site corresponds to the full consensus binding site or a partial sequence.
+  - **Required correction** Specify the DNA sequence and length used in the simulations, and clarify whether the extracted half-site retains the full binding interface.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Text description of SMD setup
+  - **Issue** The pulling velocity and total simulation time for SMD runs are not reported.
+  - **Required correction** Report the pulling velocity, spring constant justification, and total SMD simulation time for each replicate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Text description of analysis methods
+  - **Issue** The text states that statistical analyses were conducted on data from the final 350 ns of each trajectory, but does not specify which statistical tests were used or how significance was determined.
+  - **Required correction** Describe the statistical tests used for comparing observables across systems and report p-values or confidence intervals where relevant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Fig. 1 (location not provided)
+  - **Issue** The text states that increased solvent exposure in E180R "suggests a propensity for p53 misfolding," but no simulation or experimental evidence for misfolding is presented.
+  - **Required correction** Soften this claim or provide additional analysis (e.g., secondary structure stability over time) to support the misfolding propensity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites several references for p53 mutation prevalence and classification but does not discuss prior computational studies of p53-DBD mutations, which would help position the novelty of this work.
+  - **Required correction** Add a brief discussion of prior MD studies on p53 mutations and clarify what new insights this study provides.
+
+## Risk / unsupported claims
+- The claim that E180R impairs cooperative DNA binding through dimer destabilization is not directly supported by binding free energy data.
+- The claim that R248W leads to "loss of DNA-binding capacity" is not quantitatively supported, especially given the reported residual hydrophobic contacts.
+- The Fmax ordering across systems is presented without statistical measures, making the ranking unverifiable.
+- The suggestion that E180R promotes misfolding is speculative and not supported by presented data.
+- The therapeutic recommendations in the Conclusion are extrapolated from simulation data without experimental validation and should be framed as hypotheses.

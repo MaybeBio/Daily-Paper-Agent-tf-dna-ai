@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "36747789",
+    "doi": "10.1101/2023.01.23.525198",
+    "title": "Systematically characterizing the roles of E3-ligase family members in inflammatory responses with massively parallel Perturb-seq."
+  },
+  "content": {
+    "abstract": "E3 ligases regulate key processes, but many of their roles remain unknown. Using Perturb-seq, we interrogated the function of 1,130 E3 ligases, partners and substrates in the inflammatory response in primary dendritic cells (DCs). Dozens impacted the balance of DC1, DC2, migratory DC and macrophage states and a gradient of DC maturation. Family members grouped into co-functional modules that were enriched for physical interactions and impacted specific programs through substrate transcription factors. E3s and their adaptors co-regulated the same processes, but partnered with different substrate recognition adaptors to impact distinct aspects of the DC life cycle. Genetic interactions were more prevalent within than between modules, and a deep learning model, combetaVAE, predicts the outcome of new combinations by leveraging modularity. The E3 regulatory network was associated with heritable variation and aberrant gene expression in immune cells in human inflammatory diseases. Our study provides a general approach to dissect gene function.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Geiger-Schuller, Kathryn",
+        "Eraslan, Basak",
+        "Kuksenko, Olena",
+        "Dey, Kushal K",
+        "Jagadeesh, Karthik A",
+        "Thakore, Pratiksha I",
+        "Karayel, Ozge",
+        "Yung, Andrea R",
+        "Rajagopalan, Anugraha",
+        "Meireles, Ana M",
+        "Yang, Karren Dai",
+        "Amir-Zilberstein, Liat",
+        "Delorey, Toni",
+        "Phillips, Devan",
+        "Raychowdhury, Raktima",
+        "Moussion, Christine",
+        "Price, Alkes L",
+        "Hacohen, Nir",
+        "Doench, John G",
+        "Uhler, Caroline",
+        "Rozenblatt-Rosen, Orit",
+        "Regev, Aviv"
+      ],
+      "short_names": [
+        "Geiger-Schuller K",
+        "Eraslan B",
+        "Kuksenko O",
+        "Dey KK",
+        "Jagadeesh KA",
+        "Thakore PI",
+        "Karayel O",
+        "Yung AR",
+        "Rajagopalan A",
+        "Meireles AM",
+        "Yang KD",
+        "Amir-Zilberstein L",
+        "Delorey T",
+        "Phillips D",
+        "Raychowdhury R",
+        "Moussion C",
+        "Price AL",
+        "Hacohen N",
+        "Doench JG",
+        "Uhler C",
+        "Rozenblatt-Rosen O",
+        "Regev A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6705-0681"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Geiger-Schuller, Kathryn",
+        "short_name": "Geiger-Schuller K",
+        "identifiers": [
+          "0000-0002-6705-0681"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Eraslan, Basak",
+        "short_name": "Eraslan B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kuksenko, Olena",
+        "short_name": "Kuksenko O",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dey, Kushal K",
+        "short_name": "Dey KK",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Jagadeesh, Karthik A",
+        "short_name": "Jagadeesh KA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Thakore, Pratiksha I",
+        "short_name": "Thakore PI",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Karayel, Ozge",
+        "short_name": "Karayel O",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yung, Andrea R",
+        "short_name": "Yung AR",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rajagopalan, Anugraha",
+        "short_name": "Rajagopalan A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Meireles, Ana M",
+        "short_name": "Meireles AM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yang, Karren Dai",
+        "short_name": "Yang KD",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Amir-Zilberstein, Liat",
+        "short_name": "Amir-Zilberstein L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Delorey, Toni",
+        "short_name": "Delorey T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Phillips, Devan",
+        "short_name": "Phillips D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Raychowdhury, Raktima",
+        "short_name": "Raychowdhury R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Moussion, Christine",
+        "short_name": "Moussion C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Price, Alkes L",
+        "short_name": "Price AL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hacohen, Nir",
+        "short_name": "Hacohen N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Doench, John G",
+        "short_name": "Doench JG",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Uhler, Caroline",
+        "short_name": "Uhler C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rozenblatt-Rosen, Orit",
+        "short_name": "Rozenblatt-Rosen O",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Regev, Aviv",
+        "short_name": "Regev A",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Jan 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/08 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36747789",
+      "36733699",
+      "24028781",
+      "29363156",
+      "8550577",
+      "23528706",
+      "18620796",
+      "17726579",
+      "27249653",
+      "26508657",
+      "35201500",
+      "32445667",
+      "14688465",
+      "22199232",
+      "35751381",
+      "32265230",
+      "28739890",
+      "34663215",
+      "28455558",
+      "23734257",
+      "25301376",
+      "29805505",
+      "16954532",
+      "34745984",
+      "28839186",
+      "16076960",
+      "33160249",
+      "28890050",
+      "35247307",
+      "25618823",
+      "30242699",
+      "34499862",
+      "26038816",
+      "23545411",
+      "31087129",
+      "35159190",
+      "33539788",
+      "23870437",
+      "26460955",
+      "29872431",
+      "32867007",
+      "23792371",
+      "37291499",
+      "33329564",
+      "22561458",
+      "18483079",
+      "33607149",
+      "16246624",
+      "29463679",
+      "22889411",
+      "17280619",
+      "28497578",
+      "35269961",
+      "33935743",
+      "31001145",
+      "29643511",
+      "35037020",
+      "15944777",
+      "37050063",
+      "26818115",
+      "20421650",
+      "31898225",
+      "29043469",
+      "34436169",
+      "27222660",
+      "31859248",
+      "17551511",
+      "29720226",
+      "19489725",
+      "28925398",
+      "23936758",
+      "22721718",
+      "10998601",
+      "36825281",
+      "28579943",
+      "18481982",
+      "33031383",
+      "36091384",
+      "25319221",
+      "27681131",
+      "18047743",
+      "28923951",
+      "12201954",
+      "36747806"
+    ],
+    "review": [
+      "36747789",
+      "24028781",
+      "23528706",
+      "17726579",
+      "35201500",
+      "32445667",
+      "14688465",
+      "32265230",
+      "28455558",
+      "16954532",
+      "34745984",
+      "33160249",
+      "35247307",
+      "23545411",
+      "35159190",
+      "26460955",
+      "29872431",
+      "33329564",
+      "22561458",
+      "33607149",
+      "33935743",
+      "31001145",
+      "31898225",
+      "29043469",
+      "27222660",
+      "19489725",
+      "28925398",
+      "10998601",
+      "36825281",
+      "28579943",
+      "18481982",
+      "36091384",
+      "25319221"
+    ],
+    "pmc": [
+      "9900845"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36747789/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36747789",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.01.23.525198",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

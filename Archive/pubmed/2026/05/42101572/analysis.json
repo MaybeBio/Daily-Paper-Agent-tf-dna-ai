@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42101572",
+  "title": "Lineage Classification of Pituitary Neuroendocrine Tumors From Whole-Slide Images Using Attention-Guided Graph Representation Learning.",
+  "authors": "Hao, Jie; Wang, Chen; Li, Jiao; Du, Jiang; Qian, Qing; Liu, Xing",
+  "journal": "Endocrine pathology",
+  "published_date": "2026-05-08",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用注意力引导图神经网络从H&E全切片图像预测垂体神经内分泌肿瘤的转录因子谱系，虽涉及转录因子概念，但核心是组织病理图像分类，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Pituitary neuroendocrine tumors (PitNETs) are common sellar neoplasms and represent a major component of routine pituitary pathology. In the 2022 World Health Organization (WHO) Classification, transcription factor-defined lineage assignment is central to diagnosis. However, lineage-related morphologic information on routine hematoxylin and eosin (H&E)-stained whole-slide images (WSIs) has not been systematically characterized. We developed an attention-guided graph neural network to predict PitNET lineage directly from H&E-stained WSIs and to identify regions prioritized for classification. Consecutive patients who underwent surgical resection for PitNETs at Beijing Tiantan Hospital between 2021 and 2025 were included. In the internal hold-out set, the five fold-specific models achieved a mean F1-score of 92.78% and a mean balanced accuracy of 94.84%. In a temporally independent validation cohort, the final model achieved an F1-score of 87.64% and a balanced accuracy of 89.48%. Performance varied across lineages and histomorphologic subtypes, and the most common error pattern was misassignment of PIT-1 and T-PIT tumors to SF-1. Attention maps predominantly highlighted tumor-rich regions. Quantitative cell-level morphometry supported lineage-associated patterns, including larger cell and nuclear sizes in PIT-1 tumors, more elongated nuclei in SF-1 tumors, and higher cellular density with reduced intercellular spacing in T-PIT tumors. In six cases with multiple synchronous PitNETs of distinct lineages, patch-level prediction maps corresponded closely to transcription factor immunohistochemistry. In a small exploratory subset with available DNA methylation data, methylation classifier results were concordant with model predictions in 11 of 15 cases and with routine histopathologic diagnoses in 8 of 15 cases. These findings indicate that routine H&E-stained WSIs contain learnable morphologic information related to PitNET lineage. Attention-guided spatial modeling provides an interpretable framework for characterizing lineage-associated patterns in PitNETs.",
+  "abstract_zh": "垂体神经内分泌肿瘤（PitNETs）是常见的鞍区肿瘤，构成常规垂体病理的主要组成部分。在2022年世界卫生组织（WHO）分类中，基于转录因子定义的谱系归属是诊断的核心。然而，常规苏木精-伊红（H&E）染色的全切片图像（WSIs）中与谱系相关的形态学信息尚未得到系统表征。我们开发了一种注意力引导的图神经网络，直接从H&E染色的WSIs预测PitNET谱系，并识别用于分类优先关注的区域。纳入2021年至2025年间在北京天坛医院接受手术切除的连续PitNET患者。在内部留出集中，五个折叠特异性模型的平均F1分数为92.78%，平均平衡准确率为94.84%。在时间独立的验证队列中，最终模型的F1分数为87.64%，平衡准确率为89.48%。性能在不同谱系和组织形态学亚型间存在差异，最常见的错误模式是将PIT-1和T-PIT肿瘤误归为SF-1。注意力图主要突出肿瘤富集区域。定量细胞水平形态计量学支持谱系相关模式，包括PIT-1肿瘤中细胞和核尺寸较大，SF-1肿瘤中核更细长，以及T-PIT肿瘤中细胞密度更高且细胞间间距减小。在六例具有不同谱系同步多发PitNET的病例中，斑块级预测图与转录因子免疫组织化学结果密切对应。在具有可用DNA甲基化数据的小型探索性子集中，甲基化分类器结果在15例中的11例与模型预测一致，在15例中的8例与常规组织病理学诊断一致。这些发现表明，常规H&E染色的WSIs包含与PitNET谱系相关的可学习形态学信息。注意力引导的空间建模为表征PitNET中谱系相关模式提供了可解释的框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42101572/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42101572/",
+  "paper_page_path": "papers/pubmed/42101572/index.html"
+}

@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "38773179",
+    "doi": "10.1038/s41598-024-62457-6",
+    "title": "Role of peritumoral tissue analysis in predicting characteristics of hepatocellular carcinoma using ultrasound-based radiomics."
+  },
+  "content": {
+    "abstract": "Predicting the biological characteristics of hepatocellular carcinoma (HCC) is essential for personalized treatment. This study explored the role of ultrasound-based radiomics of peritumoral tissues for predicting HCC features, focusing on differentiation, cytokeratin 7 (CK7) and Ki67 expression, and p53 mutation status. A cohort of 153 patients with HCC underwent ultrasound examinations and radiomics features were extracted from peritumoral tissues. Subgroups were formed based on HCC characteristics. Predictive modeling was carried out using the XGBOOST algorithm in the differentiation subgroup, logistic regression in the CK7 and Ki67 expression subgroups, and support vector machine learning in the p53 mutation status subgroups. The predictive models demonstrated robust performance, with areas under the curves of 0.815 (0.683-0.948) in the differentiation subgroup, 0.922 (0.785-1) in the CK7 subgroup, 0.762 (0.618-0.906) in the Ki67 subgroup, and 0.849 (0.667-1) in the p53 mutation status subgroup. Confusion matrices and waterfall plots highlighted the good performance of the models. Comprehensive evaluation was carried out using SHapley Additive exPlanations plots, which revealed notable contributions from wavelet filter features. This study highlights the potential of ultrasound-based radiomics, specifically the importance of peritumoral tissue analysis, for predicting HCC characteristics. The results warrant further validation of peritumoral tissue radiomics in larger, multicenter studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/diagnostic imaging/pathology/genetics/metabolism",
+      "*Liver Neoplasms/diagnostic imaging/pathology/genetics/metabolism",
+      "Male",
+      "Female",
+      "*Ultrasonography/methods",
+      "Middle Aged",
+      "Tumor Suppressor Protein p53/genetics/metabolism",
+      "Aged",
+      "Ki-67 Antigen/metabolism",
+      "Mutation",
+      "Adult",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qian, Hongwei",
+        "Huang, Yanhua",
+        "Xu, Luohang",
+        "Fu, Hong",
+        "Lu, Baochun"
+      ],
+      "short_names": [
+        "Qian H",
+        "Huang Y",
+        "Xu L",
+        "Fu H",
+        "Lu B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary and Pancreatic Surgery, Shaoxing People's Hospital, 568 Zhongxing North Road, Shaoxing, 312000, People's Republic of China.",
+        "Shaoxing Key Laboratory of Minimally Invasive Abdominal Surgery and Precise Treatment of Tumor, Shaoxing, People's Republic of China.",
+        "Department of Ultrasound, Shaoxing People's Hospital, Shaoxing, People's Republic of China.",
+        "School of Medicine, Shaoxing University, Shaoxing, Zhejiang, People's Republic of China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, Shaoxing People's Hospital, 568 Zhongxing North Road, Shaoxing, 312000, People's Republic of China.",
+        "Shaoxing Key Laboratory of Minimally Invasive Abdominal Surgery and Precise Treatment of Tumor, Shaoxing, People's Republic of China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, Shaoxing People's Hospital, 568 Zhongxing North Road, Shaoxing, 312000, People's Republic of China. lubaochun@zju.edu.cn.",
+        "Shaoxing Key Laboratory of Minimally Invasive Abdominal Surgery and Precise Treatment of Tumor, Shaoxing, People's Republic of China. lubaochun@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qian, Hongwei",
+        "short_name": "Qian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, Shaoxing People's Hospital, 568 Zhongxing North Road, Shaoxing, 312000, People's Republic of China.",
+          "Shaoxing Key Laboratory of Minimally Invasive Abdominal Surgery and Precise Treatment of Tumor, Shaoxing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanhua",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, Shaoxing People's Hospital, Shaoxing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Luohang",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Shaoxing University, Shaoxing, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Fu, Hong",
+        "short_name": "Fu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, Shaoxing People's Hospital, 568 Zhongxing North Road, Shaoxing, 312000, People's Republic of China.",
+          "Shaoxing Key Laboratory of Minimally Invasive Abdominal Surgery and Precise Treatment of Tumor, Shaoxing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, Baochun",
+        "short_name": "Lu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, Shaoxing People's Hospital, 568 Zhongxing North Road, Shaoxing, 312000, People's Republic of China. lubaochun@zju.edu.cn.",
+          "Shaoxing Key Laboratory of Minimally Invasive Abdominal Surgery and Precise Treatment of Tumor, Shaoxing, People's Republic of China. lubaochun@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 May 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/22 01:52",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "42688662",
+      "42169905",
+      "42095900",
+      "42015304",
+      "41926514",
+      "41718532",
+      "41640432",
+      "41531475",
+      "41112005",
+      "41080942",
+      "40958856",
+      "40547169",
+      "40487953",
+      "39525830",
+      "39367321"
+    ],
+    "refs": [
+      "37934098",
+      "37845287",
+      "37726418",
+      "37711208",
+      "37338553",
+      "37211292",
+      "37126700",
+      "37097141",
+      "36789250",
+      "36786702",
+      "36763316",
+      "36633525",
+      "36511807",
+      "36219111",
+      "36119507",
+      "35892599",
+      "35136934",
+      "34480625",
+      "33981625",
+      "33152284",
+      "32811570",
+      "32729298",
+      "32060219",
+      "31410221",
+      "31363003",
+      "30813956",
+      "30808773",
+      "28874414",
+      "28532995",
+      "26525581",
+      "22257792",
+      "16545965"
+    ],
+    "similar": [
+      "38773179",
+      "41237121",
+      "40730778",
+      "40624579",
+      "32756021",
+      "40958856",
+      "40653800",
+      "41325721",
+      "40181337",
+      "41161266",
+      "40702274",
+      "34130644",
+      "39972270",
+      "40595796",
+      "41354910",
+      "40640519",
+      "38461433",
+      "39472207",
+      "35435082",
+      "38808580",
+      "30666445",
+      "39964132",
+      "37338553",
+      "41047815",
+      "38044998",
+      "32002645",
+      "32696256",
+      "38182442",
+      "34480625",
+      "38536542",
+      "30813956",
+      "40165094",
+      "39964391",
+      "34106622",
+      "38642400",
+      "30419849",
+      "32749585",
+      "39438929",
+      "40792413",
+      "37875815",
+      "41372085",
+      "38681988",
+      "40100771",
+      "39675785",
+      "41388520",
+      "40601290",
+      "40778463",
+      "39948208",
+      "39332987",
+      "31444598",
+      "40597775",
+      "39256084",
+      "33826360",
+      "33954191",
+      "38849749",
+      "40813442",
+      "39649551",
+      "40357300",
+      "37711208",
+      "39648099",
+      "38997568",
+      "31735556",
+      "35001883",
+      "40419462",
+      "37155523",
+      "40505357",
+      "39788813",
+      "40519034",
+      "39181825",
+      "40954349",
+      "38515051",
+      "40082786",
+      "39907719",
+      "41053269",
+      "39934078",
+      "39944703",
+      "40986010",
+      "40747552",
+      "38344854",
+      "39029924",
+      "38744698",
+      "40312321",
+      "28180924",
+      "40350346",
+      "39572295",
+      "40532770",
+      "39738357",
+      "38750156",
+      "41014537",
+      "40931250",
+      "40933208",
+      "38489805",
+      "36159012",
+      "40893558",
+      "30876945",
+      "30240304",
+      "38864473",
+      "33483803",
+      "38577448",
+      "39574126"
+    ],
+    "review": [
+      "38773179",
+      "40532770"
+    ],
+    "pmc": [
+      "11109225"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-62457-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38773179/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38773179",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

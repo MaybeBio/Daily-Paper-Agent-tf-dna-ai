@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, conclusion, methods, and supplementary file list
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors identify a single amino acid change (G31D) in the Rhino chromodomain that disrupts the Kipferl-Rhino interaction without affecting H3K9me2/3 binding, and show that this mutation phenocopies kipferl mutants in vivo, establishing the chromodomain as a dual-specificity module for both histone marks and a DNA-binding protein
+- **Visible evidence base** Phylogenetic analyses, AlphaFold2-Multimer predictions, SEC-MALS, circular dichroism, ITC, ChIP-seq, small RNA-seq, RNA FISH, and embryo hatching assays as described in the text
+- **Missing materials affecting confidence** Figures and figure supplements are referenced but not provided; numerical data for ChIP-seq and small RNA-seq analyses are not shown; statistical details for hatching rate measurements are incomplete; no raw data or reproducibility metrics are available
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a compelling question in chromatin biology, namely how a specialized HP1 protein achieves locus-specific targeting through a protein-protein interaction that is independent of its canonical histone-binding activity. The identification of a single residue, G31, that distinguishes Rhino from other HP1 proteins and is required for Kipferl binding is conceptually interesting and potentially significant. However, the evidence presented in the text is insufficient to fully establish the central claims. The in vitro binding data are limited to a single peptide modification state, the in vivo phenotypic analyses rely on qualitative or semi-quantitative assessments, and the structural predictions, while suggestive, are not experimentally validated. The manuscript would benefit from additional biochemical and structural evidence, as well as more quantitative phenotypic characterization.
+- **Who would be interested in the results, and why** Researchers studying heterochromatin biology, HP1 protein family function, piRNA pathway mechanisms, and the evolution of protein-protein interaction specificity. The work also has relevance for those interested in how single amino acid changes can rewire protein interaction networks and contribute to functional diversification within gene families.
+- **Major strengths** The study addresses a fundamental question about how chromatin-binding proteins achieve specificity beyond their histone mark recognition. The evolutionary analysis is thoughtful and provides a clear rationale for focusing on residue 31. The use of a point mutation to genetically separate Kipferl-dependent and Kipferl-independent functions of Rhino is elegant and provides a clean experimental strategy. The phenotypic concordance between rhino G31D and kipferl mutants across multiple assays strengthens the conclusion that the primary defect is in the Rhino-Kipferl interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the G31D mutation specifically disrupts the Kipferl-Rhino interaction without affecting H3K9me2/3 binding is central to the manuscript
+  - **Evidence pointer** Results section, Figure 2B, ITC experiments
+  - **Concern** The ITC data are presented for H3K9me3 peptides only. The authors state that G31D and G31A mutants show affinities comparable to wildtype, but the text does not report whether H3K9me2 binding was tested. Given that Rhino is reported to bind both H3K9me2 and H3K9me3, and the manuscript title emphasizes "chromatin and DNA sequence signals," the absence of H3K9me2 data is a notable gap. Furthermore, the thermodynamic parameters are described as "slightly changed" without quantitative details, making it difficult to assess whether these changes are biologically meaningful.
+  - **Why it matters** The claim that G31D does not affect histone binding is essential for the interpretation that the mutant specifically uncouples Rhino from Kipferl. If G31D also partially impairs H3K9me2 binding, the phenotypic consequences could be due to combined effects rather than a clean separation of functions.
+  - **Resolution test** Provide ITC or alternative binding data for H3K9me2 peptides for all constructs, with full thermodynamic parameters and statistical comparisons. If H3K9me2 binding is affected, the interpretation must be revised.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that rhino G31D phenocopies kipferl mutants at the molecular level, specifically regarding Rhino redistribution and piRNA profile changes
+  - **Evidence pointer** Results section, Figures 4 and 5
+  - **Concern** The ChIP-seq and small RNA-seq data are described qualitatively in the text. The authors state that Rhino G31D chromatin occupancy is "almost indistinguishable" from that of wildtype Rhino in kipferl mutants, and that piRNA levels are similarly affected, but no quantitative metrics such as correlation coefficients, overlap statistics, or differential enrichment analyses are provided. The RNA FISH experiments are described as showing "strongly elevated" transcription and "reminiscent" phenotypes, but no quantification or statistical testing is presented.
+  - **Why it matters** The conclusion that G31D phenocopies kipferl mutants is a key pillar of the manuscript. Without quantitative evidence demonstrating the extent of similarity between the two genotypes, the claim remains suggestive rather than established.
+  - **Resolution test** Provide quantitative comparisons of ChIP-seq and small RNA-seq data between genotypes, including genome-wide correlation analyses, identification of differentially bound regions, and statistical tests for piRNA level changes. Quantify RNA FISH signals with appropriate statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The claim that AlphaFold2-Multimer predictions support a specific interaction interface involving residue 31
+  - **Evidence pointer** Results section, Figure 1C and figure supplements
+  - **Concern** The structural predictions are used to rationalize the choice of G31D as the key mutation, but no experimental validation of the predicted interface is provided. The authors do not test whether mutations in Kipferl residues V285 or F286, predicted to clash with D31, affect the interaction. Additionally, the text mentions that the G62 insertion does not participate in contacts, but no functional test of this residue is presented.
+  - **Why it matters** Structural predictions, while useful for hypothesis generation, are not substitutes for experimental evidence. The manuscript would be strengthened by mutagenesis of the predicted interface residues in both Rhino and Kipferl to confirm the interaction surface.
+  - **Resolution test** Perform site-directed mutagenesis of Kipferl residues predicted to contact Rhino residue 31 and test the effects on binding in vitro or in vivo. Alternatively, provide a high-resolution structure of the complex.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The claim that the G31D mutation reverts Rhino to an ancestral state and that this represents an evolutionary adaptation
+  - **Evidence pointer** Results section, Figure 1B, phylogenetic analyses
+  - **Concern** The evolutionary narrative is intriguing but the evidence is limited. The authors identify G31 as Rhino-specific and D31 as conserved in other HP1 proteins, but they do not demonstrate that the D31 state is ancestral or that the G31D change was adaptive. The statement that G31 is conserved "even in species that lack a clearly identifiable Kipferl ortholog" is interesting but not explored mechanistically.
+  - **Why it matters** The title and framing of the manuscript emphasize evolutionary adaptation. Without evidence for positive selection, ancestral state reconstruction, or functional consequences of the ancestral state, the evolutionary claims remain speculative.
+  - **Resolution test** Perform ancestral state reconstruction of residue 31 across a broader phylogeny. Test whether the D31 variant in species without Kipferl orthologs has different interaction properties. Consider whether the G31D change is associated with Kipferl co-evolution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that HP1 proteins have "similar affinities" for H3K9me2/3, but the text later notes that Rhino has a specialized function. The phrasing could be clarified to distinguish between in vitro affinities and in vivo binding patterns.
+  - **Required correction** Rephrase to indicate that despite similar in vitro affinities, in vivo binding patterns differ, which is the motivation for the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, hatching rate data
+  - **Evidence pointer** Results section, Figure 3A
+  - **Issue** The hatching rate for rhino G31D is reported as 21 ± 9%, but the number of biological replicates and the statistical comparison to controls and kipferl mutants are not stated.
+  - **Required correction** Provide the number of replicates, the statistical test used, and the p-values for comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section, Figure 5
+  - **Evidence pointer** Results section, Figure 5E
+  - **Issue** The text states that piRNAs are reduced at Kipferl-dependent clusters but not at Kipferl-independent clusters, yet the figure is not available for verification. The distinction between cluster types should be defined more explicitly.
+  - **Required correction** Define the criteria for Kipferl-dependent versus Kipferl-independent clusters in the text or methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion of ancestral state
+  - **Evidence pointer** Conclusion section
+  - **Issue** The conclusion states that G31D reverts Rhino to its "ancestral state," but the evidence for this is not presented in the results. The phylogenetic analysis identifies D31 as conserved in other HP1 proteins, but this does not establish ancestry.
+  - **Required correction** Soften the language to "the state found in other HP1 proteins" or provide explicit ancestral state reconstruction.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, AlphaFold predictions
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that AlphaFold2-Multimer was used with specific software versions, but no details on the input sequences, multiple sequence alignments, or confidence metrics are provided.
+  - **Required correction** Provide the input sequences, the version of ColabFold, and the predicted alignment error or confidence scores for the key interface.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative data for ChIP-seq, small RNA-seq, and RNA FISH experiments (R1-M2) is a critical gap that prevents assessment of the central phenotypic claims. The absence of H3K9me2 binding data (R1-M1) undermines the claim of specificity. The lack of experimental validation of the predicted interaction interface (R1-M3) weakens the mechanistic model.
+- **Assessment against Nature-style criteria** Originality: The concept of a chromodomain functioning as a dual-specificity module for both histone marks and a protein interaction is novel and potentially significant. Scientific importance: The work has implications for understanding HP1 protein specialization and piRNA pathway regulation, which are of broad interest. Interdisciplinary readership: The topic bridges chromatin biology, evolutionary biology, and structural biology, and should appeal to a broad audience. Technical soundness: The in vitro biochemistry is generally sound, but the in vivo analyses lack quantitative rigor, and the structural predictions are not experimentally validated. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with piRNA biology and Drosophila genetics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the genetic approach is elegant, but the current evidence is insufficient to fully establish the claims. The manuscript would be suitable for publication after the addition of quantitative phenotypic data, H3K9me2 binding experiments, and experimental validation of the interaction interface.
+
+## Risk / unsupported claims
+- The claim that G31D does not affect H3K9me2 binding is unsupported because only H3K9me3 was tested
+- The claim that rhino G31D phenocopies kipferl mutants is not quantitatively established due to lack of statistical analysis in ChIP-seq, small RNA-seq, and RNA FISH data
+- The claim that the G31D mutation reverts Rhino to an ancestral state is not supported by ancestral state reconstruction
+- The predicted interaction interface from AlphaFold2-Multimer is not experimentally validated
+- The statement that G31 is conserved in species without Kipferl orthologs is presented without functional or evolutionary analysis
+- The claim that Rhino remains "fully functional" at Kipferl-independent loci is based on qualitative assessments and lacks quantitative support

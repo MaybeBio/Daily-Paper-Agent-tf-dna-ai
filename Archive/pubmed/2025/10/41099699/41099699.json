@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "41099699",
+    "doi": "10.1093/nar/gkaf1014",
+    "title": "Mapping transcription factor binding sites by learning UV damage fingerprints."
+  },
+  "content": {
+    "abstract": "Deciphering transcriptional networks requires methods to accurately map binding sites of sequence-specific transcription factors (ssTFs) across the genome. Here, we show that ssTF binding induces distinct patterns of UV-induced cyclobutane pyrimidine dimers (CPDs), and that these CPD 'fingerprints' can be exploited by machine learning methods to identify ssTF binding sites (TFBS). As a proof of principle, we analyzed CPD-seq data from yeast cells using the Random Forest algorithm to identify 75 TFBS bound by the Hap2/Hap3/Hap5 ssTF complex, including  approximately 25 new sites missed by previous chromatin immunoprecipitation (ChIP)-based experiments. Parallel analysis of the Gcr1 ssTF using a neural network trained on CPD-seq data including only 6 known binding sites identified 63 Gcr1 TFBS across the genome. Our analysis indicates that the newly identified TFBS are associated with many genes that function in expected categories (e.g. mitochondrial respiration or glycolysis), and whose mRNA levels are down-regulated in ssTF mutants. Similar analysis of CPD-capture-sequencing data from human cells identified new sites bound by the homologous Nuclear Factor-Y complex. These findings indicate that distinct cellular patterns of UV damage occurring at different classes of TFBS can be recognized by machine learning methods to map these regulatory elements with improved accuracy and single-nucleotide resolution.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Ultraviolet Rays",
+      "*Transcription Factors/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "Pyrimidine Dimers/metabolism",
+      "Saccharomyces cerevisiae/genetics/metabolism/radiation effects",
+      "Saccharomyces cerevisiae Proteins/metabolism/genetics",
+      "*DNA Damage",
+      "Protein Binding",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wilson, Hannah E",
+        "Stevison, Scott",
+        "Lamprey, Levi",
+        "Wyrick, John J"
+      ],
+      "short_names": [
+        "Wilson HE",
+        "Stevison S",
+        "Lamprey L",
+        "Wyrick JJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7911-3803"
+      ],
+      "affiliations": [
+        "School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wilson, Hannah E",
+        "short_name": "Wilson HE",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA."
+        ]
+      },
+      {
+        "full_name": "Stevison, Scott",
+        "short_name": "Stevison S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA."
+        ]
+      },
+      {
+        "full_name": "Lamprey, Levi",
+        "short_name": "Lamprey L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA."
+        ]
+      },
+      {
+        "full_name": "Wyrick, John J",
+        "short_name": "Wyrick JJ",
+        "identifiers": [
+          "0000-0002-7911-3803"
+        ],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Oct 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/16 12:31",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "42230802"
+    ],
+    "refs": [
+      "37563719",
+      "37169761",
+      "37169747",
+      "36853943",
+      "35401495",
+      "34487363",
+      "34001524",
+      "33692541",
+      "33603233",
+      "32908305",
+      "32728250",
+      "32681485",
+      "32413318",
+      "31723047",
+      "31462772",
+      "30586386",
+      "30531897",
+      "29980679",
+      "29425488",
+      "29220449",
+      "28607063",
+      "28079019",
+      "27989936",
+      "27457959",
+      "26354429",
+      "25893143",
+      "25693563",
+      "24766815",
+      "24695404",
+      "24413663",
+      "24349523",
+      "24222688",
+      "24173036",
+      "24092746",
+      "22955616",
+      "22517427",
+      "22388286",
+      "22153082",
+      "22084422",
+      "22050321",
+      "21056045",
+      "20421872",
+      "20110278",
+      "19959498",
+      "19736561",
+      "19505943",
+      "17417638",
+      "15343339",
+      "15173120",
+      "12431279",
+      "11333224",
+      "11125145",
+      "10940042",
+      "9845373",
+      "9510529",
+      "9271107",
+      "8508768",
+      "7828851",
+      "6728031",
+      "3917574",
+      "3886158",
+      "3543694",
+      "3316228",
+      "212715"
+    ],
+    "similar": [
+      "41099699",
+      "41365654",
+      "40498072",
+      "32681485",
+      "27457959",
+      "29980679",
+      "38722894",
+      "8596534",
+      "9889199",
+      "35944237",
+      "29581276",
+      "26429065",
+      "39043658",
+      "16516562",
+      "9354642",
+      "35486666",
+      "37554110",
+      "9096229",
+      "36853943",
+      "38241433",
+      "11937634",
+      "33347579",
+      "22405652",
+      "11866513",
+      "8961932",
+      "15913668",
+      "9343383",
+      "34330711",
+      "8602168",
+      "25934506",
+      "39762049",
+      "7567456",
+      "37169747",
+      "25249628",
+      "9875293",
+      "20946807",
+      "37169761",
+      "31087298",
+      "35005641",
+      "7526203",
+      "17290000",
+      "3323836",
+      "8836174",
+      "34487363",
+      "31723047",
+      "38884271",
+      "15713619",
+      "24927817",
+      "28607063",
+      "24386279",
+      "8602169",
+      "29018037",
+      "11973294",
+      "22262850",
+      "9108289",
+      "33731963",
+      "8516285",
+      "39541188",
+      "25560196",
+      "23636944",
+      "25559499",
+      "26837048",
+      "19150617",
+      "9046084",
+      "11782531",
+      "40114379",
+      "22743272",
+      "15789351",
+      "33904398",
+      "7602584",
+      "16362910",
+      "9750104",
+      "30586386",
+      "23313845",
+      "10773073",
+      "40530698",
+      "21698136",
+      "9858617",
+      "27796045",
+      "19740755",
+      "28719581",
+      "7012136",
+      "18508805",
+      "15668165",
+      "8552076",
+      "21251107",
+      "30127008",
+      "10637337",
+      "15121904",
+      "7750140",
+      "41219227",
+      "23427986",
+      "16392251",
+      "28735741",
+      "10677683",
+      "9321645",
+      "10354066",
+      "18950648",
+      "20056654",
+      "24947012"
+    ],
+    "review": [
+      "41099699",
+      "26429065",
+      "27796045"
+    ],
+    "pmc": [
+      "12526043"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41099699/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1014",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

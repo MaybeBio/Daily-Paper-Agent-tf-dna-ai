@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39190324",
+  "title": "Statistical accuracy of molecular dynamics-based methods for sampling conformational ensembles of disordered proteins.",
+  "authors": "Bastida, Adolfo; Zuniga, Jose; Fogolari, Federico; Soler, Miguel A",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2024-08-27",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文比较无序蛋白构象采样的MD方法并开发PMD-CG协议，虽涉及蛋白构象建模，但对象为无序蛋白而非蛋白质-DNA互作，方法可迁移性有限。",
+  "abstract": "The characterization of the statistical ensemble of conformations of intrinsically disordered regions (IDRs) is a great challenge both from experimental and computational points of view. In this respect, a number of protocols have been developed using molecular dynamics (MD) simulations to sample the huge conformational space of the molecule. In this work, we consider one of the best methods available, replica exchange solute tempering (REST), as a reference to compare the results obtained using this method with the results obtained using other methods, in terms of experimentally measurable quantities. Along with the methods assessed, we propose here a novel protocol called probabilistic MD chain growth (PMD-CG), which combines the flexible-meccano and hierarchical chain growth methods with the statistical data obtained from tripeptide MD trajectories as the starting point. The system chosen for testing is a 20-residue region from the C-terminal domain of the p53 tumor suppressor protein (p53-CTD). Our results show that PMD-CG provides an ensemble of conformations extremely quickly, after suitable computation of the conformational pool for all peptide triplets of the IDR sequence. The measurable quantities computed on the ensemble of conformations agree well with those based on the REST conformational ensemble.",
+  "abstract_zh": "intrinsically disordered regions (IDRs) 构象统计系综的表征，无论从实验还是计算角度来看，都是一项巨大挑战。在这方面，已开发出多种利用分子动力学 (molecular dynamics, MD) 模拟来采样分子巨大构象空间的协议。在本工作中，我们选取现有最佳方法之一——副本交换溶质升温 (replica exchange solute tempering, REST) 作为参考，以比较该方法与其他方法在实验可测量量方面所得结果。在评估的方法之外，我们提出了一种新协议，称为概率性MD链增长 (probabilistic MD chain growth, PMD-CG)，该协议将flexible-meccano和层次链增长方法与从三肽MD轨迹获得的统计数据相结合，作为起点。用于测试的系统是p53肿瘤抑制蛋白C端结构域 (p53-CTD) 中的一个20残基区域。我们的结果表明，在适当计算IDR序列所有肽三联体的构象池后，PMD-CG能极其快速地提供构象系综。基于该构象系综计算的可测量量与基于REST构象系综的结果吻合良好。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39190324/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39190324/",
+  "paper_page_path": "papers/pubmed/39190324/index.html"
+}

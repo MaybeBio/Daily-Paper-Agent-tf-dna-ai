@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "39489778",
+    "doi": "10.1038/s41467-024-53758-5",
+    "title": "Decoding the epigenetics and chromatin loop dynamics of androgen receptor-mediated transcription."
+  },
+  "content": {
+    "abstract": "Androgen receptor (AR)-mediated transcription plays a critical role in development and prostate cancer growth. AR drives gene expression by binding to thousands of cis-regulatory elements (CRE) that loop to hundreds of target promoters. With multiple CREs interacting with a single promoter, it remains unclear how individual AR bound CREs contribute to gene expression. To characterize the involvement of these CREs, we investigate the AR-driven epigenetic and chromosomal chromatin looping changes by generating a kinetic multi-omic dataset comprised of steady-state mRNA, chromatin accessibility, transcription factor binding, histone modifications, chromatin looping, and nascent RNA. Using an integrated regulatory network, we find that AR binding induces sequential changes in the epigenetic features at CREs, independent of gene expression. Further, we show that binding of AR does not result in a substantial rewiring of chromatin loops, but instead increases the contact frequency of pre-existing loops to target promoters. Our results show that gene expression strongly correlates to the changes in contact frequency. We then propose and experimentally validate an unbalanced multi-enhancer model where the impact on gene expression of AR-bound enhancers is heterogeneous, and is proportional to their contact frequency with target gene promoters. Overall, these findings provide insights into AR-mediated gene expression upon acute androgen simulation and develop a mechanistic framework to investigate nuclear receptor mediated perturbations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Receptors, Androgen/metabolism/genetics",
+      "*Chromatin/metabolism/genetics",
+      "Humans",
+      "*Epigenesis, Genetic",
+      "*Promoter Regions, Genetic",
+      "Male",
+      "*Prostatic Neoplasms/genetics/metabolism",
+      "*Transcription, Genetic",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "Enhancer Elements, Genetic",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Altintas, Umut Berkay",
+        "Seo, Ji-Heui",
+        "Giambartolomei, Claudia",
+        "Ozturan, Dogancan",
+        "Fortunato, Brad J",
+        "Nelson, Geoffrey M",
+        "Goldman, Seth R",
+        "Adelman, Karen",
+        "Hach, Faraz",
+        "Freedman, Matthew L",
+        "Lack, Nathan A"
+      ],
+      "short_names": [
+        "Altintas UB",
+        "Seo JH",
+        "Giambartolomei C",
+        "Ozturan D",
+        "Fortunato BJ",
+        "Nelson GM",
+        "Goldman SR",
+        "Adelman K",
+        "Hach F",
+        "Freedman ML",
+        "Lack NA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0861-5013",
+        "ORCID: 0000-0003-2786-1225",
+        "ORCID: 0000-0001-9825-4241",
+        "ORCID: 0000-0001-5096-3778",
+        "ORCID: 0000-0001-5364-334X",
+        "ORCID: 0000-0002-0151-1238",
+        "ORCID: 0000-0001-7399-5844"
+      ],
+      "affiliations": [
+        "Vancouver Prostate Centre, University of British Columbia, Vancouver, BC, V6H 3Z6, Canada.",
+        "Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "Integrative Data Analysis Unit, Health Data Science Centre, Human Technopole, Milan, 20157, Italy.",
+        "Department of Pathology and Laboratory Medicine, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, 90024, USA.",
+        "Vancouver Prostate Centre, University of British Columbia, Vancouver, BC, V6H 3Z6, Canada.",
+        "Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.",
+        "The Eli and Edythe L. Broad Institute, Boston, MA, 02142, USA.",
+        "Vancouver Prostate Centre, University of British Columbia, Vancouver, BC, V6H 3Z6, Canada.",
+        "Department of Urologic Sciences, University of British Columbia, Vancouver, BC, V5Z 1M9, Canada.",
+        "Department of Computer Science, University of British Columbia, Vancouver, BC, V6T 1Z4, Canada.",
+        "Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "The Eli and Edythe L. Broad Institute, Boston, MA, 02142, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "Vancouver Prostate Centre, University of British Columbia, Vancouver, BC, V6H 3Z6, Canada. nlack@prostatecentre.com.",
+        "Department of Urologic Sciences, University of British Columbia, Vancouver, BC, V5Z 1M9, Canada. nlack@prostatecentre.com.",
+        "Department of Medical Pharmacology, School of Medicine, Koc University, Istanbul, 34450, Turkey. nlack@prostatecentre.com.",
+        "Koc University Research Centre for Translational Medicine (KUTTAM), Koc University, 34450, Istanbul, Turkey. nlack@prostatecentre.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Altıntaş, Umut Berkay",
+        "short_name": "Altıntaş UB",
+        "identifiers": [
+          "0000-0002-0861-5013"
+        ],
+        "affiliations": [
+          "Vancouver Prostate Centre, University of British Columbia, Vancouver, BC, V6H 3Z6, Canada."
+        ]
+      },
+      {
+        "full_name": "Seo, Ji-Heui",
+        "short_name": "Seo JH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA, 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Giambartolomei, Claudia",
+        "short_name": "Giambartolomei C",
+        "identifiers": [
+          "0000-0003-2786-1225"
+        ],
+        "affiliations": [
+          "Integrative Data Analysis Unit, Health Data Science Centre, Human Technopole, Milan, 20157, Italy.",
+          "Department of Pathology and Laboratory Medicine, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, 90024, USA."
+        ]
+      },
+      {
+        "full_name": "Ozturan, Dogancan",
+        "short_name": "Ozturan D",
+        "identifiers": [],
+        "affiliations": [
+          "Vancouver Prostate Centre, University of British Columbia, Vancouver, BC, V6H 3Z6, Canada."
+        ]
+      },
+      {
+        "full_name": "Fortunato, Brad J",
+        "short_name": "Fortunato BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA, 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Nelson, Geoffrey M",
+        "short_name": "Nelson GM",
+        "identifiers": [
+          "0000-0001-9825-4241"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.",
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Goldman, Seth R",
+        "short_name": "Goldman SR",
+        "identifiers": [
+          "0000-0001-5096-3778"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Adelman, Karen",
+        "short_name": "Adelman K",
+        "identifiers": [
+          "0000-0001-5364-334X"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.",
+          "The Eli and Edythe L. Broad Institute, Boston, MA, 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Hach, Faraz",
+        "short_name": "Hach F",
+        "identifiers": [],
+        "affiliations": [
+          "Vancouver Prostate Centre, University of British Columbia, Vancouver, BC, V6H 3Z6, Canada.",
+          "Department of Urologic Sciences, University of British Columbia, Vancouver, BC, V5Z 1M9, Canada.",
+          "Department of Computer Science, University of British Columbia, Vancouver, BC, V6T 1Z4, Canada."
+        ]
+      },
+      {
+        "full_name": "Freedman, Matthew L",
+        "short_name": "Freedman ML",
+        "identifiers": [
+          "0000-0002-0151-1238"
+        ],
+        "affiliations": [
+          "Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+          "The Eli and Edythe L. Broad Institute, Boston, MA, 02142, USA.",
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Lack, Nathan A",
+        "short_name": "Lack NA",
+        "identifiers": [
+          "0000-0001-7399-5844"
+        ],
+        "affiliations": [
+          "Vancouver Prostate Centre, University of British Columbia, Vancouver, BC, V6H 3Z6, Canada. nlack@prostatecentre.com.",
+          "Department of Urologic Sciences, University of British Columbia, Vancouver, BC, V5Z 1M9, Canada. nlack@prostatecentre.com.",
+          "Department of Medical Pharmacology, School of Medicine, Koç University, Istanbul, 34450, Turkey. nlack@prostatecentre.com.",
+          "Koç University Research Centre for Translational Medicine (KUTTAM), Koç University, 34450, Istanbul, Turkey. nlack@prostatecentre.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Nov 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 00:31",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "42455165",
+      "42306870",
+      "42249067",
+      "42213546",
+      "42170760",
+      "42004222",
+      "41995134",
+      "41756902",
+      "41221676",
+      "41136393",
+      "41009620",
+      "40968254",
+      "40833121",
+      "40646276",
+      "40315432",
+      "40149599",
+      "39560645",
+      "39208923"
+    ],
+    "refs": [
+      "38409389",
+      "37430091",
+      "37059094",
+      "36859550",
+      "35190730",
+      "34911936",
+      "34822763",
+      "34496233",
+      "34272393",
+      "33975627",
+      "33872375",
+      "33785741",
+      "33442000",
+      "33257899",
+      "33235358",
+      "32946061",
+      "32690948",
+      "32085783",
+      "32015543",
+      "31784727",
+      "31605096",
+      "31530818",
+      "30890172",
+      "30865928",
+      "30840881",
+      "30837461",
+      "30504875",
+      "30031775",
+      "29726898",
+      "29649993",
+      "29378787",
+      "29089515",
+      "28945252",
+      "28483418",
+      "28263959",
+      "27918583",
+      "27643841",
+      "27623747",
+      "27057074",
+      "26687625",
+      "26457646",
+      "25237629",
+      "24463181",
+      "23104886",
+      "23034120",
+      "21915096",
+      "21321607",
+      "21106759",
+      "20639541",
+      "20110278",
+      "20103546",
+      "19451168",
+      "18798982",
+      "18772429",
+      "18675948",
+      "16199517",
+      "16160692",
+      "15657128",
+      "15523479",
+      "15332082",
+      "15123803",
+      "12269826",
+      "12185249",
+      "11943742",
+      "11250145",
+      "11043577",
+      "9489694",
+      "6831420"
+    ],
+    "similar": [
+      "39489778",
+      "38352568",
+      "30865928",
+      "15308689",
+      "23019221",
+      "33975627",
+      "24423874",
+      "18780293",
+      "23887938",
+      "25693204",
+      "34911936",
+      "40056843",
+      "24778216",
+      "30606742",
+      "19433513",
+      "27641228",
+      "27546619",
+      "35269520",
+      "14715080",
+      "21730289",
+      "39106160",
+      "39954255",
+      "24103312",
+      "23056316",
+      "23209612",
+      "16980632",
+      "22212979",
+      "29116202",
+      "32333502",
+      "21330406",
+      "34127815",
+      "18559499",
+      "15833875",
+      "31515496",
+      "39709604",
+      "32946061",
+      "22665440",
+      "18787043",
+      "12775722",
+      "23318417",
+      "26175158",
+      "25552417",
+      "23034120",
+      "39560645",
+      "20890304",
+      "25132193",
+      "36125208",
+      "16455820",
+      "28582660",
+      "19520769",
+      "23349811",
+      "37828515",
+      "27378372",
+      "27672034",
+      "23893242",
+      "28062857",
+      "21047772",
+      "24174655",
+      "35523048",
+      "30930119",
+      "22083957",
+      "30115758",
+      "23369005",
+      "17975021",
+      "15156193",
+      "40082405",
+      "22383394",
+      "20728506",
+      "28412251",
+      "30317630",
+      "24913494",
+      "34297060",
+      "16373395",
+      "29917167",
+      "33408781",
+      "11299720",
+      "27268279",
+      "17679089",
+      "10551783",
+      "21909421",
+      "12140757",
+      "24801505",
+      "18541154",
+      "20634343",
+      "18070607",
+      "18245227",
+      "24875621",
+      "15640154",
+      "17494760",
+      "38851846",
+      "15131260",
+      "19789348",
+      "19632176",
+      "25908785",
+      "23851444",
+      "19884383",
+      "34265399",
+      "25132524",
+      "17553165",
+      "25008967"
+    ],
+    "review": [
+      "39489778",
+      "30865928",
+      "35269520"
+    ],
+    "pmc": [
+      "11532539"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-024-53758-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39489778/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse251893",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

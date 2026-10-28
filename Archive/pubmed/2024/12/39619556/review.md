@@ -1,0 +1,122 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Computational analysis only; no experimental validation data provided
+- **Shared manuscript claim summary** The authors report that five nonsynonymous SNPs in the CmoAP2/ERF transcription factor gene (CmoCh3G009850) of pumpkin (Cucurbita moschata) confer enhanced resistance to powdery mildew (Podosphaera xanthii) by stabilizing the protein-DNA interaction, as inferred from homology modeling, protein-DNA docking, and 100 ns molecular dynamics simulations.
+- **Visible evidence base** Text descriptions of methods and results; figures referenced but not visible; Table 1 referenced; Table S1 referenced; Figure S1 referenced
+- **Missing materials affecting confidence** Figures 1-6, Table 1, Table S1, Figure S1, and all supplementary material were not provided. No experimental validation data (e.g., gene expression, phenotypic assays, transgenic plants) are included.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational study aimed at explaining how five naturally occurring mutations in a pumpkin AP2/ERF transcription factor may enhance resistance to powdery mildew. The authors model the protein structure, dock it to DNA, and run 100 ns MD simulations to compare wild-type and mutant complexes. The topic is of potential interest to plant breeders and molecular biologists working on disease resistance. However, the manuscript has several critical weaknesses. The causal link between the mutations and disease resistance is asserted rather than demonstrated, the computational methods lack key details and validation, the reported metrics are not placed in statistical context, and the connection to the biological phenotype is speculative. The study may serve as a hypothesis-generating exercise, but it does not establish the claimed mechanism from the evidence provided.
+- **Who would be interested in the results, and why** Plant geneticists and breeders working on cucurbit disease resistance may find the identification of specific mutations in a transcription factor of interest as a potential marker for marker-assisted selection. Computational biologists studying protein-DNA interactions may be interested in the methodological approach. However, the lack of experimental validation limits the audience to those interested in preliminary in silico screening.
+- **Major strengths** The manuscript addresses a practically important problem, namely powdery mildew resistance in pumpkin. The use of multiple complementary computational metrics (RMSD, RMSF, Rg, SASA, hydrogen bonding, PCA) is appropriate for assessing complex stability. The authors correctly acknowledge the need for future experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence mismatch
+  - **Claim pointer** The abstract and conclusions state that the mutations "make a stable and compact complex with DNA rather than the WT protein" and that this "represents a significant advancement for the breeding and cultivation of C. moschata varieties resistant against powdery mildew."
+  - **Evidence pointer** Results and Discussion, Figures 5 and 6; Conclusions
+  - **Concern** The central claim that the five mutations confer disease resistance is not supported by any direct experimental evidence. The study is entirely computational. No data are presented showing that the mutant gene correlates with resistance in planta, that the protein actually binds the proposed DNA sequence in vivo, or that the observed structural differences translate to functional differences in gene regulation. The leap from MD simulation metrics to a disease resistance mechanism is not justified.
+  - **Why it matters** The title and abstract promise an "enhanced disease resistance mechanism," but the manuscript only reports in silico structural stability differences. Without phenotypic or molecular validation, the claim is unsupported and potentially misleading for readers who may take the resistance mechanism as established.
+  - **Resolution test** Provide experimental evidence such as gene expression analysis in resistant vs. susceptible pumpkin lines, yeast one-hybrid or EMSA assays showing DNA binding, or transgenic complementation studies demonstrating that the mutant allele confers resistance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The methods state that the protein was modeled with I-TASSER and that the model was refined by 50 ns MD simulation, after which quality improved from 65.2% to 82.5% favored residues in the Ramachandran plot.
+  - **Evidence pointer** Materials and Methods, Protein Preparation; Results and Discussion, Validation of the Modeled Structure; Table 1
+  - **Concern** The model validation is inadequate. A final Ramachandran plot with only 82.5% of residues in favored regions is generally considered poor for a high-quality model. The authors do not report other essential validation metrics such as QMEAN, ProSA, or MolProbity scores. The RMSD of 12.136 Å between the initial and simulated models is extremely large and suggests the model underwent major conformational rearrangement, which raises questions about the reliability of the starting model. The template structures used by I-TASSER are not disclosed, and the sequence identity to templates is not reported.
+  - **Why it matters** The entire study rests on the quality of the modeled structures. If the models are unreliable, all subsequent docking and MD results are questionable. The reported quality metrics are insufficient to establish confidence in the structural interpretations.
+  - **Resolution test** Provide a full set of validation metrics for both wild-type and mutant models, disclose the I-TASSER templates and confidence scores (C-score, TM-score), and justify the large structural rearrangement observed during the refinement simulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The methods state that DNA was obtained from PDB entry 7WQ5 and docked to the protein using HDOCK, and that five mutations were introduced using PyMol.
+  - **Evidence pointer** Materials and Methods, Protein-DNA Docking
+  - **Concern** Critical methodological details are missing. The authors do not specify which DNA sequence was used, how it was prepared, whether the DNA was docked as a duplex, or how the docking poses were selected and scored. The HDOCK docking score is not reported. The mutation protocol in PyMol is not described (e.g., which rotamer library was used, how side-chain clashes were resolved). The 5 ns equilibration of the mutant structure before docking is not justified. Without these details, the docking results cannot be reproduced or evaluated.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The lack of methodological detail prevents independent verification and undermines confidence in the reported interaction patterns.
+  - **Resolution test** Provide a complete docking protocol including DNA sequence, docking scoring function, selection criteria for the final pose, and a detailed mutation protocol. Report docking scores for both wild-type and mutant complexes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The results state that the mutant complex shows lower RMSD, lower Rg, lower SASA, and more hydrogen bonds than the wild-type, and that these differences indicate enhanced stability.
+  - **Evidence pointer** Results and Discussion, Molecular Dynamics Simulation Analysis; Figure 5
+  - **Concern** The MD simulations appear to have been performed only once per system. No replicate simulations are reported, and no error bars or standard deviations are provided for any of the metrics. The differences between wild-type and mutant are described qualitatively without statistical testing. It is impossible to determine whether the observed differences are significant or within normal run-to-run variability.
+  - **Why it matters** Without replicates and statistical analysis, the reported differences could be due to stochastic variation in the simulations rather than a genuine effect of the mutations. This weakens the central conclusion of enhanced stability.
+  - **Resolution test** Perform at least three independent MD simulations per system and report mean values with standard deviations. Apply appropriate statistical tests to compare wild-type and mutant metrics.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The introduction and discussion imply that the five mutations are naturally occurring variants associated with resistance in pumpkin populations, citing a GWAS study.
+  - **Evidence pointer** Introduction, paragraph 4; Results and Discussion, Mutational Changes in the AP2/ERF
+  - **Concern** The manuscript does not provide any information about the natural occurrence of these mutations, their allele frequencies, or their association with resistance phenotypes beyond citing a single GWAS study. The reference to the GWAS is vague, and the specific evidence linking these five SNPs to resistance is not summarized. The authors also do not discuss whether these mutations are in the DNA-binding domain or elsewhere, and how they might affect DNA binding specificity.
+  - **Why it matters** The biological relevance of the study depends on the premise that these mutations are genuinely associated with resistance in natural populations. Without presenting this evidence, the computational analysis lacks a solid biological foundation.
+  - **Resolution test** Summarize the GWAS evidence for each of the five SNPs, including effect sizes and significance. Discuss the location of each mutation in the protein structure and its potential functional impact.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, sentence 2
+  - **Issue** The abstract states that pumpkin reduces the risk of "cancer, high blood pressure, diabetes, intestinal disorders, and atherosclerosis" in humans. This health-related content is not relevant to the study and distracts from the main message.
+  - **Required correction** Remove or substantially shorten the health benefit claims and focus the abstract on the disease resistance mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 4
+  - **Issue** The text states the pathogen is "Pseudomonas syringae" in one instance and "Podosphaera xanthii" elsewhere. The correct pathogen for powdery mildew in pumpkin is Podosphaera xanthii. The reference to Pseudomonas appears to be an error.
+  - **Required correction** Correct the pathogen name to Podosphaera xanthii throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods, Molecular Dynamics Simulation
+  - **Evidence pointer** Materials and Methods, Molecular Dynamics Simulation
+  - **Issue** The force field used is stated as amber99bsc1, which is a force field for nucleic acids. It is unclear whether a protein force field (e.g., ff99SB or ff14SB) was used for the protein component. The water model is stated as TIP3P, but the box size of 12.39 Å is unusually small for a protein-DNA complex and may be insufficient to avoid periodic boundary artifacts.
+  - **Required correction** Clarify which force field parameters were used for the protein and for the DNA. Justify the box size or provide the actual box dimensions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, Protein-DNA Docking
+  - **Evidence pointer** Results and Discussion, Protein-DNA Docking; Table S1
+  - **Issue** The text describes hydrophobic interactions and hydrogen bonds but does not report the number of hydrophobic interactions for the mutant complex in the main text. The values are only given in Table S1, which was not provided.
+  - **Required correction** Report the number of hydrophobic interactions for both complexes in the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction, paragraph 4
+  - **Evidence pointer** Introduction, paragraph 4
+  - **Issue** The reference to the GWAS study is cited as reference 100, which is an unusually high number for an introduction and may be a formatting error. The citation style is inconsistent with the rest of the manuscript.
+  - **Required correction** Renumber the references sequentially and ensure the GWAS citation is formatted consistently.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Units
+  - **Affected element** Results and Discussion, Solvent-Accessible Surface Area
+  - **Evidence pointer** Results and Discussion, Solvent-Accessible Surface Area
+  - **Issue** The SASA values are reported as "410 nm,2" and "390 nm,2" which appears to be a typographical error. The correct unit should be nm².
+  - **Required correction** Correct the units to nm².
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript contains several grammatical errors and awkward phrasings, such as "The proposed protein sequence is very unique" and "dimensional confirmation in the cartoon model." These reduce readability.
+  - **Required correction** Perform a thorough language edit throughout the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no experimental validation of resistance claim), R1-M2 (inadequate model validation), R1-M3 (insufficient docking and mutation methodology), R1-M4 (no statistical analysis of MD results)
+- **Assessment against Nature-style criteria**
+  - **Originality** Limited. The application of MD simulations to study a plant transcription factor mutant is not novel. Similar computational studies exist for other transcription factors. The specific system (pumpkin AP2/ERF) is new, but the approach is standard.
+  - **Scientific importance** Moderate. Powdery mildew resistance in pumpkin is agronomically relevant, but the study does not provide new biological insight beyond a computational prediction of stability. The importance is further diminished by the lack of experimental validation.
+  - **Interdisciplinary readership** Narrow. The work is primarily of interest to computational biologists and cucurbit breeders. It does not offer conceptual advances that would attract a broad readership.
+  - **Technical soundness** Weak. The model validation is insufficient, the docking protocol is underdescribed, and the MD analysis lacks statistical rigor. The technical foundation is not solid enough to support the conclusions.
+  - **Readability for nonspecialists** Poor. The manuscript assumes familiarity with MD simulation terminology and does not provide sufficient context for readers outside the computational biology field. The connection between structural stability and disease resistance is not explained clearly.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a computational hypothesis but does not provide sufficient evidence to support the claim of an enhanced disease resistance mechanism. Major revisions addressing the experimental validation, model quality, methodological detail, and statistical rigor would be required before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that the five mutations confer resistance to powdery mildew is unsupported by any experimental data.
+- The claim that the mutant protein forms a "stable and compact complex with DNA" is based on a single MD simulation without replicates or statistical analysis.
+- The claim that the study "represents a significant advancement for the breeding and cultivation of C. moschata varieties resistant against powdery mildew" is overstated given the purely computational nature of the work.
+- The statement that the modeled protein "does not show homology with any other proteins present in the PDB" is not verifiable without the actual sequence or alignment data.
+- The biological relevance of the chosen DNA sequence (from Arabidopsis WRI1) to the pumpkin AP2/ERF target is not established.

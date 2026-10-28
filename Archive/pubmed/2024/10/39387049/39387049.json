@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "39387049",
+    "doi": "10.3389/fendo.2024.1438821",
+    "title": "Integrating network pharmacology, molecular docking and non-targeted serum metabolomics to illustrate pharmacodynamic ingredients and pharmacologic mechanism of Haizao Yuhu Decoction in treating hyperthyroidism."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To explore the pharmacodynamic ingredients and pharmacologic mechanism of Haizao Yuhu Decoction (HYD) in treating hyperthyroidism via an analysis integrating network pharmacology, molecular docking, and non-targeted serum metabolomics. METHODS: Therapeutic targets of hyperthyroidism were searched through multi-array analyses in the Gene Expression Omnibus (GEO) database. Hub genes were subjected to the construction of a protein-protein interaction (PPI) network, and GO and KEGG enrichment analyses. Targets of active pharmaceutical ingredients (APIs) in HYD and those of hyperthyroidism were intersected to yield hub genes, followed by validations via molecular docking and non-targeted serum metabolomics. RESULTS: 112 hub genes were identified by intersecting APIs of HYD and therapeutic targets of hyperthyroidism. Using ultra-high performance liquid chromatography with quadrupole time-of-flight mass spectrometry (UPLC-Q-TOF-MS) in both negative and positive ion polarity modes, 279 compounds of HYD absorbed in the plasma were fingerprinted. Through summarizing data yielded from network pharmacology and non-targeted serum metabolomics, 214 common targets were identified from compounds of HYD absorbed in the plasma and therapeutic targets of hyperthyroidism, including PTPN11, PIK3CD, EGFR, HRAS, PIK3CA, AKT1, SRC, PIK3CB, and PIK3R1. They were mainly enriched in the biological processes of positive regulation of gene expression, positive regulation of MAPK cascade, signal transduction, protein phosphorylation, negative regulation of apoptotic process, positive regulation of protein kinase B signaling and positive regulation of MAP kinase activity; and molecular functions of identical protein binding, protein serine/threonine/tyrosine kinase activity, protein kinase activity, RNA polymerase II transcription factor activity, ligand-activated sequence-specific DNA binding and protein binding. A total of 185 signaling pathways enriched in the 214 common targets were associated with cell proliferation and angiogenesis. CONCLUSION: HYD exerts a pharmacological effect on hyperthyroidism via inhibiting pathological angiogenesis in the thyroid and rebalancing immunity.",
+    "keywords": [
+      "Haizao Yuhu Decoction",
+      "hyperthyroidism",
+      "molecular docking",
+      "network pharmacology",
+      "non-targeted serum metabolomics"
+    ],
+    "mesh_terms": [
+      "*Network Pharmacology",
+      "*Molecular Docking Simulation",
+      "*Hyperthyroidism/drug therapy/blood/metabolism",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use/chemistry",
+      "*Metabolomics/methods",
+      "*Protein Interaction Maps/drug effects",
+      "Humans",
+      "Animals",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Wenbin",
+        "Liu, Xiaoju",
+        "Li, Xingjia",
+        "Zhang, Ruixiang",
+        "Chen, Guofang",
+        "Mao, Xiaodong",
+        "Xu, Shuhang",
+        "Liu, Chao"
+      ],
+      "short_names": [
+        "Huang W",
+        "Liu X",
+        "Li X",
+        "Zhang R",
+        "Chen G",
+        "Mao X",
+        "Xu S",
+        "Liu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Key Laboratory of Traditional Chinese Medicine (TCM) Syndrome and Treatment of Yingbing (Thyroid Disease) of State Administration of Traditional Chinese Medicine, Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, China.",
+        "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Key Laboratory of Traditional Chinese Medicine (TCM) Syndrome and Treatment of Yingbing (Thyroid Disease) of State Administration of Traditional Chinese Medicine, Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, China.",
+        "Key Laboratory of Traditional Chinese Medicine (TCM) Syndrome and Treatment of Yingbing (Thyroid Disease) of State Administration of Traditional Chinese Medicine, Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, China.",
+        "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Key Laboratory of Traditional Chinese Medicine (TCM) Syndrome and Treatment of Yingbing (Thyroid Disease) of State Administration of Traditional Chinese Medicine, Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Wenbin",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoju",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xingjia",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Traditional Chinese Medicine (TCM) Syndrome and Treatment of Yingbing (Thyroid Disease) of State Administration of Traditional Chinese Medicine, Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruixiang",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guofang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China.",
+          "Key Laboratory of Traditional Chinese Medicine (TCM) Syndrome and Treatment of Yingbing (Thyroid Disease) of State Administration of Traditional Chinese Medicine, Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Xiaodong",
+        "short_name": "Mao X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Traditional Chinese Medicine (TCM) Syndrome and Treatment of Yingbing (Thyroid Disease) of State Administration of Traditional Chinese Medicine, Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shuhang",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chao",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrine and Diabetes Center, The Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, China.",
+          "Key Laboratory of Traditional Chinese Medicine (TCM) Syndrome and Treatment of Yingbing (Thyroid Disease) of State Administration of Traditional Chinese Medicine, Jiangsu Province Academy of Traditional Chinese Medicine, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 06:23",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "42564957",
+      "42046750",
+      "41403444",
+      "40958262",
+      "40862118",
+      "39991188"
+    ],
+    "refs": [
+      "39196083",
+      "37941061",
+      "37628845",
+      "37007029",
+      "35931736",
+      "35679828",
+      "35487888",
+      "35295740",
+      "35281792",
+      "34822972",
+      "34301278",
+      "34202188",
+      "32954428",
+      "32942281",
+      "32882583",
+      "32765422",
+      "32124699",
+      "32075540",
+      "31671724",
+      "31452288",
+      "31035637",
+      "30865897",
+      "30634637",
+      "30360733",
+      "30158521",
+      "29946800",
+      "29097668",
+      "28698624",
+      "28513565",
+      "27051079",
+      "26743080",
+      "26597586",
+      "26341048",
+      "22039452",
+      "21428901",
+      "19837795",
+      "18467631",
+      "16272304",
+      "15388333",
+      "11859140",
+      "11500727"
+    ],
+    "similar": [
+      "39387049",
+      "37295576",
+      "37287284",
+      "39075002",
+      "35616676",
+      "35850846",
+      "38759074",
+      "36535207",
+      "37802815",
+      "39074420",
+      "37832514",
+      "39004032",
+      "39089660",
+      "37818576",
+      "35851128",
+      "39163894",
+      "39307759",
+      "39219696",
+      "39151493",
+      "37190808",
+      "39066538",
+      "38403323",
+      "35413412",
+      "36280016",
+      "38742934",
+      "38916485",
+      "39280256",
+      "38588987",
+      "39259129",
+      "36272491",
+      "39287276",
+      "34058439",
+      "34217946",
+      "32505843",
+      "35528155",
+      "35101570",
+      "38619514",
+      "38367649",
+      "38114219",
+      "34746302",
+      "36472039",
+      "37879505",
+      "33513419",
+      "39061044",
+      "39041101",
+      "33866197",
+      "38674327",
+      "39177391",
+      "33299870",
+      "37340752",
+      "38910482",
+      "38096633",
+      "38758858",
+      "37005850",
+      "37080367",
+      "38915868",
+      "35249866",
+      "33479376",
+      "27384475",
+      "38964626",
+      "38532341",
+      "33634308",
+      "36828194",
+      "37833363",
+      "37469733",
+      "39181284",
+      "33648502",
+      "34986125",
+      "38579905",
+      "36924737",
+      "38820836",
+      "37933017",
+      "38964628",
+      "38621884",
+      "39041127",
+      "38415453",
+      "36634726",
+      "39205203",
+      "38216101",
+      "35850814",
+      "38517816",
+      "38821003",
+      "38582151",
+      "38763770",
+      "36566207",
+      "34286341",
+      "38159822",
+      "39002822",
+      "34718103",
+      "34873575",
+      "39213214",
+      "36403742",
+      "39354431",
+      "35427726",
+      "37308028",
+      "37612858",
+      "37807411",
+      "38460276",
+      "38423410",
+      "37150086",
+      "39244135",
+      "38102307",
+      "39030833",
+      "39189519"
+    ],
+    "review": [
+      "39387049"
+    ],
+    "pmc": [
+      "11462413"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/hyperthyroidism.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Hyperthyroidism"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39387049/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1213",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2024.1438821",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

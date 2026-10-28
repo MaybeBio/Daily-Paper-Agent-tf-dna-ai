@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "38181427",
+    "doi": "10.1210/clinem/dgae006",
+    "title": "Epigenetic Control of Adamantinomatous Craniopharyngiomas."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Studies addressing the methylation pattern in adamantinomatous craniopharyngioma (ACP) are lacking. OBJECTIVE: To identify methylation signatures in ACPs regarding clinical presentation and outcome. METHODS: Clinical and pathology data were collected from 35 patients with ACP (54% male; 18.1 years [2-68]). CTNNB1 mutations and methylation profile (MethylationEPIC/Array-Illumina) were analyzed in tumoral DNA. Unsupervised machine learning analysis of this comprehensive methylome sample was achieved using hierarchical clustering and multidimensional scaling. Statistical associations between clusters and clinical features were achieved using the Fisher test and global biological process interpretations were aided by Gene Ontology enrichment analyses. RESULTS: Two clusters were revealed consistently by all unsupervised methods (ACP-1: n = 18; ACP-2: n = 17) with strong bootstrap statistical support. ACP-2 was enriched by CTNNB1 mutations (100% vs 56%, P = .0006), hypomethylated in CpG island, non-CpG Island sites, and globally (P < .001), and associated with greater tumor size (24.1 vs 9.5 cm3, P = .04). Enrichment analysis highlighted pathways on signaling transduction, transmembrane receptor, development of anatomical structures, cell adhesion, cytoskeleton organization, and cytokine binding, and cell type-specific biological processes as regulation of oligodendrocytes, keratinocyte, and epithelial cells differentiation. CONCLUSION: Two clusters of patients with ACP were consistently revealed by unsupervised machine learning methods, with one of them significantly hypomethylated, enriched by CTNNB1 mutated ACPs, and associated with increased tumor size. Enrichment analysis reinforced pathways involved in tumor proliferation and in cell-specific tumoral microenvironment.",
+    "keywords": [
+      "CTNNB1 mutations",
+      "DNA methylation",
+      "adamantinomatous craniopharyngioma",
+      "clusterization"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Craniopharyngioma/genetics/pathology",
+      "Male",
+      "Female",
+      "*DNA Methylation",
+      "*Pituitary Neoplasms/genetics/pathology",
+      "Adolescent",
+      "Adult",
+      "Child",
+      "*Epigenesis, Genetic",
+      "Middle Aged",
+      "Young Adult",
+      "*beta Catenin/genetics/metabolism",
+      "Child, Preschool",
+      "Aged",
+      "Mutation",
+      "CpG Islands/genetics",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Marrero-Gutierrez, Junier",
+        "Bueno, Ana Carolina",
+        "Martins, Clarissa Silva",
+        "Coeli-Lacchini, Fernanda Borchers",
+        "Silva-Junior, Rui M Patricio",
+        "Marques Goncalves, Gabriel Henrique",
+        "Ozaki, Jorge Guilherme Okanobo",
+        "de Almeida E Silva, Danillo C",
+        "Wildemberg, Luiz Eduardo",
+        "da Silva Antunes, Ximene Lima",
+        "Dos Santos, Antonio Carlos",
+        "Machado, Helio Rubens",
+        "Santos, Marcelo Volpon",
+        "Moreira, Ayrton Custodio",
+        "Gadelha, Monica R",
+        "Vencio, Ricardo Zorzetto Nicoliello",
+        "Antonini, Sonir Roberto R",
+        "de Castro, Margaret"
+      ],
+      "short_names": [
+        "Marrero-Gutierrez J",
+        "Bueno AC",
+        "Martins CS",
+        "Coeli-Lacchini FB",
+        "Silva-Junior RMP",
+        "Marques Goncalves GH",
+        "Ozaki JGO",
+        "de Almeida E Silva DC",
+        "Wildemberg LE",
+        "da Silva Antunes XL",
+        "Dos Santos AC",
+        "Machado HR",
+        "Santos MV",
+        "Moreira AC",
+        "Gadelha MR",
+        "Vencio RZN",
+        "Antonini SRR",
+        "de Castro M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7950-0363",
+        "ORCID: 0000-0001-9043-9831",
+        "ORCID: 0000-0002-3601-9470",
+        "ORCID: 0000-0001-6568-7497",
+        "ORCID: 0000-0002-7387-437X",
+        "ORCID: 0000-0003-4313-3308",
+        "ORCID: 0000-0001-5392-7078",
+        "ORCID: 0000-0002-1069-7804",
+        "ORCID: 0000-0002-0850-7039",
+        "ORCID: 0000-0002-8096-6803",
+        "ORCID: 0000-0002-9250-3558",
+        "ORCID: 0000-0003-0425-7877",
+        "ORCID: 0000-0003-4778-8803",
+        "ORCID: 0000-0003-4932-4623"
+      ],
+      "affiliations": [
+        "Department of Internal Medicine, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Pediatrics, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Internal Medicine, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Internal Medicine, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Internal Medicine, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Internal Medicine, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Medical Imaging, Hematology and Oncology, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Computation and Mathematics Biology, Faculty of Philosophy, Sciences and Letters at Ribeirao Preto, University of Sao Paulo, Ribeirao Preto, SP, 14040-901, Brazil.",
+        "Neuroendocrinology Research Center/Endocrinology Section, Medical School and Hospital Universitario Clementino Fraga Filho, Universidade Federal do Rio de Janeiro, Ilha do Fundao, Rio de Janeiro, 21941-913, Brazil.",
+        "Neuroendocrinology Research Center/Endocrinology Section, Medical School and Hospital Universitario Clementino Fraga Filho, Universidade Federal do Rio de Janeiro, Ilha do Fundao, Rio de Janeiro, 21941-913, Brazil.",
+        "Department of Medical Imaging, Hematology and Oncology, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Surgery and Anatomy, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Surgery and Anatomy, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Internal Medicine, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Neuroendocrinology Research Center/Endocrinology Section, Medical School and Hospital Universitario Clementino Fraga Filho, Universidade Federal do Rio de Janeiro, Ilha do Fundao, Rio de Janeiro, 21941-913, Brazil.",
+        "Department of Computation and Mathematics Biology, Faculty of Philosophy, Sciences and Letters at Ribeirao Preto, University of Sao Paulo, Ribeirao Preto, SP, 14040-901, Brazil.",
+        "Department of Pediatrics, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil.",
+        "Department of Internal Medicine, Ribeirao Preto Medical School, University of Sao Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Marrero-Gutiérrez, Junier",
+        "short_name": "Marrero-Gutiérrez J",
+        "identifiers": [
+          "0000-0001-7950-0363"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Bueno, Ana Carolina",
+        "short_name": "Bueno AC",
+        "identifiers": [
+          "0000-0001-9043-9831"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Martins, Clarissa Silva",
+        "short_name": "Martins CS",
+        "identifiers": [
+          "0000-0002-3601-9470"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Coeli-Lacchini, Fernanda Borchers",
+        "short_name": "Coeli-Lacchini FB",
+        "identifiers": [
+          "0000-0001-6568-7497"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Silva-Júnior, Rui M Patrício",
+        "short_name": "Silva-Júnior RMP",
+        "identifiers": [
+          "0000-0002-7387-437X"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Marques Gonçalves, Gabriel Henrique",
+        "short_name": "Marques Gonçalves GH",
+        "identifiers": [
+          "0000-0003-4313-3308"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Ozaki, Jorge Guilherme Okanobo",
+        "short_name": "Ozaki JGO",
+        "identifiers": [
+          "0000-0001-5392-7078"
+        ],
+        "affiliations": [
+          "Department of Medical Imaging, Hematology and Oncology, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Almeida E Silva, Danillo C",
+        "short_name": "de Almeida E Silva DC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computation and Mathematics Biology, Faculty of Philosophy, Sciences and Letters at Ribeirao Preto, University of São Paulo, Ribeirao Preto, SP, 14040-901, Brazil."
+        ]
+      },
+      {
+        "full_name": "Wildemberg, Luiz Eduardo",
+        "short_name": "Wildemberg LE",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroendocrinology Research Center/Endocrinology Section, Medical School and Hospital Universitário Clementino Fraga Filho, Universidade Federal do Rio de Janeiro, Ilha do Fundão, Rio de Janeiro, 21941-913, Brazil."
+        ]
+      },
+      {
+        "full_name": "da Silva Antunes, Ximene Lima",
+        "short_name": "da Silva Antunes XL",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroendocrinology Research Center/Endocrinology Section, Medical School and Hospital Universitário Clementino Fraga Filho, Universidade Federal do Rio de Janeiro, Ilha do Fundão, Rio de Janeiro, 21941-913, Brazil."
+        ]
+      },
+      {
+        "full_name": "Dos Santos, Antônio Carlos",
+        "short_name": "Dos Santos AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Hematology and Oncology, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Machado, Helio Rubens",
+        "short_name": "Machado HR",
+        "identifiers": [
+          "0000-0002-1069-7804"
+        ],
+        "affiliations": [
+          "Department of Surgery and Anatomy, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Santos, Marcelo Volpon",
+        "short_name": "Santos MV",
+        "identifiers": [
+          "0000-0002-0850-7039"
+        ],
+        "affiliations": [
+          "Department of Surgery and Anatomy, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Moreira, Ayrton Custodio",
+        "short_name": "Moreira AC",
+        "identifiers": [
+          "0000-0002-8096-6803"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Gadelha, Monica R",
+        "short_name": "Gadelha MR",
+        "identifiers": [
+          "0000-0002-9250-3558"
+        ],
+        "affiliations": [
+          "Neuroendocrinology Research Center/Endocrinology Section, Medical School and Hospital Universitário Clementino Fraga Filho, Universidade Federal do Rio de Janeiro, Ilha do Fundão, Rio de Janeiro, 21941-913, Brazil."
+        ]
+      },
+      {
+        "full_name": "Vêncio, Ricardo Zorzetto Nicoliello",
+        "short_name": "Vêncio RZN",
+        "identifiers": [
+          "0000-0003-0425-7877"
+        ],
+        "affiliations": [
+          "Department of Computation and Mathematics Biology, Faculty of Philosophy, Sciences and Letters at Ribeirao Preto, University of São Paulo, Ribeirao Preto, SP, 14040-901, Brazil."
+        ]
+      },
+      {
+        "full_name": "Antonini, Sonir Roberto R",
+        "short_name": "Antonini SRR",
+        "identifiers": [
+          "0000-0003-4778-8803"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Castro, Margaret",
+        "short_name": "de Castro M",
+        "identifiers": [
+          "0000-0003-4932-4623"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Ribeirao Preto Medical School, University of São Paulo, Ribeirao Preto, SP, 14049-900, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of clinical endocrinology and metabolism"
+    ],
+    "journal_abbrev": [
+      "J Clin Endocrinol Metab"
+    ],
+    "pub_date": "2024 Sep 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/05 18:41",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "41473247",
+      "40575267",
+      "39898434"
+    ],
+    "refs": [],
+    "similar": [
+      "38181427",
+      "40575267",
+      "21761366",
+      "28500561",
+      "28840946",
+      "22086512",
+      "26927026",
+      "28707994",
+      "40749237",
+      "25693592",
+      "31495087",
+      "32965631",
+      "36748936",
+      "41489673",
+      "33040839",
+      "40634824",
+      "29625497",
+      "25355426",
+      "28069929",
+      "15221941",
+      "34922552",
+      "35584004",
+      "18540944",
+      "33160718",
+      "38334125",
+      "27903120",
+      "22349813",
+      "29158570",
+      "12466115",
+      "38421446",
+      "39127699",
+      "29541918",
+      "36091021",
+      "35707464",
+      "39505756",
+      "26156055",
+      "27409178",
+      "20128632",
+      "39605941",
+      "27903123",
+      "39715857",
+      "22886701",
+      "40731085",
+      "28058013",
+      "28859336",
+      "19384065",
+      "39898434",
+      "23344868",
+      "24715106",
+      "31513634",
+      "15569047",
+      "24356780",
+      "25611703",
+      "32126562",
+      "38964285",
+      "32125720",
+      "31424286",
+      "27161333",
+      "37743344",
+      "26198262",
+      "41491589",
+      "26034368",
+      "20131060",
+      "41030853",
+      "28709442",
+      "29681617",
+      "32404202",
+      "25503464",
+      "17221204",
+      "28487953",
+      "15891929",
+      "24413733",
+      "26636252",
+      "41125735",
+      "28984520",
+      "39724307",
+      "26547438",
+      "28423671",
+      "40591015",
+      "30850842",
+      "27903126",
+      "33048947",
+      "23826282",
+      "21562037",
+      "36810626",
+      "42421952",
+      "15980970",
+      "41077482",
+      "24674026",
+      "40513989",
+      "31334584",
+      "29546640",
+      "32606567",
+      "25926515",
+      "38677641",
+      "28469731",
+      "42337646",
+      "40721446",
+      "39696438",
+      "37452943"
+    ],
+    "review": [
+      "38181427",
+      "36748936",
+      "27903120",
+      "22886701",
+      "39898434",
+      "25611703",
+      "32126562",
+      "41491589",
+      "26034368",
+      "25503464",
+      "27903126",
+      "41077482"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pituitarytumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pituitary Tumors"
+      },
+      {
+        "url": "https://www.ovid.com/38181427.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3861",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse239695",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/jcem/article-lookup/doi/10.1210/clinem/dgae006",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

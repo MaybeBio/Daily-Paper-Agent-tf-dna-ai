@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42583273",
+  "title": "Identification and Experimental Validation of Key Biomarkers for Rheumatoid Arthritis Based on Bioinformatics Analysis and Machine Learning.",
+  "authors": "Han, Yuxin; Wang, Pengrui; Wang, Yifei; Chen, Guangyao; Lan, Meiqi; Teng, Fei; Liu, Xirui; Bian, Yuting; Yang, Huilan; Ma, Liangjie; Liu, Yi; Wang, Jianming; Zhang, Yanzhen",
+  "journal": "Journal of inflammation research",
+  "published_date": "2026-08-12",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用生物信息学和机器学习筛选类风湿关节炎转录因子生物标志物，但核心是疾病诊断而非蛋白-DNA互作建模，方法无AI/物理模拟创新，仅边缘相关。",
+  "abstract": "OBJECTIVE: Rheumatoid arthritis (RA) is a chronic autoimmune joint disease driven by dysregulated immune cells and transcription factors. Despite known molecular alterations, systematic screening of key biomarkers and their link to the immune microenvironment remains lacking, particularly regarding extensive multi-algorithm cross-validation across multiple independent cohorts. This study employs bioinformatics and machine learning to identify potential RA biomarkers, aiming to support diagnosis and targeted therapy. METHODS: Multiple RA-related transcriptomic datasets derived from synovial tissue were integrated from the GEO database to screen differentially expressed genes (DEGs). Weighted gene co-expression network analysis (WGCNA) was performed to identify RA-associated modules. A total of 107 parameter and algorithm permutations from 11 distinct machine learning approaches were employed to screen key feature genes. The optimal model was selected based on average AUC values across training and validation sets, and the final three genes were identified by integrating individual diagnostic performance, biological relevance, and experimental validation. Diagnostic performance was evaluated using receiver operating characteristic (ROC) curves, while decision curve analysis (DCA) and confusion matrices were applied to validate the clinical net benefit and classification performance of the model. Immune infiltration analysis was used to assess alterations in immune cell composition within the RA microenvironment. Collagen-induced arthritis (CIA) was used to establish rat models of RA in Sprague-Dawley (SD) rats with a modest sample size (control n = 4, CIA n = 6). Ankle joint tissues were harvested for pathological examination, and the key targets were further validated by immunohistochemistry, serving as a preliminary biological corroboration of the computational findings. RESULTS: Through differential expression analysis and WGCNA, a set of RA-related candidate genes was identified. After combined screening using 107 parameter and algorithm permutations and ROC curve evaluation, FOSL2, JUN, and EGR1 were ultimately determined as potential biomarkers for RA. These genes demonstrated good individual diagnostic accuracy (AUC > 0.8). Immune infiltration analysis consistently revealed significant enrichment of mast cells in the RA microenvironment. The CIA model rats were successfully established, and immunohistochemistry results showed significantly high expression of FOSL2, JUN, and EGR1 in the synovial tissue. CONCLUSION: This study identifies FOSL2, JUN, and EGR1 as potential markers for RA, supporting their potential roles in RA pathogenesis and clinical application.",
+  "abstract_zh": "目的：类风湿关节炎（RA）是一种由免疫细胞和转录因子失调驱动的慢性自身免疫性关节疾病。尽管已知存在分子改变，但对关键生物标志物及其与免疫微环境关联的系统性筛选仍缺乏，尤其是在多个独立队列中进行广泛的多算法交叉验证方面。本研究采用生物信息学和机器学习方法识别潜在的RA生物标志物，旨在支持诊断和靶向治疗。方法：从GEO数据库整合多个来源于滑膜组织的RA相关转录组数据集，以筛选差异表达基因（DEGs）。采用加权基因共表达网络分析（WGCNA）识别RA相关模块。共使用来自11种不同机器学习方法的107种参数和算法组合来筛选关键特征基因。基于训练集和验证集的平均AUC值选择最优模型，并通过整合个体诊断性能、生物学相关性和实验验证确定最终三个基因。使用受试者工作特征（ROC）曲线评估诊断性能，同时应用决策曲线分析（DCA）和混淆矩阵验证模型的临床净收益和分类性能。免疫浸润分析用于评估RA微环境中免疫细胞组成的改变。采用胶原诱导关节炎（CIA）在Sprague-Dawley（SD）大鼠中建立RA模型，样本量适中（对照组n = 4，CIA组n = 6）。采集踝关节组织进行病理检查，并通过免疫组织化学进一步验证关键靶点，作为计算结果的初步生物学佐证。结果：通过差异表达分析和WGCNA，识别出一组RA相关候选基因。经过107种参数和算法组合的联合筛选及ROC曲线评估，最终确定FOSL2、JUN和EGR1为RA的潜在生物标志物。这些基因显示出良好的个体诊断准确性（AUC > 0.8）。免疫浸润分析一致显示RA微环境中肥大细胞显著富集。CIA模型大鼠成功建立，免疫组织化学结果显示滑膜组织中FOSL2、JUN和EGR1显著高表达。结论：本研究确定FOSL2、JUN和EGR1为RA的潜在标志物，支持它们在RA发病机制和临床应用中的潜在作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42583273/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42583273/",
+  "paper_page_path": "papers/pubmed/42583273/index.html"
+}

@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "41284112",
+    "doi": "10.1007/s10522-025-10352-6",
+    "title": "Integrated single-cell multi-omics profiling reveals a senescence-associated hematopoietic landscape and regulatory network in aging bone marrow."
+  },
+  "content": {
+    "abstract": "Bone marrow exhibits functional decline, yet cellular heterogeneity and molecular mechanisms remain unclear due to limitations of traditional research methods. This study aims to characterize age-related changes and identify key drivers in bone marrow. Integrated multi-omics analysis was performed using scRNA-seq, proteomics, pseudo-bulk transcriptomics, weighted gene co-expression network analysis (WGCNA)-based transcription factor (TF) network modeling, and CellChat analysis. Samples included 6 young and aged bone marrow specimens. Statistical validation involved differential expression analysis, Cox regression modeling, and receiver operating characteristic (ROC) curve analysis. A novel hematopoietic subpopulation (3.19% of aged samples) was identified, activating the cellular senescence pathway (KEGG) and enhancing inflammatory crosstalk with CD8(+) T cells via NMU signaling (|avg_log2FC|> 0.58, p < 0.001). Pseudo-bulk and proteomic analyses identified CAPN1, MAP2K1, and JUND as potential signal modules. Immunohistochemistry and Western blot confirmed their co-expression, while molecular docking revealed interaction interfaces. In two independent bulk-RNA cohorts (n = 58), a Cox model based on the CAPN1-MAP2K1-JUND module showed robust predictive value for aging, with AUCs of 0.7507 (p = 0.0154) and 0.90 (p = 0.0274). This study identifies a pivotal molecular module linking single-cell dynamics to tissue-level senescence in bone marrow, providing new insights into aging mechanisms and potential therapeutic targets.",
+    "keywords": [
+      "Bone marrow aging",
+      "Cellular senescence",
+      "Molecular module-Based modeling",
+      "Single-Cell multi-Omics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Aging/genetics/metabolism",
+      "*Cellular Senescence",
+      "*Single-Cell Analysis/methods",
+      "*Bone Marrow/metabolism",
+      "Male",
+      "Aged",
+      "*Gene Regulatory Networks",
+      "Proteomics/methods",
+      "Female",
+      "*Hematopoiesis",
+      "Adult",
+      "Middle Aged",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Aged, 80 and over",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Guoyang",
+        "Lin, Weixuan",
+        "Guo, Linghuan",
+        "Li, Ziyun",
+        "Xiang, Yu",
+        "Wang, Luo",
+        "Yan, Xiaoyu"
+      ],
+      "short_names": [
+        "Zhang G",
+        "Lin W",
+        "Guo L",
+        "Li Z",
+        "Xiang Y",
+        "Wang L",
+        "Yan X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China. GY_Zhang2023@163.com.",
+        "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China. GY_Zhang2023@163.com.",
+        "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China. GY_Zhang2023@163.com.",
+        "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+        "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+        "Radiology department, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+        "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+        "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+        "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+        "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China. xyyan@sjtu.edu.cn.",
+        "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China. xyyan@sjtu.edu.cn.",
+        "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China. xyyan@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Guoyang",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China. GY_Zhang2023@163.com.",
+          "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China. GY_Zhang2023@163.com.",
+          "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China. GY_Zhang2023@163.com."
+        ]
+      },
+      {
+        "full_name": "Lin, Weixuan",
+        "short_name": "Lin W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+          "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+          "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Linghuan",
+        "short_name": "Guo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+          "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+          "Radiology department, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ziyun",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+          "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+          "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Yu",
+        "short_name": "Xiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+          "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+          "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Luo",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China.",
+          "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China.",
+          "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Xiaoyu",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China. xyyan@sjtu.edu.cn.",
+          "Shanghai Jiao Tong University School of Medicine, No. 227 South Chongqing Road, Shanghai, 200025, China. xyyan@sjtu.edu.cn.",
+          "Institute of Microsurgery On Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, No. 600 Yishan Road, Shanghai, 200233, China. xyyan@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biogerontology"
+    ],
+    "journal_abbrev": [
+      "Biogerontology"
+    ],
+    "pub_date": "2025 Nov 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 12:38",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40255394",
+      "40255266",
+      "40217162",
+      "40055319",
+      "40022602",
+      "39979583",
+      "39952956",
+      "39804645",
+      "39623223",
+      "39607904",
+      "39443746",
+      "39280596",
+      "39266768",
+      "39183289",
+      "38849535",
+      "38816888",
+      "38714197",
+      "38627598",
+      "38574738",
+      "38355833",
+      "38183977",
+      "38057571",
+      "38013255",
+      "37838946",
+      "37833788",
+      "37651607",
+      "37379396",
+      "37240104",
+      "37183900",
+      "37164163",
+      "37117832",
+      "37009226",
+      "37001436",
+      "36944993",
+      "36864178",
+      "36732632",
+      "36711001",
+      "36650381",
+      "36596352",
+      "36577070",
+      "36384102",
+      "36098038",
+      "36074460",
+      "36032161",
+      "35974106",
+      "35715800",
+      "35489057",
+      "35326467",
+      "34957577",
+      "34614408",
+      "34557778",
+      "34480164",
+      "34381212",
+      "34011400",
+      "33981041",
+      "33876187",
+      "33571444",
+      "32719537",
+      "32405060",
+      "32297936",
+      "32252797",
+      "31836838",
+      "31824948",
+      "31806903",
+      "31740819",
+      "31292558",
+      "31085557",
+      "30971824",
+      "30898859",
+      "30643263",
+      "29413969",
+      "28873455",
+      "27924014",
+      "26967286",
+      "26402159",
+      "24981831",
+      "24146823",
+      "21187425",
+      "20334628",
+      "18945670",
+      "15373666",
+      "11942415",
+      "10791884"
+    ],
+    "similar": [
+      "41284112",
+      "40764361",
+      "41601671",
+      "41112249",
+      "42041246",
+      "39703515",
+      "41716413",
+      "41406086",
+      "41388523",
+      "41200169",
+      "38714197",
+      "41836445",
+      "41611834",
+      "42024670",
+      "41939867",
+      "40612944",
+      "33039247",
+      "40296690",
+      "40232347",
+      "41006377",
+      "42079576",
+      "40681605",
+      "41918402",
+      "41997558",
+      "40153587",
+      "42123445",
+      "38574738",
+      "41246350",
+      "39349929",
+      "40948769",
+      "41713386",
+      "40540299",
+      "41694360",
+      "38760675",
+      "40097519",
+      "41665703",
+      "40589764",
+      "36527108",
+      "41504052",
+      "40636124",
+      "41424060",
+      "41065575",
+      "39067546",
+      "39602449",
+      "40216809",
+      "41923163",
+      "39712016",
+      "41591671",
+      "40172742",
+      "41192724",
+      "39640258",
+      "41481417",
+      "41954292",
+      "38688725",
+      "40099263",
+      "40711603",
+      "41269108",
+      "41484731",
+      "41217566",
+      "41942869",
+      "41079183",
+      "41319809",
+      "41035636",
+      "41107929",
+      "41237469",
+      "41839318",
+      "41766902",
+      "40639612",
+      "39241251",
+      "41601657",
+      "40467768",
+      "41511918",
+      "41246353",
+      "40977710",
+      "41999263",
+      "40116657",
+      "41495924",
+      "41562054",
+      "41342434",
+      "39940287",
+      "38944814",
+      "41770292",
+      "40238799",
+      "40887856",
+      "42074532",
+      "41249595",
+      "39726033",
+      "40875292",
+      "42113804",
+      "39859500",
+      "41601670",
+      "41462508",
+      "40787466",
+      "41168880",
+      "40767016",
+      "42123319",
+      "41684036",
+      "40323328",
+      "41930144",
+      "40774524"
+    ],
+    "review": [
+      "41284112",
+      "40153587",
+      "38688725",
+      "40467768"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10522-025-10352-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

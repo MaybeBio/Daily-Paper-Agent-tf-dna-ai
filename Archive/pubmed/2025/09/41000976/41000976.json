@@ -1,0 +1,636 @@
+{
+  "identity": {
+    "pmid": "41000976",
+    "doi": "10.1101/2025.09.18.676967",
+    "title": "De novo Design of All-atom Biomolecular Interactions with RFdiffusion3."
+  },
+  "content": {
+    "abstract": "Deep learning has accelerated protein design, but most existing methods are restricted to generating protein backbone coordinates and often neglect interactions with other biomolecules. We present RFdiffusion3 (RFD3), a diffusion model that generates protein structures in the context of ligands, nucleic acids and other non-protein constellations of atoms. Because all polymer atoms are modeled explicitly, conditioning the model on complex sets of atom-level constraints for enzyme design and other challenges is both simpler and more effective than previous approaches. RFD3 achieves improved performance compared to prior approaches on a range of in silico benchmarks with one tenth the computational cost. Finally, we demonstrate the broad applicability of RFD3 by designing and experimentally characterizing DNA binding proteins and cysteine hydrolases. The ability to rapidly generate protein structures guided by complex sets of atom-level constraints in the context of arbitrary non-protein atoms should further expand the range of functions attainable through protein design.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Butcher, Jasper",
+        "Krishna, Rohith",
+        "Mitra, Raktim",
+        "Brent, Rafael I",
+        "Li, Yanjing",
+        "Corley, Nathaniel",
+        "Kim, Paul T",
+        "Funk, Jonathan",
+        "Mathis, Simon",
+        "Salike, Saman",
+        "Muraishi, Aiko",
+        "Eisenach, Helen",
+        "Thompson, Tuscan Rock",
+        "Chen, Jie",
+        "Politanska, Yuliya",
+        "Sehgal, Enisha",
+        "Coventry, Brian",
+        "Zhang, Odin",
+        "Qiang, Bo",
+        "Didi, Kieran",
+        "Kazman, Max",
+        "DiMaio, Frank",
+        "Baker, David"
+      ],
+      "short_names": [
+        "Butcher J",
+        "Krishna R",
+        "Mitra R",
+        "Brent RI",
+        "Li Y",
+        "Corley N",
+        "Kim PT",
+        "Funk J",
+        "Mathis S",
+        "Salike S",
+        "Muraishi A",
+        "Eisenach H",
+        "Thompson TR",
+        "Chen J",
+        "Politanska Y",
+        "Sehgal E",
+        "Coventry B",
+        "Zhang O",
+        "Qiang B",
+        "Didi K",
+        "Kazman M",
+        "DiMaio F",
+        "Baker D"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4864-1330",
+        "ORCID: 0009-0003-6387-9622",
+        "ORCID: 0000-0003-1182-3742",
+        "ORCID: 0000-0002-3233-7914",
+        "ORCID: 0009-0001-3116-525X",
+        "ORCID: 0000-0002-6509-7144",
+        "ORCID: 0000-0002-8950-7179",
+        "ORCID: 0009-0006-9496-1890",
+        "ORCID: 0000-0002-5246-6481",
+        "ORCID: 0009-0007-1060-0287",
+        "ORCID: 0009-0000-1212-2695",
+        "ORCID: 0000-0002-3201-4517",
+        "ORCID: 0009-0003-1876-106X",
+        "ORCID: 0009-0001-4650-7785",
+        "ORCID: 0000-0002-6766-988X",
+        "ORCID: 0000-0002-6000-0999",
+        "ORCID: 0000-0002-6910-6255",
+        "ORCID: 0000-0002-6734-1534",
+        "ORCID: 0000-0001-7428-4104",
+        "ORCID: 0000-0001-6839-3320",
+        "ORCID: 0000-0003-4420-4016",
+        "ORCID: 0000-0002-7524-8938",
+        "ORCID: 0000-0001-7896-6217"
+      ],
+      "affiliations": [
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Bioengineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Computer Science, University of Cambridge, Cambridge CB3 0FD, UK.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Chemical Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Graduate Program in Biological Physics, Structure and Design, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Computer Science, University of Oxford, Parks Rd, Oxford OX1 3QD, UK.",
+        "NVIDIA Corp., Santa Clara, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Graduate Program in Biological Physics, Structure and Design, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98105, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Butcher, Jasper",
+        "short_name": "Butcher J",
+        "identifiers": [
+          "0009-0004-4864-1330"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Krishna, Rohith",
+        "short_name": "Krishna R",
+        "identifiers": [
+          "0009-0003-6387-9622"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Mitra, Raktim",
+        "short_name": "Mitra R",
+        "identifiers": [
+          "0000-0003-1182-3742"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Brent, Rafael I",
+        "short_name": "Brent RI",
+        "identifiers": [
+          "0000-0002-3233-7914"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yanjing",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0009-0001-3116-525X"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Corley, Nathaniel",
+        "short_name": "Corley N",
+        "identifiers": [
+          "0000-0002-6509-7144"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Bioengineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Paul T",
+        "short_name": "Kim PT",
+        "identifiers": [
+          "0000-0002-8950-7179"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Funk, Jonathan",
+        "short_name": "Funk J",
+        "identifiers": [
+          "0009-0006-9496-1890"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark.",
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Mathis, Simon",
+        "short_name": "Mathis S",
+        "identifiers": [
+          "0000-0002-5246-6481"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Computer Science, University of Cambridge, Cambridge CB3 0FD, UK."
+        ]
+      },
+      {
+        "full_name": "Salike, Saman",
+        "short_name": "Salike S",
+        "identifiers": [
+          "0009-0007-1060-0287"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Chemical Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Muraishi, Aiko",
+        "short_name": "Muraishi A",
+        "identifiers": [
+          "0009-0000-1212-2695"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Eisenach, Helen",
+        "short_name": "Eisenach H",
+        "identifiers": [
+          "0000-0002-3201-4517"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Thompson, Tuscan Rock",
+        "short_name": "Thompson TR",
+        "identifiers": [
+          "0009-0003-1876-106X"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Graduate Program in Biological Physics, Structure and Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Jie",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0009-0001-4650-7785"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Politanska, Yuliya",
+        "short_name": "Politanska Y",
+        "identifiers": [
+          "0000-0002-6766-988X"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Sehgal, Enisha",
+        "short_name": "Sehgal E",
+        "identifiers": [
+          "0000-0002-6000-0999"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Coventry, Brian",
+        "short_name": "Coventry B",
+        "identifiers": [
+          "0000-0002-6910-6255"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Odin",
+        "short_name": "Zhang O",
+        "identifiers": [
+          "0000-0002-6734-1534"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Qiang, Bo",
+        "short_name": "Qiang B",
+        "identifiers": [
+          "0000-0001-7428-4104"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Didi, Kieran",
+        "short_name": "Didi K",
+        "identifiers": [
+          "0000-0001-6839-3320"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Computer Science, University of Oxford, Parks Rd, Oxford OX1 3QD, UK.",
+          "NVIDIA Corp., Santa Clara, USA."
+        ]
+      },
+      {
+        "full_name": "Kazman, Max",
+        "short_name": "Kazman M",
+        "identifiers": [
+          "0000-0003-4420-4016"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Graduate Program in Biological Physics, Structure and Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "DiMaio, Frank",
+        "short_name": "DiMaio F",
+        "identifiers": [
+          "0000-0002-7524-8938"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, David",
+        "short_name": "Baker D",
+        "identifiers": [
+          "0000-0001-7896-6217"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98105, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 06:30",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "42653156",
+      "41901326"
+    ],
+    "refs": [
+      "40705894",
+      "39946508",
+      "39814890",
+      "39806059",
+      "39494533",
+      "39103447",
+      "38831036",
+      "38452047",
+      "37968394",
+      "37933841",
+      "37918525",
+      "37433327",
+      "37149653",
+      "36108050",
+      "35862514",
+      "35650353",
+      "35332283",
+      "34791371",
+      "34282049",
+      "34265844",
+      "33792944",
+      "32883865",
+      "30984185",
+      "30357364",
+      "30285630",
+      "28722441",
+      "27309814",
+      "26657626",
+      "22871159",
+      "21522129",
+      "19865164",
+      "18323453",
+      "17132862",
+      "15357999",
+      "12943848",
+      "12930962",
+      "11741530",
+      "10882122",
+      "10592235",
+      "9927754",
+      "9309220",
+      "8182748",
+      "4760134"
+    ],
+    "similar": [
+      "41000976",
+      "42475469",
+      "23912807",
+      "37433327",
+      "40155723",
+      "30973707",
+      "42192491",
+      "33802210",
+      "41839238",
+      "40502112",
+      "42263125",
+      "41166637",
+      "23558036",
+      "28191922",
+      "39713760",
+      "41187076",
+      "41931663",
+      "41311232",
+      "39495691",
+      "41950314",
+      "17140190",
+      "22538812",
+      "41509406",
+      "18553962",
+      "41310253",
+      "37515872",
+      "42653156",
+      "39322943",
+      "30452434",
+      "39384986",
+      "41256432",
+      "39462102",
+      "42636031",
+      "17004702",
+      "10662483",
+      "19127590",
+      "34904892",
+      "42112265",
+      "41333163",
+      "18571508",
+      "41307002",
+      "41554053",
+      "38040493",
+      "27932294",
+      "41337470",
+      "32041676",
+      "37783885",
+      "39604569",
+      "21945116",
+      "42039485",
+      "42244813",
+      "36897987",
+      "19569183",
+      "37277701",
+      "40502157",
+      "37614363",
+      "39386615",
+      "40671257",
+      "37662224",
+      "41345299",
+      "41339749",
+      "41578956",
+      "28182403",
+      "40344574",
+      "35621730",
+      "38325370",
+      "36430386",
+      "41859462",
+      "36206976",
+      "41639692",
+      "42508035",
+      "29086083",
+      "41256639",
+      "40669838",
+      "36674658",
+      "31356073",
+      "42076870",
+      "35405427",
+      "39071443",
+      "31632986",
+      "26575522",
+      "36576775",
+      "42126315",
+      "38452047",
+      "15154746",
+      "42241776",
+      "24005320",
+      "42012716",
+      "38361073",
+      "39266056",
+      "42019100",
+      "41345395",
+      "36764588",
+      "39446959",
+      "39058534",
+      "38830995",
+      "28582565",
+      "33398169",
+      "41327455",
+      "40155970"
+    ],
+    "review": [
+      "41000976",
+      "33802210",
+      "41839238",
+      "23558036",
+      "28191922",
+      "41311232",
+      "42653156",
+      "39322943",
+      "10662483",
+      "18571508",
+      "32041676",
+      "41639692",
+      "35405427",
+      "26575522"
+    ],
+    "pmc": [
+      "12458353"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41000976/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.18.676967",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

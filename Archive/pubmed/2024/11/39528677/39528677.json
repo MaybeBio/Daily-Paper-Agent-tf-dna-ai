@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "39528677",
+    "doi": "10.1038/s41592-024-02504-2",
+    "title": "EvoAI enables extreme compression and reconstruction of the protein sequence space."
+  },
+  "content": {
+    "abstract": "Designing proteins with improved functions requires a deep understanding of how sequence and function are related, a vast space that is hard to explore. The ability to efficiently compress this space by identifying functionally important features is extremely valuable. Here we establish a method called EvoScan to comprehensively segment and scan the high-fitness sequence space to obtain anchor points that capture its essential features, especially in high dimensions. Our approach is compatible with any biomolecular function that can be coupled to a transcriptional output. We then develop deep learning and large language models to accurately reconstruct the space from these anchors, allowing computational prediction of novel, highly fit sequences without prior homology-derived or structural information. We apply this hybrid experimental-computational method, which we call EvoAI, to a repressor protein and find that only 82 anchors are sufficient to compress the high-fitness sequence space with a compression ratio of 10(48). The extreme compressibility of the space informs both applied biomolecular design and understanding of natural evolution.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "*Proteins/chemistry",
+      "Deep Learning",
+      "Algorithms",
+      "Amino Acid Sequence",
+      "*Sequence Analysis, Protein/methods",
+      "Repressor Proteins/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Ziyuan",
+        "Li, Wenjie",
+        "Shen, Yunhao",
+        "Xu, Yunxin",
+        "Liu, Gengjiang",
+        "Chang, Jiamin",
+        "Li, Zeju",
+        "Qin, Hong",
+        "Tian, Boxue",
+        "Gong, Haipeng",
+        "Liu, David R",
+        "Thuronyi, B W",
+        "Voigt, Christopher A",
+        "Zhang, Shuyi"
+      ],
+      "short_names": [
+        "Ma Z",
+        "Li W",
+        "Shen Y",
+        "Xu Y",
+        "Liu G",
+        "Chang J",
+        "Li Z",
+        "Qin H",
+        "Tian B",
+        "Gong H",
+        "Liu DR",
+        "Thuronyi BW",
+        "Voigt CA",
+        "Zhang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9981-2097",
+        "ORCID: 0000-0002-5830-0669",
+        "ORCID: 0000-0002-5532-1640",
+        "ORCID: 0000-0002-9943-7557",
+        "ORCID: 0000-0003-0821-3791",
+        "ORCID: 0000-0003-0844-4776",
+        "ORCID: 0000-0001-8500-5836"
+      ],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "School of Life Sciences, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "State Key Laboratory of Molecular Oncology, School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA, USA.",
+        "Howard Hughes Medical Institute, Harvard University, Cambridge, MA, USA.",
+        "Department of Chemistry, Williams College, Williamstown, MA, USA.",
+        "Synthetic Biology Center, Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China. shuyizhang@tsinghua.edu.cn.",
+        "State Key Laboratory of Molecular Oncology, School of Pharmaceutical Sciences, Tsinghua University, Beijing, China. shuyizhang@tsinghua.edu.cn.",
+        "Center for Synthetic and Systems Biology, Tsinghua University, Beijing, China. shuyizhang@tsinghua.edu.cn.",
+        "Beijing Frontier Research Center for Biological Structure, Tsinghua University, Beijing, China. shuyizhang@tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Ziyuan",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenjie",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yunhao",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yunxin",
+        "short_name": "Xu Y",
+        "identifiers": [
+          "0000-0002-9981-2097"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Gengjiang",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Jiamin",
+        "short_name": "Chang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zeju",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Hong",
+        "short_name": "Qin H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Boxue",
+        "short_name": "Tian B",
+        "identifiers": [
+          "0000-0002-5830-0669"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+          "State Key Laboratory of Molecular Oncology, School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Haipeng",
+        "short_name": "Gong H",
+        "identifiers": [
+          "0000-0002-5532-1640"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, David R",
+        "short_name": "Liu DR",
+        "identifiers": [
+          "0000-0002-9943-7557"
+        ],
+        "affiliations": [
+          "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA, USA.",
+          "Howard Hughes Medical Institute, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Thuronyi, B W",
+        "short_name": "Thuronyi BW",
+        "identifiers": [
+          "0000-0003-0821-3791"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Williams College, Williamstown, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Voigt, Christopher A",
+        "short_name": "Voigt CA",
+        "identifiers": [
+          "0000-0003-0844-4776"
+        ],
+        "affiliations": [
+          "Synthetic Biology Center, Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuyi",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0001-8500-5836"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China. shuyizhang@tsinghua.edu.cn.",
+          "State Key Laboratory of Molecular Oncology, School of Pharmaceutical Sciences, Tsinghua University, Beijing, China. shuyizhang@tsinghua.edu.cn.",
+          "Center for Synthetic and Systems Biology, Tsinghua University, Beijing, China. shuyizhang@tsinghua.edu.cn.",
+          "Beijing Frontier Research Center for Biological Structure, Tsinghua University, Beijing, China. shuyizhang@tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature methods"
+    ],
+    "journal_abbrev": [
+      "Nat Methods"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:48",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "42329188",
+      "42153634",
+      "41643061",
+      "41498113",
+      "41219823",
+      "40335746",
+      "39833164",
+      "39643689",
+      "39562743",
+      "39558094"
+    ],
+    "refs": [
+      "37995212",
+      "37696289",
+      "37308581",
+      "36857380",
+      "36813894",
+      "36351451",
+      "36029764",
+      "35650353",
+      "35389231",
+      "35233052",
+      "34969982",
+      "34798775",
+      "34726479",
+      "34635842",
+      "34593817",
+      "34481824",
+      "34051682",
+      "33892491",
+      "33885785",
+      "33828272",
+      "33602850",
+      "33199872",
+      "33048928",
+      "32887884",
+      "32770229",
+      "32482900",
+      "31822668",
+      "31308553",
+      "30415839",
+      "30250057",
+      "30069054",
+      "29038472",
+      "28092658",
+      "27193686",
+      "27034378",
+      "25723163",
+      "25355134",
+      "25075907",
+      "24781324",
+      "24487694",
+      "24316737",
+      "24157548",
+      "23674678",
+      "23041932",
+      "22810204",
+      "22745249",
+      "21478873",
+      "20923976",
+      "20869867",
+      "16050095",
+      "15944459",
+      "15766704",
+      "15304544",
+      "11390696",
+      "2762321"
+    ],
+    "similar": [
+      "39528677",
+      "38464127",
+      "39457474",
+      "28056090",
+      "33441905",
+      "37679542",
+      "31944984",
+      "40039529",
+      "34873061",
+      "15377393",
+      "19003998",
+      "38608190",
+      "31221760",
+      "39230690",
+      "15757521",
+      "31412138",
+      "39657158",
+      "24316367",
+      "23609941",
+      "30323214",
+      "19426452",
+      "26357222",
+      "19591846",
+      "25080993",
+      "38127603",
+      "39456153",
+      "29522145",
+      "17688313",
+      "40174317",
+      "18831799",
+      "30998479",
+      "19422056",
+      "26940649",
+      "34074028",
+      "38599417",
+      "38913900",
+      "38942594",
+      "39860084",
+      "27028541",
+      "12424125",
+      "39316498",
+      "31985440",
+      "19154573",
+      "20463972",
+      "38830995",
+      "18522726",
+      "17553833",
+      "18811946",
+      "17452345",
+      "26130574",
+      "18604264",
+      "30620738",
+      "20455261",
+      "20855926",
+      "34815338",
+      "19505947",
+      "39140146",
+      "31415569",
+      "31622328",
+      "26315852",
+      "39511177",
+      "27153701",
+      "15596019",
+      "21968959",
+      "38986287",
+      "35970053",
+      "39576574",
+      "19786483",
+      "18423494",
+      "33850214",
+      "31388850",
+      "19642277",
+      "32949607",
+      "37748220",
+      "27307635",
+      "22270458",
+      "15961496",
+      "35073170",
+      "39566793",
+      "31513916",
+      "29584811",
+      "38701416",
+      "18957316",
+      "24204228",
+      "19274633",
+      "26357276",
+      "21143813",
+      "19958486",
+      "39499152",
+      "11700586",
+      "17629909",
+      "16224101",
+      "17478513",
+      "22562230",
+      "19995340",
+      "12441379",
+      "19171120",
+      "19842166",
+      "29790960",
+      "34139171"
+    ],
+    "review": [
+      "39528677",
+      "34074028",
+      "39860084",
+      "38986287"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41592-024-02504-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39528677",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

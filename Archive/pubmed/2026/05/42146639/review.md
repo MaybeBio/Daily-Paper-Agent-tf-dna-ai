@@ -1,0 +1,62 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims presented in the abstract
+- **Shared manuscript claim summary** The abstract states that the unsymmetric cyanine dyes RiboGreen and OliGreen have been structurally characterized and that their DNA binding mode has been determined.
+- **Visible evidence base** Abstract text only
+- **Missing materials affecting confidence** Full text, figures, tables, methods, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structural and biophysical study of two widely used nucleic acid dyes. However, the abstract is extremely brief and lacks any specific data, methodological detail, or quantitative results. The core claims regarding molecular structure and DNA binding mode are stated without supporting evidence, making the current submission impossible to evaluate scientifically.
+- **Who would be interested in the results, and why** Researchers in nucleic acid chemistry, biophysics, and molecular probe development would be interested in a definitive structural characterization of RiboGreen and OliGreen, as these dyes are widely used in RNA and DNA quantification assays. A clear binding mode would inform the design of improved dyes and aid in interpreting fluorescence data in biological assays.
+- **Major strengths** The topic is of practical importance given the widespread commercial use of these dyes. The authors have identified a gap in the literature regarding the precise molecular structures and binding interactions of these commonly used reagents.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence
+  - **Claim pointer** The abstract claims that the molecular structures of RiboGreen and OliGreen have been determined.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no experimental data, such as NMR, crystallography, or mass spectrometry results, to support the structural assignments. No chemical structures are shown, and no details of the synthesis or isolation of the dyes are given.
+  - **Why it matters** Without any structural evidence, the central claim of the paper cannot be verified. The abstract must present at least a summary of the key structural findings, such as the identity of the chromophore, substituent positions, or confirmation of the unsymmetric nature of the dyes.
+  - **Resolution test** The authors must include in the abstract a clear statement of the determined structures, supported by at least one representative piece of evidence, such as a key NMR assignment, a crystal structure resolution, or a mass spectrometric confirmation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence
+  - **Claim pointer** The abstract claims that the DNA binding mode of these dyes has been determined.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No information is provided on how the binding mode was established. There is no mention of techniques such as fluorescence titration, circular dichroism, molecular docking, or X-ray crystallography. The specific binding mode, such as minor groove binding, intercalation, or major groove binding, is not stated.
+  - **Why it matters** The binding mode is the second core claim of the paper. Without any methodological or qualitative description of the binding interaction, the claim is unsupported and cannot be assessed.
+  - **Resolution test** The abstract must state the proposed binding mode and name at least one experimental or computational method that was used to determine it. A quantitative binding parameter, such as a dissociation constant, would further strengthen the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Completeness
+  - **Claim pointer** The abstract implies a complete study of structure and binding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract is only a few lines long and contains no results, no numerical data, and no context for the significance of the findings. It reads more like a title and a placeholder than a scientific abstract.
+  - **Why it matters** A Nature-style abstract must convey the key findings and their significance in a concise but complete manner. The current abstract does not allow any reader to understand what was done, what was found, or why it matters.
+  - **Resolution test** The abstract must be expanded to include a brief description of the methods, the main results, and the implications of the findings. It should be self-contained and informative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract contains only the heading "Highlights" and no actual content. This is incomplete.
+  - **Required correction** The abstract must be completed with the full text of the highlights or the abstract itself.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Background
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state why the structures and binding modes of RiboGreen and OliGreen were previously unknown or why this knowledge is important.
+  - **Required correction** Add one or two sentences providing the background and motivation for the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract provides no evidence for either of the two core claims and is incomplete as a scientific summary.
+- **Assessment against Nature-style criteria** Originality cannot be assessed from the abstract alone, though the topic is potentially of interest. Scientific importance is plausible given the widespread use of these dyes, but it is not articulated. Interdisciplinary readership is possible, but the abstract does not frame the work for a broad audience. Technical soundness is not assessable due to the absence of methods and data. Readability for nonspecialists is poor because the abstract is essentially empty of content.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract must be substantially expanded with specific results and methodological details before any scientific evaluation can be made.
+
+## Risk / unsupported claims
+- The claim that the molecular structures of RiboGreen and OliGreen have been determined is unsupported.
+- The claim that the DNA binding mode has been determined is unsupported.
+- Any implied significance or novelty of the findings is not assessable from the provided material.

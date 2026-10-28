@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38397134",
+  "title": "DARDN: A Deep-Learning Approach for CTCF Binding Sequence Classification and Oncogenic Regulatory Feature Discovery.",
+  "authors": "Cho, Hyun Jae; Wang, Zhenjia; Cong, Yidan; Bekiranov, Stefan; Zhang, Aidong; Zang, Chongzhi",
+  "journal": "Genes",
+  "published_date": "2024-02-24",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用CNN和DeepLIFT对癌症特异CTCF结合位点的长DNA序列进行分类并发现潜在致癌转录因子基序，属于TF-DNA结合位点预测与特征发现，但未涉及三维互作建模或动态机制，故评7分。",
+  "abstract": "Characterization of gene regulatory mechanisms in cancer is a key task in cancer genomics. CCCTC-binding factor (CTCF), a DNA binding protein, exhibits specific binding patterns in the genome of cancer cells and has a non-canonical function to facilitate oncogenic transcription programs by cooperating with transcription factors bound at flanking distal regions. Identification of DNA sequence features from a broad genomic region that distinguish cancer-specific CTCF binding sites from regular CTCF binding sites can help find oncogenic transcription factors in a cancer type. However, the presence of long DNA sequences without localization information makes it difficult to perform conventional motif analysis. Here, we present DNAResDualNet (DARDN), a computational method that utilizes convolutional neural networks (CNNs) for predicting cancer-specific CTCF binding sites from long DNA sequences and employs DeepLIFT, a method for interpretability of deep learning models that explains the model's output in terms of the contributions of its input features. The method is used for identifying DNA sequence features associated with cancer-specific CTCF binding. Evaluation on DNA sequences associated with CTCF binding sites in T-cell acute lymphoblastic leukemia (T-ALL) and other cancer types demonstrates DARDN's ability in classifying DNA sequences surrounding cancer-specific CTCF binding from control constitutive CTCF binding and identifying sequence motifs for transcription factors potentially active in each specific cancer type. We identify potential oncogenic transcription factors in T-ALL, acute myeloid leukemia (AML), breast cancer (BRCA), colorectal cancer (CRC), lung adenocarcinoma (LUAD), and prostate cancer (PRAD). Our work demonstrates the power of advanced machine learning and feature discovery approach in finding biologically meaningful information from complex high-throughput sequencing data.",
+  "abstract_zh": "癌症中基因调控机制的表征是癌症基因组学的一项关键任务。CCCTC结合因子（CTCF），一种DNA结合蛋白，在癌细胞基因组中表现出特定的结合模式，并具有非经典功能，通过与结合在侧翼远端区域的转录因子协同作用，促进致癌转录程序。从广泛的基因组区域中识别区分癌症特异性CTCF结合位点与常规CTCF结合位点的DNA序列特征，有助于发现特定癌症类型中的致癌转录因子。然而，缺乏定位信息的长DNA序列的存在使得传统基序分析难以进行。在此，我们提出DNAResDualNet（DARDN），一种计算方法，利用卷积神经网络（CNNs）从长DNA序列预测癌症特异性CTCF结合位点，并采用DeepLIFT，一种深度学习模型可解释性方法，通过输入特征的贡献来解释模型输出。该方法用于识别与癌症特异性CTCF结合相关的DNA序列特征。对T细胞急性淋巴细胞白血病（T-ALL）及其他癌症类型中与CTCF结合位点相关的DNA序列评估表明，DARDN能够分类围绕癌症特异性CTCF结合的DNA序列与对照组成性CTCF结合，并识别每种特定癌症类型中可能活跃的转录因子的序列基序。我们在T-ALL、急性髓系白血病（AML）、乳腺癌（BRCA）、结直肠癌（CRC）、肺腺癌（LUAD）和前列腺癌（PRAD）中识别出潜在的致癌转录因子。我们的工作展示了先进机器学习和特征发现方法在从复杂高通量测序数据中提取生物学有意义信息方面的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38397134/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38397134/",
+  "paper_page_path": "papers/pubmed/38397134/index.html"
+}

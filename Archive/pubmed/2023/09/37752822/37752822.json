@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "37752822",
+    "doi": "10.1111/os.13840",
+    "title": "Analysis of Zinc and Stromal Immunity in Disuse Osteoporosis: Mendelian Randomization and Transcriptomic Analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Disuse osteoporosis is known to be primarily caused by a lack of exercise. However, the causal relationships between zinc and immunity and disuse osteoporosis remain unknown. This study investigated these relationships and their potential mechanisms. METHODS: This study was an integrative study combining genome-wide association studies and transcriptomics. Two-sample Mendelian randomization analysis (MR) was used to analyze the causal relationships between exposures (zinc, immunity, physical activity) and the outcome (osteoporosis) with the aid of single-nucleotide polymorphisms (SNPs) as instrumental variables (IVs). Four models, MR-Egger, inverse variance weighted, weighted median and MR-Pleiotrophy RESidual Sum and Outlier (MRPRESSO), were used to calculate odds ratio values. Sensitivity and heterogeneity analyses were also performed using MRPRESSO and MR-Egger methods. The mRNA transcriptomic analysis was subsequently conducted. Zinc metabolism scores were acquired through single-sample Gene Set Enrichment Analysis algorithms. Stromal scores were obtained using the R Package \"estimate\" algorithms. Important Kyoto Encyclopedia of Genes and Genomes and Gene Ontology pathways were also derived through gene set variation analysis. Cytoscape software helped construct the transcription factor (TF)-mRNA-microRNA (miRNA) network. Virtual screening and molecular docking were performed. Polymerase chain reaction validation was also carried out in vivo. RESULTS: Causal relationships were demonstrated between zinc and exercise (95% confidence interval [CI] = 1.30-2.95, p = 0.001), exercise and immunity (95% CI = 0.36-0.80, p = 0.002), exercise and osteoporosis (95% CI = 0.97-0.99, p = 0.0007), and immunity disorder and osteoporosis (95% CI = 1.30-2.03, p = 0.00002). One hundred and seventy-nine mRNAs in important modules were screened. Combining the differential expressional genes (DEGs) and the Boruta selection, six DEGs were screened (AHNAK, CSF2, ADAMTS12, SRA1, RUNX2, and SLC39A14). TF HOXC10 and miRNA hsa-miR-204 were predicted. Then, the TF-mRNA-miRNA network was successfully constructed. RUNX2 and SLC39A14 were identified as hub mRNAs in the TF-mRNA-miRNA network. Eventually, the novel small drug C6O4NH5 was designed according to the pharmacophore structure of SLC39A14. The docking energy for the novel drug was -5.83 kcal/mol. SLC39A14 and RUNX2 were downregulated (of statistical significance p-value < 0.05) in our animal experiment. CONCLUSION: This study revealed that zinc had a protective causal relationship with disuse osteoporosis by promoting exercise and immunity. SLC39A14 and RUNX2 mRNA participated in this zinc-related mechanism.",
+    "keywords": [
+      "Disuse Osteoporosis",
+      "Immunity",
+      "Mendelian Randomization",
+      "Transcriptome",
+      "Virtual Screening",
+      "Zinc"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Core Binding Factor Alpha 1 Subunit",
+      "Zinc",
+      "Genome-Wide Association Study",
+      "Mendelian Randomization Analysis",
+      "Molecular Docking Simulation",
+      "Transcriptome",
+      "*Osteoporosis/genetics",
+      "*MicroRNAs",
+      "RNA, Messenger",
+      "Polymorphism, Single Nucleotide"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lyu, Fei",
+        "Wang, Li",
+        "Jia, Yiming",
+        "Wang, Yuanlin",
+        "Qi, Haolan",
+        "Dai, Zhengxu",
+        "Zhou, Xuyang",
+        "Zhu, Haoran",
+        "Li, Bing",
+        "Xu, Yujing",
+        "Liu, Jun"
+      ],
+      "short_names": [
+        "Lyu F",
+        "Wang L",
+        "Jia Y",
+        "Wang Y",
+        "Qi H",
+        "Dai Z",
+        "Zhou X",
+        "Zhu H",
+        "Li B",
+        "Xu Y",
+        "Liu J"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-9433-5712",
+        "ORCID: 0000-0002-1617-6030"
+      ],
+      "affiliations": [
+        "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+        "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+        "Orthopedic Center (Sports Medicine Center), Inner Mongolia People's Hospital, Hohhot, China.",
+        "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+        "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+        "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+        "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+        "Department of Orthopedics, Chifeng Municipal Hospital, Chifeng, China.",
+        "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+        "Tianjin Institute of Anesthesiology, Tianjin Medical University, Tianjin, China.",
+        "School of Medicine, Nankai University, Tianjin, China.",
+        "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+        "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+        "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+        "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+        "School of Medicine, Xi'an Jiaotong University, Xian, China.",
+        "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+        "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+        "Tianjin Key Laboratory on Technologies Enabling Development of Clinical Therapeutics and Diagnostics, School of Pharmacy, Tianjin Medical University, Tianjin, China.",
+        "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+        "Department of Joint Surgery, Tianjin Hospital, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lyu, Fei",
+        "short_name": "Lyu F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+          "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+          "Orthopedic Center (Sports Medicine Center), Inner Mongolia People's Hospital, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+          "Department of Joint Surgery, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Yiming",
+        "short_name": "Jia Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+          "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+          "Department of Orthopedics, Chifeng Municipal Hospital, Chifeng, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuanlin",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0009-0008-9433-5712"
+        ],
+        "affiliations": [
+          "Department of Joint Surgery, Tianjin Hospital, Tianjin, China.",
+          "Tianjin Institute of Anesthesiology, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Haolan",
+        "short_name": "Qi H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Zhengxu",
+        "short_name": "Dai Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+          "Department of Joint Surgery, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xuyang",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+          "Department of Joint Surgery, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Haoran",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Xi'an Jiaotong University, Xian, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bing",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+          "Department of Joint Surgery, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yujing",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory on Technologies Enabling Development of Clinical Therapeutics and Diagnostics, School of Pharmacy, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jun",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0000-0002-1617-6030"
+        ],
+        "affiliations": [
+          "College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+          "Department of Joint Surgery, Tianjin Hospital, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Orthopaedic surgery"
+    ],
+    "journal_abbrev": [
+      "Orthop Surg"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/27 06:42",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "41227294",
+      "40969353",
+      "39886030",
+      "39210324",
+      "39050133"
+    ],
+    "refs": [
+      "36552771",
+      "36341399",
+      "36266699",
+      "35537532",
+      "35054791",
+      "34840704",
+      "34685582",
+      "34581906",
+      "34434266",
+      "34248982",
+      "34154618",
+      "34040054",
+      "33933911",
+      "33813182",
+      "33746599",
+      "33556186",
+      "33495651",
+      "33450432",
+      "33237286",
+      "32963529",
+      "32908454",
+      "31114897",
+      "30861319",
+      "30165467",
+      "29686387",
+      "29497042",
+      "29490098",
+      "29437953",
+      "29356961",
+      "29323344",
+      "29045021",
+      "28524659",
+      "28137238",
+      "28052254",
+      "27792778",
+      "27581859",
+      "27321583",
+      "27076853",
+      "26555194",
+      "25605792",
+      "24715132",
+      "23945676",
+      "23789115",
+      "22573662",
+      "22566526",
+      "21656042",
+      "21445361",
+      "21203996",
+      "19903100",
+      "19846440",
+      "19261907",
+      "19114008",
+      "18485748",
+      "16675045",
+      "16585064",
+      "16185943",
+      "15863613",
+      "15766751",
+      "15062647",
+      "12748651",
+      "12689998",
+      "11684236",
+      "10944485",
+      "9784581",
+      "8047061",
+      "7740167",
+      "7651474",
+      "6714170",
+      "1090398"
+    ],
+    "similar": [
+      "37752822",
+      "37039764",
+      "36339427",
+      "37012460",
+      "37621646",
+      "33784428",
+      "37025412",
+      "35851761",
+      "36839415",
+      "37304119",
+      "36568116",
+      "35757392",
+      "36316671",
+      "37268885",
+      "36266699",
+      "37271768",
+      "34421826",
+      "38941431",
+      "37802905",
+      "36334498",
+      "37799337",
+      "30769869",
+      "38724970",
+      "37469975",
+      "37675772",
+      "37504798",
+      "36226474",
+      "37359532",
+      "34797599",
+      "32947644",
+      "37915587",
+      "38140324",
+      "37832103",
+      "36997981",
+      "33515719",
+      "37424857",
+      "34858335",
+      "34557183",
+      "36380372",
+      "35911771",
+      "39121248",
+      "35872990",
+      "37641542",
+      "37454067",
+      "33008364",
+      "36140752",
+      "37152964",
+      "37746958",
+      "34796736",
+      "36722420",
+      "33253933",
+      "31553296",
+      "36467999",
+      "35392909",
+      "36817914",
+      "36333784",
+      "37904346",
+      "36364831",
+      "37828993",
+      "36524281",
+      "37287058",
+      "36585990",
+      "36761181",
+      "38362587",
+      "37306802",
+      "35964198",
+      "30167974",
+      "30003442",
+      "35832124",
+      "37729683",
+      "34381493",
+      "36860870",
+      "35703935",
+      "35852181",
+      "34627121",
+      "37483619",
+      "36291136",
+      "36479899",
+      "37301769",
+      "37484661",
+      "37812260",
+      "36090295",
+      "36299452",
+      "35757478",
+      "37949959",
+      "27215616",
+      "34539575",
+      "35690714",
+      "36219533",
+      "37400922",
+      "36035367",
+      "37712277",
+      "37267734",
+      "38742101",
+      "38750431",
+      "37968290",
+      "38965845",
+      "38557966",
+      "38509958",
+      "38179058",
+      "39121292",
+      "38216525",
+      "39227935",
+      "39128017",
+      "39253131",
+      "38660673",
+      "38973307",
+      "39229276",
+      "37938594",
+      "37546848",
+      "38505796"
+    ],
+    "review": [
+      "37752822",
+      "37012460",
+      "37271768",
+      "37675772",
+      "37359532",
+      "38140324",
+      "37424857",
+      "36380372",
+      "33008364",
+      "36140752",
+      "36364831",
+      "37287058",
+      "30003442",
+      "37301769",
+      "36299452"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://www.ovid.com/37752822.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37752822/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37752822",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/os.13840",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

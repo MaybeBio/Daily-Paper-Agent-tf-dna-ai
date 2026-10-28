@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "39730699",
+    "doi": "10.1038/s41598-024-81866-1",
+    "title": "Comparative evaluation of feature reduction methods for drug response prediction."
+  },
+  "content": {
+    "abstract": "Personalized medicine aims to tailor medical treatments to individual patients, and predicting drug responses from molecular profiles using machine learning is crucial for this goal. However, the high dimensionality of the molecular profiles compared to the limited number of samples presents significant challenges. Knowledge-based feature selection methods are particularly suitable for drug response prediction, as they leverage biological insights to reduce dimensionality and improve model interpretability. This study presents the first comparative evaluation of nine different knowledge-based and data-driven feature reduction methods on cell line and tumor data. Our analysis employs six distinct machine learning models, with a total of more than 6,000 runs to ensure a robust evaluation. Our findings indicate that transcription factor activities outperform other methods in predicting drug responses, effectively distinguishing between sensitive and resistant tumors for seven of the 20 drugs evaluated.",
+    "keywords": [
+      "Drug response prediction",
+      "Feature reduction",
+      "Feature selection",
+      "Knowledge-based features",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "Antineoplastic Agents/pharmacology",
+      "Precision Medicine/methods",
+      "Neoplasms/drug therapy/pathology/genetics",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Firoozbakht, Farzaneh",
+        "Yousefi, Behnam",
+        "Tsoy, Olga",
+        "Baumbach, Jan",
+        "Schwikowski, Benno"
+      ],
+      "short_names": [
+        "Firoozbakht F",
+        "Yousefi B",
+        "Tsoy O",
+        "Baumbach J",
+        "Schwikowski B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Computational Systems Biology, University of Hamburg, Hamburg, Germany.",
+        "Computational Systems Biomedicine Lab, Institut Pasteur, Universite Paris Cite, Paris, France.",
+        "Ecole Doctorale Complexite du vivant, Sorbonne Universite, Paris, France.",
+        "Institute of Medical Systems Biology, Center for Biomedical AI (bAIome), Center for Molecular Neurobiology (ZMNH), University Medical Center Hamburg-Eppendorf, 20251, Hamburg, Germany.",
+        "Institute for Computational Systems Biology, University of Hamburg, Hamburg, Germany.",
+        "Institute for Computational Systems Biology, University of Hamburg, Hamburg, Germany.",
+        "Computational BioMedicine Lab, University of Southern Denmark, Odense, Denmark.",
+        "Computational Systems Biomedicine Lab, Institut Pasteur, Universite Paris Cite, Paris, France. benno@pasteur.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Firoozbakht, Farzaneh",
+        "short_name": "Firoozbakht F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Computational Systems Biology, University of Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Yousefi, Behnam",
+        "short_name": "Yousefi B",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Systems Biomedicine Lab, Institut Pasteur, Université Paris Cité, Paris, France.",
+          "École Doctorale Complexite du vivant, Sorbonne Université, Paris, France.",
+          "Institute of Medical Systems Biology, Center for Biomedical AI (bAIome), Center for Molecular Neurobiology (ZMNH), University Medical Center Hamburg-Eppendorf, 20251, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Tsoy, Olga",
+        "short_name": "Tsoy O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Computational Systems Biology, University of Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Baumbach, Jan",
+        "short_name": "Baumbach J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Computational Systems Biology, University of Hamburg, Hamburg, Germany.",
+          "Computational BioMedicine Lab, University of Southern Denmark, Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Schwikowski, Benno",
+        "short_name": "Schwikowski B",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Systems Biomedicine Lab, Institut Pasteur, Université Paris Cité, Paris, France. benno@pasteur.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Dec 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/28 11:44",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "41548001",
+      "40457408"
+    ],
+    "refs": [
+      "38557614",
+      "38396830",
+      "38105227",
+      "37848756",
+      "37759569",
+      "37298331",
+      "36699385",
+      "35727472",
+      "34619752",
+      "34223192",
+      "34185214",
+      "33381841",
+      "33270910",
+      "32762035",
+      "32613204",
+      "32566759",
+      "32523056",
+      "32310964",
+      "32071383",
+      "31950132",
+      "31927568",
+      "31645597",
+      "31552418",
+      "31212916",
+      "31073534",
+      "31037158",
+      "30559381",
+      "29366522",
+      "29295995",
+      "29229604",
+      "29195078",
+      "29186351",
+      "27587657",
+      "27397505",
+      "27354694",
+      "26014593",
+      "24950467",
+      "24880487",
+      "24632547",
+      "24297534",
+      "24071849",
+      "23180760",
+      "22460905",
+      "19097774",
+      "16990858",
+      "16632515"
+    ],
+    "similar": [
+      "39730699",
+      "38797968",
+      "29073279",
+      "32473309",
+      "39292588",
+      "32024872",
+      "36715269",
+      "38487849",
+      "39883719",
+      "39962480",
+      "26121976",
+      "40163555",
+      "38744014",
+      "28082455",
+      "31825821",
+      "34043512",
+      "30891794",
+      "34023295",
+      "39674292",
+      "34923927",
+      "38270152",
+      "28984192",
+      "39158621",
+      "35507263",
+      "40090506",
+      "33914775",
+      "30401894",
+      "39858475",
+      "39365298",
+      "27312948",
+      "34506489",
+      "32798653",
+      "40251828",
+      "35914385",
+      "29463808",
+      "39044587",
+      "40053734",
+      "40056540",
+      "32365822",
+      "31695042",
+      "33734308",
+      "28881998",
+      "40028209",
+      "39494610",
+      "31979006",
+      "30772464",
+      "39385185",
+      "38070154",
+      "31967990",
+      "39226823",
+      "35786472",
+      "36494630",
+      "29133589",
+      "34727569",
+      "36424597",
+      "38724920",
+      "33542382",
+      "29528376",
+      "39748003",
+      "30864317",
+      "38606185",
+      "29891981",
+      "32523056",
+      "32604779",
+      "33842944",
+      "40336661",
+      "30289891",
+      "27550087",
+      "25781964",
+      "39628476",
+      "34070793",
+      "31927568",
+      "33822890",
+      "36694130",
+      "39956346",
+      "38183214",
+      "35163005",
+      "35348595",
+      "27324412",
+      "39490025",
+      "38157919",
+      "34059012",
+      "16899605",
+      "31416538",
+      "36775056",
+      "35513784",
+      "30670007",
+      "39747341",
+      "25794193",
+      "33653269",
+      "40309751",
+      "39230696",
+      "38445692",
+      "38981950",
+      "39423102",
+      "39745993",
+      "38842417",
+      "39244634",
+      "38943093",
+      "38305432"
+    ],
+    "review": [
+      "39730699",
+      "34023295",
+      "39158621",
+      "35507263",
+      "39858475",
+      "39365298",
+      "33842944",
+      "31927568",
+      "38445692"
+    ],
+    "pmc": [
+      "11680677"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-81866-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39730699/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

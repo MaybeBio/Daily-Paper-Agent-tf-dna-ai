@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "41284376",
+    "doi": "10.1111/jcmm.70958",
+    "title": "Development of a PANoptosis-Related Pathomics Prognostic Model in Ovarian Cancer: A Multi-Omics Study."
+  },
+  "content": {
+    "abstract": "Ovarian cancer (OC) is a high-mortality gynaecological malignancy, and the role of PANoptosis, a comprehensive cell death mechanism, in its prognosis remains unexplored. This study aims to clarify it, potentially guiding OC diagnosis and treatment. We analysed the ovarian data from TCGA and GTEx, and the GSE184880 scRNA-seq dataset from GEO. Spatial data and pathological images were sourced from the 10X Genomics website and GDC Portal. Features were extracted using CellProfiler and ResNet-50, and a PANoptosis-related pathomics prognostic model (PANPM) powered by deep learning was developed. The PANoptosis-related hub gene STAT4 potentially served as a protective factor for patients with OC. A better prognosis in OC was found linked to higher PANoptosis. The PANPM, manifesting distinct advantages for clinical application by accurately extracting pathological features, performed excellently in validation and the high-risk group indicated a poor prognosis. Additionally, STAT4(+) T cells may inhibit OC, by activating the PANoptosis of epithelial cells through TNFSF12-TNFRSF12A and TNF-TNFRSF1A, which sheds light on potential therapeutic interventions involving STAT4(+) T cells.",
+    "keywords": [
+      "STAT4",
+      "PANoptosis",
+      "multi-omics analysis",
+      "ovarian cancer",
+      "pathomics prognostic model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Ovarian Neoplasms/pathology/genetics/metabolism",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "*Genomics/methods",
+      "*Biomarkers, Tumor/genetics",
+      "STAT4 Transcription Factor/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Deep Learning",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yangyang",
+        "Fang, Mengqi",
+        "Wang, Xuanyu",
+        "Ying, Zhiwei",
+        "Jiang, Shufan",
+        "Lu, Yangyuxiao",
+        "He, Keren",
+        "Mo, Shaocong",
+        "Tao, Fangfang",
+        "Lu, Ping"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Fang M",
+        "Wang X",
+        "Ying Z",
+        "Jiang S",
+        "Lu Y",
+        "He K",
+        "Mo S",
+        "Tao F",
+        "Lu P"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-9388-6222"
+      ],
+      "affiliations": [
+        "Shanghai Medical College, Fudan University, Shanghai, China.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Provincial Hospital of Chinese Medicine, Zhejiang Chinese Medical University, Hangzhou, China.",
+        "College of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "College of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Pathology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Provincial Hospital of Chinese Medicine, Zhejiang Chinese Medical University, Hangzhou, China.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Provincial Hospital of Chinese Medicine, Zhejiang Chinese Medical University, Hangzhou, China.",
+        "Department of Digestive Diseases, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Immunology and Microbiology, Basic Medical College, Zhejiang Chinese Medical University, Hangzhou, Zhejiang, China.",
+        "Department of TCM, Taizhou First People's Hospital, Hangzhou, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yangyang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Mengqi",
+        "short_name": "Fang M",
+        "identifiers": [
+          "0009-0004-9388-6222"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Provincial Hospital of Chinese Medicine, Zhejiang Chinese Medical University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuanyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Zhiwei",
+        "short_name": "Ying Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Shufan",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yangyuxiao",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Provincial Hospital of Chinese Medicine, Zhejiang Chinese Medical University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Keren",
+        "short_name": "He K",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Provincial Hospital of Chinese Medicine, Zhejiang Chinese Medical University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Shaocong",
+        "short_name": "Mo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Diseases, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Fangfang",
+        "short_name": "Tao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology and Microbiology, Basic Medical College, Zhejiang Chinese Medical University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Lü, Ping",
+        "short_name": "Lü P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of TCM, Taizhou First People's Hospital, Hangzhou, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 18:39",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42365738",
+      "42333220",
+      "41565925"
+    ],
+    "refs": [
+      "39333689",
+      "38517412",
+      "38509889",
+      "38508210",
+      "38480853",
+      "38439022",
+      "38287713",
+      "38230766",
+      "38008850",
+      "37932267",
+      "37875707",
+      "37730669",
+      "37653025",
+      "37601005",
+      "37547288",
+      "37519797",
+      "37398672",
+      "37264954",
+      "37095524",
+      "36968603",
+      "36841748",
+      "36075393",
+      "35812403",
+      "35675036",
+      "35563804",
+      "35484925",
+      "35470064",
+      "35432318",
+      "35087101",
+      "34504660",
+      "34417225",
+      "34290111",
+      "34276676",
+      "34260682",
+      "33603203",
+      "33597522",
+      "33544846",
+      "33149148",
+      "32913098",
+      "32648448",
+      "32550270",
+      "31870423",
+      "31850239",
+      "31840082",
+      "31740819",
+      "31046081",
+      "30127393",
+      "29636860",
+      "28640766",
+      "28114283",
+      "27008012",
+      "25949921",
+      "25867923",
+      "23238306",
+      "22455463",
+      "21571862",
+      "18824700",
+      "18030330",
+      "17076895",
+      "15385126",
+      "15000861",
+      "11531144",
+      "10626900"
+    ],
+    "similar": [
+      "41284376",
+      "40170843",
+      "41141246",
+      "39248067",
+      "41351424",
+      "40225866",
+      "42510824",
+      "41290867",
+      "37717621",
+      "41094064",
+      "41911956",
+      "40382612",
+      "41024209",
+      "40918470",
+      "40628169",
+      "41391606",
+      "40070821",
+      "41514449",
+      "42387880",
+      "42195052",
+      "42292348",
+      "40534859",
+      "40233411",
+      "39600695",
+      "40821986",
+      "40707588",
+      "40200832",
+      "40605104",
+      "41930201",
+      "39697754",
+      "39896800",
+      "39773329",
+      "41297810",
+      "38970067",
+      "39870964",
+      "41239529",
+      "38654239",
+      "38869635",
+      "41022165",
+      "36003381",
+      "37264954",
+      "39394143",
+      "39932052",
+      "31182053",
+      "41792142",
+      "39686988",
+      "42754905",
+      "41006685",
+      "40375037",
+      "40324259",
+      "39794869",
+      "39104814",
+      "33180631",
+      "42069724",
+      "41409300",
+      "41246350",
+      "38018207",
+      "40151638",
+      "40539060",
+      "41000388",
+      "40386292",
+      "41281377",
+      "40193636",
+      "39624400",
+      "39287311",
+      "41760846",
+      "38281281",
+      "41362200",
+      "42481779",
+      "41344266",
+      "39991148",
+      "37095524",
+      "39136009",
+      "40330458",
+      "39809219",
+      "41188996",
+      "40744688",
+      "39063239",
+      "39494284",
+      "40541693",
+      "33636177",
+      "41035636",
+      "41214581",
+      "41820464",
+      "40360577",
+      "40826138",
+      "40761790",
+      "40649778",
+      "39669580",
+      "41656832",
+      "35031063",
+      "41913250",
+      "39293329",
+      "33509250",
+      "42273677",
+      "40307488",
+      "41419500",
+      "39343999",
+      "39085784",
+      "40672941"
+    ],
+    "review": [
+      "41284376"
+    ],
+    "pmc": [
+      "12643048"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/41284376.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41284376/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.70958",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1277",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

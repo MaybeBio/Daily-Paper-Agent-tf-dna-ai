@@ -1,0 +1,520 @@
+{
+  "identity": {
+    "pmid": "37697238",
+    "doi": "10.1186/s12885-023-11338-8",
+    "title": "Radiomic features from multiparametric magnetic resonance imaging predict molecular subgroups of pediatric low-grade gliomas."
+  },
+  "content": {
+    "abstract": "BACKGROUND: We aimed to develop machine learning models for prediction of molecular subgroups (low-risk group and intermediate/high-risk group) and molecular marker (KIAA1549-BRAF fusion) of pediatric low-grade gliomas (PLGGs) based on radiomic features extracted from multiparametric MRI. METHODS: 61 patients with PLGGs were included in this retrospective study, which were divided into a training set and an internal validation set at a ratio of 2:1 based on the molecular subgroups or the molecular marker. The patients were classified into low-risk and intermediate/high-risk groups, BRAF fusion positive and negative groups, respectively. We extracted 5929 radiomic features from multiparametric MRI. Thereafter, we removed redundant features, trained random forest models on the training set for predicting the molecular subgroups or the molecular marker, and validated their performance on the internal validation set. The performance of the prediction model was verified by 3-fold cross-validation. RESULTS: We constructed the classification model differentiating low-risk PLGGs from intermediate/high-risk PLGGs using 4 relevant features, with an AUC of 0.833 and an accuracy of 76.2% in the internal validation set. In the prediction model for predicting KIAA1549-BRAF fusion using 4 relevant features, an AUC of 0.818 and an accuracy of 81.0% were achieved in the internal validation set. CONCLUSIONS: The current study demonstrates that MRI radiomics is able to predict molecular subgroups of PLGGs and KIAA1549-BRAF fusion with satisfying sensitivity. TRIAL REGISTRATION: This study was retrospectively registered at clinicaltrials.gov (NCT04217018).",
+    "keywords": [
+      "BRAF fusion",
+      "Machine learning",
+      "Magnetic resonance imaging",
+      "Pediatric low-grade glioma",
+      "Radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Child",
+      "*Multiparametric Magnetic Resonance Imaging",
+      "Proto-Oncogene Proteins B-raf",
+      "Retrospective Studies",
+      "*Glioma/diagnostic imaging/genetics",
+      "Machine Learning",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zhen",
+        "Hong, Xuanke",
+        "Wang, Linglong",
+        "Ma, Zeyu",
+        "Guan, Fangzhan",
+        "Wang, Weiwei",
+        "Qiu, Yuning",
+        "Zhang, Xueping",
+        "Duan, Wenchao",
+        "Wang, Minkai",
+        "Sun, Chen",
+        "Zhao, Yuanshen",
+        "Duan, Jingxian",
+        "Sun, Qiuchang",
+        "Liu, Lin",
+        "Ding, Lei",
+        "Ji, Yuchen",
+        "Yan, Dongming",
+        "Liu, Xianzhi",
+        "Cheng, Jingliang",
+        "Zhang, Zhenyu",
+        "Li, Zhi-Cheng",
+        "Yan, Jing"
+      ],
+      "short_names": [
+        "Liu Z",
+        "Hong X",
+        "Wang L",
+        "Ma Z",
+        "Guan F",
+        "Wang W",
+        "Qiu Y",
+        "Zhang X",
+        "Duan W",
+        "Wang M",
+        "Sun C",
+        "Zhao Y",
+        "Duan J",
+        "Sun Q",
+        "Liu L",
+        "Ding L",
+        "Ji Y",
+        "Yan D",
+        "Liu X",
+        "Cheng J",
+        "Zhang Z",
+        "Li ZC",
+        "Yan J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Yanjing Medical College of Capital Medical University, Beijing, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of MRI, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+        "China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of MRI, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China. fcczhangzy1@zzu.edu.cn.",
+        "Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China. zc.li@siat.ac.cn.",
+        "University of Chinese Academy of Sciences, Beijing, China. zc.li@siat.ac.cn.",
+        "Shenzhen United Imaging Research Institute of Innovative Medical Equipment, Shenzhen, 518045, China. zc.li@siat.ac.cn.",
+        "Department of MRI, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China. fccyanj@zzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zhen",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Xuanke",
+        "short_name": "Hong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Linglong",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Yanjing Medical College of Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Zeyu",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Fangzhan",
+        "short_name": "Guan F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Weiwei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yuning",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xueping",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of MRI, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Wenchao",
+        "short_name": "Duan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Minkai",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Chen",
+        "short_name": "Sun C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuanshen",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Jingxian",
+        "short_name": "Duan J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Qiuchang",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lin",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "China-Japan Union Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Lei",
+        "short_name": "Ding L",
+        "identifiers": [],
+        "affiliations": [
+          "China-Japan Union Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Yuchen",
+        "short_name": "Ji Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Dongming",
+        "short_name": "Yan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xianzhi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jingliang",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of MRI, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhenyu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China. fcczhangzy1@zzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Zhi-Cheng",
+        "short_name": "Li ZC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China. zc.li@siat.ac.cn.",
+          "University of Chinese Academy of Sciences, Beijing, China. zc.li@siat.ac.cn.",
+          "Shenzhen United Imaging Research Institute of Innovative Medical Equipment, Shenzhen, 518045, China. zc.li@siat.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Yan, Jing",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of MRI, The First Affiliated Hospital of Zhengzhou University, Jian she Dong Road 1, Zhengzhou, 450052, Henan province, China. fccyanj@zzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2023 Sep 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/12 00:42",
+    "fetched_at": "2026-09-29 06:57:14"
+  },
+  "links": {
+    "cites": [
+      "42479162",
+      "41935292",
+      "41612209",
+      "41310360",
+      "41291508",
+      "39211987",
+      "39154039",
+      "38972953",
+      "38896238"
+    ],
+    "refs": [
+      "34782727",
+      "34597235",
+      "34312469",
+      "34174070",
+      "34056604",
+      "33574103",
+      "33347400",
+      "33169295",
+      "30720861",
+      "30433891",
+      "29948154",
+      "29789422",
+      "29167275",
+      "28912153",
+      "28640698",
+      "28458602",
+      "26511214",
+      "26188015",
+      "26061753",
+      "24892406",
+      "23881924",
+      "23817572",
+      "23612919",
+      "23609006",
+      "23583981",
+      "22492957",
+      "21368693",
+      "21046410",
+      "20156809",
+      "19228619",
+      "17951348",
+      "10653879"
+    ],
+    "similar": [
+      "37697238",
+      "36244075",
+      "31828414",
+      "36566592",
+      "36796177",
+      "33574103",
+      "35366379",
+      "32162004",
+      "37803212",
+      "38604736",
+      "29948154",
+      "33121211",
+      "36547672",
+      "33819703",
+      "36727433",
+      "30260592",
+      "37653513",
+      "34233259",
+      "36853347",
+      "36276136",
+      "29404769",
+      "35262407",
+      "33769289",
+      "34270479",
+      "36131163",
+      "29527478",
+      "31464116",
+      "32222795",
+      "33104503",
+      "35024015",
+      "33970516",
+      "32676784",
+      "35929909",
+      "37313916",
+      "30719536",
+      "32916409",
+      "36007944",
+      "39154039",
+      "38279197",
+      "35141780",
+      "30230108",
+      "37401906",
+      "38446044",
+      "34085336",
+      "29573085",
+      "32239241",
+      "35863783",
+      "35136934",
+      "35420299",
+      "32462799",
+      "33393131",
+      "37373909",
+      "25667294",
+      "36282309",
+      "33553421",
+      "35238971",
+      "35373885",
+      "32040669",
+      "31439263",
+      "36194851",
+      "31563963",
+      "31691122",
+      "31811342",
+      "35111644",
+      "35773561",
+      "35033600",
+      "30194745",
+      "31704598",
+      "33646452",
+      "35819326",
+      "33117690",
+      "36330178",
+      "35734595",
+      "31606714",
+      "37646022",
+      "21884820",
+      "34417848",
+      "30097822",
+      "36991347",
+      "32451331",
+      "35439946",
+      "31857632",
+      "34160114",
+      "28755054",
+      "32740813",
+      "31783344",
+      "32193643",
+      "37207135",
+      "32020435",
+      "35583712",
+      "31486565",
+      "37113160",
+      "31820065",
+      "30977048",
+      "33638577",
+      "37772478",
+      "35127472",
+      "34383145",
+      "34460921",
+      "36418622",
+      "38972953",
+      "37609311"
+    ],
+    "review": [
+      "37697238",
+      "32193643"
+    ],
+    "pmc": [
+      "10496393"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-023-11338-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://clinicaltrials.gov/search?term=AREA%5BReferencePMID%5D37697238",
+        "provider": "ClinicalTrials.gov",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37697238/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37697238",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BRAF-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

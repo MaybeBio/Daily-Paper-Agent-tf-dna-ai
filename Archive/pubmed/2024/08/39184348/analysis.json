@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39184348",
+  "title": "TF-EPI: an interpretable enhancer-promoter interaction detection method based on Transformer.",
+  "authors": "Liu, Bowen; Zhang, Weihang; Zeng, Xin; Loza, Martin; Park, Sung-Joon; Nakai, Kenta",
+  "journal": "Frontiers in genetics",
+  "published_date": "2024-08-26",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用Transformer从DNA序列检测增强子-启动子互作，并利用注意力机制识别TF相关基序，虽非直接建模TF-DNA结合，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "The detection of enhancer-promoter interactions (EPIs) is crucial for understanding gene expression regulation, disease mechanisms, and more. In this study, we developed TF-EPI, a deep learning model based on Transformer designed to detect these interactions solely from DNA sequences. The performance of TF-EPI surpassed that of other state-of-the-art methods on multiple benchmark datasets. Importantly, by utilizing the attention mechanism of the Transformer, we identified distinct cell type-specific motifs and sequences in enhancers and promoters, which were validated against databases such as JASPAR and UniBind, highlighting the potential of our method in discovering new biological insights. Moreover, our analysis of the transcription factors (TFs) corresponding to these motifs and short sequence pairs revealed the heterogeneity and commonality of gene regulatory mechanisms and demonstrated the ability to identify TFs relevant to the source information of the cell line. Finally, the introduction of transfer learning can mitigate the challenges posed by cell type-specific gene regulation, yielding enhanced accuracy in cross-cell line EPI detection. Overall, our work unveils important sequence information for the investigation of enhancer-promoter pairs based on the attention mechanism of the Transformer, providing an important milestone in the investigation of cis-regulatory grammar.",
+  "abstract_zh": "增强子-启动子相互作用（enhancer-promoter interactions, EPIs）的检测对于理解基因表达调控、疾病机制等至关重要。在本研究中，我们开发了TF-EPI，一种基于Transformer的深度学习模型，旨在仅从DNA序列中检测这些相互作用。TF-EPI的性能在多个基准数据集上超越了其他最先进的方法。重要的是，通过利用Transformer的注意力机制，我们识别了增强子和启动子中不同的细胞类型特异性基序和序列，这些发现已通过JASPAR和UniBind等数据库验证，突显了我们的方法在发现新生物学见解方面的潜力。此外，我们对这些基序和短序列对对应的转录因子（transcription factors, TFs）的分析揭示了基因调控机制的异质性和共性，并展示了识别与细胞系来源信息相关的TFs的能力。最后，引入迁移学习可以缓解细胞类型特异性基因调控带来的挑战，从而在跨细胞系EPI检测中提高准确性。总体而言，我们的工作基于Transformer的注意力机制，揭示了研究增强子-启动子对的重要序列信息，为顺式调控语法的研究提供了重要里程碑。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39184348/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39184348/",
+  "paper_page_path": "papers/pubmed/39184348/index.html"
+}

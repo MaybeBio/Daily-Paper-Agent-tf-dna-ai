@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39696471",
+  "title": "EpiGePT: a pretrained transformer-based language model for context-specific human epigenomics.",
+  "authors": "Gao, Zijing; Liu, Qiao; Zeng, Wanwen; Jiang, Rui; Wong, Wing Hung",
+  "journal": "Genome biology",
+  "published_date": "2024-12-19",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用Transformer预测表观基因组信号，整合TF活性与3D基因组互作，虽涉及TF-DNA相关调控但非直接结合建模，方法可迁移至TF-DNA互作预测。",
+  "abstract": "The inherent similarities between natural language and biological sequences have inspired the use of large language models in genomics, but current models struggle to incorporate chromatin interactions or predict in unseen cellular contexts. To address this, we propose EpiGePT, a transformer-based model designed for predicting context-specific human epigenomic signals. By incorporating transcription factor activities and 3D genome interactions, EpiGePT outperforms existing methods in epigenomic signal prediction tasks, especially in cell-type-specific long-range interaction predictions and genetic variant impacts, advancing our understanding of gene regulation. A free online prediction service is available at http://health.tsinghua.edu.cn/epigept .",
+  "abstract_zh": "自然语言与生物序列之间的内在相似性激发了大型语言模型在基因组学中的应用，但现有模型难以整合染色质相互作用或在未见过的细胞环境中进行预测。为解决这一问题，我们提出了EpiGePT，一种基于Transformer的模型，旨在预测特定情境下的人类表观基因组信号。通过整合转录因子活性和三维基因组相互作用，EpiGePT在表观基因组信号预测任务中优于现有方法，尤其是在细胞类型特异性的长程相互作用预测和遗传变异影响方面，推进了我们对基因调控的理解。免费在线预测服务可在 http://health.tsinghua.edu.cn/epigept 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39696471/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39696471/",
+  "paper_page_path": "papers/pubmed/39696471/index.html"
+}

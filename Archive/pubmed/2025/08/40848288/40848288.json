@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "40848288",
+    "doi": "10.1093/bioinformatics/btaf469",
+    "title": "TRAFICA: an open chromatin language model to improve transcription factor binding affinity prediction."
+  },
+  "content": {
+    "abstract": "MOTIVATION: In silico transcription factor and DNA (TF-DNA) binding affinity prediction plays a vital role in examining TF binding preferences and understanding gene regulation. The existing tools employ TF-DNA binding profiles from in vitro high-throughput technologies to predict TF-DNA binding affinity. However, TFs tend to bind to sequences in open chromatin regions in vivo, such TF binding preference is seldomly considered by these existing tools. RESULTS: In this study, we developed TRAFICA, an open chromatin language model to predict TF-DNA binding affinity by integrating sequence characteristics of open chromatin regions from ATAC-seq experiments and in vitro TF-DNA binding profiles from high-throughput technologies. We pretrained TRAFICA on over 2.8 million nucleotide sequences in open chromatin regions derived from 197 ATAC-seq experiments (115 cell lines) to learn in vivo TF binding preferences. We further fine-tuned TRAFICA using low-rank adaptation (LoRA) on PBM and HT-SELEX TF-DNA binding profiles to learn intrinsic binding preferences for specific TFs. We systematically evaluated TRAFICA and compared its predictive performance with existing prediction tools and advanced DNA language models. The experimental results demonstrated that TRAFICA significantly outperformed the others in predicting in vitro and in vivo TF-DNA binding affinity, achieving state-of-the-art performance. These findings indicate that considering the sequence characteristics from open chromatin regions could significantly improve TF-DNA binding affinity prediction. AVAILABILITY AND IMPLEMENTATION: The source code of TRAFICA and detailed tutorials are available at https://github.com/ericcombiolab/TRAFICA.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/chemistry",
+      "*Chromatin/metabolism/chemistry",
+      "Humans",
+      "Protein Binding",
+      "*DNA/metabolism/chemistry",
+      "Binding Sites",
+      "*Software",
+      "*Computational Biology/methods",
+      "Chromatin Immunoprecipitation Sequencing"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Yu",
+        "Wang, Chonghao",
+        "Xu, Ke",
+        "Ding, Yi",
+        "Lyu, Aiping",
+        "Zhang, Lu"
+      ],
+      "short_names": [
+        "Xu Y",
+        "Wang C",
+        "Xu K",
+        "Ding Y",
+        "Lyu A",
+        "Zhang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0121-0291",
+        "ORCID: 0000-0002-2794-7371"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China.",
+        "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China.",
+        "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China.",
+        "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China.",
+        "School of Chinese Medicine, Hong Kong Baptist University, 999077 Hong Kong, China.",
+        "Institute of Systems Medicine and Health Sciences, Hong Kong Baptist University, 999077 Hong Kong, China.",
+        "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China.",
+        "Institute of Systems Medicine and Health Sciences, Hong Kong Baptist University, 999077 Hong Kong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Yu",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chonghao",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ke",
+        "short_name": "Xu K",
+        "identifiers": [
+          "0000-0002-0121-0291"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yi",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Aiping",
+        "short_name": "Lyu A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Hong Kong Baptist University, 999077 Hong Kong, China.",
+          "Institute of Systems Medicine and Health Sciences, Hong Kong Baptist University, 999077 Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lu",
+        "short_name": "Zhang L",
+        "identifiers": [
+          "0000-0002-2794-7371"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Hong Kong Baptist University, 999077 Hong Kong, China.",
+          "Institute of Systems Medicine and Health Sciences, Hong Kong Baptist University, 999077 Hong Kong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/24 00:44",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39609566",
+      "38831039",
+      "36018808",
+      "36018788",
+      "35941239",
+      "34850907",
+      "34400291",
+      "33767912",
+      "33538820",
+      "32703884",
+      "31821414",
+      "31740966",
+      "31713622",
+      "31634140",
+      "29425488",
+      "29165643",
+      "28825706",
+      "28473536",
+      "28167566",
+      "27807347",
+      "27466627",
+      "26213851",
+      "25559105",
+      "24500199",
+      "23354101",
+      "23332764",
+      "23193273",
+      "23019147",
+      "22955616",
+      "22153072",
+      "20972220",
+      "20378718",
+      "19265799",
+      "18243105",
+      "17540862",
+      "16998473",
+      "8664541"
+    ],
+    "similar": [
+      "40848288",
+      "42099803",
+      "20838582",
+      "25957350",
+      "40102719",
+      "28750606",
+      "26291518",
+      "38940155",
+      "30897079",
+      "40598892",
+      "27899623",
+      "26285121",
+      "35681170",
+      "31742324",
+      "34174819",
+      "41978381",
+      "33381817",
+      "22955984",
+      "42114111",
+      "20098497",
+      "37214836",
+      "28726847",
+      "39482734",
+      "35240993",
+      "25775564",
+      "40065237",
+      "34929739",
+      "41325984",
+      "24039567",
+      "31723409",
+      "27153645",
+      "28472398",
+      "30423062",
+      "38966997",
+      "26130577",
+      "19956545",
+      "35263332",
+      "26818008",
+      "41308636",
+      "30084962",
+      "31053165",
+      "31406384",
+      "25070602",
+      "24500199",
+      "28718849",
+      "42134988",
+      "36484687",
+      "33372147",
+      "32574834",
+      "20158869",
+      "20663846",
+      "40903577",
+      "30567711",
+      "37805453",
+      "28541376",
+      "22863112",
+      "22479205",
+      "19959498",
+      "28961686",
+      "19088121",
+      "41108684",
+      "41601205",
+      "35042722",
+      "28379348",
+      "23748563",
+      "39402535",
+      "41518494",
+      "37486787",
+      "30517703",
+      "29757349",
+      "37919990",
+      "29326300",
+      "24581441",
+      "28334224",
+      "27567672",
+      "31639474",
+      "26703974",
+      "22955990",
+      "34272562",
+      "33999190",
+      "32393327",
+      "34255854",
+      "35858748",
+      "35293310",
+      "31340985",
+      "39350338",
+      "31899481",
+      "21486936",
+      "30709337",
+      "32660981",
+      "40795153",
+      "34073774",
+      "28623580",
+      "38654130",
+      "35659235",
+      "37650641",
+      "29525962",
+      "23812975",
+      "39080437",
+      "28203701"
+    ],
+    "review": [
+      "40848288",
+      "31742324",
+      "30084962"
+    ],
+    "pmc": [
+      "12582366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40848288.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40848288/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf469",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

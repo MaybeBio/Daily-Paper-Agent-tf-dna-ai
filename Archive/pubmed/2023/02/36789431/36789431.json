@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "36789431",
+    "doi": "10.1101/2023.01.27.525971",
+    "title": "ChromDL: A Next-Generation Regulatory DNA Classifier."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Predicting the regulatory function of non-coding DNA using only the DNA sequence continues to be a major challenge in genomics. With the advent of improved optimization algorithms, faster GPU speeds, and more intricate machine learning libraries, hybrid convolutional and recurrent neural network architectures can be constructed and applied to extract crucial information from non-coding DNA. RESULTS: Using a comparative analysis of the performance of thousands of Deep Learning (DL) architectures, we developed ChromDL, a neural network architecture combining bidirectional gated recurrent units (BiGRU), convolutional neural networks (CNNs), and bidirectional long short-term memory units (BiLSTM), which significantly improves upon a range of prediction metrics compared to its predecessors in transcription factor binding site (TFBS), histone modification (HM), and DNase-I hypersensitive site (DHS) detection. Combined with a secondary model, it can be utilized for accurate classification of gene regulatory elements. The model can also detect weak transcription factor (TF) binding with higher accuracy as compared to previously developed methods and has the potential to accurately delineate TF binding motif specificities. AVAILABILITY: The ChromDL source code can be found at https://github.com/chrishil1/ChromDL .",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hill, Christopher",
+        "Hudaiberdiev, Sanjarbek",
+        "Ovcharenko, Ivan"
+      ],
+      "short_names": [
+        "Hill C",
+        "Hudaiberdiev S",
+        "Ovcharenko I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20892, USA.",
+        "School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+        "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20892, USA.",
+        "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20892, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hill, Christopher",
+        "short_name": "Hill C",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20892, USA.",
+          "School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Hudaiberdiev, Sanjarbek",
+        "short_name": "Hudaiberdiev S",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Ovcharenko, Ivan",
+        "short_name": "Ovcharenko I",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20892, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Jan 29",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/16 06:00",
+    "fetched_at": "2026-09-28 20:28:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37603758",
+      "36791193",
+      "36420891",
+      "32169219",
+      "32015543",
+      "31253979",
+      "30971806",
+      "29606353",
+      "29126249",
+      "28968739",
+      "27980060",
+      "27474269",
+      "27473064",
+      "27084946",
+      "26531826",
+      "26301843",
+      "26017442",
+      "25976354",
+      "25693563",
+      "25035418",
+      "23193274",
+      "22955616",
+      "20685816",
+      "20513432",
+      "20110278",
+      "19458158",
+      "19443739",
+      "18842628",
+      "18267787",
+      "17324271",
+      "16888363",
+      "12045153",
+      "11237011",
+      "11032042",
+      "9377276",
+      "7584402"
+    ],
+    "similar": [
+      "36789431",
+      "37387183",
+      "31510640",
+      "37328639",
+      "38701417",
+      "30419785",
+      "29970003",
+      "29757349",
+      "36328750",
+      "31590652",
+      "38347788",
+      "34073774",
+      "33334313",
+      "36166165",
+      "34812044",
+      "29069282",
+      "39121059",
+      "36203144",
+      "34571539",
+      "34221854",
+      "39125714",
+      "35676633",
+      "28961695",
+      "30423078",
+      "30423062",
+      "38741790",
+      "37733731",
+      "39192227",
+      "36116322",
+      "27896980",
+      "31725778",
+      "34534646",
+      "38443802",
+      "27084946",
+      "36084008",
+      "35191481",
+      "37305295",
+      "38351226",
+      "38855220",
+      "38848239",
+      "33581335",
+      "36860882",
+      "33367499",
+      "30753947",
+      "38141798",
+      "38528797",
+      "37930575",
+      "39022740",
+      "36567619",
+      "25957350",
+      "29617928",
+      "37004267",
+      "27307608",
+      "36982795",
+      "34901421",
+      "37603823",
+      "30808287",
+      "33230481",
+      "36650799",
+      "36642410",
+      "33668245",
+      "34849591",
+      "35945138",
+      "31598637",
+      "36991790",
+      "33599251",
+      "35898070",
+      "32684422",
+      "33036220",
+      "38940155",
+      "35719916",
+      "36921434",
+      "33639834",
+      "34320631",
+      "35652477",
+      "35945157",
+      "30075707",
+      "38435580",
+      "37140548",
+      "35465215",
+      "29659719",
+      "38733561",
+      "37963055",
+      "29404850",
+      "36169989",
+      "33416862",
+      "38599417",
+      "35780100",
+      "35421797",
+      "31001412",
+      "36991659",
+      "35140885",
+      "33347303",
+      "25086003",
+      "38124610",
+      "36694944"
+    ],
+    "review": [
+      "36789431",
+      "35652477"
+    ],
+    "pmc": [
+      "9928050"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36789431/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36789431",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.01.27.525971",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

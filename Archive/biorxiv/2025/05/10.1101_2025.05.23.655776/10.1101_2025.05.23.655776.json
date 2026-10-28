@@ -1,0 +1,257 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.23.655776",
+  "title": "Sequencing the gaps: dark genomic regions persist in CHM13 despite long-read advances",
+  "doi": "10.1101/2025.05.23.655776",
+  "abstract": "Comprehensive genomic analysis is essential for advancing our understanding of human genetics and disease. However, short-read sequencing technologies are inherently limited in their ability to resolve highly repetitive, structurally complex, and low-mappability genomic regions, previously coined as “dark” regions. Long-read sequencing technologies, such as PacBio and Oxford Nanopore Technologies (ONT), offer improved resolution of these regions, yet they are not perfect. With the advent of the new Telomere-to-Telomere (T2T) CHM13 reference genome, exploring its effect on dark regions is prudent. In this study, we systematically analyze dark regions across four human genome references—HG19, HG38 (with and without alternate contigs), and CHM13—using both short- and long-read sequencing data. We found that dark regions increase as the reference becomes more complete, especially dark-by-MAPQ regions, but that long-read sequencing significantly reduces the number of dark regions in the genome, particularly within gene bodies. However, we identify potential alignment challenges in long-read data, such as centromeric regions. These findings highlight the importance of both reference genome selection and sequencing technology choice in achieving a truly comprehensive genomic analysis.",
+  "authors": [
+    "Wadsworth ME",
+    "Page ML",
+    "Aguzzoli Heberle B",
+    "Miller JB",
+    "Steely C",
+    "Ebbert MTW"
+  ],
+  "published_date": "2025-05-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.23.655776",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.23.655776.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1027484",
+    "raw_record": {
+      "id": "PPR1027484",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1027484"
+        ]
+      },
+      "doi": "10.1101/2025.05.23.655776",
+      "title": "Sequencing the gaps: dark genomic regions persist in CHM13 despite long-read advances",
+      "authorString": "Wadsworth ME, Page ML, Aguzzoli Heberle B, Miller JB, Steely C, Ebbert MTW.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wadsworth ME",
+            "lastName": "Wadsworth",
+            "firstName": "Mark",
+            "initials": "ME",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sanders-Brown Center on Aging, , ,"
+                },
+                {
+                  "affiliation": "Department of Neuroscience, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Biomedical Informatics, Internal Medicine, College of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Page ML",
+            "lastName": "Page",
+            "firstName": "Madeline",
+            "initials": "ML",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sanders-Brown Center on Aging, , ,"
+                },
+                {
+                  "affiliation": "Department of Neuroscience, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Biomedical Informatics, Internal Medicine, College of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aguzzoli Heberle B",
+            "lastName": "Aguzzoli Heberle",
+            "firstName": "Bernardo",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sanders-Brown Center on Aging, , ,"
+                },
+                {
+                  "affiliation": "Department of Neuroscience, College of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miller JB",
+            "lastName": "Miller",
+            "firstName": "Justin",
+            "initials": "JB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sanders-Brown Center on Aging, , ,"
+                },
+                {
+                  "affiliation": "Division of Biomedical Informatics, Internal Medicine, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Microbiology, Immunology and Molecular Genetics, College of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steely C",
+            "lastName": "Steely",
+            "firstName": "Cody",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sanders-Brown Center on Aging, , ,"
+                },
+                {
+                  "affiliation": "Division of Biomedical Informatics, Internal Medicine, College of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ebbert MTW",
+            "lastName": "Ebbert",
+            "firstName": "Mark",
+            "initials": "MTW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sanders-Brown Center on Aging, , ,"
+                },
+                {
+                  "affiliation": "Department of Neuroscience, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Biomedical Informatics, Internal Medicine, College of Medicine, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Comprehensive genomic analysis is essential for advancing our understanding of human genetics and disease. However, short-read sequencing technologies are inherently limited in their ability to resolve highly repetitive, structurally complex, and low-mappability genomic regions, previously coined as “dark” regions. Long-read sequencing technologies, such as PacBio and Oxford Nanopore Technologies (ONT), offer improved resolution of these regions, yet they are not perfect. With the advent of the new Telomere-to-Telomere (T2T) CHM13 reference genome, exploring its effect on dark regions is prudent. In this study, we systematically analyze dark regions across four human genome references—HG19, HG38 (with and without alternate contigs), and CHM13—using both short- and long-read sequencing data. We found that dark regions increase as the reference becomes more complete, especially dark-by-MAPQ regions, but that long-read sequencing significantly reduces the number of dark regions in the genome, particularly within gene bodies. However, we identify potential alignment challenges in long-read data, such as centromeric regions. These findings highlight the importance of both reference genome selection and sequencing technology choice in achieving a truly comprehensive genomic analysis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "340755",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "340755",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "047.017.043",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "911-03-012",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "175.010.200",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.23.655776"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1027484"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1027484&type=FILE&fileName=EMS206009-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206009",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gca",
+          "igsr",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-05-30",
+      "firstPublicationDate": "2025-05-28",
+      "firstIndexDate": "2025-05-30",
+      "fullTextReceivedDate": "2025-06-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

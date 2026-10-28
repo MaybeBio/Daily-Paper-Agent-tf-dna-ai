@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, author contributions, conflicts of interest, acknowledgements) as provided. Supplementary material referenced but not included.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and alignment with stated evidence. No assessment of formatting, grammar, or journal fit beyond stated criteria.
+- **Shared manuscript claim summary** The authors use Markov state models (MSMs) built from long-timescale molecular dynamics simulations, validated by NMR relaxation experiments, to characterize the conformational landscape of the p53 DNA-binding domain (DBD) in wild-type and Y220C mutant forms. They report that loop L6 (residues 221–230) participates in the slowest motions of the protein, that the Y220C mutation stabilizes extended L6 conformations distinct from all experimental structures, that L6 and loop L1 exhibit allosteric communication, and that a novel cryptic pocket in extended L6 conformations may be targetable for mutant-specific drug design.
+- **Visible evidence base** Main text figures (Fig. 1–5) and tables referenced; ESI Tables 1–6 and ESI Figs 1–6 referenced but not provided; NMR relaxation data summarized in text and Fig. 5; MSM construction details referenced to Methods section (not provided in full).
+- **Missing materials affecting confidence** Supplementary Information (ESI Tables 1–6, ESI Figs 1–6), full Methods section, simulation parameters, MSM validation metrics (e.g., Chapman-Kolmogorov tests, implied timescale plots), NMR experimental details, and structural coordinates for novel states. These are essential for full assessment of technical soundness.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting application of MSMs to uncover slow conformational dynamics in p53 DBD, with a focus on loop L6 and its possible allosteric link to loop L1. The computational approach is described with some novelty in feature selection, and the NMR validation adds experimental support. However, several key claims, particularly regarding allosteric communication and the druggability of the novel cryptic pocket, are not fully supported by the evidence presented in the main text alone. The absence of supplementary materials and detailed methods limits the ability to verify the robustness of the MSM construction and the statistical significance of the reported differences between wild-type and mutant ensembles.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular dynamics, particularly those applying MSMs to protein conformational ensembles; cancer biologists studying p53 structure-function relationships and mutant-specific therapeutic strategies; and drug designers interested in cryptic pocket identification and allosteric modulation. The methodological aspect of iterative feature selection for tICA may also interest method developers.
+- **Major strengths** 1) The use of an unbiased, iterative feature selection approach for tICA is a methodological contribution that could be broadly applicable. 2) The combination of computational predictions with NMR relaxation validation strengthens the credibility of the dynamical findings. 3) The identification of a previously overlooked loop (L6) in p53 dynamics and its potential allosteric link to the DNA-binding loop L1 is conceptually interesting and could have functional implications. 4) The discovery of a novel cryptic pocket in extended L6 conformations, supported by FTMap analysis, offers a concrete avenue for future drug design efforts.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The MSMs reveal that loop L6 is involved in the slowest motions of p53 DBD, and that the Y220C mutation stabilizes alternate L6 conformations.
+  - **Evidence pointer** Fig. 2, Fig. 4, ESI Tables 1–2, Methods section (location not provided)
+  - **Concern** The MSM construction and validation details are not provided in the main text. Key information such as the number of microstates, clustering method, lag time selection, implied timescale plots, Chapman-Kolmogorov tests, and statistical uncertainties of the reported equilibrium populations and transition times is missing. Without these, the robustness of the MSM and the significance of the reported differences between wild-type and Y220C ensembles cannot be assessed.
+  - **Why it matters** MSM results are highly sensitive to choices in feature selection, discretization, and lag time. If the model is not properly validated, the central claims about slow dynamics and mutation-induced shifts in conformational populations may be artifacts of the modeling procedure.
+  - **Resolution test** Provide full MSM construction details, including validation metrics (e.g., implied timescale plots, Chapman-Kolmogorov tests) and error estimates for populations and mean first passage times. Show that the reported states and transitions are robust to changes in lag time and number of microstates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The Y220C mutation affects the conformational landscape of loop L1, suggesting allosteric communication between L1 and L6.
+  - **Evidence pointer** Fig. 2a, Fig. 3, ESI Fig. 4, ESI Tables 3–4
+  - **Concern** The claim of allosteric communication between L1 and L6 is based on correlated changes in their conformational ensembles upon mutation. However, the evidence presented is largely descriptive (free energy landscapes, state populations). No quantitative correlation analysis, such as mutual information or dynamical network analysis, is shown to directly demonstrate allosteric coupling. The hydrogen bonds between L1 and L6 in specific states are mentioned but not systematically characterized across the ensembles.
+  - **Why it matters** Allostery is a mechanistic claim that requires evidence of communication between distant sites. Descriptive co-variation in populations could arise from independent effects of the mutation on each loop rather than genuine allosteric coupling. Without direct analysis, the conclusion remains speculative.
+  - **Resolution test** Perform and present a quantitative analysis of correlated motions between L1 and L6 (e.g., mutual information, correlation matrices, or dynamical network analysis) in both wild-type and mutant ensembles. Show that the coupling is statistically significant and that the mutation specifically disrupts or alters this coupling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The novel cryptic pocket in extended L6 conformations is a promising target for mutant-specific drug design.
+  - **Evidence pointer** Fig. 4d, ESI Fig. 5
+  - **Concern** The druggability assessment relies on FTMap analysis, which identifies consensus binding sites. However, the pocket volume is reported with a standard deviation (333.5 ± 57.6 Å³) but no information is given on how this was calculated, how many conformations were analyzed, or whether the pocket is stable over time. The claim that this pocket is "novel" and distinct from the known Y220C crevice is not quantitatively supported by comparison of pocket geometries or properties.
+  - **Why it matters** The therapeutic relevance of the findings depends on the existence of a stable, targetable pocket. If the pocket is transient or highly variable, its druggability is questionable. The novelty claim requires comparison with previously characterized pockets.
+  - **Resolution test** Provide a detailed analysis of pocket stability across the MD ensemble, including time series of volume and shape. Compare the novel pocket's properties (size, hydrophobicity, hydrogen-bonding capacity) with the known Y220C crevice using quantitative metrics. Discuss the potential for selective targeting based on these differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength
+  - **Claim pointer** NMR relaxation data validate the computational finding that L6 is the most flexible loop and exhibits slow motions.
+  - **Evidence pointer** Fig. 5, ESI Table 6
+  - **Concern** The NMR validation is presented qualitatively. The order parameters (S²) are shown in Fig. 5a, and the R2/R1 ratios in Fig. 5b, but no quantitative comparison between the NMR-derived flexibility and the MSM-predicted dynamics is provided. The statement that L6 is the most flexible loop is based on visual inspection of the data. Furthermore, the claim that L6 has a slow-motion component (μs–ms) is inferred from R2/R1 ratios, but this is an indirect measure and could be affected by other factors such as chemical exchange.
+  - **Why it matters** The NMR data are presented as validation of the computational model, but without a rigorous quantitative comparison, the validation is weak. The interpretation of R2/R1 data requires care, and the authors should rule out alternative explanations for elevated ratios.
+  - **Resolution test** Provide a quantitative comparison between NMR-derived order parameters and those calculated from the MSM (if possible) or from the MD simulations. For the R2/R1 analysis, discuss potential contributions from chemical exchange and provide additional evidence (e.g., relaxation dispersion data) to support the μs–ms timescale claim.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 2c
+  - **Evidence pointer** Fig. 2c
+  - **Issue** The description of how tIC1 and tIC2 correlate with specific features is unclear. The text states that tIC1 is closely correlated with features including L6 anchors and tIC2 with L1 anchors, but the figure does not clearly show this correlation.
+  - **Required correction** Clarify the figure or add a supplementary figure showing the feature loadings on tIC1 and tIC2, with clear labeling of which features correspond to which loop.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section (location not provided)
+  - **Issue** The Methods section is referenced but not provided in the manuscript text. Key parameters for the MD simulations (force field, water model, simulation length, temperature, etc.) and MSM construction (clustering algorithm, number of states, lag time) are not stated.
+  - **Required correction** Include a full Methods section or ensure that all essential parameters are stated in the main text or supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Fig. 4c
+  - **Evidence pointer** Fig. 4c
+  - **Issue** The mean first passage times (MFPT) are reported with error bars, but the statistical method used to estimate these uncertainties is not described.
+  - **Required correction** State how the MFPT uncertainties were calculated (e.g., bootstrapping, multiple independent runs) in the Methods or figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions section
+  - **Evidence pointer** Conclusions section
+  - **Issue** The statement that "the conformational landscape suggests some degree of allostery between L6 and loop L1" is presented as a conclusion, but the evidence for allostery is indirect (as noted in R1-M2). The language should be more cautious.
+  - **Required correction** Rephrase to indicate that the data are consistent with possible allosteric coupling but that direct evidence is not yet available.
+
+## Risk / unsupported claims
+- The claim of allosteric communication between L1 and L6 is not directly supported by the presented evidence; it is inferred from correlated changes in conformational populations.
+- The novelty of the cryptic pocket in extended L6 conformations is not quantitatively established relative to previously known pockets.
+- The druggability of the novel pocket is based on FTMap analysis alone, without experimental validation or comparison with known binders.
+- The NMR validation is qualitative and does not provide a rigorous quantitative comparison with the computational predictions.
+- The statement that the Y220C mutation "stabilizes" alternate L6 conformations implies thermodynamic characterization that is not fully demonstrated without error estimates on populations and free energies.
+- The claim that the approach "uncovered an overlooked allosteric loop" is strong; the functional significance of L6 dynamics remains speculative without experimental perturbation (e.g., mutagenesis or ligand binding studies).

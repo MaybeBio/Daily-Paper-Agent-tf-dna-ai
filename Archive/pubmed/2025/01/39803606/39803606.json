@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "39803606",
+    "doi": "10.2147/DDDT.S489092",
+    "title": "Scutellarein Inhibits Osteosarcoma Growth by Targeting the TLR4/TRAF6/NF-kappaB Pathway."
+  },
+  "content": {
+    "abstract": "PURPOSE: Osteosarcoma (OS) is the most common malignant tumor associated with poor patient outcomes and a limited availability of therapeutic agents. Scutellarein (SCU) is a monomeric flavone bioactive compound with potent anti-cancer activity. However, the effects and mechanisms of SCU on the growth of OS remain unknown. METHODS: The Cell Counting Kit-8, colony formation assay and 5-ethynyl-2'-deoxyuridine (EdU) incorporation assays were used to analyze cell proliferation ability in vitro. TLR4/TRAF6/NF-kappaB signaling transduction was investigated by RNA sequencing analysis, quantitative real-time polymerase chain reaction, Western blotting, NF-kappaB luciferase reporter assay, immunofluorescent staining, and immunoprecipitation. Molecular docking and cellular thermal shift assay were employed to confirm the binding interaction between SCU and TLR4. The effects of SCU and TLR4 overexpression on OS growth were analyzed using a xenograft tumor model and immunohistochemical staining. RESULTS: SCU was found to significantly inhibit OS cell proliferation, and RNA sequencing analysis suggested that the NF-kappaB pathway is closely associated with this process. Further studies revealed that SCU inhibited the canonical NF-kappaB pathway through its binding with TLR4, which disrupted the interaction of TLR4 and TRAF6. Moreover, SCU also repressed NF-kappaB signal transduction by inhibiting TLR4 expression. Furthermore, SCU was revealed to suppress OS cell proliferation by targeting TLR4 in vitro and in vivo. CONCLUSION: SCU exhibited a dual impact by inhibiting TLR4 expression and disrupting TLR4-TRAF6 interaction, resulting in NF-kappaB inactivation, thereby blocking OS growth.",
+    "keywords": [
+      "NF-kappaB pathway",
+      "TLR4",
+      "molecular modeling",
+      "osteosarcoma",
+      "scutellarein"
+    ],
+    "mesh_terms": [
+      "*Osteosarcoma/drug therapy/pathology/metabolism",
+      "*Toll-Like Receptor 4/metabolism/antagonists & inhibitors",
+      "Humans",
+      "Cell Proliferation/drug effects",
+      "*TNF Receptor-Associated Factor 6/metabolism/antagonists & inhibitors",
+      "*NF-kappa B/metabolism/antagonists & inhibitors",
+      "Mice",
+      "Animals",
+      "Signal Transduction/drug effects",
+      "Drug Screening Assays, Antitumor",
+      "*Bone Neoplasms/drug therapy/pathology/metabolism",
+      "Dose-Response Relationship, Drug",
+      "Molecular Docking Simulation",
+      "Tumor Cells, Cultured",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Mice, Nude",
+      "Structure-Activity Relationship",
+      "Neoplasms, Experimental/drug therapy/pathology/metabolism",
+      "*Antineoplastic Agents, Phytogenic/pharmacology/chemistry",
+      "Intracellular Signaling Peptides and Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Yingxu",
+        "Tang, Yu",
+        "Sun, Zhiwei",
+        "Sui, Ping",
+        "Shao, Yiming",
+        "Wang, Zhonghao",
+        "Zhang, Jian",
+        "Gao, Ming"
+      ],
+      "short_names": [
+        "Shi Y",
+        "Tang Y",
+        "Sun Z",
+        "Sui P",
+        "Shao Y",
+        "Wang Z",
+        "Zhang J",
+        "Gao M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3061-3791"
+      ],
+      "affiliations": [
+        "Department of Trauma Orthopedics, Affiliated Hospital of Jining Medical University, Jining, Shandong, 272007, People's Republic of China.",
+        "Pharmaceutical Department, Affiliated Hospital of Jining Medical University, Jining, Shandong, 272007, People's Republic of China.",
+        "Department of Surgery, University of Colorado Anschutz Medical Campus, Aurora, CO, 80045, USA.",
+        "Department of Clinical Medicine, Jining Medical University, Jining, Shandong, 272067, People's Republic of China.",
+        "Department of Clinical Medicine, Jining Medical University, Jining, Shandong, 272067, People's Republic of China.",
+        "Department of Clinical Medicine, Jining Medical University, Jining, Shandong, 272067, People's Republic of China.",
+        "Department of Trauma Orthopedics, Affiliated Hospital of Jining Medical University, Jining, Shandong, 272007, People's Republic of China.",
+        "Department of Trauma Orthopedics, Affiliated Hospital of Jining Medical University, Jining, Shandong, 272007, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Yingxu",
+        "short_name": "Shi Y",
+        "identifiers": [
+          "0000-0003-3061-3791"
+        ],
+        "affiliations": [
+          "Department of Trauma Orthopedics, Affiliated Hospital of Jining Medical University, Jining, Shandong, 272007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yu",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmaceutical Department, Affiliated Hospital of Jining Medical University, Jining, Shandong, 272007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhiwei",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Colorado Anschutz Medical Campus, Aurora, CO, 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Sui, Ping",
+        "short_name": "Sui P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Jining Medical University, Jining, Shandong, 272067, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shao, Yiming",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Jining Medical University, Jining, Shandong, 272067, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhonghao",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Jining Medical University, Jining, Shandong, 272067, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Trauma Orthopedics, Affiliated Hospital of Jining Medical University, Jining, Shandong, 272007, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ming",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Trauma Orthopedics, Affiliated Hospital of Jining Medical University, Jining, Shandong, 272007, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/13 06:16",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "41035670",
+      "40765735",
+      "40458800",
+      "40404584"
+    ],
+    "refs": [
+      "39245737",
+      "38905847",
+      "38681206",
+      "38520914",
+      "38241362",
+      "37915574",
+      "37808190",
+      "37760603",
+      "37690574",
+      "37441604",
+      "37439349",
+      "37353982",
+      "37345131",
+      "37232353",
+      "37034356",
+      "36916428",
+      "36849442",
+      "35965153",
+      "35561232",
+      "35307617",
+      "35182824",
+      "34841696",
+      "34818481",
+      "34367994",
+      "34217831",
+      "34131316",
+      "33418303",
+      "33230811",
+      "32958760",
+      "30682875",
+      "30552680",
+      "30551468",
+      "30240881",
+      "29377600",
+      "27730005",
+      "26202947",
+      "25822025",
+      "23962979",
+      "19563534"
+    ],
+    "similar": [
+      "39803606",
+      "32819237",
+      "38584532",
+      "33154629",
+      "39739023",
+      "32781974",
+      "40680332",
+      "39549059",
+      "40098908",
+      "31587886",
+      "40541124",
+      "39047413",
+      "39190380",
+      "41029481",
+      "42112089",
+      "33017573",
+      "39118482",
+      "40319834",
+      "40542888",
+      "29847772",
+      "31487530",
+      "39615555",
+      "26202947",
+      "38552431",
+      "40460610",
+      "41252934",
+      "22494046",
+      "33287916",
+      "41038330",
+      "40480105",
+      "41349457",
+      "30652346",
+      "39447411",
+      "38315263",
+      "28701209",
+      "26432169",
+      "22534782",
+      "41057878",
+      "19592497",
+      "39190378",
+      "40712077",
+      "42166939",
+      "27791197",
+      "39163893",
+      "40247422",
+      "30799593",
+      "29131265",
+      "35692206",
+      "39579612",
+      "23232982",
+      "40016386",
+      "40252583",
+      "25872586",
+      "38695125",
+      "31660844",
+      "29323103",
+      "24012639",
+      "25371197",
+      "38972238",
+      "29782821",
+      "31824138",
+      "41265260",
+      "27911090",
+      "23912183",
+      "41380855",
+      "29781107",
+      "31631978",
+      "41508081",
+      "40343452",
+      "39951973",
+      "27665868",
+      "36184504",
+      "30701576",
+      "28951519",
+      "34077834",
+      "38709266",
+      "38500425",
+      "33148374",
+      "39833632",
+      "40053057",
+      "38967079",
+      "41380825",
+      "39121924",
+      "39970856",
+      "40619656",
+      "27686271",
+      "22925919",
+      "33629321",
+      "24285354",
+      "39939015",
+      "32776158",
+      "39819414",
+      "40176057",
+      "32705250",
+      "40619666",
+      "26261481",
+      "39588392",
+      "29496166",
+      "17507094",
+      "30970514"
+    ],
+    "review": [
+      "39803606"
+    ],
+    "pmc": [
+      "11720808"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39803606/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S489092",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

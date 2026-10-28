@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "35258972",
+    "doi": "10.1021/acs.jcim.1c01229",
+    "title": "Alchemical Free Energy Methods Applied to Complexes of the First Bromodomain of BRD4."
+  },
+  "content": {
+    "abstract": "Accurate and rapid predictions of the binding affinity of a compound to a target are one of the ultimate goals of computer aided drug design. Alchemical approaches to free energy estimations follow the path from an initial state of the system to the final state through alchemical changes of the energy function during a molecular dynamics simulation. Herein, we explore the accuracy and efficiency of two such techniques: relative free energy perturbation (FEP) and multisite lambda dynamics (MSlambdaD). These are applied to a series of inhibitors for the bromodomain-containing protein 4 (BRD4). We demonstrate a procedure for obtaining accurate relative binding free energies using MSlambdaD when dealing with a change in the net charge of the ligand. This resulted in an impressive comparison with experiment, with an average difference of 0.4 +/- 0.4 kcal mol(-1). In a benchmarking study for the relative FEP calculations, we found that using 20 lambda windows with 0.5 ns of equilibration and 1 ns of data collection for each window gave the optimal compromise between accuracy and speed. Overall, relative FEP and MSlambdaD predicted binding free energies with comparable accuracy, an average of 0.6 kcal mol(-1) for each method. However, MSlambdaD makes predictions for a larger molecular space over a much shorter time scale than relative FEP, with MSlambdaD requiring a factor of 18 times less simulation time for the entire molecule space.",
+    "keywords": [],
+    "mesh_terms": [
+      "Entropy",
+      "Ligands",
+      "Molecular Dynamics Simulation",
+      "*Nuclear Proteins",
+      "Protein Binding",
+      "Thermodynamics",
+      "*Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guest, Ellen E",
+        "Cervantes, Luis F",
+        "Pickett, Stephen D",
+        "Brooks, Charles L 3rd",
+        "Hirst, Jonathan D"
+      ],
+      "short_names": [
+        "Guest EE",
+        "Cervantes LF",
+        "Pickett SD",
+        "Brooks CL 3rd",
+        "Hirst JD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7252-6229",
+        "ORCID: 0000-0002-0958-9830",
+        "ORCID: 0000-0002-8149-5417",
+        "ORCID: 0000-0002-2726-0983"
+      ],
+      "affiliations": [
+        "School of Chemistry, University of Nottingham, University Park, Nottingham NG7 2RD, U.K.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+        "Computational Chemistry, GlaxoSmithKline RD Pharmaceuticals, Stevenage SG1 2NY, U.K.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, Michigan 48109, United States.",
+        "School of Chemistry, University of Nottingham, University Park, Nottingham NG7 2RD, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guest, Ellen E",
+        "short_name": "Guest EE",
+        "identifiers": [
+          "0000-0001-7252-6229"
+        ],
+        "affiliations": [
+          "School of Chemistry, University of Nottingham, University Park, Nottingham NG7 2RD, U.K."
+        ]
+      },
+      {
+        "full_name": "Cervantes, Luis F",
+        "short_name": "Cervantes LF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Michigan, Ann Arbor, Michigan 48109, United States."
+        ]
+      },
+      {
+        "full_name": "Pickett, Stephen D",
+        "short_name": "Pickett SD",
+        "identifiers": [
+          "0000-0002-0958-9830"
+        ],
+        "affiliations": [
+          "Computational Chemistry, GlaxoSmithKline RD Pharmaceuticals, Stevenage SG1 2NY, U.K."
+        ]
+      },
+      {
+        "full_name": "Brooks, Charles L",
+        "short_name": "Brooks CL",
+        "identifiers": [
+          "0000-0002-8149-5417"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Michigan, Ann Arbor, Michigan 48109, United States."
+        ]
+      },
+      {
+        "full_name": "Hirst, Jonathan D",
+        "short_name": "Hirst JD",
+        "identifiers": [
+          "0000-0002-2726-0983"
+        ],
+        "affiliations": [
+          "School of Chemistry, University of Nottingham, University Park, Nottingham NG7 2RD, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Mar 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/09 06:00",
+    "fetched_at": "2026-09-28 06:03:24"
+  },
+  "links": {
+    "cites": [
+      "42298369",
+      "41051467",
+      "39656550",
+      "37350814",
+      "36562610"
+    ],
+    "refs": [
+      "36697634",
+      "34387088",
+      "34376030",
+      "34142828",
+      "34105560",
+      "33201701",
+      "32818371",
+      "32752662",
+      "32539386",
+      "32437145",
+      "32193360",
+      "31871779",
+      "31701109",
+      "31386370",
+      "30941533",
+      "29678106",
+      "28195723",
+      "28112940",
+      "28005370",
+      "27997169",
+      "27240990",
+      "27219867",
+      "26798447",
+      "26592106",
+      "26579773",
+      "26575768",
+      "26544598",
+      "26301327",
+      "25808134",
+      "24751816",
+      "24497639",
+      "24302199",
+      "24009722",
+      "23341755",
+      "22722403",
+      "22125476",
+      "21919014",
+      "21323318",
+      "20871596",
+      "20235588",
+      "19575467",
+      "19444816",
+      "19421993",
+      "18351591",
+      "16222654",
+      "12456660",
+      "9895674",
+      "3810157"
+    ],
+    "similar": [
+      "35258972",
+      "35286093",
+      "35255214",
+      "26579773",
+      "36906820",
+      "22125476",
+      "30175503",
+      "31396905",
+      "31386370",
+      "26085821",
+      "37531558",
+      "35416820",
+      "33201701",
+      "28024402",
+      "28564537",
+      "38323915",
+      "39331379",
+      "41071960",
+      "38300792",
+      "39868875",
+      "30411639",
+      "37042797",
+      "37450482",
+      "38129400",
+      "35889299",
+      "36222107",
+      "37378817",
+      "34521199",
+      "30776430",
+      "31984465",
+      "33213150",
+      "27782307",
+      "33037549",
+      "31960254",
+      "38538531",
+      "37167486",
+      "35609233",
+      "38147877",
+      "28112940",
+      "14640544",
+      "35266690",
+      "41082618",
+      "32635537",
+      "30404450",
+      "30218199",
+      "31560539",
+      "37285579",
+      "32936637",
+      "32810401",
+      "37570684",
+      "30253098",
+      "34323654",
+      "33220532",
+      "27782467",
+      "32539374",
+      "33112150",
+      "39225694",
+      "23267463",
+      "37902715",
+      "38232295",
+      "34990555",
+      "26457994",
+      "29134431",
+      "31587361",
+      "33844328",
+      "28677954",
+      "28413950",
+      "36399655",
+      "29539396",
+      "31894691",
+      "36841551",
+      "17211491",
+      "11427047",
+      "41474838",
+      "8346190",
+      "23260025",
+      "29119352",
+      "34415755",
+      "33886305",
+      "32639733",
+      "31411473",
+      "24032517",
+      "36878475",
+      "30203229",
+      "28600826",
+      "10842335",
+      "22731511",
+      "36644887",
+      "40033499",
+      "30689375",
+      "37862058",
+      "30375870",
+      "23205773",
+      "27494802",
+      "34516130",
+      "35156677",
+      "41674157",
+      "40136079",
+      "37561001",
+      "34710811"
+    ],
+    "review": [
+      "35258972",
+      "33220532",
+      "37902715",
+      "28413950"
+    ],
+    "pmc": [
+      "9098113"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35258972/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35258972",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.1c01229",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

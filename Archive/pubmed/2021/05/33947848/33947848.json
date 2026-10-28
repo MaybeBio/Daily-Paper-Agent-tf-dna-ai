@@ -1,0 +1,562 @@
+{
+  "identity": {
+    "pmid": "33947848",
+    "doi": "10.1038/s41467-021-22779-9",
+    "title": "Single-keratinocyte transcriptomic analyses identify different clonal types and proliferative potential mediated by FOXM1 in human epidermal stem cells."
+  },
+  "content": {
+    "abstract": "Autologous epidermal cultures restore a functional epidermis on burned patients. Transgenic epidermal grafts do so also in genetic skin diseases such as Junctional Epidermolysis Bullosa. Clinical success strictly requires an adequate number of epidermal stem cells, detected as holoclone-forming cells, which can be only partially distinguished from the other clonogenic keratinocytes and cannot be prospectively isolated. Here we report that single-cell transcriptome analysis of primary human epidermal cultures identifies categories of genes clearly distinguishing the different keratinocyte clonal types, which are hierarchically organized along a continuous, mainly linear trajectory showing that stem cells sequentially generate progenitors producing terminally differentiated cells. Holoclone-forming cells display stem cell hallmarks as genes regulating DNA repair, chromosome segregation, spindle organization and telomerase activity. Finally, we identify FOXM1 as a YAP-dependent key regulator of epidermal stem cells. These findings improve criteria for measuring stem cells in epidermal cultures, which is an essential feature of the graft.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adaptor Proteins, Signal Transducing/metabolism",
+      "Animals",
+      "Cell Adhesion/genetics",
+      "Cell Line",
+      "Cell Self Renewal/genetics",
+      "Cells, Cultured",
+      "Chromatin Immunoprecipitation",
+      "Epidermal Cells/*cytology/metabolism",
+      "Epidermolysis Bullosa, Junctional/genetics/metabolism",
+      "Forkhead Box Protein M1/genetics/*metabolism",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Humans",
+      "Keratinocytes/*cytology/metabolism",
+      "Mice",
+      "Microarray Analysis",
+      "Multigene Family",
+      "RNA-Seq",
+      "Single-Cell Analysis/*methods",
+      "Stem Cells/*cytology/metabolism",
+      "Transcription Factors/metabolism",
+      "Transcriptome/*genetics",
+      "YAP-Signaling Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Enzo, Elena",
+        "Secone Seconetti, Alessia",
+        "Forcato, Mattia",
+        "Tenedini, Elena",
+        "Polito, Maria Pia",
+        "Sala, Irene",
+        "Carulli, Sonia",
+        "Contin, Roberta",
+        "Peano, Clelia",
+        "Tagliafico, Enrico",
+        "Bicciato, Silvio",
+        "Bondanza, Sergio",
+        "De Luca, Michele"
+      ],
+      "short_names": [
+        "Enzo E",
+        "Secone Seconetti A",
+        "Forcato M",
+        "Tenedini E",
+        "Polito MP",
+        "Sala I",
+        "Carulli S",
+        "Contin R",
+        "Peano C",
+        "Tagliafico E",
+        "Bicciato S",
+        "Bondanza S",
+        "De Luca M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7383-6576",
+        "ORCID: 0000-0002-5236-6982",
+        "ORCID: 0000-0001-7055-3629",
+        "ORCID: 0000-0002-1944-7078",
+        "ORCID: 0000-0002-0850-8445"
+      ],
+      "affiliations": [
+        "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy.",
+        "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy.",
+        "Holostem Terapie Avanzate, s.r.l, Modena, Italy.",
+        "Department of Life Sciences, University of Modena and Reggio Emilia, Modena, Italy.",
+        "Department of Laboratory Medicine and Pathology, Diagnostic hematology and Clinical, Genomics Unit, Modena University Hospital, Modena, Italy.",
+        "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy.",
+        "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy.",
+        "Holostem Terapie Avanzate, s.r.l, Modena, Italy.",
+        "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy.",
+        "Clinical Sampling & Alliances, AstraZeneca, Cambridge, UK.",
+        "Genomic Unit, IRCSS, Humanitas Clinical and Research Center, Rozzano, Milan, Italy.",
+        "Institute of Genetic and Biomedical Research, UoS Milan, National Research Council, Rozzano, Italy.",
+        "Department of Laboratory Medicine and Pathology, Diagnostic hematology and Clinical, Genomics Unit, Modena University Hospital, Modena, Italy.",
+        "Department of Medical and Surgical Sciences, University of Modena and Reggio Emilia, Modena, Italy.",
+        "Centre for Genome Research, University of Modena and Reggio Emilia, Modena, Italy.",
+        "Department of Life Sciences, University of Modena and Reggio Emilia, Modena, Italy.",
+        "Holostem Terapie Avanzate, s.r.l, Modena, Italy.",
+        "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy. michele.deluca@unimore.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Enzo, Elena",
+        "short_name": "Enzo E",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Secone Seconetti, Alessia",
+        "short_name": "Secone Seconetti A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy.",
+          "Holostem Terapie Avanzate, s.r.l, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Forcato, Mattia",
+        "short_name": "Forcato M",
+        "identifiers": [
+          "0000-0002-7383-6576"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, University of Modena and Reggio Emilia, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Tenedini, Elena",
+        "short_name": "Tenedini E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, Diagnostic hematology and Clinical, Genomics Unit, Modena University Hospital, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Polito, Maria Pia",
+        "short_name": "Polito MP",
+        "identifiers": [
+          "0000-0002-5236-6982"
+        ],
+        "affiliations": [
+          "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Sala, Irene",
+        "short_name": "Sala I",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Carulli, Sonia",
+        "short_name": "Carulli S",
+        "identifiers": [],
+        "affiliations": [
+          "Holostem Terapie Avanzate, s.r.l, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Contin, Roberta",
+        "short_name": "Contin R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy.",
+          "Clinical Sampling & Alliances, AstraZeneca, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Peano, Clelia",
+        "short_name": "Peano C",
+        "identifiers": [
+          "0000-0001-7055-3629"
+        ],
+        "affiliations": [
+          "Genomic Unit, IRCSS, Humanitas Clinical and Research Center, Rozzano, Milan, Italy.",
+          "Institute of Genetic and Biomedical Research, UoS Milan, National Research Council, Rozzano, Italy."
+        ]
+      },
+      {
+        "full_name": "Tagliafico, Enrico",
+        "short_name": "Tagliafico E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, Diagnostic hematology and Clinical, Genomics Unit, Modena University Hospital, Modena, Italy.",
+          "Department of Medical and Surgical Sciences, University of Modena and Reggio Emilia, Modena, Italy.",
+          "Centre for Genome Research, University of Modena and Reggio Emilia, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Bicciato, Silvio",
+        "short_name": "Bicciato S",
+        "identifiers": [
+          "0000-0002-1944-7078"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, University of Modena and Reggio Emilia, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Bondanza, Sergio",
+        "short_name": "Bondanza S",
+        "identifiers": [],
+        "affiliations": [
+          "Holostem Terapie Avanzate, s.r.l, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "De Luca, Michele",
+        "short_name": "De Luca M",
+        "identifiers": [
+          "0000-0002-0850-8445"
+        ],
+        "affiliations": [
+          "Centre for Regenerative Medicine \"Stefano Ferrari\", University of Modena and Reggio Emilia, Modena, Italy. michele.deluca@unimore.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 May 4",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/06 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "42448232",
+      "42285958",
+      "41693238",
+      "41266120",
+      "41184551",
+      "40846710",
+      "40619403",
+      "40574692",
+      "40501685",
+      "40492178",
+      "40319033",
+      "40027886",
+      "39684613",
+      "39536613",
+      "39526566",
+      "39396994",
+      "39234443",
+      "39179669",
+      "39113077",
+      "39019868",
+      "38992003",
+      "38935029",
+      "38934416",
+      "38542324",
+      "38475896",
+      "38053334",
+      "37652013",
+      "37628950",
+      "37495649",
+      "37488294",
+      "37239891",
+      "36973973",
+      "36902387",
+      "36768619",
+      "36766688",
+      "36755572",
+      "36289597",
+      "36167646",
+      "36037263",
+      "35406693",
+      "35054460",
+      "34987631"
+    ],
+    "refs": [
+      "32843640",
+      "32728211",
+      "32259486",
+      "32152291",
+      "31653644",
+      "31209293",
+      "31178118",
+      "31091444",
+      "30787437",
+      "30717152",
+      "30323238",
+      "30208972",
+      "29476172",
+      "29334988",
+      "29144448",
+      "28332498",
+      "28249813",
+      "27074562",
+      "27062359",
+      "26771021",
+      "26147687",
+      "26080399",
+      "25796446",
+      "24690439",
+      "23870513",
+      "23554171",
+      "23443166",
+      "23386997",
+      "22972293",
+      "22940863",
+      "22885335",
+      "22286761",
+      "20702419",
+      "20573916",
+      "20360045",
+      "20125188",
+      "19131956",
+      "17482546",
+      "17465819",
+      "17330052",
+      "17194581",
+      "17115047",
+      "16284200",
+      "16199517",
+      "15983386",
+      "12925520",
+      "11309499",
+      "11248048",
+      "10831615",
+      "10515389",
+      "10330405",
+      "10227294",
+      "10227293",
+      "9774969",
+      "8816807",
+      "8500165",
+      "8137423",
+      "6379456",
+      "2462307",
+      "2436229",
+      "2395883",
+      "2247472",
+      "293669"
+    ],
+    "similar": [
+      "33947848",
+      "39019868",
+      "29144448",
+      "31091444",
+      "39396994",
+      "9650620",
+      "34639148",
+      "22761689",
+      "34881838",
+      "11084687",
+      "24511464",
+      "10515389",
+      "38904915",
+      "30380419",
+      "33170265",
+      "35811094",
+      "9353256",
+      "32843640",
+      "30566872",
+      "30382077",
+      "37722653",
+      "30105667",
+      "8500165",
+      "27050947",
+      "29334988",
+      "31669183",
+      "27062359",
+      "9539741",
+      "21041368",
+      "29582373",
+      "17115047",
+      "25333210",
+      "32728211",
+      "16282445",
+      "31082377",
+      "23482486",
+      "29973296",
+      "32651268",
+      "15448153",
+      "27385468",
+      "8795436",
+      "29980942",
+      "33586700",
+      "34397094",
+      "29728944",
+      "38891823",
+      "1402000",
+      "10801437",
+      "21062979",
+      "28943242",
+      "20201955",
+      "23968326",
+      "16636146",
+      "30301786",
+      "31611556",
+      "31636412",
+      "28480559",
+      "16446420",
+      "16754749",
+      "23483388",
+      "38760880",
+      "30269903",
+      "27816394",
+      "29604146",
+      "9326386",
+      "23190885",
+      "38934416",
+      "30220568",
+      "8702488",
+      "18813277",
+      "29712925",
+      "25881149",
+      "25373715",
+      "27492973",
+      "9930337",
+      "32209309",
+      "25897083",
+      "12165432",
+      "17969255",
+      "16877544",
+      "14594209",
+      "12160846",
+      "29434599",
+      "27621431",
+      "8113417",
+      "17540468",
+      "17579576",
+      "34358453",
+      "33116143",
+      "21720010",
+      "17351639",
+      "30208100",
+      "28186503",
+      "12832701",
+      "21654836",
+      "26846883",
+      "18855878",
+      "10831615",
+      "19888454",
+      "23554171",
+      "18574734",
+      "9274713",
+      "33181078",
+      "22743707",
+      "19811675",
+      "36007550",
+      "39113077",
+      "35570025",
+      "35263594",
+      "35476447",
+      "36766688",
+      "34764253",
+      "24286354",
+      "33186891",
+      "27676433",
+      "25946651",
+      "39086159",
+      "33637728",
+      "33783921",
+      "31249003",
+      "33393458",
+      "24198533",
+      "33420958",
+      "32142793",
+      "36640358"
+    ],
+    "review": [
+      "33947848",
+      "11084687",
+      "33170265",
+      "31669183",
+      "29604146",
+      "17969255",
+      "18855878",
+      "18574734",
+      "39113077",
+      "35570025",
+      "33186891",
+      "27676433"
+    ],
+    "pmc": [
+      "8097075"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stemcells.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stem Cells"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-22779-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33947848/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33947848",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33947848",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse155815",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://hdl.handle.net/11577/3501578",
+        "provider": "Padua Research Archive - University of Padua - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://scite.ai/reports/33947848",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "36562191",
+    "doi": "10.1080/07391102.2022.2153921",
+    "title": "A virtual screening investigation to identify bioactive natural compounds as potential inhibitors of cyclin-dependent kinase 9."
+  },
+  "content": {
+    "abstract": "Cyclin-dependent kinase 9 (CDK9) is a transcription-associated protein involved in controlling the cell cycle and is often deregulated in stress conditions. CDK9 is being studied as a well-known druggable target for developing effective therapeutics against a wide range of cancer, cardiac dysfunction and inflammatory diseases. Owing to the significance of CDK9 in the etiology of hematological and solid malignancies, its structure, biological activity, regulation and its pharmacological inhibition are being explored for therapeutic management of cancer. We employed a structure-based virtual high-throughput screening of bioactive compounds from the IMPPAT database to discover potential bioactive inhibitors of CDK9. The preliminary results were obtained from the Lipinski criteria, ADMET parameters and sorting compounds without any PAINS patterns. Subsequently, binding affinity and selectivity analyses were used to find effective CDK9 hits. This screening resulted in the identification of two natural compounds, Glabrene and Guggulsterone with high affinity and specificity for the CDK9 binding site. Both compounds exhibit drug-like characteristics, as projected by ADMET analysis, physicochemical data and PASS evaluation. Both compounds preferentially bind to the ATP-binding pocket of CDK9 and interact with functionally important residues. Further, the dynamics and consistency of CDK9 interaction with Glabrene and Guggulsteron were evaluated through all-atom molecular dynamic (MD) simulations which suggested the stability of both complexes. The results might be deployed to introduce novel CDK9 inhibitors that may treat life-threatening diseases, including cancer.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Cyclin-dependent kinase 9",
+      "MD simulation",
+      "drug discovery",
+      "natural compounds",
+      "virtual high-throughput screening"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Cyclin-Dependent Kinase 9/chemistry/metabolism",
+      "Protein Kinase Inhibitors/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Neoplasms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Atiya, Akhtar",
+        "Shahidi, Habiba",
+        "Mohammad, Taj",
+        "Sharaf, Sharaf E",
+        "Abdulmonem, Waleed Al",
+        "Ashraf, Ghulam Md",
+        "Elasbali, Abdelbaset Mohamed",
+        "Alharethi, Salem Hussain",
+        "Alhumaydhi, Fahad A",
+        "Baeesa, Saleh Salem",
+        "Rehan, Mohd",
+        "Shamsi, Anas",
+        "Shahwan, Moyad"
+      ],
+      "short_names": [
+        "Atiya A",
+        "Shahidi H",
+        "Mohammad T",
+        "Sharaf SE",
+        "Abdulmonem WA",
+        "Ashraf GM",
+        "Elasbali AM",
+        "Alharethi SH",
+        "Alhumaydhi FA",
+        "Baeesa SS",
+        "Rehan M",
+        "Shamsi A",
+        "Shahwan M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0399-4835",
+        "ORCID: 0000-0003-2984-9262",
+        "ORCID: 0000-0002-9820-2078",
+        "ORCID: 0000-0002-0151-8309",
+        "ORCID: 0000-0002-3053-7912",
+        "ORCID: 0000-0001-7055-7056"
+      ],
+      "affiliations": [
+        "Department of Pharmacognosy, College of Pharmacy, King Khalid University (KKU), Abha, Saudi Arabia.",
+        "Department of Computer Science, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India.",
+        "Pharmaceutical Chemistry Department, College of Pharmacy Umm Al-Qura University Makkah, Saudi Arabia.",
+        "Clinical Research Adminstration Executive Adminstration of Research and Innovation King Abdullah Medical City in the Holy Capital Makkah, Makkah, Saudi Arabia.",
+        "Department of Pathology, College of Medicine, Qassim University, Buraidah, Kingdom of Saudia Arabia.",
+        "Department of Medical Laboratory Sciences, College of Health Sciences, and Sharjah Institute for Medical Research, University of Sharjah, Sharjah, United Arab Emirates.",
+        "Clinical Laboratory Science, College of Applied Sciences-Qurayyat, Jouf University, Saudi Arabia.",
+        "Department of Biological Science, College of Arts and Science, Najran University, Najran, Saudia Arabia.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraidah, Saudi Arabia.",
+        "Division of Neurosurgery, College of Medicine, King Abdulaziz University, Jeddah, Saudi Arabia.",
+        "King Fahd Medical Research Center, King Abdulaziz University, Jeddah, Saudi Arabia.",
+        "Department of Medical Laboratory Sciences, Faculty of Applied Medical Sciences, King Abdulaziz University, Jeddah, Saudi Arabia.",
+        "Centre of Medical and Bio-Allied Health Sciences Research, Ajman University, Ajman, United Arab Emirates.",
+        "Centre of Medical and Bio-Allied Health Sciences Research, Ajman University, Ajman, United Arab Emirates.",
+        "College of Pharmacy, Ajman University, Ajman, United Arab Emirates."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Atiya, Akhtar",
+        "short_name": "Atiya A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, College of Pharmacy, King Khalid University (KKU), Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Shahidi, Habiba",
+        "short_name": "Shahidi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Mohammad, Taj",
+        "short_name": "Mohammad T",
+        "identifiers": [
+          "0000-0002-0399-4835"
+        ],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Sharaf, Sharaf E",
+        "short_name": "Sharaf SE",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmaceutical Chemistry Department, College of Pharmacy Umm Al-Qura University Makkah, Saudi Arabia.",
+          "Clinical Research Adminstration Executive Adminstration of Research and Innovation King Abdullah Medical City in the Holy Capital Makkah, Makkah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abdulmonem, Waleed Al",
+        "short_name": "Abdulmonem WA",
+        "identifiers": [
+          "0000-0003-2984-9262"
+        ],
+        "affiliations": [
+          "Department of Pathology, College of Medicine, Qassim University, Buraidah, Kingdom of Saudia Arabia."
+        ]
+      },
+      {
+        "full_name": "Ashraf, Ghulam Md",
+        "short_name": "Ashraf GM",
+        "identifiers": [
+          "0000-0002-9820-2078"
+        ],
+        "affiliations": [
+          "Department of Medical Laboratory Sciences, College of Health Sciences, and Sharjah Institute for Medical Research, University of Sharjah, Sharjah, United Arab Emirates."
+        ]
+      },
+      {
+        "full_name": "Elasbali, Abdelbaset Mohamed",
+        "short_name": "Elasbali AM",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory Science, College of Applied Sciences-Qurayyat, Jouf University, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alharethi, Salem Hussain",
+        "short_name": "Alharethi SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Science, College of Arts and Science, Najran University, Najran, Saudia Arabia."
+        ]
+      },
+      {
+        "full_name": "Alhumaydhi, Fahad A",
+        "short_name": "Alhumaydhi FA",
+        "identifiers": [
+          "0000-0002-0151-8309"
+        ],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraidah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Baeesa, Saleh Salem",
+        "short_name": "Baeesa SS",
+        "identifiers": [
+          "0000-0002-3053-7912"
+        ],
+        "affiliations": [
+          "Division of Neurosurgery, College of Medicine, King Abdulaziz University, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Rehan, Mohd",
+        "short_name": "Rehan M",
+        "identifiers": [],
+        "affiliations": [
+          "King Fahd Medical Research Center, King Abdulaziz University, Jeddah, Saudi Arabia.",
+          "Department of Medical Laboratory Sciences, Faculty of Applied Medical Sciences, King Abdulaziz University, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Shamsi, Anas",
+        "short_name": "Shamsi A",
+        "identifiers": [
+          "0000-0001-7055-7056"
+        ],
+        "affiliations": [
+          "Centre of Medical and Bio-Allied Health Sciences Research, Ajman University, Ajman, United Arab Emirates."
+        ]
+      },
+      {
+        "full_name": "Shahwan, Moyad",
+        "short_name": "Shahwan M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Medical and Bio-Allied Health Sciences Research, Ajman University, Ajman, United Arab Emirates.",
+          "College of Pharmacy, Ajman University, Ajman, United Arab Emirates."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/24 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [
+      "36902433"
+    ],
+    "refs": [],
+    "similar": [
+      "36562191",
+      "32781071",
+      "39012568",
+      "36495308",
+      "37365756",
+      "31903847",
+      "36009858",
+      "35965440",
+      "29683402",
+      "37643015",
+      "36644886",
+      "35980073",
+      "37956676",
+      "35630545",
+      "31603123",
+      "36184739",
+      "27171036",
+      "23296566",
+      "35925819",
+      "37688373",
+      "37104027",
+      "38269624",
+      "30688165",
+      "30557817",
+      "25909811",
+      "34151738",
+      "34176437",
+      "36087428",
+      "37184152",
+      "37261484",
+      "30044185",
+      "32866383",
+      "37184150",
+      "32070031",
+      "34647738",
+      "39149808",
+      "38053481",
+      "37403288",
+      "24102143",
+      "28178316",
+      "29550093",
+      "38669200",
+      "34519252",
+      "36615314",
+      "37581526",
+      "22292676",
+      "23252711",
+      "33200682",
+      "36752377",
+      "32447197",
+      "30052133",
+      "34255561",
+      "19757441",
+      "36774892",
+      "30196207",
+      "36332552",
+      "33034255",
+      "35605362",
+      "20851342",
+      "36361954",
+      "30025343",
+      "30047850",
+      "24769691",
+      "30209133",
+      "35735269",
+      "37837424",
+      "35424745",
+      "34948218",
+      "21143121",
+      "34959438",
+      "33213294",
+      "33581551",
+      "31760872",
+      "31238183",
+      "32770459",
+      "30253346",
+      "18473913",
+      "35759452",
+      "17942543",
+      "28651979",
+      "30916622",
+      "36378653",
+      "18566585",
+      "31376566",
+      "34448628",
+      "33043947",
+      "35208955",
+      "33226303",
+      "19029809",
+      "33895280",
+      "38564299",
+      "21776020",
+      "33306391",
+      "33122847",
+      "36469727",
+      "33161371",
+      "37128897",
+      "36369945",
+      "32284225",
+      "28855816",
+      "37279114",
+      "35032738",
+      "22571657",
+      "22276149",
+      "34709133",
+      "31172362",
+      "23500466",
+      "38808256",
+      "37387600",
+      "38063080",
+      "36898858",
+      "36522517",
+      "36905674",
+      "38532068",
+      "38273753",
+      "38855951",
+      "34572383",
+      "38240100",
+      "38127416",
+      "39127153",
+      "35530158",
+      "35442775",
+      "38139037",
+      "38453105",
+      "38529911",
+      "38176507",
+      "38534727",
+      "38287492",
+      "39388097",
+      "31498033",
+      "38500246",
+      "34207158"
+    ],
+    "review": [
+      "36562191",
+      "32866383",
+      "19757441",
+      "18473913",
+      "19029809",
+      "38564299",
+      "37128897",
+      "22571657",
+      "39127153"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2022.2153921?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1602",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

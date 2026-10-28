@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41807414",
+  "title": "A meta learning and task adaptive approach for drug target affinity prediction.",
+  "authors": "Wan, Mengxuan; Zhao, Yanpeng; Zhang, Yixin; Xu, Huiyan; Yi, Duoyun; Zan, Peng; He, Song; Bo, Xiaochen",
+  "journal": "Nature communications",
+  "published_date": "2026-03-11",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该文聚焦药物-靶点亲和力预测，对象为药物小分子与蛋白质，非蛋白质-DNA互作体系，且无TF-DNA结合建模，仅方法上元学习可迁移性有限，与课题关联微弱。",
+  "abstract": "Accurate and robust prediction of drug-target affinity (DTA) plays a critical role in drug discovery. While deep learning has advanced DTA prediction, existing methods struggle with limited training data and poor generalization. In this study, we propose AdaMBind, a novel DTA prediction model based on meta-learning framework with an adaptive task module designed for low-data scenarios. It employs a dynamic \"easy-to-hard\" task scheduling mechanism to enhance training efficiency and robustness. Experimental results on three benchmark datasets demonstrate that AdaMBind outperforms 8 baseline models in predicting affinity for unseen targets, particularly under few-shot conditions. Under stringent data constraints, the model successfully identifies high-affinity compounds for ESR and TP53, achieving outstanding virtual screening performance. Furthermore, when applied to inhibitor discovery against FLT3 for acute myeloid leukemia, AdaMBind successfully identified candidate compounds with potent inhibitory activity, as verified by preliminary experimental assays. In summary, AdaMBind provides a robust framework for few-shot DTA prediction.",
+  "abstract_zh": "药物-靶点亲和力（drug-target affinity, DTA）的准确且稳健预测在药物发现中起着关键作用。尽管深度学习已推进了DTA预测，现有方法在处理有限训练数据和泛化能力差方面仍面临挑战。在本研究中，我们提出AdaMBind，一种基于元学习框架的新型DTA预测模型，并配备自适应任务模块，专为低数据场景设计。它采用动态的“从易到难”任务调度机制，以提升训练效率和稳健性。在三个基准数据集上的实验结果表明，AdaMBind在预测未见靶点的亲和力方面优于8个基线模型，尤其在少样本条件下表现突出。在严格数据约束下，该模型成功识别出针对ESR和TP53的高亲和力化合物，实现了卓越的虚拟筛选性能。此外，当应用于针对急性髓系白血病的FLT3抑制剂发现时，AdaMBind成功识别出具有强效抑制活性的候选化合物，并通过初步实验测定得到验证。总之，AdaMBind为少样本DTA预测提供了一个稳健框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41807414/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41807414/",
+  "paper_page_path": "papers/pubmed/41807414/index.html"
+}

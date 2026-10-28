@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42391245",
+  "title": "Key molecular mechanisms of mitochondrial metabolic pathways in specific cell subpopulations of pancreatic cancer based on scRNA-seq and bulk RNA-seq.",
+  "authors": "Liu, Jianping; Liu, Tao; Yang, Le; Hu, Yi; Luo, Chao; Wu, Dan; Yang, Xingjian",
+  "journal": "PloS one",
+  "published_date": "2026-07-02",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 2,
+  "one_liner_zh": "基于scRNA-seq和bulk RNA-seq研究胰腺癌线粒体代谢关键基因，虽含转录因子网络和分子对接，但核心是肿瘤表达与预后分析，非蛋白质-DNA互作建模，与本课题关联弱。",
+  "abstract": "BACKGROUND: Pancreatic cancer (PC) is a highly malignant tumor with increasing incidence, mortality, and a low five-year survival rate. Mitochondrial metabolic reprogramming plays a crucial role in tumor development, but the molecular mechanisms in different cell subpopulations of PC remain unclear. This study aims to integrate single-cell RNA sequencing (scRNA-seq) and bulk RNA-seq to explore mitochondrial metabolism in PC. METHODS: Transcriptome datasets (GSE183795, GSE16515, GSE197177, and TCGA-PAAD) were downloaded from the GEO and TCGA databases. Differentially expressed genes (DEGs) were identified using the limma package for bulk RNA-seq and the Seurat package for scRNA-seq. Weighted gene co-expression network analysis (WGCNA) was performed to identify key modules and hub genes. Machine learning algorithms screened key genes, and functional enrichment analysis was conducted using clusterProfiler. PPI, ceRNA, and transcription factor networks explored gene regulation. Immune infiltration analysis, drug prediction, and molecular docking were conducted on key genes. The prognostic value of the key genes was evaluated using clinical data from TCGA. RESULTS: A total of 1238 bulk RNA-DEGs and 8231 scRNA-DEGs in fibroblasts were identified. Integration of both datasets revealed 536 DEGs. WGCNA identified 6 modules associated with PC. By intersecting DEGs, hub genes, and mitochondrial metabolism-related genes, 18 candidate genes were obtained. These genes were enriched in glucose metabolism and mitochondrial outer membrane pathways. Three key genes (IFI27, PKM, and RSAD2) were selected using machine learning. PPI, ceRNA, and transcription factor networks provided regulatory insights. Immune infiltration analysis showed significant differences in immune cells, particularly in T cells CD4 memory resting and macrophages M2. Drug prediction and molecular docking identified potential drugs for these genes. Survival analysis indicated that high expression of these genes correlated with poor prognosis. CONCLUSION: This study integrates scRNA-seq and bulk RNA-seq data to identify three key genes (IFI27, PKM, and RSAD2) and their immune-related mechanisms in PC. These findings offer new insights into the pathogenesis and potential therapeutic targets for PC.",
+  "abstract_zh": "背景：胰腺癌（PC）是一种高度恶性肿瘤，其发病率、死亡率不断上升，五年生存率较低。线粒体代谢重编程在肿瘤发展中发挥关键作用，但PC不同细胞亚群中的分子机制尚不清楚。本研究旨在整合单细胞RNA测序（scRNA-seq）和批量RNA测序，探讨PC中的线粒体代谢。方法：从GEO和TCGA数据库下载转录组数据集（GSE183795、GSE16515、GSE197177和TCGA-PAAD）。使用limma包识别批量RNA-seq的差异表达基因（DEGs），使用Seurat包识别scRNA-seq的DEGs。进行加权基因共表达网络分析（WGCNA）以识别关键模块和核心基因。机器学习算法筛选关键基因，并使用clusterProfiler进行功能富集分析。通过PPI、ceRNA和转录因子网络探讨基因调控。对关键基因进行免疫浸润分析、药物预测和分子对接。使用TCGA临床数据评估关键基因的预后价值。结果：共鉴定出1238个批量RNA-DEGs和8231个成纤维细胞中的scRNA-DEGs。整合两个数据集后获得536个DEGs。WGCNA识别出6个与PC相关的模块。通过交集DEGs、核心基因和线粒体代谢相关基因，获得18个候选基因。这些基因富集于葡萄糖代谢和线粒体外膜通路。使用机器学习筛选出三个关键基因（IFI27、PKM和RSAD2）。PPI、ceRNA和转录因子网络提供了调控见解。免疫浸润分析显示免疫细胞存在显著差异，尤其是T细胞CD4记忆静息和巨噬细胞M2。药物预测和分子对接为这些基因识别出潜在药物。生存分析表明，这些基因的高表达与不良预后相关。结论：本研究整合scRNA-seq和批量RNA-seq数据，识别出PC中的三个关键基因（IFI27、PKM和RSAD2）及其免疫相关机制。这些发现为PC的发病机制和潜在治疗靶点提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42391245/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42391245/",
+  "paper_page_path": "papers/pubmed/42391245/index.html"
+}

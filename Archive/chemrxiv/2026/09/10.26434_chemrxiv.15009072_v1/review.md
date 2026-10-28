@@ -1,0 +1,57 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a molecular mechanics based approach for modeling Mg2+ binding to proteins in solution, reporting mean errors of 0.5% in local interaction energies relative to high level quantum mechanics, agreement with experiment for binding modes and binding free energies, and a claim that explicit polarization is essential for accuracy.
+- **Visible evidence base** Abstract text only; no quantitative data, methodological details, or experimental comparisons are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, statistical analyses, and experimental datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in force field development for ion protein binding, with a strong claim of unprecedented accuracy. However, the supplied material is insufficient to evaluate the technical soundness of the approach, the validity of the reported error metrics, or the robustness of the comparison to experiment. The central claims are plausible but currently not verifiable from the abstract alone.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on molecular dynamics simulations of ions and proteins, developers of molecular mechanics force fields, and experimentalists studying Mg2+ dependent enzymatic mechanisms who seek quantitative simulation tools. The potential to enable accurate studies of hundreds of Mg dependent proteins would attract broad interest in the simulation community.
+- **Major strengths** The problem addressed is of long standing importance in molecular simulation. The reported accuracy of 0.5% mean error in local interaction energies is striking and, if reproducible, would represent a substantial improvement over existing approaches. The explicit focus on the balance between repulsive and attractive forces near ions, and the role of polarization, addresses a known and critical limitation in current force fields.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The approach yields unprecedented accuracy in describing Mg2+ binding to proteins in solution, with mean error in local interaction energies of 0.5% compared to high level quantum mechanics.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a 0.5% mean error in local interaction energies but provides no definition of what constitutes local interaction energies, no information on the number of systems or configurations evaluated, no details on the level of quantum mechanics used as reference, and no statistical measures such as standard deviations or error distributions. Without this information, the reported accuracy cannot be assessed for robustness or generalizability.
+  - **Why it matters** A 0.5% error claim is exceptional and would set a new benchmark for force field accuracy. If the error metric is defined narrowly or evaluated on a limited set of favorable cases, the claim could be misleading. The scientific community requires clarity on the scope and statistical basis of such a strong quantitative claim.
+  - **Resolution test** Provide a clear definition of local interaction energies, specify the number and diversity of protein ion binding sites tested, report the reference quantum mechanical method and basis set, and include error distributions and standard deviations. The claim would be established if the 0.5% error holds across a diverse and representative set of binding sites with a well defined reference level.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Binding modes and binding free energies match experiment.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states agreement with experiment for binding modes and binding free energies but provides no quantitative comparison, no identification of the experimental systems used, no error bars on the computed free energies, and no statistical measure of agreement. It is unclear how many systems were tested, whether the agreement is within chemical accuracy, and whether the comparison is qualitative or quantitative.
+  - **Why it matters** Agreement with experiment is a central pillar of the claim of unprecedented accuracy. Without quantitative details, the reader cannot judge whether the agreement is meaningful or coincidental. Binding free energy calculations are notoriously sensitive to sampling and methodological choices, and the abstract provides no information on how these challenges were addressed.
+  - **Resolution test** Provide a table comparing computed and experimental binding free energies for a defined set of protein Mg2+ binding sites, including uncertainties on both computed and experimental values, and a clear statement of the criterion used to define agreement. The claim would be established if the computed values fall within the combined uncertainties of experiment for a representative set of systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The approach is a generalizable solution to the challenge of describing ion protein binding in the condensed phase.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract presents the method as generalizable but provides no information on the functional form of the force field, the parameters introduced, the training set used, or the transferability of the approach to other ions or protein environments. The claim of generalizability cannot be evaluated without details on the method's formulation and its dependence on system specific parametrization.
+  - **Why it matters** Generalizability is a key differentiator from system specific corrections. If the method requires reparametrization for each new ion or protein, the claim of a generalizable solution is weakened. The community needs to know the extent of parametrization required and the physical basis for transferability.
+  - **Resolution test** Describe the functional form and parametrization strategy, demonstrate application to at least one additional ion or a diverse set of protein binding sites beyond the training set, and show that accuracy is maintained without system specific adjustments. The claim would be established if the method performs consistently across a range of systems without reparametrization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract statement on polarization
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The statement that explicit modeling of polarization is essential is presented as a finding, but the abstract does not clarify whether this is demonstrated by a comparative test with and without polarization or is an inference from the method's design.
+  - **Required correction** Clarify whether a control calculation without explicit polarization was performed and report the resulting loss of accuracy, or state explicitly that this is a design principle rather than a tested hypothesis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract claim on biological relevance
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The statement that the work opens the way to quantitatively study Mg dependent mechanisms in hundreds of enzymes and proteins is forward looking but not supported by any demonstration of application to a biological system beyond the binding site level.
+  - **Required correction** Either temper the claim to reflect the current scope or provide an example of a biological application that demonstrates the practical utility of the method.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative and methodological detail to establish the central claims of accuracy, experimental agreement, and generalizability.
+- **Assessment against Nature-style criteria** Originality is high, as the approach appears to address a known limitation in force field design with a novel solution. Scientific importance is potentially high given the broad relevance of Mg2+ binding in biology. Interdisciplinary readership is plausible, as the work bridges computational chemistry, biophysics, and enzymology. Technical soundness cannot be assessed from the abstract alone, and this is the primary weakness. Readability for nonspecialists is adequate, though the abstract assumes familiarity with force field terminology and quantum mechanical reference methods.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are promising and potentially significant, but the abstract alone does not provide sufficient methodological detail, quantitative results, or statistical context to verify the reported accuracy and agreement with experiment. A full manuscript with detailed methods, comprehensive validation, and transparent error reporting would be required to assess whether the case is established.

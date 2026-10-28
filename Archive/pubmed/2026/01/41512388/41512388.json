@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "41512388",
+    "doi": "10.1016/j.phymed.2026.157776",
+    "title": "A novel mechanism of Reduning injection in sepsis treatment: Targeting inflammatory kinases TBK1 and IKKbeta."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis-induced systemic inflammation, characterized by immune dysregulation and cytokine storms, presents significant therapeutic challenges. Reduning injection (RDN), a Traditional Chinese Medicine formulation, demonstrates clinical efficacy in sepsis management, yet its molecular mechanisms remain elusive. PURPOSE: This study aimed to unravel RDN's immunomodulatory mechanisms and identify its core effective components targeting key inflammatory signaling networks in sepsis. METHODS: Initially, six complementary in vitro hyperinflammation models (macrophages, endothelial, epithelial, and intestinal barrier cells) were established, with their transcriptomes integrated with patient-derived septic data to prioritize canonical pathways. Transcriptome profiling of RDN, its 14 phytochemicals, and dexamethasone (DEX) was then performed to analyze pathway enrichment and identify key components. In vitro mechanistic validation included enzyme-linked immunosorbent assay (ELISA) for IL-6 inhibition screening; ADP-Glo Kinase Assay for IKKbeta/TBK1 inhibition; Western blot to assess phosphorylation dynamics of tank-binding kinase 1 (TBK1), inhibitor of nuclear factor-kappa B kinase subunit beta (IKKbeta), and nuclear factor-kappa B (NF-kappaB); quantitative real-time polymerase chain reaction (qRT-PCR) to confirm downregulation of canonical NF-kappaB targets; and molecular dynamics (MD) simulations to explore binding mechanisms. For in vivo studies, an LPS-rat sepsis model was used, with preliminary studies defining optimal LPS dose, induction timepoint, and RDN dose. Assessments on septic rats included histopathology (hematoxylin-eosin staining), cytokine profiling (ELISA), complete blood counts, transcriptomic analysis of peripheral blood mononuclear cells (PBMCs) to uncover NF-kappaB pathway modulation, and qRT-PCR validation of transcriptomic changes. RESULTS: The clinically anchored approach effectively prioritized canonical pathways (NF-kappaB, TNF, and cytokine-cytokine receptor interactions) with strong translational relevance. Transcriptome profiling revealed RDN's broad pathway enrichment and identified cynaroside (CYN) as the principal effective component exerting multi-pathway anti-inflammatory effects. Mechanistically, CYN dual-inhibited TBK1 (IC(5)(0): 8.9 muM) and IKKbeta (IC(5)(0): 23.3 muM), suppressing NF-kappaB signaling and cytokine production in macrophages. MD simulations showed stable IKKbeta-CYN and TBK1-CYN complexes, with CYN occupying catalytic pockets via hydrogen bonds with key residues and minimal binding site fluctuations. In LPS-induced septic rats, RDN and CYN mitigated multi-organ injury, reduced systemic inflammation (decreased IL-6 and TNF-alpha), restored complete blood counts, and inhibited NF-kappaB activation. CONCLUSION: This study advances understanding of TCM's multi-target immunomodulation in sepsis via a framework integrating high-dimensional data and experimental validation. CYN's dual-kinase inhibition highlights its potential as a precision therapeutic for sepsis and hyperinflammatory disorders, while reinforcing TCM's value in novel immunomodulatory drug discovery within network pharmacology and systems medicine paradigms.",
+    "keywords": [
+      "Dual kinase inhibition",
+      "Multiple cellular models",
+      "NF-kappaB",
+      "Reduning injection",
+      "Sepsis",
+      "Transcriptome profiling"
+    ],
+    "mesh_terms": [
+      "*Sepsis/drug therapy/metabolism",
+      "Animals",
+      "*I-kappa B Kinase/metabolism/antagonists & inhibitors",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "*Protein Serine-Threonine Kinases/metabolism/antagonists & inhibitors",
+      "Humans",
+      "Male",
+      "Rats",
+      "Signal Transduction/drug effects",
+      "NF-kappa B/metabolism",
+      "Rats, Sprague-Dawley",
+      "Inflammation/drug therapy",
+      "Anti-Inflammatory Agents/pharmacology",
+      "Dexamethasone/pharmacology",
+      "Interleukin-6/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Liang",
+        "Wu, Zi-Yin",
+        "Gao, Yan",
+        "Geng, Xin-Yi",
+        "Yang, Wan-Ting",
+        "Yin, Qian-Ru",
+        "Liu, Qiu",
+        "Wang, Chao",
+        "Ji, Chun-Yan",
+        "Chen, Ying",
+        "Liu, Xin",
+        "Wang, Lei",
+        "Shao, Jun",
+        "Dong, Jia-Yu",
+        "Zhang, Chen-Xu",
+        "Guo, Zhi-Hong",
+        "Wang, Tuan-Jie",
+        "Wang, Zhen-Zhong",
+        "Zhang, Xin-Zhuang",
+        "Wang, Jing-Hui",
+        "Xiao, Wei"
+      ],
+      "short_names": [
+        "Cao L",
+        "Wu ZY",
+        "Gao Y",
+        "Geng XY",
+        "Yang WT",
+        "Yin QR",
+        "Liu Q",
+        "Wang C",
+        "Ji CY",
+        "Chen Y",
+        "Liu X",
+        "Wang L",
+        "Shao J",
+        "Dong JY",
+        "Zhang CX",
+        "Guo ZH",
+        "Wang TJ",
+        "Wang ZZ",
+        "Zhang XZ",
+        "Wang JH",
+        "Xiao W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China.",
+        "School of Integrated Chinese and Western Medicine, Anhui University of Chinese Medicine, Hefei, Anhui, China. Electronic address: jhwang_dlut@163.com.",
+        "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China. Electronic address: xw_kanion@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Liang",
+        "short_name": "Cao L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zi-Yin",
+        "short_name": "Wu ZY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yan",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Xin-Yi",
+        "short_name": "Geng XY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wan-Ting",
+        "short_name": "Yang WT",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Qian-Ru",
+        "short_name": "Yin QR",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qiu",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chao",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Chun-Yan",
+        "short_name": "Ji CY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ying",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Jun",
+        "short_name": "Shao J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Jia-Yu",
+        "short_name": "Dong JY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chen-Xu",
+        "short_name": "Zhang CX",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhi-Hong",
+        "short_name": "Guo ZH",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tuan-Jie",
+        "short_name": "Wang TJ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen-Zhong",
+        "short_name": "Wang ZZ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin-Zhuang",
+        "short_name": "Zhang XZ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing-Hui",
+        "short_name": "Wang JH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Anhui University of Chinese Medicine, Hefei, Anhui, China. Electronic address: jhwang_dlut@163.com."
+        ]
+      },
+      {
+        "full_name": "Xiao, Wei",
+        "short_name": "Xiao W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Technologies for Chinese Medicine Pharmaceutical Process Control and Intelligent Manufacture (Jiangsu Kanion Pharmaceutical Co.,Ltd. & Nanjing University of Chinese Medicine), Jiangsu, Nanjing 210000, China. Electronic address: xw_kanion@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 00:34",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [
+      "42232184"
+    ],
+    "refs": [],
+    "similar": [
+      "41512388",
+      "39447411",
+      "41389887",
+      "41213440",
+      "40754029",
+      "42176509",
+      "42208328",
+      "40644858",
+      "30233137",
+      "40495190",
+      "33421596",
+      "38972239",
+      "40133025",
+      "40571230",
+      "38670405",
+      "36046875",
+      "41904802",
+      "32014631",
+      "40319834",
+      "42085848",
+      "40815948",
+      "40330488",
+      "40360040",
+      "26571085",
+      "40338445",
+      "40524158",
+      "40486124",
+      "41702258",
+      "24962643",
+      "42197115",
+      "22684031",
+      "42052827",
+      "41724289",
+      "41655547",
+      "41881321",
+      "42167662",
+      "39755761",
+      "21913901",
+      "33444723",
+      "31389587",
+      "39244174",
+      "41534756",
+      "42079590",
+      "41386308",
+      "42108770",
+      "40020626",
+      "40916281",
+      "39922147",
+      "41389491",
+      "41265260",
+      "36177923",
+      "40684492",
+      "37689326",
+      "32325181",
+      "33623121",
+      "36753375",
+      "41814740",
+      "36567581",
+      "15954894",
+      "39245241",
+      "41260550",
+      "40955790",
+      "41184109",
+      "41619865",
+      "41489113",
+      "40499803",
+      "41965382",
+      "26192807",
+      "41692111",
+      "41508081",
+      "40918953",
+      "41791616",
+      "36361915",
+      "39921189",
+      "39236479",
+      "29110153",
+      "35931304",
+      "39839500",
+      "33539010",
+      "41690037",
+      "34648903",
+      "41265221",
+      "40619666",
+      "21434881",
+      "41005055",
+      "39957162",
+      "38697555",
+      "42302947",
+      "34955133",
+      "36099655",
+      "39617708",
+      "26032013",
+      "38621947",
+      "37586161",
+      "37610554",
+      "41198548",
+      "31862869",
+      "39493293",
+      "40435578",
+      "39419306"
+    ],
+    "review": [
+      "41512388"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00013-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-910",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

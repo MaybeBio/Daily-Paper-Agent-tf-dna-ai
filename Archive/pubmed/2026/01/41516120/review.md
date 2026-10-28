@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods. No supplementary figures or tables were provided beyond those referenced in the text.
+- **Assessment boundary** Evaluation is limited to the scientific claims, methodological soundness, and interpretive validity as presented in the supplied text. No independent replication or re-analysis was performed.
+- **Shared manuscript claim summary** The authors propose a computational workflow combining ESMFold/AlphaFold structure prediction, LZerD docking, PRODIGY affinity prediction, and short GROMACS molecular dynamics simulations to predict interactions between full-length wild-type or mutant p53 monomers and BCL-2. They report that the method reproduces some known p53 TAD/BCL-2 contacts, predicts generally reduced binding affinity for major p53 mutants relative to wild-type at 37 °C, and that complexes remain stable over 2 ns simulations.
+- **Visible evidence base** Main text figures (Figures 1–7), Tables 1 and S1–S3 (referenced), and supplementary figures S1–S3 (referenced but not provided). Methods descriptions for all computational steps are included.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S3) were not provided. Raw LZerD docking scores, PRODIGY output details, GROMACS trajectory analyses, and the Figshare repository contents were not accessible. This limits independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful integrative computational pipeline for predicting p53-BCL-2 interactions, addressing a biologically relevant question. The workflow is built from established tools and the authors make reasonable efforts to benchmark against prior experimental data. However, the study is largely descriptive and predictive without experimental validation, and several methodological choices and statistical treatments require clarification. The central claim that mutant p53 shows reduced BCL-2 binding affinity is based on predicted values with no error assessment across independent runs or docking poses. The 2 ns simulation time is very short for drawing conclusions about complex stability. The manuscript would benefit from more rigorous quantitative analysis, clearer presentation of docking pose selection criteria, and a more cautious interpretation of biological implications.
+- **Who would be interested in the results, and why** Researchers studying p53 biology, BCL-2 family interactions, apoptosis regulation, and cancer therapeutics would find the predicted interaction maps and affinity trends of interest. Computational biologists developing or benchmarking protein-protein interaction prediction workflows may also value the integrated pipeline. Clinically oriented investigators studying p53 mutant phenotypes could use these predictions to generate hypotheses about mutant-specific BCL-2 interactions.
+- **Major strengths** 1) Addresses a biologically important question with translational relevance. 2) Integrates multiple established computational tools into a coherent workflow. 3) Makes an effort to benchmark predictions against prior in vitro data. 4) Provides detailed methods that would allow replication. 5) Considers temperature effects on binding affinity predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "this method can identify critical regions for binding and, to an extent, identify individual amino acids that could influence the interaction of the monomers" based on comparison with Ha et al. (2022).
+  - **Evidence pointer** Section 2.3, Figures 5 and 6
+  - **Concern** The comparison between predicted and experimentally determined interaction residues is qualitative. The authors report that 7 out of 13 p53 active residues and 2 out of 8 BCL-2 active residues were identified, but no statistical framework is provided to assess whether this overlap is significant beyond chance. The criteria for defining "active" and "passive" residues in the LZerD/ICN3D output are not clearly distinguished from the experimental definitions used by Ha et al.
+  - **Why it matters** Without a quantitative enrichment analysis or a null model, the claimed agreement with experimental data could be coincidental. The partial overlap (54% for p53, 25% for BCL-2) may not be sufficient to validate the method's predictive power.
+  - **Resolution test** Provide a statistical test (e.g., hypergeometric test or permutation-based enrichment) comparing observed overlap to random expectation. Alternatively, benchmark against a set of known non-interacting protein pairs to establish specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "there was a general trend towards lower affinities between the MT p53 monomer and BCL-2 monomer compared with the WT p53 monomer when predicted at 37 °C" and present this as a key finding.
+  - **Evidence pointer** Section 2.4, Figure 7, Table S3
+  - **Concern** The affinity predictions from PRODIGY are presented as single values per variant with no indication of variance across docking poses, independent runs, or alternative complex conformations. The 95% confidence intervals reported in the text appear to be for the pooled data, not per-variant. It is unclear whether the differences between WT and individual mutants are statistically significant given the expected error in PRODIGY predictions.
+  - **Why it matters** The central biological conclusion depends on reliable relative affinity rankings. If the differences between WT and mutants fall within the prediction error of PRODIGY, the conclusion that mutants have reduced BCL-2 binding may not be supported.
+  - **Resolution test** Report per-variant confidence intervals or standard deviations from multiple docking poses. Perform a statistical test (e.g., ANOVA or Kruskal-Wallis) comparing WT to mutant groups. Provide PRODIGY's expected error range for this class of complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors conclude that "the predicted complexes remained compact and stable across the 2-nanosecond time frame, indicating that the complexes of p53 variants and BCL-2 are stable in solution."
+  - **Evidence pointer** Section 2.4, Figure S3
+  - **Concern** A 2 ns simulation is far too short to assess complex stability. Protein-protein complexes typically require at least hundreds of nanoseconds to microseconds for meaningful stability assessment. The RMSD and Rg analyses over 2 ns only reflect local relaxation from the starting structure, not thermodynamic stability.
+  - **Why it matters** The claim of "stability in solution" is overstated and could mislead readers into thinking the predicted complexes are physiologically relevant. This is particularly problematic given that the docking poses were not experimentally validated.
+  - **Resolution test** Extend simulations to at least 100 ns per complex, or remove the stability claim and instead state that complexes remained structurally intact during the short equilibration period. If longer simulations are not feasible, temper the language to reflect the limited scope.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that reduced mutant p53-BCL-2 affinity "points to a potential increase in BCL-2 activity and thus an increase in cancer cell survival."
+  - **Evidence pointer** Section 3, Discussion
+  - **Concern** This functional interpretation extends beyond the computational predictions. The authors do not measure BCL-2 activity, apoptosis, or cell survival. The link between binding affinity and functional outcome is speculative and not supported by the data presented.
+  - **Why it matters** Overinterpretation of predictive results can mislead readers and generate unsupported hypotheses that may be difficult to falsify. The manuscript should clearly separate computational predictions from biological implications.
+  - **Resolution test** Either remove or clearly label this as a speculative hypothesis requiring experimental testing. Alternatively, cite experimental evidence that directly links p53-BCL-2 binding affinity to functional outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The description of AlphaFold usage is incomplete. The authors state they used "the Google ColabFold code for AlphaFold" but do not specify the AlphaFold version, whether templates were used, or the number of models generated. ESMFold parameters are also not fully specified.
+  - **Required correction** Provide full version information, parameter settings, and any non-default options for both AlphaFold and ESMFold runs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 2.4, Figure 7
+  - **Evidence pointer** Section 2.4
+  - **Issue** The error bars in Figure 7 are described as "standard error" but it is unclear what replicates they represent. If these are from multiple PRODIGY runs on the same complex, they may not capture the true uncertainty in the prediction.
+  - **Required correction** Clarify what the error bars represent and how many independent predictions were used to compute them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, Figure 6
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of changes in interaction patterns between WT and mutant p53 is dense and difficult to follow. The text lists many residue numbers without a clear organizing framework.
+  - **Required correction** Consider a summary table comparing WT and mutant interaction profiles, or a more structured narrative that groups findings by p53 domain or mutation type.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.6
+  - **Evidence pointer** Section 4.6
+  - **Issue** The molecular dynamics simulation parameters are referenced to external files (minim.mdp, nvt.mdp, npt.mdp, md2ns.mdp) that are not described in the text. The force field used is not specified.
+  - **Required correction** Specify the force field, water model, and key simulation parameters (e.g., time step, thermostat, barostat) in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 2.2, Table 1
+  - **Evidence pointer** Section 2.2
+  - **Issue** The identification of a putative BH3 domain in p53 spanning residues 39-52 is based on sequence alignment and structural similarity. The authors should acknowledge that this region has not been experimentally confirmed as a functional BH3 domain in the context of BCL-2 binding.
+  - **Required correction** Add a caveat that the functional relevance of this putative BH3 domain requires experimental validation.
+
+## Risk / unsupported claims
+- The claim that mutant p53 shows reduced BCL-2 binding affinity is based on single PRODIGY predictions per variant without error assessment; this is currently unsupported as a robust quantitative finding.
+- The conclusion that complexes are "stable in solution" based on 2 ns simulations is not supported by the evidence presented.
+- The suggestion that reduced mutant p53-BCL-2 affinity leads to increased cancer cell survival is speculative and not directly supported by the data.
+- The claim that the method "can identify critical regions for binding" is only partially supported given the modest overlap with experimental data and lack of statistical testing.
+- The putative BH3 domain in p53 (residues 39-52) is presented with more confidence than warranted given the lack of experimental validation.
+- The statement that "this methodology provides confident results based on structural predictions from protein folding algorithms" overstates the reliability of the predictions, given known limitations of structure prediction for disordered regions and docking algorithms.

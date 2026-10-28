@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36504003",
+  "title": "Microscopic image-based classification of adipocyte differentiation by machine learning.",
+  "authors": "Noguchi, Yoshiyuki; Murakami, Masataka; Murata, Masayuki; Kano, Fumi",
+  "journal": "Histochemistry and cell biology",
+  "published_date": "2022-12-13",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习对脂肪细胞分化显微图像分类，虽涉及PPARgamma转录因子表达，但核心是细胞分化阶段分类，无蛋白质-DNA互作建模或结合机制研究，与本课题关系微弱。",
+  "abstract": "Adipocyte differentiation is a sequential process involving increased expression of peroxisome proliferator-activated receptor gamma (PPARgamma), adipocyte-specific gene expression, and accumulation of lipid droplets in the cytoplasm. Expression of the transcription factors involved is usually detected using canonical biochemical or biomolecular procedures such as Western blotting or qPCR of pooled cell lysates. While this provides a useful average index for adipogenesis for some populations, the precise stage of adipogenesis cannot be distinguished at the single-cell level, because the heterogenous nature of differentiation among cells limits the utility of averaged data. We have created a classifier to sort cells, and used it to determine the stage of adipocyte differentiation at the single-cell level. We used a machine learning method with microscopic images of cell stained for PPARgamma and lipid droplets as input data. Our results show that the classifier can successfully determine the precise stage of differentiation. Stage classification and subsequent model fitting using the sequential reaction model revealed the action of pioglitazone and rosiglitazone to be promotion of transition from the stage of increased PPARgamma expression to the next stage. This indicates that these drugs are PPARgamma agonists, and that our classifier and model can accurately estimate drug action points and would be suitable for evaluating the stage/state of individual cells during differentiation or disease progression. The incorporation of both biochemical and morphological information derived from immunofluorescence image of cells and so overcomes limitations of current models.",
+  "abstract_zh": "脂肪细胞分化是一个连续过程，涉及过氧化物酶体增殖物激活受体γ（PPARgamma）表达增加、脂肪细胞特异性基因表达以及细胞质中脂滴的积累。所涉及的转录因子的表达通常通过经典的生化或生物分子程序检测，如对混合细胞裂解物进行Western blotting或qPCR。虽然这为某些群体提供了脂肪生成的实用平均指数，但在单细胞水平上无法区分脂肪生成的确切阶段，因为细胞间分化的异质性限制了平均数据的效用。我们创建了一个分类器来对细胞进行分类，并利用它在单细胞水平上确定脂肪细胞分化的阶段。我们采用机器学习方法，以PPARgamma和脂滴染色的细胞显微图像作为输入数据。我们的结果表明，该分类器能够成功确定分化的精确阶段。通过阶段分类及随后使用序贯反应模型进行模型拟合，揭示了吡格列酮和罗格列酮的作用是促进从PPARgamma表达增加阶段向下一阶段的转变。这表明这些药物是PPARgamma激动剂，且我们的分类器和模型能够准确估计药物作用点，适用于评估分化或疾病进展过程中单个细胞的阶段/状态。该方法整合了来自细胞免疫荧光图像的生化与形态学信息，从而克服了现有模型的局限性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36504003/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36504003/",
+  "paper_page_path": "papers/pubmed/36504003/index.html"
+}

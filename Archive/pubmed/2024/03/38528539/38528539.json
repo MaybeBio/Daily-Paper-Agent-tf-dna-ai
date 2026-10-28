@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "38528539",
+    "doi": "10.1186/s12891-024-07349-6",
+    "title": "Identification of potential cell death-related biomarkers for diagnosis and treatment of osteoporosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study aimed to identify potential biomarkers for the diagnosis and treatment of osteoporosis (OP). METHODS: Data sets were downloaded from the Gene Expression Omnibus database, and differentially programmed cell death-related genes were screened. Functional analyses were performed to predict the biological processes associated with these genes. Least absolute shrinkage and selection operator (LASSO), support vector machine (SVM), and random forest (RF) machine learning algorithms were used to screen for characteristic genes, and receiver operating characteristics were used to evaluate the diagnosis of disease characteristic gene values. Gene set enrichment analysis (GSEA) and single-sample GSEA were conducted to analyze the correlation between characteristic genes and immune infiltrates. Cytoscape and the Drug Gene Interaction Database (DGIdb) were used to construct the mitochondrial RNA-mRNA-transcription factor network and explore small-molecule drugs. Reverse transcription real-time quantitative PCR (RT-qPCR) analysis was performed to evaluate the expression of biomarker genes in clinical samples. RESULTS: In total, 25 differential cell death genes were identified. Among these, two genes were screened using the LASSO, SVM, and RF algorithms as characteristic genes, including BRSK2 and VPS35. In GSE56815, the area under the receiver operating characteristic curve of BRSK2 was 0.761 and that of VPS35 was 0.789. In addition, immune cell infiltration analysis showed that BRSK2 positively correlated with CD56dim natural killer cells and negatively correlated with central memory CD4 + T cells. Based on the data from DGIdb, hesperadin was associated with BRSK2, and melagatran was associated with VPS35. BRSK2 and VPS35 were expectably upregulated in OP group compared with controls (all p < 0.05). CONCLUSIONS: BRSK2 and VPS35 may be important diagnostic biomarkers of OP.",
+    "keywords": [
+      "Diagnostic biomarkers",
+      "Immune cell infiltration",
+      "Machine learning",
+      "Osteoporosis",
+      "Programmed cell death-related genes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Cell Death/genetics",
+      "*Apoptosis",
+      "Biomarkers",
+      "Databases, Factual",
+      "*Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Mingliang",
+        "Wang, Xue",
+        "Guo, Mingbo",
+        "Zhang, Wenlong",
+        "Li, Taotao",
+        "Zheng, Jinyang"
+      ],
+      "short_names": [
+        "Li M",
+        "Wang X",
+        "Guo M",
+        "Zhang W",
+        "Li T",
+        "Zheng J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Joint and Sports Medicine, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China.",
+        "Department of endocrinology, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China.",
+        "Department of Joint and Sports Medicine, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China.",
+        "Department of Joint and Sports Medicine, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China.",
+        "Department of Joint and Sports Medicine, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China.",
+        "Department of spine 1, Weifang Sunshine Union Hospital, No. 9000, Yingqian Street, High-tech Zone, Weifang, Shandong Province, 261000, China. 15263697215@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Mingliang",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Sports Medicine, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xue",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of endocrinology, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Mingbo",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Sports Medicine, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenlong",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Sports Medicine, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Taotao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Sports Medicine, Weifang Sunshine Union Hospital, Weifang, Shandong Province, 261000, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jinyang",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of spine 1, Weifang Sunshine Union Hospital, No. 9000, Yingqian Street, High-tech Zone, Weifang, Shandong Province, 261000, China. 15263697215@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC musculoskeletal disorders"
+    ],
+    "journal_abbrev": [
+      "BMC Musculoskelet Disord"
+    ],
+    "pub_date": "2024 Mar 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/26 06:45",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42445403",
+      "41993932",
+      "41458498",
+      "41402885",
+      "40251360",
+      "40241169"
+    ],
+    "refs": [
+      "36581167",
+      "36510071",
+      "36341760",
+      "35757436",
+      "35665506",
+      "35326467",
+      "35317609",
+      "33488513",
+      "33235454",
+      "32589933",
+      "31638917",
+      "30811627",
+      "30255764",
+      "29603567",
+      "29203636",
+      "28921473",
+      "28834263",
+      "28618771",
+      "27929439",
+      "27059734",
+      "25605792",
+      "25055920",
+      "24693427",
+      "24209380",
+      "24122041",
+      "23509071",
+      "23323831",
+      "22455463",
+      "21552458",
+      "21463457",
+      "21414208",
+      "21063955",
+      "19898481",
+      "19759519",
+      "16646834",
+      "15965235",
+      "15734683",
+      "14606511",
+      "14597658",
+      "12519996",
+      "11682119",
+      "10802651",
+      "10692972",
+      "9573414"
+    ],
+    "similar": [
+      "38528539",
+      "34107850",
+      "35713363",
+      "37454542",
+      "37783761",
+      "37251077",
+      "36250071",
+      "36685847",
+      "36311708",
+      "38728482",
+      "37667921",
+      "37059863",
+      "39130750",
+      "37274806",
+      "36524127",
+      "37980550",
+      "36948405",
+      "36193416",
+      "38499050",
+      "38029552",
+      "38371524",
+      "36725810",
+      "36742332",
+      "39270557",
+      "37662825",
+      "37866944",
+      "36792688",
+      "37605572",
+      "36470144",
+      "36690956",
+      "36831718",
+      "36627791",
+      "37259023",
+      "37215133",
+      "35278479",
+      "36034449",
+      "37361541",
+      "36225941",
+      "36253715",
+      "37032832",
+      "37622114",
+      "36746103",
+      "37325631",
+      "37351719",
+      "38454348",
+      "35764238",
+      "35757721",
+      "35938015",
+      "35958412",
+      "37041519",
+      "37732314",
+      "38148887",
+      "34555052",
+      "37821869",
+      "37582718",
+      "36589450",
+      "35928610",
+      "36513616",
+      "37821907",
+      "38044432",
+      "35264872",
+      "36506045",
+      "37633529",
+      "37266443",
+      "35341274",
+      "36211422",
+      "36930329",
+      "37008314",
+      "37409245",
+      "38006610",
+      "36605987",
+      "37908757",
+      "35966794",
+      "36671424",
+      "35845512",
+      "37378675",
+      "38245687",
+      "35837194",
+      "37950194",
+      "38028617",
+      "34872285",
+      "38348042",
+      "37033969",
+      "38328342",
+      "37645416",
+      "35719392",
+      "36148059",
+      "36439178",
+      "37035552",
+      "38070204",
+      "37986345",
+      "37974210",
+      "35350787",
+      "37635936",
+      "38467737",
+      "37691671",
+      "37359526",
+      "38538269",
+      "38575196",
+      "39238187",
+      "39372587",
+      "38778304",
+      "38644543",
+      "39364870",
+      "39382604"
+    ],
+    "review": [
+      "38528539"
+    ],
+    "pmc": [
+      "10964579"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-024-07349-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38528539/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38528539",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-605",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

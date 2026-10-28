@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40020686",
+  "title": "Transfer learning reveals sequence determinants of the quantitative response to transcription factor dosage.",
+  "authors": "Naqvi, Sahin; Kim, Seungsoo; Tabatabaee, Saman; Pampari, Anusri; Kundaje, Anshul; Pritchard, Jonathan K; Wysocka, Joanna",
+  "journal": "Cell genomics",
+  "published_date": "2025-03-01",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用迁移学习预测TF剂量对染色质可及性的定量影响，聚焦TF结合基序与调控元件响应，虽涉及TF-DNA结合但以染色质模式预测为主，缺乏三维互作建模，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Deep learning models have advanced our ability to predict cell-type-specific chromatin patterns from transcription factor (TF) binding motifs, but their application to perturbed contexts remains limited. We applied transfer learning to predict how concentrations of the dosage-sensitive TFs TWIST1 and SOX9 affect regulatory element (RE) chromatin accessibility in facial progenitor cells, achieving near-experimental accuracy. High-affinity motifs that allow for heterotypic TF co-binding and are concentrated at the center of REs buffer against quantitative changes in TF dosage and predict unperturbed accessibility. Conversely, low-affinity or homotypic binding motifs distributed throughout REs drive sensitive responses with minimal impact on unperturbed accessibility. Both buffering and sensitizing features display purifying selection signatures. We validated these sequence features through reporter assays and demonstrated that TF-nucleosome competition can explain low-affinity motifs' sensitizing effects. This combination of transfer learning and quantitative chromatin response measurements provides a novel approach for uncovering additional layers of the cis-regulatory code.",
+  "abstract_zh": "深度学习模型提升了我们从转录因子（TF）结合基序预测细胞类型特异性染色质模式的能力，但其在扰动情境下的应用仍有限。我们应用迁移学习来预测剂量敏感型转录因子TWIST1和SOX9的浓度如何影响面部祖细胞中调控元件（RE）的染色质可及性，达到了接近实验的精度。允许异型TF共结合且集中于RE中心的高亲和力基序，能缓冲TF剂量的定量变化，并预测未扰动状态下的可及性。相反，分布于RE各处的低亲和力或同型结合基序驱动敏感响应，而对未扰动可及性影响极小。缓冲和敏感化特征均表现出净化选择信号。我们通过报告基因实验验证了这些序列特征，并证明TF-核小体竞争可解释低亲和力基序的敏感化效应。这种迁移学习与定量染色质响应测量的结合，为揭示顺式调控代码的额外层次提供了一种新方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40020686/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40020686/",
+  "paper_page_path": "papers/pubmed/40020686/index.html"
+}

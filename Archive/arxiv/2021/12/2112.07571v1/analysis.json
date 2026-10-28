@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2112.07571v1",
+  "title": "Epigenomic language models powered by Cerebras",
+  "authors": "Meredith V. Trotter; Cuong Q. Nguyen; Stephen Young; Rob T. Woodruff; Kim M. Branson",
+  "journal": "",
+  "published_date": "2021-12-14",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于DNA序列与表观遗传状态的EBERT模型，预训练后用于细胞类型特异性转录因子结合预测，核心聚焦TF-DNA互作且采用AI方法，高度匹配本课题。",
+  "abstract": "Large scale self-supervised pre-training of Transformer language models has advanced the field of Natural Language Processing and shown promise in cross-application to the biological `languages' of proteins and DNA. Learning effective representations of DNA sequences using large genomic sequence corpuses may accelerate the development of models of gene regulation and function through transfer learning. However, to accurately model cell type-specific gene regulation and function, it is necessary to consider not only the information contained in DNA nucleotide sequences, which is mostly invariant between cell types, but also how the local chemical and structural `epigenetic state' of chromosomes varies between cell types. Here, we introduce a Bidirectional Encoder Representations from Transformers (BERT) model that learns representations based on both DNA sequence and paired epigenetic state inputs, which we call Epigenomic BERT (or EBERT). We pre-train EBERT with a masked language model objective across the entire human genome and across 127 cell types. Training this complex model with a previously prohibitively large dataset was made possible for the first time by a partnership with Cerebras Systems, whose CS-1 system powered all pre-training experiments. We show EBERT's transfer learning potential by demonstrating strong performance on a cell type-specific transcription factor binding prediction task. Our fine-tuned model exceeds state of the art performance on 4 of 13 evaluation datasets from ENCODE-DREAM benchmarks and earns an overall rank of 3rd on the challenge leaderboard. We explore how the inclusion of epigenetic data and task specific feature augmentation impact transfer learning performance.",
+  "abstract_zh": "大规模自监督预训练的Transformer语言模型推动了自然语言处理领域的发展，并在跨应用至蛋白质和DNA的生物学“语言”方面展现出潜力。利用大型基因组序列语料库学习DNA序列的有效表示，可能通过迁移学习加速基因调控和功能模型的开发。然而，要准确建模细胞类型特异性的基因调控和功能，不仅需要考虑DNA核苷酸序列中包含的信息（这些信息在细胞类型间大多不变），还需考虑染色体局部化学和结构“表观遗传状态”在不同细胞类型间的变化。在此，我们引入一种基于Transformer的双向编码器表示（BERT）模型，该模型基于DNA序列和配对的表观遗传状态输入学习表示，我们称之为表观基因组BERT（或EBERT）。我们使用掩码语言模型目标对整个人类基因组和127种细胞类型进行EBERT的预训练。这一复杂模型与先前难以处理的大规模数据集的训练，首次通过与Cerebras Systems的合作得以实现，其CS-1系统支持了所有预训练实验。我们通过展示EBERT在细胞类型特异性转录因子结合预测任务上的强大性能，证明了其迁移学习潜力。我们的微调模型在ENCODE-DREAM基准的13个评估数据集中，有4个超过了现有最佳性能，并在挑战排行榜上总体排名第3。我们探讨了表观遗传数据的纳入和任务特定特征增强如何影响迁移学习性能。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2112.07571v1",
+  "source_url": "https://arxiv.org/abs/2112.07571v1",
+  "paper_page_path": "papers/arxiv/2112.07571v1/index.html"
+}

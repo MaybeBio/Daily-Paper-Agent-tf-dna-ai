@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "39208245",
+    "doi": "10.1371/journal.pone.0305544",
+    "title": "Unveiling the anti-obesity potential of Kemuning (Murraya paniculata): A network pharmacology approach."
+  },
+  "content": {
+    "abstract": "Obesity has become a global issue that affects the emergence of various chronic diseases such as diabetes mellitus, dysplasia, heart disorders, and cancer. In this study, an integration method was developed between the metabolite profile of the active compound of Murraya paniculata and the exploration of the targeting mechanism of adipose tissue using network pharmacology, molecular docking, molecular dynamics simulation, and in vitro tests. Network pharmacology results obtained with the skyline query technique using a block-nested loop (BNL) showed that histone acetyltransferase p300 (EP300), peroxisome proliferator-activated receptor gamma (PPARG), and peroxisome proliferator-activated receptor gamma coactivator 1-alpha (PPARGC1A) are potential targets for treating obesity. Enrichment analysis of these three proteins revealed their association with obesity, thermogenesis, energy metabolism, adipocytokines, fat cell differentiation, and glucose homeostasis. Metabolite profiling of M. paniculata leaves revealed sixteen active compounds, ten of which were selected for molecular docking based on drug-likeness and ADME results. Molecular docking results between PPARG and EP300 with the ten active compounds showed a binding affinity value of </= -5.0 kcal/mol in all dockings, indicating strong binding. The stability of the protein-ligand complex resulting from docking was examined using molecular dynamics simulations, and we observed the best average root mean square deviation (RMSD) of 0.99 A for PPARG with trans-3-indoleacrylic acid, which was lower than with the native ligand BRL (2.02 A). Furthermore, the RMSD was 2.70 A for EP300 and the native ligand 99E, and the lowest RMSD with the ligand (1R,9S)-5-[(E)-2-(4-Chlorophenyl)vinyl]-11-(5-pyrimidinylcarbonyl)-7,11-diazatricyclo[7.3.1.02,7]trideca-2,4-dien-6-one was 3.33 A. The in vitro tests to validate the potential of M. paniculata in treating obesity showed that there was a significant decrease in PPARG and EP300 gene expressions in 3T3-L1 mature adipocytes treated with M. paniculata ethanolic extract starting at concentrations 62.5 mug/ml and 15.625 mug/ml, respectively. These results indicate that M. paniculata can potentially treat obesity by disrupting adipocyte maturation and influencing intracellular lipid metabolism.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "*Plant Extracts/pharmacology/chemistry",
+      "Animals",
+      "*Murraya/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Mice",
+      "Anti-Obesity Agents/pharmacology/chemistry",
+      "Obesity/drug therapy/metabolism",
+      "PPAR gamma/metabolism",
+      "Network Pharmacology",
+      "Humans",
+      "3T3-L1 Cells",
+      "E1A-Associated p300 Protein/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fatriani, Rizka",
+        "Pratiwi, Firda Agustin Kartika",
+        "Annisa, Annisa",
+        "Septaningsih, Dewi Anggraini",
+        "Aziz, Sandra Arifin",
+        "Miladiyah, Isnatin",
+        "Kusumastuti, Siska Andrina",
+        "Nasution, Mochammad Arfin Fardiansyah",
+        "Ramadhan, Donny",
+        "Kusuma, Wisnu Ananta"
+      ],
+      "short_names": [
+        "Fatriani R",
+        "Pratiwi FAK",
+        "Annisa A",
+        "Septaningsih DA",
+        "Aziz SA",
+        "Miladiyah I",
+        "Kusumastuti SA",
+        "Nasution MAF",
+        "Ramadhan D",
+        "Kusuma WA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1739-8698",
+        "ORCID: 0000-0001-5243-8969",
+        "ORCID: 0000-0002-3682-244X"
+      ],
+      "affiliations": [
+        "Tropical Biopharmaca Research Center, IPB University, Bogor, Indonesia.",
+        "Department of Computer Science, Faculty of Mathematics and Natural Sciences, IPB University, Bogor, Indonesia.",
+        "Department of Computer Science, Faculty of Mathematics and Natural Sciences, IPB University, Bogor, Indonesia.",
+        "Department of Chemistry, Faculty of Military Mathematics and Natural Sciences, Republic of Indonesia Defense University, Bogor, Indonesia.",
+        "Department of Agronomy and Horticulture, Faculty of Agriculture, IPB University, Bogor, Indonesia.",
+        "Faculty of Medicine, Islamic University of Indonesia, Indonesia.",
+        "Research Center for Pharmaceutical Ingredients and Traditional Medicine, National Research and Innovation Agency (BRIN), Bogor, Indonesia.",
+        "Department of Chemistry, Faculty of Mathematics and Natural Sciences, Universitas Indonesia, Depok, Indonesia.",
+        "Research Center for Pharmaceutical Ingredients and Traditional Medicine, National Research and Innovation Agency (BRIN), Bogor, Indonesia.",
+        "Tropical Biopharmaca Research Center, IPB University, Bogor, Indonesia.",
+        "Department of Computer Science, Faculty of Mathematics and Natural Sciences, IPB University, Bogor, Indonesia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fatriani, Rizka",
+        "short_name": "Fatriani R",
+        "identifiers": [
+          "0000-0002-1739-8698"
+        ],
+        "affiliations": [
+          "Tropical Biopharmaca Research Center, IPB University, Bogor, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Pratiwi, Firda Agustin Kartika",
+        "short_name": "Pratiwi FAK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Faculty of Mathematics and Natural Sciences, IPB University, Bogor, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Annisa, Annisa",
+        "short_name": "Annisa A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Faculty of Mathematics and Natural Sciences, IPB University, Bogor, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Septaningsih, Dewi Anggraini",
+        "short_name": "Septaningsih DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Military Mathematics and Natural Sciences, Republic of Indonesia Defense University, Bogor, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Aziz, Sandra Arifin",
+        "short_name": "Aziz SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agronomy and Horticulture, Faculty of Agriculture, IPB University, Bogor, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Miladiyah, Isnatin",
+        "short_name": "Miladiyah I",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Islamic University of Indonesia, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Kusumastuti, Siska Andrina",
+        "short_name": "Kusumastuti SA",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Pharmaceutical Ingredients and Traditional Medicine, National Research and Innovation Agency (BRIN), Bogor, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Nasution, Mochammad Arfin Fardiansyah",
+        "short_name": "Nasution MAF",
+        "identifiers": [
+          "0000-0001-5243-8969"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Mathematics and Natural Sciences, Universitas Indonesia, Depok, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Ramadhan, Donny",
+        "short_name": "Ramadhan D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Pharmaceutical Ingredients and Traditional Medicine, National Research and Innovation Agency (BRIN), Bogor, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Kusuma, Wisnu Ananta",
+        "short_name": "Kusuma WA",
+        "identifiers": [
+          "0000-0002-3682-244X"
+        ],
+        "affiliations": [
+          "Tropical Biopharmaca Research Center, IPB University, Bogor, Indonesia.",
+          "Department of Computer Science, Faculty of Mathematics and Natural Sciences, IPB University, Bogor, Indonesia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/31 09:52",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "42279752"
+    ],
+    "refs": [
+      "38107968",
+      "37544102",
+      "37049561",
+      "36993998",
+      "36922575",
+      "36305812",
+      "36300620",
+      "36300505",
+      "36245535",
+      "36120030",
+      "36074919",
+      "36007112",
+      "35672352",
+      "35321537",
+      "35216415",
+      "35130311",
+      "35074429",
+      "34788843",
+      "34364887",
+      "34278794",
+      "34125845",
+      "33989565",
+      "33963198",
+      "33882682",
+      "33793327",
+      "33511131",
+      "33403891",
+      "33257475",
+      "33251209",
+      "33237311",
+      "33129255",
+      "33084336",
+      "32978480",
+      "32939066",
+      "32580414",
+      "32351500",
+      "32206601",
+      "32158768",
+      "32063836",
+      "31893608",
+      "31723097",
+      "31133849",
+      "31085992",
+      "30735224",
+      "30624862",
+      "30447223",
+      "30186237",
+      "29862292",
+      "29405707",
+      "28978986",
+      "28766825",
+      "28704649",
+      "28424466",
+      "28256516",
+      "28077863",
+      "27899567",
+      "27703502",
+      "27636730",
+      "27230642",
+      "27039901",
+      "26710980",
+      "26451286",
+      "26313896",
+      "26185280",
+      "25920269",
+      "25506234",
+      "24981612",
+      "24793638",
+      "24243638",
+      "23586463",
+      "23584084",
+      "22889332",
+      "22665886",
+      "22405074",
+      "22253696",
+      "21885228",
+      "21084751",
+      "19499576",
+      "19399780",
+      "19165156",
+      "18403477",
+      "18084021",
+      "16211538",
+      "15949696",
+      "15650731",
+      "15264254",
+      "14597658",
+      "11581301",
+      "11340085",
+      "10746014",
+      "10700188",
+      "10592235",
+      "3663476"
+    ],
+    "similar": [
+      "39208245",
+      "38246999",
+      "41021180",
+      "41061585",
+      "35809408",
+      "41745485",
+      "24666293",
+      "35513215",
+      "37948293",
+      "28088260",
+      "39905916",
+      "41962267",
+      "36628832",
+      "38794679",
+      "29241577",
+      "41028134",
+      "41236635",
+      "39154668",
+      "27792464",
+      "24334103",
+      "40199969",
+      "26190448",
+      "30217462",
+      "41382285",
+      "34684625",
+      "40281051",
+      "40660051",
+      "25812771",
+      "34768840",
+      "30551441",
+      "41431007",
+      "40284210",
+      "29631686",
+      "37811763",
+      "33275195",
+      "40415317",
+      "38771619",
+      "39647284",
+      "30650453",
+      "41758462",
+      "42421348",
+      "41736429",
+      "41528586",
+      "24879516",
+      "39409084",
+      "39684213",
+      "41831820",
+      "38878841",
+      "27882370",
+      "30599906",
+      "38065350",
+      "41330962",
+      "41616883",
+      "40326956",
+      "28686516",
+      "24952133",
+      "37742414",
+      "42708785",
+      "29987205",
+      "29710033",
+      "39251712",
+      "40369420",
+      "40015016",
+      "39796505",
+      "33121949",
+      "38802394",
+      "38064160",
+      "39698883",
+      "42431013",
+      "41380415",
+      "42278226",
+      "39437592",
+      "32954977",
+      "28891956",
+      "38542756",
+      "41582741",
+      "35163941",
+      "39636240",
+      "40076460",
+      "42229619",
+      "38776853",
+      "31991562",
+      "41967776",
+      "39917915",
+      "26860768",
+      "24160551",
+      "25128422",
+      "27992530",
+      "36771320",
+      "42582192",
+      "39210246",
+      "25142414",
+      "35630735",
+      "42372427",
+      "41274520",
+      "38111312",
+      "29141998",
+      "25760758",
+      "37439907",
+      "39172434"
+    ],
+    "review": [
+      "39208245",
+      "33275195"
+    ],
+    "pmc": [
+      "11361609"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0305544",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39208245/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

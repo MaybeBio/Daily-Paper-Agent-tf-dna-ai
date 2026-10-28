@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors integrate atomistic MD simulations with stochastic modeling to study the RXR-RAR heterodimeric nuclear receptor system. They claim that dimerization precedes DNA binding, that single-ligand occupancy induces allosteric signaling stabilizing the complex, that ligand-induced downregulation occurs via disruption of allosteric pathways and weakening of the receptor-DNA interface, and that a stochastic gene regulatory network built from MD-derived data reveals ligand-specific allosteric activation as the dominant driver of gene expression with ordered transcriptional output despite noisy intermediate dynamics.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, model equations, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation protocols, stochastic model equations, parameter values, statistical analyses, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable integration of two computational approaches to address a biologically important question in nuclear receptor signaling. The conceptual framing is attractive, and the claim of bridging molecular and gene-regulatory timescales is of broad interest. However, the abstract alone provides insufficient detail to evaluate the technical soundness of either the MD simulations or the stochastic model, and several claims appear to extend beyond what the described evidence can support. The direction is promising, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on protein-DNA interactions and allosteric regulation would find the MD component relevant. Systems biologists and researchers in gene regulatory network modeling would be interested in the stochastic framework. The nuclear receptor community, including those studying RXR-RAR signaling in development and metabolism, would value mechanistic insights that are difficult to obtain experimentally. The work could also appeal to method developers interested in multiscale integration of molecular and network-level simulations.
+- **Major strengths** The integration of MD and stochastic modeling addresses a genuine timescale gap in computational biology. The focus on a biologically important and well-characterized receptor system lends relevance. The claim that ligand binding modulates gene expression through allosteric mechanisms is mechanistically plausible and testable. The acknowledgment of noisy intermediate dynamics and ordered transcriptional output is a nuanced perspective that goes beyond simple on-off descriptions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that dimerization precedes DNA binding and that single-ligand occupancy induces allosteric signaling that stabilizes the complex
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states these results as conclusions but provides no quantitative measures such as free energy differences, binding affinities, or statistical significance. It is unclear how dimerization order was determined from MD simulations, what system was simulated, what force field was used, what timescales were sampled, and whether the simulations were replicated. Without these details, the claim cannot be evaluated.
+  - **Why it matters** The ordering of dimerization versus DNA binding is a mechanistic claim with biological consequences. If the evidence is based on a single trajectory or a limited sampling, the conclusion may be an artifact of the simulation setup rather than a property of the system.
+  - **Resolution test** Provide simulation details including system construction, force field, water model, simulation length, number of replicas, and convergence criteria. Show quantitative free energy or binding data that distinguishes the proposed ordering from alternatives. If possible, compare with experimental data on RXR-RAR assembly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim of a ligand-induced downregulation mechanism involving disruption of allosteric pathways, weakening of the receptor-DNA interface, and promotion of complex dissociation, as inferred from binding free energy calculations
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract invokes binding free energy calculations but does not specify the method, the systems compared, the error estimates, or the magnitude of the reported effects. It is also unclear how "disruption of allosteric pathways" was identified and quantified. The direction of the effect, downregulation, is presented as a contrast to the stabilizing effect of single-ligand occupancy, but the mechanistic link between the two is not explained.
+  - **Why it matters** Binding free energy calculations are notoriously sensitive to method choice and sampling. Without error bars, convergence checks, and a clear description of the compared states, the claim of downregulation is not supported. The biological interpretation depends critically on the reliability of these calculations.
+  - **Resolution test** Specify the free energy method, the end states compared, the error estimates, and the convergence evidence. Provide a clear definition of allosteric pathway disruption with a quantitative metric. Show that the effect is robust across methods or replicas.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the stochastic model reveals ligand-specific allosteric activation predominantly drives gene expression and that the system maintains ordered transcriptional response despite noisy intermediate dynamics
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The stochastic modeling framework is described only in general terms. No equations, parameter values, or fitting procedures are given. It is unclear how MD-derived data were mapped to model parameters, what the model variables represent, how noise was modeled, and how the claim of "ordered transcriptional response" was quantified. The phrase "minimal mRNA production through a balance between synthesis and degradation" is vague and could describe almost any stochastic gene expression model.
+  - **Why it matters** The central contribution of the paper is the integration of MD and stochastic modeling. If the stochastic model is not described with sufficient detail, the reader cannot assess whether the conclusions follow from the model or are imposed by its construction. The claim of ordered output despite noise is only meaningful if the noise and the output measure are precisely defined.
+  - **Resolution test** Provide the full stochastic model, including master equations or reaction schemes, parameter values with sources or fitting procedures, and a definition of the output measure. Show how MD-derived quantities enter the model. Provide quantitative results such as distributions, autocorrelations, or sensitivity analyses that support the claim of ordered response.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "ligand-induced downregulation mechanism" is used without specifying which ligand, which receptor state, or how this relates to the known pharmacology of RXR and RAR ligands. The abstract also uses "allosteric activation" and "allosteric signaling" without defining the distinction.
+  - **Required correction** Define the ligands and receptor states explicitly. Clarify whether "allosteric activation" refers to a specific conformational state or a general property.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model parameters
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not indicate whether the stochastic model parameters were derived from the MD simulations, from experimental data, or from assumptions. This affects the interpretability of the results.
+  - **Required correction** State the origin of model parameters and, if fitted, the data used for fitting.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalization claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract claims the framework can explore "principles of NR function and dysfunction" beyond RXR-RAR, but no evidence is provided that the framework generalizes to other NRs.
+  - **Required correction** Soften the generalization claim or provide a brief justification for why the framework is transferable.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient technical detail to assess the validity of the MD simulations, the free energy calculations, or the stochastic model. Without these, the central claims are not verifiable.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the integration of MD and stochastic modeling for nuclear receptor regulation is not common. Scientific importance is potentially high given the biological relevance of RXR-RAR, but the importance is not demonstrated from the abstract alone. Interdisciplinary readership is plausible, as the work spans biophysics and systems biology, but the abstract does not clearly explain the methods for a nonspecialist. Technical soundness cannot be assessed from the supplied material. Readability for nonspecialists is acceptable at the abstract level, though some terms are used without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The direction is promising and the conceptual framework is attractive, but the abstract does not provide enough detail to evaluate the technical validity of the simulations or the stochastic model. A full manuscript with methods, quantitative results, and validation would be required to assess whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim that dimerization precedes DNA binding is unsupported without quantitative evidence from the simulations.
+- The claim of ligand-induced downregulation via allosteric pathway disruption is unsupported without details of the free energy calculations and pathway analysis.
+- The claim that the stochastic model reveals ligand-specific allosteric activation as the dominant driver of gene expression is unsupported without model equations and parameter values.
+- The claim of "ordered transcriptional response despite noisy intermediate dynamics" is not quantifiable from the abstract.
+- The generalization claim to other nuclear receptors is unsupported.

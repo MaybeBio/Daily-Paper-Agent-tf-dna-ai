@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "41001761",
+    "doi": "10.1096/fj.202501934RR",
+    "title": "Age-Specific Biomarkers TREM1 and KLF4 in Ischemic Stroke: From Transcriptomic Discovery to Therapeutic Drug Screening."
+  },
+  "content": {
+    "abstract": "Ischemic stroke (IS) is increasingly common among younger and middle-aged individuals aged 18-60 years, who exhibit different clinical profiles from older patients. This study aimed to identify key candidate genes associated with the risk of IS in younger individuals. In this study, we sourced IS datasets from GEO, conducted functional enrichment analysis, and used WGCNA to identify core gene modules, intersecting them with differentially expressed genes (DEGs) for candidate biomarkers. A logistic regression model evaluated these genes' diagnostic performance, validated through transient middle cerebral artery occlusion (tMCAO) murine models. Immune infiltration analyses characterized the immune profile of IS, while molecular docking assessed drug-target interactions with DeltaG </= -7 kcal/mol. TREM1 and KLF4 are identified as key biomarkers for IS in younger and middle-aged individuals, confirmed by a tMCAO mouse model showing elevated expression linked to neurobehavioral outcomes. Molecular docking revealed curcumin's Vina score of -7.0 kcal/mol with TREM1, while calcitriol, nimesulide, and triptonide showed strong interactions with KLF4, scoring -8.2, -7.0, and -7.2 kcal/mol, respectively. This study highlights the importance of age-specific strategies for IS and identifies TREM1 and KLF4 as promising dual-purpose biomarkers for diagnosis and therapy, enhancing prognostic assessments and outcomes for younger patients.",
+    "keywords": [
+      "KLF4",
+      "TREM1",
+      "immune infiltration",
+      "ischemic stroke",
+      "molecular docking",
+      "young and middle-aged adults"
+    ],
+    "mesh_terms": [
+      "*Triggering Receptor Expressed on Myeloid Cells-1/genetics/metabolism",
+      "Kruppel-Like Factor 4",
+      "Animals",
+      "Humans",
+      "Mice",
+      "Middle Aged",
+      "Biomarkers/metabolism",
+      "Adult",
+      "Male",
+      "*Ischemic Stroke/genetics/drug therapy/metabolism",
+      "Molecular Docking Simulation",
+      "Female",
+      "*Transcriptome",
+      "*Kruppel-Like Transcription Factors/genetics/metabolism",
+      "Young Adult",
+      "Adolescent",
+      "Age Factors",
+      "Drug Evaluation, Preclinical",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Xin",
+        "Bi, Junlin",
+        "Chen, Huayan",
+        "Wang, Yan",
+        "Li, Yuxin",
+        "Huang, Dong",
+        "Ma, Xiaoli",
+        "Cai, Weiming",
+        "Jiang, Dongbo",
+        "Guan, Tangming"
+      ],
+      "short_names": [
+        "Zhou X",
+        "Bi J",
+        "Chen H",
+        "Wang Y",
+        "Li Y",
+        "Huang D",
+        "Ma X",
+        "Cai W",
+        "Jiang D",
+        "Guan T"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-2709-5626",
+        "ORCID: 0000-0002-4617-8221"
+      ],
+      "affiliations": [
+        "School of Chemistry and Environmental Science, Guangdong Ocean University, Zhanjiang, China.",
+        "School of Chemistry and Environmental Science, Guangdong Ocean University, Zhanjiang, China.",
+        "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Xin",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0009-0000-2709-5626"
+        ],
+        "affiliations": [
+          "School of Chemistry and Environmental Science, Guangdong Ocean University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Junlin",
+        "short_name": "Bi J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Environmental Science, Guangdong Ocean University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Huayan",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuxin",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Dong",
+        "short_name": "Huang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaoli",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Weiming",
+        "short_name": "Cai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Dongbo",
+        "short_name": "Jiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Tangming",
+        "short_name": "Guan T",
+        "identifiers": [
+          "0000-0002-4617-8221"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
+    ],
+    "journal_abbrev": [
+      "FASEB J"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 12:32",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "41898515",
+      "41772312"
+    ],
+    "refs": [],
+    "similar": [
+      "41001761",
+      "39295860",
+      "40830888",
+      "41354822",
+      "40207230",
+      "41029687",
+      "41214111",
+      "32264912",
+      "41055763",
+      "40085348",
+      "38468280",
+      "39432926",
+      "40313968",
+      "38442472",
+      "40362275",
+      "40302336",
+      "39557151",
+      "31263278",
+      "39478056",
+      "32765489",
+      "38052584",
+      "40551711",
+      "36823628",
+      "40681605",
+      "39094542",
+      "41052072",
+      "40087350",
+      "40186271",
+      "41384025",
+      "33525982",
+      "40967029",
+      "40261608",
+      "40532306",
+      "39663269",
+      "39519316",
+      "38539014",
+      "33649843",
+      "38320734",
+      "40972264",
+      "41177238",
+      "41394801",
+      "40406126",
+      "39732743",
+      "40107980",
+      "40747675",
+      "40849856",
+      "38370418",
+      "40953791",
+      "40929101",
+      "38050264",
+      "40977739",
+      "39661286",
+      "40263690",
+      "40119397",
+      "39815902",
+      "39862324",
+      "32575718",
+      "40640934",
+      "40677705",
+      "33608506",
+      "37651197",
+      "34339680",
+      "39217343",
+      "41479901",
+      "31426806",
+      "41496131",
+      "38971104",
+      "39799743",
+      "27328755",
+      "41195206",
+      "39346547",
+      "39806309",
+      "37379371",
+      "41299803",
+      "40340571",
+      "34860175",
+      "39041609",
+      "40091022",
+      "40374840",
+      "41021615",
+      "30685385",
+      "39325100",
+      "40777016",
+      "22677193",
+      "39821443",
+      "39984674",
+      "41388523",
+      "36627660",
+      "33664852",
+      "40124361",
+      "38954352",
+      "38532151",
+      "38062810",
+      "37572732",
+      "41316541",
+      "39235608",
+      "40916281",
+      "41291461",
+      "39326825",
+      "29203245"
+    ],
+    "review": [
+      "41001761"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://doi.org/10.1096/fj.202501934RR",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

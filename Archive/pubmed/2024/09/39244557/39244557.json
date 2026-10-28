@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "39244557",
+    "doi": "10.1038/s41467-024-52293-7",
+    "title": "Improving prediction performance of general protein language model by domain-adaptive pretraining on DNA-binding protein."
+  },
+  "content": {
+    "abstract": "DNA-protein interactions exert the fundamental structure of many pivotal biological processes, such as DNA replication, transcription, and gene regulation. However, accurate and efficient computational methods for identifying these interactions are still lacking. In this study, we propose a method ESM-DBP through refining the DNA-binding protein sequence repertory and domain-adaptive pretraining based the general protein language model. Our method considers the lacking exploration of general language model for DNA-binding protein domain-specific knowledge, so we screen out 170,264 DNA-binding protein sequences to construct the domain-adaptive language model. Experimental results on four downstream tasks show that ESM-DBP provides a better feature representation of DNA-binding protein compared to the original language model, resulting in improved prediction performance and outperforming the state-of-the-art methods. Moreover, ESM-DBP can still perform well even for those sequences with only a few homologous sequences. ChIP-seq on two predicted cases further support the validity of the proposed method.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/metabolism",
+      "Computational Biology/methods",
+      "Protein Domains",
+      "Humans",
+      "DNA/metabolism/chemistry",
+      "Protein Binding",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Wenwu",
+        "Dou, Yutao",
+        "Pan, Liangrui",
+        "Xu, Liwen",
+        "Peng, Shaoliang"
+      ],
+      "short_names": [
+        "Zeng W",
+        "Dou Y",
+        "Pan L",
+        "Xu L",
+        "Peng S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9990-690X",
+        "ORCID: 0000-0003-0565-4217",
+        "ORCID: 0009-0009-4463-093X",
+        "ORCID: 0000-0002-4647-2615"
+      ],
+      "affiliations": [
+        "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China.",
+        "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China.",
+        "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China.",
+        "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China. xuliwen@hnu.edu.cn.",
+        "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China. slpeng@hnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Wenwu",
+        "short_name": "Zeng W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Yutao",
+        "short_name": "Dou Y",
+        "identifiers": [
+          "0000-0001-9990-690X"
+        ],
+        "affiliations": [
+          "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Liangrui",
+        "short_name": "Pan L",
+        "identifiers": [
+          "0000-0003-0565-4217"
+        ],
+        "affiliations": [
+          "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Liwen",
+        "short_name": "Xu L",
+        "identifiers": [
+          "0009-0009-4463-093X"
+        ],
+        "affiliations": [
+          "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China. xuliwen@hnu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Peng, Shaoliang",
+        "short_name": "Peng S",
+        "identifiers": [
+          "0000-0002-4647-2615"
+        ],
+        "affiliations": [
+          "College of Computer Science and Electronic Engineering, Hunan University, Changsha, 410082, China. slpeng@hnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Sep 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/08 13:50",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "42504034",
+      "42217191",
+      "42100742",
+      "42099803",
+      "41609921",
+      "41566208",
+      "41530646",
+      "41501135",
+      "41422091",
+      "41359543",
+      "41286535",
+      "41283681",
+      "41258076",
+      "41114728",
+      "41045511",
+      "41022741",
+      "40894645",
+      "40777465",
+      "40628826",
+      "40601248",
+      "40439671",
+      "40391089",
+      "40149418",
+      "39995900",
+      "39989760"
+    ],
+    "refs": [
+      "38281252",
+      "38177395",
+      "37996753",
+      "37845349",
+      "37116493",
+      "37095349",
+      "36927031",
+      "36859185",
+      "36774964",
+      "36727436",
+      "36719781",
+      "36702895",
+      "36634135",
+      "36629262",
+      "36192636",
+      "36124796",
+      "36044786",
+      "35896542",
+      "34853466",
+      "34303077",
+      "34282049",
+      "34265844",
+      "34232869",
+      "33876751",
+      "33757492",
+      "33689703",
+      "33577689",
+      "33410688",
+      "33372147",
+      "33294291",
+      "32920048",
+      "31267738",
+      "30943723",
+      "29425488",
+      "29276034",
+      "29097781",
+      "28132027",
+      "27899574",
+      "26109352",
+      "25593323",
+      "25398609",
+      "25347744",
+      "24670762",
+      "24441044",
+      "23060610",
+      "22803940",
+      "22322295",
+      "21311766",
+      "21185866",
+      "20739543",
+      "19736561",
+      "19034268",
+      "18798982",
+      "12547427",
+      "11684024",
+      "9254694",
+      "8610125"
+    ],
+    "similar": [
+      "39244557",
+      "41172803",
+      "41168713",
+      "42348910",
+      "39357703",
+      "29753757",
+      "42099803",
+      "28841194",
+      "41791267",
+      "22312425",
+      "39270885",
+      "30598073",
+      "23912807",
+      "34073774",
+      "40439671",
+      "33837387",
+      "40209920",
+      "24448651",
+      "35709747",
+      "39214282",
+      "41020638",
+      "38812466",
+      "42636031",
+      "42475469",
+      "25756377",
+      "38975896",
+      "41045511",
+      "36136096",
+      "33780341",
+      "32946833",
+      "35652477",
+      "32920048",
+      "29182548",
+      "26527718",
+      "24475169",
+      "19008251",
+      "38986796",
+      "39456153",
+      "32689927",
+      "22952610",
+      "32023130",
+      "19091029",
+      "40601263",
+      "31888057",
+      "35652719",
+      "34517213",
+      "19911048",
+      "42227990",
+      "38927611",
+      "28937647",
+      "22868682",
+      "37249398",
+      "36719781",
+      "28334224",
+      "25708928",
+      "31896348",
+      "40362469",
+      "39833102",
+      "33238837",
+      "30668479",
+      "42412843",
+      "15478601",
+      "30717470",
+      "38491248",
+      "40919912",
+      "40601256",
+      "41290782",
+      "18922190",
+      "27654939",
+      "38679191",
+      "39121938",
+      "41566703",
+      "16246914",
+      "35447463",
+      "41257586",
+      "40811271",
+      "39657630",
+      "40102719",
+      "27084358",
+      "35799660",
+      "12101404",
+      "17900341",
+      "38127815",
+      "28606086",
+      "25521807",
+      "40848288",
+      "33522829",
+      "21193520",
+      "38237792",
+      "19008249",
+      "19956545",
+      "38486135",
+      "38830995",
+      "24974204",
+      "38171929",
+      "25240115",
+      "19105805",
+      "41977286",
+      "29380690",
+      "20838582"
+    ],
+    "review": [
+      "39244557",
+      "40209920",
+      "25756377",
+      "35652477"
+    ],
+    "pmc": [
+      "11380688"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-52293-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39244557/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "40025145",
+    "doi": "10.1038/s41598-025-91875-3",
+    "title": "Screening of common genomic biomarkers to explore common drugs for the treatment of pancreatic and kidney cancers with type-2 diabetes through bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Type 2 diabetes (T2D) is a crucial risk factor for both pancreatic cancer (PC) and kidney cancer (KC). However, effective common drugs for treating PC and/or KC patients who are also suffering from T2D are currently lacking, despite the probability of their co-occurrence. Taking disease-specific multiple drugs during the co-existence of multiple diseases may lead to adverse side effects or toxicity to the patients due to drug-drug interactions. This study aimed to identify T2D-, PC and KC-causing common genomic biomarkers (cGBs) highlighting their pathogenetic mechanisms to explore effective drugs as their common treatment. We analyzed transcriptomic profile datasets, applying weighted gene co-expression network analysis (WGCNA) and protein-protein interaction (PPI) network analysis approaches to identify T2D-, PC-, and KC-causing cGBs. We then disclosed common pathogenetic mechanisms through gene ontology (GO) terms, KEGG pathways, regulatory networks, and DNA methylation of these cGBs. Initially, we identified 78 common differentially expressed genes (cDEGs) that could distinguish T2D, PC, and KC samples from controls based on their transcriptomic profiles. From these, six top-ranked cDEGs (TOP2A, BIRC5, RRM2, ALB, MUC1, and E2F7) were selected as cGBs and considered targets for exploring common drug molecules for each of three diseases. Functional enrichment analyses, including GO terms, KEGG pathways, and regulatory network analyses involving transcription factors (TFs) and microRNAs, along with DNA methylation and immune infiltration studies, revealed critical common molecular mechanisms linked to PC, KC, and T2D. Finally, we identified six top-ranked drug molecules (NVP.BHG712, Irinotecan, Olaparib, Imatinib, RG-4733, and Linsitinib) as potential common treatments for PC, KC and T2D during their co-existence, supported by the literature reviews. Thus, this bioinformatics study provides valuable insights and resources for developing a genome-guided common treatment strategy for PC and/or KC patients who are also suffering from T2D.",
+    "keywords": [
+      "Common drugs and toxicity",
+      "Genetic association",
+      "Kidney and pancreatic cancers",
+      "Statistics and bioinformatics analysis",
+      "Transcriptomics profiles and shared key genes",
+      "Type-2 diabetes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetes Mellitus, Type 2/genetics/complications/drug therapy",
+      "*Pancreatic Neoplasms/genetics/drug therapy/complications",
+      "*Computational Biology/methods",
+      "*Kidney Neoplasms/genetics/drug therapy/complications",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps",
+      "DNA Methylation",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Genomics/methods",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ajadee, Alvira",
+        "Mahmud, Sabkat",
+        "Sarkar, Arnob",
+        "Noor, Tasfia",
+        "Ahmmed, Reaz",
+        "Haque Mollah, Md Nurul"
+      ],
+      "short_names": [
+        "Ajadee A",
+        "Mahmud S",
+        "Sarkar A",
+        "Noor T",
+        "Ahmmed R",
+        "Haque Mollah MN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+        "Department of Biochemistry & Molecular Biology, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+        "Department of Computer Science and Engineering, Rajshahi University of Engineering & Technology (RUET), Rajshahi, 6204, Bangladesh.",
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+        "Department of Biochemistry & Molecular Biology, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh. mollah.stat.bio@ru.ac.bd."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ajadee, Alvira",
+        "short_name": "Ajadee A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mahmud, Sabkat",
+        "short_name": "Mahmud S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sarkar, Arnob",
+        "short_name": "Sarkar A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+          "Department of Biochemistry & Molecular Biology, University of Rajshahi, Rajshahi, 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Noor, Tasfia",
+        "short_name": "Noor T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Rajshahi University of Engineering & Technology (RUET), Rajshahi, 6204, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmmed, Reaz",
+        "short_name": "Ahmmed R",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+          "Department of Biochemistry & Molecular Biology, University of Rajshahi, Rajshahi, 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Haque Mollah, Md Nurul",
+        "short_name": "Haque Mollah MN",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, 6205, Bangladesh. mollah.stat.bio@ru.ac.bd."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/03 00:56",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "41648754",
+      "41419874",
+      "40834023",
+      "40370100"
+    ],
+    "refs": [
+      "39528802",
+      "39348357",
+      "39160196",
+      "38111129",
+      "37927470",
+      "37337890",
+      "36991484",
+      "36900162",
+      "36859359",
+      "36502691",
+      "36475012",
+      "36384875",
+      "36131205",
+      "35994213",
+      "35819037",
+      "35632527",
+      "35617355",
+      "35327392",
+      "35257412",
+      "35227296",
+      "35050739",
+      "35018236",
+      "34883189",
+      "34799547",
+      "34791371",
+      "34591244",
+      "34539726",
+      "34439921",
+      "34207342",
+      "34020401",
+      "33539225",
+      "33446693",
+      "33153234",
+      "32616613",
+      "32398667",
+      "32371554",
+      "32110079",
+      "32056163",
+      "31907647",
+      "31680165",
+      "31632137",
+      "31627266",
+      "31591054",
+      "31114875",
+      "30956117",
+      "30649699",
+      "30371825",
+      "30214555",
+      "29805645",
+      "29678810",
+      "29559845",
+      "29458351",
+      "29264942",
+      "29161433",
+      "29045811",
+      "28919082",
+      "28749461",
+      "28454122",
+      "28326532",
+      "28256516",
+      "28052097",
+      "27405474",
+      "27278686",
+      "26769127",
+      "26196247",
+      "25860834",
+      "25795408",
+      "25521941",
+      "25501064",
+      "25373319",
+      "25230694",
+      "24981612",
+      "24931804",
+      "24840647",
+      "24786211",
+      "24667139",
+      "23936393",
+      "23335963",
+      "22870272",
+      "22839452",
+      "22683710",
+      "20803239",
+      "20554718",
+      "19499576",
+      "19465387",
+      "19114008",
+      "19029956",
+      "18698017",
+      "18048412",
+      "17275177",
+      "16380835",
+      "16373484",
+      "16096348",
+      "15925010",
+      "15591335",
+      "14714254",
+      "14597658",
+      "12490959",
+      "12037327",
+      "12032073",
+      "11742409",
+      "10802651"
+    ],
+    "similar": [
+      "40025145",
+      "40127075",
+      "39160196",
+      "36502691",
+      "39348357",
+      "39176085",
+      "36991484",
+      "32041280",
+      "39375405",
+      "39093763",
+      "36484959",
+      "31987036",
+      "35409328",
+      "37893423",
+      "37949208",
+      "31731384",
+      "29620215",
+      "38863714",
+      "31230062",
+      "35617355",
+      "39454454",
+      "39086489",
+      "30365134",
+      "29705125",
+      "32241274",
+      "30519576",
+      "35432196",
+      "38904678",
+      "36852684",
+      "34553293",
+      "36061357",
+      "32853947",
+      "38937666",
+      "39433858",
+      "31081184",
+      "36786134",
+      "30132538",
+      "24307251",
+      "39639217",
+      "33813720",
+      "35016690",
+      "32537471",
+      "33217867",
+      "39145311",
+      "31297881",
+      "32546690",
+      "38324544",
+      "30639415",
+      "36854280",
+      "38319987",
+      "39586719",
+      "34825846",
+      "32598242",
+      "39351239",
+      "39107295",
+      "39764737",
+      "35104421",
+      "39142001",
+      "31043166",
+      "38886539",
+      "30213925",
+      "39118438",
+      "36599457",
+      "31794546",
+      "36527108",
+      "37534476",
+      "39961942",
+      "32048869",
+      "29845250",
+      "31390578",
+      "35242109",
+      "33302814",
+      "40289127",
+      "38660311",
+      "39080525",
+      "25409614",
+      "30825595",
+      "30952707",
+      "35172670",
+      "32337286",
+      "31422942",
+      "39395559",
+      "32598174",
+      "40108736",
+      "34449964",
+      "40087784",
+      "35558576",
+      "34734085",
+      "38736878",
+      "30633213",
+      "39496786",
+      "39749331",
+      "34358255",
+      "34390411",
+      "32597160",
+      "34321959",
+      "38899746",
+      "34215202",
+      "31341364",
+      "30336538"
+    ],
+    "review": [
+      "40025145",
+      "38324544"
+    ],
+    "pmc": [
+      "11873208"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-91875-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40025145/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MUC1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1160",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

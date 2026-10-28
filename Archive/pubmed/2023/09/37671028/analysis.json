@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37671028",
+  "title": "Single-cell multi-omics topic embedding reveals cell-type-specific and COVID-19 severity-related immune signatures.",
+  "authors": "Zhou, Manqi; Zhang, Hao; Bai, Zilong; Mann-Krzisnik, Dylan; Wang, Fei; Li, Yue",
+  "journal": "Cell reports methods",
+  "published_date": "2023-09-06",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出单细胞多组学深度学习方法moETM，用于整合scRNA和scATAC数据并识别免疫相关转录因子基序，但核心是单细胞多组学整合与疾病标志物，非蛋白质-DNA互作建模，仅间接涉及TF基序，与本课题关联弱。",
+  "abstract": "The advent of single-cell multi-omics sequencing technology makes it possible for researchers to leverage multiple modalities for individual cells and explore cell heterogeneity. However, the high-dimensional, discrete, and sparse nature of the data make the downstream analysis particularly challenging. Here, we propose an interpretable deep learning method called moETM to perform integrative analysis of high-dimensional single-cell multimodal data. moETM integrates multiple omics data via a product-of-experts in the encoder and employs multiple linear decoders to learn the multi-omics signatures. moETM demonstrates superior performance compared with six state-of-the-art methods on seven publicly available datasets. By applying moETM to the scRNA + scATAC data, we identified sequence motifs corresponding to the transcription factors regulating immune gene signatures. Applying moETM to CITE-seq data from the COVID-19 patients revealed not only known immune cell-type-specific signatures but also composite multi-omics biomarkers of critical conditions due to COVID-19, thus providing insights from both biological and clinical perspectives.",
+  "abstract_zh": "单细胞多组学测序技术的出现，使研究人员能够利用单个细胞的多种模态信息来探索细胞异质性。然而，数据的高维性、离散性和稀疏性使得下游分析尤为具有挑战性。在此，我们提出一种可解释的深度学习方法，称为moETM，用于对高维单细胞多模态数据进行整合分析。moETM通过编码器中的专家乘积（product-of-experts）整合多种组学数据，并采用多个线性解码器来学习多组学特征。在七个公开数据集上，moETM相较于六种最先进方法展现出更优的性能。将moETM应用于scRNA + scATAC数据，我们识别出与调控免疫基因特征的转录因子相对应的序列基序。将moETM应用于来自COVID-19患者的CITE-seq数据，不仅揭示了已知的免疫细胞类型特异性特征，还发现了COVID-19危重情况的复合多组学生物标志物，从而从生物学和临床角度提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37671028/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37671028/",
+  "paper_page_path": "papers/pubmed/37671028/index.html"
+}

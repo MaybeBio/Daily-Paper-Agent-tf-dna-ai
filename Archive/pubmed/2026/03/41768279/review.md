@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, sections 2-5, author contributions, conflict of interest statement)
+- **Assessment boundary** Scientific content, technical accuracy, completeness of survey coverage, internal consistency, and support for stated claims
+- **Shared manuscript claim summary** The manuscript presents a survey of deep learning methods applied to regulatory genomics, covering model architectures (CNNs, RNNs, transformers, GNNs), predictive tasks (transcription factor binding, chromatin accessibility, splicing, polyadenylation, mRNA localisation, miRNA-mRNA interactions, RNA-protein interactions), and discusses challenges including overfitting, data scarcity, and biological variability. It also references recent foundation models (AlphaGenome, GeneFormer2) and workflow tools (Nextflow, Snakemake, Mars).
+- **Visible evidence base** Full text of the manuscript as provided, including abstract, introduction, sections 2-5, and author contributions. No figures, tables, or supplementary material were available for inspection.
+- **Missing materials affecting confidence** Figures 1 and 2, Tables 1-4, and Supplementary Material are referenced but not provided. This limits verification of comparative performance claims and methodological summaries.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a broad, readable overview of deep learning applications in regulatory genomics. The scope is appropriate for a survey, and the authors cover a reasonable range of model types and tasks. However, the manuscript suffers from several structural and technical weaknesses. The organisation is inconsistent, with some sections repeating content and others introducing topics without clear transitions. Several claims are made without adequate citation or evidence, and the treatment of recent foundation models is superficial. The discussion of challenges is generic and does not offer novel synthesis or critical evaluation. The manuscript would benefit from substantial revision to improve clarity, depth, and scholarly rigour.
+- **Who would be interested in the results, and why** Early-career researchers and graduate students entering the field of regulatory genomics who seek a high-level orientation to deep learning methods and their applications. Computational biologists looking for a quick reference on model types and tasks may also find value. However, the lack of depth and critical analysis limits its usefulness for specialists or for researchers seeking guidance on method selection.
+- **Major strengths** The manuscript covers a wide range of topics, from model architectures to specific predictive tasks, providing a useful entry point for newcomers. The inclusion of recent developments (2025) such as AlphaGenome and GeneFormer2 is timely. The discussion of interpretability, though brief, points to important directions in the field.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "As of 2025, the field has shifted toward foundation-scale, multimodal architectures such as AlphaGenome (Avsec et al. 2025), which unify genomic, epigenomic, and transcriptomic data within a single deep learning framework."
+  - **Evidence pointer** Section 1, Introduction; location not provided
+  - **Concern** The claim about AlphaGenome is presented as a definitive statement about the state of the field, but no details are provided about the model architecture, training data, performance benchmarks, or how it compares to other foundation models. The citation (Avsec et al. 2025) is not verifiable from the provided material, and the claim that the field has "shifted" is an overgeneralisation without supporting evidence.
+  - **Why it matters** A survey should accurately represent the current state of the field. Unsupported claims about specific models undermine the credibility of the manuscript and may mislead readers who rely on it for orientation.
+  - **Resolution test** Provide a detailed description of AlphaGenome's architecture and capabilities, cite verifiable sources, and qualify the claim to reflect the diversity of approaches in the field rather than asserting a singular shift.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "GraphReg... enables this method to perform better than sequence-only CNN models like Basenji on tasks requiring 3D context."
+  - **Evidence pointer** Section 2, Neural networks used in gene regulation case studies; location not provided
+  - **Concern** The sentence is duplicated verbatim within the same paragraph, indicating a copy-paste error. Additionally, the claim of superior performance is made without presenting specific performance metrics, evaluation protocols, or datasets used for comparison.
+  - **Why it matters** Duplicated text suggests insufficient proofreading and undermines the professional quality of the manuscript. The performance claim, if not substantiated, is misleading.
+  - **Resolution test** Remove the duplicated sentence. Provide quantitative comparisons (e.g., AUROC, correlation coefficients) from the original GraphReg publication or clearly state that the claim is qualitative and cite the source.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims to provide "a comprehensive overview of deep learning applications in gene regulation research using diverse omics data."
+  - **Evidence pointer** Section 1, Introduction; location not provided
+  - **Concern** The survey is not comprehensive. It omits several important areas, including deep learning for enhancer-promoter interaction prediction beyond GraphReg, single-cell regulatory genomics (e.g., scATAC-seq models), and the growing literature on interpretability methods (e.g., attribution maps, in silico mutagenesis) beyond brief mentions. The treatment of challenges (Section 4.8) is generic and does not engage with specific technical solutions proposed in the literature.
+  - **Why it matters** A survey that claims comprehensiveness but omits key areas will mislead readers about the landscape of the field and reduce the manuscript's utility as a reference.
+  - **Resolution test** Expand the survey to include additional model types and tasks, or revise the claim to reflect a more focused scope. Add a section on interpretability methods and discuss specific challenges with reference to proposed solutions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "Table 4 summarizes comparative performance metrics reported across representative deep learning models for genomic prediction tasks."
+  - **Evidence pointer** Section 4.8, Limitations of existing deep-learning applications in gene regulation; location not provided
+  - **Concern** Table 4 is referenced but not provided. Without the table, the reader cannot evaluate the comparative performance claims. Moreover, the placement of this table within a section on limitations is conceptually confusing, as it appears to present performance benchmarks rather than limitations.
+  - **Why it matters** Referencing a table that is not available makes the manuscript incomplete and the claims unverifiable. The organisational logic of the section is unclear.
+  - **Resolution test** Provide Table 4 with clear captions and sources. Reorganise the section so that performance benchmarks are presented in a dedicated results or discussion subsection, separate from limitations.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript states that "regulatory grammar (i.e. interactions between sequence motifs) parallels linguistic structure, enabling deep learning to model complex regulatory codes."
+  - **Evidence pointer** Section 1, Introduction; location not provided
+  - **Concern** The analogy between regulatory grammar and linguistic structure is introduced without explanation. Nonspecialist readers may not understand what "regulatory grammar" means or how it parallels language. The sentence is also not cited, leaving the reader without a reference for this conceptual claim.
+  - **Why it matters** A survey aimed at a broad audience should explain key concepts clearly. Unexplained jargon and unsupported analogies reduce accessibility.
+  - **Resolution test** Provide a brief explanation of regulatory grammar with a concrete example (e.g., motif combinations that resemble syntax) and cite relevant literature.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2, Neural networks used in gene regulation case studies
+  - **Evidence pointer** Section 2; location not provided
+  - **Issue** The section introduces CNNs, RNNs, and GNNs but does not provide a clear comparison of their relative strengths and weaknesses for genomic tasks. The transition from CNNs to transformers to GNNs is abrupt.
+  - **Required correction** Add a summary paragraph comparing model types, including when each is most appropriate, with reference to specific tasks.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3, Genomics in gene regulation case studies
+  - **Evidence pointer** Section 3; location not provided
+  - **Issue** The description of DeepSEA contains a grammatical error: "Deepsea predicts DNase I hypersensitivity (DHS), transcription factor TF binding, and histone modifications" should read "DeepSEA predicts DNase I hypersensitivity (DHS), transcription factor (TF) binding, and histone modifications."
+  - **Required correction** Correct the typo and ensure consistent naming of the model (DeepSEA, not Deepsea).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 4.8, Limitations of existing deep-learning applications in gene regulation
+  - **Evidence pointer** Section 4.8; location not provided
+  - **Issue** The section lists challenges but does not discuss potential solutions or future directions in any detail. The final sentence "Addressing these limitations will be essential..." is vague.
+  - **Required correction** Expand the discussion to include specific strategies (e.g., data augmentation, transfer learning, uncertainty quantification) and cite examples from the literature.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 5, Discussion
+  - **Evidence pointer** Section 5; location not provided
+  - **Issue** The discussion of workflow tools (Nextflow, Snakemake, Mars) is tangential to the main topic of deep learning for regulatory genomics. It is unclear why these tools are included and how they relate to the survey's focus.
+  - **Required correction** Either remove this paragraph or integrate it into a broader discussion of reproducibility challenges in deep learning for genomics, with a clear connection to the survey's themes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.4, Polyadenylation and PAS prediction
+  - **Evidence pointer** Section 4.4; location not provided
+  - **Issue** The term "Bilstm" should be "BiLSTM" (bidirectional long short-term memory). Inconsistent capitalisation of model names appears throughout the manuscript.
+  - **Required correction** Standardise model name formatting (e.g., BiLSTM, CNN, GNN) throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unsupported claim about AlphaGenome), R1-M2 (duplicated text and unsubstantiated performance claim), R1-M4 (missing Table 4), R1-M5 (unexplained analogy). These issues must be resolved before the manuscript can be considered reliable.
+
+## Risk / unsupported claims
+- The claim that "the field has shifted toward foundation-scale, multimodal architectures" (Section 1) is unsupported by evidence presented in the manuscript.
+- The claim that GraphReg "perform[s] better than sequence-only CNN models like Basenji" (Section 2) is made without quantitative data.
+- The claim that the survey is "comprehensive" (Section 1) is not supported by the coverage provided.
+- The reference to "Table 4" (Section 4.8) is unverifiable as the table is not provided.
+- The statement that "regulatory grammar... parallels linguistic structure" (Section 1) is an unsupported conceptual claim without citation.

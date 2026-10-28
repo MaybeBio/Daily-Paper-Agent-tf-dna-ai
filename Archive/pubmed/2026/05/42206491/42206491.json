@@ -1,0 +1,498 @@
+{
+  "identity": {
+    "pmid": "42206491",
+    "doi": "10.1016/j.gim.2026.102614",
+    "title": "Multimodal genotype-phenotype analysis in SMARCB1-associated developmental disorders."
+  },
+  "content": {
+    "abstract": "PURPOSE: Variants in SMARCB1, encoding a core subunit of the BAF (ie, BRG/BRM-associated factor) chromatin remodeling complex, are associated with intellectual developmental disorders, particularly Coffin-Siris syndrome, although the genotype-phenotype spectrum remains incompletely defined. This study aims to assess the correlations between SMARCB1 variant location and phenotypic manifestations. METHODS: We analyzed 31 individuals with pathogenic or likely pathogenic SMARCB1 variants using multimodal approaches, integrating clinical, structural, and machine learning analyses. We predicted variant effects via 3-dimensional protein modeling, assessed facial similarity using GestaltMatcher, and conducted phenotype-driven genotype prediction using machine learning classifiers. RESULTS: Variants clustered within the N-terminal (winged-helix/SNF5) and C-terminal (alphaC-helix) regions. C-terminal Coffin-Siris syndrome variants were associated with more severe speech delay, microcephaly, and cleft palate, exhibiting stronger facial gestalt similarity. XGBoost achieved 96.7% accuracy in classifying variant location from phenotype alone. Although gestalt is a key feature delineating variants at the alphaC helix, overall clinical features have greater predictive power for N-terminal variants. CONCLUSION: Using detailed phenotyping and machine learning algorithms, we identified differences between individuals with N-terminus and C-terminus SMARCB1 variants. Our study underscored the importance of multimodal assessments for genotype-phenotype associations, suggesting that integrated modeling can provide insights into SMARCB1 variant effects and biological function, with the potential for improvement in diagnostic strategies.",
+    "keywords": [
+      "BAF SWI/SNF complex",
+      "Coffin-Siris syndrome",
+      "Genotype-phenotype correlations",
+      "Machine learning",
+      "SMARCB1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*SMARCB1 Protein/genetics/metabolism",
+      "*Neck/abnormalities/physiopathology/pathology",
+      "*Micrognathism/genetics",
+      "Genetic Association Studies/methods",
+      "Female",
+      "*Intellectual Disability/genetics",
+      "*Abnormalities, Multiple/genetics",
+      "*Hand Deformities, Congenital/genetics",
+      "Child",
+      "Phenotype",
+      "Child, Preschool",
+      "Face/abnormalities",
+      "Male",
+      "Genotype",
+      "Machine Learning",
+      "Microcephaly/genetics",
+      "*Developmental Disabilities/genetics",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saad, Ramy",
+        "Cobolli Gigli, Clementina",
+        "van der Sluijs, Pleuntje J",
+        "Wilson, Jon R",
+        "Hsieh, Tzung-Chien",
+        "McConnell, Vivienne P M",
+        "Bacino, Carlos A",
+        "Bird, Lynne M",
+        "Adam, Shelin",
+        "Clarke, Lorne",
+        "Cobben, Jan M",
+        "Travessa, Andre M",
+        "Faivre, Laurence",
+        "Farholt, Stense",
+        "Gregersen, Pernille A",
+        "van Hasselt, Jos",
+        "Lahiri, Nayana",
+        "Palmer, Elizabeth E",
+        "Sheffer, Ruth",
+        "Clayton-Smith, Jill",
+        "Wilnai, Yael",
+        "Deshpande, Charu",
+        "Morton, Jenny E V",
+        "Clement, Emma",
+        "Santen, Gijs W E",
+        "Dias, Cristina"
+      ],
+      "short_names": [
+        "Saad R",
+        "Cobolli Gigli C",
+        "van der Sluijs PJ",
+        "Wilson JR",
+        "Hsieh TC",
+        "McConnell VPM",
+        "Bacino CA",
+        "Bird LM",
+        "Adam S",
+        "Clarke L",
+        "Cobben JM",
+        "Travessa AM",
+        "Faivre L",
+        "Farholt S",
+        "Gregersen PA",
+        "van Hasselt J",
+        "Lahiri N",
+        "Palmer EE",
+        "Sheffer R",
+        "Clayton-Smith J",
+        "Wilnai Y",
+        "Deshpande C",
+        "Morton JEV",
+        "Clement E",
+        "Santen GWE",
+        "Dias C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Twin Research & Genetic Epidemiology, King's College London, London, United Kingdom; Clinical Genetics Service, Great Ormond Street Hospital for Children NHS Foundation Trust, London, United Kingdom.",
+        "Neural Stem Cell Biology Lab, The Francis Crick Institute, London, United Kingdom; Department of Medical and Molecular Genetics, School of Basic & Medical Biosciences, King's College London, London, United Kingdom.",
+        "Department of Clinical Genetics, Leiden University Medical Center, Leiden, The Netherlands.",
+        "Structural Biology of Disease Processes Laboratory, The Francis Crick Institute, London, United Kingdom.",
+        "Institute for Genomic Statistics and Bioinformatics, University Hospital Bonn, Rheinische Friedrich-Wilhelms-Universitat Bonn, Bonn, Germany.",
+        "Northern Ireland Regional Genetics Service, Belfast City Hospital, Belfast Health & Social Care Trust, Belfast, Northern Ireland, United Kingdom.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Genetics Service, Texas Children's Hospital, Houston, TX.",
+        "Department of Pediatrics, University of California San Diego, Division of Dysmorphology and Genetics, Rady Children's Hospital San Diego, San Diego, CA.",
+        "Department of Medical Genetics and the British Columbia Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Medical Genetics and the British Columbia Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada.",
+        "North West Thames Regional Genetics Service, NHS, Northwick Park & St Mark's Hospitals, London, Harrow, United Kingdom.",
+        "Servico de Genetica Medica, Centro Hospitalar Universitario Lisboa Norte, Hospital de Santa Maria, Lisbon, Portugal.",
+        "Inserm, UMR1231, Equipe GAD, Batiment B3, Universite de Bourgogne Franche Comte, Dijon Cedex, France; Centre de Reference Maladies Rares \"Anomalies du developpement et syndromes malformatifs\", Centre de Genetique, FHU-TRANSLAD et Institut GIMI, CHU Dijon Bourgogne, Dijon, France.",
+        "Department of Clinical Genetics, Centre for Rare Diseases, Aarhus University Hospital, Aarhus, Denmark.",
+        "Pediatrics and Adolescent Medicine, Centre for Rare Diseases, Aarhus University Hospital, Aarhus, Denmark.",
+        "(')s Heeren Loo Zorggroep, Advisium, Ermelo, The Netherlands.",
+        "St George's University Hospitals NHS Foundation Trust & St Georges, University of London, IMBE, London, United Kingdom; Department of Molecular and Biomedical Sciences, City St, University of London, London, United Kingdom.",
+        "Discipline of Paediatrics and Child Health, School of Clinical Medicine, Faculty of Medicine and Health, University of New South Wales, Sydney, NSW, Australia; Centre for Clinical Genetics, Sydney Children's Hospitals Network, Randwick, NSW, Australia.",
+        "Department of Human Genetics, Hadassah University Hospital, Jerusalem, Israel.",
+        "Manchester Centre for Genomic Medicine, Manchester University Hospitals NHS Foundation Trust, Saint Mary's Hospital, Oxford Road, Manchester, United Kingdom.",
+        "Genetic Institute, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel.",
+        "Manchester Centre for Genomic Medicine, Manchester University Hospitals NHS Foundation Trust, Saint Mary's Hospital, Oxford Road, Manchester, United Kingdom; Department of Clinical Genetics, Guy's & St Thomas NHS Foundation Trust, London, United Kingdom.",
+        "West Midlands Regional Clinical Genetics Service and Birmingham Health Partners, Birmingham Women's and Children's Hospitals NHS Foundation Trust, Birmingham, United Kingdom.",
+        "Clinical Genetics Service, Great Ormond Street Hospital for Children NHS Foundation Trust, London, United Kingdom.",
+        "Department of Clinical Genetics, Leiden University Medical Center, Leiden, The Netherlands.",
+        "Clinical Genetics Service, Great Ormond Street Hospital for Children NHS Foundation Trust, London, United Kingdom; Neural Stem Cell Biology Lab, The Francis Crick Institute, London, United Kingdom; Department of Medical and Molecular Genetics, School of Basic & Medical Biosciences, King's College London, London, United Kingdom; Department of Clinical Genetics, Guy's & St Thomas NHS Foundation Trust, London, United Kingdom. Electronic address: cristina.dias@kcl.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saad, Ramy",
+        "short_name": "Saad R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Twin Research & Genetic Epidemiology, King's College London, London, United Kingdom; Clinical Genetics Service, Great Ormond Street Hospital for Children NHS Foundation Trust, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Cobolli Gigli, Clementina",
+        "short_name": "Cobolli Gigli C",
+        "identifiers": [],
+        "affiliations": [
+          "Neural Stem Cell Biology Lab, The Francis Crick Institute, London, United Kingdom; Department of Medical and Molecular Genetics, School of Basic & Medical Biosciences, King's College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "van der Sluijs, Pleuntje J",
+        "short_name": "van der Sluijs PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Leiden University Medical Center, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Wilson, Jon R",
+        "short_name": "Wilson JR",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology of Disease Processes Laboratory, The Francis Crick Institute, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hsieh, Tzung-Chien",
+        "short_name": "Hsieh TC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genomic Statistics and Bioinformatics, University Hospital Bonn, Rheinische Friedrich-Wilhelms-Universität Bonn, Bonn, Germany."
+        ]
+      },
+      {
+        "full_name": "McConnell, Vivienne P M",
+        "short_name": "McConnell VPM",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Ireland Regional Genetics Service, Belfast City Hospital, Belfast Health & Social Care Trust, Belfast, Northern Ireland, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bacino, Carlos A",
+        "short_name": "Bacino CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Genetics Service, Texas Children's Hospital, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Bird, Lynne M",
+        "short_name": "Bird LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California San Diego, Division of Dysmorphology and Genetics, Rady Children's Hospital San Diego, San Diego, CA."
+        ]
+      },
+      {
+        "full_name": "Adam, Shelin",
+        "short_name": "Adam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics and the British Columbia Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Clarke, Lorne",
+        "short_name": "Clarke L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics and the British Columbia Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Cobben, Jan M",
+        "short_name": "Cobben JM",
+        "identifiers": [],
+        "affiliations": [
+          "North West Thames Regional Genetics Service, NHS, Northwick Park & St Mark's Hospitals, London, Harrow, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Travessa, André M",
+        "short_name": "Travessa AM",
+        "identifiers": [],
+        "affiliations": [
+          "Serviço de Genética Médica, Centro Hospitalar Universitário Lisboa Norte, Hospital de Santa Maria, Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "Faivre, Laurence",
+        "short_name": "Faivre L",
+        "identifiers": [],
+        "affiliations": [
+          "Inserm, UMR1231, Equipe GAD, Bâtiment B3, Université de Bourgogne Franche Comté, Dijon Cedex, France; Centre de Référence Maladies Rares \"Anomalies du développement et syndromes malformatifs\", Centre de Génétique, FHU-TRANSLAD et Institut GIMI, CHU Dijon Bourgogne, Dijon, France."
+        ]
+      },
+      {
+        "full_name": "Farholt, Stense",
+        "short_name": "Farholt S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Centre for Rare Diseases, Aarhus University Hospital, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Gregersen, Pernille A",
+        "short_name": "Gregersen PA",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatrics and Adolescent Medicine, Centre for Rare Diseases, Aarhus University Hospital, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "van Hasselt, Jos",
+        "short_name": "van Hasselt J",
+        "identifiers": [],
+        "affiliations": [
+          "(')s Heeren Loo Zorggroep, Advisium, Ermelo, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lahiri, Nayana",
+        "short_name": "Lahiri N",
+        "identifiers": [],
+        "affiliations": [
+          "St George's University Hospitals NHS Foundation Trust & St Georges, University of London, IMBE, London, United Kingdom; Department of Molecular and Biomedical Sciences, City St, University of London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Palmer, Elizabeth E",
+        "short_name": "Palmer EE",
+        "identifiers": [],
+        "affiliations": [
+          "Discipline of Paediatrics and Child Health, School of Clinical Medicine, Faculty of Medicine and Health, University of New South Wales, Sydney, NSW, Australia; Centre for Clinical Genetics, Sydney Children's Hospitals Network, Randwick, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Sheffer, Ruth",
+        "short_name": "Sheffer R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Hadassah University Hospital, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Clayton-Smith, Jill",
+        "short_name": "Clayton-Smith J",
+        "identifiers": [],
+        "affiliations": [
+          "Manchester Centre for Genomic Medicine, Manchester University Hospitals NHS Foundation Trust, Saint Mary's Hospital, Oxford Road, Manchester, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Wilnai, Yael",
+        "short_name": "Wilnai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic Institute, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel."
+        ]
+      },
+      {
+        "full_name": "Deshpande, Charu",
+        "short_name": "Deshpande C",
+        "identifiers": [],
+        "affiliations": [
+          "Manchester Centre for Genomic Medicine, Manchester University Hospitals NHS Foundation Trust, Saint Mary's Hospital, Oxford Road, Manchester, United Kingdom; Department of Clinical Genetics, Guy's & St Thomas NHS Foundation Trust, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Morton, Jenny E V",
+        "short_name": "Morton JEV",
+        "identifiers": [],
+        "affiliations": [
+          "West Midlands Regional Clinical Genetics Service and Birmingham Health Partners, Birmingham Women's and Children's Hospitals NHS Foundation Trust, Birmingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Clement, Emma",
+        "short_name": "Clement E",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Genetics Service, Great Ormond Street Hospital for Children NHS Foundation Trust, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Santen, Gijs W E",
+        "short_name": "Santen GWE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Leiden University Medical Center, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dias, Cristina",
+        "short_name": "Dias C",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Genetics Service, Great Ormond Street Hospital for Children NHS Foundation Trust, London, United Kingdom; Neural Stem Cell Biology Lab, The Francis Crick Institute, London, United Kingdom; Department of Medical and Molecular Genetics, School of Basic & Medical Biosciences, King's College London, London, United Kingdom; Department of Clinical Genetics, Guy's & St Thomas NHS Foundation Trust, London, United Kingdom. Electronic address: cristina.dias@kcl.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetics in medicine : official journal of the American College of Medical Genetics"
+    ],
+    "journal_abbrev": [
+      "Genet Med"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/28 06:32",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42206491",
+      "23929686",
+      "40617178",
+      "34205270",
+      "25168959",
+      "41715173",
+      "27264197",
+      "38963150",
+      "29429572",
+      "33768696",
+      "29706634",
+      "34706719",
+      "32686290",
+      "30580808",
+      "31273213",
+      "26364901",
+      "41795723",
+      "23815551",
+      "23637025",
+      "41532374",
+      "38243407",
+      "39563460",
+      "23906836",
+      "41568967",
+      "28124119",
+      "31628733",
+      "25081545",
+      "38790056",
+      "25249037",
+      "37981638",
+      "41545737",
+      "31421289",
+      "29907796",
+      "41595501",
+      "31530938",
+      "26543203",
+      "41167547",
+      "25169878",
+      "22426308",
+      "28003643",
+      "30276971",
+      "40695522",
+      "29698805",
+      "25169651",
+      "40794298",
+      "28787104",
+      "24700502",
+      "29437512",
+      "39181868",
+      "28250421",
+      "38591849",
+      "35353340",
+      "35579625",
+      "31207137",
+      "32888375",
+      "30459321",
+      "27112773",
+      "30349098",
+      "34775996",
+      "30245513",
+      "28566769",
+      "32851773",
+      "30499906",
+      "31658463",
+      "33785884",
+      "30055038",
+      "27616479",
+      "41988794",
+      "24886874",
+      "33006724",
+      "22426309",
+      "40832700",
+      "27264538",
+      "33430815",
+      "31160358",
+      "25724810",
+      "28608987",
+      "39501269",
+      "31675646",
+      "38117302",
+      "37654076",
+      "39726094",
+      "24674232",
+      "34942405",
+      "23010866",
+      "37551667",
+      "41765118",
+      "31388190",
+      "32618029",
+      "36437209",
+      "41911953",
+      "38697389",
+      "36049608",
+      "30973214",
+      "36049609",
+      "28884947",
+      "25099957",
+      "32339967",
+      "42173440",
+      "31243159"
+    ],
+    "review": [
+      "42206491",
+      "27264197",
+      "38963150",
+      "29706634",
+      "23637025",
+      "25169878",
+      "40794298",
+      "24700502",
+      "29437512",
+      "38591849",
+      "32888375",
+      "33430815",
+      "23010866",
+      "36049608"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1098-3600(26)00932-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/developmentaldisabilities.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Developmental Disabilities"
+      }
+    ],
+    "text_mined": []
+  }
+}

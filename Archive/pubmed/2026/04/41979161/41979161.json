@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "41979161",
+    "doi": "10.1111/pcn.70065",
+    "title": "Integrated transcriptomic and clinical analysis of autism spectrum disorder reveals structured heterogeneity and links Methyl-CpG Binding Domain Protein 2 expression with symptom severity."
+  },
+  "content": {
+    "abstract": "AIM: Autism spectrum disorder (ASD) remains underexplored in Southeast Asia, with limited characterization of its molecular underpinnings and clinical heterogeneity. This study investigated transcriptomic variation and its relationship to clinical diversity in Thai children with ASD using integrated molecular and phenotypic analyses. METHOD: Peripheral blood transcriptomic profiling was performed in 150 ASD and 70 typically developing (TD) children to identify differentially expressed transcripts (DETs), followed by pathway enrichment, unsupervised molecular clustering, and integrative multiomics modeling. Clinical data from 200 ASD and 110 TD participants were analyzed in parallel to evaluate screening performance and derive phenotype-based subgroups. RESULTS: Differential expression analysis identified 1,407 DETs with significant enrichment of autism-associated genes. Pathway analysis consistently implicated dysregulation of protein-synthesis machinery. Unsupervised transcriptome-based clustering revealed three molecular subgroups characterized by translational, innate-immune, and interferon-associated signatures, which did not directly correspond to clinical severity, age, or cognitive level, indicating structured biological heterogeneity beyond symptom-based classification. Integration of transcriptomic and phenotypic data demonstrated moderate cross-domain correspondence. Among recurrent molecular signals, MBD2 showed consistent upregulation across subgroups and strong associations with social-interaction measures (r = 0.74). In parallel, clinical machine-learning models showed high within-cohort screening performance, while a refined 17-transcript panel achieved robust discriminative accuracy, supporting the complementary role of molecular features in ASD stratification. CONCLUSION: Transcriptomic stratification reveals biologically structured heterogeneity in ASD that is only partially reflected in clinical presentation, supporting a multilayered framework integrating molecular and phenotypic dimensions.",
+    "keywords": [
+      "MBD2",
+      "autism spectrum disorder",
+      "gene expression profiling",
+      "machine learning",
+      "phenotype"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Autism Spectrum Disorder/genetics/physiopathology/classification",
+      "Male",
+      "Child",
+      "Female",
+      "*Transcriptome",
+      "Severity of Illness Index",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Child, Preschool",
+      "Gene Expression Profiling",
+      "Thailand",
+      "Methyl-CpG-Binding Protein 2",
+      "Machine Learning",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuwattana, Wasana",
+        "Poolcharoen, Chayanit",
+        "Saeliw, Thanit",
+        "van Erp, Marlieke Lisanne",
+        "Kanlayaprasit, Songphon",
+        "Vanwong, Natchaya",
+        "Hu, Valerie W",
+        "Trairatvorakul, Pon",
+        "Chonchaiya, Weerasak",
+        "Le Cao, Kim-Anh",
+        "Sarachana, Tewarit"
+      ],
+      "short_names": [
+        "Yuwattana W",
+        "Poolcharoen C",
+        "Saeliw T",
+        "van Erp ML",
+        "Kanlayaprasit S",
+        "Vanwong N",
+        "Hu VW",
+        "Trairatvorakul P",
+        "Chonchaiya W",
+        "Le Cao KA",
+        "Sarachana T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4518-9399"
+      ],
+      "affiliations": [
+        "Program in Clinical Biochemistry and Molecular Medicine, Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand.",
+        "Program in Clinical Biochemistry and Molecular Medicine, Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand.",
+        "Chulalongkorn Autism Research and Innovation Center of Excellence (ChulaACE), Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand.",
+        "Program in Clinical Biochemistry and Molecular Medicine, Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand.",
+        "Chulalongkorn Autism Research and Innovation Center of Excellence (ChulaACE), Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand.",
+        "Chulalongkorn Autism Research and Innovation Center of Excellence (ChulaACE), Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand.",
+        "Department of Biochemistry and Molecular Medicine, School of Medicine and Health Sciences, The George Washington University, Washington, District of Columbia, USA.",
+        "Center of Excellence for Maximizing Children's Developmental Potential, Division of Growth and Development, Department of Pediatrics, Faculty of Medicine, Chulalongkorn University, Bangkok, Thailand.",
+        "Center of Excellence for Maximizing Children's Developmental Potential, Division of Growth and Development, Department of Pediatrics, Faculty of Medicine, Chulalongkorn University, Bangkok, Thailand.",
+        "Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Melbourne, Victoria, Australia.",
+        "Chulalongkorn Autism Research and Innovation Center of Excellence (ChulaACE), Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuwattana, Wasana",
+        "short_name": "Yuwattana W",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Clinical Biochemistry and Molecular Medicine, Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Poolcharoen, Chayanit",
+        "short_name": "Poolcharoen C",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Clinical Biochemistry and Molecular Medicine, Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Saeliw, Thanit",
+        "short_name": "Saeliw T",
+        "identifiers": [],
+        "affiliations": [
+          "Chulalongkorn Autism Research and Innovation Center of Excellence (ChulaACE), Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "van Erp, Marlieke Lisanne",
+        "short_name": "van Erp ML",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Clinical Biochemistry and Molecular Medicine, Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Kanlayaprasit, Songphon",
+        "short_name": "Kanlayaprasit S",
+        "identifiers": [],
+        "affiliations": [
+          "Chulalongkorn Autism Research and Innovation Center of Excellence (ChulaACE), Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Vanwong, Natchaya",
+        "short_name": "Vanwong N",
+        "identifiers": [],
+        "affiliations": [
+          "Chulalongkorn Autism Research and Innovation Center of Excellence (ChulaACE), Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Hu, Valerie W",
+        "short_name": "Hu VW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Medicine, School of Medicine and Health Sciences, The George Washington University, Washington, District of Columbia, USA."
+        ]
+      },
+      {
+        "full_name": "Trairatvorakul, Pon",
+        "short_name": "Trairatvorakul P",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Maximizing Children's Developmental Potential, Division of Growth and Development, Department of Pediatrics, Faculty of Medicine, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Chonchaiya, Weerasak",
+        "short_name": "Chonchaiya W",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Maximizing Children's Developmental Potential, Division of Growth and Development, Department of Pediatrics, Faculty of Medicine, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Lê Cao, Kim-Anh",
+        "short_name": "Lê Cao KA",
+        "identifiers": [],
+        "affiliations": [
+          "Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Melbourne, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Sarachana, Tewarit",
+        "short_name": "Sarachana T",
+        "identifiers": [
+          "0000-0003-4518-9399"
+        ],
+        "affiliations": [
+          "Chulalongkorn Autism Research and Innovation Center of Excellence (ChulaACE), Department of Clinical Chemistry, Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Psychiatry and clinical neurosciences"
+    ],
+    "journal_abbrev": [
+      "Psychiatry Clin Neurosci"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/14 12:35",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [
+      "42602463",
+      "42196145"
+    ],
+    "refs": [],
+    "similar": [
+      "41979161",
+      "40188264",
+      "42196145",
+      "39788508",
+      "41383128",
+      "29686828",
+      "42098401",
+      "28649313",
+      "42045359",
+      "37168851",
+      "40923924",
+      "42233387",
+      "40409244",
+      "42035926",
+      "28449247",
+      "41779288",
+      "41010054",
+      "39833750",
+      "41006060",
+      "38594551",
+      "41511111",
+      "28392909",
+      "40651720",
+      "42019823",
+      "32217469",
+      "40739030",
+      "32491480",
+      "41611834",
+      "30921354",
+      "25739104",
+      "41713386",
+      "40373085",
+      "31311581",
+      "40490589",
+      "39843628",
+      "40307894",
+      "36321557",
+      "27862943",
+      "37443311",
+      "31743624",
+      "41009596",
+      "34050248",
+      "41897278",
+      "40768780",
+      "41597431",
+      "27105825",
+      "28649314",
+      "39608637",
+      "42040898",
+      "33159718",
+      "30561910",
+      "33931079",
+      "32867850",
+      "34639097",
+      "28681538",
+      "41424060",
+      "38236354",
+      "41478162",
+      "19418574",
+      "42375371",
+      "40856822",
+      "37203578",
+      "41010010",
+      "32539526",
+      "41762048",
+      "31445269",
+      "31719968",
+      "31673306",
+      "37017948",
+      "26201030",
+      "30251763",
+      "41518421",
+      "26742193",
+      "37776011",
+      "32374399",
+      "42317342",
+      "36292679",
+      "40526590",
+      "31413321",
+      "31867092",
+      "42074604",
+      "31149786",
+      "31558455",
+      "41716413",
+      "39407327",
+      "29423133",
+      "41857206",
+      "25421404",
+      "41207481",
+      "31614075",
+      "29172370",
+      "42200949",
+      "33509259",
+      "40677720",
+      "33551190",
+      "41454355",
+      "39611328",
+      "35412111",
+      "36376022",
+      "42104453"
+    ],
+    "review": [
+      "41979161",
+      "36321557",
+      "27862943",
+      "34639097",
+      "41478162",
+      "31673306",
+      "33551190",
+      "36376022"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      },
+      {
+        "url": "https://doi.org/10.1111/pcn.70065",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3551",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      }
+    ],
+    "text_mined": []
+  }
+}

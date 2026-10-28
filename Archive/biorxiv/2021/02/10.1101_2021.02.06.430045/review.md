@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, summary, data availability)
+- **Assessment boundary** Scientific content, technical soundness, data interpretation, and claims as presented in the provided manuscript text. No supplementary figures or tables were available for direct inspection.
+- **Shared manuscript claim summary** The authors identify SCO1839 as a novel Actinobacteria-specific nucleoid-associated protein (NAP), designated Gbn, which binds to a GATC(A/T)T consensus motif at thousands of genomic locations. They propose that Gbn acts as a global regulator that suppresses gene expression at bound promoters, influences the timing of sporulation, and affects secondary metabolite production in *Streptomyces coelicolor*.
+- **Visible evidence base** Abstract, introduction, materials and methods, results and discussion sections, summary, data availability statement. Figures and tables are referenced but not directly viewable in the provided material.
+- **Missing materials affecting confidence** All figures, tables, supplementary data, and the referenced GEO datasets. Statistical details of ChIP-Seq and RNA-Seq analyses are not fully described. The "new version with improved statistics" mentioned in the footnote is not available for comparison.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting discovery of a new NAP family member in actinobacteria, with genome-wide binding data and phenotypic analyses. However, the central claim that Gbn acts as a global transcriptional repressor is not convincingly supported by the data presented. The transcriptomics analysis appears to show only subtle effects, and the link between Gbn binding and gene expression changes is correlative rather than causal. The phenotypic effects of *gbn* deletion are described as modest, and the mechanistic basis for the proposed regulatory role remains unclear. The manuscript would benefit from a more rigorous quantitative analysis and a clearer demonstration of the functional significance of Gbn binding.
+- **Who would be interested in the results, and why** Researchers studying bacterial chromosome organization, nucleoid-associated proteins, gene regulation in actinobacteria, and the control of secondary metabolism and development in *Streptomyces*. The identification of a new NAP family member with a defined DNA-binding motif could be of interest to those working on the evolution of NAPs and their role in coordinating complex bacterial life cycles.
+- **Major strengths** The identification of a previously uncharacterized protein as a novel NAP family member is a clear advance. The genome-wide ChIP-Seq analysis provides a comprehensive map of Gbn binding sites. The combination of in vitro DNA-binding assays, phenotypic analysis, and transcriptomics is a reasonable approach to characterize a putative regulator. The phylogenetic analysis suggests an interesting distribution of this protein family within actinobacteria.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence strength for central claim
+    - **Claim pointer** "Transcriptomics analysis showed that Gbn binding generally leads to reduced gene expression" and "Gbn is a highly pleiotropic NAP that impacts growth and development in streptomycetes."
+    - **Evidence pointer** Results section "Correlation between Gbn binding and gene expression", Table 2, Table 3, Table 4
+    - **Concern** The transcriptomics data as described do not strongly support the claim that Gbn binding leads to reduced gene expression. The text states that "no significant changes" were found for genes with strong Gbn binding in their promoters, and that the effect is "subtle but significant" only at the population level. The magnitude of the effect is not quantified, and the biological significance of such a subtle effect is unclear. The claim of pleiotropy is based on the large number of binding sites, but the functional consequence of this binding is not demonstrated.
+    - **Why it matters** The central thesis of the paper is that Gbn is a global regulator. If the effect on gene expression is minimal and not clearly linked to the observed phenotypes, the functional importance of Gbn binding is questionable. The paper needs to demonstrate a clear causal link between Gbn binding and changes in gene expression that can explain the developmental and metabolic phenotypes.
+    - **Resolution test** Provide a clear quantitative analysis of the transcriptomics data, including the distribution of expression changes for Gbn-bound vs. unbound genes, and a statistical test for enrichment of differentially expressed genes among Gbn targets. Show that the magnitude of the effect is biologically meaningful and that specific Gbn targets can be linked to the observed phenotypes (e.g., accelerated sporulation, reduced actinorhodin production).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Mechanistic link between binding and phenotype
+    - **Claim pointer** "Deletion of gbn led to alterations in development and antibiotic production" and "Gbn is a sporulation-specific protein."
+    - **Evidence pointer** Results section "Deletion of gbn accelerates sporulation of S. coelicolor", Figure 2, Figure S1
+    - **Concern** The manuscript does not provide a mechanistic explanation for how Gbn binding to thousands of sites leads to accelerated sporulation and reduced antibiotic production. The text mentions that Gbn binds to the promoter of *atrA*, a known regulator of actinorhodin production, but also states that *atrA* transcription is not changed in the mutant. This is a direct contradiction to the proposed repressive role of Gbn. The link between Gbn binding and the observed phenotypes is therefore not established.
+    - **Why it matters** Without a mechanistic link, the observed phenotypes could be due to indirect effects of *gbn* deletion, such as changes in chromosome structure or interactions with other regulators. The paper needs to identify specific target genes whose expression changes in a manner consistent with the phenotype and demonstrate that this change is directly due to Gbn binding.
+    - **Resolution test** Identify direct Gbn target genes that are differentially expressed in the mutant and whose functions can explain the accelerated sporulation and reduced antibiotic production. Perform experiments to show that Gbn binding to these specific promoters is required for their regulation, e.g., by mutating the Gbn binding site and showing loss of regulation.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical rigor of ChIP-Seq analysis
+    - **Claim pointer** "ChIP-Seq detected more than 2800 binding regions, encompassing some 3600 GATCWT motifs, which comprise 55% of all such motifs in the S. coelicolor genome."
+    - **Evidence pointer** Results section "Gbn binds to thousands of DNA binding sites with GATC as core motif", Figure 3, Figure 4
+    - **Concern** The manuscript does not provide details on the quality control of the ChIP-Seq experiment. No information is given on the number of biological replicates, the peak calling thresholds, the false discovery rate, or how the input control was used. The claim that "all GATCWT motifs on the genome are covered by an increased sequencing coverage" is based on visual inspection of the data and is not quantified. The lack of a negative control (e.g., a ChIP with untagged strain) is a concern.
+    - **Why it matters** The genome-wide binding map is a key dataset of the paper. Without proper quality metrics and controls, the reliability of the binding site list is uncertain, and downstream analyses (e.g., motif discovery, correlation with expression) could be compromised.
+    - **Resolution test** Provide details on the number of replicates, peak calling parameters, and FDR thresholds. Show that the ChIP signal is specific by including a control experiment with an untagged strain or by showing that the signal is lost in a *gbn* deletion strain. Quantify the fraction of GATCWT motifs that show significant enrichment.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Statistical analysis of phenotypic data
+    - **Claim pointer** "Deletion of gbn led to a 2-5 h acceleration of development" and "increased length-to-width ratio of the spores in both the deletion mutant and the strain with enhanced expression of gbn (Mann-Whitney U test, p-value < 0.01)"
+    - **Evidence pointer** Results section "Deletion of gbn accelerates sporulation of S. coelicolor", Figure 2, Table 1
+    - **Concern** The statistical analysis of the phenotypic data is not fully described. For the time-lapse imaging, it is unclear how many biological replicates were performed and how the timing of development was quantified. For the spore morphology, the Mann-Whitney U test is mentioned, but the number of spores measured and the number of independent experiments are not stated. The footnote mentions "new version with improved statistics," but this version is not provided.
+    - **Why it matters** The phenotypic differences are described as modest (2-5 h acceleration). It is essential to demonstrate that these differences are robust and reproducible across multiple experiments. The lack of detail on the statistical methods makes it difficult to assess the reliability of the conclusions.
+    - **Resolution test** Provide a clear description of the experimental design, including the number of biological replicates and the number of spores measured. Show the full distribution of the data, not just summary statistics. If the "improved statistics" version is available, it should be included for comparison.
+
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity of writing
+    - **Affected element** Abstract and Introduction
+    - **Evidence pointer** Abstract, Introduction
+    - **Issue** The abstract states that Gbn is a "sporulation-specific protein" but the data in the results section show that Gbn binding is similar between vegetative and aerial growth, with only a few exceptions. This is confusing and should be clarified.
+    - **Required correction** Revise the abstract to accurately reflect the findings. If Gbn is expressed throughout growth, the term "sporulation-specific" should be removed or qualified.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Results section "Correlation between Gbn binding and gene expression"
+    - **Evidence pointer** Table 2, Table 3
+    - **Issue** The text mentions that "Table 2 lists the expression of all genes associated with strong Gbn binding in their promoter regions" but the table is not provided. It is unclear how many genes are in this list and what the criteria for "strong binding" are.
+    - **Required correction** Provide the table or a summary of its contents in the text. Define the criteria for "strong binding" (e.g., fold enrichment threshold).
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Interpretation of results
+    - **Affected element** Results section "Gbn does not alter the conformation of the DNA"
+    - **Evidence pointer** Figure 5E
+    - **Issue** The TPM experiments show a "very small increase in RMS of around 4 nm" which is interpreted as an increase in DNA stiffness. The biological significance of this small change is not discussed.
+    - **Required correction** Discuss whether a 4 nm change in RMS is within the range of experimental noise and what the functional consequence of a ~5 nm increase in persistence length might be.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Completeness of methods
+    - **Affected element** Materials and Methods, "ChIP-Seq data analysis"
+    - **Evidence pointer** Materials and Methods
+    - **Issue** The methods for ChIP-Seq data analysis do not mention how the input DNA was used for normalization or how the peak calling was performed (e.g., with or without input subtraction).
+    - **Required correction** Add details on the use of input control and the specific parameters used for peak calling.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Discussion of limitations
+    - **Affected element** Discussion/Summary
+    - **Evidence pointer** Summary
+    - **Issue** The summary states that "Gbn has a suppressive effect on the genes that bound by Gbn on their promoter regions" but the data show that this effect is subtle and not significant for individual genes. The authors should acknowledge this limitation.
+    - **Required correction** Add a sentence acknowledging that the suppressive effect is modest and that the mechanism by which Gbn influences development and secondary metabolism remains to be fully elucidated.
+
+## Risk / unsupported claims
+- The claim that Gbn is a "sporulation-specific protein" is not supported by the data, which show similar binding profiles at vegetative and aerial growth stages.
+- The claim that "Gbn binding generally leads to reduced gene expression" is not supported by the transcriptomics data, which show no significant changes for individual genes with strong Gbn binding.
+- The claim that Gbn "impacts growth and development" is supported by the phenotypic data, but the magnitude of the effect is modest and the mechanistic link is not established.
+- The statement that "all GATCWT motifs on the S. coelicolor genome are covered by an increased sequencing coverage" is not quantified and is based on visual inspection.
+- The functional significance of the increased DNA stiffness observed in TPM experiments is not established.
+- The claim that Gbn does not play a role in restriction of methylated DNA is based on data "not illustrated" and cannot be evaluated.

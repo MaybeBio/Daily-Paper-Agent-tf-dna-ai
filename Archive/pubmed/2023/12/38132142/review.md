@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and conclusions. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the reported findings. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that the flavonoids fisetin and quercetin differentially modulate redox-responsive transcription factors (TFEB, Nrf2, KEAP1, HMGB1, HSP72) in human microglia (HMC3) and glioblastoma (U251N) cells, with fisetin showing greater efficacy. They combine molecular docking, cell viability assays, ROS detection, immunocytochemistry, and proximity ligation assays to support their claims.
+- **Visible evidence base** Text descriptions of methods and results, including numerical values for combination index, binding energies, and contact residues. Figures and tables referenced but not directly viewable.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are referenced but not provided. This limits verification of quantitative results, statistical analyses, and imaging data.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in glioblastoma research, exploring the potential of natural flavonoids to modulate the tumor microenvironment through redox-responsive transcription factors. The combination of in silico docking with cellular assays is a reasonable approach. However, several technical and interpretive issues undermine the strength of the conclusions. The differential effects between cell types are not consistently supported by the data as described, and the link between docking predictions and observed biological outcomes remains correlative. The manuscript would benefit from additional mechanistic experiments and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers in glioblastoma biology, tumor microenvironment studies, redox signaling, and natural product pharmacology. The focus on microglia as a therapeutic target in GBM and the use of flavonoids as modulators of stress-responsive transcription factors may appeal to those investigating adjuvant therapies or chemosensitization strategies.
+- **Major strengths** The study addresses a clinically relevant question with a dual focus on tumor cells and immune cells in the microenvironment. The use of multiple complementary techniques, including molecular docking, viability assays, ROS detection, and proximity ligation assays, provides a broad perspective. The differential sensitivity of GBM cells versus microglia to flavonoids is a potentially interesting finding with therapeutic implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that fisetin and quercetin show differential cytotoxicity between GBM cells and microglia, with GBM cells being more sensitive.
+  - **Evidence pointer** Section 3.1, Figure 1
+  - **Concern** The text states that flavonoids had "minimal impact" on microglia viability but reduced GBM viability in a dose-dependent manner. However, no quantitative data, such as IC50 values or statistical comparisons between cell types, are provided in the text. The figure is not available for verification. Without these data, the claim of differential sensitivity cannot be adequately assessed.
+  - **Why it matters** The differential cytotoxicity is a central premise of the study, suggesting therapeutic selectivity. If this is not robustly demonstrated, the rationale for targeting microglia with these compounds is weakened.
+  - **Resolution test** Provide IC50 values for both cell types, with statistical analysis comparing the dose-response curves. Show representative images and quantified data for both MTT and LDH assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that fisetin decreases cytosolic acetylated HMGB1 (acHMGB1) in microglia but not in GBM cells.
+  - **Evidence pointer** Section 3.5, Figure 5
+  - **Concern** The immunocytochemistry results are described qualitatively. No quantitative data, such as fluorescence intensity measurements or statistical analysis, are presented in the text. The figure is not available. It is unclear how many cells were analyzed, whether the analysis was blinded, and what the variability was across experiments.
+  - **Why it matters** This is a key finding supporting the cell-type-specific effects of fisetin. Without quantitative support, the conclusion is not established.
+  - **Resolution test** Provide quantified fluorescence data for nuclear and cytosolic acHMGB1 in both cell types, with statistical comparisons across treatment conditions. Include details on the number of cells analyzed and the analysis method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that fisetin increases TFEB abundance in stressed microglia but not in GBM cells.
+  - **Evidence pointer** Section 3.4, Figure 4
+  - **Concern** Similar to the acHMGB1 data, the TFEB results are described without quantitative support. The text mentions increases in both nuclear and cytosolic TFEB in stressed microglia, but no numerical data or statistical analysis are provided. The figure is not available.
+  - **Why it matters** TFEB is a central transcription factor in the study's hypothesis. The claim of cell-type-specific modulation requires robust quantitative evidence.
+  - **Resolution test** Provide quantified fluorescence data for TFEB in both cellular compartments and cell types, with statistical analysis. Include details on experimental replicates and analysis methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that fisetin significantly impacts Nrf2-KEAP1 interaction in microglia and enhances HMGB1-HSP72 interaction in glioblastoma, based on proximity ligation assays.
+  - **Evidence pointer** Section 3.8, Figure 6
+  - **Concern** The proximity ligation assay results are described qualitatively. No quantitative data, such as the number of PLA signals per cell or statistical comparisons, are provided. The figure is not available. It is unclear how many independent experiments were performed and whether the analysis was blinded.
+  - **Why it matters** These interaction data are central to the mechanistic claims of the study. Without quantitative support, the conclusions are not verifiable.
+  - **Resolution test** Provide quantified PLA signal data for each interaction in both cell types, with statistical analysis. Include details on the number of cells analyzed and the analysis method.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular docking predicts binding of fisetin and quercetin to KEAP1, HSP72, and HMGB1, with fisetin showing stronger binding to KEAP1.
+  - **Evidence pointer** Section 3.6, Tables 2 and 3, Figures S2 and S3
+  - **Concern** The docking methodology is described briefly. The SwissDock server was used, but no details on the scoring function, docking parameters, or validation of the docking protocol are provided. The predicted binding energies are presented, but the significance of differences between compounds is not assessed. The figures are not available.
+  - **Why it matters** Docking results are used to support the experimental findings. If the docking methodology is not robust or the results are not critically evaluated, the conclusions drawn from them are weakened.
+  - **Resolution test** Provide more details on the docking protocol, including the software version, scoring function, and any validation steps. Discuss the limitations of the docking approach and how the predicted binding relates to the experimental observations.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the combination of fisetin and temozolomide (TMZ) synergistically inhibits GBM survival, with a combination index of 0.00013.
+  - **Evidence pointer** Section 3.2, Figure 2
+  - **Concern** The combination index value of 0.00013 is extremely low, suggesting an exceptionally strong synergy. This value seems implausible and may indicate an error in calculation or interpretation. The text does not provide details on how the CI was calculated or what software was used. The figure is not available.
+  - **Why it matters** The claim of synergy is a significant finding with potential clinical implications. An implausible CI value undermines the credibility of the result.
+  - **Resolution test** Provide details on the CI calculation method, including the software and the formula used. Show the dose-response curves for each compound alone and in combination. Verify the CI value and discuss its biological plausibility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.7, GBM Tumoroid Preparation
+  - **Evidence pointer** Section 2.7
+  - **Issue** The description of tumoroid preparation is brief. The text states that tumoroids were implanted in agarose gel and covered with medium, but details on the agarose concentration, gel preparation, and culture duration are missing.
+  - **Required correction** Provide more details on the tumoroid culture protocol, including agarose concentration, gel preparation, and the duration of treatment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5, CellROX Assay
+  - **Evidence pointer** Section 2.5
+  - **Issue** The CellROX assay is described, but the text does not specify the concentration of CellROX Deep Red used or the incubation time. The imaging parameters are also not fully described.
+  - **Required correction** Specify the concentration of CellROX Deep Red, the incubation time, and the imaging parameters used for quantification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.10, Western Blot
+  - **Evidence pointer** Section 2.10
+  - **Issue** The Western blot section describes the general protocol but does not specify which proteins were analyzed by Western blot. The text mentions antibodies for KEAP1, HSP70, and HMGB1, but the results section does not present Western blot data.
+  - **Required correction** Clarify which proteins were analyzed by Western blot and present the corresponding results, or remove the Western blot section if not used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4, Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion states that increased Nrf2-KEAP1 interaction following fisetin treatment is in line with lower intracellular ROS. However, the direction of causality is not clear. Increased interaction could also lead to increased Nrf2 degradation and reduced antioxidant response.
+  - **Required correction** Discuss the potential alternative interpretation and justify the proposed causal relationship with appropriate references.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3, Figure 3
+  - **Evidence pointer** Section 3.3
+  - **Issue** The text describes the effects of SARS-CoV-2 spike protein on ROS production, but the relevance of this stimulus to the glioblastoma tumor microenvironment is not clearly explained.
+  - **Required correction** Provide a brief rationale for using SARS-CoV-2 spike protein as a stressor in this context.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5, R1-M6. The lack of quantitative data for key experiments, the implausible combination index value, and the insufficient detail on docking methodology prevent the conclusions from being adequately supported.
+- **Assessment against Nature-style criteria** Originality: The study applies known flavonoids to a relatively underexplored dual-cell-type model, but the concept of using antioxidants in GBM is not novel. Scientific importance: The findings could have implications for GBM therapy, but the mechanistic depth is insufficient to establish a strong case. Interdisciplinary readership: The combination of computational and cellular approaches may appeal to a broad audience, but the limited mechanistic insight reduces its impact. Technical soundness: Several key claims lack quantitative support, and the docking methodology is not sufficiently detailed. Readability for nonspecialists: The manuscript is generally readable, but some sections, particularly the docking analysis, may be challenging for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic and has a reasonable experimental design, but the lack of quantitative data for key experiments and the implausible combination index value prevent the conclusions from being adequately supported. Major revisions are required.
+
+## Risk / unsupported claims
+- The claim of differential cytotoxicity between GBM cells and microglia is not quantitatively supported in the text.
+- The claim that fisetin decreases cytosolic acHMGB1 in microglia but not in GBM is not quantitatively supported.
+- The claim that fisetin increases TFEB abundance in stressed microglia is not quantitatively supported.
+- The claim that fisetin significantly impacts Nrf2-KEAP1 interaction in microglia and enhances HMGB1-HSP72 interaction in glioblastoma is not quantitatively supported.
+- The combination index value of 0.00013 is implausible and requires verification.
+- The docking predictions are presented as supportive evidence, but the methodology is not described in sufficient detail to assess their validity.

@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and conclusions. Figures and tables are referenced but not fully visible in the provided material.
+- **Assessment boundary** Evaluation is limited to the scientific content, methodology, and claims as presented in the supplied text. No external data, code, or supplementary materials were assessed.
+- **Shared manuscript claim summary** The authors propose OptimDase, an ensemble machine learning algorithm combining Random Forest, XGBoost, and Deep Forest with a weighted varied granularity scanning approach and combined feature encoding (one-hot plus multi-base), to predict DNA binding sites and recombination frequencies. They report superior performance over existing methods on two datasets: a human chromosome 1 SP1 transcription factor binding site dataset and an attC recombination dataset.
+- **Visible evidence base** Two tables (Table 1, Table 2), two figures (Fig. 1, Fig. 2) referenced but not shown, and reported performance metrics in the Conclusions section. Algorithm pseudocode and workflow figures (Fig. 3-7) are referenced but not visible.
+- **Missing materials affecting confidence** Actual figures with performance comparison results, full algorithm pseudocode, dataset access details, baseline method specifications, statistical significance tests, and code availability. The absence of these materials limits verification of the central claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of DNA binding sites, and proposes an ensemble approach with a novel weighting scheme. However, the current presentation has substantial gaps in experimental rigor, reproducibility, and comparative analysis. The core claims of superior performance are not adequately supported by the visible evidence, and several methodological details require clarification. The work may have incremental value but does not currently meet the standard of a high-impact general journal.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on transcription factor binding site prediction, DNA-protein interaction modeling, and ensemble learning methods. The proposed feature encoding and weighted scanning approach may be of interest to those developing similar predictive tools for regulatory genomics.
+- **Major strengths** The problem is well-motivated and practically relevant. The combination of multiple feature encoding strategies is sensible and biologically grounded. The use of three diverse ensemble algorithms with hyperparameter optimization is a reasonable approach. The authors address both classification and regression tasks, which broadens applicability. The feature importance analysis provides interpretability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim OptimDase "notably outperforms existing machine learning methods" and "uniformly outperformed all other algorithms" for predicting DNA binding sites.
+  - **Evidence pointer** Figures 1 and 2, location not provided
+  - **Concern** The central performance claims are based on figures that are not visible in the provided material. No numerical results, error bars, or statistical significance tests are presented in the text. The comparison appears limited to a small set of algorithms (Random Forest, KNN, Deep Forest, AdaBoost, LightGBM) without including state-of-the-art deep learning methods such as DeepBind, DanQ, or recent transformer-based approaches, which the authors themselves discuss in the introduction.
+  - **Why it matters** Without visible results and statistical validation, the claim of superiority cannot be evaluated. The absence of modern baselines undermines the significance of the reported improvements.
+  - **Resolution test** Provide full figures with numerical values, error bars, and statistical tests (e.g., paired t-test or Wilcoxon) comparing OptimDase against a comprehensive set of baselines including deep learning methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes the OptimDase algorithm and its components but lacks sufficient detail for replication.
+  - **Evidence pointer** Section "Description of the Algorithms", Algorithm 1, location not provided
+  - **Concern** The pseudocode for OptimDase is referenced but not visible. The description of the weighted varied granularity scanning is incomplete. Key details such as the exact feature construction process, the weighting scheme integration, the interaction between the three base algorithms, and the decision optimization logic are not fully specified. The hyperparameter table (Table 5) is provided, but the search ranges and optimization criteria are not described.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without complete algorithmic details and pseudocode, other researchers cannot implement or build upon the method.
+  - **Resolution test** Provide the full pseudocode, a detailed mathematical formulation of the weighted varied granularity scanning, and make the code publicly available with clear documentation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data and preprocessing
+  - **Claim pointer** The authors state the datasets are "well-known public datasets" and describe preprocessing steps, but critical details are missing.
+  - **Evidence pointer** Section "Data Preparation", Table 4, location not provided
+  - **Concern** The attC dataset description is confusing. The text mentions "attCr0 mutation dataset" and "attCr0 mutant library" but the results section refers to "attC dataset." The relationship between attCr0 and attC is unclear. For the TFBS dataset, the source is given as Kaggle.com, but the specific dataset version, genomic coordinates, and the exact definition of positive and negative samples are not provided. The preprocessing for the TFBS dataset mentions data augmentation but does not specify whether augmentation was applied before or after train-test splitting, which risks data leakage.
+  - **Why it matters** Dataset clarity is essential for evaluating the validity of the results and for fair comparison with other methods. Data leakage through improper augmentation would invalidate the reported performance.
+  - **Resolution test** Clarify the dataset nomenclature, provide exact data sources and access links, describe the full preprocessing pipeline, and confirm that augmentation was applied only to the training set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological novelty
+  - **Claim pointer** The authors state that OptimDase "utilizes combined feature encoding and optimum decision-making" and integrates weighted varied granularity scanning.
+  - **Evidence pointer** Section "Description of the Algorithms", location not provided
+  - **Concern** The novelty of the approach is not clearly articulated. Combining one-hot and multi-base encoding is straightforward. The weighted varied granularity scanning appears to be a modification of the existing Deep Forest scanning mechanism, but the specific contribution and its advantage over standard approaches are not clearly demonstrated. The "optimum decision-making" concept is vague and not formally defined.
+  - **Why it matters** For a high-impact journal, the methodological contribution must be clearly novel and significant. If the approach is largely an engineering combination of existing techniques, the contribution is incremental.
+  - **Resolution test** Clearly state the novel components, provide a formal definition of the optimization framework, and include ablation studies to demonstrate the contribution of each component.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evaluation methodology
+  - **Claim pointer** The authors report using five-fold cross-validation and various metrics (accuracy, F1, AUC, RMSE, PCC, VarScore).
+  - **Evidence pointer** Section "Performance Evaluation", location not provided
+  - **Concern** The evaluation methodology has several issues. For the classification task, only accuracy, F1, and AUC are reported, but precision and recall are not shown. For the regression task, the use of PCC and VarScore is unusual; the coefficient of determination (R²) is more standard. The manuscript does not specify whether the reported metrics are averages over the five folds with standard deviations. The choice of the 0.46 threshold for the attC dataset is described as based on "comparative experimental results" but no details are given.
+  - **Why it matters** Incomplete evaluation metrics and unclear threshold selection reduce confidence in the reported results and make comparison with other studies difficult.
+  - **Resolution test** Report all relevant metrics with standard deviations, justify the threshold selection with a clear procedure, and include additional metrics such as precision, recall, and R².
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Writing quality
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract is not provided in the material. The introduction contains some awkward phrasing and grammatical errors, such as "the identification of attCs has relied heavily on biochemical assays" and "it has been observed that CNNs have difficulty in capturing long-range dependencies." The flow from general background to specific problem statement could be improved.
+  - **Required correction** Revise for clarity and conciseness. Ensure the abstract, if present, summarizes the key findings and significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided
+  - **Issue** The terms "attC," "attCr0," and "attCs" are used inconsistently. The manuscript also refers to "DNA binding sites" and "DNA recombination sites" without clearly distinguishing between the two tasks.
+  - **Required correction** Define all terms at first use and use them consistently throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure and table quality
+  - **Affected element** Figures 1-7, Tables 1-5
+  - **Evidence pointer** Location not provided
+  - **Issue** The figures are not visible in the provided material, but based on the text, they appear to be essential for understanding the results. Table 4 has an apparent error: the "After preprocessing" row for attC shows 11,117 for both positive and negative sites, which contradicts the text stating 1,762 positive and 11,117 negative after balancing.
+  - **Required correction** Ensure all figures are high-resolution and self-explanatory. Correct the apparent error in Table 4 and verify all numerical values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** References
+  - **Affected element** Reference list
+  - **Evidence pointer** Location not provided
+  - **Issue** The reference list is not provided in the material. The in-text citations are numbered but the corresponding references are missing.
+  - **Required correction** Provide a complete and properly formatted reference list.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Code availability
+  - **Affected element** Data and code availability statement
+  - **Evidence pointer** Location not provided
+  - **Issue** No statement regarding code or data availability is present in the provided material.
+  - **Required correction** Add a clear statement on code and data availability, including a repository link if applicable.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing visible results and statistical validation), R1-M2 (incomplete algorithmic details and pseudocode), R1-M3 (dataset ambiguity and potential data leakage), R1-M4 (unclear novelty and lack of ablation studies).
+- **Assessment against Nature-style criteria** Originality: The approach is a combination of existing techniques with a weighting modification; the novelty is incremental and not clearly demonstrated. Scientific importance: The problem of DNA binding site prediction is important, but the proposed method does not appear to offer a significant conceptual advance. Interdisciplinary readership: The work is primarily of interest to computational biologists and may not appeal to a broad interdisciplinary audience. Technical soundness: The methodology has several gaps, including incomplete evaluation, potential data leakage, and unclear algorithmic details. Readability for nonspecialists: The manuscript is written in a technical style that is accessible to specialists but would benefit from clearer motivation and explanation of the key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions to address the experimental, methodological, and reproducibility concerns before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim that OptimDase "notably outperforms existing machine learning methods" is unsupported because the comparison figures are not visible and no statistical tests are reported.
+- The claim of "uniformly outperformed all other algorithms" on the attC dataset is unsupported for the same reason.
+- The statement that the combined feature encoding is superior to single-base encoding is based on Table 1, but the table only shows results for five algorithms and no statistical significance is provided.
+- The claim that OptimDase "can be applied to general DNA binding site identification" is not supported by evidence of generalization to datasets beyond the two used in this study.
+- The assertion that the model "is mainly aimed at small datasets" is not justified with any analysis of dataset size effects.
+- The reported performance metrics in the Conclusions (accuracy 0.8943, F1 0.8920, AUC 0.9219) are not linked to any specific figure or table in the visible text, making them unverifiable.

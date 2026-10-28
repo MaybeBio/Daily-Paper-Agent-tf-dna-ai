@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39803441",
+  "title": "Single-cell mapping of regulatory DNA:Protein interactions.",
+  "authors": "Chi, Wei-Yu; Yoon, Sang-Ho; Mekerishvili, Levan; Ganesan, Saravanan; Potenski, Catherine; Izzo, Franco; Landau, Dan; Raimondi, Ivan",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-01-13",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发单细胞D&D-seq技术，通过纳米抗体偶联碱基编辑酶直接记录TF-DNA结合，虽为实验方法但结合机器学习预测3D染色质结构，对TF-DNA互作建模有数据支撑和启发价值。",
+  "abstract": "Gene expression is coordinated by a multitude of transcription factors (TFs), whose binding to the genome is directed through multiple interconnected epigenetic signals, including chromatin accessibility and histone modifications. These complex networks have been shown to be disrupted during aging, disease, and cancer. However, profiling these networks across diverse cell types and states has been limited due to the technical constraints of existing methods for mapping DNA:Protein interactions in single cells. As a result, a critical gap remains in understanding where TFs or other chromatin remodelers bind to DNA and how these interactions are perturbed in pathological contexts. To address this challenge, we developed a transformative single-cell immuno-tethering DNA:Protein mapping technology. By coupling a species-specific antibody-binding nanobody to a cytosine base editing enzyme, this approach enables profiling of even weak or transient factor binding to DNA, a task that was previously unachievable in single cells. Thus, our Docking & Deamination followed by sequencing (D&D-seq) technique induces cytosine-to-uracil edits in genomic regions bound by the target protein, offering a novel means to capture DNA:Protein interactions with unprecedented resolution. Importantly, this technique can be seamlessly incorporated into common single-cell multiomics workflows, enabling multimodal analysis of gene regulation in single cells. We tested the ability of D&D-seq to record TF binding both in bulk and at the single-cell level by profiling CTCF and GATA family members, obtaining high specificity and efficiency, with clear identification of TF footprint and signal retention in the targeted cell subpopulations. Furthermore, the deamination reaction showed minimal off-target activity, with high concordance to bulk ChIP-seq reference data. Applied to primary human peripheral blood mononuclear cells (PBMCs), D&D-seq successfully identified CTCF binding sites and enabled integration with advanced machine-learning algorithms for predicting 3D chromatin structure. Furthermore, we integrated D&D-seq with single-cell genotyping to assess the impact of IDH2 mutations on CTCF binding in a human clonal hematopoiesis sample, uncovering altered binding and chromatin co-accessibility patterns in mutant cells. Altogether, D&D-seq represents an important technological advance enabling the direct mapping of TF or chromatin remodeler binding to the DNA in primary human samples, opening new avenues for understanding chromatin and transcriptional regulation in health and disease.",
+  "abstract_zh": "基因表达由众多转录因子（transcription factors, TFs）协调，这些因子与基因组的结合通过多种相互关联的表观遗传信号（包括染色质可及性和组蛋白修饰）进行导向。这些复杂网络已被证明在衰老、疾病和癌症过程中发生紊乱。然而，由于现有方法在单细胞中绘制DNA:蛋白质相互作用的技术限制，跨多种细胞类型和状态对这些网络进行剖析一直受限。因此，在理解TFs或其他染色质重塑因子在何处结合DNA以及这些相互作用在病理背景下如何被扰动方面，仍存在关键空白。为应对这一挑战，我们开发了一种变革性的单细胞免疫锚定DNA:蛋白质映射技术。通过将物种特异性抗体结合纳米抗体与胞嘧啶碱基编辑酶偶联，该方法能够剖析甚至弱或瞬时因子与DNA的结合，这是此前在单细胞中无法实现的任务。因此，我们的“对接与脱氨后测序”（Docking & Deamination followed by sequencing, D&D-seq）技术可在靶蛋白结合的基因组区域诱导胞嘧啶到尿嘧啶的编辑，提供了一种以空前分辨率捕获DNA:蛋白质相互作用的新手段。重要的是，该技术可无缝整合到常见的单细胞多组学工作流程中，实现单细胞基因调控的多模态分析。我们通过剖析CTCF和GATA家族成员，测试了D&D-seq在批量水平和单细胞水平记录TF结合的能力，获得了高特异性和高效率，并清晰识别了靶细胞亚群中的TF足迹和信号保留。此外，脱氨反应显示出极低的脱靶活性，与批量ChIP-seq参考数据高度一致。应用于原代人外周血单核细胞（PBMCs）时，D&D-seq成功识别了CTCF结合位点，并能与先进机器学习算法整合以预测3D染色质结构。进一步地，我们将D&D-seq与单细胞基因分型整合，评估了IDH2突变对人克隆性造血样本中CTCF结合的影响，揭示了突变细胞中结合和染色质共可及性模式的改变。总之，D&D-seq代表了一项重要技术进步，能够直接映射原代人样本中TF或染色质重塑因子与DNA的结合，为理解健康和疾病中的染色质及转录调控开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39803441/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39803441/",
+  "paper_page_path": "papers/pubmed/39803441/index.html"
+}

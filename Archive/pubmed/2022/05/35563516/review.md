@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusions, Future Directions)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to provided evidence, and suitability for a high-impact general audience
+- **Shared manuscript claim summary** The authors present a computational pipeline integrating genomic, transcriptomic, and phenotypic data from 368 maize inbred lines to identify regulatory SNPs (rSNPs) with pleiotropic effects. They apply Random Forest with Boruta feature selection, incremental feature selection, and Markov clustering to group rSNPs by shared association patterns across 20 agronomic traits and transcription factor binding alterations. Hierarchical network models are constructed to link transcription factors, rSNPs, and phenotypes, with gene expression validation for selected clusters.
+- **Visible evidence base** Methods section describing the full pipeline; Results section with cluster descriptions (Table 2 referenced); one example network model (Figure 4); supplementary files referenced but not provided
+- **Missing materials affecting confidence** Supplementary File S1 (cluster details), Supplementary File S2 (network models for all clusters), all tables (Table 1, Table 2), all figures (Figures 1-4), exact parameter settings for MATCH, MCL inflation values, Boruta parameters, and full statistical outputs
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in maize genetics by combining multi-omics data with machine learning to identify pleiotropic regulatory SNPs. The conceptual framing is sound and the pipeline is logically structured. However, the provided text lacks the quantitative results, validation metrics, and methodological details necessary to evaluate whether the claims are supported. The single example provided (Cluster-7) is illustrative but insufficient to establish the general validity of the approach. The manuscript reads more as a protocol description than a completed study with demonstrated findings.
+- **Who would be interested in the results, and why** Researchers in plant genomics, quantitative genetics, and crop breeding would be interested in the identification of pleiotropic regulatory variants and the network-based framework for linking SNPs to transcription factor binding and phenotypes. The methodological combination of Random Forest, Boruta, and Markov clustering could also appeal to computational biologists working on genotype-phenotype mapping in other crops or organisms.
+- **Major strengths** The study addresses an important gap by focusing on regulatory SNPs and pleiotropy simultaneously, rather than treating them separately. The pipeline is clearly structured into four phases with logical progression. The use of a global maize diversity panel with deep RNA-seq data provides a solid empirical foundation. The hierarchical network visualization approach has potential utility for hypothesis generation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that their analysis "enables the identification of pleiotropic signatures of rSNPs along with their consequences on TF binding sites" and that the results "could provide novel breeding targets for the simultaneous improvement of several agronomic traits."
+  - **Evidence pointer** Results Section 3.1, Table 2, Supplementary File S1
+  - **Concern** The results section describes eleven clusters but provides no quantitative details. Table 2 is referenced but not visible in the provided text. No information is given on cluster sizes beyond the largest cluster, the number of rSNPs per cluster, the statistical significance of associations, or the robustness of the clustering. The claim of "novel breeding targets" requires evidence that the identified rSNPs are functionally relevant and not merely statistically associated.
+  - **Why it matters** Without quantitative results, the reader cannot assess whether the clusters represent meaningful biological signals or artifacts of the clustering parameters. The central claim of identifying pleiotropic signatures depends entirely on the quality and interpretability of these clusters.
+  - **Resolution test** Provide Table 2 with full cluster statistics, including number of rSNPs, genes, phenotypes per cluster, and enrichment analyses. Include validation metrics such as cluster stability, permutation tests, or comparison to null expectations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that the Boruta algorithm followed by IFS "enables us to determine the optimal numbers of associated rSNPs for a certain phenotype of interest."
+  - **Evidence pointer** Section 2.2 Phase 2, Figure 2, Table 1
+  - **Concern** The IFS procedure is described but no results are shown. Figure 2 is referenced but not provided. The R2 values used to select optimal feature sets are not reported for any phenotype. The choice of R2 as the performance metric for a classification framework is also unclear, as R2 is typically used for regression. The authors do not specify whether phenotypes were treated as continuous or categorical variables.
+  - **Why it matters** The selection of associated rSNPs is the foundation for all downstream clustering and network construction. If the feature selection is not properly validated, the entire pipeline is compromised. The metric inconsistency raises questions about methodological rigor.
+  - **Resolution test** Report R2 values or appropriate classification metrics for all 20 phenotypes. Clarify the response variable type and justify the choice of performance metric. Show the IFS curves for at least a few representative phenotypes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of biological claims
+  - **Claim pointer** The authors state that for Cluster-7, a pleiotropic rSNP in Zm00001eb047590 (opf6 gene) results in loss of a TFBS for GAMYB and gain for GT1, and that this "results in its significantly higher levels of gene expression (Figure 4A)."
+  - **Evidence pointer** Section 3.2, Figure 4A
+  - **Concern** The claim of significant gene expression differences is made but the statistical test, effect size, and number of samples are not reported. The Wilcoxon test is mentioned in the methods but no p-values or direction of effect are given for this or any other gene. The link between TFBS alteration and expression change is asserted but not demonstrated mechanistically.
+  - **Why it matters** The expression validation is the only direct evidence that the predicted rSNP effects have functional consequences. Without proper statistical reporting, the claim of "significantly higher levels of gene expression" is unsupported.
+  - **Resolution test** Report the Wilcoxon test statistics, p-values, and effect sizes for all genes with pleiotropic rSNPs. Show the expression distributions for reference versus alternate allele groups.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of reporting
+  - **Claim pointer** The authors state that "hierarchical network models are constructed to elucidate the complex interplay among transcription factors, rSNPs, and phenotypes" and that these models "provide with new hypotheses."
+  - **Evidence pointer** Section 3.2, Figure 4, Supplementary File S2
+  - **Concern** Only one example network (Cluster-7) is described in the text. The networks for the other ten clusters are relegated to supplementary files that were not provided. The criteria for network construction, edge weighting, and node significance are not described in sufficient detail for reproduction.
+  - **Why it matters** The network models are a key output of the study. Without seeing the networks for all clusters and understanding the construction criteria, the reader cannot evaluate whether the models are informative or arbitrary.
+  - **Resolution test** Provide the full set of network figures, describe the network construction algorithm in detail, and include metrics such as network density, connectivity, and hub identification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1.1 Genotype Dataset
+  - **Evidence pointer** "the genotype dataset comprises 31,934 SNPs for 368 maize lines which are located on the chromosomes 1 to 10 including 37,407 genes"
+  - **Issue** The phrasing "including 37,407 genes" is ambiguous. It is unclear whether the 37,407 genes are within the SNP-containing regions or the total gene count in the genome.
+  - **Required correction** Clarify the relationship between the 31,934 SNPs and the 37,407 genes. Specify whether genes were assigned to SNPs based on proximity or overlap.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section 2.2 Phase 2
+  - **Evidence pointer** "The predictive performance of RF was examined based on the R2 values."
+  - **Issue** R2 is a regression metric. If phenotypes are treated as categorical, accuracy, F1, or AUC would be more appropriate. If continuous, the authors should clarify how the RF was configured for regression.
+  - **Required correction** Specify the response variable type and justify the choice of R2 as the performance metric. If classification was used, report appropriate classification metrics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.2 Phase 3
+  - **Evidence pointer** "we employed MCL [50] using the matrix A to cluster rSNPs"
+  - **Issue** The MCL inflation parameter, which critically affects cluster granularity, is not reported.
+  - **Required correction** Report the MCL inflation value and any other relevant parameters. Justify the chosen value.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and consistency
+  - **Affected element** Section 2.2 Phase 2
+  - **Evidence pointer** "that are are given in Table 1"
+  - **Issue** Typographical error with duplicated "are".
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5 Future Directions
+  - **Evidence pointer** "plant breeding strategies focus on developing QTL maps for different types of stresses, accounting for linkage disequilibrium and high false positive rate, standardizing genome-wide polygenetic scores"
+  - **Issue** The term "polygenetic" should likely be "polygenic." Additionally, the sentence is overly long and combines multiple distinct concepts without clear logical flow.
+  - **Required correction** Correct "polygenetic" to "polygenic" and consider restructuring the sentence for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results for clusters), R1-M2 (unvalidated feature selection with inconsistent metrics), R1-M3 (unsupported expression validation claims). These are blocking because the central claims of the manuscript depend on evidence that is not presented in the provided text.
+- **Assessment against Nature-style criteria** Originality: The combination of rSNP identification, pleiotropy detection, and network modeling in maize is moderately original, though each component has been applied separately in prior work. Scientific importance: The topic is relevant to crop improvement, but the potential impact is limited by the lack of demonstrated novel biological insights in the provided text. Interdisciplinary readership: The work bridges genomics, computational biology, and plant breeding, which could appeal to multiple communities, but the presentation is too specialized for a broad audience. Technical soundness: The pipeline is logically structured, but the missing validation metrics and incomplete methodological details prevent assessment of technical rigor. Readability for nonspecialists: The manuscript is written for a specialist audience and would benefit from clearer explanations of the biological rationale and implications.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a reasonable pipeline but does not provide the quantitative results, validation, or biological insights needed to support its claims. Major revisions with full reporting of results are required before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of identifying "novel pleiotropic signatures" is unsupported without cluster statistics and enrichment analyses.
+- The claim of "significantly higher levels of gene expression" for the opf6 gene is unsupported without statistical reporting.
+- The claim that this is "the first study" providing pleiotropic signatures of rSNPs in maize is unverifiable from the provided text and should be tempered or supported with a thorough literature comparison.
+- The generalizability of the pipeline to other crops or populations is asserted but not demonstrated.
+- The biological interpretation of cluster memberships (e.g., functional relevance of specific genes) is presented without supporting experimental or literature-based evidence beyond a few cited examples.

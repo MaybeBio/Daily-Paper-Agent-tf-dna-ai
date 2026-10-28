@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34492068",
+  "title": "Random forest-integrated analysis in AD and LATE brain transcriptome-wide data to identify disease-specific gene expression.",
+  "authors": "Wu, Xinxing; Peng, Chong; Nelson, Peter T; Cheng, Qiang",
+  "journal": "PloS one",
+  "published_date": "2021-09-08",
+  "window": {
+    "start": "2021-09-06",
+    "end": "2021-09-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用随机森林集成算法分析AD和LATE脑转录组数据以识别疾病相关基因，属于纯基因表达分析，无蛋白质-DNA互作、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Alzheimer's disease (AD) is a complex neurodegenerative disorder that affects thinking, memory, and behavior. Limbic-predominant age-related TDP-43 encephalopathy (LATE) is a recently identified common neurodegenerative disease that mimics the clinical symptoms of AD. The development of drugs to prevent or treat these neurodegenerative diseases has been slow, partly because the genes associated with these diseases are incompletely understood. A notable hindrance from data analysis perspective is that, usually, the clinical samples for patients and controls are highly imbalanced, thus rendering it challenging to apply most existing machine learning algorithms to directly analyze such datasets. Meeting this data analysis challenge is critical, as more specific disease-associated gene identification may enable new insights into underlying disease-driving mechanisms and help find biomarkers and, in turn, improve prospects for effective treatment strategies. In order to detect disease-associated genes based on imbalanced transcriptome-wide data, we proposed an integrated multiple random forests (IMRF) algorithm. IMRF is effective in differentiating putative genes associated with subjects having LATE and/or AD from controls based on transcriptome-wide data, thereby enabling effective discrimination between these samples. Various forms of validations, such as cross-domain verification of our method over other datasets, improved and competitive classification performance by using identified genes, effectiveness of testing data with a classifier that is completely independent from decision trees and random forests, and relationships with prior AD and LATE studies on the genes linked to neurodegeneration, all testify to the effectiveness of IMRF in identifying genes with altered expression in LATE and/or AD. We conclude that IMRF, as an effective feature selection algorithm for imbalanced data, is promising to facilitate the development of new gene biomarkers as well as targets for effective strategies of disease prevention and treatment.",
+  "abstract_zh": "阿尔茨海默病（Alzheimer's disease, AD）是一种复杂的神经退行性疾病，影响思维、记忆和行为。边缘系统为主的年龄相关TDP-43脑病（Limbic-predominant age-related TDP-43 encephalopathy, LATE）是最近发现的一种常见神经退行性疾病，其临床症状与AD相似。预防或治疗这些神经退行性疾病的药物开发进展缓慢，部分原因在于与这些疾病相关的基因尚未被完全理解。从数据分析角度来看，一个显著的障碍是，患者和对照组的临床样本通常高度不平衡，这使得应用大多数现有机器学习算法直接分析此类数据集变得具有挑战性。应对这一数据分析挑战至关重要，因为更特异性的疾病相关基因识别可能为潜在的疾病驱动机制提供新见解，并有助于发现生物标志物，进而改善有效治疗策略的前景。为了基于不平衡的全转录组数据检测疾病相关基因，我们提出了一种集成多重随机森林（integrated multiple random forests, IMRF）算法。IMRF能够有效区分基于全转录组数据中与LATE和/或AD相关的推定基因与对照组，从而实现对这些样本的有效区分。多种形式的验证，包括我们方法在其他数据集上的跨领域验证、使用识别基因后分类性能的改进和竞争力提升、使用完全独立于决策树和随机森林的分类器对测试数据的有效性，以及与先前关于神经退行性相关基因的AD和LATE研究的关联，均证明了IMRF在识别LATE和/或AD中表达改变基因方面的有效性。我们得出结论，IMRF作为一种针对不平衡数据的有效特征选择算法，有望促进新基因生物标志物的开发，以及为疾病预防和治疗的有效策略提供靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34492068/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34492068/",
+  "paper_page_path": "papers/pubmed/34492068/index.html"
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to the full manuscript, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors report that functionalized polystyrene chains can directly bind to DNA helices, with positively charged functional groups forming Coulombic interactions with phosphate moieties. They state that over 100 ns simulations, DNA undergoes a conformational shift from B-DNA to A-DNA, and they suggest these changes may contribute to the toxic effects of nanoplastics.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force fields, statistical analyses, or structural data are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, force field parameters, convergence criteria, replicate information, error estimates, structural analysis details, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible molecular simulation hypothesis that functionalized polystyrene nanoplastics can induce B-DNA to A-DNA transitions through electrostatic interactions. However, the evidence base is entirely insufficient to evaluate the validity of the claims. No methodological details, quantitative results, or statistical measures are provided. The central claim of a conformational transition is stated without supporting data, and the biochemical relevance is speculative. The work may be of interest to the nanotoxicology and biophysics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nanotoxicology, particularly those studying the molecular mechanisms of nanoplastic toxicity, would be interested in the proposed direct interaction between nanoplastics and DNA. Computational biophysicists studying DNA conformational dynamics and the B-A transition would also find the hypothesis relevant. The potential link to genotoxic effects of nanoplastics could attract environmental health scientists.
+- **Major strengths** The hypothesis is mechanistically specific, proposing a clear electrostatic basis for plastic-DNA association. The focus on the B-to-A transition is a concrete and testable structural outcome. The abstract identifies a plausible pathway by which nanoplastics could exert biochemical effects without invoking indirect mechanisms.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that functionalized polystyrene chains bind directly to DNA and that this binding triggers a shift from B-DNA to A-DNA over 100 ns simulations.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided. The force field, water model, ionic conditions, system size, simulation protocol, and analysis methods are all absent. Without this information, the reliability of the simulation results cannot be assessed. The claim of a B-to-A transition over 100 ns is stated without any quantitative measure of structural change, such as backbone dihedral distributions, helical parameters, or root-mean-square deviations.
+  - **Why it matters** Molecular dynamics results are highly sensitive to force field parameters and simulation conditions. The B-to-A transition in DNA is a well-studied phenomenon that depends on environmental factors such as humidity, ionic strength, and chemical modifications. Without evidence that the simulation setup is appropriate and that the transition is reproducible and converged, the central claim cannot be trusted.
+  - **Resolution test** Provide full simulation methods, including force field versions, water model, salt concentration, temperature and pressure coupling, simulation length, and number of replicates. Show quantitative structural analyses, such as time evolution of helical parameters or backbone conformations, with error bars or replicate comparisons, demonstrating a statistically robust and converged transition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the observed conformational changes "can have significant biochemical consequences and may be a part of the toxic effect of these materials."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The biochemical significance is asserted without any evidence linking the B-to-A transition to a functional outcome. No experimental data, literature correlation, or mechanistic argument is provided to support the claim that this conformational change would lead to toxicity. The abstract does not specify which biochemical processes would be affected or how.
+  - **Why it matters** The broader relevance of the work depends on the toxicological implications. If the connection to toxicity is purely speculative, the significance of the finding is substantially reduced. The claim as written overreaches the simulation evidence.
+  - **Resolution test** Provide a clear mechanistic link between the B-to-A transition and a specific biochemical consequence, supported by experimental evidence or a well-established literature precedent. Alternatively, temper the claim to state that the conformational change is a potential mechanism requiring further investigation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors imply that the direct binding of functionalized polystyrene to DNA and the resulting B-to-A transition is a novel finding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not situate the work within the existing literature on nanoplastic-DNA interactions or DNA conformational transitions induced by cationic ligands. It is unclear whether this specific interaction has been previously reported or modeled.
+  - **Why it matters** Originality is a key criterion for publication in a high-impact venue. Without a clear statement of what is new relative to prior work, the contribution cannot be evaluated.
+  - **Resolution test** Add a brief context statement in the abstract or introduction that explicitly identifies prior work on nanoplastic-DNA binding and DNA conformational changes induced by cationic species, and state what this study adds beyond that.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "overcoming the interplay between the biomolecule and the aqueous medium" is vague and may confuse readers unfamiliar with molecular simulation terminology.
+  - **Required correction** Rephrase to describe the competition between DNA-water interactions and DNA-plastic interactions in more concrete terms, such as "the Coulombic interactions are strong enough to outcompete the favorable solvation of the DNA phosphate groups."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation duration claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "through the 100 ns simulations" but does not indicate whether this is a single trajectory or multiple replicates. A single 100 ns trajectory is generally insufficient to establish a conformational transition.
+  - **Required correction** Specify the number of independent simulations and, if only one was performed, acknowledge this limitation or provide additional replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Functional group specificity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that positively charged functional groups are essential but does not specify which functional groups were studied or whether different cationic groups were compared.
+  - **Required correction** Name the specific functional groups used and, if applicable, state whether the effect is general across different cationic moieties or specific to the one tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and quantitative results means the central simulation claim is unverifiable. The speculative link to toxicity without any supporting evidence means the significance claim is unsupported.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract alone. The authors do not state what is novel relative to prior work on nanoplastic-DNA interactions or DNA conformational transitions induced by cationic ligands.
+  - Scientific importance: Weak. The potential toxicological relevance is asserted but not substantiated. The B-to-A transition is a known phenomenon, and its connection to nanoplastic toxicity is speculative.
+  - Interdisciplinary readership: Moderate. The topic bridges nanoscience, biophysics, and toxicology, which could attract a broad audience, but the abstract does not frame the work in a way that is accessible or compelling to nonspecialists.
+  - Technical soundness: Not assessable. No methods or quantitative results are provided. The 100 ns timescale and lack of replicate information raise concerns about convergence and statistical robustness.
+  - Readability for nonspecialists: Adequate but improvable. The abstract is concise but uses jargon without explanation, and the mechanistic description is vague.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of methodological detail, quantitative results, and a substantiated link to toxicity prevents a supportive recommendation. The authors should provide the full manuscript with detailed methods and results, and temper the claims about biochemical consequences unless supported by additional evidence.
+
+## Risk / unsupported claims
+- The claim that functionalized polystyrene chains bind directly to DNA is unsupported without structural or energetic data.
+- The claim that DNA shifts from B-form to A-form over 100 ns is unsupported without quantitative structural analysis and replicate information.
+- The claim that these conformational changes "can have significant biochemical consequences" is unsupported and speculative.
+- The claim that the observed effects "may be a part of the toxic effect of these materials" is unsupported by any experimental or literature evidence.
+- The assertion that positively charged functional groups are "essential" for binding is unverifiable without comparative data on uncharged or negatively charged polystyrene.

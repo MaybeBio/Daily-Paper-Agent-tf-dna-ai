@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "39476962",
+    "doi": "10.1016/j.jbc.2024.107938",
+    "title": "Defining unique structural features in the MAFA and MAFB transcription factors that control Insulin gene activity."
+  },
+  "content": {
+    "abstract": "MAFA and MAFB are related basic-leucine-zipper domain-containing transcription factors which have important overlapping and distinct regulatory roles in a variety of cellular contexts, including hormone production in pancreatic islet cells. Here, we first examined how mutating conserved MAF protein-DNA contact sites obtained from X-ray crystal structure analysis impacted their DNA-binding and Insulin enhancer-driven activity. While most of these interactions were essential and their disruption severely compromised activity, we identified that regions outside of these contact sites also contributed to transcriptional activity. AlphaFold 2 (https://alphafold.ebi.ac.uk), an artificial intelligence-based structural prediction program, was used to determine if there were also differences in the three-dimensional organization of the non-DNA binding/dimerization sequences of MAFA and MAFB. This analysis was conducted on the WT proteins as well as the pathogenic MAFA(Ser64Phe) and MAFB(Ser70Ala) transactivation domain mutants, with differences revealed between MAFA(WT) and MAFB(WT) as well as between MAFA(Ser64Phe) and MAFA(WT), but not between MAFB(Ser70Ala) and MAFB(WT). Moreover, dissimilarities between these proteins were also observed in their ability to cooperatively stimulate Insulin enhancer-driven activity in the presence of other islet-enriched transcription factors. Analysis of MAFA and MAFB chimeras disclosed that these properties were influenced by their unique C-terminal region structural differences predicted by AlphaFold 2. Our findings have revealed key structural features of these closely related proteins that impact their ability to regulate gene expression.",
+    "keywords": [
+      "AlphaFold 2",
+      "Insulin",
+      "MAFA",
+      "MAFB",
+      "gene expression",
+      "islet biology",
+      "transactivation",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*MafB Transcription Factor/metabolism/genetics",
+      "*Insulin/metabolism/genetics",
+      "Humans",
+      "Animals",
+      "*Maf Transcription Factors, Large/metabolism/genetics/chemistry",
+      "Mice",
+      "Crystallography, X-Ray",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cha, Jeeyeon",
+        "Tong, Xin",
+        "Coate, Katie C",
+        "Guo, Min",
+        "Liu, Jin-Hua",
+        "Reynolds, Garrett",
+        "Walker, Emily M",
+        "Stein, Richard A",
+        "Mchaourab, Hassane",
+        "Stein, Roland"
+      ],
+      "short_names": [
+        "Cha J",
+        "Tong X",
+        "Coate KC",
+        "Guo M",
+        "Liu JH",
+        "Reynolds G",
+        "Walker EM",
+        "Stein RA",
+        "Mchaourab H",
+        "Stein R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA; Division of Diabetes, Endocrinology, and Metabolism, Department of Medicine, Vanderbilt University Medical Center, Nashville, Tennessee, USA.",
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA.",
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA; Division of Diabetes, Endocrinology, and Metabolism, Department of Medicine, Vanderbilt University Medical Center, Nashville, Tennessee, USA; VA Tennessee Valley Healthcare System, Nashville, Tennessee, USA.",
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA.",
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA.",
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA.",
+        "Division of Metabolism, Endocrinology & Diabetes, Departments of Molecular & Integrative Physiology and Internal Medicine, University of Michigan, Ann Arbor, Michigan, USA.",
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA; Center for Applied Artificial Intelligence in Protein Dynamics, Vanderbilt University, Nashville, Tennessee, USA.",
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA; Center for Applied Artificial Intelligence in Protein Dynamics, Vanderbilt University, Nashville, Tennessee, USA.",
+        "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA. Electronic address: roland.stein@vanderbilt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cha, Jeeyeon",
+        "short_name": "Cha J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA; Division of Diabetes, Endocrinology, and Metabolism, Department of Medicine, Vanderbilt University Medical Center, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Tong, Xin",
+        "short_name": "Tong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Coate, Katie C",
+        "short_name": "Coate KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA; Division of Diabetes, Endocrinology, and Metabolism, Department of Medicine, Vanderbilt University Medical Center, Nashville, Tennessee, USA; VA Tennessee Valley Healthcare System, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Min",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Jin-Hua",
+        "short_name": "Liu JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Reynolds, Garrett",
+        "short_name": "Reynolds G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Walker, Emily M",
+        "short_name": "Walker EM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Metabolism, Endocrinology & Diabetes, Departments of Molecular & Integrative Physiology and Internal Medicine, University of Michigan, Ann Arbor, Michigan, USA."
+        ]
+      },
+      {
+        "full_name": "Stein, Richard A",
+        "short_name": "Stein RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA; Center for Applied Artificial Intelligence in Protein Dynamics, Vanderbilt University, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Mchaourab, Hassane",
+        "short_name": "Mchaourab H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA; Center for Applied Artificial Intelligence in Protein Dynamics, Vanderbilt University, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Stein, Roland",
+        "short_name": "Stein R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology & Biophysics, Vanderbilt University, Nashville, Tennessee, USA. Electronic address: roland.stein@vanderbilt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/31 00:27",
+    "fetched_at": "2026-09-30 05:13:58"
+  },
+  "links": {
+    "cites": [
+      "42650744",
+      "42439674"
+    ],
+    "refs": [
+      "37606041",
+      "36477366",
+      "36134336",
+      "35637307",
+      "34644572",
+      "34428183",
+      "34265844",
+      "32488111",
+      "30615063",
+      "30425060",
+      "30375986",
+      "29514095",
+      "29339498",
+      "27064285",
+      "26554594",
+      "26180087",
+      "25685288",
+      "24530283",
+      "23863625",
+      "23715323",
+      "23148532",
+      "21719305",
+      "20627934",
+      "20208071",
+      "19029092",
+      "19017655",
+      "19004825",
+      "18515495",
+      "18042454",
+      "17671361",
+      "14512017",
+      "12917329",
+      "9397686",
+      "9038383"
+    ],
+    "similar": [
+      "39476962",
+      "37662349",
+      "21719305",
+      "16580660",
+      "30425060",
+      "18515495",
+      "25273397",
+      "19624757",
+      "24183936",
+      "20208071",
+      "20627934",
+      "12917329",
+      "25397325",
+      "31208980",
+      "34978761",
+      "26180087",
+      "25912440",
+      "24520122",
+      "37895232",
+      "32764399",
+      "33315509",
+      "31235823",
+      "20718938",
+      "37606041",
+      "31614335",
+      "15665000",
+      "26554594",
+      "24726898",
+      "25500951",
+      "34428183",
+      "18522939",
+      "27017486",
+      "17360442",
+      "35862726",
+      "17682063",
+      "15993959",
+      "17785922",
+      "23148532",
+      "35562869",
+      "12970735",
+      "21278380",
+      "18199433",
+      "29529600",
+      "12081646",
+      "29339498",
+      "16050808",
+      "21193557",
+      "21830322",
+      "29096722",
+      "22167125",
+      "33762508",
+      "16670624",
+      "12368292",
+      "23775071",
+      "17636040",
+      "34644565",
+      "14765989",
+      "19004825",
+      "20506502",
+      "19393272",
+      "16443760",
+      "16847327",
+      "39189982",
+      "24013263",
+      "14680841",
+      "23927931",
+      "19332055",
+      "16780794",
+      "15862113",
+      "34223824",
+      "27385158",
+      "20584984",
+      "26904947",
+      "16505238",
+      "17927952",
+      "21857924",
+      "23269676",
+      "21278484",
+      "26108485",
+      "24825179",
+      "29324782",
+      "20158571",
+      "35454124",
+      "20424231",
+      "27097296",
+      "20682694",
+      "22820162",
+      "31822558",
+      "25645923",
+      "18159220",
+      "15923615",
+      "22784578",
+      "16461554",
+      "15650027",
+      "29070792",
+      "22476346",
+      "36897571",
+      "21098558",
+      "32488111",
+      "24530283"
+    ],
+    "review": [
+      "39476962",
+      "21719305",
+      "37895232",
+      "17785922",
+      "35562869",
+      "29096722",
+      "19393272",
+      "21278484"
+    ],
+    "pmc": [
+      "11626809"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(24)02440-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetesmedicines.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Medicines"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39476962/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

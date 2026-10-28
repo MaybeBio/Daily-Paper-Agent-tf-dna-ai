@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, author contributions, funding, acknowledgements)
+- **Assessment boundary** Scientific and technical evaluation of the forkedTF method, its validation, and its claims; no assessment of code functionality beyond what is described in the text
+- **Shared manuscript claim summary** The authors present forkedTF, an R library that generates Forked-Position Weight Matrices (FPWM) and Forked-Sequence Logos (F-Logos) to model transcription factor (TF) binding sites recognized by homodimer and heterodimer complexes. The method separates the binding motif of a reference TF from those of its co-factors at a chosen fork position, incorporates DNA methylation information, and outputs TRANSFAC-compatible files. The authors claim FPWM improves TF binding prediction over standard PWM and enables detection of co-factor-specific methylation preferences.
+- **Visible evidence base** Abstract, introduction, methods overview, results sections for JUND in HepG2 and CEBPB/CEBPD in K562, discussion, data availability statement. Figures referenced but not provided: Figures 1-5, Supplementary Figures 1-5.
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not included in the provided material. No code, no detailed statistical methods, no full method descriptions for the comparative enrichment analysis beyond tool names and parameters. No validation metrics (e.g., AUC, precision-recall) are reported in the text. No comparison against existing methods beyond the described JUND example.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a real and important problem in TF binding site modeling: the heterogeneity introduced by dimerization with different partners. The conceptual contribution of forked-Position Weight Matrices is potentially useful, and the integration with MethMotif and TRANSFAC format is practical. However, the evidence provided in the text is insufficient to fully evaluate the method's performance. The results section is largely descriptive, with no quantitative metrics reported in the text, and the figures that would support the claims are not available for review. The method's novelty relative to existing approaches for handling bipartite motifs is not clearly established. The manuscript would benefit from a more rigorous quantitative evaluation and clearer articulation of what is new compared to existing tools.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on TF binding site prediction, motif discovery, and regulatory genomics. Researchers studying TF dimerization and cooperativity, particularly those working with ChIP-seq data and seeking to model binding specificity in a partner-specific manner. Developers of motif databases and motif scanning tools would also be interested in the FPWM format and its TRANSFAC compatibility.
+- **Major strengths** The problem addressed is relevant and timely. The forkedTF approach is conceptually simple and practical, with clear implementation in R and integration with existing databases (MethMotif) and formats (TRANSFAC). The workflow is well-structured with four main functions. The application to JUND in HepG2 provides a concrete example of how the method can resolve degenerated PWM regions. The discussion appropriately acknowledges limitations, including the reliance on ChIP-seq data availability and the distinction between co-binding and physical dimerization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Altogether, our results show that FPWM better model TF binding affinities of binding partners than PWMs."
+  - **Evidence pointer** Results section "FPWM models co-factor binding sites appropriately and improves transcription factor binding prediction", Figure 4 (not provided)
+  - **Concern** The central claim that FPWM outperforms PWM is supported only by qualitative descriptions of score distributions and prediction counts. No quantitative metrics (e.g., AUC, enrichment scores, p-value distributions with effect sizes) are reported in the text. The figures that would provide this evidence are not available for review. Without quantitative validation, the claim of improved prediction is not established.
+  - **Why it matters** The core contribution of the manuscript is the claim that FPWM improves TF binding prediction. If this claim is not rigorously supported with quantitative evidence, the method's utility is not demonstrated.
+  - **Resolution test** Provide quantitative performance metrics (e.g., AUC, precision-recall, enrichment) comparing FPWM-derived motifs against standard PWM-derived motifs on held-out or independent datasets, with appropriate statistical testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The first group is characterized by a double spacer in positions 5 and 6 for JUND dimerized with ATF7, ATF2 and JUN. The second motif set, which is associated with JUND and FOSL2 or FOS, displays a single spacer at position 6."
+  - **Evidence pointer** Results section "Application of forkedTF to JUND binding in HepG2 cells", Figure 2 (not provided)
+  - **Concern** The identification of two spacer groups is presented as a key finding, but the criteria for defining these groups are not described. How was the fork position chosen? What statistical or algorithmic basis supports the classification into two groups? The text does not describe any clustering or classification method. Without this information, the grouping appears subjective.
+  - **Why it matters** The spacer classification is used to justify the need for forkedTF and to explain the degeneration in standard PWM. If the classification is not reproducible or well-defined, the motivation for the method is weakened.
+  - **Resolution test** Describe the algorithm or criteria used to determine the fork position and to classify co-factors into spacer groups. Provide a reproducible method or statistical test supporting the grouping.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and positioning
+  - **Claim pointer** "Current position weight matrices and sequence logos may not be sufficient for accurately modeling transcription factor binding sites recognized by a mixture of homodimer and heterodimer complexes."
+  - **Evidence pointer** Introduction, Discussion
+  - **Concern** The manuscript does not clearly position forkedTF relative to existing methods for modeling bipartite or dimeric motifs. Methods such as dyad motif discovery, heterodimer motif models, or approaches that explicitly model spacer variability are mentioned only briefly in the discussion. A systematic comparison with existing tools would clarify the novelty and added value of FPWM.
+  - **Why it matters** Without a clear comparison, it is difficult to assess whether FPWM is a genuinely new contribution or a re-implementation of existing ideas in a new format.
+  - **Resolution test** Add a comparative analysis against existing methods for dimeric or bipartite motif modeling, using the same datasets and evaluation metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "The forkedTF R-library is open source and can be accessed on GitHub at https://github.com/benoukraflab/forkedTF ."
+  - **Evidence pointer** Data availability, Methods
+  - **Concern** The manuscript demonstrates forkedTF on two TFs (JUND in HepG2, CEBPB/CEBPD in K562). The generalizability of the method to other TFs, cell types, and dimerization contexts is not assessed. The integration with MethMotif for 97 leucine zipper TFs is mentioned, but no results from this broader application are shown.
+  - **Why it matters** The method's utility depends on its applicability across diverse TF families and cellular contexts. A demonstration on a broader set of TFs would strengthen the claims of general utility.
+  - **Resolution test** Provide results from the 97 TF analysis in MethMotif, or a representative subset, showing that FPWM consistently improves modeling across different TF families.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Step 1
+  - **Evidence pointer** "miniCofactorReport()" section
+  - **Issue** The description of the co-binding detection is brief. The text states that ChIP-seq peak intersections are computed, but does not specify the genomic distance threshold or how overlapping peaks are defined beyond the +/- 100 bp region.
+  - **Required correction** Specify the exact criteria for defining co-binding (e.g., minimum overlap, distance threshold) and how the +/- 100 bp region is centered.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Step 4
+  - **Evidence pointer** "writeFPWM()" section
+  - **Issue** The three matrix formats (Count, Probability, Scaled Count) are described, but the rationale for when to use each format is not provided. The potential incompatibility with existing PWM scanning algorithms is mentioned but not detailed.
+  - **Required correction** Clarify the intended use cases for each matrix format and specify which format is recommended for common scanning tools.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, Comparative enrichment analysis
+  - **Evidence pointer** "Comparative motif enrichment analysis" section
+  - **Issue** The text mentions "adjusted p-values" and "q-values" but does not describe the multiple testing correction method used or the statistical test applied for enrichment.
+  - **Required correction** Specify the statistical test and multiple testing correction method used in the enrichment analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not mention the limitations of the method, particularly the reliance on ChIP-seq data availability and the distinction between co-binding and physical dimerization.
+  - **Required correction** Add a sentence in the abstract acknowledging these limitations or the scope of applicability.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Overview
+  - **Evidence pointer** "Overview of forkedTF workflow" section
+  - **Issue** The description of the workflow is high-level. No details are provided on the underlying algorithms for motif discovery, sequence alignment, or the construction of the FPWM from ChIP-seq data.
+  - **Required correction** Provide a more detailed description of the algorithmic steps, or reference a supplementary methods document.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative validation missing), R1-M2 (fork position and spacer classification criteria not described), R1-M3 (no comparison with existing methods), R1-M4 (limited demonstration of generalizability).
+- **Assessment against Nature-style criteria** Originality: The concept of forked-Position Weight Matrices is a reasonable extension of existing PWM models, but the novelty is incremental rather than transformative. The idea of separating a TF's motif from its co-factor motifs at a defined fork position is practical, but similar concepts exist in dyad motif discovery and heterodimer modeling. Scientific importance: The problem of modeling TF dimer binding is important for understanding gene regulation, and the integration with DNA methylation adds a useful dimension. However, the importance is moderate and the impact would depend on the demonstrated improvement over existing methods. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The potential readership in broader molecular biology would require clearer biological insights beyond the methodological description. Technical soundness: The technical approach is plausible, but the lack of quantitative validation and detailed algorithmic descriptions prevents a full assessment. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the methods section assumes familiarity with ChIP-seq analysis and motif discovery tools.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual contribution is interesting and the tool is likely to be useful, but the central claim of improved prediction requires quantitative validation. The manuscript would benefit from a more rigorous evaluation, clearer methodological details, and a comparison with existing approaches. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that FPWM "better model TF binding affinities of binding partners than PWMs" is unsupported by quantitative evidence in the text.
+- The classification of JUND co-factors into two spacer groups is presented without a described method or statistical basis.
+- The claim that forkedTF "allows the detection of methylated DNA binding preferences in a co-factor specific way" is based on a single example (CEBPB/CEBPD) with no quantitative assessment.
+- The statement that "the order remains the same for these five co-binding partners" when ranked by q-values is not supported by data shown in the text.
+- The generalizability of the method to the 97 leucine zipper TFs in MethMotif is mentioned but not demonstrated with results.

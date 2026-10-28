@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report the design and synthesis of fifteen zerumbone-amide-triazole hybrids, their in vitro cytotoxicity against four cancer cell lines, computational studies (docking, MD, MM-GBSA) suggesting non-canonical surface binding to NF-kappaB p65 RHD, and Western blot data indicating modulation of NF-kappaB pathway components in HepG2 cells.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond IC50 values, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full synthetic procedures, characterization data, dose-response curves, statistical parameters, docking scores, MD trajectory analyses, Western blot images, and all experimental methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting medicinal chemistry study with a clear rationale for scaffold modification and a plausible mechanistic hypothesis. However, the evidence provided is insufficient to evaluate the robustness of the synthetic chemistry, the reliability of the biological data, or the validity of the computational and mechanistic conclusions. Several claims are made without supporting quantitative or methodological detail, and the link between computational predictions and experimental observations is not critically examined.
+- **Who would be interested in the results, and why** Medicinal chemists and chemical biologists working on natural product-derived anticancer agents, particularly those interested in NF-kappaB pathway modulation and triazole-based pharmacophore incorporation. The study may also appeal to computational chemists focused on protein-ligand interaction analysis, though the depth of the computational work cannot be assessed from the abstract.
+- **Major strengths** The design concept is logical, combining a natural product scaffold with two pharmacophores to enhance activity. The inclusion of both experimental and computational approaches is commendable. The identification of a lead compound with low-micromolar activity across multiple cell lines is a tangible outcome.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological data robustness
+  - **Claim pointer** "Most derivatives displayed significantly improved cytotoxicity compared with the parent compound 9, and several hybrids showed low-micromolar potency."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of "significantly improved" activity is made without any statistical context, replicate numbers, or error margins. No comparison of potency across cell lines is provided beyond the lead compound, and the criteria for "significantly improved" are undefined.
+  - **Why it matters** Without statistical validation and full dose-response data, the biological significance of the observed improvements cannot be established. This is central to the paper's core claim of enhanced anticancer activity.
+  - **Resolution test** Provide full IC50 values with standard deviations, number of independent replicates, and appropriate statistical tests comparing hybrids to parent compound 9.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "Western blot analysis in HepG2 cells showed that compound 12g reduced NF-kappaB p65 and phospho-p65 (Ser536) levels, together with phospho-IkappaB-alpha (Ser32), predominantly at 2x IC(50), suggesting attenuation of NF-kappaB activation at higher effective concentrations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The Western blot data are described qualitatively with no quantification, loading controls, or dose-response information. The observation is limited to a single concentration (2x IC50) in a single cell line, and the specificity of the effect to NF-kappaB signaling is not demonstrated.
+  - **Why it matters** The mechanistic claim is a key part of the paper's significance. Without quantitative analysis and appropriate controls, the conclusion that NF-kappaB modulation contributes to the biological effects is not supported.
+  - **Resolution test** Provide quantified Western blot data with normalization, multiple concentrations, time points, and a positive/negative control to demonstrate pathway specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validity
+  - **Claim pointer** "Molecular docking suggested that the hybrids preferentially associate with non-canonical surface regions within the Rel homology domain (RHD) of NF-kappaB p65, rather than occupying the DNA-binding groove, with key contacts involving residues such as Phe298, Phe301, Pro303, Lys337 and Lys318."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No docking scores, comparison with known binders, or validation of the docking protocol are provided. The claim of "preferential" binding to surface regions is not supported by any quantitative comparison. The functional relevance of these contacts is not established.
+  - **Why it matters** The computational results are used to support the mechanistic hypothesis. Without rigorous validation and quantitative metrics, the docking findings are speculative and cannot be evaluated.
+  - **Resolution test** Provide docking scores for all compounds, comparison with a known NF-kappaB inhibitor or DNA, and validation of the docking method (e.g., redocking of co-crystallized ligand). Show that the proposed binding mode is energetically favorable and specific.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** MD simulation robustness
+  - **Claim pointer** "50 ns molecular dynamics simulations and MM-GBSA calculations were performed, supporting productive surface binding for the most active ligands and helping discriminate less active candidates."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The duration of 50 ns is short for establishing binding stability, and no convergence criteria, RMSD/RMSF data, or MM-GBSA values are reported. The claim that simulations "discriminate" active from inactive compounds is not substantiated with any numerical or statistical comparison.
+  - **Why it matters** The MD and MM-GBSA results are presented as supporting evidence for the binding mode and for ranking compounds. Without quantitative data and convergence analysis, these claims are not verifiable.
+  - **Resolution test** Provide RMSD/RMSF plots, MM-GBSA binding free energies with standard errors, and a clear correlation between computed values and experimental activity. Extend simulation time or justify the 50 ns choice.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Synthetic scope
+  - **Affected element** Compound series description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states fifteen hybrids were synthesized but does not indicate the diversity of substituents or the rationale for their selection.
+  - **Required correction** Briefly describe the structural variation in the series and the design logic for substituent choice.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Selectivity
+  - **Affected element** Cytotoxicity data interpretation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No comparison with non-cancerous cells is mentioned, so selectivity cannot be assessed.
+  - **Required correction** Include data or a statement on selectivity against normal cell lines, or explicitly note its absence as a limitation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Mechanistic specificity
+  - **Affected element** NF-kappaB pathway claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not address whether the observed effects are specific to NF-kappaB or could result from general cytotoxicity.
+  - **Required correction** Add a control experiment or a statement addressing pathway specificity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Compound naming
+  - **Affected element** Lead compound identification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "compound 12g" and "15e" without clarifying the relationship between these labels and the series 12a-i and 15a-f.
+  - **Required correction** Clarify the naming convention or explicitly state that 12g and 15e are members of the respective series.
+
+## Risk / unsupported claims
+- The claim that "simultaneous incorporation of secondary amide and 1,2,3-triazole pharmacophores" is responsible for enhanced activity is not supported by any structure-activity relationship analysis or control compounds.
+- The statement that "NF-kappaB p65 modulation likely contributing to their biological effects" is speculative given the limited mechanistic data.
+- The computational claim of "preferential" binding to non-canonical surface regions is unsupported without quantitative comparison to alternative binding modes.
+- The assertion that MD simulations "help discriminate less active candidates" is not verifiable without numerical results.
+- The overall conclusion that these hybrids are "promising cytotoxic leads" is reasonable but not fully established from the abstract alone.

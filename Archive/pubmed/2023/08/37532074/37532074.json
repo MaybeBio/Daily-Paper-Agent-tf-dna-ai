@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "37532074",
+    "doi": "10.1016/j.jep.2023.116982",
+    "title": "Ginkgolide B attenuates cerebral ischemia-reperfusion injury via inhibition of ferroptosis through disrupting NCOA4-FTH1 interaction."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Cerebral ischemia/reperfusion (I/R) injury is a major cause of neuronal damage and death. Ginkgolide B (GB) has been shown to exhibit neuroprotective effects in various brain injury models. AIM OF STUDY: The aim of study was to investigate the potential role of GB in protecting against cerebral I/R injury and explore the underlying mechanisms. MATERIALS AND METHODS: Adult male Sprague-Dawley rats were exposed to transient middle cerebral artery occlusion (tMCAO) followed by reperfusion in order to trigger cerebral I/R injury. The rats were treated with different doses of GB, vehicle control or positive drug. Neurological function, infarct volume, and levels of ferroptosis markers were evaluated. In vitro experiments were performed using OGD/R-induced PC12 cells to further investigate the effects of GB on ferroptosis and its mechanisms. In addition, molecular docking, and microscale thermophoresis (MST) assay were conducted to explore the combination of GB and NCOA4. RESULTS: Reduced infarct volume and enhanced neurological function were signs of dose-dependent protection from cerebral I/R injury by GB therapy. Additionally, GB treatment had an impact on the levels of oxidative stress and ferroptosis markers, including reactive oxygen species (ROS), malondialdehyde (MDA), superoxide dismutase (SOD), and Fe(2+) in the cerebral environment during IR injury. Moreover, relevant ferroptosis key factors such as ACSL4, GPX4, FTH1, and NCOA4 can be regulated by GB. In OGD/R-induced PC12 cells, GB protected against ferroptosis by inhibiting autophagy and disrupting the interaction of NCOA4-FTH1. CONCLUSION: Our findings suggest that GB may protect against cerebral I/R injury by inhibiting ferroptosis through disrupting NCOA4-FTH1 interaction. GB has potential therapeutic applications for cerebral I/R injury, and further investigation of the underlying mechanisms and clinical trials are warranted.",
+    "keywords": [
+      "Cerebral ischemia-reperfusion",
+      "FTH1",
+      "Ferroptosis",
+      "Ginkgolide B",
+      "NCOA4"
+    ],
+    "mesh_terms": [
+      "Rats",
+      "Male",
+      "Animals",
+      "Rats, Sprague-Dawley",
+      "*Ferroptosis",
+      "*Brain Ischemia/drug therapy",
+      "Molecular Docking Simulation",
+      "*Reperfusion Injury/drug therapy/prevention & control",
+      "Transcription Factors",
+      "Infarction, Middle Cerebral Artery/drug therapy",
+      "Lactones",
+      "Ginkgolides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yuwei",
+        "Wu, Qing",
+        "Shan, Xin",
+        "Zhou, Haiyan",
+        "Wang, Jinwen",
+        "Hu, Yue",
+        "Chen, Jing",
+        "Lv, Zhiyang"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Wu Q",
+        "Shan X",
+        "Zhou H",
+        "Wang J",
+        "Hu Y",
+        "Chen J",
+        "Lv Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: fsyy01928@njucm.edu.cn.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, 138 Xianlin Road, Nanjing, 210023, China. Electronic address: 1353969635@qq.com.",
+        "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: shanxinqq@126.com.",
+        "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: 872791732@qq.com.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, 138 Xianlin Road, Nanjing, 210023, China. Electronic address: 1289178521@qq.com.",
+        "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, 138 Xianlin Road, Nanjing, 210023, China; Shen Chun-ti Nation-Famous Experts Studio for Traditional Chinese Medicine Inheritance, Changzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Changzhou, 213003, Jiangsu, China. Electronic address: yuehu@njucm.edu.cn.",
+        "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: pharm_chenjing1987824@163.com.",
+        "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: fsyy01948@njucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yuwei",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: fsyy01928@njucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Qing",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, 138 Xianlin Road, Nanjing, 210023, China. Electronic address: 1353969635@qq.com."
+        ]
+      },
+      {
+        "full_name": "Shan, Xin",
+        "short_name": "Shan X",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: shanxinqq@126.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Haiyan",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: 872791732@qq.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinwen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, 138 Xianlin Road, Nanjing, 210023, China. Electronic address: 1289178521@qq.com."
+        ]
+      },
+      {
+        "full_name": "Hu, Yue",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Nanjing University of Chinese Medicine, 138 Xianlin Road, Nanjing, 210023, China; Shen Chun-ti Nation-Famous Experts Studio for Traditional Chinese Medicine Inheritance, Changzhou TCM Hospital Affiliated to Nanjing University of Chinese Medicine, Changzhou, 213003, Jiangsu, China. Electronic address: yuehu@njucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: pharm_chenjing1987824@163.com."
+        ]
+      },
+      {
+        "full_name": "Lv, Zhiyang",
+        "short_name": "Lv Z",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine Hanlin College, 6 Kuangshi Road, Taizhou, 225300, Jiangsu, China. Electronic address: fsyy01948@njucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2024 Jan 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/03 01:06",
+    "fetched_at": "2026-09-29 04:59:33"
+  },
+  "links": {
+    "cites": [
+      "42603839",
+      "42453808",
+      "42221841",
+      "42059265",
+      "41878685",
+      "41738060",
+      "41201666",
+      "41084040",
+      "41030573",
+      "40766753",
+      "40756985",
+      "40749519",
+      "40744916",
+      "40684405",
+      "40667723",
+      "40659088",
+      "40609236",
+      "40510422",
+      "40418418",
+      "40276370",
+      "40238820",
+      "40206477",
+      "40170719",
+      "40162334",
+      "40117887",
+      "40026597",
+      "39789492",
+      "39496916",
+      "39112768",
+      "38994078",
+      "38937576",
+      "38929090",
+      "38834843",
+      "38650626",
+      "38329706",
+      "38002094"
+    ],
+    "refs": [],
+    "similar": [
+      "37532074",
+      "37714424",
+      "38788392",
+      "36516890",
+      "37172921",
+      "38548187",
+      "38679397",
+      "37858718",
+      "36118165",
+      "39096875",
+      "36173508",
+      "36842993",
+      "38716368",
+      "35550220",
+      "38504540",
+      "38850632",
+      "37381963",
+      "29454613",
+      "38574838",
+      "32032565",
+      "38182039",
+      "35032588",
+      "38901754",
+      "37005848",
+      "37473431",
+      "24161430",
+      "38143273",
+      "36252877",
+      "23811213",
+      "36306010",
+      "38520834",
+      "36047195",
+      "34530090",
+      "38688134",
+      "26805466",
+      "25698615",
+      "36055377",
+      "35725978",
+      "37839303",
+      "37059928",
+      "38331339",
+      "35777608",
+      "34634471",
+      "27023223",
+      "23123262",
+      "33411101",
+      "22850444",
+      "39331352",
+      "37073509",
+      "21527331",
+      "34273708",
+      "27132713",
+      "36878093",
+      "35786456",
+      "36922458",
+      "36222130",
+      "38663454",
+      "34461809",
+      "31678414",
+      "35486208",
+      "21850487",
+      "33938129",
+      "34881386",
+      "39287745",
+      "35753730",
+      "38145861",
+      "35997855",
+      "36411664",
+      "32385800",
+      "31825924",
+      "37148714",
+      "31247210",
+      "36819784",
+      "21611909",
+      "32240450",
+      "38555815",
+      "33536742",
+      "36456793",
+      "34022287",
+      "33173992",
+      "26086685",
+      "34235259",
+      "37062886",
+      "36601753",
+      "24594628",
+      "37094696",
+      "38101001",
+      "28986333",
+      "36581063",
+      "30372862",
+      "36522583",
+      "31548176",
+      "34322090",
+      "26902830",
+      "23973788",
+      "37691020",
+      "38197187",
+      "35505050",
+      "38148455",
+      "36634381",
+      "34292112",
+      "38677272",
+      "36696989",
+      "37417429",
+      "30381663",
+      "36435361",
+      "30742808",
+      "32316944",
+      "32559840",
+      "38430221",
+      "35401933",
+      "23010366",
+      "25256700",
+      "25770876",
+      "30074018",
+      "23151725",
+      "24720662",
+      "37682882",
+      "36483736",
+      "25572614",
+      "33628391",
+      "38807610",
+      "37812906",
+      "37955765",
+      "38713437",
+      "39321486",
+      "37480159",
+      "37861894",
+      "39299807",
+      "37820776",
+      "39011891",
+      "38205686",
+      "39306318",
+      "33763013",
+      "39334526",
+      "39166386",
+      "37979712",
+      "37609123",
+      "39422930",
+      "39220228",
+      "38141803",
+      "39326069",
+      "38666397",
+      "36756891",
+      "37703316",
+      "37984544",
+      "39098373",
+      "38427114",
+      "38538748",
+      "37591333",
+      "37978208",
+      "37660967",
+      "38365078",
+      "37633236",
+      "37752100",
+      "38027853",
+      "38013307",
+      "37059236",
+      "38145659",
+      "34498224",
+      "33953171",
+      "38798412",
+      "38566522",
+      "38220133",
+      "39053339",
+      "39357596",
+      "38033861",
+      "38759485",
+      "39351078",
+      "38438362",
+      "38994078",
+      "37418612",
+      "37659755"
+    ],
+    "review": [
+      "37532074",
+      "38438362"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(23)00850-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3809",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

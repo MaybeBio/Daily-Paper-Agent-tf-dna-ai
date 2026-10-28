@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "37833839",
+    "doi": "10.1093/bib/bbad362",
+    "title": "MSI-XGNN: an explainable GNN computational framework integrating transcription- and methylation-level biomarkers for microsatellite instability detection."
+  },
+  "content": {
+    "abstract": "Microsatellite instability (MSI) is a hypermutator phenotype caused by DNA mismatch repair deficiency. MSI has been reported in various human cancers, particularly colorectal, gastric and endometrial cancers. MSI is a promising biomarker for cancer prognosis and immune checkpoint blockade immunotherapy. Several computational methods have been developed for MSI detection using DNA- or RNA-based approaches based on next-generation sequencing. Epigenetic mechanisms, such as DNA methylation, regulate gene expression and play critical roles in the development and progression of cancer. We here developed MSI-XGNN, a new computational framework for predicting MSI status using bulk RNA-sequencing and DNA methylation data. MSI-XGNN is an explainable deep learning model that combines a graph neural network (GNN) model to extract features from the gene-methylation probe network with a CatBoost model to classify MSI status. MSI-XGNN, which requires tumor-only samples, exhibited comparable performance with two well-known methods that require tumor-normal paired sequencing data, MSIsensor and MANTIS and better performance than several other tools. MSI-XGNN also showed good generalizability on independent validation datasets. MSI-XGNN identified six MSI markers consisting of four methylation probes (EPM2AIP1|MLH1:cg14598950, EPM2AIP1|MLH1:cg27331401, LNP1:cg05428436 and TSC22D2:cg15048832) and two genes (RPL22L1 and MSH4) constituting the optimal feature subset. All six markers were significantly associated with beneficial tumor microenvironment characteristics for immunotherapy, such as tumor mutation burden, neoantigens and immune checkpoint molecules such as programmed cell death-1 and cytotoxic T-lymphocyte antigen-4. Overall, our study provides a powerful and explainable deep learning model for predicting MSI status and identifying MSI markers that can potentially be used for clinical MSI evaluation.",
+    "keywords": [
+      "DNA methylation",
+      "MSI markers",
+      "MSI prediction",
+      "explainable graph neural network",
+      "gene expression",
+      "microsatellite instability"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Microsatellite Instability",
+      "*Colorectal Neoplasms/genetics",
+      "Microsatellite Repeats",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "DNA Methylation",
+      "Neural Networks, Computer",
+      "DNA/metabolism",
+      "RNA/metabolism",
+      "Tumor Microenvironment",
+      "DNA-Binding Proteins/metabolism",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Yang",
+        "Wang, Dan",
+        "Wu, Jin",
+        "Yao, Zhanxin",
+        "Shen, Si",
+        "Niu, Chao",
+        "Liu, Ying",
+        "Zhang, Pengcheng",
+        "Wang, Quannian",
+        "Wang, Jinhao",
+        "Li, Hua",
+        "Wei, Xi",
+        "Wang, Xinxing",
+        "Dong, Qingyang"
+      ],
+      "short_names": [
+        "Cao Y",
+        "Wang D",
+        "Wu J",
+        "Yao Z",
+        "Shen S",
+        "Niu C",
+        "Liu Y",
+        "Zhang P",
+        "Wang Q",
+        "Wang J",
+        "Li H",
+        "Wei X",
+        "Wang X",
+        "Dong Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China.",
+        "Department of Bioinformatics, Yicon (Beijing) Biomedical Technology Inc.",
+        "Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China.",
+        "Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China.",
+        "School and Hospital of Stomatology, Tianjin Medical University, Tianjin 300050, China.",
+        "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China.",
+        "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China.",
+        "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China.",
+        "School of Basic Medicine, Jiamusi University.",
+        "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China.",
+        "Department of Diagnostic and Therapeutic Ultrasonography, Tianjin Medical University Cancer Institute and Hospital, Tianjin 300060, China.",
+        "Department of Diagnostic and Therapeutic Ultrasonography, Tianjin Medical University Cancer Institute and Hospital, Tianjin 300060, China.",
+        "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China.",
+        "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Yang",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Yicon (Beijing) Biomedical Technology Inc."
+        ]
+      },
+      {
+        "full_name": "Wu, Jin",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Zhanxin",
+        "short_name": "Yao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Si",
+        "short_name": "Shen S",
+        "identifiers": [],
+        "affiliations": [
+          "School and Hospital of Stomatology, Tianjin Medical University, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Chao",
+        "short_name": "Niu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ying",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pengcheng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Quannian",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Jiamusi University."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinhao",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hua",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic and Therapeutic Ultrasonography, Tianjin Medical University Cancer Institute and Hospital, Tianjin 300060, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xi",
+        "short_name": "Wei X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic and Therapeutic Ultrasonography, Tianjin Medical University Cancer Institute and Hospital, Tianjin 300060, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinxing",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Qingyang",
+        "short_name": "Dong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Medicine, Tianjin Institute of Environmental and Operational Medicine, Tianjin 300050, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Sep 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/14 10:45",
+    "fetched_at": "2026-09-29 08:36:35"
+  },
+  "links": {
+    "cites": [
+      "42576420",
+      "42366266",
+      "41772662",
+      "41588523",
+      "41339875",
+      "40899628",
+      "40885731",
+      "40520341",
+      "40319860",
+      "39335515",
+      "39129364",
+      "38928662"
+    ],
+    "refs": [],
+    "similar": [
+      "37833839",
+      "33992635",
+      "31638937",
+      "29055842",
+      "37269904",
+      "33726687",
+      "37162286",
+      "31292272",
+      "37849256",
+      "38400766",
+      "33608032",
+      "12115503",
+      "31056702",
+      "33028695",
+      "30279230",
+      "33053554",
+      "36350503",
+      "10072435",
+      "18257912",
+      "16784982",
+      "34342050",
+      "17545526",
+      "32466784",
+      "29144791",
+      "15856472",
+      "29669262",
+      "19127559",
+      "37376830",
+      "27980218",
+      "33811727",
+      "26116798",
+      "36142641",
+      "24764661",
+      "37022939",
+      "35567574",
+      "19190129",
+      "16015629",
+      "15613860",
+      "17504984",
+      "33001187",
+      "34024817",
+      "30387329",
+      "32449246",
+      "17192060",
+      "21455990",
+      "30665466",
+      "34916366",
+      "25701956",
+      "31607698",
+      "16106253",
+      "20164541",
+      "31983041",
+      "37372349",
+      "24909058",
+      "17942460",
+      "20967208",
+      "18990764",
+      "36115290",
+      "32822722",
+      "22926706",
+      "32903444",
+      "28874631",
+      "11221863",
+      "31537299",
+      "26875156",
+      "25465415",
+      "11807990",
+      "15118395",
+      "20013806",
+      "15133479",
+      "25472652",
+      "34936649",
+      "14760069",
+      "23648460",
+      "21681432",
+      "22987381",
+      "35230684",
+      "31221124",
+      "21497289",
+      "18230578",
+      "22719182",
+      "33042271",
+      "32176763",
+      "32449172",
+      "31145962",
+      "20200425",
+      "17513808",
+      "33845765",
+      "15528785",
+      "33290824",
+      "22228162",
+      "32428677",
+      "34944430",
+      "31217164",
+      "39341794",
+      "36251352",
+      "39210504",
+      "38662796",
+      "39379462",
+      "39129364",
+      "34888350",
+      "38545192",
+      "36264524",
+      "33648520",
+      "37905956",
+      "35832854",
+      "38327746",
+      "29340115",
+      "37652006",
+      "38594360",
+      "39272269",
+      "35681570",
+      "22112479",
+      "31647522",
+      "37866126",
+      "20353532",
+      "36768373",
+      "38545680",
+      "31160815",
+      "39034305",
+      "38373991",
+      "39226670",
+      "38018033",
+      "34551707",
+      "38420592",
+      "38053026",
+      "38751935",
+      "38903861"
+    ],
+    "review": [
+      "37833839",
+      "31056702",
+      "29144791",
+      "29669262",
+      "24764661",
+      "25701956",
+      "37372349",
+      "17942460",
+      "36115290",
+      "31537299",
+      "26875156",
+      "18230578",
+      "22719182",
+      "15528785",
+      "33290824",
+      "29340115",
+      "35681570",
+      "22112479"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad362",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

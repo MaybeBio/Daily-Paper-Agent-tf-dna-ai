@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "41920894",
+    "doi": "10.1371/journal.pcbi.1014092",
+    "title": "Predictive modeling of gene expression and localization of DNA binding site using deep convolutional neural networks."
+  },
+  "content": {
+    "abstract": "Despite the sequencing revolution, large swaths of the genomes sequenced to date lack any information about the arrangement of transcription factor binding sites on regulatory DNA. Massively Parallel Reporter Assays (MPRAs) have the potential to dramatically accelerate our genomic annotations by making it possible to measure the gene expression levels driven by thousands of mutational variants of a regulatory region. However, the interpretation of such data often assumes that each base pair in a regulatory sequence contributes independently to the overall gene expression. To enable the analysis of this data in a manner that accounts for possible correlations between distant bases along a regulatory sequence, we developed the Deep learning Adaptable Regulatory Sequence Identifier (DARSI). This convolutional neural network leverages MPRA data for training specific models for each operon to predict gene expression levels directly from raw regulatory DNA sequences. By harnessing this predictive capacity, DARSI systematically identifies transcription factor binding sites within regulatory regions at single-base pair resolution. To validate its predictions, we benchmarked DARSI against curated databases, confirming its accuracy in predicting known transcription factor binding sites. Additionally, DARSI predicted novel unmapped binding sites, paving the way for future experimental efforts to confirm the existence of these binding sites and to identify the transcription factors that target those sites. Thus, DARSI provides a new framework for MPRA experimental data analysis, it generates experimentally actionable predictions that can feed iterations of the theory-experiment cycle aimed at reaching a predictive understanding of transcriptional control. Here, we developed a deep learning approach-called DARSI-that leverages these massively parallel reporter assays to predict levels of gene expression from DNA sequences and help locate these important binding sites. By training our model to recognize DNA sequence patterns that affect gene expression, our method not only finds known binding sites with high accuracy, but also predicts new binding sites that call for future experimental scrutiny.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "Convolutional Neural Networks",
+      "Transcription Factors/metabolism/genetics",
+      "*DNA/metabolism/genetics/chemistry",
+      "Deep Learning",
+      "Computational Biology/methods",
+      "Predictive Learning Models",
+      "*Gene Expression/genetics",
+      "Regulatory Sequences, Nucleic Acid/genetics",
+      "Models, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karshenas, Arman",
+        "Roschinger, Tom",
+        "Garcia, Hernan G"
+      ],
+      "short_names": [
+        "Karshenas A",
+        "Roschinger T",
+        "Garcia HG"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5477-1861",
+        "ORCID: 0000-0002-4900-3216",
+        "ORCID: 0000-0002-5212-3649"
+      ],
+      "affiliations": [
+        "Biophysics Graduate Group, University of California at Berkeley, Berkeley, California, United States of America.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America.",
+        "Biophysics Graduate Group, University of California at Berkeley, Berkeley, California, United States of America.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, California, United States of America.",
+        "Department of Physics, University of California, Berkeley, California, United States of America.",
+        "Institute for Quantitative Biosciences-QB3, University of California, Berkeley, California, United States of America.",
+        "Chan Zuckerberg Biohub - San Francisco, San Francisco, California, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karshenas, Arman",
+        "short_name": "Karshenas A",
+        "identifiers": [
+          "0000-0001-5477-1861"
+        ],
+        "affiliations": [
+          "Biophysics Graduate Group, University of California at Berkeley, Berkeley, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Röschinger, Tom",
+        "short_name": "Röschinger T",
+        "identifiers": [
+          "0000-0002-4900-3216"
+        ],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Garcia, Hernan G",
+        "short_name": "Garcia HG",
+        "identifiers": [
+          "0000-0002-5212-3649"
+        ],
+        "affiliations": [
+          "Biophysics Graduate Group, University of California at Berkeley, Berkeley, California, United States of America.",
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, California, United States of America.",
+          "Department of Physics, University of California, Berkeley, California, United States of America.",
+          "Institute for Quantitative Biosciences-QB3, University of California, Berkeley, California, United States of America.",
+          "Chan Zuckerberg Biohub - San Francisco, San Francisco, California, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/01 18:30",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [
+      "42579676"
+    ],
+    "refs": [
+      "39609566",
+      "39394483",
+      "39373482",
+      "38086418",
+      "37103023",
+      "36750742",
+      "36696901",
+      "35886794",
+      "35584008",
+      "35551305",
+      "35428271",
+      "35395867",
+      "35315433",
+      "35080492",
+      "34903827",
+      "34608324",
+      "34265844",
+      "34179082",
+      "33816053",
+      "33754707",
+      "33603233",
+      "33538820",
+      "32955440",
+      "31084583",
+      "30716072",
+      "30423086",
+      "30395280",
+      "29728462",
+      "29588361",
+      "27197224",
+      "26252139",
+      "26213851",
+      "26023687",
+      "26017442",
+      "25549361",
+      "23610404",
+      "23512712",
+      "23503198",
+      "23129659",
+      "22887818",
+      "22371084",
+      "22371081",
+      "20833320",
+      "20439748",
+      "20414472",
+      "19915551",
+      "18952178",
+      "15797194",
+      "12596232",
+      "10812473",
+      "9813115",
+      "7934815"
+    ],
+    "similar": [
+      "41920894",
+      "39763851",
+      "31206543",
+      "42475469",
+      "39724021",
+      "32043966",
+      "40914877",
+      "17377845",
+      "22672438",
+      "34486522",
+      "42478686",
+      "29617928",
+      "28531296",
+      "20808951",
+      "28204611",
+      "31131957",
+      "35652477",
+      "12801640",
+      "41634097",
+      "20838582",
+      "31372637",
+      "34898596",
+      "16756683",
+      "42413033",
+      "20661307",
+      "39701486",
+      "38397134",
+      "24042128",
+      "42099803",
+      "30716072",
+      "35396274",
+      "22369687",
+      "34073774",
+      "33372147",
+      "15262804",
+      "40102719",
+      "30835229",
+      "41799016",
+      "12101405",
+      "40889326",
+      "26694511",
+      "38351929",
+      "38352569",
+      "30423062",
+      "41639451",
+      "25775564",
+      "27257066",
+      "32770026",
+      "27896980",
+      "38701417",
+      "22456606",
+      "29588420",
+      "35891778",
+      "12082130",
+      "40065237",
+      "33074101",
+      "19426448",
+      "29588361",
+      "39076052",
+      "34613923",
+      "34272562",
+      "38848239",
+      "16362910",
+      "36155619",
+      "22863112",
+      "25564104",
+      "19838305",
+      "19583839",
+      "31634140",
+      "37723425",
+      "30261835",
+      "22534400",
+      "21304941",
+      "9697188",
+      "11491305",
+      "20109151",
+      "33522898",
+      "35263332",
+      "25442502",
+      "20079828",
+      "39214282",
+      "38889146",
+      "41518494",
+      "33001599",
+      "10030686",
+      "22609971",
+      "21852305",
+      "12844359",
+      "40245860",
+      "36350674",
+      "12527199",
+      "19594885",
+      "19956545",
+      "34534646",
+      "17233892",
+      "17990512",
+      "31855461",
+      "20439748",
+      "16204087",
+      "35190730"
+    ],
+    "review": [
+      "41920894",
+      "31131957",
+      "35652477"
+    ],
+    "pmc": [
+      "13052891"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1014092",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41920894/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated conclusions. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose a drug repositioning strategy targeting the essential transcription factor HP1043 of *Helicobacter pylori*. Using virtual high-throughput screening (VHTS) of approximately 14,350 known drugs, followed by MMGBSA molecular dynamics and in vitro electrophoretic mobility shift assays (EMSAs), they identify three drugs (temoporfin, tetraethylenepentamine, trientine) that reduce HP1043 DNA-binding activity.
+- **Visible evidence base** Molecular docking results, MMGBSA binding energy calculations, RMSD/RMSF analyses, EMSA gel images (Figures 7, 8, S3), interaction residue tables (Tables 1–3), and supplementary data referenced.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S4) are referenced but not provided in the submitted material. Raw EMSA quantification data, detailed docking scores for all 14,350 molecules, and structural coordinates of the HP1043 model are not included. No data on bacterial viability or MIC/MBC assays are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a coherent workflow combining computational screening and experimental validation to identify potential inhibitors of HP1043. The approach is logical and the results are internally consistent. However, several technical concerns limit the strength of the conclusions, particularly regarding the specificity of the identified compounds, the physiological relevance of the in vitro concentrations used, and the lack of quantitative analysis of EMSA data. The claim that these drugs are promising candidates for *H. pylori* treatment is premature without bacterial-based assays.
+- **Who would be interested in the results, and why** Researchers in antimicrobial drug discovery, particularly those focused on transcription factors as novel targets; computational biologists interested in virtual screening and molecular dynamics workflows; and investigators studying *H. pylori* pathogenesis and antibiotic resistance.
+- **Major strengths** The study addresses a clinically relevant problem (antibiotic resistance in *H. pylori*) with a rational target (essential transcription factor). The combined computational and experimental approach is pragmatic and reduces the number of candidates for downstream testing. The use of both free and DNA-bound protein conformations for screening is thoughtful. The identification of three compounds with reproducible in vitro effects provides a foundation for further optimization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "Three returned promising results showing an appreciable reduction of the DNA-binding activity of HP1043."
+  - **Evidence pointer** Figure 8, Section 3.3
+  - **Concern** The EMSA results are presented qualitatively via gel images, but no quantitative densitometry or statistical analysis is provided. The claim of "appreciable reduction" is subjective and not supported by numerical data. Additionally, the concentrations used (up to 1 mM) are far above typical physiological drug levels, raising questions about the practical relevance of the observed inhibition.
+  - **Why it matters** Without quantitative data, the reader cannot assess the magnitude or reproducibility of the inhibition. The high concentrations required for effect may indicate weak binding or non-specific interactions, which would undermine the translational potential of the findings.
+  - **Resolution test** Provide densitometric quantification of free DNA bands across at least three independent replicates, with error bars and statistical significance testing. Include dose-response curves to determine IC50 values and compare with known therapeutic plasma concentrations of the drugs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of inhibition
+  - **Claim pointer** "These drugs can bind with a high affinity to HP1043."
+  - **Evidence pointer** Section 3.3, Figure 8
+  - **Concern** The manuscript does not demonstrate that the observed inhibition is specific to HP1043. No control experiments with unrelated DNA-binding proteins or mutated HP1043 are shown. The possibility of non-specific DNA intercalation or protein precipitation by the tested compounds is not addressed.
+  - **Why it matters** Non-specific effects would invalidate the conclusion that these drugs target HP1043 specifically. The authors themselves note that some compounds bound to DNA in silico, yet they did not exclude all such compounds from testing.
+  - **Resolution test** Include EMSA experiments with a non-specific DNA-binding protein (e.g., a bacterial histone-like protein) to show that the drugs do not inhibit DNA binding generally. Additionally, test the drugs against a mutant HP1043 lacking the proposed binding pocket to confirm target engagement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology
+  - **Claim pointer** "The obtained computational binding energy was comparable to the published results."
+  - **Evidence pointer** Section 3.1.2, Supplementary Table S3
+  - **Concern** The comparison with published docking results is described only in text, and the supplementary table is not available in the submitted material. The docking protocol used here differs from the literature (dimeric vs. monomeric target), yet the authors claim comparability without a detailed side-by-side analysis. The selection criteria for the final 13 compounds are not fully transparent.
+  - **Why it matters** The validity of the computational screening depends on the reliability of the docking and scoring functions. Without access to the comparative data and a clear description of the selection thresholds, the reproducibility of the in silico results cannot be evaluated.
+  - **Resolution test** Provide the full comparative table (Supplementary Table S3) and explicitly state the docking score cutoffs, cluster size thresholds, and any other filters used to select the 13 compounds for MD simulation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** "These three compounds can be considered to propose new molecules for *H. pylori* treatment."
+  - **Evidence pointer** Section 4, Discussion
+  - **Concern** The manuscript concludes with a suggestion that these drugs could be repurposed for *H. pylori* treatment, but no experiments on bacterial cultures are presented. The authors acknowledge this limitation but do not temper the conclusion accordingly. The lack of MIC/MBC data or any assessment of drug toxicity against human cells is a significant gap.
+  - **Why it matters** The translational claim is the primary motivation for the study. Without evidence that the drugs inhibit *H. pylori* growth or viability, the practical significance of the findings remains speculative.
+  - **Resolution test** Perform minimum inhibitory concentration (MIC) and minimum bactericidal concentration (MBC) assays against *H. pylori* strains, including clarithromycin-resistant isolates. Include cytotoxicity assays against gastric epithelial cells to assess therapeutic index.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, Molecular Docking
+  - **Evidence pointer** "a docking box of 126 × 126 × 126 points, with a spacing of 0.375 Å, was centered on the protein–DNA complex, including almost the whole complex, excluding the DNA underside"
+  - **Issue** The description of the docking box is ambiguous. "Excluding the DNA underside" is unclear, and the rationale for this choice is not explained.
+  - **Required correction** Clarify the exact dimensions and positioning of the docking box, and justify why the DNA underside was excluded.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2, Section 3.2
+  - **Issue** The table lists binding energies and interaction residues but does not include standard deviations or confidence intervals for the MMGBSA calculations. The number of MD replicates is not stated.
+  - **Required correction** Report the mean and standard deviation of binding energies from multiple independent MD runs, and specify the number of replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 3.3, "inibition"
+  - **Evidence pointer** "The EMSA is a versatile and sensitive tool for detecting protein–nucleic acid interaction and its inibition."
+  - **Issue** Typographical error: "inibition" should be "inhibition."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** "Essential transcription factors are appealing targets for the development of new antibiotics (González et al., 2018)."
+  - **Issue** The statement is general and could benefit from a more specific discussion of why transcription factors are underexploited as antibiotic targets compared to enzymes or ribosomes.
+  - **Required correction** Expand the introduction to briefly discuss the challenges and opportunities of targeting transcription factors, citing relevant reviews or primary literature.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative EMSA data), R1-M2 (specificity controls), R1-M3 (transparent computational selection criteria), R1-M4 (bacterial-based validation).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of drug repositioning to a bacterial transcription factor is not entirely novel, but the specific focus on HP1043 and the combined VHTS/MD/EMSA workflow is a reasonable contribution to the field.
+  - **Scientific importance** Moderate. The clinical problem is significant, but the study does not yet demonstrate that the identified compounds have therapeutic potential. The findings are preliminary and require substantial follow-up.
+  - **Interdisciplinary readership** Limited. The manuscript will primarily appeal to specialists in *H. pylori* biology and computational drug discovery. The lack of bacterial validation limits broader interest.
+  - **Technical soundness** The computational methods are generally sound, but the lack of quantitative experimental data and specificity controls weakens the technical foundation. The docking and MD protocols are described in sufficient detail for replication, but the selection criteria are not fully transparent.
+  - **Readability for nonspecialists** The manuscript is clearly written and accessible, with a logical flow from rationale to methods to results. However, the discussion of computational details may be challenging for readers without a bioinformatics background.
+- **Recommendation posture** Currently not established from the provided evidence. The computational screening is a useful starting point, but the experimental validation is insufficient to support the claim that these drugs are promising candidates for *H. pylori* treatment. The manuscript requires major revisions, including quantitative EMSA analysis, specificity controls, and bacterial-based assays, before the conclusions can be considered robust.
+
+## Risk / unsupported claims
+- The claim that the three identified drugs "can bind with a high affinity to HP1043" is unsupported by direct binding affinity measurements (e.g., ITC, SPR) and relies on indirect computational and EMSA evidence.
+- The statement that "these drugs can be considered to propose new molecules for *H. pylori* treatment" is premature without MIC/MBC data or in vivo efficacy studies.
+- The assertion that the computational binding energies are "comparable to the published results" cannot be verified without access to Supplementary Table S3.
+- The claim that HP1043 is "a stable protein" due to evolutionary pressure is speculative and not directly tested in this study.

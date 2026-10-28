@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract reports that Au(25)AcCys(18) gold nanoclusters preserve viability in human microglia, iPSC-derived neurons, and SH-SY5Y cells; reduce intracellular ROS; modulate abundance and location of acetylated HMGB1 (acHMGB1); and interact with TFEB, which in turn interacts with HMGB1, as supported by chemical, biological, and computational methods.
+- **Visible evidence base** Abstract text only; methods named include computational modeling, proximity ligation assay, AlphaFold, immunocytochemistry, and CellROX live imaging. No quantitative data, controls, or statistical details are provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, raw data, and supplementary information are not available. The abstract does not specify effect sizes, sample sizes, or significance thresholds.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting set of observations on the effects of Au(25)AcCys(18) in human neural cells, with a plausible mechanistic link involving TFEB and HMGB1. However, the evidence base is too limited to evaluate the robustness of the claims. The central assertion that Au(25)AcCys(18) "normalize" intracellular ROS is not supported by the abstract alone, as no baseline or comparison data are shown. The claim regarding acHMGB1 abundance is similarly under-specified. The computational and experimental methods are listed but not integrated into a coherent quantitative narrative. The work may be of interest to researchers in nanomedicine and neurobiology, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in nanomedicine, particularly those studying gold nanoclusters for therapeutic applications; neurobiologists investigating oxidative stress and neuroinflammation; and scientists working on HMGB1 biology and TFEB-mediated stress responses. The potential to modulate ROS and alarmin signaling in human neurons could appeal to those developing treatments for neurological disorders.
+- **Major strengths** The study addresses a relevant and timely question about the effects of gold nanoclusters in human neural cells, moving beyond common cancer cell models. The combination of experimental and computational approaches is commendable. The focus on human iPSC-derived neurons adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that Au(25)AcCys(18) "normalize" intracellular ROS in treated cells.
+  - **Evidence pointer** Abstract text, "reduction of ROS in cells treated with Au(25)AcCys(18) (CellROX live imaging)"; location not provided
+  - **Concern** The term "normalize" implies a return to a baseline or control level, but the abstract provides no quantitative data, no comparison to untreated or stressed conditions, and no indication of the magnitude of ROS reduction. It is unclear whether the reduction is statistically significant, dose-dependent, or consistent across the three cell types.
+  - **Why it matters** The central therapeutic premise of the study appears to rest on ROS modulation. Without quantitative evidence, the claim of normalization is not established, and the biological significance cannot be assessed.
+  - **Resolution test** Provide quantitative ROS measurements (e.g., mean fluorescence intensity) with appropriate controls, statistical tests, and effect sizes for each cell type. Show whether ROS levels in treated cells are statistically indistinguishable from untreated controls under basal or induced stress conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims modulation of the abundance and location of acHMGB1 by Au(25)AcCys(18).
+  - **Evidence pointer** Abstract text, "modulation of the abundance and location of acHMGB1 by Au(25)AcCys(18) (immunocytochemistry)"; location not provided
+  - **Concern** The direction and magnitude of the modulation are not specified. It is unclear whether acHMGB1 abundance increases or decreases, in which cellular compartment the changes occur, and whether these changes are consistent across cell types. The abstract also does not state whether the observed changes are functionally linked to the ROS reduction or to TFEB interactions.
+  - **Why it matters** The claim of acHMGB1 modulation is a key mechanistic element. Without specifying the nature of the change and its relationship to other observations, the proposed mechanism remains speculative.
+  - **Resolution test** Provide representative images and quantitative analysis of acHMGB1 fluorescence intensity and localization, with statistical comparisons across conditions. Clarify whether changes are nuclear, cytoplasmic, or both, and whether they correlate with ROS levels or TFEB activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The abstract states that computational methods show interactions between Au(25)AcCys(18) and TFEB, and between TFEB and HMGB1.
+  - **Evidence pointer** Abstract text, "interactions between Au(25)AcCys(18) and transcription factor TFEB (computational approach), interactions between TFEB and HMGB1 (proximity ligation assay and molecular modeling using AlphaFold)"; location not provided
+  - **Concern** The abstract does not clarify whether the Au(25)AcCys(18)-TFEB interaction is a direct binding event or an indirect effect, nor does it specify the nature of the TFEB-HMGB1 interaction (e.g., stable complex vs. transient). The proximity ligation assay is mentioned but no results are described. The computational predictions are not validated experimentally.
+  - **Why it matters** The proposed mechanistic chain from Au(25)AcCys(18) to TFEB to HMGB1 to ROS reduction is central to the study's novelty. Without clear evidence for each link, the mechanism is not established.
+  - **Resolution test** Provide details on the computational methods (e.g., docking scores, binding affinities) and experimental validation (e.g., co-immunoprecipitation, mutagenesis). Clarify whether the TFEB-HMGB1 interaction is confirmed by the proximity ligation assay and whether it is altered by Au(25)AcCys(18) treatment.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Cell type description
+  - **Evidence pointer** Abstract text, "human iPSC-derived neurons and SH-SY5Y differentiated human neuronal cells"; location not provided
+  - **Issue** The abstract lists three cell types but does not explain why both iPSC-derived neurons and SH-SY5Y cells are used. The relationship between these models is unclear.
+  - **Required correction** Briefly state the rationale for using both models, such as validation of findings in a more physiologically relevant system versus a scalable cell line.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "normalize"
+  - **Evidence pointer** Abstract text, "normalize intracellular ROS"; location not provided
+  - **Issue** The term "normalize" is ambiguous and may overstate the findings without quantitative support.
+  - **Required correction** Replace with a more neutral term such as "reduce" or "modulate" unless baseline and post-treatment comparisons are explicitly shown.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Viability claim
+  - **Evidence pointer** Abstract text, "well-retained viability"; location not provided
+  - **Issue** The abstract does not specify the concentration range or exposure time for Au(25)AcCys(18) treatments, nor the assay used to assess viability.
+  - **Required correction** Provide the concentration range, exposure duration, and viability assay details in the abstract or refer to specific figures.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of ROS normalization and acHMGB1 modulation are not quantitatively supported. R1-M3 is not blocking but requires clarification to establish the mechanistic chain.
+- **Assessment against Nature-style criteria** 
+  - Originality: The use of Au(25)AcCys(18) in human neurons and the focus on acHMGB1 are somewhat novel, but the abstract does not demonstrate a clear advance over existing nanocluster studies.
+  - Scientific importance: The potential to modulate ROS and alarmin signaling in human neural cells is of interest, but the significance is not established without quantitative evidence.
+  - Interdisciplinary readership: The combination of chemistry, biology, and computation could appeal to a broad audience, but the abstract is too brief to engage nonspecialists.
+  - Technical soundness: The methods are named but not described in sufficient detail to assess rigor. No data are shown.
+  - Readability for nonspecialists: The abstract is concise but uses specialized terms (e.g., acHMGB1, TFEB) without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and mechanistic detail required to support the claims. A revised version with full data, controls, and statistical analyses could change this assessment.
+
+## Risk / unsupported claims
+- The claim that Au(25)AcCys(18) "normalize" intracellular ROS is unsupported without quantitative data and baseline comparisons.
+- The claim of acHMGB1 modulation is unsupported without specifying direction, magnitude, or localization.
+- The interaction between Au(25)AcCys(18) and TFEB is presented as a finding but is only described as computational, with no experimental validation.
+- The functional link between TFEB-HMGB1 interaction and ROS reduction is not established.
+- The statement that these findings "encourage further studies" is an interpretation, not a data-driven conclusion, and is not assessable from the abstract.

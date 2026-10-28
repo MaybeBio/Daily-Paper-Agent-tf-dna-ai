@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41686649",
+  "title": "iDLDDG: predicting protein stability changes from missense mutations in DNA-binding proteins using integrated deep learning features.",
+  "authors": "Yu, Xuan; Ge, Fang; Yu, Dong-Jun; Deng, Zhaohong",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-02-13",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习整合蛋白语言模型特征预测DNA结合蛋白错义突变对蛋白-DNA结合亲和力稳定性的影响，虽聚焦突变效应而非TF-DNA特异性结合机制，但对象为蛋白-DNA互作且方法可迁移至TF-DNA体系。",
+  "abstract": "To understand disease mechanisms and advance therapies, accurately predicting how missense mutations alter protein-DNA binding affinity is critical. Many existing models neglect the unique characteristics of missense mutations in both double-stranded DNA-binding proteins (DSBs) and single-stranded DNA-binding proteins (SSBs). To address this issue, we constructed a comprehensive dataset from diverse sources. By leveraging sequence-based embeddings from pretrained protein language models including ESM2, ProtTrans, and ESM1v, we developed iDLDDG, a deep learning framework that integrates multi-scale structural and evolutionary information via a multi-channel architecture. To balance residue-wise information density against entropy, our entropy-based algorithm determined 181 residues as optimal for modeling biophysical constraints. This approach enhances predictive accuracy and computational efficiency, thereby supporting large-scale assessments of mutation effects in DNA-binding proteins. iDLDDG achieves state-of-the-art performance, with a 10-fold cross-validation PCC of 0.755 on MPD276 and 0.632 on independent test sets encompassing both DSBs and SSBs, significantly surpassing existing methods. By establishing the first computational framework that rigorously differentiates DSB and SSB mutation mechanisms, our work provides a foundation for high-accuracy prediction of pathological mutations in DNA-binding proteins.",
+  "abstract_zh": "为了理解疾病机制并推进治疗，准确预测错义突变如何改变蛋白质-DNA结合亲和力至关重要。许多现有模型忽视了双链DNA结合蛋白（DSBs）和单链DNA结合蛋白（SSBs）中错义突变的独特特征。为解决此问题，我们从多种来源构建了一个全面的数据集。通过利用来自预训练蛋白质语言模型（包括ESM2、ProtTrans和ESM1v）的基于序列的嵌入，我们开发了iDLDDG，这是一个通过多通道架构整合多尺度结构和进化信息的深度学习框架。为了在残基级信息密度与熵之间取得平衡，我们基于熵的算法确定181个残基为模拟生物物理约束的最优选择。这种方法提高了预测准确性和计算效率，从而支持对DNA结合蛋白中突变效应的大规模评估。iDLDDG实现了最先进的性能，在MPD276上的10折交叉验证PCC为0.755，在包含DSBs和SSBs的独立测试集上为0.632，显著超越了现有方法。通过建立首个严格区分DSB和SSB突变机制的计算框架，我们的工作为高精度预测DNA结合蛋白中的病理性突变奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41686649/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41686649/",
+  "paper_page_path": "papers/pubmed/41686649/index.html"
+}

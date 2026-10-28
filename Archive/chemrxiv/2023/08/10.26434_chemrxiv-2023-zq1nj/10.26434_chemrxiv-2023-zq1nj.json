@@ -1,0 +1,330 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-zq1nj",
+  "title": "Prediction of Absolute Protein-Protein Binding Free Energy by a Super Learner Model",
+  "doi": "10.26434/chemrxiv-2023-zq1nj",
+  "abstract": "Predicting the strength of protein-protein association allows for understanding the molecular mechanisms, and ultimately controlling it. We devised a novel model to predict protein-protein binding free energies. A machine learning ensemble algorithm uses Rosetta-based quantities to predict binding free energies with unprecedented accuracy, rivaling the most computationally demanding methods available.",
+  "authors": [
+    "Elton Chaves",
+    "Emmanuel Mhrous",
+    "Manasses Nascimento-Filho",
+    "Carlos Cruz",
+    "Matheus Ferraz",
+    "Roberto Lins"
+  ],
+  "published_date": "2023-08-14",
+  "updated_date": "2023-08-14T07:14:29Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-zq1nj",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-zq1nj",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T08:58:41Z",
+        "timestamp": 1785401921296,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                14
+              ]
+            ],
+            "date-time": "2023-08-14T00:00:00Z",
+            "timestamp": 1691971200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100003593",
+          "name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "303833/2022-0 and INCT-FCx"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "303833/2022-0 and INCT-FCx"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003593",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Predicting the strength of protein-protein association allows for understanding the molecular mechanisms, and ultimately controlling it. We devised a novel model to predict protein-protein binding free energies. A machine learning ensemble algorithm uses Rosetta-based quantities to predict binding free energies with unprecedented accuracy, rivaling the most computationally demanding methods available.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-zq1nj",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2023-08-14T07:14:29Z",
+        "timestamp": 1691997269000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Prediction of Absolute Protein-Protein Binding Free Energy by a Super Learner Model"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Elton",
+          "family": "Chaves",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04jhswv08",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Oswaldo Cruz Foundation",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emmanuel",
+          "family": "Mhrous",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00hx57361",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Princeton University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Manasses",
+          "family": "Nascimento-Filho",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/047908t24",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Federal University of Pernambuco",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carlos",
+          "family": "Cruz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04jhswv08",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Oswaldo Cruz Foundation",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matheus",
+          "family": "Ferraz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05hxss661",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "NEC (Germany)",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3983-8025",
+          "authenticated-orcid": false,
+          "given": "Roberto",
+          "family": "Lins",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04jhswv08",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Oswaldo Cruz Foundation",
+              "place": [
+                "Brazil"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-zq1nj",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T08:40:15Z",
+        "timestamp": 1778748015000
+      },
+      "score": 112.03982,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-zq1nj"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-zq1nj",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

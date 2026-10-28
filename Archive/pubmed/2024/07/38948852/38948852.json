@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "38948852",
+    "doi": "10.1101/2024.06.19.599799",
+    "title": "Single-cell multi-omics analysis reveals cooperative transcription factors for gene regulation in oligodendrocytes."
+  },
+  "content": {
+    "abstract": "Oligodendrocytes are the myelinating cells within the central nervous system. Many oligodendrocyte genes have been associated with brain disorders. However, how transcription factors (TFs) cooperate for gene regulation in oligodendrocytes remains largely uncharacterized. To address this, we integrated scRNA-seq and scATAC-seq data to identify the cooperative TFs that co-regulate the target gene (TG) expression in oligodendrocytes. First, we identified co- binding TF pairs whose binding sites overlapped in oligodendrocyte-specific regulatory regions. Second, we trained a deep learning model to predict the expression level of each TG using the expression levels of co-binding TFs. Third, using the trained models, we computed the TF importance and TF-TF interaction scores for predicting TG expression by the Shapley interaction scores. We found that the co-binding TF pairs involving known important TF pairs for oligodendrocyte differentiation, such as SOX10-TCF12, SOX10-MYRF, and SOX10-OLIG2, exhibited significantly higher Shapley scores than others (t-test, p-value < 1e-4). Furthermore, we identified 153 oligodendrocyte-associated eQTLs that reside in oligodendrocyte-specific enhancers or promoters where their eGenes (TGs) are regulated by cooperative TFs, suggesting potential novel regulatory roles from genetic variants. We also experimentally validated some identified TF pairs such as SOX10-OLIG2 and SOX10-NKX2.2 by co-enrichment analysis, using ChIP-seq data from rat peripheral nerve.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choi, Jerome J",
+        "Svaren, John",
+        "Wang, Daifeng"
+      ],
+      "short_names": [
+        "Choi JJ",
+        "Svaren J",
+        "Wang D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9190-3704"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Choi, Jerome J",
+        "short_name": "Choi JJ",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Svaren, John",
+        "short_name": "Svaren J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Daifeng",
+        "short_name": "Wang D",
+        "identifiers": [
+          "0000-0001-9190-3704"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jun 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/01 06:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38948852",
+      "39910206",
+      "25974668",
+      "27532821",
+      "30730593",
+      "30709337",
+      "25559499",
+      "26679776",
+      "17098222",
+      "37805453",
+      "30598100",
+      "25680202",
+      "31828317",
+      "25887857",
+      "19956545",
+      "36318265",
+      "34172044",
+      "35229021",
+      "24565265",
+      "37546716",
+      "15749939",
+      "38653489",
+      "24204311",
+      "36477827",
+      "16673374",
+      "37174652",
+      "32825662",
+      "40240607",
+      "34480425",
+      "33104784",
+      "38546197",
+      "38940155",
+      "35983231",
+      "34385359",
+      "29226599",
+      "39326643",
+      "29382710",
+      "32054475",
+      "39796242",
+      "17971223",
+      "36114445",
+      "32858223",
+      "39218853",
+      "20885955",
+      "29034508",
+      "16844711",
+      "25564492",
+      "20959288",
+      "15930386",
+      "27723773",
+      "30016330",
+      "32394660",
+      "39878527",
+      "28344151",
+      "38260638",
+      "39944799",
+      "34864886",
+      "37090616",
+      "30142147",
+      "36200779",
+      "30217225",
+      "32574834",
+      "24821492",
+      "15102707",
+      "16400659",
+      "18184726",
+      "28008225",
+      "16324829",
+      "34324186",
+      "23847101",
+      "15523643",
+      "19780200",
+      "37926287",
+      "39201442",
+      "24962804",
+      "39152038",
+      "37682477",
+      "20229602",
+      "35757392",
+      "38995010",
+      "21172055",
+      "37873117",
+      "39588827",
+      "34426111",
+      "29396371",
+      "19079603",
+      "30359306",
+      "32615918",
+      "29791837",
+      "14627835",
+      "36738683",
+      "29074959",
+      "27821050",
+      "25294244",
+      "24039567",
+      "16982645",
+      "34953471",
+      "33425492",
+      "22064487",
+      "37191854"
+    ],
+    "review": [
+      "38948852",
+      "30730593"
+    ],
+    "pmc": [
+      "11213031"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38948852/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3480",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.06.19.599799",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

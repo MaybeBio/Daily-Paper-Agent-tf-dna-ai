@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report a label-free electrochemical impedance spectroscopy (EIS) biosensing platform to screen inhibitors of the MRSA global regulator SarA. They identify gamma-mangostin (gamma-MG) as a potent SarA inhibitor, supported by molecular dynamics (MD) simulations, antimicrobial and anti-biofilm assays, milk decontamination experiments, fluorescence quenching, EIS responses, transcriptomic comparisons with a DeltasarA mutant, and animal infection models. The authors conclude that gamma-MG offers an integrated strategy for controlling MRSA biological contamination.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full methods, all numerical data beyond those cited in the abstract, MD simulation details, transcriptomic datasets, animal model protocols, statistical analyses, and any control experiment descriptions
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integrated approach combining biosensor-based screening with a natural product candidate against MRSA. The concept of targeting SarA as a regulatory hub is scientifically sound and the multi-pronged characterization is ambitious. However, the abstract alone provides insufficient detail to verify the robustness of the key claims, particularly regarding the specificity of gamma-MG for SarA, the quantitative EIS data, the transcriptomic interpretation, and the translational relevance of the animal and milk studies. The case is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in antimicrobial resistance, specifically those focused on MRSA virulence regulation and anti-virulence strategies; scientists working on natural product screening and biosensor development for drug discovery; food safety and dairy industry researchers concerned with decontamination of pathogenic bacteria; and investigators interested in electrochemical biosensing applications for protein-ligand interactions.
+- **Major strengths** The targeting of SarA as a central regulator of multiple MRSA hazard determinants is a well-justified and strategic approach. The integration of a screening platform with downstream validation across molecular, cellular, and in vivo levels is comprehensive. The use of a food-derived natural compound aligns with green antimicrobial and food safety priorities. The inclusion of transcriptomic comparison with a DeltasarA mutant provides a mechanistic layer that strengthens the proposed mode of action.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and mechanism of action
+  - **Claim pointer** gamma-MG was identified as a potent SarA inhibitor and MD simulations revealed stable engagement with residues VAL68 and VAL92 in the DNA-binding domain.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that gamma-MG inhibits SarA based on EIS screening, MD simulations, and fluorescence quenching, but no data are shown to establish binding specificity. It is unclear whether gamma-MG binds SarA selectively over other staphylococcal proteins or unrelated targets. The MD simulation results are described qualitatively without free energy calculations, binding constants, or comparison to known SarA inhibitors beyond Morin.
+  - **Why it matters** Without demonstrated specificity, the proposed mechanism of action remains correlative. Off-target effects could explain the antimicrobial and anti-biofilm activities, undermining the central claim that SarA is the functional target. The EIS response difference between gamma-MG and Morin is reported but not contextualized with replicate variability or a negative control compound.
+  - **Resolution test** Provide binding affinity measurements (e.g., ITC, SPR, or MST), competitive binding assays with a known DNA-binding competitor, mutagenesis of VAL68 and VAL92 to confirm their role, and a negative control compound in the EIS and fluorescence assays to demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data and statistical rigor
+  - **Claim pointer** gamma-MG markedly reduced MRSA viability (MIC=8 mug/mL), inhibited biofilm formation, effectively eliminated MRSA in milk, and elicited a substantially greater impedance response (DeltaZ'=6.442 kOmega) relative to Morin (DeltaZ'=1.614 kOmega).
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports single-point values for MIC and DeltaZ' without any indication of replicates, error bars, statistical tests, or experimental conditions. The term "markedly reduced" and "effectively eliminated" are qualitative and not supported by quantitative outcomes such as log reduction, percent inhibition, or time-kill kinetics. The milk decontamination result lacks context on initial inoculum, treatment duration, temperature, and residual bacterial counts.
+  - **Why it matters** Reproducibility and statistical significance are foundational for any claim of antimicrobial efficacy. Single values without variance cannot be assessed for reliability. The comparison with Morin as a positive control requires demonstration that the difference is statistically significant and not within experimental noise.
+  - **Resolution test** Provide full datasets with replicate numbers, standard deviations, statistical tests (e.g., ANOVA or t-tests with correction for multiple comparisons), and detailed experimental conditions for MIC, biofilm, milk decontamination, and EIS measurements. Include dose-response curves and time-course data where applicable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Transcriptomic interpretation
+  - **Claim pointer** Transcriptomic and bioinformatic analyses revealed broad perturbation of SarA-regulated pathways, a profile closely resembling that of the DeltasarA mutant.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the transcriptomic profile of gamma-MG-treated MRSA resembles that of the DeltasarA mutant, but no metrics of similarity are provided. It is unclear whether this resemblance is based on global transcriptomic correlation, overlap of differentially expressed genes, or pathway-level enrichment. The number of biological replicates, sequencing depth, differential expression thresholds, and how the comparison to the mutant was quantified are all absent.
+  - **Why it matters** The claim of pathway-level mimicry of a genetic knockout is a strong mechanistic assertion. Without quantitative similarity metrics and appropriate statistical controls, the resemblance could be coincidental or driven by a small subset of genes. This claim is central to validating SarA as the functional target.
+  - **Resolution test** Provide a quantitative comparison such as a correlation coefficient of expression changes, a gene set enrichment analysis with significance thresholds, a Venn diagram of overlapping differentially expressed genes, and a statement on how the DeltasarA mutant was generated and validated. Include replicate numbers and statistical criteria for differential expression.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and translational relevance
+  - **Claim pointer** Animal infection models confirmed the therapeutic efficacy and decontamination capacity of gamma-MG against MRSA.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the animal model used, including species, infection route, bacterial challenge dose, treatment regimen, dosing route, or endpoints. The terms "therapeutic efficacy" and "decontamination capacity" are not defined with quantitative outcomes such as survival rates, bacterial burden reduction, or tissue pathology scores. No toxicity or safety data for gamma-MG in animals are mentioned.
+  - **Why it matters** In vivo claims carry high translational weight and require rigorous experimental design and reporting. Without model specifics and quantitative endpoints, the efficacy claim cannot be evaluated. The absence of toxicity data raises questions about the therapeutic window and practical applicability.
+  - **Resolution test** Provide full animal study details, including ethical approval, sample sizes, statistical methods, survival curves, bacterial load data from target organs, histopathology, and any toxicity assessments. Define "decontamination" operationally and report quantitative outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Integrated control" and "all-round control"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The terms "integrated control" and "all-round control" are used without a clear operational definition. It is ambiguous whether this refers to combined detection and treatment, multi-mechanism action, or coverage of multiple MRSA phenotypes.
+  - **Required correction** Define these terms explicitly in the abstract or introduction, specifying which aspects of MRSA contamination are addressed and how the platform integrates them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Unit consistency
+  - **Affected element** MIC value
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The MIC is reported as 8 mug/mL, but no assay conditions are given, such as medium, inoculum size, incubation time, or whether this is a planktonic or biofilm MIC. Standardization is needed for comparability.
+  - **Required correction** Specify the MIC assay protocol, including the reference standard used (e.g., CLSI or EUCAST), and clarify whether the value applies to planktonic cells or biofilms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparative context
+  - **Affected element** Positive control Morin
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Morin is used as a positive control, but its known activity against SarA or MRSA is not described. The reader cannot assess whether Morin is an appropriate comparator.
+  - **Required correction** Briefly state the rationale for choosing Morin as a positive control, including any prior evidence of its SarA-binding or antimicrobial activity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure and data availability
+  - **Affected element** All reported results
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No figure or table references are provided in the abstract, and no supplementary data are mentioned. This limits the reader's ability to locate supporting evidence.
+  - **Required correction** Add figure or table citations in the abstract where appropriate, and state that full datasets are available in the main text or supplementary materials.
+
+## Risk / unsupported claims
+- The claim that gamma-MG is a "potent SarA inhibitor" is unsupported without binding affinity data or specificity controls.
+- The claim that MD simulations showed stable engagement with VAL68 and VAL92 is unverifiable without simulation parameters, trajectory analyses, or binding free energy calculations.
+- The claim that gamma-MG "effectively eliminated MRSA in milk" is unsupported without quantitative bacterial counts, treatment conditions, and statistical analysis.
+- The claim that the transcriptomic profile "closely resembles" that of the DeltasarA mutant is unsupported without quantitative similarity metrics.
+- The claim that animal models confirmed "therapeutic efficacy and decontamination capacity" is unsupported without model details, endpoints, or quantitative outcomes.
+- The EIS-based screening platform is described as "sensitive" and "label-free," but no analytical performance metrics such as limit of detection, dynamic range, or reproducibility are provided.
+- The overall conclusion of an "integrated strategy" for MRSA control is not fully supported by the abstract alone, as the linkage between the biosensor screening and the downstream validation is not explicitly demonstrated.

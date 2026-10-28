@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report acute toxicity measurements for 23 disinfection byproducts (DBPs) against *Vibrio fischeri*, propose mechanistic distinctions among quinone, phenolic, and haloacetic acid DBPs, use molecular docking and dynamics to implicate the quorum-sensing regulator LuxR as a toxicity target, and develop mechanism-based QSAR models with reported predictive performance.
+- **Visible evidence base** Abstract text only; no numerical data, model equations, validation details, or experimental protocols are visible
+- **Missing materials affecting confidence** Full methods, toxicity data tables, QSAR model details, docking and simulation parameters, statistical validation procedures, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially valuable framework linking DBP toxicity to mechanistic modes of action and QSAR modeling. However, the evidence base visible in the abstract is insufficient to evaluate the robustness of the experimental measurements, the validity of the mechanistic interpretations, or the reliability of the QSAR models. Several claims, particularly regarding LuxR as a toxicity target and the mechanistic assignment of excess toxicity, require detailed supporting data that are not available in the abstract.
+- **Who would be interested in the results, and why** Environmental toxicologists and risk assessors concerned with disinfection byproduct ecotoxicity, particularly in marine systems; computational chemists and modelers working on mechanism-based QSAR; researchers studying bacterial quorum sensing as a toxicity endpoint; regulatory scientists evaluating ecological risks of DBPs in coastal waters.
+- **Major strengths** The study addresses a timely environmental concern linked to pandemic-era disinfectant use. The integration of experimental toxicity data with molecular simulation and QSAR modeling is methodologically ambitious. The proposed mechanistic differentiation among DBP classes, if well supported, could improve predictive toxicity assessment beyond purely empirical approaches.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that molecular docking and dynamics simulations suggest DBPs interact with multiple proteins in *V. fischeri*, with LuxR proposed as a potential target contributing to luminescence inhibition.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative or qualitative details on the docking scores, binding affinities, simulation stability, or comparison with known ligands or negative controls. The claim that LuxR is a "potential target" is presented without supporting metrics or statistical significance.
+  - **Why it matters** Without evidence that LuxR binding is specific, energetically favorable, and functionally relevant, the proposed mechanistic link between receptor interaction and luminescence inhibition remains speculative. This is a central mechanistic claim that cannot be assessed from the abstract.
+  - **Resolution test** Provide docking scores, binding free energies, simulation convergence data, and ideally mutagenesis or functional assays demonstrating that LuxR disruption correlates with toxicity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The abstract claims the QSAR models show strong predictive power with R(2) = 0.917 and Q(2) = 0.798 and mechanistic interpretability.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The reported R(2) and Q(2) values are presented without information on the number of compounds in training and test sets, the validation protocol (e.g., leave-one-out, external test set), the descriptor selection method, or the risk of overfitting given only 23 compounds. The claim of "mechanistic interpretability" is not substantiated with specific descriptor contributions or model equations.
+  - **Why it matters** QSAR models with high internal fit can be misleading if not rigorously validated externally. With only 23 compounds across three chemical classes, the model's generalizability and the stability of the reported statistics are uncertain.
+  - **Resolution test** Provide full model equations, descriptor definitions, training/test split details, external validation results, and applicability domain analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The abstract claims that excess toxicity analysis indicated Q-DBPs mainly act through electrophilic and redox reactions, whereas HAAs primarily undergo nucleophilic substitution (SN2).
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The assignment of specific reaction mechanisms based on excess toxicity is presented as a definitive conclusion, but the abstract does not describe the baseline toxicity model used for excess toxicity calculation, the criteria for mechanism assignment, or whether alternative mechanisms were considered.
+  - **Why it matters** Mechanistic assignments drive the entire QSAR framework. If the excess toxicity baseline or the mechanism classification criteria are not transparent, the subsequent model development and interpretation may be built on unsupported assumptions.
+  - **Resolution test** Describe the baseline model, the excess toxicity threshold used, and provide evidence (e.g., reactivity descriptors, known reaction chemistry) supporting each mechanistic assignment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Toxicity ordering claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that toxicity followed the order Q-DBPs > P-DBPs > HAAs and was "further influenced by halogenation patterns, solubility, and lipophilicity" is vague. It is unclear whether these factors were tested statistically or merely observed qualitatively.
+  - **Required correction** Specify the statistical analysis used to establish the ordering and the quantitative contribution of each physicochemical factor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how the 23 DBPs were selected or whether they are representative of environmentally relevant concentrations and mixtures.
+  - **Required correction** Briefly describe the selection criteria and environmental relevance of the chosen DBPs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Mechanism-based QSAR"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "mechanism-based" is used but not defined. It is unclear whether this refers to descriptors derived from mechanistic hypotheses, inclusion of receptor-binding parameters, or something else.
+  - **Required correction** Define what makes the QSAR "mechanism-based" and how this differs from conventional QSAR approaches.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (LuxR target claim unsupported), R1-M2 (QSAR validation insufficiently described), R1-M3 (mechanistic assignment lacks transparency)
+- **Assessment against Nature-style criteria** Originality: The integration of molecular simulation with QSAR for DBP toxicity in a marine bacterium is moderately original, though similar approaches exist in the broader ecotoxicology literature. Scientific importance: The topic is relevant to environmental risk assessment, but the significance is not yet established from the abstract alone. Interdisciplinary readership: The work bridges environmental chemistry, computational biology, and toxicology, which could appeal to a broad audience if fully developed. Technical soundness: Cannot be assessed from the abstract; the reported statistics and mechanistic claims require full methodological transparency. Readability for nonspecialists: The abstract is generally clear, though terms like "excess toxicity" and "SN2" may require contextual explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the central mechanistic claims and model validation are not assessable without full methods and data. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that LuxR is a potential target contributing to luminescence inhibition is unsupported in the abstract; no binding or functional evidence is provided.
+- The claim of "strong predictive power" for the QSAR models is not verifiable without validation details and model equations.
+- The mechanistic assignments (electrophilic/redox for Q-DBPs, SN2 for HAAs) are presented as conclusions without supporting criteria or baseline model description.
+- The statement that toxicity is "further influenced by halogenation patterns, solubility, and lipophilicity" is not quantitatively supported in the abstract.
+- The environmental relevance of the 23 selected DBPs is not established from the abstract.

@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report the design and characterization of a 24-amino-acid cell-penetrating peptide derived from the C-terminus of the SOX2 transcription factor (SOX2-iPep). They claim the peptide retains DNA-binding affinity comparable to the parental SOX2 HMG domain, penetrates cells and localizes to the nucleus, reduces proliferation of SOX2-overexpressing breast cancer cell lines, and exhibits a random coil conformation in solution. Molecular dynamics simulations are used to support binding predictions.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion sections 2.1-2.6, Materials and Methods sections 3.1-3.11, Conclusions, Acknowledgments. Figures and tables referenced but not provided in full detail. Supplementary figures referenced but not provided.
+- **Missing materials affecting confidence** Full figures and figure legends, supplementary figures S1-S10, supplementary tables, raw data for survival analysis, CD spectra raw data, MD simulation trajectories and parameters, statistical analysis details, cell line characterization data, Western blot images
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant target (SOX2 in triple-negative breast cancer) and proposes a novel peptide-based approach for intracellular delivery. The concept of exploiting an intrinsic cell-penetrating sequence within SOX2 is interesting. However, the evidence presented is insufficient to support several key claims. The survival analysis is based on a single dataset with an arbitrary z-score threshold and lacks statistical rigor. The cellular internalization data are presented as percentages without clear quantification methodology or appropriate controls. The proliferation assays show modest effects (9.5-26.4% reduction) that may not be biologically meaningful, and the specificity of the peptide for SOX2-overexpressing cells is not adequately demonstrated. The MD simulations, while technically detailed, are based on a homology model of OCT4 and the functional relevance of the predicted binding affinities is not experimentally validated. The claim that the peptide can serve as a therapeutic carrier is speculative and not supported by any cargo-delivery experiments.
+- **Who would be interested in the results, and why** Researchers working on cell-penetrating peptides for therapeutic delivery, particularly those targeting transcription factors in cancer. The SOX2-OCT4 interaction is of interest to developmental biologists and cancer biologists studying stem cell maintenance and tumorigenesis. Computational chemists studying protein-DNA interactions may find the MD methodology relevant.
+- **Major strengths** The clinical rationale for targeting SOX2 in breast cancer is well-articulated. The peptide design is based on structural information from a published crystal structure. The MD simulation protocol is detailed and follows established methods. The free energy decomposition analysis provides residue-level insights into binding determinants.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that SOX2-iPep "decreased cellular proliferation of SOX2 overexpressing cell lines" and that this effect is specific to SOX2-overexpressing cells.
+  - **Evidence pointer** Section 2.4, Figure 4B, Supplementary Figure S2
+  - **Concern** The proliferation data show only modest reductions (13.16% in T11, 9.5% in MCF-7, 26.4% in PA-1) at 100 µM peptide concentration. The biological significance of these small effects is questionable. More critically, the manuscript does not demonstrate that the anti-proliferative effect is specifically due to SOX2 inhibition. No experiments are shown that knock down SOX2 or use SOX2-negative cell lines to establish specificity. The mutant peptide also shows significant effects in PA-1 cells (17.8% reduction), which the authors attribute to "membrane-associated signaling" without any supporting evidence. This undermines the claim that the observed effects are due to specific SOX2 interference.
+  - **Why it matters** Without demonstrating target specificity, the therapeutic potential of the peptide cannot be established. The modest effects could be due to non-specific membrane disruption or general peptide toxicity.
+  - **Resolution test** The authors should include experiments with SOX2-negative cell lines, SOX2 knockdown controls, and a scrambled peptide control. Dose-response curves and time-course experiments would strengthen the analysis. Ideally, direct evidence of SOX2 target engagement (e.g., chromatin immunoprecipitation or reporter assays) should be provided.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that "high SOX2 mRNA levels positively correlate with decreased overall survival and progression-free survival" based on analysis of the METABRIC dataset.
+  - **Evidence pointer** Section 2.1, Figure 1
+  - **Concern** The survival analysis uses an arbitrary z-score threshold of >2 for "high" expression and <-2 for "low" expression, which may not be clinically meaningful. The number of patients in each group is not clearly stated. No hazard ratios, confidence intervals, or p-values are reported in the text. The analysis appears to be univariate without adjustment for known prognostic factors such as tumor stage, grade, or treatment. The choice of the METABRIC dataset alone, without validation in an independent cohort, limits the generalizability of the findings.
+  - **Why it matters** The clinical relevance of targeting SOX2 is a key rationale for the study. Weak or non-rigorous survival analysis undermines this rationale and the overall significance of the work.
+  - **Resolution test** The authors should report the number of patients in each group, provide hazard ratios with confidence intervals, and adjust for relevant covariates. Validation in an independent breast cancer cohort would substantially strengthen the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that the SOX2-iPep "largely retained the binding affinity for DNA of parental SOX2" based on MD simulations.
+  - **Evidence pointer** Section 2.6.1, Table 1, Figure 6
+  - **Concern** The free energy of binding for the iPep is reported as approximately -55.8 kcal/mol (MM/GBSA) and -11.4 kcal/mol (MM/PBSA), compared to -192.7 kcal/mol and -74.1 kcal/mol for full-length SOX2. This represents a 65-85% reduction in binding affinity, which is substantial. The claim that the iPep "largely retained" binding affinity is misleading. Furthermore, the MM/PBSA and MM/GBSA methods give very different absolute values, and the manuscript does not discuss this discrepancy. The functional significance of the predicted binding affinity is not experimentally validated.
+  - **Why it matters** The central premise of the peptide design is that it retains sufficient DNA-binding affinity to interfere with SOX2 function. If the binding affinity is substantially reduced, the therapeutic potential is questionable.
+  - **Resolution test** The authors should temper their claim and provide a more nuanced interpretation of the binding data. Experimental validation of DNA binding (e.g., electrophoretic mobility shift assay or surface plasmon resonance) would be essential to support the computational predictions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors claim that the SOX2-iPep possesses "intrinsic cell penetration and promising nuclear localization" based on immunofluorescence experiments.
+  - **Evidence pointer** Section 2.4, Figure 4A, Supplementary Figure S1
+  - **Concern** The internalization data are presented as percentages (4.9% of T11 cells within two hours) without clear description of the quantification method. The manuscript does not specify how many cells were counted, whether the analysis was blinded, or how the threshold for "positive" staining was determined. The concentration of peptide used for the internalization assay is not stated in the text. The claim of "promising nuclear localization" is based on co-localization with Hoechst staining, but the images are not provided in the main text. The specificity of the nuclear localization signal is not demonstrated.
+  - **Why it matters** Cell penetration and nuclear localization are fundamental claims of the study. Without rigorous quantification and appropriate controls, these claims cannot be evaluated.
+  - **Resolution test** The authors should provide detailed quantification methodology, include images with scale bars, and perform experiments with a negative control peptide (e.g., a scrambled sequence or a peptide with mutated basic residues). Flow cytometry could provide more quantitative internalization data.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural characterization
+  - **Claim pointer** The authors claim that the SOX2-iPep "exhibited a random coil conformation predominantly in solution" based on CD spectroscopy.
+  - **Evidence pointer** Section 2.5, Figure 5
+  - **Concern** The CD spectrum is described but not shown in the main text. The manuscript does not report the concentration of peptide used, the buffer conditions beyond pH, or the temperature. The analysis using CDSSTR is mentioned but the goodness-of-fit parameters are not reported. The claim that the peptide is "predominantly" random coil is vague and does not quantify the secondary structure content.
+  - **Why it matters** The secondary structure of the peptide may influence its cell-penetrating properties and DNA-binding ability. A more rigorous structural characterization would strengthen the study.
+  - **Resolution test** The authors should provide the CD spectrum, report the calculated secondary structure percentages, and discuss the implications of the random coil conformation for peptide function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, Figure 2
+  - **Issue** The iTRAQ proteomics section is unclear. The authors state that "peptides coming from SOX proteins were quantified and converted to log2 ratios" but do not explain the biological question being addressed. The relevance of this analysis to the peptide design is not immediately apparent.
+  - **Required correction** Clarify the purpose of the iTRAQ analysis and how it informs the peptide design. Provide a clear description of the samples analyzed and the key findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The authors use the term "RPRRKTKT" as a "cell penetration/nuclear localization sequence" but this sequence is part of the larger peptide and its independent function is not demonstrated.
+  - **Required correction** Clarify whether this sequence has been independently characterized as a cell-penetrating or nuclear localization sequence, or whether this is inferred from the full peptide data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.8
+  - **Evidence pointer** Section 3.8
+  - **Issue** The manuscript states that the structure of OCT4 in PDB entry 1GT0 was generated by homology modeling, but the details of the homology model are not provided. The quality of the model could affect the reliability of the MD simulations.
+  - **Required correction** Provide details of the homology modeling procedure, including the template structure, sequence identity, and model validation metrics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.6.1, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The free energy values in Table 1 are reported without standard deviations or standard errors, despite being averaged over ten independent simulations.
+  - **Required correction** Report the variability of the free energy estimates across the ten simulations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The sentence "Interestingly, We found that the mutant SOX2 iPep also elicited a significant decrease in cell proliferation in the PA-1 cell lines (17.8%)" contains a capitalization error ("We") and the significance of this finding is not discussed.
+  - **Required correction** Correct the capitalization and discuss the implications of the mutant peptide's activity for the proposed mechanism of action.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Section 3.5
+  - **Issue** The Materials and Methods section for the apoptosis assay does not specify the positive and negative controls used.
+  - **Required correction** Describe the controls used in the TUNEL assay to validate the assay performance.
+- **Technical failings that need to be addressed before the case is established** The lack of experimental validation of DNA binding affinity, the absence of specificity controls for the proliferation assays, the incomplete statistical reporting for the survival analysis, and the unvalidated homology model of OCT4 are critical technical issues that must be resolved.
+- **Assessment against Nature-style criteria** Originality: The concept of deriving a cell-penetrating peptide from SOX2 itself is moderately original, though cell-penetrating peptides from transcription factors are known. Scientific importance: The clinical relevance of SOX2 in breast cancer is significant, but the modest biological effects and lack of mechanistic depth limit the importance of the findings. Interdisciplinary readership: The work spans cancer biology, peptide chemistry, and computational biology, which could appeal to a broad audience, but the current evidence is too preliminary. Technical soundness: The MD simulation methodology is sound, but the experimental validation is insufficient. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., iTRAQ analysis) could be clearer.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has interesting concepts but lacks the experimental rigor and validation needed to support the central claims. Major revisions addressing the specificity of the biological effects, experimental validation of DNA binding, and rigorous statistical analysis would be required before the case is established.
+
+## Risk / unsupported claims
+- The claim that SOX2-iPep "decreased cellular proliferation of SOX2 overexpressing cell lines" is weakly supported due to modest effects and lack of specificity controls.
+- The claim that the peptide "largely retained the binding affinity for DNA of parental SOX2" is not supported by the reported free energy values, which show a substantial reduction.
+- The claim of "promising nuclear localization" is based on limited immunofluorescence data without rigorous quantification.
+- The survival analysis claim is based on a single dataset with arbitrary thresholds and no reported statistical measures.
+- The suggestion that the peptide could be used for "transport different therapeutic cargo molecules" is speculative and not supported by any cargo-delivery experiments.
+- The attribution of the mutant peptide's activity to "membrane-associated signaling" is speculative and unsupported by data.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The abstract claims that the dietary flavonoid naringenin (NAR) alleviates age-related bone loss in a natural ageing mouse model by directly binding to and activating the osteogenic transcription factor Runx2, thereby promoting bone formation and suppressing bone resorption, and that Runx2 is a direct molecular target of NAR with potential therapeutic relevance for senile osteoporosis.
+- **Visible evidence base** Abstract text only; no experimental data, numerical results, statistical analyses, or methodological details beyond the listed techniques
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, statistical reporting, experimental protocols, and any raw or processed data
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially significant hypothesis that a dietary flavonoid directly targets a master osteogenic transcription factor to ameliorate age-related bone loss. The experimental approach is broad and includes a commendable range of techniques from in vivo phenotyping to biophysical binding assays. However, the abstract provides no quantitative results, no statistical measures, and no control details, making it impossible to evaluate the robustness of the claims. The central mechanistic assertion, direct binding of NAR to Runx2, is supported only by a list of techniques without any reported outcomes. The translational relevance for senile osteoporosis is asserted but not substantiated with evidence of disease-specific efficacy or safety. The case is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bone biology, osteoporosis pharmacology, and natural product drug discovery would be interested. The identification of a direct molecular target for a dietary flavonoid in bone metabolism could inform the development of new therapeutic agents for senile osteoporosis, a condition with an unmet medical need. The work may also attract investigators studying transcription factor targeting by small molecules and those interested in the mechanistic basis of flavonoid bioactivity.
+- **Major strengths** The study addresses a clinically relevant and underserved condition, senile osteoporosis, with a clear mechanistic hypothesis. The experimental design integrates in vivo disease modelling with in vitro differentiation assays and a multi-technique target identification strategy, which is methodologically ambitious. The focus on a direct molecular target, rather than a phenotypic observation alone, adds mechanistic depth and potential specificity to the proposed action of NAR.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that NAR treatment significantly increased bone mineral density, improved trabecular microarchitecture, and enhanced bone strength in ageing mice.  
+  - **Evidence pointer** Abstract, Key Results section; location not provided  
+  - **Concern** No quantitative data, effect sizes, or statistical significance values are reported for any of the in vivo outcomes. The term "significantly" is used without supporting P values, confidence intervals, or group comparisons.  
+  - **Why it matters** Without numerical results and statistical reporting, the reader cannot assess the magnitude or reliability of the observed effects, which is essential for evaluating the biological and translational significance of the findings.  
+  - **Resolution test** Provide effect sizes with measures of variance, exact P values or confidence intervals, and sample sizes for all in vivo endpoints in the full manuscript.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic validation  
+  - **Claim pointer** The abstract claims that NAR directly bound to Runx2 and activated Runx2-dependent gene expression, and that silencing Runx2 markedly attenuated the osteogenic effects of NAR.  
+  - **Evidence pointer** Abstract, Key Results section; location not provided  
+  - **Concern** The abstract lists multiple techniques for target identification but reports no results from any of them. There is no binding affinity, no competition data, no thermal shift or proteolysis data, and no demonstration that the proposed binding is functionally consequential beyond the silencing experiment.  
+  - **Why it matters** Direct target engagement is the central mechanistic claim. Without reported binding parameters and functional validation, the claim that Runx2 is a direct molecular target remains unsupported.  
+  - **Resolution test** Report quantitative binding data (e.g., KD from SPR), evidence of specific binding from pull-down and competition assays, and show that Runx2 silencing abolishes NAR effects on osteogenic markers and mineralization in a dose-dependent manner.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity and off-target effects  
+  - **Claim pointer** The abstract implies that the effects of NAR are mediated specifically through Runx2, with no mention of other potential targets or pathways.  
+  - **Evidence pointer** Abstract, Key Results section; location not provided  
+  - **Concern** The abstract does not address whether NAR affects other transcription factors, signalling pathways, or cellular processes that could contribute to the observed bone phenotype. The use of RNA sequencing is mentioned but no data are presented.  
+  - **Why it matters** Without evidence of target specificity, the observed effects could be due to pleiotropic actions of NAR, which would weaken the claim that Runx2 is the primary mediator.  
+  - **Resolution test** Include transcriptomic or proteomic data showing that Runx2-dependent genes are selectively enriched and that other osteogenic or resorptive pathways are not equally affected, or provide rescue experiments with Runx2 overexpression or constitutively active Runx2.
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Translational relevance  
+  - **Claim pointer** The abstract concludes that NAR supports its potential use in the management of senile osteoporosis.  
+  - **Evidence pointer** Abstract, Conclusion and Implications section; location not provided  
+  - **Concern** The study uses a natural ageing mouse model, which is appropriate, but the abstract does not report any pharmacokinetic, bioavailability, or safety data for NAR, nor does it compare the efficacy with existing treatments or address the translational gap between dietary flavonoid intake and pharmacological dosing.  
+  - **Why it matters** The conclusion of potential clinical use requires evidence that NAR achieves sufficient exposure at the target site, is safe, and is effective in a clinically relevant context.  
+  - **Resolution test** Provide pharmacokinetic data, toxicity assessments, and a discussion of the translational feasibility, or temper the conclusion to reflect the preclinical nature of the findings.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Reporting clarity  
+  - **Affected element** Experimental approach  
+  - **Evidence pointer** Abstract, Experimental Approach section; location not provided  
+  - **Issue** The abstract lists many techniques but does not specify the order of experiments, the cell types used, or the differentiation conditions.  
+  - **Required correction** Clarify the experimental workflow and specify cell models and culture conditions in the full manuscript.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** In vivo and in vitro results  
+  - **Evidence pointer** Abstract, Key Results section; location not provided  
+  - **Issue** No statistical methods or multiple testing corrections are mentioned.  
+  - **Required correction** Describe statistical tests, sample sizes, and correction for multiple comparisons in the Methods section.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology precision  
+  - **Affected element** Conclusion  
+  - **Evidence pointer** Abstract, Conclusion and Implications section; location not provided  
+  - **Issue** The phrase "alleviates age-related bone loss by activating Runx2" implies a single mechanism, which may be an oversimplification given the pleiotropic nature of flavonoids.  
+  - **Required correction** Use more cautious language, such as "contributes to" or "is associated with," unless the data fully exclude other mechanisms.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative in vivo data, the lack of reported binding and functional validation for Runx2, and the absence of specificity controls are the primary technical gaps that prevent the case from being established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of a dietary flavonoid directly targeting Runx2 is novel and potentially original, but the abstract does not provide enough context to distinguish it from prior work on flavonoids and bone.  
+  - Scientific importance: The topic is important given the unmet need in senile osteoporosis, but the significance is not yet demonstrated without robust quantitative evidence.  
+  - Interdisciplinary readership: The work bridges nutrition, pharmacology, and bone biology, which could attract a broad audience, but the abstract is too technical and lacks accessible context for nonspecialists.  
+  - Technical soundness: The range of techniques is impressive, but the lack of reported results and statistical detail prevents an assessment of technical soundness.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with bone biology and biophysical assays; it would benefit from clearer framing of the clinical problem and the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is plausible and the experimental plan is comprehensive, but the abstract lacks the quantitative and mechanistic detail required to support the central claims. A revised manuscript with full data reporting, statistical analyses, and specificity controls could change this assessment.
+
+## Risk / unsupported claims
+- The claim that NAR "significantly" improved bone parameters is unsupported without numerical data or statistical values.
+- The claim that NAR "directly bound" to Runx2 is unsupported without reported binding assay results.
+- The claim that Runx2 silencing "markedly attenuated" NAR effects is unsupported without effect sizes or statistical comparison.
+- The claim that NAR "suppressed osteoclast differentiation and bone resorption" is unsupported without quantitative data.
+- The conclusion that NAR has "potential use in the management of senile osteoporosis" is a reasonable inference but is not supported by pharmacokinetic, safety, or efficacy data in a clinically relevant model.

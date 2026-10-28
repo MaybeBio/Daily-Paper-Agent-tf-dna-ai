@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose PredDRBP-MLP, a multilayer perceptron-based predictor for multi-class classification of DNA-binding proteins, RNA-binding proteins, and non-nucleic acid-binding proteins. They claim superior performance on an independent dataset, particularly for the NNABP class, with lower computational requirements and faster training compared to CNN-BiLSTM-based predictors. A desktop application is provided.
+- **Visible evidence base** Abstract text only; specific performance metrics for NNABP class (precision 0.578, recall 0.522, F1-score 0.549) and a comparison to another multi-class predictor (precision 0.486, recall 0.183, F1-score 0.266)
+- **Missing materials affecting confidence** Full manuscript, dataset descriptions, feature encoding methods, model architecture details, training/validation protocols, complete performance tables, baseline comparisons, statistical significance tests, and software implementation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of a simple MLP architecture to a relevant bioinformatics problem. However, the evidence provided is insufficient to evaluate the robustness of the claimed improvements. The single reported comparison is limited, and critical methodological details are absent. The claim of superior performance, especially for the NNABP class, cannot be adequately assessed from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction and nucleic acid-binding protein classification. Practitioners seeking lightweight, fast alternatives to deep learning models for similar classification tasks may also find the approach relevant.
+- **Major strengths** The use of a simpler architecture (MLP) to address computational cost and training time issues associated with CNN-BiLSTM models is a practical and potentially valuable contribution. The provision of a freely accessible desktop application enhances usability and reproducibility for non-specialist users.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "quite successful results on the independent dataset, specifically in the NNABP class, compared to the existing predictors."
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Concern** The claim of superior performance is supported by only a single comparison to one unnamed "other multi-class predictor." No details are given about the baseline model, its architecture, training data, or evaluation protocol. The reported improvement in NNABP recall (0.522 vs 0.183) is substantial, but without knowing the baseline's characteristics, this could reflect a weak comparator rather than genuine superiority.
+  - **Why it matters** A single, poorly characterized comparison is insufficient to establish that PredDRBP-MLP outperforms existing state-of-the-art predictors. The abstract's central claim of success hinges on this comparison, and the lack of context prevents readers from judging its validity.
+  - **Resolution test** Provide a comprehensive comparison against multiple established predictors (e.g., CNN-BiLSTM and other published DBP/RBP classifiers) on the same independent dataset, with full details of each baseline's configuration and training protocol. Report performance metrics for all classes (DBP, RBP, NNABP) and include statistical significance testing (e.g., McNemar's test or bootstrap confidence intervals).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract describes PredDRBP-MLP as "an artificial learning model that performs multi-class classification" and claims it "requires lower processing power and [is] able to train quicker compared to CNN-BiLSTM based predictors."
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** No information is provided on the input features, sequence encoding, model architecture (e.g., number of layers, hidden units, activation functions), training procedure, or hyperparameter selection. The computational efficiency claim is not quantified with any runtime or resource usage data.
+  - **Why it matters** Without methodological details, the model cannot be reproduced or independently validated. The efficiency claim, while plausible for an MLP versus CNN-BiLSTM, requires quantitative evidence (e.g., training time, GPU/CPU usage) to be meaningful.
+  - **Resolution test** Include a full description of the feature representation, model architecture, and training protocol in the main text or supplementary materials. Provide quantitative comparisons of training time and computational resource usage against CNN-BiLSTM baselines under identical hardware conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract implies the predictor is broadly applicable for DBP and RBP classification, but only NNABP-class metrics are reported.
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Concern** Performance metrics are only given for the NNABP class. No results are reported for the DBP and RBP classes, which are the primary targets of the predictor. It is unclear whether the model performs adequately on these classes or whether the reported NNABP success comes at the expense of the other classes.
+  - **Why it matters** A multi-class predictor must perform well across all classes to be practically useful. Selective reporting of one class's metrics could mask poor performance on the other classes, undermining the overall utility of the tool.
+  - **Resolution test** Report precision, recall, and F1-score for all three classes (DBP, RBP, NNABP) on the independent dataset, along with confusion matrices and per-class support. Discuss any trade-offs between class-wise performance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Baseline identification
+  - **Evidence pointer** Abstract, performance comparison; location not provided
+  - **Issue** The "other multi-class predictor" is not named or referenced. This makes the comparison unverifiable.
+  - **Required correction** Identify the baseline predictor by name and provide a citation or description of its method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dataset description
+  - **Affected element** Independent dataset
+  - **Evidence pointer** Abstract, "independent dataset" mention; location not provided
+  - **Issue** The nature and size of the independent dataset are not described. It is unclear whether it is a standard benchmark or a newly constructed set.
+  - **Required correction** Describe the independent dataset's source, composition, class distribution, and how it was constructed or obtained.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Software availability
+  - **Affected element** Desktop application
+  - **Evidence pointer** Abstract, software availability statement; location not provided
+  - **Issue** The abstract states the application is freely accessible, but no platform requirements, installation instructions, or usage examples are provided.
+  - **Required correction** Include a brief description of the application's system requirements and basic usage in the manuscript or provide a link to documentation.
+
+## Risk / unsupported claims
+- The claim of "quite successful results" on the independent dataset is unsupported due to the lack of comprehensive performance data across all classes and the absence of a well-characterized baseline comparison.
+- The claim of lower processing power and faster training compared to CNN-BiLSTM predictors is unquantified and cannot be evaluated from the abstract.
+- The general utility of PredDRBP-MLP as a multi-class predictor cannot be assessed without performance metrics for the DBP and RBP classes.
+- The comparison to "other multi-class predictor" is unverifiable as the baseline is not identified.

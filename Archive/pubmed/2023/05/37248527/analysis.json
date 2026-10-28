@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37248527",
+  "title": "Multimodal-based machine learning strategy for accurate and non-invasive prediction of intramedullary glioma grade and mutation status of molecular markers: a retrospective study.",
+  "authors": "Ma, Chao; Wang, Liyang; Song, Dengpan; Gao, Chuntian; Jing, Linkai; Lu, Yang; Liu, Dongkang; Man, Weitao; Yang, Kaiyuan; Meng, Zhe; Zhang, Huifang; Xue, Ping; Zhang, Yupeng; Guo, Fuyou; Wang, Guihuai",
+  "journal": "BMC medicine",
+  "published_date": "2023-05-30",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用多模态机器学习预测脊髓内胶质瘤分级和分子标记突变状态，属于临床影像诊断，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Determining the grade and molecular marker status of intramedullary gliomas is important for assessing treatment outcomes and prognosis. Invasive biopsy for pathology usually carries a high risk of tissue damage, especially to the spinal cord, and there are currently no non-invasive strategies to identify the pathological type of intramedullary gliomas. Therefore, this study aimed to develop a non-invasive machine learning model to assist doctors in identifying the intramedullary glioma grade and mutation status of molecular markers. METHODS: A total of 461 patients from two institutions were included, and their sagittal (SAG) and transverse (TRA) T2-weighted magnetic resonance imaging scans and clinical data were acquired preoperatively. We employed a transformer-based deep learning model to automatically segment lesions in the SAG and TRA phases and extract their radiomics features. Different feature representations were fed into the proposed neural networks and compared with those of other mainstream models. RESULTS: The dice similarity coefficients of the Swin transformer in the SAG and TRA phases were 0.8697 and 0.8738, respectively. The results demonstrated that the best performance was obtained in our proposed neural networks based on multimodal fusion (SAG-TRA-clinical) features. In the external validation cohort, the areas under the receiver operating characteristic curve for graded (WHO I-II or WHO III-IV), alpha thalassemia/mental retardation syndrome X-linked (ATRX) status, and tumor protein p53 (P53) status prediction tasks were 0.8431, 0.7622, and 0.7954, respectively. CONCLUSIONS: This study reports a novel machine learning strategy that, for the first time, is based on multimodal features to predict the ATRX and P53 mutation status and grades of intramedullary gliomas. The generalized application of these models could non-invasively provide more tumor-specific pathological information for determining the treatment and prognosis of intramedullary gliomas.",
+  "abstract_zh": "背景：确定髓内胶质瘤的级别和分子标记状态对于评估治疗结果和预后具有重要意义。侵入性活检进行病理检查通常存在较高的组织损伤风险，尤其是对脊髓而言，目前尚无非侵入性策略来识别髓内胶质瘤的病理类型。因此，本研究旨在开发一种非侵入性机器学习模型，以辅助医生识别髓内胶质瘤级别及分子标记的突变状态。方法：共纳入来自两家机构的461名患者，术前获取其矢状位（SAG）和横断面（TRA）T2加权磁共振成像扫描及临床数据。我们采用基于Transformer的深度学习模型自动分割SAG和TRA阶段的病灶，并提取其影像组学特征。将不同的特征表示输入到所提出的神经网络中，并与主流模型进行比较。结果：Swin transformer在SAG和TRA阶段的Dice相似系数分别为0.8697和0.8738。结果表明，基于多模态融合（SAG-TRA-临床）特征所提出的神经网络获得了最佳性能。在外部验证队列中，分级（WHO I-II或WHO III-IV）、α地中海贫血/智力低下综合征X连锁（ATRX）状态和肿瘤蛋白p53（P53）状态预测任务的受试者工作特征曲线下面积分别为0.8431、0.7622和0.7954。结论：本研究报道了一种新颖的机器学习策略，首次基于多模态特征预测髓内胶质瘤的ATRX和P53突变状态及级别。这些模型的推广应用可非侵入性地提供更多肿瘤特异性病理信息，以确定髓内胶质瘤的治疗和预后。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37248527/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37248527/",
+  "paper_page_path": "papers/pubmed/37248527/index.html"
+}

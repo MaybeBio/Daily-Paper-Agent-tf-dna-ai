@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "38758956",
+    "doi": "10.1371/journal.pcbi.1012136",
+    "title": "Learning Micro-C from Hi-C with diffusion models."
+  },
+  "content": {
+    "abstract": "In the last few years, Micro-C has shown itself as an improved alternative to Hi-C. It replaced the restriction enzymes in Hi-C assays with micrococcal nuclease (MNase), resulting in capturing nucleosome resolution chromatin interactions. The signal-to-noise improvement of Micro-C allows it to detect more chromatin loops than high-resolution Hi-C. However, compared with massive Hi-C datasets available in the literature, there are only a limited number of Micro-C datasets. To take full advantage of these Hi-C datasets, we present HiC2MicroC, a computational method learning and then predicting Micro-C from Hi-C based on the denoising diffusion probabilistic models (DDPM). We trained our DDPM and other regression models in human foreskin fibroblast (HFFc6) cell line and evaluated these methods in six different cell types at 5-kb and 1-kb resolution. Our evaluations demonstrate that both HiC2MicroC and regression methods can markedly improve Hi-C towards Micro-C, and our DDPM-based HiC2MicroC outperforms regression in various terms. First, HiC2MicroC successfully recovers most of the Micro-C loops even those not detected in Hi-C maps. Second, a majority of the HiC2MicroC-recovered loops anchor CTCF binding sites in a convergent orientation. Third, HiC2MicroC loops share genomic and epigenetic properties with Micro-C loops, including linking promoters and enhancers, and their anchors are enriched for structural proteins (CTCF and cohesin) and histone modifications. Lastly, we find our recovered loops are also consistent with the loops identified from promoter capture Micro-C (PCMicro-C) and Chromatin Interaction Analysis by Paired-End Tag Sequencing (ChIA-PET). Overall, HiC2MicroC is an effective tool for further studying Hi-C data with Micro-C as a template. HiC2MicroC is publicly available at https://github.com/zwang-bioinformatics/HiC2MicroC/.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/metabolism/chemistry/genetics",
+      "*Computational Biology/methods",
+      "Cell Line",
+      "CCCTC-Binding Factor/metabolism/genetics",
+      "Models, Statistical"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Tong",
+        "Zhu, Hao",
+        "Wang, Zheng"
+      ],
+      "short_names": [
+        "Liu T",
+        "Zhu H",
+        "Wang Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0598-5588",
+        "ORCID: 0000-0003-3892-6151"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of Miami, Coral Gables, Florida, United States of America.",
+        "Department of Computer Science, University of Miami, Coral Gables, Florida, United States of America.",
+        "Department of Computer Science, University of Miami, Coral Gables, Florida, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Tong",
+        "short_name": "Liu T",
+        "identifiers": [
+          "0000-0002-0598-5588"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Miami, Coral Gables, Florida, United States of America."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hao",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Miami, Coral Gables, Florida, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wang, Zheng",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0003-3892-6151"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Miami, Coral Gables, Florida, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/17 18:42",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [
+      "42289051",
+      "41663738"
+    ],
+    "refs": [
+      "38709825",
+      "37440599",
+      "37433327",
+      "37430091",
+      "37302805",
+      "37280678",
+      "37280210",
+      "36624151",
+      "36544209",
+      "36471071",
+      "36094974",
+      "35551308",
+      "35440119",
+      "34991667",
+      "33046897",
+      "32998764",
+      "32745185",
+      "32728249",
+      "32483332",
+      "32301980",
+      "32213324",
+      "32213323",
+      "32127418",
+      "31811132",
+      "31753851",
+      "31671634",
+      "31290943",
+      "31056636",
+      "30936528",
+      "30871473",
+      "30314429",
+      "30166492",
+      "29053968",
+      "28709003",
+      "28703188",
+      "28396521",
+      "27723753",
+      "27467249",
+      "26797014",
+      "26119342",
+      "25497547",
+      "22495300",
+      "19815776"
+    ],
+    "similar": [
+      "38758956",
+      "36544209",
+      "32998764",
+      "35397520",
+      "38927609",
+      "31653198",
+      "37440599",
+      "26499245",
+      "29593713",
+      "30064362",
+      "31629084",
+      "42289051",
+      "38940142",
+      "35997565",
+      "33160308",
+      "29800273",
+      "42114088",
+      "35950186",
+      "29137603",
+      "29199022",
+      "40374602",
+      "29036650",
+      "41224530",
+      "41875404",
+      "25497547",
+      "40186170",
+      "37387127",
+      "30060743",
+      "38670416",
+      "40082674",
+      "32127418",
+      "32213324",
+      "31522987",
+      "35274099",
+      "41068581",
+      "30310060",
+      "35749574",
+      "34289010",
+      "26034063",
+      "38254945",
+      "36321557",
+      "28513628",
+      "42521690",
+      "29133398",
+      "39202349",
+      "31530818",
+      "29949986",
+      "42380620",
+      "35817982",
+      "34252966",
+      "33634313",
+      "35488276",
+      "38167349",
+      "35867245",
+      "33232622",
+      "38770419",
+      "30753588",
+      "37280210",
+      "36495179",
+      "30120652",
+      "30778195",
+      "33545029",
+      "32680543",
+      "36325618",
+      "31028255",
+      "31980751",
+      "29757144",
+      "31811132",
+      "32631111",
+      "34928392",
+      "32820401",
+      "37982508",
+      "31905366",
+      "31177910",
+      "39283453",
+      "40802526",
+      "41663926",
+      "26338778",
+      "31056636",
+      "30296942",
+      "34245617",
+      "41978381",
+      "40613712",
+      "33594051",
+      "37084258",
+      "40170155",
+      "34013331",
+      "40628528",
+      "36335136",
+      "40025499",
+      "36206320",
+      "34446921",
+      "40246224",
+      "32084131",
+      "42490438",
+      "33509077",
+      "27008015",
+      "30031214",
+      "38856167",
+      "34769020"
+    ],
+    "review": [
+      "38758956",
+      "31629084",
+      "35950186",
+      "36321557",
+      "32631111"
+    ],
+    "pmc": [
+      "11139321"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012136",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38758956/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38758956",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "identity": {
+    "pmid": "41188199",
+    "doi": "10.1002/path.6491",
+    "title": "Contrastive virtual staining enhances deep learning-based PDAC subtyping from H&E-stained tissue cores."
+  },
+  "content": {
+    "abstract": "Pancreatic ductal adenocarcinoma (PDAC) subtyping typically relies on immunohistochemistry (IHC) staining for critical markers like HNF1A and KRT81, a labor-intensive manual staining process that introduces variability. Virtual staining methods offer promising alternatives by generating synthetic IHC images from routine hematoxylin and eosin (H&E) slides. However, most current approaches evaluate success by image quality measures rather than assessing diagnostically relevant features. Here, we introduce a novel cycleGAN framework utilizing a contrastive-inspired approach trained on semipaired datasets derived from consecutive tissue sections. Our method significantly enhances PDAC subtyping accuracy based on synthetic IHC images generated from standard H&E inputs, improving the classification F1-score from 0.66 to 0.77 for KRT81 and from 0.61 to 0.73 for HNF1A, compared with classification directly on H&E images. This approach also substantially outperforms baseline CycleGAN models. These results underscore the clinical potential of contrastive virtual staining to streamline PDAC diagnostics and improve their robustness. (c) 2025 The Author(s). The Journal of Pathology published by John Wiley & Sons Ltd on behalf of The Pathological Society of Great Britain and Ireland.",
+    "keywords": [
+      "CycleGAN",
+      "H&E",
+      "IHC",
+      "PDAC subtyping",
+      "contrastive learning",
+      "digital pathology",
+      "virtual staining"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Pancreatic Ductal/classification/pathology",
+      "Datasets as Topic",
+      "*Deep Learning",
+      "Eosine Yellowish-(YS)",
+      "Hematoxylin",
+      "Immunohistochemistry",
+      "*Pancreatic Ducts/pathology",
+      "*Pancreatic Neoplasms/classification/pathology",
+      "Biomarkers, Tumor/analysis",
+      "Hepatocyte Nuclear Factor 1-alpha",
+      "Keratins, Type II",
+      "Keratins, Hair-Specific"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fischer, Maximilian",
+        "Muckenhuber, Alexander",
+        "Peretzke, Robin",
+        "Farah, Luay",
+        "Ulrich, Constantin",
+        "Ziegler, Sebastian",
+        "Schader, Philipp",
+        "Feineis, Lorenz",
+        "Gao, Hanno",
+        "Xiao, Shuhan",
+        "Gotz, Michael",
+        "Nolden, Marco",
+        "Steiger, Katja",
+        "Sieveke, Jens T",
+        "Endros, Lukas",
+        "Braren, Rickmer",
+        "Kleesiek, Jens",
+        "Schuffler, Peter",
+        "Neher, Peter",
+        "Maier-Hein, Klaus"
+      ],
+      "short_names": [
+        "Fischer M",
+        "Muckenhuber A",
+        "Peretzke R",
+        "Farah L",
+        "Ulrich C",
+        "Ziegler S",
+        "Schader P",
+        "Feineis L",
+        "Gao H",
+        "Xiao S",
+        "Gotz M",
+        "Nolden M",
+        "Steiger K",
+        "Sieveke JT",
+        "Endros L",
+        "Braren R",
+        "Kleesiek J",
+        "Schuffler P",
+        "Neher P",
+        "Maier-Hein K"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-8305-6370",
+        "ORCID: 0000-0002-0414-1797",
+        "ORCID: 0000-0002-6187-3636",
+        "ORCID: 0000-0003-3002-8170",
+        "ORCID: 0000-0002-1693-5586",
+        "ORCID: 0000-0001-5397-814X",
+        "ORCID: 0000-0003-0984-224X",
+        "ORCID: 0000-0001-9629-0564",
+        "ORCID: 0000-0002-7269-5433",
+        "ORCID: 0000-0002-8772-4778",
+        "ORCID: 0009-0007-1817-2598",
+        "ORCID: 0000-0001-6039-6957",
+        "ORCID: 0000-0001-8686-0682",
+        "ORCID: 0000-0002-1353-8921",
+        "ORCID: 0000-0002-5285-7554",
+        "ORCID: 0000-0002-6626-2463"
+      ],
+      "affiliations": [
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+        "German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, Heidelberg, Germany.",
+        "Research Campus M2OLIE, Mannheim, Germany.",
+        "Institute of Pathology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+        "Bridge Institute of Experimental Tumor Therapy (BIT), Division of Solid Tumor Translational Oncology (DKTK) and Department of Medical Oncology, West German Cancer Center, University Hospital Essen, University of Duisburg-Essen, Essen, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "Helmholtz Imaging, DKFZ, Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "Faculty of Mathematics and Computer Science, Heidelberg University, Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "Clinic of Diagnostics and Interventional Radiology, Section Experimental Radiology, Ulm University Medical Centre, Ulm, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "Research Campus M2OLIE, Mannheim, Germany.",
+        "National Center for Tumor Diseases (NCT), NCT Heidelberg, a partnership between DKFZ and University Medical Center Heidelberg, Heidelberg, Germany.",
+        "Institute of Pathology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany.",
+        "German Cancer Consortium (DKTK), partner site Munich, a partnership between DKFZ and School of Medicine and Health, Technical University of Munich, Munich, Germany.",
+        "Bridge Institute of Experimental Tumor Therapy (BIT), Division of Solid Tumor Translational Oncology (DKTK) and Department of Medical Oncology, West German Cancer Center, University Hospital Essen, University of Duisburg-Essen, Essen, Germany.",
+        "German Cancer Consortium (DKTK), partner site Essen, a partnership between German Cancer Research Center (DKFZ) and University Hospital Essen, Essen, Germany.",
+        "Institute for Diagnostic and Interventional Radiology, School of Medicine and Health, TUM University Hospital, Technical University of Munich, Munich, Germany.",
+        "German Cancer Consortium (DKTK), partner site Munich, a partnership between DKFZ and School of Medicine and Health, Technical University of Munich, Munich, Germany.",
+        "Institute for Diagnostic and Interventional Radiology, School of Medicine and Health, TUM University Hospital, Technical University of Munich, Munich, Germany.",
+        "Department of Diagnostic and Interventional Radiology and Nuclear Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "German Cancer Consortium (DKTK), partner site Essen, a partnership between German Cancer Research Center (DKFZ) and University Hospital Essen, Essen, Germany.",
+        "Institute for AI in Medicine (IKIM), University Medicine Essen, Essen, Germany.",
+        "Institute of Pathology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany.",
+        "Munich Center for Machine Learning, Munich, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, Heidelberg, Germany.",
+        "National Center for Tumor Diseases (NCT), NCT Heidelberg, a partnership between DKFZ and University Medical Center Heidelberg, Heidelberg, Germany.",
+        "Pattern Analysis and Learning Group, Department of Radiation Oncology, Heidelberg University Hospital, Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+        "Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+        "Faculty of Mathematics and Computer Science, Heidelberg University, Heidelberg, Germany.",
+        "National Center for Tumor Diseases (NCT), NCT Heidelberg, a partnership between DKFZ and University Medical Center Heidelberg, Heidelberg, Germany.",
+        "Pattern Analysis and Learning Group, Department of Radiation Oncology, Heidelberg University Hospital, Heidelberg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fischer, Maximilian",
+        "short_name": "Fischer M",
+        "identifiers": [
+          "0009-0001-8305-6370"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+          "German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, Heidelberg, Germany.",
+          "Research Campus M2OLIE, Mannheim, Germany."
+        ]
+      },
+      {
+        "full_name": "Muckenhuber, Alexander",
+        "short_name": "Muckenhuber A",
+        "identifiers": [
+          "0000-0002-0414-1797"
+        ],
+        "affiliations": [
+          "Institute of Pathology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Peretzke, Robin",
+        "short_name": "Peretzke R",
+        "identifiers": [
+          "0000-0002-6187-3636"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "Medical Faculty, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Farah, Luay",
+        "short_name": "Farah L",
+        "identifiers": [],
+        "affiliations": [
+          "Bridge Institute of Experimental Tumor Therapy (BIT), Division of Solid Tumor Translational Oncology (DKTK) and Department of Medical Oncology, West German Cancer Center, University Hospital Essen, University of Duisburg-Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Ulrich, Constantin",
+        "short_name": "Ulrich C",
+        "identifiers": [
+          "0000-0003-3002-8170"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "Medical Faculty, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Ziegler, Sebastian",
+        "short_name": "Ziegler S",
+        "identifiers": [
+          "0000-0002-1693-5586"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "Helmholtz Imaging, DKFZ, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Schader, Philipp",
+        "short_name": "Schader P",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Feineis, Lorenz",
+        "short_name": "Feineis L",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gao, Hanno",
+        "short_name": "Gao H",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Xiao, Shuhan",
+        "short_name": "Xiao S",
+        "identifiers": [
+          "0000-0001-5397-814X"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "Faculty of Mathematics and Computer Science, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Götz, Michael",
+        "short_name": "Götz M",
+        "identifiers": [
+          "0000-0003-0984-224X"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "Clinic of Diagnostics and Interventional Radiology, Section Experimental Radiology, Ulm University Medical Centre, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Nolden, Marco",
+        "short_name": "Nolden M",
+        "identifiers": [
+          "0000-0001-9629-0564"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "Research Campus M2OLIE, Mannheim, Germany.",
+          "National Center for Tumor Diseases (NCT), NCT Heidelberg, a partnership between DKFZ and University Medical Center Heidelberg, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Steiger, Katja",
+        "short_name": "Steiger K",
+        "identifiers": [
+          "0000-0002-7269-5433"
+        ],
+        "affiliations": [
+          "Institute of Pathology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany.",
+          "German Cancer Consortium (DKTK), partner site Munich, a partnership between DKFZ and School of Medicine and Health, Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Sieveke, Jens T",
+        "short_name": "Sieveke JT",
+        "identifiers": [
+          "0000-0002-8772-4778"
+        ],
+        "affiliations": [
+          "Bridge Institute of Experimental Tumor Therapy (BIT), Division of Solid Tumor Translational Oncology (DKTK) and Department of Medical Oncology, West German Cancer Center, University Hospital Essen, University of Duisburg-Essen, Essen, Germany.",
+          "German Cancer Consortium (DKTK), partner site Essen, a partnership between German Cancer Research Center (DKFZ) and University Hospital Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Endrös, Lukas",
+        "short_name": "Endrös L",
+        "identifiers": [
+          "0009-0007-1817-2598"
+        ],
+        "affiliations": [
+          "Institute for Diagnostic and Interventional Radiology, School of Medicine and Health, TUM University Hospital, Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Braren, Rickmer",
+        "short_name": "Braren R",
+        "identifiers": [
+          "0000-0001-6039-6957"
+        ],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), partner site Munich, a partnership between DKFZ and School of Medicine and Health, Technical University of Munich, Munich, Germany.",
+          "Institute for Diagnostic and Interventional Radiology, School of Medicine and Health, TUM University Hospital, Technical University of Munich, Munich, Germany.",
+          "Department of Diagnostic and Interventional Radiology and Nuclear Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kleesiek, Jens",
+        "short_name": "Kleesiek J",
+        "identifiers": [
+          "0000-0001-8686-0682"
+        ],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), partner site Essen, a partnership between German Cancer Research Center (DKFZ) and University Hospital Essen, Essen, Germany.",
+          "Institute for AI in Medicine (IKIM), University Medicine Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Schüffler, Peter",
+        "short_name": "Schüffler P",
+        "identifiers": [
+          "0000-0002-1353-8921"
+        ],
+        "affiliations": [
+          "Institute of Pathology, TUM School of Medicine and Health, Technical University of Munich, Munich, Germany.",
+          "Munich Center for Machine Learning, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Neher, Peter",
+        "short_name": "Neher P",
+        "identifiers": [
+          "0000-0002-5285-7554"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, Heidelberg, Germany.",
+          "National Center for Tumor Diseases (NCT), NCT Heidelberg, a partnership between DKFZ and University Medical Center Heidelberg, Heidelberg, Germany.",
+          "Pattern Analysis and Learning Group, Department of Radiation Oncology, Heidelberg University Hospital, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Maier-Hein, Klaus",
+        "short_name": "Maier-Hein K",
+        "identifiers": [
+          "0000-0002-6626-2463"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany.",
+          "Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+          "Faculty of Mathematics and Computer Science, Heidelberg University, Heidelberg, Germany.",
+          "National Center for Tumor Diseases (NCT), NCT Heidelberg, a partnership between DKFZ and University Medical Center Heidelberg, Heidelberg, Germany.",
+          "Pattern Analysis and Learning Group, Department of Radiation Oncology, Heidelberg University Hospital, Heidelberg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of pathology"
+    ],
+    "journal_abbrev": [
+      "J Pathol"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/05 00:28",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [
+      "42589623",
+      "42122020"
+    ],
+    "refs": [
+      "40416515",
+      "39039250",
+      "38750616",
+      "38504018",
+      "38504017",
+      "36864032",
+      "36653670",
+      "36118303",
+      "35995898",
+      "35952419",
+      "35810588",
+      "35047230",
+      "34853071",
+      "34622424",
+      "34185678",
+      "33784619",
+      "33649308",
+      "32514884",
+      "32086223",
+      "29101303",
+      "24244884",
+      "20427809"
+    ],
+    "similar": [
+      "41188199",
+      "38750616",
+      "40149962",
+      "29101303",
+      "40946794",
+      "35119111",
+      "38282056",
+      "40158294",
+      "39222907",
+      "32723384",
+      "32471471",
+      "39935174",
+      "41250202",
+      "37040684",
+      "38167622",
+      "34543435",
+      "34362386",
+      "32432709",
+      "34716754",
+      "41284417",
+      "26855150",
+      "31577805",
+      "30212393",
+      "37619429",
+      "34065423",
+      "40898302",
+      "37265876",
+      "40953092",
+      "41237448",
+      "40256728",
+      "41122329",
+      "38874979",
+      "40712735",
+      "33784619",
+      "30696866",
+      "40597706",
+      "39094325",
+      "41118427",
+      "36801642",
+      "30575030",
+      "40251691",
+      "39906959",
+      "38588884",
+      "16406979",
+      "29271792",
+      "29843660",
+      "15464464",
+      "31465125",
+      "38401998",
+      "40731412",
+      "39528162",
+      "38263394",
+      "36131239",
+      "33548823",
+      "39106763",
+      "31191661",
+      "33637450",
+      "40345665",
+      "29738769",
+      "39427587",
+      "35007352",
+      "34400666",
+      "38971768",
+      "34763666",
+      "40314741",
+      "32675472",
+      "39147031",
+      "32238879",
+      "41336375",
+      "40317966",
+      "29129444",
+      "30205390",
+      "41336378",
+      "26646266",
+      "33079429",
+      "41063205",
+      "34580909",
+      "25320520",
+      "41239365",
+      "41308536",
+      "39024079",
+      "41310372",
+      "39482576",
+      "26469398",
+      "33060677",
+      "41430709",
+      "38871058",
+      "23896173",
+      "39581068",
+      "39517902",
+      "40199428",
+      "31061447",
+      "24832159",
+      "38083181",
+      "38837231",
+      "37365659",
+      "40970686",
+      "25634751",
+      "37269416",
+      "40039533"
+    ],
+    "review": [
+      "41188199",
+      "29843660",
+      "38401998",
+      "25320520"
+    ],
+    "pmc": [
+      "12699241"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/41188199.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41188199/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/path.6491",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

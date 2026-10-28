@@ -1,0 +1,453 @@
+{
+  "identity": {
+    "pmid": "39430236",
+    "doi": "10.7150/ijbs.96748",
+    "title": "Exploring the Mechanism of Ferroptosis Induction by Sappanone A in Cancer: Insights into the Mitochondrial Dysfunction Mediated by NRF2/xCT/GPX4 Axis."
+  },
+  "content": {
+    "abstract": "Non-small cell lung cancer (NSCLC), a major subtype of lung cancer, encompasses squamous cell carcinoma, adenocarcinoma, and large cell carcinoma. Compared to small cell lung cancer, NSCLC cells grow and divide more slowly, and their metastasis occurs at a later stage. Currently, chemotherapy is the primary treatment for this disease. Sappanone A (SA) is a flavonoid compound extracted from the plant Caesalpinia sappan, known for its antitumor, redox-regulating, and anti-inflammatory properties. Recent studies have investigated the interaction of SA with mitochondrial pathways in regulating cell death through the Nrf-2/GPX-4/xCT axis. This study specifically explores the mechanism by which SA affects mitochondrial morphology and structure through the regulation of mitophagy and mitochondrial biogenesis in tumor cells. The study primarily utilizes second-generation transcriptomic sequencing data and molecular docking techniques to elucidate the role of SA in regulating programmed cell death in tumor cells. The omics results indicate that SA treatment significantly targets genes involved in oxidative phosphorylation, mitophagy, mitochondrial dynamics, and oxidative stress. Further findings confirmed that the Nrf-2/GPX4/xCT pathway serves as a crucial target of SA in the treatment of NSCLC. Knockdown of Nrf-2 (si-Nrf-2) and Nrf-2 overexpression (ad-Nrf-2) were shown to modulate the therapeutic efficacy of SA to varying degrees. Additionally, modifications to the GPX4/xCT genes significantly affected the regulatory effects of SA on mitochondrial autophagy, biogenesis, and energy metabolism. These regulatory mechanisms may be mediated through the caspase pathway and ferroptosis-related signaling. Molecular biology experiments have demonstrated that SA intervention further inhibits the phosphorylation of FUNDC1 at Tyr18 and downregulates TOM20 expression. SA treatment was found to reduce the expression of PGC1alpha, Nrf-1, and Tfam, resulting in a decrease in mitochondrial respiration and energy metabolism. Overexpression of Nrf-2 was shown to counteract the regulatory effects of SA on mitophagy and mitochondrial biogenesis. Confocal microscopy experiments further revealed that SA treatment increases mitochondrial fragmentation, subsequently inducing mitochondrial pathway-mediated programmed cell death. However, genetic modification of the Nrf-2/GPX4/xCT pathway significantly altered the regulatory effects of SA on tumor cells. In conclusion, SA has been identified as a promising therapeutic agent for NSCLC. The mitochondrial pathway-mediated apoptosis and ferroptosis may represent key mechanisms in regulating tumor cell death. Targeting the Nrf-2/GPX-4/xCT axis offers a novel therapeutic approach for maintaining mitochondrial homeostasis within the cellular microenvironment.",
+    "keywords": [
+      "Non-small-cell carcinoma",
+      "Nrf-2/GPX-4/xCT",
+      "ferroptosis",
+      "mitochondrial",
+      "sappanone A"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Mitochondria/metabolism/drug effects",
+      "*Ferroptosis/drug effects",
+      "Cell Line, Tumor",
+      "Phospholipid Hydroperoxide Glutathione Peroxidase/metabolism",
+      "Carcinoma, Non-Small-Cell Lung/metabolism/drug therapy/pathology",
+      "Lung Neoplasms/metabolism/drug therapy/pathology",
+      "Molecular Docking Simulation",
+      "Mitophagy/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Junyan",
+        "Zhuang, Haowen",
+        "Yang, Xiaocui",
+        "Guo, Zhijiang",
+        "Zhou, Kainan",
+        "Liu, Nanyang",
+        "An, Yang",
+        "Chen, Ye",
+        "Zhang, Zhongzheng",
+        "Wang, Mengyuan",
+        "Chen, Jinhong",
+        "Li, Chun",
+        "Chang, Xing"
+      ],
+      "short_names": [
+        "Wang J",
+        "Zhuang H",
+        "Yang X",
+        "Guo Z",
+        "Zhou K",
+        "Liu N",
+        "An Y",
+        "Chen Y",
+        "Zhang Z",
+        "Wang M",
+        "Chen J",
+        "Li C",
+        "Chang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+        "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+        "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+        "The Second Affiliated Hospital of Liaoning University of Traditional Chinese Medicine, 110032, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, 100053, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, 100053, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, 110032, China.",
+        "Xianning Medical College, Hubei University of Science & Technology, Xianning, 437000, China.",
+        "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+        "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+        "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+        "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, 100053, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Junyan",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+          "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Haowen",
+        "short_name": "Zhuang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaocui",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Liaoning University of Traditional Chinese Medicine, 110032, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhijiang",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, 100053, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Kainan",
+        "short_name": "Zhou K",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, 100053, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Nanyang",
+        "short_name": "Liu N",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "An, Yang",
+        "short_name": "An Y",
+        "identifiers": [],
+        "affiliations": [
+          "Liaoning University of Traditional Chinese Medicine, Shenyang, Liaoning, 110032, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ye",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xianning Medical College, Hubei University of Science & Technology, Xianning, 437000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhongzheng",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Mengyuan",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinhong",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chun",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China.",
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Xing",
+        "short_name": "Chang X",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, 100053, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Sci"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/21 10:51",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42509425",
+      "42344232",
+      "42267664",
+      "42230481",
+      "42193324",
+      "42089895",
+      "41729256",
+      "41462674",
+      "41415031",
+      "41347152",
+      "41343408",
+      "41316923",
+      "40959280",
+      "40776761",
+      "40747664",
+      "40695960",
+      "40535769",
+      "40426179",
+      "40148800",
+      "40100343",
+      "40093797",
+      "40083691",
+      "40001110"
+    ],
+    "refs": [
+      "39234811",
+      "39233058",
+      "39232927",
+      "39231943",
+      "39229924",
+      "39225511",
+      "39225081",
+      "39218420",
+      "39215364",
+      "39215193",
+      "39214157",
+      "39192032",
+      "39187492",
+      "39181433",
+      "39171764",
+      "39164792",
+      "39151665",
+      "39147386",
+      "39128228",
+      "39099169",
+      "39094577",
+      "39053246",
+      "39014402",
+      "38948070",
+      "38939059",
+      "38870748",
+      "38866667",
+      "38830851",
+      "38745155",
+      "38503237",
+      "38447978",
+      "38389837",
+      "38342017",
+      "38291374",
+      "38156294",
+      "38130646",
+      "38130643",
+      "38130632",
+      "38081871",
+      "38025952",
+      "37928261",
+      "37838829",
+      "37818155",
+      "37812880",
+      "37755621",
+      "37733919",
+      "37707623",
+      "37699536",
+      "37662893",
+      "37662890",
+      "37533845",
+      "37419738",
+      "37408575",
+      "37408574",
+      "37408571",
+      "37408570",
+      "37405612",
+      "37225700",
+      "37147673",
+      "36628833",
+      "36374036",
+      "36071574",
+      "35613529",
+      "35600978",
+      "35402264",
+      "34708067",
+      "33548911",
+      "32978453",
+      "32968631",
+      "32782536",
+      "32681248",
+      "32606757",
+      "32528825",
+      "32075819",
+      "32061268",
+      "31914011",
+      "31887796",
+      "31837317",
+      "31720873",
+      "31367011",
+      "23449353",
+      "23376253",
+      "21414846",
+      "10713737"
+    ],
+    "similar": [
+      "39430236",
+      "39214275",
+      "41344272",
+      "42241811",
+      "41653617",
+      "40877163",
+      "39307771",
+      "40257494",
+      "33113504",
+      "40015539",
+      "40825957",
+      "40334339",
+      "39251043",
+      "40219018",
+      "41115641",
+      "42126498",
+      "42013981",
+      "40280228",
+      "41814775",
+      "37856990",
+      "41619555",
+      "41520560",
+      "40274347",
+      "40826028",
+      "38438754",
+      "39652902",
+      "40191731",
+      "41729256",
+      "39697040",
+      "42135726",
+      "40992442",
+      "33746607",
+      "39018922",
+      "40085199",
+      "37689240",
+      "41254362",
+      "40806353",
+      "41242017",
+      "41063445",
+      "39009325",
+      "39961466",
+      "39805792",
+      "40020881",
+      "39722125",
+      "42030802",
+      "37554285",
+      "38480835",
+      "41562315",
+      "41187650",
+      "38838791",
+      "39048340",
+      "41764215",
+      "42119357",
+      "41777684",
+      "34237431",
+      "38403250",
+      "33675143",
+      "40216870",
+      "41135616",
+      "42263898",
+      "31542233",
+      "41928317",
+      "38670393",
+      "40696470",
+      "41606605",
+      "42103195",
+      "38671369",
+      "31323446",
+      "40819642",
+      "40592077",
+      "40456202",
+      "38850659",
+      "40901755",
+      "42049118",
+      "40366468",
+      "41422727",
+      "41016297",
+      "41782241",
+      "39093464",
+      "24606795",
+      "41903814",
+      "41577149",
+      "40539046",
+      "42138621",
+      "40643435",
+      "40474460",
+      "37209607",
+      "39354361",
+      "41848996",
+      "37381723",
+      "41208796",
+      "41259048",
+      "41365194",
+      "41529459",
+      "41145011",
+      "39089636",
+      "41499935",
+      "39798196",
+      "38950838",
+      "42026186"
+    ],
+    "review": [
+      "39430236",
+      "40257494",
+      "40015539",
+      "40191731"
+    ],
+    "pmc": [
+      "11488586"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39430236/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ijbs.com/v20p5145.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

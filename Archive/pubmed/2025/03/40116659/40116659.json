@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "40116659",
+    "doi": "10.1093/bib/bbaf118",
+    "title": "AttentionGRN: a functional and directed graph transformer for gene regulatory network reconstruction from scRNA-seq data."
+  },
+  "content": {
+    "abstract": "Single-cell RNA sequencing (scRNA-seq) enables the reconstruction of cell type-specific gene regulatory networks (GRNs), offering detailed insights into gene regulation at high resolution. While graph neural networks have become widely used for GRN inference, their message-passing mechanisms are often limited by issues such as over-smoothing and over-squashing, which hinder the preservation of essential network structure. To address these challenges, we propose a novel graph transformer-based model, AttentionGRN, which leverages soft encoding to enhance model expressiveness and improve the accuracy of GRN inference from scRNA-seq data. Furthermore, the GRN-oriented message aggregation strategies are designed to capture both the directed network structure information and functional information inherent in GRNs. Specifically, we design directed structure encoding to facilitate the learning of directed network topologies and employ functional gene sampling to capture key functional modules and global network structure. Our extensive experiments, conducted on 88 datasets across two distinct tasks, demonstrate that AttentionGRN consistently outperforms existing methods. Furthermore, AttentionGRN has been successfully applied to reconstruct cell type-specific GRNs for human mature hepatocytes, revealing novel hub genes and previously unidentified transcription factor-target gene regulatory associations.",
+    "keywords": [
+      "directed structural encoding",
+      "functional module",
+      "gene regulatory network",
+      "graph transformer"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Single-Cell Analysis/methods",
+      "Humans",
+      "Algorithms",
+      "*RNA-Seq",
+      "*Software",
+      "*Sequence Analysis, RNA",
+      "*Computational Biology/methods",
+      "Neural Networks, Computer",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Zhen",
+        "Su, Yansen",
+        "Tang, Jin",
+        "Jin, Huaiwan",
+        "Ding, Yun",
+        "Cao, Rui-Fen",
+        "Wei, Pi-Jing",
+        "Zheng, Chun-Hou"
+      ],
+      "short_names": [
+        "Gao Z",
+        "Su Y",
+        "Tang J",
+        "Jin H",
+        "Ding Y",
+        "Cao RF",
+        "Wei PJ",
+        "Zheng CH"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7427-6032"
+      ],
+      "affiliations": [
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "Information Materials and Intelligent Sensing Laboratory of Anhui Province, The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institute of Physical Science and Information Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China.",
+        "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Zhen",
+        "short_name": "Gao Z",
+        "identifiers": [
+          "0000-0001-7427-6032"
+        ],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yansen",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Jin",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Huaiwan",
+        "short_name": "Jin H",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yun",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Rui-Fen",
+        "short_name": "Cao RF",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Pi-Jing",
+        "short_name": "Wei PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Information Materials and Intelligent Sensing Laboratory of Anhui Province, The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institute of Physical Science and Information Technology, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Chun-Hou",
+        "short_name": "Zheng CH",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei 230601, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Mar 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/21 19:10",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42234838",
+      "40983951"
+    ],
+    "refs": [
+      "39082651",
+      "39047449",
+      "38935070",
+      "38581416",
+      "38261340",
+      "38217125",
+      "37985457",
+      "37897702",
+      "37864293",
+      "37621322",
+      "37566742",
+      "37365273",
+      "37267145",
+      "37004161",
+      "36810839",
+      "36585783",
+      "36273753",
+      "35961023",
+      "35780101",
+      "35692809",
+      "35690842",
+      "35501393",
+      "35451460",
+      "35352511",
+      "35062026",
+      "34962260",
+      "34790400",
+      "34761729",
+      "34424948",
+      "33876191",
+      "33868403",
+      "33786634",
+      "33539514",
+      "32661225",
+      "31907445",
+      "31822622",
+      "31534521",
+      "31112743",
+      "30547394",
+      "29434199",
+      "29415318",
+      "29126833",
+      "28614297",
+      "27534536",
+      "27374120",
+      "27365425",
+      "25521941",
+      "24919153",
+      "14597658"
+    ],
+    "similar": [
+      "40116659",
+      "40251476",
+      "37985457",
+      "39960893",
+      "40062616",
+      "38950180",
+      "39934680",
+      "38896510",
+      "39694856",
+      "34424948",
+      "39708840",
+      "39487083",
+      "38879931",
+      "38980373",
+      "35961023",
+      "39511415",
+      "39446194",
+      "39417321",
+      "30547796",
+      "36877552",
+      "39939367",
+      "37004161",
+      "39062480",
+      "39311699",
+      "39800872",
+      "38892162",
+      "39605181",
+      "39401117",
+      "36733262",
+      "36070863",
+      "33026066",
+      "39684451",
+      "35172334",
+      "36804214",
+      "36626328",
+      "40220759",
+      "39494609",
+      "38261340",
+      "38744843",
+      "37686146",
+      "35050715",
+      "39999494",
+      "40188497",
+      "39508444",
+      "38581416",
+      "37897702",
+      "38976751",
+      "35901457",
+      "31068142",
+      "40069807",
+      "39237886",
+      "37085776",
+      "36825817",
+      "38342857",
+      "38778003",
+      "38935070",
+      "39944798",
+      "33307360",
+      "33619563",
+      "34251625",
+      "39373051",
+      "40152244",
+      "39561511",
+      "36168811",
+      "39975293",
+      "39348410",
+      "35715748",
+      "39103856",
+      "40154828",
+      "39059210",
+      "39402696",
+      "39466833",
+      "39535258",
+      "19594874",
+      "36526433",
+      "37525047",
+      "36734596",
+      "39180857",
+      "36585783",
+      "40095604",
+      "39851075",
+      "39504481",
+      "39060167",
+      "38396909",
+      "38032470",
+      "34962260",
+      "39550222",
+      "39992219",
+      "40197174",
+      "39230705",
+      "32716923",
+      "37016281",
+      "37244909",
+      "39036845",
+      "35184277",
+      "38810116",
+      "39101690",
+      "37751336",
+      "39082647",
+      "39900656"
+    ],
+    "review": [
+      "40116659",
+      "39939367"
+    ],
+    "pmc": [
+      "11926986"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40116659.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40116659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf118",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

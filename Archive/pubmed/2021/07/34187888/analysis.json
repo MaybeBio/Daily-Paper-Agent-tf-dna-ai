@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34187888",
+  "title": "Deep representation learning improves prediction of LacI-mediated transcriptional repression.",
+  "authors": "Garruss, Alexander S; Collins, Katherine M; Church, George M",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2021-07-01",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度表示学习预测LacI转录抑制功能变异效应，虽涉及TF-DNA介导的转录调控，但核心是蛋白功能预测而非TF-DNA结合位点或互作机制建模，方法可迁移但对象和互作深度有限。",
+  "abstract": "Recent progress in DNA synthesis and sequencing technology has enabled systematic studies of protein function at a massive scale. We explore a deep mutational scanning study that measured the transcriptional repression function of 43,669 variants of the Escherichia coli LacI protein. We analyze structural and evolutionary aspects that relate to how the function of this protein is maintained, including an in-depth look at the C-terminal domain. We develop a deep neural network to predict transcriptional repression mediated by the lac repressor of Escherichia coli using experimental measurements of variant function. When measured across 10 separate training and validation splits using 5,009 single mutations of the lac repressor, our best-performing model achieved a median Pearson correlation of 0.79, exceeding any previous model. We demonstrate that deep representation learning approaches, first trained in an unsupervised manner across millions of diverse proteins, can be fine-tuned in a supervised fashion using lac repressor experimental datasets to more effectively predict a variant's effect on repression. These findings suggest a deep representation learning model may improve the prediction of other important properties of proteins.",
+  "abstract_zh": "DNA合成与测序技术的最新进展使得大规模系统研究蛋白质功能成为可能。我们探索了一项深度突变扫描研究，该研究测量了43,669个大肠杆菌LacI蛋白变体的转录抑制功能。我们分析了与该蛋白功能维持相关的结构和进化方面，包括对C端结构域的深入考察。我们开发了一种深度神经网络，利用变体功能的实验测量来预测大肠杆菌lac阻遏物介导的转录抑制。在10次独立的训练和验证分割中，使用5,009个lac阻遏物单突变进行测量时，我们表现最佳的模型实现了0.79的中位Pearson相关系数，超过了以往任何模型。我们证明，深度表示学习方法——首先在数百万种多样蛋白质上以无监督方式训练——可以通过lac阻遏物实验数据集进行监督微调，从而更有效地预测变体对抑制的影响。这些发现表明，深度表示学习模型可能改善对其他重要蛋白质特性的预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34187888/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34187888/",
+  "paper_page_path": "papers/pubmed/34187888/index.html"
+}

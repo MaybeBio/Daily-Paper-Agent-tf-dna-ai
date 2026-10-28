@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "41946696",
+    "doi": "10.1038/s41419-026-08711-3",
+    "title": "GDPD5-CD55-EGFR competitive binding axis regulates radioresistance and lipid accumulation in rectal cancer."
+  },
+  "content": {
+    "abstract": "Resistance to neoadjuvant chemoradiotherapy in rectal cancer diminishes survival benefits, potentially due to dysregulated lipid metabolism, though the mechanisms are unclear. Using the MSigDB database and GSE68204 cohort, we identified lipid metabolism genes linked to radiotherapy resistance. We developed resistant cell lines and xenograft models, and through multi-algorithm analysis (SVM-RFE, RF, LASSO), pinpointed key genes. Molecular mechanisms were explored via Western blotting, co-immunoprecipitation, molecular docking, and functional assays, validated in patient-derived organoids. Our study found that radiotherapy-resistant rectal cancer shows a lipid accumulation phenotype, with an inverse relationship between lipid droplet deposition and radiosensitivity in resistant cell models. The multi-algorithm screening identified GDPD5 as a key regulator. Silencing GDPD5 reduced lipid accumulation and increased radiosensitivity. Mechanistically, GDPD5 competes with CD55, disrupting its interaction with EGFR and promoting EGFR nuclear translocation, which suppresses p53 and leads to lipid buildup and radiotherapy resistance in tumors. Clinical samples showed high GDPD5 and low CD55 levels correlate with EGFR nuclear localization. Patient-derived organoids with high GDPD5 also showed increased radiotherapy resistance. Our findings indicate that GDPD5 facilitates EGFR nuclear translocation by binding to CD55, suppressing p53, and causing lipid accumulation and radiotherapy resistance in tumors. Targeting the GDPD5-CD55-EGFR interaction may enhance radiosensitivity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Radiation Tolerance/genetics",
+      "Animals",
+      "*Rectal Neoplasms/metabolism/radiotherapy/pathology/genetics",
+      "ErbB Receptors/metabolism",
+      "Cell Line, Tumor",
+      "*Lipid Metabolism/genetics",
+      "*CD55 Antigens/metabolism/genetics",
+      "Mice",
+      "Protein Binding",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Ruiqiu",
+        "Li, Mingyue",
+        "Shen, Yi",
+        "Zou, Li",
+        "Jin, Limin",
+        "Shen, Yuntian",
+        "Zhu, Yaqun",
+        "Peng, Qiliang"
+      ],
+      "short_names": [
+        "Zhu R",
+        "Li M",
+        "Shen Y",
+        "Zou L",
+        "Jin L",
+        "Shen Y",
+        "Zhu Y",
+        "Peng Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0248-8826"
+      ],
+      "affiliations": [
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Radiation Oncology, Suzhou Hospital, Affiliated Hospital of Medical School, Nanjing University, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China. pengqiliang1912@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Ruiqiu",
+        "short_name": "Zhu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mingyue",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yi",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Suzhou Hospital, Affiliated Hospital of Medical School, Nanjing University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Li",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Limin",
+        "short_name": "Jin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yuntian",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yaqun",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Qiliang",
+        "short_name": "Peng Q",
+        "identifiers": [
+          "0000-0002-0248-8826"
+        ],
+        "affiliations": [
+          "Department of Radiotherapy & Oncology, The Second Affiliated Hospital of Soochow University, Suzhou, China. pengqiliang1912@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2026 Apr 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/08 00:30",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40537809",
+      "40470795",
+      "40332379",
+      "39986611",
+      "39885557",
+      "39848861",
+      "39806478",
+      "39774325",
+      "39568844",
+      "39116386",
+      "39047051",
+      "38485756",
+      "38327191",
+      "38311377",
+      "38291470",
+      "37368108",
+      "37079212",
+      "36790505",
+      "36778122",
+      "36430219",
+      "36400749",
+      "36333288",
+      "36240850",
+      "36216147",
+      "36142122",
+      "36112694",
+      "36030273",
+      "35628385",
+      "35550203",
+      "35474131",
+      "35468004",
+      "35361963",
+      "35170250",
+      "34766135",
+      "34583722",
+      "34576263",
+      "34358518",
+      "34238917",
+      "34060937",
+      "33838111",
+      "33813001",
+      "33785447",
+      "32944403",
+      "32614500",
+      "32462882",
+      "32404993",
+      "32355263",
+      "32005946",
+      "31968253",
+      "31858156",
+      "30862720",
+      "30675212",
+      "30590044",
+      "30519000",
+      "30216670",
+      "29721083",
+      "29635904",
+      "28944962",
+      "28886379",
+      "28838952",
+      "27696134",
+      "27693046",
+      "25902914",
+      "24764256",
+      "22279038",
+      "16418264"
+    ],
+    "similar": [
+      "41946696",
+      "41848996",
+      "30968159",
+      "40716096",
+      "41865688",
+      "40615101",
+      "30876460",
+      "42040897",
+      "41787385",
+      "23575399",
+      "30487698",
+      "33334013",
+      "38853277",
+      "25355701",
+      "38702028",
+      "31298332",
+      "38866213",
+      "28944962",
+      "40189587",
+      "42087187",
+      "40956140",
+      "40514657",
+      "41092159",
+      "31387015",
+      "37170184",
+      "31704889",
+      "42030890",
+      "40470752",
+      "29160417",
+      "42106046",
+      "41963079",
+      "41331871",
+      "42479311",
+      "42274587",
+      "39964473",
+      "29635904",
+      "42271166",
+      "41101075",
+      "41764215",
+      "42366284",
+      "38970106",
+      "40574313",
+      "42106683",
+      "40119400",
+      "39056517",
+      "41500820",
+      "31678144",
+      "31588224",
+      "39543744",
+      "35041825",
+      "31228625",
+      "41248697",
+      "31359406",
+      "40499802",
+      "42162650",
+      "41694583",
+      "32295603",
+      "41611070",
+      "41435981",
+      "42409323",
+      "41325838",
+      "24454870",
+      "39290702",
+      "39709027",
+      "37084841",
+      "41703117",
+      "42324593",
+      "39962467",
+      "42341853",
+      "36402747",
+      "33506057",
+      "42181736",
+      "37076469",
+      "34838866",
+      "42573925",
+      "41033606",
+      "33927351",
+      "41152910",
+      "17445998",
+      "24634415",
+      "41808706",
+      "34335968",
+      "18497992",
+      "35850266",
+      "42432656",
+      "26025927",
+      "39284851",
+      "23010482",
+      "40326033",
+      "34271981",
+      "28065789",
+      "25088576",
+      "37019366",
+      "38493128",
+      "41975505",
+      "35101526",
+      "40826173",
+      "42205867",
+      "41110356",
+      "38723526"
+    ],
+    "review": [
+      "41946696",
+      "42274587"
+    ],
+    "pmc": [
+      "13187013"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41419-026-08711-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41946696/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

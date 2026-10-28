@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.12.571290",
+  "title": "Identification of an allele-specific transcription factor binding interaction that regulates <i>PLA2G2A</i> gene expression",
+  "authors": "Aki Hara; Eric Lu; Laurel Johnstone; Michelle Wei; Shudong Sun; Brian Hallmark; Joseph C. Watkins; Hao Helen Zhang; Guang Yao; Floyd H. Chilton",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-13",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过SNP2TFBS和ChIP-seq识别SP1与rs11573156等位基因的特异性结合，并用微分方程建模其调控PLA2G2A表达，涉及TF-DNA结合位点预测但缺乏AI或物理模拟方法，属于广义蛋白-DNA互作研究。",
+  "abstract": "The secreted phospholipase A 2 (sPLA 2 ) isoform, sPLA 2 -IIA, has been implicated in a variety of diseases and conditions, including bacteremia, cardiovascular disease, COVID-19, sepsis, adult respiratory distress syndrome, and certain cancers. Given its significant role in these conditions, understanding the regulatory mechanisms impacting its levels is crucial. Genome-wide association studies (GWAS) have identified several single nucleotide polymorphisms (SNPs), including rs11573156, that are associated with circulating levels of sPLA 2 -IIA. Through Genotype-Tissue Expression (GTEx), 234 expression quantitative trait loci (eQTLs) were identified for the gene that encodes for sPLA 2 -IIA, PLA2G2A . SNP2TFBS ( https://ccg.epfl.ch/snp2tfbs/ ) was utilized to ascertain the binding affinities between transcription factors (TFs) to both the reference and alternative alleles of identified SNPs. Subsequently, ChIP-seq peaks highlighted the TF combinations that specifically bind to the SNP, rs11573156. SP1 emerged as a significant TF/SNP pair in liver cells, with rs11573156/SP1 interaction being most prominent in liver, prostate, ovary, and adipose tissues. Further analysis revealed that the upregulation of PLA2G2A transcript levels through the rs11573156 variant was affected by tissue SP1 protein levels. By leveraging an ordinary differential equation, structured upon Michaelis-Menten enzyme kinetics assumptions, we modeled the PLA2G2A transcription’s dependence on SP1 protein levels, incorporating the SNP’s influence. Collectively, these data strongly suggest that the binding affinity differences of SP1 for the different rs11573156 alleles can influence PLA2G2A expression. This, in turn, can modulate sPLA2-IIA levels, impacting a wide range of human diseases.",
+  "abstract_zh": "分泌型磷脂酶A2（sPLA2）同工型sPLA2-IIA已被涉及多种疾病和状况，包括菌血症、心血管疾病、COVID-19、脓毒症、成人呼吸窘迫综合征及某些癌症。鉴于其在这些状况中的重要作用，理解影响其水平的调控机制至关重要。全基因组关联研究（GWAS）已识别出多个单核苷酸多态性（SNPs），包括rs11573156，这些多态性与sPLA2-IIA的循环水平相关。通过基因型-组织表达（GTEx）项目，为编码sPLA2-IIA的基因PLA2G2A识别出234个表达数量性状位点（eQTLs）。利用SNP2TFBS（https://ccg.epfl.ch/snp2tfbs/）来确定转录因子（TFs）与已识别SNPs的参考等位基因和替代等位基因之间的结合亲和力。随后，ChIP-seq峰图突出了特异性结合于SNP rs11573156的TF组合。SP1在肝细胞中成为显著的TF/SNP对，其中rs11573156/SP1相互作用在肝脏、前列腺、卵巢和脂肪组织中最为突出。进一步分析揭示，通过rs11573156变异上调PLA2G2A转录水平受到组织SP1蛋白水平的影响。通过利用基于Michaelis-Menten酶动力学假设构建的常微分方程，我们对PLA2G2A转录对SP1蛋白水平的依赖性进行了建模，并纳入了SNP的影响。综合来看，这些数据强烈表明，SP1对不同rs11573156等位基因的结合亲和力差异可影响PLA2G2A表达，进而调节sPLA2-IIA水平，从而影响广泛的人类疾病。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.12.571290",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.12.571290",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.12.571290/index.html"
+}

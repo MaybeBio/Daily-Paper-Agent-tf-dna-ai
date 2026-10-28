@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35737155",
+  "title": "Prediction of EVT6-NTRK3-Dependent Papillary Thyroid Cancer Using Minor Expression Profile.",
+  "authors": "Kechin, A A; Ivanov, A A; Kel, A E; Kalmykov, A S; Oskorbin, I P; Boyarskikh, U A; Kharpov, E A; Bakharev, S Yu; Oskina, N A; Samuilenkova, O V; Vikhlyanov, I V; Kushlinskii, N E; Filipenko, M L",
+  "journal": "Bulletin of experimental biology and medicine",
+  "published_date": "2022-06-24",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习基于基因表达谱预测甲状腺癌中NTRK融合基因，属纯转录组分类，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Solid tumors resulting from oncogenic stimulation of neurotrophin receptors (TRK) by chimeric proteins are a group of rare tumors of various localization that respond to therapy with targeted drugs entrectinib and larotrectinib. The standard method for detecting chimeric TRK genes in tumor samples today is considered to be next generation sequencing with the determination of the prime structure of the chimeric transcripts. We hypothesized that expression of the chimeric tyrosine kinase proteins in tumors can determine the specific transcriptomic profile of tumor cells. We detected differentially expressed genes allowing distinguishing between TRK-dependent tumors papillary thyroid cancer (TC) from other molecular variants of tumors of this type. Using PCR with reverse transcription (RT-PCR), we identified 7 samples of papillary TC carrying a EVT6-NTRK3 rearrangement (7/215, 3.26%). Using machine learning and the data extracted from TCGA, we developed of a recognition function for predicting the presence of rearrangement in NTRK genes based on the expression of 10 key genes: AUTS2, DTNA, ERBB4, HDAC1, IGF1, KDR, NTRK1, PASK, PPP2R5B, and PRSS1. The recognition function was used to analyze the expression data of the above genes in 7 TRK-dependent and 10 TRK-independent thyroid tumors obtained by RT-PCR. On the test samples from TCGA, the sensitivity was 72.7%, the specificity - 99.6%. On our independent validation samples tested by RT-PCR, sensitivity was 100%, specificity - 70%. We proposed an mRNA profile of ten genes that can classify TC in relation to the presence of driver NTRK-chimeric TRK genes with acceptable sensitivity and specificity.",
+  "abstract_zh": "由嵌合蛋白对神经营养因子受体（TRK）进行致癌刺激导致的实体肿瘤是一组罕见肿瘤，其定位多样，对靶向药物恩曲替尼（entrectinib）和拉罗替尼（larotrectinib）的治疗有反应。目前，检测肿瘤样本中嵌合TRK基因的标准方法被认为是下一代测序，以确定嵌合转录本的一级结构。我们假设肿瘤中嵌合酪氨酸激酶蛋白的表达可能决定肿瘤细胞特定的转录组谱。我们检测到差异表达基因，能够将TRK依赖性肿瘤甲状腺乳头状癌（TC）与该类型肿瘤的其他分子变异区分开来。通过逆转录聚合酶链反应（RT-PCR），我们鉴定出7例携带EVT6-NTRK3重排的甲状腺乳头状癌样本（7/215，3.26%）。利用机器学习和从TCGA提取的数据，我们开发了一种识别函数，基于10个关键基因的表达来预测NTRK基因中的重排存在：AUTS2、DTNA、ERBB4、HDAC1、IGF1、KDR、NTRK1、PASK、PPP2R5B和PRSS1。该识别函数用于分析通过RT-PCR获得的7例TRK依赖性和10例TRK非依赖性甲状腺肿瘤中上述基因的表达数据。在来自TCGA的测试样本上，敏感性为72.7%，特异性为99.6%。在我们通过RT-PCR测试的独立验证样本上，敏感性为100%，特异性为70%。我们提出了一个由十个基因组成的mRNA谱，能够以可接受的敏感性和特异性对TC进行分类，以判断是否存在驱动性NTRK嵌合TRK基因。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35737155/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35737155/",
+  "paper_page_path": "papers/pubmed/35737155/index.html"
+}

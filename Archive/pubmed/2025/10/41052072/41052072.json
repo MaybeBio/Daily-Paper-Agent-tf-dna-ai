@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "41052072",
+    "doi": "10.1371/journal.pone.0333070",
+    "title": "Exploration common biomarkers and pathogenesis of primary Sjogren's syndrome and interstitial lung disease by machine learning and weighted gene co-expression networks."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Primary Sjogren's syndrome (pSS) is an autoimmune and inflammatory disorder that may affect the lungs, leading to interstitial lung disease (ILD). However, the diagnosis of progression from pSS to ILD is frequently delayed due to unstandardized interdisciplinary diagnostic criteria and a lack of reliable shared biomarkers. This diagnostic challenge, compounded by significant pathophysiological divergence in target organs, has hindered elucidation of their comorbidity mechanisms. This study employs integrated bioinformatics to identify shared biomarkers in pSS and ILD, deciphers their pathogenic mechanisms, and predicts targeted therapeutics via network pharmacology. METHODS: From the Gene Expression Omnibus (GEO) database, we retrieved gene expression profiles of pSS and ILD. Differential expression gene (DEG) analysis was performed on the profiles, followed by further screening using four machine learning algorithms. Concurrently, weighted gene co-expression network analysis (WGCNA) was applied to identify gene modules, and enrichment analysis of WGCNA-derived genes was conducted to explore their biological functions. Genes obtained from WGCNA and machine learning approaches were then intersected to identify candidate biomarkers for pSS-ILD. The diagnostic potential of these candidate genes was evaluated in both discovery and validation sets using receiver operating characteristic (ROC) curves. Finally, we performed immune cell infiltration analysis of candidate genes, regulatory network construction for transcription factor (TF)-gene and miRNA-gene interactions, drug-target prediction, and molecular docking coupled with molecular dynamics simulations for predicted drugs. RESULTS: Differential expression analysis identified 25 shared genes between pSS and ILD gene expression profiles, with machine learning algorithms refining six key genes from these DEGs. WGCNA revealed 39 intersecting genes significantly enriched in biological processes including cell division, oocyte maturation, and metabolic regulation. Intersection of machine learning and WGCNA results yielded two hub genes (CYSLTR1 and SIGLEC10), both demonstrating robust diagnostic value in discovery and validation cohorts. Immune cell infiltration profiling showed: upregulation of activated CD4+ memory T cells and memory B cells; downregulation of resting NK cells. Regulatory network analysis indicated FOXC1, hsa-mir-27a-3p, hsa-mir-195-5p, and hsa-miR-26a-5p as potential coregulators of CYSLTR1 and SIGLEC10 expression. Finally, ten candidate drug compounds targeting the hub genes were prioritized, exemplified by:Rev-5901 (CTD 00002161), Zafirlukast (BOSS database) and Montelukast (CTD 00003205). Molecular docking demonstrated substantial binding affinity of both montelukast and zafirlukast for CYSLTR1, while molecular dynamics simulations further validated the stability of their complexes. CONCLUSION: This study revealed that CYSLTR1 and SIGLEC10 demonstrate diagnostic potential for pSS-ILD. Their mechanism of action likely involves synergistically upregulating memory B cells to promote disease progression. Furthermore, we identified montelukast as a potential therapeutic agent. This discovery holds promise for improving clinical outcomes for pSS-ILD patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Sjogren's Syndrome/genetics/diagnosis/pathology",
+      "Humans",
+      "*Machine Learning",
+      "*Gene Regulatory Networks",
+      "*Lung Diseases, Interstitial/genetics/diagnosis/pathology/metabolism",
+      "*Biomarkers/metabolism",
+      "Gene Expression Profiling",
+      "Computational Biology/methods",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Jingqi",
+        "Wang, Zelin",
+        "Xu, Yanan",
+        "Liang, Shufen"
+      ],
+      "short_names": [
+        "Dong J",
+        "Wang Z",
+        "Xu Y",
+        "Liang S"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-3656-354X"
+      ],
+      "affiliations": [
+        "Department of Laboratory, The Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China.",
+        "Department of Laboratory, The Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China.",
+        "Department of Laboratory, The Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China.",
+        "Department of Laboratory, The Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Jingqi",
+        "short_name": "Dong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, The Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zelin",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, The Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yanan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, The Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Shufen",
+        "short_name": "Liang S",
+        "identifiers": [
+          "0009-0004-3656-354X"
+        ],
+        "affiliations": [
+          "Department of Laboratory, The Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/06 18:31",
+    "fetched_at": "2026-10-01 03:38:17"
+  },
+  "links": {
+    "cites": [
+      "42598047",
+      "42158819",
+      "41438762"
+    ],
+    "refs": [
+      "39689157",
+      "39263792",
+      "39039306",
+      "38982205",
+      "38736967",
+      "38699447",
+      "38617532",
+      "38571583",
+      "38453885",
+      "38336872",
+      "38128705",
+      "37964167",
+      "37935567",
+      "37928522",
+      "37810210",
+      "37610265",
+      "37240535",
+      "37048669",
+      "36477362",
+      "36107019",
+      "35096012",
+      "35075579",
+      "34857478",
+      "34499865",
+      "34477117",
+      "34445658",
+      "33930530",
+      "33480040",
+      "33228011",
+      "32878637",
+      "32328009",
+      "32056839",
+      "31976313",
+      "31843713",
+      "31732480",
+      "31712723",
+      "31672775",
+      "31367043",
+      "31309487",
+      "31249572",
+      "30764869",
+      "30695649",
+      "30604506",
+      "30242640",
+      "29890415",
+      "28610655",
+      "28365056",
+      "27966553",
+      "26854724",
+      "26541096",
+      "24591661",
+      "22901890",
+      "19114008",
+      "16039337",
+      "11752295"
+    ],
+    "similar": [
+      "41052072",
+      "39142001",
+      "39080525",
+      "40997906",
+      "40957961",
+      "41479901",
+      "38359008",
+      "41476962",
+      "41328587",
+      "41410587",
+      "38678487",
+      "34367157",
+      "41212370",
+      "39139563",
+      "41316541",
+      "38677173",
+      "40406126",
+      "36988140",
+      "37591179",
+      "39512836",
+      "40227387",
+      "37928522",
+      "41432483",
+      "40374866",
+      "35562622",
+      "40421012",
+      "41255601",
+      "40199818",
+      "40293619",
+      "39559355",
+      "34413853",
+      "40332792",
+      "40442788",
+      "41442003",
+      "40146445",
+      "40789248",
+      "37153570",
+      "38866992",
+      "39577221",
+      "37244954",
+      "41101222",
+      "40374840",
+      "41013556",
+      "38987624",
+      "38376769",
+      "39346628",
+      "41300749",
+      "28916716",
+      "40453984",
+      "37614232",
+      "41120603",
+      "38863714",
+      "37823298",
+      "33488608",
+      "38876403",
+      "39299134",
+      "41078717",
+      "37984252",
+      "40596265",
+      "40574839",
+      "39086489",
+      "41474729",
+      "40273141",
+      "41300841",
+      "38755717",
+      "34536521",
+      "35944848",
+      "40238799",
+      "31125139",
+      "40097519",
+      "41146237",
+      "40328901",
+      "41102315",
+      "41214111",
+      "40494434",
+      "41424060",
+      "39749331",
+      "38899746",
+      "41221285",
+      "35757478",
+      "41137290",
+      "36132546",
+      "39917301",
+      "40588645",
+      "39028999",
+      "39709373",
+      "40233623",
+      "37740761",
+      "40808946",
+      "40973872",
+      "40766309",
+      "40129981",
+      "39341952",
+      "35958619",
+      "26573882",
+      "39136821",
+      "39072329",
+      "41204409",
+      "39695788",
+      "40966021"
+    ],
+    "review": [
+      "41052072",
+      "41101222"
+    ],
+    "pmc": [
+      "12500160"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/interstitiallungdiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Interstitial Lung Diseases"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0333070",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41052072/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

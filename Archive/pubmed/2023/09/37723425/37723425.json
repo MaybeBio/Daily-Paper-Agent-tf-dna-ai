@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "37723425",
+    "doi": "10.1186/s12859-023-05469-9",
+    "title": "DeepCAC: a deep learning approach on DNA transcription factors classification based on multi-head self-attention and concatenate convolutional neural network."
+  },
+  "content": {
+    "abstract": "Understanding gene expression processes necessitates the accurate classification and identification of transcription factors, which is supported by high-throughput sequencing technologies. However, these techniques suffer from inherent limitations such as time consumption and high costs. To address these challenges, the field of bioinformatics has increasingly turned to deep learning technologies for analyzing gene sequences. Nevertheless, the pursuit of improved experimental results has led to the inclusion of numerous complex analysis function modules, resulting in models with a growing number of parameters. To overcome these limitations, it is proposed a novel approach for analyzing DNA transcription factor sequences, which is named as DeepCAC. This method leverages deep convolutional neural networks with a multi-head self-attention mechanism. By employing convolutional neural networks, it can effectively capture local hidden features in the sequences. Simultaneously, the multi-head self-attention mechanism enhances the identification of hidden features with long-distant dependencies. This approach reduces the overall number of parameters in the model while harnessing the computational power of sequence data from multi-head self-attention. Through training with labeled data, experiments demonstrate that this approach significantly improves performance while requiring fewer parameters compared to existing methods. Additionally, the effectiveness of our approach  is validated in accurately predicting DNA transcription factor sequences.",
+    "keywords": [
+      "Attention mechanism",
+      "Bioinformatics",
+      "Convolutional neural networks",
+      "DNA transcription factors sequence"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors",
+      "*Deep Learning",
+      "DNA",
+      "Computational Biology",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jidong",
+        "Liu, Bo",
+        "Wu, Jiahui",
+        "Wang, Zhihan",
+        "Li, Jianqiang"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Liu B",
+        "Wu J",
+        "Wang Z",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Information Technology, Beijing University of Technology, Beijing, 100124, China.",
+        "School of Mathematical and Computational Sciences, Massey University, Auckland, 0745, New Zealand. b.liu@massey.ac.nz.",
+        "Faculty of Information Technology, Beijing University of Technology, Beijing, 100124, China.",
+        "Faculty of Information Technology, Beijing University of Technology, Beijing, 100124, China.",
+        "Faculty of Information Technology, Beijing University of Technology, Beijing, 100124, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jidong",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology, Beijing University of Technology, Beijing, 100124, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bo",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematical and Computational Sciences, Massey University, Auckland, 0745, New Zealand. b.liu@massey.ac.nz."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiahui",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology, Beijing University of Technology, Beijing, 100124, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhihan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology, Beijing University of Technology, Beijing, 100124, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianqiang",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology, Beijing University of Technology, Beijing, 100124, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2023 Sep 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/19 00:43",
+    "fetched_at": "2026-09-29 07:17:46"
+  },
+  "links": {
+    "cites": [
+      "41917487",
+      "41599985",
+      "40346458",
+      "39402535",
+      "38534493"
+    ],
+    "refs": [
+      "36100346",
+      "34481183",
+      "33538820",
+      "27307608",
+      "27084946",
+      "26301843",
+      "26213851",
+      "25033408",
+      "24355100",
+      "24097267",
+      "23846655",
+      "19458158",
+      "18521077",
+      "18329373",
+      "17038564",
+      "9377276",
+      "1497306"
+    ],
+    "similar": [
+      "37723425",
+      "36935548",
+      "38701417",
+      "37807013",
+      "38701593",
+      "33837387",
+      "35872410",
+      "35671654",
+      "38369844",
+      "34219140",
+      "34550967",
+      "34752400",
+      "35066812",
+      "29993783",
+      "35652477",
+      "39402441",
+      "38250147",
+      "38698098",
+      "33909566",
+      "33522898",
+      "38705502",
+      "34664074",
+      "36748992",
+      "33601013",
+      "38643080",
+      "36917472",
+      "38865861",
+      "29219068",
+      "33485098",
+      "38254021",
+      "38373289",
+      "36510136",
+      "38733561",
+      "39350338",
+      "30808287",
+      "31985412",
+      "38676257",
+      "35894026",
+      "38725076",
+      "37119553",
+      "36403092",
+      "33600318",
+      "34534646",
+      "39168294",
+      "37980798",
+      "31299625",
+      "38782224",
+      "33539511",
+      "35694707",
+      "38613888",
+      "36049552",
+      "32936825",
+      "34337657",
+      "38890584",
+      "32608476",
+      "32960766",
+      "38077595",
+      "37473563",
+      "34320631",
+      "38002325",
+      "37216900",
+      "38644393",
+      "38599417",
+      "36298117",
+      "28881969",
+      "32733596",
+      "35768792",
+      "37254080",
+      "32344155",
+      "34073774",
+      "36155619",
+      "38063012",
+      "38236675",
+      "33740884",
+      "37504818",
+      "35189635",
+      "37871661",
+      "31905774",
+      "33713959",
+      "37776263",
+      "35210482",
+      "30136285",
+      "38691916",
+      "35605495",
+      "30832569",
+      "29970003",
+      "38247050",
+      "37642213",
+      "35746152",
+      "32770026",
+      "29404850",
+      "30524056",
+      "31634140",
+      "37328639",
+      "35713780",
+      "37501025",
+      "31787076",
+      "37399806",
+      "35740899",
+      "33670112",
+      "38615462",
+      "37598467",
+      "33600326",
+      "33581335",
+      "31856220",
+      "38489147",
+      "39174927",
+      "38452348",
+      "39353006",
+      "30842277",
+      "39164470"
+    ],
+    "review": [
+      "37723425",
+      "35652477"
+    ],
+    "pmc": [
+      "10506269"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05469-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37723425/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37723425",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37723425",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

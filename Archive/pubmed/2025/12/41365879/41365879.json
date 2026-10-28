@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "41365879",
+    "doi": "10.1038/s41467-025-67073-0",
+    "title": "Geminin inhibits DNA replication licensing by sterically blocking CDT1-MCM2 interactions."
+  },
+  "content": {
+    "abstract": "DNA replication is tightly regulated to occur once per cell cycle, with the MCM2-7 helicase loaded onto replication origins only during G1-phase. In higher eukaryotes, geminin negatively regulates this process during S-, G2- and M-phases by binding the essential licensing factor CDT1. Although geminin's function is crucial for genomic stability, its inhibitory mechanism remains elusive. Here, we utilise a fully reconstituted human DNA replication licensing assay to dissect geminin's role. AlphaFold modelling provides structural insights into an N-terminal CDT1-binding helix of geminin, which proves essential for inhibition. Structural docking of the CDT1-geminin complex into the ORC-CDC6-CDT1-MCM2-7 (OCCM) assembly shows that geminin's long coiled-coil domain sterically clashes with the MCM2 C-terminus, rather than directly blocking CDT1 binding to ORC-CDC6-MCM2-7. Shortening the coiled-coil preserves geminin dimerisation and CDT1 binding but abolishes inhibition, confirming its mechanistic role. Surprisingly, geminin is not able to fully inhibit DNA licensing. However, CDK1/2-cyclin A can partially inhibit DNA licensing and, in conjunction with geminin, result in a complete block. These findings uncover geminin's steric inhibitory mechanism and suggest that a dual CDK-geminin axis controls human DNA replication.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA Replication",
+      "Humans",
+      "*Geminin/metabolism/chemistry/genetics",
+      "*Cell Cycle Proteins/metabolism/chemistry/genetics",
+      "*Minichromosome Maintenance Complex Component 2/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Origin Recognition Complex/metabolism",
+      "Molecular Docking Simulation",
+      "Nuclear Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tomkins, Joshua",
+        "Edwardes, Lucy V",
+        "Faull, Sarah V",
+        "Peach, Matthew",
+        "Gillespie, Peter J",
+        "Leber, Vera",
+        "Schmidt, Anna",
+        "Bounoua, Halil",
+        "Sim, Nicholas",
+        "Camarillo, Rosa",
+        "Blow, J Julian",
+        "Barr, Alexis R",
+        "Barnard, Anna",
+        "Speck, Christian"
+      ],
+      "short_names": [
+        "Tomkins J",
+        "Edwardes LV",
+        "Faull SV",
+        "Peach M",
+        "Gillespie PJ",
+        "Leber V",
+        "Schmidt A",
+        "Bounoua H",
+        "Sim N",
+        "Camarillo R",
+        "Blow JJ",
+        "Barr AR",
+        "Barnard A",
+        "Speck C"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-8875-2977",
+        "ORCID: 0000-0001-9024-2289",
+        "ORCID: 0009-0003-6777-2566",
+        "ORCID: 0000-0001-5710-3762",
+        "ORCID: 0000-0002-9524-5849",
+        "ORCID: 0000-0002-6684-8114",
+        "ORCID: 0000-0002-1327-3417",
+        "ORCID: 0000-0001-6646-1692"
+      ],
+      "affiliations": [
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Division of Molecular, Cell and Developmental Biology, School of Life Sciences, University of Dundee, Dundee, UK.",
+        "School of Biological Sciences, University of East Anglia, Norwich Research Park, Norwich, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+        "Division of Molecular, Cell and Developmental Biology, School of Life Sciences, University of Dundee, Dundee, UK.",
+        "School of Biological Sciences, University of East Anglia, Norwich Research Park, Norwich, UK.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK. a.barr@lms.mrc.ac.uk.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK. a.barr@lms.mrc.ac.uk.",
+        "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London, UK. a.barnard@imperial.ac.uk.",
+        "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK. chris.speck@imperial.ac.uk.",
+        "MRC Laboratory of Medical Sciences (LMS), London, UK. chris.speck@imperial.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tomkins, Joshua",
+        "short_name": "Tomkins J",
+        "identifiers": [
+          "0009-0007-8875-2977"
+        ],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK.",
+          "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Edwardes, Lucy V",
+        "short_name": "Edwardes LV",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK."
+        ]
+      },
+      {
+        "full_name": "Faull, Sarah V",
+        "short_name": "Faull SV",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK."
+        ]
+      },
+      {
+        "full_name": "Peach, Matthew",
+        "short_name": "Peach M",
+        "identifiers": [
+          "0000-0001-9024-2289"
+        ],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK."
+        ]
+      },
+      {
+        "full_name": "Gillespie, Peter J",
+        "short_name": "Gillespie PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular, Cell and Developmental Biology, School of Life Sciences, University of Dundee, Dundee, UK.",
+          "School of Biological Sciences, University of East Anglia, Norwich Research Park, Norwich, UK."
+        ]
+      },
+      {
+        "full_name": "Leber, Vera",
+        "short_name": "Leber V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Anna",
+        "short_name": "Schmidt A",
+        "identifiers": [
+          "0009-0003-6777-2566"
+        ],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK."
+        ]
+      },
+      {
+        "full_name": "Bounoua, Halil",
+        "short_name": "Bounoua H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK."
+        ]
+      },
+      {
+        "full_name": "Sim, Nicholas",
+        "short_name": "Sim N",
+        "identifiers": [
+          "0000-0001-5710-3762"
+        ],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK."
+        ]
+      },
+      {
+        "full_name": "Camarillo, Rosa",
+        "short_name": "Camarillo R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK."
+        ]
+      },
+      {
+        "full_name": "Blow, J Julian",
+        "short_name": "Blow JJ",
+        "identifiers": [
+          "0000-0002-9524-5849"
+        ],
+        "affiliations": [
+          "Division of Molecular, Cell and Developmental Biology, School of Life Sciences, University of Dundee, Dundee, UK.",
+          "School of Biological Sciences, University of East Anglia, Norwich Research Park, Norwich, UK."
+        ]
+      },
+      {
+        "full_name": "Barr, Alexis R",
+        "short_name": "Barr AR",
+        "identifiers": [
+          "0000-0002-6684-8114"
+        ],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK. a.barr@lms.mrc.ac.uk.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK. a.barr@lms.mrc.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Barnard, Anna",
+        "short_name": "Barnard A",
+        "identifiers": [
+          "0000-0002-1327-3417"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London, UK. a.barnard@imperial.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Speck, Christian",
+        "short_name": "Speck C",
+        "identifiers": [
+          "0000-0001-6646-1692"
+        ],
+        "affiliations": [
+          "Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London, UK. chris.speck@imperial.ac.uk.",
+          "MRC Laboratory of Medical Sciences (LMS), London, UK. chris.speck@imperial.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Dec 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/10 01:47",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42351681"
+    ],
+    "refs": [
+      "40588663",
+      "39779677",
+      "39604733",
+      "39604729",
+      "38718835",
+      "37140053",
+      "37059840",
+      "36718848",
+      "36608662",
+      "36541916",
+      "36210634",
+      "35320688",
+      "34545932",
+      "33289883",
+      "32841231",
+      "32453425",
+      "31930404",
+      "31748745",
+      "30281379",
+      "28643783",
+      "28584079",
+      "28191893",
+      "28165473",
+      "28025526",
+      "26940553",
+      "25988259",
+      "25892223",
+      "23851460",
+      "23836640",
+      "23603117",
+      "22918581",
+      "22855792",
+      "22521908",
+      "22366459",
+      "22140117",
+      "21983086",
+      "21828267",
+      "21539801",
+      "21078875",
+      "20980834",
+      "19910535",
+      "19906994",
+      "19901524",
+      "19896182",
+      "18756287",
+      "17406547",
+      "17406245",
+      "17344412",
+      "17318181",
+      "17314092",
+      "17124498",
+      "16861906",
+      "16407252",
+      "16362051",
+      "16228006",
+      "15855168",
+      "15308655",
+      "15286659",
+      "15284237",
+      "15282313",
+      "15260975",
+      "15197178",
+      "14767479",
+      "12840033",
+      "12242660",
+      "11931757",
+      "11836525",
+      "11737877",
+      "11555648",
+      "11429609",
+      "11175741",
+      "11125146",
+      "11046155",
+      "10320398",
+      "7954820",
+      "7502077",
+      "1579162"
+    ],
+    "similar": [
+      "41365879",
+      "22918581",
+      "26940553",
+      "32669428",
+      "17127409",
+      "16497662",
+      "15522891",
+      "15653632",
+      "15286659",
+      "39048355",
+      "11737877",
+      "21426446",
+      "25988259",
+      "21289063",
+      "18184650",
+      "22366459",
+      "17124498",
+      "28191893",
+      "37428921",
+      "15308655",
+      "23603117",
+      "14993212",
+      "15138268",
+      "12059957",
+      "24064211",
+      "16278669",
+      "18657502",
+      "19896182",
+      "35217664",
+      "20421204",
+      "22045335",
+      "16428461",
+      "29261034",
+      "34882090",
+      "15260975",
+      "33741931",
+      "12192004",
+      "22645314",
+      "23817338",
+      "28732205",
+      "32841231",
+      "17598984",
+      "23851460",
+      "14672932",
+      "18617514",
+      "11125146",
+      "29074622",
+      "18006685",
+      "11967157",
+      "37463200",
+      "24234446",
+      "27702582",
+      "15257290",
+      "19906994",
+      "23814078",
+      "22140117",
+      "25319829",
+      "11967159",
+      "36711604",
+      "16387651",
+      "17042960",
+      "23376927",
+      "15616577",
+      "18832067",
+      "35548337",
+      "15598982",
+      "12429841",
+      "11175741",
+      "16479171",
+      "15051497",
+      "28694193",
+      "23695679",
+      "15199392",
+      "15687385",
+      "21799014",
+      "28379781",
+      "39824870",
+      "23474987",
+      "39271725",
+      "39747125",
+      "41055997",
+      "20129055",
+      "12242660",
+      "29745471",
+      "16482215",
+      "20335175",
+      "23836640",
+      "21983086",
+      "34068957",
+      "40940326",
+      "25892223",
+      "15668171",
+      "22096080",
+      "17036332",
+      "12551974",
+      "27296872",
+      "15291814",
+      "33772005",
+      "24906333",
+      "28643783"
+    ],
+    "review": [
+      "41365879",
+      "22918581",
+      "17127409",
+      "12059957",
+      "28732205",
+      "17598984",
+      "27702582",
+      "16479171"
+    ],
+    "pmc": [
+      "12695944"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-67073-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41365879/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GMNN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4063",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

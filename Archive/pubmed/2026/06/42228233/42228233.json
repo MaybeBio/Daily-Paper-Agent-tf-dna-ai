@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "42228233",
+    "doi": "10.1007/s10534-026-00811-z",
+    "title": "Vanadium(IV)-chlorodipicolinate alleviates hepatic steatosis via the AMPK/PGC-1alpha/CPT1a axis."
+  },
+  "content": {
+    "abstract": "Non-alcoholic fatty liver disease (NAFLD) is closely associated with type 2 diabetes mellitus, which is characterized by hepatic steatosis. Vanadium compounds have the potential to prevent hyperlipidemia. However, whether vanadium compound supplementation could rescue hepatic steatosis in NAFLD remains uncertain. We sought to investigate the molecular mechanisms by which vanadium(IV)-chlorodipicolinate (VOdipic-Cl) ameliorated hepatic steatosis in obesity. The therapeutic effect of VOdipic-Cl was evaluated using high-fat diet (HFD)-induced C57BL/6 mice and palmitic acid/oleic acid (PO)-treated L02 hepatocytes, respectively. Lipidomic analysis, RNA-sequencing (RNA-seq), Western blotting, and molecular dynamics simulation were employed to elucidate the molecular mechanism of VOdipic-Cl in regulating lipid metabolism in liver and hepatocytes. VOdipic-Cl treatment effectively reduced hepatic lipid accumulation and improved hepatic function in HFD-fed mice. Lipidomic analysis showed that the primary differential lipid metabolites were mainly associated with glycerophospholipid metabolism pathway. Transcriptomic analysis revealed that adenosine monophosphate-activated protein kinase (AMPK) signaling pathway was involved in the regulation of hepatic lipid metabolism by VOdipic-Cl treatment. Moreover, VOdipic-Cl-induced AMPK activation significantly restored hepatic mitochondrial homeostasis and reduced lipid accumulation through upregulating transcription factor peroxisome proliferator-activated receptor gamma coactivator-1alpha (PGC-1alpha) and carnitine palmitoyltransferase 1 (CPT1) in hepatocytes, respectively. Our findings suggest that VOdipic-Cl triggers the activation of AMPK, leading to the upregulation of PGC-1alpha and CPT1 expression, ultimately improving mitochondrial homeostasis and decreasing lipid accumulation. Collectively, these molecular cascades contribute to the ameliorating effect of VOdipic-Cl on HFD-induced hepatic steatosis. This study also provides evidence supporting the potential utilization of VOdipic-Cl for the treatment of NAFLD.",
+    "keywords": [
+      "AMPK",
+      "Hepatic steatosis",
+      "Lipidomics",
+      "Transcriptomics",
+      "VOdipic-Cl"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha/metabolism/genetics",
+      "*Carnitine O-Palmitoyltransferase/metabolism",
+      "Mice",
+      "*AMP-Activated Protein Kinases/metabolism",
+      "Mice, Inbred C57BL",
+      "*Non-alcoholic Fatty Liver Disease/drug therapy/metabolism/pathology",
+      "Diet, High-Fat/adverse effects",
+      "Male",
+      "*Fatty Liver/drug therapy/metabolism",
+      "*Vanadium/chemistry/pharmacology",
+      "Lipid Metabolism/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Rulong",
+        "Liu, Yufan",
+        "Wang, Yuanli",
+        "Zhang, Fang",
+        "Ma, Jinkui",
+        "Cui, Wei",
+        "Ding, Wenjun"
+      ],
+      "short_names": [
+        "Chen R",
+        "Liu Y",
+        "Wang Y",
+        "Zhang F",
+        "Ma J",
+        "Cui W",
+        "Ding W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China.",
+        "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China.",
+        "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China.",
+        "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China.",
+        "School of Food & Pharmaceutical Engineering, Zhaoqing University, Zhaoqing, 526061, Guangdong, China.",
+        "College of Chemistry, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China.",
+        "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China. dingwj@ucas.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Rulong",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yufan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuanli",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fang",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jinkui",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food & Pharmaceutical Engineering, Zhaoqing University, Zhaoqing, 526061, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Wei",
+        "short_name": "Cui W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Wenjun",
+        "short_name": "Ding W",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Environment and Health, College of Life Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing, 100049, China. dingwj@ucas.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biometals : an international journal on the role of metal ions in biology, biochemistry, and medicine"
+    ],
+    "journal_abbrev": [
+      "Biometals"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 12:43",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41373709",
+      "41355145",
+      "40769505",
+      "39702310",
+      "39428026",
+      "39232826",
+      "39136185",
+      "38424050",
+      "38273354",
+      "37225695",
+      "36765117",
+      "36409897",
+      "36261001",
+      "35806284",
+      "35740949",
+      "35739990",
+      "35721484",
+      "35508275",
+      "35140621",
+      "34131333",
+      "32970728",
+      "32684985",
+      "32516539",
+      "32438270",
+      "32307476",
+      "32305626",
+      "32226092",
+      "32201131",
+      "31900483",
+      "30976490",
+      "30865877",
+      "30350272",
+      "29739863",
+      "29617645",
+      "29558683",
+      "29357123",
+      "28714183",
+      "28540526",
+      "28232179",
+      "28072841",
+      "27993601",
+      "27577854",
+      "27431369",
+      "26823198",
+      "26311429",
+      "26035793",
+      "25920090",
+      "24692138",
+      "23049138",
+      "19276888",
+      "19201030",
+      "15956049"
+    ],
+    "similar": [
+      "42228233",
+      "29558683",
+      "31832001",
+      "34073834",
+      "41962267",
+      "32316687",
+      "39637931",
+      "42126802",
+      "40640749",
+      "41139042",
+      "41917312",
+      "38588984",
+      "27318173",
+      "37562090",
+      "32759940",
+      "25003952",
+      "38532480",
+      "34224699",
+      "42036469",
+      "33302316",
+      "40294666",
+      "37952731",
+      "32940033",
+      "41468066",
+      "40013442",
+      "30235452",
+      "28566408",
+      "40272632",
+      "41273927",
+      "36641101",
+      "32884949",
+      "33341045",
+      "40892742",
+      "35178989",
+      "39819720",
+      "41193521",
+      "26806698",
+      "41722785",
+      "35739990",
+      "42271571",
+      "42278231",
+      "30142454",
+      "39991675",
+      "24362075",
+      "34906049",
+      "39341301",
+      "40686142",
+      "41792438",
+      "41240545",
+      "41843424",
+      "25622859",
+      "33566044",
+      "28941686",
+      "40825385",
+      "36610145",
+      "24275089",
+      "37984123",
+      "41469877",
+      "39965865",
+      "36558538",
+      "31558861",
+      "39936600",
+      "38875959",
+      "41683226",
+      "41205434",
+      "39953693",
+      "31472955",
+      "39233201",
+      "42372586",
+      "38197464",
+      "39409181",
+      "30868489",
+      "24489777",
+      "42305060",
+      "28770225",
+      "26035386",
+      "22457136",
+      "39388920",
+      "41990925",
+      "31911660",
+      "41806388",
+      "41936174",
+      "41299830",
+      "42450041",
+      "35401831",
+      "31083505",
+      "41507754",
+      "40819641",
+      "37271452",
+      "30668424",
+      "28514835",
+      "42176359",
+      "42067127",
+      "38763495",
+      "37418974",
+      "39216775",
+      "23435355",
+      "41695466",
+      "31226399",
+      "32043636"
+    ],
+    "review": [
+      "42228233"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10534-026-00811-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

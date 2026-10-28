@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "37459792",
+    "doi": "10.1016/j.compbiomed.2023.107094",
+    "title": "DNA protein binding recognition based on lifelong learning."
+  },
+  "content": {
+    "abstract": "In recent years, research in the field of bioinformatics has focused on predicting the raw sequences of proteins, and some scholars consider DNA-binding protein prediction as a classification task. Many statistical and machine learning-based methods have been widely used in DNA-binding proteins research. The aforementioned methods are indeed more efficient than those based on manual classification, but there is still room for improvement in terms of prediction accuracy and speed. In this study, researchers used Average Blocks, Discrete Cosine Transform, Discrete Wavelet Transform, Global encoding, Normalized Moreau-Broto Autocorrelation and Pseudo position-specific scoring matrix to extract evolutionary features. A dynamic deep network based on lifelong learning architecture was then proposed in order to fuse six features and thus allow for more efficient classification of DNA-binding proteins. The multi-feature fusion allows for a more accurate description of the desired protein information than single features. This model offers a fresh perspective on the dichotomous classification problem in bioinformatics and broadens the application field of lifelong learning. The researchers ran trials on three datasets and contrasted them with other classification techniques to show the model's effectiveness in this study. The findings demonstrated that the model used in this research was superior to other approaches in terms of single-sample specificity (81.0%, 83.0%) and single-sample sensitivity (82.4%, 90.7%), and achieves high accuracy on the benchmark dataset (88.4%, 80.0%, and 76.6%).",
+    "keywords": [
+      "DNA-binding proteins",
+      "Dynamic scalable network",
+      "Lifelong learning",
+      "Multi-feature fusion",
+      "Position specific scoring matrix"
+    ],
+    "mesh_terms": [
+      "Protein Binding",
+      "*Machine Learning",
+      "*DNA-Binding Proteins/metabolism",
+      "Computational Biology/methods",
+      "DNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yongsan",
+        "Guan, ShiXuan",
+        "Jiang, TengSheng",
+        "Fu, Qiming",
+        "Ma, Jieming",
+        "Cui, Zhiming",
+        "Ding, Yijie",
+        "Wu, Hongjie"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Guan S",
+        "Jiang T",
+        "Fu Q",
+        "Ma J",
+        "Cui Z",
+        "Ding Y",
+        "Wu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China.",
+        "Gusu School, Nanjing Medical University, Suzhou, Jiangsu, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China.",
+        "School of Intelligent Engineering, Xijiao Liverpool University, Suzhou, 215123, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China.",
+        "Yangtze Delta Region Institute, University of Electronic Science and Technology of China, Quzhou, Zhejiang, China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China. Electronic address: Hongjie.wu@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yongsan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Guan, ShiXuan",
+        "short_name": "Guan S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, TengSheng",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Gusu School, Nanjing Medical University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Qiming",
+        "short_name": "Fu Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jieming",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Intelligent Engineering, Xijiao Liverpool University, Suzhou, 215123, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhiming",
+        "short_name": "Cui Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute, University of Electronic Science and Technology of China, Quzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hongjie",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China. Electronic address: Hongjie.wu@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/17 19:08",
+    "fetched_at": "2026-09-29 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37459792",
+      "31123959",
+      "28961273",
+      "35447463",
+      "35371189",
+      "31027046",
+      "30668479",
+      "25724101",
+      "34571539",
+      "30598073",
+      "33837387",
+      "38237792",
+      "35325031",
+      "30891794",
+      "32808039",
+      "31454964",
+      "35378437",
+      "37060772",
+      "36044786",
+      "32775434",
+      "35652477",
+      "29419752",
+      "33472664",
+      "34932484",
+      "33476047",
+      "29219070",
+      "35345316",
+      "32920048",
+      "36211019",
+      "34291709",
+      "33522829",
+      "22868682",
+      "33267753",
+      "34478704",
+      "28841194",
+      "29753757",
+      "28937647",
+      "33537726",
+      "34073774",
+      "29536446",
+      "37301349",
+      "24475169",
+      "34749096",
+      "35066812",
+      "30943897",
+      "27993784",
+      "37327559",
+      "35242211",
+      "36979795",
+      "36017565",
+      "36049552",
+      "35433024",
+      "35860402",
+      "35511057",
+      "32300371",
+      "32144887",
+      "32149653",
+      "32372711",
+      "31415569",
+      "38053026",
+      "35152280",
+      "33709119",
+      "37269019",
+      "31393553",
+      "30032213",
+      "31412138",
+      "34058979",
+      "30298088",
+      "35922751",
+      "37028140",
+      "36528802",
+      "29495922",
+      "24334394",
+      "31395005",
+      "32091580",
+      "33413073",
+      "34905768",
+      "31870850",
+      "36642410",
+      "33505643",
+      "35965752",
+      "30452960",
+      "28492483",
+      "30463546",
+      "29270430",
+      "28764869",
+      "36433553",
+      "21284890",
+      "30845684",
+      "22174808",
+      "26527718",
+      "32420339",
+      "35246878",
+      "25045727"
+    ],
+    "review": [
+      "37459792",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(23)00559-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3936",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(23)00559-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

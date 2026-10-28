@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "40827946",
+    "doi": "10.1021/acs.jcim.5c01345",
+    "title": "Discovery and Characterization of Uracil Derivatives Targeting the Set-and-Ring Domain of UHRF1."
+  },
+  "content": {
+    "abstract": "The Set and Ring domain of the UHRF1 oncogene is responsible for its interaction with hemimethylated DNA and faithful propagation of epigenetic signaling over cellular replication. Inhibiting this recognition can have serious implications for UHRF1 functionality and may possibly enable therapeutic interventions. Based on a previous finding indicating a promising in vitro DNA demethylating potential of a pyrimidine derivative, a subscaffold search was performed in the NCI/DTP compound repository to discover similar molecules and evaluate their affinity for the SRA domain of UHRF1. Toward this direction, several compounds were evaluated using a thermal melt screen, and the most promising hits were subsequently studied by calorimetry in terms of their capacity to bind the 5-methylcytosine recognition site of UHRF1. A markedly different thermodynamic profile between the two confirmed hits with an intense enthalpy-entropy compensation signature was determined. The systems were further studied by biased and unbiased molecular simulations, computational hydration mapping, and calorimetry-based heat capacity measurements to devise a hypothesis on the structural requisites for efficient SRA binding. The most potent compound was evaluated for its DNA methylation effects against the UHRF1-dependent colorectal cancer HCT116 cells, where promising global demethylating activity reaching an approximate 75% reduction compared to control was achieved after treatment with 25 muM of NSC232005. Based on the presented results, rationally substituted analogues of the uracil scaffold appear as highly promising UHRF1 modulators for exploring its diverse functionalities and validating the protein as a drug target.",
+    "keywords": [],
+    "mesh_terms": [
+      "*CCAAT-Enhancer-Binding Proteins/chemistry/metabolism/antagonists & inhibitors",
+      "Humans",
+      "Ubiquitin-Protein Ligases",
+      "*Uracil/pharmacology/chemistry/analogs & derivatives/metabolism",
+      "DNA Methylation/drug effects",
+      "Thermodynamics",
+      "*Drug Discovery",
+      "Protein Domains",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akrani, Ifigeneia",
+        "Driva, Danai",
+        "Tsakalidis, Efstratios",
+        "Mozumdar, Nandini",
+        "Mavridi, Danai",
+        "Panara, Anthi",
+        "Epiphaniou, Kalypso",
+        "Chalkiadaki, Maria",
+        "Wright, Andreanna Frances",
+        "Halabalaki, Maria",
+        "Tsoka, Angeliki",
+        "Zoidis, Grigoris",
+        "Vorgias, Constantinos",
+        "Sproul, Duncan",
+        "Gikas, Evangelos",
+        "Kriaucionis, Skirmantas",
+        "Mikros, Emmanuel",
+        "Myrianthopoulos, Vassilios"
+      ],
+      "short_names": [
+        "Akrani I",
+        "Driva D",
+        "Tsakalidis E",
+        "Mozumdar N",
+        "Mavridi D",
+        "Panara A",
+        "Epiphaniou K",
+        "Chalkiadaki M",
+        "Wright AF",
+        "Halabalaki M",
+        "Tsoka A",
+        "Zoidis G",
+        "Vorgias C",
+        "Sproul D",
+        "Gikas E",
+        "Kriaucionis S",
+        "Mikros E",
+        "Myrianthopoulos V"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-3197-1624",
+        "ORCID: 0009-0004-7379-9527",
+        "ORCID: 0000-0001-5620-0165",
+        "ORCID: 0000-0002-9442-5186",
+        "ORCID: 0000-0002-0107-9991",
+        "ORCID: 0000-0002-5984-5169",
+        "ORCID: 0000-0001-8359-9634"
+      ],
+      "affiliations": [
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Ludwig Institute for Cancer Research, Nuffield Department of Medicine, Old Road Campus Research Building, OX3 7DQ, Oxford, United Kingdom.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Laboratory of Analytical Chemistry, Department of Chemistry, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Medical Research Council Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, EH4 2XU, Edinburgh, United Kingdom.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Department of Biology, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Department of Biology, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Medical Research Council Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, EH4 2XU, Edinburgh, United Kingdom.",
+        "Laboratory of Analytical Chemistry, Department of Chemistry, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Ludwig Institute for Cancer Research, Nuffield Department of Medicine, Old Road Campus Research Building, OX3 7DQ, Oxford, United Kingdom.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akrani, Ifigeneia",
+        "short_name": "Akrani I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Driva, Danai",
+        "short_name": "Driva D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Tsakalidis, Efstratios",
+        "short_name": "Tsakalidis E",
+        "identifiers": [
+          "0009-0004-3197-1624"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Mozumdar, Nandini",
+        "short_name": "Mozumdar N",
+        "identifiers": [],
+        "affiliations": [
+          "Ludwig Institute for Cancer Research, Nuffield Department of Medicine, Old Road Campus Research Building, OX3 7DQ, Oxford, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Mavridi, Danai",
+        "short_name": "Mavridi D",
+        "identifiers": [
+          "0009-0004-7379-9527"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Panara, Anthi",
+        "short_name": "Panara A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Analytical Chemistry, Department of Chemistry, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Epiphaniou, Kalypso",
+        "short_name": "Epiphaniou K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Chalkiadaki, Maria",
+        "short_name": "Chalkiadaki M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Wright, Andreanna Frances",
+        "short_name": "Wright AF",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, EH4 2XU, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Halabalaki, Maria",
+        "short_name": "Halabalaki M",
+        "identifiers": [
+          "0000-0001-5620-0165"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Tsoka, Angeliki",
+        "short_name": "Tsoka A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Zoidis, Grigoris",
+        "short_name": "Zoidis G",
+        "identifiers": [
+          "0000-0002-9442-5186"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Vorgias, Constantinos",
+        "short_name": "Vorgias C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Sproul, Duncan",
+        "short_name": "Sproul D",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, EH4 2XU, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Gikas, Evangelos",
+        "short_name": "Gikas E",
+        "identifiers": [
+          "0000-0002-0107-9991"
+        ],
+        "affiliations": [
+          "Laboratory of Analytical Chemistry, Department of Chemistry, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Kriaucionis, Skirmantas",
+        "short_name": "Kriaucionis S",
+        "identifiers": [],
+        "affiliations": [
+          "Ludwig Institute for Cancer Research, Nuffield Department of Medicine, Old Road Campus Research Building, OX3 7DQ, Oxford, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Mikros, Emmanuel",
+        "short_name": "Mikros E",
+        "identifiers": [
+          "0000-0002-5984-5169"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Myrianthopoulos, Vassilios",
+        "short_name": "Myrianthopoulos V",
+        "identifiers": [
+          "0000-0001-8359-9634"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmacy, National and Kapodistrian University of Athens, Panepistimiopolis Zografou 15771, Athens, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Sep 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/19 12:33",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [
+      "42665556",
+      "41774300"
+    ],
+    "refs": [
+      "39774694",
+      "39631394",
+      "39607687",
+      "39592582",
+      "39558165",
+      "39112494",
+      "39051184",
+      "39024804",
+      "38926050",
+      "38580649",
+      "38170175",
+      "38056296",
+      "37943662",
+      "37407562",
+      "37247564",
+      "37246786",
+      "36906655",
+      "36817147",
+      "36797239",
+      "36685834",
+      "36581622",
+      "36537722",
+      "36302855",
+      "36216533",
+      "36050314",
+      "35951156",
+      "34728375",
+      "33971031",
+      "33879235",
+      "33840388",
+      "33474939",
+      "33441849",
+      "32963030",
+      "32929243",
+      "31910338",
+      "31819161",
+      "31582837",
+      "31428652",
+      "31322780",
+      "31105884",
+      "30956060",
+      "29562800",
+      "29376540",
+      "29356524",
+      "29202222",
+      "28881702",
+      "28218043",
+      "27951674",
+      "27489107",
+      "27431502",
+      "27397541",
+      "27049577",
+      "27045799",
+      "26816087",
+      "26768237",
+      "26299963",
+      "26102039",
+      "24486181",
+      "24134914",
+      "23022729",
+      "22947875",
+      "22286757",
+      "22219067",
+      "21777816",
+      "21643543",
+      "21496237",
+      "21489993",
+      "21214517",
+      "21050007",
+      "20921961",
+      "20535201",
+      "20131845",
+      "19943104",
+      "19077538",
+      "19053475",
+      "18772891",
+      "18772889",
+      "18703160",
+      "18599640",
+      "17673620",
+      "17034125",
+      "15752588",
+      "15361834",
+      "15027866",
+      "15027865",
+      "15009091",
+      "14404936",
+      "11734024",
+      "10398392"
+    ],
+    "similar": [
+      "40827946",
+      "27049577",
+      "32448288",
+      "31481468",
+      "29562800",
+      "40960568",
+      "34801826",
+      "31238111",
+      "28112929",
+      "21731699",
+      "17673620",
+      "37247564",
+      "40966520",
+      "33097091",
+      "19077538",
+      "23161542",
+      "23245651",
+      "24368767",
+      "18931436",
+      "18772889",
+      "31322780",
+      "29656054",
+      "30392931",
+      "31018966",
+      "21496237",
+      "18772888",
+      "33340746",
+      "33359809",
+      "40542373",
+      "41197730",
+      "33922029",
+      "33441849",
+      "35991572",
+      "29899856",
+      "38767734",
+      "30956060",
+      "26065575",
+      "27595565",
+      "30639225",
+      "31105884",
+      "18945682",
+      "29395786",
+      "26368281",
+      "31964471",
+      "32428527",
+      "35143176",
+      "32084194",
+      "28803780",
+      "21745816",
+      "30669400",
+      "36681316",
+      "30392929",
+      "29506131",
+      "28100769",
+      "24134914",
+      "38059880",
+      "30104358",
+      "19501055",
+      "20026581",
+      "23752590",
+      "29268763",
+      "32726623",
+      "22100450",
+      "31064417",
+      "23022729",
+      "33795533",
+      "24253042",
+      "22411829",
+      "24813945",
+      "26299963",
+      "22064703",
+      "38725075",
+      "38446667",
+      "24013172",
+      "21777816",
+      "39607687",
+      "21489993",
+      "25818288",
+      "34766381",
+      "35695611",
+      "39631394",
+      "34522170",
+      "16195352",
+      "36420895",
+      "21598301",
+      "35429693",
+      "29074623",
+      "27489107",
+      "22096602",
+      "25323766",
+      "23297342",
+      "32312517",
+      "35666346",
+      "28241740",
+      "39774694",
+      "36458887",
+      "39810240",
+      "22330138",
+      "38580649",
+      "32034755"
+    ],
+    "review": [
+      "40827946",
+      "40960568",
+      "31238111",
+      "21496237",
+      "33922029",
+      "29899856",
+      "30669400",
+      "24134914",
+      "19501055",
+      "38725075"
+    ],
+    "pmc": [
+      "12421671"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40827946/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40827946",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01345",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

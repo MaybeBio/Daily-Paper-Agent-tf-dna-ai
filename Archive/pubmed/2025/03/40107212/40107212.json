@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "40107212",
+    "doi": "10.1016/j.watres.2025.123500",
+    "title": "Explainable machine learning models enhance prediction of PFAS bioactivity using quantitative molecular surface analysis-derived representation."
+  },
+  "content": {
+    "abstract": "The extensive use of per- and polyfluoroalkyl substances (PFAS) in industrial and consumer products poses health risks due to their toxicity. Computational toxicology approaches, particularly quantitative structure-activity relationship (QSAR) models are essential for predicting PFAS bioactivity. However, established QSAR models including machine learning-based ones with traditional molecular descriptors such as constitutional, topological, and geometric descriptors, have limited predictive capability and interpretability. Herein, we proposed a novel machine learning approach that leverages quantitative molecular surface analysis (QMSA) of molecular electrostatic potential. Using QMSA descriptors, five machine learning models (e.g., random forest) achieved outstanding performance, with best accuracy of 0.950 +/- 0.017, AUC-ROC of 0.938 +/- 0.012, F1-score of 0.734 +/- 0.024, and MCC of 0.684 +/- 0.111 for five targets (tyrosyl-DNA phosphodiesterase 1 in the absence/presence of camptothecin, ATXN2 protein, transcription factor SMAD3, and transcription factor NRF2), which outperform previously reported models. SHAP analyses revealed that estimated density, molecular volume, positive surface area, and nonpolar surface area were the most important descriptors. These descriptors were deeply involved in PFAS binding to target proteins via non-covalent interactions as evidenced by molecular docking and molecular dynamics simulations. Our results demonstrated that QMSA descriptors-based machine learning models are capable of predicting PFAS toxicity with extraordinary performance and interpretability. This study provides a novel machine learning framework for the high-throughput and cost-effective screening of high-risk emerging PFAS in aquatic environments. By identifying the contaminants that should be prioritized for regulation and treatment among the growing number of PFAS, our work aids in water quality monitoring and risk assessment, and guides decision-making in aquatic environmental management. Furthermore, this work enhances our understanding of the molecular mechanisms involved in PFAS bioactivity.",
+    "keywords": [
+      "Machine learning",
+      "Molecular dynamics simulation",
+      "Molecular representation",
+      "PFAS",
+      "Risk assessment"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Quantitative Structure-Activity Relationship",
+      "*Fluorocarbons/chemistry",
+      "Water Pollutants, Chemical/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yin, Zhipeng",
+        "Zhang, Min",
+        "Liu, Runzeng",
+        "Cai, Yong"
+      ],
+      "short_names": [
+        "Yin Z",
+        "Zhang M",
+        "Liu R",
+        "Cai Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shandong Key Laboratory of Environmental Processes and Health, School of Environmental Science and Engineering, Shandong University, Qingdao 266237, China. Electronic address: zpyin@sdu.edu.cn.",
+        "Shandong Key Laboratory of Environmental Processes and Health, School of Environmental Science and Engineering, Shandong University, Qingdao 266237, China.",
+        "Shandong Key Laboratory of Environmental Processes and Health, School of Environmental Science and Engineering, Shandong University, Qingdao 266237, China.",
+        "Shandong Key Laboratory of Environmental Processes and Health, School of Environmental Science and Engineering, Shandong University, Qingdao 266237, China; Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, United States. Electronic address: cai@fiu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yin, Zhipeng",
+        "short_name": "Yin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Environmental Processes and Health, School of Environmental Science and Engineering, Shandong University, Qingdao 266237, China. Electronic address: zpyin@sdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Min",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Environmental Processes and Health, School of Environmental Science and Engineering, Shandong University, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Runzeng",
+        "short_name": "Liu R",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Environmental Processes and Health, School of Environmental Science and Engineering, Shandong University, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yong",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Key Laboratory of Environmental Processes and Health, School of Environmental Science and Engineering, Shandong University, Qingdao 266237, China; Department of Chemistry and Biochemistry, Florida International University, Miami, FL 33199, United States. Electronic address: cai@fiu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Water research"
+    ],
+    "journal_abbrev": [
+      "Water Res"
+    ],
+    "pub_date": "2025 Jul 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/20 00:33",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42483598",
+      "42004008",
+      "41898584",
+      "40810051"
+    ],
+    "refs": [],
+    "similar": [
+      "40107212",
+      "38134352",
+      "40317014",
+      "31661253",
+      "39298512",
+      "40179788",
+      "37513249",
+      "37783416",
+      "40024016",
+      "36154169",
+      "36282672",
+      "40016123",
+      "40311342",
+      "34662613",
+      "40309751",
+      "39521088",
+      "38781329",
+      "40328085",
+      "39984226",
+      "40356129",
+      "39384138",
+      "39104137",
+      "40187255",
+      "28768096",
+      "36345062",
+      "37084575",
+      "37276762",
+      "39947576",
+      "38743054",
+      "37186812",
+      "39837032",
+      "32443272",
+      "34346391",
+      "31634658",
+      "37730032",
+      "38467999",
+      "34153183",
+      "40073734",
+      "39344262",
+      "38329145",
+      "33837771",
+      "40043395",
+      "34119734",
+      "40153986",
+      "39673872",
+      "35559889",
+      "40049272",
+      "38593686",
+      "38936709",
+      "31486019",
+      "37480598",
+      "34905348",
+      "30529939",
+      "39510275",
+      "38705256",
+      "39210743",
+      "33984906",
+      "32153730",
+      "39251122",
+      "38964036",
+      "39531813",
+      "40053865",
+      "31026752",
+      "39090285",
+      "36064024",
+      "39637787",
+      "38277101",
+      "28699497",
+      "38780534",
+      "36677537",
+      "40267508",
+      "40181037",
+      "33887376",
+      "40058079",
+      "25467694",
+      "39242880",
+      "39771136",
+      "39245376",
+      "37947020",
+      "37084578",
+      "39332120",
+      "38402985",
+      "31336592",
+      "40013497",
+      "36475377",
+      "39701316",
+      "40139035",
+      "30628866",
+      "35580034",
+      "40036481",
+      "39447292",
+      "39983440",
+      "40156878",
+      "40215413",
+      "39933099",
+      "36801580",
+      "38909401",
+      "39154397",
+      "33153160",
+      "36809928"
+    ],
+    "review": [
+      "40107212",
+      "37783416",
+      "40311342",
+      "37730032",
+      "40153986",
+      "38936709",
+      "38277101",
+      "28699497",
+      "30628866",
+      "35580034",
+      "39983440"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0043-1354(25)00413-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

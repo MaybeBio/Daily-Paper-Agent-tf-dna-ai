@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; figure content and supplementary data not directly assessable
+- **Shared manuscript claim summary** The authors present bpAI-TAC, a multi-task convolutional neural network that predicts ATAC-seq chromatin accessibility at base-pair resolution across 90 mouse immune cell types. They claim that incorporating base-pair resolution Tn5 insertion profiles improves prediction of differential chromatin accessibility between cell types compared to a model trained only on regional accessibility (AI-TAC), that multi-task learning outperforms single-task models, and that base-pair resolution training enables discovery of additional regulatory motifs and more accurate effect size estimation.
+- **Visible evidence base** Text descriptions of results including Pearson correlation values, comparisons across model ablations, motif enrichment analyses, and effect size comparisons; methods section describing data processing, model architecture, training procedures, and attribution methods
+- **Missing materials affecting confidence** Figures 1-3 and all supplementary figures and tables referenced in the text; supplementary methods; exact numerical results for many comparisons; details of hyperparameter tuning; full description of motif clustering and attribution procedures
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in regulatory genomics: whether modeling ATAC-seq data at base-pair resolution improves sequence-to-activity model performance for predicting cell-type-specific chromatin accessibility. The authors build on their prior AI-TAC model and demonstrate consistent improvements from incorporating profile information. The work is technically competent and the results are plausible, but several key claims rest on evidence that cannot be fully evaluated from the provided text alone. The most significant concerns relate to the interpretability of the reported performance gains, the robustness of the motif analysis, and the generalizability of the findings beyond the specific dataset and architecture tested.
+- **Who would be interested in the results, and why** Researchers developing deep learning models for regulatory genomics, particularly those working on chromatin accessibility prediction and cis-regulatory syntax decoding. The work may also interest experimental biologists studying immune cell differentiation and transcriptional regulation, as the model identifies motifs and regulatory elements relevant to immune cell identity. The methodological comparisons of loss functions, architectures, and multi-task strategies will be useful to practitioners in the field.
+- **Major strengths** The manuscript addresses a clear and important question with a well-designed comparative framework. The authors systematically evaluate multiple modeling choices including loss functions, architectures, and multi-task strategies. The finding that base-pair resolution profiles improve differential accessibility prediction is potentially valuable and could influence future model design. The motif analysis, while dependent on supplementary details, appears thoughtfully designed to identify what additional information the profile-based model learns. The writing is clear and the logical flow from motivation to results to interpretation is effective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "BpAI-TAC consistently outperforms AI-TAC in predicting differences in chromatin accessibility across cell types"
+  - **Evidence pointer** Figure 1b, 1c; Figure S1a, S1b; Table S1; location not provided for exact values
+  - **Concern** The central claim of improved differential accessibility prediction is supported by reported Pearson correlation values, but the magnitude of improvement and its statistical significance cannot be assessed from the text. The authors report mean correlations of 0.70 overall and 0.62 for accessible regions, with a comparison to AI-TAC at 0.51 for cell-type-specific regions, but no confidence intervals, standard errors, or statistical tests are provided. The improvement from 0.51 to 0.62, while notable, may be driven by a subset of cell types or regions, and the text does not clarify whether this difference is consistent across all 90 cell types or concentrated in specific lineages.
+  - **Why it matters** The primary contribution of the manuscript is the demonstration that base-pair resolution modeling improves differential accessibility prediction. Without statistical quantification of this improvement, the strength of the central claim is uncertain. If the improvement is modest or variable across cell types, the practical significance of the approach may be limited.
+  - **Resolution test** Provide confidence intervals or standard errors for the reported correlation values, and include statistical tests comparing bpAI-TAC and AI-TAC performance across cell types. Report the distribution of performance differences across the 90 cell types, not just means.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** "We identify novel motifs with strong effect sizes that emerge when profile data is included"
+  - **Evidence pointer** Figure 3c, 3d; Figure S7; Methods section 4.4; location not provided for clustering details
+  - **Concern** The motif analysis identifies 23 motif clusters enriched in bpAI-TAC attributions compared to AI-TAC, but the text does not describe the clustering procedure, the criteria for defining "novel" motifs, or how the significance threshold was applied. The claim that these motifs have "strong effect sizes" is based on the insertion experiments described in section 4.5, but the results of these experiments are only qualitatively described. The comparison between bpAI-TAC and AI-TAC effect sizes is stated to differ significantly (Wilcoxon rank-sum test), but the direction and magnitude of these differences for specific motifs are not reported.
+  - **Why it matters** The biological interpretation of the model improvements depends on the motif analysis being rigorous and reproducible. If the clustering or significance criteria are not well-defined, the claim of discovering novel regulatory motifs is difficult to evaluate. The effect size comparisons are central to the argument that bpAI-TAC learns more accurate regulatory syntax, and these need to be presented with sufficient detail.
+  - **Resolution test** Provide a detailed description of the motif clustering procedure, including the distance metric, clustering algorithm, and threshold for defining clusters. Report the specific motifs identified, their associated transcription factors, and the quantitative effect sizes for both bpAI-TAC and AI-TAC in the insertion experiments. Include statistical details for the enrichment analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Multi-task learning across related immune cell types consistently outperforms single-task models"
+  - **Evidence pointer** Figure 2f; Figure S5b, S5d, S5e; location not provided
+  - **Concern** The comparison between multi-task and single-task models is described as showing consistent improvement for multi-task learning, but the text does not specify how many single-task models were trained, which cell types were used for comparison, or how the ensemble of single-task models was constructed. The comparison to "lineage-averaged predictions" is also not fully explained. The claim of consistency is difficult to verify without knowing the variance across cell types or lineages.
+  - **Why it matters** The multi-task advantage is a key methodological contribution, but its robustness depends on the breadth of the comparison. If only a few cell types or lineages were tested, the conclusion may not generalize. The practical recommendation to use multi-task models requires evidence that the advantage holds across diverse conditions.
+  - **Resolution test** Specify the number and identity of single-task models trained, the criteria for selecting cell types, and the construction of the ensemble. Report performance for individual cell types or lineages, not just aggregate measures, to demonstrate consistency.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that multi-task learning consistently improves prediction performance without requiring explicit bias factorization"
+  - **Evidence pointer** Figure 2e; Figure S5c, S6a-d; Methods section 4.3; location not provided
+  - **Concern** The finding that bias correction is not necessary for predictive performance is interesting but potentially counterintuitive given the known sequence bias of Tn5. The text states that all four bias models (including no bias correction) achieved similar performance, but the details of how the bias models were integrated and evaluated are limited. The claim that the model can "effectively learn both biological and assay-specific signals directly from the data" is plausible but requires more evidence that the model is not simply fitting the bias in a way that obscures biological signal.
+  - **Why it matters** The necessity of bias correction has implications for model design and interpretability. If bias correction is unnecessary for prediction but important for interpretation, the authors should clarify this distinction. The claim that the model learns biological signal without explicit bias correction needs support from the footprint analysis.
+  - **Resolution test** Provide quantitative comparisons of model performance with and without bias correction, including the footprint quality metrics. Clarify whether the similarity in performance reflects equivalent learning or different trade-offs between bias and biological signal.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "Decoding the cis-regulatory syntax that controls gene expression is essential" without defining what is meant by "syntax" in this context. While specialists will understand, the term could be clarified for broader readership.
+  - **Required correction** Briefly define cis-regulatory syntax in the abstract or introduction, for example as the arrangement and combination of transcription factor binding motifs that determine regulatory activity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section 4.1
+  - **Evidence pointer** Methods section 4.1, data processing description
+  - **Issue** The description of data processing states that peaks were called with MACS2 and that cell-type-specific OCRs were defined with adjusted P values below 0.05, but the exact parameters for MACS2 and the multiple testing correction method are not specified.
+  - **Required correction** Provide the MACS2 parameters and the specific multiple testing correction used (e.g., Benjamini-Hochberg) in the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section 2.1
+  - **Evidence pointer** Results section 2.1, paragraph 1
+  - **Issue** The sentence "BpAI-TAC showed higher performance and greater performance improvement for cell-type-specific OCRs (open in 1, 2, 2-5, 5-10 highly related cell types) than for cell-type-agnostic OCRs (open in 81-90 cell types)" is somewhat confusing because the categories overlap (e.g., "1" and "2" are both listed separately and within "2-5").
+  - **Required correction** Clarify the category definitions, for example by using non-overlapping bins such as 1, 2-5, 6-10, etc., or by explicitly stating that the categories are not mutually exclusive.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion mentions that "the resulting deep footprints were less pronounced than those observed in ChromBPnet" but does not offer a detailed explanation for this observation beyond listing possible causes.
+  - **Required correction** Expand the discussion of why footprints may be less pronounced, potentially linking this to the multi-task architecture or the specific dataset characteristics.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section 4.2
+  - **Evidence pointer** Methods section 4.2, model description
+  - **Issue** The model architecture is described as having "9 dilated convolutions of width 3 with residual skip connections wherein dilations start at a size of 2 and double each layer," but the total receptive field of the model is not stated.
+  - **Required correction** State the receptive field of the model to help readers understand the genomic context captured by the model.
+- **Technical failings that need to be addressed before the case is established** The central claim of improved differential accessibility prediction requires statistical quantification. The motif analysis needs more methodological detail. The multi-task comparison needs specification of the single-task models and ensemble construction. The bias correction analysis needs clarification of the distinction between predictive performance and interpretability.
+- **Assessment against Nature-style criteria** Originality: The work extends existing sequence-to-activity modeling by systematically evaluating the value of base-pair resolution profiles, which is a useful contribution but builds substantially on prior work including the authors' own AI-TAC model. Scientific importance: The question of whether fine-grained chromatin accessibility data improves model predictions is relevant to the field, and the findings could inform future model design. Interdisciplinary readership: The work is primarily of interest to computational biologists and machine learning researchers in genomics; the broader biological implications are discussed but not deeply developed. Technical soundness: The experimental design is generally sound, but the lack of statistical detail for key comparisons weakens the current evidence. Readability for nonspecialists: The manuscript is clearly written and accessible to readers with some background in regulatory genomics, though some terms could be defined more explicitly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question with a reasonable approach, and the findings are potentially valuable. However, the central claims require stronger statistical support and more methodological detail before the case is fully established.

@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "39731187",
+    "doi": "10.1186/s12967-024-05956-4",
+    "title": "YY1 drives PARP1 expression essential for PARylation of NONO in mRNA maturation during neuroblastoma progression."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Neuroblastoma (NB), the most prevalent solid tumor in children, arises from sympathetic nervous system and accounts for 15% of pediatric cancer mortality. This malignancy exhibits substantial genetic and clinical heterogeneity, thus complicating treatment strategies. Poly(ADP-ribose) polymerase 1 (PARP1), a key enzyme catalyzing polyADP-ribosylation (PARylation), plays critical roles in various cellular processes, and contributes to tumorigenesis and aggressiveness. However, the functions and regulatory mechanisms of PARP1 in NB progression still remain to be determined. METHODS: The association of PARP1 expression with NB patients' survival was analyzed by mining of R2 database. Western blotting, reverse transcription-polymerase chain reaction, MTT colorimetric, soft agar, and matrigel invasion assays were utilized to assess PARP1 expression and its effects on aggressiveness of NB cell lines. Chromatin immunoprecipitation (ChIP) sequencing and ChIP assays were employed to investigate the binding of Yin Yang 1 (YY1) to PARP1 promoter. Protein interactions were explored by BioGRID database analysis, molecular docking, and co-immunoprecipitation assay. RNA sequencing and crosslinking-immunoprecipitation high throughput sequencing datasets were used to identify precursor mRNA splicing targets of non-POU domain containing octamer binding protein (NONO). RESULTS: High PARP1 expression was associated with poor survival of NB patients. PARP1 over-expression enhanced the proliferation and invasion of NB cell lines, confirming its oncogenic roles. YY1 was identified as a key transcriptional regulator facilitating PARP1 expression. Additionally, PARP1 interacted with NONO to induce its PARylation, resulting in stabilization of NONO protein via preventing ubiquitin-mediated degradation. NONO facilitated the splicing and mRNA maturation of target genes a disintegrin and metalloproteinase domain 8 (ADAM8) and testis-expressed gene 14 (TEX14) in a PARylation-dependent manner. Rescue experiments indicated that YY1 facilitated PARP1-mediated PARylation of NONO and subsequent mRNA maturation of ADAM8 and TEX14 in NB cells. In clinical NB cases, high expression of YY1, PARP1, NONO, ADAM8, or TEX14 was associated with poor survival of patients. CONCLUSIONS: These findings indicate that YY1 drives PARP1 expression essential for PARylation of NONO in mRNA maturation during NB progression.",
+    "keywords": [
+      "MRNA maturation",
+      "Neuroblastoma",
+      "Non-POU domain containing octamer binding protein",
+      "Poly(ADP-ribose) polymerase 1",
+      "Protein PARylation",
+      "Transcriptional regulation",
+      "Yin Yang 1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Poly (ADP-Ribose) Polymerase-1/metabolism/genetics",
+      "*Neuroblastoma/genetics/pathology/metabolism",
+      "Cell Line, Tumor",
+      "*YY1 Transcription Factor/metabolism/genetics",
+      "*RNA, Messenger/metabolism/genetics",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Disease Progression",
+      "RNA-Binding Proteins/metabolism/genetics",
+      "Promoter Regions, Genetic/genetics",
+      "Protein Binding",
+      "Cell Proliferation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Chunhui",
+        "Qu, Jiaying",
+        "Cheng, Yang",
+        "Tian, Minxiu",
+        "Wang, Zhijie",
+        "Wang, Xiaolin",
+        "Li, Xinyue",
+        "Zhou, Shunchen",
+        "Zhao, Bosen",
+        "Guo, Yanhua",
+        "Zheng, Liduan",
+        "Tong, Qiangsong"
+      ],
+      "short_names": [
+        "Yang C",
+        "Qu J",
+        "Cheng Y",
+        "Tian M",
+        "Wang Z",
+        "Wang X",
+        "Li X",
+        "Zhou S",
+        "Zhao B",
+        "Guo Y",
+        "Zheng L",
+        "Tong Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2615-6404"
+      ],
+      "affiliations": [
+        "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China.",
+        "Department of Pediatric Surgery, The First Affiliated Hospital of Kunming Medical University, No. 295 Xichang Road, Kunming, 650032, Yunnan Province, People's Republic of China. guoyanhua@kmmu.edu.cn.",
+        "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China. ld_zheng@mail.hust.edu.cn.",
+        "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China. qstong@mail.hust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Chunhui",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qu, Jiaying",
+        "short_name": "Qu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yang",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tian, Minxiu",
+        "short_name": "Tian M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhijie",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaolin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinyue",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shunchen",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bosen",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yanhua",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, The First Affiliated Hospital of Kunming Medical University, No. 295 Xichang Road, Kunming, 650032, Yunnan Province, People's Republic of China. guoyanhua@kmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zheng, Liduan",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China. ld_zheng@mail.hust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tong, Qiangsong",
+        "short_name": "Tong Q",
+        "identifiers": [
+          "0000-0002-2615-6404"
+        ],
+        "affiliations": [
+          "Department of Pediatric Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, Hubei Province, People's Republic of China. qstong@mail.hust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2024 Dec 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/28 11:42",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "41510169",
+      "41097754",
+      "40899609",
+      "40867514"
+    ],
+    "refs": [
+      "38320550",
+      "37993881",
+      "37971310",
+      "37823600",
+      "37552345",
+      "37482682",
+      "37094986",
+      "37057596",
+      "36973454",
+      "36816947",
+      "36682980",
+      "36416237",
+      "35910786",
+      "35597237",
+      "35390165",
+      "35253629",
+      "34933678",
+      "34253241",
+      "34210965",
+      "33511412",
+      "33433610",
+      "33155698",
+      "33153478",
+      "33102493",
+      "33070389",
+      "33040078",
+      "32884152",
+      "32280300",
+      "32245950",
+      "32168434",
+      "32042322",
+      "31592410",
+      "31421928",
+      "31404611",
+      "30867423",
+      "30728452",
+      "30635388",
+      "30563889",
+      "30026490",
+      "29894693",
+      "29742442",
+      "29511351",
+      "29311158",
+      "28676700",
+      "27107644",
+      "26549029",
+      "26283796",
+      "25043379",
+      "22941645",
+      "22524316",
+      "22405274",
+      "20558371",
+      "18082598",
+      "16314846",
+      "15623614",
+      "12901961",
+      "11394900"
+    ],
+    "similar": [
+      "39731187",
+      "29398485",
+      "32042322",
+      "37993881",
+      "25889839",
+      "26549029",
+      "35910786",
+      "33741027",
+      "29773901",
+      "34579723",
+      "31511046",
+      "40790242",
+      "42052829",
+      "29452418",
+      "32103589",
+      "31982037",
+      "40319251",
+      "35969939",
+      "40612863",
+      "37415147",
+      "24906397",
+      "40694818",
+      "24301678",
+      "34818994",
+      "31733123",
+      "39937575",
+      "33734501",
+      "25616966",
+      "37843625",
+      "38745192",
+      "33326736",
+      "30395643",
+      "31992690",
+      "38778348",
+      "15870067",
+      "40764361",
+      "23555743",
+      "31209803",
+      "27748806",
+      "28456710",
+      "31391118",
+      "37855039",
+      "38750719",
+      "29507419",
+      "35986334",
+      "40033337",
+      "32216806",
+      "24269992",
+      "42143291",
+      "31248990",
+      "36286483",
+      "23776572",
+      "19566924",
+      "38864136",
+      "28695513",
+      "37186134",
+      "38852108",
+      "27440880",
+      "24884523",
+      "40823720",
+      "32087738",
+      "31637848",
+      "40401372",
+      "29216372",
+      "40899609",
+      "32950106",
+      "28077637",
+      "35837768",
+      "36566215",
+      "38341127",
+      "34094834",
+      "41713576",
+      "41914289",
+      "27595937",
+      "35986274",
+      "25592038",
+      "27686254",
+      "30842529",
+      "29949759",
+      "39979690",
+      "38857852",
+      "32884448",
+      "31623640",
+      "34105224",
+      "32929330",
+      "31616951",
+      "32724453",
+      "23212346",
+      "42108466",
+      "39673809",
+      "26800240",
+      "23277454",
+      "28867247",
+      "39722009",
+      "30542118",
+      "41949670",
+      "19208743",
+      "40288674",
+      "40773674",
+      "25161822"
+    ],
+    "review": [
+      "39731187"
+    ],
+    "pmc": [
+      "11673900"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-024-05956-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39731187/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39731187",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-556",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

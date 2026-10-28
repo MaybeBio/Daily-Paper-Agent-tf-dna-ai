@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "41094572",
+    "doi": "10.1186/s40246-025-00835-5",
+    "title": "Identification and validation of aryl hydrocarbon receptor-associated hub genes in ulcerative colitis via integrated bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Ulcerative colitis (UC), a chronic inflammatory bowel disease, continues to pose substantial challenges in both diagnosis and treatment. The aryl hydrocarbon receptor (AhR) plays a pivotal role in intestinal immune regulation; however, its core regulatory network in the progression of UC remains largely undefined. This study aims to identify core UC-related genes associated with AhR and to validate their expression in dextran sulfate sodium (DSS)-induced murine models, thereby elucidating potential mechanisms underlying UC progression. METHODS: Using the GSE75214 and GSE87466 datasets from the Gene Expression Omnibus (GEO) database, immune cell infiltration was quantified via the CIBERSORT algorithm. Candidate genes were identified through differential expression analysis, weighted gene co-expression network analysis (WGCNA) module selection, and construction of an AhR co-expression network. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and gene set enrichment analysis (GSEA) were performed, followed by construction of a protein-protein interaction (PPI) network using STRING and application of two machine learning algorithms to identify AhR-associated hub genes. Finally, the expression of key genes was validated in DSS-induced UC mouse models using real-time quantitative real-time quantitative polymerase chain reaction (RT-qPCR). RESULTS: A total of nine AHR-related shared genes were identified, which were significantly enriched in immune response, amino acid metabolism, and oxidative stress pathways. Through integration of the PPI network and machine learning approaches, three central hub genes (PPARG, IL1B, and IDO1) were identified. Immune infiltration analysis revealed pronounced immune dysregulation during the progression of UC, which may contribute to disease development. Animal experiments confirmed the expression of these three key genes in colonic tissues, and hematoxylin-eosin (H&E) staining revealed extensive infiltration of inflammatory cells, consistent with the bioinformatics findings. CONCLUSION: PPARG, IL1B, and IDO1 were identified as potential key genes closely associated with AHR, suggesting their possible involvement in modulating AhR signaling in UC, thereby offering a theoretical basis for disease diagnosis and therapeutic strategies.",
+    "keywords": [
+      "Aryl hydrocarbon receptor",
+      "Bioinformatics analysis",
+      "Immune infiltration",
+      "In vivo validation",
+      "Ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "*Colitis, Ulcerative/genetics/pathology/chemically induced",
+      "*Receptors, Aryl Hydrocarbon/genetics/metabolism",
+      "Animals",
+      "*Computational Biology/methods",
+      "Mice",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps/genetics",
+      "Humans",
+      "Indoleamine-Pyrrole 2,3,-Dioxygenase/genetics",
+      "Dextran Sulfate",
+      "Disease Models, Animal",
+      "Gene Expression Profiling",
+      "Interleukin-1beta/genetics",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yuanpei",
+        "Wang, Jiaping",
+        "Min, Xiaoli",
+        "Jiang, Fuqiong",
+        "Shi, Kaiwen",
+        "Liu, Hongyuan",
+        "Hu, Yichen",
+        "Li, Wenliang",
+        "Li, Weiming"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Wang J",
+        "Min X",
+        "Jiang F",
+        "Shi K",
+        "Liu H",
+        "Hu Y",
+        "Li W",
+        "Li W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China.",
+        "Department of Radiology, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China.",
+        "Department of Cerebrovascular Diseases, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China.",
+        "Department of Dermatology, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China.",
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China.",
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China.",
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China.",
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China. liwenliang@kmmu.edu.cn.",
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China. liweiming@kmmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yuanpei",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiaping",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Min, Xiaoli",
+        "short_name": "Min X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cerebrovascular Diseases, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Fuqiong",
+        "short_name": "Jiang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Kaiwen",
+        "short_name": "Shi K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongyuan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yichen",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenliang",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China. liwenliang@kmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Weiming",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Kunming Medical University, 374 Dianmian Avenue, Kunming City, Yunnan Province, China. liweiming@kmmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human genomics"
+    ],
+    "journal_abbrev": [
+      "Hum Genomics"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/16 05:31",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "42510881",
+      "41143980"
+    ],
+    "refs": [
+      "40659263",
+      "40602277",
+      "40597456",
+      "40446577",
+      "40410944",
+      "40370742",
+      "40303293",
+      "39957712",
+      "39900946",
+      "39864469",
+      "39795158",
+      "39779091",
+      "39510197",
+      "39432373",
+      "39417505",
+      "39271472",
+      "39078661",
+      "38987259",
+      "38930963",
+      "38880160",
+      "38564860",
+      "38338765",
+      "38306113",
+      "38250142",
+      "37963876",
+      "37943830",
+      "37936685",
+      "37873559",
+      "37653406",
+      "37516511",
+      "36911716",
+      "36866529",
+      "36370105",
+      "36076306",
+      "35931707",
+      "35195119",
+      "35003126",
+      "34717010",
+      "33132649",
+      "33082710",
+      "32569770",
+      "32160108",
+      "31441146",
+      "30453885",
+      "29956014",
+      "29401083",
+      "29145629",
+      "28885228",
+      "27322403",
+      "26034135",
+      "25950236",
+      "25822800",
+      "25358065",
+      "25176396",
+      "24138885",
+      "23945234",
+      "23388545",
+      "23135761",
+      "22914296",
+      "16199517",
+      "15168363",
+      "12808457",
+      "10802651",
+      "10592173"
+    ],
+    "similar": [
+      "41094572",
+      "40597456",
+      "35392084",
+      "41789070",
+      "41029776",
+      "41358199",
+      "40628511",
+      "38880160",
+      "39673621",
+      "42267557",
+      "39741751",
+      "39975557",
+      "41009970",
+      "42327749",
+      "39161963",
+      "41300749",
+      "38656456",
+      "33845143",
+      "34592880",
+      "40948782",
+      "35016690",
+      "33132649",
+      "41324863",
+      "36860851",
+      "40701122",
+      "39375405",
+      "40973872",
+      "41492412",
+      "41845922",
+      "41288681",
+      "40595862",
+      "39182484",
+      "39647286",
+      "40821971",
+      "39069636",
+      "38977802",
+      "39766817",
+      "41044520",
+      "38755717",
+      "41243474",
+      "40406126",
+      "40091022",
+      "40836320",
+      "40330488",
+      "41972123",
+      "40155679",
+      "37055495",
+      "41242266",
+      "40406620",
+      "33941565",
+      "41146237",
+      "41013556",
+      "41544137",
+      "41962266",
+      "41703488",
+      "41368500",
+      "40053030",
+      "41107929",
+      "40600991",
+      "42289108",
+      "33462173",
+      "38736878",
+      "39713769",
+      "39586719",
+      "40196107",
+      "39671358",
+      "33987007",
+      "38677270",
+      "39670237",
+      "38863714",
+      "40151118",
+      "36061211",
+      "38065859",
+      "36186997",
+      "40963602",
+      "38734758",
+      "39870856",
+      "39044211",
+      "39588003",
+      "40267892",
+      "42345426",
+      "40584713",
+      "35958412",
+      "39351239",
+      "40088746",
+      "40620701",
+      "39829117",
+      "33144895",
+      "39986196",
+      "39177628",
+      "42051521",
+      "38899746",
+      "42008502",
+      "39568749",
+      "41863100",
+      "40659785",
+      "41479901",
+      "39172048",
+      "42172296",
+      "35278479"
+    ],
+    "review": [
+      "41094572"
+    ],
+    "pmc": [
+      "12522315"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://humgenomics.biomedcentral.com/articles/10.1186/s40246-025-00835-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41094572/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IDO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

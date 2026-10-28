@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15003967/v1",
+  "title": "Uncertainty-Aware Protein-Ligand Binding Mode Prediction with Counterfactual Pocket Perturbation",
+  "authors": "Zheng Zhao; Philip E. Bourne",
+  "journal": "ChemRxiv",
+  "published_date": "2026-05-27",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用混合对接与机器学习预测蛋白-配体结合模式，并引入反事实口袋扰动估计不确定性，虽非TF-DNA体系，但结合模式预测与不确定性建模方法可迁移至蛋白质-DNA互作研究。",
+  "abstract": "Accurate prediction of protein–ligand binding modes is crucial for structure-based drug discovery. However, current pose prediction methods are often integrated with binding affinity scoring functions without providing a reliable measure of the confidence or reliability of individual pose predictions. We present a hybrid docking and machine learning workflow for binding mode prediction and evaluate whether counterfactual perturbations of pocket-ligand interaction features can support uncertainty-aware pose prediction. Here, the candidate poses were generated with AutoDock Vina and ranked using a geometry-aware gradient-boosted tree model trained on PLINDER-derived protein-ligand complexes. To estimate uncertainty, we masked hydrogen-bond, hydrophobic, metal, polar, clash, and contact-shell feature groups and measured prediction sensitivity. The chemical counterfactual uncertainty detected the failed top-1 predictions with AUROC 0.895 and average precision 0.878. The selective prediction substantially improved reliability: retaining the lowest-uncertainty 50% of predictions increased top-1 success to 88.79%. These results suggest that uncertainty-aware pose prediction can provide actionable confidence estimates for docking-based binding mode prediction, and that counterfactual pocket perturbation offers a practical route toward interpretable failure detection.",
+  "abstract_zh": "蛋白质-配体结合模式的准确预测对于基于结构的药物发现至关重要。然而，当前的构象预测方法通常与结合亲和力评分函数集成，却未能提供对单个构象预测置信度或可靠性的可靠度量。我们提出了一种混合对接与机器学习工作流程，用于结合模式预测，并评估口袋-配体相互作用特征的反事实扰动是否能够支持不确定性感知的构象预测。在此，候选构象通过AutoDock Vina生成，并使用基于PLINDER来源的蛋白质-配体复合物训练的几何感知梯度提升树模型进行排序。为估计不确定性，我们掩蔽了氢键、疏水、金属、极性、冲突和接触壳特征组，并测量预测敏感性。化学反事实不确定性检测失败的前1名预测，AUROC为0.895，平均精度为0.878。选择性预测显著提高了可靠性：保留最低不确定性的50%预测，将前1名成功率提升至88.79%。这些结果表明，不确定性感知的构象预测能够为基于对接的结合模式预测提供可操作的置信度估计，且反事实口袋扰动为可解释的失败检测提供了一条实用途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15003967/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15003967/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15003967_v1/index.html"
+}

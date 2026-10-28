@@ -1,0 +1,473 @@
+{
+  "identity": {
+    "pmid": "42601367",
+    "doi": "10.1038/s41598-026-65680-5",
+    "title": "Glycoconjugate strategy for GLUT-driven curcumin delivery and anticancer activity in breast cancer cells."
+  },
+  "content": {
+    "abstract": "Selective targeting of cancer cells is a critical strategy in anticancer therapy, and the overexpression of glucose transporters (GLUTs) in malignant cells provides an attractive avenue for achieving this selectivity. In this study, we report the synthesis and biological evaluation of glycoconjugate vanadyl complexes as GLUT-directed anticancer agents against breast cancer. A Schiff base ligand (CG) was synthesized through the condensation of curcumin (C) and glucosamine (G), followed by complexation with vanadyl to form [VO(CG)(2)].5H(2)O. The synthesized compounds were comprehensively characterized by elemental analysis, MS, NMR, FT-IR, TGA, molar conductance, and magnetic susceptibility measurements. Spectroscopic and computational studies confirmed that the ligand coordinates in a bidentate chelating mode via the azomethine nitrogen and the enolic oxygen. Biological evaluation in MCF-7 breast cancer cells included cytotoxicity assays, molecular docking, DNA-binding studies, and quantitative gene expression analysis. Both compounds exhibited cytotoxic activity, with the CG ligand showing the highest potency (IC(5)(0) = 7.51 +/- 0.12 mug/mL or 14.2 muM). Notably, co-treatment with the GLUT inhibitor quercetin significantly increased the IC(5)(0) value, suggesting the involvement of GLUT-mediated cellular uptake. Molecular docking studies indicated favorable binding affinity toward GLUT, while DNA-binding experiments demonstrated interaction with DNA. Treatment of MCF-7 cells with the glycoconjugate ligand induced DNA damage, modulated the expression of cell cycle- and apoptosis-related genes, and promoted apoptosis. Flow cytometric analysis demonstrated that the glycoconjugate significantly arrested MCF-7 cells in the S-phase (49.40% vs 22.22% in control). This finding is consistent with impaired cell cycle progression and may be associated with the observed DNA interaction. Quantitative real-time PCR analysis of the CG compound revealed significant upregulation of BAX and CDKN1A (p21) (p </= 0.05) and pronounced upregulation of STK11 (LKB1) (p </= 0.001), suggesting activation of the AMPK signaling pathway and a metabolic stress response. Overall, the glycoconjugate ligand induces apoptosis and cell cycle arrest through oxidative and metabolic stress mediated by AMPK-STK11 signaling, highlighting its potential as a GLUT-targeted chemotherapeutic agent for breast cancer treatment.",
+    "keywords": [
+      "AMPK-STK11 signaling",
+      "Apoptosis",
+      "Breast cancer",
+      "Curcumin-glycoconjugate",
+      "DFT- molecular docking",
+      "GLUT receptor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Curcumin/pharmacology/chemistry/administration & dosage",
+      "*Glycoconjugates/chemistry/pharmacology",
+      "Female",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "*Breast Neoplasms/metabolism/drug therapy/pathology",
+      "Molecular Docking Simulation",
+      "MCF-7 Cells",
+      "Apoptosis/drug effects",
+      "*Glucose Transport Proteins, Facilitative/metabolism/chemistry",
+      "Cell Proliferation/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Glucosamine/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hassan, Safaa S",
+        "Rashidi, Fatma B",
+        "Seddik, Ramy G",
+        "El-Sayed, Areej W",
+        "Mohamed, Habiba A",
+        "Mohamed, Hager W",
+        "Kenawy, Menna M",
+        "Hussein, Nouran B",
+        "Afify, Nourhan A",
+        "Megahed, Noura M",
+        "Zeinhom, Reem M",
+        "Abdultawab, Ziad A",
+        "Elgohary, Ayatallah",
+        "Hamido, Nashwa",
+        "Elwakil, Ahmed I",
+        "Alzoghaly, Hadeel A",
+        "Nabil, Martina O",
+        "Ahmed, Ehab A",
+        "Ismail, Khaled M"
+      ],
+      "short_names": [
+        "Hassan SS",
+        "Rashidi FB",
+        "Seddik RG",
+        "El-Sayed AW",
+        "Mohamed HA",
+        "Mohamed HW",
+        "Kenawy MM",
+        "Hussein NB",
+        "Afify NA",
+        "Megahed NM",
+        "Zeinhom RM",
+        "Abdultawab ZA",
+        "Elgohary A",
+        "Hamido N",
+        "Elwakil AI",
+        "Alzoghaly HA",
+        "Nabil MO",
+        "Ahmed EA",
+        "Ismail KM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Chemistry Department, Faculty of Science, Cairo University, Giza, Egypt. hsafaa@sci.cu.edu.eg.",
+        "Chemistry Department, Faculty of Science, Cairo University, Giza, Egypt. fabdallah@sci.cu.edu.eg.",
+        "Biochemistry Division, Chemistry Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+        "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt.",
+        "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt.",
+        "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt.",
+        "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt.",
+        "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt.",
+        "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt.",
+        "Medical Genome Center, Faculty of Medicine, Cairo University, Cairo, Egypt.",
+        "Chemistry Department, Faculty of Science, Cairo University, Giza, Egypt. kismail@sci.cu.edu.eg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hassan, Safaa S",
+        "short_name": "Hassan SS",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry Department, Faculty of Science, Cairo University, Giza, Egypt. hsafaa@sci.cu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Rashidi, Fatma B",
+        "short_name": "Rashidi FB",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry Department, Faculty of Science, Cairo University, Giza, Egypt. fabdallah@sci.cu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Seddik, Ramy G",
+        "short_name": "Seddik RG",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry Division, Chemistry Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "El-Sayed, Areej W",
+        "short_name": "El-Sayed AW",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Mohamed, Habiba A",
+        "short_name": "Mohamed HA",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Mohamed, Hager W",
+        "short_name": "Mohamed HW",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Kenawy, Menna M",
+        "short_name": "Kenawy MM",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Hussein, Nouran B",
+        "short_name": "Hussein NB",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Afify, Nourhan A",
+        "short_name": "Afify NA",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Megahed, Noura M",
+        "short_name": "Megahed NM",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Zeinhom, Reem M",
+        "short_name": "Zeinhom RM",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Abdultawab, Ziad A",
+        "short_name": "Abdultawab ZA",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Elgohary, Ayatallah",
+        "short_name": "Elgohary A",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Department, Faculty of Science, Cairo University, Giza, Egypt.",
+          "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Hamido, Nashwa",
+        "short_name": "Hamido N",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Elwakil, Ahmed I",
+        "short_name": "Elwakil AI",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Alzoghaly, Hadeel A",
+        "short_name": "Alzoghaly HA",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Nabil, Martina O",
+        "short_name": "Nabil MO",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Ehab A",
+        "short_name": "Ahmed EA",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biotechnology, October University for Modern Sciences and Arts (MSA), Giza, Egypt.",
+          "Medical Genome Center, Faculty of Medicine, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Ismail, Khaled M",
+        "short_name": "Ismail KM",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry Department, Faculty of Science, Cairo University, Giza, Egypt. kismail@sci.cu.edu.eg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Aug 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/15 05:36",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42533033",
+      "42243291",
+      "41435958",
+      "41051525",
+      "40942062",
+      "40876671",
+      "39313547",
+      "39304938",
+      "38732206",
+      "37850505",
+      "37300428",
+      "36715272",
+      "36516491",
+      "36009200",
+      "35671646",
+      "35567820",
+      "35562989",
+      "34831355",
+      "34790355",
+      "34597348",
+      "33558564",
+      "32934206",
+      "32296334",
+      "32290299",
+      "31781355",
+      "31590362",
+      "30620402",
+      "30463216",
+      "28936338",
+      "28558682",
+      "28280414",
+      "28074653",
+      "27121101",
+      "26706102",
+      "25964104",
+      "24781869",
+      "24387940",
+      "23043479",
+      "22204522",
+      "22153742",
+      "22110411",
+      "21685461",
+      "20846109",
+      "20093071",
+      "18055016",
+      "11410242",
+      "10474207"
+    ],
+    "similar": [
+      "42601367",
+      "40876671",
+      "41762588",
+      "40780124",
+      "41904818",
+      "39909177",
+      "41406517",
+      "41995262",
+      "41518939",
+      "42092653",
+      "27529753",
+      "41679479",
+      "38732206",
+      "40763666",
+      "41385860",
+      "39471014",
+      "34294779",
+      "39506445",
+      "30776589",
+      "40156420",
+      "41017166",
+      "40743988",
+      "41512351",
+      "40352177",
+      "33797379",
+      "39532011",
+      "41707387",
+      "33894490",
+      "41570584",
+      "42345617",
+      "28456118",
+      "40911852",
+      "41610671",
+      "29651943",
+      "42108773",
+      "42606807",
+      "40152211",
+      "26648695",
+      "39939528",
+      "40729058",
+      "40288434",
+      "40699240",
+      "42550311",
+      "34259151",
+      "41540397",
+      "35056723",
+      "33573578",
+      "30641320",
+      "42054875",
+      "27358555",
+      "28397855",
+      "41689975",
+      "33675898",
+      "42398391",
+      "34365057",
+      "15870086",
+      "32188392",
+      "32981511",
+      "30075419",
+      "26556313",
+      "42451649",
+      "24365254",
+      "37298600",
+      "40755380",
+      "29533214",
+      "23891847",
+      "41418598",
+      "41774315",
+      "32446710",
+      "33369475",
+      "39292150",
+      "40719897",
+      "27496212",
+      "41260331",
+      "29890691",
+      "37210828",
+      "41893869",
+      "27813185",
+      "40522436",
+      "30843494",
+      "35125087",
+      "36014485",
+      "37936468",
+      "41721902",
+      "40999740",
+      "21986579",
+      "39178704",
+      "29600521",
+      "41468763",
+      "38965246",
+      "39305332",
+      "33652694",
+      "42284881",
+      "39805861",
+      "41270615",
+      "38373066",
+      "21239154",
+      "41538059",
+      "27770267",
+      "26932586"
+    ],
+    "review": [
+      "42601367"
+    ],
+    "pmc": [
+      "13476261"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-65680-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42601367/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAX-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42398561",
+  "title": "Causal intervention validation of gene regulatory signals in scGPT.",
+  "authors": "Kendiukhov, Ihor",
+  "journal": "Journal of biomedical informatics",
+  "published_date": "2026-07-04",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过因果干预验证scGPT模型内部转录因子-靶基因调控信号，虽聚焦TF-DNA调控关系但主要基于基因表达token而非三维结构互作，方法为AI模型审计而非分子模拟，属于广义调控网络推断，对本课题的TF-DNA结合建模仅有间接启发。",
+  "abstract": "OBJECTIVE: Single-cell foundation models such as scGPT have been promoted as representations of gene regulation, but their advertised regulatory signal has been judged largely from attention weights, which are correlational. We ask a deliberately bounded question: whether direct interventions on scGPT gene tokens-causal with respect to the model's own computation-recover model-internal transcription-factor (TF)-target dependencies that align with curated references, whether that signal is robust, and whether it transfers to real perturbation responses. We separate these into two explicit validation axes and report both, including where the model-internal signal does not correspond to biological causality. METHODS: On Tabula Sapiens kidney, lung, and immune subsets, plus an external Krasnow lung atlas and three CRISPR perturbation datasets (Adamson, Dixit, Shifrut), we ablate or swap TF token values inside scGPT and quantify changes in target-token readouts. Axis 1 (reference alignment): intervention scores are evaluated against curated TRRUST and DoRothEA references and against attention and coexpression baselines, with new robustness studies over cell count (120-500), positive/negative pair count, four negative-sampling designs, and four readout strategies (mean, L(2), cosine, max). We trace component-level circuits via activation patching, and benchmark against twelve GRN inference methods including a neural-network baseline on a matched substrate, additionally giving the classical methods larger cell budgets to test the equal-information question. Axis 2 (perturbation transfer): scores are evaluated against CRISPR perturbation-derived edges under balanced labels and AUROC. RESULTS: On Axis 1, lung shows reproducible enrichment that is stable across cell count and survives all four negative-sampling designs (permutation p improving from 0.07 to 0.03 as cells grow from 120 to 500); kidney enrichment is significant at small samples but does not survive scaling (permutation p rising to 0.16 at 500 cells); immune is at baseline. Richer readouts (L(2), cosine) recover signal the scalar mean compresses away, particularly in kidney. On the matched benchmark scGPT leads classical and neural baselines at the shared 120-cell budget, but the lead narrows as the classical methods are given more cells, confirming this is a signal-efficiency result, not general superiority. On Axis 2, balanced evaluation of all three CRISPR datasets, including the TF-screen Dixit data, yields AUROC  approximately  0.50: the model-internal signal does not predict real perturbation responses. CONCLUSION: scGPT encodes tissue-conditional, intervention-sensitive regulatory structure that is aligned with literature-curated TF-target edges (robustly in lung) but is representational rather than biologically causal: it does not transfer to perturbation outcomes. The pipeline is a practical mechanistic-audit toolkit for biological foundation models, and the gap between reference alignment and perturbation transfer is a concrete cautionary result for using such models in regulatory inference.",
+  "abstract_zh": "目的：单细胞基础模型（如scGPT）已被推广为基因调控的表示，但其宣称的调控信号主要依据注意力权重来判断，而注意力权重仅具相关性。我们提出一个刻意限定范围的问题：对scGPT基因标记的直接干预——相对于模型自身计算具有因果性——是否能恢复与精选参考一致的模型内部转录因子（TF）-靶标依赖关系，该信号是否稳健，以及是否能迁移至真实扰动响应。我们将这些问题分为两个明确的验证轴并报告两者结果，包括模型内部信号与生物因果性不对应的情况。方法：在Tabula Sapiens肾脏、肺和免疫子集，以及外部Krasnow肺图谱和三个CRISPR扰动数据集（Adamson、Dixit、Shifrut）上，我们消融或交换scGPT内的TF标记值，并量化靶标标记读出的变化。轴1（参考对齐）：干预评分与精选TRRUST和DoRothEA参考以及注意力和共表达基线进行比较，并针对细胞数量（120-500）、正负对数量、四种负采样设计和四种读出策略（均值、L(2)、余弦、最大值）进行新的稳健性研究。我们通过激活修补追踪组件级回路，并与十二种GRN推断方法（包括匹配底物上的神经网络基线）进行基准比较，同时额外给予经典方法更大的细胞预算以测试等量信息问题。轴2（扰动迁移）：在平衡标签和AUROC下，评分与CRISPR扰动衍生边进行比较。结果：在轴1上，肺显示可重复的富集，该富集在细胞数量上稳定，并经受住所有四种负采样设计（置换p值随细胞从120增至500而从0.07改善至0.03）；肾脏富集在小样本下显著，但未能在扩展中保持（置换p值在500细胞时升至0.16）；免疫处于基线水平。更丰富的读出（L(2)、余弦）恢复了标量均值压缩掉的信号，尤其在肾脏中。在匹配基准上，scGPT在共享120细胞预算下领先经典和神经基线，但随着经典方法获得更多细胞，领先优势缩小，确认这是信号效率结果，而非普遍优越性。在轴2上，对所有三个CRISPR数据集（包括TF筛选Dixit数据）的平衡评估产生AUROC约0.50：模型内部信号不能预测真实扰动响应。结论：scGPT编码组织条件性、干预敏感的调控结构，该结构与文献精选的TF-靶标边对齐（在肺中稳健），但属于表示性而非生物因果性：它不能迁移至扰动结果。该流程是生物基础模型的实用机制审计工具包，而参考对齐与扰动迁移之间的差距为在调控推断中使用此类模型提供了具体警示结果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42398561/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42398561/",
+  "paper_page_path": "papers/pubmed/42398561/index.html"
+}

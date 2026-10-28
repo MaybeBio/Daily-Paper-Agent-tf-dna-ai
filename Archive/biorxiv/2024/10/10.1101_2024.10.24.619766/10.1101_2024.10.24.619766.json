@@ -1,0 +1,734 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.24.619766",
+  "title": "CpGPT: a Foundation Model for DNA Methylation",
+  "doi": "10.1101/2024.10.24.619766",
+  "abstract": "DNA methylation is a type of epigenetic modification that plays a significant role in development, aging, and disease. Despite extensive research, how genome-wide DNA methylation patterns collectively encode and influence complex phenotypes such as aging and disease remains difficult to characterize with conventional approaches. Foundation models are a class of machine learning model that leverage vast quantities of data to make sense of complex data types, such as genome sequences or single-cell transcriptomes. Here, we present the Cytosine-phosphate-Guanine Pretrained Transformer (CpGPT), a novel foundation model pretrained on CpGCorpus, a novel database with more than 2,000 DNA methylation datasets encompassing over 150,000 samples from diverse conditions. CpGPT leverages an improved transformer architecture to learn comprehensive representations of methylation patterns, allowing it to impute and reconstruct genome-wide methylation profiles from limited input data. By capturing sequence, positional, and epigenetic contexts, CpGPT outperforms specialized models when finetuned for aging-related tasks, including the state-of-the-art GrimAge2 and PCGrimAge for mortality and morbidity estimation. The model is highly adaptable and can impute beta values across different methylation platforms, tissue types, mammalian species, and even single-cell data. As a foundation model, CpGPT can be leveraged as a new tool for biological discovery in the field of epigenetics. The open-source code and model can be found at http://github.com/lucascamillomd/CpGPT . Highlights CpGPT is a novel foundation model for DNA methylation analysis, pretrained on over 2,000 datasets encompassing 150,000+ samples. The model demonstrates strong performance in zero-shot tasks including imputation, array conversion, and reference mapping. CpGPT achieves state-of-the-art results in mortality prediction and chronological age estimation.",
+  "authors": [
+    "Lucas Paulo de Lima Camillo",
+    "Raghav Sehgal",
+    "Jenel Armstrong",
+    "Max Melnikas",
+    "Henry E. Miller",
+    "Jun Ding",
+    "Luigi Ferruci",
+    "Jessica A. Lasky-Su",
+    "Albert T. Higgins-Chen",
+    "Steve Horvath",
+    "Bo Wang"
+  ],
+  "published_date": "2024-10-29",
+  "updated_date": "2024-10-29T14:45:21Z",
+  "journal": "bioRxiv",
+  "category": "Systems Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.24.619766",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.24.619766.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Systems Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Systems Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2026-08-25T02:00:55Z",
+        "timestamp": 1787623255541,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            29
+          ]
+        ]
+      },
+      "group-title": "Systems Biology",
+      "reference-count": 56,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                29
+              ]
+            ],
+            "date-time": "2024-10-29T00:00:00Z",
+            "timestamp": 1730160000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  DNA methylation is a type of epigenetic modification that plays a significant role in development, aging, and disease. Despite extensive research, how genome-wide DNA methylation patterns collectively encode and influence complex phenotypes such as aging and disease remains difficult to characterize with conventional approaches. Foundation models are a class of machine learning model that leverage vast quantities of data to make sense of complex data types, such as genome sequences or single-cell transcriptomes. Here, we present the Cytosine-phosphate-Guanine Pretrained Transformer (CpGPT), a novel foundation model pretrained on CpGCorpus, a novel database with more than 2,000 DNA methylation datasets encompassing over 150,000 samples from diverse conditions. CpGPT leverages an improved transformer architecture to learn comprehensive representations of methylation patterns, allowing it to impute and reconstruct genome-wide methylation profiles from limited input data. By capturing sequence, positional, and epigenetic contexts, CpGPT outperforms specialized models when finetuned for aging-related tasks, including the state-of-the-art GrimAge2 and PCGrimAge for mortality and morbidity estimation. The model is highly adaptable and can impute beta values across different methylation platforms, tissue types, mammalian species, and even single-cell data. As a foundation model, CpGPT can be leveraged as a new tool for biological discovery in the field of epigenetics. The open-source code and model can be found at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://github.com/lucascamillomd/CpGPT\">http://github.com/lucascamillomd/CpGPT</jats:ext-link>\n                  .\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Highlights</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>CpGPT is a novel foundation model for DNA methylation analysis, pretrained on over 2,000 datasets encompassing 150,000+ samples.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>The model demonstrates strong performance in zero-shot tasks including imputation, array conversion, and reference mapping.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>CpGPT achieves state-of-the-art results in mortality prediction and chronological age estimation.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+      "DOI": "10.1101/2024.10.24.619766",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2024-10-29T14:45:21Z",
+        "timestamp": 1730213121000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 37,
+      "title": [
+        "CpGPT: a Foundation Model for DNA Methylation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8166-0761",
+          "authenticated-orcid": false,
+          "given": "Lucas Paulo",
+          "family": "de Lima Camillo",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Cambridge, Shift Bioscience, Yale University, Cambridge, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9387-1758",
+          "authenticated-orcid": false,
+          "given": "Raghav",
+          "family": "Sehgal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Yale University School of Medicine, New Haven, CT, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-4401-0986",
+          "authenticated-orcid": false,
+          "given": "Jenel",
+          "family": "Armstrong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Yale University School of Medicine, New Haven, CT, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-4327-4495",
+          "authenticated-orcid": false,
+          "given": "Max",
+          "family": "Melnikas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brigham and Women’s Hospital, Harvard Medical School, Boston, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3756-3918",
+          "authenticated-orcid": false,
+          "given": "Henry E.",
+          "family": "Miller",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Shift Bioscience, Cambridge, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4302-5027",
+          "authenticated-orcid": false,
+          "given": "Jun",
+          "family": "Ding",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Longitudinal Studies Section, NIA, Baltimore, MD, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6273-1613",
+          "authenticated-orcid": false,
+          "given": "Luigi",
+          "family": "Ferruci",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Longitudinal Studies Section, NIA, Baltimore, MD, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6236-4705",
+          "authenticated-orcid": false,
+          "given": "Jessica A.",
+          "family": "Lasky-Su",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brigham and Women’s Hospital, Harvard Medical School, Boston, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2904-2741",
+          "authenticated-orcid": false,
+          "given": "Albert T.",
+          "family": "Higgins-Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Yale University School of Medicine, New Haven, CT, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4110-3589",
+          "authenticated-orcid": false,
+          "given": "Steve",
+          "family": "Horvath",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Medicine, UCLA, Los Angeles, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9620-3413",
+          "authenticated-orcid": false,
+          "given": "Bo",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto, Toronto, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.1",
+          "unstructured": "A Vaswani . “Attention is all you need”. In: Advances in Neural Information Processing Systems (2017)."
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.2",
+          "unstructured": "Rishi Bommasani , Drew A Hudson , Ehsan Adeli , Russ Altman , Simran Arora , Sydney von Arx , Michael S Bernstein , Jeannette Bohg , Antoine Bosselut , Emma Brunskill , et al. “On the opportunities and risks of foundation models”. In: arXiv preprint arXiv:2108.07258 (2021)."
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.3",
+          "unstructured": "Jacob Devlin . “Bert: Pre-training of deep bidirectional transformers for language understanding”. In: arXiv preprint arXiv:1810.04805 (2018)."
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.4",
+          "unstructured": "Haotian Cui , Chloe Wang , Hassaan Maan , Kuan Pang , Fengning Luo , Nan Duan , and Bo Wang . “scGPT: toward building a foundation model for single-cell multiomics using generative AI”. In: Nature Methods (2024), pp. 1–11."
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06139-9"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yanay Rosen , Yusuf Roohani , Ayush Agrawal , Leon Samotorčan , Tabula Sapiens Consortium , Stephen R Quake , and Jure Leskovec . “Universal cell embeddings: A foundation model for cell biology”. In: bioRxiv (2023), pp. 2023–11.",
+          "DOI": "10.1101/2023.11.28.568918"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Barbara Steurer , Quentin Vanhaelen , and Alex Zhavoronkov . “Multimodal transformers and their applications in drug target discovery for aging and age-related diseases”. In: The Journals of Gerontology: Series A 79.9 (2024).",
+          "DOI": "10.1093/gerona/glae006"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.arr.2018.11.003"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2013-14-1-r1"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2012.10.016"
+        },
+        {
+          "issue": "2",
+          "key": "2026081422500492000_2024.10.24.619766v5.11",
+          "first-page": "303",
+          "article-title": "DNA methylation GrimAge strongly predicts lifespan and healthspan",
+          "volume": "11",
+          "year": "2019",
+          "journal-title": "Aging (albany NY)"
+        },
+        {
+          "issue": "23",
+          "key": "2026081422500492000_2024.10.24.619766v5.12",
+          "first-page": "9484",
+          "article-title": "DNA methylation GrimAge version 2",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Aging (Albany NY)"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.73420"
+        },
+        {
+          "issue": "7",
+          "key": "2026081422500492000_2024.10.24.619766v5.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "644",
+          "DOI": "10.1038/s43587-022-00248-2",
+          "article-title": "A computational solution for bolstering reliability of epigenetic clocks: Implications for clinical trials and longitudinal tracking",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Nature aging"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lucas Paulo de Lima Camillo , Muhammad Haider Asif , Steve Horvath , Erica Larschan , and Ritambhara Singh . “Histone mark age of human tissues and cells”. In: bioRxiv (2023), pp. 2023–08.",
+          "DOI": "10.1101/2023.08.21.554165"
+        },
+        {
+          "issue": "1",
+          "key": "2026081422500492000_2024.10.24.619766v5.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1038/s41514-022-00085-y",
+          "article-title": "A pan-tissue DNA-methylation epigenetic clock based on deep learning",
+          "volume": "8",
+          "year": "2022",
+          "journal-title": "npj Aging"
+        },
+        {
+          "issue": "5",
+          "key": "2026081422500492000_2024.10.24.619766v5.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1252",
+          "DOI": "10.14336/AD.2020.1202",
+          "article-title": "DeepMAge: a methylation aging clock developed with deep learning",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Aging and disease"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.18",
+          "unstructured": "Sage Bionetworks. Biomarkers of Aging Challenge 2024. https://www.synapse.org/Synapse:syn52966292/wiki/624696. Accessed: 19/10/2024. 2024."
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kejun Ying , Jinyeop Song , Haotian Cui , Yikun Zhang , Siyuan Li , Xingyu Chen , Hanna Liu , Alec Eames , Daniel L McCartney , Riccardo E Marioni , et al. “MethylGPT: a foundation model for the DNA methylome”. In: bioRxiv (2024).",
+          "DOI": "10.1101/2024.10.30.621013"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hugo Dalla-Torre , Liam Gonzalez , Javier Mendoza-Revilla , Nicolas Lopez Carranza , Adam Henryk Grzywaczewski , Francesco Oteri , Christian Dallago , Evan Trop , Bernardo P de Almeida , Hassan Sirelkhatim , et al. “Nucleotide Transformer: building and evaluating robust foundation models for human genomics”. In: Nature Methods (2024), pp. 1–11.",
+          "DOI": "10.1101/2023.01.11.523679"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neucom.2023.127063"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.22",
+          "article-title": "Mamba: Linear-time sequence modeling with selective state spaces",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Eric Nguyen , Michael Poli , Marjan Faizi , Armin Thomas , Michael Wornow , Callum Birch-Sykes , Stefano Massaroli , Aman Patel , Clayton Rabideau , Yoshua Bengio , et al. “Hyenadna: Long-range genomic sequence modeling at single nucleotide resolution”. In: Advances in neural information processing systems 36 (2024).",
+          "DOI": "10.52202/075280-1872"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.24",
+          "article-title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "51",
+          "key": "2026081422500492000_2024.10.24.619766v5.25",
+          "first-page": "eadw3027",
+          "article-title": "KnowYourCG: Facilitating base-level sparse methylome interpretation",
+          "volume": "10",
+          "year": "2024",
+          "journal-title": "Science Advances"
+        },
+        {
+          "issue": "3",
+          "key": "2026081422500492000_2024.10.24.619766v5.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1038/nmeth.1906",
+          "article-title": "ChromHMM: automating chromatin-state discovery and characterization",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14248"
+        },
+        {
+          "issue": "3",
+          "key": "2026081422500492000_2024.10.24.619766v5.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "531",
+          "DOI": "10.1038/s41592-023-02144-y",
+          "article-title": "scPerturb: harmonized single-cell perturbation data",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2305236120"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ruth V Nichols , Lauren E Rylaarsdam , Brendan L O’Connell , Zohar Shipony , Nika Iremadze , Sonia N Acharya , and Andrew C Adey . “Atlas-scale single-cell DNA methylation profiling with sciMETv3”. In: Cell Genomics 5.1 (2025).",
+          "DOI": "10.1016/j.xgen.2024.100726"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1413299111"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/elife.71624"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.33",
+          "unstructured": "David C Goldberg , Cameron Cloud , Sol Moe Lee , Bret Barnes , Steven Gruber , Elliot Kim , Anita Pottekat , Max Westphal , Luana McAuliffe , Elisa Majournie , et al. “MSA: scalable DNA methylation screening BeadChip for high-throughput trait association studies”. In: bioRxiv (2024), pp. 2024–05."
+        },
+        {
+          "issue": "3",
+          "key": "2026081422500492000_2024.10.24.619766v5.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "1817",
+          "DOI": "10.1007/s11357-023-00731-7",
+          "article-title": "Centenarian clocks: epigenetic clocks for validating claims of exceptional longevity",
+          "volume": "45",
+          "year": "2023",
+          "journal-title": "Geroscience"
+        },
+        {
+          "issue": "1",
+          "key": "2026081422500492000_2024.10.24.619766v5.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "934",
+          "DOI": "10.1038/s42003-024-06609-4",
+          "article-title": "Development of an epigenetic clock resistant to changes in immune cell composition",
+          "volume": "7",
+          "year": "2024",
+          "journal-title": "Communications Biology"
+        },
+        {
+          "issue": "1",
+          "key": "2026081422500492000_2024.10.24.619766v5.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "4211",
+          "DOI": "10.1038/s41467-024-48649-8",
+          "article-title": "An improved epigenetic counter to track mitotic age in normal and precancerous tissues",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "issue": "1",
+          "key": "2026081422500492000_2024.10.24.619766v5.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "783",
+          "DOI": "10.1038/s41467-022-28355-z",
+          "article-title": "A mammalian methylation array for profiling methylation levels at conserved sequences",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btae423"
+        },
+        {
+          "issue": "9",
+          "key": "2026081422500492000_2024.10.24.619766v5.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1144",
+          "DOI": "10.1038/s43587-023-00462-6",
+          "article-title": "Universal DNA methylation age across mammalian tissues",
+          "volume": "3",
+          "year": "2023",
+          "journal-title": "Nature aging"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abq5693"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-016-1145-3"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.42",
+          "first-page": "24824",
+          "article-title": "Chain-of-thought prompting elicits reasoning in large language models",
+          "volume": "35",
+          "year": "2022",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.43",
+          "article-title": "When More is Less: Understanding Chain-of-Thought Length in LLMs",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mahdi Moqri , Jesse R Poganik , Chiara Herzog , Kejun Ying , Qingwen Chen , Mehrnoosh Emamifar , Alexander Tyshkovskiy , Eames W Alec , Jure Mur , Benyamin Matei-Dediu , et al. “Integrative epigenetics and transcriptomics identify aging genes in human blood”. In: bioRxiv (2024), pp. 2024–05.",
+          "DOI": "10.1101/2024.05.30.596713"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0572-2"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1727-y"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Raghav Sehgal , Yaroslav Markov , Chenxi Qin , Margarita Meer , Courtney Hadley , Aladdin H Shadyab , Ramon Casanova , JoAnn E Manson , Parveen Bhatti , Eileen M Crimmins , et al. “Systems Age: A single blood methylation test to quantify aging heterogeneity across 11 physiological systems”. In: bioRxiv (2023), pp. 2023–07.",
+          "DOI": "10.1101/2023.07.13.548904"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Qingwen Chen , Varun B Dwaraka , Natàlia Carreras-Gallo , Kevin Mendez , Yulu Chen , Sofina Begum , Priyadarshini Kachroo , Nicole Prince , Hannah Went , Tavis Mendez , et al. “OMICmAge: An integrative multi-omics approach to quantify biological age with electronic medical records”. In: bioRxiv (2023).",
+          "DOI": "10.1101/2023.10.16.562114"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tanya Barrett , Stephen E Wilhite , Pierre Ledoux , Carlos Evangelista , Irene F Kim , Maxim Tomashevsky , Kimberly A Marshall , Katherine H Phillippy , Patti M Sherman , Michelle Holko , et al. “NCBI GEO: archive for functional genomics data sets—update”. In: Nucleic acids research 41.D1 (2012), pp. D991–D995.",
+          "DOI": "10.1093/nar/gks1193"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKY691"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18632/aging.101414"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw967"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sarah C Dyer , Olanrewaju Austine-Orimoloye , Andrey G Azov , Matthieu Barba , If Barnes , Vianey Paola Barrera-Enriquez , Arne Becker , Ruth Bennett , Martin Beracochea , Andrew Berry , et al. “Ensembl 2025”. In: Nucleic acids research 53.D1 (2025), pp. D948–D957.",
+          "DOI": "10.1093/nar/gkae1071"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.54",
+          "article-title": "Dnabert-2: Efficient foundation model and benchmark for multi-species genome",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.55",
+          "unstructured": "Kaiming He , Xinlei Chen , Saining Xie , Yanghao Li , Piotr Dollár , and Ross Girshick . “Masked Autoencoders Are Scalable Vision Learners”. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022, pp. 16000–16009."
+        },
+        {
+          "key": "2026081422500492000_2024.10.24.619766v5.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TBDATA.2019.2921572"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.24.619766",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            15
+          ]
+        ],
+        "date-time": "2026-08-15T05:50:20Z",
+        "timestamp": 1786773020000
+      },
+      "score": 63.982426,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.24.619766"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            29
+          ]
+        ]
+      },
+      "references-count": 56,
+      "URL": "https://doi.org/10.1101/2024.10.24.619766",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "39848244",
+    "doi": "10.1016/j.xcrm.2024.101924",
+    "title": "Multimodal integration using a machine learning approach facilitates risk stratification in HR+/HER2- breast cancer."
+  },
+  "content": {
+    "abstract": "Hormone receptor-positive (HR+)/human epidermal growth factor receptor 2-negative (HER2-) breast cancer is the most common type of breast cancer, with continuous recurrence remaining an important clinical issue. Current relapse predictive models in HR+/HER2- breast cancer patients still have limitations. The integration of multidimensional data represents a promising alternative for predicting relapse. In this study, we leverage our multi-omics cohort comprising 579 HR+/HER2- breast cancer patients (200 patients with complete data across 7 modalities) and develop a machine-learning-based model, namely CIMPTGV, which integrates clinical information, immunohistochemistry, metabolomics, pathomics, transcriptomics, genomics, and copy number variations to predict recurrence risk of HR+/HER2- breast cancer. This model achieves concordance indices (C-indices) of 0.871 and 0.869 in the train and test sets, respectively. The risk population predicted by the CIMPTGV model encompasses those identified by single-modality models. Feature analysis reveals that synergistic and complementary effects exist in different modalities. Simultaneously, we develop a simplified model with a mean area under the curve (AUC) of 0.840, presenting a useful approach for clinical applications.",
+    "keywords": [
+      "HR+/HER2- breast cancer",
+      "machine learning",
+      "multimodal integration",
+      "risk stratification"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/metabolism/pathology",
+      "*Machine Learning",
+      "Female",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/genetics",
+      "Risk Assessment",
+      "*Receptors, Estrogen/metabolism",
+      "Middle Aged",
+      "*Receptors, Progesterone/metabolism",
+      "Neoplasm Recurrence, Local/genetics/pathology",
+      "DNA Copy Number Variations/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hang",
+        "Yang, Fan",
+        "Xu, Ying",
+        "Zhao, Shen",
+        "Jiang, Yi-Zhou",
+        "Shao, Zhi-Ming",
+        "Xiao, Yi"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Yang F",
+        "Xu Y",
+        "Zhao S",
+        "Jiang YZ",
+        "Shao ZM",
+        "Xiao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China.",
+        "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China.",
+        "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China.",
+        "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China.",
+        "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China. Electronic address: yizhoujiang@fudan.edu.cn.",
+        "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China. Electronic address: zhimingshao@fudan.edu.cn.",
+        "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China. Electronic address: yixiao11@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fan",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ying",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shen",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yi-Zhou",
+        "short_name": "Jiang YZ",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China. Electronic address: yizhoujiang@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shao, Zhi-Ming",
+        "short_name": "Shao ZM",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China. Electronic address: zhimingshao@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yi",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery, Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, P.R.China. Electronic address: yixiao11@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports. Medicine"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Med"
+    ],
+    "pub_date": "2025 Feb 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/24 00:26",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "42707642",
+      "42656953",
+      "42609244",
+      "42524695",
+      "42360409",
+      "42294759",
+      "42003934",
+      "41968983",
+      "41919095",
+      "41907633",
+      "41899595",
+      "41828342",
+      "41772255",
+      "41559245",
+      "41498011",
+      "41381626",
+      "41365302",
+      "41193722",
+      "41154435",
+      "41015943",
+      "40741183",
+      "40269930"
+    ],
+    "refs": [
+      "38362377",
+      "38347143",
+      "37880211",
+      "37770634",
+      "37393162",
+      "36939293",
+      "36720223",
+      "36109635",
+      "36043530",
+      "36038778",
+      "35944502",
+      "35764743",
+      "35040677",
+      "34875674",
+      "34845536",
+      "34663944",
+      "34139273",
+      "33538338",
+      "32939066",
+      "32866413",
+      "32864596",
+      "32291973",
+      "32289273",
+      "30853353",
+      "29117498",
+      "28801307",
+      "28578601",
+      "28117445",
+      "28045625",
+      "27717299",
+      "27342400",
+      "26786933",
+      "25822800",
+      "25370469",
+      "24553445",
+      "23709174",
+      "23323831",
+      "22532584",
+      "22018631",
+      "21807638",
+      "21555689",
+      "20716629",
+      "20598756",
+      "20586616",
+      "20177395",
+      "19204204",
+      "18258979",
+      "17215076",
+      "17178864",
+      "16912177",
+      "16478745",
+      "16329133",
+      "15721472",
+      "15591335",
+      "12169667",
+      "11823860",
+      "11146552"
+    ],
+    "similar": [
+      "39848244",
+      "40148997",
+      "33373867",
+      "39545625",
+      "39304993",
+      "25880075",
+      "23025714",
+      "30201586",
+      "32592992",
+      "23749689",
+      "39191270",
+      "26187126",
+      "23679233",
+      "25888246",
+      "32385567",
+      "37816333",
+      "39248049",
+      "24407937",
+      "27268749",
+      "19786658",
+      "40121273",
+      "23701403",
+      "39854658",
+      "25600567",
+      "24820412",
+      "39948624",
+      "40063317",
+      "32229175",
+      "26631838",
+      "18657139",
+      "30570847",
+      "22511276",
+      "31907749",
+      "20890067",
+      "39742376",
+      "21472372",
+      "38955698",
+      "31750938",
+      "32014905",
+      "28685357",
+      "39579550",
+      "32236825",
+      "26817902",
+      "31378534",
+      "22621334",
+      "29330212",
+      "19884543",
+      "39531335",
+      "21358301",
+      "27760283",
+      "27477822",
+      "25735380",
+      "27315045",
+      "40116474",
+      "25998416",
+      "31166208",
+      "39746051",
+      "33028590",
+      "33198673",
+      "24275214",
+      "30679318",
+      "32048817",
+      "32265507",
+      "38759564",
+      "26511263",
+      "39954110",
+      "36175898",
+      "30456680",
+      "39924532",
+      "20711652",
+      "32562116",
+      "26829108",
+      "34244052",
+      "40317148",
+      "22727195",
+      "35568835",
+      "39705838",
+      "24269135",
+      "38722442",
+      "29304138",
+      "28057031",
+      "39976865",
+      "21278222",
+      "28811185",
+      "27762648",
+      "22587480",
+      "24669852",
+      "39477071",
+      "25216864",
+      "39633505",
+      "30384581",
+      "31620934",
+      "30521571",
+      "22433564",
+      "39754712",
+      "24065473",
+      "32323103",
+      "21858162",
+      "38656833",
+      "22740206"
+    ],
+    "review": [
+      "39848244",
+      "39304993",
+      "25998416",
+      "24269135"
+    ],
+    "pmc": [
+      "11866502"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-3791(24)00695-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39848244/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-3791(24)00695-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report computational identification and experimental validation of BRITE-338733 as an inhibitor of ATP hydrolysis in the RSC chromatin remodeler, with binding to the ATP pocket and/or DNA, and cytotoxicity against breast cancer cells
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions provided
+- **Missing materials affecting confidence** Full methods, docking and molecular dynamics parameters, ATP hydrolysis assay protocols and data, DNA binding assay details, cytotoxicity data and cell line information, compound characterization, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding in an underexplored therapeutic space, namely targeting ATPase domains of chromatin remodelers. However, the current evidence base is insufficient to evaluate the validity, robustness, or significance of the claims. The abstract lacks quantitative data, experimental controls, and methodological transparency. The connection between RecA inhibition, RSC chromatin remodeler targeting, and cancer treatment is not mechanistically established from the provided material.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, epigenetic therapeutics, and cancer drug discovery would be interested if the claims are substantiated. The potential to target chromatin remodeler ATPase domains represents a novel therapeutic angle that could attract attention from both basic science and translational oncology communities.
+- **Major strengths** The study addresses an underexplored target class, namely ATPase domains of chromatin remodelers. The combination of computational screening with experimental validation is a reasonable approach. The identification of a specific compound with both enzyme inhibition and cellular cytotoxicity is a coherent narrative.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** BRITE-338733 demonstrated significant inhibition of ATP hydrolysis in the RSC chromatin remodeler
+  - **Evidence pointer** ATP hydrolysis assays, location not provided
+  - **Concern** The abstract states that BRITE-338733 demonstrated significant inhibition but provides no quantitative data, such as IC50 values, percent inhibition, or comparison to controls. No information is given on assay conditions, enzyme concentration, substrate concentration, or replicates.
+  - **Why it matters** Without quantitative inhibition data and experimental details, the claim of significant inhibition cannot be evaluated. The term "significant" is used without statistical support or effect size.
+  - **Resolution test** Provide IC50 or percent inhibition values with standard deviations, number of replicates, and appropriate positive and negative controls. Include assay conditions and demonstrate dose-response relationship.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Both computational and experimental analyses showed that BRITE-338733 binds strongly to DNA
+  - **Evidence pointer** Computational and experimental analyses, location not provided
+  - **Concern** The abstract claims strong DNA binding but provides no details on the experimental method used, such as fluorescence intercalator displacement, surface plasmon resonance, isothermal titration calorimetry, or electrophoretic mobility shift assay. No binding affinity values are given. The computational method for predicting DNA binding is also unspecified.
+  - **Why it matters** DNA binding is a central mechanistic claim. Without knowing the method and quantitative affinity, it is impossible to assess whether the binding is specific, physiologically relevant, or merely nonspecific electrostatic interaction.
+  - **Resolution test** Provide binding affinity constants, specify the experimental technique, include appropriate controls for sequence specificity, and describe the computational method used for DNA binding prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** BRITE-338733 demonstrated cytotoxicity against breast cancer cells, suggesting its potential as an anticancer therapeutic
+  - **Evidence pointer** Cytotoxicity assays, location not provided
+  - **Concern** The abstract reports cytotoxicity against breast cancer cells but does not specify the cell lines used, the concentration range tested, the IC50 values, or the selectivity compared to non-cancerous cells. The mechanistic link between RSC inhibition, DNA binding, and cytotoxicity is not established.
+  - **Why it matters** Cytotoxicity alone is a weak indicator of therapeutic potential. Without selectivity data and mechanistic linkage, the observed cytotoxicity could be due to off-target effects or general toxicity unrelated to RSC inhibition.
+  - **Resolution test** Provide IC50 values for multiple breast cancer cell lines and at least one non-cancerous cell line. Demonstrate that cytotoxicity correlates with RSC inhibition and DNA binding. Include mechanistic studies such as knockdown or rescue experiments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The aim is to identify inhibitors of ATP hydrolysis in the RSC chromatin remodeler by binding to its ATP binding pocket and/or to DNA
+  - **Evidence pointer** Docking studies and molecular dynamics simulations, location not provided
+  - **Concern** The abstract does not specify the computational methods used, including the docking software, scoring functions, protein structure source, simulation length, force field, or criteria for selecting the five compounds from the initial screen. The structural basis for the RSC ATPase domain model is not described.
+  - **Why it matters** Computational predictions are only as reliable as the methods and structures used. Without methodological details, the computational claims cannot be reproduced or evaluated for accuracy.
+  - **Resolution test** Provide full computational methods, including software versions, structure preparation, validation of the protein model, docking protocols, and simulation parameters. Include a description of how the five compounds were prioritized.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Title
+  - **Evidence pointer** Title, location not provided
+  - **Issue** The title "From RecA inhibition to cancer treatment" implies a direct mechanistic pathway that is not established in the abstract. The connection between RecA, a bacterial protein, and the RSC chromatin remodeler is not explained.
+  - **Required correction** Revise the title to accurately reflect the study scope, such as "Identification and validation of BRITE-338733 as an inhibitor of the RSC chromatin remodeler ATPase with anticancer activity."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Compound selection criteria
+  - **Evidence pointer** Initial screening through docking studies, location not provided
+  - **Issue** The abstract states that five compounds were selected for detailed analysis but does not explain the selection criteria or the total number of compounds screened.
+  - **Required correction** Specify the total number of compounds in the initial screen and the criteria used to select the five candidates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Therapeutic potential claim
+  - **Evidence pointer** Cytotoxicity against breast cancer cells, location not provided
+  - **Issue** The abstract claims potential as an anticancer therapeutic based on a single cytotoxicity observation. This overstates the significance without in vivo data or mechanistic validation.
+  - **Required correction** Soften the claim to reflect that the compound shows preliminary cytotoxic activity that warrants further investigation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on ATPase domains of chromatin remodelers as therapeutic targets is relatively underexplored, which is a point of potential originality. However, the abstract does not provide sufficient context to assess how this compares to existing literature on RSC inhibitors or related compounds.
+  - Scientific importance: The potential to target chromatin remodelers in cancer is scientifically important if validated. However, the current evidence does not establish the significance of BRITE-338733 as a lead compound, and the mechanistic link to cancer treatment is speculative.
+  - Interdisciplinary readership: The topic bridges computational chemistry, enzymology, and cancer biology, which could appeal to a broad readership. However, the abstract lacks the technical detail needed for specialists in any of these fields to assess the work.
+  - Technical soundness: Not assessable from the abstract. The absence of quantitative data, methodological details, and controls prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is generally readable but uses terms such as "RSC chromatin remodeler" and "ATP hydrolysis" without sufficient context. The title is misleading regarding the mechanistic connection.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible research direction but lacks the quantitative data, methodological transparency, and mechanistic validation required to support the claims. The manuscript would need substantial additional evidence, including full experimental details, dose-response data, selectivity controls, and mechanistic studies, before the case for BRITE-338733 as a cancer therapeutic can be considered.
+
+## Risk / unsupported claims
+- The claim that BRITE-338733 is the most promising candidate based on molecular dynamics simulations is unsupported without simulation details and comparison metrics.
+- The claim of significant inhibition of ATP hydrolysis is unsupported without quantitative data and statistical analysis.
+- The claim of strong DNA binding is unsupported without binding affinity values and method specification.
+- The claim of cytotoxicity against breast cancer cells is unsupported without cell line identification, concentration data, and selectivity assessment.
+- The suggestion of potential as an anticancer therapeutic is unsupported without mechanistic linkage between RSC inhibition, DNA binding, and cytotoxicity, and without in vivo evidence.
+- The title's implication of a pathway from RecA inhibition to cancer treatment is not supported by the abstract content.

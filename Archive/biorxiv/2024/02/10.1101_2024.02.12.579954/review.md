@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, data availability, supplementary information description)
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and internal consistency of the claims as presented in the provided text
+- **Shared manuscript claim summary** The authors use Ala-Gly scanning combined with stopped-flow kinetics, circular dichroism, and NMR spectroscopy to probe the transition state for coupled folding and binding of the disordered bZIP domain of CREB to its cognate DNA. They report that the transition state strongly resembles the unbound state, with low Φ-values across the basic region, and find no evidence for fly-casting rate enhancement.
+- **Visible evidence base** Abstract, full methods descriptions, results narrative, discussion, figure legends referenced in text (Figures 1-5, Supplementary Figures S1-S9, Supplementary Table 1), BMRB deposition numbers
+- **Missing materials affecting confidence** Actual figures and figure panels are not provided; supplementary figures and table contents are not available; numerical data for individual mutants (rate constants, equilibrium constants, Φ-values with uncertainties) are not shown in the text; NMR assignment details and SSP calculation outputs are not shown; raw kinetic traces and fitting statistics are not available
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically rigorous application of Ala-Gly scanning to probe the transition state for coupled folding and binding of a disordered DNA binding domain. The experimental design is thoughtful, and the combination of kinetic, thermodynamic, and structural methods is appropriate. The central claim that the transition state resembles the unbound state is supported by the low Φ-values and the near-zero Leffler α, though the absence of the actual data figures limits full verification. The finding that no fly-casting rate enhancement is observed, despite using the suggested experimental approach, is an important negative result. However, several concerns regarding data presentation, statistical treatment, and interpretation of outlier behaviour need to be addressed.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, coupled folding and binding mechanisms, transcription factor DNA recognition, and protein-DNA interactions. The work is also relevant to those interested in the fly-casting hypothesis and the role of pre-existing structure in molecular recognition. The methodological approach may interest biophysicists using Φ-value analysis beyond protein folding.
+- **Major strengths** The study addresses a fundamental question in the coupled folding and binding field with a well-designed mutational strategy. The use of Ala-Gly scanning is appropriate for probing helix formation. The combination of kinetic and structural methods provides complementary views of the transition state. The negative result regarding fly-casting is valuable and directly tests a widely discussed hypothesis. The authors are careful in their interpretation and acknowledge limitations of the Φ-value approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that "the secondary structure of the transition state strongly resembles that of the unbound state" based on low Φ-values across the basic region.
+  - **Evidence pointer** Results section "The transition state is characterised by low Φ values"; Figure 5A, 5B; Supplementary Table 1
+  - **Concern** The actual Φ-values, their uncertainties, and the individual rate constants for each mutant are not presented in the text. The reader cannot assess the precision of the Φ-values, the magnitude of the effects, or whether the values are statistically distinguishable from zero. The claim of "low Φ-values" requires the actual numerical data to be evaluated. Additionally, the Φ-value for K309 is reported as 0.7 ± 0.4, which has a very large uncertainty, yet this residue is discussed as a notable outlier. The basis for this interpretation needs the underlying data.
+  - **Why it matters** The central conclusion of the manuscript rests entirely on the Φ-value analysis. Without the numerical data, the claim cannot be independently evaluated. The large uncertainty on the K309 Φ-value raises questions about whether the outlier status is meaningful.
+  - **Resolution test** Provide a table with all individual rate constants (k_on, k_off), equilibrium constants (K_D), ΔΔG values, and Φ-values with propagated uncertainties for every mutant. Include the number of replicate measurements and the fitting errors. Show the data in a format that allows readers to assess the statistical significance of each Φ-value.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical treatment
+  - **Claim pointer** The authors state that "one to three values outside the standard error are to be expected statistically" when discussing the single mutant (R302G) with a slightly higher k_on than its alanine counterpart.
+  - **Evidence pointer** Discussion section "Fishing for fly-casting"
+  - **Concern** The statistical argument is vague. The authors do not specify what distribution or test they are referring to, how many total comparisons were made, or what the expected rate of false positives would be. The statement appears to be a post-hoc justification rather than a pre-specified statistical analysis. A more rigorous approach would involve multiple testing correction or a formal test for whether the R302G k_on enhancement is significant.
+  - **Why it matters** The fly-casting negative result is an important claim. If the R302G enhancement is dismissed based on an informal statistical argument, the reader needs to understand the basis for this dismissal. Conversely, if the enhancement is real, it could be interpreted as weak evidence for fly-casting.
+  - **Resolution test** Provide a formal statistical analysis, such as a t-test or ANOVA with appropriate multiple testing correction, comparing k_on values across all mutants. Report the number of comparisons, the correction method, and the resulting p-values. Alternatively, provide confidence intervals for the k_on ratios.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of outlier
+  - **Claim pointer** The manuscript identifies K309 as an outlier with a Φ-value of 0.7 ± 0.4 and states that this residue is "largely helical in the unbound state" based on NMR data.
+  - **Evidence pointer** Results section "The transition state is characterised by low Φ values"; Figure 5A, 5B; Figure 1C
+  - **Concern** The interpretation of the K309 outlier is underdeveloped. If K309 is already largely helical in the unbound state, then a high Φ-value at this position may not indicate transition state structure but rather reflect that the residue is structured in both unbound and bound states. The authors do not discuss this alternative interpretation. Additionally, the large uncertainty on the Φ-value (0.7 ± 0.4) makes the distinction from the other low Φ-values potentially not significant.
+  - **Why it matters** The K309 outlier is used to support the idea that folding propagates from the zipper outward. If the high Φ-value is simply a consequence of pre-existing structure, this interpretation is weakened. The distinction between "structure in the unbound state" and "structure acquired at the transition state" is central to the manuscript's conclusions.
+  - **Resolution test** Provide a more detailed analysis of the K309 position, including the SSP value in the unbound state, the Φ-value with a proper confidence interval, and a discussion of whether the high Φ-value reflects transition state structure or pre-existing structure. Consider whether the Φ-value should be corrected for the pre-existing helicity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency
+  - **Claim pointer** The manuscript states that the transition state "strongly resembles that of the unbound state" and that "dimerisation apparently propagates additional helical propensity into the basic region."
+  - **Evidence pointer** Abstract; Results section "The basic region is disordered but displays limited residual helical propensity"; Figure 1C
+  - **Concern** The NMR data show that the basic region in the dimeric bZIP has increased SSP values compared to the monomeric basic region, with a graded decrease with distance from the zipper. This indicates that dimerisation itself induces helical structure in the basic region. If the unbound state (the dimer) already has significant helical propensity in the basic region, then the statement that the transition state "resembles the unbound state" may be less informative. The authors need to clarify whether the relevant unbound state for the Φ-value analysis is the dimeric bZIP (which has propagated helicity) or the monomeric basic region.
+  - **Why it matters** The interpretation of the Φ-values depends on which state is considered the "unbound" reference. If the dimer already has substantial helicity in the basic region, then the low Φ-values may simply reflect that the transition state is similar to the dimeric unbound state, which is a different conclusion from saying the transition state is unstructured.
+  - **Resolution test** Clarify the reference state for the Φ-value analysis. Discuss how the propagated helicity in the dimeric unbound state affects the interpretation of the Φ-values. Consider whether the Φ-values should be interpreted as reporting on the folding of the basic region from the dimeric state to the bound state.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Φ-value analysis"
+  - **Evidence pointer** Methods section "Φ-value analysis"
+  - **Issue** The equation for Φ-value calculation is incomplete in the text. The variables are defined but the full equation is not shown.
+  - **Required correction** Provide the complete equation for Φ-value calculation, including the definitions of all terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Mutation modulates k_off rather than k_on"
+  - **Evidence pointer** Figure 4A, 4B; Supplementary Table 1
+  - **Issue** The text describes effects on k_off and k_on but does not provide the actual values in the text. The reader must refer to the supplementary table.
+  - **Required correction** Include key rate constants in the text or in a main-text table for accessibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Wild-type CREB bZIP associates rapidly with CRE DNA"
+  - **Evidence pointer** Figure 2B, 2C
+  - **Issue** The uncertainties on k_on and k_off are not reported in the text.
+  - **Required correction** Report the uncertainties on all reported rate constants.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section "Fishing for fly-casting"
+  - **Evidence pointer** Discussion section "Fishing for fly-casting"
+  - **Issue** The discussion of fly-casting is somewhat speculative in the final paragraphs, particularly regarding the balance between transition state effects and electrostatic effects. The authors could be more concise.
+  - **Required correction** Consider tightening the discussion to focus on the direct implications of the results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Circular dichroism"
+  - **Evidence pointer** Methods section "Circular dichroism"
+  - **Issue** The CD measurements are described, but the analysis method for estimating fractional helicity is not detailed.
+  - **Required correction** Provide details on how fractional helicity was calculated from CD data.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "The basic region is disordered but displays limited residual helical propensity"
+  - **Evidence pointer** Figure 1C, 1D
+  - **Issue** The description of the SSP data is clear, but the relationship between SSP values and the "graded" decrease with distance from the zipper could be quantified.
+  - **Required correction** Consider reporting the slope of the SSP decrease or a correlation coefficient.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of numerical data for the Φ-values and rate constants in the main text. The central claim cannot be fully evaluated without these data. The statistical treatment of the R302G k_on observation is informal and needs to be formalised. The interpretation of the K309 outlier requires more careful consideration of pre-existing structure.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of Φ-value analysis to a protein-DNA interaction is novel, and the negative result for fly-casting is an original contribution. However, the finding of an early transition state is consistent with previous studies on IDP-protein interactions.
+  - Scientific importance: The work addresses a fundamental question in the coupled folding and binding field and provides a direct experimental test of a prominent hypothesis. The results have implications for understanding transcription factor DNA recognition.
+  - Interdisciplinary readership: The work will appeal to biophysicists, biochemists, and molecular biologists. The methods and concepts are accessible to these communities.
+  - Technical soundness: The experimental design is sound, and the methods are appropriate. However, the lack of numerical data presentation and the informal statistical treatment are weaknesses.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible. The concepts are explained clearly, though some familiarity with Φ-value analysis is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claim is plausible and the experimental approach is appropriate, but the manuscript needs to present the numerical data and address the statistical and interpretive concerns before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the transition state "strongly resembles" the unbound state is supported by the described results but cannot be fully verified without the numerical Φ-values and their uncertainties.
+- The claim that "dimerisation apparently propagates additional helical propensity into the basic region" is supported by the NMR data described, but the quantitative details are not shown.
+- The claim that no fly-casting rate enhancement is observed is supported by the described results, but the statistical basis for dismissing the R302G observation is not rigorous.
+- The statement that "one to three values outside the standard error are to be expected statistically" is unsupported without specifying the statistical framework.
+- The interpretation of the K309 outlier as indicating folding initiation from the zipper is speculative and not fully supported by the presented data.

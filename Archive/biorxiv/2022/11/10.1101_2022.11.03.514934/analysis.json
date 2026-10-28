@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.03.514934",
+  "title": "ASCARIS: Positional Feature Annotation and Protein Structure-Based Representation of Single Amino Acid Variations",
+  "authors": "Cankara F; Doğan T",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-04",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 5,
+  "one_liner_zh": "提出ASCARIS方法，利用序列位置注释和蛋白质结构特征（含DNA结合位点）对单氨基酸变异进行定量表征，用于变异效应预测，虽涉及DNA结合位点但非TF-DNA互作核心，方法可迁移至蛋白-DNA界面建模。",
+  "abstract": "<h4>Motivation</h4> Genomic variations may cause deleterious effects on protein functionality and perturb biological processes. Elucidating the effects of variations is critical for developing novel treatment strategies for diseases of genetic origin. Computational approaches have been aiding the work in this field by modeling and analyzing the mutational landscape. However, new approaches are required, especially for accurate and comprehensive representation and data-centric analysis of sequence variations. <h4>Results</h4> In this study, we propose ASCARIS (Annotation and StruCture-bAsed RepresentatIon of Single amino acid variations - SAVs), a method for the featurization (i.e., quantitative representation) of SAVs, which could be used for a variety of purposes, such as predicting their functional effects or building multi-omics-based integrative models. In ASCARIS representations, we incorporated the correspondence between the location of the SAV on the sequence and 30 different types of positional feature annotations (e.g., active/lipidation/glycosylation sites; calcium/metal/DNA binding, inter/transmembrane regions, etc.) from UniProt, along with structural features such as protein domains, the location of variation (e.g., core/interface/surface), and the change in physico-chemical properties using models from PDB and AlphaFold-DB. We also mapped the mutated and annotated residues to the 3-D plane and calculated the spatial distances between them in order to account for the functional changes caused by variations in positions close to the functionally essential ones. Finally, we constructed a 74-dimensional feature set to represent each SAV in a dataset composed of ∼100,000 data points. We statistically analyzed the relationship between each of these features and the consequences of variations, and found that each of them carries information in this regard. To investigate potential applications of ASCARIS, we trained variant effect predictor models that utilize our SAV representations as input. We carried out both an ablation study and a comparison against the state-of-the-art methods over well-known benchmark datasets. We observed that our method displays a competing performance against widely-used predictors. Also, our predictions were complementary to these methods which is probably due to fact that ASCARIS has a rather unique focus in modeling variations. ASCARIS can be used either alone or in combination with other approaches, to universally represent SAVs from a functional perspective. <h4>Availability and implementation</h4> The source code, datasets, results, and user instructions of ASCARIS are available at https://github.com/HUBioDataLab/ASCARIS .",
+  "abstract_zh": "<h4>动机</h4> 基因组变异可能对蛋白质功能产生有害影响，并扰乱生物过程。阐明变异的影响对于开发遗传性疾病的新型治疗策略至关重要。计算方法通过建模和分析突变景观，一直在辅助该领域的工作。然而，仍需要新方法，特别是对于序列变异的准确、全面表示和以数据为中心的分析。<h4>结果</h4> 在本研究中，我们提出了ASCARIS（单氨基酸变异的注释和基于结构的表示），一种用于SAVs特征化（即定量表示）的方法，可用于多种目的，如预测其功能效应或构建基于多组学的整合模型。在ASCARIS表示中，我们整合了SAV在序列上的位置与来自UniProt的30种不同类型的位置特征注释（例如，活性/脂化/糖基化位点；钙/金属/DNA结合、跨膜/膜内区域等）之间的对应关系，以及结构特征，如蛋白质结构域、变异位置（例如，核心/界面/表面），以及使用PDB和AlphaFold-DB模型计算的物理化学性质变化。我们还将突变和注释残基映射到三维平面，并计算它们之间的空间距离，以考虑靠近功能必需位置的变异引起的功能变化。最后，我们构建了一个74维特征集，用于表示由约100,000个数据点组成的数据集中的每个SAV。我们统计分析了每个特征与变异后果之间的关系，发现每个特征都携带相关信息。为了探索ASCARIS的潜在应用，我们训练了利用我们的SAV表示作为输入的变异效应预测模型。我们进行了消融研究，并在知名基准数据集上与最先进方法进行了比较。我们观察到，我们的方法在与广泛使用的预测器相比时表现出竞争性性能。此外，我们的预测与这些方法互补，这可能是由于ASCARIS在建模变异方面具有相当独特的重点。ASCARIS可以单独使用，也可以与其他方法结合使用，从功能角度普遍表示SAVs。<h4>可用性和实现</h4> ASCARIS的源代码、数据集、结果和用户说明可在 https://github.com/HUBioDataLab/ASCARIS 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.03.514934",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.03.514934",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.03.514934/index.html"
+}

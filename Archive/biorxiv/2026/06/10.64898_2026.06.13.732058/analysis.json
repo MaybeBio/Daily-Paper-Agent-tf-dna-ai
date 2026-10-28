@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.13.732058",
+  "title": "ProtAff: Protein Binding Affinity Prediction via LoRA-Finetuned ESM-2",
+  "authors": "Lee-Shin Chu; Jeff Vogt; Michael Chungyoun; Jeffrey J. Gray",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-13",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用LoRA微调ESM-2预测蛋白质-蛋白质结合亲和力，虽非TF-DNA体系，但序列级亲和力建模与跨注意力方法可迁移至TF-DNA结合位点预测与亲和力排序，具有方法借鉴价值。",
+  "abstract": "Predicting the binding affinity of protein–protein interactions remains a central challenge in computational biology. Structure prediction models such as AlphaFold3 (AF3) and Boltz-2 can produce high-quality docking poses, and their confidence scores indicate structure quality, but these same scores fail to rank binding affinity among confirmed binders. Here we present ProtAff, a sequence-only affinity prediction model built on ESM-2 (650M parameters) with low-rank adaptation (LoRA) fine-tuning and a cross-attention module. ProtAff is trained using a margin ranking loss on 362,567 affinity measurements spanning 20 heterogeneous data sources, and we removed all training samples whose target sequence exceeds 50% similarity to the test target EGFR. On the AdaptyvBio EGFR benchmark ( N =55), ProtAff achieves a Spearman correlation coefficient ρ = 0.413, outperforming the best AF3 metric ( ρ = 0.054), the best Boltz-2 metric ( ρ = −0.046), and ML-based predictors MINT ( ρ = 0.242) and CrossAffinity ( ρ = 0.216). Applied to the AdaptyvBio Nipah virus binder design competition, a pipeline incorporating ProtAff for affinity ranking produced a design with K D = 0.132 nM (2 of 5 designs confirmed binding), a 2.8-fold improvement over the competition winner. On a cross-target discrimination benchmark of 91 VHH–antigen crystal structures, ProtAff underperforms structural methods for distinguishing cognate from non-cognate pairings, indicating that sequence-based affinity models are effective for within-target ranking but not for cross-target specificity.",
+  "abstract_zh": "预测蛋白质-蛋白质相互作用的结合亲和力仍是计算生物学中的一个核心挑战。结构预测模型如AlphaFold3 (AF3)和Boltz-2能够生成高质量的对接构象，其置信度分数指示结构质量，但这些分数在已确认结合物中无法对结合亲和力进行排序。在此，我们提出ProtAff，一种仅基于序列的亲和力预测模型，构建于ESM-2（650M参数）之上，采用低秩适应（LoRA）微调和交叉注意力模块。ProtAff使用边际排序损失在跨越20个异构数据源的362,567个亲和力测量值上进行训练，并且我们移除了所有目标序列与测试目标EGFR相似度超过50%的训练样本。在AdaptyvBio EGFR基准测试（N = 55）上，ProtAff实现了Spearman相关系数ρ = 0.413，优于最佳AF3指标（ρ = 0.054）、最佳Boltz-2指标（ρ = −0.046）以及基于机器学习的预测器MINT（ρ = 0.242）和CrossAffinity（ρ = 0.216）。应用于AdaptyvBio尼帕病毒结合物设计竞赛时，结合ProtAff进行亲和力排序的流程产生了一个K_D = 0.132 nM的设计（5个设计中2个确认结合），比竞赛获胜者提高了2.8倍。在包含91个VHH-抗原晶体结构的跨靶标判别基准测试中，ProtAff在区分同源与非同源配对方面不如结构方法，表明基于序列的亲和力模型在靶标内排序中有效，但在跨靶标特异性方面表现不佳。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732058",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732058",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.13.732058/index.html"
+}

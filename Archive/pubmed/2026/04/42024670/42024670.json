@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "42024670",
+    "doi": "10.1371/journal.pone.0347845",
+    "title": "Biomarkers of mitochondrial dynamics in idiopathic pulmonary fibrosis: Identification and validation through transcriptomic and single-cell analyses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Idiopathic pulmonary fibrosis (IPF) is a progressive fibrotic lung disease that has increasingly been associated with dysregulated mitochondrial quality control and dynamics. However, the molecular mechanisms underlying these alterations remain incompletely understood. This study aimed to systematically identify and validate candidate biomarkers related to mitochondrial dynamics in IPF and to characterize their cell-type specificity and putative regulatory relationships. METHODS: We integrated bulk transcriptomic datasets from the Gene Expression Omnibus (GEO), single-cell RNA sequencing (scRNA-seq) data, and literature-derived mitochondrial dynamics gene sets. Candidate genes were identified through differential expression analysis and consensus clustering, followed by functional enrichment and protein-protein interaction (PPI) network analyses. A total of 101 machine-learning model combinations-including random forest, LASSO, and support vector machine-were constructed to select optimal feature genes. Diagnostic performance was assessed using receiver operating characteristic (ROC) analysis and further evaluated with artificial neural network (ANN) modeling. Additional analyses included chromosomal localization, immune infiltration profiling, multilayer regulatory network construction (transcription factors, lncRNAs, circRNAs), molecular docking prediction, and single-cell expression and pseudotime trajectory analysis. Key biomarkers were further evaluated by RT-qPCR in an independent clinical cohort. RESULTS: Integrated multi-omics and machine-learning analyses identified CD247, IL7R, and RETN as candidate biomarkers related to mitochondrial dynamics-associated pathways in IPF. Across independent transcriptomic datasets, RETN was upregulated, whereas CD247 and IL7R were downregulated, and each showed diagnostic value (single-gene AUC > 0.7). The ANN model based on these genes achieved encouraging discriminative performance (training AUC = 0.91; validation AUC = 0.82), and expression differences were confirmed by RT-qPCR in a modest independent cohort. Enrichment analyses indicated convergence on spliceosome-related pathways, and regulatory-network analysis highlighted interactions involving transcription factors and non-coding RNAs, including circRNA CDR1as. Molecular docking suggested putative interactions with selected compounds. Single-cell analyses suggested that dysregulation was most evident in monocyte-associated compartments in one publicly available scRNA-seq dataset, and pseudotime analysis indicated dynamic expression patterns, with early transient increases in CD247 and IL7R and progressive elevation of RETN. CONCLUSION: Through multi-omics integration and machine-learning approaches, we identified and preliminarily validated CD247, IL7R, and RETN as candidate biomarkers related to mitochondrial dynamics-associated pathways in IPF. These findings provide transcriptomic and cell-type-specific evidence suggesting potential immune-mitochondrial associations in IPF and may inform future biomarker validation and mechanistic hypothesis generation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Idiopathic Pulmonary Fibrosis/genetics/metabolism/pathology",
+      "Biomarkers/metabolism",
+      "*Mitochondrial Dynamics/genetics",
+      "Single-Cell Analysis/methods",
+      "*Transcriptome",
+      "Gene Expression Profiling",
+      "Protein Interaction Maps",
+      "Single-Cell Gene Expression Analysis",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yongbin",
+        "Cheng, Peng",
+        "Meng, Zixiang",
+        "Zhang, Ying",
+        "Li, Yan",
+        "Feng, Feifei"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Cheng P",
+        "Meng Z",
+        "Zhang Y",
+        "Li Y",
+        "Feng F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2168-1533"
+      ],
+      "affiliations": [
+        "The Second Qilu Hospital of Shandong University, Jinan, China.",
+        "The Second Qilu Hospital of Shandong University, Jinan, China.",
+        "The Second Qilu Hospital of Shandong University, Jinan, China.",
+        "Shandong University, Cheeloo College of Medicine, Second Clinical College, Jinan, China.",
+        "The Second Qilu Hospital of Shandong University, Jinan, China.",
+        "The Second Qilu Hospital of Shandong University, Jinan, China.",
+        "The Second Qilu Hospital of Shandong University, Jinan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yongbin",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Peng",
+        "short_name": "Cheng P",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Zixiang",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Qilu Hospital of Shandong University, Jinan, China.",
+          "Shandong University, Cheeloo College of Medicine, Second Clinical College, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Feifei",
+        "short_name": "Feng F",
+        "identifiers": [
+          "0000-0002-2168-1533"
+        ],
+        "affiliations": [
+          "The Second Qilu Hospital of Shandong University, Jinan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/23 18:34",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39519222",
+      "39367123",
+      "39269547",
+      "39169372",
+      "38940711",
+      "38909206",
+      "38906140",
+      "38717443",
+      "38609879",
+      "38462601",
+      "38346921",
+      "38340166",
+      "38263193",
+      "38238834",
+      "38004032",
+      "37827697",
+      "37694283",
+      "37661226",
+      "37625268",
+      "37051233",
+      "37004067",
+      "36793719",
+      "36655999",
+      "36578501",
+      "36397950",
+      "36340034",
+      "36135912",
+      "35983984",
+      "35914450",
+      "35453536",
+      "35388926",
+      "35303175",
+      "35264973",
+      "35157765",
+      "34880861",
+      "34714588",
+      "34604240",
+      "34200784",
+      "34062119",
+      "33746960",
+      "33633746",
+      "33359599",
+      "33149752",
+      "32983095",
+      "32953786",
+      "32907876",
+      "32523116",
+      "31935372",
+      "31190886",
+      "30202956",
+      "30050539",
+      "30030364",
+      "29515456",
+      "29332538",
+      "28435295",
+      "25811207",
+      "25605792",
+      "24723426",
+      "24658644",
+      "24123702",
+      "22455463"
+    ],
+    "similar": [
+      "42024670",
+      "42642681",
+      "41388523",
+      "39991151",
+      "41438766",
+      "41939867",
+      "40273141",
+      "42509823",
+      "41955235",
+      "42233387",
+      "42074286",
+      "41739808",
+      "42123445",
+      "42265520",
+      "40665394",
+      "39289672",
+      "42566402",
+      "42631563",
+      "42435052",
+      "41562054",
+      "41221285",
+      "42565562",
+      "42306043",
+      "42001075",
+      "42471019",
+      "42612073",
+      "42568110",
+      "42429909",
+      "42059276",
+      "42088521",
+      "41706425",
+      "42708302",
+      "41192648",
+      "42486346",
+      "42730994",
+      "42533188",
+      "40369105",
+      "41905994",
+      "42569390",
+      "41369928",
+      "42326009",
+      "41611834",
+      "37924392",
+      "41254784",
+      "40969769",
+      "37559532",
+      "41436831",
+      "41033661",
+      "42098867",
+      "42292364",
+      "42694321",
+      "40557159",
+      "39340293",
+      "41733593",
+      "41924281",
+      "41200169",
+      "41764494",
+      "40670650",
+      "42074521",
+      "40483519",
+      "41299729",
+      "42352882",
+      "41836445",
+      "40711603",
+      "40630963",
+      "41291841",
+      "39139563",
+      "42579704",
+      "41415264",
+      "42694191",
+      "41422136",
+      "39923303",
+      "42074514",
+      "42040898",
+      "39261509",
+      "40764361",
+      "41107929",
+      "41601671",
+      "40552285",
+      "34285914",
+      "42391245",
+      "42358997",
+      "40570466",
+      "40532306",
+      "41424060",
+      "40406126",
+      "42530267",
+      "42196408",
+      "42706545",
+      "42741539",
+      "41858783",
+      "42718792",
+      "41200172",
+      "41703488",
+      "41632363",
+      "42025819",
+      "42288692",
+      "42292668",
+      "41688827",
+      "42404897"
+    ],
+    "review": [
+      "42024670"
+    ],
+    "pmc": [
+      "13105346"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0347845",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42024670/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

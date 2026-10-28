@@ -1,0 +1,480 @@
+{
+  "identity": {
+    "pmid": "37794518",
+    "doi": "10.1186/s40001-023-01291-4",
+    "title": "Resveratrol: a potential medication for the prevention and treatment of varicella zoster virus-induced ischemic stroke."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Infection rate of varicella zoster virus (VZV) is 95% in humans, and VZV infection is strongly associated with ischemic stroke (IS). However, the underlying molecular mechanisms of VZV-induced IS are still unclear, and there are no effective agents to treat and prevent VZV-induced IS. OBJECTIVE: By integrating bioinformatics, this study explored the interactions between VZV and IS and potential medication to treat and prevent VZV-induced IS. METHODS: In this study, the VZV and IS datasets from the GEO database were used to specify the common genes. Then, bioinformatics analysis including Gene Ontology, Kyoto Encyclopedia Genes Genomes and Protein-Protein Interaction network analysis was performed. Further, the hub genes, transcription factor (TF) gene interactions, TF-miRNA co-regulatory network and potential drug were obtained. Finally, validation was performed using molecular docking and molecular dynamics simulations. RESULTS: The potential molecular mechanisms of VZV-induced IS were studied using multiple bioinformatics tools. Ten hub genes were COL1A2, DCN, PDGFRB, ACTA2, etc. TF genes and miRNAs included JUN, FOS, CREB, BRCA1, PPARG, STAT3, miR-29, etc. A series of mechanism may be involved, such as inflammation, oxidative stress, blood-brain barrier disruption, foam cell generation and among others. Finally, we proposed resveratrol as a potential therapeutic medicine for the prevention and treatment of VZV-induced IS. Molecular docking and molecular dynamics results showed that resveratrol and hub genes exhibited strong binding score. CONCLUSIONS: Resveratrol could be an alternative for the prevention and treatment of VZV-IS. More in vivo and in vitro studies are needed in the future to fully explore the molecular mechanisms between VZV and IS and for medication development.",
+    "keywords": [
+      "Atherosclerosis",
+      "Blood-brain barrier",
+      "Ischemic stroke",
+      "Resveratrol",
+      "Varicella zoster virus"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Herpesvirus 3, Human/genetics",
+      "*Herpes Zoster/drug therapy/prevention & control",
+      "Resveratrol/pharmacology/therapeutic use",
+      "*Ischemic Stroke/etiology/genetics",
+      "Molecular Docking Simulation",
+      "*MicroRNAs",
+      "Collagen Type I"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xu",
+        "Chen, Hao",
+        "Song, Feiyu",
+        "Zuo, Kuiyang",
+        "Chen, Xin",
+        "Zhang, Xu",
+        "Liang, Lanqian",
+        "Ta, Qiyi",
+        "Zhang, Lin",
+        "Li, Jinhua"
+      ],
+      "short_names": [
+        "Wang X",
+        "Chen H",
+        "Song F",
+        "Zuo K",
+        "Chen X",
+        "Zhang X",
+        "Liang L",
+        "Ta Q",
+        "Zhang L",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0085-9168"
+      ],
+      "affiliations": [
+        "School of Public Health, Jilin University, Changchun, 130021, Jilin, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, Jilin, China.",
+        "Department of Neurovascular Surgery, First Hospital of Jilin University, Changchun, 130021, Jilin, China.",
+        "Jilin Connell Pharmaceutical Co., Ltd, JilinJilin, 132013, China.",
+        "School of Public Health, Jilin University, Changchun, 130021, Jilin, China.",
+        "School of Public Health, Jilin University, Changchun, 130021, Jilin, China.",
+        "School of Public Health, Jilin University, Changchun, 130021, Jilin, China.",
+        "School of Public Health, Jilin University, Changchun, 130021, Jilin, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, Jilin, China.",
+        "China-Japan Union Hospital of Jilin University, Changchun, 130021, Jilin, China. zl607418@jlu.edu.cn.",
+        "School of Public Health, Jilin University, Changchun, 130021, Jilin, China. jinhua1@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Jilin University, Changchun, 130021, Jilin, China.",
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hao",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurovascular Surgery, First Hospital of Jilin University, Changchun, 130021, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Song, Feiyu",
+        "short_name": "Song F",
+        "identifiers": [],
+        "affiliations": [
+          "Jilin Connell Pharmaceutical Co., Ltd, JilinJilin, 132013, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Kuiyang",
+        "short_name": "Zuo K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Jilin University, Changchun, 130021, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Jilin University, Changchun, 130021, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Jilin University, Changchun, 130021, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Lanqian",
+        "short_name": "Liang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Jilin University, Changchun, 130021, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Ta, Qiyi",
+        "short_name": "Ta Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "China-Japan Union Hospital of Jilin University, Changchun, 130021, Jilin, China. zl607418@jlu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Jinhua",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-0085-9168"
+        ],
+        "affiliations": [
+          "School of Public Health, Jilin University, Changchun, 130021, Jilin, China. jinhua1@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2023 Oct 5",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/05 01:00",
+    "fetched_at": "2026-09-29 08:16:30"
+  },
+  "links": {
+    "cites": [
+      "41835474",
+      "41559432",
+      "41472261"
+    ],
+    "refs": [
+      "36314275",
+      "36180911",
+      "36169237",
+      "35897101",
+      "35755227",
+      "35688114",
+      "35632591",
+      "35275391",
+      "35093629",
+      "34987407",
+      "34975502",
+      "34759019",
+      "34679650",
+      "34555897",
+      "34355546",
+      "34153340",
+      "34079439",
+      "33777677",
+      "33723986",
+      "33368088",
+      "33325098",
+      "33259590",
+      "33248299",
+      "33237311",
+      "33135223",
+      "33104690",
+      "32882229",
+      "32859747",
+      "32606265",
+      "32586214",
+      "32291752",
+      "32245298",
+      "32116766",
+      "32046974",
+      "31992061",
+      "31768660",
+      "31633826",
+      "31526567",
+      "31356925",
+      "31290457",
+      "31218562",
+      "31140018",
+      "31106366",
+      "30944313",
+      "30931480",
+      "30626291",
+      "30450911",
+      "30392831",
+      "30359089",
+      "30300893",
+      "30247600",
+      "30142970",
+      "30138777",
+      "30014904",
+      "29884780",
+      "29718510",
+      "29158532",
+      "29067736",
+      "28940711",
+      "28654725",
+      "28039338",
+      "27924051",
+      "27561653",
+      "27339669",
+      "27318135",
+      "27311482",
+      "27184615",
+      "27138380",
+      "26947597",
+      "26889234",
+      "26750127",
+      "26738445",
+      "26700933",
+      "26631602",
+      "26574453",
+      "26443282",
+      "26400175",
+      "26221020",
+      "25521941",
+      "25448605",
+      "25445538",
+      "25330860",
+      "24882067",
+      "24741067",
+      "24694235",
+      "24653579",
+      "24235264",
+      "23820004",
+      "23758534",
+      "23509351",
+      "23082218",
+      "23036172",
+      "23026977",
+      "22423039",
+      "22265826",
+      "22179002",
+      "21640096",
+      "21261655",
+      "21261651",
+      "20682044",
+      "20200348",
+      "20157789",
+      "19635502",
+      "19426706",
+      "19409525",
+      "18689572",
+      "18410585",
+      "18047255",
+      "17601679",
+      "17321345",
+      "17075212",
+      "16899306",
+      "16873728",
+      "16716487",
+      "16679526",
+      "16244368",
+      "16211538",
+      "15864101",
+      "15686494",
+      "14638383",
+      "12643884",
+      "11121805",
+      "9812322",
+      "9769300",
+      "9704602",
+      "9218511",
+      "8870696"
+    ],
+    "similar": [
+      "37794518",
+      "29337163",
+      "29021397",
+      "35275391",
+      "32295909",
+      "27138380",
+      "27440893",
+      "26085158",
+      "23886000",
+      "29563288",
+      "32600274",
+      "17939892",
+      "27795423",
+      "35632586",
+      "30247600",
+      "8809466",
+      "31679866",
+      "31092579",
+      "28356523",
+      "30691086",
+      "35133008",
+      "25419615",
+      "24635924",
+      "33259590",
+      "21488333",
+      "16098235",
+      "31140131",
+      "36291136",
+      "24318541",
+      "14719363",
+      "21072536",
+      "31962166",
+      "25211583",
+      "33390495",
+      "37286085",
+      "23233938",
+      "35754275",
+      "28335992",
+      "1666447",
+      "29743372",
+      "11495809",
+      "37026945",
+      "27256096",
+      "28944968",
+      "6330228",
+      "21699441",
+      "24467176",
+      "31462576",
+      "31888503",
+      "9745221",
+      "36128930",
+      "29029120",
+      "37287975",
+      "29409017",
+      "24461566",
+      "9163025",
+      "12498673",
+      "30102958",
+      "27188665",
+      "25784732",
+      "36797590",
+      "34666108",
+      "29896666",
+      "30827737",
+      "6315766",
+      "19041065",
+      "20473790",
+      "25453570",
+      "28637759",
+      "20874010",
+      "12606072",
+      "7718215",
+      "12491156",
+      "33358593",
+      "27795427",
+      "35931613",
+      "32585426",
+      "9607081",
+      "18260757",
+      "15523199",
+      "33417703",
+      "26873382",
+      "24008377",
+      "22857823",
+      "12938208",
+      "18428135",
+      "34609490",
+      "23217613",
+      "32125664",
+      "37481958"
+    ],
+    "review": [
+      "37794518",
+      "27138380",
+      "23886000",
+      "35632586",
+      "8809466",
+      "30691086",
+      "25419615",
+      "33259590",
+      "21488333",
+      "16098235",
+      "14719363",
+      "23233938",
+      "28335992",
+      "1666447",
+      "11495809",
+      "21699441",
+      "36128930",
+      "24461566",
+      "9163025",
+      "27188665",
+      "36797590",
+      "29896666",
+      "20473790",
+      "25453570",
+      "20874010",
+      "7718215",
+      "12491156",
+      "35931613",
+      "15523199",
+      "26873382",
+      "24008377",
+      "22857823"
+    ],
+    "pmc": [
+      "10552394"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-023-01291-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/shingles.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Shingles"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37794518/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37794518",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

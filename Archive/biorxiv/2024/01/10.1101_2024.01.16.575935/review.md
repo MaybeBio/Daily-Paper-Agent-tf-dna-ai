@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, declarations) as provided by the author. No supplementary files, figures, or tables were supplied.
+- **Assessment boundary** Scientific claims, methodological soundness, experimental design, and reporting quality as inferable from the provided text. Statistical details, figure contents, and table values were not available for independent verification.
+- **Shared manuscript claim summary** The authors propose a multi-modal deep learning framework (EPBD-BERT) that integrates DNA breathing dynamics features, computed via the pyDNA-EPBD model, with DNABERT2 sequence representations through a cross-attention mechanism. They claim improved transcription factor binding site prediction across in vivo (ChIP-seq, 690 TF-binding events) and in vitro (HT-SELEX, gcPBM) datasets, with up to 9.6% AUROC improvement over a DNABERT2-finetuned baseline, and demonstrate motif discovery capabilities via cross-attention weights.
+- **Visible evidence base** Textual descriptions of methods, dataset construction, hyperparameter optimization, and results. References to Figures 1–10 and Tables 1–5, the contents of which were not provided.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, model architecture diagrams, detailed hyperparameter configurations, statistical significance tests, baseline implementation details, and the actual numerical results. The absence of these materials prevents independent verification of the central claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational genomics, namely the integration of biophysical DNA features with large language models for TF binding prediction. The core idea, using DNA breathing dynamics as a complementary modality to sequence embeddings, is conceptually interesting and potentially useful. However, the manuscript as presented has substantial reporting gaps that preclude a rigorous evaluation of the method's validity, novelty, and generalizability. Key experimental details, statistical analyses, and baseline comparisons are either missing or described at a level of abstraction that makes reproduction or verification impossible. The claims of improvement, while plausible, are not substantiated by the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, specifically those developing deep learning models for TF binding site prediction, variant effect prediction, and motif discovery. Researchers interested in multi-modal integration strategies for genomic sequence analysis and those exploring the utility of DNA biophysical properties in machine learning frameworks would also find the approach relevant.
+- **Major strengths** The problem is well-motivated, with clear relevance to understanding non-coding variants and gene regulation. The use of DNA breathing dynamics, a physically grounded feature set, is a distinctive angle that differentiates this work from purely sequence-based approaches. The evaluation across both in vivo and in vitro datasets is a commendable effort to demonstrate generalizability. The inclusion of an ablation study, at least in design, shows an attempt to isolate the contribution of the cross-attention mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and reproducibility
+  - **Claim pointer** The manuscript claims that the proposed model "significantly improves prediction performance in over 660 binding events, with up to 9.6% increase in AUROC metric compared to the baseline model."
+  - **Evidence pointer** Results and Discussions section, Table 2, Figure 4 (contents not provided)
+  - **Concern** The central performance claim is presented without the necessary statistical context. No confidence intervals, standard deviations across multiple runs, or significance tests (e.g., paired t-test, Wilcoxon signed-rank test) are reported for the AUROC/AUPR comparisons. The claim of "significant" improvement is therefore not supported by the evidence provided. Furthermore, the baseline (DNABERT2-finetuned) is described only as "a variant of the original DNABERT2, fine-tuned to adapt to the specific nuances of our dataset," which is insufficient to understand the baseline's capacity or training procedure. Without a rigorous statistical comparison and a clearly defined baseline, the magnitude and reliability of the reported improvement cannot be assessed.
+  - **Why it matters** The primary contribution of the paper is the claimed performance gain from integrating biophysical features. If this gain is not statistically robust or is an artifact of a weak baseline, the core value proposition of the method is undermined. Reproducibility and rigorous comparison are foundational requirements for computational biology papers.
+  - **Resolution test** Provide the full distribution of performance metrics (e.g., mean and standard deviation over at least 3 independent training runs) for both the proposed model and all baselines. Report the results of a paired statistical test (e.g., Wilcoxon signed-rank test across the 690 TF-binding events) comparing the proposed model to the DNABERT2-finetuned baseline. Provide a detailed description of the baseline's architecture, training data, and hyperparameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and completeness of methods
+  - **Claim pointer** The manuscript describes a multi-modal architecture with three modules: DNABERT2 for sequence features, a CNN for EPBD features, and a cross-attention mechanism for fusion.
+  - **Evidence pointer** Materials and Methods, Module-1, Module-2, Module-3, Figure 3 (not provided)
+  - **Concern** The description of the model architecture is critically incomplete. Key details are missing: the output dimension d of DNABERT2, the exact architecture of the CNN used for EPBD features (number of layers, kernel sizes, stride, padding), the specific implementation of the self-attention and cross-attention mechanisms (number of heads, key/query/value dimensions, whether it is multi-head), the structure of the positionwise feedforward network (hidden layer size), and the final classification layer's architecture. The tokenization process for DNABERT2 is not described (e.g., k-mer length, stride). The text states "x1 and represented in a multi-dimensional space" without specifying the dimension. This level of detail is insufficient for replication.
+  - **Why it matters** A computational method paper must provide a complete and unambiguous description of the model to be reproducible. The current description is a high-level sketch that omits critical implementation details, making it impossible for another research group to re-implement the method and verify the results.
+  - **Resolution test** Provide a complete architectural specification, including a table or figure detailing each layer, its dimensions, and hyperparameters. Include the tokenization scheme, the exact output dimensions of each module, and the full configuration of the attention mechanisms. Release the training code to facilitate replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and validity of the evaluation
+  - **Claim pointer** The manuscript claims that the model's performance is evaluated on in vivo ChIP-seq data (690 TF-binding events) and in vitro data (HT-SELEX, gcPBM), and that the model "performs on par with the TBiNT" and "outperforms others."
+  - **Evidence pointer** Results and Discussions, Tables 2 and 4, Figures 4 and 10 (contents not provided)
+  - **Concern** The evaluation protocol is not described with sufficient detail. For the ChIP-seq data, the manuscript states that the test set is derived from chromosomes 8 and 9, but the exact number of test samples, the class balance, and the procedure for generating positive and negative examples are not specified. For the in vitro datasets, the regression task is described, but the specific train/test split, the cross-validation procedure (beyond "10-fold"), and the metrics used (R², MSE) are mentioned without the actual values or the number of folds used for hyperparameter selection. The comparison with "established frameworks" (TBiNet, DanQ, DeepSEA) is mentioned, but the implementation details of these baselines (e.g., whether they were retrained on the same data, or results were taken from literature) are not provided. This ambiguity makes it impossible to assess the fairness of the comparison.
+  - **Why it matters** A rigorous and clearly described evaluation protocol is essential for validating the claims of improved performance. Without knowing the exact data splits, sample sizes, and baseline training procedures, the reported results could be due to data leakage, an unfairly weak baseline, or an overly easy test set.
+  - **Resolution test** Provide a detailed description of the data preprocessing, including the exact number of positive and negative samples for each TF-binding event, the criteria for defining a binding site, and the generation of negative examples. Describe the train/validation/test split for all datasets. For each baseline, specify whether it was retrained on the same data and provide the source of the baseline results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The manuscript claims that the integration of DNA breathing dynamics with a sequence transformer via cross-attention is a novel contribution that provides "greater predictive capabilities and insights into the mechanisms of disease-related non-coding variants."
+  - **Evidence pointer** Introduction, Results and Discussions, Motif Discovery section
+  - **Concern** While the combination of these specific components may be new, the manuscript does not clearly articulate the novelty relative to existing multi-modal approaches in the field. Several prior works have integrated DNA structural features (e.g., shape, stability) with deep learning models. The manuscript does not discuss these works in sufficient depth to establish what is genuinely new about the proposed architecture or the specific contribution of the cross-attention mechanism over simpler fusion methods. The claim of "insights into disease-related variants" is not substantiated by any specific analysis or example in the provided text.
+  - **Why it matters** For a paper to be of high impact, it must clearly demonstrate a novel contribution that advances the state of the art. If the method is an incremental combination of existing ideas, its significance is diminished. The lack of a clear novelty statement and a discussion of related multi-modal approaches weakens the paper's positioning.
+  - **Resolution test** Expand the introduction and discussion to explicitly compare the proposed method with prior multi-modal approaches (e.g., those using DNA shape, stability, or other biophysical features). Provide a specific analysis or case study demonstrating how the cross-attention mechanism provides new biological insights, particularly regarding disease-related variants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of reporting
+  - **Affected element** Dataset description
+  - **Evidence pointer** Materials and Methods, TF-DNA binding affinity dataset
+  - **Issue** The description of the in vitro datasets is incomplete. The source of the HT-SELEX data is mentioned (ENA: PRJEB14744), but the specific version or download date is not provided. The gcPBM dataset is described as containing 23,028 sequences, but the source of this data is not cited.
+  - **Required correction** Provide complete citations for all datasets used, including the specific version and download date. Clarify the source of the gcPBM data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Introduction
+  - **Issue** The sentence "Much of this interest are due to the over 98% of the human genome is non-coding, the function of which is not very well-defined" contains a grammatical error ("interest are") and is awkwardly phrased.
+  - **Required correction** Revise the sentence for grammatical correctness and clarity, e.g., "Much of this interest is due to the fact that over 98% of the human genome is non-coding, the function of which is not well-defined."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Results and Discussions, Breathing dynamics (BDs) improve in vivo human TF-DNA binding prediction
+  - **Evidence pointer** Results and Discussions
+  - **Issue** The text states "This results in AUROC and AUPR scores along 690 the TF-DNA binding events." The phrase "along 690 the" is grammatically incorrect and should be "along the 690 TF-DNA binding events."
+  - **Required correction** Correct the grammatical error.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Materials and Methods, Hyperparameters optimization
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The hyperparameter optimization section mentions "more then 500 models" were trained, but the total computational cost (e.g., GPU hours) and the hardware used are not reported.
+  - **Required correction** Report the computational resources used for training and hyperparameter optimization to give readers a sense of the method's feasibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Results and Discussions, Motif Discovery
+  - **Evidence pointer** Results and Discussions
+  - **Issue** The description of the motif discovery process is dense and difficult to follow. The criteria for defining a "high-quality" motif, the specific statistical test used, and the threshold for merging similar motifs are described in a single paragraph without clear structure.
+  - **Required correction** Break the motif discovery description into clear steps with subheadings or a numbered list. Provide a clear definition of all statistical thresholds used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical validation), R1-M2 (incomplete model description), R1-M3 (incomplete evaluation protocol). These are the primary technical issues that must be resolved. The absence of figures and tables is a critical failing that prevents any assessment of the actual results.
+- **Assessment against Nature-style criteria**
+  - **Originality** The combination of DNA breathing dynamics with a transformer model via cross-attention is a specific architectural choice that may be novel, but the manuscript does not adequately differentiate it from prior multi-modal approaches in the field. The originality claim is therefore not fully established.
+  - **Scientific importance** The problem of TF binding site prediction is of high importance. However, the manuscript does not demonstrate a significant advance over the state of the art, as the reported improvements are not statistically validated and the comparison with existing methods is not rigorously described. The potential importance of the work is therefore not yet demonstrated.
+  - **Interdisciplinary readership** The topic is of interest to computational biologists, bioinformaticians, and potentially molecular biologists. However, the manuscript is written in a way that assumes significant familiarity with deep learning architectures and genomic data formats, which may limit its accessibility to a broader biological audience.
+  - **Technical soundness** The technical soundness cannot be assessed from the provided text. The model architecture is incompletely described, the evaluation protocol is underspecified, and the results are not presented. The manuscript, in its current form, is not technically sound as a standalone paper.
+  - **Readability for nonspecialists** The abstract is reasonably clear, but the methods and results sections are dense and contain jargon that would be challenging for a nonspecialist. The lack of figures and tables makes the results section particularly difficult to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the core idea is interesting, but the lack of statistical validation, incomplete methodological description, and missing results prevent a positive recommendation. The authors should be encouraged to resubmit a revised version that addresses the major concerns, particularly the statistical rigor of the evaluation and the completeness of the model description.
+
+## Risk / unsupported claims
+- The claim of "significant" improvement in prediction performance is unsupported without statistical tests.
+- The claim that the model provides "insights into the mechanisms of disease-related non-coding variants" is not substantiated by any specific analysis in the provided text.
+- The claim that the model "performs on par with the TBiNT" is unverifiable without the actual results and a description of the baseline implementation.
+- The claim that the model demonstrates "efficacy of the breathing dynamics over sequence alone information" in in vitro datasets is unsupported without the actual R² values and a description of the statistical significance of the differences.
+- The claim of "transfer learning capabilities, demonstrated through training and testing across various cell types" is mentioned in the introduction but not elaborated on in the results section, making it unverifiable.

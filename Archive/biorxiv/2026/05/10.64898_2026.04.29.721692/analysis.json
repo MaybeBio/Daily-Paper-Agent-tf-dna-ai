@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.29.721692",
+  "title": "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory",
+  "authors": "Yuexu Jiang; Duolin Wang; Ibrahim A. Imam; Dong Xu; Qing Shao",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-04",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出动力学感知蛋白语言模型DPLM，通过对比学习对齐序列与MD轨迹嵌入，虽非直接研究TF-DNA互作，但其动态特性建模方法可迁移至蛋白-DNA结合机制研究。",
+  "abstract": "Protein dynamics play a critical role in protein function, yet such important information is missing in many protein language models (PLM). We introduce DPLM, a dynamics-aware protein language model that aligns sequence embeddings with molecular dynamics (MD) trajectory embeddings via contrastive learning. Using MD features encoded by a pretrained video model, DPLM learns sequence representations that correlate with residue-level flexibility and improve protein-level functional clustering compared to static sequence- and structure-based PLMs. Without task-specific training, DPLM outperforms ESM-based representations in zero-shot mutation-effect prediction on multiple deep mutational scanning datasets. When adapted with lightweight task-specific heads, DPLM further achieves top-tier performance on protein stability prediction and intrinsic disorder region identification, demon-strating that contrastive alignment with MD trajectories enables PLMs to capture biologically meaningful dynamic properties.",
+  "abstract_zh": "蛋白质动力学在蛋白质功能中扮演关键角色，然而在许多蛋白质语言模型（PLM）中，这一重要信息却缺失。我们引入了DPLM，一种动力学感知的蛋白质语言模型，通过对比学习将序列嵌入与分子动力学（MD）轨迹嵌入对齐。利用预训练视频模型编码的MD特征，DPLM学习到的序列表示与残基级灵活性相关，并在蛋白质级功能聚类上优于基于静态序列和结构的PLM。无需任务特定训练，DPLM在多个深度突变扫描数据集上的零样本突变效应预测中优于基于ESM的表示。当适配轻量级任务特定头时，DPLM在蛋白质稳定性预测和内在无序区域识别上进一步达到顶级性能，表明与MD轨迹的对比对齐使PLM能够捕捉生物学上有意义的动态特性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721692",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721692",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.29.721692/index.html"
+}

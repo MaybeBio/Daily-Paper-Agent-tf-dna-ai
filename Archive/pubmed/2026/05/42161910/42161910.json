@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "42161910",
+    "doi": "10.1038/s41467-026-73143-8",
+    "title": "Interpretable deep learning framework for mapping E3-substrate binding interfaces."
+  },
+  "content": {
+    "abstract": "E3 ubiquitin ligases recognize substrates through specific interfaces. Accurate delineation of these interfaces is essential, as mutations disrupting them impair protein ubiquitination and drive cancer progression. However, available E3-substrate interface data are sparse and systematic prediction methods remain lacking. Here, we propose MetaESI, a deep learning framework that simultaneously predicts E3-substrate interactions and leverages its interpretable architecture to infer binding interfaces de novo. With a two-stage meta-learning strategy, MetaESI generalizes across diverse E3s and achieves state-of-the-art performance in both interaction and interface prediction. We applied MetaESI at the proteome scale to generate MetaESI-Atlas, which comprises 68,056 annotated interactions across eight species. Integrating multi-omics data, we identified mutations at MetaESI-predicted interfaces that disrupt E3-substrate binding, and experimentally validated representative examples including JunB Q244E and SPOP F102C as oncogenic drivers. By combining interpretable AI with mechanistic insight, MetaESI establishes a methodological paradigm for interpretable model design and a foundational resource for precision oncology and targeted protein degradation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Ubiquitin-Protein Ligases/metabolism/genetics/chemistry",
+      "Protein Binding",
+      "Humans",
+      "Animals",
+      "Ubiquitination",
+      "Mutation",
+      "Substrate Specificity",
+      "Repressor Proteins/metabolism/genetics",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Dianke",
+        "Zhang, Yuting",
+        "Liu, Yuan",
+        "Zhang, Zihao",
+        "Qu, Yingjie",
+        "Li, Jiajun",
+        "Jiang, Linyang",
+        "Diao, Lihong",
+        "Zhang, Ziding",
+        "Zhang, Lingqiang",
+        "Cui, Chun-Ping",
+        "Li, Dong"
+      ],
+      "short_names": [
+        "Li D",
+        "Zhang Y",
+        "Liu Y",
+        "Zhang Z",
+        "Qu Y",
+        "Li J",
+        "Jiang L",
+        "Diao L",
+        "Zhang Z",
+        "Zhang L",
+        "Cui CP",
+        "Li D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9580-3292",
+        "ORCID: 0000-0002-2866-4904",
+        "ORCID: 0009-0009-7142-3071",
+        "ORCID: 0000-0002-9296-571X",
+        "ORCID: 0000-0002-9795-2141",
+        "ORCID: 0000-0003-0251-3259",
+        "ORCID: 0000-0002-8680-0468"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China.",
+        "Laboratory of Biological Networks, Beijing Proteome Research Center, Beijing, China.",
+        "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China.",
+        "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China.",
+        "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China.",
+        "Laboratory of Biological Networks, Beijing Proteome Research Center, Beijing, China.",
+        "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China.",
+        "Laboratory of Biological Networks, Beijing Proteome Research Center, Beijing, China.",
+        "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China. zidingzhang@cau.edu.cn.",
+        "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China. zhanglq@nic.bmi.ac.cn.",
+        "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China. cui_chunping2000@aliyun.com.",
+        "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China. lidong.bprc@foxmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Dianke",
+        "short_name": "Li D",
+        "identifiers": [
+          "0000-0001-9580-3292"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+          "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China.",
+          "Laboratory of Biological Networks, Beijing Proteome Research Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuting",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuan",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-2866-4904"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zihao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Yingjie",
+        "short_name": "Qu Y",
+        "identifiers": [
+          "0009-0009-7142-3071"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China.",
+          "Laboratory of Biological Networks, Beijing Proteome Research Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiajun",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Linyang",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Diao, Lihong",
+        "short_name": "Diao L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China.",
+          "Laboratory of Biological Networks, Beijing Proteome Research Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziding",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0002-9296-571X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, China. zidingzhang@cau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lingqiang",
+        "short_name": "Zhang L",
+        "identifiers": [
+          "0000-0002-9795-2141"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China. zhanglq@nic.bmi.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Cui, Chun-Ping",
+        "short_name": "Cui CP",
+        "identifiers": [
+          "0000-0003-0251-3259"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China. cui_chunping2000@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Li, Dong",
+        "short_name": "Li D",
+        "identifiers": [
+          "0000-0002-8680-0468"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, National Center for Protein Sciences (Beijing), Academy of Military Medical Sciences, Beijing, China. lidong.bprc@foxmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 May 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/21 05:33",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40659789",
+      "39810024",
+      "39663494",
+      "39468210",
+      "39167052",
+      "39122941",
+      "38917788",
+      "38806474",
+      "38718835",
+      "38701343",
+      "38684868",
+      "37962385",
+      "37871132",
+      "37582357",
+      "37072397",
+      "36927031",
+      "36841846",
+      "36682013",
+      "36192604",
+      "35900023",
+      "35637310",
+      "35121836",
+      "34669962",
+      "34552244",
+      "34223192",
+      "33798439",
+      "33558758",
+      "33326750",
+      "33237311",
+      "32778778",
+      "32461654",
+      "31510705",
+      "31363082",
+      "31026449",
+      "30733602",
+      "29279382",
+      "29242641",
+      "28839186",
+      "28292960",
+      "27485899",
+      "27112209",
+      "26392535",
+      "24972168",
+      "24622521",
+      "24532726",
+      "24071849",
+      "23747746",
+      "23550210",
+      "22739505",
+      "21908540",
+      "21734724",
+      "21685363",
+      "20179076",
+      "19818708",
+      "18793152",
+      "18410248",
+      "17546660",
+      "17434132",
+      "17360525",
+      "16723005",
+      "16496021",
+      "12556466",
+      "9377713"
+    ],
+    "similar": [
+      "42161910",
+      "39919746",
+      "35836176",
+      "22149024",
+      "22889411",
+      "41951160",
+      "42226266",
+      "35037020",
+      "19818708",
+      "23999291",
+      "25707307",
+      "23734257",
+      "34353330",
+      "28599312",
+      "39062881",
+      "29858610",
+      "33693667",
+      "36733699",
+      "28839186",
+      "34663215",
+      "26851277",
+      "33762355",
+      "26818115",
+      "27249653",
+      "41449181",
+      "19712108",
+      "21863490",
+      "39548056",
+      "39396041",
+      "28786561",
+      "40472843",
+      "41917018",
+      "42220438",
+      "25278611",
+      "35139152",
+      "19648119",
+      "31610939",
+      "17433363",
+      "16365295",
+      "28802844",
+      "22199232",
+      "25766326",
+      "33683364",
+      "16250895",
+      "35320687",
+      "24474696",
+      "38806474",
+      "41419192",
+      "40234692",
+      "31776466",
+      "33905682",
+      "28455558",
+      "34767800",
+      "23184937",
+      "20083119",
+      "28470758",
+      "41932313",
+      "25301376",
+      "37162909",
+      "21825151",
+      "41635150",
+      "40120724",
+      "19489725",
+      "35821048",
+      "22493164",
+      "22632832",
+      "38514884",
+      "32733036",
+      "30244836",
+      "41532714",
+      "30242699",
+      "34647674",
+      "31901237",
+      "25078903",
+      "33082525",
+      "31771591",
+      "32855237",
+      "24124579",
+      "28375744",
+      "27485899",
+      "23349464",
+      "40178506",
+      "29643511",
+      "22134927",
+      "24990631",
+      "19240029",
+      "23695783",
+      "39972349",
+      "32783951",
+      "22576094",
+      "39670824",
+      "34399052",
+      "20007713",
+      "40662822",
+      "8550577",
+      "40521202",
+      "29121065",
+      "41707797",
+      "23806657",
+      "23936628"
+    ],
+    "review": [
+      "42161910",
+      "41951160",
+      "42226266",
+      "29858610",
+      "26851277",
+      "19712108",
+      "42220438",
+      "31610939",
+      "16250895",
+      "35320687",
+      "28455558",
+      "40120724",
+      "19489725",
+      "31901237",
+      "28375744",
+      "27485899",
+      "39670824",
+      "40521202",
+      "41707797"
+    ],
+    "pmc": [
+      "13381678"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-73143-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42161910/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

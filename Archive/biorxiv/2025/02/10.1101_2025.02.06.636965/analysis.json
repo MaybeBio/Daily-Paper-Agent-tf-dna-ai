@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.06.636965",
+  "title": "Kinase-Inhibitor Binding Affinity Prediction with Pretrained Graph Encoder and Language Model",
+  "authors": "Xudong Guo; Zixu Ran; Fuyi Li",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-08",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该文预测激酶-抑制剂结合亲和力，对象为蛋白质-小分子互作，非蛋白质-DNA体系，且无TF-DNA结合建模，与本课题无关。",
+  "abstract": "Motivation The accurate prediction of inhibitor-kinase binding affinity is crucial in drug discovery and medical applications, especially in the treatment of diseases such as cancer. Existing methods for predicting inhibitor-kinase affinity still face challenges including insufficient data expression, limited feature extraction, and low performance. Despite the progress made through artificial intelligence (AI) methods, especially deep learning technology, many current methods fail to capture the intricate interactions between kinases and inhibitors. Therefore, it is necessary to develop more advanced methods to solve the existing problems in inhibitor-kinase binding prediction. Results This study proposed Kinhibit, a novel framework for inhibitor-kinase binding affinity predictor. Kinhibit integrates self-supervised pre-trained molecular encoders and protein language models (ESM-S) to extract features effectively. Kinhibit also employed a feature fusion approach to optimize the fusion of inhibitor and kinase features. Experimental results demonstrate the superiority of this method, achieving an accuracy of 92.6% in inhibitor prediction tasks of three MAPK signaling pathway kinases: Raf protein kinase (RAF), Mitogen-activated protein kinase kinase (MEK), and Extracellular Signal-Regulated Kinase (ERK). Furthermore, the framework achieves an impressive accuracy of 93.4% on a dataset containing over 200 kinases. This study provides promising and effective tools for drug screening and biological sciences.",
+  "abstract_zh": "动机 抑制剂与激酶结合亲和力的准确预测在药物发现和医学应用中至关重要，尤其是在癌症等疾病的治疗中。现有的抑制剂-激酶亲和力预测方法仍面临数据表达不足、特征提取有限和性能低下等挑战。尽管通过人工智能（AI）方法，特别是深度学习技术取得了进展，但许多现有方法未能捕捉激酶与抑制剂之间的复杂相互作用。因此，有必要开发更先进的方法来解决抑制剂-激酶结合预测中存在的问题。结果 本研究提出了Kinhibit，一种用于抑制剂-激酶结合亲和力预测的新型框架。Kinhibit整合了自监督预训练分子编码器和蛋白质语言模型（ESM-S），以有效提取特征。Kinhibit还采用了特征融合方法，以优化抑制剂和激酶特征的融合。实验结果表明，该方法具有优越性，在三种MAPK信号通路激酶——Raf蛋白激酶（RAF）、丝裂原活化蛋白激酶激酶（MEK）和细胞外信号调节激酶（ERK）——的抑制剂预测任务中，准确率达到92.6%。此外，该框架在包含超过200种激酶的数据集上实现了93.4%的显著准确率。本研究为药物筛选和生物科学提供了有前景且有效的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.06.636965",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.06.636965",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.06.636965/index.html"
+}

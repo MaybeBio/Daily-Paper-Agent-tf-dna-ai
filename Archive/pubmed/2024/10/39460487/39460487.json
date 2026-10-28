@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "39460487",
+    "doi": "10.1002/smll.202406475",
+    "title": "Profiling Breast Tumor Heterogeneity and Identifying Breast Cancer Subtypes Through Tumor-Associated Immune Cell Signatures and Immuno Nano Sensors."
+  },
+  "content": {
+    "abstract": "Breast cancer is a complex and heterogeneous disease with varying cellular, genetic, epigenetic, and molecular expressions. The detection of intratumor heterogeneity in breast cancer poses significant challenges due to its complex multifaceted characteristics, yet its identification is crucial for guiding effective treatment decisions and understanding the disease progression. Currently, there exists no method capable of capturing the full extent of breast tumor heterogeneity. In this study, the aim is to identify and characterize metabolic heterogeneity in breast tumors using immune cells and an ultrafast laser-fabricated Immuno Nano Sensor. Combining spectral markers from both Natural Killer (NK) and T cells, a machine-learning approach is implemented to distinguish cancer from healthy samples, identify primary versus metastatic tumors, and determine estrogen receptor (ER)/progesterone receptor (PR) status at the single-cell level. The platform successfully distinguished heterogeneous breast cancer samples from healthy individuals, achieving 97.8% sensitivity and 92.2% specificity, and accurately identified primary tumors from metastatic tumors. Characteristic spectral signatures allow for discrimination between ER/PR-positive and negative tumors with 97.5% sensitivity. This study demonstrates the potential of immune cell-based metabolic profiling in providing a comprehensive assessment of breast tumor heterogeneity and paving the way for minimally invasive liquid biopsy approaches in breast cancer diagnosis and management.",
+    "keywords": [
+      "SERS",
+      "breast tumor heterogeneity",
+      "immune cells",
+      "liquid biopsy",
+      "nanosensor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/diagnosis/pathology/immunology",
+      "Female",
+      "Receptors, Estrogen/metabolism",
+      "Biosensing Techniques/methods",
+      "Killer Cells, Natural/immunology/metabolism",
+      "Nanotechnology/methods",
+      "Receptors, Progesterone/metabolism",
+      "T-Lymphocytes/immunology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ishwar, Deeptha",
+        "Premachandran, Srilakshmi",
+        "Das, Sunit",
+        "Venkatakrishnan, Krishnan",
+        "Tan, Bo"
+      ],
+      "short_names": [
+        "Ishwar D",
+        "Premachandran S",
+        "Das S",
+        "Venkatakrishnan K",
+        "Tan B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8141-4819"
+      ],
+      "affiliations": [
+        "Faculty of Dentistry, Department of Stomatology, University of Montreal, Montreal, Quebec, H3T 1J4, Canada.",
+        "Institute for Biomedical Engineering, Science and Technology (I BEST), Partnership between Toronto Metropolitan University and St. Michael's Hospital, Toronto, Ontario, M5B 1W8, Canada.",
+        "Ultrashort Laser Nanomanufacturing Research Facility, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, ON, M5B 2K3, Canada.",
+        "Nano Characterization Laboratory, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, Ontario, M5B 2K3, Canada.",
+        "Nano-Bio Interface facility, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, ON, M5B 2K3, Canada.",
+        "Department of Surgery, Division of Neurosurgery, University of Toronto, 30 Bond Street, Toronto, M5B1W8, Canada.",
+        "Institute for Biomedical Engineering, Science and Technology (I BEST), Partnership between Toronto Metropolitan University and St. Michael's Hospital, Toronto, Ontario, M5B 1W8, Canada.",
+        "Ultrashort Laser Nanomanufacturing Research Facility, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, ON, M5B 2K3, Canada.",
+        "Nano-Bio Interface facility, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, ON, M5B 2K3, Canada.",
+        "Keenan Research Center for Biomedical Science, Unity Health Toronto, Toronto, Ontario, M5B 1W8, Canada.",
+        "Institute for Biomedical Engineering, Science and Technology (I BEST), Partnership between Toronto Metropolitan University and St. Michael's Hospital, Toronto, Ontario, M5B 1W8, Canada.",
+        "Nano Characterization Laboratory, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, Ontario, M5B 2K3, Canada.",
+        "Keenan Research Center for Biomedical Science, Unity Health Toronto, Toronto, Ontario, M5B 1W8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ishwar, Deeptha",
+        "short_name": "Ishwar D",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Dentistry, Department of Stomatology, University of Montreal, Montreal, Quebec, H3T 1J4, Canada."
+        ]
+      },
+      {
+        "full_name": "Premachandran, Srilakshmi",
+        "short_name": "Premachandran S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedical Engineering, Science and Technology (I BEST), Partnership between Toronto Metropolitan University and St. Michael's Hospital, Toronto, Ontario, M5B 1W8, Canada.",
+          "Ultrashort Laser Nanomanufacturing Research Facility, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, ON, M5B 2K3, Canada.",
+          "Nano Characterization Laboratory, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, Ontario, M5B 2K3, Canada.",
+          "Nano-Bio Interface facility, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, ON, M5B 2K3, Canada."
+        ]
+      },
+      {
+        "full_name": "Das, Sunit",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Division of Neurosurgery, University of Toronto, 30 Bond Street, Toronto, M5B1W8, Canada."
+        ]
+      },
+      {
+        "full_name": "Venkatakrishnan, Krishnan",
+        "short_name": "Venkatakrishnan K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedical Engineering, Science and Technology (I BEST), Partnership between Toronto Metropolitan University and St. Michael's Hospital, Toronto, Ontario, M5B 1W8, Canada.",
+          "Ultrashort Laser Nanomanufacturing Research Facility, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, ON, M5B 2K3, Canada.",
+          "Nano-Bio Interface facility, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, ON, M5B 2K3, Canada.",
+          "Keenan Research Center for Biomedical Science, Unity Health Toronto, Toronto, Ontario, M5B 1W8, Canada."
+        ]
+      },
+      {
+        "full_name": "Tan, Bo",
+        "short_name": "Tan B",
+        "identifiers": [
+          "0000-0001-8141-4819"
+        ],
+        "affiliations": [
+          "Institute for Biomedical Engineering, Science and Technology (I BEST), Partnership between Toronto Metropolitan University and St. Michael's Hospital, Toronto, Ontario, M5B 1W8, Canada.",
+          "Nano Characterization Laboratory, Faculty of Engineering and Architectural Sciences, Toronto Metropolitan University, 350 Victoria Street, Toronto, Ontario, M5B 2K3, Canada.",
+          "Keenan Research Center for Biomedical Science, Unity Health Toronto, Toronto, Ontario, M5B 1W8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Small"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/26 19:24",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42677038",
+      "42627480",
+      "41920379",
+      "41234888",
+      "40892107",
+      "40861477",
+      "40772765",
+      "40521566"
+    ],
+    "refs": [
+      "37553427",
+      "35862229",
+      "33691103",
+      "33125860",
+      "32934330",
+      "32822573",
+      "32821652",
+      "32640218",
+      "32503922",
+      "32298374",
+      "31456181",
+      "30597841",
+      "29276709",
+      "29092952",
+      "28810142",
+      "28666921",
+      "28475283",
+      "28474673",
+      "28187291",
+      "27960589",
+      "27829133",
+      "27184417",
+      "26363055",
+      "26311728",
+      "24306257",
+      "24145215",
+      "23955661",
+      "23828443",
+      "23345327",
+      "21965334",
+      "20661281",
+      "19629084",
+      "18425107",
+      "16239327",
+      "10447727",
+      "9870029",
+      "2305024",
+      "326386"
+    ],
+    "similar": [
+      "39460487",
+      "27349894",
+      "27456970",
+      "38766488",
+      "39955556",
+      "22821401",
+      "29278880",
+      "35711896",
+      "40821783",
+      "34922607",
+      "18098228",
+      "33585986",
+      "38713229",
+      "40597935",
+      "19432961",
+      "22022496",
+      "25927181",
+      "37127079",
+      "23701942",
+      "39985907",
+      "15770528",
+      "23645624",
+      "27666130",
+      "40341568",
+      "21191117",
+      "28474673",
+      "19875955",
+      "18631401",
+      "35816089",
+      "25613123",
+      "34673584",
+      "30916428",
+      "11678803",
+      "37672851",
+      "21399893",
+      "30060358",
+      "25736840",
+      "23271326",
+      "28724391",
+      "19256737",
+      "34464510",
+      "22045649",
+      "32592349",
+      "32493230",
+      "35916549",
+      "22370627",
+      "15563544",
+      "25880075",
+      "22290394",
+      "41394809",
+      "23810747",
+      "19272155",
+      "12046611",
+      "40147847",
+      "19764994",
+      "40831385",
+      "33889251",
+      "25475897",
+      "23240985",
+      "33022450",
+      "31899528",
+      "31959092",
+      "21159569",
+      "27619909",
+      "34244306",
+      "41731833",
+      "27315045",
+      "26138872",
+      "40102028",
+      "21225455",
+      "22524806",
+      "23098526",
+      "40963050",
+      "35699854",
+      "34257555",
+      "17764112",
+      "23479421",
+      "27221883",
+      "40936892",
+      "38615482",
+      "41757801",
+      "38822357",
+      "24652232",
+      "23723333",
+      "21852249",
+      "23040002",
+      "27743431",
+      "22495453",
+      "24337596",
+      "23971947",
+      "12090423",
+      "20368555",
+      "26266985",
+      "22711854",
+      "25234844",
+      "26687919",
+      "22843935",
+      "39351744",
+      "21823123",
+      "41137194"
+    ],
+    "review": [
+      "39460487",
+      "37672851"
+    ],
+    "pmc": [
+      "11673452"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39460487/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/smll.202406475",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

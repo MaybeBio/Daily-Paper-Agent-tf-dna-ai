@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36494794",
+  "title": "Detecting clusters of transcription factors based on a nonhomogeneous poisson process model.",
+  "authors": "Wu, Xiaowei; Liu, Shicheng; Liang, Guanying",
+  "journal": "BMC bioinformatics",
+  "published_date": "2022-12-11",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于非齐次泊松过程聚类ChIP-seq数据检测转录因子共结合簇，虽涉及TF-DNA结合位点分析，但缺乏三维互作建模与AI/物理模拟方法，仅属统计聚类应用。",
+  "abstract": "BACKGROUND: Rapidly growing genome-wide ChIP-seq data have provided unprecedented opportunities to explore transcription factor (TF) binding under various cellular conditions. Despite the rich resources, development of analytical methods for studying the interaction among TFs in gene regulation still lags behind. RESULTS: In order to address cooperative TF binding and detect TF clusters with coordinative functions, we have developed novel computational methods based on clustering the sample paths of nonhomogeneous Poisson processes. Simulation studies demonstrated the capability of these methods to accurately detect TF clusters and uncover the hierarchy of TF interactions. A further application to the multiple-TF ChIP-seq data in mouse embryonic stem cells (ESCs) showed that our methods identified the cluster of core ESC regulators reported in the literature and provided new insights on functional implications of transcrisptional regulatory modules. CONCLUSIONS: Effective analytical tools are essential for studying protein-DNA relations. Information derived from this research will help us better understand the orchestration of transcription factors in gene regulation processes.",
+  "abstract_zh": "背景：快速增长的基因组范围ChIP-seq数据为探索不同细胞条件下转录因子（TF）结合提供了前所未有的机会。尽管资源丰富，但用于研究基因调控中TF间相互作用的分析方法的发展仍滞后。结果：为了解决协同TF结合并检测具有协调功能的TF簇，我们开发了基于非齐次泊松过程样本路径聚类的新型计算方法。模拟研究证明了这些方法能够准确检测TF簇并揭示TF相互作用的层级结构。进一步应用于小鼠胚胎干细胞（ESCs）的多TF ChIP-seq数据表明，我们的方法识别了文献中报道的核心ESC调控因子簇，并为转录调控模块的功能意义提供了新见解。结论：有效的分析工具对于研究蛋白质-DNA关系至关重要。本研究获得的信息将有助于我们更好地理解转录因子在基因调控过程中的协同作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36494794/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36494794/",
+  "paper_page_path": "papers/pubmed/36494794/index.html"
+}

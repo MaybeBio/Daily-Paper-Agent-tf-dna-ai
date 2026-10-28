@@ -1,0 +1,545 @@
+{
+  "identity": {
+    "pmid": "35120576",
+    "doi": "10.1186/s13046-022-02265-w",
+    "title": "Identification of a novel gene signature predicting response to first-line chemotherapy in BRCA wild-type high-grade serous ovarian cancer patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: High-grade serous ovarian cancer (HGSOC) has poor survival rates due to a combination of diagnosis at advanced stage and disease recurrence as a result of chemotherapy resistance. In BRCA1 (Breast Cancer gene 1) - or BRCA2-wild type (BRCAwt) HGSOC patients, resistance and progressive disease occur earlier and more often than in mutated BRCA. Identification of biomarkers helpful in predicting response to first-line chemotherapy is a challenge to improve BRCAwt HGSOC management. METHODS: To identify a gene signature that can predict response to first-line chemotherapy, pre-treatment tumor biopsies from a restricted cohort of BRCAwt HGSOC patients were profiled by RNA sequencing (RNA-Seq) technology. Patients were sub-grouped according to platinum-free interval (PFI), into sensitive (PFI > 12 months) and resistant (PFI < 6 months). The gene panel identified by RNA-seq analysis was then tested by high-throughput quantitative real-time PCR (HT RT-qPCR) in a validation cohort, and statistical/bioinformatic methods were used to identify eligible markers and to explore the relevant pathway/gene network enrichments of the identified gene set. Finally, a panel of primary HGSOC cell lines was exploited to uncover cell-autonomous mechanisms of resistance. RESULTS: RNA-seq identified a 42-gene panel discriminating sensitive and resistant BRCAwt HGSOC patients and pathway analysis pointed to the immune system as a possible driver of chemotherapy response. From the extended cohort analysis of the 42 DEGs (differentially expressed genes), a statistical approach combined with the random forest classifier model generated a ten-gene signature predictive of response to first-line chemotherapy. The ten-gene signature included: CKB (Creatine kinase B), CTNNBL1 (Catenin, beta like 1), GNG11 (G protein subunit gamma 11), IGFBP7 (Insulin-like growth factor-binding protein 7), PLCG2 (Phospholipase C, gamma 2), RNF24 (Ring finger protein 24), SLC15A3 (Solute carrier family 15 member 3), TSPAN31 (Tetraspanin 31), TTI1 (TELO2 interacting protein 1) and UQCC1 (Ubiquinol-cytochrome c reductase complex assembly factor). Cytotoxicity assays, combined with gene-expression analysis in primary HGSOC cell lines, allowed to define CTNNBL1, RNF24, and TTI1 as cell-autonomous contributors to tumor resistance. CONCLUSIONS: Using machine-learning techniques we have identified a gene signature that could predict response to first-line chemotherapy in BRCAwt HGSOC patients, providing a useful tool towards personalized treatment modalities.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarkers",
+      "Drug-resistance",
+      "HGSOC",
+      "Patient stratification",
+      "Primary ovarian cancer cells",
+      "Random forest classifier model",
+      "Transcriptomic"
+    ],
+    "mesh_terms": [
+      "BRCA1 Protein/*genetics",
+      "Female",
+      "Gene Expression Profiling/*methods",
+      "Humans",
+      "Neoplasm Grading",
+      "Ovarian Neoplasms/*genetics/mortality/pathology",
+      "Retrospective Studies",
+      "Survival Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Buttarelli, Marianna",
+        "Ciucci, Alessandra",
+        "Palluzzi, Fernando",
+        "Raspaglio, Giuseppina",
+        "Marchetti, Claudia",
+        "Perrone, Emanuele",
+        "Minucci, Angelo",
+        "Giaco, Luciano",
+        "Fagotti, Anna",
+        "Scambia, Giovanni",
+        "Gallo, Daniela"
+      ],
+      "short_names": [
+        "Buttarelli M",
+        "Ciucci A",
+        "Palluzzi F",
+        "Raspaglio G",
+        "Marchetti C",
+        "Perrone E",
+        "Minucci A",
+        "Giaco L",
+        "Fagotti A",
+        "Scambia G",
+        "Gallo D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1918-1054"
+      ],
+      "affiliations": [
+        "Unita di Medicina Traslazionale per la Salute della Donna e del Bambino, Dipartimento Scienze della Salute della Donna, del Bambino e di Sanita Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Dipartimento Universitario Scienze della Vita e Sanita pubblica - Sezione di Ginecologia ed Ostetricia - Universita Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Unita di Medicina Traslazionale per la Salute della Donna e del Bambino, Dipartimento Scienze della Salute della Donna, del Bambino e di Sanita Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Dipartimento Universitario Scienze della Vita e Sanita pubblica - Sezione di Ginecologia ed Ostetricia - Universita Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Bioinformatics Facility Core Research, Gemelli Science and Technology Park (GSTeP) Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy.",
+        "Unita di Medicina Traslazionale per la Salute della Donna e del Bambino, Dipartimento Scienze della Salute della Donna, del Bambino e di Sanita Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Dipartimento Universitario Scienze della Vita e Sanita pubblica - Sezione di Ginecologia ed Ostetricia - Universita Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Dipartimento Universitario Scienze della Vita e Sanita pubblica - Sezione di Ginecologia ed Ostetricia - Universita Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Dipartimento Scienze della Salute della Donna, del Bambino e di Sanita Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy.",
+        "Dipartimento Scienze della Salute della Donna, del Bambino e di Sanita Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy.",
+        "Molecular and Genomic Diagnostics Unit (MGDUnit), Fondazione Policlinico Universitario A. Gemelli IRCCS, Roma, Italy.",
+        "Bioinformatics Facility Core Research, Gemelli Science and Technology Park (GSTeP) Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy.",
+        "Dipartimento Universitario Scienze della Vita e Sanita pubblica - Sezione di Ginecologia ed Ostetricia - Universita Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Dipartimento Scienze della Salute della Donna, del Bambino e di Sanita Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy.",
+        "Dipartimento Universitario Scienze della Vita e Sanita pubblica - Sezione di Ginecologia ed Ostetricia - Universita Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+        "Dipartimento Scienze della Salute della Donna, del Bambino e di Sanita Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy.",
+        "Unita di Medicina Traslazionale per la Salute della Donna e del Bambino, Dipartimento Scienze della Salute della Donna, del Bambino e di Sanita Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Largo A. Gemelli 8, 00168, Rome, Italy. daniela.gallo@unicatt.it.",
+        "Dipartimento Universitario Scienze della Vita e Sanita pubblica - Sezione di Ginecologia ed Ostetricia - Universita Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy. daniela.gallo@unicatt.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Buttarelli, Marianna",
+        "short_name": "Buttarelli M",
+        "identifiers": [],
+        "affiliations": [
+          "Unità di Medicina Traslazionale per la Salute della Donna e del Bambino, Dipartimento Scienze della Salute della Donna, del Bambino e di Sanità Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Largo A. Gemelli 8, 00168, Rome, Italy.",
+          "Dipartimento Universitario Scienze della Vita e Sanità pubblica - Sezione di Ginecologia ed Ostetricia - Università Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Ciucci, Alessandra",
+        "short_name": "Ciucci A",
+        "identifiers": [],
+        "affiliations": [
+          "Unità di Medicina Traslazionale per la Salute della Donna e del Bambino, Dipartimento Scienze della Salute della Donna, del Bambino e di Sanità Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Largo A. Gemelli 8, 00168, Rome, Italy.",
+          "Dipartimento Universitario Scienze della Vita e Sanità pubblica - Sezione di Ginecologia ed Ostetricia - Università Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Palluzzi, Fernando",
+        "short_name": "Palluzzi F",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Facility Core Research, Gemelli Science and Technology Park (GSTeP) Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Raspaglio, Giuseppina",
+        "short_name": "Raspaglio G",
+        "identifiers": [],
+        "affiliations": [
+          "Unità di Medicina Traslazionale per la Salute della Donna e del Bambino, Dipartimento Scienze della Salute della Donna, del Bambino e di Sanità Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Largo A. Gemelli 8, 00168, Rome, Italy.",
+          "Dipartimento Universitario Scienze della Vita e Sanità pubblica - Sezione di Ginecologia ed Ostetricia - Università Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Marchetti, Claudia",
+        "short_name": "Marchetti C",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento Universitario Scienze della Vita e Sanità pubblica - Sezione di Ginecologia ed Ostetricia - Università Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+          "Dipartimento Scienze della Salute della Donna, del Bambino e di Sanità Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Perrone, Emanuele",
+        "short_name": "Perrone E",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento Scienze della Salute della Donna, del Bambino e di Sanità Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Minucci, Angelo",
+        "short_name": "Minucci A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Genomic Diagnostics Unit (MGDUnit), Fondazione Policlinico Universitario A. Gemelli IRCCS, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Giacò, Luciano",
+        "short_name": "Giacò L",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Facility Core Research, Gemelli Science and Technology Park (GSTeP) Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Fagotti, Anna",
+        "short_name": "Fagotti A",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento Universitario Scienze della Vita e Sanità pubblica - Sezione di Ginecologia ed Ostetricia - Università Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+          "Dipartimento Scienze della Salute della Donna, del Bambino e di Sanità Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Scambia, Giovanni",
+        "short_name": "Scambia G",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento Universitario Scienze della Vita e Sanità pubblica - Sezione di Ginecologia ed Ostetricia - Università Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy.",
+          "Dipartimento Scienze della Salute della Donna, del Bambino e di Sanità Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Gallo, Daniela",
+        "short_name": "Gallo D",
+        "identifiers": [
+          "0000-0002-1918-1054"
+        ],
+        "affiliations": [
+          "Unità di Medicina Traslazionale per la Salute della Donna e del Bambino, Dipartimento Scienze della Salute della Donna, del Bambino e di Sanità Pubblica, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Largo A. Gemelli 8, 00168, Rome, Italy. daniela.gallo@unicatt.it.",
+          "Dipartimento Universitario Scienze della Vita e Sanità pubblica - Sezione di Ginecologia ed Ostetricia - Università Cattolica del Sacro Cuore, Largo A. Gemelli 8, 00168, Rome, Italy. daniela.gallo@unicatt.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2022 Feb 4",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/06 06:00",
+    "fetched_at": "2026-09-28 04:46:35"
+  },
+  "links": {
+    "cites": [
+      "41754792",
+      "41593690",
+      "41507916",
+      "41214761",
+      "40698144",
+      "40693832",
+      "40488790",
+      "40424327",
+      "40156413",
+      "39494327",
+      "39169400",
+      "38778348",
+      "38612509",
+      "38534087",
+      "38510654",
+      "38252469",
+      "37610621",
+      "37489460",
+      "37202753",
+      "37190289",
+      "36717550",
+      "36430255",
+      "36324565",
+      "36128851",
+      "35705879"
+    ],
+    "refs": [
+      "36040154",
+      "34508637",
+      "34464704",
+      "34317694",
+      "34258363",
+      "34157287",
+      "33780170",
+      "33607245",
+      "33551306",
+      "33538338",
+      "32850861",
+      "32553164",
+      "32500027",
+      "32470387",
+      "32456078",
+      "32364757",
+      "31449760",
+      "31397193",
+      "31242951",
+      "31064392",
+      "30956175",
+      "30910306",
+      "30611200",
+      "30424539",
+      "30243023",
+      "29991810",
+      "28670683",
+      "28501461",
+      "28482906",
+      "27462782",
+      "27173435",
+      "26797759",
+      "26673413",
+      "25886299",
+      "25826225",
+      "25516281",
+      "25411964",
+      "25204552",
+      "24423620",
+      "24125749",
+      "24048067",
+      "23839242",
+      "23416112",
+      "22277373",
+      "22068913",
+      "21720365",
+      "20926419",
+      "20810650",
+      "17850865",
+      "17704786",
+      "17092487",
+      "16467094",
+      "15719365",
+      "15589584",
+      "15289330",
+      "12471105",
+      "12184808",
+      "11846609",
+      "11600607",
+      "10949993",
+      "10786675",
+      "10655437",
+      "8995510",
+      "8436435",
+      "6604576",
+      "4016745"
+    ],
+    "similar": [
+      "35120576",
+      "33811746",
+      "31856408",
+      "32880016",
+      "30194194",
+      "30128899",
+      "28549976",
+      "34356119",
+      "29465506",
+      "28641578",
+      "27004793",
+      "26830315",
+      "31064392",
+      "31657627",
+      "28190312",
+      "32404140",
+      "34736492",
+      "24237932",
+      "25862976",
+      "32164626",
+      "26693899",
+      "26181259",
+      "29361470",
+      "32096871",
+      "31449760",
+      "30018258",
+      "36922847",
+      "32180586",
+      "36142803",
+      "31002564",
+      "25481791",
+      "39095849",
+      "32647134",
+      "24657486",
+      "31019161",
+      "38555285",
+      "34470661",
+      "32900500",
+      "35675036",
+      "28482906",
+      "27209210",
+      "28454659",
+      "28251557",
+      "37211773",
+      "37884970",
+      "30382883",
+      "31409614",
+      "28525846",
+      "31140829",
+      "31117198",
+      "21990299",
+      "28223274",
+      "31197119",
+      "33121525",
+      "29402501",
+      "30655615",
+      "22406760",
+      "31878941",
+      "34140011",
+      "34302857",
+      "24995581",
+      "36883413",
+      "31767542",
+      "37395023",
+      "33747898",
+      "26482043",
+      "35093146",
+      "28454085",
+      "39023520",
+      "35887085",
+      "34657357",
+      "38140698",
+      "33656647",
+      "30318511",
+      "36463238",
+      "32066851",
+      "34944094",
+      "32639993",
+      "32131779",
+      "34888242",
+      "31434988",
+      "37121054",
+      "28017893",
+      "29750868",
+      "28628421",
+      "31553234",
+      "37519793",
+      "37446361",
+      "27016230",
+      "34620496",
+      "36631150",
+      "26311224",
+      "26675546",
+      "37773310",
+      "37891662",
+      "31603993",
+      "27765068",
+      "34238352",
+      "31079832",
+      "39155781",
+      "33250051",
+      "38262243",
+      "34876569",
+      "31515669",
+      "38762636",
+      "31689861",
+      "38609993",
+      "37284741",
+      "38115318",
+      "32572264",
+      "30651275",
+      "27048682",
+      "37737967",
+      "36085390",
+      "38226451",
+      "37812492",
+      "38817863",
+      "38590858",
+      "21799864",
+      "38248100",
+      "34031395",
+      "38219610",
+      "33789687",
+      "37875466",
+      "36077825",
+      "33520368",
+      "38023247",
+      "39427186",
+      "38509903",
+      "39249551",
+      "31940494",
+      "38107255",
+      "22348002",
+      "37958311",
+      "38172678",
+      "37627071",
+      "37800580",
+      "39135097",
+      "28289945",
+      "32850397",
+      "34459128",
+      "27257824",
+      "38211842",
+      "38010623",
+      "39285269",
+      "38320250",
+      "38510654",
+      "39131380",
+      "34090257",
+      "38831884",
+      "38630822",
+      "37777759",
+      "30104763",
+      "33671478",
+      "38201534",
+      "29644000",
+      "38570491",
+      "38055801",
+      "33803586",
+      "38883738",
+      "37509311",
+      "38354856",
+      "38711848",
+      "39414761",
+      "38275400",
+      "33747935",
+      "38660159",
+      "39163092",
+      "29321820",
+      "38201508",
+      "38496424",
+      "33024871",
+      "39211073",
+      "33212885",
+      "36925689",
+      "29599910",
+      "36765633",
+      "34343245",
+      "39181893",
+      "39229105",
+      "31437751",
+      "37459116",
+      "34189438",
+      "37091227",
+      "38439970"
+    ],
+    "review": [
+      "35120576",
+      "26830315",
+      "31449760",
+      "34470661",
+      "37211773",
+      "37737967",
+      "38248100",
+      "33789687"
+    ],
+    "pmc": [
+      "8815250"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-022-02265-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35120576/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35120576",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

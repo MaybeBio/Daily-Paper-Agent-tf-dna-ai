@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "38095634",
+    "doi": "10.18632/aging.205306",
+    "title": "Single-cell dissection reveals the role of aggrephagy patterns in tumor microenvironment components aiding predicting prognosis and immunotherapy on lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lung adenocarcinoma (LUAD) is one of the leading malignant cancers. Aggrephagy plays a critical role in key genetic events for various cancers; yet, how aggrephagy functions within the tumor microenvironment (TME) in LUAD remains to be elucidated. METHODS: In this study, by sequential non-negative matrix factorization (NMF) algorithm, pseudotime analysis, cell-cell interaction analysis, and SCENIC analysis, we have shown that aggrephagy genes demonstrated various patterns among different cell types in LUAD TME. LUAD and Immunotherapy cohorts from public repository were used to determine the prognosis and immune response of aggrephagy TME subtypes. The aggrephagy-deprived prognostic score (ADPS) was quantified based on machine learning algorithms. RESULTS: The cancer-associated fibroblasts (CAFs), tumor-associated macrophages (TAMs), and CD8+ T cells have various aggrephagy patterns, which enhance the intensity of intercellular communication and transcription factor activation. Furthermore, based on the signatures of the newly defined aggrephagy cell subtypes and expression profiles of large cohorts in LUAD patients, we determine that DYNC1I2+CAF-C1, DYNLL1+CAF-C2, PARK7+CAF-C3, VIM+Mac-C1, PARK7+Mac-C2, VIM+CD8+T_cells-C1, UBA52+CD8+T_cells-C2, TUBA4A+CD8+T_ cells-C3, and TUBA1A+CD8+T_cells-C4 are crucial prognostic factors for LUAD patients. The developed ADPS could predict survival outcomes and immunotherapeutic response across ten cohorts (n = 1838), and patients with low ADPS owned a better prognosis, lower genomic alterations, and are more sensitive to immunotherapy. Meanwhile, based on PRISM, CTRP, and CMAP databases, PLK inhibitor BI-2536, may be a potential agent for patients with high ADPS. CONCLUSIONS: Taken together, our novel and systematic single-cell analysis has revealed the unique role of aggrephagy in remodeling the TME of LUAD. As a newly demonstrated biomarker, the ADPS facilitates the clinical management and individualized treatment of LUAD.",
+    "keywords": [
+      "aggrephagy",
+      "bioinformatics",
+      "lung cancer",
+      "scRNA",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Macroautophagy",
+      "Tumor Microenvironment/genetics",
+      "Prognosis",
+      "Immunotherapy",
+      "*Adenocarcinoma of Lung/genetics/therapy",
+      "*Lung Neoplasms/genetics/therapy"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Xinti",
+        "Meng, Fei",
+        "Nong, Minyu",
+        "Fang, Hao",
+        "Lu, Chenglu",
+        "Wang, Yan",
+        "Zhang, Peng"
+      ],
+      "short_names": [
+        "Sun X",
+        "Meng F",
+        "Nong M",
+        "Fang H",
+        "Lu C",
+        "Wang Y",
+        "Zhang P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China.",
+        "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China.",
+        "School of Clinical Medicine, Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China.",
+        "Department of Pathology, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China.",
+        "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China.",
+        "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Xinti",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Fei",
+        "short_name": "Meng F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Nong, Minyu",
+        "short_name": "Nong M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Hao",
+        "short_name": "Fang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Chenglu",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Tianjin Medical University General Hospital, Tianjin 300052, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2023 Dec 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/14 12:42",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "42434270",
+      "42294320",
+      "41727639",
+      "41310468",
+      "40469299",
+      "40377747",
+      "40307857",
+      "40201347",
+      "39714518",
+      "39699801",
+      "39678883",
+      "39364312",
+      "39350022",
+      "38623256"
+    ],
+    "refs": [
+      "36776843",
+      "36662371",
+      "36381320",
+      "36240777",
+      "36211448",
+      "35937942",
+      "35786294",
+      "35509079",
+      "35366418",
+      "35322234",
+      "34852236",
+      "34663877",
+      "34635121",
+      "34620200",
+      "34522178",
+      "34417225",
+      "34331874",
+      "34129825",
+      "34019793",
+      "33689692",
+      "33622705",
+      "33443027",
+      "33433946",
+      "33331338",
+      "33230458",
+      "33207226",
+      "32915499",
+      "32891189",
+      "32849527",
+      "32789496",
+      "32756072",
+      "32573845",
+      "32561888",
+      "32560574",
+      "32357493",
+      "32272148",
+      "32267786",
+      "32169218",
+      "32012902",
+      "31269428",
+      "31160394",
+      "31055200",
+      "31043417",
+      "30981885",
+      "30429548",
+      "30341162",
+      "30057419",
+      "29942094",
+      "29789497",
+      "29625051",
+      "29625050",
+      "29608179",
+      "29443960",
+      "29195078",
+      "29115304",
+      "29082918",
+      "28825705",
+      "28052254",
+      "27604827",
+      "27188576",
+      "27043002",
+      "26997480",
+      "26771021",
+      "25867923",
+      "25692950",
+      "25594174",
+      "23791878",
+      "23725295",
+      "23323831",
+      "22985211",
+      "22257669",
+      "21331359",
+      "18953035",
+      "12885235",
+      "12010457"
+    ],
+    "similar": [
+      "38095634",
+      "36811212",
+      "37179124",
+      "38279482",
+      "37334367",
+      "37325647",
+      "35140113",
+      "37583701",
+      "38515109",
+      "37492563",
+      "37796202",
+      "38390340",
+      "37507593",
+      "38685772",
+      "38965571",
+      "34497605",
+      "37878007",
+      "38597415",
+      "38596689",
+      "37974107",
+      "39148731",
+      "37081889",
+      "36712920",
+      "38507067",
+      "38147724",
+      "36483553",
+      "38265702",
+      "37259066",
+      "36032135",
+      "35668494",
+      "38847309",
+      "38771130",
+      "37553698",
+      "32278127",
+      "38935217",
+      "38653742",
+      "37378675",
+      "35152302",
+      "38745285",
+      "35741714",
+      "37604869",
+      "35720373",
+      "37624966",
+      "37231311",
+      "34354701",
+      "35273597",
+      "34539658",
+      "32471520",
+      "37437244",
+      "37220007",
+      "37545222",
+      "37256127",
+      "36238302",
+      "37131252",
+      "32700817",
+      "37091977",
+      "34686691",
+      "36505456",
+      "37369799",
+      "37865004",
+      "36726580",
+      "33783985",
+      "37671155",
+      "35582412",
+      "38977778",
+      "35509079",
+      "38217972",
+      "38186574",
+      "32714316",
+      "38292868",
+      "38575204",
+      "37263079",
+      "33387038",
+      "38017020",
+      "38281298",
+      "34887858",
+      "33188484",
+      "37972401",
+      "36054998",
+      "37033934",
+      "34527427",
+      "37077919",
+      "38221616",
+      "36733390",
+      "38361757",
+      "37033259",
+      "33949150",
+      "39238647",
+      "37534253",
+      "36119068",
+      "37265698",
+      "37799714",
+      "38949072",
+      "37680151",
+      "38243040",
+      "38958577",
+      "37671160",
+      "39263115",
+      "34648954",
+      "39273449",
+      "38601163",
+      "35620271",
+      "38454689",
+      "38601319",
+      "33098370",
+      "37592781",
+      "36809467",
+      "37400733",
+      "38879932",
+      "36503492",
+      "39145093",
+      "39034310",
+      "39075270",
+      "37638981",
+      "38484940",
+      "39347397",
+      "36263430",
+      "39411951",
+      "37848457",
+      "38682485",
+      "39217182",
+      "36498802",
+      "39331252",
+      "36336787",
+      "34024063",
+      "37944262",
+      "39117688",
+      "34632444",
+      "39090304",
+      "38948812",
+      "38451188",
+      "39335178",
+      "39036343",
+      "35978854",
+      "39397186",
+      "39043648",
+      "37989083",
+      "37425718",
+      "39080406",
+      "39209650",
+      "38983267",
+      "39277471",
+      "39261544"
+    ],
+    "review": [
+      "38095634",
+      "34024063"
+    ],
+    "pmc": [
+      "10756128"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aging-us.com/full/205306",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38095634/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38095634",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

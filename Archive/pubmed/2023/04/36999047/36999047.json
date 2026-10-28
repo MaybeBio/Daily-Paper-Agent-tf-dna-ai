@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "36999047",
+    "doi": "10.3389/fdata.2023.1113402",
+    "title": "CRMnet: A deep learning model for predicting gene expression from large regulatory sequence datasets."
+  },
+  "content": {
+    "abstract": "Recent large datasets measuring the gene expression of millions of possible gene promoter sequences provide a resource to design and train optimized deep neural network architectures to predict expression from sequences. High predictive performance due to the modeling of dependencies within and between regulatory sequences is an enabler for biological discoveries in gene regulation through model interpretation techniques. To understand the regulatory code that delineates gene expression, we have designed a novel deep-learning model (CRMnet) to predict gene expression in Saccharomyces cerevisiae. Our model outperforms the current benchmark models and achieves a Pearson correlation coefficient of 0.971 and a mean squared error of 3.200. Interpretation of informative genomic regions determined from model saliency maps, and overlapping the saliency maps with known yeast motifs, supports that our model can successfully locate the binding sites of transcription factors that actively modulate gene expression. We compare our model's training times on a large compute cluster with GPUs and Google TPUs to indicate practical training times on similar datasets.",
+    "keywords": [
+      "HPC",
+      "big data",
+      "deep learning",
+      "gene expression",
+      "genomics",
+      "yeast"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Ke",
+        "Dixit, Gunjan",
+        "Parker, Brian J",
+        "Wen, Jiayu"
+      ],
+      "short_names": [
+        "Ding K",
+        "Dixit G",
+        "Parker BJ",
+        "Wen J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Genome Science and Cancer, John Curtin School of Medical Research, Australian National University, Canberra, ACT, Australia.",
+        "Division of Genome Science and Cancer, John Curtin School of Medical Research, Australian National University, Canberra, ACT, Australia.",
+        "School of Computing and Biological Data Science Institute, Australian National University, Canberra, ACT, Australia.",
+        "Division of Genome Science and Cancer, John Curtin School of Medical Research, Australian National University, Canberra, ACT, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Ke",
+        "short_name": "Ding K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genome Science and Cancer, John Curtin School of Medical Research, Australian National University, Canberra, ACT, Australia."
+        ]
+      },
+      {
+        "full_name": "Dixit, Gunjan",
+        "short_name": "Dixit G",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genome Science and Cancer, John Curtin School of Medical Research, Australian National University, Canberra, ACT, Australia."
+        ]
+      },
+      {
+        "full_name": "Parker, Brian J",
+        "short_name": "Parker BJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing and Biological Data Science Institute, Australian National University, Canberra, ACT, Australia."
+        ]
+      },
+      {
+        "full_name": "Wen, Jiayu",
+        "short_name": "Wen J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genome Science and Cancer, John Curtin School of Medical Research, Australian National University, Canberra, ACT, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in big data"
+    ],
+    "journal_abbrev": [
+      "Front Big Data"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/01 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "41768065",
+      "40926859",
+      "40678148",
+      "40567341",
+      "40147921",
+      "39576223",
+      "38378442"
+    ],
+    "refs": [
+      "35264797",
+      "34850907",
+      "34608324",
+      "34159315",
+      "33950192",
+      "32778871",
+      "32687525",
+      "31792407",
+      "30971806",
+      "27084946",
+      "26794315",
+      "26301843",
+      "25953851",
+      "25637093",
+      "23685432",
+      "22887818",
+      "21358819",
+      "16469913"
+    ],
+    "similar": [
+      "36999047",
+      "38405704",
+      "33770526",
+      "35366794",
+      "37662358",
+      "31318408",
+      "29855387",
+      "32905524",
+      "39394483",
+      "36850816",
+      "29722865",
+      "35191481",
+      "30423062",
+      "31590652",
+      "35551345",
+      "19008939",
+      "31191597",
+      "31247542",
+      "32054475",
+      "15262804",
+      "31521253",
+      "34073774",
+      "36398911",
+      "33334313",
+      "28245811",
+      "23950146",
+      "31521047",
+      "30601980",
+      "34534646",
+      "33371891",
+      "16303796",
+      "29244011",
+      "36510125",
+      "28945593",
+      "30808287",
+      "29219068",
+      "32976105",
+      "27896980",
+      "34211503",
+      "35891778",
+      "32093611",
+      "23144830",
+      "16204087",
+      "30481453",
+      "35263332",
+      "36274691",
+      "35062026",
+      "31615113",
+      "25122849",
+      "35917309",
+      "36222139",
+      "34303169",
+      "34825056",
+      "30537954",
+      "34179082",
+      "33816929",
+      "33832990",
+      "35947255",
+      "31380152",
+      "35190950",
+      "19594885",
+      "34001319",
+      "33988840",
+      "33522898",
+      "34664074",
+      "34990359",
+      "31086055",
+      "29097404",
+      "29648582",
+      "33259518",
+      "38807713"
+    ],
+    "review": [
+      "36999047",
+      "34179082"
+    ],
+    "pmc": [
+      "10043243"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36999047/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/36999047",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36999047",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fdata.2023.1113402",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

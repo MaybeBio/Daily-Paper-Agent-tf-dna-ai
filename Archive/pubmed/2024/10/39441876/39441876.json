@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "39441876",
+    "doi": "10.1371/journal.pcbi.1011971",
+    "title": "On the identification of differentially-active transcription factors from ATAC-seq data."
+  },
+  "content": {
+    "abstract": "ATAC-seq has emerged as a rich epigenome profiling technique, and is commonly used to identify Transcription Factors (TFs) underlying given phenomena. A number of methods can be used to identify differentially-active TFs through the accessibility of their DNA-binding motif, however little is known on the best approaches for doing so. Here we benchmark several such methods using a combination of curated datasets with various forms of short-term perturbations on known TFs, as well as semi-simulations. We include both methods specifically designed for this type of data as well as some that can be repurposed for it. We also investigate variations to these methods, and identify three particularly promising approaches (a chromVAR-limma workflow with critical adjustments, monaLisa and a combination of GC smooth quantile normalization and multivariate modeling). We further investigate the specific use of nucleosome-free fragments, the combination of top methods, and the impact of technical variation. Finally, we illustrate the use of the top methods on a novel dataset to characterize the impact on DNA accessibility of TRAnscription Factor TArgeting Chimeras (TRAFTAC), which can deplete TFs-in our case NFkB-at the protein level.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "*Chromatin Immunoprecipitation Sequencing/methods",
+      "Humans",
+      "*Computational Biology/methods",
+      "Binding Sites/genetics",
+      "Sequence Analysis, DNA/methods",
+      "DNA/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gerbaldo, Felix Ezequiel",
+        "Sonder, Emanuel",
+        "Fischer, Vincent",
+        "Frei, Selina",
+        "Wang, Jiayi",
+        "Gapp, Katharina",
+        "Robinson, Mark D",
+        "Germain, Pierre-Luc"
+      ],
+      "short_names": [
+        "Gerbaldo FE",
+        "Sonder E",
+        "Fischer V",
+        "Frei S",
+        "Wang J",
+        "Gapp K",
+        "Robinson MD",
+        "Germain PL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4788-9508",
+        "ORCID: 0009-0004-6890-4732",
+        "ORCID: 0000-0003-3418-4218"
+      ],
+      "affiliations": [
+        "Computational Neurogenomics, D-HEST Institute for Neurosciences, Zurich, Switzerland.",
+        "Computational Neurogenomics, D-HEST Institute for Neurosciences, Zurich, Switzerland.",
+        "Systems Neuroscience, D-HEST Institute for Neurosciences, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "SIB Swiss Institute of Bioinformatics, University of Zurich, Switzerland.",
+        "Epigenetics and Neuroendocrinology, D-HEST Institute for Neurosciences, Zurich, Switzerland.",
+        "Epigenetics and Neuroendocrinology, D-HEST Institute for Neurosciences, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "Epigenetics and Neuroendocrinology, D-HEST Institute for Neurosciences, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "SIB Swiss Institute of Bioinformatics, University of Zurich, Switzerland.",
+        "Computational Neurogenomics, D-HEST Institute for Neurosciences, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "SIB Swiss Institute of Bioinformatics, University of Zurich, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gerbaldo, Felix Ezequiel",
+        "short_name": "Gerbaldo FE",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurogenomics, D-HEST Institute for Neurosciences, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sonder, Emanuel",
+        "short_name": "Sonder E",
+        "identifiers": [
+          "0000-0003-4788-9508"
+        ],
+        "affiliations": [
+          "Computational Neurogenomics, D-HEST Institute for Neurosciences, Zürich, Switzerland.",
+          "Systems Neuroscience, D-HEST Institute for Neurosciences, Zürich, Switzerland.",
+          "Department of Molecular Life Sciences, University of Zürich, Zürich, Switzerland.",
+          "SIB Swiss Institute of Bioinformatics, University of Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Fischer, Vincent",
+        "short_name": "Fischer V",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Neuroendocrinology, D-HEST Institute for Neurosciences, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Frei, Selina",
+        "short_name": "Frei S",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Neuroendocrinology, D-HEST Institute for Neurosciences, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiayi",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0009-0004-6890-4732"
+        ],
+        "affiliations": [
+          "Department of Molecular Life Sciences, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Gapp, Katharina",
+        "short_name": "Gapp K",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Neuroendocrinology, D-HEST Institute for Neurosciences, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Robinson, Mark D",
+        "short_name": "Robinson MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Life Sciences, University of Zürich, Zürich, Switzerland.",
+          "SIB Swiss Institute of Bioinformatics, University of Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Germain, Pierre-Luc",
+        "short_name": "Germain PL",
+        "identifiers": [
+          "0000-0003-3418-4218"
+        ],
+        "affiliations": [
+          "Computational Neurogenomics, D-HEST Institute for Neurosciences, Zürich, Switzerland.",
+          "Department of Molecular Life Sciences, University of Zürich, Zürich, Switzerland.",
+          "SIB Swiss Institute of Bioinformatics, University of Zurich, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/23 18:21",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42608577",
+      "41435820",
+      "41430076",
+      "39483472",
+      "38817966"
+    ],
+    "refs": [
+      "38817966",
+      "36699385",
+      "36452861",
+      "35199152",
+      "34246806",
+      "34234345",
+      "34016988",
+      "33836141",
+      "32938397",
+      "32795419",
+      "32728250",
+      "31801079",
+      "31353221",
+      "31249361",
+      "31114921",
+      "30849328",
+      "30097539",
+      "29229604",
+      "29140464",
+      "28846090",
+      "28825706",
+      "28575647",
+      "28538187",
+      "27322546",
+      "26083756",
+      "25605792",
+      "25242143",
+      "24695404",
+      "24647229",
+      "24097267",
+      "23457262",
+      "22955616",
+      "22904092",
+      "22388286",
+      "21330290",
+      "20513432",
+      "20196867",
+      "20110278",
+      "19910308",
+      "17255362",
+      "15277680",
+      "9016641"
+    ],
+    "similar": [
+      "39441876",
+      "38496482",
+      "38654130",
+      "31053165",
+      "31164146",
+      "41108684",
+      "34255854",
+      "42114111",
+      "36719906",
+      "35858748",
+      "30897079",
+      "33606259",
+      "36452861",
+      "32213349",
+      "24564277",
+      "39501301",
+      "39326643",
+      "27993786",
+      "33191916",
+      "39127768",
+      "31750523",
+      "26105820",
+      "20158869",
+      "30133315",
+      "32424069",
+      "38969365",
+      "24146601",
+      "29848263",
+      "34488759",
+      "41518494",
+      "37650641",
+      "32543102",
+      "22955984",
+      "40029523",
+      "33188264",
+      "28240320",
+      "34284136",
+      "33372147",
+      "32960766",
+      "32825662",
+      "25486472",
+      "25957350",
+      "42018442",
+      "26818008",
+      "35809062",
+      "42099803",
+      "36807065",
+      "32822050",
+      "37805453",
+      "22955990",
+      "39572230",
+      "31138617",
+      "39141230",
+      "39402535",
+      "29490630",
+      "40838784",
+      "39796242",
+      "38502176",
+      "20827590",
+      "41544130",
+      "34870838",
+      "40754687",
+      "30064353",
+      "30791920",
+      "30808370",
+      "26285121",
+      "34019290",
+      "34898596",
+      "32143622",
+      "32848148",
+      "34292930",
+      "39747019",
+      "21059262",
+      "41518497",
+      "32946398",
+      "36807076",
+      "35618416",
+      "19158363",
+      "25179504",
+      "38831039",
+      "28472398",
+      "38643066",
+      "34174819",
+      "32321567",
+      "26901649",
+      "30517703",
+      "28825706",
+      "25927199",
+      "39499477",
+      "35240993",
+      "37486787",
+      "22130894",
+      "18725927",
+      "19029915",
+      "20056654",
+      "35318951",
+      "34426111",
+      "28957653",
+      "22863112",
+      "29961827"
+    ],
+    "review": [
+      "39441876",
+      "33606259",
+      "26105820",
+      "29848263"
+    ],
+    "pmc": [
+      "11534267"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1011971",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39441876/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

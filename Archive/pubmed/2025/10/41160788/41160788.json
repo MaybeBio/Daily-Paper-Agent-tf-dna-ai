@@ -1,0 +1,461 @@
+{
+  "identity": {
+    "pmid": "41160788",
+    "doi": "10.1212/WNL.0000000000214315",
+    "title": "Integrative Deep Learning of Genomic and Clinical Data for Predicting Treatment Response in Newly Diagnosed Epilepsy."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVES: Epilepsy is a common neurologic disorder. Although antiseizure medications (ASMs) are the first-line treatment, identifying the most effective ASM for each individual remains a trial-and-error process. Genetic variation may influence treatment response. We aimed to develop and validate a multimodal deep learning model that integrates clinical and genomic features to predict response to the initial ASM in people with newly diagnosed epilepsy. METHODS: We used data from individuals with newly diagnosed epilepsy in Australia as the development cohort and participants from the Human Epilepsy Project 1 (recruited in the United States, Europe, and Australia) as the external validation cohort. All participants initiated ASM treatment and were followed prospectively for at least 1 year. We included 16 clinical factors and constructed 4 genomic feature types related to epilepsy and ASM pharmacogenomics, with and without functional impact annotations. We evaluated various machine learning architectures and multimodal fusion strategies to predict seizure freedom while taking the initial ASM at 1 year. RESULTS: In the development cohort (n = 286, median age 39 years, 47.2% seizure free), combining clinical and genomic features in our proposed multimodal deep learning model improved predictive performance. The highest area under the receiver operating characteristic curve (AUC) of 0.74 (95% CI 0.70-0.78) was achieved using clinical factors and genomic variants affecting transcription factor binding, significantly outperforming the clinical-only model (AUC 0.67, 95% CI 0.62-0.72; p < 0.05). In the external validation cohort (n = 219, median age 31 years, 20.5% seizure free), the same feature combination achieved an AUC of 0.69 (95% CI 0.67-0.71), higher than the clinical-only model (AUC 0.62, 95% CI 0.60-0.64; p < 0.05). Applying this model to the development cohort, if all participants took the highest ranked ASMs, the mean predicted seizure-free probability would be 68.05% (95% CI 65.79%-70.35%) compared with the observed seizure-free rate of 47.2% (95% CI 41.3%-53.2%). DISCUSSION: Integrating genomic data with clinical features enhances the ability of deep learning models in predicting ASM response in newly diagnosed epilepsy. This approach may support personalized treatment selection and improve clinical outcomes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Epilepsy/genetics/drug therapy/diagnosis",
+      "Male",
+      "Adult",
+      "Female",
+      "*Anticonvulsants/therapeutic use",
+      "Middle Aged",
+      "*Genomics/methods",
+      "Treatment Outcome",
+      "Cohort Studies",
+      "Australia",
+      "Young Adult",
+      "Pharmacogenetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Wei",
+        "Nhu, Duong",
+        "Anderson, Alison",
+        "Thom, Daniel",
+        "Barnard, Sarah N",
+        "Zeibich, Robert",
+        "Foster, Emma",
+        "Howard, Mark",
+        "Bellows, Susannah T",
+        "Burgess, Rosemary",
+        "Berkovic, Samuel F",
+        "O'Brien, Terence J",
+        "Chen, Zhibin",
+        "French, Jacqueline",
+        "Kwan, Patrick",
+        "Ge, Zongyuan"
+      ],
+      "short_names": [
+        "Feng W",
+        "Nhu D",
+        "Anderson A",
+        "Thom D",
+        "Barnard SN",
+        "Zeibich R",
+        "Foster E",
+        "Howard M",
+        "Bellows ST",
+        "Burgess R",
+        "Berkovic SF",
+        "O'Brien TJ",
+        "Chen Z",
+        "French J",
+        "Kwan P",
+        "Ge Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7398-6988",
+        "ORCID: 0000-0001-9021-9716",
+        "ORCID: 0000-0002-1490-2262",
+        "ORCID: 0000-0003-0517-2533",
+        "ORCID: 0000-0001-6273-7671",
+        "ORCID: 0000-0001-8958-3844",
+        "ORCID: 0000-0001-7262-2632",
+        "ORCID: 0000-0003-4580-841X",
+        "ORCID: 0000-0002-7198-8621",
+        "ORCID: 0000-0002-1888-6917",
+        "ORCID: 0000-0003-2242-8027",
+        "ORCID: 0000-0001-7310-276X",
+        "ORCID: 0000-0002-5880-8673"
+      ],
+      "affiliations": [
+        "Faculty of Engineering, Monash University, Melbourne, Australia.",
+        "Monash Medical AI, Faculty of Information Technology, Monash University, Melbourne, Australia.",
+        "Airdoc-Monash Research Lab, Monash University, Melbourne, Australia.",
+        "Monash Medical AI, Faculty of Information Technology, Monash University, Melbourne, Australia.",
+        "Faculty of Information Technology, Monash University, Melbourne, Australia.",
+        "AIM for Health Lab, Monash University, Melbourne, Australia.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Australia.",
+        "Department of Neurology, Royal Melbourne Hospital, Australia.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Australia.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Australia.",
+        "Department of Philosophy, School of Philosophical, Historical, and Indigenous Studies, Faculty of Arts, Monash University, Melbourne, Australia.",
+        "Epilepsy Research Centre, Department of Medicine, Austin Health, The University of Melbourne, Australia.",
+        "Epilepsy Research Centre, Department of Medicine, Austin Health, The University of Melbourne, Australia.",
+        "Epilepsy Research Centre, Department of Medicine, Austin Health, The University of Melbourne, Australia.",
+        "Bladin-Berkovic Comprehensive Epilepsy Program, Department of Neurology, Austin Health, Melbourne, Australia; and.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Australia.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+        "New York University Grossman School of Medicine and NYU Langone Health, Comprehensive Epilepsy Center, NY.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+        "Department of Neurology, Alfred Health, Melbourne, Australia.",
+        "Department of Neurology, Royal Melbourne Hospital, Australia.",
+        "Faculty of Engineering, Monash University, Melbourne, Australia.",
+        "Monash Medical AI, Faculty of Information Technology, Monash University, Melbourne, Australia.",
+        "Airdoc-Monash Research Lab, Monash University, Melbourne, Australia.",
+        "Faculty of Information Technology, Monash University, Melbourne, Australia.",
+        "AIM for Health Lab, Monash University, Melbourne, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Wei",
+        "short_name": "Feng W",
+        "identifiers": [
+          "0000-0002-7398-6988"
+        ],
+        "affiliations": [
+          "Faculty of Engineering, Monash University, Melbourne, Australia.",
+          "Monash Medical AI, Faculty of Information Technology, Monash University, Melbourne, Australia.",
+          "Airdoc-Monash Research Lab, Monash University, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Nhu, Duong",
+        "short_name": "Nhu D",
+        "identifiers": [
+          "0000-0001-9021-9716"
+        ],
+        "affiliations": [
+          "Monash Medical AI, Faculty of Information Technology, Monash University, Melbourne, Australia.",
+          "Faculty of Information Technology, Monash University, Melbourne, Australia.",
+          "AIM for Health Lab, Monash University, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Anderson, Alison",
+        "short_name": "Anderson A",
+        "identifiers": [
+          "0000-0002-1490-2262"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Thom, Daniel",
+        "short_name": "Thom D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Australia.",
+          "Department of Neurology, Royal Melbourne Hospital, Australia."
+        ]
+      },
+      {
+        "full_name": "Barnard, Sarah N",
+        "short_name": "Barnard SN",
+        "identifiers": [
+          "0000-0003-0517-2533"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Zeibich, Robert",
+        "short_name": "Zeibich R",
+        "identifiers": [
+          "0000-0001-6273-7671"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Foster, Emma",
+        "short_name": "Foster E",
+        "identifiers": [
+          "0000-0001-8958-3844"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Howard, Mark",
+        "short_name": "Howard M",
+        "identifiers": [
+          "0000-0001-7262-2632"
+        ],
+        "affiliations": [
+          "Department of Philosophy, School of Philosophical, Historical, and Indigenous Studies, Faculty of Arts, Monash University, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Bellows, Susannah T",
+        "short_name": "Bellows ST",
+        "identifiers": [],
+        "affiliations": [
+          "Epilepsy Research Centre, Department of Medicine, Austin Health, The University of Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Burgess, Rosemary",
+        "short_name": "Burgess R",
+        "identifiers": [],
+        "affiliations": [
+          "Epilepsy Research Centre, Department of Medicine, Austin Health, The University of Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Berkovic, Samuel F",
+        "short_name": "Berkovic SF",
+        "identifiers": [
+          "0000-0003-4580-841X"
+        ],
+        "affiliations": [
+          "Epilepsy Research Centre, Department of Medicine, Austin Health, The University of Melbourne, Australia.",
+          "Bladin-Berkovic Comprehensive Epilepsy Program, Department of Neurology, Austin Health, Melbourne, Australia; and."
+        ]
+      },
+      {
+        "full_name": "O'Brien, Terence J",
+        "short_name": "O'Brien TJ",
+        "identifiers": [
+          "0000-0002-7198-8621"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhibin",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0000-0002-1888-6917"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "French, Jacqueline",
+        "short_name": "French J",
+        "identifiers": [
+          "0000-0003-2242-8027"
+        ],
+        "affiliations": [
+          "New York University Grossman School of Medicine and NYU Langone Health, Comprehensive Epilepsy Center, NY."
+        ]
+      },
+      {
+        "full_name": "Kwan, Patrick",
+        "short_name": "Kwan P",
+        "identifiers": [
+          "0000-0001-7310-276X"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.",
+          "Department of Neurology, Alfred Health, Melbourne, Australia.",
+          "Department of Neurology, Royal Melbourne Hospital, Australia."
+        ]
+      },
+      {
+        "full_name": "Ge, Zongyuan",
+        "short_name": "Ge Z",
+        "identifiers": [
+          "0000-0002-5880-8673"
+        ],
+        "affiliations": [
+          "Faculty of Engineering, Monash University, Melbourne, Australia.",
+          "Monash Medical AI, Faculty of Information Technology, Monash University, Melbourne, Australia.",
+          "Airdoc-Monash Research Lab, Monash University, Melbourne, Australia.",
+          "Faculty of Information Technology, Monash University, Melbourne, Australia.",
+          "AIM for Health Lab, Monash University, Melbourne, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neurology"
+    ],
+    "journal_abbrev": [
+      "Neurology"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 18:27",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "42143205",
+      "42107022"
+    ],
+    "refs": [],
+    "similar": [
+      "41160788",
+      "40382856",
+      "36036923",
+      "40853673",
+      "41133949",
+      "40187776",
+      "40794031",
+      "34694369",
+      "39340471",
+      "33098099",
+      "34800813",
+      "38819591",
+      "35661152",
+      "39486190",
+      "38996687",
+      "38870473",
+      "36438960",
+      "29279892",
+      "37873971",
+      "41114972",
+      "36869855",
+      "38288649",
+      "25282706",
+      "40134561",
+      "40944700",
+      "36542274",
+      "36912459",
+      "33835491",
+      "35844168",
+      "32091535",
+      "33285361",
+      "38428177",
+      "39698789",
+      "33316095",
+      "37856414",
+      "40782115",
+      "40663627",
+      "41006507",
+      "41056684",
+      "41461064",
+      "39892272",
+      "40637595",
+      "33950522",
+      "31083654",
+      "38991393",
+      "40569015",
+      "32217419",
+      "41056528",
+      "35483203",
+      "40540761",
+      "34741372",
+      "39724105",
+      "39306974",
+      "39919538",
+      "35047529",
+      "37010264",
+      "40909818",
+      "33280100",
+      "31121513",
+      "39985574",
+      "33825230",
+      "34883461",
+      "39954117",
+      "36693718",
+      "39612908",
+      "40736360",
+      "40651168",
+      "39973623",
+      "39116266",
+      "37129087",
+      "36691763",
+      "34328218",
+      "40700773",
+      "34931602",
+      "37109743",
+      "39002278",
+      "40782481",
+      "24629395",
+      "34028496",
+      "36050646",
+      "35127691",
+      "40831132",
+      "38016821",
+      "37995745",
+      "39914157",
+      "33662894",
+      "22573629",
+      "38277849",
+      "41166858",
+      "40665334",
+      "38652996",
+      "39825782",
+      "32020603",
+      "39126356",
+      "41016072",
+      "41108890",
+      "36467455",
+      "39615065",
+      "33236785",
+      "38015451"
+    ],
+    "review": [
+      "41160788",
+      "37873971",
+      "36542274",
+      "36912459",
+      "35844168",
+      "33825230",
+      "39612908",
+      "40651168",
+      "39116266"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000214315?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      },
+      {
+        "url": "https://www.ovid.com/41160788.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      }
+    ],
+    "text_mined": []
+  }
+}

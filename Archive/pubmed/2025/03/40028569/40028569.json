@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "40028569",
+    "doi": "10.1016/j.heliyon.2025.e42429",
+    "title": "Identifying macrophage-associated subtypes in patients with serous ovarian cancer and exploring potential personalized therapeutic drugs using combined single-cell and bulk RNA sequencing omics."
+  },
+  "content": {
+    "abstract": "PURPOSE: We aimed to analyze the sensitivity of patients to chemotherapy drugs and actively explore potential new intervention targets, providing an essential reference for personalized treatment. METHODS: Candidate markers with significant differential expression in macrophages were identified by analyzing gene expression at the single-cell level. A weighted gene co-expression network (WGCN) was constructed on the GSE26712 dataset to explore the modules most relevant to macrophages. Differentially expressed genes for specific markers were identified. A multi-factor regulatory network was constructed based on single-cell dataset markers screening, differentially expressed genes, and genes commonly present in WGCNA modules. Different macrophage subtypes were identified using this network. Machine learning was used to filter and predict the markers' drug sensitivity, and the potential therapeutic compounds for specific markers were screened. RESULTS: We identified 14 and 17 of M1 and M2 macrophage candidate markers, respectively. In the multi-factor regulatory network of M1 macrophages, 6 out of 14 markers recognized 159 transcription factors (TFs) and 48 micro RNAs (miRNAs), whereas 13 of 17 markers recognized 191 TFs and 182 miRNAs in the multi-factor regulatory network of M2 macrophages. Filtering of the identified differentially expressed genes using random forests yielded 15 M1 and M2 macrophage-specific markers. Drug sensitivity prediction analysis and in vitro experiments revealed the close association of these markers with common chemotherapy drug sensitivity. CONCLUSION: We identified specific M1 and M2 macrophage markers and found potential therapeutic compounds (dasatinib and afatinib) in these specific markers. These potential therapeutic compounds provide insight into the underlying mechanisms of serous ovarian cancer (OC) and inspire more effective treatment methods.",
+    "keywords": [
+      "Chemotherapy",
+      "Macrophage",
+      "Marker",
+      "Serous ovarian cancer",
+      "Weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Teng, Fei",
+        "Wei, Hong",
+        "Che, Dehong",
+        "Miao, Kuo",
+        "Dong, Xiaoqiu"
+      ],
+      "short_names": [
+        "Teng F",
+        "Wei H",
+        "Che D",
+        "Miao K",
+        "Dong X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "In-Patient Ultrasound Department, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Ultrasound Department, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "In-Patient Ultrasound Department, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Ultrasound Department of Obstetrics and Gynecology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Ultrasound Department, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Ultrasound Department, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Teng, Fei",
+        "short_name": "Teng F",
+        "identifiers": [],
+        "affiliations": [
+          "In-Patient Ultrasound Department, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "Ultrasound Department, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Hong",
+        "short_name": "Wei H",
+        "identifiers": [],
+        "affiliations": [
+          "In-Patient Ultrasound Department, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Che, Dehong",
+        "short_name": "Che D",
+        "identifiers": [],
+        "affiliations": [
+          "Ultrasound Department of Obstetrics and Gynecology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Kuo",
+        "short_name": "Miao K",
+        "identifiers": [],
+        "affiliations": [
+          "Ultrasound Department, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xiaoqiu",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "Ultrasound Department, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2025 Feb 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/03 17:13",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "41652483"
+    ],
+    "refs": [
+      "37762032",
+      "37619523",
+      "37420173",
+      "36725186",
+      "36300620",
+      "35277458",
+      "34799346",
+      "34238352",
+      "33476723",
+      "33116612",
+      "32661683",
+      "32587587",
+      "32561858",
+      "32110045",
+      "31423653",
+      "31341285",
+      "31292543",
+      "31273297",
+      "30207593",
+      "30104241",
+      "29988129",
+      "29232466",
+      "29198524",
+      "28465452",
+      "28360267",
+      "27721235",
+      "27558151",
+      "27124452",
+      "25929737",
+      "25818339",
+      "25128648",
+      "24404426",
+      "23891972",
+      "23784932",
+      "23579076",
+      "19962670",
+      "18593951",
+      "16880743",
+      "14708027"
+    ],
+    "similar": [
+      "40028569",
+      "34426111",
+      "39923303",
+      "34868310",
+      "40225866",
+      "39221762",
+      "36238494",
+      "39834541",
+      "40092698",
+      "39566403",
+      "38806553",
+      "36222281",
+      "40330458",
+      "40165975",
+      "38867262",
+      "37942473",
+      "37421595",
+      "37559532",
+      "34471502",
+      "39896800",
+      "37809073",
+      "39281688",
+      "38767974",
+      "35368656",
+      "38963237",
+      "38815767",
+      "36177006",
+      "37124547",
+      "39118300",
+      "38162669",
+      "36440001",
+      "37409259",
+      "37784081",
+      "38603733",
+      "39328595",
+      "38776050",
+      "30458295",
+      "39623254",
+      "39678138",
+      "37662825",
+      "34182556",
+      "37144238",
+      "39026663",
+      "39723414",
+      "32763781",
+      "39049829",
+      "35601837",
+      "36336725",
+      "37982173",
+      "39496786",
+      "37370118",
+      "38166541",
+      "31231396",
+      "38440722",
+      "39267173",
+      "38716195",
+      "37641197",
+      "39627836",
+      "30097905",
+      "40198509",
+      "29113276",
+      "38683465",
+      "33850863",
+      "39346628",
+      "35619693",
+      "36699091",
+      "38510315",
+      "38283752",
+      "39969348",
+      "36095948",
+      "38194604",
+      "31462944",
+      "37605652",
+      "36532492",
+      "30562343",
+      "39693800",
+      "36468020",
+      "35227285",
+      "40296690",
+      "38846957",
+      "38050560",
+      "33692827",
+      "36713536",
+      "40201390",
+      "38841624",
+      "40302006",
+      "34823498",
+      "39874886",
+      "38863714",
+      "31182053",
+      "39344332",
+      "36856205",
+      "40274967",
+      "38633005",
+      "29920284",
+      "39034722",
+      "37963584",
+      "29096690",
+      "33842600",
+      "34215202"
+    ],
+    "review": [
+      "40028569"
+    ],
+    "pmc": [
+      "11870195"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(25)00809-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40028569/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

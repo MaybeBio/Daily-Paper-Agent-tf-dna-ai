@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that specific active-site residues (R336, H342, D345) in human terminal deoxynucleotidyl transferase (TdT) coordinate incoming dNTPs and the DNA primer during template-independent synthesis. Using molecular dynamics simulations and site-directed mutagenesis with enzymatic assays, they conclude that H342A increases dissociation constants for dNTP and primer and reduces catalytic efficiency, D345E disrupts metal ion coordination and catalytic efficiency, and R336Q destabilizes the protein and abolishes activity.
+- **Visible evidence base** Abstract text only; no kinetic parameters, simulation details, structural coordinates, or experimental replicates are provided
+- **Missing materials affecting confidence** Full methods, molecular dynamics parameters and trajectories, kinetic data (Kd, kcat, Vmax), protein stability measurements, statistical analyses, structural validation, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a mechanistically relevant question in template-independent DNA synthesis, namely the functional roles of conserved active-site residues in human TdT. The combination of computational and experimental approaches is appropriate in principle. However, the abstract provides insufficient quantitative detail to evaluate the robustness of the claims. Key kinetic parameters, simulation methodology, and validation of mutant protein integrity are not reported. The conclusion that R336Q causes "complete loss of catalytic activity" is presented without supporting data on protein folding or stability controls, which is essential to distinguish active-site disruption from global misfolding. The work may be of interest to the DNA polymerase and V(D)J recombination communities, but the evidence base as presented is too limited to establish the mechanistic conclusions.
+- **Who would be interested in the results, and why** Researchers studying DNA polymerases, particularly family X members, and those interested in the molecular basis of template-independent nucleotide addition during V(D)J recombination. The findings could inform structure-function models of TdT and related enzymes, and may be relevant to engineering polymerases with altered substrate specificity.
+- **Major strengths** The study targets well-defined active-site residues with clear structural rationale. The use of both molecular dynamics and experimental mutagenesis provides complementary perspectives. The specific substitutions (R336Q, H342A, D345E) are chemically sensible for probing hydrogen bonding, steric, and electrostatic contributions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "The H342A substitution increases dissociation constant of the enzyme complex with dNTP and DNA primer and significantly reduces efficiency of the dNTP addition to the growing chain."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports qualitative changes in dissociation constants and catalytic efficiency without numerical values, error estimates, or statistical significance. No kinetic parameters (e.g., Kd, kcat, kcat/Km) are given, and it is unclear how many independent measurements were performed.  
+  - **Why it matters** Without quantitative data, the magnitude of the effects cannot be assessed, and it is impossible to determine whether the observed changes are biologically meaningful or within experimental noise.  
+  - **Resolution test** Provide mean values with standard deviations, number of replicates, and statistical tests for Kd and catalytic efficiency for wild-type and H342A enzymes.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Substitution of the R336 residue leads to significant destabilization of the protein globule and complete loss of the catalytic activity of the enzyme."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The claim of "complete loss of catalytic activity" is presented without evidence that the R336Q mutant protein is properly folded or expressed at comparable levels to wild-type. Destabilization is mentioned but no biophysical data (e.g., circular dichroism, thermal stability, size-exclusion chromatography) are described.  
+  - **Why it matters** Loss of activity could result from global misfolding rather than specific disruption of dNTP coordination. Without folding controls, the mechanistic interpretation is not established.  
+  - **Resolution test** Include biophysical characterization of the R336Q mutant (e.g., melting temperature, secondary structure content) and demonstrate that the protein is folded and monomeric under assay conditions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Extension of the side chain at the D345 residue disrupts coordination of the cofactor metal ions and also affects efficiency of the catalytic reaction."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The claim that D345E disrupts metal ion coordination is not supported by any direct evidence in the abstract. No metal-binding assays, structural data, or molecular dynamics analyses of metal ion positioning are described.  
+  - **Why it matters** Metal ion coordination is a central mechanistic claim. Without direct evidence, the conclusion is speculative and could be an indirect effect of altered protein conformation.  
+  - **Resolution test** Provide molecular dynamics trajectories showing metal ion occupancy and coordination distances for wild-type versus D345E, or experimental metal-binding measurements (e.g., isothermal titration calorimetry).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "We analyzed the consequences of replacing these residues using molecular dynamics methods and experimentally tested enzymatic properties of the mutant forms."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No details of the molecular dynamics protocol are given, including force field, simulation length, system setup, or convergence criteria. Similarly, the experimental assay conditions (buffer, metal concentrations, substrate concentrations, temperature) are not described.  
+  - **Why it matters** Reproducibility is a core requirement for computational and enzymatic studies. Without these details, the results cannot be independently verified or compared with prior work.  
+  - **Resolution test** Include full methods sections with simulation parameters and assay conditions, and make trajectories or analysis scripts available where feasible.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "increases dissociation constant of the enzyme complex with dNTP and DNA primer" is ambiguous regarding whether both Kd values increase or only one.  
+  - **Required correction** Specify separately the effect on dNTP binding and primer binding, with numerical values for each.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state the number of molecular dynamics replicates or the total simulation time, which is important for assessing sampling adequacy.  
+  - **Required correction** Add simulation length and replicate count to the abstract or methods summary.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Abstract conclusion  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not discuss whether the observed effects are consistent with prior structural or functional studies of TdT or related polymerases.  
+  - **Required correction** Add a sentence contextualizing the findings with existing literature on family X polymerase active-site mutants.
+
+## Risk / unsupported claims
+- The claim that H342A "significantly reduces efficiency" is unsupported without quantitative kinetic data and statistical analysis.
+- The claim that R336Q causes "complete loss of catalytic activity" is unsupported without evidence of proper protein folding and expression.
+- The claim that D345E "disrupts coordination of the cofactor metal ions" is unsupported by direct evidence in the abstract.
+- The overall mechanistic interpretation linking specific residue substitutions to dNTP coordination and catalysis is not fully established from the provided material.

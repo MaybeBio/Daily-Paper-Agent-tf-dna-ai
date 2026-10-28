@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39602828",
+  "title": "FunlncModel: integrating multi-omic features from upstream and downstream regulatory networks into a machine learning framework to identify functional lncRNAs.",
+  "authors": "Li, Yan-Yu; Qian, Feng-Cui; Zhang, Guo-Rui; Li, Xue-Cang; Zhou, Li-Wei; Yu, Zheng-Min; Liu, Wei; Wang, Qiu-Yu; Li, Chun-Quan",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-11-27",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习整合多组学调控网络特征预测功能性lncRNA，虽涉及转录因子特征但非蛋白质-DNA互作建模核心，方法为随机森林而非AI/物理模拟，与本课题关联较弱。",
+  "abstract": "Accumulating evidence indicates that long noncoding RNAs (lncRNAs) play important roles in molecular and cellular biology. Although many algorithms have been developed to reveal their associations with complex diseases by using downstream targets, the upstream (epi)genetic regulatory information has not been sufficiently leveraged to predict the function of lncRNAs in various biological processes. Therefore, we present FunlncModel, a machine learning-based interpretable computational framework, which aims to screen out functional lncRNAs by integrating a large number of (epi)genetic features and functional genomic features from their upstream/downstream multi-omic regulatory networks. We adopted the random forest method to mine nearly 60 features in three categories from >2000 datasets across 11 data types, including transcription factors (TFs), histone modifications, typical enhancers, super-enhancers, methylation sites, and mRNAs. FunlncModel outperformed alternative methods for classification performance in human embryonic stem cell (hESC) (0.95 Area Under Curve (AUROC) and 0.97 Area Under the Precision-Recall Curve (AUPRC)). It could not only infer the most known lncRNAs that influence the states of stem cells, but also discover novel high-confidence functional lncRNAs. We extensively validated FunlncModel's efficacy by up to 27 cancer-related functional prediction tasks, which involved multiple cancer cell growth processes and cancer hallmarks. Meanwhile, we have also found that (epi)genetic regulatory features, such as TFs and histone modifications, serve as strong predictors for revealing the function of lncRNAs. Overall, FunlncModel is a strong and stable prediction model for identifying functional lncRNAs in specific cellular contexts. FunlncModel is available as a web server at https://bio.liclab.net/FunlncModel/.",
+  "abstract_zh": "越来越多的证据表明，长链非编码RNA（lncRNAs）在分子和细胞生物学中扮演着重要角色。尽管已开发出许多算法，通过下游靶标揭示它们与复杂疾病的关联，但上游（表观）遗传调控信息尚未被充分利用来预测lncRNAs在各种生物过程中的功能。因此，我们提出了FunlncModel，一个基于机器学习且可解释的计算框架，旨在通过整合来自其上游/下游多组学调控网络的大量（表观）遗传特征和功能基因组特征，筛选出功能性lncRNAs。我们采用随机森林方法，从超过2000个数据集、涵盖11种数据类型中挖掘了近60个特征，分为三类，包括转录因子（TFs）、组蛋白修饰、典型增强子、超级增强子、甲基化位点和mRNAs。FunlncModel在人类胚胎干细胞（hESC）中的分类性能优于其他方法（曲线下面积（AUROC）为0.95，精确率-召回率曲线下面积（AUPRC）为0.97）。它不仅能推断出大多数已知影响干细胞状态的lncRNAs，还能发现新的高置信度功能性lncRNAs。我们通过多达27项与癌症相关的功能预测任务，广泛验证了FunlncModel的有效性，这些任务涉及多种癌细胞生长过程和癌症标志。同时，我们还发现（表观）遗传调控特征，如转录因子和组蛋白修饰，是揭示lncRNAs功能的强预测因子。总体而言，FunlncModel是一个强大且稳定的预测模型，用于识别特定细胞环境中的功能性lncRNAs。FunlncModel可作为网络服务器使用，访问地址为https://bio.liclab.net/FunlncModel/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39602828/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39602828/",
+  "paper_page_path": "papers/pubmed/39602828/index.html"
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the Arabidopsis HD-Zip IV transcription factor GLABRA2 (GL2) contains a conserved monopartite NLS, that NLS mutations impair nuclear transport and cause loss-of-function phenotypes, that the NLS is sufficient for nuclear localization when fused to EYFP, that nuclear localization and DNA binding are separable functions, that GL2 interacts with importin alpha (IMPalpha) isoforms via the NLS as shown by affinity purification, proteomics, yeast two-hybrid, and co-immunoprecipitation, and that IMPalpha triple mutants show abnormal trichome formation and defective GL2 nuclear localization, supporting tissue-specific and redundant IMPalpha function.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, detailed methods, statistical reporting, and any negative or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and mechanistically plausible model for IMPalpha-dependent nuclear import of GL2, with a logical progression from NLS identification to functional validation and interaction studies. The claims are internally consistent and align with established knowledge of plant HD-Zip IV transcription factors and nuclear transport pathways. However, the abstract alone does not permit verification of experimental rigor, data quality, or statistical support. The central conclusions are plausible but cannot be fully assessed without the underlying evidence.
+- **Who would be interested in the results, and why** Plant developmental biologists studying epidermal cell differentiation and trichome morphogenesis, researchers working on nuclear transport mechanisms in plants, and those interested in the functional evolution of HD-Zip IV transcription factors. The work also has relevance for understanding how transcription factor localization integrates with developmental programs, which may interest a broader cell biology audience.
+- **Major strengths** The study addresses a clear mechanistic question with multiple complementary approaches, including genetic dissection, localization assays, proteomics, molecular docking, and interaction validation. The use of IMPalpha triple mutants to link the interaction data to physiological function in trichomes is a strong integrative step. The claim that nuclear localization and DNA binding are separable, despite partial NLS overlap with the homeodomain, is a notable conceptual contribution.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that NLS mutations result in loss-of-function phenotypes and that the NLS is sufficient for nuclear localization in roots and trichomes.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract does not describe the nature of the NLS mutations, the phenotypic assays used, the quantification of nuclear localization, or the controls for the EYFP fusion experiments. Without these details, it is impossible to assess whether the observed phenotypes are specifically due to impaired nuclear transport rather than other effects of the mutations, such as altered protein stability or DNA binding.  
+  - **Why it matters** The central conclusion that nuclear localization is critical for GL2 function depends on demonstrating a direct causal link between NLS disruption, loss of nuclear import, and phenotypic outcome. If the mutations also affect other GL2 functions, the interpretation would be weakened.  
+  - **Resolution test** Provide detailed descriptions of the mutations, including their positions relative to the homeodomain, and show that mutant proteins are expressed at comparable levels to wild type. Include quantitative localization data with appropriate controls, and demonstrate that the loss-of-function phenotype is rescued by a nuclear-localized variant that retains DNA binding.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that affinity purification followed by MS-based proteomics identified IMPalpha isoforms as potential GL2 interactors, and that yeast two-hybrid and co-immunoprecipitation verified NLS-dependent interactions.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract does not specify which IMPalpha isoforms were identified, the number of replicates, the criteria for hit selection, or the negative controls used in the affinity purification. For the yeast two-hybrid and co-immunoprecipitation experiments, the abstract does not state whether the interactions were tested across all IMPalpha isoforms or only a subset, nor does it describe the recombinant protein constructs used.  
+  - **Why it matters** The interaction data form the mechanistic core of the paper. Without clarity on the isoforms tested and the rigor of the interaction assays, the claim of NLS-dependent interaction with multiple IMPalpha isoforms cannot be evaluated.  
+  - **Resolution test** List all IMPalpha isoforms identified by proteomics with enrichment statistics, and show interaction data for each isoform tested in both yeast two-hybrid and co-immunoprecipitation assays, including appropriate negative controls such as NLS-mutant GL2 and a non-interacting IMPalpha isoform.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that IMPalpha triple mutants exhibit abnormal trichome formation and defects in GL2 nuclear localization, consistent with tissue-specific and redundant functions.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract does not describe the severity or penetrance of the trichome phenotype, the method used to assess GL2 nuclear localization in the mutant background, or whether the localization defect is observed in all trichomes or a subset. The redundancy claim requires evidence that single or double mutants show weaker or no phenotypes, which is not mentioned.  
+  - **Why it matters** The mutant analysis is the key in vivo validation of the proposed mechanism. If the phenotype is weak or variable, or if the localization defect is not consistently observed, the conclusion of tissue-specific redundancy would be overstated.  
+  - **Resolution test** Provide quantitative phenotypic data for single, double, and triple IMPalpha mutants, and show representative images with quantification of GL2 nuclear versus cytoplasmic localization in trichomes across genotypes.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** NLS sufficiency claim  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The abstract states that NLS fusions to EYFP show sufficiency for nuclear localization in roots and trichomes, but it is unclear whether this was tested in stable transgenic lines or transient expression systems, and whether the fusion protein size or context could affect localization.  
+  - **Required correction** Specify the expression system and the number of independent lines or replicates examined, and note whether the EYFP alone control was included.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Molecular docking results  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The abstract mentions that molecular docking studies with IMPalpha-3 revealed major interacting residues, but does not state whether these predictions were validated by mutagenesis or whether they are consistent with the yeast two-hybrid and co-immunoprecipitation data.  
+  - **Required correction** Clarify whether the predicted residues were tested experimentally, or present the docking as a predictive model that is supported by the interaction data.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretive caution  
+  - **Affected element** Separable functions claim  
+  - **Evidence pointer** Location not provided  
+  - **Issue** The claim that nuclear localization and DNA binding are separable functions is based on genetic dissection, but the abstract does not describe the specific mutations or assays used to demonstrate this separation.  
+  - **Required correction** Briefly describe the experimental approach, such as mutations that disrupt NLS function without affecting DNA binding in vitro, and vice versa.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient experimental detail to verify the causal link between NLS function and phenotype, the specificity and breadth of the IMPalpha interaction data, or the robustness of the mutant phenotype and localization defect.
+- **Assessment against Nature-style criteria**  
+  - Originality: The work addresses a specific mechanistic question in plant nuclear transport and transcription factor function. While the general role of importins in nuclear localization is well established, the focus on a specific HD-Zip IV factor and the integration of proteomics, interaction assays, and mutant analysis provides a degree of novelty. However, the conceptual advance is incremental rather than paradigm-shifting.  
+  - Scientific importance: The findings are relevant to plant developmental biology and may have implications for understanding how transcription factor localization is regulated in cell type differentiation. The importance is moderate and primarily of interest to specialists in the field.  
+  - Interdisciplinary readership: The topic is likely to appeal mainly to plant biologists and those studying nuclear transport. The broader cell biology community may find the mechanistic aspects interesting, but the abstract does not frame the work in a way that would attract a wide interdisciplinary audience.  
+  - Technical soundness: The abstract suggests a multi-method approach, but the lack of experimental detail prevents assessment of technical rigor. The use of complementary methods is a positive indicator, but the absence of quantitative data and controls is a concern.  
+  - Readability for nonspecialists: The abstract is clearly written and accessible to a biological audience, but it assumes familiarity with plant transcription factors and nuclear transport terminology. It is not written for a general scientific readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and coherent model, but the lack of experimental detail and quantitative support means that the central claims cannot be verified. The authors should provide the full manuscript with detailed methods, controls, and statistical analyses to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that NLS mutations result in loss-of-function phenotypes is unsupported without details on mutation design, protein stability, and phenotypic quantification.
+- The claim that the NLS is sufficient for nuclear localization is unsupported without information on expression systems, controls, and quantification.
+- The claim that nuclear localization and DNA binding are separable functions is unsupported without description of the genetic dissection approach.
+- The claim that IMPalpha isoforms are interactors of GL2 is unsupported without proteomics details, including replicates and hit selection criteria.
+- The claim that interactions are NLS-dependent is unsupported without specification of the constructs and negative controls used in yeast two-hybrid and co-immunoprecipitation.
+- The claim that IMPalpha triple mutants exhibit abnormal trichome formation and defective GL2 nuclear localization is unsupported without phenotypic quantification and localization data.
+- The claim of tissue-specific and redundant functions of IMPalpha isoforms is unsupported without single and double mutant analyses.

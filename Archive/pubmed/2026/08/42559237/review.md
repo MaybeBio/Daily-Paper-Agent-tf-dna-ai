@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. No supplementary figures, tables, or methods were provided for assessment.
+- **Assessment boundary** The review is limited to the scientific content, methodological rigor, and claims presented in the supplied manuscript text. No external validation of data or reproducibility checks were performed.
+- **Shared manuscript claim summary** The authors present an integrated structural genomics approach combining sequence-based (2D), structure-based (3D), and molecular dynamics-based (4D) computational predictions to assess the functional impact of 33 ccRCC-associated missense variants in PBRM1 bromodomains 2 and 4. They validate these predictions with in vitro biophysical assays (nanoDSF, CD, 1H-NMR, AlphaScreen, EMSA) and propose an integrated molecular fitness score (IMFS) to stratify variants as tolerated, VUS, or damaging, with further subclassification into structural, dynamic, or structural/dynamic variants.
+- **Visible evidence base** Main text figures referenced: Figures 1A–E, 2A–D, 3A–E, 4A–F, 5A–E, 6A–F. Tables referenced: Tables S1–S9 (supplementary, not provided). Supplementary figures referenced: Figures S1–S8 (not provided).
+- **Missing materials affecting confidence** Supplementary figures, tables, and methods were not provided. These include detailed biophysical data (Tables S3, S4, S6), computational scores (Tables S1, S2), PCA loadings (Table S5), ROC analyses (Tables S7, S9), and supporting spectra (Figures S1–S4). The Supporting Information Methods section is also absent. This limits independent verification of key quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and potentially valuable framework for integrating computational and biophysical assessments of PBRM1 bromodomain missense variants in ccRCC. The study addresses a clinically relevant gap, as the functional impact of missense variants on PBRM1 structure and function remains poorly understood. The combination of multiple computational tiers with in vitro validation is a strength, and the proposed IMFS offers a practical scoring system. However, several concerns limit the current strength of the conclusions. The absence of key supplementary data prevents full evaluation of the quantitative claims. The correlation analyses between computational and biophysical metrics are reported with modest r values, and the clinical relevance of the IMFS is supported by only a single correlation with overall survival. The generalizability of the findings to other bromodomains or cancer types is not demonstrated. The manuscript would benefit from clearer presentation of the statistical methods, explicit reporting of the number of replicates, and a more critical discussion of the limitations of the computational predictions.
+- **Who would be interested in the results, and why** Researchers in cancer genomics, epigenetics, and structural biology would find this work relevant. Clinicians and translational scientists focused on ccRCC precision medicine may also be interested, as the IMFS could potentially inform variant interpretation in clinical settings. The methodological framework may appeal to computational biologists developing variant effect prediction tools.
+- **Major strengths** The study addresses a clinically important and understudied problem. The integration of multiple computational tiers (2D, 3D, 4D) with in vitro biophysical validation is a rigorous approach. The inclusion of population variants as putative negative controls is a thoughtful design element. The proposed IMFS and variant subclassification system provide a practical output with potential translational relevance. The authors acknowledge limitations of their computational methods and position their approach as a comparative screening tool rather than an absolute predictor.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that integrated molecular fitness scores correlated with measures of acetylated histone binding and thermal stability, and that IMFS provides reliable predictive power based on ROC analysis with an area under the curve of 0.87.
+  - **Evidence pointer** Results sections 3.3, 3.4, 3.5; Figures 3, 4, 5; Tables S3, S4, S6, S7
+  - **Concern** The quantitative basis for the central claims is largely contained in supplementary tables and figures that were not provided for review. The correlation coefficients (r values) are mentioned in the text but the actual data points, sample sizes, and statistical significance levels are not fully reported in the main text. The ROC analysis is described but the sensitivity, specificity, and confidence intervals are not presented in the main text. Without access to the supplementary data, the strength of the correlation between computational predictions and biophysical measurements cannot be independently assessed.
+  - **Why it matters** The central claim of the manuscript is that the IMFS reliably predicts variant impact on bromodomain function. This claim rests on the correlation and ROC analyses. If the underlying data are not fully available for scrutiny, the validity of the IMFS as a predictive tool cannot be confirmed.
+  - **Resolution test** Provide the supplementary tables and figures for review, and include key statistical parameters (e.g., correlation coefficients with 95% confidence intervals, ROC curves with sensitivity and specificity values, and sample sizes) in the main text or a clearly accessible supplement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation scope
+  - **Claim pointer** The authors state that the integrated structural genomics analysis accelerates mechanistic understanding of how ccRCC missense variants impact PBRM1 bromodomain structure and function, and supports future studies correlating specific variants with patient responses to therapy.
+  - **Evidence pointer** Results sections 3.3, 3.4, 3.5; Discussion section 4
+  - **Concern** The in vitro validation is limited to biophysical measurements of isolated bromodomains. The authors do not assess the impact of these variants in the context of the full-length PBRM1 protein, the PBAF complex, or in cellular assays. The claim that the findings support correlations with patient responses to therapy is speculative, as no functional cellular or patient-level data are presented. The single correlation with overall survival from TCGA data is presented without details on the statistical model, covariates, or the number of patients with specific variants.
+  - **Why it matters** The translational relevance of the findings depends on whether the biophysical effects observed in isolated bromodomains translate to functional consequences in cells and patients. Without cellular or patient-level validation, the clinical implications remain hypothetical.
+  - **Resolution test** Include cellular assays (e.g., chromatin binding, transcriptional repression, DNA repair) for a subset of variants, or clearly frame the study as a biophysical characterization with clinical implications to be tested in future work. Provide details of the TCGA survival analysis, including the statistical model and the number of patients per variant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors describe the use of 48 sequence-based prediction tools, 3D structural analyses, and 4D molecular dynamics simulations to generate the IMFS.
+  - **Evidence pointer** Methods sections 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8
+  - **Concern** The methods section describes the general approach but lacks specific details on several key parameters. For example, the criteria for selecting the 48 prediction tools from dbNSFP are not stated. The weighting scheme for combining scores across the 2D, 3D, and 4D tiers into the IMFS is described in equation 6 but the rationale for the equal weighting is not justified. The threshold values for variant classification (0.43 and 0.53) are presented as derived from ROC analysis, but the specific analysis leading to these values is not fully described.
+  - **Why it matters** The IMFS is the central output of the study. If the methodology for its calculation is not fully transparent, other researchers cannot reproduce or apply the scoring system to their own data.
+  - **Resolution test** Provide a detailed description of the IMFS calculation, including the specific tools used, the criteria for their selection, the weighting scheme, and the full ROC analysis leading to the classification thresholds. Consider making the scoring algorithm available as a supplementary file or open-source code.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1C
+  - **Evidence pointer** Results section 3.1, Figure 1C
+  - **Issue** The text states that BD2 and BD4 together comprise 13% of the entire protein sequence yet contain 32% of ccRCC-associated variants, while the other four bromodomains comprise 26% of the sequence and contain 28% of variants. The text does not explain the basis for the remaining 40% of variants that are not in bromodomains.
+  - **Required correction** Clarify the distribution of all variants across the protein, including those outside bromodomains, to provide a complete picture of variant localization.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Correlation analyses
+  - **Evidence pointer** Results section 3.5, Figure 5D,E
+  - **Concern** The text reports r² values for correlations between computational scores and biophysical measurements but does not report the corresponding p-values or confidence intervals.
+  - **Required correction** Include p-values and confidence intervals for all reported correlation coefficients.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Variant classification terms
+  - **Evidence pointer** Results sections 3.3, 3.4, 3.5
+  - **Concern** The terms "tolerated," "VUS," and "damaging" are used to describe variant classifications, but the text also uses "benign" in the introduction when describing 2D tool outputs. The relationship between these terms is not explicitly defined.
+  - **Required correction** Define the terminology clearly and use it consistently throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Concern** The data availability statement indicates that data are available from the corresponding author upon reasonable request. Given the computational nature of the study, it would be beneficial to make the computational scripts and scoring algorithm publicly available.
+  - **Required correction** Consider depositing the computational pipeline and scoring code in a public repository to enhance reproducibility.
+
+## Risk / unsupported claims
+- The claim that IMFS correlates with overall survival in ccRCC patients (r² = 0.65) is presented without sufficient methodological detail. The specific TCGA dataset, the statistical model, the number of patients with each variant, and the covariates included are not described. This claim is currently not fully assessable.
+- The claim that 36% of ccRCC missense variants completely disrupt H3K14ac peptide binding, 32% exhibit decreased binding, and 32% retain binding comparable to WT is based on a combination of current and previous data. The breakdown for the current study alone is not clearly presented.
+- The statement that "IMFSs have high utility for distinguishing PBRM1 ccRCC variants from population variants" is supported by PCA, but the PCA results are only partially described in the main text. The variance explained by each principal component and the specific loadings are not fully reported.
+- The claim that "patients with biophysically 'tolerated' missense variants may have poorer therapeutic responses to antiangiogenics and ICB, similar to patients with WT PBRM1 protein expression" is speculative and not directly supported by data presented in this manuscript.

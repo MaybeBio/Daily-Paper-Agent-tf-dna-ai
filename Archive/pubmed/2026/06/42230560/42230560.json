@@ -1,0 +1,478 @@
+{
+  "identity": {
+    "pmid": "42230560",
+    "doi": "10.1038/s41467-026-72937-0",
+    "title": "Structural basis for uracil removal from DNA by human SMUG1."
+  },
+  "content": {
+    "abstract": "Human single-strand-selective monofunctional uracil DNA glycosylase 1 (hSMUG1) removes uracil, 5-hydroxymethyluracil (5hmU) and 5-fluorouracil (5FU) from DNA, thereby initiating the base excision repair (BER) process. hSMUG1 is important for maintaining genomic integrity and plays a significant role in cancer biology. Here, we present the structures of hSMUG1, including complexes with products (uracil and 5FU) and an enzyme-product complex of hSMUG1 with double-stranded DNA (dsDNA). Analysis of our hSMUG1-dsDNA complex reveals how uracil is flipped out of the dsDNA for excision and identifies key residues that we confirm to be critical for both DNA binding and enzymatic activity. Furthermore, our hSMUG1 substrate complexes, molecular dynamics simulations and neutron diffraction data suggest a mechanism by which the substrate uracil rotates following base excision. The structural and functional information presented here will be highly useful for the future development of inhibitors and/or activators targeting hSMUG1.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Uracil/metabolism/chemistry/analogs & derivatives",
+      "Humans",
+      "*Uracil-DNA Glycosidase/metabolism/chemistry/genetics",
+      "*DNA/metabolism/chemistry",
+      "Excision Repair",
+      "Molecular Dynamics Simulation",
+      "Fluorouracil/metabolism/chemistry",
+      "Pentoxyl/analogs & derivatives/metabolism/chemistry",
+      "Crystallography, X-Ray",
+      "DNA Repair",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ludascher, Julian M",
+        "Scaletti Hutchinson, Emma",
+        "Vila-Julia, Guillem",
+        "Jemth, Ann-Sofie",
+        "Shahid, Saher",
+        "Wiita, Elisee",
+        "Cabeza de Vaca, Israel",
+        "Pach, Szymon",
+        "Gajdos, Lukas",
+        "Aggarwal, Swati",
+        "Walse, Ellen",
+        "Mortusewicz, Oliver",
+        "Helleday, Thomas",
+        "Carlsson, Jens",
+        "Stenmark, Pal"
+      ],
+      "short_names": [
+        "Ludascher JM",
+        "Scaletti Hutchinson E",
+        "Vila-Julia G",
+        "Jemth AS",
+        "Shahid S",
+        "Wiita E",
+        "Cabeza de Vaca I",
+        "Pach S",
+        "Gajdos L",
+        "Aggarwal S",
+        "Walse E",
+        "Mortusewicz O",
+        "Helleday T",
+        "Carlsson J",
+        "Stenmark P"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-7242-5133",
+        "ORCID: 0000-0001-5576-7442",
+        "ORCID: 0000-0002-7550-1833",
+        "ORCID: 0000-0002-6208-1091",
+        "ORCID: 0000-0002-9377-1677",
+        "ORCID: 0000-0002-4290-4994",
+        "ORCID: 0000-0002-7384-092X",
+        "ORCID: 0000-0003-4623-2977",
+        "ORCID: 0000-0003-4777-3417"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden.",
+        "Science for Life Laboratory, Department of Oncology-Pathology, Karolinska Institute, Stockholm, Sweden.",
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Oncology-Pathology, Karolinska Institute, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden.",
+        "Science for Life Laboratory, Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden.",
+        "Large Scale Structures group, Institut Laue-Langevin (ILL), Grenoble, France.",
+        "European Spallation Source (ESS), Lund, Sweden.",
+        "Division of Computational Chemistry, Lund University, Lund, Sweden.",
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Oncology-Pathology, Karolinska Institute, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Oncology-Pathology, Karolinska Institute, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden.",
+        "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden. stenmark@dbb.su.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ludäscher, Julian M",
+        "short_name": "Ludäscher JM",
+        "identifiers": [
+          "0009-0005-7242-5133"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Scaletti Hutchinson, Emma",
+        "short_name": "Scaletti Hutchinson E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Vila-Julià, Guillem",
+        "short_name": "Vila-Julià G",
+        "identifiers": [
+          "0000-0001-5576-7442"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Jemth, Ann-Sofie",
+        "short_name": "Jemth AS",
+        "identifiers": [
+          "0000-0002-7550-1833"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Oncology-Pathology, Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Shahid, Saher",
+        "short_name": "Shahid S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Wiita, Elisee",
+        "short_name": "Wiita E",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Oncology-Pathology, Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Cabeza de Vaca, Israel",
+        "short_name": "Cabeza de Vaca I",
+        "identifiers": [
+          "0000-0002-6208-1091"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Pach, Szymon",
+        "short_name": "Pach S",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Gajdos, Lukas",
+        "short_name": "Gajdos L",
+        "identifiers": [
+          "0000-0002-9377-1677"
+        ],
+        "affiliations": [
+          "Large Scale Structures group, Institut Laue-Langevin (ILL), Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Aggarwal, Swati",
+        "short_name": "Aggarwal S",
+        "identifiers": [],
+        "affiliations": [
+          "European Spallation Source (ESS), Lund, Sweden.",
+          "Division of Computational Chemistry, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Walse, Ellen",
+        "short_name": "Walse E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Mortusewicz, Oliver",
+        "short_name": "Mortusewicz O",
+        "identifiers": [
+          "0000-0002-4290-4994"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Oncology-Pathology, Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Helleday, Thomas",
+        "short_name": "Helleday T",
+        "identifiers": [
+          "0000-0002-7384-092X"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Oncology-Pathology, Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Carlsson, Jens",
+        "short_name": "Carlsson J",
+        "identifiers": [
+          "0000-0003-4623-2977"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Stenmark, Pål",
+        "short_name": "Stenmark P",
+        "identifiers": [
+          "0000-0003-4777-3417"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden. stenmark@dbb.su.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jun 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/03 00:40",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40728386",
+      "37805934",
+      "36973407",
+      "34265844",
+      "33287345",
+      "32962378",
+      "32752662",
+      "32534543",
+      "32254063",
+      "31993111",
+      "31466351",
+      "31412240",
+      "30649547",
+      "30228084",
+      "29533229",
+      "28818916",
+      "28775312",
+      "28444340",
+      "28224794",
+      "26596171",
+      "26588601",
+      "26583988",
+      "26574453",
+      "26458045",
+      "26190950",
+      "25252105",
+      "25181003",
+      "23793146",
+      "23579614",
+      "23545420",
+      "23355472",
+      "23246433",
+      "22962365",
+      "22447450",
+      "22122461",
+      "22048164",
+      "21460441",
+      "21222484",
+      "21041937",
+      "20383002",
+      "20124702",
+      "20124692",
+      "19909758",
+      "19659577",
+      "19461840",
+      "19031436",
+      "19008197",
+      "17537817",
+      "17283124",
+      "17062624",
+      "16369096",
+      "15466595",
+      "15102448",
+      "12820976",
+      "12724731",
+      "12220189",
+      "12184783",
+      "12161446",
+      "11517324",
+      "11483530",
+      "11104519",
+      "10915864",
+      "10805771",
+      "10667800",
+      "10074426",
+      "9489705",
+      "9164479",
+      "9138555",
+      "9045683",
+      "9016624",
+      "8900285",
+      "8744570",
+      "8469282",
+      "7697717",
+      "4610583"
+    ],
+    "similar": [
+      "42230560",
+      "15466595",
+      "25053838",
+      "12718543",
+      "31466351",
+      "22447450",
+      "12161446",
+      "29051947",
+      "19324873",
+      "19365746",
+      "40055399",
+      "22483865",
+      "32571189",
+      "30496516",
+      "14642566",
+      "34847381",
+      "26457437",
+      "23705837",
+      "18835277",
+      "35717761",
+      "11526119",
+      "42117622",
+      "17150750",
+      "26358812",
+      "22962365",
+      "17101234",
+      "36931160",
+      "24951587",
+      "10805771",
+      "36682870",
+      "12820976",
+      "7845459",
+      "22848106",
+      "23253900",
+      "18721906",
+      "14510481",
+      "22740654",
+      "41793179",
+      "22646210",
+      "29917162",
+      "34738875",
+      "41394509",
+      "33871441",
+      "30268365",
+      "28049757",
+      "28977725",
+      "17537817",
+      "26045555",
+      "33671338",
+      "26143923",
+      "36770637",
+      "23543741",
+      "24838246",
+      "25252105",
+      "8900285",
+      "20056608",
+      "40449045",
+      "26318717",
+      "28306242",
+      "9724657",
+      "37261803",
+      "27071000",
+      "21454529",
+      "21222484",
+      "24316823",
+      "28369586",
+      "18973764",
+      "28719838",
+      "22573813",
+      "17588829",
+      "22237209",
+      "23671337",
+      "39757627",
+      "14556741",
+      "15479784",
+      "21745813",
+      "26304551",
+      "36179537",
+      "28110804",
+      "33254084",
+      "10080896",
+      "25550433",
+      "17704764",
+      "31780717",
+      "31100400",
+      "40427542",
+      "24253812",
+      "30868050",
+      "22905376",
+      "39842587",
+      "19004346",
+      "17942376",
+      "12547394",
+      "10074426",
+      "10725666",
+      "11278852",
+      "36883884",
+      "19625491",
+      "35607831",
+      "17910420"
+    ],
+    "review": [
+      "42230560",
+      "41394509",
+      "33671338",
+      "25252105",
+      "39757627"
+    ],
+    "pmc": [
+      "13230825"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-72937-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42230560/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42230560",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/243058/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

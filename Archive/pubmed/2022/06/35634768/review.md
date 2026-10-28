@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that coevolutionary signals derived from RfaH protein sequences, combined with molecular dynamics simulations, can predict both the active and autoinhibited folds of this metamorphic protein, and that coevolution-derived non-native contacts are important for achieving the compact novel fold
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, or validation metrics are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, sequence alignment details, coevolution analysis parameters, molecular dynamics simulation protocols, and structural prediction validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting hypothesis that coevolutionary signals encode both native and non-native contacts sufficient to predict the two folds of the metamorphic protein RfaH. However, the evidence provided in the abstract is insufficient to evaluate the validity of the claims. Key methodological details and quantitative results are absent, and the causal link between coevolutionary predictions and structural outcomes is asserted rather than demonstrated. The work has potential relevance to protein folding and metamorphic protein biology, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in protein evolution, coevolution-based structure prediction, and metamorphic protein biophysics would be interested. The work addresses how novel folds emerge from sequence constraints, which is relevant to understanding sequence-structure relationships and the design of proteins with multiple conformations.
+- **Major strengths** The study addresses a biologically significant question about how a single sequence encodes two distinct folds. The use of publicly available genomic and metagenomic sequences to derive coevolutionary signals is a reasonable approach. The combination of coevolution analysis with molecular dynamics is a potentially powerful strategy.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that coevolutionary-derived contacts are sufficient to predict the structures of both native folds
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that coevolutionary predictions combined with molecular dynamics "demonstrate that these interactions are sufficient to predict the structures of both native folds," but no quantitative metrics (e.g., RMSD, TM-score, fraction of native contacts) or comparison to experimental structures are provided. The term "sufficient" implies a rigorous validation that is not described.
+  - **Why it matters** Without quantitative validation, the central claim of predictive sufficiency cannot be assessed. The reader cannot determine whether the predicted structures are accurate or whether the method merely recapitulates known folds with poor precision.
+  - **Resolution test** Provide structural prediction accuracy metrics against experimentally determined structures for both folds, including RMSD and TM-score, and describe the criteria for declaring a prediction successful.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that coevolutionary-derived non-native contacts play a key role in achieving the compact RfaH novel fold
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts that non-native contacts are important for the autoinhibited fold, but no evidence is presented to distinguish the contribution of native versus non-native contacts. The mechanism by which non-native contacts would stabilize a specific fold is not explained, and no control experiments or mutational analyses are mentioned.
+  - **Why it matters** This is a novel and potentially important claim, but it requires direct evidence. Without showing that removing or altering non-native contacts disrupts the fold, the claim remains speculative.
+  - **Resolution test** Perform and describe mutational or computational perturbation experiments that specifically disrupt predicted non-native contacts and show the effect on fold stability or structure prediction accuracy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors used plmDCA and GREMLIN to calculate coevolving pairs and filtered sequences based on secondary structure propensities
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify the number of sequences used, the filtering criteria, the parameters for plmDCA and GREMLIN, or how the secondary structure prediction was integrated. These details are essential for reproducibility and for assessing whether the coevolutionary signal is robust.
+  - **Why it matters** Coevolution analysis is highly sensitive to alignment depth and quality. Without these details, the reliability of the predicted contacts cannot be evaluated, and other researchers cannot replicate the analysis.
+  - **Resolution test** Provide the full methodological details in the manuscript, including sequence counts, alignment construction, filtering thresholds, and software parameters.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "emergent coevolutionary signals found within RfaH sequences encode the autoinhibited and active folds" is vague. It is unclear whether "encode" means that the signals are sufficient for prediction or merely correlated with structural features.
+  - **Required correction** Clarify the intended meaning of "encode" and use more precise language, such as "are sufficient to predict" or "are correlated with."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention any comparison to existing structure prediction methods or coevolution-based approaches, which would help contextualize the novelty of the findings.
+  - **Required correction** Add a sentence in the abstract or introduction that compares the performance or approach to prior work on metamorphic protein structure prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using coevolution to predict both folds of a metamorphic protein is novel and potentially interesting, but the abstract does not demonstrate that this is a significant advance over existing methods.
+  - Scientific importance: The question of how a single sequence encodes multiple folds is of broad interest, but the abstract does not provide enough evidence to establish a generalizable principle.
+  - Interdisciplinary readership: The topic bridges evolutionary biology, biophysics, and computational biology, which could appeal to a broad audience, but the abstract is too technical and lacks accessible context.
+  - Technical soundness: The methods are not described in sufficient detail, and the key claims lack quantitative support, so technical soundness cannot be assessed.
+  - Readability for nonspecialists: The abstract assumes familiarity with coevolution analysis and metamorphic proteins, and the writing is dense, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing hypothesis, but the lack of methodological detail and quantitative validation prevents assessment of the core claims. Supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that coevolutionary-derived contacts are sufficient to predict both native folds is unsupported without quantitative validation metrics.
+- The claim that non-native contacts play a key role in the compact fold is unsupported without direct perturbation evidence.
+- The claim that sequence filtering enhances key metamorphic contacts is not verifiable without details on the filtering process and the statistical significance of the enrichment.
+- The overall conclusion that coevolutionary signals "encode" both folds is not established from the abstract alone.

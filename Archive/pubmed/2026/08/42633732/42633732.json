@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "42633732",
+    "doi": "10.1016/j.bpc.2026.107704",
+    "title": "Structure-guided delineation of umbelliferyl phosphate-based disruptors of the c-Myb-CBP/p300 KIX protein-protein interaction."
+  },
+  "content": {
+    "abstract": "The interaction between c-Myb and the CBP/p300 KIX domain is a critical transcriptional regulatory event and an attractive target for the development of candidate disruptors of the recombinant c-Myb-KIX interaction. In this study, we used an integrated computational and experimental strategy to identify new small molecules capable of disrupting this protein-protein interaction. A focused Umbelliferyl phosphate scaffold library was subjected to stepwise virtual screening via drug-likeness assessment and docking to the c-Myb-binding region of the KIX domain and short molecular dynamics refinement. Selected compounds were then evaluated by 500 ns molecular dynamics simulations, MM/PBSA analysis, free energy landscape (FEL) mapping, and finally by microscale thermophoresis (MST) assay. Computational analyses showed that stable ligand binding did not necessarily translate into disruption of the c-Myb-KIX interface, allowing separation of compounds that stabilized the complex from those predicted to weaken it. Consistent with this distinction, DeltaDeltaG(PPI)analysis identified only MUP and Naphthol AS-BI phosphate as protein-protein interaction-weakening ligands, with Naphthol AS-BI phosphate showing the strongest predicted disruptive effect (DeltaDeltaG(PPI)=+3.25 kcal/mol), whereas DiFMUP and Naphthol AS-D phosphate were predicted to stabilize the complex. Among the tested molecules, Naphthol AS-BI phosphate showed the clearest disruption-like behavior in silico and was the most potent inhibitor in vitro, with an IC(5)(0) of 18.9 +/- 0.6 muM. Importantly, MUP emerged as the most promising umbelliferyl phosphate-derived hit, displaying measurable inhibitory activity (IC(5)(0) = 33.5 +/- 0.3 muM) comparable to the reference Naphthol AS-E phosphate (IC(5)(0) = 31.2 +/- 1.3 muM) and a more favorable predicted ADMET profile. Overall, this work identifies new chemical starting points for targeting the c-Myb-CBP/p300 KIX interaction and supports MUP as an attractive scaffold for further optimization.",
+    "keywords": [
+      "C-Myb",
+      "CBP/p300 KIX",
+      "Microscale thermophoresis",
+      "Molecular dynamics simulation",
+      "Protein-protein interaction inhibitors"
+    ],
+    "mesh_terms": [
+      "*Proto-Oncogene Proteins c-myb/chemistry/metabolism/antagonists & inhibitors",
+      "Molecular Dynamics Simulation",
+      "Protein Binding/drug effects",
+      "*Umbelliferones/chemistry/pharmacology",
+      "*p300-CBP Transcription Factors/chemistry/metabolism/antagonists & inhibitors",
+      "Humans",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamel, Emadeldin M",
+        "Rudayni, Hassan A",
+        "Allam, Ahmed A",
+        "Alfassam, Haifa E",
+        "Alqhtani, Haifa A",
+        "Abalkhail, Adil",
+        "Aba Alkhayl, Faris F",
+        "Lamsabhi, Al Mokhtar"
+      ],
+      "short_names": [
+        "Kamel EM",
+        "Rudayni HA",
+        "Allam AA",
+        "Alfassam HE",
+        "Alqhtani HA",
+        "Abalkhail A",
+        "Aba Alkhayl FF",
+        "Lamsabhi AM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Chemistry Department, Faculty of Science, Beni-Suef University, Beni-Suef 62514, Egypt. Electronic address: emad.abdelhameed@science.bsu.edu.eg.",
+        "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 11623, Saudi Arabia.",
+        "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 11623, Saudi Arabia. Electronic address: aallam@imamu.edu.sa.",
+        "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. BOX 84428, Riyadh 11671, Saudi Arabia.",
+        "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. BOX 84428, Riyadh 11671, Saudi Arabia.",
+        "Department of Public Health, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 51452, Saudi Arabia.",
+        "Departamento de Quimica and Institute for advanced research in chemical Science (IAdChem), Facultad de Ciencias, Modulo 13, Universidad Autonoma de Madrid, 28049 Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamel, Emadeldin M",
+        "short_name": "Kamel EM",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry Department, Faculty of Science, Beni-Suef University, Beni-Suef 62514, Egypt. Electronic address: emad.abdelhameed@science.bsu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Rudayni, Hassan A",
+        "short_name": "Rudayni HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 11623, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Allam, Ahmed A",
+        "short_name": "Allam AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 11623, Saudi Arabia. Electronic address: aallam@imamu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Alfassam, Haifa E",
+        "short_name": "Alfassam HE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. BOX 84428, Riyadh 11671, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alqhtani, Haifa A",
+        "short_name": "Alqhtani HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. BOX 84428, Riyadh 11671, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abalkhail, Adil",
+        "short_name": "Abalkhail A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Aba Alkhayl, Faris F",
+        "short_name": "Aba Alkhayl FF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah 51452, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Lamsabhi, Al Mokhtar",
+        "short_name": "Lamsabhi AM",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Química and Institute for advanced research in chemical Science (IAdChem), Facultad de Ciencias, Módulo 13, Universidad Autónoma de Madrid, 28049 Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/23 23:35",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42633732",
+      "42592701",
+      "42442091",
+      "42664565",
+      "25740244",
+      "27082784",
+      "36883372",
+      "22474372",
+      "34491719",
+      "21497608",
+      "42019241",
+      "24340053",
+      "31515273",
+      "19220000",
+      "22438798",
+      "42611115",
+      "29394256",
+      "30232260",
+      "15019774",
+      "42397067",
+      "35058484",
+      "19737967",
+      "12196545",
+      "42658299",
+      "16253272",
+      "11073948",
+      "42665558",
+      "12205094",
+      "25002472",
+      "32430574",
+      "12384703",
+      "17707401",
+      "27080133",
+      "26195786",
+      "22972988",
+      "40818174",
+      "26731131",
+      "32098872",
+      "19821614",
+      "24753318",
+      "29228881",
+      "42413396",
+      "30301423",
+      "40117728",
+      "38954072",
+      "28786199",
+      "31473433",
+      "12437352",
+      "42011130",
+      "33382616",
+      "24596419",
+      "22387215",
+      "27707899",
+      "15943588",
+      "9765496",
+      "22725662",
+      "23618903",
+      "24682819",
+      "18070920",
+      "28017646",
+      "9210395",
+      "37855370",
+      "10409749",
+      "10815807",
+      "29842849",
+      "42112455",
+      "20573775",
+      "41484143",
+      "42118388",
+      "31633226",
+      "25651535",
+      "42210006",
+      "27032383",
+      "33284914",
+      "42106528",
+      "39310674",
+      "41381850",
+      "11094091",
+      "40126695",
+      "42450107",
+      "29430847",
+      "40924381",
+      "41386877",
+      "41111131",
+      "14744133",
+      "30784357",
+      "42651805",
+      "23980173",
+      "23625935",
+      "41465468",
+      "11585920",
+      "14623102",
+      "15796530",
+      "41442824",
+      "30415122",
+      "9528793",
+      "12724399",
+      "27673482",
+      "28852971",
+      "37120484"
+    ],
+    "review": [
+      "42633732",
+      "40818174"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(26)00137-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

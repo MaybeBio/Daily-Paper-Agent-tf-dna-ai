@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "42515778",
+    "doi": "10.3390/ph19071097",
+    "title": "Using Deep Learning Models of Gene Regulation to Guide Drug Prioritization."
+  },
+  "content": {
+    "abstract": "Background: Drug repurposing offers a cost-effective strategy to accelerate therapeutic discovery, but most computational approaches do not model noncoding genetic variation. Because over 90% of genome-wide association study (GWAS) risk variants reside in noncoding regions, linking regulatory variation to therapeutic hypotheses remains a major challenge. Methods: We developed an integrative deep learning framework that links allele-specific enhancer prediction to candidate therapeutics through two complementary prioritization strategies, a transcription factor (TF)-based and a gene-based approach. We used MCF7-breast cancer context as a proof-of-concept system. Results: GWAS heritability was significantly enriched in MCF7 enhancers. Allele-specific variant scoring identified 1537 breast cancer risk variants with strong predicted regulatory effects, and attribution-based motif discovery revealed enrichment of FOXA1-associated motif features, consistent with FOXA1 upregulation in primary tumors. TF-based prioritization, integrating FOXA1 knockdown-induced and drug-induced gene expression profiles, identified 63 candidate compounds, including 18 approved drugs, and recovered fulvestrant, an established breast cancer therapy. Gene-based prioritization, mapping candidate regulatory variants to 347 target genes, identified 140 candidate compounds, including approved breast cancer drugs toremifene and raloxifene. Both strategies identified compounds with anti-correlated transcriptional signatures across core breast cancer hallmark pathways, and integration of pathway anti-correlation, drug-gene interactions, and supporting experimental or clinical evidence yielded 15 high-confidence repurposing candidates. Conclusions: Recovery of approved breast cancer therapeutics supports the biological relevance of deep learning-predicted regulatory variants. This study establishes a regulatory variant-guided drug repurposing framework that connects noncoding genetic variation to candidate therapeutics and provides a scalable strategy for generating pharmacologically relevant hypotheses from the noncoding genome.",
+    "keywords": [
+      "breast cancer",
+      "deep learning",
+      "drug repurposing",
+      "noncoding variants",
+      "transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Xiaoqin",
+        "Ovcharenko, Ivan"
+      ],
+      "short_names": [
+        "Huang X",
+        "Ovcharenko I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Intramural Research, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Division of Intramural Research, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Xiaoqin",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Intramural Research, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Ovcharenko, Ivan",
+        "short_name": "Ovcharenko I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Intramural Research, National Library of Medicine, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceuticals (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Pharmaceuticals (Basel)"
+    ],
+    "pub_date": "2026 Jul 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:37",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41994484",
+      "41671378",
+      "41606153",
+      "41153440",
+      "41126317",
+      "40952290",
+      "40494627",
+      "40102635",
+      "39753577",
+      "39261542",
+      "38298814",
+      "37956336",
+      "37953380",
+      "37953279",
+      "37603758",
+      "37047814",
+      "36814848",
+      "36551336",
+      "36484092",
+      "35812054",
+      "35465400",
+      "35120529",
+      "34680352",
+      "34608324",
+      "34439317",
+      "34420874",
+      "34302145",
+      "34276354",
+      "34225008",
+      "34183854",
+      "33641211",
+      "33603233",
+      "33143224",
+      "32972027",
+      "32905524",
+      "32888433",
+      "32728249",
+      "32650578",
+      "32331421",
+      "31826955",
+      "31492831",
+      "31249361",
+      "31206543",
+      "30954620",
+      "30310233",
+      "30092612",
+      "30013180",
+      "29632380",
+      "29195078",
+      "29184056",
+      "29059683",
+      "28680952",
+      "28399667",
+      "28138153",
+      "27045680",
+      "26091267",
+      "25642630",
+      "25488809",
+      "24469049",
+      "23824865",
+      "23374354",
+      "23172872",
+      "22955616",
+      "22378269",
+      "21948594",
+      "21641545",
+      "21629293",
+      "21151129",
+      "20843837",
+      "20802021",
+      "19563758",
+      "18047657",
+      "17875680",
+      "17129787",
+      "17008526",
+      "16199517",
+      "12044581",
+      "11100127"
+    ],
+    "similar": [
+      "42515778",
+      "42182259",
+      "42475469",
+      "41699549",
+      "39341862",
+      "40653482",
+      "42090444",
+      "28957321",
+      "41318116",
+      "42277915",
+      "42156642",
+      "29351903",
+      "41716413",
+      "42053674",
+      "42619906",
+      "34276354",
+      "34635981",
+      "39538313",
+      "29378629",
+      "42136963",
+      "35229021",
+      "41271629",
+      "42520674",
+      "42074514",
+      "24920305",
+      "42602988",
+      "42553536",
+      "42241400",
+      "39830273",
+      "40421528",
+      "40764606",
+      "38947022",
+      "42486779",
+      "41096905",
+      "28333195",
+      "33371906",
+      "18426580",
+      "32950641",
+      "40501823",
+      "41993522",
+      "42305533",
+      "41611834",
+      "41359169",
+      "41178806",
+      "40409268",
+      "29297292",
+      "42372471",
+      "34541447",
+      "41648300",
+      "42326801",
+      "42221083",
+      "24440656",
+      "41827693",
+      "42385356",
+      "40205616",
+      "34505128",
+      "38863031",
+      "39669613",
+      "21167036",
+      "31408580",
+      "42123445",
+      "41751568",
+      "37855660",
+      "42509822",
+      "35176995",
+      "36105612",
+      "41282120",
+      "33832990",
+      "41986815",
+      "42395488",
+      "42353465",
+      "42356553",
+      "42435052",
+      "42511913",
+      "41342434",
+      "33133424",
+      "41052072",
+      "30939415",
+      "38734482",
+      "41734447",
+      "26040466",
+      "38251461",
+      "42465707",
+      "42631563",
+      "41862973",
+      "39802764",
+      "34021560",
+      "34529725",
+      "42626603",
+      "41468516",
+      "31230194",
+      "41475071",
+      "42574278",
+      "30182384",
+      "29273624",
+      "32765587",
+      "30128822",
+      "41645199",
+      "41153440",
+      "33167785"
+    ],
+    "review": [
+      "42515778",
+      "32950641",
+      "42305533",
+      "41751568",
+      "42509822",
+      "38734482"
+    ],
+    "pmc": [
+      "13414701"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ph19071097",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42515778/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35998896",
+  "title": "Profiling prediction of nuclear receptor modulators with multi-task deep learning methods: toward the virtual screening.",
+  "authors": "Wang, Jiye; Lou, Chaofeng; Liu, Guixia; Li, Weihua; Wu, Zengrui; Tang, Yun",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-08-24",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多任务深度学习预测核受体调节剂，核受体是配体激活的转录因子，但聚焦小分子-核受体结合而非TF-DNA互作，方法可迁移但对象偏离。",
+  "abstract": "Nuclear receptors (NRs) are ligand-activated transcription factors, which constitute one of the most important targets for drug discovery. Current computational strategies mainly focus on a single target, and the transfer of learned knowledge among NRs was not considered yet. Herein we proposed a novel computational framework named NR-Profiler for prediction of potential NR modulators with high affinity and specificity. First, we built a comprehensive NR data set including 42 684 interactions to connect 42 NRs and 31 033 compounds. Then, we used multi-task deep neural network and multi-task graph convolutional neural network architectures to construct multi-task multi-classification models. To improve the predictive capability and robustness, we built a consensus model with an area under the receiver operating characteristic curve (AUC) = 0.883. Compared with conventional machine learning and structure-based approaches, the consensus model showed better performance in external validation. Using this consensus model, we demonstrated the practical value of NR-Profiler in virtual screening for NRs. In addition, we designed a selectivity score to quantitatively measure the specificity of NR modulators. Finally, we developed a freely available standalone software for users to make profiling predictions for their compounds of interest. In summary, our NR-Profiler provides a useful tool for NR-profiling prediction and is expected to facilitate NR-based drug discovery.",
+  "abstract_zh": "核受体（Nuclear receptors, NRs）是配体激活的转录因子，构成药物发现中最重要的靶点之一。当前的计算策略主要集中于单一靶点，尚未考虑核受体间学习知识的迁移。在此，我们提出了一种新颖的计算框架，命名为NR-Profiler，用于预测具有高亲和力和特异性的潜在核受体调节剂。首先，我们构建了一个全面的核受体数据集，包含42,684个相互作用，连接了42个核受体和31,033种化合物。然后，我们采用多任务深度神经网络和多任务图卷积神经网络架构来构建多任务多分类模型。为提高预测能力和鲁棒性，我们构建了一个共识模型，其受试者工作特征曲线下面积（AUC）= 0.883。与传统机器学习和基于结构的方法相比，该共识模型在外部验证中表现出更优的性能。利用此共识模型，我们展示了NR-Profiler在核受体虚拟筛选中的实用价值。此外，我们设计了一个选择性评分，用于定量衡量核受体调节剂的特异性。最后，我们开发了一个免费可用的独立软件，供用户对其感兴趣的化合物进行谱型预测。总之，我们的NR-Profiler为核受体谱型预测提供了有用工具，并有望促进基于核受体的药物发现。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35998896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35998896/",
+  "paper_page_path": "papers/pubmed/35998896/index.html"
+}

@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "36522189",
+    "doi": "10.1002/pro.4545",
+    "title": "N-terminal beta-strand in YAP is critical for stronger binding to scalloped relative to TEAD transcription factor."
+  },
+  "content": {
+    "abstract": "The yes-associated protein (YAP) regulates the transcriptional activity of the TEAD transcription factors that are key in the control of organ morphogenesis. YAP interacts with TEAD via three secondary structure elements: a beta-strand, an alpha-helix, and an Omega-loop. Earlier results have shown that the beta-strand has only a marginal contribution in the YAP:TEAD interaction, but we show here that it significantly enhances the affinity of YAP for the Drosophila homolog of TEAD, scalloped (Sd). Nuclear magnetic resonance shows that the beta-strand adopts a more rigid conformation once bound to Sd; pre-steady state kinetic measurements show that the YAP:Sd complex is more stable. Although the crystal structures of the YAP:TEAD and YAP:Sd complexes reveal no differences at the binding interface that could explain these results. Molecular Dynamics simulations are in line with our experimental findings regarding beta-strand stability and overall binding affinity of YAP to TEAD and Sd. In particular, RMSF, correlated motion and MMGBSA analyses suggest that beta-sheet fluctuations play a relevant role in YAP(53-57) beta-strand dissociation from TEAD4 and contribute to the lower affinity of YAP for TEAD4. Identifying a clear mechanism leading to the difference in YAP's beta-strand stability proved to be challenging, pointing to the potential relevance of multiple modest structural changes or fluctuations for regulation of binding affinity.",
+    "keywords": [
+      "TEAD",
+      "YAP",
+      "correlated motions",
+      "molecular dynamics",
+      "molecular recognition"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/chemistry",
+      "*TEA Domain Transcription Factors",
+      "DNA-Binding Proteins/chemistry",
+      "Protein Conformation, beta-Strand",
+      "Gene Expression Regulation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bokhovchuk, Fedir",
+        "Mesrouze, Yannick",
+        "Meyerhofer, Marco",
+        "Fontana, Patrizia",
+        "Zimmermann, Catherine",
+        "Villard, Frederic",
+        "Erdmann, Dirk",
+        "Kallen, Joerg",
+        "Scheufler, Clemens",
+        "Velez-Vega, Camilo",
+        "Chene, Patrick"
+      ],
+      "short_names": [
+        "Bokhovchuk F",
+        "Mesrouze Y",
+        "Meyerhofer M",
+        "Fontana P",
+        "Zimmermann C",
+        "Villard F",
+        "Erdmann D",
+        "Kallen J",
+        "Scheufler C",
+        "Velez-Vega C",
+        "Chene P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6010-9169"
+      ],
+      "affiliations": [
+        "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Chemical Biology and Therapeutics, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Chemical Biology and Therapeutics, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Chemical Biology and Therapeutics, Novartis Institutes for Biomedical Research, Basel, Switzerland.",
+        "Global Discovery Chemistry, Novartis Institutes for Biomedical Research, Cambridge, Massachusetts, USA.",
+        "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bokhovchuk, Fedir",
+        "short_name": "Bokhovchuk F",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mesrouze, Yannick",
+        "short_name": "Mesrouze Y",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Meyerhofer, Marco",
+        "short_name": "Meyerhofer M",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Fontana, Patrizia",
+        "short_name": "Fontana P",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Zimmermann, Catherine",
+        "short_name": "Zimmermann C",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Villard, Frédéric",
+        "short_name": "Villard F",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology and Therapeutics, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Erdmann, Dirk",
+        "short_name": "Erdmann D",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kallen, Joerg",
+        "short_name": "Kallen J",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology and Therapeutics, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Scheufler, Clemens",
+        "short_name": "Scheufler C",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology and Therapeutics, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Velez-Vega, Camilo",
+        "short_name": "Velez-Vega C",
+        "identifiers": [],
+        "affiliations": [
+          "Global Discovery Chemistry, Novartis Institutes for Biomedical Research, Cambridge, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Chène, Patrick",
+        "short_name": "Chène P",
+        "identifiers": [
+          "0000-0002-6010-9169"
+        ],
+        "affiliations": [
+          "Disease Area Oncology, Novartis Institutes for Biomedical Research, Basel, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/16 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "39207896",
+      "38425893",
+      "37887106",
+      "37111340",
+      "36847275"
+    ],
+    "refs": [
+      "35378854",
+      "35322151",
+      "34291898",
+      "34075638",
+      "33850002",
+      "33415007",
+      "33146905",
+      "33060790",
+      "32928629",
+      "32329346",
+      "31697419",
+      "31527062",
+      "31386861",
+      "30903741",
+      "30566373",
+      "30058229",
+      "29372459",
+      "28960584",
+      "28515457",
+      "28430104",
+      "27116603",
+      "26900866",
+      "26724994",
+      "25405925",
+      "24915882",
+      "24525233",
+      "24504694",
+      "23780915",
+      "22632831",
+      "22522665",
+      "21634390",
+      "21460447",
+      "20368466",
+      "20123908",
+      "20123905",
+      "19461840",
+      "16671679",
+      "16341750",
+      "16200636",
+      "15572765",
+      "11123888",
+      "8744570",
+      "7563068"
+    ],
+    "similar": [
+      "36522189",
+      "34075638",
+      "30978352",
+      "32329346",
+      "33283479",
+      "28960584",
+      "36825662",
+      "38594215",
+      "27315596",
+      "38863297",
+      "30903741",
+      "29760238",
+      "20368466",
+      "36008411",
+      "23780915",
+      "28515457",
+      "39177727",
+      "32286937",
+      "28430104",
+      "24380865",
+      "22632831",
+      "30794805",
+      "28368398",
+      "35247806",
+      "34509860",
+      "20123908",
+      "20123905",
+      "36398861",
+      "33146905",
+      "37830584",
+      "24504694",
+      "30051771",
+      "31697419",
+      "29317486",
+      "31303470",
+      "31479631",
+      "25384421",
+      "33511508",
+      "33651140",
+      "38791396",
+      "27425596",
+      "11358867",
+      "30482112",
+      "26592798",
+      "36809780",
+      "27809333",
+      "36709077",
+      "35993908",
+      "36946421",
+      "35489428",
+      "35378854",
+      "18579750",
+      "26364597",
+      "25361080",
+      "36847275",
+      "34587361",
+      "25301940",
+      "22891335",
+      "35768160",
+      "27720608",
+      "34032019",
+      "24560909",
+      "33352993",
+      "33570213",
+      "22308035",
+      "32147946",
+      "36806855",
+      "36430640",
+      "21203923",
+      "28028053",
+      "33060790",
+      "37010474",
+      "36309205",
+      "19141641",
+      "26209646",
+      "31742995",
+      "36434952",
+      "36265280",
+      "37240355",
+      "37060904",
+      "34463254",
+      "34387904",
+      "21687713",
+      "33097058",
+      "32794608",
+      "39182750",
+      "30209132",
+      "22677547",
+      "30401838",
+      "17085591",
+      "32912021",
+      "32482884",
+      "28570566",
+      "26724994",
+      "27440047",
+      "36446891",
+      "34964176",
+      "38427166",
+      "32537835"
+    ],
+    "review": [
+      "36522189",
+      "38863297",
+      "30482112",
+      "36709077",
+      "34587361",
+      "35768160",
+      "33352993",
+      "21203923"
+    ],
+    "pmc": [
+      "9798255"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=36522189",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36522189/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36522189",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4545",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

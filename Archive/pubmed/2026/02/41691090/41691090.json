@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "41691090",
+    "doi": "10.1038/s41598-026-40139-9",
+    "title": "Machine-learning-guided transcriptomic integration identifies GFM1 as a lactylation-related candidate biomarker in aortic dissection."
+  },
+  "content": {
+    "abstract": "Aortic dissection (AD) is a life-threatening aortic disease with limited disease-modifying pharmacologic options. Lysine lactylation is a metabolism-linked post-translational modification implicated in vascular and inflammatory biology, but its relationship to AD has not been well characterized. Public AD transcriptomic datasets were integrated for differential expression analysis and WGCNA. Lactylation-related DEGs were defined by intersecting DEGs with a curated lactylation-related gene set. Candidate genes were prioritized using complementary machine-learning models (LASSO, Random Forest, and XGBoost) as a feature-screening strategy with internal resampling and hold-out validation (cross-validation and a hold-out set). GFM1 expression was assessed by qRT-PCR and western blotting in human aortic tissues. Functional relevance was examined in primary mouse aortic vascular smooth muscle cells (VSMCs) using siRNA knockdown under angiotensin II stimulation (1.0 micromol/L, 24 h), with proliferation and migration assessed by CCK-8, EdU, Transwell, and scratch-wound assays. We identified 217 DEGs and an AD-associated co-expression module. Intersection analysis yielded 11 lactylation-related DEGs, among which GFM1 received consistent support across models. GFM1 showed higher expression in AD tissues, and GFM1 knockdown attenuated angiotensin II-induced VSMCs proliferation and migration. Integrated transcriptomics and machine-learning-based prioritization nominate GFM1 as a lactylation-related candidate associated with AD, warranting further investigation. These findings are hypothesis-generating: model performance reflects internal evaluation only, and independent external validation and direct lactylation profiling are required to establish generalizability and clarify mechanistic links.",
+    "keywords": [
+      "Aortic dissection",
+      "GFM1",
+      "Integrative transcriptomics",
+      "Lactylation",
+      "Machine learning",
+      "Vascular smooth muscle cells"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Machine Learning",
+      "Humans",
+      "Mice",
+      "*Aortic Dissection/genetics/metabolism/pathology",
+      "*Transcriptome",
+      "Muscle, Smooth, Vascular/metabolism",
+      "Gene Expression Profiling",
+      "Biomarkers/metabolism",
+      "*Transcription Factors/genetics/metabolism",
+      "Cell Proliferation",
+      "Angiotensin II/pharmacology",
+      "Myocytes, Smooth Muscle/metabolism",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Cell Movement",
+      "Dissection, Thoracic Aorta",
+      "Aorta/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Junquan",
+        "Jiang, Nan",
+        "Guo, Zhigang",
+        "Bai, Yunpeng"
+      ],
+      "short_names": [
+        "Chen J",
+        "Jiang N",
+        "Guo Z",
+        "Bai Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiovascular Surgery, Chest Hospital, Tianjin University, Tianjin, 300222, China.",
+        "Tianjin Medical University, Tianjin, 300070, China.",
+        "Department of Cardiovascular Surgery, Chest Hospital, Tianjin University, Tianjin, 300222, China.",
+        "Department of Cardiovascular Surgery, Chest Hospital, Tianjin University, Tianjin, 300222, China. zhigangguovip@163.com.",
+        "Department of Cardiovascular Surgery, Chest Hospital, Tianjin University, Tianjin, 300222, China. 644765651@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Junquan",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Chest Hospital, Tianjin University, Tianjin, 300222, China.",
+          "Tianjin Medical University, Tianjin, 300070, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Nan",
+        "short_name": "Jiang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Chest Hospital, Tianjin University, Tianjin, 300222, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhigang",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Chest Hospital, Tianjin University, Tianjin, 300222, China. zhigangguovip@163.com."
+        ]
+      },
+      {
+        "full_name": "Bai, Yunpeng",
+        "short_name": "Bai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, Chest Hospital, Tianjin University, Tianjin, 300222, China. 644765651@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/15 00:31",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41624023",
+      "40969916",
+      "39966416",
+      "39687440",
+      "39484639",
+      "39088352",
+      "38873669",
+      "38445499",
+      "38216067",
+      "37615625",
+      "37483091",
+      "37421290",
+      "37333431",
+      "36640801",
+      "36540036",
+      "36518721",
+      "36444319",
+      "36322642",
+      "36050306",
+      "35284499",
+      "35082778",
+      "35076833",
+      "34948068",
+      "34919756",
+      "34576125",
+      "34177945",
+      "34095262",
+      "34086934",
+      "34039116",
+      "33709773",
+      "33613530",
+      "33353985",
+      "33333007",
+      "33210482",
+      "33125081",
+      "33004136",
+      "31695211",
+      "31645732",
+      "31320613",
+      "29485622",
+      "26771021",
+      "26310573",
+      "22978713",
+      "22455463",
+      "22443458",
+      "19114008",
+      "16646809",
+      "16646805",
+      "16632515",
+      "10592173",
+      "9847135"
+    ],
+    "similar": [
+      "41691090",
+      "40596702",
+      "34400144",
+      "41866271",
+      "35866606",
+      "42120767",
+      "42288847",
+      "35351345",
+      "41613150",
+      "26344687",
+      "41611071",
+      "41294029",
+      "39531897",
+      "41487086",
+      "42464439",
+      "41660576",
+      "41246346",
+      "41412321",
+      "42326009",
+      "42107160",
+      "41504052",
+      "28637452",
+      "41677663",
+      "41570698",
+      "41611834",
+      "42136654",
+      "42157054",
+      "41320776",
+      "40614980",
+      "36974747",
+      "39138741",
+      "40099963",
+      "29343476",
+      "40527360",
+      "41482800",
+      "42192326",
+      "40021969",
+      "33215216",
+      "41309949",
+      "40377018",
+      "41566505",
+      "42237912",
+      "40914702",
+      "42024443",
+      "39345002",
+      "41330169",
+      "40227858",
+      "40298071",
+      "40079144",
+      "41783930",
+      "39300372",
+      "35212609",
+      "31235554",
+      "42181690",
+      "42406622",
+      "40156764",
+      "42245402",
+      "42216376",
+      "29051139",
+      "38582447",
+      "40086567",
+      "41826822",
+      "41001812",
+      "42107066",
+      "29538087",
+      "39326736",
+      "41208796",
+      "41291841",
+      "40177774",
+      "41665703",
+      "42185567",
+      "42334628",
+      "41595448",
+      "42435052",
+      "39904041",
+      "41716413",
+      "41923163",
+      "30943775",
+      "41853865",
+      "42436415",
+      "37684281",
+      "28167124",
+      "41200172",
+      "35001835",
+      "40278823",
+      "41933744",
+      "40653044",
+      "28965202",
+      "42074521",
+      "41610999",
+      "41903158",
+      "42366506",
+      "41077125",
+      "41479901",
+      "31651935",
+      "41021763",
+      "32615135",
+      "38820386",
+      "42459700",
+      "40437968"
+    ],
+    "review": [
+      "41691090"
+    ],
+    "pmc": [
+      "12992784"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-40139-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41691090/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

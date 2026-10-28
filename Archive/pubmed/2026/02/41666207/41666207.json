@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "41666207",
+    "doi": "10.1371/journal.pone.0329401",
+    "title": "Computational elucidation of stomidazolone mediated inhibition of stomatal differentiation and its implication in plant developmental regulation."
+  },
+  "content": {
+    "abstract": "Stomata play a critical role in plant physiology by balancing gas exchange and water conservation. Their development is driven by a precisely orchestrated sequence of cell divisions and differentiation events, regulated by basic helix-loop-helix (bHLH) transcription factors such as MUTE. Previous research reports stomidazolone, a doubly sulfonylated imidazolone derivative, as an effective inhibitor of stomatal development which has been shown to bind strongly to MUTE, interfering with its interaction with SCRM, effectively suppressing stomatal differentiation. The ACTL domain, a conserved structural feature in plant bHLH proteins, acts as a potential site for chemical inhibition, enabling selective disruption of stomatal formation. This suggests a promising approach for enhancing drought resilience in plants by reducing water loss through transpiration. While experimental data support stomidazolone's inhibitory role, the molecular details of its binding to MUTE remain inadequately characterized. To address this gap, a comprehensive in silico analysis combining molecular docking and density functional theory (DFT) was performed to elucidate the binding interactions, electronic properties, and reactive potential of stomidazolone, thereby uncovering the molecular features that underpin its affinity and specificity toward MUTE. An all-atom molecular dynamics (MD) simulations was then carried out to provide mechanistic insights beyond static binding models, followed by a number of post-simulation analyses assessing system stability and dynamics to gain deeper insight into the Stomidazolone-Mediated Inhibition of MUTE. Our results reveal the formation of a stable and compact stomidazolone-MUTE complex, characterized by a lower average RMSD (1.45 +/- 0.12 nm) compared to the Apo state (1.65 +/- 0.18 nm), while hydrogen bonding analysis further demonstrated persistent interactions involving Arg62 and Ser69, along with a stabilizing contribution from Glu163, collectively supporting the strong binding affinity of stomidazolone within the MUTE active site. Principal component analysis further highlighted the conformational coherence and coordinated atomic motion, while the free energy landscape showed well-defined energy minima, underscoring the stability of the interaction and energetic favorability of the complex. Together, these findings provide a molecular framework for understanding the inhibitory mechanism of stomidazolone on MUTE, offering a basis for the rational design of next-generation agrochemicals targeting stomatal development. The study also highlights the conceptual novelty of small-molecule modulation of lineage-specific transcription factors as a potential strategy for the synthetic control of plant developmental plasticity. While the results are computational, they outline clear directions for experimental validation and scaffold optimization, paving the way for future efforts to translate these insights into practical applications for improving crop resilience and water-use efficiency. Importantly, this study provides the first mechanistic, residue-level insight into how stomidazolone engages the ACT-Like (ACTL) domain of MUTE, revealing the specific molecular interactions and dynamic features that underpin its inhibitory effect.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Docking Simulation",
+      "*Plant Development/drug effects/genetics",
+      "*Plant Stomata/drug effects/growth & development/metabolism",
+      "Cell Differentiation/drug effects/genetics",
+      "*Basic Helix-Loop-Helix Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "*Imidazoles/chemistry/pharmacology",
+      "Gene Expression Regulation, Plant/drug effects",
+      "Gene Expression Regulation, Developmental/drug effects",
+      "Protein Domains",
+      "Protein Binding",
+      "Density Functional Theory",
+      "Molecular Dynamics Simulation",
+      "*Agrochemicals/chemistry/pharmacology",
+      "*Plant Proteins/antagonists & inhibitors/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tariq, Syeda Sumayya",
+        "Qureshi, Urooj",
+        "Mushtaq, Mamona",
+        "Nasim, Maria",
+        "Nur-E-Alam, Mohammad",
+        "AlHowiriny, Tawfeq A",
+        "Wang, Yan",
+        "Ul-Haq, Zaheer"
+      ],
+      "short_names": [
+        "Tariq SS",
+        "Qureshi U",
+        "Mushtaq M",
+        "Nasim M",
+        "Nur-E-Alam M",
+        "AlHowiriny TA",
+        "Wang Y",
+        "Ul-Haq Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8530-8711"
+      ],
+      "affiliations": [
+        "Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan.",
+        "H.E.J. Research Institute of Chemistry, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan.",
+        "Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan.",
+        "Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan.",
+        "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Kingdom of Saudi Arabia.",
+        "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Kingdom of Saudi Arabia.",
+        "State Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources, School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, Guilin, China.",
+        "Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tariq, Syeda Sumayya",
+        "short_name": "Tariq SS",
+        "identifiers": [],
+        "affiliations": [
+          "Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Qureshi, Urooj",
+        "short_name": "Qureshi U",
+        "identifiers": [],
+        "affiliations": [
+          "H.E.J. Research Institute of Chemistry, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Mushtaq, Mamona",
+        "short_name": "Mushtaq M",
+        "identifiers": [],
+        "affiliations": [
+          "Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Nasim, Maria",
+        "short_name": "Nasim M",
+        "identifiers": [],
+        "affiliations": [
+          "Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Nur-E-Alam, Mohammad",
+        "short_name": "Nur-E-Alam M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Kingdom of Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "AlHowiriny, Tawfeq A",
+        "short_name": "AlHowiriny TA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, Kingdom of Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources, School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, Guilin, China."
+        ]
+      },
+      {
+        "full_name": "Ul-Haq, Zaheer",
+        "short_name": "Ul-Haq Z",
+        "identifiers": [
+          "0000-0002-8530-8711"
+        ],
+        "affiliations": [
+          "Dr. Panjwani Center for Molecular Medicine and Drug Research, International Center for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/10 19:00",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39443460",
+      "39113157",
+      "37126718",
+      "35783161",
+      "35173013",
+      "35042960",
+      "34265844",
+      "33901489",
+      "33687235",
+      "30894867",
+      "29463247",
+      "25408507",
+      "22824207",
+      "21500218",
+      "20408171",
+      "19008449",
+      "18641265",
+      "18307169",
+      "17183267",
+      "16987805",
+      "15264254",
+      "15116359",
+      "12931178",
+      "8744570",
+      "1749773"
+    ],
+    "similar": [
+      "41666207",
+      "39443460",
+      "35173013",
+      "39838505",
+      "18450784",
+      "21410874",
+      "23662679",
+      "18641265",
+      "29738710",
+      "24244399",
+      "36609867",
+      "21425077",
+      "28266915",
+      "25963149",
+      "37555400",
+      "36786686",
+      "29869742",
+      "29386377",
+      "40275539",
+      "26861168",
+      "25063454",
+      "33668323",
+      "40946401",
+      "17183267",
+      "29628371",
+      "23373882",
+      "39775383",
+      "39166983",
+      "40105588",
+      "25303364",
+      "26748914",
+      "40832690",
+      "39150946",
+      "27892923",
+      "40658716",
+      "37321212",
+      "23912807",
+      "19565615",
+      "41635122",
+      "27541276",
+      "19502487",
+      "41880512",
+      "27717464",
+      "41849825",
+      "32240168",
+      "40960145",
+      "28356502",
+      "32434921",
+      "40716027",
+      "17691100",
+      "35148836",
+      "26550955",
+      "36493667",
+      "28507175",
+      "33058210",
+      "33877316",
+      "33782136",
+      "20179138",
+      "31935463",
+      "39059491",
+      "32669038",
+      "34727522",
+      "41176615",
+      "41673348",
+      "19704632",
+      "39253954",
+      "23515473",
+      "26989174",
+      "41850151",
+      "36440974",
+      "39408731",
+      "29070509",
+      "29433424",
+      "29496884",
+      "41152498",
+      "31235876",
+      "29633905",
+      "29470695",
+      "40114577",
+      "39714086",
+      "21377969",
+      "28571517",
+      "23997204",
+      "31075538",
+      "34099707",
+      "27382177",
+      "40117728",
+      "30825332",
+      "38886309",
+      "27095491",
+      "41977118",
+      "22407427",
+      "41224866",
+      "39328594",
+      "34469075",
+      "25680231",
+      "38712500",
+      "39948258",
+      "24909687",
+      "30047829"
+    ],
+    "review": [
+      "41666207",
+      "29386377",
+      "33668323",
+      "40946401",
+      "19565615",
+      "41849825",
+      "28356502",
+      "17691100",
+      "26550955",
+      "36493667",
+      "33877316",
+      "20179138",
+      "39408731",
+      "21377969",
+      "23997204",
+      "31075538",
+      "27095491"
+    ],
+    "pmc": [
+      "12890161"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0329401",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41666207/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

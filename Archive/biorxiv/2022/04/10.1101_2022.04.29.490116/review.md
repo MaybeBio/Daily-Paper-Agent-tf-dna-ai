@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, supplementary materials description)
+- **Assessment boundary** Scientific content, technical soundness, structural biology quality, biochemical and in vivo functional validation, claims versus evidence
+- **Shared manuscript claim summary** The authors report the crystal structure of the N-terminal domain (residues 1-75) of StbA, a centromere-binding protein from plasmid R388, at 1.9 Å resolution. They show this domain folds into an HTH motif related to the PadR family of transcriptional regulators, carries specific DNA-binding activity to stbDR sequences, retains transcriptional repression activity, and partially supports plasmid segregation and conjugation control in vivo. The C-terminal domain is required for full StbA function.
+- **Visible evidence base** Crystal structure (PDB 7PC1), EMSA data, transcriptional reporter assays, plasmid stability assays, conjugation frequency measurements, fluorescence microscopy localization data, limited proteolysis, size exclusion chromatography, bacterial two-hybrid assays
+- **Missing materials affecting confidence** Electron density maps and structure validation metrics (Ramachandran statistics, B-factor distributions, real-space R-values) not shown; raw EMSA gel images not fully annotated; statistical details for stability and conjugation assays (number of biological replicates, error bars) not fully specified; microscopy quantification methodology not fully described; supplementary figures referenced but not fully visible in the provided text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a solid structural and functional characterization of the N-terminal DNA-binding domain of StbA, a protein involved in a non-canonical plasmid segregation system. The crystal structure at 1.9 Å is of good quality and reveals a clear HTH fold with similarity to PadR family regulators. The biochemical and in vivo data support the conclusion that the N-terminal domain carries DNA-binding and transcriptional repression activities, while the C-terminal domain is required for full segregation function. The work is of interest to the plasmid biology and bacterial cell biology communities, and the structural data provide a useful foundation for understanding this unusual segregation system. However, several technical aspects require clarification, particularly regarding structure validation, quantitative analysis of in vivo assays, and the interpretation of cooperative DNA binding.
+- **Who would be interested in the results, and why** Researchers studying plasmid segregation and partition systems, particularly those interested in non-canonical mechanisms that do not involve NTPase partners. The structural characterization of StbA will also be of interest to scientists studying HTH DNA-binding domains and PadR family transcriptional regulators. The broader bacterial cell biology community interested in nucleoid-associated plasmid positioning and the interplay between vertical and horizontal transmission will find the functional data relevant.
+- **Major strengths** The crystal structure is determined at good resolution with clear experimental phasing. The identification of the HTH fold and its relationship to PadR family proteins is well supported by structural comparison. The combination of structural, biochemical, and in vivo approaches provides a comprehensive view of domain function. The demonstration that the N-terminal domain alone retains partial activity in vivo is informative for understanding the domain architecture of StbA.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural analysis
+  - **Claim pointer** The crystal structure of StbA 1-75 is reported at 1.9 Å resolution with appropriate refinement statistics.
+  - **Evidence pointer** Table 1, Materials and methods (Structure determination)
+  - **Concern** The manuscript reports refinement statistics but does not provide electron density maps, validation metrics (such as Ramachandran outliers, rotamer outliers, clash score), or a figure showing representative electron density for the structure. Without these, the quality of the structure cannot be fully assessed. Additionally, the authors state that the asymmetric unit contains one monomer, but the biological assembly and oligomeric state in solution are not clearly reconciled with the crystallographic packing.
+  - **Why it matters** Structural claims are central to this manuscript. The community standard for structural papers requires demonstration of map quality and model validation. The discrepancy between the monomeric asymmetric unit, the dimeric full-length protein in solution, and the trimeric crystal packing suggested by the authors creates ambiguity about the functional oligomeric state.
+  - **Resolution test** Provide representative electron density maps (2Fo-Fc and Fo-Fc) for key regions of the structure, include full validation statistics (MolProbity or equivalent), and clearly discuss the relationship between the crystallographic packing, the solution oligomeric state, and the proposed functional assembly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for in vivo claims
+  - **Claim pointer** The N-terminal domain of StbA stabilizes R388 only partially in vivo, with loss rates of 1.3 ± 0.6% per generation compared to 2.5 ± 0.7% for the full deletion mutant.
+  - **Evidence pointer** Figure 6A, Results (Both domains of StbA are required for the control of partition and conjugative transfer)
+  - **Concern** The loss rates are presented as averages with standard deviations, but the number of independent experiments, the number of generations assessed, and the statistical significance of the difference between R388 stbA 1-75 and R388Δ(stbA) are not reported. The difference between 1.3% and 2.5% may or may not be statistically significant given the reported variability. Similarly, the conjugation frequency data in Figure 6B lack statistical analysis.
+  - **Why it matters** The conclusion that the N-terminal domain has partial activity depends on demonstrating that the loss rate for R388 stbA 1-75 is significantly different from both wild-type and the full deletion. Without statistical testing, the claim of partial activity is not rigorously established.
+  - **Resolution test** Report the number of biological replicates, the number of generations, and perform appropriate statistical tests (e.g., ANOVA with post-hoc comparisons) for both stability and conjugation assays. Provide effect sizes and confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of cooperative DNA binding
+  - **Claim pointer** StbA binds cooperatively to two consecutive stbDR sequences as a dimer and to four consecutive stbDR sequences as two dimers.
+  - **Evidence pointer** Figure 5, Results (StbA binding on the stbDRs)
+  - **Concern** The EMSA data show discrete complexes with substrates containing two or more stbDR sequences, but the stoichiometry of these complexes is inferred rather than directly demonstrated. The authors do not provide quantitative binding data (e.g., binding isotherms, Hill coefficients) to support the claim of cooperativity. The assignment of CI to a dimer and CII to two dimers is plausible but not directly proven.
+  - **Why it matters** The proposed model of cooperative binding to stbS is important for understanding how StbA assembles at the centromere-like site. Without quantitative binding analysis or direct stoichiometry determination, the model remains speculative.
+  - **Resolution test** Perform quantitative EMSA or alternative binding assays (e.g., fluorescence anisotropy, ITC) to determine binding affinities and Hill coefficients. Alternatively, use analytical ultracentrifugation or native mass spectrometry to determine the stoichiometry of protein-DNA complexes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Microscopy data interpretation
+  - **Claim pointer** R388 stbA 1-75 shows abnormal subcellular positioning with a pattern resembling that of R388Δ(stbA).
+  - **Evidence pointer** Figure 7, Results (Both domains of StbA are required for the control of partition and conjugative transfer)
+  - **Concern** The microscopy data are presented as representative images and a histogram of foci distribution. The statistical analysis (chi-square test) shows a p-value of 0.092 for the comparison between R388 stbA 1-75 and wild-type, which is not significant at conventional thresholds. The authors state that the distributions are "not highly significant" but then interpret the data as showing partial activity. The comparison between R388 stbA 1-75 and R388Δ(stbA) is also not significant (p=0.380), making it difficult to distinguish the mutant from the full deletion.
+  - **Why it matters** The claim that the N-terminal domain has partial activity in positioning relies on the microscopy data. If the distribution for R388 stbA 1-75 is not significantly different from either wild-type or the full deletion, the interpretation of partial activity is not well supported.
+  - **Resolution test** Increase the number of cells analyzed, perform more detailed quantitative analysis of foci position relative to cell poles and nucleoid, and report the statistical power of the comparisons. Consider time-lapse imaging to assess dynamic positioning behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** EMSA methodology
+  - **Evidence pointer** Materials and methods (Electrophoretic mobility shift assays)
+  - **Issue** The EMSA methods do not specify the protein concentration range tested, the buffer conditions for binding, or how the specificity of binding was verified beyond the use of competitor DNA.
+  - **Required correction** Provide full details of EMSA conditions, including protein concentration ranges, binding buffer composition, incubation times, and controls for specificity (e.g., mutated stbDR sequences).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 4
+  - **Evidence pointer** Results (Crystal structure of the N-terminal domain of StbA)
+  - **Issue** The structure figure does not show the electron density map, and the electrostatic surface representation is not accompanied by a scale bar or orientation markers.
+  - **Required correction** Add a panel showing representative electron density, and include orientation markers and scale bars for surface representations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors speculate about the evolutionary origin of the StbA system and its relationship to canonical partition systems, but do not discuss the limitations of their structural model in addressing this question.
+  - **Required correction** Add a brief paragraph acknowledging the limitations of the current data for evolutionary inferences and suggest future experiments that could test these hypotheses.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 2
+  - **Evidence pointer** Results (The transcriptional repressor activity of StbA is contained in its N-terminal domain)
+  - **Issue** The repression data are presented as percentages without indication of the dynamic range of the assay or the baseline activity of the reporters.
+  - **Required correction** Report absolute fluorescence values or fold-repression relative to the empty vector control, and include the number of replicates.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Supplementary data accessibility
+  - **Affected element** Supplementary figures
+  - **Evidence pointer** Supplementary data
+  - **Issue** The supplementary figures are referenced but not described in sufficient detail in the text to allow readers to understand what is shown.
+  - **Required correction** Add brief descriptions of each supplementary figure in the main text or in the supplementary figure legends.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structure validation), R1-M2 (statistical analysis of in vivo assays)
+- **Assessment against Nature-style criteria** Originality: The work is original in characterizing a novel type of segregation system that does not involve a plasmid-encoded NTPase. The structural data for StbA are new and provide a foundation for understanding this unusual system. Scientific importance: The findings are relevant to understanding plasmid biology and the diversity of segregation mechanisms, but the broader significance beyond plasmid biology is limited. The system is specific to a subset of plasmids, and the general principles that could be extracted are not fully articulated. Interdisciplinary readership: The work will primarily appeal to plasmid biologists, structural biologists, and bacterial cell biologists. The broader microbiology community may find the conjugation-segregation interplay interesting, but the appeal is relatively narrow. Technical soundness: The structural determination appears sound, but validation data are missing. The biochemical and in vivo assays are appropriate but lack quantitative rigor in some cases. Readability for nonspecialists: The manuscript is generally well written and accessible, but some sections assume familiarity with plasmid biology terminology. The abstract and introduction are clear, and the figures are informative.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural and functional data are valuable and likely to be of interest to the community, but the manuscript requires additional validation data and statistical analysis to fully support the claims.

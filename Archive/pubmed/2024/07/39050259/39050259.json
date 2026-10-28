@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "39050259",
+    "doi": "10.3389/fgene.2024.1375331",
+    "title": "Relationships between systemic sclerosis and atherosclerosis: screening for mitochondria-related biomarkers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Patients with systemic sclerosis (SSc) are known to have higher incidence of atherosclerosis (AS). Mitochondrial injuries in SSc can cause endothelial dysfunction, leading to AS; thus, mitochondria appear to be hubs linking SSc to AS. This study aimed to identify the mitochondria-related biomarkers of SSc and AS. METHODS: We identified common differentially expressed genes (DEGs) in the SSc (GSE58095) and AS (GSE100927) datasets of the Gene Expression Omnibus (GEO) database. Considering the intersection between genes with identical expression trends and mitochondrial genes, we used the least absolute shrinkage and selection operator (LASSO) as well as random forest (RF) algorithms to identify four mitochondria-related hub genes. Diagnostic nomograms were then constructed to predict the likelihood of SSc and AS. Next, we used the CIBERSORT algorithm to evaluate immune infiltration in both disorders, predicted the transcription factors for the hub genes, and validated these genes for the two datasets. RESULTS: A total of 112 genes and 13 mitochondria-related genes were identified; these genes were then significantly enriched for macrophage differentiation, collagen-containing extracellular matrix, collagen binding, antigen processing and presentation, leukocyte transendothelial migration, and apoptosis. Four mitochondria-related hub DEGs (IFI6, FSCN1, GAL, and SGCA) were also identified. The nomograms showed good diagnostic values for GSE58095 (area under the curve (AUC) = 0.903) and GSE100927 (AUC = 0.904). Further, memory B cells, gammadeltaT cells, M0 macrophages, and activated mast cells were significantly higher in AS, while the resting memory CD4(+) T cells were lower and M1 macrophages were higher in SSc; all of these were closely linked to multiple immune cells. Gene set enrichment analysis (GSEA) showed that IFI6 and FSCN1 were involved in immune-related pathways in both AS and SSc; GAL and SGCA are related to mitochondrial metabolism pathways in both SSc and AS. Twenty transcription factors (TFs) were predicted, where two TFs, namely BRCA1 and PPARgamma, were highly expressed in both SSc and AS. CONCLUSION: Four mitochondria-related biomarkers were identified in both SSc and AS, which have high diagnostic value and are associated with immune cell infiltration in both disorders. Hence, this study provides new insights into the pathological mechanisms underlying SSc and AS. The specific roles and action mechanisms of these genes require further clinical validation in SSc patients with AS.",
+    "keywords": [
+      "atherosclerosis",
+      "immune infiltration",
+      "machine learning",
+      "mitochondria-related genes",
+      "systemic sclerosis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Fei",
+        "Lyu, Xiao Yan",
+        "Qin, Yi Ming",
+        "Xie, Mei Juan"
+      ],
+      "short_names": [
+        "Wang F",
+        "Lyu XY",
+        "Qin YM",
+        "Xie MJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, West China Hospital, Sichuan University, Chengdu, China.",
+        "Laboratory of Dermatology, Clinical Institute of Inflammation and Immunology, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Dermatology, West China Hospital, Sichuan University, Chengdu, China.",
+        "Laboratory of Dermatology, Clinical Institute of Inflammation and Immunology, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Dermatology, West China Hospital, Sichuan University, Chengdu, China.",
+        "Laboratory of Dermatology, Clinical Institute of Inflammation and Immunology, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Dermatology, West China Hospital, Sichuan University, Chengdu, China.",
+        "Laboratory of Dermatology, Clinical Institute of Inflammation and Immunology, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Fei",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, West China Hospital, Sichuan University, Chengdu, China.",
+          "Laboratory of Dermatology, Clinical Institute of Inflammation and Immunology, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Xiao Yan",
+        "short_name": "Lyu XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, West China Hospital, Sichuan University, Chengdu, China.",
+          "Laboratory of Dermatology, Clinical Institute of Inflammation and Immunology, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Yi Ming",
+        "short_name": "Qin YM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, West China Hospital, Sichuan University, Chengdu, China.",
+          "Laboratory of Dermatology, Clinical Institute of Inflammation and Immunology, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Mei Juan",
+        "short_name": "Xie MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, West China Hospital, Sichuan University, Chengdu, China.",
+          "Laboratory of Dermatology, Clinical Institute of Inflammation and Immunology, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/26 12:48",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "41462662",
+      "40836955",
+      "40767529",
+      "40539001",
+      "40206381"
+    ],
+    "refs": [
+      "38289515",
+      "38066767",
+      "37894973",
+      "37759971",
+      "37642880",
+      "37640261",
+      "37596693",
+      "37468737",
+      "37443834",
+      "37107177",
+      "37046189",
+      "36632466",
+      "36598778",
+      "36534350",
+      "36505053",
+      "36465175",
+      "36459823",
+      "36304460",
+      "35771146",
+      "35769143",
+      "35729674",
+      "35681530",
+      "35663995",
+      "35650637",
+      "35571620",
+      "35295271",
+      "35152831",
+      "34897380",
+      "34262566",
+      "33972752",
+      "33922418",
+      "33253099",
+      "33076422",
+      "32570831",
+      "32324120",
+      "32220622",
+      "32155866",
+      "32042551",
+      "32026209",
+      "31821440",
+      "31509745",
+      "31142663",
+      "30599005",
+      "30112717",
+      "29899394",
+      "29054471",
+      "28528914",
+      "28413064",
+      "27893714",
+      "27405985",
+      "26217927",
+      "23989956",
+      "21538320",
+      "20517296",
+      "17093289"
+    ],
+    "similar": [
+      "39050259",
+      "38348042",
+      "38371524",
+      "37434203",
+      "38291374",
+      "37649719",
+      "35928610",
+      "35966794",
+      "37582718",
+      "37980550",
+      "38044432",
+      "36211422",
+      "36518216",
+      "37033969",
+      "38783263",
+      "36345357",
+      "38115636",
+      "37063926",
+      "35845512",
+      "36110430",
+      "36460097",
+      "38384969",
+      "38384585",
+      "36829193",
+      "36470144",
+      "35958412",
+      "38899746",
+      "35663995",
+      "36148059",
+      "37465678",
+      "37173646",
+      "37403234",
+      "37063958",
+      "37732314",
+      "39188323",
+      "37359529",
+      "37783761",
+      "35713363",
+      "35264872",
+      "37359526",
+      "37849750",
+      "35794640",
+      "37287971",
+      "37641197",
+      "36468038",
+      "38774875",
+      "38903815",
+      "37274806",
+      "38862450",
+      "38900395",
+      "39402101",
+      "36671424",
+      "35399247",
+      "38499050",
+      "36704339",
+      "38951833",
+      "33598484",
+      "36589450",
+      "36110953",
+      "38863714",
+      "36311708",
+      "36742332",
+      "39006493",
+      "37622114",
+      "38650649",
+      "36660690",
+      "36225941",
+      "39026663",
+      "38283345",
+      "38221616",
+      "36506310",
+      "35764238",
+      "34107850",
+      "36238290",
+      "35381314",
+      "36860337",
+      "33879726",
+      "36035208",
+      "37128203",
+      "37509492",
+      "36968495",
+      "34321013",
+      "36438903",
+      "37115484",
+      "38711508",
+      "35911963",
+      "36699262",
+      "37173673",
+      "37635936",
+      "37622120",
+      "34484236",
+      "36746103",
+      "38393419",
+      "37974210",
+      "38333413",
+      "36991225",
+      "36341378",
+      "37860011",
+      "39310903",
+      "39130409",
+      "39130750",
+      "39070220"
+    ],
+    "review": [
+      "39050259"
+    ],
+    "pmc": [
+      "11266065"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39050259/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2024.1375331",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

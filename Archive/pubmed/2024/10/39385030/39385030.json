@@ -1,0 +1,750 @@
+{
+  "identity": {
+    "pmid": "39385030",
+    "doi": "10.1038/s41586-024-08031-6",
+    "title": "AKT and EZH2 inhibitors kill TNBCs by hijacking mechanisms of involution."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer (TNBC) is the most aggressive breast cancer subtype and has the highest rate of recurrence(1). The predominant standard of care for advanced TNBC is systemic chemotherapy with or without immunotherapy; however, responses are typically short lived(1,2). Thus, there is an urgent need to develop more effective treatments. Components of the PI3K pathway represent plausible therapeutic targets; more than 70% of TNBCs have alterations in PIK3CA, AKT1 or PTEN(3-6). However, in contrast to hormone-receptor-positive tumours, it is still unclear whether or how triple-negative disease will respond to PI3K pathway inhibitors(7). Here we describe a promising AKT-inhibitor-based therapeutic combination for TNBC. Specifically, we show that AKT inhibitors synergize with agents that suppress the histone methyltransferase EZH2 and promote robust tumour regression in multiple TNBC models in vivo. AKT and EZH2 inhibitors exert these effects by first cooperatively driving basal-like TNBC cells into a more differentiated, luminal-like state, which cannot be effectively induced by either agent alone. Once TNBCs are differentiated, these agents kill them by hijacking signals that normally drive mammary gland involution. Using a machine learning approach, we developed a classifier that can be used to predict sensitivity. Together, these findings identify a promising therapeutic strategy for this highly aggressive tumour type and illustrate how deregulated epigenetic enzymes can insulate tumours from oncogenic vulnerabilities. These studies also reveal how developmental tissue-specific cell death pathways may be co-opted for therapeutic benefit.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Female",
+      "Humans",
+      "Mice",
+      "*Antineoplastic Agents/administration & dosage/pharmacology/therapeutic use",
+      "Cell Death/drug effects",
+      "Cell Differentiation/drug effects",
+      "Cell Line, Tumor",
+      "Drug Synergism",
+      "Drug Therapy, Combination",
+      "*Enhancer of Zeste Homolog 2 Protein/metabolism/antagonists & inhibitors",
+      "Machine Learning",
+      "Organ Specificity",
+      "*Protein Kinase Inhibitors/administration & dosage/pharmacology/therapeutic use",
+      "*Proto-Oncogene Proteins c-akt/antagonists & inhibitors/metabolism",
+      "*Triple Negative Breast Neoplasms/drug therapy/pathology/metabolism",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schade, Amy E",
+        "Perurena, Naiara",
+        "Yang, Yoona",
+        "Rodriguez, Carrie L",
+        "Krishnan, Anjana",
+        "Gardner, Alycia",
+        "Loi, Patrick",
+        "Xu, Yilin",
+        "Nguyen, Van T M",
+        "Mastellone, G M",
+        "Pilla, Natalie F",
+        "Watanabe, Marina",
+        "Ota, Keiichi",
+        "Davis, Rachel A",
+        "Mattioli, Kaia",
+        "Xiang, Dongxi",
+        "Zoeller, Jason J",
+        "Lin, Jia-Ren",
+        "Morganti, Stefania",
+        "Garrido-Castro, Ana C",
+        "Tolaney, Sara M",
+        "Li, Zhe",
+        "Barbie, David A",
+        "Sorger, Peter K",
+        "Helin, Kristian",
+        "Santagata, Sandro",
+        "Knott, Simon R V",
+        "Cichowski, Karen"
+      ],
+      "short_names": [
+        "Schade AE",
+        "Perurena N",
+        "Yang Y",
+        "Rodriguez CL",
+        "Krishnan A",
+        "Gardner A",
+        "Loi P",
+        "Xu Y",
+        "Nguyen VTM",
+        "Mastellone GM",
+        "Pilla NF",
+        "Watanabe M",
+        "Ota K",
+        "Davis RA",
+        "Mattioli K",
+        "Xiang D",
+        "Zoeller JJ",
+        "Lin JR",
+        "Morganti S",
+        "Garrido-Castro AC",
+        "Tolaney SM",
+        "Li Z",
+        "Barbie DA",
+        "Sorger PK",
+        "Helin K",
+        "Santagata S",
+        "Knott SRV",
+        "Cichowski K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0874-3389",
+        "ORCID: 0000-0002-7446-8816",
+        "ORCID: 0000-0002-6796-8054",
+        "ORCID: 0000-0003-2185-5174",
+        "ORCID: 0000-0001-8476-3803",
+        "ORCID: 0009-0002-5696-7475",
+        "ORCID: 0000-0002-9971-3590",
+        "ORCID: 0000-0003-3531-2111",
+        "ORCID: 0000-0003-4702-7705",
+        "ORCID: 0000-0001-5284-9944",
+        "ORCID: 0000-0002-5989-6636",
+        "ORCID: 0000-0002-5940-8671",
+        "ORCID: 0000-0002-3364-1838",
+        "ORCID: 0000-0003-1975-6097",
+        "ORCID: 0000-0002-7528-9668",
+        "ORCID: 0000-0003-3940-3782"
+      ],
+      "affiliations": [
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Cedars-Sinai Samuel Oschin Comprehensive Cancer Institute, Los Angeles, CA, USA.",
+        "Department of Biomedical Sciences, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+        "Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Division of Cancer Biology, Institute of Cancer Research, London, UK.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+        "Department of Cell Biology, Harvard Medical School, Boston, MA, USA.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+        "Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+        "Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Systems Biology, Harvard Medical School, Boston, MA, USA.",
+        "Division of Cancer Biology, Institute of Cancer Research, London, UK.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+        "Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Department of Systems Biology, Harvard Medical School, Boston, MA, USA.",
+        "Cedars-Sinai Samuel Oschin Comprehensive Cancer Institute, Los Angeles, CA, USA.",
+        "Department of Biomedical Sciences, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA. kcichowski@rics.bwh.harvard.edu.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, USA. kcichowski@rics.bwh.harvard.edu.",
+        "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA. kcichowski@rics.bwh.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schade, Amy E",
+        "short_name": "Schade AE",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Perurena, Naiara",
+        "short_name": "Perurena N",
+        "identifiers": [
+          "0000-0003-0874-3389"
+        ],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Yoona",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0000-0002-7446-8816"
+        ],
+        "affiliations": [
+          "Cedars-Sinai Samuel Oschin Comprehensive Cancer Institute, Los Angeles, CA, USA.",
+          "Department of Biomedical Sciences, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rodriguez, Carrie L",
+        "short_name": "Rodriguez CL",
+        "identifiers": [
+          "0000-0002-6796-8054"
+        ],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Krishnan, Anjana",
+        "short_name": "Krishnan A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gardner, Alycia",
+        "short_name": "Gardner A",
+        "identifiers": [
+          "0000-0003-2185-5174"
+        ],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Loi, Patrick",
+        "short_name": "Loi P",
+        "identifiers": [
+          "0000-0001-8476-3803"
+        ],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Yilin",
+        "short_name": "Xu Y",
+        "identifiers": [
+          "0009-0002-5696-7475"
+        ],
+        "affiliations": [
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+          "Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.",
+          "Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Van T M",
+        "short_name": "Nguyen VTM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cancer Biology, Institute of Cancer Research, London, UK."
+        ]
+      },
+      {
+        "full_name": "Mastellone, G M",
+        "short_name": "Mastellone GM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Pilla, Natalie F",
+        "short_name": "Pilla NF",
+        "identifiers": [
+          "0000-0002-9971-3590"
+        ],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Watanabe, Marina",
+        "short_name": "Watanabe M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Ota, Keiichi",
+        "short_name": "Ota K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Davis, Rachel A",
+        "short_name": "Davis RA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mattioli, Kaia",
+        "short_name": "Mattioli K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Xiang, Dongxi",
+        "short_name": "Xiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Zoeller, Jason J",
+        "short_name": "Zoeller JJ",
+        "identifiers": [
+          "0000-0003-3531-2111"
+        ],
+        "affiliations": [
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+          "Department of Cell Biology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Jia-Ren",
+        "short_name": "Lin JR",
+        "identifiers": [
+          "0000-0003-4702-7705"
+        ],
+        "affiliations": [
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+          "Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.",
+          "Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Morganti, Stefania",
+        "short_name": "Morganti S",
+        "identifiers": [
+          "0000-0001-5284-9944"
+        ],
+        "affiliations": [
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Garrido-Castro, Ana C",
+        "short_name": "Garrido-Castro AC",
+        "identifiers": [
+          "0000-0002-5989-6636"
+        ],
+        "affiliations": [
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Tolaney, Sara M",
+        "short_name": "Tolaney SM",
+        "identifiers": [
+          "0000-0002-5940-8671"
+        ],
+        "affiliations": [
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA.",
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Zhe",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Barbie, David A",
+        "short_name": "Barbie DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Sorger, Peter K",
+        "short_name": "Sorger PK",
+        "identifiers": [
+          "0000-0002-3364-1838"
+        ],
+        "affiliations": [
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+          "Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.",
+          "Department of Systems Biology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Helin, Kristian",
+        "short_name": "Helin K",
+        "identifiers": [
+          "0000-0003-1975-6097"
+        ],
+        "affiliations": [
+          "Division of Cancer Biology, Institute of Cancer Research, London, UK."
+        ]
+      },
+      {
+        "full_name": "Santagata, Sandro",
+        "short_name": "Santagata S",
+        "identifiers": [
+          "0000-0002-7528-9668"
+        ],
+        "affiliations": [
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA.",
+          "Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.",
+          "Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+          "Department of Systems Biology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Knott, Simon R V",
+        "short_name": "Knott SRV",
+        "identifiers": [],
+        "affiliations": [
+          "Cedars-Sinai Samuel Oschin Comprehensive Cancer Institute, Los Angeles, CA, USA.",
+          "Department of Biomedical Sciences, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cichowski, Karen",
+        "short_name": "Cichowski K",
+        "identifiers": [
+          "0000-0003-3940-3782"
+        ],
+        "affiliations": [
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA. kcichowski@rics.bwh.harvard.edu.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, USA. kcichowski@rics.bwh.harvard.edu.",
+          "Ludwig Center at Harvard, Harvard Medical School, Boston, MA, USA. kcichowski@rics.bwh.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 00:37",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "42552467",
+      "42520932",
+      "42423852",
+      "42405143",
+      "42121857",
+      "41912890",
+      "41799498",
+      "41606266",
+      "41545753",
+      "41516322",
+      "41509982",
+      "41415713",
+      "41383594",
+      "41318657",
+      "41315520",
+      "41307753",
+      "41216268",
+      "41206131",
+      "41155330",
+      "41136937",
+      "41093864",
+      "41068180",
+      "41036949",
+      "40978060",
+      "40978031",
+      "40925719",
+      "40894056",
+      "40832297",
+      "40766180",
+      "40688355",
+      "40685433",
+      "40608215",
+      "40593433",
+      "40514071",
+      "40279411",
+      "40146248",
+      "40032852"
+    ],
+    "refs": [
+      "37934086",
+      "36950379",
+      "35580060",
+      "35221336",
+      "34860318",
+      "34591612",
+      "34272041",
+      "34264439",
+      "33899001",
+      "33785602",
+      "33707236",
+      "33246021",
+      "32983983",
+      "32546577",
+      "32424334",
+      "32166598",
+      "31968251",
+      "31935369",
+      "31841354",
+      "31410199",
+      "31251913",
+      "31091374",
+      "30951652",
+      "30679171",
+      "30667505",
+      "30455304",
+      "30297358",
+      "30038220",
+      "28263959",
+      "28194015",
+      "28079019",
+      "27658528",
+      "27310713",
+      "27147599",
+      "27135926",
+      "27044867",
+      "26771021",
+      "26704973",
+      "26250110",
+      "25516281",
+      "25260700",
+      "24799436",
+      "23712803",
+      "23456611",
+      "23375371",
+      "23104886",
+      "22872785",
+      "22722201",
+      "22517427",
+      "22388286",
+      "22081431",
+      "21633166",
+      "21248841",
+      "21154709",
+      "20346151",
+      "19847166",
+      "19661437",
+      "19337320",
+      "18798982",
+      "18676830",
+      "18443585",
+      "17360431",
+      "17344414",
+      "17187062",
+      "17129787",
+      "16288288",
+      "16199517",
+      "15805248",
+      "14500907",
+      "12808457",
+      "12798140",
+      "12700340",
+      "11803463",
+      "11376107",
+      "10521404"
+    ],
+    "similar": [
+      "39385030",
+      "32087759",
+      "25103565",
+      "39591692",
+      "30809307",
+      "31101835",
+      "39024548",
+      "39541354",
+      "39244005",
+      "23601074",
+      "28486691",
+      "31819273",
+      "41799498",
+      "26546619",
+      "31388935",
+      "29417298",
+      "40619273",
+      "40253761",
+      "30668401",
+      "32546577",
+      "35026293",
+      "24335962",
+      "28465444",
+      "33036754",
+      "32042320",
+      "27255535",
+      "41679198",
+      "32725802",
+      "38630392",
+      "39327614",
+      "30845991",
+      "40497697",
+      "29344641",
+      "31464004",
+      "41866881",
+      "40649917",
+      "41015102",
+      "30957988",
+      "38791429",
+      "22812567",
+      "31968251",
+      "41576687",
+      "22703543",
+      "39698883",
+      "40217291",
+      "23689832",
+      "35761360",
+      "41273284",
+      "24563619",
+      "41318657",
+      "38900236",
+      "30563890",
+      "31480338",
+      "31631978",
+      "39556022",
+      "39803692",
+      "25583261",
+      "40076586",
+      "28962890",
+      "24708766",
+      "31704972",
+      "30232145",
+      "41315520",
+      "25212826",
+      "26824320",
+      "27528706",
+      "39121480",
+      "33669671",
+      "30289981",
+      "32920200",
+      "31527768",
+      "31520748",
+      "39899169",
+      "29669287",
+      "31754897",
+      "38969297",
+      "25350956",
+      "30266800",
+      "31527644",
+      "29578538",
+      "26826118",
+      "31090219",
+      "38630910",
+      "27893038",
+      "40440094",
+      "40551232",
+      "41559059",
+      "40892182",
+      "27998973",
+      "25398829",
+      "28606920",
+      "33542435",
+      "33954864",
+      "40729064",
+      "40849803",
+      "39107323",
+      "32324988",
+      "21715568",
+      "33412224",
+      "26721945"
+    ],
+    "review": [
+      "39385030",
+      "29417298",
+      "38630392",
+      "31520748"
+    ],
+    "pmc": [
+      "11578877"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-024-08031-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39385030/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse205729",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

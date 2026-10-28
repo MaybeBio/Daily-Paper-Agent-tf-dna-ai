@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "41388523",
+    "doi": "10.1186/s12885-025-15454-5",
+    "title": "Integrative bulk and single-cell transcriptomic profiling identifies core gene networks and potential therapeutic targets in glioma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioma is the most common primary malignant tumor of the central nervous system and is associated with an extremely poor prognosis. Given its highly complex molecular landscape, there is an urgent need to identify novel diagnostic biomarkers. This study systematically identified core glioma genes through multi-cohort integration and single-cell analysis. METHODS: Five Gene Expression Omnibus (GEO) transcriptomic datasets (GSE109857, GSE15824, GSE35158, GSE4290, and GSE90886; 504 samples) were integrated, and batch effects were corrected using ComBat. Differentially expressed genes (DEGs) were identified and combined with weighted gene co-expression network analysis (WGCNA) to obtain candidate modules. Feature genes were further screened using multiple approaches, including CytoHubba, least absolute shrinkage and selection operator (LASSO) regression, support vector machine-recursive feature elimination (SVM-RFE), and random forest (RF) analysis. Validation was performed using external GEO datasets, receiver operating characteristic (ROC) analysis, and quantitative real-time polymerase chain reaction (qRT-PCR) based on 69 clinical samples. Additional analyses included gene set enrichment analysis (GSEA), CIBERSORT-based immune infiltration profiling, expression mapping across three single-cell RNA sequencing (scRNA-seq) datasets (GSE273274, GSE162631, and GSE182109), and construction of competing endogenous RNA (ceRNA) and transcription factor (TF) networks, as well as drug enrichment analysis. RESULTS: A total of 409 glioma-related candidate genes were identified. Six hub genes, SYP, SYN1, RAB3A, SLC17A7, SYN2, and STXBP1, were consistently identified across all algorithms. All six genes were significantly downregulated in glioma, as confirmed by GEO datasets (area under the curve [AUC]: 0.787-0.802) and clinical qRT-PCR validation. GSEA revealed that low expression of these genes was associated with activation of the cell cycle, complement and coagulation cascades, and immune dysregulation. Immune infiltration analysis showed negative correlations with M1/M2 macrophages and activated natural killer (NK) cells. Single-cell analyses indicated that these hub genes were primarily enriched in tumor-propagating cell (TPC)-like tumor cells but were markedly reduced in glioma core regions. Competing endogenous RNA (ceRNA)/TF networks and drug enrichment analyses suggested multilayered regulatory mechanisms and associations with neurotransmitter-related compounds. CONCLUSION: The six identified hub genes are consistently downregulated in glioma and exhibit strong diagnostic potential. Their close association with the immune microenvironment and tumor-cell lineage highlights their value as biomarkers and potential therapeutic targets.",
+    "keywords": [
+      "CeRNA network",
+      "Core genes",
+      "Drug enrichment analysis",
+      "Glioma",
+      "Immune infiltration",
+      "Machine learning",
+      "Single-cell transcriptome",
+      "Transcription factors",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioma/genetics/drug therapy/pathology",
+      "*Gene Regulatory Networks",
+      "*Gene Expression Profiling/methods",
+      "*Single-Cell Analysis/methods",
+      "Gene Expression Regulation, Neoplastic",
+      "*Biomarkers, Tumor/genetics",
+      "*Brain Neoplasms/genetics/drug therapy/pathology",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Xingxing",
+        "Gui, Yongping",
+        "Yang, Yu",
+        "Li, Jie",
+        "Liang, Aijun"
+      ],
+      "short_names": [
+        "Jiang X",
+        "Gui Y",
+        "Yang Y",
+        "Li J",
+        "Liang A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China.",
+        "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China.",
+        "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China.",
+        "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China.",
+        "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China. 22251881@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Xingxing",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Gui, Yongping",
+        "short_name": "Gui Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yu",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jie",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Aijun",
+        "short_name": "Liang A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 92 Aiguo Road, Donghu District, Nanchang, Jiangxi Province, 330006, China. 22251881@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Dec 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/13 06:29",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [
+      "42677124"
+    ],
+    "refs": [
+      "40861097",
+      "40446574",
+      "40244055",
+      "40133751",
+      "40011944",
+      "39933531",
+      "39818381",
+      "39510072",
+      "39128756",
+      "38712663",
+      "37622116",
+      "37582760",
+      "37298344",
+      "36853018",
+      "36072978",
+      "35874760",
+      "34864309",
+      "34136394",
+      "33969375",
+      "33766119",
+      "33396284",
+      "32594352",
+      "32321873",
+      "31883794",
+      "31231472",
+      "30392758",
+      "30256068",
+      "30189035",
+      "30187121",
+      "28507382",
+      "28441400",
+      "28281173",
+      "27685921",
+      "26876757",
+      "26713745",
+      "25944528",
+      "25943888",
+      "25749033",
+      "25521941",
+      "24965146",
+      "23429602",
+      "23250796",
+      "22724020",
+      "19276672",
+      "16646834",
+      "15758010",
+      "10871275"
+    ],
+    "similar": [
+      "41388523",
+      "41146237",
+      "41504052",
+      "41200172",
+      "40997906",
+      "41013556",
+      "39923303",
+      "35713363",
+      "39509434",
+      "41300841",
+      "41291841",
+      "36532015",
+      "39375405",
+      "38711508",
+      "39142001",
+      "40328901",
+      "40296690",
+      "41479901",
+      "40406620",
+      "38371524",
+      "41132349",
+      "40313958",
+      "40312440",
+      "39182484",
+      "41137290",
+      "41107929",
+      "41006377",
+      "40860289",
+      "40129981",
+      "41200169",
+      "40764361",
+      "40618698",
+      "38656728",
+      "39586719",
+      "39139563",
+      "41299753",
+      "40263537",
+      "40084401",
+      "41432483",
+      "41120378",
+      "40711603",
+      "40019588",
+      "41415264",
+      "40969769",
+      "40405297",
+      "41112767",
+      "41219826",
+      "39263286",
+      "41220724",
+      "37732314",
+      "40630623",
+      "40821971",
+      "40768057",
+      "38650649",
+      "33635875",
+      "38863714",
+      "41080564",
+      "40967560",
+      "35278479",
+      "41224720",
+      "34107850",
+      "40574839",
+      "38476236",
+      "39713769",
+      "35938015",
+      "41052072",
+      "34536521",
+      "40256740",
+      "35764238",
+      "39763654",
+      "41237469",
+      "34840971",
+      "40097519",
+      "41044520",
+      "37259023",
+      "37821907",
+      "38774864",
+      "37454542",
+      "40386252",
+      "41208987",
+      "39067546",
+      "39904830",
+      "41257259",
+      "41198554",
+      "39026663",
+      "41324863",
+      "41425595",
+      "41310117",
+      "39805933",
+      "40766309",
+      "39609718",
+      "40918403",
+      "39221762",
+      "40704466",
+      "38755717",
+      "40761790",
+      "38291374",
+      "38847472",
+      "39690389",
+      "41006883"
+    ],
+    "review": [
+      "41388523"
+    ],
+    "pmc": [
+      "12817720"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-15454-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41388523/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

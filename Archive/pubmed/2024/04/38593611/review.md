@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors report synthesis and characterization of two copper(II) complexes derived from octanoic hydrazide Schiff base ligands, their solution behavior, DNA binding mode via docking and fluorescence quenching, and in vitro cytotoxicity against two cancer cell lines, with complex 2 showing higher efficacy attributed to dissociation into monomeric units.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, crystallographic data, or statistical analyses provided
+- **Missing materials affecting confidence** Full experimental methods, crystallographic parameters, spectroscopic data, docking protocols, cytotoxicity dose-response curves, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible but incompletely supported account of two copper(II) complexes with potential anticancer activity. The synthetic strategy and characterization approach are conventional for the field. However, the abstract contains several ambiguities and inconsistencies that prevent a rigorous evaluation of the central claims. The solution speciation description is confusing, the DNA binding mode conclusion is based solely on docking without experimental validation, and the cytotoxicity data are presented without quantitative context. The claim that complex 2 is more effective due to dissociation into two units is mechanistically speculative and not supported by the evidence described.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, particularly those focused on metal-based anticancer drug design, copper coordination chemistry, and DNA-targeting agents. The work may also interest investigators studying structure-activity relationships of hydrazone-derived metal complexes and their solution dynamics.
+- **Major strengths** The study combines multiple characterization techniques including single-crystal XRD and DFT calculations, which is appropriate for establishing solid-state structures. The consideration of solution-phase speciation is a valuable aspect, as many metal complexes undergo transformation in biological media. The use of two different cancer cell lines provides some breadth in assessing cytotoxic potential.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clarity and internal consistency of solution speciation claims
+  - **Claim pointer** The abstract states that in water-containing solution and in DMSO, complexes 1 and 2 undergo partial transformation with formation of [Cu(Hpmoh)(NO(3))(NCS)] (1) and [Cu(Hpmoh)(NO(3))(H(2)O/DMSO)] (1a) in one system and [Cu(peoh)(N(3))] (2a) in the other.
+  - **Evidence pointer** Abstract, solution behavior section
+  - **Concern** The description is internally inconsistent. Complex 1 is listed both as the original complex and as a transformation product in the same system. It is unclear whether 1 remains intact alongside 1a, or whether the notation is erroneous. Additionally, complex 2 is stated to transform into 2a, but the formula [Cu(peoh)(N(3))] is identical to the original complex 2, making the distinction between 2 and 2a unintelligible.
+  - **Why it matters** The solution speciation is a central component of the mechanistic argument, particularly for explaining differential cytotoxicity. If the species identities are not clearly defined, the subsequent docking and biological interpretations are built on an ambiguous foundation.
+  - **Resolution test** The authors must clarify the exact speciation scheme, including which species are present under which conditions, and provide unambiguous labeling of each species with distinct formulas or structural descriptors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for DNA binding mode
+  - **Claim pointer** Docking simulations confirmed that intercalation is the preferred binding mode with DNA for 1, 1a and 2a, but suggested that minor groove binding is also possible.
+  - **Evidence pointer** Abstract, docking simulations section
+  - **Concern** The conclusion that intercalation is the preferred binding mode rests entirely on computational docking. The fluorescence quenching of the DNA-ethidium bromide conjugate is consistent with displacement of ethidium bromide, which could occur through intercalation or other mechanisms such as external binding or groove binding. No experimental technique that directly distinguishes binding modes, such as viscosity measurements, circular dichroism, or melting temperature studies, is mentioned.
+  - **Why it matters** The title and framing of the work emphasize interaction with CT-DNA. If the binding mode is not experimentally validated, the central structural hypothesis of the study remains unconfirmed.
+  - **Resolution test** Provide experimental evidence for intercalation, such as DNA viscosity changes, thermal denaturation studies, or competitive binding assays with a known groove binder, to corroborate the docking predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for cytotoxicity claims
+  - **Claim pointer** Both 1 and 2 were examined for anti-cancer activity using MDA-MB-231 and A375 cell lines through in vitro MTT assay which suggest comparable cancer cell killing efficacy, with the higher effectiveness of 2 due to the dissociation into two [Cu(peoh)(N(3))] units.
+  - **Evidence pointer** Abstract, cytotoxicity section
+  - **Concern** No quantitative data are provided, such as IC50 values, dose-response ranges, or statistical comparisons. The claim of "comparable" efficacy followed by "higher effectiveness" of 2 is contradictory without numerical context. The mechanistic explanation that dissociation into two units enhances activity is speculative and not supported by any experimental evidence described in the abstract.
+  - **Why it matters** Cytotoxicity is a primary outcome of the study. Without quantitative dose-response data and statistical analysis, the relative efficacy of the two complexes cannot be assessed, and the proposed mechanism for the difference is unfounded.
+  - **Resolution test** Provide IC50 values with confidence intervals for both complexes in both cell lines, include statistical analysis of differences, and present experimental evidence supporting the dissociation mechanism, such as speciation studies under biological conditions or comparative studies with monomeric analogs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Typographical and formatting errors
+  - **Affected element** Chemical formulas and ligand abbreviations
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The formulas contain inconsistent spacing and notation, such as "[Cu(Hpmoh)(NO(3))(NCS)] (1) and [Cu(peoh)(N(3))](2) (2)" where the "(2)" appears duplicated. The ligand abbreviations Hpmoh and Hpeoh are introduced but their full chemical names are not provided in the abstract.
+  - **Required correction** Correct the formula notation and provide full ligand names or structural drawings for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Units and constants
+  - **Affected element** Fluorescence quenching constant
+  - **Evidence pointer** Abstract, fluorescence quenching section
+  - **Issue** The quenching constant is reported as "around 10(4) M(-1) s(-1)". The units for a quenching constant in fluorescence studies are typically M(-1) (Stern-Volmer constant) or M(-1) s(-1) (bimolecular quenching rate constant). The use of both inverse molar and inverse molar per second is ambiguous.
+  - **Required correction** Clarify which constant is being reported and use the correct units accordingly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of characterization
+  - **Affected element** Elemental analysis
+  - **Evidence pointer** Abstract, characterization section
+  - **Issue** The abstract lists FT-IR, UV-Vis, IR, EPR, and XRD as characterization techniques. IR and FT-IR are redundant as listed. Elemental analysis, which is standard for establishing purity of new metal complexes, is not mentioned.
+  - **Required correction** Remove redundancy and state whether elemental analysis was performed; if so, include results in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Cell line selection rationale
+  - **Affected element** Cytotoxicity assay
+  - **Evidence pointer** Abstract, cytotoxicity section
+  - **Issue** The choice of MDA-MB-231 and A375 cell lines is stated but no rationale is provided for selecting these particular cancer types. No normal cell line is mentioned for assessing selectivity.
+  - **Required correction** Provide justification for cell line selection and consider including a non-cancerous cell line to evaluate selectivity index.
+
+## Risk / unsupported claims
+- The claim that complex 2 shows higher effectiveness due to dissociation into two [Cu(peoh)(N(3))] units is unsupported by any experimental evidence presented in the abstract.
+- The conclusion that intercalation is the preferred DNA binding mode is unsupported by direct experimental evidence; docking alone is insufficient.
+- The statement that complexes 1 and 2 exhibit "comparable cancer cell killing efficacy" followed by "higher effectiveness of 2" is internally contradictory and not quantitatively supported.
+- The solution speciation scheme is unclear and internally inconsistent, making related claims about transformation products not fully assessable.
+- The quenching constant value and its units are ambiguous, preventing evaluation of the binding affinity magnitude.

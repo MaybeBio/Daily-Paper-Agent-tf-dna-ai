@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "35041641",
+    "doi": "10.1371/journal.pcbi.1009745",
+    "title": "Controlling gene expression timing through gene regulatory architecture."
+  },
+  "content": {
+    "abstract": "Gene networks typically involve the regulatory control of multiple genes with related function. This connectivity enables correlated control of the levels and timing of gene expression. Here we study how gene expression timing in the single-input module motif can be encoded in the regulatory DNA of a gene. Using stochastic simulations, we examine the role of binding affinity, TF regulatory function and network size in controlling the mean first-passage time to reach a fixed fraction of steady-state expression for both an auto-regulated TF gene and a target gene. We also examine how the variability in first-passage time depends on these factors. We find that both network size and binding affinity can dramatically speed up or slow down the response time of network genes, in some cases predicting more than a 100-fold change compared to that for a constitutive gene. Furthermore, these factors can also significantly impact the fidelity of this response. Importantly, these effects do not occur at \"extremes\" of network size or binding affinity, but rather in an intermediate window of either quantity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Computer Simulation",
+      "Gene Expression Regulation/*genetics",
+      "Gene Regulatory Networks/*genetics",
+      "Genes, Regulator/genetics",
+      "*Models, Genetic",
+      "Protein Binding",
+      "Transcription Factors/*genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ali, Md Zulfikar",
+        "Brewster, Robert C"
+      ],
+      "short_names": [
+        "Ali MZ",
+        "Brewster RC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7054-0059",
+        "ORCID: 0000-0002-7656-4086"
+      ],
+      "affiliations": [
+        "Department of Systems Biology, University of Massachusetts Chan Medical School, Worcester, Massachusetts, United States of America.",
+        "Department of Microbiology and Physiological Systems, University of Massachusetts Chan Medical School, Worcester, Massachusetts, United States of America.",
+        "Department of Systems Biology, University of Massachusetts Chan Medical School, Worcester, Massachusetts, United States of America.",
+        "Department of Microbiology and Physiological Systems, University of Massachusetts Chan Medical School, Worcester, Massachusetts, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ali, Md Zulfikar",
+        "short_name": "Ali MZ",
+        "identifiers": [
+          "0000-0002-7054-0059"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, University of Massachusetts Chan Medical School, Worcester, Massachusetts, United States of America.",
+          "Department of Microbiology and Physiological Systems, University of Massachusetts Chan Medical School, Worcester, Massachusetts, United States of America."
+        ]
+      },
+      {
+        "full_name": "Brewster, Robert C",
+        "short_name": "Brewster RC",
+        "identifiers": [
+          "0000-0002-7656-4086"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, University of Massachusetts Chan Medical School, Worcester, Massachusetts, United States of America.",
+          "Department of Microbiology and Physiological Systems, University of Massachusetts Chan Medical School, Worcester, Massachusetts, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/19 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "41479461",
+      "40934320",
+      "39775310",
+      "39516495",
+      "38857275",
+      "36450286",
+      "36413575",
+      "35798738"
+    ],
+    "refs": [
+      "33327198",
+      "32808926",
+      "32203417",
+      "31521602",
+      "31000590",
+      "30451879",
+      "30449618",
+      "30406744",
+      "30395280",
+      "29856734",
+      "28414750",
+      "28180313",
+      "28069947",
+      "27203470",
+      "26015501",
+      "25811868",
+      "24612990",
+      "24530305",
+      "23924614",
+      "23565060",
+      "23214628",
+      "23196852",
+      "22968444",
+      "22609971",
+      "22453733",
+      "22146301",
+      "22125482",
+      "21414481",
+      "21390269",
+      "20829787",
+      "20671182",
+      "20160109",
+      "19363473",
+      "18202292",
+      "17981121",
+      "17525339",
+      "17140283",
+      "16543458",
+      "16166384",
+      "15954802",
+      "15107854",
+      "13718526",
+      "12417193",
+      "12399584",
+      "12145321",
+      "11967538",
+      "11925555",
+      "11823633",
+      "11408658",
+      "10850721",
+      "4431516",
+      "2667136",
+      "409848"
+    ],
+    "similar": [
+      "35041641",
+      "25884877",
+      "32808926",
+      "27720190",
+      "17630826",
+      "15885706",
+      "28041762",
+      "20230615",
+      "23654274",
+      "19028486",
+      "22456606",
+      "30939457",
+      "27866978",
+      "19014615",
+      "18399072",
+      "27556418",
+      "34986805",
+      "33683203",
+      "18269696",
+      "30353359",
+      "20942926",
+      "21212238",
+      "26015501",
+      "16719927",
+      "25058159",
+      "24146602",
+      "34062105",
+      "19426448",
+      "24950609",
+      "18237429",
+      "28333240",
+      "18366607",
+      "17951819",
+      "32054475",
+      "21749723",
+      "31612481",
+      "28576882",
+      "20156358",
+      "18831784",
+      "29347696",
+      "16984086",
+      "16873495",
+      "22106333",
+      "34251618",
+      "21938618",
+      "27546191",
+      "17350653",
+      "20619272",
+      "15262804",
+      "30107230",
+      "22189060",
+      "22209758",
+      "30718595",
+      "26267711",
+      "27155066",
+      "27866169",
+      "23933172",
+      "22989211",
+      "38754366",
+      "30475725",
+      "22225794",
+      "19619308",
+      "22260221",
+      "17417638",
+      "18586698",
+      "28180313",
+      "35969771",
+      "29990003",
+      "18621837",
+      "21872607",
+      "20938527",
+      "28341132",
+      "19874814",
+      "21470963",
+      "34251621",
+      "27871810",
+      "34665801",
+      "28070596",
+      "18682805",
+      "22680494",
+      "25162401",
+      "24778332",
+      "31445891",
+      "29325558",
+      "17644116",
+      "16383645",
+      "22954408",
+      "33002527",
+      "22849367",
+      "18062810",
+      "26526635",
+      "20808951",
+      "12235287",
+      "26958852",
+      "19905159",
+      "37871011",
+      "34772813",
+      "33206608",
+      "34624206",
+      "34518231"
+    ],
+    "review": [
+      "35041641",
+      "27720190",
+      "19028486",
+      "30353359",
+      "27546191",
+      "27155066",
+      "19874814"
+    ],
+    "pmc": [
+      "8797265"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009745",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35041641/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35041641",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

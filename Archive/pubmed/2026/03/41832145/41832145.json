@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "41832145",
+    "doi": "10.1038/s41467-026-70535-8",
+    "title": "EPInformer: scalable and integrative prediction of gene expression from promoter-enhancer sequences with multimodal epigenomic profiles."
+  },
+  "content": {
+    "abstract": "Transcriptional regulation, critical for cellular differentiation and adaptation to environmental changes, involves coordinated interactions among DNA sequences, regulatory proteins, and chromatin architecture. Despite extensive chromatin profiles and gene expression data from consortia, understanding the dynamics of cis-regulatory elements in gene expression remains challenging. Deep learning is a powerful tool for learning gene expression and epigenomic profiles from DNA sequences, exhibiting superior performance compared to conventional machine learning approaches. However, even the most advanced deep learning-based methods may fall short in capturing the regulatory effects of distal elements such as enhancers, limiting their predictive accuracy. In addition, these methods may require significant resources to train or adapt to newly generated data. To address these challenges, we present EPInformer, a scalable deep-learning framework for predicting gene expression by integrating promoter-enhancer interactions with their sequences, epigenomic profiles, and chromatin contacts. Our model outperforms existing gene expression prediction models in rigorous cross-chromosome validation, accurately recapitulates enhancer-gene interactions validated by genome editing experiments, and identifies crucial transcription factor motifs within regulatory sequences.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Promoter Regions, Genetic/genetics",
+      "*Enhancer Elements, Genetic/genetics",
+      "*Epigenomics/methods",
+      "Chromatin/metabolism/genetics",
+      "Animals",
+      "Deep Learning",
+      "*Gene Expression Regulation",
+      "Humans",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Jiecong",
+        "Li, Zhijian",
+        "Zhao, Yajie",
+        "Luo, Ruibang",
+        "Pinello, Luca"
+      ],
+      "short_names": [
+        "Lin J",
+        "Li Z",
+        "Zhao Y",
+        "Luo R",
+        "Pinello L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1523-1333",
+        "ORCID: 0000-0002-2747-0219",
+        "ORCID: 0000-0001-9711-6533",
+        "ORCID: 0000-0003-1109-3823"
+      ],
+      "affiliations": [
+        "School of Computing and Data Science, The University of Hong Kong, Hong Kong, China.",
+        "Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital / Harvard Medical School, Boston, MA, USA.",
+        "Changping Laboratory, Beijing, China.",
+        "Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital / Harvard Medical School, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Changping Laboratory, Beijing, China.",
+        "School of Computing and Data Science, The University of Hong Kong, Hong Kong, China. rbluo@cs.hku.hk.",
+        "Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital / Harvard Medical School, Boston, MA, USA. lpinello@mgh.harvard.edu.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA. lpinello@mgh.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Jiecong",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing and Data Science, The University of Hong Kong, Hong Kong, China.",
+          "Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital / Harvard Medical School, Boston, MA, USA.",
+          "Changping Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhijian",
+        "short_name": "Li Z",
+        "identifiers": [
+          "0000-0002-1523-1333"
+        ],
+        "affiliations": [
+          "Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital / Harvard Medical School, Boston, MA, USA.",
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yajie",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-2747-0219"
+        ],
+        "affiliations": [
+          "Changping Laboratory, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ruibang",
+        "short_name": "Luo R",
+        "identifiers": [
+          "0000-0001-9711-6533"
+        ],
+        "affiliations": [
+          "School of Computing and Data Science, The University of Hong Kong, Hong Kong, China. rbluo@cs.hku.hk."
+        ]
+      },
+      {
+        "full_name": "Pinello, Luca",
+        "short_name": "Pinello L",
+        "identifiers": [
+          "0000-0003-1109-3823"
+        ],
+        "affiliations": [
+          "Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital / Harvard Medical School, Boston, MA, USA. lpinello@mgh.harvard.edu.",
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA. lpinello@mgh.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Mar 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/15 06:48",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [
+      "42521815",
+      "42022284",
+      "40894641",
+      "39463940"
+    ],
+    "refs": [
+      "41982337",
+      "41497587",
+      "41315262",
+      "41124023",
+      "40179192",
+      "39950082",
+      "39814889",
+      "39779956",
+      "39696471",
+      "39609566",
+      "39345398",
+      "38093018",
+      "38036789",
+      "38014075",
+      "37996959",
+      "37962376",
+      "37224527",
+      "37007588",
+      "36973806",
+      "36845200",
+      "36814848",
+      "36624151",
+      "36411359",
+      "36335101",
+      "35941239",
+      "35817977",
+      "35501320",
+      "35396274",
+      "34608324",
+      "33828297",
+      "33603233",
+      "33538820",
+      "33334380",
+      "33262328",
+      "33235358",
+      "32913098",
+      "32728249",
+      "32433972",
+      "31988385",
+      "31784727",
+      "31605096",
+      "30013180",
+      "28905911",
+      "27708057",
+      "27197224",
+      "26253466",
+      "26213851",
+      "25723102",
+      "25693563",
+      "22955620",
+      "22955616",
+      "22578774",
+      "21622645",
+      "21330290",
+      "17324271",
+      "12620113"
+    ],
+    "similar": [
+      "41832145",
+      "39131276",
+      "31318408",
+      "38859587",
+      "30869141",
+      "41663926",
+      "40902506",
+      "31905774",
+      "27490187",
+      "42475469",
+      "26446758",
+      "32961076",
+      "12971721",
+      "41545085",
+      "36520922",
+      "32029002",
+      "40240358",
+      "42234579",
+      "37539835",
+      "38485768",
+      "40335694",
+      "32249388",
+      "41862973",
+      "39708837",
+      "34635154",
+      "41072791",
+      "34103507",
+      "29855387",
+      "41319043",
+      "35410163",
+      "28056037",
+      "31106481",
+      "33182325",
+      "27321818",
+      "24213634",
+      "34570239",
+      "38413840",
+      "26590168",
+      "30686579",
+      "27986453",
+      "34930799",
+      "41922764",
+      "39283464",
+      "31590652",
+      "40869356",
+      "41713190",
+      "38053013",
+      "30555922",
+      "39550354",
+      "36495179",
+      "35396274",
+      "34099014",
+      "28511927",
+      "41039989",
+      "25512558",
+      "30139328",
+      "32991830",
+      "36715222",
+      "41675661",
+      "40382355",
+      "26091399",
+      "28193886",
+      "41633996",
+      "42487124",
+      "9414299",
+      "37830459",
+      "23512712",
+      "40702585",
+      "34666684",
+      "41514301",
+      "22763441",
+      "32817427",
+      "27391817",
+      "38695538",
+      "41766646",
+      "30853548",
+      "34197622",
+      "31053165",
+      "34149720",
+      "37760334",
+      "29030344",
+      "28351896",
+      "24127591",
+      "23473601",
+      "27831498",
+      "41285795",
+      "41875746",
+      "25461775",
+      "41951735",
+      "24178450",
+      "40515390",
+      "19542223",
+      "31629814",
+      "31201335",
+      "40360814",
+      "22955621",
+      "31565573",
+      "41576119",
+      "30078726",
+      "22537144"
+    ],
+    "review": [
+      "41832145",
+      "26446758",
+      "32961076",
+      "12971721",
+      "41862973",
+      "39708837",
+      "27321818",
+      "38413840",
+      "26590168",
+      "39283464",
+      "41713190",
+      "41675661",
+      "37830459",
+      "34149720",
+      "28351896",
+      "23473601",
+      "25461775"
+    ],
+    "pmc": [
+      "13133354"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-70535-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41832145/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

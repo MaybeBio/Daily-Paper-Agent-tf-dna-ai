@@ -1,0 +1,55 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract reports crystal structures of the periplasmic regions of QseE and QseG from *Escherichia coli*, describing QseE as a helix-bundle structure and QseG as comprising an N-terminal globular domain and a C-terminal homodimeric coiled-coil. It further claims that polymorphism at the end of the coiled-coil indicates flexibility and that the electrostatic surface of QseG suggests interaction with QseE.
+- **Visible evidence base** Abstract text only; no structural coordinates, crystallographic statistics, figures, or experimental methods are provided
+- **Missing materials affecting confidence** Full manuscript, crystallographic data and refinement statistics, structure figures, sequence alignments, interaction assays, and any functional validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a concise structural description of two proteins relevant to a bacterial signaling system. The claims are plausible and of interest to the structural biology and microbiology communities, but the evidence base available for this review is limited to the abstract. The structural assignments and the inferred interaction are stated without quantitative or experimental support visible to the reviewer. The work appears to be a descriptive structural study, and its significance would depend on the quality of the crystallographic data and the novelty of the interaction model, neither of which can be assessed from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying bacterial signaling complexes, microbiologists investigating virulence regulation in Enterobacteriaceae, and researchers interested in two-component and three-component signal transduction systems. The structures provide a molecular framework for understanding QseE-QseG interactions and may inform studies on the assembly and function of this unique signaling module.
+- **Major strengths** The abstract identifies a biologically relevant system and provides a clear structural description of two components. The proposed domain organization of QseG, with a globular N-terminal domain and a C-terminal coiled-coil, is a testable and potentially informative model. The observation of conformational polymorphism at the coiled-coil terminus is an interesting detail that may have functional implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the crystal structures show QseE has a helix-bundle structure and QseG is composed of an N-terminal globular domain and a C-terminal homodimeric coiled-coil.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The structural assignments are presented as definitive findings, but no crystallographic data, resolution information, or validation metrics are provided in the abstract. Without access to the full manuscript, the reviewer cannot verify the quality of the electron density maps, the confidence in the model building, or the oligomeric state assignment.
+  - **Why it matters** Structural claims require rigorous crystallographic evidence to be credible. The assignment of a homodimeric coiled-coil, in particular, depends on the symmetry of the crystal form and the quality of the density for the interface. If the data are not of sufficient quality, the described architecture may be incorrect or overinterpreted.
+  - **Resolution test** Provide the full crystallographic data, including resolution, R-factors, Ramachandran statistics, and electron density maps for the key regions. The structural claims should be reproducible from the deposited coordinates and validated by standard criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract states that the electrostatic surface of QseG suggests interaction with QseE.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of a putative interaction based on electrostatic surface analysis is speculative and not supported by any direct binding data in the abstract. Electrostatic complementarity is a weak predictor of protein-protein interactions and requires experimental validation or at least a more detailed structural analysis, such as docking or mutagenesis.
+  - **Why it matters** The interaction between QseG and QseE is central to the proposed three-component system. If the interaction claim is based solely on surface electrostatics, it may not withstand scrutiny. The significance of the structures depends on the credibility of this interaction model.
+  - **Resolution test** Provide experimental evidence for the interaction, such as pull-down assays, surface plasmon resonance, isothermal titration calorimetry, or mutagenesis data. Alternatively, present a more detailed structural analysis, such as a modeled complex with supporting computational validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "polymorphism at the end of the coiled-coil" is ambiguous. It is unclear whether this refers to conformational heterogeneity within a single crystal, differences between crystal forms, or sequence polymorphism.
+  - **Required correction** Clarify the meaning of "polymorphism" in the context of the structural data, and specify whether it refers to conformational variability, crystal packing artifacts, or sequence variation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the resolution of the crystal structures or the organisms from which the proteins were derived, beyond the general mention of *Escherichia coli*.
+  - **Required correction** Include the resolution range and the specific strain or construct used, as these are standard and important details for structural reports.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The structural claims require full crystallographic validation, and the interaction claim requires experimental or more robust computational support. Without these, the core conclusions of the abstract are not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The system is described as unique, and the structures may be novel, but this cannot be confirmed without a literature comparison. Scientific importance: The work is relevant to bacterial signaling and virulence, but the significance is moderate unless the interaction model is validated. Interdisciplinary readership: The topic will appeal to structural biologists and microbiologists, but the abstract is too narrow to attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone. Readability for nonspecialists: The abstract is clear and accessible, though some terms such as "coiled-coil" and "electrostatic surface" assume basic structural biology knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The structural and interaction claims are plausible but require the full manuscript and supporting data to be evaluated. If the crystallographic quality is high and the interaction is experimentally supported, the work could be a solid contribution to the field.
+
+## Risk / unsupported claims
+- The claim that QseE has a helix-bundle structure is unsupported without crystallographic data.
+- The claim that QseG is a homodimer is unsupported without oligomeric state analysis.
+- The claim that the electrostatic surface suggests interaction with QseE is speculative and unsupported by direct evidence.
+- The claim that polymorphism at the end of the coiled-coil indicates flexibility is not substantiated without conformational analysis or dynamics data.
+- The overall significance of the three-component system is stated but not contextualized with functional data.

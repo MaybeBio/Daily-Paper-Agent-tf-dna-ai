@@ -1,0 +1,328 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.18.665513",
+  "title": "Transcriptional Circuitry in HGSOC: A Dynamic Three-State Model Informed by a Living Biobank of Purified Tumour Fractions",
+  "doi": "10.1101/2025.07.18.665513",
+  "abstract": "High-grade serous ovarian cancer (HGSOC) is a heterogeneous disease, but efforts to define transcriptional subtypes using bulk RNA sequencing have been confounded by the presence of non-malignant cells. As a result, it remains unclear whether tumour-cell-intrinsic states exist, and whether these represent stable disease subtypes or are dynamically remodelled during disease progression and treatment. Here, we address this question using a living biobank of patient-derived ovarian cancer models (OCMs) cultured as purified tumour-cell populations under uniform conditions. RNA sequencing followed by unsupervised non-negative matrix factorisation (NMF) revealed a robust, hierarchical architecture comprising three core tumour-cell-intrinsic subtypes: the Alpha cluster, marked by cell-cycle deregulation and E2F-driven replication stress; the Beta cluster, defined by tumour-cell-intrinsic immune mimicry and inflammatory signalling; and the Gamma cluster, characterised by epithelial identity, extracellular matrix engagement, and metabolic adaptation. At higher clustering resolution, a fourth cluster, Delta , emerged as a Gamma sub-lineage distinguished by a vesicle-oriented, neuronal-like secretory programme. By projecting cluster labels onto a subset of matched longitudinal OCMs using non-negative least squares, we show that while some tumours retain stable subtype identities, others display transcriptional plasticity, including transitions from epithelial-like Gamma states to more proliferative or secretory phenotypes. Together, these findings define the core architecture and dynamic potential of tumour-cell-intrinsic transcriptional states within HGSOC, thereby bridging legacy bulk classifications with emerging single-cell insights, establishing a framework for more precise patient stratification.",
+  "authors": [
+    "Barnes BM",
+    "Littler S",
+    "Tighe A",
+    "Evans A",
+    "Altringham J",
+    "Nelson L",
+    "Lin I",
+    "Morgan RD",
+    "McGrail JC",
+    "Taylor SS"
+  ],
+  "published_date": "2025-07-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.18.665513",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.18.665513.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1053823",
+    "raw_record": {
+      "id": "PPR1053823",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1053823"
+        ]
+      },
+      "doi": "10.1101/2025.07.18.665513",
+      "title": "Transcriptional Circuitry in HGSOC: A Dynamic Three-State Model Informed by a Living Biobank of Purified Tumour Fractions",
+      "authorString": "Barnes BM, Littler S, Tighe A, Evans A, Altringham J, Nelson L, Lin I, Morgan RD, McGrail JC, Taylor SS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Barnes BM",
+            "lastName": "Barnes",
+            "firstName": "Bethany",
+            "initials": "BM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7545-8604"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Littler S",
+            "lastName": "Littler",
+            "firstName": "Samantha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tighe A",
+            "lastName": "Tighe",
+            "firstName": "Anthony",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Evans A",
+            "lastName": "Evans",
+            "firstName": "Alicia",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Altringham J",
+            "lastName": "Altringham",
+            "firstName": "James",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nelson L",
+            "lastName": "Nelson",
+            "firstName": "Louisa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lin I",
+            "lastName": "Lin",
+            "firstName": "I-Hsuan",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6207-1299"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Core Facility, Faculty of Biology, Medicine and Health, , Michael Smith Building, Dover Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morgan RD",
+            "lastName": "Morgan",
+            "firstName": "Robert",
+            "initials": "RD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                },
+                {
+                  "affiliation": "Department of Medical Oncology, , Wilmslow Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McGrail JC",
+            "lastName": "McGrail",
+            "firstName": "Joanne",
+            "initials": "JC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7771-8526"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taylor SS",
+            "lastName": "Taylor",
+            "firstName": "Stephen",
+            "initials": "SS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4621-9326"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , , 555 Wilmslow Road , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7545-8604"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6207-1299"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7771-8526"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4621-9326"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "High-grade serous ovarian cancer (HGSOC) is a heterogeneous disease, but efforts to define transcriptional subtypes using bulk RNA sequencing have been confounded by the presence of non-malignant cells. As a result, it remains unclear whether tumour-cell-intrinsic states exist, and whether these represent stable disease subtypes or are dynamically remodelled during disease progression and treatment. Here, we address this question using a living biobank of patient-derived ovarian cancer models (OCMs) cultured as purified tumour-cell populations under uniform conditions. RNA sequencing followed by unsupervised non-negative matrix factorisation (NMF) revealed a robust, hierarchical architecture comprising three core tumour-cell-intrinsic subtypes: the  Alpha cluster, marked by cell-cycle deregulation and E2F-driven replication stress; the  Beta cluster, defined by tumour-cell-intrinsic immune mimicry and inflammatory signalling; and the  Gamma cluster, characterised by epithelial identity, extracellular matrix engagement, and metabolic adaptation. At higher clustering resolution, a fourth cluster,  Delta , emerged as a  Gamma sub-lineage distinguished by a vesicle-oriented, neuronal-like secretory programme. By projecting cluster labels onto a subset of matched longitudinal OCMs using non-negative least squares, we show that while some tumours retain stable subtype identities, others display transcriptional plasticity, including transitions from epithelial-like  Gamma states to more proliferative or secretory phenotypes. Together, these findings define the core architecture and dynamic potential of tumour-cell-intrinsic transcriptional states within HGSOC, thereby bridging legacy bulk classifications with emerging single-cell insights, establishing a framework for more precise patient stratification.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Cancer Research UK",
+            "acronym": "CRUK_",
+            "grantId": "C147/A25254",
+            "orderIn": 0
+          },
+          {
+            "agency": "Medical Research Council",
+            "acronym": "MRC_",
+            "grantId": "MR/X008088/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203308",
+            "orderIn": 0
+          },
+          {
+            "agency": "Cancer Research UK",
+            "acronym": "CRUK_",
+            "grantId": "C1422/A31334",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIHR Manchester Biomedical Research Centre",
+            "grantId": "NIHR203308",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.07.18.665513"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.18.665513"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1053823"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1053823&type=FILE&fileName=EMS207496-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207496",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-07-24",
+      "firstPublicationDate": "2025-07-22",
+      "firstIndexDate": "2025-07-24",
+      "fullTextReceivedDate": "2025-08-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

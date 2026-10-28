@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "40166636",
+    "doi": "10.3389/fneur.2025.1526966",
+    "title": "Identification and validation of biomarkers associated with mitochondrial dysfunction and ferroptosis in rat spinal cord injury."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Mitochondrial dysfunction and ferroptosis have been implicated in the pathophysiological processes following spinal cord injury (SCI), with evidence suggesting their interplay influences neuronal cell survival and repair mechanisms. This study seeks to identify mitochondria- and ferroptosis-related biomarkers through comprehensive bioinformatics analysis. METHODS: Mitochondria- and ferroptosis-associated differentially expressed genes (DEGs) were identified through the integration of differential expression analysis and weighted gene co-expression network analysis. Two machine learning algorithms, least absolute shrinkage and selection operator (LASSO) and Boruta, were employed to isolate SCI-associated feature genes. Biomarkers were subsequently identified by analyzing their expression levels. An artificial neural network (ANN) diagnostic model was constructed to predict SCI likelihood based on these biomarkers. Further evaluations were performed using enrichment analysis, immune infiltration profiling, molecular modulation assessment, and drug prediction. The biomarkers' expression levels were validated using RT-qPCR. RESULTS: In this study, two biomarkers, Hcrt and Cdca2, linked to mitochondrial function and ferroptosis in SCI, were found to be highly expressed in SCI samples. Tissue-specific analysis from the GTEx database revealed expression of these biomarkers in brain and spinal cord tissues. The ANN model, constructed using these biomarkers, accurately discriminated between SCI and control samples. Enrichment analysis highlighted several co-enriched pathways for Hcrt and Cdca2, including \"ubiquitin-mediated proteolysis,\" \"endocytosis,\" and the \"neurotrophin signaling pathway.\" Immune infiltration analysis, based on the Wilcoxon test, demonstrated significant differences in T follicular helper cell levels, which were lower in SCI samples compared to controls. Notably, T follicular helper cells exhibited a positive correlation with Hcrt and a negative correlation with Cdca2. Furthermore, seven transcription factors, including CEBPB, FOXC1, and GATA2, were identified as potential co-regulators of Hcrt and Cdca2. Drug prediction analysis revealed stable interactions of Cdca2 with pinosylvin, zinc acetate dihydrate, hydroquinone, lucanthone, and dasatinib. RT-qPCR validation confirmed the expression patterns of Hcrt and Cdca2 in alignment with the dataset, showing statistically significant differences. DISCUSSION: This study identifies Hcrt and Cdca2 as biomarkers related to mitochondrial function and ferroptosis in SCI, providing new insights for the diagnosis and mechanistic understanding of SCI.",
+    "keywords": [
+      "biomarker",
+      "ferroptosis",
+      "machine learning",
+      "mitochondria",
+      "spinal cord injury"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Jingliang",
+        "Wang, Shuai",
+        "Zhang, Yu",
+        "Zhou, Chusong"
+      ],
+      "short_names": [
+        "Zhu J",
+        "Wang S",
+        "Zhang Y",
+        "Zhou C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedics, Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Orthopaedics, Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Orthopaedics, General Hospital of Southern Theatre Command of PLA, Guangzhou, China.",
+        "Department of Orthopaedics, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Jingliang",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuai",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, General Hospital of Southern Theatre Command of PLA, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Chusong",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in neurology"
+    ],
+    "journal_abbrev": [
+      "Front Neurol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/01 06:26",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "41451413",
+      "40982121"
+    ],
+    "refs": [
+      "39288736",
+      "38125535",
+      "38040794",
+      "37726826",
+      "37699320",
+      "37663283",
+      "37582709",
+      "37576155",
+      "37357239",
+      "37207430",
+      "37176125",
+      "36407421",
+      "36322825",
+      "36312035",
+      "36226171",
+      "36142879",
+      "36018187",
+      "35751589",
+      "35669881",
+      "35416520",
+      "35174644",
+      "35043499",
+      "34864868",
+      "34557218",
+      "34375779",
+      "34103686",
+      "33951302",
+      "33867836",
+      "33422552",
+      "33175349",
+      "33073587",
+      "33066029",
+      "32015325",
+      "31810634",
+      "31655606",
+      "31043637",
+      "30929040",
+      "30637799",
+      "28350947",
+      "26432659",
+      "25822800",
+      "25724143",
+      "25516281",
+      "23323831",
+      "22455463",
+      "21414208",
+      "21373950",
+      "20808728",
+      "20401516",
+      "19114008",
+      "14597658"
+    ],
+    "similar": [
+      "40166636",
+      "39799354",
+      "37821869",
+      "37316756",
+      "40337173",
+      "37520121",
+      "39026250",
+      "39375405",
+      "40124361",
+      "39331874",
+      "39929099",
+      "40313958",
+      "38951833",
+      "38863714",
+      "39586719",
+      "39930056",
+      "38908081",
+      "32140464",
+      "36018187",
+      "38032706",
+      "36414158",
+      "39509434",
+      "37986345",
+      "40319145",
+      "39552895",
+      "36506045",
+      "38291374",
+      "39072329",
+      "39507054",
+      "37530128",
+      "39707003",
+      "38371524",
+      "37259023",
+      "38650009",
+      "39793232",
+      "40162052",
+      "39265357",
+      "39814871",
+      "38375420",
+      "39081100",
+      "40024299",
+      "39754246",
+      "36582430",
+      "38890348",
+      "39619595",
+      "39920860",
+      "40229748",
+      "39735537",
+      "38029552",
+      "37081490",
+      "37063890",
+      "38827468",
+      "40078458",
+      "39351221",
+      "37809933",
+      "38384969",
+      "36969832",
+      "38139032",
+      "38360836",
+      "37031292",
+      "38402377",
+      "37726826",
+      "39888480",
+      "35410505",
+      "38517368",
+      "40151199",
+      "39984919",
+      "39327250",
+      "40110435",
+      "35706450",
+      "38707272",
+      "40129981",
+      "39309798",
+      "36671050",
+      "40197384",
+      "37359526",
+      "36841940",
+      "37678378",
+      "35796899",
+      "39697326",
+      "40312440",
+      "38519735",
+      "37645416",
+      "39403102",
+      "39103875",
+      "39916955",
+      "34708039",
+      "36312035",
+      "33229721",
+      "39995825",
+      "37736497",
+      "39978670",
+      "37395033",
+      "35958412",
+      "34386423",
+      "37904700",
+      "38802844",
+      "39139819",
+      "37398680",
+      "39139563"
+    ],
+    "review": [
+      "40166636",
+      "39619595"
+    ],
+    "pmc": [
+      "11956685"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40166636/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fneur.2025.1526966",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

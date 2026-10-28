@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42055268",
+  "title": "Exploration of ferroptosis-related biomarkers and regulatory mechanisms in two diseases (sarcopenia and idiopathic pulmonary fibrosis) based on transcriptome and machine learning.",
+  "authors": "Yang, Jun; Zhou, Kaihua; He, Xiaojian; Rong, Ke",
+  "journal": "Experimental gerontology",
+  "published_date": "2026-04-30",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于转录组和机器学习筛选肌少症与肺纤维化的铁死亡相关生物标志物，虽含分子对接但对象非蛋白质-DNA互作，且无TF-DNA结合建模，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Sarcopenia (SP) and idiopathic pulmonary fibrosis (IPF) are debilitating diseases, but share ferroptosis-related biomarkers and their regulatory mechanisms in both remain unclear, hindering targeted research and therapy. METHODS: In this study, ferroptosis-related genes (FeRGs), as well as training sets and test sets related to SP and IPF, were obtained from public databases. After the identification of disease-related differentially expressed genes (DEGs), DEGs shared by SP and IPF were obtained through intersection (genes with consistent DEG change trends across each disease) and union analyses. These shared DEGs were then intersected with FeRGs to obtain candidate genes. Machine learning algorithms and the Wilcoxon rank-sum test were used to confirm the biomarkers, and nomograms were constructed and evaluated. Meanwhile, in-depth studies such as functional enrichment, immune infiltration, drug prediction, and molecular docking were conducted on the biomarkers. RESULTS: Initially, a total of 26 candidate genes were identified. After screening, DDIT4 and MGST1 were identified as ferroptosis-related biomarkers shared by the two diseases, and both were significantly upregulated in the SP and IPF groups. The area under the curve values of the constructed nomograms were 0.91 (for SP) and 0.79 (for IPF), respectively. The p-values of the Hosmer-Lemeshow test for the calibration curves (0.856 and 0.205) were both >0.05, and the DCA showed good performance. The two biomarkers showed differences in enriched pathways. A total of 5 differential immune cells shared by the two diseases were identified, and the biomarkers participated in immune regulation by targeting specific immune cells. Good binding activity (Vina Score < -5.0) was observed between Trichostatin A and both biomarkers. CONCLUSION: DDIT4 and MGST1 were shared ferroptosis-related biomarkers for SP and IPF. Nomograms enabled reliable prediction, and trichostatin A was a potential targeted drug. These findings supported mechanistic research and targeted therapy for both diseases.",
+  "abstract_zh": "背景：肌少症（Sarcopenia, SP）和特发性肺纤维化（idiopathic pulmonary fibrosis, IPF）均为消耗性疾病，但两者共享的铁死亡相关生物标志物及其调控机制尚不明确，阻碍了靶向研究和治疗。方法：本研究从公共数据库获取铁死亡相关基因（ferroptosis-related genes, FeRGs）以及SP和IPF相关的训练集和测试集。在识别疾病相关差异表达基因（differentially expressed genes, DEGs）后，通过交集（各疾病中DEG变化趋势一致的基因）和并集分析获得SP和IPF共享的DEGs。随后将这些共享DEGs与FeRGs取交集，获得候选基因。采用机器学习算法和Wilcoxon秩和检验确认生物标志物，并构建和评估列线图。同时，对生物标志物进行了功能富集、免疫浸润、药物预测和分子对接等深入研究。结果：最初共识别出26个候选基因。经筛选后，DDIT4和MGST1被确定为两种疾病共享的铁死亡相关生物标志物，且两者在SP和IPF组中均显著上调。构建的列线图曲线下面积值分别为0.91（针对SP）和0.79（针对IPF）。校准曲线的Hosmer-Lemeshow检验p值（0.856和0.205）均>0.05，决策曲线分析（DCA）显示良好性能。两种生物标志物在富集通路方面存在差异。共识别出两种疾病共享的5种差异免疫细胞，生物标志物通过靶向特定免疫细胞参与免疫调节。曲古抑菌素A（Trichostatin A）与两种生物标志物之间观察到良好的结合活性（Vina Score < -5.0）。结论：DDIT4和MGST1是SP和IPF共享的铁死亡相关生物标志物。列线图可实现可靠预测，曲古抑菌素A是潜在靶向药物。这些发现支持两种疾病的机制研究和靶向治疗。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42055268/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42055268/",
+  "paper_page_path": "papers/pubmed/42055268/index.html"
+}

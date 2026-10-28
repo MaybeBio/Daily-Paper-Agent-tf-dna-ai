@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "41094477",
+    "doi": "10.1186/s13008-025-00166-w",
+    "title": "Long noncoding RNA TMPO-AS1 upregulates chromosomal passenger complex expression to promote cell proliferation in lung cancer via sponging microRNA let-7b-5p."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study aims to develop a ceRNA network associated with the chromosomal passenger complex (CPC) and identify a prognostic signature in lung cancer, the most diagnosed globally, to better understand the molecular mechanisms underlying tumor progression. METHODS: The study used R packages and publicly available databases to conduct multi-omics In-silico analyses on CPC. These tools facilitated gene expression profiling, prognostic assessment, exploration of miRNA (microRNA), lncRNA (long non-coding RNA), transcription factor interactions, and pathway enrichment analysis. Molecular docking tools were used to evaluate binding affinities of CPC proteins with tobacco carcinogens, selective Aurora kinase B inhibitors, FDA-approved chemotherapeutics, and natural compounds. Immune landscape analysis was conducted using the SPRING viewer to visualize immune cell subpopulations in NSCLC, validated by correlation analysis using the GSCA database. RESULTS: The study reveals that CPC genes-BIRC5, CDCA8, INCENP, and AURKB-are overexpressed in lung adenocarcinoma (LUAD) and are associated with poor overall survival, especially in smokers. A dysregulated ceRNA axis involving lncRNA TMPO-AS1 and miRNA-hsa-let-7b-5p was identified, along with transcription factor E2F1, which shows a strong correlation with the CPC genes. Notably, TMPO-AS1 and E2F1 are positively correlated, while hsa-let-7b-5p is negatively correlated with the CPCs, contributing to tumor progression. Downregulation of hsa-let-7b-5p is linked to poorer outcomes, highlighting its potential as a therapeutic target. Nicotine and NNK show stable binding, suggesting potential roles in activating the CPC pathway and contributing to LUAD progression. CPCs have a strong binding affinity with Hesperidin, a natural bioflavonoid, compared to known chemotherapeutic agents like docetaxel and paclitaxel. CPC genes are negatively correlated with CD4(+) T cells, indicating a role in promoting an immunosuppressive tumor microenvironment. CONCLUSION: Lung adenocarcinoma patients have poorer prognosis due to higher levels of CPCs, TMPO-AS1, and E2F1. A sponge complex between TMPO-AS1 and hsa-let-7b-5p may contribute to the tumor progression, and targeting CPCs with natural compounds could offer therapeutic potential. Highlights 1. The overexpression of chromosomal passenger complex genes, AURKB, BIRC5, CDCA8, and INCENP is significantly associated with poor prognosis in lung adenocarcinoma (LUAD), particularly among smokers. 2. The competing endogenous RNA (ceRNA) axis, which involves the long non-coding RNA TMPO-AS1 and the miRNA hsa-let-7b-5p, regulates the expression of these CPC genes. TMPO-AS1 shows a positive correlation with CPC genes, while hsa-let-7b-5p shows a negative correlation. 3. Survival analysis indicates that the combined expression of CPC genes, TMPO-AS1, hsa-let-7b-5p, and E2F1 may serve as a reliable prognostic biomarker panel for LUAD in smokers. 4. Hesperidin exhibits a strong binding affinity to CPC proteins, particularly AURKB, when compared to Barasertib, Docetaxel, and Paclitaxel, highlighting its potential as a therapeutic agent. 5. The overexpression of CPC genes, E2F1, and TMPO-AS1 in LUAD is strongly associated with reduced infiltration of CD4(+) T cells, indicating their role in promoting an immunosuppressive tumor microenvironment.",
+    "keywords": [
+      "Carcinogens",
+      "Chromosomal passenger complex",
+      "Hesperidin",
+      "Immune evasion",
+      "Lung adenocarcinoma",
+      "Prognosis",
+      "Smokers",
+      "ceRNA network"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vats, Prerna",
+        "Baweja, Bhavika",
+        "Saini, Chainsee",
+        "Soni, Sakshi",
+        "Tungariya, Tripti",
+        "Singh, Aditi",
+        "Kumar, Ashok",
+        "Nema, Rajeev"
+      ],
+      "short_names": [
+        "Vats P",
+        "Baweja B",
+        "Saini C",
+        "Soni S",
+        "Tungariya T",
+        "Singh A",
+        "Kumar A",
+        "Nema R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India.",
+        "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Bhopal, Saket Nagar, Bhopal, Madhya Pradesh, 462020, India.",
+        "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India. rajeev.nema@jaipur.manipal.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vats, Prerna",
+        "short_name": "Vats P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Baweja, Bhavika",
+        "short_name": "Baweja B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Saini, Chainsee",
+        "short_name": "Saini C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Soni, Sakshi",
+        "short_name": "Soni S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Tungariya, Tripti",
+        "short_name": "Tungariya T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Aditi",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Ashok",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Bhopal, Saket Nagar, Bhopal, Madhya Pradesh, 462020, India."
+        ]
+      },
+      {
+        "full_name": "Nema, Rajeev",
+        "short_name": "Nema R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Manipal University Jaipur, Dehmi Kalan, Jaipur-Ajmer Expressway, Jaipur, Rajasthan, 303007, India. rajeev.nema@jaipur.manipal.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell division"
+    ],
+    "journal_abbrev": [
+      "Cell Div"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/16 05:32",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "42291453"
+    ],
+    "refs": [
+      "40445483",
+      "40439393",
+      "40242419",
+      "39930665",
+      "39703228",
+      "39513910",
+      "38994960",
+      "38966170",
+      "38886738",
+      "38783092",
+      "38706955",
+      "38692083",
+      "38572751",
+      "38551726",
+      "38361754",
+      "38254834",
+      "37983866",
+      "37759584",
+      "37444419",
+      "36933328",
+      "36549921",
+      "36445120",
+      "36268509",
+      "36264497",
+      "36111008",
+      "35774125",
+      "35675271",
+      "35078134",
+      "34821405",
+      "34500460",
+      "34359612",
+      "34273640",
+      "34047821",
+      "33807717",
+      "33780170",
+      "33747053",
+      "33685293",
+      "33621520",
+      "33528811",
+      "33431968",
+      "33409811",
+      "33408528",
+      "33293866",
+      "32661603",
+      "32637574",
+      "32442275",
+      "32062549",
+      "32050794",
+      "31228621",
+      "31114885",
+      "30335862",
+      "30329142",
+      "29849986",
+      "29228172",
+      "24297251",
+      "16990141"
+    ],
+    "similar": [
+      "41094477",
+      "41398961",
+      "40445483",
+      "40439393",
+      "40584906",
+      "39471036",
+      "40242419",
+      "38937856",
+      "35311097",
+      "41268575",
+      "32062549",
+      "40635988",
+      "38094657",
+      "35774125",
+      "33293866",
+      "31680323",
+      "35040749",
+      "33295056",
+      "41326474",
+      "32110100",
+      "32139259",
+      "33281971",
+      "33717544",
+      "35707363",
+      "33235626",
+      "34061466",
+      "34370878",
+      "32497621",
+      "30362161",
+      "34819106",
+      "35116848",
+      "33664819",
+      "33733556",
+      "32087328",
+      "33262650",
+      "33215415",
+      "33816295",
+      "34374893",
+      "39787178",
+      "32969763",
+      "35140744",
+      "38370382",
+      "31363080",
+      "31230752",
+      "38862441",
+      "31071530",
+      "31860169",
+      "34264003",
+      "40792171",
+      "41357570",
+      "36582796",
+      "34558724",
+      "34786045",
+      "30105831",
+      "31758653",
+      "33371806",
+      "31211984",
+      "33678324",
+      "29849986",
+      "34777589",
+      "31297866",
+      "38361754",
+      "30995921",
+      "32802839",
+      "35852407",
+      "34630705",
+      "32774737",
+      "31939714",
+      "41132901",
+      "37954276",
+      "40913903",
+      "32784268",
+      "38411863",
+      "35562727",
+      "34149807",
+      "34644678",
+      "32257949",
+      "35166053",
+      "31088485",
+      "33274216",
+      "34553021",
+      "36895935",
+      "34696664",
+      "34746134",
+      "34301211",
+      "38282143",
+      "37670265",
+      "37244051",
+      "38330619",
+      "33219943",
+      "34096793",
+      "41030788",
+      "39205592",
+      "33512745",
+      "35164656",
+      "32669970",
+      "32741804",
+      "32462698",
+      "37130271",
+      "34346845"
+    ],
+    "review": [
+      "41094477",
+      "38330619",
+      "34096793"
+    ],
+    "pmc": [
+      "12529790"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://celldiv.biomedcentral.com/articles/10.1186/s13008-025-00166-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41094477/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CDCA8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

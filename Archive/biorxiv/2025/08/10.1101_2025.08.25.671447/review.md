@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) provided as preprint on bioRxiv.
+- **Assessment boundary** Scientific content, methodological soundness, and support of claims based solely on the provided text. No access to supplementary figures, videos, or raw data beyond what is described.
+- **Shared manuscript claim summary** The authors report that in naïve mouse embryonic stem cells (mESCs), HP1β and densely packed chromatin form spatially segregated microdomains, with DNA-poor/HP1β-rich foci retaining mobile HP1β and DNA-rich/HP1β-low foci excluding it. They propose that HP1β-rich foci form via condensation through weak interactions on stably chromatin-bound HP1β, and that upon exit from naïve pluripotency, HP1β redistributes to canonical heterochromatin.
+- **Visible evidence base** Text descriptions of Airyscan, STED, single-particle tracking (SPT) with SA-SPT analysis, spinning-disk confocal with Hi-D analysis, and ChIP-seq re-analysis. Figures referenced but not directly viewable.
+- **Missing materials affecting confidence** All figures, supplementary figures, videos, and raw data files are not provided. Statistical details (exact p-values, effect sizes, sample numbers) are only partially described in figure legends, which are absent.
+
+## Reviewer
+- **Overall assessment** This manuscript presents an intriguing and potentially important observation that challenges the conventional view of HP1β as a simple marker of condensed heterochromatin in mESCs. The combination of super-resolution imaging and single-molecule tracking is powerful and appropriate. However, the current text does not fully establish the central claims due to missing quantitative details, unclear controls, and a speculative mechanistic model that is not directly tested. The work is of high interest to the chromatin and stem cell communities, but the evidence as presented is incomplete.
+- **Who would be interested in the results, and why** Chromatin biologists, epigenetics researchers, and stem cell biologists. The finding that HP1β can form foci independent of dense DNA challenges current models of heterochromatin organization and has implications for understanding pluripotency and differentiation. The methodological approach (SPT with SA-SPT) will also interest biophysicists studying nuclear organization.
+- **Major strengths** 1. The use of an endogenous knock-in HaloTag fusion to study HP1β dynamics is rigorous and avoids overexpression artifacts. 2. The combination of multiple imaging modalities (Airyscan, STED, SPT, light-sheet) provides complementary views at different resolutions and timescales. 3. The observation of segregated microdomains is novel and potentially paradigm-shifting. 4. The inclusion of pseudo-foci controls for SPT analysis shows awareness of potential geometric biases.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DNA-poor/HP1β-rich foci retain freely diffusing HP1β" and "DNA-high/HP1β-low foci exclude freely diffusing HP1β"
+  - **Evidence pointer** Figure 4, SPT analysis section
+  - **Concern** The claim that freely diffusing HP1β is retained in DNA-poor/HP1β-rich foci and excluded from DNA-rich/HP1β-low foci is based on SPT data, but the text does not provide quantitative details on the enrichment factors, confidence intervals, or how the "pseudo-foci" controls were matched for size and shape. The 1.2-1.4-fold enrichment reported for HP1β-rich foci is modest, and the 30% depletion in HP1β-low foci is not statistically contextualized.
+  - **Why it matters** The differential retention of mobile HP1β is a cornerstone of the proposed condensation model. Without robust statistical evidence, the distinction between the foci types could be artifactual or within normal biological variation.
+  - **Resolution test** Provide effect sizes with confidence intervals for enrichment/depletion across all biological replicates, and demonstrate that pseudo-foci controls are indistinguishable from euchromatin in their diffusion properties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model support
+  - **Claim pointer** "HP1β-rich foci form via condensation through a multitude of weak interactions on top of HP1β that is bound stably to chromatin"
+  - **Evidence pointer** Results section "HP1β is concentrated in foci via a combination of stable chromatin binding and retention of mobile protein"
+  - **Concern** The proposed model of condensation on a stably bound "basal layer" is presented as a conclusion, but the evidence is indirect. The kinetic modeling (Kd comparison) is described only in text and appears to be a simple bimolecular model that is then rejected, but no alternative model is quantitatively fitted or tested. The "smearing" of the diffusion spectrum is interpreted as transient interactions, but this is not directly demonstrated.
+  - **Why it matters** The mechanistic model is the central conceptual advance of the paper. If the evidence does not distinguish between condensation and other mechanisms (e.g., trapping by chromatin topology), the model remains speculative.
+  - **Resolution test** Perform explicit model fitting (e.g., two-state vs. continuous distribution models) to the SPT data, and test predictions such as concentration-dependent changes in foci properties or FRAP recovery kinetics that would distinguish condensation from simple binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** "DNA-rich/HP1β-low foci exclude freely diffusing HP1β and display reduced chromatin mobility, suggesting a higher degree of chromatin self-interaction and a more repressive environment"
+  - **Evidence pointer** Figure 6, Hi-D analysis
+  - **Concern** The inference that reduced chromatin mobility equates to a "more repressive environment" is an interpretive leap. The Hi-D analysis measures diffusion, not transcriptional activity or accessibility to transcription factors. The link between mobility and repression is correlative at best.
+  - **Why it matters** This claim extends the findings to functional significance, but the data do not directly measure repression. Overinterpretation could mislead readers.
+  - **Resolution test** Either soften the language to "potentially repressive" or provide direct evidence (e.g., transcriptional activity, factor accessibility) linking reduced mobility to repression.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B quantification
+  - **Evidence pointer** Results section "HP1β segregates away from densely packed chromatin in mESCs"
+  - **Issue** The text states "mean 12 per nucleus" for HP1β foci but does not specify the number of nuclei analyzed or the variability across cells.
+  - **Required correction** Report the number of cells and standard deviation or range.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** SPT analysis parameters
+  - **Evidence pointer** Methods, SPT image and data processing
+  - **Issue** The threshold for excluding initial frames and the criteria for selecting the "optimal" labeling density are described qualitatively. Exact parameters are not given.
+  - **Required correction** Provide the specific frame numbers and density values used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 7G
+  - **Evidence pointer** Results section "Canonical heterochromatin forms upon exit from naïve pluripotency"
+  - **Issue** The text mentions "low statistical significance" for STED colocalization changes but does not provide p-values or confidence intervals.
+  - **Required correction** Include exact statistical values or state that the result is qualitative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative basis for the central claims of differential HP1β mobility and the condensation model must be strengthened. Additionally, the link between chromatin mobility and repression (R1-M3) needs to be either supported or reframed.
+- **Assessment against Nature-style criteria** Originality: High. The observation of HP1β-chromatin segregation in mESCs is novel and challenges existing models. Scientific importance: Potentially high, as it could reshape understanding of heterochromatin in pluripotency. Interdisciplinary readership: Moderate. The work will appeal to cell biologists, biophysicists, and stem cell researchers, but may be too specialized for a general audience. Technical soundness: The imaging and tracking methods are state-of-the-art, but the analysis and statistical rigor are currently insufficient to support all claims. Readability for nonspecialists: The text is dense and assumes significant background knowledge; the abstract is accessible, but the results section would be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation is intriguing and the methodology is appropriate, but the quantitative evidence and mechanistic model need substantial strengthening before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that DNA-poor/HP1β-rich foci are sites of active transcription or RNA processing is not directly tested and is speculative.
+- The statement that "HP1β functions to keep chromatin in a more compact yet more accessible and dynamic state" is a broad generalization not fully supported by the data, which only measure mobility and density.
+- The model of "condensation through a multitude of weak interactions" is inferred from indirect evidence and is not quantitatively validated.
+- The assertion that DNA-rich/HP1β-low foci are "more repressive" is not supported by direct functional measurements.

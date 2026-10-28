@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "34298860",
+    "doi": "10.3390/ijms22147240",
+    "title": "A Panel of rSNPs Demonstrating Allelic Asymmetry in Both ChIP-seq and RNA-seq Data and the Search for Their Phenotypic Outcomes through Analysis of DEGs."
+  },
+  "content": {
+    "abstract": "Currently, the detection of the allele asymmetry of gene expression from RNA-seq data or the transcription factor binding from ChIP-seq data is one of the approaches used to identify the functional genetic variants that can affect gene expression (regulatory SNPs or rSNPs). In this study, we searched for rSNPs using the data for human pulmonary arterial endothelial cells (PAECs) available from the Sequence Read Archive (SRA). Allele-asymmetric binding and expression events are analyzed in paired ChIP-seq data for H3K4me3 mark and RNA-seq data obtained for 19 individuals. Two statistical approaches, weighted z-scores and predicted probabilities, were used to improve the efficiency of finding rSNPs. In total, we identified 14,266 rSNPs associated with both allele-specific binding and expression. Among them, 645 rSNPs were associated with GWAS phenotypes; 4746 rSNPs were reported as eQTLs by GTEx, and 11,536 rSNPs were located in 374 candidate transcription factor binding motifs. Additionally, we searched for the rSNPs associated with gene expression using an SRA RNA-seq dataset for 281 clinically annotated human postmortem brain samples and detected eQTLs for 2505 rSNPs. Based on these results, we conducted Gene Ontology (GO), Disease Ontology (DO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses and constructed the protein-protein interaction networks to represent the top-ranked biological processes with a possible contribution to the phenotypic outcome.",
+    "keywords": [
+      "Genotype-Tissue expression",
+      "allele-specific events",
+      "eQTLs",
+      "enrichment analysis",
+      "molecular phenotype",
+      "protein-protein interaction networks",
+      "regulatory SNPs"
+    ],
+    "mesh_terms": [
+      "Alleles",
+      "Brain/physiology",
+      "Cell Line, Tumor",
+      "Chromatin Immunoprecipitation/methods",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "Endothelial Cells/physiology",
+      "Gene Expression/genetics",
+      "Gene Ontology",
+      "Histones",
+      "Humans",
+      "Phenotype",
+      "Polymorphism, Single Nucleotide/*genetics",
+      "Protein Interaction Maps/genetics",
+      "Pulmonary Artery",
+      "RNA-Seq/methods",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Korbolina, Elena E",
+        "Bryzgalov, Leonid O",
+        "Ustrokhanova, Diana Z",
+        "Postovalov, Sergey N",
+        "Poverin, Dmitry V",
+        "Damarov, Igor S",
+        "Merkulova, Tatiana I"
+      ],
+      "short_names": [
+        "Korbolina EE",
+        "Bryzgalov LO",
+        "Ustrokhanova DZ",
+        "Postovalov SN",
+        "Poverin DV",
+        "Damarov IS",
+        "Merkulova TI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Federal Research Center Institute of Cytology and Genetics, The Siberian Branch of the Russian Academy of Science, 10 LavrentyevaProspekt, 630090 Novosibirsk, Russia.",
+        "The Federal Research Center Institute of Cytology and Genetics, The Siberian Branch of the Russian Academy of Science, 10 LavrentyevaProspekt, 630090 Novosibirsk, Russia.",
+        "VECTOR-BEST, PO BOX 492, 630117 Novosibirsk, Russia.",
+        "Department of Information Biology, The Novosibirsk State University, 1 Pirogovast, 630090 Novosibirsk, Russia.",
+        "Department of Theoretical and Applied Informatics, The Novosibirsk State Technical University, 630073 Novosibirsk, Russia.",
+        "Department of Theoretical and Applied Informatics, The Novosibirsk State Technical University, 630073 Novosibirsk, Russia.",
+        "The Federal Research Center Institute of Cytology and Genetics, The Siberian Branch of the Russian Academy of Science, 10 LavrentyevaProspekt, 630090 Novosibirsk, Russia.",
+        "The Federal Research Center Institute of Cytology and Genetics, The Siberian Branch of the Russian Academy of Science, 10 LavrentyevaProspekt, 630090 Novosibirsk, Russia.",
+        "Department of Information Biology, The Novosibirsk State University, 1 Pirogovast, 630090 Novosibirsk, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Korbolina, Elena E",
+        "short_name": "Korbolina EE",
+        "identifiers": [],
+        "affiliations": [
+          "The Federal Research Center Institute of Cytology and Genetics, The Siberian Branch of the Russian Academy of Science, 10 LavrentyevaProspekt, 630090 Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Bryzgalov, Leonid O",
+        "short_name": "Bryzgalov LO",
+        "identifiers": [],
+        "affiliations": [
+          "The Federal Research Center Institute of Cytology and Genetics, The Siberian Branch of the Russian Academy of Science, 10 LavrentyevaProspekt, 630090 Novosibirsk, Russia.",
+          "VECTOR-BEST, PO BOX 492, 630117 Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Ustrokhanova, Diana Z",
+        "short_name": "Ustrokhanova DZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Biology, The Novosibirsk State University, 1 Pirogovast, 630090 Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Postovalov, Sergey N",
+        "short_name": "Postovalov SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Theoretical and Applied Informatics, The Novosibirsk State Technical University, 630073 Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Poverin, Dmitry V",
+        "short_name": "Poverin DV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Theoretical and Applied Informatics, The Novosibirsk State Technical University, 630073 Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Damarov, Igor S",
+        "short_name": "Damarov IS",
+        "identifiers": [],
+        "affiliations": [
+          "The Federal Research Center Institute of Cytology and Genetics, The Siberian Branch of the Russian Academy of Science, 10 LavrentyevaProspekt, 630090 Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Merkulova, Tatiana I",
+        "short_name": "Merkulova TI",
+        "identifiers": [],
+        "affiliations": [
+          "The Federal Research Center Institute of Cytology and Genetics, The Siberian Branch of the Russian Academy of Science, 10 LavrentyevaProspekt, 630090 Novosibirsk, Russia.",
+          "Department of Information Biology, The Novosibirsk State University, 1 Pirogovast, 630090 Novosibirsk, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Jul 6",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/25 06:00",
+    "fetched_at": "2026-09-27 20:56:33"
+  },
+  "links": {
+    "cites": [
+      "37175659",
+      "36902467",
+      "36233194",
+      "35446421",
+      "34208629"
+    ],
+    "refs": [
+      "33980847",
+      "33590861",
+      "33505025",
+      "33499903",
+      "33440210",
+      "33290552",
+      "33169458",
+      "33125081",
+      "33122083",
+      "33106633",
+      "32946763",
+      "32933554",
+      "32913098",
+      "32850739",
+      "32620845",
+      "32483191",
+      "32442411",
+      "32397854",
+      "32299494",
+      "32245974",
+      "32231272",
+      "32214206",
+      "32127356",
+      "31915397",
+      "31740966",
+      "31570892",
+      "31500558",
+      "31296926",
+      "31253979",
+      "31123039",
+      "31086352",
+      "30804403",
+      "30476243",
+      "30445434",
+      "30407550",
+      "30357393",
+      "30185552",
+      "30033361",
+      "29789573",
+      "29745862",
+      "29716548",
+      "29610479",
+      "29573091",
+      "29378629",
+      "29140464",
+      "29126249",
+      "29022597",
+      "28754123",
+      "28447668",
+      "27899579",
+      "27269582",
+      "27126307",
+      "26993500",
+      "26503253",
+      "26502339",
+      "26432245",
+      "26430152",
+      "26381377",
+      "26302001",
+      "26272984",
+      "25516281",
+      "25480375",
+      "25363779",
+      "24695404",
+      "24372634",
+      "24316577",
+      "24210251",
+      "24205329",
+      "22455463",
+      "22388286",
+      "22201815",
+      "21605215",
+      "21441907",
+      "20079948",
+      "18781952",
+      "15466185",
+      "11237013",
+      "2218183"
+    ],
+    "similar": [
+      "34298860",
+      "39273245",
+      "37965371",
+      "29573091",
+      "27654269",
+      "24205329",
+      "28336542",
+      "34208629",
+      "25055051",
+      "28453502",
+      "19451166",
+      "32850739",
+      "32594908",
+      "38937662",
+      "31292129",
+      "39152038",
+      "25486472",
+      "31036066",
+      "31755521",
+      "23194258",
+      "25957781",
+      "37175659",
+      "36787085",
+      "31989549",
+      "28235418",
+      "32651957",
+      "35361110",
+      "26621465",
+      "31599446",
+      "17267408",
+      "31874808",
+      "25995231",
+      "28952134",
+      "28415685",
+      "30256536",
+      "29111207",
+      "33980847",
+      "32321568",
+      "28957321",
+      "34251624",
+      "30016502",
+      "26080812",
+      "24097272",
+      "20823317",
+      "32741804",
+      "27055116",
+      "18698231",
+      "31750523",
+      "24255646",
+      "35810505",
+      "33372591",
+      "30472248",
+      "31987036",
+      "25520196",
+      "31888059",
+      "25326100",
+      "31492806",
+      "33292187",
+      "28166722",
+      "22950704",
+      "31737206",
+      "32505195",
+      "32442411",
+      "26908256",
+      "18565787",
+      "37158941",
+      "32780509",
+      "29889205",
+      "29396371",
+      "37873117",
+      "27107687",
+      "29237423",
+      "31175266",
+      "26993500",
+      "33178343",
+      "26476779",
+      "29208650",
+      "22897152",
+      "22759655",
+      "32270270",
+      "25799442",
+      "28901494",
+      "33326109",
+      "30429326",
+      "20806061",
+      "34108502",
+      "33786783",
+      "33597613",
+      "24206787",
+      "35342858",
+      "24526835",
+      "33941686",
+      "30786165",
+      "21811232",
+      "35446421",
+      "34440019",
+      "34956327",
+      "34313778",
+      "25276428",
+      "36915638",
+      "36138766",
+      "38168258",
+      "25364758",
+      "29399242",
+      "35277958",
+      "34493313",
+      "36598983",
+      "36347991",
+      "37410774",
+      "33163581",
+      "36789421",
+      "24474957"
+    ],
+    "review": [
+      "34298860",
+      "34208629",
+      "25486472",
+      "26621465",
+      "35810505",
+      "18565787"
+    ],
+    "pmc": [
+      "8303726"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22147240",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34298860/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34298860",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

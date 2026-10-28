@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that pathogenic mutation density and regional intolerance scores can identify intolerant regions of BRCA1, and they report that the inter-BRCT linker of the BRCT domain is the most intolerant region, with mutations there likely causing cancer susceptibility through disruption of BRCA1-phosphopeptide interactions, supported by transcription activation assays and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no numerical data, statistical analyses, methodological details, or experimental results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods for mutation density calculation, intolerance scoring (MTR3D, MTRX), MD simulation parameters and results, TA assay protocols and data, and any statistical comparisons
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible hypothesis and a potentially useful approach for prioritizing variants of unknown significance in BRCA1, but the evidence base visible here is insufficient to evaluate the validity of the central claim. The conclusion that the inter-BRCT linker is "probably the most intolerant region" rests on a combination of mutation density, intolerance scores, and functional experiments, yet none of these are presented with enough detail to assess their rigor or reproducibility. The work may be of interest to the cancer genetics community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Clinical geneticists and genetic counselors interpreting BRCA1 variants, cancer biologists studying BRCA1 function, and computational biologists developing intolerance prediction tools would find this relevant. The identification of a specific intolerant subregion could aid in VUS classification and guide functional testing priorities.
+- **Major strengths** The hypothesis is clearly stated and mechanistically motivated. The combination of computational intolerance scores with experimental validation (TA assays and MD simulations) is a reasonable triangulation strategy. The focus on a subdomain-level resolution, rather than whole-protein intolerance, adds granularity that could be clinically actionable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that the inter-BRCT linker is "more intolerant than other regions of the BRCT domain" and is "probably the most intolerant region of the BRCA1 BRCT domain."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The central claim is based on three lines of evidence (mutation density, MTR3D/MTRX scores, and functional experiments), but the abstract provides no quantitative values, no statistical tests, and no comparison against a null distribution or control regions. Without these, the claim of "most intolerant" cannot be distinguished from a descriptive observation.  
+  - **Why it matters** The title and conclusion assert a superlative ("most intolerant") that requires comparative statistical support. If the difference between the linker and other BRCT subregions is not formally tested, the claim is overreaching and could mislead clinical interpretation.  
+  - **Resolution test** Provide the intolerance scores with confidence intervals or error bars for each BRCT subregion, a statistical test (e.g., permutation or bootstrap) comparing the linker to other subregions, and the mutation density with appropriate denominators (e.g., per residue or per length-normalized window). The claim is supported only if the linker shows significantly higher intolerance under these tests.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The abstract states that MD results showed mutations in the inter-BRCT linker "led to cancer susceptibility, likely due to disruption of the interaction between BRCA1 and phosphopeptides."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The causal chain from MD-observed structural changes to "cancer susceptibility" is not established. MD simulations can show altered binding affinity or conformational dynamics, but they cannot directly demonstrate pathogenicity or cancer risk. The abstract does not specify which mutations were simulated, what metrics were used (e.g., binding free energy, hydrogen bond occupancy), or how the simulation results were linked to the TA assay outcomes.  
+  - **Why it matters** The mechanistic claim is a key part of the paper's significance. If the MD evidence is merely suggestive of reduced phosphopeptide binding, the conclusion of "cancer susceptibility" is an inference that requires additional support, such as a direct correlation between MD-predicted binding loss and experimentally measured TA activity loss.  
+  - **Resolution test** Specify the mutations studied, the MD simulation length and replicates, the binding free energy calculations or interaction metrics, and show a quantitative correlation between MD-derived binding disruption and TA assay results. The mechanistic claim is supported only if the MD and TA data converge on the same mutations with consistent effect sizes.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract describes calculation of "pathogenic mutation density and regional intolerance scores" and use of "Missense Tolerance Ratio-3D (MTR3D) and the Missense Tolerance Ratio consensus (MTRX)."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not describe how pathogenic mutations were curated (e.g., which database, which classification criteria), how regions were defined (e.g., domain boundaries, linker length), or how MTR3D and MTRX scores were aggregated per region. These choices can materially affect the results.  
+  - **Why it matters** Reproducibility and comparability with other intolerance studies depend on clear definitions. Different mutation databases or region boundaries could shift the ranking of intolerant regions.  
+  - **Resolution test** In the full text, provide a detailed methods section specifying the mutation source (e.g., ClinVar, HGMD), the pathogenicity classification threshold, the exact domain and linker coordinates, and the aggregation method for MTR scores (e.g., mean, median, minimum). The claim is reproducible only if these parameters are unambiguous.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Title  
+  - **Evidence pointer** Title  
+  - **Issue** The word "probably" in the title is ambiguous. It may reflect statistical uncertainty or authorial hedging, but it is not clear which.  
+  - **Required correction** Replace "probably" with a qualifier that reflects the actual evidence strength, such as "identified as" or "shown to be," or remove it if the statistical support is definitive.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract results  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract states that the RING domain has the highest density of pathogenic mutations, but the title and conclusion focus only on the BRCT linker. The relationship between these two findings is not discussed.  
+  - **Required correction** Add one sentence in the abstract explaining whether the RING domain finding is consistent with or divergent from the BRCT linker conclusion, and how the two regions compare in intolerance scores.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Intolerant regions"  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "intolerant" is used interchangeably for mutation density and intolerance scores, but these are distinct concepts. Mutation density reflects observed pathogenic variants, while intolerance scores predict tolerance to missense variation.  
+  - **Required correction** Define both terms explicitly in the abstract or introduction and use them consistently, e.g., "mutation-dense regions" versus "intolerance-predicted regions."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. Without statistical comparison of intolerance across BRCT subregions and without a clear link between MD results and functional outcome, the central claims are not supported by the visible evidence. R1-M3 is non-blocking but necessary for reproducibility.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of intolerance scores to subdomain resolution within BRCA1 is not entirely novel, as similar approaches exist for other genes, but the specific focus on the inter-BRCT linker may offer a new angle.  
+  - **Scientific importance** Potentially high for clinical variant interpretation, but the importance is contingent on the robustness of the intolerance ranking, which is not yet demonstrated.  
+  - **Interdisciplinary readership** The work bridges computational biology, structural biology, and clinical genetics, which could attract a broad audience if the evidence is solid.  
+  - **Technical soundness** Cannot be assessed from the abstract. The absence of statistical detail and methodological transparency precludes evaluation.  
+  - **Readability for nonspecialists** The abstract is generally clear, but terms like "MTR3D" and "MTRX" are used without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is reasonable, but the abstract alone does not provide sufficient quantitative or statistical support for the central claim. A revised manuscript with full methodological detail and formal statistical comparisons could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the inter-BRCT linker is "the most intolerant region" is unsupported without statistical comparison.
+- The claim that MD results show mutations "led to cancer susceptibility" is unsupported; MD can show structural effects but not directly pathogenicity.
+- The claim that TA assays "further supported the importance of the inter-BRCT linker" is unverifiable without effect sizes or statistical significance.
+- The relative ranking of RING versus BRCT domains in mutation density is stated but not quantified, making it unassessable.

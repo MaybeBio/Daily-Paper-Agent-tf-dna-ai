@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "40253531",
+    "doi": "10.1038/s41598-025-97791-w",
+    "title": "Integrative bioinformatics analysis reveals STAT1, ORC2, and GTF2B as critical biomarkers in lupus nephritis with Monkeypox virus infection."
+  },
+  "content": {
+    "abstract": "The monkeypox virus (MPXV) is currently spreading rapidly around the world, but the mechanisms by which it interacts with lupus nephritis (LN) are unknown. The aim of this study was to investigate the role and mechanism of lupus nephritis combined with monkeypox virus infection. The data comes from GEO and GeneCards.Through Limma and Weighted Gene Co-expression Network Analysis (WGCNA) analysis, differential expression genes (DEGs) and module genes were identified, and KEGG and GO enrichment analysis was carried out.In addition, a protein-protein interaction (PPI) network was constructed and LASSO regression was used to screen genes related to senescence. The diagnostic effectiveness was evaluated using a Nomogram and the receiver operating characteristic (ROC) curve and verified using GSE99967.Immune infiltration and gene set enrichment analysis (GSEA) Were also included in the study.In the end, miRNet was used to construct a miRNA-mRNA-TF network and screen targeted drugs through DGIdb. 5707 DEGs were identified in the lupus nephritis and 737 in the monkeypox data. WGCNA and Lasso regression analyses screened for three important targets (STAT1, ORC2, and GTF2B) .Predictive modeling and ROC of STAT1, ORC2 and GTF2B by Nomogram showed good diagnostic value .Immune infiltration analysis showed immune cell disorders and related pathway activation.The miRNA-mRNA-TF network covers 516 miRNAs and 15 transcription factors, and enrichment analysis shows that it plays an important role in senescence and inflammation.Potential Target Drugs Screened Include Guttiferone K And Silicon Phthalocyanine 4. This study identifies STAT1, ORC2, and GTF2B as key factors in cellular senescence and immune dysregulation associated with lupus nephritis and monkeypox infection, suggesting they may serve as important predictive targets.",
+    "keywords": [
+      "Biomarkers",
+      "Machine learning",
+      "Monkeypox",
+      "Senescence; lupus nephritis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lupus Nephritis/genetics/metabolism",
+      "*STAT1 Transcription Factor/genetics/metabolism",
+      "*Computational Biology/methods",
+      "Biomarkers/metabolism",
+      "Protein Interaction Maps",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Mpox, Monkeypox"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yaojun",
+        "Li, Qiang"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Li Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Clinical Medical College, Affiliated Hospital, Hebei University, Baoding, 071000, Hebei, China.",
+        "Department of Dermatology, Air Force Medical Center, PLA, Beijing, 100142, China. 16585260@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yaojun",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College, Affiliated Hospital, Hebei University, Baoding, 071000, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qiang",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Air Force Medical Center, PLA, Beijing, 100142, China. 16585260@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/20 00:44",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42434339"
+    ],
+    "refs": [
+      "39349051",
+      "39256580",
+      "39244831",
+      "39236707",
+      "39205180",
+      "39201667",
+      "38871479",
+      "38868713",
+      "38642569",
+      "38589923",
+      "37894915",
+      "37373215",
+      "37173871",
+      "36584594",
+      "36374433",
+      "36370075",
+      "36162691",
+      "36099970",
+      "35891703",
+      "35289305",
+      "34932801",
+      "34686545",
+      "34284174",
+      "33854108",
+      "32903837",
+      "32484539",
+      "31974366",
+      "31443682",
+      "30458798",
+      "30395331",
+      "29477613",
+      "29260442",
+      "26531824",
+      "26086739",
+      "25822800",
+      "25605792",
+      "22455463",
+      "22334659",
+      "20576703",
+      "20130052",
+      "20078217",
+      "19114008",
+      "16878124",
+      "16537645",
+      "16288398",
+      "15215892",
+      "12801628",
+      "10592173"
+    ],
+    "similar": [
+      "40253531",
+      "39126180",
+      "40973872",
+      "41005317",
+      "39854874",
+      "36374433",
+      "40574839",
+      "41044520",
+      "39496786",
+      "40579457",
+      "40093012",
+      "39869603",
+      "39080525",
+      "39375405",
+      "32437257",
+      "35558576",
+      "41316541",
+      "38299290",
+      "40976321",
+      "40245021",
+      "38637124",
+      "36532018",
+      "33468161",
+      "41120603",
+      "38987624",
+      "39086489",
+      "40859027",
+      "39301055",
+      "36335193",
+      "35967373",
+      "38130724",
+      "40263537",
+      "39848951",
+      "40739239",
+      "39833772",
+      "38455045",
+      "39749331",
+      "35757392",
+      "34553293",
+      "40860289",
+      "39351239",
+      "39142001",
+      "40808946",
+      "40901831",
+      "40290492",
+      "41066424",
+      "31638917",
+      "38855105",
+      "36595110",
+      "40241169",
+      "40997906",
+      "41035016",
+      "41432483",
+      "38863714",
+      "40332792",
+      "41217537",
+      "39396400",
+      "40766309",
+      "41006883",
+      "39639239",
+      "40078458",
+      "39875572",
+      "41013556",
+      "39618249",
+      "31751880",
+      "40421012",
+      "36532015",
+      "32622555",
+      "39556279",
+      "41214111",
+      "40596265",
+      "39586719",
+      "35278479",
+      "41052072",
+      "34536521",
+      "41442003",
+      "39028999",
+      "40821971",
+      "41104127",
+      "40091022",
+      "41479901",
+      "41145553",
+      "38774864",
+      "39213724",
+      "39205658",
+      "39557900",
+      "39403102",
+      "40560938",
+      "34218797",
+      "39290707",
+      "40374840",
+      "38062833",
+      "34692653",
+      "38899746",
+      "40406126",
+      "41300841",
+      "35069594",
+      "41311024",
+      "40842856",
+      "40336063"
+    ],
+    "review": [
+      "40253531"
+    ],
+    "pmc": [
+      "12009413"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-97791-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40253531/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.malacards.org/card/mpox",
+        "provider": "The Weizmann Institute of Science GeneCards and MalaCards databases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "MalaCards for mpox"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

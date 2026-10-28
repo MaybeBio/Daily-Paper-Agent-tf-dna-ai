@@ -1,0 +1,534 @@
+{
+  "identity": {
+    "pmid": "42537502",
+    "doi": "10.1016/j.ebiom.2026.106410",
+    "title": "Skeletal muscle reprogramming of metabolic, ribosomal and developmental pathways contributes to Roux-en-Y gastric bypass-induced adaptation in women."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Understanding how skeletal muscle responds to weight loss is crucial for developing targeted strategies to manage obesity and promote sustained improvement in metabolic health. Here, we investigated the molecular mechanisms underlying skeletal muscle reprogramming of gene expression and metabolic activity following Roux-en-Y gastric bypass (RYGB). METHODS: Forty-one women were studied before and one year after RYGB surgery. We leveraged multi-omics (DNA methylomics and transcriptomics) and machine learning approaches to complement muscle metabolic analyses and clinical data to identify mechanisms underlying RYGB-induced muscle metabolic reprogramming. FINDINGS: RYGB markedly decreased body weight and fat mass and improved metabolic health. Integrative analysis of vastus lateralis muscle identified 8233 genes with differentially methylated regions and 2173 differentially expressed genes post-RYGB surgery, of which 1197 genes were both differentially methylated and differentially expressed. Promoter hypomethylation was associated with the enhanced expression of transcription factors involved in skeletal muscle development and ribosomal subunits. In contrast, expression of genes encoding mitochondrial proteins decreased despite increases in mitochondrial content and enhanced mitochondrial function in skeletal muscle post-RYGB. Pre-operative muscle OXPHOS capacity, and expression of skeletal muscle hypertrophy and differentiation genes MYOC and EHMT2 were associated with weight loss success. INTERPRETATION: RYGB improves systemic metabolic health and induces sustained skeletal muscle bioenergetic reprogramming characterised by enhanced expression of genes involved in myogenesis and protein translation, but decreased expression of genes involved in mitochondrial metabolism, which may reflect improved mitochondrial quality and function. These findings advance our understanding of skeletal muscle metabolic responses to weight loss and of individual variability in metabolic phenotypes. FUNDING: Canadian Institutes of Health Research (CIHR PJT183651-M-EH, 201709FDN-CEBA-116200-GRS), Diabetes Canada Investigator Award grant OG-3-22-5645-GS (GRS), J. Bruce Duncan Endowed Chair in Metabolic Diseases (GRS), Tier 1 Canada Research Chair in Mitochondrial Bioenergetics and Metabolic Health (M-EH), Tier 1 Canada Research Chair in Metabolic Diseases (GRS).",
+    "keywords": [
+      "Bariatric surgery",
+      "DNA methylation",
+      "Epigenetics",
+      "Metabolism",
+      "Mitochondria",
+      "Obesity",
+      "Ribosome",
+      "Transcriptomics",
+      "Type 2 diabetes",
+      "Weight loss"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Gastric Bypass",
+      "*Muscle, Skeletal/metabolism",
+      "DNA Methylation",
+      "*Ribosomes/metabolism",
+      "Gene Expression Profiling",
+      "Metabolic Reprogramming",
+      "*Adaptation, Physiological",
+      "Multiomics",
+      "Adult",
+      "Middle Aged",
+      "Obesity/surgery/metabolism",
+      "Muscle Development/genetics",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pileggi, Chantal A",
+        "Mohottalage, Dhanuddara",
+        "Kennedy, Luke S",
+        "Nikpay, Majid",
+        "Hamilton, Lauren M K",
+        "Roffe, Martin",
+        "Kanaan, Michel N",
+        "Jarrar, Amer",
+        "Kolozsvari, Nicole",
+        "Wang, Dongdong",
+        "Cuperlovic-Culf, Miroslava",
+        "Alain, Tommy",
+        "Steinberg, Gregory R",
+        "McPherson, Ruth",
+        "Dent, Robert",
+        "Harper, Mary-Ellen"
+      ],
+      "short_names": [
+        "Pileggi CA",
+        "Mohottalage D",
+        "Kennedy LS",
+        "Nikpay M",
+        "Hamilton LMK",
+        "Roffe M",
+        "Kanaan MN",
+        "Jarrar A",
+        "Kolozsvari N",
+        "Wang D",
+        "Cuperlovic-Culf M",
+        "Alain T",
+        "Steinberg GR",
+        "McPherson R",
+        "Dent R",
+        "Harper ME"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada.",
+        "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada.",
+        "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada.",
+        "Division of Cardiology, Ruddy Canadian Cardiovascular Genetics Centre, University of Ottawa Heart Institute, Ottawa, Ontario, Canada.",
+        "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada.",
+        "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Children's Hospital of Eastern Ontario Research Institute, Ottawa, Ontario, Canada.",
+        "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada.",
+        "Department of Surgery, The Ottawa Hospital, Ottawa, Ontario, Canada.",
+        "Department of Surgery, The Ottawa Hospital, Ottawa, Ontario, Canada.",
+        "Department of Medicine, Centre for Metabolism, Obesity and Diabetes Research, McMaster University, Ontario, Canada.",
+        "National Research Council of Canada, Digital Technologies Research Centre, Ottawa, Canada.",
+        "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Children's Hospital of Eastern Ontario Research Institute, Ottawa, Ontario, Canada.",
+        "Department of Medicine, Centre for Metabolism, Obesity and Diabetes Research, McMaster University, Ontario, Canada.",
+        "Division of Cardiology, Ruddy Canadian Cardiovascular Genetics Centre, University of Ottawa Heart Institute, Ottawa, Ontario, Canada.",
+        "Division of Endocrinology, Department of Medicine, University of Ottawa, Ottawa, Ontario, Canada.",
+        "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada. Electronic address: mharper@uottawa.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pileggi, Chantal A",
+        "short_name": "Pileggi CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Mohottalage, Dhanuddara",
+        "short_name": "Mohottalage D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Kennedy, Luke S",
+        "short_name": "Kennedy LS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Nikpay, Majid",
+        "short_name": "Nikpay M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Ruddy Canadian Cardiovascular Genetics Centre, University of Ottawa Heart Institute, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Hamilton, Lauren M K",
+        "short_name": "Hamilton LMK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Roffe, Martín",
+        "short_name": "Roffe M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Children's Hospital of Eastern Ontario Research Institute, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Kanaan, Michel N",
+        "short_name": "Kanaan MN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Jarrar, Amer",
+        "short_name": "Jarrar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, The Ottawa Hospital, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Kolozsvari, Nicole",
+        "short_name": "Kolozsvari N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, The Ottawa Hospital, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongdong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Centre for Metabolism, Obesity and Diabetes Research, McMaster University, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Cuperlovic-Culf, Miroslava",
+        "short_name": "Cuperlovic-Culf M",
+        "identifiers": [],
+        "affiliations": [
+          "National Research Council of Canada, Digital Technologies Research Centre, Ottawa, Canada."
+        ]
+      },
+      {
+        "full_name": "Alain, Tommy",
+        "short_name": "Alain T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Children's Hospital of Eastern Ontario Research Institute, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Steinberg, Gregory R",
+        "short_name": "Steinberg GR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Centre for Metabolism, Obesity and Diabetes Research, McMaster University, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "McPherson, Ruth",
+        "short_name": "McPherson R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Ruddy Canadian Cardiovascular Genetics Centre, University of Ottawa Heart Institute, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Dent, Robert",
+        "short_name": "Dent R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Endocrinology, Department of Medicine, University of Ottawa, Ottawa, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Harper, Mary-Ellen",
+        "short_name": "Harper ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology, and Immunology, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada; Ottawa Institute of Systems Biology, University of Ottawa, Ottawa, Ontario, Canada. Electronic address: mharper@uottawa.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "EBioMedicine"
+    ],
+    "journal_abbrev": [
+      "EBioMedicine"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/01 00:36",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41251146",
+      "40960852",
+      "40734899",
+      "40627348",
+      "40603860",
+      "40155623",
+      "39998981",
+      "39150979",
+      "39107309",
+      "38411644",
+      "38337096",
+      "38191575",
+      "38020067",
+      "37638789",
+      "37113250",
+      "36945076",
+      "36926678",
+      "36602641",
+      "36583689",
+      "36443295",
+      "36302454",
+      "36289368",
+      "35965199",
+      "35766356",
+      "35709767",
+      "35293095",
+      "34863305",
+      "34666419",
+      "34625635",
+      "34339868",
+      "34320181",
+      "33969230",
+      "33948567",
+      "33653767",
+      "33555451",
+      "33485454",
+      "33442950",
+      "33252038",
+      "33053284",
+      "33035570",
+      "32771696",
+      "32327722",
+      "32132110",
+      "32097405",
+      "31734536",
+      "31697686",
+      "31624314",
+      "31519890",
+      "31443728",
+      "31399642",
+      "31114921",
+      "31076557",
+      "30814686",
+      "30346488",
+      "30078554",
+      "30048806",
+      "30030361",
+      "29958539",
+      "29869452",
+      "29791782",
+      "29151592",
+      "29099273",
+      "28887307",
+      "28853041",
+      "28604169",
+      "28517981",
+      "28512204",
+      "28273480",
+      "28270511",
+      "28263959",
+      "28199805",
+      "28002404",
+      "27943095",
+      "27917127",
+      "27871066",
+      "27695375",
+      "27532274",
+      "27239264",
+      "27207943",
+      "27207528",
+      "26853430",
+      "26782151",
+      "26424855",
+      "26293505",
+      "25972926",
+      "25862179",
+      "25799990",
+      "25670728",
+      "25605792",
+      "25583482",
+      "25516281",
+      "24905939",
+      "24478339",
+      "24263090",
+      "24234777",
+      "24138928",
+      "23961961",
+      "23835488",
+      "23825224",
+      "23791452",
+      "23583180",
+      "23462862",
+      "22641018",
+      "22586215",
+      "22551577",
+      "22455463",
+      "22422453",
+      "22371502",
+      "22215600",
+      "22076929",
+      "21833817",
+      "21832118",
+      "21544083",
+      "21107106",
+      "20808728",
+      "20332421",
+      "19723495",
+      "19667757",
+      "18954843",
+      "18430778",
+      "18177724",
+      "16098826",
+      "15367664",
+      "12145158",
+      "12006347",
+      "10049363",
+      "8563679",
+      "7989591",
+      "6757014",
+      "2243122"
+    ],
+    "similar": [
+      "42537502",
+      "33933146",
+      "34690929",
+      "28883895",
+      "25862179",
+      "31613643",
+      "22194858",
+      "23583180",
+      "31212005",
+      "24837562",
+      "37230231",
+      "41917258",
+      "25975200",
+      "32739864",
+      "29330917",
+      "32599690",
+      "18438115",
+      "42475469",
+      "29464885",
+      "26615868",
+      "28673470",
+      "26062634",
+      "28735374",
+      "31133015",
+      "41598416",
+      "18645576",
+      "42339741",
+      "35378626",
+      "25710379",
+      "28250848",
+      "27207528",
+      "38321253",
+      "27989521",
+      "31270430",
+      "37224573",
+      "40663235",
+      "33535876",
+      "29770924",
+      "35965199",
+      "30927343",
+      "30851879",
+      "36291149",
+      "41486179",
+      "38977261",
+      "21146129",
+      "31079286",
+      "42343298",
+      "41226372",
+      "28345790",
+      "30463068",
+      "41507695",
+      "42267294",
+      "28213664",
+      "30292648",
+      "26832135",
+      "24503104",
+      "27178617",
+      "36164727",
+      "27418681",
+      "29603098",
+      "33933726",
+      "41817182",
+      "31624314",
+      "17626126",
+      "29275093",
+      "25783037",
+      "31402604",
+      "35899178",
+      "31126840",
+      "26838526",
+      "40632451",
+      "34021884",
+      "26293505",
+      "27453553",
+      "22923664",
+      "41539472",
+      "37709694",
+      "41723283",
+      "41348144",
+      "42021739",
+      "39885510",
+      "21890425",
+      "33150746",
+      "38191966",
+      "37974350",
+      "30982179",
+      "29705562",
+      "30809769",
+      "36349055",
+      "31734066",
+      "41631732",
+      "32873911",
+      "23074460",
+      "19169664",
+      "31439477",
+      "41680561",
+      "30043755",
+      "40179925",
+      "39125287",
+      "25872541"
+    ],
+    "review": [
+      "42537502",
+      "28250848",
+      "41226372",
+      "33933726",
+      "25872541"
+    ],
+    "pmc": [
+      "13452326"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352-3964(26)00294-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42537502/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4048",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2352-3964(26)00294-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

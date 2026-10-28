@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "34524404",
+    "doi": "10.1093/bib/bbab334",
+    "title": "DeepMotifSyn: a deep learning approach to synthesize heterodimeric DNA motifs."
+  },
+  "content": {
+    "abstract": "The cooperativity of transcription factors (TFs) is a widespread phenomenon in the gene regulation system. However, the interaction patterns between TF binding motifs remain elusive. The recent high-throughput assays, CAP-SELEX, have identified over 600 composite DNA sites (i.e. heterodimeric motifs) bound by cooperative TF pairs. However, there are over 25 000 inferentially effective heterodimeric TFs in the human cells. It is not practically feasible to validate all heterodimeric motifs due to cost and labor. We introduce DeepMotifSyn, a deep learning-based tool for synthesizing heterodimeric motifs from monomeric motif pairs. Specifically, DeepMotifSyn is composed of heterodimeric motif generator and evaluator. The generator is a U-Net-based neural network that can synthesize heterodimeric motifs from aligned motif pairs. The evaluator is a machine learning-based model that can score the generated heterodimeric motif candidates based on the motif sequence features. Systematic evaluations on CAP-SELEX data illustrate that DeepMotifSyn significantly outperforms the current state-of-the-art predictors. In addition, DeepMotifSyn can synthesize multiple heterodimeric motifs with different orientation and spacing settings. Such a feature can address the shortcomings of previous models. We believe DeepMotifSyn is a more practical and reliable model than current predictors on heterodimeric motif synthesis. Contact:kc.w@cityu.edu.hk.",
+    "keywords": [
+      "deep learning",
+      "heterodimeric motif synthesis",
+      "transcription factor cooperativity"
+    ],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Deep Learning",
+      "Humans",
+      "Nucleotide Motifs",
+      "Protein Binding",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Jiecong",
+        "Huang, Lei",
+        "Chen, Xingjian",
+        "Zhang, Shixiong",
+        "Wong, Ka-Chun"
+      ],
+      "short_names": [
+        "Lin J",
+        "Huang L",
+        "Chen X",
+        "Zhang S",
+        "Wong KC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong SAR.",
+        "Hong Kong Institute for Data Science, City University of Hong Kong, Kowloon, Hong Kong SAR.",
+        "School of Computer Science and Technology, Xidian University, Xi'an, China.",
+        "School of Computer Science and Technology, Xidian University, Xi'an, China.",
+        "Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong SAR."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Jiecong",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong SAR."
+        ]
+      },
+      {
+        "full_name": "Huang, Lei",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "Hong Kong Institute for Data Science, City University of Hong Kong, Kowloon, Hong Kong SAR."
+        ]
+      },
+      {
+        "full_name": "Chen, Xingjian",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Xidian University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shixiong",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Xidian University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wong, Ka-Chun",
+        "short_name": "Wong KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong SAR."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/16 06:00",
+    "fetched_at": "2026-09-27 23:40:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "34524404",
+      "30590725",
+      "26550823",
+      "31372637",
+      "26411866",
+      "29385521",
+      "26160164",
+      "34465294",
+      "25428352",
+      "34272562",
+      "28472398",
+      "33603233",
+      "34534646",
+      "35971180",
+      "19956545",
+      "28245811",
+      "32770026",
+      "35659235",
+      "35240993",
+      "22955990",
+      "33232622",
+      "25108460",
+      "31742324",
+      "38987807",
+      "37100167",
+      "27567672",
+      "30660610",
+      "22534400",
+      "36322688",
+      "26291518",
+      "28633280",
+      "27993786",
+      "23847101",
+      "22189060",
+      "32960766",
+      "25559499",
+      "23272209",
+      "27803259",
+      "28240320",
+      "25927199",
+      "33372147",
+      "31133749",
+      "16643658",
+      "25179504",
+      "19652015",
+      "31856220",
+      "28623580",
+      "31913281",
+      "25775564",
+      "34285090",
+      "28881989",
+      "24214955",
+      "35666736",
+      "37889068",
+      "37971293",
+      "31267468",
+      "29363433",
+      "26939991",
+      "34962264",
+      "35275822",
+      "23805837",
+      "28541376",
+      "32657363",
+      "27899659",
+      "31723409",
+      "24335146",
+      "34448158",
+      "28753602",
+      "20870645",
+      "33303494",
+      "28591841",
+      "33005921",
+      "24564945",
+      "33975951",
+      "35130376",
+      "24927817",
+      "28718849",
+      "31481462",
+      "17963524",
+      "31999322",
+      "22955984",
+      "23935523",
+      "16873497",
+      "18371204",
+      "26334922",
+      "27164602",
+      "25428367",
+      "29116820",
+      "28379348",
+      "26552868",
+      "21852305",
+      "28790414",
+      "21486752",
+      "32946398",
+      "34486522",
+      "30922998",
+      "34664074",
+      "39174927",
+      "38952710",
+      "33796819",
+      "37165972",
+      "35650259",
+      "34370721",
+      "38807713",
+      "36866046",
+      "38992773"
+    ],
+    "review": [
+      "34524404",
+      "31742324",
+      "16643658"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34524404.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab334",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

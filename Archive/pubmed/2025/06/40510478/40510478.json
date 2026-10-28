@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "40510478",
+    "doi": "10.3389/fendo.2025.1539646",
+    "title": "Comprehensive bioinformatics analysis and experimental verification identify mitochondrial gene Dgat2 as a novel therapeutic biomarker for myocardial ischemia-reperfusion."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemic cardiomyopathy is a severe disease marked by high morbidity and mortality, often exacerbated by myocardial ischemia/reperfusion injury (MI/RI). Mitochondrial metabolism plays a critical role in MI/RI progression. This study aimed to identify potential new targets and biomarkers for mitochondria-related genes in MI/RI. METHODS: MI/R microarray data (GSE160516) from the GEO database and a mitochondrial geneset were analyzed. Limma identified differentially expressed genes (DEGs), followed by GSEA, GO, and KEGG pathway enrichment. Mitochondria-related DEGs (MitoDEGs) were pinpointed. Protein-Protein Interaction (PPI) networks and machine learning identified key MitoDEGs. Regulatory networks were constructed using transcription factor (TF) predictions. Immune cell infiltration was assessed with ImmuCelAl, and correlations between MitoDEGs and immune cell levels were examined. Mouse myocardial ischemia-reperfusion models were established to validate pivotal MitoDEGs. RESULTS: MitoDEGs were enriched in bio-oxidation, immune-inflammation, and oxidative stress pathways. Machine learning identified two hub genes: Dgat2 and Cybb. Dgat2 was significantly elevated in ischemia-reperfusion mouse models, confirmed by RT-PCR and Western blot. Functional enrichment indicated that Dgat2 may be involved in biological oxidation and lipid metabolism. TF prediction suggested PPARG as a regulator of Dgat2 expression. Immune infiltration analysis revealed significant correlations between Dgat2 and immune cells, including CD4_T_cells and NK cells, suggesting a role for immunity in MI/RI. CONCLUSIONS: We found that Dgat2 could be exploited as a novel mitochondria-related gene target and biomarker in myocardial ischemia-reperfusion injury, which is of great clinical significance.",
+    "keywords": [
+      "Dgat2",
+      "bioinformatics analysis",
+      "mitochondria",
+      "myocardial ischemia/reperfusion injury",
+      "oxidative stress"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Computational Biology/methods",
+      "*Myocardial Reperfusion Injury/genetics/metabolism/pathology",
+      "Biomarkers/metabolism",
+      "*Diacylglycerol O-Acyltransferase/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps",
+      "Male",
+      "Mice, Inbred C57BL",
+      "*Genes, Mitochondrial"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Hong",
+        "Zhou, Yixin",
+        "Xue, Wenya",
+        "Yin, Pan",
+        "Liu, Luyu",
+        "Wu, Shaobo",
+        "Zhao, Yahao",
+        "An, Qi",
+        "Sun, Yang"
+      ],
+      "short_names": [
+        "Li H",
+        "Zhou Y",
+        "Xue W",
+        "Yin P",
+        "Liu L",
+        "Wu S",
+        "Zhao Y",
+        "An Q",
+        "Sun Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Medicine, Xijing Hospital, The Fourth Military Medical University, Xi'an, China.",
+        "Department of Geriatrics, Xijing Hospital, The Fourth Military Medical University, Xi'an, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of General Medicine, Xijing Hospital, The Fourth Military Medical University, Xi'an, China.",
+        "Department of General Medicine, Xijing Hospital, The Fourth Military Medical University, Xi'an, China.",
+        "Department of Geriatrics, Xijing Hospital, The Fourth Military Medical University, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Hong",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Xijing Hospital, The Fourth Military Medical University, Xi'an, China.",
+          "Department of Geriatrics, Xijing Hospital, The Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yixin",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Wenya",
+        "short_name": "Xue W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Pan",
+        "short_name": "Yin P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Luyu",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shaobo",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yahao",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Xijing Hospital, The Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "An, Qi",
+        "short_name": "An Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Xijing Hospital, The Fourth Military Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yang",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Xijing Hospital, The Fourth Military Medical University, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/13 06:35",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "42562793",
+      "41299377"
+    ],
+    "refs": [
+      "40057419",
+      "39429873",
+      "39267140",
+      "38616316",
+      "38580575",
+      "38446669",
+      "38340721",
+      "38195542",
+      "37726294",
+      "37516308",
+      "37477595",
+      "37433770",
+      "37307911",
+      "37141734",
+      "36805145",
+      "36736970",
+      "36370105",
+      "36283482",
+      "36282767",
+      "35883393",
+      "35679798",
+      "35181472",
+      "34775933",
+      "34731632",
+      "34725566",
+      "34439946",
+      "34001940",
+      "33853198",
+      "33548489",
+      "32410868",
+      "32320073",
+      "32173461",
+      "31948035",
+      "31896304",
+      "31857574",
+      "31669759",
+      "31163980",
+      "31019978",
+      "30836997",
+      "30664839",
+      "30586706",
+      "30168729",
+      "29912392",
+      "29373843",
+      "29351463",
+      "28216385",
+      "28006953",
+      "27899662",
+      "27836629",
+      "27306092",
+      "27270647",
+      "27061490",
+      "26588563",
+      "25703630",
+      "25527775",
+      "25428369",
+      "25301066",
+      "25083080",
+      "25000143",
+      "24746984",
+      "24651542",
+      "24530674",
+      "23621582",
+      "23193258",
+      "22789525",
+      "20639084",
+      "19049983",
+      "14558989",
+      "12761443",
+      "11065220",
+      "7603485"
+    ],
+    "similar": [
+      "40510478",
+      "40496861",
+      "39775580",
+      "38774875",
+      "36726122",
+      "39609718",
+      "39794696",
+      "39473404",
+      "39549776",
+      "37434203",
+      "37033969",
+      "40635026",
+      "38539069",
+      "41350331",
+      "41013727",
+      "35658960",
+      "40091022",
+      "40274954",
+      "41044520",
+      "41007677",
+      "38901133",
+      "40790764",
+      "39086489",
+      "39265357",
+      "40263537",
+      "38291374",
+      "39172048",
+      "40069854",
+      "40346414",
+      "39341981",
+      "40319751",
+      "36246123",
+      "39387979",
+      "40340571",
+      "38347951",
+      "41253465",
+      "39985261",
+      "40977739",
+      "39747134",
+      "40510362",
+      "38485036",
+      "41347019",
+      "41305746",
+      "39351239",
+      "39863719",
+      "40406126",
+      "38690269",
+      "39375405",
+      "40973872",
+      "38867322",
+      "41299729",
+      "32696819",
+      "35958412",
+      "38899746",
+      "39466354",
+      "36189147",
+      "33705733",
+      "31220942",
+      "39586719",
+      "32626989",
+      "40409241",
+      "34919942",
+      "40087350",
+      "40513941",
+      "39973855",
+      "38863714",
+      "41480995",
+      "40628511",
+      "40491449",
+      "41146237",
+      "38745296",
+      "39520298",
+      "41266526",
+      "41094572",
+      "41107920",
+      "37969273",
+      "40137844",
+      "38384969",
+      "38815767",
+      "38621884",
+      "40574839",
+      "40591166",
+      "28173848",
+      "38319987",
+      "40156906",
+      "38803920",
+      "29901134",
+      "40058518",
+      "39870856",
+      "40969397",
+      "39744161",
+      "38062833",
+      "40884580",
+      "36780323",
+      "38268224",
+      "40241169",
+      "40096900",
+      "40012292",
+      "38568407",
+      "40245021"
+    ],
+    "review": [
+      "40510478",
+      "39387979"
+    ],
+    "pmc": [
+      "12159077"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40510478/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1181",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2025.1539646",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

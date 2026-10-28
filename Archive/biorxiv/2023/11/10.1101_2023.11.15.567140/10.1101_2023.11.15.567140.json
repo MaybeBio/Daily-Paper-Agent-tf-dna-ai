@@ -1,0 +1,495 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.15.567140",
+  "title": "Epigenetic heritability of cell plasticity drives cancer drug resistance through one-to-many genotype to phenotype mapping",
+  "doi": "10.1101/2023.11.15.567140",
+  "abstract": "Cancer drug resistance is multi-factorial, driven by heritable (epi)genetic changes but also phenotypic plasticity. Here we dissect it by perturbing colorectal cancer patient-derived organoids longitudinally with drugs in sequence. Combining longitudinal tracking, single cell ’omics, evolutionary modelling, and machine leaning, we found that different targeted drugs select for distinct subclones, supporting rationally designed drug sequences. The cellular memory was encoded as a heritable epigenetic configuration, from which multiple transcriptional programmes could run, supporting a one-to-many (epi)genotype-to- phenotype map that explains how clonal expansions and plasticity manifest together. This may ensure drug resistance subclones can exhibit distinct phenotypes in changing environments while still preserving the cellular memory encoding for their selective advantage. Chemotherapies resistance was instead entirely driven by plasticity. Inducing further chromosomal instability before drug application changed clonal evolution but not convergent transcriptional programmes. Collectively, our data show how genetic and epigenetic alterations are selected to “permissive epigenome” enabling phenotypic plasticity.",
+  "authors": [
+    "Oliveira E",
+    "Oliveira E",
+    "Milite S",
+    "Fernandez-Mateos J",
+    "Cresswell GD",
+    "Yara-Romero E",
+    "Vlachogiannis G",
+    "Chen B",
+    "James C",
+    "Patruno L",
+    "Ascolani G",
+    "Acar A",
+    "Heide T",
+    "Spiteri I",
+    "Graudenzi A",
+    "Caravagna G",
+    "Bertotti A",
+    "Graham TA",
+    "Magnani L",
+    "Valeri N",
+    "Sottoriva A"
+  ],
+  "published_date": "2023-11-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.15.567140",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.15.567140.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR760991",
+    "raw_record": {
+      "id": "PPR760991",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR760991"
+        ]
+      },
+      "doi": "10.1101/2023.11.15.567140",
+      "title": "Epigenetic heritability of cell plasticity drives cancer drug resistance through one-to-many genotype to phenotype mapping",
+      "authorString": "Oliveira E, Oliveira E, Milite S, Fernandez-Mateos J, Cresswell GD, Yara-Romero E, Vlachogiannis G, Chen B, James C, Patruno L, Ascolani G, Acar A, Heide T, Spiteri I, Graudenzi A, Caravagna G, Bertotti A, Graham TA, Magnani L, Valeri N, Sottoriva A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Oliveira E",
+            "lastName": "Oliveira",
+            "firstName": "Erica",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4949-4131"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oliveira E",
+            "lastName": "Oliveira",
+            "firstName": "Erica",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1624-4021"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milite S",
+            "lastName": "Milite",
+            "firstName": "Salvatore",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Biology Research Centre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fernandez-Mateos J",
+            "lastName": "Fernandez-Mateos",
+            "firstName": "Javier",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cresswell GD",
+            "lastName": "Cresswell",
+            "firstName": "George",
+            "initials": "GD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yara-Romero E",
+            "lastName": "Yara-Romero",
+            "firstName": "Erika",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vlachogiannis G",
+            "lastName": "Vlachogiannis",
+            "firstName": "Georgios",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen B",
+            "lastName": "Chen",
+            "firstName": "Bingjie",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3303-068X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                },
+                {
+                  "affiliation": "GMU-GIBH Joint School of Life Sciences, The Guangdong-Hong Kong-Macau Joint Laboratory for Cell Fate Regulation and Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "James C",
+            "lastName": "James",
+            "firstName": "Chela",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Biology Research Centre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Patruno L",
+            "lastName": "Patruno",
+            "firstName": "Lucrezia",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Informatics, Systems and Communication, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ascolani G",
+            "lastName": "Ascolani",
+            "firstName": "Gianluca",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Informatics, Systems and Communication, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Acar A",
+            "lastName": "Acar",
+            "firstName": "Ahmet",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2478-8029"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Department of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heide T",
+            "lastName": "Heide",
+            "firstName": "Timon",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Biology Research Centre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spiteri I",
+            "lastName": "Spiteri",
+            "firstName": "Inma",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Graudenzi A",
+            "lastName": "Graudenzi",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5452-1918"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Informatics, Systems and Communication, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Caravagna G",
+            "lastName": "Caravagna",
+            "firstName": "Giulio",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4240-3265"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mathematics, Informatics and Geosciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bertotti A",
+            "lastName": "Bertotti",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Oncology, , ,"
+                },
+                {
+                  "affiliation": "Candiolo Research Institute – FPO IRCSS, Candiolo, Turin, Ital"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Graham TA",
+            "lastName": "Graham",
+            "firstName": "Trevor",
+            "initials": "TA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Magnani L",
+            "lastName": "Magnani",
+            "firstName": "Luca",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Breast Cancer Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Valeri N",
+            "lastName": "Valeri",
+            "firstName": "Nicola",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Department of Surgery and Cancer, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sottoriva A",
+            "lastName": "Sottoriva",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Evolution and Cancer, , ,"
+                },
+                {
+                  "affiliation": "Computational Biology Research Centre, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5452-1918"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1624-4021"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2478-8029"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4949-4131"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3303-068X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4240-3265"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Cancer drug resistance is multi-factorial, driven by heritable (epi)genetic changes but also phenotypic plasticity. Here we dissect it by perturbing colorectal cancer patient-derived organoids longitudinally with drugs in sequence. Combining longitudinal tracking, single cell ’omics, evolutionary modelling, and machine leaning, we found that different targeted drugs select for distinct subclones, supporting rationally designed drug sequences. The cellular memory was encoded as a heritable epigenetic configuration, from which multiple transcriptional programmes could run, supporting a one-to-many (epi)genotype-to- phenotype map that explains how clonal expansions and plasticity manifest together. This may ensure drug resistance subclones can exhibit distinct phenotypes in changing environments while still preserving the cellular memory encoding for their selective advantage. Chemotherapies resistance was instead entirely driven by plasticity. Inducing further chromosomal instability before drug application changed clonal evolution but not convergent transcriptional programmes. Collectively, our data show how genetic and epigenetic alterations are selected to “permissive epigenome” enabling phenotypic plasticity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "202778/B/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "202778/Z/16/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/16/2023.11.15.567140.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.11.15.567140"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR760991"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR760991&type=FILE&fileName=EMS191304-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS191304",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-11-18",
+      "firstPublicationDate": "2023-11-16",
+      "firstIndexDate": "2023-11-18",
+      "fullTextReceivedDate": "2024-10-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

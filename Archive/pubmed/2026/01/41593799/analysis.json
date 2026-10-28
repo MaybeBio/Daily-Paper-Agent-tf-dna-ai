@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41593799",
+  "title": "Deciphering stromal cell interactions in osteosarcoma highlights CDKN2A and MMP14 as novel diagnostic and therapeutic biomarkers.",
+  "authors": "Peng, Xiwen; Jiang, Haobo; Sun, Yicheng; Ge, Jinwen; Luo, Zhenhua",
+  "journal": "European journal of medical research",
+  "published_date": "2026-01-28",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过单细胞和转录组分析骨肉瘤基质细胞互作，筛选CDKN2A/MMP14生物标志物并做分子对接，但核心是肿瘤微环境与标志物，非蛋白质-DNA互作建模，仅TF调控网络预测为边缘关联。",
+  "abstract": "BACKGROUND: Osteosarcoma (OS) progression is critically influenced by the stromal microenvironment, yet we face a lack of reliable biomarkers. This study integrated single-cell and transcriptomic analyses to decipher stromal cell networks and identify novel diagnostic markers and therapeutic targets for OS. METHODS: Using scRNA-Seq data and transcriptomic datasets obtained from the Gene Expression Omnibus (GEO), clustering analysis and communication analysis were performed with Seurat and CellChat packages, respectively. High-dimensional WGCNA (hdWGCNA) was applied to stromal cells to identify key gene modules. Hub genes from these modules were intersected with differentially expressed genes (DEGs) from DESeq2 analysis to pinpoint potential biomarkers. Their regulatory networks were predicted using the hTFtarget and ENCORI databases. Potential targeted drugs were screened via the DSigDB database and validated by molecular docking. Finally, functional assays were conducted using OS cell lines. RESULTS: Single-cell transcriptomics analysis identified seven major cell subpopulations (macrophages, stromal cells, T cells, plasma cells, endothelial cells, plasmacytoid dendritic cells, and mast cells). Cell communication analysis showed that stromal cells and macrophages can interact via CD99-CD99. hdWGCNA analysis clustered 19 gene modules in stromal cells, among which modules M14, M15, and M17 were closely associated with OS and enriched in pathways, such as ossification, extracellular matrix organization, and skeletal system development. Two potential biomarkers (CDKN2A and MMP14) were screened. Transcription factor (TF) and miRNA regulatory network predictions indicated that both the two potential biomarkers were situated in a complex post-transcriptional regulatory network. Drug prediction and molecular docking results revealed that MMP14 can stably bind to resveratrol. The proliferation, invasion, and migration capabilities of MMP14-silenced OS cell lines were significantly downregulated. CONCLUSION: This study identified CDKN2A and MMP14 as potential OS biomarkers and elucidated their role within the stromal cell network, suggesting resveratrol as a candidate therapeutic molecule targeting MMP14. The present discoveries provided new insights for understanding the progression mechanisms and developing precise diagnosis and treatment strategies for OS.",
+  "abstract_zh": "背景：骨肉瘤（Osteosarcoma, OS）的进展受到基质微环境的关键影响，然而我们仍缺乏可靠的生物标志物。本研究整合单细胞和转录组分析，以解析基质细胞网络并识别OS的新型诊断标志物和治疗靶点。方法：利用从基因表达综合数据库（Gene Expression Omnibus, GEO）获取的scRNA-Seq数据和转录组数据集，分别使用Seurat和CellChat包进行聚类分析和通讯分析。对基质细胞应用高维加权基因共表达网络分析（high-dimensional WGCNA, hdWGCNA）以识别关键基因模块。将这些模块中的核心基因与DESeq2分析得到的差异表达基因（differentially expressed genes, DEGs）取交集，以确定潜在生物标志物。利用hTFtarget和ENCORI数据库预测其调控网络。通过DSigDB数据库筛选潜在靶向药物，并通过分子对接进行验证。最后，使用OS细胞系进行功能实验。结果：单细胞转录组学分析识别出七个主要细胞亚群（巨噬细胞、基质细胞、T细胞、浆细胞、内皮细胞、浆细胞样树突状细胞和肥大细胞）。细胞通讯分析显示，基质细胞和巨噬细胞可通过CD99-CD99相互作用。hdWGCNA分析在基质细胞中聚类出19个基因模块，其中模块M14、M15和M17与OS密切相关，并富集于骨化、细胞外基质组织和骨骼系统发育等通路。筛选出两个潜在生物标志物（CDKN2A和MMP14）。转录因子（transcription factor, TF）和miRNA调控网络预测表明，这两个潜在生物标志物均位于复杂的转录后调控网络中。药物预测和分子对接结果显示，MMP14能与白藜芦醇稳定结合。MMP14沉默的OS细胞系的增殖、侵袭和迁移能力显著下调。结论：本研究将CDKN2A和MMP14识别为OS的潜在生物标志物，并阐明了它们在基质细胞网络中的作用，提示白藜芦醇可作为靶向MMP14的候选治疗分子。本发现为理解OS的进展机制和制定精准诊断与治疗策略提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41593799/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41593799/",
+  "paper_page_path": "papers/pubmed/41593799/index.html"
+}

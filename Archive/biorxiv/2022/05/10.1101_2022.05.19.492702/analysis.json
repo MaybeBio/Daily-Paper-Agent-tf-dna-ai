@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.19.492702",
+  "title": "JEDII: Juxtaposition Enabled DNA-binding Interface Identifier",
+  "authors": "Sanjana Nair; M.S. Madhusudhan",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-20",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 7,
+  "one_liner_zh": "提出基于模板的JEDII方法，通过叠加氢键供受体原子同时预测蛋白-DNA互作界面残基与DNA序列，属于广义蛋白-DNA互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "The specific recognition of small stretches of the genomic sequence by their cognate binding protein partners is crucial for various biological processes. Traditionally the prediction of DNA-protein interactions has been treated as two separate problems - one where we predict the most probable DNA sequence that a given protein would bind to and another where we determine the amino acids constituting the DNA binding pocket on a protein. In this study, we introduce JEDII, a template-based method that combines these two aspects of DNA-protein interactions and predicts the residues, nucleotides and amino acids, that would mediate the interaction. Our computational method utilises known structures of DNA-protein complexes in a protocol that superimposes amino acid-nucleotide hydrogen-bonding donor and acceptors atoms on one another to identify the protein-DNA interface. The corner stone of the method is that specificity bestowing hydrogen-bonding interactions are structurally conserved. We validated the accuracy of our procedure on a dataset of 285 DNA-protein complexes where JEDII predicted the cognate DNA sequence with a 62% accuracy. It predicted the DNA-binding amino acids on the protein with 94 % accuracy and an MCC of 0.70. JEDII was also separately compared to other popular methods that predict the cognate DNA sequence and to methods that predict the DNA binding residues. The comparisons were done over four different datasets and JEDII outperformed most methods over all these data sets. JEDII is a robust method following a simple replicable algorithm to determine the molecular basis of DNA-protein specificity and could be instrumental in predicting DNA-protein complexes that are central to key biological phenomena.",
+  "abstract_zh": "基因组序列的特定小片段与其同源结合蛋白伴侣的特异性识别对多种生物过程至关重要。传统上，DNA-蛋白质相互作用的预测被视为两个独立的问题——一是预测给定蛋白质最可能结合的DNA序列，二是确定构成蛋白质上DNA结合口袋的氨基酸。在本研究中，我们引入了JEDII，一种基于模板的方法，它结合了DNA-蛋白质相互作用的这两个方面，并预测介导相互作用的残基、核苷酸和氨基酸。我们的计算方法利用已知的DNA-蛋白质复合物结构，在一种协议中，将氨基酸-核苷酸氢键供体和受体原子相互叠加，以识别蛋白质-DNA界面。该方法的核心在于，赋予特异性的氢键相互作用在结构上是保守的。我们在一个包含285个DNA-蛋白质复合物的数据集上验证了程序的准确性，其中JEDII以62%的准确率预测了同源DNA序列。它以94%的准确率和0.70的MCC预测了蛋白质上的DNA结合氨基酸。JEDII还分别与预测同源DNA序列的其他流行方法以及预测DNA结合残基的方法进行了比较。这些比较在四个不同的数据集上进行，JEDII在所有数据集上均优于大多数方法。JEDII是一种遵循简单可复制算法来确定DNA-蛋白质特异性分子基础的稳健方法，可能有助于预测对关键生物现象至关重要的DNA-蛋白质复合物。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.19.492702",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.19.492702",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.19.492702/index.html"
+}

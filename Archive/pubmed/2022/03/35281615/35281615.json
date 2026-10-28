@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "35281615",
+    "doi": "10.1155/2022/9911472",
+    "title": "Differential Expression and Bioinformatics Analysis of tRF/tiRNA in Endometriosis Patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Endometriosis (EMs) is a benign chronic condition that tends to recur in women of childbearing age, with an incidence of approximately 10%. It is a multifactorial disease for which the pathogenesis is currently unclear. This study is aimed at investigating the expression and clinical significance of tRNA-derived small RNA (tsRNA), a novel noncoding small RNA with potential regulatory functions, in endometriosis. METHODS: The tRF/tiRNA expression profiles in endometrial tissues from three pairs of endometriosis patients and controls were detected by tRF&tiRNA PCR microarray technology and then verified by quantitative real-time polymerase chain reaction (qPCR). The target genes and target sites of TRF396, tiRNA-5030-GlnTTG-3, TRF308, and TRF320 were predicted by miRanda, and the network diagram of their interaction with miRNA was drawn. The impact of tRNA-derived fragments on the pathogenesis of endometriosis was analyzed using the Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG). RESULTS: Two upregulated and 19 downregulated tRNA-derived fragments were identified. The qRT-PCR results of 2 upregulated and 2 downregulated RNA-derived fragments were consistent with the RNA Seq data. The OR2B4 gene related to TRF396, the DGAT1 gene related to tiRNA-5030-GlnTTG-3, the KLF16 gene of TRF308, and the RNF213 gene of TRF320 had significant correlations. Gene Ontology and pathway analysis showed that the target genes of TRF396 and tiRNA-5030-GlnTTG-3 were mainly involved in the intrinsic components of the membrane and the overall composition of the membrane in cell components; molecular functions mainly involve olfactory conduction and G protein-coupled receptor activity. In the biological process, it was mainly involved in the detection of sensory stimuli. The target genes of TRF308 and TRF320 were mainly involved in the intracellular part; molecular functions are mainly related to DNA binding transcription factor activity and protein binding and mainly related to biological regulation of biological processes. Pathway analysis showed that the RAP1 signaling pathway and the AXON GUIDANCE signaling pathway may participate in the progression of endometriosis. CONCLUSION: The differential expression of tRF/tiRNA in endometriosis may be related to the pathogenesis of endometriosis. Furthermore, tRF/tiRNA may be a biomarker for the diagnosis and treatment of EMs in the future.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenosine Triphosphatases",
+      "Computational Biology",
+      "*Endometriosis/pathology",
+      "Female",
+      "Gene Ontology",
+      "Humans",
+      "Kruppel-Like Transcription Factors",
+      "*MicroRNAs/genetics",
+      "RNA, Transfer/genetics/metabolism",
+      "Ubiquitin-Protein Ligases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Wang-Shu",
+        "Li, Yi-Lin",
+        "Cao, Rui",
+        "Ha, Chun-Fang",
+        "Sun, Shu",
+        "Yu, Lan",
+        "Li, Jian"
+      ],
+      "short_names": [
+        "Li WS",
+        "Li YL",
+        "Cao R",
+        "Ha CF",
+        "Sun S",
+        "Yu L",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6287-8113",
+        "ORCID: 0000-0002-0828-4277"
+      ],
+      "affiliations": [
+        "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China.",
+        "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China.",
+        "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China.",
+        "Department of Obstetrics and Gynecology in General Hospital, Key Laboratory of Fertility Preservation and Maintenance of the Ministry of Education, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China.",
+        "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China.",
+        "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Wang-Shu",
+        "short_name": "Li WS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yi-Lin",
+        "short_name": "Li YL",
+        "identifiers": [
+          "0000-0002-6287-8113"
+        ],
+        "affiliations": [
+          "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Rui",
+        "short_name": "Cao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China."
+        ]
+      },
+      {
+        "full_name": "Ha, Chun-Fang",
+        "short_name": "Ha CF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology in General Hospital, Key Laboratory of Fertility Preservation and Maintenance of the Ministry of Education, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Shu",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Lan",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0002-0828-4277"
+        ],
+        "affiliations": [
+          "Department of Gynecology, Dalian Women and Children's Medical Center (Group), 1 Dunhuang Road, Shahekou District, Dalian City, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/15 06:00",
+    "fetched_at": "2026-09-28 06:19:09"
+  },
+  "links": {
+    "cites": [
+      "42170009",
+      "42050306",
+      "41981411",
+      "41415206",
+      "40575905",
+      "37953919",
+      "37284703",
+      "37047149",
+      "36278681",
+      "36086762"
+    ],
+    "refs": [
+      "33291485",
+      "33202017",
+      "33045361",
+      "33020832",
+      "33000885",
+      "32980067",
+      "32956625",
+      "32906721",
+      "32850438",
+      "32651898",
+      "32606362",
+      "32468268",
+      "32447447",
+      "32446846",
+      "32212520",
+      "32143439",
+      "32138588",
+      "32116132",
+      "31965165",
+      "31845823",
+      "31821471",
+      "31717614",
+      "31679270",
+      "31674076",
+      "31551495",
+      "31496739",
+      "31488888",
+      "31479615",
+      "31425004",
+      "31370190",
+      "31280952",
+      "30925951",
+      "30905816",
+      "30232504",
+      "29844106",
+      "29748504",
+      "29697794",
+      "28338216",
+      "27892771",
+      "26743126",
+      "26325506",
+      "25957686",
+      "25907296",
+      "25270025",
+      "22767255",
+      "19933153",
+      "17993608"
+    ],
+    "similar": [
+      "35281615",
+      "32392430",
+      "36526122",
+      "35456407",
+      "33235128",
+      "31845823",
+      "35546262",
+      "35280355",
+      "34734009",
+      "38439581",
+      "34558114",
+      "34225773",
+      "37839439",
+      "33860037",
+      "32423797",
+      "31144476",
+      "35958946",
+      "35752827",
+      "30566420",
+      "38971324",
+      "33986867",
+      "36203461",
+      "30909166",
+      "38369750",
+      "34490028",
+      "37496778",
+      "36973570",
+      "37284703",
+      "37864150",
+      "34988117",
+      "34403096",
+      "39430835",
+      "38596214",
+      "35526007",
+      "31998075",
+      "37389118",
+      "33632236",
+      "31775841",
+      "31078732",
+      "33790998",
+      "33746573",
+      "31939611",
+      "30779912",
+      "34923866",
+      "35625858",
+      "36845381",
+      "27681945",
+      "33332661",
+      "34867955",
+      "29328372",
+      "31136199",
+      "30896793",
+      "30591054",
+      "37953919",
+      "29431851",
+      "36289693",
+      "37662862",
+      "33689813",
+      "36803014",
+      "31987036",
+      "34214628",
+      "33911877",
+      "32407895",
+      "33193887",
+      "32702444",
+      "38707381",
+      "33045361",
+      "36009692",
+      "36176737",
+      "35830789",
+      "26366788",
+      "33892654",
+      "31452788",
+      "37660592",
+      "33200232",
+      "37833999",
+      "32593507",
+      "35026649",
+      "30452118",
+      "27412772",
+      "30153663",
+      "31629473",
+      "36039056",
+      "32344560",
+      "30345646",
+      "30503955",
+      "28949095",
+      "30370529",
+      "29157210",
+      "28395271",
+      "26418982",
+      "36561608",
+      "34114472",
+      "22260379",
+      "35130311",
+      "33569675",
+      "34509631",
+      "36230476",
+      "31747387",
+      "34698362",
+      "29844106",
+      "29981417",
+      "34447751",
+      "27095039",
+      "31100472",
+      "34294122",
+      "27356479",
+      "31612410",
+      "30602391",
+      "33437215",
+      "30015885",
+      "39222756",
+      "33191336",
+      "32547322",
+      "30269358",
+      "29658571",
+      "34016144",
+      "36714586",
+      "37387464",
+      "37406509",
+      "35571614",
+      "37484941",
+      "37273759",
+      "36304905",
+      "36553526",
+      "35721477",
+      "35930684",
+      "36361884",
+      "38577588",
+      "39309197",
+      "38443680",
+      "34408975",
+      "35590368",
+      "35347428",
+      "36436163",
+      "35449808",
+      "37626707"
+    ],
+    "review": [
+      "35281615",
+      "38971324",
+      "38596214",
+      "37953919",
+      "33193887",
+      "33200232",
+      "27095039",
+      "35721477",
+      "38577588",
+      "39309197"
+    ],
+    "pmc": [
+      "8913131"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35281615/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35281615",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/9911472",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35281615",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.25.428108",
+  "title": "LanceOtron: a deep learning peak caller for ATAC-seq, ChIP-seq, and DNase-seq",
+  "doi": "10.1101/2021.01.25.428108",
+  "abstract": "ATAC-seq, ChIP-seq, and DNase-seq have revolutionized molecular biology by allowing researchers to identify important DNA-encoded elements genome-wide. Regions where these elements are found appear as peaks in the analog signal of an assay’s coverage track, and despite the ease with which humans can visually categorize these regions, meaningful peak calls from whole genome datasets require complex analytical techniques. Current methods focus on statistical tests to classify peaks, reducing the information-dense peak shapes to simply maximum height, and discounting that background signals do not completely follow any known probability distribution for significance testing. Deep learning has been shown to be highly accurate for image recognition, on par or exceeding human ability, providing an opportunity to reimagine and improve peak calling. We present the peak calling framework LanceOtron, which combines multifaceted enrichment measurements with deep learning image recognition techniques for assessing peak shape. In benchmarking transcription factor binding, chromatin modification, and open chromatin datasets, LanceOtron outperforms the long-standing, gold-standard peak caller MACS2 through its improved selectivity and near perfect sensitivity. In addition to command line accessibility, a graphical web application was designed to give any researcher the ability to generate optimal peak calls and interactive visualizations in a single step.",
+  "authors": [
+    "Hentges LD",
+    "Sergeant MJ",
+    "Downes DJ",
+    "Hughes JR",
+    "Taylor S"
+  ],
+  "published_date": "2021-01-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.25.428108",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.25.428108.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR274466",
+    "raw_record": {
+      "id": "PPR274466",
+      "source": "PPR",
+      "doi": "10.1101/2021.01.25.428108",
+      "title": "LanceOtron: a deep learning peak caller for ATAC-seq, ChIP-seq, and DNase-seq",
+      "authorString": "Hentges LD, Sergeant MJ, Downes DJ, Hughes JR, Taylor S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hentges LD",
+            "lastName": "Hentges",
+            "firstName": "Lance",
+            "initials": "LD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6327-6774"
+            }
+          },
+          {
+            "fullName": "Sergeant MJ",
+            "lastName": "Sergeant",
+            "firstName": "Martin",
+            "initials": "MJ"
+          },
+          {
+            "fullName": "Downes DJ",
+            "lastName": "Downes",
+            "firstName": "Damien",
+            "initials": "DJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5034-0869"
+            }
+          },
+          {
+            "fullName": "Hughes JR",
+            "lastName": "Hughes",
+            "firstName": "Jim",
+            "initials": "JR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8955-7256"
+            }
+          },
+          {
+            "fullName": "Taylor S",
+            "lastName": "Taylor",
+            "firstName": "Stephen",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3559-4334"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6327-6774"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3559-4334"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5034-0869"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8955-7256"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "ATAC-seq, ChIP-seq, and DNase-seq have revolutionized molecular biology by allowing researchers to identify important DNA-encoded elements genome-wide. Regions where these elements are found appear as peaks in the analog signal of an assay’s coverage track, and despite the ease with which humans can visually categorize these regions, meaningful peak calls from whole genome datasets require complex analytical techniques. Current methods focus on statistical tests to classify peaks, reducing the information-dense peak shapes to simply maximum height, and discounting that background signals do not completely follow any known probability distribution for significance testing. Deep learning has been shown to be highly accurate for image recognition, on par or exceeding human ability, providing an opportunity to reimagine and improve peak calling. We present the peak calling framework LanceOtron, which combines multifaceted enrichment measurements with deep learning image recognition techniques for assessing peak shape. In benchmarking transcription factor binding, chromatin modification, and open chromatin datasets, LanceOtron outperforms the long-standing, gold-standard peak caller MACS2 through its improved selectivity and near perfect sensitivity. In addition to command line accessibility, a graphical web application was designed to give any researcher the ability to generate optimal peak calls and interactive visualizations in a single step.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/08/02/2021.01.25.428108.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.25.428108"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 6,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-01-28",
+      "firstPublicationDate": "2021-01-27",
+      "firstIndexDate": "2021-01-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

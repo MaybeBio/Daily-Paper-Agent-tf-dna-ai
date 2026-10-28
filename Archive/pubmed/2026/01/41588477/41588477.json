@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "41588477",
+    "doi": "10.1186/s13073-025-01586-7",
+    "title": "Aligned cross-modal integration and regulatory heterogeneity characterization of single-cell multiomic data with deep contrastive learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Single-cell multi-omics (scMulti-omics) technologies have revolutionized our understanding of cellular functions and interactions by enabling the simultaneous measurement of diverse cellular modalities. Integrating these heterogeneous data types presents significant challenges due to differences in scale, resolution, and biological variability across the omics layers. Traditional computational methods often fail to reconcile these differences, leading to a loss of critical biological variability and subtle intermolecular interactions. METHODS: To address these challenges, we have developed a single-cell multi-omics deep learning model (scMDCF) based on contrastive learning, tailored for the efficient characterization and integration of scMulti-omics data. scMDCF features a cross-modality contrastive learning module that harmonizes data representations across different omics types, ensuring consistency and preserving data heterogeneity by accommodating information entropy. Furthermore, a cross-modality feature fusion module extracts common low-dimensional latent representations of scMulti-omics data, effectively balancing the diverse characteristics of these data types. RESULTS: Extensive empirical studies demonstrate that scMDCF outperforms existing state-of-the-art scMulti-omics models across various types of scMulti-omics data. In particular, scMDCF exhibits advanced analytical capabilities in extracting cell-type-specific peak-gene associations and cis-regulatory elements from SNARE-seq data, and in elucidating immune regulation from CITE-seq data. In a post-BNT162b2 mRNA SARS-CoV-2 vaccination dataset, scMDCF successfully annotates specific vaccine-induced B cell subpopulations, uncovering dynamic interactions and regulatory mechanisms within the immune system post-vaccination. Most importantly, using Alzheimer's disease-specific data, scMDCF identifies computational minority Microglia and Endothelial cell populations, revealing ELF1 as a putative candidate transcription factor biomarker in Microglia, which potentially influences GTPase activity and may suppresses Alzheimer's pathology. CONCLUSIONS: We propose scMDCF, a contrastive learning based framework for single-cell multi-omics integration that harmonizes cross-modality representations while preserving biological heterogeneity. Applications across diverse scMulti-omics datasets demonstrate improved clustering performance, effective batch-effect mitigation, and mechanistic insights into underlying biological processes. Code and reproducible workflows are openly available.",
+    "keywords": [
+      "Contrastive learning",
+      "ScMulti-omics integration and clustering",
+      "Single-cell multi-omics"
+    ],
+    "mesh_terms": [
+      "Multiomics/methods",
+      "*Single-Cell Analysis/methods",
+      "*Deep Learning",
+      "Humans",
+      "*Computational Biology/methods",
+      "Genomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Yue",
+        "Su, Yanchi",
+        "Fan, Yi",
+        "Yang, Yuning",
+        "Chen, Xingjian",
+        "Wang, Fuzhou",
+        "Wong, Ka-Chun",
+        "Li, Xiangtao"
+      ],
+      "short_names": [
+        "Cheng Y",
+        "Su Y",
+        "Fan Y",
+        "Yang Y",
+        "Chen X",
+        "Wang F",
+        "Wong KC",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Artificial Intelligence, Jilin University, Changchun, Jilin, 130012, China.",
+        "Zhongguancun Academy, Beijing, 100094, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun, Jilin, 130012, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun, Jilin, 130012, China.",
+        "Terrence Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Canada.",
+        "Cutaneous Biology Research Center, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Department of Computer Science, City University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Computer Science, City University of Hong Kong, Hong Kong SAR, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun, Jilin, 130012, China. lixt314@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Yue",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Changchun, Jilin, 130012, China.",
+          "Zhongguancun Academy, Beijing, 100094, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yanchi",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Changchun, Jilin, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yi",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Changchun, Jilin, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuning",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Terrence Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Chen, Xingjian",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Cutaneous Biology Research Center, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Fuzhou",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, City University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Wong, Ka-Chun",
+        "short_name": "Wong KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, City University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangtao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Changchun, Jilin, 130012, China. lixt314@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome medicine"
+    ],
+    "journal_abbrev": [
+      "Genome Med"
+    ],
+    "pub_date": "2026 Jan 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/27 00:52",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [
+      "42573852",
+      "42459194",
+      "42450655"
+    ],
+    "refs": [
+      "39075536",
+      "37875977",
+      "37840148",
+      "37735591",
+      "37564647",
+      "37386189",
+      "37365273",
+      "37280296",
+      "37002403",
+      "36950385",
+      "36798518",
+      "36693837",
+      "36583228",
+      "36513636",
+      "36206763",
+      "36204155",
+      "36198796",
+      "36055233",
+      "35501393",
+      "35401570",
+      "35143756",
+      "34963480",
+      "34725479",
+      "34625592",
+      "34561102",
+      "34551158",
+      "34504491",
+      "34471111",
+      "34341489",
+      "34172624",
+      "34062119",
+      "34001847",
+      "33879890",
+      "33835024",
+      "33633365",
+      "33597522",
+      "33589839",
+      "33575592",
+      "33050925",
+      "32579923",
+      "32393754",
+      "32393329",
+      "32379315",
+      "32353146",
+      "31948481",
+      "31740819",
+      "31701148",
+      "31611697",
+      "31594952",
+      "31533057",
+      "31178118",
+      "30988527",
+      "30787437",
+      "30289549",
+      "30183689",
+      "29563615",
+      "29409532",
+      "28759029",
+      "28183334",
+      "27446638",
+      "26678384",
+      "25642821",
+      "25535841",
+      "24760155",
+      "23323831",
+      "23242416",
+      "23210908",
+      "22455463",
+      "22351685",
+      "21502514",
+      "19718787",
+      "18684917",
+      "17579014",
+      "12426623",
+      "11861266",
+      "10809378",
+      "9192774"
+    ],
+    "similar": [
+      "41588477",
+      "41805524",
+      "42475469",
+      "40856525",
+      "41632825",
+      "41744270",
+      "41588648",
+      "40068854",
+      "40795161",
+      "41786846",
+      "42001472",
+      "41975483",
+      "40917001",
+      "42608748",
+      "40632608",
+      "39504713",
+      "41780447",
+      "40442129",
+      "42114120",
+      "42419494",
+      "40031269",
+      "39934664",
+      "40862516",
+      "42508236",
+      "40884902",
+      "41931510",
+      "42050935",
+      "39376034",
+      "41834398",
+      "42108634",
+      "41734125",
+      "40834555",
+      "41124064",
+      "41206807",
+      "42497665",
+      "41031935",
+      "42605072",
+      "41100535",
+      "39888834",
+      "40996147",
+      "40131310",
+      "40929038",
+      "36600199",
+      "41385419",
+      "42709872",
+      "42108553",
+      "39695368",
+      "41379903",
+      "40401439",
+      "38892162",
+      "42560914",
+      "37205427",
+      "40884456",
+      "40794946",
+      "41325188",
+      "38678587",
+      "39800872",
+      "41437217",
+      "36047285",
+      "41615425",
+      "39413796",
+      "41601190",
+      "40211981",
+      "42792979",
+      "39680741",
+      "42520737",
+      "41965454",
+      "40748323",
+      "39424861",
+      "41980989",
+      "39356327",
+      "38857453",
+      "37090237",
+      "41924825",
+      "42753938",
+      "41791270",
+      "41254315",
+      "37651607",
+      "41191468",
+      "40037709",
+      "41643671",
+      "41777739",
+      "40928916",
+      "40838782",
+      "40848558",
+      "37725723",
+      "36631401",
+      "42585574",
+      "42263243",
+      "38295477",
+      "39075536",
+      "42751828",
+      "42243656",
+      "41527852",
+      "37393865",
+      "40114052",
+      "41596454",
+      "36702755",
+      "41564956",
+      "41407925"
+    ],
+    "review": [
+      "41588477",
+      "40929038",
+      "40748323",
+      "37651607",
+      "37393865",
+      "41596454"
+    ],
+    "pmc": [
+      "12833949"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-025-01586-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41588477/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

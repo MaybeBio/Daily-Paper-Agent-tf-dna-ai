@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "40865347",
+    "doi": "10.1016/j.phymed.2025.157194",
+    "title": "Colchicine alleviates atherosclerosis combined with diabetes mellitus by targeting PIM2 and regulating the NF-kappaB signaling pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Coronary heart disease (CHD) is becoming increasingly prevalent worldwide due to the aging population. Although diabetes mellitus (DM) is an independent risk factor for the development of CHD, existing anti-atherosclerotic therapies do not adequately address the mechanism underlying the exacerbation of CHD in diabetic patients. Derived from the Colchicum autumnale plant, colchicine has recently gained recognition as a novel anti-inflammatory agent for CHD. However, both its efficacy and the appropriate patient population for its use remain controversial. Our study aimed to investigate the underlying effects and mechanisms of colchicine in treating atherosclerosis combined with DM via network pharmacology and experimental validation. METHODS: Disease genes associated with atherosclerosis and DM were identified using the GeneCard, OMIM, and DisGeNET databases. Additionally, the targets of colchicine were obtained from the DGIDB and Swiss Target Prediction databases. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis were used to analyze the primary functions of potential targets. High-throughput transcriptome sequencing and data from the GEO database were utilized to identify core targets associated with macrophages. Molecular docking, molecular dynamics simulation, and surface plasmon resonance (SPR) were conducted to investigate the interaction between the core targets and colchicine. This study employed STZ-induced APOE(-/-) mice as an animal model of atherosclerosis combined with DM to evaluate the therapeutic effects of colchicine. We further explored the underlying molecular targets and mechanisms underlying colchicine's pharmacological effects at both the tissue and cellular levels. RESULTS: We identified 140 potential targets associated with colchicine treatment for atherosclerosis combined with DM. GO analysis showed that these potential targets were primarily involved in the response to chemicals, regulation of signaling, cellular protein metabolic processes, and the immune system. KEGG pathway analysis revealed that these core genes were primarily enriched in inflammatory pathways, including the MAPK signaling pathway, Jak-STAT signaling pathway, and NF-kappaB signaling pathway. Next, we identified four macrophage-associated core targets (PIM2, SIGLEC1, ANPEP, and MAPK10) by intersecting our transcriptome sequencing data with dataset GSE11841. Molecular docking, molecular dynamics simulation, and SPR analyses revealed strong binding affinities between colchicine and these core targets, particularly PIM2. Compared with the Model group, colchicine reduced the area of atherosclerotic plaques in the aorta and aortic root of STZ-induced APOE(-/-) mice by (32.70 +/- 6.84) % and (18.72 +/- 7.95) %, respectively. Furthermore, colchicine ameliorated intraplaque macrophage accumulation while enhancing plaque stability, resulting in an (84.14 +/- 14.03) % decrease in plaque vulnerability index. Colchicine also reduced PIM2 levels in the plaque and decreased serum levels of IL-1beta and IL-6. In vitro, the effects of colchicine in reducing the expression of PIM2 and inflammatory cytokines were validated in macrophages. PIM2 inhibition experiments revealed that either colchicine or HJ-PI01 alone yielded comparable reductions in inflammatory cytokines, PIM2, and the PP65/P65 ratio. However, their combination led to a substantially stronger suppression of these markers. CONCLUSION: Colchicine shows potential as an anti-inflammatory agent for treating atherosclerosis combined with DM. Its underlying mechanisms involve targeting PIM2 to modulate macrophage function and inhibit inflammatory pathways.",
+    "keywords": [
+      "Colchicine",
+      "Coronary heart disease",
+      "Diabetes mellitus",
+      "Immune system",
+      "PIM2"
+    ],
+    "mesh_terms": [
+      "*Colchicine/pharmacology",
+      "Animals",
+      "*Atherosclerosis/drug therapy",
+      "Signal Transduction/drug effects",
+      "*NF-kappa B/metabolism",
+      "Mice",
+      "*Diabetes Mellitus, Experimental/drug therapy/complications",
+      "Molecular Docking Simulation",
+      "Male",
+      "Mice, Inbred C57BL",
+      "*Protein Serine-Threonine Kinases/metabolism",
+      "Network Pharmacology",
+      "Anti-Inflammatory Agents/pharmacology",
+      "Humans",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Haiming",
+        "Feng, Wenhao",
+        "Wang, Jing",
+        "Zhang, Yue",
+        "Han, Fan",
+        "Hou, Yu",
+        "Hu, Shouyi",
+        "Li, Bing",
+        "Mu, Yiming",
+        "Zhang, Ran",
+        "Cheng, Yu"
+      ],
+      "short_names": [
+        "Wang H",
+        "Feng W",
+        "Wang J",
+        "Zhang Y",
+        "Han F",
+        "Hou Y",
+        "Hu S",
+        "Li B",
+        "Mu Y",
+        "Zhang R",
+        "Cheng Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China; Medical School of Chinese People's Liberation Army, Beijing 100853, China.",
+        "China National Children's Center, Beijing 100035, China.",
+        "Department of Pharmacy, Medical Supplies Center of Chinese PLA General Hospital, Beijing 100853, China.",
+        "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China.",
+        "Department of Cardiovascular Medicine, Chinese PLA General Hospital & Chinese PLA Medical School, Beijing 100853, China.",
+        "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China.",
+        "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China.",
+        "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China.",
+        "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China. Electronic address: muyiming@301hospital.com.",
+        "Department of Cardiovascular Medicine, Chinese PLA General Hospital & Chinese PLA Medical School, Beijing 100853, China. Electronic address: zhangran@plagh.org.",
+        "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China. Electronic address: chengyu_301@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Haiming",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China; Medical School of Chinese People's Liberation Army, Beijing 100853, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Wenhao",
+        "short_name": "Feng W",
+        "identifiers": [],
+        "affiliations": [
+          "China National Children's Center, Beijing 100035, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Medical Supplies Center of Chinese PLA General Hospital, Beijing 100853, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yue",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China."
+        ]
+      },
+      {
+        "full_name": "Han, Fan",
+        "short_name": "Han F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Chinese PLA General Hospital & Chinese PLA Medical School, Beijing 100853, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yu",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Shouyi",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bing",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Yiming",
+        "short_name": "Mu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China. Electronic address: muyiming@301hospital.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ran",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Chinese PLA General Hospital & Chinese PLA Medical School, Beijing 100853, China. Electronic address: zhangran@plagh.org."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yu",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Clinical Medical Center of Chinese PLA General Hospital, Beijing 100853, China. Electronic address: chengyu_301@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/28 00:47",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42382130",
+      "42072613",
+      "41979829",
+      "40707761"
+    ],
+    "refs": [],
+    "similar": [
+      "40865347",
+      "39488873",
+      "40795589",
+      "40133026",
+      "39577223",
+      "37454749",
+      "40916281",
+      "40414576",
+      "40273561",
+      "39278295",
+      "40330488",
+      "37499457",
+      "39490433",
+      "41308385",
+      "40858660",
+      "38437888",
+      "40553825",
+      "37556042",
+      "40013962",
+      "39933661",
+      "35970313",
+      "38775721",
+      "38696100",
+      "39125368",
+      "37454750",
+      "39929664",
+      "37575231",
+      "40484258",
+      "37657772",
+      "39085510",
+      "37390239",
+      "40570565",
+      "41135618",
+      "38954241",
+      "31943763",
+      "39617073",
+      "39525320",
+      "39280256",
+      "39093800",
+      "40682227",
+      "41129534",
+      "38707616",
+      "38914662",
+      "38115276",
+      "38951468",
+      "41203698",
+      "39343107",
+      "40499803",
+      "41380857",
+      "39871254",
+      "38321908",
+      "38679399",
+      "38851471",
+      "40020626",
+      "36646160",
+      "41489113",
+      "40164657",
+      "39539006",
+      "40676786",
+      "39395768",
+      "39333622",
+      "40345271",
+      "39004032",
+      "39095732",
+      "38640713",
+      "38964628",
+      "36624435",
+      "41504045",
+      "31887543",
+      "38169205",
+      "37382018",
+      "40721767",
+      "37437377",
+      "38916485",
+      "39949090",
+      "41265260",
+      "37879505",
+      "40294468",
+      "39723533",
+      "37802827",
+      "39374878",
+      "39074420",
+      "35430443",
+      "32896625",
+      "36148321",
+      "40255473",
+      "35988839",
+      "37405052",
+      "37807411",
+      "40350911",
+      "35718494",
+      "39108744",
+      "40593998",
+      "39701786",
+      "40452077",
+      "38267978",
+      "38801274",
+      "36280016",
+      "34087397",
+      "41155161"
+    ],
+    "review": [
+      "40865347"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00833-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1087",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

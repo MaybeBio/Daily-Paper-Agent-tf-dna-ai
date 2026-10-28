@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39578697",
+  "title": "miRStart 2.0: enhancing miRNA regulatory insights through deep learning-based TSS identification.",
+  "authors": "Xu, Jiatong; Wan, Jingting; Huang, Hsi-Yuan; Chen, Yigang; Huang, Yixian; Huang, Junyang; Zhang, Ziyue; Su, Chang; Zhou, Yuming; Lin, Xingqiao; Lin, Yang-Chi-Dung; Huang, Hsien-Da",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-11-23",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建miRNA转录起始位点数据库，用深度学习预测TSS并整合TF-miRNA互作，虽涉及TF-DNA调控但非核心结合机制建模，方法可迁移但深度有限。",
+  "abstract": "MicroRNAs (miRNAs) are small non-coding RNAs that regulate gene expression by binding to the 3'-untranslated regions of target mRNAs, influencing various biological processes at the post-transcriptional level. Identifying miRNA transcription start sites (TSSs) and transcription factors' (TFs) regulatory roles is crucial for elucidating miRNA function and transcriptional regulation. miRStart 2.0 integrates over 4500 high-throughput datasets across five data types, utilizing a multi-modal approach to annotate 28 828 putative TSSs for 1745 human and 1181 mouse miRNAs, supported by sequencing-based signals. Over 6 million tissue-specific TF-miRNA interactions, integrated from ChIP-seq data, are supplemented by DNase hypersensitivity and UCSC conservation data, with network visualizations. Our deep learning-based model outperforms existing tools in miRNA TSS prediction, achieving the most overlaps with both cell-specific and non-cell-specific validated TSSs. The user-friendly web interface and visualization tools make miRStart 2.0 easily accessible to researchers, enabling efficient identification of miRNA upstream regulatory elements in relation to their TSSs. This updated database provides systems-level insights into gene regulation and disease mechanisms, offering a valuable resource for translational research, facilitating the discovery of novel therapeutic targets and precision medicine strategies. miRStart 2.0 is now accessible at https://awi.cuhk.edu.cn/ approximately miRStart2.",
+  "abstract_zh": "微小RNA（miRNAs）是一类小型非编码RNA，通过结合靶标mRNA的3‘-非翻译区来调控基因表达，在转录后水平影响多种生物过程。识别miRNA转录起始位点（TSSs）及转录因子（TFs）的调控作用，对于阐明miRNA功能和转录调控至关重要。miRStart 2.0整合了超过4500个高通量数据集，涵盖五种数据类型，采用多模态方法为1745个人类及1181个小鼠miRNA注释了28,828个推定TSSs，并得到基于测序信号的支持。超过600万个组织特异性TF-miRNA相互作用，整合自ChIP-seq数据，并辅以DNase超敏性和UCSC保守性数据，同时提供网络可视化。我们基于深度学习模型的miRNA TSS预测性能优于现有工具，在与细胞特异性和非细胞特异性已验证TSSs的重叠方面均达到最高水平。用户友好的网页界面和可视化工具使miRStart 2.0易于研究人员访问，能够高效识别与TSSs相关的miRNA上游调控元件。这一更新后的数据库为基因调控和疾病机制提供了系统层面的见解，为转化研究提供了宝贵资源，有助于发现新型治疗靶点和精准医学策略。miRStart 2.0现可通过https://awi.cuhk.edu.cn/ 访问，近似于miRStart2。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39578697/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39578697/",
+  "paper_page_path": "papers/pubmed/39578697/index.html"
+}

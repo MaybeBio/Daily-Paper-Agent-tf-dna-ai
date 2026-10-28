@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Methods, results, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose DeepMC-iNABP, a deep learning model combining CNNs and LSTMs with one-hot encoding, for multiclass classification of proteins into four categories: DNA-binding proteins (DBPs), RNA-binding proteins (RBPs), dual DNA/RNA-binding proteins (DRBPs), and non-nucleic acid-binding proteins (non-NABPs). The model is trained on a curated dataset from UniProtKB and evaluated on a held-out test set and two independent datasets (TEST474 and DRBP206). The authors claim the model alleviates cross-prediction issues and shows strong performance in identifying DRBPs compared to existing methods.
+- **Visible evidence base** Tables 1-4, Figures 1-5, and associated text in Results and Methods sections
+- **Missing materials affecting confidence** No code, hyperparameters, training details, or raw prediction outputs are provided. The web server link is given but not verified. Details on BLASTP redundancy reduction thresholds, sequence alignment criteria, and class imbalance handling are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in bioinformatics, namely the multiclass identification of nucleic acid-binding proteins, with a focus on the often-overlooked DRBP class. The use of a deep learning architecture combining CNN and LSTM is reasonable, and the inclusion of independent test datasets strengthens the evaluation. However, several methodological details are missing, the performance gains over existing methods are modest and not consistently demonstrated, and the statistical significance of differences is not assessed. The claims regarding alleviation of cross-prediction and superiority in DRBP identification are only partially supported by the presented evidence.
+- **Who would be interested in the results, and why** Researchers in protein function prediction, bioinformatics tool developers, and computational biologists studying protein-nucleic acid interactions. The availability of a web server may also appeal to experimental biologists seeking functional annotations for uncharacterized proteins.
+- **Major strengths** The problem is well-motivated and addresses a genuine gap in the field. The multiclass approach is a sensible departure from binary classifiers. The use of independent datasets, including a rare DRBP-specific set, is commendable. The model architecture is described in sufficient detail to be reproducible in principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves good performance on test data and independent datasets, with strong DRBP identification.
+  - **Evidence pointer** Table 3, Table 4, Figure 2, Figure 4
+  - **Concern** The reported performance metrics, particularly for the DRBP class, are based on very small numbers of true positives. On TEST474, only 8 DRBP samples exist, and the model predicts 5 as DRBPs with 4 correct. On DRBP206, 103 DRBP samples are present, but no confusion matrix or per-class metrics are shown for this dataset. The F1 score of 0.615 for DRBP on TEST474 is based on a tiny sample and may not be statistically reliable. Furthermore, no confidence intervals or significance tests are provided for any comparison with existing methods.
+  - **Why it matters** Small sample sizes can lead to unstable performance estimates, and without statistical testing, the claimed superiority over existing methods cannot be established. The DRBP class is a central focus of the paper, so robust evidence is essential.
+  - **Resolution test** Provide per-class confusion matrices for DRBP206, include confidence intervals or bootstrap estimates for all metrics, and perform statistical significance tests (e.g., McNemar's test) for comparisons with DeepDRBP-2L and iDRBP_MMC.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The multiclass strategy alleviates the cross-prediction problem.
+  - **Evidence pointer** Figure 2A, Figure 3, Table 4
+  - **Concern** The claim that cross-prediction is alleviated is based on qualitative inspection of confusion matrices. The manuscript does not quantify cross-prediction errors (e.g., DBP predicted as RBP or vice versa) or compare these rates against binary classifiers. The comparison with DeepDRBP-2L and iDRBP_MMC shows mixed results: for DBP recall, DeepMC-iNABP (0.834) is lower than iDRBP_MMC (0.869) and DeepDRBP-2L (0.817); for RBP recall, it is lower than both comparators. The improvement is mainly in DRBP metrics, which are based on very few samples.
+  - **Why it matters** The central claim of the paper is that the multiclass approach reduces cross-prediction. Without a direct, quantitative comparison of cross-prediction rates, this claim is not substantiated.
+  - **Resolution test** Define a cross-prediction metric (e.g., proportion of DBP samples predicted as RBP and vice versa) and report it for DeepMC-iNABP and the comparator methods on the same datasets. Show that the multiclass model significantly reduces these errors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The model is available as a web server and code is freely available.
+  - **Evidence pointer** Code availability section
+  - **Concern** The manuscript states that code and data are freely available, but no repository link or access details are provided beyond the web server URL. The web server itself is not described in terms of input format, output interpretation, or usage limits. No details on the training procedure (e.g., batch size, learning rate, early stopping criteria, number of epochs) are given, making exact reproduction difficult.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without access to code and training details, other researchers cannot validate or build upon the work.
+  - **Resolution test** Provide a public repository (e.g., GitHub) with the code, trained model weights, and a README describing dependencies and usage. Include a detailed description of hyperparameters and training configuration in the manuscript or supplement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Data preprocessing
+  - **Evidence pointer** Data resources section
+  - **Issue** The description of the BLASTP redundancy reduction is vague. The bit-score threshold of 50.0 is mentioned, but it is unclear how this was applied (e.g., pairwise vs. clustering, which sequence was kept as representative).
+  - **Required correction** Clarify the redundancy reduction procedure, including the BLASTP parameters and the criteria for selecting representative sequences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2 caption and text
+  - **Issue** The text refers to "Fig. 2B, 3C and 3D" for ROC curves, but Figure 3 is described as a confusion matrix. The numbering appears inconsistent.
+  - **Required correction** Correct the figure references in the text to match the actual figure numbering.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with existing methods
+  - **Evidence pointer** Table 4
+  - **Issue** The comparison with DeepDRBP-2L and iDRBP_MMC is limited to TEST474. No comparison is shown for DRBP206, despite the authors stating that their model outperforms existing methods on this dataset.
+  - **Required correction** Include a comparison with existing methods on DRBP206, or explain why this is not feasible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Loss function
+  - **Evidence pointer** Loss function section
+  - **Issue** The loss function equation uses a summation over N classes, but the text does not clarify whether this is a standard categorical cross-entropy with softmax, which is implied.
+  - **Required correction** State explicitly that the loss is categorical cross-entropy with a softmax output layer.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical robustness of DRBP metrics), R1-M2 (quantitative evidence for cross-prediction alleviation), R1-M3 (reproducibility of code and training details).
+- **Assessment against Nature-style criteria** Originality: The multiclass approach for NABP classification, particularly the inclusion of DRBPs as a separate class, is a novel contribution relative to prior binary classifiers. Scientific importance: The problem is relevant, but the incremental improvement over existing methods is modest and not rigorously demonstrated. Interdisciplinary readership: The topic is of interest to computational biologists and bioinformaticians, but the presentation is technical and may not appeal to a broader biological audience. Technical soundness: The architecture is reasonable, but the evaluation lacks statistical rigor and reproducibility details. Readability for nonspecialists: The manuscript is generally clear but includes some jargon and inconsistent figure references that could confuse readers.
+
+## Risk / unsupported claims
+- The claim that DeepMC-iNABP "alleviates the cross-prediction problem to a certain extent" is not quantitatively supported.
+- The claim that the model "performs well" on DRBP206 is not substantiated with specific metrics or a confusion matrix for this dataset.
+- The statement that the model's performance is "much better" than DeepDRBP-2L for all protein categories is not supported by Table 4, where DBP and RBP metrics are comparable or lower.
+- The assertion that the web server is "useful for researchers" is not evaluated or demonstrated.

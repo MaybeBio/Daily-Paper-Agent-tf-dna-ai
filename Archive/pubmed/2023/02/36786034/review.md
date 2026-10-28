@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The study reports that male factory workers exposed to polypropylene show decreased plasma LH and FSH levels compared to controls, and that p53 gene sequencing identified three variants, one of which (R273H) is predicted disease-causing. MD simulation and protein-DNA docking suggest the R273H mutation weakens p53-DNA binding without altering protein structure. The authors conclude decreased fertility and increased malignancy risk, and claim this is the first investigation of p53 mutation spectrum in polypropylene-exposed Pakistani workers.
+- **Visible evidence base** Abstract text only; includes group sizes, p-value thresholds, variant identifiers, and qualitative MD/docking outcomes
+- **Missing materials affecting confidence** Full methods, raw data, sequencing chromatograms, MD simulation parameters, docking scores, statistical analysis details, ethics approval, exposure assessment methodology, and any supplementary figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a potentially important occupational health question, but the evidence as presented is insufficient to support the core conclusions. Several statistical reporting issues, unclear exposure assessment, and lack of quantitative results for the molecular simulations weaken the case. The novelty claim is plausible but not verifiable from the abstract alone.
+- **Who would be interested in the results, and why** Occupational health researchers, toxicologists, and reproductive endocrinologists would be interested in the potential endocrine-disrupting effects of polypropylene exposure. Cancer geneticists may also find the p53 mutation spectrum relevant, though the link to malignancy is speculative at this stage.
+- **Major strengths** The study addresses a real-world occupational exposure with potential public health implications. The combination of hormonal assays, genotyping, and computational structural analysis is multidisciplinary. The inclusion of exposure duration groups is a reasonable design feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical reporting and interpretation
+  - **Claim pointer** The abstract states LH levels were "significantly decreased" in G1 with p > 0.05, and in G2, G3, G4 with p > 0.001. Similar statements are made for FSH.
+  - **Evidence pointer** Results section, abstract
+  - **Concern** The p-value notation is internally inconsistent and statistically incorrect. A p-value greater than 0.05 indicates non-significance, yet the text describes these results as "significantly decreased." The notation "p > 0.001" is also non-standard; the correct form for highly significant results is p < 0.001. This suggests either a systematic reporting error or a misunderstanding of statistical significance.
+  - **Why it matters** The primary quantitative outcome of the study is the hormonal comparison between groups. If the significance thresholds are misreported, the central claim of decreased LH and FSH in exposed workers cannot be evaluated. This affects the validity of the entire conclusion regarding reproductive hormone disruption.
+  - **Resolution test** Provide exact p-values or confidence intervals for each group comparison, and correct the inequality signs. If the results are truly non-significant for G1, the claim of "significant decrease" must be revised.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Exposure assessment
+  - **Claim pointer** The study attributes hormonal changes and p53 mutations to "exposure to polypropylene" in factory workers.
+  - **Evidence pointer** Methods section, abstract
+  - **Concern** No information is provided on how polypropylene exposure was measured or quantified. The abstract does not state whether air sampling, biomonitoring, or job-exposure matrices were used. It is unclear if workers were exposed to polypropylene itself or to additives, degradation products, or co-occurring chemicals.
+  - **Why it matters** Without a validated exposure metric, the causal attribution of observed effects to polypropylene is unsupported. Confounding by other occupational exposures or lifestyle factors cannot be excluded.
+  - **Resolution test** Describe the exposure assessment method, including any quantitative measures of polypropylene or its metabolites, and discuss potential confounders.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Molecular simulation evidence
+  - **Claim pointer** The abstract states that MD simulation of the R273H mutation "showed no structural impact" but "resulted in weaker binding of p53 with the DNA."
+  - **Evidence pointer** Results section, abstract
+  - **Concern** No quantitative data are provided for the MD simulation or docking analysis. There are no RMSD, RMSF, binding free energy values, or docking scores. The claim of "weaker binding" is qualitative and cannot be assessed for statistical or biophysical significance.
+  - **Why it matters** The conclusion that the R273H mutation may lower gene expression of cell cycle regulatory proteins depends entirely on the reliability of the computational predictions. Without quantitative metrics, the biological relevance of the finding is unverifiable.
+  - **Resolution test** Provide numerical results from MD simulations (e.g., RMSD trajectories, binding free energies) and docking scores, with appropriate error estimates and comparison to wild-type controls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal inference and clinical relevance
+  - **Claim pointer** The conclusion states "These findings predict decreased fertility and risk of malignancies in the future."
+  - **Evidence pointer** Conclusions section, abstract
+  - **Concern** The study measured hormone levels and identified p53 variants, but no fertility outcomes or cancer incidence data were collected. The leap from biochemical and genetic findings to predictions of future clinical outcomes is speculative and not supported by the presented evidence.
+  - **Why it matters** Overstating clinical implications can mislead readers and policymakers. The study provides preliminary data, not predictive evidence for fertility or cancer risk.
+  - **Resolution test** Reframe conclusions to state that the findings are hypothesis-generating and require longitudinal or epidemiological follow-up to establish clinical relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Sample size and power
+  - **Affected element** Study design
+  - **Evidence pointer** Methods section, abstract
+  - **Issue** The abstract reports 150 subjects (35 controls, 115 workers) but does not state whether a power calculation was performed to justify these numbers, particularly for detecting small hormonal differences across four exposure groups.
+  - **Required correction** Add a statement on statistical power or justify the sample size based on prior literature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Variant classification
+  - **Affected element** Results interpretation
+  - **Evidence pointer** Results section, abstract
+  - **Issue** The abstract states one variant was "predicted to be disease-causing" but does not specify the prediction tool or the confidence level. The other two variants are labeled "polymorphisms" without supporting evidence.
+  - **Required correction** Name the in silico prediction tools used and provide the corresponding scores or pathogenicity classifications.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Population specificity
+  - **Affected element** Generalizability
+  - **Evidence pointer** Conclusions section, abstract
+  - **Issue** The claim that this is the first study in the Pakistani population is plausible but cannot be verified from the abstract. Also, the relevance of findings to other populations is unclear.
+  - **Required correction** Provide a brief literature context to support the novelty claim, and discuss potential population-specific factors.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Hormonal assay details
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section, abstract
+  - **Issue** The abstract mentions ELISA for LH and FSH but does not report assay sensitivity, intra-assay or inter-assay coefficients of variation, or whether samples were run in duplicate.
+  - **Required correction** Include assay performance metrics in the full methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Ethical and demographic data
+  - **Affected element** Study population
+  - **Evidence pointer** Methods section, abstract
+  - **Issue** No demographic data (age, BMI, smoking status, medication use) are reported, and ethics approval is not mentioned in the abstract.
+  - **Required correction** Add a brief demographic table and an ethics statement in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that polypropylene exposure causes decreased LH and FSH is unsupported due to inconsistent p-value reporting and lack of exposure quantification.
+- The prediction of "decreased fertility and risk of malignancies" is unsupported as no clinical outcomes were measured.
+- The statement that the R273H mutation "might lower the gene expression of cell cycle regulatory proteins" is speculative and based on qualitative simulation results.
+- The novelty claim regarding the Pakistani population is not verifiable from the abstract alone.
+- The classification of variants as "disease-causing" or "polymorphisms" is not substantiated with tool names or scores.

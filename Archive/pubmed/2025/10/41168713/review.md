@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided. Figures and tables are referenced but not fully visible in the supplied material.
+- **Assessment boundary** Assessment is limited to the scientific content, methodological soundness, and reporting quality of the provided manuscript text. No assessment of editorial fit or journal policy is made.
+- **Shared manuscript claim summary** The authors propose ESM-SECP, an ensemble framework combining a sequence-feature-based predictor (ESM-2 embeddings fused with PSSM features via multi-head attention, processed by a novel SE-Connection Pyramidal network) with a sequence-homology-based template predictor. They claim superior performance over existing sequence-based methods on the TE46 and TE129 benchmark datasets across multiple evaluation metrics.
+- **Visible evidence base** Abstract, introduction, methods sections (dataset description, feature extraction, model architecture, ensemble strategy), results tables (Tables 1-10), and discussion/conclusions. Figures are referenced but not visible in the supplied text.
+- **Missing materials affecting confidence** Figure contents (Figs. 1-6) are not visible. Hyperparameter details, training procedures, cross-validation strategies, statistical significance tests, and code/data availability statements are not provided. Full experimental details for baseline comparisons are not available.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology with a technically plausible architecture. The combination of protein language model embeddings with evolutionary features and an ensemble strategy is reasonable. However, the current evidence base is insufficient to fully evaluate the claimed improvements. Several methodological details are missing, and the comparative analysis lacks statistical rigor. The novelty of the SECP architecture relative to existing pyramidal networks with attention mechanisms is not clearly established.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on protein function prediction, specifically those developing deep learning methods for DNA-binding site identification. The work may also interest developers of protein language model applications in genomics and those studying protein-nucleic acid interactions.
+- **Major strengths** The problem is well-motivated and practically important. The use of ESM-2 embeddings is current and appropriate. The ensemble strategy combining a learned predictor with a homology-based template method is a sensible approach to address class imbalance. The evaluation on two independent benchmark datasets is a positive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the SECP network with multi-head attention fusion outperforms other fusion strategies and baseline models.
+  - **Evidence pointer** Tables 3, 4, 7, 8; Section "Comparative analysis of feature fusion methods"; Section "Comparison of predictive performance based on CNN and SECP models"
+  - **Concern** The reported performance differences between the proposed method and baselines are presented without any statistical significance testing. The tables show single-point estimates of metrics, and it is unclear whether the observed improvements are reproducible across different random seeds or statistically meaningful. Additionally, the comparison with other methods in Tables 9 and 10 relies on values taken from published papers, which may have been obtained under different experimental conditions, thresholds, or data splits.
+  - **Why it matters** Without statistical validation, the claimed superiority of ESM-SECP cannot be distinguished from random variation. Comparisons across different studies are only valid if the evaluation protocols are identical, which is not demonstrated.
+  - **Resolution test** Provide confidence intervals or significance tests (e.g., bootstrapping, paired tests) for the key metric comparisons. Ensure that baseline methods are retrained and evaluated under identical conditions, or clearly justify why cross-study comparisons are valid.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the SE-Connection Pyramidal (SECP) network is a novel architecture that improves prediction performance.
+  - **Evidence pointer** Section "SE-connection pyramid (SECP) network"; Fig. 2 (not visible)
+  - **Concern** The architectural novelty of SECP is not clearly established. Pyramidal networks and SE blocks are both well-known components. The manuscript does not explain what specifically distinguishes SECP from existing combinations of these components, nor does it provide an ablation study isolating the contribution of the SE connections versus the pyramidal structure. The description of the "SE-connection" mechanism is vague, and the exact connectivity pattern is not specified in sufficient detail to be reproducible.
+  - **Why it matters** If the architecture is not novel or the novelty is not clearly articulated, the scientific contribution is diminished. Without ablations, the specific contribution of each architectural component to the final performance is unknown.
+  - **Resolution test** Provide a clear architectural diagram and formal description of the SE-connection mechanism. Include ablation experiments removing the SE connections, the pyramidal structure, and the multi-head attention fusion to quantify each component's contribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall claim that ESM-SECP is a reproducible and usable prediction method.
+  - **Evidence pointer** Sections "Materials and methods" and "Results and discussion"
+  - **Concern** Critical implementation details are missing. The manuscript does not specify the training hyperparameters (learning rate, batch size, number of epochs, optimizer), the train/validation split strategy, early stopping criteria, or the computational resources used. The threshold selection procedure is described, but the final threshold values are not reported. No information is provided on code availability, model weights, or the exact version of ESM-2 used. The HHsearch thresholds are mentioned but the full parameter sweep results are not shown.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without these details, other researchers cannot implement or verify the method, limiting its utility and the validity of the reported results.
+  - **Resolution test** Provide a complete description of training procedures, hyperparameters, and evaluation protocols. Make code and trained models publicly available, or provide a detailed pseudocode sufficient for independent reimplementation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that ESM-SECP outperforms existing methods and demonstrates "strong generalizability."
+  - **Evidence pointer** Tables 9 and 10; Section "Performance comparison with other sequence-based prediction methods"
+  - **Concern** The comparison with existing methods is limited to two benchmark datasets. The authors do not discuss potential limitations of these benchmarks, such as sequence redundancy with training data of the language model, domain distribution shifts, or the representativeness of the datasets for diverse protein families. The claim of "strong generalizability" is not supported by experiments on diverse or challenging datasets.
+  - **Why it matters** Overclaiming generalizability based on two datasets can mislead readers about the method's real-world applicability. The benchmarks may not capture the full complexity of protein-DNA interactions.
+  - **Resolution test** Add experiments on additional independent datasets or discuss the limitations of the current benchmarks more thoroughly. Qualify the generalizability claim to match the evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "SE-connection pyramid (SECP) network"
+  - **Evidence pointer** Fig. 2 (not visible)
+  - **Issue** The description of the SECP architecture is dense and difficult to follow without the figure. The relationship between the SE-CNN blocks, the pyramidal structure, and the final classification layers is not clearly explained in the text.
+  - **Required correction** Expand the textual description of the architecture, including the number of layers, channel dimensions at each stage, and the exact placement of SE blocks. Ensure the figure is self-explanatory and referenced appropriately.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Multi-Head attention"
+  - **Evidence pointer** Section "Multi-Head attention"
+  - **Issue** The description of the multi-head attention fusion is ambiguous. It states that ESM-2 embeddings serve as Query while PSSM features serve as Key and Value, but the exact dimensionalities and the number of heads (dₕ) are not specified. The phrase "dₕ as the dimensionality of Query/Key/Value in a single attention head" is not followed by a concrete value.
+  - **Required correction** Specify the number of attention heads and the dimensionality of each head. Clarify whether the Query and Key/Value projections are learned separately and how the residual connection is applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Comparison of prediction performance based on single type features and fused features"
+  - **Evidence pointer** Tables 1 and 2
+  - **Issue** The text states that on TE46 the fused model attains an AUC of 0.8942 and MCC of 0.4865, but Table 1 reports AUC of 0.8978 and MCC of 0.4946 for the fusion features. The numbers in the text do not match the table.
+  - **Required correction** Correct the numerical inconsistency between the text and the tables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Prediction methods based on sequence homology"
+  - **Evidence pointer** Section "Prediction methods based on sequence homology"
+  - **Issue** The template method is described as predicting binding sites by transferring labels from homologous fragments. However, the details of how the template hits are selected, how the thresholds were optimized, and how the template predictions are combined with the deep learning scores in the ensemble are not fully specified. The ensemble equation (Eq. 2) is given, but the weight ω is not described in terms of how it is chosen or optimized.
+  - **Required correction** Provide details on the template selection criteria, the optimization of ω, and the exact ensemble decision rule.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Performance comparison with other sequence-based prediction methods"
+  - **Evidence pointer** Tables 9 and 10
+  - **Issue** The tables list many baseline methods, but the text does not describe the characteristics of these methods or the conditions under which their results were obtained. The reader cannot assess the fairness of the comparison.
+  - **Required correction** Add a brief description of each baseline method and clarify that the comparison values are taken from the original publications, noting any differences in evaluation protocols.
+
+## Risk / unsupported claims
+- The claim of "strong generalizability" is not supported by the evidence, which is limited to two benchmark datasets.
+- The claim of architectural novelty for SECP is not clearly established without a formal comparison to existing pyramidal networks with attention.
+- The reported performance improvements over baselines are not supported by statistical significance testing.
+- The numerical inconsistency between the text and Table 1 regarding AUC and MCC values undermines confidence in the reported results.
+- The effectiveness of the ensemble strategy is not fully quantified; the contribution of the template method to the final performance is not isolated in a dedicated ablation.
+- The manuscript does not report any uncertainty measures or variance across runs, making the stability of the results unassessable.
+- The claim that the template method "markedly improves" sensitivity and MCC is based on comparisons within the same tables, but the statistical significance of these improvements is not tested.
+- The use of ESM-2 embeddings from a model pretrained on large protein sequence databases may introduce information leakage with the benchmark datasets, a concern not addressed in the manuscript.

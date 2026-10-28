@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36148013",
+  "title": "ProDFace: A web-tool for the dissection of protein-DNA interfaces.",
+  "authors": "Pal, Arumay; Chakrabarti, Pinak; Dey, Sucharita",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-09-24",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了ProDFace网络工具，基于氨基酸倾向性、氢键供体、序列保守性和几何特征解析蛋白-DNA复合物界面，可用于评估对接和模拟结构，虽非TF-DNA特异且无AI/物理模拟方法，但对蛋白-DNA界面建模有参考价值。",
+  "abstract": "Protein-DNA interactions play a crucial role in gene expression and regulation. Identifying the DNA binding surface of proteins has long been a challenge-in comparison to protein-protein interactions, limited progress has been made in the development of efficient DNA binding site prediction and protein-DNA docking methods. Here we present ProDFace, a web tool that characterizes the binding region of a protein-DNA complex based on amino acid propensity, hydrogen bond (HB) donor capacity (number of solvent accessible HB donor groups), sequence conservation at the interface core and rim region, and geometry. The program takes as input the structure of a protein-DNA complex in PDB (Protein Data Bank) format, and outputs various physicochemical and geometric parameters of the interface, as well as conservation of the interface residues in the protein component. Values are provided for the whole interface, and after dissecting it into core and rim regions. Details of water mediated HBs between protein and DNA, potential HB donor groups present at the binding surface of protein, and conserved interface residues are also provided as downloadable text files. These parameters can be useful in evaluating and validating protein-DNA docking solutions, structures derived from simulation as well as solutions from the available prediction tools, and facilitate the development of more efficient prediction methods. The web-tool is freely available at structbioinfo.iitj.ac.in/resources/bioinfo/pd_interface .",
+  "abstract_zh": "蛋白质-DNA相互作用在基因表达和调控中扮演关键角色。识别蛋白质的DNA结合表面一直是一个挑战——与蛋白质-蛋白质相互作用相比，在开发高效的DNA结合位点预测和蛋白质-DNA对接方法方面进展有限。在此，我们介绍ProDFace，一个基于氨基酸倾向性、氢键（HB）供体能力（可及溶剂HB供体基团数量）、界面核心和边缘区域的序列保守性以及几何特性来表征蛋白质-DNA复合物结合区域的网络工具。该程序以PDB（蛋白质数据银行）格式的蛋白质-DNA复合物结构为输入，输出界面的各种物理化学和几何参数，以及蛋白质组分中界面残基的保守性。提供整个界面的值，并在将其分解为核心和边缘区域后分别提供。蛋白质与DNA之间水介导的氢键细节、蛋白质结合表面存在的潜在HB供体基团以及保守的界面残基也作为可下载的文本文件提供。这些参数可用于评估和验证蛋白质-DNA对接解决方案、来自模拟的结构以及现有预测工具的结果，并促进更高效预测方法的发展。该网络工具可在structbioinfo.iitj.ac.in/resources/bioinfo/pd_interface免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36148013/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36148013/",
+  "paper_page_path": "papers/pubmed/36148013/index.html"
+}

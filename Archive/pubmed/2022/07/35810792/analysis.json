@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35810792",
+  "title": "Optimising Elastic Network Models for Protein Dynamics and Allostery: Spatial and Modal Cut-offs and Backbone Stiffness.",
+  "authors": "Dubanevics, Igors; McLeish, Tom C B",
+  "journal": "Journal of molecular biology",
+  "published_date": "2022-07-11",
+  "window": {
+    "start": "2022-07-11",
+    "end": "2022-07-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文优化弹性网络模型参数以研究蛋白质动力学与别构效应，虽以CAP等蛋白-DNA结合蛋白为对象但未聚焦TF-DNA互作，方法上属粗粒化物理模拟，可迁移至TF-DNA动态结合机理研究。",
+  "abstract": "The family of coarse-grained models for protein dynamics known as Elastic Network Models (ENMs) require careful choice of parameters to represent well experimental measurements or fully-atomistic simulations. The most basic ENM that represents each protein residue by a node at the position of its C-alpha atom, all connected by springs of equal stiffness, up to a cut-off in distance. Even at this level a choice is required of the optimum cut-off distance and the upper limit of elastic normal modes taken in any sum for physical properties, such as dynamic correlation or allosteric effects on binding. Additionally, backbone-enhanced ENM (BENM) may improve the model by allocating a higher stiffness to springs that connect along the protein backbone. This work reports on the effect of varying these three parameters (distance and mode cutoffs, backbone stiffness) on the dynamical structure of three proteins, Catabolite Activator Protein (CAP), Glutathione S-transferase (GST), and the SARS-CoV-2 Main Protease (M pro ). Our main results are: (1) balancing B-factor and dispersion-relation predictions, a near-universal optimal value of 8.5 A is advisable for ENMs; (2) inhomogeneity in elasticity brings the first mode containing spatial structure not well-resolved by the ENM typically within the first 20; (3) the BENM only affects modes in the upper third of the distribution, and, additionally to the ENM, is only able to model the dispersion curve better in this vicinity; (4) BENM does not typically affect fluctuation-allostery, which also requires careful treatment of the effector binding to the host protein to capture.",
+  "abstract_zh": "蛋白质动力学的粗粒化模型家族，即弹性网络模型（Elastic Network Models, ENMs），需要仔细选择参数，以良好地再现实验测量或全原子模拟结果。最基本的ENM将每个蛋白质残基表示为位于其C-alpha原子位置的一个节点，所有节点通过等刚度的弹簧连接，直至距离截断。即使在这一层面，也需要选择最优截断距离以及用于物理性质（如动态相关性或结合时的别构效应）求和中的弹性正态模式上限。此外，骨架增强型ENM（backbone-enhanced ENM, BENM）可能通过为沿蛋白质骨架连接的弹簧分配更高刚度来改进模型。本研究报道了改变这三个参数（距离和模式截断、骨架刚度）对三种蛋白质动态结构的影响，即分解代谢物激活蛋白（Catabolite Activator Protein, CAP）、谷胱甘肽S-转移酶（Glutathione S-transferase, GST）和SARS-CoV-2主蛋白酶（M pro ）。我们的主要结果是：（1）平衡B因子和色散关系预测，建议ENM采用接近通用的最优值8.5 Å；（2）弹性不均匀性使得包含空间结构的第一个模式通常出现在前20个模式内，而ENM对此分辨率不佳；（3）BENM仅影响分布上三分之一部分的模式，并且除了ENM外，仅能在此范围内更好地模拟色散曲线；（4）BENM通常不影响波动-别构效应，这还需要对效应物与宿主蛋白结合进行仔细处理才能捕捉。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35810792/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35810792/",
+  "paper_page_path": "papers/pubmed/35810792/index.html"
+}

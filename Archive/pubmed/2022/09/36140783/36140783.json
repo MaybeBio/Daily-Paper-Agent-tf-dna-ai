@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "36140783",
+    "doi": "10.3390/genes13091614",
+    "title": "Multinomial Convolutions for Joint Modeling of Regulatory Motifs and Sequence Activity Readouts."
+  },
+  "content": {
+    "abstract": "A common goal in the convolutional neural network (CNN) modeling of genomic data is to discover specific sequence motifs. Post hoc analysis methods aid in this task but are dependent on parameters whose optimal values are unclear and applying the discovered motifs to new genomic data is not straightforward. As an alternative, we propose to learn convolutions as multinomial distributions, thus streamlining interpretable motif discovery with CNN model fitting. We developed MuSeAM (Multinomial CNNs for Sequence Activity Modeling) by implementing multinomial convolutions in a CNN model. Through benchmarking, we demonstrate the efficacy of MuSeAM in accurately modeling genomic data while fitting multinomial convolutions that recapitulate known transcription factor motifs.",
+    "keywords": [
+      "MPRA",
+      "convolutional neural networks",
+      "motifs",
+      "multinomial convolutional neural networks",
+      "multinomial convolutions"
+    ],
+    "mesh_terms": [
+      "*Genomics",
+      "*Neural Networks, Computer",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Minjun",
+        "Singh, Salvi",
+        "Khan, Samin Rahman",
+        "Abrar, Mohammed Abid",
+        "Grisanti, Francisco",
+        "Rahman, M Sohel",
+        "Samee, Md Abul Hassan"
+      ],
+      "short_names": [
+        "Park M",
+        "Singh S",
+        "Khan SR",
+        "Abrar MA",
+        "Grisanti F",
+        "Rahman MS",
+        "Samee MAH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6429-8569",
+        "ORCID: 0000-0001-9419-6478",
+        "ORCID: 0000-0002-7472-1156"
+      ],
+      "affiliations": [
+        "Department of Integrative Physiology, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Department of Integrative Physiology, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka 1000, Bangladesh.",
+        "Computer Science and Engineering, Brac University, Dhaka 1212, Bangladesh.",
+        "Department of Integrative Physiology, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka 1000, Bangladesh.",
+        "Department of Integrative Physiology, Baylor College of Medicine, Houston, TX 77030, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Minjun",
+        "short_name": "Park M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Physiology, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Salvi",
+        "short_name": "Singh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Physiology, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Khan, Samin Rahman",
+        "short_name": "Khan SR",
+        "identifiers": [
+          "0000-0002-6429-8569"
+        ],
+        "affiliations": [
+          "Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka 1000, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Abrar, Mohammed Abid",
+        "short_name": "Abrar MA",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Engineering, Brac University, Dhaka 1212, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Grisanti, Francisco",
+        "short_name": "Grisanti F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Physiology, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Rahman, M Sohel",
+        "short_name": "Rahman MS",
+        "identifiers": [
+          "0000-0001-9419-6478"
+        ],
+        "affiliations": [
+          "Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka 1000, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Samee, Md Abul Hassan",
+        "short_name": "Samee MAH",
+        "identifiers": [
+          "0000-0002-7472-1156"
+        ],
+        "affiliations": [
+          "Department of Integrative Physiology, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Sep 8",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/24 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "39362779",
+      "36866046"
+    ],
+    "refs": [
+      "34322657",
+      "33603233",
+      "33580750",
+      "32361862",
+      "31792407",
+      "31701148",
+      "31685031",
+      "31665634",
+      "31619572",
+      "31324140",
+      "29588361",
+      "29140464",
+      "27831498",
+      "27701403",
+      "27322654",
+      "26486725",
+      "26301843",
+      "26213851",
+      "26072433",
+      "25953851",
+      "24371273",
+      "22955616",
+      "21873635",
+      "20862354",
+      "16920951",
+      "11237011",
+      "10811875",
+      "10199400"
+    ],
+    "similar": [
+      "36140783",
+      "31856220",
+      "31003034",
+      "31830260",
+      "31416059",
+      "37370113",
+      "32091991",
+      "35333231",
+      "27896980",
+      "34322657",
+      "34219140",
+      "37023129",
+      "27307608",
+      "37387140",
+      "33059238",
+      "30918943",
+      "32036229",
+      "34891880",
+      "29993783",
+      "35291940",
+      "29932424",
+      "35361122",
+      "34368836",
+      "33724507",
+      "30807894",
+      "34116290",
+      "34118752",
+      "27693612",
+      "33164053",
+      "30481258",
+      "33048723",
+      "30753280",
+      "35161938",
+      "33984749",
+      "33721852",
+      "32502798",
+      "35985185",
+      "32225281",
+      "31503733",
+      "32746153",
+      "35016607",
+      "34283094",
+      "35009760",
+      "29949978",
+      "36866046",
+      "31774907",
+      "31012226",
+      "29069282",
+      "34634753",
+      "34199027",
+      "34252964",
+      "33382513",
+      "32449176",
+      "31946786",
+      "28158264",
+      "31586788",
+      "31746978",
+      "33498800",
+      "30346286",
+      "29869761",
+      "35449738",
+      "31181561",
+      "35704992",
+      "33259518",
+      "35636355",
+      "31871069",
+      "32377028",
+      "34032215",
+      "32282110",
+      "31536026",
+      "31426516",
+      "33932241",
+      "33749134",
+      "32098264",
+      "36124301",
+      "32896633",
+      "31991307",
+      "31936028",
+      "29722865",
+      "34069189",
+      "36747873",
+      "38013993"
+    ],
+    "review": [
+      "36140783"
+    ],
+    "pmc": [
+      "9498894"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13091614",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36140783/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36140783",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "39815134",
+    "doi": "10.1007/s11307-025-01981-x",
+    "title": "Deep Radiogenomics Sequencing for Breast Tumor Gene-Phenotype Decoding Using Dynamic Contrast Magnetic Resonance Imaging."
+  },
+  "content": {
+    "abstract": "PURPOSE: We aim to perform radiogenomic profiling of breast cancer tumors using dynamic contrast magnetic resonance imaging (MRI) for the estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (HER2) genes. METHODS: The dataset used in the current study consists of imaging data of 922 biopsy-confirmed invasive breast cancer patients with ER, PR, and HER2 gene mutation status. Breast MR images, including a T1-weighted pre-contrast sequence and three post-contrast sequences, were enrolled for analysis. All images were corrected using N4 bias correction algorithms. Based on all images and tumor masks, a bounding box of 128 x 128 x 68 was chosen to include all tumor regions. All networks were implemented in 3D fashion with input sizes of 128 x 128 x 68, and four images were input to each network for multi-channel analysis. Data were randomly split into train/validation (80%) and test set (20%) with stratification in class (patient-wise), and all metrics were reported in 20% of the untouched test dataset. RESULTS: For ER prediction, SEResNet50 achieved an AUC mean of 0.695 (CI95%: 0.610-0.775), a sensitivity of 0.564, and a specificity of 0.787. For PR prediction, ResNet34 achieved an AUC mean of 0.658 (95% CI: 0.573-0.741), a sensitivity of 0.593, and a specificity of 0.734. For HER2 prediction, SEResNext101 achieved an AUC mean of 0.698 (95% CI: 0.560-0.822), a sensitivity of 0.750, and a specificity of 0.625. CONCLUSION: The current study demonstrated the feasibility of imaging gene-phenotype decoding in breast tumors using MR images and deep learning algorithms with moderate performance.",
+    "keywords": [
+      "Breast",
+      "Deep learning",
+      "Estrogen receptors",
+      "HER2",
+      "MRI",
+      "Progesterone receptors",
+      "Radiogenomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/diagnostic imaging/pathology",
+      "Female",
+      "*Magnetic Resonance Imaging/methods",
+      "Phenotype",
+      "Middle Aged",
+      "*Contrast Media/chemistry",
+      "Adult",
+      "Erb-b2 Receptor Tyrosine Kinases/genetics",
+      "*Genomics/methods",
+      "Receptors, Estrogen/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shiri, Isaac",
+        "Salimi, Yazdan",
+        "Mohammadi Kazaj, Pooya",
+        "Bagherieh, Sara",
+        "Amini, Mehdi",
+        "Saberi Manesh, Abdollah",
+        "Zaidi, Habib"
+      ],
+      "short_names": [
+        "Shiri I",
+        "Salimi Y",
+        "Mohammadi Kazaj P",
+        "Bagherieh S",
+        "Amini M",
+        "Saberi Manesh A",
+        "Zaidi H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7559-5297"
+      ],
+      "affiliations": [
+        "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland.",
+        "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland.",
+        "K N Toosi University of Technology, Tehran, Tehran, Iran.",
+        "School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran.",
+        "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland.",
+        "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland.",
+        "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland. habib.zaidi@hcuge.ch.",
+        "Department of Nuclear Medicine and Molecular Imaging, University of Groningen, University Medical Center Groningen, Groningen, Netherlands. habib.zaidi@hcuge.ch.",
+        "Department of Nuclear Medicine, University of Southern Denmark, Odense, Denmark. habib.zaidi@hcuge.ch.",
+        "University Research and Innovation Center, Obuda University, Budapest, Hungary. habib.zaidi@hcuge.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shiri, Isaac",
+        "short_name": "Shiri I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Salimi, Yazdan",
+        "short_name": "Salimi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mohammadi Kazaj, Pooya",
+        "short_name": "Mohammadi Kazaj P",
+        "identifiers": [],
+        "affiliations": [
+          "K N Toosi University of Technology, Tehran, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Bagherieh, Sara",
+        "short_name": "Bagherieh S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran."
+        ]
+      },
+      {
+        "full_name": "Amini, Mehdi",
+        "short_name": "Amini M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Saberi Manesh, Abdollah",
+        "short_name": "Saberi Manesh A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Zaidi, Habib",
+        "short_name": "Zaidi H",
+        "identifiers": [
+          "0000-0001-7559-5297"
+        ],
+        "affiliations": [
+          "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland. habib.zaidi@hcuge.ch.",
+          "Department of Nuclear Medicine and Molecular Imaging, University of Groningen, University Medical Center Groningen, Groningen, Netherlands. habib.zaidi@hcuge.ch.",
+          "Department of Nuclear Medicine, University of Southern Denmark, Odense, Denmark. habib.zaidi@hcuge.ch.",
+          "University Research and Innovation Center, Óbuda University, Budapest, Hungary. habib.zaidi@hcuge.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular imaging and biology"
+    ],
+    "journal_abbrev": [
+      "Mol Imaging Biol"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/16 00:20",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "42510454",
+      "42404859",
+      "41228202"
+    ],
+    "refs": [
+      "38581113",
+      "38554212",
+      "38547656",
+      "37741641",
+      "37415164",
+      "36878133",
+      "36553681",
+      "36495879",
+      "36190501",
+      "36084384",
+      "35986969",
+      "35858585",
+      "35845886",
+      "35741721",
+      "35292076",
+      "34624649",
+      "34513553",
+      "34490107",
+      "34439165",
+      "34421215",
+      "34392105",
+      "34218078",
+      "33545761",
+      "33479648",
+      "33284380",
+      "32330493",
+      "31757313",
+      "31739125",
+      "31675151",
+      "31350959",
+      "31307537",
+      "31048129",
+      "30542987",
+      "30063455",
+      "30033447",
+      "28578601",
+      "28439493",
+      "28215665",
+      "26963104",
+      "26579733",
+      "25777181",
+      "23884657",
+      "23829888",
+      "21802721",
+      "20378467",
+      "18071947",
+      "15343273",
+      "12743151",
+      "9617910"
+    ],
+    "similar": [
+      "39815134",
+      "25777181",
+      "38922986",
+      "39643475",
+      "40137571",
+      "39924532",
+      "30138940",
+      "39681144",
+      "38641451",
+      "24652232",
+      "18780825",
+      "23723333",
+      "30613307",
+      "30033447",
+      "28531188",
+      "30129697",
+      "27116182",
+      "30927939",
+      "19898422",
+      "21258931",
+      "38745321",
+      "26968141",
+      "22527371",
+      "38429796",
+      "34846204",
+      "23859386",
+      "24558165",
+      "32350370",
+      "31307537",
+      "30756285",
+      "30293819",
+      "32589681",
+      "38555225",
+      "19244039",
+      "25880075",
+      "27315045",
+      "19764994",
+      "29284425",
+      "31655316",
+      "24344008",
+      "37855421",
+      "28521821",
+      "25179138",
+      "24620909",
+      "29219225",
+      "25589151",
+      "40143808",
+      "27666130",
+      "36418622",
+      "36694221",
+      "25802405",
+      "37672055",
+      "18098228",
+      "29523126",
+      "30128822",
+      "26650824",
+      "23977244",
+      "35711896",
+      "30652258",
+      "21878615",
+      "29581709",
+      "29368311",
+      "38049758",
+      "39122586",
+      "30206035",
+      "38265001",
+      "39151526",
+      "30811717",
+      "31169691",
+      "27349894",
+      "27313102",
+      "40249269",
+      "19863408",
+      "39592385",
+      "32758491",
+      "32556920",
+      "19629680",
+      "28975433",
+      "38766488",
+      "22045649",
+      "38951909",
+      "26937802",
+      "40075375",
+      "25028781",
+      "26022247",
+      "27061526",
+      "38916820",
+      "38850180",
+      "23240985",
+      "28689363",
+      "20237034",
+      "26886725",
+      "32317515",
+      "36440706",
+      "32445323",
+      "35436143",
+      "22949935",
+      "28295860",
+      "24070170",
+      "39320560"
+    ],
+    "review": [
+      "39815134"
+    ],
+    "pmc": [
+      "11805855"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39815134/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s11307-025-01981-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "35597551",
+    "doi": "10.1016/j.jmb.2022.167640",
+    "title": "Inadequacy of Evolutionary Profiles Vis-a-vis Single Sequences in Predicting Transient DNA-Binding Sites in Proteins."
+  },
+  "content": {
+    "abstract": "Sequence-based prediction of DNA-binding residues in a protein is a widely studied problem for which machine learning methods with continuously improving predictive power have been developed. Concatenated rows within a sliding window of a Position Specific Substitution Matrix (PSSM) of the protein are currently used as the primary feature set in almost all the methods of predicting DNA-binding residues. Here we report that these evolutionary profiles are powerful, only for identifying conserved binding sites and fall short for the residue positions which undergo binding to non-binding transitions in closely related proteins. We created a database of highly similar protein pairs with known protein-DNA complexes and investigated differential predictability of conserved and transient binding residues within each pair. Retraining machine learning models uniformly, we compared the predictive powers of the models trained on PSSMs against similarly trained models on sparse-encoded single sequences. We found that the transient binding site predictions from evolutionary profiles are outperformed by single-sequence based models under controlled experiments by as much as 8 percentage points. Thus, we conclude that the PSSM-based models are inadequate to predict high-specificity DNA-binding residues. These findings are of critical significance for the design of mutant- and species-specific DNA ligands and for homology based modeling of protein-DNA complexes.",
+    "keywords": [
+      "DNA-binding sites",
+      "Protein-DNA interactions",
+      "Specificity determining positions",
+      "Transient and conserved binding sites"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "Computational Biology/methods",
+      "*DNA/metabolism",
+      "Databases, Protein",
+      "Ligands",
+      "Protein Binding",
+      "*Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arya, Ajay",
+        "Mary Varghese, Dana",
+        "Kumar Verma, Ajay",
+        "Ahmad, Shandar"
+      ],
+      "short_names": [
+        "Arya A",
+        "Mary Varghese D",
+        "Kumar Verma A",
+        "Ahmad S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India. Electronic address: shandar@jnu.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arya, Ajay",
+        "short_name": "Arya A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Mary Varghese, Dana",
+        "short_name": "Mary Varghese D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Kumar Verma, Ajay",
+        "short_name": "Kumar Verma A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Shandar",
+        "short_name": "Ahmad S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India. Electronic address: shandar@jnu.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Jul 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/22 06:00",
+    "fetched_at": "2026-09-28 08:41:46"
+  },
+  "links": {
+    "cites": [
+      "41481503",
+      "37847755"
+    ],
+    "refs": [],
+    "similar": [
+      "35597551",
+      "15720719",
+      "31228283",
+      "19439068",
+      "27383535",
+      "25362840",
+      "17275170",
+      "19091029",
+      "17201922",
+      "20658312",
+      "19165315",
+      "33442949",
+      "22194998",
+      "28851273",
+      "31814842",
+      "30598073",
+      "30020551",
+      "29253082",
+      "20522253",
+      "21034480",
+      "34415020",
+      "24093637",
+      "28334258",
+      "35447463",
+      "23116714",
+      "22868682",
+      "20525281",
+      "25935161",
+      "33673040",
+      "28423569",
+      "34514982",
+      "33238837",
+      "14654694",
+      "20549269",
+      "16545112",
+      "22574904",
+      "29536446",
+      "21954606",
+      "32142788",
+      "22025754",
+      "26549790",
+      "17316627",
+      "19778442",
+      "23387468",
+      "21342579",
+      "35943134",
+      "23747746",
+      "19594868",
+      "31046040",
+      "22174808",
+      "20677174",
+      "39103447",
+      "21143803",
+      "26527718",
+      "15826309",
+      "10993732",
+      "19008251",
+      "18712298",
+      "16568445",
+      "21987472",
+      "30602422",
+      "31683069",
+      "11478868",
+      "35709747",
+      "18940825",
+      "34572550",
+      "31141211",
+      "29591488",
+      "34073774",
+      "31412138",
+      "17710364",
+      "19786483",
+      "18235992",
+      "24763918",
+      "30040656",
+      "19700370",
+      "17237068",
+      "23790211",
+      "20353553",
+      "18833291",
+      "24277997",
+      "31123959",
+      "24334392",
+      "19925685",
+      "10764600",
+      "19508719",
+      "17584799",
+      "19173310"
+    ],
+    "review": [
+      "35597551",
+      "29253082",
+      "28334258",
+      "25935161",
+      "34514982"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(22)00220-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "41627694",
+    "doi": "10.1007/s12539-025-00807-2",
+    "title": "A Deep Learning Framework with Multi-perspective Feature Fusion for Transcription Factor Binding Site Prediction."
+  },
+  "content": {
+    "abstract": "Transcription factor binding sites (TFBS) play pivotal roles in various biological functions, and their precise identification is crucial for deciphering gene regulatory mechanisms. However, conventional experimental approaches are often time-consuming and expensive, while existing computational methods face challenges in further improving prediction accuracy, largely due to their limited ability to capture complex hidden information from DNA sequences. To address these limitations, this study proposes a hybrid deep learning framework named GLNet-TFBS, which integrates dual-path feature learning modules-global and local-to enhance TFBS prediction performance. One path employs the pre-trained DNABERT-2 model, leveraging its Transformer-based architecture to capture rich global contextual information from DNA sequences. The other path incorporates three classical sequence encoding techniques to extract discriminative local patterns. Experimental results show that the fusion of features from both paths significantly improves prediction accuracy and robustness. As a result, our model outperforms existing benchmarks on key evaluation metrics, including ACC, ROC-AUC, and PR-AUC, demonstrating its strong potential for broad applicability across diverse biological contexts. The source code and data are available at https://github.com/zjxywt/GLNet-TFBS .",
+    "keywords": [
+      "DNABERT",
+      "Deep learning",
+      "Feature fusion",
+      "Transcription factor binding site"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Tong",
+        "Liu, Zhendong"
+      ],
+      "short_names": [
+        "Wang T",
+        "Liu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8622-3560"
+      ],
+      "affiliations": [
+        "School of Computer and Information Engineering, Institute for Artificial Intelligence, Shanghai Polytechnic University, Shanghai, 201209, China. wangtong@sspu.edu.cn.",
+        "School of Computer and Information Engineering, Institute for Artificial Intelligence, Shanghai Polytechnic University, Shanghai, 201209, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Tong",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0001-8622-3560"
+        ],
+        "affiliations": [
+          "School of Computer and Information Engineering, Institute for Artificial Intelligence, Shanghai Polytechnic University, Shanghai, 201209, China. wangtong@sspu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhendong",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Institute for Artificial Intelligence, Shanghai Polytechnic University, Shanghai, 201209, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Interdisciplinary sciences, computational life sciences"
+    ],
+    "journal_abbrev": [
+      "Interdiscip Sci"
+    ],
+    "pub_date": "2026 Feb 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/03 00:06",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39350338",
+      "37328639",
+      "36996195",
+      "36748992",
+      "36399495",
+      "35719916",
+      "35462009",
+      "35264797",
+      "35263332",
+      "34929739",
+      "34920699",
+      "34882561",
+      "33796819",
+      "33767912",
+      "33603233",
+      "33538820",
+      "33498086",
+      "31634140",
+      "31091308",
+      "30445434",
+      "29757349",
+      "29425488",
+      "27307608",
+      "26794315",
+      "26301843",
+      "26213851",
+      "25129887",
+      "20096096",
+      "19543377",
+      "17230196",
+      "15637633",
+      "14597652",
+      "9570129"
+    ],
+    "similar": [
+      "41627694",
+      "39701486",
+      "42234353",
+      "41257600",
+      "40914877",
+      "38701417",
+      "41634097",
+      "36403092",
+      "41399733",
+      "41558219",
+      "41172803",
+      "41376296",
+      "41527527",
+      "41653519",
+      "40613943",
+      "40772277",
+      "39214282",
+      "41151193",
+      "39107889",
+      "41725816",
+      "40646507",
+      "42185919",
+      "42242678",
+      "38599417",
+      "33538820",
+      "42054815",
+      "40702706",
+      "34571539",
+      "39350338",
+      "39096613",
+      "42151225",
+      "41679678",
+      "38643080",
+      "40411397",
+      "41576119",
+      "41299278",
+      "31593229",
+      "41404123",
+      "42243656",
+      "39510345",
+      "40889326",
+      "40814232",
+      "40354201",
+      "40996147",
+      "39731012",
+      "36748992",
+      "41396754",
+      "40598008",
+      "39732642",
+      "42032471",
+      "38458307",
+      "40684093",
+      "40889118",
+      "42099803",
+      "40979547",
+      "38245002",
+      "39561516",
+      "42323660",
+      "38940179",
+      "41532285",
+      "41310253",
+      "36088549",
+      "39067351",
+      "41642902",
+      "41044589",
+      "39566793",
+      "42031870",
+      "42235009",
+      "38485768",
+      "42133173",
+      "41527074",
+      "41762162",
+      "41789576",
+      "39121059",
+      "41704344",
+      "42007520",
+      "40353937",
+      "40302345",
+      "41564724",
+      "40989420",
+      "41343123",
+      "41286599",
+      "41791267",
+      "41977286",
+      "38178985",
+      "41501380",
+      "42164554",
+      "40670806",
+      "40569190",
+      "41540516",
+      "41913931",
+      "39154194",
+      "32808039",
+      "40251827",
+      "38181611",
+      "41056347",
+      "34320631",
+      "41283958",
+      "40966644",
+      "38340437"
+    ],
+    "review": [
+      "41627694",
+      "38245002"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12539-025-00807-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

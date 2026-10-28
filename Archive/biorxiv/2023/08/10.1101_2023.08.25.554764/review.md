@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report an in vivo massively parallel reporter assay applied to the TetR repressor, quantifying transcriptional repression for 17,765 TFBSs. They claim the resulting landscape is highly rugged with 2,092 peaks, that few peaks exceed wild-type repression, that epistasis is frequent, that most high peaks are evolutionarily accessible with large basins of attraction, that about 20% of evolving populations reach high peaks, and that outcomes are contingent on mutational path. They further claim this is the first in-depth analysis of a prokaryotic gene regulator and that the landscape is more rugged than eukaryotic counterparts.
+- **Visible evidence base** Abstract text only; no methodological details, statistical analyses, or data visualizations
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, statistical details, and any description of the evolutionary simulations or experimental replicates
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant contribution to the study of regulatory sequence evolution, introducing a new experimental platform and reporting a large dataset. However, the claims as stated cannot be adequately evaluated without the full manuscript. Several assertions, particularly those regarding evolutionary accessibility, basin size, and contingency, require substantial methodological support that is not visible in the abstract. The comparison to eukaryotic regulators is intriguing but currently unsupported by any comparative data presented here.
+- **Who would be interested in the results, and why** Evolutionary biologists studying genotype-phenotype maps and adaptive landscapes would find the empirical landscape mapping valuable. Molecular microbiologists interested in transcriptional regulation in bacteria would benefit from the expanded TFBS dataset for TetR. Synthetic biologists seeking new genetic parts and regulatory elements would be interested in the identified high-strength binding sites. Researchers studying epistasis and ruggedness in fitness landscapes would also find the quantitative claims relevant.
+- **Major strengths** The development of an in vivo massively parallel reporter assay for bacterial TFBSs represents a methodological advance. The scale of the dataset, 17,765 TFBSs, is substantial and could provide a valuable community resource. The focus on a prokaryotic regulator addresses a gap in the literature, as most comprehensive landscape studies have focused on eukaryotic systems. The combination of experimental measurement with evolutionary simulations, if properly executed, could provide integrated insights into both landscape topology and evolutionary dynamics.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim the landscape is highly rugged with 2,092 peaks and that non-additive epistatic interactions are frequent.  
+  - **Evidence pointer** Abstract only; no figure or table specified  
+  - **Concern** The definition of a "peak" and the criteria for classifying the landscape as "highly rugged" are not provided. The number 2,092 peaks out of 17,765 sequences implies a specific algorithmic definition, but without details on how peaks were identified, how sequence neighborhoods were defined, and what threshold for repression strength was used, this claim cannot be assessed. Similarly, the claim of frequent epistasis requires a clear definition of the reference wild-type sequence and the statistical model used to detect non-additive interactions.  
+  - **Why it matters** The central conclusion of the paper, that the landscape is highly rugged, depends entirely on these definitions. Different peak-calling criteria could yield substantially different numbers and alter the qualitative conclusion. Without this information, the headline result is not reproducible or verifiable.  
+  - **Resolution test** Provide the exact algorithm for peak identification, including the neighborhood definition and any significance thresholds. Provide the epistasis detection model, including how additive expectations were computed and how multiple testing was handled.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that most high peaks are evolutionarily accessible, have large basins of attraction, and are reached by around 20% of populations evolving on the landscape.  
+  - **Evidence pointer** Abstract only; no methods for evolutionary simulations provided  
+  - **Concern** The evolutionary simulations that support these claims are not described. Key parameters such as population size, mutation rate, selection coefficient, starting sequences, number of replicate populations, and the fitness function linking repression strength to evolutionary success are all absent. The claim that 20% of populations reach high peaks is a quantitative result that cannot be interpreted without knowing the simulation conditions. The concept of "basin of attraction" also requires a precise definition in this sequence space context.  
+  - **Why it matters** The navigability claim is a major part of the paper's significance. If the simulations used unrealistic parameters or if the fitness function was not justified, the conclusion that the landscape is navigable could be an artifact of the simulation setup rather than a property of the biological system.  
+  - **Resolution test** Provide full simulation details, including all parameter values, the fitness function, the number of replicates, and a sensitivity analysis showing that the qualitative conclusions hold across reasonable parameter ranges.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors claim that this landscape is "way more rugged" than those of eukaryotic regulators and that this is the first in-depth analysis of a prokaryotic gene regulator.  
+  - **Evidence pointer** Abstract only; no comparative data shown  
+  - **Concern** The comparison to eukaryotic regulators is made without presenting any quantitative comparative analysis. Different studies use different assays, different definitions of ruggedness, and different sequence spaces, making direct comparison problematic. The claim of being "first" is also difficult to verify from the abstract alone, as prior work on bacterial TFBS landscapes may exist that is not cited here.  
+  - **Why it matters** The novelty and significance of the work depend partly on this comparative claim. If the comparison is not rigorously established, the paper's contribution may be overstated.  
+  - **Resolution test** Provide a quantitative comparison using the same ruggedness metrics applied to published eukaryotic datasets, with appropriate caveats about assay differences. Clarify the novelty claim by explicitly discussing prior bacterial TFBS landscape studies.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors state they developed an in vivo massively parallel reporter assay and applied it to quantify repression for 17,765 TFBSs.  
+  - **Evidence pointer** Abstract only; no methods described  
+  - **Concern** No details are provided about the assay design, including the reporter construct, the TetR expression level, the library construction, the sequencing depth, the number of biological replicates, or the data processing pipeline. The accuracy and dynamic range of the repression measurements cannot be assessed.  
+  - **Why it matters** The entire dataset rests on the reliability of this assay. Without evidence of reproducibility and appropriate controls, the quantitative claims about repression strength are not trustworthy.  
+  - **Resolution test** Provide a full methods section describing the assay, including validation experiments, replicate concordance, and controls for library bias or sequencing errors.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The phrase "the elevation at that location corresponds to the strength of transcriptional regulation" is vague. It is unclear whether elevation refers to repression strength, activation strength, or a normalized ratio.  
+  - **Required correction** Specify the exact quantitative measure used as the landscape elevation, including how it was normalized and what direction corresponds to higher elevation.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, second paragraph  
+  - **Issue** The statement that "most high peaks are evolutionarily accessible" is ambiguous. Does "most" refer to a fraction of peaks, a fraction of populations, or a fraction of mutational paths?  
+  - **Required correction** Clarify the denominator for the fraction and provide the specific number or percentage.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, significance paragraph  
+  - **Issue** The claim that the work "holds promise as a framework for discovering new genetic components for synthetic biological systems" is not supported by any example or proof-of-concept in the abstract.  
+  - **Required correction** Either remove this claim or provide a specific example of how the identified TFBSs could be used in a synthetic biology application.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The core quantitative claims about ruggedness, peak number, epistasis, and evolutionary accessibility cannot be verified without the missing methodological details. The comparative claim against eukaryotic landscapes is not substantiated.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of a massively parallel reporter assay to map a bacterial TFBS landscape at this scale appears novel, but the abstract does not provide enough context to fully assess novelty against prior work.  
+  - Scientific importance: The question of how evolution navigates regulatory sequence space is of broad interest, and a bacterial system adds phylogenetic diversity. However, the importance depends on the robustness of the claims, which cannot be verified.  
+  - Interdisciplinary readership: The work bridges evolutionary biology, molecular biology, and synthetic biology, which would appeal to a broad audience if the claims are well supported.  
+  - Technical soundness: Not assessable from the abstract. The missing methods for both the experimental assay and the evolutionary simulations are critical gaps.  
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon such as "epistatic" and "basins of attraction" without definition, which may hinder nonspecialist comprehension.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting research direction and a potentially valuable dataset, but the central claims cannot be evaluated without the full manuscript. I would be supportive if the technical concerns regarding peak definition, epistasis detection, simulation parameters, and assay validation are resolved in the full paper.
+
+## Risk / unsupported claims
+- The claim of 2,092 peaks is unsupported without the peak definition algorithm.
+- The claim of frequent epistasis is unsupported without the statistical model.
+- The claim that most high peaks are evolutionarily accessible and reached by 20% of populations is unsupported without simulation details.
+- The claim that the landscape is "way more rugged" than eukaryotic regulators is unsupported without comparative analysis.
+- The claim of being the "first in-depth analysis of a prokaryotic gene regulator" is unverifiable from the abstract alone.
+- The claim of applicability to synthetic biology is unsupported by any demonstrated example.

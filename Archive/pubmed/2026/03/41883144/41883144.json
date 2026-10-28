@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "41883144",
+    "doi": "10.1093/bioinformatics/btag144",
+    "title": "GRNFormer: accurate gene regulatory network inference using graph transformer."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Deciphering gene regulatory networks (GRNs) from single-cell transcriptomics data remains a fundamental challenge in computational biology. It is hindered by data sparsity, high dimensionality, and the lack of scalable, generalizable inference models. To address this, we present GRNFormer, a generalizable graph transformer framework for accurate GRN inference from transcriptomics data across species, cell types, and platforms without requiring cell-type annotations or prior regulatory information. RESULTS: GRNFormer integrates a transformer-based gene expression encoder (Gene-Transcoder) with a variational graph autoencoder (GraViTAE) employing pairwise attention to jointly learn the representations of genes (nodes) and their co-expression relationships (edges). Leveraging TF-Walker, a transcription factor-anchored subgraph sampling strategy, it effectively captures gene regulatory interactions from either single-cell or bulk RNA-seq datasets. Benchmarking on standard datasets demonstrates that GRNFormer outperforms existing traditional and deep learning state-of-the-art methods in blind evaluations, achieving average sampled area under the receiver operating characteristic curve (Sampled_AUROC) and sampled area under the precision-recall curve (Sampled_AUPRC) values between 0.90 and 0.98 as well as 0.87-0.98 average sampled F1 score. The model robustly recovers both known and novel regulatory networks, including pluripotency circuits in human embryonic stem cells (hESCs) and immune cell modules in peripheral blood mononuclear cells (PBMCs). The architecture enables scalable, biologically interpretable GRN inference across various datasets, cell types, and species, establishing GRNFormer as a robust and transferable tool for network biology. AVAILABILITY AND IMPLEMENTATION: GRNFormer is available on GitHub (https://github.com/BioinfoMachineLearning/GRNformer); the version used in this work is archived on Zenodo (https://doi.org/10.5281/zenodo.18868395), with evaluation resources for reproducibility.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Computational Biology/methods",
+      "*Software",
+      "Humans",
+      "Algorithms",
+      "Animals",
+      "Single-Cell Gene Expression Analysis",
+      "Autoencoder",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hegde, Akshata",
+        "Cheng, Jianlin"
+      ],
+      "short_names": [
+        "Hegde A",
+        "Cheng J"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-7077-9420",
+        "ORCID: 0000-0003-0305-2853"
+      ],
+      "affiliations": [
+        "Department of Electrical Engineering and Computer Science, University of Missouri, Columbia, Missouri, 65211, United States.",
+        "Roy Blunt Nextgen Precision Health, University of Missouri, Columbia, Missouri, 65211, United States.",
+        "Department of Electrical Engineering and Computer Science, University of Missouri, Columbia, Missouri, 65211, United States.",
+        "Roy Blunt Nextgen Precision Health, University of Missouri, Columbia, Missouri, 65211, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hegde, Akshata",
+        "short_name": "Hegde A",
+        "identifiers": [
+          "0009-0009-7077-9420"
+        ],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, University of Missouri, Columbia, Missouri, 65211, United States.",
+          "Roy Blunt Nextgen Precision Health, University of Missouri, Columbia, Missouri, 65211, United States."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jianlin",
+        "short_name": "Cheng J",
+        "identifiers": [
+          "0000-0003-0305-2853"
+        ],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, University of Missouri, Columbia, Missouri, 65211, United States.",
+          "Roy Blunt Nextgen Precision Health, University of Missouri, Columbia, Missouri, 65211, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Apr 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/26 07:09",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40251476",
+      "40164946",
+      "39715759",
+      "38927734",
+      "38914941",
+      "38510148",
+      "37004161",
+      "36370105",
+      "35961023",
+      "34980209",
+      "33915173",
+      "31907445",
+      "31822622",
+      "31527870",
+      "31066453",
+      "31024627",
+      "30953525",
+      "29409532",
+      "29236355",
+      "28968704",
+      "28957658",
+      "28094016",
+      "26688802",
+      "25677188",
+      "23229513",
+      "23204614",
+      "22897851",
+      "22796662",
+      "22491213",
+      "21526205",
+      "20805835",
+      "20714081",
+      "20014476",
+      "18620095",
+      "17214507",
+      "15996224",
+      "14597658",
+      "12433831",
+      "10706707",
+      "3260267"
+    ],
+    "similar": [
+      "41883144",
+      "42265576",
+      "41288963",
+      "41896196",
+      "41206950",
+      "41871930",
+      "39934680",
+      "39960893",
+      "30547796",
+      "38950180",
+      "41554051",
+      "40062616",
+      "37985457",
+      "40251476",
+      "38261340",
+      "40654959",
+      "40408160",
+      "40116659",
+      "42378449",
+      "40662821",
+      "42059479",
+      "39417321",
+      "35961023",
+      "32019417",
+      "39311699",
+      "42650039",
+      "42560939",
+      "39605181",
+      "38627250",
+      "41518505",
+      "36734596",
+      "40708222",
+      "37004161",
+      "42599963",
+      "42653305",
+      "40702704",
+      "35062026",
+      "39939367",
+      "41652996",
+      "41544912",
+      "42490201",
+      "35451460",
+      "41863296",
+      "41300707",
+      "41329984",
+      "38980373",
+      "42149830",
+      "41999209",
+      "36070863",
+      "42614561",
+      "40596788",
+      "42308421",
+      "36626328",
+      "40197174",
+      "38879931",
+      "41317402",
+      "42039614",
+      "42484158",
+      "42093817",
+      "41067887",
+      "41269283",
+      "39487083",
+      "42332576",
+      "40956752",
+      "38342857",
+      "42032017",
+      "41934621",
+      "39804726",
+      "39975293",
+      "37387180",
+      "41043336",
+      "38678389",
+      "40415678",
+      "42752548",
+      "42054465",
+      "38810116",
+      "38896510",
+      "40094454",
+      "40426257",
+      "42296381",
+      "40127172",
+      "42525855",
+      "40484997",
+      "42225598",
+      "37085776",
+      "37740957",
+      "41452748",
+      "41775092",
+      "41267133",
+      "39062480",
+      "39387266",
+      "40699953",
+      "42635216",
+      "41325188",
+      "41257571",
+      "29914350",
+      "40981507",
+      "42061403",
+      "27479082",
+      "42398025"
+    ],
+    "review": [
+      "41883144",
+      "39939367"
+    ],
+    "pmc": [
+      "13069479"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41883144/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag144",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

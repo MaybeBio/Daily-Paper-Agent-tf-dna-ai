@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "35266510",
+    "doi": "10.1093/bioinformatics/btac148",
+    "title": "Heterogeneous graph embedding model for predicting interactions between TF and target gene."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Identifying the target genes of transcription factors (TFs) is of great significance for biomedical researches. However, using biological experiments to identify TF-target gene interactions is still time consuming, expensive and limited to small scale. Existing computational methods for predicting underlying genes for TF to target is mainly proposed for their binding sites rather than the direct interaction. To bridge this gap, we in this work proposed a deep learning prediction model, named HGETGI, to identify the new TF-target gene interaction. Specifically, the proposed HGETGI model learns the patterns of the known interaction between TF and target gene complemented with their involvement in different human disease mechanisms. It performs prediction based on random walk for meta-path sampling and node embedding in a skip-gram manner. RESULTS: We evaluated the prediction performance of the proposed method on a real dataset and the experimental results show that it can achieve the average area under the curve of 0.8519 +/- 0.0731 in fivefold cross validation. Besides, we conducted case studies on the prediction of two important kinds of TF, NFKB1 and TP53. As a result, 33 and 32 in the top-40 ranking lists of NFKB1 and TP53 were successfully confirmed by looking up another public database (hTftarget). It is envisioned that the proposed HGETGI method is feasible and effective for predicting TF-target gene interactions on a large scale. AVAILABILITY AND IMPLEMENTATION: The source code and dataset are available at https://github.com/PGTSING/HGETGI. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Binding Sites",
+      "*Software",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Yu-An",
+        "Pan, Gui-Qing",
+        "Wang, Jia",
+        "Li, Jian-Qiang",
+        "Chen, Jie",
+        "Wu, Yang-Han"
+      ],
+      "short_names": [
+        "Huang YA",
+        "Pan GQ",
+        "Wang J",
+        "Li JQ",
+        "Chen J",
+        "Wu YH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5346-2394"
+      ],
+      "affiliations": [
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Yu-An",
+        "short_name": "Huang YA",
+        "identifiers": [
+          "0000-0002-5346-2394"
+        ],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Gui-Qing",
+        "short_name": "Pan GQ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jia",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian-Qiang",
+        "short_name": "Li JQ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jie",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yang-Han",
+        "short_name": "Wu YH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Apr 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/11 06:00",
+    "fetched_at": "2026-09-28 06:03:24"
+  },
+  "links": {
+    "cites": [
+      "41662352",
+      "40012937",
+      "38261340"
+    ],
+    "refs": [],
+    "similar": [
+      "35266510",
+      "35511108",
+      "32858223",
+      "25957350",
+      "35997560",
+      "29757349",
+      "20704747",
+      "31742324",
+      "34293850",
+      "25559499",
+      "23758851",
+      "21690103",
+      "33416862",
+      "38451769",
+      "31995498",
+      "28961686",
+      "28961802",
+      "30423062",
+      "31723409",
+      "31161194",
+      "36708003",
+      "20663846",
+      "32246829",
+      "26679776",
+      "31793982",
+      "33381844",
+      "37339154",
+      "28750606",
+      "19956545",
+      "22238267",
+      "35135629",
+      "31857203",
+      "36194003",
+      "28430977",
+      "18426580",
+      "32886093",
+      "32054475",
+      "31070745",
+      "23812985",
+      "32770026",
+      "34073774",
+      "30304373",
+      "17488754",
+      "33517357",
+      "32573679",
+      "28881969",
+      "36088549",
+      "16982645",
+      "31061989",
+      "26130577",
+      "32145009",
+      "28203701",
+      "21172055",
+      "34252930",
+      "33119053",
+      "33067636",
+      "30561548",
+      "33978713",
+      "29069317",
+      "22039215",
+      "23559638",
+      "35640981",
+      "31899481",
+      "34272562",
+      "32840562",
+      "31397851",
+      "33212495",
+      "29186331",
+      "26703974",
+      "38848239",
+      "35991563",
+      "28718849",
+      "30084962",
+      "32657407",
+      "34849593",
+      "33367525",
+      "31593229",
+      "29028931",
+      "30423072",
+      "37275772",
+      "35224614",
+      "22931563",
+      "19959498",
+      "21750739",
+      "34864886",
+      "27587683",
+      "30323198",
+      "36094347",
+      "28617232",
+      "24565265",
+      "30541050",
+      "35275993",
+      "36692138",
+      "37920888",
+      "37113249",
+      "35253843",
+      "36699351",
+      "36700114",
+      "36681902",
+      "38561176",
+      "34515778",
+      "33325506"
+    ],
+    "review": [
+      "35266510",
+      "31742324",
+      "30084962",
+      "36094347"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35266510.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac148",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

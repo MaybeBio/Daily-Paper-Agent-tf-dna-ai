@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors characterize 123 renal tumors with clear cell morphology and known VHL mutation status to assess the frequency and molecular consequences of ELOC inactivation. They identify 18 ELOC-deleted RCCs, 3 with biallelic ELOC inactivation (mutation plus deletion). They report mutual exclusivity between biallelic ELOC and biallelic VHL aberrations, absence of TSC1/TSC2/mTOR mutations in biallelic ELOC cases, a novel ELOC variant disrupting ELOC-VHL interaction, reduced ELOC expression with similar CA9 and VEGF-A expression compared to VHL-inactivated ccRCC, and propose that biallelic ELOC inactivation defines a distinct molecular tumor entity.
+- **Visible evidence base** Abstract text only; no methodological details, cohort composition, statistical analyses, or raw data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, cohort clinical and pathological details, sequencing quality metrics, validation data, structural modeling parameters, mass spectrometry quantification details, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding ELOC inactivation in renal tumors with clear cell morphology, but the evidence as presented is insufficient to establish the central claim of a distinct tumor entity. The sample size for the key group (3 biallelic ELOC cases) is very small, and the abstract lacks critical methodological and statistical detail. The claim of mutual exclusivity and the proposed entity classification require substantially more evidence than is visible here.
+- **Who would be interested in the results, and why** Pathologists and molecular oncologists specializing in renal cell carcinoma classification, particularly those interested in the molecular taxonomy of kidney tumors and the diagnostic distinction between emerging entities. The findings could also interest researchers studying the VHL-ELOC-CUL2 ubiquitin ligase pathway and its role in renal tumorigenesis.
+- **Major strengths** The study addresses a relevant gap in the classification of renal tumors with clear cell morphology, specifically the frequency and consequences of ELOC alterations in VHL-wild-type and VHL-mutated contexts. The use of multiple orthogonal approaches (OncoScan, whole-exome sequencing, molecular docking, targeted mass spectrometry) is commendable. The observation of mutual exclusivity between biallelic ELOC and biallelic VHL alterations is biologically plausible and potentially significant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness and sample size
+  - **Claim pointer** The authors claim that biallelic ELOC and biallelic VHL aberrations were mutually exclusive, and that biallelic ELOC inactivation defines a distinct tumor entity.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The key conclusion rests on only 3 cases with biallelic ELOC inactivation. With such a small number, the mutual exclusivity claim cannot be statistically evaluated, and the proposal of a distinct entity is premature. No confidence intervals, statistical tests, or power calculations are reported.
+  - **Why it matters** A classification claim of this nature requires robust evidence that the observed pattern is not due to chance. Three cases cannot support a generalizable molecular entity definition, especially given the heterogeneity of renal tumors.
+  - **Resolution test** Provide the full cohort data with statistical testing for mutual exclusivity (e.g., a formal test for co-occurrence), and either expand the biallelic ELOC cohort or clearly frame the finding as preliminary and hypothesis-generating.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for distinct entity
+  - **Claim pointer** The authors state that the absence of biallelic VHL and TSC1/TSC2/mTOR inactivation in RCC with biallelic ELOC inactivation supports the notion of a novel, molecularly defined tumor entity.
+  - **Evidence pointer** Abstract, results and conclusion sections; location not provided
+  - **Concern** The absence of other known driver alterations in 3 cases is not sufficient to establish a distinct entity. The abstract does not provide data on other recurrent alterations, copy number profiles beyond chromosome 8q, methylation patterns, or clinical outcomes that would support entity status. The morphologic overlap with other entities is acknowledged but not systematically compared.
+  - **Why it matters** Entity definition in tumor classification requires integration of molecular, morphologic, and clinical features. The current evidence addresses only a narrow molecular aspect and does not demonstrate that these tumors are separable from other established or emerging entities on a broader basis.
+  - **Resolution test** Provide comprehensive genomic and epigenomic characterization of the biallelic ELOC cases, comparative analysis with VHL-mutated ccRCC and TSC/mTOR-mutated RCC, and clinical follow-up data. Alternatively, temper the conclusion to suggest that biallelic ELOC inactivation may represent a candidate distinct subtype requiring further validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional evidence
+  - **Claim pointer** The authors report a novel ELOC variant containing a duplication event disrupting ELOC-VHL interaction alongside the frequently seen Y79C alteration, based on High Ambiguity Driven biomolecular DOCKing.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The functional significance of the novel variant is inferred solely from in silico docking. No experimental validation (e.g., co-immunoprecipitation, ubiquitination assays, or cell-based functional studies) is described. The abstract does not specify which of the 3 biallelic cases carried this variant or whether the docking prediction was confirmed by any orthogonal method.
+  - **Why it matters** In silico predictions of protein-protein interaction disruption are hypothesis-generating but not definitive. Without experimental validation, the claim that this variant disrupts ELOC-VHL interaction is not established.
+  - **Resolution test** Provide experimental validation of the variant's effect on ELOC-VHL binding and downstream function, or clearly label the docking result as a prediction requiring further study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Cohort description
+  - **Affected element** Study cohort
+  - **Evidence pointer** Abstract, methods; location not provided
+  - **Issue** The abstract does not specify how the 123 tumors were selected, their clinical characteristics, or the distribution of VHL mutation status across the cohort.
+  - **Required correction** Provide cohort selection criteria, clinical features, and the number of VHL-wild-type versus VHL-mutated cases.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Quantitative results
+  - **Evidence pointer** Abstract, results; location not provided
+  - **Issue** The statement that ELOC expression was "significantly reduced" is not accompanied by any quantitative data, effect size, or statistical measure.
+  - **Required correction** Report the magnitude of reduction, statistical test used, and p-values or confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Entity classification
+  - **Evidence pointer** Abstract, conclusion; location not provided
+  - **Issue** The term "distinct entity" is used without specifying the criteria applied (e.g., WHO classification requirements) or how these tumors differ from the acknowledged morphologic mimics beyond the molecular alterations described.
+  - **Required correction** Clarify the classification framework used and explicitly state which criteria for entity status are met and which remain to be demonstrated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (sample size and statistical support for mutual exclusivity), R1-M2 (insufficient evidence for distinct entity classification), R1-M3 (lack of experimental validation for the docking-based functional claim)
+- **Assessment against Nature-style criteria** Originality: moderate; the observation of ELOC alterations in this context is not entirely novel, but the systematic characterization in a VHL-stratified cohort adds some value. Scientific importance: potentially relevant for renal tumor classification, but the small key cohort limits current impact. Interdisciplinary readership: primarily of interest to renal pathologists and molecular oncologists; limited broader appeal at this stage. Technical soundness: the use of multiple methods is appropriate, but the lack of statistical detail and experimental validation for key claims weakens the technical case. Readability for nonspecialists: the abstract is reasonably clear but assumes familiarity with renal tumor classification and molecular terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but does not provide sufficient evidence to support the claim of a distinct tumor entity. Supportive if the full manuscript addresses the sample size limitation, provides robust statistical analysis, and includes experimental validation of the functional claims.
+
+## Risk / unsupported claims
+- The claim that biallelic ELOC inactivation defines a distinct tumor entity is unsupported given the small sample size (3 cases) and lack of comprehensive comparative data.
+- The mutual exclusivity between biallelic ELOC and biallelic VHL alterations is not statistically established.
+- The functional significance of the novel ELOC variant is unsupported without experimental validation.
+- The statement that ELOC-mutated RCCs showed monoallelic VHL alterations is reported without context on whether this is expected or functionally relevant.
+- The claim that RCCs with biallelic ELOC alterations have "similar" CA9 and VEGF-A expression compared to VHL-inactivated ccRCC is not quantitatively supported in the abstract.

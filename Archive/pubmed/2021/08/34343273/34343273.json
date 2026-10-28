@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "34343273",
+    "doi": "10.1093/bioinformatics/btab567",
+    "title": "SAMPDI-3D: predicting the effects of protein and DNA mutations on protein-DNA interactions."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Mutations that alter protein-DNA interactions may be pathogenic and cause diseases. Therefore, it is extremely important to quantify the effect of mutations on protein-DNA binding free energy to reveal the molecular origin of diseases and to assist the development of treatments. Although several methods that predict the change of protein-DNA binding affinity upon mutations in the binding protein were developed, the effect of DNA mutations was not considered yet. RESULTS: Here, we report a new version of SAMPDI, the SAMPDI-3D, which is a gradient boosting decision tree machine learning method to predict the change of the protein-DNA binding free energy caused by mutations in both the binding protein and the bases of the corresponding DNA. The method is shown to achieve Pearson correlation coefficient of 0.76 and 0.80 in a benchmarking test against experimentally determined change of the binding free energy caused by mutations in the binding protein or DNA, respectively. Furthermore, three datasets collected from literature were used to do blind benchmark for SAMPDI-3D and it is shown that it outperforms all existing state-of-the-art methods. The method is very fast allowing for genome-scale investigations. AVAILABILITYAND IMPLEMENTATION: It is available as a web server and a stand-code at http://compbio.clemson.edu/SAMPDI-3D/. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Software",
+      "*Proteins/chemistry",
+      "Mutation",
+      "Protein Binding",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Gen",
+        "Panday, Shailesh Kumar",
+        "Peng, Yunhui",
+        "Alexov, Emil"
+      ],
+      "short_names": [
+        "Li G",
+        "Panday SK",
+        "Peng Y",
+        "Alexov E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5346-0156"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Gen",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Panday, Shailesh Kumar",
+        "short_name": "Panday SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Peng, Yunhui",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Alexov, Emil",
+        "short_name": "Alexov E",
+        "identifiers": [
+          "0000-0001-5346-0156"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2021 Nov 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/04 06:00",
+    "fetched_at": "2026-09-27 21:43:12"
+  },
+  "links": {
+    "cites": [
+      "42666980",
+      "42605800",
+      "41793584",
+      "40966522",
+      "40013003",
+      "39858648",
+      "39744817",
+      "39576589",
+      "39256728",
+      "38927611",
+      "38329268",
+      "37795169",
+      "37569449",
+      "37016308",
+      "36965249"
+    ],
+    "refs": [
+      "33493518",
+      "33435356",
+      "33087930",
+      "32866236",
+      "32738045",
+      "32442277",
+      "32272725",
+      "32203653",
+      "32024849",
+      "31748530",
+      "31733060",
+      "31700164",
+      "30533007",
+      "29857816",
+      "29688380",
+      "29670109",
+      "29091991",
+      "28649752",
+      "28383703",
+      "28167566",
+      "27356039",
+      "26173036",
+      "25151169",
+      "23871686",
+      "23332764",
+      "22505627",
+      "20334529",
+      "19865164",
+      "19378155",
+      "18982286",
+      "18582039",
+      "18228446",
+      "16998473",
+      "16444273",
+      "16381846",
+      "14611658",
+      "12054886",
+      "11340050",
+      "11325713",
+      "6667333"
+    ],
+    "similar": [
+      "34343273",
+      "29091991",
+      "39858648",
+      "32866236",
+      "32272725",
+      "33435356",
+      "27077847",
+      "22238268",
+      "39240325",
+      "27318206",
+      "29036596",
+      "31830252",
+      "30032213",
+      "34126874",
+      "31713585",
+      "29028891",
+      "31393553",
+      "31114883",
+      "29028926",
+      "25957347",
+      "32315389",
+      "40326522",
+      "25686635",
+      "31665262",
+      "28383703",
+      "26515825",
+      "29125747",
+      "30423097",
+      "23703214",
+      "28968714",
+      "28011769",
+      "28334276",
+      "28541376",
+      "28132027",
+      "26146996",
+      "34270697",
+      "34734992",
+      "27070572",
+      "30533007",
+      "30957840",
+      "32761082",
+      "30417935",
+      "29474517",
+      "33454744",
+      "19965883",
+      "27259543",
+      "38783112",
+      "33400510",
+      "26801957",
+      "38940145",
+      "39237205",
+      "29949961",
+      "30020414",
+      "40719555",
+      "27084939",
+      "17109752",
+      "33872313",
+      "38718170",
+      "32938375",
+      "39847079",
+      "21998155",
+      "34478500",
+      "34347784",
+      "33893812",
+      "22072382",
+      "29949987",
+      "30937435",
+      "28334224",
+      "35013687",
+      "31693276",
+      "32840574",
+      "32840562",
+      "37193676",
+      "28961686",
+      "22661576",
+      "27153629",
+      "34058752",
+      "39256728",
+      "28505334",
+      "37283042",
+      "34389843",
+      "21689482",
+      "17379687",
+      "40375059",
+      "31106357",
+      "31510679",
+      "40343467",
+      "24475049",
+      "24974204",
+      "30020406",
+      "29036440",
+      "41263504",
+      "31263275",
+      "40119464",
+      "19008251",
+      "32797645",
+      "31291347",
+      "30329012",
+      "31114880",
+      "21903632"
+    ],
+    "review": [
+      "34343273"
+    ],
+    "pmc": [
+      "10186157"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34343273.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34343273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34343273",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btab567",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

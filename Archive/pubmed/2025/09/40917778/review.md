@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion, Conclusions) as provided by the user. No figures, tables, or supplementary files were included in the supplied material.
+- **Assessment boundary** The review is limited to the scientific content, methodology, and claims as presented in the text. Statistical outputs, raw data, and experimental details not described in the text are outside the assessable scope.
+- **Shared manuscript claim summary** The authors claim that overexpression of the transcription factor GmDREB7 in soybean (Glycine max) enhances salt tolerance by upregulating the GmP5CS gene, leading to increased proline accumulation. This claim is supported by qRT-PCR expression data in four TG1 transgenic lines, proline content measurements, and in silico molecular docking between the DREB7 AP2 domain and the GmP5CS promoter.
+- **Visible evidence base** Text descriptions of qRT-PCR results (Figures 3 and 4), proline content data (Figure 5, Table S1), molecular docking parameters (Table 3, Figure 6), and transformation efficiency data (Figures 1, 2, S1, S2, S3). No actual data values, statistical outputs, or images were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary files are referenced but not included. Raw qRT-PCR data, statistical analysis outputs, docking validation metrics, and detailed experimental protocols are not available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward overexpression study linking GmDREB7 to GmP5CS expression and proline accumulation in soybean under salt stress. The experimental design is conventional and the conclusions are modest. However, the evidence as described is largely correlative, and the molecular docking analysis is presented as confirmatory despite being purely computational. The claim of a direct regulatory interaction between DREB7 and the GmPCS promoter is not experimentally validated. The manuscript would benefit from additional loss-of-function or complementation experiments, and from direct binding assays such as EMSA or ChIP-qPCR. The text also contains redundancies and some unclear statements that reduce readability.
+- **Who would be interested in the results, and why** Researchers working on abiotic stress tolerance in crops, particularly those studying DREB transcription factors or proline metabolism in legumes. The work may also be of interest to soybean breeders targeting salt tolerance, though the translational relevance is limited by the lack of field data or yield measurements.
+- **Major strengths** The study addresses a relevant agronomic problem (salt stress in soybean) with a clear hypothesis. The use of four independent transgenic lines provides some biological replication. The inclusion of proline measurements as a physiological readout strengthens the phenotypic link. The molecular docking analysis, while not definitive, offers a plausible mechanistic hypothesis for DREB7 binding to the GmP5CS promoter.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence for direct regulation
+  - **Claim pointer** The authors state that "the DREB7 protein... can activate the transcription of GmP5CS" and that docking "confirmed the specific interaction between the DREB7 protein and the GmP5CS promoter."
+  - **Evidence pointer** Results section, "Docking between the AP2 region of the DREB7 protein and the promoter regions of the GmP5CS"; Discussion section
+  - **Concern** The claim of direct transcriptional regulation of GmP5CS by DREB7 is supported only by correlative expression data and a computational docking model. No experimental validation of the protein-DNA interaction (e.g., EMSA, yeast one-hybrid, ChIP) is provided. The docking results, while suggestive, cannot confirm functional binding in vivo.
+  - **Why it matters** The central mechanistic claim of the paper rests on this interaction. Without experimental confirmation, the conclusion that DREB7 directly activates GmP5CS is not established. The observed increase in GmP5CS expression could be indirect or due to other factors.
+  - **Resolution test** Provide experimental evidence of direct binding, such as EMSA with the DREB7 AP2 domain and the GmP5CS promoter fragment, or a transactivation assay in a heterologous system. Alternatively, the authors should temper the claim to state that DREB7 overexpression is associated with increased GmP5CS expression, without asserting direct regulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Phenotypic evidence of salt tolerance
+  - **Claim pointer** The title and abstract state that DREB7 "enhances salt tolerance in soybean plants under salt stress."
+  - **Evidence pointer** Results section, "Genetic transformation of the pBI121_GmDREB7 construct into soybean and creation of transgenic plants"; "Analysis of transgenic soybean lines"
+  - **Concern** The manuscript does not report any direct phenotypic measurements of salt tolerance, such as survival rates, growth parameters, chlorophyll content, or ion accumulation under salt stress. The only physiological readout is proline content, which is correlative and not a direct measure of tolerance.
+  - **Why it matters** The title and central claim of the paper are about enhanced salt tolerance. Without phenotypic data demonstrating improved performance under salt stress, the claim is not supported by the evidence presented.
+  - **Resolution test** Include data on plant growth, biomass, survival, or other physiological parameters under salt stress conditions for the transgenic lines compared to WT. If such data exist but are not described, they must be added to the manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The authors report significant differences in gene expression and proline content with P < 0.05.
+  - **Evidence pointer** Results section, "Analysis of transgenic soybean lines"; Statistical analyses section
+  - **Concern** The statistical methods are described only as "one-way variance method" with LSD and Duncan's test. No details on sample sizes, number of biological replicates, or how normality and homogeneity of variance were assessed are provided. The figures are not available for inspection, so it is unclear whether error bars represent standard deviation or standard error.
+  - **Why it matters** Without clear statistical reporting, the reliability of the claimed differences cannot be evaluated. This is particularly important given the small number of transgenic lines (four) and the variability often observed in plant transformation studies.
+  - **Resolution test** Provide full statistical details, including the number of replicates, the statistical model used, and the results of post-hoc tests. Ensure that all figures include appropriate error bars and significance indicators.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Introduction section
+  - **Issue** The sentence "In the previous study, the expression of the soybean DREB7 gene was analyzed, determining the association with two genes, RD29A and SODFe, in DREB7 transgenic tobacco plants under normal (untreated) and salt stress conditions" is repeated almost verbatim in the Discussion section. This redundancy should be removed.
+  - **Required correction** Delete the duplicate sentence in the Discussion and keep only the description in the Introduction or vice versa.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Results section, "Docking between the AP2 region of the DREB7 protein and the promoter regions of the GmP5CS"
+  - **Evidence pointer** Results section
+  - **Issue** The RMSD value of 6.0 Å is relatively high for a protein-DNA docking model and may indicate conformational variability rather than a single stable binding mode. The authors should discuss this and justify why this value is acceptable.
+  - **Required correction** Add a sentence explaining the significance of the RMSD value and why it supports the proposed binding model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Materials and methods, "Molecular docking analysis"
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The description of the docking protocol is incomplete. The software version, force field, and scoring function used are not specified. The generation of DNA models with "varying bend angles" is described but the range of angles and the rationale are not given.
+  - **Required correction** Provide full details of the docking software, parameters, and the range of DNA bend angles tested.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that "the activity of GmDREB7 gene produces DREB7 protein, which can activate the transcription of GmP5CS." This is presented as a conclusion, but the evidence is only correlative. The wording should be softened to reflect the speculative nature of this claim.
+  - **Required correction** Revise the sentence to read "the activity of GmDREB7 gene produces DREB7 protein, which may activate the transcription of GmP5CS" or similar.
+- **Technical failings that need to be addressed before the case is established** The lack of direct phenotypic evidence for salt tolerance (R1-M2) and the absence of experimental validation of the DREB7-GmP5CS promoter interaction (R1-M1) are the primary technical shortcomings. These must be addressed before the central claims of the manuscript can be considered established.
+- **Assessment against Nature-style criteria** Originality: The study is not highly original; DREB transcription factors and their role in stress tolerance have been extensively studied in multiple species. The specific focus on GmDREB7 in soybean is a modest incremental contribution. Scientific importance: The findings are of limited importance given the correlative nature of the evidence and the lack of phenotypic data. The potential application to breeding is mentioned but not demonstrated. Interdisciplinary readership: The work is unlikely to attract readers beyond the plant stress biology and soybean research communities. Technical soundness: The experimental design is generally sound, but the statistical reporting is incomplete and the docking analysis is overinterpreted. Readability for nonspecialists: The manuscript is generally readable but contains redundancies and some unclear passages that could be streamlined.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revisions, including the addition of phenotypic salt tolerance data and experimental validation of the proposed regulatory interaction, before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that DREB7 directly activates GmP5CS transcription is unsupported by experimental evidence; only correlative expression data and a computational docking model are provided.
+- The claim that DREB7 overexpression enhances salt tolerance is unsupported by direct phenotypic measurements; only proline content is reported.
+- The statement that "the validated transgenic lines TG1-5 and TG1-10 are promising candidates for the development of salt-tolerant soybean cultivars" is speculative and not supported by field or yield data.
+- The docking results are presented as confirmatory of a specific interaction, but the methodology is not fully described and the RMSD value raises questions about the stability of the proposed model.

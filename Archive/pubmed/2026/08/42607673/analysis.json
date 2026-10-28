@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42607673",
+  "title": "Interpretable biophysical neural networks of transcriptional activation domains separate roles of protein abundance and coactivator binding.",
+  "authors": "LeBlanc, Claire J; Agarwal, Pooja; Demaray, Jackson E; Hu, Gean; Zintel, Marissa A; Lam, Angelica W Y; Hernandez, Joel Enrique Castro; Staller, Max V",
+  "journal": "Cell systems",
+  "published_date": "2026-08-17",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释的浅层生物物理神经网络预测转录因子激活域，解析残基排列对共激活因子结合和蛋白丰度的调控，虽聚焦TF功能域而非TF-DNA结合，但方法可迁移至TF-DNA互作建模。",
+  "abstract": "Deep neural networks have improved many difficult prediction tasks in biology, but it remains challenging to interpret these networks and learn the molecular mechanisms. Here, we address interpretation challenges by building biophysical neural networks for predicting activation domains, the regions within transcription factors (TFs) that recruit coactivators to drive gene expression. Deep neural networks can now accurately predict acidic activation domains from protein sequences, but these predictors are difficult to interpret. We designed shallow neural networks that incorporated biophysical models and visualized the parameters directly. We found two ways that the arrangement of residues (i.e., sequence grammar) controls function: (1) C-terminal hydrophobic residues increase coactivator binding and decrease protein abundance, and (2) acidic residues at the N terminus promote coactivator binding, while acidic residues at the C terminus promote TF abundance. We demonstrate how combining biophysical and deep neural networks maximizes prediction accuracy and interpretability, revealing biological mechanisms across datasets. A record of this paper's transparent peer review process is included in the supplemental information.",
+  "abstract_zh": "深度神经网络已改善生物学中许多困难的预测任务，但解释这些网络并理解分子机制仍具挑战性。在此，我们通过构建生物物理神经网络来应对解释挑战，用于预测激活域，即转录因子（TFs）内招募共激活因子以驱动基因表达的区域。深度神经网络现能准确从蛋白质序列预测酸性激活域，但这些预测器难以解释。我们设计了整合生物物理模型的浅层神经网络，并直接可视化参数。我们发现残基排列（即序列语法）控制功能的两种方式：（1）C端疏水残基增加共激活因子结合并降低蛋白质丰度，（2）N端酸性残基促进共激活因子结合，而C端酸性残基促进TF丰度。我们展示了如何结合生物物理与深度神经网络以最大化预测准确性和可解释性，揭示跨数据集的生物学机制。本论文的透明同行评审过程记录包含在补充信息中。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42607673/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42607673/",
+  "paper_page_path": "papers/pubmed/42607673/index.html"
+}

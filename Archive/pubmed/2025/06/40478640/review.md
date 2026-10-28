@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, materials and methods, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the supplied text. Figures, tables, and supplementary materials are referenced but not directly inspected.
+- **Shared manuscript claim summary** The authors report a computational and experimental mapping of interactions among class IIa histone deacetylases (HDAC4, HDAC5, HDAC7, HDAC9) and myocyte enhancer factor 2 transcription factors (MEF2A-D). Using AlphaFold-based complex prediction, 500 ns all-atom molecular dynamics simulations (three replicas per complex), MM/GBSA binding free energy calculations, and surface plasmon resonance (SPR) binding experiments, they conclude that hydrophobic interactions dominate complex formation, that residues L66 and L67 in MEF2s are key contributors, that all interacting residues are conserved across MEF2s, and that class IIa HDAC-MEF2 complexes exhibit comparable nanomolar affinities.
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 1-6, Tables 1-3, and Supporting Information sections S1-S5 and Figures S1-S5. No actual figure panels, table data, or supplementary files were provided for inspection.
+- **Missing materials affecting confidence** All figures, tables, and supplementary information are referenced but not available. Specific numerical data (RMSD values, Rg values, MM/GBSA energies, SPR kinetic parameters, error estimates) are not provided in the text. The previous publication on HDAC7-MEF2A is cited but not available for comparison. Sequence alignment details and structural coordinates are not accessible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a biologically and therapeutically relevant question, namely the molecular basis of class IIa HDAC-MEF2 complex formation, and combines computational prediction with experimental validation. The study design is reasonable and the scope is comprehensive in covering all four class IIa HDACs and all four MEF2s. However, the current text does not provide sufficient quantitative evidence to fully evaluate the strength of the claims. Key data are relegated to figures and tables that were not available for review, and several methodological choices require additional justification. The claim of conservation of all interacting residues is stated but not demonstrated with an alignment figure or table in the visible text. The SPR experiments are described but the raw data, fitting quality, and statistical treatment are not shown. The manuscript is potentially publishable after major revision, provided the missing evidence is made available and the claims are appropriately qualified.
+- **Who would be interested in the results, and why** Researchers in structural biology, computational biophysics, and epigenetics would be interested in the mapping of HDAC-MEF2 interaction interfaces and the identification of conserved hot-spot residues. Investigators studying neuronal survival, neurodegeneration, and transcriptional regulation would value the experimental validation of binding affinities. The work may also be of interest to drug discovery groups targeting class IIa HDAC-MEF2 interactions for therapeutic intervention in neurodegenerative diseases.
+- **Major strengths** The study covers a complete matrix of class IIa HDAC-MEF2 combinations, which is a systematic and comprehensive approach. The combination of AlphaFold-based prediction, MD simulations, MM/GBSA calculations, and SPR validation is a strong multi-method strategy. The identification of conserved hydrophobic residues L66 and L67 across all MEF2s is a potentially important finding with mechanistic implications. The use of three independent replica simulations for each complex is a good practice for statistical robustness. The SPR experiments using purified proteins provide direct experimental evidence for binding.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that "hydrophobic interactions are the main mechanism for the formation of class IIa HDAC-MEF2 complexes" and that "L66 and L67 in all MEF2s mostly contribute to the hydrophobic interactions."
+  - **Evidence pointer** Results and Discussion, section "Contribution of Hydrophobic Interactions for the Formation of Class IIa HDAC-MEF2 Complexes"; Table 1; Figure 2 (location not provided)
+  - **Concern** The central claim of the manuscript rests on the identification and quantification of hydrophobic interactions, but the actual data are not visible in the text. Table 1 is referenced but not shown, and Figure 2 is not available. The reader cannot verify which residue pairs were identified, how occupancy or frequency was calculated, or how the conclusion that hydrophobic interactions dominate was reached. Without the actual table and figure data, the claim is not assessable.
+  - **Why it matters** This is the primary mechanistic conclusion of the study. If the data are not presented clearly and quantitatively, the core finding cannot be evaluated or reproduced by the community.
+  - **Resolution test** Provide Table 1 with complete residue pair lists, interaction frequencies or occupancies, and a clear definition of how "main mechanism" was determined. Show Figure 2 with residue positions mapped onto representative structures. Include a quantitative comparison of the number of hydrophobic contacts versus hydrogen bonds and salt bridges across all complexes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that "All residues that establish hydrophobic interactions, hydrogen bonding, and salt bridges are conserved in all MEF2s."
+  - **Evidence pointer** Results and Discussion, section "Contribution of Hydrophobic Interactions for the Formation of HDAC-MEF2 Complexes"; Figure 2A (location not provided)
+  - **Concern** This is a strong and general claim, but the supporting evidence is not visible. Figure 2A is referenced as showing conservation, but the figure is not provided. The text does not show a sequence alignment, a conservation score, or a statistical test. The claim of full conservation across all MEF2s is absolute and requires explicit demonstration.
+  - **Why it matters** Conservation of interacting residues is a key finding that supports the generalizability of the interaction mechanism across the MEF2 family. If the claim is overstated or not properly demonstrated, it could mislead subsequent studies.
+  - **Resolution test** Provide a multiple sequence alignment figure or table showing the conservation of all identified interacting residues across MEF2A, MEF2B, MEF2C, and MEF2D. State the alignment method and the source of sequences. If any residue is not fully conserved, revise the claim accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological justification
+  - **Claim pointer** The authors used truncated class IIa HDAC regions for complex prediction and MD simulations, based on their previous HDAC7-MEF2A study and sequence conservation.
+  - **Evidence pointer** Materials and Methods, "System Preparation"; Results and Discussion, section "Predicted Class IIa HDAC-MEF2 Complexes and Their Stability"
+  - **Concern** The truncation of class IIa HDACs to short peptides (e.g., HDAC7 residues K76-N108, HDAC4 G161-K184, HDAC5 S173-K196, HDAC9 G133-K158) is a significant methodological choice. The text states that full-length complexes were first generated and then truncated, but the rationale for the specific boundaries is not fully explained. The authors note that the chosen ranges are "well within" a previously reported range, but the functional relevance of these truncated regions is not discussed. The possibility that other regions of class IIa HDACs contribute to MEF2 binding is not addressed.
+  - **Why it matters** If the truncated regions do not fully recapitulate the native binding interface, the predicted interaction maps and affinities may not reflect the biologically relevant complexes. The validity of the entire computational pipeline depends on this choice.
+  - **Resolution test** Provide a clear justification for the truncation boundaries, including sequence alignment evidence and structural rationale. Discuss whether the omitted regions of class IIa HDACs could contribute to MEF2 binding. If possible, include a control simulation with a longer HDAC construct for at least one complex.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data availability
+  - **Claim pointer** The authors report MM/GBSA binding free energies showing "comparable binding affinities" across complexes, and SPR-derived KD values ranging from 3.5 nM to 19.1 nM.
+  - **Evidence pointer** Results and Discussion, section "Binding Affinities of Class IIa HDAC-MEF2 Interactions"; Table 2; Figure 5 (location not provided)
+  - **Concern** The actual numerical values of the MM/GBSA binding free energies are not provided in the text. Table 2 is referenced but not shown. The SPR KD values are given as a range, but individual values, standard deviations, and the number of independent experiments are not stated in the visible text. The quality of the SPR fits is not shown. Without these data, the claim of comparable affinities cannot be assessed.
+  - **Why it matters** The quantitative comparison of binding affinities is a central result that bridges the computational and experimental parts of the study. The reader needs the actual values to evaluate the strength of the conclusion.
+  - **Resolution test** Provide Table 2 with all MM/GBSA values (mean ± standard deviation) for each complex. Provide a table or figure with individual SPR ka, kd, and KD values for each HDAC-MEF2A pair, including standard deviations and the number of replicates. Show representative sensorgrams with fits and residual plots.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation scope
+  - **Claim pointer** The authors state that SPR experiments "validated the class IIa HDAC-MEF2A binding experimentally" and that this provides confidence in the computational results.
+  - **Evidence pointer** Results and Discussion, section "Surface Plasmon Resonance (SPR) Validations"; Figure 5 (location not provided)
+  - **Concern** SPR experiments were performed only with MEF2A, not with MEF2B, MEF2C, or MEF2D. The authors justify this by the conservation of interacting residues, but this is an extrapolation. The claim of validation is therefore limited to MEF2A. The text should be more careful in distinguishing between validation of the specific HDAC-MEF2A interactions and the broader claim of all class IIa HDAC-MEF2 complexes.
+  - **Why it matters** The title and abstract imply a comprehensive mapping of all class IIa HDAC-MEF2 interactions. If experimental validation is only for MEF2A, the scope of the claim should be adjusted or additional experiments should be performed.
+  - **Resolution test** Revise the language to clearly state that SPR validation was performed for MEF2A only. Alternatively, perform SPR experiments with at least one additional MEF2 family member to strengthen the generalizability claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The first sentence of the abstract is a fragment and lacks a main verb. It reads as an incomplete sentence.
+  - **Required correction** Rewrite as a complete sentence, for example, "Myocyte enhancer factor 2 (MEF2) transcription factors regulate several developmental programs, including the control of neural crest development, neuronal differentiation, and neuronal survival."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, "MD Simulations"
+  - **Evidence pointer** Materials and Methods, "MD Simulations"
+  - **Issue** The text states that "three independent replica runs" were performed for each complex, but the initial velocities or random seeds used for the replicas are not described. The method for generating independent replicas is not specified.
+  - **Required correction** Specify how the three replicas were generated (e.g., different initial velocities, different random seeds for Langevin dynamics).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results and Discussion, "Surface Plasmon Resonance (SPR) Validations"
+  - **Evidence pointer** Results and Discussion, section "Surface Plasmon Resonance (SPR) Validations"
+  - **Issue** The text states that experiments were repeated three times and values are given as mean ± standard deviation, but the number of independent experiments and the number of technical replicates per experiment are not clearly distinguished.
+  - **Required correction** Clarify the experimental design, stating how many independent experiments were performed and how many technical replicates were included in each.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results and Discussion, section "Binding Affinities of Class IIa HDAC-MEF2 Interactions"
+  - **Evidence pointer** Results and Discussion, section "Binding Affinities of Class IIa HDAC-MEF2 Interactions"
+  - **Issue** The text states that MM/GBSA binding free energy values are "generally overestimated" but does not provide a reference for this statement or a discussion of the limitations of the MM/GBSA approach in this context.
+  - **Required correction** Add a brief discussion of the known limitations of MM/GBSA and cite appropriate references.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions, final paragraph
+  - **Issue** The conclusion states that "inhibition of class IIa HDAC-MEF2 complex formation can help develop new therapeutics to combat neurodegenerative diseases." This is a reasonable speculation, but it is not directly supported by the data presented in this study, which focuses on mapping interactions rather than testing inhibition.
+  - **Required correction** Soften the statement to indicate that the mapped interactions could inform future therapeutic development, rather than implying a direct therapeutic claim.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of visible quantitative data. All key results are in figures and tables that were not provided. The manuscript cannot be fully evaluated without these data. Additionally, the truncation of class IIa HDACs requires stronger justification, and the claim of full conservation of interacting residues needs explicit demonstration. The SPR validation is limited to MEF2A, and the text should be adjusted accordingly.
+- **Assessment against Nature-style criteria** 
+  - Originality: The systematic mapping of all class IIa HDAC-MEF2 pairs is a novel contribution, though it builds on prior work by the same group on HDAC7-MEF2A. The identification of conserved hydrophobic hot-spot residues is potentially original.
+  - Scientific importance: The HDAC-MEF2 interaction is biologically significant in neuronal development and survival, and the findings could inform therapeutic strategies for neurodegeneration. The importance is moderate to high.
+  - Interdisciplinary readership: The work bridges computational biophysics, structural biology, and neurobiology. It would appeal to a specialized audience rather than a broad interdisciplinary readership.
+  - Technical soundness: The computational methods are standard and appropriate, but the lack of visible data prevents full assessment. The SPR experiments are described but not shown. The truncation strategy requires additional justification.
+  - Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with MD simulations, MM/GBSA, and SPR. It would be challenging for nonspecialists to follow without additional context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has merit and the multi-method approach is commendable, but the current manuscript does not provide sufficient visible evidence to establish the central claims. The authors must provide the missing data, strengthen the justification for the truncation strategy, and qualify the scope of the experimental validation.
+
+## Risk / unsupported claims
+- The claim that "hydrophobic interactions are the main mechanism for the formation of class IIa HDAC-MEF2 complexes" is not assessable without Table 1 and Figure 2.
+- The claim that "L66 and L67 in all MEF2s mostly contribute to the hydrophobic interactions" is not assessable without the underlying data.
+- The claim that "All residues that establish hydrophobic interactions, hydrogen bonding, and salt bridges are conserved in all MEF2s" is not demonstrated in the visible text.
+- The claim of "comparable binding affinities" across complexes is not assessable without the MM/GBSA values in Table 2.
+- The SPR-derived KD range of 3.5 nM to 19.1 nM is stated but individual values, errors, and experimental details are not visible.
+- The statement that "the class IIa HDAC-MEF2 complexes exhibit comparable binding affinities" is an extrapolation from MEF2A-only SPR experiments to all MEF2s, which is not directly supported.
+- The conclusion that inhibition of class IIa HDAC-MEF2 complex formation "can help develop new therapeutics" is speculative and not directly supported by the data presented.

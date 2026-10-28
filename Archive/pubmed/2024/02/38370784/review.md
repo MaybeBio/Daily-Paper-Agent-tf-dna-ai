@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) for a preprint posted on bioRxiv.
+- **Assessment boundary** Scientific content, methodology, data interpretation, and internal consistency of the claims as presented. No assessment of editorial fit for a specific journal.
+- **Shared manuscript claim summary** The authors propose that the topology of transcription factor interaction networks, inferred from single-cell RNA sequencing of patient-derived glioma stem-like cells, governs whether cells exhibit primary or acquired resistance to the cytotoxic drug pitavastatin. They further claim that this network topology can be used to predict and validate sequential combinatorial treatments that potentiate killing of resistant cells.
+- **Visible evidence base** Abstract, full introduction, full results section, full discussion, full methods section, figure legends (referenced but figures not provided), supplementary figure legends (referenced but not provided), supplementary tables (referenced but not provided).
+- **Missing materials affecting confidence** All figures and supplementary figures; all supplementary tables; raw sequencing data; details of patient clinical characteristics; exact statistical outputs for key comparisons; details of the RACIPE simulation parameters beyond those described; validation data for the scSYGNAL network inference.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and ambitious systems biology framework that integrates single-cell transcriptomics, network inference, and dynamical modeling to understand drug resistance in glioblastoma stem-like cells. The central hypothesis, that network topology rather than initial cell state composition determines treatment escape trajectories, is conceptually important and potentially transformative. The combination of computational prediction with experimental validation (siRNA knockdowns, drug sequencing) is a strength. However, the manuscript as presented has several significant gaps that prevent full evaluation of the claims. The absence of all figures and supplementary materials makes it impossible to assess the quality of the data, the robustness of the computational analyses, or the strength of the statistical support. Several methodological details are under-specified, and the generalizability of the findings beyond two cell lines is not established. The distinction between "responder" and "non-responder" phenotypes, while operationally defined, requires deeper mechanistic validation to support the strong claims about network topology as the primary determinant.
+- **Who would be interested in the results, and why** Cancer biologists studying drug resistance and tumor heterogeneity, computational biologists developing network inference and dynamical modeling tools, neuro-oncologists interested in glioblastoma treatment strategies, and researchers studying non-genetic mechanisms of therapy escape. The framework proposed could be applicable beyond glioblastoma to other cancers where phenotypic plasticity drives resistance.
+- **Major strengths**
+  1. The conceptual framing that network topology, rather than pre-existing cell state frequencies, determines treatment escape trajectories is novel and shifts the focus from static biomarkers to dynamic regulatory architecture.
+  2. The integration of multiple computational approaches (scSYGNAL, RACIPE, pseudotime, critical transition index) with experimental validation is methodologically rigorous in principle.
+  3. The demonstration that sequential, rather than simultaneous, drug administration is critical for efficacy, based on mechanistic understanding of transition states, has direct translational relevance.
+  4. The use of patient-derived cells rather than established cell lines enhances clinical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that "drug treatment drives surviving PD-GSCs along a trajectory of intermediate states, exposing vulnerability to potentiated killing by siRNA or a second drug."
+  - **Evidence pointer** Figures 6G, 6H, 7D; supplementary figures S15, S16; location not provided for specific data points
+  - **Concern** The central experimental validation of the model predictions, namely the siRNA knockdown experiments and the sequential drug treatment data, cannot be evaluated because the figures are not included in the provided material. The text states that nine TFs were validated but provides no quantitative data, no statistical analysis, and no representation of the magnitude of the potentiation effect. Without these data, the core claim that network topology can be leveraged to predict effective interventions is unsubstantiated.
+  - **Why it matters** The entire translational relevance of the study rests on these validation experiments. If the potentiation effects are small, variable, or only observed under narrow conditions, the claims of a generalizable framework are weakened. The reader cannot assess effect sizes, reproducibility, or the specificity of the knockdown effects.
+  - **Resolution test** Provide all figures with complete data, including individual data points, statistical tests used, effect sizes, and confidence intervals. Include positive and negative controls for the knockdown experiments. Show dose-response curves for the sequential drug treatments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript claims that "the topology of the core TF-TF network governed phenotypic plasticity of GSCs" and that this was determined through "inference of mechanistic transcriptional regulatory networks at single-cell resolution."
+  - **Evidence pointer** Methods section "MINER network inference"; Figures 4A, 4D, 4E, 4F
+  - **Concern** The scSYGNAL/MINER methodology is described at a high level, but critical details are missing. The text states that regulons were identified based on "co-expression clustering and enrichment of transcription factor binding motifs," but does not specify the exact statistical thresholds, the number of motifs tested, the background model used for enrichment, or how the final core network was selected from the larger set of inferred regulons. The criteria for including or excluding TFs from the core network are not stated. The permutation tests for network significance are described, but the results are not shown.
+  - **Why it matters** Network inference from single-cell data is notoriously sensitive to preprocessing choices, thresholds, and algorithmic parameters. Without full transparency, the reader cannot assess whether the inferred networks are robust or artifacts of the specific pipeline. The claim that network topology is the key determinant requires confidence that the inferred topology is accurate.
+  - **Resolution test** Provide a detailed step-by-step description of the network inference pipeline, including all parameters, thresholds, and filtering criteria. Show the full network diagrams with all nodes and edges labeled. Provide sensitivity analyses demonstrating that the core network topology is stable across reasonable parameter variations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript claims that "our findings demonstrate an approach to uncover TF network topology and use it to rationally predict combinatorial treatments that disrupts acquired resistance in GBM" and discusses "partial generalizability" to other PD-GSCs.
+  - **Evidence pointer** Results section "Pitavastatin treatment induces distinct responses in SN520 and SN503 PD-GSCs"; Figure 1A; supplementary table S14
+  - **Concern** The study is based on two PD-GSC lines, one responder and one non-responder. The text mentions that the pitavastatin-vinflunine combination was tested on additional PD-GSCs (SN533, SN575, SN517, SN521), but the results are only summarized in a supplementary table that is not provided. The claim of generalizability is therefore not supported by visible data. Furthermore, the mechanistic basis for why some PD-GSCs are responders and others non-responders is not explored beyond the network topology difference.
+  - **Why it matters** For the framework to be clinically useful, it must apply across a range of patient tumors. If the combination therapy only works in a subset of PD-GSCs with specific network features, the authors need to define those features and provide a predictive biomarker. The current data do not allow this assessment.
+  - **Resolution test** Provide the full data for all PD-GSC lines tested, including dose-response curves, combination indices, and network topologies. If possible, include additional PD-GSC lines to broaden the sample. Discuss the range of network topologies observed across a larger panel of PD-GSCs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic depth
+  - **Claim pointer** The manuscript claims that "it wasn't the composition of initial cell states, but the topology of the core TF-TF network that governed phenotypic plasticity of GSCs."
+  - **Evidence pointer** Results section "Trajectory analysis and network simulations"; Figures 5A, 5B, 6A, 6B
+  - **Concern** The distinction between "composition of initial cell states" and "network topology" is not fully dissected. The authors show that SN520 and SN503 have different network topologies and different responses to pitavastatin, but they do not directly test whether the initial cell state composition alone (without considering network topology) would predict the observed outcomes. The RACIPE simulations are used to show that network topology can generate the observed states, but this does not exclude the possibility that initial state composition is equally or more important.
+  - **Why it matters** The claim that topology is the key determinant is strong and has implications for how to stratify patients. If initial state composition is also important, the framework becomes more complex. The authors need to directly compare the predictive power of topology versus initial state composition.
+  - **Resolution test** Perform a formal comparison, e.g., using statistical models that include both initial state composition and network topology as predictors of treatment outcome. Alternatively, perturb the initial state composition experimentally (e.g., by enriching for specific subpopulations) and show that the network topology still determines the outcome.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that "knockdowns in nine TFs (5/10 predicted), including ATF3, IRF1, CREB3, CREB5, and CEBPG, significantly potentiated pitavastatin killing of SN520."
+  - **Evidence pointer** Figure 6G; location not provided for statistical details
+  - **Concern** The statistical analysis of the knockdown experiments is not described. The text states that potentiation was "significant" but does not specify the statistical test used, the number of biological replicates, the correction for multiple comparisons, or the effect sizes. Given that 10 TFs were tested, the issue of multiple testing is particularly relevant.
+  - **Why it matters** Without proper statistical reporting, the reader cannot assess the reliability of the findings. The claim that 5 out of 10 predicted TFs were validated could be consistent with chance if the statistical thresholds are not appropriate.
+  - **Resolution test** Provide full statistical details for all knockdown experiments, including the test used, the number of replicates, the multiple testing correction method, and the effect sizes with confidence intervals. Consider reporting the false discovery rate.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that "Poor prognosis and drug resistance in glioblastoma (GBM) can result from cellular heterogeneity and treatment-induced shifts in phenotypic states of tumor cells, including dedifferentiation into glioma stem-like cells (GSCs)." This is a broad claim that is not specifically tested in the manuscript.
+  - **Required correction** Consider rephrasing to focus on what the study actually demonstrates, e.g., "In this study, we investigate how cellular heterogeneity and treatment-induced phenotypic shifts contribute to drug resistance in patient-derived glioma stem-like cells."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "Pitavastatin treatment induces distinct responses in SN520 and SN503 PD-GSCs"
+  - **Issue** The terms "responder" and "non-responder" are used to classify PD-GSCs based on IC50 values, but the clinical relevance of these categories is not defined. A PD-GSC with an IC50 of 5 μM might still be considered sensitive in a clinical context.
+  - **Required correction** Define the operational criteria for "responder" and "non-responder" more precisely, and discuss the relationship between in vitro IC50 values and clinically achievable drug concentrations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, "scRNA-seq library prep and sequencing"
+  - **Issue** The methods state that scATAC-seq was performed, but no results from this assay are presented or discussed in the manuscript.
+  - **Required correction** Either present the scATAC-seq data and its relevance to the findings, or remove the mention from the methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 4
+  - **Issue** The discussion states that "the bottleneck effect generated by drug treatment can be exploited to minimize or prevent drug-induced transitions and therapy escape of GSCs." This is an interesting hypothesis, but it is not directly tested in the manuscript.
+  - **Required correction** Clarify that this is a speculative interpretation of the findings, and suggest specific experiments that could test this hypothesis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and Materials Availability
+  - **Evidence pointer** Data and Materials Availability section
+  - **Issue** The statement "All data needed to evaluate the conclusions in the paper are present in the paper and/or Supplementary Materials" is not verifiable because the supplementary materials are not provided.
+  - **Required correction** Ensure that all supplementary materials are made available for review, and consider depositing the code used for network inference and simulations in a public repository.
+
+## Risk / unsupported claims
+- The claim that "network topology, not initial cell state composition, governs phenotypic plasticity" is not fully supported because the two factors are not directly compared.
+- The claim that "drug treatment drives surviving PD-GSCs along a trajectory of intermediate states, exposing vulnerability" is not supported by visible data because the relevant figures are missing.
+- The claim that "knockdowns in nine TFs significantly potentiated pitavastatin killing" is not supported by visible data because the relevant figures and statistical details are missing.
+- The claim of "partial generalizability" to other PD-GSCs is not supported because the data for those additional lines are only in a supplementary table that is not provided.
+- The mechanistic link between specific network topology features and the observed treatment outcomes is asserted but not systematically explored.

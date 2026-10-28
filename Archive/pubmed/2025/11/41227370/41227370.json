@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "41227370",
+    "doi": "10.3390/cells14211725",
+    "title": "Desloratadine Induces TP53-Dependent Apoptosis in MCF-7 Breast Cancer Cells."
+  },
+  "content": {
+    "abstract": "Breast cancer remains a leading cause of mortality among women despite advances in early detection and targeted therapies, underscoring the need for safer and more effective treatment options. Drug repurposing offers a promising strategy by leveraging existing pharmacological agents with established safety profiles. Desloratadine, a second-generation H1-histamine receptor antagonist widely prescribed for allergic conditions, has attracted interest in oncology because histamine signaling influences proliferation, angiogenesis, and immune responses, yet its anticancer potential remains poorly understood. In this study, we investigated its effects in MCF-7 breast cancer cells, which harbor wild-type TP53. Desloratadine inhibited cell viability in a dose-dependent manner, with an IC(50) of 14.2 microg/mL. Mechanistic analyses revealed that growth inhibition was primarily mediated through apoptosis, confirmed by Hoechst 33342 staining, ROS generation, annexin V/PI staining, and caspase-dependent pathways. Gene expression profiling demonstrated upregulation of TP53, FAS, and BAX, alongside reduced PARP-1 and NF-kappaB expression, with no detectable STAT3 or BCL2 expression. Flow cytometry indicated accumulation of cells in the sub-G(1) phase and G(2)/M arrest, consistent with apoptosis induction. Molecular docking further supported these findings, showing that Desloratadine binds with high affinity to p53 (-7.0 kcal/mol), FAS (-6.8 kcal/mol), and NF-kappaB (-6.5 kcal/mol), forming stabilizing hydrogen bonds and hydrophobic interactions aligned with the observed gene expression changes. To confirm the functional role of TP53, we generated CRISPR-Cas9 knockout MCF-7 cells. Compared with wild-type cells, these knockout cells displayed markedly reduced sensitivity to Desloratadine, with the IC(50) shifting from 14.2 microg/mL to 36.4 microg/mL, demonstrating that p53 is a key mediator of the drug's cytotoxic effect. Collectively, these findings identify Desloratadine as a potential repurposed drug candidate for breast cancer therapy, acting at least in part through a p53-dependent apoptotic pathway.",
+    "keywords": [
+      "TP53 gene",
+      "apoptosis",
+      "breast cancer",
+      "desloratadine",
+      "drug repurpose"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Loratadine/analogs & derivatives/pharmacology",
+      "*Apoptosis/drug effects",
+      "MCF-7 Cells",
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "*Breast Neoplasms/pathology/metabolism/drug therapy/genetics",
+      "Female",
+      "Cell Proliferation/drug effects",
+      "Cell Survival/drug effects",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kabir, Syed Rashel",
+        "Abdullah, Taufique",
+        "Azam, Gausul",
+        "Molla, Tamzid Hossain",
+        "Ali, Hasan",
+        "Miah, Mojnu",
+        "Alam, Mohammad Taufiq",
+        "Miah, Sayem"
+      ],
+      "short_names": [
+        "Kabir SR",
+        "Abdullah T",
+        "Azam G",
+        "Molla TH",
+        "Ali H",
+        "Miah M",
+        "Alam MT",
+        "Miah S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5708-014X",
+        "ORCID: 0009-0009-1383-2272",
+        "ORCID: 0009-0006-2836-1686",
+        "ORCID: 0009-0008-8649-1352",
+        "ORCID: 0000-0002-5901-5181"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi 6025, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi 6025, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi 6025, Bangladesh.",
+        "Department of Applied Chemistry and Chemical Engineering, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi 6025, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, College of Medicine, Winthrop P. Rockefeller Cancer Institute (WPRCI), University of Arkansas for Medical Sciences (UAMS), Little Rock, AR 72205, USA.",
+        "Department of Applied Chemistry and Chemical Engineering, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, College of Medicine, Winthrop P. Rockefeller Cancer Institute (WPRCI), University of Arkansas for Medical Sciences (UAMS), Little Rock, AR 72205, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kabir, Syed Rashel",
+        "short_name": "Kabir SR",
+        "identifiers": [
+          "0000-0002-5708-014X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi 6025, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Abdullah, Taufique",
+        "short_name": "Abdullah T",
+        "identifiers": [
+          "0009-0009-1383-2272"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi 6025, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Azam, Gausul",
+        "short_name": "Azam G",
+        "identifiers": [
+          "0009-0006-2836-1686"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi 6025, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Molla, Tamzid Hossain",
+        "short_name": "Molla TH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Chemistry and Chemical Engineering, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ali, Hasan",
+        "short_name": "Ali H",
+        "identifiers": [
+          "0009-0008-8649-1352"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi 6025, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Miah, Mojnu",
+        "short_name": "Miah M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Medicine, Winthrop P. Rockefeller Cancer Institute (WPRCI), University of Arkansas for Medical Sciences (UAMS), Little Rock, AR 72205, USA."
+        ]
+      },
+      {
+        "full_name": "Alam, Mohammad Taufiq",
+        "short_name": "Alam MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Chemistry and Chemical Engineering, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Miah, Sayem",
+        "short_name": "Miah S",
+        "identifiers": [
+          "0000-0002-5901-5181"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Medicine, Winthrop P. Rockefeller Cancer Institute (WPRCI), University of Arkansas for Medical Sciences (UAMS), Little Rock, AR 72205, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2025 Nov 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/13 06:29",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39698277",
+      "39596504",
+      "39354464",
+      "39337436",
+      "38729160",
+      "38542202",
+      "38245798",
+      "38160476",
+      "37452991",
+      "36479072",
+      "36084384",
+      "35618812",
+      "34582909",
+      "34440093",
+      "34439898",
+      "32203277",
+      "31586028",
+      "31548545",
+      "31022952",
+      "30667505",
+      "30310233",
+      "29548821",
+      "29225688",
+      "25961682",
+      "23965901",
+      "23719265",
+      "23268457",
+      "22787161",
+      "22328315",
+      "22195040",
+      "21622113",
+      "19782763",
+      "19046439",
+      "17932461",
+      "15564772",
+      "15286734",
+      "12962522",
+      "12169040",
+      "11641442",
+      "11424898"
+    ],
+    "similar": [
+      "41227370",
+      "41995262",
+      "41310342",
+      "15583825",
+      "32715386",
+      "40780124",
+      "14767544",
+      "30458268",
+      "17028990",
+      "35056723",
+      "40992267",
+      "42587827",
+      "26521020",
+      "35274824",
+      "27994519",
+      "28068628",
+      "32685475",
+      "26556313",
+      "30259331",
+      "22147197",
+      "24142726",
+      "20718753",
+      "41504053",
+      "39506445",
+      "40649817",
+      "21544805",
+      "39305332",
+      "30119256",
+      "41774315",
+      "35346647",
+      "40634638",
+      "41610671",
+      "41904818",
+      "26154521",
+      "23023313",
+      "41508180",
+      "41679479",
+      "22751989",
+      "26169986",
+      "29734849",
+      "21040738",
+      "40352177",
+      "35291987",
+      "30221528",
+      "22527937",
+      "39216194",
+      "24647156",
+      "15870086",
+      "38837975",
+      "39805861",
+      "21776823",
+      "39542411",
+      "42530251",
+      "40301390",
+      "22761954",
+      "23152798",
+      "42227391",
+      "41486543",
+      "22392074",
+      "41285842",
+      "32505820",
+      "25523932",
+      "24205071",
+      "41155667",
+      "33925065",
+      "41570584",
+      "33048613",
+      "42386053",
+      "40583489",
+      "29141543",
+      "31128995",
+      "41147600",
+      "41721902",
+      "34626309",
+      "42165934",
+      "33166925",
+      "40753129",
+      "42333762",
+      "22792212",
+      "32406319",
+      "9581828",
+      "37862230",
+      "34486340",
+      "27989600",
+      "31450828",
+      "42177275",
+      "31454995",
+      "27821721",
+      "25834401",
+      "11786482",
+      "26585176",
+      "33999319",
+      "38821617",
+      "36495389",
+      "27358555",
+      "36374307",
+      "33360419",
+      "39541924",
+      "23451128",
+      "15657900"
+    ],
+    "review": [
+      "41227370"
+    ],
+    "pmc": [
+      "12609754"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells14211725",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41227370/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41227370",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

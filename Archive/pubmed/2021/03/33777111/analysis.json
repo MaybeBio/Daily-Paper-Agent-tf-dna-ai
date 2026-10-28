@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33777111",
+  "title": "Deep Learning Reveals Key Immunosuppression Genes and Distinct Immunotypes in Periodontitis.",
+  "authors": "Ning, Wanchen; Acharya, Aneesha; Sun, Zhengyang; Ogbuehi, Anthony Chukwunonso; Li, Cong; Hua, Shiting; Ou, Qianhua; Zeng, Muhui; Liu, Xiangqiong; Deng, Yupei; Haak, Rainer; Ziebolz, Dirk; Schmalz, Gerhard; Pelekos, George; Wang, Yang; Hu, Xianda",
+  "journal": "Frontiers in genetics",
+  "published_date": "2021-03-30",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习自编码器识别牙周炎免疫抑制基因和免疫亚型，虽涉及转录因子-靶基因网络分析，但核心是基因表达分型而非蛋白质-DNA互作建模，方法为组学数据降维分类，无三维结构或结合机制研究。",
+  "abstract": "BACKGROUND: Periodontitis is a chronic immuno-inflammatory disease characterized by inflammatory destruction of tooth-supporting tissues. Its pathogenesis involves a dysregulated local host immune response that is ineffective in combating microbial challenges. An integrated investigation of genes involved in mediating immune response suppression in periodontitis, based on multiple studies, can reveal genes pivotal to periodontitis pathogenesis. Here, we aimed to apply a deep learning (DL)-based autoencoder (AE) for predicting immunosuppression genes involved in periodontitis by integrating multiples omics datasets. METHODS: Two periodontitis-related GEO transcriptomic datasets (GSE16134 and GSE10334) and immunosuppression genes identified from DisGeNET and HisgAtlas were included. Immunosuppression genes related to periodontitis in GSE16134 were used as input to build an AE, to identify the top disease-representative immunosuppression gene features. Using K-means clustering and ANOVA, immune subtype labels were assigned to disease samples and a support vector machine (SVM) classifier was constructed. This classifier was applied to a validation set (Immunosuppression genes related to periodontitis in GSE10334) for predicting sample labels, evaluating the accuracy of the AE. In addition, differentially expressed genes (DEGs), signaling pathways, and transcription factors (TFs) involved in immunosuppression and periodontitis were determined with an array of bioinformatics analysis. Shared DEGs common to DEGs differentiating periodontitis from controls and those differentiating the immune subtypes were considered as the key immunosuppression genes in periodontitis. RESULTS: We produced representative molecular features and identified two immune subtypes in periodontitis using an AE. Two subtypes were also predicted in the validation set with the SVM classifier. Three \"master\" immunosuppression genes, PECAM1, FCGR3A, and FOS were identified as candidates pivotal to immunosuppressive mechanisms in periodontitis. Six transcription factors, NFKB1, FOS, JUN, HIF1A, STAT5B, and STAT4, were identified as central to the TFs-DEGs interaction network. The two immune subtypes were distinct in terms of their regulating pathways. CONCLUSION: This study applied a DL-based AE for the first time to identify immune subtypes of periodontitis and pivotal immunosuppression genes that discriminated periodontitis from the healthy. Key signaling pathways and TF-target DEGs that putatively mediate immune suppression in periodontitis were identified. PECAM1, FCGR3A, and FOS emerged as high-value biomarkers and candidate therapeutic targets for periodontitis.",
+  "abstract_zh": "背景：牙周炎是一种慢性免疫炎症性疾病，其特征是牙周支持组织的炎症性破坏。其发病机制涉及局部宿主免疫反应失调，无法有效对抗微生物挑战。基于多项研究，对参与牙周炎免疫反应抑制介导的基因进行综合调查，可以揭示对牙周炎发病机制至关重要的基因。在此，我们旨在应用基于深度学习（DL）的自编码器（AE），通过整合多组学数据集来预测参与牙周炎的免疫抑制基因。方法：纳入了两个与牙周炎相关的GEO转录组数据集（GSE16134和GSE10334），以及从DisGeNET和HisgAtlas中鉴定的免疫抑制基因。使用GSE16134中与牙周炎相关的免疫抑制基因作为输入构建AE，以识别最具疾病代表性的免疫抑制基因特征。通过K均值聚类和方差分析（ANOVA），为疾病样本分配免疫亚型标签，并构建支持向量机（SVM）分类器。将该分类器应用于验证集（GSE10334中与牙周炎相关的免疫抑制基因）以预测样本标签，评估AE的准确性。此外，通过一系列生物信息学分析，确定了参与免疫抑制和牙周炎的差异表达基因（DEGs）、信号通路和转录因子（TFs）。将区分牙周炎与对照组的DEGs与区分免疫亚型的DEGs共有的DEGs视为牙周炎中的关键免疫抑制基因。结果：我们生成了代表性的分子特征，并使用AE鉴定了牙周炎中的两种免疫亚型。在验证集中也使用SVM分类器预测了两种亚型。三个“主控”免疫抑制基因PECAM1、FCGR3A和FOS被确定为牙周炎免疫抑制机制的关键候选基因。六个转录因子NFKB1、FOS、JUN、HIF1A、STAT5B和STAT4被确定为TFs-DEGs相互作用网络的核心。两种免疫亚型在调控通路方面存在显著差异。结论：本研究首次应用基于DL的AE来鉴定牙周炎的免疫亚型以及区分牙周炎与健康状态的关键免疫抑制基因。鉴定了可能介导牙周炎免疫抑制的关键信号通路和TF靶向DEGs。PECAM1、FCGR3A和FOS成为牙周炎的高价值生物标志物和候选治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33777111/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33777111/",
+  "paper_page_path": "papers/pubmed/33777111/index.html"
+}

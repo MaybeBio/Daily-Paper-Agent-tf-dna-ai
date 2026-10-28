@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "34994603",
+    "doi": "10.1200/PO.20.00176",
+    "title": "Training, Validation, and Test of Deep Learning Models for Classification of Receptor Expressions in Breast Cancers From Mammograms."
+  },
+  "content": {
+    "abstract": "PURPOSE: The molecular subtype of breast cancer is an important component of establishing the appropriate treatment strategy. In clinical practice, molecular subtypes are determined by receptor expressions. In this study, we developed a model using deep learning to determine receptor expressions from mammograms. METHODS: A developing data set and a test data set were generated from mammograms from the affected side of patients who were pathologically diagnosed with breast cancer from January 2006 through December 2016 and from January 2017 through December 2017, respectively. The developing data sets were used to train and validate the DL-based model with five-fold cross-validation for classifying expression of estrogen receptor (ER), progesterone receptor (PgR), and human epidermal growth factor receptor 2-neu (HER2). The area under the curves (AUCs) for each receptor were evaluated with the independent test data set. RESULTS: The developing data set and the test data set included 1,448 images (997 ER-positive and 386 ER-negative, 641 PgR-positive and 695 PgR-negative, and 220 HER2-enriched and 1,109 non-HER2-enriched) and 225 images (176 ER-positive and 40 ER-negative, 101 PgR-positive and 117 PgR-negative, and 53 HER2-enriched and 165 non-HER2-enriched), respectively. The AUC of ER-positive or -negative in the test data set was 0.67 (0.58-0.76), the AUC of PgR-positive or -negative was 0.61 (0.53-0.68), and the AUC of HER2-enriched or non-HER2-enriched was 0.75 (0.68-0.82). CONCLUSION: The DL-based model effectively classified the receptor expressions from the mammograms. Applying the DL-based model to predict breast cancer classification with a noninvasive approach would have additive value to patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "Aged",
+      "Breast Neoplasms/*diagnosis",
+      "Datasets as Topic",
+      "*Deep Learning",
+      "Female",
+      "Gene Expression",
+      "Humans",
+      "Mammography",
+      "Middle Aged",
+      "Models, Biological",
+      "Erb-b2 Receptor Tyrosine Kinases/*metabolism",
+      "Receptors, Estrogen/*metabolism",
+      "Receptors, Progesterone/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ueda, Daiju",
+        "Yamamoto, Akira",
+        "Takashima, Tsutomu",
+        "Onoda, Naoyoshi",
+        "Noda, Satoru",
+        "Kashiwagi, Shinichiro",
+        "Morisaki, Tamami",
+        "Honjo, Takashi",
+        "Shimazaki, Akitoshi",
+        "Miki, Yukio"
+      ],
+      "short_names": [
+        "Ueda D",
+        "Yamamoto A",
+        "Takashima T",
+        "Onoda N",
+        "Noda S",
+        "Kashiwagi S",
+        "Morisaki T",
+        "Honjo T",
+        "Shimazaki A",
+        "Miki Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3878-3616",
+        "ORCID: 0000-0002-4567-9745",
+        "ORCID: 0000-0002-0417-6674",
+        "ORCID: 0000-0002-0460-9599",
+        "ORCID: 0000-0003-0621-0044"
+      ],
+      "affiliations": [
+        "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan.",
+        "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ueda, Daiju",
+        "short_name": "Ueda D",
+        "identifiers": [
+          "0000-0002-3878-3616"
+        ],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamamoto, Akira",
+        "short_name": "Yamamoto A",
+        "identifiers": [
+          "0000-0002-4567-9745"
+        ],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Takashima, Tsutomu",
+        "short_name": "Takashima T",
+        "identifiers": [
+          "0000-0002-0417-6674"
+        ],
+        "affiliations": [
+          "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Onoda, Naoyoshi",
+        "short_name": "Onoda N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Noda, Satoru",
+        "short_name": "Noda S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Kashiwagi, Shinichiro",
+        "short_name": "Kashiwagi S",
+        "identifiers": [
+          "0000-0002-0460-9599"
+        ],
+        "affiliations": [
+          "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Morisaki, Tamami",
+        "short_name": "Morisaki T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Endocrine Surgery, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Honjo, Takashi",
+        "short_name": "Honjo T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Shimazaki, Akitoshi",
+        "short_name": "Shimazaki A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Miki, Yukio",
+        "short_name": "Miki Y",
+        "identifiers": [
+          "0000-0003-0621-0044"
+        ],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Radiology, Osaka City University Graduate School of Medicine, Osaka, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JCO precision oncology"
+    ],
+    "journal_abbrev": [
+      "JCO Precis Oncol"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/08 06:00",
+    "fetched_at": "2026-09-28 03:45:08"
+  },
+  "links": {
+    "cites": [
+      "41491736",
+      "41154441",
+      "40457128",
+      "40188293",
+      "39924532",
+      "39841349",
+      "39806464",
+      "39006260",
+      "38856878",
+      "37812297",
+      "37540463",
+      "37046801",
+      "35324962"
+    ],
+    "refs": [],
+    "similar": [
+      "34994603",
+      "27029805",
+      "26437901",
+      "32592992",
+      "22370627",
+      "21700456",
+      "22679488",
+      "38641451",
+      "26493064",
+      "25600243",
+      "20571962",
+      "23022996",
+      "28532429",
+      "25938238",
+      "22433564",
+      "24269135",
+      "30080878",
+      "18369692",
+      "27762648",
+      "35074178",
+      "18657139",
+      "32350370",
+      "22004841",
+      "22450930",
+      "31551181",
+      "16497822",
+      "17509165",
+      "26138872",
+      "30679318",
+      "30722113",
+      "27743431",
+      "19570962",
+      "27619909",
+      "19130322",
+      "26161666",
+      "26704052",
+      "18296077",
+      "23669022",
+      "34875014",
+      "22903686",
+      "37530189",
+      "19466512",
+      "24008056",
+      "25257728",
+      "27315045",
+      "28534357",
+      "24325948",
+      "24951027",
+      "19432961",
+      "25966732",
+      "26163622",
+      "34464510",
+      "29444670",
+      "33112549",
+      "27760283",
+      "26732051",
+      "18098228",
+      "23957561",
+      "23327413",
+      "32613608",
+      "21901395",
+      "28875243",
+      "21566435",
+      "22489698",
+      "33667252",
+      "34161883",
+      "18768247",
+      "21285137",
+      "22711854",
+      "17986623",
+      "27057657",
+      "24652232",
+      "22359195",
+      "30927939",
+      "28707744",
+      "22931039",
+      "24337596",
+      "18227529",
+      "22045649",
+      "22119825",
+      "27750105",
+      "29981025",
+      "23313014",
+      "24065473",
+      "22290394",
+      "32334465",
+      "28356061",
+      "23640060",
+      "25082658",
+      "26406408",
+      "25998416",
+      "19121564",
+      "19608352",
+      "28870906",
+      "31276668",
+      "38114364",
+      "37812297",
+      "35324962",
+      "35639575",
+      "37926662",
+      "38631690",
+      "37179945",
+      "29110491",
+      "37143737",
+      "39006260",
+      "39320560",
+      "35251999",
+      "38052873",
+      "37443642",
+      "39062155"
+    ],
+    "review": [
+      "34994603",
+      "22370627",
+      "24269135",
+      "27057657",
+      "23640060"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ascopubs.org/doi/10.1200/PO.20.00176?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/34994603.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

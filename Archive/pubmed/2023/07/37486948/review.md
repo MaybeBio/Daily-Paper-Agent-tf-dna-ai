@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, and supporting information references)
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with claims; not editorial or stylistic quality
+- **Shared manuscript claim summary** The authors use residue-level coarse-grained molecular dynamics simulations to show that human Nanog forms micelle-like clusters within phase-separated condensates, driven by hydrophobic interactions between tryptophan repeat regions in the C-terminal domain, with N-terminal and DNA-binding domains exposed on the surface and mediating inter-cluster electrostatic bridging; they further report that tryptophan-to-alanine mutations dissolve condensates and that DNA fragments are recruited to cluster surfaces and brought into closer proximity.
+- **Visible evidence base** Full text including figures referenced (Figs 1–6), supplementary figures (S1–S12), methods section, and simulation parameters; no raw simulation trajectories or analysis scripts provided
+- **Missing materials affecting confidence** Simulation parameter files, force field details, convergence criteria, error bars on key quantities, and raw data underlying figures; no experimental validation data beyond literature references
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and potentially valuable study of Nanog condensate structure at residue-level resolution. The central claim of micelle-like cluster formation is interesting and mechanistically plausible. However, the evidence base is weakened by limited sampling, absence of quantitative convergence analysis, and a lack of direct comparison with experimental observables beyond critical concentration. The biological interpretation, while reasonable, extends beyond what the simulations can directly support. The work is technically sound in its use of established CG models but requires additional analysis to fully establish the micelle-like structural claim and its functional implications.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and liquid-liquid phase separation, particularly those focused on transcription factor behavior; computational biophysicists developing and applying coarse-grained models to disordered proteins; and experimentalists studying Nanog and pluripotency regulation who seek structural models to interpret their data. The micelle-like cluster concept may also interest the broader soft matter and colloid science community.
+- **Major strengths** The study addresses a timely and important question about the internal architecture of transcription factor condensates. The use of residue-level CG simulations is appropriate for the system size and timescales. The authors perform useful control simulations (salt concentration, phosphorylation, truncation mutants) that strengthen the mechanistic interpretation. The connection to prior experimental work on tryptophan repeat importance is well integrated. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / sampling convergence
+  - **Claim pointer** The authors claim that the condensate contains stable micelle-like clusters with a specific size distribution (4–70 molecules) and that this structure is representative of equilibrium behavior.
+  - **Evidence pointer** Fig 3B, Results section "Micelle-like clusters in the Nanog condensate", Methods "Molecular dynamics simulation"
+  - **Concern** The cluster size distribution is reported as converged after ~5×10^6 MD steps, but the total simulation length is only 5×10^7 steps. For a system of 200 proteins with slow collective rearrangements, this may be insufficient to establish equilibrium cluster statistics. The authors do not provide autocorrelation times, block averaging, or comparison of cluster size distributions across independent trajectories beyond stating convergence. The claim that the distribution "converged well" is not supported by quantitative convergence metrics.
+  - **Why it matters** If the cluster size distribution is not at equilibrium, the entire structural interpretation of micelle-like clusters could be a kinetic artifact of the initial phase-separated configuration. This is the central structural claim of the paper.
+  - **Resolution test** Provide quantitative convergence analysis: compute cluster size distribution as a function of time for each trajectory, show that the distribution is stationary over at least the latter half of each simulation, and report block-averaged uncertainties. Alternatively, demonstrate that starting from different initial configurations (e.g., random distribution) leads to the same steady-state cluster size distribution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / claim support
+  - **Claim pointer** The authors claim that "DNA fragments were closer to each other when mediated by Nanog condensates" and that this supports a role for condensates in bringing enhancer and promoter regions into proximity.
+  - **Evidence pointer** Fig 6D, Results section "Condensates induce DNA-DNA attraction", Discussion of biological significance
+  - **Concern** The DNA-DNA distance comparison is made between a system with Nanog condensate plus four DNA fragments and a DNA-only system. This is not an appropriate control. The DNA-only system has no mechanism to concentrate DNA, so the comparison conflates the general effect of any DNA-binding protein with the specific effect of the condensate. A proper control would be a system with DNA plus a non-condensing DNA-binding protein, or DNA at equivalent local concentration. Furthermore, the simulation uses only four DNA fragments, and the statistical significance of the distance distribution difference is not reported.
+  - **Why it matters** The claim that condensates specifically bring DNA regions closer is a key biological implication of the study. If the effect is simply due to DNA binding to any protein surface, the condensate-specific role is not established.
+  - **Resolution test** Perform control simulations with a non-condensing DNA-binding protein or with DNA fragments at matched local concentration. Report statistical tests (e.g., Kolmogorov-Smirnov) comparing distance distributions. Quantify the number of DNA fragments bound per cluster and the fraction of time each DNA is bound.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / model validation
+  - **Claim pointer** The authors state that the simulated critical concentration of 7.64±0.046 μM is "consistent with the experimental result that human Nanog forms droplets at an average concentration of 10 μM."
+  - **Evidence pointer** Fig 2C, Results section "Phase separation of simulated human Nanog", Methods "Coarse-Grained model for Nanog and DNA"
+  - **Concern** The comparison between simulated and experimental critical concentrations is presented as validation, but the simulation uses a specific CG force field (HPS with Tesei parameters) that was not parameterized for Nanog specifically. The uncertainty on the simulated value (0.046 μM) is only the standard error across trajectories and does not include force field uncertainty. The experimental value of 10 μM is from a single condition with PEG, while the simulation without PEG gives 7.64 μM. The authors do not discuss whether the difference is within expected force field accuracy.
+  - **Why it matters** Overstating model validation can mislead readers about the quantitative predictive power of the simulations. The agreement may be fortuitous given the known limitations of CG models.
+  - **Resolution test** Acknowledge the limitations of quantitative comparison with experiment. Provide a sensitivity analysis of the critical concentration to force field parameters or discuss the expected accuracy of the HPS model for this property. If possible, compare with additional experimental conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / interpretation
+  - **Claim pointer** The authors suggest that "the micelle-like structure makes a DNA segment to easily bind to multiple Nanog molecules and to co-stabilize the complex" and that this has implications for transcriptional regulation.
+  - **Evidence pointer** Results section "Condensates induce DNA-DNA attraction", Discussion section "Biological significance"
+  - **Concern** The biological significance section extrapolates from a simplified in silico system (200 Nanog molecules, 4 DNA fragments, no chromatin context, no other proteins) to transcriptional regulation in cells. The claim that micelle-like clusters "can bring enhancer and promoter regions closer in space" is presented as a functional conclusion, but the simulations do not include enhancer-promoter architecture, chromatin fiber, or the complex mixture of factors present at transcription sites. The authors acknowledge some limitations but still frame these as implications rather than speculations.
+  - **Why it matters** Overinterpretation of simplified simulation results can lead to misleading conclusions for experimental biologists who may not appreciate the model limitations.
+  - **Resolution test** Reframe the biological significance section to clearly distinguish between simulation-based observations and speculative implications. Explicitly state which claims require experimental validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods section "Coarse-Grained model for Nanog and DNA"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The description of the HPS potential application states it was applied to disordered regions but not the DBD, with the justification that HPS was developed for disordered regions. However, the DBD is a folded domain and its interactions with disordered regions are modeled only through excluded volume and electrostatics. The potential impact of this choice on the observed micelle-like structure is not discussed.
+  - **Required correction** Add a brief discussion of how the choice to exclude HPS interactions for the DBD might affect the results, particularly the positioning of DBDs on the cluster surface.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Results section "Phase separation of simulated human Nanog"
+  - **Evidence pointer** Fig 2H, location not provided
+  - **Issue** The comparison of amino acid density between 50 mM and 125 mM salt conditions is described qualitatively ("more compact"). No quantitative measure of compactness (e.g., radius of gyration of the condensate, density profile width) is provided.
+  - **Required correction** Provide a quantitative measure of condensate compactness for the different salt conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Tryptophan in the WR region is essential for the LLPS"
+  - **Evidence pointer** Fig 5A–5C, location not provided
+  - **Issue** The W8A mutant simulation shows dissolution of the condensate, but the timescale of dissolution is not reported. It is unclear whether the observed dissolution is complete or whether small clusters persist on the simulation timescale.
+  - **Required correction** Report the timescale of condensate dissolution and the final state of the W8A system (e.g., monomeric vs. small oligomers).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Molecular dynamics simulation"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The number of independent simulations for each condition is stated (eight for 125 mM, two each for 50 mM and 500 mM), but the total simulation time per run is not explicitly stated for all conditions. The text mentions 5×10^7 MD steps for the main simulations but does not specify the time step used.
+  - **Required correction** State the time step and total simulated time for each condition.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Micelle-like clusters in the Nanog condensate"
+  - **Evidence pointer** Fig 3C, location not provided
+  - **Issue** The radial distribution of domains relative to cluster center is shown, but the definition of "cluster center" is not explicitly stated in the main text (only in Methods). A brief restatement in the results would improve readability.
+  - **Required correction** Briefly restate the definition of cluster center when first discussing Fig 3C.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Condensates induce DNA-DNA attraction"
+  - **Evidence pointer** Fig 6E, location not provided
+  - **Issue** The statement that the Nanog condensate containing DNA is "slightly more extended" than without DNA is based on density profiles, but the magnitude of this effect and its statistical significance are not reported.
+  - **Required correction** Quantify the extension (e.g., width of the density profile) and report uncertainty or significance.
+
+## Risk / unsupported claims
+- The claim that the cluster size distribution is converged is not quantitatively supported (no convergence metrics, no block averaging, no comparison across independent trajectories beyond a statement of convergence).
+- The claim that condensates specifically bring DNA fragments closer is not supported by an appropriate control; the DNA-only comparison does not isolate condensate-specific effects.
+- The quantitative agreement between simulated and experimental critical concentration is presented as validation without discussion of force field uncertainty or the difference in solution conditions (presence vs. absence of PEG).
+- The biological implications regarding enhancer-promoter proximity and transcriptional regulation are speculative and extend beyond what the simplified simulation system can support.
+- The claim that phosphorylation "slightly weakens" the condensate is based on qualitative observations of cavity formation and density profiles without quantitative measures or statistical testing.
+- The statement that micelle-like clusters are "stable" at high salt concentrations (500 mM) is based on limited sampling (two trajectories) and no quantitative measure of cluster stability over time.

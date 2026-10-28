@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, experimental procedures, and figure legends.
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims based solely on the provided manuscript text. No external data, supplementary figures, or unpublished information were assessed.
+- **Shared manuscript claim summary** The authors developed a machine learning-based AI tool using phase-contrast images to optimize hepatic differentiation of human pluripotent stem cells (hPSCs) into hepatocyte-like cells (HLCs), achieving 90-95% purity. Through multi-omics analyses (RNA-seq, ATAC-seq, scRNA-seq), they identified NR5A2 and AP-1 transcription factors as key regulators of hepatic maturation. Safety assessments (WGS, AIG, xenograft) indicated low mutagenicity and tumorigenicity.
+- **Visible evidence base** Main text figures (Figures 1-6), supplementary figure references (S1-S5), and experimental procedures.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S5, Tables S1-S2) were referenced but not provided. Raw sequencing data, AI model architecture details, and full statistical outputs were not available for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially useful AI-based approach for monitoring and optimizing hepatic differentiation, combined with a multi-omics characterization of the differentiation process. The identification of NR5A2 and AP-1 as regulators of hepatic maturation is of interest. However, several technical concerns, particularly regarding the AI model validation, the functional evidence for the NR5A2-AP-1 regulatory axis, and the interpretation of safety data, limit the strength of the conclusions as currently presented.
+- **Who would be interested in the results, and why** Researchers in stem cell biology, hepatic differentiation, and regenerative medicine would be interested in the improved differentiation protocol and the AI monitoring tool. Those studying transcriptional regulation of liver development would find the NR5A2 and AP-1 findings relevant. The safety assessment data may be of interest to those considering clinical translation of hPSC-derived hepatocytes.
+- **Major strengths**
+  - The AI-based approach for non-invasive monitoring of differentiation is practical and addresses a real bottleneck in the field.
+  - The multi-omics integration (RNA-seq, ATAC-seq, scRNA-seq) provides a comprehensive view of the differentiation process.
+  - The identification of NR5A2 and AP-1 as potential regulators of hepatic maturation is a novel finding that could have broader implications.
+  - The inclusion of safety assessments (WGS, AIG, xenograft) is commendable for a translational perspective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of AI model
+  - **Claim pointer** The AI algorithm achieves high accuracy and F1 scores in predicting differentiation outcomes, with an overall success rate of 90-95%.
+  - **Evidence pointer** Figure 1G, "Evaluation of the AI algorithm" section
+  - **Concern** The manuscript reports performance metrics (accuracy, F1, precision, recall) for the AI model but does not provide details on the model architecture, hyperparameters, training procedure, or the criteria used for ground truth labeling beyond a single senior researcher's judgment. The dataset is small (1163 FOVs total, with only 12 hPSC FOVs), and the class imbalance is not addressed. The generalizability of the model to other cell lines, laboratories, or imaging systems is not demonstrated.
+  - **Why it matters** Without a clear description of the model and validation strategy, the reproducibility and robustness of the AI tool cannot be assessed. The small and imbalanced dataset raises concerns about overfitting and the reliability of the reported 90-95% success rate.
+  - **Resolution test** Provide full model architecture, training details, hyperparameter selection, and a more detailed description of the ground truth labeling process. Include cross-validation results and testing on independent datasets from different laboratories or with different imaging equipment. Address class imbalance explicitly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation of NR5A2-AP-1 axis
+  - **Claim pointer** NR5A2 regulates hepatic differentiation and maturation through the AP-1 family of transcription factors.
+  - **Evidence pointer** Figures 4E, 4F, S4D; Discussion section
+  - **Concern** The manuscript shows correlative data (NR5A2 ChIP-seq binding to AP-1 promoters, knockdown of NR5A2 reducing AP-1 expression) but lacks direct functional evidence for the regulatory relationship. The rescue experiment with FOS/JUN overexpression is mentioned only briefly in the supplementary figure legend (S4D) without details on the experimental design, quantification, or statistical analysis. The specificity of the NR5A2-AP-1 interaction is not established, and alternative explanations (e.g., indirect effects) are not ruled out.
+  - **Why it matters** The claim of a regulatory axis is central to the manuscript's mechanistic contribution. Without robust functional validation, the conclusion that NR5A2 acts through AP-1 to drive hepatic maturation is not fully supported.
+  - **Resolution test** Provide detailed data from the rescue experiments, including quantification and statistics. Perform additional experiments such as AP-1 knockdown or dominant-negative AP-1 to confirm the requirement for AP-1 in NR5A2-mediated effects. Consider epistasis experiments or genome-wide analyses to establish the directness of the regulatory relationship.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of safety data
+  - **Claim pointer** The modified hepatic differentiation protocol is safe, with limited mutagenicity and tumorigenicity.
+  - **Evidence pointer** Figure 6, "Safety assessment of differentiated HLCs" section
+  - **Concern** The WGS analysis identified only four exonic de novo mutations across all samples, but the sample size is very small (n=2 cell lines, with limited replicates). The AIG and xenograft assays used only two liver cancer cell lines as positive controls, and the observation period for xenografts (4 weeks) may be insufficient to assess tumorigenic potential fully. The manuscript does not discuss the limitations of these assays or the statistical power to detect differences.
+  - **Why it matters** Safety claims for potential clinical applications require robust evidence. The current data, while encouraging, are preliminary and may not support the strong conclusion of safety.
+  - **Resolution test** Increase sample size and include additional hPSC lines. Extend the xenograft observation period. Include appropriate positive and negative controls for the AIG assay. Provide a more nuanced discussion of the limitations of the safety assessment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility of differentiation protocol
+  - **Claim pointer** The optimized protocol achieves 90-95% purity of HLCs across four hPSC lines.
+  - **Evidence pointer** Figure 2C, "Optimizing hepatic differentiation" section
+  - **Concern** The purity is assessed primarily by ALB expression via flow cytometry. While ALB is a key hepatocyte marker, a more comprehensive panel of markers (e.g., functional assays, multi-lineage markers) would strengthen the claim of high purity. The variability between the four cell lines is not fully described, and the criteria for "success" in the AI model are not clearly linked to the final HLC purity.
+  - **Why it matters** The claim of high purity is central to the utility of the protocol. A more rigorous assessment of cell identity and function would increase confidence in the results.
+  - **Resolution test** Include additional hepatocyte markers (e.g., CYP3A4, HNF4A, ASGPR1) and functional assays (e.g., albumin secretion, urea synthesis, CYP activity) in the characterization. Provide a detailed breakdown of purity and yield for each cell line, including variability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure legends
+  - **Affected element** Figure 1 legend
+  - **Evidence pointer** Figure 1
+  - **Issue** The legend for Figure 1 is very long and contains detailed descriptions that might be better placed in the main text or methods. Some abbreviations (e.g., "DECs") are used without being defined in the legend.
+  - **Required correction** Shorten the legend and define all abbreviations at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 2D-F, 4F, 6E-F
+  - **Evidence pointer** Figure legends
+  - **Issue** The manuscript states "Results are expressed as mean ± SD" but does not consistently report the number of biological replicates (n) for each experiment in the figure legends. The statistical tests used are not always specified.
+  - **Required correction** Add n values and statistical test details to all figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability section
+  - **Evidence pointer** Data availability section
+  - **Issue** The AI model code and trained weights are not mentioned in the data availability statement. This limits the reproducibility of the AI tool.
+  - **Required correction** Provide a statement on the availability of the AI model code and weights, or provide a clear justification for why they are not available.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not address the limitations of the study, such as the small sample size for safety assessments, the potential for batch effects in the AI model, or the lack of in vivo functional validation of the differentiated HLCs.
+  - **Required correction** Add a paragraph discussing the limitations of the study and future directions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Insufficient details on AI model architecture, training, and validation to assess reproducibility and generalizability.
+  - R1-M2: Lack of robust functional evidence for the NR5A2-AP-1 regulatory axis.
+  - R1-M3: Preliminary safety data with limited statistical power and short observation periods.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of AI to monitor differentiation is not entirely novel, but the specific combination with multi-omics to identify NR5A2 and AP-1 is a fresh angle.
+  - **Scientific importance** Moderate. The findings could inform hepatic differentiation protocols and highlight new regulators, but the mechanistic depth is currently insufficient for broad impact.
+  - **Interdisciplinary readership** Moderate. The work bridges AI, stem cell biology, and genomics, which could appeal to a broad audience, but the technical details may limit accessibility.
+  - **Technical soundness** Weak to moderate. The AI model validation and functional experiments have significant gaps that need to be addressed.
+  - **Readability for nonspecialists** Moderate. The manuscript is generally well-written but contains jargon that may be challenging for non-experts. The long figure legends and complex multi-omics analyses could be streamlined.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, and the multi-omics data are potentially valuable. However, the current evidence does not fully support the mechanistic claims or the robustness of the AI tool. Major revisions are required.
+
+## Risk / unsupported claims
+- The claim that the AI algorithm "significantly improves the success rate" is not fully supported without a comparison to a non-AI-optimized protocol or a baseline success rate.
+- The claim that NR5A2 "regulates" hepatic differentiation through AP-1 is not fully supported by the correlative and knockdown data presented; direct functional evidence is lacking.
+- The claim of safety based on the WGS, AIG, and xenograft data is preliminary and may be overstated given the small sample sizes and short observation periods.
+- The claim that the protocol achieves 90-95% purity is based primarily on ALB expression; a more comprehensive characterization is needed.
+- The generalizability of the AI model to other cell lines, laboratories, or imaging platforms is not demonstrated and cannot be assessed from the provided data.

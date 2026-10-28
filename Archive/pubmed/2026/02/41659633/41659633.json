@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "41659633",
+    "doi": "10.64898/2026.01.26.701763",
+    "title": "Chemical control of 2'-hydroxyl-dependent Cas9 target engagement enables CRISPR RNA ribose replacement."
+  },
+  "content": {
+    "abstract": "Advanced CRISPR-based therapies benefit from CRISPR RNA (crRNA) with high nuclease resistance and enhanced drug-like properties, which is primarily achieved through chemical replacement of the RNA ribose moiety. However, for gene editing enzymes like CRISPR-Cas9 a handful of residues cannot be replaced with chemical ribose analogues, limiting the scope of therapeutic strategies. The mechanism underlying this restriction has remained unclear. Here, using nucleic acid chemistry, biochemistry, cryo-EM, and molecular dynamics simulations, we show that the ribose 2'-hydroxyl group at specific crRNA residues is required to achieve a conformational state competent for Cas9 target DNA binding. Based on the mechanistic principles uncovered, we combined site-specific phosphorothioate linkage chemistry with ribose replacement chemistry to restore binding and activity, resulting in high Cas9 editing efficiency and fidelity with a ribose-free crRNA. This study offers novel mechanistic insight and crRNAs with full chemical stabilization, making rational design of guide RNAs with complete nuclease protection for CRISPR-based medicines possible.",
+    "keywords": [
+      "2'-hydroxyl",
+      "CRISPR",
+      "Cas9",
+      "checkpoint",
+      "chemical modification",
+      "gene editing",
+      "gene therapy",
+      "genome engineering",
+      "guide RNA",
+      "medicine",
+      "ribose",
+      "target engagement",
+      "therapeutics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pater, Adrian A",
+        "Barber, Halle M",
+        "Sudhakar, Sruthi",
+        "Chilamkurthy, Ramadevi",
+        "Jana, Sunit K",
+        "Parasrampuria, Mansi A",
+        "Bosmeny, Michael S",
+        "Graczyk-Marrs, Jacob A",
+        "Eddington, Seth B",
+        "Blazier, Cole A",
+        "Abdullahu, Leonora",
+        "Malek-Adamian, Elise",
+        "Barkau, Christopher L",
+        "O'Reilly, Daniel",
+        "Korolev, Sergey",
+        "Pradeepkumar, P I",
+        "Damha, Masad J",
+        "Gagnon, Keith T"
+      ],
+      "short_names": [
+        "Pater AA",
+        "Barber HM",
+        "Sudhakar S",
+        "Chilamkurthy R",
+        "Jana SK",
+        "Parasrampuria MA",
+        "Bosmeny MS",
+        "Graczyk-Marrs JA",
+        "Eddington SB",
+        "Blazier CA",
+        "Abdullahu L",
+        "Malek-Adamian E",
+        "Barkau CL",
+        "O'Reilly D",
+        "Korolev S",
+        "Pradeepkumar PI",
+        "Damha MJ",
+        "Gagnon KT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9313-7126"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Chemistry, McGill University, Montreal, Quebec, Canada.",
+        "Department of Chemistry, Indian Institute of Technology Bombay, Powai, Mumbai, India.",
+        "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Chemistry, McGill University, Montreal, Quebec, Canada.",
+        "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Chemistry & Biochemistry, Southern Illinois University, Carbondale, IL, USA.",
+        "Biochemistry & Molecular Biology, Southern Illinois University, School of Medicine, Carbondale, IL, USA.",
+        "Chemistry & Biochemistry, Southern Illinois University, Carbondale, IL, USA.",
+        "Department of Chemistry, McGill University, Montreal, Quebec, Canada.",
+        "Department of Chemistry, McGill University, Montreal, Quebec, Canada.",
+        "Biochemistry & Molecular Biology, Southern Illinois University, School of Medicine, Carbondale, IL, USA.",
+        "Department of Chemistry, McGill University, Montreal, Quebec, Canada.",
+        "Biochemistry & Molecular Biology, Saint Louis University, Saint Louis, MO, USA.",
+        "Department of Chemistry, Indian Institute of Technology Bombay, Powai, Mumbai, India.",
+        "Department of Chemistry, McGill University, Montreal, Quebec, Canada.",
+        "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pater, Adrian A",
+        "short_name": "Pater AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Barber, Halle M",
+        "short_name": "Barber HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, McGill University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Sudhakar, Sruthi",
+        "short_name": "Sudhakar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Bombay, Powai, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Chilamkurthy, Ramadevi",
+        "short_name": "Chilamkurthy R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Jana, Sunit K",
+        "short_name": "Jana SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, McGill University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Parasrampuria, Mansi A",
+        "short_name": "Parasrampuria MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Bosmeny, Michael S",
+        "short_name": "Bosmeny MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Graczyk-Marrs, Jacob A",
+        "short_name": "Graczyk-Marrs JA",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry & Biochemistry, Southern Illinois University, Carbondale, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Eddington, Seth B",
+        "short_name": "Eddington SB",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry & Molecular Biology, Southern Illinois University, School of Medicine, Carbondale, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Blazier, Cole A",
+        "short_name": "Blazier CA",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry & Biochemistry, Southern Illinois University, Carbondale, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Abdullahu, Leonora",
+        "short_name": "Abdullahu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, McGill University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Malek-Adamian, Elise",
+        "short_name": "Malek-Adamian E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, McGill University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Barkau, Christopher L",
+        "short_name": "Barkau CL",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry & Molecular Biology, Southern Illinois University, School of Medicine, Carbondale, IL, USA."
+        ]
+      },
+      {
+        "full_name": "O'Reilly, Daniel",
+        "short_name": "O'Reilly D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, McGill University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Korolev, Sergey",
+        "short_name": "Korolev S",
+        "identifiers": [
+          "0000-0001-9313-7126"
+        ],
+        "affiliations": [
+          "Biochemistry & Molecular Biology, Saint Louis University, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Pradeepkumar, P I",
+        "short_name": "Pradeepkumar PI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Bombay, Powai, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Damha, Masad J",
+        "short_name": "Damha MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, McGill University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Gagnon, Keith T",
+        "short_name": "Gagnon KT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jan 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 12:54",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41659633",
+      "29176845",
+      "36362256",
+      "30517736",
+      "26589814",
+      "34694606",
+      "36687047",
+      "34782635",
+      "27374403",
+      "29377001",
+      "34713240",
+      "39596457",
+      "36659580",
+      "28652374",
+      "41573864",
+      "26824432",
+      "29650467",
+      "40173086",
+      "27096362",
+      "42758354",
+      "33830675",
+      "29019352",
+      "23563642",
+      "42303162",
+      "34094391",
+      "39937081",
+      "28375731",
+      "29462720",
+      "41109509",
+      "29499139",
+      "34478654",
+      "27936513",
+      "26747759",
+      "36190192",
+      "32843348",
+      "28431230",
+      "35219382",
+      "35577099",
+      "33612423",
+      "30990769",
+      "24095303",
+      "27800559",
+      "28851809",
+      "38344439",
+      "33448579",
+      "35700449",
+      "34127203",
+      "41511442",
+      "37722085",
+      "38061052",
+      "38814157",
+      "38859956",
+      "38625092",
+      "38714643",
+      "24651067",
+      "32510061",
+      "27371591",
+      "35446403",
+      "26187122",
+      "33509781",
+      "40539512",
+      "41759295",
+      "31161741",
+      "41051673",
+      "40076628",
+      "37192099",
+      "40227971",
+      "31494246",
+      "42192532",
+      "26189696",
+      "34648747",
+      "42598860",
+      "30088313",
+      "32258048",
+      "27342128",
+      "38069437",
+      "36301478",
+      "33685601",
+      "32712922",
+      "34417549",
+      "30582653",
+      "35438515",
+      "41913088",
+      "25247697",
+      "26535798",
+      "25695951",
+      "41485979",
+      "34745851",
+      "32807781",
+      "26632489",
+      "40688512",
+      "42634480",
+      "32006412",
+      "42106044",
+      "40697666",
+      "36002571",
+      "29123204",
+      "30728669",
+      "27252719",
+      "26305040"
+    ],
+    "review": [
+      "41659633",
+      "36687047",
+      "27374403",
+      "34713240",
+      "36659580",
+      "40173086",
+      "42758354",
+      "33830675",
+      "42303162",
+      "28375731",
+      "41109509",
+      "35577099",
+      "38344439",
+      "38859956",
+      "24651067",
+      "33509781",
+      "41759295",
+      "37192099",
+      "33685601",
+      "26535798",
+      "34745851",
+      "40688512",
+      "42634480",
+      "40697666",
+      "30728669",
+      "27252719"
+    ],
+    "pmc": [
+      "12874002"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41659633/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.01.26.701763",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

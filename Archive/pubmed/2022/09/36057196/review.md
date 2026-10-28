@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and scope as presented in the abstract; full text, figures, tables, and references not available for verification
+- **Shared manuscript claim summary** The paper is a survey that aims to provide a comprehensive overview of TF-DNA binding prediction from genomic features, covering datasets, data processing, deep learning methods categorized by genomic features, functional consequence characterization via noncoding variant prioritization, and challenges and opportunities.
+- **Visible evidence base** Abstract text only; no sections, figures, tables, or reference list provided
+- **Missing materials affecting confidence** Full manuscript, including all sections, figures, tables, methodological details, and reference list; without these, the depth, accuracy, and completeness of the survey cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a well-structured and relevant survey topic in computational biology. The scope is broad and potentially useful, but the abstract alone provides insufficient detail to evaluate the rigor, completeness, or novelty of the survey. The claims are general and largely descriptive, with no specific findings or critical insights stated. The value of the work will depend heavily on the depth of analysis and the quality of the literature coverage, which cannot be judged from the abstract.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and machine learning researchers working on regulatory genomics, TF binding site prediction, and noncoding variant interpretation. The survey could serve as a reference for method selection and future research directions in these areas.
+- **Major strengths** The topic is timely and of broad interest. The proposed structure, covering datasets, methods, functional characterization, and challenges, is logical and comprehensive in scope. The explicit focus on genomic features as a classification axis for deep learning methods is a potentially useful organizing principle.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims to provide a "comprehensive compendium" and "valuable insights" for researchers.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts comprehensiveness and value without presenting any specific content, such as the number of methods reviewed, the criteria for inclusion, or any comparative analysis. No findings, tables, or figures are referenced.  
+  - **Why it matters** The core value of a survey lies in its coverage, critical analysis, and synthesis. Without evidence of these elements, the claim of comprehensiveness is unsupported and the utility of the work cannot be established.  
+  - **Resolution test** Provide the full manuscript or a detailed summary of the survey content, including the number and types of methods covered, the classification scheme, and any comparative or critical insights.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Novelty and contribution  
+  - **Claim pointer** The abstract implies the survey offers a new perspective by classifying methods according to genomic features.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not state how this survey differs from existing reviews on TF-DNA binding prediction. Without a clear statement of novelty or a comparison to prior surveys, the contribution is unclear.  
+  - **Why it matters** In a crowded field with multiple existing reviews, a survey must articulate its unique angle or added value. The abstract does not provide this, leaving the contribution unassessable.  
+  - **Resolution test** Add a statement in the abstract or introduction that explicitly contrasts this survey with prior reviews and highlights the novel aspects of the classification or synthesis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness of survey methodology  
+  - **Claim pointer** The abstract describes a systematic coverage of datasets, methods, and applications.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No information is given on the search strategy, inclusion criteria, or quality assessment of the reviewed literature. A survey without a transparent methodology risks being selective or biased.  
+  - **Why it matters** Reproducibility and reliability of a survey depend on a clear methodological framework. The absence of this information undermines confidence in the conclusions.  
+  - **Resolution test** Include a methods section in the full manuscript describing the literature search, selection criteria, and any quality assessment procedures.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, sentence on "functional consequences characterization"  
+  - **Issue** The phrase "functional consequences characterization of TF-DNA binding by prioritizing noncoding variants in identified motif instances" is dense and may be unclear to nonspecialist readers.  
+  - **Required correction** Rephrase for clarity, for example, "we discuss how prioritizing noncoding variants within predicted TF binding motifs can help characterize the functional impact of TF-DNA binding."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, list of topics  
+  - **Issue** The abstract does not mention any evaluation metrics, benchmark datasets, or performance comparisons, which are often key in method-oriented surveys.  
+  - **Required correction** Consider adding a sentence on whether the survey includes quantitative comparisons or benchmark results, or clarify that such comparisons are outside the scope.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract, overall flow  
+  - **Issue** The abstract lists topics in sequence but does not indicate the depth of coverage or the intended audience level.  
+  - **Required correction** Add a sentence specifying the target audience and the level of detail, such as "aimed at researchers new to the field as well as practitioners seeking an updated overview."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract alone does not provide sufficient evidence to establish the comprehensiveness or novelty of the survey. R1-M3 is non-blocking but important for methodological transparency.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Not assessable from the abstract. The classification by genomic features is a potential differentiator, but no comparison to prior surveys is provided.  
+  - **Scientific importance** The topic is important, but the abstract does not demonstrate a specific advance or critical synthesis that would elevate it beyond existing reviews.  
+  - **Interdisciplinary readership** The topic bridges molecular biology, genomics, and machine learning, which is inherently interdisciplinary. However, the abstract does not explicitly address how the survey serves readers across these fields.  
+  - **Technical soundness** Not assessable. No methodology for the survey is described.  
+  - **Readability for nonspecialists** The abstract is generally readable but contains jargon-heavy phrases that could be simplified. The full manuscript would need to be evaluated for accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines a potentially valuable survey, but the claims of comprehensiveness and insight cannot be verified without the full manuscript. A revised abstract with explicit statements of novelty, scope, and methodology would strengthen the case, and the full text must be reviewed to assess the actual contribution.
+
+## Risk / unsupported claims
+- The claim of providing a "comprehensive compendium" is unsupported based on the abstract alone.
+- The claim of offering "valuable insights" is unsupported without specific examples of critical analysis or synthesis.
+- The implied novelty of classifying methods by genomic features is unverified without comparison to existing surveys.
+- The depth and accuracy of coverage of datasets, methods, and applications are not assessable from the abstract.

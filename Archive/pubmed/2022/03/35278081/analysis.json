@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35278081",
+  "title": "Artificial Intelligence Program to Predict p53 Mutations in Ulcerative Colitis-Associated Cancer or Dysplasia.",
+  "authors": "Noguchi, Tatsuki; Ando, Takumi; Emoto, Shigenobu; Nozawa, Hiroaki; Kawai, Kazushige; Sasaki, Kazuhito; Murono, Koji; Kishikawa, Junko; Ishi, Hiroaki; Yokoyama, Yuichiro; Abe, Shinya; Nagai, Yuzo; Anzai, Hiroyuki; Sonoda, Hirofumi; Hata, Keisuke; Sasaki, Takeshi; Ishihara, Soichiro",
+  "journal": "Inflammatory bowel diseases",
+  "published_date": "2022-03-13",
+  "window": {
+    "start": "2022-03-07",
+    "end": "2022-03-13"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用CNN从H&E染色切片预测p53免疫组化状态，属于临床病理图像分类，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: The diagnosis of colitis-associated cancer or dysplasia is important in the treatment of ulcerative colitis. Immunohistochemistry of p53 along with hematoxylin and eosin (H&E) staining is conventionally used to accurately diagnose the pathological conditions. However, evaluation of p53 immunohistochemistry in all biopsied specimens is expensive and time-consuming for pathologists. In this study, we aimed to develop an artificial intelligence program using a deep learning algorithm to investigate and predict p53 immunohistochemical staining from H&E-stained slides. METHODS: We cropped 25 849 patches from whole-slide images of H&E-stained slides with the corresponding p53-stained slides. These slides were prepared from samples of 12 patients with colitis-associated neoplasia who underwent total colectomy. We annotated all glands in the whole-slide images of the H&E-stained slides and grouped them into 3 classes: p53 positive, p53 negative, and p53 null. We used 80% of the patches for training a convolutional neural network (CNN), 10% for validation, and 10% for final testing. RESULTS: The trained CNN glands were classified into 2 or 3 classes according to p53 positivity, with a mean average precision of 0.731 to 0.754. The accuracy, sensitivity (recall), specificity, positive predictive value (precision), and F-measure of the prediction of p53 immunohistochemical staining of the glands detected by the trained CNN were 0.86 to 0.91, 0.73 to 0.83, 0.91 to 0.92, 0.82 to 0.89, and 0.77 to 0.86, respectively. CONCLUSIONS: Our trained CNN can be used as a reasonable alternative to conventional p53 immunohistochemical staining in the pathological diagnosis of colitis-associated neoplasia, which is accurate, saves time, and is cost-effective.",
+  "abstract_zh": "背景：在溃疡性结肠炎的治疗中，结肠炎相关癌症或异型增生的诊断至关重要。常规采用p53免疫组织化学结合苏木精-伊红（H&E）染色来准确诊断病理状况。然而，对所有活检标本进行p53免疫组织化学评估对病理学家而言既昂贵又耗时。在本研究中，我们旨在利用深度学习算法开发一种人工智能程序，以从H&E染色切片中研究并预测p53免疫组织化学染色结果。方法：我们从H&E染色切片的全切片图像中裁剪出25,849个图像块，并配有相应的p53染色切片。这些切片来自12例接受全结肠切除术的结肠炎相关肿瘤患者的样本。我们对H&E染色切片全切片图像中的所有腺体进行了标注，并将其分为3类：p53阳性、p53阴性和p53缺失。我们使用80%的图像块用于训练卷积神经网络（CNN），10%用于验证，10%用于最终测试。结果：训练后的CNN根据p53阳性状态将腺体分为2类或3类，平均精确度（mean average precision）为0.731至0.754。训练后的CNN对检测到的腺体进行p53免疫组织化学染色预测的准确率、灵敏度（召回率）、特异度、阳性预测值（精确度）和F值分别为0.86至0.91、0.73至0.83、0.91至0.92、0.82至0.89和0.77至0.86。结论：我们训练后的CNN可作为结肠炎相关肿瘤病理诊断中常规p53免疫组织化学染色的合理替代方法，其准确、省时且具有成本效益。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35278081/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35278081/",
+  "paper_page_path": "papers/pubmed/35278081/index.html"
+}

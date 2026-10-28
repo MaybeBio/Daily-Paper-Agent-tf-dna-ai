@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors report synthesis and characterization of a new ruthenium(II) polypyridyl complex [Ru(bpy)₂dppz-BTDZ]²⁺ with a thiadiazole-substituted dppz ligand. They claim intercalative DNA binding with K(b) = 6.57 ± 0.9 × 10⁶ M⁻¹, a 7% enhancement in light-switch effect relative to [Ru(bpy)₂dppz]²⁺, DFT-based excited-state characterization showing MLCT state mixing, Franck-Condon analysis yielding excited-state free energies that correlate with observed lifetimes, and docking/molecular dynamics showing stable minor-groove intercalation with enhanced stability for the Δ-isomer.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, figures, tables, or computational parameters provided
+- **Missing materials affecting confidence** Full manuscript, experimental procedures, characterization data (NMR, MS, elemental analysis), UV-visible and emission spectra, competitive binding data, viscosity measurements, DFT computational details, docking and MD simulation parameters, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting contribution to the field of ruthenium polypyridyl DNA-binding complexes, particularly regarding the thiadiazole extension of the dppz ligand and its effect on light-switch behavior. The combination of experimental biophysical measurements with computational analysis is commendable. However, the abstract alone provides insufficient detail to evaluate the rigor of the methods, the quality of the data, or the validity of several key claims. The reported 7% enhancement in light-switch effect is modest and its significance is unclear without statistical context. The correlation between bright-state energies and lifetimes is stated but not quantified. The docking and MD results, while interesting, are presented without sufficient methodological detail to assess their reliability. The claim of minor-groove intercalation is somewhat unusual and would benefit from more detailed structural analysis.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, nucleic acid chemistry, and photophysics would find this work relevant. Those studying ruthenium polypyridyl complexes as DNA probes, phototherapeutic agents, or light-switch sensors would be particularly interested in the thiadiazole modification and its effect on photophysical properties. Computational chemists working on transition-metal complex-DNA interactions may also find the DFT and MD results useful.
+- **Major strengths** The work combines multiple complementary experimental techniques (UV-visible, emission, competitive binding, quenching, viscosity) with computational methods (DFT, docking, MD) to characterize DNA binding and photophysics. The comparison with the parent [Ru(bpy)₂dppz]²⁺ complex provides a useful benchmark. The Franck-Condon analysis linking excited-state energetics to the light-switch phenomenon is a thoughtful approach that could provide mechanistic insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The complex intercalates into DNA with a binding constant of 6.57 ± 0.9 × 10⁶ M⁻¹
+  - **Evidence pointer** Abstract; specific figures or tables not provided
+  - **Concern** The binding constant is reported with an uncertainty of ±0.9 × 10⁶ M⁻¹, but no information is provided about the number of replicates, the fitting method, or the model used to extract K(b) from the spectroscopic data. Intercalation is claimed based on multiple indirect assays, but the abstract does not describe how competing models (e.g., groove binding, partial intercalation) were excluded.
+  - **Why it matters** The binding mode and affinity are central claims of the paper. Without details on the fitting procedure and the criteria used to distinguish intercalation from other binding modes, the reliability of this conclusion cannot be assessed. The uncertainty reported is approximately 14% of the mean value, which is relatively large and may affect the significance of comparisons with other complexes.
+  - **Resolution test** Provide the full experimental section describing the spectroscopic titrations, the fitting model, the number of independent replicates, and the statistical treatment. Show representative titration curves and fits. Provide explicit evidence distinguishing intercalation from groove binding, such as viscosity data with appropriate controls and a discussion of how the results compare with known intercalators and groove binders.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The complex shows a 7% enhancement in the light-switch effect compared to [Ru(bpy)₂dppz]²⁺
+  - **Evidence pointer** Abstract; specific figures or tables not provided
+  - **Concern** The light-switch effect is typically defined as the ratio of emission intensity in DNA to that in water, or the enhancement factor upon DNA binding. The abstract reports a 7% enhancement relative to the parent complex, but does not specify the exact metric used, the experimental conditions (buffer, ionic strength, complex concentration, DNA concentration), or whether this difference is statistically significant. A 7% difference could easily arise from experimental variability.
+  - **Why it matters** The light-switch enhancement is a key selling point of this new complex. If the enhancement is not robustly demonstrated with appropriate replicates and statistics, the claim may be overstated. The comparison with [Ru(bpy)₂dppz]²⁺ must be made under identical conditions to be meaningful.
+  - **Resolution test** Clearly define the light-switch metric, report the number of independent measurements, provide statistical analysis (e.g., t-test or ANOVA), and show the emission spectra for both complexes under identical conditions. If possible, provide a titration series demonstrating the enhancement as a function of DNA concentration.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Franck-Condon analysis of emission spectra in MeCN, water, and DNA allowed for the estimation of the excited-state free energy. In water, the emissive bright state lies approximately 1300 cm⁻¹ higher than in DNA and approximately 1100 cm⁻¹ higher than in MeCN. The bright-state energies correlated very well with all the observed lifetimes.
+  - **Evidence pointer** Abstract; specific figures or tables not provided
+  - **Concern** The Franck-Condon analysis is a sophisticated method that requires careful treatment of spectral line shapes and vibrational progressions. The abstract does not provide the fitting parameters, the number of modes used, or the quality of the fits. The claim that bright-state energies "correlated very well" with lifetimes is not quantified; no correlation coefficient or statistical measure is given. The energy differences (1300 and 1100 cm⁻¹) are reported without uncertainties.
+  - **Why it matters** The correlation between excited-state energetics and lifetimes is central to the mechanistic interpretation of the light-switch behavior. Without quantitative details on the fitting procedure and the correlation statistics, the strength of this claim cannot be evaluated. The absence of uncertainties on the energy differences makes it impossible to judge whether the differences are significant.
+  - **Resolution test** Provide the Franck-Condon fitting parameters, the residuals of the fits, and the uncertainties on the extracted energies. Report the correlation coefficient (e.g., R²) and the number of data points for the energy-lifetime correlation. Show a plot of bright-state energy versus lifetime with the fitted line and confidence intervals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Docking and molecular dynamics simulations revealed stable intercalative binding in the DNA minor groove, with the Δ-isomer showing enhanced stability.
+  - **Evidence pointer** Abstract; specific figures or tables not provided
+  - **Concern** The claim of "intercalative binding in the DNA minor groove" is internally inconsistent. Intercalation typically involves insertion between base pairs from the major groove side, while minor-groove binding is a distinct mode. The abstract does not clarify how the simulations reconcile these two descriptions. Additionally, no details are provided on the force field, simulation length, water model, or the criteria used to assess stability. The enhanced stability of the Δ-isomer is stated without quantitative measures (e.g., binding free energies, RMSD values).
+  - **Why it matters** The structural model of DNA binding is important for understanding the mechanism of action and for potential applications. An internally inconsistent description of the binding mode undermines confidence in the computational results. Without methodological details, the reliability of the simulations cannot be assessed.
+  - **Resolution test** Clarify the binding mode description. Provide simulation parameters (force field, simulation time, system setup) and quantitative stability measures (e.g., RMSD, binding free energy, contact analysis). Show representative snapshots or density maps illustrating the binding mode. If both intercalation and minor-groove contacts are present, describe how they coexist.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The complex name [Ru(bpy)₂dppz-BTDZ]²⁺ is used without defining the BTDZ abbreviation. Nonspecialist readers may not know that BTDZ refers to the thiadiazole substituent.
+  - **Required correction** Define BTDZ at first mention, for example as "thiadiazole-substituted dppz (dppz-BTDZ)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Binding constant uncertainty
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The uncertainty on K(b) is reported as ±0.9 × 10⁶ M⁻¹, but the number of significant figures is inconsistent with the mean value (6.57 ± 0.9). The uncertainty has one significant figure while the mean has three.
+  - **Required correction** Report the uncertainty with consistent significant figures, for example 6.6 ± 0.9 × 10⁶ M⁻¹, or provide the full uncertainty to two significant figures if justified by the data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** DFT and Franck-Condon analysis description
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The statement that "the presence of the thiadiazole group promotes mixing of MLCT states" is presented without context for readers who may not be familiar with the electronic structure of ruthenium polypyridyl complexes. A brief explanation of why this mixing is significant would improve accessibility.
+  - **Required correction** Add a brief phrase explaining the significance of MLCT state mixing, for example its effect on emission properties or excited-state dynamics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Docking and MD description
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The abstract states that simulations revealed "stable intercalative binding in the DNA minor groove" but does not specify the DNA sequence used or the length of the simulation. These details are important for reproducibility.
+  - **Required correction** Specify the DNA sequence and simulation length in the abstract or indicate that these details are provided in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of a 7% enhancement in light-switch effect is unsupported without statistical analysis and details on the measurement conditions.
+- The correlation between bright-state energies and lifetimes is stated but not quantified; the strength of this correlation cannot be evaluated from the abstract.
+- The binding mode description ("intercalative binding in the DNA minor groove") is internally inconsistent and requires clarification.
+- The enhanced stability of the Δ-isomer from MD simulations is stated without quantitative measures.
+- The excited-state energy differences (1300 and 1100 cm⁻¹) are reported without uncertainties.
+- The claim that the thiadiazole group "promotes mixing of MLCT states" is not supported by specific computational results in the abstract.
+- The binding constant K(b) cannot be independently assessed without details on the fitting model and experimental conditions.

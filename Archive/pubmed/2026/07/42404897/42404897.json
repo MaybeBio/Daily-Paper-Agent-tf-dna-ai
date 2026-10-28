@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "42404897",
+    "doi": "10.3389/fimmu.2026.1855177",
+    "title": "Identification and validation of platelet activation-related signatures in ulcerative colitis: a study based on machine learning and single-cell transcriptomic analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Platelet activation (PA) acts as a molecular bridge connecting thrombosis and inflammation. This study aimed to identify key PA-related genes (PARGs) in ulcerative colitis (UC), and explore their transcriptional associations with immune-stromal dysregulation. METHODS: Transcriptomic data of UC patients were obtained from the GEO database, and PARGs were retrieved from the MSigDB database. Differential expression analysis, WGCNA, LASSO, SVM-RFE, and random forest algorithms were applied to the GSE87466 dataset to identify key genes. Functional enrichment and immune infiltration analyses were performed to characterize their biological features. Additionally, single-cell RNA sequencing (scRNA-seq) analysis of the GSE214695 dataset was conducted to clarify their expression and localization. Findings were validated using independent GEO cohorts (GSE47908, GSE38713, and GSE36807) and qRT-PCR in a dextran sodium sulfate (DSS)-induced colitis mouse model. RESULTS: We identified 22 PARGs in UC, which were associated with extracellular matrix (ECM) remodeling, platelet activation, and immune cell recruitment. Machine learning algorithms refined these to three key genes: SPARC, TIMP1, and SERPINA1. ROC analysis demonstrated robust diagnostic performance (AUC > 0.8) across the training and external validation cohorts. Crucially, single-cell analysis revealed that these genes were predominantly expressed in intestinal fibroblasts. Their expression levels strongly correlated with the infiltration of pathogenic immune cells (e.g., M1 macrophages, neutrophils). Additionally, an upstream regulatory network predicted transcription factors such as NFKB1 and SP1 as potential regulators. Finally, qRT-PCR confirmed the significant upregulation of these three genes in the DSS-induced colitis model. CONCLUSION: This study highlights the role of platelet activation in UC; identifies SPARC, TIMP1, and SERPINA1 as potential biomarkers; and provides important insights for the diagnosis and development of therapies for UC.",
+    "keywords": [
+      "bioinformatics analysis",
+      "immune dysregulation",
+      "machine learning",
+      "platelet activation",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "*Colitis, Ulcerative/genetics/immunology/blood/diagnosis",
+      "*Platelet Activation/genetics",
+      "Animals",
+      "*Machine Learning",
+      "Humans",
+      "Mice",
+      "Single-Cell Analysis",
+      "Single-Cell Gene Expression Analysis",
+      "Gene Expression Profiling",
+      "*Transcriptome",
+      "Disease Models, Animal",
+      "Biomarkers"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Lu",
+        "Liu, Yang",
+        "Wang, Shuqing",
+        "Cai, Yujie",
+        "Zhi, Jing",
+        "Zhao, Luqing",
+        "Zhang, Shengsheng"
+      ],
+      "short_names": [
+        "Zhao L",
+        "Liu Y",
+        "Wang S",
+        "Cai Y",
+        "Zhi J",
+        "Zhao L",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, China.",
+        "Department of Acupuncture, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "National Clinical Research Center for Chinese Medicine Acupuncture and Moxibustion, Tianjin, China.",
+        "Beijing University of Chinese Medicine, Beijing, China.",
+        "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, China.",
+        "Beijing University of Chinese Medicine, Beijing, China.",
+        "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, China.",
+        "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Lu",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Acupuncture, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+          "National Clinical Research Center for Chinese Medicine Acupuncture and Moxibustion, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuqing",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yujie",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhi, Jing",
+        "short_name": "Zhi J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Luqing",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengsheng",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/06 06:31",
+    "fetched_at": "2026-10-05 05:44:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41594878",
+      "41340115",
+      "41295942",
+      "41274279",
+      "40907405",
+      "40590483",
+      "40562095",
+      "40538978",
+      "40505233",
+      "40374650",
+      "40279769",
+      "40090434",
+      "40054174",
+      "39986196",
+      "39838431",
+      "39764464",
+      "39585242",
+      "39467429",
+      "39427735",
+      "39334730",
+      "39233736",
+      "39199336",
+      "38879692",
+      "38498232",
+      "38235557",
+      "38070204",
+      "37678548",
+      "37064877",
+      "36928841",
+      "36703990",
+      "36499222",
+      "36430216",
+      "35963236",
+      "35741086",
+      "35691329",
+      "35454853",
+      "35092428",
+      "35054093",
+      "34871362",
+      "34785172",
+      "34712668",
+      "34638874",
+      "34000572",
+      "33186519",
+      "29394913",
+      "28582593",
+      "23544163",
+      "16868799",
+      "14966927",
+      "14648584",
+      "11454044",
+      "10792371",
+      "8350599"
+    ],
+    "similar": [
+      "42404897",
+      "41789070",
+      "41324863",
+      "39647286",
+      "40433374",
+      "42099592",
+      "41242266",
+      "41029776",
+      "42074501",
+      "41368500",
+      "39791167",
+      "40620701",
+      "38880160",
+      "41094572",
+      "40948782",
+      "39182484",
+      "41972123",
+      "39975557",
+      "40661186",
+      "39806040",
+      "41459538",
+      "38656456",
+      "41388523",
+      "41563994",
+      "42510881",
+      "40597456",
+      "39707393",
+      "42024670",
+      "40821793",
+      "40503237",
+      "38849409",
+      "41924281",
+      "41358199",
+      "41212891",
+      "42326009",
+      "42040898",
+      "38951638",
+      "41436831",
+      "41816342",
+      "36419192",
+      "39170615",
+      "40532306",
+      "42015036",
+      "40883818",
+      "40963602",
+      "39923303",
+      "40584713",
+      "42154423",
+      "41300794",
+      "37782162",
+      "41009970",
+      "41479901",
+      "41733593",
+      "41107929",
+      "41219826",
+      "39766817",
+      "42233387",
+      "41665627",
+      "40618698",
+      "41955702",
+      "38117365",
+      "40967560",
+      "41611834",
+      "35959356",
+      "41291841",
+      "35392084",
+      "41756296",
+      "39414957",
+      "42352882",
+      "38026254",
+      "40636118",
+      "41406086",
+      "41013556",
+      "41200172",
+      "40361222",
+      "41080564",
+      "40979590",
+      "42123445",
+      "39428941",
+      "38987612",
+      "40600991",
+      "39568749",
+      "41979832",
+      "41265166",
+      "40207230",
+      "38800594",
+      "38070204",
+      "39026683",
+      "41688827",
+      "40791849",
+      "42536689",
+      "42577419",
+      "41826854",
+      "39986196",
+      "41959722",
+      "38274809",
+      "39763654",
+      "41898331",
+      "39741751",
+      "42123756"
+    ],
+    "review": [
+      "42404897",
+      "41665627"
+    ],
+    "pmc": [
+      "13327996"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42404897/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2699",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1855177",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

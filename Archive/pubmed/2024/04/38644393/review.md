@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided by the user. Supplementary tables and figures are referenced but not provided.
+- **Assessment boundary** Scientific and technical soundness of the claims as presented in the provided text. No assessment of editorial fit or publication decision is made.
+- **Shared manuscript claim summary** The authors propose DeepReg, a hybrid deep learning model combining convolutional neural networks (CNNs) and bidirectional long short-term memory (BiLSTM) with an attention mechanism, to predict transcription factors (TFs) in prokaryotic and eukaryotic protein sequences. They report superior performance over DeepTFactor and traditional machine learning methods, and evaluate prediction quality using a bias-variance trade-off approach on three fungal model organisms.
+- **Visible evidence base** Main text, Tables 1-4, Figures 1-5, and references to supplementary Tables S2-S4 and Figure S1. Supplementary materials were not provided for review.
+- **Missing materials affecting confidence** Supplementary tables (S2, S3, S4) and Figure S1 are referenced but not available. The full dataset construction details, hyperparameter search space, and code availability are not described. The exact training/validation/test split composition and the source of the 40,000-sequence ML comparison dataset are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of deep learning to transcription factor prediction, with a reasonable architecture and a thoughtful comparison against existing tools. However, several technical aspects require clarification and strengthening before the claims can be fully supported. The bias-variance trade-off analysis is an interesting contribution but is presented in a qualitative manner that limits its interpretability. The comparison with DeepTFactor is incomplete, and the evaluation on experimental data, while valuable, is limited to three fungal species. The manuscript would benefit from clearer reporting of dataset construction, hyperparameter selection, and statistical significance testing.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on functional annotation of genomes, transcription factor prediction, and application of deep learning to biological sequence analysis. The manuscript may also be of interest to microbiologists and molecular biologists studying gene regulation in fungi and bacteria, as the tool could assist in identifying candidate TFs in newly sequenced genomes.
+- **Major strengths**
+  - The hybrid CNN-BiLSTM architecture with attention is a sensible and modern approach to sequence classification, and the ablation study provides useful insight into the contribution of each component.
+  - The comparison against both a state-of-the-art deep learning tool (DeepTFactor) and traditional machine learning methods is valuable.
+  - The evaluation against experimentally characterized TFs in three fungal species adds biological relevance beyond purely computational metrics.
+  - The proposed bias-variance trade-off visualization is an interesting idea for assessing model reliability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Technical soundness / reproducibility
+  - **Claim pointer** The authors claim that DeepReg outperforms DeepTFactor and traditional ML methods across multiple metrics (Table 1, Table 4, Supplementary Table S4).
+  - **Evidence pointer** Table 1, Table 4, Supplementary Table S4 (not provided)
+  - **Concern** The comparison with DeepTFactor is performed using a dataset split (9:0.9:0.1) that differs from the original DeepTFactor protocol (8:1:1). While the authors also report results with an 8:1:1 split, the differences in training data composition, preprocessing, and hyperparameter tuning between the two models are not controlled. It is unclear whether the performance gains are due to the architectural improvements or to differences in training procedures, data augmentation, or regularization. Furthermore, the ML comparison uses a 40,000-sequence dataset whose composition and balance are not described in sufficient detail.
+  - **Why it matters** Without a controlled comparison, the claim of superior performance cannot be attributed to the proposed architecture. Reproducibility is a core requirement for computational biology tools.
+  - **Resolution test** Provide a detailed description of the exact training protocol for both DeepReg and DeepTFactor, including data preprocessing, hyperparameter optimization, and early stopping criteria. Report results with identical data splits and training conditions for both models. Describe the composition of the 40,000-sequence ML dataset, including class balance and source.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state that DeepReg shows "less variance and bias" than DeepTFactor based on the bull's-eye diagram (Figure 5).
+  - **Evidence pointer** Figure 5, Figure S1 (not provided)
+  - **Concern** The bias-variance trade-off analysis is presented qualitatively through a visual diagram. No quantitative metrics (e.g., calibration error, confidence intervals, or statistical tests) are provided to support the claim of lower variance and bias. The angular distribution of predictions is described but not justified as a meaningful measure. The cutoff radius for the displayed diagrams is not specified, and the full comparison in Figure S1 is not available for review.
+  - **Why it matters** The claim of improved reliability is central to the manuscript's contribution. A qualitative visual comparison is insufficient to establish statistical significance or practical relevance.
+  - **Resolution test** Provide quantitative measures of bias and variance (e.g., expected calibration error, Brier score, or decomposition of mean squared error) with confidence intervals. Perform statistical tests (e.g., bootstrap or McNemar's test) to compare the two models' predictions. Justify the angular distribution methodology or replace it with a standard reliability assessment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability / external validation
+  - **Claim pointer** The authors claim the model is suitable for predicting TFs in "eukaryotic and prokaryotic genomes" (title and abstract).
+  - **Evidence pointer** Table S3 (not provided), Figure 4
+  - **Concern** The experimental validation is limited to three fungal species (S. cerevisiae, N. crassa, A. nidulans). No experimental validation is provided for prokaryotic organisms, despite the title claiming applicability to both domains. The species-specific performance reported in Table S3 is not available for review, and the discussion of why performance differs between eukaryotes and prokaryotes is speculative.
+  - **Why it matters** The title and abstract make a broad claim about applicability to both prokaryotes and eukaryotes. Without experimental validation in prokaryotes, this claim is not supported by the evidence presented.
+  - **Resolution test** Provide experimental validation in at least one prokaryotic model organism (e.g., E. coli or B. subtilis) with a comparable set of experimentally characterized TFs. Alternatively, revise the title and abstract to reflect the actual scope of validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / methodology
+  - **Claim pointer** The authors describe the BiLSTM as predicting "a sequence at time instance t+1 based on a sequence at time instance t" and define the output as a predicted residue.
+  - **Evidence pointer** Methods section, "Deep learning techniques and architectures"
+  - **Concern** The description of the BiLSTM is confusing. The task is binary classification (TF vs non-TF), not sequence prediction. The equations presented (X, X' in I; BiLSTM(X)_k = X'_k+1) suggest a next-element prediction task, which does not align with the classification objective. This discrepancy may be a typographical error or a misunderstanding of the BiLSTM's role in the architecture.
+  - **Why it matters** The methods section must accurately describe the model architecture for reproducibility. The current description is internally inconsistent with the stated classification task.
+  - **Resolution test** Rewrite the BiLSTM description to clearly state that the BiLSTM processes the feature sequence extracted by the CNNs and produces a fixed-size representation for the final classification layer. Remove or correct the sequence prediction equations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states "DeepReg reached a precision of 0.99, a recall of 0.97, and an F1-score of 0.98" without specifying the data split or conditions under which these values were obtained. The introduction cites DeepTFactor and TFpredict but does not clearly position DeepReg relative to these tools in terms of input requirements (e.g., sequence-only vs. profile-based).
+  - **Required correction** Specify the data split and conditions for the reported metrics in the abstract. Clarify in the introduction how DeepReg differs from existing tools in terms of input features and architectural design.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Database construction with information on TFs"
+  - **Issue** The GO terms used to identify TFs are listed in Table S2, which is not provided. The criteria for including or excluding sequences (e.g., length filtering, redundancy removal) are not described. The random selection process for the 5:1 negative-to-positive ratio is not detailed.
+  - **Required correction** Provide the full list of GO terms in the main text or ensure Table S2 is available. Describe the sequence filtering and redundancy removal steps. Specify the random seed or selection procedure for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results, "DL architecture against the ML approach"
+  - **Evidence pointer** Tables 2 and 3
+  - **Issue** The ML comparison uses PCA with 2, 3, and 4 elements, but the rationale for these specific dimensions is not explained. The performance drop with PCA is noted but not discussed in terms of information loss or feature importance.
+  - **Required correction** Justify the choice of PCA dimensions. Discuss the trade-off between dimensionality reduction and classification performance in the context of the ML models used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and precision
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "Analysis of TFs with experimental evidence"
+  - **Issue** The sentence "DeepReg excludes possible overfitting by disappearing the effect of the lost function (discontinuous leaps) presented in DeepTFactor" is grammatically unclear and the meaning of "disappearing the effect of the lost function" is ambiguous. The claim that DeepTFactor exhibits "discontinuous leaps" in its loss function is not supported by any data shown in the manuscript.
+  - **Required correction** Rewrite the sentence for clarity, e.g., "DeepReg's training loss decreased smoothly without the discontinuous jumps observed for DeepTFactor, suggesting reduced overfitting." Provide evidence for the claim about DeepTFactor's loss behavior or remove it.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, comparison with TFnet
+  - **Issue** The comparison with TFnet is discussed only in the Discussion and not in the Results. No quantitative comparison is provided. The claim that PSSM-based input introduces bias is plausible but not empirically demonstrated.
+  - **Required correction** Either provide a quantitative comparison with TFnet in the Results or clearly state that a direct comparison was not performed and justify this decision. Support the claim about PSSM bias with citations or analysis.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "DeepReg model"
+  - **Evidence pointer** Methods, "DeepReg model"
+  - **Issue** The hyperparameter search space is described only as "many trial and error rounds" without specifics. The final hyperparameter values (e.g., number of filters, kernel sizes, LSTM units, dropout rates, learning rate schedule) are not listed in a table or in the text.
+  - **Required correction** Provide a table or list of final hyperparameters for the DeepReg model, including the ranges explored during tuning. This is essential for reproducibility.
+
+## Risk / unsupported claims
+- The claim that DeepReg outperforms DeepTFactor is not fully supported due to uncontrolled training conditions and dataset splits.
+- The claim of lower bias and variance compared to DeepTFactor is based on a qualitative visual analysis without quantitative statistical support.
+- The title's claim of applicability to "eukaryotic and prokaryotic genomes" is not supported by experimental validation in prokaryotes.
+- The description of the BiLSTM as a sequence predictor is inconsistent with the classification task and may indicate an error in the methods.
+- The claim that DeepTFactor exhibits "discontinuous leaps" in its loss function is not supported by any data presented.
+- The comparison with TFnet is qualitative and lacks quantitative evidence.
+- The performance metrics reported in the abstract (precision 0.99, recall 0.97, F1 0.98) are not tied to a specific data split or evaluation protocol, limiting their interpretability.

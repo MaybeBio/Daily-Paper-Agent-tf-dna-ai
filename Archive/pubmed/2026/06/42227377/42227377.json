@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "42227377",
+    "doi": "10.2174/0118715303451779260511203500",
+    "title": "Single-cell Sequencing and Machine Learning Identify Amino Acid Metabolism-related Biomarkers and Regulatory Mechanisms in Diabetic Foot Ulcers."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Diabetic foot ulcer (DFU) is a serious complication of diabetes with poor healing and high mortality, and effective diagnostic and treatment strategies are still insufficient. METHODS: Single-cell RNA sequencing dataset GSE165816 was processed for quality control, normalization, dimensionality reduction, clustering, and annotation. Keratinocyte subsets were analyzed using pseudotime trajectory inference, cell-cycle profiling, and assessment of transcription factor activity. Cell-cell communication was evaluated through cadherin signaling analysis. Differential expression and enrichment analyses were performed to identify subgroup-specific functional pathways. A bulk RNA sequencing dataset (GSE134431) was utilized to screen amino acid metabolism-related genes using machine learning approaches, followed by external dataset validation, ROC analysis, molecular docking, and qPCR. RESULTS: Single-cell RNA sequencing identified 13 cell types, among which keratinocytes showed significant heterogeneity. Four keratinocyte subsets were defined, among which Kera1 exhibited strong stemness, initiated differentiation toward Kera3, and showed distinct functional states across groups. Cell-cell communication analysis revealed enhanced cadherin signaling in DFU non-healing samples, particularly driven by Kera1 autocrine CDH1-CDH1 interactions. Transcription factor analysis highlighted CEBPA and KLF5 as key regulators of Kera1. Machine learning integrated with bulk RNA sequencing identified five amino acid metabolism-related genes (RPL13, ODC1, RPL22L1, GATM, GLUL) with diagnostic value. qPCR further confirmed the dysregulated expression of these genes in clinical samples. Molecular docking suggested ODC1 as a potential therapeutic target for Eflornithine. DISCUSSION: The identification of Kera1-driven cadherin signaling and five key metabolic biomarkers offers a mechanism-based framework for clinical diagnosis and targeted therapy, potentially shifting DFU management toward more precise, molecular-level interventions. CONCLUSION: Keratinocyte stemness and subtype-specific differentiation contribute to altered cadherin signaling in DFU, while key amino acid metabolism-related genes serve as diagnostic biomarkers and therapeutic targets.",
+    "keywords": [
+      "Single-cell sequencing",
+      "amino acid metabolism",
+      "cell-cell communication",
+      "diabetic foot ulcers",
+      "keratinocyte subsets",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Amino Acids/metabolism/genetics",
+      "*Machine Learning",
+      "*Diabetic Foot/metabolism/genetics/pathology/diagnosis",
+      "Keratinocytes/metabolism/pathology",
+      "Biomarkers/metabolism",
+      "*Single-Cell Analysis/methods",
+      "Single-Cell Gene Expression Analysis",
+      "Cadherins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Wenting",
+        "Xia, Zhengguo",
+        "Wang, Yin",
+        "Wang, Fan",
+        "Han, Feng"
+      ],
+      "short_names": [
+        "Wang W",
+        "Xia Z",
+        "Wang Y",
+        "Wang F",
+        "Han F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China.",
+        "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China.",
+        "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China.",
+        "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China.",
+        "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Wenting",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Zhengguo",
+        "short_name": "Xia Z",
+        "identifiers": [],
+        "affiliations": [
+          "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yin",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fan",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China."
+        ]
+      },
+      {
+        "full_name": "Han, Feng",
+        "short_name": "Han F",
+        "identifiers": [],
+        "affiliations": [
+          "Wound Repair & Plastic and Anesthetic Surgery, the First Affiliated Hospital of Anhui Medical University, North District, Hefei City, Anhui Province 230022, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine, metabolic & immune disorders drug targets"
+    ],
+    "journal_abbrev": [
+      "Endocr Metab Immune Disord Drug Targets"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 12:44",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [
+      "42670349"
+    ],
+    "refs": [],
+    "similar": [
+      "42227377",
+      "42045413",
+      "42103860",
+      "41465092",
+      "42459332",
+      "39543487",
+      "40616164",
+      "40024299",
+      "41503916",
+      "41940383",
+      "41310324",
+      "41686577",
+      "41504054",
+      "42292364",
+      "41583446",
+      "42024670",
+      "42298176",
+      "42600283",
+      "40487403",
+      "42040898",
+      "41572692",
+      "39102374",
+      "39991734",
+      "42136654",
+      "42358997",
+      "38468410",
+      "42003657",
+      "39557273",
+      "40354856",
+      "41246346",
+      "41716413",
+      "38862997",
+      "41272316",
+      "40703704",
+      "42142275",
+      "41183121",
+      "42059276",
+      "41807627",
+      "38287255",
+      "39409014",
+      "40742465",
+      "41436831",
+      "41905994",
+      "41198416",
+      "40749079",
+      "41025297",
+      "42670349",
+      "42642681",
+      "40420926",
+      "42693842",
+      "40722759",
+      "41944350",
+      "42568110",
+      "42260892",
+      "40796870",
+      "42458112",
+      "39509434",
+      "41432483",
+      "38613800",
+      "36686438",
+      "41921800",
+      "40349610",
+      "42361409",
+      "42531047",
+      "40745616",
+      "40374840",
+      "41208987",
+      "42399485",
+      "40612951",
+      "40276515",
+      "41322696",
+      "41983566",
+      "42098867",
+      "41706425",
+      "41913032",
+      "41735888",
+      "42589358",
+      "40124361",
+      "42577419",
+      "40121493",
+      "42737862",
+      "41255536",
+      "42600038",
+      "39697326",
+      "36443035",
+      "42429909",
+      "42475469",
+      "41739808",
+      "41027406",
+      "41088263",
+      "41409278",
+      "42317364",
+      "42553137",
+      "41291841",
+      "41918402",
+      "42233387",
+      "39730319",
+      "41221285",
+      "42412755",
+      "41601671"
+    ],
+    "review": [
+      "42227377"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabeticfoot.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Foot"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ODC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1599",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

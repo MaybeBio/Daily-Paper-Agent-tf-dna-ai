@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that a Mycobacterium-dominated system performs dissimilatory nitrate reduction to ammonium (DNRA) under fully aerobic conditions via sulfide oxidation. They propose that Mycobacterium lacks the oxygen-sensitive transcription factor Fnr and instead uses NarL to drive DNRA gene expression irrespective of oxygen availability. They further claim, based on structural and molecular-dynamics analyses, that the NarGHI complex in Mycobacterium has a narrowed and hydrophobic substrate channel that raises the O2 diffusion barrier and enhances nitrate-specific recognition, thereby protecting the catalytic site from oxidative damage.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond those stated, figures, tables, or supplementary information were accessible
+- **Missing materials affecting confidence** Full methods, strain and reactor descriptions, transcriptomic data and analysis details, structural coordinates, molecular-dynamics simulation parameters, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding aerobic DNRA in a Mycobacterium-dominated system and proposes a mechanistic explanation involving transcriptional regulation and structural adaptation. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The transcriptional and structural arguments are plausible but rest on assertions that cannot be evaluated without the underlying data. The link between the proposed structural feature and functional oxygen tolerance is particularly under-supported in the abstract. The work may be of interest to microbial ecologists and environmental engineers, but the case as presented is not fully established.
+- **Who would be interested in the results, and why** Researchers studying microbial nitrogen cycling, particularly those interested in aerobic or oxygen-tolerant anaerobic processes, would find the results relevant. Environmental microbiologists working on nitrate fate in wastewater treatment and agricultural systems may also be interested given the practical implications for nitrogen management. Structural biologists studying membrane-bound respiratory complexes and their adaptation to oxidative environments could find the NarGHI analysis of interest.
+- **Major strengths** The abstract addresses a timely and important question regarding the oxygen tolerance of a traditionally anaerobic process. The proposed dual mechanism, involving both transcriptional rewiring and structural adaptation, is conceptually interesting and offers a testable framework. The reported efficiency range and the observation of increasing efficiency with higher sulfide loads provide a quantitative anchor for the system's performance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The system converted 1.4-4.5 mmol of nitrate to ammonium per 100 mmol of sulfide oxidized under fully aerobic conditions with dissolved oxygen greater than 3 mg/L.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states these conversion values but provides no information on how they were measured, over what time scale, under what reactor configuration, or with what controls. It is unclear whether the reported range reflects replicate variability, different experimental conditions, or a single set of observations. The claim of fully aerobic conditions rests on a single dissolved oxygen threshold, and no information is given on how oxygen was maintained or monitored.
+  - **Why it matters** The central premise of the paper is that DNRA occurs under aerobic conditions. If the oxygen measurements were not robust or if the system experienced microaerophilic zones, the interpretation would be fundamentally compromised. Without methodological detail, the reader cannot assess whether the observed activity is genuinely oxygen-tolerant or an artifact of oxygen gradients.
+  - **Resolution test** Provide detailed methods for reactor operation, oxygen monitoring, and rate calculations. Show replicate data and statistical treatment. Demonstrate that dissolved oxygen remained above the stated threshold throughout the measurement period and that no anoxic microenvironments existed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** Transcriptomic analysis revealed strong upregulation of DNRA genes (narGHI, nirBD) in Mycobacterium in response to elevated sulfide, and that Mycobacterium uses the nitrite-responsive NarL to drive DNRA gene expression irrespective of oxygen availability.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts that NarL drives DNRA gene expression based on transcriptomic analysis, but no data are shown regarding gene expression levels, differential expression statistics, or functional validation of NarL's role. The absence of fnr in Mycobacterium is stated, but it is not clear how this was established, whether it applies to all Mycobacterium species in the system, or whether other oxygen-sensitive regulators might be present. The claim that NarL functions irrespective of oxygen availability requires direct experimental support, such as reporter assays or binding studies, which are not described.
+  - **Why it matters** The transcriptional mechanism is one of two pillars supporting the proposed oxygen-tolerance model. If NarL's role is inferred only from transcriptomic correlation, the causal claim is overreaching. The distinction between correlation and causation is critical here, as the authors are proposing a specific regulatory rewiring that departs from canonical DNRA organisms.
+  - **Resolution test** Provide differential expression data with statistical significance, demonstrate NarL binding to target promoters, and show that NarL activity is indeed oxygen-independent using appropriate in vitro or in vivo assays. If possible, include a mutant or knockdown comparison to establish causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** Structural and molecular-dynamics analysis of the Mycobacterium NarGHI complex reveals an evolutionarily adapted, distinctly narrowed, and highly hydrophobic substrate channel that protects the catalytic site from oxidative damage by raising the O2 diffusion free-energy barrier and enhancing nitrate-specific induced-fit recognition.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract makes a strong structural claim without presenting any structural data, such as crystal structures, cryo-EM maps, or homology models. The terms narrowed and highly hydrophobic are qualitative and not supported by quantitative comparisons with other NarGHI complexes. The molecular-dynamics results, including the calculated O2 diffusion free-energy barrier, are not described in any detail. It is impossible to assess whether the simulation methodology was appropriate, whether the barrier calculation was converged, or whether the comparison to canonical complexes was fair.
+  - **Why it matters** This structural argument is the second pillar of the proposed mechanism. If the structural features are not robustly demonstrated, the entire oxygen-tolerance model loses its mechanistic foundation. The claim of evolutionary adaptation requires a phylogenetic or comparative context that is not provided.
+  - **Resolution test** Present the structural model with validation metrics, compare the substrate channel dimensions and hydrophobicity quantitatively against at least one canonical NarGHI structure, and provide details of the molecular-dynamics simulations including force field, simulation length, and error estimates for the free-energy calculations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase horizontal line initiating enzyme of DNRA horizontal line appears to be a formatting artifact or an incomplete annotation. It is unclear what this is meant to convey.
+  - **Required correction** Replace with standard terminology, such as the initial enzyme of the DNRA pathway, or remove the annotation entirely.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextual framing
+  - **Affected element** Literature context
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions emerging evidence for aerobic DNRA but does not cite or contextualize prior work. It is unclear what is novel relative to existing reports of aerobic nitrate reduction.
+  - **Required correction** Briefly summarize prior observations of aerobic DNRA and explicitly state how this study advances beyond them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract claims implications for sustainable agriculture and wastewater treatment, but no data are presented that connect the findings to these applied contexts.
+  - **Required correction** Either temper the applied implications or provide a brief statement of how the findings might translate to these settings, based on the system's characteristics.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The quantitative performance claim, the transcriptional regulatory mechanism, and the structural basis for oxygen tolerance all require supporting data that are not visible in the abstract.
+- **Assessment against Nature-style criteria** Originality: The observation of aerobic DNRA in a Mycobacterium-dominated system and the proposed dual mechanism are conceptually novel, though prior reports of aerobic DNRA exist. Scientific importance: The work addresses a fundamental question in microbial nitrogen cycling and could have applied relevance, but the importance is contingent on the robustness of the mechanistic claims. Interdisciplinary readership: The topic bridges microbiology, environmental science, and structural biology, which could attract a broad audience if the evidence is compelling. Technical soundness: Cannot be assessed from the abstract alone; the structural and simulation claims in particular require rigorous validation. Readability for nonspecialists: The abstract is generally accessible, though the structural section is dense and would benefit from clearer framing for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the central claims regarding aerobic activity, transcriptional regulation, and structural adaptation cannot be verified without the full manuscript. A revised assessment would be possible upon review of the complete methods and results.
+
+## Risk / unsupported claims
+- The quantitative conversion range of 1.4-4.5 mmol nitrate to ammonium per 100 mmol sulfide oxidized is unsupported without methodological detail.
+- The claim that NarL drives DNRA gene expression irrespective of oxygen availability is unsupported without functional validation.
+- The structural description of the NarGHI substrate channel and the O2 diffusion free-energy barrier is unsupported without structural data and simulation details.
+- The statement that Mycobacterium lacks the fnr gene is unverifiable from the abstract.
+- The implication of evolutionary convergence with other anaerobic pathways is speculative and not supported by comparative data.
+- The applied implications for agriculture and wastewater treatment are not supported by any presented evidence.

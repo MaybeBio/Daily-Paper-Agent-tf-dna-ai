@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "37007588",
+    "doi": "10.1093/nargab/lqad026",
+    "title": "Transfer learning identifies sequence determinants of cell-type specific regulatory element accessibility."
+  },
+  "content": {
+    "abstract": "Dysfunction of regulatory elements through genetic variants is a central mechanism in the pathogenesis of disease. To better understand disease etiology, there is consequently a need to understand how DNA encodes regulatory activity. Deep learning methods show great promise for modeling of biomolecular data from DNA sequence but are limited to large input data for training. Here, we develop ChromTransfer, a transfer learning method that uses a pre-trained, cell-type agnostic model of open chromatin regions as a basis for fine-tuning on regulatory sequences. We demonstrate superior performances with ChromTransfer for learning cell-type specific chromatin accessibility from sequence compared to models not informed by a pre-trained model. Importantly, ChromTransfer enables fine-tuning on small input data with minimal decrease in accuracy. We show that ChromTransfer uses sequence features matching binding site sequences of key transcription factors for prediction. Together, these results demonstrate ChromTransfer as a promising tool for learning the regulatory code.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Salvatore, Marco",
+        "Horlacher, Marc",
+        "Marsico, Annalisa",
+        "Winther, Ole",
+        "Andersson, Robin"
+      ],
+      "short_names": [
+        "Salvatore M",
+        "Horlacher M",
+        "Marsico A",
+        "Winther O",
+        "Andersson R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7884-7135",
+        "ORCID: 0000-0003-1516-879X"
+      ],
+      "affiliations": [
+        "Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, 2200, Copenhagen, Denmark.",
+        "Abzu ApS, 2150, Copenhagen, Denmark.",
+        "Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, 2200, Copenhagen, Denmark.",
+        "Department of Computer Science, Technical University Munich, Munich, Germany.",
+        "Computational Health Center, Helmholtz Center Munich, Munich, Germany.",
+        "Computational Health Center, Helmholtz Center Munich, Munich, Germany.",
+        "Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, 2200, Copenhagen, Denmark.",
+        "Section for Cognitive Systems, DTU Compute, Technical University of Denmark, 2800 Kongens Lyngby, Denmark.",
+        "Department of Genomic medicine, Rigshospitalet, 2100 Copenhagen, Denmark.",
+        "Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, 2200, Copenhagen, Denmark.",
+        "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Salvatore, Marco",
+        "short_name": "Salvatore M",
+        "identifiers": [],
+        "affiliations": [
+          "Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, 2200, Copenhagen, Denmark.",
+          "Abzu ApS, 2150, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Horlacher, Marc",
+        "short_name": "Horlacher M",
+        "identifiers": [
+          "0000-0002-7884-7135"
+        ],
+        "affiliations": [
+          "Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, 2200, Copenhagen, Denmark.",
+          "Department of Computer Science, Technical University Munich, Munich, Germany.",
+          "Computational Health Center, Helmholtz Center Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Marsico, Annalisa",
+        "short_name": "Marsico A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Health Center, Helmholtz Center Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Winther, Ole",
+        "short_name": "Winther O",
+        "identifiers": [],
+        "affiliations": [
+          "Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, 2200, Copenhagen, Denmark.",
+          "Section for Cognitive Systems, DTU Compute, Technical University of Denmark, 2800 Kongens Lyngby, Denmark.",
+          "Department of Genomic medicine, Rigshospitalet, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Andersson, Robin",
+        "short_name": "Andersson R",
+        "identifiers": [
+          "0000-0003-1516-879X"
+        ],
+        "affiliations": [
+          "Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, 2200, Copenhagen, Denmark.",
+          "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/04 06:00",
+    "fetched_at": "2026-09-28 22:39:13"
+  },
+  "links": {
+    "cites": [
+      "41832145",
+      "41618434",
+      "40667078",
+      "40020686",
+      "39131276",
+      "38893257",
+      "38853998",
+      "38086418"
+    ],
+    "refs": [
+      "38086419",
+      "36482255",
+      "35576194",
+      "35551305",
+      "34987221",
+      "34850907",
+      "34650237",
+      "34608324",
+      "34579793",
+      "34554789",
+      "33796819",
+      "33603233",
+      "33046896",
+      "32728249",
+      "32728217",
+      "32687525",
+      "32197056",
+      "31605096",
+      "31510655",
+      "31249361",
+      "30971806",
+      "30013180",
+      "29618526",
+      "29588361",
+      "28187285",
+      "28117445",
+      "27863232",
+      "27197224",
+      "27137657",
+      "27008022",
+      "26445707",
+      "26433090",
+      "25948335",
+      "25693563",
+      "25678556",
+      "24670764",
+      "24670763",
+      "23950696",
+      "23864446",
+      "22955616",
+      "22868264",
+      "20110278",
+      "19468054",
+      "19274049",
+      "11356028",
+      "11158324",
+      "11091082",
+      "8836190",
+      "2331750"
+    ],
+    "similar": [
+      "37007588",
+      "39090688",
+      "37600946",
+      "37546906",
+      "39026761",
+      "34579793",
+      "30423062",
+      "37569400",
+      "38853998",
+      "33259518",
+      "35037276",
+      "38442554",
+      "35293310",
+      "33191916",
+      "29069282",
+      "37425760",
+      "36723807",
+      "36510125",
+      "26291518",
+      "32973041",
+      "36742147",
+      "35832620",
+      "31590652",
+      "22955984",
+      "34227303",
+      "36892770",
+      "33581335",
+      "31206543",
+      "36163001",
+      "39265217",
+      "33538820",
+      "37519689",
+      "38352499",
+      "37774694",
+      "34462306",
+      "38781390",
+      "37845780",
+      "38853896",
+      "35410163",
+      "21750106",
+      "36807077",
+      "36902216",
+      "28690910",
+      "34179082",
+      "25762337",
+      "38352184",
+      "28750606",
+      "27490187",
+      "34996354",
+      "30869141",
+      "32978299",
+      "27197224",
+      "39159140",
+      "28680085",
+      "38358392",
+      "28204611",
+      "33788674",
+      "35195064",
+      "37598467",
+      "38940155",
+      "30598689",
+      "22955983",
+      "26499213",
+      "34689829",
+      "27456004",
+      "26818008",
+      "38763356",
+      "33430978",
+      "38485768",
+      "26016777",
+      "28420341",
+      "23570689",
+      "35976093",
+      "33832990",
+      "38874032",
+      "23935528",
+      "37409107",
+      "39131276",
+      "35652477",
+      "30498429",
+      "35790841",
+      "36495179",
+      "37057112",
+      "29617928",
+      "39135093",
+      "22950945",
+      "37292820",
+      "30078726",
+      "36043696",
+      "32732264",
+      "38328126"
+    ],
+    "review": [
+      "37007588",
+      "35832620",
+      "34179082",
+      "26499213"
+    ],
+    "pmc": [
+      "10052367"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37007588/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37007588",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37007588",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqad026",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

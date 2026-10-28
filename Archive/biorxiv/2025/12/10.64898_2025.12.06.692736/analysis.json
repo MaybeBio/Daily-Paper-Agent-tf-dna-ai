@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.06.692736",
+  "title": "Generative design and construction of functional plasmids with a DNA language model",
+  "authors": "Angus G. Cunningham; Linda Dekker; Anastasiia Shcherbakova; Chris P. Barnes",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-07",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用DNA语言模型生成功能性质粒序列，虽涉及DNA序列设计但非蛋白质-DNA互作或TF-DNA结合机制研究，方法上AI生成与湿实验验证，与本课题关联较弱。",
+  "abstract": "DNA language models offer a new paradigm for sequence design, yet their ability to generate functional genomic sequences remains underexplored. Plasmids act as a good testbed for evaluating DNA language model generation potential due to their simplicity and ease of construction. Here, we develop an end-to-end pipeline for generative design of Escherichia coli plasmid backbones, from large-scale data curation through fine-tuning, sampling, bioinformatic assessment, and candidate selection. A curated plasmid library was assembled from PlasmidScope and Addgene, and PlasmidGPT, a GPT-2-style DNA model, was fine-tuned on these corpora using circular-aware batching and random crops. Generations (1,000 per model) were produced under two prompting strategies: a minimal ATG seed to expose default tendencies, and a GFP cassette to enforce functional context. From 1000 generated synthetic plasmids, 16 candidates survived strict filtering and these were prioritised for wet-lab validation. Three shortlisted plasmids were synthesised and found to be functional, supporting growth, antibiotic resistance, and GFP expression in E. coli . These represent, to our knowledge, the first full AI-generated plasmids to be synthesised and validated in vivo . This work demonstrates that curated fine-tuning and prompt-aware generation enable DNA language models to progress from raw sequence sampling to experimentally testable plasmid designs. The approach offers a foundation for extending DNA design optimisation beyond E. coli , toward broader applications across engineering biology.",
+  "abstract_zh": "DNA语言模型为序列设计提供了新范式，但其生成功能性基因组序列的能力仍未得到充分探索。质粒因其简单性和易于构建的特点，成为评估DNA语言模型生成潜力的良好测试平台。在此，我们开发了一个端到端的流程，用于大肠杆菌（Escherichia coli）质粒骨架的生成式设计，涵盖从大规模数据整理、微调、采样、生物信息学评估到候选筛选的全过程。我们从PlasmidScope和Addgene组装了一个精选质粒库，并使用循环感知批处理和随机裁剪，对PlasmidGPT（一种GPT-2风格的DNA模型）在这些语料库上进行了微调。在两种提示策略下生成了样本（每个模型1,000个）：一种是最小ATG种子以暴露默认倾向，另一种是GFP盒以强制功能上下文。从1,000个生成的合成质粒中，16个候选通过了严格筛选，并被优先用于湿实验验证。三个入围质粒被合成并证明具有功能性，支持大肠杆菌中的生长、抗生素抗性和GFP表达。据我们所知，这些是首批被合成并在体内验证的全AI生成质粒。这项工作表明，精选微调和提示感知生成使DNA语言模型能够从原始序列采样推进到可实验测试的质粒设计。该方法为将DNA设计优化扩展到大肠杆菌之外、面向工程生物学更广泛应用奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.06.692736",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.06.692736",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.06.692736/index.html"
+}

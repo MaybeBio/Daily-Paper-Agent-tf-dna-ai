@@ -1,0 +1,163 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.04.653638",
+  "title": "Interpreting the Effects of DNA Polymerase Variants at the Structural Level Using MAVISp and Molecular Dynamics Simulations",
+  "doi": "10.1101/2025.08.04.653638",
+  "abstract": "Genetic variants in the DNA polymerase enzymes POLE and POLD1 can affect protein function by altering stability, catalysis, DNA binding, and interactions with other biomolecules. Understanding the structural basis of these variants is important for a comprehensive interpretation of variant impact. In this study, we used MAVISp, a modular structure-based framework, and molecular dynamics simulations to analyze over 60,000 missense variants of POLE and POLD1. By integrating results from changes in folding and binding free energies, local alterations in the proximity of the active or phosphorylation sites, we provided a detailed structural interpretation of variants reported across various databases, including ClinVar, COSMIC, and cBioPortal. Moreover, we predicted the functional consequences of variants not found yet in disease-related databases, thereby creating a comprehensive catalogue for future studies. Of note, our approach enabled us to classify 364 Variants of Uncertain Significance (VUS) as PP3 evidence and 323 as BP4 evidence, in accordance with the American College of Medical Genetics and Genomics (ACMG) guidelines. Additionally, we identified a group of variants that could alter the native orientation of the residues within the catalytic site of the exonuclease domain, such as POLE variants P297S and P436R. Finally, we identified a group of variants predicted to affect DNA-binding affinity and rationalized their effects in terms of different energetic contributions and structural features. Collectively, our results not only advance our understanding of protein variant effects in POLE and POLD1 at the structural level but also support future studies aimed at variant classification, variant prioritization for experimental studies, and functional interpretation across diverse biological contexts.",
+  "authors": [
+    "Arnaudi M",
+    "Krzesińska K",
+    "Beltrame L",
+    "Besora PS",
+    "Tiberti M",
+    "Nilbert M",
+    "Rohlin A",
+    "Papaleo E"
+  ],
+  "published_date": "2025-08-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.04.653638",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.04.653638.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1062075",
+    "raw_record": {
+      "id": "PPR1062075",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.04.653638",
+      "title": "Interpreting the Effects of DNA Polymerase Variants at the Structural Level Using MAVISp and Molecular Dynamics Simulations",
+      "authorString": "Arnaudi M, Krzesińska K, Beltrame L, Besora PS, Tiberti M, Nilbert M, Rohlin A, Papaleo E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Arnaudi M",
+            "lastName": "Arnaudi",
+            "firstName": "Matteo",
+            "initials": "M"
+          },
+          {
+            "fullName": "Krzesińska K",
+            "lastName": "Krzesińska",
+            "firstName": "Karolina",
+            "initials": "K"
+          },
+          {
+            "fullName": "Beltrame L",
+            "lastName": "Beltrame",
+            "firstName": "Ludovica",
+            "initials": "L"
+          },
+          {
+            "fullName": "Besora PS",
+            "lastName": "Besora",
+            "firstName": "Pablo Sánchez-Izquierdo",
+            "initials": "PS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2529-3594"
+            }
+          },
+          {
+            "fullName": "Tiberti M",
+            "lastName": "Tiberti",
+            "firstName": "Matteo",
+            "initials": "M"
+          },
+          {
+            "fullName": "Nilbert M",
+            "lastName": "Nilbert",
+            "firstName": "Mef",
+            "initials": "M"
+          },
+          {
+            "fullName": "Rohlin A",
+            "lastName": "Rohlin",
+            "firstName": "Anna",
+            "initials": "A"
+          },
+          {
+            "fullName": "Papaleo E",
+            "lastName": "Papaleo",
+            "firstName": "Elena",
+            "initials": "E"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2529-3594"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-8493-9766"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Genetic variants in the DNA polymerase enzymes POLE and POLD1 can affect protein function by altering stability, catalysis, DNA binding, and interactions with other biomolecules. Understanding the structural basis of these variants is important for a comprehensive interpretation of variant impact. In this study, we used MAVISp, a modular structure-based framework, and molecular dynamics simulations to analyze over 60,000 missense variants of POLE and POLD1. By integrating results from changes in folding and binding free energies, local alterations in the proximity of the active or phosphorylation sites, we provided a detailed structural interpretation of variants reported across various databases, including ClinVar, COSMIC, and cBioPortal. Moreover, we predicted the functional consequences of variants not found yet in disease-related databases, thereby creating a comprehensive catalogue for future studies. Of note, our approach enabled us to classify 364 Variants of Uncertain Significance (VUS) as PP3 evidence and 323 as BP4 evidence, in accordance with the American College of Medical Genetics and Genomics (ACMG) guidelines. Additionally, we identified a group of variants that could alter the native orientation of the residues within the catalytic site of the exonuclease domain, such as POLE variants P297S and P436R. Finally, we identified a group of variants predicted to affect DNA-binding affinity and rationalized their effects in terms of different energetic contributions and structural features. Collectively, our results not only advance our understanding of protein variant effects in POLE and POLD1 at the structural level but also support future studies aimed at variant classification, variant prioritization for experimental studies, and functional interpretation across diverse biological contexts.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/08/04/2025.08.04.653638.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.04.653638"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-05",
+      "firstPublicationDate": "2025-08-04",
+      "firstIndexDate": "2025-08-05",
+      "hasEvaluations": "Y"
+    }
+  }
+}

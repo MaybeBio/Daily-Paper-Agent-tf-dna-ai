@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and methods, Results, Discussion, Conclusion) as provided, without figures, tables, or supplementary materials.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report the cloning and characterization of a STAT1a homolog from rohu (Labeo rohita), including sequence analysis, tissue expression profiling after poly I:C stimulation, and in silico structural modeling with molecular docking and dynamics simulations focused on SH2 domain recognition.
+- **Visible evidence base** Text descriptions of methods and results, including sequence length, expression patterns, docking energy values, RMSD and RMSF profiles, and interaction residue lists. Figures and tables are referenced but not visible.
+- **Missing materials affecting confidence** All figures, tables, supplementary data, sequence alignments, and statistical analysis outputs are not available. The full-length CDS sequence is not shown in the text. Details of primer sequences, PCR conditions, and qPCR validation are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward cloning and expression study of a fish STAT1a gene, combined with computational modeling. The experimental work is descriptive and largely confirmatory of known STAT biology in teleosts. The computational component is presented with insufficient methodological detail and the interpretation of the dynamics results is not well supported. The manuscript contains multiple internal inconsistencies, including duplicated sections, contradictory statements about the CDS length, and unclear descriptions of the experimental design. The scientific advance over existing fish STAT1 studies is incremental.
+- **Who would be interested in the results, and why** Researchers working on teleost innate immunity, particularly those studying interferon signaling pathways in aquaculture species. The tissue expression data after poly I:C stimulation may be of interest to fish immunologists. The structural modeling is of limited interest to a broad audience.
+- **Major strengths** The study addresses a species of economic importance (Indian major carp) for which limited STAT data exist. The use of both experimental expression analysis and computational modeling provides a combined approach. The identification of conserved SH2 domain residues is a useful observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and data integrity
+  - **Claim pointer** The manuscript claims that "poly I: C dramatically increased the expression of LrSTAT1a in nearly every organ and tissue" and that expression peaked on day 2.
+  - **Evidence pointer** Results section, Figures 2, 3, and 4 (not visible)
+  - **Concern** The experimental design is described inconsistently. The text states "Twenty-one fish was given intraperitoneal (IP) injections" and "Each day we collected the tissue samples from 6 nos. of fish where three nos. fish treated and 3nos. fish from control." This implies 3 treated fish per time point across 7 time points, totaling 21 treated fish, but the control group is not clearly accounted for. The total number of fish and the sampling scheme are ambiguous. Additionally, the text mentions both "semi-quantitative PCR" and "qRT-PCR" but does not clearly distinguish the two methods or their respective results. The claim of "dramatic" upregulation is not supported by any visible statistical analysis or effect size data.
+  - **Why it matters** Without a clear and consistent experimental design, the expression results cannot be interpreted or reproduced. The lack of statistical detail undermines the central experimental claim of the paper.
+  - **Resolution test** Provide a clear description of the number of fish per group per time point, the total number of fish used, and the statistical tests applied. Show the raw expression data and statistical significance values for each tissue and time point.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Sequence characterization and data availability
+  - **Claim pointer** The manuscript claims a "full-length CDS of Labeo rohita STAT1a (LrSTAT1a) transcript consisted of 3238 bp that encoded a polypeptide of 721 amino acids sequence."
+  - **Evidence pointer** Results section, Figure 5 (not visible)
+  - **Concern** The reported CDS length of 3238 bp is inconsistent with the stated ORF of 2166 bp encoding 721 amino acids. A 721 amino acid protein requires an ORF of 2166 bp (721 x 3), which matches the ORF statement, but the total CDS of 3238 bp is much larger. The text later states "an ORF possessing 2166 base pairs, the encoding with 721 amino acids protein of 928 base pairs, to 3'-UTR," which is confusing and internally contradictory. The relationship between the 3238 bp CDS, the 2166 bp ORF, and the 928 bp 3'-UTR is not clearly explained. The actual sequence is not shown in the text and is only available via GenBank accession.
+  - **Why it matters** The central molecular characterization claim is the identification of the full-length CDS. The inconsistencies in the reported lengths and the lack of sequence information in the manuscript prevent verification of the core finding.
+  - **Resolution test** Clarify the exact lengths of the 5'-UTR, ORF, and 3'-UTR. Provide the full CDS sequence in the manuscript or supplementary material. Ensure all length values are consistent throughout the text.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology and interpretation
+  - **Claim pointer** The manuscript claims that "the MD study highlighted the significance of the STAT1a protein, which is responsible for Src homology 2 (SH2) recognition" and that specific residues form "an important H-bonding that successfully retains SH2 inside the STAT1a binding cavity."
+  - **Evidence pointer** Methods section (Molecular docking studies, Molecular dynamic simulation), Results section, Figures 9-17 (not visible)
+  - **Concern** The description of the computational methods is insufficient. The template used for homology modeling is not specified. The docking protocol is described only as "default docking algorithms" with no mention of grid box dimensions, exhaustiveness, or scoring function. The MD simulation parameters are partially described but the equilibration protocol is unclear. The interpretation of the RMSD and RMSF data is superficial. The claim that specific residues "retain" SH2 in the binding cavity is an overinterpretation of a static docking result followed by a single 100 ns simulation. The functional significance of the identified hydrogen bonds is not experimentally validated.
+  - **Why it matters** The computational results are presented as a major finding of the paper, but the methodology is not described with sufficient detail to be reproduced or evaluated. The interpretation overreaches what can be concluded from a single docking and MD run.
+  - **Resolution test** Provide full details of the modeling template, docking parameters, and MD simulation setup. Show the structural alignment of the model with the template. Discuss the limitations of the computational approach and avoid functional claims that are not experimentally supported.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency and manuscript structure
+  - **Claim pointer** The manuscript contains two separate "Introduction" sections and the Discussion contains statements about embryonic expression that are not supported by the presented results.
+  - **Evidence pointer** Introduction (two occurrences), Discussion section
+  - **Concern** The manuscript has a duplicated Introduction section. The first Introduction is brief and the second is more detailed, but both are present in the text. In the Discussion, the authors state "It was possible to detect LrSTAT1 expression in every embryonic stage, including the fertilised egg. The high level of LrSTAT1 expression at 120 hpf suggested that LrSTAT1 would become increasingly significant after embryogenesis." No embryonic expression data are presented in the Results section. This appears to be a claim from another study or an error.
+  - **Why it matters** Duplicated sections and unsupported claims in the Discussion indicate poor manuscript preparation and reduce confidence in the accuracy of the reported work.
+  - **Resolution test** Remove the duplicate Introduction. Remove or clearly attribute the embryonic expression claims to other studies. Ensure all statements in the Discussion are supported by the Results or properly cited.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The phrase "unveiling expression profiles" in the title and abstract is vague. The abstract does not provide quantitative results or specific findings.
+  - **Required correction** Revise the title and abstract to include specific quantitative findings, such as the fold-change values for the most responsive tissues.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology detail
+  - **Affected element** Materials and methods, qPCR analysis
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The qPCR reaction mixture description is confusing. The text states "0.5µl of 25 nanomolar for each forward and reverse primer, 2x asymmetrical cyanine dye, 5µl of SYBR Green, 1µl of master mixture (Roche Germany), 1mg/µl of cDNA and 3µl of nuclease-free water." The concentration of cDNA is given as 1 mg/µl, which is likely a typo for 1 µg/µl. The total reaction volume is not stated.
+  - **Required correction** Correct the cDNA concentration unit and specify the total reaction volume. Clarify the role of the "asymmetrical cyanine dye" in the SYBR Green reaction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, Figures 2-4 (not visible)
+  - **Issue** The text states "statistical analysis showed a positive difference (p<0.05)" but does not specify which test was used, how many biological replicates were analyzed, or whether multiple testing corrections were applied.
+  - **Required correction** Provide details of the statistical test used, the number of replicates, and the error bars shown in the figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference accuracy
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion cites "Sobhkhez et al. (2014)" for the finding of three STAT2 homologs in Atlantic salmon, but this reference is not listed in the reference list provided.
+  - **Required correction** Add the full reference for Sobhkhez et al. (2014) to the reference list.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 14 and 15 (not visible)
+  - **Evidence pointer** Results section
+  - **Issue** The text describes RMSD and RMSF plots but does not state which protein regions correspond to the observed fluctuations. The figures are not visible for assessment.
+  - **Required correction** In the figure legends, annotate the domain boundaries of STAT1a so that the RMSF data can be interpreted in a structural context.
+
+## Risk / unsupported claims
+- The claim that "poly I: C dramatically increased the expression of LrSTAT1a in nearly every organ and tissue" is not supported by visible quantitative data or statistical analysis.
+- The claim that specific residues "successfully retain SH2 inside the STAT1a binding cavity" is an overinterpretation of computational results without experimental validation.
+- The statement in the Discussion about embryonic expression of LrSTAT1 at 120 hpf is not supported by any data presented in the Results.
+- The claim that the generated protein model "revealed that the modelled L. rohu STAT1a is a member of a sizable SH2 family" is trivial and not a meaningful finding.
+- The functional significance of the identified hydrogen bonds for SH2 recognition is not experimentally tested and cannot be assessed from the provided information.

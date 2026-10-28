@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42289970",
+  "title": "GRNContext: an interactive web platform for contextualized gene regulatory networks visualization across human cancers.",
+  "authors": "Pezoa-Soto, Ignacio; Hernandez-Galaz, Sergio; De Las Rivas, Javier; Lladser, Alvaro; Varas-Godoy, Manuel; Martin, Alberto J M",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-06-15",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建了跨癌症类型的基因调控网络可视化平台，利用机器学习整合TCGA转录组推断TF-靶基因调控活性，虽涉及TF-DNA调控关系但缺乏三维互作建模与结合机制研究，方法可迁移但深度有限。",
+  "abstract": "SUMMARY: While current Gene Regulatory Network (GRN) databases provide comprehensive reference maps of potential interactions between transcription factors and target genes, they do not specify which regulatory interactions are active within specific biological contexts. This limitation is particularly critical in cancer, where transcriptional programs are inherently tissue-specific. To address this gap, we developed GRNContext, an interactive web platform designed for the visualization, exploration, and comparative analysis of gene regulatory networks contextualized across 33 cancer types from The Cancer Genome Atlas (TCGA). Our approach uses the TFLink human reference GRN as a starting point and integrates TCGA transcriptomic profiles to infer cancer-specific regulatory activity. Regulatory relevance was assessed using complementary machine learning and statistical methods, which were unified into a consensus score to prioritize and filter the most relevant candidate regulators for each target gene. By providing both curated context-specific GRNs and a user-friendly platform, GRNContext constitutes a comprehensive and accessible resource that supports mechanistic investigations, hypothesis generation, and translational research focused on transcriptional regulation in cancer. AVAILABILITY AND IMPLEMENTATION: GRNContext is supported by all major browsers and freely available on the web at https://apps.cienciavida.org/grncontext. It is implemented as a client-server web application featuring a FastAPI backend and a React frontend utilizing Cytoscape.js for interactive network visualization, all containerized via Docker for cross-platform compatibility.",
+  "abstract_zh": "摘要：尽管当前的基因调控网络（Gene Regulatory Network, GRN）数据库提供了转录因子与靶基因之间潜在相互作用的全面参考图谱，但它们并未指明哪些调控相互作用在特定生物学背景下是活跃的。这一局限性在癌症中尤为关键，因为癌症中的转录程序本质上具有组织特异性。为解决这一空白，我们开发了GRNContext，一个交互式网络平台，旨在对来自癌症基因组图谱（The Cancer Genome Atlas, TCGA）的33种癌症类型中情境化的基因调控网络进行可视化、探索和比较分析。我们的方法以TFLink人类参考GRN为起点，并整合TCGA转录组谱来推断癌症特异性的调控活性。调控相关性通过互补的机器学习和统计方法进行评估，这些方法被统一为一个共识评分，以优先排序和筛选每个靶基因最相关的候选调控因子。通过提供精选的情境特异性GRN和用户友好的平台，GRNContext构成了一种全面且可访问的资源，支持聚焦于癌症转录调控的机制研究、假设生成和转化研究。可用性与实现：GRNContext受所有主流浏览器支持，并在网上免费提供，网址为https://apps.cienciavida.org/grncontext。它实现为客户端-服务器网络应用，具有FastAPI后端和利用Cytoscape.js进行交互式网络可视化的React前端，所有组件均通过Docker容器化以实现跨平台兼容性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42289970/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42289970/",
+  "paper_page_path": "papers/pubmed/42289970/index.html"
+}

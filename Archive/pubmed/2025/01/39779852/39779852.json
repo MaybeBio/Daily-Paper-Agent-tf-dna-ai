@@ -1,0 +1,545 @@
+{
+  "identity": {
+    "pmid": "39779852",
+    "doi": "10.1038/s41586-024-08391-z",
+    "title": "A foundation model of transcription across human cell types."
+  },
+  "content": {
+    "abstract": "Transcriptional regulation, which involves a complex interplay between regulatory sequences and proteins, directs all biological processes. Computational models of transcription lack generalizability to accurately extrapolate to unseen cell types and conditions. Here we introduce GET (general expression transformer), an interpretable foundation model designed to uncover regulatory grammars across 213 human fetal and adult cell types(1,2). Relying exclusively on chromatin accessibility data and sequence information, GET achieves experimental-level accuracy in predicting gene expression even in previously unseen cell types(3). GET also shows remarkable adaptability across new sequencing platforms and assays, enabling regulatory inference across a broad range of cell types and conditions, and uncovers universal and cell-type-specific transcription factor interaction networks. We evaluated its performance in prediction of regulatory activity, inference of regulatory elements and regulators, and identification of physical interactions between transcription factors and found that it outperforms current models(4) in predicting lentivirus-based massively parallel reporter assay readout(5,6). In fetal erythroblasts(7), we identified distal (greater than 1 Mbp) regulatory regions that were missed by previous models, and, in B cells, we identified a lymphocyte-specific transcription factor-transcription factor interaction that explains the functional significance of a leukaemia risk predisposing germline mutation(8-10). In sum, we provide a generalizable and accurate model for transcription together with catalogues of gene regulation and transcription factor interactions, all with cell type specificity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription, Genetic/genetics",
+      "Transcription Factors/metabolism",
+      "Chromatin/metabolism/genetics",
+      "*Models, Genetic",
+      "*Gene Expression Regulation",
+      "Fetus/cytology/metabolism",
+      "Organ Specificity/genetics",
+      "Gene Regulatory Networks",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Xi",
+        "Mo, Shentong",
+        "Buendia, Alejandro",
+        "Laurent, Anouchka P",
+        "Shao, Anqi",
+        "Alvarez-Torres, Maria Del Mar",
+        "Yu, Tianji",
+        "Tan, Jimin",
+        "Su, Jiayu",
+        "Sagatelian, Romella",
+        "Ferrando, Adolfo A",
+        "Ciccia, Alberto",
+        "Lan, Yanyan",
+        "Owens, David M",
+        "Palomero, Teresa",
+        "Xing, Eric P",
+        "Rabadan, Raul"
+      ],
+      "short_names": [
+        "Fu X",
+        "Mo S",
+        "Buendia A",
+        "Laurent AP",
+        "Shao A",
+        "Alvarez-Torres MDM",
+        "Yu T",
+        "Tan J",
+        "Su J",
+        "Sagatelian R",
+        "Ferrando AA",
+        "Ciccia A",
+        "Lan Y",
+        "Owens DM",
+        "Palomero T",
+        "Xing EP",
+        "Rabadan R"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-6562-9876",
+        "ORCID: 0000-0001-7726-4723",
+        "ORCID: 0000-0003-4789-6564",
+        "ORCID: 0000-0003-0297-4370",
+        "ORCID: 0000-0001-7946-9255"
+      ],
+      "affiliations": [
+        "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA. xf2217@cumc.columbia.edu.",
+        "Department of Biomedical Informatics, Columbia University, New York, NY, USA. xf2217@cumc.columbia.edu.",
+        "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE.",
+        "Department of Machine Learning, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+        "Department of Dermatology, Columbia University, New York, NY, USA.",
+        "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Institute for Systems Genetics, New York University Grossman School of Medicine, New York, NY, USA.",
+        "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+        "Regeneron Genetics Center, Regeneron, Tarrytown, NY, USA.",
+        "Department of Genetics and Development, Columbia University, New York, NY, USA.",
+        "Institute for AI Industry Research, Tsinghua University, Beijing, China.",
+        "Beijing Frontier Research Center for Biological Structure, Tsinghua University, Beijing, China.",
+        "Department of Dermatology, Columbia University, New York, NY, USA.",
+        "Department of Pathology and Cell Biology, Columbia University, New York, NY, USA.",
+        "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+        "Department of Pathology and Cell Biology, Columbia University, New York, NY, USA.",
+        "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE. epxing@cs.cmu.edu.",
+        "Department of Machine Learning, Carnegie Mellon University, Pittsburgh, PA, USA. epxing@cs.cmu.edu.",
+        "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA. rr2579@cumc.columbia.edu.",
+        "Department of Biomedical Informatics, Columbia University, New York, NY, USA. rr2579@cumc.columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Xi",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA. xf2217@cumc.columbia.edu.",
+          "Department of Biomedical Informatics, Columbia University, New York, NY, USA. xf2217@cumc.columbia.edu."
+        ]
+      },
+      {
+        "full_name": "Mo, Shentong",
+        "short_name": "Mo S",
+        "identifiers": [],
+        "affiliations": [
+          "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE.",
+          "Department of Machine Learning, Carnegie Mellon University, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Buendia, Alejandro",
+        "short_name": "Buendia A",
+        "identifiers": [
+          "0009-0001-6562-9876"
+        ],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Laurent, Anouchka P",
+        "short_name": "Laurent AP",
+        "identifiers": [
+          "0000-0001-7726-4723"
+        ],
+        "affiliations": [
+          "Institute for Cancer Genetics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Shao, Anqi",
+        "short_name": "Shao A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Alvarez-Torres, Maria Del Mar",
+        "short_name": "Alvarez-Torres MDM",
+        "identifiers": [],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Tianji",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Jimin",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, New York University Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Su, Jiayu",
+        "short_name": "Su J",
+        "identifiers": [],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Sagatelian, Romella",
+        "short_name": "Sagatelian R",
+        "identifiers": [],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ferrando, Adolfo A",
+        "short_name": "Ferrando AA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+          "Regeneron Genetics Center, Regeneron, Tarrytown, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ciccia, Alberto",
+        "short_name": "Ciccia A",
+        "identifiers": [
+          "0000-0003-4789-6564"
+        ],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Lan, Yanyan",
+        "short_name": "Lan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for AI Industry Research, Tsinghua University, Beijing, China.",
+          "Beijing Frontier Research Center for Biological Structure, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Owens, David M",
+        "short_name": "Owens DM",
+        "identifiers": [
+          "0000-0003-0297-4370"
+        ],
+        "affiliations": [
+          "Department of Dermatology, Columbia University, New York, NY, USA.",
+          "Department of Pathology and Cell Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Palomero, Teresa",
+        "short_name": "Palomero T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+          "Department of Pathology and Cell Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Xing, Eric P",
+        "short_name": "Xing EP",
+        "identifiers": [],
+        "affiliations": [
+          "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE. epxing@cs.cmu.edu.",
+          "Department of Machine Learning, Carnegie Mellon University, Pittsburgh, PA, USA. epxing@cs.cmu.edu."
+        ]
+      },
+      {
+        "full_name": "Rabadan, Raul",
+        "short_name": "Rabadan R",
+        "identifiers": [
+          "0000-0001-7946-9255"
+        ],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA. rr2579@cumc.columbia.edu.",
+          "Department of Biomedical Informatics, Columbia University, New York, NY, USA. rr2579@cumc.columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/09 00:22",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "42699656",
+      "42656953",
+      "42595785",
+      "42544445",
+      "42538377",
+      "42509369",
+      "42467984",
+      "42448699",
+      "42395355",
+      "42387167",
+      "42277006",
+      "42265208",
+      "42204361",
+      "42194040",
+      "42171013",
+      "42079234",
+      "42069651",
+      "42066955",
+      "41986626",
+      "41953641",
+      "41909952",
+      "41862602",
+      "41795653",
+      "41639451",
+      "41639429",
+      "41628239",
+      "41615288",
+      "41592570",
+      "41592567",
+      "41502213",
+      "41478876",
+      "41422220",
+      "41296545",
+      "41279614",
+      "41277691",
+      "41255572",
+      "41229302",
+      "41202819",
+      "41167886",
+      "41165609",
+      "41145510",
+      "41029360",
+      "41028523",
+      "40999099",
+      "40935732",
+      "40832322",
+      "40795310",
+      "40748323",
+      "40675817",
+      "40672290",
+      "40671942",
+      "40563902",
+      "40530265",
+      "40528892",
+      "40520600",
+      "40462903",
+      "40376425",
+      "40360798",
+      "40261968",
+      "40236839",
+      "40092660",
+      "39975086"
+    ],
+    "refs": [
+      "38844628",
+      "38409223",
+      "38159566",
+      "37914932",
+      "37532915",
+      "37258680",
+      "36927031",
+      "36624151",
+      "36608654",
+      "35902733",
+      "35551308",
+      "35549404",
+      "35273146",
+      "35140242",
+      "34774128",
+      "34608324",
+      "34265844",
+      "34172753",
+      "33958780",
+      "33828297",
+      "33796864",
+      "33633365",
+      "33184181",
+      "33184180",
+      "33139955",
+      "32728250",
+      "32687525",
+      "32641802",
+      "32098872",
+      "31784727",
+      "31381561",
+      "31066453",
+      "30643249",
+      "30476243",
+      "30200835",
+      "30013180",
+      "29516480",
+      "28787426",
+      "28011774",
+      "26963603",
+      "26912792",
+      "26675734",
+      "26301843",
+      "25753752",
+      "25319994",
+      "24013638",
+      "23582333",
+      "23334668",
+      "22669466",
+      "21552207",
+      "18798982",
+      "18209069",
+      "17658281",
+      "17344859",
+      "16546096",
+      "15641773",
+      "15297311"
+    ],
+    "similar": [
+      "39779852",
+      "39005360",
+      "42475469",
+      "42234579",
+      "33874910",
+      "22955983",
+      "25228660",
+      "34244796",
+      "31053165",
+      "41592570",
+      "22955984",
+      "22456606",
+      "23482648",
+      "33184180",
+      "24042128",
+      "39337329",
+      "33074101",
+      "34774128",
+      "39326643",
+      "37788349",
+      "29482603",
+      "41951735",
+      "33978759",
+      "11491305",
+      "41260212",
+      "27831498",
+      "18682805",
+      "28204611",
+      "42560939",
+      "19126674",
+      "30359306",
+      "8132552",
+      "39814889",
+      "38012720",
+      "41288963",
+      "23512712",
+      "24342920",
+      "20808951",
+      "28750606",
+      "9581539",
+      "42243114",
+      "41429956",
+      "41105015",
+      "23595227",
+      "26818008",
+      "39814021",
+      "32578841",
+      "34292930",
+      "35293310",
+      "41639451",
+      "21073238",
+      "21750106",
+      "27468897",
+      "35410163",
+      "31631012",
+      "28576882",
+      "26170447",
+      "21637747",
+      "22934649",
+      "42448699",
+      "38358392",
+      "39090688",
+      "7507210",
+      "38653489",
+      "31682597",
+      "42478686",
+      "21177974",
+      "26502339",
+      "8369280",
+      "32376693",
+      "22537144",
+      "41632074",
+      "41093852",
+      "14680477",
+      "23531767",
+      "8455611",
+      "23046631",
+      "21106904",
+      "16966362",
+      "22761590",
+      "40029523",
+      "16817975",
+      "39207727",
+      "32054475",
+      "28212748",
+      "33004791",
+      "12596908",
+      "38806476",
+      "30593493",
+      "29030344",
+      "19910494",
+      "30598101",
+      "25707768",
+      "41006627",
+      "36902216",
+      "41365655",
+      "24564528",
+      "42271487",
+      "29229750",
+      "30598689"
+    ],
+    "review": [
+      "39779852",
+      "24342920",
+      "22934649",
+      "39207727"
+    ],
+    "pmc": [
+      "11754112"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-024-08391-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39779852/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39779852",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1475",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

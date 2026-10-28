@@ -1,0 +1,334 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.12.516264",
+  "title": "Small proteome of the nitrogen-fixing plant symbiont Sinorhizobium meliloti",
+  "doi": "10.1101/2022.11.12.516264",
+  "abstract": "<h4>ABSTRACT</h4> The soil-dwelling plant symbiont Sinorhizobium meliloti is a major model organism of Alphaproteobacteria. Despite numerous detailed OMICS studies, information about small open reading frame (sORF)-encoded proteins (SEPs) is largely missing, because sORFs are poorly annotated, and SEPs are hard to detect experimentally. However, given that SEPs can fulfill important functions, cataloging the full complement of translated sORFs is critical for analyzing their roles in bacterial physiology. Ribosome profiling (Ribo-seq) can detect translated sORFs with high sensitivity, but is not yet routinely applied to bacteria because it must be adapted for each species. Here, we established a Ribo-seq procedure for S. meliloti 2011 based on RNase I digestion and detected translation for 60% of the annotated coding sequences during growth in minimal medium. Using ORF prediction tools based on Ribo-seq data, subsequent filtering, and manual curation, the translation of 37 non-annotated sORFs with ≤ 70 amino acids was predicted with high confidence. The Ribo-seq data were supplemented by mass spectrometry (MS) analyses from three sample preparation approaches and two integrated proteogenomic search databases (iPtgxDBs). Searches against a standard and a 20-fold smaller Ribo-seq data-informed custom iPtgxDB confirmed many annotated SEPs and identified 11 additional novel SEPs. Epitope tagging and Western blot analysis confirmed the translation of 15 out of 20 SEPs selected from the translatome map. Overall, by applying MS and Ribo-seq as complementary approaches, the small proteome of S. meliloti was substantially expanded by 48 novel SEPs. Several of them are conserved from Rhizobiaceae to Bacteria, suggesting important physiological functions.",
+  "authors": [
+    "Hadjeras L",
+    "Heiniger B",
+    "Maaß S",
+    "Scheuer R",
+    "Gelhausen R",
+    "Azarderakhsh S",
+    "Barth-Weber S",
+    "Backofen R",
+    "Becher D",
+    "Ahrens CH",
+    "Sharma CM",
+    "Evguenieva-Hackenberg E"
+  ],
+  "published_date": "2022-11-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.12.516264",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.12.516264.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR570701",
+    "raw_record": {
+      "id": "PPR570701",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR570701"
+        ]
+      },
+      "doi": "10.1101/2022.11.12.516264",
+      "title": "Small proteome of the nitrogen-fixing plant symbiont  <i>Sinorhizobium meliloti</i>",
+      "authorString": "Hadjeras L, Heiniger B, Maaß S, Scheuer R, Gelhausen R, Azarderakhsh S, Barth-Weber S, Backofen R, Becher D, Ahrens CH, Sharma CM, Evguenieva-Hackenberg E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hadjeras L",
+            "lastName": "Hadjeras",
+            "firstName": "Lydia",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Infection Biology, University of Würzburg, 97080 Würzburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heiniger B",
+            "lastName": "Heiniger",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Ecology, Agroscope and SIB Swiss Institute of Bioinformatics, 8046 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maaß S",
+            "lastName": "Maaß",
+            "firstName": "Sandra",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Greifswald, 17489 Greifswald, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Scheuer R",
+            "lastName": "Scheuer",
+            "firstName": "Robina",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology and Molecular Biology, University of Giessen, 35392 Giessen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gelhausen R",
+            "lastName": "Gelhausen",
+            "firstName": "Rick",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4161-4394"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Group, Department of Computer Science, University of Freiburg, 79110 Freiburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Azarderakhsh S",
+            "lastName": "Azarderakhsh",
+            "firstName": "Saina",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology and Molecular Biology, University of Giessen, 35392 Giessen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barth-Weber S",
+            "lastName": "Barth-Weber",
+            "firstName": "Susanne",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology and Molecular Biology, University of Giessen, 35392 Giessen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Backofen R",
+            "lastName": "Backofen",
+            "firstName": "Rolf",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8231-3323"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Group, Department of Computer Science, University of Freiburg, 79110 Freiburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Becher D",
+            "lastName": "Becher",
+            "firstName": "Dörte",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9630-5735"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Greifswald, 17489 Greifswald, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ahrens CH",
+            "lastName": "Ahrens",
+            "firstName": "Christian",
+            "initials": "CH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8148-7257"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Ecology, Agroscope and SIB Swiss Institute of Bioinformatics, 8046 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sharma CM",
+            "lastName": "Sharma",
+            "firstName": "Cynthia",
+            "initials": "CM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Infection Biology, University of Würzburg, 97080 Würzburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Evguenieva-Hackenberg E",
+            "lastName": "Evguenieva-Hackenberg",
+            "firstName": "Elena",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Greifswald, 17489 Greifswald, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8231-3323"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6573-1088"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8148-7257"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9630-5735"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4161-4394"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  The soil-dwelling plant symbiont  Sinorhizobium meliloti is a major model organism of Alphaproteobacteria. Despite numerous detailed OMICS studies, information about small open reading frame (sORF)-encoded proteins (SEPs) is largely missing, because sORFs are poorly annotated, and SEPs are hard to detect experimentally. However, given that SEPs can fulfill important functions, cataloging the full complement of translated sORFs is critical for analyzing their roles in bacterial physiology. Ribosome profiling (Ribo-seq) can detect translated sORFs with high sensitivity, but is not yet routinely applied to bacteria because it must be adapted for each species. Here, we established a Ribo-seq procedure for  S. meliloti 2011 based on RNase I digestion and detected translation for 60% of the annotated coding sequences during growth in minimal medium. Using ORF prediction tools based on Ribo-seq data, subsequent filtering, and manual curation, the translation of 37 non-annotated sORFs with ≤ 70 amino acids was predicted with high confidence. The Ribo-seq data were supplemented by mass spectrometry (MS) analyses from three sample preparation approaches and two integrated proteogenomic search databases (iPtgxDBs). Searches against a standard and a 20-fold smaller Ribo-seq data-informed custom iPtgxDB confirmed many annotated SEPs and identified 11 additional novel SEPs. Epitope tagging and Western blot analysis confirmed the translation of 15 out of 20 SEPs selected from the translatome map. Overall, by applying MS and Ribo-seq as complementary approaches, the small proteome of  S. meliloti was substantially expanded by 48 novel SEPs. Several of them are conserved from  Rhizobiaceae to Bacteria, suggesting important physiological functions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "197391",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2022.11.12.516264"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.12.516264"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR570701"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR570701&type=FILE&fileName=EMS157046-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS157046",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-11-14",
+      "firstPublicationDate": "2022-11-12",
+      "firstIndexDate": "2022-11-14",
+      "fullTextReceivedDate": "2022-11-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

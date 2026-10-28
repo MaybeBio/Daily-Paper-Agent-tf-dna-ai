@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "36123941",
+    "doi": "10.1097/MD.0000000000030525",
+    "title": "Potential molecular mechanisms of Ermiao san in the treatment of hyperuricemia and gout based on network pharmacology with molecular docking."
+  },
+  "content": {
+    "abstract": "A network pharmacology integrated molecular docking strategy was used to predict the underlying molecular mechanism of Ermiao san in the treatment of hyperuricemia and gout. Traditional Chinese medicine systems pharmacology (TCMSP) database and analysis platform were used to screen out the active compounds and their targets of Ermiao san. The disease target genes related to hyperuricemia (HUA) and gout were obtained by searching CTD, DisGeNET, DrugBank, GeneCards, OMIM, TTD, and PharmGKB databases with \"Hyperuricemia\" and \"Gout\" as keywords, respectively. The potential targets of Ermiao san in the treatment of HUA and gout were screened through a Venn diagram. The protein-protein interaction network was constructed using Cytoscape software. Gene ontology and Kyoto Encyclopedia of Genes and Genomes enrichment analyses were then conducted. Finally, some compounds and core targets were selected for molecular docking verification by Autodock Vina and Pymol software. Forty-six active compounds, such as quercetin, wogonin and beta-sitosterol, etc were identified. Ermiao san plays a therapeutic role in HUA and gout regulating various biological processes, cellular compounds, and molecular functions. The core targets of Ermiao san for treating HUA and gout are AT1 (namely Protein Kinase Balpha), interleukin-1 beta, prostaglandin-endoperoxide synthase 2, JUN, etc. And the key pathways are nuclear factor-kappaB, interleukin-17 and tumor necrosis factor. The results of molecular docking analyses suggested that active compounds of Ermiao san could bind well to the core protein receptors. Ermiao san has a synergistic mechanism of multiple compounds, multiple targets, and multiple pathways in the treatment of HUA and gout, which provides a good theoretical basis for the clinical application.",
+    "keywords": [],
+    "mesh_terms": [
+      "Drugs, Chinese Herbal",
+      "*Gout/drug therapy",
+      "Humans",
+      "*Hyperuricemia/drug therapy",
+      "Interleukin-17",
+      "Interleukin-1beta",
+      "Molecular Docking Simulation",
+      "NF-kappa B",
+      "Network Pharmacology",
+      "Prostaglandin-Endoperoxide Synthases",
+      "Quercetin",
+      "Tumor Necrosis Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Geng, Yin-Hong",
+        "Yan, Jia-Hui",
+        "Han, Liang",
+        "Chen, Zhe",
+        "Tu, Sheng-Hao",
+        "Zhang, Lin-Qi",
+        "Song, Chun-Dong",
+        "Duan, Feng-Yang",
+        "Liu, Ya-Fei"
+      ],
+      "short_names": [
+        "Geng YH",
+        "Yan JH",
+        "Han L",
+        "Chen Z",
+        "Tu SH",
+        "Zhang LQ",
+        "Song CD",
+        "Duan FY",
+        "Liu YF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0172-7194"
+      ],
+      "affiliations": [
+        "Department of Nephrology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Institute of Integrated Traditional Chinese and Western Medicine, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Institute of Integrated Traditional Chinese and Western Medicine, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Institute of Integrated Traditional Chinese and Western Medicine, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Institute of Integrated Traditional Chinese and Western Medicine, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Nephrology, The First Affiliated Hospital of Henan University of Traditional Chinese Medicine, Zhengzhou, China.",
+        "Department of Pediatrics, The First Affiliated Hospital of Henan University of Traditional Chinese Medicine, Zhengzhou, China.",
+        "Department of Pediatrics, The First Affiliated Hospital of Henan University of Traditional Chinese Medicine, Zhengzhou, China.",
+        "Department of Nephrology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Geng, Yin-Hong",
+        "short_name": "Geng YH",
+        "identifiers": [
+          "0000-0002-0172-7194"
+        ],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Jia-Hui",
+        "short_name": "Yan JH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrated Traditional Chinese and Western Medicine, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Han, Liang",
+        "short_name": "Han L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrated Traditional Chinese and Western Medicine, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhe",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrated Traditional Chinese and Western Medicine, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Sheng-Hao",
+        "short_name": "Tu SH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrated Traditional Chinese and Western Medicine, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lin-Qi",
+        "short_name": "Zhang LQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Henan University of Traditional Chinese Medicine, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Song, Chun-Dong",
+        "short_name": "Song CD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The First Affiliated Hospital of Henan University of Traditional Chinese Medicine, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Feng-Yang",
+        "short_name": "Duan FY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The First Affiliated Hospital of Henan University of Traditional Chinese Medicine, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ya-Fei",
+        "short_name": "Liu YF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2022 Sep 16",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/21 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "42472027",
+      "42350479",
+      "41656820",
+      "41383581",
+      "37551408"
+    ],
+    "refs": [],
+    "similar": [
+      "36123941",
+      "35135448",
+      "36817858",
+      "33149752",
+      "35430443",
+      "34951253",
+      "35227068",
+      "34007291",
+      "36401375",
+      "34349502",
+      "38115276",
+      "34873575",
+      "36911073",
+      "36451451",
+      "36576506",
+      "36604925",
+      "34159207",
+      "33645094",
+      "35616676",
+      "33634308",
+      "37653797",
+      "36740793",
+      "38941423",
+      "37171334",
+      "34660782",
+      "39410900",
+      "34994141",
+      "35837376",
+      "36181021",
+      "37474991",
+      "36596057",
+      "34941025",
+      "35851128",
+      "38435751",
+      "37713882",
+      "33313323",
+      "35087596",
+      "35984130",
+      "33376732",
+      "33645090",
+      "35730236",
+      "36046907",
+      "37575231",
+      "34761652",
+      "38728495",
+      "38579077",
+      "38630770",
+      "36952106",
+      "35040393",
+      "38552047",
+      "36032542",
+      "36471963",
+      "34047083",
+      "36626429",
+      "35718498",
+      "38555283",
+      "33963719",
+      "38696100",
+      "35586697",
+      "37795773",
+      "33645093",
+      "36267750",
+      "36288951",
+      "34738404",
+      "34872267",
+      "33082858",
+      "36791549",
+      "32505843",
+      "34746302",
+      "33645014",
+      "38107658",
+      "36094770",
+      "38034481",
+      "33243703",
+      "34997010",
+      "34273999",
+      "35438554",
+      "34951252",
+      "34472273",
+      "35672755",
+      "37147755",
+      "37880698",
+      "36246566",
+      "37203990",
+      "35718496",
+      "34353081",
+      "34118340",
+      "34859918",
+      "36401463",
+      "34149863",
+      "36046450",
+      "33743701",
+      "35670824",
+      "36386218",
+      "34467737",
+      "34746316",
+      "37861497",
+      "34047081",
+      "32389853",
+      "35035498",
+      "35178962",
+      "35178959",
+      "35643303",
+      "34738438",
+      "34693792",
+      "34908920",
+      "35850844",
+      "36105239",
+      "35970314",
+      "36193152",
+      "35932610",
+      "34125845",
+      "35388303",
+      "35442463",
+      "35988839",
+      "33208065",
+      "35186104",
+      "34552655",
+      "34785888",
+      "32881664",
+      "35265311",
+      "35622496",
+      "36872431",
+      "36438835",
+      "37286117",
+      "38770346",
+      "36165527",
+      "35947513",
+      "37957901",
+      "37745719",
+      "38050229",
+      "37592794",
+      "38377550",
+      "36620771",
+      "36330452",
+      "36468521",
+      "36749251",
+      "37933045",
+      "37933032",
+      "36590764",
+      "38920073",
+      "36123943",
+      "36414214",
+      "36569347",
+      "37780174",
+      "35960074",
+      "36805594",
+      "38318502",
+      "38188548",
+      "34824300",
+      "36415742",
+      "37931719",
+      "37334778",
+      "37747012",
+      "37747014",
+      "34502281",
+      "36608779",
+      "37759722",
+      "36452480",
+      "37682156",
+      "35281924",
+      "36578822",
+      "37147756",
+      "36757039",
+      "37113386",
+      "37551408",
+      "36684054",
+      "38069821",
+      "37713831",
+      "39171596",
+      "36431060",
+      "36872228",
+      "37529040",
+      "39027534",
+      "37174317",
+      "37576692",
+      "37370132",
+      "35165507",
+      "39351010",
+      "37528325",
+      "37070883",
+      "37028495",
+      "37197555",
+      "39238407",
+      "38403345",
+      "37747647",
+      "38385487",
+      "37876729",
+      "38230078"
+    ],
+    "review": [
+      "36123941",
+      "33149752",
+      "37171334",
+      "38579077",
+      "33243703",
+      "36468521",
+      "37747012"
+    ],
+    "pmc": [
+      "9478232"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/gout.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Gout"
+      },
+      {
+        "url": "https://www.ovid.com/36123941.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36123941/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36123941",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ATM-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000030525",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

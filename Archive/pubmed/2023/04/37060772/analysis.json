@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37060772",
+  "title": "Identification of DNA-binding proteins by Kernel Sparse Representation via L(2,1)-matrix norm.",
+  "authors": "Ming, Yutong; Liu, Hongzhi; Cui, Yizhi; Guo, Shaoyong; Ding, Yijie; Liu, Ruijun",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2023-04-16",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用核稀疏表示结合序列进化信息预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅基于序列分类、无三维互作建模或TF-DNA特异性机制，方法可迁移但深度有限。",
+  "abstract": "An understanding of DNA-binding proteins is helpful in exploring the role that proteins play in cell biology. Furthermore, the prediction of DNA-binding proteins is essential for the chemical modification and structural composition of DNA, and is of great importance in protein functional analysis and drug design. In recent years, DNA-binding protein prediction has typically used machine learning-based methods. The prediction accuracy of various classifiers has improved considerably, but researchers continue to spend time and effort on improving prediction performance. In this paper, we combine protein sequence evolutionary information with a classification method based on kernel sparse representation for the prediction of DNA-binding proteins, and based on the field of machine learning, a model for the identification of DNA-binding proteins by sequence information was finally proposed. Based on the confirmation of the final experimental results, we achieved good prediction accuracy on both the PDB1075 and PDB186 datasets. Our training result for cross-validation on PDB1075 was 81.37%, and our independent test result on PDB186 was 83.9%, both of which outperformed the other methods to some extent. Therefore, the proposed method in this paper is proven to be effective and feasible for predicting DNA-binding proteins.",
+  "abstract_zh": "对DNA结合蛋白的理解有助于探索蛋白质在细胞生物学中所扮演的角色。此外，DNA结合蛋白的预测对于DNA的化学修饰和结构组成至关重要，并且在蛋白质功能分析和药物设计中具有重要意义。近年来，DNA结合蛋白预测通常采用基于机器学习的方法。各种分类器的预测精度已显著提高，但研究人员仍在投入时间和精力以提升预测性能。本文中，我们将蛋白质序列进化信息与基于核稀疏表示的分类方法相结合，用于DNA结合蛋白的预测，并基于机器学习领域，最终提出了一种通过序列信息识别DNA结合蛋白的模型。在最终实验结果的确认基础上，我们在PDB1075和PDB186数据集上均取得了良好的预测精度。我们在PDB1075上的交叉验证训练结果为81.37%，在PDB186上的独立测试结果为83.9%，两者均在一定程度上优于其他方法。因此，本文提出的方法被证明在预测DNA结合蛋白方面有效且可行。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37060772/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37060772/",
+  "paper_page_path": "papers/pubmed/37060772/index.html"
+}

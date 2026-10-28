@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "40478227",
+    "doi": "10.7554/eLife.104074",
+    "title": "Upstream open reading frames buffer translational variability during Drosophila evolution and development."
+  },
+  "content": {
+    "abstract": "Protein abundance tends to be more evolutionarily conserved than mRNA levels both within and between species, yet the mechanisms underlying this phenomenon remain largely unknown. Upstream open reading frames (uORFs) are widespread cis-regulatory elements in eukaryotic genomes that regulate translation, but it remains unclear whether and how uORFs contribute to stabilizing protein levels. In this study, we performed ribosome translation simulations on mRNA to quantitatively assess the extent to which uORF translation influences the translational variability of downstream coding sequences (CDSs) across varying contexts. Our simulations revealed that uORF translation dampens CDS translational variability, with buffering capacity increasing in proportion to uORF translation efficiency, length, and number. We then compared the translatomes at different developmental stages of two Drosophila species, demonstrating that uORFs buffer mRNA translation fluctuations during both evolution and development. Experimentally, deleting a uORF in the bicoid (bcd) gene-a prominent example of translational buffering-resulted in extensive changes in gene expression and phenotypes in Drosophila melanogaster. Additionally, we observed uORF-mediated buffering between primates and within human populations. Together, our results reveal a novel regulatory mechanism by which uORFs stabilize gene translation during development and across evolutionary time.",
+    "keywords": [
+      "TASEP modeling",
+      "bicoid",
+      "drosophila melanogaster",
+      "drosophila simulans",
+      "evolutionary biology",
+      "genetics",
+      "genomics",
+      "humans",
+      "translation evolution",
+      "translational regulation",
+      "uORF"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Open Reading Frames/genetics",
+      "*Protein Biosynthesis",
+      "*Drosophila melanogaster/genetics/growth & development",
+      "*Evolution, Molecular",
+      "Humans",
+      "Drosophila Proteins/genetics/metabolism",
+      "RNA, Messenger/genetics/metabolism",
+      "Trans-Activators",
+      "Homeodomain Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Yuanqiang",
+        "Duan, Yuange",
+        "Gao, Peixiang",
+        "Liu, Chenlu",
+        "Jin, Kaichun",
+        "Dou, Shengqian",
+        "Tang, Wenxiong",
+        "Zhang, Hong",
+        "Lu, Jian"
+      ],
+      "short_names": [
+        "Sun Y",
+        "Duan Y",
+        "Gao P",
+        "Liu C",
+        "Jin K",
+        "Dou S",
+        "Tang W",
+        "Zhang H",
+        "Lu J"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-6967-2234",
+        "ORCID: 0000-0003-2311-9859",
+        "ORCID: 0000-0002-8993-0145",
+        "ORCID: 0000-0002-4409-1667"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China.",
+        "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China.",
+        "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China.",
+        "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China.",
+        "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China.",
+        "Eye Institute of Shandong First Medical University, State Key Laboratory Cultivation Base, Shandong Provincial Key Laboratory of Ophthalmology, Beijing, China.",
+        "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China.",
+        "College of Ecology, Lanzhou University, Lanzhou, China.",
+        "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China.",
+        "Beijing Advanced Center of RNA Biology (BEACON), Peking University, Beijing, China.",
+        "Southwest United Graduate School, Kunming, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Yuanqiang",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0009-0007-6967-2234"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Yuange",
+        "short_name": "Duan Y",
+        "identifiers": [
+          "0000-0003-2311-9859"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Peixiang",
+        "short_name": "Gao P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chenlu",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0002-8993-0145"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Kaichun",
+        "short_name": "Jin K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Shengqian",
+        "short_name": "Dou S",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Institute of Shandong First Medical University, State Key Laboratory Cultivation Base, Shandong Provincial Key Laboratory of Ophthalmology, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Wenxiong",
+        "short_name": "Tang W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Ecology, Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jian",
+        "short_name": "Lu J",
+        "identifiers": [
+          "0000-0002-4409-1667"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Gene Function and Modulation Research, Center for Bioinformatics, School of Life Sciences, Peking University, Beijing, China.",
+          "Beijing Advanced Center of RNA Biology (BEACON), Peking University, Beijing, China.",
+          "Southwest United Graduate School, Kunming, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Jun 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 12:33",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42543036",
+      "42523530",
+      "41885210"
+    ],
+    "refs": [
+      "40022732",
+      "39892379",
+      "38388640",
+      "37751929",
+      "36894598",
+      "36882059",
+      "36801861",
+      "36617265",
+      "36315596",
+      "36302773",
+      "36010556",
+      "35841888",
+      "35501454",
+      "35320726",
+      "34599983",
+      "34469731",
+      "33750777",
+      "33597535",
+      "33581075",
+      "33563718",
+      "33402206",
+      "33268840",
+      "33177713",
+      "32938929",
+      "32938922",
+      "32883370",
+      "32709985",
+      "32657267",
+      "32615089",
+      "32375038",
+      "32327570",
+      "32099016",
+      "31915386",
+      "31412239",
+      "31392980",
+      "31003826",
+      "30504455",
+      "30293783",
+      "30082467",
+      "30080209",
+      "30028832",
+      "29950183",
+      "29932418",
+      "29915080",
+      "29807130",
+      "29680748",
+      "29677493",
+      "29474919",
+      "28906249",
+      "28891464",
+      "28684554",
+      "28516123",
+      "28132843",
+      "27875984",
+      "27358398",
+      "27313038",
+      "27041671",
+      "27015305",
+      "26896445",
+      "26819411",
+      "26579194",
+      "25877616",
+      "25657249",
+      "25621764",
+      "25428374",
+      "25260700",
+      "25123665",
+      "24882012",
+      "24688632",
+      "24648495",
+      "24576337",
+      "24318730",
+      "24318729",
+      "24288321",
+      "24136357",
+      "24126073",
+      "24037378",
+      "23746254",
+      "23498934",
+      "23418347",
+      "23104886",
+      "22541426",
+      "22508989",
+      "22455463",
+      "22388286",
+      "22355134",
+      "22287627",
+      "22056041",
+      "21909250",
+      "21663794",
+      "21460824",
+      "21324878",
+      "21285359",
+      "21089048",
+      "21047258",
+      "20866258",
+      "20094052",
+      "20047998",
+      "19934253",
+      "19372376",
+      "19371439",
+      "19260763",
+      "19239892",
+      "19213877",
+      "19128476",
+      "19122663",
+      "18271625",
+      "17510665",
+      "17494029",
+      "17448252",
+      "17021158",
+      "16186132",
+      "16153175",
+      "15882623",
+      "15684427",
+      "15479734",
+      "15277680",
+      "15124029",
+      "15060014",
+      "13666847",
+      "12949132",
+      "12890013",
+      "12799445",
+      "11928468",
+      "11438714",
+      "11073965",
+      "9916806",
+      "9425899",
+      "8801438",
+      "8636015",
+      "8602214",
+      "3516411",
+      "3383245",
+      "3383244",
+      "2901954",
+      "2645293",
+      "2567637",
+      "1739968"
+    ],
+    "similar": [
+      "40478227",
+      "36440758",
+      "36315596",
+      "30028832",
+      "31392980",
+      "31109297",
+      "21663794",
+      "24268158",
+      "31003826",
+      "40354412",
+      "39486574",
+      "24995549",
+      "27216465",
+      "17494029",
+      "31513641",
+      "37227054",
+      "37433636",
+      "39757590",
+      "31342439",
+      "26896445",
+      "31392347",
+      "35501454",
+      "26096937",
+      "32168374",
+      "38000373",
+      "36878710",
+      "36044152",
+      "32872304",
+      "37789015",
+      "33004976",
+      "29932418",
+      "31234713",
+      "25043021",
+      "28366877",
+      "33992089",
+      "34076576",
+      "8416975",
+      "35239002",
+      "33597535",
+      "32870728",
+      "15777708",
+      "23671934",
+      "35074910",
+      "17686169",
+      "31810458",
+      "18237443",
+      "16012843",
+      "21750682",
+      "25621764",
+      "35128674",
+      "35962830",
+      "12730202",
+      "35349347",
+      "15607532",
+      "33330921",
+      "15882623",
+      "20179149",
+      "16176926",
+      "31915386",
+      "23950723",
+      "33750777",
+      "29684192",
+      "26896443",
+      "19131336",
+      "33765283",
+      "26822200",
+      "30092050",
+      "35171472",
+      "16598037",
+      "36169317",
+      "20726009",
+      "34718568",
+      "30080209",
+      "21304932",
+      "30419262",
+      "24163100",
+      "23564882",
+      "9469820",
+      "25716736",
+      "31619139",
+      "39748120",
+      "25618853",
+      "36473845",
+      "32450933",
+      "38625794",
+      "17663791",
+      "36869665",
+      "28639196",
+      "29254944",
+      "32471506",
+      "8636015",
+      "10757781",
+      "27002157",
+      "30483885",
+      "25666510",
+      "27358398",
+      "30591072",
+      "25144939",
+      "38138978",
+      "17692847"
+    ],
+    "review": [
+      "40478227",
+      "24268158",
+      "31003826",
+      "24995549",
+      "37433636",
+      "39757590",
+      "31342439",
+      "32872304",
+      "31234713",
+      "32870728",
+      "23950723",
+      "20726009",
+      "28639196",
+      "30483885"
+    ],
+    "pmc": [
+      "12143884"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40478227",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40478227/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.104074",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

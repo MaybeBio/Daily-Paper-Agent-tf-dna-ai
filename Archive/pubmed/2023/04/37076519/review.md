@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, methods, and discussion sections.
+- **Assessment boundary** Evaluation of the scientific claims, methodology, and evidence presented in the manuscript. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose a "latent generative landscape" (LGL) that combines a two-dimensional variational autoencoder (VAE) latent space with a Direct Coupling Analysis (DCA) Hamiltonian score to map functional diversity and fitness in protein sequence space. They demonstrate the LGL's utility across several protein families, including globins, β-lactamases, ion channels, and transcription factors, and suggest its application in protein engineering and evolutionary studies.
+- **Visible evidence base** The manuscript includes figures (Figs. 1–8) and supplementary figures/tables referenced in the text. The methods section describes the VAE architecture, DCA model, and various analyses (e.g., phylogenetic tree comparison, functional annotation benchmarks).
+- **Missing materials affecting confidence** The manuscript references supplementary figures, tables, and videos (e.g., Supplementary Figs. 1–18, Supplementary Tables 1–2, Supplementary Video 1) that were not provided in the submitted material. Additionally, the code for interactive visualization is mentioned but not included. These omissions limit the ability to fully assess the reproducibility and robustness of the results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially impactful approach to visualizing and interpreting protein sequence space by integrating a VAE latent space with a DCA-based Hamiltonian. The concept of a "latent generative landscape" is creative and could offer practical benefits for protein engineering and evolutionary analysis. However, the current evidence base has several gaps, including missing supplementary materials, limited quantitative validation of the landscape's predictive power, and a lack of comparison to existing methods. The claims are plausible but not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in protein engineering, computational biology, and evolutionary genomics would find this work relevant. The LGL offers a way to navigate sequence space for functional protein design, which is of direct interest to those working on enzyme engineering, therapeutic protein development, and understanding evolutionary constraints. The integration of generative models with coevolutionary analysis could also appeal to machine learning practitioners applying VAEs to biological data.
+- **Major strengths** The manuscript addresses an important problem: making the latent space of generative models interpretable and biologically meaningful. The use of a DCA Hamiltonian to score generated sequences is a clever and well-motivated idea, grounded in established coevolutionary theory. The application to multiple diverse protein families (globins, β-lactamases, TRMP8, etc.) demonstrates the generalizability of the approach. The inclusion of functional annotation benchmarks (GO terms, ProtNLM comparison) is a positive step toward quantitative validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the LGL "captures phylogenetic, function, and fitness information" and that the Hamiltonian landscape provides a reliable measure of functional fitness.
+  - **Evidence pointer** Figures 3, 5, and 8; Methods sections "Landscape generation" and "Delta Hamiltonian score"
+  - **Concern** The manuscript does not provide a rigorous quantitative validation of the Hamiltonian as a fitness proxy. The correlation between the DCA Hamiltonian and experimental fitness measurements is only mentioned qualitatively (e.g., for β-lactamase mutants). No statistical metrics (e.g., correlation coefficients, p-values) are reported for the relationship between Hamiltonian values and functional outcomes. The claim that the landscape "captures fitness" is therefore not substantiated with quantitative evidence.
+  - **Why it matters** The central premise of the LGL is that the Hamiltonian score reflects functional fitness. Without a clear, quantitative demonstration of this relationship, the utility of the LGL for protein engineering and evolutionary inference remains speculative. The authors need to show, for at least one system, that Hamiltonian values correlate with experimentally measured fitness or activity.
+  - **Resolution test** Provide a quantitative analysis (e.g., Spearman or Pearson correlation) between DCA Hamiltonian scores and experimental fitness/activity data for a set of mutants (e.g., β-lactamase or TRMP8). Report the correlation coefficient, significance, and sample size. If such data are not available, the claim should be softened to "potential" fitness indicator.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the LGL can be used for "functional annotation of sequences" and that its performance is "comparable" to state-of-the-art methods.
+  - **Evidence pointer** Figure 7; Methods section "Functional annotation comparisons"
+  - **Concern** The functional annotation comparison is incomplete. For the GO annotation benchmark, the authors compare the LGL to Pannzer2, Argot2.5, and eggNOG-mapper, but the results are only presented as a bar chart (Fig. 7a) without error bars, statistical tests, or a clear description of the evaluation metric (e.g., precision, recall, F1-score). The ProtNLM comparison (Fig. 7b) is similarly under-reported; the text mentions "comparable or marginally better performance" but does not provide the actual numbers or a statistical analysis. The lack of detail makes it impossible to assess whether the LGL truly matches or exceeds existing methods.
+  - **Why it matters** The claim of competitive performance is a key selling point for the LGL's practical utility. Without rigorous benchmarking, readers cannot determine whether the LGL offers any advantage over established tools. This weakens the case for the LGL as a useful annotation method.
+  - **Resolution test** Provide a detailed description of the evaluation metrics, include error bars or confidence intervals, and perform statistical tests (e.g., McNemar's test for paired comparisons) to demonstrate that the LGL's performance is not significantly worse than, and ideally better than, the comparators. Report the exact numbers for all methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the LGL can be used to "traverse the diversity of functional space" and that the landscape provides a "map" for protein engineering.
+  - **Evidence pointer** Figures 1, 2, and 6; Methods sections "Landscape generation" and "Streamplot"
+  - **Concern** The manuscript lacks a clear description of how the LGL can be practically used for protein engineering. The examples provided (e.g., TRMP8, β-glucosidase) are retrospective analyses of existing mutants, not prospective demonstrations of the LGL's ability to guide the design of new functional proteins. The authors do not provide a step-by-step protocol or a case study where the LGL was used to predict a novel functional variant that was then experimentally validated. The claim that the LGL can "guide" engineering is therefore not demonstrated.
+  - **Why it matters** The potential for guiding protein design is a major motivation for the work. Without a prospective example, the LGL remains a descriptive tool rather than a predictive one. This limits its immediate applicability and impact.
+  - **Resolution test** Include a prospective case study where the LGL is used to select or generate a set of variants, and these are experimentally tested for a desired function. Show that the LGL-guided variants perform better than random or unguided variants. If this is not possible, the claims about guiding engineering should be tempered.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the LGL provides "insights on directed and natural protein evolution."
+  - **Evidence pointer** Figures 5 and 8; Discussion section
+  - **Concern** The evolutionary insights are largely qualitative. For example, the observation that β-lactamase mutants under different selection pressures occupy different regions of the landscape is interesting but not quantified. The claim that the LGL can model evolutionary trajectories is not supported by a formal analysis (e.g., comparison to known phylogenetic trees or ancestral reconstruction methods). The manuscript would benefit from a more rigorous, quantitative analysis of evolutionary dynamics using the LGL.
+  - **Why it matters** The evolutionary claims are a significant part of the paper's broader impact. Without quantitative support, they remain anecdotal and do not advance the field's understanding of protein evolution.
+  - **Resolution test** Perform a quantitative comparison between LGL-based distances and established evolutionary distances (e.g., from phylogenetic trees). For example, correlate pairwise LGL distances with pairwise phylogenetic distances for a set of sequences. Report the correlation and its significance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The schematic in Fig. 1 is dense and difficult to follow. The relationship between the VAE, DCA, and the final landscape is not immediately clear.
+  - **Required correction** Consider simplifying the schematic or adding a more detailed legend that walks the reader through the pipeline step by step.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Pfam sequence collection"
+  - **Evidence pointer** Methods section "Pfam sequence collection"
+  - **Issue** The number of training sequences for each family is only given in Supplementary Table 2, which was not provided. This makes it difficult to assess the adequacy of the training data.
+  - **Required correction** Include the number of sequences for each family in the main text or ensure the supplementary table is available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Tree topology comparison"
+  - **Evidence pointer** Methods section "Tree topology comparison"
+  - **Issue** The choice of 70 clusters for the Gaussian mixture model is described as arbitrary, and 6 clusters were removed. This introduces a potential source of bias that is not fully discussed.
+  - **Required correction** Provide a sensitivity analysis showing that the results are robust to the number of clusters chosen, or justify the choice more rigorously.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is somewhat repetitive and could be more concise. Some points, such as the benefits of the LGL for avoiding poor fitness regions, are made multiple times.
+  - **Required correction** Streamline the discussion to focus on the most important implications and future directions.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of combining a VAE latent space with a DCA Hamiltonian to create a "landscape" is original and distinguishes this work from prior studies that used VAEs for clustering or generation. The idea of using the Hamiltonian as a fitness proxy is a creative synthesis of two established methods.
+  - **Scientific importance** The work addresses a significant challenge in protein science: navigating sequence space for functional design. If the LGL proves to be a reliable and predictive tool, it could have broad applications. However, the current evidence does not fully establish this, and the importance is therefore potential rather than demonstrated.
+  - **Interdisciplinary readership** The work is likely to appeal to researchers in computational biology, protein engineering, and evolutionary biology. The methods are interdisciplinary, drawing on machine learning and statistical physics. However, the presentation may be somewhat technical for a general biology audience.
+  - **Technical soundness** The core methodology is sound in principle, but the validation is incomplete. The lack of quantitative fitness correlations, incomplete benchmarking, and missing supplementary materials are significant weaknesses. The two-dimensional latent space is a strong simplification that may limit the approach's applicability to more complex protein families.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the methods and results sections are dense. The figures are informative but could be better annotated. The abstract is clear and accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the manuscript has the potential to make a valuable contribution. However, the current evidence base is insufficient to fully support the claims. The authors must address the major concerns, particularly the quantitative validation of the Hamiltonian as a fitness proxy and the completeness of the benchmarking, before the case is established.
+
+## Risk / unsupported claims
+- The claim that the LGL "captures fitness" is not quantitatively supported; no correlation between Hamiltonian scores and experimental fitness data is provided.
+- The claim that the LGL's functional annotation performance is "comparable" to state-of-the-art methods is not substantiated with detailed results or statistical tests.
+- The claim that the LGL can "guide" protein engineering is not demonstrated with a prospective experimental example.
+- The claim that the LGL provides "insights on directed and natural protein evolution" is qualitative and lacks quantitative analysis.
+- The reproducibility of the results cannot be fully assessed due to missing supplementary figures, tables, and code.

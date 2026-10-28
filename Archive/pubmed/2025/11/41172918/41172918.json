@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "41172918",
+    "doi": "10.1016/j.phymed.2025.157485",
+    "title": "Pulchinenoside E2: A dual-functional STAT3 and autophagy inhibitor with potent anti-metastatic activity in triple-negative breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Triple-negative breast cancer (TNBC) lacks effective therapeutic targets and exhibits high metastatic potential, resulting in poor prognosis. Both STAT3 signaling and pro-survival autophagy are well-established as critical drivers of TNBC metastasis, yet existing therapeutic approaches primarily focus on single-target inhibition. Pulchinenoside E2 (PSE2), a natural compound isolated from Pulsatilla chinensis, has demonstrated anti-proliferative effects on breast cancer cells. However, its effect on TNBC metastasis and whether it acts concurrently with these two pathways remain unclear. PURPOSE: To identify the key molecular targets of PSE2 and elucidate its unique mechanisms in suppressing TNBC metastasis. METHODS: The anti-migratory and anti-invasive effects of PSE2 on multiple TNBC cell lines were assessed using Transwell assays. Network pharmacology analysis was used to identify overlapping genes and core targets associated with PSE2 and TNBC metastasis. STAT3 was identified as a key target through Western blotting, RNA interference, and Transwell experiments. PSE2-STAT3 interactions were investigated via molecular docking, molecular dynamics simulations, and the cellular thermal shift assay (CETSA). In vitro studies with HS-578T and MDA-MB-231 cells evaluated the effects of PSE2 on STAT3 and JAK2 phosphorylation, STAT3 nuclear and mitochondrial functions, autophagy, and the interplay between STAT3 inhibition and autophagic regulation. In vivo, TNBC metastasis mouse models were used to assess PSE2's effects on hepatic and pulmonary metastases. Pharmacokinetic analysis evaluated the compound's clinical translational potential. RESULTS: PSE2 selectively inhibited invasion and migration in TNBC cells. Network analysis identified 41 overlapping genes and 11 core targets, among which STAT3 emerged as a critical mediator of PSE2's anti-metastatic effects. STAT3 demonstrated the lowest binding free energy to PSE2, with binding confirmed by molecular dynamics simulations and CETSA. PSE2 suppressed p-JAK2 (Tyr(1007/1008)) and p-STAT3 (Tyr(705) and Ser(727)), impaired STAT3 nuclear transcriptional activity, and inhibited STAT3-dependent mitochondrial oxidative phosphorylation. Additionally, PSE2 blocked autophagic flux by impairing lysosomal proteolytic activity, promoting degradation of mature tissue proteases, and disrupting lysosomal acidity, independent of STAT3. Concurrent inhibition of STAT3 phosphorylation and autophagy synergistically enhanced suppression of TNBC cell migration and invasion. In vivo, PSE2 markedly reduced hepatic and pulmonary metastases and exhibited prolonged retention and slower clearance in mice. CONCLUSIONS: PSE2 functions as a dual inhibitor of STAT3 signaling and autophagy, exerting potent anti-metastatic effects in TNBC. Its mechanism involves suppression of STAT3 phosphorylation and induction of lysosomal dysfunction. These findings highlight PSE2 as a promising candidate for the treatment of TNBC metastasis.",
+    "keywords": [
+      "Autophagy",
+      "Oxidative phosphorylation",
+      "PSE2",
+      "STAT3",
+      "Triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "STAT3 Transcription Factor/antagonists & inhibitors/metabolism",
+      "*Triple Negative Breast Neoplasms/drug therapy",
+      "Humans",
+      "Female",
+      "*Autophagy/drug effects",
+      "Animals",
+      "Mice",
+      "Cell Line, Tumor",
+      "Saponins/pharmacology",
+      "Mice, Nude",
+      "Cell Proliferation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Dongning",
+        "Shu, Junfang",
+        "Gao, Benjian",
+        "Yu, Hailong",
+        "Liu, Kemeng",
+        "Zheng, Meiling",
+        "Liu, Xiaoyan",
+        "Chen, Gang",
+        "Lin, Yangyi",
+        "Li, Qinlian",
+        "Sun, Yuhang",
+        "Zheng, Yuhang",
+        "Li, Bo",
+        "Yang, Xiaoli",
+        "Wang, Kai"
+      ],
+      "short_names": [
+        "Zheng D",
+        "Shu J",
+        "Gao B",
+        "Yu H",
+        "Liu K",
+        "Zheng M",
+        "Liu X",
+        "Chen G",
+        "Lin Y",
+        "Li Q",
+        "Sun Y",
+        "Zheng Y",
+        "Li B",
+        "Yang X",
+        "Wang K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China; Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China.",
+        "Department of Nutrition and Food Hygiene, School of Public Health, Southwest Medical University, Luzhou 646000, China.",
+        "Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China.",
+        "The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou 646000, China.",
+        "The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou 646000, China.",
+        "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China.",
+        "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China.",
+        "Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China.",
+        "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China.",
+        "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China.",
+        "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China.",
+        "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China.",
+        "Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China. Electronic address: liboer2002@126.com.",
+        "Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China. Electronic address: yangxiaoli@swmu.edu.cn.",
+        "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China. Electronic address: wangkai@swmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Dongning",
+        "short_name": "Zheng D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China; Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Junfang",
+        "short_name": "Shu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Hygiene, School of Public Health, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Benjian",
+        "short_name": "Gao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hailong",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kemeng",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Meiling",
+        "short_name": "Zheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoyan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Gang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yangyi",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qinlian",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yuhang",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yuhang",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bo",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China. Electronic address: liboer2002@126.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaoli",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery (Hepatobiliary Surgery), The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Medicine and Molecular Imaging Key Laboratory of Sichuan Province, Academician (Expert) Workstation of Sichuan Province, Luzhou 646000, China. Electronic address: yangxiaoli@swmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetics and Oncology, The Research Center for Preclinical Medicine, Southwest Medical University, Luzhou 646000, China. Electronic address: wangkai@swmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/01 05:37",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "41828466"
+    ],
+    "refs": [],
+    "similar": [
+      "41172918",
+      "40311593",
+      "33961996",
+      "40466882",
+      "33716082",
+      "40976126",
+      "32767958",
+      "39615216",
+      "38763012",
+      "32240456",
+      "38823344",
+      "40356419",
+      "40469627",
+      "32724459",
+      "40199813",
+      "35429924",
+      "38942765",
+      "30773992",
+      "39953272",
+      "40217291",
+      "32450253",
+      "34408002",
+      "40169415",
+      "30703411",
+      "28578456",
+      "31186039",
+      "40774067",
+      "34879870",
+      "39819723",
+      "29050003",
+      "34638797",
+      "36369502",
+      "27364975",
+      "38805776",
+      "40723906",
+      "30195018",
+      "38518635",
+      "32868906",
+      "40846097",
+      "40543694",
+      "30368518",
+      "38378361",
+      "41736431",
+      "33217668",
+      "32669950",
+      "32929154",
+      "41499346",
+      "39938409",
+      "32248842",
+      "30852762",
+      "38723720",
+      "30898152",
+      "27836733",
+      "34445170",
+      "27861147",
+      "28438385",
+      "41223569",
+      "36113258",
+      "40649917",
+      "40412055",
+      "37196814",
+      "27286975",
+      "40294882",
+      "27397540",
+      "41016300",
+      "28440514",
+      "40097917",
+      "40819642",
+      "41173847",
+      "41477983",
+      "39108110",
+      "40846041",
+      "36940580",
+      "41490553",
+      "40499701",
+      "34846647",
+      "31427441",
+      "40153970",
+      "38110664",
+      "28084011",
+      "30826934",
+      "38959602",
+      "40659139",
+      "39848416",
+      "40472617",
+      "40782436",
+      "27871326",
+      "30154439",
+      "41085822",
+      "38937832",
+      "40398092",
+      "31590917",
+      "40133967",
+      "41649587",
+      "35787980",
+      "39878804",
+      "39939802",
+      "29158255",
+      "38900236",
+      "32164483"
+    ],
+    "review": [
+      "41172918"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)01122-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

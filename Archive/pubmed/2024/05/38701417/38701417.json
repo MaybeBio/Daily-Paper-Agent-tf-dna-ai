@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "38701417",
+    "doi": "10.1093/bib/bbae195",
+    "title": "BERT-TFBS: a novel BERT-based model for predicting transcription factor binding sites by transfer learning."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are proteins essential for regulating genetic transcriptions by binding to transcription factor binding sites (TFBSs) in DNA sequences. Accurate predictions of TFBSs can contribute to the design and construction of metabolic regulatory systems based on TFs. Although various deep-learning algorithms have been developed for predicting TFBSs, the prediction performance needs to be improved. This paper proposes a bidirectional encoder representations from transformers (BERT)-based model, called BERT-TFBS, to predict TFBSs solely based on DNA sequences. The model consists of a pre-trained BERT module (DNABERT-2), a convolutional neural network (CNN) module, a convolutional block attention module (CBAM) and an output module. The BERT-TFBS model utilizes the pre-trained DNABERT-2 module to acquire the complex long-term dependencies in DNA sequences through a transfer learning approach, and applies the CNN module and the CBAM to extract high-order local features. The proposed model is trained and tested based on 165 ENCODE ChIP-seq datasets. We conducted experiments with model variants, cross-cell-line validations and comparisons with other models. The experimental results demonstrate the effectiveness and generalization capability of BERT-TFBS in predicting TFBSs, and they show that the proposed model outperforms other deep-learning models. The source code for BERT-TFBS is available at https://github.com/ZX1998-12/BERT-TFBS.",
+    "keywords": [
+      "BERT",
+      "attention mechanisms",
+      "bioinformatics",
+      "deep learning",
+      "gene regulation",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "Binding Sites",
+      "*Neural Networks, Computer",
+      "Algorithms",
+      "Computational Biology/methods",
+      "Humans",
+      "Deep Learning",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Kai",
+        "Zeng, Xuan",
+        "Zhou, Jingwen",
+        "Liu, Fei",
+        "Luan, Xiaoli",
+        "Wang, Xinglong"
+      ],
+      "short_names": [
+        "Wang K",
+        "Zeng X",
+        "Zhou J",
+        "Liu F",
+        "Luan X",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Key Laboratory of Industrial Biotechnology, Ministry of Education and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Jiangsu Province Engineering Research Center of Food Synthetic Biotechnology, Jiangnan University, Wuxi 214122, China.",
+        "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Key Laboratory of Industrial Biotechnology, Ministry of Education and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xuan",
+        "short_name": "Zeng X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingwen",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Key Laboratory of Industrial Biotechnology, Ministry of Education and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Jiangsu Province Engineering Research Center of Food Synthetic Biotechnology, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fei",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Luan, Xiaoli",
+        "short_name": "Luan X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Advanced Process Control for Light Industry (Ministry of Education), School of Internet of Things Engineering, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinglong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Key Laboratory of Industrial Biotechnology, Ministry of Education and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Mar 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/03 18:47",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42319255",
+      "42180427",
+      "42007520",
+      "41943075",
+      "41634097",
+      "41599985",
+      "41212592",
+      "41102854",
+      "40989420",
+      "40708223",
+      "40411397",
+      "39402535",
+      "39082650"
+    ],
+    "refs": [
+      "37328639",
+      "36996195",
+      "36748992",
+      "36399495",
+      "35264797",
+      "34929739",
+      "34673265",
+      "34415297",
+      "33986992",
+      "33837387",
+      "33796819",
+      "33767912",
+      "33603233",
+      "33522898",
+      "33498086",
+      "33250548",
+      "31634140",
+      "30445434",
+      "29993783",
+      "29425488",
+      "28092692",
+      "27307608",
+      "27084946",
+      "26301843",
+      "26213851",
+      "25129887",
+      "24380390",
+      "24307685",
+      "22955616",
+      "22492513",
+      "20096096",
+      "19543377",
+      "17320508",
+      "14597652",
+      "11259845",
+      "3287615",
+      "2128034"
+    ],
+    "similar": [
+      "38701417",
+      "39701486",
+      "37328639",
+      "38357904",
+      "34929739",
+      "40914877",
+      "39350338",
+      "40102719",
+      "36748992",
+      "38732207",
+      "40989420",
+      "40334196",
+      "39107889",
+      "40889326",
+      "34073774",
+      "39227799",
+      "40702706",
+      "17914226",
+      "40411397",
+      "34752400",
+      "19586888",
+      "34272562",
+      "38733561",
+      "33539511",
+      "24386279",
+      "30835229",
+      "31336830",
+      "40121399",
+      "37598467",
+      "30447332",
+      "31634140",
+      "29757349",
+      "36094959",
+      "33416862",
+      "39747934",
+      "27106869",
+      "24927817",
+      "36155619",
+      "30629513",
+      "40449782",
+      "21124986",
+      "38943434",
+      "40203028",
+      "38798191",
+      "34613923",
+      "32960766",
+      "27567672",
+      "27503086",
+      "23427986",
+      "21059262",
+      "27209209",
+      "33837387",
+      "21193520",
+      "22504445",
+      "41257600",
+      "35780100",
+      "23282203",
+      "40465350",
+      "23522376",
+      "39173070",
+      "33372147",
+      "34643684",
+      "41285097",
+      "39688476",
+      "41035197",
+      "27052996",
+      "38593480",
+      "34484416",
+      "24926895",
+      "35462009",
+      "39977366",
+      "29993783",
+      "33522898",
+      "39541188",
+      "38644393",
+      "40740140",
+      "20158869",
+      "29970003",
+      "38406833",
+      "35652477",
+      "38381315",
+      "37099664",
+      "39922842",
+      "39910649",
+      "39623329",
+      "18627598",
+      "40440586",
+      "28485207",
+      "30380113",
+      "40596197",
+      "30106688",
+      "34174819",
+      "39302806",
+      "33498086",
+      "35451969",
+      "27896980",
+      "33334313",
+      "41290782",
+      "39133595",
+      "31161194"
+    ],
+    "review": [
+      "38701417",
+      "19586888",
+      "30447332",
+      "35652477"
+    ],
+    "pmc": [
+      "11066948"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38701417.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38701417/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38701417",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae195",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

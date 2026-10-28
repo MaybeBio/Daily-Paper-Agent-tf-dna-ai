@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "42096098",
+    "doi": "10.1007/s12017-026-08913-0",
+    "title": "Transcription Factor SPI1 Mediates Chronic Neuropathic Pain by Activating NLRC4 Transcription to Drive Microglial Activation and Inflammation."
+  },
+  "content": {
+    "abstract": "Microglial polarization plays a key role in the process of chronic neuropathic pain (CNP). This study aims to investigate the molecular mechanism by which the transcription factor SPI1 mediates microglial polarization and participates in CNP by regulating NOD-like receptor C4 (NLRC4) expression. The GSE124272 dataset (blood samples of 8 intervertebral disc degeneration patients and 8 controls) was obtained from the GEO database, and the differentially expressed genes (DEGs) were screened. The intersection of DEGs with neuropathic pain related genes in GeneCards was taken. Support vector machine-recursive feature elimination algorithm was used to identify hub genes. Human microglia (HMC3) were stimulated with lipopolysaccharides (LPS) to construct an inflammation model. qRT-PCR, western blot, ELISA, flow cytometry, and reactive oxygen species (ROS) detection were used to evaluate gene expression, inflammatory factor levels, cell polarization, and ROS levels. ChIP and dual-luciferase reporter assay were used to verify the binding of SPI1 to NLRC4 promoter and its transcriptional regulation. A rat model of chronic constriction injury (CCI) was established to evaluate the effect of shNLRC4 on CNP in vivo. After screening and machine learning, NLRC4 was one of the five hub genes, and its expression was significantly upregulated in LPS-induced HMC3 cells. NLRC4 knockdown inhibited LPS-induced M1 polarization, the release of pro-inflammatory factors, ROS production, and the expression of microglia activation marker Iba1, while promoted the expression of M2 polarization markers. SPI1 could directly bind to the NLRC4 promoter to increase its transcription. Overexpression of NLRC4 reversed the inhibitory effect of SPI1 knockdown on LPS-induced microglial activation and inflammation. In CCI rat model, knocking down NLRC4 significantly alleviated mechanical and thermal hyperalgesia, and reduced the levels of NLRC4 and inflammatory factors (TNF-alpha, IL-1beta, and IL-6) in the spinal cord tissues. SPI1 acts as a transcription factor to directly increase NLRC4 transcription, thereby promoting microglial activation and neuroinflammatoion, and ultimately accelerating the development of CNP.",
+    "keywords": [
+      "Chronic neuropathic pain",
+      "Inflammation",
+      "Microglial activation"
+    ],
+    "mesh_terms": [
+      "*Microglia/physiology/metabolism/drug effects",
+      "Animals",
+      "Humans",
+      "*Calcium-Binding Proteins/genetics/biosynthesis/physiology",
+      "Rats",
+      "Male",
+      "*Neuralgia/genetics/metabolism/etiology",
+      "Proto-Oncogene Protein Spi-1",
+      "Rats, Sprague-Dawley",
+      "*Proto-Oncogene Proteins/physiology/genetics",
+      "Reactive Oxygen Species/metabolism",
+      "*Chronic Pain/genetics/metabolism",
+      "Lipopolysaccharides/pharmacology",
+      "Promoter Regions, Genetic",
+      "Inflammation",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Liyuan",
+        "Fu, Qiang",
+        "Wang, Xiaoling",
+        "Li, Quanbo"
+      ],
+      "short_names": [
+        "Qin L",
+        "Fu Q",
+        "Wang X",
+        "Li Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pain Managemen, The Second Hospital of Tianjin Medical University, No. 23, Pingjiang Road, Hesihedao District, Tianjin, China. 13752563901@163.com.",
+        "Department of Pain Managemen, The Second Hospital of Tianjin Medical University, No. 23, Pingjiang Road, Hesihedao District, Tianjin, China.",
+        "Department of Pain Managemen, The Second Hospital of Tianjin Medical University, No. 23, Pingjiang Road, Hesihedao District, Tianjin, China.",
+        "Department of Pain Managemen, The Second Hospital of Tianjin Medical University, No. 23, Pingjiang Road, Hesihedao District, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Liyuan",
+        "short_name": "Qin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pain Managemen, The Second Hospital of Tianjin Medical University, No. 23, Pingjiang Road, Hesihedao District, Tianjin, China. 13752563901@163.com."
+        ]
+      },
+      {
+        "full_name": "Fu, Qiang",
+        "short_name": "Fu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pain Managemen, The Second Hospital of Tianjin Medical University, No. 23, Pingjiang Road, Hesihedao District, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoling",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pain Managemen, The Second Hospital of Tianjin Medical University, No. 23, Pingjiang Road, Hesihedao District, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Quanbo",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pain Managemen, The Second Hospital of Tianjin Medical University, No. 23, Pingjiang Road, Hesihedao District, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuromolecular medicine"
+    ],
+    "journal_abbrev": [
+      "Neuromolecular Med"
+    ],
+    "pub_date": "2026 May 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/07 12:37",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40640733",
+      "40566818",
+      "40449341",
+      "40195186",
+      "39089662",
+      "38745316",
+      "37871970",
+      "37838078",
+      "37490300",
+      "37488863",
+      "37377223",
+      "37069462",
+      "36905281",
+      "36859719",
+      "36098370",
+      "35833522",
+      "35799365",
+      "35642214",
+      "35271915",
+      "34162415",
+      "33997692"
+    ],
+    "similar": [
+      "42096098",
+      "40640733",
+      "41668762",
+      "32393298",
+      "42308799",
+      "36183073",
+      "40316183",
+      "36401579",
+      "40433390",
+      "38061116",
+      "41187887",
+      "33626986",
+      "37377223",
+      "38995476",
+      "35531701",
+      "41880679",
+      "35324416",
+      "41508081",
+      "42144484",
+      "34020664",
+      "36931068",
+      "36638658",
+      "40785674",
+      "37871970",
+      "39135278",
+      "37573685",
+      "40580118",
+      "32557241",
+      "40785673",
+      "38614040",
+      "34999395",
+      "38639897",
+      "40643875",
+      "31209627",
+      "30045596",
+      "32656992",
+      "31505256",
+      "33360969",
+      "41517974",
+      "40195186",
+      "31325725",
+      "42015637",
+      "29770147",
+      "40185764",
+      "28130187",
+      "41902571",
+      "41129067",
+      "31898581",
+      "34558238",
+      "24077211",
+      "24686047",
+      "32156533",
+      "41439286",
+      "31603252",
+      "31590042",
+      "37622691",
+      "38552937",
+      "38589918",
+      "24970341",
+      "32171293",
+      "33728865",
+      "33439430",
+      "40464033",
+      "30848438",
+      "35752418",
+      "40884073",
+      "38862817",
+      "21489258",
+      "36288601",
+      "29976873",
+      "31381191",
+      "27287419",
+      "42228285",
+      "39638264",
+      "33151463",
+      "39532465",
+      "29759145",
+      "39666013",
+      "29219175",
+      "42411427",
+      "36334791",
+      "34993705",
+      "33742328",
+      "24994592",
+      "34512747",
+      "39832102",
+      "39939465",
+      "34402860",
+      "32428552",
+      "31526851",
+      "37858697",
+      "40848997",
+      "41229245",
+      "37104915",
+      "36299239",
+      "30069596",
+      "39071815",
+      "33555527",
+      "31726033",
+      "35806200"
+    ],
+    "review": [
+      "42096098"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/chronicpain.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chronic Pain"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12017-026-08913-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

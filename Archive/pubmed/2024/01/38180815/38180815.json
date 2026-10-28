@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "38180815",
+    "doi": "10.1093/nar/gkad1246",
+    "title": "Rif2 interaction with Rad50 counteracts Tel1 functions in checkpoint signalling and DNA tethering by releasing Tel1 from MRX binding."
+  },
+  "content": {
+    "abstract": "The yeast Rif2 protein is known to inhibit Mre11 nuclease and the activation of Tel1 kinase through a short motif termed MIN, which binds the Rad50 subunit and simulates its ATPase activity in vitro. The mechanism by which Rif2 restrains Tel1 activation and the consequences of this inhibition at DNA double-strand breaks (DSBs) are poorly understood. In this study, we employed AlphaFold-Multimer modelling to pinpoint and validate the interaction surface between Rif2 MIN and Rad50. We also engineered the rif2-S6E mutation that enhances the inhibitory effect of Rif2 by increasing Rif2-Rad50 interaction. Unlike rif2Delta, the rif2-S6E mutation impairs hairpin cleavage. Furthermore, it diminishes Tel1 activation by inhibiting Tel1 binding to DSBs while leaving MRX association unchanged, indicating that Rif2 can directly inhibit Tel1 recruitment to DSBs. Additionally, Rif2S6E reduces Tel1-MRX interaction and increases stimulation of ATPase by Rad50, indicating that Rif2 binding to Rad50 induces an ADP-bound MRX conformation that is not suitable for Tel1 binding. The decreased Tel1 recruitment to DSBs in rif2-S6E cells impairs DSB end-tethering and this bridging defect is suppressed by expressing a Tel1 mutant variant that increases Tel1 persistence at DSBs, suggesting a direct role for Tel1 in the bridging of DSB ends.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenosine Triphosphatases/genetics/metabolism",
+      "DNA/genetics/metabolism",
+      "DNA Repair",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Endodeoxyribonucleases/genetics/metabolism",
+      "Exodeoxyribonucleases/genetics/metabolism",
+      "Intracellular Signaling Peptides and Proteins/genetics/metabolism",
+      "*Protein Serine-Threonine Kinases/genetics/metabolism",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "*Saccharomyces cerevisiae Proteins/metabolism",
+      "*Telomere-Binding Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pizzul, Paolo",
+        "Casari, Erika",
+        "Rinaldi, Carlo",
+        "Gnugnoli, Marco",
+        "Mangiagalli, Marco",
+        "Tisi, Renata",
+        "Longhese, Maria Pia"
+      ],
+      "short_names": [
+        "Pizzul P",
+        "Casari E",
+        "Rinaldi C",
+        "Gnugnoli M",
+        "Mangiagalli M",
+        "Tisi R",
+        "Longhese MP"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2709-8573",
+        "ORCID: 0000-0002-4096-714X",
+        "ORCID: 0000-0002-4649-3205",
+        "ORCID: 0000-0001-6131-0879",
+        "ORCID: 0000-0001-8211-165X",
+        "ORCID: 0000-0002-0869-3345",
+        "ORCID: 0000-0003-1726-2034"
+      ],
+      "affiliations": [
+        "Dipartimento di Biotecnologie e Bioscienze, Universita degli Studi di Milano - Bicocca, 20126 Milano, Italy.",
+        "Dipartimento di Biotecnologie e Bioscienze, Universita degli Studi di Milano - Bicocca, 20126 Milano, Italy.",
+        "Dipartimento di Biotecnologie e Bioscienze, Universita degli Studi di Milano - Bicocca, 20126 Milano, Italy.",
+        "Dipartimento di Biotecnologie e Bioscienze, Universita degli Studi di Milano - Bicocca, 20126 Milano, Italy.",
+        "Dipartimento di Biotecnologie e Bioscienze, Universita degli Studi di Milano - Bicocca, 20126 Milano, Italy.",
+        "Dipartimento di Biotecnologie e Bioscienze, Universita degli Studi di Milano - Bicocca, 20126 Milano, Italy.",
+        "Dipartimento di Biotecnologie e Bioscienze, Universita degli Studi di Milano - Bicocca, 20126 Milano, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pizzul, Paolo",
+        "short_name": "Pizzul P",
+        "identifiers": [
+          "0000-0003-2709-8573"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie e Bioscienze, Università degli Studi di Milano - Bicocca, 20126 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Casari, Erika",
+        "short_name": "Casari E",
+        "identifiers": [
+          "0000-0002-4096-714X"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie e Bioscienze, Università degli Studi di Milano - Bicocca, 20126 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Rinaldi, Carlo",
+        "short_name": "Rinaldi C",
+        "identifiers": [
+          "0000-0002-4649-3205"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie e Bioscienze, Università degli Studi di Milano - Bicocca, 20126 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Gnugnoli, Marco",
+        "short_name": "Gnugnoli M",
+        "identifiers": [
+          "0000-0001-6131-0879"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie e Bioscienze, Università degli Studi di Milano - Bicocca, 20126 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Mangiagalli, Marco",
+        "short_name": "Mangiagalli M",
+        "identifiers": [
+          "0000-0001-8211-165X"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie e Bioscienze, Università degli Studi di Milano - Bicocca, 20126 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Tisi, Renata",
+        "short_name": "Tisi R",
+        "identifiers": [
+          "0000-0002-0869-3345"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie e Bioscienze, Università degli Studi di Milano - Bicocca, 20126 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Longhese, Maria Pia",
+        "short_name": "Longhese MP",
+        "identifiers": [
+          "0000-0003-1726-2034"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie e Bioscienze, Università degli Studi di Milano - Bicocca, 20126 Milano, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Mar 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/05 18:41",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "42162378",
+      "41091836",
+      "40968163",
+      "39746913",
+      "39081288",
+      "38884214",
+      "38826278"
+    ],
+    "refs": [
+      "37653239",
+      "36762474",
+      "36577401",
+      "36186482",
+      "35987200",
+      "34520455",
+      "34362907",
+      "34158470",
+      "33980827",
+      "33789097",
+      "33556282",
+      "32840770",
+      "32489527",
+      "31953386",
+      "31645360",
+      "31640985",
+      "31492634",
+      "30698745",
+      "30510002",
+      "30428339",
+      "30275497",
+      "30208292",
+      "29709199",
+      "29321179",
+      "29321177",
+      "28134932",
+      "26901759",
+      "26896444",
+      "26717941",
+      "26294668",
+      "25637499",
+      "25601756",
+      "25569305",
+      "25231868",
+      "25104768",
+      "24493214",
+      "24316220",
+      "23746845",
+      "23525106",
+      "22354991",
+      "22343724",
+      "22002605",
+      "21937514",
+      "21511873",
+      "21458667",
+      "21441914",
+      "21152442",
+      "21115410",
+      "21057524",
+      "20811461",
+      "20811460",
+      "19217405",
+      "18854158",
+      "18806779",
+      "18805091",
+      "18650924",
+      "18451106",
+      "17954565",
+      "17538011",
+      "17347674",
+      "16374511",
+      "16162495",
+      "16107854",
+      "15964794",
+      "15790808",
+      "15758953",
+      "15589152",
+      "15589151",
+      "15572688",
+      "15485933",
+      "15064416",
+      "14532133",
+      "12925751",
+      "12923051",
+      "12191482",
+      "11832209",
+      "11741547",
+      "11707419",
+      "11544181",
+      "11430828",
+      "11371344",
+      "10892749",
+      "9708741",
+      "9087429",
+      "1545810"
+    ],
+    "similar": [
+      "38180815",
+      "26901759",
+      "31640985",
+      "30279093",
+      "19217405",
+      "30698745",
+      "22354991",
+      "34311383",
+      "21402778",
+      "31073030",
+      "33980827",
+      "34158470",
+      "30538107",
+      "33789097",
+      "21152442",
+      "23672410",
+      "22130795",
+      "26990569",
+      "16879433",
+      "27746018",
+      "30510002",
+      "21057524",
+      "29922906",
+      "17377065",
+      "18650924",
+      "24357557",
+      "15509802",
+      "17565964",
+      "25831494",
+      "11553325",
+      "29420790",
+      "23443654",
+      "36762474",
+      "41428730",
+      "41248173",
+      "17698079",
+      "16765654",
+      "17347674",
+      "31879780",
+      "30428339",
+      "26743002",
+      "16374511",
+      "27173583",
+      "39174552",
+      "23555316",
+      "23080121",
+      "25213441",
+      "26584331",
+      "38217957",
+      "23902647",
+      "15721260",
+      "33086066",
+      "27923845",
+      "29925516",
+      "29851556",
+      "16287875",
+      "38884214",
+      "25601756",
+      "28357369",
+      "33378670",
+      "25569305",
+      "31390569",
+      "31552432",
+      "39630591",
+      "14522986",
+      "15369670",
+      "21098122",
+      "11430828",
+      "18334620",
+      "38870937",
+      "15716496",
+      "22072981",
+      "15126391",
+      "26246601",
+      "25527408",
+      "39558159",
+      "20834227",
+      "23953933",
+      "36917982",
+      "17349953",
+      "28398510",
+      "21931565",
+      "39826692",
+      "28970327",
+      "12923051",
+      "18625723",
+      "15811632",
+      "17954565",
+      "14698290",
+      "16043424",
+      "11805044",
+      "27889450",
+      "27966484",
+      "23775120",
+      "23825959",
+      "21102445",
+      "35501303",
+      "25539084",
+      "12925751",
+      "21115410"
+    ],
+    "review": [
+      "38180815",
+      "34311383",
+      "29922906",
+      "25213441",
+      "28357369"
+    ],
+    "pmc": [
+      "10954470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38180815/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38180815",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD50-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-954",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad1246",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

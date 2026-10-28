@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "38979911",
+    "doi": "10.1093/genetics/iyae106",
+    "title": "An acidic loop in the forkhead-associated domain of the yeast meiosis-specific kinase Mek1 interacts with a specific motif in a subset of Mek1 substrates."
+  },
+  "content": {
+    "abstract": "The meiosis-specific kinase Mek1 regulates key steps in meiotic recombination in the budding yeast, Saccharomyces cerevisiae. MEK1 limits resection at double-strand break (DSB) ends and is required for preferential strand invasion into homologs, a process known as interhomolog bias. After strand invasion, MEK1 promotes phosphorylation of the synaptonemal complex protein Zip1 that is necessary for DSB repair mediated by a crossover-specific pathway that enables chromosome synapsis. In addition, Mek1 phosphorylation of the meiosis-specific transcription factor, Ndt80, regulates the meiotic recombination checkpoint that prevents exit from pachytene when DSBs are present. Mek1 interacts with Ndt80 through a 5-amino acid sequence, RPSKR, located between the DNA-binding and activation domains of Ndt80. AlphaFold Multimer modeling of a fragment of Ndt80 containing the RPSKR motif and full-length Mek1 indicated that RPSKR binds to an acidic loop located in the Mek1 FHA domain, a noncanonical interaction with this motif. A second protein, the 5'-3' helicase Rrm3, similarly interacts with Mek1 through an RPAKR motif and is an in vitro substrate of Mek1. Genetic analysis using various mutants in the MEK1 acidic loop validated the AlphaFold model, in that they specifically disrupt 2-hybrid interactions with Ndt80 and Rrm3. Phenotypic analyses further showed that the acidic loop mutants are defective in the meiotic recombination checkpoint and, in certain circumstances, exhibit more severe phenotypes compared to the NDT80 mutant with the RPSKR sequence deleted, suggesting that additional, as yet unknown, substrates of Mek1 also bind to Mek1 using an RPXKR motif.",
+    "keywords": [
+      "FHA domain",
+      "Mek1",
+      "Rrm3",
+      "meiosis",
+      "recombination"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae Proteins/metabolism/genetics/chemistry",
+      "*Saccharomyces cerevisiae/genetics/metabolism",
+      "*MAP Kinase Kinase 1/metabolism/genetics",
+      "*Meiosis",
+      "Phosphorylation",
+      "Protein Binding",
+      "DNA Breaks, Double-Stranded",
+      "Nuclear Proteins/metabolism/genetics/chemistry",
+      "Amino Acid Motifs",
+      "DNA-Binding Proteins/metabolism/genetics/chemistry",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weng, Qixuan",
+        "Wan, Lihong",
+        "Straker, Geburah C",
+        "Deegan, Tom D",
+        "Duncker, Bernard P",
+        "Neiman, Aaron M",
+        "Luk, Ed",
+        "Hollingsworth, Nancy M"
+      ],
+      "short_names": [
+        "Weng Q",
+        "Wan L",
+        "Straker GC",
+        "Deegan TD",
+        "Duncker BP",
+        "Neiman AM",
+        "Luk E",
+        "Hollingsworth NM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6055-9522",
+        "ORCID: 0000-0002-6600-6996",
+        "ORCID: 0000-0002-6619-2258",
+        "ORCID: 0000-0003-3300-6444"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA.",
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA.",
+        "Department of Biology, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada.",
+        "MRC Protein Phosphorylation and Ubiquitylation Unit, Sir James Black Centre, School of Life Sciences, University of Dundee, Dundee DD1 5EH, UK.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Western General Hospital, Edinburgh EH4 2XU, UK.",
+        "Department of Biology, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada.",
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA.",
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA.",
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weng, Qixuan",
+        "short_name": "Weng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      },
+      {
+        "full_name": "Wan, Lihong",
+        "short_name": "Wan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      },
+      {
+        "full_name": "Straker, Geburah C",
+        "short_name": "Straker GC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada."
+        ]
+      },
+      {
+        "full_name": "Deegan, Tom D",
+        "short_name": "Deegan TD",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Protein Phosphorylation and Ubiquitylation Unit, Sir James Black Centre, School of Life Sciences, University of Dundee, Dundee DD1 5EH, UK.",
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Western General Hospital, Edinburgh EH4 2XU, UK."
+        ]
+      },
+      {
+        "full_name": "Duncker, Bernard P",
+        "short_name": "Duncker BP",
+        "identifiers": [
+          "0000-0002-6055-9522"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada."
+        ]
+      },
+      {
+        "full_name": "Neiman, Aaron M",
+        "short_name": "Neiman AM",
+        "identifiers": [
+          "0000-0002-6600-6996"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      },
+      {
+        "full_name": "Luk, Ed",
+        "short_name": "Luk E",
+        "identifiers": [
+          "0000-0002-6619-2258"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      },
+      {
+        "full_name": "Hollingsworth, Nancy M",
+        "short_name": "Hollingsworth NM",
+        "identifiers": [
+          "0000-0003-3300-6444"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetics"
+    ],
+    "journal_abbrev": [
+      "Genetics"
+    ],
+    "pub_date": "2024 Sep 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/09 12:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "41379861",
+      "40496891"
+    ],
+    "refs": [
+      "39005070",
+      "38117984",
+      "36508468",
+      "33823531",
+      "33199619",
+      "33184224",
+      "32099015",
+      "32093266",
+      "31236671",
+      "31069484",
+      "30850330",
+      "30671596",
+      "30496175",
+      "30289413",
+      "29544874",
+      "29523236",
+      "28986445",
+      "28900015",
+      "28694245",
+      "28249986",
+      "27939759",
+      "27483004",
+      "27214570",
+      "26870961",
+      "26682552",
+      "26411679",
+      "25475089",
+      "25421598",
+      "24465215",
+      "24367271",
+      "24285546",
+      "23101628",
+      "23047948",
+      "22500800",
+      "22500736",
+      "22390969",
+      "22072981",
+      "21840861",
+      "21660693",
+      "21471004",
+      "21376234",
+      "21145459",
+      "21036905",
+      "20888230",
+      "20348905",
+      "20159853",
+      "20148280",
+      "19917248",
+      "18832066",
+      "18691965",
+      "18691964",
+      "18691940",
+      "18615017",
+      "18347097",
+      "18329363",
+      "17988174",
+      "17911163",
+      "17526735",
+      "17486086",
+      "16935874",
+      "16818607",
+      "16221890",
+      "16107854",
+      "15826144",
+      "15579680",
+      "15189982",
+      "15173120",
+      "15066280",
+      "14690605",
+      "14595109",
+      "12239216",
+      "11911881",
+      "11779793",
+      "11461702",
+      "11461701",
+      "11283700",
+      "11106755",
+      "10518219",
+      "10514571",
+      "9784122",
+      "9717241",
+      "9660952",
+      "9215888",
+      "9215887",
+      "9060462",
+      "9039264",
+      "9000054",
+      "8893012",
+      "8524222",
+      "8521495",
+      "7791788",
+      "7622037",
+      "3413075",
+      "2550770",
+      "2185891",
+      "1752435",
+      "1741279",
+      "1427035"
+    ],
+    "similar": [
+      "38979911",
+      "38826409",
+      "30496175",
+      "28249986",
+      "30671596",
+      "38664461",
+      "26682552",
+      "23047948",
+      "36508468",
+      "21515575",
+      "23382701",
+      "27214570",
+      "21795394",
+      "27483004",
+      "20888230",
+      "21471004",
+      "22072981",
+      "23902647",
+      "10848609",
+      "20421598",
+      "14595109",
+      "23775120",
+      "30289413",
+      "19917248",
+      "11035815",
+      "23825959",
+      "28986445",
+      "24367271",
+      "18329363",
+      "27329041",
+      "14680970",
+      "22106412",
+      "18505828",
+      "17526735",
+      "8524222",
+      "16221890",
+      "39005070",
+      "22390969",
+      "20976044",
+      "26225562",
+      "24465650",
+      "28357344",
+      "26114667",
+      "29853474",
+      "26870961",
+      "20123974",
+      "32386601",
+      "23762445",
+      "24213600",
+      "12192042",
+      "21173162",
+      "27257060",
+      "11825877",
+      "21084840",
+      "28538144",
+      "10786836",
+      "12242283",
+      "9832507",
+      "20223769",
+      "31069484",
+      "24465215",
+      "24183725",
+      "35240051",
+      "9000054",
+      "27678521",
+      "17174924",
+      "38427688",
+      "37243502",
+      "34951404",
+      "24710277",
+      "12482912",
+      "24367111",
+      "30940321",
+      "27974736",
+      "19029820",
+      "23973374",
+      "34197600",
+      "16581767",
+      "18768747",
+      "35102525",
+      "9742092",
+      "34260586",
+      "24901499",
+      "9348039",
+      "18670132",
+      "9880561",
+      "27172214",
+      "32290544",
+      "18832066",
+      "31220082",
+      "27184389",
+      "23841450",
+      "39652586",
+      "19528232",
+      "30254180",
+      "30859296",
+      "25975613",
+      "34879269",
+      "18096626",
+      "28068333"
+    ],
+    "review": [
+      "38979911",
+      "30671596"
+    ],
+    "pmc": [
+      "11373509"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38979911/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-808",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/genetics/article-lookup/doi/10.1093/genetics/iyae106",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

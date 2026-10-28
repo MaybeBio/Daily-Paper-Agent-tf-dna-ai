@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "38362268",
+    "doi": "10.1016/j.isci.2024.109002",
+    "title": "Graphylo: A deep learning approach for predicting regulatory DNA and RNA sites from whole-genome multiple alignments."
+  },
+  "content": {
+    "abstract": "This study focuses on enhancing the prediction of regulatory functional sites in DNA and RNA sequences, a crucial aspect of gene regulation. Current methods, such as motif overrepresentation and machine learning, often lack specificity. To address this issue, the study leverages evolutionary information and introduces Graphylo, a deep-learning approach for predicting transcription factor binding sites in the human genome. Graphylo combines Convolutional Neural Networks for DNA sequences with Graph Convolutional Networks on phylogenetic trees, using information from placental mammals' genomes and evolutionary history. The research demonstrates that Graphylo consistently outperforms both single-species deep learning techniques and methods that incorporate inter-species conservation scores on a wide range of datasets. It achieves this by utilizing a species-based attention model for evolutionary insights and an integrated gradient approach for nucleotide-level model interpretability. This innovative approach offers a promising avenue for improving the accuracy of regulatory site prediction in genomics.",
+    "keywords": [
+      "Gene network",
+      "Machine learning",
+      "Neural networks",
+      "Phylogenetics",
+      "Sequence homology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lim, Dongjoon",
+        "Baek, Changhyun",
+        "Blanchette, Mathieu"
+      ],
+      "short_names": [
+        "Lim D",
+        "Baek C",
+        "Blanchette M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "McGill University, Montreal, QC, Canada.",
+        "McGill University, Montreal, QC, Canada.",
+        "McGill University, Montreal, QC, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lim, Dongjoon",
+        "short_name": "Lim D",
+        "identifiers": [],
+        "affiliations": [
+          "McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Baek, Changhyun",
+        "short_name": "Baek C",
+        "identifiers": [],
+        "affiliations": [
+          "McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Blanchette, Mathieu",
+        "short_name": "Blanchette M",
+        "identifiers": [],
+        "affiliations": [
+          "McGill University, Montreal, QC, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2024 Feb 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/16 06:42",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42330352"
+    ],
+    "refs": [
+      "35758792",
+      "34265844",
+      "33272122",
+      "32939066",
+      "32728337",
+      "32657407",
+      "32243832",
+      "31510698",
+      "31249063",
+      "30922998",
+      "30371827",
+      "29970003",
+      "28288115",
+      "26787667",
+      "26467480",
+      "26213851",
+      "25599402",
+      "24487584",
+      "23026909",
+      "21685080",
+      "21665927",
+      "20601959",
+      "20513432",
+      "20371350",
+      "20356413",
+      "19858363",
+      "19850756",
+      "19304878",
+      "18978773",
+      "17984227",
+      "17540862",
+      "16381938",
+      "16259733",
+      "16024819",
+      "15643449",
+      "15574820",
+      "15060014",
+      "14615540",
+      "12824433",
+      "11997340",
+      "11506828",
+      "11032042",
+      "8036511",
+      "7048259",
+      "2470643"
+    ],
+    "similar": [
+      "38362268",
+      "31245384",
+      "35652477",
+      "28245811",
+      "29931149",
+      "36935548",
+      "35389435",
+      "37639434",
+      "33816929",
+      "38236675",
+      "37726702",
+      "37745556",
+      "34272562",
+      "35719916",
+      "33334313",
+      "32770026",
+      "38868182",
+      "38000312",
+      "37598467",
+      "38200437",
+      "29244011",
+      "32550561",
+      "31323206",
+      "35947255",
+      "32696716",
+      "35676633",
+      "36049552",
+      "29219068",
+      "38180830",
+      "33706810",
+      "38005440",
+      "32599617",
+      "35173947",
+      "37845681",
+      "37328639",
+      "33993559",
+      "35990251",
+      "33639834",
+      "34814826",
+      "29993783",
+      "32608476",
+      "33005921",
+      "27197224",
+      "29855387",
+      "29151135",
+      "35768792",
+      "32578842",
+      "35891778",
+      "35361122",
+      "35470092",
+      "37867600",
+      "27586594",
+      "34337397",
+      "31510640",
+      "35043942",
+      "33767912",
+      "29722865",
+      "30685762",
+      "31477007",
+      "30423062",
+      "37734134",
+      "27896980",
+      "36545797",
+      "38084744",
+      "34073774",
+      "37515874",
+      "38099302",
+      "17914226",
+      "29287069",
+      "36430386",
+      "35275822",
+      "36510125",
+      "37180267",
+      "19478008",
+      "31415569",
+      "16477324",
+      "32693790",
+      "36057226",
+      "38250147",
+      "37648910",
+      "33522898",
+      "33372147",
+      "32905524",
+      "34179082",
+      "30842277"
+    ],
+    "review": [
+      "38362268",
+      "35652477"
+    ],
+    "pmc": [
+      "10867641"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(24)00223-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38362268/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38362268",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

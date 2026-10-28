@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "41558529",
+    "doi": "10.1055/a-2762-1558",
+    "title": "Establishment of a Prediction Model to Diagnose the End-stage Knee Osteoarthritis Based on a Significant Difference in Ferroptosis-Related Genes in Chondrocytes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Knee osteoarthritis (OA) is a widespread joint disease with no disease-modifying treatments. Chondrocyte damage is a key process in knee OA and ferroptosis is lipid peroxidation-induced iron-dependent cell death that exacerbates the process of knee OA and aggravates an imbalance in the synthesis as well as degradation of matrix metallopeptidase 13 (MMP13) and type II collagen. The clinical diagnosis of knee OA mainly depends on imaging. Whether ferroptosis-related genes could be used as new biomarkers for the diagnosis of OA remains to be explored. METHODS: A dataset was used to build a diagnostic model used to diagnose and differentiate patients with end-stage knee OA. Normalization and quality control of the three profiles was carried out using R 4.1.0. RESULTS: Analysis of a dataset (GSE114007) of differentially expressed genes (DEGs) found that the expression of 15 ferroptosis-related genes, including activating transcription factor 3 (ATF3), cyclin-dependent kinase inhibitor 1A (CDKN1A), and cytochrome b-245 beta chain (CYBB), showed significant changes in osteoarthritic chondrocytes relative to normal subjects. Based on 15 ferroptosis-related genes, we developed and compared diagnostic models using different supervised learning algorithms. CONCLUSIONS: The diagnostic model based on the support vector machine gave a convincing diagnostic performance for both verifications (Area Under Curve [AUC] = 0.9601) and testing (AUC = 0.8725). The results collectively indicate that ferroptosis-related genes may play an indispensable role in knee OA and could be specific diagnostic biomarkers for knee OA.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Ferroptosis/genetics",
+      "*Osteoarthritis, Knee/genetics/diagnosis",
+      "*Chondrocytes/pathology",
+      "Female",
+      "Sensitivity and Specificity",
+      "Male",
+      "Biomarkers",
+      "Genetic Markers/genetics",
+      "Predictive Learning Models",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Min, Lingtian",
+        "Chen, Cheng",
+        "Wang, Weijun"
+      ],
+      "short_names": [
+        "Min L",
+        "Chen C",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-8567-0418"
+      ],
+      "affiliations": [
+        "Nantong Hospital to Nanjing University of Chinese Medicine, Department of Orthopedics, China, Nantong.",
+        "The Suqian Clinical College of Xuzhou Medical University, Department of Orthopedics, China, Suqian.",
+        "Nanjing University Medical School, Affiliated Nanjing Drum Tower Hospital, Department of Orthopedics, China, Nanjing."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Min, Lingtian",
+        "short_name": "Min L",
+        "identifiers": [],
+        "affiliations": [
+          "Nantong Hospital to Nanjing University of Chinese Medicine, Department of Orthopedics, China, Nantong."
+        ]
+      },
+      {
+        "full_name": "Chen, Cheng",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "The Suqian Clinical College of Xuzhou Medical University, Department of Orthopedics, China, Suqian."
+        ]
+      },
+      {
+        "full_name": "Wang, Weijun",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0009-0006-8567-0418"
+        ],
+        "affiliations": [
+          "Nanjing University Medical School, Affiliated Nanjing Drum Tower Hospital, Department of Orthopedics, China, Nanjing."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Zeitschrift fur Orthopadie und Unfallchirurgie"
+    ],
+    "journal_abbrev": [
+      "Z Orthop Unfall"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 01:48",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38766865",
+      "38046403",
+      "37778138",
+      "37771529",
+      "37749624",
+      "37524622",
+      "37449990",
+      "37284121",
+      "36907253",
+      "36737426",
+      "35778837",
+      "34934171",
+      "34537753",
+      "34262953",
+      "33807695",
+      "33560326",
+      "33441426",
+      "33406330",
+      "33376672",
+      "32967533",
+      "32713185",
+      "32680434",
+      "32035570",
+      "31034380",
+      "30219704",
+      "29132158",
+      "29038075",
+      "28393540",
+      "27802335"
+    ],
+    "similar": [
+      "41558529",
+      "35359876",
+      "42302029",
+      "37723556",
+      "40636124",
+      "38333254",
+      "40303500",
+      "42025819",
+      "42381080",
+      "39586719",
+      "40797087",
+      "41593037",
+      "36890785",
+      "40216809",
+      "41981440",
+      "38764106",
+      "33747150",
+      "38767974",
+      "42391815",
+      "41712577",
+      "20109188",
+      "16139532",
+      "40058106",
+      "41508240",
+      "42338208",
+      "42397093",
+      "39935469",
+      "40696927",
+      "42101179",
+      "31764352",
+      "41965191",
+      "41854786",
+      "40394653",
+      "41709967",
+      "41539091",
+      "33376672",
+      "42049440",
+      "40818934",
+      "41539373",
+      "38832987",
+      "41941107",
+      "38621621",
+      "36106017",
+      "40260566",
+      "36084724",
+      "38370466",
+      "30654118",
+      "41510851",
+      "41405396",
+      "36907253",
+      "39293333",
+      "40016915",
+      "38759289",
+      "40812964",
+      "41581577",
+      "39779817",
+      "41473939",
+      "40818538",
+      "25880168",
+      "32342805",
+      "19723327",
+      "33228708",
+      "29143404",
+      "41581266",
+      "29929535",
+      "36439689",
+      "39640258",
+      "27788684",
+      "24757148",
+      "19008124",
+      "38997894",
+      "38741149",
+      "38173197",
+      "39306824",
+      "36359826",
+      "33347923",
+      "40593053",
+      "19103633",
+      "40287984",
+      "41972158",
+      "42338210",
+      "24504986",
+      "40830558",
+      "41146237",
+      "36082523",
+      "39292816",
+      "19404937",
+      "41616676",
+      "22469853",
+      "36641761",
+      "40919665",
+      "29273645",
+      "38734758",
+      "38714267",
+      "16912396",
+      "41702504",
+      "27118120",
+      "42349714",
+      "41534778",
+      "28899843"
+    ],
+    "review": [
+      "41558529",
+      "40303500",
+      "39293333",
+      "39306824"
+    ],
+    "pmc": [
+      "13286092"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41558529/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://www.thieme-connect.com/DOI/DOI?10.1055/a-2762-1558",
+        "provider": "Georg Thieme Verlag Stuttgart, New York",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1755",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

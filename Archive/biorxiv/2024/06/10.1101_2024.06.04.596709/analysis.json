@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.04.596709",
+  "title": "Cross-species modeling of plant genomes at single nucleotide resolution using a pre-trained DNA language model",
+  "authors": "Jingjing Zhai; Aaron Gokaslan; Yair Schiff; Ana Berthel; Zong-Yan Liu; Wei-Yun Lai; Zachary R Miller; Armin Scheben; Michelle C Stitzer; Cinta Romay; Edward S. Buckler; Volodymyr Kuleshov",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-05",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发植物DNA语言模型PlantCaduceus用于跨物种基因组功能预测，但核心是序列级功能位点与变异效应，未涉及蛋白质-DNA互作或TF-DNA结合建模，仅方法上可迁移至DNA序列特征提取。",
+  "abstract": "Interpreting function and fitness effects in diverse plant genomes requires transferable models. Language models (LMs) pre-trained on large-scale biological sequences can learn evolutionary conservation and offer cross-species prediction better than supervised models through fine-tuning limited labeled data. We introduce PlantCaduceus, a plant DNA LM based on the Caduceus and Mamba architectures, pre-trained on a curated dataset of 16 Angiosperm genomes. Fine-tuning PlantCaduceus on limited labeled Arabidopsis data for four tasks, including predicting translation initiation/termination sites and splice donor and acceptor sites, demonstrated high transferability to 160 million year diverged maize, outperforming the best existing DNA LM by 1.45 to 7.23-fold. PlantCaduceus is competitive to state-of-the-art protein LMs in terms of deleterious mutation identification, and is threefold better than PhyloP. Additionally, PlantCaduceus successfully identifies well-known causal variants in both Arabidopsis and maize. Overall, PlantCaduceus is a versatile DNA LM that can accelerate plant genomics and crop breeding applications.",
+  "abstract_zh": "在不同植物基因组中解读功能与适应性效应，需要可迁移的模型。在大规模生物序列上预训练的语言模型（LMs）能够学习进化保守性，并通过微调有限标注数据，提供优于监督模型的跨物种预测能力。我们引入了PlantCaduceus，一种基于Caduceus和Mamba架构的植物DNA语言模型，在包含16个被子植物基因组的精选数据集上进行了预训练。将PlantCaduceus在有限的拟南芥标注数据上微调，用于四项任务，包括预测翻译起始/终止位点以及剪接供体和受体位点，展示了其向1.6亿年分化距离的玉米的高迁移性，性能比现有最佳DNA语言模型高出1.45至7.23倍。PlantCaduceus在有害突变识别方面与最先进的蛋白质语言模型相当，并且比PhyloP好三倍。此外，PlantCaduceus成功识别了拟南芥和玉米中已知的因果变异。总体而言，PlantCaduceus是一种多功能的DNA语言模型，可加速植物基因组学和作物育种应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.04.596709",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.04.596709",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.04.596709/index.html"
+}

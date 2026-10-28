@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "41305746",
+    "doi": "10.1097/MD.0000000000045541",
+    "title": "Integrative bioinformatics analysis for identifying the mitochondrial-related gene associated with immune infiltration in sarcopenia."
+  },
+  "content": {
+    "abstract": "The increasing prevalence of sarcopenia (SAR) has raised significant concerns in healthcare. Although mitochondrial dysfunction and immune disorders are recognized as risk factors, the interactions between them remain unclear. This study aims to identify potential diagnostic biomarkers associated with both phenotypes in the progression of SAR. Three transcriptional datasets were obtained from the GEO database. Gene set enrichment analysis (GSEA) was performed to explore the features of the training set, followed by filtering the differentially expressed genes (DEGs). Weighted gene co-expression network analysis was applied to select gene modules closely related to SAR. SAR-mitochondria-related DEGs were then determined by intersecting the DEGs, weighted gene co-expression network analysis, and mitochondrial-related genes from the MitoCarta3.0 database. Hub genes were further explored using LASSO and random forest machine learning algorithms. The regulatory molecules of these hub genes were predicted using the NetworkAnalyst database. Subsequently, receiver operating characteristic analysis was performed and the immune infiltration was analyzed using the CIBERSORT algorithm. A SAR model was established in C2C12 cells using d-galactose, and RT-qPCR experiments were performed for further validation. Gene set enrichment analysis results revealed that the training set genes are mainly enriched in mitochondrial function and energy metabolism. Through the machine learning methods, 5 hub genes were screened out from 32 SAR-Mito DEGs, namely MTRF1L, MICU1, DHTKD1, ACADM, and FHIT. A total of 42 transcription factors and 10 miRNAs strongly associated with the hub genes were detected. These hub genes demonstrated solid diagnostic potential in both training and validation sets. Furthermore, immune infiltration analysis indicated a significant reduction in neutrophil levels in SAR patients. The downregulation of the hub genes in d-galactose-induced C2C12 cells was confirmed. Collectively, our findings identified 5 potential biomarkers for the diagnosis and therapy of SAR and emphasized the interaction between mitochondrial function and the immune response in the development of this condition.",
+    "keywords": [
+      "bioinformatics analysis",
+      "immune cell infiltration",
+      "mitochondrial dysfunction",
+      "sarcopenia"
+    ],
+    "mesh_terms": [
+      "*Sarcopenia/genetics/immunology",
+      "Humans",
+      "Computational Biology/methods",
+      "*Genes, Mitochondrial/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Mice",
+      "*Mitochondria/genetics",
+      "Biomarkers",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Hongyu",
+        "Li, Yang",
+        "Liu, Zhongyuan",
+        "Zhou, Tianle",
+        "Liu, Kai",
+        "Xiong, Ling",
+        "Huang, Fei"
+      ],
+      "short_names": [
+        "Yan H",
+        "Li Y",
+        "Liu Z",
+        "Zhou T",
+        "Liu K",
+        "Xiong L",
+        "Huang F"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-2794-542"
+      ],
+      "affiliations": [
+        "College of Acupuncture and Orthopedics, Hubei University of Chinese Medicine, Wuhan, Hubei, China.",
+        "Affiliated Hospital of Hubei University of Chinese Medicine, Hubei Provincial Hospital of Traditional Chinese Medicine, Hubei Provincial Institute of Traditional Chinese Medicine, Wuhan, Hubei, China.",
+        "Hubei Key Laboratory of Theory and Application Research of Liver and Kidney in Traditional Chinese Medicine (Hubei Province Hospital of Traditional Chinese Medicine), Wuhan, Hubei, China.",
+        "Hubei Shizhen Laboratory, Wuhan, Hubei, China.",
+        "College of Acupuncture and Orthopedics, Hubei University of Chinese Medicine, Wuhan, Hubei, China.",
+        "College of Acupuncture and Orthopedics, Hubei University of Chinese Medicine, Wuhan, Hubei, China.",
+        "Affiliated Hospital of Hubei University of Chinese Medicine, Hubei Provincial Hospital of Traditional Chinese Medicine, Hubei Provincial Institute of Traditional Chinese Medicine, Wuhan, Hubei, China.",
+        "Affiliated Hospital of Hubei University of Chinese Medicine, Hubei Provincial Hospital of Traditional Chinese Medicine, Hubei Provincial Institute of Traditional Chinese Medicine, Wuhan, Hubei, China.",
+        "Department of Orthopedic Surgery, Hubei Aerospace Hospital, Xiaogan, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Hongyu",
+        "short_name": "Yan H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Acupuncture and Orthopedics, Hubei University of Chinese Medicine, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Hubei University of Chinese Medicine, Hubei Provincial Hospital of Traditional Chinese Medicine, Hubei Provincial Institute of Traditional Chinese Medicine, Wuhan, Hubei, China.",
+          "Hubei Key Laboratory of Theory and Application Research of Liver and Kidney in Traditional Chinese Medicine (Hubei Province Hospital of Traditional Chinese Medicine), Wuhan, Hubei, China.",
+          "Hubei Shizhen Laboratory, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhongyuan",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Acupuncture and Orthopedics, Hubei University of Chinese Medicine, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tianle",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "College of Acupuncture and Orthopedics, Hubei University of Chinese Medicine, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kai",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Hubei University of Chinese Medicine, Hubei Provincial Hospital of Traditional Chinese Medicine, Hubei Provincial Institute of Traditional Chinese Medicine, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Ling",
+        "short_name": "Xiong L",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Hubei University of Chinese Medicine, Hubei Provincial Hospital of Traditional Chinese Medicine, Hubei Provincial Institute of Traditional Chinese Medicine, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Fei",
+        "short_name": "Huang F",
+        "identifiers": [
+          "0009-0009-2794-542"
+        ],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Hubei Aerospace Hospital, Xiaogan, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Nov 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 06:28",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39300120",
+      "38855161",
+      "38780097",
+      "38520141",
+      "37986224",
+      "37735940",
+      "37495991",
+      "37488531",
+      "37348598",
+      "37348597",
+      "37291105",
+      "37156410",
+      "36935107",
+      "36599349",
+      "36192500",
+      "35838044",
+      "35522782",
+      "35292087",
+      "35145250",
+      "35106971",
+      "34698550",
+      "34478826",
+      "34108553",
+      "33975883",
+      "33878294",
+      "33428302",
+      "33418869",
+      "33296287",
+      "33174596",
+      "32718064",
+      "32494073",
+      "32446358",
+      "32370051",
+      "32169121",
+      "31701148",
+      "31665639",
+      "31171417",
+      "30931480",
+      "30419337",
+      "30065258",
+      "29740336",
+      "28469267",
+      "28441057",
+      "28223244",
+      "27899662",
+      "27891296",
+      "26771021",
+      "25822800",
+      "25605792",
+      "25428369",
+      "24076469",
+      "19622739",
+      "16199517",
+      "14597658"
+    ],
+    "similar": [
+      "41305746",
+      "42642681",
+      "41013727",
+      "42509823",
+      "42327749",
+      "40496861",
+      "39265357",
+      "38291374",
+      "41044520",
+      "41479901",
+      "40628511",
+      "40406620",
+      "38384969",
+      "41146237",
+      "40836955",
+      "39026250",
+      "40374866",
+      "39375405",
+      "40313958",
+      "40790764",
+      "38899746",
+      "39609718",
+      "40500570",
+      "42123445",
+      "40966021",
+      "40997906",
+      "35278479",
+      "41145553",
+      "41013556",
+      "39713769",
+      "42015036",
+      "41052072",
+      "39142001",
+      "40973872",
+      "41107920",
+      "40977739",
+      "40274954",
+      "41094572",
+      "42243611",
+      "41388523",
+      "39026663",
+      "36225941",
+      "38863714",
+      "40574839",
+      "34536521",
+      "41288681",
+      "42092981",
+      "37359526",
+      "41988156",
+      "42139760",
+      "37434203",
+      "41716396",
+      "42302029",
+      "40078458",
+      "40055592",
+      "41463417",
+      "41638276",
+      "42098401",
+      "39509434",
+      "41703488",
+      "35381314",
+      "40836320",
+      "39139563",
+      "40674408",
+      "37700485",
+      "40216809",
+      "36699262",
+      "41756296",
+      "39354722",
+      "40196107",
+      "35069594",
+      "40901831",
+      "39920860",
+      "35713363",
+      "38711508",
+      "42274933",
+      "40263537",
+      "38690269",
+      "39754246",
+      "39559355",
+      "38774875",
+      "39695788",
+      "38389573",
+      "38987624",
+      "41422136",
+      "41137290",
+      "40129981",
+      "38544384",
+      "41738361",
+      "41006883",
+      "39069636",
+      "40703651",
+      "39263286",
+      "39636891",
+      "40849369",
+      "42064079",
+      "40613560",
+      "39403102",
+      "41432483",
+      "39697326"
+    ],
+    "review": [
+      "41305746"
+    ],
+    "pmc": [
+      "12643768"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=104&issue=47&spage=e45541&aulast=Yan",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/41305746.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41305746/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3877",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000045541",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

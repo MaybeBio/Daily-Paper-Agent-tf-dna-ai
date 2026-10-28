@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "34831362",
+    "doi": "10.3390/cells10113139",
+    "title": "Evaluation of the Effectiveness of Herbal Components Based on Their Regulatory Signature on Carcinogenic Cancer Cells."
+  },
+  "content": {
+    "abstract": "Predicting cancer cells' response to a plant-derived agent is critical for the drug discovery process. Recently transcriptomes advancements have provided an opportunity to identify regulatory signatures to predict drug activity. Here in this study, a combination of meta-analysis and machine learning models have been used to determine regulatory signatures focusing on differentially expressed transcription factors (TFs) of herbal components on cancer cells. In order to increase the size of the dataset, six datasets were combined in a meta-analysis from studies that had evaluated the gene expression in cancer cell lines before and after herbal extract treatments. Then, categorical feature analysis based on the machine learning methods was applied to examine transcription factors in order to find the best signature/pattern capable of discriminating between control and treated groups. It was found that this integrative approach could recognize the combination of TFs as predictive biomarkers. It was observed that the random forest (RF) model produced the best combination rules, including AIP/TFE3/VGLL4/ID1 and AIP/ZNF7/DXO with the highest modulating capacity. As the RF algorithm combines the output of many trees to set up an ultimate model, its predictive rules are more accurate and reproducible than other trees. The discovered regulatory signature suggests an effective procedure to figure out the efficacy of investigational herbal compounds on particular cells in the drug discovery process.",
+    "keywords": [
+      "decision tree",
+      "herbal compound",
+      "meta-analysis",
+      "supervised machine learning",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Cell Line, Tumor",
+      "Databases, Genetic",
+      "*Gene Expression Profiling",
+      "*Gene Expression Regulation, Neoplastic/drug effects",
+      "Gene Ontology",
+      "Humans",
+      "Neoplasms/*genetics",
+      "Phytochemicals/*pharmacology",
+      "Reproducibility of Results",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Evaluation Study",
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Esmaeili, Fazileh",
+        "Lohrasebi, Tahmineh",
+        "Mohammadi-Dehcheshmeh, Manijeh",
+        "Ebrahimie, Esmaeil"
+      ],
+      "short_names": [
+        "Esmaeili F",
+        "Lohrasebi T",
+        "Mohammadi-Dehcheshmeh M",
+        "Ebrahimie E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1719-1611",
+        "ORCID: 0000-0002-4431-2861"
+      ],
+      "affiliations": [
+        "Department of Plant Bioproducts, National Institute of Genetic Engineering and Biotechnology (NIGEB), Shahrak-e Pajoohesh, km 15, Tehran-Karaj Highway, Tehran P.O. Box 14965/161, Iran.",
+        "Department of Plant Bioproducts, National Institute of Genetic Engineering and Biotechnology (NIGEB), Shahrak-e Pajoohesh, km 15, Tehran-Karaj Highway, Tehran P.O. Box 14965/161, Iran.",
+        "School of Animal and Veterinary Sciences, The University of Adelaide, Adelaide, SA 5371, Australia.",
+        "Genomics Research Platform, School of Life Sciences, College of Science, Health and Engineering, La Trobe University, Melbourne, VIC 3086, Australia.",
+        "School of Animal and Veterinary Sciences, The University of Adelaide, Adelaide, SA 5371, Australia.",
+        "Genomics Research Platform, School of Life Sciences, College of Science, Health and Engineering, La Trobe University, Melbourne, VIC 3086, Australia.",
+        "School of BioSciences, The University of Melbourne, Melbourne, VIC 3010, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Esmaeili, Fazileh",
+        "short_name": "Esmaeili F",
+        "identifiers": [
+          "0000-0002-1719-1611"
+        ],
+        "affiliations": [
+          "Department of Plant Bioproducts, National Institute of Genetic Engineering and Biotechnology (NIGEB), Shahrak-e Pajoohesh, km 15, Tehran-Karaj Highway, Tehran P.O. Box 14965/161, Iran."
+        ]
+      },
+      {
+        "full_name": "Lohrasebi, Tahmineh",
+        "short_name": "Lohrasebi T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Bioproducts, National Institute of Genetic Engineering and Biotechnology (NIGEB), Shahrak-e Pajoohesh, km 15, Tehran-Karaj Highway, Tehran P.O. Box 14965/161, Iran."
+        ]
+      },
+      {
+        "full_name": "Mohammadi-Dehcheshmeh, Manijeh",
+        "short_name": "Mohammadi-Dehcheshmeh M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Animal and Veterinary Sciences, The University of Adelaide, Adelaide, SA 5371, Australia.",
+          "Genomics Research Platform, School of Life Sciences, College of Science, Health and Engineering, La Trobe University, Melbourne, VIC 3086, Australia."
+        ]
+      },
+      {
+        "full_name": "Ebrahimie, Esmaeil",
+        "short_name": "Ebrahimie E",
+        "identifiers": [
+          "0000-0002-4431-2861"
+        ],
+        "affiliations": [
+          "School of Animal and Veterinary Sciences, The University of Adelaide, Adelaide, SA 5371, Australia.",
+          "Genomics Research Platform, School of Life Sciences, College of Science, Health and Engineering, La Trobe University, Melbourne, VIC 3086, Australia.",
+          "School of BioSciences, The University of Melbourne, Melbourne, VIC 3010, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2021 Nov 12",
+    "pub_year": "2021",
+    "pub_types": [
+      "Evaluation Study",
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/28 06:00",
+    "fetched_at": "2026-09-28 02:10:34"
+  },
+  "links": {
+    "cites": [
+      "40547666",
+      "38269203",
+      "38028667",
+      "36359875"
+    ],
+    "refs": [
+      "33729002",
+      "33489002",
+      "33343195",
+      "32957968",
+      "32824207",
+      "32566759",
+      "32508653",
+      "32117438",
+      "32004572",
+      "31784171",
+      "31774113",
+      "31605926",
+      "31555319",
+      "31269652",
+      "31164795",
+      "30520728",
+      "30483277",
+      "30197670",
+      "30050559",
+      "30034932",
+      "29726992",
+      "29512748",
+      "29470489",
+      "29463813",
+      "29422643",
+      "29229604",
+      "29202800",
+      "29149101",
+      "29056906",
+      "28589857",
+      "28248238",
+      "28051067",
+      "27602759",
+      "27038646",
+      "26503816",
+      "25911380",
+      "25701461",
+      "25582842",
+      "25352025",
+      "25044704",
+      "24809455",
+      "24458094",
+      "24448649",
+      "23703590",
+      "23702468",
+      "23680455",
+      "23378939",
+      "23175779",
+      "22421440",
+      "21923952",
+      "20709796",
+      "19244387",
+      "16345038",
+      "16096061",
+      "12810716",
+      "7786990"
+    ],
+    "similar": [
+      "34831362",
+      "31138103",
+      "33653269",
+      "29363433",
+      "32806782",
+      "27809618",
+      "31059106",
+      "27170106",
+      "32640984",
+      "32385899",
+      "12801866",
+      "30055304",
+      "21818254",
+      "29166858",
+      "32095794",
+      "30715658",
+      "20238423",
+      "32889300",
+      "24006872",
+      "34020547",
+      "28851888",
+      "29156535",
+      "25886164",
+      "22709873",
+      "32360590",
+      "19832978",
+      "26925688",
+      "28036274",
+      "22220191",
+      "25963525",
+      "30483277",
+      "29993693",
+      "25786242",
+      "32031163",
+      "23056181",
+      "32754268",
+      "32559715",
+      "33509250",
+      "32730293",
+      "33952467",
+      "31881847",
+      "31521253",
+      "30216362",
+      "24706889",
+      "17851055",
+      "30120041",
+      "33087122",
+      "27304923",
+      "14512351",
+      "32035007",
+      "23246694",
+      "30251028",
+      "19594885",
+      "34325274",
+      "26674595",
+      "22319435",
+      "28084397",
+      "24497942",
+      "32498077",
+      "31893510",
+      "22163293",
+      "34837938",
+      "28198666",
+      "21690103",
+      "23913937",
+      "25078098",
+      "31167452",
+      "30081101",
+      "21483478",
+      "27936033",
+      "32143809",
+      "34413360",
+      "31569063"
+    ],
+    "review": [
+      "34831362",
+      "32889300",
+      "29156535",
+      "25886164"
+    ],
+    "pmc": [
+      "8621084"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells10113139",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34831362/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34831362",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-307",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

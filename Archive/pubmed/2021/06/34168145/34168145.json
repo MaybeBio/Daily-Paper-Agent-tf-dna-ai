@@ -1,0 +1,484 @@
+{
+  "identity": {
+    "pmid": "34168145",
+    "doi": "10.1038/s41467-021-24150-4",
+    "title": "Bioactivity descriptors for uncharacterized chemical compounds."
+  },
+  "content": {
+    "abstract": "Chemical descriptors encode the physicochemical and structural properties of small molecules, and they are at the core of chemoinformatics. The broad release of bioactivity data has prompted enriched representations of compounds, reaching beyond chemical structures and capturing their known biological properties. Unfortunately, bioactivity descriptors are not available for most small molecules, which limits their applicability to a few thousand well characterized compounds. Here we present a collection of deep neural networks able to infer bioactivity signatures for any compound of interest, even when little or no experimental information is available for them. Our signaturizers relate to bioactivities of 25 different types (including target profiles, cellular response and clinical outcomes) and can be used as drop-in replacements for chemical descriptors in day-to-day chemoinformatics tasks. Indeed, we illustrate how inferred bioactivity signatures are useful to navigate the chemical space in a biologically relevant manner, unveiling higher-order organization in natural product collections, and to enrich mostly uncharacterized chemical libraries for activity against the drug-orphan target Snail1. Moreover, we implement a battery of signature-activity relationship (SigAR) models and show a substantial improvement in performance, with respect to chemistry-based classifiers, across a series of biophysics and physiology activity prediction benchmarks.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Line, Tumor",
+      "Databases, Pharmaceutical",
+      "Drug Evaluation, Preclinical/methods",
+      "Humans",
+      "Small Molecule Libraries/*chemistry/*pharmacology",
+      "Snail Family Transcription Factors/antagonists & inhibitors/genetics/metabolism",
+      "*Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bertoni, Martino",
+        "Duran-Frigola, Miquel",
+        "Badia-I-Mompel, Pau",
+        "Pauls, Eduardo",
+        "Orozco-Ruiz, Modesto",
+        "Guitart-Pla, Oriol",
+        "Alcalde, Victor",
+        "Diaz, Victor M",
+        "Berenguer-Llergo, Antoni",
+        "Brun-Heath, Isabelle",
+        "Villegas, Nuria",
+        "de Herreros, Antonio Garcia",
+        "Aloy, Patrick"
+      ],
+      "short_names": [
+        "Bertoni M",
+        "Duran-Frigola M",
+        "Badia-I-Mompel P",
+        "Pauls E",
+        "Orozco-Ruiz M",
+        "Guitart-Pla O",
+        "Alcalde V",
+        "Diaz VM",
+        "Berenguer-Llergo A",
+        "Brun-Heath I",
+        "Villegas N",
+        "de Herreros AG",
+        "Aloy P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0720-1027",
+        "ORCID: 0000-0002-9906-6936",
+        "ORCID: 0000-0002-1004-3923",
+        "ORCID: 0000-0001-8561-7576",
+        "ORCID: 0000-0002-3742-8161",
+        "ORCID: 0000-0002-5828-0020",
+        "ORCID: 0000-0001-9323-0697",
+        "ORCID: 0000-0002-3557-0236"
+      ],
+      "affiliations": [
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain. miquel@ersilia.io.",
+        "Ersilia Open Source Initiative, Cambridge, UK. miquel@ersilia.io.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Programa de Recerca en Cancer, Institut Hospital del Mar d'Investigacions Mediques (IMIM) and Departament de Ciencies de la Salut, Universitat Pompeu Fabra (UPF), Barcelona, Catalonia, Spain.",
+        "Faculty of Medicine and Health Sciences, International University of Catalonia, Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Programa de Recerca en Cancer, Institut Hospital del Mar d'Investigacions Mediques (IMIM) and Departament de Ciencies de la Salut, Universitat Pompeu Fabra (UPF), Barcelona, Catalonia, Spain.",
+        "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain. patrick.aloy@irbbarcelona.org.",
+        "Institucio Catalana de Recerca i Estudis Avancats (ICREA), Barcelona, Catalonia, Spain. patrick.aloy@irbbarcelona.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bertoni, Martino",
+        "short_name": "Bertoni M",
+        "identifiers": [
+          "0000-0003-0720-1027"
+        ],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Duran-Frigola, Miquel",
+        "short_name": "Duran-Frigola M",
+        "identifiers": [
+          "0000-0002-9906-6936"
+        ],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain. miquel@ersilia.io.",
+          "Ersilia Open Source Initiative, Cambridge, UK. miquel@ersilia.io."
+        ]
+      },
+      {
+        "full_name": "Badia-I-Mompel, Pau",
+        "short_name": "Badia-I-Mompel P",
+        "identifiers": [
+          "0000-0002-1004-3923"
+        ],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Pauls, Eduardo",
+        "short_name": "Pauls E",
+        "identifiers": [],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Orozco-Ruiz, Modesto",
+        "short_name": "Orozco-Ruiz M",
+        "identifiers": [],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Guitart-Pla, Oriol",
+        "short_name": "Guitart-Pla O",
+        "identifiers": [],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Alcalde, Víctor",
+        "short_name": "Alcalde V",
+        "identifiers": [],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Diaz, Víctor M",
+        "short_name": "Diaz VM",
+        "identifiers": [
+          "0000-0001-8561-7576"
+        ],
+        "affiliations": [
+          "Programa de Recerca en Càncer, Institut Hospital del Mar d'Investigacions Mèdiques (IMIM) and Departament de Ciències de la Salut, Universitat Pompeu Fabra (UPF), Barcelona, Catalonia, Spain.",
+          "Faculty of Medicine and Health Sciences, International University of Catalonia, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Berenguer-Llergo, Antoni",
+        "short_name": "Berenguer-Llergo A",
+        "identifiers": [
+          "0000-0002-3742-8161"
+        ],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Brun-Heath, Isabelle",
+        "short_name": "Brun-Heath I",
+        "identifiers": [
+          "0000-0002-5828-0020"
+        ],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Villegas, Núria",
+        "short_name": "Villegas N",
+        "identifiers": [
+          "0000-0001-9323-0697"
+        ],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "de Herreros, Antonio García",
+        "short_name": "de Herreros AG",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Recerca en Càncer, Institut Hospital del Mar d'Investigacions Mèdiques (IMIM) and Departament de Ciències de la Salut, Universitat Pompeu Fabra (UPF), Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Aloy, Patrick",
+        "short_name": "Aloy P",
+        "identifiers": [
+          "0000-0002-3557-0236"
+        ],
+        "affiliations": [
+          "Joint IRB-BSC-CRG Programme in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain. patrick.aloy@irbbarcelona.org.",
+          "Institució Catalana de Recerca i Estudis Avançats (ICREA), Barcelona, Catalonia, Spain. patrick.aloy@irbbarcelona.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Jun 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/26 06:00",
+    "fetched_at": "2026-09-27 19:40:35"
+  },
+  "links": {
+    "cites": [
+      "42277963",
+      "42162204",
+      "41772717",
+      "41693340",
+      "41471330",
+      "41449233",
+      "41359750",
+      "41115876",
+      "40915561",
+      "40750916",
+      "40399664",
+      "40217538",
+      "39932235",
+      "39891207",
+      "39770437",
+      "39627462",
+      "39256431",
+      "39170720",
+      "39071051",
+      "38890727",
+      "38345040",
+      "38213891",
+      "38046344",
+      "38027377",
+      "37714843",
+      "37697256",
+      "37697042",
+      "37616385",
+      "37550601",
+      "36706315",
+      "36624664",
+      "36017500",
+      "35953549",
+      "35945544",
+      "35936506",
+      "35857932",
+      "35819579",
+      "35631529",
+      "34715914",
+      "34702310",
+      "34488889"
+    ],
+    "refs": [
+      "32440005",
+      "32243153",
+      "32084340",
+      "31636460",
+      "31241929",
+      "31228909",
+      "31194543",
+      "31186353",
+      "31001455",
+      "30976107",
+      "30842833",
+      "30459476",
+      "30398643",
+      "30357356",
+      "30341066",
+      "30049875",
+      "29629118",
+      "29472638",
+      "29348682",
+      "29195078",
+      "29140435",
+      "29126136",
+      "28959952",
+      "28628322",
+      "28388612",
+      "27667448",
+      "27010336",
+      "26852935",
+      "26479676",
+      "26050961",
+      "25687211",
+      "25463034",
+      "25159004",
+      "24381236",
+      "23193258",
+      "22683805",
+      "19881490",
+      "9383411",
+      "8709122"
+    ],
+    "similar": [
+      "34168145",
+      "38890727",
+      "21521149",
+      "24289493",
+      "19561619",
+      "23701000",
+      "30848459",
+      "30548204",
+      "22515962",
+      "24673190",
+      "33084331",
+      "22537178",
+      "32440005",
+      "20481515",
+      "34153183",
+      "22827520",
+      "30047845",
+      "22222455",
+      "34130532",
+      "30010333",
+      "19549631",
+      "30265702",
+      "25310802",
+      "24524735",
+      "21626288",
+      "35916110",
+      "34626922",
+      "24020509",
+      "26695392",
+      "39891207",
+      "38687818",
+      "21482810",
+      "28601761",
+      "24802392",
+      "24160896",
+      "20806901",
+      "25078315",
+      "20981521",
+      "34360558",
+      "18331851",
+      "33431016",
+      "20981517",
+      "21568288",
+      "32558335",
+      "31169974",
+      "22559876",
+      "21699217",
+      "28544552",
+      "11032954",
+      "26878899",
+      "21834535",
+      "33140646",
+      "31557448",
+      "16563016",
+      "33773376",
+      "23647865",
+      "31454992",
+      "26138575",
+      "34931466",
+      "27198617",
+      "26564142",
+      "34008979",
+      "16967195",
+      "29683493",
+      "27650559",
+      "28303669",
+      "23694724",
+      "23461561",
+      "24723613",
+      "26138570",
+      "27398798",
+      "30334211",
+      "28453915",
+      "22038946",
+      "30390803",
+      "30249057",
+      "26138568",
+      "28915003",
+      "32618075",
+      "35054998",
+      "34981643",
+      "25680029",
+      "27492083",
+      "19309114",
+      "20981526",
+      "35421301",
+      "31468964",
+      "25268064",
+      "31059251",
+      "33759119",
+      "39578963",
+      "35640229",
+      "34788840",
+      "28988138",
+      "23314046",
+      "30345657",
+      "32672454",
+      "19929837",
+      "28871390",
+      "27367556"
+    ],
+    "review": [
+      "34168145",
+      "21521149",
+      "23701000",
+      "22515962",
+      "22537178",
+      "22827520",
+      "25310802",
+      "35916110",
+      "34626922",
+      "20981521",
+      "18331851",
+      "20981517",
+      "11032954",
+      "33140646",
+      "31557448",
+      "26138575",
+      "29683493",
+      "23694724",
+      "22038946",
+      "27492083",
+      "35421301",
+      "25268064",
+      "35640229"
+    ],
+    "pmc": [
+      "8225676"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-24150-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34168145/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34168145",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNAI1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34168145",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "identity": {
+    "pmid": "36059456",
+    "doi": "10.3389/fimmu.2022.918692",
+    "title": "Differential gene expression profiling reveals potential biomarkers and pharmacological compounds against SARS-CoV-2: Insights from machine learning and bioinformatics approaches."
+  },
+  "content": {
+    "abstract": "The COVID-19 pandemic, caused by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2), has created an urgent global situation. Therefore, it is necessary to identify the differentially expressed genes (DEGs) in COVID-19 patients to understand disease pathogenesis and the genetic factor(s) responsible for inter-individual variability and disease comorbidities. The pandemic continues to spread worldwide, despite intense efforts to develop multiple vaccines and therapeutic options against COVID-19. However, the precise role of SARS-CoV-2 in the pathophysiology of the nasopharyngeal tract (NT) is still unfathomable. This study utilized machine learning approaches to analyze 22 RNA-seq data from COVID-19 patients (n = 8), recovered individuals (n = 7), and healthy individuals (n = 7) to find disease-related differentially expressed genes (DEGs). We compared dysregulated DEGs to detect critical pathways and gene ontology (GO) connected to COVID-19 comorbidities. We found 1960 and 153 DEG signatures in COVID-19 patients and recovered individuals compared to healthy controls. In COVID-19 patients, the DEG-miRNA, and DEG-transcription factors (TFs) interactions network analysis revealed that E2F1, MAX, EGR1, YY1, and SRF were the highly expressed TFs, whereas hsa-miR-19b, hsa-miR-495, hsa-miR-340, hsa-miR-101, and hsa-miR-19a were the overexpressed miRNAs. Three chemical agents (Valproic Acid, Alfatoxin B1, and Cyclosporine) were abundant in COVID-19 patients and recovered individuals. Mental retardation, mental deficit, intellectual disability, muscle hypotonia, micrognathism, and cleft palate were the significant diseases associated with COVID-19 by sharing DEGs. Finally, the detected DEGs mediated by TFs and miRNA expression indicated that SARS-CoV-2 infection might contribute to various comorbidities. Our results provide the common DEGs between COVID-19 patients and recovered humans, which suggests some crucial insights into the complex interplay between COVID-19 progression and the recovery stage, and offer some suggestions on therapeutic target identification in COVID-19 caused by the SARS-CoV-2.",
+    "keywords": [
+      "RNA-seq",
+      "SARS-CoV-2",
+      "functional enrichment",
+      "gene regulatory networks",
+      "genomics",
+      "therapeutic targets"
+    ],
+    "mesh_terms": [
+      "Biomarkers",
+      "*COVID-19/genetics",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Humans",
+      "Machine Learning",
+      "*MicroRNAs/genetics/metabolism",
+      "Pandemics",
+      "SARS-CoV-2",
+      "*COVID-19 Drug Treatment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hoque, M Nazmul",
+        "Sarkar, Md Murshed Hasan",
+        "Khan, Md Arif",
+        "Hossain, Md Arju",
+        "Hasan, Md Imran",
+        "Rahman, Md Habibur",
+        "Habib, Md Ahashan",
+        "Akter, Shahina",
+        "Banu, Tanjina Akhtar",
+        "Goswami, Barna",
+        "Jahan, Iffat",
+        "Nafisa, Tasnim",
+        "Molla, Md Maruf Ahmed",
+        "Soliman, Mahmoud E",
+        "Araf, Yusha",
+        "Khan, M Salim",
+        "Zheng, Chunfu",
+        "Islam, Tofazzal"
+      ],
+      "short_names": [
+        "Hoque MN",
+        "Sarkar MMH",
+        "Khan MA",
+        "Hossain MA",
+        "Hasan MI",
+        "Rahman MH",
+        "Habib MA",
+        "Akter S",
+        "Banu TA",
+        "Goswami B",
+        "Jahan I",
+        "Nafisa T",
+        "Molla MMA",
+        "Soliman ME",
+        "Araf Y",
+        "Khan MS",
+        "Zheng C",
+        "Islam T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gynecology, Obstetrics and Reproductive Health, Bangabandhu Sheikh Mujibur Rahman Agricultural University, Gazipur, Bangladesh.",
+        "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, University of Development Alternative, Dhaka, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh.",
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Department of Computer Science and Engineering, Islamic University, Kushtia, Bangladesh.",
+        "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh.",
+        "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh.",
+        "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh.",
+        "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh.",
+        "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh.",
+        "National Institute of Laboratory Medicine and Referral Center, Dhaka, Bangladesh.",
+        "National Institute of Laboratory Medicine and Referral Center, Dhaka, Bangladesh.",
+        "Molecular Bio-computation and Drug Design Laboratory, School of Health Sciences, University of KwaZulu-Natal, Durban, South Africa.",
+        "Department of Genetic Engineering and Biotechnology, School of Life Sciences, Shahjalal University of Science and Technology, Sylhet, Bangladesh.",
+        "Department of Immunology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, China.",
+        "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh.",
+        "Department of Immunology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, China.",
+        "Department of Microbiology, Immunology and Infectious Diseases, University of Calgary, Calgary, AB, Canada.",
+        "Institute of Biotechnology and Genetic Engineering (IBGE), Bangabandhu Sheikh Mujibur Rahman Agricultural University (BSMRAU), Gazipur, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hoque, M Nazmul",
+        "short_name": "Hoque MN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Obstetrics and Reproductive Health, Bangabandhu Sheikh Mujibur Rahman Agricultural University, Gazipur, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sarkar, Md Murshed Hasan",
+        "short_name": "Sarkar MMH",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Khan, Md Arif",
+        "short_name": "Khan MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, University of Development Alternative, Dhaka, Bangladesh.",
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Arju",
+        "short_name": "Hossain MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hasan, Md Imran",
+        "short_name": "Hasan MI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Md Habibur",
+        "short_name": "Rahman MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Islamic University, Kushtia, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Habib, Md Ahashan",
+        "short_name": "Habib MA",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Akter, Shahina",
+        "short_name": "Akter S",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Banu, Tanjina Akhtar",
+        "short_name": "Banu TA",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Goswami, Barna",
+        "short_name": "Goswami B",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Jahan, Iffat",
+        "short_name": "Jahan I",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Nafisa, Tasnim",
+        "short_name": "Nafisa T",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Laboratory Medicine and Referral Center, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Molla, Md Maruf Ahmed",
+        "short_name": "Molla MMA",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Laboratory Medicine and Referral Center, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Soliman, Mahmoud E",
+        "short_name": "Soliman ME",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Bio-computation and Drug Design Laboratory, School of Health Sciences, University of KwaZulu-Natal, Durban, South Africa."
+        ]
+      },
+      {
+        "full_name": "Araf, Yusha",
+        "short_name": "Araf Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, School of Life Sciences, Shahjalal University of Science and Technology, Sylhet, Bangladesh.",
+          "Department of Immunology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Khan, M Salim",
+        "short_name": "Khan MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh Council of Scientific & Industrial Research (BCSIR), Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Zheng, Chunfu",
+        "short_name": "Zheng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Fujian Medical University, Fuzhou, China.",
+          "Department of Microbiology, Immunology and Infectious Diseases, University of Calgary, Calgary, AB, Canada."
+        ]
+      },
+      {
+        "full_name": "Islam, Tofazzal",
+        "short_name": "Islam T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology and Genetic Engineering (IBGE), Bangabandhu Sheikh Mujibur Rahman Agricultural University (BSMRAU), Gazipur, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/06 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "42081588",
+      "41404797",
+      "41181141",
+      "39687502",
+      "39478576",
+      "39407208",
+      "39308539",
+      "39113896",
+      "39060289",
+      "38980578",
+      "38455258",
+      "37990123",
+      "37903828",
+      "37662051",
+      "37401387",
+      "37346467",
+      "37109540",
+      "36809830",
+      "36738712"
+    ],
+    "refs": [
+      "35237631",
+      "34911967",
+      "34785679",
+      "34462625",
+      "34272374",
+      "34262570",
+      "34262047",
+      "34163359",
+      "34076249",
+      "33977168",
+      "33962007",
+      "33837107",
+      "33782412",
+      "33780352",
+      "33521069",
+      "33444289",
+      "33319124",
+      "33203890",
+      "33194329",
+      "33178176",
+      "33147503",
+      "33049404",
+      "33024988",
+      "33005486",
+      "32967329",
+      "32960473",
+      "32954666",
+      "32949564",
+      "32814791",
+      "32788073",
+      "32777170",
+      "32659414",
+      "32582222",
+      "32498007",
+      "32497522",
+      "32487139",
+      "32473875",
+      "32416070",
+      "32414646",
+      "32335169",
+      "32327758",
+      "32228226",
+      "32197085",
+      "32171076",
+      "32112977",
+      "32087114",
+      "31986264",
+      "31978945",
+      "31647101",
+      "31635238",
+      "31467124",
+      "31242452",
+      "30931480",
+      "30726743",
+      "30447998",
+      "30247620",
+      "26332376",
+      "25877637",
+      "23586463",
+      "23030043",
+      "22721719",
+      "20656902",
+      "19617556",
+      "14681366",
+      "11579424",
+      "10982861",
+      "9023340"
+    ],
+    "similar": [
+      "36059456",
+      "35390032",
+      "36104591",
+      "38601162",
+      "36189314",
+      "37040729",
+      "37515735",
+      "34954105",
+      "38259479",
+      "38878325",
+      "39093763",
+      "36913345",
+      "34975833",
+      "32960473",
+      "36389792",
+      "37947947",
+      "33833618",
+      "40340571",
+      "37777104",
+      "36119022",
+      "34153417",
+      "35461273",
+      "40408617",
+      "33993223",
+      "38640424",
+      "39028999",
+      "37261353",
+      "33199671",
+      "36555339",
+      "36269619",
+      "37991568",
+      "33207533",
+      "37026010",
+      "41300749",
+      "35749386",
+      "35039944",
+      "34975885",
+      "34920753",
+      "32299382",
+      "36532040",
+      "38162574",
+      "34152577",
+      "40068024",
+      "34600545",
+      "41102315",
+      "39516222",
+      "32041280",
+      "36509426",
+      "36768914",
+      "40826767",
+      "34340124",
+      "41066424",
+      "36124586",
+      "33847347",
+      "33877681",
+      "37804012",
+      "38444712",
+      "41354850",
+      "38169604",
+      "39965013",
+      "34750486",
+      "36481486",
+      "35277538",
+      "35687925",
+      "34669152",
+      "41052072",
+      "31842912",
+      "32971089",
+      "36264868",
+      "34157472",
+      "41006883",
+      "34624759",
+      "38653779",
+      "37221323",
+      "35301654",
+      "38648205",
+      "38839916",
+      "37789254",
+      "39037979",
+      "33233425",
+      "40615624",
+      "36575422",
+      "30390708",
+      "39153206",
+      "35716513",
+      "34058265",
+      "40374866",
+      "37062762",
+      "33458761",
+      "35922752",
+      "34204705",
+      "40834023",
+      "34831321",
+      "39881138",
+      "34623759",
+      "35464423",
+      "27350400",
+      "34313877",
+      "35892576",
+      "39080630"
+    ],
+    "review": [
+      "36059456",
+      "35922752"
+    ],
+    "pmc": [
+      "9429819"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36059456/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36059456",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2022.918692",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

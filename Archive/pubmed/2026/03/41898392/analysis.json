@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41898392",
+  "title": "Computational Identification of Potential Novel Allosteric IHF Inhibitors Using QSAR Modeling to Inhibit Plasmid-Mediated Antibiotic Resistance.",
+  "authors": "Saurith-Coronell, Oscar; Sierra-Hernandez, Olimpo; Rodriguez-Macias, Juan David; Mora, Jose R; Perez-Perez, Noel; Alcazar, Jackson J; Moura, Ricardo Olimpio de; Nascimento, Igor Jose Dos Santos; Marquez Brazon, Edgar A; Marrero-Ponce, Yovani",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2026-03-28",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过QSAR、分子对接和MD模拟研究IHF蛋白（DNA结合蛋白）的别构抑制剂，涉及蛋白-DNA互作界面与动态机制，但对象为IHF而非典型TF-DNA体系，方法以传统计算为主，AI成分有限。",
+  "abstract": "The rapid spread of antibiotic resistance through plasmid-mediated conjugation remains a primary global health concern. Despite its critical role in horizontal gene transfer, no approved drugs currently target this process, leaving a critical therapeutic gap. Integration Host Factor (IHF), a DNA-binding protein essential for plasmid replication and mobilization, emerges as a promising yet underexplored target for anti-conjugation strategies. This work aimed to develop a predictive computational model and identify small molecules that disrupt IHF function, thereby reducing plasmid transfer and limiting resistance gene dissemination. A curated dataset of 65 compounds with reported anti-plasmid activity was analyzed using a 3D-QSAR model based on algebraic descriptors computed with QuBiLS-MIDAS. The model was validated through leave-one-out cross-validation (Q(2) = 0.82), Tropsha's criteria, and Y-scrambling. Representative compounds were selected via pharmacophore clustering and evaluated through molecular docking at both the DNA-binding site and a predicted allosteric pocket of IHF. The most promising complexes underwent 200 ns molecular dynamics simulations to assess stability and interaction patterns. The QSAR model demonstrated strong predictive performance (R(2) = 0.90). Docking simulations revealed more favorable binding energies at the allosteric site (up to -12.15 kcal/mol) compared to the DNA-binding site. Molecular dynamics confirmed the stability of these interactions, with allosteric complexes showing lower RMSD fluctuations and consistent binding energy profiles. Dynamic cross-correlation analysis revealed that allosteric ligand binding induces conformational changes in key catalytic residues, including Pro65, Pro61, and Leu66. These alterations may compromise DNA recognition and disrupt the initiation of replication. To our knowledge, this is the first computational study proposing allosteric inhibition of IHF as an anti-conjugation strategy. These findings provide a foundation for experimental validation and the development of novel agents to prevent horizontal gene transfer, offering a promising approach to restoring antibiotic efficacy against multidrug-resistant pathogens.",
+  "abstract_zh": "通过质粒介导的接合作用快速传播抗生素耐药性仍然是全球健康的主要关切。尽管其在水平基因转移中发挥关键作用，目前尚无获批药物针对这一过程，留下了关键的治疗空白。整合宿主因子（Integration Host Factor, IHF），一种对质粒复制和动员至关重要的DNA结合蛋白，作为抗接合策略中一个有前景但尚未充分探索的靶点浮现。本研究旨在开发一个预测性计算模型，并识别能够破坏IHF功能的小分子，从而减少质粒转移并限制耐药基因的传播。使用基于QuBiLS-MIDAS计算的代数描述符的3D-QSAR模型，分析了包含65种具有报道抗质粒活性化合物的精选数据集。该模型通过留一法交叉验证（Q(2) = 0.82）、Tropsha准则和Y-随机化进行了验证。代表性化合物通过药效团聚类选择，并在IHF的DNA结合位点和预测的别构口袋处通过分子对接进行评估。最有前景的复合物进行了200 ns分子动力学模拟，以评估稳定性和相互作用模式。QSAR模型表现出强大的预测性能（R(2) = 0.90）。对接模拟显示，别构位点的结合能（最高达-12.15 kcal/mol）比DNA结合位点更有利。分子动力学确认了这些相互作用的稳定性，别构复合物显示出较低的RMSD波动和一致的结合能谱。动态交叉相关分析揭示，别构配体结合诱导关键催化残基（包括Pro65、Pro61和Leu66）的构象变化。这些改变可能损害DNA识别并破坏复制起始。据我们所知，这是首个提出IHF别构抑制作为抗接合策略的计算研究。这些发现为实验验证和开发新型药物以阻止水平基因转移提供了基础，为恢复抗生素对多重耐药病原体的有效性提供了一种有前景的方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41898392/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41898392/",
+  "paper_page_path": "papers/pubmed/41898392/index.html"
+}

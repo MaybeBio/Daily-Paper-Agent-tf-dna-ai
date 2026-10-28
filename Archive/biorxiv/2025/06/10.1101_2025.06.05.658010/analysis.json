@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.05.658010",
+  "title": "Enhancing CYP450-Ligand Binding Predictions: A Comparative Analysis of Ligand-Based and Hybrid Machine Learning Models",
+  "authors": "Anastasiia Tikhonova; Eric Chun Yong Chan; Hao Fan",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-08",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该文聚焦CYP450配体结合预测，虽涉及蛋白-配体互作与机器学习，但对象为酶-小分子而非蛋白质-DNA互作，且无TF-DNA结合机制建模，仅方法部分可迁移，故评分较低。",
+  "abstract": "Predicting cytochrome P450 (CYP450) ligand binding is critical in early-stage drug discovery, as CYP450-mediated metabolism profoundly influences drug efficacy, safety, and adverse reaction risks. However, experimental determination of CYP450-ligand interactions remains resource- and time-intensive, underscoring the need for robust computational alternatives. While ligand-based methods are commonly employed, they often fail to fully account for structural intricacies governing protein-ligand interactions. To address this gap, we developed a hybrid machine learning framework integrating ligand descriptors, protein descriptors, and protein-ligand interaction descriptors, that include molecular docking-derived parameters, rescoring function components from multiple algorithms and structural interaction fingerprints (SIFt). Evaluated on CYP1A2 and CYP17A1 isoforms, our model demonstrated superior predictive accuracy in cross-validation compared to stand-alone molecular docking and ligand-based approaches. Furthermore, benchmarking against state-of-the-art tools —SwissADME and ADMETlab 3.0 — revealed enhanced performance in binding prediction. This work establishes a versatile framework for advancing computational tools to prioritize CYP450 binding assessments during drug discovery.",
+  "abstract_zh": "预测细胞色素P450（CYP450）配体结合在早期药物发现中至关重要，因为CYP450介导的代谢深刻影响药物疗效、安全性及不良反应风险。然而，实验测定CYP450-配体相互作用仍耗费大量资源和时间，凸显了对稳健计算替代方法的需求。尽管基于配体的方法常被采用，但它们往往无法充分解释控制蛋白质-配体相互作用的结构复杂性。为弥补这一空白，我们开发了一种混合机器学习框架，整合了配体描述符、蛋白质描述符及蛋白质-配体相互作用描述符，其中包括分子对接衍生参数、来自多种算法的重打分函数组件及结构相互作用指纹（SIFt）。在CYP1A2和CYP17A1亚型上评估时，我们的模型在交叉验证中显示出优于独立分子对接和基于配体方法的预测准确性。此外，与最先进工具——SwissADME和ADMETlab 3.0——的基准比较揭示了在结合预测方面的增强性能。这项工作建立了一个多功能框架，以推进计算工具在药物发现中优先评估CYP450结合。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.05.658010",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.05.658010",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.05.658010/index.html"
+}

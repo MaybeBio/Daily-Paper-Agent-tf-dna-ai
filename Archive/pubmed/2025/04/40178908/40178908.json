@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "40178908",
+    "doi": "10.1172/JCI180570",
+    "title": "Hyaluronan network remodeling by ZEB1 and ITIH2 enhances the motility and invasiveness of cancer cells."
+  },
+  "content": {
+    "abstract": "Hyaluronan (HA) in the extracellular matrix promotes epithelial-mesenchymal transition (EMT) and metastasis; however, the mechanism by which the HA network constructed by cancer cells regulates cancer progression and metastasis in the tumor microenvironment (TME) remains largely unknown. In this study, inter-alpha-trypsin inhibitor heavy chain 2 (ITIH2), an HA-binding protein, was confirmed to be secreted from mesenchymal-like lung cancer cells when cocultured with cancer-associated fibroblasts. ITIH2 expression is transcriptionally upregulated by the EMT-inducing transcription factor ZEB1, along with HA synthase 2 (HAS2), which positively correlates with ZEB1 expression. Depletion of ITIH2 and HAS2 reduced HA matrix formation and the migration and invasion of lung cancer cells. Furthermore, ZEB1 facilitates alternative splicing and isoform expression of CD44, an HA receptor, and CD44 knockdown suppresses the motility and invasiveness of lung cancer cells. Using a deep learning-based drug-target interaction algorithm, we identified an ITIH2 inhibitor (sincalide) that inhibited HA matrix formation and migration of lung cancer cells, preventing metastatic colonization of lung cancer cells in mouse models. These findings suggest that ZEB1 remodels the HA network in the TME through the regulation of ITIH2, HAS2, and CD44, presenting a strategy for targeting this network to suppress lung cancer progression.",
+    "keywords": [
+      "Cell biology",
+      "Extracellular matrix",
+      "Lung cancer",
+      "Oncology"
+    ],
+    "mesh_terms": [
+      "*Zinc Finger E-box-Binding Homeobox 1/metabolism/genetics",
+      "Humans",
+      "*Cell Movement",
+      "Neoplasm Invasiveness",
+      "*Hyaluronic Acid/metabolism/genetics",
+      "*Lung Neoplasms/metabolism/pathology/genetics",
+      "Animals",
+      "Mice",
+      "Hyaluronan Receptors/genetics/metabolism",
+      "Epithelial-Mesenchymal Transition",
+      "Hyaluronan Synthases/metabolism",
+      "Cell Line, Tumor",
+      "*Neoplasm Proteins/metabolism/genetics",
+      "Tumor Microenvironment",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Sieun",
+        "Park, Jihye",
+        "Cho, Seongran",
+        "Kim, Eun Ju",
+        "Oh, Seonyeong",
+        "Lee, Younseo",
+        "Park, Sungsoo",
+        "Kang, Keunsoo",
+        "Shin, Dong Hoon",
+        "Ko, Song Yi",
+        "Kurie, Jonathan M",
+        "Ahn, Young-Ho"
+      ],
+      "short_names": [
+        "Lee S",
+        "Park J",
+        "Cho S",
+        "Kim EJ",
+        "Oh S",
+        "Lee Y",
+        "Park S",
+        "Kang K",
+        "Shin DH",
+        "Ko SY",
+        "Kurie JM",
+        "Ahn YH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea.",
+        "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea.",
+        "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea.",
+        "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea.",
+        "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea.",
+        "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea.",
+        "Deargen Inc., Daejeon, South Korea.",
+        "Department of Microbiology, College of Science and Technology, Dankook University, Cheonan, South Korea.",
+        "Research Institute and Department of Cancer Biomedical Science, Graduate School of Cancer Science and Policy, National Cancer Center, Goyang, South Korea.",
+        "UroGyn Efficacy Evaluation Center, Ewha Womans University Mokdong Hospital, Seoul, South Korea.",
+        "Department of Thoracic/Head and Neck Medical Oncology, University of Texas MD Anderson Cancer Center, Houston, Texas, USA.",
+        "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Sieun",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Jihye",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Seongran",
+        "short_name": "Cho S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Eun Ju",
+        "short_name": "Kim EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Oh, Seonyeong",
+        "short_name": "Oh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Younseo",
+        "short_name": "Lee Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Sungsoo",
+        "short_name": "Park S",
+        "identifiers": [],
+        "affiliations": [
+          "Deargen Inc., Daejeon, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Keunsoo",
+        "short_name": "Kang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, College of Science and Technology, Dankook University, Cheonan, South Korea."
+        ]
+      },
+      {
+        "full_name": "Shin, Dong Hoon",
+        "short_name": "Shin DH",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute and Department of Cancer Biomedical Science, Graduate School of Cancer Science and Policy, National Cancer Center, Goyang, South Korea."
+        ]
+      },
+      {
+        "full_name": "Ko, Song Yi",
+        "short_name": "Ko SY",
+        "identifiers": [],
+        "affiliations": [
+          "UroGyn Efficacy Evaluation Center, Ewha Womans University Mokdong Hospital, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kurie, Jonathan M",
+        "short_name": "Kurie JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic/Head and Neck Medical Oncology, University of Texas MD Anderson Cancer Center, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Ahn, Young-Ho",
+        "short_name": "Ahn YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Inflammation-Cancer Microenvironment Research Center, College of Medicine, Ewha Womans University, Seoul, South Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of clinical investigation"
+    ],
+    "journal_abbrev": [
+      "J Clin Invest"
+    ],
+    "pub_date": "2025 Jun 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/03 18:25",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42448231",
+      "42111273",
+      "42021123",
+      "41900815",
+      "41465862",
+      "41465475",
+      "41399527",
+      "41302034"
+    ],
+    "refs": [
+      "39409891",
+      "37783508",
+      "37600336",
+      "36765756",
+      "36407812",
+      "36358989",
+      "35574334",
+      "35176421",
+      "34951587",
+      "34732702",
+      "34676159",
+      "34507591",
+      "34377767",
+      "34108626",
+      "34099638",
+      "33935281",
+      "33882319",
+      "33744857",
+      "33037194",
+      "32455980",
+      "31019045",
+      "30894630",
+      "30693031",
+      "30365189",
+      "30139970",
+      "30093726",
+      "29561855",
+      "29254997",
+      "28086235",
+      "28043889",
+      "28007785",
+      "27869652",
+      "27694892",
+      "27500490",
+      "27456471",
+      "27107424",
+      "26825774",
+      "26728244",
+      "25872941",
+      "25348003",
+      "25081533",
+      "25081528",
+      "25081524",
+      "24367507",
+      "24165158",
+      "23785517",
+      "23108409",
+      "22850877",
+      "21904555",
+      "21393860",
+      "20823158",
+      "19759262",
+      "19487818",
+      "19285976",
+      "18703791",
+      "18534864",
+      "18425383",
+      "18390475",
+      "18226209",
+      "17392272",
+      "12385018",
+      "12145287",
+      "11323676",
+      "10087322",
+      "7504674",
+      "6284396"
+    ],
+    "similar": [
+      "40178908",
+      "28086235",
+      "27500490",
+      "31037155",
+      "28460475",
+      "29324442",
+      "28627617",
+      "26005723",
+      "32816856",
+      "27434882",
+      "33421513",
+      "27694892",
+      "38783645",
+      "23108409",
+      "27884164",
+      "30365189",
+      "36002606",
+      "35682554",
+      "39327245",
+      "31173403",
+      "35839735",
+      "38954708",
+      "35521974",
+      "25972084",
+      "30194979",
+      "29052277",
+      "26728244",
+      "38783271",
+      "20207041",
+      "38366093",
+      "20671927",
+      "34097859",
+      "29673760",
+      "38760717",
+      "28677740",
+      "39915978",
+      "33017562",
+      "27835603",
+      "40296122",
+      "33417952",
+      "32012400",
+      "32017082",
+      "30098599",
+      "35176421",
+      "36418641",
+      "35395387",
+      "31281520",
+      "33954907",
+      "29271397",
+      "27862275",
+      "30917930",
+      "27150059",
+      "34732702",
+      "28697764",
+      "26699196",
+      "27041571",
+      "30297743",
+      "22632166",
+      "30662328",
+      "22621373",
+      "29512767",
+      "33087801",
+      "27746219",
+      "26320193",
+      "20843787",
+      "33882319",
+      "36603340",
+      "27533463",
+      "29667486",
+      "28337746",
+      "34226299",
+      "24668563",
+      "40050358",
+      "33500360",
+      "33771881",
+      "30093560",
+      "37989078",
+      "28843520",
+      "32860837",
+      "29329360",
+      "39798466",
+      "29187406",
+      "33764690",
+      "31189722",
+      "23166824",
+      "22847005",
+      "27133071",
+      "26459797",
+      "33913391",
+      "30125547",
+      "38468464",
+      "20463012",
+      "29559744",
+      "30107990",
+      "37255406",
+      "28379605",
+      "27790864",
+      "30909497",
+      "16061657",
+      "27923654"
+    ],
+    "review": [
+      "40178908",
+      "27746219"
+    ],
+    "pmc": [
+      "12126249"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1172/JCI180570",
+        "provider": "American Society for Clinical Investigation",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40178908.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40178908/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

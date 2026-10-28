@@ -1,0 +1,489 @@
+{
+  "identity": {
+    "pmid": "37863045",
+    "doi": "10.1016/j.stemcr.2023.09.014",
+    "title": "The multi-lineage transcription factor ISL1 controls cardiomyocyte cell fate through interaction with NKX2.5."
+  },
+  "content": {
+    "abstract": "Congenital heart disease often arises from perturbations of transcription factors (TFs) that guide cardiac development. ISLET1 (ISL1) is a TF that influences early cardiac cell fate, as well as differentiation of other cell types including motor neuron progenitors (MNPs) and pancreatic islet cells. While lineage specificity of ISL1 function is likely achieved through combinatorial interactions, its essential cardiac interacting partners are unknown. By assaying ISL1 genomic occupancy in human induced pluripotent stem cell-derived cardiac progenitors (CPs) or MNPs and leveraging the deep learning approach BPNet, we identified motifs of other TFs that predicted ISL1 occupancy in each lineage, with NKX2.5 and GATA motifs being most closely associated to ISL1 in CPs. Experimentally, nearly two-thirds of ISL1-bound loci were co-occupied by NKX2.5 and/or GATA4. Removal of NKX2.5 from CPs led to widespread ISL1 redistribution, and overexpression of NKX2.5 in MNPs led to ISL1 occupancy of CP-specific loci. These results reveal how ISL1 guides lineage choices through a combinatorial code that dictates genomic occupancy and transcription.",
+    "keywords": [
+      "ISL1",
+      "NKX2.5",
+      "cardiac development",
+      "cardiac progenitor",
+      "cell specification",
+      "combinatorial code",
+      "transcription factor motifs",
+      "transcription factors",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/metabolism",
+      "Myocytes, Cardiac",
+      "LIM-Homeodomain Proteins/genetics/metabolism",
+      "*Induced Pluripotent Stem Cells/metabolism",
+      "Cell Differentiation/genetics",
+      "Homeobox Protein Nkx-2.5/genetics/metabolism",
+      "Homeodomain Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maven, Bonnie E J",
+        "Gifford, Casey A",
+        "Weilert, Melanie",
+        "Gonzalez-Teran, Barbara",
+        "Huttenhain, Ruth",
+        "Pelonero, Angelo",
+        "Ivey, Kathryn N",
+        "Samse-Knapp, Kaitlen",
+        "Kwong, Wesley",
+        "Gordon, David",
+        "McGregor, Michael",
+        "Nishino, Tomohiro",
+        "Okorie, Eyuche",
+        "Rossman, Sage",
+        "Costa, Mauro W",
+        "Krogan, Nevan J",
+        "Zeitlinger, Julia",
+        "Srivastava, Deepak"
+      ],
+      "short_names": [
+        "Maven BEJ",
+        "Gifford CA",
+        "Weilert M",
+        "Gonzalez-Teran B",
+        "Huttenhain R",
+        "Pelonero A",
+        "Ivey KN",
+        "Samse-Knapp K",
+        "Kwong W",
+        "Gordon D",
+        "McGregor M",
+        "Nishino T",
+        "Okorie E",
+        "Rossman S",
+        "Costa MW",
+        "Krogan NJ",
+        "Zeitlinger J",
+        "Srivastava D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Gladstone Institutes, San Francisco, CA, USA; Developmental and Stem Cell Biology PhD Program, University of California, San Francisco, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA; Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA; Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA; Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA; Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, San Francisco, CA, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA; Department of Pathology and Laboratory Medicine, University of Kansas School of Medicine, Kansas City, KS, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA; Department of Biochemistry and Biophysics, University of California, San Francisco, San Francisco, CA, USA; Department of Pediatrics, UCSF School of Medicine, San Francisco, CA, USA. Electronic address: deepak.srivastava@gladstone.ucsf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maven, Bonnie E J",
+        "short_name": "Maven BEJ",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Developmental and Stem Cell Biology PhD Program, University of California, San Francisco, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gifford, Casey A",
+        "short_name": "Gifford CA",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Weilert, Melanie",
+        "short_name": "Weilert M",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez-Teran, Barbara",
+        "short_name": "Gonzalez-Teran B",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hüttenhain, Ruth",
+        "short_name": "Hüttenhain R",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA; Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pelonero, Angelo",
+        "short_name": "Pelonero A",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ivey, Kathryn N",
+        "short_name": "Ivey KN",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Samse-Knapp, Kaitlen",
+        "short_name": "Samse-Knapp K",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kwong, Wesley",
+        "short_name": "Kwong W",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gordon, David",
+        "short_name": "Gordon D",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA; Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "McGregor, Michael",
+        "short_name": "McGregor M",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA; Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nishino, Tomohiro",
+        "short_name": "Nishino T",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Okorie, Eyuche",
+        "short_name": "Okorie E",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rossman, Sage",
+        "short_name": "Rossman S",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Costa, Mauro W",
+        "short_name": "Costa MW",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Krogan, Nevan J",
+        "short_name": "Krogan NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA, USA; Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zeitlinger, Julia",
+        "short_name": "Zeitlinger J",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA; Department of Pathology and Laboratory Medicine, University of Kansas School of Medicine, Kansas City, KS, USA."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Deepak",
+        "short_name": "Srivastava D",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Roddenberry Center for Stem Cell Biology at Gladstone, San Francisco, CA, USA; Department of Biochemistry and Biophysics, University of California, San Francisco, San Francisco, CA, USA; Department of Pediatrics, UCSF School of Medicine, San Francisco, CA, USA. Electronic address: deepak.srivastava@gladstone.ucsf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Stem cell reports"
+    ],
+    "journal_abbrev": [
+      "Stem Cell Reports"
+    ],
+    "pub_date": "2023 Nov 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/21 05:43",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [
+      "40483385",
+      "40174587",
+      "39936946",
+      "39767621",
+      "39605181"
+    ],
+    "refs": [
+      "35182466",
+      "34746695",
+      "34733677",
+      "33603233",
+      "31659164",
+      "31484864",
+      "29636455",
+      "29337667",
+      "27939218",
+      "27819291",
+      "27783955",
+      "27105846",
+      "26495868",
+      "26321200",
+      "26260513",
+      "26193633",
+      "25919494",
+      "25524439",
+      "25077177",
+      "25028525",
+      "24696461",
+      "24613616",
+      "24310815",
+      "23257984",
+      "22930834",
+      "22790009",
+      "22411555",
+      "22343290",
+      "22190034",
+      "21852222",
+      "21501010",
+      "20436461",
+      "19666821",
+      "19505943",
+      "19166829",
+      "17276708",
+      "16990131",
+      "14667410",
+      "9312027",
+      "8565076",
+      "7628699"
+    ],
+    "similar": [
+      "37863045",
+      "25524439",
+      "18775691",
+      "23056209",
+      "30451828",
+      "29361575",
+      "23093675",
+      "18722343",
+      "28436940",
+      "31221018",
+      "33599158",
+      "38836637",
+      "37772400",
+      "31024170",
+      "19850773",
+      "24018375",
+      "26321200",
+      "18568026",
+      "29337667",
+      "32771629",
+      "30281646",
+      "22711842",
+      "33736688",
+      "22771034",
+      "20110338",
+      "24604334",
+      "26875865",
+      "22394517",
+      "25050861",
+      "30620636",
+      "25956503",
+      "38460234",
+      "29631608",
+      "24674670",
+      "27818139",
+      "29503094",
+      "27052314",
+      "14662776",
+      "28213137",
+      "25522363",
+      "22303449",
+      "27105846",
+      "26898431",
+      "25775587",
+      "22613570",
+      "20109033",
+      "19479054",
+      "17380308",
+      "34329593",
+      "24610003",
+      "19564151",
+      "14667410",
+      "20960024",
+      "34547112",
+      "19359597",
+      "30880024",
+      "9834187",
+      "17559079",
+      "36263775",
+      "22343712",
+      "29482621",
+      "27941246",
+      "14757752",
+      "19910576",
+      "33454005",
+      "17208226",
+      "15843409",
+      "9312027",
+      "31570892",
+      "17350578",
+      "28447752",
+      "32050579",
+      "25187301",
+      "19253817",
+      "16510504",
+      "25677450",
+      "18003851",
+      "22343290",
+      "27434649",
+      "26642209",
+      "31813798",
+      "38100908",
+      "26495868",
+      "23750000",
+      "18583962",
+      "24578274",
+      "33975000",
+      "31749426",
+      "21464046",
+      "33864110",
+      "33602141",
+      "23383231",
+      "23477547",
+      "27819261",
+      "22025611",
+      "25752730",
+      "18828760",
+      "24763339",
+      "22590612",
+      "26683871",
+      "20558827",
+      "22526874",
+      "12163362",
+      "28355297",
+      "37926287",
+      "35624100",
+      "38452706",
+      "23054727",
+      "37364986",
+      "23463007",
+      "38637629",
+      "36690178",
+      "26787680"
+    ],
+    "review": [
+      "37863045",
+      "17380308"
+    ],
+    "pmc": [
+      "10679653"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-6711(23)00373-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/37863045/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37863045/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37863045",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt6tv8w5dm",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse195474",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

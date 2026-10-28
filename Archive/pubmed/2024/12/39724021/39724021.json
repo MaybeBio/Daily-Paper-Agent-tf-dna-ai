@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "39724021",
+    "doi": "10.1371/journal.pcbi.1012697",
+    "title": "Deciphering regulatory architectures of bacterial promoters from synthetic expression patterns."
+  },
+  "content": {
+    "abstract": "For the vast majority of genes in sequenced genomes, there is limited understanding of how they are regulated. Without such knowledge, it is not possible to perform a quantitative theory-experiment dialogue on how such genes give rise to physiological and evolutionary adaptation. One category of high-throughput experiments used to understand the sequence-phenotype relationship of the transcriptome is massively parallel reporter assays (MPRAs). However, to improve the versatility and scalability of MPRAs, we need a \"theory of the experiment\" to help us better understand the impact of various biological and experimental parameters on the interpretation of experimental data. These parameters include binding site copy number, where a large number of specific binding sites may titrate away transcription factors, as well as the presence of overlapping binding sites, which may affect analysis of the degree of mutual dependence between mutations in the regulatory region and expression levels. To that end, in this paper we create tens of thousands of synthetic gene expression outputs for bacterial promoters using both equilibrium and out-of-equilibrium models. These models make it possible to imitate the summary statistics (information footprints and expression shift matrices) used to characterize the output of MPRAs and thus to infer the underlying regulatory architecture. Specifically, we use a more refined implementation of the so-called thermodynamic models in which the binding energies of each sequence variant are derived from energy matrices. Our simulations reveal important effects of the parameters on MPRA data and we demonstrate our ability to optimize MPRA experimental designs with the goal of generating thermodynamic models of the transcriptome with base-pair specificity. Further, this approach makes it possible to carefully examine the mapping between mutations in binding sites and their corresponding expression profiles, a tool useful not only for developing a theory of transcription, but also for exploring regulatory evolution.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Promoter Regions, Genetic/genetics",
+      "*Gene Expression Regulation, Bacterial/genetics",
+      "Binding Sites/genetics",
+      "Computational Biology/methods",
+      "Models, Genetic",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Rosalind Wenshan",
+        "Roschinger, Tom",
+        "Faizi, Kian",
+        "Garcia, Hernan G",
+        "Phillips, Rob"
+      ],
+      "short_names": [
+        "Pan RW",
+        "Roschinger T",
+        "Faizi K",
+        "Garcia HG",
+        "Phillips R"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-0778-3794",
+        "ORCID: 0000-0002-5212-3649",
+        "ORCID: 0000-0003-3082-2809"
+      ],
+      "affiliations": [
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America.",
+        "Biophysics Graduate Group, University of California, Berkeley, California, United States of America.",
+        "Department of Physics, University of California, Berkeley, California, United States of America.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, California, United States of America.",
+        "Institute for Quantitative Biosciences-QB3, University of California, Berkeley, California, United States of America.",
+        "Chan Zuckerberg Biohub-San Francisco, San Francisco, California, United States of America.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America.",
+        "Division of Physics, Mathematics, and Astronomy, California Institute of Technology, Pasadena, California, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Rosalind Wenshan",
+        "short_name": "Pan RW",
+        "identifiers": [
+          "0009-0005-0778-3794"
+        ],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Röschinger, Tom",
+        "short_name": "Röschinger T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Faizi, Kian",
+        "short_name": "Faizi K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Garcia, Hernan G",
+        "short_name": "Garcia HG",
+        "identifiers": [
+          "0000-0002-5212-3649"
+        ],
+        "affiliations": [
+          "Biophysics Graduate Group, University of California, Berkeley, California, United States of America.",
+          "Department of Physics, University of California, Berkeley, California, United States of America.",
+          "Department of Molecular and Cell Biology, University of California, Berkeley, California, United States of America.",
+          "Institute for Quantitative Biosciences-QB3, University of California, Berkeley, California, United States of America.",
+          "Chan Zuckerberg Biohub-San Francisco, San Francisco, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Phillips, Rob",
+        "short_name": "Phillips R",
+        "identifiers": [
+          "0000-0003-3082-2809"
+        ],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, California, United States of America.",
+          "Division of Physics, Mathematics, and Astronomy, California Institute of Technology, Pasadena, California, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/26 18:15",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42241453",
+      "42239281",
+      "42213843",
+      "40920870",
+      "40580800",
+      "40463697",
+      "40462920",
+      "39713386"
+    ],
+    "refs": [
+      "39499638",
+      "38981487",
+      "38915503",
+      "38587185",
+      "38352517",
+      "37820729",
+      "37717013",
+      "37103023",
+      "36503705",
+      "36480614",
+      "34625552",
+      "34559800",
+      "34428301",
+      "34394059",
+      "34214468",
+      "33074101",
+      "33046894",
+      "32955440",
+      "31792407",
+      "31223115",
+      "31091417",
+      "31084583",
+      "30716072",
+      "30538179",
+      "30502946",
+      "29728462",
+      "29574055",
+      "29388765",
+      "28726847",
+      "27875323",
+      "27857550",
+      "26675057",
+      "26641532",
+      "26072434",
+      "25486472",
+      "24612990",
+      "24562187",
+      "23271961",
+      "23010997",
+      "22840405",
+      "22634752",
+      "22624875",
+      "22606254",
+      "22505627",
+      "21730194",
+      "20862354",
+      "20439748",
+      "20087339",
+      "19372434",
+      "19165316",
+      "19029883",
+      "18692469",
+      "18687900",
+      "18514222",
+      "18172436",
+      "17991990",
+      "17376875",
+      "16818878",
+      "16742267",
+      "16587956",
+      "16446460",
+      "16179466",
+      "15797195",
+      "15797194",
+      "14709165",
+      "14343300",
+      "12927535",
+      "12826616",
+      "12702751",
+      "12384591",
+      "12183631",
+      "11861919",
+      "6461856",
+      "4416620",
+      "3456604",
+      "3157005",
+      "2911590"
+    ],
+    "similar": [
+      "39724021",
+      "38352569",
+      "38351929",
+      "41920894",
+      "32043966",
+      "23912807",
+      "24042128",
+      "34486522",
+      "30716072",
+      "19838305",
+      "19426448",
+      "26675057",
+      "37403796",
+      "39763851",
+      "31131957",
+      "22609971",
+      "41639451",
+      "27357948",
+      "20439748",
+      "29028988",
+      "31206543",
+      "28531296",
+      "28204611",
+      "19029883",
+      "20661307",
+      "15723697",
+      "37851522",
+      "12801640",
+      "27503086",
+      "25030889",
+      "33465069",
+      "18631392",
+      "37087538",
+      "19583839",
+      "17377845",
+      "15506990",
+      "12490441",
+      "25549361",
+      "16362910",
+      "23921661",
+      "24097306",
+      "15053842",
+      "12082130",
+      "20808951",
+      "30261835",
+      "8573570",
+      "20363979",
+      "16817975",
+      "20627890",
+      "26015501",
+      "32955440",
+      "30709337",
+      "33074101",
+      "20501695",
+      "9697188",
+      "11258194",
+      "31792407",
+      "19036135",
+      "24689750",
+      "30201779",
+      "11222606",
+      "3612791",
+      "28463494",
+      "26072433",
+      "12101405",
+      "18952178",
+      "2204810",
+      "14529615",
+      "21304932",
+      "29262162",
+      "11491305",
+      "20194951",
+      "9193109",
+      "36321557",
+      "40298394",
+      "40272195",
+      "21347314",
+      "31196959",
+      "10501656",
+      "30256780",
+      "7579328",
+      "24288374",
+      "32126279",
+      "25036188",
+      "15684410",
+      "12627170",
+      "40740140",
+      "39047028",
+      "20193056",
+      "22260221",
+      "40103141",
+      "18004278",
+      "27557757",
+      "25564104",
+      "15656994",
+      "15890474",
+      "18193940",
+      "27866169",
+      "19225457",
+      "31106481"
+    ],
+    "review": [
+      "39724021",
+      "31131957",
+      "11258194",
+      "26072433",
+      "18952178",
+      "9193109"
+    ],
+    "pmc": [
+      "11709304"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012697",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39724021/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/7cc0t93j",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

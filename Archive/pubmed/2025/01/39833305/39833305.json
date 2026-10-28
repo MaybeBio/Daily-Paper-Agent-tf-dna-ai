@@ -1,0 +1,465 @@
+{
+  "identity": {
+    "pmid": "39833305",
+    "doi": "10.1038/s41401-024-01452-z",
+    "title": "Identifying a non-conserved site for achieving allosteric covalent inhibition of CECR2."
+  },
+  "content": {
+    "abstract": "The bromodomain (BRD) represents a highly conserved structural module that provides BRD proteins with fundamental functionality in modulating protein-protein interactions involved in diverse biological processes such as chromatin-mediated gene transcription, DNA recombination, replication and repair. Consequently, dysregulation of BRD proteins has been implicated in the pathogenesis of numerous human diseases. In recent years, considerable scientific endeavors have focused on unraveling the molecular mechanisms underlying BRDs and developing inhibitors that target these domains. While these inhibitors compete for binding with the acetylated lysine binding site of BRDs, achieving inhibition of BRD proteins via competitive pocket binding has proven challenging due to the conserved nature of these pockets. To address this limitation, the present study employed dynamic simulations for a comprehensive analysis, leading to the identification of a non-conserved pocket in CECR2 for achieving BRD family inhibition through allosteric modulation. Subsequently, the compound BAY 11-7085 was proven capable of covalently binding to C494 of this pocket after covalent docking and biological verification in vitro. The allosteric inhibition strategy of CECR2 was further verified by the structurally optimized compound LC-CE-7, which is an allosteric covalent CECR2 inhibitor with anti-cancer effects in MDA-MB-231 cells.",
+    "keywords": [
+      "CECR2",
+      "allosteric effect",
+      "covalent inhibitor",
+      "dynamics simulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Allosteric Regulation/drug effects",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Binding Sites",
+      "*Transcription Factors/antagonists & inhibitors/metabolism",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Cai-Ling",
+        "Li, Yuan-Qing",
+        "Du, Xi-Kun",
+        "Fang, Xiao-Xia",
+        "Guang, Yi-Man",
+        "Li, Pei-Zhuo",
+        "Chen, Shuang",
+        "Xue, Sheng-Yu",
+        "Yu, Jia-Min",
+        "Liu, Xiao-Yi",
+        "Luo, Yi-Pan",
+        "Zhou, Lan-Xin",
+        "Luo, Cheng",
+        "Xiong, Huan",
+        "Liang, Zhong-Jie",
+        "Ding, Hong"
+      ],
+      "short_names": [
+        "Tang CL",
+        "Li YQ",
+        "Du XK",
+        "Fang XX",
+        "Guang YM",
+        "Li PZ",
+        "Chen S",
+        "Xue SY",
+        "Yu JM",
+        "Liu XY",
+        "Luo YP",
+        "Zhou LX",
+        "Luo C",
+        "Xiong H",
+        "Liang ZJ",
+        "Ding H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "Center for Systems Biology, Department of Bioinformatics, School of Life Sciences, Suzhou Medical College of Soochow University, Suzhou, 215123, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "Center for Systems Biology, Department of Bioinformatics, School of Life Sciences, Suzhou Medical College of Soochow University, Suzhou, 215123, China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+        "School of Pharmacy, Zunyi Medical University, Zunyi, 563000, China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+        "School of Pharmacy, Guizhou Medical University, Guiyang, 550004, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+        "School of Pharmacy, Guizhou Medical University, Guiyang, 550004, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. xionghuan@zidd.ac.cn.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China. xionghuan@zidd.ac.cn.",
+        "Center for Systems Biology, Department of Bioinformatics, School of Life Sciences, Suzhou Medical College of Soochow University, Suzhou, 215123, China. zjliang@suda.edu.cn.",
+        "Jiangsu Province Engineering Research Center of Precision Diagnostics and Therapeutics Development, Soochow University, Suzhou, 215123, China. zjliang@suda.edu.cn.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. hding@simm.ac.cn.",
+        "School of Pharmacy, Guizhou Medical University, Guiyang, 550004, China. hding@simm.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Cai-Ling",
+        "short_name": "Tang CL",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuan-Qing",
+        "short_name": "Li YQ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Du, Xi-Kun",
+        "short_name": "Du XK",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Biology, Department of Bioinformatics, School of Life Sciences, Suzhou Medical College of Soochow University, Suzhou, 215123, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Xiao-Xia",
+        "short_name": "Fang XX",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China."
+        ]
+      },
+      {
+        "full_name": "Guang, Yi-Man",
+        "short_name": "Guang YM",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Li, Pei-Zhuo",
+        "short_name": "Li PZ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuang",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Sheng-Yu",
+        "short_name": "Xue SY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jia-Min",
+        "short_name": "Yu JM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiao-Yi",
+        "short_name": "Liu XY",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Biology, Department of Bioinformatics, School of Life Sciences, Suzhou Medical College of Soochow University, Suzhou, 215123, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yi-Pan",
+        "short_name": "Luo YP",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+          "School of Pharmacy, Zunyi Medical University, Zunyi, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Lan-Xin",
+        "short_name": "Zhou LX",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+          "School of Pharmacy, Guizhou Medical University, Guiyang, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Cheng",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing, 210023, China.",
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+          "School of Pharmacy, Guizhou Medical University, Guiyang, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Huan",
+        "short_name": "Xiong H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. xionghuan@zidd.ac.cn.",
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China. xionghuan@zidd.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Liang, Zhong-Jie",
+        "short_name": "Liang ZJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Biology, Department of Bioinformatics, School of Life Sciences, Suzhou Medical College of Soochow University, Suzhou, 215123, China. zjliang@suda.edu.cn.",
+          "Jiangsu Province Engineering Research Center of Precision Diagnostics and Therapeutics Development, Soochow University, Suzhou, 215123, China. zjliang@suda.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ding, Hong",
+        "short_name": "Ding H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China. hding@simm.ac.cn.",
+          "School of Pharmacy, Guizhou Medical University, Guiyang, 550004, China. hding@simm.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta pharmacologica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Pharmacol Sin"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/21 09:03",
+    "fetched_at": "2026-10-05 02:29:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36930701",
+      "36898211",
+      "36799896",
+      "36385933",
+      "35378372",
+      "35108062",
+      "34590387",
+      "34375106",
+      "34240100",
+      "33637650",
+      "33004947",
+      "31969702",
+      "31582847",
+      "31253937",
+      "31097763",
+      "31028708",
+      "31015424",
+      "30939043",
+      "30762363",
+      "30571115",
+      "30380757",
+      "30049874",
+      "29910922",
+      "29795359",
+      "29760166",
+      "29735731",
+      "29665527",
+      "28746339",
+      "28740608",
+      "28636361",
+      "28575169",
+      "28378579",
+      "27494296",
+      "27193077",
+      "26582920",
+      "25719566",
+      "25623213",
+      "25581261",
+      "22692830",
+      "22577825",
+      "22464331",
+      "22437115",
+      "22326395",
+      "21967761",
+      "21933453",
+      "20871596",
+      "20862304",
+      "20192781",
+      "19706521",
+      "19608861",
+      "15640247",
+      "11381032",
+      "11287673",
+      "1350857",
+      "1346755"
+    ],
+    "similar": [
+      "39833305",
+      "33004947",
+      "39713312",
+      "22699752",
+      "31935979",
+      "35378372",
+      "39377533",
+      "30581134",
+      "38063080",
+      "32149490",
+      "27494802",
+      "30232697",
+      "40549449",
+      "42397163",
+      "38732174",
+      "25518860",
+      "31446553",
+      "42160909",
+      "38892388",
+      "31451955",
+      "32321240",
+      "38174658",
+      "24599328",
+      "31587361",
+      "38450658",
+      "31582847",
+      "40100341",
+      "41898392",
+      "31253937",
+      "30411639",
+      "19736624",
+      "39890175",
+      "39124901",
+      "32079098",
+      "32067263",
+      "25504753",
+      "40244134",
+      "30012592",
+      "38497736",
+      "37446009",
+      "29301250",
+      "41161055",
+      "29795359",
+      "39531924",
+      "39241280",
+      "29561307",
+      "39703994",
+      "27900730",
+      "41413356",
+      "40344735",
+      "41544342",
+      "25299356",
+      "32937901",
+      "27693059",
+      "38258435",
+      "38858328",
+      "24911186",
+      "29758466",
+      "23912807",
+      "37909479",
+      "42475469",
+      "35889246",
+      "25849938",
+      "28901664",
+      "41828825",
+      "41895482",
+      "31903856",
+      "27447295",
+      "40384021",
+      "29228881",
+      "40856521",
+      "30652534",
+      "38718434",
+      "26263125",
+      "27149193",
+      "38731943",
+      "38095360",
+      "41054392",
+      "33508318",
+      "41865345",
+      "26360629",
+      "38592948",
+      "40563391",
+      "35595166",
+      "33969941",
+      "31947677",
+      "30621342",
+      "36966470",
+      "24374242",
+      "37656159",
+      "41253052",
+      "35595169",
+      "30372610",
+      "39942691",
+      "41889031",
+      "32700175",
+      "41556500",
+      "24191708",
+      "25178092",
+      "33876094"
+    ],
+    "review": [
+      "39833305",
+      "31582847",
+      "19736624",
+      "32079098",
+      "25849938",
+      "41828825",
+      "38731943",
+      "38592948"
+    ],
+    "pmc": [
+      "12032100"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41401-024-01452-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39833305/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

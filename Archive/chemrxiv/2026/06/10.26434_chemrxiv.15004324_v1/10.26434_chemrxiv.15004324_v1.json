@@ -1,0 +1,163 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15004324/v1",
+  "title": "Learning chemically transferable protein-protein binding energetics from peptide potential of mean force building blocks",
+  "doi": "10.26434/chemrxiv.15004324/v1",
+  "abstract": "Conventional all-atom molecular dynamics (AAMD) simulations can expedite exploration of protein-protein interactions and the resultant design space but are too costly to span the time and length scales relevant to protein oligomerization and self-assembly. In this work, we define a framework for a chemically transferable coarse-grained (CG) force-field for interprotein interactions by matching nonbonded interaction potentials to the potential of mean force (PMF) governing small peptide association using a two-body Lennard-Jones-Gaussian (LJG) potential; we refer to our model as PEBBLE (Potential of mean force Estimator from Building BLock Energetics). Parameters are learned via relative entropy minimization (REM) from AAMD of GXG tripeptides (with guest residue X) for all 210 amino acid pair combinations. Application of these parameters yields good agreement with AA potentials of mean force (PMFs) and experimental binding free energies across three benchmarks: dimerization motif QVVAG, heterodimeric coiled-coil E3/K3, and globular barnase/barstar (both wild-type and mutants). We further reproduce assembly outcomes for experimentally characterized tripeptides: fibrillar (VFF) and non-assembling (ECG). These results show that a simple LJG basis trained only on tripeptide statistics can generalize from molecular PMFs to higher-order structures and energetics relevant to protein-protein interactions and ultimately, protein-based materials design. In the future, we envision that the PEBBLE CG model will be used to (i) enable sampling of protein oligomers when AAMD is too costly and (ii) accelerate development of low-resolution CG models.",
+  "authors": [
+    "Tariq Shereef",
+    "Emiel Kram",
+    "Alexander J. Pak"
+  ],
+  "published_date": "2026-06-04",
+  "updated_date": "2026-06-04T16:04:57Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15004324/v1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15004324/v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "1",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T17:02:28Z",
+        "timestamp": 1780592548756,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Conventional all-atom molecular dynamics (AAMD) simulations can expedite exploration of protein-protein interactions and the resultant design space but are too costly to span the time and length scales relevant to protein oligomerization and self-assembly. In this work, we define a framework for a chemically transferable coarse-grained (CG) force-field for interprotein interactions by matching nonbonded interaction potentials to the potential of mean force (PMF) governing small peptide association using a two-body Lennard-Jones-Gaussian (LJG) potential; we refer to our model as PEBBLE (Potential of mean force Estimator from Building BLock Energetics). Parameters are learned via relative entropy minimization (REM) from AAMD of GXG tripeptides (with guest residue X) for all 210 amino acid pair combinations. Application of these parameters yields good agreement with AA potentials of mean force (PMFs) and experimental binding free energies across three benchmarks: dimerization motif QVVAG, heterodimeric coiled-coil E3/K3, and globular barnase/barstar (both wild-type and mutants). We further reproduce assembly outcomes for experimentally characterized tripeptides: fibrillar (VFF) and non-assembling (ECG). These results show that a simple LJG basis trained only on tripeptide statistics can generalize from molecular PMFs to higher-order structures and energetics relevant to protein-protein interactions and ultimately, protein-based materials design. In the future, we envision that the PEBBLE CG model will be used to (i) enable sampling of protein oligomers when AAMD is too costly and (ii) accelerate development of low-resolution CG models.</jats:p>",
+      "DOI": "10.26434/chemrxiv.15004324/v1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T16:04:57Z",
+        "timestamp": 1780589097000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Learning chemically transferable protein-protein binding energetics from peptide potential of mean force building blocks"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Tariq",
+          "family": "Shereef",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emiel",
+          "family": "Kram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander J.",
+          "family": "Pak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15004324/v1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T16:04:57Z",
+        "timestamp": 1780589097000
+      },
+      "score": 112.899376,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004324/v1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15004324/v1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

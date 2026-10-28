@@ -1,0 +1,583 @@
+{
+  "identity": {
+    "pmid": "41364533",
+    "doi": "10.1172/jci.insight.190287",
+    "title": "CoREST complex inhibition alters RNA splicing to promote neoantigen expression and enhance tumor immunity."
+  },
+  "content": {
+    "abstract": "Epigenetic macromolecular enzyme complexes tightly regulate gene expression at the chromatin level and have recently been found to colocalize with RNA splicing machinery during active transcription; however, the precise functional consequences of these interactions are uncertain. Here, we identify unique interactions of the CoREST repressor complex (LSD1-HDAC1-CoREST) with components of the RNA splicing machinery and their functional consequences in tumorigenesis. Using mass spectrometry, in vivo binding assays, and cryo-EM, we find that CoREST complex-splicing factor interactions are direct and perturbed by the CoREST complex selective inhibitor, corin, leading to extensive changes in RNA splicing in melanoma and other malignancies. Moreover, these corin-induced splicing changes are shown to promote global effects on oncogenic and survival-associated splice variants, leading to a tumor-suppressive phenotype. Using machine learning models, MHC IP-MS, and ELISpot assays, we identify thousands of neopeptides derived from unannotated splice sites that generate corin-induced splice-neoantigens that are demonstrated to be immunogenic in vitro. Corin is further shown to reactivate the response to immune checkpoint blockade, effectively sensitizing tumors to anti-PD-1 immunotherapy. These data position CoREST complex inhibition as a unique therapeutic opportunity that perturbs oncogenic splicing programs while also creating tumor-associated neoantigens that enhance the immunogenicity of current therapeutics.",
+    "keywords": [
+      "Cancer immunotherapy",
+      "Dermatology",
+      "Epigenetics",
+      "Oncology",
+      "RNA processing",
+      "Therapeutics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Antigens, Neoplasm/immunology/genetics",
+      "*RNA Splicing/drug effects/immunology/genetics",
+      "*Co-Repressor Proteins/antagonists & inhibitors/metabolism/genetics",
+      "*Melanoma/immunology/genetics",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "Nerve Tissue Proteins",
+      "Histone Deacetylase 1"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fisher, Robert J",
+        "Park, Kihyun",
+        "Lee, Kwangwoon",
+        "Pinjusic, Katarina",
+        "Vanasse, Allison",
+        "Ennis, Christina S",
+        "Farokh, Parisa",
+        "Ficaro, Scott B",
+        "Marto, Jarrod A",
+        "Jiang, Hanjie",
+        "Nam, Eunju",
+        "Stransky, Stephanie",
+        "Duke-Cohan, Joseph",
+        "Akinci, Melis A",
+        "Geethadevi, Anupa",
+        "Raabe, Eric",
+        "Fiszbein, Ana",
+        "Demehri, Shadmehr",
+        "Sidoli, Simone",
+        "Hicks, Chad W",
+        "Keskin, Derin B",
+        "Wu, Catherine J",
+        "Cole, Philip A",
+        "Alani, Rhoda M"
+      ],
+      "short_names": [
+        "Fisher RJ",
+        "Park K",
+        "Lee K",
+        "Pinjusic K",
+        "Vanasse A",
+        "Ennis CS",
+        "Farokh P",
+        "Ficaro SB",
+        "Marto JA",
+        "Jiang H",
+        "Nam E",
+        "Stransky S",
+        "Duke-Cohan J",
+        "Akinci MA",
+        "Geethadevi A",
+        "Raabe E",
+        "Fiszbein A",
+        "Demehri S",
+        "Sidoli S",
+        "Hicks CW",
+        "Keskin DB",
+        "Wu CJ",
+        "Cole PA",
+        "Alani RM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA.",
+        "Department of Dermatology, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA.",
+        "Division of Genetics, Departments of Medicine and Biological Chemistry and Molecular Pharmacology, Harvard Medical School and Brigham and Women's Hospital, Boston, Massachusetts, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA.",
+        "Cancer Center, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA.",
+        "Center for Cancer Immunology, Krantz Family Center for Cancer Research, and.",
+        "Cutaneous Biology Research Center, Department of Dermatology, Massachusetts General Hospital and Harvard Medical School, Boston, Massachusetts, USA.",
+        "Department of Cancer Biology, Center for Emergent Drug Targets, and Blais Proteomics Center, Dana-Farber Cancer Institute, Department of Pathology, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts, USA.",
+        "Department of Cancer Biology, Center for Emergent Drug Targets, and Blais Proteomics Center, Dana-Farber Cancer Institute, Department of Pathology, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts, USA.",
+        "Division of Genetics, Departments of Medicine and Biological Chemistry and Molecular Pharmacology, Harvard Medical School and Brigham and Women's Hospital, Boston, Massachusetts, USA.",
+        "Division of Genetics, Departments of Medicine and Biological Chemistry and Molecular Pharmacology, Harvard Medical School and Brigham and Women's Hospital, Boston, Massachusetts, USA.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, The Bronx, New York, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA.",
+        "Division of Pediatric Oncology, Johns Hopkins University School of Medicine and Johns Hopkins Hospital, Bloomberg Children's Center, Baltimore, Maryland, USA.",
+        "Division of Pediatric Oncology, Johns Hopkins University School of Medicine and Johns Hopkins Hospital, Bloomberg Children's Center, Baltimore, Maryland, USA.",
+        "Department of Biology, Boston University, Boston, Massachusetts, USA.",
+        "Center for Cancer Immunology, Krantz Family Center for Cancer Research, and.",
+        "Cutaneous Biology Research Center, Department of Dermatology, Massachusetts General Hospital and Harvard Medical School, Boston, Massachusetts, USA.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, The Bronx, New York, USA.",
+        "Department of Pharmacology, Physiology & Biophysics, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA.",
+        "Translational Immunogenomics Laboratory, Dana-Farber Cancer Institute, Boston, Massachusetts, USA.",
+        "Department of Computer Science, Metropolitan College, Boston University, Boston, Massachusetts, USA.",
+        "Section for Bioinformatics, Department of Health Technology, Technical University of Denmark, Lyngby, Denmark.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA.",
+        "Division of Genetics, Departments of Medicine and Biological Chemistry and Molecular Pharmacology, Harvard Medical School and Brigham and Women's Hospital, Boston, Massachusetts, USA.",
+        "Department of Dermatology, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fisher, Robert J",
+        "short_name": "Fisher RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Kihyun",
+        "short_name": "Park K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Kwangwoon",
+        "short_name": "Lee K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Departments of Medicine and Biological Chemistry and Molecular Pharmacology, Harvard Medical School and Brigham and Women's Hospital, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Pinjusic, Katarina",
+        "short_name": "Pinjusic K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Vanasse, Allison",
+        "short_name": "Vanasse A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Ennis, Christina S",
+        "short_name": "Ennis CS",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Farokh, Parisa",
+        "short_name": "Farokh P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cancer Immunology, Krantz Family Center for Cancer Research, and.",
+          "Cutaneous Biology Research Center, Department of Dermatology, Massachusetts General Hospital and Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Ficaro, Scott B",
+        "short_name": "Ficaro SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Center for Emergent Drug Targets, and Blais Proteomics Center, Dana-Farber Cancer Institute, Department of Pathology, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Marto, Jarrod A",
+        "short_name": "Marto JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Center for Emergent Drug Targets, and Blais Proteomics Center, Dana-Farber Cancer Institute, Department of Pathology, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hanjie",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Departments of Medicine and Biological Chemistry and Molecular Pharmacology, Harvard Medical School and Brigham and Women's Hospital, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Nam, Eunju",
+        "short_name": "Nam E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Departments of Medicine and Biological Chemistry and Molecular Pharmacology, Harvard Medical School and Brigham and Women's Hospital, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Stransky, Stephanie",
+        "short_name": "Stransky S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, The Bronx, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Duke-Cohan, Joseph",
+        "short_name": "Duke-Cohan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Akinci, Melis A",
+        "short_name": "Akinci MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Geethadevi, Anupa",
+        "short_name": "Geethadevi A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Oncology, Johns Hopkins University School of Medicine and Johns Hopkins Hospital, Bloomberg Children's Center, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Raabe, Eric",
+        "short_name": "Raabe E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Oncology, Johns Hopkins University School of Medicine and Johns Hopkins Hospital, Bloomberg Children's Center, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Fiszbein, Ana",
+        "short_name": "Fiszbein A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Boston University, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Demehri, Shadmehr",
+        "short_name": "Demehri S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cancer Immunology, Krantz Family Center for Cancer Research, and.",
+          "Cutaneous Biology Research Center, Department of Dermatology, Massachusetts General Hospital and Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Sidoli, Simone",
+        "short_name": "Sidoli S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, The Bronx, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Hicks, Chad W",
+        "short_name": "Hicks CW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology & Biophysics, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Keskin, Derin B",
+        "short_name": "Keskin DB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA.",
+          "Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA.",
+          "Translational Immunogenomics Laboratory, Dana-Farber Cancer Institute, Boston, Massachusetts, USA.",
+          "Department of Computer Science, Metropolitan College, Boston University, Boston, Massachusetts, USA.",
+          "Section for Bioinformatics, Department of Health Technology, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Wu, Catherine J",
+        "short_name": "Wu CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Cole, Philip A",
+        "short_name": "Cole PA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Departments of Medicine and Biological Chemistry and Molecular Pharmacology, Harvard Medical School and Brigham and Women's Hospital, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Alani, Rhoda M",
+        "short_name": "Alani RM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Boston University Chobanian and Avedisian School of Medicine, Boston, Massachusetts, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JCI insight"
+    ],
+    "journal_abbrev": [
+      "JCI Insight"
+    ],
+    "pub_date": "2026 Jan 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/09 19:19",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42568362",
+      "41984398"
+    ],
+    "refs": [
+      "40128216",
+      "38971208",
+      "38718835",
+      "38521065",
+      "38396040",
+      "38300709",
+      "38232136",
+      "37595586",
+      "36864749",
+      "36735776",
+      "36656436",
+      "36627445",
+      "36604431",
+      "36449604",
+      "36344844",
+      "36034581",
+      "35803024",
+      "35624337",
+      "35524551",
+      "35322029",
+      "34953399",
+      "34738089",
+      "34554251",
+      "34396985",
+      "34365507",
+      "34345042",
+      "34171309",
+      "34009266",
+      "34006904",
+      "33811047",
+      "33664260",
+      "33397462",
+      "33203572",
+      "33020180",
+      "32501215",
+      "32406916",
+      "32396821",
+      "32303702",
+      "32188783",
+      "31844290",
+      "31704733",
+      "31649884",
+      "31647098",
+      "31631026",
+      "31597964",
+      "31554928",
+      "31363190",
+      "31358901",
+      "31251911",
+      "31209265",
+      "31162605",
+      "30643263",
+      "30643254",
+      "30481162",
+      "30078747",
+      "29921876",
+      "29617666",
+      "29302039",
+      "29080552",
+      "28850223",
+      "28488700",
+      "28374191",
+      "28082404",
+      "26034889",
+      "24807918",
+      "24336324",
+      "24101931",
+      "23645565",
+      "21964334",
+      "21215366",
+      "20513647",
+      "20133523",
+      "18006840",
+      "17537733",
+      "10449787"
+    ],
+    "similar": [
+      "41364533",
+      "39713349",
+      "41227344",
+      "39763800",
+      "29302039",
+      "38300709",
+      "42479134",
+      "40128216",
+      "34171309",
+      "38867190",
+      "39470352",
+      "25482055",
+      "38754917",
+      "39578174",
+      "32101746",
+      "32434734",
+      "26111147",
+      "34709266",
+      "31917688",
+      "29555846",
+      "42632040",
+      "41296088",
+      "17085781",
+      "38232136",
+      "39436696",
+      "40966515",
+      "42266677",
+      "32697765",
+      "24111946",
+      "39228255",
+      "11171972",
+      "24735673",
+      "15897453",
+      "32251364",
+      "40407709",
+      "31249575",
+      "39939761",
+      "36344844",
+      "40479062",
+      "29937226",
+      "17383426",
+      "37633457",
+      "33426312",
+      "18806873",
+      "32396821",
+      "41903669",
+      "34049503",
+      "39796063",
+      "33907245",
+      "34504297",
+      "27112428",
+      "23592795",
+      "40360403",
+      "28947780",
+      "42376816",
+      "30111819",
+      "21221247",
+      "32729901",
+      "31703604",
+      "29161028",
+      "25587943",
+      "39334380",
+      "30910347",
+      "42680560",
+      "41316436",
+      "42431103",
+      "39223929",
+      "34093866",
+      "28423700",
+      "41796389",
+      "31666118",
+      "19193804",
+      "34548489",
+      "39546128",
+      "41411621",
+      "24447537",
+      "17707228",
+      "23874194",
+      "40273911",
+      "38600345",
+      "31578439",
+      "38557414",
+      "41091427",
+      "33479026",
+      "39438988",
+      "40442785",
+      "21685935",
+      "20713442",
+      "34529669",
+      "42477458",
+      "22393235",
+      "41444923",
+      "41279630",
+      "24222354",
+      "32385144",
+      "38981515",
+      "31337976",
+      "32747553",
+      "23697933",
+      "24820421"
+    ],
+    "review": [
+      "41364533",
+      "25482055",
+      "39578174",
+      "32434734",
+      "42632040",
+      "41296088",
+      "17085781",
+      "42266677",
+      "40479062",
+      "25587943",
+      "41316436",
+      "24222354"
+    ],
+    "pmc": [
+      "12892918"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1172/jci.insight.190287",
+        "provider": "American Society for Clinical Investigation",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41364533/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1248",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

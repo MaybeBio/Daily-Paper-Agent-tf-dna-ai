@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "36723605",
+    "doi": "10.1093/bib/bbad011",
+    "title": "Unsupervised construction of gene regulatory network based on single-cell multi-omics data of colorectal cancer."
+  },
+  "content": {
+    "abstract": "Identifying gene regulatory networks (GRNs) at the resolution of single cells has long been a great challenge, and the advent of single-cell multi-omics data provides unprecedented opportunities to construct GRNs. Here, we propose a novel strategy to integrate omics datasets of single-cell ribonucleic acid sequencing and single-cell Assay for Transposase-Accessible Chromatin using sequencing, and using an unsupervised learning neural network to divide the samples with high copy number variation scores, which are used to infer the GRN in each gene block. Accuracy validation of proposed strategy shows that approximately 80% of transcription factors are directly associated with cancer, colorectal cancer, malignancy and disease by TRRUST; and most transcription factors are prone to produce multiple transcript variants and lead to tumorigenesis by RegNetwork database, respectively. The source code access are available at: https://github.com/Cuily-v/Colorectal_cancer.",
+    "keywords": [
+      "colorectal cancer",
+      "gene regulatory network",
+      "multi-omics",
+      "single cell",
+      "unsupervised learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks",
+      "Multiomics",
+      "DNA Copy Number Variations",
+      "Algorithms",
+      "Transcription Factors/genetics",
+      "*Colorectal Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Lingyu",
+        "Li, Hongfei",
+        "Bian, Jilong",
+        "Wang, Guohua",
+        "Liang, Yingjian"
+      ],
+      "short_names": [
+        "Cui L",
+        "Li H",
+        "Bian J",
+        "Wang G",
+        "Liang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4221-8430",
+        "ORCID: 0000-0003-4104-3966",
+        "ORCID: 0000-0001-5336-8763"
+      ],
+      "affiliations": [
+        "College of Life Science, Northeast Forestry University, Harbin, 150040, China.",
+        "College of Life Science, Northeast Forestry University, Harbin, 150040, China.",
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, 150040, China.",
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, 150040, China.",
+        "Department of General Surgery, the First Affiliated Hospital of Harbin Medical University, Harbin, 150007, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Lingyu",
+        "short_name": "Cui L",
+        "identifiers": [
+          "0000-0003-4221-8430"
+        ],
+        "affiliations": [
+          "College of Life Science, Northeast Forestry University, Harbin, 150040, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongfei",
+        "short_name": "Li H",
+        "identifiers": [
+          "0000-0003-4104-3966"
+        ],
+        "affiliations": [
+          "College of Life Science, Northeast Forestry University, Harbin, 150040, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Jilong",
+        "short_name": "Bian J",
+        "identifiers": [
+          "0000-0001-5336-8763"
+        ],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, 150040, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guohua",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, 150040, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yingjian",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, the First Affiliated Hospital of Harbin Medical University, Harbin, 150007, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Mar 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/02 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "41112005",
+      "40149276",
+      "38974887",
+      "37457661"
+    ],
+    "refs": [],
+    "similar": [
+      "36723605",
+      "36464123",
+      "36070863",
+      "36991439",
+      "37244909",
+      "34383882",
+      "35961023",
+      "39376034",
+      "36788531",
+      "36094338",
+      "38963312",
+      "35996085",
+      "37537351",
+      "37365273",
+      "37740295",
+      "37682480",
+      "37889053",
+      "37879938",
+      "36585783",
+      "33828122",
+      "36335815",
+      "37101124",
+      "37016281",
+      "32019413",
+      "37387152",
+      "30547796",
+      "38070154",
+      "36064320",
+      "28957458",
+      "37387180",
+      "32987526",
+      "34986805",
+      "37857632",
+      "36451086",
+      "37293552",
+      "34028557",
+      "30961611",
+      "36124952",
+      "35451460",
+      "36929841",
+      "34415323",
+      "36086594",
+      "36961919",
+      "36602810",
+      "38493339",
+      "32854705",
+      "36894939",
+      "36307271",
+      "30458000",
+      "35062026",
+      "37956172",
+      "30207963",
+      "36569844",
+      "37216914",
+      "34251625",
+      "36450117",
+      "28748400",
+      "28683746",
+      "36204155",
+      "28143596",
+      "27329642",
+      "32573269",
+      "33035155",
+      "33939795",
+      "31881937",
+      "36533448",
+      "38182825",
+      "33985534",
+      "31950997",
+      "37670505",
+      "24278007",
+      "36464486",
+      "31792509",
+      "33270838",
+      "36760999",
+      "23365519",
+      "30768150",
+      "32697830",
+      "28254369",
+      "33874910",
+      "30555503",
+      "25916854",
+      "30957844",
+      "35045805",
+      "34888618",
+      "25844668",
+      "38641842",
+      "37058941",
+      "39024032",
+      "34529048",
+      "35561176",
+      "32763377",
+      "26897165",
+      "35157023",
+      "36739624",
+      "36155797",
+      "36805214",
+      "33322492",
+      "37216923",
+      "23497388",
+      "36094092",
+      "33834216",
+      "26424082",
+      "39371416",
+      "35576822",
+      "29354189",
+      "35639657",
+      "34573424",
+      "22863767",
+      "30999858",
+      "37862234",
+      "36747664",
+      "36973282",
+      "38071219",
+      "30137012",
+      "32774787",
+      "37643374",
+      "38191932",
+      "37066420",
+      "37074577",
+      "37000949",
+      "35648859",
+      "36494035",
+      "37974651",
+      "37139553",
+      "39416154",
+      "33954299",
+      "38312937",
+      "34888541",
+      "38155343",
+      "38177788"
+    ],
+    "review": [
+      "36723605",
+      "37365273",
+      "28957458",
+      "37857632",
+      "36307271",
+      "23365519",
+      "30555503",
+      "36805214"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/36723605.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad011",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

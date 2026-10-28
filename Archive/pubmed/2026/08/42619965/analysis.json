@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42619965",
+  "title": "PGViS: Personal Genome Variant interpretation Score for lung cancer genomes.",
+  "authors": "Surana, Pallavi; Dutta, Pratik; Boffetta, Paolo; Davuluri, Ramana",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-08-20",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出PGViS框架，整合DNABERT预测的转录因子结合位点破坏等信号评估肺癌种系非编码变异风险，虽涉及TF-DNA结合位点预测但核心是患者级风险统计，非直接互作机制建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Inherited lung cancer risk arises from both protein-coding and non-coding germline variants, but the functional non-coding component is largely uncharacterized. Genome-wide association studies and polygenic risk scores identify tag variants, not causal ones. Neither resolves which regulatory element is perturbed. DNA foundation models such as DNABERT decode non-coding variant effects directly from sequence, without a large GWAS cohort. What is missing is a patient-level framework linking these predictions to population-level variant prevalence. We present PGViS (Personal Genome Variant interpretation Score), a statistical framework that quantifies individual non-coding germline regulatory risk in non-small cell lung cancer (NSCLC). PGViS integrates three variant-level signals: DNABERT-predicted disruption at transcription factor binding and splice sites, the cancer v/s reference alternate allele frequency shift, and a regulatory interaction term derived from cancer-to-reference allele frequency ratios. Each signal is weighted by cohort prevalence which are aggregated into a single ancestry-matched, reference-normalized score per patient. We applied PGViS to germline whole-genome sequencing from 1,102 TCGA and CPTAC patients, using the 1000 Genomes Project (n = 2,504 individuals) as the normal population reference. PGViS separated adenocarcinoma (AD) and squamous cell carcinoma from controls in European ancestry and East Asian AD. Genes at contributing loci were enriched for PI3K-Akt, Wnt , DNA damage response, and epithelial-mesenchymal transition programs. Smoking-stratified analysis concentrated this signal on canonical NSCLC driver pathways. PGViS is modular: it accommodates cohorts with broader ancestral representation and can adapt to other solid tumors, offering a cost-effective route to personal-genome risk assessment from germline variants alone.",
+  "abstract_zh": "遗传性肺癌风险源自蛋白质编码和非编码种系变异，但功能性非编码成分在很大程度上尚未被表征。全基因组关联研究和多基因风险评分识别的是标签变异，而非因果变异，两者均无法解析哪个调控元件受到扰动。DNA基础模型如DNABERT直接从序列中解码非编码变异效应，无需大型GWAS队列。所缺失的是一个将预测与群体水平变异流行率联系起来的患者层面框架。我们提出PGViS（个人基因组变异解读评分），这是一个统计框架，用于量化非小细胞肺癌（NSCLC）中个体非编码种系调控风险。PGViS整合三种变异水平信号：DNABERT预测的转录因子结合和剪接位点破坏、癌症相对于参考的替代等位基因频率偏移，以及源自癌症与参考等位基因频率比值的调控交互项。每种信号按队列流行率加权，并汇总为每位患者单一祖先匹配、参考归一化的评分。我们将PGViS应用于来自1,102名TCGA和CPTAC患者的种系全基因组测序数据，以1000 Genomes Project（n = 2,504个体）作为正常人群参考。PGViS在欧洲裔和东亚裔腺癌（AD）中区分了腺癌和鳞状细胞癌与对照组。贡献位点的基因富集于PI3K-Akt、Wnt、DNA损伤反应和上皮-间质转化程序。按吸烟状态分层分析将该信号集中于典型NSCLC驱动通路。PGViS具有模块化特性：它适应具有更广泛祖先代表性的队列，并可适用于其他实体肿瘤，为仅凭种系变异进行个人基因组风险评估提供了一条经济有效的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42619965/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42619965/",
+  "paper_page_path": "papers/pubmed/42619965/index.html"
+}

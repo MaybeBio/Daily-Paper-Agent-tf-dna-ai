@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42378398",
+  "title": "STED: flexible cross-modal topic modeling infers cell-type-specific regulatory landscapes from bulk epigenomics.",
+  "authors": "Liao, Yunxi; Zhao, Dongyu",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-06-30",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用主题建模与LLM框架从bulk表观组学反卷积细胞类型特异调控景观，识别TF结合基序，但核心是表观组学反卷积而非TF-DNA互作建模，方法可迁移但非直接聚焦。",
+  "abstract": "Deciphering cell-type-specific epigenetic landscapes within heterogeneous tissues is restricted by the sparsity, high cost, and limited throughput of current single-cell epigenomic technologies. To bridge the gap between massive legacy bulk epigenomic data and cellular resolution, we present STED (Single-cell Topic modeling and Epigenetic deconvolution), a flexible computational framework that reconstructs cell-type-specific regulatory signals by leveraging single-cell transcriptomic references. Methodologically, STED introduces a versatile topic modeling architecture: users can employ the information-theoretic correlation explanation algorithm to robustly mitigate transcriptomic sparsity, or innovatively adapt BERTopic-a large language model-based framework-to capture high-dimensional semantic cellular states. STED couples these latent regulatory topics with a physics-based \"gene activity score\" transformation, which acts as a cross-modal bridge to deconvolve bulk chromatin accessibility (ATAC-seq) and histone modification (ChIP-seq/CUT&Tag) profiles. Extensive benchmarking across diverse datasets-including human peripheral blood mononuclear cells (PBMCs), mouse brain, and zebrafish inner ear-demonstrates that STED significantly outperforms existing rigid-reference tools in accuracy and robustness against cross-platform batch effects. In a hematopoietic stem cell differentiation model, STED successfully identifies cell-type-specific transcription factor binding motifs and differential peaks associated with lineage commitment. We further demonstrate STED's biological utility by uncovering tumor-specific super-enhancers in colorectal cancer-a mechanism obscured in bulk signals. STED thus provides a scalable, foundation-model-empowered solution for dissecting gene regulatory networks in complex tissues.",
+  "abstract_zh": "在异质性组织中解析细胞类型特异性的表观遗传景观，受限于当前单细胞表观基因组技术的数据稀疏性、高成本及低通量。为弥合大量传统批量表观基因组数据与细胞分辨率之间的鸿沟，我们提出了STED（单细胞主题建模与表观遗传去卷积），这是一个灵活的计算框架，通过利用单细胞转录组参考来重建细胞类型特异性的调控信号。在方法上，STED引入了一种多功能的主题建模架构：用户可采用信息论相关解释算法来稳健地缓解转录组稀疏性，或创新性地适配基于大语言模型的BERTopic框架，以捕捉高维语义细胞状态。STED将这些潜在调控主题与基于物理学的“基因活性评分”转换相结合，该转换作为跨模态桥梁，用于去卷积批量染色质可及性（ATAC-seq）和组蛋白修饰（ChIP-seq/CUT&Tag）图谱。在多种数据集上的广泛基准测试——包括人类外周血单核细胞（PBMCs）、小鼠大脑和斑马鱼内耳——表明，STED在准确性和对跨平台批次效应的鲁棒性方面显著优于现有刚性参考工具。在造血干细胞分化模型中，STED成功识别了与谱系定向相关的细胞类型特异性转录因子结合基序和差异峰。我们进一步通过揭示结直肠癌中肿瘤特异性的超级增强子——这一在批量信号中被掩盖的机制——展示了STED的生物学实用性。因此，STED为解析复杂组织中的基因调控网络提供了一种可扩展的、基于基础模型的解决方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42378398/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42378398/",
+  "paper_page_path": "papers/pubmed/42378398/index.html"
+}

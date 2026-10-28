@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "40148997",
+    "doi": "10.1186/s13058-025-01968-0",
+    "title": "Multimodal recurrence risk prediction model for HR+/HER2- early breast cancer following adjuvant chemo-endocrine therapy: integrating pathology image and clinicalpathological features."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In HR+/HER2- early breast cancer (EBC) patients, approximately one-third of stage II and 50% of stage III patients experience recurrence, with poor outcomes after recurrence. Given that these patients commonly undergo adjuvant chemo-endocrine therapy (C-ET), accurately predicting the recurrence risk is crucial for optimizing treatment strategies and improving patient outcomes. METHODS: We collected postoperative histopathological slides from 1095 HR+/HER2- EBC who received C-ET and were followed for more than five years at West China Hospital, Sichuan University. Two deep learning pipelines were developed and validated: ACMIL-based and CLAM-based. Both pipelines, designed to predict recurrence risk post-treatment, were based on pretrained feature encoders and multi-instance learning with attention mechanisms. Model performance was evaluated using a five-fold cross-validation approach and externally validated on HR+/HER2- EBC patients from the TCGA cohort. RESULTS: Both ACMIL-based and CLAM-based pipelines performed well in predicting recurrence risk, with UNI-ACMIL demonstrating superior performance across multiple metrics. The average area under the curve (AUC) for the UNI-ACMIL pipeline in the five-fold cross-validation test set was 0.86 +/- 0.02, and 0.80 +/- 0.04 in the TCGA cohort. In the five-fold cross-validation test sets, effectively stratified patients into high-risk and low-risk groups, demonstrating significant prognostic differences. Hazard ratios for recurrence-free survival (RFS) ranged from 5.32 (95% CI 1.86-15.12) to 15.16 (95% CI 3.61-63.56). Moreover, among six different multimodal recurrence risk models, the WSI-based risk score was identified as the most significant contributor. CONCLUSION: Our multimodal recurrence risk prediction model is a practical and reliable tool that enhances the predictive power of existing systems relying solely on clinicopathological parameters. It offers improved recurrence risk prediction for HR+/HER2- EBC patients following adjuvant C-ET, supporting personalized treatment and better patient outcomes.",
+    "keywords": [
+      "Adjuvant chemo-endocrine therapy",
+      "Deep learning pipelines",
+      "HR+/HER2- early breast cancer",
+      "Pathology image",
+      "Recurrence risk"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/pathology/drug therapy/metabolism/therapy",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "*Neoplasm Recurrence, Local/pathology/epidemiology",
+      "Chemotherapy, Adjuvant",
+      "Middle Aged",
+      "Receptors, Estrogen/metabolism",
+      "Prognosis",
+      "Receptors, Progesterone/metabolism",
+      "Adult",
+      "Deep Learning",
+      "Risk Assessment/methods",
+      "Aged",
+      "Biomarkers, Tumor",
+      "Antineoplastic Agents, Hormonal/therapeutic use",
+      "Neoplasm Staging"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Xiaoyan",
+        "Li, Yiman",
+        "Chen, Jilong",
+        "Chen, Jie",
+        "Zhang, Wenchuan",
+        "Lu, Xunxi",
+        "Zhong, Xiaorong",
+        "Zhu, Min",
+        "Yi, Yuhao",
+        "Bu, Hong"
+      ],
+      "short_names": [
+        "Wu X",
+        "Li Y",
+        "Chen J",
+        "Chen J",
+        "Zhang W",
+        "Lu X",
+        "Zhong X",
+        "Zhu M",
+        "Yi Y",
+        "Bu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, West China Hospital, Sichuan University, Chengdu, China.",
+        "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "College of Computer Science, Sichuan University, Chendu, China.",
+        "College of Computer Science, Sichuan University, Chendu, China.",
+        "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Department of Pathology, West China Hospital, Sichuan University, Chengdu, China.",
+        "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Department of Pathology, West China Hospital, Sichuan University, Chengdu, China.",
+        "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Institute for Breast Health Medicine, Cancer Center, Breast Center, West China Hospital, Sichuan University, Chengdu, China.",
+        "College of Computer Science, Sichuan University, Chendu, China.",
+        "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China. yuhaoyi@scu.edu.cn.",
+        "College of Computer Science, Sichuan University, Chendu, China. yuhaoyi@scu.edu.cn.",
+        "Department of Pathology, West China Hospital, Sichuan University, Chengdu, China.",
+        "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Xiaoyan",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, West China Hospital, Sichuan University, Chengdu, China.",
+          "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yiman",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science, Sichuan University, Chendu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jilong",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science, Sichuan University, Chendu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jie",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenchuan",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, West China Hospital, Sichuan University, Chengdu, China.",
+          "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xunxi",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, West China Hospital, Sichuan University, Chengdu, China.",
+          "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Xiaorong",
+        "short_name": "Zhong X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Breast Health Medicine, Cancer Center, Breast Center, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Min",
+        "short_name": "Zhu M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science, Sichuan University, Chendu, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Yuhao",
+        "short_name": "Yi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China. yuhaoyi@scu.edu.cn.",
+          "College of Computer Science, Sichuan University, Chendu, China. yuhaoyi@scu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Bu, Hong",
+        "short_name": "Bu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, West China Hospital, Sichuan University, Chengdu, China.",
+          "Institute of Clinical Pathology, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research : BCR"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res"
+    ],
+    "pub_date": "2025 Mar 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/28 06:25",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "42003934",
+      "41919095",
+      "41868497",
+      "41787618",
+      "41743692",
+      "41402342",
+      "41291728",
+      "41088266",
+      "40858846",
+      "40762329"
+    ],
+    "refs": [
+      "39039250",
+      "38507751",
+      "38504018",
+      "38504017",
+      "38194616",
+      "38123254",
+      "37989744",
+      "37648854",
+      "37393162",
+      "37291435",
+      "37275963",
+      "37059742",
+      "36765724",
+      "36496303",
+      "36493792",
+      "36347887",
+      "35952419",
+      "35775006",
+      "34914339",
+      "34671078",
+      "33721561",
+      "33649564",
+      "30861443",
+      "28607456",
+      "21802721"
+    ],
+    "similar": [
+      "40148997",
+      "40288025",
+      "41999978",
+      "42467849",
+      "41213110",
+      "40157276",
+      "41709333",
+      "42632205",
+      "41831466",
+      "31378534",
+      "41466313",
+      "41707479",
+      "41637793",
+      "38131531",
+      "40121273",
+      "40878695",
+      "38780143",
+      "39742376",
+      "41270247",
+      "41678930",
+      "40796181",
+      "32954927",
+      "31504126",
+      "41965577",
+      "32601800",
+      "42446834",
+      "42185928",
+      "41493657",
+      "39954110",
+      "39191270",
+      "42431160",
+      "33152285",
+      "42251269",
+      "41110701",
+      "41691575",
+      "39976865",
+      "40184873",
+      "42663154",
+      "41006089",
+      "40624807",
+      "42634184",
+      "41061345",
+      "41088266",
+      "40208504",
+      "41963835",
+      "39477071",
+      "39545625",
+      "42364806",
+      "32372329",
+      "33109739",
+      "42173037",
+      "42693417",
+      "41632146",
+      "42174618",
+      "24035531",
+      "42229584",
+      "42665378",
+      "41338056",
+      "40845255",
+      "25935792",
+      "38656833",
+      "42706495",
+      "39248049",
+      "38833643",
+      "33617937",
+      "40721911",
+      "41942928",
+      "40692249",
+      "41261821",
+      "32408905",
+      "39424816",
+      "39951234",
+      "38770648",
+      "41469107",
+      "24347518",
+      "38906704",
+      "41895875",
+      "40789109",
+      "42750049",
+      "40198522",
+      "42587318",
+      "39515238",
+      "31358020",
+      "32060785",
+      "40017004",
+      "42431147",
+      "32229175",
+      "39304993",
+      "29137653",
+      "41814305",
+      "37676450",
+      "33673816",
+      "37060036",
+      "37688665",
+      "41528926",
+      "39754712",
+      "23749689",
+      "40159245",
+      "38329503",
+      "40972946"
+    ],
+    "review": [
+      "40148997",
+      "42174618",
+      "38656833",
+      "40692249"
+    ],
+    "pmc": [
+      "11951786"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-01968-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40148997/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

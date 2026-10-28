@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that icaritin ameliorates depressive-like behavior in a chronic corticosterone mouse model, and propose that this effect is mediated by direct binding to the transcription factor CREB1, with residues Q65 and Q229 essential for binding, and that icaritin upregulates CREB1 target genes in hippocampus and cortex.
+- **Visible evidence base** Abstract text only; no numerical data beyond the reported dissociation constant, no experimental details, no statistical reporting
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, docking scores for all 43 candidates, BLI sensorgrams, mutational validation data, qRT-PCR results, behavioral data, bioinformatics pathway analysis details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking icaritin to CREB1 as a direct binding target with relevance to depression. However, the evidence as presented is insufficient to establish the central claims. The causal chain from binding to behavioral outcome is not demonstrated, and several key experimental validations are either missing or only described in passing. The work may have merit, but the current abstract does not provide enough detail to assess technical soundness or scientific robustness.
+- **Who would be interested in the results, and why** Researchers in neuropsychopharmacology, particularly those studying natural compounds for antidepressant effects, and investigators focused on transcription factor regulation in mood disorders. The potential direct targeting of CREB1 by a small molecule could interest structural biologists and drug discovery groups.
+- **Major strengths** The study combines computational screening with experimental validation, which is a reasonable approach. The use of BLI to confirm direct binding and mutational analysis to identify key residues adds mechanistic depth. The focus on a transcription factor as a target is less common than receptor-based approaches and could offer a novel angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract states that icaritin ameliorates depressive-like behavior and implies this is mediated by CREB1 binding and target gene upregulation.
+  - **Evidence pointer** Abstract, behavioral and molecular results sections (location not provided)
+  - **Concern** The abstract does not provide any evidence that the behavioral effects of icaritin are causally dependent on CREB1. No loss-of-function or gain-of-function experiments are described, such as CREB1 knockdown or overexpression, or use of a binding-deficient CREB1 mutant in vivo.
+  - **Why it matters** Without demonstrating that the behavioral improvement requires CREB1, the claim that CREB1 is the relevant target for the antidepressant effect is unsupported. The binding and gene expression data could be correlative or even unrelated to the behavioral outcome.
+  - **Resolution test** Provide data from experiments where CREB1 function is manipulated, showing that the behavioral effect of icaritin is abolished or reduced when CREB1 is absent or mutated at Q65/Q229.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The abstract states that residues Q65 and Q229 of CREB1 are essential for icaritin binding.
+  - **Evidence pointer** Abstract, mutational analysis (location not provided)
+  - **Concern** The abstract reports that mutational analysis identified Q65 and Q229 as essential, but provides no details on the experimental system, the nature of the mutations, the effect on binding affinity, or whether these residues are located in a functionally relevant domain of CREB1.
+  - **Why it matters** Without these details, the claim cannot be evaluated. It is unclear whether the mutations abolish binding entirely or merely reduce affinity, and whether the residues are in the DNA-binding domain or elsewhere, which affects biological plausibility.
+  - **Resolution test** Provide quantitative binding data for wild-type and mutant CREB1, with clear description of the mutation strategy and the structural context of Q65 and Q229.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that icaritin upregulated mRNA levels of CREB1 target genes in hippocampus and cortex.
+  - **Evidence pointer** Abstract, qRT-PCR results (location not provided)
+  - **Concern** The abstract does not specify which target genes were examined, the magnitude of upregulation, the number of biological replicates, or whether the effects were observed in both brain regions consistently. No statistical information is provided.
+  - **Why it matters** The claim of target gene upregulation is central to the proposed mechanism. Without gene identity and effect size, the reader cannot assess whether the changes are biologically meaningful or merely marginal.
+  - **Resolution test** List the genes examined, provide fold changes with confidence intervals and p-values, and clarify whether corrections for multiple testing were applied.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity
+  - **Claim pointer** The abstract implies that CREB1 is a specific target of icaritin based on virtual screening and docking.
+  - **Evidence pointer** Abstract, virtual screening and molecular docking (location not provided)
+  - **Concern** The abstract states that 43 candidate compounds were selected and icaritin had a favorable docking score, but no comparison with other candidates is shown. It is unclear whether icaritin was the best scorer or merely among the top, and whether other compounds with similar scores were tested experimentally.
+  - **Why it matters** Without this comparison, the claim of specificity is weak. The binding affinity of 7.02E-06 M is moderate and could be non-specific.
+  - **Resolution test** Provide docking scores for all 43 candidates, show that icaritin is a clear outlier or that other high-scoring compounds were tested and did not bind, and discuss the affinity in the context of known specific protein-ligand interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, opening statement
+  - **Issue** The phrase "which has the antidepressant-like effects" is grammatically awkward and could be misinterpreted as referring to depression rather than icaritin.
+  - **Required correction** Rephrase to clearly attribute the antidepressant-like effects to icaritin, for example "Icaritin, a bioactive compound from Herba Epimedii, has been reported to exert antidepressant-like effects."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, bioinformatics analysis
+  - **Evidence pointer** Abstract, bioinformatics section (location not provided)
+  - **Issue** The statement that CREB1 interacts with several neuroprotective pathways is vague. No pathway names or enrichment statistics are given.
+  - **Required correction** Name the specific pathways and provide enrichment scores or p-values to support the claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "transcription target"
+  - **Evidence pointer** Title and abstract
+  - **Issue** The term "transcription target" is ambiguous. It could mean a target that regulates transcription or a gene that is a target of a transcription factor. Based on the context, the authors likely mean that CREB1 is a direct binding target of icaritin, not a transcription target in the conventional sense.
+  - **Required correction** Clarify the terminology, for example "direct binding target of the transcription factor CREB1" or "modulator of CREB1 transcriptional activity."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link between CREB1 binding and behavioral effect), R1-M2 (insufficient detail on mutational validation), R1-M3 (lack of gene identity and statistics for qRT-PCR), R1-M4 (lack of specificity comparison in docking)
+- **Assessment against Nature-style criteria** Originality: moderate, as direct small-molecule targeting of a transcription factor is relatively uncommon, but the concept of CREB1 in depression is well established. Scientific importance: potentially relevant but not demonstrated at the level required for a high-impact claim. Interdisciplinary readership: the work could appeal to pharmacologists and neuroscientists, but the abstract does not provide enough mechanistic depth to attract a broad audience. Technical soundness: cannot be fully assessed from the abstract; the reported KD is moderate and the lack of statistical detail is concerning. Readability for nonspecialists: the abstract is generally readable but contains jargon and lacks context for the significance of the binding affinity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the experimental evidence needed to support the causal claims. Supportive if the full manuscript provides the missing loss-of-function data, detailed binding kinetics, and robust gene expression analysis.
+
+## Risk / unsupported claims
+- The claim that icaritin's antidepressant effect is mediated by CREB1 is unsupported without loss-of-function experiments.
+- The claim that Q65 and Q229 are essential for binding is unverifiable without quantitative data on mutant binding.
+- The claim that CREB1 target genes are upregulated is unsupported without gene identity and statistics.
+- The claim that icaritin is a specific CREB1 binder is weakly supported given the moderate KD and lack of comparison with other candidates.
+- The bioinformatics claim of neuroprotective pathway interaction is unverifiable without pathway names and enrichment statistics.

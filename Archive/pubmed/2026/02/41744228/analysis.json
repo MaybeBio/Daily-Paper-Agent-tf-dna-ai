@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41744228",
+  "title": "Phylogenomics to structure: evolutionary and clinical signals in the TP53 DNA-binding core through LOOCV-validated ensemble learning.",
+  "authors": "Raza Abbas, Syed; Abbas, Zeeshan; Zahir, Arifa; Ur Rehman, Mobeen; Won Lee, Seung",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-02-26",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文整合进化基因组学、AlphaFold结构映射与机器学习回归，对TP53 DNA结合域进行残基优先级排序，虽聚焦TF-DNA结合核心但未直接建模蛋白-DNA互作机制，方法可迁移至TF-DNA研究。",
+  "abstract": "TP53 encodes a master tumor suppressor, and understanding its evolutionary constraints is critical for interpreting pathogenic variation. We developed a fully reproducible computational pipeline integrating evolutionary genomics, structural biology, and clinical variant analysis to systematically prioritize functionally critical residues in TP53. We used fixed effects likelihood and fast unconstrained Bayesian approximation to perform genome-wide alignment, maximum-likelihood phylogenetic estimation, and site-specific selection testing over 19 vertebrate orthologs. We mapped these evolutionary signals onto the AlphaFold-predicted structure and integrated 3936 human variants from ClinVar and UniProt. Selection analysis identified five sites under positive or diversifying selection, with a single consensus position detected by both methods: multiple-sequence-alignment position 606 (human codon 129) in the DNA-binding domain. Structural mapping revealed that pathogenic variants concentrate at the DNA-contacting interface, with residues 239-248 emerging as the highest-priority targets based on our composite scoring system that integrates evolutionary constraint, pathogenic burden, hotspot density, and domain importance. Machine learning validation under leave-one-out cross-validation (LOOCV) demonstrated robust predictive performance. A Ridge-ExtraTrees ensemble achieved $\\textrmMAE (mean absolute error)=2.84$, $\\textrmRMSE(root mean squared error)=3.72$, $R;2=0.91$ for phylogenetic-distance regression and 89.5% accuracy (17/19) for clade classification. A multi-branch deep neural network attained comparable results ($\\textrmMAE=2.33$, $\\textrmRMSE=2.56$, $R;2=0.86$), while Random Forest substantially underperformed ($\\textrmMAE\\approx 7.19$, $\\textrmRMSE\\approx 8.82$, $R;2\\approx 0.47$, accuracy $\\approx 63\\%$) due to shrinkage and class-imbalance bias. Our findings show that evolutionary signals and clinical variants converge within the structurally constrained DNA-binding core of TP53, with codon 129 representing a robust positive-selection site and residues 239-248 constituting the primary pathogenic hotspot. This AlphaFold-anchored, LOOCV-validated framework offers a systematic, generalizable approach for residue-level prioritization to guide mechanistic studies and potentially inform precision oncology applications pending experimental validation.",
+  "abstract_zh": "TP53编码一个主肿瘤抑制因子，理解其进化约束对于解读致病性变异至关重要。我们开发了一个完全可复现的计算流程，整合进化基因组学、结构生物学和临床变异分析，以系统性地优先排序TP53中功能关键的残基。我们使用固定效应似然法和快速无约束贝叶斯近似法，对19个脊椎动物直系同源物进行了全基因组比对、最大似然系统发育估计和位点特异性选择检验。我们将这些进化信号映射到AlphaFold预测的结构上，并整合了来自ClinVar和UniProt的3936个人类变异。选择分析识别出五个处于正选择或多样化选择下的位点，其中两种方法检测到一个共识位置：多序列比对位置606（人类密码子129），位于DNA结合域。结构映射显示，致病性变异集中在DNA接触界面，基于我们的综合评分系统（整合进化约束、致病负担、热点密度和结构域重要性），残基239-248成为最高优先级靶标。在留一法交叉验证（LOOCV）下的机器学习验证展示了稳健的预测性能。一个Ridge-ExtraTrees集成模型在系统发育距离回归中实现了$\\textrmMAE（平均绝对误差）=2.84$，$\\textrmRMSE（均方根误差）=3.72$，$R;2=0.91$，在分支分类中达到89.5%的准确率（17/19）。一个多分支深度神经网络取得了可比结果（$\\textrmMAE=2.33$，$\\textrmRMSE=2.56$，$R;2=0.86$），而随机森林由于收缩和类别不平衡偏差表现明显较差（$\\textrmMAE\\approx 7.19$，$\\textrmRMSE\\approx 8.82$，$R;2\\approx 0.47$，准确率$\\approx 63\\%$）。我们的发现表明，进化信号和临床变异在TP53的结构约束DNA结合核心内汇聚，密码子129代表一个稳健的正选择位点，残基239-248构成主要致病热点。这一以AlphaFold为锚点、经LOOCV验证的框架提供了一种系统性、可推广的残基级优先排序方法，以指导机制研究，并可能在实验验证后为精准肿瘤学应用提供信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41744228/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41744228/",
+  "paper_page_path": "papers/pubmed/41744228/index.html"
+}

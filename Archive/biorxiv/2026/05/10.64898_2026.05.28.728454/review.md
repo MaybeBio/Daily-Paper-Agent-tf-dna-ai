@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, and supplementary figure legends as provided)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or unpublished information was consulted.
+- **Shared manuscript claim summary** The authors identify separable DNA binding and RAD51 interaction interfaces within the intrinsically disordered region (residues 467–696) of BRCA1, construct separation-of-function mutants ablating each activity, and demonstrate that both activities are required for BRCA1-BARD1 to promote RAD51-mediated strand invasion, with DNA binding contributing to BLM-DNA2 end resection.
+- **Visible evidence base** Results sections describing biochemical mapping (EMSA), NMR spectroscopy (HSQC, relaxation, CSP, line broadening), pulldown assays, D-loop assays, helicase/resection assays, and mass photometry. Supplementary figure legends referenced but not fully provided.
+- **Missing materials affecting confidence** Full supplementary figures and legends, NMR assignment details, raw gel images, statistical details for replicate experiments, and exact quantification of D-loop and resection data. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically rigorous dissection of two ligand-binding activities within a disordered region of BRCA1. The combination of biochemical mapping and NMR spectroscopy to define interfaces, followed by construction and validation of separation-of-function mutants, is a strong and logical approach. The conclusion that both DNA binding and RAD51 interaction are required for strand invasion is well supported by the D-loop data. The contribution of DNA binding to BLM-DNA2 resection is more modest and somewhat less definitive. The work is of high interest to the DNA repair field and provides useful reagents for future studies. However, several technical details and data presentation issues need to be addressed to fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying homologous recombination, DNA double-strand break repair, BRCA1/BRCA2 biology, intrinsically disordered proteins, and cancer predisposition mechanisms. The separation-of-function mutants will be valuable tools for dissecting BRCA1 functions in cells. The NMR-based approach for mapping interfaces in disordered regions may also interest structural biologists.
+- **Major strengths** 1) Clear and logical experimental design combining biochemical mapping with high-resolution NMR. 2) Construction of separation-of-function mutants that selectively ablate each activity, validated by multiple assays. 3) Demonstration that both activities are required for strand invasion, providing mechanistic insight. 4) The work addresses a long-standing gap in understanding BRCA1 function. 5) The approach is generalizable to other large disordered proteins in DNA repair.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Both DNA binding and RAD51 interaction are required for BRCA1-BARD1 to promote RAD51-mediated DNA strand invasion"
+  - **Evidence pointer** Results section "Role of BRCA1 DNA binding and RAD51 interaction in DNA strand invasion", Figures 4A-D
+  - **Concern** The D-loop assay data are described qualitatively ("impaired", "markedly reduced") without quantitative analysis or statistical assessment. It is unclear whether the residual activity of the DM and RM mutants is significantly different from each other or from the no-protein control. The distinction between "impaired" and "abolished" is critical for the claim that both activities are "required". Additionally, the concentration dependence of the mutant complexes in the D-loop assay is not described. If higher concentrations of mutant complexes can rescue activity, the interpretation of "requirement" would need to be revised.
+  - **Why it matters** The central conclusion of the paper rests on the D-loop data. Without quantitative analysis and appropriate statistical tests, the strength of the claim cannot be evaluated. The distinction between partial and complete loss of function has implications for the mechanistic model.
+  - **Resolution test** Provide quantification of D-loop products from at least three independent experiments, with mean and standard deviation, and statistical comparison between wild-type, DM mutants, RM mutants, and no-protein controls. Show a titration of complex concentration for at least one DM and one RM mutant to demonstrate that the defect is not simply due to reduced affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DNA binding also contributes to BLM-DNA2 end resection"
+  - **Evidence pointer** Results section "Role of BRCA1 DNA binding in DNA end resection", Figures 5A-F
+  - **Concern** The resection data are described as showing "intermediate" deficiencies for the DM mutants, but the magnitude and statistical significance of these effects are not reported. The claim that DNA binding "contributes" to resection is weaker than the strand invasion claim, but still requires quantitative support. It is also unclear whether the RM mutants were tested in the resection assay; if they were not, the specificity of the effect cannot be established. The relationship between the helicase assay and the resection assay results needs clarification.
+  - **Why it matters** The resection claim is a secondary but important conclusion. If the effect is small or not statistically robust, the claim should be tempered. The lack of RM mutant data in this assay leaves open the possibility that the observed defect is due to altered RAD51 interaction rather than DNA binding.
+  - **Resolution test** Provide quantitative resection data with statistical analysis for wild-type, DM, and RM mutant complexes. Include time-course data to show the kinetics of resection. If RM mutants were not tested, this should be stated and the claim adjusted accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "NMR spectroscopy delineates the DNA binding and RAD51 interaction interfaces"
+  - **Evidence pointer** Results sections "Identification of the BRCA1 DNA binding interface" and "Delineation of the RAD51 interaction interface", Figures 2B-C, 3A-B
+  - **Concern** The NMR data are presented as CSP and line broadening analyses, but the manuscript does not provide details on how the "interfaces" are defined from these data. For the DNA binding interface, CSPs are mapped to K651–K654, but the manuscript states that DM1 also includes K581 and K583, which are not identified by NMR. The rationale for including these additional residues is not fully explained. For the RAD51 interaction, the line broadening analysis identifies two regions, but the manuscript does not specify which residues are mutated in RM1 and RM2 relative to the NMR data. The relationship between the NMR-defined interface and the mutagenesis targets needs to be made explicit.
+  - **Why it matters** The NMR data are used to guide mutant design, but the logic connecting the two is not fully transparent. If the NMR data do not fully explain the mutant design, the "NMR-guided" claim is weakened.
+  - **Resolution test** Provide a clear table or figure mapping the NMR-identified residues to the mutagenesis targets. Explain why K581 and K583 were included in DM1 if they were not identified by NMR. Show the CSP and line broadening data for all mutated residues.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Separation-of-function mutants that selectively ablate each activity"
+  - **Evidence pointer** Results sections on mutant construction, Figures 2D-F, 3D-F
+  - **Concern** The manuscript demonstrates that DM mutants are impaired for DNA binding but retain RAD51 interaction, and that RM mutants are impaired for RAD51 interaction but retain DNA binding. However, the assays used to demonstrate selectivity are pulldown and EMSA, which are semi-quantitative. It is not clear whether the residual activities are truly "ablated" or merely reduced. The term "ablate" implies complete loss, which is a strong claim. Additionally, the manuscript does not report whether the mutants are properly folded or whether the mutations cause global structural changes, which is a concern for a disordered protein where mutations could have pleiotropic effects.
+  - **Why it matters** The separation-of-function concept is central to the paper. If the mutants retain residual activity, the interpretation of the functional assays becomes more complex. The lack of structural characterization of the mutants leaves open the possibility of off-target effects.
+  - **Resolution test** Provide quantitative binding data (e.g., Kd values from EMSA or ITC) for wild-type and mutant proteins. Consider circular dichroism or other biophysical characterization to confirm that the mutants retain the disordered character of the wild-type protein. Use the term "severely impaired" rather than "ablated" unless complete loss is demonstrated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the disordered region "harbors binding sites for DNA and multiple repair factors" but does not specify which repair factors beyond RAD51 are relevant to this study.
+  - **Required correction** Consider specifying that the study focuses on DNA and RAD51 binding, with other factors mentioned in the introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figures 2D-E, 3D-F
+  - **Evidence pointer** Results sections on EMSA
+  - **Issue** The EMSA data are described but representative gels are not shown in the text. The supplementary figures are referenced but not provided in the manuscript text.
+  - **Required correction** Ensure that representative EMSA gels are shown in the main figures or clearly referenced in the supplementary material with appropriate labels.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, NMR spectroscopy
+  - **Issue** The NMR relaxation data are reported as average values, but the manuscript does not state how many residues were used for the average or whether the values are consistent across the protein.
+  - **Required correction** Provide the number of residues used for the average and a measure of dispersion (e.g., standard deviation) for the relaxation rates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion speculates about cooperative function of BRCA1 and BARD1 DNA binding and RAD51 interaction but does not provide experimental evidence for this cooperativity.
+  - **Required correction** Clearly distinguish speculation from experimentally supported conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Plasmids
+  - **Evidence pointer** Methods, Plasmids
+  - **Issue** The methods state that mutations were introduced by QuikChange or commercial synthesis, but the specific mutagenesis primers or synthesis details are not provided.
+  - **Required correction** Provide primer sequences or reference to a supplementary table for all mutants.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative analysis and statistics for D-loop and resection assays (R1-M1, R1-M2). 2) Incomplete explanation of the logic connecting NMR data to mutant design (R1-M3). 3) Overstatement of "ablation" without quantitative binding data (R1-M4).
+- **Assessment against Nature-style criteria** Originality: High. The study provides a novel dissection of separable activities within a disordered region of a key tumor suppressor, which has not been previously achieved. Scientific importance: High. Understanding BRCA1 function is critical for cancer biology and therapy. The separation-of-function mutants will enable future mechanistic studies. Interdisciplinary readership: Moderate. The work will primarily interest DNA repair and cancer biologists, with some appeal to structural biologists studying disordered proteins. Technical soundness: Generally strong, but the lack of quantitative analysis in key functional assays is a significant gap. Readability for nonspecialists: The manuscript is clearly written and the logic is accessible, though some NMR details may be challenging for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are likely correct and important, but the quantitative support for the central claims needs to be strengthened. The manuscript would benefit from a revised version that addresses the concerns raised above.
+
+## Risk / unsupported claims
+- The claim that both DNA binding and RAD51 interaction are "required" for strand invasion is not fully supported without quantitative D-loop data showing complete loss of activity for each mutant.
+- The claim that DNA binding "contributes" to BLM-DNA2 resection is supported only by qualitative descriptions of "intermediate" deficiencies.
+- The claim that the mutants "ablate" each activity is not supported by quantitative binding data.
+- The statement that "BARD1 DNA binding alone is sufficient for EXO1 upregulation" is an inference from prior work and the current data, but the current data do not directly test this.
+- The discussion of cooperative function between BRCA1 and BARD1 is speculative and not experimentally tested in this study.

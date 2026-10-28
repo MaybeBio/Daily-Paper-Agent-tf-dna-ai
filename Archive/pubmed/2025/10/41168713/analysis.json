@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41168713",
+  "title": "A novel prediction method for protein-DNA binding sites based on protein language model fusion features with SE-connection pyramidal network and ensemble learning.",
+  "authors": "Zhang, Chenrui; Jiang, Jingqing; Zhao, Haiyan; Song, Jiazhi",
+  "journal": "BMC genomics",
+  "published_date": "2025-10-31",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于ESM-2蛋白语言模型与进化保守性特征融合、结合SE连接金字塔网络和集成学习的蛋白-DNA结合位点预测方法，核心聚焦蛋白-DNA互作位点预测，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Protein-DNA interactions are crucial in life processes such as gene expression and regulation. Therefore, the accurate prediction of DNA-binding sites on proteins is highly important for the advancement of scientific understanding in the field of biological activities. In this work, we propose a protein-DNA binding site prediction framework, termed Evolutionary Scale Modeling-SE-Connection Pyramidal (ESM-SECP), which integrates a sequence-feature-based prediction method with a sequence-homology-based predictor via ensemble learning. The sequence-feature-based prediction method is built on two types of input features: ESM-2 protein language model embeddings and evolutionary conservation information computed by PSI-BLAST. These features are fused by a multi-head attention mechanism and processed through the newly proposed SE-Connection Pyramidal(SECP) network for prediction. The sequence-template method, based on sequence homology, serves as a complementary approach to predict DNA-binding residues. The two predictors are combined via ensemble learning to improve overall model performance. Through the experimental validation of the TE46 and TE129 datasets, ESM-SECP outperforms the traditional methods in several evaluation indices, demonstrating its outstanding performance in Protein-DNA binding site prediction.",
+  "abstract_zh": "蛋白质-DNA相互作用在基因表达与调控等生命过程中至关重要。因此，准确预测蛋白质上的DNA结合位点对于推动生物活动领域科学理解的进步具有重要意义。在本工作中，我们提出了一种蛋白质-DNA结合位点预测框架，称为进化尺度建模-SE连接金字塔（ESM-SECP），该框架通过集成学习将基于序列特征的预测方法与基于序列同源性的预测器相结合。基于序列特征的预测方法建立在两类输入特征之上：ESM-2蛋白质语言模型嵌入和由PSI-BLAST计算的进化保守性信息。这些特征通过多头注意力机制融合，并经过新提出的SE连接金字塔（SECP）网络进行处理以进行预测。基于序列模板的方法，依赖于序列同源性，作为预测DNA结合残基的补充手段。两个预测器通过集成学习结合，以提升整体模型性能。通过对TE46和TE129数据集的实验验证，ESM-SECP在多个评估指标上优于传统方法，展示了其在蛋白质-DNA结合位点预测中的卓越性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41168713/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41168713/",
+  "paper_page_path": "papers/pubmed/41168713/index.html"
+}

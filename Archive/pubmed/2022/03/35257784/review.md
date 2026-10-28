@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use coarse-grained molecular simulations to model unbinding of dimeric nucleoid-associated proteins (NAPs), both specific and nonspecific, from a circular DNA molecule confined in a cylindrical geometry mimicking a bacterial cell. They report that physiologically relevant protein concentrations (tens of micromolar) induce chromosome compaction, which accelerates dissociation of specific NAPs via a segmental jump mechanism, while nonspecific NAPs, which dissociate via 1D sliding, show decreased off rates with increasing protein concentration. Restrained chromosome simulations indicate compaction affects only specific proteins.
+- **Visible evidence base** Abstract text only; no simulation details, parameter values, system sizes, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field parameters, system construction details, quantitative off-rate data, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that links bacterial chromosome compaction to protein-DNA residence times via facilitated dissociation, with a proposed mechanistic distinction between specific and nonspecific NAPs. However, the evidence base available for review is limited to the abstract, which lacks quantitative results, methodological detail, and validation of the simulation approach. The claims are plausible but cannot be rigorously evaluated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bacterial chromosome organization, single-molecule biophysics of protein-DNA interactions, and computational biophysics would find these results relevant. The work connects in vitro observations of facilitated dissociation to in vivo-like conditions, which is of interest to those studying transcription regulation and nucleoid structure.
+- **Major strengths** The study addresses a timely question about whether concentration-dependent protein-DNA dissociation observed in vitro operates under cellular confinement. The distinction between specific and nonspecific binding modes and their different responses to compaction is a potentially valuable mechanistic insight. The use of coarse-grained simulations to model a biologically relevant system size is appropriate for the question.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "physiologically relevant peak protein levels (tens of micromolar) lead to highly compact chromosomal structures" and that this compaction "results in rapid off rates" for specific NAPs.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data linking protein concentration to compaction degree or to measured off rates. No simulation parameters, such as protein-DNA interaction strengths, DNA bending rigidity, or confinement dimensions, are given. Without these, the reader cannot assess whether the observed effects are robust or artifacts of the model.
+  - **Why it matters** The central claim depends on the simulation faithfully representing in vivo conditions. If the compaction effect is sensitive to model parameters, the conclusion that cellular NAP levels control residence times may not hold.
+  - **Resolution test** Provide quantitative data on compaction (e.g., radius of gyration) and off rates as functions of protein concentration, with error bars and statistical tests. Include a parameter sensitivity analysis or validation against experimental data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that specific NAPs "mostly dissociate via a segmental jump mechanism" while nonspecific NAPs "are more prone to leave their binding sites via 1d sliding," and that compaction affects only specific proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The mechanistic distinction between segmental jump and 1D sliding is asserted without any supporting data in the abstract. No trajectory analysis, dissociation pathway classification, or quantitative comparison of mechanism frequencies is presented. The claim that nonspecific proteins are unaffected by compaction is also unsupported by visible evidence.
+  - **Why it matters** The proposed mechanism is the core explanatory framework for the differential response to compaction. Without evidence for the dominant dissociation pathways, the interpretation remains speculative.
+  - **Resolution test** Show representative trajectories or quantitative pathway analysis (e.g., fraction of dissociation events via each mechanism) for both protein types under varying compaction conditions. Provide statistical comparison of off rates for specific versus nonspecific proteins with and without compaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the cellular concentration level of a structural DNA-binding protein can be highly intermingled with its DNA residence time."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not establish the physiological relevance of the simulated conditions beyond stating "tens of micromolar" concentrations. It is unclear whether the simulated DNA length, protein copy numbers, and confinement geometry match real bacterial nucleoid properties. The claim of physiological relevance is therefore not verifiable from the abstract.
+  - **Why it matters** The broader significance of the work depends on the simulation conditions being representative of actual cells. If the model uses idealized parameters, the conclusion may not translate to biology.
+  - **Resolution test** Provide a table comparing simulation parameters to known bacterial values (e.g., chromosome size, NAP concentrations, cell dimensions). Discuss how deviations might affect the conclusions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "facilitated dissociation," "segmental jump," and "1d sliding" without brief definitions, which may hinder readers outside the single-molecule biophysics community.
+  - **Required correction** Add brief parenthetical explanations for these terms in the abstract or introduce them more accessibly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "highly intermingled" is vague and does not convey the direction or magnitude of the proposed relationship.
+  - **Required correction** Replace with a more precise statement, such as "positively correlated for specific NAPs and negatively correlated for nonspecific NAPs."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the coarse-grained model resolution (e.g., one bead per base pair or per several base pairs) or the time scale of the simulations.
+  - **Required correction** Include model resolution and simulation time scale in the abstract or methods summary.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of compaction-induced off-rate changes and mechanism-specific effects are not supported by any quantitative evidence in the supplied material. R1-M3 is non-blocking but requires clarification for the claims to be placed in proper biological context.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of linking chromosome compaction to facilitated dissociation in a confined environment is moderately original, building on prior in vitro studies. The mechanistic distinction between specific and nonspecific NAPs adds novelty.
+  - Scientific importance: If validated, the results would be important for understanding how NAP concentration and chromosome structure jointly regulate DNA-protein interactions in bacteria. However, the abstract does not yet demonstrate this importance with robust data.
+  - Interdisciplinary readership: The topic bridges biophysics, molecular biology, and computational biology, which could attract a broad audience. The abstract is accessible but uses jargon that may limit nonspecialist engagement.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results is a major limitation for evaluation.
+  - Readability for nonspecialists: The abstract is generally clear but would benefit from brief definitions of key mechanisms.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the simulation approach is appropriate, but the abstract alone does not provide sufficient quantitative support for the central claims. A full review of the manuscript would be required to determine whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that "physiologically relevant peak protein levels lead to highly compact chromosomal structures" is unsupported without quantitative compaction data and parameter validation.
+- The claim that specific NAPs "mostly dissociate via a segmental jump mechanism" is unsupported without trajectory or pathway analysis.
+- The claim that nonspecific NAPs "are more prone to leave their binding sites via 1d sliding" is unsupported without comparative mechanism data.
+- The claim that "chromosome compaction is in favor of faster dissociation but only for specific proteins" is unsupported without quantitative off-rate comparisons.
+- The overall conclusion that "cellular concentration level of a structural DNA-binding protein can be highly intermingled with its DNA residence time" is not verifiable from the abstract.

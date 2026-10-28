@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "39430403",
+    "doi": "10.1016/j.csbj.2024.10.008",
+    "title": "Using AI-predicted protein structures as a reference to predict loss-of-function activity in tumor suppressor breast cancer genes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The loss-of-function (LOF) classification of most missense variants in tumor suppressor breast cancer genes BRCA1, BRCA2, PALB2, and RAD51C remains unclassified and confounds clinical actionability. Classifying these variants is challenging due to their rarity, leading clinicians to rely on in silico predictive methods. Protein stability changes are associated with function, making stability predictors valuable. Stability predictions upon missense variant perturbations require high-resolution protein structures. However, the availability of these high-resolution structures is lacking. This study explores using generative AI to predict high-resolution protein structures, which can then be analyzed with in silico protein stability prediction methods to assess LOF activity in ordered regions of the protein. This study also determines the appropriate in silico protein stability and dedicated in silico missense prediction methods in dbNSFP v4.7 database to predict LOF activity in ordered regions of these four genes. Functional classifications from homology recombination DNA repair (HDR) assays and variant classifications from the ClinVar database provide a reliable dataset for evaluating the performance of these in silico prediction methods. RESULTS: Complex AlphaFold2 structures of the BRCA1-C terminal (BRCT) domain and the DNA-binding (DB) domain of BRCA2, analyzed using protein stability tool FoldX predicts LOF activity from missense variants significantly better than experimentally-derived structures in ordered regions. The BRCT domain achieved an Area Under the Curve (AUC)= 0.861 (95 % CI:0.858-0.863) and AUC= 0.842 (95 % CI:0.840-0.845), while the DB domain achieved an AUC= 0.836 (95 % CI:0.8322-0.841), compared to AUC= 0.847 (95 % CI:0.844-0.850) and AUC= 0.835 (95 % CI:0.832-0.837) from the BRCT domain, and AUC= 0.830 (95 % CI:0.821-0.8320) from the DB domain from experimentally-derived structures. Protein stability does not predict LOF activity from missense variants better than dedicated in silico missense predictors. Overall, we find that AlphaMissense ranks highly, with an average AUC= 0.890 (95 % CI 0.886-0.895) from ordered regions across these four cancer genes, compared to all other in silico missense predictors present in the dbNSFP database. CONCLUSIONS: The study reveals that generative AI protein predicted structures can outperform experimentally-derived structures in evaluating LOF activity from predicted protein stability in ordered regions of genes BRCA1, BRCA2, PALB2 and RAD51C. The study also highlights the predictive performance of AlphaMissense as the premier in silico missense prediction method to predict LOF activity from missense variants in these four tumor suppressor breast cancer genes. The code for this study can be downloaded for free on GitHub (https://github.com/rohandavidg/CarePred).",
+    "keywords": [
+      "AlphaFold2",
+      "AlphaMissense",
+      "BRCA1",
+      "Breast cancer",
+      "ESMFold",
+      "FoldX",
+      "Free energy",
+      "Protein stability"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gnanaolivu, Rohan",
+        "Hart, Steven N"
+      ],
+      "short_names": [
+        "Gnanaolivu R",
+        "Hart SN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN, United States.",
+        "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN, United States.",
+        "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gnanaolivu, Rohan",
+        "short_name": "Gnanaolivu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN, United States."
+        ]
+      },
+      {
+        "full_name": "Hart, Steven N",
+        "short_name": "Hart SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN, United States.",
+          "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/21 10:51",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38417439",
+      "37733863",
+      "37523536",
+      "37344589",
+      "37344587",
+      "37253112",
+      "37243972",
+      "37084271",
+      "36927031",
+      "36639369",
+      "36514339",
+      "36209109",
+      "35637307",
+      "35524565",
+      "35189634",
+      "35176149",
+      "35052422",
+      "35021190",
+      "35021073",
+      "34599769",
+      "34321665",
+      "34265844",
+      "34063805",
+      "33598480",
+      "33471974",
+      "33261662",
+      "32958805",
+      "32015543",
+      "31942072",
+      "31757951",
+      "31636395",
+      "31484976",
+      "30874800",
+      "30209399",
+      "29165669",
+      "28430426",
+      "27995669",
+      "27993330",
+      "27766851",
+      "27666373",
+      "27583640",
+      "25741868",
+      "25684150",
+      "25654734",
+      "24153426",
+      "23819870",
+      "23315928",
+      "22375716",
+      "22323224",
+      "20471405",
+      "19609323",
+      "19304878",
+      "16169011",
+      "15133502",
+      "12228710",
+      "11573086"
+    ],
+    "similar": [
+      "39430403",
+      "24141787",
+      "21356067",
+      "35585550",
+      "30410870",
+      "29316957",
+      "39440667",
+      "22684231",
+      "29884841",
+      "36896237",
+      "38098088",
+      "29580235",
+      "38168194",
+      "30765603",
+      "28319063",
+      "37961354",
+      "38417439",
+      "19043619",
+      "34207612",
+      "39256852",
+      "35196514",
+      "16969499",
+      "30257991",
+      "28807866",
+      "34548335",
+      "32039725",
+      "23448497",
+      "33471991",
+      "31569370",
+      "28796317",
+      "35729312",
+      "24894818",
+      "37335020",
+      "24297685",
+      "34045478",
+      "37085799",
+      "22527099",
+      "31112341",
+      "18497862",
+      "27658390",
+      "36593954",
+      "36833189",
+      "39096911",
+      "21980511",
+      "30925164",
+      "37201251",
+      "36315097",
+      "28866612",
+      "37208601",
+      "31636395",
+      "30458859",
+      "31911673",
+      "30303537",
+      "29394989",
+      "17848578",
+      "21318380",
+      "15923272",
+      "20516115",
+      "23613828",
+      "34906479",
+      "32377563",
+      "19452558",
+      "24817641",
+      "23021409",
+      "31036035",
+      "14534301",
+      "16489001",
+      "37731132",
+      "37948190",
+      "11573086",
+      "33945048",
+      "39440754",
+      "38802532",
+      "28829762",
+      "31446535",
+      "37917606",
+      "25748678",
+      "26350354",
+      "22646717",
+      "37084271",
+      "20077502",
+      "23867111",
+      "33980861",
+      "28408614",
+      "39400928",
+      "26052455",
+      "38370976",
+      "27886673",
+      "33619228",
+      "38952531",
+      "36732776",
+      "27484786",
+      "38211594",
+      "39180217",
+      "33964450",
+      "22678057",
+      "25652403",
+      "28664506",
+      "28418444",
+      "35191126"
+    ],
+    "review": [
+      "39430403",
+      "28866612"
+    ],
+    "pmc": [
+      "11490748"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(24)00328-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39430403/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD51C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

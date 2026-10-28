@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors used molecular dynamics simulations of a homology-based model of Arabidopsis MBF1c protein with two proposed B-DNA sequences at three temperatures (293, 300, 320 K) and constant pressure (1 bar). They report direct MBF1-DNA binding, two bound conformations, identification of amino acid groups involved in complex formation, binding predominantly to the minor groove via electrostatic attraction and shape complementarity, and sequence- and temperature-dependent specific binding only for a CTAGA-rich sequence at 300 K in the predicted Cro/C1-type HTH DNA-binding domain. Non-specific interactions were observed in other systems.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, system construction details, homology model validation, trajectory analyses, binding free energy calculations, structural figures, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a biologically relevant question about MBF1-DNA interactions under heat stress conditions. However, the claims are broad and mechanistically specific, while the visible evidence is limited to a summary without quantitative support. The central conclusion regarding sequence- and temperature-dependent specific binding rests on a single condition (CTAGA-rich sequence at 300 K), which raises concerns about robustness. The study has potential interest for plant stress biology and protein-DNA interaction fields, but the current abstract does not provide sufficient evidence to fully evaluate the technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in plant molecular biology, particularly those studying heat stress responses and transcriptional regulation; computational biophysicists interested in protein-DNA recognition mechanisms; and groups working on transcription factor cofactors such as MBF1 across species. The proposed lock-and-key mechanism and the identification of specific binding regions could inform experimental design for mutagenesis or binding assays.
+- **Major strengths** The study addresses a gap in understanding the physical basis of MBF1-DNA interactions, which is relevant given the protein's conserved role and its association with heat stress responses. The use of multiple temperatures and sequence variants is a reasonable approach to probe environmental and sequence dependence. The identification of two bound conformations and specific amino acid groups adds mechanistic detail that could guide future experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "MBF1 binds directly to the DNA" and that specific binding occurs "only with a sequence rich in CTAGA motifs at 300 K" in the predicted DNA-binding domain.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide any quantitative measures of binding, such as binding free energies, contact lifetimes, or occupancy statistics. The claim of direct and specific binding is based on simulation observations, but without convergence analysis, replica sampling, or free energy calculations, it is unclear whether the observed binding events are thermodynamically significant or merely transient artifacts of the simulation setup.
+  - **Why it matters** Molecular dynamics simulations are sensitive to initial conditions, force field parameters, and sampling length. A single binding event or a short-lived contact does not establish a stable interaction. The specificity claim for the CTAGA-rich sequence at 300 K, contrasted with non-specific interactions elsewhere, requires statistical support to rule out stochastic variation.
+  - **Resolution test** Provide binding free energy estimates (e.g., MM-PBSA, umbrella sampling) or at least multiple independent simulations with consistent binding occupancy and residence times. Show that the specific binding at 300 K is reproducible across replicates and distinct from non-specific systems in quantitative terms.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** The study uses "a homology-based model of the MBF1 protein" and proposes "two B-DNA sequences" based on "recent experimental data."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe the quality of the homology model, the template used, sequence identity, or validation (e.g., Ramachandran plots, RMSD to template). Similarly, the choice of DNA sequences and their experimental basis is not detailed. Without this information, the relevance of the model to the real MBF1c protein and the physiological context cannot be assessed.
+  - **Why it matters** A poorly constructed homology model could bias the observed interactions, and the choice of DNA sequences directly determines the conclusions about sequence specificity. If the model has significant structural errors or the sequences are not representative of in vivo binding sites, the findings may not transfer to biological reality.
+  - **Resolution test** Include model building details, template selection, and validation metrics. Justify the DNA sequence selection with explicit reference to the experimental data, and ideally show that the model reproduces known structural features of MBF1 or related HTH domains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "only with a sequence rich in CTAGA motifs at 300 K does MBF1 bind to DNA in the DNA-binding domain Cro/C1-type HTH predicted," and that this "complements findings previously reported by others on the role of CTAGA as a DNA-binding element for MBF1c at a heat stress temperature."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not clarify how the simulation temperature of 300 K relates to "heat stress temperature" in the prior experimental reports. If the experimental finding was at a higher temperature, the simulation at 300 K may not directly complement it. The temperature dependence of binding is mentioned but not explained mechanistically.
+  - **Why it matters** The claim of complementarity is central to the study's significance. If the temperature conditions do not align, the connection to heat stress biology is weakened, and the relevance of the 300 K specific binding becomes unclear.
+  - **Resolution test** Explicitly state the experimental temperature used in prior studies and discuss how 300 K relates to it. Provide a mechanistic rationale for why binding is specific at 300 K but not at 293 or 320 K, supported by structural or energetic analyses.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "homology-based modethel" appears to be a typographical error for "homology-based model." Additionally, the term "Cro/C1-type HTH" is used without explanation, which may be unclear to readers outside structural biology.
+  - **Required correction** Correct the typo and briefly define "HTH" (helix-turn-helix) or provide context for the domain type.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation conditions
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states "maintaining a constant pressure of 1 bar" but does not mention the simulation length, water model, or ionic conditions, which are standard details for reproducibility.
+  - **Required correction** Include simulation length, solvent model, and salt concentration in the abstract or refer to methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Interpretation of non-specific interactions
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The observation of "non-specific DNA-MBF1 interactions" in most systems is reported without discussion of their potential biological relevance or whether they represent transient encounter complexes.
+  - **Required correction** Briefly interpret the non-specific interactions, for example, as possible scanning mechanisms or as artifacts, to strengthen the narrative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative binding evidence) and R1-M2 (insufficient model and sequence validation) are the primary technical failings. Without addressing these, the central claims of direct and specific binding cannot be considered established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of MD simulations to MBF1-DNA interactions is relatively novel, but the approach is standard for protein-DNA studies, and the abstract does not reveal a unique methodological innovation.  
+  - **Scientific importance** Moderate. The study addresses a relevant biological question, but the narrow focus on one protein and the preliminary nature of the findings limit broad impact.  
+  - **Interdisciplinary readership** Limited. The abstract is likely to appeal mainly to computational biophysicists and plant molecular biologists; the mechanistic claims are not framed for a general audience.  
+  - **Technical soundness** Not assessable from the abstract alone. Key methodological details and quantitative results are missing, preventing evaluation of simulation quality and statistical robustness.  
+  - **Readability for nonspecialists** Acceptable but with room for improvement. The abstract is generally clear, but technical terms and a typo reduce accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary observations, but the lack of quantitative support and model validation means the claims cannot be accepted as demonstrated. A revised version with full methodological detail and statistical analysis could change this assessment.
+
+## Risk / unsupported claims
+- The claim of "direct" MBF1-DNA binding is unsupported without quantitative binding metrics.
+- The claim of sequence- and temperature-specific binding (CTAGA-rich at 300 K) is unsupported without statistical replication or free energy analysis.
+- The characterization of "lock-and-key" mechanism is an interpretation that is not substantiated by the abstract's evidence.
+- The complementarity to prior experimental findings on CTAGA at heat stress temperature is not verifiable because the temperature relationship is not specified.
+- The identification of "specific groups of amino acids" involved in binding is not supported by any residue-level data in the abstract.

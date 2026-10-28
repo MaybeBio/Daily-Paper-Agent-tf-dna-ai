@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract and author summary only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract and author summary; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose TAMC, a 1D-CNN model that predicts motif-centric TF binding activity from paired-end ATAC-seq data without explicit bias correction, and claim it outperforms existing footprinting tools, particularly when training data have higher sequencing depth than prediction data
+- **Visible evidence base** Abstract text and author summary; no quantitative results, dataset descriptions, or methodological details are included
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, dataset specifications, and performance comparison details
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics, namely the imputation of TF binding sites from ATAC-seq data using deep learning. The proposed approach, TAMC, is conceptually reasonable and the motivation for avoiding bias correction is sensible. However, the supplied material is limited to an abstract and author summary, which do not contain any quantitative evidence, methodological specifics, or validation details. As such, the core claims of improved performance and generalizability cannot be assessed from the provided information. The work may have merit, but the case is not established from the visible evidence base.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing or applying methods for TFBS prediction, ATAC-seq analysis, and deep learning in genomics. The potential extension to single-cell ATAC-seq data would also interest researchers in single-cell genomics.
+- **Major strengths** The problem is well motivated, as ATAC-seq is more accessible than direct TFBS assays. The proposed method's design choice to avoid bias correction is a clear and potentially advantageous departure from footprint-based tools. The stated improvement in performance with increased training depth, and the applicability to both deep and shallow sequencing data, are interesting claims that, if validated, would broaden practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** TAMC outperforms existing footprinting tools in TFBS prediction, particularly for ATAC-seq data with limited sequencing depth
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of superior performance over existing tools is stated without any quantitative results, such as performance metrics, benchmark datasets, or statistical comparisons. No figures or tables are available to support this assertion.
+  - **Why it matters** A central claim of the manuscript is that TAMC is better than existing methods. Without numerical evidence, this claim is unverifiable and cannot be evaluated for significance or robustness.
+  - **Resolution test** Provide performance comparisons on standard benchmark datasets, including metrics such as AUC, precision-recall, or correlation, with error bars and statistical tests against baseline tools.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** TAMC does not require bias correction during signal processing and captures both footprint and non-footprint features using a 1D-CNN
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The architectural details of the 1D-CNN, the input feature representation, the training procedure, and the mechanism by which non-footprint features are captured are not described. The claim that bias correction is unnecessary is not substantiated with any analysis or ablation study.
+  - **Why it matters** Reproducibility and scientific validity depend on a complete description of the model and data processing. Without this, the method cannot be replicated or independently verified.
+  - **Resolution test** Include a full methods section with model architecture, hyperparameters, input encoding, training and validation splits, and an ablation study demonstrating the effect of omitting bias correction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability claim
+  - **Claim pointer** The method outperforms existing tools particularly when the sequencing depth of training ATAC-seq data is higher than the ATAC-seq data for prediction, and is applicable to both deep and shallow sequencing depth
+  - **Evidence pointer** Author summary, location not provided
+  - **Concern** The claim of improved performance under mismatched sequencing depths is presented without any experimental data. The conditions under which this improvement holds, the magnitude of the effect, and the range of depths tested are not specified.
+  - **Why it matters** This is a distinctive and potentially valuable claim, but it requires systematic evaluation across different depth regimes to be credible. Without such evidence, the generalizability statement is speculative.
+  - **Resolution test** Provide experiments with training and test datasets at multiple sequencing depths, showing performance trends and statistical significance across depth combinations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, acronym definition
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The acronym TAMC is defined in a parenthetical that is difficult to parse due to spacing and formatting.
+  - **Required correction** Rephrase the definition for clarity, for example, "TAMC (Transcriptional factor binding prediction from ATAC-seq profile at Motif-predicted binding sites using Convolutional neural networks)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Author summary, last sentence
+  - **Evidence pointer** Author summary, location not provided
+  - **Issue** The phrase "TFBS predication" contains a typo; it should be "prediction".
+  - **Required correction** Correct the typo to "prediction".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Author summary, discussion of single-cell ATAC-seq
+  - **Evidence pointer** Author summary, location not provided
+  - **Issue** The discussion of potential application to single-cell ATAC-seq data is mentioned without any preliminary results or feasibility analysis.
+  - **Required correction** Either remove this speculative statement or add a brief note on expected challenges and any pilot data if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological details, and depth-mismatch experiments means the core claims are unsupported.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of using a 1D-CNN without bias correction for TFBS prediction from ATAC-seq is not entirely novel, as deep learning has been applied to similar problems, but the specific design choice may offer a new angle. This cannot be fully assessed without the full manuscript.  
+  - Scientific importance: The problem is important for regulatory genomics, and a robust method that works across sequencing depths would be valuable. However, the importance of the specific contribution is not yet demonstrated.  
+  - Interdisciplinary readership: The topic bridges genomics and machine learning, and the abstract is written in a way that is accessible to both communities. The potential single-cell application broadens appeal.  
+  - Technical soundness: Not assessable from the supplied material. No architecture, training details, or validation results are provided.  
+  - Readability for nonspecialists: The abstract is generally clear, though the acronym definition is awkward. The author summary is accessible and well written.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but unsupported. A supportive recommendation would require the full manuscript with detailed methods, quantitative comparisons, and depth-mismatch experiments.
+
+## Risk / unsupported claims
+- The claim that TAMC outperforms existing footprinting tools is unsupported, as no comparative results are provided.
+- The claim that TAMC does not require bias correction is unsupported, as no ablation or analysis is shown.
+- The claim that performance improves with increased training depth and that the method is applicable to both deep and shallow sequencing data is unsupported, as no depth-related experiments are described.
+- The potential application to single-cell ATAC-seq data is speculative and not supported by any data or analysis.

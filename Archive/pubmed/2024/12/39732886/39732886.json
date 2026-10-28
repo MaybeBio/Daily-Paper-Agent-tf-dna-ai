@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "39732886",
+    "doi": "10.1038/s41598-024-82655-6",
+    "title": "Novel anoikis-related diagnostic biomarkers for aortic dissection based on machine learning."
+  },
+  "content": {
+    "abstract": "Aortic dissection (AD) is one of the most dangerous diseases of the cardiovascular system, which is characterized by acute onset and poor prognosis, while the pathogenesis of AD is still unclear and may affect or even delay the diagnosis of AD. Anchorage-dependent cell death (Anoikis) is a special mode of cell death, which is programmed cell death caused by normal cells after detachment from extracellular matrix (ECM) and has been widely studied in the field of oncology in recent years. In this study, we applied bioinformatics analysis, according to the results of research analysis and Gene Ontology (GO), as well as Kyoto Encyclopedia of Genes and Genomes (KEGG), finally found 3 anoikis-related genes (ARGs) based on machine learning. Among these, TP53 and TUBB3 were further verified by receiver operating characteristic (ROC), gene set enrichment analysis (GSEA), gene set variation analysis (GSVA)and other methods. We hypothesize ARGs may be involved in the pathogenesis of AD through pathways such as oxidative stress, inflammatory response, and ECM. Therefore, we conclude that these ARGs can be potential factors in determining the diagnosis of AD.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Aortic Dissection/genetics/diagnosis",
+      "*Machine Learning",
+      "*Anoikis/genetics",
+      "*Biomarkers",
+      "Computational Biology/methods",
+      "Tumor Suppressor Protein p53/genetics",
+      "Gene Ontology",
+      "ROC Curve",
+      "Tubulin/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hanyi",
+        "Ouyang, Zhen",
+        "Zhou, Tianji",
+        "Su, Feng",
+        "Wang, Mi"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Ouyang Z",
+        "Zhou T",
+        "Su F",
+        "Wang M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, Hunan Key Laboratory of Skin Cancer and Psoriasis, Hunan Engineering Research Center of Skin Health and Disease, Xiangya Clinical Research Center for Cancer Immunotherapy, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan, China.",
+        "National Engineering Research Center of Personalized Diagnostic and Therapeutic Technology, 87 Xiangya Road, Changsha, Hunan, China.",
+        "Xiang Ya School of Medcine, Central South University, 172 Tongzipo Road, Changsha, Hunan, China.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Dermatology, Hunan Key Laboratory of Skin Cancer and Psoriasis, Hunan Engineering Research Center of Skin Health and Disease, Xiangya Clinical Research Center for Cancer Immunotherapy, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan, China.",
+        "National Engineering Research Center of Personalized Diagnostic and Therapeutic Technology, 87 Xiangya Road, Changsha, Hunan, China.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Xiang Ya Nursing School, Central South University, 172 Tongzipo Road, Changsha, Hunan, China.",
+        "Department of Dermatology, Hunan Key Laboratory of Skin Cancer and Psoriasis, Hunan Engineering Research Center of Skin Health and Disease, Xiangya Clinical Research Center for Cancer Immunotherapy, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan, China. sufeng@csu.edu.cn.",
+        "National Engineering Research Center of Personalized Diagnostic and Therapeutic Technology, 87 Xiangya Road, Changsha, Hunan, China. sufeng@csu.edu.cn.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China. sufeng@csu.edu.cn.",
+        "Department of Department of Emergency Medicine, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, 410000, Hunan, China. sufeng@csu.edu.cn.",
+        "Department of Dermatology, Hunan Key Laboratory of Skin Cancer and Psoriasis, Hunan Engineering Research Center of Skin Health and Disease, Xiangya Clinical Research Center for Cancer Immunotherapy, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan, China. mi.wang@csu.edu.cn.",
+        "National Engineering Research Center of Personalized Diagnostic and Therapeutic Technology, 87 Xiangya Road, Changsha, Hunan, China. mi.wang@csu.edu.cn.",
+        "Department of Mental Health Center, Xiangya Hospital, Central South University, Changsha, China. mi.wang@csu.edu.cn.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China. mi.wang@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hanyi",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Hunan Key Laboratory of Skin Cancer and Psoriasis, Hunan Engineering Research Center of Skin Health and Disease, Xiangya Clinical Research Center for Cancer Immunotherapy, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan, China.",
+          "National Engineering Research Center of Personalized Diagnostic and Therapeutic Technology, 87 Xiangya Road, Changsha, Hunan, China.",
+          "Xiang Ya School of Medcine, Central South University, 172 Tongzipo Road, Changsha, Hunan, China.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Zhen",
+        "short_name": "Ouyang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Hunan Key Laboratory of Skin Cancer and Psoriasis, Hunan Engineering Research Center of Skin Health and Disease, Xiangya Clinical Research Center for Cancer Immunotherapy, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan, China.",
+          "National Engineering Research Center of Personalized Diagnostic and Therapeutic Technology, 87 Xiangya Road, Changsha, Hunan, China.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tianji",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "Xiang Ya Nursing School, Central South University, 172 Tongzipo Road, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Su, Feng",
+        "short_name": "Su F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Hunan Key Laboratory of Skin Cancer and Psoriasis, Hunan Engineering Research Center of Skin Health and Disease, Xiangya Clinical Research Center for Cancer Immunotherapy, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan, China. sufeng@csu.edu.cn.",
+          "National Engineering Research Center of Personalized Diagnostic and Therapeutic Technology, 87 Xiangya Road, Changsha, Hunan, China. sufeng@csu.edu.cn.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China. sufeng@csu.edu.cn.",
+          "Department of Department of Emergency Medicine, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, 410000, Hunan, China. sufeng@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Mi",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Hunan Key Laboratory of Skin Cancer and Psoriasis, Hunan Engineering Research Center of Skin Health and Disease, Xiangya Clinical Research Center for Cancer Immunotherapy, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan, China. mi.wang@csu.edu.cn.",
+          "National Engineering Research Center of Personalized Diagnostic and Therapeutic Technology, 87 Xiangya Road, Changsha, Hunan, China. mi.wang@csu.edu.cn.",
+          "Department of Mental Health Center, Xiangya Hospital, Central South University, Changsha, China. mi.wang@csu.edu.cn.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China. mi.wang@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Dec 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/29 06:20",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "40821058"
+    ],
+    "refs": [
+      "36030535",
+      "36004775",
+      "36001309",
+      "35395377",
+      "34973467",
+      "34809669",
+      "34597613",
+      "34411744",
+      "34021002",
+      "33822514",
+      "33269748",
+      "33257838",
+      "32632141",
+      "32564302",
+      "32203170",
+      "31853217",
+      "31694392",
+      "31640947",
+      "30141981",
+      "29310800",
+      "29285345",
+      "29249655",
+      "28701309",
+      "27941671",
+      "27492897",
+      "27363580",
+      "26205591",
+      "25662791",
+      "20847053",
+      "18579285",
+      "16645407",
+      "16153447",
+      "15057285"
+    ],
+    "similar": [
+      "39732886",
+      "40312440",
+      "37877967",
+      "37032832",
+      "38519735",
+      "40014587",
+      "40059945",
+      "40115777",
+      "39431237",
+      "39154969",
+      "35480868",
+      "37503333",
+      "34652258",
+      "39754246",
+      "39730379",
+      "38049825",
+      "39341981",
+      "39300389",
+      "37684281",
+      "40028162",
+      "37938149",
+      "39867944",
+      "40245021",
+      "40192032",
+      "39853851",
+      "39609718",
+      "39344316",
+      "39142001",
+      "36338978",
+      "40263537",
+      "39351239",
+      "38226979",
+      "40258895",
+      "37259225",
+      "39666232",
+      "38737694",
+      "35313524",
+      "39670237",
+      "39392250",
+      "31416885",
+      "37090717",
+      "39898909",
+      "37842046",
+      "39340434",
+      "37065587",
+      "39875572",
+      "38701300",
+      "36181013",
+      "39430765",
+      "39605941",
+      "39870856",
+      "39604470",
+      "35709926",
+      "39789578",
+      "38774875",
+      "38650009",
+      "39174890",
+      "39396400",
+      "37505131",
+      "39699225",
+      "37359526",
+      "38736878",
+      "39586719",
+      "37421452",
+      "39465737",
+      "38468369",
+      "35069594",
+      "40024421",
+      "38169604",
+      "39845878",
+      "38645867",
+      "40263929",
+      "38785271",
+      "39953304",
+      "34384424",
+      "39965013",
+      "36195955",
+      "40086567",
+      "39074893",
+      "35178459",
+      "37283588",
+      "39738398",
+      "39375405",
+      "36643579",
+      "40022006",
+      "39464883",
+      "29115411",
+      "37402968",
+      "40253457",
+      "39170142",
+      "40095160",
+      "37259023",
+      "39268091",
+      "39991758",
+      "37575253",
+      "37919386",
+      "34878732",
+      "37056778",
+      "39270557",
+      "38507233"
+    ],
+    "review": [
+      "39732886"
+    ],
+    "pmc": [
+      "11682115"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-82655-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39732886/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

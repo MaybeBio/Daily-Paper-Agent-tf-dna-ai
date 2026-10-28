@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supporting information list)
+- **Assessment boundary** Scientific content, methodological rigor, data support for claims, and technical soundness as presented in the provided text. No external data or code were accessed.
+- **Shared manuscript claim summary** The authors present IBPC-Kd, a curated dataset of 1,785 IDR-protein complexes with experimental Kd values, and IDRBindNet, a graph-transformer model integrating protein language model embeddings with structural features to predict dissociation constants. They report state-of-the-art accuracy (R² up to 0.911), generalization to external de novo designed binders, and interpretable attention patterns aligned with shape complementarity and disorder.
+- **Visible evidence base** Abstract, introduction, results sections (dataset composition, feature analysis, clustering, model performance, attention analysis, ablation), discussion, methods (dataset construction, clustering, regression, graph representation, model architecture, splitting, feature extraction), supporting information list.
+- **Missing materials affecting confidence** Figures 1-5 and Tables S1-S3 are referenced but not provided. Code repository and Zenodo dataset links are given but were not accessed. Full details of the STAMMPPING and N2P2 data processing are not fully described. No information on AlphaFold3 prediction confidence or quality filtering is provided.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important gap: quantitative binding affinity data for IDR-mediated interactions, coupled with a predictive machine-learning framework. The dataset construction is a valuable contribution, and the model performance is promising. However, several technical and methodological concerns must be resolved before the claims are fully established. The reliance on AlphaFold3-predicted structures without quality assessment, the limited external validation set, and the incomplete description of data curation and model training protocols are notable weaknesses. The attention analysis is interesting but its biological interpretation requires more rigorous statistical support.
+- **Who would be interested in the results, and why** Researchers in computational biology, protein biophysics, and machine learning applied to molecular interactions. Those studying intrinsically disordered proteins, protein-protein interaction prediction, and rational design of binders would find the dataset and model useful. The work may also interest experimentalists seeking to prioritize IDR-mediated interactions for mechanistic studies.
+- **Major strengths** 1) The dataset IBPC-Kd fills a clear gap, providing a larger and more diverse collection of IDR-protein binding affinities than existing resources. 2) The integration of protein language model embeddings with structural graph features is a modern and sensible architecture choice. 3) The attention analysis provides a potential avenue for interpretability, which is often lacking in such models. 4) The external validation on de novo designed binders is a strong test of generalization, even if limited in size.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves state-of-the-art accuracy (R² up to 0.911) on held-out complexes and generalizes to external de novo designed binders.
+  - **Evidence pointer** Results section "Predicting binding affinity with IDRBindNet"; Table S1; Table S3; Figure S5
+  - **Concern** The evaluation protocol is not fully described. The manuscript states a 70:15:15 train/validation/test split with five independent splits, but does not specify whether the splits are at the complex level or the protein level. If complexes sharing the same IDR or binder protein appear in both training and test sets, the reported performance could be inflated due to leakage. The external validation set appears to be very small (Table S3), and the manuscript does not state how many complexes were used. The comparison with existing predictors (Table S1) lacks detail on whether those predictors were retrained on this dataset or used as-is, and whether their hyperparameters were optimized.
+  - **Why it matters** Without a clear and rigorous evaluation protocol, the claimed state-of-the-art performance cannot be verified. Data leakage or an unfair comparison would invalidate the central claim of the model's predictive utility.
+  - **Resolution test** Provide a detailed description of the splitting strategy, including whether clustering was applied to ensure no sequence similarity between splits. Report the number of complexes in the external validation set and the criteria for their selection. Describe the protocol for comparing with baseline predictors, including whether they were retrained and tuned on this dataset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model uses AlphaFold3-predicted structures as input, and the framework generalizes to external complexes.
+  - **Evidence pointer** Methods section "Graph representation of IDR-Protein complex"; Results section "Predicting binding affinity with IDRBindNet"
+  - **Concern** The manuscript does not report any quality assessment of the AlphaFold3-predicted structures. It is well established that predicted structures can contain errors, particularly for IDRs, which are inherently flexible and may not adopt a single conformation. The manuscript does not state whether predicted alignment error (PAE) or predicted local distance difference test (pLDDT) scores were used to filter or weight structures. The impact of structure prediction quality on model performance is not assessed.
+  - **Why it matters** If the model is sensitive to structural inaccuracies, its performance on real, experimentally determined structures may differ. The use of predicted structures without quality control undermines the reliability of the model and the conclusions drawn from feature analysis.
+  - **Resolution test** Report the distribution of pLDDT or PAE scores for the predicted complexes. Perform a sensitivity analysis by training or evaluating the model on a subset of high-confidence structures and comparing performance. Discuss how structural uncertainty, particularly in IDR regions, is handled.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The attention analysis reveals that the model implicitly learns biologically meaningful signals, specifically alignment with shape complementarity and disorder.
+  - **Evidence pointer** Results section "Model attention aligns with shape complementarity and disorder"; Figure 4
+  - **Concern** The correlation between attention weights and the 15 physicochemical descriptors is reported, but the statistical significance of these correlations is not stated. It is unclear whether the observed correlations are robust across the five model splits or whether they are driven by a subset of complexes. The manuscript does not compare the attention-derived correlations against a null model or a randomized control. The biological interpretation, while plausible, is speculative without such controls.
+  - **Why it matters** The claim that the model learns biologically relevant patterns is a key selling point for interpretability. Without statistical rigor, this claim is not established and could be an artifact of the model architecture or the specific dataset.
+  - **Resolution test** Report confidence intervals or p-values for the attention-descriptor correlations. Perform a permutation test or compare against a model trained on shuffled labels to establish that the attention patterns are specific to the learning task. Discuss whether the correlations are consistent across individual complexes or only at the aggregate level.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The dataset spans more than six orders of magnitude in affinity, from approximately 1 nM to over 100 µM, and covers diverse IDR lengths and partner classes.
+  - **Evidence pointer** Results section "IBPC-Kd: Curated dataset of IDR-protein binding affinity"; Figure 1
+  - **Concern** The manuscript does not describe the criteria used to select studies for inclusion in the dataset. The description of the curation process is fragmented across the methods section, with several paragraphs that appear to describe different sources but lack clear attribution. It is unclear how many unique publications were used, how many complexes were excluded and why, and whether any quality filters were applied to the Kd measurements. The potential for redundancy or bias in the dataset is not discussed.
+  - **Why it matters** A curated dataset is only as reliable as its curation protocol. Without clear inclusion and exclusion criteria, the dataset may contain biases that affect both the feature analysis and the model training.
+  - **Resolution test** Provide a PRISMA-style flow diagram or a detailed table listing all sources, the number of complexes from each, and the exclusion criteria. Describe how Kd values were normalized across different experimental methods. Discuss potential sources of bias and how they were mitigated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The abstract and introduction assume familiarity with machine-learning terminology and IDR biology. Terms such as "graph-transformer," "protein language model embeddings," and "shape complementarity" are used without brief definitions. The significance of the work for a broader biological audience could be enhanced with a sentence explaining why predicting IDR binding affinity is challenging and why a predictive model is valuable.
+  - **Required correction** Add one or two sentences in the introduction that define key terms and explain the broader relevance of predicting IDR binding affinities for understanding cellular regulation and for therapeutic design.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Construction of IDR-protein binding affinity dataset IBPC-Kd"
+  - **Evidence pointer** Methods section
+  - **Issue** Several paragraphs in the methods section describing dataset sources lack explicit references to the original publications. The text refers to "the publication," "the study," and "the same study" without naming the papers. This makes it impossible for readers to verify the data sources.
+  - **Required correction** Add explicit citations for each source dataset described in the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Model architecture and training protocol of IDRBindNet"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the model training protocol is incomplete. The manuscript does not state the number of parameters, the optimization algorithm details beyond the learning rate, the batch size is given but not the number of epochs for early stopping, or the hardware used. The choice of the Adagrad optimizer is unusual for transformer models and is not justified.
+  - **Required correction** Provide a complete description of the training protocol, including optimizer settings, learning rate schedule, early stopping criteria, and hardware. Justify the choice of Adagrad or compare with more standard optimizers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results section "Physicochemical Determinants of IDR-Protein Interactions"
+  - **Evidence pointer** Results section; Figure 5
+  - **Issue** The analysis of residue-level contributions to shape complementarity is presented as a key finding, but the manuscript does not discuss how these findings compare with known IDR binding mechanisms from the literature. The observation that small and hydrophobic residues are enriched is not contextualized with respect to prior studies on IDR-mediated interactions.
+  - **Required correction** Add a discussion paragraph that compares the residue-level findings with existing knowledge of IDR binding, such as the role of hydrophobic patches or the importance of short linear motifs.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion focuses heavily on the model's performance and potential applications but does not address the limitations of the dataset, such as the overrepresentation of certain protein families or the potential for experimental bias in Kd measurements. A balanced discussion would strengthen the manuscript.
+  - **Required correction** Add a limitations paragraph that discusses potential biases in the dataset, the reliance on predicted structures, and the scope of the model's applicability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evaluation protocol and data leakage), R1-M2 (structure quality assessment), R1-M3 (statistical rigor of attention analysis), R1-M4 (dataset curation transparency)
+- **Assessment against Nature-style criteria** 
+  - Originality: The dataset is a novel contribution, and the integration of PLM embeddings with structural graph features for IDR-specific affinity prediction is a reasonable and timely approach. However, the individual components (PLMs, graph transformers, affinity prediction) are not new, and the originality lies primarily in their combination and the dataset.
+  - Scientific importance: The work addresses a significant gap in quantitative data for IDR interactions, which are increasingly recognized as central to cellular regulation. A reliable predictive model would be valuable for the community. The importance is high, provided the technical concerns are resolved.
+  - Interdisciplinary readership: The work will appeal to computational biologists, biophysicists, and machine-learning researchers. The broader cell biology community may find the dataset useful, but the manuscript's accessibility for this group is limited by the technical density.
+  - Technical soundness: The technical soundness is currently not fully established due to the concerns above. The evaluation protocol, structure quality handling, and statistical rigor of the interpretability analysis need strengthening.
+  - Readability for nonspecialists: The manuscript is written for a specialist audience. The abstract and introduction could be more accessible, but the methods and results are appropriately detailed for the target readership.
+- **Recommendation posture** Supportive if technical concerns are resolved. The dataset and model have clear potential, but the current manuscript does not fully establish the validity of the central claims due to the identified methodological gaps.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art accuracy" is not fully supported without a detailed and fair comparison protocol with existing methods.
+- The claim that the model "implicitly learns biologically meaningful signals" is not statistically substantiated.
+- The claim that the dataset "spans more than six orders of magnitude" is presented, but the distribution of affinities across this range is not shown, and the potential for bias in the dataset is not discussed.
+- The generalizability claim based on the external validation set is weak given the likely small number of complexes and the lack of detail on their selection.
+- The statement that IDRBindNet is "to our knowledge the first predictive model for estimating Kd of IDR-protein interactions" is a strong claim that requires a more thorough literature search and explicit comparison with any prior attempts.

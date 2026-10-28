@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supplementary material description)
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with stated claims; limited to the provided manuscript text without access to figures, tables, or supplementary files
+- **Shared manuscript claim summary** The authors construct a Markov State Model (MSM) of the p53 TAD–MDM2 binding reaction using only solvent shell density features, and report that this solvent-based model recapitulates the landscape shape of a previously published protein-distance-based MSM, albeit with accelerated timescales. They identify solvent shells around Thr18 and Lys24 as dominant contributors to the slowest tICA component, and visualize desolvation transitions along binding trajectories, offering a solvent-centric view of the hydrophobic effect.
+- **Visible evidence base** Abstract, Introduction, Methods, Results, Discussion, Conclusion, Supplementary Material description; no figures, tables, or supplementary files were provided
+- **Missing materials affecting confidence** All figures (Figures 1–7), supplementary figures (S1–S7), supporting movies (M1–M9), Chapman-Kolmogorov test results, and bootstrap uncertainty details; the original Zhou et al. (2017) paper for direct comparison; force field and simulation protocol details beyond those summarized
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially valuable approach: using solvent-only features to construct an MSM of a protein–peptide binding reaction. The finding that solvent features alone can recapitulate the global landscape shape of a protein-distance-based model is noteworthy and could be of interest to the biophysical simulation community. However, the current manuscript has several significant limitations. The accelerated timescales are acknowledged but not deeply rationalized; the claim that solvent features "poorly capture" the slowest motions is somewhat contradictory given the landscape similarity; and the mechanistic interpretation of the tIC1 contributions from polar residues, while intriguing, is not rigorously supported by quantitative analysis. The visualization-based evidence for desolvation pathways is descriptive rather than statistical. The manuscript would benefit from a more systematic comparison between solvent-based and protein-based models, a clearer articulation of what is genuinely new versus confirmatory, and a more critical discussion of the limitations of the solvent-feature approach.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying protein–peptide binding, solvation dynamics, and the hydrophobic effect. The methodological approach (solvent shell featurization combined with tICA/MSM) may also interest method developers working on dimensionality reduction and feature engineering for biomolecular simulations. The work could also appeal to those studying intrinsically disordered proteins and their binding mechanisms.
+- **Major strengths** 1) The conceptual framing is original: using solvent-only features to build a kinetic model of binding is a non-obvious and potentially powerful idea. 2) The study leverages a large, publicly available simulation dataset (831 μs), which is a significant resource. 3) The identification of polar residues (Thr18, Lys24) as key contributors to the slowest solvent dynamics offers a fresh perspective on the hydrophobic effect, complementing protein-centric views. 4) The visualization of desolvation pathways along trajectories is illustrative and could be pedagogically useful. 5) The authors are transparent about limitations (e.g., accelerated timescales, arbitrary shell definitions) and have made data and code publicly available.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the solvent-feature MSM "exhibits a landscape very similar to the MSM built by Zhou et al. from protein distance features" and that "information about binding pathways are largely preserved."
+  - **Evidence pointer** Results section, Figure 2 (not provided)
+  - **Concern** The claim of landscape similarity is based on a visual comparison of 2D tICA projections (Figure 2). No quantitative metric (e.g., overlap of state populations, transition matrix similarity, Jensen-Shannon divergence between stationary distributions) is provided to support this claim. Visual similarity of 2D projections can be misleading, especially when the underlying features are different. The authors should provide a quantitative comparison of the two models' landscapes, stationary distributions, and key transition pathways.
+  - **Why it matters** The central claim of the paper—that solvent features alone can recapitulate the binding landscape—rests entirely on this comparison. Without quantitative evidence, the claim is not established.
+  - **Resolution test** Provide quantitative comparisons: (a) overlap of the stationary distributions of the two MSMs (e.g., via a common state decomposition or by projecting both models onto a shared order parameter); (b) similarity of the dominant eigenvectors of the transition matrices; (c) comparison of the free energy surfaces along a common reaction coordinate (e.g., peptide–protein distance or native contact fraction). If such comparisons are not feasible, the authors should temper the claim to "qualitatively similar" and discuss the limitations of visual comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the calculated implied timescales of the solvent-feature MSMs are accelerated compared to the protein-feature MSMs" and that "this suggests that solvent features poorly capture the key degrees of freedom that determine the binding rate."
+  - **Evidence pointer** Results section, Figure 3 (not provided)
+  - **Concern** The interpretation of accelerated timescales is underdeveloped and potentially contradictory. If the landscape shape is similar, why are the timescales so different? The authors suggest that solvent features "poorly capture" the slowest motions, but if the landscape is similar, one might expect the slowest motions to be captured. The acceleration could arise from (a) the lower temporal resolution of the solvent trajectory data (1 ns vs 100 ps), (b) the different feature set leading to a different effective projection of the dynamics, or (c) genuine differences in the kinetic barriers as perceived through solvent coordinates. The authors do not disentangle these possibilities. Furthermore, the use of Equation (1) to estimate kon from the slowest implied timescale assumes a two-state model, which may not be valid for this system given the multiple intermediates described.
+  - **Why it matters** The accelerated timescales are a key result, but the interpretation is ambiguous. If the acceleration is an artifact of the lower temporal resolution, then the comparison with Zhou et al. is not apples-to-apples. If it reflects genuine physics, the authors need to explain why solvent coordinates perceive faster kinetics.
+  - **Resolution test** (a) Re-analyze the protein-distance features using the same 1 ns temporal resolution to isolate the effect of resolution. (b) Perform a more detailed kinetic analysis, e.g., compute the mean first passage times between key states in both models and compare. (c) Discuss whether the two-state assumption underlying Equation (1) is justified, and if not, use a more appropriate kinetic model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the solvent shells contributing most to the first tICA eigenvector are those centered on Lys24 and Thr18 of p53 TAD peptide in the range of 3–6 Å" and that this provides "a solvent-centric view of the hydrophobic effect in action."
+  - **Evidence pointer** Results section, Figure 5 (not provided)
+  - **Concern** The identification of Lys24 and Thr18 as important is based on the magnitude of their tICA coefficients. However, the authors do not provide a statistical significance test for these coefficients (e.g., via bootstrap or noise analysis). It is possible that the ranking of feature importance is not robust to sampling noise. Moreover, the mechanistic interpretation—that these polar residues are important because they are adjacent to hydrophobic residues (Phe19, Trp23)—is plausible but speculative. The authors do not provide direct evidence that the dynamics of water around Lys24 and Thr18 are causally linked to the binding process, rather than merely correlated.
+  - **Why it matters** The claim of identifying specific residues as key players in the solvent dynamics is a central result. If the ranking is not robust, the interpretation could be misleading. The mechanistic link to the hydrophobic effect is inferred, not demonstrated.
+  - **Resolution test** (a) Perform bootstrap resampling of the tICA coefficients to assess the uncertainty in the feature ranking. (b) Provide a control analysis, e.g., compare the tICA coefficients from the solvent-feature model to those from a model built on randomized or shuffled solvent features. (c) Strengthen the mechanistic interpretation by showing, for example, that the desolvation of Lys24 and Thr18 shells is temporally correlated with the insertion of Phe19 and Trp23 into the binding cleft, using a quantitative correlation analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Chapman-Kolmogorov tests for MSMs estimated using lag times of τ = 5 ns and τ = 30 ns are shown in Figure S1" and imply that the MSM is validated.
+  - **Evidence pointer** Methods section, Figure S1 (not provided)
+  - **Concern** The Chapman-Kolmogorov test is a necessary but not sufficient validation for an MSM. The authors do not report other validation metrics, such as the implied timescale convergence (beyond the two lag times mentioned), the number of states used, the state populations, or the sampling error in the transition matrix. The choice of 600 microstates and 10 tICA components is not justified. Without these details, the reliability of the MSM is not fully established.
+  - **Why it matters** The MSM is the core analytical tool of the paper. If the model is not well-validated, all subsequent conclusions are weakened.
+  - **Resolution test** Provide a more complete MSM validation: (a) implied timescale plot showing convergence over a range of lag times; (b) sensitivity analysis of the number of tICA components and microstates; (c) report the effective sample size or statistical uncertainty in the transition matrix; (d) show that the Chapman-Kolmogorov test passes for multiple lag times and for multiple eigenvalues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Methods
+  - **Evidence pointer** Introduction, Methods section
+  - **Issue** The manuscript assumes familiarity with tICA, MSM, and related concepts without sufficient introduction for a broader readership. Terms like "tICA eigenvalues," "Chapman-Kolmogorov tests," and "Transition Path Theory" are used without definition or context.
+  - **Required correction** Add brief explanations or references for these methods, or consider a short "Methods Overview" subsection that introduces the key concepts in accessible language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Results
+  - **Evidence pointer** Methods section, Results section
+  - **Issue** The manuscript states that "solvent trajectory data is sampled at a lower resolution (1 ns snapshots) than the trajectory data used by Zhou et al. (100 ps snapshots)." This difference is mentioned but not discussed as a potential source of the accelerated timescales. The authors should explicitly address whether the 10-fold lower temporal resolution could affect the estimated implied timescales.
+  - **Required correction** Add a sentence or two in the Discussion acknowledging this resolution difference and its potential impact on the timescale comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the "flip side" of the hydrophobic effect is interesting but brief. The authors could expand on how this solvent-centric view might change or refine existing mechanistic models of p53–MDM2 binding, and what testable predictions arise from their findings.
+  - **Required correction** Add a paragraph in the Discussion that explicitly states the novel mechanistic insights and proposes specific, testable predictions (e.g., mutations at Thr18 or Lys24 that would alter solvent dynamics and binding kinetics).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section
+  - **Issue** The choice of 3 Å shell widths is described as "somewhat arbitrary." The authors mention that optimization could improve the model but do not test this. A sensitivity analysis varying the shell width would strengthen the robustness of the results.
+  - **Required correction** Either perform a sensitivity analysis with different shell widths (e.g., 2 Å, 4 Å) and show that the main conclusions are unchanged, or explicitly state this as a limitation and future direction.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Figure 6
+  - **Evidence pointer** Results section, Figure 6 (not provided)
+  - **Issue** The description of the example trajectory in Figure 6 is detailed but difficult to follow without seeing the figure. The authors should ensure that the figure captions and main text are self-contained, and that the color coding and labels are clearly explained.
+  - **Required correction** Review the figure captions and main text to ensure that all visual elements are clearly described, and consider adding a schematic or simplified diagram to illustrate the key steps of the desolvation pathway.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative landscape comparison), R1-M2 (timescale interpretation and resolution mismatch), R1-M3 (statistical robustness of tICA feature ranking), R1-M4 (incomplete MSM validation)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of using solvent-only features to construct a kinetic model of binding is genuinely original and represents a creative departure from standard protein-centric analyses. This is a strength.
+  - **Scientific importance** The work addresses a fundamental question—the role of water in biomolecular binding—that is of broad interest. However, the current manuscript does not fully establish the significance of the findings beyond a descriptive level. The mechanistic insights are plausible but not rigorously demonstrated, and the practical implications for understanding or predicting binding are not articulated.
+  - **Interdisciplinary readership** The topic is relevant to biophysics, physical chemistry, and computational biology. However, the manuscript is written primarily for a specialist audience familiar with MSM and tICA methods, which may limit its accessibility to a broader interdisciplinary readership.
+  - **Technical soundness** The methodological approach is sound in principle, but the current analysis has gaps: lack of quantitative model comparison, incomplete validation, and no statistical assessment of feature importance. These need to be addressed.
+  - **Readability for nonspecialists** The writing is generally clear, but the methods and results sections assume significant prior knowledge. The conceptual framing in the Introduction and Discussion is accessible, but the technical details may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the dataset is valuable, but the current manuscript does not fully establish the central claims. The authors should address the quantitative comparison between solvent-based and protein-based models, provide a more rigorous analysis of the timescale acceleration, and strengthen the statistical basis for the feature importance ranking. If these issues are resolved, the manuscript could make a meaningful contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the solvent-feature MSM "exhibits a landscape very similar" to the protein-distance MSM is unsupported without quantitative comparison metrics.
+- The claim that "information about binding pathways are largely preserved" is not quantitatively demonstrated.
+- The interpretation that accelerated timescales imply solvent features "poorly capture" the slowest motions is speculative and not rigorously derived.
+- The identification of Thr18 and Lys24 as the most important residues for the slowest solvent dynamics is not statistically validated.
+- The mechanistic link between solvent shell dynamics around polar residues and the hydrophobic effect is inferred, not directly demonstrated.
+- The use of Equation (1) to estimate kon assumes a two-state model, which may not be valid given the multiple intermediates described; this assumption is not justified.
+- The statement that "the burial of Trp23 in the binding cleft is preceded by fluctuations in the number of surrounding waters" is based on visual inspection of trajectories and is not supported by quantitative analysis.

@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "37866116",
+    "doi": "10.1016/j.compbiolchem.2023.107970",
+    "title": "Protein-DNA interface hotspots prediction based on fusion features of embeddings of protein language model and handcrafted features."
+  },
+  "content": {
+    "abstract": "The identification of hotspot residues at the protein-DNA binding interfaces plays a crucial role in various aspects such as drug discovery and disease treatment. Although experimental methods such as alanine scanning mutagenesis have been developed to determine the hotspot residues on protein-DNA interfaces, they are both inefficient and costly. Therefore, it is highly necessary to develop efficient and accurate computational methods for predicting hotspot residues. Several computational methods have been developed, however, they are mainly based on hand-crafted features which may not be able to represent all the information of proteins. In this regard, we propose a model called PDH-EH, which utilizes fused features of embeddings extracted from a protein language model (PLM) and handcrafted features. After we extracted the total 1141 dimensional features, we used mRMR to select the optimal feature subset. Based on the optimal feature subset, several different learning algorithms such as Random Forest, Support Vector Machine, and XGBoost were used to build the models. The cross-validation results on the training dataset show that the model built by using Random Forest achieves the highest AUROC. Further evaluation on the independent test set shows that our model outperforms the existing state-of-the-art models. Moreover, the effectiveness and interpretability of embeddings extracted from PLM were demonstrated in our analysis. The codes and datasets used in this study are available at: https://github.com/lixiangli01/PDH-EH.",
+    "keywords": [
+      "Fusion features",
+      "Hot spot",
+      "Machine learning",
+      "Protein language model",
+      "Protein-DNA interaction"
+    ],
+    "mesh_terms": [
+      "Databases, Protein",
+      "*Proteins/chemistry",
+      "*Algorithms",
+      "Protein Binding",
+      "DNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiang",
+        "Wang, Gang-Ao",
+        "Wei, Zhuoyu",
+        "Wang, Hong",
+        "Zhu, Xiaolei"
+      ],
+      "short_names": [
+        "Li X",
+        "Wang GA",
+        "Wei Z",
+        "Wang H",
+        "Zhu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China.",
+        "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China.",
+        "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China.",
+        "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China.",
+        "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China. Electronic address: xlzhu_mdl@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Gang-Ao",
+        "short_name": "Wang GA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Zhuoyu",
+        "short_name": "Wei Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hong",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiaolei",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Sciences, Anhui Agricultural University, Hefei, Anhui 230036, China. Electronic address: xlzhu_mdl@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/23 00:41",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "40628826",
+      "40265190"
+    ],
+    "refs": [],
+    "similar": [
+      "37866116",
+      "39182368",
+      "29334889",
+      "30250210",
+      "33068261",
+      "30957840",
+      "20377884",
+      "32938375",
+      "38927611",
+      "37016308",
+      "32631222",
+      "29753757",
+      "34000983",
+      "31123959",
+      "39276905",
+      "38866950",
+      "19878545",
+      "37969991",
+      "38587997",
+      "30598073",
+      "39164870",
+      "30891794",
+      "30287797",
+      "25075532",
+      "22258275",
+      "23282146",
+      "36653898",
+      "28718782",
+      "39121938",
+      "39029431",
+      "36749151",
+      "38486135",
+      "23504705",
+      "26934646",
+      "36646842",
+      "24134392",
+      "34843033",
+      "33238837",
+      "38303473",
+      "31847804",
+      "37443652",
+      "32324731",
+      "29028926",
+      "30901953",
+      "19357097",
+      "30871681",
+      "38743747",
+      "21798070",
+      "38334115",
+      "31380766",
+      "38493120",
+      "29763967",
+      "22574904",
+      "37015594",
+      "38483806",
+      "30808287",
+      "28292249",
+      "38254915",
+      "35260777",
+      "34714748",
+      "24475169",
+      "32300371",
+      "34731411",
+      "34455627",
+      "24066285",
+      "30336361",
+      "29848272",
+      "36892166",
+      "30360705",
+      "36425113",
+      "28073761",
+      "39092854",
+      "29097781",
+      "38291341",
+      "38175787",
+      "25228146",
+      "35134828",
+      "31885041",
+      "39342017",
+      "25724101",
+      "38360239",
+      "34043981",
+      "37535616",
+      "29146561",
+      "32805275",
+      "32282466",
+      "34790508",
+      "28113437",
+      "29219069",
+      "36990028",
+      "23737141",
+      "37721924",
+      "34698644",
+      "30939415",
+      "19785045",
+      "21529341",
+      "19816556",
+      "30442086",
+      "19925685",
+      "27907159",
+      "24661439",
+      "30668479",
+      "27074717",
+      "36648327",
+      "37928245",
+      "34562726",
+      "38171929",
+      "32349758",
+      "36747300",
+      "35932551",
+      "31141211",
+      "28766075",
+      "34232869",
+      "38996756",
+      "35604077",
+      "36959840",
+      "39120878",
+      "31874617",
+      "38895377",
+      "38460308",
+      "38349057",
+      "39098138",
+      "37486915",
+      "39237301",
+      "38501511",
+      "38235359",
+      "39155325",
+      "38871176",
+      "37964470",
+      "36778738",
+      "38241104",
+      "36147670",
+      "38547659",
+      "36212021"
+    ],
+    "review": [
+      "37866116",
+      "30287797"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(23)00161-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

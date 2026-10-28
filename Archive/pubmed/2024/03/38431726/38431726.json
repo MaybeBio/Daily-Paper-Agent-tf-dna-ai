@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "38431726",
+    "doi": "10.1038/s41598-024-55941-6",
+    "title": "Predicting feature genes correlated with immune infiltration in patients with abdominal aortic aneurysm based on machine learning algorithms."
+  },
+  "content": {
+    "abstract": "Abdominal aortic aneurysm (AAA) is a condition characterized by a pathological and progressive dilatation of the infrarenal abdominal aorta. The exploration of AAA feature genes is crucial for enhancing the prognosis of AAA patients. Microarray datasets of AAA were downloaded from the Gene Expression Omnibus database. A total of 43 upregulated differentially expressed genes (DEGs) and 32 downregulated DEGs were obtained. Function, pathway, disease, and gene set enrichment analyses were performed, in which enrichments were related to inflammation and immune response. AHR, APLNR, ITGA10 and NR2F6 were defined as feature genes via machine learning algorithms and a validation cohort, which indicated high diagnostic abilities by the receiver operating characteristic curves. The cell-type identification by estimating relative subsets of RNA transcripts (CIBERSORT) method was used to quantify the proportions of immune infiltration in samples of AAA and normal tissues. We have predicted AHR, APLNR, ITGA10 and NR2F6 as feature genes of AAA. CD8 + T cells and M2 macrophages correlated with these genes may be involved in the development of AAA, which have the potential to be developed as risk predictors and immune interventions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Apelin Receptors",
+      "*Aortic Aneurysm, Abdominal/genetics",
+      "Aorta, Abdominal",
+      "Algorithms",
+      "Machine Learning",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yufeng",
+        "Li, Gang"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Li G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Vascular Surgery, The Second Affiliated Hospital of Shandong First Medical University, Tai'an, 271000, Shandong, China.",
+        "Postdoctoral Workstation, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, 250021, Shandong, China.",
+        "Department of Pulmonary and Critical Care Medicine, Jiangyin Hospital of Traditional Chinese Medicine, Jiangyin Hospital Affiliated to Nanjing University of Chinese Medicine, Jiangyin, 214400, Jiangsu, China.",
+        "Department of Vascular Surgery, The Second Affiliated Hospital of Shandong First Medical University, Tai'an, 271000, Shandong, China. lig@sdfmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yufeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The Second Affiliated Hospital of Shandong First Medical University, Tai'an, 271000, Shandong, China.",
+          "Postdoctoral Workstation, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, 250021, Shandong, China.",
+          "Department of Pulmonary and Critical Care Medicine, Jiangyin Hospital of Traditional Chinese Medicine, Jiangyin Hospital Affiliated to Nanjing University of Chinese Medicine, Jiangyin, 214400, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Gang",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The Second Affiliated Hospital of Shandong First Medical University, Tai'an, 271000, Shandong, China. lig@sdfmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Mar 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/03 17:42",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "42146908",
+      "41751419"
+    ],
+    "refs": [
+      "37031728",
+      "37008329",
+      "36860337",
+      "36588574",
+      "36511924",
+      "36328621",
+      "36300620",
+      "36275758",
+      "36232377",
+      "36187757",
+      "36183323",
+      "35990352",
+      "35926768",
+      "35693946",
+      "35598689",
+      "35568340",
+      "35497880",
+      "35354148",
+      "35350787",
+      "35294231",
+      "35224035",
+      "35045818",
+      "34786132",
+      "34706747",
+      "34557778",
+      "34495251",
+      "34359800",
+      "34234274",
+      "34194399",
+      "34139912",
+      "34073258",
+      "33919749",
+      "33895026",
+      "33576467",
+      "33195475",
+      "32982758",
+      "32805313",
+      "31933940",
+      "31799516",
+      "31512366",
+      "31443682",
+      "31441146",
+      "31119183",
+      "31061481",
+      "30654619",
+      "30547052",
+      "30337540",
+      "29967801",
+      "29726989",
+      "29439675",
+      "29276519",
+      "29275361",
+      "28406184",
+      "27183603",
+      "26771021",
+      "25993293",
+      "25944698",
+      "25822800",
+      "25677125",
+      "25605792",
+      "25427112",
+      "25349182",
+      "25295306",
+      "25053743",
+      "24919548",
+      "24529146",
+      "23193258",
+      "22455463",
+      "22257669",
+      "21493888",
+      "18769630",
+      "18467348",
+      "18178591",
+      "17634102",
+      "16199517",
+      "10905814",
+      "10592173",
+      "9044528"
+    ],
+    "similar": [
+      "38431726",
+      "35381314",
+      "39173977",
+      "36187757",
+      "34139912",
+      "36341412",
+      "35769488",
+      "38867262",
+      "36860337",
+      "33362847",
+      "36186997",
+      "36017103",
+      "31553078",
+      "38785203",
+      "34777635",
+      "29439675",
+      "39234237",
+      "34852854",
+      "37519764",
+      "36589450",
+      "34495251",
+      "32805313",
+      "35224035",
+      "38181271",
+      "35990982",
+      "37732314",
+      "35568340",
+      "37987755",
+      "36158807",
+      "36746103",
+      "38070790",
+      "35299890",
+      "32278833",
+      "35959356",
+      "24529146",
+      "38371524",
+      "37737183",
+      "35035519",
+      "37684281",
+      "37783761",
+      "31730405",
+      "35713363",
+      "26498477",
+      "27157464",
+      "31939880",
+      "35719392",
+      "31885343",
+      "35251127",
+      "36919187",
+      "32678909",
+      "37582718",
+      "28912007",
+      "34107850",
+      "38335213",
+      "36250071",
+      "22797469",
+      "25944698",
+      "28935757",
+      "37800807",
+      "38099311",
+      "36725810",
+      "32907367",
+      "38660376",
+      "33245093",
+      "34814367",
+      "35958412",
+      "35620523",
+      "37662825",
+      "36470144",
+      "31608184",
+      "27229458",
+      "18956725",
+      "31539405",
+      "38022704",
+      "32787523",
+      "36823662",
+      "33415145",
+      "26988591",
+      "26338301",
+      "11854734",
+      "35845512",
+      "38036076",
+      "26941015",
+      "20488324",
+      "32078829",
+      "32212850",
+      "32783773",
+      "35341274",
+      "36792688",
+      "35874515",
+      "33598484",
+      "28288890",
+      "38251428",
+      "37980550",
+      "29191809",
+      "17974353",
+      "20371161",
+      "28347473",
+      "38112597",
+      "38590878",
+      "39155144"
+    ],
+    "review": [
+      "38431726",
+      "37987755"
+    ],
+    "pmc": [
+      "10908806"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-55941-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38431726/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38431726",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

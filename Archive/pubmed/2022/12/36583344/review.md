@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present cryo-EM structures of the polymerase domain of Lates calcarifer DNA polymerase θ (Pol θ) bound to long and short duplex DNA substrates, at resolutions up to 2.4 Å. They report that Pol θ binds long and short DNA substrates similarly, with extensive active-site interactions, and that the finger domain adopts a closed conformation. They further propose, based on computational modeling and mutagenesis, that insertion loop 1 stabilizes short DNA binding and that loop 2 contributes to primer alignment and active-site assembly. The authors conclude that these features explain Pol θ's ability to perform microhomology-mediated end joining (MMEJ) and low-fidelity synthesis.
+- **Visible evidence base** Cryo-EM structures (complexes Ia, Ib, II), DNA synthesis assays, EMSA binding assays, steady-state kinetics, Rosetta loop modeling, MD simulations, gel filtration, crosslinking assays, sequence alignments
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (Figures S1-S12, Tables S1-S2) were not provided. Full experimental details for some assays are abbreviated. The published HsPol θ structures used for comparison are referenced but not shown in detail.
+
+## Reviewer
+- **Overall assessment** This manuscript presents high-resolution cryo-EM structures of Pol θ polymerase domain bound to DNA substrates of different lengths, including a short hairpin substrate that mimics MMEJ intermediates. The structural data are of high quality and provide valuable insights into how Pol θ engages short DNA substrates. The finding that Pol θ binds long and short DNA similarly, with the finger domain in a closed conformation, is interesting and adds to the understanding of this polymerase's unique properties. The functional experiments linking loop 1 and loop 2 to DNA binding and activity are generally well executed, though some conclusions would benefit from additional support. The manuscript is clearly written and will be of interest to the DNA repair and polymerase communities. However, several technical concerns and interpretive issues need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying DNA double-strand break repair pathways, particularly MMEJ and its regulation. Structural biologists interested in polymerase mechanisms, especially A-family polymerases and their low-fidelity members. Cancer biologists interested in Pol θ as a therapeutic target, given its role in repairing DSBs in BRCA-deficient tumors. The structures may also inform drug development efforts targeting Pol θ.
+- **Major strengths** 1. High-resolution cryo-EM structures (2.4-3.0 Å) of Pol θ polymerase domain with different DNA substrates, including a short hairpin that mimics MMEJ substrates. 2. The observation that Pol θ binds long and short DNA similarly, with a closed finger domain, provides a clear structural framework for understanding MMEJ. 3. The combination of structural, biochemical, and computational approaches strengthens the conclusions. 4. The identification of specific residues in loop 1 and loop 2 that contribute to DNA binding and activity provides testable hypotheses. 5. The manuscript is well-written and the figures are described clearly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Pol θ binds to long and short duplex DNA in a similar manner" based on structural comparison of complexes Ia, Ib, and II.
+  - **Evidence pointer** Results section "Structure of Pol θ-pol with duplex DNA", Figures 1E-1H, 4B
+  - **Concern** The structural comparison between complexes with long (18 bp and 11 bp) and short (4 bp) DNA is based on overall RMSD values (0.6 Å between Ia and Ib, 1.1 Å between II and Ia). However, the authors do not provide a detailed residue-by-residue comparison of the DNA-binding interfaces. The short DNA substrate in complex II has only 4 bp, and the authors note that additional density was observed beyond the designed 3 bp + ddA-T, including a dT-dT mismatch and an extra stacked dT. It is unclear how this non-canonical structure affects the interpretation of "similar" binding. A more detailed comparison of the specific contacts made by the polymerase with the short versus long DNA, particularly at the distal end, would strengthen this claim.
+  - **Why it matters** The central claim of the paper is that Pol θ can engage short MMEJ substrates in a manner analogous to longer duplex DNA. If the binding modes are actually different in functionally important ways, the structural basis for MMEJ would need to be revised. The current comparison is too superficial to fully support the claim.
+  - **Resolution test** Provide a detailed structural alignment of the DNA-binding regions across all three complexes, highlighting conserved and divergent contacts. Quantify the buried surface area and number of protein-DNA contacts for each complex. Discuss whether the observed differences (e.g., loss of thumb-template contacts in complex II) are functionally relevant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "computational simulations and mutagenesis studies suggest that the unique insertion loops of Pol θ help to stabilize short DNA binding and assemble the active site for MMEJ repair."
+  - **Evidence pointer** Results section "Modeling of disordered loops in the thumb domain", Figures 5A-5K
+  - **Concern** The loop 1 model is built using Rosetta loop modeling followed by a short (50,000 step) MD simulation. The authors state that the structure with the shortest distance between loop 1 and DNA was picked, which introduces a selection bias. The functional data show that Δloop1 reduces activity and DNA binding, but the mechanistic interpretation relies heavily on a single modeled conformation of a highly flexible loop. The authors acknowledge this limitation but do not provide alternative models or ensemble analyses. For loop 2, the deletion constructs are informative, but the conclusion that "the major portion of loop 2 is not essential for Pol θ activity" is based on a single deletion construct (Δloop2_a) that removes a different region than Δloop2_b. The interpretation that R2448 is critical is supported by the Δloop2_c rescue, but the kinetics data for this mutant are not shown in the main text.
+  - **Why it matters** The mechanistic model for how the insertion loops contribute to MMEJ is a key part of the paper's conclusions. If the loop 1 model is not representative, or if the loop 2 deletion phenotypes are more complex than presented, the conclusions would be weakened.
+  - **Resolution test** Provide a more rigorous analysis of loop 1 conformations, such as an ensemble of models from multiple MD trajectories or enhanced sampling. Show the kinetics data for Δloop2_c and discuss why Δloop2_a and Δloop2_b have different phenotypes despite both deleting parts of loop 2. Consider whether the loop 2 hinge residues (K2395, R2448) are sufficient to explain the observed effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "our results illustrate the structural basis of Pol θ-mediated MMEJ" and that the findings "may help in defining potential druggable sites."
+  - **Evidence pointer** Discussion section
+  - **Concern** While the structures are valuable, the direct relevance to MMEJ is somewhat limited by the use of a hairpin substrate rather than a true MMEJ intermediate with two separate DNA ends. The authors argue that the hairpin mimics MMEJ substrates, but the physiological relevance of the dT-dT mismatch and extra stacked dT observed in complex II is unclear. The discussion of druggable sites is speculative and not supported by any specific analysis of potential binding pockets or comparison with known inhibitor binding sites.
+  - **Why it matters** The paper's significance is enhanced if the structures directly inform MMEJ mechanism and therapeutic development. If the hairpin substrate is not a faithful mimic, or if the druggable site claims are not substantiated, the broader impact is reduced.
+  - **Resolution test** Discuss more explicitly how the hairpin substrate relates to the proposed MMEJ mechanism, including the role of the observed mismatch. If possible, compare the Pol θ active site with known polymerase inhibitor binding sites to identify potential druggable pockets. Alternatively, temper the druggable site claims to match the data presented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "cryo-electron microscope structures" which should be "cryo-electron microscopy structures" for grammatical correctness.
+  - **Required correction** Change to "cryo-electron microscopy structures".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** DNA synthesis assay description
+  - **Evidence pointer** Materials and Methods, "DNA synthesis assay"
+  - **Issue** The description of the DNA synthesis assay is brief. It is unclear what the "19/29 mer" and "MH6" substrates look like (e.g., sequences, overhangs, labeling). The authors state that MH6 contains 6 bp of microhomology, but the structure of this substrate is not described in the main text.
+  - **Required correction** Provide a brief description of the substrates in the main text or refer to Supplementary Table S2 more explicitly, including a schematic if possible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 5
+  - **Evidence pointer** Results section "Modeling of disordered loops in the thumb domain", Figure 5
+  - **Issue** The figure legend for Figure 5 is not provided in the manuscript text. Given the complexity of the figure (multiple panels, mutants, kinetics), a detailed legend is essential for interpretation.
+  - **Required correction** Ensure the figure legend is complete and describes all panels, including the kinetics data in Figure 5J and 5K.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Crosslinking assay
+  - **Evidence pointer** Materials and Methods, "Gel-filtration and crosslinking"
+  - **Issue** The crosslinking assay is described briefly. It is unclear what concentrations of protein and DNA were used, what crosslinker was used (glutaraldehyde is mentioned), and how the results were quantified.
+  - **Required correction** Provide more detail on the crosslinking assay conditions and how the results support the conclusion that DNA stimulates oligomerization.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the dT-dT mismatch in complex II is brief. The authors state that "mispairing and base stacking may further stabilize the short duplex binding" but do not elaborate on how this relates to MMEJ substrate recognition.
+  - **Required correction** Expand the discussion of the observed mismatch and its potential relevance to MMEJ, or explicitly state that its significance is unclear.
+- **Technical failings that need to be addressed before the case is established** 1. The structural comparison between long and short DNA complexes needs to be more detailed to support the claim of similar binding (R1-M1). 2. The loop 1 model is based on a single selected conformation and needs ensemble analysis or additional validation (R1-M2). 3. The kinetics data for Δloop2_c are not shown, which is needed to fully interpret the loop 2 deletion results (R1-M2). 4. The description of DNA substrates in the methods is insufficient for reproducibility (R1-m2).
+- **Assessment against Nature-style criteria** Originality: The structures presented are novel and provide the first high-resolution views of Pol θ polymerase domain with short DNA substrates that mimic MMEJ intermediates. The observation of a closed finger domain and the proposed roles of insertion loops are original contributions. Scientific importance: The work addresses a key question in DNA repair, namely how Pol θ performs MMEJ. The findings have implications for understanding genome stability and for cancer therapy, as Pol θ is a target in BRCA-deficient tumors. The importance is moderate to high, though the direct MMEJ relevance is somewhat limited by the substrate design. Interdisciplinary readership: The work will appeal to structural biologists, DNA repair researchers, and cancer biologists. The writing is accessible, though some structural details may be challenging for non-specialists. Technical soundness: The cryo-EM structures appear to be of high quality based on the reported resolutions. The biochemical assays are generally well designed, but some conclusions rely heavily on computational modeling that needs additional validation. Readability for nonspecialists: The manuscript is clearly written with a logical flow. The abstract and introduction are accessible, but the results section assumes familiarity with polymerase structural biology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data are valuable and the manuscript is well-written. However, the central claim of similar binding between long and short DNA needs more detailed support, and the loop 1 model requires additional validation. Once these concerns are addressed, the paper would be suitable for publication.
+
+## Risk / unsupported claims
+- The claim that Pol θ binds long and short DNA "similarly" is not fully supported by the superficial RMSD-based comparison; a detailed interface analysis is needed.
+- The mechanistic model for loop 1 function relies on a single modeled conformation of a flexible loop and is therefore not fully established.
+- The conclusion that "the major portion of loop 2 is not essential for Pol θ activity" is based on limited deletion analysis and may be an oversimplification.
+- The relevance of the dT-dT mismatch and extra stacked base in complex II to MMEJ is speculative and not experimentally tested.
+- The statement that the findings "may help in defining potential druggable sites" is not supported by any specific analysis in the manuscript.

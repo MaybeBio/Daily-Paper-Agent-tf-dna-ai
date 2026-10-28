@@ -1,0 +1,98 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.22.638679",
+  "title": "Machine Learning Prediction of Non-Coding Variant Impact in Cell-Class-Specific Human Retinal Cis -Regulatory Elements",
+  "doi": "10.1101/2025.02.22.638679",
+  "abstract": "Non-coding variants in cis-regulatory elements such as promoters and enhancers contribute to inherited retinal diseases (IRDs), however, characterizing the functional impact of most regulatory variants remains challenging. To improve identification of variants of interest, we implemented machine learning using a gapped k-mer support vector machine approach trained on single nucleus ATAC-seq data from specific cell classes of the adult and developing human retina. We developed 18 distinct ML models to predict the impact of non-coding variants on 39,437 cell-class-specific regulatory elements. These models demonstrate accuracy over 90% and a high degree of cell class specificity. Variant Impact Prediction (VIP) scores highlight specific sequences within candidate CREs, including putative transcription factor (TF) binding motifs, that are predicted to alter CRE function if mutated. Correlations to massively parallel reporter assays support the predictive value of VIP scores to model single nucleotide variants and indels in a cell-class-specific manner. These analyses demonstrate the capacity for single nucleus epigenomic data to predict the impact of non-coding sequence variants and allow for rapid prioritization of patient variants for further functional analysis.",
+  "authors": [
+    "VandenBosch LS",
+    "Cherry TJ"
+  ],
+  "published_date": "2025-02-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.22.638679",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.22.638679.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR981729",
+    "raw_record": {
+      "id": "PPR981729",
+      "source": "PPR",
+      "doi": "10.1101/2025.02.22.638679",
+      "title": "Machine Learning Prediction of Non-Coding Variant Impact in Cell-Class-Specific Human Retinal  <i>Cis</i>  -Regulatory Elements",
+      "authorString": "VandenBosch LS, Cherry TJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "VandenBosch LS",
+            "lastName": "VandenBosch",
+            "firstName": "Leah",
+            "initials": "LS"
+          },
+          {
+            "fullName": "Cherry TJ",
+            "lastName": "Cherry",
+            "firstName": "Timothy",
+            "initials": "TJ"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Non-coding variants in cis-regulatory elements such as promoters and enhancers contribute to inherited retinal diseases (IRDs), however, characterizing the functional impact of most regulatory variants remains challenging. To improve identification of variants of interest, we implemented machine learning using a gapped k-mer support vector machine approach trained on single nucleus ATAC-seq data from specific cell classes of the adult and developing human retina. We developed 18 distinct ML models to predict the impact of non-coding variants on 39,437 cell-class-specific regulatory elements. These models demonstrate accuracy over 90% and a high degree of cell class specificity. Variant Impact Prediction (VIP) scores highlight specific sequences within candidate CREs, including putative transcription factor (TF) binding motifs, that are predicted to alter CRE function if mutated. Correlations to massively parallel reporter assays support the predictive value of VIP scores to model single nucleotide variants and indels in a cell-class-specific manner. These analyses demonstrate the capacity for single nucleus epigenomic data to predict the impact of non-coding sequence variants and allow for rapid prioritization of patient variants for further functional analysis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.02.22.638679"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.22.638679"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-02-25",
+      "firstPublicationDate": "2025-02-24",
+      "firstIndexDate": "2025-02-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

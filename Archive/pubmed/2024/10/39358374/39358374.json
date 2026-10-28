@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "39358374",
+    "doi": "10.1038/s41467-024-52922-1",
+    "title": "Reassessment of marker genes in human induced pluripotent stem cells for enhanced quality control."
+  },
+  "content": {
+    "abstract": "Human induced pluripotent stem cells (iPSCs) have great potential in research, but pluripotency testing faces challenges due to non-standardized methods and ambiguous markers. Here, we use long-read nanopore transcriptome sequencing to discover 172 genes linked to cell states not covered by current guidelines. We validate 12 genes by qPCR as unique markers for specific cell fates: pluripotency (CNMD, NANOG, SPP1), endoderm (CER1, EOMES, GATA6), mesoderm (APLNR, HAND1, HOXB7), and ectoderm (HES5, PAMR1, PAX6). Using these genes, we develop a machine learning-based scoring system, \"hiPSCore\", trained on 15 iPSC lines and validated on 10 more. hiPSCore accurately classifies pluripotent and differentiated cells and predicts their potential to become specialized 2D cells and 3D organoids. Our re-evaluation of cell fate marker genes identifies key targets for future studies on cell fate assessment. hiPSCore improves iPSC testing by reducing time, subjectivity, and resource use, thus enhancing iPSC quality for scientific and medical applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Induced Pluripotent Stem Cells/metabolism/cytology",
+      "Humans",
+      "*Cell Differentiation/genetics",
+      "*Quality Control",
+      "Biomarkers/metabolism",
+      "Machine Learning",
+      "Endoderm/cytology/metabolism",
+      "Transcriptome",
+      "Mesoderm/metabolism/cytology",
+      "Cell Line",
+      "Ectoderm/metabolism/cytology",
+      "Organoids/metabolism",
+      "Gene Expression Profiling/methods",
+      "Nanog Homeobox Protein/genetics/metabolism",
+      "T-Box Domain Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dobner, Jochen",
+        "Diecke, Sebastian",
+        "Krutmann, Jean",
+        "Prigione, Alessandro",
+        "Rossi, Andrea"
+      ],
+      "short_names": [
+        "Dobner J",
+        "Diecke S",
+        "Krutmann J",
+        "Prigione A",
+        "Rossi A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6336-9716",
+        "ORCID: 0000-0002-5219-5992",
+        "ORCID: 0000-0001-8433-1517",
+        "ORCID: 0000-0001-9457-1952",
+        "ORCID: 0000-0001-5863-6448"
+      ],
+      "affiliations": [
+        "Genome Engineering and Model Development Lab (GEMD), IUF-Leibniz Research Institute for Environmental Medicine, Dusseldorf, Germany.",
+        "Max Delbruck Center for Molecular Medicine (MDC), Berlin, Germany.",
+        "Genome Engineering and Model Development Lab (GEMD), IUF-Leibniz Research Institute for Environmental Medicine, Dusseldorf, Germany.",
+        "Medical Faculty, Heinrich Heine University Dusseldorf, Dusseldorf, Germany.",
+        "University Hospital Dusseldorf, Dusseldorf, Germany.",
+        "Genome Engineering and Model Development Lab (GEMD), IUF-Leibniz Research Institute for Environmental Medicine, Dusseldorf, Germany. andrea.rossi@iuf-duesseldorf.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dobner, Jochen",
+        "short_name": "Dobner J",
+        "identifiers": [
+          "0000-0002-6336-9716"
+        ],
+        "affiliations": [
+          "Genome Engineering and Model Development Lab (GEMD), IUF-Leibniz Research Institute for Environmental Medicine, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Diecke, Sebastian",
+        "short_name": "Diecke S",
+        "identifiers": [
+          "0000-0002-5219-5992"
+        ],
+        "affiliations": [
+          "Max Delbrück Center for Molecular Medicine (MDC), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Krutmann, Jean",
+        "short_name": "Krutmann J",
+        "identifiers": [
+          "0000-0001-8433-1517"
+        ],
+        "affiliations": [
+          "Genome Engineering and Model Development Lab (GEMD), IUF-Leibniz Research Institute for Environmental Medicine, Düsseldorf, Germany.",
+          "Medical Faculty, Heinrich Heine University Düsseldorf, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Prigione, Alessandro",
+        "short_name": "Prigione A",
+        "identifiers": [
+          "0000-0001-9457-1952"
+        ],
+        "affiliations": [
+          "University Hospital Düsseldorf, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Rossi, Andrea",
+        "short_name": "Rossi A",
+        "identifiers": [
+          "0000-0001-5863-6448"
+        ],
+        "affiliations": [
+          "Genome Engineering and Model Development Lab (GEMD), IUF-Leibniz Research Institute for Environmental Medicine, Düsseldorf, Germany. andrea.rossi@iuf-duesseldorf.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Oct 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/03 00:42",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42680145",
+      "42528516",
+      "42482978",
+      "42409021",
+      "42338472",
+      "42255491",
+      "42096828",
+      "41917264",
+      "41596282",
+      "41571707",
+      "41497621",
+      "41155036",
+      "41090715",
+      "41059336",
+      "40970094",
+      "40855884",
+      "40825949",
+      "40419657",
+      "40277944",
+      "40226329"
+    ],
+    "refs": [
+      "38402620",
+      "37703820",
+      "37699982",
+      "36707444",
+      "36460001",
+      "36459969",
+      "35880122",
+      "35245442",
+      "34532844",
+      "34287353",
+      "33903218",
+      "33665610",
+      "33631122",
+      "33623712",
+      "32636524",
+      "32252012",
+      "32109853",
+      "32033565",
+      "31760627",
+      "31753034",
+      "31692979",
+      "31396366",
+      "30999923",
+      "30205750",
+      "30202107",
+      "29765017",
+      "29441649",
+      "27308945",
+      "27306170",
+      "26813401",
+      "26501952",
+      "25754700",
+      "25639979",
+      "25186908",
+      "25126380",
+      "24905879",
+      "23611953",
+      "21822879",
+      "21378979",
+      "21295703",
+      "19246619",
+      "18035408",
+      "17572666",
+      "16904174",
+      "12921741",
+      "1055416"
+    ],
+    "similar": [
+      "39358374",
+      "33256572",
+      "28167799",
+      "31248595",
+      "30999275",
+      "28132888",
+      "30656629",
+      "21424235",
+      "40592324",
+      "34678211",
+      "21443752",
+      "34615950",
+      "30227600",
+      "33513663",
+      "25586786",
+      "10639341",
+      "30674265",
+      "40176124",
+      "39596521",
+      "40280138",
+      "31389301",
+      "38977828",
+      "35729116",
+      "30768863",
+      "21401753",
+      "40825949",
+      "21245162",
+      "15456727",
+      "32428045",
+      "30153084",
+      "31466320",
+      "31813826",
+      "21732815",
+      "20369364",
+      "28392218",
+      "27402757",
+      "38583169",
+      "30048506",
+      "19544440",
+      "17615266",
+      "27304915",
+      "26493401",
+      "28395807",
+      "32862797",
+      "26482195",
+      "33900299",
+      "39719603",
+      "25803487",
+      "25572667",
+      "38547666",
+      "25783769",
+      "23582880",
+      "31877913",
+      "40057954",
+      "26947975",
+      "24560741",
+      "27292645",
+      "28426095",
+      "24564535",
+      "37280707",
+      "23421367",
+      "30606801",
+      "26277621",
+      "26411691",
+      "31588046",
+      "32127035",
+      "23040993",
+      "21760905",
+      "30316806",
+      "19440553",
+      "26654216",
+      "26348590",
+      "20586725",
+      "32277725",
+      "29893054",
+      "31885203",
+      "33891867",
+      "33226623",
+      "28196690",
+      "36319564",
+      "30891497",
+      "20380514",
+      "29141233",
+      "26109048",
+      "29429958",
+      "22088171",
+      "28544655",
+      "22865636",
+      "31759291",
+      "23197756",
+      "33454005",
+      "25487147",
+      "31322312",
+      "20074535",
+      "31417139",
+      "33400835",
+      "31570522",
+      "38552357",
+      "40882638",
+      "16501172"
+    ],
+    "review": [
+      "39358374",
+      "30674265"
+    ],
+    "pmc": [
+      "11447164"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-52922-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39358374/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NANOG-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3402",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

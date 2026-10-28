@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "41291745",
+    "doi": "10.1186/s12943-025-02511-7",
+    "title": "RHOA lactylation at oncogenic hotspots promotes oncogenic activity and protein stabilization."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Aberrant RHOA activation drives tumor progression, yet regulatory mechanisms beyond genetic mutations remain poorly defined. Lactylation, a lactate-derived post-translational modification, links metabolic reprogramming to oncogenesis, but its functional mimicry of genetic mutations is unexplored. This study investigates RHOA lactylation at oncogenic hotspots and its role as an \"epi-mutation\" system. METHODS: RHOA lactylation were identified by pan-lysine lactylation (Kla) antibody-based mass spectrometry. Site-specific lactylation was achieved using an orthogonal Mb-Pyl Kla-RS/Pyl-tRNA pair to incorporate lactyl-lysine at K118/K162 in recombinant RHOA, validated by immunoblotting and fluorescence. Molecular dynamics simulations (AlphaFold 3, BIOVIA DS) analyzed GTPase activity and hydrogen-bond networks. RHOA activity was assessed via ROCK2-RBD pull-down and GTPase assays. Ubiquitination and protein stability were examined using cycloheximide chase and K48/K63-ubiquitin mutants. In vitro lactylation/delactylation assays with PCAF/HDAC3 defined enzyme specificity. In vitro/in vivo functional studies used migration/invasion assays and xenograft models. Clinical relevance was evaluated in breast cancer tissues and survival databases. RESULTS: We identify lactylation of RHOA at oncogenic mutation hotspots K118 and K162, mediated by the lactate-PCAF/HDAC3 axis. Mechanistically, K118 lactylation constitutively activates RHOA by impairing intrinsic GTPase activity, whereas K162 lactylation stabilizes RHOA protein by competitively antagonizing protein ubiquitination, with USP9X further enhancing stability through deubiquitination. Functionally, RHOA lactylation promotes tumor cell migration, invasion and metastasis. Clinically, RHOA lactylation is elevated in breast tumors versus adjacent tissues. Notably, targeting lactate production (LDHA inhibitor: sodium oxamate) synergized with RHOA-pathway inhibition (ROCK inhibitor: Y-27632) to suppress tumor progression. By employing a site-specific lactylation system, we further identify that lactylation mimics oncogenic mutations by enhancing both RHOA activity and stability, thus proposing that lactylation at mutation-prone sites represents a reversible \"epi-mutation\" system that recapitulates genetic mutation effects. CONCLUSIONS: RHOA lactylation at K118 (activation) and K162 (stabilization) orchestrated by the PCAF/HDAC3 enzymatic axis, enables constitutive oncogenic signaling to fuel tumor progression. Crucially, we redefine that lactylation at mutation-prone sites functions as a reversible \"epi-mutation\" system, where metabolic modification dynamically recapitulates oncogenic mutation effects, challenging the genetic/epigenetic dichotomy in oncology and revealing dual targeting of lactylation and canonical RHOA pathways as a potential therapeutic strategy.",
+    "keywords": [
+      "HDAC3",
+      "Lactylation",
+      "PCAF",
+      "RHOA",
+      "USP9X"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinogenesis/genetics/metabolism/pathology",
+      "Cell Movement",
+      "Enzyme Stability",
+      "*Epigenesis, Genetic",
+      "HEK293 Cells",
+      "Histone Deacetylase 3/metabolism",
+      "*Lactic Acid",
+      "*Lysine/metabolism",
+      "MDA-MB-231 Cells",
+      "Metabolic Reprogramming",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "Neoplasm Invasiveness",
+      "p300-CBP-Associated Factor/metabolism",
+      "*Protein Processing, Post-Translational",
+      "*rhoA GTP-Binding Protein/genetics/metabolism",
+      "Ubiquitination",
+      "Oncogenes",
+      "*Breast Neoplasms/genetics/metabolism/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Chenglong",
+        "Liao, Ruocen",
+        "Chen, Xingyu",
+        "Cao, Qianhua",
+        "Deng, Xinyue",
+        "Dai, Zhijun",
+        "Dong, Chenfang"
+      ],
+      "short_names": [
+        "Ma C",
+        "Liao R",
+        "Chen X",
+        "Cao Q",
+        "Deng X",
+        "Dai Z",
+        "Dong C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology and Pathophysiology, and Department of Surgical Oncology (breast center), Key Laboratory of Cancer Prevention and Intervention, Ministry of Education, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China.",
+        "Department of Pathology and Pathophysiology, and Department of Surgical Oncology (breast center), Key Laboratory of Cancer Prevention and Intervention, Ministry of Education, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China.",
+        "Department of Breast Surgery, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China.",
+        "Department of Respiratory and Critical Care Medicine, Key Laboratory of Respiratory Disease of Ningbo, The First Affiliated Hospital of Ningbo University, 59 Liuting Road, Ningbo, 315010, China.",
+        "Department of Respiratory and Critical Care Medicine, Key Laboratory of Respiratory Disease of Ningbo, The First Affiliated Hospital of Ningbo University, 59 Liuting Road, Ningbo, 315010, China.",
+        "Department of Head and Neck Surgery, Otolaryngology & Head and Neck Center, Cancer Center, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Hangzhou, 310014, China.",
+        "Department of Breast Surgery, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China.",
+        "Department of Pathology and Pathophysiology, and Department of Surgical Oncology (breast center), Key Laboratory of Cancer Prevention and Intervention, Ministry of Education, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China. chenfangdong@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Chenglong",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Pathophysiology, and Department of Surgical Oncology (breast center), Key Laboratory of Cancer Prevention and Intervention, Ministry of Education, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Ruocen",
+        "short_name": "Liao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Pathophysiology, and Department of Surgical Oncology (breast center), Key Laboratory of Cancer Prevention and Intervention, Ministry of Education, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China.",
+          "Department of Breast Surgery, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xingyu",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Key Laboratory of Respiratory Disease of Ningbo, The First Affiliated Hospital of Ningbo University, 59 Liuting Road, Ningbo, 315010, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Qianhua",
+        "short_name": "Cao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Key Laboratory of Respiratory Disease of Ningbo, The First Affiliated Hospital of Ningbo University, 59 Liuting Road, Ningbo, 315010, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xinyue",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Head and Neck Surgery, Otolaryngology & Head and Neck Center, Cancer Center, Zhejiang Provincial People's Hospital (Affiliated People's Hospital), Hangzhou Medical College, Hangzhou, 310014, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Zhijun",
+        "short_name": "Dai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Chenfang",
+        "short_name": "Dong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Pathophysiology, and Department of Surgical Oncology (breast center), Key Laboratory of Cancer Prevention and Intervention, Ministry of Education, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310058, China. chenfangdong@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 06:29",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42686985",
+      "42509774",
+      "42461359",
+      "42399675",
+      "42237902",
+      "41938067"
+    ],
+    "refs": [
+      "39322678",
+      "38961290",
+      "38653238",
+      "38512451",
+      "38317138",
+      "38128537",
+      "36766776",
+      "36284179",
+      "35568648",
+      "33402098",
+      "32992837",
+      "32772212",
+      "32669362",
+      "31645732",
+      "31427738",
+      "31282934",
+      "29464002",
+      "29199510",
+      "28270406",
+      "25483298",
+      "25336694",
+      "24197117",
+      "23453623",
+      "19782033",
+      "19135894",
+      "12635176",
+      "11057896",
+      "9302995",
+      "1643657"
+    ],
+    "similar": [
+      "41291745",
+      "41356184",
+      "40849487",
+      "40755753",
+      "41454479",
+      "23176180",
+      "38456209",
+      "41293912",
+      "40835008",
+      "38711083",
+      "41004981",
+      "40898325",
+      "41618776",
+      "41208879",
+      "40900394",
+      "34650049",
+      "41423055",
+      "41499825",
+      "41408324",
+      "41201008",
+      "41275207",
+      "28712859",
+      "41338353",
+      "41008630",
+      "40655145",
+      "34555274",
+      "38679071",
+      "40830798",
+      "41410152",
+      "22992742",
+      "41051446",
+      "41041328",
+      "41271149",
+      "41478201",
+      "41088127",
+      "20843787",
+      "40135634",
+      "41223704",
+      "39867891",
+      "40760493",
+      "39395526",
+      "40192942",
+      "36233246",
+      "40831053",
+      "40287994",
+      "39417674",
+      "19421144",
+      "39137401",
+      "39636855",
+      "39829390",
+      "39740133",
+      "41607791",
+      "41411908",
+      "39642882",
+      "36656507",
+      "41277911",
+      "41318504",
+      "38821374",
+      "41482854",
+      "24241683",
+      "41270849",
+      "37615625",
+      "40869269",
+      "41468795",
+      "40484921",
+      "41285721",
+      "41390073",
+      "25596714",
+      "37196814",
+      "40234906",
+      "29769144",
+      "40052587",
+      "20429915",
+      "31406303",
+      "40825375",
+      "40073861",
+      "40311713",
+      "39222175",
+      "38817665",
+      "41490839",
+      "40716503",
+      "41041837",
+      "32838579",
+      "40035788",
+      "36453714",
+      "41429663",
+      "39088352",
+      "40930430",
+      "38906019",
+      "15535843",
+      "41320149",
+      "23557258",
+      "40060688",
+      "32685017",
+      "40138590",
+      "26358398",
+      "40614853",
+      "40084702",
+      "39322166",
+      "12939257"
+    ],
+    "review": [
+      "41291745",
+      "40755753",
+      "38456209",
+      "41293912",
+      "41004981",
+      "41201008",
+      "41338353",
+      "41008630",
+      "40655145",
+      "40830798",
+      "41410152",
+      "41041328",
+      "41271149",
+      "41223704",
+      "39867891",
+      "36233246",
+      "40831053",
+      "40287994",
+      "39417674",
+      "41607791",
+      "36656507",
+      "41277911",
+      "41318504",
+      "38821374",
+      "41270849",
+      "40869269",
+      "40484921",
+      "41285721",
+      "41390073",
+      "40052587",
+      "40825375",
+      "40073861",
+      "40311713",
+      "41490839",
+      "41041837",
+      "32838579",
+      "40930430"
+    ],
+    "pmc": [
+      "12750741"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molecular-cancer.biomedcentral.com/articles/10.1186/s12943-025-02511-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41291745/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

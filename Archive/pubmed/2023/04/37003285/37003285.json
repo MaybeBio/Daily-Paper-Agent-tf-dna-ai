@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "pmid": "37003285",
+    "doi": "10.1016/S2666-5247(23)00002-2",
+    "title": "Bedaquiline and clofazimine resistance in Mycobacterium tuberculosis: an in-vitro and in-silico data analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Bedaquiline is a core drug for the treatment of multidrug-resistant tuberculosis; however, the understanding of resistance mechanisms is poor, which is hampering rapid molecular diagnostics. Some bedaquiline-resistant mutants are also cross-resistant to clofazimine. To decipher bedaquiline and clofazimine resistance determinants, we combined experimental evolution, protein modelling, genome sequencing, and phenotypic data. METHODS: For this in-vitro and in-silico data analysis, we used a novel in-vitro evolutionary model using subinhibitory drug concentrations to select bedaquiline-resistant and clofazimine-resistant mutants. We determined bedaquiline and clofazimine minimum inhibitory concentrations and did Illumina and PacBio sequencing to characterise selected mutants and establish a mutation catalogue. This catalogue also includes phenotypic and genotypic data of a global collection of more than 14 000 clinical Mycobacterium tuberculosis complex isolates, and publicly available data. We investigated variants implicated in bedaquiline resistance by protein modelling and dynamic simulations. FINDINGS: We discerned 265 genomic variants implicated in bedaquiline resistance, with 250 (94%) variants affecting the transcriptional repressor (Rv0678) of the MmpS5-MmpL5 efflux system. We identified 40 new variants in vitro, and a new bedaquiline resistance mechanism caused by a large-scale genomic rearrangement. Additionally, we identified in vitro 15 (7%) of 208 mutations found in clinical bedaquiline-resistant isolates. From our in-vitro work, we detected 14 (16%) of 88 mutations so far identified as being associated with clofazimine resistance and also seen in clinically resistant strains, and catalogued 35 new mutations. Structural modelling of Rv0678 showed four major mechanisms of bedaquiline resistance: impaired DNA binding, reduction in protein stability, disruption of protein dimerisation, and alteration in affinity for its fatty acid ligand. INTERPRETATION: Our findings advance the understanding of drug resistance mechanisms in M tuberculosis complex strains. We have established an extended mutation catalogue, comprising variants implicated in resistance and susceptibility to bedaquiline and clofazimine. Our data emphasise that genotypic testing can delineate clinical isolates with borderline phenotypes, which is essential for the design of effective treatments. FUNDING: Leibniz ScienceCampus Evolutionary Medicine of the Lung, Deutsche Forschungsgemeinschaft, Research Training Group 2501 TransEvo, Rhodes Trust, Stanford University Medical Scientist Training Program, National Institute for Health and Care Research Oxford Biomedical Research Centre, Oxford University Hospitals NHS Foundation Trust, Bill & Melinda Gates Foundation, Wellcome Trust, and Marie Sklodowska-Curie Actions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Clofazimine/pharmacology/therapeutic use",
+      "*Mycobacterium tuberculosis/genetics",
+      "Antitubercular Agents/pharmacology/therapeutic use",
+      "Diarylquinolines/pharmacology/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sonnenkalb, Lindsay",
+        "Carter, Joshua James",
+        "Spitaleri, Andrea",
+        "Iqbal, Zamin",
+        "Hunt, Martin",
+        "Malone, Kerri Marie",
+        "Utpatel, Christian",
+        "Cirillo, Daniela Maria",
+        "Rodrigues, Camilla",
+        "Nilgiriwala, Kayzad Soli",
+        "Fowler, Philip William",
+        "Merker, Matthias",
+        "Niemann, Stefan"
+      ],
+      "short_names": [
+        "Sonnenkalb L",
+        "Carter JJ",
+        "Spitaleri A",
+        "Iqbal Z",
+        "Hunt M",
+        "Malone KM",
+        "Utpatel C",
+        "Cirillo DM",
+        "Rodrigues C",
+        "Nilgiriwala KS",
+        "Fowler PW",
+        "Merker M",
+        "Niemann S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular and Experimental Mycobacteriology, Research Center Borstel Leibniz Lung Center, Borstel, Germany.",
+        "Medical Scientist Training Program, Stanford University, Stanford, CA, USA; Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Emerging Bacterial Pathogens Unit, Division of Immunology, Transplantation and Infectious Diseases, IRCCS San Raffaele Scientific Institute, Milan, Italy; Center for Omics Sciences, IRCCS San Raffaele Scientific Institute, Milan, Italy; Vita-Salute San Raffaele University, Milan, Italy.",
+        "European Bioinformatics Institute, Cambridge, UK.",
+        "European Bioinformatics Institute, Cambridge, UK; Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "European Bioinformatics Institute, Cambridge, UK.",
+        "Molecular and Experimental Mycobacteriology, Research Center Borstel Leibniz Lung Center, Borstel, Germany.",
+        "Emerging Bacterial Pathogens Unit, Division of Immunology, Transplantation and Infectious Diseases, IRCCS San Raffaele Scientific Institute, Milan, Italy.",
+        "Department of Microbiology, P D Hinduja National Hospital and Medical Research Centre, Mumbai, India.",
+        "Tuberculosis Department, The Foundation for Medical Research, Mumbai, India.",
+        "Nuffield Department of Medicine, University of Oxford, Oxford, UK; National Institute of Health Research Oxford Biomedical Research Centre, John Radcliffe Hospital, Oxford, UK.",
+        "Evolution of the Resistome, Research Center Borstel Leibniz Lung Center, Borstel, Germany; National Reference Center, Research Center Borstel Leibniz Lung Center, Borstel, Germany; German Centre for Infection Research, Partner Site Hamburg-Lubeck-Borstel-Riems, Borstel, Germany.",
+        "Molecular and Experimental Mycobacteriology, Research Center Borstel Leibniz Lung Center, Borstel, Germany; National Reference Center, Research Center Borstel Leibniz Lung Center, Borstel, Germany; German Centre for Infection Research, Partner Site Hamburg-Lubeck-Borstel-Riems, Borstel, Germany. Electronic address: sniemann@fz-borstel.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sonnenkalb, Lindsay",
+        "short_name": "Sonnenkalb L",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Experimental Mycobacteriology, Research Center Borstel Leibniz Lung Center, Borstel, Germany."
+        ]
+      },
+      {
+        "full_name": "Carter, Joshua James",
+        "short_name": "Carter JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Scientist Training Program, Stanford University, Stanford, CA, USA; Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Spitaleri, Andrea",
+        "short_name": "Spitaleri A",
+        "identifiers": [],
+        "affiliations": [
+          "Emerging Bacterial Pathogens Unit, Division of Immunology, Transplantation and Infectious Diseases, IRCCS San Raffaele Scientific Institute, Milan, Italy; Center for Omics Sciences, IRCCS San Raffaele Scientific Institute, Milan, Italy; Vita-Salute San Raffaele University, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Iqbal, Zamin",
+        "short_name": "Iqbal Z",
+        "identifiers": [],
+        "affiliations": [
+          "European Bioinformatics Institute, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Hunt, Martin",
+        "short_name": "Hunt M",
+        "identifiers": [],
+        "affiliations": [
+          "European Bioinformatics Institute, Cambridge, UK; Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Malone, Kerri Marie",
+        "short_name": "Malone KM",
+        "identifiers": [],
+        "affiliations": [
+          "European Bioinformatics Institute, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Utpatel, Christian",
+        "short_name": "Utpatel C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Experimental Mycobacteriology, Research Center Borstel Leibniz Lung Center, Borstel, Germany."
+        ]
+      },
+      {
+        "full_name": "Cirillo, Daniela Maria",
+        "short_name": "Cirillo DM",
+        "identifiers": [],
+        "affiliations": [
+          "Emerging Bacterial Pathogens Unit, Division of Immunology, Transplantation and Infectious Diseases, IRCCS San Raffaele Scientific Institute, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Rodrigues, Camilla",
+        "short_name": "Rodrigues C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, P D Hinduja National Hospital and Medical Research Centre, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Nilgiriwala, Kayzad Soli",
+        "short_name": "Nilgiriwala KS",
+        "identifiers": [],
+        "affiliations": [
+          "Tuberculosis Department, The Foundation for Medical Research, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Fowler, Philip William",
+        "short_name": "Fowler PW",
+        "identifiers": [],
+        "affiliations": [
+          "Nuffield Department of Medicine, University of Oxford, Oxford, UK; National Institute of Health Research Oxford Biomedical Research Centre, John Radcliffe Hospital, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Merker, Matthias",
+        "short_name": "Merker M",
+        "identifiers": [],
+        "affiliations": [
+          "Evolution of the Resistome, Research Center Borstel Leibniz Lung Center, Borstel, Germany; National Reference Center, Research Center Borstel Leibniz Lung Center, Borstel, Germany; German Centre for Infection Research, Partner Site Hamburg-Lübeck-Borstel-Riems, Borstel, Germany."
+        ]
+      },
+      {
+        "full_name": "Niemann, Stefan",
+        "short_name": "Niemann S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Experimental Mycobacteriology, Research Center Borstel Leibniz Lung Center, Borstel, Germany; National Reference Center, Research Center Borstel Leibniz Lung Center, Borstel, Germany; German Centre for Infection Research, Partner Site Hamburg-Lübeck-Borstel-Riems, Borstel, Germany. Electronic address: sniemann@fz-borstel.de."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Lancet. Microbe"
+    ],
+    "journal_abbrev": [
+      "Lancet Microbe"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/02 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "42661827",
+      "42573571",
+      "42445496",
+      "42429417",
+      "42278438",
+      "42275678",
+      "42270607",
+      "42248880",
+      "42223242",
+      "42105083",
+      "42061986",
+      "41974676",
+      "41877905",
+      "41877900",
+      "41498255",
+      "41277442",
+      "41035895",
+      "40917633",
+      "40837941",
+      "40802754",
+      "40689761",
+      "40679822",
+      "40667201",
+      "40663566",
+      "40590790",
+      "40531177",
+      "40442140",
+      "40355818",
+      "40313523",
+      "40259683",
+      "40244664",
+      "40194835",
+      "40161652",
+      "40099407",
+      "40010155",
+      "39992158",
+      "39911713",
+      "39511309",
+      "39431709",
+      "39412357",
+      "39393282",
+      "39175078",
+      "38994601",
+      "38991722",
+      "38500964",
+      "38374151",
+      "38345388",
+      "38274444",
+      "38232140",
+      "38216576",
+      "37954372",
+      "37887224",
+      "37874928"
+    ],
+    "refs": [
+      "38500518",
+      "35944069",
+      "35588296",
+      "35301246",
+      "35175905",
+      "34460306",
+      "33239092",
+      "32803174",
+      "32361756",
+      "32143680",
+      "32053752",
+      "32024884",
+      "31850310",
+      "31486393",
+      "30479891",
+      "30351270",
+      "29523317",
+      "29338240",
+      "28031270",
+      "27626295",
+      "27384129",
+      "25010492",
+      "24737322",
+      "21811410",
+      "20038615",
+      "15264254"
+    ],
+    "similar": [
+      "37003285",
+      "32803174",
+      "36892309",
+      "28031270",
+      "27185800",
+      "37369740",
+      "24590481",
+      "37255473",
+      "30642938",
+      "28320727",
+      "30165087",
+      "34780706",
+      "37931638",
+      "31262765",
+      "34796339",
+      "38374151",
+      "37956677",
+      "38470194",
+      "25010492",
+      "35550202",
+      "30323043",
+      "38215766",
+      "37740935",
+      "33130209",
+      "32361756",
+      "34460306",
+      "28739779",
+      "32143680",
+      "37142094",
+      "35694543",
+      "35209842",
+      "29038265",
+      "35420492",
+      "30649327",
+      "39175078",
+      "26045528",
+      "38345388",
+      "34214699",
+      "35792049",
+      "29712658",
+      "31981638",
+      "38851206",
+      "32738481",
+      "30029911",
+      "28387862",
+      "31332077",
+      "34287057",
+      "34705538",
+      "35550867",
+      "35091749",
+      "24126586",
+      "29126225",
+      "35447056",
+      "33239092",
+      "35758754",
+      "31138569",
+      "32907992",
+      "37280265",
+      "34958863",
+      "30876684",
+      "34593898",
+      "32053752",
+      "32660992",
+      "38481348",
+      "33526488",
+      "30027700",
+      "36165641",
+      "27798208",
+      "32474547",
+      "29337135",
+      "29941636",
+      "32730621",
+      "30248414",
+      "31141524",
+      "27927925",
+      "36195000",
+      "34570644",
+      "33408221",
+      "35907429",
+      "35920665",
+      "36192704",
+      "38061383",
+      "38664815",
+      "35373160",
+      "38060827",
+      "30306102",
+      "30933266",
+      "33832459",
+      "25359333",
+      "38469390",
+      "33042066",
+      "32667984",
+      "30215381",
+      "34986292",
+      "24259600",
+      "25622149",
+      "33378452",
+      "34503982",
+      "37646524",
+      "39353459",
+      "39317997",
+      "39412357",
+      "34849645",
+      "39393282",
+      "39407203",
+      "37886522"
+    ],
+    "review": [
+      "37003285",
+      "34796339",
+      "38215766",
+      "32361756",
+      "27798208",
+      "30215381"
+    ],
+    "pmc": [
+      "10156607"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1041653",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-5247(23)00002-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37003285/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37003285",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/170314",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Mycobacterium tuberculosis BD-ID 170314"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-5247(23)00002-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

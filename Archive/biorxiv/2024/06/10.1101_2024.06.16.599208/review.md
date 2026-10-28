@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, abstract, figure legends, methods, supplementary figure legends, and movie descriptions. No main-text figures or supplementary figures were provided as image files.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, modelling approach, and internal consistency based solely on the text provided. No assessment of image quality, raw data, or statistical outputs beyond what is described.
+- **Shared manuscript claim summary** The authors propose that nascent RNA and the multivalent RNA-binding protein SAF-A form a nucleus-spanning network of weakly interconnected microgels (~120 nm diameter) poised near the sol-gel transition. They argue that RNA production and degradation (via XRN2) tune network connectivity, that the system operates near criticality, and that this state explains scale- and time-dependent viscoelasticity, size-dependent diffusion, and transient trapping of macromolecules in the nucleus.
+- **Visible evidence base** dSTORM imaging of SAF-A and nascent RNA with cluster analysis (Ripley H, DBSCAN, SuperStructure); colocalization analysis; SAF-A domain analysis and AlphaFold modelling; EMSA binding assays; electron microscopy of SAF-A oligomers; BioID proximity labelling; FCS and FRAP measurements; coarse-grained molecular dynamics simulations of chromatin, RNA, and SAF-A; comparison of simulated and experimental SuperStructure curves.
+- **Missing materials affecting confidence** Main-text figures (Fig. 1-5) and all supplementary figures (Fig. S1-S9) are referenced but not provided as viewable images. Statistical details (exact n, p-values, error bars, replicates) are only partially described in text. No raw data or analysis scripts were reviewed. The methods for fitting simulated to experimental SuperStructure curves are described but the quality of fits is not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents an ambitious and potentially important framework for understanding nuclear mechanics, proposing that a SAF-A-RNA microgel network operates near the sol-gel transition. The integration of super-resolution imaging, biochemical assays, and coarse-grained simulations is commendable and the conceptual advance is significant. However, the evidence as presented in text form has several gaps. The claim of "near-criticality" rests heavily on indirect comparisons between simulations and a limited set of experimental perturbations, and the quantitative rigour of this comparison is not fully demonstrated in the provided text. The functional consequences, while plausible, are supported by correlative rather than causal evidence. The manuscript would be strengthened by more direct tests of the criticality claim and by clearer presentation of the statistical robustness of the imaging analyses.
+- **Who would be interested in the results, and why** Biophysicists and soft-matter physicists studying active matter, gelation, and critical phenomena in biological systems. Cell biologists studying nuclear organisation, transcription, and RNA metabolism. Researchers interested in phase separation and condensate biology, particularly those working on RNA-binding proteins and nuclear bodies. The framework may also interest those studying disease mechanisms involving SAF-A/HNRNPU mutations or dysregulated RNA metabolism.
+- **Major strengths** The conceptual framing of the nucleus as an active microgel network near a sol-gel transition is novel and unifying. The combination of super-resolution imaging with mechanistic modelling is powerful and appropriate for the question. The identification of XRN2 as a regulator of network connectivity via RNA turnover is an interesting and testable finding. The prediction of size-dependent diffusion and transient trapping provides a concrete, experimentally addressable consequence of the model. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The central claim that the network is "poised near the sol-gel transition" and operates "close to criticality" is stated as a key finding.
+  - **Evidence pointer** Fig. 2E-F, Fig. 3F, and associated text in "SAF-A and RNA form an intranuclear microgel network" and "XRN2-mediated RNA turnover tunes microgel network morphology"
+  - **Concern** The evidence for near-criticality is indirect. The authors compare experimental SuperStructure curves to simulations at different values of Aλ² and find "closest agreement" near the transition. However, the text does not provide quantitative measures of fit quality, confidence intervals, or a systematic search over parameter space. It is unclear how distinct the near-transition fit is from fits at neighbouring parameter values, or whether the experimental data could be equally well explained by a different model. The claim of criticality is a strong statement that requires more direct evidence, such as demonstration of enhanced susceptibility, critical scaling, or divergence of correlation length.
+  - **Why it matters** The near-criticality claim is the central conceptual advance of the paper. If the evidence is not robust, the unifying framework loses its quantitative foundation. The claim also has strong implications for how the system responds to perturbations, which is a testable prediction but needs to be grounded in more rigorous fitting and model comparison.
+  - **Resolution test** Provide quantitative fit statistics (e.g., reduced chi-squared, AIC) comparing experimental SuperStructure curves to simulations across a range of Aλ² values, with uncertainty estimates. Demonstrate that the near-transition regime is statistically preferred over sol-like or gel-like regimes. Alternatively, provide direct experimental evidence of critical-like behaviour, such as enhanced susceptibility to small perturbations in transcription or RNA degradation, or measurement of correlation lengths that diverge near the transition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The claim that "RNA metabolism [acts] as an energy-driven regulator of nuclear material properties" and that the network "modulates intranuclear transport in a size-dependent manner" implies a causal role for the microgel network in regulating diffusion.
+  - **Evidence pointer** Fig. 5A-C, Fig. S9, and text in "Network morphology regulates intranuclear dynamics"
+  - **Concern** The functional experiments show correlations between perturbations (SAF-A depletion, transcription inhibition, XRN2 depletion) and changes in diffusion or recovery. However, the text does not establish causality. For example, transcription inhibition may affect diffusion through mechanisms other than microgel disruption, such as changes in chromatin compaction or nucleoplasmic composition. The claim that the network "acts as a size-selective sieve" is inferred from simulations and indirect measurements, but no direct experiment demonstrates that the microgel network itself is responsible for the observed size-dependent diffusion.
+  - **Why it matters** The functional significance of the proposed network is a major part of the paper's impact. If the causal link is not established, the physiological relevance of the microgel network remains speculative.
+  - **Resolution test** Perform experiments that directly manipulate network connectivity without confounding variables, or use the model to make quantitative predictions about diffusion that are then tested experimentally. For example, the model predicts specific relationships between pore size, network connectivity, and diffusion coefficients that could be tested with different-sized probes or with targeted disruption of SAF-A-RNA interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigour of imaging analysis
+  - **Claim pointer** The claim that SAF-A forms ~3700 ± 1500 clusters per nucleus with a diameter of ~100 nm, and that these clusters are interconnected into a network.
+  - **Evidence pointer** Fig. 1A-B, Fig. 2A, and text in "SAF-A and newly synthesised RNA form interacting clusters"
+  - **Concern** The cluster analysis relies on dSTORM localisation data and the SuperStructure algorithm. The text does not provide details on how the cluster diameter is estimated from the Ripley H peak, how the uncertainty in cluster number is derived, or how the analysis handles the known limitations of dSTORM such as incomplete labelling, blinking artefacts, and localisation uncertainty. The conversion from 2D cluster measurements to 3D nuclear counts involves assumptions about nuclear volume and cluster shape that are not fully described.
+  - **Why it matters** The quantitative parameters (cluster size, number, connectivity) are used as inputs for the simulations and for comparison with model predictions. If these parameters are not robust, the model comparison is compromised.
+  - **Resolution test** Provide a more detailed description of the cluster analysis, including validation with simulated dSTORM data, sensitivity analysis for key parameters, and a clear statement of assumptions in the 2D-to-3D conversion. Show representative images and cluster maps to allow visual assessment of the analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The claim that the coarse-grained simulations "recapitulate" the experimental SuperStructure curves and that the model captures the essential physics of the system.
+  - **Evidence pointer** Fig. 2B-G, Fig. 4E-F, and text in "SAF-A and RNA form an intranuclear microgel network" and "XRN2-mediated RNA turnover tunes microgel network morphology"
+  - **Concern** The model has many parameters (e.g., RNA production rate, diffusion coefficient, degradation rate, SAF-A binding affinities, chromatin flexibility). The text does not describe a systematic parameter search, sensitivity analysis, or model selection procedure. It is unclear whether the agreement with experiments is a robust feature of the model or a result of parameter tuning. The model also assumes a specific mechanism (bridging-induced phase separation) without testing alternative mechanisms.
+  - **Why it matters** The model is used to make inferences about the physical state of the network (near-criticality) and to predict functional consequences. If the model is not well-validated, these inferences are not reliable.
+  - **Resolution test** Provide a systematic parameter sensitivity analysis, showing which parameters most affect the predicted SuperStructure curves and whether the near-critical regime is robust to parameter variation. Compare the model's predictions to additional experimental observables beyond SuperStructure curves, such as cluster size distributions or dynamics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "microgel" and "sol-gel transition"
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The term "microgel" is used to describe the SAF-A-RNA clusters, but the text does not clearly define what distinguishes a microgel from other forms of condensates or clusters. The relationship between "microgel" and "phase-separated condensate" is not explicitly discussed.
+  - **Required correction** Provide a clear operational definition of "microgel" in this context and discuss how it relates to existing terminology in the phase separation field.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Imaging quantifications
+  - **Evidence pointer** Fig. 1, Fig. 3, Fig. 4, Fig. 5
+  - **Issue** The text reports means and p-values for some comparisons but does not consistently report effect sizes, confidence intervals, or the number of independent experiments. Some p-values are reported as ranges (e.g., "p < 0.05") without exact values.
+  - **Required correction** Report exact p-values, effect sizes, and confidence intervals for all key comparisons. State the number of independent biological replicates for each experiment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** FCS and FRAP analysis
+  - **Evidence pointer** Fig. S9 and "FRAP and FCS experiments" in Methods
+  - **Issue** The text describes fitting FRAP curves with a two-population exponential model but does not provide details on how the two populations are assigned or whether alternative models were tested. For FCS, the text mentions a single-population free diffusion model but does not discuss potential artefacts from fluorophore blinking or triplet states.
+  - **Required correction** Provide additional details on the fitting procedures, including model selection criteria and controls for artefacts.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Simulation code and parameters
+  - **Evidence pointer** "Data and materials availability" section
+  - **Issue** The authors state that simulation scripts are available, but the text does not provide a list of all parameter values used in the simulations or a description of the parameter ranges explored.
+  - **Required correction** Provide a table of all simulation parameters and a description of the parameter space explored in the sensitivity analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of colocalization
+  - **Affected element** Fig. 1G and colocalization analysis
+  - **Evidence pointer** "SAF-A and newly synthesised RNA form interacting clusters"
+  - **Issue** The text reports significant colocalization of SAF-A and nascent RNA at early time points, but the method for quantifying colocalization is not described in detail. The resolution limits of two-colour dSTORM and the potential for chromatic aberration are not discussed.
+  - **Required correction** Describe the colocalization analysis method in detail and discuss potential artefacts and limitations.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** "Discussion"
+  - **Issue** The discussion does not consider alternative explanations for the observed phenomena, such as simple viscoelasticity without criticality, or models where SAF-A acts through chromatin rather than RNA.
+  - **Required correction** Add a paragraph discussing alternative models and why the proposed framework is preferred.
+
+## Risk / unsupported claims
+- The claim that the network is "poised near the sol-gel transition" and operates "close to criticality" is not quantitatively established from the provided text. The comparison between simulations and experiments lacks statistical rigour as presented.
+- The claim that the network "modulates intranuclear transport in a size-dependent manner" and acts as a "size-selective sieve" is supported by correlation and simulation, but not by direct causal experiments.
+- The claim that XRN2-mediated RNA turnover "tunes" network connectivity is supported by perturbation experiments, but the quantitative relationship between RNA half-life and connectivity is not fully characterised.
+- The estimated number of SAF-A clusters per nucleus (~3700 ± 1500) and cluster diameter (~100 nm) are presented without full details of the uncertainty analysis and assumptions.
+- The functional significance of the near-critical state for gene regulation is speculative and not directly tested.
+- The claim that the SPRNK domain represents a previously uncharacterised RNA-binding surface is based on AlphaFold modelling and mutagenesis, but the structural interpretation is not validated by high-resolution structures.
+- The statement that "transcription factories formed by bridging-induced phase separation may nucleate SAF-A microgels" is presented as a hypothesis but is not distinguished from other possible mechanisms.

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure/table legends
+- **Assessment boundary** Scientific validity of reported clinical findings, splicing analysis, and computational functional predictions; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors report two novel TBL1XR1 variants in children: a frameshift variant (c.1048-8_1049del, p.N350X) associated with global developmental delay, and a non-canonical splicing variant (c.865-7A>G) causing a 6-bp insertion (p.K288_T289insSQ) associated with Pierpont syndrome. Computational analyses (molecular dynamics, docking) suggest the splicing variant alters protein structure and reduces interaction with NCOR1.
+- **Visible evidence base** Clinical descriptions of two patients; whole-exome sequencing results; minigene splicing assay; in silico structural modeling and MD simulations; protein-protein interaction predictions; docking analyses
+- **Missing materials affecting confidence** Raw sequencing data; detailed variant validation data (Sanger confirmation of genomic variants); complete minigene assay methodology; MD simulation convergence criteria; docking scoring details; supplementary tables and figures referenced but not fully accessible; no functional cellular assays
+
+## Reviewer
+- **Overall assessment** This manuscript presents two novel TBL1XR1 variants with clinical descriptions and computational functional analyses. The clinical reporting is adequate, and the identification of a novel non-canonical splicing variant with experimental validation via minigene assay is a useful contribution. However, the computational analyses are largely descriptive and correlative, with limited mechanistic insight. The link between predicted structural changes and disease pathogenesis remains speculative. The manuscript would benefit from stronger experimental validation and more rigorous computational methodology.
+- **Who would be interested in the results, and why** Clinicians and geneticists involved in diagnosing neurodevelopmental disorders, particularly those interested in TBL1XR1-related phenotypes. Researchers studying splicing variants and their functional consequences. Computational biologists interested in applying MD and docking to variant interpretation. The expansion of the TBL1XR1 variant spectrum is clinically relevant.
+- **Major strengths** 1) Identification of two novel variants, including a non-canonical splicing variant, expanding the known mutational spectrum of TBL1XR1. 2) Use of minigene assay to experimentally validate aberrant splicing, which is a robust approach. 3) Detailed clinical phenotyping of both patients. 4) Application of multiple computational tools (MD, docking, PPI) to explore potential functional consequences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for pathogenicity
+  - **Claim pointer** The authors claim both variants are pathogenic based on ACMG criteria and computational predictions.
+  - **Evidence pointer** Results, Patients section; Table 2; Discussion
+  - **Concern** The pathogenicity assertion for the splicing variant relies heavily on computational predictions and a minigene assay, but lacks functional validation in patient-derived cells or animal models. The ACMG classification of "VUS" for the splicing variant is acknowledged, yet the conclusion states it "might lead to PS" without sufficient functional evidence. For the frameshift variant, no functional studies are presented to support the predicted loss-of-function mechanism.
+  - **Why it matters** Establishing pathogenicity is critical for clinical diagnosis and genetic counseling. Overinterpretation of computational predictions as definitive evidence of pathogenicity could lead to incorrect clinical conclusions.
+  - **Resolution test** Provide additional functional evidence such as quantitative RT-PCR showing altered transcript levels in patient cells, or protein expression analysis demonstrating reduced TBL1XR1 protein. Alternatively, clearly separate the clinical report from the speculative functional analysis and temper conclusions accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational methodology rigor
+  - **Claim pointer** The MD simulations and docking analyses are used to support structural and interaction changes caused by the variant.
+  - **Evidence pointer** Methods, Molecular dynamics simulations; Methods, Molecular docking; Results, Molecular dynamics simulation analysis; Table 3
+  - **Concern** The MD simulation methodology lacks critical details: no mention of force field validation, equilibration protocol specifics, or convergence assessment. Only 3 replicates are performed, which is minimal for drawing robust conclusions. The reported RMSD values (1.35-1.5 nm) are unusually high for a folded protein domain, suggesting potential instability or inadequate simulation setup. The docking analysis using AF3 lacks experimental validation, and the negative control (GAPDH) is not adequately described in terms of expected interaction properties.
+  - **Why it matters** The conclusions about structural changes and reduced NCOR1 binding depend entirely on the reliability of these computational methods. Without rigorous methodology and validation, the functional interpretations are not trustworthy.
+  - **Resolution test** Provide detailed simulation parameters, convergence analysis (e.g., block averaging, multiple independent runs), and validation of the system stability. Include experimental validation of the TBL1XR1-NCOR1 interaction, such as co-immunoprecipitation or pull-down assays. Justify the choice of GAPDH as a negative control and show that it does not interact with NCOR1 under the same conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical-genetic correlation
+  - **Claim pointer** The authors suggest a genotype-phenotype correlation, with the splicing variant causing PS and the frameshift variant causing GDD.
+  - **Evidence pointer** Results, Patients section; Discussion
+  - **Concern** The manuscript does not adequately address why two different variants in the same gene lead to distinct phenotypes. The discussion mentions that no clear genotype-phenotype correlation exists in the literature, yet the case presentation implies a correlation. The possibility that the phenotypes are influenced by other genetic or environmental factors is not explored. Additionally, the frameshift variant in P1 is described as causing GDD without typical PS features, but the authors do not discuss whether this could represent a milder or atypical presentation of PS.
+  - **Why it matters** Understanding genotype-phenotype correlations is important for prognostic counseling and clinical management. The current presentation may overstate the specificity of the correlation.
+  - **Resolution test** Provide a more nuanced discussion acknowledging the variability of TBL1XR1-related phenotypes. Consider whether additional genetic testing (e.g., for other neurodevelopmental disorder genes) was performed to exclude alternative explanations. If possible, compare with previously reported cases with similar variants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** Patient 1 clinical description
+  - **Evidence pointer** Results, Patient 1
+  - **Issue** The description of P1's developmental milestones is somewhat disorganized and includes subjective observations (e.g., "not consciously" saying words). The GDS scores are presented in a table but not clearly interpreted in the text.
+  - **Required correction** Provide a structured summary of developmental milestones with ages of achievement, and explicitly state the clinical significance of the GDS scores in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The flow chart in Figure 1B is difficult to follow, and the agarose gel image in Figure 1C lacks molecular weight markers and clear labeling of the expected band sizes.
+  - **Required correction** Redraw the flow chart with clearer steps and include a DNA ladder with labeled sizes in the gel image. Indicate the expected sizes of the WT and mutant PCR products.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** MD simulation data
+  - **Evidence pointer** Table 3
+  - **Issue** The MD simulation data are presented as mean ± SD, but no statistical comparison between WT and MUT is provided. It is unclear if the observed differences are statistically significant.
+  - **Required correction** Perform appropriate statistical tests (e.g., t-test or ANOVA) comparing WT and MUT for each parameter and report p-values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of TBL1XR1 function and disease mechanisms is brief and does not fully integrate the findings with existing literature on NCoR/SMRT complex function and Pierpont syndrome pathogenesis.
+  - **Required correction** Expand the discussion to include more detailed comparison with previously reported TBL1XR1 variants and their functional studies, and discuss how the current findings fit into the broader understanding of the gene's role in neurodevelopment.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of experimental validation for the predicted structural and interaction changes (R1-M1, R1-M2). 2) Incomplete MD simulation methodology and potential instability issues (R1-M2). 3) Insufficient evidence to support the genotype-phenotype correlation claim (R1-M3). 4) No quantitative assessment of the minigene assay results beyond qualitative gel analysis.
+- **Assessment against Nature-style criteria** **Originality**: Moderate. The identification of novel variants is incremental, and the computational approach is not novel. **Scientific importance**: Moderate. The findings expand the variant spectrum but do not provide major mechanistic insights into TBL1XR1 function or disease pathogenesis. **Interdisciplinary readership**: Limited. The manuscript is primarily of interest to clinical geneticists and computational biologists; the functional implications are not developed enough to attract a broader audience. **Technical soundness**: Weak. The computational methodology lacks rigor and validation, and the clinical-genetic correlation is not well supported. **Readability for nonspecialists**: Adequate. The manuscript is generally well-written, but the computational sections may be challenging for readers without bioinformatics expertise.
+- **Recommendation posture** Currently not established from the provided evidence. The clinical case reports are valuable, but the functional conclusions are not sufficiently supported. Major revisions addressing the computational methodology and providing experimental validation are required before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that the splicing variant "might lead to PS by reducing its interaction with NCOR1" is unsupported by direct experimental evidence; the docking results are purely computational and lack validation.
+- The assertion that the frameshift variant causes GDD through loss of function is speculative, as no functional studies were performed.
+- The statement that "both variants were predicted to be pathogenic" overstates the evidence, as the splicing variant is classified as VUS and the computational predictions are not definitive.
+- The genotype-phenotype correlation implied by the two cases is not supported by the literature, which the authors themselves acknowledge shows no clear correlation.
+- The claim that the MD simulations show "conformational changes" is based on descriptive analysis without statistical validation or convergence assessment.

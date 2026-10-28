@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37790443",
+  "title": "Simultaneous estimation of gene regulatory network structure and RNA kinetics from single cell gene expression.",
+  "authors": "Jackson, Christopher A; Beheler-Amass, Maggie; Tjarnberg, Andreas; Suresh, Ina; Hickey, Angela Shang-Mei; Bonneau, Richard; Gresham, David",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-10-04",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习从单细胞RNA-seq推断基因调控网络和RNA动力学，虽涉及转录因子-基因调控关系，但无蛋白-DNA三维互作建模或结合位点预测，方法可迁移性有限。",
+  "abstract": "Cells respond to environmental and developmental stimuli by remodeling their transcriptomes through regulation of both mRNA transcription and mRNA decay. A central goal of biology is identifying the global set of regulatory relationships between factors that control mRNA production and degradation and their target transcripts and construct a predictive model of gene expression. Regulatory relationships are typically identified using transcriptome measurements and causal inference algorithms. RNA kinetic parameters are determined experimentally by employing run-on or metabolic labeling (e.g. 4-thiouracil) methods that allow transcription and decay rates to be separately measured. Here, we develop a deep learning model, trained with single-cell RNA-seq data, that both infers causal regulatory relationships and estimates RNA kinetic parameters. The resulting in silico model predicts future gene expression states and can be perturbed to simulate the effect of transcription factor changes. We acquired model training data by sequencing the transcriptomes of 175,000 individual Saccharomyces cerevisiae cells that were subject to an external perturbation and continuously sampled over a one hour period. The rate of change for each transcript was calculated on a per-cell basis to estimate RNA velocity. We then trained a deep learning model with transcriptome and RNA velocity data to calculate time-dependent estimates of mRNA production and decay rates. By separating RNA velocity into transcription and decay rates, we show that rapamycin treatment causes existing ribosomal protein transcripts to be rapidly destabilized, while production of new transcripts gradually slows over the course of an hour. The neural network framework we present is designed to explicitly model causal regulatory relationships between transcription factors and their genes, and shows superior performance to existing models on the basis of recovery of known regulatory relationships. We validated the predictive power of the model by perturbing transcription factors in silico and comparing transcriptome-wide effects with experimental data. Our study represents the first step in constructing a complete, predictive, biophysical model of gene expression regulation.",
+  "abstract_zh": "细胞通过调控mRNA转录和mRNA降解来重塑其转录组，从而响应环境和发育刺激。生物学的一个核心目标是识别控制mRNA产生和降解的因子与其靶转录本之间的全局调控关系集合，并构建基因表达的预测模型。调控关系通常通过转录组测量和因果推断算法来识别。RNA动力学参数通过实验方法确定，如使用run-on或代谢标记（例如4-硫尿嘧啶）技术，这些方法允许分别测量转录和降解速率。在此，我们开发了一个深度学习模型，使用单细胞RNA-seq数据进行训练，该模型既能推断因果调控关系，也能估计RNA动力学参数。由此产生的计算机模拟模型能够预测未来的基因表达状态，并可通过扰动来模拟转录因子变化的影响。我们通过测序175,000个经过外部扰动并在一个小时内连续采样的酿酒酵母（Saccharomyces cerevisiae）单细胞的转录组来获取模型训练数据。每个转录本的变化速率按单细胞计算，以估计RNA速度。随后，我们使用转录组和RNA速度数据训练了一个深度学习模型，以计算依赖于时间的mRNA产生和降解速率估计。通过将RNA速度分解为转录和降解速率，我们展示了雷帕霉素处理导致现有核糖体蛋白转录本迅速失稳，而新转录本的产生在一小时内逐渐减缓。我们提出的神经网络框架旨在显式建模转录因子与其基因之间的因果调控关系，并在恢复已知调控关系的基础上，表现出优于现有模型的性能。我们通过在计算机模拟中扰动转录因子，并将转录组范围效应与实验数据进行比较，验证了模型的预测能力。我们的研究代表了构建完整、预测性、生物物理基因表达调控模型的第一步。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37790443/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37790443/",
+  "paper_page_path": "papers/pubmed/37790443/index.html"
+}

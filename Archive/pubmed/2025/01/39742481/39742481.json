@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "39742481",
+    "doi": "10.1126/sciadv.adn1870",
+    "title": "Deep learning predicts DNA methylation regulatory variants in specific brain cell types and enhances fine mapping for brain disorders."
+  },
+  "content": {
+    "abstract": "DNA methylation (DNAm) is essential for brain development and function and potentially mediates the effects of genetic risk variants underlying brain disorders. We present INTERACT, a transformer-based deep learning model to predict regulatory variants affecting DNAm levels in specific brain cell types, leveraging existing single-nucleus DNAm data from the human brain. We show that INTERACT accurately predicts cell type-specific DNAm profiles, achieving an average area under the receiver operating characteristic curve of 0.99 across cell types. Furthermore, INTERACT predicts cell type-specific DNAm regulatory variants, which reflect cellular context and enrich the heritability of brain-related traits in relevant cell types. We demonstrate that incorporating predicted variant effects and DNAm levels of CpG sites enhances the fine mapping for three brain disorders-schizophrenia, depression, and Alzheimer's disease-and facilitates mapping causal genes to particular cell types. Our study highlights the power of deep learning in identifying cell type-specific regulatory variants, which will enhance our understanding of the genetics of complex traits.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*DNA Methylation",
+      "*Brain/pathology",
+      "Nucleotide Motifs",
+      "Transcription Factors/metabolism",
+      "Inheritance Patterns",
+      "CpG Islands/genetics",
+      "Models, Biological",
+      "Humans",
+      "Male",
+      "Young Adult",
+      "Adult",
+      "Alzheimer Disease/genetics",
+      "Genome-Wide Association Study",
+      "Genetic Predisposition to Disease"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Jiyun",
+        "Weinberger, Daniel R",
+        "Han, Shizhong"
+      ],
+      "short_names": [
+        "Zhou J",
+        "Weinberger DR",
+        "Han S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2145-2976",
+        "ORCID: 0000-0003-2409-2969",
+        "ORCID: 0000-0002-5114-6742"
+      ],
+      "affiliations": [
+        "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD 21287, USA.",
+        "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD 21287, USA.",
+        "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.",
+        "Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD 21287, USA.",
+        "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.",
+        "Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Jiyun",
+        "short_name": "Zhou J",
+        "identifiers": [
+          "0000-0002-2145-2976"
+        ],
+        "affiliations": [
+          "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD 21287, USA."
+        ]
+      },
+      {
+        "full_name": "Weinberger, Daniel R",
+        "short_name": "Weinberger DR",
+        "identifiers": [
+          "0000-0003-2409-2969"
+        ],
+        "affiliations": [
+          "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD 21287, USA.",
+          "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.",
+          "Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+          "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+          "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Shizhong",
+        "short_name": "Han S",
+        "identifiers": [
+          "0000-0002-5114-6742"
+        ],
+        "affiliations": [
+          "Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, MD 21287, USA.",
+          "Department of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.",
+          "Department of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2025 Jan 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/02 00:21",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42496779",
+      "41959448",
+      "41690236",
+      "41074112",
+      "40131311"
+    ],
+    "refs": [
+      "38781388",
+      "37653029",
+      "37169873",
+      "36153390",
+      "35969790",
+      "35396580",
+      "35379992",
+      "34608324",
+      "34475392",
+      "34446921",
+      "34312495",
+      "32913075",
+      "32350120",
+      "31727856",
+      "31544924",
+      "31501549",
+      "30971806",
+      "30792526",
+      "30718901",
+      "30476243",
+      "30401456",
+      "30333196",
+      "30237449",
+      "30013180",
+      "29933950",
+      "29724495",
+      "29610479",
+      "29142228",
+      "28798132",
+      "28395661",
+      "27932968",
+      "27197224",
+      "26619358",
+      "26619357",
+      "26414678",
+      "26301843",
+      "24487584",
+      "24487276",
+      "24478339",
+      "23019586",
+      "22820512",
+      "22781841",
+      "22455463",
+      "22305529",
+      "22138821",
+      "22031444",
+      "21330290",
+      "20215007",
+      "19786833",
+      "17701901",
+      "17324271"
+    ],
+    "similar": [
+      "39742481",
+      "38293210",
+      "35969790",
+      "39986279",
+      "36788477",
+      "41959448",
+      "31311581",
+      "29482603",
+      "40267236",
+      "39118140",
+      "26888867",
+      "39584743",
+      "39558360",
+      "41062488",
+      "31288860",
+      "36726730",
+      "30712078",
+      "38328094",
+      "33234153",
+      "34475392",
+      "27466229",
+      "34462306",
+      "41428862",
+      "38345197",
+      "31554518",
+      "30031222",
+      "39716176",
+      "41096905",
+      "34493871",
+      "31144443",
+      "26943045",
+      "38092913",
+      "27980695",
+      "25616342",
+      "40653482",
+      "26936820",
+      "35915443",
+      "40027628",
+      "33216750",
+      "29988321",
+      "40326299",
+      "38663907",
+      "41192574",
+      "39696436",
+      "41733741",
+      "41081550",
+      "40847283",
+      "34617105",
+      "35361921",
+      "30696804",
+      "29317610",
+      "23326387",
+      "40840451",
+      "23925113",
+      "30045751",
+      "40202986",
+      "27935972",
+      "36109771",
+      "33788674",
+      "35987687",
+      "32616021",
+      "33888138",
+      "31661019",
+      "27572077",
+      "39177846",
+      "24934728",
+      "40205616",
+      "41863598",
+      "42051231",
+      "32731254",
+      "31282290",
+      "32946763",
+      "26101197",
+      "26782299",
+      "33106633",
+      "33663600",
+      "33547791",
+      "29437559",
+      "41197609",
+      "38791483",
+      "36929374",
+      "36440975",
+      "30452450",
+      "35608069",
+      "37762215",
+      "30806140",
+      "39848545",
+      "20238126",
+      "20215007",
+      "39028752",
+      "37603758",
+      "36510025",
+      "31937202",
+      "38639992",
+      "31932625",
+      "25249537",
+      "39888214",
+      "41677026",
+      "30903345",
+      "36271868"
+    ],
+    "review": [
+      "39742481",
+      "29988321",
+      "39696436",
+      "36109771",
+      "32731254",
+      "41197609"
+    ],
+    "pmc": [
+      "11691643"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adn1870?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/39742481.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39742481/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

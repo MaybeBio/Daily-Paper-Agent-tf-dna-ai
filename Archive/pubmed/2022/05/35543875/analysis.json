@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35543875",
+  "title": "Identifying predictive signalling networks for Vedolizumab response in ulcerative colitis.",
+  "authors": "Singh, Amrinder; Fenton, Christopher G; Anderssen, Endre; Paulssen, Ruth H",
+  "journal": "International journal of colorectal disease",
+  "published_date": "2022-05-12",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用扩散模型基于受体-转录因子网络预测溃疡性结肠炎对Vedolizumab的治疗反应，虽涉及转录因子但非蛋白质-DNA互作建模，方法为网络扩散而非AI/物理模拟，与课题核心关联较弱。",
+  "abstract": "BACKGROUND: In ulcerative colitis (UC), the molecular mechanisms that drive disease development and patient response to therapy are not well understood. A significant proportion of patients with UC fail to respond adequately to biologic therapy. Therefore, there is an unmet need for biomarkers that can predict patients' responsiveness to the available UC therapies as well as ascertain the most effective individualised therapy. Our study focused on identifying predictive signalling pathways that predict anti-integrin therapy response in patients with UC. METHODS: We retrieved and pre-processed two publicly accessible gene expression datasets (GSE73661 and GSE72819) of UC patients treated with anti-integrin therapies: (1) 12 non-IBD controls and 41 UC patients treated with Vedolizumab therapy, and (2) 70 samples with 58 non-responder and 12 responder UC patient samples treated with Etrolizumab therapy without non-IBD controls. We used a diffusion-based signalling model which is mainly focused on the T-cell receptor signalling network. The diffusion model uses network connectivity between receptors and transcription factors. RESULTS: The network diffusion scores were able to separate VDZ responder and non-responder patients before treatment better than the original gene expression. On both anti-integrin treatment datasets, the diffusion model demonstrated high predictive performance for discriminating responders from non-responders in comparison with 'nnet'. We have found 48 receptor-TF pairs identified as the best predictors for VDZ therapy response with AUC >/= 0.76. Among these receptor-TF predictors pairs, FFAR2-NRF1, FFAR2-RELB, FFAR2-EGR1, and FFAR2-NFKB1 are the top best predictors. For Etrolizumab, we have identified 40 best receptor-TF pairs and CD40-NFKB2 as the best predictor receptor-TF pair (AUC = 0.72). We also identified subnetworks that highlight the network interactions, connecting receptors and transcription factors involved in cytokine and fatty acid signalling. The findings suggest that anti-integrin therapy responses in cytokine and fatty acid signalling can stratify UC patient subgroups. CONCLUSIONS: We identified signalling pathways that may predict the efficacy of anti-integrin therapy in UC patients and personalised therapy alternatives. Our results may lead to the advancement of a promising clinical decision-making tool for the stratification of UC patients.",
+  "abstract_zh": "背景：在溃疡性结肠炎（UC）中，驱动疾病发展和患者对治疗反应的分子机制尚未被充分理解。相当大比例的UC患者对生物治疗反应不佳。因此，存在未满足的需求，即需要能够预测患者对现有UC疗法反应性以及确定最有效个体化治疗的生物标志物。我们的研究聚焦于识别预测UC患者抗整合素治疗反应的信号通路。方法：我们检索并预处理了两个公开可获取的基因表达数据集（GSE73661和GSE72819），这些数据来自接受抗整合素治疗的UC患者：（1）12名非IBD对照和41名接受Vedolizumab治疗的UC患者，以及（2）70个样本，包括58个无反应者和12个有反应者的UC患者样本，接受Etrolizumab治疗，且无非IBD对照。我们使用了一种基于扩散的信号模型，该模型主要聚焦于T细胞受体信号网络。该扩散模型利用受体与转录因子之间的网络连接性。结果：网络扩散评分能够在治疗前更好地区分VDZ反应者和无反应者，优于原始基因表达。在两个抗整合素治疗数据集中，与‘nnet’相比，该扩散模型在区分反应者与无反应者方面表现出高预测性能。我们发现了48个受体-转录因子对，被确定为VDZ治疗反应的最佳预测因子，AUC ≥ 0.76。在这些受体-转录因子预测对中，FFAR2-NRF1、FFAR2-RELB、FFAR2-EGR1和FFAR2-NFKB1是最佳预测因子。对于Etrolizumab，我们确定了40个最佳受体-转录因子对，其中CD40-NFKB2是最佳预测受体-转录因子对（AUC = 0.72）。我们还识别了子网络，这些子网络突出了涉及细胞因子和脂肪酸信号传导的受体与转录因子之间的网络相互作用。研究结果表明，细胞因子和脂肪酸信号传导中的抗整合素治疗反应可以对UC患者亚组进行分层。结论：我们识别了可能预测UC患者抗整合素治疗疗效的信号通路以及个体化治疗替代方案。我们的结果可能有助于推进一种有前景的临床决策工具，用于UC患者的分层。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35543875/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35543875/",
+  "paper_page_path": "papers/pubmed/35543875/index.html"
+}

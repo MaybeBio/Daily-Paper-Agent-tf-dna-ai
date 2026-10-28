@@ -1,0 +1,576 @@
+{
+  "identity": {
+    "pmid": "36253345",
+    "doi": "10.1038/s41398-022-02216-1",
+    "title": "Wide spectrum of neuronal and network phenotypes in human stem cell-derived excitatory neurons with Rett syndrome-associated MECP2 mutations."
+  },
+  "content": {
+    "abstract": "Rett syndrome (RTT) is a severe neurodevelopmental disorder primarily caused by heterozygous loss-of-function mutations in the X-linked gene MECP2 that is a global transcriptional regulator. Mutations in the methyl-CpG binding domain (MBD) of MECP2 disrupt its interaction with methylated DNA. Here, we investigate the effect of a novel MECP2 L124W missense mutation in the MBD of an atypical RTT patient with preserved speech in comparison to severe MECP2 null mutations. L124W protein had a limited ability to disrupt heterochromatic chromocenters due to decreased binding dynamics. We isolated two pairs of isogenic WT and L124W induced pluripotent stem cells. L124W induced excitatory neurons expressed stable protein, exhibited increased input resistance and decreased voltage-gated Na(+) and K(+) currents, and their neuronal dysmorphology was limited to decreased dendritic complexity. Three isogenic pairs of MECP2 null neurons had the expected more extreme morphological and electrophysiological phenotypes. We examined development and maturation of L124W and MECP2 null excitatory neural network activity using micro-electrode arrays. Relative to isogenic controls, L124W neurons had an increase in synchronous network burst frequency, in contrast to MECP2 null neurons that suffered a significant decrease in synchronous network burst frequency and a transient extension of network burst duration. A biologically motivated computational neural network model shows the observed changes in network dynamics are explained by changes in intrinsic Na(+) and K(+) currents in individual neurons. Our multilevel results demonstrate that RTT excitatory neurons show a wide spectrum of morphological, electrophysiological and circuitry phenotypes that are dependent on the severity of the MECP2 mutation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Induced Pluripotent Stem Cells/metabolism",
+      "*Methyl-CpG-Binding Protein 2/genetics",
+      "Mutation",
+      "Neurons/metabolism",
+      "Phenotype",
+      "*Rett Syndrome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mok, Rebecca S F",
+        "Zhang, Wenbo",
+        "Sheikh, Taimoor I",
+        "Pradeepan, Kartik",
+        "Fernandes, Isabella R",
+        "DeJong, Leah C",
+        "Benigno, Gabriel",
+        "Hildebrandt, Matthew R",
+        "Mufteev, Marat",
+        "Rodrigues, Deivid C",
+        "Wei, Wei",
+        "Piekna, Alina",
+        "Liu, Jiajie",
+        "Muotri, Alysson R",
+        "Vincent, John B",
+        "Muller, Lyle",
+        "Martinez-Trujillo, Julio",
+        "Salter, Michael W",
+        "Ellis, James"
+      ],
+      "short_names": [
+        "Mok RSF",
+        "Zhang W",
+        "Sheikh TI",
+        "Pradeepan K",
+        "Fernandes IR",
+        "DeJong LC",
+        "Benigno G",
+        "Hildebrandt MR",
+        "Mufteev M",
+        "Rodrigues DC",
+        "Wei W",
+        "Piekna A",
+        "Liu J",
+        "Muotri AR",
+        "Vincent JB",
+        "Muller L",
+        "Martinez-Trujillo J",
+        "Salter MW",
+        "Ellis J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0979-7928",
+        "ORCID: 0000-0002-0740-8071",
+        "ORCID: 0000-0003-0652-3112",
+        "ORCID: 0000-0001-5995-814X",
+        "ORCID: 0000-0003-0867-2875",
+        "ORCID: 0000-0003-0692-2519",
+        "ORCID: 0000-0001-5165-9890",
+        "ORCID: 0000-0003-3338-578X",
+        "ORCID: 0000-0002-4400-0091"
+      ],
+      "affiliations": [
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A8, Canada.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada.",
+        "Neurosciences & Mental Health Program, The Hospital for Sick Children, Toronto, M5G 0A4, ON, Canada.",
+        "Molecular Neuropsychiatry & Development (MiND) Lab, Campbell Family Mental Health Research Institute, Centre for Addiction and Mental Health, Toronto, ON, M5T 1R8, Canada.",
+        "Department of Physiology and Pharmacology, Department of Psychiatry, Neuroscience Graduate Program, Robarts Research and Brain and Mind Institutes, Schulich School of Medicine and Dentistry, Western University, London, ON, N6A 5B7, Canada.",
+        "University of California San Diego, School of Medicine, Department of Pediatrics/Rady Children's Hospital San Diego, Department of Cellular & Molecular Medicine, Stem Cell Program, La Jolla, CA, 92037-0695, USA.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A8, Canada.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada.",
+        "Department of Applied Mathematics, Robarts Research Institute, Brain and Mind Institute, Western University, London, ON, N6A 5B7, Canada.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A8, Canada.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada.",
+        "University of California San Diego, School of Medicine, Department of Pediatrics/Rady Children's Hospital San Diego, Department of Cellular & Molecular Medicine, Stem Cell Program, La Jolla, CA, 92037-0695, USA.",
+        "Department of Pediatrics/Rady Children's Hospital, Department of Cellular & Molecular Medicine, Center for Academic Research and Training in Anthropogeny, Archealization Center, Kavli Institute, University of California San Diego, La Jolla, CA, 92037, USA.",
+        "Molecular Neuropsychiatry & Development (MiND) Lab, Campbell Family Mental Health Research Institute, Centre for Addiction and Mental Health, Toronto, ON, M5T 1R8, Canada.",
+        "Department of Applied Mathematics, Robarts Research Institute, Brain and Mind Institute, Western University, London, ON, N6A 5B7, Canada.",
+        "Department of Physiology and Pharmacology, Department of Psychiatry, Neuroscience Graduate Program, Robarts Research and Brain and Mind Institutes, Schulich School of Medicine and Dentistry, Western University, London, ON, N6A 5B7, Canada.",
+        "Neurosciences & Mental Health Program, The Hospital for Sick Children, Toronto, M5G 0A4, ON, Canada.",
+        "Department of Physiology, University of Toronto, Toronto, ON, M5S 1A8, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A8, Canada. jellis@sickkids.ca.",
+        "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada. jellis@sickkids.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mok, Rebecca S F",
+        "short_name": "Mok RSF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A8, Canada.",
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenbo",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosciences & Mental Health Program, The Hospital for Sick Children, Toronto, M5G 0A4, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Sheikh, Taimoor I",
+        "short_name": "Sheikh TI",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Neuropsychiatry & Development (MiND) Lab, Campbell Family Mental Health Research Institute, Centre for Addiction and Mental Health, Toronto, ON, M5T 1R8, Canada."
+        ]
+      },
+      {
+        "full_name": "Pradeepan, Kartik",
+        "short_name": "Pradeepan K",
+        "identifiers": [
+          "0000-0003-0979-7928"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Department of Psychiatry, Neuroscience Graduate Program, Robarts Research and Brain and Mind Institutes, Schulich School of Medicine and Dentistry, Western University, London, ON, N6A 5B7, Canada."
+        ]
+      },
+      {
+        "full_name": "Fernandes, Isabella R",
+        "short_name": "Fernandes IR",
+        "identifiers": [],
+        "affiliations": [
+          "University of California San Diego, School of Medicine, Department of Pediatrics/Rady Children's Hospital San Diego, Department of Cellular & Molecular Medicine, Stem Cell Program, La Jolla, CA, 92037-0695, USA."
+        ]
+      },
+      {
+        "full_name": "DeJong, Leah C",
+        "short_name": "DeJong LC",
+        "identifiers": [
+          "0000-0002-0740-8071"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A8, Canada.",
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Benigno, Gabriel",
+        "short_name": "Benigno G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Mathematics, Robarts Research Institute, Brain and Mind Institute, Western University, London, ON, N6A 5B7, Canada."
+        ]
+      },
+      {
+        "full_name": "Hildebrandt, Matthew R",
+        "short_name": "Hildebrandt MR",
+        "identifiers": [
+          "0000-0003-0652-3112"
+        ],
+        "affiliations": [
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Mufteev, Marat",
+        "short_name": "Mufteev M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A8, Canada.",
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Rodrigues, Deivid C",
+        "short_name": "Rodrigues DC",
+        "identifiers": [
+          "0000-0001-5995-814X"
+        ],
+        "affiliations": [
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Wei, Wei",
+        "short_name": "Wei W",
+        "identifiers": [],
+        "affiliations": [
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Piekna, Alina",
+        "short_name": "Piekna A",
+        "identifiers": [],
+        "affiliations": [
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiajie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Muotri, Alysson R",
+        "short_name": "Muotri AR",
+        "identifiers": [
+          "0000-0003-0867-2875"
+        ],
+        "affiliations": [
+          "University of California San Diego, School of Medicine, Department of Pediatrics/Rady Children's Hospital San Diego, Department of Cellular & Molecular Medicine, Stem Cell Program, La Jolla, CA, 92037-0695, USA.",
+          "Department of Pediatrics/Rady Children's Hospital, Department of Cellular & Molecular Medicine, Center for Academic Research and Training in Anthropogeny, Archealization Center, Kavli Institute, University of California San Diego, La Jolla, CA, 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Vincent, John B",
+        "short_name": "Vincent JB",
+        "identifiers": [
+          "0000-0003-0692-2519"
+        ],
+        "affiliations": [
+          "Molecular Neuropsychiatry & Development (MiND) Lab, Campbell Family Mental Health Research Institute, Centre for Addiction and Mental Health, Toronto, ON, M5T 1R8, Canada."
+        ]
+      },
+      {
+        "full_name": "Muller, Lyle",
+        "short_name": "Muller L",
+        "identifiers": [
+          "0000-0001-5165-9890"
+        ],
+        "affiliations": [
+          "Department of Applied Mathematics, Robarts Research Institute, Brain and Mind Institute, Western University, London, ON, N6A 5B7, Canada."
+        ]
+      },
+      {
+        "full_name": "Martinez-Trujillo, Julio",
+        "short_name": "Martinez-Trujillo J",
+        "identifiers": [
+          "0000-0003-3338-578X"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Department of Psychiatry, Neuroscience Graduate Program, Robarts Research and Brain and Mind Institutes, Schulich School of Medicine and Dentistry, Western University, London, ON, N6A 5B7, Canada."
+        ]
+      },
+      {
+        "full_name": "Salter, Michael W",
+        "short_name": "Salter MW",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosciences & Mental Health Program, The Hospital for Sick Children, Toronto, M5G 0A4, ON, Canada.",
+          "Department of Physiology, University of Toronto, Toronto, ON, M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Ellis, James",
+        "short_name": "Ellis J",
+        "identifiers": [
+          "0000-0002-4400-0091"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A8, Canada. jellis@sickkids.ca.",
+          "Developmental & Stem Cell Biology Program, The Hospital for Sick Children, Toronto, ON, M5G 0A4, Canada. jellis@sickkids.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational psychiatry"
+    ],
+    "journal_abbrev": [
+      "Transl Psychiatry"
+    ],
+    "pub_date": "2022 Oct 18",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/18 06:00",
+    "fetched_at": "2026-09-28 15:06:37"
+  },
+  "links": {
+    "cites": [
+      "42519207",
+      "42031555",
+      "41946741",
+      "41876230",
+      "41779872",
+      "41714632",
+      "41446258",
+      "41285713",
+      "41270748",
+      "41231358",
+      "41078625",
+      "41028791",
+      "40943197",
+      "40862765",
+      "40596833",
+      "40360671",
+      "39844857",
+      "38420187",
+      "38277073",
+      "37419110",
+      "36831205",
+      "35205182",
+      "34355696"
+    ],
+    "refs": [
+      "35205182",
+      "34426698",
+      "34329594",
+      "33972691",
+      "33501759",
+      "32851591",
+      "32698189",
+      "32209477",
+      "31813827",
+      "31666522",
+      "31629770",
+      "31474560",
+      "31366578",
+      "30747104",
+      "30392976",
+      "29740174",
+      "28973632",
+      "28544139",
+      "28439102",
+      "27929079",
+      "26347316",
+      "25644311",
+      "25060709",
+      "24999353",
+      "24419315",
+      "24204377",
+      "24174646",
+      "24094325",
+      "23892605",
+      "23764284",
+      "22560080",
+      "22230884",
+      "21982370",
+      "21966470",
+      "21831886",
+      "21807996",
+      "21457612",
+      "21378979",
+      "21372149",
+      "21074045",
+      "21040841",
+      "20188665",
+      "20010937",
+      "19234456",
+      "19115011",
+      "18562141",
+      "18313390",
+      "17988629",
+      "17988628",
+      "17968969",
+      "16905679",
+      "16823396",
+      "16581518",
+      "16116096",
+      "16014787",
+      "14593183",
+      "12843318",
+      "12788925",
+      "10508514",
+      "7903176"
+    ],
+    "similar": [
+      "36253345",
+      "21372149",
+      "32851591",
+      "22230884",
+      "20816763",
+      "25644311",
+      "19442733",
+      "21966470",
+      "20163734",
+      "24970834",
+      "24626160",
+      "32460858",
+      "17309881",
+      "26012557",
+      "27379379",
+      "33665914",
+      "36652535",
+      "26984561",
+      "33182787",
+      "24129406",
+      "35091041",
+      "23921973",
+      "12750821",
+      "31299345",
+      "28439102",
+      "28920956",
+      "35263890",
+      "27071793",
+      "36555252",
+      "21807996",
+      "23659895",
+      "24094325",
+      "28062374",
+      "23400946",
+      "25960047",
+      "23770587",
+      "11242118",
+      "32393583",
+      "30536762",
+      "24399845",
+      "21982064",
+      "27929079",
+      "26544843",
+      "16682435",
+      "16549521",
+      "36575558",
+      "25209930",
+      "12030010",
+      "18948693",
+      "24059803",
+      "21878110",
+      "30673959",
+      "20569274",
+      "10508514",
+      "17464364",
+      "31904347",
+      "33916879",
+      "27428650",
+      "28621434",
+      "19552836",
+      "26647311",
+      "31214863",
+      "19652677",
+      "38164119",
+      "30012595",
+      "30340473",
+      "31671722",
+      "11532982",
+      "29902467",
+      "17089071",
+      "15115765",
+      "28270572",
+      "24615633",
+      "30081849",
+      "25147297",
+      "30690146",
+      "36640327",
+      "22532851",
+      "32005172",
+      "16780651",
+      "24916645",
+      "29090078",
+      "15069197",
+      "25870282",
+      "34576118",
+      "23238573",
+      "32616668",
+      "27194336",
+      "12112735",
+      "33501759",
+      "21824415",
+      "23226951",
+      "18334558",
+      "24283265",
+      "32317254",
+      "16182491",
+      "15737703",
+      "26821816",
+      "11376998",
+      "38703668",
+      "39232000",
+      "39149328",
+      "37986936",
+      "39415995",
+      "36778454",
+      "39379106",
+      "39277796",
+      "34678068",
+      "24999353",
+      "37066332"
+    ],
+    "review": [
+      "36253345",
+      "12750821",
+      "27071793",
+      "25960047",
+      "18948693",
+      "21878110",
+      "31904347",
+      "33916879",
+      "24615633",
+      "12112735",
+      "23226951"
+    ],
+    "pmc": [
+      "9576700"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rettsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rett Syndrome"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41398-022-02216-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36253345/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36253345",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36253345",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt8xq9276p",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse148435",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

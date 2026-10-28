@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report construction of a protein-protein interaction (PPI) network in HEK293T cells centered on 100 high-confidence autism spectrum disorder (hcASD) risk genes, yielding over 1,800 PPIs (87% novel). They state that interactors are expressed in human brain and enriched for ASD but not schizophrenia genetic risk, and that these interactions converge on protein complexes related to neurogenesis, tubulin biology, transcriptional regulation, and chromatin modification. They further report a PPI map of 54 patient-derived missense variants, use of AlphaFold-Multimer to prioritize direct PPIs and variants, and functional interrogation in Xenopus tropicalis and human forebrain organoids. A specific finding is that a FOXP1 mutation leads to reconfiguration of DNA binding sites and altered development of deep cortical layer neurons in organoids.
+- **Visible evidence base** Abstract text only; no numerical data, statistical details, figure legends, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, statistical analyses, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable resource and a multi-pronged approach linking ASD risk genes to protein interaction networks and functional consequences. The scope is ambitious and the combination of experimental PPI mapping, variant analysis, structural prediction, and model system validation is conceptually appealing. However, the abstract alone provides insufficient detail to evaluate the rigor of the network construction, the statistical basis for enrichment claims, the validity of the variant interaction mapping, or the strength of the functional validation. Several claims are broad and would require substantial supporting evidence to be convincing. The work is likely to interest the ASD genetics and neurodevelopmental biology communities, but the current evidence base does not allow assessment of whether the central conclusions are established.
+- **Who would be interested in the results, and why** Geneticists and molecular biologists studying autism spectrum disorder and other neurodevelopmental conditions would be interested in the PPI network as a resource for prioritizing genes and variants. Researchers working on transcriptional regulation, chromatin biology, and neuronal development would find the convergence on specific complexes relevant. The use of AlphaFold-Multimer and organoid models may appeal to those developing functional genomics pipelines. Clinicians and translational researchers seeking therapeutic targets for genetically-defined ASD subtypes could also find the platform relevant.
+- **Major strengths** The abstract presents a large-scale, systematic approach to a clinically important problem. The integration of multiple methodologies, from empirical PPI mapping to structural prediction and functional assays, is conceptually strong. The focus on patient-derived variants adds translational relevance. The claim of 87% novel PPIs suggests the resource may provide new information beyond existing databases. The convergence on specific biological processes provides a plausible path from genes to mechanisms.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims construction of a PPI network involving 100 hcASD risk genes with over 1,800 PPIs, 87% of which are novel.  
+  - **Evidence pointer** Abstract, Summary section; no methods or figures provided  
+  - **Concern** The abstract provides no information on how the PPI network was generated, including the assay platform, bait and prey selection, replicate numbers, scoring thresholds, or quality control metrics. The novelty claim of 87% depends entirely on the reference databases used for comparison, which are not specified. Without these details, the reliability and completeness of the network cannot be assessed.  
+  - **Why it matters** PPI datasets are highly sensitive to experimental conditions and analysis thresholds. A claim of this scale and novelty requires transparent methodology to establish that the interactions are reproducible and biologically meaningful rather than artifacts of the specific assay system.  
+  - **Resolution test** Provide a detailed methods section describing the experimental platform, scoring criteria, false discovery rate estimation, and the databases used to define novelty. Include validation rates from orthogonal assays and a comparison of network properties to existing PPI resources.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** The abstract states that interactors are enriched for ASD but not schizophrenia genetic risk.  
+  - **Evidence pointer** Abstract, Summary section; no statistical details provided  
+  - **Concern** No statistical framework is described for the enrichment analysis. It is unclear which ASD and schizophrenia gene sets were used, how enrichment was calculated, what the background was, and whether multiple testing corrections were applied. The contrast between ASD and schizophrenia is a strong claim that requires careful control for confounders such as gene size, expression level, or network degree.  
+  - **Why it matters** Differential enrichment across related neuropsychiatric conditions is a central piece of evidence for ASD specificity. If the analysis is underpowered or methodologically flawed, the conclusion of ASD-specific convergence would be unsupported.  
+  - **Resolution test** Describe the gene sets, statistical tests, covariates, and multiple testing corrections. Provide effect sizes and confidence intervals for the enrichment comparisons. Show that the ASD enrichment is robust to alternative background models and gene set definitions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence for functional claims  
+  - **Claim pointer** The abstract claims that a FOXP1 mutation leads to reconfiguration of DNA binding sites and altered development of deep cortical layer neurons in forebrain organoids.  
+  - **Evidence pointer** Abstract, Summary section; no experimental details or data shown  
+  - **Concern** The abstract provides no information on the nature of the FOXP1 mutation, the experimental design, the number of organoid replicates, the differentiation protocol, or the assays used to assess DNA binding and neuronal development. The causal link between the binding site changes and the neuronal phenotype is asserted but not demonstrated.  
+  - **Why it matters** This is the most specific mechanistic claim in the abstract and likely a key result of the paper. Without details on the mutation, the assays, and the statistical significance of the observed changes, the claim cannot be evaluated. The inference that binding site reconfiguration causes altered development requires evidence of causality, not just correlation.  
+  - **Resolution test** Provide full experimental details for the organoid model, the mutation used, the binding assays, and the neuronal phenotype measurements. Show statistical comparisons with appropriate controls and demonstrate that the binding changes precede or directly drive the developmental phenotype, for example through rescue experiments or perturbation of specific binding sites.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The abstract describes the network as a foundational atlas and a platform for developing therapeutic strategies for many genetically-defined conditions.  
+  - **Evidence pointer** Abstract, Summary section; no data provided  
+  - **Concern** The claim of broad utility as a platform for therapeutic development is extrapolated from a single model system (HEK293T cells) and a limited set of functional validations. The abstract does not address whether the PPI network is conserved across cell types or developmental stages relevant to ASD.  
+  - **Why it matters** Overstating the generalizability of findings from one cell line could mislead the field about the maturity of the resource. A foundational atlas should demonstrate relevance beyond the specific experimental context.  
+  - **Resolution test** Provide evidence of network conservation in relevant cell types or tissues, or temper the claims to reflect the current scope. Discuss limitations of the HEK293T system and plans for validation in more physiologically relevant contexts.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of hcASD genes  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The term high-confidence ASD genes is used without specifying the source or criteria for this designation.  
+  - **Required correction** Define the criteria and reference the source of the hcASD gene list.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Variant selection  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The abstract mentions 54 patient-derived missense variants but does not state how these were selected or whether they are all in the 100 hcASD genes.  
+  - **Required correction** Clarify the relationship between the variant set and the gene set, and describe the selection criteria.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretability  
+  - **Affected element** AlphaFold-Multimer usage  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The abstract states that AlphaFold-Multimer predictions were used to prioritize direct PPIs and variants, but does not explain how predictions were integrated with experimental data or what thresholds were applied.  
+  - **Required correction** Briefly describe the prioritization criteria and how structural predictions were validated experimentally.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Model systems  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The abstract mentions Xenopus tropicalis and human forebrain organoids but does not specify which findings were validated in each system.  
+  - **Required correction** Clarify the role of each model system and which specific claims are supported by each.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The network construction, enrichment analysis, and functional validation claims are all central to the paper's conclusions and cannot be assessed from the abstract alone. These require full methodological transparency and supporting data.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of a systematic PPI network for ASD genes with variant-level analysis and structural prediction is conceptually novel, though the abstract does not fully establish how this differs from existing ASD interactome studies.  
+  - Scientific importance: If the claims are substantiated, the resource and the convergence on specific complexes would be of high importance to the ASD field. The potential for therapeutic targeting adds translational significance.  
+  - Interdisciplinary readership: The work bridges genetics, proteomics, structural biology, and developmental neuroscience, which could attract a broad readership. However, the abstract assumes familiarity with multiple specialized techniques.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail for the PPI network, enrichment statistics, and organoid experiments prevents evaluation.  
+  - Readability for nonspecialists: The abstract is dense and uses field-specific terminology without sufficient context. The summary is concise but would benefit from clearer articulation of the key findings and their significance.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes an ambitious and potentially valuable study, but the central claims regarding network construction, ASD-specific enrichment, and functional consequences of the FOXP1 mutation cannot be evaluated without the full manuscript. I would be supportive if the technical concerns are resolved through detailed methods, rigorous statistics, and clear presentation of validation data.
+
+## Risk / unsupported claims
+- The claim of 1,800 PPIs with 87% novelty is unsupported without details on the experimental platform and reference databases.
+- The claim of enrichment for ASD but not schizophrenia genetic risk is unsupported without statistical details and appropriate controls.
+- The claim that a FOXP1 mutation leads to reconfiguration of DNA binding sites and altered deep cortical layer neuron development is unsupported without experimental data and causal evidence.
+- The claim that the platform can be used to develop therapeutic strategies for many genetically-defined conditions is an extrapolation not supported by the abstract.

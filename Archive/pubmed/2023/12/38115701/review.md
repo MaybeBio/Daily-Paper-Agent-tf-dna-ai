@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, methods, results, discussion, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or supplementary files were assessed.
+- **Shared manuscript claim summary** The authors propose that TCF12 is a cofactor for the oncogenic IGH::DUX4 fusion in B-cell acute lymphoblastic leukaemia, acting through a positive self-feedback regulatory mechanism. They support this with bioinformatic analyses, cell-based assays, structural predictions, and functional experiments.
+- **Visible evidence base** Methods and results sections describing RNA-seq and ChIP-seq analyses, qRT-PCR, western blotting, Co-IP, mammalian two-hybridisation, PLA, CRISPR/Cas9 knockout, cell proliferation, apoptosis, drug sensitivity assays, and AlphaFold structural predictions. Figures referenced include Figures 1-7 and supplementary figures S1-S9.
+- **Missing materials affecting confidence** Raw sequencing data, detailed statistical outputs, full figure panels with all replicates, supplementary tables (S1-S5), and details of AlphaFold model confidence metrics were not provided. The manuscript text alone does not allow full verification of all quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in leukaemia biology, namely the role of transcriptional cofactors in IGH::DUX4-driven oncogenesis. The identification of TCF12 as a potential cofactor and the proposed self-feedback loop are interesting. However, the evidence presented is largely correlative and the mechanistic depth is limited. Several claims, particularly regarding the direct interaction and the structural model, require stronger experimental support. The functional data are consistent with a role for TCF12 but do not fully establish the proposed regulatory mechanism as essential.
+- **Who would be interested in the results, and why** Researchers studying B-ALL pathogenesis, transcriptional regulation in cancer, and those interested in DUX4 fusion-driven leukaemias. The potential therapeutic angle targeting the TCF12-IGH::DUX4 interaction may also interest drug discovery groups focused on transcription factor complexes.
+- **Major strengths** The study combines multiple experimental approaches, including bioinformatics, cell biology, and structural prediction. The use of both overexpression and knockdown/knockout strategies in two leukaemia cell lines strengthens the functional data. The proposed self-feedback mechanism is a novel concept in this context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence for direct interaction
+  - **Claim pointer** The manuscript claims a direct interaction between TCF12 and IGH::DUX4, supported by Co-IP, two-hybrid, PLA, and AlphaFold predictions.
+  - **Evidence pointer** Results section, Figure 6
+  - **Concern** The Co-IP and PLA experiments are performed in overexpression systems, which can lead to non-specific or artefactual interactions. The two-hybrid assay is also an artificial system. The AlphaFold prediction is computational and requires experimental validation. The manuscript does not provide evidence for an endogenous interaction between TCF12 and IGH::DUX4 in patient samples or relevant cell lines without overexpression.
+  - **Why it matters** The central claim of the paper is a direct physical interaction. Without robust evidence for this interaction under endogenous conditions, the proposed mechanism remains speculative.
+  - **Resolution test** Provide evidence of endogenous interaction, for example, by performing Co-IP or proximity ligation assay in patient-derived cells or cell lines without overexpression of either protein. Alternatively, use a more physiologically relevant system such as CRISPR-mediated tagging of endogenous loci.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence for self-feedback regulation
+  - **Claim pointer** The manuscript proposes a positive self-feedback regulatory mechanism where IGH::DUX4 upregulates TCF12, which then cooperates with IGH::DUX4 to enhance its transcriptional activity.
+  - **Evidence pointer** Results section, Figures 3, 4, 5, 7
+  - **Concern** The data show that TCF12 is a target of IGH::DUX4 and that TCF12 can enhance IGH::DUX4 activity. However, the manuscript does not directly demonstrate that the TCF12 protein, once upregulated, feeds back to enhance its own expression or the expression of shared target genes in a manner that is dependent on the proposed interaction. The rescue experiments with TCF12 mutants are informative but do not fully close the loop of a self-feedback mechanism.
+  - **Why it matters** The title and central hypothesis rely on a self-feedback mechanism. The current data support a cooperative role for TCF12 but do not definitively establish the feedback loop.
+  - **Resolution test** Perform experiments that directly test the feedback loop, such as measuring TCF12 expression and IGH::DUX4 target gene expression over time after TCF12 induction or knockout. Use chromatin analysis to show that TCF12 and IGH::DUX4 co-occupy the TCF12 promoter or enhancer regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance and specificity
+  - **Claim pointer** The manuscript claims that the TCF12-IGH::DUX4 cooperation is required for leukaemia cell survival and drug resistance.
+  - **Evidence pointer** Results section, Figures 7B-D
+  - **Concern** The functional experiments are performed in cell lines. The manuscript does not demonstrate that the observed effects are specific to the IGH::DUX4 fusion context. It is unclear whether TCF12 knockdown would have similar effects in other B-ALL subtypes or non-leukaemic cells. The drug sensitivity data are limited to a single drug (vincristine).
+  - **Why it matters** The therapeutic implications depend on the specificity of the TCF12-IGH::DUX4 axis. If TCF12 is a general factor for B-cell survival, targeting it may have broad toxicity.
+  - **Resolution test** Include control cell lines that do not harbour IGH::DUX4. Test the effect of TCF12 knockdown on a panel of B-ALL cell lines with different genetic backgrounds. Expand drug sensitivity testing to other chemotherapeutic agents.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative experiments
+  - **Evidence pointer** Methods, Statistical analyses
+  - **Issue** The statistical methods are described, but the results do not consistently report effect sizes, confidence intervals, or exact p-values. The number of biological replicates is not always clear.
+  - **Required correction** Provide full statistical details for each experiment, including the number of replicates, the test used, and the exact p-values or confidence intervals.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Sequencing data
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The data availability statement is vague and does not provide a clear mechanism for accessing the sequencing data.
+  - **Required correction** Provide accession numbers for the RNA-seq and ChIP-seq data in a public repository, such as GEO or SRA.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Structural model validation
+  - **Affected element** AlphaFold predictions
+  - **Evidence pointer** Results, Figure 6C-D
+  - **Issue** The AlphaFold model is presented without details on model confidence (e.g., pLDDT scores) or validation of the predicted interface.
+  - **Required correction** Include model confidence metrics and, if possible, validate the predicted interface with additional mutagenesis or biophysical experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figures 1 and S1
+  - **Evidence pointer** Results, Figure 1
+  - **Issue** The t-SNE plot in Figure 1 is difficult to interpret without clear labels or a legend explaining the clusters.
+  - **Required correction** Improve figure labels and legends to make the data presentation clearer.
+- **Technical failings that need to be addressed before the case is established** The lack of endogenous interaction data (R1-M1) and the incomplete demonstration of the self-feedback loop (R1-M2) are the primary technical issues. The functional data, while supportive, do not yet establish the proposed mechanism as essential.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a TCF12-mediated self-feedback loop in DUX4 fusion leukaemia is novel. However, the individual components (TCF12 as a cofactor, DUX4 target genes) have been previously described.
+  - **Scientific importance** The findings could have implications for understanding B-ALL pathogenesis and identifying new therapeutic targets. The importance is moderate, as the study does not provide a major conceptual advance beyond the specific context.
+  - **Interdisciplinary readership** The topic is primarily of interest to cancer biologists and haematologists. The structural prediction component may attract structural biologists, but the overall appeal is limited to a specialised audience.
+  - **Technical soundness** The experimental approaches are generally sound, but the key claims require stronger evidence, particularly regarding the direct interaction and the feedback mechanism.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written but includes many technical details that may be challenging for nonspecialists. The abstract and highlights are clear.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis with supportive but incomplete data. The major concerns regarding the direct interaction and the self-feedback mechanism need to be addressed before the claims can be fully supported.
+
+## Risk / unsupported claims
+- The claim of a direct interaction between TCF12 and IGH::DUX4 is not fully supported by the provided evidence, as the experiments rely on overexpression systems and computational predictions.
+- The claim of a positive self-feedback regulatory mechanism is not directly demonstrated. The data show correlation and cooperation but do not prove the feedback loop.
+- The claim that the TCF12-IGH::DUX4 axis is a "pivotal drug target" is speculative, as the therapeutic potential is not tested in vivo or in patient-derived models.
+- The statement that TCF12 is "exclusively overexpressed" in IGH::DUX4 compared to other subtypes is not fully supported, as the comparison in Figure S1B-C is limited to a few subtypes.

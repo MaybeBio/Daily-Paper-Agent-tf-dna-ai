@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39430403",
+  "title": "Using AI-predicted protein structures as a reference to predict loss-of-function activity in tumor suppressor breast cancer genes.",
+  "authors": "Gnanaolivu, Rohan; Hart, Steven N",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2024-10-21",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用AI预测蛋白结构（AlphaFold2）和稳定性工具（FoldX）评估乳腺癌抑癌基因错义变体的功能丧失，虽涉及蛋白结构预测与功能关联，但核心是变异致病性分类而非TF-DNA互作建模，方法可迁移性有限。",
+  "abstract": "BACKGROUND: The loss-of-function (LOF) classification of most missense variants in tumor suppressor breast cancer genes BRCA1, BRCA2, PALB2, and RAD51C remains unclassified and confounds clinical actionability. Classifying these variants is challenging due to their rarity, leading clinicians to rely on in silico predictive methods. Protein stability changes are associated with function, making stability predictors valuable. Stability predictions upon missense variant perturbations require high-resolution protein structures. However, the availability of these high-resolution structures is lacking. This study explores using generative AI to predict high-resolution protein structures, which can then be analyzed with in silico protein stability prediction methods to assess LOF activity in ordered regions of the protein. This study also determines the appropriate in silico protein stability and dedicated in silico missense prediction methods in dbNSFP v4.7 database to predict LOF activity in ordered regions of these four genes. Functional classifications from homology recombination DNA repair (HDR) assays and variant classifications from the ClinVar database provide a reliable dataset for evaluating the performance of these in silico prediction methods. RESULTS: Complex AlphaFold2 structures of the BRCA1-C terminal (BRCT) domain and the DNA-binding (DB) domain of BRCA2, analyzed using protein stability tool FoldX predicts LOF activity from missense variants significantly better than experimentally-derived structures in ordered regions. The BRCT domain achieved an Area Under the Curve (AUC)= 0.861 (95 % CI:0.858-0.863) and AUC= 0.842 (95 % CI:0.840-0.845), while the DB domain achieved an AUC= 0.836 (95 % CI:0.8322-0.841), compared to AUC= 0.847 (95 % CI:0.844-0.850) and AUC= 0.835 (95 % CI:0.832-0.837) from the BRCT domain, and AUC= 0.830 (95 % CI:0.821-0.8320) from the DB domain from experimentally-derived structures. Protein stability does not predict LOF activity from missense variants better than dedicated in silico missense predictors. Overall, we find that AlphaMissense ranks highly, with an average AUC= 0.890 (95 % CI 0.886-0.895) from ordered regions across these four cancer genes, compared to all other in silico missense predictors present in the dbNSFP database. CONCLUSIONS: The study reveals that generative AI protein predicted structures can outperform experimentally-derived structures in evaluating LOF activity from predicted protein stability in ordered regions of genes BRCA1, BRCA2, PALB2 and RAD51C. The study also highlights the predictive performance of AlphaMissense as the premier in silico missense prediction method to predict LOF activity from missense variants in these four tumor suppressor breast cancer genes. The code for this study can be downloaded for free on GitHub (https://github.com/rohandavidg/CarePred).",
+  "abstract_zh": "背景：肿瘤抑制性乳腺癌基因BRCA1、BRCA2、PALB2和RAD51C中大多数错义变异的功能丧失（LOF）分类仍未明确，这妨碍了临床可操作性。由于这些变异的稀有性，对其进行分类具有挑战性，导致临床医生依赖计算机模拟预测方法。蛋白质稳定性变化与功能相关，使稳定性预测器具有价值。错义变异扰动后的稳定性预测需要高分辨率蛋白质结构。然而，这些高分辨率结构的可用性不足。本研究探索使用生成式人工智能预测高分辨率蛋白质结构，随后通过计算机模拟蛋白质稳定性预测方法分析这些结构，以评估蛋白质有序区域中的LOF活性。本研究还确定了dbNSFP v4.7数据库中合适的计算机模拟蛋白质稳定性和专用计算机模拟错义预测方法，以预测这四个基因有序区域中的LOF活性。来自同源重组DNA修复（HDR）实验的功能分类和ClinVar数据库中的变异分类为评估这些计算机模拟预测方法的性能提供了可靠数据集。结果：使用蛋白质稳定性工具FoldX分析的BRCA1-C末端（BRCT）结构域和BRCA2的DNA结合（DB）结构域的复杂AlphaFold2结构，在有序区域中预测错义变异的LOF活性显著优于实验衍生结构。BRCT结构域达到曲线下面积（AUC）= 0.861（95% CI：0.858-0.863）和AUC= 0.842（95% CI：0.840-0.845），而DB结构域达到AUC= 0.836（95% CI：0.8322-0.841），相比之下，实验衍生结构中BRCT结构域的AUC= 0.847（95% CI：0.844-0.850）和AUC= 0.835（95% CI：0.832-0.837），DB结构域的AUC= 0.830（95% CI：0.821-0.8320）。蛋白质稳定性在预测错义变异LOF活性方面并不优于专用计算机模拟错义预测器。总体而言，我们发现AlphaMissense排名较高，在这四个癌症基因的有序区域中平均AUC= 0.890（95% CI 0.886-0.895），优于dbNSFP数据库中所有其他计算机模拟错义预测器。结论：本研究揭示，在评估BRCA1、BRCA2、PALB2和RAD51C基因有序区域中预测蛋白质稳定性的LOF活性时，生成式人工智能蛋白质预测结构可优于实验衍生结构。研究还强调了AlphaMissense作为预测这四个肿瘤抑制性乳腺癌基因错义变异LOF活性的首要计算机模拟错义预测方法的预测性能。本研究的代码可在GitHub上免费下载（https://github.com/rohandavidg/CarePred）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39430403/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39430403/",
+  "paper_page_path": "papers/pubmed/39430403/index.html"
+}

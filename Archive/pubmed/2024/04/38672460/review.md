@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that Edaravone (EDA) directly binds to the aryl hydrocarbon receptor (AHR) and activates AHR signaling, leading to downstream cytoprotective gene expression, NRF2 pathway activation, and increased Olig2 expression in vitro and in vivo, suggesting a novel mechanism for its pro-myelinating effects.
+- **Visible evidence base** RNA-seq transcriptomics, qPCR, Western blot, immunofluorescence, molecular docking, molecular dynamics simulations, and zebrafish transgenic reporter assays
+- **Missing materials affecting confidence** Raw RNA-seq data (referenced as Supplementary Spreadsheet S1 but not provided), full Western blot images, detailed docking scores for all compounds, statistical analysis details for zebrafish experiments, and information on antibody validation
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting finding that EDA may act as an AHR agonist, which could explain some of its neuroprotective and pro-myelinating effects. The combination of transcriptomics, biochemical assays, and computational approaches is commendable. However, several technical concerns and gaps in evidence weaken the strength of the central claim that EDA directly binds to AHR. The computational predictions are not sufficiently validated by direct binding assays, and the functional link between AHR activation and the observed Olig2 upregulation remains correlative rather than causal. The manuscript would benefit from additional experiments to establish direct binding and mechanistic causality.
+- **Who would be interested in the results, and why** Researchers in neuropharmacology, multiple sclerosis and demyelinating disease biology, drug repurposing, and AHR signaling. The findings could inform future therapeutic development for demyelinating conditions and expand understanding of EDA's mechanism of action beyond its known antioxidant properties.
+- **Major strengths** 1) The study addresses an important gap in understanding EDA's molecular targets. 2) The multi-model approach (in vitro, in vivo, in silico) provides complementary evidence. 3) The use of a specific AHR antagonist (GNF-351) to demonstrate pathway specificity is a strong experimental design element. 4) The zebrafish experiments provide in vivo validation of the pathway activation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for direct binding
+  - **Claim pointer** The manuscript claims that EDA "binds to the aryl hydrocarbon receptor (AHR)" and is "predicted to be an AHR ligand" based on docking and MD simulations.
+  - **Evidence pointer** Section 3.2, Figure 3, Table 2, Figure S1
+  - **Concern** The central claim of direct EDA-AHR binding relies entirely on computational predictions (docking and MD). No direct biochemical or biophysical binding assay (e.g., surface plasmon resonance, isothermal titration calorimetry, or competitive binding with a radiolabeled ligand) is presented. The docking scores for EDA are described as "higher" (i.e., less favorable) than the reference agonists, which raises questions about binding affinity. The MD simulation reveals that EDA "frequently undergoes binding transitions within the pocket," suggesting unstable binding. This instability is not adequately reconciled with the claim of a stable, functional interaction.
+  - **Why it matters** The title and abstract assert that EDA "binds to" AHR, which is a strong mechanistic claim. Without direct binding evidence, the conclusion that EDA is a bona fide AHR ligand is not established. The computational data alone, especially with less favorable energies than known agonists and observed instability, are insufficient to support this claim.
+  - **Resolution test** Provide direct binding data (e.g., competitive binding assay with [³H]-TCDD or a fluorescent ligand, or biophysical measurements) demonstrating EDA binds to AHR with a measurable affinity. Alternatively, the authors should temper the claim to "predicted to bind" and provide additional functional evidence that the observed effects are specifically due to AHR engagement (e.g., using AHR-knockout cells).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between AHR activation and Olig2 upregulation
+  - **Claim pointer** The manuscript states that EDA "fosters Olig2+ oligodendrocyte lineage specification, likely because of increased Olig2 protein levels" and suggests AHR as "the target responsible for the pro-myelinating effect of EDA."
+  - **Evidence pointer** Section 3.4, Figure 7, Figure S3
+  - **Concern** The manuscript demonstrates that EDA increases Olig2 expression in zebrafish, but does not establish that this effect is mediated by AHR activation. The GNF-351 antagonist experiments are only performed for CYP gene expression, not for Olig2. Therefore, the causal link between AHR activation and Olig2 upregulation is not tested. The authors acknowledge this as a "likely" connection, but the discussion goes further to suggest AHR as the target responsible for pro-myelinating effects, which is not supported by the data presented.
+  - **Why it matters** The pro-myelinating claim is a key translational aspect of the paper. Without demonstrating that AHR activation is necessary for the Olig2 effect (e.g., by showing GNF-351 blocks Olig2 upregulation, or by using AHR knockdown/knockout), the connection remains speculative.
+  - **Resolution test** Perform GNF-351 co-treatment experiments in zebrafish and assess Olig2 expression. Alternatively, use AHR morpholino or CRISPR-mediated knockdown in zebrafish to test whether EDA's effect on Olig2 is AHR-dependent.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dose-response and physiological relevance
+  - **Claim pointer** The manuscript uses EDA at 100 µM in cell culture and 10-30 µM in zebrafish, and states these concentrations are relevant to therapeutic effects.
+  - **Evidence pointer** Sections 2.3, 2.9, 2.11, 3.1, 3.3, 3.4
+  - **Concern** The concentrations used (100 µM in vitro) are high and may not reflect clinically achievable concentrations. The manuscript does not provide a dose-response analysis for AHR activation, nor does it discuss the physiological relevance of these concentrations. The choice of 100 µM appears arbitrary and may cause off-target effects.
+  - **Why it matters** For a drug repurposing claim, demonstrating that effects occur at therapeutically relevant concentrations is important. High concentrations may activate pathways non-specifically, undermining the specificity of the AHR-mediated mechanism.
+  - **Resolution test** Provide a dose-response curve for AHR target gene induction and Olig2 upregulation. Discuss the relationship between the concentrations used and those achieved in clinical settings or animal models of disease.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Zebrafish experiments
+  - **Evidence pointer** Sections 3.4, 3.5, Figures 6, 7
+  - **Issue** The statistical methods for zebrafish experiments are not fully described. It is unclear how many biological replicates were used, whether the data met assumptions for parametric tests, and how the "margin of statistical significance (p = 0.07)" was determined.
+  - **Required correction** Provide detailed statistical methods for each zebrafish experiment, including sample sizes, tests used, and how multiple comparisons were handled.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** RNA-seq data
+  - **Evidence pointer** Section 2.3, Supplementary Spreadsheet S1
+  - **Issue** The raw RNA-seq data are referenced as supplementary material but not provided in the manuscript. This limits the ability to assess the quality of the transcriptomic analysis.
+  - **Required correction** Provide the raw data as supplementary files or deposit in a public repository (e.g., GEO) with accession numbers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Western blots
+  - **Evidence pointer** Figures 4, 5, 8
+  - **Issue** Western blot images are not shown; only quantified data are presented. This prevents assessment of band specificity and quality.
+  - **Required correction** Include representative Western blot images in the figures or supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion does not adequately address the limitations of the study, particularly the lack of direct binding data and the correlative nature of the AHR-Olig2 link.
+  - **Required correction** Add a limitations paragraph acknowledging these gaps and suggesting future experiments to address them.
+
+## Risk / unsupported claims
+- The claim that EDA "binds to" AHR is unsupported by direct experimental evidence; only computational predictions are provided.
+- The claim that AHR activation is responsible for EDA's pro-myelinating effects is not causally tested; the data only show correlation.
+- The statement that EDA is an "ideal AHR agonist" is speculative and not supported by the data, especially given the less favorable binding energies compared to known agonists.
+- The physiological relevance of the concentrations used is not established.

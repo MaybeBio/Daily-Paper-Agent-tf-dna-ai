@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39779852",
+  "title": "A foundation model of transcription across human cell types.",
+  "authors": "Fu, Xi; Mo, Shentong; Buendia, Alejandro; Laurent, Anouchka P; Shao, Anqi; Alvarez-Torres, Maria Del Mar; Yu, Tianji; Tan, Jimin; Su, Jiayu; Sagatelian, Romella; Ferrando, Adolfo A; Ciccia, Alberto; Lan, Yanyan; Owens, David M; Palomero, Teresa; Xing, Eric P; Rabadan, Raul",
+  "journal": "Nature",
+  "published_date": "2025-01-09",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出GET基础模型，基于染色质可及性与序列预测跨细胞类型基因表达，并推断转录因子互作网络，虽非直接TF-DNA结合建模，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "Transcriptional regulation, which involves a complex interplay between regulatory sequences and proteins, directs all biological processes. Computational models of transcription lack generalizability to accurately extrapolate to unseen cell types and conditions. Here we introduce GET (general expression transformer), an interpretable foundation model designed to uncover regulatory grammars across 213 human fetal and adult cell types(1,2). Relying exclusively on chromatin accessibility data and sequence information, GET achieves experimental-level accuracy in predicting gene expression even in previously unseen cell types(3). GET also shows remarkable adaptability across new sequencing platforms and assays, enabling regulatory inference across a broad range of cell types and conditions, and uncovers universal and cell-type-specific transcription factor interaction networks. We evaluated its performance in prediction of regulatory activity, inference of regulatory elements and regulators, and identification of physical interactions between transcription factors and found that it outperforms current models(4) in predicting lentivirus-based massively parallel reporter assay readout(5,6). In fetal erythroblasts(7), we identified distal (greater than 1 Mbp) regulatory regions that were missed by previous models, and, in B cells, we identified a lymphocyte-specific transcription factor-transcription factor interaction that explains the functional significance of a leukaemia risk predisposing germline mutation(8-10). In sum, we provide a generalizable and accurate model for transcription together with catalogues of gene regulation and transcription factor interactions, all with cell type specificity.",
+  "abstract_zh": "转录调控涉及调控序列与蛋白质之间的复杂相互作用，指导所有生物过程。转录的计算模型缺乏泛化能力，无法准确外推到未见过的细胞类型和条件。在此，我们引入GET（general expression transformer），一个可解释的基础模型，旨在揭示213种人类胎儿和成体细胞类型中的调控语法(1,2)。仅依赖染色质可及性数据和序列信息，GET在预测基因表达方面达到实验级准确性，即使对于此前未见过的细胞类型也是如此(3)。GET还展现出对新测序平台和检测方法显著的适应性，能够在广泛的细胞类型和条件下进行调控推断，并揭示通用及细胞类型特异性的转录因子相互作用网络。我们评估了其在调控活性预测、调控元件和调控因子推断以及转录因子间物理相互作用识别方面的性能，发现其在预测慢病毒为基础的大规模平行报告分析读数方面优于当前模型(4,5,6)。在胎儿成红细胞中(7)，我们识别出先前模型遗漏的远端（大于1 Mbp）调控区域，并在B细胞中鉴定出一种淋巴细胞特异性转录因子-转录因子相互作用，该相互作用解释了白血病风险易感种系突变的功能意义(8-10)。总之，我们提供了一个具有泛化性和准确性的转录模型，以及基因调控和转录因子相互作用的目录，所有这些均具有细胞类型特异性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39779852/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39779852/",
+  "paper_page_path": "papers/pubmed/39779852/index.html"
+}

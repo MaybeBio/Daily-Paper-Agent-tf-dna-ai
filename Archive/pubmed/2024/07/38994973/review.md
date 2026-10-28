@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality as inferable from the supplied text. No figures, tables, or supplementary datasets were available for inspection.
+- **Shared manuscript claim summary** The authors report a comparative computational analysis of ATAC-seq datasets from four deuterostome species (sea urchin, amphioxus, sea squirt, zebrafish) at gastrula stages. They identify a core set of 108 conserved transcription factor binding motifs, collapsed to 62 transcription factors, and argue this indicates conserved cis-regulatory syntax underlying deuterostome gastrulation. They also report species-specific differences in accessible putative regulatory region (APRE) counts, densities, and genomic feature distributions.
+- **Visible evidence base** Methods section describing data sources, alignment, peak calling, IDR, motif annotation, and pathway enrichment. Results sections reporting APRE counts, densities, genomic feature distributions, motif sharing statistics, and pathway enrichment outcomes. References to figures (Figure 1, 2, 3, 4), tables (Table 1, 2), and supplementary datasets (S1–S6) that were not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary datasets. Specific numerical values for motif enrichment statistics, pathway enrichment p-values, and complete lists of TFs. Details of the HOMER and TOMTOM parameters beyond those stated. The zebrafish RNA-seq validation analysis is described but not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in evolutionary developmental biology: whether cis-regulatory syntax underlying gastrulation is conserved across deuterostomes. The comparative approach using publicly available ATAC-seq data is appropriate and the choice of four phylogenetically informative species is well justified. However, the current manuscript has several significant limitations. The most critical issue is that the central claim of a "conserved core" of 108 motifs and 62 TFs rests entirely on motif enrichment within open chromatin regions, without functional validation or demonstration that these motifs are actually bound by the cognate TFs in vivo. The analysis is purely descriptive and correlational. Additionally, the manuscript lacks quantitative rigor in several places, with no effect sizes, confidence intervals, or statistical comparisons beyond a single Dixon's test. The pathway enrichment analysis is based on human annotations applied to non-vertebrate species, which introduces potential bias. The discussion overinterprets the findings, particularly regarding the "unexpected" conservation and the implications for understanding gastrulation. The writing is generally clear but occasionally verbose. The manuscript would benefit from substantial revision to strengthen the evidence base and temper the claims.
+- **Who would be interested in the results, and why** Researchers in evolutionary developmental biology (evo-devo), comparative genomics, and gene regulatory network biology would be the primary audience. The findings on conserved TF binding motifs across deuterostomes could inform studies on the evolution of developmental programs and the identification of core regulatory circuits. The comparative ATAC-seq approach may also be of interest to methodologists working on cross-species chromatin accessibility analysis. The specific identification of TFs with known roles in gastrulation, alongside less expected candidates, could guide future functional studies.
+- **Major strengths** 1) The comparative design across four deuterostome species spanning key phylogenetic positions is well conceived and addresses a significant question. 2) The use of a standardized ATAC-seq analysis pipeline across species is a methodological strength that reduces technical bias. 3) The integration of motif enrichment with pathway analysis provides a multi-layered perspective. 4) The authors acknowledge limitations such as annotation quality and the possibility of poised enhancers. 5) The identification of a specific set of 62 TFs provides a testable hypothesis for future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The manuscript claims identification of "a core of conserved TFBMs that may serve as keystones of gastrulation's genetic programs" and that this indicates "conservation of the gastrulation regulatory landscape across deuterostomes."
+  - **Evidence pointer** Section 3.3, Section 3.4, Figure 3, Table 2
+  - **Concern** The central claim of a conserved core of 108 motifs and 62 TFs is based solely on motif enrichment within ATAC-seq peaks. Motif enrichment indicates statistical overrepresentation of a sequence pattern, not functional binding. The authors do not provide any evidence that these motifs are actually occupied by the cognate TFs in vivo, nor do they demonstrate that the identified TFs are functionally required for gastrulation in the respective species. The validation using zebrafish RNA-seq expression data is a step in the right direction, but expression of a TF does not demonstrate that it binds the predicted motifs or that this binding is functionally relevant. The claim of "conservation of the regulatory landscape" is therefore not established from the presented evidence.
+  - **Why it matters** The title and abstract promise conservation of cis-regulatory syntax, which is a strong claim with evolutionary implications. If the evidence only shows statistical enrichment of similar sequence motifs in open chromatin, the conclusion is much weaker. Overstating the findings could mislead the field and lead to inappropriate extrapolation. Functional validation, even in a single species, or at minimum a more cautious interpretation, is required.
+  - **Resolution test** The authors should either (a) provide functional evidence (e.g., ChIP-seq, reporter assays, or perturbation experiments) that at least a subset of the identified TFs bind the predicted motifs in vivo and are required for gastrulation, or (b) substantially temper the claims to reflect that these are predicted motifs with unknown functional status. Additionally, they should provide quantitative measures of motif enrichment significance and effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and quantitative reporting
+  - **Claim pointer** The manuscript reports APRE counts, densities, and genomic feature distributions across species, and claims differences such as zebrafish having "nearly three times greater" APRE per gene ratio, and amphioxus having "significantly greater" exon-associated APREs.
+  - **Evidence pointer** Section 3.1, Section 3.2, Figures 1 and 2
+  - **Concern** The quantitative comparisons lack statistical rigor. The authors report raw counts and ratios but provide no confidence intervals, effect sizes, or formal statistical tests for most comparisons. The only statistical test mentioned is a Dixon's test for the amphioxus exon enrichment, which is an outlier test, not a comparison of distributions. The claim that zebrafish has a "nearly three times greater" APRE per gene ratio is presented without any measure of uncertainty. Given that the data come from only two biological replicates per species, the variability could be substantial. The authors also do not account for potential confounders such as differences in genome assembly quality, gene annotation completeness, or sequencing depth across datasets from different sources.
+  - **Why it matters** The species-specific differences in APRE landscapes are a key part of the results and are used to support arguments about regulatory evolution. Without proper statistical treatment, these differences could be artifacts of technical variation or small sample sizes. The conclusions drawn from these comparisons are therefore not robust.
+  - **Resolution test** The authors should provide appropriate statistical tests for all cross-species comparisons, including measures of dispersion (e.g., standard deviation or confidence intervals) for APRE counts and densities. They should also discuss and, where possible, control for technical confounders such as sequencing depth, genome assembly quality, and annotation completeness. If the sample size (n=2) is insufficient for robust statistics, this limitation should be explicitly acknowledged and the claims tempered accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The methods describe a "standardized pipeline" for ATAC-seq analysis, but key parameters and thresholds are not fully specified.
+  - **Evidence pointer** Section 2.2
+  - **Concern** The methods section lacks sufficient detail for reproducibility. Specific parameters for bowtie2 alignment are given, but the following are not specified: the exact criteria for selecting "read pairs with an insert <130 bp" beyond this threshold, the MACS2 parameters are given but the q-value threshold for peak calling is not stated, the IDR analysis parameters are not described, and the HOMER motif finding parameters (e.g., motif length range, background model, significance thresholds) are not provided. The statement that motifs "failed HOMER annotation" were reannotated with TOMTOM is vague; what constitutes "failure" is not defined. The threshold for grouping motifs by similarity (q-value < 2 × 10⁻⁵) is given, but the TOMTOM parameters and database version are not.
+  - **Why it matters** Reproducibility is a cornerstone of scientific publication. Without complete methodological details, other researchers cannot replicate the analysis or assess its validity. The lack of transparency in motif annotation and grouping is particularly concerning given that the central claim depends on the identification of 108 conserved motifs.
+  - **Resolution test** The authors should provide a complete description of all analysis parameters, including software versions, thresholds, and decision criteria. Ideally, they should make the analysis scripts and a detailed pipeline description available as supplementary material. The criteria for "failed HOMER annotation" and the TOMTOM reannotation process should be explicitly defined.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and overreach
+  - **Claim pointer** The discussion states that the findings reveal "surprising conservation in the regulatory landscape of the gastrulation process" and that "such conservation could potentially extend to the human species."
+  - **Evidence pointer** Section 4, Figure 4
+  - **Concern** The pathway enrichment analysis was performed using human Reactome annotations applied to TFs identified in non-vertebrate species. This cross-species annotation transfer is problematic because pathway annotations are based on human biology and may not accurately reflect the functions or interactions of orthologous TFs in sea urchins, amphioxus, or sea squirts. The claim that conservation "could potentially extend to the human species" is an extrapolation beyond the data. The authors have not studied human gastrulation, and the pathway enrichment result is an indirect inference at best. This overreach undermines the credibility of the discussion.
+  - **Why it matters** The discussion should interpret the results within the limits of the evidence. Overstating the implications, particularly regarding human relevance, could mislead readers and overstate the significance of the findings. The pathway analysis is a useful hypothesis-generating tool, but it should be presented as such, not as evidence of functional conservation.
+  - **Resolution test** The authors should reframe the pathway analysis as hypothesis-generating and explicitly acknowledge the limitations of cross-species annotation transfer. The claim about human relevance should be removed or substantially qualified. The discussion should focus on what the data can actually support: the identification of conserved sequence motifs in open chromatin regions, which is a predictive, not confirmatory, result.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Introduction of the term "APRE"
+  - **Evidence pointer** Section 3.1
+  - **Issue** The term "accessible putative regulatory regions (APREs)" is introduced in the results section without prior definition in the introduction or methods. The term is used throughout the manuscript but its relationship to the more standard term "open chromatin regions" or "ATAC-seq peaks" is not explicitly clarified.
+  - **Required correction** Define APREs in the introduction or at the start of the methods section, and clarify that they are operationally defined as high-confidence ATAC-seq peaks passing the IDR threshold.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Figures 1–4
+  - **Issue** The figures are referenced but were not available for review. Based on the text, it is unclear whether the figures include necessary details such as scale bars, statistical annotations, or clear labels for non-specialist readers.
+  - **Required correction** Ensure that all figures are self-contained with clear labels, legends, and statistical annotations. Consider adding a schematic overview figure to help non-specialist readers understand the comparative workflow.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 4
+  - **Issue** The discussion mentions limitations related to annotation quality and the possibility of poised enhancers, but does not address other important limitations such as the use of different developmental timepoints across species (which the authors state are "homologous" but do not justify in detail), the potential for species-specific differences in ATAC-seq data quality, or the lack of replication beyond two biological replicates.
+  - **Required correction** Expand the limitations paragraph to address these additional concerns and justify the comparability of the chosen developmental stages across species.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference to supplementary data
+  - **Affected element** Section 2.2, Section 3.3, Section 3.4
+  - **Issue** The manuscript refers to Supplementary Datasets S1–S6, but the content and format of these datasets are not described. It is unclear what information they contain and how they were generated.
+  - **Required correction** Provide a brief description of each supplementary dataset in the methods or as a supplementary table, including the format and the type of data contained.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and readability
+  - **Affected element** Throughout
+  - **Issue** The manuscript is generally well written but contains some verbose passages and occasional redundancy. For example, the introduction repeats the concept of TFBM conservation multiple times. Some sentences are overly long and could be split for clarity.
+  - **Required correction** Edit for conciseness and clarity. Consider having a colleague unfamiliar with the field read the manuscript to identify passages that could be simplified.
+
+## Risk / unsupported claims
+- The claim of a "conserved core" of 108 motifs and 62 TFs underlying gastrulation is unsupported by functional evidence; motif enrichment alone does not demonstrate conservation of regulatory function.
+- The statement that conservation "could potentially extend to the human species" is unsupported by the data presented, as no human data were analyzed and the pathway analysis relies on cross-species annotation transfer.
+- The claim that zebrafish and amphioxus exhibit "more similar regulatory profiles" than expected based on phylogeny is based on descriptive comparisons without statistical support.
+- The assertion that the identified TFs "may serve as keystones of gastrulation's genetic programs" is speculative and not directly tested.
+- The interpretation of circadian-related TF motifs as potentially indicating a functional role in gastrulation is speculative, as the authors themselves note the role is unclear.
+- The statement that "chromatin opening may in some cases simply precede the actual expression" is presented as a caveat but is not systematically addressed in the analysis.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.20.713150",
+  "title": "NLCD: A method to discover nonlinear causal relations among genes",
+  "authors": "Easwar A; Narayanan M",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-23",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 3,
+  "one_liner_zh": "该文提出非线性因果发现方法NLCD，用于从基因组数据推断基因间因果关系，虽涉及转录因子但非蛋白质-DNA互作建模，且方法为统计回归而非AI或物理模拟，与本课题关联较弱。",
+  "abstract": "Distinguishing correlation from causation is a fundamental challenge in many scientific fields, including biology, especially when interventions like randomized controlled trials are infeasible and only observational data are available. Methods based on statistical tests of conditional independence within the Mendelian Randomization framework can detect causality between two observed variables that are each associated with a third instrumental variable. However, these methods for detecting causal relationships between traits (e.g., two gene expression or clinical traits associated with a genetic variant, all observed in the same population) often assume a linear relationship, thereby hindering the discovery of causal gene networks from genomics data.We have developed NLCD, a method for NonLinear Causal Discovery from genomics data based on nonlinear regression modeling and conditional feature importance scoring. NLCD uses these techniques to extend the statistical tests in an existing linear causal discovery method called the Causal Inference Test (CIT). We benchmarked NLCD against current state-of-the-art methods: CIT, Findr, and MRPC. On simulated datasets, NLCD performs comparably to most methods in detecting linear relations (Average AUPRC (Area Under the Precision-Recall Curve) of NLCD=0.94, CIT=0.94, Findr=0.94, and MRPC=0.99), and outperforms them in detecting nonlinear (sine and sawtooth type) relations between two genes (Average AUPRC of NLCD=0.76, CIT=0.60, Findr=0.56, and MRPC=0.73). When tested on a nonlinear subset of a yeast genomic dataset to recover known causal relations involving transcription factors, NLCD and CIT performed comparable to each other and slightly better than Findr and MRPC (Average AUPRC of NLCD=0.82, CIT=0.81, Findr=0.71, and MRPC=0.54). On application to a human genomic dataset, NLCD revealed active causal gene pairs ( IRF1 → PSME1 and HLA-C → HLA-T ) in the muscle tissue, and clarified the promises and challenges in discovering causal gene networks in tissues under in vivo human settings. <h4>Availability</h4> The code implementing our method is available at: https://github.com/BIRDSgroup/NLCD .",
+  "abstract_zh": "在许多科学领域，包括生物学中，区分相关性与因果关系是一项基本挑战，尤其是在随机对照试验等干预措施不可行且仅有观测数据可用的情况下。基于孟德尔随机化框架内条件独立性统计检验的方法，可以检测两个各自与第三个工具变量相关的观测变量之间的因果关系。然而，这些用于检测性状间因果关系（例如，与同一遗传变异相关的两个基因表达或临床性状，且均在相同人群中观测）的方法通常假设线性关系，从而阻碍了从基因组学数据中发现因果基因网络。\n\n我们开发了NLCD，一种基于非线性回归建模和条件特征重要性评分的基因组学数据非线性因果发现方法。NLCD利用这些技术扩展了现有线性因果发现方法——因果推断检验（Causal Inference Test, CIT）中的统计检验。我们将NLCD与当前最先进的方法：CIT、Findr和MRPC进行了基准测试。在模拟数据集上，NLCD在检测线性关系方面与大多数方法表现相当（NLCD的平均AUPRC（精确率-召回率曲线下面积）=0.94，CIT=0.94，Findr=0.94，MRPC=0.99），并在检测两个基因之间的非线性（正弦和锯齿波类型）关系方面优于它们（NLCD的平均AUPRC=0.76，CIT=0.60，Findr=0.56，MRPC=0.73）。在酵母基因组数据集的非线性子集上测试以恢复涉及转录因子的已知因果关系时，NLCD和CIT表现相当，且略优于Findr和MRPC（NLCD的平均AUPRC=0.82，CIT=0.81，Findr=0.71，MRPC=0.54）。在应用于人类基因组数据集时，NLCD揭示了肌肉组织中的活跃因果基因对（IRF1 → PSME1 和 HLA-C → HLA-T），并阐明了在体内人类环境下发现组织中因果基因网络的机遇与挑战。\n\n<h4>可用性</h4> 实现我们方法的代码可在以下网址获取：https://github.com/BIRDSgroup/NLCD 。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713150",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713150",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.20.713150/index.html"
+}

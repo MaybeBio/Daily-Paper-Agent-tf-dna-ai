@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36358902",
+  "title": "MARGINAL: An Automatic Classification of Variants in BRCA1 and BRCA2 Genes Using a Machine Learning Model.",
+  "authors": "Karalidou, Vasiliki; Kalfakakou, Despoina; Papathanasiou, Athanasios; Fostira, Florentia; Matsopoulos, George K",
+  "journal": "Biomolecules",
+  "published_date": "2022-11-12",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习对BRCA1/2基因变异进行致病性分类，属于纯序列变异解读，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "Implementation of next-generation sequencing (NGS) for the genetic analysis of hereditary diseases has resulted in a vast number of genetic variants identified daily, leading to inadequate variant interpretation and, consequently, a lack of useful clinical information for treatment decisions. Herein, we present MARGINAL 1.0.0, a machine learning (ML)-based software for the interpretation of rare BRCA1 and BRCA2 germline variants. MARGINAL software classifies variants into three categories, namely, (likely) pathogenic, of uncertain significance and (likely) benign, implementing the criteria established by the American College of Medical Genetics and Genomics and the Association for Molecular Pathology (ACMG-AMP). We first annotated BRCA1 and BRCA2 variants using various sources. Then, we automatically implemented the ACMG-AMP criteria, and we finally constructed the ML model for variant classification. To maximize accuracy, we compared the performance of eight different ML algorithms in a classification scheme based on a serial combination of two classifiers. The model showed high predictive abilities with maximum accuracy of 92% and 98%, recall of 92% and 98% and specificity of 90% and 98% for the first and second classifiers, respectively. Our results indicate that using a gene and disease-specific ML automated software for clinical variant evaluation can minimize conflicting interpretations.",
+  "abstract_zh": "将下一代测序（NGS）应用于遗传性疾病基因分析，导致每天鉴定出大量遗传变异，进而造成变异解读不足，并因此缺乏用于治疗决策的有用临床信息。在此，我们介绍MARGINAL 1.0.0，一种基于机器学习（ML）的软件，用于解读罕见的BRCA1和BRCA2种系变异。MARGINAL软件将变异分为三类，即（可能）致病性、意义不确定性和（可能）良性，并实施美国医学遗传学与基因组学学院和分子病理学协会（ACMG-AMP）制定的标准。我们首先使用多种来源对BRCA1和BRCA2变异进行注释。然后，我们自动实施ACMG-AMP标准，并最终构建用于变异分类的ML模型。为最大化准确性，我们在基于两个分类器串联组合的分类方案中，比较了八种不同ML算法的性能。该模型显示出高预测能力，第一和第二分类器的最大准确率分别为92%和98%，召回率分别为92%和98%，特异性分别为90%和98%。我们的结果表明，使用基因和疾病特异性的ML自动化软件进行临床变异评估，可以最小化冲突性解读。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36358902/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36358902/",
+  "paper_page_path": "papers/pubmed/36358902/index.html"
+}

@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, materials and methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with Nature-style criteria. No assessment of code functionality or data availability beyond what is described.
+- **Shared manuscript claim summary** The authors present DELAY, a convolutional neural network that infers gene-regulatory relationships from pseudotime-lagged joint probability matrices of single-cell gene expression trajectories. They claim it outperforms existing methods, handles cyclic interactions, generalizes via transfer learning, and identifies novel regulatory features in auditory hair cells.
+- **Visible evidence base** Main text figures (Fig. 1A–G, Fig. 2A–G, Fig. 3A–B, Fig. 4A–D, Fig. 5A–C), Table 1, supplementary figures (Fig. S1–S4) and tables (Table S1–S3) referenced but not provided in full. Methods section describes data processing, network architecture, training, and motif analysis.
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not included in the provided material. Full details of baseline method implementations, hyperparameter tuning, and statistical significance of performance differences are not fully described. Code and data availability are stated but not independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel deep learning approach for gene-regulatory network inference from single-cell data, with a clear focus on addressing limitations of Granger causality. The methodological concept is interesting and the application to auditory hair cells is potentially valuable. However, several technical aspects require clarification and additional validation to fully support the claims. The performance comparisons, generalizability claims, and biological interpretations need stronger evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or using gene-regulatory inference tools, as well as experimentalists studying gene regulation in development, particularly in sensory systems. The method's ability to infer cyclic interactions and use multi-omic data could appeal to a broad audience interested in single-cell analysis.
+- **Major strengths**
+  - Novel combination of convolutional neural networks with pseudotime-lagged joint probability matrices, addressing a known limitation of Granger causality.
+  - Demonstration of transfer learning across data types (scRNA-seq and scATAC-seq) is a useful contribution.
+  - Application to a biologically relevant system (auditory hair cells) with some validation of predictions.
+  - Open-source implementation and availability of pre-trained models enhance reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DELAY outperforms several common methods for inferring gene regulation" (Abstract, Results section "DELAY outperforms several common methods of gene-regulatory inference").
+  - **Evidence pointer** Figure 1C–E, Figure S2 (location not provided in full).
+  - **Concern** The performance comparison against baseline methods is not sufficiently detailed. The manuscript states DELAY outperforms eight methods, but the specific implementation details, hyperparameter settings, and statistical significance of the differences are not fully described. The comparison appears to be based on area under PR and ROC curves, but it is unclear if these differences are statistically significant across multiple runs or datasets. The inductive split analysis (Fig. 1E) shows a single exception, but the magnitude and consistency of the performance advantage are not quantified.
+  - **Why it matters** Without rigorous statistical comparison and clear methodological details for baselines, the claim of superior performance is not fully substantiated. This is central to the manuscript's contribution.
+  - **Resolution test** Provide detailed descriptions of baseline implementations, including parameter tuning, and report performance metrics with confidence intervals or statistical tests (e.g., paired tests across datasets). Show that DELAY's advantage is consistent and significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / validity of biological claims
+  - **Claim pointer** "DELAY identifies important genes, interactions, and modules in the hair cell gene-regulatory network" (Results section "DELAY identifies important genes, interactions, and modules in the hair cell gene-regulatory network").
+  - **Evidence pointer** Figure 4D, Figure 5A–C, Table S2 (location not provided in full).
+  - **Concern** The biological validation of the predicted hair cell network is limited. The authors confirm 22 of 28 predicted interactions via binding-site accessibility, but the criteria for selecting these 28 interactions and the significance of the confirmation rate are not clearly stated. The "guilt by association" analysis for cofactors (Hist1h1c, Ccnd1) and the novel motif for Fiz1 are interesting but lack experimental validation. The claim that these are "high-confidence" predictions is not fully supported by the evidence presented.
+  - **Why it matters** The biological relevance of the method is a key selling point. Without stronger validation or clear caveats, the significance of these predictions for understanding hair cell development is uncertain.
+  - **Resolution test** Provide a more systematic validation approach, such as comparing predicted interactions to a larger set of known or experimentally verified interactions, or performing additional computational or experimental tests to support the novel predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / generalizability
+  - **Claim pointer** "DELAY performs well with new input configurations, augmented matrices, and modified data sets" (Results section "DELAY performs well with new input configurations, augmented matrices, and modified data sets").
+  - **Evidence pointer** Figure 2A–G, Figure S3 (location not provided in full).
+  - **Concern** The robustness analysis is described but the results are not fully presented in the provided text. The sensitivity to pseudotime ordering (Fig. 2B) and down-sampling (Fig. 2C) is mentioned, but the quantitative impact on performance is not clearly stated. The claim that the network relies on highly expressing cells (Fig. 2E–F) is based on indirect evidence (masking experiments) and needs more direct support.
+  - **Why it matters** Understanding the method's limitations and sensitivity to input data quality is important for users. The current description is insufficient to assess practical applicability.
+  - **Resolution test** Present the quantitative results of the robustness experiments, including performance metrics under different conditions, and provide a clearer interpretation of the masking experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Preparing single-cell RNA-seq data sets to train and test the convolutional neural network"
+  - **Evidence pointer** Table 1 (location not provided in full).
+  - **Issue** The description of data preprocessing and selection of differentially expressed genes is brief. The criteria for selecting transcription factors and target genes are not fully specified.
+  - **Required correction** Provide more detail on the data processing pipeline, including normalization, filtering, and the exact criteria for gene selection.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Training and fine-tuning the network on pseudotime-lagged gene coexpression matrices"
+  - **Evidence pointer** Location not provided.
+  - **Issue** The hyperparameter search space and the criteria for selecting the final architecture are not described. The learning rate schedule and early stopping criteria are mentioned but not fully specified.
+  - **Required correction** Include a table or description of hyperparameters and the selection process to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section "DELAY recognizes causal relationships in hierarchical and cyclic gene-regulatory interactions"
+  - **Evidence pointer** Figure 3A (location not provided in full).
+  - **Issue** The description of the three-gene motif analysis is clear but the figure is not provided. The interpretation of the results for different motif classes could be more explicit.
+  - **Required correction** Ensure the figure clearly shows the performance for each motif class and add a brief interpretation of the biological implications.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Insufficient statistical rigor in performance comparisons.
+  - R1-M2: Limited biological validation of predicted interactions.
+  - R1-M3: Incomplete presentation of robustness analysis.
+- **Assessment against Nature-style criteria**
+  - **Originality** The use of pseudotime-lagged joint probability matrices with a CNN is a novel contribution, distinct from existing methods. The multi-omic transfer learning approach is also innovative.
+  - **Scientific importance** Gene-regulatory inference is a fundamental problem, and addressing cyclic interactions is a meaningful advance. The application to hair cells could have implications for hearing research.
+  - **Interdisciplinary readership** The method is relevant to computational biology, genomics, and developmental biology. The biological application may attract interest from auditory neuroscientists.
+  - **Technical soundness** The core idea is sound, but the current evidence for performance superiority and biological validity is incomplete. The robustness analysis needs more detail.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some technical details in the methods are dense. The biological significance of the hair cell findings could be better contextualized for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a promising method with potential broad applicability, but the current evidence does not fully establish its superiority or the validity of its biological predictions. Addressing the major concerns would significantly strengthen the case.
+
+## Risk / unsupported claims
+- The claim that DELAY "outperforms" all compared methods is not fully supported without statistical testing and detailed baseline descriptions.
+- The claim that the predicted hair cell network is "high-confidence" is not fully supported by the limited validation presented.
+- The claim that DELAY can "overcome" limitations of Granger causality is supported for cyclic interactions but the generalizability of this claim is not fully tested.
+- The biological predictions for cofactors (Hist1h1c, Ccnd1) and Fiz1 are speculative and require experimental validation.

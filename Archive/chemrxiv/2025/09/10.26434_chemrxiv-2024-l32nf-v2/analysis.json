@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-l32nf-v2",
+  "title": "Impact of the halogen PB radii in the estimation of protein-ligand binding energies using MM-PBSA calculations",
+  "authors": "Andreia Fortuna; Paulo J. Costa",
+  "journal": "ChemRxiv",
+  "published_date": "2025-09-08",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该文评估卤素半径参数在MM-PBSA计算蛋白-配体结合自由能中的影响，虽涉及蛋白-配体互作和物理模拟方法，但对象为蛋白-配体而非蛋白-DNA，且未涉及TF-DNA结合或核酸互作，仅方法上对结合自由能计算有间接参考价值。",
+  "abstract": "Halogenation is a commonly used strategy in drug design, not only due to the improvement of ADME properties of the compounds but also due to the ability of halogens to engage in halogen bonds (XBs) with biological targets such as proteins. The prediction of binding free energies (\\dGbind{}) is paramount in drug development, and, in this context, MM-PBSA calculations are a fast and commonly used method to achieve such a task. However, the usage of parameters to describe halogen anisotropy, such as extra-points of charge (EPs) that allow for the sampling of XBs, in MM-PBSA calculations is not common. Despite the recent development of optimized radii for halogens (r$_{opt}$), compatible with EP implementations, providing accurate hydration free energies at the PBSA level, the impact of these parameters in the calculation of binding free energies (\\dGbind{}) on protein-ligand complexes was yet to be tackled. In this work, we evaluated the performance of r$_{opt}$ in the estimation of \\dGbind{} values using MM-PBSA calculations for three sets of CK2 inhibitors. for which the experimental binding energies are available. We tested the performance of three EP models and standard RESP charges (i.e. when no EP is added), along with the effect of the internal dielectric constant ($\\epsilon$_{\\textnormal{in}}$) and sampling time. Our results indicate that, while directly using the X-ray structure does not typically lead to good results, relaxation through MM minimization, especially with $\\epsilon$_{\\textnormal{in}}$ = 4, leads to very decent correlations with the experimental values. Better correlations were achieved when adding configurational sampling via MD simulations, though, the Pearson coefficients varied substantially with sampling time and PBSA setup used, indicating that longer sampling times do not necessarily lead to higher correlations with experimental values. For all cases, optimized halogen radii (r$_{opt}$) leads to slight improvements whereas the description of the halogen anisotropy \\textit{via} and EP considerably improved the correlations for \\textbf{Set A} and \\textbf{Set C}. In addition, our findings suggest that $\\epsilon$_{\\textnormal{in}}$ has a considerable impact on the prediction of the \\dGbind{} values, with the usage of an EP being enough to account for polarizability for systems with several halogens, whereas for systems with fewer halogens, a higher $\\epsilon$_{\\textnormal{in}}$ might be needed. Moreover, the use of an EP allowed the sampling of XBs without impairing the sampling of hydrogen bonds (HBs). To date, this study is the first to provide a comprehensive benchmark using MM-PBSA calculations, thus giving insights into which parameters contribute to a better description of halogen bonding systems.",
+  "abstract_zh": "卤化是药物设计中常用的策略，不仅因为能改善化合物的ADME性质，还因为卤素能够与蛋白质等生物靶标形成卤键 (halogen bonds, XBs)。结合自由能 (\\dGbind{}) 的预测在药物开发中至关重要，在此背景下，MM-PBSA计算是一种快速且常用的方法来实现这一任务。然而，在MM-PBSA计算中，使用描述卤素各向异性的参数（如允许采样XBs的额外电荷点 (extra-points of charge, EPs)）并不常见。尽管近期开发了与EP实现兼容的优化卤素半径 (r$_{opt}$)，能在PBSA水平提供准确的水合自由能，但这些参数在计算蛋白质-配体复合物结合自由能 (\\dGbind{}) 中的影响尚未被探讨。在本工作中，我们评估了r$_{opt}$在使用MM-PBSA计算估计三组CK2抑制剂（其实验结合能已知）的\\dGbind{}值时的性能。我们测试了三种EP模型和标准RESP电荷（即未添加EP时）的性能，以及内介电常数 ($\\epsilon$_{\\textnormal{in}}$) 和采样时间的影响。我们的结果表明，虽然直接使用X射线结构通常不会带来良好结果，但通过MM最小化进行弛豫，尤其是在$\\epsilon$_{\\textnormal{in}}$ = 4时，与实验值产生了非常可观的相关性。通过MD模拟添加构象采样时获得了更好的相关性，但Pearson系数随采样时间和所用PBSA设置变化显著，表明更长的采样时间不一定导致与实验值更高的相关性。在所有情况下，优化卤素半径 (r$_{opt}$) 带来轻微改进，而通过EP描述卤素各向异性显著改善了\\textbf{Set A}和\\textbf{Set C}的相关性。此外，我们的发现表明，$\\epsilon$_{\\textnormal{in}}$ 对\\dGbind{}值的预测有显著影响，对于含多个卤素的系统，使用EP足以考虑极化性，而对于卤素较少的系统，可能需要更高的$\\epsilon$_{\\textnormal{in}}$。而且，使用EP允许采样XBs而不损害氢键 (hydrogen bonds, HBs) 的采样。迄今为止，本研究是首个使用MM-PBSA计算提供全面基准的研究，从而为哪些参数有助于更好描述卤键系统提供了见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-l32nf-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-l32nf-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-l32nf-v2/index.html"
+}

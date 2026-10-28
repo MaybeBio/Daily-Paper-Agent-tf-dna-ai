@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41432483",
+  "title": "Identification and Subtype Analysis of Lipid Metabolism-Related Diagnostic Biomarkers for Endometriosis Based on WGCNA and Machine Learning.",
+  "authors": "Guo, Yingyi; Hou, Yue; Wu, Jinshuang; Lou, Ning; Yang, Dongxia",
+  "journal": "American journal of reproductive immunology (New York, N.Y. : 1989)",
+  "published_date": "2025-12-23",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于WGCNA和机器学习识别子宫内膜异位症脂代谢诊断标志物，虽构建了TF调控网络，但核心是疾病分型与免疫浸润，无蛋白质-DNA互作建模或结合机制研究，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Endometriosis (EM), a disorder driven by persistent systemic inflammation, impacts around 10% of women in their reproductive period, often diagnosed only via surgery. Metabolic alterations, particularly in lipid metabolism, may uncover novel biomarkers. We aimed to identify diagnostic markers and molecular subtypes by integrating lipid metabolism gene expression and machine learning. METHODS: We downloaded gene expression datasets (GSE51981 and GSE7305) from the Gene Expression Omnibus (GEO) database. Differential expression was analyzed using limma (|log(2)FC| > 1, p.adj < 0.05); intersected with lipid genes to yield candidate genes. Weighted gene co-expression network analysis (WGCNA) demonstrated endometriosis-connected gene modules. Integrating lipid metabolism-related differentially expressed genes with WGCNA hub genes, followed by least absolute shrinkage and selection operator (LASSO) and XGBoost machine learning, identified diagnostic biomarkers. Their performance was validated using receiver operating characteristic (ROC) curves in an independent dataset. Immune infiltration, including CIBERSORT and single-sample GSEA (ssGSEA), gene set enrichment analysis (GSEA), and non-negative matrix factorization (NMF)-based subtype analyses were performed. MicroRNA (miRNA) and transcription factor (TF) regulatory networks were constructed using online databases. RESULTS: We identified 106 lipid metabolism-related differential genes. WGCNA revealed the turquoise module strongly correlated with endometriosis. ELOVL6 and MED20 were identified as key genes through machine learning algorithms. The two key genes emerged as robust diagnostic biomarkers, showing high area under the ROC curves (AUCs) across both training and validation sets. Immune infiltration analysis revealed distinct immune cell patterns in endometriosis, with ELOVL6 and MED20 correlating with specific immune cells. Subtype analysis, based on lipid metabolism scores, stratified patients into high and low score groups with differential gene expression and immune cell infiltration. Regulatory networks identified miRNAs and TFs targeting ELOVL6 and MED20. CONCLUSION: Our study identified ELOVL6 and MED20 as promising lipid metabolism-related diagnostic biomarkers for endometriosis. We also uncovered distinct molecular subtypes linked to lipid metabolism, providing novel insights into endometriosis heterogeneity and potential therapeutic targets.",
+  "abstract_zh": "背景：子宫内膜异位症（EM）是一种由持续性全身性炎症驱动的疾病，影响约10%的育龄期女性，通常仅通过手术确诊。代谢改变，尤其是脂质代谢方面的变化，可能揭示新的生物标志物。我们旨在通过整合脂质代谢基因表达和机器学习，识别诊断标志物和分子亚型。方法：我们从基因表达综合数据库（GEO）下载了基因表达数据集（GSE51981和GSE7305）。使用limma分析差异表达（|log(2)FC| > 1，p.adj < 0.05）；与脂质基因取交集以获得候选基因。加权基因共表达网络分析（WGCNA）展示了与子宫内膜异位症相关的基因模块。将脂质代谢相关差异表达基因与WGCNA核心基因整合，随后通过最小绝对收缩和选择算子（LASSO）及XGBoost机器学习，识别诊断生物标志物。其性能在独立数据集中使用受试者工作特征（ROC）曲线进行验证。进行了免疫浸润分析，包括CIBERSORT和单样本基因集富集分析（ssGSEA）、基因集富集分析（GSEA），以及基于非负矩阵分解（NMF）的亚型分析。使用在线数据库构建了微小RNA（miRNA）和转录因子（TF）调控网络。结果：我们识别出106个脂质代谢相关差异基因。WGCNA显示蓝绿色模块与子宫内膜异位症强相关。通过机器学习算法，ELOVL6和MED20被确定为核心基因。这两个核心基因作为稳健的诊断生物标志物，在训练集和验证集中均显示出较高的ROC曲线下面积（AUCs）。免疫浸润分析揭示了子宫内膜异位症中独特的免疫细胞模式，其中ELOVL6和MED20与特定免疫细胞相关。基于脂质代谢评分的亚型分析将患者分为高、低评分组，两组在基因表达和免疫细胞浸润方面存在差异。调控网络识别出靶向ELOVL6和MED20的miRNAs和TFs。结论：我们的研究将ELOVL6和MED20确定为子宫内膜异位症有前景的脂质代谢相关诊断生物标志物。我们还发现了与脂质代谢相关的不同分子亚型，为子宫内膜异位症的异质性和潜在治疗靶点提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41432483/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41432483/",
+  "paper_page_path": "papers/pubmed/41432483/index.html"
+}

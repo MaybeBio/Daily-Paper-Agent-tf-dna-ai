@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends, supplementary table descriptions)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no external data or unpublished materials consulted
+- **Shared manuscript claim summary** The authors propose a "positional grammar" model in which the genomic position of conserved transcription factor binding sites (TFBSs), combined with chromatin context, partitions plant gene regulation into distinct functional modes: TSS-proximal sites in broadly accessible chromatin mediate rapid stress responses, distal and intronic sites in cell type-restricted chromatin drive developmental regulation, and coding-sequence sites represent a candidate repressive context.
+- **Visible evidence base** Conserved multiDAP TFBS maps for 244 TFs across four Brassicaceae species; newly generated single-nucleus ATAC-seq data from A. thaliana, A. lyrata, C. rubella, and B. oleracea; previously published single-nucleus RNA-seq data; newly generated hormone-treatment time-course bulk RNA-seq data; published epigenomic datasets (histone marks, DNA methylation)
+- **Missing materials affecting confidence** Figures and extended data figures not provided in full detail; specific statistical test outputs and effect sizes for many comparisons not shown; exact numbers of replicates and quality metrics for snATAC-seq and RNA-seq datasets not fully detailed; code repository not inspected
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially important integrative analysis of TFBS position and chromatin context in plant gene regulation. The central hypothesis, that TFBS position partitions regulatory function, is well-motivated and the multi-omics approach is ambitious. However, the evidence as presented has several gaps that prevent full confidence in the strongest claims. The negative association between TF "neighborhoods" and cell type-specific regulatory impact is counterintuitive and requires more rigorous statistical treatment. The candidate repressive role of CDS-localized TFBSs, particularly for ABR1, is intriguing but rests on limited direct evidence. The identification of distal cis-regulatory modules as developmental enhancers is the most compelling section, but the functional validation is indirect. Overall, the work is promising and likely of broad interest, but the case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Plant molecular biologists and geneticists studying transcriptional regulation, particularly those focused on cis-regulatory element function, chromatin dynamics, and developmental versus stress-responsive gene control. The integration of multi-species conservation with single-cell chromatin data will also interest researchers in comparative genomics and evolutionary developmental biology. The proposed "positional grammar" framework could provide a useful conceptual model for the field, and the public resources (snATAC-seq atlases, CRM catalog) will be valuable to the community.
+- **Major strengths**
+  1. The study addresses a fundamental and unresolved question in plant genomics with a comprehensive, multi-layered dataset.
+  2. The integration of conserved TFBS maps with single-nucleus chromatin accessibility across multiple species is a powerful and novel approach.
+  3. The identification and cataloging of distal cis-regulatory modules with enhancer-like features, including cell type-specific accessibility and developmental gene enrichment, is a significant contribution.
+  4. The generation of new public resources (multi-species snATAC-seq atlases, hormone-response RNA-seq) is valuable.
+  5. The writing is generally clear and the conceptual framework of a "positional grammar" is a useful synthesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and interpretation of key negative result
+  - **Claim pointer** The claim that a TF's preferred binding neighborhood (FBN) is significantly less likely to contain TFBSs that impact cell type-specific gene expression (log2-fold change = -0.34; chi-sq test p < 0.04).
+  - **Evidence pointer** Results section "TFBS location influences cell type-specific gene activity", Figure 4A
+  - **Concern** The central finding that FBN-located TFBSs are depleted for cell type-specific regulatory impact is counterintuitive and the reported effect size is small (log2-fold change = -0.34). The statistical test (chi-square) is described but the underlying contingency table is not shown. It is unclear how "impact" is defined and binarized for this test. The p-value is marginal (p < 0.04), and it is unclear if this survives multiple testing correction across the many TF-cell type pairs tested. The authors need to provide a more detailed breakdown of this analysis, including the number of TFBSs in each category, the definition of "impact", and the robustness of the result to different thresholds.
+  - **Why it matters** This negative result is a key piece of evidence for the paper's central argument that TFBS position alone does not determine cell type-specific regulatory impact, and that chromatin context is more important. If this result is not robust, the entire "positional grammar" model is weakened.
+  - **Resolution test** Provide the full contingency table, a clear definition of "impactful" TFBSs, and results of sensitivity analyses with different impact thresholds. Report whether the result is consistent across individual TF families and cell types. Consider using a mixed-effects model that accounts for variation across TFs and cell types.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for causal role of CDS TFBSs in repression
+  - **Claim pointer** The claim that "CDS-localized ABR1 binding may contribute to repression during hormone response" and that CDS TFBSs represent a "candidate repressive context."
+  - **Evidence pointer** Results section "Coding-sequence TFBSs mark a candidate repressive context", Figure 4F
+  - **Concern** The evidence for a repressive role of CDS-localized TFBSs is largely correlative. The authors show that genes with CDS-only ABR1 TFBSs are repressed upon SA treatment, but they do not provide direct evidence that ABR1 binding at these CDS sites causes this repression. The alternative explanation that these genes are repressed through other mechanisms, and the CDS TFBSs are merely incidental, is not excluded. The authors should discuss and ideally test whether mutating these CDS sites affects repression, or whether ABR1 binding at CDS sites is associated with specific chromatin features (e.g., H3K9me2, DNA methylation) that could mediate repression.
+  - **Why it matters** The claim of a novel repressive regulatory context in coding sequences is a significant and potentially controversial finding. Without stronger causal evidence, this remains a speculative hypothesis.
+  - **Resolution test** Provide additional evidence, such as (1) ABR1 ChIP-seq data showing in vivo binding at these CDS sites, (2) reporter assays testing the effect of CDS TFBSs on expression, or (3) analysis of chromatin marks at CDS TFBSs that are consistent with a repressive mechanism. At minimum, the authors should temper the claim and explicitly acknowledge the correlative nature of the evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional validation of distal CRM enhancer activity
+  - **Claim pointer** The claim that distal cis-regulatory modules (CRMs) are "strong candidates for plant developmental enhancers" based on their cell type-specific accessibility, conserved TFBS composition, and association with developmental genes.
+  - **Evidence pointer** Results section "Distal cis-regulatory modules show hallmarks of developmental enhancers", Figure 5
+  - **Concern** The evidence for enhancer activity is entirely correlative. The authors identify CRMs based on clustering of conserved TFBSs and show they overlap with cell type-specific accessible chromatin and are near developmental genes. However, they do not provide any functional validation, such as reporter assays or CRISPR-based perturbation, to demonstrate that these CRMs can activate transcription in a cell type-specific manner. The term "enhancer" implies a functional capacity that is not directly demonstrated.
+  - **Why it matters** The identification of bona fide enhancers is a major claim of the paper. Without functional validation, these elements are better described as "candidate cis-regulatory modules" with enhancer-like features. Overstating the evidence could mislead the field.
+  - **Resolution test** Add functional validation for at least a subset of the top candidate CRMs (e.g., the 102 high-confidence candidates). This could be done via transient reporter assays in relevant cell types or stable transgenic lines. If this is not feasible, the authors should clearly state that these are computational predictions requiring functional testing and adjust the language accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the "positional grammar" model
+  - **Claim pointer** The claim that the results "support a positional grammar in which TFBS position and chromatin context jointly partition developmental, stress-responsive, and repressive regulatory output in plants."
+  - **Evidence pointer** Discussion, Abstract
+  - **Concern** The model is derived primarily from A. thaliana data, with supporting evidence from other Brassicaceae species. The authors do not test whether this positional grammar applies to more distantly related plants, such as monocots, despite having access to multiDAP data from 10 species spanning 150 million years of evolution. The deep conservation of TF neighborhoods is shown, but the functional partitioning (stress vs. development) is only tested in A. thaliana.
+  - **Why it matters** The title and abstract make a general claim about "plants." If the model is only applicable to Brassicaceae, this should be stated. Testing the model in a monocot species would significantly strengthen the generality of the claim.
+  - **Resolution test** Analyze the positional distribution of TFBSs and their association with stress vs. developmental genes in at least one monocot species (e.g., rice or sorghum) using the existing multiDAP data. If this is not possible, the authors should temper the language to be specific to Brassicaceae and discuss the potential for broader applicability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Definition of "conserved TFBS" and c-score thresholds
+  - **Evidence pointer** Methods section "DAP-seq Analysis"
+  - **Issue** The definition of the conservation score (c-score) is given in the Introduction, but the specific thresholds used to define "conserved" (c4+) and the rationale for these thresholds are not clearly stated in the Methods.
+  - **Required correction** Provide a clear statement in the Methods about how c-scores were calculated and which thresholds were used for each analysis. Justify the choice of c4 as the cutoff for "conserved" TFBSs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Multiple testing corrections
+  - **Evidence pointer** Results sections, Methods
+  - **Issue** The manuscript reports many p-values from various tests (e.g., t-tests, chi-square tests, permutation tests) but does not consistently state whether multiple testing corrections were applied.
+  - **Required correction** State clearly in the Methods which analyses were corrected for multiple testing and which method was used (e.g., Benjamini-Hochberg FDR). For analyses where no correction was applied, justify this choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 4A and related text
+  - **Evidence pointer** Results section "TFBS location influences cell type-specific gene activity"
+  - **Issue** The negative result in Figure 4A is described in the text but the figure itself is not provided in the manuscript text. The reader cannot assess the magnitude of the effect or the distribution of the data.
+  - **Required correction** Ensure that all figures are included in the final submission and that the text clearly describes what is shown in each panel.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "enhancer"
+  - **Evidence pointer** Results section "Distal cis-regulatory modules show hallmarks of developmental enhancers"
+  - **Issue** The term "enhancer" is used to describe the distal CRMs, but the evidence is correlative. This term implies a functional capacity that has not been directly demonstrated.
+  - **Required correction** Consider using "candidate enhancer" or "enhancer-like element" throughout the text to accurately reflect the level of evidence.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The Discussion does not explicitly address the limitations of the study, such as the correlative nature of the enhancer predictions, the lack of direct evidence for CDS-mediated repression, and the focus on Brassicaceae.
+  - **Required correction** Add a paragraph in the Discussion acknowledging these limitations and outlining what additional experiments would be needed to strengthen the conclusions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The statistical basis for the key negative result (FBN depletion for cell type-specific impact) is not fully described and the effect size is small.
+  - R1-M2: The claim of CDS-mediated repression by ABR1 lacks direct causal evidence.
+  - R1-M3: The distal CRMs are labeled as "enhancers" without functional validation.
+  - R1-M4: The generality of the "positional grammar" model to plants beyond Brassicaceae is not tested.
+
+## Risk / unsupported claims
+- The claim that CDS-localized ABR1 binding "may contribute to repression" is unsupported by direct causal evidence; it is a reasonable hypothesis but not established.
+- The claim that distal CRMs are "strong candidates for plant developmental enhancers" is supported only by correlative data; functional enhancer activity is not demonstrated.
+- The claim that the "positional grammar" model applies broadly to "plants" is not supported by data from outside the Brassicaceae.
+- The claim that TSS-proximal TFBSs in constitutively accessible chromatin are "preconfigured platforms" for rapid stress responses is plausible but not directly tested; the authors do not show that these sites are bound by TFs more rapidly or that they are necessary for the response.
+- The statement that "conserved regulatory elements generally found in permissive chromatin, while sites found only in one species are disproportionately associated with heterochromatin" is based on published datasets from different studies and tissues; the authors acknowledge this but the interpretation should be cautious.

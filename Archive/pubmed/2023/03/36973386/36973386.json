@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "36973386",
+    "doi": "10.1038/s41598-023-30904-5",
+    "title": "Exploiting machine learning models to identify novel Alzheimer's disease biomarkers and potential targets."
+  },
+  "content": {
+    "abstract": "We still do not have an effective treatment for Alzheimer's disease (AD) despite it being the most common cause of dementia and impaired cognitive function. Thus, research endeavors are directed toward identifying AD biomarkers and targets. In this regard, we designed a computational method that exploits multiple hub gene ranking methods and feature selection methods with machine learning and deep learning to identify biomarkers and targets. First, we used three AD gene expression datasets to identify 1/ hub genes based on six ranking algorithms (Degree, Maximum Neighborhood Component (MNC), Maximal Clique Centrality (MCC), Betweenness Centrality (BC), Closeness Centrality, and Stress Centrality), 2/ gene subsets based on two feature selection methods (LASSO and Ridge). Then, we developed machine learning and deep learning models to determine the gene subset that best distinguishes AD samples from the healthy controls. This work shows that feature selection methods achieve better prediction performances than the hub gene sets. Beyond this, the five genes identified by both feature selection methods (LASSO and Ridge algorithms) achieved an AUC = 0.979. We further show that 70% of the upregulated hub genes (among the 28 overlapping hub genes) are AD targets based on a literature review and six miRNA (hsa-mir-16-5p, hsa-mir-34a-5p, hsa-mir-1-3p, hsa-mir-26a-5p, hsa-mir-93-5p, hsa-mir-155-5p) and one transcription factor, JUN, are associated with the upregulated hub genes. Furthermore, since 2020, four of the six microRNA were also shown to be potential AD targets. To our knowledge, this is the first work showing that such a small number of genes can distinguish AD samples from healthy controls with high accuracy and that overlapping upregulated hub genes can narrow the search space for potential novel targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Alzheimer Disease/diagnosis/genetics",
+      "*MicroRNAs/genetics/metabolism",
+      "Algorithms",
+      "Biomarkers",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alamro, Hind",
+        "Thafar, Maha A",
+        "Albaradei, Somayah",
+        "Gojobori, Takashi",
+        "Essack, Magbubah",
+        "Gao, Xin"
+      ],
+      "short_names": [
+        "Alamro H",
+        "Thafar MA",
+        "Albaradei S",
+        "Gojobori T",
+        "Essack M",
+        "Gao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "College of Computer and Information Systems, Umm Al-Qura University, Makkah, Saudi Arabia.",
+        "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "College of Computers and Information Technology, Taif University, Taif, Saudi Arabia.",
+        "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, Saudi Arabia.",
+        "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia. magbubah.essack@kaust.edu.sa.",
+        "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia. magbubah.essack@kaust.edu.sa.",
+        "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia. xin.gao@kaust.edu.sa.",
+        "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia. xin.gao@kaust.edu.sa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alamro, Hind",
+        "short_name": "Alamro H",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+          "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+          "College of Computer and Information Systems, Umm Al-Qura University, Makkah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Thafar, Maha A",
+        "short_name": "Thafar MA",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+          "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+          "College of Computers and Information Technology, Taif University, Taif, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Albaradei, Somayah",
+        "short_name": "Albaradei S",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+          "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+          "Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Gojobori, Takashi",
+        "short_name": "Gojobori T",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+          "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Essack, Magbubah",
+        "short_name": "Essack M",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia. magbubah.essack@kaust.edu.sa.",
+          "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia. magbubah.essack@kaust.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Gao, Xin",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division (CEMSE), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia. xin.gao@kaust.edu.sa.",
+          "Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia. xin.gao@kaust.edu.sa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Mar 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/28 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "42688574",
+      "42661952",
+      "42031881",
+      "41756235",
+      "41473190",
+      "41095723",
+      "41095707",
+      "41013856",
+      "40724878",
+      "40671224",
+      "40408321",
+      "40244285",
+      "40104076",
+      "40076442",
+      "40052173",
+      "40033432",
+      "40021385",
+      "39995567",
+      "39767131",
+      "39639110",
+      "39116438",
+      "39030261",
+      "39000011",
+      "38783263",
+      "38650628",
+      "38445255",
+      "38371787",
+      "37937119",
+      "37896141"
+    ],
+    "refs": [
+      "36743910",
+      "35147545",
+      "34865098",
+      "34326892",
+      "34274565",
+      "34234395",
+      "34194466",
+      "34194312",
+      "33936168",
+      "33589615",
+      "33412755",
+      "33343298",
+      "33237311",
+      "33216036",
+      "32848600",
+      "32782380",
+      "32484539",
+      "32286945",
+      "32251872",
+      "32203153",
+      "32047510",
+      "31876684",
+      "31809862",
+      "31775875",
+      "31564456",
+      "31481890",
+      "31334330",
+      "30137226",
+      "28960209",
+      "28595357",
+      "27570871",
+      "27141961",
+      "27008011",
+      "26906508",
+      "26793112",
+      "26227742",
+      "25521941",
+      "25024750",
+      "23507120",
+      "21063955",
+      "20201822",
+      "18832152",
+      "17077275",
+      "14769913",
+      "11954673",
+      "2678051"
+    ],
+    "similar": [
+      "36973386",
+      "36743910",
+      "38195609",
+      "27501295",
+      "33278902",
+      "29543360",
+      "37697288",
+      "37961387",
+      "29036818",
+      "28137310",
+      "27631879",
+      "31377428",
+      "32135232",
+      "33439992",
+      "37870052",
+      "37916989",
+      "35264666",
+      "31240600",
+      "37621964",
+      "32737762",
+      "35313857",
+      "35811521",
+      "36569892",
+      "37108370",
+      "26426747",
+      "31855458",
+      "32888289",
+      "35169647",
+      "30606694",
+      "31541491",
+      "33182754",
+      "37848007",
+      "26231308",
+      "31903950",
+      "29128636",
+      "30734227",
+      "28927412",
+      "35971175",
+      "33033230",
+      "25922570",
+      "30736753",
+      "28626163",
+      "34775974",
+      "34024830",
+      "36798788",
+      "35386284",
+      "28578378",
+      "29032608",
+      "23922807",
+      "32435051",
+      "35757478",
+      "25189652",
+      "32300359",
+      "27932553",
+      "36195955",
+      "33830627",
+      "36153426",
+      "34955516",
+      "36468451",
+      "35749663",
+      "36647068",
+      "35702791",
+      "33541173",
+      "30547775",
+      "35783137",
+      "36613487",
+      "34434654",
+      "34899827",
+      "33407587",
+      "36251230",
+      "32299382",
+      "36382223",
+      "32396098",
+      "36040555",
+      "36038535",
+      "33500732",
+      "35760398",
+      "30073936",
+      "31788082",
+      "30026881",
+      "36902304",
+      "31003905",
+      "34354368",
+      "35326437",
+      "37062762",
+      "33519899",
+      "36104591",
+      "35114922",
+      "25738263",
+      "27579316",
+      "35968647",
+      "36998473",
+      "26941580",
+      "36343018",
+      "30865617",
+      "38390627",
+      "38036622",
+      "35082831",
+      "37600517",
+      "37715200",
+      "34243793",
+      "39093073",
+      "36809524",
+      "36292623",
+      "37801482",
+      "38915415",
+      "37672968",
+      "36776048",
+      "37238255",
+      "37106067",
+      "38747223",
+      "34234395",
+      "37193138",
+      "37470054",
+      "37179358",
+      "35158118",
+      "35139025",
+      "37256898"
+    ],
+    "review": [
+      "36973386",
+      "31240600",
+      "30734227",
+      "28927412",
+      "35971175",
+      "35760398",
+      "38390627",
+      "34243793"
+    ],
+    "pmc": [
+      "10043000"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-30904-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36973386/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36973386",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2302.01596v1",
+  "title": "A Novel Fuzzy Bi-Clustering Algorithm with AFS for Identification of Co-Regulated Genes",
+  "authors": "Kaijie Xu",
+  "journal": "",
+  "published_date": "2023-02-03",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 4,
+  "one_liner_zh": "提出基于AFS模糊双聚类算法识别共调控基因及其潜在TFBS，但仅用基因表达数据，无蛋白-DNA互作建模或AI/物理模拟方法，与课题关联较弱。",
+  "abstract": "The identification of co-regulated genes and their transcription-factor binding sites (TFBS) are the key steps toward understanding transcription regulation. In addition to effective laboratory assays, various bi-clustering algorithms for detection of the co-expressed genes have been developed. Bi-clustering methods are used to discover subgroups of genes with similar expression patterns under to-be-identified subsets of experimental conditions when applied to gene expression data. By building two fuzzy partition matrices of the gene expression data with the Axiomatic Fuzzy Set (AFS) theory, this paper proposes a novel fuzzy bi-clustering algorithm for identification of co-regulated genes. Specifically, the gene expression data is transformed into two fuzzy partition matrices via sub-preference relations theory of AFS at first. One of the matrices is considering the genes as the universe and the conditions as the concept, the other one is considering the genes as the concept and the conditions as the universe. The identification of the co-regulated genes (bi-clusters) is carried out on the two partition matrices at the same time. Then, a novel fuzzy-based similarity criterion is defined based on the partition matrixes, and a cyclic optimization algorithm is designed to discover the significant bi-clusters at expression level. The above procedures guarantee that the generated bi-clusters have more significant expression values than that of extracted by the traditional bi-clustering methods. Finally, the performance of the proposed method is evaluated with the performance of the three well-known bi-clustering algorithms on publicly available real microarray datasets. The experimental results are in agreement with the theoretical analysis and show that the proposed algorithm can effectively detect the co-regulated genes without any prior knowledge of the gene expression data.",
+  "abstract_zh": "共调控基因及其转录因子结合位点（TFBS）的识别是理解转录调控的关键步骤。除了有效的实验室检测方法外，还开发了多种用于检测共表达基因的双聚类算法。当应用于基因表达数据时，双聚类方法用于发现在待识别的实验条件子集下具有相似表达模式的基因亚组。通过使用公理化模糊集（AFS）理论构建基因表达数据的两个模糊划分矩阵，本文提出了一种新颖的模糊双聚类算法，用于识别共调控基因。具体而言，首先通过AFS的子偏好关系理论将基因表达数据转换为两个模糊划分矩阵。其中一个矩阵将基因视为论域，条件视为概念；另一个矩阵将基因视为概念，条件视为论域。共调控基因（双聚类）的识别同时在这两个划分矩阵上进行。然后，基于划分矩阵定义了一种新颖的基于模糊的相似性准则，并设计了一种循环优化算法，以在表达水平上发现显著的双聚类。上述过程保证了生成的双聚类具有比传统双聚类方法提取的结果更显著的表达值。最后，在公开可用的真实微阵列数据集上，将所提出方法的性能与三种知名双聚类算法的性能进行了评估。实验结果与理论分析一致，并表明所提出的算法无需基因表达数据的任何先验知识即可有效检测共调控基因。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2302.01596v1",
+  "source_url": "https://arxiv.org/abs/2302.01596v1",
+  "paper_page_path": "papers/arxiv/2302.01596v1/index.html"
+}

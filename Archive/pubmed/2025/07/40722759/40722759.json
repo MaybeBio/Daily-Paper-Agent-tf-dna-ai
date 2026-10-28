@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "40722759",
+    "doi": "10.3390/biomedicines13071687",
+    "title": "Identification of Exosome-Associated Biomarkers in Diabetic Foot Ulcers: A Bioinformatics Analysis and Experimental Validation."
+  },
+  "content": {
+    "abstract": "Background: Diabetic foot ulcers (DFUs) are a severe complication of diabetes and are characterized by impaired wound healing and a high amputation risk. Exosomes-which are nanovesicles carrying proteins, RNAs, and lipids-mediate intercellular communication in wound microenvironments, yet their biomarker potential in DFUs remains underexplored. Methods: We analyzed transcriptomic data from GSE134431 (13 DFU vs. 8 controls) as a training set and validated findings in GSE80178 (6 DFU vs. 3 controls). A sum of 7901 differentially expressed genes (DEGs) of DFUs were detected and intersected with 125 literature-curated exosome-related genes (ERGs) to yield 51 candidates. This was followed by GO/KEGG analyses and a PPI network construction. Support vector machine-recursive feature elimination (SVM-RFE) and the Boruta random forest algorithm distilled five biomarkers (DIS3L, EXOSC7, SDC1, STX11, SYT17). Expression trends were confirmed in both datasets. Analyses included nomogram construction, functional and correlation analyses, immune infiltration, GSEA, gene co-expression and regulatory network construction, drug prediction, molecular docking, and RT-qPCR validation in clinical samples. Results: A nomogram combining these markers achieved an acceptable calibration (Hosmer-Lemeshow p = 0.0718, MAE = 0.044). Immune cell infiltration (CIBERSORT) revealed associations between biomarker levels and NK cell and neutrophil subsets. Gene set enrichment analysis (GSEA) implicated IL-17 signaling, proteasome function, and microbial infection pathways. A GeneMANIA network highlighted RNA processing and vesicle trafficking. Transcription factor and miRNA predictions uncovered regulatory circuits, and DGIdb-driven drug repurposing followed by molecular docking identified Indatuximab ravtansine and heparin as high-affinity SDC1 binders. Finally, RT-qPCR validation in clinical DFU tissues (n = 5) recapitulated the bioinformatic expression patterns. Conclusions: We present five exosome-associated genes as novel DFU biomarkers with diagnostic potential and mechanistic links to immune modulation and vesicular transport. These findings lay the groundwork for exosome-based diagnostics and therapeutic targeting in DFU management.",
+    "keywords": [
+      "diabetic foot ulcers",
+      "exosome-associated biomarkers",
+      "immune infiltration",
+      "machine learning",
+      "molecular docking"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Tianbo",
+        "Gao, Lei",
+        "Wang, Jiangning"
+      ],
+      "short_names": [
+        "Li T",
+        "Gao L",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-1882-4157",
+        "ORCID: 0000-0003-1009-9529"
+      ],
+      "affiliations": [
+        "Department of Orthopedics Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing 100038, China.",
+        "Department of Orthopedics Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing 100038, China.",
+        "Department of Orthopedics Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing 100038, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Tianbo",
+        "short_name": "Li T",
+        "identifiers": [
+          "0009-0006-1882-4157"
+        ],
+        "affiliations": [
+          "Department of Orthopedics Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing 100038, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Lei",
+        "short_name": "Gao L",
+        "identifiers": [
+          "0000-0003-1009-9529"
+        ],
+        "affiliations": [
+          "Department of Orthopedics Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing 100038, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiangning",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing 100038, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicines"
+    ],
+    "journal_abbrev": [
+      "Biomedicines"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 06:29",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42405671",
+      "41322696"
+    ],
+    "refs": [
+      "40045779",
+      "39498056",
+      "39026930",
+      "38950058",
+      "38898068",
+      "38372560",
+      "38267402",
+      "37967204",
+      "37862970",
+      "37370102",
+      "37158744",
+      "36933293",
+      "36578871",
+      "36407102",
+      "36230913",
+      "36036977",
+      "35881427",
+      "35873915",
+      "35756044",
+      "35584326",
+      "35582997",
+      "35130118",
+      "35085918",
+      "34185424",
+      "34020670",
+      "33804192",
+      "33646060",
+      "33496820",
+      "32978505",
+      "32949564",
+      "32901098",
+      "32305816",
+      "32117579",
+      "32104259",
+      "31398847",
+      "31387992",
+      "30916434",
+      "30638126",
+      "30261592",
+      "29959131",
+      "29928340",
+      "29794152",
+      "29432814",
+      "28922523"
+    ],
+    "similar": [
+      "40722759",
+      "41465092",
+      "40024299",
+      "40487403",
+      "38287255",
+      "38076120",
+      "39991734",
+      "39079197",
+      "40796870",
+      "39228680",
+      "40349610",
+      "40162084",
+      "41150817",
+      "40630119",
+      "38468410",
+      "39375405",
+      "41310324",
+      "41503916",
+      "41146237",
+      "40728954",
+      "39341981",
+      "36299206",
+      "38613800",
+      "40354856",
+      "38145013",
+      "40616164",
+      "38951833",
+      "41198416",
+      "41200172",
+      "41104243",
+      "39789578",
+      "38862997",
+      "41044520",
+      "38015522",
+      "40362543",
+      "40312440",
+      "41272316",
+      "41415264",
+      "40374840",
+      "40406126",
+      "37340026",
+      "39697326",
+      "41013556",
+      "41322696",
+      "39037979",
+      "36443035",
+      "39351221",
+      "36226171",
+      "39170142",
+      "40901493",
+      "39543487",
+      "36524127",
+      "35280410",
+      "40703704",
+      "38260098",
+      "41388523",
+      "36819522",
+      "37926487",
+      "39754246",
+      "40677720",
+      "41324863",
+      "41378005",
+      "36704339",
+      "41291841",
+      "41214111",
+      "35719392",
+      "40749079",
+      "41084494",
+      "40529896",
+      "40630623",
+      "38358067",
+      "40616392",
+      "35845512",
+      "41479901",
+      "41132349",
+      "34107850",
+      "35958412",
+      "41378129",
+      "36532015",
+      "39270557",
+      "37605780",
+      "39351239",
+      "39557273",
+      "40768057",
+      "41190071",
+      "36686438",
+      "40110435",
+      "41220724",
+      "40526256",
+      "38434138",
+      "33314661",
+      "35909542",
+      "40406620",
+      "40860946",
+      "39509434",
+      "39968099",
+      "41183121",
+      "40750912",
+      "36250071",
+      "38863714"
+    ],
+    "review": [
+      "40722759"
+    ],
+    "pmc": [
+      "12292131"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomedicines13071687",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40722759/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4060",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

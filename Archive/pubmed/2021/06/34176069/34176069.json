@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "34176069",
+    "doi": "10.1007/s10930-021-10011-y",
+    "title": "UMAP-DBP: An Improved DNA-Binding Proteins Prediction Method Based on Uniform Manifold Approximation and Projection."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins play a vital role in cellular processes. It is an extremely urgent to develop a high-throughput method for efficiently identifying DNA-binding proteins. According to the current research situation, some methods in machine learning and deep learning show excellent computational speed and accuracy, which are worthy of application. In this work, a novel predictor was proposed to predict DNA binding proteins called UMAP-DBP. Firstly, the feature extraction of primary protein sequence was realized based on physicochemical distance transformation, Profile-based auto-cross covariance and General series correlation pseudo amino acid composition. Secondly, uniform manifold approximation and projection (UMAP) and feature importance score methods were used for feature selection; there is a progressive relationship between them. Finally, the Adaboost operation engine with jackknife test were adopted for predicting DNA-binding proteins. For the jackknife test on the BP1075 and BP594, we obtained an overall accuracy of 82.97% and 82.14%, Cohen's kappa (CK) of 0.66 and 0.64, respectively. The results illustrate that a feasible method has been developed for predicting DNA-binding proteins by UMAP and Adaboost. This is the first study in which UMAP has been successfully applied to identify DNA-binding proteins. All the datasets and codes are accessible at https://github.com/Wang-Jinyue/UMAP-DBP .",
+    "keywords": [
+      "Adaboost",
+      "DNA-binding proteins",
+      "Feature importance score",
+      "Uniform manifold approximation and projection"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "*Computational Biology",
+      "DNA-Binding Proteins/*chemistry",
+      "Predictive Value of Tests",
+      "Protein Conformation",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jinyue",
+        "Zhang, Shengli",
+        "Qiao, Huijuan",
+        "Wang, Jiesheng"
+      ],
+      "short_names": [
+        "Wang J",
+        "Zhang S",
+        "Qiao H",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8786-0940"
+      ],
+      "affiliations": [
+        "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, P. R. China.",
+        "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, P. R. China. shengli0201@163.com.",
+        "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, P. R. China.",
+        "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jinyue",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengli",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0001-8786-0940"
+        ],
+        "affiliations": [
+          "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, P. R. China. shengli0201@163.com."
+        ]
+      },
+      {
+        "full_name": "Qiao, Huijuan",
+        "short_name": "Qiao H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiesheng",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The protein journal"
+    ],
+    "journal_abbrev": [
+      "Protein J"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/28 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "38454333",
+      "35519609",
+      "35474167",
+      "35379910",
+      "34743286"
+    ],
+    "refs": [
+      "32168446",
+      "30986042",
+      "30593778",
+      "30550863",
+      "30339812",
+      "30312687",
+      "29360500",
+      "25919688",
+      "25918847",
+      "24189096",
+      "23426256",
+      "23029559",
+      "21914805",
+      "19911048",
+      "19706744",
+      "19385697",
+      "18042272",
+      "17998252",
+      "16284202",
+      "15356290",
+      "12837780",
+      "11288174",
+      "11104519",
+      "10471930",
+      "10410794",
+      "9847231",
+      "8950272",
+      "8749849",
+      "7851912",
+      "3166998",
+      "2590181",
+      "2390062",
+      "1180967",
+      "763335",
+      "731698"
+    ],
+    "similar": [
+      "34176069",
+      "34609167",
+      "33238837",
+      "39333868",
+      "32144887",
+      "34963591",
+      "17624492",
+      "38316843",
+      "35013702",
+      "36174933",
+      "21342579",
+      "25184541",
+      "37722342",
+      "33588368",
+      "30986042",
+      "29753757",
+      "31123959",
+      "34320340",
+      "30598073",
+      "37603212",
+      "35378437",
+      "36719781",
+      "32300371",
+      "36193047",
+      "33475958",
+      "23497329",
+      "38772054",
+      "27907159",
+      "33057159",
+      "33529337",
+      "37409055",
+      "33476047",
+      "20049515",
+      "16773245",
+      "32946833",
+      "36187912",
+      "26460680",
+      "39000158",
+      "38486135",
+      "32142788",
+      "26482832",
+      "35177136",
+      "35448241",
+      "36175974",
+      "37704152",
+      "22316304",
+      "32920048",
+      "36814837",
+      "29678694",
+      "19490865",
+      "38086138",
+      "36659917",
+      "21919855",
+      "18288459",
+      "31766665",
+      "24448651",
+      "28113908",
+      "24475169",
+      "30668479",
+      "30531897",
+      "33398244",
+      "32352006",
+      "36004566",
+      "18256886",
+      "27490858",
+      "35002665",
+      "30943723",
+      "31888057",
+      "33338382",
+      "30414728",
+      "33079990",
+      "33835451",
+      "34699363",
+      "37510067",
+      "25196432",
+      "31267738",
+      "33068261",
+      "24977146",
+      "39220019",
+      "32420339",
+      "26406767",
+      "37497043",
+      "31603468",
+      "23788679",
+      "27565741",
+      "29097781",
+      "21935457",
+      "31693872",
+      "19995336",
+      "32846127",
+      "20670213",
+      "37093052",
+      "29940836",
+      "30452960",
+      "24675610",
+      "30032213",
+      "29270430",
+      "35887125",
+      "34063107",
+      "21728988",
+      "30529702",
+      "22868682",
+      "39001715",
+      "29380690",
+      "28155714",
+      "28937647",
+      "37710784",
+      "21698456",
+      "32770027",
+      "27378005",
+      "21344173",
+      "12758155",
+      "34073705",
+      "33267753",
+      "30316822",
+      "37390182",
+      "30957840",
+      "18726140",
+      "20640811",
+      "16274699",
+      "31029609",
+      "28841194",
+      "32886252",
+      "35225611",
+      "35665240",
+      "33973773",
+      "37437362",
+      "37978902",
+      "32806680",
+      "36299898",
+      "35389869",
+      "36147670",
+      "39409884",
+      "38084963",
+      "34981033",
+      "38015858",
+      "35521556",
+      "35092902",
+      "34276830",
+      "35783576",
+      "36425757"
+    ],
+    "review": [
+      "34176069",
+      "33057159"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10930-021-10011-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CHKA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

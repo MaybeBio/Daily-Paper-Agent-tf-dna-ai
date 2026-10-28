@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "39615185",
+    "doi": "10.1016/j.crad.2024.106746",
+    "title": "MRI-based radiomics virtual biopsy for BCL6 in primary central nervous system lymphoma."
+  },
+  "content": {
+    "abstract": "AIM: To establish a machine learning model based on a radiomic signature for predicting B-cell lymphoma 6 (BCL-6) rearrangement in primary central nervous system lymphoma (PCNSL). MATERIALS AND METHODS: Retrospective study on 102 PCNSL patients (31 with BCL-6 rearrangement positive, 71 with BCL-6 rearrangement negative) were randomly divided into the training and validation sets at a ratio of 7:3. Radiomics models based on contrast-enhanced T1-weighted imaging (CE-T1WI) and fluid-attenuated inversion recovery (FLAIR) in different regions, including VOI(tumour core) and VOI(peritumoural oedema.) Radiomics features were extracted and selected using LASSO regression, and radiomics score (rad-score) were calculated using the weighted coefficients. Four machine learning models (logistic regression, random forest, support vector machine, K-nearest neighbours) were developed and evaluated based on rad-score. The optimal radiomics model was integrated into the clinical or radiological factors to construct a predictive model through logistic regression analysis. A nomogram was constructed based on independent significant features for individualised prediction. RESULTS: All rad-scores based on CE-T1WI and FLAIR sequences were significantly associated with BCL6 rearrangement (p < 0.05) in univariate regression analysis. The logistic regression machine learning model performed best with AUCs of 0.935 (training) and 0.923 (validation). Rad-scores from CE-T1WI tumour core and peritumoural oedema were independent significant predictors. CONCLUSION: Radiomics signatures based on CE-T1WI and FLAIR sequences have significant value in distinguishing BCL6 rearrangement. The CE-T1WI radiomics model based on VOI(tumour core) and VOI(peritumoural oedema) are robust markers for identifying BCL6 rearrangement.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Proto-Oncogene Proteins c-bcl-6/genetics",
+      "Male",
+      "Female",
+      "Retrospective Studies",
+      "Middle Aged",
+      "*Central Nervous System Neoplasms/diagnostic imaging/genetics/pathology",
+      "*Magnetic Resonance Imaging/methods",
+      "Adult",
+      "Machine Learning",
+      "Aged",
+      "*Lymphoma/diagnostic imaging/pathology/genetics",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, J",
+        "Tu, J",
+        "Yao, L",
+        "Peng, L",
+        "Fang, R",
+        "Lu, Y",
+        "He, F",
+        "Xiong, J",
+        "Li, Y"
+      ],
+      "short_names": [
+        "Liu J",
+        "Tu J",
+        "Yao L",
+        "Peng L",
+        "Fang R",
+        "Lu Y",
+        "He F",
+        "Xiong J",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "State Key Laboratory of Genetic Engineering, Human Phenome Institute, School of Life Sciences, Fudan University, Shanghai, China.",
+        "Department of Radiology, Guangdong Provincial People Hospital Nanhai Hospital, Foshan, Guangdong Province, China.",
+        "Department of Radiology, Chizhou People Hospital, Chizhou, Anhui Province, China.",
+        "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Pathology, Huashan Hospital, Fudan University, Shanghai, China. Electronic address: dabenx@163.com.",
+        "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China. Electronic address: liyuxin@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, J",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Tu, J",
+        "short_name": "Tu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yao, L",
+        "short_name": "Yao L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, Human Phenome Institute, School of Life Sciences, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Peng, L",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People Hospital Nanhai Hospital, Foshan, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Fang, R",
+        "short_name": "Fang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Chizhou People Hospital, Chizhou, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Y",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "He, F",
+        "short_name": "He F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, J",
+        "short_name": "Xiong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Huashan Hospital, Fudan University, Shanghai, China. Electronic address: dabenx@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Y",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Huashan Hospital, Fudan University, Shanghai, China. Electronic address: liyuxin@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical radiology"
+    ],
+    "journal_abbrev": [
+      "Clin Radiol"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/01 15:22",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "42278909",
+      "41440512",
+      "40190416",
+      "39853344"
+    ],
+    "refs": [],
+    "similar": [
+      "39615185",
+      "41188258",
+      "40467374",
+      "41840692",
+      "38976966",
+      "38970331",
+      "39853344",
+      "40551696",
+      "40348709",
+      "41826882",
+      "40311274",
+      "39523101",
+      "39210161",
+      "39253996",
+      "39962371",
+      "38992609",
+      "38887926",
+      "41826951",
+      "40924329",
+      "39929267",
+      "29626238",
+      "39904666",
+      "41176890",
+      "38409300",
+      "42406147",
+      "39816566",
+      "30232517",
+      "38458887",
+      "40790187",
+      "42159881",
+      "41087962",
+      "37155523",
+      "42142271",
+      "38997568",
+      "33890149",
+      "35652509",
+      "40624579",
+      "40597786",
+      "36282309",
+      "38808580",
+      "40330833",
+      "37955154",
+      "40108506",
+      "41484645",
+      "40747552",
+      "39181825",
+      "40436711",
+      "40119284",
+      "38308802",
+      "36463703",
+      "38508934",
+      "41128868",
+      "39575426",
+      "40391963",
+      "41402927",
+      "37586967",
+      "39415127",
+      "40758203",
+      "35480114",
+      "40832718",
+      "40612349",
+      "32864825",
+      "41575657",
+      "38108536",
+      "42180954",
+      "39640273",
+      "41673110",
+      "35875061",
+      "41327771",
+      "39995745",
+      "39733718",
+      "41044877",
+      "33694250",
+      "35945526",
+      "39812042",
+      "40632147",
+      "40368928",
+      "41315987",
+      "41558987",
+      "30396648",
+      "38192872",
+      "39668711",
+      "39107190",
+      "40958270",
+      "37643930",
+      "38272767",
+      "38071100",
+      "39026540",
+      "36681946",
+      "42130731",
+      "41604786",
+      "40155892",
+      "38006286",
+      "38690027",
+      "40228322",
+      "38650477",
+      "38729227",
+      "36212455",
+      "40641917",
+      "38672080"
+    ],
+    "review": [
+      "39615185"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-9260(24)00624-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0009-9260(24)00624-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

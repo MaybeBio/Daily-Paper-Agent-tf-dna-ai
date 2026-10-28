@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that HMCES DNA-protein cross-links (DPCs) at AP sites in single-stranded DNA promote template slippage during replication, thereby increasing mutagenicity in a manner independent of the extent of DPC proteolysis and dependent on the 5' template nucleotide.
+- **Visible evidence base** Xenopus egg extract experiments and molecular dynamics simulations, as described in the abstract; specific data not available
+- **Missing materials affecting confidence** Full text, figures, tables, methods, statistical analyses, simulation parameters, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic model for how HMCES-DPCs influence mutagenic bypass of AP sites. The claim that mutagenicity is insensitive to the extent of proteolysis and depends only on cross-link formation is provocative and, if well supported, would advance the field. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental design, the statistical power, or the validity of the molecular dynamics simulations. The central mechanistic proposal, template slippage directed by the 5' nucleotide, is plausible but requires direct experimental evidence that is not described here.
+- **Who would be interested in the results, and why** Researchers studying DNA replication fidelity, DNA damage tolerance, translesion synthesis, and genome instability would be interested. The work also has relevance for understanding how protein-DNA cross-link repair interfaces with mutagenesis, which is of interest to the DNA repair community and to those studying cancer-associated mutations.
+- **Major strengths** The study addresses a timely and important question about how a physiologically relevant DPC influences mutagenic outcomes. The combination of biochemical reconstitution in Xenopus egg extracts with molecular dynamics simulations is a strong approach. The finding that mutagenicity is independent of the extent of proteolysis is surprising and could shift current thinking about how DPC processing affects TLS outcomes.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "the mutagenicity of HMCES-DPC bypass is insensitive to the extent of DPC proteolysis and depends only on cross-link formation."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states this conclusion but provides no quantitative data, no comparison of conditions with different proteolysis extents, and no statistical analysis. It is unclear how "insensitivity" was established, what range of proteolysis extents was tested, and whether the result holds across different sequence contexts.  
+  - **Why it matters** This is the central claim of the paper. If the conclusion is not rigorously supported, the mechanistic model collapses. The claim also contradicts a plausible expectation that larger adducts would be more blocking or more mutagenic, so the evidence must be convincing.  
+  - **Resolution test** Provide dose-response or time-course data showing that partial versus complete proteolysis yields equivalent mutation frequencies and spectra, with appropriate statistical power and controls for replication efficiency.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The authors propose that "HMCES-DPC formation increases the conformational flexibility of the DNA template, allowing template slippage and use of the 5' template nucleotide to direct insertion opposite the adducted AP site."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract mentions molecular dynamics simulations but does not describe what they showed. No experimental evidence for template slippage is presented, such as primer extension assays with defined sequence contexts, mutational signatures that distinguish slippage from direct misincorporation, or structural data. The link between simulation and biochemical observation is not established.  
+  - **Why it matters** Template slippage is a specific and testable mechanism. Without direct evidence, the model remains speculative. The claim that the 5' nucleotide directs insertion is a strong mechanistic statement that requires demonstration that the inserted base is complementary to the 5' nucleotide, not the AP site or another template position.  
+  - **Resolution test** Show that mutation spectra in defined sequence contexts match the prediction of slippage, and that molecular dynamics simulations reveal a conformational state consistent with slippage that is dependent on the DPC. Ideally, include a mutant HMCES that cannot form the cross-link as a control.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors state that "the spectrum of mutations produced during bypass of HMCES-adducts strongly depends on the template strand nucleotide immediately 5' of the AP site."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not indicate how many sequence contexts were tested, whether the effect is universal or context-dependent, or whether the 5' nucleotide effect is observed for all four possible nucleotides. The strength of the dependence is not quantified.  
+  - **Why it matters** If the effect is limited to certain contexts, the model would need refinement. The claim as stated implies a general rule, which requires broader testing.  
+  - **Resolution test** Present mutation spectra for a panel of sequence contexts covering all four 5' nucleotides, with replicates and statistical comparison of spectra across contexts.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "more dynamic ring-opened configuration" is vague. It is unclear what "dynamic" means in this context and how it was measured or inferred.  
+  - **Required correction** Define "dynamic" operationally, and specify whether this refers to conformational sampling in simulations, experimental probing, or inference from mutagenesis outcomes.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify the HMCES construct used, the AP site position relative to the primer terminus, or the replication system details.  
+  - **Required correction** Provide these details in the full text, and briefly mention them in the abstract if space permits.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** SPRTN processing  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that SPRTN processes the DPC to a five amino acid peptide adduct, but it is unclear whether this is the only product or whether other products exist.  
+  - **Required correction** Clarify whether the five amino acid peptide is the sole product under the conditions used, and whether other proteolysis products were observed.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claims of proteolysis insensitivity and template slippage are not established from the abstract alone. The authors must provide quantitative experimental data and simulation results that directly support these claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea that a DPC can promote template slippage is novel and not a simple extension of existing models. This is a strength.  
+  - Scientific importance: The work addresses a fundamental question in DNA damage tolerance and mutagenesis. If the claims hold, it would be important.  
+  - Interdisciplinary readership: The topic bridges DNA repair, replication, and computational biology, which could attract a broad readership.  
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methodological detail and quantitative results is a major limitation.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms without definition. It is accessible to a specialist audience but not to a general scientific readership.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but does not provide sufficient data to support the central claims. I would be supportive if the technical concerns are resolved with rigorous experimental and simulation data.
+
+## Risk / unsupported claims
+- The claim that mutagenicity is insensitive to the extent of DPC proteolysis is unsupported without quantitative data.
+- The claim that template slippage is the mechanism is unsupported without direct experimental evidence.
+- The claim that the 5' nucleotide directs insertion is unsupported without mutation spectra data across multiple contexts.
+- The statement that the AP site is trapped in a "more dynamic ring-opened configuration" is not defined or evidenced.
+- The generalizability of the 5' nucleotide effect is not assessable from the abstract.

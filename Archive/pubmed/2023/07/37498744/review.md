@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of full methodology, figures, or statistical analyses
+- **Shared manuscript claim summary** The abstract claims that alternative splicing of Foxp3 exon 2 produces a functionally active isoform, Foxp3Delta2, which differentially regulates thymus-derived Tregs (tTregs) and peripherally induced Tregs (pTregs). Specifically, Foxp3Delta2 enhances DNA binding to the Batf promoter, reduces TCR sensitivity and IL-2 responsiveness in tTregs, and promotes RORgammat-related gene expression in pTregs, conferring a competitive advantage.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental details, statistical analyses, figure legends, and any supplementary information are not available. This limits verification of all mechanistic and quantitative claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel finding regarding the functional role of a Foxp3 splice isoform in distinct Treg subsets. However, the evidence base is limited to the abstract, and several mechanistic claims are stated without sufficient detail to assess their robustness. The conclusion that Foxp3Delta2 is an "active form" with differential roles is plausible but not fully established from the provided material.
+- **Who would be interested in the results, and why** Immunologists studying regulatory T cell biology, particularly those focused on Foxp3 isoforms, Treg subset differentiation, and tissue-specific immune regulation. Clinicians and researchers interested in autoimmune diseases or inflammatory bowel disease may also find relevance given the involvement of pTregs in gut immunity.
+- **Major strengths** The study addresses a clear gap in understanding the functional significance of Foxp3 alternative splicing. The use of AlphaFold2 predictions combined with in vitro experiments is a modern and integrative approach. The differential effects on tTregs versus pTregs provide a nuanced view of Treg biology that could have broad implications.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "The N-terminal domain of Foxp3 inhibits DNA binding by moving toward the C terminus and that this movement is mediated by exon 2."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that AlphaFold2 predictions and in vitro experiments demonstrate a conformational movement of the N-terminal domain mediated by exon 2. However, no specific experimental data, such as structural validation or binding assays, are described. The claim that this movement "mediates" the inhibition is not supported by direct evidence in the abstract.
+  - **Why it matters** This is a foundational mechanistic claim that underpins the entire functional model. Without clear evidence for the conformational change and its causal role, the subsequent functional differences attributed to Foxp3Delta2 are weakened.
+  - **Resolution test** Provide structural data (e.g., mutagenesis, FRET, or HDX-MS) and functional assays showing that exon 2 deletion alters N-terminal movement and that this directly affects DNA binding affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional specificity
+  - **Claim pointer** "Foxp3Delta2-bearing tTregs are less sensitive to TCR stimulation due to enhanced binding of Foxp3Delta2 to the Batf promoter and are hyporesponsive to IL-2."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The causal link between enhanced Batf promoter binding and reduced TCR sensitivity or IL-2 hyporesponsiveness is not explained. The abstract does not clarify whether Batf is a direct target that suppresses TCR signaling or IL-2 receptor expression, nor does it provide quantitative data on binding affinity or functional outcomes.
+  - **Why it matters** The claim implies a specific molecular mechanism that is central to the tTreg phenotype. Without mechanistic detail, the conclusion that Foxp3Delta2 "differentially regulates" tTreg homeostasis is not fully substantiated.
+  - **Resolution test** Include chromatin immunoprecipitation (ChIP) data for Foxp3Delta2 at the Batf promoter, reporter assays, and functional rescue experiments (e.g., Batf knockdown or overexpression) to establish causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Population-level interpretation
+  - **Claim pointer** "Among RORgammat(+) pTregs in the large intestine, Foxp3Delta2 pTregs express many more RORgammat-related genes, conferring a competitive advantage."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not define what "competitive advantage" means operationally (e.g., proliferation, survival, or suppressive function) nor how it was measured. The claim that Foxp3Delta2 pTregs express "many more" RORgammat-related genes is vague without specifying the gene set or the magnitude of difference.
+  - **Why it matters** This is a key functional outcome that supports the differential role of Foxp3Delta2. Without clear metrics and statistical support, the conclusion remains speculative.
+  - **Resolution test** Provide quantitative gene expression data (e.g., RNA-seq or qPCR) with statistical comparisons, and functional assays (e.g., competitive transfer experiments) to demonstrate the advantage.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "active form" is used to describe Foxp3Delta2, but the abstract does not define what "active" means in this context (e.g., enhanced DNA binding, transcriptional activity, or functional potency).
+  - **Required correction** Define "active form" explicitly, preferably with reference to a specific functional assay.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Species relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "human Foxp3" splicing but does not clarify whether the functional studies were performed in human cells or mouse models. This ambiguity affects the translational relevance.
+  - **Required correction** Specify the experimental systems used (e.g., human cell lines, mouse Tregs) and discuss any species-specific differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Quantitative claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that tTregs are "less sensitive" and pTregs express "many more" genes, but no effect sizes, p-values, or confidence intervals are provided.
+  - **Required correction** Include key statistical metrics in the abstract or refer to specific figures with statistical details.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks sufficient mechanistic and quantitative evidence to support the central claims. Specifically, the conformational mechanism, the causal link to Batf, and the definition of competitive advantage are not established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study appears original in addressing the functional role of Foxp3Delta2 in distinct Treg subsets, which is a relatively underexplored area. However, the abstract does not provide enough context to assess novelty against existing literature.
+  - **Scientific importance** The findings could be important for understanding Treg heterogeneity and tissue-specific immune regulation, with potential implications for immunotherapy. However, the importance is not fully demonstrated without robust evidence.
+  - **Interdisciplinary readership** The topic is primarily of interest to immunologists; broader interdisciplinary appeal is limited unless the structural mechanism (AlphaFold2) is more deeply integrated.
+  - **Technical soundness** The abstract suggests a combination of computational and experimental approaches, but the technical details are insufficient to judge soundness. The lack of statistical and methodological information is a concern.
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses specialized terms (e.g., tTreg, pTreg, RORgammat) without definitions, which may limit accessibility for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the mechanistic and quantitative claims are not sufficiently supported. A full manuscript with detailed methods, figures, and statistical analyses would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that the N-terminal domain of Foxp3 inhibits DNA binding via exon 2-mediated movement is unsupported by direct evidence in the abstract.
+- The causal relationship between enhanced Batf promoter binding and reduced TCR sensitivity or IL-2 hyporesponsiveness is not established.
+- The term "competitive advantage" in pTregs is undefined and lacks supporting data.
+- The generalizability of findings from human Foxp3 splicing to the experimental models used is unclear.
+- Any quantitative claims (e.g., "less sensitive," "many more") are not verifiable without statistical details.

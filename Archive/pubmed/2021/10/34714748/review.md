@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose PredDBR, a sequence-based method for predicting protein-DNA binding residues, which integrates position-specific frequency matrix (PSFM), predicted secondary structure (PSS), and predicted probabilities of ligand-binding residues (PPLBR) as feature sources, transforms matrix-format features into cube-format features via square root (SR) and average (AVE) strategies, and employs an ensemble classifier built on 2D convolutional neural networks with bagging. The method reportedly achieves an average overall accuracy of 93.7% and a Matthews correlation coefficient of 0.405 on two independent validation datasets, outperforming several state-of-the-art sequence-based predictors.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline specifications, or numerical results beyond the two reported metrics
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset composition and split details, baseline predictor versions and parameter settings, statistical significance tests, web-server implementation details, and any supplementary figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach for a well-studied problem in bioinformatics. The combination of multiple sequence-derived features with a deep learning ensemble is not conceptually novel, but the specific cube-format feature transformation and bagging strategy may offer incremental value. However, the evidence provided in the abstract is insufficient to evaluate the robustness of the reported performance, the fairness of comparisons, or the generalizability of the method. The reported accuracy of 93.7% is unusually high for this task and raises concerns about dataset leakage, class imbalance handling, or evaluation protocol, none of which can be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, DNA-binding site prediction, and machine learning applications to biological sequence analysis. Researchers developing deep learning methods for structured feature representations may also find the cube-format transformation and bagging ensemble of interest.
+- **Major strengths** The method integrates multiple complementary sequence-derived features, which is a reasonable strategy for improving prediction performance. The use of a 2D convolutional neural network on cube-format features is a creative adaptation of deep learning to structured biological features. The provision of a web server enhances practical utility and reproducibility for the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves an average overall accuracy of 93.7% and a Matthews correlation coefficient of 0.405 on two independent validation datasets.
+  - **Evidence pointer** Abstract, results statement; location not provided
+  - **Concern** The reported accuracy of 93.7% is exceptionally high for protein-DNA binding residue prediction, where typical state-of-the-art methods report accuracy in the range of 70-85% and MCC values often below 0.5. The large gap between accuracy and MCC (0.405) suggests a highly imbalanced dataset, which is common in this task, but the abstract does not describe how class imbalance was handled in training or evaluation. The high accuracy could result from a trivial majority-class classifier if the positive class is rare, and the MCC value, while modest, does not fully mitigate this concern. Additionally, the abstract does not specify whether the two validation datasets were used for hyperparameter tuning or only for final evaluation, which is critical for assessing potential overfitting.
+  - **Why it matters** Without clarity on dataset composition, class distribution, and evaluation protocol, the reported performance cannot be interpreted meaningfully. If the high accuracy is driven by class imbalance or data leakage, the method's true predictive power may be substantially lower than claimed, undermining the core contribution of the paper.
+  - **Resolution test** Provide the number of positive and negative residues in each dataset, describe the training/validation/test split protocol, confirm that the two independent datasets were not used in any model development or hyperparameter selection, and report precision, recall, and F1-score alongside accuracy and MCC. If possible, include ROC or PR curves to contextualize performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method outperforms several state-of-the-art sequence-based protein-DNA binding residue predictors.
+  - **Evidence pointer** Abstract, results statement; location not provided
+  - **Concern** The abstract does not name the specific baseline predictors, their versions, or the exact datasets and evaluation metrics used for comparison. Without this information, the claim of outperformance cannot be verified. It is also unclear whether the baselines were retrained on the same training data or used with their default pre-trained models, which can significantly affect comparative results. The absence of statistical significance testing further weakens the claim.
+  - **Why it matters** A central claim of the paper is superiority over existing methods. If the comparison is not fair or not statistically validated, the practical value of PredDBR relative to established tools remains unsubstantiated.
+  - **Resolution test** List all baseline predictors with publication references and version numbers, describe the exact evaluation protocol (e.g., same training/testing splits, same feature inputs where applicable), and report results of paired statistical tests (e.g., McNemar's test) for each comparison.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The PredDBR web-server is available at https://jun-csbio.github.io/PredDBR/.
+  - **Evidence pointer** Abstract, availability statement; location not provided
+  - **Concern** The abstract states that a web server is available, but no information is provided about the implementation, input/output formats, runtime, or whether the server supports batch processing. It is also unclear whether the underlying model and code are open-source or only accessible via the web interface. Reproducibility of the reported results requires access to the trained model and the exact feature generation pipeline.
+  - **Why it matters** For a computational method to be adopted by the community, reproducibility is essential. A web server alone, without source code or detailed documentation, limits the ability of other researchers to verify results or apply the method to custom datasets.
+  - **Resolution test** Provide a link to the source code and trained models, describe the web server's input requirements and output format, and include a usage example or tutorial. If the code is not open-source, justify this restriction and provide sufficient detail in the manuscript to allow independent reimplementation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Feature transformation description
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Issue** The abstract states that square root (SR) and average (AVE) strategies are used to transform matrix-format features into cube-format features, but the rationale for choosing these two specific transformations and how they differ in effect is not explained.
+  - **Required correction** Briefly justify the choice of SR and AVE transformations and describe what each transformation captures in terms of feature properties.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, results statement; location not provided
+  - **Issue** The abstract mentions "two independent validation datasets" but does not name them or describe their origin, size, or composition.
+  - **Required correction** Specify the dataset names, number of proteins and residues, and the source of each dataset in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Metric naming
+  - **Evidence pointer** Abstract, results statement; location not provided
+  - **Issue** The abstract uses "Mathew's correlation coefficient," which is a common misspelling. The correct term is "Matthews correlation coefficient."
+  - **Required correction** Correct the spelling to "Matthews correlation coefficient" throughout the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core performance claims cannot be evaluated or trusted without detailed dataset and comparison information. R1-M3 is non-blocking but important for reproducibility.
+
+## Risk / unsupported claims
+- The claim of outperforming state-of-the-art predictors is unsupported because baseline names, versions, and evaluation protocols are not provided.
+- The reported accuracy of 93.7% is not interpretable without class distribution information and additional metrics such as precision, recall, and F1-score.
+- The generalizability of the method to unseen protein families or structures is not assessable from the abstract.
+- The practical utility of the web server cannot be evaluated without implementation details or a usage demonstration.

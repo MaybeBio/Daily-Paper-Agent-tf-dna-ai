@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40165388",
+  "title": "Deep Neural Network-Mining of Rice Drought-Responsive TF-TAG Modules by a Combinatorial Analysis of ATAC-Seq and RNA-Seq.",
+  "authors": "Liu, Jingpeng; Shi, Ximiao; Zhang, Zhitai; Cen, Xuexiang; Lin, Lixian; Wang, Xiaowei; Chen, Zhongxian; Zhang, Yu; Zheng, Xiangzi; Wu, Binghua; Miao, Ying",
+  "journal": "Plant, cell & environment",
+  "published_date": "2025-04-01",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用ATAC-seq和RNA-seq整合分析及九层卷积神经网络TFBind预测水稻干旱响应转录因子与靶基因结合模块，属于TF-DNA结合位点预测的AI方法应用，但未深入三维互作机制建模。",
+  "abstract": "Drought is a critical risk factor that impacts rice growth and yields. Previous studies have focused on the regulatory roles of individual transcription factors in response to drought stress. However, there is limited understanding of multi-factor stresses gene regulatory networks and their mechanisms of action. In this study, we utilised data from the JASPAR database to compile a comprehensive dataset of transcription factors and their binding sites in rice, Arabidopsis, and barley genomes. We employed the PyTorch framework for machine learning to develop a nine-layer convolutional deep neural network TFBind. Subsequently, we obtained rice RNA-seq and ATAC-seq data related to abiotic stress from the public database. Utilising integrative analysis of WGCNA and ATAC-seq, we effectively identified transcription factors associated with open chromatin regions in response to drought. Interestingly, only 81% of the transcription factors directly bound to the opened genes by testing with TFBind model. By this approach we identified 15 drought-responsive transcription factors corresponding to open chromatin regions of targets, which enriched in the terms related to protein transport, protein allocation, nitrogen compound transport. This approach provides a valuable tool for predicting TF-TAG-opened modules during biological processes.",
+  "abstract_zh": "干旱是影响水稻生长和产量的关键风险因素。以往研究聚焦于单个转录因子在干旱胁迫响应中的调控作用，然而，对多因素胁迫下的基因调控网络及其作用机制的理解仍十分有限。在本研究中，我们利用JASPAR数据库的数据，汇编了水稻、拟南芥和大麦基因组中转录因子及其结合位点的综合数据集。我们采用PyTorch框架进行机器学习，开发了一个九层卷积深度神经网络TFBind。随后，我们从公共数据库获取了与水稻非生物胁迫相关的RNA-seq和ATAC-seq数据。通过WGCNA和ATAC-seq的综合分析，我们有效识别了与开放染色质区域相关的干旱响应转录因子。有趣的是，通过TFBind模型测试，仅81%的转录因子直接结合到开放的基因上。通过这种方法，我们鉴定了15个与靶标开放染色质区域对应的干旱响应转录因子，这些转录因子富集在与蛋白质运输、蛋白质分配、氮化合物运输相关的术语中。该方法为预测生物过程中TF-TAG开放模块提供了一个有价值的工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40165388/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40165388/",
+  "paper_page_path": "papers/pubmed/40165388/index.html"
+}

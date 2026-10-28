@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "38880160",
+    "doi": "10.1016/j.bbadis.2024.167300",
+    "title": "Identification and experimental validation of immune-related gene PPARG is involved in ulcerative colitis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The pathophysiology of ulcerative colitis (UC) is believed to be heavily influenced by immunology, which presents challenges for both diagnosis and treatment. The main aims of this study are to deepen our understanding of the immunological characteristics associated with the disease and to identify valuable biomarkers for diagnosis and treatment. METHODS: The UC datasets were sourced from the GEO database and were analyzed using unsupervised clustering to identify different subtypes of UC. Twelve machine learning algorithms and Deep learning model DNN were developed to identify potential UC biomarkers, with the LIME and SHAP methods used to explain the models' findings. PPI network is used to verify the identified key biomarkers, and then a network connecting super enhancers, transcription factors and genes is constructed. Single-cell sequencing technology was utilized to investigate the role of Peroxisome Proliferator Activated Receptor Gamma (PPARG) in UC and its correlation with macrophage infiltration. Furthermore, alterations in PPARG expression were validated through Western blot (WB) and immunohistochemistry (IHC) in both in vitro and in vivo experiments. RESULT: By utilizing bioinformatics techniques, we were able to pinpoint PPARG as a key biomarker for UC. The expression of PPARG was significantly reduced in cell models, UC animal models, and colitis models induced by dextran sodium sulfate (DSS). Interestingly, overexpression of PPARG was able to restore intestinal barrier function in H(2)O(2)-induced IEC-6 cells. Additionally, immune-related differentially expressed genes (DEGs) allowed for efficient classification of UC samples into neutrophil and mitochondrial metabolic subtypes. A diagnostic model incorporating the three disease-specific genes PPARG, PLA2G2A, and IDO1 demonstrated high accuracy in distinguishing between the UC group and the control group. Furthermore, single-cell analysis revealed that decreased PPARG expression in colon tissue may contribute to the polarization of M1 macrophages through activation of inflammatory pathways. CONCLUSION: In conclusion, PPARG, a gene related to immunity, has been established as a reliable potential biomarker for the diagnosis and treatment of UC. The immune response it controls plays a key role in the progression and development of UC by enabling interaction between characteristic biomarkers and immune infiltrating cells.",
+    "keywords": [
+      "Deep learning",
+      "Immunity",
+      "Machine learning",
+      "PPARG",
+      "Protein-protein interaction network",
+      "Single-cell analysis",
+      "Ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "*Colitis, Ulcerative/genetics/immunology/pathology/metabolism",
+      "*PPAR gamma/genetics/metabolism",
+      "Animals",
+      "Mice",
+      "Humans",
+      "Biomarkers/metabolism/analysis",
+      "Disease Models, Animal",
+      "Macrophages/metabolism/immunology",
+      "Male",
+      "Dextran Sulfate/toxicity",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yang",
+        "Yan, Fangfang",
+        "Xiang, Jing",
+        "Wang, Wenjian",
+        "Xie, Kangping",
+        "Luo, Lianxiang"
+      ],
+      "short_names": [
+        "Li Y",
+        "Yan F",
+        "Xiang J",
+        "Wang W",
+        "Xie K",
+        "Luo L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Clinical College, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China.",
+        "The First Clinical College, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China.",
+        "The Marine Biomedical Research Institute of Guangdong Zhanjiang, School of Ocean and Tropical Medicine, Guangdong Medical University, Zhanjiang, Guangdong 524023, China.",
+        "The Marine Biomedical Research Institute of Guangdong Zhanjiang, School of Ocean and Tropical Medicine, Guangdong Medical University, Zhanjiang, Guangdong 524023, China.",
+        "The First Clinical College, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China.",
+        "The Marine Biomedical Research Institute of Guangdong Zhanjiang, School of Ocean and Tropical Medicine, Guangdong Medical University, Zhanjiang, Guangdong 524023, China. Electronic address: luolianxiang321@gdmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Fangfang",
+        "short_name": "Yan F",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Jing",
+        "short_name": "Xiang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Marine Biomedical Research Institute of Guangdong Zhanjiang, School of Ocean and Tropical Medicine, Guangdong Medical University, Zhanjiang, Guangdong 524023, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenjian",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "The Marine Biomedical Research Institute of Guangdong Zhanjiang, School of Ocean and Tropical Medicine, Guangdong Medical University, Zhanjiang, Guangdong 524023, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Kangping",
+        "short_name": "Xie K",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Lianxiang",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "The Marine Biomedical Research Institute of Guangdong Zhanjiang, School of Ocean and Tropical Medicine, Guangdong Medical University, Zhanjiang, Guangdong 524023, China. Electronic address: luolianxiang321@gdmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Molecular basis of disease"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Mol Basis Dis"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/17 00:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42473592",
+      "42419210",
+      "41999430",
+      "41870743",
+      "41857729",
+      "41644857",
+      "41459538",
+      "41158276",
+      "41098076",
+      "41094572",
+      "40687654",
+      "40519656",
+      "39684781"
+    ],
+    "refs": [],
+    "similar": [
+      "38880160",
+      "32950577",
+      "39343840",
+      "37142141",
+      "34343656",
+      "37000707",
+      "39103474",
+      "39026683",
+      "38977802",
+      "38987612",
+      "34592880",
+      "38156770",
+      "38488031",
+      "33845143",
+      "38849409",
+      "38878683",
+      "35901530",
+      "33380244",
+      "36738944",
+      "36845139",
+      "33132649",
+      "36311726",
+      "38043755",
+      "35959356",
+      "36982725",
+      "38971342",
+      "37782162",
+      "36868438",
+      "38661103",
+      "32865915",
+      "38489972",
+      "38761782",
+      "36440681",
+      "37530128",
+      "38797379",
+      "38648921",
+      "38269750",
+      "37322958",
+      "38664443",
+      "36860851",
+      "36933873",
+      "39170615",
+      "38613801",
+      "36419192",
+      "30319652",
+      "38176667",
+      "38070204",
+      "36030029",
+      "39172054",
+      "36997133",
+      "35749635",
+      "39223620",
+      "33705918",
+      "38633005",
+      "34394827",
+      "31249571",
+      "37090740",
+      "35246845",
+      "37438919",
+      "33468700",
+      "38026254",
+      "36806346",
+      "29632421",
+      "30583632",
+      "38014839",
+      "30472831",
+      "38886669",
+      "35761286",
+      "35686527",
+      "39024673",
+      "36356716",
+      "39113810",
+      "37541404",
+      "30065559",
+      "35707833",
+      "39291081",
+      "32929337",
+      "29718255",
+      "38554854",
+      "38510272",
+      "37210763",
+      "24727542",
+      "36161055",
+      "31780371",
+      "32574670",
+      "36764096",
+      "36770726",
+      "38366839",
+      "39161963",
+      "36162543",
+      "36061211",
+      "38664929",
+      "38955027",
+      "38678963",
+      "26241646",
+      "38537445",
+      "37495756",
+      "38423412",
+      "34731452",
+      "32952341",
+      "31005036",
+      "20923862",
+      "35331877",
+      "39414957",
+      "36742294",
+      "39252244",
+      "39395728",
+      "36960059",
+      "39428941",
+      "37727787",
+      "39247718",
+      "39119946",
+      "39286216"
+    ],
+    "review": [
+      "38880160",
+      "39247718"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0925-4439(24)00293-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LIME1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

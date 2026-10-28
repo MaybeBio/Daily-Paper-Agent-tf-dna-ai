@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "36360220",
+    "doi": "10.3390/genes13111983",
+    "title": "DeepNup: Prediction of Nucleosome Positioning from DNA Sequences Using Deep Neural Network."
+  },
+  "content": {
+    "abstract": "Nucleosome positioning is involved in diverse cellular biological processes by regulating the accessibility of DNA sequences to DNA-binding proteins and plays a vital role. Previous studies have manifested that the intrinsic preference of nucleosomes for DNA sequences may play a dominant role in nucleosome positioning. As a consequence, it is nontrivial to develop computational methods only based on DNA sequence information to accurately identify nucleosome positioning, and thus intend to verify the contribution of DNA sequences responsible for nucleosome positioning. In this work, we propose a new deep learning-based method, named DeepNup, which enables us to improve the prediction of nucleosome positioning only from DNA sequences. Specifically, we first use a hybrid feature encoding scheme that combines One-hot encoding and Trinucleotide composition encoding to encode raw DNA sequences; afterwards, we employ multiscale convolutional neural network modules that consist of two parallel convolution kernels with different sizes and gated recurrent units to effectively learn the local and global correlation feature representations; lastly, we use a fully connected layer and a sigmoid unit serving as a classifier to integrate these learned high-order feature representations and generate the final prediction outcomes. By comparing the experimental evaluation metrics on two benchmark nucleosome positioning datasets, DeepNup achieves a better performance for nucleosome positioning prediction than that of several state-of-the-art methods. These results demonstrate that DeepNup is a powerful deep learning-based tool that enables one to accurately identify potential nucleosome sequences.",
+    "keywords": [
+      "bioinformatics",
+      "deep learning",
+      "gated recurrent unit",
+      "multiscale convolution neural network",
+      "nucleosome positioning"
+    ],
+    "mesh_terms": [
+      "*Nucleosomes/genetics/metabolism",
+      "Base Sequence",
+      "*Saccharomyces cerevisiae/genetics",
+      "Chromatin Assembly and Disassembly",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Yiting",
+        "Wu, Tingfang",
+        "Jiang, Yelu",
+        "Li, Yan",
+        "Li, Kailong",
+        "Quan, Lijun",
+        "Lyu, Qiang"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Wu T",
+        "Jiang Y",
+        "Li Y",
+        "Li K",
+        "Quan L",
+        "Lyu Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8137-2436",
+        "ORCID: 0000-0003-4551-4198"
+      ],
+      "affiliations": [
+        "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "Key Lab for Information Processing Technologies, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "Collaborative Innovation Center of Novel Software Technology and Industrialization, Organization, Nanjing 210000, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "Key Lab for Information Processing Technologies, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "Collaborative Innovation Center of Novel Software Technology and Industrialization, Organization, Nanjing 210000, China.",
+        "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "Key Lab for Information Processing Technologies, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+        "Collaborative Innovation Center of Novel Software Technology and Industrialization, Organization, Nanjing 210000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Yiting",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Tingfang",
+        "short_name": "Wu T",
+        "identifiers": [
+          "0000-0001-8137-2436"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+          "Key Lab for Information Processing Technologies, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+          "Collaborative Innovation Center of Novel Software Technology and Industrialization, Organization, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yelu",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kailong",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Quan, Lijun",
+        "short_name": "Quan L",
+        "identifiers": [
+          "0000-0003-4551-4198"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+          "Key Lab for Information Processing Technologies, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+          "Collaborative Innovation Center of Novel Software Technology and Industrialization, Organization, Nanjing 210000, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Qiang",
+        "short_name": "Lyu Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+          "Key Lab for Information Processing Technologies, Soochow University, Suzhou Ganjiang East Streat 333, Suzhou 215006, China.",
+          "Collaborative Innovation Center of Novel Software Technology and Industrialization, Organization, Nanjing 210000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Oct 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/12 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "41580672",
+      "41339465",
+      "40265190",
+      "39452107",
+      "39036965"
+    ],
+    "refs": [
+      "35418074",
+      "35225328",
+      "34078256",
+      "32938377",
+      "32578842",
+      "30453896",
+      "30335176",
+      "29678692",
+      "29329398",
+      "28126821",
+      "27568571",
+      "27197224",
+      "26772197",
+      "26724497",
+      "26213851",
+      "26063739",
+      "26017442",
+      "24504871",
+      "24023366",
+      "23463311",
+      "23166509",
+      "23060610",
+      "22722846",
+      "21750105",
+      "21602827",
+      "21460839",
+      "20824081",
+      "20683473",
+      "20576140",
+      "20351051",
+      "19846608",
+      "19684599",
+      "19598227",
+      "19596482",
+      "19509309",
+      "19092803",
+      "18477713",
+      "18408708",
+      "18329373",
+      "15661662",
+      "12736678",
+      "12051916",
+      "10458604",
+      "9377276",
+      "9305837",
+      "2391364",
+      "332067"
+    ],
+    "similar": [
+      "36360220",
+      "35418074",
+      "23247720",
+      "20824131",
+      "32938377",
+      "29329398",
+      "20232931",
+      "30453896",
+      "21919856",
+      "16862119",
+      "26724497",
+      "27563027",
+      "38828788",
+      "20232932",
+      "25244936",
+      "19134214",
+      "34078256",
+      "35189129",
+      "28931432",
+      "34120589",
+      "19140324",
+      "19070622",
+      "21551148",
+      "20886052",
+      "24023366",
+      "22908247",
+      "28917635",
+      "18454729",
+      "26314830",
+      "25529773",
+      "32555215",
+      "28131316",
+      "18989395",
+      "35348238",
+      "23435498",
+      "21839161",
+      "17620451",
+      "33077593",
+      "22737086",
+      "12765535",
+      "22266567",
+      "29678692",
+      "24068556",
+      "21518900",
+      "29891930",
+      "9578556",
+      "24733939",
+      "18725940",
+      "26993344",
+      "15099738",
+      "20628623",
+      "20461072",
+      "20232930",
+      "26221897",
+      "22885008",
+      "22183600",
+      "20003404",
+      "35061087",
+      "35563261",
+      "23990766",
+      "20953693",
+      "39036965",
+      "19598227",
+      "23958656",
+      "25946864",
+      "20078849",
+      "21269520",
+      "23463311",
+      "21903742",
+      "30531092",
+      "34205881",
+      "20206172",
+      "22668788",
+      "31569414",
+      "36443798",
+      "22066542",
+      "19208132",
+      "17586522",
+      "32597092",
+      "21206756",
+      "23758892",
+      "16980406",
+      "19527704",
+      "24889621",
+      "22435815",
+      "23384242",
+      "21343911",
+      "24266748",
+      "19958491",
+      "36049552",
+      "20232935",
+      "22965129",
+      "1547779",
+      "31186519",
+      "19759869",
+      "39214282",
+      "37944386",
+      "37000857",
+      "36917472",
+      "35474167",
+      "36157058",
+      "36671456",
+      "38303423",
+      "37974507",
+      "38236675",
+      "38903752",
+      "38347788",
+      "38375921",
+      "36386160",
+      "37022395",
+      "38007778",
+      "34971539",
+      "25076982",
+      "31921391",
+      "33613179",
+      "37772098",
+      "36385847"
+    ],
+    "review": [
+      "36360220",
+      "25529773",
+      "23463311",
+      "34205881",
+      "19527704",
+      "22435815"
+    ],
+    "pmc": [
+      "9689664"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13111983",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36360220/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/36360220",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36360220",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

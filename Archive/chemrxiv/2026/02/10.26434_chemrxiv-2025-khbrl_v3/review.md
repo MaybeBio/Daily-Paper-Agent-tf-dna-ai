@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present DockTDeep, a CNN-based scoring function for protein–ligand binding affinity prediction, and argue that a data-centric training strategy, specifically random rotation augmentation and a regularization technique, enables learning of meaningful intermolecular interactions. They report state-of-the-art or comparable performance on standard benchmarks and external datasets, identify Pfam-CV as the most stringent out-of-distribution splitting scheme, and attribute performance degradation under stringent splits to training data limitations rather than model incapacity.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark names, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark definitions, dataset compositions, hyperparameter settings, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable contribution to the field of structure-based drug discovery, with a clear emphasis on training strategy rather than architectural novelty. The claims are coherent and the direction is timely. However, the abstract alone provides no quantitative evidence, no benchmark specifics, and no methodological detail sufficient to evaluate the validity of the central claims. The assertion that performance degradation under stringent splits reflects data limitations rather than model limitations is a strong interpretive claim that cannot be assessed without comparative analyses and control experiments. The work may be of interest to the community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and machine learning researchers working on drug discovery, specifically those developing scoring functions or studying generalization in molecular property prediction. The focus on data-centric strategies and out-of-distribution evaluation is relevant to a broad audience concerned with model robustness and practical deployment in virtual screening.
+- **Major strengths** The emphasis on training strategy over architectural complexity is a sensible and potentially impactful direction. The systematic evaluation of data augmentation strategies, including the distinction between random rotation and 90-degree rotations, addresses a practical and often overlooked issue. The identification of Pfam-CV as a stringent splitting scheme contributes to the ongoing discussion on benchmark design. The framing of performance degradation as a data limitation rather than a model limitation is a thoughtful hypothesis that, if supported, would have implications for dataset construction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DockTDeep outperforms or matches state-of-the-art scoring methods on standard benchmarks across diverse external datasets"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative results, no benchmark names, no comparison metrics, and no statistical significance measures. The claim of outperforming or matching state-of-the-art methods is unverifiable from the supplied material.
+  - **Why it matters** This is the central performance claim of the work. Without specific numbers, benchmark definitions, and error bars, the claim cannot be evaluated or compared against existing literature.
+  - **Resolution test** Provide a table or figure with performance metrics (e.g., RMSE, Pearson correlation, Spearman rank) on named benchmarks (e.g., PDBbind, CASF, Astex) with comparison to at least three state-of-the-art methods, including error estimates and statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive claim support
+  - **Claim pointer** "The performance degradation observed under more stringent splitting schemes is unlikely to reflect an intrinsic inability of the model to capture physically meaningful interactions. Instead, it points to limitations in the available training data"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a strong causal claim about the source of performance degradation. The abstract offers no evidence, such as control experiments with different model capacities, analysis of failure cases, or comparisons of data distributions, to support this interpretation.
+  - **Why it matters** The claim distinguishes between model limitations and data limitations, which has direct implications for how the community should address generalization issues. If unsupported, the claim could mislead future research directions.
+  - **Resolution test** Provide analyses that directly test the hypothesis, such as training on augmented or enriched datasets to show recovery of performance, or showing that the model performs well on physically similar but unseen interaction patterns when sufficient data are available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "A systematic evaluation of data augmentation strategies shows that random rotation, unlike commonly used 90-degree rotations, effectively mitigates rotational variance"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states a finding but provides no detail on the evaluation protocol, the datasets used, the metrics for rotational variance, or the magnitude of the effect. The claim is not assessable.
+  - **Why it matters** This is a specific methodological contribution that could be useful to the community, but without details on how the evaluation was conducted, the finding cannot be reproduced or compared with other augmentation strategies.
+  - **Resolution test** Describe the evaluation protocol in the methods, including datasets, augmentation parameters, and quantitative measures of rotational variance, and show results in a figure or table.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "meaningful intermolecular interaction learning" is used without a precise definition. It is unclear whether this refers to improved physical interpretability, better generalization, or specific interaction patterns.
+  - **Required correction** Define the term explicitly in the abstract or introduction, and specify how it is measured or demonstrated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "standard benchmarks" and "diverse external datasets" without naming them. This limits the reader's ability to contextualize the claims.
+  - **Required correction** Name the specific benchmarks and datasets in the abstract or provide a reference to a table listing them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Regularization technique
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The regularization technique is described as "straightforward but efficient" but no detail is given on its nature or implementation.
+  - **Required correction** Provide a brief description of the regularization method in the abstract or indicate where it is described in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, the unsupported interpretive claim about data limitations, and the lack of methodological detail collectively prevent the case from being established.
+- **Assessment against Nature-style criteria** Originality: The data-centric focus is not entirely new but the specific combination of random rotation and a regularization technique may offer a novel angle. Scientific importance: The question of generalization in binding affinity prediction is important, and the claim about data limitations has potential significance. Interdisciplinary readership: The topic is relevant to both machine learning and structural biology, but the abstract does not currently make the case accessible to a broad audience. Technical soundness: Cannot be assessed from the abstract alone. Readability for nonspecialists: The abstract is reasonably clear but relies on field-specific terms without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The direction is promising and the claims are coherent, but the abstract alone does not provide sufficient quantitative or methodological support. A full manuscript with detailed methods, results, and analyses would be required to assess the validity of the central claims.
+
+## Risk / unsupported claims
+- The claim that DockTDeep outperforms or matches state-of-the-art methods is unsupported without quantitative results.
+- The claim that performance degradation under stringent splits reflects data limitations rather than model limitations is unsupported without control experiments or distribution analyses.
+- The claim that random rotation effectively mitigates rotational variance is unsupported without evaluation details.
+- The claim that the regularization technique promotes learning of meaningful intermolecular interactions is unsupported without interpretability analyses or ablation studies.
+- The identification of Pfam-CV as the most stringent splitting scheme is stated without comparative data.

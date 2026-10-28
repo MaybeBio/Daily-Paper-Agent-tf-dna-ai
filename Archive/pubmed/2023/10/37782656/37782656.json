@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "37782656",
+    "doi": "10.1371/journal.pcbi.1011536",
+    "title": "Predicting regional somatic mutation rates using DNA motifs."
+  },
+  "content": {
+    "abstract": "How the locus-specificity of epigenetic modifications is regulated remains an unanswered question. A contributing mechanism is that epigenetic enzymes are recruited to specific loci by DNA binding factors recognizing particular sequence motifs (referred to as epi-motifs). Using these motifs to predict biological outputs depending on local epigenetic state such as somatic mutation rates would confirm their functionality. Here, we used DNA motifs including known TF motifs and epi-motifs as a surrogate of epigenetic signals to predict somatic mutation rates in 13 cancers at an average 23kbp resolution. We implemented an interpretable neural network model, called contextual regression, to successfully learn the universal relationship between mutations and DNA motifs, and uncovered motifs that are most impactful on the regional mutation rates such as TP53 and epi-motifs associated with H3K9me3. Furthermore, we identified genomic regions with significantly higher mutation rates than the expected values in each individual tumor and demonstrated that such cancer-related regions can accurately predict cancer types. Interestingly, we found that the same mutation signatures often have different contributions to cancer-related and cancer-independent regions, and we also identified the motifs with the most contribution to each mutation signature.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Nucleotide Motifs/genetics",
+      "*Mutation Rate",
+      "Mutation/genetics",
+      "Epigenesis, Genetic/genetics",
+      "*Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Cong",
+        "Wang, Zengmiao",
+        "Wang, Jun",
+        "Liu, Chengyu",
+        "Wang, Mengchi",
+        "Ngo, Vu",
+        "Wang, Wei"
+      ],
+      "short_names": [
+        "Liu C",
+        "Wang Z",
+        "Wang J",
+        "Liu C",
+        "Wang M",
+        "Ngo V",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4958-7856",
+        "ORCID: 0000-0003-4377-5060"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California, United States of America.",
+        "State Key Laboratory of Remote Sensing Science, Center for Global Change and Public Health, Faculty of Geographical Science, Beijing Normal University, Beijing, China.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California, United States of America.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California, United States of America.",
+        "Bioinformatics and Systems Biology Graduate Program, University of California San Diego, La Jolla, California, United States of America.",
+        "Bioinformatics and Systems Biology Graduate Program, University of California San Diego, La Jolla, California, United States of America.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California, United States of America.",
+        "Bioinformatics and Systems Biology Graduate Program, University of California San Diego, La Jolla, California, United States of America.",
+        "Department of Cellular and Molecular Medicine, University of California San Diego, La Jolla, California, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Cong",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0002-4958-7856"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wang, Zengmiao",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Remote Sensing Science, Center for Global Change and Public Health, Faculty of Geographical Science, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jun",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Liu, Chengyu",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wang, Mengchi",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Graduate Program, University of California San Diego, La Jolla, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ngo, Vu",
+        "short_name": "Ngo V",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Graduate Program, University of California San Diego, La Jolla, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0003-4377-5060"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California, United States of America.",
+          "Bioinformatics and Systems Biology Graduate Program, University of California San Diego, La Jolla, California, United States of America.",
+          "Department of Cellular and Molecular Medicine, University of California San Diego, La Jolla, California, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/02 18:41",
+    "fetched_at": "2026-09-29 08:16:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35726091",
+      "35168570",
+      "32886547",
+      "32786513",
+      "32025007",
+      "31534120",
+      "31529043",
+      "31387111",
+      "31334813",
+      "31307927",
+      "31307926",
+      "31278357",
+      "31249361",
+      "30901533",
+      "30755522",
+      "30586386",
+      "30485262",
+      "30388444",
+      "29980679",
+      "29670109",
+      "29507097",
+      "28825726",
+      "28753428",
+      "28607063",
+      "27867193",
+      "27136393",
+      "27135926",
+      "27075101",
+      "27075100",
+      "27048304",
+      "26878723",
+      "26806129",
+      "26460974",
+      "26053496",
+      "25732611",
+      "25693567",
+      "25624100",
+      "25431634",
+      "25240437",
+      "25215497",
+      "24931610",
+      "24679523",
+      "23852170",
+      "23852168",
+      "23622243",
+      "23540689",
+      "23524488",
+      "23463311",
+      "23422670",
+      "23395962",
+      "23352431",
+      "22983563",
+      "22955990",
+      "22955616",
+      "22893128",
+      "22820252",
+      "22663078",
+      "22495304",
+      "22495300",
+      "22403392",
+      "22373907",
+      "22344857",
+      "22170606",
+      "22056668",
+      "21953857",
+      "21399641",
+      "21368886",
+      "21330290",
+      "21170310",
+      "20657582",
+      "20616235",
+      "20393567",
+      "20393554",
+      "20044539",
+      "20016485",
+      "19843619",
+      "19074313",
+      "18594513",
+      "15189136",
+      "12626739",
+      "12154403",
+      "11175784",
+      "10583946"
+    ],
+    "similar": [
+      "37782656",
+      "31334813",
+      "31945090",
+      "31109337",
+      "29673314",
+      "36965814",
+      "30755522",
+      "32865336",
+      "33941236",
+      "38863710",
+      "28986316",
+      "29592900",
+      "37592287",
+      "34620872",
+      "26381163",
+      "36243974",
+      "38566132",
+      "25934800",
+      "39950507",
+      "25693567",
+      "30104284",
+      "27356864",
+      "22820252",
+      "29514101",
+      "34282050",
+      "38966997",
+      "36043696",
+      "33040718",
+      "28489852",
+      "33411587",
+      "33647036",
+      "24149073",
+      "35013316",
+      "33859751",
+      "31486892",
+      "30292349",
+      "26291518",
+      "26571271",
+      "23560912",
+      "32350249",
+      "25597018",
+      "31510916",
+      "29363433",
+      "40758847",
+      "25418895",
+      "35726091",
+      "31729402",
+      "35902761",
+      "19542493",
+      "27341992",
+      "32498674",
+      "33092526",
+      "26419725",
+      "24552141",
+      "28359978",
+      "30535497",
+      "31159876",
+      "27356755",
+      "27520487",
+      "26211365",
+      "25111821",
+      "22182599",
+      "26630308",
+      "27075100",
+      "24086153",
+      "27694116",
+      "32324215",
+      "28892047",
+      "40693457",
+      "31797603",
+      "29139326",
+      "30927420",
+      "36469539",
+      "31307927",
+      "29940789",
+      "31481462",
+      "27132513",
+      "33879103",
+      "24937757",
+      "24710217",
+      "22550342",
+      "28967881",
+      "40205063",
+      "26515115",
+      "32938397",
+      "27256309",
+      "24324735",
+      "37914932",
+      "25456125",
+      "29304373",
+      "26169043",
+      "26550823",
+      "32492502",
+      "33023654",
+      "25732611",
+      "28115525",
+      "32015379",
+      "29115978",
+      "24391522",
+      "20920750"
+    ],
+    "review": [
+      "37782656",
+      "33040718",
+      "33411587",
+      "30292349",
+      "26419725",
+      "28359978",
+      "26211365",
+      "25111821",
+      "22182599",
+      "31307927",
+      "25732611"
+    ],
+    "pmc": [
+      "10569533"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1011536",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37782656/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37782656",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt7c0934h8",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

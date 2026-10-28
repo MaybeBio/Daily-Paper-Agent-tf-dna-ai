@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "39931851",
+    "doi": "10.2174/0113862073357411250127080814",
+    "title": "Identification of NR4A2 as a Potential Predictive Biomarker for Atherosclerosis."
+  },
+  "content": {
+    "abstract": "INTRODUCTION/OBJECTIVE: Atherosclerosis, a leading cause of death globally, is characterized by the buildup of immune cells and lipids in medium to large-sized arteries. However, its precise mechanism remains unclear. The purpose of this study is to explore innovative and reliable biomarkers as a viable approach for the identification and management of atherosclerosis. METHODS: The atherosclerosis-related datasets GSE100927 and GSE66360 were retrieved from the Gene Expression Omnibus (GEO) database. The Limma package in the R programming language was utilized, applying the criteria of |logFC| > 1 and P < 0.05. Subsequently, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses were performed on the 127 identified DEGs using R. Machine learning techniques were then applied to these data to explore and pinpoint potential biomarkers. The diagnostic potential of these markers was assessed via Receiver Operating Characteristic (ROC) curve analysis. Finally, western blot, real-time quantitative PCR (qRT-PCR), and immunohistochemistry (IHC) were employed to confirm the key biomarkers. RESULTS: Our research indicated that a total of 127 DEGs linked to atherosclerosis were successfully identified. Through the application of machine learning methods, eight critical genes were highlighted. Among these, Nuclear Receptor Subfamily 4 Group A Member-2 (NR4A2) emerged as the most promising marker for further investigation. CIBERSORT analysis revealed that NR4A2 expression levels were significantly correlated with multiple immune cell types, including B cells, plasma cells, and macrophages. Additional validation experiments confirmed that NR4A2 expression was indeed elevated in atherosclerotic plaques, supporting its potential as a biomarker for atherosclerosis. CONCLUSION: Our study identified NR4A2 as a potential immune-related biomarker for the diagnosis and treatment of atherosclerosis.",
+    "keywords": [
+      "Atherosclerosis",
+      "DEGs",
+      "GEO",
+      "NR4A2",
+      "biomarker",
+      "cardio-cerebrovascular disease"
+    ],
+    "mesh_terms": [
+      "*Atherosclerosis/diagnosis/genetics/metabolism",
+      "Biomarkers/analysis/metabolism",
+      "*Nuclear Receptor Subfamily 4, Group A, Member 2/genetics/metabolism/analysis",
+      "Humans",
+      "Machine Learning",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Lebin",
+        "Bai, Ruru",
+        "Han, Xinhao",
+        "Xiang, Jiajia"
+      ],
+      "short_names": [
+        "Yuan L",
+        "Bai R",
+        "Han X",
+        "Xiang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nail and Breast Surgery, Affiliated Xiangyang Central Hospital of Hubei University of Arts and Science, Xiangyang Center Hospital, Xiangyang, Hubei, China.",
+        "Jiangxi Province Key Laboratory of Molecular Medicine, the 2nd affiliated hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Institute of Geriatrics, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, Jiangxi, China.",
+        "Jiangxi Province Key Laboratory of Molecular Medicine, the 2nd affiliated hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Lebin",
+        "short_name": "Yuan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nail and Breast Surgery, Affiliated Xiangyang Central Hospital of Hubei University of Arts and Science, Xiangyang Center Hospital, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Ruru",
+        "short_name": "Bai R",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Molecular Medicine, the 2nd affiliated hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xinhao",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Geriatrics, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Jiajia",
+        "short_name": "Xiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Province Key Laboratory of Molecular Medicine, the 2nd affiliated hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Combinatorial chemistry & high throughput screening"
+    ],
+    "journal_abbrev": [
+      "Comb Chem High Throughput Screen"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/11 06:22",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39229253",
+      "38909884",
+      "38218110",
+      "37921719",
+      "37644061",
+      "37563308",
+      "36703734",
+      "36613465",
+      "36470144",
+      "36420057",
+      "36121373",
+      "35509837",
+      "35127844",
+      "34774582",
+      "34609505",
+      "34122426",
+      "33976384",
+      "33669769",
+      "33106376",
+      "32883094",
+      "32486345",
+      "32368184",
+      "32341238",
+      "32294471",
+      "30653442",
+      "29622563",
+      "29228116",
+      "28971272",
+      "28790455",
+      "28425862",
+      "28127028",
+      "28122774",
+      "28055275",
+      "27338219",
+      "27031276",
+      "26843277",
+      "26837745",
+      "26486271",
+      "26229137",
+      "25234818",
+      "24855199",
+      "24469537",
+      "24445679",
+      "24140662",
+      "24005216",
+      "23809160",
+      "23430000",
+      "23086754",
+      "21321594",
+      "20943670",
+      "20134100",
+      "19556446",
+      "19465082",
+      "18160673",
+      "17200718",
+      "16873729",
+      "15911707",
+      "15665085",
+      "15519012",
+      "15143957",
+      "14687888",
+      "12551878",
+      "12411950",
+      "11447086",
+      "11239408",
+      "11001066",
+      "10852110",
+      "10619858",
+      "10330380",
+      "10323763",
+      "7583588",
+      "3593208",
+      "3470793",
+      "2597229"
+    ],
+    "similar": [
+      "39931851",
+      "41667698",
+      "40070840",
+      "41479901",
+      "39588003",
+      "41102315",
+      "41367897",
+      "39466354",
+      "39403102",
+      "41146237",
+      "42051519",
+      "39072329",
+      "42039143",
+      "40790764",
+      "42708302",
+      "40677720",
+      "38951833",
+      "39507054",
+      "40374840",
+      "40836320",
+      "40313958",
+      "42616740",
+      "42092981",
+      "40312440",
+      "40263537",
+      "36061826",
+      "40022006",
+      "42154423",
+      "42216376",
+      "40884580",
+      "37359526",
+      "41583468",
+      "37721628",
+      "36506310",
+      "41044520",
+      "38899746",
+      "42327749",
+      "41816328",
+      "40949741",
+      "39396400",
+      "39754246",
+      "37351719",
+      "38650009",
+      "40406620",
+      "38527674",
+      "41516018",
+      "42099899",
+      "39875572",
+      "41378005",
+      "39351239",
+      "41132349",
+      "41392162",
+      "36211422",
+      "39131703",
+      "35713363",
+      "39170142",
+      "41164826",
+      "41468478",
+      "39341981",
+      "42397093",
+      "36157062",
+      "40692778",
+      "42568355",
+      "39586719",
+      "37635936",
+      "37315377",
+      "36823662",
+      "41151411",
+      "41822387",
+      "40406118",
+      "40110435",
+      "33437215",
+      "41544137",
+      "39805933",
+      "39749331",
+      "37325631",
+      "41665627",
+      "41872824",
+      "39142001",
+      "41857701",
+      "38885209",
+      "40696546",
+      "40340571",
+      "38283345",
+      "41316378",
+      "40830558",
+      "41198554",
+      "36969166",
+      "36618351",
+      "40173189",
+      "42694578",
+      "39953769",
+      "41424060",
+      "40443672",
+      "40500570",
+      "42668813",
+      "36628881",
+      "38443950",
+      "39263286",
+      "39559355"
+    ],
+    "review": [
+      "39931851",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://www.eurekaselect.com/239302/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

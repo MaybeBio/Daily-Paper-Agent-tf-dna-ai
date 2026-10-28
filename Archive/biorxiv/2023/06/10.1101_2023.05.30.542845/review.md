@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided separately)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text; no assessment of figures or supplementary tables beyond what is described
+- **Shared manuscript claim summary** The authors propose that myeloperoxidase (MPO) enters endothelial cell nuclei, binds chromatin at nucleosome-free regions near transcription start sites, induces chromatin decondensation locally and condensation at flanking regions, and drives a partial endothelial-to-mesenchymal transition (EndMT) independent of its enzymatic activity. They further identify ILF3 as a nuclear interaction partner of MPO and propose that MPO exerts transcriptional and post-transcriptional effects through ILF3-dependent mechanisms. In vivo, MPO knockout mice show reduced CD31+ cell numbers at myocardial infarction scars, interpreted as reduced neovascularization.
+- **Visible evidence base** Text descriptions of immunofluorescence, fractionation western blots, EMSA, ChIP-seq, ATAC-seq, RNA-seq, co-immunoprecipitation with mass spectrometry, siRNA knockdown with 3'-end RNA-seq, DRB transcription inhibition assays, and a mouse myocardial infarction model with DAB staining
+- **Missing materials affecting confidence** Figures and supplementary tables (S1-S6) are referenced but not provided; no quantification details for imaging data; no statistical test details for most comparisons; no information on replicates for several key experiments; no full figure legends
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting non-enzymatic role for MPO in endothelial cell gene regulation, with a proposed mechanism involving direct chromatin binding and interaction with ILF3. The topic is of relevance to vascular biology and inflammation. However, the evidence as presented has substantial gaps. Several key claims rest on experiments whose details are not fully described, and the causal chain from MPO chromatin binding to EndMT and in vivo neovascularization phenotypes is not fully established. The distinction between direct and indirect effects of MPO on gene expression requires stronger support. The manuscript would benefit from additional mechanistic depth and clearer quantitative reporting.
+- **Who would be interested in the results, and why** Researchers in vascular biology, inflammation, and cardiovascular disease would be interested in a potential non-enzymatic role for MPO in endothelial cell fate decisions. Those studying EndMT, chromatin organization, and transcriptional regulation by secreted factors may also find the proposed mechanism relevant. The potential clinical implications for myocardial infarction recovery and neovascularization could attract translational researchers.
+- **Major strengths** The study addresses a novel question regarding non-enzymatic functions of MPO in the nucleus. The combination of genomics approaches (ChIP-seq, ATAC-seq, RNA-seq) with biochemical validation (co-IP, EMSA) is appropriate. The inclusion of an enzymatically inactive MPO mutant to dissociate catalytic from non-catalytic functions is a good experimental design element. The in vivo mouse model provides some physiological context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for nuclear entry and chromatin binding
+  - **Claim pointer** The authors claim MPO accumulates in endothelial cell nuclei and binds chromatin within hours of treatment.
+  - **Evidence pointer** Figure 1A-E, described in text; location not provided
+  - **Concern** The text states nuclear accumulation of MPO was "microscopically apparent" and quantified in ">100 cells," but no details on the specificity of the MPO antibody for immunofluorescence are given, nor are controls such as MPO knockout cells or peptide competition described. The fractionation western blots show MPO in the chromatin fraction, but the purity of fractions is not demonstrated with organelle-specific markers. The claim that catalytically inactive MPO behaves similarly is based on a single mutant (Q91T) without validation of its folding or uptake properties.
+  - **Why it matters** The entire premise of the study rests on MPO entering the nucleus and binding chromatin. If this is an artifact of antibody cross-reactivity or fractionation contamination, all downstream claims are compromised.
+  - **Resolution test** Provide antibody validation data (e.g., MPO knockout cells, pre-adsorption controls), fractionation purity markers (e.g., tubulin for cytoplasm, H3 for chromatin, Lamin B for nuclear envelope), and independent confirmation of nuclear MPO by an orthogonal method (e.g., expression of tagged MPO or subcellular fractionation followed by mass spectrometry).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between MPO chromatin binding and transcriptional changes
+  - **Claim pointer** The authors claim MPO binding at transcription start sites drives transcriptional changes, with local decondensation and flanking condensation affecting gene expression.
+  - **Evidence pointer** Figures 2B-H, 3A, described in text; location not provided
+  - **Concern** The ChIP-seq data show MPO binding at TSSs, and ATAC-seq shows changes in accessibility, but the causal relationship is not established. The overlap between MPO-bound genes and differentially expressed genes is described, but the analysis appears correlative. The claim that MPO binding causes chromatin decondensation at binding sites and condensation at flanking regions is based on ATAC-seq and MNase data, but the direction of causality (MPO binding leading to chromatin changes vs. MPO binding to already open chromatin) is not addressed. No experiments perturbing MPO chromatin binding (e.g., MPO mutants lacking DNA-binding capacity) are presented.
+  - **Why it matters** The central mechanistic claim is that MPO directly remodels chromatin to affect transcription. Without causal evidence, the observed correlations could reflect MPO binding to regions already poised for transcriptional change.
+  - **Resolution test** Perform experiments with MPO variants that cannot bind DNA or chromatin, or use a system where MPO chromatin binding can be induced acutely (e.g., an inducible nuclear localization signal) and measure chromatin accessibility and transcription over time. Alternatively, use a heterologous tethering system to demonstrate that MPO recruitment to a specific locus is sufficient to drive local chromatin changes and transcriptional effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** ILF3-dependent mechanism
+  - **Claim pointer** The authors claim MPO interacts with ILF3, affects its subcellular localization, and that this interaction mediates transcriptional and post-transcriptional regulation.
+  - **Evidence pointer** Figure 4A-G, described in text; location not provided
+  - **Concern** The co-immunoprecipitation identifies ILF3 as an MPO interaction partner, and motif analysis at MPO binding sites suggests ILF3-like motifs. However, the functional relevance of the MPO-ILF3 interaction is not clearly demonstrated. The knockdown experiments show that ILF3 depletion reduces the number of MPO-regulated genes, but the specificity of this effect is unclear. The claim that MPO affects ILF3 subcellular localization is based on immunofluorescence showing "loss of cytoplasmic ILF3 signal," but no quantification or mechanistic explanation is provided. The proposed post-transcriptional regulation via mRNA stability is inferred from DRB experiments, but the direct involvement of ILF3 in this process is not shown.
+  - **Why it matters** The ILF3 interaction is presented as a key mechanistic component of MPO's non-enzymatic function. If the interaction is not functionally validated, the proposed model of MPO action is incomplete.
+  - **Resolution test** Demonstrate that the MPO-ILF3 interaction is required for specific transcriptional or post-transcriptional effects, e.g., by expressing MPO mutants that cannot bind ILF3 and showing loss of downstream effects. Provide quantitative data on ILF3 localization changes. Show direct binding of MPO to ILF3 using purified proteins. Demonstrate that ILF3 is required for MPO-dependent mRNA stabilization of specific targets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance
+  - **Claim pointer** The authors claim MPO knockout mice show reduced CD31+ cell numbers at myocardial infarction scars, indicating reduced neovascularization.
+  - **Evidence pointer** Figure 5C-E, described in text; location not provided
+  - **Concern** The in vivo experiment compares MPO-/- and MPO+/+ mice at 8 weeks post-myocardial infarction. The text states the number of CD31+ cells was "significantly higher" in MPO+/+ animals at the scar area, and distances to the closest CD31+ cell were "significantly larger" in MPO-/- animals. However, no details on the number of animals, the method of quantification, or the statistical tests used are provided. The interpretation that reduced CD31+ cells reflects reduced neovascularization is plausible but not directly demonstrated (e.g., no functional assessment of perfusion or vessel maturity). The connection between the in vitro EndMT findings and the in vivo phenotype is correlative.
+  - **Why it matters** The in vivo data are used to support the physiological relevance of the proposed mechanism. If the phenotype is not robustly demonstrated or is confounded by other MPO functions (e.g., inflammatory effects), the translational claims are weakened.
+  - **Resolution test** Provide detailed animal numbers, quantification methods, and statistical analysis. Include additional markers of neovascularization (e.g., smooth muscle actin for arterioles, perfusion imaging, or functional recovery measures). Consider whether the reduced CD31+ cell number could reflect altered inflammatory cell infiltration or other MPO-dependent processes.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** RNA-seq analysis and differential expression
+  - **Claim pointer** The authors claim 456 and 65 genes are differentially expressed at 2 and 8 hours post-MPO treatment, respectively, and that these changes are independent of enzymatic activity.
+  - **Evidence pointer** Figure 3A, Table S3; location not provided
+  - **Concern** The RNA-seq analysis is described with a fold change threshold of >2 and Padj < 0.05, but no information on the number of biological replicates, sequencing depth, or batch effects is provided. The comparison between active MPO and the Q91T mutant is mentioned, but the full results of this comparison are not described in the text. The claim of enzymatic independence rests on the Q91T mutant, but the validation of this mutant (e.g., loss of peroxidase activity, proper folding) is not described in the methods.
+  - **Why it matters** The transcriptional changes are a core readout of the study. Without robust statistical reporting and validation of the mutant, the claim of enzymatic independence is not fully supported.
+  - **Resolution test** Provide full details on replicates, sequencing metrics, and differential expression analysis. Show that the Q91T mutant lacks peroxidase activity and is properly folded. Present the full comparison of active vs. inactive MPO effects on gene expression, including a demonstration that the shared gene set is not due to residual activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction; location not provided
+  - **Issue** The abstract states MPO "binds chromatin independently of its enzymatic activity to cause changes in chromatin structure" but does not specify the direction of chromatin changes. The Introduction contains some redundancy in describing MPO's known functions.
+  - **Required correction** Clarify in the abstract that MPO causes local decondensation and flanking condensation. Streamline the Introduction to avoid repetition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Multiple experiments
+  - **Evidence pointer** Figures 1, 3, 4, 5; location not provided
+  - **Issue** The text frequently states results are "significant" or "increased/decreased" without providing exact p-values, effect sizes, or confidence intervals. The number of replicates is not consistently stated.
+  - **Required correction** Provide exact p-values and effect sizes for all key comparisons. State the number of biological and technical replicates for each experiment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Figures 1-5; location not provided
+  - **Issue** Figure legends are not provided in the manuscript text, making it difficult to assess the experiments fully.
+  - **Required correction** Include full figure legends with detailed descriptions of experimental conditions, sample sizes, and statistical tests.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section
+  - **Evidence pointer** Section "MPO directly binds chromatin at nucleosome-free regions"; location not provided
+  - **Issue** The term "nucleosome-free regions" is used, but the analysis appears to be based on MNase-seq or ATAC-seq data. The definition of "nucleosome-free" should be clarified.
+  - **Required correction** Define the criteria used to classify regions as nucleosome-free and specify the data source for this classification.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The Discussion does not address potential limitations, such as the use of a single MPO concentration, the relevance of the in vitro findings to in vivo conditions, or the possibility that MPO effects are mediated by other mechanisms.
+  - **Required correction** Add a limitations paragraph acknowledging these issues and discussing their potential impact on the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (nuclear entry and chromatin binding evidence), R1-M2 (causal link between binding and transcription), R1-M3 (ILF3 functional relevance), R1-M4 (in vivo phenotype robustness), R1-M5 (RNA-seq reporting)
+- **Assessment against Nature-style criteria** Originality: The concept of a secreted enzyme acting as a chromatin-binding transcriptional regulator is novel and potentially of broad interest. Scientific importance: If substantiated, the findings could have implications for understanding MPO functions beyond its enzymatic activity and for vascular biology. However, the importance is currently tempered by the incomplete mechanistic evidence. Interdisciplinary readership: The topic bridges immunology, vascular biology, and chromatin biology, which could attract a broad audience. Technical soundness: The experimental approaches are generally appropriate, but the reporting is incomplete in several areas, and the causal logic has gaps. Readability for nonspecialists: The manuscript is generally readable, but some sections assume familiarity with chromatin biology and genomics techniques. The abstract is clear, but the results section could benefit from more explicit framing of the logic.
+- **Recommendation posture** Not currently established from the provided evidence. The manuscript presents an interesting hypothesis and preliminary data, but the key claims require additional experimental support and more rigorous reporting. I would be supportive of the work if the major concerns are addressed with additional experiments and clearer data presentation.

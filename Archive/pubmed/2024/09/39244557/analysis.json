@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39244557",
+  "title": "Improving prediction performance of general protein language model by domain-adaptive pretraining on DNA-binding protein.",
+  "authors": "Zeng, Wenwu; Dou, Yutao; Pan, Liangrui; Xu, Liwen; Peng, Shaoliang",
+  "journal": "Nature communications",
+  "published_date": "2024-09-08",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过领域自适应预训练通用蛋白语言模型ESM-DBP，提升DNA结合蛋白序列的特征表示与互作预测性能，虽聚焦广义蛋白-DNA互作而非典型TF-DNA体系，但方法可迁移至转录因子结合位点预测，具有借鉴价值。",
+  "abstract": "DNA-protein interactions exert the fundamental structure of many pivotal biological processes, such as DNA replication, transcription, and gene regulation. However, accurate and efficient computational methods for identifying these interactions are still lacking. In this study, we propose a method ESM-DBP through refining the DNA-binding protein sequence repertory and domain-adaptive pretraining based the general protein language model. Our method considers the lacking exploration of general language model for DNA-binding protein domain-specific knowledge, so we screen out 170,264 DNA-binding protein sequences to construct the domain-adaptive language model. Experimental results on four downstream tasks show that ESM-DBP provides a better feature representation of DNA-binding protein compared to the original language model, resulting in improved prediction performance and outperforming the state-of-the-art methods. Moreover, ESM-DBP can still perform well even for those sequences with only a few homologous sequences. ChIP-seq on two predicted cases further support the validity of the proposed method.",
+  "abstract_zh": "DNA-蛋白质相互作用构成了许多关键生物过程的基础结构，如DNA复制、转录和基因调控。然而，目前仍缺乏准确且高效的计算方法来识别这些相互作用。在本研究中，我们提出了一种名为ESM-DBP的方法，通过精炼DNA结合蛋白序列库并基于通用蛋白质语言模型进行域自适应预训练。我们的方法考虑了通用语言模型在DNA结合蛋白领域特定知识探索方面的不足，因此筛选出170,264条DNA结合蛋白序列以构建域自适应语言模型。在四个下游任务上的实验结果表明，与原始语言模型相比，ESM-DBP为DNA结合蛋白提供了更好的特征表示，从而提高了预测性能，并超越了现有最先进的方法。此外，即使对于仅有少量同源序列的序列，ESM-DBP仍能表现出良好的性能。对两个预测案例的ChIP-seq实验进一步支持了所提出方法的有效性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39244557/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39244557/",
+  "paper_page_path": "papers/pubmed/39244557/index.html"
+}

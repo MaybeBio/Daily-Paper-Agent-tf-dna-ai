@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.15.480482",
+  "title": "TAMC: A deep-learning approach to predict motif-centric transcriptional factor binding activity based on ATAC-seq profile",
+  "authors": "Tianqi Yang; Ricardo Henao",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-19",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用1D-CNN从ATAC-seq谱预测基序中心TF结合活性，属TF-DNA结合位点预测的AI方法，但未涉及三维互作建模或动态机制，故评7分。",
+  "abstract": "Determining transcriptional factor binding sites (TFBSs) is critical for understanding the molecular mechanisms regulating gene expression in different biological conditions. Biological assays designed to directly mapping TFBSs require large sample size and intensive resources. As an alternative, ATAC-seq assay is simple to conduct and provides genomic cleavage profiles that contain rich information for imputing TFBSs indirectly. Previous footprint-based tools are inheritably limited by the accuracy of their bias correction algorithms and the efficiency of their feature extraction models. Here we introduce TAMC ( T ranscriptional factor binding prediction from A TAC-seq profile at M otif-predicted binding sites using C onvolutional neural networks), a deep-learning approach for predicting motif-centric TF binding activity from paired-end ATAC-seq data. TAMC does not require bias correction during signal processing. By leveraging a onedimensional convolutional neural network (1D-CNN) model, TAMC captures both footprint and non-footprint features at binding sites for each TF and outperforms existing footprinting tools in TFBS prediction particularly for ATAC-seq data with limited sequencing depth. AUTHOR SUMMARY Applications of deep-learning models are rapidly gaining popularity in recent biological studies because of their efficiency in analyzing non-linear patterns from feature-rich data. In this study, we developed a 1D-CNN model to predict TFBSs from ATAC-seq data. Compared to previous models using scoring functions and classical machine learning algorithms, our 1D-CNN model forgoes the need for bias correction during signal processing and significantly increases the efficiency in extracting features for TFBS prediction. In addition, the performance of our 1D-CNN model improves when the sequencing depth of training ATAC-seq data increases. Importantly, we showed that our method outperforms existing tools in TFBS prediction particularly when the sequencing depth of training ATAC-seq data is higher than the ATAC-seq data for prediction. This widened the applicability of our model to ATAC-seq data with both deep and shallow sequencing depth. Based on these results, we discussed about the potential application of our method to TFBS predication using bulk and single-cell ATAC-seq data.",
+  "abstract_zh": "确定转录因子结合位点（TFBSs）对于理解不同生物学条件下调控基因表达的分子机制至关重要。直接绘制TFBSs的生物检测方法需要大量样本和密集资源。作为替代方案，ATAC-seq检测操作简便，可提供包含丰富信息的基因组切割图谱，用于间接推断TFBSs。以往基于足迹的工具固有地受限于其偏差校正算法的准确性和特征提取模型的效率。在此，我们介绍TAMC（利用卷积神经网络从ATAC-seq图谱中预测基序预测结合位点的转录因子结合活性），这是一种从双端ATAC-seq数据预测基序中心转录因子结合活性的深度学习方法。TAMC在信号处理过程中无需偏差校正。通过利用一维卷积神经网络（1D-CNN）模型，TAMC捕获每个转录因子结合位点处的足迹和非足迹特征，并在TFBS预测中优于现有足迹工具，尤其适用于测序深度有限的ATAC-seq数据。作者摘要 深度学习模型的应用在近期生物学研究中迅速普及，因其在分析富含特征数据中的非线性模式方面具有高效性。在本研究中，我们开发了一个1D-CNN模型，用于从ATAC-seq数据预测TFBSs。与以往使用评分函数和经典机器学习算法的模型相比，我们的1D-CNN模型在信号处理过程中无需偏差校正，并显著提高了TFBS预测特征提取的效率。此外，随着训练ATAC-seq数据测序深度的增加，我们1D-CNN模型的性能得到提升。重要的是，我们表明，当训练ATAC-seq数据的测序深度高于预测用ATAC-seq数据时，我们的方法在TFBS预测中优于现有工具。这拓宽了我们模型对深、浅测序深度ATAC-seq数据的适用性。基于这些结果，我们讨论了我们方法在利用批量及单细胞ATAC-seq数据进行TFBS预测中的潜在应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.15.480482",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.15.480482",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.15.480482/index.html"
+}

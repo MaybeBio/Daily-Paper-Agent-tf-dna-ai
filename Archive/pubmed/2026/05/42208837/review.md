@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report generation and characterization of two fully human T-cell receptor-like antibodies (D2\Ab and A12\Ab) targeting HPV16 E6 and E7 peptides presented by HLA-A2402, using computational design followed by experimental validation, with potential application in early cervical cancer detection.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, biopanning protocols, ELISA data, docking parameters, statistical analyses, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible pipeline for generating TCR-like antibodies against HPV16 P-MHC complexes, combining computational and experimental approaches. However, the evidence base available for review is limited to the abstract, which contains no quantitative data, no methodological detail, and no direct experimental results. The core claims of specific binding and diagnostic potential cannot be evaluated from the supplied material. The work may be of interest to the immuno-oncology and diagnostic communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in tumor immunology, antibody engineering, and HPV-associated cancer diagnostics would be interested. The approach of targeting P-MHC complexes with TCR-like antibodies has broad applicability beyond HPV, and the use of a fully human phage display library addresses a common limitation of murine-derived antibodies. Clinicians and diagnostic developers focused on early cancer detection may also find the work relevant.
+- **Major strengths** The combination of computational prediction and experimental validation is a sound overall strategy. The focus on HLA-A2402, a common allele in Asian populations, addresses a relevant gap in HPV diagnostics. The use of fully human antibodies avoids immunogenicity concerns in potential clinical applications. The inclusion of multiple assay types (ELISA, Western blot, cell-based ELISA) suggests an attempt at orthogonal validation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that D2\Ab and A12\Ab demonstrated "strong and specific binding" and "high affinity" to HPV16 E6 and E7 P-MHC complexes.  
+  - **Evidence pointer** Abstract only; no figures or tables provided  
+  - **Concern** No quantitative binding data, affinity constants, or statistical comparisons are presented. The terms "strong" and "high affinity" are qualitative and cannot be assessed without numerical values or dose-response curves.  
+  - **Why it matters** The central claim of the manuscript is that these antibodies bind specifically and with high affinity. Without quantitative evidence, the scientific case for the antibodies' utility is unsubstantiated.  
+  - **Resolution test** Provide binding curves, EC50 or KD values, and statistical comparisons against negative controls in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity validation  
+  - **Claim pointer** The abstract claims "selective recognition of target complexes without reactivity toward irrelevant controls."  
+  - **Evidence pointer** Abstract only; no control data shown  
+  - **Concern** The nature and number of irrelevant controls are not specified. It is unclear whether controls included other HPV types, other HLA alleles, or unrelated peptides. Cross-reactivity is a common failure mode for TCR-like antibodies, and the abstract does not demonstrate that this was adequately tested.  
+  - **Why it matters** Specificity is the key differentiator for diagnostic utility. Inadequate control testing could lead to false-positive results in clinical samples.  
+  - **Resolution test** List all control antigens tested, including HLA mismatches, peptide mismatches, and unrelated P-MHC complexes, with corresponding binding data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and methodological transparency  
+  - **Claim pointer** The abstract states that "a fully human domain antibody phage display library was screened against these complexes through iterative biopanning."  
+  - **Evidence pointer** Abstract only; no methods section available  
+  - **Concern** No details are provided on the library size, number of panning rounds, enrichment factors, or selection stringency. Without these, the reproducibility of the selection process cannot be assessed.  
+  - **Why it matters** Phage display selections are prone to artifacts and non-specific enrichment. The absence of methodological detail prevents evaluation of whether the identified antibodies are genuine hits or selection artifacts.  
+  - **Resolution test** Provide full biopanning methods, including library characteristics, panning conditions, and enrichment data.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Translational claim  
+  - **Claim pointer** The abstract concludes that the antibodies "highlight their potential application in early detection and targeted diagnostic strategies for cervical cancer."  
+  - **Evidence pointer** Abstract only; no clinical or ex vivo data  
+  - **Concern** The abstract provides no evidence that the antibodies can detect HPV16-associated disease in clinical samples, such as cervical smears or biopsies. The leap from in vitro binding to diagnostic potential is unsupported.  
+  - **Why it matters** In vitro binding does not predict performance in complex biological matrices. The translational claim requires at least proof-of-concept in relevant clinical or ex vivo specimens.  
+  - **Resolution test** Include data from patient-derived samples or relevant cell lines expressing endogenous HPV16 antigens, with appropriate clinical context.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Antibody nomenclature  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The designations "D2\Ab" and "A12\Ab" are unusual and the backslash is non-standard.  
+  - **Required correction** Use standard antibody nomenclature, such as D2 and A12, or clarify the naming convention.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Computational validation  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract mentions molecular docking for both construction and structural evaluation but does not specify the software, scoring functions, or validation of docking results.  
+  - **Required correction** Provide docking software details and validation metrics in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** HLA allele relevance  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The choice of HLA-A2402 is mentioned but its prevalence and relevance to cervical cancer are not contextualized.  
+  - **Required correction** Briefly state the allele frequency in relevant populations and its clinical relevance to HPV16 infection.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative binding data absent), R1-M2 (specificity controls unspecified), R1-M3 (selection methodology not detailed). These are blocking because the core claims of affinity, specificity, and successful antibody generation cannot be verified from the abstract.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of targeting HPV16 E6 and E7 P-MHC complexes with fully human TCR-like antibodies is not entirely novel, as similar strategies have been reported for other viral and tumor antigens. The specific application to HLA-A2402 and HPV16 may offer incremental novelty.  
+  - **Scientific importance** HPV-associated cervical cancer remains a major global health burden, and improved early detection methods are needed. However, the abstract does not demonstrate a clear advantage over existing detection modalities, such as HPV DNA testing or cytology.  
+  - **Interdisciplinary readership** The work bridges immunology, structural biology, and diagnostic development, which could attract a broad readership if the evidence is compelling.  
+  - **Technical soundness** Cannot be assessed from the abstract. The described pipeline is plausible, but the absence of data prevents evaluation of experimental rigor.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses technical terms without sufficient context. The significance of HLA-A2402 and TCR-like antibodies may not be accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a reasonable research plan, but the absence of quantitative data, specificity controls, and methodological detail means the core claims cannot be verified. The manuscript may become publishable if the full text provides the missing evidence and addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of "strong and specific binding" and "high affinity" is unsupported without quantitative data.
+- The claim of "selective recognition without reactivity toward irrelevant controls" is unverifiable without specification of controls and data.
+- The claim of "potential application in early detection and targeted diagnostic strategies" is speculative and not supported by any clinical or ex vivo evidence.
+- The overall conclusion that the study "demonstrates the feasibility" of generating such antibodies is not assessable from the abstract alone.

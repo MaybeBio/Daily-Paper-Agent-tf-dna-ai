@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Materials and Methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text; no external data or code were accessed
+- **Shared manuscript claim summary** The authors present a deep learning framework predicting cell type-specific DNA methylation (mCG and mCH) from sequence across 186 brain cell subtypes, and use it to show that common variant risk for brain disorders acts preferentially through mCG in excitatory neurons, while rare de novo mutations in autism spectrum disorder preferentially perturb mCH at conserved neuronal regulatory regions
+- **Visible evidence base** Main text figures referenced (Figs 1–6), Supplementary Figures 1–9, Supplementary Tables 1–7, methods descriptions, and prior publications cited within the text
+- **Missing materials affecting confidence** Figure panels and actual data values are not visible in the provided text; Supplementary Tables and Figures are referenced but not supplied; no code or model outputs were available for inspection; no line numbers were provided
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: whether common and rare noncoding genetic risk for brain disorders operates through distinct DNA methylation contexts in a cell type-specific manner. The development of a deep learning framework extending prior work (INTERACT) to non-CG methylation across a large number of brain cell subtypes is a substantial technical advance. The central claims, if fully supported, would be of considerable interest to the neurogenetics and epigenomics communities. However, several key analyses as described raise concerns about the strength of the evidence, particularly regarding the specificity of the rare variant signal, the interpretation of heritability enrichment differences, and the robustness of the model evaluation. The manuscript would be strengthened by additional validation and by clarifying the relationship between predicted effects and observed regulatory mechanisms.
+- **Who would be interested in the results, and why** Geneticists studying brain disorders, epigeneticists interested in cell type-specific regulation, and computational biologists developing sequence-to-function models would all find this work relevant. The claim that common and rare variants act through distinct methylation contexts has implications for interpreting GWAS and de novo mutation data, and for prioritizing variants in future studies. The methodological advance of predicting mCH from sequence across many cell types is also of broad interest.
+- **Major strengths** The manuscript tackles a biologically important question with a technically ambitious approach. The extension of deep learning-based variant effect prediction to non-CG methylation across a large number of brain cell subtypes is novel and potentially valuable. The integration of multiple lines of evidence (evolutionary constraint, chromatin enrichment, heritability, de novo mutations) is commendable. The use of two independent ASD cohorts for replication of the rare variant finding is a notable strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of model evaluation
+  - **Claim pointer** The claim that the models accurately predict variant effects on DNAm, supported by agreement with mQTLs in direction and magnitude.
+  - **Evidence pointer** Results section "In silico mutagenesis predicts cell type-specific variant effects on DNAm"; Figure 4A
+  - **Concern** The evaluation of predicted variant effects against mQTL data is described only in summary form. The text states that concordance was highest for matched cell classes, but the actual concordance rates, the number of SNP-CG pairs tested, and the statistical significance of the concordance are not reported in the provided text. The example given (chr11:119,548,052) is a single locus. Without a more detailed quantitative assessment, including performance metrics across all cell types and contexts, it is difficult to assess how well the model performs and whether the accuracy is sufficient to support the downstream analyses.
+  - **Why it matters** The entire downstream analysis (heritability enrichment, de novo mutation analysis) relies on the validity of the predicted variant effect scores. If the model's predictions are noisy or biased, the conclusions about differential contributions of mCG and mCH could be artifacts. A rigorous, quantitative evaluation is essential.
+  - **Resolution test** Provide a comprehensive evaluation of predicted versus observed mQTL effects, including concordance rates, correlation coefficients, and the number of significant mQTLs used, stratified by cell type and context. Show that performance is not driven by a small number of loci and that the model performs well across the allele frequency spectrum relevant to the downstream analyses.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of heritability enrichment
+  - **Claim pointer** The claim that common variants predicted to affect mCG show substantially greater heritability enrichment for brain-related traits than variants affecting mCH.
+  - **Evidence pointer** Results section "Common variants impacting mCG contribute more to heritability of brain-related traits"; Figure 5A
+  - **Concern** The heritability enrichment analysis is a cornerstone of the paper's central claim. However, the description is brief. The text states that enrichment was strong for mCG in most neuronal subtypes and weak for mCH, but does not report the actual enrichment values, standard errors, or the number of traits with significant enrichment. The comparison between mCG and mCH is made across different sets of variants (top 10% ranked by impact score for each context). It is unclear if this comparison is fair, as the distribution of impact scores may differ between contexts. Furthermore, the text notes that enrichment was absent for Alzheimer's disease, which is not discussed further.
+  - **Why it matters** The conclusion that common variant risk acts through mCG is a major finding. If the enrichment analysis is not robust, or if the comparison between contexts is confounded, the conclusion is weakened. The lack of detail prevents the reader from assessing the strength of this evidence.
+  - **Resolution test** Report full S-LDSC results, including enrichment coefficients, standard errors, and FDR-adjusted p-values for all traits and cell types. Provide a clear description of how the mCG and mCH annotations were constructed and compared, and address potential confounders such as differences in variant annotation density or LD structure. Discuss the null result for Alzheimer's disease.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of the rare variant signal
+  - **Claim pointer** The claim that noncoding de novo mutations in ASD preferentially perturb mCH, but not mCG, at conserved neuronal regulatory regions.
+  - **Evidence pointer** Results section "Noncoding de novo mutations in ASD preferentially impact mCH, but not mCG"; Figure 6
+  - **Concern** The analysis of de novo mutations is described as showing significant differences between probands and siblings only when restricted to the intersection of conserved elements and H3K27ac peaks. The text states that filtering by either conservation or H3K27ac alone did not yield significant results. This suggests the signal is dependent on a specific, and relatively small, subset of the genome. The number of DNMs in this intersection, the effect sizes, and the consistency of the signal across cell types are not reported. The replication in SSC is described as "nominal" for most discoveries, which is weaker than the discovery threshold.
+  - **Why it matters** The claim that rare variants act through mCH is based on this analysis. The dependence on a stringent filter and the modest replication signal raise questions about the robustness and generalizability of this finding. It is possible that the result is driven by a small number of loci or is a statistical artifact of multiple testing.
+  - **Resolution test** Provide detailed results of the DNM analysis, including the number of DNMs in each filtering category, the distribution of impact scores, and the effect sizes and confidence intervals for the proband-sibling comparisons. Clarify the replication criteria and report the overlap of significant cell types between cohorts. Consider sensitivity analyses using different conservation thresholds or chromatin annotations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation of mCH vs. mCG
+  - **Claim pointer** The claim that the distinct contributions of mCG and mCH to common and rare risk reflect fundamentally different biological mechanisms.
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript frames the mCG/mCH distinction as reflecting distinct biological mechanisms, but the evidence presented is largely correlative. The model predicts that variants affect methylation, and these predictions correlate with disease risk. However, the causal relationship between the predicted methylation change and disease is not established. The authors do not demonstrate that the predicted methylation changes lead to altered gene expression or neuronal function. The interpretation that mCH is under stronger purifying selection is inferred from evolutionary conservation of TF motifs, but this is an indirect measure.
+  - **Why it matters** The paper's title and framing suggest a mechanistic insight. If the authors cannot provide evidence for a causal link, the conclusion should be tempered. The distinction between mCG and mCH could be a proxy for other regulatory features, such as chromatin state or TF binding, rather than a direct mechanistic driver.
+  - **Resolution test** Discuss alternative interpretations of the data. If possible, provide additional analyses linking predicted methylation changes to gene expression (e.g., using matched expression data) or to known regulatory mechanisms. Acknowledge the correlative nature of the findings and avoid overstating the mechanistic implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Model performance metrics
+  - **Evidence pointer** Results section "A multi-task deep learning framework for predicting DNAm across brain cell types"; Figure 2
+  - **Issue** The text reports MSE and Spearman correlation but does not provide a baseline comparison (e.g., a simple genomic-context model) to contextualize the model's performance.
+  - **Required correction** Add a baseline model comparison to demonstrate that the deep learning framework provides a meaningful improvement over simpler approaches.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Heritability enrichment comparison
+  - **Evidence pointer** Results section "Common variants impacting mCG contribute more to heritability of brain-related traits"
+  - **Issue** The comparison of enrichment between mCG and mCH is described qualitatively. It is unclear if the difference in enrichment between the two contexts is formally tested for significance.
+  - **Required correction** Perform and report a formal statistical test comparing the enrichment of mCG and mCH annotations for each trait.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Data and materials availability section
+  - **Issue** The statement that "all other data needed to evaluate the conclusions" are present is not fully accurate, as the trained model weights and the full list of predicted variant effects are not provided.
+  - **Required correction** Provide a clear statement on the availability of model weights and the full output of the in silico mutagenesis, or specify how these can be obtained.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of evolutionary constraint
+  - **Affected element** TF constraint analysis
+  - **Evidence pointer** Results section "Model learns distinct TF programs across cell types and DNAm contexts"; Figure 3F
+  - **Issue** The comparison of LOEUF values between mCH- and mCG-associated TFs is reported as a global difference. It is unclear if this difference is driven by specific TF families or is a general property.
+  - **Required correction** Provide a breakdown of the constraint analysis by TF family or functional class to assess the generalizability of the finding.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model evaluation), R1-M2 (heritability enrichment interpretation), R1-M3 (specificity of rare variant signal)
+- **Assessment against Nature-style criteria** Originality: High. The application of deep learning to predict mCH across many cell types and the integration with disease genetics is novel. Scientific importance: High, if the claims are fully supported. The potential to distinguish mechanisms of common and rare risk is significant. Interdisciplinary readership: The topic bridges genomics, epigenetics, and neuropsychiatric genetics, which should appeal to a broad audience. Technical soundness: The deep learning approach is state-of-the-art, but the evaluation and downstream analyses as described have gaps that need to be addressed. Readability for nonspecialists: The abstract and introduction are clear, but the results section is dense and would benefit from more explicit explanations of the key metrics and comparisons.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the technical approach is promising, but the evidence presented in the provided text is not sufficient to fully establish the claims. A revised manuscript with a more rigorous and detailed evaluation of the model and the downstream analyses could make a strong contribution.
+
+## Risk / unsupported claims
+- The claim that common and rare variants contribute to brain disorders through "distinct cellular DNA methylation mechanisms" is a strong interpretation that is not fully supported by the correlative evidence presented.
+- The claim that mCH-associated TF programs are under "stronger evolutionary constraint" is based on LOEUF analysis of inferred TFs, which is an indirect measure and may be confounded by the TF inference method.
+- The specific heritability enrichment values and their statistical significance are not reported, making the claim of "substantially greater" enrichment for mCG unverifiable from the provided text.
+- The claim that the model captures cell type specificity in variant effects is based on a single illustrative example and a summary of concordance rates, which is insufficient for a robust conclusion.
+- The biological relevance of the predicted methylation changes (e.g., their effect on gene expression) is not demonstrated, leaving the mechanistic link between the model predictions and disease risk unestablished.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.19.726195",
+  "title": "Spatiotemporal graph neural networks reveal conformational binding signature in protein dynamics",
+  "authors": "Stefano Motta; Gianluca Santini; Samman Mansoor; Ferdoos Hossein Nezhad; Massimiliano Meli; Alessandro Pandini",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用时空图神经网络从MD轨迹中学习蛋白动态结合构象签名，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作界面动态建模。",
+  "abstract": "Biomolecular function is often controlled by structural and dynamical adaptations to binding events. Although molecular dynamics (MD) simulations can capture these events at atomic resolution, separating functional signatures from stochastic noise remains challenging. Traditional methods often struggle to isolate mechanistically relevant differences across independent replicas. Here, we introduce an explainable deep learning approach that learns state-specific dynamic signatures directly from MD trajectories. By coupling a dynamic protein graph representation with group-aware contrastive learning across independent replicas, the model detects the signatures, filtering out trajectory-specific correlations. An explainable AI framework then maps the identified differences on individual residues. We demonstrate this approach by identifying “binding-ready” conformations in a T4-Lysozyme mutant, recovering the allosteric determinants of peptide recognition in the PDZ3 domain, and isolating a ligand-independent activation signature for the A2A receptor. Our GISTnet-MD method generalizes across unseen data during comparative MD analysis, translating raw trajectory differences into residue-level determinants of protein function.",
+  "abstract_zh": "生物分子功能常受结合事件引起的结构和动态适应所控制。尽管分子动力学（molecular dynamics, MD）模拟能以原子分辨率捕捉这些事件，但将功能特征与随机噪声分离仍具挑战性。传统方法往往难以在独立重复实验中隔离机制相关的差异。在此，我们引入一种可解释的深度学习方法，直接从MD轨迹中学习状态特异性动态特征。通过将动态蛋白质图表示与跨独立重复实验的组感知对比学习相结合，该模型检测这些特征，并过滤掉轨迹特异性相关性。一个可解释的人工智能框架随后将识别出的差异映射到单个残基上。我们通过识别T4-溶菌酶突变体中的“结合就绪”构象、恢复PDZ3结构域中肽识别的变构决定因素，以及分离A2A受体的配体非依赖性激活特征来展示该方法。我们的GISTnet-MD方法在比较MD分析中能泛化至未见数据，将原始轨迹差异转化为蛋白质功能的残基级决定因素。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726195",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726195",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.19.726195/index.html"
+}

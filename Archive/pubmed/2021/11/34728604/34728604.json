@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "34728604",
+    "doi": "10.1038/s41419-021-04121-9",
+    "title": "A gene toolbox for monitoring autophagy transcription."
+  },
+  "content": {
+    "abstract": "Autophagy is a highly dynamic and multi-step process, regulated by many functional protein units. Here, we have built up a comprehensive and up-to-date annotated gene list for the autophagy pathway, by combining previously published gene lists and the most recent publications in the field. We identified 604 genes and created main categories: MTOR and upstream pathways, autophagy core, autophagy transcription factors, mitophagy, docking and fusion, lysosome and lysosome-related genes. We then classified such genes in sub-groups, based on their functions or on their sub-cellular localization. Moreover, we have curated two shorter sub-lists to predict the extent of autophagy activation and/or lysosomal biogenesis; we next validated the \"induction list\" by Real-time PCR in cell lines during fasting or MTOR inhibition, identifying ATG14, ATG7, NBR1, ULK1, ULK2, and WDR45, as minimal transcriptional targets. We also demonstrated that our list of autophagy genes can be particularly useful during an effective RNA-sequencing analysis. Thus, we propose our lists as a useful toolbox for performing an informative and functionally-prognostic gene scan of autophagy steps.",
+    "keywords": [],
+    "mesh_terms": [
+      "Autophagy/*genetics",
+      "Cell Line, Tumor",
+      "*Genetic Techniques",
+      "HEK293 Cells",
+      "Humans",
+      "Lysosomes/metabolism",
+      "Reproducibility of Results",
+      "TOR Serine-Threonine Kinases/metabolism",
+      "*Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bordi, Matteo",
+        "De Cegli, Rossella",
+        "Testa, Beatrice",
+        "Nixon, Ralph A",
+        "Ballabio, Andrea",
+        "Cecconi, Francesco"
+      ],
+      "short_names": [
+        "Bordi M",
+        "De Cegli R",
+        "Testa B",
+        "Nixon RA",
+        "Ballabio A",
+        "Cecconi F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8207-8546",
+        "ORCID: 0000-0002-8526-8692",
+        "ORCID: 0000-0003-1381-4604",
+        "ORCID: 0000-0002-5614-4359"
+      ],
+      "affiliations": [
+        "Department of Pediatric Hemato-Oncology and Cell and Gene therapy, IRCCS Bambino Gesu Children's Hospital, Rome, Italy.",
+        "Telethon Institute of Genetics and Medicine (TIGEM), Pozzusoli, Naples, Italy.",
+        "Department of Biology, University of Rome Tor Vergata, Rome, Italy.",
+        "Center for Dementia Research, Nathan Kline Institute for Psychiatric Research, Orangeburg, NY, USA.",
+        "Departments of Psychiatry, New York University School of Medicine, New York, NY, USA.",
+        "Cell Biology, New York University School of Medicine, New York, NY, USA.",
+        "Telethon Institute of Genetics and Medicine (TIGEM), Pozzusoli, Naples, Italy.",
+        "Department of Molecular and Human Genetics and Neurological Research Institute, Baylor College of Medicine, Houston, TX, USA.",
+        "Medical Genetics Unit, Department of Medical and Translational Science, Federico II University, Naples, Italy.",
+        "Department of Pediatric Hemato-Oncology and Cell and Gene therapy, IRCCS Bambino Gesu Children's Hospital, Rome, Italy. cecconi@cancer.dk.",
+        "Department of Biology, University of Rome Tor Vergata, Rome, Italy. cecconi@cancer.dk.",
+        "Unit of Cell Stress and Survival, Danish Cancer Society Research Center, Copenhagen, Denmark. cecconi@cancer.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bordi, Matteo",
+        "short_name": "Bordi M",
+        "identifiers": [
+          "0000-0001-8207-8546"
+        ],
+        "affiliations": [
+          "Department of Pediatric Hemato-Oncology and Cell and Gene therapy, IRCCS Bambino Gesù Children's Hospital, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "De Cegli, Rossella",
+        "short_name": "De Cegli R",
+        "identifiers": [
+          "0000-0002-8526-8692"
+        ],
+        "affiliations": [
+          "Telethon Institute of Genetics and Medicine (TIGEM), Pozzuśoli, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Testa, Beatrice",
+        "short_name": "Testa B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Rome Tor Vergata, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Nixon, Ralph A",
+        "short_name": "Nixon RA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Dementia Research, Nathan Kline Institute for Psychiatric Research, Orangeburg, NY, USA.",
+          "Departments of Psychiatry, New York University School of Medicine, New York, NY, USA.",
+          "Cell Biology, New York University School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ballabio, Andrea",
+        "short_name": "Ballabio A",
+        "identifiers": [
+          "0000-0003-1381-4604"
+        ],
+        "affiliations": [
+          "Telethon Institute of Genetics and Medicine (TIGEM), Pozzuśoli, Naples, Italy.",
+          "Department of Molecular and Human Genetics and Neurological Research Institute, Baylor College of Medicine, Houston, TX, USA.",
+          "Medical Genetics Unit, Department of Medical and Translational Science, Federico II University, Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Cecconi, Francesco",
+        "short_name": "Cecconi F",
+        "identifiers": [
+          "0000-0002-5614-4359"
+        ],
+        "affiliations": [
+          "Department of Pediatric Hemato-Oncology and Cell and Gene therapy, IRCCS Bambino Gesù Children's Hospital, Rome, Italy. cecconi@cancer.dk.",
+          "Department of Biology, University of Rome Tor Vergata, Rome, Italy. cecconi@cancer.dk.",
+          "Unit of Cell Stress and Survival, Danish Cancer Society Research Center, Copenhagen, Denmark. cecconi@cancer.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2021 Nov 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/04 06:00",
+    "fetched_at": "2026-09-28 01:28:36"
+  },
+  "links": {
+    "cites": [
+      "42589464",
+      "42231151",
+      "42230924",
+      "42225621",
+      "42202065",
+      "42193333",
+      "42152481",
+      "42072352",
+      "41917768",
+      "41916975",
+      "41870035",
+      "41862581",
+      "41822482",
+      "41692747",
+      "41637269",
+      "41503468",
+      "41438679",
+      "41269792",
+      "41191517",
+      "41105374",
+      "41061082",
+      "41055756",
+      "40719264",
+      "40501952",
+      "40479744",
+      "40444463",
+      "40293407",
+      "40140770",
+      "40093155",
+      "40016525",
+      "39985015",
+      "39744571",
+      "39645617",
+      "39633028",
+      "39609420",
+      "39589836",
+      "39518982",
+      "39423796",
+      "39353907",
+      "39245437",
+      "39138534",
+      "39026010",
+      "38977511",
+      "38939901",
+      "38637827",
+      "38627910",
+      "38548722",
+      "38504290",
+      "38378796",
+      "38370394",
+      "38321105",
+      "38291202",
+      "38282074",
+      "38280852",
+      "38077042",
+      "38003603",
+      "37961308",
+      "37648686",
+      "37620393",
+      "37589496",
+      "37488217",
+      "36849544",
+      "36713435",
+      "36346671",
+      "36271102",
+      "36143432",
+      "36120103",
+      "35382734",
+      "35021856"
+    ],
+    "refs": [
+      "32244996",
+      "31937935",
+      "31836831",
+      "31519908",
+      "31332166",
+      "31312633",
+      "31043483",
+      "30664679",
+      "30627666",
+      "30452922",
+      "30153076",
+      "30066211",
+      "30006559",
+      "29618831",
+      "29462587",
+      "29157087",
+      "28974774",
+      "28933638",
+      "28596378",
+      "27813694",
+      "27473339",
+      "27299292",
+      "26953261",
+      "26799652",
+      "26771021",
+      "26240184",
+      "26075876",
+      "25784045",
+      "25654549",
+      "25651938",
+      "25479550",
+      "24554770",
+      "24448649",
+      "24440914",
+      "24384561",
+      "24366339",
+      "23921753",
+      "23804767",
+      "23651856",
+      "23435086",
+      "23393155",
+      "22543366",
+      "22028146",
+      "21752829",
+      "21617040",
+      "21460635",
+      "20028854",
+      "19556463",
+      "19131956",
+      "16199517",
+      "12734009"
+    ],
+    "similar": [
+      "34728604",
+      "25984893",
+      "30290719",
+      "27689333",
+      "26240184",
+      "33160989",
+      "29966622",
+      "28525743",
+      "40509568",
+      "23916784",
+      "23337583",
+      "26761346",
+      "27977328",
+      "30409790",
+      "31108943",
+      "38383507",
+      "23291726",
+      "21521941",
+      "25561726",
+      "32807902",
+      "25061009",
+      "29507183",
+      "32839434",
+      "32519707",
+      "30871407",
+      "27078027",
+      "30894069",
+      "35128864",
+      "30059277",
+      "21949121",
+      "25158238",
+      "37545052",
+      "31334669",
+      "26702100",
+      "31361156",
+      "32616830",
+      "33109685",
+      "24135897",
+      "35670302",
+      "38183492",
+      "29782848",
+      "28891980",
+      "23743762",
+      "40528705",
+      "41215589",
+      "31800587",
+      "33369397",
+      "31971854",
+      "39936623",
+      "24369758",
+      "22927967",
+      "23439250",
+      "25894744",
+      "26902888",
+      "33227289",
+      "27852774",
+      "24714637",
+      "24923441",
+      "26565689",
+      "25733853",
+      "26589722",
+      "30348524",
+      "30421325",
+      "35104184",
+      "26920049",
+      "32512069",
+      "27046250",
+      "31722960",
+      "31112550",
+      "28371052",
+      "36868108",
+      "38652732",
+      "32329644",
+      "22570149",
+      "29614882",
+      "25714412",
+      "35435531",
+      "26168401",
+      "21799306",
+      "27789294",
+      "33795648",
+      "34403298",
+      "32380078",
+      "25833948",
+      "32325714",
+      "21518918",
+      "33226137",
+      "39547430",
+      "28102733",
+      "28673965",
+      "35977156",
+      "28877469",
+      "32207633",
+      "30853401",
+      "29329543",
+      "27172265",
+      "34251638",
+      "27593892",
+      "25809873",
+      "33846569"
+    ],
+    "review": [
+      "34728604",
+      "21521941",
+      "25061009",
+      "25158238",
+      "38183492",
+      "24369758",
+      "26565689",
+      "31722960"
+    ],
+    "pmc": [
+      "8563709"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41419-021-04121-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34728604/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34728604",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34728604",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

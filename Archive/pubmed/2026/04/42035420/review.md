@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The abstract argues that integrated synthetic promoter (synP) and synthetic transcription factor (synTF) systems, supported by artificial intelligence-driven design, enable precise, intelligent, and multidimensional gene regulation for next-generation precision therapeutics. It claims that such systems address key translational requirements including multi-input sensing, tunable expression, and high orthogonality, and that progress in this area has shifted the field from empirical discovery to rational, predictive design.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or reference list were provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods section, reference list, and any supplementary information. Without these, the depth and accuracy of the review's synthesis, the validity of specific examples cited, and the support for forward-looking claims cannot be assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and ambitious overview of a rapidly evolving field. The central thesis, that integrated synP-synTF systems with AI-assisted design can advance precision therapeutics, is plausible and of interest to the synthetic biology and gene therapy communities. However, the abstract is largely programmatic and lacks specific evidence, quantitative outcomes, or critical comparison of competing approaches. The claims are broad and forward-looking, but the supporting detail, which would normally reside in the full text, is not available for verification. The abstract reads more as a perspective than a critical review, and the balance between enthusiasm and evidence-based assessment cannot be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in mammalian synthetic biology, gene circuit design, and therapeutic genome engineering would find this review relevant. Clinicians and translational scientists working on cell and gene therapies, particularly those interested in dynamic and tunable expression systems, would also benefit. The AI-driven design angle may attract computational biologists and machine learning researchers seeking biological applications.
+- **Major strengths** The abstract identifies a clear and important problem, namely functional leakage and imprecise control in mammalian synthetic systems. It articulates a coherent framework for how synP-synTF integration, aided by AI, could address this problem. The emphasis on translational requirements such as multi-input sensing, tunable expression, and orthogonality is well chosen and reflects current bottlenecks in the field. The writing is clear and accessible to a broad scientific audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "integrated synP-synTF systems are advancing sophisticated mammalian therapeutics" and that progress has "shifted the field from empirical, trial-and-error discovery to rational, predictive design."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract makes strong forward-looking claims about therapeutic advancement and a paradigm shift in design methodology, but no specific examples, case studies, or quantitative data are presented to support these assertions. The claim of a shift to rational, predictive design is particularly strong and would require demonstration of predictive accuracy, perhaps through specific examples where AI-guided design outperformed empirical methods.
+  - **Why it matters** For a review article, the credibility of the synthesis depends on the quality and specificity of the evidence cited. Without concrete examples or data points, the claims remain aspirational rather than established. Readers cannot distinguish between well-supported trends and speculative projections.
+  - **Resolution test** The full text should provide specific examples of synP-synTF systems that have been validated in therapeutic contexts, with quantitative outcomes. For the AI-driven design claim, the review should cite studies showing predictive success, such as correlation between predicted and measured activity, or improved performance over non-AI methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Critical analysis
+  - **Claim pointer** The abstract states that "integrated synP-synTF systems are advancing sophisticated mammalian therapeutics" and that such systems "enhance therapeutic precision and reduce off-target effects."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract presents a uniformly positive narrative without acknowledging limitations, trade-offs, or failures in the field. For example, the challenges of orthogonality in mammalian cells, context-dependent promoter activity, and the difficulty of achieving predictable behavior in vivo are not mentioned. A review that does not critically assess the evidence, including negative results and unresolved problems, risks being unbalanced.
+  - **Why it matters** A balanced review is essential for guiding future research and for helping readers understand the realistic state of the field. Overstating progress without acknowledging limitations can mislead researchers and funders.
+  - **Resolution test** The full text should include a section on limitations and challenges, with specific examples of systems that failed or underperformed, and a discussion of why. The review should also compare integrated synP-synTF approaches with alternative strategies, such as optogenetic or chemical-genetic systems, to provide context.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and novelty
+  - **Claim pointer** The abstract claims that "advances in promoter engineering and modular synTF design, aided by artificial intelligence, have shifted the field from empirical, trial-and-error discovery to rational, predictive design."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not clearly distinguish this review from prior reviews on synthetic promoters and transcription factors. The novelty of the review's contribution, beyond summarizing known concepts, is unclear. The specific role of AI is mentioned but not elaborated, and it is unclear whether the review covers recent AI-driven design tools or merely mentions them in passing.
+  - **Why it matters** For a review to be valuable, it must offer a new synthesis, framework, or perspective that is not already available in existing literature. Without a clear statement of what is new, the review may be seen as redundant.
+  - **Resolution test** The full text should explicitly state the review's unique contribution, such as a new classification of synP-synTF integration strategies, a framework for AI-guided design, or a comparative analysis of therapeutic applications. The AI component should be substantiated with specific tools, algorithms, or case studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The terms "intelligent" and "multidimensional regulation" are used without definition. These terms are vague and could be interpreted in multiple ways.
+  - **Required correction** Define these terms explicitly, for example by specifying what "intelligent" means in the context of gene circuits (e.g., feedback control, learning-like behavior) and what dimensions of regulation are considered (e.g., temporal, spatial, dose-dependent).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Therapeutic applications
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract mentions "therapeutic applications" but does not name any specific disease areas or therapeutic modalities.
+  - **Required correction** Provide examples of target diseases or therapeutic contexts, such as cancer immunotherapy, metabolic disorders, or regenerative medicine, to give readers a concrete sense of the translational potential.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Balance
+  - **Affected element** Comparison with alternative approaches
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not mention alternative regulatory systems, such as optogenetics, chemogenetics, or RNA-based regulators, which are also used for precision control.
+  - **Required correction** Briefly acknowledge alternative approaches and explain how integrated synP-synTF systems compare, to position the review within the broader landscape.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract's central claims of therapeutic advancement and a paradigm shift in design methodology are not supported by the supplied material. The lack of critical analysis further weakens the case. These issues must be resolved in the full text before the review's conclusions can be considered established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not clearly establish originality relative to existing reviews. The framework of synP-synTF integration is not new, and the AI component is mentioned but not developed. Originality cannot be confirmed from the abstract alone.
+  - Scientific importance: The topic is important, as precision control of gene expression is a major bottleneck in therapeutic applications. However, the abstract does not provide evidence that the review offers new insights or resolves open questions.
+  - Interdisciplinary readership: The abstract is written in a way that is accessible to a broad audience, including non-specialists. The concepts are introduced clearly, and the language is not overly technical. However, the lack of specific examples may limit engagement for readers seeking concrete information.
+  - Technical soundness: The technical soundness of the review cannot be assessed from the abstract. The claims are plausible but unverified. The absence of any mention of limitations or negative results raises concerns about balance.
+  - Readability for nonspecialists: The abstract is readable and well-structured. The progression from problem to solution to application is logical. However, the use of vague terms such as "intelligent" and "multidimensional" may confuse nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting perspective, but the lack of specific evidence, critical analysis, and clear novelty means that the case is not yet made. A decision would require access to the full manuscript to assess the depth of the synthesis, the quality of the cited evidence, and the balance of the discussion.
+
+## Risk / unsupported claims
+- The claim that integrated synP-synTF systems are "advancing sophisticated mammalian therapeutics" is unsupported in the abstract, as no specific therapeutic examples or outcomes are provided.
+- The claim that the field has "shifted from empirical, trial-and-error discovery to rational, predictive design" is unsupported, as no evidence of predictive success is cited.
+- The claim that these systems "enhance therapeutic precision and reduce off-target effects" is presented as a general statement without supporting data or examples.
+- The claim that AI has played a key role in this shift is mentioned but not substantiated with specific tools, studies, or outcomes.
+- The overall balance of the review, including any discussion of limitations or alternative approaches, cannot be assessed from the abstract.

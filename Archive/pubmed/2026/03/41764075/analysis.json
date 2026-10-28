@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41764075",
+  "title": "Gene-specific pathogenicity predictor for chromatin remodeling BAF complex-associated neurodevelopmental disorders.",
+  "authors": "Hack, Joshua; Nazim, Mohammad",
+  "journal": "HGG advances",
+  "published_date": "2026-03-01",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文开发针对BAF复合物相关神经发育疾病的基因特异性致病性预测机器学习工具，虽涉及变异预测但非蛋白质-DNA互作体系，无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Advancements in whole-genome sequencing have increased the number of variants of uncertain significance (VUS) identified in human genomes. This has created a diagnostic bottleneck for genetic counselors tasked with sifting through these variants and determining those most likely to be causative for a patient's clinical presentation. Machine learning (ML) tools can aid in identifying pathogenic variants from VUS, but there is a need for gene-specific algorithms that predict pathogenic variants with high accuracy. To address this need, we present a workflow for developing gene-specific, ensemble-learning ML tools, that leverage outputs from other algorithms, locations of variants within the gene, and evolutionary conservation data to make a prediction of pathogenicity. Variants in SMARCA2 and SMARCA4 that are associated with rare neurodevelopmental diseases were used to screen 15 ML algorithms. A random forest learner was tuned to yield a final accuracy of 0.93 on holdout data. Generalizing this predictor to other BRG1/BRM-associated factor (BAF) complex proteins resulted in a sharp decline in performance. We trained a final predictor for all genes in the study to create a predictor that identifies pathogenic variants in these BAF subunits with an accuracy of 0.91 on holdout data. This predictor specific to BAF complex proteins performs with higher accuracy and area under the precision-recall curve than any other predictor. The decline in performance when generalized to other proteins emphasizes the need for the gene-specific calibration of predictors. Our workflow for the development of such models provides a quick, computationally inexpensive route for improving the ML tools available to genetic counselors.",
+  "abstract_zh": "全基因组测序的进展增加了人类基因组中识别出的意义不确定变异（VUS）的数量。这给遗传咨询师带来了诊断瓶颈，他们需要筛选这些变异并确定最可能导致患者临床表现的变异。机器学习（ML）工具可以帮助从VUS中识别致病性变异，但需要能够高精度预测致病性变异的基因特异性算法。为满足这一需求，我们提出了一种工作流程，用于开发基因特异性的集成学习ML工具，该工具利用其他算法的输出、基因内变异的位置以及进化保守性数据来预测致病性。与罕见神经发育疾病相关的SMARCA2和SMARCA4变异被用于筛选15种ML算法。随机森林学习器经过调优，在保留数据上最终准确率达到0.93。将该预测器推广到其他BRG1/BRM相关因子（BAF）复合物蛋白时，性能显著下降。我们为研究中的所有基因训练了一个最终预测器，以创建一个在保留数据上准确率为0.91的预测器，用于识别这些BAF亚基中的致病性变异。这个针对BAF复合物蛋白的预测器在准确率和精确率-召回率曲线下面积方面均优于任何其他预测器。当推广到其他蛋白质时性能下降，强调了基因特异性校准预测器的必要性。我们开发此类模型的工作流程为改善遗传咨询师可用的ML工具提供了一条快速、计算成本低的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41764075/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41764075/",
+  "paper_page_path": "papers/pubmed/41764075/index.html"
+}

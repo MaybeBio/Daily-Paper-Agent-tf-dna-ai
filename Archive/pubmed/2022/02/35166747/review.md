@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use multiple microsecond molecular dynamics (MD) simulations to compare the wild-type p53 tetramerization domain (p53TD) tetramer with the cancer-related R337H mutant. They report that the mutation disrupts specific inter-residue interactions (R337-D352 hydrogen bonds, F341-F341 pi-pi stacking, hydrophobic contacts between R337 and M340), increases solvent exposure of hydrophobic cores, induces unfolding of an N-terminal alpha-helix (residues 335-340), and reduces dynamical correlation and global connectivity based on community network analyses. The authors conclude that these effects collectively destabilize the p53TD tetramer and provide an atomistic mechanism for R337H-induced p53 loss of function.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, convergence metrics, or methodological parameters are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup, convergence analyses, error estimates, structural figures, community network analysis details, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for R337H-induced destabilization of the p53TD tetramer, supported by microsecond-scale MD simulations. The claim of first-time observation of N-terminal helix unfolding is notable. However, the abstract lacks quantitative evidence, methodological transparency, and validation against experimental data, which limits the ability to assess the robustness and significance of the findings. The mechanistic narrative is coherent but the evidence base as presented is insufficient to fully establish the case.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein folding and stability, cancer biology, and structural biology would be interested. The study addresses a clinically relevant mutation in p53 and offers an atomistic explanation that could inform understanding of p53 dysfunction. Those working on MD simulations of protein tetramers or on the p53 system specifically would find the results directly relevant.
+- **Major strengths** The study addresses a clinically important mutation with a clear mechanistic question. The use of multiple microsecond simulations is appropriate for capturing slow conformational changes. The integration of interaction analysis, solvent exposure, and community network analysis provides a multi-faceted view of destabilization. The specific claim of N-terminal helix unfolding is a potentially novel observation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that R337H mutation "destroys the R337-D352 hydrogen bonds, weakens the F341-F341 pi-pi stacking interaction and the hydrophobic interaction between aliphatic hydrocarbons of R337 and M340, leading to more solvent exposure of all the hydrophobic cores, and thus disrupting the structural integrity of the tetramer."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data to support these claims. No values for hydrogen bond occupancy, interaction energies, solvent accessible surface area, or structural integrity metrics are given. Without such data, the reader cannot evaluate the magnitude of the reported effects or whether they are statistically significant across the multiple simulations.
+  - **Why it matters** The central mechanistic claims rest on these interaction changes. If the effects are small or within simulation noise, the proposed mechanism would not be supported. Quantitative evidence is essential for establishing that the observed differences are real and meaningful.
+  - **Resolution test** Provide numerical values with error estimates for each interaction metric in wild-type versus mutant, along with statistical tests (e.g., block averaging, bootstrap) demonstrating significant differences. Show representative time series or distributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "R337H mutation results in unfolding of the alpha-helix starting from the N-terminal region (residues (335)RER(H)FEM(340))" and that this is shown "for the first time."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No structural evidence is presented to support the helix unfolding claim. The abstract does not describe how unfolding was detected (e.g., secondary structure assignment, RMSD, helix fraction over time), nor does it provide any quantitative measure of the extent or frequency of unfolding across simulations. The "first time" claim requires careful validation against prior experimental or computational studies.
+  - **Why it matters** This is a potentially novel finding and a key part of the proposed mechanism. If the unfolding is rare or transient, its functional relevance would be questionable. The novelty claim also needs to be substantiated with a literature comparison.
+  - **Resolution test** Provide time-resolved secondary structure analyses (e.g., DSSP) for each monomer in both systems, with helix fraction distributions and representative snapshots. Include a literature search demonstrating that this specific unfolding event has not been previously reported.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "community network analyses reveal that R337H mutation reduces dynamical correlation and global connectivity of p53TD tetramer."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The community network analysis is mentioned but no details are given regarding the method, parameters, or results. The reader cannot assess whether the analysis was performed correctly or whether the reported reduction in connectivity is statistically robust.
+  - **Why it matters** This analysis is used to support the destabilization mechanism. Without methodological transparency and quantitative output, the claim is unverifiable from the abstract.
+  - **Resolution test** Describe the network construction method (e.g., nodes, edges, correlation metric), the community detection algorithm, and provide quantitative metrics (e.g., betweenness, path lengths, community sizes) with error bars for both systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that the study "provides the atomistic mechanism of R337H mutation-induced destabilization of p53TD tetramer, which might be helpful for in-depth understanding of the p53 loss-of-function mechanism."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not discuss how the simulation findings relate to experimental data on R337H. Experimental studies have characterized the effects of this mutation on tetramer stability, and the abstract does not mention whether the simulation results are consistent with or contradict those findings.
+  - **Why it matters** For the mechanistic claim to be credible, the simulation results should be contextualized against experimental observations. Discrepancies or agreements with experimental data would strengthen or weaken the proposed mechanism.
+  - **Resolution test** Add a comparison of simulation-derived stability measures (e.g., free energy differences, melting temperatures) with experimental values, and discuss any discrepancies.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses technical terms such as "pi-pi stacking," "hydrophobic interaction between aliphatic hydrocarbons," and "community network analyses" without brief explanations. Nonspecialist readers in cancer biology may find these terms opaque.
+  - **Required correction** Add brief parenthetical explanations for these terms or rephrase to make the abstract more accessible to a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states "multiple microsecond molecular dynamics simulations" but does not specify the number of simulations, the total simulation time, the force field, or the water model. These details are essential for reproducibility.
+  - **Required correction** Include the number of independent simulations, total simulation time per system, force field, and water model in the abstract or refer to the methods section with specific details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not mention whether the simulations were validated against known experimental structures or dynamics of p53TD. Such validation would increase confidence in the simulation results.
+  - **Required correction** Add a statement about validation of the simulation setup against experimental data (e.g., crystal structure, NMR data) in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence for interaction changes), R1-M2 (lack of evidence for helix unfolding and novelty claim), R1-M3 (lack of methodological detail for community network analysis). These are blocking because the central mechanistic claims cannot be evaluated from the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The claim of first-time observation of N-terminal helix unfolding is potentially original, but this cannot be verified without a full literature comparison. The overall approach of MD simulations to study p53TD mutations is not novel in itself.
+  - Scientific importance: The p53 R337H mutation is clinically relevant, and an atomistic mechanism could be valuable. However, the abstract does not establish how this mechanism advances beyond existing experimental knowledge, limiting the perceived importance.
+  - Interdisciplinary readership: The topic bridges computational biophysics and cancer biology, but the abstract is written in a way that may not fully engage nonspecialists in either field. The mechanistic detail is likely to appeal primarily to computational biophysicists.
+  - Technical soundness: The use of microsecond simulations is appropriate, but the lack of quantitative data and methodological transparency prevents assessment of technical rigor. The community network analysis is mentioned without details, which is a significant gap.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses technical jargon without explanation, which may hinder accessibility for a broad readership.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic narrative is plausible, but the abstract lacks the quantitative and methodological detail needed to support the claims. The authors should provide full evidence from the manuscript, including simulation parameters, quantitative interaction analyses, structural data, and validation against experimental results, before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that R337H mutation "destroys" R337-D352 hydrogen bonds is unsupported without quantitative occupancy data.
+- The claim that F341-F341 pi-pi stacking and R337-M340 hydrophobic interactions are "weakened" is unsupported without interaction energy values.
+- The claim of "more solvent exposure of all the hydrophobic cores" is unsupported without solvent accessible surface area measurements.
+- The claim of "unfolding of the alpha-helix starting from the N-terminal region" is unsupported without secondary structure analysis data.
+- The claim that this helix unfolding is shown "for the first time" is unverifiable from the abstract.
+- The claim that community network analyses show reduced dynamical correlation and global connectivity is unsupported without methodological details and quantitative results.
+- The overall claim of providing an "atomistic mechanism" is not fully established from the abstract evidence.

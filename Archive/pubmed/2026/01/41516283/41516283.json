@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "41516283",
+    "doi": "10.3390/ijms27010409",
+    "title": "Search for Potential VDR/Partner Composite Elements in Regulatory DNA of Genes Associated with Respiratory Infections and Atopic Diseases."
+  },
+  "content": {
+    "abstract": "Vitamin D deficiency is associated with the risk of atopic diseases and respiratory infections. The activated vitamin D receptor (VDR) forms a dimer with the retinoid X receptor alpha (RXRA) and binds to VDR/RXRA composite elements (CEs) in enhancers of target genes. However, VDR/RXRA CEs are identified in only 11.5% of cases in ChIP-Seq peaks. Our hypothesis was that VDR could form a VDR-Partner complex with transcription factor for which CEs have not yet been identified. We utilized Web-MCOT to search for novel VDR/Partner CEs in regulatory DNA. The potential formation of the VDR-Partner protein complex was assessed using the AlphaFold machine learning model. Through real-time RT-PCR, we measured the expression of immune system genes in a culture of U937 macrophage-like cells incubated with the active metabolite of vitamin D, calcitriol. We have predicted novel VDR/NR2C2 and VDR/PPARG CEs in the regulatory regions of immune system genes. We found potential synergism of VDR/NR2C2 and VDR/RXRA CEs in relation to the IRF5 gene, as well as potential synergism of VDR/PPARG and VDR/RXRA CEs for MAPK13. Predicting new regulatory relationships through the identification of new potential VDR/Partner CEs may provide insight into the deep mechanisms of vitamin D involvement in the pathogenesis of atopic dermatitis, bronchial asthma, allergic rhinitis, and pulmonary infections.",
+    "keywords": [
+      "NR2C2",
+      "PPARG",
+      "VDR",
+      "atopy",
+      "composite elements",
+      "lung infection"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Receptors, Calcitriol/metabolism/genetics",
+      "*Respiratory Tract Infections/genetics/metabolism",
+      "Retinoid X Receptor alpha/metabolism/genetics",
+      "PPAR gamma/genetics/metabolism",
+      "U937 Cells",
+      "*Regulatory Sequences, Nucleic Acid",
+      "Gene Expression Regulation",
+      "Calcitriol/pharmacology",
+      "Dermatitis, Atopic/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Popov, Alexey V",
+        "Oshchepkov, Dmitry Yu",
+        "Kononchuk, Vladislav V",
+        "Kalinina, Tatiana S",
+        "Valembakhov, Ilya S",
+        "Lukin, Alexander D",
+        "Kondyurina, Elena G",
+        "Zelenskaya, Vera V",
+        "Vavilin, Valentin"
+      ],
+      "short_names": [
+        "Popov AV",
+        "Oshchepkov DY",
+        "Kononchuk VV",
+        "Kalinina TS",
+        "Valembakhov IS",
+        "Lukin AD",
+        "Kondyurina EG",
+        "Zelenskaya VV",
+        "Vavilin V"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6097-5155",
+        "ORCID: 0000-0003-4070-2421",
+        "ORCID: 0000-0002-2698-0866",
+        "ORCID: 0009-0001-7727-7847",
+        "ORCID: 0009-0008-0933-9971"
+      ],
+      "affiliations": [
+        "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia.",
+        "Institute of Cytology and Genetics, Novosibirsk 630090, Russia.",
+        "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia.",
+        "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia.",
+        "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia.",
+        "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia.",
+        "Department of Natural Sciences, Novosibirsk State University, Novosibirsk 630090, Russia.",
+        "Department of Pediatrics, Faculty of Advanced Training and Professional Retraining, Novosibirsk State Medical University, Novosibirsk 630091, Russia.",
+        "Department of Pediatrics, Faculty of Advanced Training and Professional Retraining, Novosibirsk State Medical University, Novosibirsk 630091, Russia.",
+        "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Popov, Alexey V",
+        "short_name": "Popov AV",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia."
+        ]
+      },
+      {
+        "full_name": "Oshchepkov, Dmitry Yu",
+        "short_name": "Oshchepkov DY",
+        "identifiers": [
+          "0000-0002-6097-5155"
+        ],
+        "affiliations": [
+          "Institute of Cytology and Genetics, Novosibirsk 630090, Russia."
+        ]
+      },
+      {
+        "full_name": "Kononchuk, Vladislav V",
+        "short_name": "Kononchuk VV",
+        "identifiers": [
+          "0000-0003-4070-2421"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia."
+        ]
+      },
+      {
+        "full_name": "Kalinina, Tatiana S",
+        "short_name": "Kalinina TS",
+        "identifiers": [
+          "0000-0002-2698-0866"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia."
+        ]
+      },
+      {
+        "full_name": "Valembakhov, Ilya S",
+        "short_name": "Valembakhov IS",
+        "identifiers": [
+          "0009-0001-7727-7847"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia."
+        ]
+      },
+      {
+        "full_name": "Lukin, Alexander D",
+        "short_name": "Lukin AD",
+        "identifiers": [
+          "0009-0008-0933-9971"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia.",
+          "Department of Natural Sciences, Novosibirsk State University, Novosibirsk 630090, Russia."
+        ]
+      },
+      {
+        "full_name": "Kondyurina, Elena G",
+        "short_name": "Kondyurina EG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Faculty of Advanced Training and Professional Retraining, Novosibirsk State Medical University, Novosibirsk 630091, Russia."
+        ]
+      },
+      {
+        "full_name": "Zelenskaya, Vera V",
+        "short_name": "Zelenskaya VV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Faculty of Advanced Training and Professional Retraining, Novosibirsk State Medical University, Novosibirsk 630091, Russia."
+        ]
+      },
+      {
+        "full_name": "Vavilin, Valentin",
+        "short_name": "Vavilin V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, Federal Research Center of Fundamental and Translational Medicine, Novosibirsk 630060, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Dec 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 06:31",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40689082",
+      "39793230",
+      "38895360",
+      "38718835",
+      "38530447",
+      "37954776",
+      "37829249",
+      "37774136",
+      "37427695",
+      "37086744",
+      "36820164",
+      "36325323",
+      "35777990",
+      "35546959",
+      "35429403",
+      "35106574",
+      "35071300",
+      "33936053",
+      "33780170",
+      "33260035",
+      "33184146",
+      "32871238",
+      "32237257",
+      "31750523",
+      "31703000",
+      "30950247",
+      "30896850",
+      "30462313",
+      "29739471",
+      "29402936",
+      "29046356",
+      "28986128",
+      "28870774",
+      "28467929",
+      "27918470",
+      "27783986",
+      "27759022",
+      "27455380",
+      "27141961",
+      "26715761",
+      "26496610",
+      "25754930",
+      "25451068",
+      "24623743",
+      "24529992",
+      "24418482",
+      "24321251",
+      "24044964",
+      "23762029",
+      "23671281",
+      "23586463",
+      "23553833",
+      "23487427",
+      "23408620",
+      "22884583",
+      "22782502",
+      "22412986",
+      "22301548",
+      "21555499",
+      "21268089",
+      "21240265",
+      "21187313",
+      "20209097",
+      "20109750",
+      "19776007",
+      "19651781",
+      "19371402",
+      "19279008",
+      "18282810",
+      "18281381",
+      "18030309",
+      "17446336",
+      "16819970",
+      "16461893",
+      "16424221",
+      "16380513",
+      "16380512",
+      "16286920",
+      "16116184",
+      "15985530",
+      "15590669",
+      "15485842",
+      "15322146",
+      "15039339",
+      "12759412",
+      "12616536",
+      "12538684",
+      "12444149",
+      "12391149",
+      "10759775",
+      "8612135",
+      "8382345",
+      "7891711",
+      "7878004",
+      "178611"
+    ],
+    "similar": [
+      "41516283",
+      "20307661",
+      "22884583",
+      "32513869",
+      "19897601",
+      "38123121",
+      "38397449",
+      "8687373",
+      "9379138",
+      "16574738",
+      "16497728",
+      "39201708",
+      "8833658",
+      "42071256",
+      "19753122",
+      "24185200",
+      "20145122",
+      "8612541",
+      "8579895",
+      "7565732",
+      "23401126",
+      "40167329",
+      "26504088",
+      "9143355",
+      "15647825",
+      "9723887",
+      "30721418",
+      "22108803",
+      "21872797",
+      "23585425",
+      "27283745",
+      "16357103",
+      "20153625",
+      "27357804",
+      "34343413",
+      "22082653",
+      "30941131",
+      "20171278",
+      "19460946",
+      "22537547",
+      "12787891",
+      "22837390",
+      "27154546",
+      "23744764",
+      "22466564",
+      "19133314",
+      "28636886",
+      "29386352",
+      "11455583",
+      "30326825",
+      "10223184",
+      "24586832",
+      "8721985",
+      "7700077",
+      "17367745",
+      "10893342",
+      "30484666",
+      "28427429",
+      "24854954",
+      "35065959",
+      "16886674",
+      "30132432",
+      "20371703",
+      "36674699",
+      "27174721",
+      "31940280",
+      "17310066",
+      "7876247",
+      "34562448",
+      "19279199",
+      "8923469",
+      "18290715",
+      "20432439",
+      "21846776",
+      "10446999",
+      "40285969",
+      "11719366",
+      "26488576",
+      "16914732",
+      "23911725",
+      "8194478",
+      "18254883",
+      "24105653",
+      "9013769",
+      "27107558",
+      "8170473",
+      "33753848",
+      "12858337",
+      "11400211",
+      "10797570",
+      "17095575",
+      "7626514",
+      "32670515",
+      "9564171",
+      "11909970",
+      "16750418",
+      "28736298",
+      "23849224",
+      "23034014",
+      "9731705"
+    ],
+    "review": [
+      "41516283",
+      "8687373",
+      "9379138",
+      "8579895",
+      "21872797",
+      "34343413",
+      "17367745",
+      "30484666",
+      "16886674",
+      "23911725",
+      "18254883"
+    ],
+    "pmc": [
+      "12786173"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27010409",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41516283/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-876",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

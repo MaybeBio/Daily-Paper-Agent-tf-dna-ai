@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "39888730",
+    "doi": "10.1080/1354750X.2025.2461698",
+    "title": "Differential gene expression analysis and machine learning identified structural, TFs, cytokine and glycoproteins, including SOX2, TOP2A, SPP1, COL1A1, and TIMP1 as potential drivers of lung cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lung cancer is a primary global health concern, responsible for a considerable portion of cancer-related fatalities worldwide. Understanding its molecular complexities is crucial for identifying potential targets for treatment. The goal is to slow disease progression and intervene early to prevent the development of advanced lung cancer cases. Hence, there's an urgent need for new biomarkers that can detect lung cancer in its early stages. METHODS: The study conducted RNA-Seq analysis of lung cancer samples from the publicly available SRA database (NCBI SRP009408), including both control and tumour samples. The genes with differential expression between tumour and healthy tissues were identified using R and Bioconductor. Machine learning (ML) techniques, Random Forest, Lasso, XGBoost, Gradient Boosting and Elastic Net were employed to pinpoint significant genes followed by classifiers, Multilayer Perceptron (MLP), Support Vector Machines (SVM) and k-Nearest Neighbours (k-NN). Gene ontology and pathway analyses were performed on the significant differentially expressed genes (DEGs). The top genes from DEG and machine learning analyses were combined for protein-protein interaction (PPI) analysis, identifying 10 hub genes essential for lung cancer progression. RESULTS: The integrated analysis of ML and DEGs revealed the significance of specific genes in lung cancer samples, identified the top 5 upregulated genes (COL11A1, TOP2A, SULF1, DIO2, MIR196A2) and the top 5 downregulated genes (PDK4, FOSB, FLYWCH1, CYB5D2, MIR328), along with their associated genes implicated in pathways or co-expression networks were identified. Among the various algorithms employed, Random Forest and XGBoost proved effective in identifying common genes, underscoring their potential significance in lung cancer pathogenesis. The MLP exhibited the highest accuracy in classifying samples using all genes. Additionally, the protein-protein interaction (PPI) analysis identified 10 hub genes that are pivotal in lung cancer pathogenesis: COL1A1, SOX2, SPP1, THBS2, POSTN, COL5A1, COL11A1, TIMP1, TOP2A and PKP1. CONCLUSION: The study contributes to the early prediction of lung cancer by identifying potential biomarkers that could enhance early diagnosis and pave the way for practical clinical applications in the future. Integrating DEGs and machine learning-derived significant genes for PPI analysis offers a robust approach to uncovering critical molecular targets for lung cancer treatment.",
+    "keywords": [
+      "Lung cancer",
+      "differential gene expression",
+      "gene ontology",
+      "machine learning",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lung Neoplasms/genetics/metabolism/pathology",
+      "*Machine Learning",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "DNA Topoisomerases, Type II/genetics/metabolism",
+      "Osteopontin/genetics/metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "Tissue Inhibitor of Metalloproteinase-1/genetics/metabolism",
+      "Collagen Type I/genetics/metabolism",
+      "SOXB1 Transcription Factors/genetics/metabolism",
+      "Collagen Type I, alpha 1 Chain",
+      "Poly-ADP-Ribose Binding Proteins/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shah, Syed Naseer Ahmad",
+        "Parveen, Rafat"
+      ],
+      "short_names": [
+        "Shah SNA",
+        "Parveen R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3189-4217"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Jamia Millia Islamia, New Delhi, India.",
+        "Department of Computer Science, Jamia Millia Islamia, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shah, Syed Naseer Ahmad",
+        "short_name": "Shah SNA",
+        "identifiers": [
+          "0000-0002-3189-4217"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Parveen, Rafat",
+        "short_name": "Parveen R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomarkers : biochemical indicators of exposure, response, and susceptibility to chemicals"
+    ],
+    "journal_abbrev": [
+      "Biomarkers"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/31 18:16",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [
+      "42434339",
+      "42271501",
+      "41074062",
+      "40988970",
+      "40395557"
+    ],
+    "refs": [],
+    "similar": [
+      "39888730",
+      "29845250",
+      "32323809",
+      "32048869",
+      "35996248",
+      "39071134",
+      "40313958",
+      "33345281",
+      "31545466",
+      "35047055",
+      "40328901",
+      "32103339",
+      "37243583",
+      "33761685",
+      "39647236",
+      "31987036",
+      "32058995",
+      "30670912",
+      "39596132",
+      "32578582",
+      "31805030",
+      "32772911",
+      "30132517",
+      "33006223",
+      "25514196",
+      "39331864",
+      "31180040",
+      "39923303",
+      "37884851",
+      "39118438",
+      "39169439",
+      "38688978",
+      "40320470",
+      "33582701",
+      "38863714",
+      "36336945",
+      "40179807",
+      "39340293",
+      "39433800",
+      "34039311",
+      "39507054",
+      "32059076",
+      "32741804",
+      "39754246",
+      "29608985",
+      "33023625",
+      "39234248",
+      "30816525",
+      "39375405",
+      "26679756",
+      "39697326",
+      "31137244",
+      "28815403",
+      "40014586",
+      "39142001",
+      "31981472",
+      "34814332",
+      "39068752",
+      "31127138",
+      "31127628",
+      "39415336",
+      "35016690",
+      "39780278",
+      "32390597",
+      "33780362",
+      "39085446",
+      "31297881",
+      "37740761",
+      "31698633",
+      "34825846",
+      "39616855",
+      "32384511",
+      "31950035",
+      "31848941",
+      "40019588",
+      "28952134",
+      "39097557",
+      "32669531",
+      "38144565",
+      "39779736",
+      "38806610",
+      "38142454",
+      "30132538",
+      "32181600",
+      "33587914",
+      "32756534",
+      "40312440",
+      "32641130",
+      "39400774",
+      "32685486",
+      "39972040",
+      "31638362",
+      "39549776",
+      "25889321",
+      "39496786",
+      "34712733",
+      "30213925",
+      "30542696",
+      "34603487",
+      "28899973"
+    ],
+    "review": [
+      "39888730",
+      "39647236"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/1354750X.2025.2461698?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1201",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/1354750X.2025.2461698",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

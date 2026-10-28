@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, data availability, and supplementary data references.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and conclusions as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that human CST inhibits telomerase by sequestering the telomeric DNA primer, thereby preventing initiation of extension, rather than by evicting telomerase during ongoing elongation. They support this with DNA-binding mutants of CST, quantitative binding assays, and a competitive binding model.
+- **Visible evidence base** Figures 1–6 (described in text), Tables 1, Supplementary Figures S1–S9, and associated methods. No raw data files or full figure panels were available for direct inspection.
+- **Missing materials affecting confidence** Full figure images, raw gel/blot data, exact numerical values for all replicates, and the GitHub repository contents were not provided. This limits independent verification of quantitative claims and statistical analyses.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-designed and clearly written study addressing a key mechanistic question in telomere biology. The use of structure-guided mutants, quantitative binding assays, and an exact competitive binding model is rigorous and appropriate. The conclusion that CST prevents telomerase initiation via ssDNA sequestration, rather than by terminating ongoing extension, is well supported by the data. The work is of high quality and will be of interest to researchers in telomere biology, DNA replication, and protein-nucleic acid interactions. However, several technical details and interpretive caveats require clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying telomere maintenance, telomerase regulation, CST function, and DNA replication fork dynamics. The mechanistic distinction between initiation blockade and elongation termination has implications for understanding telomere length homeostasis and cancer cell proliferation. The quantitative modeling approach may also interest biochemists studying competitive protein-DNA interactions.
+- **Major strengths** 1) The use of structure-guided DNA-binding mutants of CST is a powerful approach to dissect mechanism. 2) The combination of EMSA and FP provides complementary, quantitative measures of DNA binding. 3) The exact competitive binding model is a rigorous, assumption-free framework that strengthens the interpretation. 4) The pulse-chase experiments directly test the key question of whether CST can terminate ongoing telomerase extension. 5) The inclusion of a negative control mutant (g4.1) and a DNA-binding mutant (g2.1) in the pulse-chase experiments controls for nonspecific protein effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the competitive binding model accurately describes telomerase inhibition by CST, with fitted parameters matching independently measured values.
+  - **Evidence pointer** Results section "Fitting experimental telomerase inhibition data to the exact competitive binding expression", Figure 4B, 4C
+  - **Concern** The fitting procedure involves two free parameters (telomerase-DNA Kd and gamma, the active CST fraction). The authors report a best-fit pair but do not provide confidence intervals or a rigorous assessment of parameter identifiability. The heat map in Figure 4C suggests a broad region of low error, indicating that multiple parameter combinations fit nearly equally well. Without a formal uncertainty analysis, the claim that the fitted Kd matches the independently measured value is not fully substantiated.
+  - **Why it matters** The central conclusion that CST acts purely via competitive sequestration rests on the validity of the model and the uniqueness of the fitted parameters. If the parameters are not well constrained, alternative models (e.g., allosteric inhibition) cannot be excluded.
+  - **Resolution test** Provide confidence intervals for the fitted parameters, perform a profile likelihood analysis to assess identifiability, and report the range of parameter pairs that yield statistically equivalent fits. Alternatively, fix the telomerase Kd to the independently measured value and refit only gamma to test whether the model still captures the data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that CST has "no detectable ability to terminate ongoing telomerase extension" based on pulse-chase experiments.
+  - **Evidence pointer** Results section "CST does not inhibit ongoing extension of telomeric DNA by telomerase", Figure 5A–H, Figure 6C
+  - **Concern** The pulse-chase experiments rely on the assumption that the chase with excess unlabeled dGTP effectively stops radiolabel incorporation. However, the authors note that high dGTP concentrations stimulate telomerase processivity, which could complicate interpretation. Additionally, the time points for CST addition (2 and 10 min) may not capture all phases of the elongation reaction. The authors do not report the fraction of telomerase molecules that were actively elongating at the time of CST addition, nor do they quantify the extent of "largely but not entirely curtailed" incorporation. A more quantitative analysis of the chase efficiency and the proportion of ongoing extension events would strengthen the conclusion.
+  - **Why it matters** The claim that CST cannot evict elongating telomerase is a key negative result. If the chase is incomplete or if a subpopulation of telomerase molecules is not engaged in elongation, the experiment may not fully test the hypothesis.
+  - **Resolution test** Quantify the efficiency of the chase (e.g., by comparing radiolabel incorporation in the presence and absence of cold dGTP without CST). Report the fraction of total radiolabel incorporated after CST addition relative to the no-CST control. Consider using a 3′-blocked DNA chase to prevent reinitiation without affecting ongoing elongation, as a complementary approach.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the switch from G-strand to C-strand synthesis may occur "passively" after telomerase dissociation, with CST then binding the newly extended DNA.
+  - **Evidence pointer** Discussion section "How does CST terminate telomerase extension?"
+  - **Concern** The passive model is presented as a plausible interpretation, but the authors do not discuss alternative mechanisms in depth, such as the possibility that CST binding to the telomere during S phase could alter chromatin structure or recruit other factors that indirectly affect telomerase processivity. The discussion would benefit from a more explicit consideration of how the in vitro findings translate to the in vivo context, where CST is part of a larger protein network.
+  - **Why it matters** The broader significance of the work depends on whether the in vitro mechanism reflects the in vivo situation. Overstating the passive model without addressing potential complexities could limit the impact of the findings.
+  - **Resolution test** Add a paragraph in the Discussion acknowledging the limitations of in vitro reconstitution and discussing how future studies could test the passive model in cells, e.g., by examining CST localization and telomerase processivity in real time.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes familiarity with telomere biology and CST function. A brief explanation of why the switch from G-strand to C-strand synthesis is critical for telomere maintenance would help nonspecialist readers.
+  - **Required correction** Add one or two sentences in the Introduction explaining the biological importance of the G-strand/C-strand switch and the role of CST in this process.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Expression and purification of proteins in human cultured cells"
+  - **Evidence pointer** Materials and Methods, "Expression and purification of proteins in human cultured cells"
+  - **Issue** The method for determining protein concentration relies on western blot comparison to an insect cell-purified standard. The authors note a 3-fold discrepancy between anti-CTC1 and anti-STN1-based quantitation. This discrepancy is acknowledged but not fully explained.
+  - **Required correction** Provide additional details on how the standard curve was generated and whether the 3-fold factor was applied consistently across all experiments. Consider reporting both concentration estimates in the supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "CST mutant proteins defective in binding ssDNA"
+  - **Evidence pointer** Results section "CST mutant proteins defective in binding ssDNA", Figure 2B, Table 1
+  - **Issue** The Hill coefficients for WT and mutant CST binding are reported as approximately 1, indicating noncooperative binding. However, the presence of multiple bound species in EMSA (as noted in the text) suggests possible heterogeneity in binding modes. The authors do not discuss whether the Hill equation is the most appropriate model for these data.
+  - **Required correction** Briefly justify the use of the Hill equation and discuss whether alternative models (e.g., two-site binding) were considered.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "An exact model for CST inhibition of telomerase"
+  - **Issue** The description of the competitive binding model is mathematically dense and may be difficult for readers without a quantitative background to follow.
+  - **Required correction** Consider adding a simplified conceptual explanation of the model in the main text, with the full mathematical treatment confined to the Methods or Supplementary Materials.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (parameter identifiability in the fitting procedure) and R1-M2 (quantitative rigor of the pulse-chase chase efficiency) must be addressed. These are central to the main conclusions and require additional analysis or experimental detail.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study is original in its use of structure-guided mutants and an exact competitive binding model to dissect CST mechanism. The finding that CST does not evict elongating telomerase is a novel contribution.  
+  - **Scientific importance** The work addresses a fundamental question in telomere biology and has implications for understanding telomere length regulation and cancer. The mechanistic clarity is valuable.  
+  - **Interdisciplinary readership** The topic is of interest to molecular biologists, biochemists, and cell biologists. The quantitative modeling may also appeal to biophysicists, but the presentation is not fully accessible to nonspecialists.  
+  - **Technical soundness** The experimental design is generally rigorous, but the fitting uncertainty and chase efficiency issues need resolution.  
+  - **Readability for nonspecialists** The manuscript is clearly written but assumes background knowledge in telomere biology. The modeling sections are dense.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The core conclusions are likely correct and important, but the quantitative rigor of the model fitting and the pulse-chase experiments must be strengthened to fully establish the case.
+
+## Risk / unsupported claims
+- The claim that the competitive binding model uniquely identifies the mechanism is not fully supported without confidence intervals for fitted parameters.
+- The claim that CST has "no detectable ability" to terminate ongoing elongation is stated strongly; the detection limit of the assay is not quantified.
+- The extrapolation from in vitro findings to the in vivo switch mechanism is speculative and not directly tested.
+- The statement that the decameric CST supercomplex may have greater telomerase-inhibiting activity is speculative and not experimentally addressed.

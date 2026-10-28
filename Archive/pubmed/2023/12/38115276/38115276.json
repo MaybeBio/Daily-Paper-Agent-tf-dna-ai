@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "38115276",
+    "doi": "10.1097/MD.0000000000036177",
+    "title": "Mechanism of Huaiqihuang in treatment of diabetic kidney disease based on network pharmacology, molecular docking and in vitro experiment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study aimed to investigate the active components, key targets, and potential molecular mechanisms Huaiqihuang (HQH) in the treatment of diabetic kidney disease (DKD) through network pharmacology, molecular docking, and in vitro experiments. METHODS: The active components and potential targets of HQH were obtained from the TCMSP and HERB databases. The potential targets of DKD were obtained from the GeneCards, OMIM, DrugBank, and TTD databases. Protein interaction relationships were obtained from the STRING database, and a protein interaction network was constructed using Cytoscape software. Gene ontology and Kyoto Encyclopedia of Genes and Genomes enrichment analysis was performed using the Metascape database. Molecular docking was performed using AutoDock software to verify the binding between key compounds and core target genes. In vitro experiments were conducted using human renal proximal tubular epithelial cells and various methods, such as CCK8, RT-PCR, immunofluorescence, and western blot, to evaluate the effects of HQH on inflammatory factors, key targets, and pathways. RESULTS: A total of 48 active ingredients, 168 potential targets of HQH, and 1073 potential targets of DKD were obtained. A total of 118 potential targets, 438 biological processes, and 187 signal pathways were identified for the treatment of DKD. Gene ontology and Kyoto Encyclopedia of Genes and Genomes analysis indicated that HQH may exert its therapeutic effects on DKD by regulating the expression of inflammatory factors through the nuclear factor kappa B (NF-kappaB) signaling pathway. The molecular docking results showed that beta-sitosterol and baicalein had the highest binding affinity with key targets such as AKT1, IL6, TNF, PTGS2, IL1B, and CASP3, suggesting that they may be the most effective active ingredients of HQH in the treatment of DKD. In vitro experimental results demonstrated that HQH could enhance the viability of human renal proximal tubular epithelial cells inhibited by high glucose, decrease the levels of AKT1, TNF, IL6, PTGS2, IL1B, and CASP3, reduce the expression of NF-kappaB-P65 (P < .01), inhibit NF-kappaB-p65 nuclear translocation, and decrease chemokine expression (P < .01). CONCLUSION: HQH may exert its therapeutic effects on DKD by inhibiting the NF-kappaB signaling pathway, reducing the level of pro-inflammatory cytokines, and alleviating the high glucose-induced injury of renal tubular epithelial cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "Caspase 3",
+      "*Diabetic Nephropathies/drug therapy",
+      "Network Pharmacology",
+      "NF-kappa B",
+      "Cyclooxygenase 2",
+      "Interleukin-6",
+      "Glucose",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "*Diabetes Mellitus"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Junwei",
+        "Ma, Guiqiao",
+        "Zhang, Peipei",
+        "Ma, Chaojing",
+        "Shao, Jing",
+        "Wang, Liping",
+        "Ma, Chanjuan"
+      ],
+      "short_names": [
+        "Wang J",
+        "Ma G",
+        "Zhang P",
+        "Ma C",
+        "Shao J",
+        "Wang L",
+        "Ma C"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-8815-9214"
+      ],
+      "affiliations": [
+        "The Third Clinical College, Shanxi University of Chinese Medicine, Jinzhong, PR China.",
+        "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+        "The Third Clinical College, Shanxi University of Chinese Medicine, Jinzhong, PR China.",
+        "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+        "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+        "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China.",
+        "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+        "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China.",
+        "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+        "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China.",
+        "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+        "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China.",
+        "The Third Clinical College, Shanxi University of Chinese Medicine, Jinzhong, PR China.",
+        "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+        "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China.",
+        "Department of Nephrology, Shanxi Provincial People's Hospital, Taiyuan, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Junwei",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0009-0008-8815-9214"
+        ],
+        "affiliations": [
+          "The Third Clinical College, Shanxi University of Chinese Medicine, Jinzhong, PR China.",
+          "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Ma, Guiqiao",
+        "short_name": "Ma G",
+        "identifiers": [],
+        "affiliations": [
+          "The Third Clinical College, Shanxi University of Chinese Medicine, Jinzhong, PR China.",
+          "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peipei",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+          "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chaojing",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+          "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Shao, Jing",
+        "short_name": "Shao J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+          "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liping",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+          "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chanjuan",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "The Third Clinical College, Shanxi University of Chinese Medicine, Jinzhong, PR China.",
+          "Shanxi Provincial Key Laboratory of Kidney Disease, Shanxi Provincial People's Hospital, Taiyuan, PR China.",
+          "Department of Nephrology, The Fifth Clinical Medical College of Shanxi Medical University, Fifth Hospital of Shanxi Medical University, Taiyuan, PR China.",
+          "Department of Nephrology, Shanxi Provincial People's Hospital, Taiyuan, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2023 Dec 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/20 06:42",
+    "fetched_at": "2026-10-04 23:05:59"
+  },
+  "links": {
+    "cites": [
+      "39988817"
+    ],
+    "refs": [
+      "37552392",
+      "37413900",
+      "37392674",
+      "37014402",
+      "36942026",
+      "36875720",
+      "36420884",
+      "36408920",
+      "36058263",
+      "35637950",
+      "35043149",
+      "34883416",
+      "34879977",
+      "34753557",
+      "34718717",
+      "34693876",
+      "34536551",
+      "34278794",
+      "34015285",
+      "33850129",
+      "33800290",
+      "33547417",
+      "33516447",
+      "33264402",
+      "32953797",
+      "32726607",
+      "32655761",
+      "32185999",
+      "31130993",
+      "31048437",
+      "30944313",
+      "30476243",
+      "30183974",
+      "30145827",
+      "29743526",
+      "29126136",
+      "28654725",
+      "26453563",
+      "21565142",
+      "20689021"
+    ],
+    "similar": [
+      "38115276",
+      "35851128",
+      "36386135",
+      "39923458",
+      "35848975",
+      "33274236",
+      "38591077",
+      "35430443",
+      "37879505",
+      "37861047",
+      "37718520",
+      "40013962",
+      "37499457",
+      "39099827",
+      "39307799",
+      "37340752",
+      "37807411",
+      "38759074",
+      "35837376",
+      "37454750",
+      "33634308",
+      "39051070",
+      "34149863",
+      "39074420",
+      "36604925",
+      "37382018",
+      "37190808",
+      "37287284",
+      "39075002",
+      "37009506",
+      "38013385",
+      "36389115",
+      "39259113",
+      "39617073",
+      "37308949",
+      "36604893",
+      "37523837",
+      "39470475",
+      "37773840",
+      "38215128",
+      "35365440",
+      "37416640",
+      "37233418",
+      "39004032",
+      "37843333",
+      "36471963",
+      "39259129",
+      "38707616",
+      "38728495",
+      "38951468",
+      "38322942",
+      "36472040",
+      "37832514",
+      "39015338",
+      "37478256",
+      "38916485",
+      "39238373",
+      "38114126",
+      "39061044",
+      "38050247",
+      "38213248",
+      "36372090",
+      "38571354",
+      "37833363",
+      "34159207",
+      "39740397",
+      "38696100",
+      "35932042",
+      "36670362",
+      "38107658",
+      "38115356",
+      "35988839",
+      "34873575",
+      "37356743",
+      "39929664",
+      "37345246",
+      "33376732",
+      "26453563",
+      "36874926",
+      "39183406",
+      "39987179",
+      "36597607",
+      "34660782",
+      "33645090",
+      "38018195",
+      "37802787",
+      "38310568",
+      "36472041",
+      "36003311",
+      "39399124",
+      "35960089",
+      "38206683",
+      "37802827",
+      "36123941",
+      "35590353",
+      "36637916",
+      "39928767",
+      "39552028",
+      "36046450",
+      "36550856"
+    ],
+    "review": [
+      "38115276"
+    ],
+    "pmc": [
+      "10727674"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=102&issue=50&spage=e36177&aulast=Wang",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetes.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes"
+      },
+      {
+        "url": "https://www.ovid.com/38115276.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38115276/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38115276",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000036177",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

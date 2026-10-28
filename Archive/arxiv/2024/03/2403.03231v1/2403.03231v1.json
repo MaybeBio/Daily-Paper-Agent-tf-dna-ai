@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2403.03231v1",
+  "title": "Machine and deep learning methods for predicting 3D genome organization",
+  "doi": "",
+  "abstract": "Three-Dimensional (3D) chromatin interactions, such as enhancer-promoter interactions (EPIs), loops, Topologically Associating Domains (TADs), and A/B compartments play critical roles in a wide range of cellular processes by regulating gene expression. Recent development of chromatin conformation capture technologies has enabled genome-wide profiling of various 3D structures, even with single cells. However, current catalogs of 3D structures remain incomplete and unreliable due to differences in technology, tools, and low data resolution. Machine learning methods have emerged as an alternative to obtain missing 3D interactions and/or improve resolution. Such methods frequently use genome annotation data (ChIP-seq, DNAse-seq, etc.), DNA sequencing information (k-mers, Transcription Factor Binding Site (TFBS) motifs), and other genomic properties to learn the associations between genomic features and chromatin interactions. In this review, we discuss computational tools for predicting three types of 3D interactions (EPIs, chromatin interactions, TAD boundaries) and analyze their pros and cons. We also point out obstacles of computational prediction of 3D interactions and suggest future research directions.",
+  "authors": [
+    "Brydon P. G. Wall",
+    "My Nguyen",
+    "J. Chuck Harrell",
+    "Mikhail G. Dozmorov"
+  ],
+  "published_date": "2024-03-04T19:04:41Z",
+  "updated_date": "2024-03-04T19:04:41Z",
+  "journal": "",
+  "category": "q-bio.GN, cs.LG",
+  "landing_url": "https://arxiv.org/abs/2403.03231v1",
+  "pdf_url": "https://arxiv.org/pdf/2403.03231v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.GN",
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2403.03231v1",
+    "raw_categories": [
+      "q-bio.GN",
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose GraphPred, a graph neural network (GNN) model that predicts transcription factor binding sites (TFBSs) from ATAC-seq data and identifies multiple DNA motifs using the coexisting probability of k-mers. They claim GraphPred outperforms comparison tools by finding more and higher quality motifs across 88 ATAC-seq datasets and achieves an area of eight metrics radar (AEMR) score of 2.31.
+- **Visible evidence base** Abstract text only; no quantitative results beyond the AEMR score, no dataset descriptions, no baseline specifications, no statistical analyses, and no methodological details
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary data, baseline tool names, dataset accession details, evaluation metrics definitions, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of graph neural networks to TFBS prediction and motif discovery from ATAC-seq data. The core idea of incorporating coexisting probability of k-mers into a GNN framework is interesting and could address a real gap in existing convolutional neural network based approaches. However, the abstract provides insufficient detail to evaluate the validity of the claims. The reported performance metrics are not contextualized, the comparison tools are unnamed, and the methodological novelty is not clearly distinguished from prior work. The claim of finding "more and higher quality motifs" is not supported by any visible quantitative or statistical evidence. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing or applying deep learning methods for transcription factor binding site prediction and motif discovery from chromatin accessibility data. Researchers interested in graph neural network applications to biological sequence analysis would also find the approach relevant.
+- **Major strengths** The problem addressed is important, as ATAC-seq data can reveal more transcription factor binding regions than ChIP-seq or DNase-seq, and existing convolutional neural network methods do not explicitly model multiple TF binding to a given sequence. The proposed use of coexisting probability of k-mers within a GNN framework is a conceptually reasonable approach to capture co-binding relationships. The scale of evaluation across 88 ATAC-seq datasets suggests a potentially thorough benchmarking effort.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GraphPred can find more and higher quality motifs from 88 ATAC-seq datasets than comparison tools"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that GraphPred finds more and higher quality motifs than comparison tools, but no comparison tool names, motif quality metrics, or quantitative results are provided. The single reported metric, an AEMR score of 2.31, is not defined and cannot be interpreted without context.
+  - **Why it matters** Without knowing which tools were compared, what metrics define "quality," and what the baseline scores were, the claim of superiority cannot be assessed. The AEMR score is not a standard metric in the field and its meaning is opaque from the abstract alone.
+  - **Resolution test** Provide the full results section with named baseline tools, defined metrics, statistical significance tests, and a table or figure showing comparative performance across all 88 datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "we developed a novel GNN model named GraphPred for TFBSs prediction and finding multiple motifs using the coexisting probability of k-mers"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the graph is constructed from sequence data, how k-mers are represented as nodes or edges, how coexisting probability is computed, or how the GNN architecture is designed. The novelty relative to existing convolutional neural network methods is asserted but not demonstrated.
+  - **Why it matters** The methodological contribution is the central claim of the paper. Without a clear description of the graph construction and the role of coexisting probability, readers cannot evaluate whether the approach is genuinely novel or whether it would work as described.
+  - **Resolution test** Provide a detailed methods section with formal definitions of the graph representation, the coexisting probability calculation, the GNN architecture, and a clear explanation of how this differs from prior CNN based approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Performance validation
+  - **Claim pointer** "GraphPred achieved an area of eight metrics radar (AEMR) score of 2.31"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The AEMR score is presented without definition, without a scale, without comparison values for other tools, and without any indication of what constitutes a good score. The eight metrics are not named.
+  - **Why it matters** A single uncontextualized score cannot support a claim of superior performance. The reader cannot determine whether 2.31 is high, moderate, or low, or whether it reflects meaningful biological performance.
+  - **Resolution test** Define the eight metrics, explain how the radar area is computed, provide AEMR scores for all comparison tools, and include statistical measures of variability or significance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Background statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that ATAC-seq "can reveal more kinds of transcription factor binding regions than ChIP-seq and DNase-seq" is presented as fact without citation or qualification. This is a strong claim that may depend on cell type, data quality, and analysis methods.
+  - **Required correction** Add appropriate citations and qualify the statement to reflect the conditions under which this holds.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The 88 ATAC-seq datasets are mentioned but no information is given about their source, species, cell types, or processing pipeline.
+  - **Required correction** Provide dataset accession numbers, species, and a brief description of data preprocessing in the main text or supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "coexisting probability of k-mers"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "coexisting probability" is not standard in the field and is not defined in the abstract.
+  - **Required correction** Provide a formal definition or a more standard term such as co-occurrence probability, and explain how it is estimated from data.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail, comparative results, or metric definitions to establish that GraphPred works as claimed.
+- **Assessment against Nature-style criteria** Originality: The idea of using a GNN with coexisting probability of k-mers for motif discovery is potentially original, but the abstract does not sufficiently distinguish it from existing CNN based methods to confirm novelty. Scientific importance: The problem of predicting TFBSs and discovering motifs from ATAC-seq data is important for regulatory genomics, and addressing multiple TF binding is a relevant gap. Interdisciplinary readership: The work would appeal to computational biologists and bioinformaticians, but the abstract is too technical and underspecified to attract a broader readership. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail and uncontextualized performance metrics prevent evaluation. Readability for nonspecialists: The abstract assumes familiarity with ATAC-seq, TFBS, GNN, and k-mer concepts, and the undefined AEMR metric further reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to assess the validity of the claims. A full manuscript with detailed methods, named baselines, defined metrics, and complete results would be required to evaluate whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that GraphPred finds "more and higher quality motifs" than comparison tools is unsupported because no comparison tools, quality metrics, or quantitative results are provided.
+- The AEMR score of 2.31 is uninterpretable without definition of the eight metrics and comparison values.
+- The claim that ATAC-seq reveals more kinds of transcription factor binding regions than ChIP-seq and DNase-seq is presented without citation or qualification.
+- The novelty of the GNN approach relative to existing CNN based methods is asserted but not demonstrated.
+- The performance of GraphPred across 88 datasets is mentioned but no results are shown, making the scale of evaluation unverifiable.

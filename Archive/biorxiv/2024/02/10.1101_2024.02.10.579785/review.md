@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and internal consistency of the presented work
+- **Shared manuscript claim summary** The authors use computational modeling (homology modeling, classical and accelerated MD simulations) and a mammalian two-hybrid assay to propose that the hinge region of FXR mediates ligand-specific interdomain communication between the DBD and LBD, with potent agonists inducing domain rearrangement and interdomain contact.
+- **Visible evidence base** Abstract, Introduction, Results sections (Figures 1-5 referenced), Discussion, Materials and Methods, Supplemental figure/table references
+- **Missing materials affecting confidence** Figures and supplemental materials not provided; specific numerical data for MD trajectories, salt bridge frequencies, and statistical outputs not available; full methods details for some analyses incomplete
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and underexplored question in nuclear receptor biology, namely the molecular basis of interdomain communication in full-length receptors. The combination of long-timescale MD simulations with experimental validation is commendable and appropriate for the question posed. However, the evidence presented has several gaps that limit the strength of the conclusions. The simulation results are described qualitatively in several places, the experimental validation is limited to a single assay with a narrow ligand panel, and key controls and quantitative analyses are not fully described. The claim that the hinge "mediates" interdomain contact with ligand specificity is partially supported but requires additional experimental and computational evidence to be fully established.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, structural biology, and computational biophysics would find this work relevant. Those studying allosteric regulation in multidomain proteins and the role of intrinsically disordered regions in signaling would also be interested. The methodological framework combining MD simulations with cellular assays could be of broader interest to the structural biology community.
+- **Major strengths** The study addresses a significant gap in the field, as full-length nuclear receptor structures and dynamics remain poorly characterized. The use of microsecond-scale MD simulations on Anton 2 is technically ambitious and appropriate. The combination of computational prediction with experimental validation via mammalian two-hybrid assays is a strength. The identification of specific salt bridges and the proposal of distinct DBD-LBD interface clusters provide a useful framework for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We provide evidence that ligands selectively induce domain rearrangement, leading to interdomain contact" and "the hinge plays an active role in mediating interdomain contact"
+  - **Evidence pointer** Results sections "MD simulations capture domain rearrangement in full length FXR" and "Experimental validation of ligand-induced interdomain contact in FXR"; Figures 2 and 5
+  - **Concern** The experimental validation relies solely on a mammalian two-hybrid assay with a limited set of ligands. The assay measures proximity between Gal4DBD and VP16 fusions, which is an indirect readout of interdomain interaction. The authors report that the DBD-hinge construct did not interact with the LBD, but the hinge-LBD construct did interact with the DBD in the presence of potent agonists. This asymmetry is not fully explained. Moreover, the assay does not directly demonstrate that the hinge mediates the interaction; it only shows that including the hinge in the LBD construct enables an interaction. The authors do not provide mutagenesis data to show that specific hinge residues are required for the observed interaction, nor do they test whether the predicted salt bridges are functionally relevant.
+  - **Why it matters** The central claim of the paper is that the hinge mediates ligand-specific interdomain communication. Without direct evidence that the hinge is required (e.g., via deletion or mutation) and that the predicted salt bridges are functionally important, the conclusion remains correlative rather than causal. The mammalian two-hybrid assay is also known to produce false positives and negatives, and the lack of orthogonal validation weakens the claim.
+  - **Resolution test** Provide mutagenesis of hinge residues predicted to form salt bridges with the LBD and show loss of interdomain interaction in the two-hybrid assay. Alternatively, use an orthogonal biophysical method (e.g., FRET, crosslinking, or NMR) to confirm the interdomain interaction in solution. Include a negative control with a hinge-deleted construct to demonstrate that the hinge is necessary for the observed interaction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We used homology modeling to predict the initial fl-FXR structure, based on liver X receptor beta (LXRβ, similarity: 54%) as a template" and "An ensemble of hinge conformations was generated using MD simulations, followed by clustering to identify optimal starting states"
+  - **Evidence pointer** Methods section "Protein sequence and structures"; Figure 1
+  - **Concern** The description of the modeling protocol is incomplete. The authors state that the DBD was modeled using RARα as a template and the LBD from PDB 6HL1, but the details of how these domains were assembled into a full-length model are not provided. The hinge region is described as flexible, but the method for generating an ensemble of hinge conformations is not specified in sufficient detail. The clustering criteria and the selection of "optimal starting states" are not described. Without these details, the reproducibility of the modeling is questionable.
+  - **Why it matters** The entire simulation study depends on the quality and appropriateness of the starting models. If the initial models are biased or incorrectly assembled, the subsequent MD results may not be reliable. The lack of methodological detail prevents assessment of whether the modeling approach is sound and whether the results are robust to different starting conditions.
+  - **Resolution test** Provide a detailed description of the modeling protocol, including how the DBD and LBD were oriented relative to each other, how the hinge was modeled, and how the ensemble was generated and clustered. Include validation of the models (e.g., Ramachandran plots, clash scores, comparison to known structures). Consider testing the sensitivity of the results to different starting models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** "We used accelerated MD simulations to achieve enhanced sampling of FXR complexed with CDCA, OCA, and synthetic ligands IVM and NDB" and "clustering of our MD simulations identifies 3 major conformations of fl-FXR"
+  - **Evidence pointer** Results section "Prediction of interdomain interfaces"; Figures 3 and S4
+  - **Concern** The authors state that accelerated MD "may also obscure ligand-specific dynamics in fl-FXR" yet they use this method to draw conclusions about ligand-specific effects. The clustering analysis identifies three DBD-LBD interfaces, but the relationship between these clusters and the ligand-bound states is not clearly established. The authors note that "6 of 10 OCA complexes occupy DLI-2" but do not provide a statistical analysis of whether this distribution is significantly different from what would be expected by chance. The observation that "the DBD never approaches the H12 edge" is interesting but its significance is not discussed.
+  - **Why it matters** The paper claims ligand-specific effects on domain rearrangement, but the accelerated MD data appear to show a broad distribution of conformations across ligands. Without a clear statistical framework for comparing conformational distributions between ligands, the claim of ligand specificity is not well supported. The use of accelerated MD, which introduces a bias potential, complicates the interpretation of relative populations.
+  - **Resolution test** Provide a quantitative comparison of conformational distributions across ligands (e.g., free energy landscapes, population analysis with error bars). Discuss the limitations of accelerated MD for interpreting relative populations and provide complementary unbiased simulations if possible. Clarify whether the DLI clusters are statistically distinct across ligand conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Both ligands had higher affinity for the compact fl-FXR conformation than the extended structure" and "binding energy is more favorable for agonist CDCA than for antagonist IVM"
+  - **Evidence pointer** Results section "MD simulations capture domain rearrangement in full length FXR"; Figure S3
+  - **Concern** The MM-PBSA calculations are presented as supporting evidence for the functional relevance of the compact conformation, but the methods are not described in sufficient detail. The authors do not specify how the binding free energies were calculated, what entropic contributions were neglected, or how the error bars were determined. The statement that "binding energy is more favorable for agonist CDCA than for antagonist IVM" is presented without statistical analysis. The relevance of these calculations to the interdomain communication claim is not clearly articulated.
+  - **Why it matters** MM-PBSA is known to have significant limitations in accuracy, and the results are highly dependent on the simulation parameters and the conformational ensemble used. Without proper error analysis and methodological detail, these results cannot be evaluated. The connection between ligand binding affinity and domain rearrangement is not established.
+  - **Resolution test** Provide full details of the MM-PBSA calculations, including the trajectory frames used, the parameters, and the error analysis. Consider using additional methods (e.g., FEP or TI) to validate the relative binding affinities. Clarify how these calculations support the interdomain communication model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "Nuclear receptors are ligand-induced transcription factors that bind directly to target genes and regulate their expression." This is an oversimplification, as many nuclear receptors also regulate gene expression through tethering mechanisms and indirect DNA binding.
+  - **Required correction** Revise to acknowledge the diversity of nuclear receptor DNA binding mechanisms, e.g., "Nuclear receptors are ligand-induced transcription factors that regulate gene expression through direct or indirect binding to target genes."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods, "Cluster Analysis"
+  - **Evidence pointer** Methods section "Cluster Analysis"
+  - **Issue** The description of the vector definitions and the calculation of θ and d_v is difficult to follow. The notation is not fully defined, and the relationship between the vectors and the physical orientation of the domains is not clear.
+  - **Required correction** Provide a clearer description of the geometric definitions, possibly with a schematic figure. Define all variables explicitly and explain how the parameters relate to the DBD-LBD interface.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Experimental validation"
+  - **Evidence pointer** Results section "Experimental validation of ligand-induced interdomain contact in FXR"; Figure 5
+  - **Issue** The authors state that "no increase in signal was observed" for the VP16-(FXR-DBD) construct, but do not provide the actual data or statistical comparison. The figure is not available for review.
+  - **Required correction** Include the actual data points and statistical analysis for all conditions tested, including the negative control.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretive clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The statement "To the best of our knowledge, this study reports the first observation of an open (extended) to closed (compact) domain rearrangement in a nuclear receptor" is a strong claim that may be difficult to substantiate given the computational nature of the evidence.
+  - **Required correction** Soften the claim or provide a more thorough literature search to support the novelty. Consider stating "To the best of our knowledge, this is the first computational observation of such a rearrangement in a nuclear receptor at atomic resolution."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental validation insufficient to establish causal role of hinge), R1-M2 (modeling protocol insufficiently detailed for reproducibility), R1-M3 (statistical analysis of conformational distributions lacking)
+- **Assessment against Nature-style criteria** Originality: The work addresses a question that has been difficult to tackle experimentally, and the computational approach is innovative. However, the claim of being the "first observation" of domain rearrangement in a nuclear receptor may be overstated. Scientific importance: Understanding interdomain communication in nuclear receptors has broad implications for drug development and understanding allosteric regulation. The work is potentially important, but the evidence is not yet conclusive. Interdisciplinary readership: The work bridges computational biophysics and cell biology, which could appeal to a broad audience. However, the technical detail may limit accessibility. Technical soundness: The computational methods are appropriate but incompletely described. The experimental validation is limited in scope. Readability for nonspecialists: The manuscript is generally well-written, but some sections (e.g., the vector definitions in Methods) are difficult to follow for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the approach is promising, but the evidence as presented does not fully establish the central claims. The authors should strengthen the experimental validation, provide more methodological detail, and add statistical rigor to the conformational analysis.
+
+## Risk / unsupported claims
+- The claim that the hinge "mediates" interdomain contact is not fully supported by the experimental data, as no mutagenesis or deletion experiments were performed to demonstrate necessity.
+- The claim of "ligand-specific" domain rearrangement is based on a limited ligand panel and lacks statistical analysis of conformational distributions.
+- The MM-PBSA binding free energy results are presented without sufficient methodological detail or error analysis, making them difficult to evaluate.
+- The statement that the compact conformation "would preclude heterodimerization" is speculative and not directly tested.
+- The claim of being the "first observation" of open-to-closed domain rearrangement in a nuclear receptor is difficult to verify and may be overstated given the computational nature of the evidence.

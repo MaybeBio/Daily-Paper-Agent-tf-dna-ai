@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-7v4sw",
+  "title": "Optimization of binding affinities in chemical space with generative pretrained transformer and deep reinforcement learning",
+  "authors": "Xiaopeng Xu; Juexiao Zhou; Chen Zhu; Qing Zhan; Zhongxiao Li; Ruochi Zhang; Yu Wang; Xingyu Liao; Xin Gao",
+  "journal": "ChemRxiv",
+  "published_date": "2023-04-03",
+  "window": {
+    "start": "2023-04-03",
+    "end": "2023-04-09"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用生成式预训练Transformer和深度强化学习优化小分子与蛋白靶标的结合亲和力，属于药物分子生成，非蛋白质-DNA互作体系，且无TF-DNA结合建模，仅方法上可部分借鉴。",
+  "abstract": "Background: The key challenge in drug discovery is to discover novel compounds with desirable properties. Among the properties, binding affinity to a target is one of the prerequisites and usually evaluated by molecular docking or quantitative structure activity relationship (QSAR) models. Methods: In this study, we developed Simplified molecular input line entry system Generative Pretrained Transformer with Reinforcement Learning (SGPT-RL), which uses a transformer decoder as the policy network of the reinforcement learning agent to optimize the binding affinity to a target. SGPT-RL was evaluated on the Moses distribution learning benchmark and two goal-directed generation tasks, with Dopamine Receptor D2 (DRD2) and Angiotensin-Converting Enzyme 2 (ACE2) as the targets. Both QSAR model and molecular docking were implemented as the optimization goals in the tasks. The popular Reinvent method was used as the baseline for comparison. Results: The results on Moses benchmark showed that SGPT-RL learned good property distributions and generated molecules with high validity and novelty. On the two goal-directed generation tasks, both SGPT-RL and Reinvent were able to generate valid molecules with improved target scores. The SGPT-RL method achieved better results than Reinvent on the ACE2 task, where molecular docking was used as the optimization goal. Further analysis shows that SGPT-RL learned conserved scaffold patterns during exploration. Conclusions: The superior performance of SGPT-RL in the ACE2 task indicates that it can be applied to the virtual screening process where molecular docking is widely used as the criteria. Besides, the scaffold patterns learned by SGPT-RL during the exploration process can assist chemists to better design and discover novel lead candidates.",
+  "abstract_zh": "背景：药物发现中的关键挑战在于发现具有理想性质的新化合物。在这些性质中，与靶标的结合亲和力是前提条件之一，通常通过分子对接或定量构效关系（QSAR）模型进行评估。方法：在本研究中，我们开发了简化分子输入线输入系统生成预训练变换器与强化学习（SGPT-RL），该方法使用变换器解码器作为强化学习代理的策略网络，以优化对靶标的结合亲和力。SGPT-RL在Moses分布学习基准和两个目标导向生成任务上进行了评估，以多巴胺受体D2（DRD2）和血管紧张素转换酶2（ACE2）作为靶标。在任务中，QSAR模型和分子对接均作为优化目标实施。采用流行的Reinvent方法作为基线进行比较。结果：在Moses基准上的结果表明，SGPT-RL学习了良好的性质分布，并生成了具有高有效性和新颖性的分子。在两个目标导向生成任务中，SGPT-RL和Reinvent均能生成具有改进靶标分数的有效分子。在ACE2任务中，SGPT-RL方法取得了优于Reinvent的结果，其中分子对接被用作优化目标。进一步分析显示，SGPT-RL在探索过程中学习了保守的骨架模式。结论：SGPT-RL在ACE2任务中的优越性能表明，它可以应用于广泛使用分子对接作为标准的虚拟筛选过程。此外，SGPT-RL在探索过程中学习的骨架模式可辅助化学家更好地设计和发现新的先导候选物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-7v4sw",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-7v4sw",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-7v4sw/index.html"
+}

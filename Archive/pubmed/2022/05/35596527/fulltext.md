@@ -1,0 +1,5 @@
+# Dynamics of the protein search for targets on DNA in quorum-sensing cells
+
+
+## Abstract
+  Quorum sensing is a bacterial cell-cell communication process that regulates gene expression. The search and binding of the autoinducer molecule (AHL)-bound LuxR-type proteins to specific sites on DNA in quorum-sensing cells in Gram-negative bacteria is a complex process and has been theoretically investigated based on a discrete-state stochastic approach. It is shown that several factors such as the rate of formation of the AHL-bound LuxR protein within the cells and its dissociation to freely diffusing AHL, the diffusion of the latter in and out of the cells, positive feedback loops, and the cell population density play important roles in the protein target search and can control the gene regulation processes. Physical-chemical arguments to explain these observations are presented. Our calculations of the dynamic properties are also supplemented by Monte Carlo computer simulations. Our theoretical model provides physical insights into the complex mechanisms of protein target search in quorum-sensing cells.

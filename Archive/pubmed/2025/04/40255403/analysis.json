@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40255403",
+  "title": "Identification and validation of HOXC6 as a diagnostic biomarker for Ewing sarcoma: insights from machine learning algorithms and in vitro experiments.",
+  "authors": "Pang, Yonghua; Liang, Jiahui; Deng, Yakai; Chen, Weinan; Shen, Yunyan; Li, Jing; Wang, Xin; Ren, Zhiyao",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-04-21",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习算法筛选尤文肉瘤诊断标志物HOXC6并做体外功能验证，属于纯表达谱生物标志物研究，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "INTRODUCTION: Early diagnosis of Ewing sarcoma (ES) is critical for improving patient prognosis. However, the accurate diagnosis of ES remains challenging, underscoring the need for novel diagnostic biomarkers to enhance diagnostic precision and reliability. This study aimed to identify potential gene expression-based biomarkers for the diagnosis of ES. METHODS: We selected the GSE17679, GSE45544, and GSE68776 datasets from the Gene Expression Omnibus (GEO) database. After correcting for batch effects, we combined ES and normal tissue samples from the GSE17679 and GSE45544 datasets to create a combined cohort. Two-thirds of both the tumor and normal samples from the combined cohort were randomly selected for the training cohort, while the remaining one-third served as the internal validation cohort. Additionally, the GSE68776 dataset was used for external validation. To identify key diagnostic genes, we applied three machine learning algorithms: least absolute shrinkage and selection operator (LASSO), support vector machine recursive feature elimination (SVM-RFE), and random forest (RF). RESULTS: HOXC6 was identified as a key diagnostic biomarker for ES. It demonstrated strong diagnostic performance across all cohorts, with area under the curve (AUC) values of 0.956 (95% CI: 0.909-0.990) in the training cohort, 0.995 (95% CI: 0.977-1.000) in the internal validation cohort, and 0.966 (95% CI: 0.910-0.999) in the external validation cohort. Functional validation through HOXC6 knockdown in the RD-ES cell line revealed that its suppression significantly inhibited cell proliferation and migration. Furthermore, transcriptome sequencing suggested potential oncogenic mechanisms underlying HOXC6 function. DISCUSSION: These findings highlight HOXC6 as a promising diagnostic biomarker for ES, demonstrating robust performance across multiple datasets. Additionally, its functional role suggests potential as a therapeutic target.",
+  "abstract_zh": "引言：尤文肉瘤（Ewing sarcoma, ES）的早期诊断对于改善患者预后至关重要。然而，ES的准确诊断仍具挑战性，凸显了开发新型诊断生物标志物以提高诊断精确性和可靠性的必要性。本研究旨在识别基于基因表达的潜在ES诊断生物标志物。方法：我们从基因表达综合数据库（Gene Expression Omnibus, GEO）中选取了GSE17679、GSE45544和GSE68776数据集。在校正批次效应后，我们将GSE17679和GSE45544数据集中的ES和正常组织样本合并，构建了一个合并队列。从合并队列中随机选取三分之二的肿瘤和正常样本作为训练队列，其余三分之一作为内部验证队列。此外，GSE68776数据集用于外部验证。为识别关键诊断基因，我们应用了三种机器学习算法：最小绝对收缩和选择算子（least absolute shrinkage and selection operator, LASSO）、支持向量机递归特征消除（support vector machine recursive feature elimination, SVM-RFE）和随机森林（random forest, RF）。结果：HOXC6被确定为ES的关键诊断生物标志物。它在所有队列中均表现出强大的诊断性能，训练队列中的曲线下面积（area under the curve, AUC）值为0.956（95% CI: 0.909-0.990），内部验证队列中为0.995（95% CI: 0.977-1.000），外部验证队列中为0.966（95% CI: 0.910-0.999）。通过在RD-ES细胞系中敲低HOXC6进行功能验证，发现其抑制显著阻碍了细胞增殖和迁移。此外，转录组测序提示了HOXC6功能背后的潜在致癌机制。讨论：这些发现凸显了HOXC6作为ES有前景的诊断生物标志物，在多个数据集中表现出稳健性能。此外，其功能作用提示其作为治疗靶点的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40255403/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40255403/",
+  "paper_page_path": "papers/pubmed/40255403/index.html"
+}

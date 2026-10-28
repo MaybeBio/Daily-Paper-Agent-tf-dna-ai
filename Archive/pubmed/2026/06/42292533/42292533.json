@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "42292533",
+    "doi": "10.2147/COPD.S592045",
+    "title": "Critical Biological Functions and Clinical Implications of Epigenetic-Related Candidate Biomarkers in Chronic Obstructive Pulmonary Disease: Integrated Machine Learning Screening and Basic Experimental Validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chronic obstructive pulmonary disease (COPD) is the primary cause of deaths related to respiratory diseases. Epigenetic modifications are crucial in the development of mammals, and any disruption to epigenetic regulation may result in disease. METHODS: We performed differential expression analysis on the GSE19407, GSE11784 and GSE20257 datasets from the Gene Expression Omnibus (GEO) dataset and obtained differentially expressed epigenetic-related genes (DE-ERGs) in COPD. Three machine learning techniques were used to screen the candidate epigenetic-related biomarkers in DE-ERGs, thereby further enhancing the robustness of the analysis framework. Immune infiltration analysis was performed on biomarkers. RESULTS: A total of 5 biomarkers (HMGN4, CIT, TLE1, TFPT, and UBE2T) were screened utilizing three machine learning algorithms. Immune infiltration analysis showed that the HMGN4 was positively correlated with activated CD4(+) T cells and memory B cells and negatively correlated with CD56dim. In quantitative reverse transcription polymerase chain reaction (qRT-PCR) validation, the expression levels of 5 biomarkers were notably higher in COPD than in normal samples. CONCLUSION: In summary, we identified 5 epigenetic-related candidate biomarkers that might be involved in COPD progression by bioinformatics techniques, which still require further experimental validation.",
+    "keywords": [
+      "biomarkers",
+      "chronic obstructive pulmonary disease",
+      "immunoinfiltration",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Pulmonary Disease, Chronic Obstructive/genetics/immunology/diagnosis/metabolism/physiopathology",
+      "Humans",
+      "*Machine Learning",
+      "*Epigenesis, Genetic",
+      "Gene Expression Profiling/methods",
+      "Genetic Markers",
+      "Reproducibility of Results",
+      "Databases, Genetic",
+      "Biomarkers",
+      "Genetic Predisposition to Disease",
+      "Co-Repressor Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Jianpeng",
+        "Huang, Linhui",
+        "Chen, Xin",
+        "Wang, Xilong"
+      ],
+      "short_names": [
+        "Xie J",
+        "Huang L",
+        "Chen X",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Huiyu Mingdu Community Health Service Station, Shenzhen Baoan Shiyan People's Hospital, Shiyan, Baoan District, Shenzhen, 518108, People's Republic of China.",
+        "Department of Pulmonary and Critical Care Medicine, Hainan General Hospital (Hainan Affiliated Hospital of Hainan Medical University), Haikou, Hainan, People's Republic of China.",
+        "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, People's Republic of China.",
+        "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Jianpeng",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Huiyu Mingdu Community Health Service Station, Shenzhen Baoan Shiyan People's Hospital, Shiyan, Baoan District, Shenzhen, 518108, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Linhui",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Hainan General Hospital (Hainan Affiliated Hospital of Hainan Medical University), Haikou, Hainan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xilong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of chronic obstructive pulmonary disease"
+    ],
+    "journal_abbrev": [
+      "Int J Chron Obstruct Pulmon Dis"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 12:51",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39344484",
+      "39318994",
+      "38574408",
+      "38515708",
+      "37690229",
+      "37612597",
+      "37406359",
+      "36305095",
+      "35792800",
+      "35533707",
+      "35288557",
+      "35210398",
+      "34188700",
+      "34166603",
+      "33826881",
+      "33778771",
+      "33757849",
+      "33353984",
+      "32800196",
+      "32745458",
+      "32606639",
+      "32559455",
+      "32526187",
+      "31682463",
+      "31440043",
+      "31073081",
+      "29514648",
+      "29503172",
+      "27526027",
+      "27020591",
+      "26831087",
+      "26593676",
+      "26431397",
+      "26153137",
+      "24596249",
+      "24228729",
+      "23392441",
+      "23392349",
+      "23226399",
+      "23064950",
+      "22935673",
+      "22441735",
+      "22161163",
+      "21887257",
+      "20851926",
+      "17041757",
+      "16916645",
+      "15888697",
+      "12819663",
+      "11719299",
+      "11410162"
+    ],
+    "similar": [
+      "42292533",
+      "42306043",
+      "42099899",
+      "41340627",
+      "41328289",
+      "39346628",
+      "40078927",
+      "39691970",
+      "39344484",
+      "35350787",
+      "42166424",
+      "38873611",
+      "42536689",
+      "40274954",
+      "40332792",
+      "40617086",
+      "41479901",
+      "42243611",
+      "38957709",
+      "41013727",
+      "40787468",
+      "39780155",
+      "42197164",
+      "40045538",
+      "40524719",
+      "34250093",
+      "40453984",
+      "42032709",
+      "39950319",
+      "39512836",
+      "40093012",
+      "39789578",
+      "39845878",
+      "40927188",
+      "42577419",
+      "38755717",
+      "41665627",
+      "30988604",
+      "40255693",
+      "41052072",
+      "41320661",
+      "39138958",
+      "40747360",
+      "41029776",
+      "41137279",
+      "41739808",
+      "37251077",
+      "39263286",
+      "41867456",
+      "39893187",
+      "37057099",
+      "29713155",
+      "40836320",
+      "42302029",
+      "40161396",
+      "36833211",
+      "41132649",
+      "39707003",
+      "38162988",
+      "38951833",
+      "39507054",
+      "40151199",
+      "39962573",
+      "41009972",
+      "26089660",
+      "40394719",
+      "41185886",
+      "41697005",
+      "41181152",
+      "40244418",
+      "41104127",
+      "39730379",
+      "35975032",
+      "39695788",
+      "40340571",
+      "42435052",
+      "39650190",
+      "39206894",
+      "41300841",
+      "39586719",
+      "41620539",
+      "42123756",
+      "40413536",
+      "40665394",
+      "39934690",
+      "41423561",
+      "42558367",
+      "39697326",
+      "41868721",
+      "40830558",
+      "38851806",
+      "39650552",
+      "42327749",
+      "41217726",
+      "41208974",
+      "42273328",
+      "36442527",
+      "35281477",
+      "41239605",
+      "38906393"
+    ],
+    "review": [
+      "42292533",
+      "41665627"
+    ],
+    "pmc": [
+      "13256102"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/copd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COPD"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42292533/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-UBE2T-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1189",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/COPD.S592045",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

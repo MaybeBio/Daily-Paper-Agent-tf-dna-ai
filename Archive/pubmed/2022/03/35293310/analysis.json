@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35293310",
+  "title": "DeepCAGE: Incorporating Transcription Factors in Genome-wide Prediction of Chromatin Accessibility.",
+  "authors": "Liu, Qiao; Hua, Kui; Zhang, Xuegong; Wong, Wing Hung; Jiang, Rui",
+  "journal": "Genomics, proteomics & bioinformatics",
+  "published_date": "2022-03-17",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度卷积神经网络整合序列与TF结合状态预测染色质可及性，虽涉及TF-DNA结合位点与基序提取，但核心是染色质可及性预测而非TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "Although computational approaches have been complementing high-throughput biological experiments for the identification of functional regions in the human genome, it remains a great challenge to systematically decipher interactions between transcription factors (TFs) and regulatory elements to achieve interpretable annotations of chromatin accessibility across diverse cellular contexts. To solve this problem, we propose DeepCAGE, a deep learning framework that integrates sequence information and binding statuses of TFs, for the accurate prediction of chromatin accessible regions at a genome-wide scale in a variety of cell types. DeepCAGE takes advantage of a densely connected deep convolutional neural network architecture to automatically learn sequence signatures of known chromatin accessible regions and then incorporates such features with expression levels and binding activities of human core TFs to predict novel chromatin accessible regions. In a series of systematic comparisons with existing methods, DeepCAGE exhibits superior performance in not only the classification but also the regression of chromatin accessibility signals. In a detailed analysis of TF activities, DeepCAGE successfully extracts novel binding motifs and measures the contribution of a TF to the regulation with respect to a specific locus in a certain cell type. When applied to whole-genome sequencing data analysis, our method successfully prioritizes putative deleterious variants underlying a human complex trait and thus provides insights into the understanding of disease-associated genetic variants. DeepCAGE can be downloaded from https://github.com/kimmo1019/DeepCAGE.",
+  "abstract_zh": "尽管计算方法已在高通量生物学实验中用于补充识别人类基因组中的功能区域，但在不同细胞背景下系统性地解析转录因子（TFs）与调控元件之间的相互作用，以实现染色质可及性的可解释注释，仍是一项重大挑战。为解决此问题，我们提出了DeepCAGE，一种整合序列信息和转录因子结合状态的深度学习框架，用于在多种细胞类型中全基因组尺度上准确预测染色质可及区域。DeepCAGE利用密集连接的深度卷积神经网络架构，自动学习已知染色质可及区域的序列特征，并将这些特征与人类核心转录因子的表达水平和结合活性相结合，以预测新的染色质可及区域。在与现有方法的一系列系统比较中，DeepCAGE在染色质可及性信号的分类和回归任务中均表现出优越性能。在对转录因子活性的详细分析中，DeepCAGE成功提取了新的结合基序，并量化了特定细胞类型中某一转录因子对特定基因座调控的贡献。当应用于全基因组测序数据分析时，我们的方法成功优先排序了与人类复杂性状相关的推定有害变异，从而为理解疾病相关遗传变异提供了见解。DeepCAGE可从https://github.com/kimmo1019/DeepCAGE下载。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35293310/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35293310/",
+  "paper_page_path": "papers/pubmed/35293310/index.html"
+}

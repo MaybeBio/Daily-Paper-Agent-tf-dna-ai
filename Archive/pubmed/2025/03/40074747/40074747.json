@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "40074747",
+    "doi": "10.1038/s41598-024-84066-z",
+    "title": "Conformational ensembles for protein structure prediction."
+  },
+  "content": {
+    "abstract": "Acquisition of conformational ensembles for a protein is a challenging task, which is actually involving to the solution for protein folding problem and the study of intrinsically disordered protein. Despite AlphaFold with artificial intelligence acquired unprecedented accuracy to predict structures, its result is limited to a single state of conformation and it cannot provide multiple conformations to display protein intrinsic disorder. To overcome the barrier, a FiveFold approach was developed with a single sequence method. It applied the protein folding shape code (PFSC) uniformly to expose local folds of five amino acid residues, formed the protein folding variation matrix (PFVM) to reveal local folding variations along sequence, obtained a massive number of folding conformations in PFSC strings, and then an ensemble of multiple conformational protein structures is constructed. The P53_HUMAN as a well-known protein and LEF1_HUMAN and Q8GT36_SPIOL as typical disordered proteins are token as the benchmark to evaluate the predicted outcomes. The results demonstrated an effective algorithm and biological meaningful process well to predict protein multiple conformation structures.",
+    "keywords": [
+      "AlphaFold",
+      "Intrinsically disordered protein",
+      "Protein conformation",
+      "Protein folding",
+      "Protein intrinsic disorder",
+      "Protein structure prediction"
+    ],
+    "mesh_terms": [
+      "Protein Folding",
+      "*Protein Conformation",
+      "Humans",
+      "Algorithms",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Models, Molecular",
+      "*Proteins/chemistry",
+      "Tumor Suppressor Protein p53/chemistry",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Jiaan",
+        "Cheng, Wen Xiang",
+        "Zhang, Peng",
+        "Wu, Gang",
+        "Sheng, Si Tong",
+        "Yang, Junjie",
+        "Zhao, Suwen",
+        "Hu, Qiyue",
+        "Ji, Wenxin",
+        "Shi, Qiong"
+      ],
+      "short_names": [
+        "Yang J",
+        "Cheng WX",
+        "Zhang P",
+        "Wu G",
+        "Sheng ST",
+        "Yang J",
+        "Zhao S",
+        "Hu Q",
+        "Ji W",
+        "Shi Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China. jiaanyang@yahoo.com.",
+        "Micro Biotech, Ltd., Shanghai, 200123, China. jiaanyang@yahoo.com.",
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China.",
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China.",
+        "Biomedical Engineering, Shenzhen University of Advanced Technology, Shenzhen, 518060, China.",
+        "School of Basic Medicine, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, Hubei, China.",
+        "HYK High-Throughput Biotechnology Institute, Shenzhen, 518057, Guangdong, China.",
+        "Wuhan International Biohub Cooperation, Wuhan, 430075, Hubei, China.",
+        "iHuman Institute, ShanghaiTech University, Shanghai, 201210, China.",
+        "Beyang Therapeutics Co. Ltd, Shanghai, 201210, China.",
+        "National Facility for Protein Science in Shanghai, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai, 201210, China.",
+        "Laboratory of Aquatic Genomics, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, 518057, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Jiaan",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China. jiaanyang@yahoo.com.",
+          "Micro Biotech, Ltd., Shanghai, 200123, China. jiaanyang@yahoo.com."
+        ]
+      },
+      {
+        "full_name": "Cheng, Wen Xiang",
+        "short_name": "Cheng WX",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China.",
+          "Biomedical Engineering, Shenzhen University of Advanced Technology, Shenzhen, 518060, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Gang",
+        "short_name": "Wu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Si Tong",
+        "short_name": "Sheng ST",
+        "identifiers": [],
+        "affiliations": [
+          "HYK High-Throughput Biotechnology Institute, Shenzhen, 518057, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Junjie",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Wuhan International Biohub Cooperation, Wuhan, 430075, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Suwen",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "iHuman Institute, ShanghaiTech University, Shanghai, 201210, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Qiyue",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Beyang Therapeutics Co. Ltd, Shanghai, 201210, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Wenxin",
+        "short_name": "Ji W",
+        "identifiers": [],
+        "affiliations": [
+          "National Facility for Protein Science in Shanghai, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai, 201210, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Qiong",
+        "short_name": "Shi Q",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aquatic Genomics, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, 518057, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/13 06:27",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "42370322",
+      "41022992",
+      "40677912"
+    ],
+    "refs": [
+      "39604737",
+      "38718835",
+      "38361070",
+      "37956700",
+      "37392556",
+      "35634782",
+      "35514069",
+      "34791371",
+      "34355210",
+      "34265844",
+      "31624293",
+      "29711488",
+      "28552172",
+      "24606139",
+      "24216321",
+      "24001118",
+      "23180855",
+      "21501695",
+      "21187238",
+      "20947758",
+      "19444816",
+      "19186130",
+      "18214949",
+      "17176085",
+      "16683754",
+      "15980461",
+      "15012420",
+      "13517261",
+      "9846867",
+      "8820481",
+      "7784423",
+      "2207096"
+    ],
+    "similar": [
+      "40074747",
+      "35514069",
+      "37990040",
+      "39952928",
+      "27115638",
+      "35976160",
+      "34418423",
+      "32184088",
+      "34358545",
+      "31411026",
+      "26742101",
+      "32696367",
+      "32696369",
+      "25244701",
+      "26195786",
+      "38781245",
+      "34224747",
+      "28952717",
+      "27111521",
+      "39190324",
+      "38079339",
+      "23754493",
+      "27159632",
+      "24089737",
+      "39756261",
+      "26994550",
+      "18831774",
+      "31241933",
+      "24150971",
+      "28369666",
+      "28365882",
+      "25897952",
+      "30731089",
+      "20063887",
+      "40042172",
+      "38226524",
+      "35129612",
+      "33875885",
+      "32453748",
+      "34680137",
+      "33310020",
+      "30727987",
+      "27548131",
+      "27844185",
+      "32901090",
+      "28821744",
+      "23466039",
+      "39684679",
+      "30420606",
+      "29990433",
+      "29753880",
+      "34845619",
+      "38892222",
+      "17250999",
+      "30554840",
+      "31756104",
+      "25340810",
+      "38297118",
+      "27730522",
+      "32112804",
+      "36084124",
+      "35507260",
+      "38603560",
+      "30471686",
+      "34473923",
+      "20221927",
+      "27085142",
+      "22095648",
+      "30840442",
+      "33481784",
+      "39510344",
+      "26453218",
+      "39446390",
+      "35725761",
+      "33170209",
+      "31756456",
+      "25287424",
+      "33530506",
+      "35213160",
+      "18214949",
+      "26912067",
+      "21530234",
+      "29716994",
+      "28393629",
+      "31441158",
+      "30135358",
+      "32696370",
+      "26287166",
+      "15710037",
+      "29208936",
+      "26967199",
+      "39196938",
+      "33401765",
+      "38808365",
+      "30819075",
+      "32592801",
+      "29314274",
+      "39158517",
+      "33877595",
+      "26720267"
+    ],
+    "review": [
+      "40074747",
+      "35976160",
+      "34418423",
+      "34358545",
+      "34224747",
+      "39756261",
+      "35129612",
+      "27548131",
+      "23466039",
+      "29753880",
+      "17250999",
+      "27730522",
+      "38603560",
+      "30840442",
+      "33170209",
+      "25287424",
+      "33530506",
+      "21530234",
+      "31441158",
+      "26287166",
+      "39196938"
+    ],
+    "pmc": [
+      "11904239"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-84066-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40074747/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

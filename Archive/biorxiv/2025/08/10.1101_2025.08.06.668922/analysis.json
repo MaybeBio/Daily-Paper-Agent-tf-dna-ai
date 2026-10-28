@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.06.668922",
+  "title": "A novel approach to Caudoviricetes taxonomy utilising whole proteome structure-structure comparison",
+  "authors": "Smith L; Schmidt TS; Tolstoy I; Skvortsov T; Hill C; Shkoporov AN",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-06",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用ESMFold和Foldseek对噬菌体全蛋白质组进行结构聚类以构建分类学，虽涉及蛋白质结构预测与比较，但对象为病毒分类而非蛋白质-DNA互作，且无结合建模或互作机制研究，仅方法上对结构聚类有间接启发。",
+  "abstract": "Viral proteins often evolve so rapidly that sequence similarity is lost even among conserved functional genes, complicating phylogenetic analysis and classification. This challenge is acute for Caudoviricetes , a highly diverse class of dsDNA tailed bacteriophages recently redefined by the International Committee on Taxonomy of Viruses (ICTV). To address the limitations of sequence-based taxonomy, we present a structure-based classification framework using whole-proteome structural clustering. From 4,082 exemplar genomes, we predicted 445,098 protein structures with ESMFold and clustered them using Foldseek. Genomes were encoded as binary profiles of structural fold presence, and phylogenetic distances were inferred and normalized using Relative Evolutionary Divergence (RED). This yielded a revised structural taxonomy comprising 159 orders, 267 families, 502 subfamilies, and 1,189 genera. We also introduce PhagePleats , a Python tool for classifying novel phage genomes based on structural similarity. Our approach highlights the utility of protein structure for resolving distant viral relationships.",
+  "abstract_zh": "病毒蛋白的进化速度往往极快，以至于即使在保守的功能基因中，序列相似性也会丧失，这使系统发育分析和分类变得复杂。这一挑战对于Caudoviricetes尤为严峻，这是一个高度多样化的dsDNA有尾噬菌体类别，最近由国际病毒分类委员会（ICTV）重新定义。为了解决基于序列分类的局限性，我们提出了一种基于结构的分类框架，利用全蛋白质组结构聚类。从4,082个代表性基因组中，我们使用ESMFold预测了445,098个蛋白质结构，并通过Foldseek进行聚类。基因组被编码为结构折叠存在的二元图谱，系统发育距离通过相对进化分歧（RED）推断并归一化。这产生了一个修订后的结构分类体系，包含159个目、267个科、502个亚科和1,189个属。我们还引入了PhagePleats，一个基于结构相似性对新型噬菌体基因组进行分类的Python工具。我们的方法突显了蛋白质结构在解析远缘病毒关系中的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.06.668922",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.06.668922",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.06.668922/index.html"
+}

@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "41244683",
+    "doi": "10.3389/fmicb.2025.1647523",
+    "title": "Type IV minor pilin ComN predicted the USS-receptor in Pasteurellaceae."
+  },
+  "content": {
+    "abstract": "The Uptake Signal Sequence (USS) receptor, which facilitates the acquisition of homologous DNA by natural transformation in Haemophilus influenzae and other members of the Pasteurellaceae, remains unknown. Through discriminating functional gene ontology assessment, cellular localization predictions, and deep-learning structural modeling of protein-DNA complexes, prepilin peptidase-dependent protein A (PpdA) was identified as the strongest USS receptor candidate in different Pasteurellaceae family members with divergent USS specificities. Pasteurellaceae PpdA (PpdA(Past)) was the only orthogroup modeled by AlphaFold3 (AF3) to form specific complexes with USS significantly better than complexes with sequence-scrambled versions of USS. Further analyses of PpdA-USS complexes using geometric deep learning protein-DNA sequence specificity predictions and coevolution analyses were found to further support PpdA as the USS receptor candidate in 10 different Pasteurellaceae enriched with divergent USS dialects. PpdA(Past) was predicted to possess USS-binding specificity by DeepPBS and was found to strongly coevolve with USS relative to other orthogroups. PpdA(Past) was found to share both structural features and functionally involved electropositive residues with other DNA-binding minor pilins and the largely unexplored Escherichia coli/Enterobacteriaceae PpdA ortholog. One robust DNA-binding mode was identified with two alternative and opposite USS orientations. Combining modeled PpdA-USS proximity and coevolved signals revealed how the C-terminal region of PpdA(Past) fitted one of two 180 degrees alternative USS orientations. Root Mean Square Deviations (RMSDs) from molecular dynamics simulations of PpdA(Past) USS complexes found reliable structures under 3 A in moderately stable trajectories. The ppdA gene, previously documented as essential for transformation and constituting part of the competence regulon in Haemophilus influenzae and E. coli, was found in a conserved genomic location with conserved operonic organization across the Pasteurellaceae. Together, the in silico results of this study and the documented knock out phenotype make a strong case for PpdA(Past) as the USS-receptor and provide future directions for recombinant PpdA(Past) assays and in vivo experiments with mutants. Here, we propose ComN for use with these PpdA(Past) orthologs in compliance with the previously assigned gene name and the predicted central role in competence as a DNA receptor with USS specificity.",
+    "keywords": [
+      "ComN",
+      "DNA-binding protein",
+      "PpdA",
+      "PulG/HofG",
+      "USS",
+      "Uptake Signal Sequence",
+      "competence protein N",
+      "prepilin peptidase-dependent protein A"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Helsem, Stian Aleksander",
+        "Alfsnes, Kristian",
+        "Frye, Stephan A",
+        "Lovestad, Alexander Hesselberg",
+        "Ambur, Ole Herman"
+      ],
+      "short_names": [
+        "Helsem SA",
+        "Alfsnes K",
+        "Frye SA",
+        "Lovestad AH",
+        "Ambur OH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Life Sciences and Health, Faculty of Health Sciences, OsloMet, Oslo, Norway.",
+        "Division for Infection Control, Norwegian Institute of Public Health, Oslo, Norway.",
+        "Division of Laboratory Medicine, Department of Microbiology, Oslo University Hospital, Oslo, Norway.",
+        "Department of Life Sciences and Health, Faculty of Health Sciences, OsloMet, Oslo, Norway.",
+        "Division for Infection Control, Norwegian Institute of Public Health, Oslo, Norway.",
+        "Department of Life Sciences and Health, Faculty of Health Sciences, OsloMet, Oslo, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Helsem, Stian Aleksander",
+        "short_name": "Helsem SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Health, Faculty of Health Sciences, OsloMet, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Alfsnes, Kristian",
+        "short_name": "Alfsnes K",
+        "identifiers": [],
+        "affiliations": [
+          "Division for Infection Control, Norwegian Institute of Public Health, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Frye, Stephan A",
+        "short_name": "Frye SA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Laboratory Medicine, Department of Microbiology, Oslo University Hospital, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Løvestad, Alexander Hesselberg",
+        "short_name": "Løvestad AH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Health, Faculty of Health Sciences, OsloMet, Oslo, Norway.",
+          "Division for Infection Control, Norwegian Institute of Public Health, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Ambur, Ole Herman",
+        "short_name": "Ambur OH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Health, Faculty of Health Sciences, OsloMet, Oslo, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Microbiol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/17 17:29",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40630188",
+      "40338866",
+      "39604737",
+      "39348158",
+      "39103447",
+      "38452047",
+      "37996753",
+      "37850517",
+      "36857092",
+      "36634135",
+      "35957980",
+      "35246533",
+      "34597405",
+      "33828273",
+      "33490915",
+      "33215964",
+      "33013812",
+      "31727128",
+      "31433955",
+      "31235882",
+      "30504855",
+      "30418610",
+      "29959318",
+      "29905871",
+      "29236954",
+      "27706213",
+      "27619692",
+      "27161979",
+      "26569599",
+      "25491382",
+      "24385921",
+      "23637627",
+      "23386723",
+      "23329690",
+      "22821979",
+      "22753031",
+      "19592592",
+      "19502395",
+      "19228200",
+      "18366792",
+      "17194793",
+      "17038178",
+      "15375121",
+      "15063851",
+      "14960717",
+      "12136088",
+      "11517324",
+      "11433033",
+      "11152613",
+      "9783223",
+      "9565758",
+      "9521098",
+      "8226661",
+      "7542800",
+      "6966371",
+      "6260577",
+      "4597440",
+      "3137581",
+      "1904861",
+      "1542653",
+      "311478"
+    ],
+    "similar": [
+      "41244683",
+      "17038178",
+      "15070749",
+      "17068078",
+      "37212663",
+      "12057937",
+      "33490915",
+      "8932382",
+      "41081385",
+      "17074902",
+      "17015664",
+      "9515702",
+      "31186316",
+      "22087650",
+      "8226674",
+      "28427876",
+      "22582057",
+      "15743930",
+      "40027803",
+      "25218867",
+      "26426681",
+      "38293168",
+      "40338866",
+      "8226661",
+      "21830122",
+      "26324721",
+      "8057924",
+      "11157928",
+      "29923825",
+      "7906688",
+      "40258067",
+      "24488316",
+      "9770495",
+      "35004361",
+      "15478601",
+      "34264807",
+      "1574004",
+      "15769466",
+      "15375121",
+      "21513796",
+      "1969389",
+      "19594923",
+      "1671038",
+      "9721303",
+      "19098981",
+      "17258409",
+      "2223605",
+      "1429457",
+      "2037360",
+      "37183782",
+      "23912807",
+      "19502395",
+      "10553678",
+      "11073921",
+      "18366792",
+      "22111657",
+      "10763755",
+      "7961448",
+      "22821979",
+      "39103447",
+      "1542653",
+      "8809775",
+      "10439420",
+      "7984085",
+      "40407325",
+      "2873127",
+      "26876601",
+      "20702299",
+      "1548238",
+      "22582279",
+      "7905461",
+      "7968543",
+      "15838638",
+      "18371225",
+      "25082850",
+      "23462115",
+      "1916268",
+      "39637204",
+      "20333176",
+      "17313674",
+      "23006128",
+      "8369580",
+      "19573597",
+      "15491357",
+      "35246533",
+      "15388716",
+      "24391926",
+      "18065540",
+      "36780566",
+      "41142756",
+      "19666733",
+      "11390108",
+      "17220461",
+      "11082305",
+      "8825101",
+      "7868272",
+      "12217688",
+      "1971175",
+      "20028233",
+      "24164455"
+    ],
+    "review": [
+      "41244683",
+      "26426681",
+      "8057924"
+    ],
+    "pmc": [
+      "12616744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41244683/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmicb.2025.1647523",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

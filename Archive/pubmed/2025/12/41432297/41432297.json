@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "41432297",
+    "doi": "10.1002/pro.70438",
+    "title": "Assessing the validity of leucine zipper constructs predicted by AlphaFold."
+  },
+  "content": {
+    "abstract": "AP-1 transcription factors are a network of cellular regulators that combine in different dimer pairs to control a range of pathways involved in differentiation, growth, and cell death. They dimerize via leucine zipper coiled-coil domains that are preceded by a basic DNA binding domain. Depending on which AP-1 transcription factors dimerize, different DNA sequences will be recognized resulting in differential gene expression. The affinity of AP-1 transcription factors for each other dictates which dimers form. The relative concentration of AP-1 transcription factors varies with tissue type and environment, adding another layer of control to this integral network of cellular regulation. The development of artificial intelligence (AI)-based protein structure prediction methods gives us a new technique to investigate or predict how dimerization affects combinatorial control. All versions of AlphaFold2 and AlphaFold3 are AI/deep learning programs that predict 3D structures of proteins from an amino acid sequence and multiple sequence alignments of homologous proteins. To fully realize the potential of AI for structural biology, it is essential to understand its current capabilities and limitations. In this study, we used the classical example of an AP-1 dimer: Fos and Jun, and an array of over 2000 experimentally tested human leucine zippers to interrogate how AlphaFold models leucine zipper domains and if AlphaFold can be used to differentiate between probable and improbable dimer interfaces. We found that AlphaFold predicts highly confident leucine zipper dimers, even for dimer pairs such as the FosB homodimer, for which electrostatics are known to prevent their formation in vivo. This is an important case study concerning high-confidence but low-accuracy protein structure prediction.",
+    "keywords": [
+      "AlphaFold Multimer",
+      "AlphaFold2",
+      "Boltz-1",
+      "PAE",
+      "electrostatic interactions",
+      "ipTM",
+      "leucine zipper",
+      "pLDDT",
+      "quality assessment"
+    ],
+    "mesh_terms": [
+      "*Leucine Zippers",
+      "*Transcription Factor AP-1/chemistry/genetics",
+      "Humans",
+      "Protein Multimerization",
+      "Models, Molecular",
+      "Artificial Intelligence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mitic, Isobel",
+        "Rowell, Keiran",
+        "Litfin, Thomas",
+        "Michie, Katharine A",
+        "Jacques, David A"
+      ],
+      "short_names": [
+        "Mitic I",
+        "Rowell K",
+        "Litfin T",
+        "Michie KA",
+        "Jacques DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6763-1558"
+      ],
+      "affiliations": [
+        "Department of Molecular Medicine, School of Biomedical Sciences, University of New South Wales, Sydney, New South Wales, Australia.",
+        "EMBL Australia Node in Single Molecule Science, School of Biomedical Sciences, University of New South Wales, Sydney, New South Wales, Australia.",
+        "Structural Biology Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, New South Wales, Australia.",
+        "Structural Biology Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, New South Wales, Australia.",
+        "Structural Biology Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, New South Wales, Australia.",
+        "Department of Molecular Medicine, School of Biomedical Sciences, University of New South Wales, Sydney, New South Wales, Australia.",
+        "EMBL Australia Node in Single Molecule Science, School of Biomedical Sciences, University of New South Wales, Sydney, New South Wales, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mitic, Isobel",
+        "short_name": "Mitic I",
+        "identifiers": [
+          "0000-0002-6763-1558"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, School of Biomedical Sciences, University of New South Wales, Sydney, New South Wales, Australia.",
+          "EMBL Australia Node in Single Molecule Science, School of Biomedical Sciences, University of New South Wales, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Rowell, Keiran",
+        "short_name": "Rowell K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Litfin, Thomas",
+        "short_name": "Litfin T",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Michie, Katharine A",
+        "short_name": "Michie KA",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Jacques, David A",
+        "short_name": "Jacques DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, School of Biomedical Sciences, University of New South Wales, Sydney, New South Wales, Australia.",
+          "EMBL Australia Node in Single Molecule Science, School of Biomedical Sciences, University of New South Wales, Sydney, New South Wales, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/23 12:47",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [
+      "39990437"
+    ],
+    "refs": [
+      "40968302",
+      "38769056",
+      "38718835",
+      "37774136",
+      "37165539",
+      "37140053",
+      "36039764",
+      "35637307",
+      "34791371",
+      "34342271",
+      "34265844",
+      "32542236",
+      "31034924",
+      "30395287",
+      "28981703",
+      "28836357",
+      "27560519",
+      "25895972",
+      "25446562",
+      "23986568",
+      "22696638",
+      "22301802",
+      "18078517",
+      "17580968",
+      "16981200",
+      "16580748",
+      "14668816",
+      "12805554",
+      "12192032",
+      "10592235",
+      "9988758",
+      "3554236",
+      "2494701",
+      "2145515",
+      "2120592"
+    ],
+    "similar": [
+      "41432297",
+      "16754880",
+      "2113670",
+      "42475469",
+      "10777209",
+      "9144164",
+      "10397789",
+      "18026136",
+      "9144165",
+      "7731792",
+      "16725346",
+      "8662824",
+      "7490766",
+      "12809553",
+      "2161945",
+      "9108036",
+      "1911752",
+      "2133107",
+      "2123466",
+      "9000009",
+      "1641337",
+      "7577944",
+      "1847997",
+      "11736649",
+      "7742321",
+      "9824157",
+      "2505087",
+      "7811964",
+      "12553908",
+      "8479741",
+      "7891686",
+      "12937177",
+      "20505831",
+      "8206929",
+      "25124233",
+      "10942764",
+      "2146495",
+      "9847304",
+      "11439029",
+      "11018027",
+      "9826656",
+      "15087451",
+      "1902565",
+      "8387155",
+      "2505081",
+      "10878360",
+      "7630732",
+      "15342239",
+      "9005444",
+      "20027625",
+      "2562220",
+      "19586073",
+      "8921884",
+      "21347358",
+      "2143806",
+      "23625206",
+      "15226410",
+      "9228025",
+      "29474620",
+      "11152600",
+      "10036969",
+      "18316037",
+      "8993335",
+      "2518685",
+      "2494702",
+      "1990293",
+      "8639829",
+      "31400511",
+      "1946362",
+      "21280805",
+      "16580748",
+      "2186528",
+      "10523647",
+      "8414991",
+      "8112339",
+      "8108109",
+      "2145515",
+      "22301802",
+      "11259418",
+      "2261459",
+      "9367746",
+      "1584758",
+      "1761369",
+      "9336844",
+      "9115440",
+      "19692466",
+      "10194313",
+      "15919946",
+      "28280239",
+      "28185384",
+      "1901988",
+      "15809146",
+      "7727380",
+      "9304112",
+      "8026470",
+      "14980448",
+      "35685361",
+      "8108121",
+      "8218236",
+      "2044953"
+    ],
+    "review": [
+      "41432297",
+      "2133107",
+      "2518685",
+      "16580748"
+    ],
+    "pmc": [
+      "12723748"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41432297.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41432297/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pro.70438",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1760",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

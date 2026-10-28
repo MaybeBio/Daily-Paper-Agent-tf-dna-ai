@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38587997",
+  "title": "ESPDHot: An Effective Machine Learning-Based Approach for Predicting Protein-DNA Interaction Hotspots.",
+  "authors": "Tao, Lianci; Zhou, Tong; Wu, Zhixiang; Hu, Fangrui; Yang, Shuang; Kong, Xiaotian; Li, Chunhua",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-04-08",
+  "window": {
+    "start": "2024-04-08",
+    "end": "2024-04-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用堆叠集成机器学习预测蛋白-DNA互作热点残基，聚焦结合界面关键位点识别，虽非TF-DNA特异体系，但方法可迁移至转录因子结合位点预测。",
+  "abstract": "Protein-DNA interactions are pivotal to various cellular processes. Precise identification of the hotspot residues for protein-DNA interactions holds great significance for revealing the intricate mechanisms in protein-DNA recognition and for providing essential guidance for protein engineering. Aiming at protein-DNA interaction hotspots, this work introduces an effective prediction method, ESPDHot based on a stacked ensemble machine learning framework. Here, the interface residue whose mutation leads to a binding free energy change (DeltaDeltaG) exceeding 2 kcal/mol is defined as a hotspot. To tackle the imbalanced data set issue, the adaptive synthetic sampling (ADASYN), an oversampling technique, is adopted to synthetically generate new minority samples, thereby rectifying data imbalance. As for molecular characteristics, besides traditional features, we introduce three new characteristic types including residue interface preference proposed by us, residue fluctuation dynamics characteristics, and coevolutionary features. Combining the Boruta method with our previously developed Random Grouping strategy, we obtained an optimal set of features. Finally, a stacking classifier is constructed to output prediction results, which integrates three classical predictors, Support Vector Machine (SVM), XGBoost, and Artificial Neural Network (ANN) as the first layer, and Logistic Regression (LR) algorithm as the second one. Notably, ESPDHot outperforms the current state-of-the-art predictors, achieving superior performance on the independent test data set, with F1, MCC, and AUC reaching 0.571, 0.516, and 0.870, respectively.",
+  "abstract_zh": "蛋白质-DNA相互作用对多种细胞过程至关重要。精确识别蛋白质-DNA相互作用的热点残基对于揭示蛋白质-DNA识别中的复杂机制以及为蛋白质工程提供必要指导具有重要意义。针对蛋白质-DNA相互作用热点，本研究引入了一种基于堆叠集成机器学习框架的有效预测方法ESPDHot。在此，将突变导致结合自由能变化（DeltaDeltaG）超过2 kcal/mol的界面残基定义为热点。为解决数据集不平衡问题，采用自适应合成采样（ADASYN）这一过采样技术，综合生成新的少数类样本，从而纠正数据不平衡。在分子特征方面，除传统特征外，我们引入了三种新特征类型，包括我们提出的残基界面偏好、残基波动动力学特征以及共进化特征。结合Boruta方法与我们先前开发的随机分组策略，我们获得了最优特征集。最后，构建了一个堆叠分类器来输出预测结果，该分类器集成三个经典预测器——支持向量机（SVM）、XGBoost和人工神经网络（ANN）作为第一层，逻辑回归（LR）算法作为第二层。值得注意的是，ESPDHot优于当前最先进的预测器，在独立测试数据集上表现出卓越性能，F1、MCC和AUC分别达到0.571、0.516和0.870。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38587997/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38587997/",
+  "paper_page_path": "papers/pubmed/38587997/index.html"
+}

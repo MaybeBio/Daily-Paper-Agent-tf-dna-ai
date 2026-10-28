@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "41205524",
+    "doi": "10.1016/j.phymed.2025.157466",
+    "title": "Galangin alleviates vascular aging and endothelial cell senescence by targeting SMAD3 to initiate mitophagy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Senescence of vascular endothelial cells (ECs) plays a critical role in cardiovascular diseases. Galangin (3,5,7-Trihydroxyflavone) is a flavonoid derived from plants and medicinal herbs with various biological activities. However, its effect on endothelial cell senescence and the underlying molecular mechanisms are poorly characterised. PURPOSE: This study aimed to evaluate the therapeutic effects of Galangin on endothelial cell senescence and vascular aging, providing a theoretical basis for its clinical application. METHODS: Human aortic endothelial cells and mice were treated with d-galactose to induce senescence. The expression levels of aging markers beta-galactosidase, P21, P53, and gamma-H2AX were detected using western blot. Cell proliferation was determined using CCK-8 assays. Network pharmacology, molecular docking, and molecular dynamics simulations were used to identify Galangin downstream targets. MST, CETSA, and DARTS assays were used to determine the binding of Galangin to SMAD3 protein. ROS levels were measured using flow cytometry. JC-1 staining was used to determine mitochondrial membrane potential. Mitophagy-related markers Parkin, PINK1, LC3, and P62 were detected using western blot and immunohistochemistry. ChIP assay was used to determine p-SMAD3's effect on the downstream genes PINK1 and LC3. RESULTS: Our pioneering study reveals a novel protective role of Galangin in vascular aging, primarily through a newly identified mechanism: activating mitophagy by targeting SMAD3. Notably, Galangin directly binds to SMAD3 and promotes the transcriptional regulation of PINK1 and LC3. CONCLUSIONS: Our findings demonstrate the protective effect of Galangin in vascular aging and hold promising prospects for both clinical application and future research.",
+    "keywords": [
+      "Endothelial cell senescence",
+      "Galangin",
+      "Mitophagy",
+      "SMAD3",
+      "Vascular aging"
+    ],
+    "mesh_terms": [
+      "*Cellular Senescence/drug effects",
+      "Animals",
+      "*Flavonoids/pharmacology",
+      "*Smad3 Protein/metabolism",
+      "Humans",
+      "*Mitophagy/drug effects",
+      "Mice",
+      "*Endothelial Cells/drug effects",
+      "Molecular Docking Simulation",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Galactose",
+      "Cell Proliferation/drug effects",
+      "Reactive Oxygen Species/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Xiao-Qing",
+        "Li, Ke-Xin",
+        "Liu, Jing-Wen",
+        "Zhang, Rui-En",
+        "Lei, Chun-Ran",
+        "Saqirile",
+        "Yi, Zi-Xin",
+        "Li, Ke",
+        "Liu, Peng-Xia",
+        "Yang, Rui",
+        "Wang, Chang-Shan"
+      ],
+      "short_names": [
+        "Ding XQ",
+        "Li KX",
+        "Liu JW",
+        "Zhang RE",
+        "Lei CR",
+        "Saqirile",
+        "Yi ZX",
+        "Li K",
+        "Liu PX",
+        "Yang R",
+        "Wang CS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China. Electronic address: liupengxia@imu.edu.cn.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Hohhot, Inner Mongolia 010010, China. Electronic address: yangrui@immu.edu.cn.",
+        "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China. Electronic address: changshanwang@imu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Xiao-Qing",
+        "short_name": "Ding XQ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke-Xin",
+        "short_name": "Li KX",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jing-Wen",
+        "short_name": "Liu JW",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Rui-En",
+        "short_name": "Zhang RE",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Chun-Ran",
+        "short_name": "Lei CR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China."
+        ]
+      },
+      {
+        "full_name": "Saqirile",
+        "short_name": "Saqirile",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Zi-Xin",
+        "short_name": "Yi ZX",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Peng-Xia",
+        "short_name": "Liu PX",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China. Electronic address: liupengxia@imu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Rui",
+        "short_name": "Yang R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Hohhot, Inner Mongolia 010010, China. Electronic address: yangrui@immu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Chang-Shan",
+        "short_name": "Wang CS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Hohhot, Inner Mongolia 010020, China. Electronic address: changshanwang@imu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/09 00:32",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [
+      "42018123",
+      "41725014"
+    ],
+    "refs": [],
+    "similar": [
+      "41205524",
+      "40907726",
+      "41311084",
+      "33485979",
+      "38065350",
+      "39116410",
+      "38900385",
+      "30290714",
+      "40441663",
+      "39680129",
+      "39401943",
+      "34175838",
+      "41135636",
+      "40020794",
+      "40796901",
+      "35925474",
+      "40049100",
+      "39827719",
+      "29097203",
+      "35163314",
+      "41053736",
+      "39094903",
+      "39340591",
+      "39490807",
+      "27878894",
+      "29890141",
+      "35758595",
+      "25714760",
+      "40234847",
+      "41295386",
+      "39197597",
+      "37030149",
+      "40616726",
+      "41183454",
+      "40680330",
+      "34532739",
+      "36592823",
+      "40037475",
+      "40819563",
+      "35640739",
+      "41406175",
+      "39615216",
+      "38847154",
+      "29201272",
+      "39402011",
+      "27839819",
+      "39395326",
+      "39047882",
+      "39894375",
+      "31545371",
+      "40457488",
+      "36978833",
+      "37032573",
+      "30456860",
+      "38979831",
+      "28834114",
+      "30597356",
+      "32281308",
+      "41401961",
+      "31441382",
+      "41107952",
+      "32702447",
+      "38331805",
+      "30003648",
+      "41046828",
+      "31811867",
+      "24651677",
+      "38689095",
+      "40315640",
+      "41494917",
+      "40976052",
+      "35068334",
+      "37876250",
+      "38897197",
+      "32963699",
+      "38816744",
+      "40905413",
+      "39067197",
+      "41343751",
+      "39341077",
+      "35863923",
+      "30576228",
+      "41086673",
+      "41067204",
+      "40122315",
+      "41037851",
+      "40904084",
+      "40295194",
+      "41206451",
+      "40109468",
+      "40660391",
+      "37162681",
+      "38299289",
+      "34239689",
+      "25052713",
+      "37203350",
+      "28064010",
+      "40972970",
+      "40190139",
+      "37597773"
+    ],
+    "review": [
+      "41205524"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)01103-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

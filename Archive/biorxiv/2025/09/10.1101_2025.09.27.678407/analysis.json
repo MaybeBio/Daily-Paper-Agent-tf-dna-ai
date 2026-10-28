@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.27.678407",
+  "title": "BindPred: A Framework for Predicting Protein-Protein Binding Affinity from Language Model Embeddings",
+  "authors": "Haixing Piao; Veda Sheersh Boorla; Somtirtha Santra; Costas D. Maranas",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-29",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用蛋白语言模型嵌入预测蛋白-蛋白结合亲和力，虽涉及结合亲和力预测但对象为蛋白-蛋白而非蛋白-DNA，方法可迁移性有限，仅部分相关。",
+  "abstract": "Motivation Reliable predictions of protein–protein binding affinities are essential for molecular biology and therapeutic discovery. However, most computational methods rely on three-dimensional structural models, which are often unavailable for many complexes. Results We introduce BindPred, a structure-agnostic input framework that predicts affinities directly from amino acid sequences by combining embeddings from large protein language models with gradient boosting trees. On the PPB-Affinity benchmark, which comprises 11,919 diverse complexes, BindPred achieves a Pearson correlation coefficient of 0.86 in random split five-fold cross-validation, where the training and test sets share <30% global sequence identity. Ablation analysis indicates that evolutionary embeddings alone capture most of the predictive signals, while augmenting with physics-based energy terms from PyRosetta and BindCraft increases the correlation by only 0.01. A more stringent protein-level split that places entire protein families (wild-type and all mutants) exclusively in either training or testing sets, results in only a modest decline in performance, demonstrating robust generalization to novel interaction pairs. Because BindPred operates exclusively on sequence input, it enables rapid inference (approximately 3 million complexes per GPU (T4) hour), making proteome-scale screening computationally feasible. Availability The pretrained model and inference pipeline are available in a Google Colab notebook: BindPred Colab notebook . The training dataset, code, and model weights are available on the Hugging Face: BindPred Contact costas@psu.edu Supplementary information Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机 蛋白质-蛋白质结合亲和力的可靠预测对于分子生物学和治疗发现至关重要。然而，大多数计算方法依赖于三维结构模型，而这些模型对于许多复合物往往不可用。结果 我们引入了BindPred，一种不依赖结构的输入框架，通过结合大型蛋白质语言模型的嵌入与梯度提升树，直接从氨基酸序列预测亲和力。在包含11,919个多样复合物的PPB-Affinity基准上，BindPred在随机分割的五折交叉验证中实现了0.86的皮尔逊相关系数，其中训练集和测试集的全局序列同一性低于30%。消融分析表明，进化嵌入单独捕获了大部分预测信号，而通过PyRosetta和BindCraft添加基于物理的能量项仅将相关性提高了0.01。一个更严格的蛋白质水平分割，将整个蛋白质家族（野生型和所有突变体）完全置于训练集或测试集中，仅导致性能适度下降，展示了对新型相互作用对的稳健泛化能力。由于BindPred仅基于序列输入运行，它能够实现快速推理（每GPU（T4）小时约300万个复合物），使蛋白质组规模的筛选在计算上可行。可用性 预训练模型和推理流程可在Google Colab笔记本中获取：BindPred Colab笔记本。训练数据集、代码和模型权重可在Hugging Face上获取：BindPred。联系方式 costas@psu.edu。补充信息 补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.27.678407",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.27.678407",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.27.678407/index.html"
+}

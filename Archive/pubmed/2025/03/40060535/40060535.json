@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "40060535",
+    "doi": "10.1101/2025.02.24.639895",
+    "title": "Generative model for the first cell fate bifurcation in mammalian development."
+  },
+  "content": {
+    "abstract": "The first cell fate bifurcation in mammalian development directs cells toward either the trophectoderm (TE) or inner cell mass (ICM) compartments in preimplantation embryos. This decision is regulated by the subcellular localization of a transcriptional co-activator YAP and takes place over several progressively asynchronous cleavage divisions. As a result of this asynchrony and variable arrangement of blastomeres, reconstructing the dynamics of the TE/ICM cell specification from fixed embryos is extremely challenging. To address this, we developed a live imaging approach and applied it to measure pairwise dynamics of nuclear YAP and its direct target genes, CDX2 and SOX2, key transcription factors of TE and ICM, respectively. Using these datasets, we constructed a generative model of the first cell fate bifurcation, which reveals the time-dependent statistics of the TE and ICM cell allocation. In addition to making testable predictions for the joint dynamics of the full YAP/CDX2/SOX2 motif, the model revealed the stochastic nature of the induction timing of the key cell fate determinants and identified the features of YAP dynamics that are necessary or sufficient for this induction. Notably, temporal heterogeneity was particularly prominent for SOX2 expression among ICM cells. As heterogeneities within the ICM have been linked to the initiation of the second cell fate decision in the embryo, understanding the origins of this variability is of key significance. The presented approach reveals the dynamics of the first cell fate choice and lays the groundwork for dissecting the next cell fate bifurcations in mouse development.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Avdeeva, Maria",
+        "Chalifoux, Madeleine",
+        "Joyce, Bradley",
+        "Shvartsman, Stanislav Y",
+        "Posfai, Eszter"
+      ],
+      "short_names": [
+        "Avdeeva M",
+        "Chalifoux M",
+        "Joyce B",
+        "Shvartsman SY",
+        "Posfai E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3061-7971",
+        "ORCID: 0000-0002-9152-9334",
+        "ORCID: 0000-0002-4871-6652"
+      ],
+      "affiliations": [
+        "Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, New York, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA.",
+        "Department of Molecular Biology, Princeton, New Jersey, USA.",
+        "Department of Molecular Biology, Princeton, New Jersey, USA.",
+        "Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, New York, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA.",
+        "Department of Molecular Biology, Princeton, New Jersey, USA.",
+        "Department of Molecular Biology, Princeton, New Jersey, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Avdeeva, Maria",
+        "short_name": "Avdeeva M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Chalifoux, Madeleine",
+        "short_name": "Chalifoux M",
+        "identifiers": [
+          "0000-0002-3061-7971"
+        ],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA.",
+          "Department of Molecular Biology, Princeton, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Joyce, Bradley",
+        "short_name": "Joyce B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Princeton, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Shvartsman, Stanislav Y",
+        "short_name": "Shvartsman SY",
+        "identifiers": [
+          "0000-0002-9152-9334"
+        ],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, New York, USA.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA.",
+          "Department of Molecular Biology, Princeton, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Posfai, Eszter",
+        "short_name": "Posfai E",
+        "identifiers": [
+          "0000-0002-4871-6652"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Princeton, New Jersey, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Feb 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 17:18",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39541410",
+      "39388574",
+      "39373366",
+      "35679575",
+      "35042406",
+      "33785573",
+      "33684098",
+      "33306953",
+      "32928909",
+      "32720894",
+      "31735668",
+      "31444221",
+      "30958266",
+      "30543809",
+      "30526858",
+      "30095292",
+      "29487166",
+      "28700688",
+      "28401892",
+      "28226240",
+      "28171747",
+      "28114387",
+      "26806703",
+      "26461180",
+      "25340657",
+      "25127056",
+      "24948601",
+      "24866117",
+      "24258274",
+      "24041854",
+      "23903990",
+      "23791731",
+      "22814996",
+      "21573197",
+      "21539832",
+      "20364097",
+      "20308546",
+      "20147376",
+      "19997595",
+      "19289085",
+      "16410409",
+      "15788452",
+      "14582517",
+      "7237545",
+      "6048976",
+      "2187672"
+    ],
+    "similar": [
+      "40060535",
+      "40762476",
+      "37295962",
+      "35700449",
+      "32684820",
+      "21103067",
+      "22529382",
+      "26806703",
+      "23257836",
+      "40349907",
+      "38243114",
+      "40060487",
+      "25340657",
+      "20554762",
+      "31704705",
+      "38796961",
+      "24997360",
+      "25013897",
+      "39629521",
+      "15788452",
+      "18832072",
+      "29177763",
+      "23791728",
+      "31114858",
+      "40693734",
+      "21098565",
+      "28401892",
+      "41358851",
+      "25619399",
+      "34758315",
+      "40493978",
+      "32779436",
+      "25251051",
+      "20826529",
+      "32513530",
+      "23739221",
+      "35264162",
+      "26450797",
+      "26409823",
+      "18083014",
+      "37766497",
+      "40749677",
+      "29719081",
+      "25209243",
+      "23893501",
+      "29177764",
+      "29796631",
+      "17978007",
+      "34741175",
+      "18503052",
+      "30836937",
+      "23671187",
+      "19479991",
+      "26461180",
+      "41129931",
+      "28362853",
+      "40481039",
+      "24948601",
+      "27345419",
+      "33907058",
+      "35038315",
+      "26740066",
+      "36350568",
+      "24866117",
+      "37248263",
+      "40667208",
+      "20726774",
+      "28226240",
+      "26681441",
+      "37553074",
+      "23743205",
+      "20430022",
+      "40014376",
+      "19700764",
+      "37309238",
+      "35672442",
+      "41403070",
+      "17215844",
+      "31803983",
+      "23177476",
+      "21049019",
+      "32197068",
+      "20100249",
+      "27210587",
+      "37041329",
+      "23349011",
+      "37298570",
+      "23261930",
+      "38926157",
+      "33669396",
+      "23257394",
+      "38151652",
+      "22609553",
+      "30395288",
+      "39507416",
+      "22580473",
+      "40258298",
+      "27130208",
+      "37075831",
+      "27341639"
+    ],
+    "review": [
+      "40060535",
+      "32684820",
+      "23893501",
+      "19479991",
+      "33907058",
+      "20100249",
+      "37041329",
+      "23349011",
+      "38926157",
+      "33669396"
+    ],
+    "pmc": [
+      "11888292"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40060535/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40060535",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.02.24.639895",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

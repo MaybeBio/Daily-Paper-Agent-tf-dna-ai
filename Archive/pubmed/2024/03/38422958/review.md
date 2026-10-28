@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present SpecLoop, a network regularization-based machine learning framework, that integrates multi-omics data (gene expression, chromatin accessibility, sequence, protein-protein interaction, TF binding motif) to predict cell-type-specific chromatin loops (CSCLs) and identify transcription factor (TF) cooperations. Performance is reported across seven cell types with AUROC 0.8645 to 0.9852 and AUPR 0.8654 to 0.9734, with improved accuracy for long-distance loops and identification of predictive TF complexes.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline comparisons, or validation results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, code repository contents, hyperparameter settings, baseline model definitions, statistical significance tests, and detailed descriptions of the network regularization approach
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational tool for predicting cell-type-specific chromatin loops, with promising performance metrics. However, the current evidence base is insufficient to evaluate the technical soundness, novelty relative to existing methods, or the robustness of the reported results. The claims of improved long-distance prediction and identification of TF complexes require detailed validation that is not visible from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational genomics, chromatin biology, and gene regulation would be interested, as the tool addresses a relevant problem in understanding cell-type-specific 3D genome organization. The integration of multiple omics data types and the focus on TF cooperation may appeal to those studying transcriptional regulation and cell fate determination.
+- **Major strengths** The problem addressed is biologically important and timely. The integration of diverse omics data types is a reasonable approach. The reported performance across multiple cell types suggests generalizability. The availability of the code as open source is a positive feature for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "SpecLoop accurately predicts CSCL in GM12878, IMR90, HeLa-S3, K562, HUVEC, HMEC, and NHEK seven cell types, with the AUROC values ranging from 0.8645 to 0.9852 and AUPR values ranging from 0.8654 to 0.9734"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports performance metrics but provides no information on the evaluation protocol, including train/test splits, cross-validation strategy, handling of class imbalance, or whether the same cell types were used for training and testing. Without this information, the reported AUROC and AUPR values cannot be interpreted as reliable estimates of generalization performance.
+  - **Why it matters** If the model is evaluated on the same cell types used for training, the reported metrics may reflect overfitting rather than predictive ability. The absence of a clear evaluation framework undermines the core claim of accurate prediction.
+  - **Resolution test** Provide a detailed description of the evaluation protocol, including how training and test sets were partitioned, whether cross-validation was used, and whether any cell-type-specific held-out evaluation was performed. Report performance on held-out cell types or genomic regions not used in training.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "SpecLoop demonstrates improved accuracy in predicting long-distance CSCLs"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of improved accuracy for long-distance loops is presented without any comparison to a baseline or alternative method. It is unclear what "improved" means in this context, and no quantitative comparison is provided.
+  - **Why it matters** Without a defined baseline or comparator, the claim of improvement cannot be assessed. If the improvement is relative to the model's own performance on short-distance loops, that is a different claim than improvement over existing methods.
+  - **Resolution test** Provide a comparison of SpecLoop's performance on long-distance versus short-distance loops, and compare against at least one existing chromatin loop prediction method. Report the specific distance thresholds used and the statistical significance of any differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** "SpecLoop, a network regularization-based machine learning framework, to investigate the role of transcription factors (TFs) cooperation in CSCL formation"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how SpecLoop differs from existing chromatin loop prediction methods that also integrate multiple omics data types. The novelty of the network regularization approach and the specific contribution to understanding TF cooperation are not articulated.
+  - **Why it matters** If the method is largely similar to existing tools with minor modifications, the scientific contribution may be limited. The abstract should clearly state what is new and why it matters.
+  - **Resolution test** Provide a clear statement of the methodological novelty relative to existing methods, and include a comparison against at least one state-of-the-art baseline in the full manuscript.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "SpecLoop is freely available at https://github.com/AMSSwanglab/SpecLoop"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states the code is available, but no information is provided about the implementation details, dependencies, or whether the code has been tested on the reported datasets. The repository contents cannot be verified from the abstract.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. Without clear documentation and verification, the reported results cannot be independently confirmed.
+  - **Resolution test** Provide a detailed description of the software environment, dependencies, and usage instructions. Include a statement on whether the code has been tested on the reported datasets and whether the results can be reproduced with the provided scripts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not define what constitutes a "long-distance" chromatin loop, which is a key term in the performance claim.
+  - **Required correction** Define the distance threshold used to classify loops as long-distance in the abstract or refer to a specific section of the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract mentions "TF complexes with strong predictive ability" but does not provide any examples or details on how these complexes were identified or validated.
+  - **Required correction** Provide at least one example of a TF complex identified and describe the validation approach in the abstract or refer to specific figures in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract reports AUROC and AUPR ranges but does not include confidence intervals or measures of variance across cell types.
+  - **Required correction** Report confidence intervals or standard deviations for the performance metrics, or state that such information is available in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evaluation protocol), R1-M2 (baseline comparison for long-distance claim), R1-M3 (novelty articulation), R1-M4 (reproducibility details)
+- **Assessment against Nature-style criteria** Originality: The abstract does not clearly establish novelty relative to existing methods, so this criterion is not currently met. Scientific importance: The problem is important, but the contribution to understanding TF cooperation is not demonstrated. Interdisciplinary readership: The topic is relevant to computational biology and genomics, but the abstract is too technical for a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the evaluation protocol and baseline comparisons are missing. Readability for nonspecialists: The abstract is dense and uses jargon without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising results, but the lack of methodological detail, evaluation protocol, and baseline comparisons prevents a supportive recommendation. The authors should provide the full manuscript and address the major concerns before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of "improved accuracy in predicting long-distance CSCLs" is unsupported without a defined baseline or comparator.
+- The claim of identifying "TF complexes with strong predictive ability" is unsupported without examples or validation details.
+- The reported AUROC and AUPR ranges are not interpretable without knowledge of the evaluation protocol.
+- The novelty of the network regularization approach relative to existing methods is not established.
+- The generalizability across cell types is claimed but not supported by evidence of held-out evaluation.

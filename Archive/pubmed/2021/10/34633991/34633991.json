@@ -1,0 +1,494 @@
+{
+  "identity": {
+    "pmid": "34633991",
+    "doi": "10.18632/aging.203619",
+    "title": "Transcriptome research identifies four hub genes related to primary myelofibrosis: a holistic research by weighted gene co-expression network analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: This study aimed to identify specific diagnostic as well as predictive targets of primary myelofibrosis (PMF). METHODS: The gene expression profiles of GSE26049 were obtained from Gene Expression Omnibus (GEO) dataset, WGCNA was constructed to identify the most related module of PMF. Subsequently, Gene Ontology (GO), Kyoto Encyclopedia Genes and Genomes (KEGG), Gene Set Enrichment Analysis (GSEA) and Protein-Protein interaction (PPI) network were conducted to fully understand the detailed information of the interested green module. Machine learning, Principal component analysis (PCA), and expression pattern analysis including immunohistochemistry and immunofluorescence of genes and proteins were performed to validate the reliability of these hub genes. RESULTS: Green module was strongly correlated with PMF disease after WGCNA analysis. 20 genes in green module were identified as hub genes responsible for the progression of PMF. GO, KEGG revealed that these hub genes were primarily enriched in erythrocyte differentiation, transcription factor binding, hemoglobin complex, transcription factor complex and cell cycle, etc. Among them, EPB42, CALR, SLC4A1 and MPL had the most correlations with PMF. Machine learning, Principal component analysis (PCA), and expression pattern analysis proved the results in this study. CONCLUSIONS: EPB42, CALR, SLC4A1 and MPL were significantly highly expressed in PMF samples. These four genes may be considered as candidate prognostic biomarkers and potential therapeutic targets for early stage of PMF. The effects are worth expected whether in the diagnosis at early stage or as therapeutic target.",
+    "keywords": [
+      "WGCNA",
+      "bioinformatics",
+      "myelofibrosis",
+      "myeloproliferative",
+      "neoplasm"
+    ],
+    "mesh_terms": [
+      "Biomarkers",
+      "Computational Biology/*methods",
+      "Databases, Genetic",
+      "Gene Expression Profiling",
+      "Humans",
+      "Machine Learning",
+      "*Primary Myelofibrosis/genetics/metabolism",
+      "Protein Interaction Maps/genetics",
+      "Transcriptome/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Weihang",
+        "Zhao, Yingjing",
+        "Wang, Dong",
+        "Ding, Ziyi",
+        "Li, Chengfei",
+        "Wang, Bo",
+        "Xue, Xiong",
+        "Ma, Jun",
+        "Deng, Yajun",
+        "Liu, Quancheng",
+        "Zhang, Guohua",
+        "Zhang, Ying",
+        "Wang, Kai",
+        "Yuan, Bin"
+      ],
+      "short_names": [
+        "Li W",
+        "Zhao Y",
+        "Wang D",
+        "Ding Z",
+        "Li C",
+        "Wang B",
+        "Xue X",
+        "Ma J",
+        "Deng Y",
+        "Liu Q",
+        "Zhang G",
+        "Zhang Y",
+        "Wang K",
+        "Yuan B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedics, Xijing Hospital, The Fourth Military Medical University, Xi'an 710032, People's Republic of China.",
+        "Department of Intensive Care Unit, Nanjing First Hospital, Nanjing Medical University, Nanjing 210006, Jiangsu Province, China.",
+        "Department of Orthopaedics, Xijing Hospital, The Fourth Military Medical University, Xi'an 710032, People's Republic of China.",
+        "Department of Orthopaedics, Xijing Hospital, The Fourth Military Medical University, Xi'an 710032, People's Republic of China.",
+        "Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, Xi'an 710032, Shaanxi, China.",
+        "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China.",
+        "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China.",
+        "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China.",
+        "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China.",
+        "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China.",
+        "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China.",
+        "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China.",
+        "Department of Hematology, Daxing Hospital, Xi'an 710016, Shaanxi, China.",
+        "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Weihang",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Xijing Hospital, The Fourth Military Medical University, Xi'an 710032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yingjing",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, Nanjing First Hospital, Nanjing Medical University, Nanjing 210006, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Xijing Hospital, The Fourth Military Medical University, Xi'an 710032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ziyi",
+        "short_name": "Ding Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Xijing Hospital, The Fourth Military Medical University, Xi'an 710032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Chengfei",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, Xi'an 710032, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bo",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Xiong",
+        "short_name": "Xue X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jun",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yajun",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Quancheng",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guohua",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Bin",
+        "short_name": "Yuan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Daxing Hospital, Xi'an 710016, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2021 Oct 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/12 06:00",
+    "fetched_at": "2026-09-28 00:48:48"
+  },
+  "links": {
+    "cites": [
+      "39981236",
+      "39744819",
+      "38678487",
+      "38463581",
+      "37736497",
+      "36980431",
+      "36923792",
+      "36831689",
+      "35479581",
+      "35223859"
+    ],
+    "refs": [
+      "34261456",
+      "33686952",
+      "32354563",
+      "32196650",
+      "31980736",
+      "31659364",
+      "31333484",
+      "30886771",
+      "30816522",
+      "30518158",
+      "30429377",
+      "30417363",
+      "30405096",
+      "29740513",
+      "29388258",
+      "29212804",
+      "29170883",
+      "29164670",
+      "29031853",
+      "28994037",
+      "28970176",
+      "28940711",
+      "28398605",
+      "28157219",
+      "28028029",
+      "27991718",
+      "27870387",
+      "27341755",
+      "27240826",
+      "27069254",
+      "26391154",
+      "26097843",
+      "25938039",
+      "24097336",
+      "23768070",
+      "23555285",
+      "22192146",
+      "20507583",
+      "19114008",
+      "17488875",
+      "17250769",
+      "17210175",
+      "17110366",
+      "16781478",
+      "16646834",
+      "8202159",
+      "2594752"
+    ],
+    "similar": [
+      "34633991",
+      "32853947",
+      "34238135",
+      "30825595",
+      "33099311",
+      "31562292",
+      "35016690",
+      "34167437",
+      "31987036",
+      "38755717",
+      "32596300",
+      "34852788",
+      "36061178",
+      "34435051",
+      "31886571",
+      "31339875",
+      "38831425",
+      "32811479",
+      "32626989",
+      "31794546",
+      "32147961",
+      "33758323",
+      "39097701",
+      "31233342",
+      "32627011",
+      "34261404",
+      "36576616",
+      "30664180",
+      "32598242",
+      "33407587",
+      "34553293",
+      "30132538",
+      "31875420",
+      "34555052",
+      "28432618",
+      "39182249",
+      "34840971",
+      "30916045",
+      "34814332",
+      "29115418",
+      "34218797",
+      "35069594",
+      "34749208",
+      "38965970",
+      "38440848",
+      "39050860",
+      "34059095",
+      "32578582",
+      "32485038",
+      "33407182",
+      "32435051",
+      "29845250",
+      "32922167",
+      "31390578",
+      "34384030",
+      "32493063",
+      "31822116",
+      "33949285",
+      "31173250",
+      "37122694",
+      "33640831",
+      "31416885",
+      "37436378",
+      "34856750",
+      "31703725",
+      "33582701",
+      "34358255",
+      "34257537",
+      "33025856",
+      "35054979",
+      "32616722",
+      "30664178",
+      "32008037",
+      "32602534",
+      "33686952",
+      "31953631",
+      "29344651",
+      "29240723",
+      "34215202",
+      "33430905",
+      "31801935",
+      "31699960",
+      "30365134",
+      "33501609",
+      "32276105",
+      "31754223",
+      "29436659",
+      "32048869",
+      "33468161",
+      "33032291",
+      "32669126",
+      "34856364",
+      "34823498",
+      "33630978",
+      "39003404",
+      "38571624",
+      "34861826",
+      "31950035",
+      "32567431",
+      "32546690",
+      "36325528",
+      "30633343",
+      "31746405",
+      "35865542",
+      "35367598",
+      "36341378",
+      "34622712",
+      "38876403",
+      "34986855",
+      "35501731",
+      "34516309",
+      "35601837",
+      "33613306",
+      "33504890",
+      "39267804",
+      "35154510",
+      "39043774",
+      "38984304",
+      "33883925",
+      "33728329",
+      "34775094",
+      "37970111",
+      "35342071",
+      "33680092",
+      "36510452",
+      "32095347",
+      "35757636",
+      "36042431",
+      "34924389",
+      "38192048",
+      "35711908",
+      "35812327",
+      "34767108",
+      "36213260",
+      "35000593",
+      "32851066",
+      "35080766",
+      "33506032",
+      "35222523",
+      "30701323",
+      "36523311",
+      "34800203",
+      "35096131",
+      "36181454",
+      "37434459",
+      "37155308",
+      "33253093",
+      "39202434",
+      "36762746",
+      "37418282",
+      "38168496",
+      "35345666",
+      "37710308",
+      "35837294",
+      "36479222",
+      "35922530",
+      "35223859",
+      "36222336",
+      "38649399",
+      "35515499",
+      "38658824",
+      "35366826",
+      "38468964",
+      "38313369",
+      "37072452"
+    ],
+    "review": [
+      "34633991",
+      "35367598",
+      "33504890"
+    ],
+    "pmc": [
+      "8544335"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aging-us.com/full/203619",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34633991/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34633991",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CALR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-33",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

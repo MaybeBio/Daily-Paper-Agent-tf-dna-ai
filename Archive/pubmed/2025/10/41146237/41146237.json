@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41146237",
+    "doi": "10.1186/s41065-025-00585-3",
+    "title": "Identification of coagulation-related biomarkers in osteoarthritis and immune infiltration analysis based on bioinformatics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis (OA) is a common degenerative disorder characterized primarily by articular cartilage degradation and chronic inflammation. Although direct evidence elucidating the specific mechanisms underlying the coagulation-immune axis in OA remains limited, emerging studies have suggested a potential link. METHODS: Four microarray datasets were retrieved from the Gene Expression Omnibus (GEO) database. Then, differentially expressed genes (DEGs) (|log(2)FC| >/= 1, P < 0.05) were identified. Gene Set Enrichment Analysis (GSEA), Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed on these DEGs. Molecular Signatures Database (MsigDB) coagulation genes were intersected with DEGs to identify coagulation-related DEGs. Then, hub genes were determined using multiple Machine learning (ML) algorithms, Least Absolute Shrinkage and Selection Operator (LASSO), Support Vector Machine-Recursive Feature Elimination (SVM-RFE), and Random Forest (RF). Diagnostic performance of these genes was evaluated via a nomogram and ROC analysis (AUC). Immune cell infiltration was assessed with CIBERSORT. The expression of hub genes was validated in vitro via real-time qPCR and Western blot (WB). RESULTS: Based on 103 samples across four datasets, 294 DEGs were identified. Gene set enrichment analyses (GSEA, GO, KEGG) revealed significant enrichment of these genes in immune- and coagulation-related pathways in OA. Intersecting MsigDB coagulation genes with DEGs yielded nine coagulation-associated DEGs. Based on four distinct ML algorithms, six hub genes were selected: Fibroblast activation protein (FAP), Cathepsin H (CTSH), matrix metalloproteinase 1 (MMP1), matrix metalloproteinase 9 (MMP9), Complement component 6 (C6), MAF Basic Leucine Zipper Transcription Factor F (MAFF). These hub genes demonstrated high diagnostic accuracy according to ROC analysis. Immune infiltration analysis showed significant differences between OA and normal samples. M0 macrophages, plasma cells, and gammadelta T cells were elevated in OA, while activated mast cells and resting memory CD4(+) T cells were decreased. The qPCR and WB results corroborated the ML findings: in the interleukin-1beta (IL-1beta)-treated group, FAP, MMP1, MMP9, and CTSH were significantly upregulated, while MAFF and C6 were markedly downregulated. CONCLUSIONS: This study, based on publicly available GEO datasets, identified six potential diagnostic biomarkers for OA: FAP, CTSH, MMP1, MMP9, C6, and MAFF. These findings highlight the potential involvement of coagulation-immune interactions in OA pathogenesis and offer novel insights into the molecular mechanisms and diagnostic strategies for the disease.",
+    "keywords": [
+      "Biomarkers",
+      "Coagulation-Related genes (CRGs)",
+      "Immune infiltration",
+      "Machine learning (ML)",
+      "OA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Computational Biology/methods",
+      "*Osteoarthritis/genetics/immunology",
+      "*Biomarkers/metabolism",
+      "Gene Expression Profiling",
+      "*Blood Coagulation/genetics",
+      "Gene Ontology",
+      "Databases, Genetic",
+      "Machine Learning",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Linyuwei",
+        "Ou, Zhihong",
+        "Qiu, Boyuan",
+        "Tong, Siwen",
+        "Liu, Chu",
+        "Zhou, Pengwei",
+        "Ou, Zhixue"
+      ],
+      "short_names": [
+        "He L",
+        "Ou Z",
+        "Qiu B",
+        "Tong S",
+        "Liu C",
+        "Zhou P",
+        "Ou Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China.",
+        "Clinical Laboratory, Guilin Municipal Hospital of Traditional Chinese Medicine, Guilin, Guangxi, 541000, China.",
+        "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China.",
+        "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China.",
+        "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China.",
+        "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China.",
+        "Joints and Sports Medicine Department, Guilin Municipal Hospital of Traditional Chinese Medicine, No. 2, Lingui Road, Xiangshan District, Guilin, Guangxi, 541000, China. ouzhixue1028@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Linyuwei",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Zhihong",
+        "short_name": "Ou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory, Guilin Municipal Hospital of Traditional Chinese Medicine, Guilin, Guangxi, 541000, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Boyuan",
+        "short_name": "Qiu B",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Siwen",
+        "short_name": "Tong S",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chu",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Pengwei",
+        "short_name": "Zhou P",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School, Guangxi University of Traditional Chinese Medicine, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Zhixue",
+        "short_name": "Ou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Joints and Sports Medicine Department, Guilin Municipal Hospital of Traditional Chinese Medicine, No. 2, Lingui Road, Xiangshan District, Guilin, Guangxi, 541000, China. ouzhixue1028@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2025 Oct 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/28 06:30",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40343406",
+      "39768190",
+      "39740931",
+      "39417505",
+      "39103081",
+      "38266355",
+      "37658104",
+      "37628744",
+      "36475068",
+      "36370105",
+      "36074709",
+      "35625564",
+      "35406644",
+      "34717010",
+      "34262028",
+      "33980595",
+      "33604029",
+      "33053358",
+      "32814070",
+      "32320291",
+      "31974361",
+      "31700906",
+      "31608652",
+      "31293586",
+      "31036962",
+      "31034380",
+      "30926232",
+      "30429532",
+      "29540618",
+      "29158945",
+      "28418857",
+      "27870898",
+      "26711533",
+      "26707513",
+      "26524935",
+      "25822800",
+      "25605792",
+      "25574062",
+      "24690414",
+      "22721719",
+      "22484734",
+      "22455463",
+      "22367392",
+      "22267737",
+      "22119011",
+      "21345293",
+      "20983181",
+      "20808728",
+      "20080133",
+      "19652761",
+      "18903631",
+      "18253109",
+      "17588949",
+      "17425334",
+      "17305507",
+      "17069013",
+      "16936276",
+      "16200596",
+      "15342196",
+      "12542520",
+      "4181280",
+      "1973408",
+      "1435331"
+    ],
+    "similar": [
+      "41146237",
+      "41219826",
+      "41200172",
+      "39754246",
+      "38734758",
+      "40500570",
+      "37986345",
+      "39142001",
+      "38767974",
+      "40628511",
+      "40312440",
+      "37390254",
+      "40842856",
+      "40997906",
+      "37454542",
+      "41316378",
+      "39086489",
+      "41479901",
+      "35928610",
+      "40263537",
+      "39953769",
+      "36345357",
+      "38509535",
+      "41044520",
+      "39341981",
+      "39396400",
+      "35733917",
+      "40216809",
+      "39170142",
+      "40313958",
+      "38371524",
+      "39375405",
+      "39586719",
+      "35713363",
+      "39609718",
+      "39466354",
+      "40129981",
+      "41013556",
+      "34113405",
+      "41378005",
+      "41388523",
+      "39695788",
+      "37359526",
+      "38951833",
+      "38774864",
+      "39779817",
+      "41132349",
+      "40830558",
+      "40406620",
+      "40374866",
+      "39351239",
+      "39501535",
+      "37783761",
+      "39870856",
+      "39697326",
+      "38755717",
+      "39670237",
+      "34583778",
+      "35966794",
+      "31277141",
+      "37503333",
+      "40362543",
+      "35473522",
+      "35719392",
+      "38711508",
+      "34233597",
+      "39081100",
+      "41120378",
+      "34670585",
+      "41444657",
+      "41006883",
+      "40443672",
+      "40374840",
+      "40592131",
+      "38283345",
+      "39263286",
+      "39616855",
+      "38291374",
+      "41257259",
+      "35958412",
+      "36195955",
+      "41132671",
+      "30365099",
+      "40948644",
+      "36082523",
+      "39173977",
+      "39346078",
+      "39875572",
+      "40258895",
+      "34736376",
+      "40692778",
+      "39509434",
+      "34107850",
+      "40245021",
+      "35764238",
+      "39507054",
+      "40561071",
+      "41029776",
+      "39176085",
+      "38690269"
+    ],
+    "review": [
+      "41146237"
+    ],
+    "pmc": [
+      "12560450"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-025-00585-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41146237/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

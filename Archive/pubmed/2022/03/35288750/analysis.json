@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35288750",
+  "title": "DNAcycP: a deep learning tool for DNA cyclizability prediction.",
+  "authors": "Li, Keren; Carroll, Matthew; Vafabakhsh, Reza; Wang, Xiaozhong A; Wang, Ji-Ping",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-03-16",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习预测DNA环化能力（机械特性），并关联到CTCF等转录因子结合位点的力学特征，虽非直接建模TF-DNA互作，但为TF结合位点的DNA力学特性研究提供了可迁移的AI方法。",
+  "abstract": "DNA mechanical properties play a critical role in every aspect of DNA-dependent biological processes. Recently a high throughput assay named loop-seq has been developed to quantify the intrinsic bendability of a massive number of DNA fragments simultaneously. Using the loop-seq data, we develop a software tool, DNAcycP, based on a deep-learning approach for intrinsic DNA cyclizability prediction. We demonstrate DNAcycP predicts intrinsic DNA cyclizability with high fidelity compared to the experimental data. Using an independent dataset from in vitro selection for enrichment of loopable sequences, we further verified the predicted cyclizability score, termed C-score, can well distinguish DNA fragments with different loopability. We applied DNAcycP to multiple species and compared the C-scores with available high-resolution chemical nucleosome maps. Our analyses showed that both yeast and mouse genomes share a conserved feature of high DNA bendability spanning nucleosome dyads. Additionally, we extended our analysis to transcription factor binding sites and surprisingly found that the cyclizability is substantially elevated at CTCF binding sites in the mouse genome. We further demonstrate this distinct mechanical property is conserved across mammalian species and is inherent to CTCF binding DNA motif.",
+  "abstract_zh": "DNA力学性质在DNA依赖性生物过程的各个方面都发挥着关键作用。近期，一种名为loop-seq的高通量测定方法被开发出来，用于同时量化大量DNA片段的固有弯曲性。利用loop-seq数据，我们开发了一个基于深度学习方法的软件工具DNAcycP，用于预测固有DNA环化能力。我们证明，与实验数据相比，DNAcycP能够高保真地预测固有DNA环化能力。利用来自体外选择富集可环化序列的独立数据集，我们进一步验证了预测的环化能力评分（称为C-score）能够很好地区分具有不同环化能力的DNA片段。我们将DNAcycP应用于多个物种，并将C-score与可用的高分辨率化学核小体图谱进行比较。我们的分析表明，酵母和小鼠基因组共享一个保守特征，即在核小体二分体周围具有高DNA弯曲性。此外，我们将分析扩展到转录因子结合位点，并意外发现，在小鼠基因组的CTCF结合位点处，环化能力显著升高。我们进一步证明，这一独特的力学特性在哺乳动物物种间是保守的，并且是CTCF结合DNA基序所固有的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35288750/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35288750/",
+  "paper_page_path": "papers/pubmed/35288750/index.html"
+}

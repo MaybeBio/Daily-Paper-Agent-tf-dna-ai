@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "38370784",
+    "doi": "10.1101/2024.02.02.578510",
+    "title": "Gene regulatory network topology governs resistance and treatment escape in glioma stem-like cells."
+  },
+  "content": {
+    "abstract": "Poor prognosis and drug resistance in glioblastoma (GBM) can result from cellular heterogeneity and treatment-induced shifts in phenotypic states of tumor cells, including dedifferentiation into glioma stem-like cells (GSCs). This rare tumorigenic cell subpopulation resists temozolomide, undergoes proneural-to-mesenchymal transition (PMT) to evade therapy, and drives recurrence. Through inference of transcriptional regulatory networks (TRNs) of patient-derived GSCs (PD-GSCs) at single-cell resolution, we demonstrate how the topology of transcription factor interaction networks drives distinct trajectories of cell state transitions in PD-GSCs resistant or susceptible to cytotoxic drug treatment. By experimentally testing predictions based on TRN simulations, we show that drug treatment drives surviving PD-GSCs along a trajectory of intermediate states, exposing vulnerability to potentiated killing by siRNA or a second drug targeting treatment-induced transcriptional programs governing non-genetic cell plasticity. Our findings demonstrate an approach to uncover TRN topology and use it to rationally predict combinatorial treatments that disrupts acquired resistance in GBM.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, James H",
+        "Hothi, Parvinder",
+        "Lopez Garcia de Lomana, Adrian",
+        "Pan, Min",
+        "Calder, Rachel",
+        "Turkarslan, Serdar",
+        "Wu, Wei-Ju",
+        "Lee, Hwahyung",
+        "Patel, Anoop P",
+        "Cobbs, Charles",
+        "Huang, Sui",
+        "Baliga, Nitin S"
+      ],
+      "short_names": [
+        "Park JH",
+        "Hothi P",
+        "Lopez Garcia de Lomana A",
+        "Pan M",
+        "Calder R",
+        "Turkarslan S",
+        "Wu WJ",
+        "Lee H",
+        "Patel AP",
+        "Cobbs C",
+        "Huang S",
+        "Baliga NS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Systems Biology, Seattle, WA.",
+        "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA.",
+        "Center for Systems Biology, University of Iceland, Reykjavik, Iceland.",
+        "Institute for Systems Biology, Seattle, WA.",
+        "Institute for Systems Biology, Seattle, WA.",
+        "Institute for Systems Biology, Seattle, WA.",
+        "Institute for Systems Biology, Seattle, WA.",
+        "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA.",
+        "Department of Neurosurgery, Preston Robert Tisch Brain Tumor Center, Duke University, Durham, NC.",
+        "Center for Advanced Genomic Technologies, Duke University, Durham, NC.",
+        "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA.",
+        "Institute for Systems Biology, Seattle, WA.",
+        "Institute for Systems Biology, Seattle, WA.",
+        "Departments of Microbiology, Biology, and Molecular Engineering Sciences, University of Washington, Seattle, WA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, James H",
+        "short_name": "Park JH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Hothi, Parvinder",
+        "short_name": "Hothi P",
+        "identifiers": [],
+        "affiliations": [
+          "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Lopez Garcia de Lomana, Adrian",
+        "short_name": "Lopez Garcia de Lomana A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Biology, University of Iceland, Reykjavik, Iceland."
+        ]
+      },
+      {
+        "full_name": "Pan, Min",
+        "short_name": "Pan M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Calder, Rachel",
+        "short_name": "Calder R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Turkarslan, Serdar",
+        "short_name": "Turkarslan S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Wu, Wei-Ju",
+        "short_name": "Wu WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Lee, Hwahyung",
+        "short_name": "Lee H",
+        "identifiers": [],
+        "affiliations": [
+          "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Patel, Anoop P",
+        "short_name": "Patel AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Preston Robert Tisch Brain Tumor Center, Duke University, Durham, NC.",
+          "Center for Advanced Genomic Technologies, Duke University, Durham, NC."
+        ]
+      },
+      {
+        "full_name": "Cobbs, Charles",
+        "short_name": "Cobbs C",
+        "identifiers": [],
+        "affiliations": [
+          "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Huang, Sui",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Baliga, Nitin S",
+        "short_name": "Baliga NS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA.",
+          "Departments of Microbiology, Biology, and Molecular Engineering Sciences, University of Washington, Seattle, WA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Feb 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/19 06:42",
+    "fetched_at": "2026-09-29 15:45:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38370784",
+      "38848360",
+      "26683773",
+      "35205179",
+      "29927689",
+      "35836243",
+      "25397368",
+      "39326139",
+      "39818986",
+      "28427209",
+      "37735434",
+      "27765847",
+      "32075484",
+      "29793956",
+      "37351164",
+      "27472461",
+      "39513659",
+      "35430703",
+      "26137500",
+      "40564022",
+      "24093630",
+      "35414102",
+      "28654819",
+      "38829550",
+      "29848664",
+      "37963207",
+      "31167470",
+      "25955030",
+      "40473799",
+      "38710703",
+      "30228241",
+      "41047764",
+      "26142735",
+      "32350000",
+      "27724977",
+      "37511047",
+      "34205341",
+      "26986767",
+      "33093452",
+      "39921260",
+      "41041071",
+      "36495079",
+      "41000911",
+      "41485288",
+      "40140646",
+      "26826202",
+      "32443824",
+      "29016925",
+      "24608791",
+      "36499683",
+      "28423669",
+      "30654687",
+      "37325516",
+      "21483406",
+      "20186265",
+      "39229036",
+      "35351656",
+      "33408780",
+      "33114573",
+      "37566001",
+      "32788653",
+      "23650391",
+      "26510911",
+      "38479552",
+      "27486821",
+      "37377608",
+      "41140169",
+      "34193614",
+      "30034643",
+      "35008590",
+      "38721826",
+      "40578938",
+      "23404835",
+      "39659236",
+      "40358199",
+      "34066147",
+      "22837675",
+      "23714687",
+      "31554641",
+      "24527074",
+      "25573156",
+      "27863490",
+      "36915208",
+      "41394801",
+      "32592588",
+      "29383547",
+      "26251826",
+      "29991446",
+      "29440289",
+      "38619743",
+      "28938636",
+      "29587824",
+      "26307681",
+      "31634400",
+      "33614649",
+      "23317162",
+      "40277917",
+      "23958055",
+      "38156932",
+      "37101376"
+    ],
+    "review": [
+      "38370784",
+      "35205179",
+      "25397368",
+      "39818986",
+      "31167470",
+      "37325516",
+      "40358199",
+      "29383547"
+    ],
+    "pmc": [
+      "10871280"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38370784/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38370784",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.02.02.578510",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and clarity of presentation based solely on the supplied material
+- **Shared manuscript claim summary** The authors present TSProm, a framework that fine-tunes the DNA foundation model DNABERT2 to classify tissue-specific promoters at isoform level and interpret the underlying regulatory grammar via attention-based motif discovery and SHAP analysis. Applied to brain, liver, and testis, the framework identifies clinically relevant transcription factors, notably SP1, MYC, and HES6 in brain, and reveals a global dominance of C2H2 zinc finger proteins in tissue-specific regulation.
+- **Visible evidence base** Abstract, Introduction, DNA Foundation Models section, Datasets section, Methods section (fine-tuning, model A/B design, evaluation metrics, attention-based motif discovery, SHAP validation, positional analysis, clinical relevance), Results section (brain and testis analyses, global TSp-icity), Discussion, and references to appendices A–H and figures 1–4
+- **Missing materials affecting confidence** Figures 1–4, all appendices (A–H), supplementary tables, data and code availability details, and any quantitative performance metrics (e.g., accuracy, F1, MCC values) are referenced but not provided. This substantially limits the ability to verify the central claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem, namely the interpretation of tissue-specific gene regulation from promoter sequences using modern DNA foundation models. The conceptual design, particularly the contrast between Model A (general promoter biology) and Model B (tissue-specific regulation), is thoughtful and potentially useful. However, the provided text lacks the quantitative results, figures, and appendices necessary to evaluate whether the claims are supported. The biological validation is largely qualitative and relies on literature correlation rather than direct experimental evidence. The statistical rigor of the motif enrichment and SHAP analyses cannot be assessed from the supplied material. The manuscript is likely of interest to computational biologists and researchers studying gene regulation, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biologists working on regulatory genomics, developers and users of DNA foundation models, researchers studying tissue-specific gene expression and promoter biology, and those interested in explainable AI for genomics. The framework's potential to identify disease-relevant transcription factors from sequence alone could appeal to translational researchers in cancer biology.
+- **Major strengths** The conceptual separation of general promoter features from tissue-specific regulatory logic via two model designs is a sensible and potentially powerful approach. The integration of attention-based analysis with model-agnostic SHAP provides a cross-validated interpretability strategy. The focus on distal promoter regions beyond the conventional core and proximal windows is timely and addresses a known gap. The application to multiple tissues and the identification of C2H2 zinc finger proteins as a dominant class is biologically plausible and interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that TSProm achieves predictive performance and identifies clinically relevant transcription factors, including SP1, MYC, and HES6, with validation from databases such as JASPAR, TF-Marker, and KnockTF 2.0.
+  - **Evidence pointer** Results section, Figures 2–4, Appendices A–H (location not provided)
+  - **Concern** The central quantitative results, including classification performance metrics, motif enrichment statistics, and SHAP validation outcomes, are not presented in the supplied text. All figures and appendices are referenced but absent. Without these, the claims of predictive performance and robust motif identification cannot be evaluated.
+  - **Why it matters** The core contribution of the manuscript is a computational framework with claimed predictive and interpretative power. If the underlying metrics and statistical tests are not visible, the scientific case is not established. The reader cannot assess whether the model outperforms baselines, whether motif enrichment is significant, or whether SHAP and attention analyses agree.
+  - **Resolution test** Provide all figures and appendices with quantitative values, including accuracy, F1, MCC, precision, recall, enrichment p-values, and SHAP summary statistics. Show that Model B outperforms appropriate baselines and that identified motifs are significantly enriched with controlled false discovery rates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript states that Model B uses a negative set matched for GC content and repeat patterns, while Model A uses random non-promoter sequences, and that this design enables isolation of tissue-specific regulatory logic.
+  - **Evidence pointer** Methods section, Model A and B subsection, Figure 1 (location not provided)
+  - **Concern** The description of the negative set construction for Model B is insufficient. The text mentions matching for GC content and repeat patterns but does not specify the algorithm, the genomic sources, the number of negatives, or how matching was verified. The claim that the B∩Ac motif set isolates tissue-specific regulation depends critically on the quality and appropriateness of the negative set.
+  - **Why it matters** If the negative set is not properly matched, the model may learn trivial sequence features rather than tissue-specific regulatory grammar. The interpretability claims hinge on the validity of the contrast between Models A and B. Without detailed methodology, the results cannot be reproduced or trusted.
+  - **Resolution test** Provide a detailed description of negative set construction, including matching criteria, software, parameters, and validation that the negative set is balanced in GC content and repeat composition. Demonstrate that the B∩Ac motif set is robust to variations in negative set construction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validation
+  - **Claim pointer** The manuscript claims that identified transcription factors, including SP1, MYC, and HES6, are clinically relevant and validated via databases such as TF-Marker and KnockTF 2.0, with implications for gliomas and neuroblastomas.
+  - **Evidence pointer** Results section, Brain subsection, Appendix F3, Tables 4–5 (location not provided)
+  - **Concern** The validation is entirely based on literature and database correlations. There is no direct experimental evidence, such as ChIP-seq, reporter assays, or perturbation experiments, that the identified motifs and transcription factors functionally drive tissue-specific expression in the predicted manner. The claim of clinical relevance is inferred from database annotations rather than demonstrated.
+  - **Why it matters** The manuscript positions itself as providing biological insights into tissue-specific regulation and disease. Correlation with known databases is suggestive but not sufficient to establish functional relevance. Overclaiming clinical significance without direct validation weakens the scientific contribution.
+  - **Resolution test** Either temper the claims to reflect computational prediction rather than validated biological function, or include direct experimental validation for at least a subset of the key findings, such as SP1 or HES6, in relevant cell lines or tissues.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript states that longer motifs (>10 bp) showed greater overlaps with target motifs than shorter motifs (Mann–Whitney U = 42.0, p = 0.012), and that there are more negative-strand TF motifs.
+  - **Evidence pointer** Results section, Global TSp-icity subsection, Figure 4B (location not provided)
+  - **Concern** The statistical test is reported with a single p-value, but the sample sizes, effect sizes, and multiple testing corrections are not described. The comparison between longer and shorter motifs may be confounded by motif degeneracy, GC content, or database biases. The strand asymmetry observation is reported without statistical support.
+  - **Why it matters** These observations are used to support claims about the global landscape of tissue-specific regulation. Without proper statistical context, the reader cannot judge whether these are robust findings or artifacts of the analysis pipeline.
+  - **Resolution test** Provide full statistical details, including sample sizes, distributions, effect sizes, and correction for multiple comparisons. For the strand asymmetry, provide a statistical test with appropriate null model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "latent regulatory grammar" is evocative but undefined. The abstract would benefit from a brief explanation of what this means in concrete sequence terms.
+  - **Required correction** Define "regulatory grammar" in the abstract, for example as "sequence motifs and their positional arrangements that determine tissue-specific promoter activity."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, fine-tuning
+  - **Evidence pointer** Methods section, Fine Tuning of DFMs
+  - **Issue** The learning rates are listed as a range (2e-5, 1e-5, 3e-4, 5e-6 and others) without specifying which value was used for which model or tissue. This is not reproducible.
+  - **Required correction** Provide the exact hyperparameters used for each model and tissue, or state that a hyperparameter search was performed and report the best configuration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results, Brain subsection
+  - **Evidence pointer** Results section, "Model B∩Ac motifs"
+  - **Issue** The notation "B∩Ac" is used without prior definition. The reader must infer that this means motifs found in Model B but not Model A.
+  - **Required correction** Define the notation explicitly when first used, for example "motifs identified in Model B but absent from Model A (B∩Ac)".
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The discussion mentions application to other tissues and species but does not address limitations of the framework, such as potential biases in the training data, the choice of tissues, or the generalizability of the findings.
+  - **Required correction** Add a limitations paragraph discussing potential sources of bias, the scope of the current validation, and what would be needed to extend the framework to other contexts.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results and figures), R1-M2 (insufficient methodological detail on negative set construction), R1-M3 (lack of direct experimental validation for biological claims)
+- **Assessment against Nature-style criteria** Originality: The approach of contrasting general versus tissue-specific promoter models within a foundation model framework is a novel contribution, though the underlying techniques (attention analysis, SHAP) are established. Scientific importance: The problem of interpreting tissue-specific regulation is significant, and the potential to identify disease-relevant transcription factors is of broad interest. Interdisciplinary readership: The work bridges machine learning, genomics, and disease biology, and could appeal to a wide audience if the results are clearly presented. Technical soundness: Cannot be fully assessed from the supplied material due to missing figures, appendices, and quantitative metrics. The methodological descriptions are incomplete in key areas. Readability for nonspecialists: The text is generally clear but relies heavily on jargon and undefined notation in places. The abstract is accessible, but the methods and results sections would be challenging for a nonspecialist without additional context.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the manuscript as supplied lacks the quantitative results, methodological detail, and validation necessary to support its claims. If the missing materials are provided and the concerns are addressed, the work could become a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that TSProm achieves predictive performance is unsupported without performance metrics.
+- The claim that identified transcription factors are clinically relevant is unsupported without direct experimental validation or at least a more rigorous statistical association.
+- The claim that the B∩Ac motif set isolates tissue-specific regulatory logic is unsupported without detailed negative set methodology.
+- The observation of longer motifs showing greater overlap with target motifs is statistically under-supported.
+- The claim of a global dominance of C2H2 zinc finger proteins in tissue-specific regulation is based on a single analysis and requires broader validation.
+- The statement that the framework can be extended to other species is speculative without demonstration.

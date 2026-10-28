@@ -1,0 +1,673 @@
+{
+  "identity": {
+    "pmid": "41974128",
+    "doi": "10.1093/brain/awag131",
+    "title": "Data-driven modelling of tau pathology reveals distinct progressive supranuclear palsy subtypes."
+  },
+  "content": {
+    "abstract": "Progressive supranuclear palsy (PSP) is a heterogeneous neurodegenerative disease characterized by the accumulation of misfolded 4-repeat tau within neurons and glial cells. There are limited longitudinal data on pathologically confirmed PSP patients with phenotypes other than classic Richardson's syndrome (RS) and the pathomechanisms responsible for the broad variability in clinical phenotype and progression are not well understood. An unresolved question in this context is whether distinct spatiotemporal patterns of tau pathology propagation exist within the clinicopathological spectrum of PSP. We included 241 consecutive, pathologically confirmed patients with PSP from the Queen Square Brain Bank for Neurological Disorders (2010-2022). Phenotyping was performed based on clinical features present within the first 3 years from symptom onset according to the Movement Disorder Society (MDS) criteria, and specific clinical features and disease milestones were recorded. Genotyping was performed using Illumina NeuroBooster and NeuroChip arrays and MAPT haplotype, APOE genotype, TRIM11 rs564309 and SLC2A13 rs2242367 single nucleotide polymorphism data were collated. Tissue sections from eight brain regions, mounted on glass slides, were immunostained for hyperphosphorylated tau and digitized using whole-slide scanning. Forty-one anatomical regions of interest were manually segmented, and total tau pathology burden was quantified using an automated, machine learning-based algorithm. The associations between survival and both clinicogenetic features and regional tau pathology burden were modelled using Cox regression and generalized linear models, respectively, and the Subtype and Stage Inference (SuStaIn) algorithm was used to identify subgroups with distinct progression patterns. We have identified: (i) several clinical predictors of survival in PSP and the relationship between regional tau pathology burden and survival; (ii) novel anatomical reference standards for the expected distribution of tau pathology across MDS-defined PSP phenotypes, including region-specific white matter involvement in patients with corticobasal syndrome and speech/language variants; (iii) associations potentially linking biological sex, MAPT haplotype and TAR DNA-binding protein 43 (TDP-43) co-pathology to clinical phenotype and regional tau pathology burden; (iv) patterns of covariance in regional tau pathology implicating inter-regional connectivity in tau spreading; and (v) three distinct spatiotemporal patterns of tau pathology progression: one characterized by initial involvement of subcortical grey matter followed by rostral spread to cortical regions and two characterized by early, simultaneous involvement of subcortical grey matter and cortical regions. Taken together, these results indicate that PSP clinicopathological heterogeneity is mediated by propagation of tau pathology along anatomically connected networks and via intrinsic regional susceptibility mechanisms, possibly influenced by sex, genetic factors and co-pathology.",
+    "keywords": [
+      "disease progression modelling",
+      "machine learning",
+      "phenotypic heterogeneity",
+      "tauopathy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Supranuclear Palsy, Progressive/pathology/genetics/classification/metabolism",
+      "*tau Proteins/metabolism/genetics",
+      "Female",
+      "Aged",
+      "Male",
+      "Middle Aged",
+      "Disease Progression",
+      "*Brain/pathology/metabolism",
+      "Phenotype",
+      "Aged, 80 and over",
+      "Tauopathies/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cullinane, Patrick W",
+        "Parmera, Jacy Bezerra",
+        "Nelvagal, Hemanth",
+        "Curless, Toby",
+        "Chajed, Leckhna Paras",
+        "Wrigley, Sarah",
+        "Sifontes Valladares, Walter",
+        "Burrows, Maggie",
+        "Ebanks, Kirsten",
+        "Wu, Lesley",
+        "Binding, Lawrence P",
+        "Anton, Jaime",
+        "Revesz, Tamas",
+        "Real, Raquel",
+        "Vaughan, David P",
+        "Jabbari, Edwin",
+        "Morris, Huw R",
+        "Brandner, Sebastian",
+        "Young, Alexandra L",
+        "Hoti, Glen",
+        "Ma, Yangxinrui",
+        "Bechtawi, Mariam",
+        "Chiraki, Nancy",
+        "de Pablo-Fernandez, Eduardo",
+        "Lim, Yau Mun",
+        "Warner, Thomas T",
+        "Jaunmuktane, Zane"
+      ],
+      "short_names": [
+        "Cullinane PW",
+        "Parmera JB",
+        "Nelvagal H",
+        "Curless T",
+        "Chajed LP",
+        "Wrigley S",
+        "Sifontes Valladares W",
+        "Burrows M",
+        "Ebanks K",
+        "Wu L",
+        "Binding LP",
+        "Anton J",
+        "Revesz T",
+        "Real R",
+        "Vaughan DP",
+        "Jabbari E",
+        "Morris HR",
+        "Brandner S",
+        "Young AL",
+        "Hoti G",
+        "Ma Y",
+        "Bechtawi M",
+        "Chiraki N",
+        "de Pablo-Fernandez E",
+        "Lim YM",
+        "Warner TT",
+        "Jaunmuktane Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4360-2680",
+        "ORCID: 0000-0002-3565-5328",
+        "ORCID: 0000-0003-2407-4517",
+        "ORCID: 0000-0001-5464-5603",
+        "ORCID: 0000-0001-8117-742X",
+        "ORCID: 0000-0001-7303-6416",
+        "ORCID: 0000-0001-6844-882X",
+        "ORCID: 0000-0002-5473-3774",
+        "ORCID: 0000-0002-9821-0342",
+        "ORCID: 0000-0003-2834-2515",
+        "ORCID: 0000-0001-6195-6995"
+      ],
+      "affiliations": [
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Queen Square Movement Disorders Centre, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Neurology, Hospital das Clinicas, Faculdade de Medicina da Universidade de Sao Paulo (HC-FMUSP), Sao Paulo 05402 000, Brazil.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "UCL Hawkes Institute, Department of Computer Science, University College London, London WC1V 6LJ, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Movement Disorders Centre, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Movement Disorders Centre, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+        "Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+        "Division of Neuropathology, National Hospital for Neurology and Neurosurgery, University College London NHS Foundation Trust, London WC1N 3BG, UK.",
+        "UCL Hawkes Institute, Department of Computer Science, University College London, London WC1V 6LJ, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Centre for Preventive Neurology, Wolfson Institute of Population Health, Queen Mary University London, London EC1M 6BQ, UK.",
+        "Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+        "Division of Neuropathology, National Hospital for Neurology and Neurosurgery, University College London NHS Foundation Trust, London WC1N 3BG, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Queen Square Movement Disorders Centre, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+        "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+        "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+        "Division of Neuropathology, National Hospital for Neurology and Neurosurgery, University College London NHS Foundation Trust, London WC1N 3BG, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cullinane, Patrick W",
+        "short_name": "Cullinane PW",
+        "identifiers": [
+          "0000-0002-4360-2680"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Queen Square Movement Disorders Centre, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Parmera, Jacy Bezerra",
+        "short_name": "Parmera JB",
+        "identifiers": [
+          "0000-0002-3565-5328"
+        ],
+        "affiliations": [
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Department of Neurology, Hospital das Clínicas, Faculdade de Medicina da Universidade de São Paulo (HC-FMUSP), São Paulo 05402 000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Nelvagal, Hemanth",
+        "short_name": "Nelvagal H",
+        "identifiers": [
+          "0000-0003-2407-4517"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Curless, Toby",
+        "short_name": "Curless T",
+        "identifiers": [],
+        "affiliations": [
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Chajed, Leckhna Paras",
+        "short_name": "Chajed LP",
+        "identifiers": [],
+        "affiliations": [
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Wrigley, Sarah",
+        "short_name": "Wrigley S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Sifontes Valladares, Walter",
+        "short_name": "Sifontes Valladares W",
+        "identifiers": [],
+        "affiliations": [
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Burrows, Maggie",
+        "short_name": "Burrows M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Ebanks, Kirsten",
+        "short_name": "Ebanks K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Wu, Lesley",
+        "short_name": "Wu L",
+        "identifiers": [
+          "0000-0001-5464-5603"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Binding, Lawrence P",
+        "short_name": "Binding LP",
+        "identifiers": [],
+        "affiliations": [
+          "UCL Hawkes Institute, Department of Computer Science, University College London, London WC1V 6LJ, UK."
+        ]
+      },
+      {
+        "full_name": "Anton, Jaime",
+        "short_name": "Anton J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Revesz, Tamas",
+        "short_name": "Revesz T",
+        "identifiers": [],
+        "affiliations": [
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Real, Raquel",
+        "short_name": "Real R",
+        "identifiers": [
+          "0000-0001-8117-742X"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Movement Disorders Centre, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Vaughan, David P",
+        "short_name": "Vaughan DP",
+        "identifiers": [
+          "0000-0001-7303-6416"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Jabbari, Edwin",
+        "short_name": "Jabbari E",
+        "identifiers": [
+          "0000-0001-6844-882X"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Morris, Huw R",
+        "short_name": "Morris HR",
+        "identifiers": [
+          "0000-0002-5473-3774"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Movement Disorders Centre, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Brandner, Sebastian",
+        "short_name": "Brandner S",
+        "identifiers": [
+          "0000-0002-9821-0342"
+        ],
+        "affiliations": [
+          "Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+          "Division of Neuropathology, National Hospital for Neurology and Neurosurgery, University College London NHS Foundation Trust, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Young, Alexandra L",
+        "short_name": "Young AL",
+        "identifiers": [],
+        "affiliations": [
+          "UCL Hawkes Institute, Department of Computer Science, University College London, London WC1V 6LJ, UK."
+        ]
+      },
+      {
+        "full_name": "Hoti, Glen",
+        "short_name": "Hoti G",
+        "identifiers": [],
+        "affiliations": [
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Ma, Yangxinrui",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Bechtawi, Mariam",
+        "short_name": "Bechtawi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "Chiraki, Nancy",
+        "short_name": "Chiraki N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK."
+        ]
+      },
+      {
+        "full_name": "de Pablo-Fernández, Eduardo",
+        "short_name": "de Pablo-Fernández E",
+        "identifiers": [
+          "0000-0003-2834-2515"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Centre for Preventive Neurology, Wolfson Institute of Population Health, Queen Mary University London, London EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Lim, Yau Mun",
+        "short_name": "Lim YM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK.",
+          "Division of Neuropathology, National Hospital for Neurology and Neurosurgery, University College London NHS Foundation Trust, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Warner, Thomas T",
+        "short_name": "Warner TT",
+        "identifiers": [
+          "0000-0001-6195-6995"
+        ],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Queen Square Movement Disorders Centre, UCL Queen Square Institute of Neurology, London WC1N 3BG, UK."
+        ]
+      },
+      {
+        "full_name": "Jaunmuktane, Zane",
+        "short_name": "Jaunmuktane Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Movement Neurosciences, UCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, UK.",
+          "Queen Square Brain Bank for Neurological Disorders, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Reta Lila Weston Institute of Neurological Studies, UCL Queen Square Institute of Neurology, London WC1N 1PJ, UK.",
+          "Division of Neuropathology, National Hospital for Neurology and Neurosurgery, University College London NHS Foundation Trust, London WC1N 3BG, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain : a journal of neurology"
+    ],
+    "journal_abbrev": [
+      "Brain"
+    ],
+    "pub_date": "2026 Sep 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/14 00:32",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [
+      "41995880"
+    ],
+    "refs": [
+      "40504076",
+      "40465013",
+      "39882025",
+      "39817469",
+      "39719808",
+      "39438298",
+      "39283294",
+      "39222570",
+      "39152475",
+      "38494398",
+      "38124186",
+      "37839135",
+      "37301014",
+      "36975168",
+      "36938523",
+      "36512061",
+      "35947184",
+      "35872640",
+      "35384155",
+      "35292638",
+      "35185775",
+      "34650511",
+      "34541533",
+      "33778920",
+      "33710456",
+      "33595832",
+      "33568819",
+      "33341150",
+      "32735745",
+      "32383020",
+      "32142177",
+      "32125724",
+      "31999351",
+      "31665686",
+      "31433871",
+      "30884545",
+      "30882841",
+      "30598430",
+      "30323170",
+      "30066433",
+      "29926172",
+      "29293892",
+      "29203879",
+      "29111000",
+      "28602509",
+      "28467028",
+      "28250027",
+      "27694958",
+      "26705121",
+      "25722852",
+      "25370486",
+      "23968651",
+      "23432126",
+      "22265587",
+      "22101365",
+      "20610990",
+      "20360166",
+      "18385183",
+      "18158316",
+      "17712855",
+      "17525140",
+      "16839689",
+      "16015014",
+      "15834857",
+      "15788542",
+      "12654952",
+      "12498954",
+      "12084879",
+      "11445645",
+      "9633705",
+      "8909416",
+      "8648326",
+      "1759558"
+    ],
+    "similar": [
+      "41974128",
+      "29926172",
+      "41107539",
+      "42431059",
+      "15788542",
+      "40492394",
+      "40810960",
+      "17525140",
+      "23432126",
+      "16823854",
+      "35384155",
+      "30894142",
+      "38660629",
+      "38842726",
+      "20610990",
+      "34674762",
+      "37264457",
+      "32383020",
+      "18349518",
+      "38527450",
+      "33731439",
+      "39111605",
+      "31433871",
+      "31860007",
+      "37839135",
+      "29293892",
+      "32142177",
+      "30882841",
+      "31081015",
+      "33635380",
+      "37946288",
+      "20584946",
+      "29891013",
+      "19458322",
+      "39973504",
+      "31779824",
+      "37087820",
+      "31935638",
+      "40630598",
+      "25974705",
+      "39222570",
+      "41736364",
+      "40485628",
+      "15834857",
+      "32247606",
+      "28009087",
+      "32019605",
+      "17274033",
+      "40082954",
+      "23579330",
+      "35280291",
+      "33581485",
+      "17712855",
+      "30845985",
+      "37972275",
+      "33089580",
+      "31641878",
+      "33341150",
+      "33141172",
+      "40490537",
+      "41289551",
+      "36750757",
+      "39438298",
+      "27709663",
+      "42696070",
+      "39154163",
+      "41088254",
+      "17721707",
+      "32951237",
+      "38290492",
+      "31999351",
+      "36627498",
+      "15792962",
+      "33622418",
+      "19412943",
+      "31059154",
+      "30989369",
+      "27813160",
+      "34398211",
+      "22181323",
+      "39138580",
+      "34541533",
+      "25443551",
+      "40132252",
+      "42475469",
+      "21837549",
+      "39719808",
+      "26936765",
+      "33245166",
+      "36054492",
+      "39648200",
+      "16092076",
+      "41174096",
+      "11960887",
+      "32096036",
+      "39478416",
+      "40504076",
+      "24252572",
+      "36701008",
+      "21236314"
+    ],
+    "review": [
+      "41974128",
+      "20610990",
+      "31779824"
+    ],
+    "pmc": [
+      "13548875"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/progressivesupranuclearpalsy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Progressive Supranuclear Palsy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41974128/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/brain/article-lookup/doi/10.1093/brain/awag131",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

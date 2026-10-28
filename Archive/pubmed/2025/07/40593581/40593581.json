@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "40593581",
+    "doi": "10.1038/s41467-025-60735-z",
+    "title": "Cold-induced nucleosome dynamics linked to silencing of Arabidopsis FLC."
+  },
+  "content": {
+    "abstract": "Temperature influences nucleosome dynamics, and thus chromatin, to regulate gene expression. Such mechanisms underlie the epigenetic silencing of Arabidopsis FLOWERING LOCUS C (FLC) by prolonged cold. Here, we show a temperature-dependent transition in local chromatin structure at the H3K27me3 nucleation region, from a modality active for transcription to a state that can be Polycomb silenced. In vivo chromatin measurements and coarse-grained simulations at near-atomistic resolution show that the active transcription state is characterised by a highly dynamic nucleosome arrangement that exposes the FLC transcription start site (TSS). Cold exposure then changes the chromatin by reducing nucleosome dynamics and re-positioning the + 1 nucleosome, leading to transcriptional repression. This local chromatin transition partially depends on VERNALIZATION1 (VRN1), a non-sequence-specific DNA-binding protein. Loss of VRN1 results in hyperaccumulation of H2A.Z, more dynamic nucleosomes and an inability to accumulate H2Aub and H3K27me3. Our work highlights how local nucleosome dynamics link to chromatin structure transitions to integrate temperature inputs into epigenetic switching mechanisms in plants.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nucleosomes/metabolism/genetics",
+      "*Arabidopsis/genetics/metabolism",
+      "*Arabidopsis Proteins/genetics/metabolism",
+      "*MADS Domain Proteins/genetics/metabolism",
+      "Histones/metabolism/genetics",
+      "Gene Expression Regulation, Plant",
+      "*Cold Temperature",
+      "*Gene Silencing",
+      "Chromatin/metabolism/genetics",
+      "Transcription Initiation Site",
+      "Epigenesis, Genetic",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Montez, Miguel",
+        "Zhu, Danling",
+        "Huertas, Jan",
+        "Maristany, M Julia",
+        "Rutjens, Bas",
+        "Nielsen, Mathias",
+        "Collepardo-Guevara, Rosana",
+        "Dean, Caroline"
+      ],
+      "short_names": [
+        "Montez M",
+        "Zhu D",
+        "Huertas J",
+        "Maristany MJ",
+        "Rutjens B",
+        "Nielsen M",
+        "Collepardo-Guevara R",
+        "Dean C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1383-0885",
+        "ORCID: 0000-0003-3385-403X",
+        "ORCID: 0000-0003-2607-5214",
+        "ORCID: 0009-0009-8875-9225",
+        "ORCID: 0000-0003-1781-7351",
+        "ORCID: 0000-0002-6555-3525"
+      ],
+      "affiliations": [
+        "John Innes Centre, Norwich Research Park, Norwich, United Kingdom.",
+        "John Innes Centre, Norwich Research Park, Norwich, United Kingdom.",
+        "Key Laboratory of Molecular Design for Plant Cell Factory of Guangdong Higher Education Institutes, Institute of Plant and Food Research Department of Biology, School of Life Sciences, Southern University of Science and Technology, Shenzhen, China.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Genetics, University of Cambridge, Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Physics, University of Cambridge, Cambridge, United Kingdom.",
+        "John Innes Centre, Norwich Research Park, Norwich, United Kingdom.",
+        "Spark Genetics, Padualaan 8, 3584 CH, Utrecht Science Park, Utrecht, The Netherlands.",
+        "John Innes Centre, Norwich Research Park, Norwich, United Kingdom.",
+        "Department of Immunology and Regenerative Biology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Genetics, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Physics, University of Cambridge, Cambridge, United Kingdom.",
+        "John Innes Centre, Norwich Research Park, Norwich, United Kingdom. caroline.dean@jic.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Montez, Miguel",
+        "short_name": "Montez M",
+        "identifiers": [
+          "0000-0002-1383-0885"
+        ],
+        "affiliations": [
+          "John Innes Centre, Norwich Research Park, Norwich, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Zhu, Danling",
+        "short_name": "Zhu D",
+        "identifiers": [
+          "0000-0003-3385-403X"
+        ],
+        "affiliations": [
+          "John Innes Centre, Norwich Research Park, Norwich, United Kingdom.",
+          "Key Laboratory of Molecular Design for Plant Cell Factory of Guangdong Higher Education Institutes, Institute of Plant and Food Research Department of Biology, School of Life Sciences, Southern University of Science and Technology, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Huertas, Jan",
+        "short_name": "Huertas J",
+        "identifiers": [
+          "0000-0003-2607-5214"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+          "Department of Genetics, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Maristany, M Julia",
+        "short_name": "Maristany MJ",
+        "identifiers": [
+          "0009-0009-8875-9225"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+          "Department of Physics, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Rutjens, Bas",
+        "short_name": "Rutjens B",
+        "identifiers": [],
+        "affiliations": [
+          "John Innes Centre, Norwich Research Park, Norwich, United Kingdom.",
+          "Spark Genetics, Padualaan 8, 3584 CH, Utrecht Science Park, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Nielsen, Mathias",
+        "short_name": "Nielsen M",
+        "identifiers": [],
+        "affiliations": [
+          "John Innes Centre, Norwich Research Park, Norwich, United Kingdom.",
+          "Department of Immunology and Regenerative Biology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+          "Department of Genetics, University of Cambridge, Cambridge, United Kingdom.",
+          "Department of Physics, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Dean, Caroline",
+        "short_name": "Dean C",
+        "identifiers": [
+          "0000-0002-6555-3525"
+        ],
+        "affiliations": [
+          "John Innes Centre, Norwich Research Park, Norwich, United Kingdom. caroline.dean@jic.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "42410257",
+      "42293003",
+      "42277416",
+      "41987653",
+      "41977115"
+    ],
+    "refs": [
+      "39270644",
+      "38959309",
+      "38851186",
+      "38851185",
+      "38810649",
+      "38291333",
+      "38236739",
+      "38191828",
+      "38086807",
+      "37816746",
+      "37734835",
+      "37467143",
+      "37225990",
+      "37148879",
+      "37055726",
+      "36357125",
+      "36189880",
+      "36170051",
+      "36153345",
+      "36104563",
+      "35474134",
+      "35338361",
+      "35313165",
+      "35257662",
+      "35167758",
+      "34723319",
+      "34242850",
+      "34146481",
+      "34081696",
+      "34001913",
+      "33888707",
+      "33590861",
+      "32902380",
+      "32669706",
+      "32665685",
+      "32574979",
+      "32375040",
+      "32213324",
+      "32213323",
+      "31952809",
+      "31519205",
+      "31384063",
+      "31353180",
+      "31303471",
+      "30554944",
+      "30423086",
+      "29323273",
+      "29225036",
+      "29052207",
+      "28893714",
+      "28818969",
+      "28751582",
+      "28693387",
+      "28604691",
+      "28408607",
+      "27924075",
+      "27773629",
+      "26966245",
+      "26699513",
+      "26437570",
+      "26429969",
+      "25955967",
+      "25775579",
+      "25424540",
+      "25348398",
+      "25219852",
+      "24763583",
+      "23685436",
+      "23255593",
+      "23012264",
+      "22908247",
+      "22570629",
+      "22388286",
+      "22258509",
+      "21241891",
+      "20512117",
+      "20079334",
+      "20010688",
+      "19527704",
+      "19392705",
+      "19088306",
+      "18250331",
+      "17470967",
+      "17220196",
+      "17114581",
+      "16549797",
+      "16495307",
+      "16155178",
+      "16141450",
+      "14712276",
+      "12228459",
+      "12114624",
+      "10638745",
+      "10330478",
+      "8744570"
+    ],
+    "similar": [
+      "40593581",
+      "36130923",
+      "25349421",
+      "26437570",
+      "25211139",
+      "21785438",
+      "25065750",
+      "20010688",
+      "28818969",
+      "14712277",
+      "17114581",
+      "21127216",
+      "18854416",
+      "23222483",
+      "30946745",
+      "15520273",
+      "22798408",
+      "17220196",
+      "36921607",
+      "25929799",
+      "25600480",
+      "21276103",
+      "32994432",
+      "16507079",
+      "40858112",
+      "21265892",
+      "38236739",
+      "41284914",
+      "25648822",
+      "28498984",
+      "23417034",
+      "24013499",
+      "32001513",
+      "27819666",
+      "18638531",
+      "29072296",
+      "16549797",
+      "36722843",
+      "17980595",
+      "22935652",
+      "27471304",
+      "21406964",
+      "24220632",
+      "30742338",
+      "29161428",
+      "20463090",
+      "30742710",
+      "29086456",
+      "19368695",
+      "35234936",
+      "14712276",
+      "39232583",
+      "24940877",
+      "38184780",
+      "33662809",
+      "25180639",
+      "19825652",
+      "38851186",
+      "28132848",
+      "34789567",
+      "29969683",
+      "26699513",
+      "17174094",
+      "39546565",
+      "18178621",
+      "27150718",
+      "31740502",
+      "38851185",
+      "25219852",
+      "22685309",
+      "19416817",
+      "34732891",
+      "26392261",
+      "23875454",
+      "17383745",
+      "31278155",
+      "24510722",
+      "19567704",
+      "22381539",
+      "34807487",
+      "32601198",
+      "34618105",
+      "16547097",
+      "37466633",
+      "28951178",
+      "17996704",
+      "19965720",
+      "14593187",
+      "24799695",
+      "15472079",
+      "23899645",
+      "23581257",
+      "25955967",
+      "27713408",
+      "16155178",
+      "37734835",
+      "33741984",
+      "21282526",
+      "19755537",
+      "19121105"
+    ],
+    "review": [
+      "40593581",
+      "25929799",
+      "25600480",
+      "22935652",
+      "33662809",
+      "25180639",
+      "22685309",
+      "23875454",
+      "17383745"
+    ],
+    "pmc": [
+      "12216206"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-60735-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40593581/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

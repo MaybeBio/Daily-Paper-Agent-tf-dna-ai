@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40564048",
+  "title": "Single-Cell Transcriptomics Unveils the Mechanistic Role of FOSL1 in Cutaneous Wound Healing.",
+  "authors": "Meng, Jingbi; Zheng, Ge; Luo, Yinli; Ge, Ling; Liu, Zhiqing; Huang, Wenhua; Jin, Meitong; Kong, Yanli; Xu, Shanhua; Jin, Zhehu; Pi, Longquan",
+  "journal": "Biomedicines",
+  "published_date": "2025-06-26",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 3,
+  "one_liner_zh": "该文利用单细胞转录组和机器学习分析FOSL1在皮肤伤口愈合中的调控作用，虽涉及转录因子但无蛋白-DNA互作建模或AI/物理模拟方法，仅属表达与通路分析，与本课题关联较弱。",
+  "abstract": "Background: The skin, a complex organ vital for protecting the body against environmental challenges, undergoes a multifaceted wound healing process involving hemostasis, inflammation, proliferation, and remodeling. The transcription factor FOSL1 has been implicated in various cellular processes crucial for wound healing, including cell cycle regulation, differentiation, and apoptosis. We hypothesize that FOSL1 is a key regulator of wound healing processes. Objective: The objective of this study was to investigate the role of FOSL1 in cutaneous wound healing, identify the core signaling pathways involved, and assess FOSL1's potential as a therapeutic target. Method: We utilized datasets from the Gene Expression Omnibus (GEO) and applied the 'limma' package to discern differentially expressed genes (DEGs). We intersected these DEGs with transcription factor-associated genes from the TRRUST database. Subsequently, we constructed Protein-Protein Interaction (PPI) networks via the STRING database. Machine learning algorithms were instrumental in identifying pivotal genes, a finding corroborated through animal modeling and Western blot analysis of tissue samples. To elucidate biological pathway activities from gene expression data, we deployed the 'PROGENy' package, complemented by machine learning for precise pathway identification. Furthermore, Gene Set Variation Analysis (GSVA) was executed across Hallmark, biological process (BP), molecular function (MF), and cellular component (CC) categories to deepen our understanding of the wound healing process. Results: Our analysis revealed that FOSL1 is significantly upregulated in wounded skin. The Mitogen-Activated Protein Kinase (MAPK) and Epidermal Growth Factor Receptor (EGFR) pathways were identified as significantly associated with FOSL1. GSVA identifies critical changes in wound healing processes like 'apical junction' and 'epithelial-mesenchymal transition.' The upregulation of 'cytoplasm organization' and 'response to gravity' suggests roles in cellular adaptation. Molecular function analysis indicates alterations in 'cytokeratin filaments' and 'growth factor binding,' which are key for tissue repair. Cellular component shifts in 'postsynaptic cytosol' and 'endoplasmic reticulum' suggest changes in communication and protein processing. Conclusions: Our study identifies FOSL1 as a potential regulator of cutaneous wound healing through its modulation of cellular signaling pathways, offering novel insights into the molecular control of tissue repair. These findings highlight FOSL1 as a promising therapeutic target to accelerate healing in chronic or impaired wounds.",
+  "abstract_zh": "背景：皮肤是保护身体免受环境挑战的重要复杂器官，其伤口愈合过程涉及止血、炎症、增殖和重塑等多个方面。转录因子FOSL1已被认为在伤口愈合至关重要的多种细胞过程中发挥作用，包括细胞周期调控、分化和凋亡。我们假设FOSL1是伤口愈合过程的关键调控因子。目的：本研究旨在探讨FOSL1在皮肤伤口愈合中的作用，识别涉及的核心信号通路，并评估FOSL1作为治疗靶点的潜力。方法：我们利用了基因表达综合数据库（Gene Expression Omnibus, GEO）中的数据集，并应用'limma'包来识别差异表达基因（DEGs）。我们将这些DEGs与TRRUST数据库中的转录因子相关基因进行交集分析。随后，我们通过STRING数据库构建了蛋白质-蛋白质相互作用（PPI）网络。机器学习算法在识别关键基因方面发挥了重要作用，这一发现通过动物模型和组织样本的Western blot分析得到了验证。为了从基因表达数据中阐明生物通路活性，我们部署了'PROGENy'包，并结合机器学习进行精确通路识别。此外，我们在Hallmark、生物过程（BP）、分子功能（MF）和细胞组分（CC）类别中执行了基因集变异分析（GSVA），以加深对伤口愈合过程的理解。结果：我们的分析显示，FOSL1在受伤皮肤中显著上调。丝裂原活化蛋白激酶（MAPK）和表皮生长因子受体（EGFR）通路被识别为与FOSL1显著相关。GSVA识别了伤口愈合过程中的关键变化，如'顶端连接'和'上皮-间质转化'。'细胞质组织'和'对重力的响应'的上调提示其在细胞适应中的作用。分子功能分析表明'细胞角蛋白丝'和'生长因子结合'的改变，这些对组织修复至关重要。细胞组分在'突触后胞质'和'内质网'中的变化提示了通讯和蛋白质加工的改变。结论：我们的研究将FOSL1识别为通过调节细胞信号通路来调控皮肤伤口愈合的潜在因子，为组织修复的分子控制提供了新见解。这些发现强调了FOSL1作为加速慢性或受损伤口愈合的有前景的治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40564048/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40564048/",
+  "paper_page_path": "papers/pubmed/40564048/index.html"
+}

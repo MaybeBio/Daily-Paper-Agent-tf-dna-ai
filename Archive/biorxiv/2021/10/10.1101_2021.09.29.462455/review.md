@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present Peak2vec, a modified convolutional neural network with multinomial convolution kernels, which projects ATAC-seq peak sequences into an embedding space where sequences with similar nucleotide patterns cluster together. They claim this approach enables de novo inference of transcription factor binding specificities and downstream regulons from ATAC-seq data without relying on curated motifs or footprint analysis.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, Data Availability sections. No figures, tables, supplementary materials, or code were provided.
+- **Missing materials affecting confidence** All figures (Figures 1-7) referenced in the text are absent. No code repository, no hyperparameters, no training details, no evaluation metrics, no statistical test results, no data processing scripts, no model architecture specifications beyond a high-level description.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting conceptual idea, namely adapting convolutional kernels to behave as multinomial mixture components for interpretable motif discovery in ATAC-seq. However, the current text is insufficient to establish the validity of the claims. Critical methodological details are missing, the results section is largely descriptive without quantitative support, and the absence of all figures makes the core evidence unevaluable. The theoretical connection between the modified convolution and EM algorithm is intriguing but not rigorously developed. The application to liver cancer ATAC-seq data is presented without sufficient detail on validation, statistical significance, or comparison to existing methods beyond a single simulation experiment.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing deep learning methods for motif discovery and TF activity inference from chromatin accessibility data. Biologists studying transcriptional regulation in cancer, especially hepatocellular carcinoma, might also be interested if the method proves reliable. The interpretability angle of the multinomial convolution kernel could appeal to researchers seeking more transparent deep learning models in genomics.
+- **Major strengths** The conceptual novelty of reformulating convolution kernels as multinomial mixture components is genuinely interesting and could address a real limitation of standard CNN approaches in multi-TF settings. The authors correctly identify a significant gap in the field, namely the limited application of deep learning to ATAC-seq for TF inference. The theoretical analogy to EM algorithm provides a useful framing that may inspire further theoretical work. The authors acknowledge limitations honestly, including redundancy in clustering and difficulties in TF identity assignment.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Peak2vec accurately distinguished three TFs in the embedding space in a simulation experiment while conventional deep learning cannot.
+  - **Evidence pointer** Results section, Figure 2 and Figure 3, location not provided
+  - **Concern** The simulation experiment is described in a single sentence without any details on how it was constructed, what data were used, how accuracy was measured, or what the conventional CNN comparison entailed. The figures that would show these results are not provided. Without quantitative metrics, confusion matrices, or embedding visualizations, this central claim cannot be evaluated.
+  - **Why it matters** This is the primary validation of the method. If the simulation is not rigorously described and quantified, the entire premise of the method's advantage over conventional CNNs is unsupported.
+  - **Resolution test** Provide full simulation details including data generation, sample sizes, TF motif models, training parameters, evaluation metrics (e.g., clustering purity, adjusted Rand index, motif recovery rate), and a quantitative comparison table or figure showing Peak2vec versus conventional CNN performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that when applied to ATAC-seq profiles of hepatitis carcinoma, Peak2vec recovered multiple motifs curated in databases, and that a significant portion of sequences corresponding to the TF are located at promoter regions of regulated genes.
+  - **Evidence pointer** Results section, Figures 5-7, location not provided
+  - **Concern** The application to real data is described qualitatively. No numbers are given for how many motifs were recovered, what fraction of curated motifs were matched, what statistical significance thresholds were used for motif matching or gene set enrichment, or how "significant portion" is defined. The figures that would show these results are absent. The claim about promoter localization lacks any statistical framework or comparison to genomic background.
+  - **Why it matters** Real-world applicability is the ultimate test of the method. Without quantitative results, the reader cannot assess whether the method performs meaningfully better than chance or existing tools.
+  - **Resolution test** Provide quantitative results including number of motifs matched, enrichment statistics, FDR thresholds, comparison to background expectations, and a clear definition of "significant portion" with supporting statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods section describes the model architecture and training procedure.
+  - **Evidence pointer** Materials and Methods, Model training section, location not provided
+  - **Concern** Critical implementation details are missing. The number of layers is mentioned in the results (three layers, 256 kernels each for simulation; 1024 kernels for real data), but no information is provided on kernel sizes, stride, padding, learning rate, batch size, number of epochs, regularization, early stopping criteria, or the architecture of the classification head. The RMSprop optimizer is mentioned but without parameters. The negative sequence generation is described but not the exact algorithm. No code is provided.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without these details, no independent group can implement or verify the method.
+  - **Resolution test** Provide a complete specification of the architecture and training hyperparameters, and make code available in a public repository.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the multinomial convolution kernel is analogous to performing the EM algorithm for multivariate multinomial mixture on each sliding window.
+  - **Evidence pointer** Materials and Methods, Multinomial convolution kernel section, location not provided
+  - **Concern** The theoretical derivation is incomplete. The equations are referenced but not shown in the text provided. The analogy to EM is stated but not rigorously justified. The two differences from real EM are noted but their implications are not discussed. The claim that this analogy "may provoke insights" is speculative and not substantiated.
+  - **Why it matters** The theoretical framing is a key selling point of the method. If the connection is not rigorously established, the novelty claim weakens.
+  - **Resolution test** Provide the full mathematical derivation with all equations, and either prove the EM analogy formally or clearly state the conditions under which it holds.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim this is the first deep learning application to identify TF binding activities in chromatin accessibility profiles.
+  - **Evidence pointer** Introduction, location not provided
+  - **Concern** The literature review is minimal. The authors state that deep learning has been applied to TF ChIP-seq but rarely to ATAC-seq, yet they do not cite or discuss existing deep learning approaches for ATAC-seq analysis, such as those for peak calling, chromatin state prediction, or regulatory element classification. The novelty claim requires a more thorough comparison to prior work.
+  - **Why it matters** The scientific importance of the contribution depends on its novelty relative to existing methods. An incomplete literature review undermines this assessment.
+  - **Resolution test** Provide a comprehensive review of deep learning applications to ATAC-seq and clearly articulate how Peak2vec differs from and improves upon existing approaches.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract contains a typo in the title ("INFERRENCE" should be "INFERENCE") and the final sentence is grammatically awkward and unclear.
+  - **Required correction** Correct the title typo and rewrite the final sentence for clarity, e.g., "a significant portion of sequences corresponding to the TF are located at promoter regions of its regulated genes" needs grammatical correction and clearer phrasing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data Availability section
+  - **Evidence pointer** Data Availability, location not provided
+  - **Issue** The Data Availability section mentions a GitHub repository for "Genome Maps" which appears unrelated to the manuscript, and includes a placeholder for protein structure coordinates that is irrelevant to this study.
+  - **Required correction** Replace with the actual code and data availability statement for Peak2vec, including repository URLs and access to processed data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, simulation experiment
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The simulation uses JUN, CTCF, and POLR2A ChIP-seq data from HepG2, but the rationale for choosing these specific TFs is not explained. POLR2A is a general transcription factor with broad binding patterns, which may not be an ideal test case.
+  - **Required correction** Justify the choice of TFs and discuss how their properties affect the evaluation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion mentions "enrichment analysis for coexpression module" which is not described in the methods or results. This appears to be an orphan reference.
+  - **Required correction** Either describe this analysis in the methods and results, or remove the reference.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, embedding interpretation
+  - **Evidence pointer** Materials and Methods, Embedding vector interpretation section, location not provided
+  - **Issue** The Gaussian mixture clustering is described, but the number of clusters for the simulation experiment is not stated. The Wilcoxon test for feature selection is mentioned but the multiple testing correction is not described.
+  - **Required correction** Specify the number of clusters used in the simulation and the multiple testing correction method applied.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of all figures, the lack of quantitative results, the incomplete methodological detail, and the unsubstantiated theoretical claims collectively prevent any assessment of whether the method works as described.
+- **Assessment against Nature-style criteria** 
+  - Originality: The multinomial convolution kernel concept is a novel contribution to deep learning for genomics. The idea of interpreting kernels as mixture components is creative and potentially impactful. However, the originality claim is weakened by an incomplete literature review.
+  - Scientific importance: If validated, the method could address a real bottleneck in ATAC-seq analysis. However, the current evidence does not establish that the method works reliably, so the importance remains hypothetical.
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and regulatory genomics. The writing is accessible to computational biologists but would be challenging for experimental biologists due to the lack of clear biological validation and the absence of figures.
+  - Technical soundness: Not established. The theoretical derivation is incomplete, the implementation details are missing, and the validation is qualitative.
+  - Readability for nonspecialists: The abstract and introduction are readable, but the methods section assumes significant background in both deep learning and genomics. The absence of figures makes the results section difficult to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a promising core idea, but the missing figures, incomplete methods, and lack of quantitative results prevent any meaningful evaluation. The authors should be encouraged to resubmit a substantially revised version with full methodological detail, quantitative validation, and all supporting materials.
+
+## Risk / unsupported claims
+- The claim that Peak2vec accurately distinguishes TFs in simulation while conventional CNN cannot is unsupported due to missing quantitative results and figures.
+- The claim that Peak2vec recovered multiple curated motifs in liver cancer ATAC-seq data is unsupported without specific numbers, statistical tests, or figures.
+- The claim that a "significant portion" of TF-associated sequences are at promoter regions is unsupported without a statistical framework or comparison to background.
+- The claim that the multinomial convolution is analogous to EM is not rigorously established due to missing equations and derivation.
+- The claim that this is the first deep learning application to ATAC-seq for TF inference is not adequately supported by a comprehensive literature review.
+- The statement in the Data Availability section about protein structure coordinates is irrelevant and appears to be a template error.

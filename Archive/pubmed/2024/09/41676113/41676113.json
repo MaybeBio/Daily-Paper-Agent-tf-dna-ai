@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "41676113",
+    "doi": "10.1002/imo2.27",
+    "title": "Novel insights into immunopathogenesis and crucial biomarkers between primary open-angle glaucoma and systemic lupus erythematosus."
+  },
+  "content": {
+    "abstract": "Glaucoma is the primary factor underlying irreversible blindness. Recent studies suggest that the risk of glaucoma significantly increases in patients with systemic lupus erythematosus (SLE); however, the mechanism underlying this association remains unclear. Therefore, this study aimed to identify novel common biomarkers and potential therapeutic drugs for SLE and glaucoma. GSE27276, GSE50772, and GSE148371 datasets were sourced from the gene expression omnibus (GEO) database. An integrated analysis of the datasets for both diseases identified biomarkers and thoroughly examined their biological roles and molecular mechanisms using differential expression analysis (DEA), weighted gene co-expression network analysis (WGCNA), gene enrichment analysis, machine learning, microRNA (miRNA) and transcription factor analyses, immune infiltration analyses, and single-cell transcriptome analysis. Concurrently, molecular docking was used to forecast potential drugs targeting these biomarkers. Finally, reverse transcription quantitative real-time polymerase chain reaction (RT-qPCR) was performed in human trabecular meshwork stem cells to validate the five identified biomarkers. The 10 key genes identified through DEA and WGCNA were predominantly involved in immune, inflammatory, and autophagy pathways. Additionally, machine learning identified five biomarkers, and we established associated transcription factors and miRNA regulatory networks. Immune infiltration analysis indicated an elevated presence of immune cells, including macrophages, T cells, and B cells, in both conditions. Furthermore, the DSigDB database yielded 10 potential therapeutic agents, three of which showed strong binding potential to the biomarkers via molecular docking. The RT-qPCR results confirmed the trend in gene expression. This study uncovered a new link between SLE and primary open-angle glaucoma, identifying biomarkers and mechanisms of immunopathogenesis for future research and treatment strategies.",
+    "keywords": [
+      "immune infiltration",
+      "molecular docking",
+      "primary open-angle glaucoma",
+      "single cell transcriptome",
+      "systemic lupus erythematosus",
+      "targeted drugs"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yixian",
+        "You, Mengling",
+        "Zeng, Zhou",
+        "Wang, Jing",
+        "Rong, Rong",
+        "Xia, Xiaobo"
+      ],
+      "short_names": [
+        "Liu Y",
+        "You M",
+        "Zeng Z",
+        "Wang J",
+        "Rong R",
+        "Xia X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1720-7860"
+      ],
+      "affiliations": [
+        "Eye Center of Xiangya Hospital Central South University Changsha China.",
+        "Hunan Key Laboratory of Ophthalmology Changsha China.",
+        "National Clinical Key Specialty of Ophthalmology Changsha China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China.",
+        "Eye Center of Xiangya Hospital Central South University Changsha China.",
+        "Hunan Key Laboratory of Ophthalmology Changsha China.",
+        "National Clinical Key Specialty of Ophthalmology Changsha China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China.",
+        "Eye Center of Xiangya Hospital Central South University Changsha China.",
+        "Hunan Key Laboratory of Ophthalmology Changsha China.",
+        "National Clinical Key Specialty of Ophthalmology Changsha China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China.",
+        "Eye Center of Xiangya Hospital Central South University Changsha China.",
+        "Hunan Key Laboratory of Ophthalmology Changsha China.",
+        "National Clinical Key Specialty of Ophthalmology Changsha China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China.",
+        "Eye Center of Xiangya Hospital Central South University Changsha China.",
+        "Hunan Key Laboratory of Ophthalmology Changsha China.",
+        "National Clinical Key Specialty of Ophthalmology Changsha China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China.",
+        "Eye Center of Xiangya Hospital Central South University Changsha China.",
+        "Hunan Key Laboratory of Ophthalmology Changsha China.",
+        "National Clinical Key Specialty of Ophthalmology Changsha China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yixian",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital Central South University Changsha China.",
+          "Hunan Key Laboratory of Ophthalmology Changsha China.",
+          "National Clinical Key Specialty of Ophthalmology Changsha China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China."
+        ]
+      },
+      {
+        "full_name": "You, Mengling",
+        "short_name": "You M",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital Central South University Changsha China.",
+          "Hunan Key Laboratory of Ophthalmology Changsha China.",
+          "National Clinical Key Specialty of Ophthalmology Changsha China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zhou",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital Central South University Changsha China.",
+          "Hunan Key Laboratory of Ophthalmology Changsha China.",
+          "National Clinical Key Specialty of Ophthalmology Changsha China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital Central South University Changsha China.",
+          "Hunan Key Laboratory of Ophthalmology Changsha China.",
+          "National Clinical Key Specialty of Ophthalmology Changsha China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China."
+        ]
+      },
+      {
+        "full_name": "Rong, Rong",
+        "short_name": "Rong R",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital Central South University Changsha China.",
+          "Hunan Key Laboratory of Ophthalmology Changsha China.",
+          "National Clinical Key Specialty of Ophthalmology Changsha China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China."
+        ]
+      },
+      {
+        "full_name": "Xia, Xiaobo",
+        "short_name": "Xia X",
+        "identifiers": [
+          "0000-0003-1720-7860"
+        ],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital Central South University Changsha China.",
+          "Hunan Key Laboratory of Ophthalmology Changsha China.",
+          "National Clinical Key Specialty of Ophthalmology Changsha China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital) Central South University Changsha China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iMetaOmics"
+    ],
+    "journal_abbrev": [
+      "IMetaOmics"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/10 00:00",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "42440566"
+    ],
+    "refs": [
+      "38318171",
+      "37692838",
+      "37682453",
+      "37605653",
+      "37256149",
+      "37101208",
+      "36914768",
+      "36802303",
+      "36741384",
+      "36608498",
+      "36443219",
+      "36278164",
+      "36257529",
+      "36209107",
+      "36203804",
+      "36059536",
+      "35912101",
+      "35303793",
+      "35269952",
+      "35180863",
+      "34789280",
+      "34118452",
+      "33777677",
+      "33670885",
+      "33589796",
+      "33149557",
+      "33133597",
+      "33007927",
+      "32854767",
+      "32561029",
+      "32234407",
+      "32160869",
+      "31707035",
+      "31680442",
+      "31017267",
+      "30850586",
+      "30796732",
+      "30612922",
+      "30440036",
+      "29775216",
+      "29288267",
+      "29243035",
+      "28830684",
+      "28779882",
+      "28730968",
+      "28529457",
+      "27091054",
+      "27090926",
+      "26337552",
+      "26310164",
+      "25861459",
+      "25269908",
+      "25066707",
+      "25024200",
+      "24974815",
+      "24003086",
+      "23047718",
+      "18451162",
+      "18208562",
+      "16505034",
+      "16488940",
+      "11292402",
+      "10837071"
+    ],
+    "similar": [
+      "41676113",
+      "40766309",
+      "40808946",
+      "41316541",
+      "38044432",
+      "41052072",
+      "38774864",
+      "40328806",
+      "36470144",
+      "40625749",
+      "40207215",
+      "33468161",
+      "40297850",
+      "34335565",
+      "35757721",
+      "39290707",
+      "37610681",
+      "36059547",
+      "31673979",
+      "41479901",
+      "40298129",
+      "40739239",
+      "38863714",
+      "35558576",
+      "40309038",
+      "40949741",
+      "37950194",
+      "40406126",
+      "41627545",
+      "36341378",
+      "39445158",
+      "40406620",
+      "35495164",
+      "40585331",
+      "41432807",
+      "36871016",
+      "37313407",
+      "39125762",
+      "39142001",
+      "39361430",
+      "41432483",
+      "35935949",
+      "38013304",
+      "36002796",
+      "35817571",
+      "39922523",
+      "41388523",
+      "40958237",
+      "40613560",
+      "40532306",
+      "35964416",
+      "40374840",
+      "37520666",
+      "40097571",
+      "41257878",
+      "40313968",
+      "40652070",
+      "40438384",
+      "40124361",
+      "41013727",
+      "34553293",
+      "40630963",
+      "40918148",
+      "40958401",
+      "40453984",
+      "40374866",
+      "37465678",
+      "40313958",
+      "39845969",
+      "39133496",
+      "41221285",
+      "39086489",
+      "37605653",
+      "39139563",
+      "38912340",
+      "36595110",
+      "40704436",
+      "41577004",
+      "41357074",
+      "38435117",
+      "40379887",
+      "40855175",
+      "39560561",
+      "40131879",
+      "39840076",
+      "40425742",
+      "41495309",
+      "37940950",
+      "37741131",
+      "40151199",
+      "39348809",
+      "41195206",
+      "37519764",
+      "40613570",
+      "40216809",
+      "29806703",
+      "36532015",
+      "40977739",
+      "40563993",
+      "37968618"
+    ],
+    "review": [
+      "41676113"
+    ],
+    "pmc": [
+      "12806491"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41676113/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

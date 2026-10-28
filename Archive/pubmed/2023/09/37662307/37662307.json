@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "37662307",
+    "doi": "10.1101/2023.08.20.554030",
+    "title": "Ascertainment bias in the genomic test of positive selection on regulatory sequences."
+  },
+  "content": {
+    "abstract": "Evolution of gene expression mediated by cis-regulatory changes is thought to be an important contributor to organismal adaptation, but identifying adaptive cis-regulatory changes is challenging due to the difficulty in knowing the expectation under no positive selection. A new approach for detecting positive selection on transcription factor binding sites (TFBSs) was recently developed, thanks to the application of machine learning in predicting transcription factor (TF) binding affinities of DNA sequences. Given a TFBS sequence from a focal species and the corresponding inferred ancestral sequence that differs from the former at n sites, one can predict the TF binding affinities of many n-step mutational neighbors of the ancestral sequence and obtain a null distribution of the derived binding affinity, which allows testing whether the binding affinity of the real derived sequence deviates significantly from the null distribution. Applying this test genomically to all experimentally identified binding sites of three TFs in humans, a recent study reported positive selection for elevated binding affinities of TFBSs. Here we show that this genomic test suffers from an ascertainment bias because, even in the absence of positive selection for strengthened binding, the binding affinities of known human TFBSs are more likely to have increased than decreased in evolution. We demonstrate by computer simulation that this bias inflates the false positive rate of the selection test. We propose several methods to mitigate the ascertainment bias and show that almost all previously reported positive selection signals disappear when these methods are applied.",
+    "keywords": [
+      "ChIP-seq",
+      "adaptation",
+      "human",
+      "regulatory evolution",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Daohan",
+        "Zhang, Jianzhi"
+      ],
+      "short_names": [
+        "Jiang D",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, Michigan 48109, USA.",
+        "Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, Michigan 48109, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Daohan",
+        "short_name": "Jiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, Michigan 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianzhi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, Michigan 48109, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Aug 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/04 06:42",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37662307",
+      "38149460",
+      "18704158",
+      "40740140",
+      "32043966",
+      "20158869",
+      "17914226",
+      "19956545",
+      "18485226",
+      "28251865",
+      "16595861",
+      "41247408",
+      "27567672",
+      "24039567",
+      "24472686",
+      "34174819",
+      "22784574",
+      "24927817",
+      "41536793",
+      "32155318",
+      "17377845",
+      "27871221",
+      "34394179",
+      "33975951",
+      "31001412",
+      "41518500",
+      "33246961",
+      "16362910",
+      "36043696",
+      "21059262",
+      "36374878",
+      "28485207",
+      "28700586",
+      "19293946",
+      "38701417",
+      "27106869",
+      "37682473",
+      "32126279",
+      "22534400",
+      "17530920",
+      "35713985",
+      "24564277",
+      "18627598",
+      "18515262",
+      "27209209",
+      "23527292",
+      "34488759",
+      "27503086",
+      "22672438",
+      "20838582",
+      "22313678",
+      "27357948",
+      "33919522",
+      "24097306",
+      "34486522",
+      "23272209",
+      "16670430",
+      "25245407",
+      "21572512",
+      "34448158",
+      "23522376",
+      "24603674",
+      "28750606",
+      "20363979",
+      "30524473",
+      "21068212",
+      "36082286",
+      "40102719",
+      "16817975",
+      "23504016",
+      "28623591",
+      "12946282",
+      "20172488",
+      "15053842",
+      "36321557",
+      "29617378",
+      "35681170",
+      "29617876",
+      "30447332",
+      "17956628",
+      "25560196",
+      "26285121",
+      "36774380",
+      "18369429",
+      "37214836",
+      "27899623",
+      "40914877",
+      "24386279",
+      "16873495",
+      "21693437",
+      "34503979",
+      "25442502",
+      "36057196",
+      "29990126",
+      "40646689",
+      "22075113",
+      "30517703",
+      "25918418",
+      "27264535",
+      "36155619"
+    ],
+    "review": [
+      "37662307",
+      "33919522",
+      "36321557",
+      "30447332"
+    ],
+    "pmc": [
+      "10473660"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37662307/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37662307",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.08.20.554030",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35891778",
+  "title": "Assessing comparative importance of DNA sequence and epigenetic modifications on gene expression using a deep convolutional neural network.",
+  "authors": "Gao, Shang; Rehman, Jalees; Dai, Yang",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2022-07-28",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度卷积网络整合DNA序列与表观修饰预测mRNA丰度，虽涉及转录调控和TF结合位点富集分析，但核心是基因表达预测而非TF-DNA互作建模，方法可迁移但对象与互作深度有限。",
+  "abstract": "Gene expression is regulated at both transcriptional and post-transcriptional levels. DNA sequence and epigenetic modifications are key factors which regulate gene transcription. Understanding their complex interactions and their respective contributions to gene expression regulation remains a challenge in biological studies. We have developed iSEGnet, a framework of deep convolutional neural network to predict mRNA abundance using the information on DNA sequences as well as epigenetic modifications within genes and their cis-regulatory regions. We demonstrate that our framework outperforms other machine learning models in terms of predicting mRNA abundance using transcriptional and epigenetic profiles from six distinct cell lines/types chosen from the ENCODE. The analysis from the learned models also reveals that specific regions around promotors and transcription termination sites are most important for gene expression regulation. Using the method of Integrated Gradients, we identify narrow segments in these regions which are most likely to impact gene expression for a specific epigenetic modification. We further show that these identified segments are enriched in known active regulatory regions by comparing the transcription factor binding sites obtained via ChIP-seq. Moreover, we demonstrate how iSEGnet can uncover potential transcription factors that have regulatory functions in cancer using two cancer multi-omics data.",
+  "abstract_zh": "基因表达在转录和转录后水平均受到调控。DNA序列和表观遗传修饰是调控基因转录的关键因素。理解它们之间复杂的相互作用及其各自对基因表达调控的贡献，仍是生物学研究中的一项挑战。我们开发了iSEGnet，一个深度卷积神经网络框架，利用基因及其顺式调控区域内的DNA序列信息和表观遗传修饰来预测mRNA丰度。我们证明，在使用来自ENCODE的六个不同细胞系/类型的转录和表观遗传谱时，我们的框架在预测mRNA丰度方面优于其他机器学习模型。对学习模型的分析还揭示，启动子和转录终止位点附近的特定区域对基因表达调控最为重要。利用集成梯度方法，我们识别出这些区域中最可能影响特定表观遗传修饰基因表达的窄片段。通过比较ChIP-seq获得的转录因子结合位点，我们进一步表明这些识别出的片段在已知活性调控区域中富集。此外，我们利用两个癌症多组学数据展示了iSEGnet如何揭示在癌症中具有调控功能的潜在转录因子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35891778/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35891778/",
+  "paper_page_path": "papers/pubmed/35891778/index.html"
+}

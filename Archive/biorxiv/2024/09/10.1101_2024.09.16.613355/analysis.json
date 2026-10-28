@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.16.613355",
+  "title": "Prediction and functional interpretation of inter-chromosomal genome architecture from DNA sequence with TwinC",
+  "authors": "Jha A; Hristov B; Wang X; Wang S; Greenleaf WJ; Kundaje A; Aiden EL; Bertero A; Noble WS",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-21",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用卷积神经网络从DNA序列预测染色体间(trans)染色质互作，虽非TF-DNA结合体系，但涉及蛋白-DNA互作相关基因组结构建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Three-dimensional nuclear DNA architecture comprises well-studied intra-chromosomal ( cis ) folding and less characterized inter-chromosomal ( trans ) interfaces. Current predictive models of 3D genome folding can effectively infer pairwise cis -chromatin interactions from the primary DNA sequence but generally ignore trans contacts. There is an unmet need for robust models of trans -genome organization that provide insights into their underlying principles and functional relevance. We present TwinC, an interpretable convolutional neural network model that reliably predicts trans contacts measurable through proximity ligation-dependent ( in situ and intact Hi-C) and independent (DNA SPRITE) genome-wide chromatin conformation assays.. TwinC uses a paired sequence design from replicate Hi-C experiments to learn single base pair relevance in trans interactions across two stretches of DNA. The method achieves high predictive accuracy (AUROC=0.80) on a cross-chromosomal test set from in situ and intact Hi-C experiments in heart tissue. Furthermore, we train TwinC using in situ Hi-C data from the widely used GM12878 cell line and validate its performance with orthogonal DNA SPRITE assay in the same cell type. Mechanistically, the neural network learns the importance of compartments, chromatin accessibility, clustered transcription factor binding and G-quadruplexes in forming trans contacts. In summary, TwinC models and interprets trans genome architecture, shedding light on this poorly understood aspect of gene regulation.",
+  "abstract_zh": "三维核DNA结构包括研究较为充分的染色体内（cis）折叠以及特征化较少的染色体间（trans）界面。当前的三维基因组折叠预测模型能够有效从初级DNA序列推断成对的cis染色质相互作用，但通常忽略trans接触。对于trans基因组组织的稳健模型存在未满足的需求，这些模型需提供对其潜在原理和功能相关性的见解。我们提出TwinC，一种可解释的卷积神经网络模型，能够可靠预测通过邻近连接依赖性（原位和完整Hi-C）及独立（DNA SPRITE）全基因组染色质构象测定可测量的trans接触。TwinC采用来自重复Hi-C实验的配对序列设计，以学习两条DNA片段间trans相互作用中的单碱基对相关性。该方法在心脏组织原位和完整Hi-C实验的跨染色体测试集上实现了高预测准确性（AUROC=0.80）。此外，我们使用广泛使用的GM12878细胞系的原位Hi-C数据训练TwinC，并通过同一细胞类型中的正交DNA SPRITE测定验证其性能。在机制上，该神经网络学习了区室、染色质可及性、聚集转录因子结合和G-四链体在形成trans接触中的重要性。总之，TwinC建模并解释trans基因组结构，为基因调控的这一理解不足方面提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.16.613355",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.16.613355",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.16.613355/index.html"
+}

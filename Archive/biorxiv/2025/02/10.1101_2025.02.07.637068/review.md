@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that the archaeal SegAB system couples chromosome organization to genome segregation. They report that SegB binds multiple sites across the chromosome, predominantly in the A compartment, forms foci that coalesce, and exhibits both short-range DNA compaction and long-range DNA looping activities in vitro. Deletion of segB or segAB causes growth defects and chromosome segregation errors.
+- **Visible evidence base** Results sections on segAB locus conservation, SegB orthologue structure prediction, ChIP-seq in two Sulfolobales species, fluorescence microscopy of deletion strains, AFM imaging of DNA compaction and looping, and MST binding affinity measurements
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; ChIP-seq data deposited but not accessible in this submission; detailed statistical outputs and raw data tables not included; AFM image quantification details partially described but raw distributions not shown
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental and underexplored question in archaeal biology, namely how chromosome segregation is achieved and coordinated with genome organization. The authors present a compelling combination of genomics, genetics, cell biology, and biochemistry to support a model in which SegB acts as a chromosome-organizing protein that bridges distant loci and compacts DNA, thereby facilitating segregation. The work is timely and will be of interest to the archaeal, bacterial cell cycle, and chromosome biology communities. However, several technical concerns and interpretive gaps need to be addressed before the central claims are fully established. In particular, the in vivo significance of the observed in vitro DNA compaction and looping activities, the mechanistic basis of the segregation defect, and the quantitative rigor of some imaging analyses require further support.
+- **Who would be interested in the results, and why** Researchers studying archaeal cell biology and cell cycle, particularly those focused on Sulfolobales as model systems. The chromosome segregation field more broadly, including those working on bacterial ParAB systems and eukaryotic mitosis, will find the comparative perspective valuable. The identification of a potential link between SegB and membrane tethering may interest those studying spatial organization of the nucleoid. The structural predictions regarding the β-helix domain in larger SegB orthologues will appeal to structural biologists and evolutionary biologists interested in protein domain architecture.
+- **Major strengths** The study combines multiple complementary approaches, from bioinformatics to in vivo genetics to in vitro biochemistry. The identification of a specific DNA-binding motif and its conservation across diverse archaeal genera provides a strong foundation for the model. The ChIP-seq data, while not fully visible here, appear to support a genome-wide role for SegB. The AFM experiments directly demonstrate both short-range and long-range DNA organizing activities, which is mechanistically informative. The genetic deletion experiments in two species strengthen the functional relevance of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for in vivo mechanism
+  - **Claim pointer** The authors claim that SegB's DNA compaction and looping activities are important for chromosome organization and segregation in vivo.
+  - **Evidence pointer** Results sections "SegB binds to multiple sites scattered across the S. solfataricus chromosome" and "SegB mediates DNA loop formation by bridging long-distance sites"; Figures 8 and 9
+  - **Concern** The in vitro AFM experiments demonstrate that SegB can compact DNA and bridge distant sites, but the connection between these activities and the in vivo segregation defect is largely inferential. The authors do not provide direct evidence that the loss of DNA compaction or looping is the cause of the observed aneuploidy and aberrant nucleoid morphology. Alternative explanations, such as a role in replication initiation or sister chromatid resolution, are not experimentally addressed.
+  - **Why it matters** Without a direct mechanistic link, the central claim that SegB couples chromosome organization to segregation remains correlative. The field would benefit from experiments that perturb the DNA-binding or looping activities specifically and assess the impact on segregation.
+  - **Resolution test** Provide evidence that a SegB mutant defective in DNA compaction or looping fails to rescue the ΔsegB phenotype, or show that the timing of SegB focus formation correlates with segregation events in live cells.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of imaging analyses
+  - **Claim pointer** The authors state that SegB forms multiple foci that coalesce into larger patches and that these are biased towards the cell periphery.
+  - **Evidence pointer** Results section "SegA and SegB form diverse structures over the nucleoid"; Figure 7 and Supplementary Figure 10
+  - **Concern** The quantitative analysis of SegB focus number, size, and localization is described only briefly. The manuscript states that "quantitative analysis (n = 1026)" was performed, but the details of how foci were identified, counted, and assigned to radial positions are not provided. The claim of peripheral bias is based on a histogram that is not shown in the text provided. Without clear methodology and representative images with appropriate controls, the robustness of this finding is difficult to assess.
+  - **Why it matters** The subcellular localization pattern is a key piece of evidence for the proposed model. If the peripheral bias is not reproducible or is an artifact of cell shape, the interpretation would need revision.
+  - **Resolution test** Provide a detailed description of the image analysis pipeline, including segmentation parameters, and show representative images with foci overlaid. Include a control analysis using a random distribution to demonstrate that the observed radial distribution is non-random.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability across Sulfolobales
+  - **Claim pointer** The authors suggest that SegB's role in organizing the A compartment is a general feature of Sulfolobales.
+  - **Evidence pointer** Results sections "Conserved patterns in genome-wide distribution of SegB binding motif in diverse archaeal genera" and "SegB sites are enriched in the A compartment"; Figures 4 and 5
+  - **Concern** The ChIP-seq analysis in S. acidocaldarius is presented as supporting the A-compartment enrichment, but the manuscript does not provide a direct comparison of the compartment assignments between S. solfataricus and S. acidocaldarius. The bioinformatic predictions for other genera are based solely on motif searches, without experimental validation. The claim of generalizability may be premature.
+  - **Why it matters** The evolutionary conservation of the SegB mechanism is a notable aspect of the paper. If the A-compartment enrichment is not consistent across species, the model may need to be refined.
+  - **Resolution test** Provide a comparative analysis of ChIP-seq data from both species using the same computational pipeline for compartment assignment. If possible, include experimental validation of SegB binding in at least one additional Sulfolobales species.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of structural predictions
+  - **Affected element** Results section "Larger SegB orthologues contain repeats that fold into a sizeable β-helix structure"
+  - **Evidence pointer** Supplementary Figures 3 and 4
+  - **Issue** The description of the β-helix domain is somewhat brief. The authors mention that the AF2 prediction shows a β-helix in the monomer but not in the dimer, which is an interesting observation that is not discussed further.
+  - **Required correction** Expand the discussion of the structural predictions, particularly the implications of the β-helix being present in the monomer but not the dimer. Clarify whether this is a limitation of the prediction or a biologically meaningful conformational change.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of statistical reporting
+  - **Affected element** Results sections on growth curves and microscopy
+  - **Evidence pointer** Figure 2 and Supplementary Figure 5
+  - **Issue** The growth curve data are described as showing "growth impairment," but no statistical analysis is presented. Similarly, the anucleate cell percentages are given without confidence intervals or tests of significance.
+  - **Required correction** Add statistical tests for growth curve comparisons and provide confidence intervals or error bars for the anucleate cell percentages. State the number of biological replicates and the statistical test used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of MST data
+  - **Affected element** Results section "SegA binds SegB with high affinity"
+  - **Evidence pointer** Supplementary Figure 11
+  - **Issue** The KD of 46 ± 10 nM is reported, but the experimental conditions and the number of replicates are not described. It is also unclear whether this binding affinity is relevant under physiological conditions.
+  - **Required correction** Provide details of the MST experimental setup, including buffer conditions, temperature, and number of replicates. Discuss whether the measured affinity is consistent with the expected cellular concentrations of SegA and SegB.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of direct in vivo evidence linking SegB's biochemical activities to segregation, and the insufficient detail in the imaging analysis, are the main weaknesses. R1-M3 is a secondary concern that affects the breadth of the claims but not the core findings.
+- **Assessment against Nature-style criteria** Originality: High. The study addresses a poorly understood process in archaea and proposes a novel mechanism. Scientific importance: High. Chromosome segregation is fundamental, and the archaeal system may offer insights into the evolution of eukaryotic mechanisms. Interdisciplinary readership: Moderate. The work will appeal primarily to microbiologists and cell biologists, with some interest from structural biologists. Technical soundness: Moderate. The combination of methods is appropriate, but the quantitative rigor of some analyses needs improvement. Readability for nonspecialists: Good. The manuscript is generally well-written and the concepts are explained clearly, though some sections assume familiarity with archaeal biology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the manuscript requires additional experimental evidence and clearer quantitative analysis to fully support the proposed model.
+
+## Risk / unsupported claims
+- The claim that SegB's in vitro DNA compaction and looping activities directly contribute to chromosome segregation in vivo is not directly supported by the presented data.
+- The assertion that SegB sites are enriched in the A compartment in S. acidataricus is based on ChIP-seq data that are not fully described or compared to S. solfataricus.
+- The suggestion that larger SegB orthologues with β-helix domains may have membrane-associated functions is speculative and based on limited structural predictions.
+- The claim that the SegAB system is a general mechanism across Sulfolobales is not fully supported by the data, as only two species were experimentally tested.

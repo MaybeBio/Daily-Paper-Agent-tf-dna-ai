@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Model, Results, Conclusions, Conflicts of Interest, Data availability, Acknowledgements)
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors present a coarse-grained 3D polymer model of chromatin with active and repressive transcription factors (TFs) to study how three distinct silencing feedback mechanisms (positive, negative, neutral) affect transcriptional silencing, TF cluster formation, transcriptional noise, and correlation networks between transcription units. They report that all mechanisms produce a silencing transition, but with distinct signatures in cluster composition, noise profiles, and correlation patterns.
+- **Visible evidence base** Main text figures referenced: Fig. 1 (model schematic), Fig. 2 (cluster structures and sizes), Fig. 3 (transcription activity, noise, kymographs), Fig. 4 (correlation networks). Supplementary figures referenced: S2, S3, S4, S5. Supplementary information (SI) described as containing model details, parameters, and sampling methods.
+- **Missing materials affecting confidence** Supplementary Information (SI) not provided. Supplementary figures S2-S5 not provided. Simulation code and data on Zenodo not accessed. Parameter values, simulation length, system size, and statistical sampling details not available for verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and potentially valuable computational study addressing a relatively under-explored area, namely the biophysical modelling of transcriptional silencing and its coupling to 3D genome organisation. The conceptual framework, distinguishing three silencing feedback mechanisms, is clear and biologically motivated. The results are presented in a logical sequence and the qualitative findings, such as mechanism-dependent cluster composition and noise behaviour, are interesting. However, the manuscript as provided is a full paper with substantial reliance on supplementary material that was not made available for review. This significantly limits the ability to assess technical soundness, parameter choices, and the robustness of the reported findings. The core claims are plausible but currently rest on evidence that is only partially visible. The work is likely to be of interest to the biophysics and gene regulation communities, but the strength of the conclusions cannot be fully evaluated from the provided material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, chromatin organisation, and gene regulation. The work connects transcriptional silencing mechanisms to emergent 3D structures and noise properties, which is relevant to those studying transcription factories, epigenetic regulation, and cell-to-cell variability in gene expression. The modelling framework may also interest theorists developing polymer models of genome function.
+- **Major strengths** The study addresses a genuinely under-studied problem, namely the biophysics of silencing as opposed to activation. The three-mechanism comparison is a clean and instructive design. The link between microscopic interaction rules and emergent properties such as cluster composition, noise, and correlation networks is a strength. The authors are appropriately cautious in framing the model as a simplified toy model and in suggesting experimental tests.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the three silencing mechanisms lead to distinct signatures in TF cluster composition, transcription activity, noise, and correlation networks, and that these are robust findings of the model.
+  - **Evidence pointer** Figures 2, 3, 4; Supplementary Figures S2-S5; Supplementary Information (SI)
+  - **Concern** The central results are presented in the main text, but the quantitative support, including parameter values, simulation protocols, and additional data, is in the SI, which was not provided. Without this material, it is impossible to verify the technical correctness of the simulations, the appropriateness of the parameter choices, the statistical significance of the observed differences between mechanisms, or the convergence of the simulations. The claims of mechanism-specific behaviour rest entirely on this unseen evidence.
+  - **Why it matters** The conclusions are only as strong as the underlying simulations. If the parameters are not well-justified, the sampling is insufficient, or the analysis methods are flawed, the reported differences between mechanisms could be artefacts. The reader cannot assess this from the provided material.
+  - **Resolution test** The authors must provide the SI and supplementary figures for review. The key parameters (e.g., interaction strengths, ps range, τR, simulation length, number of replicates) must be clearly stated and justified. The statistical methods used to compare conditions must be described. Only then can the technical soundness of the study be evaluated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The manuscript states that the "signatures of this transition depend on the choice of the feedback" and that the mechanisms lead to different "network of ensuing correlations between activities of neighbouring transcription units."
+  - **Evidence pointer** Figures 3 and 4; Supplementary Figures S3, S4, S5
+  - **Concern** The main text describes qualitative differences between mechanisms, but the quantitative basis for these claims is not fully presented. For example, the boomerang plots in Fig. 3(C) are described, but the differences in noise between mechanisms are not quantified or statistically tested in the main text. Similarly, the correlation networks in Fig. 4 are shown, but the criteria for calling a correlation "positive" or "negative" and the significance of the network differences are not stated. The reliance on visual inspection of figures without quantitative analysis weakens the support for the claims.
+  - **Why it matters** The paper's main conclusions are about differences between mechanisms. If these differences are not rigorously quantified and tested, the claims are not established. The reader needs to know, for example, whether the noise difference between the negative feedback and other mechanisms is statistically significant and robust across parameter choices.
+  - **Resolution test** The authors should provide quantitative measures of the differences described, including statistical tests where appropriate. For the correlation networks, they should define the threshold for a significant correlation and provide a quantitative comparison of network properties across mechanisms and ps values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The manuscript suggests that the model "may inform future experiments" and that the negative feedback mechanism "may be appropriate to the case of eukaryotic co-repressors containing writers or erasers of epigenetic marks."
+  - **Evidence pointer** Conclusions section
+  - **Concern** The link between the abstract model mechanisms and specific biological systems is speculative. While the authors are appropriately cautious, the biological relevance of the three mechanisms is not critically discussed. For example, how do the model parameters map to known biological rates or concentrations? Are the predicted differences in noise or correlation networks experimentally testable with current techniques? The manuscript would benefit from a more explicit discussion of the model's limitations in capturing biological reality and the specific, falsifiable predictions it makes.
+  - **Why it matters** The value of a toy model lies in its ability to generate hypotheses or explain experimental observations. Without a clearer articulation of the model's biological correspondence and its testable predictions, its impact is limited.
+  - **Resolution test** The authors should add a discussion section that explicitly addresses the mapping of model parameters to biological quantities, the simplifications made, and the specific experimental predictions that could distinguish between the three mechanisms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Model section, Fig. 1
+  - **Issue** The description of the three feedback mechanisms is clear, but the relationship between the model parameters (e.g., ps, τR) and the biological processes they represent could be stated more explicitly.
+  - **Required correction** Add a sentence or two in the Model section or a table in the SI that explicitly maps each model parameter to its biological interpretation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section
+  - **Evidence pointer** Section "Silencing-induced patterns of transcriptional correlations"
+  - **Issue** The phrase "This phenomenon can be see from Fig. 4" contains a typo ("see" should be "seen").
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Model section
+  - **Issue** The manuscript states that "additional details about the model and its implementation, parameter choice and mapping to physical units, and finally the sampling of observables are reported in the SI." This is essential information for reproducibility.
+  - **Required correction** Ensure the SI is complete and accessible. Consider adding a brief summary of key parameters in the main text to aid the reader.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The phrase "the variability in the transcriptional activity of single genes, also known as transcriptional noise, is maximum near the silencing transition for the positive and neutral feedbac" contains a typo ("feedbac" should be "feedback").
+  - **Required correction** Correct the typo.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of access to the SI and supplementary figures, which are essential for verifying the simulations. Without these, the technical soundness of the work cannot be assessed. A secondary issue is the lack of quantitative and statistical analysis in the main text to support the claimed differences between mechanisms.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its focus on modelling silencing mechanisms and their coupling to 3D structure, an area less explored than activation. The three-mechanism comparison is a novel framing.
+  - **Scientific importance** The problem is important, as understanding silencing is crucial for gene regulation. However, the impact is currently limited by the speculative link to biology and the lack of strong, testable predictions.
+  - **Interdisciplinary readership** The work bridges biophysics and molecular biology and should appeal to both communities, though the level of detail may be more accessible to modellers.
+  - **Technical soundness** Cannot be fully assessed due to missing SI. The qualitative results are plausible, but verification is required.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. The use of terms like "color and stick" is helpful. However, some results sections assume familiarity with polymer physics concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the qualitative results are potentially valuable, but the manuscript cannot be accepted in its current form because the essential technical evidence is not available for review and the quantitative support for the main claims is insufficient.
+
+## Risk / unsupported claims
+- The claim that the three mechanisms lead to distinct and robust signatures in cluster composition, noise, and correlation networks is not fully supported by the visible evidence, as it relies on unseen SI data and lacks quantitative analysis in the main text.
+- The suggestion that the negative feedback model is appropriate for eukaryotic co-repressors is speculative and not supported by direct evidence.
+- The claim that the model "provides insights into the biophysics of gene silencing" is a reasonable interpretation but is not yet established as a definitive finding given the missing technical details.

@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "42507931",
+    "doi": "10.1073/pnas.2537431123",
+    "title": "Methionine oxidation alters both helical assembly and disordered contacts in human TDP-43 C-terminal domain phase separation."
+  },
+  "content": {
+    "abstract": "TAR DNA binding protein 43 (TDP-43), a key protein linked to ALS pathology, undergoes phase separation and forms functional assemblies via condensation within cells. The conserved region (CR) within its C-terminal domain (CTD) mediates self-assembly through helix-helix interactions, while the flanking intrinsically disordered regions (IDRs) contribute to phase separation through transient interactions involving aromatic and hydrophobic residues. The CTD contains ten methionine residues distributed equally between these regions, making it particularly susceptible to oxidative modifications. While methionine oxidation is known to impair TDP-43 phase separation, neither the precise mechanism nor the specific contribution of methionines in the CR compared to the IDRs has been determined. Here, we combine NMR spectroscopy and molecular dynamics (MD) simulations to reveal if and how methionine oxidation in each region differentially affects CTD structure and phase separation. To assess the change of secondary structure caused by oxidation, we measured NMR random coil chemical shift values for methionine sulfoxide. Oxidation of CR methionines disrupts helical structure and directly impairs intermolecular helical association, while oxidation of IDR methionines disrupts long-range contacts. Hence, oxidation of methionines in both regions contributes to impaired phase separation, albeit through different mechanisms. These findings establish methionines as critical redox-sensitive modulators in TDP-43 phase behavior and provide molecular insights into how oxidative stress may contribute to TDP-43 dysregulation in neurodegenerative diseases.",
+    "keywords": [
+      "molecular simulation",
+      "phase separation",
+      "protein NMR spectroscopy"
+    ],
+    "mesh_terms": [
+      "*Methionine/metabolism/chemistry",
+      "Phase Separation",
+      "Oxidation-Reduction",
+      "Humans",
+      "*DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Protein Structure, Secondary",
+      "Magnetic Resonance Spectroscopy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ozguney, Busra",
+        "Puterbaugh, Ryan Z",
+        "Viswanathan, Renjith",
+        "Shenoy, Jayakrishna",
+        "Mohanty, Priyesh",
+        "Mittal, Jeetain",
+        "Fawzi, Nicolas L"
+      ],
+      "short_names": [
+        "Ozguney B",
+        "Puterbaugh RZ",
+        "Viswanathan R",
+        "Shenoy J",
+        "Mohanty P",
+        "Mittal J",
+        "Fawzi NL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2025-0149",
+        "ORCID: 0000-0002-6412-8703",
+        "ORCID: 0000-0002-2875-2090",
+        "ORCID: 0000-0003-3919-3527",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-5483-0577"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843. ROR: https://ror.org/01f5ytq51",
+        "Therapeutic Sciences Graduate Program, Brown University, Providence, RI 02912. ROR: https://ror.org/05gq02987",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI 02912. ROR: https://ror.org/05gq02987",
+        "Therapeutic Sciences Graduate Program, Brown University, Providence, RI 02912. ROR: https://ror.org/05gq02987",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI 02912. ROR: https://ror.org/05gq02987",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI 02912. ROR: https://ror.org/05gq02987",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843. ROR: https://ror.org/01f5ytq51",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843. ROR: https://ror.org/01f5ytq51",
+        "Department of Chemistry, Texas A&M University, College Station, TX 77843. ROR: https://ror.org/01f5ytq51",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843. ROR: https://ror.org/01f5ytq51",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI 02912. ROR: https://ror.org/05gq02987"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ozguney, Busra",
+        "short_name": "Ozguney B",
+        "identifiers": [
+          "0000-0003-2025-0149"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Puterbaugh, Ryan Z",
+        "short_name": "Puterbaugh RZ",
+        "identifiers": [
+          "0000-0002-6412-8703"
+        ],
+        "affiliations": [
+          "Therapeutic Sciences Graduate Program, Brown University, Providence, RI 02912.",
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI 02912."
+        ]
+      },
+      {
+        "full_name": "Viswanathan, Renjith",
+        "short_name": "Viswanathan R",
+        "identifiers": [
+          "0000-0002-2875-2090"
+        ],
+        "affiliations": [
+          "Therapeutic Sciences Graduate Program, Brown University, Providence, RI 02912.",
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI 02912."
+        ]
+      },
+      {
+        "full_name": "Shenoy, Jayakrishna",
+        "short_name": "Shenoy J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI 02912."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [
+          "0000-0003-3919-3527"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+          "Department of Chemistry, Texas A&M University, College Station, TX 77843.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI 02912."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Aug 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/27 18:35",
+    "fetched_at": "2026-10-02 02:42:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42507931",
+      "41446138",
+      "37579155",
+      "41298366",
+      "29511089",
+      "39342654",
+      "27545621",
+      "39005345",
+      "38160320",
+      "31911437",
+      "32132204",
+      "36841957",
+      "41169547",
+      "28988034",
+      "37693418",
+      "15996103",
+      "41933903",
+      "41969219",
+      "32824743",
+      "39302099",
+      "38029395",
+      "30243720",
+      "28257838",
+      "38997630",
+      "33577819",
+      "34074792",
+      "37782781",
+      "30982603",
+      "9512014",
+      "33345970",
+      "29438978",
+      "21594273",
+      "38297837",
+      "39248370",
+      "40574713",
+      "26735904",
+      "41871974",
+      "35495061",
+      "29279008",
+      "39380150",
+      "41732904",
+      "20026206",
+      "37961424",
+      "27547920",
+      "38112495",
+      "22995754",
+      "34029402",
+      "34439914",
+      "34179096",
+      "11978495",
+      "41579735",
+      "42106138",
+      "28597880",
+      "37668918",
+      "42389895",
+      "39201466",
+      "41088757",
+      "7490766",
+      "37853696",
+      "38915483",
+      "28507126",
+      "23912807",
+      "23558684",
+      "41433062",
+      "33550613",
+      "38178578",
+      "39426615",
+      "16443380",
+      "36209362",
+      "35112738",
+      "29555476",
+      "41672170",
+      "41854301",
+      "41135683",
+      "11514669",
+      "24475207",
+      "40167418",
+      "30591215",
+      "32007267",
+      "22519542",
+      "40981365",
+      "11292350",
+      "33200826",
+      "23106551",
+      "30802457",
+      "34102212",
+      "40887161",
+      "40557590",
+      "41629626",
+      "38466778",
+      "24418316",
+      "26181576",
+      "40960392",
+      "33417141",
+      "24211251",
+      "36371546",
+      "30814253",
+      "32225071",
+      "22803956",
+      "41910388"
+    ],
+    "review": [
+      "42507931",
+      "38029395",
+      "34439914"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2537431123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

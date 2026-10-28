@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends as provided.
+- **Assessment boundary** The scientific claims, methodology, and interpretation presented in the preprint. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors use homology modeling and docking to predict that the extracellular matrix proteoglycan lumican binds CpG ODN_2395 via leucine-rich repeat (LRR) motifs 1–11, primarily through hydrogen bonds, salt bridges, and hydrophobic interactions, with a smaller buried surface area than the TLR9-CpG ODN_2395 complex, and that collagen type I binding may compete with CpG DNA for the same lumican surface.
+- **Visible evidence base** In silico modeling outputs, including AlphaFold structures, Clustal Omega alignments, APBS electrostatics, HDOCK docking scores, buried surface area calculations, and PLIP interaction analyses, as described in the text and referenced figures and tables.
+- **Missing materials affecting confidence** The actual figures, tables, and supplementary files were not provided. Specific numerical outputs from HDOCK, PLIP, and APBS are referenced but not shown. No experimental validation of the predicted interactions is included.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible in silico model for lumican-CpG DNA interactions, leveraging structural homology with TLR9. The work is timely and could inform future experimental studies on innate immune regulation by matrix proteoglycans. However, the conclusions rest entirely on computational predictions without experimental corroboration, and several methodological details and validations are missing. The claim that lumican mimics TLR9 in CpG DNA binding is suggestive but not firmly established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying innate immunity, particularly TLR9 signaling and its regulation by extracellular matrix components. Investigators interested in proteoglycan functions beyond matrix structure, and those working on computational approaches to protein-nucleic acid interactions, would also find this relevant. The potential implications for autoimmune disease and inflammation could attract translational researchers.
+- **Major strengths** The study addresses a novel question, namely the molecular basis of lumican-CpG DNA binding, which has not been previously modeled. The use of multiple computational tools (AlphaFold, HDOCK, APBS, PLIP) is appropriate and comprehensive. The comparison with TLR9 provides a useful structural context, and the identification of specific LRR motifs and interacting residues offers testable hypotheses for future experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the docking analysis identified 32 amino acids in lumican LRR1–11 interacting with CpG ODN_2395, primarily through hydrogen bonding, salt-bridges, and hydrophobic interactions.
+  - **Evidence pointer** Results section, "Lumican and CpG ODN_2395 interactions involve hydrogen bonding, salt-bridges and hydrophobic interactions"; Tables 1 and 3; location not provided.
+  - **Concern** The interaction analysis relies entirely on the top-ranked HDOCK model, but no validation of the docking pose is provided. The manuscript does not report docking scores, confidence scores, or any assessment of model reliability (e.g., comparison with experimental structures, cross-docking, or molecular dynamics simulations). The absence of such validation makes it impossible to assess whether the predicted interface is physically meaningful or an artifact of the docking algorithm.
+  - **Why it matters** Without validation, the specific residue-level interactions and the inferred binding mode remain speculative. The central claim of the paper, that specific LRR motifs mediate CpG DNA binding, depends on the accuracy of the docking model.
+  - **Resolution test** Provide docking scores and confidence metrics for the top model. Include a comparison with the known TLR9-CpG DNA crystal structure (e.g., RMSD of the TLR9 model to the crystal structure). Perform cross-docking or independent docking with a different algorithm to confirm the binding pose. If possible, run a short molecular dynamics simulation to assess stability of the predicted complex.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "our study provides molecular insights into lumican and CpG-DNA interactions that may lead to molecular targets for modulating TLR9 mediated inflammation and autoimmunity."
+  - **Evidence pointer** Abstract; Discussion; location not provided.
+  - **Concern** The translational relevance is overstated. The study is purely computational, and no experimental evidence is provided to support the claim that the identified residues are functionally important in a biological context. The link between the modeled interactions and inflammation or autoimmunity is speculative and not supported by any functional data.
+  - **Why it matters** The stated significance of the work for therapeutic targeting is a key motivation for the study. Without experimental validation, the claim that these are viable molecular targets is premature and could mislead readers.
+  - **Resolution test** Include experimental data, such as mutagenesis of the predicted hot-spot residues followed by binding assays, or cellular assays showing that lumican variants with altered CpG DNA binding affect TLR9 signaling. At minimum, temper the claims to reflect the computational nature of the study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the docking analysis identified 32 amino acids in lumican LRR1-11 interacting with CpG ODN_2395" and that "the N-terminal LRR2–8 from the N-terminal end forms a binding groove for the 5’ end of CpG ODN_2395."
+  - **Evidence pointer** Results section, "CpG ODN_2395 docking and interaction surfaces on Lumican and TLR9 ECD"; Figures 2A-B; location not provided.
+  - **Concern** The manuscript does not specify the criteria used to define an "interacting residue" beyond a 5.0 Å cutoff. It is unclear whether this cutoff applies to heavy atoms only, and whether water-mediated contacts or van der Waals contacts are included. The distinction between the binding groove for the 5' end and other regions is not quantitatively supported.
+  - **Why it matters** The definition of the interface directly affects the reported number of interacting residues and the interpretation of the binding mode. Lack of clarity on this point undermines the reproducibility of the analysis.
+  - **Resolution test** Clearly state the criteria for defining interacting residues, including the atom types and distance cutoff used. Provide a table or figure showing the per-residue buried surface area to support the claim that LRR2–8 forms a distinct binding groove.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The authors state that "the predicted effects of collagen type I on lumican interactions with CpG ODN_2395" suggest that collagen binding will likely interfere with CpG DNA binding.
+  - **Evidence pointer** Results section, "The predicted effects of collagen type I on lumican interactions with CpG ODN_2395"; Figure 5; location not provided.
+  - **Concern** The collagen competition analysis is based on overlap of binding sites, but no docking or binding simulation of collagen to lumican is presented. The claim that collagen binding will "likely interfere" is inferred from residue overlap, which is a weak basis for such a conclusion. The functional relevance of this competition in a cellular or tissue context is not discussed.
+  - **Why it matters** This is a novel and potentially interesting hypothesis, but as presented, it is not supported by direct evidence. Overstating this finding could mislead readers interested in matrix biology.
+  - **Resolution test** Perform docking of a collagen peptide to lumican to test for steric clash with the CpG DNA binding site. Alternatively, present this as a speculative hypothesis and clearly label it as such.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction; location not provided.
+  - **Issue** The introduction assumes familiarity with SLRP biology and TLR signaling. A brief explanation of why lumican's role in immunity is significant for a broader audience would improve accessibility.
+  - **Required correction** Add one or two sentences explaining the broader context of innate immune regulation and why matrix proteins like lumican are relevant beyond their structural roles.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Docking prediction"
+  - **Evidence pointer** Materials and Methods; location not provided.
+  - **Issue** The description of HDOCK settings is incomplete. The manuscript states "The docking prediction was conducted with the following settings" but the settings are not listed in the provided text.
+  - **Required correction** Provide the full list of HDOCK parameters used, including any constraints, search space, and scoring function options.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "3D modeling of lumican and LRR motif-carrying domains in Lumican and TLR9"
+  - **Evidence pointer** Results; location not provided.
+  - **Issue** The pLDDT score and PAE values are mentioned, but the specific values for the lumican model are not reported. The statement "yielded a high per residue confidence metric... of more than 90%" is vague.
+  - **Required correction** Report the mean pLDDT and the range of PAE values for the lumican model, and indicate which regions, if any, have lower confidence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Lumican and CpG ODN_2395 interactions involve hydrogen bonding, salt-bridges and hydrophobic interactions"
+  - **Evidence pointer** Results; location not provided.
+  - **Issue** The text describes specific interactions (e.g., "Glu257 and Asp189 form salt bridges with the G3 and G6 purine bases") but does not provide a clear summary of the overall binding mode for readers unfamiliar with structural biology.
+  - **Required correction** Add a brief summary sentence describing the overall architecture of the lumican-CpG DNA complex, such as which LRR regions contact the 5' versus 3' ends.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (docking validation), R1-M2 (overstated significance), R1-M3 (interface definition), R1-M4 (collagen competition evidence).
+- **Assessment against Nature-style criteria** Originality: The question of lumican-CpG DNA binding at a molecular level is novel and not previously addressed. Scientific importance: The potential role of lumican in modulating TLR9 signaling is of interest, but the current evidence is purely computational and does not establish biological relevance. Interdisciplinary readership: The work bridges matrix biology and innate immunity, which could appeal to a broad audience, but the technical presentation may limit accessibility. Technical soundness: The computational pipeline is reasonable but lacks critical validation steps, and several methodological details are missing. Readability for nonspecialists: The manuscript is generally clear but assumes familiarity with structural biology and immunology; some sections could be more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The computational model is a useful starting point, but the lack of experimental validation and incomplete methodological reporting prevent the conclusions from being firmly supported. The authors should address the major concerns, particularly docking validation and tempering of claims, before the case is established.
+
+## Risk / unsupported claims
+- The claim that lumican's binding to CpG DNA is functionally relevant for suppressing TLR9 signaling in vivo is not supported by any experimental data in this manuscript.
+- The prediction that collagen type I binding will interfere with CpG DNA binding to lumican is speculative and not directly tested.
+- The statement that the identified residues "may lead to molecular targets" is an overreach given the purely computational nature of the study.
+- The assertion that the lumican model has high confidence is not fully supported, as specific pLDDT and PAE values are not reported.

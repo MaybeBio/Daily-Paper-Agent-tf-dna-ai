@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "42140912",
+    "doi": "10.1038/s41467-026-72837-3",
+    "title": "PromoterAtlas: decoding regulatory sequences across Gammaproteobacteria using a transformer model."
+  },
+  "content": {
+    "abstract": "Recent advances in deep learning, particularly transformer architectures, have improved computational approaches for biological sequence analysis. Despite these advances, computational models for bacterial promoter prediction have remained limited by small datasets, species-specific training, and binary classification approaches rather than comprehensive annotation frameworks. We present PromoterAtlas, a 1.8 M parameter transformer model trained on 9 M regulatory sequences from 3371 gammaproteobacterial species. The model demonstrates recognition of various regulatory elements across different species, including ribosomal binding sites, various types of bacterial promoters, transcription factor binding sites, and terminators. Using this model, we developed a whole-genome promoter annotation tool for Gammaproteobacteria, with various levels of validation that support the predictions of promoters associated with different sigma (sigma) factors. Furthermore, we show that the model embeddings reflect cross-species evolutionary relationships, clustering promoters by sigma factor identity rather than species-specific sequence features. Finally, we show that model embeddings encode regulatory sequence information that enables effective prediction of transcription and translation levels. PromoterAtlas can contribute to our understanding of and ability to engineer bacterial regulatory sequences with potential applications in bacterial biology, synthetic biology, and comparative genomics.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Promoter Regions, Genetic/genetics",
+      "*Gammaproteobacteria/genetics",
+      "Genome, Bacterial",
+      "Binding Sites",
+      "Sigma Factor/metabolism/genetics",
+      "*Computational Biology/methods",
+      "Gene Expression Regulation, Bacterial",
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "Bacterial Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Coppens, Lucas",
+        "Ledesma-Amaro, Rodrigo"
+      ],
+      "short_names": [
+        "Coppens L",
+        "Ledesma-Amaro R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2873-0369",
+        "ORCID: 0000-0003-2631-5898"
+      ],
+      "affiliations": [
+        "London Biofoundry, Translation and Innovation Hub, Imperial College White City Campus, London, UK. l.coppens20@imperial.ac.uk.",
+        "Department of Infectious Disease, Imperial College London, London, UK. l.coppens20@imperial.ac.uk.",
+        "Department of Bioengineering, Imperial College London, London, UK. l.coppens20@imperial.ac.uk.",
+        "Department of Bioengineering, Imperial College London, London, UK. r.ledesma-amaro@imperial.ac.uk.",
+        "Bezos Centre for Sustainable Protein, Imperial College London, London, UK. r.ledesma-amaro@imperial.ac.uk.",
+        "UKRI Engineering Biology Mission Hub on Microbial Food, Imperial College London, London, UK. r.ledesma-amaro@imperial.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Coppens, Lucas",
+        "short_name": "Coppens L",
+        "identifiers": [
+          "0000-0002-2873-0369"
+        ],
+        "affiliations": [
+          "London Biofoundry, Translation and Innovation Hub, Imperial College White City Campus, London, UK. l.coppens20@imperial.ac.uk.",
+          "Department of Infectious Disease, Imperial College London, London, UK. l.coppens20@imperial.ac.uk.",
+          "Department of Bioengineering, Imperial College London, London, UK. l.coppens20@imperial.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Ledesma-Amaro, Rodrigo",
+        "short_name": "Ledesma-Amaro R",
+        "identifiers": [
+          "0000-0003-2631-5898"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Imperial College London, London, UK. r.ledesma-amaro@imperial.ac.uk.",
+          "Bezos Centre for Sustainable Protein, Imperial College London, London, UK. r.ledesma-amaro@imperial.ac.uk.",
+          "UKRI Engineering Biology Mission Hub on Microbial Food, Imperial College London, London, UK. r.ledesma-amaro@imperial.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 May 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/16 00:37",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [
+      "42331836"
+    ],
+    "refs": [
+      "41781614",
+      "39781509",
+      "39609566",
+      "39541441",
+      "38969627",
+      "38282738",
+      "37971353",
+      "36927031",
+      "36147675",
+      "36116322",
+      "36099980",
+      "36056029",
+      "35021193",
+      "34608324",
+      "33834200",
+      "33436562",
+      "32962628",
+      "32843538",
+      "32661437",
+      "32484956",
+      "29892645",
+      "29388765",
+      "28402413",
+      "28158264",
+      "26131973",
+      "25361964",
+      "24461193",
+      "23924614",
+      "22747501",
+      "15066853",
+      "10856246",
+      "7889935"
+    ],
+    "similar": [
+      "42140912",
+      "42475469",
+      "19715597",
+      "40903908",
+      "17439543",
+      "40767619",
+      "20661307",
+      "39781509",
+      "25803493",
+      "17096598",
+      "18703385",
+      "30457214",
+      "8458849",
+      "24890414",
+      "27567672",
+      "19426448",
+      "22369687",
+      "18723027",
+      "23675447",
+      "19838305",
+      "23080252",
+      "11866510",
+      "15723697",
+      "33988977",
+      "21827769",
+      "18192397",
+      "29476659",
+      "15972018",
+      "8905154",
+      "11073916",
+      "35043622",
+      "10715205",
+      "17014972",
+      "34787538",
+      "26675057",
+      "23028780",
+      "24603758",
+      "19084590",
+      "10610760",
+      "28251873",
+      "8483412",
+      "15608293",
+      "11139607",
+      "7494477",
+      "25299042",
+      "28256660",
+      "23875654",
+      "34031412",
+      "40239990",
+      "27137497",
+      "41283681",
+      "41920894",
+      "39096613",
+      "25765714",
+      "17651493",
+      "11535782",
+      "27557772",
+      "26555820",
+      "41801512",
+      "15927055",
+      "9512707",
+      "12082130",
+      "17184904",
+      "10692351",
+      "22943411",
+      "8636992",
+      "14529615",
+      "24428729",
+      "29049320",
+      "29914988",
+      "1542693",
+      "11258194",
+      "16236313",
+      "26880300",
+      "15292136",
+      "24837290",
+      "17055433",
+      "14641574",
+      "9344746",
+      "16817975",
+      "29702640",
+      "16497325",
+      "10891265",
+      "24042128",
+      "23497287",
+      "33259518",
+      "35080492",
+      "29855387",
+      "19228590",
+      "18586710",
+      "7559357",
+      "29045849",
+      "34047648",
+      "21573101",
+      "16207904",
+      "21696456",
+      "11251833",
+      "18787707",
+      "17158685",
+      "8458846"
+    ],
+    "review": [
+      "42140912",
+      "23080252",
+      "28256660"
+    ],
+    "pmc": [
+      "13377108"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-72837-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42140912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

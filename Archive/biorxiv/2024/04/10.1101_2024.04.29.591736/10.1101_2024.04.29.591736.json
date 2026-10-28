@@ -1,0 +1,656 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.29.591736",
+  "title": "Developmental Dynamics of Human Cardiogenesis: A multi-omic reference and its disruption in Trisomy 21",
+  "doi": "10.1101/2024.04.29.591736",
+  "abstract": "Developmental dynamics involve the specification of diverse cell types and their spatial organization into multicellular niches. Here, we combine single-cell and spatial multiomics to define 19 distinct tissue niches in the developing heart, leading to the development of a context-aware, resolution-agnostic niche classification tool ( TissueTypist ). Applying high-resolution spatial profiling to the developing sinoatrial node, we resolve three pacemaker cell subtypes arrayed along a linear axis. First trimester subpopulations, such as the pacemaker cells in the sinus horn and sinoatrial node head region, display neuro-attractant programmes and interact with parasympathetic neurons via interactions including Semaphorin-Plexin signalling. Temporal trajectories map maturation of atrial and ventricular cardiomyocytes, uncovering a lipid-metabolic switch and potential key regulators of cell type identity. In the ventricle, we identify cellular and transcriptional gradients along both pseudotime and transmural axes, offering new molecular insights into myocardial compaction and maturation. Comparative profiling of euploid and trisomy 21 hearts shows a depletion of compact cardiomyocytes and heightened apoptosis, validated in isogenic-matched trisomy 21 and euploid iPSC-derived cardiomyocytes. This implicates disrupted myocardial growth may be a mechanism for Down’s syndrome-associated congenital heart disease. Overall, we deliver a spatially resolved framework of human cardiac development, enabling systematic exploration of developmental niches in health and disease.",
+  "authors": [
+    "Cranley J",
+    "Kanemaru K",
+    "Bayraktar S",
+    "Knight-Schrijver V",
+    "Hulbert R",
+    "Hulbert R",
+    "Lana-Elola E",
+    "Aoidi R",
+    "Pett JP",
+    "Wilbrey-Clark A",
+    "Polanski K",
+    "Dabrowska M",
+    "Mulas I",
+    "Johnson H",
+    "Richardson L",
+    "Semprich CI",
+    "Kapuge R",
+    "Perera S",
+    "He X",
+    "Ho SY",
+    "Yayon N",
+    "Tuck L",
+    "Roberts K",
+    "Palmer JA",
+    "Davaapil H",
+    "Gambardella L",
+    "Patel M",
+    "Tyser R",
+    "Bernardo AS",
+    "Tybulewicz VLJ",
+    "Sinha S",
+    "Teichmann SA"
+  ],
+  "published_date": "2024-04-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.29.591736",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.29.591736.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR845923",
+    "raw_record": {
+      "id": "PPR845923",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR845923"
+        ]
+      },
+      "doi": "10.1101/2024.04.29.591736",
+      "title": "Developmental Dynamics of Human Cardiogenesis: A multi-omic reference and its disruption in Trisomy 21",
+      "authorString": "Cranley J, Kanemaru K, Bayraktar S, Knight-Schrijver V, Hulbert R, Hulbert R, Lana-Elola E, Aoidi R, Pett JP, Wilbrey-Clark A, Polanski K, Dabrowska M, Mulas I, Johnson H, Richardson L, Semprich CI, Kapuge R, Perera S, He X, Ho SY, Yayon N, Tuck L, Roberts K, Palmer JA, Davaapil H, Gambardella L, Patel M, Tyser R, Bernardo AS, Tybulewicz VLJ, Sinha S, Teichmann SA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cranley J",
+            "lastName": "Cranley",
+            "firstName": "James",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0408-5801"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kanemaru K",
+            "lastName": "Kanemaru",
+            "firstName": "Kazumasa",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0018-8966"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bayraktar S",
+            "lastName": "Bayraktar",
+            "firstName": "Semih",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9549-7117"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knight-Schrijver V",
+            "lastName": "Knight-Schrijver",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7916-3827"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hulbert R",
+            "lastName": "Hulbert",
+            "firstName": "Rebecca",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5249-444X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hulbert R",
+            "lastName": "Hulbert",
+            "firstName": "Rebecca",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-7852-8268"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lana-Elola E",
+            "lastName": "Lana-Elola",
+            "firstName": "Eva",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3351-5820"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aoidi R",
+            "lastName": "Aoidi",
+            "firstName": "Rifdat",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0617-0284"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pett JP",
+            "lastName": "Pett",
+            "firstName": "Jan Patrick",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilbrey-Clark A",
+            "lastName": "Wilbrey-Clark",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polanski K",
+            "lastName": "Polanski",
+            "firstName": "Krzysztof",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2586-9576"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dabrowska M",
+            "lastName": "Dabrowska",
+            "firstName": "Monika",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mulas I",
+            "lastName": "Mulas",
+            "firstName": "Ilaria",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8021-2078"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnson H",
+            "lastName": "Johnson",
+            "firstName": "Harriet",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "John van Geest Centre for Brain Repair, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richardson L",
+            "lastName": "Richardson",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiac Morphology Unit, and ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Semprich CI",
+            "lastName": "Semprich",
+            "firstName": "Claudia",
+            "initials": "CI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kapuge R",
+            "lastName": "Kapuge",
+            "firstName": "Rakeshlal",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perera S",
+            "lastName": "Perera",
+            "firstName": "Shani",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "He X",
+            "lastName": "He",
+            "firstName": "Xiaoling",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ho SY",
+            "lastName": "Ho",
+            "firstName": "Siew Yen",
+            "initials": "SY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yayon N",
+            "lastName": "Yayon",
+            "firstName": "Nadav",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5771-1565"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tuck L",
+            "lastName": "Tuck",
+            "firstName": "Liz",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roberts K",
+            "lastName": "Roberts",
+            "firstName": "Kenny",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palmer JA",
+            "lastName": "Palmer",
+            "firstName": "Jack",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davaapil H",
+            "lastName": "Davaapil",
+            "firstName": "Hongorzul",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, , Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": "Department of Physics, Cavendish Laboratory, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gambardella L",
+            "lastName": "Gambardella",
+            "firstName": "Laure",
+            "initials": "L"
+          },
+          {
+            "fullName": "Patel M",
+            "lastName": "Patel",
+            "firstName": "Minal",
+            "initials": "M"
+          },
+          {
+            "fullName": "Tyser R",
+            "lastName": "Tyser",
+            "firstName": "Richard",
+            "initials": "R"
+          },
+          {
+            "fullName": "Bernardo AS",
+            "lastName": "Bernardo",
+            "firstName": "Andreia Sofia",
+            "initials": "AS"
+          },
+          {
+            "fullName": "Tybulewicz VLJ",
+            "lastName": "Tybulewicz",
+            "firstName": "Victor",
+            "initials": "VLJ"
+          },
+          {
+            "fullName": "Sinha S",
+            "lastName": "Sinha",
+            "firstName": "Sanjay",
+            "initials": "S"
+          },
+          {
+            "fullName": "Teichmann SA",
+            "lastName": "Teichmann",
+            "firstName": "Sarah",
+            "initials": "SA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6294-6366"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5771-1565"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8021-2078"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9549-7117"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0408-5801"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0617-0284"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2586-9576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5249-444X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6294-6366"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7916-3827"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0018-8966"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3351-5820"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-7852-8268"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Developmental dynamics involve the specification of diverse cell types and their spatial organization into multicellular niches. Here, we combine single-cell and spatial multiomics to define 19 distinct tissue niches in the developing heart, leading to the development of a context-aware, resolution-agnostic niche classification tool (  TissueTypist ). Applying high-resolution spatial profiling to the developing sinoatrial node, we resolve three pacemaker cell subtypes arrayed along a linear axis. First trimester subpopulations, such as the pacemaker cells in the sinus horn and sinoatrial node head region, display neuro-attractant programmes and interact with parasympathetic neurons via interactions including Semaphorin-Plexin signalling. Temporal trajectories map maturation of atrial and ventricular cardiomyocytes, uncovering a lipid-metabolic switch and potential key regulators of cell type identity. In the ventricle, we identify cellular and transcriptional gradients along both pseudotime and transmural axes, offering new molecular insights into myocardial compaction and maturation. Comparative profiling of euploid and trisomy 21 hearts shows a depletion of compact cardiomyocytes and heightened apoptosis, validated in isogenic-matched trisomy 21 and euploid iPSC-derived cardiomyocytes. This implicates disrupted myocardial growth may be a mechanism for Down’s syndrome-associated congenital heart disease. Overall, we deliver a spatially resolved framework of human cardiac development, enabling systematic exploration of developmental niches in health and disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "PG/17/24/32886",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "203151/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT206194",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "FS/18/46/33663",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RG/17/5/32936",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RM/17/2/33380",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.29.591736"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR845923"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR845923&type=FILE&fileName=EMS195884-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 7,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195884",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-05-02",
+      "firstPublicationDate": "2024-04-29",
+      "firstIndexDate": "2024-05-02",
+      "fullTextReceivedDate": "2024-08-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

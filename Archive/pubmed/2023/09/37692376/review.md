@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, conclusions, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of findings as presented in the manuscript; no assessment of formatting or editorial style beyond readability
+- **Shared manuscript claim summary** The authors report that culturing mesenchymal stem cells (MSCs) in a 3D photopolymerized microscaffold (the Nichoid) reduces actin cytoskeletal tension transmitted to the nucleus, leading to a rounder nuclear shape, altered nuclear envelope permeability for transcription factors, more homogeneous euchromatin distribution, a less structured lamin A/C mesh, and widespread gene expression changes compared to cells cultured on flat glass coverslips. The authors propose that reduced intracellular force transmission is the primary mechanism driving these differences.
+- **Visible evidence base** Immunofluorescence imaging of actin, lamin A/C, phospho-lamin A/C, H3K4me3; nuclear morphometry; single-molecule tracking of HaloTag and HaloTag-MyoD; RNA-seq with differential expression and pathway enrichment; Western blot; molecular dynamics simulations of lamin A/C coiled-coil domain
+- **Missing materials affecting confidence** Supplementary figures and tables referenced in the text (Table 1, Table 2, Table 3, Figs. 1–6) were not provided; raw RNA-seq data and full differential expression lists not provided; details of MD simulation parameters and convergence criteria partially provided but not fully reproducible; no information on cell viability or proliferation under different culture conditions; no data on substrate stiffness measurements for the Nichoid versus glass
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and ambitious investigation into how 3D scaffold architecture influences mechanotransduction pathways in MSCs, with a particular focus on nuclear mechanics and gene regulation. The authors combine multiple experimental techniques with computational modeling to build a mechanistic narrative. The work is potentially of interest to the mechanobiology and stem cell engineering communities. However, several major concerns limit the strength of the conclusions as currently presented. The causal chain from scaffold geometry to actin organization to nuclear shape to permeability to chromatin organization to gene expression is plausible but not fully established with the data shown. Key technical limitations, such as the inability to perform single-molecule tracking in the Nichoid, the lack of direct force measurements, and the absence of functional validation of the differentially expressed genes, weaken the central claims. The MD simulations, while interesting, are not sufficiently connected to the experimental observations to support the damping hypothesis as strongly as stated. The manuscript would benefit from additional experiments or more cautious interpretation of the existing data.
+- **Who would be interested in the results, and why** Researchers in mechanobiology, particularly those studying nuclear mechanics and mechanotransduction; stem cell biologists interested in niche engineering and maintaining stemness during expansion; bioengineers developing 3D scaffolds for cell culture and regenerative medicine; computational biologists studying chromatin organization and gene regulation. The work bridges biophysics, cell biology, and biomaterials, making it relevant to a broad interdisciplinary audience.
+- **Major strengths** The study addresses an important and timely question about how 3D culture environments influence nuclear mechanics and gene regulation. The combination of experimental and computational approaches is commendable. The use of the Nichoid as a well-defined 3D culture system with controlled geometry is a strength. The inclusion of cytochalasin-D as a pharmacological control to mimic reduced tension is a thoughtful experimental design. The RNA-seq analysis provides a genome-wide view of transcriptional changes, and the pathway analysis is informative. The MD simulations of lamin A/C provide a molecular-level perspective that complements the cellular-level observations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that nuclear envelope permeability is affected by nuclear shape, specifically that facilitated transport of transcription factors increases with decreasing radius of curvature (i.e., higher curvature increases permeability).
+  - **Evidence pointer** Results section "Nuclear envelope permeability is affected by nuclear shape"; Fig. 3(b)
+  - **Concern** The single-molecule tracking analysis was performed only on cells spread on flat substrates, as the authors acknowledge that the HILO setup requires very short working distances. The relationship between nuclear curvature and permeability is therefore established only for flat-cultured cells, not for cells in the Nichoid. The authors extrapolate this relationship to the Nichoid condition based on the measured curvature distribution, but this extrapolation is not directly validated. The claim that the Nichoid's rounder nuclei lead to altered permeability is therefore inferred rather than demonstrated.
+  - **Why it matters** The permeability claim is a central link in the mechanistic chain connecting scaffold geometry to gene regulation. If this link is not directly measured in the Nichoid, the causal narrative is weakened. The authors need to either provide direct measurements in the Nichoid or temper the claim to reflect the indirect nature of the evidence.
+  - **Resolution test** Provide direct measurements of nuclear permeability in cells cultured in the Nichoid, or clearly state that the permeability findings are based on flat-cultured cells and that the relationship to the Nichoid is inferred from curvature distributions. Alternatively, use an alternative imaging approach that can work in the 3D scaffold.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the less structured lamin A/C mesh in the Nichoid corresponds to reduced damping ability, and that this is supported by MD simulations showing higher viscosity with increasing structural complexity.
+  - **Evidence pointer** Results section "Cells in Nichoid are characterized by low structured lamina mesh"; Fig. 6
+  - **Concern** The MD simulations were performed on isolated lamin A/C coiled-coil domain 1b (CC1b) in monomer, dimer, and tetramer arrangements. The authors report Young's modulus of 0.23 GPa and viscosity values of 0.06, 0.094, and 0.12 GPa·s for monomer, dimer, and tetramer, respectively. However, the connection between these in silico results on a single domain and the experimentally observed lamin A/C mesh organization in cells is tenuous. The experimental observations are at the cellular scale, while the simulations are at the molecular scale. The authors do not provide a clear multiscale model linking the two. Furthermore, the Young's modulus value of 0.23 GPa reported in the results differs from the 0.6 GPa mentioned in the discussion, creating an internal inconsistency.
+  - **Why it matters** The MD simulations are presented as supporting evidence for the damping hypothesis, but the scale mismatch and internal inconsistency undermine their contribution. The authors need to clarify how molecular-scale properties of a single domain translate to cellular-scale mesh behavior, and reconcile the reported modulus values.
+  - **Resolution test** Provide a clear multiscale framework connecting molecular-scale simulations to cellular-scale observations, or present the MD results as preliminary and speculative. Reconcile the discrepancy in Young's modulus values between results and discussion sections.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the gene expression changes observed in the Nichoid are related to the mechanotransduction pathway and that the Nichoid maintains MSC stemness.
+  - **Evidence pointer** Results section "The Nichoid induces a homogeneous euchromatin distribution and affects gene regulation"; Fig. 4
+  - **Concern** The RNA-seq analysis identified 1843 differentially expressed genes between Nichoid and Flat conditions, but the manuscript does not provide a clear functional interpretation of these changes. The authors focus on a small set of mechanotransduction-related genes and pathways but do not demonstrate that the observed gene expression changes are causally linked to the mechanical environment rather than to other differences between the culture conditions (e.g., differences in cell density, nutrient diffusion, or surface chemistry). The claim that the Nichoid maintains stemness is based on previous publications, but the current data do not directly assess stemness markers or differentiation potential.
+  - **Why it matters** The gene expression analysis is a major component of the manuscript, but without functional validation or a clear link to the mechanical mechanism, the significance of the 1843 differentially expressed genes is unclear. The authors need to either provide functional validation (e.g., differentiation assays, stemness marker analysis) or narrow their claims to what the data directly support.
+  - **Resolution test** Provide functional validation of the gene expression changes, such as differentiation assays or analysis of stemness marker expression. Alternatively, clearly state that the gene expression changes are descriptive and that the functional consequences are not yet established.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the cytochalasin-D treatment serves as a control for reduced intracellular tension and that the effects observed in the Nichoid are similar to those induced by CD treatment.
+  - **Evidence pointer** Results sections on actin organization, nuclear shape, lamin organization; Figs. 1, 3, 5
+  - **Concern** The manuscript reports that CD treatment has no significant effect on cells cultured in the Nichoid, but the data supporting this claim are not shown in the main text. The authors state "data not shown" for the actin organization in the Nichoid with CD treatment. This is a critical control that is not fully presented. Additionally, the CD treatment is used as a proxy for reduced tension, but CD also has other effects on cells beyond reducing actin tension, such as affecting cell adhesion and signaling pathways. The authors do not fully address these potential confounding effects.
+  - **Why it matters** The CD control is central to the argument that reduced tension is the mechanism driving the observed effects. If the CD data are not fully presented, the strength of this argument is diminished. The authors need to provide the full data for the CD controls in the Nichoid and address potential off-target effects of CD.
+  - **Resolution test** Provide the full data for CD-treated cells in the Nichoid condition, and discuss potential off-target effects of CD treatment. Alternatively, use a more specific approach to reduce actin tension, such as genetic knockdown of actin regulators.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the MD simulations show that the tetramer arrangement has higher viscosity and thus higher damping ability, supporting the experimental observation that the less structured lamin mesh in the Nichoid has reduced damping.
+  - **Evidence pointer** Results section "Lamin A/C organization in complex structure corresponds to higher dampen ability"; Fig. 6
+  - **Concern** The MD simulations were performed with a constant force of 140 pN applied to the C-terminal residues. The choice of this force value is not justified, and it is unclear whether this force is physiologically relevant. Additionally, the simulations were performed on a single domain (CC1b) rather than on the full lamin filament or mesh, which limits the relevance to the experimental observations. The authors do not discuss the limitations of this approach.
+  - **Why it matters** The MD simulations are a key component of the damping hypothesis, but the physiological relevance of the simulation parameters is not established. The authors need to justify the choice of force and discuss the limitations of using a single domain to represent the entire lamin mesh.
+  - **Resolution test** Justify the choice of force value and discuss the limitations of the simulation approach. Alternatively, perform simulations on larger lamin assemblies or use experimentally measured forces.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical terms without sufficient context for a general reader. The phrase "nucleo/cytoskeletal protein organization" is awkward and could be simplified.
+  - **Required correction** Revise the abstract to improve readability for a broader audience. Consider simplifying the title and abstract language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Statistical analysis
+  - **Evidence pointer** Methods section "Statistical analysis"
+  - **Issue** The statistical methods are described briefly. The authors state that non-parametric tests were used but do not specify which comparisons were made with which tests, or how multiple comparisons were handled in the imaging analyses.
+  - **Required correction** Provide more detail on the statistical tests used for each comparison, including how multiple comparisons were addressed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 3(c)
+  - **Evidence pointer** Results section "Nuclear envelope permeability is affected by nuclear shape"; Fig. 3(c)
+  - **Issue** The authors report that the nuclear level of two transcription factors (PPAR-g and C-Myc) decreases in the Nichoid and with CD treatment, but the quantification method is not fully described. It is unclear whether the measurements were normalized to cell volume or nuclear volume.
+  - **Required correction** Clarify the quantification method for transcription factor nuclear levels, including normalization procedures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 5(c)
+  - **Evidence pointer** Results section "Cells in Nichoid are characterized by low structured lamina mesh"; Fig. 5(c)
+  - **Issue** The Western blot analysis shows expression levels of lamin A/C, phospho-lamin A/C, and lamin B1, but the loading controls are not shown in the figure description. The authors should confirm that equal protein loading was verified.
+  - **Required correction** Include loading control information in the figure legend or methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods section "Lamin A/C and phospho-lamin A/C computational analysis"
+  - **Issue** The MD simulation methods are described but some parameters are missing, such as the specific CHARMM force field version, the water model used, and the temperature coupling method.
+  - **Required correction** Provide complete simulation parameters to ensure reproducibility.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is lengthy and somewhat repetitive, with several points restated from the results. The connection between the MD simulations and the experimental observations could be more clearly articulated.
+  - **Required correction** Streamline the discussion and more clearly articulate the multiscale connection between simulations and experiments.
+
+## Risk / unsupported claims
+- The claim that nuclear envelope permeability is affected by nuclear shape in the Nichoid is not directly supported by measurements in the Nichoid; the single-molecule tracking was only performed on flat-cultured cells.
+- The claim that the less structured lamin mesh in the Nichoid corresponds to reduced damping ability is based on an indirect connection between cellular-scale imaging and molecular-scale MD simulations, with no direct measurement of damping or mechanical properties of the nucleus in the Nichoid.
+- The claim that the gene expression changes are related to mechanotransduction is based on pathway enrichment but lacks functional validation.
+- The claim that the Nichoid maintains MSC stemness is referenced from previous publications but not directly assessed in this study.
+- The statement that the Nichoid is non-deformable under cellular forces is based on finite element simulations described as "data not shown," which cannot be evaluated.
+- The claim that CD treatment has no significant effect on cells in the Nichoid is stated but the data are not shown.

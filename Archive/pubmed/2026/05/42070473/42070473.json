@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "42070473",
+    "doi": "10.1016/j.jmgm.2026.109423",
+    "title": "Integrative network pharmacology and molecular simulations reveal the Anti-DKD potential of Pedalium murex phytocompounds via TNF-alpha and NF-kappaB inhibition."
+  },
+  "content": {
+    "abstract": "Diabetic kidney disease (DKD) is a major contributor to chronic kidney failure and is closely associated with inflammatory pathways, particularly those involving TNF-alpha and NF-kappaB. In this study, phytocompounds from Pedalium murex were computationally assessed for their potential therapeutic roles in DKD using a multi-step in silico pipeline. 29 phytochemicals were initially retrieved from the IMPPAT database, and eight were shortlisted based on ADME and toxicity profiling. Target prediction using SwissTargetPrediction and STITCH identified 267 compound-associated genes with 160 overlapping DKD-related genes obtained from the GeneCards and OMIM databases (n = 4904). Protein-protein interaction (PPI) analysis using STRING and Cytoscape revealed NF-kappaB and TNF-alpha as key hub genes, which were further validated through functional enrichment and KEGG pathway analysis, highlighting the AGE-RAGE signalling pathway in diabetic complications. Structural validation using QMEANDisCo, Ramachandran plots, and ProSA confirmed the reliability of the protein target. Molecular docking predicted energetically favourable binding confirmations of Episesamin (-5.52 kcal/mol for TNF-alpha and -6.5 kcal/mol for NF-kappaB) and Sesamolin (-5.75 kcal/mol for TNF-alpha and -6.99 kcal/mol for NF-kappaB) compared to the control drug, Dapagliflozin (-5.39 kcal/mol for TNF-alpha and -5.16 kcal/mol for NF-kappaB). MDS over 200 ns demonstrated stable interactions of the ligands with the protein targets through RMSD, RMSF, Rg, SASA, H-bond, PCA, FEL, and MM-PBSA analyses. Sesamolin exhibited superior binding to NF-kappaB, whereas Episesamin showed a stronger affinity for TNF-alpha. These findings suggest that P. murex-derived compounds, particularly Episesamin and Sesamolin, emerge as computationally prioritized candidates for further experimental validation in DKD-associated inflammatory pathways.",
+    "keywords": [
+      "Diabetic kidney disease",
+      "Inflammation",
+      "Molecular docking and simulation",
+      "Network pharmacology",
+      "Pedalium murex"
+    ],
+    "mesh_terms": [
+      "*Tumor Necrosis Factor-alpha/antagonists & inhibitors/chemistry/metabolism",
+      "*NF-kappa B/antagonists & inhibitors/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "*Network Pharmacology",
+      "Protein Interaction Maps/drug effects",
+      "Humans",
+      "*Phytochemicals/chemistry/pharmacology",
+      "*Diabetic Nephropathies/drug therapy/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Das, Soumik",
+        "Rajeswari V, Devi"
+      ],
+      "short_names": [
+        "Das S",
+        "Rajeswari V D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bio-Medical Sciences, School of Biosciences and Technology, Vellore Institute of Technology (VIT), Vellore, Tamil Nadu, 632014, India.",
+        "Department of Bio-Medical Sciences, School of Biosciences and Technology, Vellore Institute of Technology (VIT), Vellore, Tamil Nadu, 632014, India. Electronic address: vdevirajeswari@vit.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Das, Soumik",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bio-Medical Sciences, School of Biosciences and Technology, Vellore Institute of Technology (VIT), Vellore, Tamil Nadu, 632014, India."
+        ]
+      },
+      {
+        "full_name": "Rajeswari V, Devi",
+        "short_name": "Rajeswari V D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bio-Medical Sciences, School of Biosciences and Technology, Vellore Institute of Technology (VIT), Vellore, Tamil Nadu, 632014, India. Electronic address: vdevirajeswari@vit.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 00:31",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42070473",
+      "40151083",
+      "41814794",
+      "38115276",
+      "41316260",
+      "41534756",
+      "40330488",
+      "41795298",
+      "40858660",
+      "41150817",
+      "38914662",
+      "39222242",
+      "39923458",
+      "41655547",
+      "41346967",
+      "40543694",
+      "41593181",
+      "41330962",
+      "41176935",
+      "33444723",
+      "39354758",
+      "41329217",
+      "39135520",
+      "40129159",
+      "41489113",
+      "39238373",
+      "38851471",
+      "39251712",
+      "39075002",
+      "40634934",
+      "41825171",
+      "39987179",
+      "41492010",
+      "40708520",
+      "38696100",
+      "35365440",
+      "39344977",
+      "41786520",
+      "41731839",
+      "41617993",
+      "36386135",
+      "38919088",
+      "41553445",
+      "40526272",
+      "39488873",
+      "41387993",
+      "41082993",
+      "37306420",
+      "40013962",
+      "39099827",
+      "36280016",
+      "38707616",
+      "41831743",
+      "34234411",
+      "39938176",
+      "40816715",
+      "40840920",
+      "38169205",
+      "40426157",
+      "41814740",
+      "41448498",
+      "39910087",
+      "41083062",
+      "39701711",
+      "38621947",
+      "41444316",
+      "40260672",
+      "40624153",
+      "36875720",
+      "35851128",
+      "38822913",
+      "35622496",
+      "41213440",
+      "41489701",
+      "37382018",
+      "39740397",
+      "41265260",
+      "41418734",
+      "41203698",
+      "40907771",
+      "40682227",
+      "42004947",
+      "38588987",
+      "41202169",
+      "40414576",
+      "40973399",
+      "40728954",
+      "40721767",
+      "40865347",
+      "39410900",
+      "40995593",
+      "39093467",
+      "41031039",
+      "42197115",
+      "40273561",
+      "37480968",
+      "39490433",
+      "38379386",
+      "41814772",
+      "41305757"
+    ],
+    "review": [
+      "42070473",
+      "40708520"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(26)00149-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

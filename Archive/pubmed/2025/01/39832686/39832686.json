@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "39832686",
+    "doi": "10.1016/j.phrs.2025.107617",
+    "title": "AlphaFold-based AI docking reveals AMPK/SIRT1-TFEB pathway modulation by traditional Chinese medicine in metabolic-associated fatty liver disease."
+  },
+  "content": {
+    "abstract": "Metabolic-associated fatty liver disease (MAFLD) is a chronic, progressive disorder characterized by hepatic steatosis and excessive lipid accumulation. Its high global adult prevalence (approximately 50.7 %) is a significant concern worldwide. However, FDA-approved therapeutic drugs remains lacking. Qigui Jiangzhi Formula (QGJZF) shows promise in treating MAFLD by effectively decreasing lipid levels and improving hepatic steatosis, however its mechanisms remain unclear. This study investigated QGJZF's effects in high-fat diet-induced zebrafish and golden hamsters, and in palmitate (PA) and oleic acid (OA) - induced HepG2 cells, using the SymMap database to identify potential targets and pathways of QGJZF in MAFLD and AlphaFold algorithms to predict protein structures. In vivo, QGJZF significantly alleviated hepatic lipid deposition. Intriguingly, QGJZF decreased lipid droplets and its levels are negative correlated with the numbers of autolysosomes, indicating that QGJZF's mechanism of ameliorating liver lipid deposition may be related to the regulation of autophagy. QGJZF upregulated the expressions of phosphorylated -Adenosine 5'-monophosphate (AMP) - activated protein kinase (p-AMPK), Sirtuin deacetylase 1 (SIRT1) and Transcription factor EB (TFEB), accompanied by the changes in autophagy-related proteins. In vitro, QGJZF inhibited the lipid deposition in PA/OA-stimulated HepG2 cells, and its effect was blocked by an autophagy inhibitor Baf-A1, which was mediated through upregulation of TFEB and its mediated autophagy-lysosomal pathway. Moreover, cotreatment with AMPK inhibitor Compound C, the regulation of QGJZF on TFEB, SIRT1, autophagy-related protein levels, and lipid deposition were reversed. Network pharmacology identified the PRKAA2 (AMPK) and SIRT1 as key hub targets. Futher analysis of their structures using AlphaFold3 algorithms, yielded high-ranking scores of 0.97 and 0.93, respectively. Liquid chromatography-mass spectrometry combined with molecular docking expounded its five compounds in QGJZF binding to AMPK protein. These findings suggest that QGJZF as a therapeutic agent in augmenting autophagy-facilitated lipid clearance for the management of MAFLD via AMPK/SIRT1-TFEB axis.",
+    "keywords": [
+      "AMPK/SIRT1-TFEB",
+      "AlphaFold",
+      "Autophagy",
+      "MAFLD",
+      "Qigui Jiangzhi Formula"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sirtuin 1/metabolism",
+      "Animals",
+      "*Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/metabolism",
+      "Hep G2 Cells",
+      "*AMP-Activated Protein Kinases/metabolism",
+      "Zebrafish",
+      "Molecular Docking Simulation",
+      "Signal Transduction/drug effects",
+      "Liver/drug effects/pathology/metabolism/enzymology",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Male",
+      "Medicine, Chinese Traditional",
+      "*Fatty Liver/drug therapy/metabolism",
+      "Autophagy/drug effects",
+      "Lipid Metabolism/drug effects",
+      "Diet, High-Fat"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Lulu",
+        "Zheng, Yi",
+        "Shao, Mingyan",
+        "Chen, Aiping",
+        "Liu, Meiyi",
+        "Sun, Wenlong",
+        "Li, Tianxing",
+        "Fang, Yini",
+        "Dong, Yang",
+        "Zhao, Shipeng",
+        "Luo, Hui",
+        "Feng, Juan",
+        "Wang, Qi",
+        "Li, Lingru",
+        "Zheng, Yanfei"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Zheng Y",
+        "Shao M",
+        "Chen A",
+        "Liu M",
+        "Sun W",
+        "Li T",
+        "Fang Y",
+        "Dong Y",
+        "Zhao S",
+        "Luo H",
+        "Feng J",
+        "Wang Q",
+        "Li L",
+        "Zheng Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China; Shanxi University of Chinese Medicine, Jinzhong, Shanxi 030619, China.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China; School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China; School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "Institute of Biomedical Research, School of Life Sciences and Medicine, Shandong University of Technology, Zibo 255000, China.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "Monitoning and Statistical Research Center, National Administration of Traditional Chinese Medicine, Beijing 100600, China.",
+        "Graduate School of China Academy of Chinese Medical Sciences, China Academy of Chinese Medical Sciences, Beijing 100700, China.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "College of Health Science and Environmental Engineering, Shenzhen Technology University, Shenzhen 518118, China. Electronic address: fengjuan@sztu.edu.cn.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China. Electronic address: wangqi710@126.com.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China. Electronic address: lilr@bucm.edu.cn.",
+        "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China. Electronic address: zhengyanfei@bucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Lulu",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China; Shanxi University of Chinese Medicine, Jinzhong, Shanxi 030619, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yi",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China; School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Mingyan",
+        "short_name": "Shao M",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Aiping",
+        "short_name": "Chen A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Meiyi",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China; School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Wenlong",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Research, School of Life Sciences and Medicine, Shandong University of Technology, Zibo 255000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tianxing",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Yini",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yang",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Monitoning and Statistical Research Center, National Administration of Traditional Chinese Medicine, Beijing 100600, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shipeng",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of China Academy of Chinese Medical Sciences, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Hui",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Juan",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Health Science and Environmental Engineering, Shenzhen Technology University, Shenzhen 518118, China. Electronic address: fengjuan@sztu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Qi",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China. Electronic address: wangqi710@126.com."
+        ]
+      },
+      {
+        "full_name": "Li, Lingru",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China. Electronic address: lilr@bucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yanfei",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of TCM Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing 100029, China. Electronic address: zhengyanfei@bucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmacological research"
+    ],
+    "journal_abbrev": [
+      "Pharmacol Res"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/21 09:01",
+    "fetched_at": "2026-10-05 02:29:20"
+  },
+  "links": {
+    "cites": [
+      "42714849",
+      "42706380",
+      "42568389",
+      "42535626",
+      "42510715",
+      "42434122",
+      "42394938",
+      "42330767",
+      "42278089",
+      "42250161",
+      "42051351",
+      "42022554",
+      "41976162",
+      "41792600",
+      "41659991",
+      "41573724",
+      "41137064",
+      "41114481",
+      "40799364",
+      "40732361",
+      "40192057"
+    ],
+    "refs": [],
+    "similar": [
+      "39832686",
+      "37808345",
+      "30142454",
+      "31697646",
+      "32884949",
+      "28534819",
+      "25484077",
+      "36870291",
+      "28933629",
+      "33984335",
+      "39746502",
+      "39137653",
+      "39637931",
+      "39216775",
+      "39991675",
+      "34601002",
+      "39680632",
+      "31520816",
+      "39273677",
+      "30154382",
+      "34311531",
+      "39035827",
+      "39479173",
+      "39885382",
+      "31195981",
+      "33001454",
+      "39454991",
+      "38669300",
+      "36879478",
+      "28941686",
+      "38517018",
+      "28449683",
+      "39680356",
+      "31105592",
+      "29558683",
+      "31387185",
+      "31558861",
+      "37562090",
+      "31906014",
+      "39837063",
+      "25943029",
+      "29574225",
+      "36835095",
+      "39388920",
+      "35280674",
+      "37418974",
+      "39406018",
+      "34224699",
+      "33037751",
+      "31832001",
+      "39342780",
+      "31569635",
+      "37209153",
+      "40015656",
+      "30864262",
+      "32726654",
+      "37984123",
+      "39643124",
+      "36083487",
+      "35945571",
+      "40118333",
+      "38588984",
+      "36724639",
+      "38184503",
+      "25605057",
+      "39892308",
+      "24486702",
+      "40064115",
+      "34817332",
+      "24735863",
+      "39551284",
+      "25510732",
+      "33734022",
+      "37044149",
+      "40180019",
+      "35405150",
+      "40195661",
+      "29940154",
+      "23948064",
+      "22456698",
+      "27208776",
+      "38761896",
+      "39929631",
+      "40058092",
+      "36296933",
+      "39936600",
+      "25737164",
+      "33639613",
+      "33476712",
+      "31256424",
+      "31083505",
+      "37741512",
+      "30734689",
+      "39847202",
+      "38147735",
+      "28533555",
+      "31430456",
+      "39278309",
+      "39117022",
+      "31253430"
+    ],
+    "review": [
+      "39832686"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1043-6618(25)00042-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://www.ovid.com/39832686.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

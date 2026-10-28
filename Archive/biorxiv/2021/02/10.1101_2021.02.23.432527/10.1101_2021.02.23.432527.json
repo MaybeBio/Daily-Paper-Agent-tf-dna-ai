@@ -1,0 +1,325 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.02.23.432527",
+  "title": "PredictProtein – Predicting Protein Structure and Function for 29 Years",
+  "doi": "10.1101/2021.02.23.432527",
+  "abstract": "Since 1992 PredictProtein ( https://predictprotein.org ) is a one-stop online resource for protein sequence analysis with its main site hosted at the Luxembourg Centre for Systems Biomedicine (LCSB) and queried monthly by over 3,000 users in 2020. PredictProtein was the first Internet server for protein predictions. It pioneered combining evolutionary information and machine learning. Given a protein sequence as input, the server outputs multiple sequence alignments, predictions of protein structure in 1D and 2D (secondary structure, solvent accessibility, transmembrane segments, disordered regions, protein flexibility, and disulfide bridges) and predictions of protein function (functional effects of sequence variation or point mutations, Gene Ontology (GO) terms, subcellular localization, and protein-, RNA-, and DNA binding). PredictProtein’s infrastructure has moved to the LCSB increasing throughput; the use of MMseqs2 sequence search reduced runtime five-fold; user interface elements improved usability, and new prediction methods were added. PredictProtein recently included predictions from deep learning embeddings (GO and secondary structure) and a method for the prediction of proteins and residues binding DNA, RNA, or other proteins. PredictProtein.org aspires to provide reliable predictions to computational and experimental biologists alike. All scripts and methods are freely available for offline execution in high-throughput settings. <h4>Availability</h4> Freely accessible webserver PredictProtein.org ; Source and docker images: github.com/rostlab",
+  "authors": [
+    "Bernhofer M",
+    "Dallago C",
+    "Karl T",
+    "Satagopam V",
+    "Heinzinger M",
+    "Littmann M",
+    "Olenyi T",
+    "Qiu J",
+    "Schütze K",
+    "Yachdav G",
+    "Ashkenazy H",
+    "Ben-Tal N",
+    "Bromberg Y",
+    "Goldberg T",
+    "Kajan L",
+    "O’Donoghue S",
+    "Sander C",
+    "Schafferhans A",
+    "Schlessinger A",
+    "Vriend G",
+    "Mirdita M",
+    "Gawron P",
+    "Gu W",
+    "Jarosz Y",
+    "Trefois C",
+    "Steinegger M",
+    "Schneider R",
+    "Rost B"
+  ],
+  "published_date": "2021-02-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.02.23.432527",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.02.23.432527.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR287855",
+    "raw_record": {
+      "id": "PPR287855",
+      "source": "PPR",
+      "doi": "10.1101/2021.02.23.432527",
+      "title": "PredictProtein – Predicting Protein Structure and Function for 29 Years",
+      "authorString": "Bernhofer M, Dallago C, Karl T, Satagopam V, Heinzinger M, Littmann M, Olenyi T, Qiu J, Schütze K, Yachdav G, Ashkenazy H, Ben-Tal N, Bromberg Y, Goldberg T, Kajan L, O’Donoghue S, Sander C, Schafferhans A, Schlessinger A, Vriend G, Mirdita M, Gawron P, Gu W, Jarosz Y, Trefois C, Steinegger M, Schneider R, Rost B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bernhofer M",
+            "lastName": "Bernhofer",
+            "firstName": "Michael",
+            "initials": "M"
+          },
+          {
+            "fullName": "Dallago C",
+            "lastName": "Dallago",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4650-6181"
+            }
+          },
+          {
+            "fullName": "Karl T",
+            "lastName": "Karl",
+            "firstName": "Tim",
+            "initials": "T"
+          },
+          {
+            "fullName": "Satagopam V",
+            "lastName": "Satagopam",
+            "firstName": "Venkata",
+            "initials": "V"
+          },
+          {
+            "fullName": "Heinzinger M",
+            "lastName": "Heinzinger",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9601-3580"
+            }
+          },
+          {
+            "fullName": "Littmann M",
+            "lastName": "Littmann",
+            "firstName": "Maria",
+            "initials": "M"
+          },
+          {
+            "fullName": "Olenyi T",
+            "lastName": "Olenyi",
+            "firstName": "Tobias",
+            "initials": "T"
+          },
+          {
+            "fullName": "Qiu J",
+            "lastName": "Qiu",
+            "firstName": "Jiajun",
+            "initials": "J"
+          },
+          {
+            "fullName": "Schütze K",
+            "lastName": "Schütze",
+            "firstName": "Konstantin",
+            "initials": "K"
+          },
+          {
+            "fullName": "Yachdav G",
+            "lastName": "Yachdav",
+            "firstName": "Guy",
+            "initials": "G"
+          },
+          {
+            "fullName": "Ashkenazy H",
+            "lastName": "Ashkenazy",
+            "firstName": "Haim",
+            "initials": "H"
+          },
+          {
+            "fullName": "Ben-Tal N",
+            "lastName": "Ben-Tal",
+            "firstName": "Nir",
+            "initials": "N"
+          },
+          {
+            "fullName": "Bromberg Y",
+            "lastName": "Bromberg",
+            "firstName": "Yana",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8351-0844"
+            }
+          },
+          {
+            "fullName": "Goldberg T",
+            "lastName": "Goldberg",
+            "firstName": "Tatyana",
+            "initials": "T"
+          },
+          {
+            "fullName": "Kajan L",
+            "lastName": "Kajan",
+            "firstName": "Laszlo",
+            "initials": "L"
+          },
+          {
+            "fullName": "O’Donoghue S",
+            "lastName": "O’Donoghue",
+            "firstName": "Sean",
+            "initials": "S"
+          },
+          {
+            "fullName": "Sander C",
+            "lastName": "Sander",
+            "firstName": "Chris",
+            "initials": "C"
+          },
+          {
+            "fullName": "Schafferhans A",
+            "lastName": "Schafferhans",
+            "firstName": "Andrea",
+            "initials": "A"
+          },
+          {
+            "fullName": "Schlessinger A",
+            "lastName": "Schlessinger",
+            "firstName": "Avner",
+            "initials": "A"
+          },
+          {
+            "fullName": "Vriend G",
+            "lastName": "Vriend",
+            "firstName": "Gerrit",
+            "initials": "G"
+          },
+          {
+            "fullName": "Mirdita M",
+            "lastName": "Mirdita",
+            "firstName": "Milot",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8637-6719"
+            }
+          },
+          {
+            "fullName": "Gawron P",
+            "lastName": "Gawron",
+            "firstName": "Piotr",
+            "initials": "P"
+          },
+          {
+            "fullName": "Gu W",
+            "lastName": "Gu",
+            "firstName": "Wei",
+            "initials": "W"
+          },
+          {
+            "fullName": "Jarosz Y",
+            "lastName": "Jarosz",
+            "firstName": "Yohan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Trefois C",
+            "lastName": "Trefois",
+            "firstName": "Christophe",
+            "initials": "C"
+          },
+          {
+            "fullName": "Steinegger M",
+            "lastName": "Steinegger",
+            "firstName": "Martin",
+            "initials": "M"
+          },
+          {
+            "fullName": "Schneider R",
+            "lastName": "Schneider",
+            "firstName": "Reinhard",
+            "initials": "R"
+          },
+          {
+            "fullName": "Rost B",
+            "lastName": "Rost",
+            "firstName": "Burkhard",
+            "initials": "B"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8637-6719"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3957-412X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8351-0844"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9601-3580"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4650-6181"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Since 1992  PredictProtein (  https://predictprotein.org ) is a one-stop online resource for protein sequence analysis with its main site hosted at the Luxembourg Centre for Systems Biomedicine (LCSB) and queried monthly by over 3,000 users in 2020.  PredictProtein was the first Internet server for protein predictions. It pioneered combining evolutionary information and machine learning. Given a protein sequence as input, the server outputs multiple sequence alignments, predictions of protein structure in 1D and 2D (secondary structure, solvent accessibility, transmembrane segments, disordered regions, protein flexibility, and disulfide bridges) and predictions of protein function (functional effects of sequence variation or point mutations, Gene Ontology (GO) terms, subcellular localization, and protein-, RNA-, and DNA binding). PredictProtein’s infrastructure has moved to the LCSB increasing throughput; the use of MMseqs2 sequence search reduced runtime five-fold; user interface elements improved usability, and new prediction methods were added. PredictProtein recently included predictions from deep learning embeddings (GO and secondary structure) and a method for the prediction of proteins and residues binding DNA, RNA, or other proteins. PredictProtein.org aspires to provide reliable predictions to computational and experimental biologists alike. All scripts and methods are freely available for offline execution in high-throughput settings.  <h4>Availability</h4>  Freely accessible webserver PredictProtein.org ; Source and docker images:  github.com/rostlab",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/24/2021.02.23.432527.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.02.23.432527"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-02-25",
+      "firstPublicationDate": "2021-02-24",
+      "firstIndexDate": "2021-02-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38853998",
+  "title": "Transfer learning reveals sequence determinants of the quantitative response to transcription factor dosage.",
+  "authors": "Naqvi, Sahin; Kim, Seungsoo; Tabatabaee, Saman; Pampari, Anusri; Kundaje, Anshul; Pritchard, Jonathan K; Wysocka, Joanna",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-06-10",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 7,
+  "one_liner_zh": "用迁移学习预测TF剂量对染色质可及性的定量影响，结合生物物理模型解释低亲和力基序的致敏效应，聚焦TF-DNA结合序列决定因素，但核心是染色质响应而非直接互作建模。",
+  "abstract": "Deep learning approaches have made significant advances in predicting cell type-specific chromatin patterns from the identity and arrangement of transcription factor (TF) binding motifs. However, most models have been applied in unperturbed contexts, precluding a predictive understanding of how chromatin state responds to TF perturbation. Here, we used transfer learning to train and interpret deep learning models that use DNA sequence to predict, with accuracy approaching experimental reproducibility, how the concentration of two dosage-sensitive TFs (TWIST1, SOX9) affects regulatory element (RE) chromatin accessibility in facial progenitor cells. High-affinity motifs that allow for heterotypic TF co-binding and are concentrated at the center of REs buffer against quantitative changes in TF dosage and strongly predict unperturbed accessibility. In contrast, motifs with low-affinity or homotypic binding distributed throughout REs lead to sensitive responses with minimal contributions to unperturbed accessibility. Both buffering and sensitizing features show signatures of purifying selection. We validated these predictive sequence features using reporter assays and showed that a biophysical model of TF-nucleosome competition can explain the sensitizing effect of low-affinity motifs. Our approach of combining transfer learning and quantitative measurements of the chromatin response to TF dosage therefore represents a powerful method to reveal additional layers of the cis-regulatory code.",
+  "abstract_zh": "深度学习方法在预测细胞类型特异性染色质模式方面取得了显著进展，这些模式基于转录因子（TF）结合基序的身份和排列。然而，大多数模型应用于未受干扰的背景下，阻碍了对染色质状态如何响应TF扰动进行预测性理解。在此，我们使用迁移学习来训练和解释深度学习模型，这些模型利用DNA序列预测两种剂量敏感TF（TWIST1、SOX9）的浓度如何影响面部祖细胞中调控元件（RE）的染色质可及性，其准确性接近实验可重复性。允许异型TF共结合且集中于RE中心的高亲和力基序，能缓冲TF剂量的定量变化，并强烈预测未受干扰的可及性。相反，分布于整个RE的低亲和力或同型结合基序导致敏感响应，对未受干扰的可及性贡献极小。缓冲和敏感特征均显示出纯化选择的迹象。我们使用报告基因实验验证了这些预测性序列特征，并表明TF-核小体竞争的生物物理模型可以解释低亲和力基序的敏感效应。因此，我们结合迁移学习和染色质对TF剂量响应的定量测量的方法，代表了一种揭示顺式调控代码额外层次的强大手段。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38853998/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38853998/",
+  "paper_page_path": "papers/pubmed/38853998/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40519652",
+  "title": "Neur-Ally: a deep learning model for regulatory variant prediction based on genomic and epigenomic features in brain and its validation in certain neurological disorders.",
+  "authors": "Prakash, Anil; Banerjee, Moinak",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2025-06-16",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发深度学习模型Neur-Ally，基于DNA序列预测脑组织中的染色质可及性、组蛋白修饰和转录因子结合等调控特征，并用于神经疾病调控SNP的效应预测，属于广义蛋白-DNA互作（TF结合）的AI预测应用，但未聚焦TF-DNA结合机制建模，方法可迁移至本课题。",
+  "abstract": "Large-scale quantitative studies have identified significant genetic associations for various neurological disorders. Expression quantitative trait locus (eQTL) studies have shown the effect of single-nucleotide polymorphisms (SNPs) on the differential expression of genes in brain tissues. However, a large majority of the associations are contributed by SNPs in the noncoding regions that can have significant regulatory function but are often ignored. Besides, mutations that are in high linkage disequilibrium with actual regulatory SNPs will also show significant associations. Therefore, it is important to differentiate a regulatory noncoding SNP with a nonregulatory one. To resolve this, we developed a deep learning model named Neur-Ally, which was trained on epigenomic datasets from nervous tissue and cell line samples. The model predicts differential occurrence of regulatory features like chromatin accessibility, histone modifications, and transcription factor binding on genomic regions using DNA sequence as input. The model was used to predict the regulatory effect of neurological condition-specific noncoding SNPs using in silico mutagenesis. The effect of associated SNPs reported in genome-wide association studies of neurological condition, brain eQTLs, autism spectrum disorder, and reported probable regulatory SNPs in neurological conditions were predicted by Neur-Ally.",
+  "abstract_zh": "大规模定量研究已识别出多种神经系统疾病的重要遗传关联。表达数量性状位点（eQTL）研究显示，单核苷酸多态性（SNPs）对脑组织中基因的差异表达有影响。然而，绝大多数关联由非编码区域中的SNPs贡献，这些SNPs可能具有显著的调控功能，但常被忽视。此外，与实际调控性SNPs处于高度连锁不平衡的突变也会表现出显著关联。因此，区分调控性非编码SNP与非调控性SNP至关重要。为解决这一问题，我们开发了一种名为Neur-Ally的深度学习模型，该模型基于神经组织和细胞系样本的表观基因组数据集进行训练。该模型以DNA序列为输入，预测基因组区域上染色质可及性、组蛋白修饰和转录因子结合等调控特征的差异出现。该模型被用于通过计算机模拟突变预测神经系统疾病特异性非编码SNPs的调控效应。Neur-Ally预测了神经系统疾病全基因组关联研究、脑eQTLs、自闭症谱系障碍中报告的关联SNPs，以及神经系统疾病中可能具有调控作用的SNPs的效应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40519652/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40519652/",
+  "paper_page_path": "papers/pubmed/40519652/index.html"
+}

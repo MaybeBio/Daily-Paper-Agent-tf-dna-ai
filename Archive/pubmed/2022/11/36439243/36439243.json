@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "36439243",
+    "doi": "10.3389/fphys.2022.1051544",
+    "title": "Streamlined single-molecule RNA-FISH of core clock mRNAs in clock neurons in whole mount Drosophila brains."
+  },
+  "content": {
+    "abstract": "Circadian clocks are  approximately 24-h timekeepers that control rhythms in almost all aspects of our behavior and physiology. While it is well known that subcellular localization of core clock proteins plays a critical role in circadian regulation, very little is known about the spatiotemporal organization of core clock mRNAs and its role in generating  approximately 24-h circadian rhythms. Here we describe a streamlined single molecule Fluorescence In Situ Hybridization (smFISH) protocol and a fully automated analysis pipeline to precisely quantify the number and subcellular location of mRNAs of Clock, a core circadian transcription factor, in individual clock neurons in whole mount Drosophila adult brains. Specifically, we used  approximately 48 fluorescent oligonucleotide probes that can bind to an individual Clock mRNA molecule, which can then be detected as a diffraction-limited spot. Further, we developed a machine learning-based approach for 3-D cell segmentation, based on a pretrained encoder-decoder convolutional neural network, to automatically identify the cytoplasm and nuclei of clock neurons. We combined our segmentation model with a spot counting algorithm to detect Clock mRNA spots in individual clock neurons. Our results demonstrate that the number of Clock mRNA molecules cycle in large ventral lateral clock neurons (lLNvs) with peak levels at ZT4 (4 h after lights are turned on) with  approximately 80 molecules/neuron and trough levels at ZT16 with  approximately 30 molecules/neuron. Our streamlined smFISH protocol and deep learning-based analysis pipeline can be employed to quantify the number and subcellular location of any mRNA in individual clock neurons in Drosophila brains. Further, this method can open mechanistic and functional studies into how spatiotemporal localization of clock mRNAs affect circadian rhythms.",
+    "keywords": [
+      "Drosophila clock neurons",
+      "circadian rhythms",
+      "machine learning-based analysis pipeline",
+      "single molecule RNA-fluorescence in situ hybridization (smFISH)",
+      "spatiotemporal organization of clock mRNAs"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Ye",
+        "Padilla, Marc-Antonio",
+        "Clark, Dunham",
+        "Yadlapalli, Swathi"
+      ],
+      "short_names": [
+        "Yuan Y",
+        "Padilla MA",
+        "Clark D",
+        "Yadlapalli S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cellular and Molecular Biology Program, University of Michigan, Ann Arbor, MI, United States.",
+        "Neuroscience Graduate Program, University of Michigan, Ann Arbor, MI, United States.",
+        "Cell and Developmental Biology Department, University of Michigan, Ann Arbor, MI, United States.",
+        "Cellular and Molecular Biology Program, University of Michigan, Ann Arbor, MI, United States.",
+        "Neuroscience Graduate Program, University of Michigan, Ann Arbor, MI, United States.",
+        "Cell and Developmental Biology Department, University of Michigan, Ann Arbor, MI, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Ye",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Biology Program, University of Michigan, Ann Arbor, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Padilla, Marc-Antonio",
+        "short_name": "Padilla MA",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Graduate Program, University of Michigan, Ann Arbor, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Clark, Dunham",
+        "short_name": "Clark D",
+        "identifiers": [],
+        "affiliations": [
+          "Cell and Developmental Biology Department, University of Michigan, Ann Arbor, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Yadlapalli, Swathi",
+        "short_name": "Yadlapalli S",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Biology Program, University of Michigan, Ann Arbor, MI, United States.",
+          "Neuroscience Graduate Program, University of Michigan, Ann Arbor, MI, United States.",
+          "Cell and Developmental Biology Department, University of Michigan, Ann Arbor, MI, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in physiology"
+    ],
+    "journal_abbrev": [
+      "Front Physiol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/29 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [
+      "41676619",
+      "41279210",
+      "39415010",
+      "38805552"
+    ],
+    "refs": [
+      "36126370",
+      "35881801",
+      "35020875",
+      "34234015",
+      "34035898",
+      "33438579",
+      "31768006",
+      "29466329",
+      "29133588",
+      "29131164",
+      "28965817",
+      "28594816",
+      "28360128",
+      "26321255",
+      "25981041",
+      "25349387",
+      "25127213",
+      "22763747",
+      "21606367",
+      "21240280",
+      "20947768",
+      "20513764",
+      "19874792",
+      "19755581",
+      "18806792",
+      "18423206",
+      "18211849",
+      "12581523",
+      "12546820",
+      "12122057",
+      "9845370",
+      "9554849",
+      "8128246",
+      "8128244",
+      "7857645",
+      "5002428",
+      "3698103",
+      "2105471"
+    ],
+    "similar": [
+      "36439243",
+      "34234015",
+      "36126370",
+      "27030770",
+      "30803307",
+      "35881801",
+      "28360128",
+      "28592698",
+      "35766361",
+      "18986214",
+      "12975658",
+      "27974202",
+      "27581451",
+      "39066485",
+      "18562620",
+      "29075180",
+      "31612994",
+      "15084278",
+      "39432537",
+      "40386580",
+      "12593455",
+      "33438579",
+      "34056966",
+      "30373768",
+      "31091556",
+      "27489346",
+      "33641476",
+      "37166654",
+      "33765072",
+      "32348679",
+      "30819799",
+      "35610439",
+      "30994046",
+      "38805552",
+      "20624977",
+      "29103936",
+      "37292867",
+      "28594816",
+      "22479474",
+      "27856350",
+      "31856635",
+      "41150714",
+      "12646138",
+      "34547954",
+      "41451986",
+      "34826343",
+      "16766660",
+      "29174887",
+      "31693685",
+      "20153192",
+      "24872414",
+      "24707054",
+      "29130196",
+      "39082442",
+      "17344391",
+      "20396905",
+      "36066193",
+      "36786215",
+      "28182648",
+      "15817303",
+      "27756446",
+      "25403440",
+      "31613223",
+      "30246807",
+      "37914396",
+      "28651965",
+      "26041931",
+      "28072817",
+      "25766673",
+      "29424420",
+      "32158910",
+      "34799448",
+      "35709899",
+      "19755582",
+      "41509244",
+      "30059181",
+      "28134281",
+      "18208549",
+      "28503020",
+      "22632728",
+      "19966839",
+      "37645872",
+      "24643294",
+      "38485259",
+      "19052319",
+      "22940468",
+      "29443100",
+      "35188462",
+      "30071403",
+      "16603675",
+      "11407780",
+      "38502476",
+      "41256420",
+      "23189207",
+      "34532531",
+      "25504089",
+      "22736465",
+      "31389290",
+      "25662465",
+      "14960620"
+    ],
+    "review": [
+      "36439243",
+      "36126370",
+      "28360128",
+      "12593455",
+      "34056966",
+      "33641476",
+      "35709899",
+      "30059181",
+      "31389290"
+    ],
+    "pmc": [
+      "9682093"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=36439243",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36439243/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36439243",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphys.2022.1051544",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

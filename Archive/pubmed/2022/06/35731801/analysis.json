@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35731801",
+  "title": "Systematic inference of indirect transcriptional regulation by protein kinases and phosphatases.",
+  "authors": "Madsen, Christian Degnbol; Hein, Jotun; Workman, Christopher T",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-06-23",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过因果模型推断激酶/磷酸酶对转录因子的间接调控网络，虽涉及TF调控但无TF-DNA结合位点或三维互作建模，方法为统计推断而非AI/物理模拟，仅部分相关。",
+  "abstract": "Gene expression is controlled by pathways of regulatory factors often involving the activity of protein kinases on transcription factor proteins. Despite this well established mechanism, the number of well described pathways that include the regulatory role of protein kinases on transcription factors is surprisingly scarce in eukaryotes. To address this, PhosTF was developed to infer functional regulatory interactions and pathways in both simulated and real biological networks, based on linear cyclic causal models with latent variables. GeneNetWeaverPhos, an extension of GeneNetWeaver, was developed to allow the simulation of perturbations in known networks that included the activity of protein kinases and phosphatases on gene regulation. Over 2000 genome-wide gene expression profiles, where the loss or gain of regulatory genes could be observed to perturb gene regulation, were then used to infer the existence of regulatory interactions, and their mode of regulation in the budding yeast Saccharomyces cerevisiae. Despite the additional complexity, our inference performed comparably to the best methods that inferred transcription factor regulation assessed in the DREAM4 challenge on similar simulated networks. Inference on integrated genome-scale data sets for yeast identified  approximately  8800 protein kinase/phosphatase-transcription factor interactions and  approximately  6500 interactions among protein kinases and/or phosphatases. Both types of regulatory predictions captured statistically significant numbers of known interactions of their type. Surprisingly, kinases and phosphatases regulated transcription factors by a negative mode or regulation (deactivation) in over 70% of the predictions.",
+  "abstract_zh": "基因表达由调控因子的通路控制，这些通路通常涉及蛋白激酶对转录因子蛋白的活性作用。尽管这一机制已被充分确立，但在真核生物中，包含蛋白激酶对转录因子调控作用的详细描述通路数量却出奇地稀少。为解决这一问题，开发了PhosTF，基于含潜变量的线性循环因果模型，在模拟和真实生物网络中推断功能性调控相互作用及通路。GeneNetWeaverPhos作为GeneNetWeaver的扩展，被开发用于模拟已知网络中包括蛋白激酶和磷酸酶对基因调控活性的扰动。随后，利用超过2000个全基因组基因表达谱（在这些谱中可观察到调控基因的缺失或获得扰动基因调控），来推断调控相互作用的存在及其在芽殖酵母（Saccharomyces cerevisiae）中的调控模式。尽管增加了复杂性，我们的推断性能与DREAM4挑战中在类似模拟网络上评估的最佳转录因子调控推断方法相当。对酵母整合的全基因组数据集的推断识别出约8800个蛋白激酶/磷酸酶-转录因子相互作用，以及约6500个蛋白激酶和/或磷酸酶之间的相互作用。两类调控预测均捕获了统计上显著数量的已知同类相互作用。令人惊讶的是，在超过70%的预测中，激酶和磷酸酶通过负调控模式（失活）调控转录因子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35731801/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35731801/",
+  "paper_page_path": "papers/pubmed/35731801/index.html"
+}

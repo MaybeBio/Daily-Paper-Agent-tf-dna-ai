@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.01.11.523582",
+  "title": "Structural Interaction Fingerprints and Machine Learning for predicting and explaining binding of small molecule ligands to RNA",
+  "authors": "Natalia A. Szulc; Zuzanna Mackiewicz; Janusz M. Bujnicki; Filip Stefaniak",
+  "journal": "bioRxiv",
+  "published_date": "2023-01-15",
+  "window": {
+    "start": "2023-01-09",
+    "end": "2023-01-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用结构相互作用指纹结合机器学习预测小分子配体与RNA的结合，虽非TF-DNA体系，但属于蛋白质-DNA/RNA互作建模且方法可迁移至TF-DNA研究。",
+  "abstract": "Ribonucleic acids (RNA) play crucial roles in living organisms as they are involved in key processes necessary for proper cell functioning. Some RNA molecules, such as bacterial ribosomes and precursor messenger RNA, are targets of small molecule drugs, while others, e.g., bacterial riboswitches or viral RNA motifs are considered as potential therapeutic targets. Thus, the continuous discovery of new functional RNA increases the demand for developing compounds targeting them and for methods for analyzing RNA—small molecule interactions. We recently developed fingeRNAt - a software for detecting non-covalent bonds formed within complexes of nucleic acids with different types of ligands. The program detects several non-covalent interactions, such as hydrogen and halogen bonds, ionic, Pi, inorganic ion-and water-mediated, lipophilic interactions, and encodes them as computational-friendly Structural Interaction Fingerprint (SIFt). Here we present the application of SIFts accompanied by machine learning methods for binding prediction of small molecules to RNA targets. We show that SIFt-based models outperform the classic, general-purpose scoring functions in virtual screening. We discuss the aid offered by Explainable Artificial Intelligence in the analysis of the binding prediction models, elucidating the decision-making process, and deciphering molecular recognition processes. Key Points Structural Interaction fingerprints (SIFts), combined with machine learning, were successfully used to develop activity models for ligands binding to RNA. SIFt-based models outperformed the classic, general-purpose scoring functions in virtual screening. Explainable Artificial Intelligence allowed us to understand the decision-making process and decipher molecular recognition processes in the analysis of RNA—ligand binding activity models. We provide a benchmark dataset based on ligands with known or putative binding activity toward six RNA targets. It can be readily used by the scientific community to test new algorithms of virtual screening on RNA—ligand complexes.",
+  "abstract_zh": "核糖核酸（RNA）在生物体中扮演着至关重要的角色，因为它们参与了细胞正常功能所必需的关键过程。一些RNA分子，如细菌核糖体和前体信使RNA，是小分子药物的靶标，而其他如细菌核糖开关或病毒RNA基序则被视为潜在的治疗靶点。因此，新功能性RNA的不断发现增加了对开发靶向这些RNA的化合物以及分析RNA-小分子相互作用方法的需求。我们最近开发了fingeRNAt——一种用于检测核酸与不同类型配体复合物中形成的非共价键的软件。该程序检测多种非共价相互作用，如氢键和卤键、离子键、π键、无机离子介导和水介导的相互作用、亲脂性相互作用，并将它们编码为计算友好的结构相互作用指纹（Structural Interaction Fingerprint, SIFt）。在此，我们展示了SIFt结合机器学习方法在小分子与RNA靶标结合预测中的应用。我们表明，基于SIFt的模型在虚拟筛选中优于经典的通用评分函数。我们讨论了可解释人工智能在结合预测模型分析中的辅助作用，阐明了决策过程，并解读了分子识别过程。关键点：结构相互作用指纹（SIFts）与机器学习相结合，成功用于开发与RNA结合的配体活性模型。基于SIFt的模型在虚拟筛选中优于经典的通用评分函数。可解释人工智能使我们能够理解决策过程，并在RNA-配体结合活性模型分析中解读分子识别过程。我们提供了一个基于已知或推定结合活性的配体针对六个RNA靶标的基准数据集。科学界可以方便地使用它来测试针对RNA-配体复合物的虚拟筛选新算法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.01.11.523582",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.01.11.523582",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.01.11.523582/index.html"
+}

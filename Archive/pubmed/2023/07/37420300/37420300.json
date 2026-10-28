@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "37420300",
+    "doi": "10.1186/s13046-023-02734-w",
+    "title": "Cellular hierarchy framework based on single-cell/multi-patient sample sequencing reveals metabolic biomarker PYGL as a therapeutic target for HNSCC."
+  },
+  "content": {
+    "abstract": "BACKGROUND: A growing body of research has revealed the connection of metabolism reprogramming and tumor progression, yet how metabolism reprogramming affects inter-patient heterogeneity and prognosis in head and neck squamous cell carcinoma (HNSCC) still requires further explorations. METHODS: A cellular hierarchy framework based on metabolic properties discrepancy, METArisk, was introduced to re-analyze the cellular composition from bulk transcriptomes of 486 patients through deconvolution utilizing single-cell reference profiles from 25 primary and 8 metastatic HNSCC sample integration of previous studies. Machine learning methods were used to identify the correlations between metabolism-related biomarkers and prognosis. The functions of the genes screened out in tumor progression, metastasis and chemotherapy resistance were validated in vitro by cellular functional experiments and in vivo by xenograft tumor mouse model. RESULTS: Incorporating the cellular hierarchy composition and clinical properties, the METArisk phenotype divided multi-patient cohort into two classes, wherein poor prognosis of METArisk-high subgroup was associated with a particular cluster of malignant cells with significant activity of metabolism reprogramming enriched in metastatic single-cell samples. Subsequent analysis targeted for phenotype differences between the METArisk subgroups identified PYGL as a key metabolism-related biomarker that enhances malignancy and chemotherapy resistance by GSH/ROS/p53 pathway, leading to poor prognosis of HNSCC. CONCLUSION: PYGL was identified as a metabolism-related oncogenic biomarker that promotes HNSCC progression, metastasis and chemotherapy resistance though GSH/ROS/p53 pathway. Our study revealed the cellular hierarchy composition of HNSCC from the cell metabolism reprogramming perspective and may provide new inspirations and therapeutic targets for HNSCC in the future.",
+    "keywords": [
+      "Cell metabolism reprogramming",
+      "Cellular hierarchy framework",
+      "HNSCC",
+      "PYGL",
+      "Single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "Squamous Cell Carcinoma of Head and Neck/drug therapy/genetics",
+      "*Head and Neck Neoplasms/drug therapy/genetics",
+      "Reactive Oxygen Species",
+      "Tumor Suppressor Protein p53/genetics",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guan, Jiezhong",
+        "Xu, Xi",
+        "Qiu, Guo",
+        "He, Chong",
+        "Lu, Xiaoyue",
+        "Wang, Kang",
+        "Liu, Xinyu",
+        "Li, Yuanyuan",
+        "Ling, Zihang",
+        "Tang, Xuan",
+        "Liang, Yujie",
+        "Tao, Xiaoan",
+        "Cheng, Bin",
+        "Yang, Bo"
+      ],
+      "short_names": [
+        "Guan J",
+        "Xu X",
+        "Qiu G",
+        "He C",
+        "Lu X",
+        "Wang K",
+        "Liu X",
+        "Li Y",
+        "Ling Z",
+        "Tang X",
+        "Liang Y",
+        "Tao X",
+        "Cheng B",
+        "Yang B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0694-0883"
+      ],
+      "affiliations": [
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China.",
+        "Department of Hematology, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Hematology, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China. taoxiaoa@mail.sysu.edu.cn.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China. chengbin@mail.sysu.edu.cn.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China. yangb86@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guan, Jiezhong",
+        "short_name": "Guan J",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xi",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Guo",
+        "short_name": "Qiu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Chong",
+        "short_name": "He C",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xiaoyue",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kang",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinyu",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuanyuan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Zihang",
+        "short_name": "Ling Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Xuan",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yujie",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Xiaoan",
+        "short_name": "Tao X",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China. taoxiaoa@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cheng, Bin",
+        "short_name": "Cheng B",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China. chengbin@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Bo",
+        "short_name": "Yang B",
+        "identifiers": [
+          "0000-0002-0694-0883"
+        ],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, China. yangb86@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2023 Jul 8",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/08 10:42",
+    "fetched_at": "2026-09-29 03:25:47"
+  },
+  "links": {
+    "cites": [
+      "42630417",
+      "42027581",
+      "41974649",
+      "41254143",
+      "40966644",
+      "40686969",
+      "40640852",
+      "40612663",
+      "40303296",
+      "40269930",
+      "40022235",
+      "39815613",
+      "39726033",
+      "39707393",
+      "39525037",
+      "39170944",
+      "38886346"
+    ],
+    "refs": [
+      "37063425",
+      "36076232",
+      "35880426",
+      "35618837",
+      "35022204",
+      "34983949",
+      "34921143",
+      "34878954",
+      "34725879",
+      "34516362",
+      "34272515",
+      "34239690",
+      "34177761",
+      "33915111",
+      "33637672",
+      "33562490",
+      "33537080",
+      "33468664",
+      "33239190",
+      "33224887",
+      "33161227",
+      "33119215",
+      "33038770",
+      "32273439",
+      "32268899",
+      "32126244",
+      "32122374",
+      "32020421",
+      "31952783",
+      "31935835",
+      "31899205",
+      "31841768",
+      "31445217",
+      "31434891",
+      "31410220",
+      "31337651",
+      "31264969",
+      "31221981",
+      "31108460",
+      "31061481",
+      "30811281",
+      "30616754",
+      "30207593",
+      "29949049",
+      "29198524",
+      "28823958",
+      "28187287",
+      "28187284",
+      "28178563",
+      "27974793",
+      "27869804",
+      "27313767",
+      "26771115",
+      "26540344",
+      "25620030",
+      "24794262",
+      "24298908",
+      "22951905",
+      "22198208",
+      "22158071",
+      "21363890",
+      "20163198",
+      "19498109",
+      "18538731",
+      "17409455",
+      "16077963",
+      "15217973",
+      "10924512",
+      "9581678"
+    ],
+    "similar": [
+      "37420300",
+      "40275154",
+      "41099090",
+      "31969334",
+      "40064955",
+      "40637278",
+      "38206305",
+      "40713706",
+      "40464594",
+      "41088097",
+      "40269062",
+      "40312694",
+      "37525222",
+      "38869038",
+      "36738487",
+      "40371884",
+      "40422535",
+      "33859744",
+      "40838991",
+      "33503275",
+      "38756442",
+      "40328901",
+      "30029671",
+      "30376862",
+      "40661938",
+      "30857539",
+      "36157879",
+      "38886346",
+      "38625586",
+      "39375763",
+      "39375732",
+      "40066708",
+      "40270464",
+      "40275315",
+      "41087978",
+      "38421592",
+      "39234254",
+      "39810134",
+      "31304688",
+      "39875049",
+      "39574476",
+      "37299554",
+      "34598317",
+      "31170090",
+      "36076232",
+      "29306329",
+      "37843652",
+      "33059733",
+      "30723145",
+      "31541927",
+      "36689560",
+      "32929368",
+      "31870550",
+      "35013621",
+      "32805066",
+      "37842043",
+      "40539074",
+      "40976120",
+      "33628816",
+      "30925916",
+      "41300768",
+      "37371537",
+      "31059079",
+      "40660234",
+      "40016474",
+      "34091115",
+      "40371988",
+      "40881692",
+      "39890801",
+      "31864826",
+      "30259648",
+      "34898376",
+      "37328018",
+      "40881700",
+      "40475773",
+      "31429766",
+      "35945448",
+      "39543336",
+      "39168258",
+      "35768785",
+      "30341909",
+      "35301800",
+      "40614468",
+      "39706260",
+      "33456565",
+      "41299204",
+      "29262850",
+      "39489541",
+      "38428621",
+      "32296588",
+      "32228580",
+      "40264050",
+      "40075431",
+      "39910672",
+      "28831179",
+      "37713790",
+      "36049414",
+      "34980207",
+      "40259045",
+      "36510584"
+    ],
+    "review": [
+      "37420300",
+      "37299554"
+    ],
+    "pmc": [
+      "10329320"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-023-02734-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/headandneckcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Head and Neck Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37420300/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37420300",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

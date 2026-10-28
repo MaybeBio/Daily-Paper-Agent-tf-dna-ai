@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39210256",
+  "title": "A comparative analysis of ENCODE and Cistrome in the context of TF binding signal.",
+  "authors": "Perna, Stefano; Pinoli, Pietro; Ceri, Stefano; Wong, Limsoon",
+  "journal": "BMC genomics",
+  "published_date": "2024-08-31",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文比较ENCODE与Cistrome的TF结合位点信号值，并利用信号值过滤提升基于位置的机器学习预测质量，虽涉及TF-DNA结合位点数据与AI方法，但缺乏三维互作建模或结合机制研究，属于数据质量与工程应用层面。",
+  "abstract": "BACKGROUND: With the rise of publicly available genomic data repositories, it is now common for scientists to rely on computational models and preprocessed data, either as control or to discover new knowledge. However, different repositories adhere to the different principles and guidelines, and data processing plays a significant role in the quality of the resulting datasets. Two popular repositories for transcription factor binding sites data - ENCODE and Cistrome - process the same biological samples in alternative ways, and their results are not always consistent. Moreover, the output format of the processing (BED narrowPeak) exposes a feature, the signalValue, which is seldom used in consistency checks, but can offer valuable insight on the quality of the data. RESULTS: We provide evidence that data points with high signalValue(s) (top 25% of values) are more likely to be consistent between ENCODE and Cistrome in human cell lines K562, GM12878, and HepG2. In addition, we show that filtering according to said high values improves the quality of predictions for a machine learning algorithm that detects transcription factor interactions based only on positional information. Finally, we provide a set of practices and guidelines, based on the signalValue feature, for scientists who wish to compare and merge narrowPeaks from ENCODE and Cistrome. CONCLUSIONS: The signalValue feature is an informative feature that can be effectively used to highlight consistent areas of overlap between different sources of TF binding sites that expose it. Its applicability extends to downstream to positional machine learning algorithms, making it a powerful tool for performance tweaking and data aggregation.",
+  "abstract_zh": "背景：随着公开可用的基因组数据存储库的兴起，科学家们现在普遍依赖计算模型和预处理数据，无论是作为对照还是为了发现新知识。然而，不同存储库遵循不同的原则和指南，数据处理对最终数据集的质量起着重要作用。两个流行的转录因子结合位点数据存储库——ENCODE和Cistrome——以不同方式处理相同的生物样本，其结果并不总是一致。此外，处理输出格式（BED narrowPeak）暴露了一个特征，即信号值（signalValue），该特征在一致性检查中很少使用，但可以为数据质量提供有价值的见解。结果：我们提供证据表明，在人类细胞系K562、GM12878和HepG2中，具有高信号值（前25%的值）的数据点更可能在ENCODE和Cistrome之间保持一致。此外，我们显示，根据上述高值进行过滤，可以提高一种仅基于位置信息检测转录因子相互作用的机器学习算法的预测质量。最后，我们基于信号值特征，为希望比较和合并来自ENCODE和Cistrome的narrowPeaks的科学家提供了一套实践和指南。结论：信号值特征是一个信息丰富的特征，可以有效用于突出显示暴露该特征的不同转录因子结合位点来源之间的一致重叠区域。其适用性扩展到下游的位置机器学习算法，使其成为性能调整和数据聚合的强大工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39210256/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39210256/",
+  "paper_page_path": "papers/pubmed/39210256/index.html"
+}

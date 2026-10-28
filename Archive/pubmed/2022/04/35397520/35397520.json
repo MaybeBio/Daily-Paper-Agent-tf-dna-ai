@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "35397520",
+    "doi": "10.1186/s12864-022-08498-5",
+    "title": "ProbC: joint modeling of epigenome and transcriptome effects in 3D genome."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hi-C and its high nucleosome resolution variant Micro-C provide a window into the spatial packing of a genome in 3D within the cell. Even though both techniques do not directly depend on the binding of specific antibodies, previous work has revealed enriched interactions and domain structures around multiple chromatin marks; epigenetic modifications and transcription factor binding sites. However, the joint impact of chromatin marks in Hi-C and Micro-C interactions have not been globally characterized, which limits our understanding of 3D genome characteristics. An emerging question is whether it is possible to deduce 3D genome characteristics and interactions by integrative analysis of multiple chromatin marks and associate interactions to functionality of the interacting loci. RESULT: We come up with a probabilistic method PROBC to decompose Hi-C and Micro-C interactions by known chromatin marks. PROBC is based on convex likelihood optimization, which can directly take into account both interaction existence and nonexistence. Through PROBC, we discover histone modifications (H3K27ac, H3K9me3, H3K4me3, H3K4me1) and CTCF as particularly predictive of Hi-C and Micro-C contacts across cell types and species. Moreover, histone modifications are more effective than transcription factor binding sites in explaining the genome's 3D shape through these interactions. PROBC can successfully predict Hi-C and Micro-C interactions in given species, while it is trained on different cell types or species. For instance, it can predict missing nucleosome resolution Micro-C interactions in human ES cells trained on mouse ES cells only from these 5 chromatin marks with above 0.75 AUC. Additionally, PROBC outperforms the existing methods in predicting interactions across almost all chromosomes. CONCLUSION: Via our proposed method, we optimally decompose Hi-C interactions in terms of these chromatin marks at genome and chromosome levels. We find a subset of histone modifications and transcription factor binding sites to be predictive of both Hi-C and Micro-C interactions and TADs across human, mouse, and different cell types. Through learned models, we can predict interactions on species just from chromatin marks for which Hi-C data may be limited.",
+    "keywords": [
+      "Chromatin organization",
+      "Epigenetics",
+      "Hi-C",
+      "Machine learning",
+      "Micro-C"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Chromatin/genetics",
+      "*Epigenome",
+      "Mice",
+      "Nucleosomes",
+      "Transcription Factors/genetics",
+      "*Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sefer, Emre"
+      ],
+      "short_names": [
+        "Sefer E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Ozyegin University, Istanbul, Turkey. emre.sefer@ozyegin.edu.tr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sefer, Emre",
+        "short_name": "Sefer E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Ozyegin University, Istanbul, Turkey. emre.sefer@ozyegin.edu.tr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2022 Apr 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/11 06:00",
+    "fetched_at": "2026-09-28 07:22:03"
+  },
+  "links": {
+    "cites": [
+      "42615977",
+      "42529052",
+      "42301918",
+      "42225756",
+      "41904395",
+      "41407795",
+      "41152421",
+      "35885897"
+    ],
+    "refs": [
+      "37280678",
+      "33213499",
+      "32384149",
+      "32216817",
+      "32213324",
+      "32213323",
+      "32127534",
+      "31811132",
+      "31699985",
+      "31358994",
+      "30869141",
+      "30867673",
+      "29581440",
+      "29120462",
+      "29087948",
+      "28985562",
+      "28855260",
+      "28289288",
+      "27851967",
+      "27267775",
+      "26960733",
+      "26586442",
+      "26338778",
+      "26329598",
+      "26316348",
+      "26287746",
+      "26272203",
+      "26119342",
+      "25959774",
+      "25677182",
+      "25497547",
+      "24868242",
+      "23832846",
+      "23706625",
+      "23657480",
+      "22955616",
+      "22910904",
+      "22495300",
+      "21633945",
+      "20944595",
+      "19815776",
+      "19563753",
+      "18798982",
+      "18243105",
+      "11092823"
+    ],
+    "similar": [
+      "35397520",
+      "38758956",
+      "27008015",
+      "30867673",
+      "35749574",
+      "29137603",
+      "30018005",
+      "26960733",
+      "28863138",
+      "38643244",
+      "32999023",
+      "35413815",
+      "38015443",
+      "36544209",
+      "37224527",
+      "22675074",
+      "26818008",
+      "28420341",
+      "37982508",
+      "35834552",
+      "34382190",
+      "36470770",
+      "37302549",
+      "28064247",
+      "22537144",
+      "22955985",
+      "39202349",
+      "37294468",
+      "36458445",
+      "30344096",
+      "23527292",
+      "31515496",
+      "38927609",
+      "35867245",
+      "26518482",
+      "35488276",
+      "38167349",
+      "38773546",
+      "36352464",
+      "28513628",
+      "32349780",
+      "24176123",
+      "38017297",
+      "31811132",
+      "28108933",
+      "31653198",
+      "36206320",
+      "38052424",
+      "30201095",
+      "32619460",
+      "34769020",
+      "36609218",
+      "26814966",
+      "38336688",
+      "29229825",
+      "31742318",
+      "32191860",
+      "26700097",
+      "39283464",
+      "30359306",
+      "31779666",
+      "34963105",
+      "30591009",
+      "34415531",
+      "32896099",
+      "34299232",
+      "32499403",
+      "28742097",
+      "29087948",
+      "30598100",
+      "39505852",
+      "26001583",
+      "37440599",
+      "34187555",
+      "33545030",
+      "36922587",
+      "39283461",
+      "33816958",
+      "34467975",
+      "20444227",
+      "32546248",
+      "31960372",
+      "38218905",
+      "36075900",
+      "38236718",
+      "29660196",
+      "37572350",
+      "22115494",
+      "31177910",
+      "27582050",
+      "34991687",
+      "32689928",
+      "32987449",
+      "30661750",
+      "27391817",
+      "39538149",
+      "18654629",
+      "24501021",
+      "23511541",
+      "30157915"
+    ],
+    "review": [
+      "35397520",
+      "37294468",
+      "38052424",
+      "39283464",
+      "34299232",
+      "32987449"
+    ],
+    "pmc": [
+      "8994916"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-022-08498-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35397520/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35397520",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

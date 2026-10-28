@@ -1,0 +1,511 @@
+{
+  "identity": {
+    "pmid": "38902848",
+    "doi": "10.1093/gpbjnl/qzae003",
+    "title": "Integrated Single-cell Multiomic Analysis of HIV Latency Reversal Reveals Novel Regulators of Viral Reactivation."
+  },
+  "content": {
+    "abstract": "Despite the success of antiretroviral therapy, human immunodeficiency virus (HIV) cannot be cured because of a reservoir of latently infected cells that evades therapy. To understand the mechanisms of HIV latency, we employed an integrated single-cell RNA sequencing (scRNA-seq) and single-cell assay for transposase-accessible chromatin with sequencing (scATAC-seq) approach to simultaneously profile the transcriptomic and epigenomic characteristics of  approximately 125,000 latently infected primary CD4+ T cells after reactivation using three different latency reversing agents. Differentially expressed genes and differentially accessible motifs were used to examine transcriptional pathways and transcription factor (TF) activities across the cell population. We identified cellular transcripts and TFs whose expression/activity was correlated with viral reactivation and demonstrated that a machine learning model trained on these data was 75%-79% accurate at predicting viral reactivation. Finally, we validated the role of two candidate HIV-regulating factors, FOXP1 and GATA3, in viral transcription. These data demonstrate the power of integrated multimodal single-cell analysis to uncover novel relationships between host cell factors and HIV latency.",
+    "keywords": [
+      "HIV latency reversal",
+      "HIV-regulating factor",
+      "Machine learning",
+      "Primary CD4+ T cell",
+      "Single-cell multiomics"
+    ],
+    "mesh_terms": [
+      "*Virus Latency/genetics",
+      "Humans",
+      "*Virus Activation/genetics",
+      "*Single-Cell Analysis/methods",
+      "*HIV-1/genetics/physiology",
+      "*CD4-Positive T-Lymphocytes/virology/metabolism",
+      "*GATA3 Transcription Factor/metabolism/genetics",
+      "Forkhead Transcription Factors/metabolism/genetics",
+      "HIV Infections/virology/genetics/metabolism",
+      "Repressor Proteins/metabolism/genetics",
+      "Transcriptome/genetics",
+      "Gene Expression Regulation, Viral"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ashokkumar, Manickam",
+        "Mei, Wenwen",
+        "Peterson, Jackson J",
+        "Harigaya, Yuriko",
+        "Murdoch, David M",
+        "Margolis, David M",
+        "Kornfein, Caleb",
+        "Oesterling, Alex",
+        "Guo, Zhicheng",
+        "Rudin, Cynthia D",
+        "Jiang, Yuchao",
+        "Browne, Edward P"
+      ],
+      "short_names": [
+        "Ashokkumar M",
+        "Mei W",
+        "Peterson JJ",
+        "Harigaya Y",
+        "Murdoch DM",
+        "Margolis DM",
+        "Kornfein C",
+        "Oesterling A",
+        "Guo Z",
+        "Rudin CD",
+        "Jiang Y",
+        "Browne EP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7880-9497",
+        "ORCID: 0009-0004-3671-8417",
+        "ORCID: 0000-0001-9562-2109",
+        "ORCID: 0000-0002-1879-5214",
+        "ORCID: 0000-0001-7201-7950",
+        "ORCID: 0000-0001-5714-0002",
+        "ORCID: 0000-0001-6796-331X",
+        "ORCID: 0000-0001-8546-0089",
+        "ORCID: 0000-0003-3510-5358",
+        "ORCID: 0000-0003-4283-2780",
+        "ORCID: 0000-0001-6905-6377",
+        "ORCID: 0000-0001-9070-7015"
+      ],
+      "affiliations": [
+        "Department of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "HIV Cure Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Biostatistics, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "HIV Cure Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Medicine, Duke University, Durham, NC 27708, USA.",
+        "Department of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "HIV Cure Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Computer Science, Duke University, Durham, NC 27708, USA.",
+        "Department of Computer Science, Duke University, Durham, NC 27708, USA.",
+        "Department of Computer Science, Duke University, Durham, NC 27708, USA.",
+        "Department of Computer Science, Duke University, Durham, NC 27708, USA.",
+        "Department of Statistics, Texas A&M University, College Station, TX 77843, USA.",
+        "Department of Biology, Texas A&M University, College Station, TX 77843, USA.",
+        "Department of Biomedical Engineering, Texas A&M University, College Station, TX 77843, USA.",
+        "Department of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "HIV Cure Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ashokkumar, Manickam",
+        "short_name": "Ashokkumar M",
+        "identifiers": [
+          "0000-0002-7880-9497"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+          "HIV Cure Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Mei, Wenwen",
+        "short_name": "Mei W",
+        "identifiers": [
+          "0009-0004-3671-8417"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Peterson, Jackson J",
+        "short_name": "Peterson JJ",
+        "identifiers": [
+          "0000-0001-9562-2109"
+        ],
+        "affiliations": [
+          "HIV Cure Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+          "Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Harigaya, Yuriko",
+        "short_name": "Harigaya Y",
+        "identifiers": [
+          "0000-0002-1879-5214"
+        ],
+        "affiliations": [
+          "Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Murdoch, David M",
+        "short_name": "Murdoch DM",
+        "identifiers": [
+          "0000-0001-7201-7950"
+        ],
+        "affiliations": [
+          "Department of Medicine, Duke University, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Margolis, David M",
+        "short_name": "Margolis DM",
+        "identifiers": [
+          "0000-0001-5714-0002"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+          "HIV Cure Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+          "Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Kornfein, Caleb",
+        "short_name": "Kornfein C",
+        "identifiers": [
+          "0000-0001-6796-331X"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Duke University, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Oesterling, Alex",
+        "short_name": "Oesterling A",
+        "identifiers": [
+          "0000-0001-8546-0089"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Duke University, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhicheng",
+        "short_name": "Guo Z",
+        "identifiers": [
+          "0000-0003-3510-5358"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Duke University, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Rudin, Cynthia D",
+        "short_name": "Rudin CD",
+        "identifiers": [
+          "0000-0003-4283-2780"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Duke University, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yuchao",
+        "short_name": "Jiang Y",
+        "identifiers": [
+          "0000-0001-6905-6377"
+        ],
+        "affiliations": [
+          "Department of Statistics, Texas A&M University, College Station, TX 77843, USA.",
+          "Department of Biology, Texas A&M University, College Station, TX 77843, USA.",
+          "Department of Biomedical Engineering, Texas A&M University, College Station, TX 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Browne, Edward P",
+        "short_name": "Browne EP",
+        "identifiers": [
+          "0000-0001-9070-7015"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+          "HIV Cure Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+          "Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics, proteomics & bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Genomics Proteomics Bioinformatics"
+    ],
+    "pub_date": "2024 May 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/21 00:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42379818",
+      "41983051",
+      "41782037",
+      "41473133",
+      "40936906",
+      "40838493",
+      "40742736",
+      "40613694",
+      "40502036",
+      "40488537",
+      "40207620",
+      "40198713",
+      "39257755"
+    ],
+    "refs": [
+      "38134881",
+      "37295842",
+      "36536105",
+      "36322662",
+      "36051654",
+      "35814628",
+      "35026153",
+      "34725479",
+      "33635929",
+      "33421101",
+      "33352111",
+      "33012899",
+      "32541947",
+      "31969707",
+      "31758034",
+      "31701148",
+      "31178118",
+      "30968963",
+      "30821321",
+      "30788509",
+      "30531897",
+      "30463912",
+      "30446650",
+      "30297964",
+      "30282021",
+      "30078726",
+      "30010766",
+      "29694901",
+      "29686423",
+      "29483265",
+      "29354130",
+      "29073251",
+      "28825706",
+      "28715973",
+      "28656010",
+      "28346451",
+      "27605062",
+      "26423811",
+      "26083756",
+      "26047462",
+      "26041287",
+      "25723172",
+      "25572573",
+      "25393648",
+      "25287643",
+      "25011556",
+      "24968937",
+      "24903562",
+      "24636995",
+      "24243014",
+      "22837004",
+      "22674979",
+      "22229121",
+      "21763495",
+      "20410271",
+      "19805909",
+      "19728287",
+      "19336585",
+      "18829756",
+      "17643313",
+      "16492771",
+      "16051143",
+      "15297299",
+      "14581553",
+      "12883005",
+      "12754504",
+      "12368361",
+      "11994736",
+      "11112772",
+      "10551796",
+      "9671771",
+      "9504519",
+      "9501094",
+      "9360927",
+      "9302437",
+      "9201233",
+      "9094628",
+      "8642652",
+      "8605881",
+      "8510231",
+      "8458329",
+      "8344262",
+      "8332492",
+      "8280137",
+      "8253080",
+      "8230466",
+      "2083253",
+      "1942252",
+      "1527846"
+    ],
+    "similar": [
+      "38902848",
+      "30425153",
+      "34872356",
+      "39373537",
+      "27795436",
+      "33635929",
+      "38156317",
+      "40198713",
+      "28698276",
+      "29793958",
+      "42379818",
+      "34206546",
+      "26438393",
+      "30914509",
+      "30918072",
+      "36090997",
+      "15308739",
+      "32161174",
+      "29954456",
+      "34531866",
+      "31578289",
+      "33465149",
+      "31413127",
+      "32295913",
+      "28077644",
+      "27898737",
+      "12805437",
+      "27253379",
+      "27466424",
+      "29444937",
+      "31711503",
+      "28258391",
+      "28529033",
+      "35019721",
+      "33115867",
+      "40344061",
+      "26714717",
+      "29021396",
+      "26184775",
+      "24760882",
+      "34287050",
+      "26378236",
+      "32654992",
+      "29084447",
+      "39259751",
+      "21992606",
+      "30401776",
+      "40402245",
+      "40067013",
+      "39082875",
+      "29694901",
+      "22291913",
+      "38110433",
+      "38581045",
+      "23760244",
+      "30286764",
+      "29926732",
+      "40842241",
+      "42549876",
+      "26169416",
+      "32224142",
+      "26152583",
+      "30413535",
+      "29714165",
+      "30282021",
+      "27181351",
+      "27889530",
+      "30274333",
+      "26223643",
+      "31165872",
+      "29643247",
+      "29491162",
+      "24875931",
+      "30670656",
+      "38580979",
+      "21430059",
+      "26870822",
+      "34469719",
+      "40168429",
+      "27535056",
+      "40901928",
+      "15308706",
+      "42167686",
+      "41738768",
+      "32784426",
+      "32317327",
+      "39636695",
+      "40184908",
+      "31243131",
+      "24385908",
+      "28202759",
+      "39902962",
+      "35730977",
+      "36298843",
+      "31238957",
+      "42294674",
+      "32956422",
+      "31999790",
+      "31425551",
+      "35499323"
+    ],
+    "review": [
+      "38902848",
+      "34206546",
+      "36090997",
+      "28258391",
+      "38580979",
+      "42167686"
+    ],
+    "pmc": [
+      "11189801"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38902848/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38902848",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/gpb/article-lookup/doi/10.1093/gpbjnl/qzae003",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

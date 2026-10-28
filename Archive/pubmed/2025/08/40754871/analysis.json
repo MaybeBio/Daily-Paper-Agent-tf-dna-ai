@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40754871",
+  "title": "Diagnostic Biomarkers and Targeted Drug Prediction for Acute Kidney Injury: A Computational Approach.",
+  "authors": "Zhou, Liuyin; Pan, Lian; Gao, Jiayang; Jiang, Yi; Li, Tingting; Li, Ruoqing",
+  "journal": "Endocrine, metabolic & immune disorders drug targets",
+  "published_date": "2025-08-04",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用WGCNA、LASSO与SVM-RFE等计算手段筛选急性肾损伤诊断标志物并做药物对接，虽含TF调控网络与分子对接，但核心是疾病标志物而非蛋白质-DNA互作机制建模，与本课题关联较弱。",
+  "abstract": "INTRODUCTION: Acute Kidney Injury (AKI) is a clinical syndrome with rapid onset and poor prognosis, and existing diagnostic methods suffer from low sensitivity and delay. To achieve early identification and precise intervention, there is an urgent need to discover new precise biomarkers. METHODS: AKI samples were acquired from Gene Expression Omnibus (GEO) database. AKI-related module genes were identified using the \"WGCNA\" package. The \"Limma\" package was used to filter Differentially Expressed Genes (DEGs). Protein interaction networks were constructed by intersecting key modular genes with DEGs, and six algorithms (MCC, MNC, Degree, EPC, Closeness, and Radiality) in the cytoHubba plug-in were combined to screen candidate genes. Diagnostic biomarkers were cross-screened using LASSO regression with Support Vector Machine-Recursive Feature Elimination (SVM-RFE) machine learning algorithm, and their predictive performance was verified by Receiver Operating Characteristic (ROC) analysis. Transcription Factors (TFs) regulatory network was constructed applying Cytoscape 3.8.0. Finally, the prediction and molecular docking analysis of potential target drugs were performed using the DSigDB database and AutoDockTools. RESULTS: A total of 498 key modular genes significantly associated with AKI were screened, and 88 AKI- related DEGs and 18 candidate genes were further identified. Importantly, four biomarkers with high diagnostic value (DDX17, FUBP1, PABPN1, and SF3B1) were screened and validated using dual machine learning algorithms, including LASSO regression and SVM-RFE. The area under the ROC curve (AUC) values for these biomarkers were greater than 0.8, indicating good predictive performance. Moreover, 19 TFs and 17 miRNA of SF3B1, 10 TFs and 58 miRNA of PABPN1, 15 TFs and 60 miRNA of FUBP1, together with 13 TFs and 109 miRNA of DDX17, were screened. Drug prediction and molecular docking analysis revealed that Demecolcine and Testosterone Enanthate stably bind to certain markers. DISCUSSION: Four potential biomarkers closely related to AKI were identified, which may be involved in the occurrence and progression of AKI by regulating key processes such as transcription. The predicted Demecolcine and Testosterone Enanthate may also be involved in the repair of renal injury by regulating key target genes. Although further experimental validation is still needed, these may still provide new intervention strategies for the treatment of AKI. CONCLUSION: To conclude, four AKI biomarkers with high diagnostic value were screened by integrating multiple computational methods, revealing a new perspective on the molecular mechanism of AKI. The results provided a new theoretical basis for achieving early precision diagnosis and individualized treatment of AKI.",
+  "abstract_zh": "引言：急性肾损伤（Acute Kidney Injury, AKI）是一种起病急骤且预后不良的临床综合征，现有诊断方法存在敏感性低和延迟性。为实现早期识别和精准干预，亟需发现新的精准生物标志物。方法：从基因表达综合（Gene Expression Omnibus, GEO）数据库获取AKI样本。使用“WGCNA”包识别AKI相关模块基因。使用“Limma”包筛选差异表达基因（Differentially Expressed Genes, DEGs）。通过将关键模块基因与DEGs相交构建蛋白质相互作用网络，并结合cytoHubba插件中的六种算法（MCC、MNC、Degree、EPC、Closeness和Radiality）筛选候选基因。使用LASSO回归和支持向量机-递归特征消除（Support Vector Machine-Recursive Feature Elimination, SVM-RFE）机器学习算法交叉筛选诊断生物标志物，并通过受试者工作特征（Receiver Operating Characteristic, ROC）分析验证其预测性能。使用Cytoscape 3.8.0构建转录因子（Transcription Factors, TFs）调控网络。最后，使用DSigDB数据库和AutoDockTools进行潜在靶向药物的预测和分子对接分析。结果：共筛选出498个与AKI显著相关的关键模块基因，并进一步识别出88个AKI相关DEGs和18个候选基因。重要的是，通过双重机器学习算法（包括LASSO回归和SVM-RFE）筛选并验证了四个具有高诊断价值的生物标志物（DDX17、FUBP1、PABPN1和SF3B1）。这些生物标志物的ROC曲线下面积（AUC）值均大于0.8，表明具有良好的预测性能。此外，筛选出SF3B1的19个TFs和17个miRNA、PABPN1的10个TFs和58个miRNA、FUBP1的15个TFs和60个miRNA，以及DDX17的13个TFs和109个miRNA。药物预测和分子对接分析显示，Demecolcine和Testosterone Enanthate能稳定结合某些标志物。讨论：识别出四个与AKI密切相关的潜在生物标志物，它们可能通过调控转录等关键过程参与AKI的发生和发展。预测的Demecolcine和Testosterone Enanthate也可能通过调控关键靶基因参与肾损伤修复。尽管仍需进一步的实验验证，但这些可能仍为AKI治疗提供新的干预策略。结论：总之，通过整合多种计算方法筛选出四个具有高诊断价值的AKI生物标志物，揭示了AKI分子机制的新视角。研究结果为实现AKI的早期精准诊断和个体化治疗提供了新的理论基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40754871/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40754871/",
+  "paper_page_path": "papers/pubmed/40754871/index.html"
+}

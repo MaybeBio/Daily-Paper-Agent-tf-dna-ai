@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "36057196",
+    "doi": "10.1016/j.compbiomed.2022.105993",
+    "title": "Towards a better understanding of TF-DNA binding prediction from genomic features."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) can regulate gene expression by recognizing specific cis-regulatory elements in DNA sequences. TF-DNA binding prediction has become a fundamental step in comprehending the underlying cis-regulation mechanism. Since a particular genome region is bound depending on multiple features, such as the arrangement of nucleotides, DNA shape, and an epigenetic mechanism, many researchers attempt to develop computational methods to predict TF binding sites (TFBSs) based on various genomic features. This paper provides a comprehensive compendium to better understand TF-DNA binding from genomic features. We first summarize the commonly used datasets and data processing manners. Subsequently, we classify current deep learning methods in TFBS prediction according to their utilized genomic features and analyze each technique's merit and weakness. Furthermore, we illustrate the functional consequences characterization of TF-DNA binding by prioritizing noncoding variants in identified motif instances. Finally, the challenges and opportunities of deep learning in TF-DNA binding prediction are discussed. This survey can bring valuable insights for researchers to study the modeling of TF-DNA binding.",
+    "keywords": [
+      "Deep learning",
+      "Genomic features",
+      "Motif discovery",
+      "Noncoding variant",
+      "TF-DNA binding"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Computational Biology/methods",
+      "DNA/chemistry/genetics",
+      "*Genomics",
+      "Nucleotides/metabolism",
+      "Protein Binding",
+      "Transcription Factors/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Zixuan",
+        "Gong, Meiqin",
+        "Liu, Yuhang",
+        "Xiong, Shuwen",
+        "Wang, Maocheng",
+        "Zhou, Jiliu",
+        "Zhang, Yongqing"
+      ],
+      "short_names": [
+        "Wang Z",
+        "Gong M",
+        "Liu Y",
+        "Xiong S",
+        "Wang M",
+        "Zhou J",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China.",
+        "West China Second University Hospital, Sichuan University, Chengdu, 610041, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China. Electronic address: zhangyq@cuit.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Zixuan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Meiqin",
+        "short_name": "Gong M",
+        "identifiers": [],
+        "affiliations": [
+          "West China Second University Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuhang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Shuwen",
+        "short_name": "Xiong S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Maocheng",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiliu",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongqing",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, China. Electronic address: zhangyq@cuit.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/04 06:00",
+    "fetched_at": "2026-09-28 12:55:28"
+  },
+  "links": {
+    "cites": [
+      "41495882",
+      "40138198",
+      "39367138",
+      "38517697",
+      "37653897",
+      "37140548",
+      "36902216",
+      "36360189"
+    ],
+    "refs": [],
+    "similar": [
+      "36057196",
+      "27567672",
+      "31372637",
+      "23272209",
+      "25775564",
+      "30447332",
+      "19956545",
+      "28849563",
+      "34174819",
+      "38940155",
+      "26285121",
+      "25722376",
+      "21193520",
+      "33372147",
+      "34613923",
+      "28750606",
+      "26291518",
+      "34486522",
+      "24927817",
+      "31754708",
+      "31336830",
+      "34272562",
+      "27546793",
+      "16267080",
+      "32770026",
+      "16873495",
+      "26160164",
+      "29363433",
+      "28359978",
+      "28623591",
+      "38701417",
+      "27106869",
+      "32043966",
+      "27503086",
+      "20158869",
+      "24386279",
+      "30423062",
+      "31634140",
+      "24926895",
+      "38517697",
+      "25918418",
+      "35713985",
+      "31114870",
+      "29617928",
+      "28334224",
+      "30380113",
+      "16362910",
+      "19586888",
+      "34669947",
+      "38798191",
+      "24564277",
+      "21486752",
+      "24091402",
+      "32054475",
+      "21124945",
+      "22189060",
+      "25242143",
+      "34929739",
+      "15865625",
+      "25762553",
+      "18053230",
+      "20529874",
+      "24218641",
+      "25708259",
+      "24603674",
+      "30629513",
+      "37328639",
+      "25637093",
+      "30517703",
+      "25957350",
+      "31406384",
+      "27871221",
+      "31481462",
+      "25070602",
+      "16873497",
+      "25010228",
+      "27209209",
+      "21729923",
+      "21124986",
+      "28700586",
+      "32324215",
+      "29165643",
+      "19158363",
+      "23527292",
+      "21059262",
+      "22504445",
+      "39076052",
+      "27052996",
+      "20943488",
+      "33104784",
+      "25158938",
+      "37919990",
+      "27311443",
+      "22534400",
+      "26130577",
+      "24349230",
+      "29993783",
+      "38733561",
+      "38032891",
+      "36155619",
+      "36360189",
+      "33498086",
+      "38149460",
+      "19721087",
+      "30040077",
+      "37140548",
+      "31001412",
+      "38300850",
+      "34882561",
+      "37889068",
+      "37100167",
+      "35978548",
+      "39227799",
+      "28642456",
+      "29472273",
+      "36322688",
+      "37214836",
+      "35810331",
+      "21938617",
+      "35435921",
+      "37402367",
+      "38496549",
+      "38216534",
+      "20074831",
+      "34579793",
+      "38836027",
+      "36200824",
+      "35679803",
+      "39013383",
+      "24324603",
+      "34863368",
+      "38732207",
+      "37733848",
+      "29990126",
+      "34850907",
+      "29378780",
+      "39163638",
+      "29081688",
+      "39068371",
+      "36413575",
+      "35666736",
+      "37569400",
+      "36374878",
+      "39210256",
+      "38867914",
+      "38293094",
+      "37486893",
+      "37662307",
+      "33796819",
+      "38291225",
+      "37229121",
+      "39010878",
+      "38736546",
+      "38848239",
+      "28982128",
+      "36466610",
+      "38336958",
+      "37401370",
+      "37961633",
+      "34646994",
+      "39033307"
+    ],
+    "review": [
+      "36057196",
+      "30447332",
+      "28359978",
+      "19586888",
+      "25637093",
+      "20943488",
+      "19721087",
+      "21938617",
+      "20074831",
+      "35679803",
+      "34863368",
+      "29378780",
+      "29081688",
+      "37486893",
+      "36466610"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(22)00713-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(22)00713-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

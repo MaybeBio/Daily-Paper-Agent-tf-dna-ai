@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data analysis, interpretation, and reporting quality
+- **Shared manuscript claim summary** The authors report that chronic consumption of flavanone-rich grapefruit juice for 6 months modulates the expression of protein-coding genes and microRNAs in peripheral blood mononuclear cells of postmenopausal women, with bioinformatic analyses suggesting involvement of inflammation, immune response, cell adhesion, and vascular function pathways, and correlation analyses suggesting a protective profile relative to vascular dysfunction.
+- **Visible evidence base** Full manuscript text including Methods, Results, Discussion, and figure legends; no raw data, supplementary tables, or figures were available for inspection
+- **Missing materials affecting confidence** Raw microarray data, supplementary tables (including the full list of differentially expressed genes), supplementary figures, detailed statistical outputs, and the original clinical trial protocol
+
+## Reviewer
+- **Overall assessment** This manuscript presents a secondary nutrigenomic analysis of a previously published randomized controlled trial. The study addresses a relevant question regarding the molecular effects of grapefruit flavanones in humans, an area with limited data. The experimental approach is reasonable, and the authors employ a comprehensive suite of bioinformatic tools. However, several methodological details are insufficiently described, the statistical thresholds are unusually lenient, and the interpretation of in silico docking results is speculative. The correlation analyses with external datasets are interesting but their biological meaning is limited by the lack of direct mechanistic validation. The manuscript would benefit from clearer reporting of the analysis pipeline, more stringent statistical criteria, and a more cautious interpretation of the findings.
+- **Who would be interested in the results, and why** Researchers in the fields of nutritional genomics, polyphenol bioactivity, cardiovascular prevention, and women's health would find these results of interest. The study provides human data on the transcriptomic effects of a common dietary intervention, which is valuable given the predominance of animal and in vitro studies in this area. The integration of mRNA and miRNA data, as well as the correlation with a functional vascular parameter, adds translational relevance.
+- **Major strengths** The study addresses a gap in human nutrigenomic data for flavanones. The use of a randomized controlled trial design with a crossover structure provides a solid foundation. The comprehensive bioinformatic approach, including gene ontology, pathway analysis, protein-protein interaction networks, transcription factor prediction, and docking studies, is thorough. The correlation of gene expression changes with a clinically relevant vascular parameter (PWV) strengthens the potential significance of the findings. The integration of multiple data types (mRNA, miRNA, transcription factors, docking) is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that 1,930 probes were identified as differentially expressed, with 1,401 genes after applying a fold-change cut-off of 1.05.
+  - **Evidence pointer** Methods, Gene Expression Analysis; Results, Grapefruit Juice Consumption Modulates the Expression of Genes
+  - **Concern** The statistical threshold for identifying differentially expressed genes is not clearly stated. The fold-change cut-off of 1.05 is extremely lenient and likely includes many genes with negligible biological relevance. The adjusted p-value threshold is not specified. With such a small sample size (n=9 per group), the risk of false positives is substantial. The authors do not report effect sizes or confidence intervals for the observed changes.
+  - **Why it matters** The core finding of the study, namely that GFJ modulates gene expression, depends entirely on the validity of the differential expression analysis. If the statistical criteria are too lenient, the entire downstream analysis, including pathway enrichment and network construction, may be built on noise. This would undermine the central conclusions of the manuscript.
+  - **Resolution test** The authors should provide the complete statistical criteria, including the adjusted p-value threshold and the method of multiple testing correction. They should justify the choice of fold-change cut-off and ideally provide a sensitivity analysis using more stringent criteria. The number of differentially expressed genes should be reported at various thresholds to demonstrate robustness.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Sample size and study design
+  - **Claim pointer** The authors state that blood samples were collected from 12 volunteers randomly selected from the 48 participants in the original trial.
+  - **Evidence pointer** Methods, Blood Collection and PBMC Isolation
+  - **Concern** The manuscript does not explain how the 12 volunteers were selected, whether this subsample is representative of the full cohort, or whether the study is adequately powered for the analyses performed. With only 9 samples per group after quality control, the statistical power to detect modest gene expression changes is very limited. The crossover design of the original trial is not fully exploited in the analysis, as the paired nature of the data is not clearly described.
+  - **Why it matters** The reliability of the findings depends on the adequacy of the sample size and the appropriateness of the statistical model. If the subsample is not representative or the analysis does not account for the crossover design, the results may be biased. The small sample size also limits the generalizability of the findings.
+  - **Resolution test** The authors should describe the selection process for the 12 volunteers, provide a power calculation, and clarify how the crossover design was handled in the statistical analysis. If the analysis did not account for the paired design, this should be acknowledged as a limitation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of in silico docking
+  - **Claim pointer** The authors state that docking analyses suggest that naringenin metabolites "may bind to transcription factors and cell signaling proteins, with as a potential consequence, modifications of their kinase activity and activation of downstream cell signaling proteins and transcription factors."
+  - **Evidence pointer** Results, Docking Analyses; Figure 5
+  - **Concern** The docking analysis is purely computational and provides no experimental validation. The binding energies reported are modest, and the authors themselves acknowledge that the analysis cannot determine whether the interactions result in activation or inhibition. The leap from in silico binding predictions to statements about functional consequences is speculative. The relevance of these docking results to the in vivo situation is unclear, as the concentrations of metabolites in tissues are not considered.
+  - **Why it matters** The docking results are presented as supporting the mechanistic plausibility of the observed gene expression changes. If these results are overinterpreted, they could mislead readers about the strength of the evidence for a direct molecular mechanism. The manuscript should clearly distinguish between hypothesis-generating computational predictions and experimentally validated findings.
+  - **Resolution test** The authors should temper the language used to describe the docking results, clearly labeling them as hypothesis-generating. They should discuss the limitations of the approach, including the lack of experimental validation and the uncertainty about in vivo relevance. Ideally, they would reference any published experimental data on flavanone-protein interactions to contextualize their findings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Correlation analysis with external datasets
+  - **Claim pointer** The authors report that the gene expression profile after GFJ consumption is inversely correlated with gene expression profiles associated with arterial stiffness and hypertension in external datasets.
+  - **Evidence pointer** Results, Correlation With Gene Expression Changes Associated With Vascular Dysfunction; Figure 9
+  - **Concern** The correlation analyses with external datasets (GSE50883, GSE6599) are based on comparing lists of differentially expressed genes from different studies with different platforms, different cell types, and different populations. The biological meaning of such cross-study correlations is unclear. The authors do not describe the methods used for these comparisons in sufficient detail, and the statistical significance of the observed correlations is not reported.
+  - **Why it matters** The claim that the GFJ-induced gene expression profile is "protective" relies heavily on these correlation analyses. If the methodology is not robust or the interpretation is overstated, this conclusion is not supported. The authors themselves acknowledge that the analysis cannot determine whether the changes result in disease prevention, but the framing of the results suggests a protective effect.
+  - **Resolution test** The authors should provide a detailed description of the methods used for the cross-study comparisons, including how gene lists were matched and how correlations were calculated. They should report the statistical significance of the correlations and discuss the limitations of comparing gene expression profiles across different studies and platforms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting quality
+  - **Affected element** Methods, miRNA Expression Analysis
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the miRNA analysis is brief. The authors do not specify the platform used for miRNA arrays, the normalization method, or the statistical criteria for identifying differentially expressed miRNAs.
+  - **Required correction** Provide additional details on the miRNA array platform, data preprocessing, and statistical analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** While the data are deposited in GEO, the accession number is provided. However, the authors do not state whether the raw data or processed data are available, and the reviewer could not access the data to verify the analyses.
+  - **Required correction** Clarify the nature of the deposited data and ensure that all data necessary to reproduce the analyses are available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures
+  - **Evidence pointer** Figure legends
+  - **Issue** The figures are not available for review. The figure legends suggest complex multi-panel figures, but without seeing the figures, it is difficult to assess their clarity and informativeness.
+  - **Required correction** Ensure that all figures are clearly labeled, legible, and effectively convey the key findings.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** Some sentences in the Discussion are long and convoluted, making them difficult to follow. For example, the sentence beginning "It has been described that risk factors involved in atherosclerosis..." could be simplified.
+  - **Required correction** Revise for clarity and conciseness.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Missing information
+  - **Affected element** Methods, Subjects
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript does not provide details on the baseline characteristics of the 12 volunteers included in this nutrigenomic analysis, such as age, BMI, or medication use. This information is important for assessing the generalizability of the findings.
+  - **Required correction** Provide a table with baseline characteristics of the subsample.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of clarity regarding the statistical criteria for differential expression. The lenient fold-change threshold and unspecified adjusted p-value make it impossible to assess the robustness of the findings. Additionally, the small sample size and the lack of a clear description of how the crossover design was handled in the analysis are significant concerns. The cross-study correlation analyses are not described in sufficient detail to evaluate their validity.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study addresses a gap in human nutrigenomic data for flavanones, which is a relatively underexplored area. The integration of mRNA and miRNA data with functional correlation is a novel aspect. However, the overall approach is not methodologically innovative.
+  - **Scientific importance** The findings are of moderate importance. They provide preliminary evidence for molecular effects of grapefruit flavanones in humans, but the clinical significance is unclear. The correlation with PWV is interesting but does not establish causality or clinical benefit.
+  - **Interdisciplinary readership** The topic bridges nutrition, genomics, and cardiovascular biology, which could appeal to a broad readership. However, the technical nature of the analyses may limit accessibility.
+  - **Technical soundness** The technical soundness is questionable due to the lenient statistical thresholds, the small sample size, and the lack of detail on several analytical steps. The in silico docking results are speculative.
+  - **Readability for nonspecialists** The manuscript is generally well-written but includes technical jargon that may be challenging for nonspecialists. The figures and tables, if well-designed, could help convey the key findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and has a reasonable study design, but the methodological weaknesses, particularly regarding statistical rigor and the interpretation of computational analyses, prevent the findings from being considered robust. The authors should be encouraged to resubmit after addressing the major concerns.
+
+## Risk / unsupported claims
+- The claim that GFJ flavanones modulate gene expression is not fully supported due to the lack of clear statistical criteria and the lenient fold-change threshold.
+- The claim that in silico docking suggests functional consequences of flavanone-protein interactions is speculative and not supported by experimental evidence.
+- The claim that the GFJ-induced gene expression profile is "protective" regarding cardiovascular health is not supported by the cross-study correlation analyses, which are methodologically unclear and do not establish causality.
+- The claim that the study reveals "for the first time" the capacity of flavanones to modulate miRNA expression in humans is not verifiable from the provided text, as the authors do not discuss prior literature on this topic in sufficient detail.
+- The correlation of gene expression changes with PWV is based on a small subsample and the statistical methods are not fully described, making the strength of this association unclear.

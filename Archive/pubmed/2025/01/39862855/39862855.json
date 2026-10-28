@@ -1,0 +1,564 @@
+{
+  "identity": {
+    "pmid": "39862855",
+    "doi": "10.1016/j.cell.2025.01.003",
+    "title": "Ligand interaction landscape of transcription factors and essential enzymes in E. coli."
+  },
+  "content": {
+    "abstract": "Knowledge of protein-metabolite interactions can enhance mechanistic understanding and chemical probing of biochemical processes, but the discovery of endogenous ligands remains challenging. Here, we combined rapid affinity purification with precision mass spectrometry and high-resolution molecular docking to precisely map the physical associations of 296 chemically diverse small-molecule metabolite ligands with 69 distinct essential enzymes and 45 transcription factors in the gram-negative bacterium Escherichia coli. We then conducted systematic metabolic pathway integration, pan-microbial evolutionary projections, and independent in-depth biophysical characterization experiments to define the functional significance of ligand interfaces. This effort revealed principles governing functional crosstalk on a network level, divergent patterns of binding pocket conservation, and scaffolds for designing selective chemical probes. This structurally resolved ligand interactome mapping pipeline can be scaled to illuminate the native small-molecule networks of complete cells and potentially entire multi-cellular communities.",
+    "keywords": [
+      "LP/MS",
+      "chemical probe",
+      "dynamic network",
+      "enzymes",
+      "molecular docking",
+      "multi-modal interactome",
+      "precision structural modeling",
+      "protein-ligand binding pocket",
+      "protein-metabolite interactions",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli/metabolism/enzymology",
+      "Ligands",
+      "*Transcription Factors/metabolism/chemistry",
+      "*Escherichia coli Proteins/metabolism/chemistry",
+      "Molecular Docking Simulation",
+      "Protein Binding",
+      "Metabolic Networks and Pathways",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Hui",
+        "Kotelnikov, Sergei",
+        "Egbert, Megan E",
+        "Ofaim, Shany",
+        "Stevens, Grant C",
+        "Phanse, Sadhna",
+        "Saccon, Tatiana",
+        "Ignatov, Mikhail",
+        "Dutta, Shubham",
+        "Istace, Zoe",
+        "Moutaoufik, Mohamed Taha",
+        "Aoki, Hiroyuki",
+        "Kewalramani, Neal",
+        "Sun, Jianxian",
+        "Gong, Yufeng",
+        "Padhorny, Dzmitry",
+        "Poda, Gennady",
+        "Alekseenko, Andrey",
+        "Porter, Kathryn A",
+        "Jones, George",
+        "Rodionova, Irina",
+        "Guo, Hongbo",
+        "Pogoutse, Oxana",
+        "Datta, Suprama",
+        "Saier, Milton",
+        "Crovella, Mark",
+        "Vajda, Sandor",
+        "Moreno-Hagelsieb, Gabriel",
+        "Parkinson, John",
+        "Segre, Daniel",
+        "Babu, Mohan",
+        "Kozakov, Dima",
+        "Emili, Andrew"
+      ],
+      "short_names": [
+        "Peng H",
+        "Kotelnikov S",
+        "Egbert ME",
+        "Ofaim S",
+        "Stevens GC",
+        "Phanse S",
+        "Saccon T",
+        "Ignatov M",
+        "Dutta S",
+        "Istace Z",
+        "Moutaoufik MT",
+        "Aoki H",
+        "Kewalramani N",
+        "Sun J",
+        "Gong Y",
+        "Padhorny D",
+        "Poda G",
+        "Alekseenko A",
+        "Porter KA",
+        "Jones G",
+        "Rodionova I",
+        "Guo H",
+        "Pogoutse O",
+        "Datta S",
+        "Saier M",
+        "Crovella M",
+        "Vajda S",
+        "Moreno-Hagelsieb G",
+        "Parkinson J",
+        "Segre D",
+        "Babu M",
+        "Kozakov D",
+        "Emili A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Toronto, Toronto, ON M5S 3H6, Canada.",
+        "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA.",
+        "Department of Biomedical Engineering, Boston University, Boston, MA 02215, USA.",
+        "Program in Bioinformatics, Boston University, Boston, MA 02215, USA.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Center for Network Systems Biology, Boston University, Boston, MA 02218, USA; Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada.",
+        "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada.",
+        "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA.",
+        "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada.",
+        "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada.",
+        "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada; Faculty of Medical Sciences, University Mohammed VI Polytechnic, Benguerir, Morocco.",
+        "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada.",
+        "Program in Bioinformatics, Boston University, Boston, MA 02215, USA; Center for Network Systems Biology, Boston University, Boston, MA 02218, USA.",
+        "Department of Chemistry, University of Toronto, Toronto, ON M5S 3H6, Canada.",
+        "Department of Chemistry, University of Toronto, Toronto, ON M5S 3H6, Canada.",
+        "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA.",
+        "Drug Discovery Program, Ontario Institute for Cancer Research, Toronto, ON M5G 0A3, Canada; Leslie Dan Faculty of Pharmacy, University of Toronto, Toronto, ON M5S 3M2, Canada.",
+        "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA.",
+        "Department of Biomedical Engineering, Boston University, Boston, MA 02215, USA.",
+        "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA.",
+        "Department of Molecular Biology, University of California, San Diego, La Jolla, San Diego, CA 920930, USA.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Center for Network Systems Biology, Boston University, Boston, MA 02218, USA.",
+        "Department of Molecular Biology, University of California, San Diego, La Jolla, San Diego, CA 920930, USA.",
+        "Program in Bioinformatics, Boston University, Boston, MA 02215, USA; Department of Computer Science, Boston University, Boston, MA 02215, USA.",
+        "Department of Biomedical Engineering, Boston University, Boston, MA 02215, USA; Department of Chemistry, Boston University, Boston, MA 02215, USA.",
+        "Department of Biology, Wilfrid Laurier University, Waterloo, ON N2L 3C5, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Department of Biomedical Engineering, Boston University, Boston, MA 02215, USA; Program in Bioinformatics, Boston University, Boston, MA 02215, USA; Department of Biology, Boston University, Boston, MA 02215, USA.",
+        "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada. Electronic address: mohan.babu@uregina.ca.",
+        "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA. Electronic address: midas@laufercenter.org.",
+        "Program in Bioinformatics, Boston University, Boston, MA 02215, USA; Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada; Center for Network Systems Biology, Boston University, Boston, MA 02218, USA; Department of Chemistry, Boston University, Boston, MA 02215, USA; Department of Chemical Physiology and Biochemistry, Division of Oncological Sciences, Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA. Electronic address: emili@ohsu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Hui",
+        "short_name": "Peng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Toronto, Toronto, ON M5S 3H6, Canada."
+        ]
+      },
+      {
+        "full_name": "Kotelnikov, Sergei",
+        "short_name": "Kotelnikov S",
+        "identifiers": [],
+        "affiliations": [
+          "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA."
+        ]
+      },
+      {
+        "full_name": "Egbert, Megan E",
+        "short_name": "Egbert ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Ofaim, Shany",
+        "short_name": "Ofaim S",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Stevens, Grant C",
+        "short_name": "Stevens GC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Phanse, Sadhna",
+        "short_name": "Phanse S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Network Systems Biology, Boston University, Boston, MA 02218, USA; Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada."
+        ]
+      },
+      {
+        "full_name": "Saccon, Tatiana",
+        "short_name": "Saccon T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada."
+        ]
+      },
+      {
+        "full_name": "Ignatov, Mikhail",
+        "short_name": "Ignatov M",
+        "identifiers": [],
+        "affiliations": [
+          "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA."
+        ]
+      },
+      {
+        "full_name": "Dutta, Shubham",
+        "short_name": "Dutta S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada."
+        ]
+      },
+      {
+        "full_name": "Istace, Zoe",
+        "short_name": "Istace Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada."
+        ]
+      },
+      {
+        "full_name": "Moutaoufik, Mohamed Taha",
+        "short_name": "Moutaoufik MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada; Faculty of Medical Sciences, University Mohammed VI Polytechnic, Benguerir, Morocco."
+        ]
+      },
+      {
+        "full_name": "Aoki, Hiroyuki",
+        "short_name": "Aoki H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada."
+        ]
+      },
+      {
+        "full_name": "Kewalramani, Neal",
+        "short_name": "Kewalramani N",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics, Boston University, Boston, MA 02215, USA; Center for Network Systems Biology, Boston University, Boston, MA 02218, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Jianxian",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Toronto, Toronto, ON M5S 3H6, Canada."
+        ]
+      },
+      {
+        "full_name": "Gong, Yufeng",
+        "short_name": "Gong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Toronto, Toronto, ON M5S 3H6, Canada."
+        ]
+      },
+      {
+        "full_name": "Padhorny, Dzmitry",
+        "short_name": "Padhorny D",
+        "identifiers": [],
+        "affiliations": [
+          "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA."
+        ]
+      },
+      {
+        "full_name": "Poda, Gennady",
+        "short_name": "Poda G",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery Program, Ontario Institute for Cancer Research, Toronto, ON M5G 0A3, Canada; Leslie Dan Faculty of Pharmacy, University of Toronto, Toronto, ON M5S 3M2, Canada."
+        ]
+      },
+      {
+        "full_name": "Alekseenko, Andrey",
+        "short_name": "Alekseenko A",
+        "identifiers": [],
+        "affiliations": [
+          "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA."
+        ]
+      },
+      {
+        "full_name": "Porter, Kathryn A",
+        "short_name": "Porter KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Jones, George",
+        "short_name": "Jones G",
+        "identifiers": [],
+        "affiliations": [
+          "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA."
+        ]
+      },
+      {
+        "full_name": "Rodionova, Irina",
+        "short_name": "Rodionova I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, University of California, San Diego, La Jolla, San Diego, CA 920930, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Hongbo",
+        "short_name": "Guo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Pogoutse, Oxana",
+        "short_name": "Pogoutse O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Datta, Suprama",
+        "short_name": "Datta S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Network Systems Biology, Boston University, Boston, MA 02218, USA."
+        ]
+      },
+      {
+        "full_name": "Saier, Milton",
+        "short_name": "Saier M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, University of California, San Diego, La Jolla, San Diego, CA 920930, USA."
+        ]
+      },
+      {
+        "full_name": "Crovella, Mark",
+        "short_name": "Crovella M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics, Boston University, Boston, MA 02215, USA; Department of Computer Science, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Vajda, Sandor",
+        "short_name": "Vajda S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, Boston, MA 02215, USA; Department of Chemistry, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Moreno-Hagelsieb, Gabriel",
+        "short_name": "Moreno-Hagelsieb G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Wilfrid Laurier University, Waterloo, ON N2L 3C5, Canada."
+        ]
+      },
+      {
+        "full_name": "Parkinson, John",
+        "short_name": "Parkinson J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Segre, Daniel",
+        "short_name": "Segre D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, Boston, MA 02215, USA; Program in Bioinformatics, Boston University, Boston, MA 02215, USA; Department of Biology, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Babu, Mohan",
+        "short_name": "Babu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Regina, Regina, SK S4S 0A2, Canada. Electronic address: mohan.babu@uregina.ca."
+        ]
+      },
+      {
+        "full_name": "Kozakov, Dima",
+        "short_name": "Kozakov D",
+        "identifiers": [],
+        "affiliations": [
+          "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA. Electronic address: midas@laufercenter.org."
+        ]
+      },
+      {
+        "full_name": "Emili, Andrew",
+        "short_name": "Emili A",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics, Boston University, Boston, MA 02215, USA; Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada; Center for Network Systems Biology, Boston University, Boston, MA 02218, USA; Department of Chemistry, Boston University, Boston, MA 02215, USA; Department of Chemical Physiology and Biochemistry, Division of Oncological Sciences, Knight Cancer Institute, Oregon Health and Science University, Portland, OR, USA. Electronic address: emili@ohsu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2025 Mar 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/26 02:10",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "41745292",
+      "41596588",
+      "41537603",
+      "40670652",
+      "40378093",
+      "40196539"
+    ],
+    "refs": [],
+    "similar": [
+      "39862855",
+      "26549308",
+      "23168686",
+      "37248827",
+      "17444518",
+      "28152599",
+      "33741411",
+      "29495922",
+      "30455279",
+      "20415432",
+      "27864975",
+      "24058293",
+      "31464375",
+      "26187469",
+      "38723180",
+      "18076053",
+      "32013182",
+      "15608374",
+      "33957147",
+      "34288132",
+      "39447853",
+      "11805094",
+      "12070337",
+      "40335485",
+      "31729460",
+      "33077659",
+      "28670937",
+      "32316259",
+      "39254669",
+      "23175790",
+      "31901788",
+      "31056419",
+      "17950313",
+      "32328689",
+      "25173704",
+      "34718990",
+      "11700074",
+      "34170902",
+      "17449611",
+      "15840565",
+      "33455022",
+      "23092444",
+      "27395429",
+      "26563552",
+      "34743001",
+      "12909017",
+      "33689294",
+      "15324305",
+      "27174929",
+      "28499419",
+      "30806877",
+      "29721784",
+      "29429104",
+      "28990290",
+      "14612446",
+      "26573537",
+      "23581389",
+      "31412600",
+      "21134774",
+      "29923648",
+      "22733688",
+      "29307493",
+      "33034007",
+      "18996995",
+      "38661096",
+      "25290579",
+      "29528805",
+      "37565744",
+      "32467170",
+      "28721412",
+      "19744923",
+      "29018125",
+      "20712334",
+      "11586920",
+      "35922625",
+      "19561621",
+      "28467057",
+      "32576674",
+      "32785630",
+      "24256814",
+      "39197021",
+      "28605514",
+      "30416087",
+      "17379776",
+      "23644595",
+      "36971548",
+      "30089654",
+      "30069925",
+      "16546208",
+      "25148941",
+      "33637650",
+      "12741837",
+      "28900027",
+      "25645845",
+      "11786010",
+      "29037875",
+      "20166125",
+      "33382614",
+      "25376905",
+      "17706247"
+    ],
+    "review": [
+      "39862855",
+      "28670937"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(25)00032-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39862855",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

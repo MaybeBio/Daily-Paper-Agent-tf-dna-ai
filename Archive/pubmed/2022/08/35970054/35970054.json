@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "35970054",
+    "doi": "10.1016/j.cmpb.2022.107035",
+    "title": "Predicting gene expression levels from DNA sequences and post-transcriptional information with transformers."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVES: In the latest years, the prediction of gene expression levels has been crucial due to its potential applications in the clinics. In this context, Xpresso and others methods based on Convolutional Neural Networks and Transformers were firstly proposed to this aim. However, all these methods embed data with a standard one-hot encoding algorithm, resulting in impressively sparse matrices. In addition, post-transcriptional regulation processes, which are of uttermost importance in the gene expression process, are not considered in the model. METHODS: This paper presents Transformer DeepLncLoc, a novel method to predict the abundance of the mRNA (i.e., gene expression levels) by processing gene promoter sequences, managing the problem as a regression task. The model exploits a transformer-based architecture, introducing the DeepLncLoc method to perform the data embedding. Since DeepLncloc is based on word2vec algorithm, it avoids the sparse matrices problem. RESULTS: Post-transcriptional information related to mRNA stability and transcription factors is included in the model, leading to significantly improved performances compared to the state-of-the-art works. Transformer DeepLncLoc reached 0.76 of R(2) evaluation metric compared to 0.74 of Xpresso. CONCLUSION: The Multi-Headed Attention mechanisms which characterizes the transformer methodology is suitable for modeling the interactions between DNA's locations, overcoming the recurrent models. Finally, the integration of the transcription factors data in the pipeline leads to impressive gains in predictive power.",
+    "keywords": [
+      "Attention",
+      "DNA",
+      "Gene-expression",
+      "Prediction",
+      "Transcription-factors",
+      "Transformers"
+    ],
+    "mesh_terms": [
+      "Base Sequence",
+      "*DNA/genetics",
+      "Gene Expression",
+      "RNA, Messenger/genetics",
+      "*Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pipoli, Vittorio",
+        "Cappelli, Mattia",
+        "Palladini, Alessandro",
+        "Peluso, Carlo",
+        "Lovino, Marta",
+        "Ficarra, Elisa"
+      ],
+      "short_names": [
+        "Pipoli V",
+        "Cappelli M",
+        "Palladini A",
+        "Peluso C",
+        "Lovino M",
+        "Ficarra E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Enzo Ferrari Engineering Department, University of Modena and Reggio Emilia, Via P. Vivarelli, 10, Modena, Emilia Romagna 41125, Italy.",
+        "Department of Control and Computer Engineering, Corso Duca degli Abruzzi, 24, Turin, Piedmont 10129 Italy.",
+        "Department of Control and Computer Engineering, Corso Duca degli Abruzzi, 24, Turin, Piedmont 10129 Italy.",
+        "Department of Control and Computer Engineering, Corso Duca degli Abruzzi, 24, Turin, Piedmont 10129 Italy.",
+        "Enzo Ferrari Engineering Department, University of Modena and Reggio Emilia, Via P. Vivarelli, 10, Modena, Emilia Romagna 41125, Italy. Electronic address: marta.lovino@unimore.it.",
+        "Enzo Ferrari Engineering Department, University of Modena and Reggio Emilia, Via P. Vivarelli, 10, Modena, Emilia Romagna 41125, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pipoli, Vittorio",
+        "short_name": "Pipoli V",
+        "identifiers": [],
+        "affiliations": [
+          "Enzo Ferrari Engineering Department, University of Modena and Reggio Emilia, Via P. Vivarelli, 10, Modena, Emilia Romagna 41125, Italy."
+        ]
+      },
+      {
+        "full_name": "Cappelli, Mattia",
+        "short_name": "Cappelli M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Control and Computer Engineering, Corso Duca degli Abruzzi, 24, Turin, Piedmont 10129 Italy."
+        ]
+      },
+      {
+        "full_name": "Palladini, Alessandro",
+        "short_name": "Palladini A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Control and Computer Engineering, Corso Duca degli Abruzzi, 24, Turin, Piedmont 10129 Italy."
+        ]
+      },
+      {
+        "full_name": "Peluso, Carlo",
+        "short_name": "Peluso C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Control and Computer Engineering, Corso Duca degli Abruzzi, 24, Turin, Piedmont 10129 Italy."
+        ]
+      },
+      {
+        "full_name": "Lovino, Marta",
+        "short_name": "Lovino M",
+        "identifiers": [],
+        "affiliations": [
+          "Enzo Ferrari Engineering Department, University of Modena and Reggio Emilia, Via P. Vivarelli, 10, Modena, Emilia Romagna 41125, Italy. Electronic address: marta.lovino@unimore.it."
+        ]
+      },
+      {
+        "full_name": "Ficarra, Elisa",
+        "short_name": "Ficarra E",
+        "identifiers": [],
+        "affiliations": [
+          "Enzo Ferrari Engineering Department, University of Modena and Reggio Emilia, Via P. Vivarelli, 10, Modena, Emilia Romagna 41125, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computer methods and programs in biomedicine"
+    ],
+    "journal_abbrev": [
+      "Comput Methods Programs Biomed"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/16 06:00",
+    "fetched_at": "2026-09-28 12:22:24"
+  },
+  "links": {
+    "cites": [
+      "41599985",
+      "40105319",
+      "39998912",
+      "39766860",
+      "39650606",
+      "37993778"
+    ],
+    "refs": [],
+    "similar": [
+      "35970054",
+      "37004267",
+      "34498677",
+      "37993778",
+      "33539511",
+      "34693536",
+      "34330244",
+      "32433972",
+      "35536815",
+      "35632271",
+      "34871807",
+      "34484416",
+      "33834200",
+      "35777085",
+      "30323198",
+      "34915158",
+      "31412582",
+      "33125335",
+      "35458907",
+      "17377845",
+      "33808317",
+      "35780100",
+      "35633468",
+      "23361474",
+      "34073774",
+      "34037527",
+      "35891778",
+      "26103634",
+      "31714956",
+      "32759655",
+      "15113405",
+      "35863177",
+      "30558208",
+      "33334313",
+      "34915412",
+      "35808302",
+      "35802991",
+      "35652477",
+      "10487874",
+      "11010817",
+      "35746372",
+      "32770026",
+      "15262804",
+      "12888570",
+      "30266658",
+      "34671814",
+      "25281301",
+      "34991450",
+      "2180963",
+      "35885455",
+      "23143563",
+      "10980416",
+      "33134095",
+      "34890164",
+      "35676633",
+      "35816859",
+      "15767253",
+      "34451049",
+      "32708631",
+      "34717440",
+      "25007214",
+      "34300504",
+      "30425123",
+      "12527199",
+      "36138880",
+      "34923250",
+      "26257939",
+      "35849908",
+      "35591118",
+      "34441318",
+      "24649509",
+      "30440889",
+      "36146170",
+      "19293946",
+      "17115123"
+    ],
+    "review": [
+      "35970054",
+      "31412582",
+      "31714956",
+      "35652477",
+      "30266658"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0169-2607(22)00417-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0169-2607(22)00417-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

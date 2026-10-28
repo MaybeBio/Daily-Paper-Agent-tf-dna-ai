@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific validity of claims, methodological soundness, interpretation of results, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors report a drug repurposing study identifying rabeprazole and pantoprazole as novel FOXM1 inhibitors. Using pharmacophore-based virtual screening, molecular docking, and MD simulations, they propose binding of these drugs to the FOXM1 DNA-binding domain. In vitro experiments in two breast cancer cell lines (BT-20, MCF-7) show reduced cell viability and FOXM1 protein levels following drug treatment.
+- **Visible evidence base** Figures 1–7, Table 1, Supplementary Figures S1a–f (referenced but not provided in full), methods descriptions, results narrative
+- **Missing materials affecting confidence** Raw Western blot images, full dose-response curves, statistical analysis details, MD simulation trajectory data, supplementary files (TIF, DOCX), cell line authentication and mycoplasma testing information, positive/negative control details for Western blots
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward computational and in vitro screening approach with potentially interesting findings. However, the evidence provided is insufficient to support the central claim that rabeprazole and pantoprazole are specific FOXM1 inhibitors. The computational results are descriptive rather than quantitative, the in vitro data lack mechanistic depth, and the link between FOXM1 inhibition and observed phenotypic effects is not rigorously established. The work may be of interest to researchers in drug repurposing and FOXM1 biology, but in its current form the conclusions outpace the evidence.
+- **Who would be interested in the results, and why** Researchers in cancer drug repurposing, FOXM1 biology, and breast cancer therapeutics may find the identification of two FDA-approved drugs as candidate FOXM1 inhibitors of interest. The potential clinical translatability of repurposed proton pump inhibitors for cancer treatment is an active area of investigation, and this work adds to that conversation.
+- **Major strengths** The study addresses a clinically relevant problem (lack of targeted therapies for TNBC) and leverages a practical drug repurposing strategy. The use of multiple computational approaches (pharmacophore modeling, docking, MD) is appropriate for initial screening. The inclusion of two breast cancer cell lines representing different subtypes (TNBC and ER+) is a reasonable starting point. The authors also examine a downstream effector (eEF2K) of FOXM1, which provides some mechanistic context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for core claim
+  - **Claim pointer** The manuscript claims that rabeprazole and pantoprazole are "novel FOXM1 inhibitors" and that they "inhibit FOXM1" in breast cancer cells.
+  - **Evidence pointer** Results section, Figures 5 and 6, Table 1
+  - **Concern** The central claim of FOXM1 inhibition rests on Western blot data showing reduced FOXM1 protein levels after drug treatment. However, the manuscript does not establish whether this reduction is due to direct FOXM1 inhibition, transcriptional repression, protein degradation, or a general cytotoxic effect. The drugs are proton pump inhibitors with known off-target effects, and the observed reduction in FOXM1 could be a secondary consequence of cell stress or death. No experiments distinguishing direct target engagement from indirect effects are presented. Additionally, the claim that these drugs are "inhibitors" of FOXM1 implies functional inhibition of its transcriptional activity, but no reporter assays, DNA-binding assays, or downstream transcriptional readouts are provided.
+  - **Why it matters** The title and conclusions assert a specific mechanism of action (FOXM1 inhibition) that is not adequately supported. Without evidence of direct binding or functional inhibition, the drugs could be acting through entirely different pathways, and the proposed mechanism would be misleading.
+  - **Resolution test** Provide direct evidence of FOXM1 inhibition, such as FOXM1 transcriptional reporter assays, electrophoretic mobility shift assays showing disrupted DNA binding, or chromatin immunoprecipitation demonstrating reduced FOXM1 occupancy at target gene promoters. Alternatively, demonstrate that the effects on cell viability are rescued by FOXM1 overexpression, which would establish on-target specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of computational results
+  - **Claim pointer** The manuscript states that rabeprazole and pantoprazole "exhibit strong binding affinity" to FOXM1 and that rabeprazole "is a more potent inhibitor of FOXM1-DBD than FDI-6."
+  - **Evidence pointer** Table 1, Figures 2–4, Methods section
+  - **Concern** The docking scores reported in Table 1 are raw AutoDock Vina scores without associated error estimates, and no comparison to known binders or decoys is provided. The claim that rabeprazole is "more potent" than FDI-6 is based on binding energy values that are within a range typically considered indistinguishable in docking studies (e.g., −5.5 vs −5.6 kcal/mol). The MD simulations are described qualitatively, with no quantitative metrics such as binding free energy calculations, RMSD convergence analysis, or comparison to a negative control. The selection of the top 11 hits from 391 compounds is not justified with scoring thresholds or statistical significance.
+  - **Why it matters** Computational predictions are only as reliable as their validation. The current presentation does not allow the reader to assess whether the identified compounds are genuinely better than random screening hits. Overinterpretation of docking scores is a common pitfall that undermines the credibility of the computational pipeline.
+  - **Resolution test** Include a quantitative comparison of docking scores with a set of known non-binders or decoys, provide error bars or standard deviations from multiple docking runs, and present MD simulation metrics such as binding free energy (MM-PBSA or similar), RMSD time series with convergence criteria, and interaction occupancy analysis. A positive control (e.g., FDI-6) and a negative control (e.g., a known non-binder) should be included in all computational analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dose-response and specificity of in vitro effects
+  - **Claim pointer** The manuscript claims that rabeprazole and pantoprazole "inhibited cell proliferation and FOXM1 protein in breast cancer cell lines in a dose-dependent manner."
+  - **Evidence pointer** Figure 5, Figure 6, Methods section
+  - **Concern** The dose-response data in Figure 5 are presented as bar graphs at selected concentrations, but no IC50 values are reported. The concentration range tested (5–100 µM) is high, and at these concentrations, proton pump inhibitors can have nonspecific cytotoxic effects unrelated to FOXM1. The manuscript does not report whether the observed effects are specific to FOXM1-expressing cells or whether non-cancerous or FOXM1-low cell lines are also affected. The Western blot data in Figure 6 appear to show a single time point and a limited concentration range, and no quantification of band intensities or statistical analysis is provided.
+  - **Why it matters** Without dose-response curves with calculated IC50 values, selectivity assays against non-cancerous cells, and quantitative Western blot analysis, the specificity and potency of these drugs as FOXM1 inhibitors cannot be evaluated. The high concentrations required for effect raise concerns about clinical relevance and off-target toxicity.
+  - **Resolution test** Provide full dose-response curves with calculated IC50 values for both cell lines, include a non-cancerous breast epithelial cell line (e.g., MCF-10A) as a control, quantify Western blot bands with densitometry and statistical analysis, and test a broader concentration range to establish the minimum effective concentration.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link between FOXM1 inhibition and phenotype
+  - **Claim pointer** The manuscript implies that the observed reduction in cell viability is a consequence of FOXM1 inhibition.
+  - **Evidence pointer** Results section, Figures 5 and 6
+  - **Concern** The manuscript does not establish a causal relationship between FOXM1 reduction and decreased cell viability. The authors measure both outcomes in parallel but do not perform rescue experiments, knockdown/overexpression controls, or time-course studies to determine whether FOXM1 inhibition precedes or causes the phenotypic effect. The connection to eEF2K is mentioned but not functionally validated in the context of drug treatment.
+  - **Why it matters** Without establishing causality, the drugs could be reducing cell viability through FOXM1-independent mechanisms, and the observed FOXM1 reduction could be a bystander effect. This weakens the claim that these drugs are useful as FOXM1-targeted therapies.
+  - **Resolution test** Perform FOXM1 overexpression rescue experiments, compare drug effects in FOXM1-high versus FOXM1-low cells, or use a FOXM1-specific inhibitor as a positive control to demonstrate that the phenotypic effects are phenocopied by genetic or pharmacological FOXM1 inhibition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5 legend
+  - **Issue** The figure legend states "Data were presented as means ± S.D." and significance levels are indicated, but the number of independent experiments, the statistical test used, and the exact p-values are not reported.
+  - **Required correction** Specify the number of biological and technical replicates, the statistical test used (e.g., one-way ANOVA with post-hoc test), and report exact p-values or confidence intervals.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Western blot quantification
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6
+  - **Issue** The Western blot images are presented without densitometric quantification or loading control normalization data. The text states that FOXM1 levels are reduced, but this is not quantitatively demonstrated.
+  - **Required correction** Provide densitometric analysis normalized to β-actin, with bar graphs and statistical analysis for at least three independent experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** SAR interpretation
+  - **Affected element** Structure-activity relationship section
+  - **Evidence pointer** Results section, Figure 7
+  - **Issue** The SAR discussion is speculative and not supported by systematic structural analogs. The claim that the difluoromethoxy group "may contribute to the activity more than" the trifluoromethane group is not tested experimentally.
+  - **Required correction** Either temper the language to clearly indicate hypothesis generation or provide experimental data with structural analogs to support the SAR claims.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript does not discuss prior studies on proton pump inhibitors and cancer in sufficient depth, nor does it address the known limitations of docking-based screening for transcription factors, which are notoriously difficult to target with small molecules.
+  - **Required correction** Add a more comprehensive discussion of the challenges of targeting transcription factors with small molecules and contextualize the findings within the broader literature on PPIs in cancer.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct evidence of FOXM1 inhibition), R1-M2 (quantitative rigor of computational results), R1-M3 (dose-response and specificity)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. Drug repurposing for FOXM1 is not entirely novel, and proton pump inhibitors have been studied in cancer contexts. The specific combination of computational screening and in vitro validation for these two drugs is somewhat new, but the approach is largely derivative.
+  - **Scientific importance** Moderate. FOXM1 is a validated cancer target, and identifying new inhibitors is clinically relevant. However, the lack of mechanistic depth limits the significance of the findings.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biologists and cancer researchers. The clinical implications are speculative given the high concentrations required and lack of in vivo data.
+  - **Technical soundness** Weak. The computational pipeline lacks quantitative rigor, and the in vitro experiments do not establish target specificity or mechanism. The absence of key controls and statistical analyses undermines the technical quality.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and accessible, though some sections (e.g., SAR discussion) could be clearer.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial additional experimental work to support the central claims. The authors should be encouraged to resubmit after addressing the major concerns, particularly the need for direct evidence of FOXM1 inhibition and quantitative rigor in both computational and experimental analyses.
+
+## Risk / unsupported claims
+- The claim that rabeprazole and pantoprazole are "novel FOXM1 inhibitors" is not supported by direct evidence of target engagement or functional inhibition.
+- The claim that rabeprazole is "more potent" than FDI-6 is based on docking scores that are not statistically distinguishable.
+- The claim that the drugs "inhibit FOXM1" in cells is based on Western blot data without quantification, controls, or mechanistic validation.
+- The claim that the observed reduction in cell viability is due to FOXM1 inhibition is not established, as no causal link is demonstrated.
+- The SAR discussion is speculative and not experimentally validated.
+- The MD simulation results are described qualitatively without quantitative metrics, making the stability claims unverifiable from the provided text.

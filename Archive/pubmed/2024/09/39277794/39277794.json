@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "39277794",
+    "doi": "10.1016/j.bpj.2024.09.013",
+    "title": "Dynamics-based protein network features accurately discriminate neutral and rheostat positions."
+  },
+  "content": {
+    "abstract": "In some proteins, a unique class of nonconserved positions is characterized by their ability to generate diverse functional outcomes through single amino acid substitutions. Due to their ability to tune protein function, accurately identifying such \"rheostat\" positions is crucial for protein design, for understanding the impact of mutations observed in humans, and for predicting the evolution of pathogen drug resistance. However, identifying rheostat positions has been challenging, due-in part-to the absence of a clear structural relationship with binding sites. In this study, experimental data from our previous study of the Escherichia coli lactose repressor protein (LacI) was used to identify rheostat positions for which mutations tune in vivo EC(50) for the allosteric ligand \"IPTG.\" We next used the rheostat assignments to test the hypothesis that rheostat positions have unique dynamic features that will enable their identification. To that end, we integrated all-atom molecular dynamics simulations with perturbation residue response analysis. Results first revealed distinct dynamic behavior in IPTG-bound LacI compared with apo LacI, which was consistent with IPTG's role as an allosteric inducer. Next, we used a variety of dynamic features to build a classification model that discriminates experimentally characterized rheostat positions in LacI from positions with other types of substitution outcomes. In parallel, we built a second classifier model based on the 3D structural \"static\" network features of LacI. In comparative studies, the dynamic model better identified rheostat positions that were >8 A from the binding site. In summary, our study provides insights into the dynamic characteristics of rheostat positions and suggests that models built on dynamic features may be useful for predicting the locations of rheostat positions in a wide range of proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Lac Repressors/metabolism/chemistry/genetics",
+      "*Escherichia coli Proteins/chemistry/metabolism/genetics",
+      "Isopropyl Thiogalactoside/pharmacology/metabolism",
+      "Escherichia coli/metabolism/genetics",
+      "Allosteric Regulation",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Campitelli, P",
+        "Ross, D",
+        "Swint-Kruse, L",
+        "Ozkan, S B"
+      ],
+      "short_names": [
+        "Campitelli P",
+        "Ross D",
+        "Swint-Kruse L",
+        "Ozkan SB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Center for Biological Physics, Arizona State University, Tempe, Arizona.",
+        "Biosystems and Biomaterials Division, Material Measurement Laboratory, National Institute of Standards and Technology, Gaithersburg, Maryland.",
+        "Department of Biochemistry and Molecular Biology, The University of Kansas Medical Center, Kansas City, Kansas. Electronic address: lswint-kruse@kumc.edu.",
+        "Department of Physics, Center for Biological Physics, Arizona State University, Tempe, Arizona. Electronic address: banu.ozkan@asu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Campitelli, P",
+        "short_name": "Campitelli P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Center for Biological Physics, Arizona State University, Tempe, Arizona."
+        ]
+      },
+      {
+        "full_name": "Ross, D",
+        "short_name": "Ross D",
+        "identifiers": [],
+        "affiliations": [
+          "Biosystems and Biomaterials Division, Material Measurement Laboratory, National Institute of Standards and Technology, Gaithersburg, Maryland."
+        ]
+      },
+      {
+        "full_name": "Swint-Kruse, L",
+        "short_name": "Swint-Kruse L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The University of Kansas Medical Center, Kansas City, Kansas. Electronic address: lswint-kruse@kumc.edu."
+        ]
+      },
+      {
+        "full_name": "Ozkan, S B",
+        "short_name": "Ozkan SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Center for Biological Physics, Arizona State University, Tempe, Arizona. Electronic address: banu.ozkan@asu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 Oct 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/15 14:10",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "41100667",
+      "41088770",
+      "40671356",
+      "39987706"
+    ],
+    "refs": [
+      "38336297",
+      "38231868",
+      "37924711",
+      "37733863",
+      "37574787",
+      "37356902",
+      "37332013",
+      "37313628",
+      "37171062",
+      "37084271",
+      "36633931",
+      "36472898",
+      "35762709",
+      "35675441",
+      "35389981",
+      "35328632",
+      "34913592",
+      "34734672",
+      "34715787",
+      "34540902",
+      "34076313",
+      "33767175",
+      "33558758",
+      "33388636",
+      "33286439",
+      "33168628",
+      "32780837",
+      "32641900",
+      "32449829",
+      "32075411",
+      "31740686",
+      "31584091",
+      "30995449",
+      "30496278",
+      "30117637",
+      "29924847",
+      "29610305",
+      "29361231",
+      "28134345",
+      "27508249",
+      "27410729",
+      "27151201",
+      "26631602",
+      "26410588",
+      "26255589",
+      "25565105",
+      "25229149",
+      "24889800",
+      "24386217",
+      "23745135",
+      "23315928",
+      "22685075",
+      "22275068",
+      "21998559",
+      "21764165",
+      "19546171",
+      "17144929",
+      "17103112",
+      "16669632",
+      "14573864",
+      "11910022",
+      "11266612",
+      "10700279",
+      "10610774",
+      "8638105",
+      "8349640",
+      "8046748",
+      "2703485"
+    ],
+    "similar": [
+      "39277794",
+      "34076313",
+      "39987706",
+      "21928765",
+      "20804152",
+      "23587523",
+      "19368358",
+      "32780837",
+      "19818797",
+      "23406418",
+      "23834731",
+      "27598336",
+      "26689263",
+      "29962051",
+      "14636069",
+      "21802129",
+      "24386217",
+      "38860425",
+      "29856839",
+      "19029094",
+      "23658223",
+      "28134345",
+      "22965134",
+      "30064218",
+      "16101304",
+      "37924711",
+      "38336297",
+      "28249763",
+      "9858738",
+      "38465475",
+      "21410208",
+      "25341013",
+      "8638105",
+      "10835285",
+      "7641704",
+      "10899129",
+      "31351028",
+      "18536016",
+      "21375387",
+      "18616293",
+      "28591599",
+      "40223279",
+      "21806940",
+      "21374721",
+      "10700279",
+      "38019859",
+      "3732806",
+      "28743271",
+      "32641900",
+      "8046748",
+      "23486479",
+      "8995519",
+      "18164724",
+      "28295806",
+      "7557475",
+      "22253602",
+      "31958546",
+      "39189157",
+      "31396617",
+      "24391951",
+      "15323549",
+      "29318690",
+      "10521477",
+      "27064119",
+      "22594825",
+      "25771873",
+      "18309280",
+      "26503808",
+      "20512969",
+      "19269243",
+      "11258701",
+      "39251381",
+      "26878689",
+      "34213850",
+      "19166325",
+      "29584872",
+      "11733069",
+      "40617465",
+      "1563343",
+      "24507611",
+      "39824877",
+      "11266612",
+      "3049253",
+      "12598694",
+      "26763930",
+      "31451655",
+      "32138729",
+      "34187888",
+      "30117637",
+      "21715082",
+      "2271575",
+      "17436321",
+      "30485404",
+      "33784029",
+      "8709149",
+      "20484380",
+      "23028500",
+      "22307389",
+      "9022041",
+      "8794873"
+    ],
+    "review": [
+      "39277794",
+      "38336297"
+    ],
+    "pmc": [
+      "11494493"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)00625-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39277794/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1163",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

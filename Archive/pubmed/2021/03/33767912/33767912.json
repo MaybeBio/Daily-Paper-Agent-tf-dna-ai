@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "33767912",
+    "doi": "10.1016/j.omtn.2021.02.014",
+    "title": "Predicting transcription factor binding sites using DNA shape features based on shared hybrid deep learning architecture."
+  },
+  "content": {
+    "abstract": "The study of transcriptional regulation is still difficult yet fundamental in molecular biology research. Recent research has shown that the double helix structure of nucleotides plays an important role in improving the accuracy and interpretability of transcription factor binding sites (TFBSs). Although several computational methods have been designed to take both DNA sequence and DNA shape features into consideration simultaneously, how to design an efficient model is still an intractable topic. In this paper, we proposed a hybrid convolutional recurrent neural network (CNN/RNN) architecture, CRPTS, to predict TFBSs by combining DNA sequence and DNA shape features. The novelty of our proposed method relies on three critical aspects: (1) the application of a shared hybrid CNN and RNN has the ability to efficiently extract features from large-scale genomic sequences obtained by high-throughput technology; (2) the common patterns were found from DNA sequences and their corresponding DNA shape features; (3) our proposed CRPTS can capture local structural information of DNA sequences without completely relying on DNA shape data. A series of comprehensive experiments on 66 in vitro datasets derived from universal protein binding microarrays (uPBMs) shows that our proposed method CRPTS obviously outperforms the state-of-the-art methods.",
+    "keywords": [
+      "DNA sequence",
+      "DNA shape features",
+      "hybrid convolutional neural network",
+      "recurrent neural network",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Siguo",
+        "Zhang, Qinhu",
+        "Shen, Zhen",
+        "He, Ying",
+        "Chen, Zhen-Heng",
+        "Li, Jianqiang",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "Wang S",
+        "Zhang Q",
+        "Shen Z",
+        "He Y",
+        "Chen ZH",
+        "Li J",
+        "Huang DS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, No. 4800 Caoan Road, Shanghai 201804, China.",
+        "The Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, No. 4800 Caoan Road, Shanghai 201804, China.",
+        "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Tongji University, Siping Road 1239, Shanghai 200092, China.",
+        "School of Computer and Software, Nanyang Institute of Technology, Changjiang Road 80, Nanyang, Henan 473004, China.",
+        "The Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, No. 4800 Caoan Road, Shanghai 201804, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen 518060, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen 518060, China.",
+        "The Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, No. 4800 Caoan Road, Shanghai 201804, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "The Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, No. 4800 Caoan Road, Shanghai 201804, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, No. 4800 Caoan Road, Shanghai 201804, China.",
+          "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Tongji University, Siping Road 1239, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Zhen",
+        "short_name": "Shen Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Software, Nanyang Institute of Technology, Changjiang Road 80, Nanyang, Henan 473004, China."
+        ]
+      },
+      {
+        "full_name": "He, Ying",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, No. 4800 Caoan Road, Shanghai 201804, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhen-Heng",
+        "short_name": "Chen ZH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianqiang",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [],
+        "affiliations": [
+          "The Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, No. 4800 Caoan Road, Shanghai 201804, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular therapy. Nucleic acids"
+    ],
+    "journal_abbrev": [
+      "Mol Ther Nucleic Acids"
+    ],
+    "pub_date": "2021 Jun 4",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/27 06:00",
+    "fetched_at": "2026-09-27 15:00:49"
+  },
+  "links": {
+    "cites": [
+      "42478380",
+      "41634097",
+      "41627694",
+      "41332515",
+      "40848288",
+      "40495055",
+      "40459653",
+      "39562160",
+      "39528429",
+      "39412125",
+      "39350338",
+      "38801070",
+      "38732207",
+      "38701417",
+      "38569653",
+      "38336958",
+      "37173345",
+      "37140548",
+      "34208629"
+    ],
+    "refs": [
+      "32399547",
+      "31665425",
+      "31634140",
+      "31510640",
+      "31372637",
+      "30918943",
+      "30183639",
+      "29165643",
+      "28541376",
+      "28473536",
+      "27084946",
+      "26886732",
+      "26415208",
+      "26252139",
+      "26213851",
+      "26017442",
+      "25861086",
+      "25707808",
+      "25132640",
+      "25059329",
+      "23929869",
+      "23771147",
+      "23703209",
+      "23562153",
+      "23560036",
+      "23354101",
+      "22562768",
+      "21934668",
+      "21519114",
+      "20617199",
+      "20395367",
+      "20377884",
+      "20334529",
+      "20232938",
+      "19865164",
+      "19458158",
+      "19369170",
+      "19265799",
+      "19054734",
+      "17981120",
+      "17324271",
+      "16709589",
+      "10812473",
+      "9283754",
+      "2172928"
+    ],
+    "similar": [
+      "33767912",
+      "31634140",
+      "37328639",
+      "34613923",
+      "34882561",
+      "34929739",
+      "35652477",
+      "34752400",
+      "36748992",
+      "39350338",
+      "38733561",
+      "34073774",
+      "31725778",
+      "32960766",
+      "38236675",
+      "33571101",
+      "29993783",
+      "28245811",
+      "30835229",
+      "30106688",
+      "29722865",
+      "30323198",
+      "31323206",
+      "34038367",
+      "35719916",
+      "30423078",
+      "30028702",
+      "27307608",
+      "27896980",
+      "31132373",
+      "30075707",
+      "30376567",
+      "32357428",
+      "28952940",
+      "31208331",
+      "38049725",
+      "36398911",
+      "29219068",
+      "30419785",
+      "31795390",
+      "30477892",
+      "36917472",
+      "30700331",
+      "32305923",
+      "32211035",
+      "31969902",
+      "30447332",
+      "35417351",
+      "34664074",
+      "27567672",
+      "30905748",
+      "29165643",
+      "31665425",
+      "39270885",
+      "29556905",
+      "30460160",
+      "31245384",
+      "31228283",
+      "29727275",
+      "30808287",
+      "29081688",
+      "33330341",
+      "31881982",
+      "30183634",
+      "37845681",
+      "31856220",
+      "33322457",
+      "30624223",
+      "32502798",
+      "31191603",
+      "33036220",
+      "33643902",
+      "38347788",
+      "31285519",
+      "37648910",
+      "29854252",
+      "33286680",
+      "30351403",
+      "38362268",
+      "36374878",
+      "33868598",
+      "37961633",
+      "34971539",
+      "38336958",
+      "39357703",
+      "32905524",
+      "36299898",
+      "32551184",
+      "38801070",
+      "22837642",
+      "28927002",
+      "37226687"
+    ],
+    "review": [
+      "33767912",
+      "35652477",
+      "30447332"
+    ],
+    "pmc": [
+      "7972936"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2162-2531(21)00049-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33767912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33767912",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33767912",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33767912",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

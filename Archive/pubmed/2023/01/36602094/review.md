@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to the full manuscript, methods, figures, or simulation details
+- **Shared manuscript claim summary** The authors present a discrete-state stochastic theoretical model to investigate the target search mechanism of multiple transcription factors (TFs) on nucleosomal DNA. They use experimental kinetic rate constants as input to estimate the mean-first-passage time for two TFs to recognize binding motifs on a dynamic nucleosome model. The theory distinguishes between hierarchical and simultaneous search modes, with the latter proceeding via protein-protein complex formation. Results are claimed to be validated by extensive Monte Carlo simulations and to elucidate the molecular basis of multi-TF target search on nucleosomal DNA.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, simulation parameters, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, model equations, parameter values, simulation protocols, validation statistics, comparison with experimental data beyond rate constants, and any sensitivity or robustness analyses
+
+## Reviewer
+- **Overall assessment** The abstract addresses a biologically important and mechanistically complex question, namely how multiple TFs coordinate their search for binding sites on nucleosomal DNA. The theoretical approach is potentially valuable, and the distinction between hierarchical and simultaneous search modes is conceptually interesting. However, the abstract provides insufficient detail to evaluate the model's assumptions, the parameterization strategy, the nature of the validation, or the robustness of the conclusions. The central claims are plausible but not assessable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, and biophysical chemistry would be interested. The work speaks to fundamental questions about how regulatory proteins navigate nucleosomal templates, which is relevant to understanding transcriptional control, developmental gene regulation, and the design of synthetic gene circuits. Computational biophysicists working on stochastic models of protein-DNA interactions would also find the methodological approach relevant.
+- **Major strengths** The question is timely and important. The use of experimental kinetic rate constants as model input is a strength, as it grounds the theory in measurable biology. The explicit treatment of two search modes, hierarchical versus simultaneous, provides a clear conceptual framework. The claim of validation by Monte Carlo simulations, if substantiated in the full manuscript, would strengthen the case.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model is claimed to systematically analyze when TFs search hierarchically versus simultaneously via protein-protein complex formation, and results are validated by extensive Monte Carlo simulations.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the model's key assumptions, the state space, the transition rates, or how the nucleosomal dynamics are represented. Without this information, the reader cannot assess whether the model captures the essential physics of TF search on nucleosomal DNA, such as the role of nucleosome breathing, sliding, or histone modifications. The claim of validation by Monte Carlo simulations is unverifiable without details on the simulation algorithm, the number of runs, the error metrics, or the range of parameters tested.  
+  - **Why it matters** The central conclusion, that the model elucidates the molecular basis of multi-TF target search, depends entirely on the adequacy of the model and the rigor of the validation. If the model omits key biophysical features or if the simulations are not statistically robust, the conclusions may not generalize beyond the specific parameter set chosen.  
+  - **Resolution test** Provide a complete description of the model, including state definitions, transition probabilities, and the treatment of nucleosome dynamics. Report simulation details, including the number of independent runs, convergence criteria, and quantitative agreement between theory and simulation across a range of parameter values. Show that the conclusions are robust to reasonable variations in model parameters.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The study is claimed to elucidate the molecular basis of the complex target search phenomenon of multiple TFs on nucleosomal DNA.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not state what specific mechanistic insights were obtained. For example, under what conditions does hierarchical search dominate over simultaneous search? What is the role of protein-protein complex formation in accelerating or slowing the search? How does nucleosomal dynamics affect the relative efficiency of the two modes? Without these concrete findings, the claim of elucidation is vague and cannot be evaluated for its contribution to the field.  
+  - **Why it matters** The significance of the work depends on whether it yields new, non-obvious predictions or explanations that advance understanding beyond existing models of TF search on nucleosomal DNA. A general statement of having studied the problem is insufficient.  
+  - **Resolution test** State the specific mechanistic conclusions, such as the conditions favoring each search mode, the quantitative impact of protein-protein complex formation on search time, and any predictions that could be tested experimentally.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The abstract claims the model uses experimental kinetic rate constants of different TFs as input.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify which TFs were considered, how many rate constants were used, or whether these constants were measured under conditions relevant to nucleosomal DNA. The choice of TFs and the quality of the kinetic data are critical for the model's relevance. If the rate constants are from free DNA binding assays, their applicability to nucleosomal templates may be questionable.  
+  - **Why it matters** The credibility of the parameterization directly affects the biological relevance of the results. Readers from experimental backgrounds will need to know whether the input data are appropriate and whether the conclusions depend on the specific TFs chosen.  
+  - **Resolution test** List the TFs used, the source of the kinetic rate constants, and justify their applicability to nucleosomal DNA. Include a sensitivity analysis showing how variations in these constants affect the predicted search times.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The term "Mean-First-Passage time" is used without definition or context. Nonspecialist readers may not be familiar with this concept.  
+  - **Required correction** Briefly define the mean-first-passage time in the context of TF search, for example as the average time required for a TF to first reach its binding site.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The phrase "when the TFs search their binding motifs hierarchically and when simultaneously" is ambiguous. It is unclear what "hierarchically" means in this context, for example whether it refers to sequential binding in a fixed order or to a priority-based search.  
+  - **Required correction** Clarify the definition of hierarchical search, for example by specifying the order of binding events or the criteria for priority.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract does not mention any comparison with experimental observations beyond the use of rate constants as input. If the model makes predictions that could be tested against existing experimental data on multi-TF binding, this would strengthen the case for its importance.  
+  - **Required correction** Add a sentence indicating whether the model's predictions are consistent with any known experimental results, or state explicitly that such comparisons are deferred to future work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The model description and validation details are essential to establish the technical soundness of the approach, and the specific mechanistic findings are essential to establish the scientific contribution. Without these, the case is not established from the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract suggests a novel application of stochastic modeling to multi-TF search on nucleosomal DNA, but the degree of originality relative to existing models of TF search cannot be assessed without the full manuscript.  
+  - **Scientific importance** The question is important, but the abstract does not demonstrate that the findings advance understanding in a significant way. The lack of specific mechanistic conclusions weakens the case for high importance.  
+  - **Interdisciplinary readership** The topic bridges biophysics, chromatin biology, and gene regulation, which is of broad interest. However, the abstract is written in a way that may be somewhat technical for nonspecialists, and the missing definitions and context reduce accessibility.  
+  - **Technical soundness** Not assessable from the abstract. The model assumptions, parameterization, and validation are not described in sufficient detail.  
+  - **Readability for nonspecialists** The abstract is concise but uses technical terms without definition. It is readable at a basic level but would benefit from clearer framing of the problem and findings.
+- **Recommendation posture** Currently not established from the provided evidence. The topic is promising and the approach is potentially valuable, but the abstract alone does not provide enough information to assess the validity of the model, the robustness of the validation, or the significance of the findings. A full manuscript with detailed methods, results, and discussion would be required to make a proper assessment. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the model "elucidates the molecular basis" of multi-TF target search is unsupported from the abstract, as no specific mechanistic findings are stated.
+- The claim of validation by "extensive Monte Carlo simulations" is unverifiable without details on the simulation methodology and results.
+- The use of "experimental kinetic rate constants" as input is stated but not substantiated with specific TFs, data sources, or applicability justification.
+- The distinction between hierarchical and simultaneous search modes is introduced but not defined or demonstrated with any quantitative results.

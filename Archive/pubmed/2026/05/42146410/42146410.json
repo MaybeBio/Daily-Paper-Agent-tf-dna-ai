@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "42146410",
+    "doi": "10.64898/2026.05.05.722311",
+    "title": "PEPR-GNN: Perturbation-Enhancer-Promoter-RNA Graph Neural Networks for Multiome Perturb-Seq modeling of regulomes."
+  },
+  "content": {
+    "abstract": "Cellular reprogramming is a complex interplay between perturbations and regulatory elements, culminating in gene expression changes. Current computational approaches do not explicitly model these regulatory interactions. Here, we performed combinatorial reprogramming with cardiac transcription factors, followed by Multiome Perturb-Seq to measure perturbations, open chromatin, and gene expression in individual cells. We then developed PEPR-GNN (Perturbation-Enhancer-Promoter-RNA Graph Neural Network), a theoretical and computational framework to model regulome responses during complex genetic perturbations. By statistically associating gene regulatory relationships, PEPR-GNN organizes genes into regulomes with shared gene regulatory responses to reprogramming, including easy-to-reprogram cardiac genes, difficult-to-reprogram fibroblast genes, and context-specific genes where the impact of a reprogramming factor depends on the presence of others. Finally, we use PEPR-GNN for in silico modeling of how genetic modifications of enhancers can be used to tune gene responses to reprogramming. Overall, through the use of causal perturbation information and an enhancer-aware regulome model of gene regulation, PEPR-GNN can effectively model complex cellular responses to perturbation. HIGHLIGHTS: Multiome Perturb-Seq of GHMT reprogramming in MEFs with RNA/ATAC-Seq readout.PEPR-GNN: a computational framework to model perturbation-induced regulomes.PEPR-GNN aids the interpretation of regulomes by diverse reprogramming responses.PEPR-GNN enables in silico perturbation to tune gene responses to reprogramming.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Markham, Zachary",
+        "Li, Boxun",
+        "Nguyen, Landon",
+        "Wang, Lei",
+        "Munshi, Nikhil V",
+        "Hon, Gary C"
+      ],
+      "short_names": [
+        "Markham Z",
+        "Li B",
+        "Nguyen L",
+        "Wang L",
+        "Munshi NV",
+        "Hon GC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1615-0391"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Markham, Zachary",
+        "short_name": "Markham Z",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Boxun",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nguyen, Landon",
+        "short_name": "Nguyen L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Munshi, Nikhil V",
+        "short_name": "Munshi NV",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hon, Gary C",
+        "short_name": "Hon GC",
+        "identifiers": [
+          "0000-0002-1615-0391"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 May 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 12:42",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42146410",
+      "39689711",
+      "39091800",
+      "31216470",
+      "41452988",
+      "29030344",
+      "41218606",
+      "40956752",
+      "40421418",
+      "31985403",
+      "30375457",
+      "39677694",
+      "24604095",
+      "25679813",
+      "41000745",
+      "42119563",
+      "39766779",
+      "41871930",
+      "25887857",
+      "29946568",
+      "38515040",
+      "39082647",
+      "39800872",
+      "31062304",
+      "35976093",
+      "42127893",
+      "41757003",
+      "36584685",
+      "24068937",
+      "40505083",
+      "33537074",
+      "42029797",
+      "42061403",
+      "42033879",
+      "37717013",
+      "41509211",
+      "37939200",
+      "30445760",
+      "37985457",
+      "41573962",
+      "29133016",
+      "27662874",
+      "39326643",
+      "37577525",
+      "30795793",
+      "41721429",
+      "31631012",
+      "31318408",
+      "35410163",
+      "33044128",
+      "33841440",
+      "39371421",
+      "39207727",
+      "38896510",
+      "38643066",
+      "37961332",
+      "41258103",
+      "31053165",
+      "32850739",
+      "36738683",
+      "41861881",
+      "39684837",
+      "37981682",
+      "37021559",
+      "40501829",
+      "35396274",
+      "40165388",
+      "29155818",
+      "37028419",
+      "40155814",
+      "30948003",
+      "33072063",
+      "35195064",
+      "27490187",
+      "39605382",
+      "35172334",
+      "41639087",
+      "37790443",
+      "30612741",
+      "39082651",
+      "41875143",
+      "24586125",
+      "35614386",
+      "26604129",
+      "39127768",
+      "40902506",
+      "40853813",
+      "38664790",
+      "38014075",
+      "37131803",
+      "40445920",
+      "34509499",
+      "40882622",
+      "31080136",
+      "31588232",
+      "41628222",
+      "39825430",
+      "35473573",
+      "35887306",
+      "29483300"
+    ],
+    "review": [
+      "42146410",
+      "42029797",
+      "33841440",
+      "39207727",
+      "30948003"
+    ],
+    "pmc": [
+      "13174392"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42146410/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.05.05.722311",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

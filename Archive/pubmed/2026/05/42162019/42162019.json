@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "42162019",
+    "doi": "10.1038/s41467-026-73552-9",
+    "title": "Single-cell approach dissecting agr quorum sensing dynamics in Staphylococcus aureus."
+  },
+  "content": {
+    "abstract": "Quorum sensing (QS) enables bacteria to coordinate collective behaviors by secreting and sensing diffusible signals. Understanding QS at single-cell resolution is essential because population-level measurements often obscure regulatory heterogeneity. In Staphylococcus aureus, the accessory gene regulator (agr) system is a major QS-controlled virulence regulator activated by autoinducing peptides (AIPs). Four agr-types exist, each defined by distinct AIPs and capable of cross-inhibition, yet their activation dynamics and interaction hierarchies remain poorly understood. Using microfluidics, time-lapse microscopy, and deep-learning-based image analysis, we quantified agr-activation in congenic and native agr-type strains. Agr-types differed in sensitivity to their homologous AIPs: agr-III was largely unresponsive, whereas agr-IV was highly sensitive with elevated basal activation. Agr-activation distribution was frequently bimodal (simultaneous existence of agr-ON and agr-OFF cells), driven by subpopulations that never activated or switched to agr-OFF despite constant stimulation. Combining homologous and heterologous AIPs, AIP‑IV suppressed pre‑activated agr-I, while AIP-I had no inhibitory effect on agr‑IV, indicating asymmetric cross‑inhibition. In spatially segregated cocultures, diffusional crosstalk resulted in four reproducible agr-interaction regimes, stable-dominance, stable-, delayed-, or unstable-dual-activation, determined by agr-type pairing and influenced by genetic background. Our approach links single-cell signaling to population outcomes and uncovers agr-type-specific asymmetries with potential consequences for strain competition and virulence.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Quorum Sensing/genetics/physiology",
+      "*Staphylococcus aureus/genetics/physiology/metabolism/pathogenicity",
+      "*Bacterial Proteins/metabolism/genetics",
+      "Gene Expression Regulation, Bacterial",
+      "*Single-Cell Analysis/methods",
+      "*Trans-Activators/metabolism/genetics",
+      "Time-Lapse Imaging"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bar, Julian",
+        "Pivard, Mariane",
+        "Charlton, Samuel G V",
+        "Kempchinsky, Andrew G",
+        "Gomez-Mejia, Alejandro",
+        "Ugolini, Giovanni Stefano",
+        "Mairpady Shambat, Srikanth",
+        "Secchi, Eleonora",
+        "Zinkernagel, Annelies S"
+      ],
+      "short_names": [
+        "Bar J",
+        "Pivard M",
+        "Charlton SGV",
+        "Kempchinsky AG",
+        "Gomez-Mejia A",
+        "Ugolini GS",
+        "Mairpady Shambat S",
+        "Secchi E",
+        "Zinkernagel AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1929-0338",
+        "ORCID: 0000-0002-8357-1380",
+        "ORCID: 0000-0002-7313-7169",
+        "ORCID: 0000-0002-0949-9085",
+        "ORCID: 0000-0003-4700-1118"
+      ],
+      "affiliations": [
+        "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zurich, University of Zurich, Zurich, Switzerland.",
+        "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zurich, University of Zurich, Zurich, Switzerland.",
+        "Department of Civil, Environmental and Geomatic Engineering, ETH Zurich, Zurich, Switzerland.",
+        "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zurich, University of Zurich, Zurich, Switzerland.",
+        "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zurich, University of Zurich, Zurich, Switzerland.",
+        "Department of Civil, Environmental and Geomatic Engineering, ETH Zurich, Zurich, Switzerland.",
+        "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zurich, University of Zurich, Zurich, Switzerland.",
+        "Department of Civil, Environmental and Geomatic Engineering, ETH Zurich, Zurich, Switzerland.",
+        "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zurich, University of Zurich, Zurich, Switzerland. annelies.zinkernagel@usz.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bär, Julian",
+        "short_name": "Bär J",
+        "identifiers": [
+          "0000-0003-1929-0338"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zürich, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pivard, Mariane",
+        "short_name": "Pivard M",
+        "identifiers": [
+          "0000-0002-8357-1380"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zürich, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Charlton, Samuel G V",
+        "short_name": "Charlton SGV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Civil, Environmental and Geomatic Engineering, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kempchinsky, Andrew G",
+        "short_name": "Kempchinsky AG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zürich, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Gómez-Mejia, Alejandro",
+        "short_name": "Gómez-Mejia A",
+        "identifiers": [
+          "0000-0002-7313-7169"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zürich, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ugolini, Giovanni Stefano",
+        "short_name": "Ugolini GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Civil, Environmental and Geomatic Engineering, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mairpady Shambat, Srikanth",
+        "short_name": "Mairpady Shambat S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zürich, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Secchi, Eleonora",
+        "short_name": "Secchi E",
+        "identifiers": [
+          "0000-0002-0949-9085"
+        ],
+        "affiliations": [
+          "Department of Civil, Environmental and Geomatic Engineering, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Zinkernagel, Annelies S",
+        "short_name": "Zinkernagel AS",
+        "identifiers": [
+          "0000-0003-4700-1118"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases and Hospital Epidemiology, University Hospital Zürich, University of Zürich, Zürich, Switzerland. annelies.zinkernagel@usz.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 May 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/21 05:33",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [
+      "42153993"
+    ],
+    "refs": [
+      "40826263",
+      "40667988",
+      "38987237",
+      "38868435",
+      "38724508",
+      "38591898",
+      "37843294",
+      "36780518",
+      "36417904",
+      "36073934",
+      "35939668",
+      "35583321",
+      "35041653",
+      "34919538",
+      "34644303",
+      "34489877",
+      "33660136",
+      "33400359",
+      "32669426",
+      "32559359",
+      "32388086",
+      "31527910",
+      "31321813",
+      "31220460",
+      "31051177",
+      "30953424",
+      "30850614",
+      "30665208",
+      "30395178",
+      "30271977",
+      "29422887",
+      "29350159",
+      "29320486",
+      "29198880",
+      "28944751",
+      "28893374",
+      "28530651",
+      "27605711",
+      "26971873",
+      "26445995",
+      "26198102",
+      "26080931",
+      "26016486",
+      "26015493",
+      "25516281",
+      "25184564",
+      "25024921",
+      "24945495",
+      "24642063",
+      "24601980",
+      "24391052",
+      "24227677",
+      "23703543",
+      "23071270",
+      "22467783",
+      "22434850",
+      "22388286",
+      "18851841",
+      "18667559",
+      "16321935",
+      "16310147",
+      "16077103",
+      "14996815",
+      "12517893",
+      "12146974",
+      "11796592",
+      "11698362",
+      "11489134",
+      "11053400",
+      "10948168"
+    ],
+    "similar": [
+      "42162019",
+      "42234660",
+      "38615572",
+      "22467783",
+      "31358609",
+      "39966225",
+      "35044202",
+      "29796774",
+      "23459693",
+      "31488708",
+      "40762857",
+      "37958979",
+      "42397843",
+      "38687677",
+      "37578829",
+      "12146974",
+      "24957093",
+      "18582472",
+      "41359820",
+      "16179800",
+      "17548478",
+      "35939668",
+      "18851841",
+      "11489134",
+      "25300477",
+      "41622182",
+      "36700647",
+      "28155275",
+      "40331756",
+      "28006082",
+      "24391052",
+      "25942561",
+      "11796592",
+      "30817121",
+      "24945495",
+      "23143800",
+      "41984999",
+      "29066545",
+      "40240425",
+      "18437240",
+      "30833334",
+      "24219181",
+      "32752273",
+      "30041686",
+      "40667988",
+      "31387900",
+      "16428734",
+      "37699554",
+      "14996815",
+      "21169484",
+      "41369255",
+      "39120147",
+      "22108737",
+      "24343650",
+      "36073934",
+      "21701848",
+      "40785127",
+      "31164467",
+      "17675387",
+      "35608301",
+      "35862951",
+      "19708918",
+      "40742629",
+      "33926572",
+      "31722996",
+      "35331848",
+      "12409375",
+      "18335939",
+      "18222919",
+      "41090347",
+      "40952178",
+      "39177535",
+      "29625990",
+      "38832917",
+      "30061376",
+      "32253213",
+      "31413175",
+      "25070736",
+      "33536503",
+      "31611856",
+      "28893374",
+      "33988969",
+      "23959234",
+      "31043623",
+      "33201435",
+      "40849622",
+      "28289032",
+      "27877157",
+      "32554714",
+      "26261307",
+      "26416476",
+      "26608923",
+      "11473989",
+      "19147840",
+      "15665088",
+      "37725513",
+      "29476092",
+      "40892556",
+      "39261350",
+      "17145949"
+    ],
+    "review": [
+      "42162019",
+      "37578829",
+      "24957093",
+      "25300477",
+      "41622182"
+    ],
+    "pmc": [
+      "13458059"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-73552-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42162019/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-307",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

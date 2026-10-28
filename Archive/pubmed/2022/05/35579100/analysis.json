@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35579100",
+  "title": "Proarrhythmic risk assessment of drugs by dV(m) /dt shapes using the convolutional neural network.",
+  "authors": "Jeong, Da Un; Yoo, Yedam; Marcellinus, Aroli; Kim, Ki-Suk; Lim, Ki Moo",
+  "journal": "CPT: pharmacometrics & systems pharmacology",
+  "published_date": "2022-05-18",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用CNN基于动作电位形状进行药物致心律失常风险分类，完全不涉及蛋白质-DNA互作或TF-DNA结合体系，与本课题无关。",
+  "abstract": "Comprehensive in vitro Proarrhythmia Assay (CiPA) projects for assessing proarrhythmic drugs suggested a logistic regression model using qNet as the Torsades de Pointes (TdP) risk assessment biomarker, obtained from in silico simulation. However, using a single in silico feature, such as qNet, cannot reflect whole characteristics related to TdP in the entire action potential (AP) shape. Thus, this study proposed a deep convolutional neural network (CNN) model using differential action potential shapes to classify three proarrhythmic risk levels: high, intermediate, and low, considering both characteristics related to TdP not only in the depolarization phase but also the repolarization phase of AP shape. We performed an in silico simulation and got AP shapes with drug effects using half-maximal inhibitory concentration and Hill coefficients of 28 drugs released by CiPA groups. Then, we trained the deep CNN model with the differential AP shapes of 12 drugs and tested it with those of 16 drugs. Our model had a better performance for classifying the proarrhythmic risk of drugs than the traditional logistic regression model using qNet. The classification accuracy was 98% for high-risk level drugs, 94% for intermediate-risk level drugs, and 89% for low-risk level drugs.",
+  "abstract_zh": "综合体外致心律失常试验（CiPA）项目评估致心律失常药物时，建议采用逻辑回归模型，以qNet作为尖端扭转型室性心动过速（TdP）风险评估生物标志物，该标志物通过计算机模拟获得。然而，使用单一的计算模拟特征（如qNet）无法反映整个动作电位（AP）形态中与TdP相关的全部特征。因此，本研究提出了一种深度卷积神经网络（CNN）模型，利用差分动作电位形态对三种致心律失常风险水平（高、中、低）进行分类，同时考虑AP形态中除极化阶段和复极化阶段与TdP相关的特征。我们进行了计算机模拟，使用CiPA组发布的28种药物的半数抑制浓度和Hill系数，获得了具有药物效应的AP形态。然后，我们用12种药物的差分AP形态训练深度CNN模型，并用16种药物的差分AP形态进行测试。我们的模型在药物致心律失常风险分类方面优于使用qNet的传统逻辑回归模型。高风险水平药物的分类准确率为98%，中风险水平药物为94%，低风险水平药物为89%。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35579100/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35579100/",
+  "paper_page_path": "papers/pubmed/35579100/index.html"
+}

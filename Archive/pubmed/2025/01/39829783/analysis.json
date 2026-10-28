@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39829783",
+  "title": "ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility reveal cis-regulatory sequence syntax, transcription factor footprints and regulatory variants.",
+  "authors": "Pampari, Anusri; Shcherbina, Anna; Kvon, Evgeny Z; Kosicki, Michael; Nair, Surag; Kundu, Soumya; Kathiria, Arwa S; Risca, Viviana I; Kuningas, Kristiina; Alasoo, Kaur; Greenleaf, William James; Pennacchio, Len A; Kundaje, Anshul",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-01-20",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 8,
+  "one_liner_zh": "ChromBPNet通过深度学习模型分解染色质可及性中的酶偏好，实现碱基分辨率TF足迹与调控序列语法解析，核心聚焦TF-DNA结合位点预测与调控变异解读，方法为AI建模，高度匹配本课题。",
+  "abstract": "Despite extensive mapping of cis-regulatory elements (cREs) across cellular contexts with chromatin accessibility assays, the sequence syntax and genetic variants that regulate transcription factor (TF) binding and chromatin accessibility at context-specific cREs remain elusive. We introduce ChromBPNet, a deep learning DNA sequence model of base-resolution accessibility profiles that detects, learns and deconvolves assay-specific enzyme biases from regulatory sequence determinants of accessibility, enabling robust discovery of compact TF motif lexicons, cooperative motif syntax and precision footprints across assays and sequencing depths. Extensive benchmarks show that ChromBPNet, despite its lightweight design, is competitive with much larger contemporary models at predicting variant effects on chromatin accessibility, pioneer TF binding and reporter activity across assays, cell contexts and ancestry, while providing interpretation of disrupted regulatory syntax. ChromBPNet also helps prioritize and interpret regulatory variants that influence complex traits and rare diseases, thereby providing a powerful lens to decode regulatory DNA and genetic variation.",
+  "abstract_zh": "尽管通过染色质可及性分析已在多种细胞背景下对顺式调控元件（cis-regulatory elements, cREs）进行了广泛定位，但调控转录因子（transcription factor, TF）结合及特定背景下cREs染色质可及性的序列语法和遗传变异仍难以捉摸。我们引入了ChromBPNet，一种基于深度学习的DNA序列模型，用于分析碱基分辨率可及性谱，能够检测、学习并解卷积分析特异性酶偏差与可及性调控序列决定因素，从而在不同分析和测序深度下稳健地发现紧凑的TF基序词典、协同基序语法及精确足迹。广泛基准测试表明，尽管ChromBPNet设计轻量，但在预测变异对染色质可及性、先锋TF结合及报告基因活性的影响方面，与当前更大的模型相比具有竞争力，且适用于不同分析、细胞背景和祖先群体，同时提供对破坏性调控语法的解读。ChromBPNet还有助于优先排序和解读影响复杂性状及罕见疾病的调控变异，从而为解码调控DNA和遗传变异提供了强大视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39829783/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39829783/",
+  "paper_page_path": "papers/pubmed/39829783/index.html"
+}

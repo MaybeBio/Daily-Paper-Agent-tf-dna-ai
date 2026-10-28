@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "37113980",
+    "doi": "10.1093/pnasnexus/pgad113",
+    "title": "Depicting pseudotime-lagged causality across single-cell trajectories for accurate gene-regulatory inference."
+  },
+  "content": {
+    "abstract": "Identifying the causal interactions in gene-regulatory networks requires an accurate understanding of the time-lagged relationships between transcription factors and their target genes. Here we describe DELAY (short for Depicting Lagged Causality), a convolutional neural network for the inference of gene-regulatory relationships across pseudotime-ordered single-cell trajectories. We show that combining supervised deep learning with joint probability matrices of pseudotime-lagged trajectories allows the network to overcome important limitations of ordinary Granger causality-based methods, for example, the inability to infer cyclic relationships such as feedback loops. Our network outperforms several common methods for inferring gene regulation and, when given partial ground-truth labels, predicts novel regulatory networks from single-cell RNA sequencing (scRNA-seq) and single-cell ATAC sequencing (scATAC-seq) data sets. To validate this approach, we used DELAY to identify important genes and modules in the regulatory network of auditory hair cells, as well as likely DNA-binding partners for two hair cell cofactors (Hist1h1c and Ccnd1) and a novel binding sequence for the hair cell-specific transcription factor Fiz1. We provide an easy-to-use implementation of DELAY under an open-source license at https://github.com/calebclayreagor/DELAY.",
+    "keywords": [
+      "auditory hair cells",
+      "deep learning",
+      "gene-regulatory inference",
+      "gene-regulatory networks",
+      "single-cell omics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Reagor, Caleb C",
+        "Velez-Angel, Nicolas",
+        "Hudspeth, A J"
+      ],
+      "short_names": [
+        "Reagor CC",
+        "Velez-Angel N",
+        "Hudspeth AJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8304-1267",
+        "ORCID: 0000-0002-8908-7768",
+        "ORCID: 0000-0002-0295-1323"
+      ],
+      "affiliations": [
+        "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, NY 10065, USA.",
+        "Tri-Institutional PhD Program in Computational Biology and Medicine, New York, NY 10065, USA.",
+        "Present address: 1230 York Avenue, Campus Box 314, New York, NY 10065, USA.",
+        "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, NY 10065, USA.",
+        "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, NY 10065, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Reagor, Caleb C",
+        "short_name": "Reagor CC",
+        "identifiers": [
+          "0000-0002-8304-1267"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, NY 10065, USA.",
+          "Tri-Institutional PhD Program in Computational Biology and Medicine, New York, NY 10065, USA.",
+          "Present address: 1230 York Avenue, Campus Box 314, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Velez-Angel, Nicolas",
+        "short_name": "Velez-Angel N",
+        "identifiers": [
+          "0000-0002-8908-7768"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Hudspeth, A J",
+        "short_name": "Hudspeth AJ",
+        "identifiers": [
+          "0000-0002-0295-1323"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, NY 10065, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PNAS nexus"
+    ],
+    "journal_abbrev": [
+      "PNAS Nexus"
+    ],
+    "pub_date": "2023 Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 06:42",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "42561151",
+      "41488354",
+      "40980064",
+      "38693260",
+      "37131596"
+    ],
+    "refs": [
+      "35139376",
+      "35102309",
+      "34424948",
+      "34351548",
+      "33876191",
+      "33837132",
+      "33760053",
+      "33637727",
+      "33576787",
+      "33221922",
+      "33156333",
+      "32917668",
+      "32814237",
+      "32562050",
+      "32404924",
+      "32135093",
+      "31907445",
+      "31822622",
+      "31249007",
+      "31178118",
+      "31096644",
+      "30445495",
+      "30413482",
+      "29914354",
+      "29440433",
+      "29434199",
+      "29140473",
+      "28991892",
+      "28968704",
+      "28957658",
+      "28614297",
+      "28379368",
+      "27534536",
+      "27365425",
+      "27141961",
+      "26688802",
+      "26072513",
+      "25855195",
+      "25497456",
+      "25378322",
+      "25232121",
+      "25215497",
+      "25122140",
+      "25057208",
+      "25015561",
+      "24658644",
+      "24176667",
+      "23850665",
+      "23796904",
+      "23645681",
+      "23332764",
+      "23071561",
+      "22955616",
+      "22805708",
+      "22570694",
+      "21330290",
+      "20927193",
+      "20739564",
+      "20090754",
+      "19805078",
+      "19154718",
+      "18854042",
+      "18652815",
+      "17510665",
+      "17331196",
+      "17324271",
+      "16407553",
+      "15893982",
+      "15254021",
+      "11743722",
+      "11425898",
+      "11023859",
+      "10851137"
+    ],
+    "similar": [
+      "37113980",
+      "35328768",
+      "37897702",
+      "35961023",
+      "32135093",
+      "38261340",
+      "36803767",
+      "37085776",
+      "33026066",
+      "36155797",
+      "38896510",
+      "36325073",
+      "36877552",
+      "30547796",
+      "30594121",
+      "33070184",
+      "31907445",
+      "35062026",
+      "33828580",
+      "35758781",
+      "32174324",
+      "38754366",
+      "36585783",
+      "34383882",
+      "35139376",
+      "39345416",
+      "34718405",
+      "35316190",
+      "28379368",
+      "35715748",
+      "36902216",
+      "37122068",
+      "35050715",
+      "35205415",
+      "36204155",
+      "33035155",
+      "36383176",
+      "33513136",
+      "36124841",
+      "36205615",
+      "34251625",
+      "36747870",
+      "36747874",
+      "37682480",
+      "38778003",
+      "29994618",
+      "20565962",
+      "36692140",
+      "38155269",
+      "30961611",
+      "36168811",
+      "25592596",
+      "36064320",
+      "33208095",
+      "33294129",
+      "35799304",
+      "35941239",
+      "35172334",
+      "34251624",
+      "34888622",
+      "38791962",
+      "36734596",
+      "34527187",
+      "32054475",
+      "37627306",
+      "22730429",
+      "29440433",
+      "33876191",
+      "34125906",
+      "36698768",
+      "34463706",
+      "29211761",
+      "29409532",
+      "33098418",
+      "36070863",
+      "36789086",
+      "30913408",
+      "34996359",
+      "31634636",
+      "30758825",
+      "35394015",
+      "31368481",
+      "31068142",
+      "31287491",
+      "39143494",
+      "34011578",
+      "34282418",
+      "33837132",
+      "36110897",
+      "39257745",
+      "38798697",
+      "37790443",
+      "39027639",
+      "37214963",
+      "37624916",
+      "38976653",
+      "37292801",
+      "38580861",
+      "27924281",
+      "36590685",
+      "36590696",
+      "33575604",
+      "39300283",
+      "38957809"
+    ],
+    "review": [
+      "37113980"
+    ],
+    "pmc": [
+      "10129065"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37113980/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37113980",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article-lookup/doi/10.1093/pnasnexus/pgad113",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

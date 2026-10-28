@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the supplied text. No external data, figures, or supplementary materials were available for verification.
+- **Shared manuscript claim summary** The authors characterize All4144, a GrpE homolog from *Anabaena* sp. PCC 7120, as a dimeric nucleotide exchange factor for DnaK that also binds double-stranded DNA via an N-terminal helix-turn-helix (HTH) domain. They report that deletion of residues 1–67 (All4144(68–214)) abolishes DNA binding but preserves co-chaperone activity, and that the full-length protein confers superior thermal tolerance and stability compared to the deletion mutant.
+- **Visible evidence base** Text descriptions of results from qRT-PCR, CD spectroscopy, DSC, glutaraldehyde crosslinking, tryptophan fluorescence, ATPase assays, refolding assays, EMSA, and in silico modeling/docking. Figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** All figures, tables, raw data, statistical outputs, sequence alignments, model validation scores, and experimental details (e.g., exact buffer compositions, protein concentrations, replicates) are not available. This substantially limits the ability to verify quantitative claims and experimental rigor.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding the multifunctionality of a cyanobacterial GrpE homolog, specifically the role of an additional HTH domain in DNA binding and thermal tolerance. However, the current evidence base is insufficient to establish the central claims. Several key experiments lack quantitative detail, controls are not described, and the link between DNA binding and physiological function remains speculative. The work may be of interest to researchers studying chaperone systems and stress responses in cyanobacteria, but substantial additional experimentation and clarification are required before the conclusions can be considered robust.
+- **Who would be interested in the results, and why** Researchers studying molecular chaperones, particularly the DnaK/DnaJ/GrpE system, and those interested in stress responses in cyanobacteria. The potential dual function of GrpE as a DNA-binding protein could attract interest from scientists exploring non-canonical roles of co-chaperones. However, the current level of evidence is unlikely to draw broad interdisciplinary attention.
+- **Major strengths** The study addresses a novel aspect of GrpE biology, namely the presence and function of an additional HTH domain in a cyanobacterial GrpE. The combination of biophysical, biochemical, and in silico approaches is appropriate for the questions posed. The use of a deletion mutant to dissect domain function is a reasonable strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that All4144 acts as a nucleotide exchange factor for DnaK, enhancing ATPase and refolding activities.
+  - **Evidence pointer** Section "All4144 and All4144(68–214) stimulate the ATPase activity of DnaK" and "All4144 and All4144(68–214) are true co-chaperons"; Figure 4c-d (not provided)
+  - **Concern** The ATPase and refolding assays are described only qualitatively. No numerical values, error bars, statistical comparisons, or reaction conditions (e.g., ATP concentration, incubation times, protein ratios) are provided. The claim that All4144 enhances DnaK ATPase activity by 11-fold and the deletion mutant by 9-fold is presented without raw data or statistical analysis. Similarly, the refolding assay reports percentages (53.79% and 56.53%) without indicating variability or controls. Without these details, the functional equivalence of the deletion mutant as a nucleotide exchange factor cannot be rigorously assessed.
+  - **Why it matters** The central claim that All4144 is a bona fide GrpE-like nucleotide exchange factor depends on quantitative demonstration of enhanced ATPase activity and refolding. The lack of data prevents verification and comparison with established GrpE proteins.
+  - **Resolution test** Provide full kinetic data for ATPase assays (e.g., time courses, Michaelis-Menten parameters), replicate numbers, statistical tests, and appropriate controls (e.g., DnaK alone, DnaK+DnaJ without GrpE). For refolding assays, include time-dependent recovery curves, error bars, and statistical comparisons across conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that All4144 binds double-stranded DNA via its N-terminal HTH domain, with a Kd of 14.17 ± 0.47 nM, and that binding is enhanced in the presence of ATP (Kd = 1.12 ± 0.05 nM) and ADP (Kd = 0.45 ± 0.21 nM).
+  - **Evidence pointer** Section "All4144 is a DNA binding protein"; Figure 5a-h (not provided)
+  - **Concern** The EMSA results are described qualitatively, and the Kd values are presented without methodological details. The nature of the DNA substrate (sequence, length, source) is not specified beyond "non-specific dsDNA" and "non-specific ssDNA." The binding affinity calculations are not described (e.g., how Kd was derived from EMSA data, whether binding curves were fitted, what model was used). The claim that ATP and ADP enhance DNA binding is intriguing but lacks mechanistic explanation and quantitative support. Additionally, the specificity of DNA binding is not demonstrated (e.g., competition assays with unlabeled DNA, binding to defined sequences).
+  - **Why it matters** The proposed DNA-binding function is a novel and central claim of the manuscript. Without rigorous binding data, including specificity and quantitative affinity measurements, the conclusion that All4144 is a DNA-binding protein is not established.
+  - **Resolution test** Provide detailed EMSA protocols, including DNA substrate description, protein concentration ranges, and binding buffer composition. Show representative gels with replicates and quantify binding to derive Kd values using appropriate curve fitting. Include competition experiments and test binding to defined DNA sequences to assess specificity. Clarify the effect of nucleotides on binding with controlled experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that All4144 has superior thermal stability compared to the deletion mutant, based on CD and DSC analyses.
+  - **Evidence pointer** Section "Thermal stability of All4144 and All4144(68–214)"; Figure 3a-f (not provided)
+  - **Concern** The thermal transition temperatures are reported (65.24 °C for All4144 and 60.78 °C for the deletion mutant from CD; DSC transitions at 37.50 ± 0.07 °C and 101.17 ± 0.08 °C for All4144, and 39.91 ± 0.03 °C and 76.30 ± 0.05 °C for the deletion mutant), but the raw thermograms, baseline corrections, and fitting procedures are not shown. The interpretation of the early transition between 30–40 °C as "potentially physiological" is speculative and not supported by functional data. The DSC transitions at 101 °C for All4144 are unusually high and may indicate aggregation or instrument artifacts, which are not discussed.
+  - **Why it matters** Thermal stability is a key claim supporting the thermosensor function of All4144. Without proper data presentation and analysis, the conclusion that the HTH domain contributes to stability is not verifiable.
+  - **Resolution test** Provide raw CD melting curves and DSC thermograms with baseline subtraction, replicate measurements, and clear assignment of transitions. Discuss the origin of high-temperature transitions and rule out artifacts. Correlate thermal stability with functional assays (e.g., activity at different temperatures).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors suggest that All4144 acts as a "thermo-sensor" based on its thermal stability and expression under heat stress.
+  - **Evidence pointer** Section "Transcript analysis of all4144 under multiple abiotic stresses" and "Discussion"
+  - **Concern** The term "thermo-sensor" implies a functional role in sensing temperature changes and modulating DnaK activity accordingly. However, no direct evidence is provided that All4144's activity (nucleotide exchange, refolding) is temperature-dependent in a way that differs from the deletion mutant or that it transmits temperature information to the DnaK system. The expression data show upregulation under heat stress, but this is a common stress response and does not establish a sensing function.
+  - **Why it matters** The title and framing of the manuscript emphasize the thermosensor role. This claim requires direct functional evidence, such as temperature-dependent activity assays or structural studies showing conformational changes.
+  - **Resolution test** Perform activity assays (ATPase, refolding) at multiple temperatures for All4144 and the deletion mutant, and compare their temperature response profiles. Use biophysical methods (e.g., circular dichroism at different temperatures) to demonstrate conformational changes that correlate with function.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design
+  - **Claim pointer** The authors conclude that the HTH domain is essential for DNA binding based on the deletion mutant's loss of binding.
+  - **Evidence pointer** Section "All4144 is a DNA binding protein"; Figure 5d (not provided)
+  - **Concern** The deletion mutant All4144(68–214) removes the entire N-terminal 67 residues, which includes the HTH domain. While this demonstrates that the N-terminus is necessary for DNA binding, it does not prove that the HTH domain specifically is responsible. The deletion may affect protein folding, stability, or dimerization, which could indirectly impact DNA binding. The authors do not assess whether the deletion mutant retains proper folding or dimerization beyond the crosslinking experiment.
+  - **Why it matters** The conclusion that the HTH domain mediates DNA binding is central to the manuscript's novelty. Without more precise mutagenesis (e.g., point mutations in the HTH motif) or structural evidence, the claim is overstated.
+  - **Resolution test** Generate point mutations or smaller deletions within the HTH domain and test DNA binding. Confirm that the deletion mutant is properly folded and dimeric using biophysical methods (e.g., size-exclusion chromatography, analytical ultracentrifugation).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods
+  - **Evidence pointer** Section "Cell survival study"
+  - **Issue** The text states "β-actin as a reference control" for SDS-PAGE analysis of bacterial cells. β-actin is a eukaryotic protein and is not an appropriate loading control for *E. coli* lysates.
+  - **Required correction** Use a bacterial housekeeping protein (e.g., GroEL, DnaK) as a loading control, or clarify if a different reference was intended.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results
+  - **Evidence pointer** Section "Cell survival study"
+  - **Issue** The phrase "90 minhou" appears to be a typographical error.
+  - **Required correction** Correct to "90 min."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results
+  - **Evidence pointer** Section "Transcript analysis of all4144 under multiple abiotic stresses"
+  - **Issue** Fold changes are reported with standard errors (e.g., 13.4 ± 1.9), but the number of biological replicates and the statistical test used are not stated.
+  - **Required correction** Specify replicate numbers and statistical methods (e.g., one-way ANOVA with post-hoc tests) for all quantitative data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Discussion"
+  - **Issue** The statement that All4144 "acts as a thermometer" is speculative and not directly supported by the data presented.
+  - **Required correction** Soften the language to indicate that the data are consistent with a potential thermosensor role, but that direct evidence is lacking.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Section "Model Validation and docking"
+  - **Issue** The methods for model validation and docking are described briefly. The specific parameters used for HDOCK, the criteria for selecting the best docked pose, and the validation scores (e.g., RMSD values) are not provided.
+  - **Required correction** Provide detailed parameters and validation metrics for the docking and modeling analyses.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative data for ATPase and refolding assays), R1-M2 (quantitative and specificity data for DNA binding), R1-M3 (raw thermal stability data and analysis), R1-M4 (direct evidence for thermosensor function).
+- **Assessment against Nature-style criteria** Originality: The concept of a GrpE protein with an additional DNA-binding HTH domain is potentially original, but the evidence is insufficient to confirm novelty. Scientific importance: If substantiated, the findings could contribute to understanding chaperone multifunctionality, but the current scope is limited to in vitro and heterologous assays. Interdisciplinary readership: The topic is likely to appeal primarily to specialists in chaperone biology and cyanobacterial stress responses. Technical soundness: The experimental approaches are appropriate in principle, but the lack of quantitative data, controls, and methodological details undermines technical rigor. Readability for nonspecialists: The manuscript is generally readable, but some sections (e.g., modeling) assume prior knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question, but the claims are not supported by the data as presented. Substantial additional experimentation, quantitative analysis, and clarification of methods are required before the conclusions can be considered robust.
+
+## Risk / unsupported claims
+- The claim that All4144 is a "thermo-sensor" is not supported by direct functional evidence.
+- The claim that the HTH domain is specifically responsible for DNA binding is not established, as only a large N-terminal deletion was tested.
+- The claim that All4144 has superior thermal stability compared to the deletion mutant is based on data not fully presented.
+- The physiological relevance of DNA binding by All4144 is speculative and not addressed experimentally.
+- The statement that All4144 acts as a "true co-chaperone" is based on qualitative assay descriptions without statistical validation.

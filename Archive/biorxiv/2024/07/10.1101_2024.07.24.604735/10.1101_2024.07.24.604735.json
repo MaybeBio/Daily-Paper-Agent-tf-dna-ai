@@ -1,0 +1,531 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.24.604735",
+  "title": "Mapping the space of protein binding sites with sequence-based protein language models",
+  "doi": "10.1101/2024.07.24.604735",
+  "abstract": "Binding sites are the key interfaces that determine a protein’s biological activity, and therefore common targets for therapeutic intervention. Techniques that help us detect, compare and contextualise binding sites are hence of immense interest to drug discovery. Here we present an approach that integrates protein language models with a 3D tesselation technique to derive rich and versatile representations of binding sites that combine functional, structural and evolutionary information with unprecedented detail. We demonstrate that the associated similarity metrics induce meaningful pocket clusterings by balancing local structure against global sequence effects. The resulting embeddings are shown to simplify a variety of downstream tasks: they help organise the “pocketome” in a way that efficiently contextualises new binding sites, construct performant druggability models, and define challenging train-test splits for believable benchmarking of pocket-centric machine-learning models.",
+  "authors": [
+    "Tuğçe Oruç",
+    "Maria Kadukova",
+    "Thomas G. Davies",
+    "Marcel Verdonk",
+    "Carl Poelking"
+  ],
+  "published_date": "2024-07-24",
+  "updated_date": "2024-07-24T19:55:24Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.24.604735",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.24.604735.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:55:13Z",
+        "timestamp": 1768514113005,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2024-07-24T00:00:00Z",
+            "timestamp": 1721779200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Binding sites are the key interfaces that determine a protein’s biological activity, and therefore common targets for therapeutic intervention. Techniques that help us detect, compare and contextualise binding sites are hence of immense interest to drug discovery. Here we present an approach that integrates protein language models with a 3D tesselation technique to derive rich and versatile representations of binding sites that combine functional, structural and evolutionary information with unprecedented detail. We demonstrate that the associated similarity metrics induce meaningful pocket clusterings by balancing local structure against global sequence effects. The resulting embeddings are shown to simplify a variety of downstream tasks: they help organise the “pocketome” in a way that efficiently contextualises new binding sites, construct performant druggability models, and define challenging train-test splits for believable benchmarking of pocket-centric machine-learning models.</jats:p>",
+      "DOI": "10.1101/2024.07.24.604735",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2024-07-24T19:55:24Z",
+        "timestamp": 1721850924000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Mapping the space of protein binding sites with sequence-based protein language models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Tuğçe",
+          "family": "Oruç",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Maria",
+          "family": "Kadukova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Thomas G.",
+          "family": "Davies",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Marcel",
+          "family": "Verdonk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Carl",
+          "family": "Poelking",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2003.09.002"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.2",
+          "unstructured": "Structure-based drug discovery (Springer, Dordrecht, 2007)."
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1518946112"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1177",
+          "DOI": "10.1038/s41467-023-36699-3",
+          "article-title": "Predicting locations of cryptic pockets from single protein structures using the pocketminer graph neural network",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "730",
+          "DOI": "10.1038/s41592-022-01490-7",
+          "article-title": "Scannet: an interpretable geometric deep learning model for structure-based protein binding site prediction",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1273"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "2567",
+          "DOI": "10.1038/s41467-022-29609-6",
+          "article-title": "The pocketome of g-protein-coupled receptors reveals previously untargeted allosteric sites",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.0c00422"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "805",
+          "DOI": "10.1038/s41589-022-01247-5",
+          "article-title": "Structural basis of efficacy-driven ligand selectivity at gpcrs",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Nature Chemical Biology"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "13452",
+          "DOI": "10.1038/s41598-021-92785-w",
+          "article-title": "The effect of protein mutations on drug binding suggests ensuing personalised drug selection",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006483",
+          "DOI": "10.1371/journal.pcbi.1006483",
+          "article-title": "A benchmark driven guide to binding site comparison: An exhaustive evaluation using tailormade data sets (prospeccts)",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "12462",
+          "DOI": "10.3390/ijms232012462",
+          "article-title": "Estimating the similarity between protein pockets",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cmdc.200700075"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300566n"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.5b00333"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci3000776"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt024"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-543"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21858"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq100"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki482"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00554"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "6296",
+          "DOI": "10.1038/s41598-024-56893-7",
+          "article-title": "Virtuouspocketome: a computational tool for screening protein–ligand complexes to identify similar binding sites",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1016/j.cels.2021.05.017",
+          "article-title": "Learning the protein language: Evolution, structure, and function",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1750",
+          "DOI": "10.1016/j.csbj.2021.03.022",
+          "article-title": "The language of proteins: Nlp, machine learning protein sequences",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "3130",
+          "DOI": "10.1039/D3SC04185A",
+          "article-title": "Posebusters: Ai-based docking methods fail to generate physically valid poses or generalise to novel sequences",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Chemical Science"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr825"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.29",
+          "year": "2019",
+          "journal-title": "Bert: Pre-training of deep bidirectional transformers for language understanding"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adg7492"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-023-01763-2"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-024-00821-4"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.33",
+          "unstructured": "Nielsen, F. Hierarchical Clustering, 195–211 (Springer International Publishing, Cham, 2016). URL http://link.springer.com/10.1007/978-3-319-21903-5_8."
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.34",
+          "unstructured": "tmap. URL https://github.com/reymond-group/tmap."
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.35",
+          "first-page": "1",
+          "article-title": "Pot: Python optimal transport",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.36",
+          "unstructured": "Emboss needle pairwise sequence alignment. URL https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle."
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth214"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.38",
+          "unstructured": "faerun. URL https://github.com/reymond-group/faerun."
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.39",
+          "unstructured": "apoc. URL https://sites.gatech.edu/cssb/apoc/."
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.05.024"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1258"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1114"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.44",
+          "unstructured": "Rdkit: Open-source cheminformatics. URL https://www.rdkit.org."
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rodrigues, J. , Teixeira, J. , Trellet, M. & Bonvin, A. pdb-tools: a swiss army knife for molecular structures [version 1; peer review: 2 approved]. F1000Research 7 (2018).",
+          "DOI": "10.12688/f1000research.17456.1"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.46",
+          "unstructured": "Schrödinger, LLC . The PyMOL molecular graphics system, version 1.8 (2015)."
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21105/joss.00279"
+        },
+        {
+          "key": "2024072805150449000_2024.07.24.604735v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "261",
+          "DOI": "10.1038/s41592-019-0686-2",
+          "article-title": "SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Methods"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.24.604735",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:46:04Z",
+        "timestamp": 1768459564000
+      },
+      "score": 105.253586,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.24.604735"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.1101/2024.07.24.604735",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btaf284",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

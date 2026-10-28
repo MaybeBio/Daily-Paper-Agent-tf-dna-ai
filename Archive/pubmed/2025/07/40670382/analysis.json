@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40670382",
+  "title": "Interpretable deep learning framework for understanding molecular changes in human brains with Alzheimer's disease: implications for microglia activation and sex differences.",
+  "authors": "Trivedi, Maitry Ronakbhai; Joshi, Amogh Manoj; Shah, Jay; Readhead, Benjamin P; Wilson, Melissa A; Su, Yi; Reiman, Eric M; Wu, Teresa; Wang, Qi",
+  "journal": "npj aging",
+  "published_date": "2025-07-17",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习MLP模型分析阿尔茨海默病脑组织RNA-seq，识别性别相关转录因子ZFX/ZFY，但核心是基因表达分类与网络分析，无蛋白质-DNA互作建模或结合机制研究，仅提及转录因子作为基因名，与本课题关联微弱。",
+  "abstract": "The utilization of artificial intelligence in studying the dysregulation of gene expression in Alzheimer's disease (AD) affected brain tissues remains underexplored, particularly in delineating common and specific transcriptomic signatures across different brain regions implicated in AD-related cellular and molecular processes, which could help illuminate novel disease biology for biomarker and target discovery. Herein we developed a deep learning framework, which consisted of multi-layer perceptron (MLP) models to classify neuropathologically confirmed AD versus controls, using bulk tissue RNA-seq data from the RNAseq Harmonization Study of the Accelerating Medicines Project for Alzheimer's Disease (AMP-AD) consortium. The models were trained based on data from three distinct brain regions, including dorsolateral prefrontal cortex (DLPFC), posterior cingulate cortex (PCC), and head of the caudate nucleus (HCN), obtained from the Religious Orders Study/Memory and Aging Project (ROSMAP). Subsequently, we inferred a disease progression trajectory for each brain region by applying unsupervised dimensionality transformation to the distribution of the subjects' expression profiles. To interpret the MLP models, we employed an interpretable method for deep neural network models, obtaining SHapley Additive exPlanations (SHAP) values and identified the most significantly AD-implicated genes for gene co-expression network analysis. Our models demonstrated robust performance in classification and prediction across two other external datasets from the Mayo RNA-seq (MAYO) cohort and the Mount Sinai Brain Bank (MSBB) cohort of AMP-AD. By interpreting the models both mechanistically and biologically, our study elucidated subtle molecular alterations in various brain regions, uncovering shared transcriptomic signatures activated in microglia and sex-specific modules in neurons relevant to AD. Notably, we identified, for the first time, a sex-linked transcription factor pair (ZFX/ZFY) associated with more pronounced neuronal loss in AD females, shedding light on a novel mechanism for sex dimorphism in AD. This study lays the groundwork for leveraging artificial intelligence methodologies to investigate AD at the molecular level, which is not readily achievable from conventional analysis approaches such as differential gene expression (DGE) analysis. The transcription factor implicated in sex difference also underpins a new molecular mechanistic basis of women's greater neurodegeneration in AD warranting further study.",
+  "abstract_zh": "利用人工智能研究阿尔茨海默病（AD）受累脑组织中基因表达失调的领域仍未得到充分探索，尤其是在描绘不同脑区中与AD相关细胞和分子过程相关的共同及特异性转录组特征方面，这可能有助于揭示新的疾病生物学机制，为生物标志物和靶点发现提供支持。在此，我们开发了一个深度学习框架，该框架由多层感知器（MLP）模型组成，用于对神经病理学确诊的AD与对照组进行分类，使用了来自加速药物合作项目-阿尔茨海默病（AMP-AD）联盟的RNAseq协调研究中的批量组织RNA-seq数据。模型基于三个不同脑区的数据进行训练，包括背外侧前额叶皮层（DLPFC）、后扣带皮层（PCC）和尾状核头部（HCN），这些数据来自宗教秩序研究/记忆与衰老项目（ROSMAP）。随后，我们通过对受试者表达谱分布应用无监督降维变换，推断出每个脑区的疾病进展轨迹。为了解释MLP模型，我们采用了一种可解释的深度神经网络模型方法，获得了SHapley加性解释（SHAP）值，并识别出最显著与AD相关的基因，用于基因共表达网络分析。我们的模型在来自AMP-AD的梅奥RNA-seq（MAYO）队列和西奈山脑库（MSBB）队列的两个外部数据集中展示了稳健的分类和预测性能。通过从机制和生物学角度解释模型，我们的研究阐明了不同脑区中的细微分子变化，揭示了在微胶质细胞中激活的共享转录组特征以及与AD相关的神经元中性别特异性模块。值得注意的是，我们首次识别出一个与性别相关的转录因子对（ZFX/ZFY），该对与AD女性中更显著的神经元损失相关，为AD性别二态性提供了新机制。本研究为利用人工智能方法在分子水平上研究AD奠定了基础，这是传统分析方法如差异基因表达（DGE）分析难以实现的。涉及性别差异的转录因子也为女性在AD中更严重的神经退行性变化提供了新的分子机制基础，值得进一步研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40670382/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40670382/",
+  "paper_page_path": "papers/pubmed/40670382/index.html"
+}

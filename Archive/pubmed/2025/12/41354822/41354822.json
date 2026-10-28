@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "41354822",
+    "doi": "10.1186/s13041-025-01259-x",
+    "title": "Identification and validation of microglia-associated genes in ischemic stroke using single-cell and bulk RNA-seq."
+  },
+  "content": {
+    "abstract": "Ischemic stroke (IS) is an acute cerebrovascular disease characterized by high incidence and mortality. The mechanism of microglia in the pathogenesis of IS remains unclear. This study aimed to explore the key genes related to microglia in IS and their molecular mechanisms in the pathogenesis. In this study, the transcriptome data of IS were retrieved from public databases. Subsequently, candidate genes were identified through the intersection of microglia-related genes (MGGs) obtained via single-cell annotation and high-dimensional weighted gene co-expression network analysis (hdWGCNA) with differentially expressed genes (DEGs). Next, key genes were determined through protein-protein interaction (PPI) analysis and verification of expression levels. Afterwards, enrichment analysis, variation analysis, construction of regulatory networks, drug prediction, and molecular docking were performed to evaluate the role of key genes in the pathogenesis of IS. Ultimately, the quantitative real-time PCR (qRT-PCR) was applied to confirm the expression levels of DEGs in brain tissues between sham and transient middle cerebral artery occlusion (tMCAO) mice. A total of 1407 DEGs intersected with 100 MGGs, yielding 51 candidate genes. Subsequently, 3 key genes (Cd14, Csf1, and Tlr2) were successfully obtained. The study revealed that these 3 key genes were co-enriched in 4 pathways, such as leishmania infection and ribosomal, and there were differences in the enriched pathways among groups. Notably, the expression of the 3 key genes was regulated by multiple factors, including 32 microRNAs (miRNAs), such as mmu-miR-3072-5p and mmu-miR-3970, and 7 transcription factors (TFs), such as Sp1 and Nfkb1. Meanwhile, these 3 key genes predicted 8 common drugs. Interestingly, Tlr2 and Adapalene exhibited a strong binding affinity (- 9.73 kcal/mol). qRT-PCR analysis revealed significantly elevated mRNA expression levels of Cd14, Csf1, and Tlr2 in tMCAO mice compared to sham-operated controls (p < 0.01). This study identified and validated 3 key genes (Cd14, Csf1, and Tlr2) associated with IS, which may serve as novel targets for IS diagnosis and treatment strategies.",
+    "keywords": [
+      "Drug prediction",
+      "Immune infiltration",
+      "Ischemic stroke",
+      "Microglia",
+      "Molecular docking",
+      "PPI Network",
+      "Pathway enrichment analysis",
+      "Single-cell RNA sequencing",
+      "hdWGCNA",
+      "miRNA regulation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Datasets as Topic",
+      "*Microglia/metabolism",
+      "*Ischemic Stroke/genetics/metabolism",
+      "Single-Cell Gene Expression Analysis",
+      "Protein Interaction Maps",
+      "Cell Communication",
+      "Humans",
+      "Gene Expression Regulation",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qian, Dongliang",
+        "Lu, Shuangshuang",
+        "Hu, Yuanyuan",
+        "Leng, Bing",
+        "Qin, Xuanfeng"
+      ],
+      "short_names": [
+        "Qian D",
+        "Lu S",
+        "Hu Y",
+        "Leng B",
+        "Qin X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0940-4880"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, National Center for Neurological Disorders, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, 200040, China.",
+        "Nursing Department, Huashan Hospital, Fudan University, Shanghai, 200040, China.",
+        "Department of Neurosurgery, National Center for Neurological Disorders, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, 200040, China.",
+        "Department of Neurosurgery, National Center for Neurological Disorders, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, 200040, China.",
+        "Department of Neurosurgery, National Center for Neurological Disorders, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, 200040, China. qinxuanfeng777@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qian, Dongliang",
+        "short_name": "Qian D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, National Center for Neurological Disorders, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, 200040, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shuangshuang",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "Nursing Department, Huashan Hospital, Fudan University, Shanghai, 200040, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yuanyuan",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, National Center for Neurological Disorders, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, 200040, China."
+        ]
+      },
+      {
+        "full_name": "Leng, Bing",
+        "short_name": "Leng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, National Center for Neurological Disorders, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, 200040, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Xuanfeng",
+        "short_name": "Qin X",
+        "identifiers": [
+          "0000-0003-0940-4880"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, National Center for Neurological Disorders, Huashan Hospital, Shanghai Medical College, Fudan University, Shanghai, 200040, China. qinxuanfeng777@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular brain"
+    ],
+    "journal_abbrev": [
+      "Mol Brain"
+    ],
+    "pub_date": "2025 Dec 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/08 01:36",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42563993"
+    ],
+    "refs": [
+      "40419521",
+      "40406698",
+      "39909118",
+      "39808289",
+      "39796165",
+      "39713401",
+      "39433213",
+      "39415023",
+      "39363111",
+      "39341645",
+      "39307461",
+      "39290044",
+      "39182268",
+      "39062523",
+      "38971320",
+      "38867936",
+      "38825189",
+      "38748648",
+      "38701781",
+      "38454967",
+      "38454480",
+      "38450286",
+      "38402658",
+      "38173414",
+      "37953571",
+      "37789643",
+      "37580491",
+      "37473529",
+      "37426759",
+      "37274874",
+      "37230158",
+      "37166748",
+      "36840585",
+      "36780760",
+      "36587875",
+      "36385232",
+      "36279101",
+      "36253792",
+      "36091000",
+      "35877427",
+      "35767089",
+      "35692516",
+      "35547763",
+      "35392936",
+      "34557778",
+      "34527000",
+      "34511318",
+      "34497930",
+      "34496660",
+      "34344167",
+      "34311470",
+      "33836646",
+      "33764399",
+      "33626426",
+      "33540074",
+      "33144066",
+      "32933419",
+      "32872149",
+      "32529541",
+      "32292776",
+      "32073249",
+      "31669069",
+      "31585077",
+      "31552020",
+      "31203481",
+      "30586919",
+      "30377701",
+      "29976865",
+      "29039449",
+      "28697890",
+      "27905554",
+      "27500965",
+      "26975798",
+      "26771021",
+      "26640428",
+      "25042473",
+      "24658644",
+      "24369381",
+      "23416151",
+      "23323831",
+      "23296467",
+      "20951794",
+      "19776284",
+      "15556350"
+    ],
+    "similar": [
+      "41354822",
+      "42565562",
+      "42471019",
+      "42530267",
+      "41136974",
+      "41055763",
+      "41703488",
+      "42391245",
+      "34566862",
+      "41785251",
+      "38678526",
+      "42536203",
+      "40091022",
+      "41350331",
+      "36157062",
+      "42599937",
+      "41918402",
+      "41300749",
+      "38873601",
+      "42106542",
+      "41533020",
+      "42599654",
+      "39743646",
+      "36291136",
+      "42580240",
+      "40085348",
+      "35401659",
+      "42136960",
+      "41235394",
+      "35757392",
+      "39581982",
+      "38062833",
+      "39067546",
+      "40628511",
+      "40024299",
+      "39182484",
+      "41220037",
+      "37305753",
+      "40207230",
+      "32626985",
+      "40953791",
+      "40977739",
+      "40289127",
+      "40216809",
+      "37081490",
+      "41162503",
+      "40211238",
+      "38549107",
+      "39176085",
+      "42157182",
+      "38242381",
+      "41214111",
+      "41474773",
+      "42363525",
+      "42736768",
+      "42520680",
+      "41288681",
+      "40532306",
+      "42082621",
+      "41907212",
+      "42059276",
+      "42389891",
+      "41191606",
+      "41483498",
+      "34218797",
+      "41508240",
+      "41905994",
+      "42006143",
+      "39351239",
+      "42265520",
+      "42609827",
+      "42603208",
+      "42404762",
+      "39028999",
+      "40955310",
+      "41940395",
+      "42730994",
+      "40087350",
+      "42288692",
+      "41504784",
+      "39945271",
+      "39893187",
+      "39217343",
+      "41442003",
+      "41580787",
+      "40767016",
+      "40588645",
+      "33468167",
+      "42180604",
+      "40406126",
+      "35620387",
+      "41388523",
+      "41697135",
+      "39483475",
+      "30185153",
+      "40340571",
+      "39086489",
+      "40536508",
+      "41316541",
+      "41120603"
+    ],
+    "review": [
+      "41354822"
+    ],
+    "pmc": [
+      "12699842"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-025-01259-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41354822/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD14-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3701",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

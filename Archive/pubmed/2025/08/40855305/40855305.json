@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "40855305",
+    "doi": "10.1186/s13046-025-03517-1",
+    "title": "Functional tumor-reactive CD8 + T cells in pancreatic cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Traditional methods for detecting tumor-reactive (TR) CD8 + tumor-infiltrating lymphocytes (TILs) in pancreatic cancer usually focus on neo-antigenic epitopes, which is limited by the narrow range of antigenic epitopes, and the lengthy and complex identification processes, resulting in an incomplete understanding of the biological characteristics of TR CD8 + TILs. METHODS: This study introduces a novel approach that integrates single-cell sequencing with deep learning (DL), which enables the identification of tumor-reactive CD8 + T cells without neoantigen screening. The T Cell Receptor Engineered T (TCR-T) cell tumor organoid killing model was employed to validate the functionality of DL-identified TR CD8 + T cells, while spatial transcriptomics was used to confirm receptor-ligand interactions involving TR CD8 + TILs. RESULTS: Comprehensive analyses of TR CD8 + TILs revealed impaired mitochondrial respiratory chain-related pathways regulated by the transcription factor FOS. The TIGIT-NECTIN2 axis was identified as an important immune checkpoint molecule in the tumor microenvironment of pancreatic cancer. T cell receptor (TCR) repertoire analysis demonstrated that some TR CD8 + TILs possess multiple TCR alphabeta combinations. Furthermore, TCR-T targeting experiments using tumor organoids revealed that combinations of multiple distinct TR TCRs exhibit significantly superior tumor-killing capabilities compared to a single type TCR. Clinically, a higher proportion of TR CD8 + TILs was positively associated with improved responses to neoadjuvant immunotherapy and longer overall survival in pancreatic cancer patients. CONCLUSION: This study represents a significant advancement in the understanding of TR TIL biology and provides a rapid and accurate method to identify TR CD8 TILs.",
+    "keywords": [
+      "Deep learning",
+      "Pancreatic cancer",
+      "Single cell sequencing",
+      "Tumor-reactive CD8 + TILs"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/immunology/pathology/genetics",
+      "*CD8-Positive T-Lymphocytes/immunology/metabolism",
+      "*Lymphocytes, Tumor-Infiltrating/immunology/metabolism",
+      "Animals",
+      "Mice",
+      "Tumor Microenvironment/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Hongwei",
+        "Shi, Changying",
+        "Fang, Guoqing",
+        "Guo, Qiufang",
+        "Du, Zhengliang",
+        "Chen, Geer",
+        "Wu, Yasong",
+        "Chen, Zhe-Sheng",
+        "Hua, Jian",
+        "Zhang, Yan",
+        "Shi, Zhiwen"
+      ],
+      "short_names": [
+        "Sun H",
+        "Shi C",
+        "Fang G",
+        "Guo Q",
+        "Du Z",
+        "Chen G",
+        "Wu Y",
+        "Chen ZS",
+        "Hua J",
+        "Zhang Y",
+        "Shi Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China.",
+        "Hepatobiliary Surgery Center, Tongji Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Shanghai JFKR Organoid Biotechnology Co., Ltd, Shanghai, China.",
+        "Shanghai Pharmaceutical Biotherapeutics, Cellular Therapeutics Center for Cancers, Co., Ltd, shanghai, China.",
+        "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China.",
+        "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China.",
+        "Chineo Medical Technology Co. Ltd, Beijing, China.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, St. John's University, Queens, NY, USA.",
+        "Shanghai Pharmaceutical Biotherapeutics, Cellular Therapeutics Center for Cancers, Co., Ltd, shanghai, China. huaj@sphchina.com.",
+        "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China. zhangyan@wmu.edu.cn.",
+        "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China. wenzhishi@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Hongwei",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Changying",
+        "short_name": "Shi C",
+        "identifiers": [],
+        "affiliations": [
+          "Hepatobiliary Surgery Center, Tongji Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Guoqing",
+        "short_name": "Fang G",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai JFKR Organoid Biotechnology Co., Ltd, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Qiufang",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Pharmaceutical Biotherapeutics, Cellular Therapeutics Center for Cancers, Co., Ltd, shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Du, Zhengliang",
+        "short_name": "Du Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Geer",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yasong",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Chineo Medical Technology Co. Ltd, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhe-Sheng",
+        "short_name": "Chen ZS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, St. John's University, Queens, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Hua, Jian",
+        "short_name": "Hua J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Pharmaceutical Biotherapeutics, Cellular Therapeutics Center for Cancers, Co., Ltd, shanghai, China. huaj@sphchina.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China. zhangyan@wmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shi, Zhiwen",
+        "short_name": "Shi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Medical Genetics, Key Laboratory of Laboratory Medicine, Ministry of Education, School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, The First Affiliated Hospital of Wenzhou Medical University, WenZhou, China. wenzhishi@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2025 Aug 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/27 04:46",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42098765",
+      "41788310",
+      "41695491"
+    ],
+    "refs": [
+      "40165973",
+      "39972144",
+      "39900903",
+      "39752523",
+      "39294496",
+      "39111315",
+      "38881904",
+      "38849478",
+      "38503657",
+      "38454173",
+      "38263463",
+      "38181797",
+      "37967201",
+      "37891230",
+      "37612267",
+      "37264024",
+      "37165196",
+      "37059070",
+      "36791198",
+      "36781852",
+      "36529697",
+      "36306792",
+      "36283023",
+      "36138134",
+      "35970936",
+      "35849783",
+      "35648703",
+      "35469013",
+      "35452604",
+      "35413272",
+      "35113651",
+      "34914499",
+      "34702715",
+      "34426439",
+      "34358448",
+      "34296197",
+      "34047476",
+      "33910064",
+      "33597522",
+      "32789006",
+      "32561888",
+      "32303540",
+      "31870423",
+      "31653690",
+      "31178118",
+      "30954475",
+      "29608177",
+      "28407145",
+      "25605792",
+      "24799436",
+      "24113773",
+      "22936215",
+      "22517427",
+      "19847166",
+      "17440104",
+      "8393478",
+      "7561698"
+    ],
+    "similar": [
+      "40855305",
+      "26849077",
+      "38816232",
+      "38395378",
+      "39030523",
+      "33414263",
+      "30151844",
+      "32441316",
+      "33249194",
+      "39521901",
+      "41383591",
+      "40155040",
+      "34171120",
+      "28947567",
+      "41303843",
+      "33781741",
+      "30282837",
+      "33687756",
+      "32886262",
+      "37544663",
+      "24667641",
+      "39910336",
+      "30505306",
+      "37484198",
+      "38964784",
+      "30728151",
+      "36330507",
+      "37600765",
+      "29521231",
+      "30426614",
+      "38849478",
+      "29475880",
+      "29097422",
+      "41112305",
+      "35113651",
+      "31462302",
+      "34907028",
+      "34185709",
+      "32285170",
+      "27827318",
+      "38866910",
+      "30659023",
+      "30874889",
+      "40804681",
+      "34707600",
+      "37258038",
+      "29269008",
+      "34758773",
+      "31601268",
+      "28754817",
+      "22573804",
+      "41054926",
+      "40475782",
+      "39650651",
+      "30659052",
+      "31195061",
+      "32447649",
+      "19949105",
+      "32025849",
+      "40961944",
+      "31353502",
+      "40676751",
+      "37165118",
+      "29180535",
+      "38658764",
+      "31771616",
+      "31104075",
+      "12902522",
+      "32622323",
+      "27297552",
+      "40425012",
+      "38750113",
+      "33168024",
+      "38909497",
+      "41005293",
+      "29510739",
+      "34548385",
+      "28522749",
+      "40726089",
+      "39643914",
+      "40010772",
+      "31451484",
+      "38796932",
+      "41203628",
+      "37056782",
+      "29043413",
+      "24218514",
+      "36581331",
+      "28874354",
+      "28947422",
+      "31601888",
+      "28213366",
+      "34789550",
+      "32334338",
+      "35288463",
+      "25866972",
+      "29769722",
+      "27314056",
+      "39846249",
+      "39939322"
+    ],
+    "review": [
+      "40855305",
+      "40475782",
+      "32334338",
+      "27314056"
+    ],
+    "pmc": [
+      "12379552"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-025-03517-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40855305/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40855305",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

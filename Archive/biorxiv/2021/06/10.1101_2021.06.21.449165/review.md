@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supplementary file descriptions)
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and claims as presented in the provided text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors present an integrative multi-omics pipeline that constructs gene co-expression networks, predicts gene regulatory networks (GRNs) linking transcription factors and regulatory elements to target genes, and integrates Alzheimer's disease (AD) GWAS risk variants by identifying SNPs that disrupt transcription factor binding sites. They apply this to three brain regions (Hippocampus, DLPFC, LTL), identify cross-region and region-specific GRNs, and use shared AD-Covid pathways to prioritize genes for predicting Covid-19 severity via machine learning, proposing these as potential biomarkers for neuroimmunology in AD.
+- **Visible evidence base** Results sections describing co-expression modules, GRN predictions, SNP-TFBS disruption analysis, Covid-19 severity prediction (accuracy, AUROC, DCA), and supplementary file descriptions. Methodological details for data processing, network construction, and machine learning are provided.
+- **Missing materials affecting confidence** Actual data files, figures, and supplementary tables (S1-S3, S1-S54) were not provided. Specific numerical results (e.g., correlation coefficients, p-values, model performance metrics beyond summary values) are referenced but not shown. Code repository and web database were not accessed.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful integrative framework for linking non-coding AD risk variants to gene regulatory mechanisms and phenotypes across brain regions. The conceptual approach is timely and the use of Covid-19 as a proxy for neuroimmunology is creative. However, the evidence as presented is largely descriptive and correlational. The central claims regarding the predictive power of AD-Covid genes for Covid-19 severity and their role as biomarkers for neuroimmunology in AD are not sufficiently supported by the visible evidence. The manuscript would benefit from clearer presentation of validation steps, effect sizes, and statistical rigor. The writing is dense and at times difficult to follow for a non-specialist.
+- **Who would be interested in the results, and why** Researchers in AD genomics, gene regulatory network inference, and neuroimmunology would find the integrative approach and the specific GRN predictions of interest. The identification of SNPs that disrupt TF binding and link to immune-related genes could inform functional follow-up studies. The machine learning application to Covid-19 severity, while tangential to AD, may interest clinicians and researchers studying Covid-19 biomarkers.
+- **Major strengths** 1) The integrative multi-omics approach is ambitious and addresses a real gap in linking GWAS variants to function. 2) The focus on multiple brain regions allows for comparative analysis. 3) The use of Covid-19 as a proxy for immune dysregulation is a novel angle. 4) The open-source availability of code and data is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that AD-Covid genes from the GRNs outperform known Covid-19 genes for predicting Covid-19 severity, and that these genes are potential biomarkers for neuroimmunology in AD.
+  - **Evidence pointer** Results section "Machine learning prediction of Covid-19 severity from AD-Covid gene regulatory networks"; Figures 6D-E, S47-S48, S52-S54 (not provided)
+  - **Concern** The machine learning analysis is described with limited methodological detail. The comparison to the benchmark gene list is unclear: the benchmark list is composed of 18 genes from various studies, but the selection process for the optimal number of genes (16) is only described for the benchmark. It is not clear if the same feature selection procedure was applied to the AD-Covid gene lists, or if the top 16 genes were simply taken from each list. The reported accuracy and AUROC values are presented without confidence intervals or statistical tests comparing the models. The DCA results are described qualitatively ("higher Net Benefits") without providing the actual curves or a quantitative comparison. The claim of "outperforming" is therefore not substantiated by the visible evidence.
+  - **Why it matters** The central translational claim of the paper rests on this comparison. Without rigorous and transparent model comparison, the conclusion that AD-Covid genes are superior biomarkers is unsupported. This weakens the overall impact and potential clinical relevance of the findings.
+  - **Resolution test** Provide a detailed description of the feature selection and model training process for all gene lists. Report accuracy, AUROC, and DCA Net Benefit values with confidence intervals or standard deviations across cross-validation folds. Perform and report a statistical test (e.g., DeLong test for AUROC comparison) to support the claim of superiority over the benchmark.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the predicted GRNs link AD risk variants to target genes and phenotypes, and that SNPs disrupting TF binding are functionally relevant.
+  - **Evidence pointer** Methods sections "Prediction of gene regulatory networks" and "Linking GWAS SNPs for AD to gene regulatory elements"; Results section "Identification of disease risk variants for AD phenotypes via integration of GWAS and gene regulatory networks"; Figures 4A-F, S11-S16 (not provided)
+  - **Concern** The GRN prediction relies on integrating TF binding site predictions (via motif matching) with co-expression data and chromatin interactions. The manuscript does not describe how false positives in TF binding site prediction are controlled, nor how the confidence of chromatin interactions is assessed. The validation of the GRNs is not described; the authors state that they used "shared predictions across different approaches as highly confident GRNs" but do not specify the overlap criteria or the degree of concordance. The functional relevance of the identified SNPs is inferred from their location in regulatory elements and disruption of TF binding, but no experimental validation or additional functional evidence (e.g., eQTL data) is provided.
+  - **Why it matters** The core of the paper is the construction of these GRNs and the linking of SNPs to genes. If the GRN predictions are noisy or not validated, the downstream claims about specific genes and SNPs being relevant to AD phenotypes are unreliable. The lack of validation makes it difficult to assess the biological significance of the findings.
+  - **Resolution test** Describe the criteria for defining "highly confident" GRN edges, including the overlap between methods and any thresholds applied. Provide a validation of the GRN predictions, for example by comparing to known regulatory interactions or using independent datasets (e.g., eQTL or ChIP-seq data). For the SNP analysis, include a comparison to eQTL data or other functional genomics resources to support the claim that the identified SNPs have regulatory effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that the analysis is open-source and reproducible, with code available at a GitHub repository and a web database for visualization.
+  - **Evidence pointer** Availability of data and material section; Methods sections
+  - **Concern** While the authors state that code and data are available, the manuscript does not provide a detailed description of the computational environment, software versions, or parameters used. The supplementary files are described but not provided for review. Without access to these resources, the reproducibility of the analysis cannot be assessed.
+  - **Why it matters** Reproducibility is a key requirement for computational biology papers. The lack of detail on the exact implementation and the unavailability of the supplementary data for review prevent independent verification of the results.
+  - **Resolution test** Provide a detailed description of the computational pipeline, including software versions and parameters. Ensure that the supplementary files are made available for review and contain the necessary data to reproduce the main results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract is dense and uses jargon without clear definitions (e.g., "multi-omics," "GRN," "neuroimmunology"). The introduction could better motivate the specific choice of Covid-19 as a proxy for neuroimmunology, as this connection is not immediately obvious.
+  - **Required correction** Simplify the abstract for a broader audience. In the introduction, provide a more explicit rationale for using Covid-19 as a model for immune dysregulation in AD.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "Gene co-expression network analysis"
+  - **Evidence pointer** Results section, Figures 2A-F, S2-S7 (not provided)
+  - **Issue** The correlation coefficients between module eigengenes and phenotypes are reported without confidence intervals or p-values adjusted for multiple testing. The authors state that modules are "significantly positively associated" but do not specify the significance threshold or the correction method.
+  - **Required correction** Report the correlation coefficients with p-values and indicate the multiple testing correction method used (e.g., Benjamini-Hochberg).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section "Identification of disease risk variants"
+  - **Evidence pointer** Results section, Figures 4A-F, S11-S16 (not provided)
+  - **Issue** The examples of specific SNPs and genes are described in the text but the corresponding figures are not provided. The reader cannot visualize the networks or the SNP effects described.
+  - **Required correction** Ensure that the figures are included in the final submission and that the text clearly references the relevant panels.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion speculates on potential therapeutic targets and clinical applications without acknowledging the speculative nature of these claims. The link between Covid-19 severity prediction and AD neuroimmunology is presented as more direct than the evidence supports.
+  - **Required correction** Temper the language in the discussion to clearly distinguish between findings and hypotheses. Acknowledge the limitations of using Covid-19 as a proxy and the need for further validation.
+
+## Risk / unsupported claims
+- The claim that AD-Covid genes "outperform" known Covid-19 genes for predicting severity is unsupported without statistical comparison and confidence intervals.
+- The claim that the identified SNPs have functional regulatory effects is inferred from computational predictions and is not validated with experimental or independent functional data.
+- The claim that the GRNs provide "systematic insights" into gene regulatory mechanisms is overstated given the lack of validation of the network predictions.
+- The generalizability of the findings to other populations or datasets is not assessed.
+- The biological significance of the "AD-Covid genes" as biomarkers for neuroimmunology in AD is speculative and not directly tested.

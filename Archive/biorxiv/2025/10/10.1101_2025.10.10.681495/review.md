@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and extended data figure legends.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors identify a family of human genomic elements, termed "retention elements," that promote the retention of extrachromosomal DNA (ecDNA) in cancer cells by tethering to mitotic chromosomes. They develop Retain-seq, a genome-scale screen, to identify these elements, and demonstrate that they are CpG-rich, active regulatory regions that physically interact with mitotically bookmarked chromosomal loci. The authors further show that retention elements are co-amplified on oncogenic ecDNAs in patient tumors and that their activity is sensitive to CpG methylation.
+- **Visible evidence base** Abstract, full results section, methods, and extended data figure legends. No primary figures or tables were provided for direct inspection.
+- **Missing materials affecting confidence** Primary figures, extended data figures, and supplementary tables are not available. This limits the ability to independently assess the quality of the data, the robustness of the statistical analyses, and the strength of the imaging and sequencing evidence.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental and long-standing question in cancer biology: how acentric extrachromosomal DNA is faithfully inherited by daughter cells. The authors propose a novel mechanism involving specific genomic elements that tether ecDNA to mitotic chromosomes. The concept is original and the development of Retain-seq represents a potentially powerful approach. However, the current manuscript, as provided, lacks the primary data necessary to fully evaluate the strength of the claims. The conclusions are far-reaching, and the evidence base, while described in detail, cannot be verified from the text alone. The manuscript is well-written and the logic is clear, but the scientific case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Cancer biologists studying oncogene amplification, genome instability, and tumor evolution would be the primary audience. Researchers interested in the mechanisms of chromosome segregation, mitotic bookmarking, and 3D genome organization would also find this work highly relevant. Additionally, the Retain-seq method itself will be of interest to the broader genomics and molecular biology communities as a tool for studying DNA maintenance and inheritance.
+- **Major strengths**
+    1.  The study addresses a critical, unresolved question in the ecDNA field with a clear and testable hypothesis.
+    2.  The development of Retain-seq is a novel and logical approach to identify functional retention elements in an unbiased manner.
+    3.  The integration of multiple methodologies (screen, imaging, Hi-C, methylation analysis) to support the central claim is commendable.
+    4.  The finding that retention elements are CpG-rich promoters and that methylation can modulate their activity provides a potentially important regulatory link.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence quality and reproducibility
+    - **Claim pointer** The authors claim that Retain-seq identifies thousands of human retention elements that confer generational persistence to heterologous episomes.
+    - **Evidence pointer** Results section "Genetic elements drive episome retention", Methods section "Retain-seq", Extended Data Figures 1 and 2.
+    - **Concern** The core of the manuscript rests on the Retain-seq screen. However, the primary data, including the enrichment analysis, the definition of a "retention element" (e.g., the specific fold-change and FDR thresholds), and the reproducibility between biological replicates, are not shown. The methods describe the process but do not provide the results. The validation of only six elements is a small fraction of the thousands claimed, and the criteria for their selection are not stated.
+    - **Why it matters** Without seeing the primary screen data, it is impossible to assess the robustness of the identified elements. The claim of "thousands" of elements is a central finding, and the evidence for this must be presented clearly. The lack of this data prevents the reader from evaluating the screen's quality and the validity of the subsequent analyses.
+    - **Resolution test** The authors must provide the primary Retain-seq data, including a clear definition of the statistical thresholds used to call retention elements, a demonstration of reproducibility, and a more comprehensive validation of a larger, randomly selected set of elements.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Causal evidence
+    - **Claim pointer** The authors claim that retention elements tether episomes to mitotic chromosomes, and that this tethering is the mechanism by which they promote retention.
+    - **Evidence pointer** Results section "Retention elements tether to chromosomes", "Episomal contact with mitotic bookmarks", Figure 3.
+    - **Concern** The live-cell imaging data showing increased colocalization of a retention element-bearing plasmid with chromosomes is presented as a key piece of evidence. However, the data is not shown. Furthermore, the manuscript does not demonstrate a causal link between the observed tethering and the increased retention. The Hi-C data is described as showing interactions, but the functional significance of these interactions is inferred, not proven. The CRISPR knockout experiments of bookmarking factors are mentioned, but the results are not presented.
+    - **Why it matters** The central mechanistic claim is that tethering is the cause of retention. The current evidence is correlative. To establish causality, the authors need to show that disrupting the tethering interaction (e.g., by mutating the retention element or knocking out the bookmarking factor) leads to a loss of retention, and that this effect is specific.
+    - **Resolution test** The authors must present the imaging data and the Hi-C data. More importantly, they need to provide direct experimental evidence that perturbation of the proposed tethering mechanism (e.g., via mutation or knockout) reduces ecDNA retention, thereby establishing a causal link.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Functional relevance in cancer
+    - **Claim pointer** The authors claim that retention elements are co-amplified with oncogenes on ecDNAs in patient tumors and that this shapes ecDNA structure and promotes oncogene maintenance.
+    - **Evidence pointer** Results section "Cancer ecDNAs contain retention elements", Figure 4.
+    - **Concern** The analysis of patient tumor data is described, but the results are not shown. The claim that ecDNA amplicon size is inversely correlated with retention element density is a strong one, but the data supporting it is absent. The functional significance of this correlation is also not tested. The CRISPRoff experiments are described as leading to ecDNA loss, but the data is not presented.
+    - **Why it matters** This is the translational and clinical relevance of the work. The claim that retention elements are selected for in human cancers is a major conclusion. Without the data, it is not possible to verify this. The CRISPRoff experiment is a critical experiment that directly tests the role of retention elements in maintaining ecDNA in a therapeutic context.
+    - **Resolution test** The authors must present the patient tumor data analysis, including the statistical methods and the correlation results. They must also present the CRISPRoff data, showing the effect on ecDNA copy number and cell viability.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Methods section "Retain-seq analysis"
+    - **Evidence pointer** Methods section "Retain-seq analysis"
+    - **Issue** The description of the normalization and statistical analysis of the Retain-seq data is incomplete. The method for calculating the log2 fold change and the Z-scores is described, but the specific model or test used to determine significance is not fully detailed.
+    - **Required correction** Please provide a more detailed description of the statistical model used to identify retention elements, including the specific R packages and functions used.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Results section "Retention elements comprise active DNA"
+    - **Evidence pointer** Results section "Retention elements comprise active DNA", Extended Data Figure 5.
+    - **Issue** The statement that "the presence of retention elements that are not actively transcribed... suggest that transcription may not be necessary for function" is a logical leap. The absence of transcription does not rule out a role for the transcriptional machinery or the act of transcription in retention.
+    - **Required correction** Please temper this conclusion or provide additional evidence to support it, such as experiments that specifically disrupt transcription without affecting the underlying DNA sequence or chromatin state.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Generalizability
+    - **Affected element** Discussion section
+    - **Evidence pointer** Discussion section
+    - **Issue** The discussion focuses heavily on the role of retention elements in cancer. It would be interesting to discuss the potential role of these elements in the maintenance of other types of extrachromosomal DNA, such as in normal cells or in the context of viral infection.
+    - **Required correction** Consider adding a brief discussion on the potential broader implications of these findings for the biology of extrachromosomal DNA in general.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of primary data for the Retain-seq screen.
+    - R1-M2: Lack of causal evidence linking tethering to retention.
+    - R1-M3: Lack of primary data for the patient tumor analysis and CRISPRoff experiments.
+- **Assessment against Nature-style criteria**
+    - **Originality** High. The concept of specific human genomic elements acting as "retention elements" for ecDNA is novel and provides a new framework for understanding ecDNA inheritance.
+    - **Scientific importance** High. This work addresses a fundamental question in cancer biology and has implications for understanding tumor evolution and therapeutic resistance.
+    - **Interdisciplinary readership** Moderate to high. The work will appeal to cancer biologists, genomicists, and cell biologists. The methodological advance (Retain-seq) may also attract a broader audience.
+    - **Technical soundness** Currently not assessable. The described methods are logical, but the absence of primary data prevents an evaluation of their execution and the robustness of the results.
+    - **Readability for nonspecialists** Good. The manuscript is clearly written and the concepts are explained well. The abstract is accessible and the logic of the study is easy to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a highly interesting and original hypothesis, and the experimental strategy is sound. However, the core claims are not supported by the data provided in this submission. The authors must provide the primary figures and data to allow for a full evaluation of the screen, the imaging, the Hi-C, and the functional experiments. If the data are as compelling as the text suggests, this could be a very significant contribution.

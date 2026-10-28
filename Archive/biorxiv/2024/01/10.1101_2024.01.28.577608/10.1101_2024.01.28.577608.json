@@ -1,0 +1,545 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.28.577608",
+  "title": "PTF-Vāc: An explainable and generative deep co-learning encoders-decoders system for <i>ab-initio</i> discovery of plant transcription factor binding sites",
+  "doi": "10.1101/2024.01.28.577608",
+  "abstract": "Discovery of transcription factors (TFs) binding sites (TFBS) and their motifs in plants pose significant challenges due to high cross-species variability. The interaction between TFs and their binding sites is highly specific and context dependent. Most of the existing TFBS finding tools are not accurate enough to discover these binding sites in plants. They fail to capture the cross-species variability, interdependence between TF structure and its TFBS, and context specificity of binding. Since they are coupled to predefined TF specific model/matrix, they are highly vulnerable towards the volume and quality of data provided to build the motifs. All these software make a presumption that the user input would be specific to any particular TF which renders them of very limited use for practical applications like genomic annotations of newly sequenced species. Here, we report an explainable Deep Encoders-Decoders generative system, PTF-Vāc, founded on a universal model of deep co-learning on variability in binding sites and TF structure, PTFSpot, making it completely free from the bottlenecks mentioned above. It has successfully decoupled the process of TFBS discovery from the prior step of motif finding and requirement of TF specific motif models. Due to the universal model for TF:DNA interactions as its guide, it can discover the binding motifs in total independence from data volume, species and TF specific models. In a comprehensive benchmarking study across a huge volume of experimental data, it has outperformed most advanced motif finding deep learning (DL) algorithms. With this all, PTF-Vāc brings a completely new chapter in ab-initio TFBS discovery through generative AI. Short Summary The discovery of transcription factor binding sites (TFBS) in plants is challenging due to high variability across species and context-specific interactions. Traditional tools rely on predefined models and often fail in their cross-species applications. PTF-Vāc has implemented generative a universal deep-learning model that decouples TFBS discovery from predefined motifs, enabling accurate, species-independent TFBS/motif identification while outperforming existing methods by huge leads.",
+  "authors": [
+    "Sagar Gupta",
+    "Jyoti",
+    "Umesh Bhati",
+    "Veerbhan Kesarwani",
+    "Akanksha Sharma",
+    "Ravi Shankar"
+  ],
+  "published_date": "2024-01-31",
+  "updated_date": "2024-01-31T15:30:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.28.577608",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.28.577608.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:49:13Z",
+        "timestamp": 1782280153487,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            31
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 59,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                31
+              ]
+            ],
+            "date-time": "2024-01-31T00:00:00Z",
+            "timestamp": 1706659200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Discovery of transcription factors (TFs) binding sites (TFBS) and their motifs in plants pose significant challenges due to high cross-species variability. The interaction between TFs and their binding sites is highly specific and context dependent. Most of the existing TFBS finding tools are not accurate enough to discover these binding sites in plants. They fail to capture the cross-species variability, interdependence between TF structure and its TFBS, and context specificity of binding. Since they are coupled to predefined TF specific model/matrix, they are highly vulnerable towards the volume and quality of data provided to build the motifs. All these software make a presumption that the user input would be specific to any particular TF which renders them of very limited use for practical applications like genomic annotations of newly sequenced species. Here, we report an explainable Deep Encoders-Decoders generative system, PTF-Vāc, founded on a universal model of deep co-learning on variability in binding sites and TF structure, PTFSpot, making it completely free from the bottlenecks mentioned above. It has successfully decoupled the process of TFBS discovery from the prior step of motif finding and requirement of TF specific motif models. Due to the universal model for TF:DNA interactions as its guide, it can discover the binding motifs in total independence from data volume, species and TF specific models. In a comprehensive benchmarking study across a huge volume of experimental data, it has outperformed most advanced motif finding deep learning (DL) algorithms. With this all, PTF-Vāc brings a completely new chapter in\n                  <jats:italic>ab-initio</jats:italic>\n                  TFBS discovery through generative AI.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Short Summary</jats:title>\n                  <jats:p>The discovery of transcription factor binding sites (TFBS) in plants is challenging due to high variability across species and context-specific interactions. Traditional tools rely on predefined models and often fail in their cross-species applications. PTF-Vāc has implemented generative a universal deep-learning model that decouples TFBS discovery from predefined motifs, enabling accurate, species-independent TFBS/motif identification while outperforming existing methods by huge leads.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2024.01.28.577608",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            31
+          ]
+        ],
+        "date-time": "2024-01-31T15:30:10Z",
+        "timestamp": 1706715010000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "PTF-Vāc: An explainable and generative deep co-learning encoders-decoders system for\n                  <i>ab-initio</i>\n                  discovery of plant transcription factor binding sites"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Sagar",
+          "family": "Gupta",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Jyoti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Umesh",
+          "family": "Bhati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Veerbhan",
+          "family": "Kesarwani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Akanksha",
+          "family": "Sharma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravi",
+          "family": "Shankar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/14.1.48"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp335"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13386-w"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-99-7074-2_3"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(90)90223-9"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsif.2017.0387"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.19.00100"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0437746100"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1311818110"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICMLA.2008.114"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2023.1034393"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(01)00392-6"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.17.00840"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.5c00969"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae324"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.17",
+          "first-page": "130",
+          "article-title": "Review of different sequence motif finding algorithms",
+          "volume": "11",
+          "year": "2019",
+          "journal-title": "Avicenna J. Med. Biotechnol"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/15.7.563"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-12-134"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-016-2729-8"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw982"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pbi.2019.12.008"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.heliyon.2024.e39140"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-100"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-6-237"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICMLA.2007.105"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07391102.2017.1349690"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.8211139"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2016.08.005"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hr/uhaf098"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2014.083"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkj143"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2667136"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12539-015-0268-7"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07391102.2015.1073630"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12862-019-1398-z"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3115/1073083.1073135"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2053230X23004934"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmolb.2022.988996"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1098-939"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh012"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-010-9352-6"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2017.74"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.isci.2021.103381"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tplants.2021.06.016"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.105.065110"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.1811.00416"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms16035194"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.112.143370"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/10.9.2997"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz339"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-11-414"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2211.04785"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz672"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbs016"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt437"
+        },
+        {
+          "key": "2025092500151108000_2024.01.28.577608v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00894-014-2117-8"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.28.577608",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T04:57:28Z",
+        "timestamp": 1782277048000
+      },
+      "score": 111.656815,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.01.28.577608"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            31
+          ]
+        ]
+      },
+      "references-count": 59,
+      "URL": "https://doi.org/10.1101/2024.01.28.577608",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.xplc.2025.101543",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            31
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

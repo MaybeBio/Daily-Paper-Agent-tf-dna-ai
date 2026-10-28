@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report absolute binding affinities for POPG to ELIC using an atomistic implementation of the SAFEP alchemical free energy perturbation method. They report a binding free energy of -9.7 +/- 0.8 kcal/mol, weak non-ideality of POPG in binary POPC:POPG membranes, negligible effect of bulk non-ideality on predicted binding, and at least two distinct headgroup conformations in unbiased simulations with functional implications.
+- **Visible evidence base** Abstract text only; no numerical data beyond the stated binding free energy, no methodological details, no convergence metrics, no simulation parameters, no structural or functional data
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation protocols, convergence analyses, error estimation procedures, system preparation details, force field parameters, and any supporting statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant methodological advance and a biologically relevant quantitative result. The reported absolute binding affinity for a phospholipid to a membrane protein is a valuable quantity that has been historically difficult to obtain. However, the abstract alone provides insufficient detail to assess the technical validity of the alchemical calculations, the robustness of the convergence claims, or the strength of the structural interpretations. The central quantitative claim (-9.7 +/- 0.8 kcal/mol) is stated without supporting evidence, and the convergence statement is asserted without visible metrics. The work is likely of interest to the membrane protein and computational biophysics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and method developers working on alchemical free energy calculations, particularly those addressing ligand binding in membrane environments. Experimental membrane protein biophysicists studying lipid modulation of ion channels, especially the pentameric ligand-gated ion channel family, would also be interested in the quantitative binding affinity and the proposed conformational implications. The methodological aspects of the SAFEP implementation for flexible phospholipids could interest researchers developing enhanced sampling and free energy methods.
+- **Major strengths** The target quantity, an absolute binding affinity of a phospholipid for a membrane protein, is of clear scientific importance and has been technically challenging to obtain. The reported precision (0.8 kcal/mol) is commendable if substantiated. The connection between computed affinity and experimentally observed cryo-EM densities provides a tangible link between computation and experiment. The observation of multiple headgroup conformations with functional implications adds biological relevance beyond the thermodynamic quantity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Achieving convergence required computationally inexpensive collective variables that were robust to the flexibility of phospholipids" and "show robust convergence across several metrics"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts that convergence was achieved and that it was robust across several metrics, but no convergence metrics, collective variable definitions, or error analyses are presented. The statement that "computationally inexpensive collective variables" were required suggests a methodological innovation, but the nature of these variables and the evidence for their adequacy are absent.
+  - **Why it matters** Alchemical free energy calculations for flexible ligands in membrane environments are notoriously prone to convergence issues. The reliability of the reported binding affinity depends entirely on the adequacy of the sampling and the collective variables used. Without visible convergence evidence, the central quantitative claim cannot be evaluated.
+  - **Resolution test** Provide convergence plots, block error analyses, overlap metrics between alchemical states, and a clear description of the collective variables with justification for their choice. Show that the reported error of 0.8 kcal/mol is a realistic estimate of the statistical uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "POPG shows weak non-ideality in a binary POPC:POPG membrane, with excess chemical potentials that are slightly weaker for 10-30% POPG"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports composition-dependent excess chemical potentials without providing any numerical values, system compositions, or statistical uncertainties. The claim of "weak non-ideality" and the composition dependence (10-30% POPG) are stated without supporting data.
+  - **Why it matters** The excess chemical potential calculations are a secondary result that supports the claim that bulk non-ideality negligibly affects binding. If these calculations are not reliable, the correction to the binding affinity could be misestimated, affecting the central result.
+  - **Resolution test** Provide the computed excess chemical potentials for each composition, with uncertainties, and show how these values were used to correct the binding affinity. Demonstrate that the correction is indeed negligible within the reported error.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Unbiased simulations reveal that when the backbone is bound, the headgroup can adopt at least two distinct conformations, each interacting with protein residues with established functional implications"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that unbiased simulations reveal two distinct headgroup conformations with functional implications, but no structural details, interaction partners, or functional data are provided. The phrase "established functional implications" implies a connection to prior experimental or computational work, but this connection is not specified.
+  - **Why it matters** This claim extends the work beyond thermodynamics into structural and functional interpretation. If the conformational states are not well-defined or the functional implications are speculative, this part of the abstract overreaches the evidence.
+  - **Resolution test** Provide representative structures of the two conformations, the protein residues involved in interactions, and a clear citation or description of the established functional implications. Show that the two states are kinetically distinct and not simply thermal fluctuations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract moves from the methodological description to the biological interpretation without a clear logical flow. The sentence "This affinity quantifies the equilibrium binding of the glycerol backbone, a necessary but insufficient condition for modulation" introduces a caveat that is not fully explained.
+  - **Required correction** Clarify the relationship between the computed affinity (for the glycerol backbone) and the functional modulation of the channel. Explain what "necessary but insufficient" means in this context and what additional conditions would be required.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Error reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The binding free energy is reported as -9.7 +/- 0.8 kcal/mol, but the source and type of uncertainty (standard error, standard deviation, confidence interval) is not specified.
+  - **Required correction** Specify the type of uncertainty reported and the method used to estimate it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Force field and system details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No force field parameters, water model, or membrane composition details are provided in the abstract. While these are typically in the methods, the abstract's claim of "atomistic resolution" requires specification of the model used.
+  - **Required correction** Ensure the full manuscript specifies the force field, water model, and any modifications used for the simulations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence evidence), R1-M2 (excess chemical potential data), R1-M3 (structural and functional evidence for headgroup conformations)
+- **Assessment against Nature-style criteria** Originality: The application of alchemical free energy methods to obtain an absolute binding affinity for a phospholipid to a membrane protein is original and addresses a long-standing gap. Scientific importance: The quantitative binding affinity for a lipid to a membrane protein is of high importance for understanding lipid modulation mechanisms. Interdisciplinary readership: The work bridges computational chemistry, biophysics, and membrane protein biology, with potential interest across these fields. Technical soundness: Cannot be assessed from the abstract alone; the convergence and error claims require full methodological scrutiny. Readability for nonspecialists: The abstract is reasonably accessible but uses specialized terminology (alchemical free energy perturbation, excess chemical potential) without sufficient explanation for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The central quantitative claim and the methodological assertions require the full manuscript for evaluation. If the convergence evidence and excess chemical potential data are robust, the work could be of significant interest. The structural interpretation of headgroup conformations needs to be carefully supported to avoid overreach.
+
+## Risk / unsupported claims
+- The absolute binding free energy of -9.7 +/- 0.8 kcal/mol is stated without visible supporting data or error analysis.
+- The claim of "robust convergence across several metrics" is unsupported in the abstract.
+- The composition-dependent excess chemical potentials for POPG in POPC:POPG membranes are reported without numerical values or uncertainties.
+- The claim that bulk non-ideality "negligibly affects" the predicted binding is not quantitatively supported.
+- The identification of two distinct headgroup conformations with "established functional implications" is not supported by any visible structural or functional data.
+- The consistency of the results with "previous binding free energy estimates" is asserted without specific references or comparisons.

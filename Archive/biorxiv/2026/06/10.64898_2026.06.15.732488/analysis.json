@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.15.732488",
+  "title": "Sequence-to-function modeling uncovers the context-specific grammar of Drosophila chromatin insulation",
+  "authors": "Wang B; Dolsten G; Ke W; Zhang W; Persikov AV; Bing XY; Li X; Fujioka M; Jaynes JB; Kurbidaeva A; Park T; Singh M; Levine MS; Schedl P; Pritykin Y",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-19",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型Domino从序列预测果蝇染色质绝缘强度，虽聚焦绝缘子而非典型TF-DNA结合，但涉及蛋白-DNA互作与序列语法解析，方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Chromatin is organized into self-interacting topologically associating domains partitioned by boundary elements that insulate adjacent domains and restrict regulatory interactions. Yet, how sequence context and combinations of factors dictate boundary strength remains incompletely understood. Here we present Domino, a deep learning framework that maps genomic sequences to quantitative insulation scores defined directly from single-nucleosome resolution Drosophila melanogaster Micro-C data. Unlike traditional transcription factor motif scanning, Domino captures broad sequence context to resolve the functional contributions of individual sequence elements. We validate model predictions through experimental perturbations of insulator sequences. Model interpretation yields insulation-associated motifs genome-wide. Across 7,311 embryonic boundaries, Domino reveals a comprehensive insulation grammar defined by just 24 primary motifs that account for 59% of the boundaries, with an average of only two motifs per motif-containing boundary. Beyond known factors, we identify the zinc-finger proteins Trem, CG4854 and CG17385 as previously unreported insulation factors. We uncover distance- and orientation-dependent motif synergy, including a strict orientation preference of the prominent architectural factor M1BP. Finally, Domino traces tissue-specific shifts in the insulator landscape from the embryo to larval and adult brains, nominating new brain-specific insulation motifs. In sum, Domino provides a generalizable framework for decoding the regulatory logic of 3D genome architecture.",
+  "abstract_zh": "染色质被组织成自我相互作用的结构域，称为拓扑关联域，由边界元件分隔，这些边界元件隔离相邻结构域并限制调控相互作用。然而，序列背景和因子组合如何决定边界强度仍未完全明了。在此，我们提出Domino，一种深度学习框架，将基因组序列映射到直接从单核小体分辨率的黑腹果蝇（Drosophila melanogaster）Micro-C数据中定义的定量绝缘分数。与传统转录因子基序扫描不同，Domino捕获广泛的序列背景，以解析单个序列元件的功能贡献。我们通过实验扰动绝缘子序列验证模型预测。模型解释在全基因组范围内识别出与绝缘相关的基序。在7，311个胚胎边界中，Domino揭示了一个全面的绝缘语法，仅由24个主要基序定义，这些基序占边界的59%，每个含基序的边界平均仅有2个基序。除已知因子外，我们识别出锌指蛋白Trem、CG4854和CG17385为先前未报道的绝缘因子。我们发现了距离和方向依赖的基序协同作用，包括显著结构因子M1BP的严格方向偏好。最后，Domino追踪了从胚胎到幼虫和成体大脑中绝缘子景观的组织特异性变化，提名了新的脑特异性绝缘基序。总之，Domino为解码3D基因组结构的调控逻辑提供了一个通用框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732488",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732488",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.15.732488/index.html"
+}

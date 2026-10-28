@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use classical molecular dynamics (MD) and metadynamics simulations to investigate the temperature-dependent stability of the PqsE/RhlR/C4-HSL complex from *Pseudomonas aeruginosa*. They report reduced overall complex stability at 37 degrees C versus 25 degrees C, with the RhlR DNA-binding domain (DBD) showing increased flexibility and destabilization at the higher temperature. Free energy landscape analysis supports enhanced conformational flexibility of RhlR at 37 degrees C. Metadynamics simulations of the complex bound to DNA show an increased RhlR-DNA distance at 37 degrees C, suggesting faster separation. The authors conclude that temperature-induced destabilization of RhlR, particularly in the DBD, may explain reduced RhlR transcriptional activity at mammalian body temperature.
+- **Visible evidence base** Abstract text only; no simulation parameters, force field details, convergence criteria, error estimates, or quantitative data (e.g., RMSD/RMSF values, free energy barriers, distance profiles) are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, force field and water model specifications, system size and equilibration protocols, replica or bias parameters for metadynamics, convergence and error analysis, all figures and tables, and any statistical validation. Without these, the technical soundness and robustness of the reported results cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The abstract addresses a biologically relevant question regarding the molecular basis of temperature-dependent regulation of quorum sensing in *P. aeruginosa*. The computational approach is appropriate in principle, and the findings are plausible. However, the abstract provides insufficient methodological detail and quantitative evidence to evaluate the reliability of the simulations or the strength of the conclusions. The claim that temperature-induced destabilization of RhlR explains reduced transcriptional activity is presented as a potential mechanism, but the causal link is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in bacterial quorum sensing, host-pathogen interactions, and computational biophysics would find the results relevant. The study could inform understanding of how temperature modulates virulence gene expression in *P. aeruginosa*, which is of interest to those studying infection biology and therapeutic targeting of QS systems. Computational chemists and biophysicists may also be interested in the application of MD and metadynamics to protein-protein and protein-DNA complexes.
+- **Major strengths** The study addresses a clearly defined and biologically important question. The use of both classical MD and metadynamics is a reasonable combination to probe both equilibrium dynamics and free energy barriers. The focus on the DBD of RhlR as a potential weak point is mechanistically sensible given its role in DNA binding. The comparison between 25 and 37 degrees C is directly relevant to the environmental-to-host transition.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the overall stability of the complex decreases at 37 degrees C" and that "destabilization is more pronounced in RhlR, particularly in its DNA-binding domain."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative observations (e.g., "greater fluctuations," "significant flexibility," "remarkable increase in distance") without providing quantitative values, statistical uncertainties, or convergence assessments. No information is given on simulation length, number of replicas, force field parameters, or how the free energy landscape was constructed. Without these details, the reliability of the MD and metadynamics results cannot be evaluated.
+  - **Why it matters** Molecular simulations are sensitive to force field choice, sampling length, and analysis methodology. Qualitative statements without error bars or convergence checks do not support robust conclusions about temperature-dependent stability differences. The claim of a "remarkable increase" in RhlR-DNA distance requires quantitative support and an assessment of whether the observed difference is statistically significant and reproducible.
+  - **Resolution test** Provide full simulation parameters, including force field, water model, salt concentration, simulation time, number of replicas, and metadynamics bias settings. Report quantitative RMSD, RMSF, free energy barrier heights, and RhlR-DNA distance values with standard deviations or confidence intervals. Demonstrate convergence of all simulations and show that the observed temperature-dependent differences are reproducible across independent runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors conclude that "temperature-induced destabilization of RhlR, especially in the DBD, may explain the reduced RhlR transcriptional activity observed at mammalian body temperature."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract establishes a correlation between simulated structural instability at 37 degrees C and previously reported reduced transcriptional activity, but it does not provide direct evidence linking the two. The simulations do not measure transcriptional activity, DNA binding affinity, or any functional readout. The causal chain from increased DBD flexibility to impaired DNA binding to reduced transcriptional activity is inferred, not demonstrated.
+  - **Why it matters** The central biological conclusion of the study rests on this inferred mechanism. Without experimental validation or at least a more direct computational assessment (e.g., binding free energy calculations for RhlR-DNA at both temperatures), the conclusion remains speculative. The abstract itself uses "may explain," which is appropriately cautious, but the framing in the title and overall narrative implies a stronger causal link.
+  - **Resolution test** Either add experimental data (e.g., DNA binding assays or transcriptional reporter assays at 25 and 37 degrees C) or perform binding free energy calculations for the RhlR-DNA interaction at both temperatures. If such data are not available, the conclusion should be explicitly framed as a hypothesis requiring further testing.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "classical molecular dynamics and metadynamics" is used in the title, but the abstract does not specify which variant of metadynamics was used (e.g., well-tempered, parallel tempering) or the collective variables chosen.
+  - **Required correction** Specify the metadynamics method and the collective variables used to drive the RhlR-DNA distance or other relevant coordinates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the simulation system size, the number of atoms, or the total simulation time, which are essential for readers to gauge the scope of the study.
+  - **Required correction** Add brief details on system size and simulation length in the abstract or refer to the methods section for full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Free energy landscape analysis
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement "Free energy landscape analysis confirmed increased conformational flexibility in the RhlR at higher temperatures" is vague. It is unclear what metric was used to define "conformational flexibility" in the free energy landscape context.
+  - **Required correction** Clarify whether the free energy landscape was projected onto specific collective variables and how flexibility was quantified (e.g., basin width, number of minima, transition rates).
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative simulation data and convergence analysis prevents assessment of technical soundness, and the inferred causal link between structural instability and reduced transcriptional activity is not supported by direct evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of MD and metadynamics to a specific QS complex is not entirely novel, but the focus on temperature-dependent regulation is a useful angle.
+  - Scientific importance: Moderate. The findings could have implications for understanding host-temperature sensing in *P. aeruginosa*, but the impact is limited by the lack of experimental validation.
+  - Interdisciplinary readership: Limited. The abstract is written for a specialized computational biology audience; the broader infection biology community would require more functional context.
+  - Technical soundness: Not assessable from the abstract alone. The absence of methodological details and quantitative results precludes evaluation.
+  - Readability for nonspecialists: Acceptable. The abstract is generally clear, but some terms (e.g., "free energy landscape," "metadynamics") are not explained for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract does not provide sufficient technical detail or direct evidence to support the central claims. A revised version with full methods, quantitative results, and either experimental validation or a more cautious interpretation would be needed to establish the case.
+
+## Risk / unsupported claims
+- The claim that "the overall stability of the complex decreases at 37 degrees C" is unsupported without quantitative RMSD data and statistical analysis.
+- The claim that "destabilization is more pronounced in RhlR, particularly in its DNA-binding domain" is unsupported without quantitative RMSF values and a comparison of domain-specific fluctuations.
+- The claim that "free energy landscape analysis confirmed increased conformational flexibility" is unsupported without details on the collective variables and free energy metrics used.
+- The claim that "metadynamics simulations revealed a remarkable increase in the distance between RhlR and DNA at 37 degrees C" is unsupported without quantitative distance profiles and error estimates.
+- The conclusion that "temperature-induced destabilization of RhlR may explain reduced transcriptional activity" is a plausible hypothesis but is not directly supported by the simulation data presented in the abstract.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a yeast one-hybrid (Y1H) saturation mutagenesis assay quantifying DNA binding of over 2,700 single amino acid variants of the PAX6 paired domain against two DNA elements. They identify detrimental mutation classes, report gain-of-function effects at specific positions, and apply ACMG/AMP guidelines to classify 1,306 variants as likely benign and 977 as likely pathogenic. They conclude that most pathogenic PAX6 paired domain mutations act through reduced DNA binding and propose Y1H as a generalisable variant interpretation platform for transcription factors.
+- **Visible evidence base** Abstract text only; no methodological details, numerical data, figures, tables, or supplementary information were supplied
+- **Missing materials affecting confidence** Full manuscript, assay validation data, raw and processed binding scores, variant classification criteria and thresholds, clinical cohort details, benchmarking methodology, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable approach for high-throughput functional annotation of transcription factor variants, with clear clinical relevance for PAX6-associated eye disorders. The scale of the dataset and the integration with ACMG/AMP guidelines are commendable. However, the abstract alone does not provide sufficient detail to evaluate the technical robustness of the assay, the statistical methods, or the validity of the clinical classifications. Several claims, particularly regarding gain-of-function effects and the generalisability of the platform, require additional evidence that is not visible in the supplied material.
+- **Who would be interested in the results, and why** Clinical geneticists and diagnostic laboratories interpreting PAX6 variants would find the variant classifications directly useful. Researchers studying transcription factor DNA binding specificity and the molecular basis of developmental disorders would value the saturation mutagenesis dataset. Methodologists developing functional assays for variant interpretation would be interested in the Y1H platform as a potential generalisable tool.
+- **Major strengths** The study addresses a clinically important gene with a high-throughput functional approach. The scale of variant coverage, over 2,700 single amino acid changes, is substantial. The integration of functional data with ACMG/AMP classification guidelines provides a clear translational pathway. The identification of both loss and gain of function effects highlights the complexity of transcription factor variant biology.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the Y1H assay quantifies binding of more than 2,700 variants to two DNA sequence elements, and that this data supports clinical variant classification.
+  - **Evidence pointer** Abstract only; no assay validation, reproducibility data, or quality control metrics provided
+  - **Concern** The abstract does not describe how the Y1H assay was validated for quantitative accuracy, dynamic range, or reproducibility. No information is given on replicate numbers, batch effects, or how binding scores were normalised across experiments. Without this information, the reliability of the quantitative binding measurements cannot be assessed.
+  - **Why it matters** Clinical variant classification depends on the accuracy and precision of the underlying functional data. If the assay has high technical variability or systematic biases, the resulting classifications could be misleading, potentially affecting patient care.
+  - **Resolution test** Provide assay validation data including replicate correlations, control variants with known effects, dynamic range assessment, and demonstration that the assay can distinguish known pathogenic from known benign variants with high sensitivity and specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and analytical rigour
+  - **Claim pointer** The abstract states that applying ACMG/AMP guidelines yields 1,306 likely benign and 977 likely pathogenic variants.
+  - **Evidence pointer** Abstract only; no classification criteria, thresholds, or statistical models described
+  - **Concern** The abstract does not specify how ACMG/AMP criteria were operationalised. It is unclear which evidence codes were used, how functional data were weighted relative to other evidence types, and what thresholds defined "supporting" versus "moderate" evidence. The numbers of variants classified as benign or pathogenic cannot be interpreted without this context.
+  - **Why it matters** ACMG/AMP classification is a structured process with specific rules. Different implementations can yield substantially different outcomes. Without transparency on the decision framework, the reported counts are not reproducible or verifiable.
+  - **Resolution test** Provide a detailed description of the ACMG/AMP implementation, including all evidence codes used, the weighting scheme for functional data, and the decision thresholds. Ideally, include a comparison with classifications from independent methods or expert review.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and generalisability
+  - **Claim pointer** The abstract claims that most pathogenic mutations in the PAX6 paired domain can be explained by effects on DNA binding, and that Y1H is a generalisable assay for transcription factor variant interpretation.
+  - **Evidence pointer** Abstract only; no supporting data for the generalisability claim
+  - **Concern** The first claim is plausible but requires demonstration that variants with neutral binding effects but known pathogenicity are rare or absent. The second claim of generalisability is not supported by any evidence in the abstract, as only one transcription factor and two DNA elements were tested.
+  - **Why it matters** Overstating the explanatory power of a single molecular readout could lead to underappreciation of other mechanisms such as protein stability, nuclear localisation, or interactions with cofactors. The generalisability claim, if unsupported, could mislead other researchers applying Y1H to different transcription factors.
+  - **Resolution test** For the first claim, provide an analysis of pathogenic variants that do not affect DNA binding and discuss potential alternative mechanisms. For the second claim, either temper the statement to reflect the current evidence or provide pilot data on additional transcription factors.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Description of the two DNA elements
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "LE9 enhancer" and "SELEX-derived binding site" but does not explain the biological relevance of these elements or why they were chosen.
+  - **Required correction** Add a brief justification for the choice of these two DNA elements, including their relevance to PAX6 function in development or disease.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting of effect sizes
+  - **Affected element** Gain-of-function claim for Ile71
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that variants at Ile71 increased binding to one element but decreased binding to another, but no quantitative magnitude is given.
+  - **Required correction** Provide effect sizes or fold changes to allow readers to assess the biological significance of these opposing effects.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "nonsense" mutations
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract begins with "Nonsense and missense mutations" but the saturation mutagenesis assay described appears to focus on single amino acid variants, which would not include nonsense mutations that produce truncated proteins.
+  - **Required correction** Clarify whether nonsense mutations were included in the assay or whether the opening sentence refers to the broader disease context rather than the experimental scope.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. Without assay validation and a transparent classification framework, the core claims of quantitative binding measurement and clinical variant classification cannot be considered established. R1-M3, while not blocking, requires additional analysis or language modification to avoid overinterpretation.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of saturation mutagenesis with Y1H to a transcription factor with clinical relevance is a novel combination, though the individual techniques are established. The originality is moderate to high.
+  - Scientific importance: The potential to improve variant interpretation in a gene associated with significant developmental disorders gives this work clear scientific and clinical importance.
+  - Interdisciplinary readership: The work bridges molecular biology, genomics, and clinical genetics, which would appeal to a broad readership if the full paper delivers on the abstract's promises.
+  - Technical soundness: Not assessable from the abstract alone. The blocking concerns above must be resolved to establish technical soundness.
+  - Readability for nonspecialists: The abstract is concise and accessible, though some terms such as "SELEX-derived" and "ACMG/AMP" may require context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising approach with potentially high impact, but the absence of methodological detail and validation data prevents a supportive recommendation. If the full manuscript addresses the blocking concerns regarding assay validation and classification transparency, the work could become suitable for publication in a high-impact venue.
+
+## Risk / unsupported claims
+- The claim that "most pathogenic mutations in the paired domain of PAX6 can be explained simply by the effects of these mutations on PAX6:DNA association" is unsupported in the abstract, as no analysis of pathogenic variants with neutral binding effects is presented.
+- The claim that Y1H is a "generalisable assay" for transcription factor variant interpretation is unsupported, as only one transcription factor and two DNA elements were tested.
+- The specific counts of 1,306 likely benign and 977 likely pathogenic variants are not verifiable without the classification framework and underlying data.
+- The gain-of-function effects at position Ile71 are described qualitatively without quantitative data, making the claim difficult to evaluate.

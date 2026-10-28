@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, funding, author contributions, competing interests, data availability, supplementary materials list) as provided in the submission
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and evidentiary support of claims as presented in the supplied text. No assessment of supplementary figures, tables, or methods beyond what is referenced in the text
+- **Shared manuscript claim summary** The manuscript claims that the homeodomain of ONECUT2 stabilizes the ONECUT2-DNA complex through allosteric modulation of the CUT domain, that a novel arginine pair (RR motif) unique to the ONECUT family enables adaptive DNA base recognition, and that base-specific interactions are essential for optimal DNA binding, cooperativity, and transcriptional activity in a prostate cancer model
+- **Visible evidence base** Structural analysis of OC2-PEG10 and OC2RR-PEG10 complexes (PDB 8T0F, 8T11), ITC binding thermodynamics for wild-type and mutant OC2, BLI binding kinetics, cell proliferation and gene expression assays in LNCaP cells
+- **Missing materials affecting confidence** Supplementary figures S1-S6, Table S1, full Materials and Methods section, structural statistics and refinement details, ITC and BLI raw data, statistical analysis details, cell line validation data
+
+## Reviewer
+- **Overall assessment** This manuscript presents an integrative structural, biophysical, and functional analysis of ONECUT2 DNA binding, with the central claim that the homeodomain allosterically stabilizes the CUT domain on DNA. The work addresses a genuinely important question in transcription factor biology, and the combination of crystallography, thermodynamics, kinetics, and cellular assays is commendable. However, the evidence as presented in the text has several gaps that prevent full confidence in the conclusions. The allosteric mechanism is inferred rather than directly demonstrated, the thermodynamic interpretation relies on comparisons that may not be fully controlled, and the functional assays are described without sufficient detail to assess robustness. The manuscript is potentially significant but requires substantial additional evidence and clarification before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers studying transcription factor DNA binding mechanisms, particularly CUT-homeodomain and POU family proteins, will find the structural and thermodynamic data of direct interest. The prostate cancer community will be interested in the functional validation of ONECUT2 as a therapeutic target. Structural biologists studying protein-DNA recognition and allostery will also find the proposed two-step binding mechanism relevant. The potential therapeutic implications for treatment-resistant prostate cancer broaden the audience to translational researchers.
+- **Major strengths** The combination of structural, biophysical, and cellular approaches provides a multi-level view of ONECUT2 DNA binding. The identification of a novel RR motif unique to the ONECUT family is a concrete and testable finding. The thermodynamic analysis distinguishing enthalpic and entropic contributions is informative. The functional validation in a prostate cancer model connects molecular findings to disease relevance. The comparison with the HIV gp120-CD4 system provides an interesting conceptual framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for allosteric mechanism
+  - **Claim pointer** The manuscript claims that the homeodomain "allosterically induces rearrangements in CUT" and that this allostery drives favorable DNA binding energetics
+  - **Evidence pointer** Results sections "The HOX domain thermodynamically stabilizes OC2 on DNA" and "S364/Q365 and N476 mediated base-interactions are necessary for correct DNA-bound conformation of OC2"; location not provided
+  - **Concern** The allosteric mechanism is inferred from thermodynamic comparisons between intact OC2, CUT alone, and CUT plus HOX as separate polypeptides. However, the text does not provide direct evidence of conformational changes in CUT induced by HOX binding. The claim that "rearrangements in CUT being induced allosterically by HOX" is presented as a conclusion, but the data shown are thermodynamic parameters, not structural or biophysical measurements of conformational state. The comparison between intact OC2 and CUT plus HOX as separate polypeptides shows a similar thermodynamic pattern, but this does not establish allostery; it could reflect independent contributions or other effects. No control experiments are described to rule out alternative explanations, such as HOX stabilizing the DNA conformation independently of CUT.
+  - **Why it matters** The allosteric mechanism is the central conceptual claim of the manuscript. If the evidence does not directly support allostery, the primary conclusion is not established. The distinction between allosteric regulation and independent domain contributions has fundamental implications for understanding CUT-homeodomain cooperativity.
+  - **Resolution test** Provide direct structural or biophysical evidence of conformational changes in CUT upon HOX binding, such as hydrogen-deuterium exchange, NMR chemical shift perturbations, or small-angle X-ray scattering comparisons of CUT alone versus CUT with HOX and DNA. Alternatively, design mutants that disrupt HOX-DNA contacts and show that CUT conformation and energetics are specifically affected. The authors should also include control experiments showing that the thermodynamic effects are not due to non-specific protein-DNA interactions or aggregation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical rigor of thermodynamic interpretation
+  - **Claim pointer** The manuscript claims that the favorable enthalpy change (ΔH = -15.3 kcal/mol) and unfavorable entropy (-TΔS = 4.1 kcal/mol) for intact OC2 indicate "stable hydrogen bonds and van der Waals interactions" and "loss of conformational freedom"
+  - **Evidence pointer** Results section "The HOX domain thermodynamically stabilizes OC2 on DNA"; Fig. 3, A, D and E; location not provided
+  - **Concern** The thermodynamic interpretation is presented without sufficient consideration of alternative contributions to enthalpy and entropy changes. The claim that the large favorable enthalpy reflects stable hydrogen bonds and van der Waals interactions is an oversimplification. Enthalpy changes in protein-DNA binding include contributions from desolvation, ion release, and conformational changes, which are not discussed. The comparison to HIV gp120-CD4 is interesting but may not be appropriate without quantitative comparison of the magnitudes and molecular origins of the thermodynamic parameters. Additionally, the ITC experiments are described only briefly, and no information is provided on buffer conditions, salt concentrations, temperature, or whether the binding stoichiometry was verified. These factors critically affect thermodynamic parameters and their interpretation.
+  - **Why it matters** The thermodynamic analysis is a key pillar of the manuscript's conclusions. If the interpretation is not rigorously grounded, the claims about the mechanism of DNA binding are weakened. The comparison to gp120-CD4, which involves a much larger conformational change, may overstate the significance of the observed parameters for OC2.
+  - **Resolution test** Provide detailed ITC methods including buffer composition, salt concentration, temperature, and stoichiometry determination. Discuss alternative contributions to the observed enthalpy and entropy changes, such as desolvation and ion effects. Include control experiments with a non-specific DNA sequence to establish baseline thermodynamic parameters. If possible, perform van't Hoff analysis or calorimetric measurements at multiple temperatures to separate intrinsic binding energetics from conformational contributions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation robustness
+  - **Claim pointer** The manuscript claims that base-specific interactions are "essential for optimal DNA binding and transcriptional activity" based on cell proliferation and gene expression assays in LNCaP cells
+  - **Evidence pointer** Results section "Base interactions by OC2, including the RR motif, are essential for optimal DNA binding and transcriptional activity"; Fig. 5, F to H; location not provided
+  - **Concern** The functional assays are described with minimal detail. The text states that overexpression of mutant ONECUT2 proteins reduced proliferation "to that observed at endogenous ONECUT2 levels" and that none of the mutants suppressed AR target genes or upregulated NE markers. However, no information is provided on the expression levels of the mutant proteins relative to wild-type, the number of biological replicates, the statistical tests used, or the magnitude of effects. The claim that the mutants are functionally inactive relies on the assumption that the mutant proteins are expressed at comparable levels to wild-type, which is not stated. Additionally, the choice of LNCaP cells as a model for ONECUT2 function is reasonable but the text does not discuss potential off-target effects or the specificity of the observed phenotypes.
+  - **Why it matters** The functional validation is essential for the translational relevance of the findings. If the mutant phenotypes are due to differences in protein expression or stability rather than loss of DNA binding, the conclusions about the importance of base-specific interactions are not supported. The manuscript's therapeutic implications depend on the robustness of these cellular data.
+  - **Resolution test** Provide quantitative data on mutant protein expression levels (e.g., Western blot) relative to wild-type. Include details on the number of replicates, statistical methods, and effect sizes. Consider rescue experiments with wild-type ONECUT2 to confirm specificity. If possible, perform chromatin immunoprecipitation to directly assess DNA binding of the mutants in cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural evidence completeness
+  - **Claim pointer** The manuscript claims that the OC2-PEG10 structure shows the CUT and HOX domains wrapping around the DNA major groove with the linker not physically binding DNA, and that the RR motif enables adaptive DNA recognition
+  - **Evidence pointer** Results sections "Structure of human OC2 in complex with PEG10 promoter (PEG10) DNA" and "An OC-specific arginine pair (RR motif) enables unique DNA interaction by the OC2 HOX domain"; Fig. 1 and Fig. 2; location not provided
+  - **Concern** The structural analysis is described without key details. The resolution of the OC2-PEG10 structure is not stated in the text (only the OC2RR-PEG10 structure is mentioned at 2.9 Å). No information is provided on the quality of the electron density, the number of molecules in the asymmetric unit, or the refinement statistics. The claim that the linker does not bind DNA is based on absence of electron density, which could reflect disorder rather than lack of interaction. The comparison with the OC1-TTR structure is mentioned but not quantitatively described. The structural basis for the proposed adaptive mechanism of the RR motif would be strengthened by a more detailed description of the conformational differences between the two structures.
+  - **Why it matters** The structural data are foundational for the manuscript's claims. Without adequate structural details, the reader cannot assess the reliability of the model or the validity of the proposed mechanism. The comparison between OC2 and OC1 is important for establishing the generality of the findings.
+  - **Resolution test** Provide the resolution and refinement statistics for the OC2-PEG10 structure. Include a description of the electron density quality, particularly for the linker region and the RR motif. Provide a quantitative structural comparison between OC2-PEG10 and OC1-TTR, including root-mean-square deviations and specific conformational differences. If the linker is disordered, state this explicitly and discuss the implications for the interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "homeodomain" vs "HOX domain"
+  - **Evidence pointer** Throughout the manuscript; location not provided
+  - **Issue** The manuscript uses "homeodomain" and "HOX domain" interchangeably. While these terms are often used synonymously, consistency would improve clarity, especially for nonspecialist readers.
+  - **Required correction** Choose one term and use it consistently throughout, or define the relationship between the terms at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Cell proliferation and gene expression data
+  - **Evidence pointer** Fig. 5, F to H; location not provided
+  - **Issue** The text does not report statistical significance, error bars, or the number of independent experiments for the cellular assays.
+  - **Required correction** Add statistical details to the figure legends and text, including the number of replicates, the statistical test used, and the significance thresholds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion does not address potential limitations of the study, such as the use of a single DNA sequence, the lack of in vivo validation, or the possibility that the proposed mechanism may not generalize to other ONECUT family members or target genes.
+  - **Required correction** Add a paragraph discussing the limitations of the study and the scope of the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference to supplementary materials
+  - **Affected element** Results sections
+  - **Evidence pointer** Fig. 1A, fig. S1A, fig. S1B, fig. S1C, fig. S1D, fig. S2A, fig. S2B, fig. S3, fig. S4A, fig. S4B, fig. S5A to D, table S1; location not provided
+  - **Issue** The text frequently references supplementary figures and tables without describing their content in sufficient detail. This makes it difficult to evaluate the evidence without accessing the supplementary materials.
+  - **Required correction** Briefly describe the key findings of each supplementary figure or table in the main text, or provide a summary in the figure legends.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Comparison with prior work
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion; location not provided
+  - **Issue** The manuscript mentions prior structural work on POU members and OC1 but does not provide a detailed comparison of the current findings with those studies. A more explicit comparison would help position the novelty of the current work.
+  - **Required correction** Add a paragraph in the Discussion comparing the OC2 structure and mechanism with the previously reported OC1 and POU structures, highlighting similarities and differences.
+
+## Risk / unsupported claims
+- The claim that the homeodomain "allosterically induces rearrangements in CUT" is not directly supported by the evidence presented. The thermodynamic data are consistent with allostery but do not demonstrate it. Direct conformational evidence is required.
+- The claim that the RR motif is "unique to the ONECUT family" is based on sequence comparison that is not described in the text. The scope of the comparison (which species, which databases) is not stated.
+- The claim that the thermodynamic pattern of OC2-DNA binding is "reminiscent of HIV gp120-CD4 interaction" is an analogy that may overstate the similarity. The magnitudes of the thermodynamic parameters differ substantially, and the molecular contexts are very different.
+- The claim that the linker "does not physically bind the DNA" is based on absence of electron density, which could reflect disorder. This should be stated as a tentative conclusion.
+- The functional significance of the RR motif in prostate cancer is inferred from cell-based assays, but the text does not provide evidence that the observed effects are specific to the DNA binding function of ONECUT2 rather than other cellular activities.
+- The statement that "this is the first report attributing a structural role to DNA base-specific interactions by CUT-HOX proteins" is a strong claim that would require a comprehensive literature search to support. The text does not provide evidence that no prior work has addressed this question.

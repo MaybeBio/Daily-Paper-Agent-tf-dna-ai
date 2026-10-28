@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusions, and supplementary information references.
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, experimental design, results, and claims. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose ProMoHGT, a heterogeneous graph transformer with graph contrastive learning, for microbial protein function prediction. They claim it integrates sequence embeddings (ESM-2), structural graphs (AlphaFold2), and physicochemical features, and achieves state-of-the-art performance across varying sequence identity thresholds on GO term and EC number prediction tasks.
+- **Visible evidence base** Tables 1-5, Figures 1-7, supplementary material references (S1-S4), and methodological descriptions in the main text.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S4) referenced but not provided; no dataset statistics, hyperparameter details, computational cost analysis, or statistical significance testing; no code availability statement.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically plausible architecture combining heterogeneous graph transformers with contrastive learning for microbial protein function prediction. The core idea of integrating multiple data modalities through a hierarchical attention mechanism is reasonable and timely. However, the evidence provided is insufficient to fully establish the claimed advantages. Key weaknesses include the absence of statistical significance testing, limited baseline comparisons, unclear dataset composition, and a lack of analysis on the contribution of individual components beyond simple ablation. The case study is small and does not adequately demonstrate generalizability. The writing is generally clear but contains some inconsistencies and overstatements relative to the evidence presented.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, particularly those interested in graph-based deep learning methods, multi-modal data integration, and applications to microbial genomics. The benchmark dataset and methodological framework may also be of interest to researchers developing similar predictive models.
+- **Major strengths** 1) The integration of three complementary data modalities (sequence, structure, physicochemical) within a unified framework is a sensible design choice. 2) The hierarchical architecture with super-nodes for global context aggregation addresses a known limitation of local graph convolutions. 3) The evaluation across multiple sequence identity thresholds provides a more nuanced view of generalization than single-split evaluation. 4) The inclusion of contrastive learning as a regularizer is a well-motivated approach to improve robustness.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The authors claim ProMoHGT demonstrates "consistent superiority" and "state-of-the-art" performance over baselines.
+  - **Evidence pointer** Tables 1-5, Figures 2-7
+  - **Concern** No statistical significance testing is reported for any of the performance comparisons. Differences between methods are presented as absolute values without confidence intervals, standard deviations across multiple runs, or hypothesis tests. The claimed superiority over baselines cannot be assessed for statistical reliability.
+  - **Why it matters** Without statistical validation, the observed performance differences could be due to random variation, particularly given the relatively small test sets implied by the case study. This undermines the central claim of the paper.
+  - **Resolution test** Provide results from multiple independent runs (at least 5) with mean and standard deviation, and perform appropriate statistical tests (e.g., paired bootstrap or Wilcoxon signed-rank test) for each comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset transparency
+  - **Claim pointer** The authors state they constructed "the first benchmark dataset dedicated to microbial protein function annotation" with specific filtering criteria.
+  - **Evidence pointer** Dataset construction section, "location not provided"
+  - **Concern** The dataset composition is not described in sufficient detail. The total number of proteins, taxonomic distribution, sequence length distribution, number of GO terms per protein, and the overlap between training and test sets at the protein family level are not reported. The claim of being "the first" benchmark dataset is not substantiated with a literature search or comparison to existing resources.
+  - **Why it matters** Reproducibility and fair comparison with existing methods require a fully specified dataset. The novelty claim regarding the dataset cannot be evaluated without evidence of prior work.
+  - **Resolution test** Provide complete dataset statistics, a detailed description of the filtering pipeline, and a comparison with existing benchmark datasets. Include the dataset as supplementary material or provide a public repository link.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Baseline fairness
+  - **Claim pointer** The authors claim ProMoHGT outperforms "state-of-the-art methods" including DeepFRI, SPROF-GO, MSF-PFP, and DeepMVD.
+  - **Evidence pointer** Figures 2-3, "location not provided"
+  - **Concern** The baseline implementations are not described. It is unclear whether the baselines were retrained on the authors' dataset, whether their hyperparameters were tuned, or whether the authors used the original implementations. The comparison may be unfair if baselines were not optimized for the new dataset.
+  - **Why it matters** Unfair comparisons can lead to inflated claims of superiority. The reader cannot assess whether the reported improvements are due to the proposed method or to suboptimal baseline configurations.
+  - **Resolution test** Describe baseline implementations, training procedures, and hyperparameter tuning. Provide code or detailed configuration files for all methods. Consider including additional recent baselines.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical correctness
+  - **Claim pointer** The authors describe the hierarchical graph transformer with super-nodes and contrastive learning, and claim it "effectively captures both local functional motifs and long-range structural relationships."
+  - **Evidence pointer** Hierarchical graph transformer section, Loss function section
+  - **Concern** There is a typographical error in Equation 1 where K is assigned twice, likely intended as K and V. More importantly, the technical details are insufficient for reproduction: the number of super-nodes K, the number of attention heads H, the dimension D, the GCN layer configurations, the augmentation strategies for contrastive learning, and the temperature parameter t are not specified. The relationship between the contrastive loss and the supervised loss (weighting) is not described.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Missing hyperparameters and architectural details prevent others from implementing or validating the method.
+  - **Resolution test** Provide complete architectural specifications, hyperparameter values, and training details. Correct the typographical error in Equation 1.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim in the Discussion that "explicit structural features, which when withheld cause Fmax and AUPR to fall by 0.038-0.046."
+  - **Evidence pointer** Ablation study section, Tables 3-4
+  - **Concern** The ablation study only removes physicochemical features (w/o PF), not structural features. The structural graph is always present in all variants. The claim about "explicit structural features" is not supported by the reported experiments. Additionally, the numerical values cited (0.038-0.046) do not match the differences reported in Tables 3 and 4.
+  - **Why it matters** Misalignment between claims and evidence undermines the credibility of the paper. The reader cannot verify the stated findings.
+  - **Resolution test** Correct the claim to refer to physicochemical features, or conduct additional experiments removing structural features. Ensure all numerical values cited in the text match the reported tables.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** "location not provided"
+  - **Issue** The abstract does not mention the benchmark dataset construction, which is a claimed contribution. The introduction states "more than 99% of sequences in the UniProt database lack experimentally validated functional annotations" but does not provide a citation for this statistic.
+  - **Required correction** Include the dataset contribution in the abstract. Add appropriate citations for the UniProt statistic.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Discussion section
+  - **Evidence pointer** "location not provided"
+  - **Issue** The Discussion refers to "DeepMVP" while the Results section and Figure 3 refer to "DeepMVD". This inconsistency is confusing.
+  - **Required correction** Use a consistent name throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Case study section
+  - **Evidence pointer** Table 5
+  - **Issue** The case study reports "Correct Predictions" as counts but does not specify the total number of true GO annotations for each protein, making the F1 scores difficult to interpret. The sequence identity values to the training set are reported as percentages but the method for computing these is not described.
+  - **Required correction** Provide the total number of true annotations and describe the sequence identity computation method.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model training settings section
+  - **Evidence pointer** "location not provided"
+  - **Issue** The training settings mention "two graph convolutional layers, a hierarchical graph Transformer block, and two fully connected layers" but do not specify the hidden dimensions, dropout rates for each layer, batch size, or the number of super-nodes.
+  - **Required correction** Provide complete architectural and training hyperparameters.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures 4-7
+  - **Evidence pointer** "location not provided"
+  - **Issue** The figures comparing protein language models are referenced but not described in the text. It is unclear what specific metrics are shown and whether the comparisons are statistically meaningful.
+  - **Required correction** Add descriptive text for each figure and consider adding statistical annotations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validity), R1-M2 (dataset transparency), R1-M3 (baseline fairness), R1-M4 (technical correctness), R1-M5 (claim-evidence alignment).
+- **Assessment against Nature-style criteria**  
+  *Originality*: Moderate. The combination of heterogeneous graph transformers with contrastive learning for protein function prediction is a reasonable incremental contribution, but similar architectures have been explored in other domains. The specific application to microbial proteins and the multi-modal integration are somewhat novel.  
+  *Scientific importance*: Moderate. Protein function prediction is an important problem, and improving performance on microbial proteins has practical value. However, the reported improvements are modest and not statistically validated, limiting the perceived importance.  
+  *Interdisciplinary readership*: Limited. The manuscript is primarily of interest to computational biologists and machine learning researchers. The presentation assumes familiarity with graph neural networks and protein language models, which may limit accessibility to a broader biological audience.  
+  *Technical soundness*: Currently insufficient. The lack of statistical testing, incomplete dataset description, and unclear baseline configurations prevent a rigorous assessment of the method's validity.  
+  *Readability for nonspecialists*: The introduction and discussion are generally accessible, but the methods section is dense and assumes significant background knowledge. The figures are not well described in the text.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and presents a plausible approach, but the evidence is insufficient to support the claimed advantages. Major revisions addressing statistical validity, dataset transparency, baseline fairness, and technical completeness are required before the case can be established.
+
+## Risk / unsupported claims
+- The claim of "consistent superiority" and "state-of-the-art" performance is unsupported without statistical significance testing.
+- The claim that the dataset is "the first benchmark dataset dedicated to microbial protein function annotation" is not substantiated with a literature review.
+- The claim in the Discussion that "explicit structural features" cause performance drops of 0.038-0.046 is not supported by the reported ablation experiments, which only remove physicochemical features.
+- The claim that ProMoHGT "effectively captures both local functional motifs and long-range structural relationships" is not directly evidenced by any analysis or visualization.
+- The claim that the model "achieves state-of-the-art generalization capacity across the entire homology spectrum" is based on comparisons with potentially suboptimally configured baselines.
+- The case study claims of "superior accuracy" are based on a small sample of three proteins and lack statistical context.

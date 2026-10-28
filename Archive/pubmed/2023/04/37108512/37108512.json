@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "37108512",
+    "doi": "10.3390/ijms24087349",
+    "title": "Network Biology Analyses and Dynamic Modeling of Gene Regulatory Networks under Drought Stress Reveal Major Transcriptional Regulators in Arabidopsis."
+  },
+  "content": {
+    "abstract": "Drought is one of the most serious abiotic stressors in the environment, restricting agricultural production by reducing plant growth, development, and productivity. To investigate such a complex and multifaceted stressor and its effects on plants, a systems biology-based approach is necessitated, entailing the generation of co-expression networks, identification of high-priority transcription factors (TFs), dynamic mathematical modeling, and computational simulations. Here, we studied a high-resolution drought transcriptome of Arabidopsis. We identified distinct temporal transcriptional signatures and demonstrated the involvement of specific biological pathways. Generation of a large-scale co-expression network followed by network centrality analyses identified 117 TFs that possess critical properties of hubs, bottlenecks, and high clustering coefficient nodes. Dynamic transcriptional regulatory modeling of integrated TF targets and transcriptome datasets uncovered major transcriptional events during the course of drought stress. Mathematical transcriptional simulations allowed us to ascertain the activation status of major TFs, as well as the transcriptional intensity and amplitude of their target genes. Finally, we validated our predictions by providing experimental evidence of gene expression under drought stress for a set of four TFs and their major target genes using qRT-PCR. Taken together, we provided a systems-level perspective on the dynamic transcriptional regulation during drought stress in Arabidopsis and uncovered numerous novel TFs that could potentially be used in future genetic crop engineering programs.",
+    "keywords": [
+      "Arabidopsis",
+      "co-expression network",
+      "computational simulation",
+      "drought",
+      "network centrality",
+      "systems biology",
+      "transcriptional regulation",
+      "water deprivation"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Droughts",
+      "Transcription Factors/metabolism",
+      "Systems Biology",
+      "Gene Expression Regulation, Plant",
+      "Stress, Physiological/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Nilesh",
+        "Mishra, Bharat K",
+        "Liu, Jinbao",
+        "Mohan, Binoop",
+        "Thingujam, Doni",
+        "Pajerowska-Mukhtar, Karolina M",
+        "Mukhtar, M Shahid"
+      ],
+      "short_names": [
+        "Kumar N",
+        "Mishra BK",
+        "Liu J",
+        "Mohan B",
+        "Thingujam D",
+        "Pajerowska-Mukhtar KM",
+        "Mukhtar MS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6095-7902",
+        "ORCID: 0000-0002-7505-5722",
+        "ORCID: 0000-0002-9273-396X"
+      ],
+      "affiliations": [
+        "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA.",
+        "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA.",
+        "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA.",
+        "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA.",
+        "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA.",
+        "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA.",
+        "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA.",
+        "Nutrition Obesity Research Center, University of Alabama at Birmingham, 1675 University Boulevard, Birmingham, AL 35294, USA.",
+        "Department of Surgery, University of Alabama at Birmingham, 1808 7th Ave S, Birmingham, AL 35294, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Nilesh",
+        "short_name": "Kumar N",
+        "identifiers": [
+          "0000-0001-6095-7902"
+        ],
+        "affiliations": [
+          "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA."
+        ]
+      },
+      {
+        "full_name": "Mishra, Bharat K",
+        "short_name": "Mishra BK",
+        "identifiers": [
+          "0000-0002-7505-5722"
+        ],
+        "affiliations": [
+          "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Jinbao",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA."
+        ]
+      },
+      {
+        "full_name": "Mohan, Binoop",
+        "short_name": "Mohan B",
+        "identifiers": [
+          "0000-0002-9273-396X"
+        ],
+        "affiliations": [
+          "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA."
+        ]
+      },
+      {
+        "full_name": "Thingujam, Doni",
+        "short_name": "Thingujam D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA."
+        ]
+      },
+      {
+        "full_name": "Pajerowska-Mukhtar, Karolina M",
+        "short_name": "Pajerowska-Mukhtar KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA."
+        ]
+      },
+      {
+        "full_name": "Mukhtar, M Shahid",
+        "short_name": "Mukhtar MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, 464 Campbell Hall, University of Alabama at Birmingham, 1300 University Boulevard, Birmingham, AL 35294, USA.",
+          "Nutrition Obesity Research Center, University of Alabama at Birmingham, 1675 University Boulevard, Birmingham, AL 35294, USA.",
+          "Department of Surgery, University of Alabama at Birmingham, 1808 7th Ave S, Birmingham, AL 35294, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Apr 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 06:41",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "41469497",
+      "40941864",
+      "40869193",
+      "40075303",
+      "39858915",
+      "39770832",
+      "39456877",
+      "37896081"
+    ],
+    "refs": [
+      "36293038",
+      "35486392",
+      "34777421",
+      "34745154",
+      "34690060",
+      "34655888",
+      "34251627",
+      "34102601",
+      "33919418",
+      "33795737",
+      "33667112",
+      "33648457",
+      "33574835",
+      "33432639",
+      "33293553",
+      "33245626",
+      "32895641",
+      "32866164",
+      "32865261",
+      "32317754",
+      "32025202",
+      "31906447",
+      "31889067",
+      "31811116",
+      "31485134",
+      "31448544",
+      "31428690",
+      "30944313",
+      "30760212",
+      "30730891",
+      "30668651",
+      "30665887",
+      "30567491",
+      "30463332",
+      "30448671",
+      "30418085",
+      "30386357",
+      "30267030",
+      "30181903",
+      "30014159",
+      "29899369",
+      "29753632",
+      "29675814",
+      "29601475",
+      "29538379",
+      "29272447",
+      "29162860",
+      "28798368",
+      "28747711",
+      "28706531",
+      "28586465",
+      "28438792",
+      "28018412",
+      "27610578",
+      "27404256",
+      "27117388",
+      "26941754",
+      "26579147",
+      "26441998",
+      "26314500",
+      "26257752",
+      "26184177",
+      "26059204",
+      "25975461",
+      "25750178",
+      "25682393",
+      "25516281",
+      "25071795",
+      "24904597",
+      "24888606",
+      "24130868",
+      "22244999",
+      "20624295",
+      "20460452",
+      "19513210",
+      "19114008",
+      "18940857",
+      "18704157",
+      "18039375",
+      "16524982",
+      "14729919",
+      "14597658",
+      "12519987"
+    ],
+    "similar": [
+      "37108512",
+      "30876925",
+      "29769331",
+      "22784627",
+      "37974513",
+      "25445270",
+      "20840729",
+      "38337133",
+      "26681689",
+      "27811239",
+      "20105335",
+      "33805821",
+      "35682951",
+      "33672598",
+      "31100788",
+      "27485523",
+      "22898356",
+      "27766460",
+      "29269383",
+      "30844478",
+      "27085597",
+      "35008994",
+      "33477464",
+      "31234595",
+      "24361507",
+      "32107612",
+      "30267030",
+      "26566840",
+      "35512580",
+      "30397148",
+      "33360542",
+      "24928551",
+      "37289769",
+      "30200246",
+      "36613845",
+      "25730421",
+      "25750178",
+      "35682705",
+      "25775154",
+      "27738714",
+      "31089915",
+      "26270661",
+      "24408129",
+      "32916530",
+      "31704591",
+      "24228871",
+      "25118806",
+      "29525961",
+      "23404561",
+      "22397531",
+      "30192796",
+      "29631006",
+      "24130868",
+      "28119334",
+      "36982494",
+      "32342434",
+      "20230648",
+      "36474134",
+      "21476089",
+      "31678628",
+      "34988675",
+      "35836131",
+      "27717468",
+      "35666421",
+      "33974299",
+      "36361560",
+      "24085426",
+      "33407148",
+      "34576244",
+      "23645342",
+      "36121384",
+      "28044345",
+      "28827319",
+      "33671480",
+      "33454635",
+      "20704747",
+      "34739505",
+      "24146023",
+      "28693422",
+      "26759178",
+      "24888606",
+      "33895677",
+      "34620438",
+      "36174283",
+      "35163676",
+      "36997861",
+      "30862358",
+      "27353051",
+      "26650836",
+      "30181903",
+      "30248119",
+      "19478073",
+      "34816587",
+      "28826479",
+      "24993737",
+      "28615505",
+      "37676542",
+      "30523281",
+      "36749045",
+      "29335449",
+      "38072690",
+      "22094046",
+      "38464086",
+      "28666320",
+      "23110892",
+      "21487096",
+      "38239967",
+      "35184174",
+      "34093651",
+      "24278214",
+      "36575445",
+      "18616425",
+      "37528982",
+      "28651538",
+      "38732491",
+      "39013383",
+      "29069589",
+      "28158291",
+      "35969771",
+      "29994097",
+      "37896081",
+      "38798726",
+      "34622164",
+      "18823570",
+      "38370805",
+      "33384705",
+      "34786214",
+      "37547469"
+    ],
+    "review": [
+      "37108512",
+      "37974513",
+      "20840729",
+      "38337133",
+      "27738714",
+      "24408129",
+      "25118806",
+      "30192796",
+      "21476089",
+      "31678628",
+      "24146023",
+      "19478073",
+      "37676542",
+      "38072690",
+      "22094046",
+      "23110892"
+    ],
+    "pmc": [
+      "10139068"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24087349",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37108512/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37108512",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

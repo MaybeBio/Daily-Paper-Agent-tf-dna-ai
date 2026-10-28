@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "39185441",
+    "doi": "10.1016/j.csbj.2024.07.021",
+    "title": "A novel heuristic of rigid docking scores positively correlates with full-length nuclear receptor LRH-1 regulation."
+  },
+  "content": {
+    "abstract": "The nuclear receptor Liver Receptor Homolog-1 (LRH-1, NR5A2) is a ligand-regulated transcription factor and validated drug target for several human diseases. LRH-1 activation is regulated by small molecule ligands, which bind to the ligand binding domain (LBD) within the full-length LRH-1. We recently identified 57 compounds that bind LRH-1, and unexpectedly found these compounds regulated either the isolated LBD, or the full-length LRH-1 in cells, with little overlap. Here, we correlated compound binding energy from a single rigid-body scoring function with full-length LRH-1 activity in cells. Although docking scores of the 57 hit compounds did not correlate with LRH-1 regulation in wet lab assays, a subset of the compounds had large differences in binding energy docked to the isolated LBD vs. full-length LRH-1, which we used to empirically derive a new metric of the docking scores we call \"DeltaDeltaG\". Initial regressions, correlations and contingency analyses all suggest compounds with high DeltaDeltaG values more frequently regulated LRH-1 in wet lab assays. We then docked all 57 compounds to 18 separate crystal structures of LRH-1 to obtain averaged DeltaDeltaG values for each compound, which robustly and reproducibly associated with full-length LRH-1 activity in cells. Network analyses on the 18 crystal structures of LRH-1 suggest unique communication paths exist between the subsets of LRH-1 crystal structures that produced high vs. low DeltaDeltaG values, identifying a structural relationship between DeltaDeltaG and the position of Helix 6, a previously established regulatory helix important for LRH-1 regulation. Together, these data suggest rigid-body computational docking can be used to quickly calculate DeltaDeltaG, which positively correlated with the ability of these 57 hit compounds to regulate full-length LRH-1 in cell-based assays. We propose DeltaDeltaG as a novel computational tool that can be applied to LRH-1 drug screens to prioritize compounds for resource-intense secondary screening.",
+    "keywords": [
+      "Nuclear receptor compound docking",
+      "Prioritize hit compounds"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Haratipour, Zeinab",
+        "Foutch, David",
+        "Blind, Raymond D"
+      ],
+      "short_names": [
+        "Haratipour Z",
+        "Foutch D",
+        "Blind RD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Vanderbilt University Medical Center, Department of Medicine, Division of Diabetes, Endocrinology and Metabolism, Nashville, TN 37232, USA.",
+        "Austin Peay State University, Department of Chemistry.",
+        "Vanderbilt University Medical Center, Department of Medicine, Division of Diabetes, Endocrinology and Metabolism, Nashville, TN 37232, USA.",
+        "Vanderbilt University Medical Center, Department of Medicine, Division of Diabetes, Endocrinology and Metabolism, Nashville, TN 37232, USA.",
+        "Vanderbilt University School of Medicine, Departments of Biochemistry and Pharmacology, Nashville, TN 37232, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Haratipour, Zeinab",
+        "short_name": "Haratipour Z",
+        "identifiers": [],
+        "affiliations": [
+          "Vanderbilt University Medical Center, Department of Medicine, Division of Diabetes, Endocrinology and Metabolism, Nashville, TN 37232, USA.",
+          "Austin Peay State University, Department of Chemistry."
+        ]
+      },
+      {
+        "full_name": "Foutch, David",
+        "short_name": "Foutch D",
+        "identifiers": [],
+        "affiliations": [
+          "Vanderbilt University Medical Center, Department of Medicine, Division of Diabetes, Endocrinology and Metabolism, Nashville, TN 37232, USA."
+        ]
+      },
+      {
+        "full_name": "Blind, Raymond D",
+        "short_name": "Blind RD",
+        "identifiers": [],
+        "affiliations": [
+          "Vanderbilt University Medical Center, Department of Medicine, Division of Diabetes, Endocrinology and Metabolism, Nashville, TN 37232, USA.",
+          "Vanderbilt University School of Medicine, Departments of Biochemistry and Pharmacology, Nashville, TN 37232, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/26 12:41",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37572334",
+      "37328104",
+      "37288368",
+      "37100941",
+      "37074920",
+      "37009899",
+      "36639504",
+      "36423263",
+      "36171289",
+      "36149353",
+      "36057257",
+      "35948006",
+      "35554554",
+      "35503419",
+      "35489334",
+      "35316658",
+      "33933440",
+      "33335203",
+      "32801051",
+      "32752136",
+      "32631515",
+      "32433991",
+      "32272481",
+      "32133344",
+      "32075766",
+      "31679823",
+      "31487867",
+      "31419141",
+      "31025886",
+      "30344916",
+      "30196745",
+      "29990431",
+      "29443959",
+      "28710774",
+      "28363985",
+      "28067908",
+      "27838257",
+      "27694446",
+      "27298334",
+      "27198219",
+      "27077332",
+      "26553876",
+      "26416531",
+      "25618350",
+      "25288771",
+      "25033734",
+      "24737860",
+      "24679540",
+      "24333731",
+      "23737522",
+      "23333623",
+      "23330660",
+      "22772466",
+      "22715467",
+      "22504882",
+      "22465009",
+      "22328899",
+      "21982300",
+      "21949357",
+      "21852532",
+      "21614002",
+      "21194563",
+      "21091654",
+      "20889131",
+      "20623273",
+      "20357802",
+      "20101243",
+      "19646743",
+      "19644471",
+      "18988706",
+      "18037887",
+      "17154495",
+      "15914712",
+      "15723037",
+      "15707893",
+      "12844440",
+      "7501015",
+      "4672663"
+    ],
+    "similar": [
+      "39185441",
+      "37074920",
+      "32433991",
+      "23667258",
+      "26416531",
+      "27694446",
+      "28363985",
+      "16289203",
+      "38853895",
+      "15897460",
+      "15143151",
+      "32631515",
+      "28406481",
+      "27467220",
+      "20460755",
+      "12820970",
+      "22359603",
+      "26268559",
+      "16439367",
+      "37572334",
+      "20943815",
+      "17283069",
+      "15976031",
+      "19125815",
+      "24705138",
+      "37328104",
+      "36173805",
+      "22916168",
+      "31751137",
+      "25473120",
+      "11668176",
+      "16091743",
+      "15130581",
+      "36747705",
+      "32111818",
+      "25148595",
+      "11564608",
+      "30810078",
+      "22961990",
+      "38039134",
+      "21391689",
+      "25739390",
+      "14736734",
+      "24049078",
+      "24564400",
+      "23471216",
+      "12865342",
+      "38632319",
+      "15707893",
+      "34839661",
+      "31355949",
+      "17158876",
+      "25951367",
+      "26553876",
+      "21554248",
+      "15613430",
+      "35801407",
+      "34704754",
+      "17977826",
+      "34488925",
+      "25435372",
+      "17204240",
+      "24943038",
+      "37356665",
+      "17154495",
+      "12837754",
+      "22772466",
+      "20607599",
+      "25463843",
+      "28552526",
+      "18323469",
+      "29438990",
+      "35316658",
+      "32931651",
+      "19067654",
+      "14671206",
+      "15121760",
+      "12853459",
+      "18642894",
+      "21536586",
+      "24498423",
+      "12972182",
+      "16490206",
+      "25896302",
+      "24520076",
+      "31328159",
+      "23737522",
+      "29237721",
+      "32328476",
+      "16376595",
+      "34471046",
+      "23765956",
+      "17095585",
+      "28642062",
+      "25675535",
+      "15117876",
+      "35854979",
+      "22504882",
+      "29137369",
+      "29669824"
+    ],
+    "review": [
+      "39185441",
+      "15130581",
+      "30810078",
+      "38632319",
+      "25951367",
+      "37356665",
+      "25463843",
+      "32931651"
+    ],
+    "pmc": [
+      "11342790"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(24)00255-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39185441/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

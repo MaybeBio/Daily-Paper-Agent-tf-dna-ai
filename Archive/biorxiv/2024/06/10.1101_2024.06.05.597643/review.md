@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding, acknowledgements)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. Figures and supplementary materials are referenced but not directly examined.
+- **Shared manuscript claim summary** The authors identify a C-terminal DNA binding region (residues 704-761) in full-length human MORC2, show that phosphorylation in this region reduces DNA affinity and nuclear localization, demonstrate that DNA binding inhibits ATPase activity, and provide evidence for topological entrapment of circular DNA substrates. They further show that this region is required for gene silencing in HeLa cells.
+- **Visible evidence base** Methods sections for molecular cloning, protein purification, mass spectrometry, biophysical assays (fluorescence anisotropy, SEC-MALS, circular dichroism), cross-linking mass spectrometry, cell culture, RNA-seq, and computational predictions. Results sections describing all major findings. Figure and table references are present but figures themselves are not available for direct inspection.
+- **Missing materials affecting confidence** Figures, supplementary figures, supplementary tables, and raw data files are not provided. This limits verification of data quality, statistical analyses, and the strength of presented evidence.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive biochemical characterization of full-length human MORC2, identifying a novel C-terminal DNA binding region and providing mechanistic insights into how MORC2 engages DNA for gene silencing. The work addresses an important gap in the field, as previous studies relied on N-terminal truncations. The combination of in vitro biophysical assays, cross-linking mass spectrometry, and cell-based functional assays is rigorous and well-integrated. However, several concerns regarding quantitative data presentation, mechanistic interpretation, and the generalizability of the proposed model require clarification before the conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Researchers studying MORC family proteins, chromatin biology, gene silencing mechanisms, epigenetic regulation, and GHKL-type ATPases. The findings on phosphorylation-dependent regulation of DNA binding and nuclear localization may also interest those studying cell cycle-dependent chromatin dynamics and MORC2-associated neuropathies.
+- **Major strengths** 1) Use of full-length MORC2 protein, addressing a significant limitation of prior studies. 2) Identification of a specific C-terminal DNA binding region with functional validation through mutagenesis. 3) Integration of multiple orthogonal approaches (biophysical, cross-linking MS, cell-based assays). 4) Demonstration of phosphorylation-dependent regulation with clear functional consequences. 5) The proposed model of topological DNA entrapment is mechanistically compelling and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for functional claims
+  - **Claim pointer** "Mutations in the MORC2 DNA binding region prevent capture of circular DNA substrates and ablate its gene silencing activity in cells."
+  - **Evidence pointer** Results sections "MORC2 captures circular DNA substrates" and "The C-terminal DNA binding region is required for MORC2 gene silencing in cells"; Figures 4 and 6 (not directly inspected)
+  - **Concern** The manuscript reports that the aspartate DNA binding mutant (12 substitutions) ablates gene silencing, but the specificity of this effect is not fully established. The mutant also disrupts a predicted NLS (residues 755-762), and the authors note it localizes to the cytoplasm. While an NLS-tagged version was used for silencing assays, the possibility that these mutations disrupt protein folding or other protein-protein interactions beyond DNA binding is not addressed. The alanine mutant also shows reduced DNA binding, yet its silencing activity is not reported. Without a complementation experiment or a more detailed structure-function analysis, the conclusion that the DNA binding region is specifically required for silencing is not fully supported.
+  - **Why it matters** The central claim of the manuscript is that this specific DNA binding region is required for MORC2 function in cells. If the mutations have pleiotropic effects, the conclusion may be overstated.
+  - **Resolution test** Provide silencing data for the alanine mutant, perform a complementation experiment with a DNA binding-deficient but NLS-intact mutant, or demonstrate that the aspartate mutant retains proper folding and known protein interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data presentation
+  - **Claim pointer** "Dephosphorylated MORC2 binds DNA with ~10 fold higher affinity than MORC2 preparations where phosphorylations remain intact (phosphorylated: Kd,app 285 ± 83 nM, dephosphorylated: Kd,app 17 ± 4 nM)."
+  - **Evidence pointer** Results section "MORC2 binds DNA and phosphorylation reduces its affinity for DNA"; Figure 1C (not directly inspected)
+  - **Concern** The Kd,app values are reported as mean ± standard deviation, but the number of independent replicates is not stated. For the phosphomimetic mutant, only a single Kd,app is given without error. Additionally, the manuscript does not specify whether the reported values are from a single experiment or multiple independent measurements. This limits assessment of the robustness of the observed differences.
+  - **Why it matters** The quantitative comparison between phosphorylated and dephosphorylated states is a key finding. Without proper error analysis and replicate information, the reliability of the reported fold-difference cannot be evaluated.
+  - **Resolution test** Report the number of independent experiments, include error values for all reported Kd,app measurements, and state the statistical test used to compare conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "DNA binding reduces MORC2 ATP hydrolysis activity" and "DNA non-competitively inhibits MORC2 ATPase activity."
+  - **Evidence pointer** Results section "MORC2 ATP hydrolysis activity is reduced in the presence of DNA"; Figure 2 (not directly inspected)
+  - **Concern** The manuscript reports that DNA inhibits ATPase activity and interprets this as non-competitive inhibition based on constant Km,app and decreasing Vmax. However, the mechanism by which DNA binding to the C-terminal region communicates to the N-terminal ATPase domain is not explored. The authors speculate about a conformational change but provide no direct evidence. Additionally, the physiological relevance of this inhibition is unclear, as the authors do not discuss how this relates to the proposed model where ATP hydrolysis is needed for release from DNA.
+  - **Why it matters** The coupling between DNA binding and ATPase activity is central to the proposed model. Without mechanistic insight into how this communication occurs, the model remains speculative.
+  - **Resolution test** Provide direct evidence for a conformational change (e.g., HDX-MS, FRET, or SAXS) or discuss alternative mechanisms. Clarify how ATPase inhibition fits into the proposed functional cycle.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** "Together, our data provide a model to understand how MORC2 engages with DNA substrates to mediate gene silencing."
+  - **Evidence pointer** Discussion section
+  - **Concern** The authors propose a general model for MORC family proteins, but the study only examines MORC2. While the authors note that MORC1/MORC2 share domain architecture, the C-terminal DNA binding region identified here is not shown to be conserved across the family. The discussion acknowledges this limitation but does not provide sequence conservation analysis or experimental evidence from other MORC family members.
+  - **Why it matters** The title and abstract emphasize the general relevance of the findings. If the mechanism is MORC2-specific, the broader claims should be tempered.
+  - **Resolution test** Include a sequence conservation analysis of the identified DNA binding region across MORC family members, or revise the claims to be MORC2-specific.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Fluorescence anisotropy methods
+  - **Evidence pointer** Methods section "Fluorescence anisotropy"
+  - **Issue** The manuscript states that binding curves were fit with a single site quadratic binding equation but does not specify whether the DNA concentration was fixed and protein titrated, or vice versa. The equation is not shown in the text.
+  - **Required correction** Provide the full binding equation and specify the titration scheme used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Phosphorylation site analysis
+  - **Evidence pointer** Results section "MORC2 binds DNA and phosphorylation reduces its affinity for DNA"; Figure 1A (not directly inspected)
+  - **Issue** The manuscript states that seventeen phosphorylation sites were identified, but it is unclear whether these are all confirmed by manual spectral inspection or if some are from database searches with lower confidence. The stoichiometry of phosphorylation at each site is not reported.
+  - **Required correction** Clarify the confidence criteria for phosphorylation site assignment and report whether any sites show substoichiometric modification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** RNA-seq analysis
+  - **Evidence pointer** Results section "The C-terminal DNA binding region is required for MORC2 gene silencing in cells"; Figure 6 (not directly inspected)
+  - **Issue** The manuscript reports significant upregulation and downregulation of genes but does not state the significance threshold used (e.g., adjusted p-value cutoff) or the number of biological replicates.
+  - **Required correction** Report the significance criteria and number of replicates for the RNA-seq experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of controls
+  - **Affected element** Plasmid capture assay
+  - **Evidence pointer** Methods section "Plasmid capture assay"; Figure 4 (not directly inspected)
+  - **Issue** The manuscript does not describe a control experiment with a non-DNA binding protein or a mutant lacking the entire C-terminal region to confirm the specificity of the capture assay.
+  - **Required correction** Include a negative control or discuss why it was not necessary.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of cellular localization
+  - **Affected element** Fluorescence microscopy
+  - **Evidence pointer** Results section "Phosphorylation inhibits MORC2 nuclear localization and mitotic chromosome association"; Figure 5 (not directly inspected)
+  - **Issue** The manuscript reports that phosphomimetic MORC2 is cytoplasmic, but it is unclear whether this is due to reduced DNA binding, NLS disruption, or both. The phosphomimetic mutations are in the same region as the DNA binding residues, and some overlap with the predicted NLS.
+  - **Required correction** Discuss the potential overlap between phosphorylation sites, DNA binding residues, and the NLS, and how this complicates interpretation.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of replicate information and statistical analysis for Kd,app measurements. 2) Absence of silencing data for the alanine DNA binding mutant. 3) No direct evidence for the proposed conformational change linking DNA binding to ATPase inhibition. 4) Incomplete description of the plasmid capture assay controls. 5) Unclear stoichiometry of phosphorylation at identified sites.
+
+## Risk / unsupported claims
+- The claim that the C-terminal DNA binding region is specifically required for gene silencing is not fully supported without data on the alanine mutant or a complementation experiment.
+- The proposed model of topological DNA entrapment as the mechanism for gene silencing is plausible but not directly demonstrated in cells.
+- The generalizability of the findings to other MORC family members is asserted but not experimentally supported.
+- The statement that DNA binding induces a conformational change in MORC2 is speculative and not directly evidenced.
+- The claim that phosphorylation "appears to exclude the protein from the nucleus" is based on overexpression of a phosphomimetic mutant and may not reflect endogenous regulation.

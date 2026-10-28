@@ -1,0 +1,596 @@
+{
+  "identity": {
+    "pmid": "33850196",
+    "doi": "10.1038/s41598-021-87061-w",
+    "title": "Vitamin D and lumisterol derivatives can act on liver X receptors (LXRs)."
+  },
+  "content": {
+    "abstract": "The interactions of derivatives of lumisterol (L3) and vitamin D3 (D3) with liver X receptors (LXRs) were investigated. Molecular docking using crystal structures of the ligand binding domains (LBDs) of LXRalpha and beta revealed high docking scores for L3 and D3 hydroxymetabolites, similar to those of the natural ligands, predicting good binding to the receptor. RNA sequencing of murine dermal fibroblasts stimulated with D3-hydroxyderivatives revealed LXR as the second nuclear receptor pathway for several D3-hydroxyderivatives, including 1,25(OH)(2)D3. This was validated by their induction of genes downstream of LXR. L3 and D3-derivatives activated an LXR-response element (LXRE)-driven reporter in CHO cells and human keratinocytes, and by enhanced expression of LXR target genes. L3 and D3 derivatives showed high affinity binding to the LBD of the LXRalpha and beta in LanthaScreen TR-FRET LXRalpha and beta coactivator assays. The majority of metabolites functioned as LXRalpha/beta agonists; however, 1,20,25(OH)(3)D3, 1,25(OH)(2)D3, 1,20(OH)(2)D3 and 25(OH)D3 acted as inverse agonists of LXRalpha, but as agonists of LXRbeta. Molecular dynamics simulations for the selected compounds, including 1,25(OH)(2)D3, 1,20(OH)(2)D3, 25(OH)D3, 20(OH)D3, 20(OH)L3 and 20,22(OH)(2)L3, showed different but overlapping interactions with LXRs. Identification of D3 and L3 derivatives as ligands for LXRs suggests a new mechanism of action for these compounds.",
+    "keywords": [],
+    "mesh_terms": [
+      "ATP Binding Cassette Transporter 1/genetics/metabolism",
+      "Animals",
+      "Animals, Newborn",
+      "CHO Cells",
+      "Calcitriol",
+      "Cell Nucleus/drug effects/metabolism",
+      "Cholesterol Side-Chain Cleavage Enzyme/metabolism",
+      "Computational Biology",
+      "Cricetulus",
+      "Dermis/cytology",
+      "Ergosterol/*pharmacology",
+      "Fibroblasts/drug effects/metabolism",
+      "Gene Expression Regulation/drug effects",
+      "Humans",
+      "Hydrogen Bonding",
+      "Keratinocytes/drug effects/metabolism",
+      "Ligands",
+      "Liver X Receptors/chemistry/genetics/*metabolism",
+      "Mice, Inbred C57BL",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Protein Structure, Secondary",
+      "Protein Transport/drug effects",
+      "RNA-Seq",
+      "Static Electricity",
+      "Thermodynamics",
+      "Vitamin D/*pharmacology",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Slominski, Andrzej T",
+        "Kim, Tae-Kang",
+        "Qayyum, Shariq",
+        "Song, Yuwei",
+        "Janjetovic, Zorica",
+        "Oak, Allen S W",
+        "Slominski, Radomir M",
+        "Raman, Chander",
+        "Stefan, Joanna",
+        "Mier-Aguilar, Carlos A",
+        "Atigadda, Venkatram",
+        "Crossman, David K",
+        "Golub, Andriy",
+        "Bilokin, Yaroslav",
+        "Tang, Edith K Y",
+        "Chen, Jake Y",
+        "Tuckey, Robert C",
+        "Jetten, Anton M",
+        "Song, Yuhua"
+      ],
+      "short_names": [
+        "Slominski AT",
+        "Kim TK",
+        "Qayyum S",
+        "Song Y",
+        "Janjetovic Z",
+        "Oak ASW",
+        "Slominski RM",
+        "Raman C",
+        "Stefan J",
+        "Mier-Aguilar CA",
+        "Atigadda V",
+        "Crossman DK",
+        "Golub A",
+        "Bilokin Y",
+        "Tang EKY",
+        "Chen JY",
+        "Tuckey RC",
+        "Jetten AM",
+        "Song Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA. aslominski@uabmc.edu.",
+        "Comprehensive Cancer Center, Cancer Chemoprevention Program, University of Alabama at Birmingham, Birmingham, AL, 35249, USA. aslominski@uabmc.edu.",
+        "Pathology and Laboratory Medicine Service, VA Medical Center, Birmingham, AL, 35249, USA. aslominski@uabmc.edu.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Oncology, Nicolaus Copernicus University Medical College, Romanowskiej str. 2, 85-796, Bydgoszcz, Poland.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+        "Department of Chemistry, University of Alabama at Birmingham, Birmingham, AL, 35249, USA.",
+        "Department of Genetics, Genomics Core Facility, University of Alabama at Birmingham, Birmingham, AL, 35249, USA.",
+        "OTAVA LTD, Vaughan, ON, L4K 0C3, Canada.",
+        "OTAVA LTD, Vaughan, ON, L4K 0C3, Canada.",
+        "School of Molecular Sciences, The University of Western Australia, Perth, WA, Australia.",
+        "Informatics Institute, University of Alabama at Birmingham, Birmingham, AL, 35249, USA.",
+        "School of Molecular Sciences, The University of Western Australia, Perth, WA, Australia.",
+        "Cell Biology Section, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, 27709, USA.",
+        "Department of Biomedical Engineering, University of Alabama at Birmingham, Shelby 803, Birmingham, AL, 35249, USA. yhsong@uab.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Slominski, Andrzej T",
+        "short_name": "Slominski AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA. aslominski@uabmc.edu.",
+          "Comprehensive Cancer Center, Cancer Chemoprevention Program, University of Alabama at Birmingham, Birmingham, AL, 35249, USA. aslominski@uabmc.edu.",
+          "Pathology and Laboratory Medicine Service, VA Medical Center, Birmingham, AL, 35249, USA. aslominski@uabmc.edu."
+        ]
+      },
+      {
+        "full_name": "Kim, Tae-Kang",
+        "short_name": "Kim TK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Qayyum, Shariq",
+        "short_name": "Qayyum S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Yuwei",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Janjetovic, Zorica",
+        "short_name": "Janjetovic Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Oak, Allen S W",
+        "short_name": "Oak ASW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Slominski, Radomir M",
+        "short_name": "Slominski RM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Raman, Chander",
+        "short_name": "Raman C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Stefan, Joanna",
+        "short_name": "Stefan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+          "Department of Oncology, Nicolaus Copernicus University Medical College, Romanowskiej str. 2, 85-796, Bydgoszcz, Poland."
+        ]
+      },
+      {
+        "full_name": "Mier-Aguilar, Carlos A",
+        "short_name": "Mier-Aguilar CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Atigadda, Venkatram",
+        "short_name": "Atigadda V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of Alabama at Birmingham, 1670 University Blvd, Rm 476, Birmingham, AL, 35249, USA.",
+          "Department of Chemistry, University of Alabama at Birmingham, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Crossman, David K",
+        "short_name": "Crossman DK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Genomics Core Facility, University of Alabama at Birmingham, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Golub, Andriy",
+        "short_name": "Golub A",
+        "identifiers": [],
+        "affiliations": [
+          "OTAVA LTD, Vaughan, ON, L4K 0C3, Canada."
+        ]
+      },
+      {
+        "full_name": "Bilokin, Yaroslav",
+        "short_name": "Bilokin Y",
+        "identifiers": [],
+        "affiliations": [
+          "OTAVA LTD, Vaughan, ON, L4K 0C3, Canada."
+        ]
+      },
+      {
+        "full_name": "Tang, Edith K Y",
+        "short_name": "Tang EKY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Sciences, The University of Western Australia, Perth, WA, Australia."
+        ]
+      },
+      {
+        "full_name": "Chen, Jake Y",
+        "short_name": "Chen JY",
+        "identifiers": [],
+        "affiliations": [
+          "Informatics Institute, University of Alabama at Birmingham, Birmingham, AL, 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Tuckey, Robert C",
+        "short_name": "Tuckey RC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Sciences, The University of Western Australia, Perth, WA, Australia."
+        ]
+      },
+      {
+        "full_name": "Jetten, Anton M",
+        "short_name": "Jetten AM",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology Section, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, 27709, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Yuhua",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Alabama at Birmingham, Shelby 803, Birmingham, AL, 35249, USA. yhsong@uab.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Apr 13",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/15 06:00",
+    "fetched_at": "2026-09-27 16:06:43"
+  },
+  "links": {
+    "cites": [
+      "42651759",
+      "42317509",
+      "41897332",
+      "40465176",
+      "40055144",
+      "39918482",
+      "39450562",
+      "39201632",
+      "39065743",
+      "39001720",
+      "38927967",
+      "38686544",
+      "38614450",
+      "38489380",
+      "38334631",
+      "38137858",
+      "38123121",
+      "37895177",
+      "37693364",
+      "37526502",
+      "37512482",
+      "36613531",
+      "36432468",
+      "36359206",
+      "36077185",
+      "35955731",
+      "35935021",
+      "35869242",
+      "35838947",
+      "35775377",
+      "35734414",
+      "35644988",
+      "35563767",
+      "35453525",
+      "35445563",
+      "35168121",
+      "35071823",
+      "35055118",
+      "35054853",
+      "35008794",
+      "34987528",
+      "34979905",
+      "34950826",
+      "34887768",
+      "34886758",
+      "34836354",
+      "34638897",
+      "34445803",
+      "34415218",
+      "34206371"
+    ],
+    "refs": [
+      "32441029",
+      "32203088",
+      "32198196",
+      "32051922",
+      "32029884",
+      "31226354",
+      "31054869",
+      "30487387",
+      "30205156",
+      "30004226",
+      "29568812",
+      "29452159",
+      "29380675",
+      "29367669",
+      "29258892",
+      "28900196",
+      "28836357",
+      "28736297",
+      "28676457",
+      "28340512",
+      "28266648",
+      "28030587",
+      "27697512",
+      "27693422",
+      "26995783",
+      "26445902",
+      "26164157",
+      "25617667",
+      "25130438",
+      "24867336",
+      "24778017",
+      "24668754",
+      "24336805",
+      "23454830",
+      "23395795",
+      "23285134",
+      "23104886",
+      "23041230",
+      "22782502",
+      "22683847",
+      "22546549",
+      "22541735",
+      "22383036",
+      "22210453",
+      "21677063",
+      "21656570",
+      "21197695",
+      "20655849",
+      "20554701",
+      "20542050",
+      "20436464",
+      "20348925",
+      "20149679",
+      "20020487",
+      "19028513",
+      "18536010",
+      "18410379",
+      "18222999",
+      "17898874",
+      "17634462",
+      "17210054",
+      "16823488",
+      "16200636",
+      "16098191",
+      "15578590",
+      "15191540",
+      "14657394",
+      "12970175",
+      "12819202",
+      "12542530",
+      "12520530",
+      "11564604",
+      "11517324",
+      "11149950",
+      "9874807",
+      "9794827",
+      "8429913",
+      "6667333",
+      "6281884",
+      "212325"
+    ],
+    "similar": [
+      "33850196",
+      "35838947",
+      "32441029",
+      "28736297",
+      "31039479",
+      "27693422",
+      "33317048",
+      "35775377",
+      "24668754",
+      "11875109",
+      "33107570",
+      "38908720",
+      "35421413",
+      "35168121",
+      "28082258",
+      "30297679",
+      "24269243",
+      "20020487",
+      "34181461",
+      "24176765",
+      "12847102",
+      "17310066",
+      "16825483",
+      "27598782",
+      "27026705",
+      "30359008",
+      "31931135",
+      "15292368",
+      "23686114",
+      "16857673",
+      "32366390",
+      "18925943",
+      "26381871",
+      "32414201",
+      "31980500",
+      "28741954",
+      "25425001",
+      "9379138",
+      "31799433",
+      "25724563",
+      "12730332",
+      "38091304",
+      "8397195",
+      "25450668",
+      "9366495",
+      "38334631",
+      "3873510",
+      "36191995",
+      "34445803",
+      "21483824",
+      "26041780",
+      "1646640",
+      "14753745",
+      "7700077",
+      "29352964",
+      "18368131",
+      "21677063",
+      "31352023",
+      "9287395",
+      "16325781",
+      "6313754",
+      "9228086",
+      "9870260",
+      "32447000",
+      "24618263",
+      "26441239",
+      "10322128",
+      "30602495",
+      "12612088",
+      "9731705",
+      "9071474",
+      "8624608",
+      "11315990",
+      "7530193",
+      "30825147",
+      "15647825",
+      "29915246",
+      "21187453",
+      "9148283",
+      "26601949",
+      "34098080",
+      "30351048",
+      "11901146",
+      "19238156",
+      "2836167",
+      "20837678",
+      "15488475",
+      "6305993",
+      "38123121",
+      "16824767",
+      "8603033",
+      "39001720",
+      "19242521",
+      "14699103",
+      "1310564",
+      "28578001",
+      "1446602",
+      "23482451",
+      "35787453",
+      "9586948",
+      "9209684",
+      "8619376",
+      "38156844"
+    ],
+    "review": [
+      "33850196",
+      "32441029",
+      "27693422",
+      "24176765",
+      "9379138",
+      "34445803",
+      "8603033"
+    ],
+    "pmc": [
+      "8044163"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/vitamind.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Vitamin D"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-021-87061-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33850196/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33850196",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse117351",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33850196",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

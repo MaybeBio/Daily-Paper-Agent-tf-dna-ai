@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific content, technical soundness, and support of claims based solely on the provided material. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors report a solution NMR study of the interaction between the Arabidopsis transcription factor WRKY33 C-terminal DNA-binding domain (WRKY33_C) and the VQ protein SIB1. They identify a minimal SIB1 sequence (residues 46–69) required for binding, map the WRKY33_C binding site to the βN strand and βN-β1 loop, and build a structural model of the complex using paramagnetic relaxation enhancement (PRE) data and mutagenesis. They further identify a lysine cluster in the SIB1 N-terminus that is essential for enhancing WRKY33_C-DNA binding, proposing a mechanism for ternary complex stabilization.
+- **Visible evidence base** NMR chemical shift assignments, CSP profiles, PRE data, EMSA experiments, chemical cross-linking, size-exclusion chromatography, and MD simulations. Figures 1–7 and Supplementary Figures S1–S16 are referenced.
+- **Missing materials affecting confidence** Raw NMR spectra, chemical shift assignments (deposition IDs not provided), PRE data tables, MD simulation parameters and convergence criteria, and full statistics for EMSA quantification are not included. The structural model coordinates are not deposited or provided. No in vivo functional data are presented.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in the understanding of VQ-WRKY protein interactions, which are central to plant stress signaling. The authors provide the first structural model of a VQ protein bound to a WRKY domain, using a combination of NMR and biochemical approaches. The work is technically sound in its core NMR methodology, and the identification of a minimal binding sequence and the role of the βN strand are valuable contributions. However, several concerns limit the strength of the conclusions, particularly regarding the structural model's accuracy, the functional relevance of the lysine cluster, and the lack of quantitative binding data. The manuscript is of interest to the plant signaling and structural biology communities, but the claims are not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Plant molecular biologists studying WRKY transcription factors and VQ proteins, particularly those focused on stress responses and transcriptional regulation. Structural biologists interested in intrinsically disordered proteins and their interactions with folded domains. Researchers studying protein-DNA ternary complex formation and its regulation.
+- **Major strengths** (1) The study addresses a previously unexplored structural question, providing the first model of a VQ-WRKY complex. (2) The combination of NMR CSP, PRE, and mutagenesis is appropriate for a dynamic complex that resists conventional structure determination. (3) The identification of the minimal SIB1 sequence and the essential role of the region preceding the VQ motif is a clear and useful finding. (4) The functional distinction between the SIB1-binding site and the DNA-binding site on WRKY33_C is well supported by the data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural model validity
+  - **Claim pointer** The authors claim to have built a structural model of the SIB1-WRKY33_C complex based on PRE and mutagenesis data, and use this model to propose a mechanism for ternary complex formation.
+  - **Evidence pointer** Results section "Building the structure model of the SIB1-WRKY33_C complex", Figure 6, Table 1
+  - **Concern** The structural model is derived from only 17 PRE restraints and 2 mutagenesis-derived distance restraints, with no NOE or dihedral angle data. The authors acknowledge the complex is dynamic, but the model's accuracy is not validated. The pairwise RMSD of 1.86 Å is reported only for the SIB1 subunit, not for the complex interface. The correlation coefficient R = 0.85 between calculated and experimental PRE data is modest and does not demonstrate unique convergence. No cross-validation (e.g., R-free) or independent validation of the model is provided. The model is used as the basis for mechanistic conclusions, which is a significant overreach given the sparse restraints.
+  - **Why it matters** The central claim of the paper is the structural basis of VQ-WRKY interaction. If the model is not reliable, the proposed mechanism, including the orientation of SIB1 and the role of specific residues, is speculative. This undermines the main contribution of the work.
+  - **Resolution test** The authors should provide a more rigorous validation of the model, such as cross-validation with a subset of PRE data, comparison with an independently calculated model, or deposition of the coordinates and restraints for community assessment. Alternatively, they should temper the claims to reflect that the model is a low-resolution, hypothesis-generating representation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance of lysine cluster
+  - **Claim pointer** The authors claim that a cluster of lysine residues (cluster II) in the SIB1 N-terminus is essential for enhancing WRKY33_C-DNA binding and stabilizing the ternary complex.
+  - **Evidence pointer** Results section "A lysine cluster in the SIB1 N-terminus is essential for enhancing WRKY33_C-DNA binding", Figure 7
+  - **Concern** The conclusion is based solely on EMSA experiments with two mutant constructs (I-K2A and II-K2A). The EMSA data are presented as a single gel image with semi-quantitative band intensity readouts. No quantitative binding constants are provided, and the "smeared band" for II-K2A is interpreted as an unstable complex without further analysis. The authors do not demonstrate that the lysine cluster directly contacts DNA; the ternary complex model is used to support this, but the model itself is not validated (see R1-M1). The possibility that the II-K2A mutation disrupts SIB1 folding or its interaction with WRKY33_C is not excluded.
+  - **Why it matters** The proposed mechanism of how SIB1 enhances WRKY33 transcriptional activity depends on this lysine cluster. Without robust evidence that the cluster directly engages DNA, the mechanistic claim is not established.
+  - **Resolution test** Provide quantitative EMSA or other binding assays (e.g., fluorescence anisotropy, ITC) with wild-type and mutant SIB1, and demonstrate that the II-K2A mutation does not affect SIB1-WRKY33_C binding. Direct evidence of DNA contact, such as DNA-binding assays with the isolated N-terminal region or crosslinking, would strengthen the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Binding affinity and specificity
+  - **Claim pointer** The authors state that SIB1 enhances WRKY33_C DNA-binding activity, implying a functional role in ternary complex formation.
+  - **Evidence pointer** Results section "Expression and functional characterization of SIB1", Figure 1b
+  - **Concern** The EMSA data in Figure 1b show enhanced DNA binding in the presence of SIB1, but no binding affinity is quantified for the SIB1-WRKY33_C interaction or the ternary complex. The authors estimate a Kd of ~150 nM for WRKY33_C-DNA, but this is not rigorously derived. The stoichiometry of the ternary complex is not established beyond a 1:1 SIB1-WRKY33_C ratio. The specificity of the enhancement (i.e., whether other VQ proteins or non-specific proteins have similar effects) is not tested.
+  - **Why it matters** The functional significance of the interaction depends on the affinity and specificity of the ternary complex. Without quantitative data, it is unclear whether the observed enhancement is physiologically relevant or a non-specific effect.
+  - **Resolution test** Provide quantitative binding data for SIB1-WRKY33_C (e.g., Kd) and for the ternary complex, and include a negative control protein in the EMSA to demonstrate specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Methods section "Structure modeling"
+  - **Evidence pointer** Methods section "Structure modeling"
+  - **Issue** The description of the MD simulation is incomplete. The force field parameters for the spin label are not described, the method for generating initial conformations is vague, and the criteria for selecting the 20 representative conformers are not fully specified. The Solomon-Bloembergen equation parameters (e.g., correlation time, distance calibration) are not provided.
+  - **Required correction** Provide a detailed description of the MD protocol, including force field parameters for the spin label, equilibration steps, and selection criteria. Include the PRE distance calibration details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Chemical shift assignments and structural model
+  - **Evidence pointer** Results sections "Conformational changes of SIB1" and "Building the structure model"
+  - **Issue** The chemical shift assignments for SIB1 and WRKY33_C, and the coordinates for the structural model, are not deposited in public databases (e.g., BMRB, PDB). This limits the reproducibility and verifiability of the work.
+  - **Required correction** Deposit the chemical shift assignments and the structural model coordinates in appropriate public repositories and provide accession numbers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and presentation
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7b
+  - **Issue** The EMSA gel image in Figure 7b is not clearly labeled, and the "smeared band" for II-K2A is difficult to discern. The quantification of band intensities is not shown.
+  - **Required correction** Provide a clearer gel image with labeled bands and include the quantification data as a separate panel or in a supplementary figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors do not discuss the limitations of their structural model or the dynamic nature of the complex in sufficient depth. The potential for the PRE data to be biased by conformational averaging is not addressed.
+  - **Required correction** Add a paragraph discussing the limitations of the model, the dynamic nature of the interaction, and the potential for alternative conformations.
+- **Technical failings that need to be addressed before the case is established** (1) The structural model is under-constrained and not validated, yet it is used to support mechanistic claims (R1-M1). (2) The functional role of the lysine cluster is supported only by qualitative EMSA data without excluding alternative explanations (R1-M2). (3) The lack of quantitative binding data for the binary and ternary complexes weakens the functional claims (R1-M3).
+- **Assessment against Nature-style criteria** Originality: The study is original in providing the first structural model of a VQ-WRKY interaction, which has been a missing piece in the field. Scientific importance: The work addresses a fundamental question in plant stress signaling and has implications for understanding the specificity of VQ-WRKY interactions. Interdisciplinary readership: The topic will appeal to plant biologists, structural biologists, and biochemists, but the narrow focus on a single protein pair may limit broader interest. Technical soundness: The NMR methodology is generally sound, but the structural model's reliability is a concern, and the functional data are not quantitative. Readability for nonspecialists: The manuscript is clearly written, but the structural details may be challenging for non-specialists; the abstract and introduction are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially valuable, but the structural model and functional claims require additional validation and quantitative support before the case is fully established.
+
+## Risk / unsupported claims
+- The structural model of the SIB1-WRKY33_C complex is presented as a reliable representation, but it is based on sparse restraints and lacks validation. The claim that the model provides a "framework for the mechanism" is not fully supported.
+- The claim that the lysine cluster in SIB1 directly engages DNA is not directly demonstrated; it is inferred from the ternary complex model and qualitative EMSA data.
+- The statement that SIB1 enhances WRKY33_C DNA-binding activity is supported by EMSA, but the physiological relevance and specificity are not established.
+- The comparison with AlphaFold2 predictions is mentioned but not systematically evaluated, and the claim that the experimental model differs from the prediction is not quantified.

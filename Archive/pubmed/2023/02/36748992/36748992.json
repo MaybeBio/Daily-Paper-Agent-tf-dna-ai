@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "36748992",
+    "doi": "10.1093/bib/bbad036",
+    "title": "Cooperation of local features and global representations by a dual-branch network for transcription factor binding sites prediction."
+  },
+  "content": {
+    "abstract": "Interactions between DNA and transcription factors (TFs) play an essential role in understanding transcriptional regulation mechanisms and gene expression. Due to the large accumulation of training data and low expense, deep learning methods have shown huge potential in determining the specificity of TFs-DNA interactions. Convolutional network-based and self-attention network-based methods have been proposed for transcription factor binding sites (TFBSs) prediction. Convolutional operations are efficient to extract local features but easy to ignore global information, while self-attention mechanisms are expert in capturing long-distance dependencies but difficult to pay attention to local feature details. To discover comprehensive features for a given sequence as far as possible, we propose a Dual-branch model combining Self-Attention and Convolution, dubbed as DSAC, which fuses local features and global representations in an interactive way. In terms of features, convolution and self-attention contribute to feature extraction collaboratively, enhancing the representation learning. In terms of structure, a lightweight but efficient architecture of network is designed for the prediction, in particular, the dual-branch structure makes the convolution and the self-attention mechanism can be fully utilized to improve the predictive ability of our model. The experiment results on 165 ChIP-seq datasets show that DSAC obviously outperforms other five deep learning based methods and demonstrate that our model can effectively predict TFBSs based on sequence feature alone. The source code of DSAC is available at https://github.com/YuBinLab-QUST/DSAC/.",
+    "keywords": [
+      "convolutional neural network",
+      "dual-branch",
+      "self-attention mechanism",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "Binding Sites",
+      "*DNA",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Yutong",
+        "Ding, Pengju",
+        "Gao, Hongli",
+        "Liu, Guozhu",
+        "Zhang, Fa",
+        "Yu, Bin"
+      ],
+      "short_names": [
+        "Yu Y",
+        "Ding P",
+        "Gao H",
+        "Liu G",
+        "Zhang F",
+        "Yu B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2453-7852"
+      ],
+      "affiliations": [
+        "College of Information Science and Technology, Qingdao University of Science and Technology, China.",
+        "College of Information Science and Technology, Qingdao University of Science and Technology, China.",
+        "College of Mathematics and Physics, Qingdao University of Science and Technology, China.",
+        "College of Information Science and Technology, Qingdao University of Science and Technology, China.",
+        "School of Medical Technology, Beijing Institute of Technology, China.",
+        "College of Information Science and Technology, School of Data Science, Qingdao University of Science and Technology, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Yutong",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Technology, Qingdao University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Pengju",
+        "short_name": "Ding P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Technology, Qingdao University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Hongli",
+        "short_name": "Gao H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Mathematics and Physics, Qingdao University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guozhu",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Technology, Qingdao University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fa",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology, Beijing Institute of Technology, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Bin",
+        "short_name": "Yu B",
+        "identifiers": [
+          "0000-0002-2453-7852"
+        ],
+        "affiliations": [
+          "College of Information Science and Technology, School of Data Science, Qingdao University of Science and Technology, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Mar 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/08 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [
+      "41634097",
+      "41627694",
+      "39342017",
+      "38701417",
+      "38452348"
+    ],
+    "refs": [],
+    "similar": [
+      "36748992",
+      "37328639",
+      "34929739",
+      "38701417",
+      "34752400",
+      "38236675",
+      "36935548",
+      "36403092",
+      "39350338",
+      "37022836",
+      "36049552",
+      "33334313",
+      "29970003",
+      "34613923",
+      "34272562",
+      "36155619",
+      "33498086",
+      "34664074",
+      "35867366",
+      "33522898",
+      "33767912",
+      "37254080",
+      "35462009",
+      "37598467",
+      "34073774",
+      "35768792",
+      "38733561",
+      "34320631",
+      "35525069",
+      "30808287",
+      "38357904",
+      "33837387",
+      "37030746",
+      "29993783",
+      "33372147",
+      "38949932",
+      "35043942",
+      "35471889",
+      "32770026",
+      "36860882",
+      "36586231",
+      "31336830",
+      "36094959",
+      "36088549",
+      "39096613",
+      "29722865",
+      "31634140",
+      "31323206",
+      "34534646",
+      "36067103",
+      "36791547",
+      "31593229",
+      "35471886",
+      "35955587",
+      "36374878",
+      "36571889",
+      "36335751",
+      "28245811",
+      "37723425",
+      "36242933",
+      "38873109",
+      "30423062",
+      "30835229",
+      "34116289",
+      "28881969",
+      "37148864",
+      "33909566",
+      "32572768",
+      "30419785",
+      "37631742",
+      "32746146",
+      "35171981",
+      "33552144",
+      "34297803",
+      "35161459",
+      "34962264",
+      "36788560",
+      "38626512",
+      "30463553",
+      "36804213",
+      "31753591",
+      "33930742",
+      "33581335",
+      "35342228",
+      "35671654",
+      "32976105",
+      "33684611",
+      "34773871",
+      "20158869",
+      "35536111",
+      "33371891",
+      "38049725",
+      "31480319",
+      "35246878",
+      "37258453",
+      "36398911",
+      "31058812",
+      "31513916",
+      "36661313",
+      "35235506",
+      "34970310",
+      "35051187",
+      "35652477",
+      "34571539",
+      "36484687",
+      "34571537",
+      "34882561",
+      "36917472",
+      "36171550",
+      "36523471",
+      "33538038",
+      "34440330",
+      "37919990",
+      "38443802",
+      "38507691",
+      "38400292",
+      "33416862",
+      "37140548",
+      "33609108",
+      "39214282",
+      "37190414",
+      "34714748",
+      "29081688",
+      "37004267",
+      "35965749",
+      "39404784",
+      "38350397",
+      "38142482",
+      "31449021",
+      "39418179",
+      "37327559",
+      "35213314",
+      "37883905",
+      "30922998",
+      "39220586",
+      "39174927",
+      "37519885",
+      "38510021",
+      "37387183",
+      "38347788",
+      "38805793",
+      "37015693",
+      "37918272",
+      "36981348",
+      "39352824",
+      "37708177",
+      "36405344",
+      "37294804",
+      "32537190",
+      "38735985",
+      "37590105",
+      "37845681",
+      "32755858",
+      "35666184",
+      "36018875",
+      "38513769",
+      "38303422",
+      "37436863",
+      "35618814",
+      "35588409",
+      "38713567",
+      "37142993",
+      "38848239",
+      "37401370",
+      "38259887",
+      "38460901",
+      "35473951",
+      "38749309",
+      "32551184",
+      "37126308",
+      "38244357",
+      "33360983",
+      "32905524"
+    ],
+    "review": [
+      "36748992",
+      "38626512",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36748992.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad036",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

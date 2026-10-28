@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "40066251",
+    "doi": "10.3389/fgene.2025.1526018",
+    "title": "Exploring the underlying molecular connections: a bioinformatics approach to link melanoma and Parkinson's disease."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Melanoma, a highly aggressive form of skin cancer, and Parkinson's disease (PD), a progressive neurodegenerative disorder, have been epidemiologically linked, showing a positive association that suggests a shared etiology. This association implies that individuals with one condition may have an increased risk of developing the other. However, the specific molecular mechanisms underlying this relationship remain unclear. This study aimed to elucidate the molecular mechanisms by conducting a comprehensive comparative analysis of gene expression profiles in both PD and melanoma to identify common differentially expressed genes (DEGs) that may contribute to the pathophysiological overlap between these two conditions. METHODS: We analyzed two independent publicly available genomic datasets to identify overlapping DEGs associated with both PD and melanoma. Regulatory networks, including transcription factors (TFs), DEGs, and microRNAs (miRNAs), were constructed. Protein-protein interaction (PPI) networks were established to identify hub genes. Additionally, we investigated the interplay between PD, melanoma, and immune cell infiltration to uncover potential correlations between the expression levels of hub genes and specific subsets of immune cells. Molecular docking studies were performed to identify potential therapeutic agents targeting the DEGs. RESULTS: A total of 41 overlapping DEGs were identified, including VSNL1, ATP6V1G2, and DNM1, which were significantly down-regulated in both PD and melanoma patients. These genes play critical roles in biological processes, cellular components, and molecular functions relevant to the pathogenesis of both diseases. VSNL1 is associated with synaptic vesicle fusion and may impact neuronal communication compromised in PD. ATP6V1G2, a subunit of the V-ATPase, is involved in the dysregulated pH homeostasis observed in melanoma. DNM1, a key player in vesicle trafficking, may influence aberrant cellular transport processes in both diseases. Regulatory and PPI networks revealed potential hub genes and their interactions. Molecular docking studies identified retinoic acid as a potential therapeutic agent targeting VSNL1, ATP6V1G2, and DNM1. DISCUSSION: Our study provides insights into the shared molecular characteristics of PD and melanoma, identifying potential biomarkers for early diagnosis and prognosis and revealing new therapeutic targets. The discovery of retinoic acid as a promising therapeutic agent represents a significant step forward in drug development and treatment strategies for these diseases. This comprehensive analysis enhances our understanding of the intricate molecular mechanisms underlying the association between PD and melanoma, paving the way for further research and therapeutic advancements. The findings hold the promise of improved diagnosis, prognosis, and personalized treatment strategies for individuals affected by these debilitating diseases.",
+    "keywords": [
+      "Parkinson's disease",
+      "bioinformatics analysis",
+      "differentially expressed genes",
+      "melanoma",
+      "molecular docking"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Limei",
+        "Li, Dailin",
+        "Zheng, Xu",
+        "Wu, Moli",
+        "Yao, Qijun",
+        "Chen, Haoran",
+        "Ye, Zhiqiang",
+        "Yuan, Bo"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Li D",
+        "Zheng X",
+        "Wu M",
+        "Yao Q",
+        "Chen H",
+        "Ye Z",
+        "Yuan B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Neurology Department, Central Hospital of Dalian University of Technology, Dalian, Liaoning, China.",
+        "First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "College of Basic Medical Science, Dalian Medical University, Dalian, Liaoning, China.",
+        "College of Basic Medical Science, Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Limei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Neurology Department, Central Hospital of Dalian University of Technology, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dailin",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xu",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Science, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Moli",
+        "short_name": "Wu M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Science, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Qijun",
+        "short_name": "Yao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Haoran",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zhiqiang",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Bo",
+        "short_name": "Yuan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Reparative and Reconstructive Surgery, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/11 06:26",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38880834",
+      "38445351",
+      "38245249",
+      "37985635",
+      "37446352",
+      "37196484",
+      "37188873",
+      "37150812",
+      "37096864",
+      "36768694",
+      "35819247",
+      "35314697",
+      "35314321",
+      "35266851",
+      "35246670",
+      "35241833",
+      "34278794",
+      "33485385",
+      "33125081",
+      "32631867",
+      "32598874",
+      "32461378",
+      "31911854",
+      "31590252",
+      "31434974",
+      "29991141",
+      "29657129",
+      "28667181",
+      "28288141",
+      "27640074",
+      "27270434",
+      "26896755",
+      "26722220",
+      "26402751",
+      "26247859",
+      "25990557",
+      "25822800",
+      "25806004",
+      "25683350",
+      "23643800",
+      "14597658",
+      "12734009",
+      "12196554",
+      "3824311"
+    ],
+    "similar": [
+      "40066251",
+      "34536521",
+      "38453824",
+      "38259479",
+      "35278479",
+      "39108650",
+      "39556279",
+      "36777638",
+      "39840278",
+      "37649719",
+      "39973855",
+      "38268224",
+      "39467967",
+      "39251231",
+      "37089789",
+      "28952134",
+      "40186271",
+      "39935526",
+      "39052109",
+      "37664910",
+      "38051734",
+      "39944354",
+      "29653596",
+      "38428099",
+      "36316672",
+      "38524085",
+      "32041280",
+      "36902271",
+      "28965931",
+      "32849243",
+      "39142001",
+      "37063877",
+      "36902304",
+      "33501609",
+      "39712244",
+      "37740761",
+      "30776463",
+      "35731466",
+      "37534476",
+      "37635325",
+      "34553293",
+      "30665415",
+      "33178610",
+      "36545026",
+      "37811327",
+      "38626069",
+      "40183359",
+      "40320470",
+      "40328901",
+      "40229859",
+      "40024299",
+      "36104591",
+      "39118438",
+      "36340779",
+      "36353576",
+      "34234459",
+      "36187920",
+      "37418066",
+      "40055592",
+      "37485340",
+      "38847168",
+      "36291136",
+      "37941536",
+      "38601162",
+      "29936662",
+      "37777104",
+      "39779759",
+      "39176085",
+      "35773742",
+      "36506310",
+      "32210219",
+      "34218797",
+      "39086489",
+      "38272954",
+      "33447084",
+      "40073855",
+      "38660311",
+      "35991567",
+      "36852684",
+      "30975489",
+      "38899746",
+      "35221677",
+      "39874886",
+      "31258663",
+      "38882525",
+      "38549107",
+      "35762549",
+      "31987036",
+      "37735671",
+      "39403102",
+      "39507054",
+      "36921580",
+      "39833772",
+      "40184012",
+      "34267539",
+      "29921304",
+      "39798693",
+      "38062833",
+      "28899360",
+      "39552415"
+    ],
+    "review": [
+      "40066251",
+      "29653596"
+    ],
+    "pmc": [
+      "11891206"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40066251/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2025.1526018",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

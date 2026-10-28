@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "38902567",
+    "doi": "10.1007/s10815-024-03155-0",
+    "title": "Integrative bioinformatics analysis to identify ferroptosis-related genes in non-obstructive azoospermia."
+  },
+  "content": {
+    "abstract": "PURPOSE: The objective of this study was to discern ferroptosis-related genes (FRGs) linked to non-obstructive azoospermia and investigate the associated molecular mechanisms. METHOD: A dataset related to azoospermia was retrieved from the Gene Expression Omnibus database, and FRGs were sourced from GeneCards. Ferroptosis-related differentially expressed genes (FRDEGs) were discerned. Subsequently, these genes underwent analyses encompassing Gene Ontology and Kyoto Encyclopedia of Genes and Genomes, as well as protein-protein interaction (PPI) networks and assessments of functional similarity. Following the identification of hub genes, an exploration of immune infiltration, single-cell expression, diagnostic utility, and interactions involving hub genes, RNA-binding proteins (RBPs), transcription factors (TFs), microRNAs (miRNAs), and drugs was conducted. RESULTS: A total of 35 differentially expressed FRGs were discerned. These genes demonstrated enrichment in functions and pathways associated with ferroptosis. From the PPI network, eight hub genes were selected. Functional similarity analysis highlighted the potential pivotal roles of HMOX1 and GPX4 in azoospermia. Analysis of immune cell infiltration indicated a significant decrease in activated dendritic cells in the azoospermia group, with notable correlations between hub genes, particularly SAT1 and HMGCR, and immune cell infiltration. Unique expression patterns of hub genes across various cell types in the human testis were observed, with GPX4 prominently enriched in spermatid/sperm. Eight hub genes exhibited robust diagnostic value (AUC > 0.75). Lastly, a comprehensive hub gene-miRNA-TF-RBP-drug network was constructed. CONCLUSION: In summary, our investigation unveiled eight FRDEGs associated with azoospermia, which hold potential as biomarkers for the diagnosis and treatment of azoospermia.",
+    "keywords": [
+      "Azoospermia",
+      "Bioinformatics",
+      "Biomarkers",
+      "Ferroptosis",
+      "Hub genes",
+      "Immune infiltration"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Azoospermia/genetics/pathology",
+      "Male",
+      "*Ferroptosis/genetics",
+      "*Computational Biology/methods",
+      "*Protein Interaction Maps/genetics",
+      "*Gene Regulatory Networks/genetics",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Transcription Factors/genetics",
+      "Gene Expression Regulation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Yanggang",
+        "Yuan, Qichao",
+        "Wang, Lingfei",
+        "Yang, Zihan",
+        "Xu, Peiyu",
+        "Guan, Xiaoju",
+        "Chen, Congde"
+      ],
+      "short_names": [
+        "Hong Y",
+        "Yuan Q",
+        "Wang L",
+        "Yang Z",
+        "Xu P",
+        "Guan X",
+        "Chen C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9101-5678"
+      ],
+      "affiliations": [
+        "The Second School of Medicine, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China.",
+        "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China.",
+        "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China.",
+        "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China.",
+        "The Second School of Medicine, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China.",
+        "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China. guanxiaoju@wmu.edu.cn.",
+        "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China. guanxiaoju@wmu.edu.cn.",
+        "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China. chencd@wmu.edu.cn.",
+        "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China. chencd@wmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Yanggang",
+        "short_name": "Hong Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second School of Medicine, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Qichao",
+        "short_name": "Yuan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lingfei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zihan",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Peiyu",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "The Second School of Medicine, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Xiaoju",
+        "short_name": "Guan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China. guanxiaoju@wmu.edu.cn.",
+          "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China. guanxiaoju@wmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Congde",
+        "short_name": "Chen C",
+        "identifiers": [
+          "0000-0001-9101-5678"
+        ],
+        "affiliations": [
+          "Department of Pediatric Urology, the Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China. chencd@wmu.edu.cn.",
+          "Key Laboratory of Children Genitourinary Diseases of Wenzhou, Wenzhou, 325000, Zhejiang, China. chencd@wmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of assisted reproduction and genetics"
+    ],
+    "journal_abbrev": [
+      "J Assist Reprod Genet"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/21 00:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42445556",
+      "42426441",
+      "42352343",
+      "42178618",
+      "40956397",
+      "40109657",
+      "39934490"
+    ],
+    "refs": [
+      "37748303",
+      "37553495",
+      "37484915",
+      "37240164",
+      "36969237",
+      "36853962",
+      "36580806",
+      "35625641",
+      "35264663",
+      "34970773",
+      "34864868",
+      "34221106",
+      "34192390",
+      "34124648",
+      "34108339",
+      "34006412",
+      "33830205",
+      "33805594",
+      "33659925",
+      "33499760",
+      "33378529",
+      "33297942",
+      "33290552",
+      "33237311",
+      "33173058",
+      "32986267",
+      "32516740",
+      "32174164",
+      "31605800",
+      "30931480",
+      "30335862",
+      "29858708",
+      "29290465",
+      "29087512",
+      "28709976",
+      "28462584",
+      "28444885",
+      "28363764",
+      "27890914",
+      "27395771",
+      "26846952",
+      "26794443",
+      "26411232",
+      "25628250",
+      "25605792",
+      "24132163",
+      "24083871",
+      "24027076",
+      "23503954",
+      "22632970",
+      "22523110",
+      "21898994",
+      "18031566",
+      "15866583",
+      "14597658",
+      "12009338",
+      "10875863",
+      "10464096",
+      "8667073"
+    ],
+    "similar": [
+      "38902567",
+      "36969237",
+      "35637927",
+      "36335193",
+      "40024299",
+      "41286198",
+      "39506588",
+      "39391879",
+      "39586719",
+      "37549510",
+      "38229237",
+      "41444522",
+      "36506310",
+      "41162488",
+      "40598458",
+      "40659785",
+      "41044520",
+      "38073349",
+      "40496861",
+      "40826767",
+      "39673621",
+      "40091022",
+      "39125762",
+      "39792889",
+      "40561071",
+      "38062833",
+      "41311024",
+      "39541922",
+      "40246772",
+      "38734841",
+      "38741149",
+      "37403234",
+      "41196851",
+      "38885209",
+      "40574839",
+      "35100981",
+      "40370730",
+      "37550393",
+      "31987036",
+      "37492576",
+      "39367003",
+      "40603423",
+      "40821971",
+      "40948782",
+      "39496786",
+      "37316756",
+      "39833772",
+      "38144322",
+      "37382793",
+      "37275855",
+      "39170609",
+      "39608795",
+      "37878219",
+      "39556279",
+      "31612481",
+      "31692035",
+      "39284931",
+      "39794696",
+      "34652258",
+      "38268224",
+      "35397550",
+      "39984919",
+      "38649061",
+      "39192657",
+      "38059012",
+      "37920499",
+      "35901060",
+      "40729322",
+      "35016690",
+      "39636891",
+      "34536521",
+      "36440700",
+      "40228223",
+      "40196107",
+      "40597456",
+      "40696650",
+      "34565282",
+      "39072329",
+      "39496907",
+      "39342024",
+      "39789929",
+      "34722763",
+      "37740761",
+      "38402377",
+      "37752199",
+      "39991755",
+      "39793232",
+      "39636560",
+      "41006883",
+      "40898538",
+      "38057699",
+      "41213837",
+      "38957433",
+      "38639655",
+      "40973872",
+      "38736878",
+      "39192637",
+      "32481304",
+      "36497037",
+      "31775841"
+    ],
+    "review": [
+      "38902567",
+      "32481304"
+    ],
+    "pmc": [
+      "11339017"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38902567/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10815-024-03155-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "identity": {
+    "pmid": "42585774",
+    "doi": "10.1016/j.compbiolchem.2026.109324",
+    "title": "Key genetic biomarkers and therapeutic potential in multiple sclerosis: Insights from integrated bioinformatics and mendelian randomization."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVES: Multiple sclerosis (MS) is a chronic autoimmune disorder of the central nervous system characterized by inflammation, demyelination, and neurodegeneration. This study aimed to identify key genetic and immune-related biomarkers involved in MS pathogenesis and to explore structurally plausible therapeutic targets. MATERIALS AND METHODS: Publicly available gene-expression datasets were analyzed using an integrated computational framework. This framework comprised differential expression analysis, Mendelian randomization, immune-cell infiltration profiling, functional enrichment analysis, and drug-gene interaction screening. Candidate STAT6-ligand complexes were then examined by CB-Dock2 molecular docking, followed by 100 ns molecular dynamics (MD) simulation, MM-PBSA decomposition, per-residue energy analysis, and PCA-based free-energy landscape (FEL) analysis. RESULTS: Three MS-associated genes were prioritized: MS4A3, STAT6, and UBE2O. MS4A3 and STAT6 showed positive associations with MS risk, whereas UBE2O showed a protective association. Enrichment analyses implicated immune-regulatory and inflammatory pathways, including Th17 differentiation, Th1/Th2 differentiation, and ubiquitin-mediated proteolysis. Drug-gene interaction screening and CB-Dock2 docking identified STAT6-ligand interactions, particularly with methylprednisolone and Doxorubicin hydrochloride. Subsequent 100 ns MD simulations supported continued ligand association with the predicted STAT6 pocket. MM-PBSA and PCA-based free-energy analyses indicated favorable non-bonded interactions and distinct low-energy conformational ensembles, with methylprednisolone providing the more clinically interpretable STAT6-associated result. CONCLUSIONS: This study integrates transcriptomic, genetic-causal, immunological, and structural analyses to prioritize STAT6 as a potentially druggable MS-associated target. The additional MD, MM-PBSA, and PCA/FEL analyses strengthen the computational plausibility of STAT6-ligand interactions, especially for the clinically relevant STAT6-methylprednisolone complex. Nevertheless, all structural findings remain computational predictions and require experimental validation before clinical translation.",
+    "keywords": [
+      "Bioinformatics",
+      "Immune cell infiltration",
+      "Mendelian randomization",
+      "Molecular docking",
+      "Molecular dynamics",
+      "Multiple sclerosis",
+      "Therapeutic targets"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Multiple Sclerosis/genetics/drug therapy",
+      "*Computational Biology",
+      "Molecular Docking Simulation",
+      "*Mendelian Randomization Analysis",
+      "Genetic Markers/genetics",
+      "Molecular Dynamics Simulation",
+      "STAT6 Transcription Factor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Zhongbo",
+        "Xiong, Ke",
+        "Zhao, Dan"
+      ],
+      "short_names": [
+        "Xu Z",
+        "Xiong K",
+        "Zhao D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Affiliated Hospital, Jiangxi University of Chinese Medicine, Nanchang, Jiangxi 330000, China.",
+        "Graduate School, Jiangxi University of Chinese Medicine, Nanchang, Jiangxi 330000, China.",
+        "Affiliated Hospital, Jiangxi University of Chinese Medicine, Nanchang, Jiangxi 330000, China. Electronic address: 729509184@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Zhongbo",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital, Jiangxi University of Chinese Medicine, Nanchang, Jiangxi 330000, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Ke",
+        "short_name": "Xiong K",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Jiangxi University of Chinese Medicine, Nanchang, Jiangxi 330000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Dan",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital, Jiangxi University of Chinese Medicine, Nanchang, Jiangxi 330000, China. Electronic address: 729509184@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/12 23:34",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42585774",
+      "40108295",
+      "40692979",
+      "41385176",
+      "40676786",
+      "41254784",
+      "40916281",
+      "40406126",
+      "41895505",
+      "42420581",
+      "41772215",
+      "42616073",
+      "42509698",
+      "41422660",
+      "41418349",
+      "42227395",
+      "40453984",
+      "42263871",
+      "42510868",
+      "42631563",
+      "42074514",
+      "40148470",
+      "41191606",
+      "42509710",
+      "39346628",
+      "41466027",
+      "40462656",
+      "40913866",
+      "40685710",
+      "40311696",
+      "42520089",
+      "41186507",
+      "40627944",
+      "41630051",
+      "41108957",
+      "39855613",
+      "41824857",
+      "40859487",
+      "41630303",
+      "41956308",
+      "40897285",
+      "42611581",
+      "39076991",
+      "39953634",
+      "39756059",
+      "40958307",
+      "40304766",
+      "42260878",
+      "42421348",
+      "42570508",
+      "39849508",
+      "42486346",
+      "40755754",
+      "42649570",
+      "42253320",
+      "42625604",
+      "42456406",
+      "41448363",
+      "42421947",
+      "41962616",
+      "41935502",
+      "37556937",
+      "42180802",
+      "41859015",
+      "41202080",
+      "42236612",
+      "42475469",
+      "41204712",
+      "41930765",
+      "42173079",
+      "41465087",
+      "42008967",
+      "41717432",
+      "41083787",
+      "42292469",
+      "42393402",
+      "40843941",
+      "42528928",
+      "42382126",
+      "42306043",
+      "29126764",
+      "40643811",
+      "39622956",
+      "41574553",
+      "41754795",
+      "39238373",
+      "40216309",
+      "41388545",
+      "42571316",
+      "41492010",
+      "42269280",
+      "42292825",
+      "42260332",
+      "41471362",
+      "40983575",
+      "40153981",
+      "41502501",
+      "42694262",
+      "41300749",
+      "42083357"
+    ],
+    "review": [
+      "42585774"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(26)00451-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/multiplesclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Sclerosis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT6-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

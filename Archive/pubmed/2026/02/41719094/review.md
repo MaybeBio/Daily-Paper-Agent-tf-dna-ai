@@ -1,0 +1,112 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that Brusatol directly binds FOXM1, promotes its degradation, and thereby suppresses lung cancer progression in vitro and in vivo. They further claim that FOXM1 transcriptionally upregulates CBS, that Brusatol reduces FOXM1 and CBS expression in patient-derived organoids, and that FOXM1 and CBS expression are positively correlated in lung cancer. The central conclusion is that Brusatol acts as a novel FOXM1 inhibitor blocking the FOXM1/CBS axis.
+- **Visible evidence base** Abstract text only; methods named include label-free quantitative proteomics, colony formation, PI staining, CCK8, Western blot, qRT-PCR, streptavidin-based pulldown, cellular thermal shift assay, molecular docking, in vivo tumor models, and patient-derived organoid assays. No numerical data, statistics, or representative results are shown.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, statistical details, proteomics dataset, docking parameters, in vivo experimental design, PDO characterization, and clinical correlation data. Without these, quantitative assessment of effect sizes, reproducibility, and rigor is not possible.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism linking a natural product to a defined oncogenic transcription factor and a downstream metabolic enzyme. However, the evidence as summarized is insufficient to establish the central claims of direct binding, degradation-mediated suppression, transcriptional regulation, and therapeutic relevance. Several claims require substantially more experimental detail and validation than the abstract provides. The work may be of interest to the lung cancer and natural product communities, but the current evidence base does not support the strength of the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying FOXM1 as a therapeutic target in cancer, investigators working on natural product anticancer agents, and those interested in the intersection of transcription factor regulation and metabolic reprogramming in lung cancer. The PDO component may appeal to translational researchers focused on personalized oncology.
+- **Major strengths** The study combines multiple orthogonal approaches to investigate drug-target interaction, including pulldown, thermal shift, and docking. The inclusion of patient-derived organoids adds translational relevance. The proposed link between FOXM1 and CBS is a novel angle that could connect transcriptional control to metabolic pathways in lung cancer.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Direct interaction claim
+  - **Claim pointer** "Brusatol directly interacts with FOXM1, leading to its degradation"
+  - **Evidence pointer** Methods named: SA-based pulldown, Cellular Thermal Shift Assay, molecular docking; location not provided
+  - **Concern** The abstract states direct interaction without providing any quantitative binding data, competition controls, or evidence that the interaction is specific rather than promiscuous. Molecular docking alone is predictive and not confirmatory. No data are shown for binding affinity, stoichiometry, or whether the interaction occurs at concentrations relevant to the observed cellular effects.
+  - **Why it matters** The entire mechanistic framework depends on Brusatol acting as a direct FOXM1 binder. If the interaction is indirect or non-specific, the proposed model collapses. Direct target validation is the cornerstone of the paper's novelty claim.
+  - **Resolution test** Provide binding affinity measurements, mutagenesis of the proposed binding site, a negative control compound, and demonstration that the interaction is required for the observed degradation and phenotypic effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Degradation mechanism
+  - **Claim pointer** "leading to its degradation"
+  - **Evidence pointer** Western blot mentioned; location not provided
+  - **Concern** The abstract does not specify whether degradation is proteasomal, lysosomal, or autophagy-mediated. No data on half-life changes, ubiquitination status, or use of pathway inhibitors are described. Without this, the claim of degradation as the operative mechanism is incomplete.
+  - **Why it matters** Understanding the degradation pathway is essential for mechanistic clarity and for predicting resistance mechanisms. It also distinguishes a specific targeted effect from general cytotoxicity.
+  - **Resolution test** Show cycloheximide chase experiments, ubiquitination assays, and rescue with proteasome or lysosome inhibitors. Demonstrate that degradation is FOXM1-specific and not a global protein loss effect.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Transcriptional regulation claim
+  - **Claim pointer** "FOXM1 binds to the promoter region of CBS and enhances its expression"
+  - **Evidence pointer** Methods named: Western blot, qRT-PCR; location not provided
+  - **Concern** The abstract claims promoter binding and transcriptional enhancement but does not describe the experimental approach for the binding claim, such as ChIP, reporter assays, or electrophoretic mobility shift assays. No data are shown for promoter occupancy, response elements, or functional consequences of promoter mutation.
+  - **Why it matters** The FOXM1/CBS axis is presented as a central signaling pathway. If the transcriptional relationship is not rigorously established, the proposed axis is speculative.
+  - **Resolution test** Provide ChIP data with appropriate controls, promoter reporter assays with wild-type and mutant constructs, and rescue experiments showing that CBS overexpression or knockdown phenocopies or reverses the effects of FOXM1 modulation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy
+  - **Claim pointer** "suppressing the malignant progression of lung cancer both in vitro and in vivo"
+  - **Evidence pointer** In vivo model mentioned; location not provided
+  - **Concern** No details are given on the in vivo model, including tumor type, implantation site, dosing regimen, route of administration, number of animals, or endpoints. No tumor growth curves, survival data, or toxicity assessments are described.
+  - **Why it matters** In vivo efficacy is a key translational claim. Without adequate experimental detail and statistical power, the claim cannot be evaluated for robustness or clinical relevance.
+  - **Resolution test** Provide full in vivo experimental design, including sample sizes, tumor growth kinetics, body weight changes, histopathology, and statistical analysis. Show dose-response relationships and target engagement in tumor tissue.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** PDO relevance
+  - **Claim pointer** "Brusatol significantly reduced cell viability, induced cell death, and downregulated the expression of both FOXM1 and CBS in PDOs"
+  - **Evidence pointer** PDO model mentioned; location not provided
+  - **Concern** The abstract does not specify how many patient-derived organoid lines were tested, whether responses were consistent across lines, or whether the PDOs were molecularly characterized. No dose-response data or comparison to normal tissue controls are shown.
+  - **Why it matters** PDO data are presented as a strength, but without information on biological variability and representativeness, the generalizability of the finding is unclear.
+  - **Resolution test** Show data from multiple independent PDO lines with molecular characterization, dose-response curves, and evidence that FOXM1/CBS downregulation correlates with viability effects.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Correlation claim
+  - **Claim pointer** "a positive correlation between FOXM1 and CBS expression was identified in lung cancer"
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not describe the source of the correlation data, such as patient cohorts, public databases, or tissue microarrays. No correlation coefficient, sample size, or statistical significance is reported.
+  - **Why it matters** The correlation is used to support clinical relevance. Without proper statistical reporting and cohort description, the claim is not verifiable.
+  - **Resolution test** Provide the data source, sample size, correlation coefficient with confidence intervals, and appropriate multiple testing correction. Ideally, validate in an independent cohort.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Proteomics validation
+  - **Affected element** Label-free quantitative proteomics
+  - **Evidence pointer** Methods named; location not provided
+  - **Issue** The abstract mentions proteomics to identify altered proteins but does not state how many proteins were changed, whether FOXM1 and CBS were among the top hits, or how the list was filtered.
+  - **Required correction** Summarize the number of differentially expressed proteins, highlight FOXM1 and CBS in the context of the full dataset, and state the criteria for significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dose and selectivity
+  - **Affected element** Brusatol treatment conditions
+  - **Evidence pointer** Location not provided
+  - **Issue** No concentrations, time points, or selectivity controls against other transcription factors are described.
+  - **Required correction** Report the dose range and time course used, and include data showing that Brusatol does not broadly degrade other proteins or transcription factors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative assays
+  - **Evidence pointer** Location not provided
+  - **Issue** No statistical methods, number of replicates, or error metrics are mentioned in the abstract.
+  - **Required correction** State the statistical tests used, number of independent experiments, and how significance was defined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** "Cystathionine beta-synthase"
+  - **Evidence pointer** Abstract text
+  - **Issue** The gene name is given as CBS in the title and text, but the full name is not consistently introduced.
+  - **Required correction** Use the full gene name at first mention and the approved symbol thereafter.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5, R1-M6. The direct interaction, degradation mechanism, transcriptional regulation, in vivo efficacy, PDO consistency, and clinical correlation are all insufficiently supported by the abstract-level evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The FOXM1-CBS link is a novel angle, and Brusatol as a FOXM1 inhibitor is potentially new, but the general concept of natural products targeting transcription factors is not unprecedented.  
+  - Scientific importance: Potentially high if fully validated, given FOXM1's role in multiple cancers and the translational relevance of a druggable small molecule. However, the current evidence does not establish this importance.  
+  - Interdisciplinary readership: The topic bridges cancer biology, pharmacology, and metabolism, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, but the lack of quantitative detail limits its impact.  
+  - Technical soundness: The methods listed are appropriate, but the absence of data and controls prevents assessment of technical rigor. The direct binding claim in particular requires more stringent validation.  
+  - Readability for nonspecialists: The abstract is clear and logically structured, but the density of claims without supporting numbers makes it difficult to gauge the strength of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a coherent hypothesis and a reasonable experimental strategy, but the absence of quantitative data, controls, and experimental details for the central claims means the case is not yet made. I would be supportive if the full manuscript provides rigorous evidence addressing the major concerns, particularly the direct interaction, degradation mechanism, and transcriptional regulation.
+
+## Risk / unsupported claims
+- Direct physical interaction between Brusatol and FOXM1 is asserted without binding data or specificity controls.
+- Degradation of FOXM1 as the operative mechanism is claimed without pathway identification or kinetic data.
+- FOXM1 binding to the CBS promoter is stated without describing the experimental method or showing occupancy data.
+- In vivo suppression of lung cancer progression is claimed without any model details or quantitative outcomes.
+- PDO responses are described as significant without reporting the number of lines, variability, or statistical analysis.
+- Positive correlation between FOXM1 and CBS in lung cancer is stated without cohort description or statistical metrics.
+- The designation of Brusatol as a "novel FOXM1 inhibitor" is premature given the lack of validated direct targeting data.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, figures, or statistical details possible
+- **Shared manuscript claim summary** The authors report that acetylation of specific lysine residues within a 20-residue N-terminal histone H3 peptide differentially inhibits liquid-liquid phase separation (LLPS) with nucleosomal-linker DNA. Acetylation near the peptide termini (H3K4ac, H3K18ac) inhibits LLPS more strongly than acetylation near the center (H3K9ac, H3K14ac). The authors attribute these site-specific effects to differences in DNA thermal stability, hydrophobic effects, and charge distribution, as inferred from circular dichroism, salt and 1,6-hexanediol interaction assays, and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, simulation parameters, statistical analyses, raw data, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding site-specific effects of histone H3 acetylation on LLPS with DNA. The central claim, that acetylation position within a short peptide differentially modulates phase separation, is plausible and could be of interest to the chromatin and phase separation communities. However, the evidence base available for this review is limited to the abstract, which precludes verification of the experimental and computational support for the mechanistic conclusions. The mechanistic interpretation, particularly the role of "DNA thermal stability" and "hydrophobic effects," is stated without sufficient detail to assess its validity. The work may represent a useful contribution if the full manuscript provides rigorous controls and quantitative analyses, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying chromatin organization, histone post-translational modifications, and liquid-liquid phase separation. The work may also interest those investigating the molecular mechanisms of gene regulation and epigenetic control, as it links acetylation site identity to biophysical behavior of chromatin components.
+- **Major strengths** The study addresses a timely and relevant question in chromatin biology. The use of a minimal model system to isolate the effect of acetylation position is a reasonable approach. The combination of experimental assays and molecular dynamics simulations suggests a multi-pronged strategy to probe mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that differences in DNA thermal stability, hydrophobic effects, and charge distribution underlie the site-specific inhibitory effects of acetylation on LLPS.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The mechanistic conclusion is presented as established, but the abstract provides no quantitative data, no control experiments, and no details on how these three factors were independently assessed or disentangled. The relative contribution of each factor is not specified, and no statistical or error analysis is mentioned.
+  - **Why it matters** The central scientific contribution of the work appears to be the mechanistic explanation for site-specific effects. Without verifiable evidence for each proposed factor, the conclusion remains speculative and cannot be distinguished from alternative explanations, such as changes in peptide conformation or differential DNA binding affinity.
+  - **Resolution test** The full manuscript must provide quantitative measurements (e.g., binding affinities, melting temperatures, hydrophobicity indices) with appropriate controls and statistical analyses, and demonstrate that the proposed factors are necessary and sufficient to explain the observed differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors claim that acetylation near the peptide termini (H3K4ac and H3K18ac) results in stronger inhibition of LLPS compared to acetylation near the center (H3K9ac and H3K14ac).
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states this as a key finding, but no quantitative measure of LLPS inhibition is provided. It is unclear whether the differences are statistically significant, how LLPS was quantified, and whether the effect is robust across experimental replicates or conditions.
+  - **Why it matters** The site-specific ranking is the primary empirical observation of the study. If this ranking is not rigorously established, the entire mechanistic discussion lacks a solid foundation.
+  - **Resolution test** The full manuscript must include quantitative phase diagrams or turbidity measurements with error bars, statistical tests comparing the four acetylation variants, and demonstration of reproducibility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model relevance
+  - **Claim pointer** The authors state that their model system "mimics a part of the structure of chromatin" and that their findings link LLPS-mediated chromatin condensation to biological phenomena.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the length, sequence context, or post-translational modification status of the DNA used, nor the ionic conditions under which LLPS was observed. The relevance of a 20-residue peptide and a single DNA construct to native chromatin is not established. The extrapolation to biological phenomena is made without evidence that the observed effects occur in a cellular or nuclear context.
+  - **Why it matters** Overinterpretation of minimal in vitro systems can mislead the field. The claim of biological relevance requires either demonstration that the system recapitulates known chromatin behavior or explicit acknowledgment of the model's limitations.
+  - **Resolution test** The full manuscript must provide detailed experimental conditions, justify the choice of peptide and DNA sequences, and either include experiments in more complex systems or temper the claims of biological relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "DNA thermal stability" is ambiguous. It is unclear whether this refers to melting temperature of DNA alone, DNA in complex with peptides, or something else.
+  - **Required correction** Define the term explicitly and specify the measurement method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "interaction assays using salts and 1,6-hexanediol" but does not explain what these assays measure or how they inform the mechanistic conclusions.
+  - **Required correction** Provide a brief explanation of the rationale for these assays in the abstract or ensure the full manuscript clearly connects them to the proposed mechanisms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Simulation-experiment integration
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that molecular dynamics simulations "revealed" the underlying factors, but it is unclear whether the simulations were predictive or merely consistent with the experimental observations.
+  - **Required correction** Clarify whether the simulations were hypothesis-generating or confirmatory, and describe how simulation results were validated against experimental data.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative evidence to support the central claims of site-specific inhibition and the proposed mechanistic basis. The relevance of the model system to chromatin biology is asserted but not demonstrated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of site-specific PTM effects on LLPS is not entirely new, but the specific focus on acetylation position within a short H3 peptide may offer a fresh angle. The originality cannot be fully assessed from the abstract alone.
+  - Scientific importance: If the findings are robust and generalizable, they could inform understanding of how specific acetylation marks differentially regulate chromatin compaction. However, the abstract does not establish generality beyond the specific peptide and DNA used.
+  - Interdisciplinary readership: The topic bridges biophysics, chromatin biology, and epigenetics, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, though some terms require clarification.
+  - Technical soundness: Cannot be evaluated from the abstract. The lack of quantitative data and methodological detail prevents assessment of experimental rigor.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured, but the mechanistic statements are too vague to be informative to readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary observations, but the lack of quantitative data, methodological detail, and demonstration of biological relevance prevents a supportive recommendation. A decision would require full access to the manuscript, including figures, methods, and statistical analyses.
+
+## Risk / unsupported claims
+- The claim that acetylation near the peptide termini inhibits LLPS more strongly than central acetylation is unsupported without quantitative data.
+- The mechanistic attribution to DNA thermal stability, hydrophobic effects, and charge distribution is unsupported without independent measurements for each factor.
+- The claim that the findings "shed light on the mechanisms of gene regulation" is an extrapolation beyond the presented evidence.
+- The assertion that the model system "mimics a part of the structure of chromatin" is not verifiable from the abstract.

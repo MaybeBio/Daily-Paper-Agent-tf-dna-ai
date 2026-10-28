@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a CNN-based scoring function for protein–ligand binding affinity prediction, arguing that data-centric training strategies, specifically random rotation augmentation and a regularization technique, outperform architectural complexity. They claim improved generalization across diverse test conditions, including structurally disjoint splits, and performance matching or exceeding state-of-the-art methods, supported by ablation and interpretability experiments.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or experimental data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, dataset descriptions, model architecture specifications, hyperparameter settings, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and timely thesis that data-centric strategies can improve protein–ligand binding affinity prediction, which aligns with current trends in the field. However, the abstract lacks quantitative evidence, specific methodological details, and comparative benchmarks, making it impossible to evaluate the validity or significance of the claims. The core assertions about rotational sensitivity, regularization effects, and generalization are stated without supporting numbers or experimental context. While the direction is promising, the evidence base is insufficient to assess technical soundness or establish the case.
+- **Who would be interested in the results, and why** Computational chemists, medicinal chemists, and machine learning researchers working on drug discovery and scoring function development would be interested. The focus on data-centric training over architecture design could appeal to practitioners seeking practical improvements in binding affinity prediction, and the emphasis on interpretability may attract those concerned with model reliability in therapeutic contexts.
+- **Major strengths** The central premise is well-motivated and addresses a recognized problem in the field, namely the gap between architectural innovation and training strategy. The proposed focus on random rotation versus fixed rotations is a specific, testable hypothesis. The inclusion of interpretability experiments suggests an awareness of the need for mechanistic understanding, which strengthens the potential impact.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model "generalizes across diverse test conditions, including structurally disjoint splits, and matches or exceeds the performance of state-of-the-art methods."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative performance metrics, no comparison baselines, and no statistical significance tests to support the generalization and state-of-the-art claims. Without specific numbers, such as RMSE, Pearson correlation, or ranking metrics, the claim is unverifiable.
+  - **Why it matters** The central value proposition of the work rests on demonstrated performance improvements. Without quantitative evidence, readers cannot assess whether the proposed method is genuinely competitive or whether the claims are overstated.
+  - **Resolution test** Provide performance metrics on standard benchmarks, such as PDBbind or CASF, with explicit comparisons to at least three state-of-the-art methods, including error bars or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "We also introduce a simple regularization technique that reduces reliance on isolated protein or ligand features."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The regularization technique is not described, even at a conceptual level. It is unclear whether it is a loss function modification, a dropout variant, or a feature-level constraint. The abstract does not specify how it interacts with random rotation or how its effect is isolated in ablation studies.
+  - **Why it matters** Reproducibility is a core requirement for scientific contribution. Without a clear description of the method, the work cannot be replicated or built upon, undermining its utility to the community.
+  - **Resolution test** Describe the regularization technique in sufficient detail, including its mathematical formulation, implementation, and hyperparameter choices, in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability validation
+  - **Claim pointer** "Through systematic ablation studies and interpretability experiments, we provide insights into model behaviour, highlighting the importance of data-centric design."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims interpretability experiments but does not specify what these experiments are, what they reveal, or how they support the conclusion that data-centric design is important. The link between the experiments and the stated insight is not established.
+  - **Why it matters** Interpretability claims are often used to justify model reliability, but without concrete examples or validation, they remain rhetorical. The scientific value of the work depends on demonstrating that the model learns meaningful interaction patterns, not just asserting it.
+  - **Resolution test** Include specific interpretability results, such as attention maps, feature importance analyses, or interaction fingerprint visualizations, with a clear explanation of how they support the data-centric thesis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "meaningful interaction learning" is vague and not operationally defined. It is unclear what constitutes "meaningful" versus other types of learning.
+  - **Required correction** Define the term explicitly, for example, by specifying that it refers to learned features that correspond to known physical interaction motifs or that improve generalization to unseen binding modes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not situate the work relative to existing data-centric approaches in the field, such as other augmentation or regularization strategies for binding affinity prediction.
+  - **Required correction** Add a sentence in the abstract or introduction that contrasts the proposed approach with prior data-centric methods, highlighting the novelty.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No mention is made of data availability, code release, or benchmark protocols, which are essential for reproducibility.
+  - **Required correction** State in the abstract or manuscript whether code and data will be made publicly available, and specify the exact datasets and splits used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking. The absence of quantitative results, methodological detail, and interpretability evidence means the core claims cannot be evaluated. These must be resolved with concrete data and descriptions in the full manuscript.
+- **Assessment against Nature-style criteria** Originality: The focus on data-centric training is not entirely new, but the specific combination of random rotation and a novel regularization technique may offer a fresh angle, though this cannot be confirmed from the abstract. Scientific importance: Binding affinity prediction is a high-impact problem, and improvements in generalization would be significant, but the importance is not yet demonstrated. Interdisciplinary readership: The topic bridges machine learning and structural biology, which has broad appeal, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Not assessable due to missing evidence. Readability for nonspecialists: The abstract is concise but assumes familiarity with scoring functions and augmentation strategies, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the lack of quantitative and methodological detail prevents any assessment of validity. I would be supportive if the full manuscript provides the missing evidence and addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of matching or exceeding state-of-the-art performance is unsupported without quantitative comparisons.
+- The claim that random rotation mitigates rotational variance is unverifiable without experimental data.
+- The claim that the regularization technique reduces reliance on isolated features is unsupported without methodological detail.
+- The claim that interpretability experiments provide insights into model behavior is unverifiable without specific results.
+- The general assertion that data-centric design is important is not substantiated by the abstract alone.

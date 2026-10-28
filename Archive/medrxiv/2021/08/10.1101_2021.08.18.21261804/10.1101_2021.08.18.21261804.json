@@ -1,0 +1,374 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2021.08.18.21261804",
+  "title": "SARS-CoV-2 susceptibility and ACE2 gene variations within diverse ethnic backgrounds",
+  "doi": "10.1101/2021.08.18.21261804",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Background</h4> Host genetics play a major role in COVID-19 susceptibility and severity. Here, we analyse an ethnically diverse cohort of National Health Service (NHS) patients in the United Kingdom (UK) to assess the association between variants in the ACE2 locus and COVID-19 risk. <h4>Methods</h4> We analysed whole-genome sequencing (WGS) data of 6,274 participants who were tested for SARS-CoV-2 from the UK’s 100,000 Genomes Project (100KGP) for the presence of ACE2 coding variants and expression quantitative trait loci (eQTLs). <h4>Findings</h4> We identified a splice site variant (rs2285666) associated with increased ACE2 expression with an overrepresentation in SARS-CoV-2 positive patients relative to 100KGP controls (p = .015), and in hospitalised European patients relative to outpatients in intra-ethnic comparisons (p = .029). We also compared the prevalence of 288 eQTLs, of which 23 were enriched in SARS-CoV-2 positive patients. The eQTL rs12006793 had the largest effect size (d = 0.91), which decreases ACE2 expression and is more prevalent in controls, thus potentially reducing risk of COVID-19. We identified three novel nonsynonymous variants predicted to alter ACE2 function, and showed that three variants (p.K26R, p.H378R, p.Y515N) alter receptor affinity for the viral Spike (S) protein. Variants p.K26R and p.N720D are more prevalent in the European population (p < .001), but Y497H is less prevalent compared to East Asians (p = .020). <h4>Interpretation</h4> Our results demonstrate that the spectrum of genetic variants in ACE2 may inform risk stratification of COVID-19 patients and could partially explain the differences in disease susceptibility and severity among different ethnic groups. <h4>Funding</h4> The 100KGP is funded by the National Institute for Health Research and NHS England. Funding was also obtained from Stanford University, Palo Alto.",
+  "authors": [
+    "Vadgama N",
+    "Kreymerman A",
+    "Campbell J",
+    "Shamardina O",
+    "Brugger C",
+    "Lee RT",
+    "Penkett CJ",
+    "Gifford CA",
+    "Mercola M",
+    "Nasir J",
+    "Karakikes I"
+  ],
+  "published_date": "2021-08-25",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2021.08.18.21261804",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2021.08.18.21261804.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR387327",
+    "raw_record": {
+      "id": "PPR387327",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR387327"
+        ]
+      },
+      "doi": "10.1101/2021.08.18.21261804",
+      "title": "SARS-CoV-2 susceptibility and <i>ACE2</i> gene variations within diverse ethnic backgrounds",
+      "authorString": "Vadgama N, Kreymerman A, Campbell J, Shamardina O, Brugger C, Genomics England Research Consortium, Lee RT, Penkett CJ, Gifford CA, Mercola M, Nasir J, Karakikes I.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vadgama N",
+            "lastName": "Vadgama",
+            "firstName": "Nirmal",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6226-3867"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute and Department of Cardiothoracic Surgery, Stanford University, Palo Alto, CA, USA"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, Division of Cardiology, Stanford School of Medicine. Department of Genetics, Stanford School of Medicine. BASE Initiative, Betty Irene Moore Children’s Heart Center, Lucile Packard Children’s Hospital, Palo Alto, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kreymerman A",
+            "lastName": "Kreymerman",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6361-6804"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute and Department of Medicine, Stanford University, Palo Alto, CA, USA"
+                },
+                {
+                  "affiliation": "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Campbell J",
+            "lastName": "Campbell",
+            "firstName": "Jackie",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1456-7994"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Life Sciences, University of Northampton, Waterside Campus, University Drive, Northampton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shamardina O",
+            "lastName": "Shamardina",
+            "firstName": "Olga",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4994-2157"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "NIHR BioResource, University of Cambridge, Cambridge Biomedical Campus, Cambridge, CB2 OQQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brugger C",
+            "lastName": "Brugger",
+            "firstName": "Christiane",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2723-0570"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology, Cell Biology and Biochemistry, Brown University, Providence, RI, USA"
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "Genomics England Research Consortium",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomics England, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee RT",
+            "lastName": "Lee",
+            "firstName": "Richard",
+            "initials": "RT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Penkett CJ",
+            "lastName": "Penkett",
+            "firstName": "Christopher",
+            "initials": "CJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "NIHR BioResource, University of Cambridge, Cambridge Biomedical Campus, Cambridge, CB2 OQQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gifford CA",
+            "lastName": "Gifford",
+            "firstName": "Casey",
+            "initials": "CA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7757-573X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, Division of Cardiology, Stanford School of Medicine. Department of Genetics, Stanford School of Medicine. BASE Initiative, Betty Irene Moore Children’s Heart Center, Lucile Packard Children’s Hospital, Palo Alto, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mercola M",
+            "lastName": "Mercola",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6378-5616"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute and Department of Medicine, Stanford University, Palo Alto, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nasir J",
+            "lastName": "Nasir",
+            "firstName": "Jamal",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4348-600X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Life Sciences, University of Northampton, Waterside Campus, University Drive, Northampton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karakikes I",
+            "lastName": "Karakikes",
+            "firstName": "Ioannis",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute and Department of Cardiothoracic Surgery, Stanford University, Palo Alto, CA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6226-3867"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6361-6804"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6378-5616"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1456-7994"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4348-600X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7258-2279"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7757-573X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2723-0570"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4994-2157"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4> <h4>Background</h4> Host genetics play a major role in COVID-19 susceptibility and severity. Here, we analyse an ethnically diverse cohort of National Health Service (NHS) patients in the United Kingdom (UK) to assess the association between variants in the ACE2 locus and COVID-19 risk. <h4>Methods</h4> We analysed whole-genome sequencing (WGS) data of 6,274 participants who were tested for SARS-CoV-2 from the UK’s 100,000 Genomes Project (100KGP) for the presence of ACE2 coding variants and expression quantitative trait loci (eQTLs). <h4>Findings</h4> We identified a splice site variant (rs2285666) associated with increased ACE2 expression with an overrepresentation in SARS-CoV-2 positive patients relative to 100KGP controls (p = .015), and in hospitalised European patients relative to outpatients in intra-ethnic comparisons (p = .029). We also compared the prevalence of 288 eQTLs, of which 23 were enriched in SARS-CoV-2 positive patients. The eQTL rs12006793 had the largest effect size (d = 0.91), which decreases ACE2 expression and is more prevalent in controls, thus potentially reducing risk of COVID-19. We identified three novel nonsynonymous variants predicted to alter ACE2 function, and showed that three variants (p.K26R, p.H378R, p.Y515N) alter receptor affinity for the viral Spike (S) protein. Variants p.K26R and p.N720D are more prevalent in the European population (p < .001), but Y497H is less prevalent compared to East Asians (p = .020). <h4>Interpretation</h4> Our results demonstrate that the spectrum of genetic variants in ACE2 may inform risk stratification of COVID-19 patients and could partially explain the differences in disease susceptibility and severity among different ethnic groups. <h4>Funding</h4> The 100KGP is funded by the National Institute for Health Research and NHS England. Funding was also obtained from Stanford University, Palo Alto.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2021/08/25/2021.08.18.21261804.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.08.18.21261804"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR387327"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR387327&type=FILE&fileName=EMS134391-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35571054",
+            "reference": "Frontiers in genetics. 2022 ;13:888025",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS134391",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "ensembl",
+          "refsnp",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-09-07",
+      "firstPublicationDate": "2021-08-25",
+      "firstIndexDate": "2021-09-07",
+      "fullTextReceivedDate": "2021-10-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

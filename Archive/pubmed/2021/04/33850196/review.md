@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table legends.
+- **Assessment boundary** Scientific validity of the claims, experimental design, data interpretation, and technical soundness. Editorial quality and formatting are considered only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors propose that derivatives of vitamin D3 and lumisterol can act as ligands for liver X receptors (LXRα and LXRβ), based on in silico docking, molecular dynamics simulations, transcriptomic analyses, reporter assays, binding assays, and nuclear translocation experiments.
+- **Visible evidence base** RNA-seq and microarray data (GSE117351, GSE145818), qPCR, ChIP, luciferase reporter assays, TR-FRET binding assays, immunofluorescence and imaging flow cytometry, molecular docking, and MD simulations.
+- **Missing materials affecting confidence** Raw RNA-seq data not fully described in the text; details of statistical analysis for several experiments are incomplete; supplementary tables and figures referenced but not fully provided in the submitted material; no dose-response curves for all compounds in all assays; no negative control data for some binding assays.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting finding that vitamin D and lumisterol derivatives may act on LXRs, which could broaden the understanding of non-genomic actions of these secosteroids. However, the evidence provided is largely correlative and computational, with several experimental gaps that weaken the central claim. The functional relevance of LXR activation by these compounds is not convincingly demonstrated, and the physiological significance remains speculative. The manuscript would benefit from more rigorous validation, including direct binding assays with purified proteins, clearer dose-response relationships, and functional assays in LXR-knockout systems.
+- **Who would be interested in the results, and why** Researchers in vitamin D biology, nuclear receptor signaling, dermatology, and lipid metabolism may find these results of interest. The potential cross-talk between vitamin D/lumisterol pathways and LXR signaling could have implications for skin biology, inflammation, and metabolic regulation. The computational predictions may also interest those working on nuclear receptor ligand discovery.
+- **Major strengths**
+  - The study addresses a novel hypothesis that vitamin D and lumisterol derivatives may interact with LXRs, which is a relatively unexplored area.
+  - The combination of computational (docking, MD) and experimental (reporter, binding, translocation) approaches is commendable.
+  - The use of multiple cell types and assays (qPCR, ChIP, luciferase, TR-FRET, imaging) provides a broad dataset.
+  - The identification of differential effects between LXRα and LXRβ, including inverse agonism for some compounds, adds nuance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that "L3 and D3 derivatives can act on liver X receptors (LXRs)" based on binding and functional assays.
+  - **Evidence pointer** Figures 4 and 5, Table 1
+  - **Concern** The TR-FRET binding assays show only modest effects, with EC50/IC50 values in the micromolar range for most compounds. These values are considerably higher than those of known LXR ligands (e.g., oxysterols, which typically have nanomolar affinity). The authors do not provide a direct comparison with a positive control ligand in the same assay, making it difficult to assess the relative potency and specificity of the observed binding.
+  - **Why it matters** The physiological relevance of LXR activation by these compounds is questionable if the binding affinities are orders of magnitude weaker than endogenous ligands. Without a positive control, it is unclear whether the observed signals represent specific binding or assay artifacts.
+  - **Resolution test** The authors should include a known LXR agonist (e.g., GW3965 or T0901317) as a positive control in the TR-FRET assays and report the corresponding EC50/IC50 values. Additionally, they should perform competition binding assays with a labeled LXR ligand to demonstrate that the vitamin D/lumisterol derivatives displace the known ligand in a dose-dependent manner.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that these compounds "activated an LXR-response element (LXRE)-driven reporter" and "enhanced expression of LXR target genes."
+  - **Evidence pointer** Figures 3 and 4
+  - **Concern** The reporter assays show only modest induction (approximately 2- to 3-fold) at 10⁻⁷ M, which is relatively weak compared to known LXR agonists. Moreover, the qPCR data for LXR target genes (e.g., ABCA1, ABCG1) are presented for only a limited set of compounds, and the magnitude of induction is variable. The authors do not demonstrate that the observed effects are LXR-dependent, e.g., by using LXR antagonists or siRNA knockdown.
+  - **Why it matters** Without demonstrating LXR-dependence, the observed transcriptional changes could be mediated by other nuclear receptors (e.g., VDR, ROR) or off-target effects. This weakens the central claim that LXRs are the direct mediators of these effects.
+  - **Resolution test** The authors should perform reporter assays in cells treated with an LXR antagonist (e.g., SR9238) or in LXRα/β double-knockout cells to confirm that the observed transcriptional activation is LXR-dependent. Alternatively, they could use siRNA-mediated knockdown of LXRα/β and show that the effects are abolished.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors state that "molecular dynamics simulations... showed different but overlapping interactions with LXRs" and that these differences explain the observed functional differences.
+  - **Evidence pointer** Figures 7–9, Tables 3–4
+  - **Concern** The MD simulations are performed for only six selected compounds, and the correlation between the computational predictions (e.g., binding free energies) and the experimental binding data is not quantitatively assessed. The authors do not provide a clear metric (e.g., correlation coefficient) linking the MD-derived binding energies to the experimentally determined EC50/IC50 values.
+  - **Why it matters** Without a quantitative link between the computational and experimental data, the MD simulations serve primarily as descriptive support rather than a validated predictive model. This limits the strength of the conclusion that the observed functional differences are due to specific molecular interactions.
+  - **Resolution test** The authors should perform a correlation analysis between the MD-predicted binding free energies and the experimentally measured EC50/IC50 values for the six compounds. If a significant correlation is found, this would strengthen the claim that the simulations capture the key determinants of binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** The authors suggest that "identification of D3 and L3 derivatives as ligands for LXRs suggests a new mechanism of action for these compounds."
+  - **Evidence pointer** Concluding remarks
+  - **Concern** The physiological relevance of these findings is not addressed. The concentrations used in the assays (10⁻⁷ to 10⁻⁵ M) are likely supraphysiological, and the authors do not discuss whether such concentrations are achievable in vivo. Additionally, the tissue-specific expression of LXRs and the local concentrations of vitamin D/lumisterol derivatives in relevant tissues (e.g., skin) are not considered.
+  - **Why it matters** Without addressing physiological relevance, the translational significance of the findings remains unclear. The authors should discuss whether the observed effects are likely to occur at endogenous concentrations of these compounds.
+  - **Resolution test** The authors should include a discussion of the physiological concentrations of vitamin D and lumisterol derivatives in relevant tissues and compare these to the effective concentrations in their assays. They could also perform experiments at lower, more physiologically relevant concentrations to see if effects are still observed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "molecular docking... revealed high docking scores... predicting good binding to the receptor." This is somewhat circular, as docking scores are predictions, not experimental evidence.
+  - **Required correction** Rephrase to clarify that docking scores are in silico predictions that were subsequently tested experimentally.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The statistical analysis for the qPCR data in Figure 1E is not described. It is unclear whether the data were analyzed by one-way ANOVA or t-test, and whether multiple comparisons were corrected for.
+  - **Required correction** Provide a clear description of the statistical tests used for each panel in the figure legend, including correction for multiple comparisons where applicable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The methods for the luciferase reporter assay and the TR-FRET binding assay are described only briefly. Details such as the number of replicates, the concentration range tested, and the calculation of EC50/IC50 values are not fully provided.
+  - **Required correction** Expand the methods section to include full experimental details, including replicate numbers, concentration ranges, and curve-fitting procedures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5
+  - **Issue** The representative binding curves in Figure 5 are shown for only a few compounds. It would be helpful to show curves for all compounds tested, or at least for the key compounds discussed in the text.
+  - **Required correction** Include binding curves for all compounds in the supplementary material, or clearly indicate which compounds are shown in the main figure.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Concluding remarks
+  - **Issue** The authors speculate that "C1α(OH)-derivatives of D3 influence the protein surface to recruit a co-repressor peptide rather than co-activator peptide." This is presented without direct experimental evidence.
+  - **Required correction** Clearly label this as speculation and suggest future experiments (e.g., co-activator/co-repressor recruitment assays) to test this hypothesis.
+
+## Risk / unsupported claims
+- The claim that vitamin D and lumisterol derivatives are "ligands" for LXRs is not fully supported by the binding data, as the affinities are weak and no direct competition with known ligands is shown.
+- The claim that the compounds act as "inverse agonists" of LXRα is based on a single assay (TR-FRET) and is not corroborated by functional assays (e.g., repression of basal transcriptional activity).
+- The physiological relevance of the findings is not established, as the effective concentrations are likely supraphysiological.
+- The MD simulation results are presented as supportive but are not quantitatively validated against experimental data.
+- The statement that "LXR/RXR was the second nuclear receptor pathway" in the RNA-seq analysis is based on pathway ranking and may be influenced by the choice of statistical thresholds; this should be interpreted with caution.

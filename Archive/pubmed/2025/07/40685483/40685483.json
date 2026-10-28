@@ -1,0 +1,449 @@
+{
+  "identity": {
+    "pmid": "40685483",
+    "doi": "10.1038/s41598-025-12553-y",
+    "title": "Exploration of common pathogenic genes between cerebral amyloid angiopathy and insomnia based on bioinformatics and experimental validation."
+  },
+  "content": {
+    "abstract": "Cerebral amyloid angiopathy (CAA) and insomnia are age-related neurological disorders increasingly recognized as being closely associated. However, research on the shared genes and their biological mechanisms remains limited. This study aims to identify common genes between CAA and insomnia and explore their potential molecular mechanisms, offering new insights for diagnosis and treatment. Blood samples were collected from 11 CAA patients and 11 healthy controls, followed by RNA sequencing (RNA-seq). Additionally, the microarray dataset GSE208668 for the insomnia cohort was downloaded from the Gene Expression Omnibus (GEO) database. Differential expression analysis was performed to identify common differentially expressed genes (DEGs). Protein-protein interaction (PPI) networks and machine learning methods Random Forest (RF) and Extreme Gradient Boosting (XGBoost) were used to narrow down key genes. We explored the biological functions of these genes through immune cell infiltration, metabolic and Hallmark pathway analyses, and clinical correlation analysis. Co-expression networks, drug-mRNA networks, transcription factor (TF)-mRNA-miRNA networks, and competing endogenous RNA (ceRNA) networks were also constructed. Finally, hub gene expression patterns were analyzed using the Human Protein Atlas (HPA) database, and validation was performed in clinical samples and animal models using quantitative Reverse Transcription Polymerase Chain Reaction (qRT-PCR) and Western blot. Differential expression analysis identified 185 DEGs. PPI network construction and machine learning methods identified CBX5 and POLR1B as common hub genes for both insomnia and CAA. Immune infiltration, metabolic, and Hallmark pathway analyses revealed these hub genes play distinct roles in each disease. Various network models were constructed to explore their regulatory mechanisms. The reliability of the hub genes was validated using bioinformatics analyses and experimental approaches. This study, combining bioinformatics and experimental validation, identifies CBX5 and POLR1B as shared hub genes for CAA and insomnia. These findings offer new molecular targets for the diagnosis and treatment of both diseases, providing a foundation for future research.",
+    "keywords": [
+      "Bioinformatics",
+      "Cerebral amyloid angiopathy",
+      "Immune cell infiltration",
+      "Insomnia"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Computational Biology/methods",
+      "*Sleep Initiation and Maintenance Disorders/genetics",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps/genetics",
+      "*Cerebral Amyloid Angiopathy/genetics",
+      "Male",
+      "Female",
+      "Animals",
+      "Gene Expression Profiling",
+      "Machine Learning",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xin-Yu",
+        "Li, Kun",
+        "Wei, Yi-Han",
+        "Yu, Wen-Kai",
+        "Wu, Jing-Hao",
+        "Gao, Kai",
+        "He, Wen-Jun",
+        "Niu, Peng-Peng",
+        "Zhang, Chan",
+        "Cheng, Yu-Nan",
+        "Li, Yu-Sheng"
+      ],
+      "short_names": [
+        "Li XY",
+        "Li K",
+        "Wei YH",
+        "Yu WK",
+        "Wu JH",
+        "Gao K",
+        "He WJ",
+        "Niu PP",
+        "Zhang C",
+        "Cheng YN",
+        "Li YS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China.",
+        "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China. fccliyusheng@zzu.edu.cn.",
+        "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China. fccliyusheng@zzu.edu.cn.",
+        "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China. fccliyusheng@zzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xin-Yu",
+        "short_name": "Li XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kun",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yi-Han",
+        "short_name": "Wei YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Wen-Kai",
+        "short_name": "Yu WK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jing-Hao",
+        "short_name": "Wu JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Kai",
+        "short_name": "Gao K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "He, Wen-Jun",
+        "short_name": "He WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Peng-Peng",
+        "short_name": "Niu PP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chan",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yu-Nan",
+        "short_name": "Cheng YN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yu-Sheng",
+        "short_name": "Li YS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Zhengzhou University, No.1 Jianshe Dong Road, Zhengzhou, Henan, China. fccliyusheng@zzu.edu.cn.",
+          "Henan Engineering Research Center of Neural Function Detection and Regulation, Zhengzhou, Henan, China. fccliyusheng@zzu.edu.cn.",
+          "Henan Key Laboratory of Cerebrovascular Diseases,, Zhengzhou University,, Zhengzhou, Henan, China. fccliyusheng@zzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/21 00:30",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39779759",
+      "39603516",
+      "39417505",
+      "39411649",
+      "39368336",
+      "39029934",
+      "38965576",
+      "38881491",
+      "38801464",
+      "38554950",
+      "38510977",
+      "38179058",
+      "37833877",
+      "37638817",
+      "37444571",
+      "37236210",
+      "37099634",
+      "37095715",
+      "36866529",
+      "36831837",
+      "36728016",
+      "36652476",
+      "36382256",
+      "35953022",
+      "35841910",
+      "34850907",
+      "34557778",
+      "34458856",
+      "34297074",
+      "34187783",
+      "34180076",
+      "33683929",
+      "33397436",
+      "32485292",
+      "32063237",
+      "31989994",
+      "31897183",
+      "31844665",
+      "31603475",
+      "31441146",
+      "31114207",
+      "31061481",
+      "30952212",
+      "30765536",
+      "30661858",
+      "30476243",
+      "29912392",
+      "29336876",
+      "28539349",
+      "28346150",
+      "28334869",
+      "27764138",
+      "27605042",
+      "27501295",
+      "27114256",
+      "26889192",
+      "26771021",
+      "26609224",
+      "26487830",
+      "25990557",
+      "25895933",
+      "25605792",
+      "25588582",
+      "25521941",
+      "25364077",
+      "24587568",
+      "24297251",
+      "22789538",
+      "21804662",
+      "21414208",
+      "20385727",
+      "20010553",
+      "19939713",
+      "19298104",
+      "16459140",
+      "15635413",
+      "11918971",
+      "10802651",
+      "10592173",
+      "3987179"
+    ],
+    "similar": [
+      "40685483",
+      "39779759",
+      "40997906",
+      "38863714",
+      "41044520",
+      "39375405",
+      "41196851",
+      "38701256",
+      "39833072",
+      "40969769",
+      "39512836",
+      "38062833",
+      "40821971",
+      "40574839",
+      "40659785",
+      "35757392",
+      "40496861",
+      "41120603",
+      "38919616",
+      "40374866",
+      "39695788",
+      "41006883",
+      "38319987",
+      "39349110",
+      "40196107",
+      "39586719",
+      "40340571",
+      "40045538",
+      "31987036",
+      "41094572",
+      "39080525",
+      "41107929",
+      "34536521",
+      "40317362",
+      "41137290",
+      "40628511",
+      "38771826",
+      "38873611",
+      "40406126",
+      "41052072",
+      "40977739",
+      "37740761",
+      "40091022",
+      "39958336",
+      "40707643",
+      "40596265",
+      "39086489",
+      "39609718",
+      "39139563",
+      "40328901",
+      "39833772",
+      "35558576",
+      "40973872",
+      "41289970",
+      "36471356",
+      "39037979",
+      "39496786",
+      "38690269",
+      "40335993",
+      "38946402",
+      "41316541",
+      "35975032",
+      "33407587",
+      "28952134",
+      "39306912",
+      "33622336",
+      "39973855",
+      "39069636",
+      "40884580",
+      "37811327",
+      "40210656",
+      "36341343",
+      "39350059",
+      "40597456",
+      "38971817",
+      "39673621",
+      "39251231",
+      "38987624",
+      "38890348",
+      "41146237",
+      "39142001",
+      "39671358",
+      "38268224",
+      "39875572",
+      "41013727",
+      "36049413",
+      "38815767",
+      "40711603",
+      "39870856",
+      "34553293",
+      "36704339",
+      "41081092",
+      "40320470",
+      "39697326",
+      "41388523",
+      "41291978",
+      "39730451",
+      "41066424",
+      "37632659",
+      "41262249"
+    ],
+    "review": [
+      "40685483"
+    ],
+    "pmc": [
+      "12277429"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/insomnia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Insomnia"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-12553-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40685483/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

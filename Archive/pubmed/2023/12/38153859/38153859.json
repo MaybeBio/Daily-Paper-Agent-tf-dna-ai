@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "38153859",
+    "doi": "10.1002/jmri.29186",
+    "title": "Association of Pathological Features and Multiparametric MRI-Based Radiomics With TP53-Mutated Prostate Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: TP53 mutations are associated with prostate cancer (PCa) prognosis and therapy. PURPOSE: To develop TP53 mutation classification models for PCa using MRI radiomics and clinicopathological features. STUDY TYPE: Retrospective. POPULATION: 388 patients with PCa from two centers (Center 1: 281 patients; Center 2: 107 patients). Cases from Center 1 were randomly divided into training and internal validation sets (7:3). Cases from Center 2 were used for external validation. FIELD STRENGTH/SEQUENCE: 3.0T/T2-weighted imaging, dynamic contrast-enhanced imaging, diffusion-weighted imaging. ASSESSMENT: Each patient's index tumor lesion was manually delineated on the above MRI images. Five clinicopathological and 428 radiomics features were obtained from each lesion. Radiomics features were selected by least absolute shrinkage and selection operator and binary logistic regression (LR) analysis, while clinicopathological features were selected using Mann-Whitney U test. Radiomics models were constructed using LR, support vector machine (SVM), and random forest (RF) classifiers. Clinicopathological-radiomics combined models were constructed using the selected radiomics and clinicopathological features with the aforementioned classifiers. STATISTICAL TESTS: Mann-Whitney U test. Receiver operating characteristic (ROC) curve analysis and area under the curve (AUC). P value <0.05 indicates statistically significant. RESULTS: In the internal validation set, the radiomics model had an AUC of 0.74 with the RF classifier, which was significantly higher than LR (AUC = 0.61), but similar to SVM (AUC = 0.69; P = 0.422). For the combined model, the AUC of RF model was 0.84, which was significantly higher than LR (0.64), but similar to SVM (0.80; P = 0.548). Both the combined RF and combined SVM models showed significantly higher AUCs than the radiomics models. In the external validation set, the combined RF and combined SVM models showed AUCs of 0.83 and 0.82. DATA CONCLUSION: Pathological-radiomics combined models with RF, SVM show the association of TP53 mutations and pathological-radiomics features of PCa. EVIDENCE LEVEL: 3 TECHNICAL EFFICACY: Stage 2.",
+    "keywords": [
+      "TP53",
+      "multiparametric MRI",
+      "prostate cancer",
+      "radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Prostatic Neoplasms/diagnostic imaging/pathology/genetics",
+      "Retrospective Studies",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*Multiparametric Magnetic Resonance Imaging",
+      "Aged",
+      "Middle Aged",
+      "*Mutation",
+      "Support Vector Machine",
+      "Prostate/diagnostic imaging/pathology",
+      "Reproducibility of Results",
+      "Image Processing, Computer-Assisted/methods",
+      "ROC Curve",
+      "Magnetic Resonance Imaging/methods",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Ruchuan",
+        "Zhou, Bingni",
+        "Liu, Wei",
+        "Gan, Hualei",
+        "Liu, Xiaohang",
+        "Zhou, Liangping"
+      ],
+      "short_names": [
+        "Chen R",
+        "Zhou B",
+        "Liu W",
+        "Gan H",
+        "Liu X",
+        "Zhou L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9030-9746",
+        "ORCID: 0000-0003-0467-2341",
+        "ORCID: 0000-0001-7051-5868"
+      ],
+      "affiliations": [
+        "Shanghai Institute of Medical imaging, Shanghai, China.",
+        "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Pathology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+        "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Ruchuan",
+        "short_name": "Chen R",
+        "identifiers": [
+          "0000-0001-9030-9746"
+        ],
+        "affiliations": [
+          "Shanghai Institute of Medical imaging, Shanghai, China.",
+          "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bingni",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Gan, Hualei",
+        "short_name": "Gan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+          "Department of Pathology, Fudan University Shanghai Cancer Center, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaohang",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0000-0003-0467-2341"
+        ],
+        "affiliations": [
+          "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Liangping",
+        "short_name": "Zhou L",
+        "identifiers": [
+          "0000-0001-7051-5868"
+        ],
+        "affiliations": [
+          "Department of Radiology, Shanghai Cancer Center, Shanghai, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of magnetic resonance imaging : JMRI"
+    ],
+    "journal_abbrev": [
+      "J Magn Reson Imaging"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/28 18:42",
+    "fetched_at": "2026-10-04 23:31:46"
+  },
+  "links": {
+    "cites": [
+      "42440471",
+      "42283020",
+      "41667716",
+      "41607542",
+      "41467936",
+      "40596058"
+    ],
+    "refs": [],
+    "similar": [
+      "38153859",
+      "41076201",
+      "40596058",
+      "35771720",
+      "40910573",
+      "34075559",
+      "41518607",
+      "30230108",
+      "33970517",
+      "30701625",
+      "40091561",
+      "36426965",
+      "31062459",
+      "33970516",
+      "39354727",
+      "29394005",
+      "38088478",
+      "38508934",
+      "35024015",
+      "41499699",
+      "41188013",
+      "41398999",
+      "41289056",
+      "37933890",
+      "36190656",
+      "38970331",
+      "40273481",
+      "32222795",
+      "37926572",
+      "40460947",
+      "31776744",
+      "31808980",
+      "39413232",
+      "39639211",
+      "39631431",
+      "38363125",
+      "33979466",
+      "38517321",
+      "35366379",
+      "39604917",
+      "41322408",
+      "38326860",
+      "36282309",
+      "32181985",
+      "30430686",
+      "32061014",
+      "37198106",
+      "38952311",
+      "41953399",
+      "36259352",
+      "31747902",
+      "35657093",
+      "29573085",
+      "35040525",
+      "38456745",
+      "39912494",
+      "36896953",
+      "38006286",
+      "38742356",
+      "38887926",
+      "33638577",
+      "35852438",
+      "38580939",
+      "41272572",
+      "42180954",
+      "41083477",
+      "31828414",
+      "36440706",
+      "33682286",
+      "34549842",
+      "31942672",
+      "40831132",
+      "39172115",
+      "40188349",
+      "41740271",
+      "42109488",
+      "36541844",
+      "31016445",
+      "30773770",
+      "39370971",
+      "41537209",
+      "36727433",
+      "32371181",
+      "41163973",
+      "38181835",
+      "31321651",
+      "40976768",
+      "42178484",
+      "29437268",
+      "41826882",
+      "41233272",
+      "32112598",
+      "36656410",
+      "39753878",
+      "30980695",
+      "36300676",
+      "30171822",
+      "39843987",
+      "41186967",
+      "34604968"
+    ],
+    "review": [
+      "38153859"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38153859.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jmri.29186",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

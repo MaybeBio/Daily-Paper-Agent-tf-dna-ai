@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37217250",
+  "title": "Unsupervised contrastive peak caller for ATAC-seq.",
+  "authors": "Vu, Ha T H; Zhang, Yudi; Tuteja, Geetu; Dorman, Karin S",
+  "journal": "Genome research",
+  "published_date": "2023-05-23",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用无监督对比学习从ATAC-seq多重复中识别染色质开放区域（peak calling），虽涉及DNA可及性但非蛋白质-DNA互作建模，且无TF-DNA结合机制或AI/物理模拟方法聚焦，仅间接相关。",
+  "abstract": "The assay for transposase-accessible chromatin with sequencing (ATAC-seq) is a common assay to identify chromatin accessible regions by using a Tn5 transposase that can access, cut, and ligate adapters to DNA fragments for subsequent amplification and sequencing. These sequenced regions are quantified and tested for enrichment in a process referred to as \"peak calling.\" Most unsupervised peak calling methods are based on simple statistical models and suffer from elevated false positive rates. Newly developed supervised deep learning methods can be successful, but they rely on high quality labeled data for training, which can be difficult to obtain. Moreover, though biological replicates are recognized to be important, there are no established approaches for using replicates in the deep learning tools, and the approaches available for traditional methods either cannot be applied to ATAC-seq, where control samples may be unavailable, or are post hoc and do not capitalize on potentially complex, but reproducible signal in the read enrichment data. Here, we propose a novel peak caller that uses unsupervised contrastive learning to extract shared signals from multiple replicates. Raw coverage data are encoded to obtain low-dimensional embeddings and optimized to minimize a contrastive loss over biological replicates. These embeddings are passed to another contrastive loss for learning and predicting peaks and decoded to denoised data under an autoencoder loss. We compared our replicative contrastive learner (RCL) method with other existing methods on ATAC-seq data, using annotations from ChromHMM genomic labels and transcription factor ChIP-seq as noisy truth. RCL consistently achieved the best performance.",
+  "abstract_zh": "转座酶可及染色质测序分析（ATAC-seq）是一种常用方法，通过使用Tn5转座酶识别染色质可及区域，该酶能够进入、切割并将接头连接到DNA片段上，以供后续扩增和测序。这些测序区域被量化，并在称为“峰值调用”的过程中检测其富集情况。大多数无监督峰值调用方法基于简单统计模型，且存在较高的假阳性率。新开发的监督深度学习方法可能有效，但它们依赖高质量标记数据进行训练，而这些数据可能难以获得。此外，尽管生物重复被认为很重要，但在深度学习工具中尚无既定方法使用重复数据，而传统方法可用的方法要么无法应用于ATAC-seq（因为可能缺乏对照样本），要么是事后性的，无法利用读取富集数据中可能复杂但可重复的信号。在此，我们提出一种新颖的峰值调用器，使用无监督对比学习从多个重复中提取共享信号。原始覆盖度数据被编码以获得低维嵌入，并通过优化以最小化生物重复间的对比损失。这些嵌入被传递到另一个对比损失中，用于学习和预测峰值，并在自编码器损失下解码为去噪数据。我们将我们的重复对比学习器（RCL）方法与其他现有方法在ATAC-seq数据上进行比较，使用ChromHMM基因组标签和转录因子ChIP-seq的注释作为噪声真值。RCL始终实现了最佳性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37217250/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37217250/",
+  "paper_page_path": "papers/pubmed/37217250/index.html"
+}

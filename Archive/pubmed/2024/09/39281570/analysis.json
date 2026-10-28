@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39281570",
+  "title": "Functional exploration and drug prediction on programmed cell death-related biomarkers in lung adenocarcinoma.",
+  "authors": "Zhang, Xugang; Liu, Taorui; Hao, Ying; Guo, Huiqin; Li, Baozhong",
+  "journal": "Heliyon",
+  "published_date": "2024-09-17",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 2,
+  "one_liner_zh": "该文聚焦肺腺癌中程序性细胞死亡相关生物标志物的功能探索与药物预测，虽涉及转录因子调控网络和分子对接，但核心是临床诊断与免疫浸润分析，缺乏对蛋白质-DNA互作机制或TF-DNA结合建模的深入研究。",
+  "abstract": "BACKGROUND: Our study aims to perform functional exploration and drug prediction of programmed cell death (PCD)-related biomarkers in lung adenocarcinoma (LUAD). METHODS: UCSC-Xena obtained LUAD-related genes. DESeq2 screened PCD-specific differentially expressed genes (DEGs), and these DEGs were intersected with genes identified by weighted gene co-expression network analysis (WGCNA) to pinpoint the key genes. KOBAS-i was used for enrichment analysis. String and GeneMania were used to construct protein interaction networks and gene-gene interaction networks, respectively. Using two machine learning algorithms to screen for key genes, and taking the intersection as biomarkers, validating via receiver operating characteristic (ROC) and in vitro experiments. Building a diagnostic model with a nomogram. Construct transcription factor (TF) regulatory network. CIBERSORT was used for immune infiltration analysis. Enrichr predicts targeted drugs and AutodockTools simulates molecular docking. RESULTS: 120 hub genes related to PCD were identified, and an intersection of these genes with DEGs yielded 10 key genes, which were enriched in apoptosis-related pathways. Further machine learning screening of these genes led to the selection of 7 genes, among which 6 genes (FGR, LAPTM5, SIRPA, TLR4, ZEB2, and NLRC4) exhibited significant differences upon ROC validation, ultimately serving as biomarkers, in vitro experiments also confirmed. A nomogram demonstrated their excellent diagnostic performance. These six biomarkers are correlated with the infiltration status of most immune cells, suggesting that they affect LUAD through the immune system. TF regulation analysis identified the upstream miRNAs. Finally, drug prediction yielded three potential drugs: Lenvatinib, methadone, and trimethoprim. CONCLUSION: PCD-related biomarkers in LUAD were explored, which may contribute to further understanding on PCD in LUAD.",
+  "abstract_zh": "背景：本研究旨在对肺腺癌（LUAD）中程序性细胞死亡（PCD）相关生物标志物进行功能探索和药物预测。方法：通过UCSC-Xena获取LUAD相关基因。使用DESeq2筛选PCD特异性差异表达基因（DEGs），并将这些DEGs与加权基因共表达网络分析（WGCNA）鉴定的基因取交集，以确定关键基因。利用KOBAS-i进行富集分析。使用String和GeneMania分别构建蛋白质相互作用网络和基因-基因相互作用网络。采用两种机器学习算法筛选关键基因，并将其交集作为生物标志物，通过受试者工作特征曲线（ROC）和体外实验进行验证。构建列线图诊断模型。构建转录因子（TF）调控网络。使用CIBERSORT进行免疫浸润分析。Enrichr预测靶向药物，AutodockTools模拟分子对接。结果：鉴定出120个与PCD相关的中心基因，这些基因与DEGs的交集产生10个关键基因，这些基因富集于凋亡相关通路。进一步对这些基因进行机器学习筛选，选出7个基因，其中6个基因（FGR、LAPTM5、SIRPA、TLR4、ZEB2和NLRC4）在ROC验证中表现出显著差异，最终作为生物标志物，体外实验也证实了这一点。列线图展示了其优异的诊断性能。这六个生物标志物与大多数免疫细胞的浸润状态相关，表明它们通过免疫系统影响LUAD。TF调控分析鉴定了上游miRNAs。最后，药物预测得出三种潜在药物：乐伐替尼、美沙酮和甲氧苄啶。结论：探索了LUAD中PCD相关生物标志物，这可能有助于进一步理解PCD在LUAD中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39281570/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39281570/",
+  "paper_page_path": "papers/pubmed/39281570/index.html"
+}

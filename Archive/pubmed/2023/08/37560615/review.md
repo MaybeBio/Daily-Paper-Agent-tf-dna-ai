@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract and title only
+- **Assessment boundary** Claims and evidence presented in the abstract, title, and supplementary information notice
+- **Shared manuscript claim summary** The study reports that stress-responsive OsWRKY proteins bind, via the WRKYGQK heptapeptide residue, to promoter regions of the rice blast resistance genes Pi2 and Pi54, and that this binding is important for the development of blast resistance.
+- **Visible evidence base** Abstract text, title, author list, journal name, publication date, DOI, and supplementary information availability notice
+- **Missing materials affecting confidence** Full manuscript text, all figures, tables, experimental methods, statistical analyses, and supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding the molecular interaction between OsWRKY transcription factors and the promoters of two blast resistance genes in rice. However, the abstract provides insufficient experimental detail, quantitative results, or methodological context to evaluate the validity, robustness, or novelty of the claims. The central assertion that WRKYGQK-mediated binding is "important" for blast resistance development is not supported by any presented data. The work may be of interest to plant pathologists and molecular breeders, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers in plant-microbe interactions, rice pathology, and molecular plant breeding would be interested in the potential link between WRKY transcription factor binding and blast resistance gene regulation. The work could inform strategies for durable blast resistance engineering, but the abstract alone does not provide enough mechanistic insight to attract broad attention.
+- **Major strengths** The study addresses a relevant and timely topic in rice blast resistance. The focus on two well-known resistance genes, Pi2 and Pi54, and the involvement of stress-responsive WRKY proteins, suggests a plausible biological connection. The title clearly states the proposed mechanism.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that binding of OsWRKY proteins through the WRKYGQK heptapeptide residue to the promoter regions of Pi2 and Pi54 is important for the development of blast resistance.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no experimental data, such as binding assays, mutagenesis studies, expression analyses, or phenotypic resistance data, to support the claim that WRKYGQK-mediated binding is functionally important for blast resistance. No quantitative results, statistical measures, or control experiments are described.
+  - **Why it matters** The central conclusion of the study rests on a causal relationship between a specific protein-DNA interaction and a complex phenotypic outcome. Without direct evidence linking the binding event to resistance development, the claim remains speculative.
+  - **Resolution test** Provide data from experiments such as electrophoretic mobility shift assays, chromatin immunoprecipitation, promoter-reporter assays, or transgenic plant studies that demonstrate the functional requirement of the WRKYGQK residue for binding and for resistance phenotype.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract implies that specific OsWRKY proteins were identified and studied, but no names, numbers, or selection criteria are given.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which OsWRKY proteins were examined, how they were identified, or why they were selected. This lack of specificity prevents assessment of the breadth and relevance of the findings.
+  - **Why it matters** Without knowing the identity and number of OsWRKY proteins tested, the generalizability of the claim cannot be evaluated. The finding could be limited to one or two proteins or could represent a broader regulatory mechanism.
+  - **Resolution test** List the specific OsWRKY proteins studied, their accession numbers, and the rationale for their selection in the abstract or main text.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that binding occurs "through" the WRKYGQK heptapeptide residue, implying a mechanistic requirement.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No experimental evidence is presented to demonstrate that the WRKYGQK residue is necessary or sufficient for the observed binding. Mutational analysis or domain-swap experiments are not described.
+  - **Why it matters** The mechanistic claim is central to the title and the proposed importance of the interaction. Without direct evidence, the role of this specific residue remains unsubstantiated.
+  - **Resolution test** Include experiments where the WRKYGQK motif is mutated or deleted, showing loss or reduction of binding and a corresponding effect on resistance.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "is important for development of blast resistance" is vague and does not specify the nature of the importance, such as whether binding is required for gene activation, repression, or fine-tuning of resistance responses.
+  - **Required correction** Clarify the functional consequence of the binding, for example, whether it leads to transcriptional activation or repression of Pi2 and Pi54.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not provide any background on the known roles of OsWRKY proteins in rice immunity or the existing understanding of Pi2 and Pi54 regulation, making it difficult to assess novelty.
+  - **Required correction** Add one or two sentences in the abstract summarizing prior knowledge and the specific gap this study addresses.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract results
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No information is given on the experimental system, such as plant cultivars, pathogen isolates, or assay conditions, which limits interpretation.
+  - **Required correction** Include key experimental details, such as the rice cultivar used, the blast fungus strain, and the type of assays performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks any primary data, specific protein identities, and mechanistic evidence for the role of the WRKYGQK residue. These are essential to establish the central claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not provide enough context to judge whether the finding is novel or incremental. The involvement of WRKY proteins in plant immunity is well established, but the specific interaction with Pi2 and Pi54 promoters could be new. This is not assessable from the abstract alone.
+  - Scientific importance: The potential link between WRKY binding and blast resistance is of interest, but the abstract does not demonstrate a significant advance in understanding or application. The importance is plausible but not established.
+  - Interdisciplinary readership: The topic is relevant to plant pathology, molecular biology, and breeding, but the abstract is too narrow and lacks broader implications that would attract readers outside these fields.
+  - Technical soundness: Not assessable due to the absence of methods, data, and statistical analyses in the abstract.
+  - Readability for nonspecialists: The abstract is technically worded and assumes familiarity with WRKY proteins and rice blast resistance genes. It is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient data or methodological detail to support the central claims. A full manuscript with experimental evidence would be required to assess the validity and significance of the findings.
+
+## Risk / unsupported claims
+- The claim that WRKYGQK-mediated binding is important for blast resistance development is unsupported by any data in the abstract.
+- The identity and number of OsWRKY proteins studied are not provided, making the scope of the claim unassessable.
+- The mechanistic role of the WRKYGQK residue is asserted without experimental evidence.
+- Any statement regarding the novelty or significance of the findings cannot be evaluated from the abstract alone.

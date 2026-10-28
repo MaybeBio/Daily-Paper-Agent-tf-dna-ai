@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "41237543",
+    "doi": "10.1016/j.compbiolchem.2025.108784",
+    "title": "Deep learning and molecular dynamics reveal promising EZH2 inhibitors for epigenetic cancer targeting."
+  },
+  "content": {
+    "abstract": "Fine-tuned REINVENT generative model integrated with structure- and ligand-based computational approaches was applied to identify novel EZH2 inhibitors. The generated molecules closely reproduced the structural and physicochemical property distributions of ChEMBL compounds, confirming their relevance to drug-like chemical space. Classification performance was robust (ROC-AUC >/= 0.87 across training, test, and validation sets), enabling the prioritization of 511 PAINS-filtered compounds for structure-based screening. Molecular docking identified four lead compounds (161, 225, 234, and 383) with binding affinities (-5.616 to -6.403 kcal/mol) stronger than the reference inhibitor Tazemetostat (-4.481 kcal/mol). Hydrogen bonding analyses and MM/GBSA free energy estimates further supported the stability of these complexes. QSAR modeling (R(2) = 0.7233, Q(2) = 0.6901) and DFT-derived descriptors provided mechanistic insights into electronic structures, donor-acceptor characteristics, and chemical reactivity. Pharmacokinetic predictions indicated that compounds 234 and 225 possessed superior oral absorption, permeability, and reduced cardiotoxic liability compared with Tazemetostat, while all hits satisfied Lipinski's rule of five. Molecular dynamics simulations confirmed that ligand binding stabilized the protein structure, with compound 383 achieving the lowest RMSD (3.58 A) and RMSF (1.68 A), outperforming the reference drug. Overall, compounds 234, 225, and 383 emerged as the most promising scaffolds: compound 234 for oral bioavailability, compound 225 for high absorption and safety, and compound 383 for conformational stability. These findings highlight the power of combining deep generative modeling with computational drug design to accelerate EZH2 inhibitor discovery.",
+    "keywords": [
+      "DFT",
+      "EZH2",
+      "Generative AI",
+      "Molecular dynamics",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "*Enhancer of Zeste Homolog 2 Protein/antagonists & inhibitors/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Deep Learning",
+      "*Neoplasms/drug therapy/genetics/metabolism",
+      "*Antineoplastic Agents/chemistry/pharmacology",
+      "*Epigenesis, Genetic/drug effects",
+      "Molecular Structure",
+      "Molecular Docking Simulation",
+      "Quantitative Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Omoboyowa, Damilola A",
+        "Aribigbola, Temitope C",
+        "Aiyeku, Babasola",
+        "Bodun, Damilola S",
+        "Oyeneyin, Oluwatoba E"
+      ],
+      "short_names": [
+        "Omoboyowa DA",
+        "Aribigbola TC",
+        "Aiyeku B",
+        "Bodun DS",
+        "Oyeneyin OE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Adekunle Ajasin University, Akungba-Akoko, Ondo State, Nigeria. Electronic address: damilola.omoboyowa@aaua.edu.ng.",
+        "Department of Biochemistry, Adekunle Ajasin University, Akungba-Akoko, Ondo State, Nigeria.",
+        "University of Medical Sciences Teaching Hospital, Ondo, Ondo State, Nigeria.",
+        "Department of Biochemistry, Adekunle Ajasin University, Akungba-Akoko, Ondo State, Nigeria.",
+        "Department of Chemical and Physical Sciences, Faculty of Natural Sciences, Walter Sisulu University (WSU), Private Bag X01, Umthatha, Eastern Cape 4099, South Africa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Omoboyowa, Damilola A",
+        "short_name": "Omoboyowa DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Adekunle Ajasin University, Akungba-Akoko, Ondo State, Nigeria. Electronic address: damilola.omoboyowa@aaua.edu.ng."
+        ]
+      },
+      {
+        "full_name": "Aribigbola, Temitope C",
+        "short_name": "Aribigbola TC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Adekunle Ajasin University, Akungba-Akoko, Ondo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Aiyeku, Babasola",
+        "short_name": "Aiyeku B",
+        "identifiers": [],
+        "affiliations": [
+          "University of Medical Sciences Teaching Hospital, Ondo, Ondo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Bodun, Damilola S",
+        "short_name": "Bodun DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Adekunle Ajasin University, Akungba-Akoko, Ondo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Oyeneyin, Oluwatoba E",
+        "short_name": "Oyeneyin OE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Physical Sciences, Faculty of Natural Sciences, Walter Sisulu University (WSU), Private Bag X01, Umthatha, Eastern Cape 4099, South Africa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/15 00:29",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41237543",
+      "41720062",
+      "41739384",
+      "41497266",
+      "41506199",
+      "41780347",
+      "38507171",
+      "42118388",
+      "34577052",
+      "40239487",
+      "39969739",
+      "40726304",
+      "42043606",
+      "41524971",
+      "41505486",
+      "41504013",
+      "40815358",
+      "41240885",
+      "40117728",
+      "41251882",
+      "40101436",
+      "41442824",
+      "39817386",
+      "41065364",
+      "40200904",
+      "40252254",
+      "39368576",
+      "39527993",
+      "41970871",
+      "41192116",
+      "31554227",
+      "41253052",
+      "40120151",
+      "41775123",
+      "41186782",
+      "40998652",
+      "39318004",
+      "30052133",
+      "41880802",
+      "41111131",
+      "38964206",
+      "29182053",
+      "41187366",
+      "40593894",
+      "41722288",
+      "39560899",
+      "42185552",
+      "39571304",
+      "40013562",
+      "41045314",
+      "41544341",
+      "40806603",
+      "41461937",
+      "40126740",
+      "41337159",
+      "41940910",
+      "40945215",
+      "41761798",
+      "41791268",
+      "40436160",
+      "42198368",
+      "27668885",
+      "41704643",
+      "39613993",
+      "36892124",
+      "39786521",
+      "40106128",
+      "35487125",
+      "40675094",
+      "30324898",
+      "39013949",
+      "37811784",
+      "39535182",
+      "41621295",
+      "29945500",
+      "32472293",
+      "42068607",
+      "37424193",
+      "34156395",
+      "41504316",
+      "40126695",
+      "40939396",
+      "41822751",
+      "42011130",
+      "41373728",
+      "41880983",
+      "41092822",
+      "40649923",
+      "41084624",
+      "37695635",
+      "40782555",
+      "40085404",
+      "37338041",
+      "35807344",
+      "38063080",
+      "38385447",
+      "40944978",
+      "39532011",
+      "41736412",
+      "37715109"
+    ],
+    "review": [
+      "41237543",
+      "38964206"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00446-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

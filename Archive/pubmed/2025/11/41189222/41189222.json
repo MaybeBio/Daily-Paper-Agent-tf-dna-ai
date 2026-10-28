@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "41189222",
+    "doi": "10.1097/MD.0000000000044982",
+    "title": "Identification of biomarkers associated with SUMO modification in heart failure."
+  },
+  "content": {
+    "abstract": "Several studies have found that Small Ubiquitin-related Modifier (SUMO) exert therapeutic effects in heart failure (HF) by affecting different pathways, but the mechanisms of SUMO regulation in HF were unclear. The single sample gene set enrichment analysis (ssGSEA) and weighted gene co-expression network analysis (WGCNA) were utilized to explore SUMO modification score-related gene modules, which were crossed with differentially expressed genes (DEGs) in HF to obtain candidate genes. Next, the key genes associated with SUMOylation were identified by machine learning algorithms such as least absolute shrinkage and selection operator (LASSO) and SVM-RFE. In addition, receiver operating characteristic (ROC) curves and expression validation were used to further confirm the importance of key genes. Furthermore, biomarker-related functions and regulatory networks were explored. The Comparative Toxicogenomics Database (CTD) database was used to predict biomarker-related diseases and potential therapeutic agents. DEGs were intersected with SUMO modification-related genes score-related genes obtained from WGCNA (WGCNA-SUMO modification-related genes) to screen 83 candidate genes. Machine learning algorithms were further utilized to finally screen 8 key genes as potential HF biomarkers. ROC curve analysis and external validation confirmed that PSME4 and CYLD exhibited significantly differential expression between HF patients and healthy controls, demonstrating excellent predictive performance for disease diagnosis. Gene Set Enrichment Analysis (GSEA) analysis revealed that PSME4 and CYLD may be involved in biological processes such as the cell cycle and lysosomal function. Moreover, a lncRNA-miRNA-biomarker regulatory network and a transcription factors (TFs)-biomarker-miRNA regulatory network were constructed in HF. Disease prediction analysis showed that PSME4 and CYLD might be associated with other diseases, such as drug-induced liver injury. Subsequently, the results of drug prediction showed that CR845 might target CYLD in HF. PSME4 and CYLD were identified as SUMOylation-related biomarkers in HF, offering novel mechanism insights into the pathological underpinnings of HF.",
+    "keywords": [
+      "SUMOylation",
+      "heart failure",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Heart Failure/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "*Sumoylation/genetics",
+      "*Small Ubiquitin-Related Modifier Proteins/metabolism/genetics",
+      "ROC Curve",
+      "Gene Regulatory Networks",
+      "Machine Learning",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Zhe",
+        "Zhao, Jin",
+        "Xiao, Na",
+        "Zhang, Fu'e",
+        "Zhao, Shujian",
+        "Yin, Hongshan"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Zhao J",
+        "Xiao N",
+        "Zhang F",
+        "Zhao S",
+        "Yin H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1427-8770"
+      ],
+      "affiliations": [
+        "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China.",
+        "Department of Clinical Pharmacy, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China.",
+        "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China.",
+        "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China.",
+        "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China.",
+        "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Zhe",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0000-0002-1427-8770"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jin",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Na",
+        "short_name": "Xiao N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fu'e",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shujian",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Yin, Hongshan",
+        "short_name": "Yin H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, Shijiazhuang, Hebei Province, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Oct 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/05 06:29",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40351394",
+      "39987748",
+      "39735991",
+      "39596076",
+      "39544432",
+      "39499247",
+      "39276862",
+      "39273537",
+      "39222870",
+      "38983344",
+      "38948204",
+      "38816371",
+      "38744811",
+      "38743498",
+      "38710919",
+      "38683371",
+      "38336121",
+      "38081847",
+      "37961903",
+      "37456892",
+      "37387450",
+      "37386838",
+      "37358143",
+      "37351883",
+      "36780109",
+      "36359791",
+      "36345681",
+      "36300005",
+      "36015285",
+      "35813728",
+      "35543970",
+      "35378257",
+      "35344764",
+      "35300523",
+      "35269436",
+      "35150240",
+      "35115815",
+      "35074907",
+      "35061545",
+      "34980170",
+      "34947961",
+      "34879895",
+      "34859816",
+      "34852633",
+      "34605806",
+      "34373768",
+      "34321385",
+      "33937956",
+      "33687053",
+      "33270361",
+      "33183120",
+      "32916037",
+      "32883697",
+      "32777030",
+      "32553594",
+      "32306956",
+      "32041418"
+    ],
+    "similar": [
+      "41189222",
+      "39351239",
+      "40617086",
+      "42009747",
+      "40379803",
+      "42715252",
+      "41432483",
+      "40405297",
+      "40406620",
+      "34218797",
+      "41052072",
+      "40901831",
+      "40374840",
+      "37008314",
+      "40274894",
+      "41291841",
+      "39351221",
+      "40630963",
+      "35128826",
+      "39142001",
+      "38656659",
+      "40781725",
+      "36532015",
+      "42441434",
+      "42642681",
+      "42327749",
+      "40754871",
+      "41006883",
+      "42650150",
+      "41029776",
+      "41388523",
+      "42225708",
+      "41472876",
+      "37275875",
+      "42292668",
+      "41789108",
+      "38236461",
+      "39735547",
+      "39556279",
+      "38951833",
+      "41200172",
+      "41816328",
+      "41117218",
+      "38767974",
+      "40273141",
+      "41013556",
+      "41927755",
+      "41214111",
+      "36034449",
+      "42706545",
+      "37143707",
+      "39923303",
+      "40830558",
+      "40328901",
+      "39559355",
+      "41102315",
+      "40169651",
+      "36968495",
+      "38987624",
+      "40312440",
+      "35709926",
+      "39394418",
+      "39062507",
+      "40596265",
+      "40901835",
+      "40421012",
+      "40149456",
+      "39341981",
+      "41627661",
+      "39934690",
+      "42537010",
+      "39396400",
+      "42398170",
+      "38509983",
+      "39507054",
+      "41300841",
+      "41988156",
+      "41716396",
+      "41184495",
+      "38650009",
+      "36148059",
+      "40360670",
+      "41393260",
+      "39139563",
+      "38476236",
+      "40603487",
+      "40849369",
+      "38863714",
+      "40598243",
+      "42461218",
+      "40097519",
+      "41479901",
+      "42698445",
+      "42123756",
+      "40997906",
+      "40406126",
+      "42326009",
+      "39331874",
+      "41422136",
+      "35764238"
+    ],
+    "review": [
+      "41189222"
+    ],
+    "pmc": [
+      "12537179"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=104&issue=42&spage=e44982&aulast=Chen",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://www.ovid.com/41189222.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41189222/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000044982",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

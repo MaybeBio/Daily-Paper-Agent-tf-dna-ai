@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34932484",
+  "title": "iDRBP-EL: Identifying DNA- and RNA- Binding Proteins Based on Hierarchical Ensemble Learning.",
+  "authors": "Wang, Ning; Zhang, Jun; Liu, Bin",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2021-12-22",
+  "window": {
+    "start": "2021-12-20",
+    "end": "2021-12-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用分层集成学习从序列预测DNA/RNA结合蛋白，属广义蛋白-核酸互作识别，但无三维结构或结合位点建模，方法可迁移至TF-DNA预测。",
+  "abstract": "Identification of DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs) from the primary sequences is essential for further exploring protein-nucleic acid interactions. Previous studies have shown that machine-learning-based methods can efficiently identify DBPs or RBPs. However, the information used in these methods is slightly unitary, and most of them only can predict DBPs or RBPs. In this study, we proposed a computational predictor iDRBP-EL to identify DNA- and RNA- binding proteins, and introduced hierarchical ensemble learning to integrate three level information. The method can integrate the information of different features, machine learning algorithms and data into one multi-label model. The ablation experiment showed that the fusion of different information can improve the prediction performance and overcome the cross-prediction problem. Experimental results on the independent datasets showed that iDRBP-EL outperformed all the other competing methods. Moreover, we established a user-friendly webserver iDRBP-EL (http://bliulab.net/iDRBP-EL), which can predict both DBPs and RBPs only based on protein sequences.",
+  "abstract_zh": "从一级序列中识别DNA结合蛋白（DBPs）和RNA结合蛋白（RBPs）对于进一步探索蛋白质-核酸相互作用至关重要。先前的研究表明，基于机器学习的方法能够高效识别DBPs或RBPs。然而，这些方法所使用的信息略显单一，且大多数仅能预测DBPs或RBPs。在本研究中，我们提出了一种计算预测器iDRBP-EL，用于识别DNA和RNA结合蛋白，并引入了层次集成学习以整合三个层面的信息。该方法能够将不同特征、机器学习算法和数据的信息整合到一个多标签模型中。消融实验表明，不同信息的融合能够提升预测性能，并克服交叉预测问题。在独立数据集上的实验结果显示，iDRBP-EL优于所有其他竞争方法。此外，我们建立了一个用户友好的网络服务器iDRBP-EL（http://bliulab.net/iDRBP-EL），该服务器仅基于蛋白质序列即可预测DBPs和RBPs。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34932484/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34932484/",
+  "paper_page_path": "papers/pubmed/34932484/index.html"
+}

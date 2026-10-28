@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided on bioRxiv
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text. No supplementary files, figures, or tables were available for inspection beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors present STRUMP-I, a structure-based machine learning method for pMHC-I binding prediction that uses force field energy terms as features. They claim performance comparable to state-of-the-art sequence-based methods, superior generalization to underrepresented MHC alleles, and utility as a post-prediction filter to improve precision in neoantigen identification pipelines.
+- **Visible evidence base** Text descriptions of results (Figs 1-3, Tables S1-S12, Supplemental File 1), methodological descriptions, and dataset statistics. No actual figures, tables, or supplementary data were provided in the submitted material.
+- **Missing materials affecting confidence** All figures, tables, supplementary files, and the actual numerical results. The Results section is present only as section headings with descriptive text, not as full results with data. The VACINUS dataset is described but not provided. Code repository is referenced but not reviewed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in computational immunology, namely improving pMHC-I binding prediction for underrepresented alleles. The core idea of using multiple force field energy terms as machine learning features rather than relying on a single global energy minimum is conceptually sound and potentially valuable. However, the provided material is insufficient to evaluate the strength of the claims. The Results section is presented as narrative summaries without actual data, figures, or tables. Critical details about dataset construction, model training, and evaluation are either missing or only partially described. The claim of superior generalization to underrepresented alleles is plausible but not adequately supported by the evidence presented in the text alone. The integration strategy with sequence-based methods is a useful practical contribution, but again, the quantitative support is not visible in the supplied material.
+- **Who would be interested in the results, and why** Computational immunologists, cancer immunotherapy researchers, and bioinformaticians developing neoantigen prediction pipelines would be the primary audience. The method addresses a known limitation of sequence-based predictors, namely poor performance on rare MHC alleles, which is directly relevant to personalized cancer vaccine design and neoantigen targeting in diverse patient populations. The demonstrated integration with existing tools to improve precision would interest practitioners building clinical decision support systems.
+- **Major strengths** The conceptual approach of using a broad set of force field energy terms as features is a meaningful departure from both purely sequence-based methods and traditional structure-based methods that rely on a single energy minimum. The authors correctly identify the promiscuity of pMHC binding as a limitation of the minimum energy assumption. The practical framing of STRUMP-I as a post-prediction filter is sensible and addresses computational cost concerns. The use of multiple independent datasets, including a clinically derived neoantigen set, is a strength in principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that STRUMP-I achieves performance comparable to state-of-the-art sequence-based methods and outperforms them on underrepresented alleles.
+  - **Evidence pointer** Results section, Figs 2a-e, Tables S2-S6
+  - **Concern** The Results section is presented as narrative text without any actual numerical results, figures, or tables visible in the supplied material. The claims of comparable performance and superior generalization cannot be verified from the text alone. The specific metrics (PRAUC, MCC) are mentioned for some comparisons, but the full set of results across all datasets and methods is not available for inspection.
+  - **Why it matters** The central claims of the manuscript rest entirely on these comparative performance results. Without access to the actual data, figures, and tables, it is impossible to assess whether the stated conclusions are supported. The claim of superior generalization to underrepresented alleles is particularly important and requires careful examination of the per-allele performance breakdown, which is not visible.
+  - **Resolution test** Provide the full set of figures and tables with numerical results, including per-allele performance breakdowns, confidence intervals, and statistical significance tests for the comparisons with sequence-based methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript describes the STRUMP-I pipeline as using homology modeling, force field energy features, and a gradient boosting machine classifier.
+  - **Evidence pointer** Methods section, STRUMP-I pipeline subsection
+  - **Concern** The methodological description is incomplete in several critical aspects. The template selection process is described, but the criteria for choosing among multiple templates with similar scores are not specified. The FoldX BuildModel procedure for introducing mutations is mentioned but the details of how peptide and MHC mutations are handled, including the handling of gaps or insertions, are not described. The feature set is listed in Table S1, but the table is not provided. The training procedure mentions hyperparameter tuning with Optuna for 10,000 rounds, but the search space, early stopping criteria, and final hyperparameter values are not described in the text.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. The lack of detail on template selection, mutation modeling, feature engineering, and hyperparameter optimization prevents independent implementation and validation of the method. The claim that the method is less data-dependent than sequence-based approaches needs to be supported by a clear description of how the method avoids overfitting to training data.
+  - **Resolution test** Provide a complete description of the pipeline, including all feature definitions, template selection criteria, mutation modeling procedures, hyperparameter search spaces, and final model parameters. Make the code and trained models fully accessible and documented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset and evaluation rigor
+  - **Claim pointer** The manuscript describes the construction of training, validation, and test sets from IEDB and HLAthena data, and the use of TESLA, PRIME, and VACINUS datasets for benchmarking.
+  - **Evidence pointer** Methods section, Datasets used subsection; Results section, Benchmarking subsections
+  - **Concern** The dataset construction and evaluation procedures raise several concerns. The filtering of IEDB data follows a published strategy, but the details of how the final set of 115,644 pairs was obtained are not fully described. The merging with HLAthena eluted ligand data, where all peptides are considered binders, introduces a potential bias since there are no negative examples from this source. The split into train/validation/test sets is described as 8:1:1, but the stratification by allele is not mentioned, which is critical for evaluating generalization to underrepresented alleles. The VACINUS dataset is described as having 120 pairs with 101 binders and 19 non-binders in the Discussion, but the Results section mentions 129 candidates, and the discrepancy is not explained.
+  - **Why it matters** The evaluation of generalization to underrepresented alleles depends critically on how the data is split and whether the test set contains alleles with varying levels of representation. The potential bias from the eluted ligand data, where all peptides are treated as binders, could affect the training and evaluation. The inconsistency in the VACINUS dataset numbers raises questions about data handling.
+  - **Resolution test** Provide a detailed description of the dataset construction, including the exact filtering steps, the distribution of alleles and peptide lengths, the stratification strategy for the train/validation/test split, and a reconciliation of the VACINUS dataset numbers. Report performance metrics separately for alleles with different levels of representation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The manuscript compares STRUMP-I against NetMHCpan, MHCflurry, HLAthena, and AF-FT using various scoring criteria.
+  - **Evidence pointer** Results section, Model performance comparison subsection
+  - **Concern** The comparison methodology is not fully described. For NetMHCpan and MHCflurry, both the recommended score cutoffs and predicted affinity values are used, but the details of how these are applied are not specified. For HLAthena, the MSi score is used with a cutoff of 0.5, but the rationale for this choice is not given. The AF-FT comparison uses a logistic regression on PAE scores, but the training of this classifier is not described. The potential for bias in the comparison, such as differences in training data or hyperparameter optimization, is not addressed.
+  - **Why it matters** Fair and transparent comparisons are essential for establishing the relative performance of a new method. Without a clear description of how each baseline method was configured and evaluated, the claimed comparability or superiority of STRUMP-I cannot be assessed.
+  - **Resolution test** Provide a detailed description of how each baseline method was configured, including the exact versions, scoring criteria, and any additional processing steps. Report results using consistent evaluation protocols across all methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "STRUMP-I (STRUcture-based pMHC Prediction (for class I))" contains nested parentheses that are awkward and potentially confusing.
+  - **Required correction** Rephrase to something like "STRUMP-I (STRUcture-based pMHC Prediction for class I)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section, VACINUS dataset description
+  - **Evidence pointer** Results section, Prediction of unseen neoantigen candidate peptides; Discussion section
+  - **Issue** The Results section states 129 neoantigen candidates, while the Discussion states 120 pairs with 101 binders and 19 non-binders. The discrepancy is not explained.
+  - **Required correction** Reconcile the numbers and provide a clear explanation of the relationship between the 129 candidates and the 120 pairs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Typographical
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The word "Nealy" appears to be a typo for "Nearly".
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, Model performance comparison
+  - **Evidence pointer** Methods section, Model performance comparison subsection
+  - **Issue** The phrase "using the same cutoff of an affinity <= 500nM as for the experimental exalts" contains a typo ("exalts" should be "results") and is unclear.
+  - **Required correction** Correct the typo and clarify the sentence.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section, STRUMP-I pipeline
+  - **Evidence pointer** Methods section, STRUMP-I pipeline subsection
+  - **Issue** The description of the machine learning model training mentions hyperparameter tuning with Optuna but does not specify the number of features, the feature selection process, or the handling of missing values.
+  - **Required correction** Provide additional details on the feature set, feature selection, and data preprocessing steps.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract, last sentence; Footnotes
+  - **Issue** The code repository is mentioned but no license or documentation details are provided.
+  - **Required correction** Specify the license and provide basic usage documentation for the repository.
+
+## Risk / unsupported claims
+- The claim that STRUMP-I outperforms sequence-based methods on underrepresented alleles is not verifiable from the supplied text, as the relevant per-allele results are not visible.
+- The claim that STRUMP-I maintains high precision across the full range of positive ratios is not supported by visible data.
+- The claim that integration with sequence-based methods improves precision is plausible but not quantitatively supported in the provided material.
+- The VACINUS dataset results, including the number of candidates and the performance metrics, are inconsistent between the Results and Discussion sections and cannot be evaluated.
+- The statement that STRUMP-I is "less data-dependent" than sequence-based methods is a conceptual claim that requires more rigorous support than the narrative description provides.
+- The comparison with AF-FT is described, but the details of the AF-FT configuration and the logistic regression classifier used for evaluation are not provided, making the comparison unverifiable.

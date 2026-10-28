@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "40057514",
+    "doi": "10.1038/s41467-025-57593-0",
+    "title": "Molecular model of TFIIH recruitment to the transcription-coupled repair machinery."
+  },
+  "content": {
+    "abstract": "Transcription-coupled repair (TCR) is a vital nucleotide excision repair sub-pathway that removes DNA lesions from actively transcribed DNA strands. Binding of CSB to lesion-stalled RNA Polymerase II (Pol II) initiates TCR by triggering the recruitment of downstream repair factors. Yet it remains unknown how transcription factor IIH (TFIIH) is recruited to the intact TCR complex. Combining existing structural data with AlphaFold predictions, we build an integrative model of the initial TFIIH-bound TCR complex. We show how TFIIH can be first recruited in an open repair-inhibited conformation, which requires subsequent CAK module removal and conformational closure to process damaged DNA. In our model, CSB, CSA, UVSSA, elongation factor 1 (ELOF1), and specific Pol II and UVSSA-bound ubiquitin moieties come together to provide interaction interfaces needed for TFIIH recruitment. STK19 acts as a linchpin of the assembly, orienting the incoming TFIIH and bridging Pol II to core TCR factors and DNA. Molecular simulations of the TCR-associated CRL4(CSA) ubiquitin ligase complex unveil the interplay of segmental DDB1 flexibility, continuous Cullin4A flexibility, and the key role of ELOF1 for Pol II ubiquitination that enables TCR. Collectively, these findings elucidate the coordinated assembly of repair proteins in early TCR.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factor TFIIH/metabolism/chemistry/genetics",
+      "*DNA Repair",
+      "Humans",
+      "RNA Polymerase II/metabolism",
+      "DNA Helicases/metabolism/genetics",
+      "DNA Repair Enzymes/metabolism/genetics",
+      "Poly-ADP-Ribose Binding Proteins/metabolism/genetics",
+      "*Transcription, Genetic",
+      "Models, Molecular",
+      "DNA Damage",
+      "Protein Binding",
+      "DNA-Binding Proteins/metabolism",
+      "DNA/metabolism",
+      "Excision Repair",
+      "Carrier Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Paul, Tanmoy",
+        "Yan, Chunli",
+        "Yu, Jina",
+        "Tsutakawa, Susan E",
+        "Tainer, John A",
+        "Wang, Dong",
+        "Ivanov, Ivaylo"
+      ],
+      "short_names": [
+        "Paul T",
+        "Yan C",
+        "Yu J",
+        "Tsutakawa SE",
+        "Tainer JA",
+        "Wang D",
+        "Ivanov I"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5742-120X",
+        "ORCID: 0000-0002-4918-4571",
+        "ORCID: 0000-0003-1659-2429",
+        "ORCID: 0000-0002-2829-1546",
+        "ORCID: 0000-0002-5306-1005"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA.",
+        "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Department of Molecular and Cellular Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Division of Pharmaceutical Sciences, Skaggs School of Pharmacy & Pharmaceutical Sciences, University of California, CA, San Diego, USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA. iivanov@gsu.edu.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA. iivanov@gsu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Paul, Tanmoy",
+        "short_name": "Paul T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Chunli",
+        "short_name": "Yan C",
+        "identifiers": [
+          "0000-0001-5742-120X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Jina",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Tsutakawa, Susan E",
+        "short_name": "Tsutakawa SE",
+        "identifiers": [
+          "0000-0002-4918-4571"
+        ],
+        "affiliations": [
+          "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tainer, John A",
+        "short_name": "Tainer JA",
+        "identifiers": [
+          "0000-0003-1659-2429"
+        ],
+        "affiliations": [
+          "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+          "Department of Molecular and Cellular Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Dong",
+        "short_name": "Wang D",
+        "identifiers": [
+          "0000-0002-2829-1546"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Sciences, Skaggs School of Pharmacy & Pharmaceutical Sciences, University of California, CA, San Diego, USA."
+        ]
+      },
+      {
+        "full_name": "Ivanov, Ivaylo",
+        "short_name": "Ivanov I",
+        "identifiers": [
+          "0000-0002-5306-1005"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA. iivanov@gsu.edu.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA. iivanov@gsu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Mar 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/09 15:11",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "42703445",
+      "42653251",
+      "41897370",
+      "41662332",
+      "40894167",
+      "40818110",
+      "40764391",
+      "40723898"
+    ],
+    "refs": [
+      "39547229",
+      "39547228",
+      "39547223",
+      "39353945",
+      "39353615",
+      "38718835",
+      "38316879",
+      "38252411",
+      "37179334",
+      "37076618",
+      "37040775",
+      "36477609",
+      "36378961",
+      "35637307",
+      "34853308",
+      "34526721",
+      "34265844",
+      "34108663",
+      "34099686",
+      "33685798",
+      "33097731",
+      "33007515",
+      "32531245",
+      "32522879",
+      "32453336",
+      "32355176",
+      "32142649",
+      "32111838",
+      "31722399",
+      "31558824",
+      "31253769",
+      "31110295",
+      "30753618",
+      "30174298",
+      "29967540",
+      "29699641",
+      "29664212",
+      "29168508",
+      "29088706",
+      "29069470",
+      "28902838",
+      "27994662",
+      "27300587",
+      "27294439",
+      "27193682",
+      "27184836",
+      "26715749",
+      "26583988",
+      "26574453",
+      "26488642",
+      "26384665",
+      "26340423",
+      "26278177",
+      "24954209",
+      "24086042",
+      "23178454",
+      "22982572",
+      "22572993",
+      "22482907",
+      "22466612",
+      "22466611",
+      "22466610",
+      "22118460",
+      "21592868",
+      "21571596",
+      "20541997",
+      "20148191",
+      "19279666",
+      "19023283",
+      "18510924",
+      "18079701",
+      "17684092",
+      "17290000",
+      "16751180",
+      "16246722",
+      "16200636",
+      "16064137",
+      "15949443",
+      "15264254",
+      "14639525",
+      "12509286",
+      "12060727",
+      "10767341",
+      "10673506",
+      "9443879",
+      "9034344",
+      "8831289",
+      "8465201",
+      "8290349",
+      "8254673",
+      "8090225",
+      "7657672",
+      "3041007",
+      "1308368"
+    ],
+    "similar": [
+      "40057514",
+      "39547223",
+      "32355176",
+      "39353615",
+      "34526721",
+      "39547229",
+      "39547228",
+      "30715484",
+      "34108663",
+      "39021334",
+      "38600236",
+      "23083890",
+      "29069470",
+      "31722399",
+      "21571596",
+      "38843184",
+      "39091863",
+      "39043658",
+      "29225035",
+      "38316879",
+      "9774388",
+      "32142649",
+      "38600235",
+      "29955842",
+      "39383571",
+      "33637760",
+      "16246722",
+      "33007515",
+      "34853308",
+      "20541997",
+      "34108662",
+      "20042611",
+      "39091731",
+      "10786832",
+      "17242193",
+      "24127601",
+      "16407975",
+      "34652274",
+      "22466610",
+      "8692841",
+      "9372911",
+      "22466612",
+      "28292928",
+      "32989164",
+      "37545038",
+      "31775559",
+      "34116057",
+      "30860024",
+      "30266807",
+      "39154022",
+      "33381997",
+      "8652557",
+      "22466611",
+      "33464383",
+      "30602496",
+      "33991872",
+      "29168508",
+      "23571135",
+      "37179334",
+      "39617652",
+      "33685798",
+      "21592869",
+      "27696486",
+      "8999876",
+      "31600675",
+      "16427011",
+      "12419226",
+      "7926747",
+      "18927284",
+      "33453189",
+      "9312053",
+      "34581821",
+      "30174301",
+      "36623745",
+      "26826127",
+      "16797777",
+      "26278177",
+      "34099686",
+      "25136123",
+      "10637337",
+      "8152490",
+      "37076618",
+      "26340423",
+      "21965540",
+      "31253769",
+      "39075067",
+      "39370748",
+      "33806087",
+      "36041630",
+      "7876263",
+      "20419276",
+      "30297739",
+      "37945175",
+      "38194460",
+      "21756275",
+      "25775526",
+      "26996949",
+      "34096589",
+      "40004560",
+      "33196848"
+    ],
+    "review": [
+      "40057514",
+      "21571596",
+      "33007515",
+      "37545038",
+      "33991872",
+      "23571135",
+      "39617652",
+      "33685798",
+      "21592869",
+      "27696486",
+      "31600675",
+      "30174301",
+      "16797777",
+      "20419276",
+      "37945175"
+    ],
+    "pmc": [
+      "11890784"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-57593-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40057514/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/7rd6j35k",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

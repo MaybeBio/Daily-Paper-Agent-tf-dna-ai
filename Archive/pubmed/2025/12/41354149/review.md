@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors use alchemical free energy simulations to study how methionine oxidation affects protein stability and binding, using the p53 tetramerization domain and the human prion protein as model systems. They report position- and diastereomer-dependent destabilization, cooperative effects for multiple oxidations, agreement with experimental data for the prion protein, and propose the approach as a general protocol.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, error estimates, or experimental comparisons are provided beyond the values quoted in the abstract
+- **Missing materials affecting confidence** Full methods, force field parameters, simulation protocols, convergence criteria, error analysis, all figures and tables, experimental data sources, and any statistical treatment of results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational study on a biologically relevant post-translational modification. The choice of systems is reasonable, and the reported magnitudes of destabilization are plausible. However, the abstract alone does not provide sufficient detail to assess the technical rigor of the alchemical free energy calculations, the convergence of the simulations, or the statistical significance of the reported cooperative effects. The claim of agreement with experimental data cannot be evaluated without specifying the source and nature of those data. The proposal of a general protocol is interesting but requires demonstration of robustness across systems and conditions.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying oxidative protein damage, post-translational modifications, and protein-protein interactions. The work may also interest experimentalists studying p53 regulation or prion protein stability, as the predictions could guide mutagenesis or oxidation experiments.
+- **Major strengths** The study addresses a mechanistically under-explored question with potential biological relevance. The use of alchemical free energy simulations is appropriate for computing relative stability changes. The inclusion of two model systems and the examination of multiple oxidation states add breadth. The reported position- and diastereomer-dependence suggests a level of molecular detail that could be mechanistically informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that single MEO destabilizes the p53 tetramer by approximately 1.1-1.8 kcal/mol and that double and triple oxidations lead to 3-7 kcal/mol destabilization with significant cooperative effects.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No information is provided on the statistical uncertainty of the free energy estimates, the number of independent simulations, the convergence criteria, or the force field parameters used for the oxidized methionine residue. Without these details, the reported values cannot be assessed for reliability.
+  - **Why it matters** Alchemical free energy calculations are highly sensitive to force field accuracy, sampling length, and convergence. The claim of cooperative effects, in particular, requires demonstration that the differences between single and multiple oxidation states exceed the statistical error of the calculations.
+  - **Resolution test** Provide error bars or confidence intervals for all reported free energy differences, describe the simulation length and number of replicas, and show convergence plots or equivalent evidence in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The abstract states that the MET oxidation effects for the human prion protein are of similar magnitude and agree with available experimental data.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The source and nature of the experimental data are not specified. It is unclear whether the comparison is quantitative, qualitative, or based on a single or multiple experimental studies. No numerical comparison is provided.
+  - **Why it matters** Agreement with experiment is a key validation of the computational approach. Without specifying the experimental reference, the claim cannot be independently verified or assessed for appropriateness of the comparison.
+  - **Resolution test** Identify the specific experimental studies, state the measured and computed values side by side, and describe the uncertainty in both the computational and experimental quantities.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract proposes that the simulation methodology could serve as a general protocol to analyze single and multiple MET oxidations in other systems.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe what aspects of the protocol are transferable, what limitations were encountered, or how the method would handle systems with different structural contexts or solvent environments.
+  - **Why it matters** A general protocol claim requires evidence of robustness beyond the two test systems. Without discussion of potential pitfalls or parameterization challenges, the claim is speculative.
+  - **Resolution test** In the full manuscript, discuss the transferability of the force field parameters, the sensitivity of results to system setup, and any known limitations or failure modes of the approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses "MET" and "MEO" without defining the abbreviations at first use. The term "tetramerisation" is used with British spelling while the rest of the text appears to use American conventions.
+  - **Required correction** Define MET and MEO at first mention and standardize spelling throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Quantitative reporting
+  - **Evidence pointer** Abstract text
+  - **Issue** The reported free energy ranges (1.1-1.8 kcal/mol and 3-7 kcal/mol) are given without specifying the number of systems or conditions that define these ranges.
+  - **Required correction** Clarify how many oxidation sites, diastereomers, or combinations are included in each range and whether the range reflects positional or diastereomeric variation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract text
+  - **Issue** The statement that non-additive effects "may play a role to protect proteins from oxidative damage" is speculative and not directly supported by the simulation data described.
+  - **Required correction** Either provide a mechanistic argument linking the observed non-additivity to a protective function, or soften the claim to reflect that this is a hypothesis requiring further investigation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of error analysis and experimental comparison details prevents assessment of the central quantitative claims. R1-M3 is non-blocking but should be addressed for the general protocol claim to be credible.
+- **Assessment against Nature-style criteria** Originality: The application of alchemical free energy simulations to methionine oxidation in a protein-protein interaction context is moderately original, though the general approach is established. Scientific importance: The topic is relevant to oxidative stress biology and protein stability, but the significance of the specific findings cannot be fully judged from the abstract. Interdisciplinary readership: The work may appeal to computational chemists, biophysicists, and some cell biologists, but the abstract is written in a specialized manner that may limit broader accessibility. Technical soundness: Cannot be assessed from the abstract alone; the absence of methodological detail and error analysis is a major limitation. Readability for nonspecialists: The abstract is concise but uses field-specific terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible results, but the lack of methodological detail, error analysis, and experimental comparison prevents a definitive assessment. I would be supportive if the full manuscript addresses the blocking concerns regarding statistical rigor and experimental validation.
+
+## Risk / unsupported claims
+- The claim of "significant cooperative effects" for double and triple oxidations is unsupported without error analysis or statistical testing.
+- The claim of agreement with experimental data for the human prion protein is unverifiable without specifying the experimental source and numerical comparison.
+- The proposal of a general protocol is not supported by evidence of transferability or robustness beyond the two systems studied.
+- The statement that non-additive effects may protect proteins from oxidative damage is speculative and not directly derived from the simulation results as described.

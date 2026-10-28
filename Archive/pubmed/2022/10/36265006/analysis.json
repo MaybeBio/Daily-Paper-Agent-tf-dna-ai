@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36265006",
+  "title": "Deep mendelian randomization: Investigating the causal knowledge of genomic deep learning models.",
+  "authors": "Malina, Stephen; Cizin, Daniel; Knowles, David A",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-10-21",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出DeepMR方法，结合孟德尔随机化与计算机模拟突变，从基因组深度学习模型中推断转录因子间的因果调控关系，虽聚焦TF间因果而非TF-DNA结合机制，但方法可迁移至TF-DNA互作建模研究。",
+  "abstract": "Multi-task deep learning (DL) models can accurately predict diverse genomic marks from sequence, but whether these models learn the causal relationships between genomic marks is unknown. Here, we describe Deep Mendelian Randomization (DeepMR), a method for estimating causal relationships between genomic marks learned by genomic DL models. By combining Mendelian randomization with in silico mutagenesis, DeepMR obtains local (locus specific) and global estimates of (an assumed) linear causal relationship between marks. In a simulation designed to test recovery of pairwise causal relations between transcription factors (TFs), DeepMR gives accurate and unbiased estimates of the 'true' global causal effect, but its coverage decays in the presence of sequence-dependent confounding. We then apply DeepMR to examine the global relationships learned by a state-of-the-art DL model, BPNet, between TFs involved in reprogramming. DeepMR's causal effect estimates validate previously hypothesized relationships between TFs and suggest new relationships for future investigation.",
+  "abstract_zh": "多任务深度学习（DL）模型能够从序列中准确预测多种基因组标记，但这些模型是否学习了基因组标记之间的因果关系尚不清楚。在此，我们描述了深度孟德尔随机化（DeepMR），一种用于估计基因组DL模型所学习的基因组标记间因果关系的方法。通过将孟德尔随机化与计算机模拟诱变相结合，DeepMR获得了标记间（假设的）线性因果关系的局部（位点特异性）和全局估计。在一项旨在测试转录因子（TFs）之间成对因果关系恢复的模拟中，DeepMR对“真实”全局因果效应给出了准确且无偏的估计，但其覆盖率在存在序列依赖性混杂因素时有所下降。随后，我们将DeepMR应用于检查最先进的DL模型BPNet所学习的参与重编程的TFs之间的全局关系。DeepMR的因果效应估计验证了先前假设的TFs之间的关系，并提出了未来研究的新关系。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36265006/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36265006/",
+  "paper_page_path": "papers/pubmed/36265006/index.html"
+}

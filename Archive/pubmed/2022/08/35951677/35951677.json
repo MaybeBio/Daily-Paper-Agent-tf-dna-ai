@@ -1,0 +1,624 @@
+{
+  "identity": {
+    "pmid": "35951677",
+    "doi": "10.1126/science.abk3512",
+    "title": "Nested epistasis enhancer networks for robust genome regulation."
+  },
+  "content": {
+    "abstract": "Mammalian genomes have multiple enhancers spanning an ultralong distance (>megabases) to modulate important genes, but it is unclear how these enhancers coordinate to achieve this task. We combine multiplexed CRISPRi screening with machine learning to define quantitative enhancer-enhancer interactions. We find that the ultralong distance enhancer network has a nested multilayer architecture that confers functional robustness of gene expression. Experimental characterization reveals that enhancer epistasis is maintained by three-dimensional chromosomal interactions and BRD4 condensation. Machine learning prediction of synergistic enhancers provides an effective strategy to identify noncoding variant pairs associated with pathogenic genes in diseases beyond genome-wide association studies analysis. Our work unveils nested epistasis enhancer networks, which can better explain enhancer functions within cells and in diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Cycle Proteins",
+      "*Disease/genetics",
+      "*Enhancer Elements, Genetic",
+      "*Epistasis, Genetic",
+      "Genome-Wide Association Study",
+      "Humans",
+      "K562 Cells",
+      "*Machine Learning",
+      "Nuclear Proteins/genetics",
+      "Transcription Factors/genetics",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Xueqiu",
+        "Liu, Yanxia",
+        "Liu, Shuai",
+        "Zhu, Xiang",
+        "Wu, Lingling",
+        "Zhu, Yanyu",
+        "Zhao, Dehua",
+        "Xu, Xiaoshu",
+        "Chemparathy, Augustine",
+        "Wang, Haifeng",
+        "Cao, Yaqiang",
+        "Nakamura, Muneaki",
+        "Noordermeer, Jasprina N",
+        "La Russa, Marie",
+        "Wong, Wing Hung",
+        "Zhao, Keji",
+        "Qi, Lei S"
+      ],
+      "short_names": [
+        "Lin X",
+        "Liu Y",
+        "Liu S",
+        "Zhu X",
+        "Wu L",
+        "Zhu Y",
+        "Zhao D",
+        "Xu X",
+        "Chemparathy A",
+        "Wang H",
+        "Cao Y",
+        "Nakamura M",
+        "Noordermeer JN",
+        "La Russa M",
+        "Wong WH",
+        "Zhao K",
+        "Qi LS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8706-9657",
+        "ORCID: 0000-0002-6550-3624",
+        "ORCID: 0000-0002-6069-4900",
+        "ORCID: 0000-0003-1134-6413",
+        "ORCID: 0000-0002-6921-1127",
+        "ORCID: 0000-0001-8681-976X",
+        "ORCID: 0000-0003-4792-2005",
+        "ORCID: 0000-0002-4665-1517",
+        "ORCID: 0000-0003-2441-5211",
+        "ORCID: 0000-0002-1758-313X",
+        "ORCID: 0000-0001-7466-2339",
+        "ORCID: 0000-0002-3965-3223"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Laboratory of Epigenome Biology, Systems Biology Center, National Heart, Lung and Blood Institute NIH, Bethesda, MD 20892, USA.",
+        "Department of Statistics, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Statistics, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Huck Institutes of the Life Sciences, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "School of Medicine, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Laboratory of Epigenome Biology, Systems Biology Center, National Heart, Lung and Blood Institute NIH, Bethesda, MD 20892, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Statistics, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Biomedical Data Science, Stanford University, Stanford, CA 94305, USA.",
+        "Laboratory of Epigenome Biology, Systems Biology Center, National Heart, Lung and Blood Institute NIH, Bethesda, MD 20892, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Sarafan ChEM-H, Stanford University, Stanford, CA 94305, USA.",
+        "Chan Zuckerberg BioHub, San Francisco, CA 94158, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Xueqiu",
+        "short_name": "Lin X",
+        "identifiers": [
+          "0000-0001-8706-9657"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Yanxia",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-6550-3624"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Shuai",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0002-6069-4900"
+        ],
+        "affiliations": [
+          "Laboratory of Epigenome Biology, Systems Biology Center, National Heart, Lung and Blood Institute NIH, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiang",
+        "short_name": "Zhu X",
+        "identifiers": [
+          "0000-0003-1134-6413"
+        ],
+        "affiliations": [
+          "Department of Statistics, Stanford University, Stanford, CA 94305, USA.",
+          "Department of Statistics, The Pennsylvania State University, University Park, PA 16802, USA.",
+          "Huck Institutes of the Life Sciences, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Lingling",
+        "short_name": "Wu L",
+        "identifiers": [
+          "0000-0002-6921-1127"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yanyu",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0000-0001-8681-976X"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Dehua",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoshu",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Chemparathy, Augustine",
+        "short_name": "Chemparathy A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Haifeng",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0003-4792-2005"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Yaqiang",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0000-0002-4665-1517"
+        ],
+        "affiliations": [
+          "Laboratory of Epigenome Biology, Systems Biology Center, National Heart, Lung and Blood Institute NIH, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Nakamura, Muneaki",
+        "short_name": "Nakamura M",
+        "identifiers": [
+          "0000-0003-2441-5211"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Noordermeer, Jasprina N",
+        "short_name": "Noordermeer JN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "La Russa, Marie",
+        "short_name": "La Russa M",
+        "identifiers": [
+          "0000-0002-1758-313X"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Wong, Wing Hung",
+        "short_name": "Wong WH",
+        "identifiers": [
+          "0000-0001-7466-2339"
+        ],
+        "affiliations": [
+          "Department of Statistics, Stanford University, Stanford, CA 94305, USA.",
+          "Department of Biomedical Data Science, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Keji",
+        "short_name": "Zhao K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Epigenome Biology, Systems Biology Center, National Heart, Lung and Blood Institute NIH, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Qi, Lei S",
+        "short_name": "Qi LS",
+        "identifiers": [
+          "0000-0002-3965-3223"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+          "Sarafan ChEM-H, Stanford University, Stanford, CA 94305, USA.",
+          "Chan Zuckerberg BioHub, San Francisco, CA 94158, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2022 Sep 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/12 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "42680838",
+      "42539220",
+      "42492506",
+      "42468531",
+      "42468524",
+      "42465324",
+      "42457959",
+      "42230572",
+      "42094470",
+      "41951915",
+      "41929106",
+      "41909952",
+      "41881989",
+      "41836275",
+      "41736562",
+      "41673027",
+      "41576918",
+      "41544163",
+      "41284191",
+      "41108154",
+      "41042842",
+      "40901634",
+      "40866334",
+      "40770768",
+      "40672313",
+      "40504151",
+      "40455091",
+      "40341060",
+      "40239646",
+      "40067173",
+      "39919174",
+      "39817516",
+      "39688903",
+      "39604829",
+      "39579740",
+      "39466837",
+      "39446980",
+      "39435985",
+      "39416108",
+      "39406234",
+      "39362902",
+      "39302339",
+      "39284975",
+      "39137782",
+      "39125583",
+      "39026853",
+      "38760567",
+      "38760566",
+      "38750461",
+      "38293233",
+      "38167462",
+      "38048222",
+      "38014075",
+      "37953829",
+      "37922884",
+      "37834393",
+      "37717118",
+      "37651425",
+      "37640939",
+      "37640936",
+      "37461616",
+      "37417811",
+      "37289981",
+      "37286742",
+      "37165057",
+      "37163096",
+      "37139553",
+      "37098604",
+      "37079215",
+      "37066272",
+      "37065474",
+      "36927888",
+      "36909581",
+      "36833261",
+      "36828586",
+      "36736311",
+      "36693380",
+      "36417512",
+      "36325618",
+      "36243984"
+    ],
+    "refs": [
+      "34928392",
+      "33177077",
+      "32246942",
+      "32243438",
+      "32032514",
+      "31784727",
+      "31767839",
+      "31494034",
+      "31398323",
+      "30318302",
+      "30150754",
+      "30010673",
+      "29930094",
+      "29930091",
+      "29849042",
+      "29507293",
+      "29428417",
+      "29420474",
+      "29342133",
+      "29036324",
+      "29018080",
+      "28945252",
+      "28561021",
+      "28427715",
+      "28340338",
+      "27708057",
+      "27694927",
+      "27693352",
+      "27643537",
+      "27376239",
+      "27376235",
+      "26766440",
+      "26501517",
+      "26472758",
+      "26034063",
+      "25801169",
+      "25693563",
+      "25671638",
+      "25307932",
+      "25043047",
+      "24753594",
+      "24413736",
+      "24360272",
+      "24127591",
+      "24119843",
+      "24037378",
+      "23582323",
+      "23582322",
+      "23452860",
+      "23193258",
+      "23060615",
+      "23007406",
+      "22955828",
+      "22955616",
+      "22930834",
+      "22388286",
+      "22343431",
+      "21825127",
+      "21297632",
+      "20871596",
+      "20808728",
+      "20110278",
+      "19890323",
+      "19812666",
+      "18852697",
+      "18798982",
+      "17898773",
+      "17701901",
+      "17554300"
+    ],
+    "similar": [
+      "35951677",
+      "25228660",
+      "34226917",
+      "37591883",
+      "28359301",
+      "37012250",
+      "28863138",
+      "31905774",
+      "33445415",
+      "29218911",
+      "36030022",
+      "27833659",
+      "35887306",
+      "38513612",
+      "25941994",
+      "28605766",
+      "36464486",
+      "33749795",
+      "23650633",
+      "31775028",
+      "37855660",
+      "27708057",
+      "29717274",
+      "29420474",
+      "34930411",
+      "30076409",
+      "27152947",
+      "29263365",
+      "31784727",
+      "34197622",
+      "24332044",
+      "25369933",
+      "29187214",
+      "29759817",
+      "34256850",
+      "28369554",
+      "32961076",
+      "37488417",
+      "29077884",
+      "21685454",
+      "27490187",
+      "38485768",
+      "37021401",
+      "37638746",
+      "28869592",
+      "28980882",
+      "32093643",
+      "30593613",
+      "31969149",
+      "32237974",
+      "31916476",
+      "27084101",
+      "30562350",
+      "31969180",
+      "32669118",
+      "23582323",
+      "32573785",
+      "26435056",
+      "30612741",
+      "29602043",
+      "27321818",
+      "24967590",
+      "25765234",
+      "30859622",
+      "37059907",
+      "32197056",
+      "32443951",
+      "31514731",
+      "32689977",
+      "30905748",
+      "30589856",
+      "24996062",
+      "32029739",
+      "36094314",
+      "30286077",
+      "33733363",
+      "27840106",
+      "36043696",
+      "37170707",
+      "26780995",
+      "34353856",
+      "27099234",
+      "29379197",
+      "37021559",
+      "37205714",
+      "38101409",
+      "26079655",
+      "35650434",
+      "31727856",
+      "37104615",
+      "11067921",
+      "36909938",
+      "28683716",
+      "37387536",
+      "34341073",
+      "38048082",
+      "37163096",
+      "37173718",
+      "39406234"
+    ],
+    "review": [
+      "35951677",
+      "33445415",
+      "23650633",
+      "29717274",
+      "29759817",
+      "32961076",
+      "37021401",
+      "30593613",
+      "31916476",
+      "29602043",
+      "27321818",
+      "37059907",
+      "32197056",
+      "32443951",
+      "24996062",
+      "26780995",
+      "26079655",
+      "36909938",
+      "38048082"
+    ],
+    "pmc": [
+      "10259245"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.abk3512",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/35951677.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35951677/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35951677",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35951677",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/35951677",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse160768",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

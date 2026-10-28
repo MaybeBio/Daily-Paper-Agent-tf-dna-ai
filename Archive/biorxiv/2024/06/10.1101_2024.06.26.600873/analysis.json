@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.26.600873",
+  "title": "Ultra-fast variant effect prediction using biophysical transcription factor binding models",
+  "authors": "Rezwan Hosseini; Ali Tugrul Balci; Dennis Kostka; Nathan Clark; Maria Chikina",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-30",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于单/双核苷酸位置权重矩阵的生物物理TF结合模型工具motifDiff，用于超快预测变异效应，虽非AI或MD方法，但聚焦TF-DNA结合与变异影响，机制建模可借鉴。",
+  "abstract": "Sequence variation within TF binding sites can significantly affect TF-DNA interactions, influencing gene expression and contributing to disease susceptibility or phenotypic traits. Despite recent progress in deep sequence-to-function models that predict functional output from sequence data, these methods perform inadequately on some variant effect prediction tasks, especially with common genetic variants. This limitation underscores the importance of leveraging biophysical models of TF binding to enhance interpretability of variant effect scores and facilitate mechanistic insights. We introduce motifDiff , a novel computational tool designed to quantify variant effects using mono and dinucleotide position weight matrices. motifDiff offers several key advantages, including scalability to score millions of variants within minutes, implementation of statistically rigorous normalization strategy critical for optimal performance, and support for both dinucleotide and mononucleotide models. We demonstrate motifDiff ‘s efficacy by evaluating it across diverse ground truth datasets that quantify the effects of common variants in vivo, thereby establishing robust benchmarks for the predictive value of variant effect calculations. Finally, we show that our tool provides unique insights when interpreting human accelerated regions. motifDiff is available as a standalone Python application at https://github.com/rezwanhosseini/MotifDiff .",
+  "abstract_zh": "TF结合位点内的序列变异可显著影响TF-DNA相互作用，进而影响基因表达并促成疾病易感性或表型性状。尽管近期在从序列数据预测功能输出的深度序列到功能模型方面取得了进展，但这些方法在某些变异效应预测任务中表现不足，尤其是对常见遗传变异。这一局限性凸显了利用TF结合的生物物理模型来增强变异效应评分的可解释性并促进机制性见解的重要性。我们引入了motifDiff，一种新型计算工具，旨在使用单核苷酸和二核苷酸位置权重矩阵来量化变异效应。motifDiff提供了几个关键优势，包括在几分钟内可扩展至评分数百万个变异、实施对最佳性能至关重要的统计严格归一化策略，以及支持二核苷酸和单核苷酸模型。我们通过评估其在量化体内常见变异效应的多样化真实数据集上的表现，展示了motifDiff的有效性，从而为变异效应计算的预测价值建立了稳健的基准。最后，我们表明该工具在解读人类加速区域时提供了独特的见解。motifDiff可作为独立Python应用程序获取，网址为https://github.com/rezwanhosseini/MotifDiff。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.26.600873",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.26.600873",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.26.600873/index.html"
+}

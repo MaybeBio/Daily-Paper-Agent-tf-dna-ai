@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "40886022",
+    "doi": "10.1186/s13148-025-01943-8",
+    "title": "Selective disruption of DNMT1/ELK1 interactions induces DGKI re-expression and promotes temozolomide sensitivity of MGMT(methylated)/DGKI(methylated) glioblastoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: DNA methyltransferase (DNMT) inhibitors are emerging as a promising class of agents for personalized and targeted cancer therapy, particularly in malignancies with limited therapeutic options such as glioblastoma (GB). In GB, the MGMT/DGKI methylation profile serves as a biomarker for stratifying patients by treatment response. Specifically, the MGMT(methylated)/DGKI(unmethylated) profile is associated with favorable outcomes, whereas the MGMT(methylated)/DGKI(methylated) profile correlates with poor outcome. These findings suggest that selective demethylation of DGKI without altering MGMT or inducing widespread genomic hypomethylation, which may promote tumorigenesis, could represent a novel and more effective therapeutic strategy. RESULTS: Current DNMT inhibitors lack specificity for glioblastoma relevant methylation profiles, thereby limiting their therapeutic efficacy. To address this challenge, AlphaFold-based protein-protein interaction predictions were integrated with sequential chromatin immunoprecipitation assays and established DNMT1 interactome data. This integrative approach led to the identification of a DNMT1/ELK1 complex as a critical regulator of DGKI methylation. A peptide mimicking the DNMT1/ELK1 interface, designated EXD(DNMT1/ELK1), was designed and shown to induce selective DGKI demethylation without altering MGMT or inducing global DNA hypomethylation. Notably, EXD(DNMT1/ELK1) did note promote cellular proliferation or invasion, and successfully restored sensitivity to standard glioblastoma therapy in both cellular and in vivo models. These findings also support the use of MGMT and DGKI methylation levels in cell-free DNA as potential biomarkers to identify patients likely to benefit from EXD(DNMT1/ELK1) treatment. CONCLUSION: This study identifies a clinically actionable biomarker (MGMT(Methylated)/DGKI(Methylated)), detectable in both solid and liquid biopsies, enabling patient stratification. Furthermore, it establishes EXD(DNMT1/ELK1) as a highly selective epigenetic therapeutic agent to treat GB patients.",
+    "keywords": [
+      "DNMT1",
+      "ELK1",
+      "Epidrug",
+      "Peptide",
+      "Protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "Aged",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Cell Line, Tumor",
+      "Diacylglycerol Kinase/chemistry",
+      "*DNA (Cytosine-5-)-Methyltransferase 1/antagonists & inhibitors/genetics",
+      "*DNA Methylation",
+      "DNA Modification Methylases/chemistry",
+      "*ets-Domain Protein Elk-1/genetics",
+      "*Glioblastoma/drug therapy/genetics",
+      "*Temozolomide/pharmacology",
+      "Drug Resistance, Neoplasm",
+      "*Brain Neoplasms/drug therapy/genetics",
+      "Animals",
+      "Mice",
+      "Mice, SCID",
+      "Tumor Suppressor Proteins",
+      "DNA Repair Enzymes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Besson, Jean-Maxime",
+        "Etcheverry, Amandine",
+        "Nadaradjane, Arulraj",
+        "Bougras-Cartron, Gwenola",
+        "Aubry, Marc",
+        "Frenel, Jean-Sebastien",
+        "Chevanieu, Alain",
+        "Lopez, Marie",
+        "Mosser, Jean",
+        "Cartron, Pierre-Francois"
+      ],
+      "short_names": [
+        "Besson JM",
+        "Etcheverry A",
+        "Nadaradjane A",
+        "Bougras-Cartron G",
+        "Aubry M",
+        "Frenel JS",
+        "Chevanieu A",
+        "Lopez M",
+        "Mosser J",
+        "Cartron PF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institut Des Biomolecules Max Mousseron, CNRS, UM, ENSCM IBMM-UMR 5247, 1919 Route de Mende, 34293Cedex 5, Montpellier, France.",
+        "Molecular Genetics and Genomics Department, CHU Rennes, 35033, Rennes, France.",
+        "Nantes Universite, Inserm UMR 1307, CNRS UMR 6075, Universite d'Angers, CRCI2NA, F-44000, Nantes, France.",
+        "Nantes Universite, Inserm UMR 1307, CNRS UMR 6075, Universite d'Angers, CRCI2NA, F-44000, Nantes, France.",
+        "Institut de Cancerologie de L'Ouest, 44805, Saint-Herblain, France.",
+        "INSERM, OSS (Oncogenesis Stress Signaling), UMR_S 1242, CLCC Eugene Marquis, Univ Rennes, 35000, Rennes, France.",
+        "Nantes Universite, Inserm UMR 1307, CNRS UMR 6075, Universite d'Angers, CRCI2NA, F-44000, Nantes, France.",
+        "Institut de Cancerologie de L'Ouest, 44805, Saint-Herblain, France.",
+        "Institut Des Biomolecules Max Mousseron, CNRS, UM, ENSCM IBMM-UMR 5247, 1919 Route de Mende, 34293Cedex 5, Montpellier, France.",
+        "Institut Des Biomolecules Max Mousseron, CNRS, UM, ENSCM IBMM-UMR 5247, 1919 Route de Mende, 34293Cedex 5, Montpellier, France.",
+        "Molecular Genetics and Genomics Department, CHU Rennes, 35033, Rennes, France.",
+        "INSERM, OSS (Oncogenesis Stress Signaling), UMR_S 1242, CLCC Eugene Marquis, Univ Rennes, 35000, Rennes, France.",
+        "Nantes Universite, Inserm UMR 1307, CNRS UMR 6075, Universite d'Angers, CRCI2NA, F-44000, Nantes, France. pierre-francois.cartron@inserm.fr.",
+        "Institut de Cancerologie de L'Ouest, 44805, Saint-Herblain, France. pierre-francois.cartron@inserm.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Besson, Jean-Maxime",
+        "short_name": "Besson JM",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Des Biomolécules Max Mousseron, CNRS, UM, ENSCM IBMM-UMR 5247, 1919 Route de Mende, 34293Cedex 5, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Etcheverry, Amandine",
+        "short_name": "Etcheverry A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Genomics Department, CHU Rennes, 35033, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Nadaradjane, Arulraj",
+        "short_name": "Nadaradjane A",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, Inserm UMR 1307, CNRS UMR 6075, Université d'Angers, CRCI2NA, F-44000, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Bougras-Cartron, Gwenola",
+        "short_name": "Bougras-Cartron G",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, Inserm UMR 1307, CNRS UMR 6075, Université d'Angers, CRCI2NA, F-44000, Nantes, France.",
+          "Institut de Cancérologie de L'Ouest, 44805, Saint-Herblain, France."
+        ]
+      },
+      {
+        "full_name": "Aubry, Marc",
+        "short_name": "Aubry M",
+        "identifiers": [],
+        "affiliations": [
+          "INSERM, OSS (Oncogenesis Stress Signaling), UMR_S 1242, CLCC Eugene Marquis, Univ Rennes, 35000, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Frenel, Jean-Sebastien",
+        "short_name": "Frenel JS",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, Inserm UMR 1307, CNRS UMR 6075, Université d'Angers, CRCI2NA, F-44000, Nantes, France.",
+          "Institut de Cancérologie de L'Ouest, 44805, Saint-Herblain, France."
+        ]
+      },
+      {
+        "full_name": "Chevanieu, Alain",
+        "short_name": "Chevanieu A",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Des Biomolécules Max Mousseron, CNRS, UM, ENSCM IBMM-UMR 5247, 1919 Route de Mende, 34293Cedex 5, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Lopez, Marie",
+        "short_name": "Lopez M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Des Biomolécules Max Mousseron, CNRS, UM, ENSCM IBMM-UMR 5247, 1919 Route de Mende, 34293Cedex 5, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Mosser, Jean",
+        "short_name": "Mosser J",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Genomics Department, CHU Rennes, 35033, Rennes, France.",
+          "INSERM, OSS (Oncogenesis Stress Signaling), UMR_S 1242, CLCC Eugene Marquis, Univ Rennes, 35000, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Cartron, Pierre-François",
+        "short_name": "Cartron PF",
+        "identifiers": [],
+        "affiliations": [
+          "Nantes Université, Inserm UMR 1307, CNRS UMR 6075, Université d'Angers, CRCI2NA, F-44000, Nantes, France. pierre-francois.cartron@inserm.fr.",
+          "Institut de Cancérologie de L'Ouest, 44805, Saint-Herblain, France. pierre-francois.cartron@inserm.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2025 Aug 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/01 04:45",
+    "fetched_at": "2026-10-01 01:04:25"
+  },
+  "links": {
+    "cites": [
+      "42259768"
+    ],
+    "refs": [
+      "39052676",
+      "38467836",
+      "37964489",
+      "37686057",
+      "37565753",
+      "37306046",
+      "35454848",
+      "35395355",
+      "34599769",
+      "34293799",
+      "34265844",
+      "31849240",
+      "31014363",
+      "29350455",
+      "29163774",
+      "29137356",
+      "29081442",
+      "28840962",
+      "28521700",
+      "28475720",
+      "28239999",
+      "27698935",
+      "27157931",
+      "26637861",
+      "26452121",
+      "25722938",
+      "25111481",
+      "24952347",
+      "24601786",
+      "23809695",
+      "23226047",
+      "22564186",
+      "21979894",
+      "21779454",
+      "21156036",
+      "19786833",
+      "18425818",
+      "16331260",
+      "16230360",
+      "15616584",
+      "10742173",
+      "10647931"
+    ],
+    "similar": [
+      "40886022",
+      "25233099",
+      "30514777",
+      "16609952",
+      "19011762",
+      "32607953",
+      "33663593",
+      "25655102",
+      "23245659",
+      "20372840",
+      "25163906",
+      "33628600",
+      "39356744",
+      "38644551",
+      "23479134",
+      "33631540",
+      "28266716",
+      "32348734",
+      "33661424",
+      "25910840",
+      "39881389",
+      "21287394",
+      "32710211",
+      "40835840",
+      "26113646",
+      "24568970",
+      "34625658",
+      "25078279",
+      "25394859",
+      "29726772",
+      "33632732",
+      "18004504",
+      "32866816",
+      "27503138",
+      "32820151",
+      "23519841",
+      "37894860",
+      "22414280",
+      "37047153",
+      "29705182",
+      "31088577",
+      "36513631",
+      "27921166",
+      "20686820",
+      "31167648",
+      "31347685",
+      "27639200",
+      "20585787",
+      "31701343",
+      "32066879",
+      "38277015",
+      "28516344",
+      "30717206",
+      "31127647",
+      "15041700",
+      "28425046",
+      "20167086",
+      "41123669",
+      "22975219",
+      "27367247",
+      "27526690",
+      "40998915",
+      "35474499",
+      "37417930",
+      "20167816",
+      "41316075",
+      "25434389",
+      "30002055",
+      "22139906",
+      "33433610",
+      "32991787",
+      "20150365",
+      "29337169",
+      "32064499",
+      "31422371",
+      "31754832",
+      "32168477",
+      "33432978",
+      "26883115",
+      "41151883",
+      "21365007",
+      "30758983",
+      "38912869",
+      "24519517",
+      "28097324",
+      "27158275",
+      "35563629",
+      "33710615",
+      "39367282",
+      "22675172",
+      "38762829",
+      "32374045",
+      "22837675",
+      "26615020",
+      "21789683",
+      "26320189",
+      "29848907",
+      "22810491",
+      "20131314",
+      "35163465"
+    ],
+    "review": [
+      "40886022",
+      "28266716",
+      "32348734",
+      "25394859",
+      "30002055",
+      "33710615"
+    ],
+    "pmc": [
+      "12398979"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-025-01943-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40886022/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MGMT-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

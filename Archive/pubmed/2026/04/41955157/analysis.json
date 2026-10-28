@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41955157",
+  "title": "Multi-Omics Graph Attention Network for Key Gene Prediction in Triple-Negative Breast Cancer.",
+  "authors": "Jiang, Zixi; Cao, Kexin; Ge, Fang; Huang, Zhusheng",
+  "journal": "IEEE transactions on computational biology and bioinformatics",
+  "published_date": "2026-04-09",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图注意力网络整合多组学数据预测三阴性乳腺癌关键基因，虽涉及转录因子结合引导的图边构建，但核心是疾病预后与生物标志物发现，而非TF-DNA互作机制建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "Triple-negative breast cancer (TNBC) is an aggressive malignancy lacking effective targeted therapies, underscoring the need for robust and interpretable biomarkers for personalized treatment. Here, we propose a graph attention network (GAT)-based multimodal framework that integrates scRNA-seq, scATAC-seq, and radiomics to capture cross-modal regulatory interactions underlying TNBC heterogeneity. Transcriptional, chromatin accessibility, and imaging features are aligned via canonical correlation analysis, with intercellular communication-derived gene relationships and transcription factor-binding-guided edges incorporated into a multimodal graph. Multi-head attention enables adaptive weighting of omics-specific interactions, while an ensemble multilayer perceptron with variational dropout stratifies patient prognosis. The model demonstrates strong predictive performance in an external TCGA-TNBC cohort (log-rank p<0.01), outperforming single-omics and alternative graph-based approaches (AUC-ROC = 0.839, 95% CI: 0.81-0.87). Pathway analysis validates canonical TNBC drivers, including PI3K, ERBB2, PTK6, and EGFR signaling, while revealing previously underappreciated regulatory programs involving complement-coagulation cascades, ECM-integrin-focal adhesion signaling, leukocyte transendothelial migration, sphingolipid-mediated metabolic-immune coupling, and nanoparticle-receptor interactions. Collectively, this framework provides an interpretable strategy for multimodal biomarker discovery in TNBC, uncovering both established and novel therapeutic vulnerabilities and offering a scalable approach toward precision oncology.",
+  "abstract_zh": "三阴性乳腺癌（TNBC）是一种侵袭性恶性肿瘤，缺乏有效的靶向治疗，因此亟需稳健且可解释的生物标志物以支持个体化治疗。在此，我们提出一种基于图注意力网络（GAT）的多模态框架，整合scRNA-seq、scATAC-seq和影像组学，以捕捉TNBC异质性背后的跨模态调控相互作用。转录、染色质可及性和影像特征通过典型相关分析进行对齐，并将细胞间通讯衍生的基因关系及转录因子结合引导的边纳入多模态图。多头注意力机制实现对组学特异性相互作用的自适应加权，而集成多层感知机结合变分丢弃法对患者预后进行分层。该模型在外部TCGA-TNBC队列中展现出强大的预测性能（log-rank p<0.01），优于单组学及替代性基于图的方法（AUC-ROC = 0.839，95% CI：0.81-0.87）。通路分析验证了经典的TNBC驱动因子，包括PI3K、ERBB2、PTK6和EGFR信号通路，同时揭示了先前未被充分认识的调控程序，涉及补体-凝血级联、ECM-整合素-黏着斑信号、白细胞跨内皮迁移、鞘脂介导的代谢-免疫耦合以及纳米颗粒-受体相互作用。总体而言，该框架为TNBC多模态生物标志物发现提供了一种可解释的策略，揭示了既有的和新颖的治疗脆弱性，并为精准肿瘤学提供了一种可扩展的方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41955157/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41955157/",
+  "paper_page_path": "papers/pubmed/41955157/index.html"
+}

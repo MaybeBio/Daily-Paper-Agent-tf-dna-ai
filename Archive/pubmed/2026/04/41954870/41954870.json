@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "41954870",
+    "doi": "10.1007/s12035-026-05804-0",
+    "title": "Suppression of Inflammatory Responses Through GD3 Synthase (GD3S) Silencing Mediated by TLR4 Signaling: In Vitro and In Silico Analysis."
+  },
+  "content": {
+    "abstract": "Glycosphingolipids (GSLs) regulate cell proliferation by modulating transmembrane signaling pathways. Gangliosides, as essential constituents of GSLs located on the cell membrane surface, contribute to diverse biological processes. Among them, ganglioside GD3 is found in neuronal precursors, TrkA receptor-expressing cells, and various neuronal populations, where it influences cell-cell interactions and metabolic activities. However, its immunity-related function and signaling mechanism remain unclear. In this study, we investigated THP-1-derived macrophages transfected with shGD3 synthesis (shGD3S) and observed reduced mRNA and protein expression of COX-2, iNOS, Myd88, TLR4, and pro-inflammatory cytokines. Furthermore, activation of the MAPK and NF-kappaB signaling pathways was diminished in shGD3S-transfected macrophages. We also examined the direct interaction between GD3 and TLR4, confirming that GD3 binds directly to TLR4. Using molecular docking simulations and fragment molecular orbital (FMO) calculations, we analyzed the binding affinities and hotspot residues of GD3, GM3, and LPS with the TLR4-MD2 complex. GD3 exhibited a higher binding affinity than GM3 and similar interaction energy to LPS, with Asp44 and Tyr82 identified as key hotspot residues. Ganglioside derivatives interacted with different TLR4 chains, with LPS and GM3 located near Arg90 and between fatty acid chains, while the linear carbohydrate moiety clustered around Phe121. These findings indicate that shGD3S-transfected macrophages suppress LPS-induced inflammatory responses by attenuating NF-kappaB, MAPK, and TLR4 signaling. Thus, sialyl-glycolipid GD3 appears to promote inflammatory responses in THP-1-derived macrophages.",
+    "keywords": [
+      "GD3",
+      "Ganglioside",
+      "Inflammation",
+      "LPS",
+      "THP-1-differentiated macrophages",
+      "TLR4"
+    ],
+    "mesh_terms": [
+      "*Toll-Like Receptor 4/metabolism",
+      "Humans",
+      "*Signal Transduction/drug effects",
+      "*Inflammation/pathology/genetics/metabolism",
+      "*Sialyltransferases/metabolism/genetics",
+      "Macrophages/metabolism/drug effects",
+      "Gangliosides/metabolism",
+      "*Gene Silencing",
+      "Molecular Docking Simulation",
+      "*Computer Simulation",
+      "THP-1 Cells",
+      "NF-kappa B/metabolism",
+      "Lipopolysaccharides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Jun-Young",
+        "Fukushi, Abekura",
+        "Kim, Hee-Do",
+        "Kuo, Han-His",
+        "Chang, Yu-Chan",
+        "Park, Daeui",
+        "Kim, Cheorl-Ho"
+      ],
+      "short_names": [
+        "Park JY",
+        "Fukushi A",
+        "Kim HD",
+        "Kuo HH",
+        "Chang YC",
+        "Park D",
+        "Kim CH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Environmental Diseases Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, South Korea.",
+        "Molecular and Cellular Glycobiology Unit, Department of Biological Sciences, SungKyunKwan University, 300 Chunchun-Dong, Jangan-Gu, Suwon City, 440-746, Kyunggi-Do, Korea.",
+        "Molecular and Cellular Glycobiology Unit, Department of Biological Sciences, SungKyunKwan University, 300 Chunchun-Dong, Jangan-Gu, Suwon City, 440-746, Kyunggi-Do, Korea.",
+        "Molecular and Cellular Glycobiology Unit, Department of Biological Sciences, SungKyunKwan University, 300 Chunchun-Dong, Jangan-Gu, Suwon City, 440-746, Kyunggi-Do, Korea.",
+        "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, 112, Taiwan.",
+        "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, 112, Taiwan.",
+        "Center for National Toxicology AI and Data, Korea Institute of Toxicology, Daejeon, 34114, Republic of Korea. daeui.park@kitox.re.kr.",
+        "Molecular and Cellular Glycobiology Unit, Department of Biological Sciences, SungKyunKwan University, 300 Chunchun-Dong, Jangan-Gu, Suwon City, 440-746, Kyunggi-Do, Korea. chkimbio@skku.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Jun-Young",
+        "short_name": "Park JY",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental Diseases Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, South Korea.",
+          "Molecular and Cellular Glycobiology Unit, Department of Biological Sciences, SungKyunKwan University, 300 Chunchun-Dong, Jangan-Gu, Suwon City, 440-746, Kyunggi-Do, Korea."
+        ]
+      },
+      {
+        "full_name": "Fukushi, Abekura",
+        "short_name": "Fukushi A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Glycobiology Unit, Department of Biological Sciences, SungKyunKwan University, 300 Chunchun-Dong, Jangan-Gu, Suwon City, 440-746, Kyunggi-Do, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hee-Do",
+        "short_name": "Kim HD",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Glycobiology Unit, Department of Biological Sciences, SungKyunKwan University, 300 Chunchun-Dong, Jangan-Gu, Suwon City, 440-746, Kyunggi-Do, Korea."
+        ]
+      },
+      {
+        "full_name": "Kuo, Han-His",
+        "short_name": "Kuo HH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, 112, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Yu-Chan",
+        "short_name": "Chang YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Imaging and Radiological Sciences, National Yang Ming Chiao Tung University, Taipei, 112, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Park, Daeui",
+        "short_name": "Park D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for National Toxicology AI and Data, Korea Institute of Toxicology, Daejeon, 34114, Republic of Korea. daeui.park@kitox.re.kr."
+        ]
+      },
+      {
+        "full_name": "Kim, Cheorl-Ho",
+        "short_name": "Kim CH",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Glycobiology Unit, Department of Biological Sciences, SungKyunKwan University, 300 Chunchun-Dong, Jangan-Gu, Suwon City, 440-746, Kyunggi-Do, Korea. chkimbio@skku.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular neurobiology"
+    ],
+    "journal_abbrev": [
+      "Mol Neurobiol"
+    ],
+    "pub_date": "2026 Apr 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/09 12:45",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32321259",
+      "30245960",
+      "28708322",
+      "26607068",
+      "25151381",
+      "24646936",
+      "24454965",
+      "21935932",
+      "21072492",
+      "20678173",
+      "19499576",
+      "19252480",
+      "17109433",
+      "15264254",
+      "12542980",
+      "12374199",
+      "12019315",
+      "11613219",
+      "8748167",
+      "8132581",
+      "7503287",
+      "7035803",
+      "6751300",
+      "6741743",
+      "5386213",
+      "3903474",
+      "2324749",
+      "2254981",
+      "1423800"
+    ],
+    "similar": [
+      "41954870",
+      "40319834",
+      "36309116",
+      "26054879",
+      "22537289",
+      "40712077",
+      "30794925",
+      "32388485",
+      "38518649",
+      "38972239",
+      "35163130",
+      "40608724",
+      "41052684",
+      "39447411",
+      "24104193",
+      "34204506",
+      "26082489",
+      "31255993",
+      "41090497",
+      "29669317",
+      "31953218",
+      "39331354",
+      "39595617",
+      "32166675",
+      "28708322",
+      "31623197",
+      "36274481",
+      "22317752",
+      "34029560",
+      "32146298",
+      "26620692",
+      "40669807",
+      "16116226",
+      "35696068",
+      "24312681",
+      "30045725",
+      "22474023",
+      "40553825",
+      "23735482",
+      "20546116",
+      "26639663",
+      "37485845",
+      "22564908",
+      "39273493",
+      "33323555",
+      "32468498",
+      "32230927",
+      "22496731",
+      "37459905",
+      "31138648",
+      "33802409",
+      "31580158",
+      "41311552",
+      "11500829",
+      "35874106",
+      "38508727",
+      "30383973",
+      "31599382",
+      "36610153",
+      "38734936",
+      "40484254",
+      "37332141",
+      "42176149",
+      "34072916",
+      "23231684",
+      "42055198",
+      "19592497",
+      "36270256",
+      "28223539",
+      "31862508",
+      "36945827",
+      "28465253",
+      "31319868",
+      "38057485",
+      "33815382",
+      "23727179",
+      "40549318",
+      "42196254",
+      "35489123",
+      "18559343",
+      "33271940",
+      "28374824",
+      "29313060",
+      "21317307",
+      "16176925",
+      "18061674",
+      "31835323",
+      "30068871",
+      "22234926",
+      "25923657",
+      "40725160",
+      "40657393",
+      "41988197",
+      "32946028",
+      "11801686",
+      "32504162",
+      "26090662",
+      "28957799",
+      "39248482",
+      "27235587"
+    ],
+    "review": [
+      "41954870",
+      "31319868"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12035-026-05804-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

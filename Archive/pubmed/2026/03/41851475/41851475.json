@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "41851475",
+    "doi": "10.1007/s10495-025-02236-4",
+    "title": "Decoding microglial metabolic cell death and PANoptosis hub genes in subacute phase of traumatic brain injury: a multi-omics and experimental validation study."
+  },
+  "content": {
+    "abstract": "Microglia play a central regulatory role in neuroinflammation and metabolic disturbances during the subacute phase of traumatic brain injury (TBI). PANoptosis and metabolic cell death are key drivers of TBI pathological progression; however, the key regulatory genes governing these processes within microglia remain unclear. Bulk and single-cell RNA-seq datasets from mice with subacute TBI were retrieved from the NCBI GEO database. Seven hub genes associated with PANoptosis and metabolic cell death were identified through weighted gene co-expression network analysis (WGCNA) and maximum group centricity (MCC) algorithms. The occurrence of PANoptosis and metabolic cell death, was validated in a controlled cortical impact (CCI) mouse model. ChEA3 predicted that Batf and Irf8 are common transcription factors regulating these hub genes. Their binding conformations were validated using both AlphaFold3 and electrophoretic mobility shift assay (EMSA), suggesting that hub genes across distinct cell death pathways may be co-regulated. Single-cell RNA-seq data revealed differential expression of the hub genes Lgals3, Gbp2, Capg, and Timp1 in microglia. Monocle2 was used to analyze microglial developmental trajectories, and metabolic flux algorithms were applied to predict metabolic states. Integrated multidimensional evidence ultimately identified the disease-associated microglial subset MG3. Experimental evidence confirmed that these four hub genes are upregulated in microglia, with Lgals3 and Capg exhibiting distinct expression levels across different cell death modalities. These results suggest the potential existence of shared nodal molecules that interconnect metabolic cell death and PANoptosis, thereby providing new potential therapeutic targets for TBI that warrant further investigation.",
+    "keywords": [
+      "Metabolic cell death",
+      "Microglia",
+      "PANoptosis",
+      "Subacute",
+      "Traumatic brain injury"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Microglia/metabolism/pathology",
+      "*Brain Injuries, Traumatic/genetics/metabolism/pathology",
+      "Mice",
+      "Cell Death/genetics",
+      "Multiomics",
+      "Interferon Regulatory Factor-8",
+      "Galectin 3/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Male",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Zhe",
+        "Yang, Bao-Ya",
+        "Lai, Jin-Qing",
+        "Lin, Shi-Hong",
+        "Lin, Long",
+        "Chen, Jian-Long",
+        "Pan, Jia-Xiang",
+        "Ruan, Yao-Xin",
+        "Chen, Xiang-Rong"
+      ],
+      "short_names": [
+        "Wu Z",
+        "Yang BY",
+        "Lai JQ",
+        "Lin SH",
+        "Lin L",
+        "Chen JL",
+        "Pan JX",
+        "Ruan YX",
+        "Chen XR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China.",
+        "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China.",
+        "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China.",
+        "Department of Emergency Department, The Second Affiliated Hospital, Fujian Medical University, Quanzhou, 362000, Fujian Province, China.",
+        "Department of Neurosurgery, Fuzong Clinical Medical College, Fujian Medical University, Fuzhou, 350025, Fujian Province, China.",
+        "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China.",
+        "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China.",
+        "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China.",
+        "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China. xiangrong_chen281@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Zhe",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Bao-Ya",
+        "short_name": "Yang BY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Jin-Qing",
+        "short_name": "Lai JQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Shi-Hong",
+        "short_name": "Lin SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Department, The Second Affiliated Hospital, Fujian Medical University, Quanzhou, 362000, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Long",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Fuzong Clinical Medical College, Fujian Medical University, Fuzhou, 350025, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jian-Long",
+        "short_name": "Chen JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Jia-Xiang",
+        "short_name": "Pan JX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Ruan, Yao-Xin",
+        "short_name": "Ruan YX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiang-Rong",
+        "short_name": "Chen XR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuronal Surgery, The Second Affiliated Hospital, Fujian Medical, Fujian Medical University, Quanzhou, 362000, Fujian Province, China. xiangrong_chen281@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Apoptosis : an international journal on programmed cell death"
+    ],
+    "journal_abbrev": [
+      "Apoptosis"
+    ],
+    "pub_date": "2026 Mar 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 07:10",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40865648",
+      "40436823",
+      "40047220",
+      "39876010",
+      "39242055",
+      "39169144",
+      "38718835",
+      "38685115",
+      "38428031",
+      "38181713",
+      "38129399",
+      "38110635",
+      "38035663",
+      "37977994",
+      "37788577",
+      "36911691",
+      "36747082",
+      "36622894",
+      "36600294",
+      "36300619",
+      "34619283",
+      "34417225",
+      "33597522",
+      "33237311",
+      "31850239",
+      "31434891",
+      "31412203",
+      "29248440",
+      "25867923",
+      "21895532",
+      "19114008",
+      "16199517",
+      "16189478"
+    ],
+    "similar": [
+      "41851475",
+      "41952146",
+      "41878449",
+      "39715972",
+      "41486509",
+      "41622228",
+      "30049279",
+      "41867458",
+      "40268159",
+      "36992583",
+      "32094203",
+      "33452227",
+      "39953505",
+      "41562085",
+      "39841296",
+      "38902548",
+      "41941036",
+      "41235394",
+      "40613560",
+      "42349940",
+      "28935818",
+      "39799354",
+      "42082621",
+      "38833128",
+      "34225752",
+      "41055884",
+      "39196455",
+      "42037113",
+      "42123445",
+      "40787447",
+      "41520557",
+      "37269057",
+      "28292310",
+      "41055763",
+      "41876004",
+      "33953790",
+      "40445975",
+      "42233387",
+      "40498000",
+      "39650656",
+      "38069842",
+      "41583121",
+      "40407969",
+      "39697326",
+      "39136807",
+      "41700019",
+      "41107929",
+      "31896511",
+      "40663577",
+      "31563831",
+      "40274384",
+      "40196131",
+      "39074415",
+      "40216809",
+      "41224720",
+      "41313522",
+      "41569454",
+      "39888480",
+      "33160071",
+      "33402181",
+      "39864680",
+      "39004380",
+      "38840180",
+      "40600991",
+      "41468372",
+      "41242627",
+      "39019041",
+      "41789070",
+      "41237469",
+      "33375205",
+      "31924304",
+      "41926211",
+      "38212778",
+      "40073156",
+      "42119634",
+      "41146197",
+      "40307881",
+      "36333786",
+      "36257689",
+      "28778443",
+      "39800730",
+      "41196457",
+      "35440489",
+      "37562566",
+      "33757183",
+      "40761800",
+      "41369928",
+      "41808327",
+      "41760846",
+      "41930201",
+      "42092981",
+      "36446585",
+      "32029532",
+      "40158428",
+      "41601671",
+      "40254577",
+      "38404827",
+      "38649789",
+      "36742334",
+      "39218784"
+    ],
+    "review": [
+      "41851475"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/traumaticbraininjury.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Traumatic Brain Injury"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10495-025-02236-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-680",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

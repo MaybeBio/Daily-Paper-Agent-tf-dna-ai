@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report modeling the HDAC7-MEF2A complex and using all-atom MD simulations to characterize inter-protein interactions, identifying specific salt bridges, hydrogen bonds, and hydrophobic contacts, with conservation analysis across class IIa HDACs and MEF2s, and an assessment of DNA's effect on the interaction.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, structural coordinates, or quantitative results provided
+- **Missing materials affecting confidence** Full methods, simulation trajectories, structural figures, conservation alignment details, DNA-binding assay or simulation setup, statistical analyses, and any validation of the modeled complex
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study aimed at characterizing HDAC7-MEF2A interactions, a topic of potential interest given the regulatory importance of this complex. However, the evidence base is limited to a summary of findings without methodological detail or quantitative support. The central claims, particularly the specific salt bridge and hydrogen bond predictions, cannot be evaluated for technical soundness from the supplied material. The conservation analysis and the DNA effect claim are stated without supporting data. The work may have merit, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, particularly class IIa HDAC biology and MEF2-dependent gene expression, as well as computational biologists interested in protein-protein interaction prediction and MD simulation of transcriptional complexes. The findings could inform mutagenesis studies and drug design targeting HDAC-MEF2 interfaces.
+- **Major strengths** The study addresses a specific gap in understanding the HDAC7-MEF2A complex at a molecular level. The use of all-atom MD simulations is appropriate for characterizing dynamic protein-protein interactions. The inclusion of conservation analysis adds evolutionary context. The assessment of DNA's effect on the interaction is a relevant and potentially novel contribution.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim identification of a salt bridge between LYS96(HDAC7) and ASP63(MEF2A), and reliable hydrogen bonds between SER82(HDAC7) and ASP63(MEF2A) as well as LYS96(HDAC7) and ASP63(MEF2A).
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on the modeling approach, simulation length, force field, equilibration protocol, or criteria used to define "reliable" hydrogen bonds and salt bridges. Without these details, the reliability of the interaction predictions cannot be assessed. The term "reliable" is undefined and may imply a stability threshold that is not specified.
+  - **Why it matters** The central scientific claim rests on the accuracy of the MD-based interaction predictions. If the simulation setup or analysis criteria are inadequate, the identified interactions may be artifacts. Reproducibility and interpretability require explicit methodological transparency.
+  - **Resolution test** Provide full methods including the template used for homology modeling, simulation duration and replicates, force field parameters, and the occupancy or distance criteria for defining salt bridges and hydrogen bonds. Show time-series or occupancy data for the specific interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that clustering of hydrophobic residues at the interface contributes to stabilizing the HDAC7-MEF2A complex.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative measure of interface stability is provided, such as binding free energy estimates, contact persistence, or root-mean-square fluctuation data. The claim that hydrophobic clustering "contributes to stabilizing" is qualitative and unsupported by any numerical evidence in the abstract.
+  - **Why it matters** Stability claims require energetic or dynamic evidence. Without such data, the assertion is speculative and cannot be distinguished from a general observation of hydrophobic contacts common in protein interfaces.
+  - **Resolution test** Provide binding free energy calculations (e.g., MM-PBSA or similar), per-residue energy decomposition, or contact occupancy analysis demonstrating that hydrophobic residues contribute significantly to complex stability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that association of DNA to MEF2A has no significant effect on HDAC7-MEF2A interactions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the DNA-bound state was modeled, what simulations were performed, or what metric was used to compare interaction patterns between DNA-bound and DNA-free conditions. The claim of "no significant effect" requires a statistical comparison that is not presented.
+  - **Why it matters** This is a potentially novel finding with biological implications, but without a clear comparative framework and statistical support, the claim is not established. The absence of an effect could be due to insufficient sampling or insensitive metrics.
+  - **Resolution test** Describe the DNA-bound complex construction, simulation conditions, and the specific interaction metrics compared. Provide statistical tests (e.g., per-residue contact frequencies with error bars) demonstrating equivalence or non-significant differences.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conservation claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that "most" HDAC7 residues are conserved in "at least three" class IIa HDACs is vague. It is unclear how many residues were predicted and what fraction "most" represents.
+  - **Required correction** Specify the total number of predicted interface residues and the exact count or percentage conserved across the class IIa HDAC family, with a clear definition of conservation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Biological significance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not discuss the functional implications of the identified interactions, such as how they might affect MEF2A transcriptional activity or HDAC7 recruitment.
+  - **Required correction** Add a sentence connecting the structural findings to potential functional consequences, even if speculative, to enhance biological relevance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of validation of the modeled complex, such as comparison with experimental structures or cross-linking data, is provided.
+  - **Required correction** State whether the model was validated against known experimental data or include a statement on model confidence (e.g., from the modeling server or scoring functions).
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail and quantitative support for the central interaction claims, the stability assertion, and the DNA effect claim prevents evaluation of the study's technical validity.
+- **Assessment against Nature-style criteria** 
+  - Originality: The specific focus on HDAC7-MEF2A interaction details may be novel, but the abstract does not clearly differentiate from prior studies beyond stating a lack of "detailed characterization." The originality claim is weak without a comparative statement.
+  - Scientific importance: The topic is relevant to transcriptional regulation, but the abstract does not articulate broader implications for disease or therapeutic targeting, limiting perceived importance.
+  - Interdisciplinary readership: The work bridges structural biology and computational biophysics, but the abstract is written for a specialist audience and does not frame the findings for a broader readership.
+  - Technical soundness: Not assessable from the abstract due to missing methods and quantitative data. This is the primary weakness.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without context, making it difficult for nonspecialists to grasp the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful computational study, but the absence of methodological detail and quantitative support for the key claims means the case is not made. I would be supportive if the full manuscript provides rigorous methods, validation, and statistical analyses that substantiate the interaction predictions, stability claims, and the DNA effect finding.
+
+## Risk / unsupported claims
+- The specific salt bridge (LYS96-ASP63) and hydrogen bond (SER82-ASP63, LYS96-ASP63) predictions are unsupported without simulation details and occupancy data.
+- The claim that hydrophobic clustering stabilizes the complex is unsupported without energetic or dynamic evidence.
+- The claim that DNA association has no significant effect on HDAC7-MEF2A interactions is unsupported without a comparative simulation design and statistical analysis.
+- The conservation claim is vague and not quantitatively supported.
+- The general statement that results "may provide useful insights" into other class IIa HDAC-MEF2 interactions is speculative and not directly evidenced.

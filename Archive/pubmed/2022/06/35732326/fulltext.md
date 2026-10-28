@@ -1,0 +1,9 @@
+# Protein Expression Profiling and Virtual Drug Screening as an Approach for Individualized Therapy of Small Cell Vaginal Carcinoma
+
+
+## Abstract
+  Background: Small cell vaginal carcinoma is a very rare gynecological cancer and treatments including chemo- and radiotherapy have had limited success.
+
+  Case Report: We report the case of a 37-year-old female, where intensive treatment with the combination of paclitaxel, carboplatin, irinotecan, and camptothecin with and without irradiation did not avoid metastasis of the tumor and the death of the patient. In an attempt to develop a strategy for individualized tumor therapy, we performed immunohistochemistry of 19 cancer-related proteins using a biopsy sample. Strong expression was observed for glutathione S-transferase P1 (GSTP1), epidermal growth factor receptor (EGFR), inducible nitric oxide synthetase (iNOS), nuclear factor kappa B (NF-ĸB), the oncogene c-MYC, vascular endothelial growth factor (VEGF), and the proliferation marker Ki-67. Intermediate expression was found for the oncogene SRC, β-catenin, and the viral E7 protein. We then performed virtual drug screening with PyRx and molecular docking with AutoDock 4.2.6 by using the three-dimensional structures of these proteins and a chemical library of 1,577 FDA-approved drugs, in a drug repurposing approach. The top 15 compounds were either approved anticancer drugs or drugs used to treat non-malignant diseases. These compounds were bound with comparable or even higher affinity to the targets compared to control inhibitors. Several of these compounds were bound with high affinity to more than one of these target proteins, further supporting the drug repurposing concept.
+
+  Conclusion: These drugs might offer additional opportunities to reach treatment responses. This approach of individualized tumor therapy might be theoretically not only applicable for small cell vaginal carcinoma but for other tumor entities as well.

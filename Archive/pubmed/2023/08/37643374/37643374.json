@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "37643374",
+    "doi": "10.1093/bib/bbad316",
+    "title": "DeepICSH: a complex deep learning framework for identifying cell-specific silencers and their strength from the human genome."
+  },
+  "content": {
+    "abstract": "Silencers are noncoding DNA sequence fragments located on the genome that suppress gene expression. The variation of silencers in specific cells is closely related to gene expression and cancer development. Computational approaches that exclusively rely on DNA sequence information for silencer identification fail to account for the cell specificity of silencers, resulting in diminished accuracy. Despite the discovery of several transcription factors and epigenetic modifications associated with silencers on the genome, there is still no definitive biological signal or combination thereof to fully characterize silencers, posing challenges in selecting suitable biological signals for their identification. Therefore, we propose a sophisticated deep learning framework called DeepICSH, which is based on multiple biological data sources. Specifically, DeepICSH leverages a deep convolutional neural network to automatically capture biologically relevant signal combinations strongly associated with silencers, originating from a diverse array of biological signals. Furthermore, the utilization of attention mechanisms facilitates the scoring and visualization of these signal combinations, whereas the employment of skip connections facilitates the fusion of multilevel sequence features and signal combinations, thereby empowering the accurate identification of silencers within specific cells. Extensive experiments on HepG2 and K562 cell line data sets demonstrate that DeepICSH outperforms state-of-the-art methods in silencer identification. Notably, we introduce for the first time a deep learning framework based on multi-omics data for classifying strong and weak silencers, achieving favorable performance. In conclusion, DeepICSH shows great promise for advancing the study and analysis of silencers in complex diseases. The source code is available at https://github.com/lyli1013/DeepICSH.",
+    "keywords": [
+      "deep neural network",
+      "histone modification",
+      "sequence features",
+      "silencer",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Genome, Human",
+      "*Deep Learning",
+      "Cell Line",
+      "Epigenesis, Genetic",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Tianjiao",
+        "Li, Liangyu",
+        "Sun, Hailong",
+        "Xu, Dali",
+        "Wang, Guohua"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Li L",
+        "Sun H",
+        "Xu D",
+        "Wang G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9807-8620",
+        "ORCID: 0009-0004-0594-5625"
+      ],
+      "affiliations": [
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Tianjiao",
+        "short_name": "Zhang T",
+        "identifiers": [
+          "0000-0001-9807-8620"
+        ],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liangyu",
+        "short_name": "Li L",
+        "identifiers": [
+          "0009-0004-0594-5625"
+        ],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Hailong",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Dali",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guohua",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Sep 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/29 18:42",
+    "fetched_at": "2026-09-29 06:19:55"
+  },
+  "links": {
+    "cites": [
+      "41902470",
+      "40382355",
+      "39859192",
+      "39361263",
+      "39276327",
+      "38927646",
+      "38678387",
+      "38672453",
+      "38127088"
+    ],
+    "refs": [],
+    "similar": [
+      "37643374",
+      "37294799",
+      "38168841",
+      "38978133",
+      "30886051",
+      "31590652",
+      "34486522",
+      "32094911",
+      "38798661",
+      "35799358",
+      "35293310",
+      "30967126",
+      "35809058",
+      "29069282",
+      "7791756",
+      "33741075",
+      "32103011",
+      "37740295",
+      "32926369",
+      "33577560",
+      "34478501",
+      "38594933",
+      "35105669",
+      "36739624",
+      "35563864",
+      "34601568",
+      "27587684",
+      "37147619",
+      "36495179",
+      "34003286",
+      "34073774",
+      "31904817",
+      "33045745",
+      "34038365",
+      "36631401",
+      "33634313",
+      "36877736",
+      "35580841",
+      "30808287",
+      "34699365",
+      "36464123",
+      "37101124",
+      "30967120",
+      "36971292",
+      "34571539",
+      "36344659",
+      "34915158",
+      "33347303",
+      "34440291",
+      "37522887",
+      "37348298",
+      "35945138",
+      "32599617",
+      "33909566",
+      "36084008",
+      "35891778",
+      "31870282",
+      "16908533",
+      "32822302",
+      "26939020",
+      "33979295",
+      "34478704",
+      "36929928",
+      "33581335",
+      "36788531",
+      "33712326",
+      "8641284",
+      "33740884",
+      "28245811",
+      "36935548",
+      "36205602",
+      "36366781",
+      "33367499",
+      "39107690",
+      "35471889",
+      "31349729",
+      "35604077",
+      "35325548",
+      "36694944",
+      "29870348",
+      "30500881",
+      "34028557",
+      "33454736",
+      "37606993",
+      "34856923",
+      "37489287",
+      "36520922",
+      "31865908",
+      "37294468",
+      "35872410",
+      "36723605",
+      "33234095",
+      "38691895",
+      "36747873",
+      "39304765",
+      "34370721",
+      "38008420",
+      "38463884",
+      "37995133",
+      "38699000"
+    ],
+    "review": [
+      "37643374",
+      "38594933",
+      "35563864",
+      "34003286",
+      "36344659",
+      "33712326",
+      "37294468"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37643374.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad316",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

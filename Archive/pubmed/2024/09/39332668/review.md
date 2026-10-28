@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use computational modeling, including extended molecular dynamics simulations (>10 microseconds) and enhanced sampling, to study the full-length farnesoid X receptor (FXR) approximated by the DNA binding domain (DBD) and ligand binding domain (LBD) connected by the flexible hinge. They claim that ligands selectively induce domain rearrangement leading to interdomain contact, that the hinge plays a critical role in mediating this contact, and that protein-protein interaction assays provide experimental evidence for these interactions. They further claim that their results illuminate previously unknown aspects of interdomain communication in FXR and provide a framework for characterizing other full-length nuclear receptors.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation metrics, experimental protocols, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation validation details, experimental assay descriptions, statistical analyses, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational and experimental study of interdomain communication in FXR, a topic of relevance to nuclear receptor biology. However, the evidence base available for assessment is limited to the abstract, which precludes verification of the central claims. The claim that ligands selectively induce domain rearrangement and interdomain contact is plausible but not established from the supplied material. The experimental validation via protein-protein interaction assays is mentioned but not described in sufficient detail to assess its rigor. The broader claim of providing a framework for other nuclear receptors is aspirational and not supported by the evidence presented in the abstract alone.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, structural biology, and allosteric regulation would be interested. Those studying FXR specifically, as well as those interested in full-length receptor dynamics and the role of flexible hinge regions in domain communication, would find the results relevant. Computational biologists working on enhanced sampling methods for large protein systems may also be interested in the methodological approach.
+- **Major strengths** The study addresses a recognized gap in the field, namely the difficulty of characterizing full-length nuclear receptor structures and understanding interdomain communication. The combination of long-timescale molecular dynamics with enhanced sampling and experimental validation is a commendable approach. The focus on the hinge region as a mediator of interdomain contact is a potentially novel contribution.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ligands selectively induce domain rearrangement leading to interdomain contact, and that the hinge plays a critical role in mediating this contact.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that computational modeling provides evidence for ligand-induced domain rearrangement and that protein-protein interaction assays provide experimental evidence of these interactions. However, no quantitative results, statistical measures, or methodological details are provided. It is unclear how many ligands were tested, what the magnitude of the observed effects was, whether the effects were reproducible across replicates, and how the protein-protein interaction assays were designed and controlled.
+  - **Why it matters** The central claim of the paper rests on the demonstration that ligands selectively induce interdomain contact and that the hinge mediates this effect. Without access to the underlying data, the strength and specificity of the observed effects cannot be evaluated. The term "selectively" implies ligand-specific differences, which requires comparative analysis across multiple ligands with appropriate controls.
+  - **Resolution test** Provide the full methods and results, including simulation parameters, convergence criteria, enhanced sampling details, experimental assay design, controls, replicates, and statistical analyses. The claim of selectivity requires demonstration that different ligands produce distinct and reproducible domain rearrangement patterns.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** The authors state that the full-length FXR structure is approximated by the DBD and LBD connected by the flexible hinge region.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the full-length model was constructed, whether the hinge was modeled based on experimental data or purely computationally, and how the approximation was validated. The hinge is described as flexible, which raises questions about the reliability of simulations that depend on its conformational sampling. No information is provided about the starting structure, force field, solvation conditions, or system size.
+  - **Why it matters** The validity of the computational model is foundational to all subsequent claims. If the model construction is not robust or the hinge representation is not physically realistic, the observed domain rearrangements may be artifacts of the modeling approach rather than biologically meaningful events.
+  - **Resolution test** Describe the model construction process, including the source of domain structures, hinge modeling strategy, and any validation against experimental data such as small-angle X-ray scattering or cross-linking mass spectrometry. Provide evidence that the simulation results are converged and reproducible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation rigor
+  - **Claim pointer** The authors claim to use protein-protein interaction assays to provide experimental evidence of interdomain interactions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions protein-protein interaction assays but does not specify the assay type, the constructs used, the conditions, or the controls. It is unclear whether the assays directly measure DBD-LBD interactions in the context of the full-length receptor or in isolated domains, and whether the hinge was included or deleted in the experimental constructs.
+  - **Why it matters** The experimental validation is critical to support the computational findings. If the assays do not directly test the interdomain interactions predicted by the simulations, or if the hinge role is not experimentally tested, the claim that the hinge mediates interdomain contact remains computationally inferred rather than experimentally established.
+  - **Resolution test** Provide detailed experimental methods, including assay type, construct design, purification details, interaction measurements, positive and negative controls, and statistical analysis. Ideally, include experiments that test the role of the hinge directly, such as hinge deletion or mutation studies.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "ligands selectively induce domain rearrangement" is ambiguous. It is unclear whether "selectively" refers to ligand-specific effects, domain-specific effects, or both.
+  - **Required correction** Clarify the meaning of "selectively" in the context of the findings, specifying whether different ligands produce different rearrangement patterns or whether the rearrangement is selective to particular domain pairs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Framework claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the results provide "a framework to enable characterization of other full-length nuclear receptors" is broad and not supported by evidence in the abstract. It is unclear what aspects of the approach are transferable.
+  - **Required correction** Either temper the claim to reflect what was specifically demonstrated for FXR or provide a brief explanation of which methodological elements are generalizable and why.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Simulation timescale
+  - **Affected element** Sampling adequacy
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states simulations exceeded 10 microseconds, but it is unclear whether this refers to a single trajectory, multiple independent trajectories, or cumulative sampling. The adequacy of sampling for a system with a flexible hinge is not discussed.
+  - **Required correction** Specify the simulation protocol, including number of replicates, total cumulative sampling, and any convergence assessments that support the reliability of the observed domain rearrangements.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims of ligand-selective domain rearrangement, hinge-mediated interdomain contact, and experimental validation cannot be assessed from the abstract alone. The model construction and validation, the experimental assay design and controls, and the quantitative evidence for selectivity must be provided.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on the hinge as a mediator of interdomain communication in a full-length nuclear receptor is potentially original, but the abstract does not provide sufficient context to distinguish this from prior work on nuclear receptor dynamics.
+  - Scientific importance: Understanding interdomain communication in nuclear receptors is important for the field, and FXR is a relevant therapeutic target. However, the significance of the specific findings cannot be fully evaluated without the data.
+  - Interdisciplinary readership: The topic bridges structural biology, computational biology, and nuclear receptor signaling, which could appeal to a broad readership. The abstract is written in a way that is accessible to nonspecialists.
+  - Technical soundness: Cannot be assessed from the abstract. The simulation methodology and experimental validation are described only superficially.
+  - Readability for nonspecialists: The abstract is clearly written and understandable to a broad scientific audience, with appropriate context for the biological question.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable study, but the evidence base is insufficient to assess the validity of the central claims. A full review of the manuscript would be required to determine whether the computational and experimental results support the conclusions.
+
+## Risk / unsupported claims
+- The claim that ligands selectively induce domain rearrangement leading to interdomain contact is unsupported by quantitative data in the abstract.
+- The claim that the hinge plays a critical role in mediating interdomain contact is not experimentally demonstrated in the abstract.
+- The claim that the results provide a framework for characterizing other full-length nuclear receptors is not supported by the evidence presented.
+- The adequacy of the computational sampling and the validity of the full-length model cannot be assessed from the abstract.
+- The experimental validation via protein-protein interaction assays is mentioned but not described in sufficient detail to evaluate its rigor or relevance.

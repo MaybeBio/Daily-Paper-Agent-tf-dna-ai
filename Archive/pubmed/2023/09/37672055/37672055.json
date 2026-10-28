@@ -1,0 +1,481 @@
+{
+  "identity": {
+    "pmid": "37672055",
+    "doi": "10.1007/s00330-023-10198-x",
+    "title": "Discrimination between human epidermal growth factor receptor 2 (HER2)-low-expressing and HER2-overexpressing breast cancers: a comparative study of four MRI diffusion models."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: To determine the value of conventional DWI, continuous-time random walk (CTRW), fractional order calculus (FROC), and stretched exponential model (SEM) in discriminating human epidermal growth factor receptor 2 (HER2) status of breast cancer (BC). METHODS: This prospective study included 158 women who underwent DWI, CTRW, FROC, and SEM and were pathologically categorized into the HER2-zero-expressing group (n = 10), HER2-low-expressing group (n = 86), and HER2-overexpressing group (n = 62). Nine diffusion parameters, namely ADC, alpha(CTRW), beta(CTRW), D(CTRW), beta(FROC), D(FROC), mu(FROC), alpha(SEM), and DDC(SEM) of the primary tumor, were derived from four diffusion models. These diffusion metrics and clinicopathologic features were compared between groups. Logistic regression was used to determine the optimal diffusion metrics and clinicopathologic variables for classifying the HER2-expressing statuses. Receiver operating characteristic (ROC) curves were used to evaluate their discriminative ability. RESULTS: The estrogen receptor (ER) status, progesterone receptor (PR) status, and tumor size differed between HER2-low-expressing and HER2-overexpressing groups (p < 0.001 to p = 0.009). The alpha(CTRW), D(CTRW), beta(FROC), D(FROC), mu(FROC), alpha(SEM), and DDC(SEM) were significantly lower in HER2-low-expressing BCs than those in HER2-overexpressing BCs (p < 0.001 to p = 0.01). Further multivariable logistic regression analysis showed that the alpha(CTRW) was the single best discriminative metric, with an area under the curve (AUC) being higher than that of ADC (0.802 vs. 0.610, p < 0.05); the addition of ER status, PR status, and tumor size to the alpha(CTRW) improved the AUC to 0.877. CONCLUSIONS: The alpha(CTRW) could help discriminate the HER2-low-expressing and HER2-overexpressing BCs. CLINICAL RELEVANCE STATEMENT: Human epidermal growth factor receptor 2 (HER2)-low-expressing breast cancer (BC) might also benefit from the HER2-targeted therapy. Prediction of HER2-low-expressing BC or HER2-overexpressing BC is crucial for appropriate management. Advanced continuous-time random walk diffusion MRI offers a solution to this clinical issue. KEY POINTS: * Human epidermal receptor 2 (HER2)-low-expressing BC had lower alpha(CTRW), D(CTRW), beta(FROC), D(FROC), mu(FROC), alpha(SEM), and DDC(SEM) values compared with HER2-overexpressing breast cancer. * The alpha(CTRW) was the single best diffusion metric (AUC = 0.802) for discrimination between the HER2-low-expressing and HER2-overexpressing breast cancers. * The addition of alpha(CTRW) to the clinicopathologic features (estrogen receptor status, progesterone receptor status, and tumor size) further improved the discriminative ability.",
+    "keywords": [
+      "Breast neoplasms",
+      "Diffusion magnetic resonance imaging",
+      "ERBB2 protein, human"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "*Breast Neoplasms/pathology",
+      "Prospective Studies",
+      "Receptors, Progesterone",
+      "Diffusion Magnetic Resonance Imaging",
+      "Receptors, Estrogen/metabolism",
+      "*Erb-b2 Receptor Tyrosine Kinases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mao, Chunping",
+        "Hu, Lanxin",
+        "Jiang, Wei",
+        "Qiu, Ya",
+        "Yang, Zehong",
+        "Liu, Yeqing",
+        "Wang, Mengzhu",
+        "Wang, Dongye",
+        "Su, Yun",
+        "Lin, Jinru",
+        "Yan, Xu",
+        "Cai, Zhaoxi",
+        "Zhang, Xiang",
+        "Shen, Jun"
+      ],
+      "short_names": [
+        "Mao C",
+        "Hu L",
+        "Jiang W",
+        "Qiu Y",
+        "Yang Z",
+        "Liu Y",
+        "Wang M",
+        "Wang D",
+        "Su Y",
+        "Lin J",
+        "Yan X",
+        "Cai Z",
+        "Zhang X",
+        "Shen J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7746-5285"
+      ],
+      "affiliations": [
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "MR Scientific Marketing, Siemens Healthcare, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "MR Scientific Marketing, Siemens Healthcare, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China. zhangx345@mail.sysu.edu.cn.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China. zhangx345@mail.sysu.edu.cn.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China. shenjun@mail.sysu.edu.cn.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China. shenjun@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mao, Chunping",
+        "short_name": "Mao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Lanxin",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Wei",
+        "short_name": "Jiang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Ya",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zehong",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yeqing",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pathology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Mengzhu",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "MR Scientific Marketing, Siemens Healthcare, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongye",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yun",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jinru",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Xu",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "MR Scientific Marketing, Siemens Healthcare, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Zhaoxi",
+        "short_name": "Cai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China. zhangx345@mail.sysu.edu.cn.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China. zhangx345@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shen, Jun",
+        "short_name": "Shen J",
+        "identifiers": [
+          "0000-0001-7746-5285"
+        ],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, No. 107 Yanjiang Road West, Guangzhou, 510120, Guangdong, China. shenjun@mail.sysu.edu.cn.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Medical Research Center, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China. shenjun@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European radiology"
+    ],
+    "journal_abbrev": [
+      "Eur Radiol"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/06 12:41",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "42682338",
+      "42433563",
+      "42394685",
+      "42316062",
+      "42305025",
+      "42247047",
+      "42240643",
+      "42223631",
+      "42126725",
+      "41972060",
+      "41742653",
+      "41606519",
+      "41595584",
+      "41590373",
+      "41462129",
+      "41350639",
+      "41231330",
+      "41081881",
+      "41051612",
+      "40891579",
+      "40809035",
+      "40727335",
+      "40596898",
+      "40510142",
+      "40438696",
+      "40392960",
+      "40358858",
+      "40355910",
+      "40134597",
+      "40133226",
+      "39839005",
+      "39636532",
+      "39470030",
+      "39394171",
+      "39373771",
+      "39211555",
+      "38991838",
+      "38854720",
+      "38853200",
+      "38726477"
+    ],
+    "refs": [
+      "35665782",
+      "35186753",
+      "34874198",
+      "34345946",
+      "34252375",
+      "34078388",
+      "33804398",
+      "33543512",
+      "33538338",
+      "33309922",
+      "33228564",
+      "33148675",
+      "32888071",
+      "32377938",
+      "32330069",
+      "32058843",
+      "31975448",
+      "31825192",
+      "31821109",
+      "31548545",
+      "31262334",
+      "31032222",
+      "30919518",
+      "30811717",
+      "30777809",
+      "30451345",
+      "30311988",
+      "30293819",
+      "29044896",
+      "28762384",
+      "28453516",
+      "28139036",
+      "27661775",
+      "27556950",
+      "26230975",
+      "26035586",
+      "24353241",
+      "24101045",
+      "22517955",
+      "21960707",
+      "20404251",
+      "3393671"
+    ],
+    "similar": [
+      "37672055",
+      "38363315",
+      "38905803",
+      "28453516",
+      "38307375",
+      "36251468",
+      "36175898",
+      "23040001",
+      "36763035",
+      "37506477",
+      "31385051",
+      "38135156",
+      "35186753",
+      "22527371",
+      "16938528",
+      "36788086",
+      "38021219",
+      "38265001",
+      "38942456",
+      "28409323",
+      "30811717",
+      "20809337",
+      "37344324",
+      "19130322",
+      "22290394",
+      "22903686",
+      "30927939",
+      "31262334",
+      "38991838",
+      "24652232",
+      "19764994",
+      "22045649",
+      "30116958",
+      "27072207",
+      "26968141",
+      "29070476",
+      "31026118",
+      "35040361",
+      "23723333",
+      "27057657",
+      "27501902",
+      "34244052",
+      "27760283",
+      "21327800",
+      "31300338",
+      "33167903",
+      "32613540",
+      "25736840",
+      "30613307",
+      "27220749",
+      "38114364",
+      "38061237",
+      "24065473",
+      "27619909",
+      "22370627",
+      "37188173",
+      "36224558",
+      "22411304",
+      "25385317",
+      "27456970",
+      "18098228",
+      "33413654",
+      "29885789",
+      "38853200",
+      "21358301",
+      "34856951",
+      "26138872",
+      "27221883",
+      "28689363",
+      "22741544",
+      "19643597",
+      "21700456",
+      "36661350",
+      "29168063",
+      "37524746",
+      "27666130",
+      "24269902",
+      "37691204",
+      "31002322",
+      "22621334",
+      "32592349",
+      "30396643",
+      "27242965",
+      "34431365",
+      "38700366",
+      "25234844",
+      "25012047",
+      "35711896",
+      "27743431",
+      "32620918",
+      "28560596",
+      "18189290",
+      "19620495",
+      "25938238",
+      "32086588",
+      "38547418",
+      "24926080",
+      "38231460",
+      "21375607",
+      "34342693",
+      "27116182",
+      "25891905",
+      "28843513",
+      "22544643",
+      "39122586",
+      "38309977",
+      "38867120",
+      "35355697",
+      "38580676",
+      "39320560",
+      "38726026"
+    ],
+    "review": [
+      "37672055",
+      "38942456",
+      "27072207",
+      "27057657",
+      "22370627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00330-023-10198-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

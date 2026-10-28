@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.16.738979",
+  "title": "CASCADE recovers promoter-associated regulatory motifs from cell-type-resolved DNA language-model attributions",
+  "authors": "Ali Farghadan; Robert J. Schmitz; Scott A. Jackson; Ethan Pickering",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用DNA语言模型和细胞类型分辨的序列-表达模型，结合CASCADE统计框架从归因中恢复启动子相关调控基序，虽非直接TF-DNA结合建模，但方法可迁移至TF-DNA互作位点预测。",
+  "abstract": "Gene expression is governed by regulatory DNA and their associated trans factors acting in specific cell types, yet the sequences underlying this control remain poorly mapped in plants. Genome-pretrained DNA language models provide a route to interrogate regulatory sequence directly, but their attributions have largely been interpreted using bulk or whole-tissue data, and standard attribution pipelines can preferentially highlight sequences downstream of the transcription start (TSS) site rather than promoter-associated signals. Here, we train a celltype-resolved sequence-to-expression model from a single-cell soybean ( Glycine max ) atlas by coupling a soybean-adapted Genomic Pre-trained Network (GPN) to a shared sequence encoder with 66 cell-type-specific output heads. Across 38,339 protein-coding genes, the model achieves a mean per-cell-type, across-gene Pearson correlation of 0.683 and, recast as a highversus-low expression classification, reaches an area under the ROC curve of 0.92 to 0.97 across tissues, at or above dedicated plant sequence models. We then introduce ContextAware Significance of Cross-gene Attribution for Discovering Elements (CASCADE), a positionspecific statistical framework for identifying model-derived candidate regulatory elements from in silico saturation mutagenesis. Relative to the pooled null used by TF-MoDISco, CASCADE shifts motif recovery from downstream of the transcription start site toward promoter sequence, with 77% of CASCADE-exclusive motifs, compared with 12% of TF-MoDISco-exclusive motifs, falling within the promoter. Applied across the atlas, CASCADE identifies approximately 1.39 million candidate elements spanning broadly active, tissue-restricted and cell-type-restricted classes. Together, these analyses establish a position-aware approach for extracting promoterassociated regulatory hypotheses from sequence models and generate a cell-type-resolved map of candidate cis -regulatory elements.",
+  "abstract_zh": "基因表达受调控性DNA及其在特定细胞类型中发挥作用的关联反式因子所支配，然而在植物中，支撑这一控制的序列仍未被充分定位。基因组预训练DNA语言模型为直接探究调控序列提供了一条途径，但其归因大多通过批量或全组织数据来解释，且标准归因流程可能优先突出转录起始位点（TSS）下游的序列，而非启动子相关信号。在此，我们通过将大豆适配的基因组预训练网络（GPN）与一个共享序列编码器（具有66个细胞类型特异性输出头）耦合，从单细胞大豆（Glycine max）图谱中训练了一个细胞类型分辨的序列到表达模型。在38,339个蛋白编码基因中，该模型实现了平均每细胞类型、跨基因的Pearson相关系数为0.683，并且重新表述为高表达与低表达分类任务时，在各组织中的ROC曲线下面积达到0.92至0.97，达到或超过专用植物序列模型的水平。随后，我们引入了跨基因归因上下文感知显著性以发现元件（CASCADE），这是一个位置特异性统计框架，用于从计算机模拟饱和突变中识别模型衍生的候选调控元件。相对于TF-MoDISco使用的合并零分布，CASCADE将基序恢复从转录起始位点下游转向启动子序列，其中77%的CASCADE独有基序落在启动子内，而TF-MoDISco独有基序中这一比例仅为12%。将该方法应用于整个图谱，CASCADE识别出约139万个候选元件，涵盖广泛活性、组织限制性和细胞类型限制性类别。综合来看，这些分析建立了一种位置感知方法，用于从序列模型中提取启动子相关的调控假设，并生成了候选顺式调控元件的细胞类型分辨图谱。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738979",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738979",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.16.738979/index.html"
+}

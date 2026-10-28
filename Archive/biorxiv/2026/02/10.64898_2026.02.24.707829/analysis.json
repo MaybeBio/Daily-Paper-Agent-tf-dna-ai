@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.24.707829",
+  "title": "Decoding the Allosteric Paradox: A Dual Framework Integrating AI Cofolding Models with Landscape-Guided Interpretable AI Framework of Ligand-Protein Binding",
+  "authors": "Vedant Parikh; Brandon Foley; Will Gatlin; Max Ludwick; Lucas Turano; Gennady M. Verkhivker",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-26",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建双可解释AI框架，结合能量景观与局部挫折分析，系统评估AlphaFold3等模型在正构与别构配体-蛋白结合预测中的表现，虽聚焦配体-蛋白而非TF-DNA，但其AI共折叠模型与物理景观结合的方法可迁移至蛋白质-DNA互作建模，对课题有借鉴价值。",
+  "abstract": "Artificial intelligence (AI) has transformed prediction of protein structure and biomolecular interactions, yet modeling of allosteric regulation remains a persistent and unresolved challenge. We develop a dual explainable AI framework that systematically interrogates AI Co-Folding models AlphaFold3, Protenix, Boltz-2, Chai-1, and DynamicBind on rigorously stratified datasets of orthosteric and allosteric ligand-protein complexes. While all AI models excel in accurate modeling of orthosteric ligand binding, a universal and architecture-independent collapse emerges in prediction of allosteric complexes. The biophysical logic for this dichotomy is unveiled through physics-based lens of the energy landscape theory and local frustration analysis. Orthosteric binding creates dominant energetic funnels via ligand-induced minimal frustration quenching, while allosteric sites preserve neutral frustration landscapes in both apo and holo protein states. The findings show that conformational heterogeneity and evolutionary plasticity encoded in allosteric binding landscapes may conceal the recurrent recognition patterns AI models are trained to detect. By linking prediction outcomes to frustration landscapes, this study recasts AI shortcomings in allosteric ligand binding as diagnostic indicators of fundamental biophysical constraints, establishing a physics-informed framework that turns the allosteric blind spot into mechanistic insight for next-generation landscape-aware predictive tools.",
+  "abstract_zh": "人工智能（AI）已彻底改变了蛋白质结构和生物分子相互作用的预测，然而变构调控的建模仍是一个持续存在且尚未解决的挑战。我们开发了一个双可解释AI框架，系统性地探究AI共折叠模型AlphaFold3、Protenix、Boltz-2、Chai-1和DynamicBind在严格分层的正构和变构配体-蛋白质复合物数据集上的表现。尽管所有AI模型在正构配体结合的准确建模方面表现出色，但在变构复合物的预测中出现了普遍且架构无关的崩溃。这种二分法的生物物理逻辑通过能量景观理论和局部挫折分析的物理视角得以揭示。正构结合通过配体诱导的最小挫折淬灭形成主导性能量漏斗，而变构位点在脱辅基和全蛋白状态下均保持中性挫折景观。研究结果表明，变构结合景观中编码的构象异质性和进化可塑性可能掩盖了AI模型训练所检测的重复识别模式。通过将预测结果与挫折景观联系起来，本研究将AI在变构配体结合中的不足重新定义为基本生物物理约束的诊断指标，建立了一个物理信息框架，将变构盲点转化为机制洞察，为下一代景观感知预测工具奠定基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707829",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707829",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.24.707829/index.html"
+}

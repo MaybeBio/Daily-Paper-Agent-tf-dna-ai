@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "36518755",
+    "doi": "10.3389/fimmu.2022.1054407",
+    "title": "Machine learning links different gene patterns of viral infection to immunosuppression and immune-related biomarkers in severe burns."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Viral infection, typically disregarded, has a significant role in burns. However, there is still a lack of biomarkers and immunotherapy targets related to viral infections in burns. METHODS: Virus-related genes (VRGs) that were extracted from Gene Oncology (GO) database were included as hallmarks. Through unsupervised consensus clustering, we divided patients into two VRGs molecular patterns (VRGMPs). Weighted gene co-expression network analysis (WGCNA) was performed to study the relationship between burns and VRGs. Random forest (RF), least absolute shrinkage and selection operator (LASSO) regression, and logistic regression were used to select key genes, which were utilized to construct prognostic signatures by multivariate logistic regression. The risk score of the nomogram defined high- and low-risk groups. We compared immune cells, immune checkpoint-related genes, and prognosis between the two groups. Finally, we used network analysis and molecular docking to predict drugs targeting CD69 and SATB1. Expression of CD69 and SATB1 was validated by qPCR and microarray with the blood sample from the burn patient. RESULTS: We established two VRGMPs, which differed in monocytes, neutrophils, dendritic cells, and T cells. In WGCNA, genes were divided into 14 modules, and the black module was correlated with VRGMPs. A total of 65 genes were selected by WGCNA, STRING, and differential expression analysis. The results of GO enrichment analysis were enriched in Th1 and Th2 cell differentiation, B cell receptor signaling pathway, alpha-beta T cell activation, and alpha-beta T cell differentiation. Then the 2-gene signature was constructed by RF, LASSO, and LOGISTIC regression. The signature was an independent prognostic factor and performed well in ROC, calibration, and decision curves. Further, the expression of immune cells and checkpoint genes differed between high- and low-risk groups. CD69 and SATB1 were differentially expressed in burns. DISCUSSION: This is the first VRG-based signature (including 2 key genes validated by qPCR) for predicting survival, and it could provide vital guidance to achieve optimized immunotherapy for immunosuppression in burns.",
+    "keywords": [
+      "burn",
+      "immunosuppression",
+      "machine learning",
+      "prognostic model",
+      "virus infection"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Biomarkers",
+      "*Burns/genetics",
+      "Immunosuppression Therapy",
+      "Machine Learning",
+      "*Matrix Attachment Region Binding Proteins/genetics",
+      "Molecular Docking Simulation",
+      "*Virus Diseases/genetics",
+      "*Antigens, Differentiation, T-Lymphocyte/genetics",
+      "*Antigens, CD/genetics",
+      "CD69 Antigens"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Peng",
+        "Zhang, Zexin",
+        "Lin, Rongjie",
+        "Lin, Jiali",
+        "Liu, Jiaming",
+        "Zhou, Xiaoqian",
+        "Jiang, Liyuan",
+        "Wang, Yu",
+        "Deng, Xudong",
+        "Lai, Haijing",
+        "Xiao, Hou'an"
+      ],
+      "short_names": [
+        "Wang P",
+        "Zhang Z",
+        "Lin R",
+        "Lin J",
+        "Liu J",
+        "Zhou X",
+        "Jiang L",
+        "Wang Y",
+        "Deng X",
+        "Lai H",
+        "Xiao H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China.",
+        "Department of Burns and Plastic and Wound Repair Surgery, Xiang'an Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, China.",
+        "Department of Orthopedics, 900th Hospital of Joint Logistics Support Force, Fuzhou, China.",
+        "Obstetrics and Gynecology Hospital, Institute of Reproduction and Development, Fudan University, Shanghai, China.",
+        "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China.",
+        "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China.",
+        "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China.",
+        "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China.",
+        "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China.",
+        "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China.",
+        "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Peng",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zexin",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Wound Repair Surgery, Xiang'an Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Rongjie",
+        "short_name": "Lin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, 900th Hospital of Joint Logistics Support Force, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jiali",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Obstetrics and Gynecology Hospital, Institute of Reproduction and Development, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiaming",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaoqian",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Liyuan",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xudong",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Haijing",
+        "short_name": "Lai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Hou'an",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Plastic and Cosmetic Surgery, Xi'an Ninth Hospital, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/16 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "40655111"
+    ],
+    "refs": [
+      "35087596",
+      "35069594",
+      "34930642",
+      "34640457",
+      "34623631",
+      "34620391",
+      "34603338",
+      "34412756",
+      "34211956",
+      "33957898",
+      "33876188",
+      "33780889",
+      "33679744",
+      "33671157",
+      "33481548",
+      "33401250",
+      "33356851",
+      "33281914",
+      "33234365",
+      "33213058",
+      "33148486",
+      "33091314",
+      "33069326",
+      "32507131",
+      "32294906",
+      "32213753",
+      "32060899",
+      "31862278",
+      "31577450",
+      "31357829",
+      "31311960",
+      "30803026",
+      "30710091",
+      "30223929",
+      "29910819",
+      "29661225",
+      "29655565",
+      "29626021",
+      "29345058",
+      "28822895",
+      "28610918",
+      "28575063",
+      "28100608",
+      "27992401",
+      "27515422",
+      "27156806",
+      "26213183",
+      "25822800",
+      "25788396",
+      "25553289",
+      "24602490",
+      "24289156",
+      "24270084",
+      "23954168",
+      "23663657",
+      "22459947",
+      "22257669",
+      "22079915",
+      "21368717",
+      "21067780",
+      "20594756",
+      "20483923",
+      "20473790",
+      "20427518",
+      "19997535",
+      "19499576",
+      "18952891",
+      "17902129",
+      "16365414",
+      "16269217",
+      "15665726",
+      "15235392",
+      "14693089",
+      "10702711",
+      "9123219",
+      "8773590",
+      "1502562"
+    ],
+    "similar": [
+      "36518755",
+      "35754830",
+      "38410514",
+      "38144565",
+      "38728482",
+      "36968495",
+      "35958598",
+      "37839160",
+      "34490033",
+      "35070500",
+      "35872794",
+      "35924232",
+      "36148059",
+      "32503630",
+      "36248807",
+      "36105100",
+      "34059009",
+      "36267313",
+      "35844622",
+      "38629070",
+      "36591215",
+      "36081904",
+      "36505280",
+      "37415944",
+      "34512722",
+      "37022972",
+      "36405735",
+      "34341184",
+      "34367961",
+      "36451813",
+      "35709926",
+      "36639648",
+      "33816214",
+      "36033441",
+      "35222371",
+      "36018512",
+      "33134315",
+      "37291471",
+      "36313417",
+      "35783281",
+      "36177006",
+      "34315402",
+      "36275774",
+      "35865542",
+      "35693827",
+      "36090054",
+      "36467500",
+      "35413978",
+      "33777771",
+      "36568383",
+      "36034449",
+      "35847972",
+      "34107850",
+      "37024911",
+      "34532357",
+      "32010188",
+      "36222281",
+      "33816496",
+      "36046241",
+      "33449165",
+      "37166429",
+      "33833937",
+      "35559024",
+      "36212154",
+      "35047008",
+      "37587523",
+      "36189298",
+      "34490029",
+      "35799661",
+      "37475857",
+      "35223868",
+      "36636051",
+      "35764238",
+      "36506045",
+      "34707398",
+      "33790966",
+      "35713363",
+      "34790797",
+      "34409040",
+      "33996555",
+      "35492358",
+      "34630418",
+      "35422048",
+      "35547808",
+      "36524127",
+      "33626918",
+      "31921517",
+      "38575196",
+      "34112144",
+      "33850758",
+      "35937602",
+      "33869028",
+      "34900677",
+      "35205284",
+      "36524514",
+      "35645555",
+      "36225941",
+      "37120631",
+      "38699021",
+      "37085667",
+      "37178159",
+      "36769358",
+      "36920635",
+      "36941583",
+      "37438356",
+      "36822084",
+      "38075679",
+      "37688632",
+      "36582228",
+      "37340462",
+      "38989182",
+      "37860112",
+      "37258507",
+      "39377494"
+    ],
+    "review": [
+      "36518755",
+      "36405735",
+      "36639648"
+    ],
+    "pmc": [
+      "9742460"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/viralinfections.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Viral Infections"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36518755/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36518755",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2022.1054407",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

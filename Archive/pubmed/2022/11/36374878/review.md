@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a fully convolutional network (FCN) with a refinement residual block (RRB) and a global average pooling layer (GAPL), termed FCNARRB, to classify transcription factor binding sites (TFBSs) at nucleotide level. They report performance improvements from adding GAPL (9.32% IoU, 7.61% PRAUC) and RRB (7.40% IoU, 4.64% PRAUC) on human ChIP-seq datasets, and state that conservation information aids TFBS localization.
+- **Visible evidence base** Abstract text only; no quantitative baselines, dataset descriptions, or statistical details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, experimental setup, dataset specifications, baseline comparisons, figures, tables, and any statistical significance tests
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible deep learning approach for nucleotide-level TFBS prediction, with reported improvements from two architectural components. However, the evidence base is too limited to evaluate the validity, generalizability, or significance of the claims. Key details on data, baselines, and evaluation protocols are absent, and the reported gains lack statistical context. The work may be of interest to computational biology researchers, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational genomics and regulatory genomics, particularly those working on TFBS prediction, deep learning for sequence analysis, and interpretable models for gene regulation. The nucleotide-level classification approach and the use of conservation information could appeal to those seeking finer-grained regulatory annotations.
+- **Major strengths** The focus on nucleotide-level classification, rather than sequence-level binary prediction, addresses a meaningful gap in TFBS modeling. The inclusion of conservation information is biologically motivated and potentially valuable. The reported component-wise ablation (GAPL and RRB) suggests a systematic design process.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "could classify binding sequences at nucleotide level by outputting dense label for input data" and achieves the reported performance improvements.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on the model architecture, training procedure, hyperparameters, or how the dense nucleotide-level labels were generated from ChIP-seq data. The abstract does not specify the number of datasets, cell types, transcription factors, or the train/test split strategy.
+  - **Why it matters** Without these details, the technical soundness of the approach cannot be assessed. Nucleotide-level labeling from ChIP-seq is non-trivial and requires careful peak calling and label assignment; the abstract provides no information on how this was done or how class imbalance was handled.
+  - **Resolution test** Provide a full methods section with architecture diagram, training details, label generation protocol, and dataset specifications. Report performance on multiple TFs and cell types with standard evaluation metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative evaluation
+  - **Claim pointer** The reported improvements (9.32% IoU, 7.61% PRAUC for GAPL; 7.40% IoU, 4.64% PRAUC for RRB) are presented as evidence of model effectiveness.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No baseline models are mentioned. It is unclear whether the improvements are relative to a no-GAPL/no-RRB version of the same FCN, or to existing state-of-the-art methods. Without comparison to established TFBS prediction tools, the significance of the gains cannot be judged.
+  - **Why it matters** The value of a new method is typically established by outperforming existing approaches. The abstract does not state which baselines were used, making it impossible to determine whether the proposed model advances the field.
+  - **Resolution test** Include comparisons to at least two existing TFBS prediction methods (e.g., DeepBind, DeepSEA, or similar) on the same datasets, with statistical significance tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The performance improvements are reported as single percentage values without variance or significance testing.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports only point estimates for IoU and PRAUC improvements. No standard deviations, confidence intervals, or p-values are provided. It is unclear whether the improvements are consistent across datasets or could be due to random variation.
+  - **Why it matters** In deep learning experiments, performance can vary substantially across random seeds and data splits. Without measures of variance, the reported gains may not be reproducible or statistically meaningful.
+  - **Resolution test** Report mean and standard deviation across multiple runs (e.g., at least 5 seeds) and perform appropriate statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) for each comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** "Conservation information can help locate TFBSs."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that conservation information helps, but does not specify what conservation metric was used (e.g., phyloP, phastCons, or multiple sequence alignment-based scores), how it was integrated into the model, or the magnitude of the improvement.
+  - **Why it matters** Conservation is a well-known feature for TFBS prediction, but its utility depends on the specific metric and integration strategy. The claim as stated is too vague to be evaluated or reproduced.
+  - **Resolution test** Specify the conservation source and integration method, and report the quantitative contribution of conservation features in an ablation study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name and description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The acronym FCNARRB is not expanded in the abstract, and the relationship between the FCN, RRB, and GAPL components is not clearly described.
+  - **Required correction** Expand the acronym and provide a one-sentence description of how the components interact.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "human ChIP-seq datasets" but does not specify which ENCODE or other public datasets were used, nor the number of TFs or cell lines.
+  - **Required correction** List the specific datasets, TFs, and cell lines in the methods or a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Metric interpretation
+  - **Affected element** IoU and PRAUC definitions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses IoU and PRAUC without defining them in the context of nucleotide-level classification. It is unclear whether IoU is computed per-nucleotide or per-binding-site.
+  - **Required correction** Define both metrics explicitly in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing architectural and labeling details), R1-M2 (no baseline comparisons), R1-M3 (no statistical validation). These are required to establish technical soundness and comparative value.
+- **Assessment against Nature-style criteria**  
+  - Originality: The nucleotide-level classification approach is not entirely novel, as similar FCN-based methods exist for sequence labeling tasks. The specific combination of RRB and GAPL may offer incremental novelty, but this cannot be assessed from the abstract.  
+  - Scientific importance: TFBS prediction is a relevant problem, but the abstract does not demonstrate a major advance over existing methods. The reported gains are modest and lack context.  
+  - Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The abstract is too technical and lacks biological interpretation to attract a broader readership.  
+  - Technical soundness: Not assessable from the abstract due to missing methodological details and statistical validation.  
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with deep learning and ChIP-seq terminology. It does not explain the biological significance of nucleotide-level prediction in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful method, but the lack of methodological detail, baseline comparisons, and statistical validation prevents a supportive recommendation. A full manuscript with complete experimental reporting would be required to reassess.
+
+## Risk / unsupported claims
+- The claim that "conservation information can help locate TFBSs" is unsupported without specifying the conservation metric, integration method, and quantitative results.
+- The reported performance improvements (9.32%, 7.61%, 7.40%, 4.64%) are unsupported as no variance, significance tests, or baseline context are provided.
+- The claim that the model "could classify binding sequences at nucleotide level" is unverifiable without details on label generation and evaluation.

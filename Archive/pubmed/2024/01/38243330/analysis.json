@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38243330",
+  "title": "Translating prognostic quantification of c-MYC and BCL2 from tissue microarrays to whole slide images in diffuse large B-cell lymphoma using deep learning.",
+  "authors": "Tavolara, Thomas E; Niazi, M Khalid Khan; Feldman, Andrew L; Jaye, David L; Flowers, Christopher; Cooper, Lee A D; Gurcan, Metin N",
+  "journal": "Diagnostic pathology",
+  "published_date": "2024-01-20",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用注意力多实例学习量化DLBCL组织切片中c-MYC/BCL2蛋白阳性比例，属纯图像病理分析，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: c-MYC and BCL2 positivity are important prognostic factors for diffuse large B-cell lymphoma. However, manual quantification is subject to significant intra- and inter-observer variability. We developed an automated method for quantification in whole-slide images of tissue sections where manual quantification requires evaluating large areas of tissue with possibly heterogeneous staining. We train this method using annotations of tumor positivity in smaller tissue microarray cores where expression and staining are more homogeneous and then translate this model to whole-slide images. METHODS: Our method applies a technique called attention-based multiple instance learning to regress the proportion of c-MYC-positive and BCL2-positive tumor cells from pathologist-scored tissue microarray cores. This technique does not require annotation of individual cell nuclei and is trained instead on core-level annotations of percent tumor positivity. We translate this model to scoring of whole-slide images by tessellating the slide into smaller core-sized tissue regions and calculating an aggregate score. Our method was trained on a public tissue microarray dataset from Stanford and applied to whole-slide images from a geographically diverse multi-center cohort produced by the Lymphoma Epidemiology of Outcomes study. RESULTS: In tissue microarrays, the automated method had Pearson correlations of 0.843 and 0.919 with pathologist scores for c-MYC and BCL2, respectively. When utilizing standard clinical thresholds, the sensitivity/specificity of our method was 0.743 / 0.963 for c-MYC and 0.938 / 0.951 for BCL2. For double-expressors, sensitivity and specificity were 0.720 and 0.974. When translated to the external WSI dataset scored by two pathologists, Pearson correlation was 0.753 & 0.883 for c-MYC and 0.749 & 0.765 for BCL2, and sensitivity/specificity was 0.857/0.991 & 0.706/0.930 for c-MYC, 0.856/0.719 & 0.855/0.690 for BCL2, and 0.890/1.00 & 0.598/0.952 for double-expressors. Survival analysis demonstrates that for progression-free survival, model-predicted TMA scores significantly stratify double-expressors and non double-expressors (p = 0.0345), whereas pathologist scores do not (p = 0.128). CONCLUSIONS: We conclude that proportion of positive stains can be regressed using attention-based multiple instance learning, that these models generalize well to whole slide images, and that our models can provide non-inferior stratification of progression-free survival outcomes.",
+  "abstract_zh": "背景：c-MYC和BCL2阳性是弥漫性大B细胞淋巴瘤的重要预后因素。然而，手动定量存在显著的观察者内和观察者间变异性。我们开发了一种自动化方法，用于组织切片全切片图像的定量分析，其中手动定量需要评估可能具有异质性染色的大面积组织。我们使用较小组织微阵列核心中肿瘤阳性的注释来训练此方法，这些核心中的表达和染色更为均匀，然后将此模型应用于全切片图像。方法：我们的方法采用一种称为基于注意力的多实例学习技术，从病理学家评分的组织微阵列核心中回归c-MYC阳性和BCL2阳性肿瘤细胞的比例。该技术不需要单个细胞核的注释，而是基于核心级别的肿瘤阳性百分比注释进行训练。我们通过将切片分割成较小的核心大小组织区域并计算聚合评分，将此模型转化为全切片图像的评分。我们的方法在来自斯坦福大学的公共组织微阵列数据集上训练，并应用于由淋巴瘤流行病学结果研究产生的多中心地理多样性队列的全切片图像。结果：在组织微阵列中，自动化方法与病理学家评分对c-MYC和BCL2的Pearson相关系数分别为0.843和0.919。当使用标准临床阈值时，我们的方法对c-MYC的敏感性/特异性为0.743/0.963，对BCL2为0.938/0.951。对于双表达者，敏感性和特异性分别为0.720和0.974。当转化为由两位病理学家评分的外部WSI数据集时，Pearson相关系数对c-MYC为0.753和0.883，对BCL2为0.749和0.765，敏感性/特异性对c-MYC为0.857/0.991和0.706/0.930，对BCL2为0.856/0.719和0.855/0.690，对双表达者为0.890/1.00和0.598/0.952。生存分析表明，对于无进展生存期，模型预测的TMA评分显著分层双表达者和非双表达者（p = 0.0345），而病理学家评分则未达到显著分层（p = 0.128）。结论：我们得出结论，阳性染色比例可以通过基于注意力的多实例学习进行回归，这些模型能很好地泛化到全切片图像，并且我们的模型可以提供非劣效的无进展生存结果分层。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38243330/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38243330/",
+  "paper_page_path": "papers/pubmed/38243330/index.html"
+}

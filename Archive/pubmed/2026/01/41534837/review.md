@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and experimental procedures
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided material
+- **Shared manuscript claim summary** The authors report that HMGB1 binds directly to the TLR13 ligand RNA15 with high affinity (Kd ~21–24 nM), disrupts its hairpin structure through a "ligand remodeling" mechanism, and thereby inhibits TLR13-mediated inflammatory responses in macrophages. The claim is supported by fluorescence anisotropy, FRET assays, NMR CSP analysis, and enhanced-sampling MD simulations.
+- **Visible evidence base** Figures 1–6, Supplementary Figures S1–S2 (referenced but not provided), experimental procedures, and statistical methods
+- **Missing materials affecting confidence** Supplementary figures and data (S1, S2), raw NMR spectra, MD simulation convergence metrics, full statistical outputs, and cell-based dose-response data for oxidized/reduced HMGB1 variants
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting and potentially novel observation that HMGB1 can act as a negative regulator of TLR13 signaling by remodeling the RNA15 ligand structure. The combination of biophysical and computational approaches is commendable. However, several technical concerns, particularly regarding the interpretation of the anisotropy data, the lack of direct evidence for the "ligand remodeling" mechanism in a functional context, and the incomplete characterization of the proposed alternative mechanism (direct receptor competition), prevent the case from being fully established as presented.
+- **Who would be interested in the results, and why** Researchers in innate immunity, particularly those studying TLR signaling and alarmin biology, as well as investigators in the RNA therapeutics and vaccine field who need to understand host protein interactions with RNA ligands. The proposed "ligand remodeling" concept may also interest structural biologists studying protein-nucleic acid interactions.
+- **Major strengths** The study combines multiple orthogonal biophysical techniques (anisotropy, FRET, NMR, MD) to characterize the HMGB1-RNA15 interaction. The use of enhanced-sampling MD to provide a thermodynamic rationale for the observed structural disruption is a notable strength. The functional assays in macrophages provide a clear biological context for the proposed mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that the decrease in fluorescence anisotropy of RNA15-FAM upon HMGB1 binding indicates disruption of the hairpin structure, rather than simple binding.
+  - **Evidence pointer** Figure 2A, 2B; Results section "Having confirmed the functional activity..."
+  - **Concern** The decrease in anisotropy is interpreted as evidence for hairpin disruption. However, this interpretation is not straightforward. While the authors argue that binding to a larger protein should increase anisotropy, this assumes a rigid, spherical complex. For a flexible RNA-protein complex, local motion of the fluorophore can dominate the anisotropy signal, and binding could either increase or decrease anisotropy depending on the local environment and dynamics. The control experiments with heat-denatured HMGB1, BSA, and lysozyme show no effect, but these do not rule out a specific binding mode that restricts or enhances local fluorophore mobility without global unfolding. The claim that the anisotropy decrease specifically reports on hairpin opening requires additional validation, such as using a fluorophore positioned to report on the stem region directly or independent structural probes.
+  - **Why it matters** The anisotropy data are the primary biophysical evidence for the initial claim of structural disruption. If the interpretation is incorrect, the entire "ligand remodeling" hypothesis is weakened.
+  - **Resolution test** Provide control experiments with a double-labeled RNA15 where FRET efficiency is measured as a function of HMGB1 concentration, or use a fluorophore attached to a position that is not in the stem to show that the effect is specific to the hairpin region. Alternatively, perform size-exclusion chromatography or analytical ultracentrifugation to confirm complex formation and rule out aggregation artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that HMGB1 binding makes the hairpin conformation thermodynamically unfavorable, driving RNA15 into a stem-open state.
+  - **Evidence pointer** Figure 5E; Results section "To overcome this limitation..."
+  - **Concern** The metadynamics simulation is the sole evidence for the thermodynamic claim that the stem-open state is favored by 9.86 kcal/mol in the HMGB1-bound state. However, the simulation setup is not fully described. The initial complex was generated by docking, and the authors state that the RNA15 hairpin remains stable during 200 ns of canonical MD. The metadynamics simulation was then performed for 92 ns. It is unclear whether the free energy landscape has converged, and no error estimates or convergence tests are provided. Furthermore, the collective variables chosen (RMSD from hairpin and coordination number) may not capture all relevant degrees of freedom for the unfolding transition. The claim of a 9.86 kcal/mol preference is a strong quantitative statement that requires robust convergence analysis.
+  - **Why it matters** The thermodynamic driving force is central to the proposed mechanism. If the simulation is not converged or the collective variables are insufficient, the quantitative claim is unsupported.
+  - **Resolution test** Provide convergence analysis of the metadynamics simulation (e.g., free energy difference as a function of simulation time), error estimates from multiple independent runs, and validation of the collective variables by examining the structural ensembles in the two free energy minima. Ideally, the computational prediction should be tested experimentally, for example by measuring the melting temperature of RNA15 in the presence and absence of HMGB1.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that HMGB1 inhibits RNA15-induced TLR13 activation by remodeling the RNA ligand, and that this is a "ligand remodeling" mechanism distinct from direct receptor blockade.
+  - **Evidence pointer** Figure 6A–C; Results section "Given the finding that HMGB1 binds..."
+  - **Concern** The functional data show that HMGB1 suppresses RNA15-induced NO and TNF-α production. However, the proposed mechanism of "ligand remodeling" is not directly tested. The authors do not demonstrate that the HMGB1-remodeled RNA15 species is incapable of activating TLR13. An alternative explanation is that HMGB1 binds to RNA15 and the complex is sterically unable to engage TLR13, which would be a simple sequestration mechanism rather than a remodeling mechanism. The authors acknowledge this in the Discussion and present preliminary docking data (Figure S2) suggesting a possible direct interaction with TLR13, but this is not experimentally validated. The distinction between "ligand remodeling" and "ligand sequestration" is not established by the current data.
+  - **Why it matters** The novelty of the manuscript rests on the "ligand remodeling" concept. If the actual mechanism is simple sequestration, the finding is less conceptually novel.
+  - **Resolution test** Perform a competition experiment where RNA15 is pre-incubated with HMGB1, then the complex is added to cells expressing TLR13. If the remodeling mechanism is correct, the RNA15 should remain inactive even if HMGB1 is removed or blocked after the pre-incubation. Alternatively, use a mutant HMGB1 that binds RNA15 but does not remodel its structure (if such a mutant can be identified) to test whether binding alone is sufficient for inhibition.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** The authors claim that the redox state of HMGB1 is critical for its inhibitory activity, with oxidized and reduced forms showing diminished inhibition.
+  - **Evidence pointer** Figure 6C; Results section "Notably, both oxidized HMGB1..."
+  - **Concern** The redox modification experiments are described in a single sentence in the figure legend. The concentrations of H2O2 (50 μM) and DTT (5 μM) used for pretreatment are stated, but the extent of oxidation or reduction is not characterized. HMGB1 has multiple cysteine residues, and partial oxidation or reduction could lead to heterogeneous species. The diminished activity could be due to incomplete modification, aggregation, or loss of binding affinity rather than a specific redox-dependent effect. No binding data for the oxidized or reduced forms are provided.
+  - **Why it matters** The redox-dependent activity claim adds an important layer to the story, but without proper characterization, it is not convincing.
+  - **Resolution test** Characterize the redox state of HMGB1 after treatment (e.g., by mass spectrometry or thiol-specific labeling). Measure the binding affinity of oxidized and reduced HMGB1 to RNA15 to determine if the diminished inhibition is due to reduced binding or reduced remodeling activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A
+  - **Issue** The predicted secondary structure of RNA15 is shown, but the figure is not described in the text. It is unclear whether this is a computational prediction or an experimentally determined structure.
+  - **Required correction** Clarify in the text or figure legend the source of the predicted structure and the method used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6A–C
+  - **Issue** The statistical analysis is described as one-way ANOVA, but the number of independent experiments and the specific comparisons made are not fully detailed. The figure legend states "n = 3" for Figure 1, but this is not stated for Figure 6.
+  - **Required correction** Provide the number of independent replicates for all experiments and specify which comparisons were statistically significant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** NMR experiments
+  - **Evidence pointer** Experimental procedures "NMR spectroscopy"
+  - **Issue** The NMR experiments are described, but no NMR spectra are shown in the main figures. The CSP data are presented in Figure 5A, but the quality of the spectra and the assignment completeness are not discussed.
+  - **Required correction** Include representative NMR spectra or provide a reference to the assignment data. Discuss the completeness of the backbone assignment for HMGB1dC.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of alternative mechanisms
+  - **Evidence pointer** Discussion section "Our findings highlight..."
+  - **Issue** The Discussion mentions the possibility of direct receptor competition and presents preliminary docking data, but this is not integrated into the main model. The text could be clearer about whether the authors favor one mechanism over the other or propose a combined model.
+  - **Required correction** Clarify the proposed model in the Discussion, explicitly stating whether the authors propose ligand remodeling, receptor competition, or both as the operative mechanism.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** MD simulations
+  - **Evidence pointer** Experimental procedures "MD simulations"
+  - **Issue** The simulation temperature is stated as 310.15 K for the canonical MD and 300 K for the metatdynamics. The reason for this discrepancy is not explained.
+  - **Required correction** Explain why different temperatures were used for the two types of simulations, or use a consistent temperature throughout.
+
+## Risk / unsupported claims
+- The claim that HMGB1 "profoundly disrupts" the RNA15 hairpin structure is based on indirect biophysical evidence (anisotropy decrease, FRET increase) and computational predictions, but no direct structural evidence (e.g., NMR structure of the complex, SAXS, or cryo-EM) is provided.
+- The quantitative claim of a 9.86 kcal/mol thermodynamic preference for the stem-open state in the HMGB1-bound complex is unsupported without convergence analysis of the metadynamics simulation.
+- The claim that the redox state of HMGB1 is critical for its inhibitory activity is not supported by binding data for the oxidized and reduced forms.
+- The proposed "ligand remodeling" mechanism is not directly distinguished from simple ligand sequestration by the functional data presented.
+- The claim that HMGB1 acts as a "negative regulator" of TLR13 signaling in a physiological context is extrapolated from in vitro cell-based assays and lacks in vivo validation.

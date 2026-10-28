@@ -1,0 +1,500 @@
+{
+  "identity": {
+    "pmid": "42474752",
+    "doi": "10.1007/s00439-026-02846-1",
+    "title": "Discovery of a DNA methylation episignature for Weiss-Kruszka syndrome."
+  },
+  "content": {
+    "abstract": "Weiss-Kruszka syndrome (WSKA; OMIM 618619) is a rare autosomal dominant neurodevelopmental disorder caused by haploinsufficiency of ZNF462, a zinc-finger transcription factor involved in chromatin regulation and early embryonic development. WSKA is characterized by developmental delay, hypotonia, craniofacial dysmorphic features (around 8) and variable congenital anomalies. Genome-wide DNAm profiling was performed on peripheral blood DNA from 9 WSKA cases with (likely) pathogenic ZNF462 variants and matched controls to look for differential methylation. Analysis using the EpiSign pipeline identified a robust DNAm pattern, or episignature, specific to WSKA syndrome. Supervised machine-learning classification demonstrated high sensitivity and specificity, with reproducibility confirmed by leave-one-out cross-validation, as well as correctly classifying a validation case with a pathogenic ZNF462 variant. Comparative analysis revealed partial overlap of genome-wide DNA methylation changes between the WSKA episignature and other neurodevelopmental disorders involving chromatin regulators. Functional annotation of differentially methylated probes and regions demonstrated enrichment for pathways related to neurodevelopment, neuron function and cell adhesion. These findings define and validate a distinct DNAm episignature for WSKA, providing a valuable diagnostic biomarker to support variant classification and offering insight into the epigenomic consequences of ZNF462 haploinsufficiency.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation/genetics",
+      "*Transcription Factors/genetics",
+      "Haploinsufficiency",
+      "*Neurodevelopmental Disorders/genetics",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "McConkey, Haley",
+        "van der Laan, Liselot",
+        "Ghosh, Sourav",
+        "Kleinendorst, Lotte",
+        "Levy, Michael A",
+        "Rzasa, Jessica",
+        "van Hagen, Johanna M",
+        "Waisfisz, Quinten",
+        "Schulz, Heidi L",
+        "Heller, Corina",
+        "Huhn, Kerstin",
+        "Obermaier, Carolin D",
+        "Platzer, Konrad",
+        "Jamra, Rami Abou",
+        "Marinakis, Nikos",
+        "Veltra, Danai",
+        "Kosma, Konstantina",
+        "Sofocleous, Christalena",
+        "Henneman, Peter",
+        "Sadikovic, Bekim",
+        "van Haelst, Mieke M"
+      ],
+      "short_names": [
+        "McConkey H",
+        "van der Laan L",
+        "Ghosh S",
+        "Kleinendorst L",
+        "Levy MA",
+        "Rzasa J",
+        "van Hagen JM",
+        "Waisfisz Q",
+        "Schulz HL",
+        "Heller C",
+        "Huhn K",
+        "Obermaier CD",
+        "Platzer K",
+        "Jamra RA",
+        "Marinakis N",
+        "Veltra D",
+        "Kosma K",
+        "Sofocleous C",
+        "Henneman P",
+        "Sadikovic B",
+        "van Haelst MM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada.",
+        "Department of Pathology and Laboratory Medicine, Western University, London, ON, Canada.",
+        "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+        "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada.",
+        "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+        "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Emma Center for Personalized Medicine, Amsterdam UMC, Amsterdam, The Netherlands.",
+        "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada.",
+        "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada.",
+        "Department of Pathology and Laboratory Medicine, Western University, London, ON, Canada.",
+        "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+        "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+        "Zentrum fur Humangenetik Tubingen, Tubingen, Germany.",
+        "Zentrum fur Humangenetik Tubingen, Tubingen, Germany.",
+        "Zentrum fur Humangenetik Tubingen, Tubingen, Germany.",
+        "Zentrum fur Humangenetik Tubingen, Tubingen, Germany.",
+        "Institute of Human Genetics, University of Leipzig Medical Center, Leipzig, Germany.",
+        "Institute of Human Genetics, University of Leipzig Medical Center, Leipzig, Germany.",
+        "Laboratory of Medical Genetics, Medical School, National and Kapodistrian University of Athens, \"Aghia Sophia\" Children's Hospital, Athens, Greece.",
+        "Research University institute for the study and prevention of genetic and malignant disease of childhood, Athens, Greece.",
+        "Laboratory of Genetics, Faculty of Medicine, Democritus University of Thrace, Alexandroupolis, Greece.",
+        "Laboratory of Medical Genetics, Medical School, National and Kapodistrian University of Athens, \"Aghia Sophia\" Children's Hospital, Athens, Greece.",
+        "Research University institute for the study and prevention of genetic and malignant disease of childhood, Athens, Greece.",
+        "Laboratory of Genetics, Faculty of Medicine, Democritus University of Thrace, Alexandroupolis, Greece.",
+        "Laboratory of Genetics, Faculty of Medicine, Democritus University of Thrace, Alexandroupolis, Greece.",
+        "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+        "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada. bekim.sadikovic@lhsc.on.ca.",
+        "Department of Pathology and Laboratory Medicine, Western University, London, ON, Canada. bekim.sadikovic@lhsc.on.ca.",
+        "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands. m.vanhaelst@amsterdamumc.nl.",
+        "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands. m.vanhaelst@amsterdamumc.nl.",
+        "Emma Center for Personalized Medicine, Amsterdam UMC, Amsterdam, The Netherlands. m.vanhaelst@amsterdamumc.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "McConkey, Haley",
+        "short_name": "McConkey H",
+        "identifiers": [],
+        "affiliations": [
+          "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada.",
+          "Department of Pathology and Laboratory Medicine, Western University, London, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "van der Laan, Liselot",
+        "short_name": "van der Laan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+          "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Sourav",
+        "short_name": "Ghosh S",
+        "identifiers": [],
+        "affiliations": [
+          "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Kleinendorst, Lotte",
+        "short_name": "Kleinendorst L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+          "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands.",
+          "Emma Center for Personalized Medicine, Amsterdam UMC, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Levy, Michael A",
+        "short_name": "Levy MA",
+        "identifiers": [],
+        "affiliations": [
+          "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Rzasa, Jessica",
+        "short_name": "Rzasa J",
+        "identifiers": [],
+        "affiliations": [
+          "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada.",
+          "Department of Pathology and Laboratory Medicine, Western University, London, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "van Hagen, Johanna M",
+        "short_name": "van Hagen JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+          "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Waisfisz, Quinten",
+        "short_name": "Waisfisz Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Schulz, Heidi L",
+        "short_name": "Schulz HL",
+        "identifiers": [],
+        "affiliations": [
+          "Zentrum für Humangenetik Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Heller, Corina",
+        "short_name": "Heller C",
+        "identifiers": [],
+        "affiliations": [
+          "Zentrum für Humangenetik Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Huhn, Kerstin",
+        "short_name": "Huhn K",
+        "identifiers": [],
+        "affiliations": [
+          "Zentrum für Humangenetik Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Obermaier, Carolin D",
+        "short_name": "Obermaier CD",
+        "identifiers": [],
+        "affiliations": [
+          "Zentrum für Humangenetik Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Platzer, Konrad",
+        "short_name": "Platzer K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Human Genetics, University of Leipzig Medical Center, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Jamra, Rami Abou",
+        "short_name": "Jamra RA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Human Genetics, University of Leipzig Medical Center, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Marinakis, Nikos",
+        "short_name": "Marinakis N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Medical Genetics, Medical School, National and Kapodistrian University of Athens, \"Aghia Sophia\" Children's Hospital, Athens, Greece.",
+          "Research University institute for the study and prevention of genetic and malignant disease of childhood, Athens, Greece.",
+          "Laboratory of Genetics, Faculty of Medicine, Democritus University of Thrace, Alexandroupolis, Greece."
+        ]
+      },
+      {
+        "full_name": "Veltra, Danai",
+        "short_name": "Veltra D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Medical Genetics, Medical School, National and Kapodistrian University of Athens, \"Aghia Sophia\" Children's Hospital, Athens, Greece.",
+          "Research University institute for the study and prevention of genetic and malignant disease of childhood, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Kosma, Konstantina",
+        "short_name": "Kosma K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Genetics, Faculty of Medicine, Democritus University of Thrace, Alexandroupolis, Greece."
+        ]
+      },
+      {
+        "full_name": "Sofocleous, Christalena",
+        "short_name": "Sofocleous C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Genetics, Faculty of Medicine, Democritus University of Thrace, Alexandroupolis, Greece."
+        ]
+      },
+      {
+        "full_name": "Henneman, Peter",
+        "short_name": "Henneman P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands.",
+          "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Sadikovic, Bekim",
+        "short_name": "Sadikovic B",
+        "identifiers": [],
+        "affiliations": [
+          "Verspeeten Clinical Genome Centre, London Health Science Centre, London, ON, Canada. bekim.sadikovic@lhsc.on.ca.",
+          "Department of Pathology and Laboratory Medicine, Western University, London, ON, Canada. bekim.sadikovic@lhsc.on.ca."
+        ]
+      },
+      {
+        "full_name": "van Haelst, Mieke M",
+        "short_name": "van Haelst MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Amsterdam UMC, Amsterdam, The Netherlands. m.vanhaelst@amsterdamumc.nl.",
+          "Amsterdam Reproduction and Development, Amsterdam University Medical Centers, University of Amsterdam, Amsterdam, The Netherlands. m.vanhaelst@amsterdamumc.nl.",
+          "Emma Center for Personalized Medicine, Amsterdam UMC, Amsterdam, The Netherlands. m.vanhaelst@amsterdamumc.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human genetics"
+    ],
+    "journal_abbrev": [
+      "Hum Genet"
+    ],
+    "pub_date": "2026 Jul 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/20 12:40",
+    "fetched_at": "2026-10-02 02:17:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41291199",
+      "41028553",
+      "40949918",
+      "40118455",
+      "39808658",
+      "39287049",
+      "39097820",
+      "39089258",
+      "39069253",
+      "38751117",
+      "38553851",
+      "38251460",
+      "36688693",
+      "36604593",
+      "36568367",
+      "36461789",
+      "36399132",
+      "35904121",
+      "35887345",
+      "35573298",
+      "35047860",
+      "34906459",
+      "34864914",
+      "34750377",
+      "34575025",
+      "34087165",
+      "33975400",
+      "33547396",
+      "32644126",
+      "32543299",
+      "31690835",
+      "31361404",
+      "31029150",
+      "30929737",
+      "30875234",
+      "30192042",
+      "30085201",
+      "29795351",
+      "29304373",
+      "28513610",
+      "26755828",
+      "26430157",
+      "25972926",
+      "25741868",
+      "25605792",
+      "24930139",
+      "22826440",
+      "22568884",
+      "20159995",
+      "19218269",
+      "18818694",
+      "18771760",
+      "17299456",
+      "15774718",
+      "15617549"
+    ],
+    "similar": [
+      "42474752",
+      "39069253",
+      "37120726",
+      "40949918",
+      "41291199",
+      "38571311",
+      "38126281",
+      "36399132",
+      "39501256",
+      "38054406",
+      "37762546",
+      "31670927",
+      "32543299",
+      "39501558",
+      "31288860",
+      "33596411",
+      "42134323",
+      "40538467",
+      "38787418",
+      "33975400",
+      "40105472",
+      "37865086",
+      "39824190",
+      "36568367",
+      "35027293",
+      "35182807",
+      "40410387",
+      "41555921",
+      "42510805",
+      "35887345",
+      "40977504",
+      "38751117",
+      "41957673",
+      "42256340",
+      "39013459",
+      "36461789",
+      "31311581",
+      "36367395",
+      "41799441",
+      "37860968",
+      "31029150",
+      "41028553",
+      "41501857",
+      "36440975",
+      "36430143",
+      "34906459",
+      "38770750",
+      "36589751",
+      "33909990",
+      "39097820",
+      "37166351",
+      "38815585",
+      "35904121",
+      "41153407",
+      "35361921",
+      "39287049",
+      "29304373",
+      "31361404",
+      "35506254",
+      "33909591",
+      "28513610",
+      "32109418",
+      "35163737",
+      "41247002",
+      "39875007",
+      "34389046",
+      "31915063",
+      "42196145",
+      "40623936",
+      "39424669",
+      "40992585",
+      "41952182",
+      "34750377",
+      "38251460",
+      "39674972",
+      "33054850",
+      "41190595",
+      "42475461",
+      "38884529",
+      "36130591",
+      "41882293",
+      "36322151",
+      "37071997",
+      "40730689",
+      "39966947",
+      "39789644",
+      "39089258",
+      "34445317",
+      "42125344",
+      "38351292",
+      "40044822",
+      "38384171",
+      "35063350",
+      "42434347",
+      "41758603",
+      "35198003",
+      "41214838",
+      "35384273",
+      "30819258",
+      "37654076"
+    ],
+    "review": [
+      "42474752",
+      "39069253",
+      "31670927",
+      "40105472",
+      "37166351",
+      "40992585"
+    ],
+    "pmc": [
+      "13385256"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42474752/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00439-026-02846-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

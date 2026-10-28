@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "42353235",
+    "doi": "10.3390/ijms27125521",
+    "title": "UV-DDB as a Dynamic Regulator Linking Base Excision and Nucleotide Excision Repair via AAG Interaction."
+  },
+  "content": {
+    "abstract": "Base excision repair (BER) and nucleotide excision repair (NER) are traditionally regarded as independent pathways; however, accumulating evidence indicates that ultraviolet (UV)-damaged DNA-binding protein (UV-DDB), a core NER factor, stimulates BER DNA glycosylases, including alkyladenine DNA glycosylase (AAG). Despite this functional link, the molecular basis of the UV-DDB/AAG interaction and its regulation by DNA remain unclear. This study investigated the direct interaction between AAG and UV-DDB using electrophoretic mobility shift assays (EMSA), surface plasmon resonance (SPR), biolayer interferometry (BLI) and AlphaFold3-based structural modeling under DNA-free and DNA-bound conditions. SPR analysis revealed that AAG and UV-DDB form a high-affinity complex in the absence of DNA (KD  approximately  17.5 nM), which is maintained but reduced approximately 2.6-fold upon binding to apurinic/apyrimidinic site (AP site)-containing dsDNA (KD  approximately  46.2 nM). BLI analysis independently confirmed this interaction under both DNA-free and DNA-bound conditions, with inter-platform differences consistent with previously reported BLI/SPR variability. EMSA showed UV-DDB-mediated ternary complex formation accompanied by redistribution of binary AAG/DNA species. AlphaFold3 modeling predicted that AAG associates with DDB1 in the DNA-free state, whereas under DNA-bound conditions, DDB2 recognizes the AP site while AAG repositions toward the lesion with multiple active site residues placed in close proximity. These findings support a model in which DNA binding acts as a molecular switch that reconfigures the UV-DDB/AAG interaction, potentially enabling UV-DDB to function as a recruitment platform that facilitates directional progression of AAG through the BER cycle, and providing a structural basis for coordinated integration of BER and NER.",
+    "keywords": [
+      "AlphaFold3",
+      "UV-damaged DNA-binding protein (UV-DDB)",
+      "alkyladenine DNA glycosylase (AAG)",
+      "base excision repair (BER)",
+      "biolayer interferometry (BLI)",
+      "nucleotide excision repair (NER)",
+      "surface plasmon resonance (SPR)"
+    ],
+    "mesh_terms": [
+      "*Excision Repair",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "*DNA Glycosylases/metabolism/chemistry/genetics",
+      "DNA/metabolism/chemistry",
+      "Ultraviolet Rays",
+      "DNA Damage",
+      "*DNA Repair",
+      "Humans",
+      "Surface Plasmon Resonance",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Eom, Jiwon",
+        "Ko, Yubin",
+        "Choi, Jeongwoo",
+        "Yang, Soobin",
+        "Kang, Su-Jin",
+        "Kim, Seheon",
+        "Song, Yong Bhum",
+        "An, Soyeong",
+        "Lee, Ja Yil",
+        "Jang, Sunbok"
+      ],
+      "short_names": [
+        "Eom J",
+        "Ko Y",
+        "Choi J",
+        "Yang S",
+        "Kang SJ",
+        "Kim S",
+        "Song YB",
+        "An S",
+        "Lee JY",
+        "Jang S"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-9266-2274",
+        "ORCID: 0000-0003-3276-8957",
+        "ORCID: 0000-0001-7371-0124"
+      ],
+      "affiliations": [
+        "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "College of Pharmacy, Dongduk Women's University, Seoul 02748, Republic of Korea.",
+        "Division of Research Center, Scripps Korea Antibody Institute, Chuncheon 24341, Republic of Korea.",
+        "Division of Research Center, Scripps Korea Antibody Institute, Chuncheon 24341, Republic of Korea.",
+        "Department of Biological Sciences, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "Department of Biological Sciences, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea.",
+        "Graduate Program in Regulatory Science Convergence, Ewha Womans University, Seoul 03760, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Eom, Jiwon",
+        "short_name": "Eom J",
+        "identifiers": [
+          "0009-0009-9266-2274"
+        ],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+          "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ko, Yubin",
+        "short_name": "Ko Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+          "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Jeongwoo",
+        "short_name": "Choi J",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+          "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yang, Soobin",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+          "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Su-Jin",
+        "short_name": "Kang SJ",
+        "identifiers": [
+          "0000-0003-3276-8957"
+        ],
+        "affiliations": [
+          "College of Pharmacy, Dongduk Women's University, Seoul 02748, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Seheon",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Research Center, Scripps Korea Antibody Institute, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Yong Bhum",
+        "short_name": "Song YB",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Research Center, Scripps Korea Antibody Institute, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "An, Soyeong",
+        "short_name": "An S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Ja Yil",
+        "short_name": "Lee JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jang, Sunbok",
+        "short_name": "Jang S",
+        "identifiers": [
+          "0000-0001-7371-0124"
+        ],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, College of Pharmacy, Ewha Womans University, Seoul 03760, Republic of Korea.",
+          "Graduate Program in Innovative Biomaterials Convergence, Ewha Womans University, Seoul 03760, Republic of Korea.",
+          "Graduate Program in Regulatory Science Convergence, Ewha Womans University, Seoul 03760, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jun 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 13:10",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41161019",
+      "40806775",
+      "40251423",
+      "39116039",
+      "39029374",
+      "38718835",
+      "38284532",
+      "37762489",
+      "37373320",
+      "36971122",
+      "36511855",
+      "35887361",
+      "35197283",
+      "35190564",
+      "34238917",
+      "34208390",
+      "32856505",
+      "32598485",
+      "32111838",
+      "31784530",
+      "31332353",
+      "30272207",
+      "28802648",
+      "28783053",
+      "28747435",
+      "28485537",
+      "28448040",
+      "27530425",
+      "26163658",
+      "26013813",
+      "24954209",
+      "24588584",
+      "23593019",
+      "23074184",
+      "22492724",
+      "22148158",
+      "19449863",
+      "19109893",
+      "18706524",
+      "18593899",
+      "17581577",
+      "16678110",
+      "11106395",
+      "9790531"
+    ],
+    "similar": [
+      "42353235",
+      "37373320",
+      "36511855",
+      "31332353",
+      "36971122",
+      "22822215",
+      "36305644",
+      "35190564",
+      "16223728",
+      "40530698",
+      "20701268",
+      "19493704",
+      "24760829",
+      "16951172",
+      "32998246",
+      "18593899",
+      "28760956",
+      "17018265",
+      "29475157",
+      "19449863",
+      "9191040",
+      "19056823",
+      "15811629",
+      "41219227",
+      "34232996",
+      "16473935",
+      "24209961",
+      "22148158",
+      "22039351",
+      "34705558",
+      "28747435",
+      "27264556",
+      "33450252",
+      "12509290",
+      "15882621",
+      "23290262",
+      "12145536",
+      "19864471",
+      "22334663",
+      "39025455",
+      "12034848",
+      "31627884",
+      "19219989",
+      "9584159",
+      "12812979",
+      "23074184",
+      "8407968",
+      "16793369",
+      "18839966",
+      "16260596",
+      "27025273",
+      "23860269",
+      "11705987",
+      "26765542",
+      "29940097",
+      "26042670",
+      "10946233",
+      "12509284",
+      "31882538",
+      "11278856",
+      "37298543",
+      "32739133",
+      "10873465",
+      "25679877",
+      "16858626",
+      "19924854",
+      "25349415",
+      "18936169",
+      "29929044",
+      "21349833",
+      "30251654",
+      "11892789",
+      "39701025",
+      "27091446",
+      "25086253",
+      "26573481",
+      "27262192",
+      "17118717",
+      "18706524",
+      "21237244",
+      "42589254",
+      "41524302",
+      "17635991",
+      "26377631",
+      "29148771",
+      "42419012",
+      "14567703",
+      "26255936",
+      "20739229",
+      "40806775",
+      "20840885",
+      "31784530",
+      "38908783",
+      "28345889",
+      "29604309",
+      "16527807",
+      "15990363",
+      "17682058",
+      "15135729",
+      "18645645"
+    ],
+    "review": [
+      "42353235",
+      "37373320",
+      "36305644",
+      "27264556",
+      "31627884",
+      "10946233",
+      "12509284",
+      "32739133",
+      "16858626",
+      "11892789",
+      "39701025",
+      "42419012"
+    ],
+    "pmc": [
+      "13299579"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27125521",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42353235/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

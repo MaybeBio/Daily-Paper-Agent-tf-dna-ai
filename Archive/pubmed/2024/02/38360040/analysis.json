@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38360040",
+  "title": "Machine learning analysis of pathological images to predict 1-year progression-free survival of immunotherapy in patients with small-cell lung cancer.",
+  "authors": "Shibaki, Ryota; Fujimoto, Daichi; Nozawa, Tsukasa; Sano, Akira; Kitamura, Yuka; Fukuoka, Junya; Sato, Yuki; Kijima, Takashi; Matsumoto, Hirotaka; Yokoyama, Toshihide; Miura, Satoru; Hata, Akito; Tamiya, Motohiro; Taniguchi, Yoshihiko; Sugisaka, Jun; Furuya, Naoki; Tanaka, Hisashi; Yamamoto, Nobuyuki; Koh, Yasuhiro; Akamatsu, Hiroaki",
+  "journal": "Journal for immunotherapy of cancer",
+  "published_date": "2024-02-16",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用机器学习分析小细胞肺癌病理图像预测免疫治疗疗效，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: In small-cell lung cancer (SCLC), the tumor immune microenvironment (TIME) could be a promising biomarker for immunotherapy, but objectively evaluating TIME remains challenging. Hence, we aimed to develop a predictive biomarker of immunotherapy efficacy through a machine learning analysis of the TIME. METHODS: We conducted a biomarker analysis in a prospective study of patients with extensive-stage SCLC who received chemoimmunotherapy as the first-line treatment. We trained a model to predict 1-year progression-free survival (PFS) using pathological images (H&E, programmed cell death-ligand 1 (PD-L1), and double immunohistochemical assay (cluster of differentiation 8 (CD8) and forkhead box P3 (FoxP3)) and patient information. The primary outcome was the mean area under the curve (AUC) of machine learning models in predicting the 1-year PFS. RESULTS: We analyzed 100,544 patches of pathological images from 78 patients. The mean AUC values of patient information, pathological image, and combined models were 0.789 (range 0.571-0.982), 0.782 (range 0.750-0.911), and 0.868 (range 0.786-0.929), respectively. The PFS was longer in the high efficacy group than in the low efficacy group in all three models (patient information model, HR 0.468, 95% CI 0.287 to 0.762; pathological image model, HR 0.334, 95% CI 0.117 to 0.628; combined model, HR 0.353, 95% CI 0.195 to 0.637). The machine learning analysis of the TIME had better accuracy than the human count evaluations (AUC of human count, CD8-positive lymphocyte: 0.681, FoxP3-positive lymphocytes: 0.626, PD-L1 score: 0.567). CONCLUSIONS: The spatial analysis of the TIME using machine learning predicted the immunotherapy efficacy in patients with SCLC, thus supporting its role as an immunotherapy biomarker.",
+  "abstract_zh": "背景：在小细胞肺癌（SCLC）中，肿瘤免疫微环境（TIME）可能是免疫治疗的有前景的生物标志物，但客观评估TIME仍具挑战性。因此，我们旨在通过对TIME进行机器学习分析，开发一种预测免疫治疗疗效的生物标志物。方法：我们在一项针对广泛期SCLC患者的前瞻性研究中进行了生物标志物分析，这些患者接受化疗免疫治疗作为一线治疗。我们使用病理图像（H&E、程序性细胞死亡配体1（PD-L1）和双重免疫组化检测（分化簇8（CD8）和叉头框蛋白P3（FoxP3）））及患者信息训练了一个模型，以预测1年无进展生存期（PFS）。主要结局是机器学习模型在预测1年PFS时的平均曲线下面积（AUC）。结果：我们分析了来自78名患者的100,544个病理图像斑块。患者信息、病理图像和组合模型的平均AUC值分别为0.789（范围0.571-0.982）、0.782（范围0.750-0.911）和0.868（范围0.786-0.929）。在所有三个模型中，高效能组的PFS长于低效能组（患者信息模型，HR 0.468，95% CI 0.287至0.762；病理图像模型，HR 0.334，95% CI 0.117至0.628；组合模型，HR 0.353，95% CI 0.195至0.637）。对TIME的机器学习分析比人工计数评估具有更高的准确性（人工计数AUC，CD8阳性淋巴细胞：0.681，FoxP3阳性淋巴细胞：0.626，PD-L1评分：0.567）。结论：使用机器学习对TIME进行空间分析预测了SCLC患者的免疫治疗疗效，从而支持其作为免疫治疗生物标志物的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38360040/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360040/",
+  "paper_page_path": "papers/pubmed/38360040/index.html"
+}

@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "38454480",
+    "doi": "10.1186/s12967-024-04993-3",
+    "title": "Inhibition of OGFOD1 by FG4592 confers neuroprotection by activating unfolded protein response and autophagy after ischemic stroke."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acute ischemic stroke is a common neurological disease with a significant financial burden but lacks effective drugs. Hypoxia-inducible factor (HIF) and prolyl hydroxylases (PHDs) participate in the pathophysiological process of ischemia. However, whether FG4592, the first clinically approved PHDs inhibitor, can alleviate ischemic brain injury remains unclear. METHODS: The infarct volumes and behaviour tests were first analyzed in mice after ischemic stroke with systemic administration of FG4592. The knockdown of HIF-1alpha and pretreatments of HIF-1/2alpha inhibitors were then used to verify whether the neuroprotection of FG4592 is HIF-dependent. The targets predicting and molecular docking methods were applied to find other targets of FG4592. Molecular, cell biological and gene knockdown methods were finally conducted to explore the potential neuroprotective mechanisms of FG4592. RESULTS: We found that the systemic administration of FG4592 decreased infarct volume and improved neurological defects of mice after transient or permanent ischemia. Meanwhile, FG4592 also activated autophagy and inhibited apoptosis in peri-infarct tissue of mice brains. However, in vitro and in vivo results suggested that the neuroprotection of FG4592 was not classical HIF-dependent. 2-oxoglutarate and iron-dependent oxygenase domain-containing protein 1 (OGFOD1) was found to be a novel target of FG4592 and regulated the Pro-62 hydroxylation in the small ribosomal protein s23 (Rps23) with the help of target predicting and molecular docking methods. Subsequently, the knockdown of OGFOD1 protected the cell against ischemia/reperfusion injury and activated unfolded protein response (UPR) and autophagy. Moreover, FG4592 was also found to activate UPR and autophagic flux in HIF-1alpha independent manner. Blocking UPR attenuated the neuroprotection, pro-autophagy effect and anti-apoptosis ability of FG4592. CONCLUSION: This study demonstrated that FG4592 could be a candidate drug for treating ischemic stroke. The neuroprotection of FG4592 might be mediated by inhibiting alternative target OGFOD1, which activated the UPR and autophagy and inhibited apoptosis after ischemic injury. The inhibition of OGFOD1 is a novel therapy for ischemic stroke.",
+    "keywords": [
+      "Autophagy",
+      "FG4592",
+      "Ischemic stroke",
+      "OGFOD1",
+      "Unfolded protein response"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Ischemic Stroke",
+      "Neuroprotection",
+      "Molecular Docking Simulation",
+      "Unfolded Protein Response",
+      "Ischemia",
+      "Autophagy",
+      "Infarction",
+      "*Brain Ischemia/complications/drug therapy/metabolism",
+      "*Stroke/drug therapy/metabolism",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Jian",
+        "Zhang, Yuan",
+        "Li, Bin",
+        "Xi, Wen",
+        "Wang, Yu",
+        "Li, Lu",
+        "Liu, Chenchen",
+        "Shen, Ling",
+        "Han, Bing",
+        "Kong, Yan",
+        "Yao, HongHong",
+        "Zhang, Zhijun"
+      ],
+      "short_names": [
+        "Xie J",
+        "Zhang Y",
+        "Li B",
+        "Xi W",
+        "Wang Y",
+        "Li L",
+        "Liu C",
+        "Shen L",
+        "Han B",
+        "Kong Y",
+        "Yao H",
+        "Zhang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, Affiliated ZhongDa Hospital, School of Medicine, Institution of Neuropsychiatry, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Biochemistry and Molecular Biology, School of Medicine, Southeast University, No. 87 Dingjiaqiao Road, Nanjing, 210009, Jiangsu, China.",
+        "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China. yaohh@seu.edu.cn.",
+        "Department of Neurology, Affiliated ZhongDa Hospital, School of Medicine, Institution of Neuropsychiatry, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, 210009, Jiangsu, China. janemengzhang@vip.163.com.",
+        "The Brain Cognition and Brain Disease Institute of Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China. janemengzhang@vip.163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Jian",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Affiliated ZhongDa Hospital, School of Medicine, Institution of Neuropsychiatry, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bin",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xi, Wen",
+        "short_name": "Xi W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lu",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chenchen",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Ling",
+        "short_name": "Shen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Han, Bing",
+        "short_name": "Han B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Yan",
+        "short_name": "Kong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Medicine, Southeast University, No. 87 Dingjiaqiao Road, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yao, HongHong",
+        "short_name": "Yao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Southeast University, Nanjing, 210009, Jiangsu, China. yaohh@seu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhijun",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Affiliated ZhongDa Hospital, School of Medicine, Institution of Neuropsychiatry, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, 210009, Jiangsu, China. janemengzhang@vip.163.com.",
+          "The Brain Cognition and Brain Disease Institute of Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China. janemengzhang@vip.163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2024 Mar 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/08 06:42",
+    "fetched_at": "2026-09-29 16:31:10"
+  },
+  "links": {
+    "cites": [
+      "42150425",
+      "42088572",
+      "41354822",
+      "41017659",
+      "40779837",
+      "38759019"
+    ],
+    "refs": [
+      "36739684",
+      "35948752",
+      "35695696",
+      "35443985",
+      "34732355",
+      "34668514",
+      "34652341",
+      "34487721",
+      "34404236",
+      "34289707",
+      "34111943",
+      "33957000",
+      "33724327",
+      "32976985",
+      "32722981",
+      "32450881",
+      "32380083",
+      "31340116",
+      "31204559",
+      "31188470",
+      "31106366",
+      "30651640",
+      "30643122",
+      "30578795",
+      "29940794",
+      "29938598",
+      "29435217",
+      "29331396",
+      "28982677",
+      "28178380",
+      "27752994",
+      "27733676",
+      "27635045",
+      "27217380",
+      "26774962",
+      "26746864",
+      "26040720",
+      "25728928",
+      "25613900",
+      "25351847",
+      "25126734",
+      "24550463",
+      "24550462",
+      "24550447",
+      "24375723",
+      "23795595",
+      "23696550",
+      "23547775",
+      "22933585",
+      "22864750",
+      "22615432",
+      "22592897",
+      "21245873",
+      "20579638",
+      "19798088",
+      "19762779",
+      "19587290",
+      "19246690",
+      "17554006",
+      "17287757",
+      "16773207",
+      "16453316",
+      "16166574",
+      "14747751",
+      "12912907"
+    ],
+    "similar": [
+      "38454480",
+      "36074918",
+      "36634381",
+      "32005890",
+      "24296245",
+      "27987215",
+      "37277084",
+      "37536050",
+      "28729825",
+      "38773968",
+      "24141018",
+      "24606183",
+      "31421130",
+      "32976985",
+      "29542054",
+      "36094000",
+      "35351588",
+      "35142404",
+      "30710045",
+      "27217380",
+      "35401933",
+      "28343073",
+      "25976178",
+      "37714424",
+      "36708960",
+      "38328828",
+      "34255035",
+      "34336097",
+      "37572942",
+      "36863495",
+      "29895489",
+      "37673390",
+      "24550447",
+      "38141409",
+      "35797865",
+      "24409307",
+      "31683519",
+      "26715469",
+      "24809692",
+      "22061780",
+      "22933585",
+      "36341903",
+      "27510769",
+      "34362425",
+      "38837092",
+      "24804941",
+      "24751364",
+      "29102662",
+      "36537048",
+      "29654491",
+      "37657765",
+      "29478025",
+      "33427060",
+      "32212900",
+      "33811844",
+      "35661323",
+      "35300568",
+      "25728928",
+      "33184783",
+      "33079458",
+      "28960571",
+      "16227210",
+      "30593877",
+      "33617968",
+      "27785755",
+      "33207934",
+      "26572637",
+      "30074840",
+      "36692424",
+      "27425889",
+      "30076999",
+      "26786838",
+      "33771213",
+      "31040648",
+      "30218809",
+      "34966392",
+      "33816617",
+      "32382778",
+      "38913800",
+      "32500353",
+      "38064974",
+      "32321555",
+      "37730136",
+      "33625674",
+      "24323731",
+      "22580326",
+      "28487326",
+      "37908731",
+      "34205911",
+      "25911293",
+      "33200399",
+      "35247371",
+      "32866905",
+      "34455546",
+      "26746864",
+      "21083501",
+      "34668514",
+      "37148714",
+      "23731488",
+      "39199193",
+      "36077044"
+    ],
+    "review": [
+      "38454480",
+      "37657765",
+      "26786838",
+      "34966392"
+    ],
+    "pmc": [
+      "10921652"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-024-04993-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38454480/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38454480",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3670",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,840 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.09.05.459013",
+  "title": "ScanNet: An interpretable geometric deep learning model for structure-based protein binding site prediction",
+  "doi": "10.1101/2021.09.05.459013",
+  "abstract": "Predicting the functional sites of a protein from its structure, such as the binding sites of small molecules, other proteins or antibodies sheds light on its function in vivo . Currently, two classes of methods prevail: Machine Learning (ML) models built on top of handcrafted features and comparative modeling. They are respectively limited by the expressivity of the handcrafted features and the availability of similar proteins. Here, we introduce ScanNet, an end-to-end, interpretable geometric deep learning model that learns features directly from 3D structures. ScanNet builds representations of atoms and amino acids based on the spatio-chemical arrangement of their neighbors. We train ScanNet for detecting protein-protein and protein-antibody binding sites, demonstrate its accuracy - including for unseen protein folds - and interpret the filters learned. Finally, we predict epitopes of the SARS-CoV-2 spike protein, validating known antigenic regions and predicting previously uncharacterized ones. Overall, ScanNet is a versatile, powerful, and interpretable model suitable for functional site prediction tasks. A webserver for ScanNet is available from http://bioinfo3d.cs.tau.ac.il/ScanNet/",
+  "authors": [
+    "Jérôme Tubiana",
+    "Dina Schneidman-Duhovny",
+    "Haim J. Wolfson"
+  ],
+  "published_date": "2021-09-06",
+  "updated_date": "2021-09-06T19:45:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.09.05.459013",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.09.05.459013.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:11:56Z",
+        "timestamp": 1768497116431,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 105,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  Predicting the functional sites of a protein from its structure, such as the binding sites of small molecules, other proteins or antibodies sheds light on its function\n                  <jats:italic>in vivo</jats:italic>\n                  . Currently, two classes of methods prevail: Machine Learning (ML) models built on top of handcrafted features and comparative modeling. They are respectively limited by the expressivity of the handcrafted features and the availability of similar proteins. Here, we introduce ScanNet, an end-to-end, interpretable geometric deep learning model that learns features directly from 3D structures. ScanNet builds representations of atoms and amino acids based on the spatio-chemical arrangement of their neighbors. We train ScanNet for detecting protein-protein and protein-antibody binding sites, demonstrate its accuracy - including for unseen protein folds - and interpret the filters learned. Finally, we predict epitopes of the SARS-CoV-2 spike protein, validating known antigenic regions and predicting previously uncharacterized ones. Overall, ScanNet is a versatile, powerful, and interpretable model suitable for functional site prediction tasks. A webserver for ScanNet is available from\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://bioinfo3d.cs.tau.ac.il/ScanNet/\">http://bioinfo3d.cs.tau.ac.il/ScanNet/</jats:ext-link>\n                </jats:p>",
+      "DOI": "10.1101/2021.09.05.459013",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            6
+          ]
+        ],
+        "date-time": "2021-09-06T19:45:12Z",
+        "timestamp": 1630957512000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "ScanNet: An interpretable geometric deep learning model for structure-based protein binding site prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8878-5620",
+          "authenticated-orcid": false,
+          "given": "Jérôme",
+          "family": "Tubiana",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0480-0438",
+          "authenticated-orcid": false,
+          "given": "Dina",
+          "family": "Schneidman-Duhovny",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7600-2702",
+          "authenticated-orcid": false,
+          "given": "Haim J.",
+          "family": "Wolfson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1251652"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Jumper , R. Evans , A. Pritzel , T. Green , M. Figurnov , O. Ronneberger , K. Tunyasuvunakool , R. Bates , A. Žídek , A. Potapenko , et al., Highly accurate protein structure prediction with alphafold, Nature, 1 (2021).",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Tunyasuvunakool , J. Adler , Z. Wu , T. Green , M. Zielinski , A. Žídek , A. Bridgland , A. Cowie , C. Meyer , A. Laydon , et al., Highly accurate protein structure prediction for the human proteome, Nature, 1 (2021).",
+          "DOI": "10.1038/s41586-021-03828-1"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2010.08.001"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki482"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100265x"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1005894107"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-12-1"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr997"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-13-1"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.11",
+          "unstructured": "R. Esmaielbeiki and J.-C. Nebel , Unbiased protein interface prediction based on ligand diversity quantification, (2012)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2015.10.003"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbv027"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.02.040"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "630",
+          "DOI": "10.1002/prot.20741",
+          "article-title": "Exploiting sequence and structure homologs to identify protein–protein binding sites",
+          "volume": "62",
+          "year": "2006",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "630",
+          "DOI": "10.1002/prot.21248",
+          "article-title": "Prediction-based fingerprints of protein–protein interactions",
+          "volume": "66",
+          "year": "2007",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn199"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "850",
+          "DOI": "10.1002/prot.25749",
+          "article-title": "Coupling dynamics and evolutionary information with structure to identify protein regulatory and functional binding sites",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0968-0004(87)90231-3"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1998.1843"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "460",
+          "DOI": "10.1038/s41586-021-03513-3",
+          "article-title": "A lysine–cysteine redox switch with an nos bridge regulates enzyme function",
+          "volume": "593",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Elnaggar , M. Heinzinger , C. Dallago , G. Rihawi , Y. Wang , L. Jones , T. Gibbs , T. Feher , C. Angerer , M. Steinegger , et al., Prottrans: towards cracking the language of life’s code through self-supervised deep learning and high performance computing, arXiv preprint arXiv:2007.06225 (2020).",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Rives , J. Meier , T. Sercu , S. Goyal , Z. Lin , J. Liu , D. Guo , M. Ott , C. L. Zitnick , J. Ma , et al., Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences, Proceedings of the National Academy of Sciences 118(2021).",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.24",
+          "unstructured": "J. Ingraham , A. Riesselman , C. Sander , and D. Marks , Learning protein structure with a differentiable simulator, in International Conference on Learning Representations (2018)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.25",
+          "unstructured": "J. Ingraham , V. K. Garg , R. Barzilay , and T. Jaakkola , Generative models for graph-based protein design, (2019)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Jing and J. Xu , Fast and effective protein model refinement by deep graph neural networks, bioRxiv (2020).",
+          "DOI": "10.1101/2020.12.10.419994"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "360",
+          "DOI": "10.1093/bioinformatics/btaa714",
+          "article-title": "Graphqa: protein model quality assessment using graph convolutional networks",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.28",
+          "unstructured": "I. Wallach , M. Dzamba , and A. Heifets , Atomnet: a deep convolutional neural network for bioactivity prediction in structure-based drug discovery, arXiv preprint arXiv:1510.02855 (2015)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00740"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "3313",
+          "DOI": "10.1093/bioinformatics/btz122",
+          "article-title": "Protein model quality assessment using 3d oriented convolutional neural networks",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.31",
+          "first-page": "15642",
+          "article-title": "End-to-end learning on 3d protein structure for interface prediction",
+          "volume": "32",
+          "year": "2019",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "2113",
+          "DOI": "10.1093/bioinformatics/btz870",
+          "article-title": "Protein docking model evaluation by 3d deep convolutional neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "I. Igashov , K. Olechnovic , M. Kadukova , Č. Venclovas , and S. Grudinin , Vorocnn: Deep convolutional neural network built on 3d voronoi tessellation of protein structures, bioRxiv (2020).",
+          "DOI": "10.1101/2020.04.27.063586"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Renaud , C. Geng , S. Georgievska , F. Ambrosetti , L. Ridder , D. F. Marzella , A. M. Bonvin , and L. C. Xue , Deeprank: A deep learning framework for data mining 3d protein-protein interfaces, Biorxiv (2021).",
+          "DOI": "10.1101/2021.01.29.425727"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.35",
+          "unstructured": "S. Eismann , P. Suriana , B. Jing , R. J. Townshend , and R. O. Dror , Protein model quality assessment using rotation-equivariant, hierarchical neural networks, arXiv preprint arXiv:2011.13557 (2020)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "184",
+          "DOI": "10.1038/s41592-019-0666-6",
+          "article-title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "F. Sverrisson , J. Feydy , B. E. Correia , and M. M. Bronstein , Fast end-to-end learning on protein surfaces, in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (2021) pp. 15272–15281.",
+          "DOI": "10.1109/CVPR46437.2021.01502"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MSP.2017.2693418"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.39",
+          "unstructured": "M. M. Bronstein , J. Bruna , T. Cohen , and P. Veličković , Geometric deep learning: Grids, groups, graphs, geodesics, and gauges, arXiv preprint arXiv:2104.13478 (2021)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.40",
+          "unstructured": "J. Gilmer , S. S. Schoenholz , P. F. Riley , O. Vinyals , and G. E. Dahl , Neural message passing for quantum chemistry, in International conference on machine learning (PMLR, 2017) pp. 1263–1272."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.41",
+          "unstructured": "P. Veličković , G. Cucurull , A. Casanova , A. Romero , P. Lio , and Y. Bengio , Graph attention networks, arXiv preprint arXiv:1710.10903 (2017)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.10.077"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "e119",
+          "DOI": "10.1371/journal.pcbi.0030119",
+          "article-title": "Protein–protein interaction hotspots carved into sequences",
+          "volume": "3",
+          "year": "2007",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1038/nmeth.4510",
+          "article-title": "Pdb-wide identification of biological assemblies from conserved quaternary structure geometry",
+          "volume": "15",
+          "year": "2018",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1002/pro.3295",
+          "article-title": "Dockground: a comprehensive data resource for modeling of protein complexes",
+          "volume": "27",
+          "year": "2018",
+          "journal-title": "Protein Science"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Chen and C. Guestrin , Xgboost: A scalable tree boosting system, in Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining (2016) pp. 785–794.",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Shatsky , R. Nussinov , and H. J. Wolfson , Multiprot—a multiple protein structural alignment algorithm, in International Workshop on Algorithms in Bioinformatics (Springer, 2002) pp. 235–250.",
+          "DOI": "10.1007/3-540-45784-4_18"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "D266",
+          "DOI": "10.1093/nar/gkaa1079",
+          "article-title": "Cath: increased structural coverage of functional space",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3280"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002829"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Yuan , D. Huang , C.-C. D. Lee , N. C. Wu , A. M. Jackson , X. Zhu , H. Liu , L. Peng , M. J. van Gils , R. W. Sanders , et al., Structural and functional ramifications of antigenic drift in recent sars-cov-2 variants, Science (2021).",
+          "DOI": "10.1101/2021.02.16.430500"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.53",
+          "unstructured": "E. Shrock , E. Fujimura , T. Kula , R. T. Timms , I.-H. Lee , Y. Leng , M. L. Robinson , B. M. Sie , M. Z. Li , Y. Chen , et al., Viral epitope profiling of covid-19 patients reveals cross-reactivity and correlates of severity, Science 370(2020)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. M. Sauer , M. A. Tortorici , Y.-J. Park , A. C. Walls , L. Homad , O. J. Acton , J. E. Bowen , C. Wang , X. Xiong , W. de van der Schueren , et al., Structural basis for broad coronavirus neutralization, Nature Structural & Molecular Biology, 1 (2021).",
+          "DOI": "10.1101/2020.12.29.424482"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abb9983"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Evans , M. O’Neill , A. Pritzel , N. Antropova , A. W. Senior , T. Green , A. Žídek , R. Bates , S. Blackwell , J. Yim , et al., Protein complex prediction with alphafold-multimer, Biorxiv (2021).",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00196a004"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "280",
+          "DOI": "10.1038/nsmb1228",
+          "article-title": "Gaba production by glutamic acid decarboxylase is regulated by a dynamic catalytic loop",
+          "volume": "14",
+          "year": "2007",
+          "journal-title": "Nature structural & molecular biology"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3235"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.60",
+          "unstructured": "L. Van der Maaten and G. Hinton , Visualizing data using t-sne., Journal of machine learning research 9(2008)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "2577",
+          "DOI": "10.1002/bip.360221211",
+          "article-title": "Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features",
+          "volume": "22",
+          "year": "1983",
+          "journal-title": "Biopolymers: Original Research on Biomolecules"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.62",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Amaro and A. Mulholland , Biomolecular simulations in the time of covid19, and after, Computing in Science & Engineering (2020).",
+          "DOI": "10.1109/MCSE.2020.3024155"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.64",
+          "unstructured": "If both are equally far away e.g. for isoleucine, we choose the first one according to the residue id."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1038/nmeth.1818",
+          "article-title": "Hhblits: lightning-fast iterative protein sequence searching by hmm-hmm alignment",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "032601",
+          "DOI": "10.1088/1361-6633/aa9965",
+          "article-title": "Inverse statistical physics of protein sequences: a key issues review",
+          "volume": "81",
+          "year": "2018",
+          "journal-title": "Reports on Progress in Physics"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.68",
+          "unstructured": "L. Posani , Inference and modeling of biological networks: a statistical-physics approach to neural attractors and protein fitness landscapes, Ph.D. thesis, Université Paris sciences et lettres (2018)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.69",
+          "unstructured": "W. Chen , X. Han , G. Li , C. Chen , J. Xing , Y. Zhao , and H. Li , Deep rbfnet: Point cloud feature learning using radial basis functions, arXiv preprint arXiv:1812.04302 (2018)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.70",
+          "unstructured": "C. R. Qi , H. Su , K. Mo , and L. J. Guibas , Pointnet: Deep learning on point sets for 3d classification and segmentation, in Proceedings of the IEEE conference on computer vision and pattern recognition (2017) pp. 652–660."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.71",
+          "unstructured": "C. R. Qi , L. Yi , H. Su , and L. J. Guibas , Pointnet++: Deep hierarchical feature learning on point sets in a metric space, arXiv preprint arXiv:1706.02413 (2017)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.72",
+          "doi-asserted-by": "crossref",
+          "unstructured": "I. Igashov , N. Pavlichenko , and S. Grudinin , Spherical convolutions on molecular graphs for protein model quality assessment, Machine Learning: Science and Technology (2021).",
+          "DOI": "10.1088/2632-2153/abf856"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "e39397",
+          "DOI": "10.7554/eLife.39397",
+          "article-title": "Learning protein constitutive motifs from sequence data",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Elife"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.74",
+          "unstructured": "S. Ioffe and C. Szegedy , Batch normalization: Accelerating deep network training by reducing internal covariate shift, in International conference on machine learning (PMLR, 2015) pp. 448–456."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.75",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "the Journal of machine Learning research"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.76",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Long , E. Shelhamer , and T. Darrell , Fully convolutional networks for semantic segmentation, in Proceedings of the IEEE conference on computer vision and pattern recognition (2015) pp. 3431–3440.",
+          "DOI": "10.1109/CVPR.2015.7298965"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.77",
+          "unstructured": "D. P. Kingma and J. Ba , Adam: A method for stochastic optimization, arXiv preprint arXiv:1412.6980 (2014)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.78",
+          "unstructured": "M. Abadi , P. Barham , J. Chen , Z. Chen , A. Davis , J. Dean , M. Devin , S. Ghemawat , G. Irving , M. Isard , et al., Tensorflow: A system for large-scale machine learning, in 12th {USENIX} symposium on operating systems design and implementation ({OSDI} 16) (2016) pp. 265–283."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.79",
+          "unstructured": "F. Chollet , Deep learning with Python (Simon and Schuster, 2017)."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn222"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(99)80097-5"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1097-0282(199603)38:3<305::AID-BIP4>3.0.CO;2-Y"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360250705"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts565"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty121"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.87",
+          "unstructured": "For the PPBS data set, 8.9% of the binding site residues are actually in unbound conformation, as their label was inferred from another pdb file, see data preparation."
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-014-0430-y"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.89",
+          "doi-asserted-by": "crossref",
+          "unstructured": "U. Ghani , I. Desta , A. Jindal , O. Khan , G. Jones , S. Kotelnikov , D. Padhorny , S. Vajda , and D. Kozakov , Improved docking of protein models by a combination of alphafold2 and cluspro, BioRxiv (2021).",
+          "DOI": "10.1101/2021.09.07.459290"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.90",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Mirdita , K. Schütze , Y. Moriwaki , L. Heo , S. Ovchinnikov , and M. Steinegger , Colabfold-making protein folding accessible to all, (2021).",
+          "DOI": "10.1101/2021.08.15.456425"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.91",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.1093/bioinformatics/bty635",
+          "article-title": "Skempi 2.0: an updated benchmark of changes in protein–protein binding energy, kinetics and thermodynamics upon mutation",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2015.07.016"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.93",
+          "doi-asserted-by": "crossref",
+          "first-page": "3031",
+          "DOI": "10.1021/acs.jctc.7b00125",
+          "article-title": "The rosetta all-atom energy function for macromolecular modeling and design",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq007"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.95",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Yuan , H. Liu , N. C. Wu , C.-C. D. Lee , X. Zhu , F. Zhao , D. Huang , W. Yu , Y. Hua , H. Tien , et al., Structural basis of a public antibody response to sars-cov-2, BioRxiv (2020).",
+          "DOI": "10.1101/2020.06.08.141267"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.96",
+          "doi-asserted-by": "crossref",
+          "first-page": "108274",
+          "DOI": "10.1016/j.celrep.2020.108274",
+          "article-title": "An alternative binding mode of ighv3-53 antibodies to the sars-cov-2 receptor binding domain",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Cell reports"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.09.049"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abd0827"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.99",
+          "doi-asserted-by": "crossref",
+          "first-page": "806",
+          "DOI": "10.1016/j.chom.2021.04.005",
+          "article-title": "A combination of cross-neutralizing antibodies synergizes to prevent sars-cov-2 and sars-cov pseudovirus infection",
+          "volume": "29",
+          "year": "2021",
+          "journal-title": "Cell host & microbe"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "1272",
+          "DOI": "10.1016/j.immuni.2020.10.023",
+          "article-title": "Cross-neutralization of a sars-cov-2 antibody to a functionally conserved site is mediated by avidity",
+          "volume": "53",
+          "year": "2020",
+          "journal-title": "Immunity"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chom.2021.03.005"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.102",
+          "first-page": "1",
+          "article-title": "Receptor mimicry by antibody f045–092 facilitates universal binding to the h3 subtype of influenza virus",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1093155"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.010"
+        },
+        {
+          "key": "2022021800300536000_2021.09.05.459013v2.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abd7331"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.09.05.459013",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:08:13Z",
+        "timestamp": 1768442893000
+      },
+      "score": 152.05069,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.09.05.459013"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            6
+          ]
+        ]
+      },
+      "references-count": 105,
+      "URL": "https://doi.org/10.1101/2021.09.05.459013",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41592-022-01490-7",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

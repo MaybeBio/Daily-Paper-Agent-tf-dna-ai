@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-ngb5z-v2",
+  "title": "Machine-learning prediction of exciton binding energies in two-dimensional materials for photonics application",
+  "authors": "Zhengliang Lin; Jingze Liu; Sijing Zhong; Kristine Hsiao; Xi Chen",
+  "journal": "ChemRxiv",
+  "published_date": "2023-12-17",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用机器学习预测二维材料激子结合能，对象为材料电子性质，与蛋白质-DNA互作及TF-DNA体系完全无关。",
+  "abstract": "Density functional theory (DFT) is a ubiquitous first-principles method, but the approximate nature of the exchange-correlation functional poses an inherent limitation for the accuracy of various computed properties. In this context, surrogate models based on machine learning have the potential to provide a more efficient and physically meaningful understanding of electronic properties, such as the exciton binding energy. Here, we construct a regression model based on gradient boosting on decision trees (CatBoost) for prediction of the exciton binding energy of 2D materials from simple physical descriptors, using the Computational 2D Materials Database (C2DB). Out of 22 atomic features, the highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) energy levels exhibit the highest importance scores, with HOMO having a much more important role compared to other features. We obtain a R2 value of 0.8023 and mean absolute error of 0.2138 eV using the top 9 features. Our work presents a rapid and interpretable prediction model for exciton biding energy with high fidelity to DFT and can be extended beyond the C2DB dataset considered in this study.",
+  "abstract_zh": "密度泛函理论（DFT）是一种普遍应用的第一性原理方法，但交换相关泛函的近似性质对各种计算性质的准确性构成了固有局限。在此背景下，基于机器学习的替代模型有潜力提供对电子性质（如激子结合能）更高效且具有物理意义的理解。本文中，我们构建了一个基于决策树梯度提升（CatBoost）的回归模型，利用简单物理描述符预测二维材料的激子结合能，并采用计算二维材料数据库（C2DB）。在22个原子特征中，最高占据分子轨道（HOMO）和最低未占据分子轨道（LUMO）能级表现出最高的重要性得分，其中HOMO相比其他特征具有更重要的作用。使用前9个特征，我们获得了R²值为0.8023，平均绝对误差为0.2138 eV。我们的工作提出了一种快速且可解释的激子结合能预测模型，其保真度与DFT高度一致，并可扩展到本研究考虑的C2DB数据集之外。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-ngb5z-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-ngb5z-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-ngb5z-v2/index.html"
+}

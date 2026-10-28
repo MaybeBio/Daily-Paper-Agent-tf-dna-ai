@@ -1,0 +1,300 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.08.447477",
+  "title": "In depth analysis of Cyprus-specific mutations of SARS-CoV-2 strains using computational approaches",
+  "doi": "10.1101/2021.06.08.447477",
+  "abstract": "This study aims to characterize SARS-CoV-2 mutations which are primarily prevalent in the Cypriot population. Moreover, using computational approaches, we assess whether these mutations are associated with changes in viral virulence. We utilize genetic data from 144 sequences of SARS-CoV-2 strains from the Cypriot population obtained between March 2020 and January 2021, as well as all data available from GISAID. We combine this with countries’ regional information, such as deaths and cases per million, as well as COVID-19-related public health austerity measure response times. Initial indications of selective advantage of Cyprus-specific mutations are obtained by mutation tracking analysis. This entails calculating specific mutation frequencies within the Cypriot population and comparing these with their prevalence world-wide throughout the course of the pandemic. We further make use of linear regression models to extrapolate additional information that may be missed through standard statistical analysis. We report a single mutation found in the ORF1ab gene (S6059F) that appears to be significantly enriched within the Cypriot population. We further analyse this mutation using regression models to investigate possible associations with increased deaths and cases per million. Moreover, protein structure prediction tools show that the mutation infers a conformational change to the protein that significantly alters its structure when compared to the reference protein. Investigating Cyprus-specific mutations for SARS-CoV-2 can not only lead to important findings from which to battle the pandemic on a national level, but also provide insights into viral virulence worldwide.",
+  "authors": [
+    "Oulas A",
+    "Richter J",
+    "Zanti M",
+    "Tomazou M",
+    "Michailidou K",
+    "Christodoulou K",
+    "Christodoulou C",
+    "Spyrou GM"
+  ],
+  "published_date": "2021-06-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.08.447477",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.08.447477.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR354017",
+    "raw_record": {
+      "id": "PPR354017",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR354017"
+        ]
+      },
+      "doi": "10.1101/2021.06.08.447477",
+      "title": "In depth analysis of Cyprus-specific mutations of SARS-CoV-2 strains using computational approaches",
+      "authorString": "Oulas A, Richter J, Zanti M, Tomazou M, Michailidou K, Christodoulou K, Christodoulou C, Spyrou GM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Oulas A",
+            "lastName": "Oulas",
+            "firstName": "Anastasis",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9350-7577"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Department, The Cyprus Institute of Neurology & Genetics, Nicosia, Cyprus"
+                },
+                {
+                  "affiliation": "The Cyprus School of Molecular Medicine, Nicosia, Cyprus Nicosia, Cyprus"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richter J",
+            "lastName": "Richter",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3737-7664"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Virology Department, Cyprus Institute of Neurology and Genetics, Nicosia, Cyprus"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zanti M",
+            "lastName": "Zanti",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Department, The Cyprus Institute of Neurology & Genetics, Nicosia, Cyprus"
+                },
+                {
+                  "affiliation": "Biostatistics Unit, The Cyprus Institute of Neurology and Genetics, Nicosia, Cyprus"
+                },
+                {
+                  "affiliation": "The Cyprus School of Molecular Medicine, Nicosia, Cyprus Nicosia, Cyprus"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tomazou M",
+            "lastName": "Tomazou",
+            "firstName": "Marios",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Department, The Cyprus Institute of Neurology & Genetics, Nicosia, Cyprus"
+                },
+                {
+                  "affiliation": "Neurogenetics Department, Cyprus Institute of Neurology & Genetics, 6 Iroon Avenue, 2371"
+                },
+                {
+                  "affiliation": "The Cyprus School of Molecular Medicine, Nicosia, Cyprus Nicosia, Cyprus"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Michailidou K",
+            "lastName": "Michailidou",
+            "firstName": "Kyriaki",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7065-1237"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biostatistics Unit, The Cyprus Institute of Neurology and Genetics, Nicosia, Cyprus"
+                },
+                {
+                  "affiliation": "The Cyprus School of Molecular Medicine, Nicosia, Cyprus Nicosia, Cyprus"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Christodoulou K",
+            "lastName": "Christodoulou",
+            "firstName": "Kyproula",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neurogenetics Department, Cyprus Institute of Neurology & Genetics, 6 Iroon Avenue, 2371"
+                },
+                {
+                  "affiliation": "The Cyprus School of Molecular Medicine, Nicosia, Cyprus Nicosia, Cyprus"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Christodoulou C",
+            "lastName": "Christodoulou",
+            "firstName": "Christina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Virology Department, Cyprus Institute of Neurology and Genetics, Nicosia, Cyprus"
+                },
+                {
+                  "affiliation": "The Cyprus School of Molecular Medicine, Nicosia, Cyprus Nicosia, Cyprus"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spyrou GM",
+            "lastName": "Spyrou",
+            "firstName": "George",
+            "initials": "GM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Department, The Cyprus Institute of Neurology & Genetics, Nicosia, Cyprus"
+                },
+                {
+                  "affiliation": "The Cyprus School of Molecular Medicine, Nicosia, Cyprus Nicosia, Cyprus"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7065-1237"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0622-7594"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9350-7577"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3737-7664"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "This study aims to characterize SARS-CoV-2 mutations which are primarily prevalent in the Cypriot population. Moreover, using computational approaches, we assess whether these mutations are associated with changes in viral virulence. We utilize genetic data from 144 sequences of SARS-CoV-2 strains from the Cypriot population obtained between March 2020 and January 2021, as well as all data available from GISAID. We combine this with countries’ regional information, such as deaths and cases per million, as well as COVID-19-related public health austerity measure response times. Initial indications of selective advantage of Cyprus-specific mutations are obtained by mutation tracking analysis. This entails calculating specific mutation frequencies within the Cypriot population and comparing these with their prevalence world-wide throughout the course of the pandemic. We further make use of linear regression models to extrapolate additional information that may be missed through standard statistical analysis. We report a single mutation found in the  ORF1ab gene (S6059F) that appears to be significantly enriched within the Cypriot population. We further analyse this mutation using regression models to investigate possible associations with increased deaths and cases per million. Moreover, protein structure prediction tools show that the mutation infers a conformational change to the protein that significantly alters its structure when compared to the reference protein. Investigating Cyprus-specific mutations for SARS-CoV-2 can not only lead to important findings from which to battle the pandemic on a national level, but also provide insights into viral virulence worldwide.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/06/16/2021.06.08.447477.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.06.08.447477"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR354017"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.06.08.447477"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34773976",
+            "reference": "BMC genomic data. 2021 Nov;22(1):48",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS127457",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-06-09",
+      "firstPublicationDate": "2021-06-08",
+      "firstIndexDate": "2021-06-09",
+      "fullTextReceivedDate": "2021-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "39350338",
+    "doi": "10.1093/bib/bbae489",
+    "title": "MLSNet: a deep learning model for predicting transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "Accurate prediction of transcription factor binding sites (TFBSs) is essential for understanding gene regulation mechanisms and the etiology of diseases. Despite numerous advances in deep learning for predicting TFBSs, their performance can still be enhanced. In this study, we propose MLSNet, a novel deep learning architecture designed specifically to predict TFBSs. MLSNet innovatively integrates multisize convolutional fusion with long short-term memory (LSTM) networks to effectively capture DNA-sparse higher-order sequence features. Further, MLSNet incorporates super token attention and Bi-LSTM to systematically extract and integrate higher-order DNA shape features. Experimental results on 165 ChIP-seq (chromatin immunoprecipitation followed by sequencing) datasets indicate that MLSNet consistently outperforms several state-of-the-art algorithms in the prediction of TFBSs. Specifically, MLSNet reports average metrics: 0.8306 for ACC, 0.8992 for AUROC, and 0.9035 for AUPRC, surpassing the second-best methods by 1.82%, 1.68%, and 1.54%, respectively. This research delineates the effectiveness of combining multi-size convolutional layers with LSTM and DNA shape-based features in enhancing predictive accuracy. Moreover, this study comprehensively assesses the variability in model performance across different cell lines and transcription factors. The source code of MLSNet is available at https://github.com/minghaidea/MLSNet.",
+    "keywords": [
+      "DNA sequence",
+      "DNA shape",
+      "multisize convolutional fusion",
+      "super token attention and Bi-LSTM",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Transcription Factors/metabolism",
+      "Binding Sites",
+      "Algorithms",
+      "Computational Biology/methods",
+      "Humans",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "DNA/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yuchuan",
+        "Wang, Zhikang",
+        "Ge, Fang",
+        "Wang, Xiaoyu",
+        "Zhang, Yiwen",
+        "Li, Shanshan",
+        "Guo, Yuming",
+        "Song, Jiangning",
+        "Yu, Dong-Jun"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Wang Z",
+        "Ge F",
+        "Wang X",
+        "Zhang Y",
+        "Li S",
+        "Guo Y",
+        "Song J",
+        "Yu DJ"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-6628-9715",
+        "ORCID: 0000-0001-9587-1965",
+        "ORCID: 0000-0001-5792-5379",
+        "ORCID: 0000-0001-8031-9086",
+        "ORCID: 0000-0002-6786-8053"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing 210094, China.",
+        "Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Wellington Rd, Clayton, Melbourne, VIC 3800, Australia.",
+        "State Key Laboratory of Organic Electronics and Information Displays & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, 9 Wenyuan, Nanjing, 210023, China.",
+        "Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Wellington Rd, Clayton, Melbourne, VIC 3800, Australia.",
+        "Climate, Air Quality Research Unit, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC 3004, Australia.",
+        "Climate, Air Quality Research Unit, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC 3004, Australia.",
+        "Climate, Air Quality Research Unit, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC 3004, Australia.",
+        "Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Wellington Rd, Clayton, Melbourne, VIC 3800, Australia.",
+        "Monash Data Futures Institute, Monash University, Wellington Rd, Clayton, Melbourne, VIC 3800, Australia.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing 210094, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yuchuan",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0007-6628-9715"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing 210094, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhikang",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0001-9587-1965"
+        ],
+        "affiliations": [
+          "Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Wellington Rd, Clayton, Melbourne, VIC 3800, Australia."
+        ]
+      },
+      {
+        "full_name": "Ge, Fang",
+        "short_name": "Ge F",
+        "identifiers": [
+          "0000-0001-5792-5379"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Organic Electronics and Information Displays & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, 9 Wenyuan, Nanjing, 210023, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Wellington Rd, Clayton, Melbourne, VIC 3800, Australia."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yiwen",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Climate, Air Quality Research Unit, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Li, Shanshan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Climate, Air Quality Research Unit, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Guo, Yuming",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Climate, Air Quality Research Unit, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Song, Jiangning",
+        "short_name": "Song J",
+        "identifiers": [
+          "0000-0001-8031-9086"
+        ],
+        "affiliations": [
+          "Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Wellington Rd, Clayton, Melbourne, VIC 3800, Australia.",
+          "Monash Data Futures Institute, Monash University, Wellington Rd, Clayton, Melbourne, VIC 3800, Australia."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [
+          "0000-0002-6786-8053"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing 210094, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Sep 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/01 06:56",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "41982388",
+      "41627694",
+      "41574495",
+      "40731031",
+      "40650219",
+      "40411397"
+    ],
+    "refs": [
+      "37328639",
+      "35817977",
+      "35659235",
+      "34929739",
+      "34608324",
+      "33796819",
+      "33767912",
+      "33603233",
+      "33498086",
+      "33279925",
+      "32750884",
+      "31634140",
+      "31078526",
+      "30385203",
+      "30106688",
+      "30013180",
+      "29993783",
+      "27307608",
+      "27089971",
+      "27084946",
+      "26845405",
+      "26301843",
+      "26213851",
+      "24144318",
+      "23771147",
+      "22955616",
+      "22153082",
+      "21519114",
+      "21342590",
+      "20657582",
+      "19563753",
+      "12374981",
+      "11525835",
+      "2179676"
+    ],
+    "similar": [
+      "39350338",
+      "37328639",
+      "34929739",
+      "38701417",
+      "39107889",
+      "34073774",
+      "30835229",
+      "38732207",
+      "38643066",
+      "38733561",
+      "32960766",
+      "36748992",
+      "34272562",
+      "33372147",
+      "36094959",
+      "29993783",
+      "31634140",
+      "28881969",
+      "32946398",
+      "38236675",
+      "34752400",
+      "33498086",
+      "38798191",
+      "31372637",
+      "34664074",
+      "34174819",
+      "33837387",
+      "33767912",
+      "35652477",
+      "36484687",
+      "34613923",
+      "38830995",
+      "39336761",
+      "29970003",
+      "34882561",
+      "33975951",
+      "30447332",
+      "35263332",
+      "37028092",
+      "37140548",
+      "36155619",
+      "30040656",
+      "29757349",
+      "34571539",
+      "35015646",
+      "27845669",
+      "31483777",
+      "35189635",
+      "33740884",
+      "32976105",
+      "33662629",
+      "19091030",
+      "30808287",
+      "36935548",
+      "18627598",
+      "31714956",
+      "37430865",
+      "36653898",
+      "33522898",
+      "34312058",
+      "28961686",
+      "32181478",
+      "32822050",
+      "39125714",
+      "28334268",
+      "35248805",
+      "34534646",
+      "30106688",
+      "35471887",
+      "35293310",
+      "29848263",
+      "39153682",
+      "39173070",
+      "35997564",
+      "36398911",
+      "38178985",
+      "35462009",
+      "38599417",
+      "34607350",
+      "23522376",
+      "29617876",
+      "30897079",
+      "23282203",
+      "32133533",
+      "38316843",
+      "38940155",
+      "34221854",
+      "36902216",
+      "30419785",
+      "26818008",
+      "38870725",
+      "35676633",
+      "32404971",
+      "19478008",
+      "37723425",
+      "32770026",
+      "36049552",
+      "36403092",
+      "38347788",
+      "38980373",
+      "26552868"
+    ],
+    "review": [
+      "39350338",
+      "35652477",
+      "30447332",
+      "31714956",
+      "28334268"
+    ],
+    "pmc": [
+      "11442149"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39350338.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39350338/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae489",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,141 @@
+# Targeting mitochondrial ribosomal protein expression by
+andrographolide and melatonin for colon cancer treatment
+
+
+## Abstract
+  Colospheroids contain colon cancer stem cells (CSCs) that cause colorectal cancer metastasis (mCRC). Colorectal cancer (CRC) is the second leading cause of cancer-related deaths in the U.S. Little is known about the role of mitochondria in the survival and metastatic ability of CSCs. In this study, we investigate the effect of andrographolide (AGP) and melatonin (MLT) on mitochondrial dynamics (including fusion and fission) and the expression of mitochondrial ribosomal proteins (MRPs). Our results show that AGP and MLT synergistically reduce the total active mitochondrial mass, downregulate fusion and fission proteins, reduce OXPHOS proteins, and lead to CSC growth inhibition via Nrf2 and KEAP1 signaling. Microarray revealed 4389 differentially expressed mRNAs in the AGP and MLT combination compared to the control. Results exhibiting a three-fold induction/reduction were validated by qRT-PCR and immunoblot. MRPS6, a mitochondrial ribosomal (Mitoribosome) small subunit protein, was dramatically downregulated by AGP + MLT treatment compared to control. MRPS6 inhibition by siRNA reduced mCRC cell viability. Molecular docking-based protein-ligand interactions showed that AGP has direct physical interaction with MRPS6 and increases the binding affinity of MLT to MRPS6. This drug combination downregulated genes in the NRF2 (NFE2L2) pathway in CSCs. MRPS6 may be directly linked to CSC proliferation and could be a therapeutic target for this population. Functionally, MRPS6 knockdown significantly reduced colony formation, with enhanced suppression in AGP + MLT-treated cells. In xenograft models, the AGP-MLT combination synergistically decreased MRPS6 expression and increased apoptosis, as evidenced by TUNEL assays, demonstrating the therapeutic potential of targeting MRPS6 in CRC.
+
+
+## Introduction
+  Colon cancer stem cells (CSCs) drive metastatic colorectal cancer (mCRC), the second leading cause of U.S. cancer deaths, with about 53,000 annual fatalities. [1,2]. The combination of andrographolide (AGP) and melatonin (MLT) demonstrated potent anti-cancer effects across various colorectal cancer models. This synergistic therapy reduced stemness, colony formation, angiogenesis, and tumor growth while increasing reactive oxygen species (ROS) production and apoptosis. [3,4]. The broad efficacy of combination of AGP and MLT across cancer stages indicates it disrupts key cellular processes, impairing cancer cell survival and adaptation in multiple microenvironments.
+
+  Active mitochondrial mass is associated with cancer progression, including CRC [5]. Notably, mitochondrial dynamics and mitochondrial ribosomal proteins (MRPs) play a significant role in influencing CRC metastasis, drug resistance, and CSC survival [6,7]. Enhanced mitochondrial fission in CRC cells drives metabolic changes, promoting proliferation, metastasis, and chemoresistance, while extreme fission can induce apoptosis [5]. Additionally, mitochondrial dysfunction impacts cellular energy production and signaling pathways associated with mCRC progression [5,8]. Dynamin family proteins regulate mitochondrial dynamics. Dynamin-related protein 1 (Drp1) and mitochondrial fission 1 (FIS1) primarily mediate fission, while fusion depends on mitofusion (Mfn1, Mfn2), and optic atrophy (OPA1). DRP1 phosphorylation and expression levels are key in controlling mitochondrial fission and fusion [9,10]. Moreover, Glycoprotein nonmetastatic melanoma protein B (GPNMB) is overexpressed in various types of tumors and is associated with invasion and metastasis [11,12]. Therefore, targeting mitochondrial dynamics offers a promising therapeutic approach for mCRC. This strategy’s potential stems from its crucial role in cellular energy production and signaling pathways that drive cancer progression [5].
+
+  Cells activate NF-E2-related factor 2 (Nrf2) to maintain redox balance during oxidative stress, allowing it to regulate antioxidant genes after being released from its inhibitor Kelch-like ECH-associated protein 1 (Keap1) [13]. Mitochondrial ROS activate Nrf2, often via protein kinases, inducing antioxidant genes and mitochondrial quality control. Many nuclear-encoded mitochondrial ribosomal proteins (MRPs) are crucial for proper organelle function [14]. Mitochondrial translation defects involving these proteins can cause severe diseases, often due to mutations in the translation machinery components.
+
+  Our study uses dual drug treatment to investigate the understudied role of mitochondrial dynamics and regulatory proteins in CSCs. We observed reduced mitochondrial mass, altered fusion/fission protein expression, and differential expression of 4389 mRNAs. Notably, 37 mitochondrial ribosomal proteins (MRPs) are overexpressed in CSCs, while MRPS6, a mitoribosome small subunit polypeptide [15] is significantly downregulated by AGP + MLT. Using siMRPS6 technology, we demonstrate that modulation of MRPS6 translational levels impacts CRC cells proliferation.
+
+
+## Materials and methods
+
+### CRC cells, organoids culture and drug treatment
+  HT29, HCT-15, HCT-116, normal colon epithelial cells (FHC), and spheroids from HT-29 and HCT-15 were cultured as previously described [4,8,16]. Human tonsillar biopsy-derived mesenchymal stem cell (T-MSC) were generated as previously described [17]. Cells and organoids were treated with 9.3 μM AGP and 0.18 mM MLT for 48 h [4].
+
+
+### Ethics statement
+  All de-identified mCRC tissues were received from the surgery of colon cancer patients with the approval of the University of Maryland Institutional Review Board (HP-00066889–4). Written consent was obtained from all patients from whom discarded tissue was collected which included permission to publish results. A small piece of each tumor tissue was frozen for subsequent analysis [3].
+
+
+### Detection of mitochondrial impact on colospheroids
+  HT29 cells (0.3X104) were seeded on poly-L-Lysine coated four chambered slides using colospheroids media [4] and incubated at 37 °C in a 5 % CO2. After 48 h of treatment with AGP (9.3 μM) and MLT (0.18 mM), spheroids were washed with PBS and incubated with 25 nM mitochondrial dye (#M7512) for 30 min and DAPI for 15 min. The spheroids were then formaldehyde-fixed (4 %) and permeabilized with 0.1 % Triton-X for 10 min Keyence Fluorescence microscopy was used to take the images with 200× magnification.
+
+
+### Immunoblotting
+  After drug treatment for 48 h HT-29s were harvested as described earlier [18]. Images were captured using Syngene G Box digital imager (Frederick, MD) and results were quantified with densitometry as previously described [19]. All uncropped original immunoblots are in Supplementary Fig. 1.
+
+
+### Subcutaneous tumor xenografts and orthotopic implantation
+  Subcutaneous tumor xenograft experiments were approved by the Institutional Animal Care and Use Committee (IACUC) of the University of Notre Dame (protocol 18-09-4843) and performed as described earlier [4]. Colorectal cancer cells (HT-29) and patient-derived organoids were orthotopically engrafted in the colons of NSG mice as described previously [20] and approved by the Indiana University Bloomington IACUC (protocol 24–018). Tumor tissue sections from xenograft and orthotopic models were processed for immunohistochemical and immunofluorescence analyses using antibodies (supplementary Table II).
+
+
+### Apoptosis analysis
+  Treated (AGP, MLT alone or in combination) and untreated formalin-fixed, paraffin-embedded tumor xenograft tissue sections (sectioned at five μm thickness), were analyzed for apoptosis using the TUNEL assay kit (Roche # 11684795910) [21]. The details of the TUNEL assay are described in Supplementary documents.
+
+
+### Immunofluorescence and imaging
+  HT29-s (~8000 spheroids) were grown on poly-L-Lysine (0.01 %) coated coverslips. Immunofluorescence was performed in treated and untreated spheroids and xenograft tissue sections as described [8]. Anti-phospho DRP1 (1:100), and anti-MRPS6 (1:50) antibodies were used for overnight incubation at 4 °C. Alexa Flour 488 labeled goat anti-mouse IgG (H + L) (1:300) (Invitrogen; A11029) and DAPI were used. Keyence Fluorescence microscopy was used to take images with 20X and 40× magnification.
+
+
+### Immunohistochemistry
+  Immunohistochemistry was performed to detect MRPS6 expression in treated and untreated xenograft tissues, as well as in orthotopic tissue sections, following the protocol described earlier [22,23]. Details of the antibodies used are provided in the supplementary documents.
+
+
+### Microarray analysis
+  Microarray analysis was performed at the UMBSOM Genomics Core facility. Total RNA from treated and untreated HT-29 cells was isolated, purified, and quantified using Nanodrop ND-1000 [24]. Pathway analysis was conducted using the Reactome server. (https://reactome.org/PathwayBrowser/). A heatmap of the top 40 differentially expressed genes was created using the Heat Mapper server, applying average linkage clustering and Euclidean distance methods (http://www.heatmapper.ca/).
+
+
+### In-silico analysis of oncogenic significance of MRPS6 in CRC
+  Human MRPS6 protein was studied in silico for its chromosomal location (https://www.genecards.org/), native structure (https://alphafold.ebi.ac.uk/).
+
+
+### Quantitative real-time polymerase chain reaction (qRT-PCR)
+  Gene expression was evaluated as described in Ref. [25]. Primer sequences are listed in Supplementary Table III.
+
+
+### MRPS6 depletion, cell viability and clonogenic assay
+  Plasmid for MRPS6 depletion, siRNA specific for the MRPS6 gene and a proprietary universal negative control siRNA that does not target any known gene were purchased from Sigma Aldrich (#EHU002721 and #SIC001 respectively). The MRPS6 siRNA is a mixture of siRNA sequences prepared from an enzymatic digestion of MRPS6 cDNA. HCT-116 cells were transfected with siRNA oligonucleotides using lipofectamine 3000 (Invitrogen, USA) according to the manufacturer’s recommendations. Briefly, log phase HCT116 cells (75 % confluency) were transfected with 1 μg siRNA in serum free 100 μl media as instructed. Cells were analyzed for gene and protein expression at 24 and 48 h post transfection. MRPS6 depletion was validated by qRT-PCR or immunoblot for gene and protein expression respectively. Cell viability assay was performed as described earlier [8].
+
+
+### Study of biophysical interactions of AGP and MLT with MRPS6
+  3D structures of MRPS6 were retrieved from the Protein Data Bank (PDB; ID: 3J9M) and the association of unwanted water molecules, co-crystallized ligands, and undesired heteroatoms were eliminated, and missing residues were built using MODELLER9.19. Structures of AGP and MLT were retrieved from Drug bank (https://go.drugbank.com/), energy-optimized using semi-empirical methods, and subjected to molecular docking using Autodock software and visualized using Discovery Studio 4.5 following our earlier study [26]. The stability of the ligand-protein complexes was studied by Molecular Dynamics (MD) simulations using GROMACSv2022 (Groningen Machine for Chemical Simulations) and binding free energy was calculated following an earlier report [27].
+
+
+### Statistical analysis
+  Statistical analysis was performed with Graph Pad Prism for Macintosh 5.0c (Graph Pad Software Inc., San Diego, CA). Data obtained for all in vitro studies were analyzed using one-way ANOVA. Significance between groups was analyzed using the post hoc Tukey’s test and Bonferroni test. P values were considered significant if they were less than 0.05 and are indicated throughout using asterisks: * = P < 0.05, ** = P < 0.01, ***P < 0.001.
+
+
+## Results
+
+### AGP and MLT synergism reduces the total mass of active mitochondria and
+impacts mitochondrial dynamics protein in colospheroids
+  Our previous study has demonstrated that treatment of CSCs with AGP and MLT diminished stemness, reduced mitochondrial membrane potential, and ATP levels via oxidative stress [4]. Mitochondrial mass is associated with cancer cell viability [27]. Here we first visualized active mitochondria using mitotracker red. The results showed a loss of active mitochondria in the dual treated group compared with the untreated and the single drug treatment (Fig. 1A–B, p < 0.01). Alterations in mitochondrial dynamics (fusion and fission) contribute to malignant progression [28]. Mitochondrial fusion involves outer membrane fusion regulated by mitofusins (MFN1 and MFN2) and inner membrane fusion controlled by OPA1 protein. Additionally, mitochondrial fission process is primarily coordinated by dynamin-related protein 1 (Drp1), which is recruited to the outer membrane following phosphorylation (p-Drp1) [29]. To explore the effects of synergistic treatment with AGP and MLT on CSCs mitochondrial dynamics, HT29 spheroid lysates were used to determine the MFN1, MFN2, OPA1 and p-Drp1 protein levels. MFN1, OPA1, and pDrp1 protein levels were significantly downregulated in the combinational treatment group compared to the untreated or single treatment groups (Fig. 1C 1st, 3rd lane, 1D, F, 1G–H, p < 0.01). There was no significant change for MFN2 protein level (Fig. 1C 2nd lane, E). GPNMB is crucial for mitochondrial function and mitophagy; its disruption leads to mitochondrial dysfunction and increased ROS production [30]. Fig. 1I–J demonstrate significant decreased GPNMB expression (P < 0.05) by MLT alone and in drug combination group.
+
+
+### AGP + MLT leads to OXPHOS inhibition, and colospheroids death via Nrf2 and
+KEAP1 signaling
+  Oxidative phosphorylation (OXPHOS) activity is regulated by energy demands during tumor initiation and metastasis [31]. We analyzed OXPHOS protein levels in HT-29 cell lysates to determine the synergistic effect of AGP and MLT treatment. Our results demonstrated a significant reduction of OXPHOS complex II-V (*p < 0.5 -**p < 0.01) in the dual treatment group when compared with the single or untreated group (Fig. 2A–F, p<0.05-p<0.01).
+
+  NRF2 (NFE2R2) is a transcription factor that regulates mitochondrial biogenesis, quality control, and the expression of cytoprotective genes, including antioxidant proteins [32]. Therefore, Nrf2 inhibitors can be applied as anticancer agents. In this study, NRF2 is inhibited following single or dual drug treatment (Fig. 2G 1st lane and H). The NRF2/KEAP1 signaling pathway can modulate proliferation of cancer cells and tumorigenesis through metabolic reprogramming [33]. Our data revealed significant downregulation of KEAP1 protein expression in the HT29s lysates (Fig. 2G 2nd lane and I). Moreover, Parkin interacts with the NRF2/KEAP1 pathway and initiates mitophagy [34], which is crucial for cellular defense against oxidative stress [35]. Our results demonstrated an upregulated Parkin expression in the treated group compared with the untreated group (Fig. 2G 4th lane and J). These results indicated that colospheroids inhibition is associated with reduced OXPHOS protein levels and Nrf2/KEAP signals.
+
+
+### Synergistic effect on downregulation of NRF2 activity and its downstream
+regulation on antioxidant pathways
+  We then analyzed mRNA levels in colospheroids to determine how AGP and MLT treatment affects gene expression profiles in CSCs. As shown in Fig. 3A shows that 255 mRNAs were differentially expressed in the control vs AGP group, 374 mRNAs in the control vs MLT group, and 45 mRNAs overlapped between the AGP-MLT groups. Additionally, 4389 mRNAs were differentially expressed in the control vs combination group. This differential gene expression suggested that single and combinatorial treatments had different effects on mRNAs profile, causing modulation of distinct molecular mechanisms.
+
+  Our microarray data show that treatment with AGP and MLT led to downregulation of (11 out of 39) NRF2-regulated genes in CSCs (Fig. 3B) which is consistent with Fig. 2G–H. NRF2 is activated by reactive oxygen species (ROS) that induces genes involved in phase 2 detoxification (e.g., GSTs and the glutathione system), ROS scavenging (e.g., SODs, PRDX1), and cytoprotection (e.g., HO1), which help regulate oxidative stress. By suppressing the expression of these genes, AGP and MLT reduce antioxidant capacity, potentially making CSCs more vulnerable to oxidative damage. These findings suggest that AGP and MLT could sensitize CSCs to oxidative stress, further highlighting these drugs as therapeutic strategy to target these resilient cell populations. Furthermore, NRF2 regulates Pentose Phosphate pathway genes, aiding cellular adaptation to oxidative stress and contributing to cancer progression [32,36]. Our data show that 7 out of 15 genes in this pathway are downregulated, suggesting a further adverse effect on the ability of the cells to react to oxidative stress (Suppl. Fig. 2). Moreover, genome-wide transcriptomic profiling identified an increased number of mitochondrial genes affected by combinatorial treatment of CSCs (Supplementary additional file). Furthermore, the heatmap of the top 40 differentially expressed and/or expressed genes along with MRPS6 is shown in Fig. 3C that indicates that the expressions of the genes of interest are majorly perturb in AGP and MLT treated spheroids.
+
+
+### Validation of gene and protein signature in treated and untreated colon
+spheroids
+  The gene expression found in microarray analyses were validated using qRT-PCR. We chose genes with ≥3-fold change in expression in treated versus control group and associated with mitochondria. Among the genes that were 3-fold downregulated by AGP-MLT treatment, we chose gdap1 (ganglioside induced differentiation associated protein 1), which is involved in regulation of mitochondrial network via modulation of the fission process (https://www.ncbi.nlm.nih.gov/books/NBK1539/, PMC2171517) and mrps6 which is targeted to the mitochondria and plays a crucial role in mitochondrial translation and protein metabolism (MRPS6 Gene - GeneCards | RT06 Protein | RT06 Antibody; [36]. Furthermore, we selected the glrx2 (Glutaredoxin 2), which is located in the mitochondrial matrix and regulates glutathione homeostasis and mitochondrial redox state [37], and finally mrpl13 (mitochondrial ribosomal protein long subunit 13) which is involved in the mitochondrial protein biosynthesis. AGP-MLT treatment significantly downregulated gdap1 and mrps6 genes, while upregulating glrx2 and mrpl13, compared to untreated and single drug treatments (Fig. 4A–D).
+
+  To validate the gene expression, next we monitored the protein expression using immunoblot in treated and untreated spheroid extracts. The level of GDAP1 and MRPS6 protein levels were significantly reduced (Fig. 4E 1st & 2nd lane, F -G) in the AGP-MLT treated group compared with the untreated or single treated group. However, GLRX2 protein expression was upregulated in the dual treatment group (Fig. 4E 3rd lane &H). No significant alteration in MRPL3 expression was found in the treated group as compared to the untreated group (Fig. 4E 4th lane & I).
+
+
+### MRPS6 is associated with oncogenesis of CRC
+  The human MRPS6 gene on chromosome 21q22.11 encodes a 125-amino-acid, 14.23 kDa protein with a pI of 9.30. It features a ferredoxin-like alpha + beta sandwich domain structure (Fig. 5A). Our Microarray data and qPCR data (Fig. 4B) demonstrated that dual treatment significantly downregulates MRPS6 gene expression in HT29s. Therefore, we first quantified MRPS6 protein expression in a series of mCRC cells (HT-29, HCT-15 and HCT-116), CRC patient tissues, and CSC cell lysates (HCT15s). MRPS6 protein is significantly overexpressed in mCRC cell lysates (Fig. 5B and C), whereas its expression was moderate to high in mCRC tissue (Fig. 5F and G, p < 0.01) compared to normal colon tissue (FHC) lysates which is constant with the Human Protein Atlas (https://www.proteinatlas.org/). Previously, our data showed that MRPS6 is downregulated with the AGP-MLT treatment in HT29s (Fig. 4E–G). We again validated MRPS6 protein expression using another colospheroids lysate, HCT15s (colospheroids generated from HCT-15; [4]. The results indicated significantly downregulated MRPS6 in the dual treatment of HCT15s (Fig. 5D–E). Furthermore, cells were evaluated when MRPS6 was depleted with siRNA. Transfection with MRPS6 siRNA resulted in significantly reduced MRPS6 expression at 48h (Fig. 5H–I) compared with the control siMRPS6. MRPS6 knockdown also resulted in a significant decrease in cell viability in the combination MRPS6 knockdown cells treated with AGP-MLT (Fig. 5J). Additionally, this dual drug does not have any impact on the mesenchymal stem cells (Fig. 5K). Clonogenic assays revealed that MRPS6 knockdown significantly reduced HCT-116 colony formation (p < 0.01) compared to negative siRNA controls (Fig. 5L–M). This inhibitory effect was dramatically enhanced when siMRPS6-transfected cells were treated with AGP + MLT, resulting in near-complete suppression of colony growth (p < 0.001 vs. untreated negative control siRNA). These findings demonstrate that MRPS6 depletion synergizes with AGP-MLT treatment to inhibit cancer cell proliferation, highlighting its crucial role in mediating CSC survival during combination therapy.
+
+
+### MRPS6 modulation and therapeutic efficacy in xenograft models
+  To assess the therapeutic impact of MRPS6 regulation in vivo, we evaluated protein expression dynamics in HT29-derived xenograft models treated with AGP, MLT, or their combination. IHC analysis revealed a 35 % reduction in MRPS6-positive cells with AGP monotherapy (p < 0.05 vs. untreated) and a 72 % decrease in the AGP + MLT cohort (p < 0.01) across three independent tissue sections per group (Fig. 8A–B). Immunofluorescence staining confirmed MRPS6’s mitochondrial localization in untreated tumors, with fluorescence intensity reduced by 87 % in combination-and AGP-treated tissues (Fig. 8C–D). Baseline MRPS6 expression was confirmed in HT29 and patient derived colorectal cancer organoid colon orthotopic models (IHC and IF) (Fig. 8E–H), while TUNEL assays demonstrated significant apoptosis induction in AGP + MLT-treated tumors (p < 0.01 vs. controls; Fig. 8I–J). These findings establish MRPS6 downregulation as a mechanistic contributor to the AGP + MLT regimen’s efficacy, linking mitochondrial ribosomal modulation to CSC death and tumor regression (see Fig. 9).
+
+
+### AGP exhibits direct physical interaction with MRPS6 and increases the binding
+affinity of MLT to MRPS6
+  AGP and MLT show strong binding interactions with MRPS6, as revealed by molecular docking studies (Fig. 6A–B). Molecular dynamics simulations (MDS) indicate that the AGP-MLT-MRPS6 complex achieves excellent stability, with increased binding affinity compared to individual treatments (Fig. 6C–F, 7A–C). The introduction of AGP enhances MLT binding and complex stability (Figs. 6 and 7). Principal Component Analysis (PCA) demonstrates that the AGP-MLT-MRPS6 complex occupies a smaller conformational subspace, indicating greater flexibility (Fig. 7D). A distinct loop folding in the MRPS6-MLT-AGP complex suggests AGP synergistically facilitates MLT binding to MRPS6 (Figs. 6G and 7D). These findings provide molecular insights into the combined effects of AGP and MLT on MRPS6 in CRC cells.
+
+
+## Discussion
+  The loss of functional mitochondria can arrest cancer progression, a finding that stimulated the search for new mitochondria-targeted drugs [38]. The effects of AGP + MLT on mitochondria may underly our previously observed anti-carcinogenic effects of this combination across a variety of CRC models [4]. Inhibition of mitochondrial fission machinery such as Drp1 inhibits proliferation and increases apoptosis in CRC cells, as elongated mitochondria accumulate and cannot adapt to changing metabolic demands efficiently [28,39]. Interestingly, reduced Drp1 is accompanied by reduced Wnt/β-catenin signaling, a pathway known to be involved in tumor growth and CSC maintenance [40]. We have previously reported a robust down-regulation of Wnt/β-catenin signaling by AGP + MLT. Our current results further suggest that AGP + MLT undermines the ability of mitochondria to fuse and adapt as we observe significant downregulation of fusion proteins OPA1, and MFN1.
+
+  The vast majority of mitochondrial proteins are synthesized in the cytosol and imported into mitochondria by mitoribosomes, including MRPS6 [41]. Altered MRP expression can affect CSC survival and cancer progression [42]. Distinct MRP expression patterns are associated with various clinical cancer features [43–45]. For example, overexpression of MRPL35 is associated with colorectal cancer and gastric cancer cell progression [43], and its depletion inhibits cancer cell proliferation. Additionally, MRPL12/L7, MRPL33, MRPL35, MRPL39, and MRPL52 are associated with gastric cancer and colon cancer [46]. A recent study reported MRPS6 overexpression in breast cancer tissue and siRNA-induced MRPS6 downregulation affects the breast cancer cell population and gene regulation [15]. MRPS6 expression is relatively high in CRC tissues, but its role remains unknown. Imported mitoribosomes carry many of the proteins critical for production of the five mitochondrial complexes necessary for OXPHOS. The import of these proteins is tightly controlled, balancing the import of proteins controlled by the nuclear DNA and their assembly with proteins controlled by mitochondrial DNA [46]. Our data suggest that perturbing MRPS6 levels is sufficient to interfere with four of the five OXPHOS complexes and slow cancer progression and induce apoptosis. Direct inhibition of MRPS6 siRNA reduced CRC viability similar to AGP + MLT.
+
+  Our study reveals that combination of AGP and MLT inhibit CSC growth by reducing mitochondrial mass, altering dynamics, and suppressing MRPS6 expression. AGP strongly binds to MRPS6 and induces a conformational change to enhance the binding site of MLT suggests that AGP + MLT effectively disrupts that balance between protein import and mitochondrial translation, causing a global loss of mitochondrial function (Fig. 8). However, this requires confirmation.
+
+  Additionally, our findings suggest MRPS6 knockdown reduced HCT-116 colony formation, an effect amplified by AGP + MLT treatment. This aligns with observed MRPS6 downregulation and increased apoptosis in treated xenografts. MRPS6 likely supports CSC survival by maintaining mitochondrial ribosomal integrity; its suppression disrupts redox balance or energy metabolism, sensitizing cells to AGP + MLT-induced apoptosis. Synergistic tumor regression in orthotopic models, characterized by reduced MRPS6 expression and increased apoptosis, suggests MRPS6 as a potential target for overcoming CSC chemoresistance. This dual-action mechanism, targeting mitochondrial translation and CSC-specific pathways, provides a rationale for combining ribosomal disruption agents with CSC-directed therapies in CRC.
+
+
+## Supplementary Material
+  Appendix A. Supplementary data
+
+  Supplementary data to this article can be found online at https://doi.org/10.1016/j.canlet.2025.217647.
+
+
+## Data availability statement
+  The data that support the findings of this study are available from the corresponding author upon reasonable request.
+
+
+## Acknowledgements
+  The author thanks the University of Maryland Genomic Core Facility, Translational Genomics Laboratory, for performing microarray experiments. We thank Ayodele Jaiyesimi for technical assistance for protein quantification. The author sincerely acknowledges Professor Brian Polster for his review, criticism, and valuable suggestions.
+
+  This work was supported by the Department of Pediatrics at the University of Maryland School of Medicine, and the Veteran’s Affairs Merit Review Award BX004895 and NIH NINDS R01NS119275 to T.K, NIH NINDS R01NS122777 to J.W. and Richard Schwartz award to A.B and J.W. Dr. Zalzman and Dr. Nagarajan were partially supported by NICCD P01 grant number DC013817–10.

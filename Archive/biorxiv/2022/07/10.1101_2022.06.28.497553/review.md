@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and main text as provided)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and reproducibility based solely on the supplied material
+- **Shared manuscript claim summary** The authors trained a convolutional recurrent neural network (CRNN) on HT-SELEX data for GRHL1 binding, applied it to ChIP-Seq-derived GRHL1 binding sites from human cells, identified 46 non-canonical binding sites missed by a conventional PWM approach, and experimentally validated several predictions using isothermal titration calorimetry (ITC), including a site lacking the CNNG core motif. They further report a correlation between predicted binding strength and experimentally measured affinity that was absent for PWM-based and another deep learning approach.
+- **Visible evidence base** Abstract and main text narrative; no figures, tables, supplementary materials, or methodological details beyond the text description are provided
+- **Missing materials affecting confidence** Figures and tables (including ITC data, sequence logos, model architecture details, training/validation performance metrics), supplementary methods, hyperparameter settings, data preprocessing steps, exact ChIP-Seq dataset identifiers, and code availability information
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in transcriptional regulation, namely whether deep learning approaches can uncover biologically relevant non-canonical TFBSs that conventional PWM models miss. The central claim, that a CRNN identified GRHL1 binding sites lacking the presumed obligatory CNNG core motif and that these predictions were experimentally validated, is potentially significant. However, the provided material is insufficient to fully evaluate the technical soundness of the model, the statistical robustness of the findings, or the generalizability of the conclusions. The experimental validation is described but not shown, and the claimed correlation between predicted and measured affinities lacks quantitative detail. The work is promising but the case is not fully established from the supplied evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing TFBS prediction models would be interested in the methodological advance and the comparative performance of CRNN versus PWM approaches. Experimental molecular biologists studying transcriptional regulation, particularly GRHL family transcription factors, would be interested in the identification of non-canonical binding sites and the experimental validation. The work also has relevance for researchers applying deep learning to genomics who are concerned with model interpretability and biological discovery.
+- **Major strengths** The study addresses a clear gap in the field by asking whether deep learning can uncover truly novel, non-canonical TFBSs rather than merely improving prediction accuracy on known motifs. The combination of computational prediction with experimental validation via ITC is a strong design that directly tests biological relevance. The finding that some predicted sites lack the CNNG core motif challenges an established assumption in the field and, if robust, would be a meaningful contribution. The comparative analysis against PWM and another deep learning approach is appropriate for contextualizing the CRNN performance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The CRNN was trained on HT-SELEX data and applied to ChIP-Seq-derived GRHL1 binding sites, yielding 46 non-canonical sites.  
+  - **Evidence pointer** Methods section, location not provided  
+  - **Concern** The manuscript does not provide sufficient detail on the CRNN architecture, training procedure, hyperparameter selection, or data preprocessing. No performance metrics (e.g., accuracy, AUC, precision-recall) on held-out test sets are reported. Without these, it is impossible to assess whether the model is well-calibrated or whether the 46 identified sites could arise from model artifacts or overfitting.  
+  - **Why it matters** The central claim depends on the reliability of the model predictions. If the model is poorly validated, the identification of non-canonical sites cannot be distinguished from false positives.  
+  - **Resolution test** Provide a detailed description of the model architecture, training/validation splits, hyperparameter tuning, and performance metrics on independent test data. Show that the model generalizes beyond the training distribution.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** ITC experiments confirmed binding between the GRHL1-DNA binding domain and predicted sites, including a non-canonical site lacking the CNNG core motif.  
+  - **Evidence pointer** Results section, location not provided  
+  - **Concern** The ITC data are described but not shown. No binding constants, stoichiometry, thermodynamic parameters, or replicate information are provided. The claim of experimental confirmation cannot be evaluated without the actual data.  
+  - **Why it matters** Experimental validation is the cornerstone of the paper's significance. Without quantitative ITC results, the reader cannot assess binding affinity, specificity, or whether the observed binding is biologically meaningful.  
+  - **Resolution test** Include ITC thermograms, fitted binding isotherms, dissociation constants (Kd) with errors, and replicate measurements for all tested sequences, including positive and negative controls.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical robustness  
+  - **Claim pointer** Mutagenesis of individual nucleotides revealed a correlation between predicted binding strength and experimentally validated binding affinity across representative sequences, and this correlation was not observed with PWM or another deep learning approach.  
+  - **Evidence pointer** Results section, location not provided  
+  - **Concern** The correlation is described qualitatively but no statistical measures (e.g., Pearson or Spearman correlation coefficients, p-values, confidence intervals) are reported. The number of representative sequences tested is not stated, and the selection criteria for these sequences are unclear.  
+  - **Why it matters** The claim of a predictive correlation is central to the utility of the model. Without statistical quantification and clarity on sample size and selection, the finding could be anecdotal or biased.  
+  - **Resolution test** Report correlation coefficients with significance tests, specify the number and selection criteria of tested sequences, and show scatter plots of predicted versus measured affinities.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The CRNN was trained on HT-SELEX data and applied to ChIP-Seq data from human cells.  
+  - **Evidence pointer** Methods section, location not provided  
+  - **Concern** The specific HT-SELEX dataset and ChIP-Seq dataset identifiers are not provided. No information is given on data accession numbers, genome build, peak calling methods, or filtering criteria for defining GRHL1 binding sites.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without dataset identifiers and processing details, other researchers cannot replicate or build upon this work.  
+  - **Resolution test** Provide accession numbers for all datasets, describe preprocessing steps in detail, and make code and model weights publicly available.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of non-canonical binding sites  
+  - **Evidence pointer** Results section, location not provided  
+  - **Issue** The term "non-canonical" is used but not precisely defined. It is unclear whether this refers to sites lacking the CNNG core motif, sites with low PWM scores, or sites with novel sequence patterns.  
+  - **Required correction** Provide an explicit operational definition of "non-canonical" as used in this study, including the criteria for classification.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison with other deep learning approaches  
+  - **Evidence pointer** Results section, location not provided  
+  - **Issue** The "another deep learning approach" used for comparison is not named or described. Without this information, the comparative claim is difficult to interpret.  
+  - **Required correction** Specify the alternative deep learning method, its architecture, training data, and how it was applied to the same test sequences.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretability  
+  - **Affected element** Model interpretability  
+  - **Evidence pointer** Discussion section, location not provided  
+  - **Issue** The manuscript does not discuss how the CRNN arrives at its predictions or whether any interpretability analysis (e.g., saliency maps, motif discovery from learned filters) was performed.  
+  - **Required correction** Add a brief discussion of model interpretability, or state explicitly that interpretability analysis was not performed and acknowledge this as a limitation.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Scope of conclusions  
+  - **Evidence pointer** Discussion section, location not provided  
+  - **Issue** The conclusion that CRNNs "may uncover unanticipated binding sites" is based on a single transcription factor. The generalizability to other TFs is speculative.  
+  - **Required correction** Soften the general claim or provide additional evidence from other TFs to support the broader conclusion.  
+
+## Risk / unsupported claims
+- The claim that the CRNN identified 46 non-canonical GRHL1 binding sites is unsupported without model performance metrics and validation on independent data.
+- The claim of experimental confirmation of binding via ITC is unsupported as no ITC data are shown.
+- The claim of a correlation between predicted and measured binding affinities is unsupported without statistical measures and sample size information.
+- The claim that this correlation was absent for PWM and another deep learning approach is unsupported without details on those methods and their results.
+- The general conclusion that CRNNs can uncover unanticipated binding sites is not established from a single TF study.
+- The absence of dataset identifiers and code availability makes the entire computational pipeline non-reproducible and thus not fully assessable.

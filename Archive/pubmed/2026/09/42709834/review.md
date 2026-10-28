@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and structural modeling as presented in the provided text; no supplementary figures or tables were available for direct inspection
+- **Shared manuscript claim summary** The authors propose that a ternary complex comprising RPA (Ssb1-Ssb2-Ssb3), the catalytic telomerase subunit Trt1 (TERT), and the TPP1 ortholog Tpz1 promotes telomere extension and suppresses telomere recombination in fission yeast, and that this regulatory module is conserved across budding yeast and humans
+- **Visible evidence base** Genetic screens, telomere length analyses, chromatin immunoprecipitation assays, AlphaFold3 structural predictions, direct telomerase assays with purified human proteins, and comparative modeling across species
+- **Missing materials affecting confidence** Supplementary figures (S1-S14), supplementary tables (S1-S5), raw Southern blot images, ChIP quantification details, AlphaFold3 confidence metrics (pIDDT values referenced but not shown), and strain construction details
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial body of genetic and structural modeling evidence supporting a novel role for canonical RPA as a functional component of the telomerase holoenzyme complex in fission yeast. The identification of separation-of-function alleles, particularly ssb1-W523C, provides compelling genetic evidence that RPA contributes to telomere extension beyond its canonical roles in DNA replication and repair. The AlphaFold3-guided mutagenesis approach is innovative and yields testable predictions, several of which are experimentally validated. However, the manuscript would be strengthened by direct biochemical validation of the predicted protein-protein interactions, and the human cell data are limited to in vitro assays without cellular validation. The claim of evolutionary conservation, while plausible, rests heavily on computational predictions that require experimental corroboration.
+- **Who would be interested in the results, and why** Researchers studying telomere biology, telomerase regulation, and chromosome end maintenance would find these results directly relevant. The work also speaks to the broader community interested in RPA function beyond canonical DNA replication and repair, and to those studying the evolution of telomerase regulatory mechanisms. The AlphaFold3-guided approach may interest structural biologists and geneticists using computational predictions to inform experimental design.
+- **Major strengths** The genetic dissection is thorough, with multiple alleles characterized and cross-validated through plasmid-based and integrated approaches. The separation-of-function phenotype of ssb1-W523C is particularly elegant, uncoupling recruitment from activation. The AlphaFold3 modeling provides a mechanistic framework that generates specific, testable predictions, several of which are experimentally confirmed. The comparative analysis across fission yeast, budding yeast, and humans adds evolutionary perspective and potential broad relevance. The suppressor analyses provide genetic evidence for functional relationships among the proposed interfaces.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for the central claim
+  - **Claim pointer** The manuscript claims that "RPA serves as an essential component of the active telomerase complex, coordinating TERT and TPP1-like factors to enable productive telomerase engagement"
+  - **Evidence pointer** Results sections "Ssb1RPA1 mutations reveal residues critical for telomere maintenance" and "AlphaFold3 modeling predicts a functional RPA–Trt1–Tpz1 ternary complex"; location not provided
+  - **Concern** The central claim of a physical ternary complex is supported primarily by AlphaFold3 predictions and genetic interactions, but direct biochemical evidence for complex formation is lacking. The genetic data demonstrate functional requirements for specific residues, but do not establish that these residues mediate direct physical interactions within a stable ternary complex. The authors do not present co-immunoprecipitation, pull-down, or crosslinking data to support complex formation.
+  - **Why it matters** The distinction between a physical complex and functionally interacting proteins is critical. The title and abstract assert a "complex," which implies stable physical association. Without biochemical validation, the claim overreaches the evidence.
+  - **Resolution test** Provide co-immunoprecipitation or in vitro binding assays demonstrating that Ssb1, Ssb2, Trt1, and Tpz1 form a stable complex, and that the identified mutations disrupt these interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of AlphaFold3-based conclusions
+  - **Claim pointer** The manuscript states that "AlphaFold3 modeling predicts a functional RPA–Trt1–Tpz1 ternary complex" and uses these predictions to guide mutagenesis and interpret results
+  - **Evidence pointer** Methods section "AlphaFold3 modeling"; location not provided
+  - **Concern** The manuscript references pIDDT values in supplementary figures but does not provide these confidence metrics in the main text. The authors acknowledge variable orientations for several domains, including the N-terminal OB-fold of Ssb1 and the C-terminal WH domain of Ssb2, yet proceed with residue-level interpretations. The reliability of specific interface predictions, particularly for the Ssb1-Trt1 and Ssb2-Tpz1 interactions, cannot be assessed without these confidence data.
+  - **Why it matters** AlphaFold3 predictions vary widely in reliability, and residue-level interpretations require high-confidence models. If the predicted interfaces fall in low-confidence regions, the genetic interpretations may be misleading.
+  - **Resolution test** Present pIDDT values and per-residue confidence scores for all predicted interfaces in the main text or clearly reference supplementary data. Discuss how low-confidence regions were handled in the interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of human data
+  - **Claim pointer** The manuscript claims that "comparative analyses using AlphaFold3 suggest that these interactions are likely conserved in budding yeast and humans" and presents human RPA1-W528 data
+  - **Evidence pointer** Results section "RPA–Trt1–Tpz1 regulation of telomerase is likely conserved in budding yeast and humans"; location not provided
+  - **Concern** The human data are limited to in vitro telomerase assays with purified components. No cellular experiments in human cells are presented to demonstrate that the RPA1-TERT interaction affects telomere maintenance in a physiological context. The budding yeast data are genetic but limited to viability and survivor analyses without direct telomere length measurements in the relevant mutant combinations.
+  - **Why it matters** The claim of conservation across species is a significant extension of the fission yeast findings. In vitro biochemical data, while valuable, do not establish physiological relevance in human cells, and the budding yeast genetic data are incomplete.
+  - **Resolution test** Provide cellular validation in human cells, such as telomere length analyses in cells expressing RPA1-W528 mutants, or direct evidence that the RPA1-TERT interaction is required for telomere maintenance in a human cell line. For budding yeast, include telomere length measurements in the rfa1-W533C and rfa1-W533C rad52∆ strains.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of suppressor analyses
+  - **Claim pointer** The manuscript states that "Epistasis and suppressor analyses indicate that the newly identified RPA-Trt1 and RPA-Tpz1 interfaces collaborate with the Trt1-Tpz1 interface to allow telomerase activation after recruitment"
+  - **Evidence pointer** Results sections on suppressor analyses; location not provided
+  - **Concern** The suppressor analyses are described but the specific suppressor mutations, their locations, and the logic of the suppression are not presented in sufficient detail in the provided text. Without knowing which mutations suppress which phenotypes and at what efficiency, the conclusion of collaboration among interfaces is difficult to evaluate.
+  - **Why it matters** Suppressor analyses can be powerful but are also prone to indirect effects. The claim of collaboration among specific interfaces requires clear genetic evidence that the suppression is allele-specific and mechanistically informative.
+  - **Resolution test** Provide detailed suppressor data, including the identity of suppressor mutations, the specificity of suppression, and control experiments demonstrating that suppression is not due to general rescue of telomere dysfunction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of strain construction
+  - **Affected element** Methods section "Yeast strains, plasmids, and primers"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of strain construction for ssb2-W112A mentions diploid transformation followed by sporulation, but the rationale for this approach versus direct haploid transformation is not explained.
+  - **Required correction** Briefly state why diploid transformation was necessary for this allele, for example if the mutation is lethal in haploid cells or if it affects sporulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantification of ChIP data
+  - **Affected element** Methods section "Chromatin immunoprecipitation (ChIP)"
+  - **Evidence pointer** Location not provided
+  - **Issue** The ChIP methods describe normalization to input and expression as percent IP, but do not specify the number of biological replicates or the statistical tests used.
+  - **Required correction** Specify the number of independent biological replicates and the statistical methods used for comparisons between strains.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** AlphaFold3 model availability
+  - **Affected element** Methods section "AlphaFold3 modeling"
+  - **Evidence pointer** Location not provided
+  - **Issue** The methods state that AlphaFold3 models were generated using a web server but do not indicate whether the models or input sequences have been deposited in a public repository.
+  - **Required correction** Provide accession numbers or state that models are available upon request, and consider depositing them in a public structural biology repository.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Location not provided
+  - **Issue** The terms "TEL-patch" and "TELR" are used for different species without clear definition of their relationship.
+  - **Required correction** Define both terms early in the manuscript and clarify whether they refer to homologous or analogous features across species.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results sections describing telomere length analyses
+  - **Evidence pointer** Location not provided
+  - **Issue** Telomere length differences are described qualitatively (e.g., "very short," "moderate") without quantitative measurements or statistical comparisons.
+  - **Required correction** Provide quantitative telomere length measurements with standard deviations and statistical tests where appropriate.
+- **Technical failings that need to be addressed before the case is established** The absence of direct biochemical evidence for the proposed ternary complex is the most significant technical gap. The reliance on AlphaFold3 predictions without presenting confidence metrics in the main text is also problematic. The human cell data are limited to in vitro assays, and the budding yeast data lack telomere length measurements. These gaps must be addressed before the central claims can be fully evaluated.
+- **Assessment against Nature-style criteria** Originality: The concept of canonical RPA as a direct component of the telomerase complex is novel and extends recent findings in human and budding yeast systems. The separation-of-function allele approach is creative. Scientific importance: The work addresses a fundamental question in telomere biology, namely how telomerase transitions from recruitment to productive engagement. If the proposed model is correct, it would significantly advance understanding of telomerase regulation. Interdisciplinary readership: The work bridges telomere biology, DNA replication, and structural biology, and would interest researchers across these fields. Technical soundness: The genetic experiments appear well-designed, but the lack of biochemical validation and incomplete presentation of AlphaFold3 confidence metrics weaken the technical foundation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the density of mutant alleles and genetic interactions may challenge readers outside the immediate field.
+
+## Risk / unsupported claims
+- The claim of a physical "RPA–Trt1–Tpz1 ternary complex" is not directly supported by biochemical evidence; the data support functional interactions but not necessarily stable complex formation
+- The assertion that "these interactions are likely conserved in budding yeast and humans" is based primarily on AlphaFold3 predictions and limited experimental data; the human data are in vitro only, and the budding yeast data lack telomere length measurements
+- The interpretation that ssb1-W523C is a clean separation-of-function allele is supported by the data presented, but the possibility of subtle effects on RPA function beyond telomere biology cannot be excluded
+- The claim that "RPA serves as an essential component of the active telomerase complex" implies a stoichiometric role that is not established; the data support a facilitative or regulatory role
+- The evolutionary reinterpretation of prior mutational studies in budding yeast and humans, while interesting, is speculative and requires experimental validation

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the user. No supplementary files, figures, or tables were available for inspection beyond what is described in the text.
+- **Assessment boundary** The review is limited to the scientific claims, methodology, and evidence as presented in the supplied text. No external validation, replication, or access to the cited code repository or supplementary materials was performed.
+- **Shared manuscript claim summary** The authors claim that adding a solubility-based loss function to the AfDesign "binder hallucination" protocol enables the computational design of peptide sequences that bind to protein-protein interaction (PPI) targets while controlling peptide water solubility, and that the designed sequences show comparable or improved binding affinity relative to known binders when evaluated by docking.
+- **Visible evidence base** Text descriptions of results (Figures 1-6, Supplementary Figures S1-S4, Supplementary Tables S1-S2), methods for AfDesign settings, solubility loss calculation, solubility calculation (QikProp), and binding affinity calculation (AutoDock CrankPep). No actual numerical data, figure images, or supplementary content were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are referenced but not included. Numerical values for logS distributions, binding affinities, DockQ scores, and statistical comparisons are absent. The code repository is cited but not reviewed. This substantially limits the ability to verify the strength of the reported effects.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually reasonable extension of an existing computational protein design method (AfDesign) by incorporating a solubility-aware loss term. The idea is timely and of practical interest for peptide therapeutic design. However, the evidence as presented is largely qualitative and descriptive, with no quantitative data, statistical analysis, or experimental validation. The claims of "maintaining or increasing binding affinity" are not supported by the visible evidence, and the methodological details for the solubility loss function are incomplete. The manuscript is better positioned as a methods note or preprint contribution than as a fully established design principle.
+- **Who would be interested in the results, and why** Computational protein designers, researchers in peptide therapeutics, and those working on PPI inhibitors would find the approach relevant. The work addresses a practical bottleneck (solubility of designed peptides) and offers a simple modification to an existing open-source tool, which could be readily adopted. The results may also interest method developers in deep learning-based protein design.
+- **Major strengths** 1. The problem addressed (low solubility of AfDesign-generated peptides) is real and practically important. 2. The approach is simple and builds directly on an established, widely used protocol, making it accessible. 3. The use of multiple solubility indices and a systematic weight sweep is a reasonable exploratory strategy. 4. The authors acknowledge the computational nature of their validation and the need for experimental confirmation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the solubility-aware protocol "can design candidate peptide sequences that may have binding affinity comparable to or greater than that of the p53 peptide" and that sequences designed with the Hydropathy Index "tended to maintain or increase binding affinity."
+  - **Evidence pointer** Section 3.2, Figures 5 and 6, Supplementary Figure S1
+  - **Concern** The claim of maintained or improved binding affinity is based on docking scores from AutoDock CrankPep, but no numerical values, error bars, statistical tests, or comparisons to controls are presented in the visible text. The figures are described qualitatively ("tended to," "showed little change"), which is insufficient to establish a reliable trend. Furthermore, the docking evaluation is a proxy for binding, not a measurement, and the authors do not discuss the known limitations of docking accuracy for peptide-protein complexes.
+  - **Why it matters** The central value proposition of the method is that solubility can be improved without sacrificing affinity. Without quantitative evidence and statistical support, this claim is not established. A reader cannot assess whether the observed differences are meaningful or within noise.
+  - **Resolution test** Provide the actual logS and binding affinity values (mean, standard deviation, or distribution) for each condition (no solubility loss, each index, each weight). Include a statistical comparison (e.g., t-test or ANOVA) between the baseline and solubility-aware designs. If possible, include a positive control (e.g., known high-affinity binder) and a negative control (e.g., random peptides) to calibrate the docking scores.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The solubility loss function is described as "the geometric mean of the designed amino acids and the corresponding normalized solubility index values," and it is added to the AfDesign loss.
+  - **Evidence pointer** Section 2.2, Equation (not shown in visible text)
+  - **Concern** The exact mathematical form of the solubility loss is not fully specified. The text mentions a geometric mean but does not provide the equation, the normalization procedure in detail, or how the loss is combined with the existing AfDesign loss (e.g., additive weighting, scaling). The description of the three indices and their normalization is also incomplete; for example, it is unclear why the Hydrophobicity and Hydropathy indices are used "as they are" while SWI is inverted. Without a precise formulation, the method cannot be reproduced or compared with alternative approaches.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The authors provide a code repository, but the manuscript itself should contain sufficient detail for a reader to understand and implement the method. The lack of a clear equation undermines the scientific contribution.
+  - **Resolution test** Provide the full equation for the solubility loss, including the normalization formula, the weighting scheme, and how it is integrated into the AfDesign loss function. Clarify the rationale for the different treatments of the three indices.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** The authors state that the approach "shows that it is possible to design peptide sequences that can bind to the interface of PPI while controlling solubility."
+  - **Evidence pointer** Section 3.1, Section 3.2, Section 4, Supplementary Figure S4
+  - **Concern** The method is tested on only two targets (MDM2 and PD-1). For PD-1, the results are described as showing that the default protocol is "sufficient to design a peptide with high solubility," but the binding affinity distribution was "almost the same as that of the random sequence." This suggests the method may not generalize to targets with different interface geometries (e.g., beta-sheet-rich interfaces). The authors do not discuss this limitation in the context of their claims.
+  - **Why it matters** A design method intended for general PPI targeting should demonstrate utility across a range of interface types. The PD-1 result undermines the generality of the claim and should be addressed explicitly, either by refining the method or by tempering the conclusions.
+  - **Resolution test** Either add additional test cases with diverse interface geometries or clearly state the scope of applicability based on the current results. Discuss why the method works for helical interfaces but not beta-sheet interfaces, and whether this is a fundamental limitation or a parameter-tuning issue.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract states that "the peptide solubility in sequences designed using the new protocol increased with the weight of the solubility loss function," but the term "increased" is ambiguous. It is unclear whether this refers to higher logS values (which indicate higher solubility) or a different metric.
+  - **Required correction** Clarify the direction of the effect. For example, state that "logS values increased with the weight of the solubility loss function, indicating improved solubility."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The manuscript states that "the design method used was design_3stage(); soft_iter, temp_iter, and hard_iter were set to 100, 100, and 10, respectively." It is not clear what these parameters control or why these specific values were chosen.
+  - **Required correction** Provide a brief explanation of the three stages and the rationale for the chosen iteration counts, or cite the original AfDesign publication for details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4, Supplementary Figure S2
+  - **Issue** The DockQ score of 0.500 is described as "medium quality" per CAPRI criteria, but the authors do not discuss what this means for the practical utility of the designed peptide. A medium-quality docking prediction does not guarantee a functional binder.
+  - **Required correction** Add a sentence interpreting the DockQ score in the context of the design goal, and acknowledge that experimental validation is required to confirm binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The phrase "Hydropaty Index" appears to be a typo for "Hydropathy Index."
+  - **Required correction** Correct the typo.
+
+## Risk / unsupported claims
+- The claim that designed peptides have "higher affinity than random or single residue substitution sequences" is not supported by visible numerical data or statistical analysis.
+- The claim that the method "can design peptide sequences that can bind to the interface of PPI while controlling solubility" is overstated given the lack of experimental validation and the limited number of test cases.
+- The assertion that the solubility loss function "captured the characteristics of the solubility indices" is vague and not backed by quantitative comparison.
+- The generalizability of the method to PPI targets beyond helical interfaces is not established, and the PD-1 results suggest potential limitations that are not adequately discussed.
+- The reproducibility of the method is compromised by the incomplete specification of the solubility loss function.

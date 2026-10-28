@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, footnotes) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and suitability for a Nature-style journal
+- **Shared manuscript claim summary** The authors present AbDesign, a database of 658 single-point CDR-H3 mutants across 14 antibody-antigen complexes (7 antigens, 2 antibodies each) with known crystal structures, assayed by ELISA under uniform conditions. They benchmark three machine learning models (DSMBind, Binding-DDG-predictor, RDE-PPI) and compare them to FoldX, finding that ML models perform poorly on this held-out dataset (correlations near zero) while FoldX retains moderate predictive power. They argue this reveals generalization limitations of ML methods and highlights the value of physics-based approaches.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (sections on selection, production, ELISA, structural modeling, benchmarking), Results (dataset curation, contrast with SKEMPI/AB-Bind, benchmarking outcomes), Discussion, Acknowledgements, Footnotes. Tables 1-4 referenced but not shown. Figures 1-12 referenced but not shown. Supplementary materials referenced but not provided.
+- **Missing materials affecting confidence** Tables 1-4, Figures 1-12, Supplementary Figures 1-3, Supplementary Tables 1-5, and the actual dataset itself are not provided. This substantially limits verification of quantitative claims, statistical analyses, and the validity of benchmarking results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: the limited generalization of machine learning models for antibody affinity prediction. The construction of a new, structurally annotated, experimentally consistent dataset is a valuable contribution. However, the current manuscript has significant gaps in evidence presentation. Key quantitative results, including all tables and figures, are missing from the provided material, making it impossible to verify the central claims about model performance. The benchmarking methodology, while described, lacks critical details on statistical rigor, data processing, and potential confounders. The conclusion that FoldX outperforms ML models is interesting but requires careful scrutiny given the small number of complexes and the use of pre-computed FoldX values from an external source. The manuscript would benefit from clearer articulation of the dataset's novelty relative to existing resources and a more nuanced discussion of what "generalization failure" means in this context.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on antibody design and affinity prediction would be the primary audience. Researchers developing machine learning models for protein-protein interactions would find the benchmarking results relevant. Experimental antibody engineers interested in rational design and mutation screening would also benefit from the dataset. The findings on ML generalization limits are of broader interest to the machine learning for science community.
+- **Major strengths** 1) The dataset addresses a real gap: structurally defined, experimentally consistent antibody mutants with heterogeneous mutations, avoiding alanine-scanning bias. 2) The use of a held-out, non-overlapping test set for benchmarking is methodologically sound and addresses a common issue of data leakage. 3) The comparison of ML methods with a physics-based approach (FoldX) provides a useful baseline. 4) The uniform ELISA protocol across all measurements is a strength for comparability. 5) The authors acknowledge limitations (ELISA vs SPR, small size) honestly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The central claim that ML models perform poorly on AbDesign (correlations near zero) while FoldX performs well (Pearson's R ≈ 0.3-0.5) is presented in the Discussion and abstract.
+  - **Evidence pointer** Results section, Figures 6-12, Supplementary Tables 1-5, Tables 1-4. Location not provided for specific data points.
+  - **Concern** All quantitative results, including the actual correlation values, statistical significance tests, and comparative analyses, are contained in figures and tables that are not provided in the manuscript text. Without these, the core claims cannot be evaluated. The reader cannot assess whether the correlations are statistically significant, whether confidence intervals overlap, or whether the comparison between ML methods and FoldX is fair (e.g., same test set, same metrics, same structural inputs).
+  - **Why it matters** The manuscript's primary contribution is the benchmarking result. If the data supporting this result are not visible, the scientific case is not established. The reader cannot determine whether the conclusions are robust or an artifact of small sample size, specific structural modeling choices, or metric selection.
+  - **Resolution test** Provide all tables and figures with full statistical details, including sample sizes, confidence intervals, and p-values. Show per-complex results to demonstrate consistency across the 14 complexes. Include scatter plots of predicted vs measured values for each method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that ML models were benchmarked on AbDesign, which is a held-out set, and that the "train-only" subdataset was constructed to control for data leakage.
+  - **Evidence pointer** Materials and Methods, "SKEMPI train-only subdataset construction" section. Location not provided.
+  - **Concern** The construction of the "train-only" subdataset relies on assumptions about which data each model was trained on. For DSMBind, the authors infer training data from the paper; for Binding-DDG-predictor, the train-test split is described as "ambiguous" and the authors assume 100% of SKEMPIv2 was used for training. These assumptions may be incorrect, and the authors do not provide sensitivity analyses. If a model was not actually trained on the assumed data, the "train-only" set may still contain leakage, or conversely, the "full" set may not leak as much as assumed. The 59% intersection of assumed training sets is a rough approximation.
+  - **Why it matters** The validity of the benchmarking depends on correctly identifying what data each model saw during training. If the assumptions are wrong, the comparison between "full" and "train-only" sets is meaningless, and the conclusion about generalization failure is undermined.
+  - **Resolution test** Contact model developers to confirm exact training data. Provide a sensitivity analysis showing results under different assumptions about training data. Alternatively, retrain models on a clearly defined training set and test on AbDesign.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and framing
+  - **Claim pointer** The authors conclude that "older empirical, physics-based method FoldX, performs well in identifying mutants that retain binding" and that ML models "do not generalize well beyond the data they were given at training time."
+  - **Evidence pointer** Discussion section, Figure 12, Supplementary Table 5. Location not provided.
+  - **Concern** The comparison between FoldX and ML models may not be apples-to-apples. FoldX values were pre-computed by Hummer et al. and may have been derived using different structural inputs or protocols. The ML models were tested on structures generated by two different pipelines (ABB2 and conformation-based), which may not be optimal for each model. Additionally, the claim that FoldX "performs well" is based on correlations of 0.3-0.5, which is moderate at best. The authors do not discuss whether this level of correlation is practically useful for antibody engineering. The framing that ML models "fail" while FoldX "succeeds" may be too strong given the small number of complexes and the moderate correlations.
+  - **Why it matters** The conclusion has implications for how the community allocates effort between ML and physics-based methods. An overstated conclusion could mislead researchers. A more nuanced interpretation, acknowledging that both approaches have limitations and that hybrid methods may be needed, would be more accurate.
+  - **Resolution test** Provide a direct comparison using identical structural inputs for all methods. Report confidence intervals for correlations. Discuss the practical significance of the observed correlations. Consider whether the ML models were used as intended (e.g., some may require sequence-only inputs, not structures).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dataset utility and validation
+  - **Claim pointer** The authors state that AbDesign "more than doubles the number of structurally defined antibody mutants available for benchmarking" and that it is "molecularly diverse."
+  - **Evidence pointer** Results, "AbDesign Curation" section, Table 1. Location not provided.
+  - **Concern** The claim of diversity is not substantiated without showing the distribution of mutations, the sequence diversity of the antibodies, and the structural diversity of the complexes. The authors mention that sampling was biased against L, M, N, P, and Q, but do not quantify the extent of this bias. The dataset size (658 mutants) is modest, and the claim of "doubling" depends on the exact count in existing databases, which is not provided. Additionally, the ELISA readout is a single-point measurement at one concentration, which may not capture the full range of affinity effects.
+  - **Why it matters** The dataset's value depends on its diversity and utility. If the mutations are concentrated in a few positions or if the antibodies are highly similar, the dataset may not be as useful for training or benchmarking as claimed. The lack of quantitative characterization limits the reader's ability to assess the dataset's contribution.
+  - **Resolution test** Provide a detailed breakdown of mutation types, positions, and sequence diversity. Show the distribution of ELISA ratios. Compare the diversity metrics with existing databases. Discuss the limitations of single-concentration ELISA and whether confirmatory SPR measurements were performed on a subset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "seven antigens with two antibodies each" but does not specify the total number of complexes (14) until later. This is a minor clarity issue.
+  - **Required correction** Consider rephrasing to "14 antibody-antigen complexes (7 antigens, 2 antibodies each)" for immediate clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, ELISA section
+  - **Evidence pointer** Materials and Methods, "ELISA Measurements" section
+  - **Issue** The ELISA protocol describes normalization to wild-type absorbance but does not specify the number of replicates, the criteria for outlier exclusion, or the statistical treatment of the data. This limits reproducibility.
+  - **Required correction** Add details on replicates, plate controls, and data processing steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, Structural Modeling section
+  - **Evidence pointer** Materials and Methods, "Structural Modeling" section
+  - **Issue** The description of the "conformation-based" pipeline is brief. It is unclear how the "most common side-chain" is determined and whether this approach is validated.
+  - **Required correction** Provide more detail on the rotamer library, the clustering procedure, and any validation of the conformation-based approach against experimental structures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, benchmarking section
+  - **Evidence pointer** Results section, Figures 6-12
+  - **Issue** The manuscript reports correlations but does not mention whether these are Spearman or Pearson throughout, and whether confidence intervals or p-values are provided. The choice of metric matters for interpretation.
+  - **Required correction** Clearly state which correlation metric is used for each comparison and provide confidence intervals or p-values.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The discussion of hybrid methods (e.g., METL) is brief and does not explain how such methods would address the identified limitations.
+  - **Required correction** Expand slightly on how hybrid approaches could mitigate the generalization gap, with a concrete example.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing data), R1-M2 (assumptions about training data), R1-M3 (comparison fairness). These are blocking because the central claims cannot be verified without the data and methodological clarifications.
+- **Assessment against Nature-style criteria** Originality: The dataset is a useful contribution, but the concept of benchmarking ML models on held-out antibody data is not entirely new. The specific focus on heterogeneous mutations and structural context adds value. Scientific importance: The finding that ML models generalize poorly is important for the field, but the evidence is incomplete. Interdisciplinary readership: The topic is relevant to computational biology, immunology, and machine learning, but the manuscript is written primarily for a specialist audience. Technical soundness: The experimental design is reasonable, but the lack of data and statistical details undermines confidence. Readability for nonspecialists: The manuscript is generally clear but assumes familiarity with antibody structure and ML terminology. Overall, the manuscript has potential but does not currently meet the bar for a Nature-style journal due to incomplete evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and the dataset is a valuable resource, but the central benchmarking claims cannot be evaluated without the missing tables, figures, and statistical details. The authors should be encouraged to resubmit with complete data and a more rigorous benchmarking methodology.
+
+## Risk / unsupported claims
+- The claim that ML models perform at "near zero" correlation on AbDesign is unsupported without the actual correlation values and figures.
+- The claim that FoldX "performs well" is based on correlations of 0.3-0.5, which is moderate, and the comparison may not be fair due to different structural inputs.
+- The claim that AbDesign "more than doubles" existing data is not quantified.
+- The claim that the dataset is "molecularly diverse" is not substantiated with data.
+- The claim that ML models "do not generalize well beyond the data they were given at training time" is an interpretation that requires more evidence, particularly regarding the training data assumptions.
+- The statement that "the older empirical, physics-based method FoldX, performs well in identifying mutants that retain binding" is a strong conclusion that needs more careful statistical support.

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including main text, figure legends, and supplementary file descriptions. No actual figures, tables, or supplementary files were provided for inspection.
+- **Assessment boundary** The review is limited to the claims, methods, and results as described in the provided text. Statistical analyses, actual data values, and supplementary materials could not be independently verified.
+- **Shared manuscript claim summary** The authors propose a novel encoding method, 2Lk, based on two levels of k-mer representation (sliding window and FCGR), and integrate it into a CNN-LSTM architecture (KDeep) with an optional attention layer (KDeep+) for predicting DNA/RNA transcription factor binding sites. They claim improvements in prediction accuracy, memory efficiency, trainable parameter count, and interpretability compared to existing methods such as DeepRKE+, DanQ, DeepBind, and others.
+- **Visible evidence base** Text descriptions of results, including average auROC values for RBP-24 (0.9377) and RBP-31 (0.876), comparisons with DeepRKE+ and DanQ, and qualitative statements about resource consumption. Figure and table captions are present but the actual figures and tables are not available.
+- **Missing materials affecting confidence** Actual figures (Figs. 1-7), all tables (Tables 1-2), and all supplementary files (Additional files 1-5) are not provided. Statistical significance tests, confidence intervals, and detailed per-dataset results are not available. The hyperparameter settings and model architecture details are only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the efficient encoding of nucleic acid sequences for deep learning-based prediction of protein binding sites. The proposed 2Lk encoding method is conceptually interesting and the integration with a CNN-LSTM architecture is reasonable. However, the manuscript as presented has several significant weaknesses. The claims of improved accuracy are based on average values without statistical testing. The resource consumption analysis is described qualitatively and relies on supplementary figures that were not available for review. The comparison with state-of-the-art methods is incomplete, and the interpretability analysis, while promising, is not rigorously evaluated. The writing is sometimes unclear and the structure could be improved. The core idea has merit, but the evidence provided is insufficient to fully establish the claimed advantages.
+- **Who would be interested in the results, and why** Researchers working on computational prediction of transcription factor binding sites, developers of deep learning methods for genomics, and computational biologists interested in sequence encoding strategies. The potential for memory-efficient processing of large genomic datasets would also be of interest to those working on scalable bioinformatics tools.
+- **Major strengths** The manuscript addresses an important and practical problem, namely the computational cost of encoding and processing large nucleic acid sequences. The proposed 2Lk method is novel in its combination of k-mer sliding windows with FCGR-based representation, and it does not require a learning phase, which is a genuine advantage over methods like word2vec. The inclusion of an attention mechanism for interpretability is a thoughtful addition. The authors compare against a reasonable set of baseline methods across multiple datasets.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that KDeep "outperforms" alternative methods in terms of prediction accuracy, citing average auROC values such as 0.9377 for RBP-24 and 0.876 for RBP-31.
+  - **Evidence pointer** Section "Comparing the binding site predictors’ performance for RNA datasets", Figure 3, Additional files 4 and 5
+  - **Concern** The performance comparisons are presented as average values across datasets without any measure of variance, statistical significance testing, or per-dataset breakdown. For example, the claim that KDeep achieves the best auROC for 12 out of 24 datasets in RBP-24 is descriptive but does not establish whether these differences are statistically meaningful. The manuscript does not report standard deviations, confidence intervals, or p-values for any of the comparisons.
+  - **Why it matters** Without statistical testing, the observed differences in auROC could be due to random variation, particularly given the small number of datasets and the potential for overfitting. The claim of "outperformance" is a central pillar of the manuscript and must be supported by appropriate statistical evidence.
+  - **Resolution test** Provide per-dataset results with measures of variance (e.g., standard deviation across multiple runs) and perform appropriate statistical tests (e.g., paired Wilcoxon signed-rank test) comparing KDeep against each baseline. Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims improvements in memory consumption, execution time, and resource utilization, stating that 2Lk "improves the memory usage" and "reduces the total number of trainable parameters."
+  - **Evidence pointer** Section "Hardware resources’ utilization", Additional file 3: Figures S2, S3, S4, S5
+  - **Concern** The resource consumption analysis is described only qualitatively in the main text. The actual data, including the 14 monitored metrics, are in supplementary figures that were not provided for review. The claim that 2Lk improves memory usage is plausible given the smaller vector sizes, but the actual measurements, the experimental setup for monitoring, and the comparison across methods are not verifiable from the provided material. The statement that "the trend of the results is consistent in both samples" is based on only two datasets, which is a very limited basis for generalization.
+  - **Why it matters** Resource efficiency is a key claimed advantage of the proposed method. Without the actual data and a clear description of the measurement methodology, this claim cannot be evaluated. The limited number of datasets used for this analysis further weakens the generality of the conclusions.
+  - **Resolution test** Include the resource consumption data in the main text or provide the supplementary figures and tables for review. Describe the monitoring setup in detail. Expand the analysis to more datasets to demonstrate consistent trends.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript describes the 2Lk encoding method and the KDeep architecture, but key implementation details are missing.
+  - **Evidence pointer** Section "Method", Figure 7, Additional file 3: Tables S1, S4
+  - **Concern** The description of the 2Lk encoding is incomplete. The manuscript states that the encoding generates a vector of size (L-k1+1) x 4^k2, but it is not clear how the FCGR matrix is constructed for each k-mer window and how these are combined. The hyperparameters (e.g., number of filters, kernel sizes, LSTM units, learning rate, batch size, number of epochs) are not specified in the main text and are only referenced in supplementary tables. The training procedure, including any regularization or early stopping, is not described. The exact architecture differences between KDeep and KDeep+ are not fully specified beyond the addition of an attention layer.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without complete details of the encoding and the model architecture, other researchers cannot implement or build upon the proposed method. The lack of hyperparameter details also makes it difficult to assess whether the comparisons with baselines are fair.
+  - **Resolution test** Provide a complete and detailed description of the 2Lk encoding algorithm, including pseudocode or a formal algorithm box. Specify all hyperparameters for all models in the main text or a clearly referenced table. Describe the training procedure, including optimization algorithm, learning rate schedule, and any regularization techniques.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** The manuscript claims that KDeep and KDeep+ provide improved interpretability and can extract known motifs, with KDeep matching 181 and KDeep+ matching 113 known motifs out of 320 with E-value less than 0.01, compared to DanK's 101.
+  - **Evidence pointer** Section "Visualization", Additional file 3: Figures S7-S10
+  - **Concern** The interpretability analysis is presented as a comparison of the number of significantly matched motifs. However, the methodology for this comparison is not described. How were the motifs extracted from the CNN kernels? How was the matching to known motifs performed? What is the significance of the E-value threshold? The claim that KDeep extracts more motifs than KDeep+ is interesting but unexplained. The authors note that the attention layer in KDeep+ helps specify motif ranges, but this is not quantitatively evaluated.
+  - **Why it matters** Interpretability is a claimed advantage, but the analysis as described is not rigorous. Without a clear methodology and a quantitative evaluation of the quality and relevance of the extracted motifs, the interpretability claim is not well supported.
+  - **Resolution test** Describe the motif extraction and matching methodology in detail. Provide a quantitative evaluation of motif quality, such as the fraction of known motifs recovered, the precision of motif localization, and a comparison with motifs extracted by baseline methods. Discuss the trade-off between the number of motifs and their accuracy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Section "Background"
+  - **Issue** The abstract and introduction could be more concise and focused. The background section is somewhat lengthy and could be streamlined to more directly motivate the specific problem of encoding efficiency.
+  - **Required correction** Tighten the background section and make the specific contribution of the 2Lk encoding method clearer in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Section "Result"
+  - **Issue** The term "2Lk" is used without a clear definition of the two levels. The notation 2Lk(k1, k2) is introduced but the meaning of "levels" is not explicitly explained.
+  - **Required correction** Define the two levels of k-mer representation explicitly in the Methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Discussion"
+  - **Issue** The discussion of limitations is brief. The authors mention future work on variable-length sequences but do not discuss other potential limitations, such as the generalizability of the method to other types of binding sites or the sensitivity of the results to the choice of k1 and k2.
+  - **Required correction** Expand the discussion of limitations and potential avenues for future work.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures and Tables
+  - **Evidence pointer** Figures 1-7, Tables 1-2
+  - **Issue** The figure and table captions are descriptive but the actual figures and tables were not available for review. The captions suggest that some figures may be complex (e.g., Figure 5 with multiple scatter plots).
+  - **Required correction** Ensure that all figures and tables are self-contained and clearly labeled. Consider simplifying complex figures or splitting them into multiple panels.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Method
+  - **Evidence pointer** Section "Method"
+  - **Issue** The manuscript does not state whether the code and data are publicly available.
+  - **Required correction** Add a "Data and code availability" statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor) and R1-M2 (evidence completeness for resource claims) are the most critical. R1-M3 (methodological clarity) is also essential for reproducibility. These need to be addressed before the central claims of the manuscript can be considered established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The 2Lk encoding method is a novel combination of existing ideas (k-mer windows and FCGR). The specific application to memory-efficient binding site prediction is a reasonable contribution, but the conceptual novelty is incremental.
+  - **Scientific importance** The problem of efficient processing of large genomic sequences is important and growing in relevance. However, the demonstrated improvements are modest and not rigorously quantified, limiting the perceived importance.
+  - **Interdisciplinary readership** The topic is of interest to computational biologists, bioinformaticians, and machine learning researchers. The potential for broader readership in molecular biology is limited by the technical focus and the lack of clear biological insights.
+  - **Technical soundness** The technical approach is generally sound, but the evaluation is incomplete. The lack of statistical testing and the incomplete description of the resource analysis are significant weaknesses.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that is accessible to specialists but may be challenging for a broader audience. The abstract and introduction could be improved to make the contributions more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea has merit, and the proposed method could be a useful contribution. However, the current manuscript does not provide sufficient evidence to fully support the claims of improved accuracy and resource efficiency. The authors should address the statistical rigor, provide the missing data, and clarify the methodological details.
+
+## Risk / unsupported claims
+- The claim that KDeep "outperforms" state-of-the-art methods is not statistically supported.
+- The claim of improved memory usage and resource efficiency is not verifiable from the provided material.
+- The claim of improved interpretability is based on a comparison that is not fully described.
+- The statement that "2Lk (3, 2) with small vector size of 16 can achieve a higher average auROC, compared to the learning-based method word2vec (50)" is a specific claim that requires the underlying data to be evaluated.
+- The claim that KDeep+ "outperforms DanQ for 95.9% of the 919 targets" is descriptive but lacks statistical context.

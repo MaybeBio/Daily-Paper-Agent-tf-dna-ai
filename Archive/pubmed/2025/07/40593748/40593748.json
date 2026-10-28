@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "40593748",
+    "doi": "10.1038/s41467-025-60901-3",
+    "title": "Modeling heterogeneous signaling dynamics of macrophages reveals principles of information transmission in stimulus responses."
+  },
+  "content": {
+    "abstract": "Macrophages initiate pathogen-appropriate immune responses with the activation dynamics of transcription factor NFkappaB mediating specificity. Live-cell imaging revealed the stimulus-response specificity of NFkappaB dynamics among populations of heterogeneous cells. To study stimulus-response specificity beyond what is experimentally accessible, we develop mathematical model simulations that capture the heterogeneity of stimulus-responsive NFkappaB dynamics and the stimulus-response specificity performance of the population. Complementing experimental data, extended-dose response simulations improved channel capacity estimates. By collapsing parameter distributions, we locate information loss to receptor modules, while the negative-feedback-containing core module shows remarkable signaling fidelity. Further, constructing virtual single-cell networks reveals the stimulus-response specificity of single cells. We find that despite stimulus-response specificity limitations at the population level, the majority of single cells are capable of responding specifically to immune threats, and that the few instances of stimulus-pair confusion are highly uncorrelated. The diversity of blindspots enable small consortia of macrophages to achieve perfect stimulus distinction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Macrophages/metabolism/immunology",
+      "*Signal Transduction",
+      "NF-kappa B/metabolism",
+      "Animals",
+      "Mice",
+      "*Models, Biological",
+      "Single-Cell Analysis",
+      "Humans",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Xiaolu",
+        "Adelaja, Adewunmi",
+        "Singh, Apeksha",
+        "Wollman, Roy",
+        "Hoffmann, Alexander"
+      ],
+      "short_names": [
+        "Guo X",
+        "Adelaja A",
+        "Singh A",
+        "Wollman R",
+        "Hoffmann A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5740-2428",
+        "ORCID: 0000-0001-6010-5072",
+        "ORCID: 0000-0001-6523-0614",
+        "ORCID: 0000-0003-3865-2605",
+        "ORCID: 0000-0002-5607-3845"
+      ],
+      "affiliations": [
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Harvard Combined Dermatology Residency Training Program, Boston, MA, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Departments of Integrative Biology and Physiology, and Chemistry and Biochemistry, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA. ahoffmann@ucla.edu.",
+        "Department of Microbiology, Immunology, and Molecular Genetics, University of California Los Angeles, Los Angeles, CA, USA. ahoffmann@ucla.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Xiaolu",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0002-5740-2428"
+        ],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA.",
+          "Department of Microbiology, Immunology, and Molecular Genetics, University of California Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Adelaja, Adewunmi",
+        "short_name": "Adelaja A",
+        "identifiers": [
+          "0000-0001-6010-5072"
+        ],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA.",
+          "Department of Microbiology, Immunology, and Molecular Genetics, University of California Los Angeles, Los Angeles, CA, USA.",
+          "Harvard Combined Dermatology Residency Training Program, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Apeksha",
+        "short_name": "Singh A",
+        "identifiers": [
+          "0000-0001-6523-0614"
+        ],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA.",
+          "Department of Microbiology, Immunology, and Molecular Genetics, University of California Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wollman, Roy",
+        "short_name": "Wollman R",
+        "identifiers": [
+          "0000-0003-3865-2605"
+        ],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA.",
+          "Departments of Integrative Biology and Physiology, and Chemistry and Biochemistry, University of California Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Alexander",
+        "short_name": "Hoffmann A",
+        "identifiers": [
+          "0000-0002-5607-3845"
+        ],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, USA. ahoffmann@ucla.edu.",
+          "Department of Microbiology, Immunology, and Molecular Genetics, University of California Los Angeles, Los Angeles, CA, USA. ahoffmann@ucla.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "42619708",
+      "42559128",
+      "41669117",
+      "41379929",
+      "40961166",
+      "38654826"
+    ],
+    "refs": [
+      "39368467",
+      "38843840",
+      "38551009",
+      "38483906",
+      "38293960",
+      "38038974",
+      "37212045",
+      "36657439",
+      "36473794",
+      "35830792",
+      "35471841",
+      "34853340",
+      "34525335",
+      "34301608",
+      "34211635",
+      "34140389",
+      "33979588",
+      "32864512",
+      "31972132",
+      "31040261",
+      "31024544",
+      "30638813",
+      "30443336",
+      "29623300",
+      "28500273",
+      "28480715",
+      "28380352",
+      "27461000",
+      "27381163",
+      "26859137",
+      "26175492",
+      "25635454",
+      "25504722",
+      "25473117",
+      "25274725",
+      "24530305",
+      "23954936",
+      "23908238",
+      "23742268",
+      "22435558",
+      "22296764",
+      "21921160",
+      "21616434",
+      "21356084",
+      "21239458",
+      "20581820",
+      "20534546",
+      "19787057",
+      "19363473",
+      "19359585",
+      "18676814",
+      "18471974",
+      "16166517",
+      "16166516",
+      "15499023",
+      "15244698",
+      "12524386",
+      "12424381",
+      "12183631"
+    ],
+    "similar": [
+      "40593748",
+      "40839679",
+      "33979588",
+      "38872050",
+      "40236137",
+      "34140389",
+      "35977475",
+      "40236106",
+      "24120141",
+      "22204418",
+      "38843840",
+      "25946967",
+      "37212045",
+      "29708974",
+      "25274725",
+      "27050527",
+      "39413794",
+      "30619320",
+      "30042130",
+      "26488364",
+      "23468615",
+      "41550924",
+      "26505215",
+      "23825938",
+      "30872589",
+      "36657439",
+      "31972132",
+      "29128333",
+      "38483906",
+      "35468185",
+      "29393460",
+      "19109163",
+      "18281385",
+      "28396000",
+      "20581820",
+      "31293585",
+      "31759325",
+      "27461000",
+      "26990581",
+      "40828805",
+      "39143485",
+      "26311312",
+      "24425788",
+      "34166361",
+      "40495190",
+      "9973495",
+      "25504722",
+      "38564300",
+      "26093918",
+      "39938520",
+      "31024544",
+      "23634218",
+      "12424381",
+      "32323096",
+      "37689116",
+      "18463616",
+      "21601940",
+      "31507609",
+      "31374284",
+      "16231973",
+      "29177856",
+      "19487661",
+      "21632045",
+      "31312197",
+      "21291535",
+      "18566250",
+      "38040923",
+      "21203444",
+      "31040261",
+      "39110005",
+      "25199662",
+      "22807442",
+      "30149753",
+      "21729324",
+      "35410287",
+      "25938234",
+      "24591377",
+      "19796012",
+      "11971008",
+      "33627672",
+      "19017994",
+      "39384957",
+      "18312297",
+      "35053345",
+      "31083375",
+      "35844496",
+      "23834512",
+      "25550814",
+      "38403999",
+      "16166517",
+      "18025224",
+      "16894344",
+      "41279116",
+      "17486138",
+      "24240124",
+      "20233427",
+      "19812205",
+      "30116248",
+      "23994140",
+      "41732090"
+    ],
+    "review": [
+      "40593748",
+      "30619320",
+      "26990581",
+      "31024544",
+      "31312197",
+      "38040923"
+    ],
+    "pmc": [
+      "12218168"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-60901-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40593748/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://datadryad.org/discover?query=10.1038/s41467-025-60901-3",
+        "provider": "Dryad Digital Repository",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/16j1b6cr",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

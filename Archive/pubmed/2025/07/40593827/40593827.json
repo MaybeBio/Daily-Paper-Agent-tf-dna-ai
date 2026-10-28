@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "40593827",
+    "doi": "10.1038/s41467-025-61149-7",
+    "title": "Dissecting crosstalk induced by cell-cell communication using single-cell transcriptomic data."
+  },
+  "content": {
+    "abstract": "During cell-cell communication (CCC), pathways activated by different ligand-receptor pairs may have crosstalk with each other. While multiple methods have been developed to infer CCC networks and their downstream response using single-cell RNA-seq data (scRNA-seq), the potential crosstalk between pathways connecting CCC with its downstream targets has been ignored. Here we introduce a machine learning-based method SigXTalk to analyze the crosstalk using scRNA-seq data by quantifying signal fidelity and specificity, two critical quantities measuring the effect of crosstalk. Specifically, a hypergraph learning method is used to encode the higher-order relations among receptors, transcription factors and target genes within regulatory pathways. Benchmarking of SigXTalk using simulation and real-world data shows the effectiveness, robustness, and accuracy in identifying key shared molecules among crosstalk pathways and their roles in transferring shared CCC information. Analysis of disease data shows SigXTalk's capability in identifying crucial signals, targets, regulatory networks, and CCC patterns that distinguish different disease conditions. Applications to the data with multiple time points reveals SigXTalk's capability in tracking the evolution of crosstalk pathways over time. Together our studies provide a systematic analysis of CCC-induced regulatory networks from the perspective of crosstalk between pathways.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cell Communication/genetics",
+      "*Single-Cell Analysis/methods",
+      "Humans",
+      "*Transcriptome/genetics",
+      "Machine Learning",
+      "Gene Regulatory Networks",
+      "Signal Transduction/genetics",
+      "Gene Expression Profiling/methods",
+      "Transcription Factors/metabolism/genetics",
+      "RNA-Seq"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hou, Jiawen",
+        "Zhao, Wei",
+        "Nie, Qing"
+      ],
+      "short_names": [
+        "Hou J",
+        "Zhao W",
+        "Nie Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4267-5316",
+        "ORCID: 0000-0003-1241-5652",
+        "ORCID: 0000-0002-8804-3368"
+      ],
+      "affiliations": [
+        "Department of Mathematics, University of California Irvine, Irvine, CA, USA.",
+        "The NSF-Simons Center for Multiscale Cell Fate Research, University of California Irvine, Irvine, CA, USA.",
+        "Department of Mathematics, University of California Irvine, Irvine, CA, USA. zhaow17@uci.edu.",
+        "The NSF-Simons Center for Multiscale Cell Fate Research, University of California Irvine, Irvine, CA, USA. zhaow17@uci.edu.",
+        "Department of Mathematics, University of California Irvine, Irvine, CA, USA. qnie@uci.edu.",
+        "The NSF-Simons Center for Multiscale Cell Fate Research, University of California Irvine, Irvine, CA, USA. qnie@uci.edu.",
+        "Department of Developmental and Cell Biology, University of California Irvine, Irvine, CA, USA. qnie@uci.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hou, Jiawen",
+        "short_name": "Hou J",
+        "identifiers": [
+          "0000-0003-4267-5316"
+        ],
+        "affiliations": [
+          "Department of Mathematics, University of California Irvine, Irvine, CA, USA.",
+          "The NSF-Simons Center for Multiscale Cell Fate Research, University of California Irvine, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Wei",
+        "short_name": "Zhao W",
+        "identifiers": [
+          "0000-0003-1241-5652"
+        ],
+        "affiliations": [
+          "Department of Mathematics, University of California Irvine, Irvine, CA, USA. zhaow17@uci.edu.",
+          "The NSF-Simons Center for Multiscale Cell Fate Research, University of California Irvine, Irvine, CA, USA. zhaow17@uci.edu."
+        ]
+      },
+      {
+        "full_name": "Nie, Qing",
+        "short_name": "Nie Q",
+        "identifiers": [
+          "0000-0002-8804-3368"
+        ],
+        "affiliations": [
+          "Department of Mathematics, University of California Irvine, Irvine, CA, USA. qnie@uci.edu.",
+          "The NSF-Simons Center for Multiscale Cell Fate Research, University of California Irvine, Irvine, CA, USA. qnie@uci.edu.",
+          "Department of Developmental and Cell Biology, University of California Irvine, Irvine, CA, USA. qnie@uci.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "42467644",
+      "42440072",
+      "42185831",
+      "42156722",
+      "41703594",
+      "41475999"
+    ],
+    "refs": [
+      "38846640",
+      "38609714",
+      "37953325",
+      "37936079",
+      "37930028",
+      "37897702",
+      "37857632",
+      "37827697",
+      "37824741",
+      "37601070",
+      "37588235",
+      "37365273",
+      "37246643",
+      "37231261",
+      "37026478",
+      "36755098",
+      "36690742",
+      "36321549",
+      "36280749",
+      "35961023",
+      "35908020",
+      "35696461",
+      "35680885",
+      "35510185",
+      "35451460",
+      "35422018",
+      "35264704",
+      "35139376",
+      "35043939",
+      "34980884",
+      "34331449",
+      "34020546",
+      "34011578",
+      "33969247",
+      "33915568",
+      "33853780",
+      "33691172",
+      "33685491",
+      "33617121",
+      "33597522",
+      "33398177",
+      "33201801",
+      "33168968",
+      "33099569",
+      "33026066",
+      "32871105",
+      "32678092",
+      "32602883",
+      "32457301",
+      "32350282",
+      "32135093",
+      "32103204",
+      "31907445",
+      "31900385",
+      "31819264",
+      "30461333",
+      "30445495",
+      "29941873",
+      "29935791",
+      "29914354",
+      "29249062",
+      "29198524",
+      "29028984",
+      "28991892",
+      "28968704",
+      "28957658",
+      "28379368",
+      "27993778",
+      "27965308",
+      "27641093",
+      "27207943",
+      "26789630",
+      "26688802",
+      "26522444",
+      "26514335",
+      "26400040",
+      "26324850",
+      "26083756",
+      "25155749",
+      "23934932",
+      "23151663",
+      "22997134",
+      "22772468",
+      "22496633",
+      "22292714",
+      "22153608",
+      "21874053",
+      "21708929",
+      "21376230",
+      "20807568",
+      "20371346",
+      "19390589",
+      "17913886",
+      "17325015",
+      "16729058",
+      "15568991",
+      "14511403",
+      "10592173",
+      "10209147"
+    ],
+    "similar": [
+      "40593827",
+      "40501904",
+      "40229908",
+      "41125721",
+      "40175565",
+      "36690742",
+      "40711603",
+      "40062616",
+      "38950180",
+      "40296690",
+      "41009952",
+      "39762897",
+      "39926598",
+      "39769196",
+      "38706319",
+      "40366019",
+      "32051003",
+      "41733593",
+      "37740957",
+      "40404675",
+      "39992219",
+      "41031145",
+      "38871687",
+      "37026478",
+      "41451540",
+      "38980373",
+      "32532794",
+      "41354912",
+      "38664790",
+      "31068142",
+      "39384856",
+      "39627184",
+      "39993960",
+      "31243426",
+      "39487083",
+      "39402626",
+      "34331449",
+      "40205350",
+      "32825786",
+      "34251625",
+      "40257984",
+      "39014455",
+      "39062480",
+      "38627250",
+      "39180857",
+      "39082647",
+      "37027680",
+      "40251476",
+      "31581101",
+      "39155292",
+      "37004161",
+      "34951074",
+      "38962008",
+      "38678387",
+      "39896809",
+      "34962260",
+      "41109371",
+      "37856458",
+      "40591483",
+      "40262896",
+      "40106407",
+      "32707839",
+      "40806243",
+      "35715748",
+      "36626328",
+      "38631462",
+      "40508102",
+      "34291282",
+      "40474296",
+      "37827697",
+      "39917297",
+      "40149878",
+      "33597522",
+      "32674393",
+      "35144027",
+      "41065575",
+      "36752035",
+      "39373051",
+      "34011578",
+      "41346577",
+      "33876191",
+      "40095604",
+      "38739758",
+      "40362233",
+      "39390840",
+      "39478056",
+      "41159728",
+      "39555084",
+      "39417321",
+      "32103204",
+      "38810116",
+      "41601671",
+      "35961023",
+      "34095314",
+      "40589764",
+      "40895573",
+      "40861433",
+      "32549766",
+      "37985457",
+      "36168811"
+    ],
+    "review": [
+      "40593827",
+      "31243426"
+    ],
+    "pmc": [
+      "12219092"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-61149-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40593827/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

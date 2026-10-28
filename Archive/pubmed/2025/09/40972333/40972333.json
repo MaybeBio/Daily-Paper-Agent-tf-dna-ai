@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "40972333",
+    "doi": "10.1016/j.intimp.2025.115562",
+    "title": "Artesunate alleviates chronic allergic rhinitis and asthma syndrome via the CCR3/NF-kappaB pathway: a comprehensive analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chronic allergic rhinitis and asthma syndrome (CARAS) is a comorbid inflammatory condition affecting both upper and lower airways, with limited treatment options. Artesunate (ART), a derivative of artemisinin, has shown anti-inflammatory properties, but its role in CARAS remains unclear. OBJECTIVE: To explore the therapeutic mechanisms of ART in CARAS using a comprehensive multi-methodological approach, focusing on the CCR3/NF-kappaB signaling pathway. METHODS: A CARAS mouse model was established to evaluate the in vivo effects of ART. Network pharmacology, RNA sequencing, and machine learning were applied to identify key targets and pathways. Molecular docking and molecular dynamics simulations assessed ART-target interactions. Western blotting validated critical signaling changes. RESULTS: ART treatment alleviated nasal and lung tissue damage, reduced inflammation, and restored epithelial integrity. It significantly lowered serum IgE and Th2-related cytokines (IL-4, IL-5, IL-13). Network pharmacology identified 29 target genes involved in pathways such as Th17 differentiation and NF-kappaB signaling. Machine learning consistently highlighted STAT3 as a central target. Docking studies showed high binding affinity between ART and STAT3. ART also downregulated CCR3 and inhibited NF-kappaB activation as confirmed by Western blot. CONCLUSION: ART effectively ameliorates CARAS by suppressing inflammation and modulating immune signaling via the CCR3/NF-kappaB axis. These findings support ART as a potential therapeutic agent for CARAS.",
+    "keywords": [
+      "Allergic rhinitis",
+      "Artesunate",
+      "Asthma",
+      "CCR3/NF-kappaB pathway"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Artesunate/therapeutic use/pharmacology",
+      "*NF-kappa B/metabolism",
+      "*Rhinitis, Allergic/drug therapy/immunology",
+      "Signal Transduction/drug effects",
+      "Mice",
+      "*Asthma/drug therapy/immunology",
+      "*Receptors, CCR3/metabolism",
+      "Molecular Docking Simulation",
+      "Disease Models, Animal",
+      "*Anti-Inflammatory Agents/therapeutic use/pharmacology",
+      "Mice, Inbred BALB C",
+      "Cytokines/metabolism",
+      "Humans",
+      "STAT3 Transcription Factor/metabolism",
+      "Male",
+      "Chronic Disease",
+      "Lung/drug effects/pathology/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Zhi-Qiang",
+        "Bao, You-Wei",
+        "Wang, Hongyou",
+        "Wang, Heng",
+        "Yang, Xinyue",
+        "Li, Jing-Yang",
+        "Chen, Qi",
+        "Wu, Jun",
+        "Zhu, Xin-Hua"
+      ],
+      "short_names": [
+        "Zhang ZQ",
+        "Bao YW",
+        "Wang H",
+        "Wang H",
+        "Yang X",
+        "Li JY",
+        "Chen Q",
+        "Wu J",
+        "Zhu XH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China.",
+        "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China.",
+        "Department of Anesthesiology, The First Hospital of Jilin University, Changchun 130021, China.",
+        "China-Japan Union Hospital of Jilin University, 126 Xiantai Street, Changchun 130033, China.",
+        "China-Japan Union Hospital of Jilin University, 126 Xiantai Street, Changchun 130033, China.",
+        "Department of Clinical Medicine, The First Clinical Medical College, Nanchang University, Nanchang 330006, China.",
+        "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China.",
+        "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China.",
+        "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China. Electronic address: entzxh@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Zhi-Qiang",
+        "short_name": "Zhang ZQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China."
+        ]
+      },
+      {
+        "full_name": "Bao, You-Wei",
+        "short_name": "Bao YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongyou",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Heng",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "China-Japan Union Hospital of Jilin University, 126 Xiantai Street, Changchun 130033, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xinyue",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "China-Japan Union Hospital of Jilin University, 126 Xiantai Street, Changchun 130033, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing-Yang",
+        "short_name": "Li JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, The First Clinical Medical College, Nanchang University, Nanchang 330006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qi",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jun",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xin-Hua",
+        "short_name": "Zhu XH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Head and Neck Surgery, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang 330006, China. Electronic address: entzxh@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2025 Dec 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/20 00:31",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "41953028"
+    ],
+    "refs": [],
+    "similar": [
+      "40972333",
+      "37163921",
+      "38631146",
+      "31669322",
+      "40228588",
+      "34998035",
+      "33182052",
+      "40273561",
+      "37569890",
+      "37267637",
+      "27541375",
+      "39450979",
+      "29894863",
+      "31121415",
+      "36350155",
+      "39719880",
+      "21695271",
+      "40031093",
+      "39260527",
+      "32450529",
+      "38588656",
+      "40911991",
+      "38527438",
+      "26163938",
+      "41038330",
+      "38764116",
+      "28886581",
+      "33857802",
+      "38604509",
+      "27057692",
+      "27498367",
+      "38286741",
+      "41274524",
+      "29654433",
+      "39689597",
+      "41124707",
+      "27184188",
+      "39082354",
+      "37268260",
+      "38401465",
+      "39180692",
+      "30551446",
+      "39421735",
+      "40330488",
+      "41489113",
+      "31645649",
+      "39244174",
+      "40397997",
+      "40049341",
+      "39923957",
+      "39520962",
+      "33945919",
+      "21136283",
+      "40674839",
+      "32771949",
+      "37295485",
+      "40174341",
+      "40010305",
+      "37531845",
+      "33516930",
+      "40738272",
+      "41110585",
+      "40683442",
+      "36961550",
+      "41344519",
+      "38824434",
+      "40644479",
+      "40133025",
+      "39278848",
+      "32408566",
+      "39521103",
+      "41319564",
+      "40684492",
+      "39022996",
+      "32565308",
+      "39121927",
+      "40118327",
+      "40803538",
+      "31493665",
+      "38388914",
+      "32719431",
+      "38917753",
+      "33900898",
+      "36499702",
+      "31776094",
+      "41271031",
+      "35533913",
+      "37648883",
+      "40943597",
+      "29268192",
+      "40489908",
+      "38650129",
+      "29055190",
+      "26455479",
+      "41368736",
+      "38432211",
+      "39694430",
+      "33887491",
+      "31917285",
+      "22449378"
+    ],
+    "review": [
+      "40972333"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(25)01553-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      },
+      {
+        "url": "https://www.ovid.com/40972333.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

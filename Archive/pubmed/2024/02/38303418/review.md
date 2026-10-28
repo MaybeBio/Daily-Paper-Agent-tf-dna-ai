@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and results as presented in the abstract
+- **Shared manuscript claim summary** The authors propose a computational method for identifying DNA-protein binding residues that integrates position-specific scoring matrix (PSSM) evolutionary information with protein secondary structure spatial information. The architecture combines a Bi-directional Long Short-Term Memory (BiLSTM) network with a Transformer encoder to extract inter-residue dependencies, followed by convolutional operations to capture local features. On the PDNA-41 benchmark dataset, the method reportedly achieves an MCC of 0.349, SP of 96.50%, SN of 44.03%, and ACC of 94.59%, and is claimed to be competitive with contemporary classifiers.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, dataset description, training and validation protocols, hyperparameter settings, baseline comparisons, statistical significance tests, and any code or reproducibility information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible deep learning architecture for a well-studied bioinformatics problem. However, the evidence provided is insufficient to evaluate the technical soundness, the validity of the performance claims, or the novelty relative to existing methods. The reported sensitivity of 44.03% is notably low for a practical predictor, and the abstract does not explain how this balances with the high specificity to yield a meaningful overall performance. The claim of competitiveness is not substantiated without detailed baseline comparisons and statistical analysis.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, specifically those developing or applying deep learning methods for DNA-protein interaction site prediction. The work may also interest researchers in the broader field of sequence-based functional annotation who seek to combine evolutionary and structural features with modern neural architectures.
+- **Major strengths** The combination of PSSM and secondary structure information is a reasonable and established approach in this domain. The use of a hybrid BiLSTM-Transformer architecture with convolutional layers is a sensible design that addresses both long-range dependencies and local motif detection. The abstract reports performance on a recognized benchmark dataset, which facilitates comparison with prior work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves an MCC of 0.349, SP of 96.50%, SN of 44.03%, and ACC of 94.59% on the PDNA-41 dataset.
+  - **Evidence pointer** Abstract, results sentence
+  - **Concern** The reported sensitivity of 44.03% indicates that the model correctly identifies less than half of the true binding residues. The abstract does not provide any context for this value, such as the class imbalance in the dataset, the performance of existing methods on the same metric, or the trade-off rationale. Without this information, the practical utility of the predictor is unclear.
+  - **Why it matters** A predictor with such low sensitivity may miss a majority of true binding sites, which undermines its stated purpose in disease prevention and treatment development. The MCC of 0.349, while positive, is modest and may not represent a meaningful improvement over existing tools. The abstract's claim of being "competitive" is not verifiable without direct comparisons.
+  - **Resolution test** Provide a table comparing the proposed method against at least three existing state-of-the-art predictors on PDNA-41 using identical evaluation protocols, including per-metric breakdowns. Report the class distribution of the dataset and discuss the sensitivity-specificity trade-off. If possible, include precision-recall or ROC curves to contextualize the operating point.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The method employs a combination of BiLSTM and Transformer encoder followed by convolutional operations.
+  - **Evidence pointer** Abstract, methods description
+  - **Concern** The abstract provides no details on the model architecture dimensions, training procedure, optimization strategy, regularization, or hyperparameter selection. There is no mention of how the PSSM and secondary structure features are encoded or fused, nor how the training and test splits were constructed. This level of detail is insufficient to reproduce the method or assess its robustness.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without architectural and training details, the results cannot be independently verified, and the risk of overfitting or data leakage cannot be assessed. The absence of such information prevents the community from building on this work.
+  - **Resolution test** Provide a full methods section with model architecture specifications, feature encoding details, training hyperparameters, data splitting strategy, and any cross-validation procedures. Make the code and trained models publicly available to enable replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The method is described as "precise and robust" and "competitive when compared to contemporary classifiers."
+  - **Evidence pointer** Abstract, opening and results sentences
+  - **Concern** The abstract does not clearly articulate what is novel about this approach relative to existing deep learning methods for DNA-protein binding site prediction. Many prior studies have combined PSSM with secondary structure and used BiLSTM or Transformer architectures. The specific contribution of this work, whether architectural, feature-based, or in terms of performance, is not stated.
+  - **Why it matters** For a field with a substantial existing literature, the scientific importance of a new method depends on a clear demonstration of what it adds. Without a stated novelty or a clear performance advantage, the contribution may be incremental and of limited interest to the broader community.
+  - **Resolution test** In the introduction and discussion, explicitly compare the proposed architecture with at least three prior deep learning methods for this task, highlighting the specific design choices that are new. Provide evidence that these choices lead to measurable improvements, either in accuracy, efficiency, or interpretability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and readability
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, opening sentence
+  - **Issue** The statement that DNA-protein binding is "crucial for the normal development and function of organisms" is generic and does not provide specific context for why the identification of binding residues is important in a way that distinguishes this work.
+  - **Required correction** Replace the generic opening with a more specific statement about the biological or clinical relevance of DNA-protein binding site prediction, such as its role in understanding transcriptional regulation or in identifying disease-associated mutations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting standards
+  - **Affected element** Abstract, results
+  - **Evidence pointer** Abstract, results sentence
+  - **Issue** The abstract reports only four metrics (MCC, SP, SN, ACC) without any measure of variance, such as standard deviation across cross-validation folds, or any statistical comparison with baselines.
+  - **Required correction** Report the mean and standard deviation of each metric across cross-validation folds, and include a statistical test (e.g., paired t-test or Wilcoxon signed-rank test) comparing the proposed method with baseline methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The phrase "spatial information of the protein's secondary structure" is ambiguous. Secondary structure is typically represented as a sequence of states (e.g., helix, strand, coil) rather than spatial coordinates. The intended meaning should be clarified.
+  - **Required correction** Clarify whether the secondary structure is used as a sequence of discrete states, as predicted probabilities, or as some other representation, and specify the source of the secondary structure information (e.g., predicted or experimentally determined).
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The low sensitivity without context and the lack of methodological detail prevent the core claims from being evaluated. R1-M3, while not blocking, should be addressed to establish the scientific contribution.
+- **Assessment against Nature-style criteria** Originality: Not established from the abstract. The combination of PSSM, secondary structure, BiLSTM, and Transformer is not clearly differentiated from prior work. Scientific importance: Potentially relevant to a specialized audience, but the abstract does not demonstrate a significant advance over existing methods. Interdisciplinary readership: Limited. The abstract is written for a bioinformatics audience and does not frame the problem in a way that would attract readers from other disciplines. Technical soundness: Cannot be assessed due to missing methodological details and the unexplained low sensitivity. Readability for nonspecialists: The abstract is accessible to those familiar with the field but uses technical terms without sufficient explanation for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims of precision, robustness, or competitiveness. A full manuscript with detailed methods, comprehensive comparisons, and statistical validation would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that the method is "precise and robust" is unsupported without variance measures or external validation.
+- The claim that the method is "competitive when compared to contemporary classifiers" is unsupported without direct baseline comparisons.
+- The reported performance metrics cannot be interpreted without knowledge of the dataset class distribution and the operating point of the classifier.
+- The novelty of the approach relative to existing deep learning methods is not stated and therefore cannot be evaluated.
+- Any claims about the method's utility in disease prevention and treatment are speculative and not supported by the abstract.

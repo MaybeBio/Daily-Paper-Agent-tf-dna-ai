@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2025.07.17.25331359",
+  "title": "A multi-modal vision knowledge graph of cardiovascular disease",
+  "authors": "Rjoob K; McGurk KA; Zheng SL; Curran L; Ibrahim M; Zeng L; Kim V; Tahasildar S; Kalaie S; Senevirathne DS; Gifani P; Losev V; Zheng J; Bai W; de Marvao A; Ware JS; Bender C; O’Regan DP",
+  "journal": "medRxiv",
+  "published_date": "2025-07-18",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该文构建心血管疾病多模态知识图谱预测基因-疾病关联，虽用图自编码器，但核心是基因-疾病关联而非蛋白质-DNA互作，且无结合建模或TF-DNA体系，仅边缘相关。",
+  "abstract": "Understanding gene-disease associations is important for uncovering pathological mechanisms and identifying potential therapeutic targets. Knowledge graphs offer a powerful solution for representing and integrating data from multiple biomedical sources, but lack individual-level information on target organ structure and function. Here we developed CardioKG, a knowledge graph integrating over 200,000 computer vision-derived cardiovascular phenotypes from biomedical images with data extracted from 18 diverse biological databases modelling over a million relationships. A variational graph auto-encoder was used to generate node embeddings from the knowledge graph, which were used as input features to predict gene-disease associations, assess druggability and propose drug repurposing strategies. The model predicted new genetic associations and therapeutic strategies for leading causes of cardiovascular disease which were also associated with improved survival. Candidate therapies included methotrexate for heart failure and gliptins for atrial fibrillation. Imaging enhanced the ability to leverage biological data for pathway discovery. These capabilities represent an important step toward using biomedical imaging to enhance graph-structured models for identifying treatable disease mechanisms.",
+  "abstract_zh": "理解基因-疾病关联对于揭示病理机制和识别潜在治疗靶点至关重要。知识图谱为表示和整合来自多个生物医学来源的数据提供了强大解决方案，但缺乏关于靶器官结构和功能的个体层面信息。在此，我们开发了CardioKG，这是一个知识图谱，整合了来自生物医学图像的超过20万个计算机视觉衍生的心血管表型，以及从18个多样化生物数据库提取的数据，建模了超过一百万条关系。使用变分图自编码器从知识图谱生成节点嵌入，这些嵌入作为输入特征用于预测基因-疾病关联、评估可药性并提出药物重定位策略。该模型预测了心血管疾病主要病因的新遗传关联和治疗策略，这些策略也与改善生存率相关。候选疗法包括用于心力衰竭的甲氨蝶呤和用于心房颤动的格列汀类药物。成像增强了利用生物数据进行通路发现的能力。这些能力代表了朝着利用生物医学成像增强图结构模型以识别可治疗疾病机制迈出的重要一步。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2025.07.17.25331359",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2025.07.17.25331359",
+  "paper_page_path": "papers/medrxiv/10.1101_2025.07.17.25331359/index.html"
+}

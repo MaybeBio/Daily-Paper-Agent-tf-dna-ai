@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37001506",
+  "title": "The EN-TEx resource of multi-tissue personal epigenomes & variant-impact models.",
+  "authors": "Rozowsky, Joel; Gao, Jiahao; Borsari, Beatrice; Yang, Yucheng T; Galeev, Timur; Gursoy, Gamze; Epstein, Charles B; Xiong, Kun; Xu, Jinrui; Li, Tianxiao; Liu, Jason; Yu, Keyang; Berthel, Ana; Chen, Zhanlin; Navarro, Fabio; Sun, Maxwell S; Wright, James; Chang, Justin; Cameron, Christopher J F; Shoresh, Noam; Gaskell, Elizabeth; Drenkow, Jorg; Adrian, Jessika; Aganezov, Sergey; Aguet, Francois; Balderrama-Gutierrez, Gabriela; Banskota, Samridhi; Corona, Guillermo Barreto; Chee, Sora; Chhetri, Surya B; Cortez Martins, Gabriel Conte; Danyko, Cassidy; Davis, Carrie A; Farid, Daniel; Farrell, Nina P; Gabdank, Idan; Gofin, Yoel; Gorkin, David U; Gu, Mengting; Hecht, Vivian; Hitz, Benjamin C; Issner, Robbyn; Jiang, Yunzhe; Kirsche, Melanie; Kong, Xiangmeng; Lam, Bonita R; Li, Shantao; Li, Bian; Li, Xiqi; Lin, Khine Zin; Luo, Ruibang; Mackiewicz, Mark; Meng, Ran; Moore, Jill E; Mudge, Jonathan; Nelson, Nicholas; Nusbaum, Chad; Popov, Ioann; Pratt, Henry E; Qiu, Yunjiang; Ramakrishnan, Srividya; Raymond, Joe; Salichos, Leonidas; Scavelli, Alexandra; Schreiber, Jacob M; Sedlazeck, Fritz J; See, Lei Hoon; Sherman, Rachel M; Shi, Xu; Shi, Minyi; Sloan, Cricket Alicia; Strattan, J Seth; Tan, Zhen; Tanaka, Forrest Y; Vlasova, Anna; Wang, Jun; Werner, Jonathan; Williams, Brian; Xu, Min; Yan, Chengfei; Yu, Lu; Zaleski, Christopher; Zhang, Jing; Ardlie, Kristin; Cherry, J Michael; Mendenhall, Eric M; Noble, William S; Weng, Zhiping; Levine, Morgan E; Dobin, Alexander; Wold, Barbara; Mortazavi, Ali; Ren, Bing; Gillis, Jesse; Myers, Richard M; Snyder, Michael P; Choudhary, Jyoti; Milosavljevic, Aleksandar; Schatz, Michael C; Bernstein, Bradley E; Guigo, Roderic; Gingeras, Thomas R; Gerstein, Mark",
+  "journal": "Cell",
+  "published_date": "2023-04-01",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文构建多组织个人表观基因组资源，用深度学习模型预测等位基因特异性活性，涉及转录因子结合基序对变异的影响，但核心是表观基因组与变异效应，而非直接聚焦TF-DNA结合机制建模。",
+  "abstract": "Understanding how genetic variants impact molecular phenotypes is a key goal of functional genomics, currently hindered by reliance on a single haploid reference genome. Here, we present the EN-TEx resource of 1,635 open-access datasets from four donors ( approximately 30 tissues x  approximately 15 assays). The datasets are mapped to matched, diploid genomes with long-read phasing and structural variants, instantiating a catalog of >1 million allele-specific loci. These loci exhibit coordinated activity along haplotypes and are less conserved than corresponding, non-allele-specific ones. Surprisingly, a deep-learning transformer model can predict the allele-specific activity based only on local nucleotide-sequence context, highlighting the importance of transcription-factor-binding motifs particularly sensitive to variants. Furthermore, combining EN-TEx with existing genome annotations reveals strong associations between allele-specific and GWAS loci. It also enables models for transferring known eQTLs to difficult-to-profile tissues (e.g., from skin to heart). Overall, EN-TEx provides rich data and generalizable models for more accurate personal functional genomics.",
+  "abstract_zh": "理解遗传变异如何影响分子表型是功能基因组学的一个关键目标，目前因依赖单一单倍体参考基因组而受到阻碍。在此，我们呈现来自四位捐赠者的1,635个开放访问数据集的EN-TEx资源（约30个组织 × 约15种检测）。这些数据集被映射到匹配的二倍体基因组，并带有长读段定相和结构变异，从而构建了一个包含超过100万个等位基因特异性位点的目录。这些位点沿单倍型表现出协调活性，且与相应的非等位基因特异性位点相比保守性较低。令人惊讶的是，一个深度学习变换器模型仅基于局部核苷酸序列上下文即可预测等位基因特异性活性，突显了对变异特别敏感的转录因子结合基序的重要性。此外，将EN-TEx与现有基因组注释相结合，揭示了等位基因特异性位点与GWAS位点之间的强关联。它还使模型能够将已知eQTL转移到难以分析的組織（例如，从皮肤到心脏）。总体而言，EN-TEx提供了丰富的数据和可泛化的模型，以实现更准确的个性化功能基因组学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37001506/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37001506/",
+  "paper_page_path": "papers/pubmed/37001506/index.html"
+}

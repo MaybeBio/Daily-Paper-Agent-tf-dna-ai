@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary material description) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the supplied text. No external data, figures, or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors present a single-molecule magnetic tweezers methodology to measure DNA extension fluctuations, in addition to mean extension, to determine the size and dynamics of topological domains in supercoiled DNA. They combine high-speed experiments, Monte Carlo simulations, and analytical theory to show that extension variance increases linearly with supercoiling density in the plectonemic regime, and that protein-induced DNA bridging reduces variance proportionally to the looped domain length without altering mean extension. They further extract the torsional stiffness of the plectonemic state and the kinetics of protein-plectoneme interactions from dynamic sampling of topological states.
+- **Visible evidence base** Main text sections (Abstract, Introduction, Results, Discussion, Methods), equations 1-8, Figures 1, 3, 4, 5 (referenced but not shown), Tables 1 (referenced), and references to Supplementary Material sections.
+- **Missing materials affecting confidence** All figures, tables, and supplementary material are referenced but not provided. Experimental details (DNA construct specifics, instrument calibration, data filtering parameters) are deferred to supplementary sections. Raw data and analysis scripts are not available for inspection. This limits verification of quantitative claims and statistical analyses.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and potentially useful extension of magnetic tweezers analysis by focusing on extension fluctuations rather than mean extension alone. The theoretical framework linking variance to topological domain size is elegant and the combination of experiment, simulation, and theory is commendable. However, the provided text alone does not allow full verification of the central quantitative claims. The key equation (Eq. 6) is derived from a two-phase model with simplifying assumptions, and the experimental validation relies on data not shown. The claim that variance decreases linearly with looped domain length is supported by simulation and a limited set of protein experiments, but the statistical robustness and generality of this result cannot be assessed from the text. The kinetic analysis of protein-plectoneme interactions is presented briefly and would benefit from more detailed exposition. Overall, the work is promising and likely of interest to the single-molecule biophysics community, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, DNA topology, chromatin biology, and enzymology. The methodology offers a new observable (extension fluctuations) that can report on topological domain formation and dynamics, which is relevant for understanding DNA-processing enzymes, architectural proteins, and DNA compaction mechanisms. The theoretical framework may also interest computational biophysicists working on polymer models of DNA.
+- **Major strengths** 1) The conceptual advance of using fluctuation analysis to probe topological domains is novel and well-motivated. 2) The combination of high-speed MT, MC simulations, and analytical theory provides a multi-pronged approach that strengthens the conclusions. 3) The derivation of Eq. 6 provides a clear, testable prediction linking variance reduction to loop size. 4) The use of restriction enzymes with unique binding sites as model bridging proteins is a sensible experimental choice. 5) The work has potential broader applicability beyond supercoiling, as noted in the discussion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the extension variance increases linearly with increasing supercoiling density" in the plectonemic regime and that this enables determination of topological domain size.
+  - **Evidence pointer** Figure 1c,d; Figure 3b; Figure S6b; location not provided for specific data points.
+  - **Concern** The central quantitative claim of linear variance increase is presented as a key result, but the supporting data (Figure 1c,d) are not visible in the provided text. The analytical model (Eq. 5) predicts this linearity, and MC simulations are stated to agree, but the experimental verification is not directly assessable. The slope of the variance vs. supercoiling density is used to calibrate the proportionality factor in Eq. 6, so any deviation from linearity or uncertainty in the slope would directly affect the accuracy of domain size determination. Without access to the actual data and error analysis, the robustness of this claim cannot be evaluated.
+  - **Why it matters** The entire methodology rests on the quantitative relationship between variance and topological domain size. If the linear relationship is not precisely verified experimentally, the method's accuracy and reliability for measuring domain sizes are unsubstantiated.
+  - **Resolution test** Provide the experimental data points for variance vs. supercoiling density at multiple forces, with error bars and fits. Show residuals to assess linearity. Quantify the uncertainty in the slope and propagate this through Eq. 6 to estimate the precision of domain size measurements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that DNA-bridging proteins reduce extension fluctuations but not mean extension, and that the variance reduction is proportional to the looped domain length (Eq. 6).
+  - **Evidence pointer** Figure 4a-c; Figure 3d,e; Figure S7; Table 1; location not provided for specific measurements.
+  - **Concern** The experimental validation of Eq. 6 relies on three restriction enzymes, but the data are not shown. The claim that mean extension is unaltered upon protein binding is stated, but the statistical power (number of molecules, number of binding events, variability between molecules) is not reported. The comparison between predicted and measured variance reduction (Figure 4c) is described as "good agreement," but the quantitative level of agreement (e.g., R², residuals, confidence intervals) is not given. Additionally, the assumption that only one protein binds per DNA molecule (based on <30% tethers showing binding) may limit the dynamic range of observable variance changes and could bias the results.
+  - **Why it matters** The experimental demonstration is the core evidence that the method works with real proteins. Without detailed data and statistical analysis, the reader cannot judge whether the observed variance reductions are indeed due to topological domain formation as modeled, or could arise from other effects (e.g., changes in DNA stiffness, non-specific binding, or experimental artifacts).
+  - **Resolution test** Show representative time traces and variance histograms for each enzyme. Report the number of independent measurements, the distribution of variance reductions, and the agreement with Eq. 6 predictions including confidence intervals. Address potential confounding factors such as non-specific binding or partial digestion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Theoretical assumptions
+  - **Claim pointer** The two-phase model assumes that the plectonemic phase has a well-defined supercoiling density σp and that the looped domain does not interact with the rest of the DNA.
+  - **Evidence pointer** Equations 3-6; Supplementary Material Section 2B; location not provided.
+  - **Concern** The two-phase model is a simplification that may not capture the full complexity of supercoiled DNA, particularly at higher forces or supercoiling densities where multiple plectonemes or structural transitions (e.g., denaturation) can occur. The assumption that the looped domain is non-interacting may break down if the loop is large or if there are electrostatic or steric interactions with the rest of the DNA. The model also assumes a sharp phase boundary, which may not be realistic. The authors acknowledge limitations of the two-phase model in capturing slopes (Figure 1c), but the impact of these limitations on the accuracy of Eq. 6 is not discussed.
+  - **Why it matters** If the model assumptions are violated under certain conditions, the derived relationship between variance and domain size may be inaccurate, limiting the method's applicability. The authors should clarify the range of forces and supercoiling densities over which the model is expected to be valid.
+  - **Resolution test** Discuss the validity regime of the two-phase model and compare Eq. 6 predictions with MC simulations over a wider range of parameters. If possible, test the model with different loop sizes and positions to assess the non-interaction assumption.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Kinetic analysis
+  - **Claim pointer** The authors claim to deduce the kinetics of protein-plectoneme interactions from the dynamic sampling of topological states.
+  - **Evidence pointer** Figure 5e; Supplementary Material Section 2D; location not provided.
+  - **Concern** The kinetic analysis is presented very briefly. The dwell time distributions are stated to be single exponential, but the number of transitions analyzed, the method for assigning states, and the uncertainty in the extracted lifetimes are not reported. The comparison of τp values across different states is used to infer a single dissociation time, but the consistency of this interpretation is not fully explored. The claim that force destabilizes protein-DNA interfaces (compared to previous work) is interesting but speculative, as the comparison is made to experiments under different conditions.
+  - **Why it matters** The kinetic information is a key added value of the method, but the current presentation does not allow the reader to assess the reliability of the extracted timescales or the interpretation of the dynamics.
+  - **Resolution test** Provide more detail on the state assignment and dwell time analysis. Report the number of events, the fitting procedure, and the uncertainties. Discuss alternative interpretations of the observed dynamics (e.g., processive sliding vs. dissociation/reassociation).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Location not provided.
+  - **Issue** The sentence "We first perform high-speed MT measurements to map out in detail the level of fluctuations of DNA as a function of applied force and linking number" is slightly redundant with the abstract and could be streamlined.
+  - **Required correction** Consider rephrasing to avoid repetition and improve flow.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Location not provided.
+  - **Issue** The Methods section is very brief and defers most details to the Supplementary Material. While this is common, key parameters such as the DNA length, buffer conditions, and data acquisition rate are mentioned in the Results but not systematically summarized.
+  - **Required correction** Provide a concise summary of experimental conditions in the main text Methods to aid reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 1
+  - **Evidence pointer** Location not provided.
+  - **Issue** The statement "we anticipate that our methodology... will provide access to the complex interplay of supercoiled DNA with interacting proteins" is somewhat vague. The authors could be more specific about what types of interactions or systems they envision.
+  - **Required correction** Consider adding a sentence with concrete examples of potential applications.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, section on DNA bridging proteins
+  - **Evidence pointer** Figure 4; location not provided.
+  - **Issue** The number of independent experiments and the variability between them are not reported for the protein binding experiments.
+  - **Required correction** Add information on sample size and error bars in the figure legends or text.
+- **Technical failings that need to be addressed before the case is established** 1) The experimental data supporting the linear variance increase (Figure 1) and the protein-induced variance reduction (Figure 4) must be shown and statistically analyzed. 2) The calibration procedure for determining the proportionality factor in Eq. 6 needs to be described in sufficient detail to be reproducible. 3) The kinetic analysis requires more rigorous treatment, including error estimates and a discussion of potential artifacts. 4) The validity regime of the two-phase model should be explicitly stated and tested against simulations.
+- **Assessment against Nature-style criteria** **Originality:** The idea of using extension fluctuations to probe topological domains is novel and represents a meaningful advance over mean-extension analysis. **Scientific importance:** The method has potential to address important questions in DNA topology and protein-DNA interactions, but the demonstrated impact is currently limited to a proof-of-concept with restriction enzymes. **Interdisciplinary readership:** The work will appeal to biophysicists, biochemists, and molecular biologists, but the presentation is somewhat technical and may be challenging for non-specialists. **Technical soundness:** The combination of experiment, simulation, and theory is rigorous in principle, but the lack of visible data and detailed methods prevents full assessment. **Readability for nonspecialists:** The abstract and introduction are accessible, but the results section assumes familiarity with magnetic tweezers and polymer models. Overall, the manuscript has the potential to meet Nature-style standards, but the current evidence base is insufficient to fully establish the claims.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the theoretical framework is elegant, but the manuscript requires substantial additional data presentation and analysis to convincingly support the central claims. The authors should provide the missing figures, detailed statistical analyses, and a more thorough discussion of model limitations before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that "the extension variance increases linearly with increasing supercoiling density" is not verifiable without Figure 1 data.
+- The claim that "the transient (partial) dissociation of DNA-bridging proteins results in the dynamic sampling of different topological states" is not supported by visible data.
+- The extracted value of torsional stiffness P = 20 ± 1 nm is presented without showing the fitting procedure or the underlying data.
+- The comparison of protein loop lifetimes to previous work (reference 60) is speculative and not directly supported by the data shown.
+- The statement that the method can "enable quantification of the dynamics and reaction pathways of DNA processing enzymes" is an extrapolation beyond the demonstrated results.

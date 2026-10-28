@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37076519",
+  "title": "Latent generative landscapes as maps of functional diversity in protein sequence space.",
+  "authors": "Ziegler, Cheyenne; Martin, Jonathan; Sinner, Claude; Morcos, Faruck",
+  "journal": "Nature communications",
+  "published_date": "2023-04-20",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用变分自编码器结合Potts模型构建蛋白质序列潜空间生成景观，虽涵盖转录因子但非聚焦TF-DNA互作，方法可迁移至蛋白-DNA结合建模。",
+  "abstract": "Variational autoencoders are unsupervised learning models with generative capabilities, when applied to protein data, they classify sequences by phylogeny and generate de novo sequences which preserve statistical properties of protein composition. While previous studies focus on clustering and generative features, here, we evaluate the underlying latent manifold in which sequence information is embedded. To investigate properties of the latent manifold, we utilize direct coupling analysis and a Potts Hamiltonian model to construct a latent generative landscape. We showcase how this landscape captures phylogenetic groupings, functional and fitness properties of several systems including Globins, beta-lactamases, ion channels, and transcription factors. We provide support on how the landscape helps us understand the effects of sequence variability observed in experimental data and provides insights on directed and natural protein evolution. We propose that combining generative properties and functional predictive power of variational autoencoders and coevolutionary analysis could be beneficial in applications for protein engineering and design.",
+  "abstract_zh": "变分自编码器是具有生成能力的无监督学习模型，当应用于蛋白质数据时，它们通过系统发育对序列进行分类，并生成保留蛋白质组成统计特性的全新序列。尽管以往研究侧重于聚类和生成特征，但在此，我们评估了序列信息嵌入的潜在潜流形。为探究潜流形的性质，我们利用直接耦合分析和Potts哈密顿模型构建了一个潜生成景观。我们展示了该景观如何捕捉包括珠蛋白、β-内酰胺酶、离子通道和转录因子在内的多个系统的系统发育分组、功能和适应性特性。我们提供了证据，说明该景观如何帮助我们理解实验数据中观察到的序列变异效应，并为定向和自然蛋白质进化提供见解。我们提出，将变分自编码器的生成特性与功能预测能力及共进化分析相结合，可能在蛋白质工程和设计应用中大有裨益。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37076519/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37076519/",
+  "paper_page_path": "papers/pubmed/37076519/index.html"
+}

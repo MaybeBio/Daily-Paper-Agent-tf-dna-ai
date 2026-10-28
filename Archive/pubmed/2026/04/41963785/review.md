@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, results, methods, discussion, and conclusions. Supplementary figure and table legends were referenced but not provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and internal consistency of the presented evidence. No assessment of editorial fit or publication decision is made.
+- **Shared manuscript claim summary** The authors propose that the transcription factor Broad-Complex Z2 (HaBRC Z2) acts as an upstream, 20-hydroxyecdysone (20E)-responsive regulator of the midgut chitinase gene HaCHT4 in *Helicoverpa armigera*, based on promoter analysis, in silico docking, EMSA, expression profiling, and RNAi-mediated silencing.
+- **Visible evidence base** Cloning and sequence analysis of a 1286 bp 5'-flanking region; genome-wide identification of BTB domain proteins; phylogenetic analysis; molecular docking (AlphaFold 3); EMSA; RT-qPCR expression profiling across larval stages and after 20E treatment; RNAi silencing with phenotypic measurements (body length, weight).
+- **Missing materials affecting confidence** All supplementary figures and tables (Fig. S1–S5, Tables S1–S5), raw gel/blot images, statistical output tables, and the full EMSA gel image. The methods for 20E treatment and RNAi delivery are described but the specific validation data (e.g., dsRNA uptake, off-target checks) are not fully visible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in insect molting biology, namely the link between the 20E signaling pathway and chitin metabolism via transcriptional regulation. The authors present a logical progression from promoter analysis to candidate transcription factor identification and functional knockdown. However, the evidence falls short of establishing a direct regulatory relationship. The EMSA is preliminary and lacks competition or mutation controls. The RNAi data show correlated changes in HaCHT4 expression but do not demonstrate direct binding or transcriptional activation. The molecular docking, while useful for prioritization, is not a substitute for functional validation. The manuscript is technically sound in its execution of standard molecular biology techniques, but the central claim of HaBRC Z2 as a direct upstream regulator remains a hypothesis rather than a demonstrated mechanism.
+- **Who would be interested in the results, and why** Researchers studying insect endocrinology, specifically the 20E signaling cascade and its downstream effects on chitin metabolism. The work may also interest those focused on developing RNAi-based or hormone-targeted pest control strategies for lepidopteran pests, given the agricultural importance of *H. armigera*. The identification of a candidate transcription factor for a midgut-specific chitinase could inform future studies on midgut barrier function and pesticide penetration.
+- **Major strengths**
+  - The study addresses a clear gap in understanding the transcriptional regulation of midgut chitinases by 20E.
+  - The use of multiple complementary approaches (bioinformatics, docking, EMSA, expression analysis, RNAi) is commendable.
+  - The genome-wide identification of BTB domain proteins in *H. armigera* provides a useful resource for the community.
+  - The RNAi experiments include phenotypic measurements (body length, weight) that link gene silencing to organismal effects.
+  - The authors are appropriately cautious in their conclusions, acknowledging the need for further validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for direct regulation
+  - **Claim pointer** The authors claim that HaBRC Z2 "might act as a potential upstream regulator of HaCHT4" based on EMSA and RNAi data.
+  - **Evidence pointer** Results section "HaBRC Z2 protein bound to the BRC Z2 CRE of HaCHT4" and "Functional analysis of the HaBRC Z2 using RNAi"; Figures 5 and 7.
+  - **Concern** The EMSA experiment lacks essential controls to demonstrate binding specificity. No competition assay with unlabeled probe, no mutation of the putative binding site, and no supershift with an antibody against HaBRC Z2. The single band shift could be non-specific. Furthermore, the RNAi data show that HaCHT4 expression decreases when HaBRC Z2 is knocked down, but this is a correlative observation. It does not prove direct transcriptional regulation. The authors themselves note that HaBRC Z2 knockdown could disrupt broader hormonal signaling, indirectly affecting HaCHT4. Without a reporter assay (e.g., luciferase) or chromatin immunoprecipitation (ChIP) showing HaBRC Z2 occupancy at the HaCHT4 promoter in vivo, the claim of direct regulation is not established.
+  - **Why it matters** The central hypothesis of the paper is that HaBRC Z2 directly regulates HaCHT4. If the binding is non-specific or the regulation is indirect, the main conclusion collapses. The current evidence is suggestive but not conclusive.
+  - **Resolution test** The authors must provide: (1) EMSA with unlabeled competitor DNA and mutated probe to show sequence-specific binding; (2) a dual-luciferase reporter assay demonstrating that HaBRC Z2 can transactivate the HaCHT4 promoter in a heterologous system; (3) ideally, ChIP-qPCR showing HaBRC Z2 enrichment at the HaCHT4 promoter in vivo. Without these, the claim should be downgraded to a "candidate regulator" with indirect evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of the binding site
+  - **Claim pointer** The authors identify a BRC Z2 CRE (5'-AACTAATT-3') in the HaCHT4 promoter and use it for docking and EMSA.
+  - **Evidence pointer** Results section "Characterization of the 5’-flanking region from the HaCHT4" and "HaBRC Z2 protein bound to the BRC Z2 CRE of HaCHT4"; Figure 1C-D and Figure 5.
+  - **Concern** The functional relevance of the identified BRC Z2 CRE is not tested. The authors do not show that mutation or deletion of this element abolishes HaBRC Z2 binding or promoter activity. The docking prediction (ΔG = -12 kcal/mol) is presented as a selection criterion, but this is a computational prediction and not experimental evidence. The manuscript does not demonstrate that this specific element is required for HaCHT4 expression in vivo.
+  - **Why it matters** Without functional validation of the cis-element, the link between HaBRC Z2 binding and HaCHT4 transcriptional regulation remains correlative. The promoter could contain other elements that are more important, or the identified element might be non-functional in the native context.
+  - **Resolution test** The authors should perform promoter-reporter assays with wild-type and mutated versions of the HaCHT4 promoter (specifically mutating the BRC Z2 CRE) to show that this element is necessary for HaBRC Z2-mediated transactivation. Alternatively, a deletion series of the promoter could identify the minimal region required for HaBRC Z2 responsiveness.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** RNAi specificity and phenotypic interpretation
+  - **Claim pointer** The authors claim that RNAi-mediated silencing of HaBRC Z2 causes growth delay and reduced body length and weight, and that this is linked to reduced HaCHT4 expression.
+  - **Evidence pointer** Results section "Functional analysis of the HaBRC Z2 using RNAi"; Figures 7 and 8.
+  - **Concern** The RNAi experiment uses whole-body samples for gene expression analysis, but the phenotype (body length, weight) is a whole-organism measure. The midgut-specific expression of HaCHT4 is not directly assessed in the RNAi experiment. It is unclear whether the observed growth defects are due to reduced HaCHT4 in the midgut or to off-target effects of dsRNA on other BRC isoforms or unrelated genes. The authors state they designed a specific dsRNA region, but the data showing specificity (e.g., no effect on HaBRC Z1, Z4) are not shown in the main text. The statistical analysis for the phenotypic data is mentioned but the full table (Table S5) is not provided.
+  - **Why it matters** The phenotypic effects are used to support the biological significance of the HaBRC Z2-HaCHT4 regulatory axis. If the RNAi has off-target effects or if the phenotype is not specifically due to HaCHT4 downregulation, the conclusions are weakened.
+  - **Resolution test** The authors should show that the dsRNA specifically knocks down HaBRC Z2 without affecting other BRC isoforms (e.g., by RT-qPCR for HaBRC Z1, Z3, Z4). They should also measure HaCHT4 expression specifically in the midgut, not whole body. Rescue experiments (e.g., ectopic expression of HaBRC Z2 or HaCHT4) would strengthen the causal link.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** 20E induction evidence
+  - **Claim pointer** The authors state that both HaBRC Z2 and HaCHT4 are "strongly induced by 20E" based on RT-qPCR data.
+  - **Evidence pointer** Results section "The expression profiles of HaBRC Z2 and HaCHT4 in H. armigera"; Figure 6C-D.
+  - **Concern** The 20E treatment experiment is described, but the details are sparse. The authors use a single time point (24 h) and a single dose (1.0 µg per larva). It is unclear whether this is a physiological dose. The response to 20E is a time- and dose-dependent process, and a single time point may miss the peak or capture a secondary response. The authors do not show whether the 20E effect is direct or mediated by other factors. The statistical analysis is mentioned but the full output is not shown.
+  - **Why it matters** The claim that HaBRC Z2 is a "20E-responsive regulator" is central to the model. If the 20E induction is weak, non-specific, or not dose-dependent, the physiological relevance is questionable.
+  - **Resolution test** The authors should provide a dose-response curve and a time-course experiment for 20E treatment. They should also consider using a protein synthesis inhibitor (e.g., cycloheximide) to determine if the induction is direct or requires new protein synthesis. This would strengthen the claim of a direct 20E signaling pathway.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5D (EMSA)
+  - **Evidence pointer** Results section "HaBRC Z2 protein bound to the BRC Z2 CRE of HaCHT4"
+  - **Issue** The EMSA figure is described but the actual image is not shown in the text. The authors state a "specific band shift" but do not provide quantification or a loading control. The figure legend mentions "Full-length blots are presented in Supplementary Fig. 5D-raw image," but this is not accessible.
+  - **Required correction** Provide the EMSA image in the main figure with clear labeling of the free probe and bound complex. Include a quantification of the band intensity or at least a representative image from multiple replicates. Ensure the supplementary raw image is available for review.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 6, 7, and 8
+  - **Evidence pointer** Results sections on expression profiles and RNAi
+  - **Issue** The authors report F-statistics and p-values for some comparisons, but the degrees of freedom are not consistently reported. For the phenotypic data (body length, weight), the statistical table is in the supplementary (Table S5), which is not provided. The authors state "different letters mark significant differences" but do not specify the post-hoc test used after ANOVA.
+  - **Required correction** Report degrees of freedom for all F-statistics. Specify the post-hoc test (e.g., Tukey's HSD) and include the full statistical output in the supplementary. For the phenotypic data, provide the table in the main text or ensure it is accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** 20E treatment
+  - **Evidence pointer** Materials and methods section "The expression profiles of HaBRC Z2 and HaCHT4 in H. armigera"
+  - **Issue** The method of 20E administration is described as "treated with 5 µL of 20E (200 ng/µL)". It is unclear whether this is injection, topical application, or feeding. The solvent control is described as "anhydrous ethanol" but the volume is not specified. The authors also mention a "CK" group (presumably untreated), but the exact composition of the control groups is not clear.
+  - **Required correction** Clarify the route of administration (e.g., injection, topical, oral). Specify the volume of ethanol used for the solvent control. Describe the CK group explicitly (e.g., untreated larvae).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The discussion mentions that "in *Ostrinia furnacalis*, group II chitinase gene OfChtII could degrade the cuticular chitin and regulate larval-pupal metamorphosis" and "in *Aedes albopictus*, the structure of the midgut PM was destroyed or even absent after silencing CHS-2." These are relevant examples, but the discussion could be strengthened by more directly comparing the regulatory mechanisms proposed here with those in other systems, particularly regarding the role of BRC isoforms in chitinase regulation.
+  - **Required correction** Expand the discussion to compare the proposed HaBRC Z2-HaCHT4 regulatory axis with known regulatory pathways in other insects, highlighting similarities and differences. This would place the findings in a broader context.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title and Abstract
+  - **Issue** The title states "Broad complex Z2 functions as an upstream 20E-responsive regulator." The word "functions" implies a demonstrated role. Given the preliminary nature of the evidence (as acknowledged in the conclusion), a more cautious phrasing such as "is a candidate upstream regulator" or "may function as" would be more accurate.
+  - **Required correction** Revise the title and abstract to reflect the hypothesis-driven nature of the findings. For example, "Broad complex Z2 is a candidate upstream 20E-responsive regulator of the midgut chitinase gene HaCHT4 in *Helicoverpa armigera*."
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of EMSA specificity controls (competition, mutation, supershift).
+  - R1-M2: No functional validation of the identified BRC Z2 CRE via promoter-reporter assays.
+  - R1-M3: RNAi specificity not fully demonstrated; no midgut-specific expression data post-RNAi.
+  - R1-M4: 20E induction data are limited to a single time point and dose.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The study applies known concepts (20E signaling, BRC transcription factors, chitinase regulation) to a new gene (HaCHT4) in a new species (*H. armigera*). The specific interaction between HaBRC Z2 and HaCHT4 has not been previously reported, but the general paradigm of 20E regulating chitinases via BRC is established in other insects. The work is incremental rather than conceptually novel.
+  - **Scientific importance** Moderate. Understanding the regulation of midgut chitinases is relevant for pest control, but the study does not reveal a fundamentally new mechanism. The findings are a useful addition to the field but are unlikely to change current understanding of molting regulation.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to insect molecular biologists and endocrinologists. The methods and findings are unlikely to attract readers from outside these fields.
+  - **Technical soundness** The individual techniques are standard and appear to be executed correctly, but the key experiments (EMSA, RNAi) lack critical controls and validation. The conclusions are not fully supported by the data as presented.
+  - **Readability for nonspecialists** The manuscript is clearly written and logically structured. The background and discussion are accessible to a broad biological audience, but the methods and results sections assume familiarity with molecular biology techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible hypothesis supported by correlative data, but the central claim of direct regulation is not proven. The authors must address the major concerns, particularly the EMSA specificity and the lack of functional promoter assays, before the case for HaBRC Z2 as a direct upstream regulator of HaCHT4 can be made. The work has potential, but in its current form, it is a preliminary report.
+
+## Risk / unsupported claims
+- The claim that HaBRC Z2 "functions as an upstream 20E-responsive regulator" is not supported by direct evidence. The data show correlation, not causation.
+- The molecular docking prediction of binding affinity (ΔG = -12 kcal/mol) is presented as a selection criterion but is not validated experimentally.
+- The EMSA result is described as "preliminary evidence" but lacks the necessary controls to confirm specific binding.
+- The RNAi experiment shows reduced HaCHT4 expression, but the mechanism (direct vs. indirect) is not established.
+- The 20E induction data are based on a single time point and dose, which is insufficient to establish a robust regulatory response.
+- The genome-wide identification of BTB proteins is presented, but the functional significance of the 1286 bp promoter region and the specific CREs beyond BRC Z2 is not explored.

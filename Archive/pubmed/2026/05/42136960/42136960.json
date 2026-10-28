@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "42136960",
+    "doi": "10.1155/humu/5486574",
+    "title": "Role of Macrophage-Related Genes GAS7 and ZEB2 in Acute Myocardial Infarction Pathogenesis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acute myocardial infarction (AMI) involves complex immune responses and cellular interaction mechanisms. Although the pathogenesis of AMI is now preliminarily understood, there is still a lack of biomarkers that can accurately and rapidly diagnose its disease characteristics. METHODS: This study analyzed single-cell RNA sequencing (scRNA-seq) and bulk RNA-seq data related to AMI from the Gene Expression Omnibus (GEO) database. Data preprocessing and clustering were performed using Seurat, and cell-cell communication was analyzed using CellChat. Functional enrichment was performed using clusterProfiler. Key transcription factors were identified using SCENIC, and module-specific genes associated with macrophages in AMI were identified using high-dimensional weighted gene coexpression network analysis (hdWGCNA). These were combined with WGCNA to identify genes associated with AMI. Molecular docking was then used to predict potential targeted drugs for AMI. In addition, an oxygen-glucose deprivation (OGD)-induced AC16 cardiomyocyte model combined with quantitative real-time polymerase chain reaction (qRT-PCR) was used to validate the expression patterns of the key regulators and biomarkers. RESULTS: This study identified six cell types in AMI, including adipocytes, cardiomyocytes, endothelial cells, fibroblasts, macrophages, and smooth muscle cells. CellChat showed that cell-cell communication intensity was generally enhanced in AMI. hdWGCNA identified the M5 and M8 modules as significantly associated with macrophages. SCENIC analysis found that FOS and ETV6 were important regulatory factors of macrophages. WGCNA screened the brown module as significantly associated with AMI, enriched in immune and inflammatory response pathways. The final integration of all analysis results identified GAS7 and ZEB2 as potential biomarkers for AMI, and receiver operating characteristic (ROC) curves validated the good diagnostic performance of the two genes for AMI. Furthermore, qRT-PCR in an OGD-induced AC16 cardiomyocyte model confirmed the upregulation of FOS, ETV6, GAS7, and ZEB2, consistent with the transcriptomic findings. Molecular docking indicated that GAS7 has a good binding affinity with sulforaphane. CONCLUSION: This study revealed the cellular communication characteristics in the pathogenesis of AMI and identified GAS7 and ZEB2 as potential biomarkers for AMI based on macrophage characteristics. It also elucidated their targeted therapeutic drugs, providing new insights into the mechanism and treatment of AMI.",
+    "keywords": [
+      "acute myocardial infarction",
+      "diagnosis",
+      "high-dimensional weighted gene coexpression network analysis",
+      "macrophages",
+      "molecular docking",
+      "single-cell transcriptomics analysis"
+    ],
+    "mesh_terms": [
+      "*Macrophages/metabolism",
+      "*Myocardial Infarction/genetics/metabolism/pathology/etiology",
+      "Humans",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Biomarkers/metabolism",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation",
+      "Single-Cell Gene Expression Analysis",
+      "Repressor Proteins/genetics/metabolism",
+      "Cell Communication/genetics",
+      "Animals",
+      "Computational Biology/methods",
+      "Myocytes, Cardiac/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zhenfang",
+        "Song, Jia",
+        "Li, Lingling",
+        "Fan, Ziyin",
+        "Xie, Genyuan",
+        "Yang, Li"
+      ],
+      "short_names": [
+        "Liu Z",
+        "Song J",
+        "Li L",
+        "Fan Z",
+        "Xie G",
+        "Yang L"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-2536-8587",
+        "ORCID: 0009-0008-8398-133X",
+        "ORCID: 0009-0007-6472-0436",
+        "ORCID: 0009-0005-0702-5264",
+        "ORCID: 0009-0007-5503-0310",
+        "ORCID: 0000-0001-6410-5715"
+      ],
+      "affiliations": [
+        "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn.",
+        "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn.",
+        "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn.",
+        "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn.",
+        "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn.",
+        "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zhenfang",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0009-0001-2536-8587"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Jia",
+        "short_name": "Song J",
+        "identifiers": [
+          "0009-0008-8398-133X"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Lingling",
+        "short_name": "Li L",
+        "identifiers": [
+          "0009-0007-6472-0436"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fan, Ziyin",
+        "short_name": "Fan Z",
+        "identifiers": [
+          "0009-0005-0702-5264"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xie, Genyuan",
+        "short_name": "Xie G",
+        "identifiers": [
+          "0009-0007-5503-0310"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Li",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0000-0001-6410-5715"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Affiliated Zhuzhou Hospital Xiangya Medical College, Central South University, Zhuzhou, China, csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human mutation"
+    ],
+    "journal_abbrev": [
+      "Hum Mutat"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/15 06:29",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39998096",
+      "39592734",
+      "39216681",
+      "38537874",
+      "37724944",
+      "37329707",
+      "37161563",
+      "37108268",
+      "37067753",
+      "37009192",
+      "36950739",
+      "36927608",
+      "36221095",
+      "35837272",
+      "35430895",
+      "35306921",
+      "35256941",
+      "33597522",
+      "33398012",
+      "33193420",
+      "32600176",
+      "31841135",
+      "31416350",
+      "31178118",
+      "30582448",
+      "29330085",
+      "28991892",
+      "28923981",
+      "28895026",
+      "27663637",
+      "26210152",
+      "24501331",
+      "24439267",
+      "23054911",
+      "22455463",
+      "20401516",
+      "19778261",
+      "19114008"
+    ],
+    "similar": [
+      "42136960",
+      "40619072",
+      "40933471",
+      "41031145",
+      "39308815",
+      "39086489",
+      "41863100",
+      "41583468",
+      "39103773",
+      "40251588",
+      "42210330",
+      "40750734",
+      "42255489",
+      "40861421",
+      "35764238",
+      "35864510",
+      "42051519",
+      "39552895",
+      "42391245",
+      "40467768",
+      "41388523",
+      "37908757",
+      "42568110",
+      "41204556",
+      "40133574",
+      "40704466",
+      "40174368",
+      "41949600",
+      "41052072",
+      "42098867",
+      "35592331",
+      "41459671",
+      "40760666",
+      "41242266",
+      "40503237",
+      "41593799",
+      "40685440",
+      "40711603",
+      "33563285",
+      "39067546",
+      "40525338",
+      "42530267",
+      "42265520",
+      "40727388",
+      "39762897",
+      "42040898",
+      "36532015",
+      "42278407",
+      "42059276",
+      "42516950",
+      "42024670",
+      "36440001",
+      "40442788",
+      "40340571",
+      "40181401",
+      "41221285",
+      "42309401",
+      "40738705",
+      "40692979",
+      "42471019",
+      "41350331",
+      "42404762",
+      "40764361",
+      "37936458",
+      "42310773",
+      "41195292",
+      "41768570",
+      "42573649",
+      "40406126",
+      "39893187",
+      "41913032",
+      "39923303",
+      "35757636",
+      "39809140",
+      "36438903",
+      "38987688",
+      "38650009",
+      "40269003",
+      "42135635",
+      "42509823",
+      "41570454",
+      "41126414",
+      "41316541",
+      "30683112",
+      "40782973",
+      "37597790",
+      "38664790",
+      "42460150",
+      "42015036",
+      "41706425",
+      "42120472",
+      "42123445",
+      "35231061",
+      "40216809",
+      "42650150",
+      "39206896",
+      "42510881",
+      "40362275",
+      "41816328",
+      "40263537"
+    ],
+    "review": [
+      "42136960",
+      "40467768"
+    ],
+    "pmc": [
+      "13168794"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42136960/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1155/humu/5486574",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ZEB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

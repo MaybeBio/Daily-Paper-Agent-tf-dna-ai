@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "38233686",
+    "doi": "10.1007/s12035-024-03923-0",
+    "title": "Key Genes in Olfactory Disorder in Experimental Autoimmune Encephalomyelitis Identified by Transcriptomic Analysis of the Olfactory Bulbs."
+  },
+  "content": {
+    "abstract": "Experimental autoimmune encephalomyelitis (EAE) is an animal model of multiple sclerosis that shows demyelination in the central nervous system and functional deficits, including olfactory impairment. However, the genes related to olfactory impairment in EAE are unknown. We evaluated hub genes of the olfactory bulb in EAE mice. Differentially expressed genes (cut-offs, fold change > 2 and adjusted p < 0.05) and their related pathways in olfactory bulbs were subjected to gene ontology (GO) pathway analysis, gene set enrichment analysis (GSEA). Protein-protein interactions with selected genes were evaluated using the Search Tool for the Retrieval of Interacting Genes/Proteins. Gene regulatory networks (GRNs) which were constructed at the post-transcriptional level, including the genes-transcription factors (TFs) and gene-microRNAs (miRNAs) interaction networks. Twelve hub genes were found, three of which (Ctss, Itgb2, and Tlr2) were validated by RT-qPCR to be related to GO pathways such as immune response and regulation of immune response. GSEA showed that neuron-related genes-including Atp6v1g2, Egr1, and Gap43-and their pathways were significantly downregulated. GRNs analysis of six genes (Ctss, Itgb2, Tlr2, Atp6v1g2, Egr1, and Gap43) revealed 37 TFs and 84 miRNAs were identified as potential regulators of six genes, indicating significant interaction among six genes, TFs, and miRNAs. Collectively, these results suggest that transcriptomic analysis of the olfactory bulb of EAE mice can provide insight into olfactory dysfunction and reveal therapeutic targets for olfactory impairment.",
+    "keywords": [
+      "Experimental autoimmune encephalomyelitis",
+      "Neurogenesis",
+      "Olfactory bulb, Olfactory impairment",
+      "RNA-seq"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Encephalomyelitis, Autoimmune, Experimental/genetics/pathology/metabolism",
+      "*Olfactory Bulb/metabolism",
+      "*Gene Expression Profiling",
+      "*Gene Regulatory Networks",
+      "Female",
+      "*Mice, Inbred C57BL",
+      "Transcriptome/genetics",
+      "Olfaction Disorders/genetics",
+      "Mice",
+      "MicroRNAs/genetics/metabolism",
+      "Gene Ontology",
+      "Protein Interaction Maps/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Sungmoo",
+        "Kim, Jeongtae",
+        "Ahn, Meejung",
+        "Jung, Kyungsook",
+        "Moon, Changjong",
+        "Ahn, Changhwan",
+        "Sanchez-Quinteiro, Pablo",
+        "Shin, Taekyun"
+      ],
+      "short_names": [
+        "Hong S",
+        "Kim J",
+        "Ahn M",
+        "Jung K",
+        "Moon C",
+        "Ahn C",
+        "Sanchez-Quinteiro P",
+        "Shin T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9851-4354"
+      ],
+      "affiliations": [
+        "College of Veterinary Medicine and Veterinary Medical Research Institute, Jeju National University, 102 Jejudaehakno, Jeju, 63243, Republic of Korea.",
+        "Department of Anatomy, Kosin University College of Medicine, Busan, 49267, Republic of Korea.",
+        "Department of Animal Science, College of Life Science, Sangji University, Wonju, 26339, Republic of Korea.",
+        "Functional Biomaterials Research Center, Korea Research Institute of Bioscience and Biotechnology, Jeongeup, 56212, Republic of Korea.",
+        "Department of Veterinary Anatomy and Animal Behavior, College of Veterinary Medicine and BK21 Plus Project Team, Chonnam National University, Gwangju, 61186, Republic of Korea.",
+        "College of Veterinary Medicine and Veterinary Medical Research Institute, Jeju National University, 102 Jejudaehakno, Jeju, 63243, Republic of Korea.",
+        "Department of Anatomy, Animal Production and Clinical Veterinary Sciences, Faculty of Veterinary, University of Santiago de Compostela, Lugo, Spain.",
+        "College of Veterinary Medicine and Veterinary Medical Research Institute, Jeju National University, 102 Jejudaehakno, Jeju, 63243, Republic of Korea. shint@jejunu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Sungmoo",
+        "short_name": "Hong S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine and Veterinary Medical Research Institute, Jeju National University, 102 Jejudaehakno, Jeju, 63243, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Jeongtae",
+        "short_name": "Kim J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Kosin University College of Medicine, Busan, 49267, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ahn, Meejung",
+        "short_name": "Ahn M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Science, College of Life Science, Sangji University, Wonju, 26339, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jung, Kyungsook",
+        "short_name": "Jung K",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Biomaterials Research Center, Korea Research Institute of Bioscience and Biotechnology, Jeongeup, 56212, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Moon, Changjong",
+        "short_name": "Moon C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Veterinary Anatomy and Animal Behavior, College of Veterinary Medicine and BK21 Plus Project Team, Chonnam National University, Gwangju, 61186, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ahn, Changhwan",
+        "short_name": "Ahn C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine and Veterinary Medical Research Institute, Jeju National University, 102 Jejudaehakno, Jeju, 63243, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Sanchez-Quinteiro, Pablo",
+        "short_name": "Sanchez-Quinteiro P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Animal Production and Clinical Veterinary Sciences, Faculty of Veterinary, University of Santiago de Compostela, Lugo, Spain."
+        ]
+      },
+      {
+        "full_name": "Shin, Taekyun",
+        "short_name": "Shin T",
+        "identifiers": [
+          "0000-0002-9851-4354"
+        ],
+        "affiliations": [
+          "College of Veterinary Medicine and Veterinary Medical Research Institute, Jeju National University, 102 Jejudaehakno, Jeju, 63243, Republic of Korea. shint@jejunu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular neurobiology"
+    ],
+    "journal_abbrev": [
+      "Mol Neurobiol"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/18 00:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "40405544",
+      "40057769"
+    ],
+    "refs": [
+      "37347873",
+      "36934558",
+      "36915078",
+      "36708632",
+      "35278479",
+      "35121245",
+      "33994932",
+      "33237311",
+      "32979467",
+      "32529488",
+      "32461378",
+      "31882993",
+      "31734400",
+      "31504780",
+      "31040362",
+      "30931480",
+      "30853826",
+      "30677061",
+      "30536626",
+      "29557516",
+      "29312937",
+      "29156006",
+      "28861715",
+      "28844788",
+      "28597915",
+      "26349986",
+      "25521941",
+      "25516281",
+      "25058159",
+      "25047369",
+      "23094201",
+      "22796602",
+      "22612741",
+      "22388286",
+      "22272099",
+      "22056384",
+      "21743881",
+      "21439785",
+      "19046351",
+      "18957408",
+      "16306048",
+      "16199517",
+      "15950153",
+      "15829641",
+      "15177056",
+      "14999405",
+      "14597658",
+      "9023877",
+      "8598390",
+      "7860712",
+      "1968349"
+    ],
+    "similar": [
+      "38233686",
+      "36499161",
+      "32529488",
+      "38663633",
+      "29557516",
+      "33046105",
+      "30853826",
+      "38873601",
+      "26674874",
+      "37808551",
+      "30602391",
+      "30194392",
+      "34722763",
+      "38062833",
+      "33072080",
+      "37427716",
+      "35757392",
+      "38268224",
+      "34394104",
+      "30107230",
+      "36899621",
+      "34373754",
+      "23928746",
+      "33193074",
+      "24475162",
+      "31718280",
+      "26141738",
+      "19915720",
+      "31875420",
+      "23335001",
+      "33927789",
+      "31729981",
+      "27355629",
+      "31553078",
+      "27956064",
+      "37878219",
+      "30972735",
+      "37250717",
+      "22056384",
+      "35819635",
+      "28456941",
+      "38919616",
+      "23139791",
+      "34611127",
+      "38736878",
+      "23514736",
+      "33299863",
+      "33868265",
+      "23900079",
+      "30138363",
+      "38863714",
+      "25183005",
+      "31428926",
+      "34183017",
+      "31987036",
+      "30268144",
+      "33815654",
+      "38796967",
+      "33932995",
+      "32626985",
+      "34867824",
+      "27423192",
+      "30825595",
+      "28100738",
+      "30208760",
+      "38485036",
+      "25972178",
+      "11571211",
+      "33971906",
+      "33564686",
+      "36793717",
+      "37063926",
+      "29850522",
+      "31081218",
+      "27609283",
+      "31026283",
+      "31621692",
+      "15138306",
+      "35877019",
+      "37382793",
+      "32481304",
+      "33013847",
+      "12146799",
+      "29518786",
+      "37187004",
+      "33204705",
+      "33912166",
+      "33391457",
+      "38957433",
+      "27581464",
+      "38839916",
+      "34639162",
+      "34553293",
+      "23525227",
+      "32811479",
+      "24683189",
+      "34207166",
+      "39125691",
+      "39062794",
+      "38733741"
+    ],
+    "review": [
+      "38233686",
+      "24475162"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12035-024-03923-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4042",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

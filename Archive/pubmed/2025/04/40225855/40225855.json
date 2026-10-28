@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "40225855",
+    "doi": "10.7150/ijms.105193",
+    "title": "In Silico Identification of ANKRD22 as a Theragnostic Target for Pancreatic Cancer and Fostamatinib's Therapeutic Potential."
+  },
+  "content": {
+    "abstract": "Pancreatic cancer (PC) is one of the most tremendously malignant cancers with a poor prognosis, especially when it advances to metastasis. Besides, PC patients have encountered resistance to recent therapeutic approaches. In recent work, we effectively determined ANKRD22 by re-analyzing RNA-seq datasets from cell lines and human tissues deriving from PC. We demonstrated that ANKRD22 expression was remarkably high in the PC group compared to the normal group at both gene expression and protein levels. ANKRD22 resulted in a worse overall survival (OS) rate of PC patients (HR = 1.7, p = 0.0082). Intriguingly, ANKRD22 was statistically highly expressed in the mutated KRAS group relative to the wildtype group (p < 0.05). Similarly, compared to the wildtype TP53, in the mutated TP53, ANKRD22 also significantly expressed (p < 0.05); their concurrent expression, ANKRD22 and KRAS; ANKRD22 and TP53 exacerbated the survival outcome relative to the co-expression of low ANKRD22 and unaltered genes (p < 0.001; HR > 2.6). We explored the potential pathways and biological processes ANKRD22 might not only contribute to promoting PC, including cell-cycle regulation, E2F1 targets, and apoptosis but also foster the dissemination of PC by involve in invasion and migration processes. In the investigation of drugs that might target ANKRD22, we figured out fostamatinib. Molecular docking and molecular dynamic simulation (MDs) techniques provided extensive insights into the binding mode of ANKRD22 and fostamatinib. ANKRD22 exhibited strong binding affinity (DeltaG = -7.0 kcal/mol in molecular docking and ∆G(bind) = -38.66 +/- 6.09 kcal/mol in MDs). Taken together, ANKRD22 could be a promising theragnostic target that might be inhibited by fostamatinib, thereby suppressing PC growth.",
+    "keywords": [
+      "ANKRD22",
+      "KRAS",
+      "bioinformatics",
+      "fostamatinib",
+      "pancreatic cancer (PC)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/genetics/drug therapy/mortality/pathology",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Prognosis",
+      "Tumor Suppressor Protein p53/genetics",
+      "Computer Simulation",
+      "Cell Proliferation/drug effects",
+      "Proto-Oncogene Proteins p21(ras)/genetics",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Mutation",
+      "Molecular Docking Simulation",
+      "Apoptosis/drug effects",
+      "Aminopyridines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huynh, Huong Thi Luu Kim",
+        "Lim, Hendrick Gao-Min",
+        "Lee, Yuan-Chii Gladys",
+        "Phan, Thien-Vy",
+        "Vo, Thanh-Hoa",
+        "Chen, Chien-Hsin",
+        "Wu, Alexander T H"
+      ],
+      "short_names": [
+        "Huynh HTLK",
+        "Lim HG",
+        "Lee YG",
+        "Phan TV",
+        "Vo TH",
+        "Chen CH",
+        "Wu ATH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "International PhD Program for Translational Science, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Graduate Institute of Biomedical Informatics, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Department of Medical Research, Tzu Chi Hospital Indonesia, Pantai Indah Kapuk, Greater Jakarta, Indonesia 14470.",
+        "Graduate Institute of Biomedical Informatics, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Department of Pharmacy, Nguyen Tat Thanh University, Ho Chi Minh City 700000, Vietnam.",
+        "University of Health Sciences, Vietnam National University Ho Chi Minh City, Ho Chi Minh City 700000, Vietnam.",
+        "Department of Surgery, College of Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Department of Colorectal Surgery, Wan Fang Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+        "International PhD Program for Translational Science, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Graduate Institute of Biomedical Informatics, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "TMU Research Center of Cancer Translational Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+        "The PhD Program of Translational Medicine, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 114, Taiwan.",
+        "Taipei Heart Institute (THI), Taipei Medical University, Taipei, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huynh, Huong Thi Luu Kim",
+        "short_name": "Huynh HTLK",
+        "identifiers": [],
+        "affiliations": [
+          "International PhD Program for Translational Science, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lim, Hendrick Gao-Min",
+        "short_name": "Lim HG",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Informatics, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Department of Medical Research, Tzu Chi Hospital Indonesia, Pantai Indah Kapuk, Greater Jakarta, Indonesia 14470."
+        ]
+      },
+      {
+        "full_name": "Lee, Yuan-Chii Gladys",
+        "short_name": "Lee YG",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Informatics, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Phan, Thien-Vy",
+        "short_name": "Phan TV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Nguyen Tat Thanh University, Ho Chi Minh City 700000, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Vo, Thanh-Hoa",
+        "short_name": "Vo TH",
+        "identifiers": [],
+        "affiliations": [
+          "University of Health Sciences, Vietnam National University Ho Chi Minh City, Ho Chi Minh City 700000, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Chen, Chien-Hsin",
+        "short_name": "Chen CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, College of Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Department of Colorectal Surgery, Wan Fang Hospital, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wu, Alexander T H",
+        "short_name": "Wu ATH",
+        "identifiers": [],
+        "affiliations": [
+          "International PhD Program for Translational Science, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Graduate Institute of Biomedical Informatics, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "TMU Research Center of Cancer Translational Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+          "The PhD Program of Translational Medicine, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 114, Taiwan.",
+          "Taipei Heart Institute (THI), Taipei Medical University, Taipei, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of medical sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Med Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/14 17:28",
+    "fetched_at": "2026-09-30 15:57:52"
+  },
+  "links": {
+    "cites": [
+      "41583520",
+      "41373733"
+    ],
+    "refs": [
+      "38867732",
+      "37668528",
+      "37356903",
+      "37306759",
+      "37164633",
+      "36719790",
+      "36384875",
+      "36305812",
+      "35064112",
+      "35031934",
+      "34959438",
+      "34348759",
+      "34265844",
+      "34217895",
+      "33946869",
+      "33689705",
+      "33433946",
+      "32977582",
+      "32808340",
+      "32442275",
+      "32297835",
+      "31903135",
+      "31516611",
+      "31244000",
+      "31043589",
+      "30487695",
+      "30398643",
+      "30310233",
+      "30236283",
+      "30060755",
+      "29695914",
+      "29436617",
+      "29288237",
+      "29229669",
+      "29126136",
+      "28967793",
+      "28667340",
+      "28407145",
+      "28187288",
+      "28092686",
+      "27956793",
+      "27696296",
+      "27137889",
+      "26827606",
+      "26590256",
+      "26205061",
+      "25751142",
+      "25613900",
+      "25207767",
+      "25069573",
+      "24695404",
+      "24678666",
+      "24485249",
+      "24336805",
+      "24227677",
+      "24071849",
+      "24061923",
+      "21541964",
+      "20401516",
+      "17212484",
+      "16211538",
+      "16199517",
+      "12213582",
+      "11752295",
+      "8744570"
+    ],
+    "similar": [
+      "40225855",
+      "28198009",
+      "31399545",
+      "39487387",
+      "34319912",
+      "31562613",
+      "30565085",
+      "39635962",
+      "28667340",
+      "39954354",
+      "39259678",
+      "30913453",
+      "34346253",
+      "30716311",
+      "32771045",
+      "39671783",
+      "29328401",
+      "34359836",
+      "32193808",
+      "30575903",
+      "39626942",
+      "34660806",
+      "40013338",
+      "34792696",
+      "33347393",
+      "33316775",
+      "40175514",
+      "39094824",
+      "24289472",
+      "26683776",
+      "35477123",
+      "34663879",
+      "32743640",
+      "32360551",
+      "34299137",
+      "39154969",
+      "26735353",
+      "31450091",
+      "28099251",
+      "32372692",
+      "35701533",
+      "32929371",
+      "30069972",
+      "23558076",
+      "37164633",
+      "31724333",
+      "28701723",
+      "38702822",
+      "37451658",
+      "28121262",
+      "34322786",
+      "39696052",
+      "31693252",
+      "25127677",
+      "34558641",
+      "31694133",
+      "34279685",
+      "29199014",
+      "38697284",
+      "24717934",
+      "32655498",
+      "39875873",
+      "21289082",
+      "38708441",
+      "30542730",
+      "32891166",
+      "35457111",
+      "24264800",
+      "39953720",
+      "38762741",
+      "32779876",
+      "39844327",
+      "40262101",
+      "32614932",
+      "32768595",
+      "31999789",
+      "33144687",
+      "30975481",
+      "39531951",
+      "31531884",
+      "33744388",
+      "24196616",
+      "31719050",
+      "33788731",
+      "29059158",
+      "31352001",
+      "32017404",
+      "33804148",
+      "25683115",
+      "31078621",
+      "27470572",
+      "29098284",
+      "39113608",
+      "40121292",
+      "30197477",
+      "30223034",
+      "32314446",
+      "21364589",
+      "40146324",
+      "27991926"
+    ],
+    "review": [
+      "40225855",
+      "33347393",
+      "26735353",
+      "32372692",
+      "29199014",
+      "38708441",
+      "24196616"
+    ],
+    "pmc": [
+      "11983316"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40225855/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medsci.org/v22p1885.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

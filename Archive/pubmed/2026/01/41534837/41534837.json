@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "41534837",
+    "doi": "10.1016/j.jbc.2026.111155",
+    "title": "HMGB1 binds to and disrupts the hairpin structure of RNA15 and inhibits toll-like receptor activation."
+  },
+  "content": {
+    "abstract": "Toll-like receptor 13 (TLR13) is a critical innate immune sensor that recognizes a conserved RNA sequence, RNA15 (2054-2068, ACG GAA AGA CCC CGU), within bacterial 23S rRNA, thereby initiating a proinflammatory response. While the alarmin high mobility group box 1 (HMGB1) is known to modulate various TLR pathways, its influence on TLR13 signaling has remained unexplored. Here, we reveal that HMGB1 directly binds RNA15 with high affinity and profoundly disrupts its hairpin structure, which is essential for TLR13 recognition. Using a combination of fluorescence anisotropy, FRET assays, NMR spectroscopy, and enhanced-sampling molecular dynamics simulations, we demonstrate that HMGB1 binding remodels RNA15 into a stem-open conformation, making it thermodynamically unfavorable for receptor activation. Functionally, HMGB1 significantly inhibits RNA15-induced TLR13 activation, leading to a dose-dependent reduction in inflammatory mediators. These findings uncover a novel \"ligand remodeling\" mechanism, whereby HMGB1 acts as a negative regulator of TLR13 signaling by structurally altering the RNA ligand rather than directly blocking the receptor. This work provides new insights into host-pathogen interactions and suggests important implications for the design and immunogenicity of RNA-based therapeutics and vaccines.",
+    "keywords": [
+      "RNA",
+      "Toll-like receptor 13",
+      "high mobility group box 1",
+      "receptor activation",
+      "remodeling"
+    ],
+    "mesh_terms": [
+      "*HMGB1 Protein/metabolism/chemistry",
+      "Animals",
+      "*Toll-Like Receptors/metabolism/antagonists & inhibitors",
+      "Nucleic Acid Conformation",
+      "Humans",
+      "Mice",
+      "Protein Binding",
+      "Molecular Dynamics Simulation",
+      "*RNA/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Cong",
+        "Li, Penghui",
+        "Savitskaya, Anna G",
+        "Lyukmanova, Ekaterina",
+        "Goncharuk, Sergey A",
+        "Mineev, Konstantin S",
+        "Du, Xiubo",
+        "Wang, Yibo",
+        "Wang, Xiaohui"
+      ],
+      "short_names": [
+        "Lin C",
+        "Li P",
+        "Savitskaya AG",
+        "Lyukmanova E",
+        "Goncharuk SA",
+        "Mineev KS",
+        "Du X",
+        "Wang Y",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Interdisciplinary Laboratory for Frontier Chemistry, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, China.",
+        "Shenzhen Key Laboratory of Marine Biotechnology and Ecology, College of Life Sciences & Oceanography, Shenzhen University, Shenzhen, Guangdong, China; Key Laboratory of Optoelectronic Devices and System of Ministry of Education and Guangdong Province, College Physics and Optoelectronic Engineering, Shenzhen University, Shenzhen, Guangdong, China.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow, Russia; Biological Department, Shenzhen MSU-BIT University, Shenzhen, Guangdong, China.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow, Russia.",
+        "Shenzhen Key Laboratory of Marine Biotechnology and Ecology, College of Life Sciences & Oceanography, Shenzhen University, Shenzhen, Guangdong, China.",
+        "Interdisciplinary Laboratory for Frontier Chemistry, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, China. Electronic address: yibo.wang@ciac.ac.cn.",
+        "Interdisciplinary Laboratory for Frontier Chemistry, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, China; School of Applied Chemistry and Engineering, University of Science and Technology of China, Hefei, Anhui, China. Electronic address: xiaohui.wang@ciac.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Cong",
+        "short_name": "Lin C",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Laboratory for Frontier Chemistry, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Penghui",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Key Laboratory of Marine Biotechnology and Ecology, College of Life Sciences & Oceanography, Shenzhen University, Shenzhen, Guangdong, China; Key Laboratory of Optoelectronic Devices and System of Ministry of Education and Guangdong Province, College Physics and Optoelectronic Engineering, Shenzhen University, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Savitskaya, Anna G",
+        "short_name": "Savitskaya AG",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Lyukmanova, Ekaterina",
+        "short_name": "Lyukmanova E",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow, Russia; Biological Department, Shenzhen MSU-BIT University, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Goncharuk, Sergey A",
+        "short_name": "Goncharuk SA",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Mineev, Konstantin S",
+        "short_name": "Mineev KS",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Du, Xiubo",
+        "short_name": "Du X",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Key Laboratory of Marine Biotechnology and Ecology, College of Life Sciences & Oceanography, Shenzhen University, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yibo",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Laboratory for Frontier Chemistry, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, China. Electronic address: yibo.wang@ciac.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaohui",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Laboratory for Frontier Chemistry, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, China; School of Applied Chemistry and Engineering, University of Science and Technology of China, Hefei, Anhui, China. Electronic address: xiaohui.wang@ciac.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/15 16:13",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39938739",
+      "37667233",
+      "34557761",
+      "34272507",
+      "32747536",
+      "32265930",
+      "31363226",
+      "29768176",
+      "28600980",
+      "27503996",
+      "27298395",
+      "26609854",
+      "26323037",
+      "25559892",
+      "24323314",
+      "23341755",
+      "23110254",
+      "22896636",
+      "22821982",
+      "21871094",
+      "21709231",
+      "20496934",
+      "20303872",
+      "18354232",
+      "18351591",
+      "18232845",
+      "17548579",
+      "17201926",
+      "16222654",
+      "15251426",
+      "11500360",
+      "8768072",
+      "8439568",
+      "2200521"
+    ],
+    "similar": [
+      "41534837",
+      "39938739",
+      "30238832",
+      "26323037",
+      "20547845",
+      "26676765",
+      "14660645",
+      "23206318",
+      "22076468",
+      "32841623",
+      "25225249",
+      "20007974",
+      "30679086",
+      "23954397",
+      "39391311",
+      "24244627",
+      "27760316",
+      "29305335",
+      "24094148",
+      "22396017",
+      "33545626",
+      "16267105",
+      "24255918",
+      "19487701",
+      "33479829",
+      "22634181",
+      "26180239",
+      "21414994",
+      "23576640",
+      "23110254",
+      "32209688",
+      "23844129",
+      "34415075",
+      "19143470",
+      "23508573",
+      "25452436",
+      "30273982",
+      "25375408",
+      "21585289",
+      "31739216",
+      "22821982",
+      "30986405",
+      "19794402",
+      "30865333",
+      "35505407",
+      "29922279",
+      "37485845",
+      "18598385",
+      "20671243",
+      "28551086",
+      "30401529",
+      "25756897",
+      "24935761",
+      "30134799",
+      "41981193",
+      "26367307",
+      "23316104",
+      "21131352",
+      "31731454",
+      "27262996",
+      "26432865",
+      "38159527",
+      "30134807",
+      "26952767",
+      "23523633",
+      "24769733",
+      "27026438",
+      "26167076",
+      "23269975",
+      "34616852",
+      "23403945",
+      "26453003",
+      "25339362",
+      "22429818",
+      "34755645",
+      "18264787",
+      "29676511",
+      "16878026",
+      "28338748",
+      "20535746",
+      "26715748",
+      "32019420",
+      "25660970",
+      "26143914",
+      "24166800",
+      "26202300",
+      "30894054",
+      "21793951",
+      "33193406",
+      "24567328",
+      "22370717",
+      "34271850",
+      "33039954",
+      "41184776",
+      "22962600",
+      "32328059",
+      "18574060",
+      "24937603",
+      "32885364",
+      "26101323"
+    ],
+    "review": [
+      "41534837",
+      "26676765",
+      "23954397",
+      "33479829",
+      "21585289",
+      "19794402",
+      "18598385",
+      "24935761",
+      "31731454",
+      "27262996"
+    ],
+    "pmc": [
+      "12887398"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(26)00025-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41534837/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3449",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40074747",
+  "title": "Conformational ensembles for protein structure prediction.",
+  "authors": "Yang, Jiaan; Cheng, Wen Xiang; Zhang, Peng; Wu, Gang; Sheng, Si Tong; Yang, Junjie; Zhao, Suwen; Hu, Qiyue; Ji, Wenxin; Shi, Qiong",
+  "journal": "Scientific reports",
+  "published_date": "2025-03-13",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出FiveFold方法预测蛋白质多构象集合，虽涉及蛋白结构预测与构象系综，但未聚焦蛋白质-DNA互作或TF-DNA结合体系，方法可迁移性有限，仅部分相关。",
+  "abstract": "Acquisition of conformational ensembles for a protein is a challenging task, which is actually involving to the solution for protein folding problem and the study of intrinsically disordered protein. Despite AlphaFold with artificial intelligence acquired unprecedented accuracy to predict structures, its result is limited to a single state of conformation and it cannot provide multiple conformations to display protein intrinsic disorder. To overcome the barrier, a FiveFold approach was developed with a single sequence method. It applied the protein folding shape code (PFSC) uniformly to expose local folds of five amino acid residues, formed the protein folding variation matrix (PFVM) to reveal local folding variations along sequence, obtained a massive number of folding conformations in PFSC strings, and then an ensemble of multiple conformational protein structures is constructed. The P53_HUMAN as a well-known protein and LEF1_HUMAN and Q8GT36_SPIOL as typical disordered proteins are token as the benchmark to evaluate the predicted outcomes. The results demonstrated an effective algorithm and biological meaningful process well to predict protein multiple conformation structures.",
+  "abstract_zh": "获取蛋白质的构象集合是一项具有挑战性的任务，这实际上涉及蛋白质折叠问题的解决以及固有无序蛋白的研究。尽管采用人工智能的AlphaFold在预测结构方面取得了前所未有的准确性，但其结果仅限于单一构象状态，无法提供多种构象来展示蛋白质的内在无序性。为克服这一障碍，开发了一种采用单序列方法的FiveFold方法。它统一应用蛋白质折叠形状码（PFSC）来暴露五个氨基酸残基的局部折叠，形成蛋白质折叠变异矩阵（PFVM）以揭示沿序列的局部折叠变异，在PFSC字符串中获得大量折叠构象，然后构建多个构象蛋白质结构的集合。以众所周知的P53_HUMAN以及典型的无序蛋白LEF1_HUMAN和Q8GT36_SPIOL作为基准来评估预测结果。结果表明，该算法有效且过程具有生物学意义，能够很好地预测蛋白质的多构象结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40074747/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40074747/",
+  "paper_page_path": "papers/pubmed/40074747/index.html"
+}

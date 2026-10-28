@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "38443855",
+    "doi": "10.1186/s12890-024-02921-1",
+    "title": "Identification of biomarkers and pathways for the SARS-CoV-2 infections in obstructive sleep apnea patients based on machine learning and proteomic analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The prevalence of obstructive sleep apnea (OSA) was found to be higher in individuals following COVID-19 infection. However, the intricate mechanisms that underscore this concomitance remain partially elucidated. The aim of this study was to delve deeper into the molecular mechanisms that underpin this comorbidity. METHODS: We acquired gene expression profiles for COVID-19 (GSE157103) and OSA (GSE75097) from the Gene Expression Omnibus (GEO) database. Upon identifying shared feature genes between OSA and COVID-19 utilizing LASSO, Random forest and Support vector machines algorithms, we advanced to functional annotation, analysis of protein-protein interaction networks, module construction, and identification of pivotal genes. Furthermore, we established regulatory networks encompassing transcription factor (TF)-gene and TF-miRNA interactions, and searched for promising drug targets. Subsequently, the expression levels of pivotal genes were validated through proteomics data from COVID-19 cases. RESULTS: Fourteen feature genes shared between OSA and COVID-19 were selected for further investigation. Through functional annotation, it was indicated that metabolic pathways play a role in the pathogenesis of both disorders. Subsequently, employing the cytoHubba plugin, ten hub genes were recognized, namely TP53, CCND1, MDM2, RB1, HIF1A, EP300, STAT3, CDK2, HSP90AA1, and PPARG. The finding of proteomics unveiled a substantial augmentation in the expression level of HSP90AA1 in COVID-19 patient samples, especially in severe conditions. CONCLUSIONS: Our investigation illuminate a mutual pathogenic mechanism that underlies both OSA and COVID-19, which may provide novel perspectives for future investigations into the underlying mechanisms.",
+    "keywords": [
+      "COVID-19",
+      "Feature genes",
+      "Hub genes",
+      "Obstructive sleep apnea",
+      "Pathogenesis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Proteomics",
+      "*COVID-19",
+      "SARS-CoV-2",
+      "Biomarkers",
+      "Machine Learning",
+      "*Sleep Apnea, Obstructive/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Hong",
+        "Yan, Jisong",
+        "Gong, Rui",
+        "Zhang, Dingyu",
+        "Zhou, Xia",
+        "Wang, Xianguang"
+      ],
+      "short_names": [
+        "Luo H",
+        "Yan J",
+        "Gong R",
+        "Zhang D",
+        "Zhou X",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Tuberculosis and Respiratory, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Tuberculosis and Respiratory, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Division of Life Sciences and Medicine, The First Affiliated Hospital of USTC, University of Science and Technology of China (USTC), Hefei, Anhui, China.",
+        "Division of Life Sciences and Medicine, The First Affiliated Hospital of USTC, University of Science and Technology of China (USTC), Hefei, Anhui, China.",
+        "Center for Translational Medicine, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology (HUST), Wuhan, Hubei, China.",
+        "Department of Critical Care Medicine, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology (HUST), Wuhan, Hubei, China.",
+        "Department of Tuberculosis and Respiratory, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. 2020jy0009@hust.edu.cn.",
+        "Hubei Clinical Research Center for Infectious Diseases, Wuhan, China. 2020jy0009@hust.edu.cn.",
+        "Wuhan Research Center for Communicable Disease Diagnosis and Treatment, Chinese Academy of Medical Sciences, Wuhan, China. 2020jy0009@hust.edu.cn.",
+        "Joint Laboratory of Infectious Diseases and Health, Wuhan Institute of Virology and Wuhan Jinyintan Hospital, Chinese Academy of Sciences, Wuhan, China. 2020jy0009@hust.edu.cn.",
+        "Department of Tuberculosis and Respiratory, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. 2020jy0002@hust.edu.cn.",
+        "Hubei Clinical Research Center for Infectious Diseases, Wuhan, China. 2020jy0002@hust.edu.cn.",
+        "Wuhan Research Center for Communicable Disease Diagnosis and Treatment, Chinese Academy of Medical Sciences, Wuhan, China. 2020jy0002@hust.edu.cn.",
+        "Joint Laboratory of Infectious Diseases and Health, Wuhan Institute of Virology and Wuhan Jinyintan Hospital, Chinese Academy of Sciences, Wuhan, China. 2020jy0002@hust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Hong",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tuberculosis and Respiratory, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Jisong",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tuberculosis and Respiratory, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Rui",
+        "short_name": "Gong R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences and Medicine, The First Affiliated Hospital of USTC, University of Science and Technology of China (USTC), Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dingyu",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences and Medicine, The First Affiliated Hospital of USTC, University of Science and Technology of China (USTC), Hefei, Anhui, China.",
+          "Center for Translational Medicine, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology (HUST), Wuhan, Hubei, China.",
+          "Department of Critical Care Medicine, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology (HUST), Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xia",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tuberculosis and Respiratory, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. 2020jy0009@hust.edu.cn.",
+          "Hubei Clinical Research Center for Infectious Diseases, Wuhan, China. 2020jy0009@hust.edu.cn.",
+          "Wuhan Research Center for Communicable Disease Diagnosis and Treatment, Chinese Academy of Medical Sciences, Wuhan, China. 2020jy0009@hust.edu.cn.",
+          "Joint Laboratory of Infectious Diseases and Health, Wuhan Institute of Virology and Wuhan Jinyintan Hospital, Chinese Academy of Sciences, Wuhan, China. 2020jy0009@hust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Xianguang",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tuberculosis and Respiratory, Wuhan Jinyintan Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. 2020jy0002@hust.edu.cn.",
+          "Hubei Clinical Research Center for Infectious Diseases, Wuhan, China. 2020jy0002@hust.edu.cn.",
+          "Wuhan Research Center for Communicable Disease Diagnosis and Treatment, Chinese Academy of Medical Sciences, Wuhan, China. 2020jy0002@hust.edu.cn.",
+          "Joint Laboratory of Infectious Diseases and Health, Wuhan Institute of Virology and Wuhan Jinyintan Hospital, Chinese Academy of Sciences, Wuhan, China. 2020jy0002@hust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC pulmonary medicine"
+    ],
+    "journal_abbrev": [
+      "BMC Pulm Med"
+    ],
+    "pub_date": "2024 Mar 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/06 00:42",
+    "fetched_at": "2026-09-29 16:31:10"
+  },
+  "links": {
+    "cites": [
+      "42255059",
+      "41754379",
+      "41126309",
+      "40722943",
+      "40540134",
+      "39410993",
+      "39327555"
+    ],
+    "refs": [
+      "37362865",
+      "37047484",
+      "37047343",
+      "36805797",
+      "36717242",
+      "36307763",
+      "35844004",
+      "35670302",
+      "35658573",
+      "35620480",
+      "35563874",
+      "35202626",
+      "35069552",
+      "35027067",
+      "34830418",
+      "34803441",
+      "34791469",
+      "34757409",
+      "34560512",
+      "34408131",
+      "34019476",
+      "33997827",
+      "33947832",
+      "33927728",
+      "33892451",
+      "33596161",
+      "33585804",
+      "33515030",
+      "33505977",
+      "33453000",
+      "33436406",
+      "33422265",
+      "33128875",
+      "33096026",
+      "33037393",
+      "33035337",
+      "32989673",
+      "32980614",
+      "32936698",
+      "32936429",
+      "32691695",
+      "32685484",
+      "32640463",
+      "32588943",
+      "32492406",
+      "32441246",
+      "32356516",
+      "32346093",
+      "32294485",
+      "32286648",
+      "31221957",
+      "30982984",
+      "30811514",
+      "30476243",
+      "29126249",
+      "29126136",
+      "28520763",
+      "28209226",
+      "28004401",
+      "27667582",
+      "27324067",
+      "27184708",
+      "27141961",
+      "27031712",
+      "26424082",
+      "26055465",
+      "25990557",
+      "25822800",
+      "25588755",
+      "25521941",
+      "25155182",
+      "25150938",
+      "24835111",
+      "24657946",
+      "24101519",
+      "23988176",
+      "23535595",
+      "23328524",
+      "23130152",
+      "21813534",
+      "18413499",
+      "17975198",
+      "17351369",
+      "16360030",
+      "14597658",
+      "12525261",
+      "11673405",
+      "11016793",
+      "9027737"
+    ],
+    "similar": [
+      "38443855",
+      "40540134",
+      "38259479",
+      "42537010",
+      "41474729",
+      "38316731",
+      "38077447",
+      "42730994",
+      "36189314",
+      "41420237",
+      "35749386",
+      "35958619",
+      "40736303",
+      "34975885",
+      "38909539",
+      "37213066",
+      "41784220",
+      "39475897",
+      "39252231",
+      "30719767",
+      "37777104",
+      "41082129",
+      "34916831",
+      "41784837",
+      "37426635",
+      "36532040",
+      "41247559",
+      "41530290",
+      "41851819",
+      "33530245",
+      "40600526",
+      "42313509",
+      "35727093",
+      "40948653",
+      "38601162",
+      "39375405",
+      "37189386",
+      "38007161",
+      "37026010",
+      "41052072",
+      "33688499",
+      "40340571",
+      "41112249",
+      "39507054",
+      "40997906",
+      "39709277",
+      "41066424",
+      "40652070",
+      "39060945",
+      "39170609",
+      "38640424",
+      "39804507",
+      "40118992",
+      "39377750",
+      "40383755",
+      "38538269",
+      "41563994",
+      "39965013",
+      "37166330",
+      "28520763",
+      "38878325",
+      "36468038",
+      "39433155",
+      "33847347",
+      "40574839",
+      "35132330",
+      "42694254",
+      "36059456",
+      "37560208",
+      "36389792",
+      "41021591",
+      "33553808",
+      "41221287",
+      "42324483",
+      "34529670",
+      "38267482",
+      "40747360",
+      "37040729",
+      "37789254",
+      "38476500",
+      "37533853",
+      "42363518",
+      "39081807",
+      "39512836",
+      "40313958",
+      "36119022",
+      "38863714",
+      "41820035",
+      "34791469",
+      "41747911",
+      "42327749",
+      "39139563",
+      "37991568",
+      "26636516",
+      "36414950",
+      "35910196",
+      "39142001",
+      "39500239",
+      "40685483",
+      "34880901"
+    ],
+    "review": [
+      "38443855",
+      "41820035"
+    ],
+    "pmc": [
+      "10913609"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcpulmmed.biomedcentral.com/articles/10.1186/s12890-024-02921-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38443855/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38443855",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

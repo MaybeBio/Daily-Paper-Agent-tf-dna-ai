@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a Bayesian Optimization method, Mobius, for optimizing protein-peptide binding within a closed-loop Design-Make-Test pipeline. Using the major histocompatibility complex class I receptor as a test case, they claim efficient navigation of sequence space, achieving optimal binding affinity from a single micromolar lead in fewer than 5 DMT cycles with 96 peptides per batch. They also report evaluation of initialization strategies, molecular fingerprints, and protein language models, and state the method handles variable sequence lengths, scaffolds, and non-standard residues.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, benchmark datasets, baseline comparisons, statistical analyses, and code documentation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to computational peptide design, combining Bayesian optimization with a closed-loop experimental pipeline. However, the evidence provided is insufficient to evaluate the validity, robustness, or generalizability of the claimed performance. Key quantitative results, methodological specifics, and comparisons to existing approaches are absent. The claims of efficiency and optimality cannot be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational protein engineering, peptide therapeutics, and automated experimentation would find this work relevant. The closed-loop DMT approach and the use of Bayesian optimization for sequence design could inform future efforts in directed evolution and rational design, particularly for applications requiring rapid optimization of binding affinity.
+- **Major strengths** The concept of integrating Bayesian optimization into a fully automated closed-loop pipeline is timely and practically relevant. The stated flexibility to handle variable sequence lengths, scaffolds, and non-standard residues suggests broad applicability. Public availability of the source code under an open license is commendable and supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The method "is able to optimize a peptide sequence to its optimal binding affinity in less than 5 DMT cycles, with 96 peptide sequences per batch."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states optimal binding affinity is achieved in fewer than 5 cycles, but no quantitative definition of "optimal" is given, nor are actual affinity values, fold improvements, or comparisons to starting or baseline affinities provided. The claim of optimality is unsupported without a clear reference point or validation against known best binders.
+  - **Why it matters** Without quantitative evidence, the central performance claim cannot be verified. The term "optimal" is ambiguous and may overstate the result if the achieved affinity is not truly the theoretical or experimental maximum for the system.
+  - **Resolution test** Provide measured IC50 or Kd values for the starting lead and final optimized peptides, define the criterion for "optimal" (e.g., reaching a known affinity threshold or plateau), and include statistical replicates or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative benchmarking
+  - **Claim pointer** The method is "extensively evaluated" under various conditions and parameters, and different initialization strategies, fingerprints, and protein language models were tested.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims extensive evaluation but provides no comparative data against alternative optimization methods (e.g., genetic algorithms, directed evolution, or other machine learning approaches). Without baselines, the relative advantage of the proposed BO method is unclear.
+  - **Why it matters** The scientific contribution depends on demonstrating that the method outperforms or complements existing strategies. Absent comparisons, the novelty and practical value cannot be established.
+  - **Resolution test** Include benchmark results against at least one established optimization method, with matched experimental conditions and evaluation metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The method "can natively handle various peptide sequence lengths and scaffolds (e.g. macrocycles) and support any arbitrary non-standard amino acids or residue modifications."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states broad flexibility but provides no experimental or computational evidence that these capabilities were tested. The test case is limited to a single receptor system, and no examples of macrocycles or non-standard residues are shown.
+  - **Why it matters** The claimed generality is a key selling point, but without demonstration, it remains speculative. If the method fails on these cases, the scope of applicability is overstated.
+  - **Resolution test** Provide case studies or simulations demonstrating successful optimization with macrocyclic peptides, non-standard amino acids, and variable lengths, with performance metrics comparable to the standard case.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of DMT cycle
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "DMT cycles" is used without defining what constitutes one cycle (e.g., design, synthesis, and assay steps). This ambiguity affects interpretation of the efficiency claim.
+  - **Required correction** Define a DMT cycle explicitly in the abstract or methods, including the steps and time scale involved.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Batch size rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The batch size of 96 peptides is stated but not justified. It is unclear if this is a practical constraint or an optimization choice.
+  - **Required correction** Briefly explain the rationale for the batch size, such as experimental throughput limits or BO acquisition function considerations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The source code link is provided, but no version, dependencies, or usage examples are mentioned in the abstract.
+  - **Required correction** Include a brief note on code documentation or a reference to a repository README for reproducibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, baseline comparisons, and demonstrations of claimed flexibility prevents validation of the core claims.
+- **Assessment against Nature-style criteria** Originality is moderate, as Bayesian optimization for peptide design is not entirely new, but the closed-loop integration may offer a novel angle. Scientific importance is potentially high for automated design workflows, but this is not substantiated by the abstract. Interdisciplinary readership is plausible, spanning computational biology, chemistry, and automation, but the abstract lacks sufficient detail to engage specialists. Technical soundness cannot be assessed without full methods and data. Readability for nonspecialists is adequate, but the abstract assumes familiarity with BO and DMT concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the lack of quantitative data, comparative benchmarks, and demonstrations of generality means the claims cannot be evaluated. A revised version with full results and analyses would be needed to assess support.
+
+## Risk / unsupported claims
+- The claim of achieving "optimal binding affinity" is unsupported without a defined criterion or reference values.
+- The claim of "extensive evaluation" is unsupported without presentation of results or comparisons.
+- The claim of handling "various peptide sequence lengths and scaffolds" and "any arbitrary non-standard amino acids" is unsupported without demonstration.
+- The efficiency claim of "less than 5 DMT cycles" is unverifiable without a clear definition of a cycle and quantitative outcomes.

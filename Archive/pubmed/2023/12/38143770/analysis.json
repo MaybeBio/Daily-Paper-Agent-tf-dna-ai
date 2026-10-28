@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38143770",
+  "title": "Multifactor assessment of ovarian cancer reveals immunologically interpretable molecular subtypes with distinct prognoses.",
+  "authors": "Guo, Yaping; Li, Siyu; Li, Chentan; Wang, Li; Ning, Wanshan",
+  "journal": "Frontiers in immunology",
+  "published_date": "2023-12-25",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于卵巢癌基因表达数据用SVM等机器学习进行分子分型和诊断模型构建，虽涉及转录因子基因但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Ovarian cancer (OC) is a highly heterogeneous and malignant gynecological cancer, thereby leading to poor clinical outcomes. The study aims to identify and characterize clinically relevant subtypes in OC and develop a diagnostic model that can precisely stratify OC patients, providing more diagnostic clues for OC patients to access focused therapeutic and preventative strategies. METHODS: Gene expression datasets of OC were retrieved from TCGA and GEO databases. To evaluate immune cell infiltration, the ESTIMATE algorithm was applied. A univariate Cox analysis and the two-sided log-rank test were used to screen OC risk factors. We adopted the ConsensusClusterPlus algorithm to determine OC subtypes. Enrichment analysis based on KEGG and GO was performed to determine enriched pathways of signature genes for each subtype. The machine learning algorithm, support vector machine (SVM) was used to select the feature gene and develop a diagnostic model. A ROC curve was depicted to evaluate the model performance. RESULTS: A total of 1,273 survival-related genes (SRGs) were firstly determined and used to clarify OC samples into different subtypes based on their different molecular pattern. SRGs were successfully stratified in OC patients into three robust subtypes, designated S-I (Immunoreactive and DNA Damage repair), S-II (Mixed), and S-III (Proliferative and Invasive). S-I had more favorable OS and DFS, whereas S-III had the worst prognosis and was enriched with OC patients at advanced stages. Meanwhile, comprehensive functional analysis highlighted differences in biological pathways: genes associated with immune function and DNA damage repair including CXCL9, CXCL10, CXCL11, APEX, APEX2, and RBX1 were enriched in S-I; S-II combined multiple gene signatures including genes associated with metabolism and transcription; and the gene signature of S-III was extensively involved in pathways reflecting malignancies, including many core kinases and transcription factors involved in cancer such as CDK6, ERBB2, JAK1, DAPK1, FOXO1, and RXRA. The SVM model showed superior diagnostic performance with AUC values of 0.922 and 0.901, respectively. Furthermore, a new dataset of the independent cohort could be automatically analyzed by this innovative pipeline and yield similar results. CONCLUSION: This study exploited an innovative approach to construct previously unexplored robust subtypes significantly related to different clinical and molecular features for OC and a diagnostic model using SVM to aid in clinical diagnosis and treatment. This investigation also illustrated the importance of targeting innate immune suppression together with DNA damage in OC, offering novel insights for further experimental exploration and clinical trial.",
+  "abstract_zh": "背景：卵巢癌（OC）是一种高度异质性和恶性的妇科癌症，导致临床预后不良。本研究旨在识别和表征OC中临床相关的亚型，并开发一种能够精确分层OC患者的诊断模型，为OC患者获得针对性的治疗和预防策略提供更多诊断线索。方法：从TCGA和GEO数据库中获取OC的基因表达数据集。为评估免疫细胞浸润，应用了ESTIMATE算法。使用单变量Cox分析和双侧对数秩检验筛选OC风险因素。我们采用ConsensusClusterPlus算法确定OC亚型。基于KEGG和GO进行富集分析，以确定每个亚型特征基因的富集通路。使用机器学习算法支持向量机（SVM）选择特征基因并开发诊断模型。绘制ROC曲线以评估模型性能。结果：首先确定了共1,273个生存相关基因（SRGs），并用于根据其不同分子模式将OC样本分为不同亚型。SRGs成功将OC患者分层为三个稳健亚型，分别命名为S-I（免疫反应性和DNA损伤修复）、S-II（混合型）和S-III（增殖性和侵袭性）。S-I具有更有利的总生存期（OS）和无病生存期（DFS），而S-III预后最差，并富集了晚期OC患者。同时，全面的功能分析突出了生物学通路差异：与免疫功能和DNA损伤修复相关的基因，包括CXCL9、CXCL10、CXCL11、APEX、APEX2和RBX1，在S-I中富集；S-II结合了多种基因特征，包括与代谢和转录相关的基因；S-III的基因特征广泛涉及反映恶性肿瘤的通路，包括许多参与癌症的核心激酶和转录因子，如CDK6、ERBB2、JAK1、DAPK1、FOXO1和RXRA。SVM模型显示出优越的诊断性能，AUC值分别为0.922和0.901。此外，独立队列的新数据集可通过这一创新流程自动分析，并产生相似结果。结论：本研究利用创新方法构建了先前未探索的、与OC不同临床和分子特征显著相关的稳健亚型，并使用SVM开发了诊断模型以辅助临床诊断和治疗。该研究还阐明了在OC中靶向先天免疫抑制和DNA损伤的重要性，为进一步的实验探索和临床试验提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38143770/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38143770/",
+  "paper_page_path": "papers/pubmed/38143770/index.html"
+}

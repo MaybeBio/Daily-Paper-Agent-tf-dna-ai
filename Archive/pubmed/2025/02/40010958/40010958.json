@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "40010958",
+    "doi": "10.21873/invivo.13863",
+    "title": "Potential Common Molecular Mechanisms Between Periodontitis and Prostate Cancer: A Network Analysis of Differentially Expressed miRNAs."
+  },
+  "content": {
+    "abstract": "BACKGROUND/AIM: Prostate cancer is the second leading cause of cancer-related deaths in men. Periodontitis is considered a high-risk factor for prostate cancer, but the genetic mechanism is unclear. This study aims to identify dysregulated miRNAs, their associated genes, signaling pathways, and compounds linking periodontitis to prostate cancer. MATERIALS AND METHODS: The miRNA expression datasets of prostate cancer and periodontitis were obtained from the GEO database. Differentially expressed miRNAs (DEmiRNAs) were identified, and common DEmiRNAs (Co-DEmiRNAs) between both datasets were determined. The Co-DEmiRNA-target network structure and functional analyses, including miRNet 2.0, were performed, encompassing Co-DEmiRNA-gene, Co-DEmiRNA-transcription factor (TF), and Co-DEmiRNA-compound networks. Functional enrichment analysis for Co-DEmiRNA genes and Co-DEmiRNA-TF networks was conducted using KEGG, Reactome pathways, and Gene Ontology (GO). Co-up and co-down DEmiRNAs were validated with TCGA miRNA-seq data. RESULTS: hsa-mir-148a-3p, hsa-mir-148b-5p, and hsa-mir-623 are the top miRNA nodes in Co-DEmiRNA-Target networks. The most significant candidate miRNA dysregulation genes are POU2F1, TMOD3, SCD, PRRC2C, and MAT2A, while the most important dysregulation TF includes TP53, CREB1, DNMT1, E2F1, and EGR1. Arsenic trioxide, gemcitabine, and 1,2,6-tri-O-galloyl-beta-D-glucopyranose are the most correlated compounds. Functional analyses revealed multiple cell signaling pathways, such as NOTCH and CREB phosphorylation, and regulation of processes, such as RNA metabolism and transcription. CONCLUSION: Our study suggests candidate molecular mechanisms linking periodontitis to prostate cancer, highlighting potential compounds targeting both diseases. These findings provide a foundation for guiding future basic and clinical research.",
+    "keywords": [
+      "MicroRNA",
+      "Prostate cancer",
+      "genetic crosstalk",
+      "network analysis",
+      "periodontitis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*MicroRNAs/genetics",
+      "*Gene Regulatory Networks",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Prostatic Neoplasms/genetics/pathology/etiology/metabolism",
+      "*Periodontitis/genetics/complications",
+      "Gene Expression Profiling",
+      "Computational Biology/methods",
+      "Signal Transduction/genetics",
+      "Gene Ontology",
+      "Databases, Genetic",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kanli, Aylin",
+        "Sunnetci-Akkoyunlu, Deniz",
+        "Kulcu-Sarikaya, Nurhan",
+        "Ugurtas, Cansu",
+        "Akpinar, Gurler",
+        "Kasap, Murat"
+      ],
+      "short_names": [
+        "Kanli A",
+        "Sunnetci-Akkoyunlu D",
+        "Kulcu-Sarikaya N",
+        "Ugurtas C",
+        "Akpinar G",
+        "Kasap M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Biology, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye; aylin.kanli@kocaeli.edu.tr.",
+        "Department of Medical Genetics, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye.",
+        "Department of Medical Genetics, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye.",
+        "Department of Medical Services and Techniques, Kocaeli University Vocational School of Healthy Services, Kocaeli, Turkiye.",
+        "Department of Medical Genetics, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye.",
+        "Department of Medical Genetics and Molecular Biology, Kocaeli University Institute of Health Sciences, Kocaeli, Turkiye.",
+        "Department of Medical Biology, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye.",
+        "Department of Medical Biology, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kanli, Aylin",
+        "short_name": "Kanli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye; aylin.kanli@kocaeli.edu.tr."
+        ]
+      },
+      {
+        "full_name": "Sunnetci-Akkoyunlu, Deniz",
+        "short_name": "Sunnetci-Akkoyunlu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye."
+        ]
+      },
+      {
+        "full_name": "Kulcu-Sarikaya, Nurhan",
+        "short_name": "Kulcu-Sarikaya N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye.",
+          "Department of Medical Services and Techniques, Kocaeli University Vocational School of Healthy Services, Kocaeli, Turkiye."
+        ]
+      },
+      {
+        "full_name": "Ugurtaş, Cansu",
+        "short_name": "Ugurtaş C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye.",
+          "Department of Medical Genetics and Molecular Biology, Kocaeli University Institute of Health Sciences, Kocaeli, Turkiye."
+        ]
+      },
+      {
+        "full_name": "Akpinar, Gurler",
+        "short_name": "Akpinar G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye."
+        ]
+      },
+      {
+        "full_name": "Kasap, Murat",
+        "short_name": "Kasap M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Kocaeli University Faculty of Medicine, Kocaeli, Turkiye."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "In vivo (Athens, Greece)"
+    ],
+    "journal_abbrev": [
+      "In Vivo"
+    ],
+    "pub_date": "2025 Mar-Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/27 05:03",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42388593",
+      "42125497",
+      "40944094",
+      "40294979"
+    ],
+    "refs": [
+      "38770637",
+      "38396821",
+      "38379333",
+      "37563820",
+      "36915448",
+      "36880060",
+      "36639776",
+      "36308073",
+      "36133437",
+      "36071279",
+      "35846769",
+      "35643191",
+      "35466497",
+      "35132337",
+      "34954928",
+      "34813797",
+      "34630712",
+      "34604412",
+      "34064286",
+      "33751610",
+      "33650836",
+      "33538338",
+      "33247563",
+      "32324272",
+      "31809209",
+      "31659113",
+      "31284458",
+      "31195790",
+      "31156715",
+      "31115512",
+      "30610504",
+      "29596883",
+      "29495973",
+      "29322513",
+      "28880997",
+      "28699803",
+      "28548883",
+      "28453689",
+      "28032857",
+      "27840359",
+      "27629931",
+      "27528026",
+      "27294431",
+      "27170485",
+      "27059735",
+      "26991343",
+      "26877236",
+      "26391970",
+      "26091625",
+      "25283513",
+      "24391995",
+      "24194957",
+      "24062574",
+      "23683054",
+      "23377972",
+      "22887127",
+      "22099172",
+      "21387309",
+      "20820187",
+      "20406806",
+      "19969528",
+      "17298410",
+      "10971784"
+    ],
+    "similar": [
+      "40010958",
+      "35132337",
+      "28072703",
+      "40294979",
+      "36639776",
+      "39881138",
+      "31642613",
+      "31073530",
+      "29559248",
+      "33371795",
+      "34530741",
+      "29353130",
+      "39516222",
+      "29032608",
+      "35397550",
+      "35860693",
+      "31309113",
+      "38949075",
+      "30761256",
+      "30409304",
+      "30138363",
+      "32299382",
+      "31127661",
+      "30627556",
+      "29516510",
+      "30503955",
+      "28714374",
+      "26628405",
+      "32013934",
+      "35313857",
+      "31692035",
+      "31703725",
+      "40044915",
+      "33371806",
+      "39028999",
+      "33062700",
+      "29997385",
+      "30937635",
+      "32435051",
+      "31169310",
+      "38393632",
+      "40068024",
+      "34686186",
+      "31277149",
+      "28651018",
+      "32597160",
+      "34545330",
+      "39080630",
+      "36937804",
+      "28005952",
+      "31842912",
+      "34938355",
+      "34966440",
+      "31127646",
+      "39142001",
+      "30367364",
+      "33813720",
+      "33678324",
+      "36321868",
+      "31541491",
+      "30073936",
+      "24301753",
+      "25189652",
+      "34840985",
+      "34371055",
+      "26795575",
+      "31521462",
+      "28350845",
+      "32985354",
+      "24618011",
+      "33628811",
+      "31898160",
+      "34390411",
+      "34600545",
+      "35678909",
+      "25807437",
+      "38848199",
+      "38914980",
+      "30666640",
+      "34734085",
+      "30879885",
+      "27350400",
+      "25973099",
+      "35757392",
+      "30602391",
+      "29255496",
+      "30844478",
+      "25087086",
+      "33877554",
+      "39985046",
+      "33719338",
+      "34337826",
+      "32714975",
+      "32925795",
+      "31311829",
+      "35164778",
+      "29784056",
+      "30268144",
+      "38818922",
+      "28927412"
+    ],
+    "review": [
+      "40010958",
+      "34530741",
+      "29997385",
+      "28651018",
+      "30879885"
+    ],
+    "pmc": [
+      "11884493"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://iv.iiarjournals.org/lookup/pmidlookup?view=long&pmid=40010958",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40010958/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-234",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

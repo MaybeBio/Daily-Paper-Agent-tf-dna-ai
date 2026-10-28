@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42304476",
+  "title": "Integrative spatiotemporal transcriptomics identifies a liver metastasis-related initial cell population associated with the SEMA3A-NRP1 axis in pancreatic ductal adenocarcinoma.",
+  "authors": "Li, Yang; Liu, Ya-Die; Jiang, Zhi-Ying; Lu, Hong-Xiang",
+  "journal": "Journal of translational medicine",
+  "published_date": "2026-06-17",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用单细胞和空间转录组学分析PDAC肝转移初始细胞群及SEMA3A-NRP1轴，虽提及转录因子YY1，但核心是肿瘤微环境与细胞状态，非蛋白质-DNA互作建模，且方法以转录组分析为主，无AI/物理模拟结合建模。",
+  "abstract": "BACKGROUND: Pancreatic ductal adenocarcinoma (PDAC) is a highly lethal malignancy in which liver metastasis represents the principal determinant of poor prognosis. Although metastatic dissemination is thought to be driven by highly plastic tumor cells, the transcriptional features of liver metastasis-related initial cell (LMIC) and its spatial crosstalk with the metastatic microenvironment during PDAC progression remain incompletely defined. METHODS: We integrated bulk transcriptomic, single-cell RNA sequencing, and 10x Genomics spatial transcriptomic datasets from multiple clinical cohorts. Malignant epithelial cells were accurately identified using a machine learning-based approach (scMalignantFinder). Developmental trajectory inference algorithms (VECTOR, scTour, and Monocle2) were applied to define LMIC. Intercellular communication was interrogated using CellChat and CellPhoneDB, while spatial ecological niches were resolved using RCTD and MISTy. Functional validation of key signaling axes was performed by immunohistochemistry (IHC), wound-healing assays, and Transwell invasion assays. RESULTS: We identified a TSPAN1_MC2 subpopulation of malignant epithelial cells with high differentiation potential and further characterized LMIC located at the origin of the developmental trajectory, characterized by concurrent epithelial-mesenchymal transition (EMT) and stemness features. The LMIC population exhibited elevated expression of stemness-associated genes, including NRP1 and NRP2, and was significantly associated with poor clinical outcomes and resistance to immunotherapy. Cell-cell communication and spatial analyses revealed that cancer-associated fibroblasts (CAFs) secrete SEMA3A, which engages NRP1 on LMIC, mediating their spatial co-localization and functional reprogramming. In vitro assays supported that over-expression of SEMA3A and NRP1 could enhance PDAC cell migration and invasion. The transcription factor YY1 was nominated as a potential regulatory associated with the LMIC transcriptional program, showing structural alignment with NRP1 expression and the activation of pathways such as WNT and PI3K-AKT signaling. In addition, the LMIC phenotype displayed pronounced lipid metabolic reprogramming, with up-regulation of rate-limiting enzymes including FASN and ACACA. Pharmacogenomic simulations further suggested a potential correlation with heightened sensitivity of the LMIC population to FAK inhibitors (PF-562271) and HDAC inhibitors (Mocetinostat), suggesting hypothetical therapeutic vulnerabilities. CONCLUSIONS: At single-cell resolution, this study characterizes the LMIC population in PDAC and implicates a CAF-associated SEMA3A-NRP1 signaling axis within their spatial and functional microenvironmental niches. These findings provide a refined conceptual framework for the development of prospective targeted strategies aimed at disrupting early microenvironmental cross-talk associated with PDAC liver metastasis.",
+  "abstract_zh": "背景：胰腺导管腺癌（PDAC）是一种高度致命的恶性肿瘤，其中肝转移是预后不良的主要决定因素。尽管转移性扩散被认为由高度可塑性的肿瘤细胞驱动，但在PDAC进展过程中，与肝转移相关的初始细胞（LMIC）的转录特征及其与转移微环境的空间串扰仍未完全明确。方法：我们整合了来自多个临床队列的批量转录组、单细胞RNA测序和10x Genomics空间转录组数据集。使用基于机器学习的方法（scMalignantFinder）准确识别恶性上皮细胞。应用发育轨迹推断算法（VECTOR、scTour和Monocle2）来定义LMIC。使用CellChat和CellPhoneDB探究细胞间通讯，同时使用RCTD和MISTy解析空间生态位。通过免疫组织化学（IHC）、伤口愈合实验和Transwell侵袭实验对关键信号轴进行功能验证。结果：我们鉴定了一个具有高分化潜力的TSPAN1_MC2恶性上皮细胞亚群，并进一步表征了位于发育轨迹起点的LMIC，其特征是同时具有上皮-间质转化（EMT）和干性特征。LMIC群体表现出干性相关基因（包括NRP1和NRP2）的高表达，并与不良临床结局和免疫治疗耐药显著相关。细胞间通讯和空间分析揭示，癌症相关成纤维细胞（CAFs）分泌SEMA3A，与LMIC上的NRP1结合，介导其空间共定位和功能重编程。体外实验支持SEMA3A和NRP1的过表达可增强PDAC细胞的迁移和侵袭能力。转录因子YY1被提名为与LMIC转录程序相关的潜在调控因子，其结构排列与NRP1表达以及WNT和PI3K-AKT等信号通路的激活相一致。此外，LMIC表型表现出显著的脂质代谢重编程，限速酶如FASN和ACACA上调。药物基因组学模拟进一步提示LMIC群体对FAK抑制剂（PF-562271）和HDAC抑制剂（Mocetinostat）的敏感性可能增加，暗示了潜在的治疗脆弱性。结论：在单细胞分辨率下，本研究表征了PDAC中的LMIC群体，并提示在其空间和功能微环境生态位中存在CAF相关的SEMA3A-NRP1信号轴。这些发现为开发旨在破坏与PDAC肝转移相关的早期微环境串扰的前瞻性靶向策略提供了精细的概念框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42304476/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42304476/",
+  "paper_page_path": "papers/pubmed/42304476/index.html"
+}

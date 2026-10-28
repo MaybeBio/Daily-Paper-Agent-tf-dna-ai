@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2310.15202v2",
+  "title": "Predicting Transcription Factor Binding Sites using Transformer based Capsule Network",
+  "authors": "Nimisha Ghosh; Daniele Santoni; Indrajit Saha; Giovanni Felici",
+  "journal": "",
+  "published_date": "2023-10-23",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于Transformer和胶囊网络的DNABERT-Cap模型，利用ChIP-seq数据预测转录因子结合位点，核心聚焦TF-DNA互作且采用深度学习方法，高度匹配本课题。",
+  "abstract": "Prediction of binding sites for transcription factors is important to understand how they regulate gene expression and how this regulation can be modulated for therapeutic purposes. Although in the past few years there are significant works addressing this issue, there is still space for improvement. In this regard, a transformer based capsule network viz. DNABERT-Cap is proposed in this work to predict transcription factor binding sites mining ChIP-seq datasets. DNABERT-Cap is a bidirectional encoder pre-trained with large number of genomic DNA sequences, empowered with a capsule layer responsible for the final prediction. The proposed model builds a predictor for transcription factor binding sites using the joint optimisation of features encompassing both bidirectional encoder and capsule layer, along with convolutional and bidirectional long-short term memory layers. To evaluate the efficiency of the proposed approach, we use a benchmark ChIP-seq datasets of five cell lines viz. A549, GM12878, Hep-G2, H1-hESC and Hela, available in the ENCODE repository. The results show that the average area under the receiver operating characteristic curve score exceeds 0.91 for all such five cell lines. DNABERT-Cap is also compared with existing state-of-the-art deep learning based predictors viz. DeepARC, DeepTF, CNN-Zeng and DeepBind, and is seen to outperform them.",
+  "abstract_zh": "预测转录因子结合位点对于理解它们如何调控基因表达以及这种调控如何为治疗目的而调节具有重要意义。尽管在过去几年中有大量工作致力于解决这一问题，但仍存在改进空间。在此背景下，本文提出了一种基于Transformer的胶囊网络，即DNABERT-Cap，用于挖掘ChIP-seq数据集以预测转录因子结合位点。DNABERT-Cap是一个双向编码器，预训练于大量基因组DNA序列，并配备了一个负责最终预测的胶囊层。该模型通过联合优化包含双向编码器和胶囊层以及卷积层和双向长短期记忆层的特征，构建了转录因子结合位点的预测器。为评估所提方法的效率，我们使用了ENCODE数据库中五个细胞系（即A549、GM12878、Hep-G2、H1-hESC和Hela）的基准ChIP-seq数据集。结果显示，对于这五个细胞系，接收者操作特征曲线下面积的平均得分均超过0.91。DNABERT-Cap还与现有的最先进的基于深度学习的预测器（如DeepARC、DeepTF、CNN-Zeng和DeepBind）进行了比较，并显示出其性能更优。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2310.15202v2",
+  "source_url": "https://arxiv.org/abs/2310.15202v2",
+  "paper_page_path": "papers/arxiv/2310.15202v2/index.html"
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that prenatal exposure to bisphenol AF (BPAF) and bisphenol B (BPB) induces depression- and anxiety-like behaviors in weanling male mouse offspring. They propose that BPB and BPAF act through distinct transcriptional regulatory networks, mediated by compound-specific transcription factor (TF) binding, to disrupt neurodevelopmental pathways. Molecular docking is used to support physical interactions between each compound and its proposed TF targets.
+- **Visible evidence base** Abstract text only; no experimental details, statistical values, sample sizes, or figure/table references are provided
+- **Missing materials affecting confidence** Full methods, behavioral data, RNA sequencing analysis details, docking parameters, validation experiments, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that two bisphenol analogues may exert neurodevelopmental toxicity through distinct transcriptional mechanisms. However, the current evidence base is insufficient to evaluate the rigor of the behavioral phenotyping, the robustness of the transcriptomic analyses, or the validity of the molecular docking conclusions. The claim of compound-specific mechanisms rests on correlative data without demonstrated causality, and several statements are internally inconsistent or overgeneralized. The work may be of interest to the neurotoxicology community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in environmental health, neurotoxicology, and developmental biology would be interested in the potential differential neurotoxicity of bisphenol substitutes. Those studying transcriptional regulation in neurodevelopment and the molecular basis of depression may also find the proposed TF-hub gene networks relevant. Risk assessors evaluating BPA alternatives could use these data if the mechanistic claims are substantiated.
+- **Major strengths** The study addresses a timely and understudied question regarding the neurodevelopmental effects of BPA substitutes. The comparative design between BPB and BPAF is a useful approach to identify compound-specific effects. The integration of transcriptomic data with TF screening and molecular docking is a reasonable exploratory strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract states that BPB and BPAF "drive disease progression via distinct transcriptional regulatory networks" and that these changes "alter neurodevelopmental pathways."
+  - **Evidence pointer** Abstract text; no specific figure or table referenced
+  - **Concern** The abstract presents transcriptomic changes and behavioral outcomes as causally linked, but no experimental evidence is shown to establish that the identified transcriptional alterations mediate the observed depression-like behavior. The data appear correlative, and alternative explanations such as indirect effects, compensatory mechanisms, or off-target toxicity are not addressed.
+  - **Why it matters** Without causal evidence, the central mechanistic claim is unsupported. The abstract implies that TF dysregulation is the driver of behavioral change, but this requires functional validation such as TF knockdown or overexpression, or rescue experiments.
+  - **Resolution test** Provide experimental evidence that manipulation of the proposed TFs or hub genes alters the behavioral phenotype, or clearly reframe the claims as correlative.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The abstract states that BPB downregulates Lhx8 and Foxp1, while BPAF upregulates Neurod1, and that these changes are "compound-specific."
+  - **Evidence pointer** Abstract text; no figure or table referenced
+  - **Concern** The abstract does not report whether the behavioral outcomes are also compound-specific in magnitude or quality. If both compounds produce similar depression-like behavior, the claim of distinct mechanisms is weakened. Conversely, if behaviors differ, this is not stated. The relationship between the proposed distinct transcriptional networks and the observed behavioral phenotype is unclear.
+  - **Why it matters** The central novelty is the compound-specific mechanism. Without clarity on whether the behavioral endpoints differentiate the two compounds, the mechanistic distinction may be incidental rather than functionally relevant.
+  - **Resolution test** State whether behavioral phenotypes differ between BPB and BPAF groups, and discuss how the distinct transcriptional changes relate to any observed behavioral differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that molecular docking "confirmed potential binding interactions" between BPB and Lhx8/Foxp1, and BPAF and Neurod1.
+  - **Evidence pointer** Abstract text; no docking details or validation provided
+  - **Concern** Molecular docking is a computational prediction and cannot "confirm" binding. The abstract overstates the strength of this evidence. No experimental validation such as surface plasmon resonance, isothermal titration calorimetry, or cellular assays is mentioned. Additionally, the functional relevance of predicted binding is not established.
+  - **Why it matters** The proposed mechanism relies on physical interactions between the compounds and TFs. If these interactions are not experimentally validated, the mechanistic model remains speculative.
+  - **Resolution test** Provide experimental binding data or temper the language to indicate predicted interactions, and clarify the limitations of docking in this context.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and methodological rigor
+  - **Claim pointer** The abstract states that prenatal exposure "induces depression- and anxiety-like behaviors in weanling male offspring."
+  - **Evidence pointer** Abstract text; no behavioral methods or statistics provided
+  - **Concern** No details are given on the behavioral tests used, the number of animals, the statistical approach, or whether the experimenters were blinded. The abstract also does not specify the exposure doses, route, or timing, which are critical for interpreting the relevance of the findings.
+  - **Why it matters** Behavioral phenotyping is prone to false positives without rigorous controls. The absence of methodological detail prevents assessment of whether the behavioral claims are reliable.
+  - **Resolution test** Provide full behavioral methods, including test types, sample sizes, blinding, and statistical analyses, and confirm that the effects are robust and dose-dependent if applicable.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "BPB significantly downregulate" and "BPAF significantly upregulate" uses plural verbs with singular compound names, which is grammatically incorrect.
+  - **Required correction** Change to "BPB significantly downregulates" and "BPAF significantly upregulates."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not specify the exposure window, doses, or route of administration for BPB and BPAF, which are essential for interpreting the study's relevance to human exposure.
+  - **Required correction** Add brief details on exposure regimen in the abstract or clarify that these are provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Abstract claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract focuses exclusively on male offspring but does not state whether female offspring were examined or why they were excluded. This limits the generalizability of the findings.
+  - **Required correction** Clarify whether female offspring were assessed and, if not, justify the male-only focus.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "weanling" is used without specifying the postnatal day, which may vary across studies and affect comparability.
+  - **Required correction** Specify the postnatal age at which behavioral testing was performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal inference), R1-M2 (internal consistency), R1-M3 (docking overinterpretation), R1-M4 (behavioral rigor)
+- **Assessment against Nature-style criteria** Originality: The comparative approach to two BPA substitutes is somewhat novel, but the general concept of bisphenol neurotoxicity is well established. Scientific importance: Potentially relevant to risk assessment, but the mechanistic claims are not yet substantiated. Interdisciplinary readership: The topic could appeal to toxicologists, neuroscientists, and environmental health researchers, but the abstract does not provide enough depth to engage a broad audience. Technical soundness: Cannot be assessed from the abstract; the lack of methodological detail and overinterpretation of docking data are concerning. Readability for nonspecialists: The abstract is generally readable but uses specialized terms without sufficient context, and the grammatical errors detract from clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the experimental detail and causal evidence needed to support the central claims. I would be supportive if the full manuscript provides rigorous behavioral data, functional validation of the proposed TF mechanisms, and appropriately tempered interpretations of the docking results.
+
+## Risk / unsupported claims
+- The claim that BPB and BPAF "drive disease progression" via distinct transcriptional networks is unsupported without causal evidence.
+- The claim that molecular docking "confirmed" binding interactions is an overstatement; docking provides predictions, not confirmation.
+- The claim that the identified transcriptional changes "alter neurodevelopmental pathways" is presented as fact but is only inferred from enrichment analysis.
+- The generalizability of the findings to human exposure is not established, as no dose-response or relevance to human exposure levels is discussed.
+- The behavioral findings are reported without sufficient methodological detail to assess their validity.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to propose that polyQ tract length and flanking sequence context in the ELF3 prion-like domain (PrD) modulate temperature-sensitive conformational behavior, including heat-induced exposure of aromatic residues and enhanced condensate formation, with implications for plant temperature sensing and engineering applications
+- **Visible evidence base** Abstract text only; no simulation details, parameter sets, convergence metrics, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, all figures, simulation protocols, force field parameters, system construction details, replica exchange settings, Martini model parameters, statistical analyses, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational framework for understanding how sequence features in ELF3-PrD might encode temperature sensitivity. The central hypothesis, that polyQ tracts promote temperature-sensitive helical propensity in flanking regions and that heat disrupts long-range contacts to expose aromatic residues, is mechanistically interesting and potentially significant for plant chronobiology. However, the abstract alone provides insufficient detail to evaluate the rigor of the simulations, the robustness of the conclusions, or the strength of the link between computational predictions and biological function. The claims are ambitious, but the evidence base visible here is too thin to establish them.
+- **Who would be interested in the results, and why** Plant chronobiologists studying temperature perception and the evening complex would find the mechanistic proposal directly relevant. Computational biophysicists working on intrinsically disordered proteins and phase separation would be interested in the methodological approach and the proposed sequence-encoded temperature sensor. Synthetic biologists and agricultural biotechnologists seeking modular heat-responsive elements could see practical applications, though these are speculative at this stage.
+- **Major strengths** The abstract identifies a clear and biologically important question, namely how a disordered domain encodes temperature sensitivity. The proposed mechanism, involving polyQ length modulation of flanking helix stability and heat-induced exposure of aromatic residues, is specific and testable. The use of two complementary simulation approaches, REST2 and coarse-grained Martini, suggests an attempt to bridge atomistic detail and mesoscale behavior. The framing around agricultural and engineering implications gives the work broad relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that REST2 simulations uncover a heat-induced population of condensation-prone conformations resulting from exposure of sticky aromatic residues by temperature-responsive breaking of long-range contacts  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No simulation details are provided to assess whether the REST2 simulations were adequately converged, whether the force field is appropriate for disordered proteins, or whether the observed conformational populations are statistically distinguishable between temperatures. The claim of a heat-induced population shift requires quantitative comparison of free energy surfaces or population distributions, none of which are visible.  
+  - **Why it matters** The central mechanistic claim rests on the reliability of the conformational sampling. Without convergence metrics, replica exchange settings, and error estimates, the observed population changes could be artifacts of insufficient sampling or force field bias. This is a foundational issue for the entire paper.  
+  - **Resolution test** Provide replica exchange convergence diagnostics, comparison of populations with error bars across at least three temperatures, and validation of the force field against known ELF3-PrD behavior or experimental data. Show that the aromatic exposure is statistically significant and reproducible across independent simulation repeats.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that coarse-grained Martini simulations reveal both polyQ tract length and sequence context modulate the temperature dependence of cluster formation  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The Martini force field is known to have limitations in capturing temperature-dependent behavior of disordered proteins, particularly regarding helix formation and aromatic interactions. The abstract does not specify how the coarse-grained model was parameterized for the PrD, whether the polyQ length variants were systematically compared, or how cluster formation was quantified. The claim of temperature dependence modulation requires a clear demonstration that the model reproduces known experimental trends, such as the longer polyQ leading to enhanced condensation.  
+  - **Why it matters** If the Martini model is not validated for this system, the conclusions about polyQ length and sequence context effects may not transfer to the real protein. The biological relevance of the entire study depends on the simulations faithfully representing the physical chemistry of the PrD.  
+  - **Resolution test** Provide Martini parameter details, validation against experimental condensation data for at least two polyQ length variants, and a quantitative comparison of cluster size distributions or critical temperatures across variants. Show that the model reproduces the known longer polyQ leads to enhanced condensation trend.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract states that polyQ tracts promote formation of temperature-sensitive helices in flanking residues with potential impacts for EC stability under increasing temperature  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not provide any experimental or structural evidence that the predicted helices exist in the full-length ELF3 protein or that they affect evening complex stability. The claim is presented as a computational prediction, but the link to EC stability is speculative. No data are shown connecting helix formation to DNA binding disruption or condensate sequestration.  
+  - **Why it matters** The biological significance of the work depends on connecting the computational predictions to the known function of ELF3 in the evening complex. Without any experimental validation or at least a clear structural rationale for how flanking helices would affect EC stability, the claim remains unsupported.  
+  - **Resolution test** Provide either experimental validation, such as mutagenesis of predicted helix residues affecting condensation or EC function, or a detailed structural model showing how the helices would interact with other EC components. At minimum, show sequence conservation or coevolution evidence supporting functional importance of the predicted helices.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The abstract states that understanding the molecular mechanism has implications for modular temperature-response elements for heat-responsive protein design and agricultural advances  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The translational claims are presented without any demonstration of how the findings could be applied. No design principles are extracted, no proof of concept is shown, and the agricultural implications are stated as a general aspiration rather than a concrete pathway.  
+  - **Why it matters** These claims broaden the audience but risk overstating the immediate applicability. For a Nature-style readership, the gap between simulation results and practical applications needs to be clearly delineated, or the claims should be tempered.  
+  - **Resolution test** Either remove or substantially soften the translational claims, or provide a specific example of how the sequence features identified could be used to design a temperature-responsive element, even in a computational proof of concept.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract uses terms such as REST2, Martini, and PrD without defining them for readers outside the computational biophysics community.  
+  - **Required correction** Define REST2 and Martini briefly on first use, and spell out PrD as prion-like domain with a one sentence explanation of its relevance.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Simulation temperature range  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract refers to increased temperature and heat-induced behavior but does not specify the temperature range studied.  
+  - **Required correction** State the temperature range used in the simulations and how it relates to physiologically relevant temperatures for plant growth.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Generalizability  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract focuses on ELF3 but does not mention whether the proposed mechanism is expected to generalize to other polyQ containing proteins or is specific to this system.  
+  - **Required correction** Add a sentence addressing whether the sequence context effects are likely to be a general feature of polyQ containing disordered domains or unique to ELF3.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The simulation rigor, model validation, and biological link are all insufficiently supported by the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea that polyQ length modulates flanking helix stability to create a temperature sensor is a novel angle on the known ELF3 condensation behavior. This is a fresh contribution to the field.  
+  - **Scientific importance** The question of how plants sense temperature is of broad significance, and a molecular mechanism for ELF3 would be valuable. However, the importance is not yet established because the computational predictions lack experimental validation.  
+  - **Interdisciplinary readership** The topic bridges plant biology, biophysics, and protein engineering, which could attract a wide audience. The abstract is written in a way that is mostly accessible, though some terminology needs clarification.  
+  - **Technical soundness** This is the weakest area. The abstract provides no evidence of simulation convergence, force field validation, or statistical rigor. The Martini model limitations for disordered proteins are not addressed.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses field specific jargon without definition. The logical flow from simulation to biological implication is understandable but the translational claims feel disconnected from the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible computational approach, but the lack of methodological detail and validation means the core claims cannot be assessed. I would be supportive if the full manuscript provides rigorous simulation validation, quantitative comparisons, and a clearer link to biological function.
+
+## Risk / unsupported claims
+- The claim that polyQ tracts promote temperature-sensitive helices in flanking residues is unsupported without structural or experimental evidence.
+- The claim that heat-induced breaking of long-range contacts exposes sticky aromatic residues is unverifiable without population data and error analysis.
+- The claim that Martini simulations reveal sequence context modulation of temperature dependent cluster formation is unsupported without model validation and quantitative cluster analysis.
+- The claim that the findings have implications for heat-responsive protein design and agricultural advances is speculative and not supported by any application oriented data.
+- The overall link between simulation predictions and evening complex stability is asserted but not demonstrated.

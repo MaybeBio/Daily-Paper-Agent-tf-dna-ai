@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "41846910",
+    "doi": "10.3389/fimmu.2026.1764990",
+    "title": "Dual-omics analysis of key biomarkers in T cell ubiquitination of rheumatoid arthritis blood and synovial tissue, validated by two-sample Mendelian randomization and qPCR."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Rheumatoid arthritis (RA) is a chronic autoimmune disease characterized by synovial inflammation and joint destruction. Abnormal T-cell ubiquitination has been implicated in RA pathogenesis, yet its molecular mechanisms remain unclear. METHODS: Transcriptomic data from RA blood and synovial tissue were analyzed to identify differentially expressed genes (DEGs). Ubiquitination-related module genes were obtained using weighted gene co-expression network analysis (WGCNA), and their overlap with DEGs yielded blood-synovial ubiquitination-related genes (BS-UGs). Single-cell datasets were used to extract T-cell marker genes, and intersection analysis identified T-cell-specific ubiquitination genes (BS-TUGs). Machine learning algorithms (SVM-RFE and Boruta) screened key BS-TUGs. Immune infiltration, transcription factor (TF) regulation, and master regulators were explored. Finally, two-sample Mendelian randomization (MR) was performed to assess causal relationships between key genes and RA. RESULTS: A total of 521 BS-UGs and 21 candidate BS-TUGs were identified, from which six key genes (DOCK10, DGKA, NOP58, JAK3, GCC2, ANO9) were selected. These genes exhibited significant immune-cell correlations and were regulated by multiple TFs. MR analysis demonstrated a positive causal association between NOP58 (OR = 1.074, p = 0.001) and RA, and a negative association between GCC2 (OR = 0.928, p < 0.001) and RA, without heterogeneity or pleiotropy. CONCLUSION: Integrative dual-omics and MR analyses identified key ubiquitination-related T-cell genes driving RA pathogenesis. NOP58 and GCC2 represent potential causal biomarkers and therapeutic targets, offering novel insights into immune regulation and precision intervention in RA.",
+    "keywords": [
+      "T cell ubiquitination",
+      "machine learning",
+      "rheumatoid arthritis",
+      "single-cell",
+      "two-sample Mendelian randomization"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/genetics/blood/immunology/metabolism",
+      "Humans",
+      "*Synovial Membrane/metabolism/immunology",
+      "*T-Lymphocytes/immunology/metabolism",
+      "Biomarkers/metabolism/blood",
+      "*Ubiquitination/genetics",
+      "Mendelian Randomization Analysis",
+      "Gene Expression Profiling",
+      "Real-Time Polymerase Chain Reaction",
+      "Gene Regulatory Networks",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Danting",
+        "Zhao, Haitao",
+        "Meng, Jinghong"
+      ],
+      "short_names": [
+        "He D",
+        "Zhao H",
+        "Meng J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Rheumatology and Immunology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Foot Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Rheumatology and Immunology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Foot Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+        "Department of Rheumatology and Immunology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Danting",
+        "short_name": "He D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+          "Department of Foot Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Haitao",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China.",
+          "Department of Foot Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Jinghong",
+        "short_name": "Meng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The Third Hospital of Hebei Medical University, Shijiazhuang, Hebei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/18 07:25",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41169371",
+      "40307577",
+      "40207216",
+      "39572606",
+      "39546133",
+      "39125897",
+      "39122678",
+      "38919610",
+      "38812304",
+      "38609546",
+      "38518605",
+      "38474223",
+      "38366230",
+      "38170572",
+      "37899476",
+      "37140667",
+      "36911661",
+      "36814922",
+      "36792571",
+      "36252553",
+      "36215002",
+      "36173485",
+      "35990660",
+      "35953230",
+      "34951925",
+      "34680338",
+      "34639141",
+      "33257900",
+      "32961230",
+      "32958760",
+      "32542827",
+      "31980337",
+      "28612748",
+      "28228278",
+      "27697466",
+      "27156434",
+      "26956246",
+      "25375928",
+      "23911989",
+      "22150039",
+      "1323144"
+    ],
+    "similar": [
+      "41846910",
+      "40636121",
+      "39953769",
+      "41816328",
+      "38711508",
+      "39845946",
+      "41116042",
+      "42243611",
+      "42456406",
+      "41680947",
+      "41913032",
+      "41957428",
+      "39509434",
+      "39161769",
+      "41287581",
+      "38962008",
+      "34113405",
+      "40072781",
+      "40681713",
+      "41630247",
+      "40644421",
+      "41333919",
+      "38771826",
+      "36699262",
+      "38573982",
+      "41929818",
+      "38656728",
+      "41963573",
+      "42251905",
+      "41737229",
+      "42003657",
+      "42123756",
+      "40550064",
+      "41021591",
+      "32013628",
+      "40754101",
+      "40148470",
+      "40475761",
+      "39717623",
+      "40592131",
+      "34195267",
+      "36238290",
+      "39830504",
+      "41053877",
+      "30483789",
+      "41693713",
+      "40755754",
+      "34224029",
+      "42274933",
+      "41261618",
+      "39498523",
+      "34484236",
+      "40703513",
+      "42059276",
+      "39928790",
+      "42135859",
+      "41637423",
+      "41583523",
+      "38977339",
+      "40453984",
+      "39260308",
+      "42340574",
+      "42106542",
+      "42483176",
+      "42496954",
+      "41388523",
+      "40238799",
+      "39466354",
+      "39656402",
+      "42236612",
+      "41607310",
+      "33407587",
+      "39067546",
+      "41398779",
+      "39346909",
+      "40350654",
+      "41488645",
+      "40016789",
+      "40617003",
+      "42450069",
+      "39647286",
+      "41066424",
+      "42583273",
+      "41931350",
+      "40081680",
+      "34477936",
+      "39341952",
+      "40859487",
+      "34583778",
+      "39483475",
+      "42509710",
+      "41703488",
+      "36940554",
+      "39139563",
+      "36317112",
+      "30916045",
+      "41991682",
+      "41415264",
+      "42492262",
+      "41088461"
+    ],
+    "review": [
+      "41846910",
+      "41287581"
+    ],
+    "pmc": [
+      "12989613"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41846910/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1764990",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

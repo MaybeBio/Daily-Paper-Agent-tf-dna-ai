@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results, discussion, conclusions) for a study on the binding landscape of estrogen receptor-alpha36 protein with broussoflavonol B, using molecular dynamics simulations and MM/GBSA calculations.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to the presented evidence, and alignment with Nature-style publication criteria. The manuscript is published in *Biomolecules* (MDPI), and the assessment is based solely on the provided text.
+- **Shared manuscript claim summary** The authors claim that: (1) a homology model of ER-α36 LBD was built and validated; (2) BFB binds with higher affinity to ER-α36 than to ER-α66, and more strongly than fulvestrant to ER-α36; (3) BFB induces conformational changes (opening/closing) in the ER-α36 LBD that correlate with its experimentally reported growth-inhibitory activity; and (4) these findings provide a model for designing novel ER-α36-targeted cancer drugs.
+- **Visible evidence base** Methods descriptions (homology modeling, docking, MD simulations, MM/GBSA), results sections with tables (Tables 1–5) and figures (Figures 1–16) referenced but not shown, and conclusions.
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided; no coordinates, trajectories, force field parameters, or raw simulation data; no statistical error bars or replicate information for MD simulations; no experimental validation data beyond literature citations; no details on convergence criteria or equilibration quality.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic, namely the structural and dynamic characterization of ER-α36 as a potential cancer drug target. The use of MD simulations and MM/GBSA to compare binding of BFB to ER-α36 and ER-α66 is a reasonable approach. However, the manuscript has several significant methodological and presentational weaknesses. The homology model quality is not rigorously established, the MD simulation protocol lacks critical details (e.g., number of replicates, convergence assessment), and the reported binding free energies are presented without error estimates. The claim that BFB induces "downregulation-accompanied cell cycle arrest" is not directly supported by the simulation data presented. The writing is often unclear and contains internal inconsistencies (e.g., contradictory statements about RMSD values). The manuscript would require substantial revision and additional analysis before the claims could be considered established.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying estrogen receptor variants, medicinal chemists involved in breast cancer drug discovery, and researchers focused on the non-genomic signaling pathways of ER-α36. The potential to target ER-α36 with novel inhibitors is of clinical interest, particularly for endocrine-resistant and triple-negative breast cancers.
+- **Major strengths** (1) The study addresses a clinically relevant and understudied target, ER-α36, for which no crystal structure exists. (2) The comparative approach, examining both ER-α36 and ER-α66, provides a useful framework for understanding isoform-specific binding. (3) The use of multiple computational tools (homology modeling, docking, MD, MM/GBSA, PCA, DSSP) is comprehensive in scope. (4) The identification of specific residues (e.g., GLU180) contributing to binding is potentially useful for future drug design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the homology model of ER-α36 LBD is reliable and suitable for downstream studies.
+  - **Evidence pointer** Section 2.1, Section 3.1, Table 1, Figures 2–4
+  - **Concern** The validation of the homology model is insufficient. The authors report a zDOPE value of 0.41, which is positive and, by the authors' own criterion (zDOPE > 0.7 reflects ≥95% probability of correct fold), does not indicate a high-confidence model. The Ramachandran plot shows 97.10% of residues in favored regions, which is acceptable, but this alone is not sufficient to establish the reliability of the binding pocket geometry. No RMSD to template, template similarity scores, or other standard model quality metrics (e.g., QMEAN, MolProbity) are provided. The statement that the model "shows excellent correlation with the Psirped result" is vague and not a standard validation metric.
+  - **Why it matters** All subsequent docking and MD results depend on the quality of the starting structure. If the homology model is unreliable, the binding poses, free energies, and conformational dynamics may be artifacts. The positive zDOPE value raises concerns about the model's accuracy, and the authors do not adequately address this.
+  - **Resolution test** Provide a more thorough model validation, including comparison to the template structures, per-residue error estimates, and validation of the binding pocket geometry against known ER-α66 ligand interactions. If the zDOPE value is indeed 0.41, the authors should explain why this is acceptable or consider using a different modeling approach (e.g., AlphaFold2) and re-validate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that BFB binds more strongly to ER-α36 than to ER-α66, and more strongly than fulvestrant to ER-α36, based on MM/GBSA free energy calculations.
+  - **Evidence pointer** Section 3.3.1, Tables 2 and 3
+  - **Concern** The MM/GBSA calculations are reported as single values (e.g., −52.57 kcal/mol for BFB-ER-α36) without any error estimates, standard deviations, or information on the number of snapshots used beyond a vague "average of 10,000 snapshots from a 40 ns trajectory." It is unclear if these are mean values from multiple independent simulations or from a single trajectory. The difference between BFB-ER-α36 (−52.57) and BFB-ER-α66 (−42.41) is about 10 kcal/mol, which is large, but without error bars, it is impossible to assess significance. Furthermore, the MM/GBSA method is known to be sensitive to the choice of internal dielectric constant, entropy contributions, and the snapshots selected; none of these parameters are discussed.
+  - **Why it matters** The central quantitative claim of the paper, that BFB preferentially binds ER-α36, rests on these free energy values. Without error estimates and methodological details, the claim is not statistically supported. The comparison to docking scores (Table 2) is also problematic, as docking scores and MM/GBSA free energies are not directly comparable.
+  - **Resolution test** Provide mean and standard deviation from at least three independent MD simulations. Report the number of snapshots, the entropy contribution (if neglected, state so), and the dielectric constant used. Perform a statistical test (e.g., t-test) to show that the difference between BFB-ER-α36 and BFB-ER-α66 is significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / claim support
+  - **Claim pointer** The authors claim that the binding of BFB to ER-α36 induces conformational changes that explain the experimentally observed "downregulation-accompanied cell cycle arrest at the Gap0 and Gap1 phases."
+  - **Evidence pointer** Section 3.3.3, Section 3.3.4, Section 3.3.5, Figures 10–16
+  - **Concern** The link between the simulation results and the biological claim of cell cycle arrest is purely speculative. The authors observe RMSD, RMSF, and conformational changes in the LBD, but they do not demonstrate a mechanistic connection between these changes and the experimentally reported cell cycle arrest. The statement that "the high ER-α inter-residual displacement induced by the BFB tumor might have resulted in the cell cycle arrest" is presented as a conclusion but is not supported by any direct evidence from the simulations. The simulations only probe the LBD, not the full-length receptor, downstream signaling pathways, or cellular outcomes.
+  - **Why it matters** The title and abstract imply a direct link between the binding landscape and therapeutic outcomes. Overstating the biological implications of purely computational results undermines the scientific credibility of the work. The claim is not testable from the data presented.
+  - **Resolution test** Either remove the claims about cell cycle arrest or provide a more nuanced discussion that clearly separates simulation observations from speculative biological interpretation. If possible, perform additional simulations (e.g., with the full-length receptor or with downstream signaling partners) or explicitly state that the link is hypothetical and requires experimental validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the RMSD and RMSF analyses reveal that ER-α36 is less stable than ER-α66, and that BFB binding stabilizes the ER-α36 structure.
+  - **Evidence pointer** Section 3.3.3, Figures 10 and 11
+  - **Concern** The text contains contradictory statements. In Section 3.3.3, the authors state that "the unbound (1.260 Å) and bound ER-α36 (1.182 Å) exhibit the highest flexibilities and atomistic motions relative to the ER-α66 systems," but then later state that "the RMSF (Å) of the unbound ER-α36 and ER-α66 exhibit lesser stabilities than the BFB-bound systems, resulting in higher structural flexibilities and atomistic motions than the bound variants." These statements are confusing and appear to contradict each other. It is unclear whether the bound or unbound systems are more flexible. Additionally, the RMSD values reported (e.g., 2.147 Å for apo ER-α36) are not contextualized; it is unclear if these are averages over the entire trajectory or final values.
+  - **Why it matters** The interpretation of the dynamic behavior is central to the paper's conclusions. If the results are presented in a confusing or contradictory manner, the reader cannot assess the validity of the claims. This also suggests a lack of careful data analysis and presentation.
+  - **Resolution test** Rewrite Section 3.3.3 to clearly and consistently describe the RMSD and RMSF results. Provide a table summarizing the mean and standard deviation of RMSD and RMSF for each system. Clarify whether the values are averages over the trajectory or at specific time points.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the distance and torsion angle analyses (Table 4, Table 5, Figure 16) provide a detailed description of the binding pocket dynamics.
+  - **Evidence pointer** Section 3.3.5, Tables 4 and 5, Figure 16
+  - **Concern** The description of the distance and torsion angle analysis is incomplete. The authors state that "the distance is inversely proportional to the angle θ metrics but increases as ϕ increases or decreases as ϕ decreases," but this is not a quantitative or rigorous analysis. No statistical analysis is provided to support these claims. The choice of residues (LEU173, GLU180, LEU214, PHE231) is not justified, and it is unclear how these specific residues were selected for analysis. The relationship between these geometric parameters and the binding affinity is not established.
+  - **Why it matters** The authors present this as a novel method for describing the binding landscape, but the analysis is superficial and does not provide meaningful insight beyond what could be obtained from standard RMSD/RMSF analyses. The claims about the "asymmetric opening" of the pocket are not supported by quantitative data.
+  - **Resolution test** Provide a more rigorous analysis, including time series of the distance and angles, and a statistical comparison between the different systems. Justify the choice of residues and explain how these parameters relate to the binding mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the study "unravel[s] the comparative dynamic events of the enzymes' structures and the binding mechanisms of BFB," but the abstract does not mention the key quantitative results (e.g., the ΔG values) or the specific conformational changes observed. The abstract is overly general and does not convey the specific findings of the study.
+  - **Required correction** Revise the abstract to include the key quantitative findings (e.g., the difference in binding free energy between ER-α36 and ER-α66) and a brief summary of the most important conformational changes observed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The MD simulation protocol is described in insufficient detail. The authors state that simulations were run for 200 ns but do not specify the number of replicates, the thermostat/barostat algorithms, the time step, or the equilibration protocol. The statement "The details of the methods, including the PCA, have been reported in our previous works several times" is not acceptable for a standalone manuscript.
+  - **Required correction** Provide a complete description of the MD simulation protocol, including all relevant parameters, or cite a specific previous publication with full details and state explicitly that the same protocol was used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Tables 2 and 3
+  - **Evidence pointer** Tables 2 and 3
+  - **Issue** The tables are referenced but not shown in the provided text. It is impossible to assess the data without seeing the tables. The text mentions "Table 2 shows the binding affinity" and "Table 3" for free energies, but the values are not summarized in the text.
+  - **Required correction** Ensure that the tables are included in the manuscript and that the key values are also mentioned in the text for readers who may not have access to the tables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript contains numerous grammatical errors and awkward phrasings (e.g., "the enzymes' structures," "timescale 'coiling'"). These errors detract from the readability and professionalism of the manuscript.
+  - **Required correction** The manuscript should be carefully edited by a native English speaker or a professional editing service.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 1
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction cites several references but does not provide a comprehensive review of the relevant literature on ER-α36 structure and function, or on computational studies of ER-α36. The authors should more thoroughly contextualize their work within the existing literature.
+  - **Required correction** Expand the introduction to include a more comprehensive review of prior computational and experimental studies on ER-α36, and clearly state how this work advances the field.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation), R1-M2 (error estimates and statistical rigor for free energies), R1-M3 (overstated biological claims), R1-M4 (contradictory RMSD/RMSF statements).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of MD simulations to ER-α36 is relatively novel, given the lack of a crystal structure, but the methods used are standard and the novelty is incremental rather than transformative.
+  - **Scientific importance** Moderate. ER-α36 is a clinically relevant target, and understanding its binding landscape could inform drug design. However, the study is purely computational and does not provide experimental validation, limiting its immediate impact.
+  - **Interdisciplinary readership** Limited. The manuscript is written for a specialized audience of computational biophysicists and structural biologists. It is unlikely to appeal to a broader readership due to the technical nature and lack of broader context.
+  - **Technical soundness** Weak. The homology model validation is insufficient, the MM/GBSA results lack error estimates, and the MD simulation protocol is under-described. These issues undermine the reliability of the conclusions.
+  - **Readability for nonspecialists** Poor. The manuscript is dense and contains numerous grammatical errors. The abstract is overly general, and the results are presented in a confusing manner. A nonspecialist would struggle to understand the key findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic, but the technical flaws and overinterpretation of results prevent the claims from being considered reliable. Substantial revision, including more rigorous model validation, statistical analysis of the free energy calculations, and a more measured discussion of the biological implications, would be required before the manuscript could be considered for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that BFB induces "downregulation-accompanied cell cycle arrest at the Gap0 and Gap1 phases" is not supported by the simulation data, which only probe the LBD and do not model cellular processes.
+- The claim that the homology model is reliable is not adequately supported by the validation metrics provided (zDOPE = 0.41 is positive and not indicative of a high-confidence model).
+- The claim that BFB binds more strongly to ER-α36 than to ER-α66 is not statistically supported due to the lack of error estimates and replicate simulations.
+- The claim of "asymmetric opening" of the binding pocket is not quantitatively supported by the data presented.
+- The statement that "the RMSF (Å) of the unbound ER-α36 and ER-α66 exhibit lesser stabilities than the BFB-bound systems" is unclear and appears to contradict earlier statements in the same section.

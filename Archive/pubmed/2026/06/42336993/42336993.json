@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "42336993",
+    "doi": "10.1038/s41598-026-59045-1",
+    "title": "Identification and validation of BLK and OSBPL10 as diagnostic and prognostic biomarkers for nasopharyngeal carcinoma through machine learning algorithms."
+  },
+  "content": {
+    "abstract": "Despite substantial advances in radiotherapy and chemotherapy for nasopharyngeal carcinoma (NPC), a subset of patients still develops metastasis or recurrence following initial treatment. Additionally, the atypical early symptoms of NPC often lead to clinical misdiagnosis or missed diagnosis, resulting in late diagnosis and unfavorable prognosis. Thus, novel diagnostic biomarkers are urgently required. By integrating five GEO datasets and applying four machine learning models, namely LASSO, SVM-RFE, XGBOOST, and mRMR, this study identified two key NPC-related genes, BLK and OSBPL10. Bioinformatic analyses revealed that both genes are significantly downregulated in NPC, and this downregulation pattern was further validated in the GSE61218 dataset. Notably, receiver operating characteristic (ROC) curves confirmed their high diagnostic efficacy for NPC. BLK and OSBPL10 are involved in pathways such as B-cell receptor signaling and lipid metabolic regulation, respectively, and are closely associated with the infiltration of various immune cells. Immunohistochemical staining validation further confirmed that the protein expression levels of BLK and OSBPL10 are downregulated in NPC tissues compared with those in benign lesions, and their low expression is strongly associated with the poor prognosis of patients. In summary, these findings indicated that BLK and OSBPL10 may serve as candidate biomarkers for NPC diagnosis and prognosis, although further validation in independent cohorts is warranted.",
+    "keywords": [
+      "BLK",
+      "Diagnostic biomarker",
+      "Machine learning",
+      "Nasopharyngeal carcinoma",
+      "OSBPL10",
+      "Prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Prognosis",
+      "*Nasopharyngeal Carcinoma/diagnosis/genetics/metabolism/pathology",
+      "*Machine Learning",
+      "Oxysterol Binding Proteins",
+      "*Nasopharyngeal Neoplasms/diagnosis/genetics/metabolism/pathology",
+      "Gene Expression Regulation, Neoplastic",
+      "*Receptors, Steroid/genetics/metabolism",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Luying",
+        "Dong, Guohui",
+        "Chen, Huilin",
+        "Deng, Mengxia",
+        "Pan, Yun",
+        "Gao, Bo"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Dong G",
+        "Chen H",
+        "Deng M",
+        "Pan Y",
+        "Gao B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Basic Medicine, Dali University, Dali, 671000, Yunnan, China.",
+        "College of Basic Medicine, Dali University, Dali, 671000, Yunnan, China.",
+        "Department of Pathology, People's Hospital of Lincang, Lincang, 677000, Yunnan, China.",
+        "College of Basic Medicine, Dali University, Dali, 671000, Yunnan, China.",
+        "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, China.",
+        "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, China.",
+        "Department of Pathology, The First Affiliated Hospital of Dali University, Jiashibo Road 32, Dali, 671000, Yunnan, China.",
+        "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, China. gaobo@dali.edu.cn.",
+        "Department of Pathology, The First Affiliated Hospital of Dali University, Jiashibo Road 32, Dali, 671000, Yunnan, China. gaobo@dali.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Luying",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medicine, Dali University, Dali, 671000, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Guohui",
+        "short_name": "Dong G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medicine, Dali University, Dali, 671000, Yunnan, China.",
+          "Department of Pathology, People's Hospital of Lincang, Lincang, 677000, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Huilin",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medicine, Dali University, Dali, 671000, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Mengxia",
+        "short_name": "Deng M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Yun",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, China.",
+          "Department of Pathology, The First Affiliated Hospital of Dali University, Jiashibo Road 32, Dali, 671000, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Bo",
+        "short_name": "Gao B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, China. gaobo@dali.edu.cn.",
+          "Department of Pathology, The First Affiliated Hospital of Dali University, Jiashibo Road 32, Dali, 671000, Yunnan, China. gaobo@dali.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jun 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/24 00:46",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42336993",
+      "41249704",
+      "39082346",
+      "42351260",
+      "39707377",
+      "36438903",
+      "40083932",
+      "42132266",
+      "39891699",
+      "39951856",
+      "40859288",
+      "37980550",
+      "40098953",
+      "36587494",
+      "32271791",
+      "40053129",
+      "31856390",
+      "39304599",
+      "40294966",
+      "37538797",
+      "40574357",
+      "39577524",
+      "40272558",
+      "38804681",
+      "40247697",
+      "41872824",
+      "38918785",
+      "23529758",
+      "30610793",
+      "40530955",
+      "42303913",
+      "37766321",
+      "39869565",
+      "41099090",
+      "41705255",
+      "40121338",
+      "31159814",
+      "40001587",
+      "30973923",
+      "41217541",
+      "33728743",
+      "23758975",
+      "37505159",
+      "41545643",
+      "32329689",
+      "39286844",
+      "41394826",
+      "31863646",
+      "34261404",
+      "40373596",
+      "28557284",
+      "31665243",
+      "25663493",
+      "40074843",
+      "32669952",
+      "35441696",
+      "35509856",
+      "41188996",
+      "37929674",
+      "25292031",
+      "40033021",
+      "34998434",
+      "40956482",
+      "41667913",
+      "40158161",
+      "40118861",
+      "39342576",
+      "38664379",
+      "40504346",
+      "41904301",
+      "31743768",
+      "31884829",
+      "39342276",
+      "25925041",
+      "41101234",
+      "24966956",
+      "32454907",
+      "40360670",
+      "37063853",
+      "39726587",
+      "31826234",
+      "25964093",
+      "41633015",
+      "38518731",
+      "32324312",
+      "30121842",
+      "27647315",
+      "40818540",
+      "34544905",
+      "32697404",
+      "27629742",
+      "41022935",
+      "26715277",
+      "31867776",
+      "28159927",
+      "29807404",
+      "42365246",
+      "33160003",
+      "41300841",
+      "35837768"
+    ],
+    "review": [
+      "42336993",
+      "41633015"
+    ],
+    "pmc": [
+      "13575150"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-59045-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42336993/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1625",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

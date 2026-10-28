@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "41316467",
+    "doi": "10.1186/s40360-025-01033-8",
+    "title": "Exploring the impact of endocrine-disrupting chemicals on erectile dysfunction through network toxicology and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Erectile dysfunction (ED) is a common male sexual disorder with a multifactorial etiology. The exposure to endocrine-disrupting chemicals (EDCs) has been increasingly linked to reproductive health disorders in both men and women. EDCs can interfere with hormonal signaling and physiological homeostasis, but their specific roles and mechanisms in contributing to ED remain inadequately elucidated. METHODS: Network toxicology and enrichment analysis were used to identify potential targets and signaling pathways involved in ED induced by EDCs. Single-cell sequencing was conducted to analyze the expression profiles of these targets in corpus cavernosum tissue. Key regulatory molecules were identified through protein-protein interaction (PPI) network analysis. Core targets were selected using three machine learning algorithms to evaluate the association between EDCs and ED. Molecular docking simulations were further employed to verify the binding affinity between EDCs and target proteins, elucidating potential mechanisms of action. RESULTS: A total of 186 potential targets were identified. Single-cell sequencing revealed their expression characteristics. PPI analysis identified key regulatory molecules, and machine learning approaches pinpointed two core targets: CTNNB1 and HIF1A. Molecular docking confirmed that most EDCs exhibit stable binding to CTNNB1 and HIF1A, suggesting the involvement of associated signaling pathways in the development of ED. CONCLUSIONS: This study systematically characterizes the molecular pathways through which EDCs contribute to ED, with CTNNB1 and HIF1A emerging as central players. The identification of these core targets provides a theoretical foundation for developing targeted interventions against environment-related ED and underscores the importance of mitigating EDC exposure in public health strategies.",
+    "keywords": [
+      "Endocrine disrupting chemicals",
+      "Erectile dysfunction",
+      "Machine learning",
+      "Molecular docking",
+      "Network toxicology",
+      "Single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "*Endocrine Disruptors/toxicity",
+      "*Machine Learning",
+      "Male",
+      "Molecular Docking Simulation",
+      "*Erectile Dysfunction/chemically induced/metabolism/genetics",
+      "Humans",
+      "Protein Interaction Maps/drug effects",
+      "beta Catenin/metabolism",
+      "Signal Transduction/drug effects",
+      "Hypoxia-Inducible Factor 1, alpha Subunit"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zhiyu",
+        "Wang, Juan",
+        "Li, Yuqi",
+        "Zeng, Yang",
+        "Wu, Qilong",
+        "Zhu, Xinyao",
+        "Zhou, Tao",
+        "Deng, Qingfu"
+      ],
+      "short_names": [
+        "Liu Z",
+        "Wang J",
+        "Li Y",
+        "Zeng Y",
+        "Wu Q",
+        "Zhu X",
+        "Zhou T",
+        "Deng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China.",
+        "Department of Urology, Santai Hospital Affiliated to North Sichuan Medical College, Mianyang, Sichuan, 621100, China. mnztdoc@163.com.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China. dengqingfu@swmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zhiyu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Juan",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuqi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yang",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qilong",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xinyao",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tao",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Santai Hospital Affiliated to North Sichuan Medical College, Mianyang, Sichuan, 621100, China. mnztdoc@163.com."
+        ]
+      },
+      {
+        "full_name": "Deng, Qingfu",
+        "short_name": "Deng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, 646000, China. dengqingfu@swmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC pharmacology & toxicology"
+    ],
+    "journal_abbrev": [
+      "BMC Pharmacol Toxicol"
+    ],
+    "pub_date": "2025 Nov 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/29 06:28",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [
+      "42646955",
+      "41893530"
+    ],
+    "refs": [
+      "41056244",
+      "40599331",
+      "40254243",
+      "40247615",
+      "40241900",
+      "40226065",
+      "40217677",
+      "40153594",
+      "40136676",
+      "40101590",
+      "40080935",
+      "40033391",
+      "40019680",
+      "39993996",
+      "39986052",
+      "39965532",
+      "39899286",
+      "39707474",
+      "39568700",
+      "39536767",
+      "39500118",
+      "39472756",
+      "39344067",
+      "39337594",
+      "39047727",
+      "38883807",
+      "38846604",
+      "38795739",
+      "38719619",
+      "38718855",
+      "38688236",
+      "38674087",
+      "38565966",
+      "38555860",
+      "38446677",
+      "38375500",
+      "38266585",
+      "37943830",
+      "37769420",
+      "37454720",
+      "37373277",
+      "37236543",
+      "37222247",
+      "37169762",
+      "36959363",
+      "36813836",
+      "36290619",
+      "36176913",
+      "36041600",
+      "35939869",
+      "35798726",
+      "35795659",
+      "35765205",
+      "35466583",
+      "35175820",
+      "34829887",
+      "34557778",
+      "34134123",
+      "33151290",
+      "31068988",
+      "29608179",
+      "29174980",
+      "28190580",
+      "25521941",
+      "24930139",
+      "23040455",
+      "21366883",
+      "17287757",
+      "14597658",
+      "12525261"
+    ],
+    "similar": [
+      "41316467",
+      "41187890",
+      "41371106",
+      "41699663",
+      "41051550",
+      "40317014",
+      "41096726",
+      "41630343",
+      "39383820",
+      "42153145",
+      "40780689",
+      "40925179",
+      "42065064",
+      "41303381",
+      "41261566",
+      "41301871",
+      "39177391",
+      "41492010",
+      "39657341",
+      "41274466",
+      "40911004",
+      "41667778",
+      "39551107",
+      "41415207",
+      "41601064",
+      "41134653",
+      "41701740",
+      "41909102",
+      "41895505",
+      "40214234",
+      "41254771",
+      "41448498",
+      "41310176",
+      "39809170",
+      "41786520",
+      "40958282",
+      "39780215",
+      "41912493",
+      "41226680",
+      "41695600",
+      "41671296",
+      "41202964",
+      "42103034",
+      "41291978",
+      "41970950",
+      "42064774",
+      "40406126",
+      "41911226",
+      "41656572",
+      "42005273",
+      "41616688",
+      "40681587",
+      "41548764",
+      "40916281",
+      "41442003",
+      "41790626",
+      "41444316",
+      "39993869",
+      "41629408",
+      "41183465",
+      "40676786",
+      "40790309",
+      "40080935",
+      "41601077",
+      "41465929",
+      "40467639",
+      "38310567",
+      "41977161",
+      "40797463",
+      "41574914",
+      "41559994",
+      "40990645",
+      "41444679",
+      "40467768",
+      "41828455",
+      "34134123",
+      "42131814",
+      "42163695",
+      "41330962",
+      "41413866",
+      "40923309",
+      "41780179",
+      "41344141",
+      "41088807",
+      "41459671",
+      "42004468",
+      "39251712",
+      "40592862",
+      "39076092",
+      "40187376",
+      "41347325",
+      "41239601",
+      "40266298",
+      "38830480",
+      "40239776",
+      "40350911",
+      "40367801",
+      "41639929",
+      "42220119",
+      "38379386"
+    ],
+    "review": [
+      "41316467",
+      "40467768",
+      "34134123"
+    ],
+    "pmc": [
+      "12661834"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcpharmacoltoxicol.biomedcentral.com/articles/10.1186/s40360-025-01033-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/erectiledysfunction.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Erectile Dysfunction"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41316467/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1745",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

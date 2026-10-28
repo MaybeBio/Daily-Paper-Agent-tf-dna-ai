@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations and free energy calculations to show that the topology (linear vs. branched) and grafting density of polyethyleneimine on graphene oxide modulate DNA binding affinity in a non-monotonic manner, with intermediate densities giving strongest yet reversible interactions, and that branched PEI engages DNA more effectively via multivalent groove interactions while linear PEI binds diffusely along the phosphate backbone.
+- **Visible evidence base** Abstract text only; no figures, tables, or method details provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, system setup, convergence criteria, PMF error estimates, RDF plots, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting and potentially useful computational study on a relevant topic for nonviral gene delivery. The central claim of a non-monotonic relationship between PEI density and DNA binding affinity is counterintuitive and, if well supported, would be a valuable contribution. However, the abstract alone does not provide sufficient detail to assess the robustness of the simulations, the statistical significance of the PMF differences, or the generalizability of the conclusions. The work appears technically plausible but the evidence base is currently incomplete for a full evaluation.
+- **Who would be interested in the results, and why** Researchers in nanomedicine, gene delivery, and biomolecular simulation would be interested. The findings could inform the rational design of GO-PEI vectors by identifying optimal polymer densities and topologies, which is directly relevant to experimental groups developing nonviral transfection agents. Computational biophysicists studying polymer-nucleic acid interactions may also find the mechanistic insights valuable.
+- **Major strengths** The study addresses a gap in understanding how polymer architecture and surface density jointly control DNA binding on GO-PEI. The use of PMF calculations to quantify binding affinity is a rigorous approach. The proposed mechanistic explanation involving a balance of electrostatic attraction, steric repulsion, and ionic screening is physically plausible and testable. The distinction between branched and linear PEI binding modes adds useful molecular-level detail.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The abstract claims a non-monotonic relationship between PEI coverage and DNA binding affinity, with intermediate densities yielding the strongest yet reversible interactions.  
+    - **Evidence pointer** Abstract text; location not provided  
+    - **Concern** The abstract reports PMF analysis revealing this non-monotonic trend, but no quantitative data, error bars, or statistical comparisons are provided. It is unclear whether the differences between densities are significant relative to simulation uncertainty, and whether the PMF calculations were converged.  
+    - **Why it matters** The central conclusion rests entirely on the reliability of the free energy calculations. Without evidence of convergence, adequate sampling, and error analysis, the non-monotonic claim cannot be distinguished from simulation noise.  
+    - **Resolution test** Provide PMF profiles with error estimates, convergence checks, and a clear statistical comparison across densities. If possible, include replicate simulations or bootstrapped uncertainties.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The abstract states that RDF analysis confirms the formation of dense chloride ion shells at high PEI densities, which inhibit DNA approach by neutralizing surface charge.  
+    - **Evidence pointer** Abstract text; location not provided  
+    - **Concern** The claim that chloride ion shells "inhibit DNA approach" is presented as a causal mechanism, but the abstract does not specify how this was established beyond RDF observation. Correlation between ion density and reduced binding does not prove causation, and alternative explanations (e.g., direct steric effects of PEI) are not excluded.  
+    - **Why it matters** The proposed mechanism is a key part of the explanatory framework. If the causal link is not rigorously tested, the mechanistic insight may be overstated.  
+    - **Resolution test** Provide additional analyses, such as electrostatic potential maps, ion residence times, or controlled simulations with modified ionic conditions, to support the causal role of chloride shells.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Reproducibility  
+    - **Claim pointer** The abstract describes systematic variation of N/P ratio through adjustments in surface amine density.  
+    - **Evidence pointer** Abstract text; location not provided  
+    - **Concern** The abstract does not specify the range of densities studied, the number of systems, or how the N/P ratio was mapped to surface amine density. Without these details, the systematic nature of the study cannot be assessed.  
+    - **Why it matters** Reproducibility and interpretation of the density-dependent trends require clear definition of the parameter space.  
+    - **Resolution test** Include a table or description of all simulated systems, with exact grafting densities, N/P ratios, and system dimensions.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Readability  
+    - **Affected element** Abstract wording  
+    - **Evidence pointer** Abstract text  
+    - **Issue** The phrase "direct impact of this parameter between DNA and GO-PEI interactions" is grammatically awkward and unclear.  
+    - **Required correction** Rephrase to "direct impact of this parameter on DNA-GO-PEI interactions."  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Abstract scope  
+    - **Evidence pointer** Abstract text  
+    - **Issue** The abstract does not mention any experimental validation or comparison with prior experimental data, which would strengthen the relevance of the computational findings.  
+    - **Required correction** Add a sentence noting whether the predictions align with existing experimental observations, or explicitly state that experimental validation is forthcoming.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Technical soundness  
+    - **Affected element** Force field and system setup  
+    - **Evidence pointer** Abstract text; location not provided  
+    - **Issue** The abstract does not specify the force field used for GO, PEI, DNA, or ions, nor the water model. These choices can significantly affect PMF results.  
+    - **Required correction** Include force field and water model details in the methods summary.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core mechanistic claims are not verifiable from the abstract alone. R1-M3 is important for reproducibility but not necessarily blocking if the full manuscript provides the details.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The non-monotonic density dependence and the topology-specific binding modes are potentially original, but the abstract does not clearly distinguish these from prior computational studies on PEI-DNA interactions.  
+  - **Scientific importance** The topic is relevant to gene delivery, but the significance depends on whether the findings translate to experimental systems, which is not demonstrated.  
+  - **Interdisciplinary readership** The work bridges materials science, biophysics, and nanomedicine, and the abstract is written accessibly for a broad audience.  
+  - **Technical soundness** Not assessable from the abstract; the lack of methodological detail and error analysis prevents verification.  
+  - **Readability for nonspecialists** The abstract is generally clear, though some phrasing could be improved.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the technical evidence required to support the central claims is not visible. I would be supportive if the full manuscript provides rigorous PMF convergence, error analysis, and causal evidence for the ion-mediated mechanism.
+
+## Risk / unsupported claims
+- The non-monotonic relationship between PEI density and DNA binding affinity is unsupported without quantitative PMF data and error analysis.
+- The causal role of chloride ion shells in inhibiting DNA approach is unsupported; only a correlational RDF observation is mentioned.
+- The claim that branched PEI engages DNA "more effectively" is not quantified in the abstract.
+- The generalizability of the findings to experimental GO-PEI systems is not established.

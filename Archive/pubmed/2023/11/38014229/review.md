@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present SEAMoD, a convolutional neural network tool that simultaneously identifies transcription factor motifs and models sequence-to-expression relationships for differentially expressed genes, using enhancer activity scores and requiring fewer parameters and less training data than existing models. They report application to mouse neural stem cell differentiation, modeling nearly 12,000 genes with 81% accuracy and identifying Olig2, E2f family TFs, Foxo3, and Tcf4 as key regulators.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics beyond the stated accuracy, no model architecture details, no validation statistics, no comparison benchmarks, no data availability statements
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, code availability, and any statistical or benchmarking details
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful tool that addresses a real gap in integrating motif discovery with sequence-to-expression modeling. However, the claims of interpretability, parameter efficiency, and biological discovery are presented without supporting quantitative evidence. The single accuracy figure for 12,000 genes is insufficient to evaluate model performance, and the identification of specific TFs as "key regulators" lacks any statistical or functional validation context. The work may be of interest to computational biologists and gene regulation researchers, but the current abstract does not establish the case for its novelty or reliability.
+- **Who would be interested in the results, and why** Computational biologists developing interpretable deep learning models for regulatory genomics, experimentalists studying transcriptional regulation in neural development, and researchers using motif analysis tools for enhancer prioritization. The tool's promise of lower data requirements and interpretability could appeal to labs with limited computational resources.
+- **Major strengths** The conceptual integration of motif finding and sequence-to-expression modeling in a single framework is a sensible and potentially valuable contribution. The emphasis on biological interpretability and reduced parameter count addresses known limitations of black-box neural network models in genomics. The application to a biologically relevant system, neural stem cell differentiation, provides a concrete use case.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We used SEAMoD to model differential expression of nearly 12,000 genes with an accuracy of 81%"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single accuracy metric without defining what "accuracy" means in this context, how it was computed, what the baseline or null expectation is, or how it varies across conditions or gene subsets. No confidence intervals, cross-validation details, or comparison to alternative methods are provided.
+  - **Why it matters** Without a clear definition of the metric and its statistical context, the 81% figure is uninterpretable. A model could achieve high accuracy by predicting the majority class or by overfitting, and the abstract provides no way to assess whether the reported performance is meaningful.
+  - **Resolution test** Provide a precise definition of the accuracy metric, report performance on held-out test sets with confidence intervals, and include comparisons to at least one baseline model or existing tool.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Compared to existing neural network models of non-coding sequences, SEAMoD uses far fewer parameters, requires far less training data, and emphasizes biological interpretability"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The comparative claims are made without any quantitative support. No parameter counts, training set sizes, or interpretability metrics are given, and no specific existing models are named for comparison.
+  - **Why it matters** These claims are central to the tool's value proposition. Without numbers or named baselines, the reader cannot verify whether the advantages are real or modest, and the claims are not falsifiable from the provided material.
+  - **Resolution test** Provide a table or figure comparing parameter counts, training data requirements, and interpretability features against at least two named existing models, with clear definitions of each metric.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "identifying the Olig2, E2f family TFs, Foxo3, and Tcf4 as key transcriptional regulators of the differentiation process"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The identification of these TFs is presented as a key outcome, but no evidence is provided for how "key" is defined, what statistical significance or effect sizes were observed, or whether these findings were validated experimentally or against known literature.
+  - **Why it matters** Without validation or a clear ranking criterion, the biological claims are speculative. The reader cannot distinguish between a robust discovery and a model artifact, which undermines confidence in the tool's utility for generating testable hypotheses.
+  - **Resolution test** Report the model's contribution scores for these TFs with uncertainty estimates, compare against known regulators from published datasets, and include at least one independent validation, such as ChIP-seq enrichment or reporter assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses several technical terms without brief definitions, such as "activity scores of putative enhancers" and "sequence-to-expression modeling," which may be unclear to readers outside computational genomics.
+  - **Required correction** Add one-sentence clarifications for these terms or rephrase to make the workflow accessible to a broader biological audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention whether the SEAMoD code, trained models, or the NSC differentiation dataset are publicly available, which is essential for reproducibility.
+  - **Required correction** State data and code availability in the abstract or refer to a methods section where this information is provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model input description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that SEAMoD "automatically searches for the most promising enhancer for each gene" but does not explain how this search is performed or how "promising" is defined.
+  - **Required correction** Briefly describe the enhancer selection criterion or refer to a methods section with the algorithmic details.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks the quantitative and comparative evidence needed to support the central claims of model performance, efficiency advantages, and biological discovery.
+- **Assessment against Nature-style criteria** Originality: The conceptual combination of motif discovery and expression modeling is not entirely new, but the specific design choices may offer a novel contribution, though this cannot be fully assessed from the abstract. Scientific importance: The application to neural stem cell differentiation is relevant, but the biological findings are not substantiated, limiting the potential impact. Interdisciplinary readership: The tool could appeal to both computational and experimental biologists, but the abstract's technical density may reduce accessibility. Technical soundness: The lack of methodological detail and validation statistics prevents an assessment of reliability. Readability for nonspecialists: The abstract is moderately readable but would benefit from clearer definitions of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible tool and application, but the absence of quantitative support for performance, efficiency, and biological claims means the case is not made. A revised version with full methods, validation, and comparisons could change this assessment.
+
+## Risk / unsupported claims
+- The 81% accuracy figure is unsupported without a metric definition, baseline, or confidence interval.
+- The claim of "far fewer parameters" and "far less training data" is unsupported without quantitative comparisons.
+- The identification of Olig2, E2f family TFs, Foxo3, and Tcf4 as "key regulators" is unsupported without ranking criteria, statistical significance, or validation.
+- The claim that SEAMoD "automatically searches for the most promising enhancer" is unverifiable without algorithmic details.
+- The general statement that SEAMoD "emphasizes biological interpretability" is not defined or measured.

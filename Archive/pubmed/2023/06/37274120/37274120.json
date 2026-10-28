@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "37274120",
+    "doi": "10.1093/nargab/lqad054",
+    "title": "Correction of transposase sequence bias in ATAC-seq data with rule ensemble modeling."
+  },
+  "content": {
+    "abstract": "Chromatin accessibility assays have revolutionized the field of transcription regulation by providing single-nucleotide resolution measurements of regulatory features such as promoters and transcription factor binding sites. ATAC-seq directly measures how well the Tn5 transposase accesses chromatinized DNA. Tn5 has a complex sequence bias that is not effectively scaled with traditional bias-correction methods. We model this complex bias using a rule ensemble machine learning approach that integrates information from many input k-mers proximal to the ATAC sequence reads. We effectively characterize and correct single-nucleotide sequence biases and regional sequence biases of the Tn5 enzyme. Correction of enzymatic sequence bias is an important step in interpreting chromatin accessibility assays that aim to infer transcription factor binding and regulatory activity of elements in the genome.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wolpe, Jacob B",
+        "Martins, Andre L",
+        "Guertin, Michael J"
+      ],
+      "short_names": [
+        "Wolpe JB",
+        "Martins AL",
+        "Guertin MJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7148-3538"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, VA, USA.",
+        "Center for Cell Analysis and Modeling, University of Connecticut, Farmington, CT, USA.",
+        "Department of Genetics and Genome Sciences, University of Connecticut, Farmington, CT, USA.",
+        "Center for Cell Analysis and Modeling, University of Connecticut, Farmington, CT, USA.",
+        "Department of Genetics and Genome Sciences, University of Connecticut, Farmington, CT, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wolpe, Jacob B",
+        "short_name": "Wolpe JB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Martins, André L",
+        "short_name": "Martins AL",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cell Analysis and Modeling, University of Connecticut, Farmington, CT, USA.",
+          "Department of Genetics and Genome Sciences, University of Connecticut, Farmington, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Guertin, Michael J",
+        "short_name": "Guertin MJ",
+        "identifiers": [
+          "0000-0001-7148-3538"
+        ],
+        "affiliations": [
+          "Center for Cell Analysis and Modeling, University of Connecticut, Farmington, CT, USA.",
+          "Department of Genetics and Genome Sciences, University of Connecticut, Farmington, CT, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/05 13:04",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "42642485",
+      "41203935",
+      "41108684",
+      "40389811",
+      "39829783",
+      "38804369"
+    ],
+    "refs": [
+      "36130957",
+      "34859208",
+      "34850907",
+      "33590861",
+      "32848148",
+      "32728249",
+      "30808370",
+      "30791920",
+      "30567711",
+      "29126307",
+      "28904015",
+      "28764645",
+      "28756949",
+      "28375666",
+      "26406244",
+      "25953851",
+      "25559105",
+      "25294828",
+      "25242143",
+      "24317252",
+      "24097267",
+      "23922824",
+      "23576721",
+      "23034120",
+      "22955617",
+      "22734930",
+      "22479205",
+      "22388286",
+      "21330290",
+      "21062823",
+      "20639541",
+      "20110278",
+      "19339991",
+      "18725950",
+      "18680433",
+      "18243105",
+      "15173120",
+      "12603728",
+      "12466850",
+      "11237011",
+      "2172928",
+      "455450",
+      "455449"
+    ],
+    "similar": [
+      "37274120",
+      "34729473",
+      "34488759",
+      "31427911",
+      "30791920",
+      "32213349",
+      "32312703",
+      "25559105",
+      "36130957",
+      "32312702",
+      "28764645",
+      "35604124",
+      "36062065",
+      "36173566",
+      "35848835",
+      "34870838",
+      "35296236",
+      "29052193",
+      "31409230",
+      "27832532",
+      "36902216",
+      "36807074",
+      "34313779",
+      "30598689",
+      "31160376",
+      "29982337",
+      "35127984",
+      "37211599",
+      "35994571",
+      "29155775",
+      "30375457",
+      "30016465",
+      "26846207",
+      "29126307",
+      "36807060",
+      "36807064",
+      "34382186",
+      "32321567",
+      "34875002",
+      "32039199",
+      "33074546",
+      "31164146",
+      "28655330",
+      "32353042",
+      "36173568",
+      "30064353",
+      "35411004",
+      "35695574",
+      "33987532",
+      "28075484",
+      "35005085",
+      "35255493",
+      "34273560",
+      "35997564",
+      "30696696",
+      "34284136",
+      "33584814",
+      "36807076",
+      "35359328",
+      "36466281",
+      "32850739",
+      "30042136",
+      "36276837",
+      "32376693",
+      "31037302",
+      "33555221",
+      "33172005",
+      "36656543",
+      "35486242",
+      "35867231",
+      "30580963",
+      "26977395",
+      "35895229",
+      "36995609",
+      "39026714",
+      "38974858"
+    ],
+    "review": [
+      "37274120",
+      "31427911",
+      "32312703",
+      "32312702",
+      "35255493"
+    ],
+    "pmc": [
+      "10236359"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37274120/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37274120",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqad054",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,87 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods. Figures are referenced but not provided. Supplementary tables are referenced but not provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and internal consistency of the presented work. Structural biology claims are assessed based on the textual description only, as coordinate files and electron density maps were not available for independent verification.
+- **Shared manuscript claim summary** The authors identify amino acid residues H20 and R75 in the AraC/XylS family virulence regulator Rns from enterotoxigenic *E. coli* as critical for binding the inhibitory fatty acid decanoic acid. Mutations that remove the positive charge of these residues or that sterically occlude the binding pocket render Rns insensitive to fatty acid inhibition in both transcriptional reporter assays and electrophoretic mobility shift assays. Crystal structures of the mutant proteins show no bound ligand and increased conformational flexibility relative to the wild-type protein, supporting a model in which fatty acid binding rigidifies Rns and inhibits its DNA binding activity.
+- **Visible evidence base** Textual descriptions of results, including qualitative statements about β-galactosidase assays, EMSA experiments, and crystallographic analyses. References to Figures 1–8, Figure S1, and Tables S1–S4. No actual figures, tables, or numerical data are included in the provided material.
+- **Missing materials affecting confidence** All figures and figure legends, all supplementary tables (including crystallographic data collection and refinement statistics), the previously published wild-type Rns structure (PDB 6XIU), the newly deposited mutant structures (PDB IDs 9CA5, 8VRQ, 8VST, 9CA6), and any numerical quantification of assay results. Without these, quantitative assessment of the claims is not possible.
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses a question of considerable interest in the field of bacterial virulence regulation, namely whether AraC/XylS family transcription factors are directly regulated by small molecule ligands. The authors build on their prior crystallographic discovery of decanoic acid bound to Rns and provide a systematic mutagenesis study that implicates specific residues in ligand binding and inhibition. The combination of structural, biochemical, and cell-based assays is appropriate and potentially powerful. However, the provided text lacks all quantitative data, figures, and statistical analyses, making it impossible to evaluate the strength of the evidence. The claim that fatty acid binding induces a rigid conformation that inhibits DNA binding is plausible but only partially supported by the textual description. The observation that the I14F/I17F variant shows a disordered α2 helix is intriguing and reminiscent of the apo-ToxT structure, but the connection between this conformational change and the inhibition mechanism remains speculative. The manuscript is clearly written and the logic is easy to follow, but the absence of data presentation is a major limitation of this review.
+- **Who would be interested in the results, and why** Researchers studying AraC/XylS family transcription factors, bacterial virulence gene regulation, and the development of anti-virulence therapeutics. The work also has relevance to the broader field of small molecule regulation of transcription factors and to structural biologists interested in ligand-induced conformational changes in multi-domain proteins. The potential for a common regulatory mechanism across multiple enteric pathogens makes the results of interest to a wider infectious disease community.
+- **Major strengths** The study addresses a mechanistically important question with a clear hypothesis derived from prior structural work. The use of multiple complementary approaches, including site-directed mutagenesis, transcriptional reporter assays, EMSA, and X-ray crystallography, is appropriate. The identification of specific residues that coordinate the carboxylate head group of decanoic acid provides a concrete molecular basis for ligand recognition. The inclusion of a steric occlusion mutant (I14F/I17F) is a clever approach to test the requirement for pocket occupancy. The comparison to the apo-ToxT structure in the discussion is insightful and places the findings in a broader context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that decanoic acid inhibits Rns DNA binding and that mutations in the binding pocket abolish this inhibition, with specific IC50 values reported for wild-type and mutant proteins.
+  - **Evidence pointer** Results sections "Decanoic acid interferes with Rns DNA binding" and "Electrostatic interactions contribute to occupancy of the decanoic acid binding pocket"; Figures 2, 4; location not provided
+  - **Concern** The manuscript text describes quantitative results, including IC50 values of 1.15 mM for wild-type Rns and estimates exceeding 10 mM for mutants, but no actual data, gels, dose-response curves, or statistical analyses are presented in the provided material. The EMSA results are described qualitatively, and the β-galactosidase assay data are presented only as percentage inhibition values without error bars, replicates, or statistical tests. Without the figures and underlying numerical data, the central claims of differential sensitivity to decanoic acid cannot be independently assessed.
+  - **Why it matters** The entire mechanistic argument rests on the demonstration that specific mutations reduce or abolish fatty acid inhibition. If the quantitative differences between wild-type and mutant proteins are not robustly established with appropriate replicates and statistics, the conclusions are not supported.
+  - **Resolution test** Provide the actual figures with dose-response curves, gel images, and bar charts with error bars and statistical significance indicators. Report the number of biological and technical replicates for each assay. Provide the raw data or a clear statement of data availability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The authors claim that the crystal structures of the H20A, R75A, H20A/R75A, and I14F/I17F variants show no bound fatty acid and that the I14F/I17F variant exhibits a disordered α2 helix, indicating increased conformational flexibility.
+  - **Evidence pointer** Results sections "Electrostatic interactions contribute to occupancy of the decanoic acid binding pocket" and "Occlusion of the fatty acid binding pocket"; Figures 3, 6, 7; Table S4; location not provided
+  - **Concern** The crystallographic analysis is described only in text. No electron density maps, structural overlays, or refinement statistics are provided. The claim that "no electron density would be consistent with a bound fatty acid" is a negative result that requires careful presentation of map quality and contour levels. The statement that the I14F/I17F variant has a disordered α2 helix is based on the absence of interpretable density, which is a challenging claim to evaluate without seeing the maps. The RMSD values and the distance measurements between residues A73 and L219 are reported without context or error estimates.
+  - **Why it matters** The structural data are the foundation for the claim that the mutations prevent ligand binding. If the map quality is poor or the interpretation of disorder is ambiguous, the conclusion that the pocket is empty in the mutants is not secure. The comparison to the apo-ToxT structure in the discussion depends on the reliability of the I14F/I17F structural interpretation.
+  - **Resolution test** Provide the crystallographic table with resolution, R-factors, completeness, and B-factors. Show representative electron density for the binding pocket in each structure, including the wild-type with bound ligand and the mutants. Provide a clear description of how the disorder in α2 was assessed and what evidence supports this interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose that fatty acid binding switches Rns from a relaxed to a rigid conformation, thereby inhibiting DNA binding, and suggest this may be a common regulatory mechanism among AraC-family virulence regulators.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The conformational model is inferred from the observation that the ligand-free mutants are more flexible than the wild-type with bound ligand. However, the authors have not demonstrated that the wild-type protein in the absence of ligand adopts the same flexible conformation as the mutants. The comparison is between ligand-bound wild-type and ligand-free mutants, which conflates the effect of the mutation with the effect of ligand removal. A direct test would require a ligand-free wild-type structure or a demonstration that the mutants are conformationally equivalent to the apo state of the wild-type protein.
+  - **Why it matters** The proposed mechanism of rigidification upon ligand binding is a central conceptual claim of the paper. If the observed flexibility differences are due to the mutations themselves rather than to the absence of ligand, the mechanistic interpretation is not supported.
+  - **Resolution test** Obtain a structure of wild-type Rns in the absence of ligand, or demonstrate through solution studies such as hydrogen-deuterium exchange or small-angle X-ray scattering that the wild-type protein becomes more flexible upon ligand removal. Alternatively, temper the mechanistic claim to what the data directly show.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results section "Occlusion of the fatty acid binding pocket"
+  - **Evidence pointer** Text states "Rns–I14F/I17F was far less sensitive to decanoic acid inhibition than WT Rns; 25% vs. 75% max inhibitory activity"; location not provided
+  - **Issue** The text states that the I14F/I17F variant showed 25% max inhibitory activity, but it is unclear whether this residual inhibition is statistically significant relative to no inhibition. The text also states that the I14Y/I17Y variant "appeared to be largely insensitive" but was not investigated further due to low activity, which raises the question of whether the low activity confounds the interpretation of insensitivity.
+  - **Required correction** Clarify whether the 25% residual inhibition is significant and discuss whether the low activity of I14Y/I17Y confounds the interpretation. Provide statistical analysis for these comparisons.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Materials and Methods, "β-galactosidase assays"
+  - **Evidence pointer** "All strains were grown aerobically at 37 °C to stationary phase in LB medium with 100 µg/ml ampicillin with or without decanoic acid in 0.4% vol/vol DMSO"; location not provided
+  - **Issue** The concentration range of decanoic acid used in the β-galactosidase assays is not stated in the methods. The results section mentions concentrations from 20 µM to 1.2 mM in prior work, but the current study's concentrations are not specified.
+  - **Required correction** Specify the decanoic acid concentrations used in the β-galactosidase assays and the EMSA experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Overall structural analysis"
+  - **Evidence pointer** Text states "Aligning the back bones between the wildtype and altered protein structures gave RMSDs of 0.574 to 1.17 Å 2"; location not provided
+  - **Issue** The units "Å 2" for RMSD are incorrect; RMSD is reported in Å. This appears to be a typographical error.
+  - **Required correction** Correct the units to Å.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Materials and Methods, "Rns variant data collection, structural determination, and analysis"
+  - **Evidence pointer** Text states "See supplementary table for data and model statistics ( Table S4 )"; location not provided
+  - **Issue** The supplementary table is not provided in the submitted material, and the text does not summarize key statistics such as resolution, R-free, or Ramachandran statistics in the main text.
+  - **Required correction** Provide the supplementary table or include key crystallographic statistics in the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction
+  - **Evidence pointer** Text states "Diarrheal disease is the second leading cause of death in children worldwide, leading to an estimated half a million deaths annually( WHO 2024 )"; location not provided
+  - **Issue** The reference to WHO 2024 is not formatted consistently with other citations in the text, and the full reference is not provided in the reference list.
+  - **Required correction** Format the citation consistently and ensure the full reference is included.
+
+## Risk / unsupported claims
+
+- The claim that decanoic acid inhibits Rns DNA binding with an IC50 of 1.15 mM is not verifiable from the provided material, as no dose-response data or gel images are shown.
+- The claim that the H20A, R75A, H20A/R75A, and I14F/I17V variants are insensitive to decanoic acid is not quantitatively supported in the provided text.
+- The claim that the mutant structures show no bound ligand is a negative result that cannot be evaluated without electron density maps and refinement statistics.
+- The claim that the I14F/I17V variant has a disordered α2 helix is not verifiable without structural figures.
+- The claim that fatty acid binding switches Rns from a relaxed to a rigid conformation is an interpretation that goes beyond the presented data, as no ligand-free wild-type structure or solution study is provided.
+- The claim that inhibition of AraC virulence regulators by fatty acids is a common paradigm across many bacterial pathogens is presented as a conclusion but is only supported by references to prior work, not by new data in this study.
+- The claim that the results lay the groundwork for the development of small molecule therapeutics is speculative and not directly supported by the data presented.

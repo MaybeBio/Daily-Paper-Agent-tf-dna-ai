@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, and supplemental file descriptions.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and resource utility as presented in the provided text. No external data or supplementary files were accessed.
+- **Shared manuscript claim summary** The manuscript reports the completion of the modERN consortium effort, presenting ChIP-seq binding profiles for 604 Drosophila melanogaster and 350 Caenorhabditis elegans transcription factors, identifying 3.6M and 0.9M binding sites respectively. The authors describe clustering of these sites into "metapeaks," analyze their genomic distribution and conservation, and use a machine learning model to identify transcription factors important for cell type-specific gene expression. They also present a web resource for data access.
+- **Visible evidence base** The manuscript text, including all figure legends, table descriptions, and method summaries. Specific data values (e.g., peak counts, cosine angles, percentages) are reported in the text.
+- **Missing materials affecting confidence** The actual figures and tables, all supplementary files (including the master spreadsheet of TFs, cosine angle data, and chromatin overlap data), and the associated code for the random forest model were not provided. This limits the ability to independently verify the statistical analyses, the quality of the ChIP-seq data, and the performance of the machine learning model.
+
+## Reviewer
+- **Overall assessment** This manuscript represents a major, community-focused resource effort. The scale of data generation is impressive, and the public availability of strains and processed data is a significant contribution. The core descriptive analyses of peak and metapeak distributions are useful. However, the central analytical claim, the use of a random forest model to infer cell type-specific regulatory relationships, is presented with insufficient detail and validation to fully assess its robustness and biological meaning. The manuscript is more a comprehensive data report than a study driven by a novel biological hypothesis, and its impact will largely depend on how the community uses the resource. The lack of access to the primary data and detailed methods for the modeling is a major limitation for this review.
+- **Who would be interested in the results, and why** This resource will be of high interest to the Drosophila and C. elegans research communities, particularly developmental biologists, molecular geneticists, and computational biologists studying gene regulation. The TF binding data, the tagged strains, and the web portal will be valuable for generating and testing hypotheses about transcriptional networks. Researchers interested in comparative genomics of regulatory elements and the evolution of TF binding will also find the datasets useful.
+- **Major strengths**
+    1.  The scale and systematic nature of the resource are a major strength. Generating ChIP-seq data for over 900 TFs across two major model organisms is a monumental achievement.
+    2.  The commitment to community resource sharing, through public strain collections and a dedicated web portal, is exemplary and will ensure the data's long-term utility.
+    3.  The analysis of "metapeaks" provides a useful framework for understanding the clustering of TF binding and its relationship to gene regulation.
+    4.  The application of a machine learning model to integrate binding and expression data is a forward-looking approach that attempts to extract regulatory relationships from the large dataset.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical soundness and validation of the central analytical claim
+        - **Claim pointer** The manuscript claims that a random forest model, using TF binding data, can identify sets of TFs with a prominent role in promoting target gene expression in specific cell types.
+        - **Evidence pointer** Results section "Modeling gene expression patterns", Figure 7, and Methods section "Random forest model of cell type expression".
+        - **Concern** The description of the random forest model is insufficient to evaluate its validity. The text mentions testing "more than 40 different models" and selecting the "best" one, but the criteria for "best" are not clearly defined. The final model's parameters, feature selection process, and the specific data used for training and testing are not fully described. Most critically, there is no clear validation of the model's predictions. The text states the model "reproduced many known relationships," but this is anecdotal. A rigorous assessment would require a quantitative comparison against a null model or a held-out set of known regulatory interactions.
+        - **Why it matters** The model is a central part of the paper's analytical contribution. If the model is not robustly validated, its predictions of TF importance in specific cell types cannot be trusted, undermining a key conclusion of the work. The claim that the model identifies "prominent" TFs is a strong one that requires statistical support.
+        - **Resolution test** The authors should provide a detailed description of the model selection process, including the performance metrics used. They should validate the model by, for example, showing that its predictions for known TF-target interactions are significantly better than chance, or by demonstrating that the model's performance on a held-out test set is robust. A clear comparison of the model's performance against simpler baseline models (e.g., based on TF expression alone) is also necessary.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Data interpretation and biological significance
+        - **Claim pointer** The manuscript states that the data "define 3.6M sites in the fly and 0.9 M sites in the worm" and that these sites "sample much of the regulatory DNA of each genome."
+        - **Evidence pointer** Results section "ChIP-seq resource", "Peaks and metapeaks", and Figure 2.
+        - **Concern** The claim that the metapeaks "sample much of the regulatory DNA" is based on the observation that they cover a large fraction of the genome and have intermediate conservation. However, the analysis does not directly demonstrate that these regions are enriched for functional regulatory elements beyond what would be expected by chance. The comparison to ATAC-seq data is mentioned, but the degree of overlap is not quantified in the text. The biological significance of the large number of binding sites, many of which may be non-functional, is not critically discussed.
+        - **Why it matters** A central premise of the resource is that the identified binding sites are biologically meaningful. If a large fraction of these sites are not functional, the utility of the resource for identifying regulatory relationships is diminished. The paper should provide a more rigorous assessment of the functional potential of the identified regions.
+        - **Resolution test** The authors should provide quantitative data on the overlap between metapeaks and ATAC-seq peaks, and compare this to a random expectation. They could also analyze the enrichment of conserved sequence motifs or eQTLs within metapeaks to support their functional relevance. A discussion of the potential for false positives in ChIP-seq and the implications for the interpretation of the dataset is needed.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Reproducibility and data accessibility
+        - **Claim pointer** The manuscript states that "All of the data have been deposited at the ENCODE Data Coordinating Center" and that the new website provides access to "all the data."
+        - **Evidence pointer** Results section "Data access" and Methods section "Peak calling".
+        - **Concern** The text states that the ENCODE DCC stopped accepting submissions in October 2022, and that newer data is only available on the modERN website. This creates a fragmented data repository. The manuscript does not provide a clear statement on the long-term sustainability and archival plan for the modERN website. Furthermore, the description of the data files available on the website is high-level, and it is unclear if all raw and processed data, as well as the necessary metadata, are available in a standard, machine-readable format.
+        - **Why it matters** For a resource paper, data accessibility and long-term availability are paramount. A fragmented or potentially temporary data repository could limit the long-term impact and usability of the resource. The lack of detail on data formats and metadata standards could hinder reanalysis by the community.
+        - **Resolution test** The authors should clarify the archival plan for the modERN website and ensure that all data, including that generated after October 2022, is deposited in a permanent public archive. They should provide a detailed description of the data files, their formats, and the associated metadata on the website and in the manuscript.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity and completeness of methods
+        - **Affected element** Methods section "TF Pearson correlations for the worm and fly stages based on co-occurrence in same metapeak"
+        - **Evidence pointer** Methods section, location not provided.
+        - **Issue** The description of the Pearson correlation analysis is brief. It is unclear how the correlation values were used to define "clusters" of TFs, and how the significance of these correlations was assessed.
+        - **Required correction** Provide more detail on the clustering method and how statistical significance was determined for the observed correlations.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Interpretation of results
+        - **Affected element** Results section "Target expression patterns can reflect TF expression patterns"
+        - **Evidence pointer** Results section, Figure 6.
+        - **Issue** The use of cosine similarity to compare TF and target expression patterns is interesting, but the choice of a threshold of 0.2 is arbitrary and not justified. The biological meaning of a cosine angle of 0.2 is not explained.
+        - **Required correction** Justify the choice of the cosine threshold and provide a more interpretable metric or visualization of the similarity between TF and target expression patterns.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Presentation of data
+        - **Affected element** Results section "Strain Generation and Resource"
+        - **Evidence pointer** Results section, Table 1.
+        - **Issue** The manuscript mentions that strains were generated for 616 fly TFs and 508 worm TFs, but the number of TFs with successful ChIP-seq data is different (604 and 350). The reasons for this discrepancy are not fully explained in the text.
+        - **Required correction** Clarify the relationship between the number of strains generated and the number of successful ChIP-seq experiments, and briefly explain the reasons for the attrition.
+- **Technical failings that need to be addressed before the case is established**
+    - The lack of a clear and quantitative validation of the random forest model (R1-M1) is a critical technical failing that prevents the central analytical claim from being established.
+    - The manuscript does not provide a rigorous, quantitative assessment of the functional relevance of the identified binding sites and metapeaks (R1-M2).
+- **Assessment against Nature-style criteria**
+    - **Originality** The work is not conceptually novel, as it is a culmination of a long-running consortium project. However, the scale and systematic nature of the resource are unique and represent a significant original contribution to the field.
+    - **Scientific importance** The resource is of high importance to the model organism communities. It provides a foundation for future studies on gene regulation, development, and evolution. The importance is more in the resource itself than in the specific biological insights presented in this manuscript.
+    - **Interdisciplinary readership** The primary audience is researchers in molecular biology, genetics, and genomics. The work is less likely to appeal to a broader interdisciplinary readership due to its focus on resource generation and descriptive analysis.
+    - **Technical soundness** The technical soundness of the data generation (ChIP-seq) is likely high, given the consortium's track record. However, the soundness of the central analytical claim (the random forest model) is not established due to insufficient detail and validation.
+    - **Readability for nonspecialists** The manuscript is written for a specialist audience. The concepts of ChIP-seq, metapeaks, and machine learning are used without extensive introduction, making it difficult for a nonspecialist to fully appreciate the work.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a valuable resource, but the central analytical claim is not sufficiently validated, and the biological insights presented are largely descriptive. The paper would be more suitable for a specialized journal focused on genomics or model organism resources, rather than a general journal like Nature. The authors should be encouraged to resubmit after providing a rigorous validation of their model and a more critical assessment of their data's functional significance.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that allelic transcription factor (TF) binding shapes transcriptional kinetics, specifically burst frequency and initiation rate, as inferred from single-cell RNA sequencing (scRNA-seq) data in the GM12878 human cell line. They report that eQTL effect sizes correlate most strongly with initiation rate and burst frequency, that TF occupancy in phase with the core promoter explains approximately 90% of burst frequency variance, and that specific eQTL and GWAS loci perturb TF binding affinity with consequent effects on burst kinetics.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details
+- **Missing materials affecting confidence** Full manuscript, methods description, all figures and tables, statistical analysis details, replication data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking allelic TF binding to transcriptional bursting kinetics, with implications for understanding eQTL mechanisms. However, the evidence base provided is insufficient to evaluate the validity of the central claims. The abstract lacks methodological detail, quantitative results, and statistical support. The claim that 90% of burst frequency variance is explained by TF occupancy is striking but cannot be assessed without regression details, confidence intervals, or validation approaches. The replication of specific examples is mentioned but not described. The work may be of interest to researchers in gene regulation and statistical genomics, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, allelic expression, eQTL mechanisms, and single-cell genomics would be interested. The potential link between TF binding and burst kinetics could inform mechanistic models of how genetic variants affect gene expression, which is relevant to human genetics and disease variant interpretation.
+- **Major strengths** The abstract addresses a relevant gap in understanding how genetic variants affect transcriptional kinetics at the single-chromosome level. The focus on burst frequency and initiation rate as kinetic parameters is mechanistically meaningful. The use of scRNA-seq to infer kinetics in human cells is a practical approach that could be broadly applicable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that transcription initiation rate and burst frequency correlate most with eQTL effect sizes among transcriptional kinetics, suggesting eQTLs affect average expression through altering burst kinetics.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how transcriptional kinetics were inferred from scRNA-seq data, nor how eQTL effect sizes were computed and correlated with kinetic parameters. No correlation coefficients, significance thresholds, or multiple testing corrections are reported.
+  - **Why it matters** Without methodological detail and quantitative results, the reader cannot assess whether the correlations are robust, whether confounding factors were controlled, or whether the inference of kinetics from scRNA-seq is valid. The central mechanistic conclusion depends entirely on this correlation analysis.
+  - **Resolution test** Provide a clear description of the kinetic inference method, the eQTL data source, the correlation analysis including effect sizes and confidence intervals, and evidence that the results are not driven by technical artifacts or confounding variables.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that approximately 90% of the variance of burst frequency can be explained by TF occupancy in phase with the core promoter.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a very strong quantitative claim. The abstract provides no information on how TF occupancy was measured, how "in phase" was defined, what regression model was used, or how the variance explained was calculated. No confidence intervals or cross-validation results are given.
+  - **Why it matters** A claim of 90% variance explained is unusually high and could be an overestimate due to overfitting, circular analysis, or limited gene coverage. Without details, the claim is not credible as stated.
+  - **Resolution test** Provide the full regression model, the number of genes and TF binding sites used, the definition of phase, and validation approaches such as cross-validation or independent replication. Report confidence intervals for the variance explained.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and evidence
+  - **Claim pointer** The authors state they identified and replicated several examples where eQTL or GWAS catalog loci perturb TF binding affinity and are consequently associated with changes in burst kinetics.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how many examples were identified, what the replication criteria were, or what the effect sizes and significance levels were. The term "replicated" is used without context.
+  - **Why it matters** Replication is essential to support the causal interpretation that TF binding perturbation leads to kinetic changes. Without details, the reader cannot judge whether the replication was independent, adequately powered, or statistically convincing.
+  - **Resolution test** Describe the number of loci tested, the replication dataset and criteria, and provide effect sizes, p-values, and confidence intervals for the key examples.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "average measurement between two chromosomes and across cell populations" is imprecise. Bulk RNA-seq measures average expression across cells and alleles, not "between" chromosomes in a spatial sense.
+  - **Required correction** Rephrase to "an average across alleles and cell populations" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not state how many genes or cells were analyzed, nor the number of eQTLs and GWAS loci examined. This limits the reader's ability to gauge the scale of the study.
+  - **Required correction** Add brief quantitative context, such as the number of genes, cells, or loci analyzed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "burst frequency" and "initiation rate"
+  - **Issue** The distinction between burst frequency and initiation rate is not defined. Readers unfamiliar with transcriptional bursting models may not understand the difference.
+  - **Required correction** Provide a one-sentence definition of each term in the abstract or refer to a methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological or quantitative detail to support the central claims regarding correlations, variance explained, and replication.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of linking allelic TF binding to burst kinetics is not entirely novel but the systematic approach in human cells may offer a new perspective. The abstract does not clearly differentiate from prior work.
+  - Scientific importance: If substantiated, the findings could inform mechanistic interpretation of eQTLs and GWAS variants, which is of broad interest. However, the importance is not fully established from the abstract alone.
+  - Interdisciplinary readership: The topic bridges genomics, gene regulation, and statistical methods, which could attract a broad audience. The abstract is accessible but lacks depth.
+  - Technical soundness: Not assessable from the abstract. The lack of methods and statistical details is a major limitation.
+  - Readability for nonspecialists: The abstract is generally readable but uses specialized terms without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the methodological and quantitative detail required to evaluate the claims. A full manuscript with methods, results, and replication details would be needed to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that initiation rate and burst frequency correlate most with eQTL effect sizes is unsupported without correlation coefficients and significance testing.
+- The claim that approximately 90% of burst frequency variance is explained by TF occupancy is unsupported without regression details and validation.
+- The claim that specific eQTL or GWAS loci perturb TF binding affinity and affect burst kinetics is unsupported without description of the loci, effect sizes, and replication criteria.
+- The general inference of transcriptional kinetics from scRNA-seq is not assessable without methodological description.

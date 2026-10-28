@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors present MpEMSA-seq, a high-throughput in vitro assay for measuring CTCF-binding affinity across 276,765 human-derived DNA sequences, and DeepCTCF, a deep learning model trained on these data. They report quantitative rules for CTCF binding, including motif composition effects, spacing preferences, and a suppressive role of high G/C content in flanking regions. They further apply DeepCTCF to predict the impact of disease-associated variants and validate one variant, rs5889367, in cellular assays.
+- **Visible evidence base** Main text figures referenced (Figs. 1-5), supplementary figures and tables referenced (figs. S1-S7, tables S1-S8), methods descriptions for MpEMSA-seq, DeepCTCF, prime editing, ChIP-seq, and 4C-seq
+- **Missing materials affecting confidence** Actual figure panels and data values, supplementary figures and tables, model training and validation details, raw data, code repository contents, and detailed statistical outputs were not available for inspection
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important gap in the quantitative understanding of CTCF-DNA binding. The scale of the dataset (276,765 sequences) and the combination of high-throughput biochemistry with deep learning represent a potentially valuable contribution. The findings on motif spacing and G/C content effects are biologically plausible and could inform future studies of CTCF function and disease-associated variants. However, the provided text lacks sufficient methodological detail and quantitative evidence to fully evaluate the robustness of the claims. Several key assertions, particularly regarding the superiority of MpEMSA-seq over existing methods and the generalizability of DeepCTCF, require additional validation and clearer presentation of data.
+- **Who would be interested in the results, and why** Researchers studying 3D genome organization, CTCF biology, transcription factor binding specificity, and regulatory genomics. The quantitative framework and predictive model could also be of interest to computational biologists developing deep learning approaches for sequence-function mapping, and to clinical geneticists interpreting noncoding variants in disease contexts.
+- **Major Strengths**
+  - The scale of experimental data generation (276,765 sequences) is substantial and represents a significant resource for the field.
+  - The combination of in vitro biochemistry with deep learning provides a coherent framework for quantitative sequence-function analysis.
+  - The identification of specific sequence features (motif spacing, G/C content) that modulate binding affinity moves beyond binary binding predictions.
+  - The application to disease-associated variants, including experimental validation in a relevant cell type, demonstrates potential translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MpEMSA-seq provides "enhanced sensitivity for detecting weaker yet specific CTCF-DNA interactions" and identifies approximately fourfold more CTCF recognition sequences than GHT-SELEX.
+  - **Evidence pointer** Results section, Fig. 1B, fig. S1C-D
+  - **Concern** The comparison with GHT-SELEX is presented as a benchmark, but the criteria for defining "CTCF recognition sequences" differ between methods. The authors apply two complementary statistical criteria (Mann-Whitney U test and a threshold based on random sequence distribution) to define their high-confidence set. It is unclear whether GHT-SELEX used equivalent criteria. Without a standardized comparison framework, the claim of fourfold higher detection may reflect differences in thresholding rather than true sensitivity. Additionally, the biological relevance of the "weaker yet specific" interactions detected only by MpEMSA-seq is not demonstrated.
+  - **Why it matters** The central claim of methodological superiority underpins the value of the dataset. If the increased detection is an artifact of different thresholding, the resource may not provide the claimed advantage.
+  - **Resolution test** Provide a direct comparison of both methods on identical sequence sets using standardized detection criteria. Demonstrate that the uniquely detected sequences by MpEMSA-seq have functional relevance, for example through independent validation of a subset in orthogonal assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that DeepCTCF predictions show "strong correlation with experimentally measured values" (Spearman's ρ = 0.90) and that predicted affinity changes correlate with experimental measurements (Pearson's r = 0.87).
+  - **Evidence pointer** Results section, Fig. 2B, fig. S4E
+  - **Concern** The reported correlation coefficients are presented without confidence intervals, and the evaluation appears to be on a held-out test set derived from the same distribution as the training data. The manuscript does not describe how the test set was constructed, whether it includes sequences with diverse motif configurations, or whether performance is consistent across different sequence classes. Furthermore, the comparison with PWM and BPNet models lacks detail on how these models were trained and whether they were given equivalent information.
+  - **Why it matters** The predictive accuracy of DeepCTCF is central to its utility for variant interpretation and sequence design. Without robust evaluation metrics and clear benchmarking, the generalizability of the model is uncertain.
+  - **Resolution test** Provide detailed description of train/validation/test splits, performance metrics stratified by sequence class and motif configuration, and a more rigorous benchmarking protocol with appropriate statistical testing of differences between models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that rs5889367, a variant associated with systemic lupus erythematosus, "compromises CTCF binding, disrupts topological domain organization, and consequently down-regulates BLK expression, thereby contributing to SLE susceptibility."
+  - **Evidence pointer** Results section, Fig. 5C-H, fig. S7E-H
+  - **Concern** The causal chain from a single variant to disease susceptibility is complex and requires careful demonstration. The manuscript shows that the variant reduces CTCF binding in vitro and in edited cells, and that BLK expression decreases. However, the link to SLE susceptibility is inferred rather than demonstrated. The 4C-seq data show altered interactions, but the functional consequences of these changes for BLK regulation are not fully established. The claim of "contributing to SLE susceptibility" requires evidence that the expression change is sufficient to affect disease-relevant pathways.
+  - **Why it matters** The translational significance of the work depends on establishing a credible link between variant effects on CTCF binding and disease mechanisms. Overinterpretation could mislead subsequent studies.
+  - **Resolution test** Provide additional evidence linking the observed expression changes to SLE-relevant phenotypes, for example through pathway analysis, functional assays in relevant immune cell types, or comparison with known SLE risk mechanisms.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "high G/C content in motif-1 flanking regions acts as a negative determinant of CTCF binding affinity."
+  - **Evidence pointer** Results section, Fig. 4A-D, fig. S6
+  - **Concern** The mechanism by which G/C content suppresses binding is not explored. It is unclear whether this effect is due to altered DNA structure, competition with other factors, or indirect effects on motif accessibility. The experimental validation involves altering G/C content at non-consensus positions, but the magnitude of the effect and its consistency across different sequence contexts are not fully described.
+  - **Why it matters** Understanding the mechanism of G/C content effects would strengthen the biological interpretation and could inform predictive models for sequence design.
+  - **Resolution test** Provide additional experiments or analyses that address the mechanism, such as DNA structural predictions, binding assays with modified DNA, or systematic mutagenesis across diverse sequence contexts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction assume familiarity with CTCF biology and deep learning terminology. Terms such as "motif-1," "motif-2," and "G/C content" are used without brief definitions for readers outside the immediate field.
+  - **Required correction** Add brief definitions or context for key terms in the abstract and introduction to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, DeepCTCF section
+  - **Evidence pointer** Methods, DeepCTCF
+  - **Issue** The description of the DeepCTCF architecture is brief. Details on hyperparameter selection, regularization, and training procedures are limited.
+  - **Required correction** Provide additional details on model architecture selection, hyperparameter tuning, and training procedures to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 2D
+  - **Evidence pointer** Results, Fig. 2D
+  - **Issue** The comparison of binding affinity across sequence classes is presented as a bar chart or similar, but the statistical significance of differences between classes is not reported in the text.
+  - **Required correction** Report statistical tests and p-values for pairwise comparisons between sequence classes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of limitations focuses on in vitro versus in vivo differences but does not address potential biases in the sequence selection for the library (e.g., whether the 276,765 sequences are representative of the full genome).
+  - **Required correction** Add a brief discussion of potential sampling biases and their implications for generalizability.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Benchmarking of MpEMSA-seq against GHT-SELEX requires standardized criteria.
+  - R1-M2: DeepCTCF evaluation requires more rigorous validation and benchmarking.
+  - R1-M3: The causal link from rs5889367 to SLE susceptibility is not fully established.
+  - R1-M4: The mechanism of G/C content effects on binding is unexplored.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work presents a novel dataset and a new assay (MpEMSA-seq) for quantitative CTCF-binding measurement. The combination of high-throughput biochemistry with deep learning for this specific problem is not entirely unprecedented but the scale and focus on quantitative affinity represent a contribution.
+  - **Scientific importance** Understanding quantitative determinants of CTCF binding is important for genome architecture and gene regulation. The potential application to variant interpretation adds translational relevance. However, the importance is somewhat incremental given existing knowledge of CTCF motifs and prior deep learning models.
+  - **Interdisciplinary readership** The work bridges biochemistry, genomics, and machine learning, which could appeal to a broad readership. However, the presentation may be too specialized for nonspecialists without additional context.
+  - **Technical soundness** The core experimental approach is plausible, but the lack of detailed validation and benchmarking data limits confidence. The deep learning model evaluation is not sufficiently rigorous as presented.
+  - **Readability for nonspecialists** The manuscript is generally well-structured but assumes familiarity with the field. The abstract and introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The dataset and framework have potential value, but the current evidence does not fully establish the claims of methodological superiority, predictive accuracy, and disease relevance. Additional validation and clearer presentation of data are required.
+
+## Risk / unsupported claims
+- The claim that MpEMSA-seq identifies "approximately fourfold more CTCF recognition sequences" than GHT-SELEX is not fully supported without standardized comparison criteria.
+- The claim that DeepCTCF enables "single-base-resolution inference of CTCF-binding affinity on a genome-scale" is not fully validated; the example provided (Pcdhα cluster) is illustrative but not comprehensive.
+- The assertion that rs5889367 "contributes to SLE susceptibility" is not directly demonstrated; the evidence supports an effect on CTCF binding and BLX expression but not a causal link to disease.
+- The statement that the dataset covers "more than 1‰ of the human genome" is presented without clear calculation of what this fraction represents (e.g., fraction of all possible 42-mers, fraction of the genome sequence).
+- The generalizability of DeepCTCF to sequences outside the training distribution (e.g., non-human genomes, highly divergent sequences) is not assessed.

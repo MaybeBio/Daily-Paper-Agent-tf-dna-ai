@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that carbon black (CB) nanoparticles disrupt respiratory epithelial repair by competitively binding with CTNNB1 to ΔNp63, thereby reducing CTNNB1–ΔNp63 interaction, modulating CTNNB1 expression, and inhibiting cell proliferation during repair. The mechanism is supported by air–liquid interface culture experiments, bioinformatics identification of CTNNB1 as a ΔNp63 target, and molecular dynamics simulations showing oxygen-containing functional groups on CB interfere with the native CTNNB1–ΔNp63 interaction.
+- **Visible evidence base** Abstract text only; no experimental details, numerical results, statistical analyses, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical outputs, simulation parameters, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically ambitious hypothesis linking CB exposure to impaired airway epithelial repair via a competitive binding model. The central claim is plausible and potentially of interest to environmental health and nanotoxicology audiences. However, the evidence base visible in the abstract is insufficient to evaluate the validity of the proposed mechanism. Key terms such as "competitive-like binding" are not operationally defined, and no quantitative data are provided to support the inhibitory effect on proliferation, the bioinformatics identification, or the simulation results. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nanotoxicology, respiratory biology, and environmental health would be interested. The work addresses a specific molecular pathway by which carbon black, a common particulate pollutant, may impair epithelial repair. This could inform risk assessment frameworks for particulate matter exposure and potentially guide studies on other nanoparticles with similar surface chemistry.
+- **Major strengths** The study addresses an under-explored area, namely the repair phase of epithelial injury rather than only the initial damage. The proposed mechanism integrates experimental cell culture, bioinformatics, and molecular dynamics simulation, which is a multidisciplinary approach. The focus on ΔNp63, a known master regulator of epithelial proliferation, provides a biologically plausible anchor for the hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "CB exhibits a remarkable inhibitory effect on cell proliferation, leading to aberrant airway epithelial repair, as validated in air-liquid culture."
+  - **Evidence pointer** Abstract, air–liquid culture validation; location not provided
+  - **Concern** The abstract states that CB inhibits proliferation and disrupts repair, but no quantitative data are presented. No effect sizes, dose–response relationships, statistical significance, or comparison to controls are provided. The term "remarkable" is subjective and unsupported without numerical evidence.
+  - **Why it matters** This is the foundational experimental observation on which the entire mechanistic model rests. Without verifiable data, the reader cannot assess the magnitude or reproducibility of the effect, nor whether the effect is specific to CB or general to particulate exposure.
+  - **Resolution test** Provide quantitative proliferation data (e.g., cell counts, EdU incorporation, or colony formation) with appropriate statistical tests, dose ranges, and time points. Show that the effect is specific to CB and not a general cytotoxic response.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "CTNNB1 was identified as a target of DeltaNp63 by bioinformatics analysis."
+  - **Evidence pointer** Abstract, bioinformatics analysis; location not provided
+  - **Concern** The abstract does not specify the bioinformatics method used, the dataset analyzed, the criteria for target identification, or the confidence in the prediction. No validation of the CTNNB1–ΔNp63 interaction is shown, such as co-immunoprecipitation, reporter assays, or chromatin immunoprecipitation.
+  - **Why it matters** The claim that CTNNB1 is a direct target of ΔNp63 is central to the proposed mechanism. Bioinformatics predictions alone are insufficient to establish a functional interaction. Without experimental validation, the link between ΔNp63 and CTNNB1 remains speculative.
+  - **Resolution test** Describe the bioinformatics approach and provide experimental validation of the interaction, such as luciferase reporter assays, ChIP-qPCR, or knockdown/overexpression studies showing that ΔNp63 modulates CTNNB1 expression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** "Molecular dynamics simulation reveals that oxygen-containing functional groups on CB disrupt the native interaction of CTNNB1 with DeltaNp63 through competitive-like binding pattern."
+  - **Evidence pointer** Abstract, molecular dynamics simulation; location not provided
+  - **Concern** The abstract does not provide any details of the simulation, including the force field, simulation time, system setup, or the structural basis for the proposed competitive binding. The term "competitive-like" is not defined, and no binding free energies, contact maps, or structural comparisons are presented.
+  - **Why it matters** The simulation is the only direct evidence for the proposed molecular mechanism. Without methodological detail and quantitative outputs, the claim cannot be evaluated for technical soundness or biological relevance. The simulation may be purely computational and not validated by any experimental binding assay.
+  - **Resolution test** Provide simulation parameters and results, including binding free energy calculations, key residue contacts, and a clear definition of "competitive-like." Ideally, support the simulation with experimental binding data, such as surface plasmon resonance or isothermal titration calorimetry.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "This process modulates CTNNB1 expression, ultimately restraining proliferation during respiratory epithelial repair."
+  - **Evidence pointer** Abstract, overall mechanism; location not provided
+  - **Concern** The abstract implies a causal chain from CB exposure to reduced CTNNB1–ΔNp63 interaction to altered CTNNB1 expression to inhibited proliferation. However, no data are shown to connect these steps. It is unclear whether CTNNB1 expression changes are a cause or a consequence of the proliferation defect, and whether the proposed competitive binding is the actual driver.
+  - **Why it matters** The central thesis is that the competitive binding mechanism explains the observed proliferation defect. Without direct evidence linking the molecular interaction to the phenotypic outcome, the mechanism remains a hypothesis rather than an established finding.
+  - **Resolution test** Provide experiments that manipulate the proposed interaction, such as overexpression of CTNNB1 or mutation of the binding site, and show that this rescues or mimics the proliferation phenotype. Establish a clear temporal and causal relationship between the molecular event and the cellular outcome.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "competitive-like binding"
+  - **Issue** The term "competitive-like" is vague and not standard in the literature. It is unclear whether the authors mean true competitive inhibition, allosteric modulation, or a non-specific crowding effect.
+  - **Required correction** Define the term explicitly and use standard terminology where possible, or provide a clear operational definition based on the simulation and experimental data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dose and exposure context
+  - **Evidence pointer** Abstract, CB exposure description
+  - **Issue** The abstract does not specify the CB concentrations used, the exposure duration, or whether the doses are environmentally relevant. This limits the generalizability of the findings to real-world exposure scenarios.
+  - **Required correction** State the dose range and exposure conditions, and discuss relevance to ambient or occupational CB exposure levels.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, overall flow
+  - **Issue** The abstract moves rapidly from a broad statement about epithelial vulnerability to a specific molecular mechanism without clearly stating the study design or the logical progression of evidence.
+  - **Required correction** Restructure the abstract to briefly state the experimental approach and the sequence of findings that lead to the proposed mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. All four major concerns are blocking because the abstract alone does not provide sufficient evidence to support the central mechanistic claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed competitive binding mechanism between a nanoparticle and a transcription factor co-regulator is a novel angle, but the abstract does not demonstrate how this advances beyond existing nanoparticle–protein interaction studies.  
+  - Scientific importance: The topic is relevant to environmental health, but the importance is not fully established without evidence that the mechanism operates in vivo or at environmentally relevant doses.  
+  - Interdisciplinary readership: The work spans toxicology, cell biology, and computational chemistry, which could attract a broad audience, but the abstract is too technical in places and lacks context for non-specialists.  
+  - Technical soundness: Cannot be assessed from the abstract. No methodological details, controls, or statistical analyses are provided.  
+  - Readability for nonspecialists: The abstract assumes familiarity with ΔNp63, CTNNB1, and molecular dynamics terminology. A clearer explanation of the biological context and the significance of the proposed mechanism would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the multidisciplinary approach is commendable, but the abstract does not provide sufficient data to support the mechanistic claims. A revised manuscript with full experimental details, quantitative results, and validation of the proposed interaction would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim that CB inhibits proliferation and disrupts repair is unsupported without quantitative data.
+- The identification of CTNNB1 as a ΔNp63 target is unsupported without specifying the bioinformatics method and experimental validation.
+- The molecular dynamics simulation claim is unsupported without methodological details and quantitative outputs.
+- The causal link from competitive binding to CTNNB1 expression changes to proliferation inhibition is unsupported without direct experimental evidence.
+- The statement that the study "enriches the public health risk assessment" is an overreach given the lack of dose relevance and in vivo data.

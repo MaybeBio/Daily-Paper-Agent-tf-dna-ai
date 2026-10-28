@@ -1,0 +1,647 @@
+{
+  "identity": {
+    "pmid": "38886784",
+    "doi": "10.1186/s13046-024-03096-7",
+    "title": "The G Protein Estrogen Receptor (GPER) is involved in the resistance to the CDK4/6 inhibitor palbociclib in breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The cyclin D1-cyclin dependent kinases (CDK)4/6 inhibitor palbociclib in combination with endocrine therapy shows remarkable efficacy in the management of estrogen receptor (ER)-positive and HER2-negative advanced breast cancer (BC). Nevertheless, resistance to palbociclib frequently arises, highlighting the need to identify new targets toward more comprehensive therapeutic strategies in BC patients. METHODS: BC cell lines resistant to palbociclib were generated and used as a model system. Gene silencing techniques and overexpression experiments, real-time PCR, immunoblotting and chromatin immunoprecipitation studies as well as cell viability, colony and 3D spheroid formation assays served to evaluate the involvement of the G protein-coupled estrogen receptor (GPER) in the resistance to palbociclib in BC cells. Molecular docking simulations were also performed to investigate the potential interaction of palbociclib with GPER. Furthermore, BC cells co-cultured with cancer-associated fibroblasts (CAFs) isolated from mammary carcinoma, were used to investigate whether GPER signaling may contribute to functional cell interactions within the tumor microenvironment toward palbociclib resistance. Finally, by bioinformatics analyses and k-means clustering on clinical and expression data of large cohorts of BC patients, the clinical significance of novel mediators of palbociclib resistance was explored. RESULTS: Dissecting the molecular events that characterize ER-positive BC cells resistant to palbociclib, the down-regulation of ERalpha along with the up-regulation of GPER were found. To evaluate the molecular events involved in the up-regulation of GPER, we determined that the epidermal growth factor receptor (EGFR) interacts with the promoter region of GPER and stimulates its expression toward BC cells resistance to palbociclib treatment. Adding further cues to these data, we ascertained that palbociclib does induce pro-inflammatory transcriptional events via GPER signaling in CAFs. Of note, by performing co-culture assays we demonstrated that GPER contributes to the reduced sensitivity to palbociclib also facilitating the functional interaction between BC cells and main components of the tumor microenvironment named CAFs. CONCLUSIONS: Overall, our results provide novel insights on the molecular events through which GPER may contribute to palbociclib resistance in BC cells. Additional investigations are warranted in order to assess whether targeting the GPER-mediated interactions between BC cells and CAFs may be useful in more comprehensive therapeutic approaches of BC resistant to palbociclib.",
+    "keywords": [
+      "Breast cancer",
+      "Cancer-associated fibroblasts (CAFs)",
+      "Estrogen receptor",
+      "G protein-coupled estrogen receptor (GPER)",
+      "Palbociclib",
+      "Resistance"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pyridines/pharmacology/therapeutic use",
+      "*Breast Neoplasms/drug therapy/metabolism/pathology/genetics",
+      "*Piperazines/pharmacology/therapeutic use",
+      "Female",
+      "*Receptors, Estrogen/metabolism",
+      "*Drug Resistance, Neoplasm",
+      "*Cyclin-Dependent Kinase 4/metabolism/antagonists & inhibitors",
+      "Cell Line, Tumor",
+      "Receptors, G-Protein-Coupled/metabolism",
+      "Cyclin-Dependent Kinase 6/metabolism/antagonists & inhibitors",
+      "Protein Kinase Inhibitors/pharmacology/therapeutic use",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Talia, Marianna",
+        "Cirillo, Francesca",
+        "Scordamaglia, Domenica",
+        "Di Dio, Marika",
+        "Zicarelli, Azzurra",
+        "De Rosis, Salvatore",
+        "Miglietta, Anna Maria",
+        "Capalbo, Carlo",
+        "De Francesco, Ernestina Marianna",
+        "Belfiore, Antonino",
+        "Grande, Fedora",
+        "Rizzuti, Bruno",
+        "Occhiuzzi, Maria Antonietta",
+        "Fortino, Giancarlo",
+        "Guzzo, Antonella",
+        "Greco, Gianluigi",
+        "Maggiolini, Marcello",
+        "Lappano, Rosamaria"
+      ],
+      "short_names": [
+        "Talia M",
+        "Cirillo F",
+        "Scordamaglia D",
+        "Di Dio M",
+        "Zicarelli A",
+        "De Rosis S",
+        "Miglietta AM",
+        "Capalbo C",
+        "De Francesco EM",
+        "Belfiore A",
+        "Grande F",
+        "Rizzuti B",
+        "Occhiuzzi MA",
+        "Fortino G",
+        "Guzzo A",
+        "Greco G",
+        "Maggiolini M",
+        "Lappano R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Breast and General Surgery Unit, Regional Hospital Cosenza, Cosenza, 87100, Italy.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Complex Operative Oncology Unit, Regional Hospital Cosenza, Cosenza, 87100, Italy.",
+        "Department of Medicine and Surgery, University of Enna Kore, Enna, 94100, Italy.",
+        "Department of Clinical and Experimental Medicine, University of Catania, Garibaldi-Nesima Hospital, Catania, 95122, Italy.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Department of Physics, CNR-NANOTEC, SS Rende (CS), University of Calabria, Rende, CS, 87036, Italy.",
+        "Institute of Biocomputation and Physics of Complex Systems (BIFI), Joint Unit GBsC-CSIC-BIFI, University of Zaragoza, Zaragoza, 50018, Spain.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+        "Department of Informatics, Modeling, Electronic, and System Engineering, University of Calabria, Rende, 87036, Italy.",
+        "Department of Informatics, Modeling, Electronic, and System Engineering, University of Calabria, Rende, 87036, Italy.",
+        "Department of Mathematics and Computer Science, University of Calabria, Cosenza, Italy.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy. marcello.maggiolini@unical.it.",
+        "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy. rosamaria.lappano@unical.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Talia, Marianna",
+        "short_name": "Talia M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Cirillo, Francesca",
+        "short_name": "Cirillo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Scordamaglia, Domenica",
+        "short_name": "Scordamaglia D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Dio, Marika",
+        "short_name": "Di Dio M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Zicarelli, Azzurra",
+        "short_name": "Zicarelli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "De Rosis, Salvatore",
+        "short_name": "De Rosis S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Miglietta, Anna Maria",
+        "short_name": "Miglietta AM",
+        "identifiers": [],
+        "affiliations": [
+          "Breast and General Surgery Unit, Regional Hospital Cosenza, Cosenza, 87100, Italy."
+        ]
+      },
+      {
+        "full_name": "Capalbo, Carlo",
+        "short_name": "Capalbo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy.",
+          "Complex Operative Oncology Unit, Regional Hospital Cosenza, Cosenza, 87100, Italy."
+        ]
+      },
+      {
+        "full_name": "De Francesco, Ernestina Marianna",
+        "short_name": "De Francesco EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Surgery, University of Enna Kore, Enna, 94100, Italy."
+        ]
+      },
+      {
+        "full_name": "Belfiore, Antonino",
+        "short_name": "Belfiore A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Experimental Medicine, University of Catania, Garibaldi-Nesima Hospital, Catania, 95122, Italy."
+        ]
+      },
+      {
+        "full_name": "Grande, Fedora",
+        "short_name": "Grande F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Rizzuti, Bruno",
+        "short_name": "Rizzuti B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, CNR-NANOTEC, SS Rende (CS), University of Calabria, Rende, CS, 87036, Italy.",
+          "Institute of Biocomputation and Physics of Complex Systems (BIFI), Joint Unit GBsC-CSIC-BIFI, University of Zaragoza, Zaragoza, 50018, Spain."
+        ]
+      },
+      {
+        "full_name": "Occhiuzzi, Maria Antonietta",
+        "short_name": "Occhiuzzi MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Fortino, Giancarlo",
+        "short_name": "Fortino G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Informatics, Modeling, Electronic, and System Engineering, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Guzzo, Antonella",
+        "short_name": "Guzzo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Informatics, Modeling, Electronic, and System Engineering, University of Calabria, Rende, 87036, Italy."
+        ]
+      },
+      {
+        "full_name": "Greco, Gianluigi",
+        "short_name": "Greco G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Computer Science, University of Calabria, Cosenza, Italy."
+        ]
+      },
+      {
+        "full_name": "Maggiolini, Marcello",
+        "short_name": "Maggiolini M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy. marcello.maggiolini@unical.it."
+        ]
+      },
+      {
+        "full_name": "Lappano, Rosamaria",
+        "short_name": "Lappano R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Health and Nutritional Sciences, University of Calabria, Rende, 87036, Italy. rosamaria.lappano@unical.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2024 Jun 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/18 00:43",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42416401",
+      "41675006",
+      "41388212",
+      "41294885",
+      "41141392",
+      "41075098",
+      "40620909",
+      "40518539",
+      "40280717",
+      "40244377",
+      "39690134"
+    ],
+    "refs": [
+      "38030174",
+      "37887304",
+      "37835528",
+      "37784082",
+      "37749101",
+      "37575061",
+      "37543694",
+      "37463917",
+      "37434266",
+      "37394578",
+      "37193881",
+      "37059066",
+      "37056674",
+      "37035239",
+      "37004700",
+      "36931265",
+      "36917948",
+      "36633525",
+      "36399325",
+      "36324182",
+      "36132153",
+      "36042244",
+      "35982377",
+      "35712501",
+      "35672854",
+      "35481621",
+      "35331673",
+      "35304604",
+      "34874182",
+      "34831231",
+      "34621045",
+      "34489603",
+      "34385584",
+      "34244855",
+      "34201840",
+      "34183054",
+      "33906694",
+      "33811125",
+      "33806906",
+      "33802978",
+      "33793299",
+      "33741974",
+      "33722297",
+      "33420940",
+      "33413549",
+      "33369721",
+      "33364954",
+      "33006013",
+      "32954927",
+      "32946743",
+      "32933570",
+      "32849301",
+      "32778144",
+      "32546182",
+      "32344635",
+      "32307447",
+      "32289274",
+      "32289273",
+      "32249708",
+      "32143514",
+      "32087276",
+      "31980749",
+      "31370872",
+      "31207943",
+      "30841909",
+      "30728047",
+      "30687231",
+      "30667505",
+      "30511015",
+      "30470818",
+      "30465162",
+      "30345905",
+      "30206110",
+      "30082272",
+      "30069766",
+      "29910644",
+      "29360932",
+      "29120751",
+      "28595943",
+      "28331693",
+      "28249908",
+      "28249728",
+      "28078726",
+      "27913999",
+      "27865536",
+      "27748766",
+      "27137076",
+      "27072893",
+      "27030077",
+      "26451490",
+      "26324739",
+      "26324355",
+      "26190572",
+      "25873628",
+      "25524798",
+      "25030371",
+      "24928526",
+      "24834064",
+      "24715381",
+      "23947803",
+      "23542661",
+      "22889332",
+      "22552965",
+      "22522925",
+      "21607586",
+      "20551055",
+      "20062009",
+      "19749156",
+      "19499576",
+      "19153601",
+      "17308128",
+      "17283074",
+      "17085646",
+      "15355892",
+      "11815285",
+      "11533659",
+      "3224082",
+      "2884496"
+    ],
+    "similar": [
+      "38886784",
+      "32860163",
+      "31370872",
+      "32245900",
+      "34831231",
+      "28652278",
+      "32393270",
+      "25524798",
+      "38990915",
+      "30867218",
+      "31823286",
+      "30343527",
+      "31878959",
+      "38781103",
+      "29212519",
+      "37801608",
+      "33536276",
+      "30287548",
+      "31852484",
+      "23947803",
+      "33356791",
+      "27634906",
+      "31369120",
+      "34244855",
+      "38943828",
+      "27721408",
+      "26633733",
+      "32778144",
+      "29935900",
+      "32307447",
+      "32787886",
+      "31439820",
+      "38788968",
+      "25990368",
+      "30359883",
+      "38819400",
+      "24928526",
+      "38961064",
+      "32544344",
+      "33323381",
+      "29893769",
+      "24369047",
+      "32377705",
+      "28418845",
+      "27322766",
+      "32130619",
+      "27092341",
+      "29162134",
+      "34830174",
+      "30607633",
+      "33495311",
+      "30745839",
+      "28403773",
+      "27564114",
+      "28649895",
+      "31937617",
+      "25991817",
+      "28741274",
+      "26030518",
+      "38017459",
+      "27020857",
+      "24275097",
+      "28197838",
+      "27472462",
+      "33757987",
+      "32795346",
+      "19874578",
+      "27571378",
+      "36127291",
+      "32143514",
+      "32297248",
+      "31665472",
+      "24169358",
+      "31424939",
+      "27016131",
+      "29726787",
+      "29669860",
+      "37279863",
+      "33980285",
+      "29729292",
+      "38954773",
+      "32415339",
+      "28270497",
+      "30143968",
+      "33805656",
+      "32344635",
+      "36042494",
+      "32899866",
+      "30866584",
+      "27252418",
+      "29725889",
+      "29700711",
+      "28249908",
+      "30161001",
+      "29483206",
+      "28706010",
+      "26896604",
+      "24481325",
+      "27341075",
+      "26857361",
+      "35269621",
+      "38849889",
+      "38324568",
+      "30677445",
+      "33189562",
+      "32164162",
+      "38443662",
+      "38992220",
+      "35254385",
+      "37924380",
+      "39218402",
+      "36071033",
+      "33941591",
+      "37626264",
+      "38741146",
+      "33689138",
+      "38831405",
+      "39153252",
+      "38636681",
+      "39116089",
+      "37887304",
+      "38604898",
+      "39023171",
+      "38396273",
+      "31798393",
+      "36765430",
+      "38355840",
+      "39218392",
+      "39117675",
+      "39109433",
+      "38896548",
+      "39352623",
+      "31320873",
+      "39316263",
+      "32075246",
+      "37886470",
+      "34582007",
+      "39160248",
+      "36598637",
+      "30948930",
+      "39006687",
+      "38259466",
+      "36735350",
+      "38578322",
+      "39345487",
+      "33364954",
+      "39313164",
+      "33766651",
+      "38307214",
+      "39219049",
+      "39309010",
+      "39153018",
+      "35395499",
+      "35508495",
+      "39247603",
+      "39059572",
+      "39253474"
+    ],
+    "review": [
+      "38886784",
+      "30287548",
+      "31369120",
+      "38943828",
+      "26633733",
+      "29935900",
+      "30359883",
+      "24369047",
+      "27322766",
+      "27092341",
+      "34830174",
+      "28403773",
+      "28649895",
+      "28741274",
+      "28197838",
+      "31665472",
+      "29726787",
+      "32415339",
+      "30143968",
+      "32899866",
+      "29725889",
+      "29700711",
+      "28706010",
+      "26857361",
+      "39218402",
+      "38636681",
+      "37887304",
+      "38355840",
+      "34582007",
+      "33364954",
+      "33766651",
+      "39219049",
+      "39247603",
+      "39059572"
+    ],
+    "pmc": [
+      "11184778"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-024-03096-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38886784/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38886784",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

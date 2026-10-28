@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "38293094",
+    "doi": "10.1101/2024.01.16.575935",
+    "title": "Advancing Transcription Factor Binding Site Prediction Using DNA Breathing Dynamics and Sequence Transformers via Cross Attention."
+  },
+  "content": {
+    "abstract": "Understanding the impact of genomic variants on transcription factor binding and gene regulation remains a key area of research, with implications for unraveling the complex mechanisms underlying various functional effects. Our study delves into the role of DNA's biophysical properties, including thermodynamic stability, shape, and flexibility in transcription factor (TF) binding. We developed a multi-modal deep learning model integrating these properties with DNA sequence data. Trained on ChIP-Seq (chromatin immunoprecipitation sequencing) data in vivo involving 690 TF-DNA binding events in human genome, our model significantly improves prediction performance in over 660 binding events, with up to 9.6% increase in AUROC metric compared to the baseline model when using no DNA biophysical properties explicitly. Further, we expanded our analysis to in vitro high-throughput Systematic Evolution of Ligands by Exponential enrichment (SELEX) and Protein Binding Microarray (PBM) datasets, comparing our model with established frameworks. The inclusion of DNA breathing features consistently improved TF binding predictions across different cell lines in these datasets. Notably, for complex ChIP-Seq datasets, integrating DNABERT2 with a cross-attention mechanism provided greater predictive capabilities and insights into the mechanisms of disease-related non-coding variants found in genome-wide association studies. This work highlights the importance of DNA biophysical characteristics in TF binding and the effectiveness of multi-modal deep learning models in gene regulation studies.",
+    "keywords": [
+      "DNA breathing",
+      "DNA non-linear dynamics",
+      "EPBD",
+      "Transformers",
+      "attention mechanism"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kabir, Anowarul",
+        "Bhattarai, Manish",
+        "Rasmussen, Kim O",
+        "Shehu, Amarda",
+        "Bishop, Alan R",
+        "Alexandrov, Boian",
+        "Usheva, Anny"
+      ],
+      "short_names": [
+        "Kabir A",
+        "Bhattarai M",
+        "Rasmussen KO",
+        "Shehu A",
+        "Bishop AR",
+        "Alexandrov B",
+        "Usheva A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8060-2084",
+        "ORCID: 0000-0002-1421-3643",
+        "ORCID: 0000-0002-4029-4723",
+        "ORCID: 0000-0001-5230-4610",
+        "ORCID: 0000-0001-8636-4603",
+        "ORCID: 0000-0003-3788-2425"
+      ],
+      "affiliations": [
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA.",
+        "Department of Computer Science, George Mason University, 4400 University Dr, 22030, VA, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA.",
+        "Department of Computer Science, George Mason University, 4400 University Dr, 22030, VA, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA.",
+        "Department of Surgery, Brown University, 69 Brown St Box 1822, 02912, RI, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kabir, Anowarul",
+        "short_name": "Kabir A",
+        "identifiers": [
+          "0000-0001-8060-2084"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA.",
+          "Department of Computer Science, George Mason University, 4400 University Dr, 22030, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Bhattarai, Manish",
+        "short_name": "Bhattarai M",
+        "identifiers": [
+          "0000-0002-1421-3643"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Rasmussen, Kim Ø",
+        "short_name": "Rasmussen KØ",
+        "identifiers": [
+          "0000-0002-4029-4723"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Shehu, Amarda",
+        "short_name": "Shehu A",
+        "identifiers": [
+          "0000-0001-5230-4610"
+        ],
+        "affiliations": [
+          "Department of Computer Science, George Mason University, 4400 University Dr, 22030, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Bishop, Alan R",
+        "short_name": "Bishop AR",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Alexandrov, Boian",
+        "short_name": "Alexandrov B",
+        "identifiers": [
+          "0000-0001-8636-4603"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Usheva, Anny",
+        "short_name": "Usheva A",
+        "identifiers": [
+          "0000-0003-3788-2425"
+        ],
+        "affiliations": [
+          "Department of Surgery, Brown University, 69 Brown St Box 1822, 02912, RI, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Feb 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/31 06:43",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "40265190"
+    ],
+    "refs": [
+      "37991847",
+      "36018808",
+      "34850907",
+      "33538820",
+      "33522898",
+      "33381817",
+      "32770026",
+      "32551184",
+      "31634140",
+      "30922998",
+      "30106688",
+      "29993783",
+      "29165643",
+      "28851939",
+      "28167566",
+      "27084946",
+      "26846597",
+      "26301843",
+      "26213851",
+      "25775564",
+      "23812975",
+      "23703209",
+      "23562153",
+      "23378916",
+      "23332764",
+      "22904068",
+      "21991556",
+      "21625483",
+      "20110278",
+      "20019064",
+      "19282962",
+      "19264801",
+      "17324271",
+      "17279870",
+      "10040080"
+    ],
+    "similar": [
+      "38293094",
+      "39271116",
+      "25775564",
+      "25070602",
+      "37214836",
+      "19956545",
+      "37805453",
+      "25957350",
+      "27104615",
+      "24581441",
+      "28750606",
+      "26818008",
+      "30598100",
+      "37919990",
+      "24927817",
+      "30517703",
+      "20158869",
+      "32053778",
+      "26291518",
+      "24267147",
+      "28379348",
+      "27519564",
+      "37598467",
+      "22479205",
+      "23975789",
+      "22863112",
+      "27546793",
+      "28849563",
+      "26971251",
+      "31362726",
+      "31267468",
+      "25486472",
+      "28623580",
+      "23762209",
+      "30453943",
+      "20122241",
+      "31372637",
+      "31469829",
+      "23595148",
+      "24500199",
+      "36057196",
+      "23758851",
+      "23935523",
+      "26040656",
+      "24218641",
+      "32976105",
+      "38236675",
+      "21602262",
+      "28782043",
+      "24564277",
+      "25442502",
+      "33522898",
+      "38168434",
+      "31723409",
+      "28234893",
+      "26388941",
+      "32770026",
+      "24565265",
+      "28718849",
+      "20663846",
+      "37682473",
+      "34534646",
+      "35042722",
+      "34929739",
+      "26285121",
+      "34383745",
+      "19105805",
+      "19597778",
+      "35681170",
+      "23912807",
+      "30897079",
+      "34502060",
+      "21779159",
+      "22576095",
+      "34272562",
+      "36200779",
+      "24278002",
+      "23688556",
+      "21486936",
+      "22904068",
+      "35606422",
+      "21389103",
+      "22987856",
+      "31653198",
+      "21356788",
+      "24564528",
+      "23748563"
+    ],
+    "review": [
+      "38293094",
+      "25486472",
+      "36057196",
+      "34502060",
+      "21389103"
+    ],
+    "pmc": [
+      "10827174"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38293094/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38293094",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.01.16.575935",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

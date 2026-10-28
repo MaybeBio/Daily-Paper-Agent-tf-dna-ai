@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors argue that sequence-dependent intrinsic DNA conformational dynamics are critical for transcription factor recognition, that all-atom simulations and coarse-grained models face limitations for genome-scale investigation, and that dictionary-based approaches, which use a finite set of DNA fragments and their conformational properties scaled to genomes via pooling and machine learning, have been successful but inadequately reviewed. The article aims to organize efforts in generating these models and highlight recent applications.
+- **Visible evidence base** Abstract text only; no specific data, figures, tables, or references are visible
+- **Missing materials affecting confidence** Full manuscript, figures, tables, references, methodological details, and any quantitative results are not available; assessment is limited to the abstract's claims
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable and timely topic, namely the role of intrinsic DNA shape in transcription factor recognition and the utility of dictionary-based approaches. The framing of the problem, including the limitations of all-atom simulations and coarse-grained models, is sensible. However, the abstract is largely descriptive and programmatic, with no specific evidence, examples, or quantitative outcomes provided. The claim that these approaches "have been shown to explain several transcriptional events" is unsupported in the visible material. The stated aim, to organize efforts and stimulate development, is clear but the abstract does not demonstrate how this will be achieved. The scientific case for the review's value is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists, biophysicists, and researchers studying gene regulation and transcription factor binding would be interested. Those developing or using machine learning models for genomic sequence analysis, as well as experimentalists seeking to interpret transcription factor specificity beyond sequence motifs, would find a systematic review of dictionary-based approaches useful. The topic bridges structural biology and genomics, appealing to a broad interdisciplinary audience.
+- **Major strengths** The abstract identifies a genuine gap in the literature, namely the inadequate review of dictionary-based approaches. The problem framing is clear and accessible, highlighting the limitations of existing computational methods. The proposed scope, to organize model generation efforts and recent applications, is focused and potentially valuable.
+- **Major Concerns** 
+  - R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that dictionary-based approaches "have been shown to explain several transcriptional events in biological systems."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract makes a substantive claim about the demonstrated success of dictionary-based approaches, but no specific examples, citations, or data are provided in the visible material. Without any indication of which transcriptional events were explained, how they were validated, or what the magnitude of the effects was, this claim cannot be evaluated.
+  - **Why it matters** This claim is central to justifying the review's relevance. If the evidence for these approaches is weak or anecdotal, the review's premise is undermined. Conversely, if strong evidence exists, it should be summarized in the abstract to establish credibility.
+  - **Resolution test** The authors should provide in the abstract, or in the full manuscript, specific examples of transcriptional events explained by dictionary-based approaches, with references and a brief description of the validation methods and outcomes.
+  - R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope clarity
+  - **Claim pointer** The abstract states that the article "aims to organize efforts made in generating these models and their recent successful applications."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify the criteria for including or excluding studies, the time frame for "recent," or the types of machine learning models and DNA fragment libraries that will be covered. This lack of methodological transparency makes it difficult to assess the review's comprehensiveness and reproducibility.
+  - **Why it matters** A review article must define its scope clearly to be useful. Without explicit inclusion criteria, the reader cannot judge whether the coverage is systematic or selective, which affects the reliability of any conclusions drawn.
+  - **Resolution test** The authors should state in the abstract, or in the full manuscript, the search strategy, inclusion and exclusion criteria, and the range of models and applications covered.
+- **Minor Comments** 
+  - R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Definition of "dictionary-based approaches"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "dictionary-based approaches" is introduced but not precisely defined. The description "a finite number of DNA fragments and their corresponding conformational properties" is vague and could encompass many methods.
+  - **Required correction** Provide a concise operational definition in the abstract, such as specifying the nature of the fragment libraries and the conformational properties used.
+  - R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Sentence structure
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The sentence "This has been shown to explain several transcriptional events in biological systems but has been inadequately reviewed" is grammatically awkward and the referent of "This" is unclear.
+  - **Required correction** Rewrite for clarity, for example, "These approaches have been shown to explain several transcriptional events, yet they have not been adequately reviewed."
+  - R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Future directions
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states the aim to "stimulate further development" but does not hint at what specific developments are needed or anticipated.
+  - **Required correction** Add a sentence in the abstract indicating the key challenges or opportunities for future work, such as integration with experimental data or extension to other regulatory processes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract must provide evidence for the claimed successes and define the review's scope with explicit criteria. Without these, the case for the review's value is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is not entirely novel, as DNA shape in transcription factor recognition has been studied, but the specific focus on dictionary-based approaches as a distinct category may offer a fresh perspective. However, the abstract does not demonstrate what is new relative to existing reviews.
+  - Scientific importance: The importance is plausible, given the widespread interest in transcription factor specificity and the limitations of current computational methods. Yet the abstract does not provide evidence of the impact of these approaches.
+  - Interdisciplinary readership: The topic bridges structural biology, genomics, and machine learning, which could attract a broad audience. The abstract is written in accessible language, though some terms may require familiarity with computational biology.
+  - Technical soundness: Not assessable from the abstract alone. The methodological claims about pooling fragments and machine learning are not detailed enough to evaluate.
+  - Readability for nonspecialists: The abstract is generally readable, but the term "dictionary-based approaches" and the description of the methods may be unclear to those outside the field. The minor comments address this.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines a potentially useful review, but the lack of specific evidence and scope definition prevents a supportive recommendation. If the full manuscript addresses the blocking concerns, the review could be valuable.
+
+## Risk / unsupported claims
+- The claim that dictionary-based approaches "have been shown to explain several transcriptional events in biological systems" is unsupported in the abstract.
+- The assertion that these approaches have been "inadequately reviewed" is plausible but not substantiated with references or a comparison to existing literature.
+- The implied effectiveness of machine learning models in scaling fragment properties to genomes is not assessable from the abstract.
+- The overall value of the review, as stated in the aim, cannot be evaluated without the full manuscript.

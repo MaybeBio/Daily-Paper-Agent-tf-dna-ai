@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38732207",
+  "title": "Predicting Transcription Factor Binding Sites with Deep Learning.",
+  "authors": "Ghosh, Nimisha; Santoni, Daniele; Saha, Indrajit; Felici, Giovanni",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2024-05-11",
+  "window": {
+    "start": "2024-05-06",
+    "end": "2024-05-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于双向Transformer、LSTM和胶囊层的深度学习方法预测转录因子结合位点，核心聚焦TF-DNA互作位点预测，方法为AI建模，高度匹配课题。",
+  "abstract": "Prediction of binding sites for transcription factors is important to understand how the latter regulate gene expression and how this regulation can be modulated for therapeutic purposes. A consistent number of references address this issue with different approaches, Machine Learning being one of the most successful. Nevertheless, we note that many such approaches fail to propose a robust and meaningful method to embed the genetic data under analysis. We try to overcome this problem by proposing a bidirectional transformer-based encoder, empowered by bidirectional long-short term memory layers and with a capsule layer responsible for the final prediction. To evaluate the efficiency of the proposed approach, we use benchmark ChIP-seq datasets of five cell lines available in the ENCODE repository (A549, GM12878, Hep-G2, H1-hESC, and Hela). The results show that the proposed method can predict TFBS within the five different cell lines very well; moreover, cross-cell predictions provide satisfactory results as well. Experiments conducted across cell lines are reinforced by the analysis of five additional lines used only to test the model trained using the others. The results confirm that prediction across cell lines remains very high, allowing an extensive cross-transcription factor analysis to be performed from which several indications of interest for molecular biology may be drawn.",
+  "abstract_zh": "转录因子结合位点的预测对于理解后者如何调控基因表达以及这种调控如何为治疗目的而被调节具有重要意义。大量参考文献通过不同方法处理此问题，其中机器学习是最成功的方法之一。然而，我们注意到许多此类方法未能提出一种稳健且有意义的方法来嵌入所分析的遗传数据。我们试图通过提出一种基于双向变换器的编码器来克服这一问题，该编码器由双向长短期记忆层增强，并由胶囊层负责最终预测。为评估所提方法的效率，我们使用了ENCODE数据库中五个细胞系的基准ChIP-seq数据集（A549、GM12878、Hep-G2、H1-hESC和Hela）。结果表明，所提方法能在五个不同细胞系中很好地预测转录因子结合位点；此外，跨细胞预测也提供了令人满意的结果。跨细胞系进行的实验通过额外五个仅用于测试用其他细胞系训练模型的细胞系分析得到加强。结果证实，跨细胞系的预测仍然非常高，使得能够进行广泛的跨转录因子分析，从中可提取出若干对分子生物学具有意义的指示。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38732207/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38732207/",
+  "paper_page_path": "papers/pubmed/38732207/index.html"
+}

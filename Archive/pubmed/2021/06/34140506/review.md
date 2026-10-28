@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and one table.
+- **Assessment boundary** Scientific content, technical soundness, evidence quality, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors report integrated 3D genome and transcriptome analyses of 18 T-ALL patients and 4 healthy controls, identifying 34 novel translocations, 44 translocation-mediated neo-loops, and associations between HOXA13 dysregulation, enhancer hijacking, NUP98 fusions, and poor clinical outcomes.
+- **Visible evidence base** Hi-C data, RNA-seq data, ChIP-seq and ATCC-seq tracks, luciferase reporter assays, survival analyses, and supplementary data references.
+- **Missing materials affecting confidence** Supplementary figures and data files referenced but not provided; raw sequencing data not available for independent assessment; details on Hi-C library quality metrics and sequencing depth per sample not fully described; clinical outcome data for the full cohort not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question regarding the role of 3D genome alterations in T-ALL pathogenesis. The integration of Hi-C, RNA-seq, and clinical data is ambitious and the identification of novel translocations and neo-loops in noncoding regions is potentially significant. However, several technical and analytical concerns must be resolved before the central claims are fully supported. The association between HOXA11-A13 expression and poor outcomes is clinically interesting but based on a small cohort and requires validation. The causal relationship between neo-loops and gene dysregulation is inferred rather than demonstrated.
+- **Who would be interested in the results, and why** Researchers in cancer genomics, chromatin biology, and leukemia biology would be interested. The work provides a resource of 3D genome maps in T-ALL and suggests mechanisms by which noncoding structural variants contribute to oncogene activation. Clinicians and translational researchers focused on T-ALL biomarkers and risk stratification may also find the HOXA11-A13 outcome associations relevant.
+- **Major strengths** The study is among the first to comprehensively profile 3D genome architecture in primary T-ALL samples at high resolution. The identification of novel translocations in noncoding regions that are invisible to RNA-seq and WES is a valuable contribution. The integration of multiple data types (Hi-C, RNA-seq, ChIP-seq, ATAC-seq) strengthens the analysis. The observation that different fusion events associate with distinct HOXA expression patterns is mechanistically interesting. The clinical correlation with HOXA11-A13 expression and outcomes, if validated, could have translational value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 34 previously unrecognized translocations were identified by Hi-C analysis.
+  - **Evidence pointer** Results section "Hi-C analysis revealed previous unrecognized translocations in T-ALL"; Methods "Translocation and translocation-mediated loop detection with Hi-C"; Supplementary Data 4.
+  - **Concern** The method for translocation detection is described as "adapting hic_breakfinder," but the specific modifications, parameters, and validation strategy are not fully detailed. The false discovery rate for translocation calling is not reported. Validation of translocations by an orthogonal method (e.g., PCR, FISH, or long-read sequencing) is not described for any of the 34 novel events. Given that Hi-C-based breakpoint detection can be prone to artifacts, especially at lower coverage, independent validation is essential.
+  - **Why it matters** The identification of novel translocations is a central claim of the paper. If these events are not robustly validated, the downstream analyses of neo-loops and enhancer hijacking are built on an unstable foundation.
+  - **Resolution test** Provide details on the adapted algorithm, including parameters and quality filters. Report the number of candidate translocations before filtering and the criteria for final inclusion. Validate at least a subset of novel translocations by an independent method (e.g., PCR or capture sequencing) and show concordance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors state that translocation-mediated neo-loops could potentially regulate ectopic expression of TLX3, TAL2, and HOXA transcription factors via enhancer hijacking.
+  - **Evidence pointer** Results section "Potential mechanisms involved in translocation-mediated gene activation"; Figures 3e and 5a-c; Supplementary Data 5.
+  - **Concern** The evidence for enhancer hijacking is largely based on visual inspection of Hi-C maps and correlation between loop formation and gene expression. The functional validation is limited to luciferase reporter assays for a few putative enhancer fragments. The authors do not demonstrate that the neo-loops are required for the observed gene dysregulation, e.g., by deleting or disrupting the enhancer or the loop anchor in a relevant cell line or patient sample. The direction of causality (loops cause expression vs. expression causes loops) is not addressed experimentally.
+  - **Why it matters** The claim of enhancer hijacking as a mechanism is a key conceptual advance. Without functional perturbation experiments, the evidence remains correlative and the mechanistic model is not established.
+  - **Resolution test** Perform CRISPR-based deletion or epigenetic silencing of the putative hijacked enhancers in a relevant T-ALL cell line or patient-derived model and show that HOXA13 (or TLX3, TAL2) expression is reduced. Alternatively, show that disrupting the CTCF sites at the loop anchors abolishes the neo-loop and reduces target gene expression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that HOXA11-A13 expression is associated with poor overall and event-free survival in pediatric and young adult T-ALL.
+  - **Evidence pointer** Results section "HOXA11-A13 positivity is linked to inferior outcome in pediatric T-ALL"; Figure 6a-b; Table 1.
+  - **Concern** The survival analysis is based on a small cohort (38 patients under age 40 with outcome data). The number of events is not reported. The multivariate model includes many variables relative to the number of events, which risks overfitting. The confidence intervals for the hazard ratios are very wide (e.g., HOXA13 HR 8.25, 95% CI 1.37-107.1), indicating substantial uncertainty. The analysis is described as "our unpublished results," which limits the ability to assess data quality and potential confounders.
+  - **Why it matters** The clinical correlation is a potentially important finding with translational implications. If the statistical basis is weak, the claim of HOXA11-A13 as a prognostic biomarker is not supported.
+  - **Resolution test** Provide the full clinical dataset with event counts. Perform a more parsimonious multivariate analysis with fewer covariates. Validate the finding in an independent T-ALL cohort with outcome data. Report the number of events and the stability of the model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that 3D genome organizations at the levels of compartment, TAD, and loop could hierarchically classify T-ALL subtypes according to T-cell differentiation trajectory.
+  - **Evidence pointer** Results section "3D genome landscape in T-ALL"; Figure 1a.
+  - **Concern** The PCA and hierarchical clustering are performed on 3D structural features, but the statistical significance of the separation between ETP and non-ETP ALL is not reported. The number of samples is small (8 ETP, 10 non-ETP, 4 controls), and the clustering results could be driven by a few outlier samples. The comparison to gene expression-based classification is qualitative; a quantitative comparison (e.g., adjusted Rand index or similar) is not provided.
+  - **Why it matters** The claim that 3D genome structure alone can classify T-ALL subtypes is interesting but requires statistical support. If the separation is not robust, the conclusion is overstated.
+  - **Resolution test** Report the statistical significance of the clustering separation (e.g., PERMANOVA or similar). Provide a quantitative comparison between structure-based and expression-based classifications. Perform a permutation test to assess the stability of the clustering.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "3D genome alternations" contains a typo; should be "alterations."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Hi-C data processing
+  - **Evidence pointer** Methods section "Hi-C and Hi-C data processing"
+  - **Issue** The description of the Hi-C data processing pipeline is brief. The specific versions of software tools (e.g., HiC-Pro, Juicer) and key parameters are not stated.
+  - **Required correction** Provide software versions and key parameters for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Not explicitly stated in the manuscript
+  - **Issue** The manuscript does not include a clear data availability statement describing where the raw sequencing data and processed data can be accessed.
+  - **Required correction** Add a data availability statement with accession numbers for all raw and processed data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The statement that "3D genome alterations may be responsible for dysregulated gene expressions" is stronger than the evidence supports, as the analyses are largely correlative.
+  - **Required correction** Soften the language to "associated with" or "may contribute to" rather than "responsible for."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1a
+  - **Issue** The PCA plots in Figure 1a are small and the labels for individual samples are not legible.
+  - **Required correction** Increase the size of the PCA panels and ensure sample labels are readable.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6a
+  - **Issue** The number of patients at risk at each time point is not shown in the Kaplan-Meier curves.
+  - **Required correction** Add the number of patients at risk below the Kaplan-Meier curves.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (translocation validation), R1-M2 (functional evidence for enhancer hijacking), R1-M3 (statistical rigor of survival analysis).
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of high-resolution Hi-C to primary T-ALL samples and the identification of novel noncoding translocations. However, the concept of enhancer hijacking via structural variants is not new, and the novelty lies in the specific context. Scientific importance: Potentially high, as it may reveal new mechanisms of oncogene activation in T-ALL and identify a new prognostic marker. Interdisciplinary readership: The work bridges cancer genomics, chromatin biology, and clinical oncology, which would appeal to a broad readership. Technical soundness: The Hi-C and RNA-seq analyses appear generally sound, but the lack of orthogonal validation for translocations and the limited functional experiments weaken the technical case. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with 3D genomics terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observations are potentially interesting, but the manuscript requires substantial additional work to validate the translocations, provide functional evidence for the enhancer hijacking mechanism, and strengthen the clinical correlation before the claims are fully established.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38171929",
+  "title": "Protein-DNA binding sites prediction based on pre-trained protein language model and contrastive learning.",
+  "authors": "Liu, Yufan; Tian, Boxue",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-01-04",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用预训练蛋白语言模型与对比学习预测蛋白-DNA结合残基，属广义蛋白-DNA互作结合位点预测，方法可迁移至TF-DNA体系，但未聚焦转录因子特异性。",
+  "abstract": "Protein-DNA interaction is critical for life activities such as replication, transcription and splicing. Identifying protein-DNA binding residues is essential for modeling their interaction and downstream studies. However, developing accurate and efficient computational methods for this task remains challenging. Improvements in this area have the potential to drive novel applications in biotechnology and drug design. In this study, we propose a novel approach called Contrastive Learning And Pre-trained Encoder (CLAPE), which combines a pre-trained protein language model and the contrastive learning method to predict DNA binding residues. We trained the CLAPE-DB model on the protein-DNA binding sites dataset and evaluated the model performance and generalization ability through various experiments. The results showed that the area under ROC curve values of the CLAPE-DB model on the two benchmark datasets reached 0.871 and 0.881, respectively, indicating superior performance compared to other existing models. CLAPE-DB showed better generalization ability and was specific to DNA-binding sites. In addition, we trained CLAPE on different protein-ligand binding sites datasets, demonstrating that CLAPE is a general framework for binding sites prediction. To facilitate the scientific community, the benchmark datasets and codes are freely available at https://github.com/YAndrewL/clape.",
+  "abstract_zh": "蛋白质-DNA相互作用对于复制、转录和剪接等生命活动至关重要。识别蛋白质-DNA结合残基对于模拟其相互作用及下游研究至关重要。然而，开发准确且高效的计算方法来完成这一任务仍具挑战性。该领域的进展有望推动生物技术和药物设计中的新应用。在本研究中，我们提出了一种名为对比学习与预训练编码器（CLAPE）的新方法，该方法结合了预训练蛋白质语言模型和对比学习方法，用于预测DNA结合残基。我们在蛋白质-DNA结合位点数据集上训练了CLAPE-DB模型，并通过多种实验评估了模型的性能和泛化能力。结果表明，CLAPE-DB模型在两个基准数据集上的ROC曲线下面积值分别达到0.871和0.881，显示出优于其他现有模型的性能。CLAPE-DB表现出更好的泛化能力，并特异于DNA结合位点。此外，我们在不同的蛋白质-配体结合位点数据集上训练了CLAPE，证明CLAPE是一个通用的结合位点预测框架。为促进科学社区的发展，基准数据集和代码可在https://github.com/YAndrewL/clape免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38171929/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38171929/",
+  "paper_page_path": "papers/pubmed/38171929/index.html"
+}

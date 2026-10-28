@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34761179",
+  "title": "TRIMER: Transcription Regulation Integrated with Metabolic Regulation.",
+  "authors": "Niu, Puhua; Soto, Maria J; Yoon, Byung-Jun; Dougherty, Edward R; Alexander, Francis J; Blaby, Ian; Qian, Xiaoning",
+  "journal": "iScience",
+  "published_date": "2021-11-12",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用贝叶斯网络整合转录调控与代谢网络预测代谢通量，虽涉及转录因子调控，但核心是代谢建模而非TF-DNA结合位点或互作机制，且无AI/物理模拟方法聚焦于蛋白-DNA互作。",
+  "abstract": "There has been extensive research in predictive modeling of genome-scale metabolic reaction networks. Living systems involve complex stochastic processes arising from interactions among different biomolecules. For more accurate and robust prediction of target metabolic behavior under different conditions, not only metabolic reactions but also the genetic regulatory relationships involving transcription factors (TFs) affecting these metabolic reactions should be modeled. We have developed a modeling and simulation pipeline enabling the analysis of Transcription Regulation Integrated with Metabolic Regulation: TRIMER. TRIMER utilizes a Bayesian network (BN) inferred from transcriptomes to model the transcription factor regulatory network. TRIMER then infers the probabilities of the gene states relevant to the metabolism of interest, and predicts the metabolic fluxes and their changes that result from the deletion of one or more transcription factors at the genome scale. We demonstrate TRIMER's applicability to both simulated and experimental data and provide performance comparison with other existing approaches.",
+  "abstract_zh": "在基因组规模的代谢反应网络预测建模方面已有广泛研究。生命系统涉及由不同生物分子间相互作用产生的复杂随机过程。为了在不同条件下更准确、稳健地预测目标代谢行为，不仅应建模代谢反应，还应建模影响这些代谢反应的转录因子（TFs）所涉及的遗传调控关系。我们开发了一个建模与模拟流程，能够实现转录调控与代谢调控的整合分析：TRIMER。TRIMER利用从转录组推断出的贝叶斯网络（BN）来建模转录因子调控网络。随后，TRIMER推断与目标代谢相关的基因状态概率，并在基因组规模上预测因一个或多个转录因子缺失而导致的代谢通量及其变化。我们展示了TRIMER在模拟数据和实验数据上的适用性，并与其他现有方法进行了性能比较。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34761179/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34761179/",
+  "paper_page_path": "papers/pubmed/34761179/index.html"
+}

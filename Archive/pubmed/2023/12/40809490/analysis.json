@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40809490",
+  "title": "An enhanced transcription factor repressilator that buffers stochasticity and entrains to an erratic external circadian signal.",
+  "authors": "Frank, Steven A",
+  "journal": "Frontiers in systems biology",
+  "published_date": "2023-12-13",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用神经网络优化转录因子随机微分方程以维持昼夜节律，虽涉及转录因子网络动态，但非蛋白质-DNA互作或结合建模，方法为AI但对象与互作轴偏离，仅部分可借鉴。",
+  "abstract": "How do cellular regulatory networks solve the challenges of life? This article presents computer software to study that question, focusing on how transcription factor networks transform internal and external inputs into cellular response outputs. The example challenge concerns maintaining a circadian rhythm of molecular concentrations. The system must buffer intrinsic stochastic fluctuations in molecular concentrations and entrain to an external circadian signal that appears and disappears randomly. The software optimizes a stochastic differential equation of transcription factor protein dynamics and the associated mRNAs that produce those transcription factors. The cellular network takes as inputs the concentrations of the transcription factors and produces as outputs the transcription rates of the mRNAs that make the transcription factors. An artificial neural network encodes the cellular input-output function, allowing efficient search for solutions to the complex stochastic challenge. Several good solutions are discovered, measured by the probability distribution for the tracking deviation between the stochastic cellular circadian trajectory and the deterministic external circadian pattern. The solutions differ significantly from each other, showing that overparameterized cellular networks may solve a given challenge in a variety of ways. The computation method provides a major advance in its ability to find transcription factor network dynamics that can solve environmental challenges. The article concludes by drawing an analogy between overparameterized cellular networks and the dense and deeply connected overparameterized artificial neural networks that have succeeded so well in deep learning. Understanding how overparameterized networks solve challenges may provide insight into the evolutionary design of cellular regulation.",
+  "abstract_zh": "细胞调控网络如何应对生命中的挑战？本文介绍了一种计算机软件来研究这一问题，重点关注转录因子网络如何将内部和外部输入转化为细胞响应输出。示例挑战涉及维持分子浓度的昼夜节律。系统必须缓冲分子浓度中的内在随机波动，并同步于一个随机出现和消失的外部昼夜信号。该软件优化了转录因子蛋白质动力学及其产生这些转录因子的相关mRNA的随机微分方程。细胞网络以转录因子的浓度作为输入，并以产生转录因子的mRNA的转录速率作为输出。人工神经网络编码了细胞的输入-输出功能，从而能够高效搜索复杂随机挑战的解决方案。通过随机细胞昼夜节律轨迹与确定性外部昼夜模式之间跟踪偏差的概率分布来衡量，发现了几个良好的解决方案。这些解决方案彼此差异显著，表明过度参数化的细胞网络可能以多种方式解决给定的挑战。该计算方法在寻找能够解决环境挑战的转录因子网络动力学方面取得了重大进展。文章最后将过度参数化的细胞网络与在深度学习中取得巨大成功的密集且深度连接的过度参数化人工神经网络进行了类比。理解过度参数化网络如何解决挑战，可能为细胞调控的进化设计提供洞见。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40809490/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40809490/",
+  "paper_page_path": "papers/pubmed/40809490/index.html"
+}

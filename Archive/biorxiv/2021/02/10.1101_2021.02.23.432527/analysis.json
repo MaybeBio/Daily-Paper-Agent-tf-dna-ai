@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.23.432527",
+  "title": "PredictProtein – Predicting Protein Structure and Function for 29 Years",
+  "authors": "Bernhofer M; Dallago C; Karl T; Satagopam V; Heinzinger M; Littmann M; Olenyi T; Qiu J; Schütze K; Yachdav G; Ashkenazy H; Ben-Tal N; Bromberg Y; Goldberg T; Kajan L; O’Donoghue S; Sander C; Schafferhans A; Schlessinger A; Vriend G; Mirdita M; Gawron P; Gu W; Jarosz Y; Trefois C; Steinegger M; Schneider R; Rost B",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-24",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍PredictProtein在线服务器，提供蛋白质结构、功能及DNA/RNA/蛋白结合残基预测，虽涉及蛋白-DNA互作但非TF-DNA核心体系，方法以机器学习为主，可借鉴其结合位点预测思路。",
+  "abstract": "Since 1992 PredictProtein ( https://predictprotein.org ) is a one-stop online resource for protein sequence analysis with its main site hosted at the Luxembourg Centre for Systems Biomedicine (LCSB) and queried monthly by over 3,000 users in 2020. PredictProtein was the first Internet server for protein predictions. It pioneered combining evolutionary information and machine learning. Given a protein sequence as input, the server outputs multiple sequence alignments, predictions of protein structure in 1D and 2D (secondary structure, solvent accessibility, transmembrane segments, disordered regions, protein flexibility, and disulfide bridges) and predictions of protein function (functional effects of sequence variation or point mutations, Gene Ontology (GO) terms, subcellular localization, and protein-, RNA-, and DNA binding). PredictProtein’s infrastructure has moved to the LCSB increasing throughput; the use of MMseqs2 sequence search reduced runtime five-fold; user interface elements improved usability, and new prediction methods were added. PredictProtein recently included predictions from deep learning embeddings (GO and secondary structure) and a method for the prediction of proteins and residues binding DNA, RNA, or other proteins. PredictProtein.org aspires to provide reliable predictions to computational and experimental biologists alike. All scripts and methods are freely available for offline execution in high-throughput settings. <h4>Availability</h4> Freely accessible webserver PredictProtein.org ; Source and docker images: github.com/rostlab",
+  "abstract_zh": "自1992年以来，PredictProtein（https://predictprotein.org）一直是蛋白质序列分析的一站式在线资源，其主站点托管于卢森堡系统生物医学中心（LCSB），2020年每月有超过3000名用户查询。PredictProtein是首个蛋白质预测互联网服务器，开创了结合进化信息与机器学习的先河。以蛋白质序列为输入，服务器输出多序列比对、蛋白质一维和二维结构预测（二级结构、溶剂可及性、跨膜片段、无序区域、蛋白质柔韧性及二硫键）以及蛋白质功能预测（序列变异或点突变的功能效应、基因本体论（GO）术语、亚细胞定位，以及蛋白质、RNA和DNA结合）。PredictProtein的基础设施已迁移至LCSB，提高了吞吐量；使用MMseqs2序列搜索将运行时间缩短了五倍；用户界面元素提升了可用性，并新增了预测方法。PredictProtein近期纳入了基于深度学习嵌入的预测（GO和二级结构）以及一种预测蛋白质和残基结合DNA、RNA或其他蛋白质的方法。PredictProtein.org旨在为计算生物学家和实验生物学家提供可靠的预测。所有脚本和方法均可免费获取，适用于高通量环境下的离线执行。<h4>可用性</h4> 免费访问的Web服务器PredictProtein.org；源代码和Docker镜像：github.com/rostlab",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.23.432527",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.23.432527",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.23.432527/index.html"
+}

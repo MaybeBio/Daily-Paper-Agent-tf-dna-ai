@@ -1,0 +1,404 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.22.546080",
+  "title": "DeepRank-GNN-esm: A Graph Neural Network for Scoring Protein-Protein Models using Protein Language Model",
+  "doi": "10.1101/2023.06.22.546080",
+  "abstract": "Motivation Protein-Protein interactions (PPIs) play critical roles in numerous cellular processes. By modelling the three-dimensional structures of the correspond protein complexes valuable insights can be obtained, providing, for example, starting points for drug and protein design. One challenge in the modelling process is however the identification of near-native models from the large pool of generated models. To this end we previously developed DeepRank-GNN, a graph neural network that integrates structural and sequence information to enable effective pattern learning at PPI interfaces. Its main features are related to the Position Specific Scoring Matrices (PSSM), which are computationally expensive to generate and significantly limit the algorithm’s usability. Results We introduce here DeepRank-GNN-esm that includes as additional features protein language model embeddings from the EMS-2 model. We show that the ESM-2 embeddings can actually replace the PSSM features at no cost in-, or even better performance on two PPI-related tasks: scoring docking poses and detecting crystal artifacts. This new DeepRank version bypasses thus the need of generating PSSM, greatly improving the usability of the software and opening new application opportunities for systems for which PSSM profiles cannot be obtained or are irrelevant (e.g. antibody-antigen complexes). Availability and implementation DeepRank-GNN-esm is freely available from https://github.com/DeepRank/DeepRank-GNN-esm",
+  "authors": [
+    "X. Xu",
+    "A. M. J. J. Bonvin"
+  ],
+  "published_date": "2023-06-24",
+  "updated_date": "2023-06-25T01:55:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.546080",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.546080.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            24
+          ]
+        ],
+        "date-time": "2026-01-24T08:07:54Z",
+        "timestamp": 1769242074979,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 30,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Protein-Protein interactions (PPIs) play critical roles in numerous cellular processes. By modelling the three-dimensional structures of the correspond protein complexes valuable insights can be obtained, providing, for example, starting points for drug and protein design. One challenge in the modelling process is however the identification of near-native models from the large pool of generated models. To this end we previously developed DeepRank-GNN, a graph neural network that integrates structural and sequence information to enable effective pattern learning at PPI interfaces. Its main features are related to the Position Specific Scoring Matrices (PSSM), which are computationally expensive to generate and significantly limit the algorithm’s usability.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We introduce here DeepRank-GNN-esm that includes as additional features protein language model embeddings from the EMS-2 model. We show that the ESM-2 embeddings can actually replace the PSSM features at no cost in-, or even better performance on two PPI-related tasks: scoring docking poses and detecting crystal artifacts. This new DeepRank version bypasses thus the need of generating PSSM, greatly improving the usability of the software and opening new application opportunities for systems for which PSSM profiles cannot be obtained or are irrelevant (e.g. antibody-antigen complexes).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    DeepRank-GNN-esm is freely available from\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/DeepRank/DeepRank-GNN-esm\">https://github.com/DeepRank/DeepRank-GNN-esm</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.06.22.546080",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            25
+          ]
+        ],
+        "date-time": "2023-06-25T01:55:13Z",
+        "timestamp": 1687658113000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "DeepRank-GNN-esm: A Graph Neural Network for Scoring Protein-Protein Models using Protein Language Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-1883-6692",
+          "authenticated-orcid": false,
+          "given": "X.",
+          "family": "Xu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7369-1322",
+          "authenticated-orcid": false,
+          "given": "A. M. J. J.",
+          "family": "Bonvin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Baskaran K , Duarte JM , Biyani N , Bliven S , Capitani G. A PDB-wide , evolution-based assessment of protein-protein interfaces. A PDB-wide, evolution-based assessment of protein-protein interfaces. BMC Struct. Biol., 14, 22.",
+          "DOI": "10.1186/s12900-014-0022-0"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "342",
+          "DOI": "10.1038/s41576-021-00441-w",
+          "article-title": "From systems to structure — using genetic data to model protein structures",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Nat. Rev. Genet"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1618",
+          "DOI": "10.1002/wcms.1618",
+          "article-title": "Machine learning solutions for predicting protein–protein interactions",
+          "volume": "12",
+          "author": "Machine learning solutions for predicting protein–protein interactions",
+          "year": "2022",
+          "journal-title": "WIREs Comput. Mol. Sci"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202213362",
+          "DOI": "10.1002/ange.202213362",
+          "article-title": "Ranking Peptide Binders by Affinity with AlphaFold**",
+          "volume": "135",
+          "year": "2023",
+          "journal-title": "Angew. Chem"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja026939x"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Duarte JM , Srebniak A , Schärer MA , Capitani G. Protein interface classification by evolutionary analysis. Protein interface classification by evolutionary analysis. BMC Bioinformatics, 13, 334.",
+          "DOI": "10.1186/1471-2105-13-334"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Evans R , O’Neill M , Pritzel A , Antropova N , Senior A , Green T , Žídek A , Bates R , Blackwell S , Yim J , Ronneberger O , Bodenstein S , Zielinski M , Bridgland A , Potapenko A , Cowie A , Tunyasuvunakool K , Jain R , Clancy E , Kohli P , Jumper J , Hassabis D. (2021) Protein complex prediction with AlphaFold-Multimer. bioRxiv 2021.10.04.463034",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1744",
+          "DOI": "10.1038/s41467-022-29394-2",
+          "article-title": "AF2Complex predicts direct physical interactions in multimeric proteins with deep learning",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1410",
+          "DOI": "10.1002/wcms.1410",
+          "article-title": "Finding the ΔΔG spot: Are predictors of binding affinity changes upon mutations in protein–protein interactions ready for it? WIREs Comput",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Mol. Sci"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1093/bioinformatics/btz496",
+          "article-title": "iScore: a novel graph kernel-based function for scoring protein–protein docking models",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Johansson-Åkhe I , Wallner B. (2022) Improving peptide-protein docking with AlphaFold-Multimer using forced sampling. Front. Bioinforma., 2.",
+          "DOI": "10.3389/fbinf.2022.959160"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "121",
+          "DOI": "10.3390/biom13010121",
+          "article-title": "MetaScore: A Novel Machine-Learning-Based Approach to Improve Traditional Scoring Functions for Scoring Protein-Protein Docking Conformations",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Biomolecules"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "2861",
+          "DOI": "10.1016/j.jmb.2019.11.009",
+          "article-title": "Integrative Modelling of Biomolecular Complexes",
+          "volume": "432",
+          "year": "2020",
+          "journal-title": "J. Mol. Biol"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "3163",
+          "DOI": "10.1002/prot.24678",
+          "article-title": "Score_set: A CAPRI benchmark for scoring protein complexes",
+          "volume": "82",
+          "year": "2014",
+          "journal-title": "Proteins Struct. Funct. Bioinforma"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.17",
+          "unstructured": "Lin Z , Akin H , Rao R , Hie B , Zhu Z , Lu W , Costa AS , Fazel-Zarandi M , Sercu T , Candido S , Rives A. (2022) Language models of protein sequences at the scale of evolution enable accurate structure prediction. bioxiv, 2022.07.20.500902v1"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz991"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "70",
+          "DOI": "10.1016/j.sbi.2021.05.003",
+          "article-title": "Information-driven modeling of biomolecular complexes",
+          "volume": "70",
+          "year": "2021",
+          "journal-title": "Curr. Opin. Struct. Biol"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "btac759",
+          "DOI": "10.1093/bioinformatics/btac759",
+          "article-title": "DeepRank-GNN: a graph neural network framework to learn patterns in protein–protein interfaces",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "7068",
+          "DOI": "10.1038/s41467-021-27396-0",
+          "article-title": "DeepRank: a deep learning framework for data mining 3D protein-protein interfaces",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.22",
+          "first-page": "2230",
+          "article-title": "3DCONS-DB: A Database of Position-Specific Scoring Matrices in Protein Structures",
+          "volume": "22",
+          "year": "2017",
+          "journal-title": "Mol. Basel Switz"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.23",
+          "unstructured": "H Schweke , Q Xu , G Tauriello , L Pantolini , T Schwede , F Cazals , A LhЙritier , J Fernandez-Recio , LA RodrHguez-Lumbreras , O Schueler-Furman , JK Varga , B JimЙnez-GarcHa , M. RЙau , AMJJ Bonvin , C Savojardo , P-L Martelli , R Casadio , J Tubiana , H Wolfson , R Oliva , D Barradas-Bautista , T Ricciardelli , L Cavallo , Č Venclovas , K Olechnovič , R Guerois , J Andreani , J Martin , X Wang , D Kihara , A Marchand , B Correia , X Zou , S Dey , R Dunbrack , E Levy , S Wodak . Discriminating physiological from non-physiological interfaces in structures of protein complexes: a community-wide study. Proteomics In Press"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2015.07.016"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "2113",
+          "DOI": "10.1093/bioinformatics/btz870",
+          "article-title": "Protein docking model evaluation by 3D deep convolutional neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang X , Flannery ST , Kihara D. Protein Docking Model Evaluation by Graph Neural Networks. (2021) Protein Docking Model Evaluation by Graph Neural Networks. Front. Mol. Biosci., 8.",
+          "DOI": "10.3389/fmolb.2021.647915"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.27",
+          "unstructured": "Wei J , Tay Y , Bommasani R , Raffel C , Zoph B , Borgeaud S , Yogatama D , Bosma M , Zhou D , Metzler D , Chi EH , Hashimoto T , Vinyals O , Liang P , Dean J , Fedus W. (2022) Emergent Abilities of Large Language Models. arXiv, 2206.07682"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2015.10.003"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2011.09.012"
+        },
+        {
+          "key": "2023062803200606000_2023.06.22.546080v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu W , Shenoy A , Kundrotas P , Elofsson A. (2022) Evaluation of AlphaFold-Multimer prediction on multi-chain protein complexes. bioRxiv, 2022.12.08.519586.",
+          "DOI": "10.1101/2022.12.08.519586"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.22.546080",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:50:00Z",
+        "timestamp": 1768452600000
+      },
+      "score": 92.14965,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.22.546080"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ]
+      },
+      "references-count": 30,
+      "URL": "https://doi.org/10.1101/2023.06.22.546080",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioadv/vbad191",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

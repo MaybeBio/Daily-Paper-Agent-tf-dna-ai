@@ -1,0 +1,861 @@
+{
+  "identity": {
+    "pmid": "38092918",
+    "doi": "10.1038/s41586-023-06819-6",
+    "title": "Conserved and divergent gene regulatory programs of the mammalian neocortex."
+  },
+  "content": {
+    "abstract": "Divergence of cis-regulatory elements drives species-specific traits(1), but how this manifests in the evolution of the neocortex at the molecular and cellular level remains unclear. Here we investigated the gene regulatory programs in the primary motor cortex of human, macaque, marmoset and mouse using single-cell multiomics assays, generating gene expression, chromatin accessibility, DNA methylome and chromosomal conformation profiles from a total of over 200,000 cells. From these data, we show evidence that divergence of transcription factor expression corresponds to species-specific epigenome landscapes. We find that conserved and divergent gene regulatory features are reflected in the evolution of the three-dimensional genome. Transposable elements contribute to nearly 80% of the human-specific candidate cis-regulatory elements in cortical cells. Through machine learning, we develop sequence-based predictors of candidate cis-regulatory elements in different species and demonstrate that the genomic regulatory syntax is highly preserved from rodents to primates. Finally, we show that epigenetic conservation combined with sequence similarity helps to uncover functional cis-regulatory elements and enhances our ability to interpret genetic variants contributing to neurological disease and traits.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Callithrix/genetics",
+      "Chromatin/genetics/metabolism",
+      "*Conserved Sequence/genetics",
+      "DNA Methylation",
+      "DNA Transposable Elements/genetics",
+      "Epigenome",
+      "*Evolution, Molecular",
+      "*Gene Expression Regulation/genetics",
+      "*Gene Regulatory Networks",
+      "Macaca/genetics",
+      "*Mammals/genetics",
+      "Motor Cortex/cytology/metabolism",
+      "Multiomics",
+      "*Neocortex/cytology/metabolism",
+      "Regulatory Sequences, Nucleic Acid/genetics",
+      "Single-Cell Analysis",
+      "Transcription Factors/metabolism",
+      "Genetic Variation/genetics"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zemke, Nathan R",
+        "Armand, Ethan J",
+        "Wang, Wenliang",
+        "Lee, Seoyeon",
+        "Zhou, Jingtian",
+        "Li, Yang Eric",
+        "Liu, Hanqing",
+        "Tian, Wei",
+        "Nery, Joseph R",
+        "Castanon, Rosa G",
+        "Bartlett, Anna",
+        "Osteen, Julia K",
+        "Li, Daofeng",
+        "Zhuo, Xiaoyu",
+        "Xu, Vincent",
+        "Chang, Lei",
+        "Dong, Keyi",
+        "Indralingam, Hannah S",
+        "Rink, Jonathan A",
+        "Xie, Yang",
+        "Miller, Michael",
+        "Krienen, Fenna M",
+        "Zhang, Qiangge",
+        "Taskin, Naz",
+        "Ting, Jonathan",
+        "Feng, Guoping",
+        "McCarroll, Steven A",
+        "Callaway, Edward M",
+        "Wang, Ting",
+        "Lein, Ed S",
+        "Behrens, M Margarita",
+        "Ecker, Joseph R",
+        "Ren, Bing"
+      ],
+      "short_names": [
+        "Zemke NR",
+        "Armand EJ",
+        "Wang W",
+        "Lee S",
+        "Zhou J",
+        "Li YE",
+        "Liu H",
+        "Tian W",
+        "Nery JR",
+        "Castanon RG",
+        "Bartlett A",
+        "Osteen JK",
+        "Li D",
+        "Zhuo X",
+        "Xu V",
+        "Chang L",
+        "Dong K",
+        "Indralingam HS",
+        "Rink JA",
+        "Xie Y",
+        "Miller M",
+        "Krienen FM",
+        "Zhang Q",
+        "Taskin N",
+        "Ting J",
+        "Feng G",
+        "McCarroll SA",
+        "Callaway EM",
+        "Wang T",
+        "Lein ES",
+        "Behrens MM",
+        "Ecker JR",
+        "Ren B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6997-6018",
+        "ORCID: 0000-0003-0153-5659",
+        "ORCID: 0000-0003-1791-002X",
+        "ORCID: 0000-0001-7059-4033",
+        "ORCID: 0000-0001-7058-3297",
+        "ORCID: 0000-0001-7492-3703",
+        "ORCID: 0000-0002-1400-5609",
+        "ORCID: 0009-0007-4651-0443",
+        "ORCID: 0000-0002-7453-6786",
+        "ORCID: 0000-0003-0781-7868",
+        "ORCID: 0000-0002-1400-6820",
+        "ORCID: 0000-0002-8021-277X",
+        "ORCID: 0000-0002-6954-8184",
+        "ORCID: 0000-0002-6366-5267",
+        "ORCID: 0000-0002-6800-242X",
+        "ORCID: 0000-0001-9012-6552",
+        "ORCID: 0000-0002-7168-8186",
+        "ORCID: 0000-0001-5799-5895",
+        "ORCID: 0000-0002-5435-1127"
+      ],
+      "affiliations": [
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Division of Biological Sciences, University of California, San Diego, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Department of Genetics, The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St Louis, MO, USA.",
+        "Department of Genetics, The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St Louis, MO, USA.",
+        "Department of Genetics, The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St Louis, MO, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Princeton Neuroscience Institute, Princeton University, Princeton, NJ, USA.",
+        "Department of Genetics, Harvard Medical School, Boston, USA.",
+        "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "McGovern Institute for Brain Research, Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Allen Institute for Brain Science, Seattle, WA, USA.",
+        "Allen Institute for Brain Science, Seattle, WA, USA.",
+        "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "McGovern Institute for Brain Research, Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Department of Genetics, Harvard Medical School, Boston, USA.",
+        "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Systems Neurobiology Laboratories, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Department of Neurosciences, University of California San Diego, La Jolla, CA, USA.",
+        "Department of Genetics, The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St Louis, MO, USA.",
+        "McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Allen Institute for Brain Science, Seattle, WA, USA.",
+        "Department of Neurological Surgery, University of Washington, Seattle, WA, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA. ecker@salk.edu.",
+        "Howard Hughes Medical Institute, The Salk Institute for Biological Studies, La Jolla, CA, USA. ecker@salk.edu.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA. biren@ucsd.edu.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA. biren@ucsd.edu.",
+        "Institute of Genomic Medicine, Moores Cancer Center, School of Medicine, University of California San Diego, La Jolla, CA, USA. biren@ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zemke, Nathan R",
+        "short_name": "Zemke NR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Armand, Ethan J",
+        "short_name": "Armand EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenliang",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Seoyeon",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingtian",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA, USA.",
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yang Eric",
+        "short_name": "Li YE",
+        "identifiers": [
+          "0000-0001-6997-6018"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Hanqing",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+          "Division of Biological Sciences, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tian, Wei",
+        "short_name": "Tian W",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nery, Joseph R",
+        "short_name": "Nery JR",
+        "identifiers": [
+          "0000-0003-0153-5659"
+        ],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Castanon, Rosa G",
+        "short_name": "Castanon RG",
+        "identifiers": [
+          "0000-0003-1791-002X"
+        ],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bartlett, Anna",
+        "short_name": "Bartlett A",
+        "identifiers": [
+          "0000-0001-7059-4033"
+        ],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Osteen, Julia K",
+        "short_name": "Osteen JK",
+        "identifiers": [
+          "0000-0001-7058-3297"
+        ],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Daofeng",
+        "short_name": "Li D",
+        "identifiers": [
+          "0000-0001-7492-3703"
+        ],
+        "affiliations": [
+          "Department of Genetics, The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Zhuo, Xiaoyu",
+        "short_name": "Zhuo X",
+        "identifiers": [
+          "0000-0002-1400-5609"
+        ],
+        "affiliations": [
+          "Department of Genetics, The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Vincent",
+        "short_name": "Xu V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Chang, Lei",
+        "short_name": "Chang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Dong, Keyi",
+        "short_name": "Dong K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Indralingam, Hannah S",
+        "short_name": "Indralingam HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rink, Jonathan A",
+        "short_name": "Rink JA",
+        "identifiers": [
+          "0009-0007-4651-0443"
+        ],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Yang",
+        "short_name": "Xie Y",
+        "identifiers": [
+          "0000-0002-7453-6786"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Miller, Michael",
+        "short_name": "Miller M",
+        "identifiers": [
+          "0000-0003-0781-7868"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Krienen, Fenna M",
+        "short_name": "Krienen FM",
+        "identifiers": [
+          "0000-0002-1400-6820"
+        ],
+        "affiliations": [
+          "Princeton Neuroscience Institute, Princeton University, Princeton, NJ, USA.",
+          "Department of Genetics, Harvard Medical School, Boston, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiangge",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "McGovern Institute for Brain Research, Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Taskin, Naz",
+        "short_name": "Taskin N",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Ting, Jonathan",
+        "short_name": "Ting J",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Feng, Guoping",
+        "short_name": "Feng G",
+        "identifiers": [
+          "0000-0002-8021-277X"
+        ],
+        "affiliations": [
+          "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "McGovern Institute for Brain Research, Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "McCarroll, Steven A",
+        "short_name": "McCarroll SA",
+        "identifiers": [
+          "0000-0002-6954-8184"
+        ],
+        "affiliations": [
+          "Department of Genetics, Harvard Medical School, Boston, USA.",
+          "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Callaway, Edward M",
+        "short_name": "Callaway EM",
+        "identifiers": [
+          "0000-0002-6366-5267"
+        ],
+        "affiliations": [
+          "Systems Neurobiology Laboratories, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+          "Department of Neurosciences, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Ting",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0002-6800-242X"
+        ],
+        "affiliations": [
+          "Department of Genetics, The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, St Louis, MO, USA.",
+          "McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Lein, Ed S",
+        "short_name": "Lein ES",
+        "identifiers": [
+          "0000-0001-9012-6552"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA, USA.",
+          "Department of Neurological Surgery, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Behrens, M Margarita",
+        "short_name": "Behrens MM",
+        "identifiers": [
+          "0000-0002-7168-8186"
+        ],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ecker, Joseph R",
+        "short_name": "Ecker JR",
+        "identifiers": [
+          "0000-0001-5799-5895"
+        ],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA. ecker@salk.edu.",
+          "Howard Hughes Medical Institute, The Salk Institute for Biological Studies, La Jolla, CA, USA. ecker@salk.edu."
+        ]
+      },
+      {
+        "full_name": "Ren, Bing",
+        "short_name": "Ren B",
+        "identifiers": [
+          "0000-0002-5435-1127"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA. biren@ucsd.edu.",
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA. biren@ucsd.edu.",
+          "Institute of Genomic Medicine, Moores Cancer Center, School of Medicine, University of California San Diego, La Jolla, CA, USA. biren@ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/14 00:42",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "42711533",
+      "42711532",
+      "42561916",
+      "42527403",
+      "42490494",
+      "42490430",
+      "42475638",
+      "42335932",
+      "42281996",
+      "42135297",
+      "42090501",
+      "42071237",
+      "42047980",
+      "42039530",
+      "42014606",
+      "41959226",
+      "41952195",
+      "41927920",
+      "41889906",
+      "41881989",
+      "41857393",
+      "41851468",
+      "41839854",
+      "41805929",
+      "41781332",
+      "41735542",
+      "41714417",
+      "41676689",
+      "41676679",
+      "41676459",
+      "41610256",
+      "41571655",
+      "41446173",
+      "41421360",
+      "41332519",
+      "41331142",
+      "41326246",
+      "41258729",
+      "41256008",
+      "41227379",
+      "40882620",
+      "40672326",
+      "40631268",
+      "40593543",
+      "40536976",
+      "40476256",
+      "40475427",
+      "40403730",
+      "40305623",
+      "40267294",
+      "40235507",
+      "40205052",
+      "40165269",
+      "40036988",
+      "40033282",
+      "40009678",
+      "39964724",
+      "39855972",
+      "39829922",
+      "39794343",
+      "39789128",
+      "39764062",
+      "39476839",
+      "39357501",
+      "39308429",
+      "39282369",
+      "39229027",
+      "39227435",
+      "39204664",
+      "39131277",
+      "39121701",
+      "38955465",
+      "38897852",
+      "38763933",
+      "38712231",
+      "38559123"
+    ],
+    "refs": [
+      "37563440",
+      "37490428",
+      "37104615",
+      "36645372",
+      "36426870",
+      "36411364",
+      "36007006",
+      "35771910",
+      "34837041",
+      "34774128",
+      "34616075",
+      "34616068",
+      "34616066",
+      "34616062",
+      "34616061",
+      "34608324",
+      "34584091",
+      "34446581",
+      "34321664",
+      "34177462",
+      "34062119",
+      "34002095",
+      "33828297",
+      "33585465",
+      "33536621",
+      "32728242",
+      "32687525",
+      "31784727",
+      "31780648",
+      "31740819",
+      "31604244",
+      "31501549",
+      "31427791",
+      "31384045",
+      "31243369",
+      "31100635",
+      "30958121",
+      "30954475",
+      "30361341",
+      "30169659",
+      "29588361",
+      "29425488",
+      "29087517",
+      "29042690",
+      "28985297",
+      "28781152",
+      "28525758",
+      "28348391",
+      "27867194",
+      "26704975",
+      "26365491",
+      "26030523",
+      "25700174",
+      "25642630",
+      "25635462",
+      "25409826",
+      "25409824",
+      "25206819",
+      "25042786",
+      "24360275",
+      "23586463",
+      "23332764",
+      "22955828",
+      "22495300",
+      "22244452",
+      "21330290",
+      "21106759",
+      "20639541",
+      "20531367",
+      "20513432",
+      "20196867",
+      "20110278",
+      "19910308",
+      "18798982",
+      "18614008",
+      "18606989",
+      "17086198",
+      "16381938",
+      "16024819",
+      "15690032",
+      "14681366",
+      "14595094",
+      "14563999",
+      "10839547",
+      "10026784",
+      "5789433"
+    ],
+    "similar": [
+      "38092918",
+      "37066152",
+      "38092913",
+      "30661644",
+      "17201929",
+      "38030727",
+      "25409824",
+      "22143240",
+      "22763441",
+      "25409825",
+      "41385645",
+      "38604126",
+      "37286742",
+      "25409826",
+      "33239788",
+      "27503290",
+      "38092917",
+      "28273063",
+      "41610256",
+      "40425826",
+      "41247408",
+      "14530429",
+      "35228718",
+      "40826469",
+      "41285681",
+      "30413698",
+      "34616062",
+      "33978759",
+      "21435340",
+      "27309802",
+      "25319995",
+      "18832441",
+      "39217141",
+      "21092170",
+      "23675311",
+      "29335803",
+      "24966180",
+      "32053231",
+      "30413530",
+      "40131776",
+      "24009522",
+      "23185133",
+      "22955614",
+      "34774128",
+      "39764062",
+      "34616068",
+      "32286261",
+      "33495464",
+      "38994973",
+      "35794099",
+      "40245149",
+      "29196861",
+      "36746940",
+      "29404959",
+      "22955617",
+      "34615879",
+      "40369872",
+      "17571346",
+      "28855262",
+      "36935423",
+      "39255977",
+      "25411453",
+      "26020930",
+      "40341060",
+      "35552602",
+      "37308596",
+      "21857980",
+      "24440152",
+      "34187518",
+      "16850038",
+      "36608347",
+      "36342464",
+      "30184074",
+      "22955616",
+      "22761590",
+      "33565589",
+      "38951027",
+      "38012720",
+      "16978413",
+      "27842294",
+      "34753509",
+      "18197176",
+      "22402505",
+      "39631404",
+      "18030428",
+      "38781344",
+      "25624274",
+      "9510540",
+      "18682548",
+      "31822674",
+      "31730374",
+      "40890850",
+      "38358392",
+      "12082130",
+      "33397727",
+      "32728248",
+      "14962988",
+      "32106815",
+      "37104580",
+      "31006511"
+    ],
+    "review": [
+      "38092918",
+      "22143240",
+      "37286742",
+      "35228718",
+      "29196861",
+      "36935423",
+      "16850038",
+      "36608347",
+      "27842294",
+      "22402505",
+      "18030428",
+      "25624274"
+    ],
+    "pmc": [
+      "10719095"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-023-06819-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38092918/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38092918",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/9xh7v7pk",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38092918",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse229169",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

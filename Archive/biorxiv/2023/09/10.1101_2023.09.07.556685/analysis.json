@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.07.556685",
+  "title": "Learnt representations of proteins can be used for accurate prediction of small molecule binding sites on experimentally determined and predicted protein structures",
+  "authors": "Anna Carbery; Martin Buttenschoen; Rachael Skyner; Frank von Delft; Charlotte M. Deane",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-08",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用ESM-IF1蛋白语言模型嵌入预测小分子结合位点，虽非TF-DNA体系，但蛋白语言模型与点云聚类方法可迁移至蛋白质-DNA互作界面预测，对课题有方法借鉴价值。",
+  "abstract": "Protein-ligand binding site prediction is a useful tool for understanding the functional behaviour and potential drug-target interactions of a novel protein of interest. However, most binding site prediction methods are tested by providing crystallised ligand-bound (holo) structures as input. This testing regime is insufficient to understand the performance on novel protein targets where experimental structures are not available. An alternative option is to provide computationally predicted protein structures, but this is not commonly tested. However, due to the training data used, computationally-predicted protein structures tend to be extremely accurate, and are often biased toward a holo conformation. In this study we describe and benchmark IF-SitePred, a protein-ligand binding site prediction method which is based on the labelling of ESM-IF1 protein language model embeddings combined with point cloud annotation and clustering. We show that not only is IF-SitePred competitive with state-of-the-art methods when predicting binding sites on experimental structures, but it performs better on proxies for novel proteins where low accuracy has been simulated by molecular dynamics. Finally, IF-SitePred outperforms other methods if ensembles of predicted protein structures are generated.",
+  "abstract_zh": "蛋白质-配体结合位点预测是理解目标新型蛋白质功能行为及潜在药物-靶点相互作用的有用工具。然而，大多数结合位点预测方法是通过提供结晶配体结合（holo）结构作为输入来测试的。这种测试机制不足以理解在缺乏实验结构的新型蛋白质靶标上的性能。另一种选择是提供计算预测的蛋白质结构，但这并不常被测试。然而，由于所使用的训练数据，计算预测的蛋白质结构往往极为准确，并且常偏向于holo构象。在本研究中，我们描述并基准测试了IF-SitePred，这是一种基于ESM-IF1蛋白质语言模型嵌入标记结合点云注释和聚类的蛋白质-配体结合位点预测方法。我们表明，IF-SitePred不仅在实验结构上预测结合位点时与最先进方法具有竞争力，而且在通过分子动力学模拟低准确度的新型蛋白质代理上表现更优。最后，如果生成预测蛋白质结构的集合，IF-SitePred则优于其他方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.07.556685",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.07.556685",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.07.556685/index.html"
+}

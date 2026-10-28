@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, experimental sections, results, discussion, conclusions, acknowledgements) as provided in the submission.
+- **Assessment boundary** The review is confined to the scientific content, methodology, data interpretation, and claims presented in the supplied text. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors claim that TMPyP4 binds the HIV-1 LTR-III G-quadruplex via two distinct modes (guanine-rich Site-I and non-guanine Site-II), that these modes are resolvable by fluorescence but not absorption spectroscopy, and that both the GQ structure and the dual binding behavior are preserved within BSA-PEG protein condensates, with only a modest reduction in binding affinity.
+- **Visible evidence base** Steady-state absorption and fluorescence titrations, Job plot analysis, time-resolved fluorescence (TCSPC) measurements, nucleotide control experiments, CD spectroscopy, phase contrast and fluorescence microscopy of condensates, molecular docking, and 200-500 ns MD simulations with MM-PBSA free energy calculations.
+- **Missing materials affecting confidence** Supporting Information (Figures S1-S9, Tables S1, Section 1.1) is referenced but not provided. Raw data files, fitting residuals, and convergence metrics for MD simulations are not available. Experimental details for fluorescence imaging of TMPyP4-GQ in condensates are incomplete.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically sound investigation of TMPyP4 binding to the HIV-1 LTR-III G-quadruplex, with the novel contribution of extending the analysis to protein condensate environments. The dual binding mode hypothesis is well supported by complementary spectroscopic and computational approaches. The work is of interest to the G-quadruplex and chemical biology communities, and the condensate aspect adds a timely dimension. However, several technical concerns, particularly regarding the quantitative analysis of binding in condensates and the interpretation of MD results, need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers in G-quadruplex biology, nucleic acid-ligand interactions, antiviral drug discovery, and the emerging field of biomolecular condensates. The methodological emphasis on fluorescence spectroscopy for resolving binding heterogeneity will appeal to biophysical chemists. The demonstration of preserved ligand recognition in condensates has implications for understanding drug efficacy in cellular environments.
+- **Major strengths** 1) The combination of steady-state and time-resolved fluorescence to reveal binding heterogeneity is elegant and well executed. 2) The use of nucleotide controls to mechanistically assign quenching to guanine is rigorous. 3) The extension to BSA-PEG condensates addresses a relevant and underexplored question. 4) The computational work provides structural context for the spectroscopic observations. 5) The writing is clear and the logical flow from dilute to condensate conditions is effective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of quantitative binding analysis
+  - **Claim pointer** The authors report dissociation constants (Kd = 408.7 ± 50.0 nM for Site-I and 6.7 ± 0.7 μM for Site-II in buffer; 530 ± 70 nM and 10.1 ± 1.5 μM in condensates) and use these to conclude a "slight reduction in binding affinity" in condensates.
+  - **Evidence pointer** Section 3.1, Figure 1C; Section 3.2, Figure 5D-E; Section 2.2 (Methods)
+  - **Concern** The fitting model for the fluorescence enhancement region (Site-II) is not described in sufficient detail. The equation provided in the Methods is incomplete (the functional form is missing). Furthermore, the Kd values for Site-II are derived from a region where fluorescence intensity increases, which is unusual for a binding isotherm. The authors must clarify the physical model used, how the enhancement is related to binding occupancy, and whether the two-site model is globally fitted or applied sequentially. Without this, the reported Kd values, and the comparison between buffer and condensate conditions, are not quantitatively reliable.
+  - **Why it matters** The central quantitative claim of preserved binding with slightly reduced affinity in condensates rests entirely on these fitted parameters. If the fitting model is flawed or the Kd values are not directly comparable across conditions, the conclusion is weakened.
+  - **Resolution test** Provide the complete fitting equations, a description of the global vs. sequential fitting procedure, and a demonstration that the model adequately describes the data across the full titration range. Show that the Kd values are robust to alternative fitting approaches (e.g., global fitting of both sites simultaneously).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for binding mode assignment
+  - **Claim pointer** The authors assign Site-I to guanine-rich regions (terminal G-quartet) and Site-II to non-guanine regions (quadruplex-duplex junction) based on nucleotide controls and MD simulations.
+  - **Evidence pointer** Section 3.1, Figures 3B-E, Table 2; Section 3.2, Figure 5
+  - **Concern** The nucleotide control experiments use individual mononucleotides (AMP, GMP, TMP, CMP) at 15 mM. This is a very different context from a folded G-quadruplex structure. The conclusion that Site-I is "guanine-rich" based on these controls is reasonable but indirect. More critically, the MD simulations show that the "Site-II" pose at the junction is less stable (63% occupancy) and less favorable energetically than the Site-I pose. The authors should address whether the experimentally observed Site-II population could correspond to a different structural location than the junction, and whether the MD simulations truly capture the experimentally observed binding modes. The assignment of Site-II to the junction is presented as fact but is only one possible interpretation.
+  - **Why it matters** The manuscript's title emphasizes "hidden dual binding modes." The structural identity of these modes is a key claim. If the assignment is not robust, the mechanistic insight is significantly weakened.
+  - **Resolution test** Provide additional experimental evidence for the location of Site-II (e.g., mutation studies, footprinting, or FRET-based assays). Alternatively, temper the claim and explicitly state that the junction assignment is a hypothesis supported by computation but not directly confirmed experimentally.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative comparison between buffer and condensate conditions
+  - **Claim pointer** The authors state that "both the structure of the GQ and its mode of ligand recognition are preserved within condensate-like environments" and that binding affinity is "slightly reduced."
+  - **Evidence pointer** Section 3.2, Figures 5-6, Table 3
+  - **Concern** The comparison between buffer and condensate conditions is complicated by the fact that the condensate environment contains high concentrations of BSA, which itself binds TMPyP4 (as acknowledged in the text). The Kd values reported for condensates are apparent values that include competition from BSA binding. The authors do not correct for this competition or estimate the free TMPyP4 concentration in the condensate phase. The conclusion of "slightly reduced" affinity may be an artifact of the competitive binding environment.
+  - **Why it matters** The claim of preserved binding in condensates is a major selling point of the paper. If the quantitative comparison is confounded by BSA competition, the conclusion is not robust.
+  - **Resolution test** Perform control experiments with BSA alone (no GQ) to quantify TMPyP4-BSA binding, and use a competitive binding model to extract the true GQ-TMPyP4 Kd in the condensate. Alternatively, use a different condensate system that does not bind the ligand.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical and reproducibility analysis
+  - **Claim pointer** All reported Kd values, lifetimes, and free energies are presented as single values with errors, but the number of independent replicates is not stated.
+  - **Evidence pointer** Sections 3.1, 3.2, Tables 1-3
+  - **Concern** The manuscript does not report the number of independent experimental replicates for the fluorescence titrations, TCSPC measurements, or CD experiments. The errors on Kd values appear to be fitting errors, not standard deviations from independent measurements. For a study making quantitative claims, this is insufficient.
+  - **Why it matters** Reproducibility is a core tenet of scientific reporting. Without replicate information, the reader cannot assess the reliability of the reported values.
+  - **Resolution test** State the number of independent replicates for each experiment and report mean ± SD (or SEM) across replicates, not just fitting errors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 3.2, text describing Figure 5B
+  - **Evidence pointer** Section 3.2, Figure 5B
+  - **Issue** The sentence describing the spectral changes of TMPyP4 in the absence of GQ within condensates is ambiguous. It is unclear whether the two emission bands at 653 nm and 714 nm are attributed to BSA-bound TMPyP4 or to a conformational change of TMPyP4 itself.
+  - **Required correction** Rewrite the sentence to clearly state that the two bands arise from TMPyP4 bound to BSA, and that this is distinct from the GQ-bound state.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.2, Methods, MD simulation section
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of the MD simulation protocol is incomplete. The force field for TMPyP4 is not specified (RESP charges are mentioned, but the general Amber force field version is not). The temperature and pressure coupling methods are not described. The number of replicas (if any) is not stated.
+  - **Required correction** Provide a complete description of the simulation parameters, including force field versions, thermostat/barostat settings, and whether multiple independent simulations were performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The figure panels showing MD simulation results (3F, 3G) are described in the text but the specific metrics (RMSD, occupancy) are not clearly labeled in the figure. The reader cannot easily map the text description to the figure panels.
+  - **Required correction** Add clear axis labels and panel titles to Figure 3F and 3G, and ensure the text refers to specific panels unambiguously.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.1, discussion of Job plot
+  - **Evidence pointer** Figure 1A (bottom)
+  - **Issue** The Job plot maximum at x_TMPyP4 ≈ 0.6-0.7 is interpreted as a 2:1 TMPyP4:GQ complex. However, a maximum at 0.67 would indicate exactly 2:1, while 0.6-0.7 is a range. The authors should clarify whether the maximum is at 0.67 or whether there is uncertainty in the determination.
+  - **Required correction** State the exact position of the Job plot maximum and the associated uncertainty, and discuss whether the range is consistent with a single 2:1 stoichiometry or could indicate a mixture of stoichiometries.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete fitting model for Site-II Kd), R1-M2 (insufficient evidence for Site-II structural assignment), R1-M3 (unaccounted BSA competition in condensate Kd values).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its specific combination of dual binding mode analysis with condensate environments. The concept of testing ligand-GQ interactions in phase-separated systems is timely and not widely explored. However, the individual techniques (fluorescence, TCMP, MD) are standard.
+  - **Scientific importance** The finding that GQ-ligand recognition is preserved in condensates has potential implications for understanding drug activity in cells. The dual binding mode insight is useful for ligand design. The importance is moderate to high within the GQ field, but the broader impact beyond this community may be limited.
+  - **Interdisciplinary readership** The work bridges biophysical chemistry, nucleic acid biology, and condensate biology. It could appeal to readers in chemical biology and drug discovery. However, the heavy reliance on fluorescence spectroscopy may limit accessibility to non-specialists.
+  - **Technical soundness** The experimental design is generally sound, but the quantitative analysis has gaps (see R1-M1, R1-M3). The computational work is supportive but not definitive. The manuscript needs revision to fully establish technical rigor.
+  - **Readability for nonspecialists** The abstract and introduction are accessible. The results section is dense and assumes familiarity with fluorescence spectroscopy and MD simulations. The manuscript would benefit from a brief primer on the key techniques for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that dual binding modes are preserved in condensates, is potentially interesting and timely. However, the quantitative claims (Kd values, binding mode assignment) need to be substantiated with a more rigorous analysis. The manuscript is not currently established from the provided evidence due to the concerns outlined above.
+
+## Risk / unsupported claims
+- The claim that Site-II is located at the quadruplex-duplex junction is not directly supported by experimental evidence; it is inferred from MD simulations and is presented as a definitive assignment.
+- The quantitative comparison of binding affinities between buffer and condensates (Kd values) is potentially confounded by TMPyP4-BSA interactions, which are not quantitatively accounted for.
+- The statement that "the overall energetic landscape governing TMPyP4-GQ interaction remains largely preserved" is based on a small free energy difference that may be within experimental uncertainty, given the confounding factors.
+- The claim that fluorescence spectroscopy is a "sensitive approach for resolving hidden binding heterogeneity" is supported by the data, but the generality of this claim beyond the specific TMPyP4-GQ system is not established.

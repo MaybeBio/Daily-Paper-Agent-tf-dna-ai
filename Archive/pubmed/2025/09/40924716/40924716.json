@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "40924716",
+    "doi": "10.1371/journal.pone.0330832",
+    "title": "Comprehensive analysis of disulfidptosis-related genes in pulmonary hypertension through machine learning and immune infiltration: Spotlight on USP32 and ZNF655 as key regulators."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Disulfidptosis, a novel cellular death manner, has yet to be fully explored within the context of pulmonary arterial hypertension (PAH). This study aims to identify genes implicated in PAH that are involved in disulfidptosis. METHOD: Based on data from the GEO database, this study employed co-expression analysis, Weighted Gene Co-Expression Network Analysis (WGCNA), hub gene identification, and Gene Set Enrichment Analysis (GSEA) to uncover genes associated with PAH and disulfidptosis. Subsequent machine learning validation and functional GSEA further refined the identification of pivotal genes. The investigation extended to examining immune cell involvement via immune infiltration techniques and elucidates the hub genes' roles within ceRNA networks. RESULT: The integrative approach of co-expression analysis and WGCNA identified genes at the intersection of PAH and disulfidptosis. GSEA revealed their roles in essential biological processes and pathways, such as mRNA processing and cytoplasmic DNA sensing pathway. Prominently, USP32 and ZNF655 were identified as significant hub genes through machine learning analysis, demonstrating notable diagnostic potential across various datasets. Further, immune infiltration studies and ceRNA regulatory network construction revealed the intricate association between these genes and differential immune cell expression, alongside miRNA and lncRNA regulatory networks. CONCLUSIONS: This study elucidates the contributory role of USP32 and ZNF655 in the pathogenesis of PAH, making them as critical genes within the disulfidptosis pathway.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Disulfidptosis/genetics/immunology",
+      "*Machine Learning",
+      "*Pulmonary Arterial Hypertension/genetics/immunology/pathology",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "*Ubiquitin Thiolesterase/genetics/metabolism",
+      "*Kruppel-Like Transcription Factors/genetics/metabolism",
+      "Gene Expression Regulation/immunology",
+      "Datasets as Topic",
+      "RNA, Competitive Endogenous/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Riken",
+        "Guo, Dingyu",
+        "Pan, Jiahua",
+        "Pang, Lingpin",
+        "Sun, Jie",
+        "Xian, Qian",
+        "Huang, Tao",
+        "Cheng, Junfen",
+        "Huang, Jihuang",
+        "Zeng, Xianbing",
+        "Yang, Guojun",
+        "Qi, Shiyan",
+        "Chen, Wenliang",
+        "Sun, Xishi"
+      ],
+      "short_names": [
+        "Chen R",
+        "Guo D",
+        "Pan J",
+        "Pang L",
+        "Sun J",
+        "Xian Q",
+        "Huang T",
+        "Cheng J",
+        "Huang J",
+        "Zeng X",
+        "Yang G",
+        "Qi S",
+        "Chen W",
+        "Sun X"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-7525-6615"
+      ],
+      "affiliations": [
+        "Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Lianjiang People's Hospital, Zhanjiang, Guangdong, China.",
+        "Lianjiang People's Hospital, Zhanjiang, Guangdong, China.",
+        "Lianjiang People's Hospital, Zhanjiang, Guangdong, China.",
+        "Scientific Research Center, The Second Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+        "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Riken",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Dingyu",
+        "short_name": "Guo D",
+        "identifiers": [
+          "0009-0000-7525-6615"
+        ],
+        "affiliations": [
+          "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Jiahua",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Lingpin",
+        "short_name": "Pang L",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jie",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xian, Qian",
+        "short_name": "Xian Q",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Tao",
+        "short_name": "Huang T",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Junfen",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jihuang",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xianbing",
+        "short_name": "Zeng X",
+        "identifiers": [],
+        "affiliations": [
+          "Lianjiang People's Hospital, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guojun",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Lianjiang People's Hospital, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Shiyan",
+        "short_name": "Qi S",
+        "identifiers": [],
+        "affiliations": [
+          "Lianjiang People's Hospital, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wenliang",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Scientific Research Center, The Second Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xishi",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China.",
+          "Emergency Medicine Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/09 18:28",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42470726"
+    ],
+    "refs": [
+      "39385167",
+      "38886311",
+      "38572649",
+      "37679322",
+      "37574347",
+      "37259067",
+      "37064042",
+      "36918690",
+      "36747082",
+      "36396789",
+      "36312597",
+      "36121870",
+      "35646965",
+      "35504356",
+      "35440702",
+      "35412560",
+      "33831428",
+      "33791009",
+      "33785842",
+      "33503992",
+      "33105588",
+      "33000412",
+      "32860486",
+      "32821246",
+      "32429632",
+      "32132543",
+      "32028828",
+      "32017655",
+      "30963672",
+      "30853343",
+      "30786234",
+      "30586764",
+      "30511343",
+      "29152378",
+      "28593996",
+      "28241922",
+      "27444227",
+      "27188753",
+      "26935844",
+      "26320113",
+      "26121334",
+      "25617802",
+      "24951765",
+      "23518411",
+      "22955318",
+      "22679007",
+      "22379170",
+      "22379169",
+      "21802130",
+      "21335523",
+      "20680853",
+      "20081107",
+      "20008280",
+      "19114008",
+      "18286240",
+      "16199517"
+    ],
+    "similar": [
+      "40924716",
+      "42172296",
+      "41224720",
+      "38789967",
+      "42123445",
+      "39512836",
+      "40186271",
+      "42537010",
+      "36514015",
+      "39026663",
+      "40258895",
+      "41388523",
+      "39780155",
+      "42267557",
+      "42642681",
+      "37582718",
+      "40319145",
+      "41706425",
+      "41432483",
+      "34233597",
+      "38968594",
+      "41052072",
+      "40821971",
+      "39559355",
+      "41013556",
+      "42327749",
+      "38812509",
+      "39391037",
+      "33831428",
+      "41137290",
+      "40704466",
+      "39324181",
+      "38994368",
+      "38837574",
+      "42158856",
+      "40596265",
+      "40313958",
+      "40948782",
+      "39616855",
+      "40428318",
+      "41393259",
+      "40312440",
+      "32886110",
+      "42195052",
+      "41065575",
+      "42233387",
+      "39069636",
+      "33539912",
+      "36532015",
+      "39097701",
+      "42715252",
+      "41733593",
+      "41006883",
+      "40574839",
+      "38755717",
+      "41756296",
+      "41190071",
+      "42338983",
+      "39080525",
+      "41878449",
+      "39713769",
+      "40097519",
+      "42306654",
+      "40406126",
+      "42363518",
+      "41651978",
+      "41789070",
+      "39034722",
+      "40332792",
+      "38863714",
+      "39142001",
+      "40969769",
+      "42564306",
+      "41107929",
+      "40808946",
+      "41277057",
+      "35069594",
+      "41094572",
+      "39234248",
+      "40093012",
+      "38690269",
+      "42092981",
+      "40305445",
+      "41110296",
+      "42015036",
+      "40665394",
+      "39893187",
+      "40532306",
+      "41013727",
+      "40659785",
+      "39375405",
+      "40362669",
+      "38552277",
+      "41120603",
+      "38899746",
+      "40681713",
+      "37449198",
+      "42107160",
+      "40273141",
+      "39139563"
+    ],
+    "review": [
+      "40924716"
+    ],
+    "pmc": [
+      "12419597"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0330832",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40924716/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

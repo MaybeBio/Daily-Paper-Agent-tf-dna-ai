@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40170854",
+  "title": "Multimodal diagnostic models and subtype analysis for neoadjuvant therapy in breast cancer.",
+  "authors": "Ye, Zheng; Yuan, Jiaqi; Hong, Deqing; Xu, Peng; Liu, Wenbin",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-04-02",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用多组学数据构建乳腺癌新辅助治疗疗效预测模型和亚型分析，未涉及蛋白质-DNA互作或TF-DNA结合机制，且无AI/物理模拟方法用于互作建模，与本课题无关。",
+  "abstract": "BACKGROUND: Breast cancer, a heterogeneous malignancy, comprises multiple subtypes and poses a substantial threat to women's health globally. Neoadjuvant therapy (NAT), administered prior to surgery, is integral to breast cancer treatment strategies. It aims to downsize tumors, optimize surgical outcomes, and evaluate tumor responsiveness to treatment. However, accurately predicting NAT efficacy remains challenging due to the disease's complexity and the diverse responses across different molecular subtypes. METHODS: In this study, we harnessed multimodal data, including proteomic, genomic, MRI imaging, and clinical information, sourced from multiple cohorts such as I-SPY2, TCGA-BRCA, GSE161529, and METABRIC. Post data preprocessing, Lasso regression was utilized for feature extraction and selection. Five machine learning algorithms were employed to construct diagnostic models, with pathological complete response (pCR) as the predictive endpoint. RESULTS: Our results revealed that the multi-omics Ridge regression model achieved the optimal performance in predicting pCR, with an AUC of 0.917. Through unsupervised clustering using the R package MOVICS and nine clustering algorithms, we identified four distinct multimodal breast cancer subtypes associated with NAT. These subtypes exhibited significant differences in proteomic profiles, hallmark cancer gene sets, pathway activities, tumor immune microenvironments, transcription factor activities, and clinical characteristics. For instance, CS1 subtype, predominantly ER-positive, had a low pCR rate and poor response to chemotherapy drugs, while CS4 subtype, characterized by high immune infiltration, showed a better response to immunotherapy. At the single-cell level, we detected significant heterogeneity in the tumor microenvironment among the four subtypes. Malignant cells in different subtypes displayed distinct copy number variations, differentiation levels, and evolutionary trajectories. Cell-cell communication analysis further highlighted differential interaction patterns among the subtypes, with implications for tumor progression and treatment response. CONCLUSION: Our multimodal diagnostic model and subtype analysis provide novel insights into predicting NAT efficacy in breast cancer. These findings hold promise for guiding personalized treatment strategies. Future research should focus on experimental validation, in-depth exploration of the underlying mechanisms, and extension of these methods to other cancers and treatment modalities.",
+  "abstract_zh": "背景：乳腺癌是一种异质性恶性肿瘤，包含多种亚型，对全球女性健康构成重大威胁。新辅助治疗（NAT）在手术前实施，是乳腺癌治疗策略的重要组成部分，旨在缩小肿瘤、优化手术结果，并评估肿瘤对治疗的反应。然而，由于疾病的复杂性和不同分子亚型间的多样化反应，准确预测NAT疗效仍具挑战性。方法：在本研究中，我们利用多模态数据，包括蛋白质组学、基因组学、MRI影像和临床信息，这些数据来源于多个队列，如I-SPY2、TCGA-BRCA、GSE161529和METABRIC。数据预处理后，采用Lasso回归进行特征提取和选择。使用五种机器学习算法构建诊断模型，以病理完全缓解（pCR）作为预测终点。结果：我们的结果显示，多组学Ridge回归模型在预测pCR方面达到最优性能，AUC为0.917。通过使用R包MOVICS和九种聚类算法进行无监督聚类，我们识别出四种与NAT相关的独特多模态乳腺癌亚型。这些亚型在蛋白质组学特征、标志性癌症基因集、通路活性、肿瘤免疫微环境、转录因子活性和临床特征方面表现出显著差异。例如，CS1亚型以ER阳性为主，pCR率低且对化疗药物反应差，而CS4亚型以高免疫浸润为特征，对免疫治疗反应较好。在单细胞水平上，我们检测到四种亚型间肿瘤微环境的显著异质性。不同亚型中的恶性细胞表现出不同的拷贝数变异、分化水平和进化轨迹。细胞-细胞通讯分析进一步突出了亚型间的差异相互作用模式，这对肿瘤进展和治疗反应具有影响。结论：我们的多模态诊断模型和亚型分析为预测乳腺癌NAT疗效提供了新见解。这些发现有望指导个性化治疗策略。未来研究应聚焦于实验验证、潜在机制的深入探索，以及将这些方法扩展到其他癌症和治疗模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40170854/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40170854/",
+  "paper_page_path": "papers/pubmed/40170854/index.html"
+}

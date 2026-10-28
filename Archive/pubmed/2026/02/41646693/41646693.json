@@ -1,0 +1,551 @@
+{
+  "identity": {
+    "pmid": "41646693",
+    "doi": "10.64898/2026.01.27.26344979",
+    "title": "Integrating multi-omic QTLs and predictive models reveals regulatory architectures at immune related GWAS loci in CD4+ T cells."
+  },
+  "content": {
+    "abstract": "Functional interpretation is essential for understanding how genetic variants contribute to complex traits. Here, we identified and characterized regulatory variants in CD4+ T cells collected from 362 donors. We integrated molecular QTL mapping from single-cell RNA-seq profiles and chromatin accessibility with predicted variant effects from a deep learning model trained on chromatin accessibility data. We identified molecular features and transcription factor binding mechanisms underlying variant sharing and mediated effects across the modalities and approaches. While predicted variant effects correlated with molQTLs, only a small fraction of empirically detected molQTLs were discovered by predictive models. MolQTLs, primarily those affecting chromatin, indicated potential molecular drivers for 33% of immune-related GWAS loci, with the deep learning approach providing insights into 4.7% of GWAS loci. These results highlight the value of multi-omic data and systematic integration of empirical and predictive approaches to interpret regulatory effects of genetic variants.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matos, Marliette R",
+        "Ghatan, Samuel",
+        "Bankier, Sean",
+        "Thompson, Taylor V",
+        "Lundy-Perez, Kassidy",
+        "Suzuki, Masako",
+        "Dona-Termine, Reanna",
+        "Stauber, Jacob",
+        "Reynolds, David",
+        "Rosales, Kathleen",
+        "Griffen, Anthony",
+        "Isshiki, Mariko",
+        "Simpson, Danny",
+        "Andrews, Nathanael",
+        "Ahmed, Omar",
+        "Gold, Samantha",
+        "Ostrowiak, Sophia R",
+        "Raj, Srilakshmi",
+        "Milman, Sofiya",
+        "Lappalainen, Tuuli",
+        "Greally, John M"
+      ],
+      "short_names": [
+        "Matos MR",
+        "Ghatan S",
+        "Bankier S",
+        "Thompson TV",
+        "Lundy-Perez K",
+        "Suzuki M",
+        "Dona-Termine R",
+        "Stauber J",
+        "Reynolds D",
+        "Rosales K",
+        "Griffen A",
+        "Isshiki M",
+        "Simpson D",
+        "Andrews N",
+        "Ahmed O",
+        "Gold S",
+        "Ostrowiak SR",
+        "Raj S",
+        "Milman S",
+        "Lappalainen T",
+        "Greally JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2641-6541",
+        "ORCID: 0000-0002-8310-3448",
+        "ORCID: 0000-0001-5069-3165",
+        "ORCID: 0000-0003-2781-6205",
+        "ORCID: 0000-0003-0605-9225",
+        "ORCID: 0000-0001-9283-0981",
+        "ORCID: 0000-0002-9410-8527",
+        "ORCID: 0009-0001-8257-7238",
+        "ORCID: 0000-0002-6565-6970",
+        "ORCID: 0000-0001-9690-3527",
+        "ORCID: 0000-0002-9933-8508",
+        "ORCID: 0000-0002-4506-7028",
+        "ORCID: 0000-0001-9247-0082",
+        "ORCID: 0000-0002-7746-8109",
+        "ORCID: 0000-0001-6069-7960"
+      ],
+      "affiliations": [
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "New York Genome Center, New York, USA.",
+        "New York Genome Center, New York, USA.",
+        "New York Genome Center, New York, USA.",
+        "Computational Biology Unit, Department of Informatics, University of Bergen, Bergen, Norway.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "New York Genome Center, New York, USA.",
+        "Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, Solna, Sweden.",
+        "New York Genome Center, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Stern College for Women, Yeshiva University, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+        "New York Genome Center, New York, USA.",
+        "Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, Solna, Sweden.",
+        "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matos, Marliette R",
+        "short_name": "Matos MR",
+        "identifiers": [
+          "0000-0003-2641-6541"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA.",
+          "New York Genome Center, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Ghatan, Samuel",
+        "short_name": "Ghatan S",
+        "identifiers": [
+          "0000-0002-8310-3448"
+        ],
+        "affiliations": [
+          "New York Genome Center, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Bankier, Sean",
+        "short_name": "Bankier S",
+        "identifiers": [
+          "0000-0001-5069-3165"
+        ],
+        "affiliations": [
+          "New York Genome Center, New York, USA.",
+          "Computational Biology Unit, Department of Informatics, University of Bergen, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Thompson, Taylor V",
+        "short_name": "Thompson TV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Lundy-Perez, Kassidy",
+        "short_name": "Lundy-Perez K",
+        "identifiers": [
+          "0000-0003-2781-6205"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Masako",
+        "short_name": "Suzuki M",
+        "identifiers": [
+          "0000-0003-0605-9225"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Doña-Termine, Reanna",
+        "short_name": "Doña-Termine R",
+        "identifiers": [
+          "0000-0001-9283-0981"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Stauber, Jacob",
+        "short_name": "Stauber J",
+        "identifiers": [
+          "0000-0002-9410-8527"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Reynolds, David",
+        "short_name": "Reynolds D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Rosales, Kathleen",
+        "short_name": "Rosales K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Griffen, Anthony",
+        "short_name": "Griffen A",
+        "identifiers": [
+          "0009-0001-8257-7238"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Isshiki, Mariko",
+        "short_name": "Isshiki M",
+        "identifiers": [
+          "0000-0002-6565-6970"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Simpson, Danny",
+        "short_name": "Simpson D",
+        "identifiers": [
+          "0000-0001-9690-3527"
+        ],
+        "affiliations": [
+          "New York Genome Center, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Andrews, Nathanael",
+        "short_name": "Andrews N",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Omar",
+        "short_name": "Ahmed O",
+        "identifiers": [
+          "0000-0002-9933-8508"
+        ],
+        "affiliations": [
+          "New York Genome Center, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Gold, Samantha",
+        "short_name": "Gold S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Ostrowiak, Sophia R",
+        "short_name": "Ostrowiak SR",
+        "identifiers": [],
+        "affiliations": [
+          "Stern College for Women, Yeshiva University, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Raj, Srilakshmi",
+        "short_name": "Raj S",
+        "identifiers": [
+          "0000-0002-4506-7028"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Milman, Sofiya",
+        "short_name": "Milman S",
+        "identifiers": [
+          "0000-0001-9247-0082"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Lappalainen, Tuuli",
+        "short_name": "Lappalainen T",
+        "identifiers": [
+          "0000-0002-7746-8109"
+        ],
+        "affiliations": [
+          "New York Genome Center, New York, USA.",
+          "Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Greally, John M",
+        "short_name": "Greally JM",
+        "identifiers": [
+          "0000-0001-6069-7960"
+        ],
+        "affiliations": [
+          "Department of Genetics, Albert Einstein College of Medicine, New York, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2026 Jan 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/06 13:17",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41218612",
+      "39986281",
+      "39779956",
+      "38781378",
+      "38622708",
+      "38548990",
+      "38181730",
+      "37971293",
+      "37962376",
+      "37386250",
+      "37308670",
+      "37289818",
+      "37231261",
+      "36452861",
+      "36221136",
+      "36055201",
+      "35972065",
+      "35618845",
+      "35545678",
+      "35213211",
+      "35100260",
+      "35061661",
+      "35042561",
+      "34937932",
+      "34616062",
+      "34608324",
+      "34062119",
+      "34017130",
+      "33837133",
+      "33712326",
+      "33536225",
+      "33188258",
+      "32913098",
+      "32780218",
+      "32393329",
+      "32366989",
+      "32055031",
+      "31780650",
+      "31719197",
+      "31675989",
+      "31604482",
+      "31427789",
+      "31311800",
+      "31296853",
+      "30232372",
+      "29925568",
+      "29379200",
+      "29022597",
+      "28993637",
+      "28846090",
+      "28821014",
+      "28218759",
+      "28134327",
+      "27605262",
+      "26432245",
+      "26366987",
+      "26195744",
+      "25215497",
+      "25043061",
+      "24830394",
+      "24646888",
+      "24413154",
+      "24141950",
+      "24136355",
+      "23228338",
+      "23104886",
+      "22992523",
+      "22955828",
+      "21552207",
+      "19995950",
+      "18701445",
+      "17324271",
+      "16569770",
+      "16509771",
+      "16116468",
+      "11821900",
+      "10520991",
+      "8152803",
+      "2475256"
+    ],
+    "similar": [
+      "41646693",
+      "42475469",
+      "41394596",
+      "41111148",
+      "40707954",
+      "41650936",
+      "42343218",
+      "38645112",
+      "39930543",
+      "33926512",
+      "41001483",
+      "37289818",
+      "39986281",
+      "42523538",
+      "41338218",
+      "34038741",
+      "40250421",
+      "40827700",
+      "38308274",
+      "39888372",
+      "39606421",
+      "38168419",
+      "34293285",
+      "33788674",
+      "41570977",
+      "40501721",
+      "42638083",
+      "34699533",
+      "41646667",
+      "41218612",
+      "33016584",
+      "42523508",
+      "38012720",
+      "35681201",
+      "41873878",
+      "42185984",
+      "42443709",
+      "41673300",
+      "41699549",
+      "32513244",
+      "39814021",
+      "32029221",
+      "36482458",
+      "33848003",
+      "39711700",
+      "26542228",
+      "39829783",
+      "35591976",
+      "35576194",
+      "42734902",
+      "35576187",
+      "34541447",
+      "38659802",
+      "24920305",
+      "41927765",
+      "41266971",
+      "29351903",
+      "36738683",
+      "41091826",
+      "32004450",
+      "42619906",
+      "41560908",
+      "42281968",
+      "40069747",
+      "39386531",
+      "41396161",
+      "38956662",
+      "40393811",
+      "42684064",
+      "40545721",
+      "37601976",
+      "40442638",
+      "41611629",
+      "39173627",
+      "40737125",
+      "34552866",
+      "41937214",
+      "41445618",
+      "42465244",
+      "40809120",
+      "37492098",
+      "38948875",
+      "32850739",
+      "33300042",
+      "39975126",
+      "33717140",
+      "28062664",
+      "40330097",
+      "37789374",
+      "39550354",
+      "40653482",
+      "40832254",
+      "42509558",
+      "34629083",
+      "42269280",
+      "37038103",
+      "40818855",
+      "42642720",
+      "34529725",
+      "41484547"
+    ],
+    "review": [
+      "41646693",
+      "41091826",
+      "39173627",
+      "40809120",
+      "37038103"
+    ],
+    "pmc": [
+      "12870616"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41646693/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.01.27.26344979",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

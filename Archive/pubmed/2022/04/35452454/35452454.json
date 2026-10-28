@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "35452454",
+    "doi": "10.1371/journal.pcbi.1009977",
+    "title": "Allostery in the dynamic coactivator domain KIX occurs through minor conformational micro-states."
+  },
+  "content": {
+    "abstract": "The coactivator KIX of CBP uses two binding surfaces to recognize multiple activators and exhibits allostery in ternary complex formation. Activator*coactivator interactions are central to transcriptional regulation, yet the microscopic origins of allostery in dynamic proteins like KIX are largely unknown. Here, we investigate the molecular recognition and allosteric manifestations involved in two KIX ternary systems c-Myb*KIX*MLL and pKID*KIX*MLL. Exploring the hypothesis that binary complex formation prepays an entropic cost for positive cooperativity, we utilize molecular dynamics simulations, side chain methyl order parameters, and differential scanning fluorimetry (DSF) to explore conformational entropy changes in KIX. The protein's configurational micro-states from structural clustering highlight the utility of protein plasticity in molecular recognition and allostery. We find that apo KIX occupies a wide distribution of lowly-populated configurational states. Each binding partner has its own suite of KIX states that it selects, building a model of molecular recognition fingerprints. Allostery is maximized with MLL pre-binding, which corresponds to the observation of a significant reduction in KIX micro-states observed when MLL binds. With all binding partners, the changes in KIX conformational entropy arise predominantly from changes in the most flexible loop. Likewise, we find that a small molecule and mutations allosterically inhibit/enhance activator binding by tuning loop dynamics, suggesting that loop-targeting chemical probes could be developed to alter KIX*activator interactions. Experimentally capturing KIX stabilization is challenging, particularly because of the disordered nature of particular activators. However, DSF melting curves allow for inference of relative entropic changes that occur across complexes, which we compare to our computed entropy changes using simulation methyl order parameters.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*CREB-Binding Protein/chemistry/metabolism",
+      "Molecular Conformation",
+      "*Molecular Dynamics Simulation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peiffer, Amanda L",
+        "Garlick, Julie M",
+        "Joy, Stephen T",
+        "Mapp, Anna K",
+        "Brooks, Charles L 3rd"
+      ],
+      "short_names": [
+        "Peiffer AL",
+        "Garlick JM",
+        "Joy ST",
+        "Mapp AK",
+        "Brooks CL 3rd"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8113-9458",
+        "ORCID: 0000-0001-8903-3471",
+        "ORCID: 0000-0002-6030-7835",
+        "ORCID: 0000-0003-0791-8327",
+        "ORCID: 0000-0002-8149-5417"
+      ],
+      "affiliations": [
+        "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Program in Chemical Biology, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Program in Chemical Biology, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Program in Chemical Biology, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Biophysics, University of Michigan, Ann Arbor, Michigan, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peiffer, Amanda L",
+        "short_name": "Peiffer AL",
+        "identifiers": [
+          "0000-0001-8113-9458"
+        ],
+        "affiliations": [
+          "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, United States of America.",
+          "Program in Chemical Biology, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Garlick, Julie M",
+        "short_name": "Garlick JM",
+        "identifiers": [
+          "0000-0001-8903-3471"
+        ],
+        "affiliations": [
+          "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, United States of America.",
+          "Department of Chemistry, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Joy, Stephen T",
+        "short_name": "Joy ST",
+        "identifiers": [
+          "0000-0002-6030-7835"
+        ],
+        "affiliations": [
+          "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mapp, Anna K",
+        "short_name": "Mapp AK",
+        "identifiers": [
+          "0000-0003-0791-8327"
+        ],
+        "affiliations": [
+          "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, United States of America.",
+          "Program in Chemical Biology, University of Michigan, Ann Arbor, Michigan, United States of America.",
+          "Department of Chemistry, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Brooks, Charles L",
+        "short_name": "Brooks CL",
+        "identifiers": [
+          "0000-0002-8149-5417"
+        ],
+        "affiliations": [
+          "Program in Chemical Biology, University of Michigan, Ann Arbor, Michigan, United States of America.",
+          "Department of Chemistry, University of Michigan, Ann Arbor, Michigan, United States of America.",
+          "Department of Biophysics, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Apr",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/23 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "41836077",
+      "41381850",
+      "40553022",
+      "39719269",
+      "38294935",
+      "37546728",
+      "37525583"
+    ],
+    "refs": [
+      "31535860",
+      "28746339",
+      "28067526",
+      "25739366",
+      "25640896",
+      "25049401",
+      "25002472",
+      "24516370",
+      "24340053",
+      "24253305",
+      "24007504",
+      "23940332",
+      "23651431",
+      "23384013",
+      "23246280",
+      "22725662",
+      "22577828",
+      "22438798",
+      "22388747",
+      "20603017",
+      "20383153",
+      "20093773",
+      "19679084",
+      "19444816",
+      "19348463",
+      "19303011",
+      "19225609",
+      "19203263",
+      "18353365",
+      "17853878",
+      "17494761",
+      "16954202",
+      "16683749",
+      "16507773",
+      "16253272",
+      "15933191",
+      "15738986",
+      "15099834",
+      "15019774",
+      "14744133",
+      "14580193",
+      "14475415",
+      "14343300",
+      "13878122",
+      "12437352",
+      "12427045",
+      "12205094",
+      "12196545",
+      "10887150",
+      "10409749",
+      "10222196",
+      "9688563",
+      "9646860",
+      "8976574",
+      "4117310",
+      "3866234",
+      "1638119"
+    ],
+    "similar": [
+      "35452454",
+      "22438798",
+      "25002472",
+      "12205094",
+      "32430574",
+      "16253272",
+      "23651431",
+      "20969867",
+      "19220000",
+      "31515273",
+      "30232260",
+      "28786199",
+      "23940332",
+      "26195786",
+      "27054660",
+      "41381850",
+      "15019774",
+      "21244843",
+      "12437352",
+      "19203263",
+      "25564305",
+      "34491719",
+      "24753318",
+      "30136215",
+      "10222196",
+      "14580193",
+      "40818174",
+      "22725662",
+      "9413984",
+      "37072438",
+      "9558319",
+      "35058484",
+      "19278259",
+      "16980541",
+      "25049401",
+      "16761278",
+      "21497608",
+      "27082784",
+      "11094091",
+      "34224597",
+      "32098872",
+      "38086054",
+      "24970129",
+      "25092343",
+      "25651535",
+      "22474372",
+      "15796530",
+      "12196545",
+      "39612645",
+      "40454677",
+      "10409749",
+      "10473588",
+      "17707401",
+      "10722651",
+      "23783631",
+      "24253305",
+      "33121486",
+      "15515068",
+      "24340053",
+      "33284914",
+      "12549909",
+      "19357310",
+      "26187469",
+      "19654879",
+      "19821614",
+      "10391685",
+      "23026051",
+      "33382616",
+      "14744133",
+      "24446368",
+      "11259575",
+      "9698555",
+      "30860376",
+      "37525583",
+      "31482116",
+      "32325001",
+      "10744749",
+      "11017047",
+      "23980173",
+      "20882601",
+      "25302571",
+      "14624582",
+      "12384703",
+      "28634294",
+      "26580746",
+      "40842437",
+      "18404207",
+      "10973497",
+      "28489401",
+      "28680062",
+      "18565542",
+      "29262364",
+      "29890118",
+      "12795599",
+      "27115535",
+      "11372536",
+      "38097109",
+      "28510174",
+      "31521329",
+      "41780056"
+    ],
+    "review": [
+      "35452454",
+      "40818174",
+      "24253305"
+    ],
+    "pmc": [
+      "9067669"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009977",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35452454/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35452454",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

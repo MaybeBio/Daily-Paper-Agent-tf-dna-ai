@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40102719",
+  "title": "CacPred: a cascaded convolutional neural network for TF-DNA binding prediction.",
+  "authors": "Zhang, Shuangquan; Ma, Anjun; Xie, Xuping; Lian, Zhichao; Wang, Yan",
+  "journal": "BMC genomics",
+  "published_date": "2025-03-19",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出级联卷积神经网络CacPred预测TF-DNA结合，在ChIP-seq和ChIP-nexus数据上优于现有模型，并利用motif解释学习特征，核心聚焦TF-DNA结合预测，方法为AI深度学习，高度匹配课题。",
+  "abstract": "BACKGROUND: Transcription factors (TFs) regulate the genes' expression by binding to DNA sequences. Aligned TFBSs of the same TF are seen as cis-regulatory motifs, and substantial computational efforts have been invested to find motifs. In recent years, convolutional neural networks (CNNs) have succeeded in TF-DNA binding prediction, but existing DL methods' accuracy needs to be improved and convolution function in TF-DNA binding prediction should be further explored. RESULTS: We develop a cascaded convolutional neural network model named CacPred to predict TF-DNA binding on 790 Chromatin immunoprecipitation-sequencing (ChIP-seq) datasets and seven ChIP-nexus (chromatin immunoprecipitation experiments with nucleotide resolution through exonuclease, unique barcode, and single ligation) datasets. We compare CacPred to six existing DL models across nine standard evaluation metrics. Our results indicate that CacPred outperforms all comparison models for TF-DNA binding prediction, and the average accuracy (ACC), matthews correlation coefficient (MCC), and the area of eight metrics radar (AEMR) are improved by 3.3%, 9.2%, and 6.4% on 790 ChIP-seq datasets. Meanwhile, CacPred improves the average ACC, MCC, and AEMR of 5.5%, 16.8%, and 12.9% on seven ChIP-nexus datasets. To explain the proposed method, motifs are used to show features CacPred learned. In light of the results, CacPred can find some significant motifs from input sequences. CONCLUSIONS: This paper indicates that CacPred performs better than existing models on ChIP-seq data. Seven ChIP-nexus datasets are also analyzed, and they coincide with results that our proposed method performs the best on ChIP-seq data. CacPred only is equipped with the convolutional algorithm, demonstrating that pooling processing of the existing models leads to losing some sequence information. Some significant motifs are found, showing that CacPred can learn features from input sequences. In this study, we demonstrate that CacPred is an effective and feasible model for predicting TF-DNA binding. CacPred is freely available at https://github.com/zhangsq06/CacPred .",
+  "abstract_zh": "背景：转录因子（TFs）通过结合DNA序列调控基因表达。同一转录因子的对齐TFBS被视为顺式调控基序，大量计算工作已投入于基序发现。近年来，卷积神经网络（CNNs）在TF-DNA结合预测中取得成效，但现有深度学习方法的准确性仍需提升，且卷积函数在TF-DNA结合预测中的应用有待进一步探索。结果：我们开发了一个级联卷积神经网络模型，命名为CacPred，用于在790个染色质免疫沉淀测序（ChIP-seq）数据集和七个ChIP-nexus（通过核酸外切酶、独特条形码和单连接实现核苷酸分辨率的染色质免疫沉淀实验）数据集上预测TF-DNA结合。我们将CacPred与六个现有深度学习模型在九个标准评估指标上进行比较。结果表明，CacPred在TF-DNA结合预测中优于所有比较模型，在790个ChIP-seq数据集上，平均准确率（ACC）、马修斯相关系数（MCC）和八指标雷达面积（AEMR）分别提高了3.3%、9.2%和6.4%。同时，CacPred在七个ChIP-nexus数据集上将平均ACC、MCC和AEMR分别提高了5.5%、16.8%和12.9%。为解释所提方法，使用基序展示CacPred学习的特征。根据结果，CacPred能从输入序列中发现一些重要基序。结论：本文表明CacPred在ChIP-seq数据上表现优于现有模型。七个ChIP-nexus数据集也被分析，结果与我们的方法在ChIP-seq数据上表现最佳相一致。CacPred仅配备卷积算法，表明现有模型的池化处理导致部分序列信息丢失。发现了一些重要基序，显示CacPred能从输入序列中学习特征。本研究中，我们证明CacPred是预测TF-DNA结合的有效且可行的模型。CacPred可在https://github.com/zhangsq06/CacPred 免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40102719/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40102719/",
+  "paper_page_path": "papers/pubmed/40102719/index.html"
+}

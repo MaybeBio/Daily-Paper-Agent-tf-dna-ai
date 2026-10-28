@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "36702751",
+    "doi": "10.1093/bib/bbad024",
+    "title": "Deep-learning optimized DEOCSU suite provides an iterable pipeline for accurate ChIP-exo peak calling."
+  },
+  "content": {
+    "abstract": "Recognizing binding sites of DNA-binding proteins is a key factor for elucidating transcriptional regulation in organisms. ChIP-exo enables researchers to delineate genome-wide binding landscapes of DNA-binding proteins with near single base-pair resolution. However, the peak calling step hinders ChIP-exo application since the published algorithms tend to generate false-positive and false-negative predictions. Here, we report the development of DEOCSU (DEep-learning Optimized ChIP-exo peak calling SUite), a novel machine learning-based ChIP-exo peak calling suite. DEOCSU entails the deep convolutional neural network model which was trained with curated ChIP-exo peak data to distinguish the visualized data of bona fide peaks from false ones. Performance validation of the trained deep-learning model indicated its high accuracy, high precision and high recall of over 95%. Applying the new suite to both in-house and publicly available ChIP-exo datasets obtained from bacteria, eukaryotes and archaea revealed an accurate prediction of peaks containing canonical motifs, highlighting the versatility and efficiency of DEOCSU. Furthermore, DEOCSU can be executed on a cloud computing platform or the local environment. With visualization software included in the suite, adjustable options such as the threshold of peak probability, and iterable updating of the pre-trained model, DEOCSU can be optimized for users' specific needs.",
+    "keywords": [
+      "ChIP-exo",
+      "deep-learning",
+      "peak calling"
+    ],
+    "mesh_terms": [
+      "*Chromatin Immunoprecipitation Sequencing",
+      "*Deep Learning",
+      "Chromatin Immunoprecipitation",
+      "DNA-Binding Proteins/metabolism",
+      "Software",
+      "Algorithms",
+      "Binding Sites",
+      "Sequence Analysis, DNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bang, Ina",
+        "Lee, Sang-Mok",
+        "Park, Seojoung",
+        "Park, Joon Young",
+        "Nong, Linh Khanh",
+        "Gao, Ye",
+        "Palsson, Bernhard O",
+        "Kim, Donghyuk"
+      ],
+      "short_names": [
+        "Bang I",
+        "Lee SM",
+        "Park S",
+        "Park JY",
+        "Nong LK",
+        "Gao Y",
+        "Palsson BO",
+        "Kim D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "Department of Bioengineering, University of California San Diego, La Jolla CA 92093, USA.",
+        "Department of Bioengineering, University of California San Diego, La Jolla CA 92093, USA.",
+        "Department of Pediatrics, University of California San Diego, La Jolla CA 92093, USA.",
+        "Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Building 220, Kemitorvet, 2800 Kgs. Lyngby, Denmark.",
+        "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bang, Ina",
+        "short_name": "Bang I",
+        "identifiers": [],
+        "affiliations": [
+          "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sang-Mok",
+        "short_name": "Lee SM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Seojoung",
+        "short_name": "Park S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Joon Young",
+        "short_name": "Park JY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Nong, Linh Khanh",
+        "short_name": "Nong LK",
+        "identifiers": [],
+        "affiliations": [
+          "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Gao, Ye",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, La Jolla CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Palsson, Bernhard O",
+        "short_name": "Palsson BO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, La Jolla CA 92093, USA.",
+          "Department of Pediatrics, University of California San Diego, La Jolla CA 92093, USA.",
+          "Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Building 220, Kemitorvet, 2800 Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kim, Donghyuk",
+        "short_name": "Kim D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Energy and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Mar 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/27 06:00",
+    "fetched_at": "2026-09-28 19:36:17"
+  },
+  "links": {
+    "cites": [
+      "41541679",
+      "40340952",
+      "39868540",
+      "39471211",
+      "38239730",
+      "37026477"
+    ],
+    "refs": [],
+    "similar": [
+      "36702751",
+      "32085702",
+      "36544470",
+      "32404971",
+      "35193506",
+      "25249628",
+      "36427141",
+      "27814676",
+      "30165373",
+      "33320934",
+      "32865524",
+      "34965583",
+      "21554709",
+      "33372147",
+      "26404150",
+      "28911122",
+      "28060339",
+      "29848263",
+      "21059603",
+      "32991679",
+      "35866989",
+      "30824903",
+      "24936875",
+      "22533622",
+      "30030442",
+      "32822050",
+      "21226895",
+      "31300027",
+      "25720775",
+      "28981893",
+      "24564277",
+      "20827591",
+      "25024162",
+      "27169896",
+      "23427986",
+      "34272562",
+      "33588754",
+      "21486936",
+      "19029915",
+      "25128017",
+      "22153082",
+      "33878366",
+      "30517703",
+      "23026909",
+      "32395628",
+      "23758851",
+      "35606795",
+      "28169395",
+      "24279297",
+      "23672187",
+      "22130889",
+      "29684008",
+      "27587683",
+      "23266983",
+      "23706083",
+      "19193731",
+      "24894502",
+      "32962634",
+      "22369349",
+      "34126932",
+      "25442502",
+      "22156162",
+      "32960766",
+      "21081511",
+      "27557775",
+      "28449120",
+      "25785608",
+      "21984925",
+      "22829625",
+      "34398762",
+      "33879052",
+      "19488878",
+      "35263332",
+      "23595148",
+      "24927817",
+      "29211822",
+      "24146601",
+      "23580539",
+      "26079792",
+      "24974934",
+      "31465497",
+      "21358819",
+      "26704972",
+      "29025895",
+      "27797775",
+      "18684996",
+      "31830921",
+      "19061503",
+      "32023130",
+      "19906703",
+      "38487805",
+      "35471887",
+      "36796796",
+      "37286963",
+      "35662897"
+    ],
+    "review": [
+      "36702751",
+      "29848263"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36702751.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad024",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

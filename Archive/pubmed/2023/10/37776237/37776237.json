@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "37776237",
+    "doi": "10.1002/jgm.3600",
+    "title": "Integrative analysis of cuproptosis-associated genes for predicting immunotherapy response in single-cell and multi-cohort studies."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The role of genes associated with the cuproptosis cell signaling pathway in prognosis and immunotherapy in ovarian cancer (OC) has been extensively investigated. In this study, we aimed to explore these mechanisms and establish a prognostic model for patients with OC using bioinformatics techniques. METHODS: We obtained the single cell sequencing data of ovarian cancer from the Gene Expression Omnibus (GEO) database and preprocessed the data. We analyzed a variety of factors including cuproptosis cell signal score, transcription factors, tumorigenesis and progression signals, gene set variation analysis (GSVA) and intercellular communication. Differential gene analysis was performed between groups with high and low cuproptosis cell signal scores, as well as Gene Ontology and Kyoto Encyclopedia of Genes and Genomes analyses. Using bulk RNA sequencing data from The Cancer Genome Atlas, we used the least absolute shrinkage and selection operator (LASSO)-Cox algorithm to develop cuproptosis cell signaling pathword-related gene signatures and validated them with GEO ovarian cancer datasets. In addition, we analyzed the inherent rules of the genes involved in building the model using a variety of bioinformatics methods, including immune-related analyses and single nucleotide polymorphisms. Molecular docking is used to screen potential therapeutic drugs. To confirm the analysis results, we performed various wet experiments such as western blot, cell counting kit 8 (CCK8) and clonogenesis tests to verify the role of the Von Willebrand Factor (VWF) gene in two ovarian cancer cell lines. RESULTS: Based on single-cell data analysis, we found that endothelial cells and fibroblasts showed active substance synthesis and signaling pathway activation in OC, which further promoted immune cell suppression, cancer cell proliferation and metastasis. Ovarian cancer has a high tendency to metastasize, and cancer cells cooperate with other cells to promote disease progression. We developed a signature consisting of eight cuproptosis-related genes (CRGs) (MAGEF1, DNPH1, RARRES1, NBL1, IFI27, VWF, OLFML3 and IGFBP4) that predicted overall survival in patients with ovarian cancer. The validity of this model is verified in an external GEO validation set. We observed active infiltrating states of immune cells in both the high- and low-risk groups, although the specific cells, genes and pathways of activation differed. Gene mutation analysis revealed that TP53 is the most frequently mutated gene in ovarian cancer. We also predict small molecule drugs associated with CRGs and identify several potential candidates. VWF was identified as an oncogene in ovarian cancer, and the protein was expressed at significantly higher levels in tumor samples than in normal samples. The high-score model of the cuproptosis cell signaling pathway was associated with the sensitivity of OC patients to immunotherapy. CONCLUSIONS: Our study provides greater insight into the mechanisms of action of genes associated with the cuproptosis cell signaling pathway in ovarian cancer, highlighting potential targets for future therapeutic interventions.",
+    "keywords": [
+      "TCGA",
+      "bioinformatics analysis",
+      "cuproptosis cellular signaling",
+      "ovarian cancer",
+      "single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endothelial Cells",
+      "Molecular Docking Simulation",
+      "von Willebrand Factor",
+      "Immunotherapy",
+      "*Ovarian Neoplasms/genetics/therapy",
+      "Apoptosis",
+      "Membrane Proteins",
+      "Glycoproteins",
+      "Intercellular Signaling Peptides and Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Hua",
+        "Wang, Yichen",
+        "Li, Guangxiao",
+        "Xiong, Jian",
+        "Qin, Lingshan",
+        "Wen, Qirong",
+        "Yue, Chaomin"
+      ],
+      "short_names": [
+        "Li H",
+        "Wang Y",
+        "Li G",
+        "Xiong J",
+        "Qin L",
+        "Wen Q",
+        "Yue C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nursing, School of Medicine, Sir Run Run Shaw Hospital, Zhejiang University, Hangzhou, China.",
+        "Department of Obstetrics and Gynaecology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China.",
+        "Department of Nursing, School of Medicine, Sir Run Run Shaw Hospital, Zhejiang University, Hangzhou, China.",
+        "Department of Obstetrics and Gynaecology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China.",
+        "China Medical University, Shenyang, China.",
+        "Department of Obstetrics and Gynaecology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China.",
+        "Department of Obstetrics and Gynaecology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Hua",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, School of Medicine, Sir Run Run Shaw Hospital, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yichen",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Guangxiao",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, School of Medicine, Sir Run Run Shaw Hospital, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Jian",
+        "short_name": "Xiong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Lingshan",
+        "short_name": "Qin L",
+        "identifiers": [],
+        "affiliations": [
+          "China Medical University, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Qirong",
+        "short_name": "Wen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Chaomin",
+        "short_name": "Yue C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of gene medicine"
+    ],
+    "journal_abbrev": [
+      "J Gene Med"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/01 04:43",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "42332817",
+      "42180955",
+      "40458306",
+      "40119652"
+    ],
+    "refs": [],
+    "similar": [
+      "37776237",
+      "36479114",
+      "36353226",
+      "37528285",
+      "37124062",
+      "39600695",
+      "36506302",
+      "37600770",
+      "38696071",
+      "36674979",
+      "38012210",
+      "41351424",
+      "37333810",
+      "40375037",
+      "37143115",
+      "36452343",
+      "37521466",
+      "37898914",
+      "36438201",
+      "36611197",
+      "37122030",
+      "37060773",
+      "36845390",
+      "37622116",
+      "38019212",
+      "37822927",
+      "36248822",
+      "40511343",
+      "36276092",
+      "40382612",
+      "35875097",
+      "35967366",
+      "39293329",
+      "36647100",
+      "37717621",
+      "37762710",
+      "37287976",
+      "40225866",
+      "38404059",
+      "36707046",
+      "36689018",
+      "36424614",
+      "39394143",
+      "39248067",
+      "40211224",
+      "36703728",
+      "41656832",
+      "38839842",
+      "36640225",
+      "38192999",
+      "36647156",
+      "36050740",
+      "39876019",
+      "38868777",
+      "37205181",
+      "41234865",
+      "39809219",
+      "37482612",
+      "36211401",
+      "36830707",
+      "36843949",
+      "36336725",
+      "37383389",
+      "36895935",
+      "36496537",
+      "36760376",
+      "37740762",
+      "38970067",
+      "39686988",
+      "35937995",
+      "38973963",
+      "37005878",
+      "39554575",
+      "36276132",
+      "38238671",
+      "36213162",
+      "40677006",
+      "37384293",
+      "36755568",
+      "37670938",
+      "37386521",
+      "36826709",
+      "39525025",
+      "40411678",
+      "39519383",
+      "38084732",
+      "40070821",
+      "40904599",
+      "39430854",
+      "38835051",
+      "36891150",
+      "36894917",
+      "36620545",
+      "39849417",
+      "38935114",
+      "40034693",
+      "35965536",
+      "38617510",
+      "38166541",
+      "36033441"
+    ],
+    "review": [
+      "37776237"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/37776237.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jgm.3600",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3476",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends. No figures, tables, or supplementary data files were provided.
+- **Assessment boundary** Assessment is limited to the claims and methods as described in the text. Statistical results, effect sizes, and quality control metrics are referenced but not independently verifiable without the underlying data and code.
+- **Shared manuscript claim summary** The authors report 693 footprint quantitative trait loci (fpQTLs) associated with transcription factor binding inferred from ATAC-seq data in 170 human liver samples. They demonstrate enrichment of fpQTLs in liver ChIP-seq peaks, concordance with TF binding motifs, and enrichment with liver eQTLs, caQTLs, and lipid GWAS loci. They propose fpQTLs as a tool for fine-mapping causal variants at GWAS loci.
+- **Visible evidence base** Text descriptions of results, including odds ratios, p-values, and effect size correlations. Methodological descriptions of ATAC-seq processing, footprint scoring with PRINT, association testing, and enrichment analyses. No raw data, figures, or supplementary tables were available for inspection.
+- **Missing materials affecting confidence** All figures, supplementary tables, and supplementary figures. The companion manuscript describing caQTL discovery. Quality control metrics for ATAC-seq data (e.g., library complexity, signal-to-noise ratios). Details on the number of variants tested, genomic inflation factors, and sensitivity analyses. The full fpQTL summary statistics and code repository.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a valuable resource and a potentially useful analytical framework for interpreting non-coding variants through the lens of TF binding. The use of ATAC-seq footprints to define QTLs in a large liver cohort is a logical extension of prior work, and the demonstration of motif concordance and fine-mapping at the SORT1 locus is encouraging. However, the manuscript as written does not fully establish the robustness of the approach. Several technical aspects, particularly the handling of Tn5 sequence bias, the independence of footprint scores from chromatin accessibility, and the statistical framework for testing per-SNP phenotypes, require clarification or additional validation. The enrichment analyses are descriptive and would benefit from more rigorous confounding control. The claim that fpQTLs can "reveal causal GWAS variants" is not fully supported by the evidence presented, which is largely correlative and limited to a small number of illustrative loci.
+- **Who would be interested in the results, and why** Researchers in statistical genetics, regulatory genomics, and liver biology would be the primary audience. The fpQTL map could serve as a resource for interpreting liver-related GWAS loci, and the analytical framework may be adaptable to other tissues. The demonstration of motif concordance and fine-mapping utility would be of interest to those developing variant prioritization tools. The study also contributes to the ongoing discussion about the relationship between chromatin accessibility, TF binding, and gene regulation.
+- **Major strengths** The study addresses an important gap in variant interpretation by focusing on TF binding as a molecular phenotype. The sample size of 170 liver ATAC-seq profiles is substantial and represents a significant resource. The use of a motif-agnostic footprinting approach is a methodological improvement over motif-centric strategies. The demonstration of concordance between fpQTL effects and underlying sequence motifs provides a strong internal validation. The fine-mapping example at SORT1, where the known causal variant is recovered, is a compelling proof-of-concept.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that fpQTLs represent variants associated with TF binding, inferred from footprint scores calculated by PRINT.
+  - **Evidence pointer** Materials and Methods: "Calculation of footprint scores"; Results: "Discovery of liver fpQTLs in liver open chromatin"
+  - **Concern** The footprint score is a measure of Tn5 insertion depletion, which is influenced by both TF occupancy and local chromatin accessibility. The manuscript does not adequately address the extent to which fpQTLs are independent of chromatin accessibility QTLs (caQTLs). The high enrichment of fpQTLs with caQTLs (odds ratio = 29.3) raises the possibility that many fpQTLs are simply tagging accessibility differences rather than specific TF binding events. The authors do not present a conditional analysis or a statistical framework to disentangle these two related but distinct molecular phenotypes.
+  - **Why it matters** If fpQTLs are largely a proxy for caQTLs, the claim of providing unique information about TF binding is weakened. The manuscript's central premise is that footprint scores capture TF occupancy beyond mere accessibility. Without demonstrating independence from caQTLs, the novelty and utility of the fpQTL resource are substantially diminished.
+  - **Resolution test** Perform a conditional analysis where fpQTLs are tested for association with footprint score while controlling for chromatin accessibility (e.g., including the caQTL genotype or the local accessibility signal as a covariate). Report the number of fpQTLs that remain significant after this adjustment. Alternatively, demonstrate that the effect sizes of fpQTLs on footprint score are not correlated with their effect on accessibility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that fpQTLs can be used to fine-map GWAS loci by pinpointing the causal variant, as exemplified by the SORT1 locus.
+  - **Evidence pointer** Results: "fpQTLs can be used to fine-map GWAS loci"; Figure 5
+  - **Concern** The fine-mapping example at SORT1 is a single, well-characterized locus where the causal variant was already known. This is a useful proof-of-concept, but it does not demonstrate general utility. The manuscript does not provide a systematic evaluation of how often fpQTLs coincide with the most likely causal variant across a larger set of GWAS loci. The claim that fpQTLs "can aid GWAS and QTL fine-mapping" is plausible but not quantitatively supported.
+  - **Why it matters** The practical value of fpQTLs for variant prioritization depends on their positive predictive value across many loci. A single anecdotal example, however compelling, is insufficient to establish this. The authors should provide a more comprehensive assessment, such as the proportion of liver-related GWAS loci where an fpQTL is present and whether the fpQTL is more likely to be the causal variant compared to other SNPs in the locus.
+  - **Resolution test** Apply the fpQTL fine-mapping approach to a larger set of liver-related GWAS loci (e.g., all loci from the traits analyzed). For each locus, determine whether the fpQTL is the most significant variant or is within the credible set. Compare the performance of fpQTL-based fine-mapping to standard statistical fine-mapping methods (e.g., SuSiE, FINEMAP) using the same GWAS summary statistics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the effect of fpQTLs on TF binding is concordant with their effect on underlying sequence motifs in 80% of cases.
+  - **Evidence pointer** Results: "fpQTL effects are concordant with TF binding motifs"; Figure 3B
+  - **Concern** The concordance analysis is limited to fpQTLs that overlap a known motif and a ChIP-seq peak for the corresponding TF. This is a highly selected subset of fpQTLs. The manuscript does not report the total number of fpQTLs that overlap a motif, nor the concordance rate for fpQTLs that do not overlap a known ChIP-seq peak. The 80% concordance may not be representative of all fpQTLs.
+  - **Why it matters** The concordance analysis is a key validation of the biological relevance of fpQTLs. If the analysis is restricted to a favorable subset, the reported rate may overstate the general reliability of the approach. A more comprehensive analysis would clarify the fraction of fpQTLs that can be mechanistically explained by motif disruption.
+  - **Resolution test** Report the concordance rate for all fpQTLs that overlap a motif, regardless of ChIP-seq peak overlap. Additionally, for fpQTLs that do not overlap a known motif, assess whether they are enriched for any motif or are more likely to be in regions with no identifiable TF binding sequence. This would provide a more complete picture of the mechanistic basis of fpQTLs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that fpQTLs are enriched in liver ChIP-seq peaks for 49 of 121 TFs.
+  - **Evidence pointer** Results: "fpQTL effects are concordant with TF binding motifs"; Figure 3A
+  - **Concern** The enrichment analysis is performed against ChIP-seq peaks from ENCODE, which are largely derived from HepG2 cells. While HepG2 is a liver cell line, it may not fully recapitulate the chromatin landscape of primary human liver tissue. The manuscript does not discuss the potential impact of cell-type differences on the enrichment results. Additionally, the enrichment analysis does not appear to account for the genomic context of fpQTLs (e.g., distance to TSS, local GC content, or sequence composition), which could confound the results.
+  - **Why it matters** The enrichment of fpQTLs in ChIP-seq peaks is used to support the validity of the footprint-based approach. If the reference ChIP-seq data are not representative of the tissue studied, the enrichment could be underestimated or biased. Confounding by genomic context could also lead to spurious enrichment signals.
+  - **Resolution test** Repeat the enrichment analysis using ChIP-seq data from primary human liver or hepatocytes if available. Alternatively, perform a permutation-based enrichment test that preserves the genomic context of fpQTLs (e.g., by matching on distance to TSS and GC content). Report whether the enrichment results are robust to these controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Materials and Methods: "Calculation of footprint scores"
+  - **Issue** The description of the regression model for fpQTL discovery is incomplete. The equation is referenced but not shown, and the covariates are listed but the rationale for their inclusion is not explained.
+  - **Required correction** Provide the full regression equation and justify the choice of covariates. Clarify whether the footprint score was treated as a continuous or binary outcome and how the quantile transformation was applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Enrichment analysis
+  - **Evidence pointer** Results: "fpQTLs are significantly enriched in other liver QTLs and lipid GWAS signals"
+  - **Issue** The enrichment analysis for eQTLs and caQTLs uses odds ratios, but the method for defining the background set of SNPs is not described. It is unclear whether the background is all tested SNPs or a matched set.
+  - **Required correction** Describe the background SNP set used for enrichment calculations. If a matched set was used, specify the matching criteria. If not, discuss the potential for bias due to differences in allele frequency or genomic annotation between fpQTLs and the background.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of telomeric enrichment
+  - **Evidence pointer** Results: "Greater chromatin accessibility increases power to detect fpQTLs"; Discussion
+  - **Issue** The observation of increased Tn5 insertion density near telomeres is intriguing but the authors state it is outside the scope of the current investigation. This is a potentially important technical artifact that could affect the interpretation of fpQTLs in these regions.
+  - **Required correction** Provide at least a brief discussion of potential technical or biological explanations for this observation, and acknowledge its implications for the interpretation of fpQTLs in telomeric regions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Data and code availability
+  - **Issue** The statement that data will be available "upon publication" and code is "available upon request" is not consistent with current standards for reproducibility.
+  - **Required correction** Provide a persistent identifier (e.g., DOI) for the deposited data and code, and state a clear availability timeline. If possible, make the code available as a public repository at the time of submission.
+- **Technical failings that need to be addressed before the case is established** The primary technical concern is the lack of demonstrated independence of fpQTLs from chromatin accessibility (R1-M1). The fine-mapping claim requires broader validation (R1-M2). The concordance analysis needs to be extended to a less selected set of fpQTLs (R1-M3). The enrichment analysis should be more carefully controlled (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of using ATAC-seq footprints to define QTLs is not entirely new, as the authors acknowledge prior work in this area. The application to a large liver cohort and the focus on fine-mapping are incremental but useful contributions.
+  - **Scientific importance** The potential to interpret non-coding GWAS variants through TF binding is of high importance. However, the current evidence does not fully establish that fpQTLs provide information beyond existing approaches such as caQTLs or allele-specific accessibility.
+  - **Interdisciplinary readership** The topic is relevant to genetics, genomics, and liver biology. The methods are likely to be of interest to computational biologists. The clinical implications for liver disease are mentioned but not developed in depth.
+  - **Technical soundness** The core statistical approach is reasonable, but several technical aspects require clarification and additional validation, as detailed in the major concerns.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The abstract and introduction clearly frame the problem. The results section is dense but understandable. The discussion could be more focused on the broader implications and limitations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially valuable resource and a promising analytical framework. However, the current evidence does not fully establish the independence of fpQTLs from chromatin accessibility, nor the general utility of the approach for fine-mapping. These issues must be addressed with additional analyses before the claims can be considered robust.
+
+## Risk / unsupported claims
+- The claim that fpQTLs "can reveal causal GWAS variants" is not supported by the evidence presented, which is limited to a small number of illustrative examples.
+- The claim that fpQTLs are "concordant with underlying sequence motifs in 80% of cases" is based on a selected subset of fpQTLs and may not be generalizable.
+- The claim that fpQTLs are enriched in liver ChIP-seq peaks is based on data from HepG2 cells, which may not fully represent primary liver tissue.
+- The observation of increased Tn5 insertion density near telomeres is reported without investigation, and its implications for fpQTL interpretation are not addressed.
+- The independence of fpQTLs from chromatin accessibility is not established, and the high enrichment with caQTLs suggests potential redundancy.

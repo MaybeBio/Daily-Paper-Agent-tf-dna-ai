@@ -1,0 +1,582 @@
+{
+  "identity": {
+    "pmid": "38781344",
+    "doi": "10.1126/sciadv.adj4452",
+    "title": "Using a comprehensive atlas and predictive models to reveal the complexity and evolution of brain-active regulatory elements."
+  },
+  "content": {
+    "abstract": "Most genetic variants associated with psychiatric disorders are located in noncoding regions of the genome. To investigate their functional implications, we integrate epigenetic data from the PsychENCODE Consortium and other published sources to construct a comprehensive atlas of candidate brain cis-regulatory elements. Using deep learning, we model these elements' sequence syntax and predict how binding sites for lineage-specific transcription factors contribute to cell type-specific gene regulation in various types of glia and neurons. The elements' evolutionary history suggests that new regulatory information in the brain emerges primarily via smaller sequence mutations within conserved mammalian elements rather than entirely new human- or primate-specific sequences. However, primate-specific candidate elements, particularly those active during fetal brain development and in excitatory neurons and astrocytes, are implicated in the heritability of brain-related human traits. Additionally, we introduce PsychSCREEN, a web-based platform offering interactive visualization of PsychENCODE-generated genetic and epigenetic data from diverse brain cell types in individuals with psychiatric disorders and healthy controls.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Brain/metabolism",
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "Animals",
+      "*Epigenesis, Genetic",
+      "Evolution, Molecular",
+      "Mental Disorders/genetics",
+      "Regulatory Elements, Transcriptional/genetics",
+      "Neurons/metabolism",
+      "Gene Expression Regulation",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pratt, Henry E",
+        "Andrews, Gregory",
+        "Shedd, Nicole",
+        "Phalke, Nishigandha",
+        "Li, Tongxin",
+        "Pampari, Anusri",
+        "Jensen, Matthew",
+        "Wen, Cindy",
+        "Consortium, PsychENCODE",
+        "Gandal, Michael J",
+        "Geschwind, Daniel H",
+        "Gerstein, Mark",
+        "Moore, Jill",
+        "Kundaje, Anshul",
+        "Colubri, Andres",
+        "Weng, Zhiping"
+      ],
+      "short_names": [
+        "Pratt HE",
+        "Andrews G",
+        "Shedd N",
+        "Phalke N",
+        "Li T",
+        "Pampari A",
+        "Jensen M",
+        "Wen C",
+        "Consortium P",
+        "Gandal MJ",
+        "Geschwind DH",
+        "Gerstein M",
+        "Moore J",
+        "Kundaje A",
+        "Colubri A",
+        "Weng Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9413-834X",
+        "ORCID: 0000-0002-9880-3965",
+        "ORCID: 0000-0003-2272-5398",
+        "ORCID: 0000-0003-3980-6450",
+        "ORCID: 0009-0008-9335-8904",
+        "ORCID: 0000-0002-5153-8543",
+        "ORCID: 0000-0001-8747-8231",
+        "ORCID: 0000-0001-5800-5128",
+        "ORCID: 0000-0003-2896-3450",
+        "ORCID: 0000-0002-9746-3719",
+        "ORCID: 0000-0002-3023-0806",
+        "ORCID: 0000-0003-3084-2287",
+        "ORCID: 0000-0001-5559-9661",
+        "ORCID: 0000-0002-3032-7966"
+      ],
+      "affiliations": [
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA.",
+        "Khoury College of Computer Science, Northeastern University, Boston, MA 02115, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+        "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA.",
+        "Interdepartmental Program in Bioinformatics, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Department of Psychiatry, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Interdepartmental Program in Bioinformatics, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Department of Psychiatry, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Department of Psychiatry, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Lifespan Brain Institute, The Children's Hospital of Philadelphia, Philadelphia, PA 19104, USA.",
+        "Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Program in Neurogenetics, Department of Neurology, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Institute of Precision Health, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+        "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA.",
+        "Department of Computer Science, Yale University, New Haven, CT 06520, USA.",
+        "Department of Statistics and Data Science, Yale University, New Haven, CT 06520, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pratt, Henry E",
+        "short_name": "Pratt HE",
+        "identifiers": [
+          "0000-0001-9413-834X"
+        ],
+        "affiliations": [
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA."
+        ]
+      },
+      {
+        "full_name": "Andrews, Gregory",
+        "short_name": "Andrews G",
+        "identifiers": [
+          "0000-0002-9880-3965"
+        ],
+        "affiliations": [
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA."
+        ]
+      },
+      {
+        "full_name": "Shedd, Nicole",
+        "short_name": "Shedd N",
+        "identifiers": [
+          "0000-0003-2272-5398"
+        ],
+        "affiliations": [
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA."
+        ]
+      },
+      {
+        "full_name": "Phalke, Nishigandha",
+        "short_name": "Phalke N",
+        "identifiers": [
+          "0000-0003-3980-6450"
+        ],
+        "affiliations": [
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Tongxin",
+        "short_name": "Li T",
+        "identifiers": [
+          "0009-0008-9335-8904"
+        ],
+        "affiliations": [
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA.",
+          "Khoury College of Computer Science, Northeastern University, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Pampari, Anusri",
+        "short_name": "Pampari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Jensen, Matthew",
+        "short_name": "Jensen M",
+        "identifiers": [
+          "0000-0002-5153-8543"
+        ],
+        "affiliations": [
+          "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Wen, Cindy",
+        "short_name": "Wen C",
+        "identifiers": [
+          "0000-0001-8747-8231"
+        ],
+        "affiliations": [
+          "Interdepartmental Program in Bioinformatics, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+          "Department of Psychiatry, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+          "Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Consortium, PsychENCODE",
+        "short_name": "Consortium P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gandal, Michael J",
+        "short_name": "Gandal MJ",
+        "identifiers": [
+          "0000-0001-5800-5128"
+        ],
+        "affiliations": [
+          "Interdepartmental Program in Bioinformatics, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+          "Department of Psychiatry, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+          "Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+          "Department of Psychiatry, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+          "Lifespan Brain Institute, The Children's Hospital of Philadelphia, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Geschwind, Daniel H",
+        "short_name": "Geschwind DH",
+        "identifiers": [
+          "0000-0003-2896-3450"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+          "Program in Neurogenetics, Department of Neurology, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+          "Institute of Precision Health, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Gerstein, Mark",
+        "short_name": "Gerstein M",
+        "identifiers": [
+          "0000-0002-9746-3719"
+        ],
+        "affiliations": [
+          "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA.",
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA.",
+          "Department of Computer Science, Yale University, New Haven, CT 06520, USA.",
+          "Department of Statistics and Data Science, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Jill",
+        "short_name": "Moore J",
+        "identifiers": [
+          "0000-0002-3023-0806"
+        ],
+        "affiliations": [
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+          "Department of Computer Science, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Colubri, Andrés",
+        "short_name": "Colubri A",
+        "identifiers": [
+          "0000-0001-5559-9661"
+        ],
+        "affiliations": [
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA."
+        ]
+      },
+      {
+        "full_name": "Weng, Zhiping",
+        "short_name": "Weng Z",
+        "identifiers": [
+          "0000-0002-3032-7966"
+        ],
+        "affiliations": [
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA 01605, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2024 May 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/23 18:43",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "42653090",
+      "42169411",
+      "41527556",
+      "41429762",
+      "41406216",
+      "41223260",
+      "41197609",
+      "40846763",
+      "40533550",
+      "39829783",
+      "39679382",
+      "39610113",
+      "39110734"
+    ],
+    "refs": [
+      "37104612",
+      "37104607",
+      "37104599",
+      "37104580",
+      "36791193",
+      "36463316",
+      "36394265",
+      "36323788",
+      "35835914",
+      "34774128",
+      "34663447",
+      "34634379",
+      "34616060",
+      "34478631",
+      "34390642",
+      "34239132",
+      "34172755",
+      "34017130",
+      "34002096",
+      "33712570",
+      "33603233",
+      "33479212",
+      "33270111",
+      "33184180",
+      "33106633",
+      "33063721",
+      "32978299",
+      "32913098",
+      "32728249",
+      "32728217",
+      "32610143",
+      "32451486",
+      "32269761",
+      "31701148",
+      "31303374",
+      "31160561",
+      "31159496",
+      "30545857",
+      "30545854",
+      "30531897",
+      "30484118",
+      "29945882",
+      "29942086",
+      "29942085",
+      "29382821",
+      "29346778",
+      "29335358",
+      "29307494",
+      "29140464",
+      "28987712",
+      "28335009",
+      "27899441",
+      "27760116",
+      "27079975",
+      "26818516",
+      "26605881",
+      "26414678",
+      "25693563",
+      "25642630",
+      "25056061",
+      "24759129",
+      "24097267",
+      "23739972",
+      "23569253",
+      "23472873",
+      "23375746",
+      "23334579",
+      "23175812",
+      "22723358",
+      "22031444",
+      "22003407",
+      "21993624",
+      "21949271",
+      "21127018",
+      "21051624",
+      "20436461",
+      "20356413",
+      "20110278",
+      "19948250",
+      "19505943",
+      "19458158",
+      "19305407",
+      "19226510",
+      "18263738",
+      "17558387",
+      "17540862",
+      "17512414",
+      "17481390",
+      "17182872",
+      "17178400",
+      "17130149",
+      "17086198",
+      "16938356",
+      "16381938",
+      "15907476",
+      "15803162",
+      "15655114",
+      "15233917",
+      "12842915",
+      "12160723",
+      "12121626",
+      "11955447",
+      "11402338",
+      "10381505",
+      "10343108",
+      "10097176",
+      "9872315",
+      "8768735",
+      "7754368",
+      "7643214",
+      "1527846"
+    ],
+    "similar": [
+      "38781344",
+      "42475469",
+      "42169411",
+      "31730374",
+      "41247408",
+      "25956794",
+      "34462306",
+      "38092918",
+      "33109720",
+      "34616068",
+      "36121513",
+      "40011774",
+      "12082130",
+      "19755139",
+      "30545857",
+      "17535887",
+      "22761590",
+      "38030727",
+      "16808854",
+      "37104580",
+      "36342464",
+      "30796012",
+      "23408798",
+      "25624274",
+      "33795684",
+      "41951735",
+      "18704158",
+      "37824643",
+      "33600447",
+      "42478686",
+      "31682597",
+      "33978759",
+      "26104583",
+      "29945882",
+      "33239788",
+      "38781390",
+      "27058369",
+      "26807951",
+      "24603674",
+      "23482648",
+      "32043966",
+      "29855387",
+      "20827599",
+      "22763441",
+      "14694093",
+      "17953763",
+      "32902713",
+      "26170447",
+      "16769978",
+      "34035253",
+      "19570198",
+      "28798132",
+      "17530920",
+      "23267051",
+      "24204288",
+      "31160561",
+      "23185133",
+      "17201929",
+      "19293946",
+      "23303791",
+      "10194769",
+      "40816379",
+      "29562236",
+      "25411453",
+      "29617928",
+      "23382855",
+      "17924165",
+      "32728250",
+      "38951027",
+      "40131776",
+      "34390642",
+      "12362434",
+      "29149249",
+      "21435340",
+      "40826469",
+      "19498043",
+      "26446085",
+      "38092917",
+      "9712644",
+      "8369280",
+      "39217141",
+      "28977594",
+      "24002445",
+      "25765714",
+      "27096366",
+      "26515765",
+      "24920305",
+      "23675311",
+      "8376406",
+      "32978299",
+      "40784942",
+      "39680759",
+      "20079828",
+      "19958507",
+      "22143240",
+      "33246961",
+      "18687933",
+      "19128492",
+      "26499213",
+      "34017130"
+    ],
+    "review": [
+      "38781344",
+      "25624274",
+      "20827599",
+      "29149249",
+      "19498043",
+      "26515765",
+      "22143240"
+    ],
+    "pmc": [
+      "11114231"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adj4452?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/38781344.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38781344/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38781344",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse147672",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

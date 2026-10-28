@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "36086920",
+    "doi": "10.1111/cas.15577",
+    "title": "Multiomics analyses and machine learning of nuclear receptor coactivator 6 reveal its essential role in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "Nuclear receptor coactivator 6 (NCOA6), a coactivator of numerous nuclear receptors and transcription factors, regulates multiple critical cellular functions. Nuclear receptor coactivator 6 is dysregulated in various cancers, including hepatocellular carcinoma (HCC); however, its role remains largely unknown. Here we reported that NCOA6 was highly expressed in HCC compared to the adjacent liver tissue, and NCOA6 overexpression was significantly correlated with poor HCC prognosis. Experiments revealed that the knockdown of NCOA6 damaged the proliferation, migration, and invasion of HCC cells. Multiomics and immune infiltration analyses showed a close relationship between NCOA6 expression, multiple cancer-related malignant pathways, and the immunosuppressive microenvironment. Finally, we established an effective NCOA6-related microRNA (miRNA) signature to distinguish HCC from hepatitis\\liver cirrhosis patients. To the best of our knowledge, this study is the first to provide a comprehensive analysis of NCOA6 expression in HCC. We found that NCOA6 plays an important role in HCC development and has a potential mechanism of action. Establishing an NCOA6-related miRNA signature will help develop novel diagnostic strategies for HCC patients.",
+    "keywords": [
+      "NCOA6",
+      "hepatocellular carcinoma",
+      "machine learning",
+      "multiomics analysis",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/pathology",
+      "*Liver Neoplasms/genetics/pathology",
+      "Multiomics",
+      "Nuclear Receptor Coactivators/genetics/metabolism",
+      "*MicroRNAs/genetics",
+      "Machine Learning",
+      "Prognosis",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Yinghao",
+        "Xu, Yuyan",
+        "Liao, Wei",
+        "Ji, Tao",
+        "Yu, Linyuan",
+        "Li, Longhai",
+        "Pan, Mingxin",
+        "Yang, Dinghua"
+      ],
+      "short_names": [
+        "Fang Y",
+        "Xu Y",
+        "Liao W",
+        "Ji T",
+        "Yu L",
+        "Li L",
+        "Pan M",
+        "Yang D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1442-5240"
+      ],
+      "affiliations": [
+        "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "General Surgery Center, Department of Hepatobiliary Surgery II, Guangdong Provincial Research Center for Artificial Organ and Tissue Engineering, Guangzhou Clinical Research and Transformation Center for Artificial Liver, Institute of Regenerative Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "General Surgery Center, Department of Hepatobiliary Surgery II, Guangdong Provincial Research Center for Artificial Organ and Tissue Engineering, Guangzhou Clinical Research and Transformation Center for Artificial Liver, Institute of Regenerative Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Yinghao",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yuyan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery Center, Department of Hepatobiliary Surgery II, Guangdong Provincial Research Center for Artificial Organ and Tissue Engineering, Guangzhou Clinical Research and Transformation Center for Artificial Liver, Institute of Regenerative Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Wei",
+        "short_name": "Liao W",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Tao",
+        "short_name": "Ji T",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Linyuan",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Longhai",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Mingxin",
+        "short_name": "Pan M",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery Center, Department of Hepatobiliary Surgery II, Guangdong Provincial Research Center for Artificial Organ and Tissue Engineering, Guangzhou Clinical Research and Transformation Center for Artificial Liver, Institute of Regenerative Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Dinghua",
+        "short_name": "Yang D",
+        "identifiers": [
+          "0000-0002-1442-5240"
+        ],
+        "affiliations": [
+          "Unit of Hepatobiliary Surgery, General Surgery Department, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer science"
+    ],
+    "journal_abbrev": [
+      "Cancer Sci"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/11 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "41811088",
+      "41557129",
+      "41402809",
+      "41139444",
+      "40065720",
+      "37553876"
+    ],
+    "refs": [
+      "35145517",
+      "33479224",
+      "33138349",
+      "32790097",
+      "32071145",
+      "32045030",
+      "32025611",
+      "31744881",
+      "31585088",
+      "30970190",
+      "30338850",
+      "30127393",
+      "29692413",
+      "29653628",
+      "28656226",
+      "27244487",
+      "25131203",
+      "25027438",
+      "25017066",
+      "24492836",
+      "23863690",
+      "22781841",
+      "22641018",
+      "19047629",
+      "18589210",
+      "15814849",
+      "15604093",
+      "15561801",
+      "14578865",
+      "10866662",
+      "10823961",
+      "10788465",
+      "10681503",
+      "10567404",
+      "7842014"
+    ],
+    "similar": [
+      "36086920",
+      "32790097",
+      "35384116",
+      "37553876",
+      "21552418",
+      "31037150",
+      "30799589",
+      "24740565",
+      "29626478",
+      "30142536",
+      "26082485",
+      "32879391",
+      "31545279",
+      "30876939",
+      "28435063",
+      "31176165",
+      "36458010",
+      "31298392",
+      "28137631",
+      "36602810",
+      "33220285",
+      "26831666",
+      "36362375",
+      "34519997",
+      "30968150",
+      "31880390",
+      "30312695",
+      "33034848",
+      "34279157",
+      "32089066",
+      "37517087",
+      "32176631",
+      "35939262",
+      "27983537",
+      "37575244",
+      "30268144",
+      "27677076",
+      "31522588",
+      "31237446",
+      "23079602",
+      "32404179",
+      "35278064",
+      "18301782",
+      "30591064",
+      "28026002",
+      "33812045",
+      "32795316",
+      "30825207",
+      "25131203",
+      "33210543",
+      "33078826",
+      "28759956",
+      "28374947",
+      "32469170",
+      "29734164",
+      "29378234",
+      "30411298",
+      "26677080",
+      "32330203",
+      "32231177",
+      "33550933",
+      "32883551",
+      "30971290",
+      "26547929",
+      "29991125",
+      "29758928",
+      "36038907",
+      "31918285",
+      "35234260",
+      "33121524",
+      "34638971",
+      "36273122",
+      "29481815",
+      "32020206",
+      "35681134",
+      "30795787",
+      "32160402",
+      "34386813",
+      "26456956",
+      "30393368",
+      "32236623",
+      "35065633",
+      "34633056",
+      "33349156",
+      "25424347",
+      "22071603",
+      "38804617",
+      "31029128",
+      "34583064",
+      "33232580",
+      "25611915",
+      "26164082",
+      "26302777",
+      "26252254",
+      "30195653",
+      "26173501",
+      "37549980",
+      "38980715",
+      "38101410",
+      "37733590",
+      "37935378",
+      "36792357",
+      "37449047",
+      "37577233",
+      "37228140",
+      "37940230",
+      "37059823",
+      "37302998",
+      "36707187",
+      "38827559",
+      "38435421"
+    ],
+    "review": [
+      "36086920",
+      "18301782",
+      "34638971",
+      "37577233"
+    ],
+    "pmc": [
+      "9807532"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/36086920/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/36086920.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36086920/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36086920",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/cas.15577",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

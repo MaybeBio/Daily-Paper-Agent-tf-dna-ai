@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34991467",
+  "title": "Predicting the targets of IRF8 and NFATc1 during osteoclast differentiation using the machine learning method framework cTAP.",
+  "authors": "Wang, Honglin; Joshi, Pujan; Hong, Seung-Hyun; Maye, Peter F; Rowe, David W; Shin, Dong-Guk",
+  "journal": "BMC genomics",
+  "published_date": "2022-01-08",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习框架cTAP预测破骨细胞分化中IRF8和NFATc1转录因子的靶基因，虽涉及TF-DNA靶标预测，但基于表达数据而非三维互作建模，方法可迁移但深度有限。",
+  "abstract": "BACKGROUND: Interferon regulatory factor-8 (IRF8) and nuclear factor-activated T cells c1 (NFATc1) are two transcription factors that have an important role in osteoclast differentiation. Thanks to ChIP-seq technology, scientists can now estimate potential genome-wide target genes of IRF8 and NFATc1. However, finding target genes that are consistently up-regulated or down-regulated across different studies is hard because it requires analysis of a large number of high-throughput expression studies from a comparable context. METHOD: We have developed a machine learning based method, called, Cohort-based TF target prediction system (cTAP) to overcome this problem. This method assumes that the pathway involving the transcription factors of interest is featured with multiple \"functional groups\" of marker genes pertaining to the concerned biological process. It uses two notions, Gene-Present Sufficiently (GP) and Gene-Absent Insufficiently (GA), in addition to log2 fold changes of differentially expressed genes for the prediction. Target prediction is made by applying multiple machine-learning models, which learn the patterns of GP and GA from log2 fold changes and four types of Z scores from the normalized cohort's gene expression data. The learned patterns are then associated with the putative transcription factor targets to identify genes that consistently exhibit Up/Down gene regulation patterns within the cohort. We applied this method to 11 publicly available GEO data sets related to osteoclastgenesis. RESULT: Our experiment identified a small number of Up/Down IRF8 and NFATc1 target genes as relevant to osteoclast differentiation. The machine learning models using GP and GA produced NFATc1 and IRF8 target genes different than simply using a log2 fold change alone. Our literature survey revealed that all predicted target genes have known roles in bone remodeling, specifically related to the immune system and osteoclast formation and functions, suggesting confidence and validity in our method. CONCLUSION: cTAP was motivated by recognizing that biologists tend to use Z score values present in data sets for the analysis. However, using cTAP effectively presupposes assembling a sizable cohort of gene expression data sets within a comparable context. As public gene expression data repositories grow, the need to use cohort-based analysis method like cTAP will become increasingly important.",
+  "abstract_zh": "背景：干扰素调节因子-8（IRF8）和活化T细胞核因子c1（NFATc1）是在破骨细胞分化中具有重要作用的两种转录因子。借助ChIP-seq技术，科学家现在可以估计IRF8和NFATc1的潜在全基因组靶基因。然而，在不同研究中找到一致上调或下调的靶基因是困难的，因为这需要分析大量来自可比背景的高通量表达研究。方法：我们开发了一种基于机器学习的方法，称为基于队列的转录因子靶标预测系统（cTAP），以克服这一问题。该方法假设涉及目标转录因子的通路以多个与相关生物过程相关的标记基因“功能组”为特征。它使用两个概念，即基因充分存在（GP）和基因不充分缺失（GA），以及差异表达基因的log2倍数变化进行预测。靶标预测通过应用多个机器学习模型进行，这些模型从log2倍数变化和归一化队列基因表达数据的四种Z分数中学习GP和GA的模式。学习到的模式随后与推定的转录因子靶标相关联，以识别在队列内一致表现出上调/下调基因调控模式的基因。我们将此方法应用于11个与破骨细胞生成相关的公开GEO数据集。结果：我们的实验识别出少量与破骨细胞分化相关的IRF8和NFATc1上调/下调靶基因。使用GP和GA的机器学习模型产生的NFATc1和IRF8靶基因与仅使用log2倍数变化不同。我们的文献调查显示，所有预测的靶基因在骨重塑中具有已知作用，特别是与免疫系统及破骨细胞形成和功能相关，这表明我们方法的可信度和有效性。结论：cTAP的提出源于认识到生物学家倾向于使用数据集中存在的Z分数值进行分析。然而，有效使用cTAP的前提是在可比背景下组装一个相当大的基因表达数据集队列。随着公共基因表达数据存储库的增长，使用像cTAP这样的基于队列的分析方法将变得越来越重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34991467/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34991467/",
+  "paper_page_path": "papers/pubmed/34991467/index.html"
+}

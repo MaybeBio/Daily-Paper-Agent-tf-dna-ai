@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "42589375",
+    "doi": "10.3390/ijms27156720",
+    "title": "Serum NEAT1/MEG3 and miR-124/miR-146a Dysregulation in Behcet's Disease: Association with Th17/NF-kappaB-Related Inflammation and Diagnostic Potential."
+  },
+  "content": {
+    "abstract": "Behcet's disease (BD) is a chronic, multisystem vasculitis characterized by dysregulated immune responses and prominent Th1/Th17 polarization; however, the upstream epigenetic regulatory mechanisms driving this inflammatory imbalance remain incompletely understood. Here, we investigated the coordinated expression and diagnostic relevance of key long non-coding RNAs (lncRNAs; NEAT1 and MEG3) and microRNAs (miR-124 and miR-146a), and their association with IL-17/IL-6-mediated inflammation in BD. In a case-control study, serum levels of the selected non-coding RNAs were quantified by quantitative real-time PCR, while cytokine concentrations were measured using ELISA, complemented by bioinformatic interaction analysis and integrated statistical and machine learning approaches. Patients with BD exhibited marked downregulation of NEAT1, MEG3, miR-124, and miR-146a (p < 0.0001), accompanied by significantly elevated IL-17 and IL-6 levels. Individually, biomarkers demonstrated strong discriminatory capacity (AUC 0.83-0.92), while combined panels further improved classification performance. Multivariate modeling identified these non-coding RNAs as independent predictors of BD, and machine learning analysis identified miR-146a and IL-17 as the most influential contributors to disease classification. Notably, selected biomarkers showed associations with specific clinical manifestations, supporting their potential clinical relevance. Bioinformatic analyses identified putative interactions between NEAT1 and miR-124/miR-146a, while MEG3 demonstrated independent diagnostic value without evidence of direct interaction with the investigated miRNAs. Collectively, these findings provide a hypothesis-generating framework for future mechanistic investigations and support the potential diagnostic value of the investigated biomarker panel, although validation in larger multicenter cohorts and disease-control populations is warranted.",
+    "keywords": [
+      "Behcet's disease",
+      "IL-17",
+      "MEG3",
+      "NEAT1",
+      "NF-kappaB",
+      "biomarkers",
+      "diagnostic performance",
+      "long non-coding RNA",
+      "miR-124",
+      "miR-146a",
+      "microRNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Behcet Syndrome/blood/diagnosis/genetics/immunology",
+      "*MicroRNAs/blood/genetics",
+      "*RNA, Long Noncoding/blood/genetics",
+      "Female",
+      "*NF-kappa B/metabolism",
+      "*Th17 Cells/metabolism/immunology",
+      "Biomarkers/blood",
+      "Case-Control Studies",
+      "Male",
+      "Inflammation/blood/genetics",
+      "Adult",
+      "Gene Expression Regulation",
+      "Interleukin-17/blood"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Radwan, Abdullah F",
+        "Rizk, Hanan A",
+        "Awed, Mona Sami",
+        "Senosi, Manar R",
+        "Gamal, Ahmed",
+        "Shaker, Olfat G",
+        "Ayeldeen, Ghada"
+      ],
+      "short_names": [
+        "Radwan AF",
+        "Rizk HA",
+        "Awed MS",
+        "Senosi MR",
+        "Gamal A",
+        "Shaker OG",
+        "Ayeldeen G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3731-1561",
+        "ORCID: 0009-0004-1638-0367",
+        "ORCID: 0000-0001-5518-6023",
+        "ORCID: 0000-0002-3031-3599"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Faculty of Pharmacy, Egyptian Russian University, Badr City 11829, Egypt.",
+        "College of Humanities and Sciences, Ajman University, Ajman 346, United Arab Emirates.",
+        "Department of Biochemistry, Faculty of Pharmacy, Egyptian Russian University, Badr City 11829, Egypt.",
+        "Department of Rheumatology and Rehabilitation, Faculty of Medicine, Fayoum University, Fayoum 63514, Egypt.",
+        "Department of Andrology, Sexology and STI's, Faculty of Medicine, Cairo University, Cairo 11562, Egypt.",
+        "Department of Medical Biochemistry and Molecular Biology, Faculty of Medicine, Cairo University, Cairo 11562, Egypt.",
+        "Department of Medical Biochemistry and Molecular Biology, Faculty of Medicine, Cairo University, Cairo 11562, Egypt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Radwan, Abdullah F",
+        "short_name": "Radwan AF",
+        "identifiers": [
+          "0000-0002-3731-1561"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Pharmacy, Egyptian Russian University, Badr City 11829, Egypt."
+        ]
+      },
+      {
+        "full_name": "Rizk, Hanan A",
+        "short_name": "Rizk HA",
+        "identifiers": [
+          "0009-0004-1638-0367"
+        ],
+        "affiliations": [
+          "College of Humanities and Sciences, Ajman University, Ajman 346, United Arab Emirates."
+        ]
+      },
+      {
+        "full_name": "Awed, Mona Sami",
+        "short_name": "Awed MS",
+        "identifiers": [
+          "0000-0001-5518-6023"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Pharmacy, Egyptian Russian University, Badr City 11829, Egypt."
+        ]
+      },
+      {
+        "full_name": "Senosi, Manar R",
+        "short_name": "Senosi MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Rehabilitation, Faculty of Medicine, Fayoum University, Fayoum 63514, Egypt."
+        ]
+      },
+      {
+        "full_name": "Gamal, Ahmed",
+        "short_name": "Gamal A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Andrology, Sexology and STI's, Faculty of Medicine, Cairo University, Cairo 11562, Egypt."
+        ]
+      },
+      {
+        "full_name": "Shaker, Olfat G",
+        "short_name": "Shaker OG",
+        "identifiers": [
+          "0000-0002-3031-3599"
+        ],
+        "affiliations": [
+          "Department of Medical Biochemistry and Molecular Biology, Faculty of Medicine, Cairo University, Cairo 11562, Egypt."
+        ]
+      },
+      {
+        "full_name": "Ayeldeen, Ghada",
+        "short_name": "Ayeldeen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Molecular Biology, Faculty of Medicine, Cairo University, Cairo 11562, Egypt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jul 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 05:35",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42071201",
+      "41681047",
+      "40990388",
+      "40632438",
+      "40146803",
+      "40137963",
+      "39798064",
+      "39776276",
+      "39555123",
+      "39427523",
+      "39096360",
+      "38985298",
+      "38543885",
+      "38372118",
+      "38232183",
+      "38169510",
+      "38082562",
+      "38057315",
+      "37814339",
+      "37796707",
+      "37753266",
+      "37650348",
+      "37633799",
+      "37391481",
+      "37295542",
+      "37032720",
+      "36858565",
+      "36768614",
+      "36740569",
+      "36544027",
+      "36533384",
+      "36207500",
+      "36126903",
+      "36043705",
+      "35894066",
+      "35884618",
+      "35359926",
+      "35344430",
+      "35127819",
+      "34804042",
+      "34698214",
+      "34692721",
+      "34676209",
+      "33340430",
+      "33101288",
+      "32377692",
+      "30840494",
+      "30499073",
+      "29987428",
+      "29854829",
+      "29625968",
+      "29170536",
+      "28978995",
+      "28829444",
+      "28753995",
+      "28289419",
+      "27757114",
+      "27709266",
+      "27441030",
+      "27100349",
+      "26041995",
+      "25391989",
+      "23636127",
+      "23441863",
+      "23292713",
+      "22197901",
+      "22094949",
+      "21131957",
+      "19246619",
+      "18546601",
+      "16885212",
+      "12890862",
+      "10528040"
+    ],
+    "similar": [
+      "42589375",
+      "39798064",
+      "30317557",
+      "39776276",
+      "39317938",
+      "23464866",
+      "23268366",
+      "31894531",
+      "38985298",
+      "29987428",
+      "26818976",
+      "30366049",
+      "27156371",
+      "39555123",
+      "38761409",
+      "30385329",
+      "24064012",
+      "32856219",
+      "36155183",
+      "41923430",
+      "31122907",
+      "41966482",
+      "31599663",
+      "39482996",
+      "41501295",
+      "28811236",
+      "42565562",
+      "31770330",
+      "38758895",
+      "26486198",
+      "31951967",
+      "42134751",
+      "35003055",
+      "40360903",
+      "35800145",
+      "39464895",
+      "35127819",
+      "38062969",
+      "32342557",
+      "30848985",
+      "31721299",
+      "40424932",
+      "30447342",
+      "28414558",
+      "42151276",
+      "38825494",
+      "33530155",
+      "37860009",
+      "25056541",
+      "38685136",
+      "42523837",
+      "29557072",
+      "27522004",
+      "29115409",
+      "41678271",
+      "39661490",
+      "33393726",
+      "28378461",
+      "22935165",
+      "33605830",
+      "41085234",
+      "36745138",
+      "24446471",
+      "30420902",
+      "29058209",
+      "34696702",
+      "32583510",
+      "24996260",
+      "42240707",
+      "21455110",
+      "31907972",
+      "34708894",
+      "27993883",
+      "26841832",
+      "27939191",
+      "34917685",
+      "40790247",
+      "39537413",
+      "37716986",
+      "31876058",
+      "41680791",
+      "25740880",
+      "24730521",
+      "34448644",
+      "40730640",
+      "31646601",
+      "42171908",
+      "24967703",
+      "42155009",
+      "42156472",
+      "27494344",
+      "42337193",
+      "34369042",
+      "26253248",
+      "31071307",
+      "40257285",
+      "32569501",
+      "40237848",
+      "34844932",
+      "33394349"
+    ],
+    "review": [
+      "42589375",
+      "37860009",
+      "42523837",
+      "36745138",
+      "41680791",
+      "42337193"
+    ],
+    "pmc": [
+      "13466711"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27156720",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/behcetssyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Behcet's Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42589375/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

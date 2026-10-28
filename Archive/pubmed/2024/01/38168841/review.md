@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the manuscript
+- **Shared manuscript claim summary** The authors propose SilenceREIN, a deep graph neural network method that integrates chromatin loop interaction data with linear genomic and epigenomic features to predict silencers on chromatin loop anchors. They report performance comparable or superior to existing methods, genome-wide predictions suggesting silencers are widespread on loop anchors, and validation via TF motif enrichment and cross-annotation with existing genome annotation models.
+- **Visible evidence base** Abstract, full text of Introduction, Materials and Methods, Results and Discussion, and Conclusion sections. References to Figures 1–10, Tables 1–2, and supplementary materials (Tables S1–S9, Figures S1–S3) are made but the actual figures and tables are not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are referenced but not included in the provided text. This includes the primary performance comparison (Figure 3), ablation analysis (Figure 5), UMAP visualizations (Figure 6), cross-annotation results (Figures 7–9), motif enrichment results (Figure 10), and all supplementary tables and figures. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored problem: computational identification of silencers using chromatin structure information. The conceptual premise is sound and the integration of graph neural networks with linear genomic features is a reasonable methodological choice. However, the provided text alone does not allow verification of the central quantitative claims. The performance comparisons, statistical tests, and validation analyses are all described qualitatively with references to figures and tables that are not available. The genome-wide prediction result, which reports 81.62% of unlabeled nodes as potential silencers, raises a significant concern about model calibration and specificity that is not adequately addressed in the text. The cross-annotation and motif enrichment analyses are described as supportive but the actual data are not shown. The manuscript would benefit from clearer reporting of the negative control analyses and a more critical discussion of the high prediction rate.
+- **Who would be interested in the results, and why** Researchers in computational genomics, gene regulation, and cis-regulatory element annotation would be interested. The work is relevant to those studying silencer biology, chromatin organization, and the application of graph neural networks to regulatory genomics. The potential to extend the method to other cell lines and the public availability of code and data increase its utility for the community.
+- **Major strengths** The problem is well-motivated and the use of chromatin interaction data is a novel angle compared to sequence-only methods. The manuscript is clearly written and the methodological pipeline is described in sufficient detail to be reproducible. The authors address data source variability and perform multiple validation approaches, including cross-annotation with existing genome annotation models and TF motif enrichment. The inclusion of a second cell line (HepG2) and an alternative data source (HiChIP) demonstrates an effort to assess generalizability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SilenceREIN achieved better performances than DeepSilencer and gkmSVM in terms of most performance measures" and "SilenceREIN achieved an average AUROC of 0.793, with a 95% confidence interval of (0.791, 0.794). This is significantly higher than gkmSVM (P < 10−9, t-test, two-tails)."
+  - **Evidence pointer** Figure 3, Tables S4 and S5, location not provided
+  - **Concern** The central performance claims are presented without the actual data. The figure and tables that would support these claims are not available in the provided material. The AUROC value of 0.793 is reported with a very narrow confidence interval, which is surprising given the reported standard deviations in Figure 3(A) are not visible. The comparison to gkmSVM is stated to be significant, but the effect size and the full set of performance metrics are not shown. Without the actual performance curves, confusion matrices, or per-fold results, the claim of superiority cannot be assessed.
+  - **Why it matters** The primary contribution of the manuscript is the claimed improvement in predictive performance. If this cannot be verified, the core value proposition of the method is not established.
+  - **Resolution test** Provide Figure 3 and Tables S4 and S5. Report the full set of performance metrics (AUROC, AUPR, accuracy, sensitivity, specificity, PPV, F1, MCC) for all methods with standard deviations. Show the distribution of per-fold results and the statistical test details.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** "SilenceREIN reported 331,958 potential silencers among 406,708 nodes, which covers 81.62% of all nodes in the regulatory element interaction network."
+  - **Evidence pointer** Section "Genome-wide prediction of silencers on the anchors of chromatin loops", location not provided
+  - **Concern** The genome-wide prediction labels 81.62% of unlabeled nodes as silencers. This is an extremely high proportion and raises serious questions about the model's specificity and the threshold used for classification. The authors acknowledge this is "severely over-estimated" but then argue it is not due to overfitting by comparing to gkmSVM, which also predicts a high proportion. This comparison does not resolve the concern; it merely shows that two methods behave similarly. The high prediction rate could indicate that the model is not learning a specific silencer signature but rather a broad property of loop anchors. The authors do not provide an analysis of the score distribution, a discussion of the classification threshold, or a comparison to the expected proportion of silencers in the genome.
+  - **Why it matters** A method that labels the vast majority of unannotated loop anchors as silencers is not practically useful for prioritizing candidates for experimental validation. The claim that "silencers are widespread on anchors of chromatin loops" is a strong biological conclusion that requires more rigorous support than a high prediction rate from a single model.
+  - **Resolution test** Provide the distribution of prediction scores for the unlabeled nodes. Show how the prediction rate changes as a function of the classification threshold. Compare the predicted silencer proportion to what is known about silencer abundance in the genome. Discuss the precision-recall trade-off and provide a rationale for the chosen threshold. Consider reporting a ranked list of candidates rather than a binary classification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We chose to use the average aggregation function as follows: where W is a trainable weight matrix, hv(k) is the representation of node v in the k-th sampling step, N(v) is the set of neighboring nodes of node v, σ(.) and activation function and m(.) is the aggregation function for calculating the center vector of a set."
+  - **Evidence pointer** Section "Regulatory element interaction network features", location not provided
+  - **Concern** The equations for the GraphSAGE aggregation function, the one-hot encoding, the DBI, and the motif enrichment score are referenced in the text but the actual equations are not displayed in the provided material. This makes it impossible to evaluate the technical correctness of the implementation. For example, the description of the aggregation function is incomplete and the notation is unclear. The DBI formula is described but the exact definition of variance and center is not shown.
+  - **Why it matters** The methodological details are essential for reproducibility and for assessing whether the implementation is correct. Incomplete equations undermine the technical soundness of the manuscript.
+  - **Resolution test** Provide the full equations for all mathematical definitions. Ensure that all variables are clearly defined and that the notation is consistent throughout.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "All above observations support that SilenceREIN produce silencer annotations that are in line with functional genome annotation models. Moreover, SilenceREIN can capture silencers that are missed by genome annotation models."
+  - **Evidence pointer** Figures 7–9, location not provided
+  - **Concern** The cross-annotation analysis is described as showing that SilenceREIN predictions are correlated with repressive element annotations from ChromHMM, Segway, and Libbrecht's model. However, the actual figures showing these results are not provided. The text reports chi-square test p-values but not the underlying contingency tables or the effect sizes. The claim that SilenceREIN captures silencers missed by other models is based on a small number of examples (2 out of 17 in one analysis), which is a very limited basis for such a conclusion.
+  - **Why it matters** The cross-annotation analysis is presented as a key validation of the biological relevance of the predictions. Without the actual data, the strength of this evidence cannot be assessed.
+  - **Resolution test** Provide Figures 7–9 with the full details of the analysis. Report the contingency tables, the chi-square statistics, and the effect sizes. Provide a more comprehensive analysis of the silencers exclusively predicted by SilenceREIN, including a discussion of their genomic context and potential functional relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "SilenceREIN integrated the chromatin structural information with linear genomic signatures to find silencers" but does not specify what the "linear genomic signatures" are. The abstract also does not mention the cell lines used or the key quantitative results.
+  - **Required correction** Briefly specify the types of linear features used (e.g., DNA sequence, histone modifications, TF binding) and include the key performance metric (e.g., AUROC) and the cell lines studied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Section "Dataset curations", location not provided
+  - **Issue** The description of the negative samples is vague. The authors state they collected "2000 non-silencer sequences" from Jayavelu et al. and "1695 enhancers" and "29,598 promoters" but do not describe how these were defined or whether they were filtered for overlap with silencers.
+  - **Required correction** Provide a clear definition of each negative class and describe any filtering steps to avoid overlapping or ambiguous annotations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 description
+  - **Evidence pointer** Section "Overview of the SilenceREIN protocol", location not provided
+  - **Issue** The workflow is described in text but the figure itself is not available. The description of the CNN module mentions "four consecutive units" but does not specify the kernel sizes, padding, or other architectural details.
+  - **Required correction** Provide the full architectural details of the CNN and GraphSAGE modules in the text or in a table, so that the model can be reproduced without relying solely on the figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of DBI results
+  - **Evidence pointer** Section "Usefulness of the regulatory element interaction network features", location not provided
+  - **Issue** The DBI values are reported as 2.36 and 3.27 for models with and without network features, respectively. The authors state this indicates better clustering with network features, but they do not provide a baseline or a reference for interpreting these absolute values.
+  - **Required correction** Provide context for interpreting DBI values, such as a comparison to a random feature baseline or a discussion of what range of DBI values would be considered good separation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** HiChIP analysis
+  - **Evidence pointer** Section "HiChIP-based regulatory element interaction network", location not provided
+  - **Issue** The authors state that performance drops when using HiChIP data but do not provide the actual performance numbers or a discussion of why the drop occurs.
+  - **Required correction** Report the performance metrics for the HiChIP-based model and discuss the likely reasons for the performance difference, such as data resolution or noise.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central performance claims and the genome-wide prediction results cannot be verified without the actual data. The incomplete equations (R1-M3) also need to be addressed for the methodology to be fully assessable.
+- **Assessment against Nature-style criteria** Originality: The use of chromatin loop interaction data for silencer prediction is a novel contribution. Scientific importance: Silencer identification is an important problem in gene regulation, and the integration of 3D genome structure is a timely direction. Interdisciplinary readership: The work bridges computational biology, genomics, and gene regulation, and would appeal to a broad audience. Technical soundness: The methodological approach is reasonable, but the incomplete presentation of equations and the lack of supporting data for key claims prevent a full assessment of technical soundness. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with graph neural networks and chromatin biology.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising and the manuscript is well-structured, but the central quantitative claims cannot be verified without the figures, tables, and supplementary materials. The high genome-wide prediction rate also needs to be addressed with a more critical analysis. I would be supportive if the technical concerns are resolved and the full evidence is provided.
+
+## Risk / unsupported claims
+- The claim that SilenceREIN outperforms state-of-the-art methods (R1-M1) is unsupported without Figure 3 and Tables S4–S5.
+- The claim that silencers are widespread on chromatin loop anchors, based on the genome-wide prediction of 81.62% of unlabeled nodes, is unsupported and potentially misleading without a threshold analysis and a discussion of model specificity (R1-M2).
+- The claim that SilenceREIN predictions are in line with genome annotation models is unsupported without Figures 7–9.
+- The claim that SilenceREIN captures silencers missed by other models is based on a very small number of examples and is not sufficiently supported.
+- The claim that the method is the "first computational method to incorporate chromatin structure information in recognizing silencers" is a strong claim that would require a more thorough literature review to substantiate.
+- The equations for the GraphSAGE aggregation, one-hot encoding, DBI, and motif enrichment score are referenced but not provided, making these methodological descriptions incomplete.

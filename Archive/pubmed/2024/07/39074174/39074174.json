@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "39074174",
+    "doi": "10.1093/biostatistics/kxae028",
+    "title": "Incorporating prior information in gene expression network-based cancer heterogeneity analysis."
+  },
+  "content": {
+    "abstract": "Cancer is molecularly heterogeneous, with seemingly similar patients having different molecular landscapes and accordingly different clinical behaviors. In recent studies, gene expression networks have been shown as more effective/informative for cancer heterogeneity analysis than some simpler measures. Gene interconnections can be classified as \"direct\" and \"indirect,\" where the latter can be caused by shared genomic regulators (such as transcription factors, microRNAs, and other regulatory molecules) and other mechanisms. It has been suggested that incorporating the regulators of gene expressions in network analysis and focusing on the direct interconnections can lead to a deeper understanding of the more essential gene interconnections. Such analysis can be seriously challenged by the large number of parameters (jointly caused by network analysis, incorporation of regulators, and heterogeneity) and often weak signals. To effectively tackle this problem, we propose incorporating prior information contained in the published literature. A key challenge is that such prior information can be partial or even wrong. We develop a two-step procedure that can flexibly accommodate different levels of prior information quality. Simulation demonstrates the effectiveness of the proposed approach and its superiority over relevant competitors. In the analysis of a breast cancer dataset, findings different from the alternatives are made, and the identified sample subgroups have important clinical differences.",
+    "keywords": [
+      "gene expression network",
+      "heterogeneity analysis",
+      "prior information",
+      "regulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks/genetics",
+      "Breast Neoplasms/genetics",
+      "*Neoplasms/genetics",
+      "Female",
+      "*Genetic Heterogeneity",
+      "Gene Expression Profiling/methods",
+      "Models, Statistical",
+      "Gene Expression Regulation, Neoplastic",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Rong",
+        "Xu, Shaodong",
+        "Li, Yang",
+        "Tang, Zuojian",
+        "Feng, Di",
+        "Cai, James",
+        "Ma, Shuangge"
+      ],
+      "short_names": [
+        "Li R",
+        "Xu S",
+        "Li Y",
+        "Tang Z",
+        "Feng D",
+        "Cai J",
+        "Ma S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6287-5094",
+        "ORCID: 0000-0001-9001-4999"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, Yale School of Public Health, 60 College Street, New Haven, 06511, CT, United States.",
+        "Center for Applied Statistics and School of Statistics, Renmin University of China, 59 Zhongguancun Street, 100872, Beijing, China.",
+        "Center for Applied Statistics and School of Statistics, Renmin University of China, 59 Zhongguancun Street, 100872, Beijing, China.",
+        "Global Computational Biology and Digital Sciences, Boehringer Ingelheim Pharmaceuticals Inc., 900 Ridgebury Road, Ridgefield, 06877, CT, United States.",
+        "Global Computational Biology and Digital Sciences, Boehringer Ingelheim Pharmaceuticals Inc., 900 Ridgebury Road, Ridgefield, 06877, CT, United States.",
+        "Global Computational Biology and Digital Sciences, Boehringer Ingelheim Pharmaceuticals Inc., 900 Ridgebury Road, Ridgefield, 06877, CT, United States.",
+        "Department of Biostatistics, Yale School of Public Health, 60 College Street, New Haven, 06511, CT, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Rong",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Yale School of Public Health, 60 College Street, New Haven, 06511, CT, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Shaodong",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Statistics and School of Statistics, Renmin University of China, 59 Zhongguancun Street, 100872, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yang",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-6287-5094"
+        ],
+        "affiliations": [
+          "Center for Applied Statistics and School of Statistics, Renmin University of China, 59 Zhongguancun Street, 100872, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Zuojian",
+        "short_name": "Tang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Global Computational Biology and Digital Sciences, Boehringer Ingelheim Pharmaceuticals Inc., 900 Ridgebury Road, Ridgefield, 06877, CT, United States."
+        ]
+      },
+      {
+        "full_name": "Feng, Di",
+        "short_name": "Feng D",
+        "identifiers": [],
+        "affiliations": [
+          "Global Computational Biology and Digital Sciences, Boehringer Ingelheim Pharmaceuticals Inc., 900 Ridgebury Road, Ridgefield, 06877, CT, United States."
+        ]
+      },
+      {
+        "full_name": "Cai, James",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "Global Computational Biology and Digital Sciences, Boehringer Ingelheim Pharmaceuticals Inc., 900 Ridgebury Road, Ridgefield, 06877, CT, United States."
+        ]
+      },
+      {
+        "full_name": "Ma, Shuangge",
+        "short_name": "Ma S",
+        "identifiers": [
+          "0000-0001-9001-4999"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Yale School of Public Health, 60 College Street, New Haven, 06511, CT, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biostatistics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Biostatistics"
+    ],
+    "pub_date": "2025 Dec 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/29 18:41",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42473668"
+    ],
+    "refs": [
+      "38217236",
+      "37670505",
+      "37490475",
+      "35561185",
+      "34499112",
+      "34020548",
+      "33501648",
+      "32235944",
+      "32234433",
+      "31861976",
+      "31772246",
+      "31501885",
+      "31010934",
+      "30867590",
+      "30662373",
+      "30254986",
+      "29218917",
+      "28968850",
+      "28611535",
+      "27217599",
+      "27161491",
+      "26821531",
+      "26780092",
+      "26420864",
+      "24726980",
+      "24048066",
+      "23836465",
+      "22905077",
+      "22522925",
+      "19903760"
+    ],
+    "similar": [
+      "39074174",
+      "36321557",
+      "28187708",
+      "23956306",
+      "25014375",
+      "42475469",
+      "30854706",
+      "34886811",
+      "20487548",
+      "26040466",
+      "19638211",
+      "33036834",
+      "32019417",
+      "24073403",
+      "31759986",
+      "26070628",
+      "38838009",
+      "18366601",
+      "27035433",
+      "25928379",
+      "39596229",
+      "30598111",
+      "32241278",
+      "34174112",
+      "31046666",
+      "33527365",
+      "33279569",
+      "39206896",
+      "23836465",
+      "30240439",
+      "28356166",
+      "41734447",
+      "40890579",
+      "28335719",
+      "19292896",
+      "41444897",
+      "16772399",
+      "24565034",
+      "16670008",
+      "17392030",
+      "22105693",
+      "29268715",
+      "26099273",
+      "27145341",
+      "27454166",
+      "26376888",
+      "31988326",
+      "31640538",
+      "26611766",
+      "28739740",
+      "41898839",
+      "24350289",
+      "24407294",
+      "35181505",
+      "42650039",
+      "24557698",
+      "30547796",
+      "26217958",
+      "24637666",
+      "31569063",
+      "32445696",
+      "32932728",
+      "24491042",
+      "40898538",
+      "22952604",
+      "25844668",
+      "24564526",
+      "25521200",
+      "20350617",
+      "27449149",
+      "27467526",
+      "26611531",
+      "26944545",
+      "26763900",
+      "26362298",
+      "34415837",
+      "26138921",
+      "20005686",
+      "20942926",
+      "27170106",
+      "35617355",
+      "29187174",
+      "39302138",
+      "31613058",
+      "30859354",
+      "31280346",
+      "15479708",
+      "20507583",
+      "32750866",
+      "25611546",
+      "23772050",
+      "30859564",
+      "30390627",
+      "31247559",
+      "26316173",
+      "31790386",
+      "24205155",
+      "30993001",
+      "29157215",
+      "28031185"
+    ],
+    "review": [
+      "39074174",
+      "36321557",
+      "35181505"
+    ],
+    "pmc": [
+      "12550826"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/39074174.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39074174/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/biostatistics/article-lookup/doi/10.1093/biostatistics/kxae028",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "40909263",
+    "doi": "10.3389/fimmu.2025.1640425",
+    "title": "Identification of sepsis biomarkers through glutamine metabolism-mediated immune regulation: a comprehensive analysis employing mendelian randomization, multi-omics integration, and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis is a global health challenge associated with high morbidity and mortality rates. Early diagnosis and treatment are challenging because of the limited understanding of its underlying mechanisms. This study aimed to identify biomarkers of sepsis through an integrated multi-method approach. METHODS: Mendelian randomization (MR) analysis was performed using data on 1400 plasma metabolites, 731 immune cell phenotypes, and sepsis genome-wide association studies. Single-cell RNA sequencing (scRNA-seq) data GSE167363 was used for cell annotation, differential expression analysis, Gene Set Enrichment Analysis (GSEA), transcription factor activity prediction, and cellular pseudotime analysis. The hub genes were identified via least absolute shrinkage and selection operator regression using GSE236713. The predictive models were constructed using the CatBoost, XGBoost, and NGBoost algorithms based on the data from GSE236713 and GSE28750. SHapley Additive ex Planations (SHAP) was used to filter the key molecules, and their expressions were confirmed via RT-qPCR of the peripheral blood mononuclear cells of the patients with sepsis and healthy controls. RESULTS: Two-step MR revealed that glutamine degradant mediated the causal relationship between SSC-A on HLA-DR + NK and sepsis. ScRNA-seq analysis revealed distinct variations in the composition of immune cell phenotypes in the control and sepsis groups. NK cells were associated with glutamine metabolism. GSEA illustrated the top 10 pathways positively and negatively correlated in NK cells with high vs. low glutamine metabolism. Transcription factor prediction revealed opposing transcription factor profiles for these NK cells subsets. NK cell cellular pseudotime plot and immune cell infiltration analysis results were displayed. The predictive models achieved AUCs of 0.95 (CatBoost), 0.80 (XGBoost), and 0.62 (NGBoost). SHAP analysis identified SRSF7, E2F2, RAB13, and S100A8 as key molecular of the model. RT-qPCR revealed decreased SRSF7 expression and increased RAB13, E2F2, and S100A8 expression in sepsis. CONCLUSION: SSC-A on HLA-DR + NK cells reduced the risk of sepsis by decreasing glutamine degradation. SRSF7, E2F2, RAB13, and S100A8 were identified as potential pathogenic biomarkers of sepsis.",
+    "keywords": [
+      "ScRNA-seq",
+      "biomarkers",
+      "machine learning",
+      "mendelian randomization",
+      "sepsis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sepsis/immunology/metabolism/genetics/diagnosis",
+      "Mendelian Randomization Analysis",
+      "*Machine Learning",
+      "*Biomarkers/metabolism/blood",
+      "*Glutamine/metabolism",
+      "Genome-Wide Association Study",
+      "Single-Cell Analysis",
+      "Killer Cells, Natural/immunology/metabolism",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Zhuang'e",
+        "Wang, Fuping",
+        "Yang, Lishun",
+        "Li, Couwen",
+        "Gong, Bing",
+        "Dai, Ruanxian",
+        "Chen, Guobing"
+      ],
+      "short_names": [
+        "Shi Z",
+        "Wang F",
+        "Yang L",
+        "Li C",
+        "Gong B",
+        "Dai R",
+        "Chen G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Department of Emergency Medicine, The Affiliated Hospital of Kunming University of Science and Technology, The First People's Hospital of Yunnan Province, Medical School, Kunming University of Science and Technology, Kunming, China.",
+        "Kunming Medical University, Department of Emergency Medicine, The First People's Hospital of Yunnan Province, Kunming, China.",
+        "Medical School, Kunming University of Science and Technology, Department of Emergency Medicine, The First People's Hospital of Yunnan Province, Kunming, China.",
+        "Department of Emergency Medicine, People's Hospital of Lijiang, Lijiang, China.",
+        "Medical School, Kunming University of Science and Technology, Department of Emergency Medicine, The First People's Hospital of Yunnan Province, Kunming, China.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Department of Emergency Medicine, The Affiliated Hospital of Kunming University of Science and Technology, The First People's Hospital of Yunnan Province, Medical School, Kunming University of Science and Technology, Kunming, China.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Department of Emergency Medicine, The Affiliated Hospital of Kunming University of Science and Technology, The First People's Hospital of Yunnan Province, Medical School, Kunming University of Science and Technology, Kunming, China.",
+        "Department of Emergency Medicine, The First People's Hospital of Yunnan Province, Kunming, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Zhuang'e",
+        "short_name": "Shi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Department of Emergency Medicine, The Affiliated Hospital of Kunming University of Science and Technology, The First People's Hospital of Yunnan Province, Medical School, Kunming University of Science and Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fuping",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Department of Emergency Medicine, The First People's Hospital of Yunnan Province, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lishun",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School, Kunming University of Science and Technology, Department of Emergency Medicine, The First People's Hospital of Yunnan Province, Kunming, China.",
+          "Department of Emergency Medicine, People's Hospital of Lijiang, Lijiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Couwen",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School, Kunming University of Science and Technology, Department of Emergency Medicine, The First People's Hospital of Yunnan Province, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Bing",
+        "short_name": "Gong B",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Department of Emergency Medicine, The Affiliated Hospital of Kunming University of Science and Technology, The First People's Hospital of Yunnan Province, Medical School, Kunming University of Science and Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Ruanxian",
+        "short_name": "Dai R",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Department of Emergency Medicine, The Affiliated Hospital of Kunming University of Science and Technology, The First People's Hospital of Yunnan Province, Medical School, Kunming University of Science and Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guobing",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, The First People's Hospital of Yunnan Province, Kunming, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/05 06:35",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [
+      "42382469",
+      "42291321",
+      "42281821",
+      "42193171",
+      "41892305"
+    ],
+    "refs": [
+      "40724897",
+      "40722152",
+      "40628770",
+      "40625751",
+      "40567251",
+      "40375981",
+      "40364841",
+      "40144970",
+      "40092997",
+      "40021770",
+      "39838305",
+      "39819454",
+      "39588141",
+      "39580129",
+      "39577524",
+      "39547595",
+      "39468222",
+      "39351228",
+      "39317048",
+      "39223234",
+      "39185420",
+      "39173401",
+      "39086903",
+      "39040114",
+      "39017848",
+      "38827447",
+      "38807151",
+      "38653463",
+      "38393946",
+      "38254226",
+      "38114466",
+      "38040079",
+      "38018317",
+      "37932692",
+      "37921121",
+      "37833373",
+      "37339603",
+      "37325194",
+      "37189438",
+      "36878489",
+      "36756117",
+      "36350503",
+      "35945238",
+      "35731335",
+      "35050690",
+      "35045818",
+      "34758337",
+      "34518686",
+      "34073678",
+      "33859538",
+      "33441155",
+      "33406982",
+      "33372147",
+      "33275138",
+      "33169094",
+      "32929287",
+      "32733454",
+      "32572531",
+      "32276542",
+      "31954465",
+      "31949791",
+      "31931100",
+      "31804299",
+      "31761964",
+      "31630991",
+      "31539636",
+      "30971806",
+      "30813927",
+      "30445434",
+      "30326490",
+      "30007546",
+      "29967057",
+      "29164242",
+      "28903154",
+      "28199207",
+      "27592028",
+      "27492899",
+      "26903338",
+      "26414292",
+      "25595784",
+      "24816252",
+      "23328259",
+      "22842774",
+      "22745371",
+      "21212348",
+      "20813862",
+      "20190244",
+      "19278419",
+      "19172692",
+      "17015755",
+      "16199517",
+      "15259029",
+      "11846609",
+      "11533308",
+      "9661123",
+      "8839777",
+      "8666159"
+    ],
+    "similar": [
+      "40909263",
+      "39173401",
+      "40458850",
+      "40325173",
+      "40350654",
+      "40830558",
+      "40745068",
+      "40453984",
+      "41192724",
+      "39647286",
+      "41333919",
+      "40628770",
+      "41109923",
+      "39669564",
+      "41152979",
+      "40129981",
+      "39029061",
+      "41310117",
+      "38868781",
+      "40589764",
+      "39182484",
+      "40663487",
+      "41080564",
+      "41088531",
+      "41059665",
+      "39789158",
+      "41341599",
+      "38953031",
+      "39370621",
+      "39185420",
+      "39299582",
+      "41199372",
+      "40425742",
+      "39717623",
+      "40362233",
+      "39541897",
+      "40783504",
+      "38649912",
+      "41246299",
+      "40768057",
+      "40618704",
+      "39289620",
+      "39430765",
+      "41472734",
+      "41340073",
+      "40625749",
+      "40837006",
+      "39462363",
+      "41358199",
+      "39586719",
+      "40927774",
+      "40562379",
+      "40822862",
+      "41326582",
+      "41328587",
+      "38517244",
+      "39763654",
+      "39896814",
+      "39993547",
+      "40055592",
+      "39384856",
+      "39871218",
+      "41346577",
+      "40296690",
+      "40877393",
+      "40193647",
+      "41083787",
+      "41089329",
+      "39346628",
+      "40330470",
+      "40435823",
+      "40702735",
+      "41164190",
+      "38962008",
+      "37115484",
+      "33100122",
+      "40276515",
+      "39465765",
+      "41305822",
+      "39874886",
+      "40853611",
+      "40679719",
+      "41202080",
+      "40756031",
+      "41132951",
+      "40108295",
+      "41432483",
+      "39950836",
+      "41287581",
+      "39762630",
+      "40947685",
+      "40916281",
+      "39726598",
+      "40681713",
+      "39044269",
+      "39814058",
+      "39026663",
+      "38167131",
+      "39691721",
+      "39108261"
+    ],
+    "review": [
+      "40909263",
+      "39465765"
+    ],
+    "pmc": [
+      "12404944"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40909263/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1640425",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

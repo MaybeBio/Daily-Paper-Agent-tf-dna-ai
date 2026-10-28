@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that neural networks trained on human and mouse ENCODE data (DeepBind, DeepSEA, Enformer) can infer chromatin annotations (transcription factor binding, chromatin accessibility, histone marks) in non-model species (cattle, pig, chicken, European seabass). They report performance metrics (AUC-ROC, AUC-PR) from FAANG experimental data, showing moderate performance in mammals and chicken, lower performance in fish, and highlight accurate predictions for non-conserved sequences in pigs.
+- **Visible evidence base** Abstract text only; no figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods (model architectures, training data, species-specific data processing, evaluation protocols), statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of existing deep learning models for cross-species regulatory annotation, which could be of interest to the genomics and animal biology communities. However, the evidence provided in the abstract is insufficient to evaluate the robustness of the claims. Key methodological details, such as how models were applied, how predictions were calibrated, and how non-conserved sequences were defined and validated, are absent. The reported performance metrics show substantial variation across species and annotations, and the biological and practical significance of these results is not clearly established. The claim that human-trained networks can serve as a first step in cross-species annotation is plausible but not fully supported by the abstract alone.
+- **Who would be interested in the results, and why** Researchers in functional genomics, comparative genomics, and animal genetics, particularly those working on non-model species where experimental chromatin data are scarce. The work could also interest computational biologists developing transfer learning approaches for regulatory genomics, and consortiums such as FAANG seeking cost-effective annotation strategies.
+- **Major strengths** The study addresses a practical and timely problem: extending regulatory annotations to non-model species without extensive experimental resources. The use of multiple established neural network architectures and evaluation against FAANG experimental data is a reasonable approach. The inclusion of a fish species (European seabass) provides a useful evolutionary contrast, and the focus on non-conserved sequences is a relevant and often overlooked aspect.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that human-trained neural networks can accurately infer chromatin annotations in cattle, pig, chicken, and European seabass, with AUC-PR values ranging from 0.663 to 0.765 for the best predicted experiment (H3K4me3) in mammals and chicken, but lower in fish.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports only a single metric (AUC-PR) for one histone mark (H3K4me3) across species, with no information on the variability across other annotation types (e.g., transcription factor binding, chromatin accessibility) or across tissues. The performance for fish is notably lower (AUC-PR 0.238), yet the abstract does not explain why this is acceptable or how it affects the overall claim. Without a comprehensive breakdown of performance across all annotations and species, the claim of "accurate predictions" is not substantiated.
+  - **Why it matters** The central claim of the study is that these models are broadly useful for cross-species annotation. If performance is only acceptable for a subset of marks and species, the practical utility is limited. The abstract must provide a complete performance profile to allow readers to judge the scope of applicability.
+  - **Resolution test** Provide a full table or figure showing AUC-ROC and AUC-PR for all annotations, tissues, and species, with confidence intervals. Clearly state which combinations meet a predefined performance threshold and discuss the implications for the fish results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that predictions are accurate even for non-conserved sequences in pigs.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The definition of "non-conserved sequences" is not provided. It is unclear whether this refers to sequences with low sequence identity, absence of orthologous alignment, or some other criterion. Moreover, the abstract does not describe how accuracy was measured for this subset, nor how it compares to conserved sequences. Without this context, the claim is ambiguous and cannot be evaluated.
+  - **Why it matters** The ability to predict function in non-conserved regions is a key differentiator from conservation-based methods, and is central to the novelty of the study. If the definition and validation are not rigorous, the claim loses its impact.
+  - **Resolution test** Define the criteria for non-conserved sequences, describe the validation approach, and provide comparative performance metrics for conserved versus non-conserved regions, ideally with statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors used three neural networks (DeepBind, DeepSEA, Enformer) trained with human and mouse ENCODE data.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how these models were adapted for cross-species prediction. For example, were the models used as-is with human reference genome coordinates, or were they retrained or fine-tuned? How were input sequences (e.g., length, genomic context) handled for each species? How were predictions mapped to FAANG experimental peaks? These details are essential for reproducibility.
+  - **Why it matters** Without a clear description of the computational pipeline, other researchers cannot replicate or build upon the work. The choice of model and input representation directly affects performance and interpretability.
+  - **Resolution test** Provide a detailed methods section describing model inputs, sequence processing, prediction generation, and peak-to-prediction matching, along with code availability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report "low variability between tissues" and "similar performances for various annotations in mammals and chicken."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not report the statistical methods used to assess variability or similarity. No confidence intervals, standard deviations, or significance tests are mentioned for these comparisons. The single reported standard error (e.g., 0.010 for chicken) is insufficient to support claims of low variability across tissues and annotations.
+  - **Why it matters** Claims about consistency across tissues and annotations are important for generalizability. Without statistical support, these claims are anecdotal.
+  - **Resolution test** Include statistical analyses (e.g., ANOVA, mixed-effects models) comparing performance across tissues and annotations, with effect sizes and confidence intervals.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "accurate predictions" is used without a defined threshold for accuracy. The reported AUC-PR values (0.663 to 0.765) may be considered moderate, not high, depending on the field standard.
+  - **Required correction** Define what constitutes "accurate" in the context of this study, and discuss the performance relative to existing benchmarks or expectations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Species selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not justify the choice of the four species (cattle, pig, chicken, European seabass) beyond noting they are domesticated or farmed. The evolutionary distance between these species and human/mouse is not discussed.
+  - **Required correction** Briefly explain the rationale for species selection, including evolutionary relationships and data availability, to contextualize the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Fish performance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The lower performance in fish (AUC-PR 0.238) is reported but not interpreted. It is unclear whether this is due to evolutionary distance, data quality, or technical issues.
+  - **Required correction** Provide a brief discussion of potential reasons for the fish results and their implications for the generalizability of the approach.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete performance reporting), R1-M2 (undefined non-conserved sequences), R1-M3 (lack of methodological detail), R1-M4 (insufficient statistical support)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The idea of using human-trained models for cross-species annotation is not entirely novel, as transfer learning in genomics is an active area. However, the systematic evaluation across multiple species and annotations may offer a useful contribution. The abstract does not clearly differentiate this work from prior studies.
+  - **Scientific importance** The potential to reduce experimental costs for non-model species is significant, but the abstract does not demonstrate a clear advance over existing methods or provide a compelling use case. The moderate performance and poor fish results limit the perceived impact.
+  - **Interdisciplinary readership** The work bridges computational biology and animal genomics, which could attract readers from both fields. However, the abstract is written in a specialized manner that may not be accessible to a broader audience.
+  - **Technical soundness** The approach is reasonable, but the abstract lacks sufficient detail to assess the rigor of the evaluation. The incomplete reporting of metrics and undefined terms are major weaknesses.
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with ENCODE, FAANG, and deep learning models. It does not explain the significance of the findings in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible idea but lacks the necessary detail and comprehensive evidence to support the claims. If the full manuscript addresses the technical concerns, particularly the performance breakdown, definition of non-conserved sequences, and methodological transparency, the work could be considered for publication in a specialized journal. However, based on the abstract alone, the case is not convincing.
+
+## Risk / unsupported claims
+- The claim that human-trained neural networks can serve as a "first step" in cross-species annotation is not supported by the abstract, as no comparison to alternative methods (e.g., conservation-based approaches) is provided.
+- The claim of "accurate predictions" for non-conserved sequences is unsupported due to the undefined term and lack of comparative data.
+- The claim of "low variability between tissues" is unsupported without statistical evidence.
+- The generalizability of the approach to fish is questionable given the low AUC-PR, but the abstract does not address this limitation.

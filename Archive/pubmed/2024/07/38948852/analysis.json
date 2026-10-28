@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38948852",
+  "title": "Single-cell multi-omics analysis reveals cooperative transcription factors for gene regulation in oligodendrocytes.",
+  "authors": "Choi, Jerome J; Svaren, John; Wang, Daifeng",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-07-01",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文整合单细胞多组学数据与深度学习模型，预测少突胶质细胞中协同转录因子对靶基因表达的调控，虽聚焦TF-DNA共结合与调控机制，但主要基于序列与表达统计，缺乏三维互作建模或分子模拟，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Oligodendrocytes are the myelinating cells within the central nervous system. Many oligodendrocyte genes have been associated with brain disorders. However, how transcription factors (TFs) cooperate for gene regulation in oligodendrocytes remains largely uncharacterized. To address this, we integrated scRNA-seq and scATAC-seq data to identify the cooperative TFs that co-regulate the target gene (TG) expression in oligodendrocytes. First, we identified co- binding TF pairs whose binding sites overlapped in oligodendrocyte-specific regulatory regions. Second, we trained a deep learning model to predict the expression level of each TG using the expression levels of co-binding TFs. Third, using the trained models, we computed the TF importance and TF-TF interaction scores for predicting TG expression by the Shapley interaction scores. We found that the co-binding TF pairs involving known important TF pairs for oligodendrocyte differentiation, such as SOX10-TCF12, SOX10-MYRF, and SOX10-OLIG2, exhibited significantly higher Shapley scores than others (t-test, p-value < 1e-4). Furthermore, we identified 153 oligodendrocyte-associated eQTLs that reside in oligodendrocyte-specific enhancers or promoters where their eGenes (TGs) are regulated by cooperative TFs, suggesting potential novel regulatory roles from genetic variants. We also experimentally validated some identified TF pairs such as SOX10-OLIG2 and SOX10-NKX2.2 by co-enrichment analysis, using ChIP-seq data from rat peripheral nerve.",
+  "abstract_zh": "少突胶质细胞是中枢神经系统内的髓鞘形成细胞。许多少突胶质细胞基因与脑部疾病相关联。然而，转录因子（TFs）在少突胶质细胞中如何协同调控基因表达仍 largely 未被表征。为解决此问题，我们整合了 scRNA-seq 和 scATAC-seq 数据，以识别在少突胶质细胞中共同调控靶基因（TG）表达的协同转录因子。首先，我们识别了在少突胶质细胞特异性调控区域中结合位点重叠的共结合转录因子对。其次，我们训练了一个深度学习模型，利用共结合转录因子的表达水平预测每个靶基因的表达水平。第三，利用训练好的模型，我们通过 Shapley 交互得分计算了预测靶基因表达时的转录因子重要性和转录因子-转录因子交互得分。我们发现，涉及已知对少突胶质细胞分化重要的转录因子对（如 SOX10-TCF12、SOX10-MYRF 和 SOX10-OLIG2）的共结合转录因子对，其 Shapley 得分显著高于其他对（t检验，p值 < 1e-4）。此外，我们识别了153个与少突胶质细胞相关的 eQTL，这些 eQTL 位于少突胶质细胞特异性增强子或启动子中，其 eGenes（靶基因）受协同转录因子调控，提示遗传变异可能具有新的调控作用。我们还通过大鼠周围神经的 ChIP-seq 数据，利用共富集分析实验验证了部分识别的转录因子对，如 SOX10-OLIG2 和 SOX10-NKX2.2。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38948852/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38948852/",
+  "paper_page_path": "papers/pubmed/38948852/index.html"
+}

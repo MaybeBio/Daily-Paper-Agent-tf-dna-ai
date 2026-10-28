@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42636032",
+  "title": "miRSiC: a regulatory-aware machine learning framework for microRNA expression inference across bulk and single-cell transcriptomes.",
+  "authors": "Chen, Guan-Ting; Liang, Lei-Chen; Tang, Yun; Chen, Yu-Chen; Chow, Chi-Nga; Widjaya, Michael Anekson; Huang, Wei-Chih; Lee, Tzong-Yi",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-08-24",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习框架整合TF与靶基因推断miRNA表达，虽涉及TF但核心是miRNA表达预测而非TF-DNA结合互作建模，方法为梯度提升机而非AI/物理模拟，与课题关联较弱。",
+  "abstract": "MicroRNAs (miRNAs) are key post-transcriptional regulators embedded in gene regulatory networks between upstream transcription factors (TFs) and downstream target genes (TGs), yet most computational approaches infer miRNA expression using unstructured transcriptomic features without explicitly modeling their regulatory architecture. In this study, we develop miRSiC, an interpretable machine learning framework that integrates TFs and experimentally validated TGs for regulatory-aware miRNA expression inference. miRSiC formulates prediction as miRNA-specific regression tasks and evaluates three regulatory configurations (TF-only, TG-only, and combined TF-TG) using Light Gradient Boosting Machine. Applied to The Cancer Genome Atlas (TCGA) breast cancer cohort, the integrated model achieves superior performance (mean Spearman correlation = 0.5462 across 326 miRNAs), outperforming single-layer models and demonstrating the effectiveness of incorporating both upstream and downstream regulatory signals. Feature importance analysis and regulatory network reconstruction show that selected features are enriched in biologically coherent TF-miRNA-target circuits. Prediction performance varies across breast cancer subtypes, reflecting differences in regulatory patterns and sample size. Cross-platform evaluation further reveals that models trained on bulk transcriptomes do not generalize to single-cell data due to distributional shifts and sparsity; however, domain-specific retraining partially restores performance. Together, miRSiC provides an interpretable and biologically grounded framework for miRNA expression inference, highlighting the importance of modeling regulatory context and adopting domain-aware strategies across bulk and single-cell transcriptomic data.",
+  "abstract_zh": "MicroRNAs（miRNAs）是嵌入在基因调控网络中的关键转录后调控因子，位于上游转录因子（TFs）与下游靶基因（TGs）之间，然而大多数计算方法使用非结构化的转录组特征来推断miRNA表达，而未显式建模其调控架构。在本研究中，我们开发了miRSiC，一个可解释的机器学习框架，整合TFs和实验验证的TGs，用于调控感知的miRNA表达推断。miRSiC将预测表述为miRNA特异性回归任务，并使用Light Gradient Boosting Machine评估三种调控配置（仅TF、仅TG以及组合TF-TG）。应用于癌症基因组图谱（TCGA）乳腺癌队列时，集成模型实现了优越性能（326个miRNAs的平均Spearman相关系数 = 0.5462），优于单层模型，并展示了整合上游和下游调控信号的有效性。特征重要性分析和调控网络重建表明，所选特征富集于生物学上连贯的TF-miRNA-靶标回路中。预测性能在乳腺癌亚型间存在差异，反映了调控模式和样本量的不同。跨平台评估进一步揭示，基于批量转录组训练的模型由于分布偏移和稀疏性无法泛化到单细胞数据；然而，领域特异性重训练部分恢复了性能。总体而言，miRSiC为miRNA表达推断提供了一个可解释且生物学基础的框架，强调了建模调控背景以及在批量与单细胞转录组数据中采用领域感知策略的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42636032/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42636032/",
+  "paper_page_path": "papers/pubmed/42636032/index.html"
+}

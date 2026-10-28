@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "41518421",
+    "doi": "10.1007/s10495-025-02201-1",
+    "title": "Cell death-associated genes as novel diagnostic biomarkers for autism spectrum disorder."
+  },
+  "content": {
+    "abstract": "Autism spectrum disorder (ASD) involves neuroinflammation and dysregulated neuronal death but lacks objective diagnostic biomarkers. This study investigated whether cell death could serve as a molecular basis for ASD diagnosis. We identified cell death-associated genes (CDGs) in peripheral blood mononuclear cells between ASD and control groups and performed functional enrichment, protein-protein interaction, immune characteristics, and non-negative matrix factorization clustering analyses. Key genes were further selected using 6 machine learning algorithms and weighted gene co-expression network analysis to construct a diagnostic model, which was subsequently validated using external human blood samples and mice prefrontal cortex samples. We explored microRNAs (miRNAs), transcription factors (TFs), and drugs potentially interacted with the key genes. Fourteen CDGs and 4 out of 22 types of immune cells were differentially expressed between ASD and controls in GSE18123. These genes were enriched in pathways such as neuron apoptosis and RAGE receptor binding. Among 6 machine learning models, K-Nearest Neighbors (KNN) model exhibited the best performance. Six key genes were selected as the most important hub genes and used to construct the diagnostic model. The model showed AUCs of 0.722 in GSE42133, 0.781 in our local samples, and 0.889 in mice prefrontal cortex samples. A total of 172 miRNAs, 111 TFs, and 98 drugs were found to interact with these key genes. The expression patterns of CDGs in the peripheral blood of children with ASD demonstrate potential diagnostic value. Further studies are warranted to validate their diagnostic performance in real-world settings and to elucidate the role of cell death dysregulation in ASD.",
+    "keywords": [
+      "Autism spectrum disorder",
+      "Cell death",
+      "Diagnostic biomarkers",
+      "Immune cells",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Autism Spectrum Disorder/genetics/diagnosis",
+      "Animals",
+      "*Biomarkers/metabolism",
+      "Mice",
+      "Machine Learning",
+      "*Cell Death/genetics",
+      "MicroRNAs/genetics",
+      "Prefrontal Cortex/metabolism",
+      "Gene Expression Profiling",
+      "Leukocytes, Mononuclear/metabolism",
+      "Gene Regulatory Networks",
+      "Transcription Factors/genetics",
+      "Protein Interaction Maps/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Chanhua",
+        "Wei, Lijuan",
+        "Chen, Wanling",
+        "Ran, Guanghui",
+        "Liu, Lili",
+        "Li, Zhongyi",
+        "Song, Anhua",
+        "Liu, Meiliang",
+        "Huang, Dongping",
+        "Tang, Kun",
+        "Zeng, Xiaoyun",
+        "Wang, Lijun"
+      ],
+      "short_names": [
+        "Li C",
+        "Wei L",
+        "Chen W",
+        "Ran G",
+        "Liu L",
+        "Li Z",
+        "Song A",
+        "Liu M",
+        "Huang D",
+        "Tang K",
+        "Zeng X",
+        "Wang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "School of Public Health, Fudan University, Shanghai, 200032, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+        "Department of Health Management Center, The Affiliated Hospital of Guizhou Medical University, Guizhou, 550004, People's Republic of China.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China. zengxiaoyun@gxmu.edu.cn.",
+        "Department of Epidemiology and Health Statistics, School of Public Health, Guilin Medical University, No. 1 Zhiyuan Road, Lingui District, Guilin, Guangxi, People's Republic of China. zengxiaoyun@gxmu.edu.cn.",
+        "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China. wanglj1003@163.com.",
+        "Guangxi Academy of Artificial Intelligence, Nanning, 530028, Guangxi, People's Republic of China. wanglj1003@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Chanhua",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China.",
+          "School of Public Health, Fudan University, Shanghai, 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wei, Lijuan",
+        "short_name": "Wei L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wanling",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ran, Guanghui",
+        "short_name": "Ran G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lili",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhongyi",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Song, Anhua",
+        "short_name": "Song A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Meiliang",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Dongping",
+        "short_name": "Huang D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tang, Kun",
+        "short_name": "Tang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Management Center, The Affiliated Hospital of Guizhou Medical University, Guizhou, 550004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xiaoyun",
+        "short_name": "Zeng X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China. zengxiaoyun@gxmu.edu.cn.",
+          "Department of Epidemiology and Health Statistics, School of Public Health, Guilin Medical University, No. 1 Zhiyuan Road, Lingui District, Guilin, Guangxi, People's Republic of China. zengxiaoyun@gxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Lijun",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Guangxi Medical University, Nanning, 530021, Guangxi, People's Republic of China. wanglj1003@163.com.",
+          "Guangxi Academy of Artificial Intelligence, Nanning, 530028, Guangxi, People's Republic of China. wanglj1003@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Apoptosis : an international journal on programmed cell death"
+    ],
+    "journal_abbrev": [
+      "Apoptosis"
+    ],
+    "pub_date": "2026 Jan 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 22:40",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40324316",
+      "40000636",
+      "39929794",
+      "39795880",
+      "39720978",
+      "39670220",
+      "39394418",
+      "39388260",
+      "39347996",
+      "39255796",
+      "39223276",
+      "39029225",
+      "38704490",
+      "38640981",
+      "38434761",
+      "38404827",
+      "38357597",
+      "38129399",
+      "38057668",
+      "38041172",
+      "37958711",
+      "37779243",
+      "37314251",
+      "37168851",
+      "36952289",
+      "36893798",
+      "36878698",
+      "36625807",
+      "36475375",
+      "36327957",
+      "35741014",
+      "35654973",
+      "34356596",
+      "34346193",
+      "33441539",
+      "33304240",
+      "32941527",
+      "32320719",
+      "30244604",
+      "30078460",
+      "29761862",
+      "29106804",
+      "27565654",
+      "26785857",
+      "26430170",
+      "26169624",
+      "25979194",
+      "25891007",
+      "25822800",
+      "24798024",
+      "24074734",
+      "23471806",
+      "23254930",
+      "21263444",
+      "19896929",
+      "19766327",
+      "16401547",
+      "16311508",
+      "10688892"
+    ],
+    "similar": [
+      "41518421",
+      "42098401",
+      "41010054",
+      "38594551",
+      "37478258",
+      "37776011",
+      "41006883",
+      "40680984",
+      "40526590",
+      "26753090",
+      "40830558",
+      "38863714",
+      "42424309",
+      "40196107",
+      "41902830",
+      "39657846",
+      "28000768",
+      "40860289",
+      "41432483",
+      "41299729",
+      "40901831",
+      "27105825",
+      "39427832",
+      "41316541",
+      "41305792",
+      "42313235",
+      "40421012",
+      "42015036",
+      "40227316",
+      "42292668",
+      "38057311",
+      "41102315",
+      "40076668",
+      "39953122",
+      "41291841",
+      "41733593",
+      "29686828",
+      "42305270",
+      "37168851",
+      "36899621",
+      "39391879",
+      "37592184",
+      "38007751",
+      "42123445",
+      "40552285",
+      "41044520",
+      "38987624",
+      "39556279",
+      "41789070",
+      "40594252",
+      "38902567",
+      "42274933",
+      "40923924",
+      "42193417",
+      "41052072",
+      "40969769",
+      "41665627",
+      "36761165",
+      "40362669",
+      "39574022",
+      "40782934",
+      "42233387",
+      "33054850",
+      "40973872",
+      "41080564",
+      "39496786",
+      "40467768",
+      "41533020",
+      "41826854",
+      "40532306",
+      "40742465",
+      "34947998",
+      "39069636",
+      "41196851",
+      "41310008",
+      "40119934",
+      "41913032",
+      "41214111",
+      "40598145",
+      "39853851",
+      "39062507",
+      "39139563",
+      "41116042",
+      "34427843",
+      "41898708",
+      "40406126",
+      "41878449",
+      "42436356",
+      "39636891",
+      "41340627",
+      "41203451",
+      "41779288",
+      "40374866",
+      "42265520",
+      "41300749",
+      "41265166",
+      "39859496",
+      "40844515",
+      "36691005",
+      "41790636"
+    ],
+    "review": [
+      "41518421",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10495-025-02201-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "40596187",
+    "doi": "10.1038/s41598-025-05107-9",
+    "title": "Machine learning unveils hypoxia-immune gene hub for clinical stratification of thyroid-associated ophthalmopathy."
+  },
+  "content": {
+    "abstract": "Thyroid-associated ophthalmopathy (TAO) is an autoimmune disorder affecting the orbit, potentially resulting in blindness. This study focused on the role of hypoxia in its pathogenesis through integrative bioinformatics and experimental validation. Five differentially expressed genes associated with hypoxia (HRDEGs) were identified via Gene Expression Omnibus (GEO) database mining: AGO2, CP, DIO3, PSMD14, WTIP. qPCR and immunohistochemistry confirmed reduced expressions of AGO2 and PSMD14, and elevated expression of DIO3 in TAO orbital tissues. Hypoxia exposure aggravated the above dysregulation and promoted proliferation and adipogenesis of orbital fibroblasts. A predictive model was developed using four machine learning algorithms and validated for its effectiveness in diagnosing TAO and assessing disease severity. Functional enrichment revealed hypoxia response, apoptosis, and programmed cell death. Protein-protein interaction and mRNA interaction networks of HRDEGs were established, predicting transcription factors, microRNAs, RNA-binding proteins, and drugs interacting with them. Immune infiltration analysis demonstrated the accumulation of Type 17 T helper cells and CD56 dim natural killer cells in high-risk patients, correlating with DIO3 upregulation and AGO2 downregulation. Flow cytometry confirmed the enrichment of these two cell types in the orbital tissue of TAO. This study revealed hypoxia-immunity crosstalk in TAO pathogenesis, providing a validated predictive model and molecular targets for precision interventions.",
+    "keywords": [
+      "Hypoxia",
+      "Immune microenvironment",
+      "Predictive model",
+      "Thyroid-associated ophthalmopathy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Graves Ophthalmopathy/genetics/immunology/diagnosis/pathology/metabolism",
+      "*Machine Learning",
+      "*Hypoxia/genetics/immunology",
+      "Computational Biology/methods",
+      "Protein Interaction Maps",
+      "Gene Regulatory Networks",
+      "Fibroblasts/metabolism",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Lu",
+        "Wang, Sha",
+        "Wang, Jinwei",
+        "Xu, Bei",
+        "Tan, Jia",
+        "Xia, Xiaobo"
+      ],
+      "short_names": [
+        "Chen L",
+        "Wang S",
+        "Wang J",
+        "Xu B",
+        "Tan J",
+        "Xia X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+        "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+        "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+        "Hunan Provincial Key Laboratory of Micro & Nano Materials Interface Science, College of Chemistry and Chemical Engineering, Central South University, No. 932 Lushan Road South, Changsha, 410083, Hunan, People's Republic of China.",
+        "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+        "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+        "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+        "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+        "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+        "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+        "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+        "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+        "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+        "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China. tanjiaxy@csu.edu.cn.",
+        "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China. tanjiaxy@csu.edu.cn.",
+        "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China. tanjiaxy@csu.edu.cn.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China. tanjiaxy@csu.edu.cn.",
+        "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China. xbxia21@csu.edu.cn.",
+        "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China. xbxia21@csu.edu.cn.",
+        "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China. xbxia21@csu.edu.cn.",
+        "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China. xbxia21@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Lu",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+          "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+          "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+          "Hunan Provincial Key Laboratory of Micro & Nano Materials Interface Science, College of Chemistry and Chemical Engineering, Central South University, No. 932 Lushan Road South, Changsha, 410083, Hunan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Sha",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+          "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+          "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinwei",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+          "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+          "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Bei",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China.",
+          "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+          "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tan, Jia",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China. tanjiaxy@csu.edu.cn.",
+          "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China. tanjiaxy@csu.edu.cn.",
+          "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China. tanjiaxy@csu.edu.cn.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China. tanjiaxy@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xia, Xiaobo",
+        "short_name": "Xia X",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center of Xiangya Hospital, Central South University, Changsha, 410008, Hunan, People's Republic of China. xbxia21@csu.edu.cn.",
+          "Hunan Key Laboratory of Ophthalmology, Changsha, 410008, Hunan, People's Republic of China. xbxia21@csu.edu.cn.",
+          "National clinical key specialty of ophthalmology, Changsha, 410008, Hunan, People's Republic of China. xbxia21@csu.edu.cn.",
+          "National Clinical Research Center for Geriatric Diseases (Xiangya Hospital), Central South University, Changsha, 410008, Hunan, People's Republic of China. xbxia21@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "41949380",
+      "41287009"
+    ],
+    "refs": [
+      "37900130",
+      "37714438",
+      "37324526",
+      "36626225",
+      "36624983",
+      "36477465",
+      "36172114",
+      "36081502",
+      "36076300",
+      "36056316",
+      "35798726",
+      "35482475",
+      "35269789",
+      "35244921",
+      "34976024",
+      "34949642",
+      "34518544",
+      "34297684",
+      "34194423",
+      "33933107",
+      "33828270",
+      "33717125",
+      "33657886",
+      "33496820",
+      "33384961",
+      "32977740",
+      "32887635",
+      "32848140",
+      "32691849",
+      "32567373",
+      "32059832",
+      "31443682",
+      "31268042",
+      "30531993",
+      "30517642",
+      "30453885",
+      "30407594",
+      "30241973",
+      "30034909",
+      "29370910",
+      "29256262",
+      "28975236",
+      "28938397",
+      "27610652",
+      "27322403",
+      "26371757",
+      "25822800",
+      "25605792",
+      "23946285",
+      "23712003",
+      "23323831",
+      "23193258",
+      "22963171",
+      "22257669",
+      "21142817",
+      "20736804",
+      "20439288",
+      "17496320",
+      "16199517"
+    ],
+    "similar": [
+      "40596187",
+      "39735537",
+      "40211281",
+      "40139511",
+      "37059863",
+      "30517642",
+      "36056316",
+      "25342622",
+      "39410849",
+      "41287009",
+      "41001730",
+      "25873777",
+      "39660984",
+      "37900130",
+      "38130930",
+      "29214313",
+      "23633206",
+      "35619700",
+      "32376473",
+      "27832278",
+      "32057773",
+      "38849907",
+      "34269815",
+      "19880789",
+      "40340927",
+      "32991886",
+      "33383445",
+      "37331977",
+      "39746275",
+      "23219871",
+      "22736938",
+      "19117935",
+      "33886620",
+      "33988300",
+      "31899052",
+      "34235979",
+      "40901474",
+      "35273577",
+      "40799650",
+      "39512836",
+      "37021001",
+      "41062012",
+      "26872324",
+      "17243294",
+      "29974826",
+      "33658982",
+      "31268042",
+      "39693285",
+      "41044520",
+      "40496861",
+      "23092922",
+      "36172114",
+      "33086191",
+      "40215267",
+      "22517745",
+      "30445529",
+      "27224264",
+      "32919017",
+      "40997906",
+      "17294742",
+      "33613444",
+      "22007486",
+      "39230867",
+      "37176063",
+      "30388216",
+      "40997970",
+      "39909461",
+      "40196107",
+      "24651704",
+      "26943153",
+      "33693700",
+      "22399514",
+      "40544935",
+      "38863714",
+      "32567373",
+      "32968816",
+      "40736178",
+      "38536014",
+      "30090014",
+      "36465658",
+      "38851464",
+      "35896115",
+      "24743332",
+      "36409215",
+      "40884580",
+      "37875358",
+      "40824461",
+      "19897675",
+      "33076782",
+      "18245903",
+      "36914000",
+      "30531993",
+      "38867076",
+      "23664858",
+      "40853309",
+      "41444522",
+      "26444724",
+      "39586719",
+      "22650026",
+      "21209948"
+    ],
+    "review": [
+      "40596187",
+      "30445529",
+      "39909461",
+      "24651704",
+      "32567373"
+    ],
+    "pmc": [
+      "12214582"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-05107-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40596187/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NCAM1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

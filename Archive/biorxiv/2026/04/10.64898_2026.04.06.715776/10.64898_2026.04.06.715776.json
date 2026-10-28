@@ -1,0 +1,995 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.06.715776",
+  "title": "PI(4,5)P <sub>2</sub> -dependence of GABA <sub>A</sub> receptor channel function revealed by optogenetic manipulation of a binding site",
+  "doi": "10.64898/2026.04.06.715776",
+  "abstract": "/SUMMARY Ionotropic GABA A receptors (GABA A Rs) mediate fast inhibitory neurotransmission in mammalian brains. While recent structural studies have identified that phosphatidylinositol 4,5-bisphosphate [PI(4,5)P 2 ], a well-established regulator of numerous ion channels, binds to the α1 subunits of GABA A Rs, the functional relevance of this binding has remained elusive. Here, we combine electrophysiology, molecular dynamics simulations, and a recently developed caged lysine technology to define the role of PI(4,5)P 2 in GABA A Rs. We show that GABA A Rs are insensitive to acute PI(4,5)P 2 depletions by voltage-sensing phosphatase, but sensitivity is conferred by neutralizing the K311 binding site, indicating high-affinity binding. Caging of K311 by use of genetic code expansion recapitulated phenotypes of K311 mutant, conferring sensitivity to PI(4,5)P 2 depletion, whereas uncaging restored insensitivity. Furthermore, caging K311 revealed decelerated activation, which then can be accelerated by uncaging. Additionally, PI(4,5)P 2 -dependence extends to glycine receptors, suggesting PI(4,5)P 2 is an important endogenous phospholipid modulator of inhibitory receptor channels.",
+  "authors": [
+    "Risa Mori-Kreiner",
+    "Rizki Tsari Andriani",
+    "Tobias Strasdeit",
+    "Junxian Zhou",
+    "Naoyuki Miyashita",
+    "Yasushige Yonezawa",
+    "Takafumi Kawai",
+    "Nikolaj Klöcker",
+    "Yasushi Okamura"
+  ],
+  "published_date": "2026-04-08",
+  "updated_date": "2026-04-08T10:25:15Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.06.715776",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.06.715776.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T09:28:19Z",
+        "timestamp": 1785403699436,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            8
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 77,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                8
+              ]
+            ],
+            "date-time": "2026-04-08T00:00:00Z",
+            "timestamp": 1775606400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "JP24KJ1563"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP24KJ1563"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "JP22KF0249"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP22KF0249"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "JP22F22384"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP22F22384"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "25K02442"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "25K02442"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "22H02804"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22H02804"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "21K19350"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "21K19350"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00hhkn466",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002241",
+          "name": "Japan Science and Technology Agency",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "MJFR225Z"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MJFR225Z"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002241",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001700",
+          "name": "Ministry of Education, Culture, Sports, Science and Technology",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "15H05901"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "15H05901"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001700",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001700",
+          "name": "Ministry of Education, Culture, Sports, Science and Technology",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "20H05791"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "20H05791"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001700",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001700",
+          "name": "Ministry of Education, Culture, Sports, Science and Technology",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "25H01334"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "25H01334"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001700",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/02y2f3e22",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/00ma7c320",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT/SUMMARY</jats:title>\n                <jats:p>\n                  Ionotropic GABA\n                  <jats:sub>A</jats:sub>\n                  receptors (GABA\n                  <jats:sub>A</jats:sub>\n                  Rs) mediate fast inhibitory neurotransmission in mammalian brains. While recent structural studies have identified that phosphatidylinositol 4,5-bisphosphate [PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  ], a well-established regulator of numerous ion channels, binds to the α1 subunits of GABA\n                  <jats:sub>A</jats:sub>\n                  Rs, the functional relevance of this binding has remained elusive. Here, we combine electrophysiology, molecular dynamics simulations, and a recently developed caged lysine technology to define the role of PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  in GABA\n                  <jats:sub>A</jats:sub>\n                  Rs. We show that GABA\n                  <jats:sub>A</jats:sub>\n                  Rs are insensitive to acute PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  depletions by voltage-sensing phosphatase, but sensitivity is conferred by neutralizing the K311 binding site, indicating high-affinity binding. Caging of K311 by use of genetic code expansion recapitulated phenotypes of K311 mutant, conferring sensitivity to PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  depletion, whereas uncaging restored insensitivity. Furthermore, caging K311 revealed decelerated activation, which then can be accelerated by uncaging. Additionally, PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  -dependence extends to glycine receptors, suggesting PI(4,5)P\n                  <jats:sub>2</jats:sub>\n                  is an important endogenous phospholipid modulator of inhibitory receptor channels.\n                </jats:p>",
+      "DOI": "10.64898/2026.04.06.715776",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            8
+          ]
+        ],
+        "date-time": "2026-04-08T10:25:15Z",
+        "timestamp": 1775643915000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "PI(4,5)P\n                  <sub>2</sub>\n                  -dependence of GABA\n                  <sub>A</sub>\n                  receptor channel function revealed by optogenetic manipulation of a binding site"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Risa",
+          "family": "Mori-Kreiner",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratory of Integrative Physiology, Department of Physiology, Graduate School of Medicine, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            },
+            {
+              "name": "Laboratory of Integrative Physiology, Premium Research Institute for Human Metaverse Medicine, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rizki Tsari",
+          "family": "Andriani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Integrative Physiology, Department of Physiology, Graduate School of Medicine, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tobias",
+          "family": "Strasdeit",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Neuro- and Sensory Physiology, Medical Faculty, Heinrich Heine University, University Hospital Düsseldorf, 40225 Düsseldorf, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junxian",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Integrative Physiology, Department of Physiology, Graduate School of Medicine, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Naoyuki",
+          "family": "Miyashita",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computational Systems Biology, Faculty of Biology-Oriented Science and Technology, Kindai University, Kinokawa, Wakayama 649-6493, Japan"
+            },
+            {
+              "name": "Department of Biological System Engineering, Graduate School of Biology-Oriented Science and Technology, Kindai University, Kinokawa, Wakayama 649-6493, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yasushige",
+          "family": "Yonezawa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "High Pressure Protein Research Center, Institute of Advanced Technology, Kindai University, Kinokawa, Wakayama 649-6493, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Takafumi",
+          "family": "Kawai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Integrative Physiology, Department of Physiology, Graduate School of Medicine, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            },
+            {
+              "name": "Department of Molecular and Cellular Physiology, Graduate School of Medicine, Ehime University, Toon, Ehime 791-0295, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikolaj",
+          "family": "Klöcker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Neuro- and Sensory Physiology, Medical Faculty, Heinrich Heine University, University Hospital Düsseldorf, 40225 Düsseldorf, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yasushi",
+          "family": "Okamura",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Integrative Physiology, Department of Physiology, Graduate School of Medicine, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            },
+            {
+              "name": "Laboratory of Integrative Physiology, Premium Research Institute for Human Metaverse Medicine, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            },
+            {
+              "name": "Division of Integrative Physiology, Department of Physiology, Jichi Medical University, Shimotsuke, Tochigi 329-0498"
+            },
+            {
+              "name": "Global Center for Medical Engineering and Informatics, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.275.2.777"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.2",
+          "first-page": "3622",
+          "article-title": "Effects of lipids on acetylcholine receptor. Essential need of cholesterol for maintenance of agonist-induced state transitions in lipid vesicles",
+          "volume": "21",
+          "year": "2002",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0014-5793(80)80435-2"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00352a015"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0014-5793(80)80016-0"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.6",
+          "first-page": "814",
+          "article-title": "Recent Insight into Lipid Binding and Lipid Modulation of Pentameric Ligand-Gated Ion Channels",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Biomolecules 2022, Vol. 12, Page 814"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.7",
+          "first-page": "844",
+          "article-title": "Phosphoinositides regulate ion channels",
+          "volume": "1851",
+          "year": "2015",
+          "journal-title": "Biochim. Biophys. Acta Mol. Cell Biol. Lipids"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.conb.2005.05.005"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.37.032807.125859"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0833-4"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06556-w"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08454-1"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00213-014-3486-5"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0803936105"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature03650"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, J. et al. Optical control of PI(4,5)P2 sensitivity of ion channels by manipulation of single lysine residue. Journal of General Physiology (2025).",
+          "DOI": "10.1085/jgp.202513811"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "2886",
+          "DOI": "10.1021/acssynbio.1c00328",
+          "article-title": "Optical Control of Phosphoinositide Binding: Rapid Activation of Subcellular Protein Translocation and Cell Signaling",
+          "volume": "10",
+          "year": "2021",
+          "journal-title": "ACS Synth. Biol"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.mie.2019.04.004"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbapap.2014.03.002"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja5055862"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Davis, M. W. & Jorgensen, E. M. ApE, A Plasmid Editor: A Freely Available DNA Manipulation and Visualization Program. Frontiers in Bioinformatics 2, (2022).",
+          "DOI": "10.3389/fbinf.2022.818619"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00726-012-1456-y"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2500651122",
+          "DOI": "10.1073/pnas.2500651122",
+          "article-title": "Nonsubstrate PI(4,5)P2 interacts with the interdomain linker to control electrochemical coupling in voltage-sensing phosphatase (VSP)",
+          "volume": "122",
+          "year": "2025",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1167852"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/jn.1988.59.2.514"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.26",
+          "first-page": "e14156",
+          "article-title": "Distinct functional properties of two electrogenic isoforms of the SLC34 Na-Pi cotransporter",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "Physiol. Rep"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-021-04080-3"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/jn.1994.71.6.2151"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpbi.3"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20945"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00392a016"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hess, B. , Bekker, H. , Berendsen, H. J. C. & Fraaije, J. G. E. M . LINCS: A Linear Constraint Solver for Molecular Simulations. J Comput Chem 18, 14631472 (1997).",
+          "DOI": "10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.0.CO;2-H"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.540130805"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.45.1196"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.447334"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevA.31.1695"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.39",
+          "first-page": "19",
+          "article-title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+          "volume": "1–2",
+          "year": "2015",
+          "journal-title": "SoftwareX"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21787"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.25080/MAJORA-629E541A-00E"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1113/jphysiol.2007.134775"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2014520117"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M115.640409"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0236364100"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.258012"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0076-6879(98)93031-2"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.7716551"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0014-5793(01)02136-6"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1113/jphysiol.2007.147868"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2010.12.3724"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms3701"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.C110.186692"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.55",
+          "first-page": "71063",
+          "article-title": "Phosphoinositide regulation of inward rectifier potassium (Kir) channels",
+          "volume": "4",
+          "year": "2014",
+          "journal-title": "Front. Physiol"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.2533-13.2014"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/jn.00951.2002"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "eaeb0196",
+          "DOI": "10.1126/sciadv.aeb0196",
+          "article-title": "Claudin 24-A novel enhancer of AMPA receptor fidelity",
+          "volume": "12",
+          "year": "2026",
+          "journal-title": "Sci. Adv"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "475",
+          "DOI": "10.1016/S0026-895X(25)10020-5",
+          "article-title": "Formation of heteromeric gamma-aminobutyric acid type A receptors containing two different alpha subunits",
+          "volume": "45",
+          "year": "1994",
+          "journal-title": "Mol. Pharmacol"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1113/jphysiol.1995.sp021070"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.23-22-07981.2003"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0896-6273(94)90152-X"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(01)76101-2"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.brainres.2007.06.050"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13889-6"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.66",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jatczak-Śliwa, M. et al. Distinct modulation of spontaneous and GABA-evoked gating by flurazepam shapes cross-talk between agonist-free and liganded gabaa receptor activity. Front. Cell. Neurosci. 12, 389686 (2018).",
+          "DOI": "10.3389/fncel.2018.00237"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "562",
+          "DOI": "10.1021/acschemneuro.0c00781",
+          "article-title": "α1 Subunit Histidine 55 at the Interface between Extracellular and Transmembrane Domains Affects Preactivation and Desensitization of the GABAA Receptor",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "ACS Chem. Neurosci"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gielen, M. , Thomas, P. & Smart, T. G . The desensitization gate of inhibitory Cys-loop receptors. Nat. Commun. 6, (2015).",
+          "DOI": "10.1038/ncomms7829"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.09.29.679341"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ananchenko, A. , Gao, R. Y. , Dehez, F. & Baenziger, J. E . State-dependent binding of cholesterol and an anionic lipid to the muscle-type Torpedo nicotinic acetylcholine receptor. Commun. Biol. 7, (2024).",
+          "DOI": "10.1038/s42003-024-06106-8"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "183304",
+          "DOI": "10.1016/j.bbamem.2020.183304",
+          "article-title": "Structural basis for the modulation of pentameric ligand-gated ion channel function by lipids",
+          "volume": "1862",
+          "year": "2020",
+          "journal-title": "Biochimica et Biophysica Acta (BBA) - Biomembranes"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41589-019-0369-4"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Labouré, T. et al. Structures of the honeybee GABAA RDL receptor illuminate allosteric modulation. Neuron 0, (2026).",
+          "DOI": "10.1016/j.neuron.2025.12.013"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2013.01.027"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0832-5"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.76",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sente, A. et al. Differential assembly diversifies GABAA receptor structures and signalling. Nature 604, 190 (2022).",
+          "DOI": "10.1038/s41586-022-04517-3"
+        },
+        {
+          "key": "2026040909550472000_2026.04.06.715776v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00424-010-0828-y"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.06.715776",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2026-04-09T16:55:19Z",
+        "timestamp": 1775753719000
+      },
+      "score": 79.49223,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.06.715776"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            8
+          ]
+        ]
+      },
+      "references-count": 77,
+      "URL": "https://doi.org/10.64898/2026.04.06.715776",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

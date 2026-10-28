@@ -1,0 +1,558 @@
+{
+  "identity": {
+    "pmid": "33852312",
+    "doi": "10.1021/acs.jmedchem.0c01918",
+    "title": "Defining Target Engagement Required for Efficacy In Vivo at the Retinoic Acid Receptor-Related Orphan Receptor C2 (RORgammat)."
+  },
+  "content": {
+    "abstract": "The Th17 pathway has been implicated in autoimmune diseases. The retinoic acid receptor-related orphan receptor C2 (RORgammat) is a master regulator of Th17 cells and controls the expression of IL-17A. RORgammat is expressed primarily in IL-17A-producing lymphoid cells. Here we describe a virtual screen of the ligand-binding pocket and subsequent screen in a binding assay that identified the 1-benzyl-4',5'-dihydrospiro[piperidine-4,7'-thieno[2,3-c]pyran]-2'-carboxamide scaffold as a starting point for optimization of binding affinity and functional activity guided by structure-based design. Compound 12 demonstrated activity in a mouse PK/PD model and efficacy in an inflammatory arthritis mouse model that were used to define the level and duration of target engagement required for efficacy in vivo. Further optimization to improve ADME and physicochemical properties with guidance from simulations and modeling provided compound 22, which is projected to achieve the level and duration of target engagement required for efficacy in the clinic.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Arthritis/chemically induced/drug therapy/pathology",
+      "Binding Sites",
+      "Crystallography, X-Ray",
+      "Disease Models, Animal",
+      "Drug Design",
+      "Female",
+      "Half-Life",
+      "Humans",
+      "Interleukin-17/genetics/metabolism",
+      "Leukocytes, Mononuclear/cytology/drug effects/metabolism",
+      "*Ligands",
+      "Mice",
+      "Molecular Dynamics Simulation",
+      "Nuclear Receptor Subfamily 1, Group F, Member 3/chemistry/genetics/*metabolism",
+      "Protein Binding",
+      "Structure-Activity Relationship",
+      "Thiophenes/*chemistry/metabolism/pharmacology/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lugar, Charles W",
+        "Clarke, Christian A",
+        "Morphy, Richard",
+        "Rudyk, Helene",
+        "Sapmaz, Selma",
+        "Stites, Ryan E",
+        "Vaught, Grant M",
+        "Furness, Kelly",
+        "Broughton, Howard B",
+        "Durst, Greg L",
+        "Clawson, David K",
+        "Stout, Stephanie L",
+        "Guo, Sherry Y",
+        "Durbin, Jim D",
+        "Stayrook, Keith R",
+        "Edmondson, Denise D",
+        "Kikly, Kristy",
+        "New, Nicole E",
+        "Bina, Holly A",
+        "Chambers, Mark G",
+        "Shetler, Pamela",
+        "Chang, William Y",
+        "Chang, Veavi Ching-Yun",
+        "Barr, Rob",
+        "Gough, Wendy H",
+        "Steele, Jimmy P",
+        "Getman, Brian",
+        "Patel, Nita",
+        "Mathes, Brian M",
+        "Richardson, Timothy I"
+      ],
+      "short_names": [
+        "Lugar CW",
+        "Clarke CA",
+        "Morphy R",
+        "Rudyk H",
+        "Sapmaz S",
+        "Stites RE",
+        "Vaught GM",
+        "Furness K",
+        "Broughton HB",
+        "Durst GL",
+        "Clawson DK",
+        "Stout SL",
+        "Guo SY",
+        "Durbin JD",
+        "Stayrook KR",
+        "Edmondson DD",
+        "Kikly K",
+        "New NE",
+        "Bina HA",
+        "Chambers MG",
+        "Shetler P",
+        "Chang WY",
+        "Chang VC",
+        "Barr R",
+        "Gough WH",
+        "Steele JP",
+        "Getman B",
+        "Patel N",
+        "Mathes BM",
+        "Richardson TI"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6313-5859"
+      ],
+      "affiliations": [
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Biotechnology Center, Eli Lilly and Company, San Diego, California 92121, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States.",
+        "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lugar, Charles W",
+        "short_name": "Lugar CW",
+        "identifiers": [
+          "0000-0001-6313-5859"
+        ],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Clarke, Christian A",
+        "short_name": "Clarke CA",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Morphy, Richard",
+        "short_name": "Morphy R",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Rudyk, Helene",
+        "short_name": "Rudyk H",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Sapmaz, Selma",
+        "short_name": "Sapmaz S",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Stites, Ryan E",
+        "short_name": "Stites RE",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Vaught, Grant M",
+        "short_name": "Vaught GM",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Furness, Kelly",
+        "short_name": "Furness K",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Broughton, Howard B",
+        "short_name": "Broughton HB",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Durst, Greg L",
+        "short_name": "Durst GL",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Clawson, David K",
+        "short_name": "Clawson DK",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Stout, Stephanie L",
+        "short_name": "Stout SL",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Guo, Sherry Y",
+        "short_name": "Guo SY",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Durbin, Jim D",
+        "short_name": "Durbin JD",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Stayrook, Keith R",
+        "short_name": "Stayrook KR",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Edmondson, Denise D",
+        "short_name": "Edmondson DD",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Kikly, Kristy",
+        "short_name": "Kikly K",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "New, Nicole E",
+        "short_name": "New NE",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Bina, Holly A",
+        "short_name": "Bina HA",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Chambers, Mark G",
+        "short_name": "Chambers MG",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Shetler, Pamela",
+        "short_name": "Shetler P",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Chang, William Y",
+        "short_name": "Chang WY",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Biotechnology Center, Eli Lilly and Company, San Diego, California 92121, United States."
+        ]
+      },
+      {
+        "full_name": "Chang, Veavi Ching-Yun",
+        "short_name": "Chang VC",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Barr, Rob",
+        "short_name": "Barr R",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Gough, Wendy H",
+        "short_name": "Gough WH",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Steele, Jimmy P",
+        "short_name": "Steele JP",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Getman, Brian",
+        "short_name": "Getman B",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Patel, Nita",
+        "short_name": "Patel N",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Mathes, Brian M",
+        "short_name": "Mathes BM",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      },
+      {
+        "full_name": "Richardson, Timothy I",
+        "short_name": "Richardson TI",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, Indiana 46285, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2021 May 13",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/15 06:00",
+    "fetched_at": "2026-09-27 16:06:43"
+  },
+  "links": {
+    "cites": [
+      "37110655",
+      "35782874"
+    ],
+    "refs": [],
+    "similar": [
+      "33852312",
+      "30301676",
+      "29155882",
+      "28546429",
+      "24516202",
+      "30095900",
+      "32336498",
+      "30972071",
+      "27905482",
+      "29342416",
+      "26640126",
+      "24782182",
+      "31821760",
+      "32005415",
+      "30214937",
+      "32439807",
+      "26061388",
+      "31455731",
+      "27432277",
+      "27481185",
+      "25187413",
+      "29262987",
+      "30513894",
+      "28318945",
+      "29258712",
+      "25583575",
+      "29910804",
+      "26021566",
+      "31881455",
+      "26368822",
+      "25341687",
+      "31316175",
+      "34971876",
+      "33633027",
+      "30405600",
+      "29079472",
+      "27298563",
+      "31375639",
+      "25821221",
+      "29155646",
+      "30009847",
+      "26553345",
+      "21305677",
+      "29510038",
+      "31103264",
+      "25820779",
+      "28093217",
+      "31729873",
+      "28438638",
+      "33536342",
+      "25838550",
+      "27926504",
+      "32738966",
+      "24388993",
+      "27880975",
+      "28590087",
+      "29282318",
+      "18434325",
+      "27902884",
+      "33422603",
+      "20696023",
+      "24239186",
+      "26170390",
+      "25234817",
+      "25305688",
+      "25453817",
+      "29369782",
+      "23327801",
+      "30905492",
+      "25776919",
+      "32226427",
+      "26453305",
+      "32829384",
+      "16990136",
+      "30972425",
+      "31795780",
+      "31659845",
+      "33493627",
+      "21923716",
+      "29899748",
+      "31398661",
+      "32727079",
+      "22517000",
+      "28943467",
+      "26549310",
+      "27043267",
+      "34008974",
+      "24743018",
+      "30652849",
+      "29523162",
+      "34547329",
+      "33596047",
+      "23868508",
+      "34776280",
+      "32053744",
+      "36905917",
+      "32882417"
+    ],
+    "review": [
+      "33852312",
+      "27481185",
+      "32226427",
+      "29899748",
+      "32727079"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.bindingdb.org/rwd/jsp/dbsearch/PrimarySearch_pubmed.jsp?pubmed_submit=Search&pubmed=33852312",
+        "provider": "BindingDB",
+        "category": "Chemical Information",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1104",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/33852312",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33852312",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33852312",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.0c01918",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

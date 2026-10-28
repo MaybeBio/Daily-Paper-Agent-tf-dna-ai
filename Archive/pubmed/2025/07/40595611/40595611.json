@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "40595611",
+    "doi": "10.1038/s41467-025-61279-y",
+    "title": "Machine learning-assisted decoding of temporal transcriptional dynamics via fluorescent timer."
+  },
+  "content": {
+    "abstract": "Investigating the temporal dynamics of gene expression is crucial for understanding gene regulation across various biological processes. Using the Fluorescent Timer protein, the Timer-of-cell-kinetics-and-activity system enables analysis of transcriptional dynamics at the single-cell level. However, the complexity of Timer fluorescence data has limited its broader application. Here, we introduce an integrative approach combining molecular biology and machine learning to elucidate Foxp3 transcriptional dynamics through flow cytometric Timer analysis. We have developed a convolutional neural network-based method that incorporates image conversion and class-specific feature visualisation for class-specific feature identification at the single-cell level. Biologically, we developed a novel CRISPR mutant of Foxp3 fluorescent Timer reporter mice lacking the enhancer Conserved Non-coding Sequence 2, which revealed new roles of this enhancer in regulating Foxp3 transcription frequency under specific conditions. Furthermore, analysis of wild-type Foxp3 fluorescent Timer reporter mice at different ages uncovered distinct patterns of Foxp3 expression from neonatal to aged mice, highlighting prominent thymus-like features of neonatal splenic Foxp3(+) T cells. In conclusion, our study uncovers previously unrecognised Foxp3 transcriptional dynamics, establishing a proof-of-concept for integrating CRISPR, single-cell dynamics analysis, and machine learning methods as advanced techniques to understand transcriptional dynamics in vivo.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Machine Learning",
+      "*Forkhead Transcription Factors/genetics/metabolism",
+      "Mice",
+      "*Transcription, Genetic",
+      "Flow Cytometry/methods",
+      "Gene Expression Regulation",
+      "Mice, Inbred C57BL",
+      "Single-Cell Analysis/methods",
+      "Enhancer Elements, Genetic",
+      "T-Lymphocytes, Regulatory/metabolism",
+      "Genes, Reporter",
+      "Neural Networks, Computer",
+      "Spleen/metabolism/cytology",
+      "CRISPR-Cas Systems"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Irie, Nobuko",
+        "Takeda, Naoki",
+        "Satou, Yorifumi",
+        "Araki, Kimi",
+        "Ono, Masahiro"
+      ],
+      "short_names": [
+        "Irie N",
+        "Takeda N",
+        "Satou Y",
+        "Araki K",
+        "Ono M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1495-7810",
+        "ORCID: 0000-0002-1396-1527",
+        "ORCID: 0000-0002-9284-7326"
+      ],
+      "affiliations": [
+        "The Joint Research Center for Human Retrovirus Infection, Kumamoto University, Kumamoto, Japan.",
+        "Institute of Resource Development and Analysis, Kumamoto University, Kumamoto, Japan.",
+        "The Joint Research Center for Human Retrovirus Infection, Kumamoto University, Kumamoto, Japan.",
+        "Institute of Resource Development and Analysis, Kumamoto University, Kumamoto, Japan.",
+        "Center for Metabolic Regulation of Healthy Aging, Kumamoto University, Kumamoto, Japan.",
+        "The Joint Research Center for Human Retrovirus Infection, Kumamoto University, Kumamoto, Japan. m.ono@imperial.ac.uk.",
+        "Department of Life Sciences, Imperial College London, London, United Kingdom. m.ono@imperial.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Irie, Nobuko",
+        "short_name": "Irie N",
+        "identifiers": [],
+        "affiliations": [
+          "The Joint Research Center for Human Retrovirus Infection, Kumamoto University, Kumamoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Takeda, Naoki",
+        "short_name": "Takeda N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Resource Development and Analysis, Kumamoto University, Kumamoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Satou, Yorifumi",
+        "short_name": "Satou Y",
+        "identifiers": [
+          "0000-0002-1495-7810"
+        ],
+        "affiliations": [
+          "The Joint Research Center for Human Retrovirus Infection, Kumamoto University, Kumamoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Araki, Kimi",
+        "short_name": "Araki K",
+        "identifiers": [
+          "0000-0002-1396-1527"
+        ],
+        "affiliations": [
+          "Institute of Resource Development and Analysis, Kumamoto University, Kumamoto, Japan.",
+          "Center for Metabolic Regulation of Healthy Aging, Kumamoto University, Kumamoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Ono, Masahiro",
+        "short_name": "Ono M",
+        "identifiers": [
+          "0000-0002-9284-7326"
+        ],
+        "affiliations": [
+          "The Joint Research Center for Human Retrovirus Infection, Kumamoto University, Kumamoto, Japan. m.ono@imperial.ac.uk.",
+          "Department of Life Sciences, Imperial College London, London, United Kingdom. m.ono@imperial.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "42282994",
+      "41018847"
+    ],
+    "refs": [
+      "39923022",
+      "39636212",
+      "39611743",
+      "39175859",
+      "39106259",
+      "38867059",
+      "38863793",
+      "38721890",
+      "36254592",
+      "34907908",
+      "34587246",
+      "33975379",
+      "33942494",
+      "33930308",
+      "33252683",
+      "32801215",
+      "32579930",
+      "32460033",
+      "32341128",
+      "32079746",
+      "32022254",
+      "31926851",
+      "31515945",
+      "31375807",
+      "30061879",
+      "29991564",
+      "29941474",
+      "29643062",
+      "28783695",
+      "28659353",
+      "28382969",
+      "27281220",
+      "27062923",
+      "26864030",
+      "26774863",
+      "26603383",
+      "26215792",
+      "26057340",
+      "25948244",
+      "25939024",
+      "25516281",
+      "25428805",
+      "25126783",
+      "25126782",
+      "24712463",
+      "24325345",
+      "23396282",
+      "22879902",
+      "21620768",
+      "21414208",
+      "21221095",
+      "20855499",
+      "20574810",
+      "20107151",
+      "20072126",
+      "19800266",
+      "19505943",
+      "19396621",
+      "19136976",
+      "18641321",
+      "18606674",
+      "17961632",
+      "17591856",
+      "17377532",
+      "17142731",
+      "16893165",
+      "16717190",
+      "16203863",
+      "15128800"
+    ],
+    "similar": [
+      "40595611",
+      "30076771",
+      "41018847",
+      "22879902",
+      "32640256",
+      "28503202",
+      "29991564",
+      "34086055",
+      "39175859",
+      "31140975",
+      "39923022",
+      "20574810",
+      "40140585",
+      "29941474",
+      "20072126",
+      "19620303",
+      "30612787",
+      "33139491",
+      "40356912",
+      "18157133",
+      "24298014",
+      "18493985",
+      "22922362",
+      "24634496",
+      "28892470",
+      "17237761",
+      "24706905",
+      "21508258",
+      "39073709",
+      "20701981",
+      "28487507",
+      "30319599",
+      "22957107",
+      "21966415",
+      "19767756",
+      "17653037",
+      "21389253",
+      "24523508",
+      "23979593",
+      "22587982",
+      "33119742",
+      "21986066",
+      "31647813",
+      "39611743",
+      "32022254",
+      "24440144",
+      "20430855",
+      "23021222",
+      "24505473",
+      "36180629",
+      "21670203",
+      "26254339",
+      "20554955",
+      "40605177",
+      "40777015",
+      "21122941",
+      "24435677",
+      "33930308",
+      "24068936",
+      "32499641",
+      "33386185",
+      "34910919",
+      "30510991",
+      "20029241",
+      "22884069",
+      "17309822",
+      "17609478",
+      "17475784",
+      "22593613",
+      "23046996",
+      "41062655",
+      "25701137",
+      "31778687",
+      "18024188",
+      "21419767",
+      "28320131",
+      "21525380",
+      "33176163",
+      "34348163",
+      "30807094",
+      "24712464",
+      "33488615",
+      "20688398",
+      "27974197",
+      "38741041",
+      "15795373",
+      "31988493",
+      "18461565",
+      "20181882",
+      "19996091",
+      "23067413",
+      "30197310",
+      "24671953",
+      "26198700",
+      "36180628",
+      "22908322",
+      "17641056",
+      "17695668",
+      "16945588",
+      "20439537"
+    ],
+    "review": [
+      "40595611",
+      "30076771",
+      "39175859",
+      "32022254",
+      "21122941"
+    ],
+    "pmc": [
+      "12219120"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-61279-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40595611/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

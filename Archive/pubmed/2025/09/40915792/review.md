@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the transcription factor MaAP-1 in *Metarhizium acridum* regulates conidiation patterns via its YAP domain binding to the *MaPom1* promoter, with effects on conidial germination, yield, stress tolerance, pathogenicity, and the shift between microcycle and normal conidiation, with implications for biocontrol strain improvement.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or primary data are available for verification
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, statistical reporting, strain construction details, assay conditions, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that a single transcription factor and its YAP domain coordinate multiple traits relevant to fungal biocontrol, including conidiation pattern shift. The claim of direct promoter binding by the YAP domain with predicted critical residues is mechanistically specific. However, the abstract alone does not provide sufficient experimental detail to evaluate the robustness of the genetic, biochemical, and phenotypic evidence. Several claims are broad and would require substantial supporting data to be convincing at the level expected for a high-impact journal.
+- **Who would be interested in the results, and why** Researchers in fungal biology, entomopathogenic fungi, transcriptional regulation, and biocontrol agent development would be interested. The work could inform strain engineering strategies for improved conidial production and stress tolerance, which is relevant to sustainable agriculture and biopesticide commercialization.
+- **Major strengths** The study addresses an underexplored area, namely the structural and functional role of AP-1 transcription factors in conidiation pattern shift in *M. acridum*. The combination of gene deletion, phenotypic assays, Y1H, EMSA, and molecular docking provides a multi-method approach. The identification of a specific binding motif and predicted residues offers a concrete mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Deletion of MaAP-1 or its YAP domain accelerated conidial germination, increased conidial yields, impaired stress tolerance, and reduced pathogenicity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports multiple phenotypic effects from gene deletion but provides no quantitative data, effect sizes, statistical significance, or strain validation details. It is unclear whether the YAP domain deletion is a partial or complete deletion, and whether the observed phenotypes are consistent across replicates and conditions.
+  - **Why it matters** Without quantitative and statistical support, the phenotypic claims cannot be evaluated for robustness. Overstated phenotypic effects are a common source of irreproducibility in fungal genetics studies.
+  - **Resolution test** Provide quantitative phenotypic data with statistical tests, strain construction details, and confirmation of deletion effects at the transcript and protein levels.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The YAP domain of MaAP-1 directly bound to the motif (TTAGTAA/TTACTAA) in the MaPom1 promoter to regulate CPS.
+  - **Evidence pointer** Abstract; Y1H and EMSA mentioned but no data shown
+  - **Concern** The abstract states that Y1H and EMSA revealed direct binding, but no experimental conditions, controls, binding affinities, or specificity tests are described. The distinction between in vitro binding and in vivo functional relevance is not addressed.
+  - **Why it matters** Direct binding is a central mechanistic claim. Without controls such as mutated motifs, competitor DNA, or negative control proteins, the specificity of binding cannot be assessed.
+  - **Resolution test** Show representative Y1H and EMSA data with appropriate controls, including mutant motif probes and a non-binding protein control, and ideally a chromatin immunoprecipitation experiment to demonstrate in vivo occupancy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational claim validation
+  - **Claim pointer** Molecular docking predicted the critical residues (ILE-210, THR-211, THR-212, Glu-213, Gln-216, LYS-218) in YAP domain to mediate this process.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract presents molecular docking predictions as if they identify critical residues, but no experimental validation such as site-directed mutagenesis is described. Docking predictions alone are not sufficient to establish functional importance.
+  - **Why it matters** Predicted residues require functional confirmation. Without mutagenesis data, the claim that these residues mediate binding remains speculative.
+  - **Resolution test** Perform site-directed mutagenesis of the predicted residues and test effects on DNA binding and CPS in vivo.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of implications
+  - **Claim pointer** This work lays a theoretical foundation for strain improvement and fungal pesticide optimization.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims applied implications for strain improvement and pesticide optimization, but no data on biocontrol efficacy, field performance, or formulation are presented.
+  - **Why it matters** The applied claims extend beyond the presented evidence. While the basic biology may inform future work, the current data do not demonstrate enhanced biocontrol efficiency.
+  - **Resolution test** Either temper the applied claims or provide additional data on biocontrol efficacy under relevant conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "conidiation pattern shift (CPS)" is used without a clear definition of the two patterns and the criteria for classification.
+  - **Required correction** Define CPS explicitly and describe how microcycle and normal conidiation are distinguished experimentally.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Strain background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The wild-type strain background and culture conditions are not specified in the abstract.
+  - **Required correction** State the strain used and the standard growth conditions for conidiation assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Phenotypic data
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No statistical details are provided for any phenotypic comparison.
+  - **Required correction** Include information on replicates, statistical tests, and significance thresholds in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Species specificity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not discuss whether the findings are specific to *M. acridum* or likely conserved across other entomopathogenic fungi.
+  - **Required correction** Add a brief statement on potential conservation or species specificity based on sequence comparisons or prior literature.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The phenotypic claims require quantitative support, the binding claims require controlled biochemical data, and the docking predictions require experimental validation.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the role of AP-1 in conidiation pattern shift appears underexplored. Scientific importance is potentially significant for fungal biology and biocontrol, but the current evidence base is insufficient to establish the claims. Interdisciplinary readership is plausible, spanning molecular mycology, agricultural biotechnology, and pest management. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is acceptable, though the abstract uses specialized terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising hypothesis and a multi-method approach, but the lack of quantitative data, controlled binding assays, and experimental validation of predicted residues prevents a supportive recommendation. A revised manuscript with full experimental details and validation would be needed to assess the claims properly.
+
+## Risk / unsupported claims
+- The claim that MaAP-1 deletion "accelerated conidial germination, increased conidial yields, impaired stress tolerance, and reduced pathogenicity" is unsupported by quantitative data in the abstract.
+- The claim that the YAP domain "directly bound" to the motif in the MaPom1 promoter is unsupported without showing Y1H and EMSA data with controls.
+- The claim that specific residues (ILE-210, THR-211, THR-212, Glu-213, Gln-216, LYS-218) mediate binding is unsupported without mutagenesis validation.
+- The claim that the work "lays a theoretical foundation for strain improvement and fungal pesticide optimization" is an extrapolation beyond the presented evidence.

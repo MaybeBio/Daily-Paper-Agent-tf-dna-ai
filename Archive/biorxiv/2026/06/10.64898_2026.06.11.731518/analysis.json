@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.11.731518",
+  "title": "A multimodal foundation model linking histopathology and DNA methylation",
+  "authors": "Dannong Wang; Jessica Zhang; Chen Chen; Wei Zhang; Song Wang; Yanda Meng; Guru Sonpavde; Craig Horbinski; Yu Tian",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-14",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出组织病理与DNA甲基化对齐的多模态基础模型，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Hematoxylin and eosin (H&E) slides are routinely available in cancer care, but molecular profiling often requires additional tissue processing and turnaround time. We introduce HistoMethyl, a DNA methylation-aware pathology foundation model that aligns whole-slide histopathology with matched genome-scale methylation beta-value profiles during pre-training while requiring only an H&E slide at inference. We evaluated HistoMethyl across four task groups: gene mutation prediction, morphology-associated classification, overall survival prediction, and direct DNA methylation beta-value recovery. Evaluation spanned TCGA cross-validation, a disease-held-out lower-grade glioma cohort, and external cohort validation in CPTAC glioblastoma and SurGen rectal adenocarcinoma, totaling 14 cancer cohorts and 81 gene mutation tasks. The best-performing configuration improved mean mutation AUROC by 5.03 percentage points. By converting DNA methylation supervision into an H&E-only representation, His-toMethyl could support an early molecular triage layer that helps prioritize cases for confirmatory sequencing, methylation profiling, immunohistochemistry, and molecular tumor board review. These image-only predictions are intended to accelerate downstream molecular testing and tissue allocation while leaving final diagnosis and treatment selection anchored in validated molecular assays.",
+  "abstract_zh": "苏木精-伊红（H&E）染色切片在癌症诊疗中常规可得，但分子分型通常需要额外的组织处理和周转时间。我们引入了HistoMethyl，一种DNA甲基化感知的病理学基础模型，在预训练阶段将全切片组织病理学与匹配的全基因组尺度甲基化β值谱对齐，而在推理时仅需H&E切片。我们在四个任务组中评估了HistoMethyl：基因突变预测、形态学相关分类、总生存期预测以及直接DNA甲基化β值恢复。评估涵盖TCGA交叉验证、疾病排除的低级别胶质瘤队列，以及CPTAC胶质母细胞瘤和SurGen直肠腺癌的外部队列验证，共涉及14个癌症队列和81个基因突变任务。最佳配置将平均突变AUROC提高了5.03个百分点。通过将DNA甲基化监督转化为仅基于H&E的表征，HistoMethyl可支持早期分子分诊层，有助于优先安排病例进行确认性测序、甲基化分析、免疫组织化学和分子肿瘤委员会审查。这些仅基于图像的预测旨在加速下游分子检测和组织分配，同时将最终诊断和治疗选择锚定于经过验证的分子检测方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731518",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731518",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.11.731518/index.html"
+}

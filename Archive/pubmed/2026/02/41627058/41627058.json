@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "pmid": "41627058",
+    "doi": "10.1128/mbio.02627-25",
+    "title": "An mRNA-encoded scFv antibody targeting the helix-alpha3 of HPV18 E7 oncoprotein as a novel antiviral strategy."
+  },
+  "content": {
+    "abstract": "Despite the availability of prophylactic vaccines, human papillomavirus (HPV) infection remains the leading viral cause of cancer worldwide. The HPV E7 oncoprotein is a key factor in cancer progression by degrading host tumor suppressor proteins, thus offering a promising target for antiviral therapy. In this study, we screened a panel of high-affinity antibodies against HPV18 E7. Through evaluation of their cytotoxic effects in HPV18-positive HeLa cells, incorporating the structure of antibodies and the structural simulation of complexes, we identified the alpha3 helix of the HPV18 E7 protein and its adjacent groove as a novel and effective antiviral epitope. The candidate antibody 17F2 showed efficacy in inhibiting cell proliferation and tumor formation when transfected into HeLa cells as a single-chain variable fragment (scFv). To directly assess the efficacy of the antibody and enhance the accessibility of antibody drugs, we employed an mRNA platform for scFv delivery. This approach significantly inhibited the growth of HPV18-positive tumors in the immunodeficient mouse models. Our study identifies the alpha3 helix of HPV18 E7 as a viable antiviral target and provides proof of concept for mRNA-encoded scFv antibodies as a novel and effective strategy to neutralize viral oncoproteins in the treatment of HPV-related cancers. IMPORTANCE: The development of effective therapeutics against human papillomavirus (HPV)-related cancers remains an urgent medical priority. While therapeutic vaccines depend on the host immune response, their efficacy can be limited in immunocompromised individuals. In contrast, antibody-based therapies that directly target viral oncoproteins represent a promising alternative with a more immediate mechanism. In this study, we identified and characterized a potent therapeutic antibody against HPV18 E7 and uncovered an unrecognized targeting epitope within this viral oncoprotein. Moreover, we addressed a major limitation of conventional antibody therapies-their inability to efficiently target intracellular proteins-by employing an mRNA-lipid nanoparticle delivery platform for intracellular expression of the antibody. As a result, we have developed a novel candidate drug with a clear mechanism, offering a new strategy for the treatment of cancers associated with HPV18.",
+    "keywords": [
+      "HPV",
+      "mRNA",
+      "scFv",
+      "structure",
+      "tumor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Single-Chain Antibodies/genetics/immunology/pharmacology",
+      "Animals",
+      "HeLa Cells",
+      "*Human papillomavirus 18/immunology/drug effects/genetics",
+      "Mice",
+      "*Oncogene Proteins, Viral/immunology",
+      "RNA, Messenger/genetics",
+      "*Antibodies, Viral/immunology/genetics/pharmacology",
+      "*Papillomavirus E7 Proteins/immunology/genetics",
+      "Papillomavirus Infections/drug therapy",
+      "Female",
+      "*Antiviral Agents/pharmacology",
+      "Epitopes/immunology",
+      "Cell Proliferation/drug effects",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Feng",
+        "Guo, Xin-Ying",
+        "Cui, Ling-Yan",
+        "Zhang, Meng-Xuan",
+        "Zeng, Ya-Rong",
+        "Wang, Gui-Qiang",
+        "Li, Jin-Jin",
+        "Chi, Xin",
+        "Jiang, Ming-Xia",
+        "Xiong, Yue-Ting",
+        "Zhou, Li-Zhi",
+        "Zheng, Qing-Bing",
+        "Yu, Hai",
+        "Zhang, Jun",
+        "Li, Ting-Ting",
+        "Gu, Ying",
+        "Xia, Ning-Shao",
+        "Li, Shaowei"
+      ],
+      "short_names": [
+        "Han F",
+        "Guo X-y",
+        "Cui L-y",
+        "Zhang M-x",
+        "Zeng Y-r",
+        "Wang G-q",
+        "Li J-j",
+        "Chi X",
+        "Jiang M-x",
+        "Xiong Y-t",
+        "Zhou L-z",
+        "Zheng Q-b",
+        "Yu H",
+        "Zhang J",
+        "Li T-t",
+        "Gu Y",
+        "Xia N-s",
+        "Li S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7544-2087",
+        "ORCID: 0000-0002-7516-9965",
+        "ORCID: 0000-0002-9917-7804",
+        "ORCID: 0000-0002-2870-2800",
+        "ORCID: 0000-0002-3374-1038"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Feng",
+        "short_name": "Han F",
+        "identifiers": [
+          "0000-0002-7544-2087"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xin-Ying",
+        "short_name": "Guo X-y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Ling-Yan",
+        "short_name": "Cui L-y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Meng-Xuan",
+        "short_name": "Zhang M-x",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Ya-Rong",
+        "short_name": "Zeng Y-r",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Gui-Qiang",
+        "short_name": "Wang G-q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jin-Jin",
+        "short_name": "Li J-j",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Chi, Xin",
+        "short_name": "Chi X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ming-Xia",
+        "short_name": "Jiang M-x",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yue-Ting",
+        "short_name": "Xiong Y-t",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Li-Zhi",
+        "short_name": "Zhou L-z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Qing-Bing",
+        "short_name": "Zheng Q-b",
+        "identifiers": [
+          "0000-0002-7516-9965"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hai",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ting-Ting",
+        "short_name": "Li T-t",
+        "identifiers": [
+          "0000-0002-9917-7804"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Ying",
+        "short_name": "Gu Y",
+        "identifiers": [
+          "0000-0002-2870-2800"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Ning-Shao",
+        "short_name": "Xia N-s",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shaowei",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0002-3374-1038"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Life Sciences, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Molecular Vaccinology and Molecular Diagnostics, National Innovation Platform for Industry-Education Integration in Vaccine Research, NMPA Key Laboratory for Research and Evaluation of Infectious Disease Diagnostic Technology, National Institute of Diagnostics and Vaccine Development in Infectious Diseases, Xiamen University, Xiamen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2026 Mar 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/02 16:18",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [
+      "41750365"
+    ],
+    "refs": [
+      "38718835",
+      "38715363",
+      "38572751",
+      "38100632",
+      "37931422",
+      "37773254",
+      "36867683",
+      "36316224",
+      "36280179",
+      "36008233",
+      "33549834",
+      "33485370",
+      "32881101",
+      "32747824",
+      "32301049",
+      "31325765",
+      "31160223",
+      "30885573",
+      "30849663",
+      "30275522",
+      "28736197",
+      "28604701",
+      "27893068",
+      "26788990",
+      "26144316",
+      "24226851",
+      "23665962",
+      "23615820",
+      "23226365",
+      "21241471",
+      "20124702",
+      "20057044",
+      "19812149",
+      "19461840",
+      "17826171",
+      "17658466",
+      "17602732",
+      "17494926",
+      "16324714",
+      "15572765",
+      "14579360",
+      "12696051",
+      "11251381",
+      "10398405",
+      "174077"
+    ],
+    "similar": [
+      "41627058",
+      "33468698",
+      "24226851",
+      "25633640",
+      "21241471",
+      "32298665",
+      "42079630",
+      "38715363",
+      "33485370",
+      "40967673",
+      "41054971",
+      "31806970",
+      "42301768",
+      "32581060",
+      "9581830",
+      "26242403",
+      "19715402",
+      "36224625",
+      "25717103",
+      "42400858",
+      "25691589",
+      "39989021",
+      "40476553",
+      "25336692",
+      "16945153",
+      "35002506",
+      "39761277",
+      "38780076",
+      "28196735",
+      "41570748",
+      "31830929",
+      "24058440",
+      "42113290",
+      "39248565",
+      "37516391",
+      "37532093",
+      "30619353",
+      "16353149",
+      "32214362",
+      "31989837",
+      "32151670",
+      "20885450",
+      "10652419",
+      "30696738",
+      "27044426",
+      "16865269",
+      "34169395",
+      "22135254",
+      "26067630",
+      "38978164",
+      "19386711",
+      "41191800",
+      "12905010",
+      "38415538",
+      "39910471",
+      "42362901",
+      "32204370",
+      "30054333",
+      "39588712",
+      "38624210",
+      "21816200",
+      "16138119",
+      "18455277",
+      "40216282",
+      "27845045",
+      "32114254",
+      "32581101",
+      "30770966",
+      "38967656",
+      "10364287",
+      "28754129",
+      "12569558",
+      "31776268",
+      "34502053",
+      "39252044",
+      "39113388",
+      "40829900",
+      "25304375",
+      "37895145",
+      "20603135",
+      "40446873",
+      "16611884",
+      "39958352",
+      "34313864",
+      "15280455",
+      "29115562",
+      "28599791",
+      "31323018",
+      "34248960",
+      "23990055",
+      "17636212",
+      "30755156",
+      "34465025",
+      "21908553",
+      "23521528",
+      "42511592",
+      "42693064",
+      "19126233",
+      "41787535",
+      "30353680"
+    ],
+    "review": [
+      "41627058",
+      "41570748",
+      "38978164",
+      "40216282"
+    ],
+    "pmc": [
+      "12977463"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.02627-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41627058/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

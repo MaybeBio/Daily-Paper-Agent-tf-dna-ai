@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "38176073",
+    "doi": "10.1021/acssynbio.3c00578",
+    "title": "AI and Knowledge-Based Method for Rational Design of Escherichia coli Sigma70 Promoters."
+  },
+  "content": {
+    "abstract": "Expanding sigma70 promoter libraries can support the engineering of metabolic pathways and enhance recombinant protein expression. Herein, we developed an artificial intelligence (AI) and knowledge-based method for the rational design of sigma70 promoters. Strong sigma70 promoters were identified by using high-throughput screening (HTS) with enhanced green fluorescent protein (eGFP) as a reporter gene. The features of these strong promoters were adopted to guide promoter design based on our previous reported deep learning model. In the following case study, the obtained strong promoters were used to express collagen and microbial transglutaminase (mTG), resulting in increased expression levels by 81.4% and 33.4%, respectively. Moreover, these constitutive promoters achieved soluble expression of mTG-activating protease and contributed to active mTG expression in Escherichia coli. The results suggested that the combined method may be effective for promoter engineering.",
+    "keywords": [
+      "active transglutaminase expression",
+      "collagen expression",
+      "high-throughput screening",
+      "promoter activity",
+      "promoter engineering",
+      "sigma70 promoter"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli/genetics/metabolism",
+      "*Artificial Intelligence",
+      "DNA-Directed RNA Polymerases/genetics",
+      "Sigma Factor/genetics/metabolism",
+      "Promoter Regions, Genetic/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Kangjie",
+        "Yu, Shangyang",
+        "Wang, Kun",
+        "Tan, Yameng",
+        "Zhao, Xinyi",
+        "Liu, Song",
+        "Zhou, Jingwen",
+        "Wang, Xinglong"
+      ],
+      "short_names": [
+        "Xu K",
+        "Yu S",
+        "Wang K",
+        "Tan Y",
+        "Zhao X",
+        "Liu S",
+        "Zhou J",
+        "Wang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8493-0878",
+        "ORCID: 0000-0002-3949-3733"
+      ],
+      "affiliations": [
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Jiangsu Province Engineering Research Center of Food Synthetic Biotechnology, Jiangnan University, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Kangjie",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Shangyang",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kun",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yameng",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xinyi",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Song",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0001-8493-0878"
+        ],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingwen",
+        "short_name": "Zhou J",
+        "identifiers": [
+          "0000-0002-3949-3733"
+        ],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Jiangsu Province Engineering Research Center of Food Synthetic Biotechnology, Jiangnan University, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinglong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology and School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2024 Jan 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 18:41",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "41321598",
+      "40902006",
+      "39124917",
+      "38911060"
+    ],
+    "refs": [],
+    "similar": [
+      "38176073",
+      "10049384",
+      "10368152",
+      "14529615",
+      "17012380",
+      "9890989",
+      "30843055",
+      "9233812",
+      "34842418",
+      "20952386",
+      "18208528",
+      "14630944",
+      "17940097",
+      "9209042",
+      "9927430",
+      "9341173",
+      "29388765",
+      "15882415",
+      "11703665",
+      "28666008",
+      "9544701",
+      "15465042",
+      "24603758",
+      "9247142",
+      "12540296",
+      "9119031",
+      "15342598",
+      "10361711",
+      "16629675",
+      "16166539",
+      "15977833",
+      "20067173",
+      "35065417",
+      "35885909",
+      "9603877",
+      "16452409",
+      "11481327",
+      "32138729",
+      "9045842",
+      "16420370",
+      "25803493",
+      "33568644",
+      "8702534",
+      "21195716",
+      "11251833",
+      "35043622",
+      "15978618",
+      "12782316",
+      "17189297",
+      "10439406",
+      "15761057",
+      "12059959",
+      "16892065",
+      "21911499",
+      "16788165",
+      "9767572",
+      "16285917",
+      "9862449",
+      "11188759",
+      "9600910",
+      "9582376",
+      "17157257",
+      "35727448",
+      "9784501",
+      "17268549",
+      "9515937",
+      "11397080",
+      "29745856",
+      "14962387",
+      "9515707",
+      "9878355",
+      "23996440",
+      "9209046",
+      "17477048",
+      "9396150",
+      "10493811",
+      "17302812",
+      "9054361",
+      "16601684",
+      "21396442",
+      "8475100",
+      "12235394",
+      "9830052",
+      "8345519",
+      "20595001",
+      "15250823",
+      "15357303",
+      "22771992",
+      "19076234",
+      "15561138",
+      "18471287",
+      "11292807",
+      "11311395",
+      "9489676",
+      "11272828",
+      "28186907",
+      "17456470",
+      "11918668",
+      "18440978",
+      "23028780",
+      "17096598",
+      "38099247",
+      "31552424",
+      "38613497",
+      "38783063"
+    ],
+    "review": [
+      "38176073",
+      "12540296",
+      "16788165",
+      "17302812",
+      "22771992"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/asbcd6/article-lookup/doi/10.1021/acssynbio.3c00578",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

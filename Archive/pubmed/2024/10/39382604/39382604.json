@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "39382604",
+    "doi": "10.1007/s11255-024-04226-y",
+    "title": "Screening core genes for minimal change disease based on bioinformatics and machine learning approaches."
+  },
+  "content": {
+    "abstract": "Based on bioinformatics and machine learning methods, we conducted a study to screen the core genes of minimal change disease (MCD) and further explore its pathogenesis. First, we obtained the chip data sets GSE108113 and GSE200828 from the Gene Expression Comprehensive Database (GEO), which contained MCD information. We then used R software to analyze the gene chip data and performed functional enrichment analysis. Subsequently, we employed Cytoscape to screen the core genes and utilized machine learning algorithms (random forest and LASSO regression) to accurately identify them. To validate and analyze the core genes, we conducted immunohistochemistry (IHC) and gene set enrichment analysis (GSEA). Our results revealed a total of 394 highly expressed differential genes. Enrichment analysis indicated that these genes are primarily involved in T cell differentiation and p13k-akt signaling pathway of immune response. We identified NOTCH1, TP53, GATA3, and TGF-beta1 as the core genes. IHC staining demonstrated significant differences in the expression of these four core genes between the normal group and the MCD group. Furthermore, GSEA suggested that their up-regulation may be closely associated with the pathological changes in MCD kidneys, particularly in the glycosaminoglycans signaling pathway. In conclusion, our study highlights NOTCH1, TP53, GATA3, and TGF-beta1 as the core genes in MCD and emphasizes the close relationship between glycosaminoglycans and pathogenesis of MCD.",
+    "keywords": [
+      "Core genes",
+      "Glycosaminoglycans",
+      "Machine learning",
+      "Minimal change disease"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "*Computational Biology",
+      "*Nephrosis, Lipoid/genetics",
+      "Receptor, Notch1/genetics",
+      "Transforming Growth Factor beta1/genetics",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Dingfan",
+        "Yang, Xiuting",
+        "Li, Zexuan",
+        "Xie, Bin",
+        "Feng, Yongliang",
+        "Liu, Gaohong",
+        "Ren, Xiaojun"
+      ],
+      "short_names": [
+        "Hao D",
+        "Yang X",
+        "Li Z",
+        "Xie B",
+        "Feng Y",
+        "Liu G",
+        "Ren X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Epidemiology, School of Public Health, Shanxi Medical University, 56 Xinjian South Road, Taiyuan, 030001, China.",
+        "Department of Epidemiology, School of Public Health, Shanxi Medical University, 56 Xinjian South Road, Taiyuan, 030001, China.",
+        "Department of Nephrology, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, No. 99 Longcheng Street, Taiyuan, 030032, Shanxi, China.",
+        "Department of Nephrology, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, No. 99 Longcheng Street, Taiyuan, 030032, Shanxi, China.",
+        "Department of Epidemiology, School of Public Health, Shanxi Medical University, 56 Xinjian South Road, Taiyuan, 030001, China. yongliang.feng@sxmu.edu.cn.",
+        "Department of Center of Clinical Epidemiology and Evidence Based Medicine, Shanxi Medical University, Taiyuan, 030001, Shanxi, China. yongliang.feng@sxmu.edu.cn.",
+        "Department of Nephrology, Shanxi Provincial People's Hospital, No. 29 Shuangtasi Street, Taiyuan, 030012, 030001, Shanxi, China. snowfox1684088@sina.com.",
+        "Department of Nephrology, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, No. 99 Longcheng Street, Taiyuan, 030032, Shanxi, China. renxiaojun1978@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Dingfan",
+        "short_name": "Hao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, School of Public Health, Shanxi Medical University, 56 Xinjian South Road, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiuting",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, School of Public Health, Shanxi Medical University, 56 Xinjian South Road, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zexuan",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, No. 99 Longcheng Street, Taiyuan, 030032, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Bin",
+        "short_name": "Xie B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, No. 99 Longcheng Street, Taiyuan, 030032, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Yongliang",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, School of Public Health, Shanxi Medical University, 56 Xinjian South Road, Taiyuan, 030001, China. yongliang.feng@sxmu.edu.cn.",
+          "Department of Center of Clinical Epidemiology and Evidence Based Medicine, Shanxi Medical University, Taiyuan, 030001, Shanxi, China. yongliang.feng@sxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Gaohong",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Shanxi Provincial People's Hospital, No. 29 Shuangtasi Street, Taiyuan, 030012, 030001, Shanxi, China. snowfox1684088@sina.com."
+        ]
+      },
+      {
+        "full_name": "Ren, Xiaojun",
+        "short_name": "Ren X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, No. 99 Longcheng Street, Taiyuan, 030032, Shanxi, China. renxiaojun1978@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International urology and nephrology"
+    ],
+    "journal_abbrev": [
+      "Int Urol Nephrol"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/09 12:25",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "42193373",
+      "41898339",
+      "41476962"
+    ],
+    "refs": [
+      "38891801",
+      "38129488",
+      "37543700",
+      "37503337",
+      "37234159",
+      "37195508",
+      "37175937",
+      "37096442",
+      "36978098",
+      "36969169",
+      "36766754",
+      "36439140",
+      "36362582",
+      "36105034",
+      "35959954",
+      "35628659",
+      "35406662",
+      "35345333",
+      "35342338",
+      "35197547",
+      "35103870",
+      "35081502",
+      "35004732",
+      "34463195",
+      "32917984",
+      "31405951",
+      "31013618",
+      "30476243",
+      "29989000",
+      "29791858",
+      "28871079",
+      "28240316",
+      "27940460",
+      "27591087",
+      "27296697",
+      "21839364",
+      "20531454",
+      "20362052",
+      "10652015",
+      "9352154"
+    ],
+    "similar": [
+      "39382604",
+      "39509434",
+      "39375405",
+      "38867322",
+      "38948379",
+      "40313958",
+      "39346628",
+      "35680809",
+      "38755717",
+      "39559355",
+      "39396400",
+      "39991734",
+      "38639655",
+      "39780215",
+      "35341274",
+      "36131919",
+      "34714891",
+      "38310567",
+      "39142001",
+      "40312440",
+      "39507054",
+      "39835132",
+      "38951833",
+      "39609718",
+      "40073065",
+      "39026663",
+      "39093811",
+      "39870856",
+      "40019588",
+      "40253457",
+      "33685467",
+      "35713363",
+      "39341981",
+      "39993869",
+      "39170142",
+      "36627791",
+      "38375694",
+      "38863714",
+      "40245021",
+      "38468184",
+      "40083558",
+      "37449753",
+      "36523602",
+      "39351238",
+      "39914590",
+      "35719392",
+      "39697326",
+      "38808722",
+      "40313967",
+      "37805587",
+      "38145013",
+      "36631012",
+      "40078458",
+      "39965013",
+      "39738398",
+      "37633529",
+      "36792688",
+      "39618481",
+      "39754246",
+      "40131879",
+      "39650552",
+      "39068752",
+      "39862324",
+      "39855613",
+      "39616855",
+      "39310787",
+      "38645867",
+      "40207815",
+      "38166541",
+      "38686376",
+      "39050860",
+      "39377750",
+      "37720213",
+      "39139563",
+      "34107850",
+      "40247093",
+      "39904830",
+      "39234248",
+      "40207230",
+      "37496049",
+      "38169604",
+      "40192032",
+      "38229116",
+      "26536600",
+      "38809515",
+      "37900131",
+      "39713769",
+      "40129981",
+      "38571624",
+      "36193416",
+      "39403102",
+      "39398336",
+      "38767974",
+      "39323640",
+      "40332792",
+      "36195955",
+      "38987624",
+      "37980550",
+      "38070204",
+      "40097519"
+    ],
+    "review": [
+      "39382604",
+      "39093811"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11255-024-04226-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

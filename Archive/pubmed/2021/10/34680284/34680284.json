@@ -1,0 +1,463 @@
+{
+  "identity": {
+    "pmid": "34680284",
+    "doi": "10.3390/cancers13205135",
+    "title": "KLF4 Induces Mesenchymal-Epithelial Transition (MET) by Suppressing Multiple EMT-Inducing Transcription Factors."
+  },
+  "content": {
+    "abstract": "Epithelial-Mesenchymal Plasticity (EMP) refers to reversible dynamic processes where cells can transition from epithelial to mesenchymal (EMT) or from mesenchymal to epithelial (MET) phenotypes. Both these processes are modulated by multiple transcription factors acting in concert. While EMT-inducing transcription factors (TFs)-TWIST1/2, ZEB1/2, SNAIL1/2/3, GSC, and FOXC2-are well-characterized, the MET-inducing TFs are relatively poorly understood (OVOL1/2 and GRHL1/2). Here, using mechanism-based mathematical modeling, we show that transcription factor KLF4 can delay the onset of EMT by suppressing multiple EMT-TFs. Our simulations suggest that KLF4 overexpression can promote a phenotypic shift toward a more epithelial state, an observation suggested by the negative correlation of KLF4 with EMT-TFs and with transcriptomic-based EMT scoring metrics in cancer cell lines. We also show that the influence of KLF4 in modulating the EMT dynamics can be strengthened by its ability to inhibit cell-state transitions at the epigenetic level. Thus, KLF4 can inhibit EMT through multiple parallel paths and can act as a putative MET-TF. KLF4 associates with the patient survival metrics across multiple cancers in a context-specific manner, highlighting the complex association of EMP with patient survival.",
+    "keywords": [
+      "Epithelial-Mesenchymal Plasticity (EMP)",
+      "KLF4",
+      "Mesenchymal-Epithelial Transition (MET)",
+      "epigenetics",
+      "mathematical modeling"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Subbalakshmi, Ayalur Raghu",
+        "Sahoo, Sarthak",
+        "McMullen, Isabelle",
+        "Saxena, Aaditya Narayan",
+        "Venugopal, Sudhanva Kalasapura",
+        "Somarelli, Jason A",
+        "Jolly, Mohit Kumar"
+      ],
+      "short_names": [
+        "Subbalakshmi AR",
+        "Sahoo S",
+        "McMullen I",
+        "Saxena AN",
+        "Venugopal SK",
+        "Somarelli JA",
+        "Jolly MK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3719-7789",
+        "ORCID: 0000-0002-7771-5894",
+        "ORCID: 0000-0002-7359-567X",
+        "ORCID: 0000-0003-1510-9343",
+        "ORCID: 0000-0002-6631-2109"
+      ],
+      "affiliations": [
+        "Centre for BioSystems Science and Engineering, Indian Institute of Science, Bangalore 560012, India.",
+        "Centre for BioSystems Science and Engineering, Indian Institute of Science, Bangalore 560012, India.",
+        "Department of Medicine, Duke University, Durham, NC 27708, USA.",
+        "Department of Biotechnology, Indian Institute of Technology, Kharagpur 721302, India.",
+        "Centre for BioSystems Science and Engineering, Indian Institute of Science, Bangalore 560012, India.",
+        "Department of Medicine, Duke University, Durham, NC 27708, USA.",
+        "Duke Cancer Institute, Duke University, Durham, NC 27708, USA.",
+        "Centre for BioSystems Science and Engineering, Indian Institute of Science, Bangalore 560012, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Subbalakshmi, Ayalur Raghu",
+        "short_name": "Subbalakshmi AR",
+        "identifiers": [
+          "0000-0002-3719-7789"
+        ],
+        "affiliations": [
+          "Centre for BioSystems Science and Engineering, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Sahoo, Sarthak",
+        "short_name": "Sahoo S",
+        "identifiers": [
+          "0000-0002-7771-5894"
+        ],
+        "affiliations": [
+          "Centre for BioSystems Science and Engineering, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "McMullen, Isabelle",
+        "short_name": "McMullen I",
+        "identifiers": [
+          "0000-0002-7359-567X"
+        ],
+        "affiliations": [
+          "Department of Medicine, Duke University, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Saxena, Aaditya Narayan",
+        "short_name": "Saxena AN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Indian Institute of Technology, Kharagpur 721302, India."
+        ]
+      },
+      {
+        "full_name": "Venugopal, Sudhanva Kalasapura",
+        "short_name": "Venugopal SK",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for BioSystems Science and Engineering, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Somarelli, Jason A",
+        "short_name": "Somarelli JA",
+        "identifiers": [
+          "0000-0003-1510-9343"
+        ],
+        "affiliations": [
+          "Department of Medicine, Duke University, Durham, NC 27708, USA.",
+          "Duke Cancer Institute, Duke University, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Jolly, Mohit Kumar",
+        "short_name": "Jolly MK",
+        "identifiers": [
+          "0000-0002-6631-2109"
+        ],
+        "affiliations": [
+          "Centre for BioSystems Science and Engineering, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancers"
+    ],
+    "journal_abbrev": [
+      "Cancers (Basel)"
+    ],
+    "pub_date": "2021 Oct 13",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/24 06:00",
+    "fetched_at": "2026-09-28 01:01:25"
+  },
+  "links": {
+    "cites": [
+      "42602989",
+      "42466579",
+      "42289748",
+      "41898441",
+      "41883394",
+      "41836013",
+      "41516237",
+      "41272907",
+      "41213962",
+      "41090743",
+      "40940729",
+      "40858839",
+      "40162054",
+      "39806516",
+      "39555401",
+      "39048831",
+      "38893049",
+      "38816600",
+      "38129585",
+      "37963558",
+      "37803056",
+      "37259089",
+      "37228586",
+      "37180153",
+      "36902112",
+      "36864480",
+      "36289744",
+      "36269057",
+      "36003764",
+      "35328088",
+      "35219646"
+    ],
+    "refs": [
+      "35053177",
+      "34306571",
+      "33729159",
+      "33567424",
+      "33328637",
+      "33014880",
+      "32993428",
+      "32974388",
+      "32932250",
+      "32676163",
+      "32408542",
+      "32358524",
+      "32312834",
+      "32276404",
+      "32266287",
+      "32266244",
+      "32217696",
+      "32040502",
+      "31913665",
+      "31811131",
+      "31570380",
+      "31557977",
+      "31538102",
+      "31372511",
+      "31342918",
+      "31329868",
+      "31127094",
+      "31101597",
+      "31069317",
+      "31053634",
+      "30577808",
+      "30540935",
+      "30479345",
+      "30268772",
+      "30207593",
+      "29997040",
+      "29972798",
+      "29930276",
+      "29671397",
+      "29587259",
+      "29212199",
+      "29158503",
+      "28947416",
+      "28920957",
+      "28714958",
+      "28552603",
+      "28549095",
+      "28548388",
+      "28407681",
+      "28362798",
+      "28266048",
+      "28262547",
+      "28237823",
+      "27402864",
+      "27368099",
+      "27136592",
+      "27084311",
+      "26880805",
+      "26332365",
+      "26308610",
+      "26268924",
+      "25892014",
+      "25788534",
+      "25674539",
+      "25491311",
+      "25214461",
+      "25171411",
+      "25137052",
+      "24638100",
+      "24511467",
+      "24367507",
+      "23740839",
+      "23737434",
+      "23722653",
+      "23698379",
+      "23451207",
+      "23418515",
+      "22955271",
+      "22348014",
+      "22203039",
+      "21750654",
+      "21586797",
+      "21436443",
+      "21242971",
+      "20724706",
+      "20713713",
+      "20706219",
+      "20519630",
+      "20356845",
+      "20071344",
+      "19688699",
+      "18593951",
+      "18483486",
+      "17496320",
+      "17110329",
+      "16244670",
+      "16141321",
+      "12581631",
+      "12508111",
+      "12087155",
+      "10431239"
+    ],
+    "similar": [
+      "34680284",
+      "36864480",
+      "24812525",
+      "27519276",
+      "21387303",
+      "28549095",
+      "37076857",
+      "39335152",
+      "24124593",
+      "28423483",
+      "34575184",
+      "33802627",
+      "29375271",
+      "33742123",
+      "27335258",
+      "27102441",
+      "32048783",
+      "20713713",
+      "28371195",
+      "30254295",
+      "27923654",
+      "37984255",
+      "33567424",
+      "33014880",
+      "35982899",
+      "26194471",
+      "31538102",
+      "29073077",
+      "28919019",
+      "35774120",
+      "29158503",
+      "22203039",
+      "37495969",
+      "27317311",
+      "32676163",
+      "33088297",
+      "35219646",
+      "36552758",
+      "29212199",
+      "22937066",
+      "22006115",
+      "25566541",
+      "30453041",
+      "38473317",
+      "33417952",
+      "22973057",
+      "36808651",
+      "35609852",
+      "38172210",
+      "31559312",
+      "32326239",
+      "25460509",
+      "32939734",
+      "24598159",
+      "25114847",
+      "25137052",
+      "30577808",
+      "25482613",
+      "34460331",
+      "23451207",
+      "34771571",
+      "23593114",
+      "36628532",
+      "25879941",
+      "31464093",
+      "32987716",
+      "28734931",
+      "37268401",
+      "30268772",
+      "33968721",
+      "27573895",
+      "32215287",
+      "35188459",
+      "30407544",
+      "24283570",
+      "33240028",
+      "24168184",
+      "35008373",
+      "29845746",
+      "29337896",
+      "25301070",
+      "28792442",
+      "29587259",
+      "38365970",
+      "32566755",
+      "25716682",
+      "26321866",
+      "38467368",
+      "33266161",
+      "23722653",
+      "35565186",
+      "35277330",
+      "37802266",
+      "29528143",
+      "25892014",
+      "31430931",
+      "39092293",
+      "35053177",
+      "37873432",
+      "38553870",
+      "29497351",
+      "34480928",
+      "38974967",
+      "39055927",
+      "38663020",
+      "38293173",
+      "38187715"
+    ],
+    "review": [
+      "34680284",
+      "24812525",
+      "39335152",
+      "27335258",
+      "32048783",
+      "28919019",
+      "33088297",
+      "30453041",
+      "38473317",
+      "36808651",
+      "31559312",
+      "25114847",
+      "25482613",
+      "32987716",
+      "37268401",
+      "30268772",
+      "33968721",
+      "27573895",
+      "32215287",
+      "30407544",
+      "24168184",
+      "28792442",
+      "33266161",
+      "35277330",
+      "37802266",
+      "39092293"
+    ],
+    "pmc": [
+      "8533753"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cancers13205135",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34680284/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34680284",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNAI1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1496",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

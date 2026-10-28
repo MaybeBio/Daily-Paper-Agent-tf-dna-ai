@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "40741055",
+    "doi": "10.7774/cevr.2025.14.e21",
+    "title": "Multilevel systems biology analysis identifies key immune response profiles and potential correlates of protection for M72/AS01E vaccine against tuberculosis."
+  },
+  "content": {
+    "abstract": "PURPOSE: Tuberculosis (TB) claims around 1.5 million lives annually. The M72/AS01E vaccine candidate is an innovative effort demonstrating a 50% reduction in the incidence of active TB in adults. However, optimization and effective immunization strategies against TB depends heavily on precise identification of specific molecular signatures active in vaccine protection. MATERIALS AND METHODS: In this study, we employed weighted gene co-expression network analysis, machine learning, and network biology to investigate the gene expression patterns of peripheral blood mononuclear cells, identifying transcriptomic markers of vaccine protection. RESULTS: Our comprehensive exploration of publicly available gene expression dataset comprising samples from subjects vaccinated twice with 10 mug of M72/AS01E vaccine one day post-second dose (D31) and one week post-second dose (D37) in a phase IIA clinical trial revealed intense induction of multiple gene modules, indicative of acute/immediate immune response at D31 that subsided by D37. Thirty-one hub genes with significant elevation/correlation with immune protection were identified significantly mediating key events in immunity to TB. The more selective profile at D37 involved additional adaptive immunity pathways including T helper (Th) 1/Th2/Th17 differentiation, T cell receptor and cytokine signaling. The functional relevance of these biomarkers in predicting vaccine response was further analyzed using the Random Forest classifier demonstrating high accuracy in distinguishing between vaccinated and non-vaccinated samples. Additionally, the study pinpointed a miRNAs-transcription factors (TF)-target regulatory network excavating key TF, miRNA, mRNAs mediating vaccine protection. CONCLUSION: Our results provided new insights into M72/AS01E immunity, warranting further study to optimize and guide future TB vaccine development.",
+    "keywords": [
+      "Gene expression analysis",
+      "Immune response",
+      "Machine learning",
+      "Systems biology",
+      "Tuberculosis vaccine"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Taofeek, Oluwaseun Oluwatosin",
+        "Alile, Solomon Osarumwense",
+        "Evans, Elcanah Mauta",
+        "Ezediuno, Louis Odinakaose",
+        "George, Ifeoluwa Adeniyi",
+        "Oyewole, Olawale Moses",
+        "Owiti, Peter Ngo'la",
+        "Sulaimon, Lateef Adegboyega"
+      ],
+      "short_names": [
+        "Taofeek OO",
+        "Alile SO",
+        "Evans EM",
+        "Ezediuno LO",
+        "George IA",
+        "Oyewole OM",
+        "Owiti PN",
+        "Sulaimon LA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3076-4648",
+        "ORCID: 0000-0002-7853-8818",
+        "ORCID: 0009-0006-7750-4313",
+        "ORCID: 0000-0002-9491-529X",
+        "ORCID: 0009-0001-6499-3772",
+        "ORCID: 0009-0009-1827-8434",
+        "ORCID: 0009-0003-7615-7696",
+        "ORCID: 0000-0002-5530-6205"
+      ],
+      "affiliations": [
+        "Department of Chemical Sciences, Crescent University, Abeokuta, Nigeria.",
+        "Department of Computer Science, Pan-Atlantic University, Lekki, Nigeria.",
+        "Department of Biochemistry, Jomo Kenyatta University of Agriculture and Technology, Nairobi, Kenya.",
+        "Department of Microbiology, University of Benin, Benin, Nigeria.",
+        "Department of Pure and Applied Zoology, Federal University of Agriculture, Abeokuta, Nigeria.",
+        "Department of Biochemistry, Federal University of Agriculture, Abeokuta, Nigeria.",
+        "C/O GAVI Steering Committee for Vaccines and Immunization, Nairobi, Kenya.",
+        "Department of Chemical Sciences, Crescent University, Abeokuta, Nigeria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Taofeek, Oluwaseun Oluwatosin",
+        "short_name": "Taofeek OO",
+        "identifiers": [
+          "0000-0002-3076-4648"
+        ],
+        "affiliations": [
+          "Department of Chemical Sciences, Crescent University, Abeokuta, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Alile, Solomon Osarumwense",
+        "short_name": "Alile SO",
+        "identifiers": [
+          "0000-0002-7853-8818"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Pan-Atlantic University, Lekki, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Evans, Elcanah Mauta",
+        "short_name": "Evans EM",
+        "identifiers": [
+          "0009-0006-7750-4313"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Jomo Kenyatta University of Agriculture and Technology, Nairobi, Kenya."
+        ]
+      },
+      {
+        "full_name": "Ezediuno, Louis Odinakaose",
+        "short_name": "Ezediuno LO",
+        "identifiers": [
+          "0000-0002-9491-529X"
+        ],
+        "affiliations": [
+          "Department of Microbiology, University of Benin, Benin, Nigeria."
+        ]
+      },
+      {
+        "full_name": "George, Ifeoluwa Adeniyi",
+        "short_name": "George IA",
+        "identifiers": [
+          "0009-0001-6499-3772"
+        ],
+        "affiliations": [
+          "Department of Pure and Applied Zoology, Federal University of Agriculture, Abeokuta, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Oyewole, Olawale Moses",
+        "short_name": "Oyewole OM",
+        "identifiers": [
+          "0009-0009-1827-8434"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Federal University of Agriculture, Abeokuta, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Owiti, Peter Ngo'la",
+        "short_name": "Owiti PN",
+        "identifiers": [
+          "0009-0003-7615-7696"
+        ],
+        "affiliations": [
+          "C/O GAVI Steering Committee for Vaccines and Immunization, Nairobi, Kenya."
+        ]
+      },
+      {
+        "full_name": "Sulaimon, Lateef Adegboyega",
+        "short_name": "Sulaimon LA",
+        "identifiers": [
+          "0000-0002-5530-6205"
+        ],
+        "affiliations": [
+          "Department of Chemical Sciences, Crescent University, Abeokuta, Nigeria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and experimental vaccine research"
+    ],
+    "journal_abbrev": [
+      "Clin Exp Vaccine Res"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/31 12:10",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42188786",
+      "41959566"
+    ],
+    "refs": [
+      "39384770",
+      "39333908",
+      "39172796",
+      "39001461",
+      "38182816",
+      "38022657",
+      "37260078",
+      "36866744",
+      "36389769",
+      "35773466",
+      "35008808",
+      "32987746",
+      "31871103",
+      "31552037",
+      "31104710",
+      "30822544",
+      "30671054",
+      "30123182",
+      "29664036",
+      "29452387",
+      "27780211",
+      "27197967",
+      "27141961",
+      "26692821",
+      "25063298",
+      "25058159",
+      "22056668",
+      "21551061",
+      "20423980",
+      "19114008",
+      "19038785",
+      "14597658",
+      "10101680"
+    ],
+    "similar": [
+      "40741055",
+      "33133057",
+      "30407329",
+      "31661198",
+      "27553419",
+      "31552037",
+      "30280651",
+      "26072017",
+      "29632533",
+      "37542319",
+      "40614747",
+      "30830940",
+      "24142232",
+      "36865172",
+      "38180028",
+      "22643213",
+      "33279383",
+      "23306546",
+      "37808744",
+      "37091190",
+      "38307747",
+      "25305000",
+      "39805855",
+      "41102315",
+      "28505356",
+      "32404508",
+      "24911353",
+      "35105879",
+      "28878775",
+      "40559600",
+      "31149352",
+      "26817879",
+      "30376866",
+      "27011018",
+      "37699064",
+      "24795723",
+      "39446300",
+      "33705411",
+      "32189035",
+      "40565608",
+      "16245793",
+      "36439120",
+      "33128834",
+      "36829123",
+      "29341430",
+      "38832760",
+      "40362669",
+      "17240920",
+      "30892969",
+      "37658078",
+      "36090093",
+      "40540664",
+      "37497230",
+      "30212088",
+      "33358704",
+      "31409398",
+      "36962104",
+      "38639995",
+      "39512836",
+      "26493839",
+      "33106170",
+      "38844494",
+      "30700988",
+      "29432383",
+      "36355775",
+      "32423788",
+      "25589549",
+      "31082644",
+      "39622968",
+      "40387517",
+      "19737232",
+      "18018602",
+      "34177914",
+      "21237715",
+      "35757392",
+      "40524207",
+      "39461358",
+      "29051764",
+      "34759923",
+      "20484570",
+      "33310626",
+      "31481412",
+      "30316693",
+      "16519971",
+      "34975885",
+      "26986567",
+      "35642945",
+      "34253059",
+      "39892110",
+      "20019339",
+      "40574839",
+      "30793629",
+      "24505407",
+      "41424060",
+      "34175436",
+      "39403102",
+      "37391825",
+      "40725488",
+      "41037245",
+      "24912498"
+    ],
+    "review": [
+      "40741055",
+      "33133057",
+      "31552037",
+      "33279383",
+      "24795723",
+      "32189035",
+      "33128834",
+      "36829123",
+      "29341430",
+      "17240920",
+      "30212088",
+      "32423788",
+      "25589549",
+      "29051764",
+      "34759923",
+      "30316693",
+      "30793629"
+    ],
+    "pmc": [
+      "12303709"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40741055/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://ecevr.org/DOIx.php?id=10.7774/cevr.2025.14.e21",
+        "provider": "The Korean Vaccine Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

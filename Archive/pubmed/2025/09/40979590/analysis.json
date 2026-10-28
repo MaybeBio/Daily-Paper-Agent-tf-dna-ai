@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40979590",
+  "title": "Integrative analysis of single-cell and microarray data reveals SPI1-centered macrophage regulatory signatures in ulcerative colitis.",
+  "authors": "Yu, Yeqing; Yu, Chengwei; Dai, Shanshan; Liu, Yixu; Hu, Lanlan; Lu, Weimin",
+  "journal": "Frontiers in genetics",
+  "published_date": "2025-09-22",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过单细胞与微阵列数据整合分析识别溃疡性结肠炎中巨噬细胞转录因子SPI1及其下游靶基因，虽涉及转录因子调控网络，但缺乏蛋白质-DNA互作建模、结合位点预测或AI/物理模拟方法，属于纯转录组数据挖掘与湿实验验证。",
+  "abstract": "BACKGROUND: Ulcerative colitis (UC) is a type of inflammatory bowel disease (IBD) marked by persistent inflammation and ulceration of the colonic mucosal lining. Macrophages regulate intestinal inflammation through distinct polarization profiles. Emerging evidence indicates that the transcription factor SPI1 is a critical regulator of macrophage activity and contributes to both the initiation and progression of UC. METHODS: In this study, single-cell RNA sequencing (scRNA-seq) was conducted to profile the transcriptomic landscape of macrophages in the intestinal tissues of UC patients. A gene regulatory network (GRN) was constructed using pySCENIC, which identified SPI1 as a distinct transcriptional regulator involved in macrophage activation. To pinpoint key downstream targets of SPI1, microarray data were analyzed through a combination of weighted gene co-expression network analysis (WGCNA), differential expression (DE) analysis, and several machine learning algorithms, including LASSO, Recursive feature elimination with a random forest classifier (RFE-RF), and Support Vector Machine-Recursive Feature Elimination (SVM-RFE). An in vitro model of M1-polarized macrophages was then established, and Western blot (WB) was used to assess the protein expression of SPI1. SPI1 was then silenced using siRNA, and its impact on macrophage polarization was evaluated using flow cytometry and ELISA. RESULTS: GRN analysis results suggest that the SPI1(+) regulon regulates macrophage activation in UC. Using WGCNA on microarray data, we identified key downstream regulatory target genes, specifically IRAK3, IL1RN, CD55 and PEA15, based on microarray data. Their potential as biomarkers was subsequently validated through several machine learning algorithms. In vitro experiments demonstrated elevated expression of SPI1 in M1-polarized macrophages, as confirmed by WB analysis. Flow cytometry and ELISA analyses revealed that SPI1 silencing inhibited M1 macrophage polarization. CONCLUSION: This study identified SPI1 as a potential key transcription factor involved in macrophage polarization in UC, possibly exerting its regulatory effects through IRAK3, IL1RN, CD55 and PEA15. These findings offer a novel perspective on the molecular mechanisms underlying intestinal inflammation in UC.",
+  "abstract_zh": "背景：溃疡性结肠炎（UC）是一种炎症性肠病（IBD），其特征是结肠黏膜层持续炎症和溃疡形成。巨噬细胞通过不同的极化表型调节肠道炎症。新出现的证据表明，转录因子SPI1是巨噬细胞活性的关键调节因子，并参与UC的起始和进展。方法：在本研究中，进行了单细胞RNA测序（scRNA-seq）以描绘UC患者肠道组织中巨噬细胞的转录组景观。使用pySCENIC构建了基因调控网络（GRN），该网络将SPI1鉴定为参与巨噬细胞活化的独特转录调节因子。为确定SPI1的关键下游靶标，通过加权基因共表达网络分析（WGCNA）、差异表达（DE）分析以及多种机器学习算法（包括LASSO、随机森林分类器的递归特征消除（RFE-RF）和支持向量机-递归特征消除（SVM-RFE））的组合对微阵列数据进行了分析。随后建立了M1极化巨噬细胞的体外模型，并使用蛋白质印迹（WB）评估SPI1的蛋白表达。然后使用siRNA沉默SPI1，并通过流式细胞术和ELISA评估其对巨噬细胞极化的影响。结果：GRN分析结果表明，SPI1(+)调节子调节UC中的巨噬细胞活化。基于微阵列数据，通过WGCNA，我们鉴定了关键的下游调控靶基因，具体为IRAK3、IL1RN、CD55和PEA15。其作为生物标志物的潜力随后通过多种机器学习算法得到验证。体外实验显示，M1极化巨噬细胞中SPI1表达升高，这通过WB分析得到确认。流式细胞术和ELISA分析表明，SPI1沉默抑制了M1巨噬细胞极化。结论：本研究将SPI1鉴定为UC中参与巨噬细胞极化的潜在关键转录因子，可能通过IRAK3、IL1RN、CD55和PEA15发挥其调控作用。这些发现为UC肠道炎症的分子机制提供了新的视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40979590/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40979590/",
+  "paper_page_path": "papers/pubmed/40979590/index.html"
+}

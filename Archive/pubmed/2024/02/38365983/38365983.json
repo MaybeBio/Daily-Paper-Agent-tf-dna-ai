@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "38365983",
+    "doi": "10.1038/s41467-024-45847-2",
+    "title": "DNA binding redistributes activation domain ensemble and accessibility in pioneer factor Sox2."
+  },
+  "content": {
+    "abstract": "More than 1600 human transcription factors orchestrate the transcriptional machinery to control gene expression and cell fate. Their function is conveyed through intrinsically disordered regions (IDRs) containing activation or repression domains but lacking quantitative structural ensemble models prevents their mechanistic decoding. Here we integrate single-molecule FRET and NMR spectroscopy with molecular simulations showing that DNA binding can lead to complex changes in the IDR ensemble and accessibility. The C-terminal IDR of pioneer factor Sox2 is highly disordered but its conformational dynamics are guided by weak and dynamic charge interactions with the folded DNA binding domain. Both DNA and nucleosome binding induce major rearrangements in the IDR ensemble without affecting DNA binding affinity. Remarkably, interdomain interactions are redistributed in complex with DNA leading to variable exposure of two activation domains critical for transcription. Charged intramolecular interactions allowing for dynamic redistributions may be common in transcription factors and necessary for sensitive tuning of structural ensembles.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/metabolism",
+      "Magnetic Resonance Spectroscopy",
+      "Protein Conformation",
+      "Protein Domains",
+      "Transcription Factors/genetics/chemistry",
+      "*SOXB1 Transcription Factors/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bjarnason, Sveinn",
+        "McIvor, Jordan A P",
+        "Prestel, Andreas",
+        "Demeny, Kinga S",
+        "Bullerjahn, Jakob T",
+        "Kragelund, Birthe B",
+        "Mercadante, Davide",
+        "Heidarsson, Petur O"
+      ],
+      "short_names": [
+        "Bjarnason S",
+        "McIvor JAP",
+        "Prestel A",
+        "Demeny KS",
+        "Bullerjahn JT",
+        "Kragelund BB",
+        "Mercadante D",
+        "Heidarsson PO"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8088-6590",
+        "ORCID: 0000-0002-5459-9608",
+        "ORCID: 0009-0004-0572-622X",
+        "ORCID: 0000-0002-2459-219X",
+        "ORCID: 0000-0002-7454-1761",
+        "ORCID: 0000-0001-6792-7706",
+        "ORCID: 0000-0003-2027-5434"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102, Reykjavik, Iceland.",
+        "School of Chemical Science, University of Auckland, Auckland, New Zealand.",
+        "Department of Biology, REPIN and Structural Biology and NMR Laboratory, University of Copenhagen, Ole Maaloes Vej 5, 2200, Copenhagen, Denmark.",
+        "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102, Reykjavik, Iceland.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, 60438, Frankfurt am Main, Germany.",
+        "Department of Biology, REPIN and Structural Biology and NMR Laboratory, University of Copenhagen, Ole Maaloes Vej 5, 2200, Copenhagen, Denmark.",
+        "School of Chemical Science, University of Auckland, Auckland, New Zealand. davide.mercadante@auckland.ac.nz.",
+        "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102, Reykjavik, Iceland. pheidarsson@hi.is."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bjarnason, Sveinn",
+        "short_name": "Bjarnason S",
+        "identifiers": [
+          "0000-0001-8088-6590"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102, Reykjavík, Iceland."
+        ]
+      },
+      {
+        "full_name": "McIvor, Jordan A P",
+        "short_name": "McIvor JAP",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Science, University of Auckland, Auckland, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Prestel, Andreas",
+        "short_name": "Prestel A",
+        "identifiers": [
+          "0000-0002-5459-9608"
+        ],
+        "affiliations": [
+          "Department of Biology, REPIN and Structural Biology and NMR Laboratory, University of Copenhagen, Ole Maaløes Vej 5, 2200, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Demény, Kinga S",
+        "short_name": "Demény KS",
+        "identifiers": [
+          "0009-0004-0572-622X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102, Reykjavík, Iceland."
+        ]
+      },
+      {
+        "full_name": "Bullerjahn, Jakob T",
+        "short_name": "Bullerjahn JT",
+        "identifiers": [
+          "0000-0002-2459-219X"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "Department of Biology, REPIN and Structural Biology and NMR Laboratory, University of Copenhagen, Ole Maaløes Vej 5, 2200, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Mercadante, Davide",
+        "short_name": "Mercadante D",
+        "identifiers": [
+          "0000-0001-6792-7706"
+        ],
+        "affiliations": [
+          "School of Chemical Science, University of Auckland, Auckland, New Zealand. davide.mercadante@auckland.ac.nz."
+        ]
+      },
+      {
+        "full_name": "Heidarsson, Pétur O",
+        "short_name": "Heidarsson PO",
+        "identifiers": [
+          "0000-0003-2027-5434"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102, Reykjavík, Iceland. pheidarsson@hi.is."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Feb 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/17 12:43",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42172735",
+      "42153788",
+      "41764121",
+      "41511382",
+      "41189057",
+      "40909693",
+      "40449653",
+      "40371733",
+      "40185744",
+      "40147441",
+      "40114377",
+      "39984675",
+      "39933695",
+      "39914051",
+      "39888268",
+      "39755236",
+      "39384813",
+      "39360656",
+      "39099839",
+      "38883712",
+      "38056064",
+      "37957331",
+      "37904608"
+    ],
+    "refs": [
+      "37060324",
+      "37020022",
+      "36648282",
+      "36536103",
+      "36350035",
+      "36174765",
+      "35810158",
+      "34992286",
+      "34863368",
+      "34557680",
+      "34342803",
+      "34265844",
+      "34246632",
+      "33443163",
+      "33184256",
+      "32979888",
+      "32946759",
+      "32613009",
+      "32553192",
+      "32350470",
+      "32327602",
+      "32286318",
+      "32203463",
+      "32016422",
+      "31874413",
+      "31539559",
+      "31488718",
+      "31477842",
+      "31165735",
+      "30471690",
+      "30449618",
+      "30420606",
+      "30420502",
+      "29604882",
+      "29466338",
+      "29399725",
+      "29348210",
+      "28019676",
+      "27980341",
+      "27663422",
+      "25892221",
+      "25391399",
+      "25127330",
+      "24630727",
+      "24525231",
+      "23962882",
+      "23901099",
+      "23892456",
+      "22984159",
+      "21963794",
+      "21918774",
+      "21500218",
+      "21103394",
+      "20627168",
+      "17447125",
+      "17301233",
+      "17185422",
+      "16449200",
+      "16113120",
+      "15264254",
+      "12637543",
+      "12237457",
+      "12034431",
+      "10660531",
+      "10493861",
+      "8520220",
+      "7774012",
+      "3773761"
+    ],
+    "similar": [
+      "38365983",
+      "36495920",
+      "33030907",
+      "41679301",
+      "41189057",
+      "14559893",
+      "40574713",
+      "30802457",
+      "42332380",
+      "10801796",
+      "29666277",
+      "32553192",
+      "30471699",
+      "40631955",
+      "32128405",
+      "41511382",
+      "30518054",
+      "39888268",
+      "39565580",
+      "26195786",
+      "23912807",
+      "27844185",
+      "34557680",
+      "42033231",
+      "32778600",
+      "39186607",
+      "42319935",
+      "34571015",
+      "41053219",
+      "36648282",
+      "39093570",
+      "33904398",
+      "28161714",
+      "34012049",
+      "29386103",
+      "35012986",
+      "42172735",
+      "40848932",
+      "33361159",
+      "41596588",
+      "40371733",
+      "42284071",
+      "30855964",
+      "33371315",
+      "37657994",
+      "33076213",
+      "39589885",
+      "9343393",
+      "39453744",
+      "31642121",
+      "39933695",
+      "33153474",
+      "22399320",
+      "39755236",
+      "39548754",
+      "16605275",
+      "37595014",
+      "41656376",
+      "33901472",
+      "40738115",
+      "28780862",
+      "40183636",
+      "37971402",
+      "34473923",
+      "40695292",
+      "29885328",
+      "42000821",
+      "34181980",
+      "32350470",
+      "34822292",
+      "34303077",
+      "11292350",
+      "40149012",
+      "24195575",
+      "41855276",
+      "26661739",
+      "25591003",
+      "32824743",
+      "29791766",
+      "34502261",
+      "31678340",
+      "29714690",
+      "38870936",
+      "30397651",
+      "23760157",
+      "39578215",
+      "24027208",
+      "37225990",
+      "40467883",
+      "39914051",
+      "36659983",
+      "39539017",
+      "32735805",
+      "19933326",
+      "39933697",
+      "28111343",
+      "29550429",
+      "41706900",
+      "41556080",
+      "15342239"
+    ],
+    "review": [
+      "38365983",
+      "39888268",
+      "36648282",
+      "39093570",
+      "42172735",
+      "33361159",
+      "33371315",
+      "37657994",
+      "22399320",
+      "34303077",
+      "31678340",
+      "39578215",
+      "24027208",
+      "39914051",
+      "36659983"
+    ],
+    "pmc": [
+      "10873366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-45847-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38365983/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38365983",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

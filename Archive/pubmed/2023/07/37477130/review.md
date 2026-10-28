@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, supplementary figure legends referenced but not provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and computational methodology as presented in the supplied text. No raw data, supplementary figures, or uncropped blots were available for independent verification.
+- **Shared manuscript claim summary** The authors report that sulforaphane (SFN) inhibits SARS-CoV-2 replication in infected Calu-3 bronchial epithelial cells, reduces NF-κB expression, and downregulates NF-κB-dependent pro-inflammatory genes (IL-1β, IL-8) implicated in the COVID-19 cytokine storm. Computational docking and coarse-grained molecular dynamics simulations suggest SFN binds to the NF-κB DNA-binding region, forming a ternary NF-κB/SFN/DNA complex that impairs full protein-DNA interaction.
+- **Visible evidence base** RT-qPCR and RT-ddPCR data (Figures 1, 3, 6, 7, 8), western blotting (Figures 2, 7), ELISA (Figure 3D), docking and MD simulation results (Figures 4, 5), statistical analyses (Figure S7 referenced)
+- **Missing materials affecting confidence** Supplementary figures (S1-S7), uncropped western blot images, raw MD trajectory data, full docking scoring details, and exact numerical values for all quantitative comparisons were not provided. This limits independent verification of several key claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant question: whether SFN, a natural compound with known anti-inflammatory properties, can inhibit both SARS-CoV-2 replication and the NF-κB-driven cytokine storm. The experimental design is logical, and the combination of virological, molecular, and computational approaches is commendable. However, several technical concerns and gaps in data presentation prevent full confidence in the conclusions as currently stated. The claim that SFN directly binds NF-κB and stabilizes an inactive complex is based on coarse-grained simulations that may not be sufficiently accurate for ligand-protein interaction predictions. The lack of a dose-response analysis for SFN, the absence of cytotoxicity data, and the incomplete presentation of statistical details further weaken the case. The manuscript has potential but requires substantial revision and additional experiments to establish the proposed mechanism convincingly.
+- **Who would be interested in the results, and why** Researchers in virology, particularly those studying SARS-CoV-2 antivirals; investigators focused on the NF-κB signaling pathway and cytokine storm modulation; scientists exploring natural compounds as therapeutic agents for COVID-19; computational biologists interested in coarse-grained MD applications to protein-ligand interactions.
+- **Major strengths** 1) Clinically relevant question with potential translational implications. 2) Use of physiologically relevant Calu-3 bronchial epithelial cells. 3) Combination of experimental and computational approaches. 4) Clear demonstration of SFN-mediated inhibition of SARS-CoV-2 replication using two complementary PCR methods. 5) Honest acknowledgment of limitations, including the lack of effect on IL-6.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** "SFN was stably bound with the NF-κB monomer; a ternary NF-kB/SFN/DNA complex was formed; the SFN interacted with both the protein and the nucleic acid molecules modifying the binding mode of the latter, and impairing the full interaction between the NF-κB protein and the DNA molecule."
+- **Evidence pointer** Figures 4 and 5, Materials and methods (Computational studies)
+- **Concern** The computational conclusions are based on coarse-grained Martini 2 simulations, which are generally not parameterized for accurate ligand-protein binding free energy or precise binding mode prediction. The docking was performed with SeeSAR, but no docking scores, binding affinities, or validation against known NF-κB inhibitors are provided. The MD simulations used a manually displaced starting structure (chain A shifted from DNA) rather than unbiased sampling, which may bias the results toward the observed outcome. The use of n-nonane as a "decoy" is insufficient to validate the specificity of SFN's effect.
+- **Why it matters** The proposed molecular mechanism of SFN action is a central claim of the manuscript. If the computational evidence is not robust, the mechanistic interpretation is unsupported, and the study reduces to a phenomenological observation of reduced viral replication and cytokine expression.
+- **Resolution test** Provide docking scores and ranking of binding poses. Validate the Martini 2 approach for this system by comparing with all-atom MD simulations or experimental binding data. Run unbiased MD simulations starting from multiple initial configurations. Include a positive control ligand with known NF-κB binding affinity and a negative control with similar size but no H-bond capability. If possible, perform experimental validation (e.g., surface plasmon resonance, isothermal titration calorimetry, or electrophoretic mobility shift assay) to confirm SFN-NF-κB binding.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** "SFN inhibits SARS-CoV-2 replication in infected Calu-3 cells, decreasing the production of the N-protein coding RNA sequences."
+- **Evidence pointer** Figure 6, Materials and methods (Infection of Calu-3 cells with SARS-CoV-2)
+- **Concern** The manuscript does not report the SFN concentrations used for the infection experiments, nor is a dose-response curve provided. It is unclear whether the observed inhibition occurs at physiologically achievable concentrations. Additionally, no cytotoxicity data (e.g., MTT, LDH assays) are presented to rule out that the antiviral effect is due to cell death rather than specific inhibition of viral replication. The multiplicity of infection (MOI) is stated as 0.1, but the viral input is described as "~2×10^5 infectious virus particles per well, containing 10^6 cells," which is inconsistent with an MOI of 0.1 (should be ~10^5 particles per 10^6 cells).
+- **Why it matters** Without dose-response and cytotoxicity data, the antiviral claim cannot be distinguished from a general toxic effect. The MOI inconsistency raises questions about the accuracy of the experimental conditions and the reliability of the quantitative comparisons.
+- **Resolution test** Provide a full dose-response curve for SFN (e.g., 0.1-100 µM) with corresponding cytotoxicity data. Clarify the MOI calculation and correct the inconsistency. Include cell viability data at the concentrations used for all experiments.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Scientific importance
+- **Claim pointer** "The data obtained in the present study demonstrated inhibitory effects of SFN on the SARS-CoV-2 life cycle and on the expression levels of the pro-inflammatory genes, sustaining the possible use of SFN in the management of patients with COVID-19."
+- **Evidence pointer** Discussion, Abstract
+- **Concern** The clinical relevance of the findings is overstated. The study uses a single cell line (Calu-3) and does not address whether SFN concentrations effective in vitro are achievable in vivo. No animal model data or pharmacokinetic considerations are presented. The lack of effect on IL-6, a key cytokine in the COVID-19 cytokine storm, is acknowledged but not adequately discussed in the context of the overall claim.
+- **Why it matters** The conclusion that SFN may be useful in managing COVID-19 patients requires evidence beyond a single in vitro study. Overstating clinical implications without appropriate caveats could mislead readers and future research directions.
+- **Resolution test** Soften the clinical claims in the abstract and discussion. Add a clear statement that these are preliminary in vitro findings requiring further validation in animal models and clinical studies. Discuss the IL-6 result more thoroughly and consider whether the lack of effect undermines the cytokine storm claim.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Technical soundness
+- **Claim pointer** "The results obtained demonstrated that the expression levels of IL-1β and IL-8 were significantly reduced when samples from SARS-CoV-2-infected, SFN-treated Calu-3 cells were compared with samples of SARS-CoV-2-infected cells."
+- **Evidence pointer** Figure 8, Materials and methods (RT-qPCR analysis)
+- **Concern** The manuscript does not specify the timing of SFN treatment relative to infection (pre-treatment, co-treatment, or post-infection). This is critical for interpreting whether SFN is acting on viral entry, replication, or the host response. Additionally, the choice of housekeeping gene (β-actin) for normalization in SARS-CoV-2-infected cells is not justified, as viral infection can alter host gene expression.
+- **Why it matters** The mechanism of action cannot be inferred without knowing the treatment schedule. If SFN is added before infection, the effect could be on viral entry rather than NF-κB signaling. The normalization strategy could introduce artifacts if β-actin expression is affected by infection or treatment.
+- **Resolution test** Clearly state the treatment protocol (time and duration of SFN exposure relative to infection). Justify the use of β-actin as a reference gene or use multiple reference genes for validation. Consider including a time-course experiment to distinguish between effects on entry, replication, and host response.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Readability for nonspecialists
+- **Affected element** Abstract and Introduction
+- **Evidence pointer** Abstract, Introduction
+- **Issue** The abstract and introduction use technical terms (e.g., "RT-ddPCR", "Martini 2 CG force field") without brief explanations, which may hinder readers from outside the immediate field.
+- **Required correction** Add brief parenthetical explanations for specialized techniques and terms at first mention.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Technical soundness
+- **Affected element** Statistical analysis
+- **Evidence pointer** Materials and methods (Statistical analysis)
+- **Issue** The statistical methods section states that data were normally distributed and analyzed by paired t-test or two-way ANOVA, but no information is provided on the number of independent biological replicates or whether technical replicates were averaged. The figure legends (not provided) would normally contain this information.
+- **Required correction** Specify the number of independent experiments (n) for each figure and clarify whether error bars represent SD or SEM.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Technical soundness
+- **Affected element** Western blotting
+- **Evidence pointer** Materials and methods (Western blotting), Figures 2 and 7
+- **Issue** The manuscript states that 20 µg of total protein was loaded, but no information is provided on the number of experimental replicates for the western blot experiments. The representative blots shown in the figures are not quantified in the text.
+- **Required correction** Provide densitometric quantification of at least three independent western blot experiments, with statistical analysis, and state the number of replicates in the figure legend.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Interdisciplinary readership
+- **Affected element** Discussion
+- **Evidence pointer** Discussion
+- **Issue** The discussion does not adequately contextualize the findings within the broader literature on SFN and COVID-19, particularly the study by Ordonez et al. (reference 48) which is cited but not discussed in detail.
+- **Required correction** Expand the discussion to compare and contrast the present findings with those of Ordonez et al., including differences in cell lines, viral strains, and experimental conditions.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Technical soundness
+- **Affected element** Computational methods
+- **Evidence pointer** Materials and methods (Computational studies)
+- **Issue** The manuscript does not specify the software version for Gromacs beyond "2021.1", nor does it provide parameters for the Martini 2 force field (e.g., version, water model, ion concentration). The setup for the "decoy" n-nonane simulation is described but not fully detailed.
+- **Required correction** Provide complete simulation parameters, including force field version, water model, salt concentration, and any restraints applied. Describe the system size and simulation time for each run.
+- **Concern ID** R1-m6
+- **Severity** Minor
+- **Axis** Readability for nonspecialists
+- **Affected element** Figure 5
+- **Evidence pointer** Figure 5
+- **Issue** The description of Figure 5E and 5F in the text is dense and difficult to follow, particularly the distinction between the red and blue curves and the interpretation of the "decoy" experiment.
+- **Required correction** Rewrite the description of Figure 5E and 5F for clarity, explicitly stating what each curve represents and what conclusion is drawn from each panel.
+
+## Risk / unsupported claims
+- The claim that SFN directly binds NF-κB and stabilizes an inactive ternary complex is not sufficiently supported by the coarse-grained MD simulations presented. No experimental binding data are provided.
+- The statement that SFN "inhibits SARS-CoV-2 replication" is based on a single cell line and lacks dose-response and cytotoxicity data, making the claim premature.
+- The clinical implication that SFN may be useful in managing COVID-19 patients is not supported by the in vitro data alone and requires significant caveats.
+- The claim that SFN downregulates NF-κB-dependent pro-inflammatory genes is only demonstrated for IL-1β and IL-8; the lack of effect on IL-6 is acknowledged but not mechanistically explained.
+- The MOI inconsistency (0.1 vs. 2×10^5 particles per 10^6 cells) raises concerns about the accuracy of the infection protocol and the interpretation of viral replication data.
+- The use of β-actin as a single reference gene for RT-qPCR normalization in infected cells is not validated and could affect the reliability of gene expression comparisons.

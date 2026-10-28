@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.26.640343",
+  "title": "Ali-U-Net: A Convolutional Transformer Neural Net for Multiple Sequence Alignment of DNA Sequences. A proof of concept",
+  "authors": "Petar Arsic; Christoph Mayer",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-02",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用卷积Transformer网络做DNA多序列比对，虽涉及DNA序列但非蛋白质-DNA互作，无结合位点或互作机制建模，与本课题关联弱。",
+  "abstract": "We report a convolutional transformer neural network that is capable of aligning multiple nucleotide sequences. The neural network is based on the U-Net commonly used in image segmentation which we employ to transform unaligned sequences to aligned sequences. For alignment scenarios our Ali-U-Net neural network has been trained on, it is in most cases more accurate than programs such as MAFFT, T-Coffee, MUSCLE, and Clustal Omega, while being considerably faster than similarly accurate programs on a single CPU core. Limitations are that the neural network is still trained specifically for certain alignment problems and can perform poorly for gap distributions it has not seen before. Furthermore, the algorithm currently works with fixed-size alignment windows of 48×48 or 96×96 nucleotides. At this stage, we view our study as a proof of concept, confident that the present findings can be extended to larger alignments and more complex alignment scenarios in the near future.",
+  "abstract_zh": "我们报告了一种能够比对多个核苷酸序列的卷积变换器神经网络。该神经网络基于图像分割中常用的U-Net架构，我们利用它将未比对序列转换为比对序列。对于我们的Ali-U-Net神经网络所训练的比对场景，在大多数情况下，其准确性高于MAFFT、T-Coffee、MUSCLE和Clustal Omega等程序，同时在单个CPU核心上，其速度显著快于同等准确度的程序。局限性在于，该神经网络目前仍针对特定比对问题进行训练，对于未曾见过的空位分布可能表现不佳。此外，该算法目前适用于固定大小的比对窗口，即48×48或96×96个核苷酸。现阶段，我们将本研究视为概念验证，并相信当前发现可在不久的将来扩展到更大的比对和更复杂的比对场景。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.26.640343",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.26.640343",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.26.640343/index.html"
+}

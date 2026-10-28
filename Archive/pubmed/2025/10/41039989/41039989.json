@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "41039989",
+    "doi": "10.1002/bit.70076",
+    "title": "Comprehensive Mapping of Functional Enhancers in Chinese Hamster Ovary Cells."
+  },
+  "content": {
+    "abstract": "Chinese hamster ovary (CHO) cells are the leading mammalian system for recombinant therapeutic protein production. However, optimizing transgene expression remains challenging due to the limited understanding of the regulatory mechanisms controlling gene expression in CHO cells. Towards overcoming this barrier, here we provide a systematic characterization of cis-regulatory elements in CHO cells. Using genome-wide STARR-seq, a high-throughput method for quantifying enhancer strength, we identified regions with enhancer activity in the CHO cell genome. By integrating these data with ATAC-seq and histone modification profiles, we were able to characterize the chromatin state of these regions. Our analysis revealed thousands of newly identified enhancer sequences. The most active sequences could drive transgene expression at levels similar to or higher than strong viral enhancers. Notably, half of the regions found to have enhancer activity were within inaccessible chromatin in their native context. We observed that accessible enhancers were primarily near to transcriptional start sites and associated with ubiquitously-expressed genes, whereas inaccessible enhancers were predominantly intergenic and associated with tissue-specific genes. Additionally, through a deep-learning-based approach ETS and YY1 transcription factor (TF) binding motifs were identified as key determinants of enhancer identity and strength. Disrupting YY1 binding motifs led to reduced enhancer activity, thereby highlighting the importance of YY1 as a transcriptional activator in CHO cells. Our study demonstrates the first comprehensive map of functionally-validated enhancers in CHO cells and generates new insights into gene regulation and the role of TFs in determining enhancer strength. This study helps to lay the foundation for strategic engineering of CHO cell transcriptional networks to achieve enhanced biopharmaceutical production.",
+    "keywords": [
+      "CHO cells",
+      "STARR-seq",
+      "cis-regulatory element",
+      "enhancer",
+      "gene regulation",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "CHO Cells",
+      "Cricetulus",
+      "*Enhancer Elements, Genetic/genetics",
+      "Cricetinae",
+      "*Chromosome Mapping/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Santos, Maria",
+        "Johari, Yusuf B",
+        "Biggins, Laura",
+        "Elliott, Natalie C",
+        "Schoenfelder, Stefan",
+        "Boddireddy, Mounika",
+        "Fabian, Daniel K",
+        "Anbar, Michael",
+        "O'Callaghan, Peter M",
+        "Rugg-Gunn, Peter J"
+      ],
+      "short_names": [
+        "Santos M",
+        "Johari YB",
+        "Biggins L",
+        "Elliott NC",
+        "Schoenfelder S",
+        "Boddireddy M",
+        "Fabian DK",
+        "Anbar M",
+        "O'Callaghan PM",
+        "Rugg-Gunn PJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1740-7379",
+        "ORCID: 0000-0001-9933-5764",
+        "ORCID: 0000-0002-0975-1121",
+        "ORCID: 0000-0002-3200-8133",
+        "ORCID: 0000-0003-4292-620X",
+        "ORCID: 0000-0002-9601-5949"
+      ],
+      "affiliations": [
+        "Epigenetics Programme, Babraham Institute, Cambridge, UK.",
+        "Lonza Biologics R&D, Cambridge, UK.",
+        "Bioinformatics Group, Babraham Institute, Cambridge, UK.",
+        "Lonza Biologics R&D, Cambridge, UK.",
+        "Epigenetics Programme, Babraham Institute, Cambridge, UK.",
+        "Lonza Biologics R&D, Cambridge, UK.",
+        "Lonza Biologics R&D, Cambridge, UK.",
+        "Lonza Biologics R&D, Cambridge, UK.",
+        "Lonza Biologics R&D, Cambridge, UK.",
+        "Epigenetics Programme, Babraham Institute, Cambridge, UK.",
+        "Loke Centre for Trophoblast Research, University of Cambridge, Cambridge, UK.",
+        "Cambridge Stem Cell Institute, University of Cambridge, Cambridge, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Santos, María",
+        "short_name": "Santos M",
+        "identifiers": [
+          "0000-0003-1740-7379"
+        ],
+        "affiliations": [
+          "Epigenetics Programme, Babraham Institute, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Johari, Yusuf B",
+        "short_name": "Johari YB",
+        "identifiers": [
+          "0000-0001-9933-5764"
+        ],
+        "affiliations": [
+          "Lonza Biologics R&D, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Biggins, Laura",
+        "short_name": "Biggins L",
+        "identifiers": [
+          "0000-0002-0975-1121"
+        ],
+        "affiliations": [
+          "Bioinformatics Group, Babraham Institute, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Elliott, Natalie C",
+        "short_name": "Elliott NC",
+        "identifiers": [],
+        "affiliations": [
+          "Lonza Biologics R&D, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Schoenfelder, Stefan",
+        "short_name": "Schoenfelder S",
+        "identifiers": [
+          "0000-0002-3200-8133"
+        ],
+        "affiliations": [
+          "Epigenetics Programme, Babraham Institute, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Boddireddy, Mounika",
+        "short_name": "Boddireddy M",
+        "identifiers": [],
+        "affiliations": [
+          "Lonza Biologics R&D, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Fabian, Daniel K",
+        "short_name": "Fabian DK",
+        "identifiers": [],
+        "affiliations": [
+          "Lonza Biologics R&D, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Anbar, Michael",
+        "short_name": "Anbar M",
+        "identifiers": [],
+        "affiliations": [
+          "Lonza Biologics R&D, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "O'Callaghan, Peter M",
+        "short_name": "O'Callaghan PM",
+        "identifiers": [
+          "0000-0003-4292-620X"
+        ],
+        "affiliations": [
+          "Lonza Biologics R&D, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Rugg-Gunn, Peter J",
+        "short_name": "Rugg-Gunn PJ",
+        "identifiers": [
+          "0000-0002-9601-5949"
+        ],
+        "affiliations": [
+          "Epigenetics Programme, Babraham Institute, Cambridge, UK.",
+          "Loke Centre for Trophoblast Research, University of Cambridge, Cambridge, UK.",
+          "Cambridge Stem Cell Institute, University of Cambridge, Cambridge, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biotechnology and bioengineering"
+    ],
+    "journal_abbrev": [
+      "Biotechnol Bioeng"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 06:33",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42586865",
+      "41509511"
+    ],
+    "refs": [
+      "38724747",
+      "37185990",
+      "37182209",
+      "37173718",
+      "36707606",
+      "36471135",
+      "35551305",
+      "35482470",
+      "34050613",
+      "33872375",
+      "33858480",
+      "33521928",
+      "33292397",
+      "33095445",
+      "33049068",
+      "32142172",
+      "31503413",
+      "31271264",
+      "30703471",
+      "30033119",
+      "29256496",
+      "29224777",
+      "28940711",
+      "28581502",
+      "27072894",
+      "26686315",
+      "26126657",
+      "25872643",
+      "25829016",
+      "25612069",
+      "25517091",
+      "24705708",
+      "24026344",
+      "23873082",
+      "23850860",
+      "23328393",
+      "22955617",
+      "22926643",
+      "18778741",
+      "17277777",
+      "16937403",
+      "11018030",
+      "8654943",
+      "2985280"
+    ],
+    "similar": [
+      "41039989",
+      "33521928",
+      "36043696",
+      "42475469",
+      "41862973",
+      "31271264",
+      "36800318",
+      "35082832",
+      "23328393",
+      "32065070",
+      "42348756",
+      "27856232",
+      "22537144",
+      "34635154",
+      "26762773",
+      "30512195",
+      "25612069",
+      "38695538",
+      "23512712",
+      "42114111",
+      "30892142",
+      "18441229",
+      "39716078",
+      "33046126",
+      "39819837",
+      "30110655",
+      "29572403",
+      "33044128",
+      "40288720",
+      "28732548",
+      "31053165",
+      "41866306",
+      "38672444",
+      "25872643",
+      "26800878",
+      "30033119",
+      "29396371",
+      "30598689",
+      "21415370",
+      "34486522",
+      "40551231",
+      "29151363",
+      "26869318",
+      "20019798",
+      "34850108",
+      "35858748",
+      "31503413",
+      "37600946",
+      "26072434",
+      "39140141",
+      "27833659",
+      "28854172",
+      "37387536",
+      "33095445",
+      "27490187",
+      "23184988",
+      "30139328",
+      "40645663",
+      "41185025",
+      "32912294",
+      "35997250",
+      "30703471",
+      "26686315",
+      "30686579",
+      "25679813",
+      "22421546",
+      "15625767",
+      "29807547",
+      "35887306",
+      "41146587",
+      "41985990",
+      "11375977",
+      "28723572",
+      "37170195",
+      "15176895",
+      "24603674",
+      "23985037",
+      "31201999",
+      "28716036",
+      "33191916",
+      "29273624",
+      "39326643",
+      "36184520",
+      "24714811",
+      "33537074",
+      "21435340",
+      "28683716",
+      "27321818",
+      "41359035",
+      "31118064",
+      "29145694",
+      "38788884",
+      "38038259",
+      "10187834",
+      "26486725",
+      "29155818",
+      "24908250",
+      "39755338",
+      "25887857",
+      "37021559"
+    ],
+    "review": [
+      "41039989",
+      "41862973",
+      "26072434",
+      "39140141",
+      "27321818"
+    ],
+    "pmc": [
+      "12699134"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41039989/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/bit.70076",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

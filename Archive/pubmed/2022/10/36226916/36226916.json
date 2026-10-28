@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "36226916",
+    "doi": "10.7554/eLife.79932",
+    "title": "Deep mutational scanning and machine learning reveal structural and molecular rules governing allosteric hotspots in homologous proteins."
+  },
+  "content": {
+    "abstract": "A fundamental question in protein science is where allosteric hotspots - residues critical for allosteric signaling - are located, and what properties differentiate them. We carried out deep mutational scanning (DMS) of four homologous bacterial allosteric transcription factors (aTFs) to identify hotspots and built a machine learning model with this data to glean the structural and molecular properties of allosteric hotspots. We found hotspots to be distributed protein-wide rather than being restricted to 'pathways' linking allosteric and active sites as is commonly assumed. Despite structural homology, the location of hotspots was not superimposable across the aTFs. However, common signatures emerged when comparing hotspots coincident with long-range interactions, suggesting that the allosteric mechanism is conserved among the homologs despite differences in molecular details. Machine learning with our large DMS datasets revealed global structural and dynamic properties to be a strong predictor of whether a residue is a hotspot than local and physicochemical properties. Furthermore, a model trained on one protein can predict hotspots in a homolog. In summary, the overall allosteric mechanism is embedded in the structural fold of the aTF family, but the finer, molecular details are sequence-specific.",
+    "keywords": [
+      "E. coli",
+      "allostery",
+      "computational biology",
+      "deep mutational scanning",
+      "machine learning",
+      "molecular biophysics",
+      "structural biology",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Allosteric Regulation",
+      "Mutation",
+      "*Machine Learning",
+      "*Proteins/chemistry",
+      "Signal Transduction",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leander, Megan",
+        "Liu, Zhuang",
+        "Cui, Qiang",
+        "Raman, Srivatsan"
+      ],
+      "short_names": [
+        "Leander M",
+        "Liu Z",
+        "Cui Q",
+        "Raman S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4695-7142",
+        "ORCID: 0000-0001-6214-5211",
+        "ORCID: 0000-0003-2461-1589"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Wisconsin-Madison, Madison, United States.",
+        "Department of Physics, Boston University, Boston, United States.",
+        "Department of Physics, Boston University, Boston, United States.",
+        "Department of Chemistry, Boston University, Boston, United States.",
+        "Department of Biochemistry, University of Wisconsin-Madison, Madison, United States.",
+        "Department of Bacteriology, University of Wisconsin-Madison, Madison, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leander, Megan",
+        "short_name": "Leander M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Wisconsin-Madison, Madison, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhuang",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0000-0003-4695-7142"
+        ],
+        "affiliations": [
+          "Department of Physics, Boston University, Boston, United States."
+        ]
+      },
+      {
+        "full_name": "Cui, Qiang",
+        "short_name": "Cui Q",
+        "identifiers": [
+          "0000-0001-6214-5211"
+        ],
+        "affiliations": [
+          "Department of Physics, Boston University, Boston, United States.",
+          "Department of Chemistry, Boston University, Boston, United States."
+        ]
+      },
+      {
+        "full_name": "Raman, Srivatsan",
+        "short_name": "Raman S",
+        "identifiers": [
+          "0000-0003-2461-1589"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Wisconsin-Madison, Madison, United States.",
+          "Department of Bacteriology, University of Wisconsin-Madison, Madison, United States.",
+          "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2022 Oct 13",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/14 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "42477885",
+      "42132839",
+      "42014722",
+      "41816907",
+      "40961135",
+      "40874151",
+      "40286867",
+      "40168989",
+      "40043838",
+      "39957913",
+      "39952349",
+      "39562775",
+      "39438076",
+      "39363077",
+      "39235227",
+      "39115184",
+      "38989563",
+      "38935925",
+      "38836839",
+      "38789982",
+      "38496486",
+      "38336297",
+      "38231868",
+      "38206994",
+      "37920394",
+      "37905112",
+      "37662419",
+      "37175454",
+      "37171062",
+      "36827465",
+      "36713072",
+      "36586979",
+      "36564251"
+    ],
+    "refs": [
+      "35675441",
+      "35413604",
+      "35388192",
+      "34913592",
+      "34908530",
+      "34815338",
+      "34593817",
+      "34548494",
+      "34265844",
+      "34187888",
+      "34132193",
+      "33828272",
+      "33687327",
+      "33315222",
+      "33084570",
+      "32999067",
+      "32841599",
+      "32737291",
+      "32134250",
+      "32129763",
+      "31636460",
+      "30744993",
+      "30587591",
+      "30250210",
+      "29905871",
+      "29788355",
+      "29281004",
+      "28472330",
+      "27561351",
+      "27238967",
+      "27193686",
+      "27151201",
+      "27028290",
+      "26889708",
+      "26876046",
+      "26152303",
+      "26139637",
+      "25699154",
+      "25313044",
+      "25204769",
+      "25075907",
+      "24740064",
+      "24006471",
+      "23924614",
+      "23582321",
+      "23499654",
+      "23139645",
+      "22706057",
+      "22645321",
+      "22577828",
+      "22224598",
+      "22196731",
+      "21903629",
+      "21471016",
+      "21287615",
+      "21071423",
+      "20711194",
+      "20377884",
+      "19924217",
+      "19816556",
+      "19703402",
+      "19351898",
+      "19151095",
+      "18667691",
+      "18560010",
+      "18250335",
+      "17846036",
+      "17630824",
+      "16738564",
+      "16143512",
+      "16005893",
+      "15933191",
+      "15532068",
+      "14506010",
+      "12598694",
+      "12483203",
+      "10700280",
+      "10592278",
+      "8978853",
+      "8691483",
+      "8604144",
+      "8143162",
+      "6667333"
+    ],
+    "similar": [
+      "36226916",
+      "30339916",
+      "38836839",
+      "36827465",
+      "29235352",
+      "35675441",
+      "37175454",
+      "34132193",
+      "32999067",
+      "19816556",
+      "28095400",
+      "31589429",
+      "35883520",
+      "36564251",
+      "38743619",
+      "34138559",
+      "34310591",
+      "38501649",
+      "39285201",
+      "37662419",
+      "35457196",
+      "38673865",
+      "37047615",
+      "29095844",
+      "29604117",
+      "29432007",
+      "35163572",
+      "35202628",
+      "30253099",
+      "38354652",
+      "39038177",
+      "38171189",
+      "35839100",
+      "35351887",
+      "36232845",
+      "35216287",
+      "34908530",
+      "29594786",
+      "33900725",
+      "31707705",
+      "38732174",
+      "33448856",
+      "22484347",
+      "27258368",
+      "34293212",
+      "38696745",
+      "36586979",
+      "30911759",
+      "37943025",
+      "22071506",
+      "38688074",
+      "26619280",
+      "28266924",
+      "31330173",
+      "32733918",
+      "38515299",
+      "35898310",
+      "24922508",
+      "31141211",
+      "31935082",
+      "31017391",
+      "21998559",
+      "33400510",
+      "27447295",
+      "23228330",
+      "29471734",
+      "33369425",
+      "34551245",
+      "38686454",
+      "29877794",
+      "29720613",
+      "37243229",
+      "24166702",
+      "30779735",
+      "27797456",
+      "28407397",
+      "27491922",
+      "38428364",
+      "38493120",
+      "25340971",
+      "34500587",
+      "34780174",
+      "38743747",
+      "26338443",
+      "30827842",
+      "31063633",
+      "23095452",
+      "31899864",
+      "26236953",
+      "38116743",
+      "23300424",
+      "31017783",
+      "33755013",
+      "36594606",
+      "28760989",
+      "35853093",
+      "37548589",
+      "33006900",
+      "20923659",
+      "38373700",
+      "24058293",
+      "31006514",
+      "37205479",
+      "37102691",
+      "37547010",
+      "39372890"
+    ],
+    "review": [
+      "36226916",
+      "36827465",
+      "37175454",
+      "36564251",
+      "38354652",
+      "38171189",
+      "31707705",
+      "30911759",
+      "38688074",
+      "32733918",
+      "21998559",
+      "38428364"
+    ],
+    "pmc": [
+      "9662819"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36226916/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36226916",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.79932",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

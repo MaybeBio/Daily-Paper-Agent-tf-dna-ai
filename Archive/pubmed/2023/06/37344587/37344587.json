@@ -1,0 +1,469 @@
+{
+  "identity": {
+    "pmid": "37344587",
+    "doi": "10.1038/s41586-023-06179-1",
+    "title": "Structure and function of the RAD51B-RAD51C-RAD51D-XRCC2 tumour suppressor."
+  },
+  "content": {
+    "abstract": "Homologous recombination is a fundamental process of life. It is required for the protection and restart of broken replication forks, the repair of chromosome breaks and the exchange of genetic material during meiosis. Individuals with mutations in key recombination genes, such as BRCA2 (also known as FANCD1), or the RAD51 paralogues RAD51B, RAD51C (also known as FANCO), RAD51D, XRCC2 (also known as FANCU) and XRCC3, are predisposed to breast, ovarian and prostate cancers(1-10) and the cancer-prone syndrome Fanconi anaemia(11-13). The BRCA2 tumour suppressor protein-the product of BRCA2-is well characterized, but the cellular functions of the RAD51 paralogues remain unclear. Genetic knockouts display growth defects, reduced RAD51 focus formation, spontaneous chromosome abnormalities, sensitivity to PARP inhibitors and replication fork defects(14,15), but the precise molecular roles of RAD51 paralogues in fork stability, DNA repair and cancer avoidance remain unknown. Here we used cryo-electron microscopy, AlphaFold2 modelling and structural proteomics to determine the structure of the RAD51B-RAD51C-RAD51D-XRCC2 complex (BCDX2), revealing that RAD51C-RAD51D-XRCC2 mimics three RAD51 protomers aligned within a nucleoprotein filament, whereas RAD51B is highly dynamic. Biochemical and single-molecule analyses showed that BCDX2 stimulates the nucleation and extension of RAD51 filaments-which are essential for recombinational DNA repair-in reactions that depend on the coupled ATPase activities of RAD51B and RAD51C. Our studies demonstrate that BCDX2 orchestrates RAD51 assembly on single stranded DNA for replication fork protection and double strand break repair, in reactions that are critical for tumour avoidance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Cryoelectron Microscopy",
+      "DNA Repair",
+      "DNA Replication",
+      "*DNA-Binding Proteins/chemistry/metabolism/ultrastructure",
+      "Homologous Recombination",
+      "*Rad51 Recombinase/chemistry/metabolism/ultrastructure",
+      "*Tumor Suppressor Proteins/chemistry/metabolism/ultrastructure",
+      "Poly(ADP-ribose) Polymerase Inhibitors",
+      "Neoplasms/genetics/prevention & control",
+      "Proteomics",
+      "Computer Simulation",
+      "*Multiprotein Complexes/chemistry/metabolism/ultrastructure",
+      "DNA Breaks, Double-Stranded"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Greenhough, Luke A",
+        "Liang, Chih-Chao",
+        "Belan, Ondrej",
+        "Kunzelmann, Simone",
+        "Maslen, Sarah",
+        "Rodrigo-Brenni, Monica C",
+        "Anand, Roopesh",
+        "Skehel, Mark",
+        "Boulton, Simon J",
+        "West, Stephen C"
+      ],
+      "short_names": [
+        "Greenhough LA",
+        "Liang CC",
+        "Belan O",
+        "Kunzelmann S",
+        "Maslen S",
+        "Rodrigo-Brenni MC",
+        "Anand R",
+        "Skehel M",
+        "Boulton SJ",
+        "West SC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2678-0549",
+        "ORCID: 0000-0001-9461-6655",
+        "ORCID: 0000-0001-6936-6834",
+        "ORCID: 0000-0001-8848-9418"
+      ],
+      "affiliations": [
+        "The Francis Crick Institute, London, UK.",
+        "The Francis Crick Institute, London, UK.",
+        "The Francis Crick Institute, London, UK.",
+        "Department of Genetics, Harvard Medical School, Boston, MA, USA.",
+        "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA.",
+        "The Francis Crick Institute, London, UK.",
+        "The Francis Crick Institute, London, UK.",
+        "The Francis Crick Institute, London, UK.",
+        "AstraZeneca, Cambridge, UK.",
+        "The Francis Crick Institute, London, UK.",
+        "The Francis Crick Institute, London, UK.",
+        "The Francis Crick Institute, London, UK.",
+        "The Francis Crick Institute, London, UK. stephen.west@crick.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Greenhough, Luke A",
+        "short_name": "Greenhough LA",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "Liang, Chih-Chao",
+        "short_name": "Liang CC",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "Belan, Ondrej",
+        "short_name": "Belan O",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK.",
+          "Department of Genetics, Harvard Medical School, Boston, MA, USA.",
+          "Division of Genetics, Brigham and Women's Hospital, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Kunzelmann, Simone",
+        "short_name": "Kunzelmann S",
+        "identifiers": [
+          "0000-0002-2678-0549"
+        ],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "Maslen, Sarah",
+        "short_name": "Maslen S",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "Rodrigo-Brenni, Monica C",
+        "short_name": "Rodrigo-Brenni MC",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK.",
+          "AstraZeneca, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Anand, Roopesh",
+        "short_name": "Anand R",
+        "identifiers": [
+          "0000-0001-9461-6655"
+        ],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "Skehel, Mark",
+        "short_name": "Skehel M",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "Boulton, Simon J",
+        "short_name": "Boulton SJ",
+        "identifiers": [
+          "0000-0001-6936-6834"
+        ],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "West, Stephen C",
+        "short_name": "West SC",
+        "identifiers": [
+          "0000-0001-8848-9418"
+        ],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK. stephen.west@crick.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/22 01:07",
+    "fetched_at": "2026-09-29 02:39:11"
+  },
+  "links": {
+    "cites": [
+      "42682403",
+      "42682019",
+      "42625895",
+      "42592724",
+      "42589411",
+      "42517872",
+      "42306566",
+      "42225645",
+      "42169974",
+      "42133623",
+      "42055550",
+      "42045641",
+      "42020761",
+      "41772053",
+      "41719405",
+      "41704388",
+      "41542474",
+      "41537447",
+      "41530872",
+      "41337480",
+      "41318657",
+      "41196948",
+      "40820711",
+      "40725095",
+      "40691144",
+      "40670332",
+      "40595518",
+      "40515474",
+      "40369940",
+      "40369102",
+      "40355434",
+      "40153609",
+      "39636933",
+      "39575707",
+      "39430403",
+      "39420761",
+      "39359934",
+      "39299233",
+      "39268578",
+      "39169038",
+      "39145931",
+      "39090304",
+      "39071279",
+      "38880928",
+      "38846492",
+      "38793065",
+      "38658755",
+      "38648056",
+      "38330859",
+      "38081641",
+      "37843130"
+    ],
+    "refs": [
+      "36099300",
+      "35452329",
+      "34937945",
+      "34783343",
+      "34267316",
+      "34265844",
+      "33421364",
+      "33421363",
+      "33378330",
+      "33198135",
+      "33057191",
+      "32881101",
+      "32669601",
+      "32663049",
+      "31730249",
+      "31591578",
+      "31584931",
+      "31240256",
+      "29165669",
+      "28875543",
+      "28250466",
+      "27941862",
+      "27596592",
+      "27322406",
+      "27208205",
+      "26315438",
+      "26278980",
+      "26261251",
+      "24753421",
+      "24675954",
+      "24139550",
+      "23989674",
+      "22743772",
+      "22464251",
+      "22275364",
+      "22232082",
+      "22020281",
+      "21988835",
+      "21822267",
+      "21616938",
+      "20871615",
+      "20729858",
+      "20729832",
+      "20400964",
+      "20400963",
+      "19268590",
+      "18497818",
+      "17515904",
+      "17114795",
+      "16952179",
+      "16926856",
+      "16798872",
+      "16793542",
+      "16236721",
+      "15801753",
+      "15800615",
+      "14704354",
+      "14568533",
+      "12459479",
+      "12442171",
+      "12228710",
+      "11751635",
+      "11239456",
+      "10468570",
+      "9560268",
+      "9311980",
+      "8929543",
+      "7988572",
+      "7634335"
+    ],
+    "similar": [
+      "37344587",
+      "37344589",
+      "39268578",
+      "41196948",
+      "39416194",
+      "32669601",
+      "11842113",
+      "24141787",
+      "12427746",
+      "37843130",
+      "23149936",
+      "36099300",
+      "29729110",
+      "16395335",
+      "31275435",
+      "11744692",
+      "17114795",
+      "24102485",
+      "16236763",
+      "24278037",
+      "23521529",
+      "30551670",
+      "36562461",
+      "25260587",
+      "11751635",
+      "25918678",
+      "11842112",
+      "40670332",
+      "21821141",
+      "15065660",
+      "22302683",
+      "36374936",
+      "19327148",
+      "20207730",
+      "34871438",
+      "35801922",
+      "11459987",
+      "15372620",
+      "14704354",
+      "10749867",
+      "11834724",
+      "16717288",
+      "29458771",
+      "24139550",
+      "15141025",
+      "18402694",
+      "40140565",
+      "15292210",
+      "12967658",
+      "27131790",
+      "15701685",
+      "25282148",
+      "28735897",
+      "16093548",
+      "31618626",
+      "37919288",
+      "25847274",
+      "25773776",
+      "29458758",
+      "11751636",
+      "22167183",
+      "31584931",
+      "29255180",
+      "23108668",
+      "33138032",
+      "35601003",
+      "28976962",
+      "30917004",
+      "27596592",
+      "26354865",
+      "30021152",
+      "34003859",
+      "32354836",
+      "15657438",
+      "15126333",
+      "15037616",
+      "33832919",
+      "27161866",
+      "22020281",
+      "36070766",
+      "38142595",
+      "36702902",
+      "36976771",
+      "30836272",
+      "27797818",
+      "33453169",
+      "29100040",
+      "9469824",
+      "20940401",
+      "20871615",
+      "29654063",
+      "37499663",
+      "20871616",
+      "24348212",
+      "33421363",
+      "37430391",
+      "23438602",
+      "28079255",
+      "15671039",
+      "40441151"
+    ],
+    "review": [
+      "37344587",
+      "30551670",
+      "21821141",
+      "30917004",
+      "38142595",
+      "24348212"
+    ],
+    "pmc": [
+      "7614784"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-023-06179-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37344587/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37344587",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD51C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3250",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

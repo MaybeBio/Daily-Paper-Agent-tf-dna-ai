@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "34549716",
+    "doi": "10.12122/j.issn.1673-4254.2021.08.16",
+    "title": "[Identification of potential regulatory genes for embryonic stem cell self-renewal and pluripotency by random forest]."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To identify novel genes associated with self-renewal and pluripotency of mouse embryonic stem cells(mESCs)by integrating multiomics data based on machine learning methods. METHODS: We integrated multiomics information of mESCs involving transcriptome, histone modifications, chromatin accessibility, transcription factor binding and architectural protein binding, and compared the signal differences between known stem cell self-renewal and pluripotency genes and other genes.By integrating these multiomics data, we established prediction models based on several machine learning classifiers including random forests and performed 5-fold cross validations.The model was trained using the training dataset containing two thirds of the input samples, and the remaining one third of the input samples were used as the test dataset to assess the performance of the model in independent tests.Finally, the results predicted by the model were validated through gene function annotation and cell function experiments including cell viability assay, colony formation assay and cell cycle analysis. RESULTS: Compared with the random genes, the genes known to be associated with self-renewal and pluripotency of mESCs in the multiomics data showed significantly different features.Random forest outperformed the other machine learning algorithms tested on these multiomics data, with an area under the curve (AUC) of 0.883+/-0.018 for cross validation and an AUC of 0.880+/-0.028 for independent test.Based on this model, we identified 893 potential regulatory genes associated wwith self-renewal and pluripotency of mESCs, which were similar to the known genes in functional annotation.Known-down of the predicted novel regulator gene Cct6a resulted in significant decreases in the cell viability of mESCs (P < 0.0001) and the number of cell clones (P < 0.01), significantly increased the number of cells in G1 phase (P < 0.01) and decreasedthe number of S phase cells (P < 0.05).Knockdown of Cct6a also led to failure of positive alkaline phosphatase staining of the mESCs. CONCLUSION: Machine learning model based on multiomics data can be used to predict potential self-renewal and pluripotency regulators with high performance.By using this model, we predicted potential self-renewal and pluripotency regulatory genes including Cct6a and applied experimental validation.This model provides new insights into the regulatory mechanism of mESCs and contribute to stem cell research.",
+    "keywords": [
+      "machine learning",
+      "mouse embryonic stem cells",
+      "pluripotency",
+      "random forest",
+      "self-renewal"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Cell Differentiation",
+      "*Cell Self Renewal",
+      "Cell Survival",
+      "Genes, Regulator",
+      "Mice",
+      "*Mouse Embryonic Stem Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, P",
+        "Tang, X",
+        "Wu, T",
+        "Tian, Q",
+        "Li, M",
+        "Ding, J"
+      ],
+      "short_names": [
+        "Zeng P",
+        "Tang X",
+        "Wu T",
+        "Tian Q",
+        "Li M",
+        "Ding J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medical Science, Southern Medical University, Guangzhou 510515, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou 510080, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou 510080, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou 510080, China.",
+        "School of Basic Medical Science, Southern Medical University, Guangzhou 510515, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou 510080, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, P",
+        "short_name": "Zeng P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science, Southern Medical University, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Tang, X",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wu, T",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Q",
+        "short_name": "Tian Q",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Li, M",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Science, Southern Medical University, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Ding, J",
+        "short_name": "Ding J",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou 510080, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nan fang yi ke da xue xue bao = Journal of Southern Medical University"
+    ],
+    "journal_abbrev": [
+      "Nan Fang Yi Ke Da Xue Xue Bao"
+    ],
+    "pub_date": "2021 Aug 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/23 06:00",
+    "fetched_at": "2026-09-27 23:57:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "31780627",
+      "31753851",
+      "31209293",
+      "31165883",
+      "31066453",
+      "30976793",
+      "30846691",
+      "29930091",
+      "29731168",
+      "29503092",
+      "29224777",
+      "29220666",
+      "29053968",
+      "28536180",
+      "28375158",
+      "28011753",
+      "27966493",
+      "27643841",
+      "27210764",
+      "27079975",
+      "26967279",
+      "25595304",
+      "25394790",
+      "25260700",
+      "25199790",
+      "24361252",
+      "24272434",
+      "24097267",
+      "23794736",
+      "23649632",
+      "23582322",
+      "22763441",
+      "22388286",
+      "21791477",
+      "21176149",
+      "20720539",
+      "19345177",
+      "19339689",
+      "18555785",
+      "16960129",
+      "16767105",
+      "12649500"
+    ],
+    "similar": [
+      "34549716",
+      "29335071",
+      "31151411",
+      "21176149",
+      "30713819",
+      "29562912",
+      "29677519",
+      "32883521",
+      "28091581",
+      "26060037",
+      "32065444",
+      "34121840",
+      "32529664",
+      "31502671",
+      "34958137",
+      "32936029",
+      "36499566",
+      "24307629",
+      "24998255",
+      "31033094",
+      "36100837",
+      "36971904",
+      "32822589",
+      "31142785",
+      "38035769",
+      "30206984",
+      "29576547",
+      "31433977",
+      "27760330",
+      "29513567",
+      "27999898",
+      "27022747",
+      "23495120",
+      "24147624",
+      "29392682",
+      "33050379",
+      "26162091",
+      "28962411",
+      "28982712",
+      "33094376",
+      "29739838",
+      "33796530",
+      "29241165",
+      "25863786",
+      "26459597",
+      "20442752",
+      "30782842",
+      "34631712",
+      "26771354",
+      "26770202",
+      "26598557",
+      "33795648",
+      "24194720",
+      "38706123",
+      "32311348",
+      "29989581",
+      "27988407",
+      "37059858",
+      "31081207",
+      "33068939",
+      "25949116",
+      "30328800",
+      "30846691",
+      "19564334",
+      "29650979",
+      "17074515",
+      "31036718",
+      "25145356",
+      "19619308",
+      "28844657",
+      "36852467",
+      "25802002",
+      "32193337",
+      "25185564",
+      "29729270",
+      "24121003",
+      "18362916",
+      "25817697",
+      "32379912",
+      "21126164",
+      "22548356",
+      "28122243",
+      "34562798",
+      "27376799",
+      "22553165",
+      "26943822",
+      "28579393",
+      "34866316",
+      "29662175",
+      "19056910",
+      "32640867",
+      "28250819",
+      "24090933",
+      "26938105",
+      "20333647",
+      "28848051",
+      "34976070",
+      "29129686",
+      "28850235",
+      "26330232",
+      "35349880",
+      "26711875",
+      "34124061",
+      "26375799",
+      "26865369",
+      "17195167",
+      "19604364",
+      "33271468",
+      "27236334",
+      "16150921",
+      "29894668",
+      "33737502",
+      "35892587",
+      "37091250",
+      "34724190",
+      "36898160",
+      "34541170",
+      "36654154",
+      "34547414",
+      "35019759",
+      "37553721",
+      "26431182",
+      "36355065",
+      "39256871",
+      "36381279",
+      "36563690",
+      "27084933",
+      "22649650",
+      "37964943",
+      "34977504",
+      "35836851",
+      "37559904",
+      "37292794",
+      "37705068",
+      "38292475",
+      "35937980",
+      "33907498",
+      "35573134",
+      "37167320",
+      "37725837",
+      "32687057",
+      "37802073",
+      "28906470",
+      "32916032",
+      "36965484",
+      "34748853",
+      "36307271",
+      "37082146",
+      "37251573",
+      "37144127",
+      "30723489",
+      "33532815",
+      "37192048",
+      "30373828",
+      "35648859",
+      "20614626",
+      "38100557",
+      "35078616",
+      "36171889",
+      "20614589",
+      "33673506",
+      "32038903",
+      "35794111",
+      "37514083",
+      "39375485",
+      "33615183",
+      "32697738",
+      "35872412",
+      "32944369",
+      "34861148",
+      "38177788",
+      "36329554"
+    ],
+    "review": [
+      "34549716",
+      "27999898",
+      "17195167",
+      "32916032",
+      "36307271"
+    ],
+    "pmc": [
+      "8527233"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34549716/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34549716",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-41",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

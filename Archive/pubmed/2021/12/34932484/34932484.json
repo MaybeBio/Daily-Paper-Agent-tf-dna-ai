@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "34932484",
+    "doi": "10.1109/TCBB.2021.3136905",
+    "title": "iDRBP-EL: Identifying DNA- and RNA- Binding Proteins Based on Hierarchical Ensemble Learning."
+  },
+  "content": {
+    "abstract": "Identification of DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs) from the primary sequences is essential for further exploring protein-nucleic acid interactions. Previous studies have shown that machine-learning-based methods can efficiently identify DBPs or RBPs. However, the information used in these methods is slightly unitary, and most of them only can predict DBPs or RBPs. In this study, we proposed a computational predictor iDRBP-EL to identify DNA- and RNA- binding proteins, and introduced hierarchical ensemble learning to integrate three level information. The method can integrate the information of different features, machine learning algorithms and data into one multi-label model. The ablation experiment showed that the fusion of different information can improve the prediction performance and overcome the cross-prediction problem. Experimental results on the independent datasets showed that iDRBP-EL outperformed all the other competing methods. Moreover, we established a user-friendly webserver iDRBP-EL (http://bliulab.net/iDRBP-EL), which can predict both DBPs and RBPs only based on protein sequences.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Algorithms",
+      "Machine Learning",
+      "DNA/genetics",
+      "RNA-Binding Proteins/genetics/metabolism",
+      "DNA-Binding Proteins/metabolism",
+      "RNA/genetics/metabolism",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ning",
+        "Zhang, Jun",
+        "Liu, Bin"
+      ],
+      "short_names": [
+        "Wang N",
+        "Zhang J",
+        "Liu B"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ning",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2023 Jan-Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/22 06:00",
+    "fetched_at": "2026-09-28 03:12:40"
+  },
+  "links": {
+    "cites": [
+      "40391089",
+      "39189466",
+      "38747369",
+      "38660008",
+      "36519304"
+    ],
+    "refs": [],
+    "similar": [
+      "34932484",
+      "32920048",
+      "36044786",
+      "33780341",
+      "38856168",
+      "31722485",
+      "35148267",
+      "31513916",
+      "32808039",
+      "34459488",
+      "38491248",
+      "35451938",
+      "33685590",
+      "30323214",
+      "37158175",
+      "38316843",
+      "35378437",
+      "37651627",
+      "38295475",
+      "26540053",
+      "37405873",
+      "35176130",
+      "28245811",
+      "34571539",
+      "37122147",
+      "27993780",
+      "35521556",
+      "34889887",
+      "32191896",
+      "31483777",
+      "36416116",
+      "33872313",
+      "31661923",
+      "34905768",
+      "30100904",
+      "38747369",
+      "21143803",
+      "28575488",
+      "20677174",
+      "30533006",
+      "25935161",
+      "35051187",
+      "30108593",
+      "34929730",
+      "38830995",
+      "35676633",
+      "31123959",
+      "32300371",
+      "33297946",
+      "30040656",
+      "35457243",
+      "25846271",
+      "30668479",
+      "28851273",
+      "37562328",
+      "30455357",
+      "27720645",
+      "34781902",
+      "29281004",
+      "24854765",
+      "35709747",
+      "28841194",
+      "34415289",
+      "30957840",
+      "38643894",
+      "27565741",
+      "32352006",
+      "28274760",
+      "30388198",
+      "30081234",
+      "35649392",
+      "36370585",
+      "28315749",
+      "33477866",
+      "28383703",
+      "31714956",
+      "36008134",
+      "33439753",
+      "37060772",
+      "35150250",
+      "34159192",
+      "30990191",
+      "34297803",
+      "33126261",
+      "30602422",
+      "30923827",
+      "38317052",
+      "39341811",
+      "35447463",
+      "26482832",
+      "34415020",
+      "22574904",
+      "34291709",
+      "28349426",
+      "38363672",
+      "33454744",
+      "35652477",
+      "37635383",
+      "31393553",
+      "29281985",
+      "30132996",
+      "29253082",
+      "34073705",
+      "34410342",
+      "26254826",
+      "31215361",
+      "37501482",
+      "39312137",
+      "35389869",
+      "37015594",
+      "35731758",
+      "37459792",
+      "38660008",
+      "39103447",
+      "37437362",
+      "37096592",
+      "37166951",
+      "37297360",
+      "35015646",
+      "38790258",
+      "36653447",
+      "37672551",
+      "39256728",
+      "38366802",
+      "32961749",
+      "38460515",
+      "36932656",
+      "37434723",
+      "37280185",
+      "38145947",
+      "37996755"
+    ],
+    "review": [
+      "34932484",
+      "26540053",
+      "25935161",
+      "30455357",
+      "38643894",
+      "28315749",
+      "31714956",
+      "35652477",
+      "29253082",
+      "31215361",
+      "37096592",
+      "38790258",
+      "32961749"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2021.3136905",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2021.3136905",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

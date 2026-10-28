@@ -1,0 +1,313 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.02.538881",
+  "title": "Single cell transcriptomics of the human parasite Schistosoma mansoni first intra-molluscan stage reveals tentative tegumental and stem cell regulators",
+  "doi": "10.1101/2023.05.02.538881",
+  "abstract": "<h4>Background</h4> Schistosomiasis is a major Neglected Tropical Disease, caused by the infection with blood flukes in the genus Schistosoma . To complete the life cycle, the parasite undergoes asexual and sexual reproduction within an intermediate snail host and a definitive mammalian host, respectively. The intra-molluscan phase provides a critical amplification step that ensures a successful transmission. However, the cellular and molecular mechanisms underlying the development of the intra-molluscan stages remain poorly understood. <h4>Methods</h4> S. mansoni mother sporocysts were dissociated into single cell suspensions, and live cells enriched and sequenced using the single cell 10X Genomics Chromium platform. We defined somatic and stem/germinal cell clusters, identified cell type-enriched Gene Ontology (GO) terms, and predicted transcription factor binding sites for key marker genes. <h4>Results</h4> Six cell clusters comprising stem/germinal, two tegument, muscle, neuron, and parenchyma were identified and validated by Fluorescence in situ Hybridisation (FISH). GO term analysis predicted key biological processes for each of the clusters. Using the Self-Assembling Manifold (SAM) algorithm, three sub-clusters were identified within the stem/germinal cell population. Furthermore, transcription factor binding sites and putative transcription factors were predicted for stem/germinal and tegument clusters. <h4>Conclusions</h4> We report a spatially validated single cell transcriptomic analysis of the first intra-molluscan stage of S. mansoni. Key cell regulators were identified, paving the way for future analyses to unveil their role during the parasite development and interaction with its intermediate host.",
+  "authors": [
+    "Soria CLD",
+    "Attenborough T",
+    "Lu Z",
+    "Graham J",
+    "Hall C",
+    "Thompson S",
+    "Andrews TGR",
+    "Rawlinson KA",
+    "Berriman M",
+    "Rinaldi G"
+  ],
+  "published_date": "2023-05-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.02.538881",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.02.538881.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR653944",
+    "raw_record": {
+      "id": "PPR653944",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR653944"
+        ]
+      },
+      "doi": "10.1101/2023.05.02.538881",
+      "title": "Single cell transcriptomics of the human parasite  <i>Schistosoma mansoni</i>  first intra-molluscan stage reveals tentative tegumental and stem cell regulators",
+      "authorString": "Soria CLD, Attenborough T, Lu Z, Graham J, Hall C, Thompson S, Andrews TGR, Rawlinson KA, Berriman M, Rinaldi G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Soria CLD",
+            "lastName": "Soria",
+            "firstName": "Carmen Diaz",
+            "initials": "CLD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Attenborough T",
+            "lastName": "Attenborough",
+            "firstName": "Teresa",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                },
+                {
+                  "affiliation": "Wellcome Centre for Integrative Parasitology, Institute of Infection, Immunity & Inflammation, College of Medical,Veterinary & Life Sciences, University of Glasgow, 120 University Place, Glasgow G12 8TA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu Z",
+            "lastName": "Lu",
+            "firstName": "Zhigang",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6553-5944"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Graham J",
+            "lastName": "Graham",
+            "firstName": "Jennie",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hall C",
+            "lastName": "Hall",
+            "firstName": "Christopher",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thompson S",
+            "lastName": "Thompson",
+            "firstName": "Sam",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andrews TGR",
+            "lastName": "Andrews",
+            "firstName": "Toby",
+            "initials": "TGR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Francis Crick Institute, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rawlinson KA",
+            "lastName": "Rawlinson",
+            "firstName": "Kate",
+            "initials": "KA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8297-8405"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                },
+                {
+                  "affiliation": "Josephine Bay Paul Center, Marine Biological Laboratory, Woods Hole, Massachusetts, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berriman M",
+            "lastName": "Berriman",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9581-0377"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                },
+                {
+                  "affiliation": "Wellcome Centre for Integrative Parasitology, Institute of Infection, Immunity & Inflammation, College of Medical,Veterinary & Life Sciences, University of Glasgow, 120 University Place, Glasgow G12 8TA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rinaldi G",
+            "lastName": "Rinaldi",
+            "firstName": "Gabriel",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK"
+                },
+                {
+                  "affiliation": "Department of Life Sciences, Aberystwyth University, Edward Llwyd Building, Penglais Campus, Aberystwyth SY23 3DA, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6553-5944"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8297-8405"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9581-0377"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Background</h4>  Schistosomiasis is a major Neglected Tropical Disease, caused by the infection with blood flukes in the genus  Schistosoma . To complete the life cycle, the parasite undergoes asexual and sexual reproduction within an intermediate snail host and a definitive mammalian host, respectively. The intra-molluscan phase provides a critical amplification step that ensures a successful transmission. However, the cellular and molecular mechanisms underlying the development of the intra-molluscan stages remain poorly understood.  <h4>Methods</h4>  S. mansoni mother sporocysts were dissociated into single cell suspensions, and live cells enriched and sequenced using the single cell 10X Genomics Chromium platform. We defined somatic and stem/germinal cell clusters, identified cell type-enriched Gene Ontology (GO) terms, and predicted transcription factor binding sites for key marker genes.  <h4>Results</h4>  Six cell clusters comprising stem/germinal, two tegument, muscle, neuron, and parenchyma were identified and validated by Fluorescence  in situ Hybridisation (FISH). GO term analysis predicted key biological processes for each of the clusters. Using the Self-Assembling Manifold (SAM) algorithm, three sub-clusters were identified within the stem/germinal cell population. Furthermore, transcription factor binding sites and putative transcription factors were predicted for stem/germinal and tegument clusters.  <h4>Conclusions</h4>  We report a spatially validated single cell transcriptomic analysis of the first intra-molluscan stage of  S. mansoni. Key cell regulators were identified, paving the way for future analyses to unveil their role during the parasite development and interaction with its intermediate host.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "107475/Z/15/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206194",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/03/2023.05.02.538881.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.02.538881"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR653944"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR653944&type=FILE&fileName=EMS175225-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS175225",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "go",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-05-05",
+      "firstPublicationDate": "2023-05-03",
+      "firstIndexDate": "2023-05-05",
+      "fullTextReceivedDate": "2023-05-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

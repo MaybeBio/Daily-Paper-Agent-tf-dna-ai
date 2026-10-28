@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "37418376",
+    "doi": "10.1371/journal.pone.0287590",
+    "title": "Gene regulatory network inference in soybean upon infection by Phytophthora sojae."
+  },
+  "content": {
+    "abstract": "Phytophthora sojae is a soil-borne oomycete and the causal agent of Phytophthora root and stem rot (PRR) in soybean (Glycine max [L.] Merrill). Yield losses attributed to P. sojae are devastating in disease-conducive environments, with global estimates surpassing 1.1 million tonnes annually. Historically, management of PRR has entailed host genetic resistance (both vertical and horizontal) complemented by disease-suppressive cultural practices (e.g., oomicide application). However, the vast expansion of complex and/or diverse P. sojae pathotypes necessitates developing novel technologies to attenuate PRR in field environments. Therefore, the objective of the present study was to couple high-throughput sequencing data and deep learning to elucidate molecular features in soybean following infection by P. sojae. In doing so, we generated transcriptomes to identify differentially expressed genes (DEGs) during compatible and incompatible interactions with P. sojae and a mock inoculation. The expression data were then used to select two defense-related transcription factors (TFs) belonging to WRKY and RAV families. DNA Affinity Purification and sequencing (DAP-seq) data were obtained for each TF, providing putative DNA binding sites in the soybean genome. These bound sites were used to train Deep Neural Networks with convolutional and recurrent layers to predict new target sites of WRKY and RAV family members in the DEG set. Moreover, we leveraged publicly available Arabidopsis (Arabidopsis thaliana) DAP-seq data for five TF families enriched in our transcriptome analysis to train similar models. These Arabidopsis data-based models were used for cross-species TF binding site prediction on soybean. Finally, we created a gene regulatory network depicting TF-target gene interactions that orchestrate an immune response against P. sojae. Information herein provides novel insight into molecular plant-pathogen interaction and may prove useful in developing soybean cultivars with more durable resistance to P. sojae.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Disease Resistance/genetics",
+      "Glycine max/metabolism",
+      "*Phytophthora/genetics",
+      "*Arabidopsis/genetics",
+      "Gene Regulatory Networks",
+      "Plant Diseases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hale, Brett",
+        "Ratnayake, Sandaruwan",
+        "Flory, Ashley",
+        "Wijeratne, Ravindu",
+        "Schmidt, Clarice",
+        "Robertson, Alison E",
+        "Wijeratne, Asela J"
+      ],
+      "short_names": [
+        "Hale B",
+        "Ratnayake S",
+        "Flory A",
+        "Wijeratne R",
+        "Schmidt C",
+        "Robertson AE",
+        "Wijeratne AJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7817-6351"
+      ],
+      "affiliations": [
+        "Molecular Biosciences Graduate Program, Arkansas State University, State University, AR, United States of America.",
+        "Arkansas Biosciences Institute, Arkansas State University, State University, AR, United States of America.",
+        "College of Science and Mathematics, Arkansas State University, State University, AR, United States of America.",
+        "Arkansas Biosciences Institute, Arkansas State University, State University, AR, United States of America.",
+        "College of Science and Mathematics, Arkansas State University, State University, AR, United States of America.",
+        "Arkansas Biosciences Institute, Arkansas State University, State University, AR, United States of America.",
+        "Houston High School, Germantown, TN, United States of America.",
+        "Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA, United States of America.",
+        "Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA, United States of America.",
+        "Arkansas Biosciences Institute, Arkansas State University, State University, AR, United States of America.",
+        "College of Science and Mathematics, Arkansas State University, State University, AR, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hale, Brett",
+        "short_name": "Hale B",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biosciences Graduate Program, Arkansas State University, State University, AR, United States of America.",
+          "Arkansas Biosciences Institute, Arkansas State University, State University, AR, United States of America.",
+          "College of Science and Mathematics, Arkansas State University, State University, AR, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ratnayake, Sandaruwan",
+        "short_name": "Ratnayake S",
+        "identifiers": [],
+        "affiliations": [
+          "Arkansas Biosciences Institute, Arkansas State University, State University, AR, United States of America.",
+          "College of Science and Mathematics, Arkansas State University, State University, AR, United States of America."
+        ]
+      },
+      {
+        "full_name": "Flory, Ashley",
+        "short_name": "Flory A",
+        "identifiers": [],
+        "affiliations": [
+          "Arkansas Biosciences Institute, Arkansas State University, State University, AR, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wijeratne, Ravindu",
+        "short_name": "Wijeratne R",
+        "identifiers": [],
+        "affiliations": [
+          "Houston High School, Germantown, TN, United States of America."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Clarice",
+        "short_name": "Schmidt C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA, United States of America."
+        ]
+      },
+      {
+        "full_name": "Robertson, Alison E",
+        "short_name": "Robertson AE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wijeratne, Asela J",
+        "short_name": "Wijeratne AJ",
+        "identifiers": [
+          "0000-0002-7817-6351"
+        ],
+        "affiliations": [
+          "Arkansas Biosciences Institute, Arkansas State University, State University, AR, United States of America.",
+          "College of Science and Mathematics, Arkansas State University, State University, AR, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/07 19:13",
+    "fetched_at": "2026-09-29 03:25:47"
+  },
+  "links": {
+    "cites": [
+      "41271683",
+      "40604325",
+      "40579624",
+      "39639668",
+      "39381621",
+      "38023885"
+    ],
+    "refs": [
+      "36113351",
+      "35983231",
+      "35562858",
+      "35258588",
+      "35042722",
+      "34850907",
+      "34751401",
+      "34618136",
+      "34399442",
+      "34034755",
+      "33742112",
+      "33692545",
+      "33684883",
+      "33667112",
+      "33631799",
+      "33584766",
+      "33522898",
+      "33413545",
+      "33391306",
+      "33048599",
+      "33015620",
+      "33009591",
+      "32781273",
+      "32717108",
+      "32687525",
+      "32515009",
+      "32329779",
+      "32209590",
+      "32032516",
+      "31888478",
+      "31818876",
+      "31701126",
+      "31377174",
+      "31375807",
+      "31311650",
+      "31283382",
+      "31226025",
+      "30979945",
+      "30922998",
+      "30804569",
+      "30786857",
+      "30477211",
+      "30430602",
+      "30423086",
+      "30004290",
+      "29794063",
+      "29769331",
+      "29579245",
+      "29441079",
+      "28726847",
+      "28634481",
+      "28553307",
+      "28326092",
+      "28081566",
+      "28065917",
+      "27546191",
+      "27203113",
+      "27084946",
+      "27043002",
+      "26244340",
+      "26213851",
+      "26201819",
+      "25953851",
+      "25779701",
+      "25779349",
+      "25765347",
+      "25697820",
+      "25623163",
+      "25516281",
+      "25199790",
+      "24821185",
+      "24782889",
+      "24575102",
+      "24439900",
+      "24410936",
+      "24348517",
+      "24227677",
+      "24062762",
+      "23840763",
+      "23805876",
+      "23745126",
+      "23663002",
+      "23332764",
+      "23136490",
+      "22947222",
+      "22868264",
+      "22798060",
+      "22685408",
+      "22455463",
+      "22389516",
+      "22110026",
+      "21949271",
+      "21841124",
+      "21498677",
+      "21486936",
+      "21330290",
+      "21278123",
+      "20585331",
+      "20507474",
+      "20097118",
+      "19451168",
+      "19171053",
+      "18798982",
+      "18297307",
+      "17400708",
+      "17108957",
+      "16254242",
+      "15497398",
+      "14597658",
+      "10802651",
+      "10592173",
+      "7048259"
+    ],
+    "similar": [
+      "37418376",
+      "30830582",
+      "36510427",
+      "18825360",
+      "37239903",
+      "35562858",
+      "22694952",
+      "25906415",
+      "29728957",
+      "32631255",
+      "23689748",
+      "34338731",
+      "33200586",
+      "24410936",
+      "24419901",
+      "31888478",
+      "37171031",
+      "26660465",
+      "36614246",
+      "31790644",
+      "36415892",
+      "26758588",
+      "30673456",
+      "36972124",
+      "37046998",
+      "24944042",
+      "34171147",
+      "31013701",
+      "36782397",
+      "32172740",
+      "23354974",
+      "30049268",
+      "34413429",
+      "25779701",
+      "28258371",
+      "27316671",
+      "28910339",
+      "31518653",
+      "38772042",
+      "28553307",
+      "34370048",
+      "32960288",
+      "26114301",
+      "30113770",
+      "38673832",
+      "28441441",
+      "29138903",
+      "29579245",
+      "26544849",
+      "34964282",
+      "28775360",
+      "31540158",
+      "32209590",
+      "34812941",
+      "38424489",
+      "32396460",
+      "34161124",
+      "21802053",
+      "26474489",
+      "36699593",
+      "34550751",
+      "24763608",
+      "23530601",
+      "37251755",
+      "17010107",
+      "34289716",
+      "36896979",
+      "28411083",
+      "20390244",
+      "29848307",
+      "23467992",
+      "38931137",
+      "28246754",
+      "38009407",
+      "38619823",
+      "25189230",
+      "27591777",
+      "23136490",
+      "32811867",
+      "36250814",
+      "29101280",
+      "18943406",
+      "20507474",
+      "37758723",
+      "15497398",
+      "17263843",
+      "29270182",
+      "32302119",
+      "30686197",
+      "20192830",
+      "17494920",
+      "30394556",
+      "34184554",
+      "28326092",
+      "23594349",
+      "33078613",
+      "31244568",
+      "35214893",
+      "24737571",
+      "30812766",
+      "32245402",
+      "28725237",
+      "25387135",
+      "12410814",
+      "38835304",
+      "38023885",
+      "33742112",
+      "38808392",
+      "10806241",
+      "38068594",
+      "29441079",
+      "39141590",
+      "38786673",
+      "18366691",
+      "39313002",
+      "38386094",
+      "36675833",
+      "37952706",
+      "36748674",
+      "36461945",
+      "21899734",
+      "39001589",
+      "38542484",
+      "38755668",
+      "26635848",
+      "38225090",
+      "11724938",
+      "10592189",
+      "36493385",
+      "39404131",
+      "38931140",
+      "33008016"
+    ],
+    "review": [
+      "37418376",
+      "36699593",
+      "37758723"
+    ],
+    "pmc": [
+      "10328377"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0287590",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37418376/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37418376",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

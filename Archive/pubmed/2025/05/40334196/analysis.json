@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40334196",
+  "title": "A KAN-based hybrid deep neural networks for accurate identification of transcription factor binding sites.",
+  "authors": "He, Guodong; Ye, Jiahao; Hao, Huijun; Chen, Wei",
+  "journal": "PloS one",
+  "published_date": "2025-05-07",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 8,
+  "one_liner_zh": "提出CBR-KAN混合深度网络（CNN+BiLSTM+残差+KAN）预测转录因子结合位点，核心聚焦TF-DNA互作位点识别，方法为AI深度学习，高度匹配课题。",
+  "abstract": "BACKGROUND: Predicting protein-DNA binding sites in vivo is a challenging but urgent task in many fields such as drug design and development. Most promoters contain many transcription factor (TF) binding sites, yet only a few have been identified through time-consuming biochemical experiments. To address this challenge, numerous computational approaches have been proposed to predict TF binding sites from DNA sequences. However, current deep learning methods often face issues such as gradient vanishing as the model depth increases, leading to suboptimal feature extraction. RESULTS: We propose a model called CBR-KAN (where C represents Convolutional Neural Network (CNN), B represents Bidirectional Long Short Term Memory (BiLSTM), and R represents Residual Mechanism) to predict transcription factor binding sites. Specifically, we designed a multi-scale convolution module (ConvBlock1, 2, 3) combined with BiLSTM network, introduced KAN network to replace traditional multilayer perceptron, and promoted model optimization through residual connections. Testing on 50 common ChIP seq benchmark datasets shows that CBR-KAN outperforms other state-of-the-art methods such as DeepBind, DanQ, DeepD2V, and DeepSEA in predicting TF binding sites. CONCLUSIONS: The CBR-KAN model significantly improves prediction accuracy for transcription factor binding sites by effectively integrating multiple neural network architectures and mechanisms. This approach not only enhances feature extraction but also stabilizes training and boosts generalization capabilities. The promising results on multiple key performance indicators demonstrate the potential of CBR-KAN in bioinformatics applications.",
+  "abstract_zh": "背景：在药物设计与开发等多个领域中，预测体内蛋白质-DNA结合位点是一项具有挑战性但紧迫的任务。大多数启动子包含许多转录因子（TF）结合位点，但仅有少数通过耗时的生化实验被鉴定出来。为应对这一挑战，已提出众多计算方法从DNA序列中预测TF结合位点。然而，当前的深度学习方法常面临模型深度增加时梯度消失等问题，导致特征提取效果欠佳。结果：我们提出了一种名为CBR-KAN的模型（其中C代表卷积神经网络（CNN），B代表双向长短期记忆网络（BiLSTM），R代表残差机制）来预测转录因子结合位点。具体而言，我们设计了一个多尺度卷积模块（ConvBlock1、2、3）与BiLSTM网络相结合，引入KAN网络替代传统多层感知器，并通过残差连接促进模型优化。在50个常见的ChIP-seq基准数据集上的测试表明，CBR-KAN在预测TF结合位点方面优于其他最先进的方法，如DeepBind、DanQ、DeepD2V和DeepSEA。结论：CBR-KAN模型通过有效整合多种神经网络架构和机制，显著提高了转录因子结合位点的预测准确性。该方法不仅增强了特征提取能力，还稳定了训练过程并提升了泛化能力。在多个关键性能指标上的优异结果展示了CBR-KAN在生物信息学应用中的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40334196/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40334196/",
+  "paper_page_path": "papers/pubmed/40334196/index.html"
+}

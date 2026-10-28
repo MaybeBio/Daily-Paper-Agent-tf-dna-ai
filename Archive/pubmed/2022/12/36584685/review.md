@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, experimental procedures, supplemental information descriptions)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and reproducibility as presented in the provided text. No access to figures, tables, or supplemental data beyond what is described.
+- **Shared manuscript claim summary** The authors apply their previously published CellOracle computational method to infer gene regulatory network (GRN) configurations during direct lineage reprogramming of fibroblasts to induced endoderm progenitors (iEPs). They combine this with CellTag-based clonal tracing to link early GRN states to reprogramming outcomes, perform in silico TF perturbation screens to identify novel regulators, and experimentally validate Fos and Yap1 as enhancers of reprogramming efficiency and mediators of iEP identity maintenance.
+- **Visible evidence base** Text descriptions of Figures 1–5, Tables S1–S3, and supplemental experimental procedures. Statistical tests are mentioned (Wilcoxon, t test, permutation, randomized tests) with p-values for key comparisons.
+- **Missing materials affecting confidence** Actual figures and tables, detailed supplemental methods, raw data, code version details, and full statistical reporting. The manuscript states "Detailed experimental procedures can be found in the supplemental information," which is not provided here.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling application of a previously published computational tool (CellOracle) to a well-characterized direct reprogramming system. The integration of clonal lineage tracing with GRN inference is conceptually strong and addresses a key limitation in the field: linking early molecular states to eventual fate outcomes. The identification and validation of Fos and the AP-1-Yap1 axis as novel regulators of iEP reprogramming is potentially significant. However, the manuscript as presented has several technical concerns that need to be addressed, particularly around the statistical rigor of the in silico predictions, the specificity of the experimental validations, and the clarity of the causal claims made. The evidence for Fos's role in iEP maintenance is suggestive but not fully conclusive from the described experiments.
+- **Who would be interested in the results, and why** Researchers in cellular reprogramming, developmental biology, and computational biology. Those working on direct lineage conversion will be interested in the identification of Fos and Yap1 as enhancers of iEP generation. Computational biologists will be interested in the application of CellOracle to a fate-mapped system, demonstrating a workflow for linking GRN states to outcomes. The potential connection to liver regeneration and injury responses may also interest regenerative medicine researchers.
+- **Major strengths** 1) The combination of clonal lineage tracing with GRN inference is a novel and powerful approach to dissect heterogeneity in reprogramming. 2) The systematic in silico perturbation screen provides a clear, unbiased workflow for candidate regulator identification. 3) The experimental validation of multiple predicted regulators, including the detailed follow-up on Fos, strengthens the claims. 4) The connection to the AP-1-Yap1 axis provides a mechanistically plausible and testable model. 5) The manuscript is generally clearly written and the logic is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and validation of in silico predictions
+  - **Claim pointer** The manuscript claims that the in silico KO screen identifies novel regulators of reprogramming, and that knockdown of six of eight tested TFs impairs reprogramming.
+  - **Evidence pointer** Figure 3D–G, Table S1, S3; location not provided
+  - **Concern** The validation rate of six out of eight is presented as strong confirmation of the method. However, the manuscript does not describe how the eight candidates were selected from the larger ranked list. If selection was biased toward known factors or those with high expression, the validation rate may not be representative. Furthermore, the statistical framework for the perturbation score is not fully described. How are false positives controlled for across 180 TFs? What is the null distribution for the perturbation score? The manuscript mentions a "sum of negative perturbation scores" but does not explain how significance is determined or how multiple testing is addressed.
+  - **Why it matters** Without a clear statistical framework, the ranking of TFs and the subsequent validation could be driven by noise or artifacts. The claim that CellOracle can systematically identify novel regulators depends on the reliability of these scores. If the selection of candidates for validation was not pre-specified or blinded, the validation rate could be inflated.
+  - **Resolution test** Provide a detailed description of the perturbation score calculation, including the null model and multiple testing correction. Describe the criteria for selecting the eight candidates for experimental validation. Ideally, show that the validation rate is significantly better than random selection from the ranked list. Provide confidence intervals for the validation rate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence for Fos in iEP maintenance
+  - **Claim pointer** The manuscript claims that Fos plays a role in maintaining iEP identity, based on CRISPR-Cas9 KO in established iEPs leading to regression toward an intermediate state.
+  - **Evidence pointer** Figure 4I–J; location not provided
+  - **Concern** The description of the KO experiment is brief. The manuscript states that "fully reprogrammed iEPs regress toward an intermediate state upon Fos KO" but does not provide details on the quantification, the time course, or the markers used to define the "intermediate state." It is unclear if this regression is a direct effect of Fos loss or a secondary consequence of cell death, proliferation changes, or selection. The manuscript also does not address potential off-target effects of the CRISPR guide RNAs or the efficiency of the KO.
+  - **Why it matters** The claim that Fos is required for maintenance is a strong one with implications for understanding iEP stability. If the evidence is not robust, the conclusion is overstated. The distinction between a direct role in maintenance versus a non-specific effect of KO is critical.
+  - **Resolution test** Provide more detailed experimental data, including KO efficiency, time course of the phenotype, and a more precise molecular characterization of the "intermediate state." Use multiple guide RNAs to rule out off-target effects. Consider rescue experiments with Fos overexpression to demonstrate specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and interpretation of GRN inference
+  - **Claim pointer** The manuscript claims that the GRN reconfiguration analysis reveals distinct network configurations underlying successful and failed fate conversion, and that early GRN state determines outcome.
+  - **Evidence pointer** Figures 1J–K, 2H; location not provided
+  - **Concern** The comparison of GRN configurations between successful and failed trajectories is based on a relatively small number of cells (55 iEP-enriched vs 50 iEP-depleted day 4 cells). The manuscript does not discuss the statistical power of this comparison or the potential for batch effects or technical noise to drive the observed differences. The claim that "early GRN state determines outcome" is strong, but the analysis is correlative. The manuscript does not demonstrate causality, e.g., by perturbing the identified early network differences and showing a change in outcome.
+  - **Why it matters** The central premise of the paper is that early GRN state is linked to fate. If the comparison is underpowered or confounded, the conclusion is weakened. The field is moving toward causal inference, and the manuscript should be clear about the correlative nature of this analysis.
+  - **Resolution test** Provide a power analysis or confidence intervals for the GRN comparisons. Discuss potential confounders. If possible, perform a perturbation experiment targeting an early network difference (e.g., a TF highly connected in the failed trajectory) and show that its knockdown or overexpression changes the proportion of cells that successfully reprogram.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the AP-1-Yap1 mechanism
+  - **Claim pointer** The manuscript claims that Fos acts via an AP-1-Yap1-mediated mechanism, based on the presence of YAP1 targets among inferred Fos targets and the enhanced reprogramming with Yap1 overexpression.
+  - **Evidence pointer** Figure 5A–G, Table S2; location not provided
+  - **Concern** The evidence for a direct mechanistic link between Fos and Yap1 is indirect. The manuscript shows that YAP1 targets are among inferred Fos targets and that Yap1 overexpression enhances reprogramming. However, it does not demonstrate a physical interaction between Fos and Yap1 in this context, nor does it show that the effects of Fos overexpression require Yap1 (e.g., by knocking down Yap1 in the context of Fos overexpression). The claim of a "Fos-Yap1 axis" implies a functional interdependence that is not directly tested.
+  - **Why it matters** The proposed mechanism is a key novel finding. If the interdependence is not demonstrated, the model is speculative. The manuscript should either provide direct evidence for the interaction or temper the mechanistic claims.
+  - **Resolution test** Perform a Yap1 knockdown in the context of Fos overexpression to see if the enhanced reprogramming is abolished. Use immunoprecipitation or a proximity ligation assay to demonstrate a physical interaction. Alternatively, use a Yap1 mutant that cannot interact with AP-1 to test functional dependence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "Connector hub" classification
+  - **Evidence pointer** Figure 1I, S1E; location not provided
+  - **Issue** The term "connector hub" is used but not defined in the main text. It is unclear what specific network property this refers to and how it differs from other hub classifications.
+  - **Required correction** Provide a brief definition of "connector hub" in the main text or refer to the original CellOracle publication for the definition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of experimental details
+  - **Affected element** shRNA knockdown validation
+  - **Evidence pointer** Figure 3F–G, S3G–I; location not provided
+  - **Issue** The manuscript states that knockdown was confirmed by qRT-PCR but does not report the knockdown efficiency for each shRNA. It is also unclear if the shRNAs were validated for off-target effects.
+  - **Required correction** Report knockdown efficiencies for each shRNA and discuss potential off-target effects. If not tested, acknowledge this limitation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Colony formation assays
+  - **Evidence pointer** Figure 3G, 4G, 5B; location not provided
+  - **Issue** The manuscript reports p-values but does not consistently report effect sizes or confidence intervals. For the colony formation assays, it is unclear if the differences are biologically meaningful beyond statistical significance.
+  - **Required correction** Report effect sizes and confidence intervals for key comparisons. Consider showing individual data points in the boxplots.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of scRNA-seq classification
+  - **Affected element** Capybara classification of iEPs
+  - **Evidence pointer** Figure 5G; location not provided
+  - **Issue** The manuscript states that iEPs classify as "injured BECs" following Fos and Yap1 addition. It is unclear how robust this classification is and whether it reflects a true cell identity change or a transcriptional similarity.
+  - **Required correction** Provide more details on the Capybara classification, including confidence scores and a comparison to other reference cell types. Discuss the limitations of transcriptional classification for defining cell identity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility of computational analysis
+  - **Affected element** CellOracle parameters
+  - **Evidence pointer** Supplemental experimental procedures; location not provided
+  - **Issue** The manuscript does not describe the specific parameters used for CellOracle GRN inference in this dataset (e.g., thresholds for regulatory potential, number of boosting rounds). This limits reproducibility.
+  - **Required correction** Provide a detailed description of all parameters used, or ensure the code and configuration files are available in the repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical framework for in silico screen), R1-M2 (causal evidence for Fos maintenance role). These are the primary issues that could undermine the core claims. R1-M3 and R1-M4 are important but may be addressable with additional analysis or tempered language.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The combination of clonal lineage tracing with GRN inference and in silico perturbation is a novel workflow. The identification of Fos and Yap1 in this context is new.
+  - **Scientific importance** Moderate to high. The findings have implications for improving reprogramming efficiency and understanding the molecular barriers to fate conversion. The connection to injury responses and regeneration is intriguing.
+  - **Interdisciplinary readership** Moderate. The work bridges computational biology and stem cell biology. The methods are sophisticated but the presentation is accessible. The broader significance to fields beyond reprogramming may be limited.
+  - **Technical soundness** The core computational method has been previously published and validated. The experimental validations are appropriate but have gaps as noted in R1-M1 and R1-M2. The statistical framework for the in silico screen needs clarification.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. The figures are described in sufficient detail. However, some terms (e.g., "connector hub") could be better defined for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially important advance in the application of GRN inference to reprogramming. The major concerns regarding statistical rigor and causal evidence need to be addressed. If the authors can provide a clearer statistical framework for the in silico predictions and more robust evidence for the role of Fos in maintenance, the manuscript would be suitable for publication. Currently, the case is not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that "early GRN state determines outcome" is correlative and not causally demonstrated.
+- The claim of a "Fos-Yap1 axis" implies a functional interdependence that is not directly tested.
+- The validation rate of six out of eight in the in silico screen is presented as strong confirmation, but the selection criteria for these eight candidates are not described, making the rate difficult to interpret.
+- The claim that iEPs resemble "injured BECs" following Fos and Yap1 addition is based on transcriptional classification and may not reflect a true cell identity change.
+- The manuscript states that Fos is "central to reprogramming initiation and maintenance," but the evidence for the maintenance role is based on a single KO experiment with limited described detail.

@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "39482734",
+    "doi": "10.1186/s13059-024-03424-2",
+    "title": "Benchmarking and building DNA binding affinity models using allele-specific and allele-agnostic transcription factor binding data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Transcription factors (TFs) bind to DNA in a highly sequence-specific manner. This specificity manifests itself in vivo as differences in TF occupancy between the two alleles at heterozygous loci. Genome-scale assays such as ChIP-seq currently are limited in their power to detect allele-specific binding (ASB) both in terms of read coverage and representation of individual variants in the cell lines used. This makes prediction of allelic differences in TF binding from sequence alone desirable, provided that the reliability of such predictions can be quantitatively assessed. RESULTS: We here propose methods for benchmarking sequence-to-affinity models for TF binding in terms of their ability to predict allelic imbalances in ChIP-seq counts. We use a likelihood function based on an over-dispersed binomial distribution to aggregate evidence for allelic preference across the genome without requiring statistical significance for individual variants. This allows us to systematically compare predictive performance when multiple binding models for the same TF are available. To facilitate the de novo inference of high-quality models from paired-end in vivo binding data such as ChIP-seq, ChIP-exo, and CUT&Tag without read mapping or peak calling, we introduce an extensible reimplementation of our biophysically interpretable machine learning framework named PyProBound. Explicitly accounting for assay-specific bias in DNA fragmentation rate when training on ChIP-seq yields improved TF binding models. Moreover, we show how PyProBound can leverage our threshold-free ASB likelihood function to perform de novo motif discovery using allele-specific ChIP-seq counts. CONCLUSION: Our work provides new strategies for predicting the functional impact of non-coding variants.",
+    "keywords": [
+      "Allele-specific binding",
+      "Biophysically interpretable machine learning",
+      "CTCF, EBF1, PU.1/SPI1",
+      "ChIP-seq, ChIP-exo, CUT&Tag",
+      "Gene expression regulation",
+      "Motif discovery",
+      "Non-coding variants",
+      "Statistical modeling",
+      "Transcription factors"
+    ],
+    "mesh_terms": [
+      "*Alleles",
+      "*Benchmarking",
+      "*Transcription Factors/metabolism/genetics",
+      "Humans",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "*DNA/metabolism/genetics",
+      "Protein Binding",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiaoting",
+        "Melo, Lucas A N",
+        "Bussemaker, Harmen J"
+      ],
+      "short_names": [
+        "Li X",
+        "Melo LAN",
+        "Bussemaker HJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4938-7587",
+        "ORCID: 0000-0002-7563-7554",
+        "ORCID: 0000-0002-7274-5277"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Columbia University, New York, NY, 10027, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, 10027, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, 10027, USA. hjb2004@columbia.edu.",
+        "Department of Systems Biology, Columbia University, New York, NY, 10032, USA. hjb2004@columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiaoting",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0003-4938-7587"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Melo, Lucas A N",
+        "short_name": "Melo LAN",
+        "identifiers": [
+          "0000-0002-7563-7554"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Bussemaker, Harmen J",
+        "short_name": "Bussemaker HJ",
+        "identifiers": [
+          "0000-0002-7274-5277"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, 10027, USA. hjb2004@columbia.edu.",
+          "Department of Systems Biology, Columbia University, New York, NY, 10032, USA. hjb2004@columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2024 Oct 31",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 07:23",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "40874594",
+      "38352411"
+    ],
+    "refs": [
+      "35606422",
+      "33980847",
+      "31713622",
+      "31701148",
+      "31283382",
+      "31036827",
+      "30030442",
+      "29610332",
+      "29425488",
+      "29140464",
+      "29073143",
+      "28092692",
+      "27471964",
+      "27089393",
+      "26993500",
+      "26213851",
+      "24136355",
+      "23332764",
+      "22955828",
+      "22955616",
+      "22300769",
+      "21938619",
+      "20299549",
+      "19505943",
+      "17540862",
+      "16873464"
+    ],
+    "similar": [
+      "39482734",
+      "38168434",
+      "37805453",
+      "39152038",
+      "20158869",
+      "27104615",
+      "26818008",
+      "20838582",
+      "24039567",
+      "38517697",
+      "27492288",
+      "19956545",
+      "30517703",
+      "30598100",
+      "40102719",
+      "40065237",
+      "24472686",
+      "24927817",
+      "22863112",
+      "38937662",
+      "24564277",
+      "23194258",
+      "37214836",
+      "42099803",
+      "35681170",
+      "30578913",
+      "31362726",
+      "28750606",
+      "40335485",
+      "35240993",
+      "26291518",
+      "24920305",
+      "25249628",
+      "28234893",
+      "27526722",
+      "28235418",
+      "23595148",
+      "40848288",
+      "40250421",
+      "24428924",
+      "37650641",
+      "40702706",
+      "36631751",
+      "28849563",
+      "26971251",
+      "35410161",
+      "27899623",
+      "19597778",
+      "41022541",
+      "22300769",
+      "32393327",
+      "39535534",
+      "30897079",
+      "22950704",
+      "38831039",
+      "25070602",
+      "32850739",
+      "29617928",
+      "35606422",
+      "37158941",
+      "28957321",
+      "20525272",
+      "31138617",
+      "18684996",
+      "25486472",
+      "34292930",
+      "24565265",
+      "31723409",
+      "26703974",
+      "34953471",
+      "32085702",
+      "37873117",
+      "21602262",
+      "25128017",
+      "39796242",
+      "41526967",
+      "25957350",
+      "24581441",
+      "32976105",
+      "25294828",
+      "26552868",
+      "38066439",
+      "23804403",
+      "26285121",
+      "34174819",
+      "31942977",
+      "32574834",
+      "26908256",
+      "39271116",
+      "41518494",
+      "23824858",
+      "25775564",
+      "29654070",
+      "23762209",
+      "29363433",
+      "23935523",
+      "23748563",
+      "39402535",
+      "38256085",
+      "29848263"
+    ],
+    "review": [
+      "39482734",
+      "25486472"
+    ],
+    "pmc": [
+      "11529166"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03424-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39482734/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

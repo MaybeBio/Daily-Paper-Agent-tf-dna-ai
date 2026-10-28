@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors propose that sinomenine activates the Keap1-Nrf2-ARE pathway, leading to Nrf2 nuclear translocation and upregulation of ARE-dependent antioxidant genes, thereby protecting against H2O2-induced oxidative injury. The claim is supported by in vitro cytotoxicity and antioxidant assays, fluorescence polarization binding studies, quantum chemical calculations, molecular simulations, qPCR, and Western blot.
+- **Visible evidence base** Abstract text only; no figures, tables, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, raw data, statistical analyses, figure legends, and any supplementary information are not available. The abstract does not specify experimental replicates, controls, or quantitative details for most assays.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis linking sinomenine to Nrf2 activation via Keap1 binding. However, the evidence as summarized is insufficient to establish the causal chain from Keap1 binding to functional antioxidant protection. Several key controls and quantitative details are absent, and the claim that sinomenine "inhibits the binding of Keap1 to Nrf2" is not directly demonstrated by the data described.
+- **Who would be interested in the results, and why** Researchers in redox biology, natural product pharmacology, and drug discovery for oxidative stress-related diseases would find this work relevant. The potential therapeutic application of sinomenine as an Nrf2 activator could interest translational scientists working on neuroprotection, hepatoprotection, or inflammatory conditions.
+- **Major strengths** The study combines multiple experimental and computational approaches, including fluorescence polarization, quantum chemical calculations, molecular simulation, qPCR, and Western blot. The use of a clinically relevant natural product and the focus on a well-defined pathway add translational value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "sinomenine inhibits the binding of Keap1 to Nrf2, promotes the nuclear accumulation of Nrf2 and thus leads to the upregulated expressions of Nrf2-dependent antioxidative genes"
+  - **Evidence pointer** Abstract sections on fluorescence polarization, qPCR, and Western blot; location not provided
+  - **Concern** The abstract states that sinomenine binds Keap1 with an IC50 of 13.52 µM, but no direct evidence is presented that this binding disrupts the Keap1-Nrf2 interaction. The fluorescence polarization assay measures binding affinity, not functional inhibition of the protein-protein interaction. The subsequent Nrf2 nuclear translocation and ARE activation are consistent with Keap1 inhibition but could also arise from other mechanisms, such as oxidative stress induction or off-target effects.
+  - **Why it matters** The central mechanistic claim depends on demonstrating that sinomenine specifically disrupts Keap1-Nrf2 binding. Without a direct assay (e.g., co-immunoprecipitation, competitive binding, or a Keap1-Nrf2 interaction reporter), the causal link remains correlative.
+  - **Resolution test** Provide data from a direct Keap1-Nrf2 interaction assay (e.g., pull-down or FRET) showing reduced interaction in the presence of sinomenine. Alternatively, show that Nrf2 activation is abolished in Keap1-knockout cells or with a Keap1 mutant that cannot bind sinomenine.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** "sinomenine has no effect on the decreased cell viability and presents similar potency in scavenging all three free radicals"
+  - **Evidence pointer** Abstract section on cytotoxicity and antioxidant experiments; location not provided
+  - **Concern** The abstract reports that sinomenine does not protect against H2O2-induced cell death, yet the overall conclusion is that sinomenine protects against oxidative injury. This apparent contradiction is not resolved. If sinomenine does not improve cell viability, the functional significance of Nrf2 activation is unclear.
+  - **Why it matters** The title and conclusion emphasize antioxidant protection, but the only functional readout mentioned (cell viability) shows no protective effect. This undermines the translational relevance and the claim that the pathway activation leads to protection.
+  - **Resolution test** Clarify whether the viability assay used a different oxidative stress model or time point. Provide additional functional endpoints (e.g., ROS levels, apoptosis markers, or mitochondrial function) that demonstrate protection. If no protection is observed, revise the conclusion to focus on pathway activation rather than protection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** "sinomenine efficiently induced nuclear translocation of Nrf2, and increased in ARE activity in a concentration-dependent manner"
+  - **Evidence pointer** Abstract sections on nuclear translocation and ARE activity; location not provided
+  - **Concern** The abstract does not provide quantitative data for Nrf2 nuclear translocation (e.g., fold change, concentration range) or ARE activity (e.g., EC50, maximal induction). The term "efficiently" is subjective without numerical context.
+  - **Why it matters** Concentration-dependent effects are central to establishing a pharmacological mechanism. Without dose-response data, the potency and efficacy of sinomenine cannot be evaluated or compared to known Nrf2 activators.
+  - **Resolution test** Include dose-response curves for Nrf2 nuclear translocation and ARE activity, with statistical comparisons and appropriate controls (e.g., vehicle, positive control such as sulforaphane).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract section on antioxidant experiments; location not provided
+  - **Issue** The phrase "similar potency in scavenging all three free radicals" is vague. The identity of the three radicals and the assay used are not specified.
+  - **Required correction** Specify the radicals (e.g., DPPH, ABTS, hydroxyl) and the assay conditions, or remove this claim if not central to the mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract sections on qPCR and Western blot; location not provided
+  - **Issue** The abstract does not state the cell type used for qPCR and Western blot experiments, nor the concentration and duration of sinomenine treatment.
+  - **Required correction** Include the cell line and treatment conditions in the abstract or refer to the methods section for these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Data presentation
+  - **Evidence pointer** Abstract sections on qPCR and Western blot; location not provided
+  - **Issue** No statistical measures (e.g., mean ± SD, p-values, number of replicates) are reported for the gene expression and protein data.
+  - **Required correction** Add statistical details to the abstract or ensure they are prominently presented in the figures and results section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct Keap1-Nrf2 interaction disruption evidence) and R1-M2 (lack of functional protection despite the title claim) are the primary technical failings. R1-M3 (missing quantitative dose-response data) also needs resolution.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The application of sinomenine to Nrf2 activation is novel, but the general concept of Keap1-Nrf2 activation by natural products is well established.  
+  - Scientific importance: Moderate. The findings could inform therapeutic strategies for oxidative stress, but the lack of functional protection limits immediate impact.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to redox biology and pharmacology specialists, with less appeal to a broad interdisciplinary audience.  
+  - Technical soundness: Not fully assessable from the abstract. The combination of methods is appropriate, but key controls and quantitative details are missing.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses technical terms without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic claim requires direct evidence of Keap1-Nrf2 disruption, and the functional relevance must be reconciled with the reported lack of cell viability protection. Supportive if these technical concerns are resolved with additional data.
+
+## Risk / unsupported claims
+- The claim that sinomenine "inhibits the binding of Keap1 to Nrf2" is unsupported by the described data, as only binding affinity to Keap1 was measured.
+- The claim that sinomenine protects against oxidative injury is unsupported by the reported cell viability result, which showed no effect.
+- The statement that sinomenine "efficiently" induces Nrf2 nuclear translocation and ARE activity is not quantitatively supported.
+- The relevance of the computational binding simulations to the cellular context is not established without experimental validation of the predicted binding mode.

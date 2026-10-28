@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "40490231",
+    "doi": "10.1016/j.jep.2025.120080",
+    "title": "Scoparone alleviates aortic aneurysm formation by inhibiting smooth muscle cell phenotypic switching and inflammation via mTOR suppression."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Key pathophysiological mechanisms such as chronic inflammation, oxidative stress, and vascular smooth muscle cells (VSMCs) phenotypic change are vital in defining abdominal aortic aneurysm (AAA). In traditional Chinese medicine, scoparone, or 6,7-dimethoxycoumarin, is the essential mixture found in the herb Artemisia capillaries Thunb (Yin chen hao), used for treating disorders related to the liver, bile, and inflammation. The potential of scoparone to protect against AAA and the mechanisms behind it have yet to be clarified. AIM OF THE STUDY: Our investigation focused on understanding the impact of scoparone on AAA formation and the processes behind it. MATERIALS AND METHODS: The AAA model in mice was established with porcine pancreatic elastase (PPE), and ultrasound was used to assess scoparone's therapeutic effects. The morphological impact of scoparone on AAA formation was assessed using hematoxylin-eosin (HE) and Verhoeff-Van Gieson (VVG) staining. Later, network pharmacology, molecular docking, and molecular dynamics simulation were employed to determine scoparone's key molecular targets against AAA, with the target effects being verified in vitro and in vivo. RESULTS: In this study, we showed that scoparone inhibited PPE-induced AAA formation and elastin degradation in mice. By utilizing network pharmacology, molecular docking, and molecular dynamics simulation, we identified the mammalian target of rapamycin (mTOR) signaling pathway as a potential target for scoparone in addressing AAA. Experiments conducted both in vivo and in vitro further validated that scoparone inhibited mTOR signaling pathway activation and VSMCs phenotypic switching, the evidence is seen in the reduced phosphorylation ratios of S6 and S6K, the increased expression of VSMCs contractile markers including alpha-smooth muscle actin (alpha-SMA), smooth muscle 22 (SM22), and calponin 1 (CNN1), and the decreased levels of synthetic markers such as osteopontin (OPN) and Kruppel-like factor 4 (KLF4). However, these effects were abolished by application of mTOR inhibitor - rapamycin. Additionally, scoparone also reduced the infiltration and M1 polarization of macrophage and the production of inflammation-related cytokines like tumor necrosis factor (TNF)-alpha, interleukin (IL)-6, and IL-1beta. CONCLUSION: Scoparone inhibited the development of AAA in mice by: (i) blocking the phenotypic change of VSMCs via suppression of the mTOR pathway; and (ii) decreasing macrophage infiltration, M1 polarization, and the release of inflammatory cytokines.",
+    "keywords": [
+      "Abdominal aortic aneurysm",
+      "Inflammation",
+      "Phenotypic switching",
+      "Scoparone",
+      "VSMCs",
+      "mTOR"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Coumarins/pharmacology/therapeutic use",
+      "*TOR Serine-Threonine Kinases/metabolism/antagonists & inhibitors",
+      "Male",
+      "Mice",
+      "*Myocytes, Smooth Muscle/drug effects/pathology",
+      "Mice, Inbred C57BL",
+      "Muscle, Smooth, Vascular/drug effects/pathology",
+      "Disease Models, Animal",
+      "*Aortic Aneurysm, Abdominal/drug therapy/pathology/prevention & control",
+      "Phenotype",
+      "Molecular Docking Simulation",
+      "Kruppel-Like Factor 4",
+      "Inflammation/drug therapy",
+      "Signal Transduction/drug effects",
+      "*Anti-Inflammatory Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Sihan",
+        "Xu, Fujia",
+        "Zhong, Lintao",
+        "Song, Haoyu",
+        "Deng, Na",
+        "Guo, Haijun",
+        "Huang, Surong",
+        "You, Liwei",
+        "Wei, Yingying",
+        "Li, Mengsha",
+        "Zuo, Siying",
+        "Zuo, Yaping",
+        "Fan, Xinxin",
+        "Lei, Yiqi",
+        "Liu, Yumin",
+        "Lai, Yanxian",
+        "Wang, Junfen",
+        "Si, Xiaoyun"
+      ],
+      "short_names": [
+        "Luo S",
+        "Xu F",
+        "Zhong L",
+        "Song H",
+        "Deng N",
+        "Guo H",
+        "Huang S",
+        "You L",
+        "Wei Y",
+        "Li M",
+        "Zuo S",
+        "Zuo Y",
+        "Fan X",
+        "Lei Y",
+        "Liu Y",
+        "Lai Y",
+        "Wang J",
+        "Si X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, The Sixth Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou, 528200, China.",
+        "Department of Geriatrics, Zhuhai People's Hospital (The Affiliated Hospital of Beijing Institute of Technology, Zhuhai Clinical Medical College of Jinan University), Zhuhai, 519000, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China.",
+        "Department of Cardiology, Guangzhou First People's Hospital, Guangzhou Medical University, Guangzhou, 510180, China; Department of Cardiology, Guangzhou First People's Hospital, South China University of Technology, Guangzhou, 510180, China.",
+        "Guangdong Provincial Key Laboratory of Gastroenterology, Department of Gastroenterology, Nanfang Hospital, Southern Medical University, Guangzhou, 510515, China. Electronic address: junfenwang@hotmail.com.",
+        "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China. Electronic address: sixiaoyun@gmc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Sihan",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Fujia",
+        "short_name": "Xu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Lintao",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Sixth Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou, 528200, China."
+        ]
+      },
+      {
+        "full_name": "Song, Haoyu",
+        "short_name": "Song H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Zhuhai People's Hospital (The Affiliated Hospital of Beijing Institute of Technology, Zhuhai Clinical Medical College of Jinan University), Zhuhai, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Na",
+        "short_name": "Deng N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Haijun",
+        "short_name": "Guo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Surong",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "You, Liwei",
+        "short_name": "You L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yingying",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mengsha",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Siying",
+        "short_name": "Zuo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Yaping",
+        "short_name": "Zuo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xinxin",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Yiqi",
+        "short_name": "Lei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yumin",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Yanxian",
+        "short_name": "Lai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Guangzhou First People's Hospital, Guangzhou Medical University, Guangzhou, 510180, China; Department of Cardiology, Guangzhou First People's Hospital, South China University of Technology, Guangzhou, 510180, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junfen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Gastroenterology, Department of Gastroenterology, Nanfang Hospital, Southern Medical University, Guangzhou, 510515, China. Electronic address: junfenwang@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Si, Xiaoyun",
+        "short_name": "Si X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hospital of Guizhou Medical University, No. 28 Guiyi Road, Guiyang, Guizhou Province, 550004, China. Electronic address: sixiaoyun@gmc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2025 Jul 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/10 00:30",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "42327765"
+    ],
+    "refs": [],
+    "similar": [
+      "40490231",
+      "41164881",
+      "37979015",
+      "41207100",
+      "28213405",
+      "37392236",
+      "37789605",
+      "38723872",
+      "27634835",
+      "40037693",
+      "32059119",
+      "33601368",
+      "32384150",
+      "38722818",
+      "32787523",
+      "38047310",
+      "39945066",
+      "40737845",
+      "24030402",
+      "39179867",
+      "40680446",
+      "39479449",
+      "34856183",
+      "33309615",
+      "39742002",
+      "23265586",
+      "38763007",
+      "36209172",
+      "33737086",
+      "40193135",
+      "30991034",
+      "40081568",
+      "28369137",
+      "29499360",
+      "40242869",
+      "38881898",
+      "39601880",
+      "40781109",
+      "37522318",
+      "40479739",
+      "32321307",
+      "39490888",
+      "31071332",
+      "31821190",
+      "39779470",
+      "30074157",
+      "41170558",
+      "34942175",
+      "38995239",
+      "30580562",
+      "39958337",
+      "25563840",
+      "40159385",
+      "30905780",
+      "34323424",
+      "32000066",
+      "40259193",
+      "40636968",
+      "39965635",
+      "38301602",
+      "41001812",
+      "41273237",
+      "38673941",
+      "39393558",
+      "28167124",
+      "38686580",
+      "26941015",
+      "35723784",
+      "28982723",
+      "32160082",
+      "39953276",
+      "30726659",
+      "39206542",
+      "30302749",
+      "25450370",
+      "37098322",
+      "38160930",
+      "38331337",
+      "28882868",
+      "27908891",
+      "39679375",
+      "33227156",
+      "32354235",
+      "40803247",
+      "41145483",
+      "39846252",
+      "28729364",
+      "38979610",
+      "32903173",
+      "31651935",
+      "28839206",
+      "39588646",
+      "25912763",
+      "39345002",
+      "28288890",
+      "39321955",
+      "30371171",
+      "33147994",
+      "29956734",
+      "40925375"
+    ],
+    "review": [
+      "40490231"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(25)00767-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TAGLN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3970",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

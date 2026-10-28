@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39253493",
+  "title": "Machine Learning Uncovers Vascular Endothelial Cell Identity Genes by Expression Regulation Features in Single Cells.",
+  "authors": "Arulsamy, Kulandaisamy; Xia, Bo; Chen, Hong; Zhang, Lili; Chen, Kaifu",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-09-10",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习基于序列特征和单细胞表达识别细胞身份基因，虽涉及转录因子调控，但核心非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Deciphering cell identity genes is pivotal to understanding cell differentiation, development, and many diseases involving cell identity dysregulation. Here, we introduce SCIG, a machine-learning method to uncover cell identity genes in single cells. In alignment with recent reports that cell identity genes are regulated with unique epigenetic signatures, we found cell identity genes exhibit distinctive genetic sequence signatures, e.g., unique enrichment patterns of cis-regulatory elements. Using these genetic sequence signatures, along with gene expression information from single-cell RNA-seq data, enables SCIG to uncover the identity genes of a cell without a need for comparison to other cells. Cell identity gene score defined by SCIG surpassed expression value in network analysis to uncover master transcription factors regulating cell identity. Applying SCIG to the human endothelial cell atlas revealed that the tissue microenvironment is a critical supplement to master transcription factors for cell identity refinement. SCIG is publicly available at https://github.com/kaifuchenlab/SCIG , offering a valuable tool for advancing cell differentiation, development, and regenerative medicine research.",
+  "abstract_zh": "解析细胞身份基因对于理解细胞分化、发育以及许多涉及细胞身份失调的疾病至关重要。在此，我们介绍了SCIG，一种用于在单细胞中揭示细胞身份基因的机器学习方法。与近期关于细胞身份基因受独特表观遗传特征调控的报道一致，我们发现细胞身份基因表现出独特的遗传序列特征，例如顺式调控元件的独特富集模式。利用这些遗传序列特征，结合来自单细胞RNA测序数据的基因表达信息，SCIG能够无需与其他细胞进行比较即可揭示细胞的身份基因。由SCIG定义的细胞身份基因评分在网络分析中超越了表达值，用于揭示调控细胞身份的主转录因子。将SCIG应用于人类内皮细胞图谱，揭示了组织微环境是主转录因子对细胞身份细化的重要补充。SCIG可在https://github.com/kaifuchenlab/SCIG公开获取，为推进细胞分化、发育和再生医学研究提供了宝贵工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39253493/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39253493/",
+  "paper_page_path": "papers/pubmed/39253493/index.html"
+}

@@ -1,0 +1,459 @@
+{
+  "identity": {
+    "pmid": "35976433",
+    "doi": "10.1007/s00401-022-02483-8",
+    "title": "Single-nucleus chromatin accessibility profiling highlights distinct astrocyte signatures in progressive supranuclear palsy and corticobasal degeneration."
+  },
+  "content": {
+    "abstract": "Tauopathies such as progressive supranuclear palsy (PSP) and corticobasal degeneration (CBD) exhibit characteristic neuronal and glial inclusions of hyperphosphorylated Tau (pTau). Although the astrocytic pTau phenotype upon neuropathological examination is the most guiding feature in distinguishing both diseases, regulatory mechanisms controlling their transitions into disease-specific states are poorly understood to date. Here, we provide accessible chromatin data of more than 45,000 single nuclei isolated from the frontal cortex of PSP, CBD, and control individuals. We found a strong association of disease-relevant molecular changes with astrocytes and demonstrate that tauopathy-relevant genetic risk variants are tightly linked to astrocytic chromatin accessibility profiles in the brains of PSP and CBD patients. Unlike the established pathogenesis in the secondary tauopathy Alzheimer disease, microglial alterations were relatively sparse. Transcription factor (TF) motif enrichments in pseudotime as well as modeling of the astrocytic TF interplay suggested a common pTau signature for CBD and PSP that is reminiscent of an inflammatory immediate-early response. Nonetheless, machine learning models also predicted discriminatory features, and we observed marked differences in molecular entities related to protein homeostasis between both diseases. Predicted TF involvement was supported by immunofluorescence analyses in postmortem brain tissue for their highly correlated target genes. Collectively, our data expand the current knowledge on risk gene involvement (e.g., MAPT, MAPK8, and NFE2L2) and molecular pathways leading to the phenotypic changes associated with CBD and PSP.",
+    "keywords": [
+      "Astrocytes",
+      "Corticobasal degeneration",
+      "Neurodegeneration",
+      "Progressive supranuclear palsy",
+      "Tauopathy",
+      "snATAC-seq"
+    ],
+    "mesh_terms": [
+      "Astrocytes/pathology",
+      "Chromatin",
+      "*Corticobasal Degeneration",
+      "Humans",
+      "*Supranuclear Palsy, Progressive/pathology",
+      "*Tauopathies/genetics/pathology",
+      "tau Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Briel, Nils",
+        "Ruf, Viktoria C",
+        "Pratsch, Katrin",
+        "Roeber, Sigrun",
+        "Widmann, Jeannine",
+        "Mielke, Janina",
+        "Dorostkar, Mario M",
+        "Windl, Otto",
+        "Arzberger, Thomas",
+        "Herms, Jochen",
+        "Struebing, Felix L"
+      ],
+      "short_names": [
+        "Briel N",
+        "Ruf VC",
+        "Pratsch K",
+        "Roeber S",
+        "Widmann J",
+        "Mielke J",
+        "Dorostkar MM",
+        "Windl O",
+        "Arzberger T",
+        "Herms J",
+        "Struebing FL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9436-6294"
+      ],
+      "affiliations": [
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany.",
+        "Munich Medical Research School, Faculty of Medicine, Ludwig-Maximilians-University, Bavariaring 19, 80336, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+        "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany.",
+        "Department of Psychiatry and Psychotherapy, University Hospital Munich, Ludwig-Maximilians-University, Nussbaumstr. 7, 80336, Munich, Germany.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany. Jochen.Herms@med.uni-muenchen.de.",
+        "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany. Jochen.Herms@med.uni-muenchen.de.",
+        "Munich Cluster of Systems Neurology (SyNergy), Feodor-Lynen-Str. 17, 81377, Munich, Germany. Jochen.Herms@med.uni-muenchen.de.",
+        "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany. Felix.Struebing@med.uni-muenchen.de.",
+        "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany. Felix.Struebing@med.uni-muenchen.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Briel, Nils",
+        "short_name": "Briel N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+          "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany.",
+          "Munich Medical Research School, Faculty of Medicine, Ludwig-Maximilians-University, Bavariaring 19, 80336, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Ruf, Viktoria C",
+        "short_name": "Ruf VC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Pratsch, Katrin",
+        "short_name": "Pratsch K",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+          "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Roeber, Sigrun",
+        "short_name": "Roeber S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Widmann, Jeannine",
+        "short_name": "Widmann J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Mielke, Janina",
+        "short_name": "Mielke J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Dorostkar, Mario M",
+        "short_name": "Dorostkar MM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Windl, Otto",
+        "short_name": "Windl O",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Arzberger, Thomas",
+        "short_name": "Arzberger T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany.",
+          "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany.",
+          "Department of Psychiatry and Psychotherapy, University Hospital Munich, Ludwig-Maximilians-University, Nussbaumstr. 7, 80336, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Herms, Jochen",
+        "short_name": "Herms J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany. Jochen.Herms@med.uni-muenchen.de.",
+          "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany. Jochen.Herms@med.uni-muenchen.de.",
+          "Munich Cluster of Systems Neurology (SyNergy), Feodor-Lynen-Str. 17, 81377, Munich, Germany. Jochen.Herms@med.uni-muenchen.de."
+        ]
+      },
+      {
+        "full_name": "Struebing, Felix L",
+        "short_name": "Struebing FL",
+        "identifiers": [
+          "0000-0002-9436-6294"
+        ],
+        "affiliations": [
+          "Center for Neuropathology and Prion Research, University Hospital Munich, Ludwig-Maximilians-University, Feodor-Lynen-Str. 23, 81377, Munich, Germany. Felix.Struebing@med.uni-muenchen.de.",
+          "German Center for Neurodegenerative Diseases, Feodor-Lynen-Str. 17, 81377, Munich, Germany. Felix.Struebing@med.uni-muenchen.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta neuropathologica"
+    ],
+    "journal_abbrev": [
+      "Acta Neuropathol"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/18 06:00",
+    "fetched_at": "2026-09-28 12:22:24"
+  },
+  "links": {
+    "cites": [
+      "42219867",
+      "42135303",
+      "41783158",
+      "41223260",
+      "40362170",
+      "40244314",
+      "40119587",
+      "37264457",
+      "37161089"
+    ],
+    "refs": [
+      "33831349",
+      "33637727",
+      "33609158",
+      "33589840",
+      "33341150",
+      "33304310",
+      "33257666",
+      "33177989",
+      "33089580",
+      "33077936",
+      "32660586",
+      "32341526",
+      "32208437",
+      "32139671",
+      "31906949",
+      "31768052",
+      "31727856",
+      "31680165",
+      "31203391",
+      "31042697",
+      "30858613",
+      "30733664",
+      "30675018",
+      "30290178",
+      "30136084",
+      "30108137",
+      "30098799",
+      "30078726",
+      "29892006",
+      "29187256",
+      "28804999",
+      "28704727",
+      "27686274",
+      "27395435",
+      "27339989",
+      "27197224",
+      "27136096",
+      "27112200",
+      "26936765",
+      "26618344",
+      "26182361",
+      "26077951",
+      "25772164",
+      "25124031",
+      "24980047",
+      "24532007",
+      "24464041",
+      "24097267",
+      "23359374",
+      "22955617",
+      "22955616",
+      "21685912",
+      "21526222",
+      "19573486",
+      "19274049",
+      "19162185",
+      "16496165",
+      "15233917",
+      "12430710",
+      "11493163",
+      "11379815",
+      "10737616",
+      "8558176"
+    ],
+    "similar": [
+      "35976433",
+      "33089580",
+      "37264457",
+      "25124031",
+      "31515852",
+      "35668689",
+      "33763863",
+      "29926172",
+      "12732936",
+      "34672063",
+      "26818518",
+      "35274674",
+      "39138580",
+      "22012136",
+      "33754963",
+      "28271184",
+      "37803326",
+      "12802605",
+      "33433875",
+      "34556525",
+      "10525997",
+      "26936765",
+      "37972275",
+      "36447011",
+      "35976324",
+      "9797005",
+      "32943110",
+      "16157754",
+      "27260836",
+      "40082954",
+      "10517506",
+      "21720721",
+      "39353514",
+      "11271372",
+      "20610990",
+      "11303790",
+      "37703311",
+      "34674762",
+      "31999351",
+      "11398841",
+      "33287913",
+      "40545554",
+      "16823854",
+      "16092076",
+      "35609758",
+      "20140439",
+      "15068177",
+      "29925998",
+      "36597124",
+      "33950293",
+      "11810404",
+      "31081015",
+      "12784692",
+      "39973504",
+      "34402107",
+      "36054524",
+      "37844348",
+      "36403052",
+      "38418081",
+      "15132848",
+      "12410379",
+      "15390131",
+      "19001166",
+      "38554150",
+      "29304218",
+      "15792962",
+      "34536819",
+      "15992827",
+      "16401843",
+      "31950334",
+      "35486397",
+      "12165467",
+      "12955398",
+      "35485527",
+      "24323931",
+      "7985491",
+      "12677450",
+      "40492394",
+      "17117169",
+      "29398119",
+      "37659990",
+      "32247606",
+      "27709663",
+      "25974705",
+      "17080726",
+      "14502656",
+      "23432126",
+      "27709685",
+      "12071638",
+      "14705114",
+      "15304582",
+      "32961270",
+      "31826239",
+      "15841415",
+      "11303763",
+      "19918119",
+      "30136084",
+      "11935262",
+      "16691120",
+      "33245166"
+    ],
+    "review": [
+      "35976433",
+      "25124031",
+      "31515852",
+      "33754963",
+      "10525997",
+      "35976324",
+      "10517506",
+      "21720721",
+      "20610990",
+      "35609758",
+      "15068177",
+      "29925998",
+      "12784692",
+      "38554150",
+      "24323931",
+      "17117169",
+      "37659990",
+      "14502656"
+    ],
+    "pmc": [
+      "9468099"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/progressivesupranuclearpalsy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Progressive Supranuclear Palsy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35976433/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00401-022-02483-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35976433",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35976433",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "identity": {
+    "pmid": "41951735",
+    "doi": "10.1038/s41586-026-10326-9",
+    "title": "Multiomics and deep learning dissect regulatory syntax in human development."
+  },
+  "content": {
+    "abstract": "Transcription factors establish cell identity during development by binding regulatory DNA in a sequence-specific manner, often promoting local chromatin accessibility and regulating gene expression(1). Mapping accessible chromatin offers critical insights into transcriptional control, but available datasets for human development are restricted to bulk tissue, single organs or single modalities(2). Here we present the Human Development Multiomic Atlas, a single-cell atlas of chromatin accessibility and gene expression from 817,740 fetal cells across 12 organs, spanning 203 cell types and more than 1 million candidate cis-regulatory elements, many of which exhibit organ-specific in vivo enhancer activity. Deep learning models trained to predict accessibility from local DNA sequence unravel a comprehensive lexicon of motifs that influence accessibility, including composite motifs exhibiting distinct syntactic constraints that are predicted to mediate transcription factor cooperativity. We identify 'hard' syntactic rules requiring precise motif spacing and orientation, 'soft' rules allowing flexible motif arrangements, and ubiquitous motifs inhibiting accessibility. Model-based interpretation of genetic variants reveals that disruption of motifs with positive and negative effects is associated with concordant effects on gene expression. Our work delineates how motif syntax governs cell-type-specific chromatin accessibility and provides a foundational resource for decoding cis-regulatory logic and interpreting genetic variation during human development.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Chromatin/metabolism/genetics",
+      "*Multiomics",
+      "*Deep Learning",
+      "*Gene Expression Regulation, Developmental",
+      "Transcription Factors/metabolism",
+      "Nucleotide Motifs/genetics",
+      "Single-Cell Analysis",
+      "Organ Specificity/genetics",
+      "Enhancer Elements, Genetic/genetics",
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Betty B",
+        "Jessa, Selin",
+        "Kim, Samuel H",
+        "Ng, Yan Ting",
+        "Higashino, Soon Il",
+        "Marinov, Georgi K",
+        "Chen, Derek C",
+        "Parks, Benjamin E",
+        "Li, Li",
+        "Nguyen, Tri C",
+        "Wang, Austin T",
+        "Wang, Sean K",
+        "Tan, Meng How",
+        "Tan, Serena Y",
+        "Kosicki, Michael",
+        "Pennacchio, Len A",
+        "Ben-David, Eyal",
+        "Pasca, Anca M",
+        "Kundaje, Anshul",
+        "Farh, Kyle K H",
+        "Greenleaf, William J"
+      ],
+      "short_names": [
+        "Liu BB",
+        "Jessa S",
+        "Kim SH",
+        "Ng YT",
+        "Higashino SI",
+        "Marinov GK",
+        "Chen DC",
+        "Parks BE",
+        "Li L",
+        "Nguyen TC",
+        "Wang AT",
+        "Wang SK",
+        "Tan MH",
+        "Tan SY",
+        "Kosicki M",
+        "Pennacchio LA",
+        "Ben-David E",
+        "Pasca AM",
+        "Kundaje A",
+        "Farh KKH",
+        "Greenleaf WJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1655-7164",
+        "ORCID: 0000-0003-4192-6523",
+        "ORCID: 0000-0001-8353-6190",
+        "ORCID: 0000-0001-8075-8791",
+        "ORCID: 0000-0003-1822-7273",
+        "ORCID: 0000-0001-9652-4885",
+        "ORCID: 0000-0001-7886-6056",
+        "ORCID: 0000-0003-1557-8510",
+        "ORCID: 0000-0003-3627-5586",
+        "ORCID: 0000-0001-5409-0695",
+        "ORCID: 0000-0001-7173-8852",
+        "ORCID: 0000-0002-8748-3732",
+        "ORCID: 0000-0003-0514-0400",
+        "ORCID: 0000-0002-0445-9009",
+        "ORCID: 0000-0003-3084-2287",
+        "ORCID: 0000-0001-6947-8537",
+        "ORCID: 0000-0003-1409-3095"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Cancer Biology Program, Stanford University, Stanford, CA, USA.",
+        "Medical Scientist Training Program, Stanford University, Stanford, CA, USA.",
+        "Illumina Artificial Intelligence Laboratory, Illumina, Foster City, CA, USA.",
+        "School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University, Singapore, Singapore.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Basic Sciences and Engineering Initiative, Betty Irene Moore Children's Heart Center, Lucile Packard Children's Hospital, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Ophthalmology, Stanford University, Stanford, CA, USA.",
+        "School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University, Singapore, Singapore.",
+        "Department of Pathology, Stanford University, Stanford, CA, USA.",
+        "Environmental Genomics and System Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Environmental Genomics and System Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "US Department of Energy Joint Genome Institute, Berkeley, CA, USA.",
+        "Comparative Biochemistry Program, University of California, Berkeley, CA, USA.",
+        "Illumina Artificial Intelligence Laboratory, Illumina, Foster City, CA, USA.",
+        "Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA. akundaje@stanford.edu.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA. akundaje@stanford.edu.",
+        "Illumina Artificial Intelligence Laboratory, Illumina, Foster City, CA, USA. kfarh@illumina.com.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA. wjg@stanford.edu.",
+        "Department of Applied Physics, Stanford University, Stanford, CA, USA. wjg@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Betty B",
+        "short_name": "Liu BB",
+        "identifiers": [
+          "0000-0003-1655-7164"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Jessa, Selin",
+        "short_name": "Jessa S",
+        "identifiers": [
+          "0000-0003-4192-6523"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Samuel H",
+        "short_name": "Kim SH",
+        "identifiers": [
+          "0000-0001-8353-6190"
+        ],
+        "affiliations": [
+          "Cancer Biology Program, Stanford University, Stanford, CA, USA.",
+          "Medical Scientist Training Program, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ng, Yan Ting",
+        "short_name": "Ng YT",
+        "identifiers": [
+          "0000-0001-8075-8791"
+        ],
+        "affiliations": [
+          "Illumina Artificial Intelligence Laboratory, Illumina, Foster City, CA, USA.",
+          "School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Higashino, Soon Il",
+        "short_name": "Higashino SI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Marinov, Georgi K",
+        "short_name": "Marinov GK",
+        "identifiers": [
+          "0000-0003-1822-7273"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Derek C",
+        "short_name": "Chen DC",
+        "identifiers": [
+          "0000-0001-9652-4885"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Parks, Benjamin E",
+        "short_name": "Parks BE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [
+          "0000-0001-7886-6056"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Tri C",
+        "short_name": "Nguyen TC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Basic Sciences and Engineering Initiative, Betty Irene Moore Children's Heart Center, Lucile Packard Children's Hospital, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Austin T",
+        "short_name": "Wang AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Sean K",
+        "short_name": "Wang SK",
+        "identifiers": [
+          "0000-0003-1557-8510"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Meng How",
+        "short_name": "Tan MH",
+        "identifiers": [
+          "0000-0003-3627-5586"
+        ],
+        "affiliations": [
+          "School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tan, Serena Y",
+        "short_name": "Tan SY",
+        "identifiers": [
+          "0000-0001-5409-0695"
+        ],
+        "affiliations": [
+          "Department of Pathology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kosicki, Michael",
+        "short_name": "Kosicki M",
+        "identifiers": [
+          "0000-0001-7173-8852"
+        ],
+        "affiliations": [
+          "Environmental Genomics and System Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pennacchio, Len A",
+        "short_name": "Pennacchio LA",
+        "identifiers": [
+          "0000-0002-8748-3732"
+        ],
+        "affiliations": [
+          "Environmental Genomics and System Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+          "US Department of Energy Joint Genome Institute, Berkeley, CA, USA.",
+          "Comparative Biochemistry Program, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ben-David, Eyal",
+        "short_name": "Ben-David E",
+        "identifiers": [
+          "0000-0003-0514-0400"
+        ],
+        "affiliations": [
+          "Illumina Artificial Intelligence Laboratory, Illumina, Foster City, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pasca, Anca M",
+        "short_name": "Pasca AM",
+        "identifiers": [
+          "0000-0002-0445-9009"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA. akundaje@stanford.edu.",
+          "Department of Computer Science, Stanford University, Stanford, CA, USA. akundaje@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Farh, Kyle K H",
+        "short_name": "Farh KKH",
+        "identifiers": [
+          "0000-0001-6947-8537"
+        ],
+        "affiliations": [
+          "Illumina Artificial Intelligence Laboratory, Illumina, Foster City, CA, USA. kfarh@illumina.com."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [
+          "0000-0003-1409-3095"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA. wjg@stanford.edu.",
+          "Department of Applied Physics, Stanford University, Stanford, CA, USA. wjg@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/09 00:34",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [
+      "42711518",
+      "42527403"
+    ],
+    "refs": [
+      "41501460",
+      "40205063",
+      "39868043",
+      "39657122",
+      "39567683",
+      "39530240",
+      "39470740",
+      "39208807",
+      "38662817",
+      "38500882",
+      "38470381",
+      "38262408",
+      "38233525",
+      "38086419",
+      "38030727",
+      "37600688",
+      "37220626",
+      "37087538",
+      "36975855",
+      "36645372",
+      "36563664",
+      "36474045",
+      "36344659",
+      "36204155",
+      "35127755",
+      "34711808",
+      "34650237",
+      "34390642",
+      "34364091",
+      "34062119",
+      "34035898",
+      "33959723",
+      "33892169",
+      "33782603",
+      "33689769",
+      "33633365",
+      "33603233",
+      "33290745",
+      "33184181",
+      "33184180",
+      "33098772",
+      "32999415",
+      "32913098",
+      "32728250",
+      "32728217",
+      "32138770",
+      "31784727",
+      "31691819",
+      "31296853",
+      "31243369",
+      "30858613",
+      "30675018",
+      "30423086",
+      "29716526",
+      "28825706",
+      "28811072",
+      "28100584",
+      "27521520",
+      "27376235",
+      "27083996",
+      "26938745",
+      "26719772",
+      "26675734",
+      "26550823",
+      "26365491",
+      "26314830",
+      "25461470",
+      "25215497",
+      "24227677",
+      "24097267",
+      "23892608",
+      "23601688",
+      "23332764",
+      "23104886",
+      "22983707",
+      "22955616",
+      "22388286",
+      "21149679",
+      "21143862",
+      "21075756",
+      "20816088",
+      "20686566",
+      "20516428",
+      "20501695",
+      "19468054",
+      "18798982",
+      "17574024",
+      "17355962",
+      "17324271",
+      "17291181",
+      "17130149",
+      "16381938",
+      "15998734",
+      "15249177",
+      "12411430",
+      "12062707",
+      "12032775",
+      "9214632",
+      "9141463",
+      "7567980"
+    ],
+    "similar": [
+      "41951735",
+      "42475469",
+      "22955984",
+      "33978759",
+      "38012720",
+      "34774128",
+      "24391522",
+      "39326643",
+      "32728244",
+      "23512712",
+      "23595227",
+      "39090688",
+      "37557175",
+      "39843737",
+      "37914932",
+      "29539636",
+      "32973041",
+      "42056104",
+      "39814021",
+      "39742806",
+      "32728240",
+      "38781390",
+      "41285795",
+      "38092918",
+      "28536147",
+      "31053165",
+      "40472848",
+      "23482648",
+      "34390642",
+      "41735542",
+      "40598278",
+      "27468897",
+      "42114111",
+      "22534400",
+      "32978299",
+      "22763441",
+      "34503558",
+      "36902216",
+      "32610082",
+      "21821017",
+      "36043696",
+      "28137873",
+      "28716036",
+      "41937210",
+      "33990600",
+      "38940155",
+      "30661644",
+      "38693260",
+      "22683808",
+      "35293310",
+      "33184180",
+      "38358392",
+      "32029221",
+      "29030344",
+      "38977846",
+      "34898596",
+      "34755879",
+      "29482603",
+      "38092913",
+      "22955617",
+      "38977847",
+      "42216449",
+      "37824643",
+      "33044128",
+      "21435340",
+      "41315351",
+      "24244184",
+      "39829783",
+      "42401553",
+      "34650237",
+      "40780181",
+      "24920305",
+      "24985916",
+      "36495874",
+      "22456606",
+      "37443338",
+      "41632074",
+      "41909952",
+      "41087739",
+      "22761590",
+      "39814889",
+      "39975126",
+      "38092917",
+      "40784520",
+      "39127768",
+      "26083756",
+      "30755522",
+      "32424069",
+      "29558892",
+      "23570689",
+      "21430782",
+      "23867016",
+      "27137654",
+      "33171098",
+      "42050196",
+      "32231307",
+      "40245149",
+      "40791531",
+      "31799619",
+      "41285681"
+    ],
+    "review": [
+      "41951735",
+      "27137654"
+    ],
+    "pmc": [
+      "13216069"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-026-10326-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41951735/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/27d5n301",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

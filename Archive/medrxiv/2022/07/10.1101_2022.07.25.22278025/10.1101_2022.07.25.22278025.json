@@ -1,0 +1,453 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.07.25.22278025",
+  "title": "Plasma proteomics of SARS-CoV-2 infection and severity reveals impact on Alzheimer and coronary disease pathways",
+  "doi": "10.1101/2022.07.25.22278025",
+  "abstract": "Identification of the plasma proteomic changes of Coronavirus disease 2019 (COVID-19) is essential to understanding the pathophysiology of the disease and developing predictive models and novel therapeutics. We performed plasma deep proteomic profiling from 332 COVID-19 patients and 150 controls and pursued replication in an independent cohort (297 cases and 76 controls) to find potential biomarkers and causal proteins for three COVID-19 outcomes (infection, ventilation, and death). We identified and replicated 1,449 proteins associated with any of the three outcomes (841 for infection, 833 for ventilation, and 253 for death) that can be query on a web portal ( https://covid.proteomics.wustl.edu/ ). Using those proteins and machine learning approached we created and validated specific prediction models for ventilation (AUC>0.91), death (AUC>0.95) and either outcome (AUC>0.80). These proteins were also enriched in specific biological processes, including immune and cytokine signaling (FDR ≤ 3.72×10 -14 ), Alzheimer’s disease (FDR ≤ 5.46×10 -10 ) and coronary artery disease (FDR ≤ 4.64×10 -2 ). Mendelian randomization using pQTL as instrumental variants nominated BCAT2 and GOLM1 as a causal proteins for COVID-19. Causal gene network analyses identified 141 highly connected key proteins, of which 35 have known drug targets with FDA-approved compounds. Our findings provide distinctive prognostic biomarkers for two severe COVID-19 outcomes (ventilation and death), reveal their relationship to Alzheimer’s disease and coronary artery disease, and identify potential therapeutic targets for COVID-19 outcomes.",
+  "authors": [
+    "Wang L",
+    "Western D",
+    "Timsina J",
+    "Repaci C",
+    "Song W",
+    "Norton J",
+    "Kohlfeld P",
+    "Budde J",
+    "Climer S",
+    "Butt OH",
+    "Jacobson D",
+    "Garvin M",
+    "Templeton AR",
+    "Campagna S",
+    "O’Halloran J",
+    "Presti R",
+    "Goss CW",
+    "Mudd PA",
+    "Ances BM",
+    "Zhang B",
+    "Sung YJ",
+    "Cruchaga C"
+  ],
+  "published_date": "2022-07-25",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.07.25.22278025",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.07.25.22278025.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR523713",
+    "raw_record": {
+      "id": "PPR523713",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR523713"
+        ]
+      },
+      "doi": "10.1101/2022.07.25.22278025",
+      "title": "Plasma proteomics of SARS-CoV-2 infection and severity reveals impact on Alzheimer and coronary disease pathways",
+      "authorString": "Wang L, Western D, Timsina J, Repaci C, Song W, Norton J, Kohlfeld P, Budde J, Climer S, Butt OH, Jacobson D, Garvin M, Templeton AR, Campagna S, O’Halloran J, Presti R, Goss CW, Mudd PA, Ances BM, Zhang B, Sung YJ, Cruchaga C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Lihua",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Western D",
+            "lastName": "Western",
+            "firstName": "Dan",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Timsina J",
+            "lastName": "Timsina",
+            "firstName": "Jigyasha",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Repaci C",
+            "lastName": "Repaci",
+            "firstName": "Charlie",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Song W",
+            "lastName": "Song",
+            "firstName": "Won-Min",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics and Genomic Sciences, Icahn Institute of Genomics and Multiscale Biology, Icahn School of Medicine at Mount Sinai, New York, New York, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Norton J",
+            "lastName": "Norton",
+            "firstName": "Joanne",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kohlfeld P",
+            "lastName": "Kohlfeld",
+            "firstName": "Pat",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Budde J",
+            "lastName": "Budde",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Climer S",
+            "lastName": "Climer",
+            "firstName": "Sharlee",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, University of Missouri-St. Louis, St. Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Butt OH",
+            "lastName": "Butt",
+            "firstName": "Omar",
+            "initials": "OH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jacobson D",
+            "lastName": "Jacobson",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garvin M",
+            "lastName": "Garvin",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Templeton AR",
+            "lastName": "Templeton",
+            "firstName": "Alan",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Campagna S",
+            "lastName": "Campagna",
+            "firstName": "Shawn",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, University of Tennessee, Knoxville, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Halloran J",
+            "lastName": "O’Halloran",
+            "firstName": "Jane",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Infectious Diseases, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Presti R",
+            "lastName": "Presti",
+            "firstName": "Rachel",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Infectious Diseases, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goss CW",
+            "lastName": "Goss",
+            "firstName": "Charles",
+            "initials": "CW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biostatistics, Washington University School of Medicine, St. Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mudd PA",
+            "lastName": "Mudd",
+            "firstName": "Philip",
+            "initials": "PA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Emergency Medicine, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ances BM",
+            "lastName": "Ances",
+            "firstName": "Beau",
+            "initials": "BM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang B",
+            "lastName": "Zhang",
+            "firstName": "Bin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics and Genomic Sciences, Icahn Institute of Genomics and Multiscale Biology, Icahn School of Medicine at Mount Sinai, New York, New York, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sung YJ",
+            "lastName": "Sung",
+            "firstName": "Yun Ju",
+            "initials": "YJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "Division of Biostatistics, Washington University School of Medicine, St. Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cruchaga C",
+            "lastName": "Cruchaga",
+            "firstName": "Carlos",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "NeuroGenomics and Informatics Center, Washington University School of Medicine, St Louis, MO, USA"
+                },
+                {
+                  "affiliation": "The Charles F. and Joanne Knight Alzheimer Disease Research Center, Washington University School of Medicine, St Louis, MO, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Identification of the plasma proteomic changes of Coronavirus disease 2019 (COVID-19) is essential to understanding the pathophysiology of the disease and developing predictive models and novel therapeutics. We performed plasma deep proteomic profiling from 332 COVID-19 patients and 150 controls and pursued replication in an independent cohort (297 cases and 76 controls) to find potential biomarkers and causal proteins for three COVID-19 outcomes (infection, ventilation, and death). We identified and replicated 1,449 proteins associated with any of the three outcomes (841 for infection, 833 for ventilation, and 253 for death) that can be query on a web portal (  https://covid.proteomics.wustl.edu/ ). Using those proteins and machine learning approached we created and validated specific prediction models for ventilation (AUC>0.91), death (AUC>0.95) and either outcome (AUC>0.80). These proteins were also enriched in specific biological processes, including immune and cytokine signaling (FDR ≤ 3.72×10  -14 ), Alzheimer’s disease (FDR ≤ 5.46×10  -10 ) and coronary artery disease (FDR ≤ 4.64×10  -2 ). Mendelian randomization using pQTL as instrumental variants nominated BCAT2 and GOLM1 as a causal proteins for COVID-19. Causal gene network analyses identified 141 highly connected key proteins, of which 35 have known drug targets with FDA-approved compounds. Our findings provide distinctive prognostic biomarkers for two severe COVID-19 outcomes (ventilation and death), reveal their relationship to Alzheimer’s disease and coronary artery disease, and identify potential therapeutic targets for COVID-19 outcomes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.25.22278025"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR523713"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR523713&type=FILE&fileName=EMS151760-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS151760",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "reactome",
+          "refsnp",
+          "go"
+        ]
+      },
+      "dateOfCreation": "2022-07-27",
+      "firstPublicationDate": "2022-07-25",
+      "firstIndexDate": "2022-07-27",
+      "fullTextReceivedDate": "2022-08-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "41909697",
+    "doi": "10.3389/fimmu.2026.1791693",
+    "title": "Machine learning meets psoriasis: identifying key lactylation biomarkers as potential targets for diagnosis and therapies."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Psoriasis is a long-term autoimmune skin condition marked by repeated inflammation. Recent findings indicate that affected skin in psoriasis shows increased aerobic glycolysis and lactate buildup, suggesting that protein lactylation may play a role in the disease. However, biomarkers related to lactylation for diagnosing and treating psoriasis remain poorly defined. METHODS: Initially, genes with altered expression in psoriasis were identified. Key gene modules from Weighted Gene Co-expression Network Analysis (WGCNA) were used to pinpoint psoriasis-associated genes. These genes were then intersected with lactylation-related genes. Random Forest and LASSO regression algorithms selected lactylation-related biomarkers. Mouse psoriasis models were created using imiquimod to validate key gene expression. The immune microenvironment in psoriasis lesions was analyzed with CIBERSORT. Regulatory networks of miRNAs(microRNAs)-genes and TFs(Transcription Factors)-genes were built using NetworkAnalyst. Potential drugs targeting these biomarkers were predicted via the DSigDB database, and their expression and distribution were visualized in single-cell sequencing data. Finally, two-sample Mendelian randomization and summary data-based Mendelian randomization were performed to investigate the causal relationship between the biomarkers and psoriasis. RESULTS: A total of 1,623 key genes associated with psoriasis were identified through differential gene screening and WGCNA analysis. Among these, 26 were related to lactylation. Machine learning pinpointed MPHOSPH6, ENO1, MKI67, and FABP5 as lactylation-related biomarkers for psoriasis, with ROC curves confirming their strong diagnostic capabilities. RT-qPCR experiments validated their reliability, and immune infiltration analysis showed significant correlations with immune cells. Additionally, 103 drugs targeting these biomarkers were found in the DSigDB database. Mendelian randomization analysis suggested that high levels of MPHOSPH6 and ENO1 are risk factors for psoriasis. CONCLUSION: MPHOSPH6, ENO1, MKI67, and FABP5 are identified as lactylation-related biomarkers for psoriasis, with MPHOSPH6 and ENO1 overexpression posing as risk factors. These findings offer potential new diagnostic and therapeutic targets for the disease.",
+    "keywords": [
+      "ENO1",
+      "MPHOSPH6",
+      "lactylation-related biomarkers",
+      "machine learning",
+      "psoriasis"
+    ],
+    "mesh_terms": [
+      "*Psoriasis/diagnosis/metabolism/genetics/therapy/drug therapy",
+      "*Machine Learning",
+      "Animals",
+      "Biomarkers/metabolism",
+      "Humans",
+      "Mice",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shangkun",
+        "Qi, Yan",
+        "Qiao, Dan",
+        "Hu, Xuping",
+        "Yao, Liping",
+        "Cui, Xueling"
+      ],
+      "short_names": [
+        "Li S",
+        "Qi Y",
+        "Qiao D",
+        "Hu X",
+        "Yao L",
+        "Cui X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell Biology and Medical Genetics, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China.",
+        "Department of Immunology, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China.",
+        "Department of Physiology, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China.",
+        "Department of Cell Biology and Medical Genetics, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China.",
+        "Department of Cell Biology and Medical Genetics, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China.",
+        "Department of Cell Biology and Medical Genetics, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shangkun",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Medical Genetics, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yan",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Dan",
+        "short_name": "Qiao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xuping",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Medical Genetics, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Liping",
+        "short_name": "Yao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Medical Genetics, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Xueling",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Medical Genetics, College of Basic Medical Sciences, Jilin University, Changchun, Jilin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/30 12:49",
+    "fetched_at": "2026-10-01 17:34:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41488662",
+      "41027887",
+      "40893809",
+      "40756258",
+      "40536222",
+      "40439435",
+      "40274226",
+      "39759475",
+      "38772365",
+      "38521183",
+      "38488552",
+      "38418556",
+      "38250043",
+      "38193028",
+      "37242427",
+      "37076497",
+      "36845839",
+      "36467042",
+      "36215678",
+      "33812489",
+      "32811699",
+      "32737104",
+      "32371170",
+      "32330756",
+      "32082973",
+      "31887225",
+      "31645732",
+      "31181689",
+      "31134198",
+      "31072819",
+      "30617339",
+      "30181299",
+      "29400705",
+      "28280036",
+      "27883186",
+      "27780657",
+      "25948244",
+      "25043024",
+      "24655295",
+      "22131303",
+      "21982596"
+    ],
+    "similar": [
+      "41909697",
+      "38863714",
+      "40406126",
+      "42313235",
+      "42292364",
+      "41991682",
+      "40421012",
+      "41224720",
+      "40453984",
+      "40596702",
+      "41432483",
+      "42123756",
+      "41756296",
+      "42064079",
+      "39142001",
+      "41824857",
+      "42015036",
+      "40973872",
+      "41080564",
+      "41052072",
+      "41703488",
+      "41566505",
+      "39346628",
+      "40598168",
+      "40742465",
+      "40374840",
+      "39717623",
+      "40914702",
+      "41570698",
+      "41125916",
+      "41948341",
+      "40406620",
+      "40093802",
+      "40901831",
+      "40119934",
+      "41191207",
+      "41291841",
+      "41781900",
+      "38803495",
+      "40165133",
+      "39072329",
+      "40822862",
+      "42093976",
+      "40560938",
+      "41479901",
+      "41333919",
+      "41816328",
+      "40275274",
+      "40332792",
+      "42553137",
+      "40273141",
+      "40207230",
+      "41013556",
+      "40313958",
+      "41902830",
+      "41316541",
+      "41300841",
+      "38649912",
+      "40374866",
+      "41107929",
+      "40196107",
+      "42008507",
+      "40425712",
+      "40967560",
+      "40755754",
+      "40532306",
+      "42292469",
+      "39707377",
+      "41733593",
+      "39396400",
+      "38791423",
+      "38148887",
+      "41436831",
+      "41846910",
+      "41305746",
+      "40842856",
+      "42495634",
+      "42051521",
+      "40328901",
+      "41955702",
+      "40966021",
+      "42259201",
+      "41132669",
+      "41408482",
+      "42509710",
+      "39776247",
+      "41731716",
+      "40500570",
+      "42074521",
+      "39069636",
+      "41572692",
+      "41044520",
+      "38867262",
+      "40618704",
+      "38755717",
+      "41163278",
+      "41221285",
+      "40329965",
+      "42292668",
+      "38711508"
+    ],
+    "review": [
+      "41909697"
+    ],
+    "pmc": [
+      "13021890"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41909697/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3645",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1791693",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

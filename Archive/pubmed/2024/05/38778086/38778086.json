@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "38778086",
+    "doi": "10.1038/s41598-024-62259-w",
+    "title": "Characterization of PANoptosis-related genes in Crohn's disease by integrated bioinformatics, machine learning and experiments."
+  },
+  "content": {
+    "abstract": "Currently, the biological understanding of Crohn's disease (CD) remains limited. PANoptosis is a revolutionary form of cell death reported to participate in numerous diseases, including CD. In our study, we aimed to uncover the roles of PANoptosis in CD. Differentially expressed PANoptosis-related genes (DE-PRGs) were identified by overlapping PANoptosis-related genes and differentially expressed genes between CD and normal samples in a combined microarray dataset. Three machine learning algorithms were adopted to detect hub DE-PRGs. To stratify the heterogeneity within CD patients, nonnegative matrix factorization clustering was conducted. In terms of immune landscape analysis, the \"ssGSEA\" method was applied. qRT-PCR was performed to examine the expression levels of the hub DE-PRGs in CD patients and colitis model mice. Ten hub DE-PRGs with satisfactory diagnostic performance were identified and validated: CD44, CIDEC, NDRG1, NUMA1, PEA15, RAG1, S100A8, S100A9, TIMP1 and XBP1. These genes displayed significant associations with certain immune cell types and CD-related genes. We also constructed gene‒microRNA, gene‒transcription factor and drug‒gene interaction networks. CD samples were classified into two PANoptosis patterns according to the expression levels of the hub DE-PRGs. Our results suggest that PANoptosis plays a nonnegligible role in CD by modulating the immune system and interacting with CD-related genes.",
+    "keywords": [
+      "Bioinformatics",
+      "Crohn's disease",
+      "Machine learning",
+      "PANoptosis",
+      "Regulatory networks"
+    ],
+    "mesh_terms": [
+      "*Crohn Disease/genetics",
+      "Humans",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "Animals",
+      "Mice",
+      "*Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yang",
+        "Hounye, Alphonse Houssou",
+        "Chen, Yiqian",
+        "Liu, Zhuqing",
+        "Shi, Guanzhong",
+        "Xiao, Ying"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Hounye AH",
+        "Chen Y",
+        "Liu Z",
+        "Shi G",
+        "Xiao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Hunan International Scientific and Technological Cooperation Base of Artificial Intelligence Computer Aided Diagnosis and Treatment for Digestive Disease, Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Xiangya School of Medicine, Central South University, Changsha, Hunan, China.",
+        "School of Mathematics and Statistics, Central South University, Changsha, 410008, China.",
+        "Department of Gastroenterology, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Hunan International Scientific and Technological Cooperation Base of Artificial Intelligence Computer Aided Diagnosis and Treatment for Digestive Disease, Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Department of Gastroenterology, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Hunan International Scientific and Technological Cooperation Base of Artificial Intelligence Computer Aided Diagnosis and Treatment for Digestive Disease, Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Xiangya School of Medicine, Central South University, Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Xiangya School of Medicine, Central South University, Changsha, Hunan, China.",
+        "Department of Gastroenterology, Xiangya Hospital, Central South University, Changsha, Hunan, China. xiaoying1113@csu.edu.cn.",
+        "Hunan International Scientific and Technological Cooperation Base of Artificial Intelligence Computer Aided Diagnosis and Treatment for Digestive Disease, Changsha, Hunan, China. xiaoying1113@csu.edu.cn.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. xiaoying1113@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "Hunan International Scientific and Technological Cooperation Base of Artificial Intelligence Computer Aided Diagnosis and Treatment for Digestive Disease, Changsha, Hunan, China.",
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "Xiangya School of Medicine, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Hounye, Alphonse Houssou",
+        "short_name": "Hounye AH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Central South University, Changsha, 410008, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yiqian",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "Hunan International Scientific and Technological Cooperation Base of Artificial Intelligence Computer Aided Diagnosis and Treatment for Digestive Disease, Changsha, Hunan, China.",
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhuqing",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "Hunan International Scientific and Technological Cooperation Base of Artificial Intelligence Computer Aided Diagnosis and Treatment for Digestive Disease, Changsha, Hunan, China.",
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "Xiangya School of Medicine, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Guanzhong",
+        "short_name": "Shi G",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "Xiangya School of Medicine, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Ying",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Xiangya Hospital, Central South University, Changsha, Hunan, China. xiaoying1113@csu.edu.cn.",
+          "Hunan International Scientific and Technological Cooperation Base of Artificial Intelligence Computer Aided Diagnosis and Treatment for Digestive Disease, Changsha, Hunan, China. xiaoying1113@csu.edu.cn.",
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, Hunan, China. xiaoying1113@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 May 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/23 00:42",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "42429138",
+      "42174223",
+      "41840829",
+      "41789070",
+      "41595682",
+      "41028409",
+      "40958910",
+      "40702246",
+      "40534879",
+      "40332377",
+      "39840043",
+      "39796266",
+      "39544942"
+    ],
+    "refs": [
+      "38378253",
+      "38242081",
+      "38134862",
+      "37977994",
+      "37679886",
+      "37295541",
+      "37267949",
+      "36845112",
+      "36835580",
+      "36782083",
+      "36651877",
+      "36605130",
+      "36466876",
+      "36088391",
+      "35962439",
+      "35631174",
+      "35470064",
+      "35452485",
+      "35221331",
+      "34887424",
+      "34589398",
+      "34504660",
+      "34422815",
+      "34145045",
+      "34133932",
+      "33936061",
+      "33913563",
+      "33906557",
+      "33771991",
+      "33011176",
+      "32651553",
+      "32582562",
+      "32551441",
+      "32364064",
+      "32242028",
+      "32205411",
+      "32066530",
+      "31401143",
+      "30578751",
+      "30385174",
+      "29773794",
+      "29290521",
+      "29141957",
+      "29050646",
+      "27914655",
+      "27556489",
+      "27194531",
+      "26935288",
+      "26636514",
+      "25131183",
+      "24322838",
+      "23481023",
+      "22257669",
+      "19433609",
+      "17479111",
+      "14597658",
+      "8684214"
+    ],
+    "similar": [
+      "38778086",
+      "38701259",
+      "38800594",
+      "38587531",
+      "35795659",
+      "39051056",
+      "39128418",
+      "37622114",
+      "39199011",
+      "39173401",
+      "39393431",
+      "38343536",
+      "37664853",
+      "36248794",
+      "39402203",
+      "36543888",
+      "39104814",
+      "37295541",
+      "38703867",
+      "28260036",
+      "37386410",
+      "35647843",
+      "37496049",
+      "36792688",
+      "37550393",
+      "36466876",
+      "25182475",
+      "36186438",
+      "38149113",
+      "38562657",
+      "39258145",
+      "32252817",
+      "38239341",
+      "38404827",
+      "39315170",
+      "37481583",
+      "38690269",
+      "38433839",
+      "37861483",
+      "38755717",
+      "31526198",
+      "38758892",
+      "38160361",
+      "37325556",
+      "38041172",
+      "37740761",
+      "37800684",
+      "33232439",
+      "36714107",
+      "38051734",
+      "26636514",
+      "37727371",
+      "34628888",
+      "37804012",
+      "36118873",
+      "36049413",
+      "33955043",
+      "38420127",
+      "34469062",
+      "37864090",
+      "30015893",
+      "33936061",
+      "38791423",
+      "36685554",
+      "38684755",
+      "36405745",
+      "36823662",
+      "31699960",
+      "39346794",
+      "38169571",
+      "38360586",
+      "38189554",
+      "38277535",
+      "38711508",
+      "36341343",
+      "34271224",
+      "31258663",
+      "37994325",
+      "31746348",
+      "37720213",
+      "38652339",
+      "36479126",
+      "26787018",
+      "32089625",
+      "38203518",
+      "38505024",
+      "36470144",
+      "34680872",
+      "33280594",
+      "37378929",
+      "30302816",
+      "35558576",
+      "35278479",
+      "37415742",
+      "38062833",
+      "37454542",
+      "38736878",
+      "35996248",
+      "38555477",
+      "37822923",
+      "38509983",
+      "27217703",
+      "36341378",
+      "35151359",
+      "28726756",
+      "29335008",
+      "38789829",
+      "36526432"
+    ],
+    "review": [
+      "38778086"
+    ],
+    "pmc": [
+      "11111690"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/crohnsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Crohn's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-62259-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38778086/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38778086",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1155",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

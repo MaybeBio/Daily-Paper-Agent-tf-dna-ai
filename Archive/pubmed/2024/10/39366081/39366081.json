@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "39366081",
+    "doi": "10.1016/j.compbiolchem.2024.108222",
+    "title": "Phosphorylation at the D56 residue of MtrA in Mycobacterium tuberculosis enhances its DNA binding affinity by modulating inter-domain interaction."
+  },
+  "content": {
+    "abstract": "The response regulator, MtrA, plays a major role in adaptation to the host environment, cell division, replication, and dormancy activation of Mycobacterium tuberculosis (Mtb). The phosphorylation of the response regulator MtrA alters the downstream activity, typically involving changes in DNA binding activity. However, there is a substantial knowledge gap in understanding the phosphorylation-mediated structural changes in MtrA. Additionally, the active conformation of the protein has yet to be determined. Therefore, in this study, we have investigated the phosphorylation-induced conformational changes of MtrA using all-atom molecular dynamics simulations under various phosphorylation conditions. The results from this study demonstrate that the phosphorylation at D56 (pD56-MtrA) increases the compactness of the MtrA protein by stabilizing the inter-domain interaction between the regulatory domain and DNA binding domain. Notably, the higher occupancy H-bond (over 95 %) between Arg200-Asn100 in case of the pD56-MtrA condition, which is otherwise absent in the non-phosphorylated (uMtrA) condition, suggests the importance of this interaction in the active conformation of the protein. The dynamic cross-correlation analysis reveals that phosphorylation (especially pD56-MtrA) reduces the anti-correlated motions and increases correlated motions between different domains. Moreover, the higher DNA binding affinity of pD56-MtrA compared to uMtrA supported by molecular docking and MD simulation followed by MMPBSA analysis suggests that pD56-MtrA is the possible active conformation of the MtrA protein. Overall, this investigation elucidates the key structural changes in MtrA under different phosphorylated conditions, which might help in designing novel therapeutics against tuberculosis.",
+    "keywords": [
+      "MD simulation",
+      "MtrA",
+      "MtrAB two-component pathway",
+      "Mycobacterium tuberculosis",
+      "Phosphorylation"
+    ],
+    "mesh_terms": [
+      "*Mycobacterium tuberculosis/chemistry/metabolism",
+      "Phosphorylation",
+      "*Bacterial Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "DNA, Bacterial/metabolism/chemistry",
+      "Protein Binding",
+      "ATP-Binding Cassette Transporters"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nayak, Subhashree Subhasmita",
+        "Krishna, Ramadas"
+      ],
+      "short_names": [
+        "Nayak SS",
+        "Krishna R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioinformatics, Pondicherry University, Pondicherry 605014, India. Electronic address: ssnayak167@gmail.com.",
+        "Department of Bioinformatics, Pondicherry University, Pondicherry 605014, India. Electronic address: ramadaskr@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nayak, Subhashree Subhasmita",
+        "short_name": "Nayak SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Pondicherry University, Pondicherry 605014, India. Electronic address: ssnayak167@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Krishna, Ramadas",
+        "short_name": "Krishna R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Pondicherry University, Pondicherry 605014, India. Electronic address: ramadaskr@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/06 07:18",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42484757",
+      "41422366"
+    ],
+    "refs": [],
+    "similar": [
+      "39366081",
+      "29182512",
+      "35404097",
+      "17511470",
+      "22610443",
+      "16629667",
+      "21295603",
+      "33175092",
+      "25225272",
+      "26207528",
+      "20843371",
+      "21183673",
+      "25833257",
+      "20814030",
+      "20223818",
+      "26799615",
+      "33519719",
+      "31088763",
+      "23963455",
+      "28753640",
+      "21764934",
+      "29511081",
+      "20233304",
+      "33423211",
+      "28843272",
+      "39232488",
+      "10851001",
+      "20702407",
+      "39918987",
+      "20671191",
+      "8655513",
+      "31476406",
+      "24388645",
+      "29523315",
+      "29470546",
+      "23640943",
+      "27079268",
+      "27181265",
+      "41511902",
+      "29884774",
+      "23221802",
+      "34662260",
+      "30642988",
+      "28043637",
+      "32157138",
+      "37160693",
+      "23912807",
+      "40729538",
+      "20363229",
+      "30898047",
+      "38952446",
+      "40525867",
+      "31125144",
+      "30475855",
+      "26784657",
+      "28610784",
+      "21634789",
+      "35293797",
+      "37965715",
+      "23828196",
+      "40095462",
+      "42112455",
+      "27651172",
+      "34809457",
+      "39291929",
+      "31653701",
+      "21883526",
+      "37894163",
+      "32533861",
+      "41167447",
+      "30639188",
+      "10647181",
+      "24780591",
+      "33412199",
+      "30570222",
+      "30466358",
+      "30073572",
+      "25406313",
+      "31234337",
+      "17145760",
+      "37665626",
+      "29753941",
+      "25240418",
+      "25434965",
+      "37424186",
+      "38842315",
+      "33164832",
+      "18065544",
+      "7730282",
+      "28957755",
+      "41916519",
+      "40135878",
+      "35769908",
+      "21304599",
+      "27810897",
+      "30997553",
+      "29861345",
+      "31562654",
+      "39527993",
+      "22000520"
+    ],
+    "review": [
+      "39366081"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(24)00210-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

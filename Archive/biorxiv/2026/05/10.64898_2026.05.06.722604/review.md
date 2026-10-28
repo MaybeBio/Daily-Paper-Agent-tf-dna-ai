@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, experimental methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors claim that DNA supercoiling directly modulates binding of the bZIP transcription factor GCN4 to plasmid DNA, with positively supercoiled DNA forming more stable complexes and negatively supercoiled DNA retaining greater conformational heterogeneity, as supported by biochemical assays and multiscale simulations
+- **Visible evidence base** Abstract; Sections 1, 2.1, 2.2, 2.3, 2.4, 2.5, 3, 4; references to Figures 1, 2, 3, 4, 5, 6, 7 and Supplementary Figures S1-S12; experimental methods for protein expression, plasmid preparation, EMSA, BLI, CD, and computational simulations
+- **Missing materials affecting confidence** Figures and Supplementary Figures not provided; raw data not provided; specific numerical results (binding constants, statistical errors, simulation convergence metrics) not provided; details of BLI optimization and validation not fully described; sequence context of AP-1 sites within pUC19 not specified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and potentially important question, namely whether DNA supercoiling directly modulates transcription factor binding beyond sequence recognition. The combination of biochemical assays with multiscale simulations is commendable and appropriate for the question posed. However, the evidence as presented is insufficient to fully establish the central claims. Key quantitative data are missing, the BLI competition assay requires further validation, and the simulation methodology has gaps that prevent assessment of robustness. The conceptual framework is interesting, but the current version does not provide the rigorous quantitative support needed to convince a broad readership.
+- **Who would be interested in the results, and why** Researchers studying transcription factor-DNA recognition, DNA topology and supercoiling, chromatin structure and gene regulation, and computational biophysics of protein-DNA systems. The work could also interest those developing biosensing or biophysical assays for protein-DNA interactions, given the novel application of BLI to topology-dependent systems.
+- **Major strengths** The question is well motivated and significant. The use of defined topological plasmid substrates is a rigorous experimental approach. The combination of multiple biochemical methods (EMSA, CD, BLI) with multiscale simulations (coarse-grained plasmid and atomistic minicircle) is ambitious and appropriate. The competition-based BLI strategy is creative and addresses real technical limitations of direct plasmid immobilization. The conceptual separation between sequence-specific primary recognition and topology-dependent secondary organization is a useful framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that positively supercoiled DNA forms more stable and persistent complexes with GCN4, and that negatively supercoiled DNA retains greater conformational heterogeneity
+  - **Evidence pointer** Section 2.2, Figure 3; Section 2.3, Figure 4; Section 2.5, Figures 6 and 7
+  - **Concern** The central quantitative claim of differential binding affinity across topological states is not supported by any reported numerical values. The cb-BLI assay is described qualitatively, with no dissociation rate constants, errors, replicates, or statistical tests provided. The statement that "comparison of the kd showed an increase of GCN4 displacement" is ambiguous, as kd is typically a dissociation constant, not a rate, and no values are given. Without quantitative data, the reader cannot assess the magnitude or significance of the reported differences.
+  - **Why it matters** The central conclusion of the paper rests on the claim that GCN4 binds differently to different DNA topologies. If this is not quantitatively established with appropriate statistics, the entire conceptual framework is unsupported.
+  - **Resolution test** Provide numerical dissociation rate constants (or kd values) for each topological state, with standard errors and replicate numbers. Include statistical tests comparing conditions. Show representative raw sensorgrams and fit quality.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The manuscript claims that the competition-based BLI assay provides a faithful representation of binding to topologically distinct substrates
+  - **Evidence pointer** Section 2.2, Figure 3; Section 4, BLI assays
+  - **Concern** The cb-BLI assay is presented as a novel implementation, but critical validation is missing. The authors do not demonstrate that the immobilized oligonucleotide and the competing plasmid bind GCN4 in a mutually exclusive manner, nor do they rule out nonspecific effects such as plasmid-induced changes in solution viscosity, ionic strength, or sensor surface artifacts. The concentration range of competing plasmid is not reported, and no control experiments with non-specific competitor DNA are described. The claim that faster dissociation indicates stronger binding to the competitor assumes a kinetic model that is not stated or tested.
+  - **Why it matters** If the assay does not faithfully report relative binding affinities, the ranking of topological states could be an artifact of the measurement system rather than a genuine biophysical property.
+  - **Resolution test** Include control experiments with non-specific competitor DNA, demonstrate specificity of competition, vary competitor concentration systematically, and show that the assay reports known binding differences. Provide a kinetic model and show that the data are consistent with it.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation robustness
+  - **Claim pointer** The manuscript claims that multiscale simulations reveal that DNA topology modulates the conformational ensemble of the GCN4 basic region, with positively supercoiled DNA promoting a more ordered binding mode
+  - **Evidence pointer** Section 2.4, Figure 5; Section 2.5, Figures 6 and 7; Section 4, Computational methods
+  - **Concern** The simulation methodology has several gaps that prevent assessment of robustness. Only one trajectory was generated per plasmid topological state, with no assessment of sampling convergence. The coarse-grained plasmid simulations were run for 1000 ns, but it is unclear whether this is sufficient for a 2695-bp plasmid to explore its conformational ensemble. The atomistic simulations were run for 100 ns, which is short for protein-DNA systems. The backmapping procedure from coarse-grained to atomistic resolution is described but not validated. The MM/GBSA calculations are acknowledged as approximate, but the reported values are not given, so the reader cannot assess the magnitude of the effects.
+  - **Why it matters** The computational results are used to provide a mechanistic interpretation of the experimental findings. If the simulations are not converged or the methodology is not robust, the mechanistic claims are not reliable.
+  - **Resolution test** Provide convergence metrics for all simulations, including time series of key observables and block-averaged errors. Report the number of independent trajectories or show that a single trajectory is sufficient. Validate the backmapping procedure. Report MM/GBSA values with errors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The manuscript claims that positive supercoiling could influence transcription factor retention or preferential recruitment at specific genomic loci in vivo
+  - **Evidence pointer** Section 2.2, final paragraph; Section 3, Conclusions
+  - **Concern** The extrapolation from in vitro plasmid studies to in vivo genomic contexts is speculative. The authors do not discuss the magnitude of supercoiling densities used in their experiments relative to those found in vivo, nor do they address the confounding effects of chromatin structure, nucleosome positioning, or other DNA-binding proteins in vivo. The claim that positive supercoiling acts as an allosteric modulator is presented as a conclusion rather than a hypothesis.
+  - **Why it matters** Overinterpretation of in vitro and computational results as having direct in vivo relevance could mislead readers and overstate the significance of the findings.
+  - **Resolution test** Temper the language in the conclusions, explicitly acknowledge the limitations of the in vitro system, and frame the in vivo implications as testable hypotheses rather than established conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, EMSA analysis
+  - **Evidence pointer** Section 2.2, paragraph 1
+  - **Issue** The manuscript states that quantitative parameters were estimated using a densitometric approach yielding a kd, but the values are not reported. The statement that this analysis is "intrinsically limited" is appropriate, but the reader is left without any sense of the magnitude of the effect.
+  - **Required correction** Report the kd values obtained from EMSA, even if approximate, and state clearly that these are estimates with known limitations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 4, GCN4 expression and purification
+  - **Evidence pointer** Section 4, first paragraph
+  - **Issue** The purification description mentions an attempt at HPLC purification "according to the available protocol" without specifying the protocol or the outcome. This is vague and does not allow the reader to understand the final purification state.
+  - **Required correction** Specify the HPLC protocol used, the outcome of the attempt, and the final purity assessment method beyond SDS-PAGE and MALDI-TOF.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section 2.1, superhelical density values
+  - **Evidence pointer** Section 2.1, paragraph 1
+  - **Issue** The text states that pDNA(SC-) has a superhelical density of approximately -0.04, but the simulation section uses a value of sigma = -0.156 for the plasmid models. The relationship between the experimental and simulated superhelical densities is not explained.
+  - **Required correction** Clarify whether the simulated superhelical density corresponds to the experimental value or whether different values were used deliberately, and justify the choice.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1-7
+  - **Evidence pointer** Figures 1-7 as referenced
+  - **Issue** The figures are not provided in the manuscript text, so the reviewer cannot assess the quality of the data presentation or the validity of the visual claims.
+  - **Required correction** Ensure that all figures are included in the final submission and that they clearly show the data described in the text, with appropriate error bars and statistical annotations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2, "kd" usage
+  - **Evidence pointer** Section 2.2, paragraph 2
+  - **Issue** The manuscript uses "kd" to refer to a dissociation constant in one place and a dissociation rate in another. This is confusing and should be standardized.
+  - **Required correction** Use consistent notation, e.g., Kd for dissociation constant and koff or kd for dissociation rate, and define each term at first use.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative data), R1-M2 (inadequate BLI validation), R1-M3 (insufficient simulation convergence and methodological detail)
+- **Assessment against Nature-style criteria** Originality: The question of whether DNA supercoiling directly modulates transcription factor binding is not entirely new, but the specific combination of defined plasmid topologies with BLI and multiscale simulations offers a fresh angle. Scientific importance: The topic is significant for understanding gene regulation, but the current evidence does not yet establish the claimed effects with sufficient rigor. Interdisciplinary readership: The work bridges biochemistry, biophysics, and computational biology, which could appeal to a broad audience if the evidence is strengthened. Technical soundness: The experimental design is reasonable, but the missing quantitative data and validation experiments undermine confidence. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with specific techniques.
+- **Recommendation posture** Not currently established from the provided evidence. The manuscript addresses an interesting question with a creative approach, but the central claims require quantitative support and additional validation before the case is convincing. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that positively supercoiled DNA forms more stable and persistent complexes with GCN4 is unsupported by reported quantitative data
+- The claim that negatively supercoiled DNA retains greater conformational heterogeneity is not quantitatively demonstrated
+- The claim that the cb-BLI assay faithfully represents binding to topologically distinct substrates is not validated with control experiments
+- The claim that simulations reveal topology-dependent modulation of the GCN4 basic region conformational ensemble is not supported by convergence metrics or multiple independent trajectories
+- The extrapolation to in vivo relevance of positive supercoiling in transcription factor retention is speculative and not supported by the presented data
+- The statement that MM/GBSA analyses are "consistent with this interpretation" is not verifiable without reported values

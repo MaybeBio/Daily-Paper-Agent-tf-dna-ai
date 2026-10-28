@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "41447742",
+    "doi": "10.1016/j.crad.2025.107147",
+    "title": "Predicting the cell differentiation of Pit-1 positivity of pituitary incidentaloma using radiomics analysis based on MRI."
+  },
+  "content": {
+    "abstract": "AIM: This study aimed to construct and assess a predictive model based on radiomics features derived from preoperative MRI images to identify Pit-1 positivity in patients with pituitary incidentalomas (PIs), thereby providing a potential tool to support clinical decision-making (surgical or medical intervention versus radiological follow-up). MATERIALS AND METHODS: The study included 32 patients diagnosed with PIs who underwent surgery during a 1-3 years follow-up period. Clinical data and MRI scans, including T1-weighted with contrast (T1C) and T2-weighted (T2) sequences, were collected. Radiomics features were extracted from the region of interest (ROI), which was subjected to analysis using four machine learning algorithms namely Random Forest (RF), Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and Naive Bayes (NB) to build predictive models. Their performance was evaluated using five-fold cross-validation to calculate the mean area under the curve (AUC), sensitivity, and specificity. RESULTS: 30 T1C features, 39 T2 features, and 45 combined T1C + T2 features were selected from the initial pool of 107 features for model construction. The RF model demonstrated superior performance with an AUC of 0.875, outperforming that of SVM (AUC = 0.716), KNN (AUC = 0.550), and NB (AUC = 0.725). The RF model achieved a sensitivity of 86.6 % and a specificity of 88.3 % when the ROI was delineated on T1C sequences. The models incorporating T2 features alone or in combination with T1C did not yield higher performance than those based solely on T1C. CONCLUSION: The findings of this study suggest that radiomics analysis combined with machine learning algorithms can effectively predict Pit-1 positivity in PIs using preoperative MRI images. This approach has the potential to identify high-risk PI subtypes at an earlier stage, thereby facilitating more timely clinical interventions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Magnetic Resonance Imaging/methods",
+      "*Pituitary Neoplasms/diagnostic imaging/pathology/metabolism",
+      "Female",
+      "Male",
+      "Middle Aged",
+      "Incidental Findings",
+      "*Transcription Factor Pit-1/metabolism",
+      "Adult",
+      "Machine Learning",
+      "Aged",
+      "Sensitivity and Specificity",
+      "Retrospective Studies",
+      "Predictive Value of Tests",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duan, C",
+        "Wang, M",
+        "Guo, X",
+        "Ye, C",
+        "Zhao, X",
+        "Yao, S",
+        "Chen, W"
+      ],
+      "short_names": [
+        "Duan C",
+        "Wang M",
+        "Guo X",
+        "Ye C",
+        "Zhao X",
+        "Yao S",
+        "Chen W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510655, China; Center for Pituitary Surgery, Department of Neurosurgery, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510080, China.",
+        "Department of Neurosurgery, Shenzhen Second People's Hospital (the First Affiliated Hospital of Shenzhen University), Shenzhen, 518000, China.",
+        "Harbin Institute of Technology at Shenzhen, Shenzhen, 518067, China.",
+        "Harbin Institute of Technology at Shenzhen, Shenzhen, 518067, China.",
+        "Department of Radiology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510080, China.",
+        "Center for Pituitary Surgery, Department of Neurosurgery, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510080, China.",
+        "Department of Neurosurgery, The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510655, China. Electronic address: chenwenli@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duan, C",
+        "short_name": "Duan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510655, China; Center for Pituitary Surgery, Department of Neurosurgery, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wang, M",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shenzhen Second People's Hospital (the First Affiliated Hospital of Shenzhen University), Shenzhen, 518000, China."
+        ]
+      },
+      {
+        "full_name": "Guo, X",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Harbin Institute of Technology at Shenzhen, Shenzhen, 518067, China."
+        ]
+      },
+      {
+        "full_name": "Ye, C",
+        "short_name": "Ye C",
+        "identifiers": [],
+        "affiliations": [
+          "Harbin Institute of Technology at Shenzhen, Shenzhen, 518067, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, X",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Yao, S",
+        "short_name": "Yao S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Pituitary Surgery, Department of Neurosurgery, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Chen, W",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, 510655, China. Electronic address: chenwenli@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical radiology"
+    ],
+    "journal_abbrev": [
+      "Clin Radiol"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/25 19:30",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41447742",
+      "32087466",
+      "42159881",
+      "41327771",
+      "41826951",
+      "38750186",
+      "42180954",
+      "38580939",
+      "38458887",
+      "39090668",
+      "41233272",
+      "41325721",
+      "41207886",
+      "31747902",
+      "41087962",
+      "41168252",
+      "37926572",
+      "40223991",
+      "40632147",
+      "41545974",
+      "37995359",
+      "41217475",
+      "40405067",
+      "40116948",
+      "40162683",
+      "39147885",
+      "40273481",
+      "40467374",
+      "31425811",
+      "39354727",
+      "40606348",
+      "38783014",
+      "34819043",
+      "42406147",
+      "41188258",
+      "41580982",
+      "32222795",
+      "41540700",
+      "39904941",
+      "38508934",
+      "39927116",
+      "40986134",
+      "41092750",
+      "39003337",
+      "40722008",
+      "39843987",
+      "38679078",
+      "38997568",
+      "40190111",
+      "39311950",
+      "40890604",
+      "40054011",
+      "39879644",
+      "35723716",
+      "37371390",
+      "38395696",
+      "41537209",
+      "38887926",
+      "37214402",
+      "41826882",
+      "39733718",
+      "41188013",
+      "40165301",
+      "40831132",
+      "36460837",
+      "38577440",
+      "40229300",
+      "41329436",
+      "42159937",
+      "39026540",
+      "35024015",
+      "42157434",
+      "41723040",
+      "41295564",
+      "37949702",
+      "40615969",
+      "33220449",
+      "39904666",
+      "41740271",
+      "39668711",
+      "40976116",
+      "41083477",
+      "39528880",
+      "31691122",
+      "39604872",
+      "39973780",
+      "39574000",
+      "41352852",
+      "34604968",
+      "37379814",
+      "30377057",
+      "41668011",
+      "38153859",
+      "39417854",
+      "41099988",
+      "42116412",
+      "42109488",
+      "41063067",
+      "42178484",
+      "41772580"
+    ],
+    "review": [
+      "41447742"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-9260(25)00352-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0009-9260(25)00352-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

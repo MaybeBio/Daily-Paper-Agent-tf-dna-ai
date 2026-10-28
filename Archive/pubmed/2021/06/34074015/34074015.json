@@ -1,0 +1,643 @@
+{
+  "identity": {
+    "pmid": "34074015",
+    "doi": "10.3390/ijms22115547",
+    "title": "Mutant p53 Mediates Sensitivity to Cancer Treatment Agents in Oesophageal Adenocarcinoma Associated with MicroRNA and SLC7A11 Expression."
+  },
+  "content": {
+    "abstract": "TP53 gene mutations occur in 70% of oesophageal adenocarcinomas (OACs). Given the central role of p53 in controlling cellular response to therapy we investigated the role of mutant (mut-) p53 and SLC7A11 in a CRISPR-mediated JH-EsoAd1 TP53 knockout model. Response to 2 Gy irradiation, cisplatin, 5-FU, 4-hydroxytamoxifen, and endoxifen was assessed, followed by a TaqMan OpenArray qPCR screening for differences in miRNA expression. Knockout of mut-p53 resulted in increased chemo- and radioresistance (2 Gy survival fraction: 38% vs. 56%, p < 0.0001) and in altered miRNA expression levels. Target mRNA pathways analyses indicated several potential mechanisms of treatment resistance. SLC7A11 knockdown restored radiosensitivity (2 Gy SF: 46% vs. 73%; p = 0.0239), possibly via enhanced sensitivity to oxidative stress. Pathway analysis of the mRNA targets of differentially expressed miRNAs indicated potential involvement in several pathways associated with apoptosis, ribosomes, and p53 signaling pathways. The data suggest that mut-p53 in JH-EsoAd1, despite being classified as non-functional, has some function related to radio- and chemoresistance. The results also highlight the important role of SLC7A11 in cancer metabolism and redox balance and the influence of p53 on these processes. Inhibition of the SLC7A11-glutathione axis may represent a promising approach to overcome resistance associated with mut-p53.",
+    "keywords": [
+      "SLC7A11",
+      "chemoresistance",
+      "miR-27a-3p",
+      "miRNA",
+      "oesophageal cancer",
+      "oestrogen receptor modulator",
+      "radioresistance",
+      "reactive oxidative species",
+      "ribosome",
+      "xCT"
+    ],
+    "mesh_terms": [
+      "Adenocarcinoma/genetics/*metabolism",
+      "Amino Acid Transport System y+/genetics/*metabolism",
+      "Antineoplastic Agents/*pharmacology",
+      "Apoptosis/drug effects/*genetics/radiation effects",
+      "Cell Line, Tumor",
+      "Cell Survival/drug effects/genetics/radiation effects",
+      "Cisplatin/pharmacology",
+      "Drug Resistance, Neoplasm/drug effects/*genetics/radiation effects",
+      "Esophageal Neoplasms/genetics/*metabolism",
+      "Estrogens/metabolism",
+      "Gene Expression Regulation, Neoplastic/drug effects/genetics/radiation effects",
+      "Gene Knockout Techniques",
+      "Gene Ontology",
+      "Glutathione/metabolism",
+      "Humans",
+      "MicroRNAs/genetics/*metabolism",
+      "Oxidative Stress/drug effects/*genetics/radiation effects",
+      "Radiation Tolerance/drug effects/genetics",
+      "Ribosomes/drug effects/metabolism",
+      "Signal Transduction/drug effects/genetics",
+      "Tumor Suppressor Protein p53/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Eichelmann, Ann-Kathrin",
+        "Mayne, George C",
+        "Chiam, Karen",
+        "Due, Steven L",
+        "Bastian, Isabell",
+        "Butz, Frederike",
+        "Wang, Tingting",
+        "Sykes, Pamela J",
+        "Clemons, Nicholas J",
+        "Liu, David S",
+        "Michael, Michael Z",
+        "Karapetis, Christos S",
+        "Hummel, Richard",
+        "Watson, David I",
+        "Hussey, Damian J"
+      ],
+      "short_names": [
+        "Eichelmann AK",
+        "Mayne GC",
+        "Chiam K",
+        "Due SL",
+        "Bastian I",
+        "Butz F",
+        "Wang T",
+        "Sykes PJ",
+        "Clemons NJ",
+        "Liu DS",
+        "Michael MZ",
+        "Karapetis CS",
+        "Hummel R",
+        "Watson DI",
+        "Hussey DJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9037-7009",
+        "ORCID: 0000-0001-8154-6731",
+        "ORCID: 0000-0002-7739-4787",
+        "ORCID: 0000-0001-9283-9978",
+        "ORCID: 0000-0002-7683-2693",
+        "ORCID: 0000-0002-6121-6740"
+      ],
+      "affiliations": [
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Department of General, Visceral and Transplant Surgery, University Hospital of Munster, Waldeyerstrasse 1, 48149 Munster, Germany.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Department of Surgery, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Peter MacCallum Cancer Centre, 305 Grattan St, Melbourne, VIC 3000, Australia.",
+        "Sir Peter MacCallum Department of Oncology, The University of Melbourne, Parkville, VIC 3010, Australia.",
+        "Peter MacCallum Cancer Centre, 305 Grattan St, Melbourne, VIC 3000, Australia.",
+        "Department of Surgery, Austin Health, Heidelberg, VIC 3084, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Department of Gastroenterology, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Department of Medical Oncology, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Department of Surgery, University Hospital of Schleswig-Holstein, Ratzeburger Allee 160, 23538 Lubeck, Germany.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Department of Surgery, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+        "Department of Surgery, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Eichelmann, Ann-Kathrin",
+        "short_name": "Eichelmann AK",
+        "identifiers": [
+          "0000-0002-9037-7009"
+        ],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+          "Department of General, Visceral and Transplant Surgery, University Hospital of Münster, Waldeyerstrasse 1, 48149 Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Mayne, George C",
+        "short_name": "Mayne GC",
+        "identifiers": [],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+          "Department of Surgery, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Chiam, Karen",
+        "short_name": "Chiam K",
+        "identifiers": [
+          "0000-0001-8154-6731"
+        ],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Due, Steven L",
+        "short_name": "Due SL",
+        "identifiers": [],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Bastian, Isabell",
+        "short_name": "Bastian I",
+        "identifiers": [],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Butz, Frederike",
+        "short_name": "Butz F",
+        "identifiers": [],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Wang, Tingting",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0002-7739-4787"
+        ],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Sykes, Pamela J",
+        "short_name": "Sykes PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Clemons, Nicholas J",
+        "short_name": "Clemons NJ",
+        "identifiers": [
+          "0000-0001-9283-9978"
+        ],
+        "affiliations": [
+          "Peter MacCallum Cancer Centre, 305 Grattan St, Melbourne, VIC 3000, Australia.",
+          "Sir Peter MacCallum Department of Oncology, The University of Melbourne, Parkville, VIC 3010, Australia."
+        ]
+      },
+      {
+        "full_name": "Liu, David S",
+        "short_name": "Liu DS",
+        "identifiers": [],
+        "affiliations": [
+          "Peter MacCallum Cancer Centre, 305 Grattan St, Melbourne, VIC 3000, Australia.",
+          "Department of Surgery, Austin Health, Heidelberg, VIC 3084, Australia."
+        ]
+      },
+      {
+        "full_name": "Michael, Michael Z",
+        "short_name": "Michael MZ",
+        "identifiers": [],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+          "Department of Gastroenterology, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Karapetis, Christos S",
+        "short_name": "Karapetis CS",
+        "identifiers": [],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+          "Department of Medical Oncology, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Hummel, Richard",
+        "short_name": "Hummel R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University Hospital of Schleswig-Holstein, Ratzeburger Allee 160, 23538 Lübeck, Germany."
+        ]
+      },
+      {
+        "full_name": "Watson, David I",
+        "short_name": "Watson DI",
+        "identifiers": [
+          "0000-0002-7683-2693"
+        ],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+          "Department of Surgery, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      },
+      {
+        "full_name": "Hussey, Damian J",
+        "short_name": "Hussey DJ",
+        "identifiers": [
+          "0000-0002-6121-6740"
+        ],
+        "affiliations": [
+          "Flinders Health and Medical Research Institute-Cancer Program, Flinders University, Bedford Park, Adelaide, SA 5042, Australia.",
+          "Department of Surgery, Flinders Medical Centre, Bedford Park, Adelaide, SA 5042, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 May 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/03 06:00",
+    "fetched_at": "2026-09-27 18:33:14"
+  },
+  "links": {
+    "cites": [
+      "42649923",
+      "42206577",
+      "41219393",
+      "40621114",
+      "39969205",
+      "39538363",
+      "39145422",
+      "38979130",
+      "38596137",
+      "38250763",
+      "37546564",
+      "36067173",
+      "35840974",
+      "35751784",
+      "35454796"
+    ],
+    "refs": [
+      "33667690",
+      "33435549",
+      "33255413",
+      "33240819",
+      "33163260",
+      "33087824",
+      "33005106",
+      "32929059",
+      "32722796",
+      "32587657",
+      "31817996",
+      "31647101",
+      "31572683",
+      "31267531",
+      "31258791",
+      "31152846",
+      "30764513",
+      "30692038",
+      "30230914",
+      "30217293",
+      "30158978",
+      "29844840",
+      "29784041",
+      "29764521",
+      "29719405",
+      "29670092",
+      "29498642",
+      "29448954",
+      "29414899",
+      "29390981",
+      "29192325",
+      "29126174",
+      "28886379",
+      "28627030",
+      "28585555",
+      "28556024",
+      "28475724",
+      "28348409",
+      "28002789",
+      "27780140",
+      "27708226",
+      "27595477",
+      "27566033",
+      "27328919",
+      "27313769",
+      "27294833",
+      "27254108",
+      "27223830",
+      "27221738",
+      "27216701",
+      "26894978",
+      "26883574",
+      "26771115",
+      "26733670",
+      "26687066",
+      "26662313",
+      "26472042",
+      "26390174",
+      "26187504",
+      "26185366",
+      "26056584",
+      "25897249",
+      "25753202",
+      "25722304",
+      "25605792",
+      "25436011",
+      "24968221",
+      "24154848",
+      "23650389",
+      "23622248",
+      "23583221",
+      "23559009",
+      "23438830",
+      "23268708",
+      "23180781",
+      "23163347",
+      "22929699",
+      "22847613",
+      "22706599",
+      "22045465",
+      "22018270",
+      "21841015",
+      "21779010",
+      "21744498",
+      "21684205",
+      "21445039",
+      "20818168",
+      "20485546",
+      "20182602",
+      "20181738",
+      "20140529",
+      "19960259",
+      "19941080",
+      "19878070",
+      "18789835",
+      "18787394",
+      "18477250",
+      "18304383",
+      "18006846",
+      "17406473",
+      "16469747",
+      "16103098",
+      "15838523",
+      "15197326",
+      "15149863",
+      "14576853",
+      "12947385",
+      "12168823",
+      "11106684"
+    ],
+    "similar": [
+      "34074015",
+      "24516043",
+      "33255413",
+      "26187504",
+      "35367340",
+      "34315763",
+      "26221725",
+      "29968942",
+      "32052927",
+      "28348409",
+      "38667315",
+      "23562878",
+      "26878873",
+      "30217293",
+      "30380689",
+      "27658422",
+      "31874110",
+      "25917317",
+      "26743123",
+      "27644195",
+      "27422937",
+      "28928082",
+      "28878262",
+      "28273808",
+      "25175076",
+      "24970682",
+      "31866582",
+      "28790158",
+      "30375398",
+      "31243806",
+      "26017674",
+      "27825112",
+      "26026166",
+      "28348485",
+      "26224081",
+      "27014910",
+      "23155233",
+      "26562549",
+      "31267531",
+      "21289630",
+      "30066882",
+      "22214381",
+      "30099826",
+      "21246413",
+      "30827507",
+      "38991271",
+      "29414899",
+      "29653464",
+      "31088908",
+      "30066856",
+      "32776119",
+      "14991767",
+      "30209170",
+      "24183976",
+      "31138778",
+      "7665247",
+      "30576232",
+      "31247211",
+      "31127646",
+      "32012470",
+      "29060932",
+      "27083050",
+      "21510944",
+      "16103098",
+      "25896253",
+      "27427516",
+      "26662313",
+      "26396496",
+      "23614048",
+      "31308060",
+      "29080815",
+      "26517240",
+      "31391338",
+      "25499080",
+      "28627030",
+      "30867818",
+      "27612422",
+      "23584479",
+      "24145606",
+      "27708226",
+      "27501171",
+      "31529206",
+      "21248297",
+      "25399695",
+      "30387173",
+      "24155113",
+      "28767179",
+      "31534534",
+      "27531966",
+      "22706599",
+      "39262240",
+      "39125853",
+      "33430127",
+      "33297928",
+      "33927351",
+      "22193543",
+      "38891084",
+      "33137455",
+      "33619227",
+      "39334882",
+      "25799988",
+      "28415717",
+      "23568705",
+      "20546244",
+      "22798379",
+      "33882379",
+      "23895654",
+      "23505474",
+      "32890739",
+      "38203758",
+      "24740682",
+      "32587657",
+      "37339981",
+      "31849293",
+      "39285636",
+      "32231310",
+      "38290658",
+      "22898542",
+      "29393409",
+      "32621966",
+      "32691711",
+      "34427100",
+      "37762037",
+      "37987512",
+      "19735873",
+      "38823363",
+      "37202615",
+      "33627789",
+      "39040097",
+      "22422301",
+      "37584712",
+      "24968221",
+      "24238736",
+      "19735874",
+      "38003688",
+      "36581218",
+      "36359363",
+      "37862919",
+      "37932516",
+      "23602933",
+      "20840865",
+      "34944790",
+      "19918091",
+      "34938318",
+      "35454796",
+      "21893155",
+      "34326482",
+      "39019423"
+    ],
+    "review": [
+      "34074015",
+      "33430127",
+      "33297928",
+      "23568705",
+      "22798379",
+      "23895654",
+      "32890739",
+      "38203758",
+      "24740682",
+      "31849293",
+      "22898542",
+      "32691711",
+      "39040097",
+      "24238736",
+      "38003688",
+      "36581218",
+      "37862919",
+      "23602933",
+      "20840865",
+      "39019423"
+    ],
+    "pmc": [
+      "8197322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22115547",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34074015/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34074015",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse171965",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

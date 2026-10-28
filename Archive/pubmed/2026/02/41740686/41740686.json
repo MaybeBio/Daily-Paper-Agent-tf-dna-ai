@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "41740686",
+    "doi": "10.1016/j.freeradbiomed.2026.02.057",
+    "title": "NCOA4-mediated ferroptosis drives cGAS-STING-dependent inflammation in radiation dermatitis: Protective modulation by Cu-ATSM."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Radiation dermatitis (RD) remains a major clinical complication of radiotherapy, but its upstream molecular mechanisms are incompletely understood. Increasing evidence suggests that ferroptosis-an iron-dependent form of regulated cell death-may contribute to radiation-induced tissue injury, yet its role in skin pathology and immune activation remains undefined. METHODS: We integrated multi-omics analysis, cellular co-culture, computational modeling, and in vivo validation to investigate the role of NCOA4-mediated ferritinophagy and its interplay with the cGAS-STING pathway in RD. Bulk and single-cell RNA-seq analyses were used to characterize ferroptosis-related transcriptional signatures. Biochemical assays, transmission electron microscopy, and cytokine profiling evaluated ferroptosis and inflammation in irradiated keratinocytes and macrophages. The redox-active compound Cu-ATSM was tested as a potential therapeutic modulator both in vitro and in a mouse RD model. RESULTS: Ionizing radiation (IR) induced NCOA4 upregulation and ferritin degradation in epidermal keratinocytes, leading to labile iron accumulation, lipid peroxidation, and activation of ferroptotic markers such as ACSL4. Co-culture experiments demonstrated that ferroptotic keratinocytes released DNA-associated DAMPs that activated the cGAS-STING-IFN-beta axis in macrophages, forming a redox-immune feedback loop. Cu-ATSM treatment markedly suppressed ferroptosis and downstream STING activation. Docking and molecular dynamics simulations positioned Cu-ATSM within the FTH1-binding interface of NCOA4, suggesting competitive inhibition, while immunoprecipitation-MRM mass spectrometry confirmed physical association. In vivo, topical Cu-ATSM significantly ameliorated RD severity, preserved mitochondrial morphology, and reduced ferroptosis and inflammatory cytokine expression in irradiated skin. CONCLUSION: These findings identify the NCOA4-ferroptosis-cGAS-STING axis as a key pathogenic pathway linking redox imbalance to inflammation in radiation dermatitis. Cu-ATSM acts as a multimodal modulator that interferes with NCOA4-mediated ferritinophagy and mitigates ferroptosis-driven immune activation. This study establishes a mechanistic framework for ferroptosis-targeted interventions and supports Cu-ATSM as a promising therapeutic strategy for mitigating radiation-induced skin injury.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Ferroptosis/drug effects/genetics",
+      "Mice",
+      "cGAS-STING Signaling Pathway",
+      "Keratinocytes/metabolism/drug effects/radiation effects/pathology",
+      "Humans",
+      "*Radiodermatitis/pathology/drug therapy/metabolism/genetics",
+      "*Nucleotidyltransferases/metabolism/genetics",
+      "STING Protein",
+      "*Nuclear Receptor Coactivators/metabolism/genetics",
+      "*Inflammation/pathology/metabolism",
+      "Cyclic Guanosine Monophosphate-Adenosine Monophosphate Synthase",
+      "*Membrane Proteins/metabolism/genetics",
+      "Macrophages/metabolism/drug effects",
+      "Mice, Inbred C57BL",
+      "Ferritins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shuai",
+        "Chen, Letaotao",
+        "Fang, Zeyu",
+        "Shen, Wangjie",
+        "Cai, Jihao",
+        "Dong, Bingqi",
+        "Lin, Tianxiang",
+        "Zhang, Renkan",
+        "Jin, Liyuan",
+        "Liu, Chengcheng",
+        "Wu, Fangfang",
+        "Wu, Qian",
+        "Chen, Daqing"
+      ],
+      "short_names": [
+        "Li S",
+        "Chen L",
+        "Fang Z",
+        "Shen W",
+        "Cai J",
+        "Dong B",
+        "Lin T",
+        "Zhang R",
+        "Jin L",
+        "Liu C",
+        "Wu F",
+        "Wu Q",
+        "Chen D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Department of Vascular Intervention, Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China. Electronic address: wufangfang@wzhealth.com.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China. Electronic address: wuqianwmu@163.com.",
+        "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China. Electronic address: cdq1965@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shuai",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Letaotao",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Department of Vascular Intervention, Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Zeyu",
+        "short_name": "Fang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Wangjie",
+        "short_name": "Shen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Jihao",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Bingqi",
+        "short_name": "Dong B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Tianxiang",
+        "short_name": "Lin T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Renkan",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Liyuan",
+        "short_name": "Jin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chengcheng",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Fangfang",
+        "short_name": "Wu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China. Electronic address: wufangfang@wzhealth.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Qian",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China. Electronic address: wuqianwmu@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Daqing",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang, 325027, China; Zhejiang Engineering Research Center for Innovation and Application of Intelligent Radiotherapy Technology, Zhejiang-Hong Kong Precision Theranostics of Thoracic Tumors Joint Laboratory, Wenzhou Key Laboratory of Basic Science and Translational Research of Radiation Oncology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China. Electronic address: cdq1965@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Free radical biology & medicine"
+    ],
+    "journal_abbrev": [
+      "Free Radic Biol Med"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 15:22",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41740686",
+      "39732341",
+      "41702081",
+      "42176907",
+      "41716413",
+      "40580330",
+      "41651300",
+      "41421415",
+      "41722510",
+      "40339610",
+      "38688134",
+      "42150287",
+      "41148492",
+      "42092410",
+      "42360991",
+      "36343680",
+      "40652697",
+      "39515100",
+      "41374003",
+      "41892314",
+      "40828197",
+      "36940731",
+      "42105710",
+      "41993619",
+      "41653617",
+      "41418601",
+      "41873334",
+      "40152382",
+      "42092407",
+      "41905213",
+      "42157202",
+      "42219071",
+      "41766674",
+      "41825654",
+      "34986380",
+      "41690330",
+      "42091499",
+      "41707815",
+      "41528413",
+      "37230431",
+      "40738474",
+      "40749519",
+      "40948766",
+      "39700692",
+      "42003925",
+      "42405973",
+      "41182521",
+      "41778146",
+      "41508213",
+      "41721997",
+      "41161393",
+      "41566417",
+      "40507886",
+      "41261022",
+      "41649288",
+      "42034938",
+      "41723905",
+      "41975278",
+      "41601924",
+      "39217915",
+      "41738749",
+      "42212620",
+      "39833988",
+      "41798912",
+      "41708603",
+      "42324098",
+      "40285509",
+      "38713437",
+      "37634745",
+      "42206267",
+      "35902564",
+      "40457335",
+      "42258722",
+      "41260392",
+      "38704789",
+      "39746501",
+      "42343678",
+      "41998669",
+      "41806931",
+      "42242574",
+      "39884185",
+      "41796892",
+      "41422729",
+      "39353532",
+      "42102950",
+      "41709234",
+      "41749209",
+      "33245979",
+      "40522023",
+      "41571554",
+      "40812610",
+      "42114577",
+      "41742219",
+      "42061111",
+      "42143499",
+      "40409694",
+      "41593656",
+      "41731500",
+      "38648040",
+      "39643129"
+    ],
+    "review": [
+      "41740686",
+      "40828197"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0891-5849(26)00154-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STING1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-999",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

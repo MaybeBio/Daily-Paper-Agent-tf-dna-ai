@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "41714378",
+    "doi": "10.1038/s41598-026-41028-x",
+    "title": "Machine learning-driven discovery of STAT1 and TRIM22 as immune biomarkers for lupus nephritis: translational insights into diagnosis and pathogenesis."
+  },
+  "content": {
+    "abstract": "Lupus nephritis (LN) is a severe manifestation of systemic lupus erythematosus and a major cause of renal dysfunction, while reliable non-invasive biomarkers remain limited. Transcriptomic data from three LN cohorts were analyzed to identify differentially expressed genes (DEGs). Immune-associated DEGs were selected using WGCNA and prioritized via multiple machine learning algorithms. Diagnostic performance was evaluated with ROC curves and nomogram modeling, accompanied by functional enrichment and immune infiltration analyses. Independent validation was performed by qRT-PCR in peripheral blood samples from 13 LN patients and 10 healthy controls. A total of 320 DEGs were identified, including 53 linked to immune processes. In the transcriptomic datasets, four candidate hub genes (CD40LG, RETN, TRIM22, STAT1) were initially identified. Furthermore, immune infiltration analysis suggested gene-specific immune interaction patterns, particularly associating TRIM22 with CD4(+) T-cell-related signatures. qRT-PCR confirmed upregulation of STAT1 and TRIM22, while RETN and CD40LG showed no significant elevation. Accordingly, a refined two-gene signature was constructed, showing consistent discriminatory trends in the training dataset and the clinical validation cohort (AUCs > 0.9). STAT1 and TRIM22 were consistently upregulated in the peripheral blood of patients with lupus nephritis and may represent potential immune-related biomarkers.",
+    "keywords": [
+      "Immune biomarkers",
+      "Lupus nephritis",
+      "Machine learning",
+      "STAT1",
+      "TRIM22"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lupus Nephritis/diagnosis/genetics/immunology",
+      "*STAT1 Transcription Factor/genetics/metabolism/blood",
+      "Biomarkers/blood/metabolism",
+      "*Tripartite Motif Proteins/genetics/metabolism",
+      "*Repressor Proteins/genetics/metabolism/blood",
+      "*Machine Learning",
+      "Female",
+      "Gene Expression Profiling",
+      "*Minor Histocompatibility Antigens/genetics",
+      "Male",
+      "Transcriptome",
+      "Case-Control Studies",
+      "Adult",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deng, Jiayi",
+        "Zhang, Zimiao",
+        "Lai, Yueyuan",
+        "Chen, Jinpeng",
+        "Ma, Xiaomei",
+        "Gao, Zhenkai",
+        "Lin, Chao",
+        "Li, Xiaohong",
+        "Wu, Weihao",
+        "Chen, Congjie",
+        "Shangguan, Xiaohui",
+        "Huang, Yanhong",
+        "Qiu, Haoran",
+        "Qiu, Xiaoming",
+        "Chen, Longtian"
+      ],
+      "short_names": [
+        "Deng J",
+        "Zhang Z",
+        "Lai Y",
+        "Chen J",
+        "Ma X",
+        "Gao Z",
+        "Lin C",
+        "Li X",
+        "Wu W",
+        "Chen C",
+        "Shangguan X",
+        "Huang Y",
+        "Qiu H",
+        "Qiu X",
+        "Chen L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China. 981164933@qq.com.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "The Third Hospital of Longyan, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China. fjqiuxiaoming@163.com.",
+        "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China. ltchen@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deng, Jiayi",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China. 981164933@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zimiao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Yueyuan",
+        "short_name": "Lai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinpeng",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaomei",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zhenkai",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Third Hospital of Longyan, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Chao",
+        "short_name": "Lin C",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaohong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Weihao",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Congjie",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Shangguan, Xiaohui",
+        "short_name": "Shangguan X",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanhong",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Haoran",
+        "short_name": "Qiu H",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xiaoming",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China. fjqiuxiaoming@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Longtian",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Longyan First Affiliated Hospital of Fujian Medical University, Longyan, 364000, China. ltchen@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/20 00:32",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41157170",
+      "41095649",
+      "40342119",
+      "38331818",
+      "38275723",
+      "38009729",
+      "37614232",
+      "37267677",
+      "36829595",
+      "36533341",
+      "36374433",
+      "36227575",
+      "34911862",
+      "34769363",
+      "34731289",
+      "34515043",
+      "34435525",
+      "34434197",
+      "34281193",
+      "32942031",
+      "32937045",
+      "32220510",
+      "29742110",
+      "29485622",
+      "29158945",
+      "28836909",
+      "27821390",
+      "27412348",
+      "27040498",
+      "26581344",
+      "25890061",
+      "25466291",
+      "25455592",
+      "25345756",
+      "25010439",
+      "24280128",
+      "23929771",
+      "23092582",
+      "22257669",
+      "22129255",
+      "21414208",
+      "21187439",
+      "20457564",
+      "19915621",
+      "19114008",
+      "18772188",
+      "18323559",
+      "18305268",
+      "17402366",
+      "17160063",
+      "14717922",
+      "12021240",
+      "8698875",
+      "8598451"
+    ],
+    "similar": [
+      "41714378",
+      "41816342",
+      "36532018",
+      "42056344",
+      "38637124",
+      "39126180",
+      "40973872",
+      "40253531",
+      "40342119",
+      "41485172",
+      "42504115",
+      "39869603",
+      "42058211",
+      "39081100",
+      "40677720",
+      "41928442",
+      "38130724",
+      "35967373",
+      "39224582",
+      "39854874",
+      "42536689",
+      "41005317",
+      "40739239",
+      "38855105",
+      "41316541",
+      "41665627",
+      "41200172",
+      "41488623",
+      "39281688",
+      "40323689",
+      "42123445",
+      "41432483",
+      "41052072",
+      "41146237",
+      "39754246",
+      "42154423",
+      "40019633",
+      "41044520",
+      "42024670",
+      "41611834",
+      "42158856",
+      "40976321",
+      "41080564",
+      "36595110",
+      "41291841",
+      "42123756",
+      "39415336",
+      "41350988",
+      "40969769",
+      "41540405",
+      "41479901",
+      "41858783",
+      "40949741",
+      "40119397",
+      "40830558",
+      "42589294",
+      "41265166",
+      "39697326",
+      "41703488",
+      "41706232",
+      "35906002",
+      "40129981",
+      "41686563",
+      "39080525",
+      "42510870",
+      "40789933",
+      "40808946",
+      "41756296",
+      "40625749",
+      "38455045",
+      "40532306",
+      "42327749",
+      "40046872",
+      "41826854",
+      "42233387",
+      "39388708",
+      "38987624",
+      "35558576",
+      "40943308",
+      "35495164",
+      "42496954",
+      "38499050",
+      "40151199",
+      "34553293",
+      "41816328",
+      "39139563",
+      "40500570",
+      "32803897",
+      "42195052",
+      "41789070",
+      "42352882",
+      "42495609",
+      "42306043",
+      "41328587",
+      "40374866",
+      "39875572",
+      "41570698",
+      "42338983",
+      "39509016",
+      "40319190"
+    ],
+    "review": [
+      "41714378",
+      "41665627"
+    ],
+    "pmc": [
+      "13022194"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-41028-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41714378/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

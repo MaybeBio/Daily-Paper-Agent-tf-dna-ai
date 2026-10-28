@@ -1,0 +1,157 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.02.530529",
+  "title": "Unveiling causal regulatory mechanisms through cell-state parallax",
+  "doi": "10.1101/2023.03.02.530529",
+  "abstract": "Genome-wide association studies (GWAS) identify numerous disease-linked genetic variants at noncoding genomic loci, yet therapeutic progress is hampered by the challenge of deciphering the regulatory roles of these loci in tissue-specific contexts. Single-cell multimodal assays that simultaneously profile chromatin accessibility and gene expression could predict tissue-specific causal links between noncoding loci and the genes they affect. However, current computational strategies either neglect the causal relationship between chromatin accessibility and transcription or lack variant-level precision, aggregating data across genomic ranges due to data sparsity. To address this, we introduce GrID-Net, a graph neural network approach that generalizes Granger causal inference to detect new causal locus–gene associations in graph-structured systems such as single-cell trajectories. Inspired by the principles of optical parallax, which reveals object depth from static snapshots, we hypothesized that causal mechanisms could be inferred from static single-cell snapshots by exploiting the time lag between epigenetic and transcriptional cell states, a concept we term “cell-state parallax.” Applying GrID-Net to schizophrenia (SCZ) genetic variants, we increased variant coverage by 36% and uncovered noncoding mechanisms that dysregulate 132 genes, including key potassium transporters such as KCNG2 and SLC12A6. Furthermore, we discovered evidence for the prominent role of neural transcription-factor binding disruptions in SCZ etiology. Our work not only provides a strategy for elucidating the tissue-specific impact of noncoding variants but also underscores the breakthrough potential of cell-state parallax in single-cell multiomics for discovering tissue-specific gene regulatory mechanisms.",
+  "authors": [
+    "Wu AP",
+    "Singh R",
+    "Walsh C",
+    "Berger B"
+  ],
+  "published_date": "2023-03-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.02.530529",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.02.530529.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR625890",
+    "raw_record": {
+      "id": "PPR625890",
+      "source": "PPR",
+      "doi": "10.1101/2023.03.02.530529",
+      "title": "Unveiling causal regulatory mechanisms through cell-state parallax",
+      "authorString": "Wu AP, Singh R, Walsh C, Berger B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wu AP",
+            "lastName": "Wu",
+            "firstName": "Alexander Po-Yen",
+            "initials": "AP"
+          },
+          {
+            "fullName": "Singh R",
+            "lastName": "Singh",
+            "firstName": "Rohit",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4084-7340"
+            }
+          },
+          {
+            "fullName": "Walsh C",
+            "lastName": "Walsh",
+            "firstName": "Christopher",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0156-2238"
+            }
+          },
+          {
+            "fullName": "Berger B",
+            "lastName": "Berger",
+            "firstName": "Bonnie",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2724-7228"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0156-2238"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2724-7228"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4084-7340"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Genome-wide association studies (GWAS) identify numerous disease-linked genetic variants at noncoding genomic loci, yet therapeutic progress is hampered by the challenge of deciphering the regulatory roles of these loci in tissue-specific contexts. Single-cell multimodal assays that simultaneously profile chromatin accessibility and gene expression could predict tissue-specific causal links between noncoding loci and the genes they affect. However, current computational strategies either neglect the causal relationship between chromatin accessibility and transcription or lack variant-level precision, aggregating data across genomic ranges due to data sparsity. To address this, we introduce GrID-Net, a graph neural network approach that generalizes Granger causal inference to detect new causal locus–gene associations in graph-structured systems such as single-cell trajectories. Inspired by the principles of optical parallax, which reveals object depth from static snapshots, we hypothesized that causal mechanisms could be inferred from static single-cell snapshots by exploiting the time lag between epigenetic and transcriptional cell states, a concept we term “cell-state parallax.” Applying GrID-Net to schizophrenia (SCZ) genetic variants, we increased variant coverage by 36% and uncovered noncoding mechanisms that dysregulate 132 genes, including key potassium transporters such as KCNG2 and SLC12A6. Furthermore, we discovered evidence for the prominent role of neural transcription-factor binding disruptions in SCZ etiology. Our work not only provides a strategy for elucidating the tissue-specific impact of noncoding variants but also underscores the breakthrough potential of cell-state parallax in single-cell multiomics for discovering tissue-specific gene regulatory mechanisms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/29/2023.03.02.530529.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.02.530529"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40883263",
+            "reference": "Nature communications. 2025 Aug;16(1):8096",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-03-09",
+      "firstPublicationDate": "2023-03-03",
+      "firstIndexDate": "2023-03-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

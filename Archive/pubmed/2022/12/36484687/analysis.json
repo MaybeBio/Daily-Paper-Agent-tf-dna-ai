@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36484687",
+  "title": "Computational prediction and characterization of cell-type-specific and shared binding sites.",
+  "authors": "Zhang, Qinhu; Teng, Pengrui; Wang, Siguo; He, Ying; Cui, Zhen; Guo, Zhenghao; Liu, Yixin; Yuan, Changan; Liu, Qi; Huang, De-Shuang",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-12-10",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用XGBoost和CNN整合多类特征预测细胞类型特异性和共享的TF结合位点，聚焦TF-DNA结合位点预测，但未深入三维互作机制建模，方法可迁移至本课题。",
+  "abstract": "MOTIVATION: Cell-type-specific gene expression is maintained in large part by transcription factors (TFs) selectively binding to distinct sets of sites in different cell types. Recent research works have provided evidence that such cell-type-specific binding is determined by TF's intrinsic sequence preferences, cooperative interactions with co-factors, cell-type-specific chromatin landscapes and 3D chromatin interactions. However, computational prediction and characterization of cell-type-specific and shared binding sites is rarely studied. RESULTS: In this article, we propose two computational approaches for predicting and characterizing cell-type-specific and shared binding sites by integrating multiple types of features, in which one is based on XGBoost and another is based on convolutional neural network (CNN). To validate the performance of our proposed approaches, ChIP-seq datasets of 10 binding factors were collected from the GM12878 (lymphoblastoid) and K562 (erythroleukemic) human hematopoietic cell lines, each of which was further categorized into cell-type-specific (GM12878- and K562-specific) and shared binding sites. Then, multiple types of features for these binding sites were integrated to train the XGBoost- and CNN-based models. Experimental results show that our proposed approaches significantly outperform other competing methods on three classification tasks. Moreover, we identified independent feature contributions for cell-type-specific and shared sites through SHAP values and explored the ability of the CNN-based model to predict cell-type-specific and shared binding sites by excluding or including DNase signals. Furthermore, we investigated the generalization ability of our proposed approaches to different binding factors in the same cellular environment. AVAILABILITY AND IMPLEMENTATION: The source code is available at: https://github.com/turningpoint1988/CSSBS. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：细胞类型特异性基因表达在很大程度上由转录因子（TFs）在不同细胞类型中选择性结合不同的位点集合来维持。近期研究已提供证据表明，这种细胞类型特异性结合由TF的内在序列偏好、与辅因子的协同相互作用、细胞类型特异性染色质景观及3D染色质相互作用所决定。然而，对细胞类型特异性和共享结合位点的计算预测与表征研究尚少。结果：在本文中，我们提出了两种计算方法，通过整合多种类型的特征来预测和表征细胞类型特异性和共享结合位点，其中一种基于XGBoost，另一种基于卷积神经网络（CNN）。为验证所提方法的性能，我们从GM12878（淋巴母细胞样）和K562（红白血病）人类造血细胞系中收集了10个结合因子的ChIP-seq数据集，每个数据集进一步分类为细胞类型特异性（GM12878特异性和K562特异性）和共享结合位点。随后，整合这些结合位点的多种类型特征以训练基于XGBoost和CNN的模型。实验结果表明，我们提出的方法在三个分类任务上显著优于其他竞争方法。此外，我们通过SHAP值识别了细胞类型特异性和共享位点的独立特征贡献，并通过排除或包含DNase信号探索了基于CNN的模型预测细胞类型特异性和共享结合位点的能力。进一步，我们研究了所提方法在同一细胞环境中对不同结合因子的泛化能力。可用性与实现：源代码可在以下网址获取：https://github.com/turningpoint1988/CSSBS。补充信息：补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36484687/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36484687/",
+  "paper_page_path": "papers/pubmed/36484687/index.html"
+}

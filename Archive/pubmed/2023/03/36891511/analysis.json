@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36891511",
+  "title": "Deciphering transcription factors and their corresponding regulatory elements during inhibitory interneuron differentiation using deep neural networks.",
+  "authors": "Alatawneh, Rawan; Salomon, Yahel; Eshel, Reut; Orenstein, Yaron; Birnbaum, Ramon Y",
+  "journal": "Frontiers in cell and developmental biology",
+  "published_date": "2023-03-10",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习框架eMotif-RE识别抑制性中间神经元分化中TF基序富集于增强子/沉默子，结合功能实验揭示ASCL1、ZEB1等TF与DNA调控元件的互作，虽非直接三维结合建模，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "During neurogenesis, the generation and differentiation of neuronal progenitors into inhibitory gamma-aminobutyric acid-containing interneurons is dependent on the combinatorial activity of transcription factors (TFs) and their corresponding regulatory elements (REs). However, the roles of neuronal TFs and their target REs in inhibitory interneuron progenitors are not fully elucidated. Here, we developed a deep-learning-based framework to identify enriched TF motifs in gene REs (eMotif-RE), such as poised/repressed enhancers and putative silencers. Using epigenetic datasets (e.g., ATAC-seq and H3K27ac/me3 ChIP-seq) from cultured interneuron-like progenitors, we distinguished between active enhancer sequences (open chromatin with H3K27ac) and non-active enhancer sequences (open chromatin without H3K27ac). Using our eMotif-RE framework, we discovered enriched motifs of TFs such as ASCL1, SOX4, and SOX11 in the active enhancer set suggesting a cooperativity function for ASCL1 and SOX4/11 in active enhancers of neuronal progenitors. In addition, we found enriched ZEB1 and CTCF motifs in the non-active set. Using an in vivo enhancer assay, we showed that most of the tested putative REs from the non-active enhancer set have no enhancer activity. Two of the eight REs (25%) showed function as poised enhancers in the neuronal system. Moreover, mutated REs for ZEB1 and CTCF motifs increased their in vivo activity as enhancers indicating a repressive effect of ZEB1 and CTCF on these REs that likely function as repressed enhancers or silencers. Overall, our work integrates a novel framework based on deep learning together with a functional assay that elucidated novel functions of TFs and their corresponding REs. Our approach can be applied to better understand gene regulation not only in inhibitory interneuron differentiation but in other tissue and cell types.",
+  "abstract_zh": "在神经发生过程中，神经元祖细胞生成并分化为抑制性含γ-氨基丁酸中间神经元，这一过程依赖于转录因子（TFs）及其相应调控元件（REs）的组合活性。然而，神经元转录因子及其靶向调控元件在抑制性中间神经元祖细胞中的作用尚未完全阐明。在此，我们开发了一种基于深度学习的框架，用于识别基因调控元件中的富集转录因子基序（eMotif-RE），例如静息/抑制型增强子和推定沉默子。利用培养的中间神经元样祖细胞的表观遗传数据集（如ATAC-seq和H3K27ac/me3 ChIP-seq），我们区分了活性增强子序列（具有H3K27ac的开放染色质）和非活性增强子序列（无H3K27ac的开放染色质）。通过我们的eMotif-RE框架，我们在活性增强子集合中发现了ASCL1、SOX4和SOX11等转录因子的富集基序，提示ASCL1与SOX4/11在神经元祖细胞活性增强子中具有协同功能。此外，我们在非活性集合中发现了富集的ZEB1和CTCF基序。利用体内增强子实验，我们显示来自非活性增强子集合的大多数测试推定调控元件没有增强子活性。八个调控元件中有两个（25%）在神经系统中表现出静息增强子功能。此外，针对ZEB1和CTCF基序的突变调控元件增加了其体内增强子活性，表明ZEB1和CTCF对这些可能作为抑制型增强子或沉默子发挥作用的调控元件具有抑制效应。总体而言，我们的工作整合了基于深度学习的新框架与功能实验，阐明了转录因子及其相应调控元件的新功能。我们的方法不仅适用于抑制性中间神经元分化，还可应用于其他组织和细胞类型，以更好地理解基因调控。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36891511/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36891511/",
+  "paper_page_path": "papers/pubmed/36891511/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38362268",
+  "title": "Graphylo: A deep learning approach for predicting regulatory DNA and RNA sites from whole-genome multiple alignments.",
+  "authors": "Lim, Dongjoon; Baek, Changhyun; Blanchette, Mathieu",
+  "journal": "iScience",
+  "published_date": "2024-02-16",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出Graphylo，结合CNN与图卷积网络利用多物种系统发育信息预测人类基因组TF结合位点，核心聚焦TF-DNA互作位点预测，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "This study focuses on enhancing the prediction of regulatory functional sites in DNA and RNA sequences, a crucial aspect of gene regulation. Current methods, such as motif overrepresentation and machine learning, often lack specificity. To address this issue, the study leverages evolutionary information and introduces Graphylo, a deep-learning approach for predicting transcription factor binding sites in the human genome. Graphylo combines Convolutional Neural Networks for DNA sequences with Graph Convolutional Networks on phylogenetic trees, using information from placental mammals' genomes and evolutionary history. The research demonstrates that Graphylo consistently outperforms both single-species deep learning techniques and methods that incorporate inter-species conservation scores on a wide range of datasets. It achieves this by utilizing a species-based attention model for evolutionary insights and an integrated gradient approach for nucleotide-level model interpretability. This innovative approach offers a promising avenue for improving the accuracy of regulatory site prediction in genomics.",
+  "abstract_zh": "本研究聚焦于提升DNA和RNA序列中调控功能位点的预测能力，这是基因调控的关键方面。现有方法，如基序过表达和机器学习，往往缺乏特异性。为解决此问题，本研究利用进化信息，并引入Graphylo，一种用于预测人类基因组中转录因子结合位点的深度学习方法。Graphylo将用于DNA序列的卷积神经网络（Convolutional Neural Networks）与用于系统发育树的图卷积网络（Graph Convolutional Networks）相结合，利用胎盘哺乳动物基因组及其进化历史的信息。研究表明，Graphylo在广泛的数据集上始终优于单物种深度学习技术以及整合跨物种保守性评分的方法。它通过基于物种的注意力模型获取进化洞察，并采用集成梯度方法实现核苷酸级别的模型可解释性。这一创新方法为提升基因组学中调控位点预测的准确性提供了有前景的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38362268/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38362268/",
+  "paper_page_path": "papers/pubmed/38362268/index.html"
+}

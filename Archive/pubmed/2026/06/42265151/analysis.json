@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42265151",
+  "title": "Integrative transcriptomic and machine learning analysis identifies key extracellular matrix-related genes in diabetic retinopathy.",
+  "authors": "Xin, Wang; Ying, Wang; Qiang, Feng; Yan, Chen; Wei, Zhang",
+  "journal": "Scientific reports",
+  "published_date": "2026-06-10",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用机器学习分析糖尿病视网膜病变转录组数据筛选细胞外基质相关基因，虽涉及转录因子调控网络预测，但核心是疾病基因表达与免疫分析，无蛋白质-DNA互作建模或TF-DNA结合机制研究。",
+  "abstract": "Extracellular matrix (ECM) remodeling contributes to retinal vascular basement membrane thickening, an early structural hallmark of diabetic retinopathy (DR). This study aimed to identify key ECM-related genes (ECMGs) associated with DR. Transcriptomic data of DR and ECMGs from MatrixDB were integrated to identify differentially expressed ECMGs. Six machine learning (ML) models, including Extra Trees (ET), Logistic Regression, Adaptive Boosting, Random Forest, Extreme Gradient Boosting, and naive Bayes classifier, were employed to construct DR classification models, with SHapley Additive exPlanation (SHAP) used to interpret feature contributions. Functional enrichment analysis using GSEA and immune infiltration analysis using CIBERSORT were conducted to explore the potential mechanisms by which key ECMGs regulate DR. Regulatory networks were constructed using predicted miRNAs, lncRNAs, and transcription factors (TFs) via the ENCORI, miRWalk, and miRNet databases. Drug-key ECMGs-DM-related diseases interactions were further explored using the DGIdb and CTD databases. Nine candidate ECMGs were identified by overlapping 356 DM-associated DEGs, 1,626 DR-associated DEGs, and 1,023 ECMGs, including CILP2, FN1, DEFA3, COL17A1, CRISP3, TPSAB1, SFRP1, GPHA2, and ECM2. Among the six ML algorithms, the ET classifier exhibited the best overall performance, and five ECMGs (SFRP1, CILP2, FN1, TPSAB1, and ECM2) with non-zero SHAP values were retained as key genes. These genes showed distinct expression patterns across the healthy, DM, and DR groups, and were enriched in neural-related pathways, such as axon guidance, glycosphingolipid biosynthesis ganglio series, and neuroactive ligand receptor interaction. Immune profiling and correlation analysis revealed that FN1, TPSAB1, and CILP2 were correlated with memory/naive B cells, CD8 + T cells, activated memory CD4 + T cells, Tregs, monocytes, and neutrophils. Additionally, the ceRNA network contained five miRNAs, 7 lncRNAs, and two ECMGs, and further regulatory and pharmacologic analysis further linked key ECMGs to specific TFs, drugs, and diabetes-related diseases. This study identified SFRP1, CILP2, FN1, TPSAB1, and ECM2 as key ECMGs in DR, revealing their coordinated involvement in ECM remodeling, neural signaling, and immune modulation. These findings provide novel insights into DR pathogenesis and potential therapeutic targets.",
+  "abstract_zh": "细胞外基质（ECM）重塑导致视网膜血管基底膜增厚，这是糖尿病视网膜病变（DR）的早期结构标志。本研究旨在识别与DR相关的关键ECM相关基因（ECMGs）。整合DR的转录组数据和来自MatrixDB的ECMGs，以识别差异表达的ECMGs。采用六种机器学习（ML）模型，包括Extra Trees（ET）、Logistic Regression、Adaptive Boosting、Random Forest、Extreme Gradient Boosting和naive Bayes classifier，构建DR分类模型，并使用SHapley Additive exPlanation（SHAP）解释特征贡献。利用GSEA进行功能富集分析，使用CIBERSORT进行免疫浸润分析，以探讨关键ECMGs调控DR的潜在机制。通过ENCORI、miRWalk和miRNet数据库预测miRNAs、lncRNAs和转录因子（TFs），构建调控网络。进一步利用DGIdb和CTD数据库探讨药物-关键ECMGs-DM相关疾病的相互作用。通过重叠356个DM相关DEGs、1,626个DR相关DEGs和1,023个ECMGs，鉴定出9个候选ECMGs，包括CILP2、FN1、DEFA3、COL17A1、CRISP3、TPSAB1、SFRP1、GPHA2和ECM2。在六种ML算法中，ET分类器表现出最佳整体性能，保留具有非零SHAP值的五个ECMGs（SFRP1、CILP2、FN1、TPSAB1和ECM2）作为关键基因。这些基因在健康、DM和DR组中表现出不同的表达模式，并富集于神经相关通路，如轴突导向、糖鞘脂生物合成神经节系列和神经活性配体受体相互作用。免疫谱和相关性分析显示，FN1、TPSAB1和CILP2与记忆/初始B细胞、CD8 + T细胞、活化记忆CD4 + T细胞、Tregs、单核细胞和中性粒细胞相关。此外，ceRNA网络包含五个miRNAs、7个lncRNAs和两个ECMGs，进一步的调控和药理学分析将关键ECMGs与特定TFs、药物和糖尿病相关疾病联系起来。本研究识别出SFRP1、CILP2、FN1、TPSAB1和ECM2作为DR中的关键ECMGs，揭示它们在ECM重塑、神经信号传导和免疫调节中的协同参与。这些发现为DR发病机制和潜在治疗靶点提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42265151/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42265151/",
+  "paper_page_path": "papers/pubmed/42265151/index.html"
+}

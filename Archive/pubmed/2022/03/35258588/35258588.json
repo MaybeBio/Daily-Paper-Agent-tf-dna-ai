@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "35258588",
+    "doi": "10.1093/plcell/koac079",
+    "title": "Genome-wide cis-decoding for expression design in tomato using cistrome data and explainable deep learning."
+  },
+  "content": {
+    "abstract": "In the evolutionary history of plants, variation in cis-regulatory elements (CREs) resulting in diversification of gene expression has played a central role in driving the evolution of lineage-specific traits. However, it is difficult to predict expression behaviors from CRE patterns to properly harness them, mainly because the biological processes are complex. In this study, we used cistrome datasets and explainable convolutional neural network (CNN) frameworks to predict genome-wide expression patterns in tomato (Solanum lycopersicum) fruit from the DNA sequences in gene regulatory regions. By fixing the effects of trans-acting factors using single cell-type spatiotemporal transcriptome data for the response variables, we developed a prediction model for crucial expression patterns in the initiation of tomato fruit ripening. Feature visualization of the CNNs identified nucleotide residues critical to the objective expression pattern in each gene, and their effects were validated experimentally in ripening tomato fruit. This cis-decoding framework will not only contribute to the understanding of the regulatory networks derived from CREs and transcription factor interactions, but also provides a flexible means of designing alleles for optimized expression.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Fruit/genetics/metabolism",
+      "Gene Expression Regulation, Plant/genetics",
+      "*Solanum lycopersicum/genetics/metabolism",
+      "Plant Proteins/genetics/metabolism",
+      "Regulatory Sequences, Nucleic Acid",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akagi, Takashi",
+        "Masuda, Kanae",
+        "Kuwada, Eriko",
+        "Takeshita, Kouki",
+        "Kawakatsu, Taiji",
+        "Ariizumi, Tohru",
+        "Kubo, Yasutaka",
+        "Ushijima, Koichiro",
+        "Uchida, Seiichi"
+      ],
+      "short_names": [
+        "Akagi T",
+        "Masuda K",
+        "Kuwada E",
+        "Takeshita K",
+        "Kawakatsu T",
+        "Ariizumi T",
+        "Kubo Y",
+        "Ushijima K",
+        "Uchida S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9993-8880",
+        "ORCID: 0000-0001-7843-0367",
+        "ORCID: 0000-0002-5814-3085",
+        "ORCID: 0000-0002-6871-9199",
+        "ORCID: 0000-0003-3221-2369",
+        "ORCID: 0000-0002-2442-6829",
+        "ORCID: 0000-0003-3904-5663",
+        "ORCID: 0000-0001-8592-7566"
+      ],
+      "affiliations": [
+        "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan.",
+        "JST, PRESTO, Kawaguchi-Shi, Saitama 332-0012, Japan.",
+        "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan.",
+        "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan.",
+        "Department of Advanced Information Technology, Kyushu University, Fukuoka 819-0395, Japan.",
+        "Institute of Agrobiological Sciences, National Agriculture and Food Research Organization, Tsukuba, Ibaraki 305-8602, Japan.",
+        "Faculty of Life and Environmental Sciences, University of Tsukuba, Tsukuba Plant Innovation Research Center, Tsukuba, Japan.",
+        "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan.",
+        "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan.",
+        "Department of Advanced Information Technology, Kyushu University, Fukuoka 819-0395, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akagi, Takashi",
+        "short_name": "Akagi T",
+        "identifiers": [
+          "0000-0001-9993-8880"
+        ],
+        "affiliations": [
+          "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan.",
+          "JST, PRESTO, Kawaguchi-Shi, Saitama 332-0012, Japan."
+        ]
+      },
+      {
+        "full_name": "Masuda, Kanae",
+        "short_name": "Masuda K",
+        "identifiers": [
+          "0000-0001-7843-0367"
+        ],
+        "affiliations": [
+          "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan."
+        ]
+      },
+      {
+        "full_name": "Kuwada, Eriko",
+        "short_name": "Kuwada E",
+        "identifiers": [
+          "0000-0002-5814-3085"
+        ],
+        "affiliations": [
+          "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan."
+        ]
+      },
+      {
+        "full_name": "Takeshita, Kouki",
+        "short_name": "Takeshita K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Information Technology, Kyushu University, Fukuoka 819-0395, Japan."
+        ]
+      },
+      {
+        "full_name": "Kawakatsu, Taiji",
+        "short_name": "Kawakatsu T",
+        "identifiers": [
+          "0000-0002-6871-9199"
+        ],
+        "affiliations": [
+          "Institute of Agrobiological Sciences, National Agriculture and Food Research Organization, Tsukuba, Ibaraki 305-8602, Japan."
+        ]
+      },
+      {
+        "full_name": "Ariizumi, Tohru",
+        "short_name": "Ariizumi T",
+        "identifiers": [
+          "0000-0003-3221-2369"
+        ],
+        "affiliations": [
+          "Faculty of Life and Environmental Sciences, University of Tsukuba, Tsukuba Plant Innovation Research Center, Tsukuba, Japan."
+        ]
+      },
+      {
+        "full_name": "Kubo, Yasutaka",
+        "short_name": "Kubo Y",
+        "identifiers": [
+          "0000-0002-2442-6829"
+        ],
+        "affiliations": [
+          "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan."
+        ]
+      },
+      {
+        "full_name": "Ushijima, Koichiro",
+        "short_name": "Ushijima K",
+        "identifiers": [
+          "0000-0003-3904-5663"
+        ],
+        "affiliations": [
+          "Graduate School of Environmental and Life Science, Okayama University, Okayama 700-8530, Japan."
+        ]
+      },
+      {
+        "full_name": "Uchida, Seiichi",
+        "short_name": "Uchida S",
+        "identifiers": [
+          "0000-0001-8592-7566"
+        ],
+        "affiliations": [
+          "Department of Advanced Information Technology, Kyushu University, Fukuoka 819-0395, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Plant cell"
+    ],
+    "journal_abbrev": [
+      "Plant Cell"
+    ],
+    "pub_date": "2022 May 24",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/09 06:00",
+    "fetched_at": "2026-09-28 06:03:24"
+  },
+  "links": {
+    "cites": [
+      "42694518",
+      "42602771",
+      "42333573",
+      "41958017",
+      "41429964",
+      "41092463",
+      "41024142",
+      "41010053",
+      "40574309",
+      "40176168",
+      "40095140",
+      "39650134",
+      "39462454",
+      "39325207",
+      "38974863",
+      "38905284",
+      "38712066",
+      "38679745",
+      "38664394",
+      "38411602",
+      "37850650",
+      "37418376",
+      "36360251",
+      "35325244"
+    ],
+    "refs": [
+      "34772949",
+      "34608324",
+      "34083762",
+      "33658387",
+      "32845307",
+      "32553272",
+      "32338291",
+      "32255501",
+      "32194972",
+      "31986354",
+      "30967120",
+      "30876396",
+      "30842277",
+      "30588320",
+      "30478442",
+      "30395277",
+      "30013180",
+      "29371663",
+      "28919077",
+      "28726847",
+      "27454737",
+      "27203113",
+      "27079975",
+      "26739234",
+      "26213851",
+      "26161953",
+      "26017442",
+      "25637453",
+      "25430774",
+      "25215497",
+      "24645853",
+      "23882073",
+      "23354102",
+      "22974547",
+      "22660326",
+      "21562332",
+      "21486936",
+      "21143675",
+      "20675356",
+      "19847266",
+      "19783643",
+      "19151225",
+      "18798982",
+      "18614008",
+      "17697981",
+      "16845028",
+      "16832354",
+      "16593997",
+      "15143274",
+      "15010516",
+      "12777501",
+      "11951045",
+      "11906833",
+      "11073452",
+      "9847208"
+    ],
+    "similar": [
+      "35258588",
+      "25516062",
+      "35325244",
+      "27250572",
+      "30376036",
+      "24265273",
+      "33634368",
+      "32211918",
+      "32234754",
+      "26133783",
+      "16243903",
+      "28703352",
+      "24903607",
+      "32632594",
+      "23073014",
+      "34100923",
+      "32081262",
+      "21844679",
+      "34580960",
+      "32234221",
+      "20973957",
+      "31216621",
+      "33404542",
+      "23136376",
+      "23292788",
+      "22844095",
+      "22111515",
+      "32028643",
+      "32171044",
+      "30350236",
+      "22212279",
+      "24102834",
+      "27005823",
+      "24580734",
+      "28660293",
+      "23487304",
+      "29371663",
+      "30121402",
+      "24659489",
+      "25948705",
+      "29241563",
+      "27865019",
+      "21520447",
+      "33388894",
+      "12445130",
+      "26852223",
+      "32016417",
+      "23787144",
+      "26739234",
+      "32338177",
+      "21143675",
+      "22211518",
+      "35703978",
+      "28112434",
+      "30646856",
+      "35196981",
+      "27247090",
+      "18086233",
+      "33773493",
+      "30955097",
+      "30348324",
+      "19891701",
+      "28391527",
+      "32729147",
+      "26988970",
+      "32560687",
+      "34182155",
+      "35171288",
+      "28649000",
+      "34359909",
+      "25698665",
+      "32338291",
+      "35739429",
+      "24645853",
+      "29133374",
+      "16126837",
+      "26008650",
+      "25883382",
+      "23247837",
+      "27519651",
+      "34369570",
+      "23386264",
+      "25266499",
+      "29121241",
+      "33971378",
+      "24006286",
+      "33370496",
+      "26125918",
+      "22060040",
+      "29605609",
+      "28347287",
+      "38664394",
+      "38187729",
+      "37856609",
+      "32466108",
+      "38889146",
+      "37850650",
+      "39199333",
+      "37023129",
+      "37225398",
+      "37309871",
+      "38712066",
+      "37609287"
+    ],
+    "review": [
+      "35258588",
+      "33634368",
+      "32211918",
+      "28660293",
+      "33388894",
+      "33971378",
+      "22060040",
+      "39199333"
+    ],
+    "pmc": [
+      "9134063"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35258588/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35258588",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/plcell/article-lookup/doi/10.1093/plcell/koac079",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "37549772",
+    "doi": "10.1016/j.slasd.2023.08.001",
+    "title": "Characterization of allosteric modulators that disrupt androgen receptor co-activator protein-protein interactions to alter transactivation-Drug leads for metastatic castration resistant prostate cancer."
+  },
+  "content": {
+    "abstract": "Three series of compounds were prioritized from a high content screening campaign that identified molecules that blocked dihydrotestosterone (DHT) induced formation of Androgen Receptor (AR) protein-protein interactions (PPIs) with the Transcriptional Intermediary Factor 2 (TIF2) coactivator and also disrupted preformed AR-TIF2 PPI complexes; the hydrobenzo-oxazepins (S1), thiadiazol-5-piperidine-carboxamides (S2), and phenyl-methyl-indoles (S3). Compounds from these series inhibited AR PPIs with TIF2 and SRC-1, another p160 coactivator, in mammalian 2-hybrid assays and blocked transcriptional activation in reporter assays driven by full length AR or AR-V7 splice variants. Compounds inhibited the growth of five prostate cancer cell lines, with many exhibiting differential cytotoxicity towards AR positive cell lines. Representative compounds from the 3 series substantially reduced both endogenous and DHT-enhanced expression and secretion of the prostate specific antigen (PSA) cancer biomarker in the C4-2 castration resistant prostate cancer (CRPC) cell line. The comparatively weak activities of series compounds in the H(3)-DHT and/or TIF2 box 3 LXXLL-peptide binding assays to the recombinant ligand binding domain of AR suggest that direct antagonism at the orthosteric ligand binding site or AF-2 surface respectively are unlikely mechanisms of action. Cellular enhanced thermal stability assays (CETSA) indicated that compounds engaged AR and reduced the maximum efficacy and right shifted the EC(50) of DHT-enhanced AR thermal stabilization consistent with the effects of negative allosteric modulators. Molecular docking of potent representative hits from each series to AR structures suggest that S1-1 and S2-6 engage a novel binding pocket (BP-1) adjacent to the orthosteric ligand binding site, while S3-11 occupies the AR binding function 3 (BF-3) allosteric pocket. Hit binding poses indicate spaces and residues adjacent to the BP-1 and BF-3 pockets that will be exploited in future medicinal chemistry optimization studies. Small molecule allosteric modulators that prevent/disrupt AR PPIs with coactivators like TIF2 to alter transcriptional activation in the presence of orthosteric agonists might evade the resistance mechanisms to existing prostate cancer drugs and provide novel starting points for medicinal chemistry lead optimization and future development into therapies for metastatic CRPC.",
+    "keywords": [],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Prostatic Neoplasms, Castration-Resistant/drug therapy/pathology/metabolism/genetics",
+      "*Receptors, Androgen/metabolism/genetics",
+      "Allosteric Regulation/drug effects",
+      "Cell Line, Tumor",
+      "*Nuclear Receptor Coactivator 2/metabolism/genetics",
+      "*Transcriptional Activation/drug effects",
+      "*Protein Binding/drug effects",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Nuclear Receptor Coactivator 1/metabolism/genetics",
+      "Cell Proliferation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fancher, Ashley T",
+        "Hua, Yun",
+        "Close, David A",
+        "Xu, Wei",
+        "McDermott, Lee A",
+        "Strock, Christopher J",
+        "Santiago, Ulises",
+        "Camacho, Carlos J",
+        "Johnston, Paul A"
+      ],
+      "short_names": [
+        "Fancher AT",
+        "Hua Y",
+        "Close DA",
+        "Xu W",
+        "McDermott LA",
+        "Strock CJ",
+        "Santiago U",
+        "Camacho CJ",
+        "Johnston PA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA; Nucleus Global, 2 Ravinia Drive, Suite 605, Atlanta, GA 30346, USA.",
+        "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA.",
+        "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA.",
+        "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA.",
+        "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA; PsychoGenics Inc, 215 College Road, Paramus, NJ 07652, USA.",
+        "Cyprotex US, 313 Pleasant Street, Watertown, MA 02472, USA.",
+        "Department of Computational and Systems Biology, School of Medicine, at the University of Pittsburgh, USA.",
+        "Department of Computational and Systems Biology, School of Medicine, at the University of Pittsburgh, USA.",
+        "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA; University of Pittsburgh Hillman Cancer Center, Pittsburgh, PA 15232, USA. Electronic address: paj18@pitt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fancher, Ashley T",
+        "short_name": "Fancher AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA; Nucleus Global, 2 Ravinia Drive, Suite 605, Atlanta, GA 30346, USA."
+        ]
+      },
+      {
+        "full_name": "Hua, Yun",
+        "short_name": "Hua Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA."
+        ]
+      },
+      {
+        "full_name": "Close, David A",
+        "short_name": "Close DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Wei",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA."
+        ]
+      },
+      {
+        "full_name": "McDermott, Lee A",
+        "short_name": "McDermott LA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA; PsychoGenics Inc, 215 College Road, Paramus, NJ 07652, USA."
+        ]
+      },
+      {
+        "full_name": "Strock, Christopher J",
+        "short_name": "Strock CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Cyprotex US, 313 Pleasant Street, Watertown, MA 02472, USA."
+        ]
+      },
+      {
+        "full_name": "Santiago, Ulises",
+        "short_name": "Santiago U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, School of Medicine, at the University of Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Camacho, Carlos J",
+        "short_name": "Camacho CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, School of Medicine, at the University of Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Johnston, Paul A",
+        "short_name": "Johnston PA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy, University of Pittsburgh, Pittsburgh, PA 15261, USA; University of Pittsburgh Hillman Cancer Center, Pittsburgh, PA 15232, USA. Electronic address: paj18@pitt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "SLAS discovery : advancing life sciences R & D"
+    ],
+    "journal_abbrev": [
+      "SLAS Discov"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/08 00:42",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "42540267",
+      "40465033"
+    ],
+    "refs": [
+      "35719272",
+      "34781285",
+      "34661404",
+      "34552338",
+      "34517086",
+      "34165949",
+      "33332287",
+      "33253554",
+      "33062158",
+      "32534790",
+      "31566060",
+      "31502857",
+      "30957264",
+      "30721063",
+      "30703487",
+      "30109944",
+      "29317749",
+      "29202222",
+      "29082495",
+      "29075003",
+      "28961788",
+      "28256516",
+      "27765852",
+      "27606620",
+      "27356095",
+      "27330057",
+      "26419257",
+      "26222931",
+      "26060018",
+      "25459660",
+      "25181412",
+      "25025737",
+      "25008967",
+      "24867689",
+      "24775726",
+      "24775725",
+      "24722067",
+      "24523409",
+      "23752182",
+      "23643785",
+      "23436374",
+      "23379370",
+      "23301637",
+      "23270728",
+      "23023561",
+      "22710436",
+      "22695118",
+      "22688816",
+      "22653923",
+      "22563729",
+      "22523085",
+      "22427896",
+      "22105110",
+      "22047606",
+      "21884356",
+      "21878368",
+      "21864277",
+      "21826082",
+      "21796524",
+      "21789088",
+      "21075044",
+      "20395165",
+      "20211142",
+      "20131845",
+      "20106600",
+      "19902964",
+      "19786350",
+      "19359544",
+      "19240160",
+      "19198621",
+      "19171919",
+      "19116626",
+      "19079612",
+      "19079071",
+      "18780293",
+      "18690888",
+      "18674639",
+      "18269572",
+      "18075579",
+      "17911242",
+      "17591767",
+      "17364555",
+      "17331889",
+      "17327579",
+      "17163421",
+      "17158750",
+      "17079484",
+      "16627595",
+      "16518832",
+      "16397271",
+      "16238547",
+      "15525515",
+      "15486994",
+      "15328534",
+      "15288255",
+      "15178743",
+      "15157874",
+      "14871982",
+      "12805412",
+      "12370175",
+      "12237244",
+      "12163482",
+      "12072374",
+      "11922947",
+      "11909518",
+      "11779876",
+      "11717329",
+      "11389051",
+      "11306464",
+      "11011957",
+      "10601285",
+      "10567563",
+      "9717843",
+      "9640540",
+      "3283939",
+      "2573431"
+    ],
+    "similar": [
+      "37549772",
+      "30109944",
+      "25181412",
+      "27606620",
+      "29082495",
+      "31502857",
+      "23270728",
+      "40753934",
+      "27140928",
+      "18780293",
+      "30030299",
+      "28561752",
+      "31868960",
+      "28055971",
+      "22922989",
+      "10935543",
+      "27117751",
+      "23801747",
+      "27179779",
+      "28811363",
+      "39948708",
+      "36458578",
+      "40391771",
+      "24662325",
+      "30714180",
+      "17079484",
+      "21539451",
+      "25634071",
+      "38532114",
+      "25756511",
+      "23859952",
+      "30334814",
+      "24466341",
+      "27699828",
+      "24740322",
+      "23023561",
+      "27707886",
+      "31796514",
+      "31083651",
+      "23995860",
+      "22245379",
+      "37139712",
+      "36893587",
+      "29249800",
+      "27671337",
+      "22653923",
+      "28978635",
+      "26181238",
+      "26331358",
+      "30410767",
+      "27683042",
+      "24103312",
+      "27198552",
+      "27019329",
+      "14662770",
+      "28901514",
+      "26201947",
+      "35037287",
+      "32206096",
+      "16141201",
+      "30128923",
+      "31243151",
+      "27473672",
+      "28036278",
+      "28011482",
+      "29764864",
+      "26494300",
+      "26553749",
+      "38600681",
+      "30345525",
+      "30578319",
+      "27049719",
+      "9717843",
+      "39531508",
+      "32002708",
+      "35058329",
+      "34661404",
+      "11102454",
+      "23966621",
+      "15466214",
+      "19828458",
+      "33391515",
+      "25356728",
+      "28235766",
+      "26712685",
+      "26552607",
+      "26336819",
+      "41237749",
+      "12588987",
+      "40649715",
+      "33857854",
+      "32648618",
+      "31653572",
+      "29555975",
+      "37796107",
+      "28528814",
+      "27576691",
+      "30998834",
+      "31931431",
+      "38687617"
+    ],
+    "review": [
+      "37549772",
+      "23859952",
+      "26331358",
+      "26201947",
+      "30128923",
+      "33857854"
+    ],
+    "pmc": [
+      "12366525"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2472-5552(23)00053-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37549772/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PSAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37549772",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

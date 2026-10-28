@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "39140137",
+    "doi": "10.1242/jcs.261782",
+    "title": "Computational modeling establishes mechanotransduction as a potent modulator of the mammalian circadian clock."
+  },
+  "content": {
+    "abstract": "Mechanotransduction, which is the integration of mechanical signals from the external environment of a cell to changes in intracellular signaling, governs many cellular functions. Recent studies have shown that the mechanical state of the cell is also coupled to the cellular circadian clock. To investigate possible interactions between circadian rhythms and cellular mechanotransduction, we have developed a computational model that integrates the two pathways. We postulated that translocation of the transcriptional regulators MRTF (herein referring to both MRTF-A and MRTF-B), YAP and TAZ (also known as YAP1 and WWTR1, respectively; collectively denoted YAP/TAZ) into the nucleus leads to altered expression of circadian proteins. Simulations from our model predict that lower levels of cytoskeletal activity are associated with longer circadian oscillation periods and higher oscillation amplitudes, which is consistent with recent experimental observations. Furthermore, accumulation of YAP/TAZ and MRTF in the nucleus causes circadian oscillations to decay in our model. These effects hold both at the single-cell level and within a population-level framework. Finally, we investigated the effects of mutations in YAP or lamin A, the latter of which result in a class of diseases known as laminopathies. In silico, oscillations in circadian proteins are substantially weaker in populations of cells with mutations in YAP or lamin A, suggesting that defects in mechanotransduction can disrupt the circadian clock in certain disease states; however, reducing substrate stiffness in the model restores normal oscillatory behavior, suggesting a possible compensatory mechanism. Thus, our study identifies that mechanotransduction could be a potent modulatory cue for cellular clocks and that this crosstalk can be leveraged to rescue the circadian clock in disease states.",
+    "keywords": [
+      "Circadian clock",
+      "MRTF",
+      "Mechanotransduction",
+      "Systems biophysics",
+      "YAP/TAZ"
+    ],
+    "mesh_terms": [
+      "*Mechanotransduction, Cellular",
+      "*Circadian Clocks",
+      "Humans",
+      "Animals",
+      "*YAP-Signaling Proteins/metabolism",
+      "Computer Simulation",
+      "Adaptor Proteins, Signal Transducing/metabolism/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Trans-Activators/metabolism/genetics",
+      "Models, Biological",
+      "Cell Nucleus/metabolism",
+      "Mammals/metabolism",
+      "Transcriptional Coactivator with PDZ-Binding Motif Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Francis, Emmet A",
+        "Rangamani, Padmini"
+      ],
+      "short_names": [
+        "Francis EA",
+        "Rangamani P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6070-805X",
+        "ORCID: 0000-0001-5953-4347"
+      ],
+      "affiliations": [
+        "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Francis, Emmet A",
+        "short_name": "Francis EA",
+        "identifiers": [
+          "0000-0001-6070-805X"
+        ],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+          "Department of Pharmacology, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Rangamani, Padmini",
+        "short_name": "Rangamani P",
+        "identifiers": [
+          "0000-0001-5953-4347"
+        ],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+          "Department of Pharmacology, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cell science"
+    ],
+    "journal_abbrev": [
+      "J Cell Sci"
+    ],
+    "pub_date": "2024 Sep 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/14 06:42",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "41899529",
+      "40462347",
+      "39147782"
+    ],
+    "refs": [
+      "37378613",
+      "37246635",
+      "36767821",
+      "36463416",
+      "36269772",
+      "36093830",
+      "34509508",
+      "33990464",
+      "32231000",
+      "31915891",
+      "31751165",
+      "31300477",
+      "31278749",
+      "30709969",
+      "30328684",
+      "30218058",
+      "30079031",
+      "29517398",
+      "29361531",
+      "28615311",
+      "28536630",
+      "28344926",
+      "28134247",
+      "28112045",
+      "27990019",
+      "27276271",
+      "27154335",
+      "26693906",
+      "26643779",
+      "25793944",
+      "25349387",
+      "24732378",
+      "24384368",
+      "23990565",
+      "23604473",
+      "23374345",
+      "22797912",
+      "22169754",
+      "20980393",
+      "20148688",
+      "19549830",
+      "17711925",
+      "15744034",
+      "15550250",
+      "14963227",
+      "14750952",
+      "14657377",
+      "12775757",
+      "12732141",
+      "11889036",
+      "11779462",
+      "11517254",
+      "11303101",
+      "11181185",
+      "10833356",
+      "10807566",
+      "10671562",
+      "9635423"
+    ],
+    "similar": [
+      "39140137",
+      "38011540",
+      "31638828",
+      "37378613",
+      "40462347",
+      "33990464",
+      "31542501",
+      "21654799",
+      "41158074",
+      "39147782",
+      "37917410",
+      "30404826",
+      "36768527",
+      "41997514",
+      "41034521",
+      "36076260",
+      "39925133",
+      "34226698",
+      "38105758",
+      "40232357",
+      "36675179",
+      "27276271",
+      "38242197",
+      "40683423",
+      "38553612",
+      "39190867",
+      "38565949",
+      "34419458",
+      "30135582",
+      "28642262",
+      "38752683",
+      "28042766",
+      "35550602",
+      "29317486",
+      "27129148",
+      "30050119",
+      "39918604",
+      "39368976",
+      "28513598",
+      "27885187",
+      "27300434",
+      "33382197",
+      "39210147",
+      "30401838",
+      "25290150",
+      "30526677",
+      "26209646",
+      "32056132",
+      "38606592",
+      "38643945",
+      "32816858",
+      "31594864",
+      "33843049",
+      "39155534",
+      "38690712",
+      "29650681",
+      "26432639",
+      "34521992",
+      "41157900",
+      "39333200",
+      "41747066",
+      "29208682",
+      "40626835",
+      "42269786",
+      "39645220",
+      "38741073",
+      "39348982",
+      "38299356",
+      "25502501",
+      "38563084",
+      "29477107",
+      "41656414",
+      "39051998",
+      "39826667",
+      "38762455",
+      "39718664",
+      "29665979",
+      "38987584",
+      "40381686",
+      "31771093",
+      "33474906",
+      "38664418",
+      "39684613",
+      "31505040",
+      "28739802",
+      "36096997",
+      "39163574",
+      "38517736",
+      "36598329",
+      "34463254",
+      "36877351",
+      "38811804",
+      "28416184",
+      "39527559",
+      "38874747",
+      "32748155",
+      "33982785",
+      "26989177",
+      "31255664",
+      "34278428"
+    ],
+    "review": [
+      "39140137",
+      "38011540",
+      "41158074",
+      "39147782",
+      "36768527",
+      "40232357",
+      "36675179",
+      "39190867",
+      "38752683",
+      "28042766",
+      "30050119",
+      "27300434",
+      "31594864",
+      "33843049",
+      "42269786",
+      "39348982",
+      "29477107",
+      "41656414",
+      "39718664",
+      "29665979",
+      "40381686",
+      "33474906",
+      "39684613",
+      "36096997",
+      "36877351",
+      "38874747",
+      "32748155"
+    ],
+    "pmc": [
+      "11423814"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39140137/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://journals.biologists.com/jcs/article-lookup/doi/10.1242/jcs.261782",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

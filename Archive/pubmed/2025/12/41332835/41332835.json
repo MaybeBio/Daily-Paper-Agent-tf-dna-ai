@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "41332835",
+    "doi": "10.1101/2025.11.14.25340263",
+    "title": "Interactions with polygenic background impact quantitative traits in the UK Biobank."
+  },
+  "content": {
+    "abstract": "Association studies have linked many genetic variants to a variety of phenotypes but understanding the biological mechanisms underlying these signals remains a major challenge. Since genes operate within complex networks, statistical interactions between genetic mutations that reflect biological pathways are expected to exist. However, their discovery has been hampered by the vast search space of variant combinations and the multiplicatively small expected effect sizes of interactions. To increase power, we created a test for interaction between single-nucleotide polymorphisms (SNPs) and groups of other variants with a direct effect on a phenotype aggregated in a polygenic score (PGS) which can be performed for any quantitative trait. In realistic simulations, this method avoids false positives and is well powered to find interaction networks. We apply it to 97 quantitative phenotypes in European samples in the UK Biobank and identify 144 independent interactions affecting 52 different traits, including important disease risk variants at genes such as APOE, FTO or TCF7L2. We develop approaches to refine identified signals and detect 38 pairwise interactions between SNPs. These include known interactions between ABO, FUT2 and TREH affecting alkaline phosphatase levels, which are shown to be part of a larger network including PIGC and FUT6, as well as an interaction for eosinophil levels between IL33 and ALOX15, two genes whose functional interaction has recently been implicated in asthma. Finally, we propose a method to partition PGSs according to the binding sites of more than 1100 transcription factors using the HOCOMOCO motif database and test for interactions involving functionally partitioned scores. We identify 12 interactions affecting eight traits, two of which directly reflect known regulatory relationships such as that between TCF7L2 (a key regulator of glucose metabolism) and the transcription factor KDM2A, which are known to interact functionally within the Wnt signalling pathway, affecting glycated haemoglobin levels. This work substantially extends the set of known epistatic effects for human phenotypes and shows how statistical interactions can reflect biological interdependencies between genes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ferreira, Lino A F",
+        "Hu, Sile",
+        "Davies, Robert W",
+        "Myers, Simon R"
+      ],
+      "short_names": [
+        "Ferreira LAF",
+        "Hu S",
+        "Davies RW",
+        "Myers SR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1957-4245",
+        "ORCID: 0000-0002-8437-7387",
+        "ORCID: 0000-0002-2252-0862",
+        "ORCID: 0000-0002-2585-9626"
+      ],
+      "affiliations": [
+        "Centre for Human Genetics, University of Oxford.",
+        "Department of Statistics, University of Oxford.",
+        "Centre for Human Genetics, University of Oxford.",
+        "Department of Statistics, University of Oxford.",
+        "Department of Statistics, University of Oxford.",
+        "Genomics Ltd.",
+        "Centre for Human Genetics, University of Oxford.",
+        "Department of Statistics, University of Oxford."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ferreira, Lino A F",
+        "short_name": "Ferreira LAF",
+        "identifiers": [
+          "0000-0002-1957-4245"
+        ],
+        "affiliations": [
+          "Centre for Human Genetics, University of Oxford.",
+          "Department of Statistics, University of Oxford."
+        ]
+      },
+      {
+        "full_name": "Hu, Sile",
+        "short_name": "Hu S",
+        "identifiers": [
+          "0000-0002-8437-7387"
+        ],
+        "affiliations": [
+          "Centre for Human Genetics, University of Oxford.",
+          "Department of Statistics, University of Oxford."
+        ]
+      },
+      {
+        "full_name": "Davies, Robert W",
+        "short_name": "Davies RW",
+        "identifiers": [
+          "0000-0002-2252-0862"
+        ],
+        "affiliations": [
+          "Department of Statistics, University of Oxford.",
+          "Genomics Ltd."
+        ]
+      },
+      {
+        "full_name": "Myers, Simon R",
+        "short_name": "Myers SR",
+        "identifiers": [
+          "0000-0002-2585-9626"
+        ],
+        "affiliations": [
+          "Centre for Human Genetics, University of Oxford.",
+          "Department of Statistics, University of Oxford."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2025 Dec 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/03 07:40",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41366086",
+      "40911511",
+      "40473624",
+      "39966645",
+      "39965570",
+      "39901012",
+      "39572784",
+      "39572783",
+      "39565199",
+      "39379762",
+      "38922602",
+      "38575728",
+      "38565962",
+      "38428388",
+      "38374256",
+      "38049662",
+      "37998355",
+      "37971293",
+      "37794186",
+      "37714134",
+      "37596262",
+      "37342060",
+      "37243672",
+      "37028392",
+      "36872334",
+      "36634672",
+      "36610497",
+      "35298243",
+      "35256806",
+      "34741066",
+      "34469753",
+      "34430780",
+      "34381229",
+      "34202464",
+      "34108472",
+      "33811805",
+      "33566231",
+      "33340485",
+      "33328473",
+      "33104714",
+      "32888494",
+      "32888493",
+      "32820175",
+      "32477401",
+      "32250293",
+      "32242144",
+      "31453325",
+      "31260595",
+      "31068683",
+      "30877081",
+      "30472260",
+      "30323177",
+      "30305743",
+      "30059280",
+      "30037990",
+      "29789686",
+      "29562163",
+      "29507422",
+      "29403010",
+      "28783164",
+      "28746338",
+      "28720561",
+      "28658560",
+      "28622505",
+      "28530675",
+      "28376175",
+      "28183512",
+      "28100592",
+      "27863956",
+      "27863252",
+      "27390122",
+      "27268795",
+      "26553804",
+      "26272945",
+      "25279928",
+      "25200660",
+      "25015099",
+      "24990992",
+      "22982992",
+      "22827487",
+      "22719268",
+      "22139419",
+      "21804549",
+      "21743469",
+      "21715309",
+      "20953190",
+      "19812666",
+      "19374395",
+      "19110211",
+      "18776911",
+      "18454194",
+      "17658951",
+      "17496892",
+      "17293876",
+      "16415884",
+      "16412386",
+      "16248890",
+      "7449139",
+      "5641153",
+      "1777990"
+    ],
+    "similar": [
+      "41332835",
+      "42475469",
+      "36321557",
+      "38639992",
+      "36383614",
+      "23912807",
+      "42330953",
+      "25032480",
+      "33310085",
+      "39609904",
+      "41256165",
+      "37851522",
+      "32600345",
+      "37090677",
+      "39965571",
+      "39209554",
+      "21910885",
+      "37745394",
+      "23281810",
+      "38740014",
+      "23097404",
+      "41503465",
+      "27640306",
+      "26776173",
+      "27825385",
+      "16719927",
+      "37965371",
+      "35072137",
+      "41445618",
+      "21877280",
+      "27107817",
+      "39150724",
+      "19761607",
+      "37667186",
+      "35147078",
+      "40944320",
+      "39678461",
+      "35155440",
+      "27052692",
+      "38308367",
+      "21815091",
+      "37186423",
+      "34571798",
+      "41616791",
+      "38873396",
+      "27809761",
+      "37216417",
+      "39371150",
+      "21121034",
+      "30712509",
+      "33733359",
+      "33733350",
+      "42510806",
+      "37243672",
+      "28746338",
+      "33568206",
+      "40262193",
+      "37680636",
+      "42496099",
+      "41800596",
+      "32171239",
+      "31937202",
+      "40971882",
+      "41896987",
+      "37922884",
+      "41366086",
+      "37028392",
+      "22549493",
+      "24572353",
+      "40661266",
+      "29378629",
+      "37641029",
+      "20590332",
+      "42369766",
+      "21611967",
+      "27265357",
+      "39855341",
+      "21829388",
+      "41810371",
+      "28957314",
+      "28079285",
+      "28166722",
+      "25403526",
+      "25533967",
+      "18598350",
+      "31872748",
+      "29262162",
+      "27489002",
+      "37156939",
+      "39901012",
+      "27005890",
+      "35472084",
+      "38866020",
+      "40480198",
+      "39007593",
+      "38625909",
+      "38157848",
+      "35571679",
+      "41932550",
+      "26607428"
+    ],
+    "review": [
+      "41332835",
+      "36321557",
+      "39150724",
+      "38873396",
+      "40971882",
+      "35472084"
+    ],
+    "pmc": [
+      "12668110"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41332835/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1087",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.14.25340263",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

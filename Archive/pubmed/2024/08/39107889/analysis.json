@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39107889",
+  "title": "BertSNR: an interpretable deep learning framework for single-nucleotide resolution identification of transcription factor binding sites based on DNA language model.",
+  "authors": "Luo, Hanyu; Tang, Li; Zeng, Min; Yin, Rui; Ding, Pingjian; Luo, Lingyun; Li, Min",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2024-08-07",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于DNA语言模型的可解释深度学习框架BertSNR，实现单核苷酸分辨率的转录因子结合位点预测，核心聚焦TF-DNA互作且方法为AI，高度匹配课题。",
+  "abstract": "MOTIVATION: Transcription factors are pivotal in the regulation of gene expression, and accurate identification of transcription factor binding sites (TFBSs) at high resolution is crucial for understanding the mechanisms underlying gene regulation. The task of identifying TFBSs from DNA sequences is a significant challenge in the field of computational biology today. To address this challenge, a variety of computational approaches have been developed. However, these methods face limitations in their ability to achieve high-resolution identification and often lack interpretability. RESULTS: We propose BertSNR, an interpretable deep learning framework for identifying TFBSs at single-nucleotide resolution. BertSNR integrates sequence-level and token-level information by multi-task learning based on pre-trained DNA language models. Benchmarking comparisons show that our BertSNR outperforms the existing state-of-the-art methods in TFBS predictions. Importantly, we enhanced the interpretability of the model through attentional weight visualization and motif analysis, and discovered the subtle relationship between attention weight and motif. Moreover, BertSNR effectively identifies TFBSs in promoter regions, facilitating the study of intricate gene regulation. AVAILABILITY AND IMPLEMENTATION: The BertSNR source code can be found at https://github.com/lhy0322/BertSNR.",
+  "abstract_zh": "动机：转录因子在基因表达调控中起关键作用，以高分辨率准确识别转录因子结合位点（TFBSs）对于理解基因调控机制至关重要。从DNA序列中识别TFBSs是当今计算生物学领域的一项重大挑战。为应对这一挑战，已开发了多种计算方法。然而，这些方法在实现高分辨率识别方面存在局限性，且往往缺乏可解释性。结果：我们提出了BertSNR，一种可解释的深度学习框架，用于在单核苷酸分辨率下识别TFBSs。BertSNR通过基于预训练DNA语言模型的多任务学习，整合了序列级和标记级信息。基准比较表明，我们的BertSNR在TFBS预测中优于现有最先进方法。重要的是，我们通过注意力权重可视化和基序分析增强了模型的可解释性，并发现了注意力权重与基序之间的微妙关系。此外，BertSNR有效识别启动子区域中的TFBSs，有助于研究复杂的基因调控。可用性与实现：BertSNR源代码可在https://github.com/lhy0322/BertSNR获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39107889/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39107889/",
+  "paper_page_path": "papers/pubmed/39107889/index.html"
+}

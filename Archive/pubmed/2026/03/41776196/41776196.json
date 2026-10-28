@@ -1,0 +1,590 @@
+{
+  "identity": {
+    "pmid": "41776196",
+    "doi": "10.1038/s41467-026-69979-9",
+    "title": "Pharmacological stabilization of hypoxia-inducible factor 1-alpha dampens the interferon response and promotes glycolysis in Aicardi-Goutieres syndrome."
+  },
+  "content": {
+    "abstract": "Aicardi-Goutieres syndrome (AGS) is a genetic type I interferon (IFN)-mediated disease characterized by neurological involvement with onset in utero or in childhood. Here, we analyze peripheral blood samples from patients bearing AGS-causing mutations in ADAR1, RNASEH2B or SAMHD1 using single-cell transcriptomics and targeted metabolomics. Using machine-learning approaches and differential gene expression analysis, we identified a loss of transcription factor hypoxia induced factor 1 alpha (HIF-1alpha) expression and activity associated with features of a metabolic switch favoring oxidative phosphorylation and glutathione metabolism over glycolysis in monocytes and dendritic cells. Evidences of mitochondrial stress and accumulation of cytosolic double-stranded DNA and RNA were also found. The energy metabolic switch was confirmed at the metabolic level in primary peripheral blood mononuclear cells of AGS patients. Chemical stabilization of HIF-1alpha using a synthetic drug in in vitro cellular models of AGS, reversed the energy metabolic switch towards glycolysis, attenuated mitochondrial stress, and markedly reduced the IFN response and IP-10 production. We therefore propose that an energy metabolic switch contributes to chronic inflammation in AGS and that targeting this pathway might represent a potential therapeutic approach.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics",
+      "*Glycolysis/drug effects/genetics",
+      "*Nervous System Malformations/genetics/metabolism/drug therapy",
+      "*Autoimmune Diseases of the Nervous System/genetics/metabolism/drug therapy",
+      "Chemokine CXCL10/metabolism",
+      "Mitochondria/metabolism/drug effects",
+      "*Interferon Type I/metabolism",
+      "Oxidative Phosphorylation/drug effects",
+      "Mutation",
+      "Female",
+      "Leukocytes, Mononuclear/metabolism/drug effects",
+      "Dendritic Cells/metabolism/drug effects",
+      "SAM Domain and HD Domain-Containing Protein 1/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Batignes, Maxime",
+        "Luka, Marine",
+        "Jagtap, Surabhi",
+        "de Cevins, Camille",
+        "Nemazanyy, Ivan",
+        "Leib, Jacqueline",
+        "Fali, Tinhinane",
+        "Pierga, Alexandre",
+        "Zarhrate, Mohammed",
+        "Garcia-Paredes, Victor",
+        "Carbone, Francesco",
+        "Perot, Brieuc P",
+        "Neven, Benedicte",
+        "Bader-Meunier, Brigitte",
+        "Quartier, Pierre",
+        "Hully, Marie",
+        "Belot, Alexandre",
+        "Lepelley, Alice",
+        "Fremond, Marie-Louise",
+        "Fischer, Alain",
+        "Menager, Mickael M"
+      ],
+      "short_names": [
+        "Batignes M",
+        "Luka M",
+        "Jagtap S",
+        "de Cevins C",
+        "Nemazanyy I",
+        "Leib J",
+        "Fali T",
+        "Pierga A",
+        "Zarhrate M",
+        "Garcia-Paredes V",
+        "Carbone F",
+        "Perot BP",
+        "Neven B",
+        "Bader-Meunier B",
+        "Quartier P",
+        "Hully M",
+        "Belot A",
+        "Lepelley A",
+        "Fremond ML",
+        "Fischer A",
+        "Menager MM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2383-840X",
+        "ORCID: 0000-0002-5370-850X",
+        "ORCID: 0000-0001-8080-839X",
+        "ORCID: 0009-0002-0819-4471",
+        "ORCID: 0000-0003-4902-5332",
+        "ORCID: 0000-0001-8656-7291",
+        "ORCID: 0000-0002-2798-9141",
+        "ORCID: 0000-0003-4025-5983",
+        "ORCID: 0000-0002-6838-2389"
+      ],
+      "affiliations": [
+        "Universite Paris Cite, Paris, France. maxime.batignes@institutimagine.org.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France. maxime.batignes@institutimagine.org.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+        "Labtech Single-Cell@Imagine, Imagine Institute, INSERM UMR 1163, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+        "Platform for Metabolic Analyses, Structure Federative de Recherche Necker, INSERM US24/CNRS UAR 3633, F-, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+        "Asfalia Biologics, ICM, Hopital Pitie-Salpetriere, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of neurogenetics and neuroinflammation, INSERM UMR 1163, Paris, France.",
+        "Genomics Core Facility, Institut Imagine-Structure Federative de Recherche Necker, INSERM UMR 1163 et INSERM US24/CNRS UAR3633, Paris Cite University, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Labtech Single-Cell@Imagine, Imagine Institute, INSERM UMR 1163, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+        "Pediatric Immuno-hematology and Rheumatology department, Hopital Necker-Enfants Malades, AP-HP. Centre Universite Paris Cite, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France.",
+        "Pediatric Immuno-hematology and Rheumatology department, Hopital Necker-Enfants Malades, AP-HP. Centre Universite Paris Cite, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France.",
+        "Pediatric Immuno-hematology and Rheumatology department, Hopital Necker-Enfants Malades, AP-HP. Centre Universite Paris Cite, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France.",
+        "Pediatric Neurology Department, Necker-Enfants Malades Hospital, APHP, Paris, France.",
+        "International Center of Infectiology Research (CIRI), University of Lyon, INSERM U1111, Claude Bernard University, Lyon 1, CNRS, UMR5308, ENS of Lyon, Lyon, France.",
+        "National Reference Center for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), Pediatric Nephrology, Rheumatology, Dermatology Unit, Hospital of Mother and Child, Hospices Civils of Lyon, Lyon, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of neurogenetics and neuroinflammation, INSERM UMR 1163, Paris, France.",
+        "Universite Paris Cite, Paris, France.",
+        "Imagine Institute, Laboratory of neurogenetics and neuroinflammation, INSERM UMR 1163, Paris, France.",
+        "Pediatric Immuno-hematology and Rheumatology department, Hopital Necker-Enfants Malades, AP-HP. Centre Universite Paris Cite, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France.",
+        "Pediatric Immuno-hematology and Rheumatology department, Hopital Necker-Enfants Malades, AP-HP. Centre Universite Paris Cite, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France.",
+        "College de France, Paris, France.",
+        "Universite Paris Cite, Paris, France. mickael.menager@institutimagine.org.",
+        "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France. mickael.menager@institutimagine.org.",
+        "Labtech Single-Cell@Imagine, Imagine Institute, INSERM UMR 1163, Paris, France. mickael.menager@institutimagine.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Batignes, Maxime",
+        "short_name": "Batignes M",
+        "identifiers": [
+          "0000-0002-2383-840X"
+        ],
+        "affiliations": [
+          "Université Paris Cité, Paris, France. maxime.batignes@institutimagine.org.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France. maxime.batignes@institutimagine.org."
+        ]
+      },
+      {
+        "full_name": "Luka, Marine",
+        "short_name": "Luka M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+          "Labtech Single-Cell@Imagine, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Jagtap, Surabhi",
+        "short_name": "Jagtap S",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "de Cevins, Camille",
+        "short_name": "de Cevins C",
+        "identifiers": [
+          "0000-0002-5370-850X"
+        ],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Nemazanyy, Ivan",
+        "short_name": "Nemazanyy I",
+        "identifiers": [
+          "0000-0001-8080-839X"
+        ],
+        "affiliations": [
+          "Platform for Metabolic Analyses, Structure Fédérative de Recherche Necker, INSERM US24/CNRS UAR 3633, F-, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Leib, Jacqueline",
+        "short_name": "Leib J",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Fali, Tinhinane",
+        "short_name": "Fali T",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France.",
+          "Asfalia Biologics, ICM, Hôpital Pitié-Salpêtrière, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Pierga, Alexandre",
+        "short_name": "Pierga A",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of neurogenetics and neuroinflammation, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Zarhrate, Mohammed",
+        "short_name": "Zarhrate M",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics Core Facility, Institut Imagine-Structure Fédérative de Recherche Necker, INSERM UMR 1163 et INSERM US24/CNRS UAR3633, Paris Cite University, Paris, France."
+        ]
+      },
+      {
+        "full_name": "García-Paredes, Víctor",
+        "short_name": "García-Paredes V",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Carbone, Francesco",
+        "short_name": "Carbone F",
+        "identifiers": [
+          "0009-0002-0819-4471"
+        ],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Labtech Single-Cell@Imagine, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Pérot, Brieuc P",
+        "short_name": "Pérot BP",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Neven, Bénédicte",
+        "short_name": "Neven B",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Immuno-hematology and Rheumatology department, Hôpital Necker-Enfants Malades, AP-HP. Centre Université Paris Cité, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bader-Meunier, Brigitte",
+        "short_name": "Bader-Meunier B",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Immuno-hematology and Rheumatology department, Hôpital Necker-Enfants Malades, AP-HP. Centre Université Paris Cité, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Quartier, Pierre",
+        "short_name": "Quartier P",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Immuno-hematology and Rheumatology department, Hôpital Necker-Enfants Malades, AP-HP. Centre Université Paris Cité, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Hully, Marie",
+        "short_name": "Hully M",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Neurology Department, Necker-Enfants Malades Hospital, APHP, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Belot, Alexandre",
+        "short_name": "Belot A",
+        "identifiers": [
+          "0000-0003-4902-5332"
+        ],
+        "affiliations": [
+          "International Center of Infectiology Research (CIRI), University of Lyon, INSERM U1111, Claude Bernard University, Lyon 1, CNRS, UMR5308, ENS of Lyon, Lyon, France.",
+          "National Reference Center for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), Pediatric Nephrology, Rheumatology, Dermatology Unit, Hospital of Mother and Child, Hospices Civils of Lyon, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Lepelley, Alice",
+        "short_name": "Lepelley A",
+        "identifiers": [
+          "0000-0001-8656-7291"
+        ],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of neurogenetics and neuroinflammation, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Frémond, Marie-Louise",
+        "short_name": "Frémond ML",
+        "identifiers": [
+          "0000-0002-2798-9141"
+        ],
+        "affiliations": [
+          "Université Paris Cité, Paris, France.",
+          "Imagine Institute, Laboratory of neurogenetics and neuroinflammation, INSERM UMR 1163, Paris, France.",
+          "Pediatric Immuno-hematology and Rheumatology department, Hôpital Necker-Enfants Malades, AP-HP. Centre Université Paris Cité, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Fischer, Alain",
+        "short_name": "Fischer A",
+        "identifiers": [
+          "0000-0003-4025-5983"
+        ],
+        "affiliations": [
+          "Pediatric Immuno-hematology and Rheumatology department, Hôpital Necker-Enfants Malades, AP-HP. Centre Université Paris Cité, Reference Centre for Inflammatory Rheumatism, Autoimmune Diseases and Systemic Interferonopathies in Children (RAISE), F-CRIN CRI-IMIDIATE network, Paris, France.",
+          "Collège de France, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Ménager, Mickaël M",
+        "short_name": "Ménager MM",
+        "identifiers": [
+          "0000-0002-6838-2389"
+        ],
+        "affiliations": [
+          "Université Paris Cité, Paris, France. mickael.menager@institutimagine.org.",
+          "Imagine Institute, Laboratory of Single-cell inflammatory responses and multi-OMICs networks, Atip-Avenir Team, INSERM UMR 1163, Paris, France. mickael.menager@institutimagine.org.",
+          "Labtech Single-Cell@Imagine, Imagine Institute, INSERM UMR 1163, Paris, France. mickael.menager@institutimagine.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Mar 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/04 01:17",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40581121",
+      "40528028",
+      "39827047",
+      "39126652",
+      "38993003",
+      "38118407",
+      "37171742",
+      "36890227",
+      "36430958",
+      "36311265",
+      "35726016",
+      "35023831",
+      "34739196",
+      "34512665",
+      "34077724",
+      "34062119",
+      "33630072",
+      "33542364",
+      "33252884",
+      "33230297",
+      "32725128",
+      "32694786",
+      "32661059",
+      "32651212",
+      "32561888",
+      "32109377",
+      "31155231",
+      "31063758",
+      "30984149",
+      "30731091",
+      "30726743",
+      "30566312",
+      "30445495",
+      "30147442",
+      "30046113",
+      "29997288",
+      "29544097",
+      "29165633",
+      "28759029",
+      "28089741",
+      "27473063",
+      "27455396",
+      "26626369",
+      "26052098",
+      "24686847",
+      "24464287",
+      "24336805",
+      "24315374",
+      "24056783",
+      "23865366",
+      "23741402",
+      "23586463",
+      "23001123",
+      "22394562",
+      "20829794",
+      "20181004",
+      "19525956",
+      "18240301",
+      "17357087",
+      "16845400",
+      "16816413",
+      "16517406",
+      "16483401",
+      "15695931",
+      "15518810",
+      "15194051",
+      "14753755",
+      "13298683",
+      "12198143",
+      "11863418",
+      "11752295",
+      "11292861",
+      "11089981",
+      "10954529",
+      "8797841",
+      "8145033",
+      "1321909",
+      "934318"
+    ],
+    "similar": [
+      "41776196",
+      "34332594",
+      "40581121",
+      "24183309",
+      "28229507",
+      "41666947",
+      "39871364",
+      "29740948",
+      "22174685",
+      "32062129",
+      "40869969",
+      "36949945",
+      "25769924",
+      "24445253",
+      "25604658",
+      "27643693",
+      "22461318",
+      "41496005",
+      "38368708",
+      "35320431",
+      "37515439",
+      "36115319",
+      "23365100",
+      "25672750",
+      "39332260",
+      "31914608",
+      "33158637",
+      "34189822",
+      "24300241",
+      "27937139",
+      "31078780",
+      "33857133",
+      "39470906",
+      "38181636",
+      "23371319",
+      "32244340",
+      "28387595",
+      "38041217",
+      "40149865",
+      "26801746",
+      "39473130",
+      "28089741",
+      "40061936",
+      "23001123",
+      "25423367",
+      "29311560",
+      "30898416",
+      "36430958",
+      "40647184",
+      "33482855",
+      "40302656",
+      "32029879",
+      "20842748",
+      "28739201",
+      "41241047",
+      "26284909",
+      "36150385",
+      "29583030",
+      "30952201",
+      "36722173",
+      "28502830",
+      "35634337",
+      "33307271",
+      "30355156",
+      "37171742",
+      "28236660",
+      "29395325",
+      "40308196",
+      "18606657",
+      "28962641",
+      "28762473",
+      "30011156",
+      "41061940",
+      "23872947",
+      "34525338",
+      "30275001",
+      "41786052",
+      "19846525",
+      "32720483",
+      "40442339",
+      "24376015",
+      "17442734",
+      "29869477",
+      "25456137",
+      "23911596",
+      "39890436",
+      "30510222",
+      "25172485",
+      "21670392",
+      "25246298",
+      "35262626",
+      "39888089",
+      "25063991",
+      "27287256",
+      "37357214",
+      "33872687",
+      "21862834",
+      "30272821",
+      "24335234",
+      "23548179"
+    ],
+    "review": [
+      "41776196",
+      "41666947",
+      "29740948",
+      "27643693",
+      "37515439",
+      "27937139",
+      "32244340",
+      "39473130",
+      "29583030",
+      "36722173",
+      "32720483"
+    ],
+    "pmc": [
+      "13066545"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/brainmalformations.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Malformations"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-026-69979-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41776196/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-945",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

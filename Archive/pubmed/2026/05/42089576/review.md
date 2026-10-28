@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics (MD) and steered MD simulations to compare wild-type p53 dimer-DNA complexes with two mutants, non-hotspot E180R and hotspot R248W, in the DNA-binding domain. They report that both mutations weaken intramolecular interactions and increase structural flexibility, that E180R impairs dimer stability and cooperative DNA binding via perturbed dimer interface interactions, and that R248W disrupts L3/L1 loop-DNA interactions leading to loss of DNA-binding capacity. They further claim that both mutations accelerate dimer dissociation in steered MD and that they reveal for the first time mechanical stability features of intermolecular interactions within p53 dimers.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, convergence criteria, or experimental comparisons are shown
+- **Missing materials affecting confidence** Full methods, force field parameters, simulation lengths, replica counts, free energy calculations, error estimates, structural figures, quantitative comparison with experimental data, and any statistical analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of mutation-induced allostery in p53-DBD, with a clear distinction between hotspot and non-hotspot mutation mechanisms. However, the current evidence base is insufficient to evaluate the technical soundness of the simulations or the robustness of the claimed conclusions. The central mechanistic claims are stated without quantitative support, and the novelty claim regarding mechanical stability features is not contextualized against prior literature. The manuscript may have merit, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying protein allostery, mutation effects on protein-DNA interactions, and mechanical stability of protein complexes. Researchers in the p53 field, particularly those interested in genotype-phenotype correlations and mutation-subtype-specific therapeutic strategies, would also find the results relevant. The work may appeal to readers of a biophysics or chemical physics journal interested in MD-based mechanistic dissection of disease-associated mutations.
+- **Major strengths** The study addresses a clinically relevant question with a clear conceptual framework distinguishing hotspot and non-hotspot mutations. The choice of two well-characterized mutants with distinct functional outcomes provides a useful comparative design. The combination of equilibrium MD and steered MD to probe both dynamic and mechanical properties is a reasonable approach. The claim that the results agree with available experimental data, if substantiated, would strengthen the translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that both mutations weaken intramolecular interactions in p53-DBD and enhance structural flexibility, and that specific allosteric effects (E180R on dimer interface, R248W on L3/L1-DNA interactions) explain the functional differences.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are presented to support these claims. There are no measures of interaction energies, root-mean-square fluctuations, contact maps, or free energy differences. Without such data, the reader cannot assess the magnitude of the reported effects or whether they are statistically significant relative to thermal fluctuations.
+  - **Why it matters** The central mechanistic conclusions rest entirely on these simulation-derived quantities. If the effects are small or within noise, the proposed allosteric mechanisms would not be supported. The abstract provides no basis for judging the robustness of the findings.
+  - **Resolution test** Provide quantitative values with error estimates for key observables (e.g., interaction energies, fluctuation amplitudes, contact lifetimes) and demonstrate statistical significance across independent simulations or replicas.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that steered MD simulations confirm that both mutations accelerate p53 dimer dissociation and that they reveal for the first time the mechanical stability features of intermolecular interactions within p53 dimers.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details of the steered MD protocol are given, including pulling direction, pulling speed, spring constant, or the number of replicates. The claim of "first time" is not supported by any comparison with prior computational or experimental studies of p53 dimer mechanical stability. Without these details, the dissociation results cannot be evaluated for artifacts such as pulling-rate dependence or insufficient sampling.
+  - **Why it matters** Steered MD results are highly sensitive to simulation protocol. If the pulling parameters are not carefully chosen and validated, the reported acceleration of dissociation may be an artifact. The novelty claim requires a literature context to be credible.
+  - **Resolution test** Provide full steered MD parameters, justify their choice, show convergence with respect to pulling speed, and cite prior work on p53 dimer mechanics to substantiate the novelty claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the allosteric effects agree with available experimental data.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which experimental data are referenced or how the comparison was made. It is unclear whether the agreement is qualitative or quantitative, and whether the experimental data pertain to structure, binding affinity, or functional assays.
+  - **Why it matters** Agreement with experiment is a key pillar of the paper's credibility. Without specifying the experimental benchmarks and the comparison method, this claim cannot be verified.
+  - **Resolution test** List the specific experimental studies used for comparison, describe the metrics compared, and show quantitative agreement where possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** System description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that simulations were conducted for "p53-WT, non-hotspot p53-E180R, and hotspot p53-R248W dimer-DNA complexes" but does not specify the construct boundaries, the DNA sequence, or the oligomeric state beyond "dimer."
+  - **Required correction** Specify the p53-DBD construct, the DNA sequence and length, and confirm the dimeric assembly in all three systems.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Mutation classification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The terms "hotspot" and "non-hotspot" are used as proxies for complete and partial loss-of-function, but this classification is not universally accepted for all p53 mutations.
+  - **Required correction** Clarify the basis for this classification and note any exceptions or limitations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Novelty claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of revealing "for the first time" mechanical stability features is not placed in the context of existing literature on protein mechanical stability or p53 dimer studies.
+  - **Required correction** Add a brief statement of prior work and explain what is genuinely new.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative simulation data, the lack of steered MD protocol details, and the unspecified experimental comparison collectively prevent the core claims from being evaluated.
+- **Assessment against Nature-style criteria** Originality: The conceptual framing is not entirely new, as mutation-induced allostery in p53 has been studied, but the specific comparison of hotspot versus non-hotspot mechanisms via MD may offer a fresh angle. Scientific importance: The topic is clinically relevant, but the importance of the specific findings cannot be assessed without data. Interdisciplinary readership: The work may appeal to biophysicists and p53 biologists, but the abstract is too technical and data-poor to attract a broad readership. Technical soundness: Not assessable from the abstract; the lack of methodological detail and quantitative results is a major barrier. Readability for nonspecialists: The abstract is reasonably clear in its narrative but assumes familiarity with MD and p53 biology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the absence of quantitative results, methodological details, and literature context prevents a supportive recommendation. The authors should be invited to submit the full manuscript for a complete review.
+
+## Risk / unsupported claims
+- The claim that both mutations weaken intramolecular interactions and enhance flexibility is unsupported without quantitative data.
+- The claim that E180R impairs dimer stability and cooperative DNA binding via dimer interface perturbation is unsupported without interaction energy or binding free energy data.
+- The claim that R248W disrupts L3/L1 loop-DNA interactions is unsupported without contact or energy analysis.
+- The claim that steered MD confirms accelerated dimer dissociation is unsupported without protocol details and results.
+- The claim of agreement with experimental data is unverifiable without specifying the data and comparison method.
+- The novelty claim regarding mechanical stability features is not assessable without literature context.

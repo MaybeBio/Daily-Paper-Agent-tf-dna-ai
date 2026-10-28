@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "42163319",
+    "doi": "10.1186/s12916-026-04912-x",
+    "title": "Development and validation of an MRI-based deep learning system for triple-class ER expression classification in breast cancer: a large-scale multicenter study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Estrogen receptor (ER) expression is a key prognostic and predictive marker in breast cancer. The 2020 ASCO/CAP guidelines classify tumors with >/= 1% ER-positive nuclei as ER-positive, yet ER-low positive (1%-10%) breast cancer remains biologically distinct with an unclear response to endocrine therapy (ET). Given the limitations of invasive ER assessment, we developed and validated an MRI-based deep learning system (BERC) for non-invasive classification of ER negative, ER-low positive, and ER-high positive breast cancer using multicenter data. METHODS: This diagnostic study retrospectively analyzed pretreatment DCE-MRI data from 3500 breast cancer patients across six institutions (February 2016-August 2023). Patients were categorized into ER negative, ER-low positive, and ER-high positive groups based on pathology. Tumor segmentation on DCE T1-weighted images was performed using an automated deep learning algorithm. A DCE-MRI-based model was developed and evaluated for classification performance using the area under the receiver operating characteristic curve (AUC), along with sensitivity, specificity, accuracy, positive predictive value (PPV), and negative predictive value (NPV) with 95% confidence intervals. Model interpretability was evaluated through t-SNE and UMAP for feature visualization, along with SHAP analysis for interpreting key predictive features. RESULTS: The training dataset included 1862 patients (median age 49 years, interquartile range [IQR] 21-88), while 1638 patients from four external centers formed the test dataset (median ages ranging from 47 to 51 years across centers). The model achieved Micro-/Macro-average AUCs of 0.918/0.882 in training and 0.923/0.900 in internal validation. In external testing, Micro-average AUCs ranged from 0.828 to 0.923 and Macro-average AUCs from 0.825 to 0.905 across four independent centers. Visualization techniques revealed clear, biologically plausible clustering patterns across the ER expression categories. CONCLUSIONS: BERC shows potential for non-invasive, preoperative ER status prediction in breast cancer, with implications for personalized therapy.",
+    "keywords": [
+      "Breast cancer",
+      "Deep learning",
+      "Estrogen receptor",
+      "MRI"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Female",
+      "Humans",
+      "Middle Aged",
+      "*Breast Neoplasms/diagnostic imaging/classification/metabolism/pathology",
+      "Classification Algorithms",
+      "*Deep Learning",
+      "*Dynamic Contrast Enhanced Magnetic Resonance Imaging",
+      "*Receptors, Estrogen/analysis/metabolism",
+      "Retrospective Studies"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Yi",
+        "Wong, Chinting",
+        "Du, Siyao",
+        "Xu, Zeyan",
+        "Wei, Zhitao",
+        "Liang, Yanting",
+        "Han, Chu",
+        "Lian, Chun",
+        "Aishanjiang, Dilinuer",
+        "Chen, Meiying",
+        "Huang, Rong",
+        "Qu, Jinrong",
+        "Zhang, Lina",
+        "Cheng, Guanxun",
+        "Zhang, Xiang",
+        "Wang, Ying",
+        "Liu, Zaiyi",
+        "Shi, Zhenwei"
+      ],
+      "short_names": [
+        "Dai Y",
+        "Wong C",
+        "Du S",
+        "Xu Z",
+        "Wei Z",
+        "Liang Y",
+        "Han C",
+        "Lian C",
+        "Aishanjiang D",
+        "Chen M",
+        "Huang R",
+        "Qu J",
+        "Zhang L",
+        "Cheng G",
+        "Zhang X",
+        "Wang Y",
+        "Liu Z",
+        "Shi Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China.",
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, 110001, China.",
+        "Department of Radiology, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Kunming, 650118, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China.",
+        "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China.",
+        "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China.",
+        "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China.",
+        "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China.",
+        "Department of Radiology, Henan Cancer Hospital, The Affiliated Cancer Hospital of Zhengzhou University, Zhengzhou, 450000, China.",
+        "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, 110165, China.",
+        "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China.",
+        "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, 510120, China. zhangx345@mail.sysu.edu.cn.",
+        "Department of Medical Ultrasonics, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, 510120, China. liuivy527@163.com.",
+        "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China. liuzaiyi@gdph.org.cn.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China. liuzaiyi@gdph.org.cn.",
+        "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China. shizhenwei@gdph.org.cn.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China. shizhenwei@gdph.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Yi",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China."
+        ]
+      },
+      {
+        "full_name": "Wong, Chinting",
+        "short_name": "Wong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Du, Siyao",
+        "short_name": "Du S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, 110001, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zeyan",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Kunming, 650118, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Zhitao",
+        "short_name": "Wei Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yanting",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Han, Chu",
+        "short_name": "Han C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Chun",
+        "short_name": "Lian C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China."
+        ]
+      },
+      {
+        "full_name": "Aishanjiang, Dilinuer",
+        "short_name": "Aishanjiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Meiying",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Rong",
+        "short_name": "Huang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Jinrong",
+        "short_name": "Qu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Henan Cancer Hospital, The Affiliated Cancer Hospital of Zhengzhou University, Zhengzhou, 450000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lina",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, 110165, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Guanxun",
+        "short_name": "Cheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Peking University Shenzhen Hospital, Shenzhen, 518036, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, 510120, China. zhangx345@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Ultrasonics, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, 510120, China. liuivy527@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Zaiyi",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China. liuzaiyi@gdph.org.cn.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China. liuzaiyi@gdph.org.cn."
+        ]
+      },
+      {
+        "full_name": "Shi, Zhenwei",
+        "short_name": "Shi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, 510080, China. shizhenwei@gdph.org.cn.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou, 510080, China. shizhenwei@gdph.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medicine"
+    ],
+    "journal_abbrev": [
+      "BMC Med"
+    ],
+    "pub_date": "2026 May 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/21 06:32",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39676516",
+      "39643475",
+      "39436292",
+      "38626948",
+      "38408689",
+      "38363315",
+      "38265001",
+      "38142176",
+      "37526540",
+      "37460743",
+      "37442945",
+      "37284804",
+      "36292247",
+      "35595761",
+      "34942412",
+      "34251757",
+      "33694051",
+      "33369635",
+      "32957690",
+      "32713939",
+      "32708512",
+      "31928404",
+      "31463822",
+      "31398071",
+      "30927939",
+      "30811717",
+      "30617495",
+      "29526548",
+      "28712925",
+      "24562447",
+      "24325948",
+      "20378467",
+      "19221149",
+      "18234586",
+      "17077359"
+    ],
+    "similar": [
+      "42163319",
+      "39643475",
+      "41545974",
+      "41013591",
+      "41219899",
+      "38641451",
+      "41745704",
+      "41135295",
+      "42131346",
+      "42591662",
+      "40249269",
+      "42618942",
+      "41634854",
+      "36928988",
+      "37855421",
+      "40137571",
+      "40360135",
+      "37403945",
+      "41820213",
+      "41965129",
+      "29219225",
+      "39681144",
+      "39413232",
+      "34422088",
+      "41787008",
+      "36661350",
+      "36418622",
+      "41797338",
+      "37013422",
+      "41289056",
+      "41786550",
+      "41329436",
+      "38363315",
+      "41495869",
+      "42582558",
+      "40882615",
+      "41354135",
+      "40089082",
+      "41345985",
+      "40414575",
+      "42203654",
+      "41329305",
+      "39191174",
+      "39003325",
+      "34490107",
+      "34233259",
+      "31301201",
+      "38742356",
+      "41088266",
+      "31348505",
+      "42126725",
+      "40899931",
+      "42173822",
+      "36219519",
+      "41814215",
+      "26968141",
+      "39933196",
+      "40159045",
+      "35819628",
+      "40862800",
+      "40347080",
+      "42095876",
+      "40676103",
+      "38205712",
+      "40636126",
+      "30358693",
+      "39006260",
+      "41740271",
+      "40858830",
+      "40395152",
+      "41801595",
+      "42299275",
+      "40597935",
+      "32556920",
+      "41439587",
+      "39924532",
+      "40256826",
+      "30773770",
+      "41633888",
+      "39390604",
+      "38875748",
+      "40631989",
+      "38627678",
+      "41688957",
+      "41398654",
+      "38745321",
+      "37497811",
+      "38131531",
+      "42273105",
+      "34520235",
+      "41120945",
+      "41383399",
+      "41468007",
+      "42219624",
+      "42475469",
+      "39289097",
+      "40116887",
+      "40175203",
+      "30171822",
+      "39107190"
+    ],
+    "review": [
+      "42163319"
+    ],
+    "pmc": [
+      "13360194"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-026-04912-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42163319/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

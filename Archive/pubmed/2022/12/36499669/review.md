@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report that a designed peptide spanning the Myc NLS (residues Ala310-Asn339) binds to human importin α3 and its IBB-deleted variant, with dissociation constants of ~0.5 µM and ~60 nM respectively, as measured by biolayer interferometry. The peptide is disordered in isolation, and molecular docking predicts binding at the major NLS-binding site of Impα3. The authors propose that the IBB domain modulates release kinetics.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1-2.3), Discussion, Materials and Methods (Section 4), Figures 2-7 (referenced), Tables 1 (referenced), Supplementary Figures S1-S3 (referenced)
+- **Missing materials affecting confidence** Raw titration data, BLI sensorgram fits with residuals, full NMR assignment tables, statistical analysis details, replicate numbers for BLI measurements, and the complete docking output (all 13 fragments) are not fully provided in the visible text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in nuclear transport biology, specifically the interaction between the Myc NLS and importin α3. The combination of biophysical techniques and docking is appropriate. However, several technical concerns regarding data interpretation, the discrepancy between fluorescence and BLI results, and the limited novelty of the findings temper enthusiasm. The claim that the IBB domain affects release kinetics is interesting but not fully supported by the presented data.
+- **Who would be interested in the results, and why** Researchers studying nuclear import mechanisms, particularly those focused on importin α isoforms and their cargo specificity. The work may also interest scientists investigating Myc biology and potential therapeutic targeting of Myc nuclear translocation. The methodological approach could be of interest to biophysicists studying protein-peptide interactions.
+- **Major strengths** 1) The study combines multiple orthogonal biophysical techniques (fluorescence, CD, NMR, BLI) to characterize the interaction. 2) The use of both full-length and IBB-deleted importin α3 allows for functional dissection of the IBB domain's role. 3) The docking approach with fragment screening is systematic and addresses computational limitations. 4) The peptide design includes flanking residues, which may better represent the native context of the NLS.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding affinity measurements
+  - **Claim pointer** The manuscript claims Kd values of ~0.5 µM for Impα3 and ~60 nM for ΔImpα3 based on BLI measurements.
+  - **Evidence pointer** Section 2.2, Figures 5 and 6
+  - **Concern** The BLI measurements were performed with the importin species immobilized on the biosensor. This configuration can lead to avidity effects, steric hindrance, or partial denaturation of the immobilized protein, potentially affecting the measured affinities. The authors do not discuss whether solution-based measurements (e.g., ITC or fluorescence anisotropy) were attempted to validate the BLI-derived Kd values. Furthermore, the kon values (~0.04 µM⁻¹ s⁻¹) are unusually slow for a peptide-protein interaction, which may indicate mass transport limitations or conformational gating. The manuscript does not address whether the binding reached equilibrium during the association phase.
+  - **Why it matters** The Kd values are central to the manuscript's conclusions about differential binding to Impα3 versus ΔImpα3. If the BLI measurements are compromised by experimental artifacts, the quantitative claims and the interpretation of IBB-mediated modulation of affinity would be unsupported.
+  - **Resolution test** Provide solution-based affinity measurements (e.g., ITC or fluorescence anisotropy) to corroborate the BLI-derived Kd values. Alternatively, show that BLI measurements are independent of immobilization density and that mass transport limitations are negligible. Report the R² values and residuals for the fits to Equations 4 and 6.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and consistency
+  - **Claim pointer** The manuscript states that fluorescence titrations did not follow the expected binding model, and this was attributed to the Kd being outside the concentration range explored.
+  - **Evidence pointer** Section 2.2, Figure 3
+  - **Concern** The fluorescence titrations were performed at a fixed importin concentration of 3 µM, with peptide concentrations up to 35 µM. For a Kd of 0.5 µM (Impα3), the binding should be saturable within this range, and a binding isotherm should be observable. The failure to observe a binding curve is inconsistent with the claimed Kd. For ΔImpα3 with a Kd of 60 nM, the titration should show a stoichiometric binding regime, which would also produce a clear signal change. The authors' explanation that the Kd is "not in the range of concentrations explored" is not quantitatively consistent with the reported Kd values. This discrepancy raises questions about the reliability of at least one of the measurements.
+  - **Why it matters** The internal inconsistency between fluorescence and BLI results undermines confidence in the reported affinities. If the fluorescence data cannot be reconciled with the BLI data, the quantitative conclusions of the study are questionable.
+  - **Resolution test** Re-analyze the fluorescence titration data with the reported Kd values to demonstrate that a binding isotherm should be observable. Provide the raw fluorescence titration data and show the fits (or lack thereof) explicitly. Discuss potential reasons for the discrepancy, such as inner filter effects, protein aggregation, or non-specific binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and scientific importance
+  - **Claim pointer** The manuscript claims to decipher the binding of the Myc NLS to importin α3, with unique properties in the binding mechanism.
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The X-ray structure of the Myc NLS in complex with yeast importin α has been previously solved (ref 13), and the binding of Myc NLS to importin α is well established. The present study adds biophysical characterization of the human Impα3 interaction, but the conceptual advance is incremental. The claim of "unique properties" is not well substantiated; the observation that the IBB domain affects affinity is consistent with known autoinhibitory mechanisms. The authors do not provide a compelling new biological insight or a methodological advance that would elevate the significance beyond a routine characterization.
+  - **Why it matters** For a broad-interest journal, the study needs to offer more than a confirmation of known interactions with slightly different quantitative details. The lack of novel mechanistic insight limits the impact of the work.
+  - **Resolution test** Clearly articulate what new biological or mechanistic insight is provided beyond the existing structural data. If the IBB effect on kinetics is the key finding, provide a more detailed mechanistic model supported by additional experiments (e.g., mutagenesis of the IBB domain or the NLS).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of docking predictions
+  - **Claim pointer** The docking simulations predict that NLS-Myc binds to the major NLS-binding site of Impα3, with fragments F6-F8 showing the best binding.
+  - **Evidence pointer** Section 2.3, Figure 7, Table 1
+  - **Concern** The docking approach uses short overlapping fragments (6 residues) rather than the full peptide. While this is a practical approach, the binding affinity of individual fragments may not reflect the binding of the full-length peptide, which could engage multiple subsites simultaneously. The authors do not validate the docking predictions with mutagenesis experiments or by comparing predicted binding energies with experimentally measured affinities. The claim that the fragments occupy the major binding site is based on visual inspection of the poses, which is subjective.
+  - **Why it matters** The docking results are used to support the conclusion that the NLS binds at the canonical site. Without experimental validation, the docking predictions remain speculative and do not strengthen the case for the binding mode.
+  - **Resolution test** Perform mutagenesis of key residues in the NLS (e.g., K323, R324, K326) and test the effect on binding affinity. Alternatively, use NMR chemical shift perturbations to map the binding interface experimentally.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Materials and Methods, Section 4.2.2
+  - **Evidence pointer** Equation 1
+  - **Issue** The binding model in Equation 1 assumes a 1:1 stoichiometry, but this is not explicitly justified. The authors do not discuss whether higher-order complexes or non-specific binding could occur.
+  - **Required correction** State the assumed stoichiometry and provide justification, or discuss potential deviations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.2, Figures 5 and 6
+  - **Evidence pointer** Figures 5 and 6
+  - **Issue** The BLI sensorgrams are described but not shown in the visible text. The reader cannot assess the quality of the fits or the signal-to-noise ratio.
+  - **Required correction** Include representative sensorgrams with fits and residuals in the main text or supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Section 2.1, NMR experiments
+  - **Evidence pointer** Section 2.1, Figure 2C, Table S1
+  - **Issue** The NMR experiments are used to assess the conformational features of the peptide, but the details of the assignment (e.g., which residues were unambiguously assigned) are not fully provided. The statement that "no long- or medium-range NOEs were detected" is based on partial assignments.
+  - **Required correction** Provide a more complete description of the NMR assignments and the criteria used to conclude the absence of long-range NOEs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors do not discuss the limitations of using a peptide fragment rather than the full-length Myc protein, which could have different conformational properties or additional interaction surfaces.
+  - **Required correction** Add a paragraph acknowledging this limitation and its potential impact on the interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (BLI reliability and consistency with fluorescence data) and R1-M2 (internal inconsistency between techniques) must be resolved. The lack of experimental validation for the docking predictions (R1-M4) also needs to be addressed.
+- **Assessment against Nature-style criteria** Originality: Moderate. The interaction between Myc NLS and importin α is known; the study provides quantitative biophysical data but no fundamentally new concept. Scientific importance: Moderate. The work is relevant to nuclear transport and Myc biology but does not address a major open question. Interdisciplinary readership: Limited. The study is primarily of interest to biophysicists and cell biologists studying nuclear transport. Technical soundness: The multi-technique approach is commendable, but the inconsistencies between fluorescence and BLI data and the lack of validation for docking predictions weaken the technical foundation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., docking methodology) may be challenging for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic and uses appropriate methods, but the internal inconsistencies in the binding data and the lack of experimental validation for the docking predictions prevent the conclusions from being fully supported. Major revisions are required to address these concerns.
+
+## Risk / unsupported claims
+- The claim that the IBB domain modulates release kinetics is based on a single comparison of Kd values and is not supported by direct kinetic measurements or a mechanistic model.
+- The statement that the peptide acquires a folded conformation upon binding is inferred from CD changes but is not directly demonstrated (e.g., by NMR in the bound state).
+- The prediction that fragments F6-F8 bind at the major NLS-binding site is based solely on docking and is not experimentally validated.
+- The claim that the NLS-Myc peptide is "much more optimized" for binding compared to other NLSs is not quantitatively supported by a direct comparison under identical conditions.

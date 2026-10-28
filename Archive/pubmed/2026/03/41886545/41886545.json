@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "41886545",
+    "doi": "10.1097/SHK.0000000000002819",
+    "title": "Integrative Analysis Identifies Lactylation-Associated Hub Genes in Septic Cardiomyopathy."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Septic cardiomyopathy (SCM) is a critical complication contributing to high mortality in septic patients, yet its precise molecular mechanisms remain incompletely elucidated. METHODS: Publicly available human transcriptomic data for SCM were obtained from the Gene Expression Omnibus database (GSE79962). Our integrated analytical workflow consisted of several steps. First, Weighted Gene Co-expression Network Analysis pinpointed key co-expression modules. Subsequently, a consensus approach combining three machine learning algorithms, Boruta, Random Forest, and Support Vector Machine-Recursive Feature Elimination, was used to screen for hub genes. The diagnostic potential of these genes was then assessed using receiver operating characteristic curves. Further investigations included functional pathway enrichment via Gene Set Enrichment Analysis, immune infiltration profiling with CIBERSORT, and the construction of a protein-protein interaction network using the STRING database. To validate the bioinformatic findings, key results were experimentally confirmed in a lipopolysaccharide-induced septic mouse model. RESULTS: Our analysis identified three hub genes [growth arrest and DNA damage-inducible protein 45 beta (GADD45B), signal transducer and activator of transcription 3 (STAT3), and solute carrier family 7 member 5 (SLC7A5)] that were significantly dysregulated in SCM. These genes demonstrated exceptional diagnostic power, with area under the curve values exceeding 0.95. Gene set enrichment analysis indicated a pronounced activation of innate immune and inflammatory pathways. Concurrently, we observed a sustained suppression of critical cardiac energy metabolic pathways. The hub genes were also closely linked to the cS-STING signaling pathway. Their expression levels showed significant correlations with the infiltration of specific immune cell subsets, including resting natural killer cells, M0 and M2 macrophages, and resting CD4+ memory T cells. Critically, the dysregulation of these hub genes was successfully corroborated in heart tissues from the lipopolysaccharide-induced mouse model. CONCLUSIONS: This study, through integrated bioinformatics and initial experimental validation, identifies growth arrest and DNA damage-inducible protein 45 beta, signal transducer and activator of transcription 3, and solute carrier family 7 member 5 as central hub genes in SCM and proposes their potential regulation by lactylation as a novel hypothesis for future mechanistic investigation.",
+    "keywords": [
+      "Immune infiltration",
+      "lactylation",
+      "metabolic reprogramming; sepsis",
+      "septic cardiomyopathy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Cardiomyopathies/genetics/metabolism/etiology",
+      "Mice",
+      "*Sepsis/complications/genetics/metabolism",
+      "Gene Expression Profiling",
+      "STAT3 Transcription Factor/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Rui",
+        "Dai, Jinwei",
+        "Zhang, Xiaolei",
+        "Chen, Yiting",
+        "Xiong, Wei",
+        "Qian, Zhaoxin"
+      ],
+      "short_names": [
+        "Jin R",
+        "Dai J",
+        "Zhang X",
+        "Chen Y",
+        "Xiong W",
+        "Qian Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Rui",
+        "short_name": "Jin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Jinwei",
+        "short_name": "Dai J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaolei",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yiting",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Wei",
+        "short_name": "Xiong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Zhaoxin",
+        "short_name": "Qian Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "National Clinical Research Center of Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Shock (Augusta, Ga.)"
+    ],
+    "journal_abbrev": [
+      "Shock"
+    ],
+    "pub_date": "2026 Oct 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/26 18:49",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [
+      "42459694"
+    ],
+    "refs": [],
+    "similar": [
+      "41886545",
+      "38291374",
+      "41254473",
+      "39557695",
+      "39671358",
+      "42148128",
+      "41555186",
+      "42642681",
+      "41388523",
+      "41570698",
+      "40362669",
+      "39586719",
+      "41826854",
+      "42292668",
+      "40591166",
+      "42015036",
+      "42278407",
+      "41044520",
+      "38212812",
+      "37359526",
+      "40196107",
+      "41756296",
+      "42327749",
+      "41013727",
+      "40821971",
+      "39026250",
+      "42172296",
+      "39263286",
+      "31424269",
+      "41224720",
+      "41094572",
+      "39348809",
+      "40997906",
+      "42083957",
+      "42158856",
+      "38690269",
+      "40977739",
+      "41508240",
+      "42123445",
+      "42708302",
+      "40768057",
+      "42326009",
+      "41146237",
+      "41107929",
+      "42597971",
+      "42509823",
+      "39609718",
+      "40406620",
+      "40973872",
+      "38371524",
+      "41013556",
+      "40574839",
+      "40836320",
+      "42265520",
+      "41738361",
+      "40665394",
+      "39713769",
+      "39139563",
+      "38755717",
+      "37700485",
+      "40129981",
+      "41415264",
+      "38711508",
+      "42291298",
+      "41790394",
+      "42056344",
+      "36148059",
+      "42123756",
+      "42092981",
+      "42449128",
+      "41305746",
+      "37115484",
+      "42348043",
+      "31794266",
+      "42338983",
+      "38660311",
+      "42008507",
+      "41006883",
+      "34321013",
+      "41790636",
+      "36204577",
+      "41424060",
+      "35381314",
+      "41990066",
+      "40181741",
+      "36699262",
+      "40561071",
+      "38912048",
+      "41863100",
+      "39375405",
+      "41120378",
+      "42274933",
+      "42363518",
+      "42589294",
+      "39354722",
+      "37460430",
+      "41052072",
+      "41306613",
+      "41473675",
+      "42305536"
+    ],
+    "review": [
+      "41886545"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/SHK.0000000000002819",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

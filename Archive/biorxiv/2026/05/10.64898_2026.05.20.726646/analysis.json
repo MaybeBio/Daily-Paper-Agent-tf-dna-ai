@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.20.726646",
+  "title": "Does the sequence of a disordered protein encode small molecule binding paths?",
+  "authors": "Adelie Louet; Gerhard Hummer; Michele Vendruscolo",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-23",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD和马尔可夫模型研究无序蛋白与小分子结合路径，虽非TF-DNA体系，但蛋白-配体动态互作建模方法可迁移至TF-DNA研究。",
+  "abstract": "Ligand binding to intrinsically disordered proteins resists description in terms of conventional binding pockets, yet it can be analysed as a dynamic process in which ligands move across transient surface interaction sites. Here we characterise a pathway-based representation in which ligand binding is described as a sequence of transitions between residue-defined microstates, enabling ligand-specific effects to be distinguished from intrinsic properties of the peptide conformational ensemble. Using all-atom molecular dynamics simulations of Aβ42 and the C-terminal region of α-synuclein in complex with chemically diverse small molecules, we construct transition matrices that encode ligand movement across the peptide surface and use Markov state models to identify dominant binding pathways and relative binding propensities. Pairwise enrichment-factor and AUC analyses reveal strong conservation of the highest-ranked pathways across chemically diverse ligands, with enrichment factors of 15-45 for the top-ranked states and AUC values typically ≥0.75, well above random expectation. These dominant pathways are also preserved across changes in pH and temperature, whereas a urea control, included as a non-specific binder, shows reduced enrichment, indicating that ligands primarily modulate pathway weights rather than define the underlying network topology. Ensemble docking across chemically diverse libraries further supports the presence of recurrent ligand-accessible hotspots within the peptide conformational ensemble. Building on this framework, we apply a prospective screening pipeline to Aβ42, combining MSM-derived hotspots with sequence-based Ligand-Transformer scoring and Gnina docking across 1.66 million compounds, to nominate 19 candidates for prospective experimental evaluation. Together, these results indicate that disordered protein sequences give rise to conformational ensembles that exhibit characteristic binding pathways for small molecules.",
+  "abstract_zh": "配体与固有无序蛋白的结合难以用传统结合口袋的概念来描述，但可将其视为配体在瞬时表面相互作用位点上移动的动态过程。在此，我们表征了一种基于路径的表示方法，其中配体结合被描述为残基定义的微状态之间的序列转换，从而能够将配体特异性效应与肽构象集合的内在属性区分开来。利用Aβ42和α-突触核蛋白C端区域与化学多样性小分子复合物的全原子分子动力学模拟，我们构建了编码配体在肽表面移动的转移矩阵，并使用马尔可夫状态模型来识别主导结合路径和相对结合倾向性。成对富集因子和AUC分析显示，在化学多样性配体中，排名最高的路径具有强保守性，排名靠前状态的富集因子为15-45，AUC值通常≥0.75，远高于随机预期。这些主导路径在pH和温度变化下也得以保留，而作为非特异性结合对照的尿素处理则显示富集性降低，表明配体主要调节路径权重，而非定义底层网络拓扑结构。跨化学多样性文库的整体对接进一步支持肽构象集合中存在重复出现的配体可及热点。基于此框架，我们将前瞻性筛选流程应用于Aβ42，结合基于MSM的热点、基于序列的Ligand-Transformer评分以及Gnina对接，对166万种化合物进行筛选，提名19个候选物用于前瞻性实验评估。综合来看，这些结果表明无序蛋白序列产生构象集合，这些集合表现出特征性的小分子结合路径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726646",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726646",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.20.726646/index.html"
+}

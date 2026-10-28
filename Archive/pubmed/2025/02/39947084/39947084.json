@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "39947084",
+    "doi": "10.1016/j.compmedimag.2025.102499",
+    "title": "Interpretable multi-stage attention network to predict cancer subtype, microsatellite instability, TP53 mutation and TMB of endometrial and colorectal cancer."
+  },
+  "content": {
+    "abstract": "Mismatch repair deficiency (dMMR), also known as high-grade microsatellite instability (MSI-H), is a well-established biomarker for predicting the immunotherapy response in endometrial cancer (EC) and colorectal cancer (CRC). Tumor mutational burden (TMB) has also emerged as an important quantitative genomic biomarker for assessing the efficacy of immune checkpoint inhibitors. Although next-generation sequencing (NGS) can be used to assess MSI and TMB, the high costs, low sample throughput, and significant DNA requirements make NGS impractical for routine clinical screening. In this study, an interpretable, multi-stage attention deep learning (DL) network is introduced to predict pathological subtypes, MSI, TP53 mutations, and TMB directly from low-cost, routinely used histopathological whole slide images of EC and CRC slides. Experimental results showed that this method consistently outperformed seven state-of-the-art approaches in cancer subtyping and molecular status prediction across EC and CRC datasets. Fisher's Least Significant Difference test confirmed a strong correlation between model predictions and actual molecular statuses (MSI, TP53, and TMB) (p<0.001). Furthermore, Kaplan-Meier disease-free survival analysis revealed that CRC patients with model-predicted high TMB had significantly longer disease-free survival than those with low TMB (p<0.05). These findings demonstrate that the proposed DL-based approach holds significant potential for directly predicting immunotherapy-related pathological diagnoses and molecular statuses from routine WSIs, supporting personalized cancer immunotherapy treatment decisions in EC and CRC.",
+    "keywords": [
+      "Colorectal cancer",
+      "Deep learning",
+      "Endometrial cancer",
+      "Immunotherapy",
+      "Microsatellite instability",
+      "TP53",
+      "Tumor mutational burden",
+      "Whole slide images"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Microsatellite Instability",
+      "*Colorectal Neoplasms/genetics/pathology",
+      "Female",
+      "Mutation",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*Endometrial Neoplasms/genetics/pathology",
+      "*Deep Learning",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ching-Wei",
+        "Muzakky, Hikam",
+        "Lee, Yu-Ching",
+        "Chung, Yu-Pang",
+        "Wang, Yu-Chi",
+        "Yu, Mu-Hsien",
+        "Wu, Chia-Hua",
+        "Chao, Tai-Kuang"
+      ],
+      "short_names": [
+        "Wang CW",
+        "Muzakky H",
+        "Lee YC",
+        "Chung YP",
+        "Wang YC",
+        "Yu MH",
+        "Wu CH",
+        "Chao TK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Graduate Institute of Biomedical Engineering, National Taiwan University of Science and Technology, Taipei, Taiwan. Electronic address: cweiwang@mail.ntust.edu.tw.",
+        "Graduate Institute of Biomedical Engineering, National Taiwan University of Science and Technology, Taipei, Taiwan.",
+        "Graduate Institute of Biomedical Engineering, National Taiwan University of Science and Technology, Taipei, Taiwan.",
+        "Graduate Institute of Biomedical Engineering, National Taiwan University of Science and Technology, Taipei, Taiwan.",
+        "Department of Gynecology and Obstetrics, Tri-Service General Hospital, Taipei, Taiwan; Department of Gynecology and Obstetrics, National Defense Medical Center, Taipei, Taiwan.",
+        "Department of Gynecology and Obstetrics, Tri-Service General Hospital, Taipei, Taiwan; Department of Gynecology and Obstetrics, National Defense Medical Center, Taipei, Taiwan.",
+        "Department of Pathology, Tri-Service General Hospital, Taipei, Taiwan.",
+        "Department of Pathology, Tri-Service General Hospital, Taipei, Taiwan; Institute of Pathology and Parasitology, National Defense Medical Center, Taipei, Taiwan. Electronic address: chaotai.kuang@msa.hinet.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ching-Wei",
+        "short_name": "Wang CW",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Engineering, National Taiwan University of Science and Technology, Taipei, Taiwan. Electronic address: cweiwang@mail.ntust.edu.tw."
+        ]
+      },
+      {
+        "full_name": "Muzakky, Hikam",
+        "short_name": "Muzakky H",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Engineering, National Taiwan University of Science and Technology, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lee, Yu-Ching",
+        "short_name": "Lee YC",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Engineering, National Taiwan University of Science and Technology, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chung, Yu-Pang",
+        "short_name": "Chung YP",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Engineering, National Taiwan University of Science and Technology, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu-Chi",
+        "short_name": "Wang YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Tri-Service General Hospital, Taipei, Taiwan; Department of Gynecology and Obstetrics, National Defense Medical Center, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Yu, Mu-Hsien",
+        "short_name": "Yu MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Tri-Service General Hospital, Taipei, Taiwan; Department of Gynecology and Obstetrics, National Defense Medical Center, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wu, Chia-Hua",
+        "short_name": "Wu CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Tri-Service General Hospital, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chao, Tai-Kuang",
+        "short_name": "Chao TK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Tri-Service General Hospital, Taipei, Taiwan; Institute of Pathology and Parasitology, National Defense Medical Center, Taipei, Taiwan. Electronic address: chaotai.kuang@msa.hinet.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society"
+    ],
+    "journal_abbrev": [
+      "Comput Med Imaging Graph"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/14 00:23",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42653345",
+      "41974822",
+      "41947871",
+      "41889391",
+      "41098080",
+      "40959426",
+      "40837765",
+      "40755765",
+      "40740231"
+    ],
+    "refs": [],
+    "similar": [
+      "39947084",
+      "39461079",
+      "40651147",
+      "33726687",
+      "36750267",
+      "37849256",
+      "36724040",
+      "41214872",
+      "31967692",
+      "31038663",
+      "35262923",
+      "36681091",
+      "34365081",
+      "39700818",
+      "37099945",
+      "33992635",
+      "36532042",
+      "31056702",
+      "34686474",
+      "32466784",
+      "38704093",
+      "37437501",
+      "35070406",
+      "36057226",
+      "31270941",
+      "33755781",
+      "38949888",
+      "39822019",
+      "37150803",
+      "34659255",
+      "33042271",
+      "33549857",
+      "39709501",
+      "38746969",
+      "40297960",
+      "35705314",
+      "42195047",
+      "39765187",
+      "39816034",
+      "40165109",
+      "35534873",
+      "39986022",
+      "40597865",
+      "36130268",
+      "33851412",
+      "38393316",
+      "34953399",
+      "40916623",
+      "29144791",
+      "29055842",
+      "37856764",
+      "42117066",
+      "33909150",
+      "37376830",
+      "31285374",
+      "30151257",
+      "41356525",
+      "30692096",
+      "40261491",
+      "40497451",
+      "40064251",
+      "39288655",
+      "38422006",
+      "41583482",
+      "38776551",
+      "40652318",
+      "39891700",
+      "34823319",
+      "31292272",
+      "40829965",
+      "38985229",
+      "40311467",
+      "39630159",
+      "31638937",
+      "34440647",
+      "29436178",
+      "38471464",
+      "39276497",
+      "33028695",
+      "35567574",
+      "36700211",
+      "40334308",
+      "32903444",
+      "33964449",
+      "41737205",
+      "41100766",
+      "34561876",
+      "41308359",
+      "41371509",
+      "34429613",
+      "41343101",
+      "39828587",
+      "38528657",
+      "41743737",
+      "39639373",
+      "41911343",
+      "36689222",
+      "41235954",
+      "24042191",
+      "38811811"
+    ],
+    "review": [
+      "39947084",
+      "31056702",
+      "34659255",
+      "29144791",
+      "40064251",
+      "38422006",
+      "40652318",
+      "39630159",
+      "41737205",
+      "41343101"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0895-6111(25)00008-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0895-6111(25)00008-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

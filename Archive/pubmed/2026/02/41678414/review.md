@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report that sequence-dependent DNA crookedness reduces bending stiffness, that a predictive model linking bending persistence length to sequence is validated by experimental data, and that base-pair inclination fluctuations and Lennard-Jones interactions in rings and major grooves, rather than total atom count, govern sequence-dependent bending flexibility
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, validation statistics, or software documentation were accessible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, experimental validation dataset, simulation parameters, and software repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful relationship between DNA sequence and bending elasticity, with a freely available predictive model. However, the evidence base is limited to a summary of findings without quantitative support, simulation methodology, or validation details. The mechanistic claims regarding inclination fluctuations and Lennard-Jones interactions are intriguing but cannot be assessed from the supplied material. The work may interest the biophysics and nucleic acid modeling communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in DNA biophysics, chromatin structure, and protein-DNA recognition would find the sequence-bending relationship relevant for understanding nucleosome positioning and transcription factor binding. Computational chemists developing coarse-grained or predictive models of DNA mechanics would also value the proposed model and its open-source implementation.
+- **Major strengths** The abstract addresses a well-recognized gap in connecting sequence to mechanical properties. The proposed predictive model with public software availability is a practical contribution. The mechanistic decomposition into inclination fluctuations and specific Lennard-Jones interactions offers a testable hypothesis beyond phenomenological correlation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the predictive model "was validated by extensive experimental data"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative validation metrics, dataset size, or comparison statistics are provided. The term "extensive" is undefined, and the abstract does not state which experimental measurements were used or how the model performance was evaluated.
+  - **Why it matters** Validation is the core evidence for the model's utility. Without specific metrics such as correlation coefficients, root-mean-square deviations, or error bounds, the claim cannot be independently assessed or reproduced.
+  - **Resolution test** Provide in the full manuscript a table or figure showing predicted versus measured persistence lengths for a defined set of sequences, with statistical measures and a description of the experimental sources.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** The abstract states that "fluctuation of base-pair inclination along DNA and local base pair Lennard-Jones interactions between atoms in rings and major grooves, rather than total atoms of base pair, play critical roles"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The causal or correlational nature of these relationships is unclear. The abstract does not specify how these factors were isolated, whether control simulations were performed, or how the "rather than" comparison was established.
+  - **Why it matters** The mechanistic claim distinguishes this work from purely phenomenological models. Without evidence of controlled comparisons or statistical significance, the claim may overreach the data.
+  - **Resolution test** In the full manuscript, show comparative simulations or regression analyses where inclination fluctuations and Lennard-Jones terms are varied independently, with effect sizes and significance tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that "extensive all-atom molecular dynamics simulations" were employed
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation length, force field, water model, salt conditions, temperature, or number of sequences are reported. The software link is mentioned but its contents are not described.
+  - **Why it matters** All-atom MD results for DNA bending are sensitive to force field parameters and sampling length. Without these details, the simulation evidence cannot be evaluated or reproduced.
+  - **Resolution test** Provide in the methods section the full simulation protocol, including software version, force field, equilibration and production times, and convergence checks for bending stiffness estimates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of crookedness
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "crookedness" is used without a formal definition or mathematical expression.
+  - **Required correction** Define crookedness explicitly, preferably with an equation or a reference to a prior publication, in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Sequence coverage
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how many or which types of sequences were simulated, nor whether the model applies to arbitrary sequences or a limited subset.
+  - **Required correction** Specify the sequence set used for simulation and validation, and state the model's applicability range.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Software description
+  - **Evidence pointer** GitHub link in abstract
+  - **Issue** The software is mentioned but its input requirements, output format, and dependencies are not described.
+  - **Required correction** Include a brief description of the software's functionality and requirements in the manuscript, and ensure the repository contains documentation and example inputs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation evidence), R1-M2 (mechanistic support), R1-M3 (simulation reproducibility)
+- **Assessment against Nature-style criteria** Originality is moderate, as sequence-dependent DNA bending has been studied, but the specific combination of crookedness-based prediction and mechanistic decomposition may offer a new angle. Scientific importance is potentially high for the biophysics community, but the abstract does not demonstrate broader significance beyond a specialized audience. Interdisciplinary readership is limited, as the work is primarily relevant to biophysics and computational chemistry. Technical soundness cannot be assessed from the abstract alone, given the absence of methods and validation details. Readability for nonspecialists is acceptable, but the undefined term "crookedness" and lack of context for persistence length measurements may hinder broader comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the core claims of validation and mechanistic causation require the full manuscript's quantitative evidence. I would be supportive if the technical concerns regarding validation metrics, simulation details, and mechanistic isolation are resolved in the full paper.
+
+## Risk / unsupported claims
+- The claim of validation by "extensive experimental data" is unsupported without specific metrics and dataset description.
+- The mechanistic claim that inclination fluctuations and Lennard-Jones interactions "play critical roles" is unsupported without comparative analyses.
+- The general applicability of the predictive model to arbitrary DNA sequences is unassessable from the abstract.
+- The software's functionality and reliability cannot be evaluated from the abstract alone.

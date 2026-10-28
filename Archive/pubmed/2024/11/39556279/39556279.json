@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "39556279",
+    "doi": "10.1007/s12035-024-04622-6",
+    "title": "Identification and Validation of Oxidative Stress-Related Hub Genes in Parkinson's Disease."
+  },
+  "content": {
+    "abstract": "Accumulating evidence suggests that oxidative stress plays a crucial role in the pathogenesis of Parkinson's disease (PD). The aims of this study were to identify oxidative stress-related hub genes, validate them through the construction of a diagnostic model, explore their interactions with miRNAs and transcription factors (TFs) and predict potential drug targets. Differentially expressed genes (DEGs) in the substantia nigra of PD patients were identified by analyzing a combination of datasets selected from the GEO database, including GSE7621, GSE20141, GSE49036, and GSE20163. The candidate genes associated with oxidative stress were screened by determining the overlap among the DEGs, oxidative stress-related genes (OSGs) and genes in key modules with the highest cor values identified via weighted gene coexpression network analysis (WGCNA). The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) databases were used to perform functional enrichment analysis of these candidate genes. The hub genes were identified via protein-protein interaction (PPI) analysis, and receiver operating characteristic (ROC) curves were constructed to assess the diagnostic value of each hub gene. Then, a diagnostic model was constructed via least absolute shrinkage and selection operator (LASSO) regression with the hub genes identified above, and the model was further validated in external validation datasets (GSE20292 and GSE20164). Gene-miRNA and gene-TF regulatory networks were predicted via the miRNet database, whereas candidate drugs were predicted via the Drug-Gene Interaction database. After analysis of the intersection of the 7975 DEGs, 434 OSGs, and 3582 genes identified through WGCNA, 76 candidate genes were identified. A total of 9 hub genes (JUN, KEAP1, SRC, GPX5, MMP9, TXN, MAPK3, GPX2, and IL1A) were identified via PPI and ROC curve analyses. A diagnostic model with the ability to reliably predict PD on the basis of the identified hub genes (AUC = 0.925) was constructed. Further analysis of these 9 genes revealed 64 targeted miRNAs, 35 TFs in regulatory networks and 86 potential therapeutic agents. Nine hub genes related to oxidative stress in the pathogenesis of PD were identified. These genes show strong diagnostic performance and could serve as therapeutic targets. These findings might facilitate the development of promising candidate biomarkers and potential disease-modifying therapies for PD.",
+    "keywords": [
+      "Biomarker",
+      "Diagnostic model",
+      "Oxidative stress",
+      "Parkinson's disease",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*Parkinson Disease/genetics/diagnosis",
+      "*Oxidative Stress/genetics",
+      "Humans",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps/genetics",
+      "MicroRNAs/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Reproducibility of Results",
+      "ROC Curve",
+      "Gene Ontology",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Lina",
+        "Chen, Deng",
+        "Wang, Xiangxiu",
+        "He, Chengqi"
+      ],
+      "short_names": [
+        "Zhu L",
+        "Chen D",
+        "Wang X",
+        "He C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Rehabilitation Medicine Center and Institute of Rehabilitation Medicine, West China Hospital, Sichuan University, Chengdu, 610041, China. angelinazhuzhu@163.com.",
+        "Key Laboratory of Rehabilitation Medicine in Sichuan Province, West China Hospital, Sichuan University, Chengdu, 610041, China. angelinazhuzhu@163.com.",
+        "Department of Neurology, West China Hospital, Sichuan University, Wai Nan Guo Xue Lane 37 #, Chengdu, Sichuan, 610041, China.",
+        "Rehabilitation Medicine Center and Institute of Rehabilitation Medicine, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Key Laboratory of Rehabilitation Medicine in Sichuan Province, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Rehabilitation Medicine Center and Institute of Rehabilitation Medicine, West China Hospital, Sichuan University, Chengdu, 610041, China. hxkfhcq2015@126.com.",
+        "Key Laboratory of Rehabilitation Medicine in Sichuan Province, West China Hospital, Sichuan University, Chengdu, 610041, China. hxkfhcq2015@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Lina",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Medicine Center and Institute of Rehabilitation Medicine, West China Hospital, Sichuan University, Chengdu, 610041, China. angelinazhuzhu@163.com.",
+          "Key Laboratory of Rehabilitation Medicine in Sichuan Province, West China Hospital, Sichuan University, Chengdu, 610041, China. angelinazhuzhu@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Deng",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, West China Hospital, Sichuan University, Wai Nan Guo Xue Lane 37 #, Chengdu, Sichuan, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiangxiu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Medicine Center and Institute of Rehabilitation Medicine, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+          "Key Laboratory of Rehabilitation Medicine in Sichuan Province, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "He, Chengqi",
+        "short_name": "He C",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Medicine Center and Institute of Rehabilitation Medicine, West China Hospital, Sichuan University, Chengdu, 610041, China. hxkfhcq2015@126.com.",
+          "Key Laboratory of Rehabilitation Medicine in Sichuan Province, West China Hospital, Sichuan University, Chengdu, 610041, China. hxkfhcq2015@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular neurobiology"
+    ],
+    "journal_abbrev": [
+      "Mol Neurobiol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/18 12:31",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [
+      "42541533",
+      "41675914",
+      "40593236",
+      "39633012"
+    ],
+    "refs": [
+      "38404789",
+      "37944015",
+      "37597078",
+      "37114961",
+      "37100862",
+      "36635346",
+      "35938039",
+      "35787838",
+      "35246670",
+      "33894193",
+      "32681666",
+      "32497457",
+      "32423817",
+      "31900358",
+      "31432604",
+      "30165873",
+      "29890337",
+      "29315581",
+      "28958159",
+      "28017782",
+      "26217195",
+      "25391693",
+      "24845678",
+      "24333264",
+      "24252804",
+      "23643800",
+      "23248626",
+      "23198691",
+      "22231698",
+      "22211691",
+      "21322017",
+      "21317550",
+      "21075540",
+      "20963433",
+      "20862500",
+      "20406884",
+      "19609719",
+      "18853169",
+      "18683046",
+      "18063832",
+      "14619979"
+    ],
+    "similar": [
+      "39556279",
+      "37100862",
+      "35278479",
+      "38701300",
+      "40245021",
+      "38272954",
+      "38062833",
+      "36635346",
+      "34536521",
+      "38051734",
+      "40186271",
+      "35731466",
+      "38885209",
+      "39496786",
+      "38755717",
+      "39506588",
+      "39142001",
+      "39284931",
+      "40229859",
+      "38978048",
+      "32276105",
+      "38527674",
+      "36777638",
+      "40161396",
+      "39391879",
+      "36624863",
+      "40108736",
+      "31987036",
+      "38268224",
+      "39673621",
+      "38852219",
+      "37649719",
+      "39875572",
+      "37250717",
+      "38626069",
+      "39586719",
+      "36440267",
+      "39422340",
+      "30083784",
+      "39377750",
+      "30776463",
+      "40263537",
+      "38453824",
+      "34284443",
+      "39552415",
+      "39342024",
+      "37418066",
+      "35773742",
+      "39125762",
+      "39049641",
+      "30365134",
+      "39670237",
+      "35938039",
+      "32210219",
+      "35473522",
+      "39467967",
+      "39473404",
+      "28415685",
+      "38509535",
+      "34367470",
+      "39176085",
+      "35128826",
+      "39086489",
+      "38691241",
+      "39403102",
+      "33376723",
+      "35558576",
+      "37691276",
+      "38957433",
+      "36856573",
+      "37179305",
+      "35016690",
+      "33640831",
+      "39699225",
+      "34722763",
+      "36148059",
+      "34218797",
+      "39833772",
+      "39344316",
+      "38749785",
+      "40241169",
+      "38831425",
+      "35620387",
+      "36291136",
+      "38073349",
+      "37033969",
+      "30937635",
+      "40024299",
+      "34215202",
+      "33941565",
+      "38863714",
+      "37063926",
+      "37659036",
+      "39876591",
+      "40082645",
+      "30602391",
+      "37089789",
+      "40309038",
+      "32728898",
+      "34861826"
+    ],
+    "review": [
+      "39556279"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12035-024-04622-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

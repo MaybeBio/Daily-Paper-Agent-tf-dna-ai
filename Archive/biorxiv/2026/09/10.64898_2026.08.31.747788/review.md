@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, author contributions, acknowledgements) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency of the reported evidence
+- **Shared manuscript claim summary** The authors report that IKK2/β directly phosphorylates the transcription factor Ets2, primarily at S295 located in the N-terminal region distal to the DNA binding domain. They propose that this phosphorylation induces electrostatic tethering of the disordered N-terminal region to the DNA-binding face of the DBD, thereby reducing DNA binding affinity. Evidence includes in-vitro kinase assays, deletion constructs, mass spectrometry, site-directed mutagenesis, MD simulations, and EMSA.
+- **Visible evidence base** Abstract, Introduction, Results sections (three subsections), Discussion, Author contributions, Acknowledgements. Figures referenced but not provided. Supplementary figures referenced but not provided.
+- **Missing materials affecting confidence** All figures and supplementary figures are referenced but not included in the provided material. No experimental methods section is provided. No statistical details, replicate numbers, or raw data are available. The mass spectrometry dataset and analysis parameters are not described. MD simulation parameters and validation metrics are not described. EMSA raw data and quantification procedures are not described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding cross-talk between IKK2 and Ets2, a transcription factor relevant to inflammatory signaling. The central claim that IKK2 phosphorylates Ets2 at S295 and that this negatively modulates DNA binding is plausible and could be of interest to the inflammation and transcription factor communities. However, the provided text is a results-only narrative with no methods, no figures, and no statistical detail. Several key claims are supported only by assertion or by references to materials that are not available for assessment. The computational and biochemical evidence cannot be independently evaluated. The manuscript is not currently established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying IKK2 substrates beyond the canonical NF-κB pathway, investigators interested in post-translational regulation of ETS family transcription factors, and those working on phosphorylation-mediated modulation of DNA binding by intrinsically disordered regions. The potential connection to inflammatory diseases such as IBD and asthma could attract translational researchers, though the manuscript does not yet provide functional or cellular data to support such relevance.
+- **Major strengths** The question is well motivated and builds on established literature regarding IKK2 substrates and Ets2 involvement in inflammation. The combination of biochemical, mass spectrometric, computational, and biophysical approaches is appropriate in principle. The identification of S295 as a candidate phosphorylation site distal to the DBD is a specific and testable claim. The use of both phosphomimetic and phosphoablative strategies, along with MD simulations, represents a reasonable multi-pronged approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that IKK2 phosphorylates Ets2 in-vitro and that this is confirmed by inhibitor studies and kinase-dead mutants.
+  - **Evidence pointer** Results section "IKK2 phosphorylates Ets2 in-vitro", Figures 1D-1G
+  - **Concern** The in-vitro kinase assay results are described in text but the actual data are not available. No information is provided regarding protein concentrations, reaction conditions, specific activity of IKK2, stoichiometry of phosphorylation, or whether phosphorylation was quantified. The inhibitor experiment is described as showing diminished phosphorylation as a function of inhibitor concentration, but no dose-response data, IC50 values, or replicate information are given. The kinase-dead and activation loop mutant experiments are mentioned but no data are shown.
+  - **Why it matters** The foundational claim that Ets2 is a direct IKK2 substrate rests entirely on these experiments. Without access to the actual data, the specificity and robustness of the phosphorylation cannot be assessed. Kinase assays are prone to false positives due to contaminating kinases or non-physiological conditions, and the text does not provide sufficient detail to rule these out.
+  - **Resolution test** Provide the actual kinase assay data including autoradiographs or phospho-specific signals, quantification from at least three independent experiments, dose-response data for the inhibitor, and side-by-side comparison of WT, kinase-dead, and activation loop mutant IKK2. Include information on the purity of recombinant proteins and controls for autophosphorylation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that mass spectrometry identified S295 as a prominent phosphorylation site with probability greater than 0.97, and that S295E mutation leads to enhanced phosphorylation.
+  - **Evidence pointer** Results section "IKK2 phosphorylates Ets2 predominantly at its N-terminal Serine Rich Region", Figures 2C-2E
+  - **Concern** The mass spectrometry data are described only as a list of seven serine residues with a probability threshold. No spectra, localization scores, precursor masses, or validation statistics are provided. The claim that S295E shows enhanced phosphorylation compared to WT is stated but the data are not shown. The interpretation that S295 phosphorylation primes multisite phosphorylation is speculative and not supported by any time-course or sequential phosphorylation experiment.
+  - **Why it matters** The identification of S295 as the key residue is central to the entire mechanistic model. Mass spectrometry-based phosphorylation site localization requires careful validation, especially for sites in disordered regions where false localization can occur. The enhanced phosphorylation of S295E is a key observation that supports the priming model, but without data it cannot be evaluated.
+  - **Resolution test** Provide the mass spectrometry results including annotated spectra, localization probabilities, and a table of all identified phosphosites with scores. Show the phosphorylation time-course or comparative phosphorylation of WT versus S295E with quantification from replicates. If the priming model is proposed, provide evidence for sequential phosphorylation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational evidence
+  - **Claim pointer** The authors claim that MD simulations show conformational constriction of the N-terminal region and electrostatic tethering of pS295 to DNA-binding basic residues of the DBD.
+  - **Evidence pointer** Results section "Phosphorylated S295 anchors the NTR to the DNA-binding face of the DBD", Figures 3A-3D, Figure S2
+  - **Concern** The MD simulation results are described qualitatively. No simulation parameters, force field, water model, salt concentration, simulation temperature, or equilibration protocol are provided. The RMSF analysis is mentioned but the figure is not available. The distance maps are described but no quantitative thresholds or statistical analysis are given. The claim of bimodal versus unimodal occupancy is based on visual inspection of occupancy distributions that are not shown. No error estimates or replicate simulations are described.
+  - **Why it matters** The mechanistic model of electrostatic tethering relies entirely on the MD simulations. Without access to the simulation details and the actual data, the robustness of the conformational conclusions cannot be assessed. The distinction between pS295 and S295E behavior is a key point, but the text itself acknowledges that S295E shows intermediate behavior, which complicates the interpretation that S295E is a faithful phosphomimetic.
+  - **Resolution test** Provide full simulation methods, including force field parameters, system setup, simulation length, and convergence criteria. Show RMSF plots with error bars from replicate simulations. Provide distance distribution plots with statistical comparisons between states. Show occupancy maps for all three states. If possible, provide independent validation of the tethering model using an orthogonal method such as SAXS or NMR.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data
+  - **Claim pointer** The authors claim that phosphorylated Ets2 shows reduced DNA binding with a Kd of approximately 0.9 µM compared to 0.45 µM for unphosphorylated Ets2, and that S295E shows cooperative DNA binding.
+  - **Evidence pointer** Results section "IKK2 mediated phosphorylation of Ets2 modulates DNA binding", Figures 4A-4B
+  - **Concern** The EMSA data are described with Kd values but no binding curves, no error estimates, no replicate numbers, and no statistical analysis are provided. The claim of cooperativity for S295E is based on an unspecified observation. The comparison between P-Ets2 and S295E is used to argue that S295 phosphorylation is the primary driver of reduced binding, but the text also notes that P-Ets2 is pan-phosphorylated, meaning other sites are modified. The conclusion that the similar Kd values prove S295 is the main contributor is not logically sound without additional controls.
+  - **Why it matters** The functional conclusion of the manuscript, that phosphorylation at S295 negatively modulates DNA binding, depends on the EMSA data. The Kd values are presented without any measure of uncertainty. The cooperativity claim is particularly important because it is used to distinguish the mechanism of S295E from P-Ets2, but no quantitative Hill coefficients or binding models are provided.
+  - **Resolution test** Provide full binding curves with fitted Kd values and 95% confidence intervals from at least three independent experiments. Show Hill coefficients for all conditions. Include a control with a phosphoablative S295A mutant to confirm that the effect is specific to S295. If cooperativity is claimed, provide a quantitative binding model and statistical comparison to a non-cooperative model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that S295 substitution to phosphomimetic glutamate "triggers further phosphorylation of Ets2" but does not specify which additional sites are phosphorylated or how this was determined.
+  - **Required correction** Specify the additional phosphorylation sites identified in the S295E background and clarify whether this was determined by mass spectrometry or by other means.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results section "IKK2 phosphorylates Ets2 predominantly at its N-terminal Serine Rich Region"
+  - **Evidence pointer** Figure 2B and text
+  - **Issue** The text states that the NTR was more efficiently phosphorylated than the DBD or AI-DBD, but also states that two phosphosites (S383 and S418) were located in the DBD. The relative stoichiometry of phosphorylation at NTR versus DBD sites is not discussed.
+  - **Required correction** Clarify whether the DBD phosphorylation is substoichiometric compared to NTR phosphorylation and discuss the potential functional relevance of DBD phosphorylation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion states that the mechanism represents a "structurally characterized example" of disordered region phosphorylation modulating a structured domain, but the structural characterization is based solely on MD simulations without experimental structural validation.
+  - **Required correction** Soften the claim to indicate that the mechanism is supported by computational modeling and biochemical data, and note the absence of experimental structural data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "IKK2 phosphorylates Ets2 in-vitro"
+  - **Evidence pointer** Figure 1A-1C
+  - **Issue** The sequence-based screening for IKK2 motifs is described but the actual sequence alignment and the Weblogo output are not shown. The criteria for identifying the candidate region are not specified.
+  - **Required correction** Provide the sequence alignment and specify the scoring criteria used to identify the candidate IKK2 phosphorylation motif.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion introduces the concept of cooperativity for S295E binding but does not explain the mechanistic basis or provide a testable hypothesis for this observation.
+  - **Required correction** Provide a more detailed mechanistic explanation for the observed cooperativity or explicitly state that the mechanism is currently unknown.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of all primary data, methods, and statistical information means that none of the central claims can be independently verified from the provided material.
+- **Assessment against Nature-style criteria** Originality: The claim of a direct IKK2-Ets2 connection is novel and could be of interest, but the broader concept of phosphorylation-mediated regulation of ETS factors is well established. Scientific importance: Potentially significant for understanding IKK2 substrate diversity and Ets2 regulation in inflammation, but the manuscript does not yet demonstrate physiological relevance. Interdisciplinary readership: The combination of biochemistry, mass spectrometry, and MD simulation could appeal to multiple communities, but the current presentation is too narrow and lacks the broader context that would draw non-specialists. Technical soundness: Cannot be assessed from the provided material. No methods, no data, no statistics. Readability for nonspecialists: The text is generally clear but relies heavily on domain-specific terminology without sufficient explanation. The absence of figures makes the narrative difficult to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a potentially interesting question and the proposed mechanism is plausible, but the complete absence of primary data, methods, and statistical analysis prevents any meaningful evaluation of the claims. The authors should be invited to resubmit with full methods, all primary data, and appropriate statistical analyses.
+
+## Risk / unsupported claims
+- The claim that IKK2 directly phosphorylates Ets2 is unsupported without the actual kinase assay data and appropriate controls.
+- The identification of S295 as the primary phosphorylation site is unsupported without the mass spectrometry spectra and localization scores.
+- The claim that S295 phosphorylation primes multisite phosphorylation is speculative and not supported by any experimental evidence in the provided text.
+- The MD simulation-based model of electrostatic tethering is unsupported without simulation details, validation, and quantitative analysis.
+- The Kd values for DNA binding are presented without error estimates or replicate information and cannot be evaluated.
+- The claim of cooperative DNA binding by S295E is unsupported without quantitative binding models.
+- The conclusion that reduced DNA binding is primarily due to S295 phosphorylation is not logically established, as P-Ets2 is pan-phosphorylated and other sites may contribute.
+- The statement that the mechanism is "structurally characterized" is overstated given the absence of experimental structural data.

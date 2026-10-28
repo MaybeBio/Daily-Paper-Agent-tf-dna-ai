@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40640612",
+  "title": "PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations.",
+  "authors": "Yu, Hengshi; Qian, Weizhou; Song, Yuxuan; Welch, Joshua D",
+  "journal": "Molecular systems biology",
+  "published_date": "2025-07-11",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度生成模型预测单细胞对化学/遗传扰动的响应，虽涉及GATA1-DNA结合结构验证，但核心是基因表达预测而非TF-DNA互作建模，方法不聚焦于结合机制。",
+  "abstract": "Chemical and genetic perturbations, such as those induced by small molecules and CRISPR, effect complex changes in the molecular states of cells. Despite advances in high-throughput single-cell perturbation screening technology, the space of possible perturbations is far too large to measure exhaustively. Here, we introduce PerturbNet, a flexible deep generative model designed to predict the distribution of cell states induced by unseen chemical or genetic perturbations. PerturbNet accurately predicts gene expression changes in response to unseen small molecules based on their chemical structures while also accounting for key covariates such as dosage and cell type. Moreover, PerturbNet accurately predicts the distribution of single-cell gene expression states following CRISPR activation or CRISPR interference by leveraging gene functional annotations. Our approach significantly outperforms previous methods, particularly for predicting the effects of perturbing completely unseen genes. Finally, we demonstrate for the first time that amino acid sequence embeddings can be used to predict gene expression changes induced by missense mutations. We use PerturbNet to predict the effects of all point mutations in GATA1 and nominate variants that significantly impact the cell state distribution of human hematopoietic stem cells. Using a crystal structure of GATA1 bound to DNA, we validate that these large-effect variants occur in the core DNA-contact region of GATA1 and tend to involve large changes in amino acid side-chain volume.",
+  "abstract_zh": "化学和遗传扰动，如由小分子和CRISPR诱导的那些，会在细胞的分子状态中引发复杂变化。尽管高通量单细胞扰动筛选技术取得了进展，但可能的扰动空间过于庞大，无法进行全面测量。在此，我们介绍了PerturbNet，一种灵活的深度生成模型，旨在预测由未见过的化学或遗传扰动诱导的细胞状态分布。PerturbNet能够基于小分子的化学结构准确预测其对未见小分子的基因表达变化，同时考虑剂量和细胞类型等关键协变量。此外，PerturbNet通过利用基因功能注释，准确预测CRISPR激活或CRISPR干扰后的单细胞基因表达状态分布。我们的方法显著优于先前的方法，特别是在预测完全未见基因扰动效应方面。最后，我们首次证明氨基酸序列嵌入可用于预测由错义突变诱导的基因表达变化。我们使用PerturbNet预测GATA1中所有点突变的影响，并提名显著影响人类造血干细胞细胞状态分布的变异。利用GATA1与DNA结合的晶体结构，我们验证了这些大效应变异发生在GATA1的核心DNA接触区域，并倾向于涉及氨基酸侧链体积的大变化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40640612/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40640612/",
+  "paper_page_path": "papers/pubmed/40640612/index.html"
+}

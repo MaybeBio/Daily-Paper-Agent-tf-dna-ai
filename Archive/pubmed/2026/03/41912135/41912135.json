@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41912135",
+    "doi": "10.1016/j.canlet.2026.218465",
+    "title": "HOX code-based stratification reveals RUNX1T1-HDAC reprogramming as a targetable driver of lineage plasticity across cancers."
+  },
+  "content": {
+    "abstract": "Cancer remains a leading cause of death worldwide, with lineage plasticity emerging as a hallmark that drives therapy resistance and tumor progression by enabling cancer cells to alter identity and evade targeted therapies. Although genomic and transcriptomic aberrations correlate with lineage plasticity, the absence of scalable cross-cancer markers to rapidly identify plastic subtypes has limited predictive utility. Homeobox (HOX) genes encode transcription factors that define tissue identity through distinct expression patterns, or HOX codes, within specific lineages. By analyzing multi-omics data encompassing 39 HOX genes across more than 80,000 RNA-seq samples across 23 cancer types spanning 114 cancer subtypes, we found that HOX code expression robustly stratifies lineage-constrained and lineage-plastic states at a cross-cancer level. This framework revealed previously unrecognized lineage-plastic subtypes in prostate cancer, lung cancer, and acute myeloid leukemia (AML), each displaying distinct HOX code divergence compared to non-plastic counterparts. Differential expression analysis across these representative malignancies identified RUNX1T1 as a consistent regulator associated with HOX-defined plastic states. We validated RUNX1T1 upregulation in bulk and single-cell RNA-seq from extensive preclinical and clinical cohorts and demonstrated that RUNX1T1 is functionally required for lineage-plastic programs in prostate cancer models. AI-based structural modeling and co-immunoprecipitation established the NCOR/HDAC3 complex as a critical binding partner of RUNX1T1. CUT&RUN profiling revealed that RUNX1T1 remodels chromatin by globally reducing active enhancer marks, thereby repressing lineage-defining differentiation programs and reshaping HOX positional identity. Selective pharmacologic inhibition of HDAC3 or targeted gene silencing via lipid nanoparticles suppressed the growth of lineage-plastic cancer cells, uncovering a therapeutically actionable vulnerability. Together, these findings establish RUNX1T1 as a cross-lineage regulator of HOX code-defined plasticity and identify the RUNX1T1-HDAC axis as a targetable mechanism underlying cancer lineage plasticity.",
+    "keywords": [
+      "AML",
+      "Artificial intelligence",
+      "HDAC",
+      "HOX code",
+      "Lineage plasticity",
+      "Lung cancer",
+      "Nanoparticle",
+      "Prostate cancer",
+      "RUNX1T1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Male",
+      "Gene Expression Regulation, Neoplastic",
+      "*Histone Deacetylases/metabolism/genetics",
+      "Cell Lineage/genetics",
+      "*Transcription Factors/genetics/metabolism",
+      "Cell Line, Tumor",
+      "*Genes, Homeobox",
+      "*Neoplasms/genetics/pathology",
+      "Prostatic Neoplasms/genetics/pathology",
+      "Homeodomain Proteins/genetics",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Yuyin",
+        "Cheng, Siyuan",
+        "Zhang, Catherine Yijia",
+        "Jin, Xiao",
+        "Li, Longjun",
+        "Shin, Ha Eun",
+        "Alrefai, Assma",
+        "Luo, Anfeng",
+        "Xu, Yaru",
+        "Kim, Isaac Yi",
+        "Mu, Ping"
+      ],
+      "short_names": [
+        "Jiang Y",
+        "Cheng S",
+        "Zhang CY",
+        "Jin X",
+        "Li L",
+        "Shin HE",
+        "Alrefai A",
+        "Luo A",
+        "Xu Y",
+        "Kim IY",
+        "Mu P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA.",
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA.",
+        "Department of Bioengineering, University of Illinois at Urbana-Champaign Grainger College of Engineering, Champaign, IL, 61820, USA.",
+        "Department of Population Health Sciences, Weill Cornell Medicine, Cornell University, New York, NY, 10065, USA.",
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA.",
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA.",
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA.",
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA.",
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA.",
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA; Yale Cancer Center, Yale University School of Medicine, New Haven, CT, 06511, USA.",
+        "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA; Yale Cancer Center, Yale University School of Medicine, New Haven, CT, 06511, USA; Department of Pathology, Yale University School of Medicine, New Haven, CT, 06511, USA. Electronic address: ping.mu@yale.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Yuyin",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Siyuan",
+        "short_name": "Cheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Catherine Yijia",
+        "short_name": "Zhang CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Illinois at Urbana-Champaign Grainger College of Engineering, Champaign, IL, 61820, USA."
+        ]
+      },
+      {
+        "full_name": "Jin, Xiao",
+        "short_name": "Jin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Health Sciences, Weill Cornell Medicine, Cornell University, New York, NY, 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Longjun",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Shin, Ha Eun",
+        "short_name": "Shin HE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Alrefai, Assma",
+        "short_name": "Alrefai A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Anfeng",
+        "short_name": "Luo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Yaru",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Isaac Yi",
+        "short_name": "Kim IY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA; Yale Cancer Center, Yale University School of Medicine, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Mu, Ping",
+        "short_name": "Mu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Yale University School of Medicine, New Haven, CT, 06511, USA; Yale Cancer Center, Yale University School of Medicine, New Haven, CT, 06511, USA; Department of Pathology, Yale University School of Medicine, New Haven, CT, 06511, USA. Electronic address: ping.mu@yale.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer letters"
+    ],
+    "journal_abbrev": [
+      "Cancer Lett"
+    ],
+    "pub_date": "2026 Jun 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/31 00:53",
+    "fetched_at": "2026-10-01 17:34:01"
+  },
+  "links": {
+    "cites": [
+      "42573111"
+    ],
+    "refs": [],
+    "similar": [
+      "41912135",
+      "41280130",
+      "40488132",
+      "39418984",
+      "40454483",
+      "42001796",
+      "35328612",
+      "31260412",
+      "34768865",
+      "38778150",
+      "38968122",
+      "41222115",
+      "42014520",
+      "33084222",
+      "40725480",
+      "38851846",
+      "41566241",
+      "17404613",
+      "29844131",
+      "41223330",
+      "41764551",
+      "42249833",
+      "41416996",
+      "16648484",
+      "39117665",
+      "28607179",
+      "15895411",
+      "17881901",
+      "39614990",
+      "25625846",
+      "41484780",
+      "27729732",
+      "41917876",
+      "22723371",
+      "40506247",
+      "42146571",
+      "39743630",
+      "33531604",
+      "41591383",
+      "30604856",
+      "31825998",
+      "39526457",
+      "29224413",
+      "41359169",
+      "31050646",
+      "16963837",
+      "38591846",
+      "24499138",
+      "37995683",
+      "10374871",
+      "37850574",
+      "26867567",
+      "41710887",
+      "25994132",
+      "42292428",
+      "32553763",
+      "38654072",
+      "10049576",
+      "39138733",
+      "27497790",
+      "41534317",
+      "23937390",
+      "35748745",
+      "34934057",
+      "26431566",
+      "42166442",
+      "27196083",
+      "27833659",
+      "20479932",
+      "40633623",
+      "29760161",
+      "40847555",
+      "25644061",
+      "41984598",
+      "41113409",
+      "41720768",
+      "23820980",
+      "41716413",
+      "27770540",
+      "30266798",
+      "33821796",
+      "2577240",
+      "38453907",
+      "28484075",
+      "24996520",
+      "19428253",
+      "41006020",
+      "8977633",
+      "17855634",
+      "11046157",
+      "29243324",
+      "24079712",
+      "40838977",
+      "33539429",
+      "38819630",
+      "31363002",
+      "19362090",
+      "38932701",
+      "33785741",
+      "39825401"
+    ],
+    "review": [
+      "41912135",
+      "41222115",
+      "42014520",
+      "17881901",
+      "39614990",
+      "27729732",
+      "42292428",
+      "23937390",
+      "26431566",
+      "40847555",
+      "38453907",
+      "24996520",
+      "19428253"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-3835(26)00228-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0304-3835(26)00228-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

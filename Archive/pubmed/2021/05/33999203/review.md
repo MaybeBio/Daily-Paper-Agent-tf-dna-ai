@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific and technical claims as presented in the manuscript, including abstract, introduction, methods, web server description, use case, and conclusion
+- **Shared manuscript claim summary** The manuscript describes the PredictProtein web server, operational since 1992, which provides protein structure and function predictions. It reports recent updates including new prediction methods (goPredSim for Gene Ontology, ProtBertSec for secondary structure, ProNA2022 for binding residues), a switch to MMseqs2 for faster sequence searches, infrastructure migration to LCSB, and improved user interface. The authors claim these updates maintain or improve prediction quality while reducing runtime, and demonstrate utility through a SARS-CoV-2 nucleoprotein case study.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Web Server section, Use Case, Conclusion, Data Availability, Funding, Acknowledgements. No figures, tables, or supplementary materials were provided.
+- **Missing materials affecting confidence** Figures 1 and 2, Supplementary Figures S1 and S2, Supplementary Tables S1 and S2, Supplementary Methods, and all referenced performance evaluation details (e.g., datasets, benchmarks, statistical analyses) are not available. This limits verification of quantitative claims and the use case demonstration.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a long-standing and widely used web server for protein sequence analysis, with clear value to the community. The reported updates, particularly the integration of embedding-based methods and the runtime improvements from MMseqs2, are relevant and timely. However, the manuscript is largely descriptive, and several key claims regarding prediction performance, runtime improvements, and the use case demonstration cannot be fully assessed without the missing figures, tables, and supplementary data. The evidence base provided is insufficient to establish the scientific case for the claimed improvements, though the resource itself is likely of interest.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or using protein structure and function prediction tools; experimental biologists seeking accessible, integrated prediction resources for uncharacterized proteins; researchers interested in the application of protein language model embeddings to practical prediction tasks; and developers of web-based bioinformatics infrastructure.
+- **Major strengths** The manuscript documents a unique, long-running resource with demonstrated community uptake. The integration of embedding-based methods alongside traditional evolutionary information-based approaches is forward-looking. The reported runtime reduction via MMseqs2 is practically significant for users. The use case on SARS-CoV-2 nucleoprotein is timely and illustrates real-world applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that goPredSim achieved Fmax values of 37 ± 2%, 52 ± 2%, and 58 ± 2% for BPO, MFO, and CCO, respectively, replicating CAFA3 conditions, and that it "appeared to reach even slightly higher values" on a newer test set confirmed by CAFA4.
+  - **Evidence pointer** Materials and Methods, "New: goPredSim embedding-based transfer of Gene Ontology (GO)" section; location not provided
+  - **Concern** The performance claims for goPredSim are presented without any supporting data in the provided text. No details are given on the evaluation dataset, the comparison baselines, the statistical significance of the differences, or the CAFA4 confirmation. The phrase "appeared to reach" is vague and does not constitute a rigorous result.
+  - **Why it matters** The central value proposition of adding goPredSim to PredictProtein is that it provides accurate GO predictions. Without a clear, quantitative, and statistically sound evaluation, the claim that this method is "well-validated" and suitable for inclusion is not established.
+  - **Resolution test** Provide the full evaluation details, including dataset construction, baseline comparisons, error bars, and statistical tests. Show the CAFA4 results explicitly. If the performance is not superior to existing methods, clarify the specific advantage of goPredSim (e.g., speed, coverage).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that ProtBertSec reached Q3 = 76 ± 1.5% on a CASP12 hold-out set, which is "on-par with other MSA-based methods" despite not using MSAs.
+  - **Evidence pointer** Materials and Methods, "New: ProtBertSec secondary structure prediction" section; location not provided
+  - **Concern** The single accuracy number is insufficient to support the claim of being "on-par" with MSA-based methods. No comparison set, statistical analysis, or details on the hold-out set construction are provided. The claim that this performance is achieved without MSAs is interesting but requires a more thorough benchmarking against relevant state-of-the-art methods.
+  - **Why it matters** The claim that a non-MSA method matches MSA-based methods is significant and would be of interest to the field. However, without a rigorous comparison, the claim is unsubstantiated and could mislead users about the method's capabilities.
+  - **Resolution test** Provide a detailed benchmark against a representative set of MSA-based and non-MSA secondary structure prediction methods on the same test set, including per-class accuracies and statistical significance testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that ProNA2020 correctly predicted 77 ± 1% of proteins binding DNA, RNA, or protein, and 69 ± 1%, 81 ± 1%, and 80 ± 1% of binding residues for protein-, RNA-, and DNA-binding proteins, respectively.
+  - **Evidence pointer** Materials and Methods, "New: ProNA2020 protein–protein, protein–RNA and protein–DNA" section; location not provided
+  - **Concern** As with the other new methods, the performance figures are presented without any evaluation context. No dataset description, baseline comparison, or error analysis is given. The distinction between the binary and per-residue tasks is clear, but the evaluation methodology is absent.
+  - **Why it matters** The utility of ProNA2020 for users depends on its accuracy relative to existing tools. Without a proper evaluation, the claim that it is a valuable addition to PredictProtein is not supported.
+  - **Resolution test** Provide a detailed description of the training and evaluation datasets, the baseline methods compared, and the statistical significance of the reported accuracies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that using MMseqs2 reduced runtime five-fold "apparently without lowering performance of prediction methods."
+  - **Evidence pointer** Abstract; Materials and Methods, "New: MMseqs2 speedy evolutionary information" section; location not provided
+  - **Concern** The claim of a five-fold runtime reduction is not quantified with actual timings. More critically, the phrase "apparently without lowering performance" is not a rigorous statement. No evidence is provided to show that the MSAs and PSSMs generated by the new MMseqs2-based pipeline are of equivalent quality to those from the previous pipeline, or that downstream prediction accuracy is unchanged.
+  - **Why it matters** The switch to MMseqs2 is a major infrastructure change. If the resulting evolutionary information is subtly different, it could affect the accuracy of all downstream methods that rely on it. The claim of no performance loss is essential but currently unsupported.
+  - **Resolution test** Provide a direct comparison of MSA/PSSM quality and downstream prediction accuracy (e.g., for secondary structure, solvent accessibility) between the old and new pipelines on a benchmark dataset. Report actual runtime measurements.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The use case claims that PredictProtein predictions on SARS-CoV-2 nucleoprotein are supported by experimental data, including an NMR structure (PDB 7ACT) that "supports the predicted RNA-binding site."
+  - **Evidence pointer** Use Case section; Figures 1 and 2 (not provided); location not provided
+  - **Concern** The use case is presented as a demonstration of the server's utility, but the supporting figures are not available. The claim that the NMR structure supports the prediction is qualitative and cannot be verified. The statement that SNAP2 predictions "reinforce the hypothesis" is also not quantitatively supported.
+  - **Why it matters** The use case is intended to show real-world applicability. Without the figures and a more rigorous comparison between predictions and experimental data, the demonstration is unconvincing.
+  - **Resolution test** Provide the figures and a quantitative comparison between predicted binding residues and the experimental structure (e.g., distance-based overlap metrics). Clarify the criteria for "support."
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph; location not provided
+  - **Issue** The phrase "seeded PredictProtein (PP) at the European Molecular Biology Laboratory (EMBL) in 1992 (9), the first fully automated, query-driven Internet server providing evolutionary information and structure prediction for any protein" is a long and complex sentence that may be difficult for nonspecialists to parse.
+  - **Required correction** Consider splitting this sentence into shorter, clearer statements, e.g., "PredictProtein (PP) was seeded at EMBL in 1992. It was the first fully automated, query-driven Internet server to provide evolutionary information and structure prediction for any protein."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "PredictProtein (PP) provides" section
+  - **Evidence pointer** Materials and Methods, first paragraph; location not provided
+  - **Issue** The text states that MSAs and PSSMs are computed by "a combination of pairwise BLAST, PSI-BLAST, and MMseqs2." The exact pipeline is unclear. Are these methods run in parallel, sequentially, or in some other configuration? How are their outputs combined?
+  - **Required correction** Provide a brief description of the pipeline architecture, e.g., "MSAs are first generated by MMseqs2, which seeds a PSI-BLAST search. Pairwise BLAST is used for initial sequence retrieval."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Use Case section
+  - **Evidence pointer** Use Case section; location not provided
+  - **Issue** The use case text is dense and assumes familiarity with bioinformatics concepts (e.g., "GO:0003723; ECO:0000213"). Nonspecialist readers may struggle to understand the significance of the predictions.
+  - **Required correction** Briefly explain the relevance of the predicted terms and the evidence codes, or provide a link to a glossary.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Web Server, "PPcache, backend and programmatic access" section
+  - **Evidence pointer** Web Server section; location not provided
+  - **Issue** The text states that "Users submitting sequences for which results were over the last two years obtain results immediately." This sentence is grammatically incomplete and unclear.
+  - **Required correction** Rewrite to "Users submitting sequences for which results were computed within the last two years obtain results immediately."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion; location not provided
+  - **Issue** The claim that "the sequence-structure gap might be bridged in the near future (67)" is speculative and not directly relevant to the manuscript's main contributions.
+  - **Required correction** Consider removing this speculative statement or providing a brief justification with a reference.
+- **Technical failings that need to be addressed before the case is established** The lack of evaluation data for all three new methods (goPredSim, ProtBertSec, ProNA2020) is a critical failing. The runtime improvement claim is not quantified. The use case demonstration is incomplete without figures. These issues must be resolved for the manuscript's claims to be credible.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript describes incremental updates to an existing resource rather than a fundamentally new concept. The integration of embedding-based methods into a long-standing server is a useful step, but not highly original.
+  - **Scientific importance** The PredictProtein server is a valuable community resource, and its continued operation and improvement are important. However, the scientific importance of the specific methodological updates is moderate, as they largely apply existing techniques.
+  - **Interdisciplinary readership** The manuscript will primarily appeal to bioinformaticians and computational biologists. Experimental biologists may find the resource useful, but the manuscript's technical focus may limit broader appeal.
+  - **Technical soundness** The technical soundness cannot be fully assessed due to missing evaluation data. The claims of performance and runtime improvements are not substantiated.
+  - **Readability for nonspecialists** The manuscript is generally readable but includes some dense technical sections and jargon that may be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a useful resource, but the core claims of improved performance and maintained accuracy are not supported by the available data. Major revisions are required to provide the missing evaluations and clarifications.
+
+## Risk / unsupported claims
+- The claim that goPredSim "appeared to reach even slightly higher values" on a newer test set is unsupported and vague.
+- The claim that ProtBertSec is "on-par with other MSA-based methods" is unsupported without a detailed benchmark.
+- The claim that the MMseqs2-based pipeline does not lower prediction performance is unsupported.
+- The claim that the NMR structure (PDB 7ACT) "supports the predicted RNA-binding site" is unverifiable without the figure and a quantitative comparison.
+- The claim that PredictProtein is "the oldest prediction Internet server" is presented as fact but is not substantiated with a comparative analysis.
+- The claim that the server is "queried monthly by over 3,000 users in 2020" is presented without a clear definition of "user" or methodology for counting.

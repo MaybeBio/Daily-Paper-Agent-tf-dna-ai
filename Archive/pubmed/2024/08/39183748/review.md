@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity based on the supplied text; no raw data, figures, or supplementary tables were available for independent verification
+- **Shared manuscript claim summary** The authors present a multi-omic epigenomic atlas of rhesus macaque prefrontal cortex across seven developmental stages (E50 to PY20), integrating Hi-C, DNase-seq, ChIP-seq, DNA methylation, and RNA-seq. They report stage-specific coordination of chromatin state dynamics, bivalent promoter priming of neurodevelopmental genes, identification of a basal radial glia-associated cis-regulatory module enriched in young genes and sex differentiation genes, super-enhancer enrichment of schizophrenia risk variants, and aging-associated loss of distal chromatin interactions and H3K27me3 with transposon activation.
+- **Visible evidence base** Results text, figure callouts (Fig. 1a–k, Fig. 2a–g, Fig. 3a–f, Fig. 4a–h, Fig. 5a–j, Fig. 6a–f), supplementary figure callouts (Fig. S1–S10), table callouts (Tables S1–S12), methods summary
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, raw data, analysis scripts, detailed methods, and statistical reporting details; no access to the deposited data (GSA CRA011791) or GitHub repository was possible
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially valuable resource: a multi-dimensional epigenomic atlas of the rhesus macaque prefrontal cortex spanning development and aging. The breadth of data generation is commendable, and several reported findings, such as bivalent promoter priming and aging-associated chromatin changes, are of interest to the neuroscience and epigenomics communities. However, the current text does not provide sufficient methodological detail, quantitative support, or statistical rigor to fully evaluate the strength of the central claims. Several conclusions, particularly those regarding bivalent promoter dynamics, super-enhancer disease enrichment, and the functional validation of the DBN1 cis-regulatory element, require additional evidence and clearer presentation. The manuscript would benefit from more precise descriptions of analytical approaches, effect sizes, and control analyses.
+- **Who would be interested in the results, and why** Researchers studying primate brain development and evolution, epigenomics of neurodevelopmental and neuropsychiatric disorders, chromatin architecture in aging, and those using non-human primate models as translational bridges to human brain biology. The resource value of the dataset itself will attract computational biologists and genomics researchers.
+- **Major strengths** 1) The study addresses an important gap by profiling multiple epigenomic layers in a primate brain across a wide developmental and aging timeline. 2) The integration of Hi-C, DNase-seq, ChIP-seq, methylation, and RNA-seq in the same tissue is a significant technical undertaking. 3) The identification of a bRG-associated cis-regulatory module and its link to young genes and sex differentiation is a novel and thought-provoking observation. 4) The functional validation of a conserved cis-regulatory element for DBN1 using cortical organoids adds a causal dimension beyond correlative epigenomic analysis. 5) The aging-related findings, particularly the loss of distal interactions and H3K27me3 decline with transposon activation, connect to broader themes in aging biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Statistical rigor
+  - **Claim pointer** The authors claim that "the dynamics of epigenetic signals are most pronounced around the birth stage from P0 to P4M stages" and that this is "unexpectedly" decoupled from gene expression dynamics, which show an "hourglass" pattern with the lowest rate around birth.
+  - **Evidence pointer** Results section "Epigenetic states of cis-regulatory elements are involved in the regulation of PFC development", Fig. 1j, Fig. S6a
+  - **Concern** The claim of a decoupling between epigenetic and transcriptional dynamics around birth is central to the paper's narrative, but the text does not provide the quantitative basis for this conclusion. How was "dynamic rate" defined and calculated for each data type? What statistical test was used to compare the timing of peak epigenetic change versus peak transcriptional change? The "hourglass" pattern for gene expression is mentioned but no statistical support is given. Without a clear, comparable metric across data types and a formal test of the temporal offset, this claim is not established.
+  - **Why it matters** This decoupling is presented as a key insight into how epigenetic states prime future gene expression programs. If the effect is not robustly quantified, the central interpretive framework of the paper is weakened.
+  - **Resolution test** Provide a clear definition of the dynamic rate metric for each data type, show the distribution of these rates across stages, and perform a formal statistical comparison (e.g., permutation test or mixed-effects model) to demonstrate that the peak of epigenetic change significantly precedes or differs from the peak of transcriptional change.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Interpretive validity
+  - **Claim pointer** The authors state that "Schizophrenia-associated single nucleotide polymorphisms are more enriched in super enhancers (SEs) than typical enhancers, suggesting that SEs play an important role in neural network wiring."
+  - **Evidence pointer** Results section "The formation of super enhancers is associated with neural network wiring", Fig. 4d
+  - **Concern** The enrichment analysis of GWAS variants in SEs versus typical enhancers is reported without key methodological details. Which GWAS dataset was used? How were SEs defined and matched to typical enhancers for the comparison? Was LD-based regression or a simple overlap approach used? What were the effect sizes and confidence intervals? The claim that this enrichment "suggests" a role in neural network wiring is also an interpretive leap, as SEs are cell-type-specific and the bulk tissue data may not reflect the relevant cell types for schizophrenia risk.
+  - **Why it matters** This is one of the few disease-relevant claims in the paper and is likely to attract attention. If the enrichment analysis is not rigorously controlled, the conclusion could be misleading.
+  - **Resolution test** Provide full details of the GWAS data, the SE definition, the null model for enrichment, and the statistical significance with effect sizes. Consider stratifying by cell-type-specific SE activity or using a more conservative LD-aware approach. Temper the interpretive claim regarding neural network wiring unless direct functional evidence is provided.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The authors claim that "the loss of distal chromatin interaction and H3K27me3 signal are hallmarks of PFC aging, which are associated with abnormal expression of aging-related genes and transposon activation, respectively."
+  - **Evidence pointer** Results section "Changes in chromatin structure during brain aging", Fig. 6a–f, Fig. S10
+  - **Concern** The aging analysis compares only two time points (PY4.5 and PY20), which limits the ability to distinguish aging-related changes from developmental maturation or individual variation. The text does not report the number of biological replicates per stage for each assay, nor does it describe how confounding factors (e.g., post-mortem interval, RNA quality) were handled. The association between H3K27me3 loss and transposon activation is presented as causal ("associated with"), but no mechanistic evidence is provided. The statistical framework for identifying "hallmarks" is not described.
+  - **Why it matters** Aging is a gradual process, and a two-point comparison is weak evidence for "hallmarks." The transposon activation claim has broad implications and requires more careful support.
+  - **Resolution test** Include additional age points if available, or clearly acknowledge the limitation of a two-point comparison. Report replicate numbers and quality metrics. For the H3K27me3-transposon link, provide direct evidence of de-repression (e.g., correlation at individual loci, or experimental validation) and avoid causal language without mechanistic support.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity / Overreach
+  - **Claim pointer** The authors state that "the bRG-associated cis-element module" is enriched in genes involved in sex differentiation, and that "SRY and SOX9, involved in male sex development, both exhibit active epigenetic signals at the E50 and P0 stages."
+  - **Evidence pointer** Results section "Regulatory modules of NPCs during neurogenesis", Fig. 2f–g, Fig. S7d–e
+  - **Concern** The connection between bRG development and sex differentiation is intriguing but the text does not explain the biological rationale or provide any functional validation. The observation that SRY and SOX9 have active signals is descriptive. The authors do not address whether the samples were sex-matched or whether the observed signals could be confounded by the sex of the animals. The claim that this supports a link between brain size evolution and sex differentiation is speculative.
+  - **Why it matters** This is a novel and potentially important observation, but without addressing sex as a variable and providing a mechanistic hypothesis, it risks being an over-interpretation of a correlative finding.
+  - **Resolution test** Report the sex of the animals used at each stage and test whether the observed signals are sex-specific. Provide additional evidence (e.g., expression analysis, chromatin state validation) to support a functional link between the bRG module and sex differentiation genes.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Functional validation
+  - **Claim pointer** The authors state that knockout of the DBN1 cis-regulatory element "leads to defective neuronal proliferation and synaptic neuron differentiation in human cortical organoids."
+  - **Evidence pointer** Results section "A CRE regulates the expression of DBN1 and neural development", Fig. 5d–j
+  - **Concern** The functional validation is a key strength, but the text lacks critical details. How many independent knockout clones were analyzed? What were the off-target effects? Were the organoid phenotypes quantified blindly? The statistical test used (t-test) is mentioned for some comparisons, but the number of organoids per condition and the variance are not reported. The text also does not clarify whether the observed phenotype is due to DBN1 downregulation specifically, or to other effects of the CRISPR deletion.
+  - **Why it matters** This is the only causal experiment in the paper and is used to support the broader claim that cis-regulatory elements identified in the atlas have functional relevance. Insufficient detail undermines confidence in this conclusion.
+  - **Resolution test** Provide full experimental details: number of clones, organoid batches, quantification methods, and statistical analysis. Include a rescue experiment (e.g., DBN1 overexpression) or a second independent guide RNA to confirm on-target effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods section "Rhesus monkey PFC collection"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The text states that "anatomical parcellation at each time point relies on previous research" but does not specify the exact criteria or who performed the dissections. The number of animals per stage is not stated in the main text.
+  - **Required correction** Provide the number of biological replicates per stage and sex, and cite the specific atlases or criteria used for dissection.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Charting epigenetic landscapes during rhesus macaque PFC development"
+  - **Evidence pointer** Fig. 1a, Table S1
+  - **Issue** The text states that 70 ChIP-seq, 14 DNase-seq, 14 Hi-C, 14 methylation, and 14 RNA-seq datasets were generated, but the number of antibodies used for ChIP-seq and the specific histone marks profiled are not fully listed in the main text.
+  - **Required correction** List the antibodies and marks profiled in the main text or clearly refer to the supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive validity
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion states that "histone modifications exert a more precise function in regulating stage-specific gene expression" but this claim is not directly tested in the paper.
+  - **Required correction** Soften this claim or provide a direct comparison of predictive power between histone modifications and other features.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Changes in chromatin structure during brain aging"
+  - **Evidence pointer** Fig. 6, Fig. S10
+  - **Issue** The text refers to "Fig. 8g" and "Fig. 8h" in the results, but the main text only describes figures up to Fig. 6. This appears to be an error.
+  - **Required correction** Correct the figure callouts to the appropriate figure numbers.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Sequencing library preparation"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The methods for library preparation are referenced to prior work but not described in sufficient detail for replication.
+  - **Required correction** Provide a brief description of key parameters (e.g., antibody lot, digestion conditions, sequencing depth) or include a detailed supplementary methods section.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interpretive validity
+  - **Affected element** Results section "Regulatory modules of NPCs during neurogenesis"
+  - **Evidence pointer** Fig. 2e
+  - **Issue** The text states that TF binding motifs for CREB5, GLI3, ETV5, and SOX9 are "more enriched" in the bRG module, but the statistical significance of the differential enrichment between bRG and aRG modules is not reported.
+  - **Required correction** Report the statistical test and significance thresholds for the motif enrichment comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative support for the decoupling claim), R1-M2 (insufficient methodological detail for the GWAS enrichment analysis), R1-M3 (weak aging analysis with only two time points and no replication details), R1-M5 (incomplete reporting of the organoid knockout validation).
+- **Assessment against Nature-style criteria** 
+  - Originality: The dataset is original in its multi-omic scope across a primate lifespan, and the bRG cis-regulatory module observation is novel. However, the conceptual frameworks (bivalent promoters, super-enhancer disease enrichment, aging chromatin changes) are not new.
+  - Scientific importance: Potentially high, given the resource value and the relevance to understanding primate brain evolution and neuropsychiatric disease. The importance would be strengthened by clearer causal links.
+  - Interdisciplinary readership: The topic bridges neuroscience, genomics, and evolutionary biology, and should appeal to a broad readership if the claims are well-supported.
+  - Technical soundness: Currently insufficiently documented to fully assess. Key analyses lack statistical detail and replication information.
+  - Readability for nonspecialists: The text is generally clear but relies heavily on domain-specific terminology without sufficient explanation for a general audience. The narrative would benefit from a more accessible summary of key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable resource and several interesting observations, but the current level of methodological and statistical detail is insufficient to fully establish the central claims. Major revisions are required to address the concerns outlined above.
+
+## Risk / unsupported claims
+- The claim that epigenetic changes peak around birth and are decoupled from gene expression dynamics is not quantitatively supported in the text.
+- The claim that schizophrenia-associated SNPs are enriched in SEs and that this "suggests" a role in neural network wiring is not fully supported without details of the enrichment analysis and a more cautious interpretation.
+- The claim that loss of distal chromatin interaction and H3K27me3 are "hallmarks" of aging is based on a two-time-point comparison and lacks replication details.
+- The claim that the bRG-associated cis-regulatory module is linked to sex differentiation is correlative and does not account for potential sex confounding.
+- The functional significance of the DBN1 CRE knockout is reported with insufficient experimental detail to assess robustness.
+- The statement that "histone modifications exert a more precise function in regulating stage-specific gene expression" is not directly tested.

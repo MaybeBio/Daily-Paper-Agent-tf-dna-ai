@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "34688841",
+    "doi": "10.1016/j.biosystems.2021.104564",
+    "title": "The canonical and non-canonical NF-kappaB pathways and their crosstalk: A comparative study based on Petri nets."
+  },
+  "content": {
+    "abstract": "NF-kappaB is a protein complex that occurs in almost all animal cell types. It regulates the cellular immune responses to stimuli in the nucleus. Dysregulation of NF-kappaB can cause severe diseases like chronic inflammation, autoimmune diseases or cancer. We modeled the two major pathways leading from the external cellular stimulation of the CD40 receptor to the nuclear translocation of NF-kappaB dimers, the canonical and non-canonical pathway. Based on literature data, we developed two Petri net models describing these pathways. In a third Petri net, we combined the two models, introducing crosstalk specific in CD40L-stimulated B cells. In terms of structural properties, we checked the Petri nets for their consistency and correctness. To explore differences and similarities, we compared structural properties and the simulation behavior of the models. The non-canonical NF-kappaB pathway exhibited a more diverse regulation than the canonical pathway. Applying in silico knockout analyses, we were able to quantify the relevance of individual biochemical processes. We predicted interrelationships, e.g., between the synthesis of the protein NF-kappaB-inducing kinase and the processing of the precursor protein p100. The activation of the transcription factors, p50-RelA and p52-RelB, was affected by most of the knockouts. The results of the in silico knockout were in accordance with experimental studies. The Petri net models provide a basis for further analyses and could be extended to include gene expression, additional pathways, molecular processes, and kinetic data.",
+    "keywords": [
+      "Canonical",
+      "In silico knockout matrix",
+      "Invariants",
+      "Manatee invariants",
+      "NF-kappaB pathway",
+      "Non-canonical",
+      "Petri nets"
+    ],
+    "mesh_terms": [
+      "CD40 Antigens/metabolism",
+      "Dimerization",
+      "NF-kappa B/*metabolism",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Trares, Kira",
+        "Ackermann, Jorg",
+        "Koch, Ina"
+      ],
+      "short_names": [
+        "Trares K",
+        "Ackermann J",
+        "Koch I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Network Aging Research, Heidelberg University, Bergheimer Strasse 20, 69115, Heidelberg, Germany; Division of Clinical Epidemiology and Aging Research, German Cancer Research Center, Im Neuenheimer Feld 581, 69120, Heidelberg, Germany.",
+        "Johann Wolfgang Goethe-University Frankfurt am Main, Faculty of Computer Science and Mathematics, Institute of Computer Science, Dept. of Molecular Bioinformatics, Robert-Mayer-Strasse 11-15, 60325, Frankfurt am Main, Germany.",
+        "Johann Wolfgang Goethe-University Frankfurt am Main, Faculty of Computer Science and Mathematics, Institute of Computer Science, Dept. of Molecular Bioinformatics, Robert-Mayer-Strasse 11-15, 60325, Frankfurt am Main, Germany. Electronic address: ina.koch@bioinformatik.uni-frankfurt.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Trares, Kira",
+        "short_name": "Trares K",
+        "identifiers": [],
+        "affiliations": [
+          "Network Aging Research, Heidelberg University, Bergheimer Straße 20, 69115, Heidelberg, Germany; Division of Clinical Epidemiology and Aging Research, German Cancer Research Center, Im Neuenheimer Feld 581, 69120, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Ackermann, Jörg",
+        "short_name": "Ackermann J",
+        "identifiers": [],
+        "affiliations": [
+          "Johann Wolfgang Goethe-University Frankfurt am Main, Faculty of Computer Science and Mathematics, Institute of Computer Science, Dept. of Molecular Bioinformatics, Robert-Mayer-Straße 11-15, 60325, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Koch, Ina",
+        "short_name": "Koch I",
+        "identifiers": [],
+        "affiliations": [
+          "Johann Wolfgang Goethe-University Frankfurt am Main, Faculty of Computer Science and Mathematics, Institute of Computer Science, Dept. of Molecular Bioinformatics, Robert-Mayer-Straße 11-15, 60325, Frankfurt am Main, Germany. Electronic address: ina.koch@bioinformatik.uni-frankfurt.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bio Systems"
+    ],
+    "journal_abbrev": [
+      "Biosystems"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/25 06:00",
+    "fetched_at": "2026-09-28 01:14:33"
+  },
+  "links": {
+    "cites": [
+      "42167686",
+      "41491203",
+      "41484074",
+      "40982082",
+      "40710154",
+      "40650758",
+      "39757214",
+      "39094893",
+      "37890781",
+      "37292615",
+      "35994517"
+    ],
+    "refs": [],
+    "similar": [
+      "34688841",
+      "12374738",
+      "31134075",
+      "26988706",
+      "12709443",
+      "25255445",
+      "16205698",
+      "18299388",
+      "15536066",
+      "27929668",
+      "12556537",
+      "20804734",
+      "20466000",
+      "23538445",
+      "27923915",
+      "19839765",
+      "17698569",
+      "12840022",
+      "17261581",
+      "16195333",
+      "22652196",
+      "15470505",
+      "12023343",
+      "21525290",
+      "14576817",
+      "16551621",
+      "15708970",
+      "26634571",
+      "21368655",
+      "22017430",
+      "27641334",
+      "26948423",
+      "28966239",
+      "16498412",
+      "15994789",
+      "29728424",
+      "26147201",
+      "30571597",
+      "20353939",
+      "22952582",
+      "15539150",
+      "11687592",
+      "20723331",
+      "17446175",
+      "20393192",
+      "28754124",
+      "16009713",
+      "12847243",
+      "12657634",
+      "18292232",
+      "26851215",
+      "20001340",
+      "20449947",
+      "14532284",
+      "29686669",
+      "25736746",
+      "15485626",
+      "16223731",
+      "19664134",
+      "16204413",
+      "9268307",
+      "25905673",
+      "30065029",
+      "17237370",
+      "23485337",
+      "29907126",
+      "17641044",
+      "27590109",
+      "9576616",
+      "25369740",
+      "22473011",
+      "20671747",
+      "27452667",
+      "17254973",
+      "14691250",
+      "24242761",
+      "8943389",
+      "18593997",
+      "21777379",
+      "11359840",
+      "20811049",
+      "16793322",
+      "16260626",
+      "23455325",
+      "25774937",
+      "31086255",
+      "17292587",
+      "25037120",
+      "36878844",
+      "35807520",
+      "35994517",
+      "30096845",
+      "35474906",
+      "27791341",
+      "35064163",
+      "33997176",
+      "38856960",
+      "36464715",
+      "22642806",
+      "36830988",
+      "35336806",
+      "37058451",
+      "34973354",
+      "38714734",
+      "38714790"
+    ],
+    "review": [
+      "34688841",
+      "22017430",
+      "29728424",
+      "20723331",
+      "20393192",
+      "29686669",
+      "29907126",
+      "27452667",
+      "24242761",
+      "16793322",
+      "25774937",
+      "36878844",
+      "35807520"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0303-2647(21)00205-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=model2207210001",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

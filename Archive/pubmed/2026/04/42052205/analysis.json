@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42052205",
+  "title": "Fine-tuned GPT-based foundation models effectively reconstruct bacterial transcriptional regulatory networks from literature.",
+  "authors": "Romero-Vilchis, Jose; Barajas-Sanchez, Maximiliano; Azpeitia-Garcia, Karyme-Ivette; Posada-Reyes, Ali-Berenice; Collado-Vides, Julio; Mendez-Cruz, Carlos-Francisco",
+  "journal": "Frontiers in artificial intelligence",
+  "published_date": "2026-04-29",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用GPT基础模型微调从文献中重建细菌转录调控网络，预测转录因子对靶基因的调控效应，虽涉及TF-DNA调控关系但缺乏三维互作建模与机制研究，方法可迁移至TF-DNA结合预测。",
+  "abstract": "INTRODUCTION: Life has the property to produce from a single genome, the collection of DNA molecules, different cell types, as well as mechanisms for bacteria to adapt to environmental changes. Although regulation can happen at different levels, regulation of transcription initiation, the start of copying DNA into RNA, is the most studied level in bacteria. The collection of regulators and their regulated elements defines transcriptional regulatory networks (TRNs), whose study has driven relevant areas, such as antimicrobial resistance. Their analyses and understanding depend on some few highly manually curated databases. The traditional way to reconstruct these networks is by manual curation of the literature, which is accurate, but also demanding and time-consuming. These limitations have resulted in the shortage and incompleteness of bacterial TRNs. METHODS: Here, we present a novel ensemble model approach using two GPT-based foundation models (LLaMA-3 and GPT-4o mini) to effectively reconstruct TRNs from the literature. We applied a supervised fine-tuning strategy with sentences from Escherichia coli literature to train models to predict the type of regulatory effect between a transcription factor and a regulated element (gene/operon). To evaluate the performance of reconstructing a curated TRN, we used 264 full-text articles of Salmonella Typhimurium, a pathogen of clinical interest. RESULTS: With the test data, both models obtained significant performance (F1-Score > 0.87, Matthews correlation coefficient > 0.82). For the curated TRN reconstruction, the ensemble approach using the agreement of models correctly reconstructed 80% of the TRN (Recall: 0.80, F1-score: 0.64). We applied the approach to reconstruct a large Salmonella TRN using the literature available at the time on transcriptional regulation of this bacterium (2,278 articles). This network was described with network metrics, over-representation analyses, and compared to existing biological knowledge. DISCUSSION: Our approach overtook the performance of prior works predicting the effect of the interaction. The analysis of the TRN of the 2,278 articles showed the effectiveness of our approach to reconstruct TRNs of diverse bacteria, as the network aligns with biological knowledge. Thus, our work may support the study of bacteria of biological and clinical interest, especially those without a reconstructed TRN.",
+  "abstract_zh": "引言：生命具有从单一基因组（即DNA分子集合）产生不同细胞类型以及细菌适应环境变化机制的特性。尽管调控可发生在不同层面，但转录起始（将DNA复制为RNA的起始过程）的调控是细菌中研究最深入的层面。调控因子及其受调控元件的集合定义了转录调控网络（transcriptional regulatory networks, TRNs），其研究推动了抗菌素耐药性等相关领域的发展。对这些网络的分析和理解依赖于少数高度人工管理的数据库。传统重建这些网络的方法是对文献进行人工整理，这虽然准确，但耗时且费力。这些局限性导致细菌TRNs的短缺和不完整。方法：在此，我们提出一种新颖的集成模型方法，使用两个基于GPT的基础模型（LLaMA-3和GPT-4o mini）来有效从文献中重建TRNs。我们采用监督微调策略，使用大肠杆菌（Escherichia coli）文献中的句子训练模型，以预测转录因子与受调控元件（基因/操纵子）之间的调控效应类型。为评估重建人工管理TRN的性能，我们使用了鼠伤寒沙门氏菌（Salmonella Typhimurium，一种临床相关病原体）的264篇全文文章。结果：在测试数据上，两个模型均获得显著性能（F1分数 > 0.87，马修斯相关系数 > 0.82）。对于人工管理TRN的重建，使用模型一致性的集成方法正确重建了80%的TRN（召回率：0.80，F1分数：0.64）。我们应用该方法，利用当时可用的该细菌转录调控文献（2,278篇文章）重建了一个大型沙门氏菌TRN。该网络通过网络指标、过表达分析进行描述，并与现有生物学知识进行比较。讨论：我们的方法超越了先前预测相互作用效应的性能。对2,278篇文章TRN的分析显示了我们方法在重建多种细菌TRNs方面的有效性，因为该网络与生物学知识一致。因此，我们的工作可能支持对生物学和临床相关细菌的研究，尤其是那些尚未重建TRN的细菌。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42052205/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42052205/",
+  "paper_page_path": "papers/pubmed/42052205/index.html"
+}

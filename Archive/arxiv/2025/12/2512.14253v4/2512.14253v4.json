@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2512.14253v4",
+  "title": "FLAME: Flow Enhanced Legendre Memory Models for General Time Series Forecasting",
+  "doi": "",
+  "abstract": "In this work, we introduce FLAME, a family of extremely lightweight and capable Time Series Foundation Models, which support versatile forecasting tasks via generative probabilistic modeling, while ensuring both efficiency and robustness. FLAME utilizes the Legendre Memory for strong generalization capabilities. By adapting variants of Legendre Memory, i.e., translated Legendre (LegT) and scaled Legendre (LegS), in the Encoding and Decoding phases, FLAME can effectively capture the inherent inductive bias within data and make efficient long-range inferences. To enhance the accuracy of probabilistic forecasting while remaining efficient, FLAME adopts a normalizing-flow-based forecasting head, which can model complex distributions over the forecasting horizon in a generative manner. Comprehensive experiments on three well-recognized benchmarks, including TSFM-Bench, ProbTS, and TFB, demonstrate that FLAME is a strong out-of-the-box tool for decision intelligence.",
+  "authors": [
+    "Xingjian Wu",
+    "Zhengyu Li",
+    "Hanyin Cheng",
+    "Xiangfei Qiu",
+    "Jilin Hu",
+    "Chenjuan Guo",
+    "Bin Yang"
+  ],
+  "published_date": "2025-12-16T10:03:30Z",
+  "updated_date": "2026-09-25T09:28:56Z",
+  "journal": "",
+  "category": "cs.LG",
+  "landing_url": "https://arxiv.org/abs/2512.14253v4",
+  "pdf_url": "https://arxiv.org/pdf/2512.14253v4",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "4",
+  "keywords": [
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2512.14253v4",
+    "raw_categories": [
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}

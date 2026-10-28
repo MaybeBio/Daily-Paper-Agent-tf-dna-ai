@@ -1,0 +1,129 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.26.690685",
+  "title": "RegEvol: detection of directional selection in regulatory sequences through phenotypic predictions and phenotype-to-fitness functions",
+  "doi": "10.1101/2025.11.26.690685",
+  "abstract": "Regulatory DNA controls when and where genes are expressed, making it a key driver of phenotypic evolution. Yet detecting selection in non-coding regions remains difficult, as most approaches rely on sequence conservation or changes in substitution rate rather than molecular effects. RegEvol bridges this gap by linking machine learning-based predictions of transcription factor binding to explicit evolutionary models. It uses the distribution of predicted mutational effects to infer fitness functions under different evolutionary scenarios including random drift, stabilising selection, and directional selection. Through maximum-likelihood estimation, it identifies the regime that best explains observed changes along a lineage from an ancestral sequence. When substitution numbers are limited, such as along short evolutionary branches, likelihood differences can be aggregated across sets of regulatory elements to increase statistical power. RegEvol corrects biases that affected previous tests based on machine learning of transcription factor binding, while remaining conservative across different levels of divergence. Applied to over 3 million Drosophila melanogaster regulatory regions, we identify 5.1% under directional selection, enriched near reproductive and immune genes. Applying the aggregation strategy to human CTCF binding across tissues reveals enrichment of directional signals in nervous and male reproductive systems. The framework is readily applicable to experimentally detected regulatory elements with alignable ancestral sequences and is flexible to future advances in understanding regulatory function, providing a powerful basis for investigating adaptation in non-coding regions.",
+  "authors": [
+    "Laverré A",
+    "Latrille T",
+    "Robinson-Rechavi M"
+  ],
+  "published_date": "2025-11-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690685",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690685.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1128102",
+    "raw_record": {
+      "id": "PPR1128102",
+      "source": "PPR",
+      "doi": "10.1101/2025.11.26.690685",
+      "title": "RegEvol: detection of directional selection in regulatory sequences through phenotypic predictions and phenotype-to-fitness functions",
+      "authorString": "Laverré A, Latrille T, Robinson-Rechavi M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Laverré A",
+            "lastName": "Laverré",
+            "firstName": "Alexandre",
+            "initials": "A"
+          },
+          {
+            "fullName": "Latrille T",
+            "lastName": "Latrille",
+            "firstName": "Thibault",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9643-4668"
+            }
+          },
+          {
+            "fullName": "Robinson-Rechavi M",
+            "lastName": "Robinson-Rechavi",
+            "firstName": "Marc",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3437-3329"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9909-1974"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3437-3329"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9643-4668"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Regulatory DNA controls when and where genes are expressed, making it a key driver of phenotypic evolution. Yet detecting selection in non-coding regions remains difficult, as most approaches rely on sequence conservation or changes in substitution rate rather than molecular effects. RegEvol bridges this gap by linking machine learning-based predictions of transcription factor binding to explicit evolutionary models. It uses the distribution of predicted mutational effects to infer fitness functions under different evolutionary scenarios including random drift, stabilising selection, and directional selection. Through maximum-likelihood estimation, it identifies the regime that best explains observed changes along a lineage from an ancestral sequence. When substitution numbers are limited, such as along short evolutionary branches, likelihood differences can be aggregated across sets of regulatory elements to increase statistical power. RegEvol corrects biases that affected previous tests based on machine learning of transcription factor binding, while remaining conservative across different levels of divergence. Applied to over 3 million Drosophila melanogaster regulatory regions, we identify 5.1% under directional selection, enriched near reproductive and immune genes. Applying the aggregation strategy to human CTCF binding across tissues reveals enrichment of directional signals in nervous and male reproductive systems. The framework is readily applicable to experimentally detected regulatory elements with alignable ancestral sequences and is flexible to future advances in understanding regulatory function, providing a powerful basis for investigating adaptation in non-coding regions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.26.690685"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-12-01",
+      "firstPublicationDate": "2025-11-29",
+      "firstIndexDate": "2025-12-01",
+      "hasEvaluations": "Y"
+    }
+  }
+}

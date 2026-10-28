@@ -1,0 +1,128 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, materials and methods, conclusions) and supplementary information references. No figures or tables were provided as separate files; only in-text descriptions and table captions were available.
+- **Assessment boundary** The scientific claims, methodological soundness, and interpretative validity of the computational study as presented in the manuscript. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors use molecular dynamics (MD) simulations and protein–protein docking to compare the interaction of HPV-16 E6 reference and five natural variants (E-G350, E-C188/G350, E-A176/G350, AAa, AAc) with two homology models of the MAGI-1 PDZ1-containing region (255 and 329 residues). They report that all variants show increased binding affinity to MAGI-1 models compared to the reference, with E-C188/G350 and AAa showing the most pronounced changes in dynamics and affinity.
+- **Visible evidence base** In-text descriptions of multiple sequence alignments, RMSD/RMSF/Rg plots (Figure 3), dPCA projections (Figures 5 and 6), docking results (Table 1), interface analyses (Figure 7, Tables S1 and S2), and Ramachandran plots (Figures S1–S4). No raw trajectories, force field parameter files, or docking output files were provided.
+- **Missing materials affecting confidence** The actual figures and tables were not accessible; only their captions and in-text descriptions were available. No PDB files, simulation input files, or docking scoring details were provided. The supplementary tables (S1, S2) were referenced but not included in the provided material. This limits independent verification of the reported numerical values and structural interpretations.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically relevant question: whether naturally occurring HPV-16 E6 variants differ in their molecular interaction with the PDZ1 domain of MAGI-1, a key cellular target implicated in cervical carcinogenesis. The computational approach combining MD simulation and docking is appropriate for generating hypotheses, and the inclusion of two MAGI-1 models (with and without a disordered region) is a thoughtful design choice. However, the manuscript has several significant weaknesses. The reporting of methods is incomplete in critical areas (e.g., docking protocol details, convergence criteria, error analysis), the interpretation of binding energy differences lacks statistical rigor, and some claims in the abstract and conclusions are not fully supported by the evidence presented. The writing contains numerous typographical and grammatical errors that impede readability. The study is exploratory and hypothesis-generating, but the current presentation does not establish the case with sufficient technical rigor.
+- **Who would be interested in the results, and why** Researchers studying HPV oncoprotein interactions with host PDZ domain proteins, particularly those interested in how natural E6 variants may modulate carcinogenic potential. The work may also be of interest to computational biologists studying protein–protein interaction prediction in intrinsically disordered regions. The findings could inform future experimental studies on variant-specific MAGI-1 degradation, which has implications for cervical cancer risk stratification in populations with high variant prevalence.
+- **Major strengths** The study addresses a clinically relevant and under-explored question regarding variant-specific differences in E6–MAGI-1 interactions. The use of two MAGI-1 models, one including a disordered region previously implicated in binding, is a reasonable strategy to explore the influence of distal regions. The combination of MD simulation with docking is appropriate for this type of hypothesis-generating study. The authors correctly note the need for experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "variants E-G350, E-C188/G350, E-A176/G350, AAa and AAc increase their affinity to our two models of MAGI-1 compared to E6-reference" (Abstract) and that "E-C188/G350 increases its affinity for our models by three times" (Conclusions).
+  - **Evidence pointer** Table 1; "location not provided" for docking protocol details
+  - **Concern** The binding energy values in Table 1 are presented as single numbers without any measure of uncertainty, standard deviation, or replicate information. The claim of "three times" higher affinity for E-C188/G350 is based on a single docking run per complex. Docking scores from programs like ClusPro/FiberDock are known to be sensitive to input conformations and scoring function approximations. Without multiple independent docking runs, ensemble averaging, or at minimum a sensitivity analysis, the reported energy differences cannot be distinguished from noise. Furthermore, the methods section does not specify how the "best" complex was selected beyond "greater number of cluster members and the lowest energy," which is insufficient for reproducibility.
+  - **Why it matters** The central conclusion of the paper—that variants have increased affinity for MAGI-1—rests entirely on these docking energy values. If the energy differences are within the noise of the method, the conclusion is unsupported. This is a blocking issue because the primary claim cannot be evaluated with the current evidence.
+  - **Resolution test** Provide replicate docking runs (e.g., 10 independent runs per complex), report mean and standard deviation of binding energies, and perform a statistical test (e.g., t-test or Mann-Whitney U) comparing each variant to the reference. Alternatively, provide a convergence analysis showing that the docking scores are stable across different starting conformations. If the energy differences are not statistically significant, the claim should be revised accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the carboxyl terminus of the E-C188/G350, AAa and AAc proteins showed a greater difference compared to E6-reference" (Results, Figure 3A) and interpret RMSF differences as evidence of altered flexibility in the PBM region.
+  - **Evidence pointer** Figure 3D; "location not provided" for RMSF values
+  - **Concern** The RMSF analysis is described qualitatively ("there are six maximum fluctuations peaks areas shared by E6-reference and variants"), but no numerical values, error bars, or statistical comparison are provided. The claim that variants have higher flexibility at the C-terminus (which includes the PBM motif) is central to the interpretation that this affects binding. However, without quantifying the differences and assessing whether they exceed thermal fluctuations or run-to-run variability, this interpretation is speculative. Additionally, the manuscript does not state how many independent MD simulations were performed per system, which is essential for assessing the reliability of the fluctuation analysis.
+  - **Why it matters** The interpretation that mutations alter PBM flexibility and thereby affect MAGI-1 binding is a key mechanistic claim. If the RMSF differences are not statistically robust, the mechanistic narrative is weakened.
+  - **Resolution test** Report RMSF values with standard errors from at least three independent MD simulations per system. Perform a statistical comparison (e.g., per-residue t-test with multiple testing correction) between the reference and each variant. If the differences are not significant, the claim should be tempered.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the MD simulation protocol, including force fields, water model, and ion concentration, but do not provide sufficient detail on system setup, equilibration criteria, or simulation parameters.
+  - **Evidence pointer** Materials and methods, "Molecular dynamics simulation" section; "location not provided"
+  - **Concern** The methods state that "a 200 ns of MD simultion of E6 and its variants were performed using the NAMD 2.8 software package with CHARMM36 and CHARMM22 force fields." It is unclear which force field was used for which system (E6 vs. MAGI-1), and the use of two different force fields (CHARMM36 and CHARMM22) without justification is concerning. The manuscript does not specify the temperature coupling method, pressure coupling method, integration time step, or the criteria for equilibration. The statement "Each system was placed in a cubic box of TIP3P water with a minimum distance of 10 Å" is insufficient for reproduction. The use of CHARMM27 for MAGI-1 models is also not justified, as this is an older force field.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without a complete description of the simulation protocol, other researchers cannot replicate the work, and the reliability of the results cannot be independently assessed.
+  - **Resolution test** Provide a complete description of the simulation protocol, including force field parameters for each system, thermostat/barostat settings, integration time step, equilibration procedure, and any restraints applied. If different force fields were used for different systems, justify this choice and discuss potential artifacts.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors state that "the increase in affinity and stability of the interaction of E6 with MAGI-1 result in an increase in the degradation of MAGI-1 and as a consequence in the loss of stability of important cell complexes" (Results and discussion).
+  - **Evidence pointer** "location not provided"
+  - **Concern** This statement extends the computational findings to a biological outcome (MAGI-1 degradation and loss of cell junction stability) without any experimental evidence. While the authors do note in the Conclusions that "an experimental validation will be necessary," the phrasing in the Results and discussion reads as a definitive conclusion. The link between in silico binding affinity and in vivo degradation is not straightforward; increased binding affinity does not necessarily translate to increased degradation, as other factors (e.g., ubiquitination efficiency, proteasomal access) are involved.
+  - **Why it matters** Overstating the biological implications of computational predictions can mislead readers, particularly those less familiar with the limitations of in silico methods. The claim should be clearly framed as a hypothesis.
+  - **Resolution test** Revise the statement to explicitly frame the degradation outcome as a hypothesis requiring experimental validation. Alternatively, cite experimental studies that support a direct correlation between E6–MAGI-1 binding affinity and degradation for the specific variants studied.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract contains a typographical error: "MAG1-1" should be "MAGI-1". Additionally, the phrase "Generic variation in the E6 gene" should be "Genetic variation".
+  - **Required correction** Correct the typographical errors in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, "location not provided"
+  - **Issue** The sentence "But, the molecular insights about this,are not clear" contains a comma splice and a spacing error. The sentence should be revised for grammatical correctness.
+  - **Required correction** Revise to "However, the molecular insights into these differences remain unclear."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Results and discussion, "location not provided"
+  - **Issue** The phrase "there is not plublish information" is a typographical error and should be "there is no published information". Additionally, "were are interested" should be "we are interested".
+  - **Required correction** Correct the typographical and grammatical errors.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Results and discussion, "location not provided"
+  - **Issue** The sentence "This behaviour is attributed to mutations in the E29A and L83V positions" refers to "E29A" but the variant is described as E29Q in the Introduction and Methods. This inconsistency is confusing.
+  - **Required correction** Correct the residue designation to E29Q throughout the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Results and discussion, "location not provided"
+  - **Issue** The phrase "the greates fluctuation peaks" is a typographical error and should be "the greatest fluctuation peaks".
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Results and discussion, "location not provided"
+  - **Issue** The sentence "The Rg present different grades of compactness during the simulation evidencing a less compactable grade at the end of the trajectory" is awkwardly phrased. "Compactable grade" is not standard terminology.
+  - **Required correction** Revise to "The Rg values indicate different degrees of compactness during the simulation, with a less compact structure at the end of the trajectory."
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods, "Molecular dynamics simulation" section; "location not provided"
+  - **Issue** The sentence "Afterwards, a 200 ns of MD simultion of E6 and its variants were performed" contains a typographical error ("simultion" should be "simulation") and a subject-verb agreement error ("a 200 ns... were" should be "a 200 ns... was").
+  - **Required correction** Correct the typographical and grammatical errors.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods, "Protein–protein docking" section; "location not provided"
+  - **Issue** The sentence "The conformers with the highest cluster members and the lowest energy calculated in FireDock were taken for analysis on the PDBSum server" is unclear. It is not specified whether the energy was calculated by FireDock or by ClusPro, and the selection criteria are vague.
+  - **Required correction** Clarify the selection criteria and specify which program calculated the energy values.
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Table 1; "location not provided"
+  - **Issue** Table 1 reports binding energies but does not include the number of cluster members for each complex, which is mentioned in the text as a selection criterion. Without this information, the reader cannot assess the quality of the docking predictions.
+  - **Required correction** Add the cluster member counts to Table 1 or provide them in the text.
+  - **Concern ID** R1-m10
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Figure 7; "location not provided"
+  - **Issue** The figure caption for Figure 7 is incomplete. It does not describe the color scheme for the E6 variants or the MAGI-1 models, nor does it explain what the "quicksurf" representation means. This makes it difficult to interpret the figure.
+  - **Required correction** Expand the figure caption to fully describe the content and color scheme.
+
+## Risk / unsupported claims
+- The claim that all variants "increase their affinity" to MAGI-1 models compared to the reference is unsupported due to the lack of statistical analysis and replicate docking runs (R1-M1).
+- The claim that "E-C188/G350 increases its affinity for our models by three times" is unsupported for the same reason.
+- The interpretation that RMSF differences at the C-terminus indicate altered PBM flexibility is unsupported without quantitative analysis and error assessment (R1-M2).
+- The statement that increased binding affinity leads to increased MAGI-1 degradation and loss of cell junction stability is an unsupported extrapolation from computational data to biological outcomes (R1-M4).
+- The claim that the disordered region of 76 amino acids "increments the affinity of E6 and its variants to MAGI-1" is presented as a prediction but is not directly tested; the comparison between the two MAGI-1 models is descriptive only.
+- The manuscript states that "the only avalible 3D structure of E6 can be found in a ternary complex" (PDB:4XR8); this is presented as fact but the authors do not discuss whether the mutations they introduced are compatible with the structural context of the template, which is a potential limitation.
+- The use of two different force fields (CHARMM36 and CHARMM22) for E6 and the lack of justification for this choice is a methodological concern that is not addressed.

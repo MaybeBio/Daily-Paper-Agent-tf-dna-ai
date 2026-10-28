@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37720213",
+  "title": "Exploring the potential relationship between frozen shoulder and Dupuytren's disease through bioinformatics analysis and machine learning.",
+  "authors": "Ouyang, Yulong; Chen, Shuilin; Tu, Yuanqing; Wan, Ting; Fan, Hao; Sun, Guicai",
+  "journal": "Frontiers in immunology",
+  "published_date": "2023-09-18",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过生物信息学与机器学习分析冻结肩与掌腱膜挛缩症的共享基因和蛋白互作网络，虽预测了转录因子但未涉及蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Frozen shoulder (FS) and Dupuytren's disease (DD) are two closely related diseases, but the mechanism of their interaction is unknown. Our study sought to elucidate the molecular mechanism of these two diseases through shared gene and protein interactions. METHODS: GSE75152 and GSE140731 data were downloaded from the Gene Expression Omnibus (GEO) database, and shared genes between FS and DD were selected by using R packages. Then, we used Cytoscape software and the STRING database to produce a protein-protein interaction (PPI) network. Important interaction networks and hub genes were selected through MCODE and cytoHubba algorithms. To explore the potential mechanisms of the development of the two diseases, the hub genes were further enriched by GO and KEGG analyses. We predicted the transcription factors (TFs) of hub genes with Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining (TRRUST). Moreover, we identified candidate genes for FS with DD with cytoHubba and machine learning algorithms. Finally, we analyzed the role of immunocyte infiltration in FS and constructed the relationship between candidate genes and immunocytes in FS. RESULTS: We identified a total of 321 shared genes. The results of GO and KEGG enrichment of shared genes showed that extracellular matrix and collagen fibril tissue play a certain role in the occurrence and development of disease. According to the importance of genes, we constructed the key PPI network of shared genes and the top 15 hub genes for FS with DD. Then, we predicted that five TFs are related to the hub genes and are highly expressed in the FS group. Machine learning results show that the candidate genes POSTN and COL11A1 may be key for FS with DD. Finally, immune cell infiltration revealed the disorder of immunocytes in FS patients, and expression of candidate genes can affect immunocyte infiltration. CONCLUSION: We identified a PPI network, 15 hub genes, and two immune-related candidate genes (POSTN and COL11A1) using bioinformatics analysis and machine learning algorithms. These genes have the potential to serve as diagnostic genes for FS in DD patients. Furthermore, our study reveals disorder of immunocytes in FS.",
+  "abstract_zh": "背景：冻结肩（Frozen shoulder, FS）和掌腱膜挛缩症（Dupuytren's disease, DD）是两种密切相关的疾病，但它们相互作用的机制尚不清楚。本研究旨在通过共享基因和蛋白质相互作用来阐明这两种疾病的分子机制。方法：从基因表达综合（Gene Expression Omnibus, GEO）数据库下载GSE75152和GSE140731数据，并使用R包筛选FS和DD之间的共享基因。然后，我们使用Cytoscape软件和STRING数据库构建蛋白质-蛋白质相互作用（protein-protein interaction, PPI）网络。通过MCODE和cytoHubba算法选择重要的相互作用网络和枢纽基因。为了探索这两种疾病发展的潜在机制，对枢纽基因进行了GO和KEGG富集分析。我们使用基于句子的文本挖掘转录调控关系（Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining, TRRUST）预测了枢纽基因的转录因子（transcription factors, TFs）。此外，我们通过cytoHubba和机器学习算法识别了FS伴DD的候选基因。最后，我们分析了免疫细胞浸润在FS中的作用，并构建了FS中候选基因与免疫细胞之间的关系。结果：我们共识别出321个共享基因。共享基因的GO和KEGG富集结果显示，细胞外基质和胶原纤维组织在疾病的发生和发展中发挥一定作用。根据基因的重要性，我们构建了共享基因的关键PPI网络以及FS伴DD的前15个枢纽基因。然后，我们预测了五个与枢纽基因相关且在FS组中高表达的转录因子。机器学习结果显示，候选基因POSTN和COL11A1可能是FS伴DD的关键基因。最后，免疫细胞浸润揭示了FS患者中免疫细胞的紊乱，候选基因的表达可影响免疫细胞浸润。结论：我们通过生物信息学分析和机器学习算法识别了一个PPI网络、15个枢纽基因和两个免疫相关候选基因（POSTN和COL11A1）。这些基因有潜力作为DD患者中FS的诊断基因。此外，我们的研究揭示了FS中免疫细胞的紊乱。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37720213/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37720213/",
+  "paper_page_path": "papers/pubmed/37720213/index.html"
+}

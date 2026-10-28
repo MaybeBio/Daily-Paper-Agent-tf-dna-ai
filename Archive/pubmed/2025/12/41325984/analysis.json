@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41325984",
+  "title": "JASPAR 2026: expansion of transcription factor binding profiles and integration of deep learning models.",
+  "authors": "Ovek Baydar, Damla; Rauluseviciute, Ieva; Aronsen, Dina R; Blanc-Mathieu, Romain; Bonthuis, Ine; de Beukelaer, Herman; Ferenc, Katalin; Jegou, Alice; Kumar, Vipin; Lemma, Roza Berhanu; Lucas, Jeremy; Pochon, Mathis; Yun, Chang M; Ramalingam, Vivekanandan; Deshpande, Salil Sanjay; Patel, Aman; Marinov, Georgi K; Wang, Austin T; Aguirre, Alejandro; Castro-Mondragon, Jaime A; Baranasic, Damir; Cheneby, Jeanne; Gundersen, Sveinung; Johansen, Morten; Khan, Aziz; Kuijjer, Marieke L; Hovig, Eivind; Lenhard, Boris; Sandelin, Albin; Vandepoele, Klaas; Wasserman, Wyeth W; Parcy, Francois; Kundaje, Anshul; Mathelier, Anthony",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文介绍JASPAR 2026数据库，扩展TF结合谱并整合BPNet深度学习模型，用于建模和解释TF-DNA相互作用，高度契合本课题的TF-DNA结合预测与AI方法。",
+  "abstract": "JASPAR (https://jaspar.elixir.no/) is an open-access database that has provided high-quality, manually curated, and non-redundant DNA binding profiles for transcription factors (TFs) as position frequency matrices (PFMs) for over 20 years. We expanded the CORE (306 new profiles, 12% increase) and UNVALIDATED (433, 60% increase) collections with new PFMs and updated 13 existing profiles. We updated the TF binding site predictions and genome tracks for eight species. TF binding profile clusters and familial TF binding sites were updated accordingly. We integrate the inMOTIFin software to easily simulate regulatory sequences using JASPAR PFMs. To enrich TFs' annotations, we provide scientific literature-based human TF target information. Notably, this release features a deep learning (DL) collection, providing a paradigm shift in modeling and characterizing TF-DNA interactions with 1259 BPNet models trained on Homo sapiens ENCODE chromatin immunoprecipitation followed by sequencing (ChIP-seq) datasets from 240 TFs and interpreted to reveal predictive motif patterns for the models. The motifs associated with the same TF were clustered to provide a summary of the binding properties, resulting in 240 primary and 113 alternative motif patterns in the DL collection. The JASPAR 2026 collections lay a foundation for future endeavors in genomic research, serving the scientific community in uncovering the mechanisms of gene regulation.",
+  "abstract_zh": "JASPAR（https://jaspar.elixir.no/）是一个开放获取数据库，20多年来一直为转录因子（TFs）提供高质量、人工精选且非冗余的DNA结合谱，以位置频率矩阵（PFMs）形式呈现。我们扩展了CORE（新增306个谱，增加12%）和UNVALIDATED（新增433个，增加60%）集合，加入了新的PFMs，并更新了13个现有谱。我们更新了八个物种的TF结合位点预测和基因组轨道。TF结合谱聚类和家族性TF结合位点也相应更新。我们整合了inMOTIFin软件，以便利用JASPAR PFMs轻松模拟调控序列。为丰富TFs的注释，我们提供了基于科学文献的人类TF靶标信息。值得注意的是，本版本推出了深度学习（DL）集合，为建模和表征TF-DNA相互作用提供了范式转变，包含1259个BPNet模型，这些模型基于240个TFs的人类ENCODE染色质免疫沉淀后测序（ChIP-seq）数据集训练，并通过解释揭示模型的预测基序模式。与同一TF相关的基序被聚类以总结结合特性，从而在DL集合中产生240个主要和113个替代基序模式。JASPAR 2026集合为基因组研究的未来努力奠定了基础，服务于科学界揭示基因调控机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41325984/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41325984/",
+  "paper_page_path": "papers/pubmed/41325984/index.html"
+}

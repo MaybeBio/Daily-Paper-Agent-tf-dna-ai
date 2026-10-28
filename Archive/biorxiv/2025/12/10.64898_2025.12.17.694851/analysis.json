@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.17.694851",
+  "title": "Explainable Active Learning Framework for Ligand Binding Affinity Prediction",
+  "authors": "Satya Pratik Srivastava; Rohan Gorantla; Sharath Krishna Chundru; Claire J.R. Winkelman; Antonia S.J.S. Mey; Rajeev Kumar Singh",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-19",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文聚焦蛋白-配体亲和力预测的主动学习框架，对象为小分子配体而非蛋白质-DNA互作，方法虽含AI但与TF-DNA结合机制无关，仅边缘相关。",
+  "abstract": "Active learning (AL) prioritises which compounds to measure next for protein–ligand affinity when assay or simulation budgets are limited. We present an explainable AL framework built on Gaussian process regression and assess how molecular representations, covariance kernels, and acquisition policies affect enrichment across four drug-relevant targets. Using recall of top active compounds, we find that dataset identity—the target’s chemical landscape—sets the performance ceiling, while method choices modulate outcomes rather than overturn them. Fingerprints with simple Gaussian process kernels provide robust, low-variance enrichment, whereas learned embeddings with non-linear kernels can reach higher peaks but with greater variability. Uncertainty-guided acquisition consistently outperforms random selection, yet no single policy is universally optimal; the best choice follows structure-activity relationship (SAR) complexity. To enhance interpretability beyond black-box selection, we integrate SHapley Additive exPlanations (SHAP) to link high-impact fingerprint bits to chemically meaningful fragments across AL cycles, illustrating how the model’s attention progressively concentrates on SAR-relevant motifs.",
+  "abstract_zh": "主动学习（active learning, AL）在测定或模拟预算有限时，优先选择接下来要测量的化合物以评估蛋白质-配体亲和力。我们提出了一种基于高斯过程回归的可解释AL框架，并评估了分子表示、协方差核和采集策略如何影响四个药物相关靶点的富集效果。通过使用顶部活性化合物的召回率，我们发现数据集身份——即靶点的化学景观——设定了性能上限，而方法选择则调节结果而非颠覆结果。带有简单高斯过程核的指纹提供了稳健、低方差的富集，而带有非线性核的学习嵌入可以达到更高的峰值，但变异性更大。不确定性引导的采集始终优于随机选择，但没有任何单一策略是普遍最优的；最佳选择遵循结构-活性关系（structure-activity relationship, SAR）的复杂性。为了增强黑箱选择之外的可解释性，我们整合了SHapley加性解释（SHapley Additive exPlanations, SHAP），将高影响的指纹位点与AL周期中化学上有意义的片段联系起来，说明模型的注意力如何逐步集中于SAR相关基序。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.17.694851",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.17.694851",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.17.694851/index.html"
+}

@@ -1,0 +1,234 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-2chhz",
+  "title": "Calculating Binding Free Energies in Model Host-Guest Systems with Unrestrained Advanced Sampling",
+  "doi": "10.26434/chemrxiv-2023-2chhz",
+  "abstract": "Host--guest interactions are important to the design of pharmaceuticals, and more broadly to soft materials, as they can enable targeted, strong, and specific interactions between molecules. The binding process between host and guest may be classified as a ``rare event'' when viewing the system at atomic scales, such as those explored in molecular dynamics simulations. To obtain equilibrium binding conformations and dissociation constants from these simulations, it is essential to resolve such rare events. Advanced sampling methods such as Adaptive Biasing Force (ABF) promote the occurrence of less probable configurations in a system, therefore facilitating the sampling of essential collective variables (CVs) which characterize the host--guest interactions. Here, we present the application of ABF to a rod--cavitand coarse-grained (CG) model of host-guest systems to acquire the potential of mean force (PMF). We show that the employment of ABF enables the computation of configurational and thermodynamic properties of bound and unbound states, including the free energy landscape. Moreover, we identify important dynamical bottlenecks that limit sampling and discuss how these may be addressed in more general systems.",
+  "authors": [
+    "Andrew V. Marquardt",
+    "Mohsen Farshad",
+    "Jonathan K. Whitmer"
+  ],
+  "published_date": "2023-10-26",
+  "updated_date": "2023-10-26T06:05:59Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-2chhz",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-2chhz",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:51:40Z",
+        "timestamp": 1785415900548,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            26
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                26
+              ]
+            ],
+            "date-time": "2023-10-26T00:00:00Z",
+            "timestamp": 1698278400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Host--guest interactions are important to the design of pharmaceuticals, and more broadly to soft materials, as they can enable targeted, strong, and specific interactions between molecules. The binding process between host and guest may be classified as a ``rare event'' when viewing the system at atomic scales, such as those explored in molecular dynamics simulations. To obtain equilibrium binding conformations and dissociation constants from these simulations, it is essential to resolve such rare events. Advanced sampling methods such as Adaptive Biasing Force (ABF) promote the occurrence of less probable configurations in a system, therefore facilitating the sampling of essential collective variables (CVs) which characterize the host--guest interactions. Here, we present the application of ABF to a rod--cavitand coarse-grained (CG) model of host-guest systems to acquire the potential of mean force (PMF). We show that the employment of ABF enables the computation of configurational and thermodynamic properties of bound and unbound states, including the free energy landscape. Moreover, we identify important dynamical bottlenecks that limit sampling and discuss how these may be addressed in more general systems.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-2chhz",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            26
+          ]
+        ],
+        "date-time": "2023-10-26T06:05:59Z",
+        "timestamp": 1698300359000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Calculating Binding Free Energies in Model Host-Guest Systems with Unrestrained Advanced Sampling"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Andrew V.",
+          "family": "Marquardt",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00mkhxb43",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Notre Dame",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohsen",
+          "family": "Farshad",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00mkhxb43",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Notre Dame",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0370-0873",
+          "authenticated-orcid": false,
+          "given": "Jonathan K.",
+          "family": "Whitmer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00mkhxb43",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Notre Dame",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-2chhz",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:36:40Z",
+        "timestamp": 1778751400000
+      },
+      "score": 89.45021,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-2chhz"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            26
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-2chhz",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.3c01186",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "identity": {
+    "pmid": "34035238",
+    "doi": "10.1038/s41467-021-22843-4",
+    "title": "Decreased GLUT2 and glucose uptake contribute to insulin secretion defects in MODY3/HNF1A hiPSC-derived mutant beta cells."
+  },
+  "content": {
+    "abstract": "Heterozygous HNF1A gene mutations can cause maturity onset diabetes of the young 3 (MODY3), characterized by insulin secretion defects. However, specific mechanisms of MODY3 in humans remain unclear due to lack of access to diseased human pancreatic cells. Here, we utilize MODY3 patient-derived human induced pluripotent stem cells (hiPSCs) to study the effect(s) of a causal HNF1A(+/H126D) mutation on pancreatic function. Molecular dynamics simulations predict that the H126D mutation could compromise DNA binding and gene target transcription. Genome-wide RNA-Seq and ChIP-Seq analyses on MODY3 hiPSC-derived endocrine progenitors reveal numerous HNF1A gene targets affected by the mutation. We find decreased glucose transporter GLUT2 expression, which is associated with reduced glucose uptake and ATP production in the MODY3 hiPSC-derived beta-like cells. Overall, our findings reveal the importance of HNF1A in regulating GLUT2 and several genes involved in insulin secretion that can account for the insulin secretory defect clinically observed in MODY3 patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cells, Cultured",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "Diabetes Mellitus, Type 2/*genetics/metabolism",
+      "Female",
+      "Glucose/*metabolism",
+      "Glucose Transporter Type 2/*genetics/metabolism",
+      "Hepatocyte Nuclear Factor 1-alpha/chemistry/*genetics/metabolism",
+      "Humans",
+      "Induced Pluripotent Stem Cells/cytology/metabolism",
+      "Insulin Secretion/*genetics",
+      "Insulin-Secreting Cells/cytology/*metabolism",
+      "Male",
+      "Molecular Dynamics Simulation",
+      "*Mutation",
+      "Pedigree",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Low, Blaise Su Jun",
+        "Lim, Chang Siang",
+        "Ding, Shirley Suet Lee",
+        "Tan, Yaw Sing",
+        "Ng, Natasha Hui Jin",
+        "Krishnan, Vidhya Gomathi",
+        "Ang, Su Fen",
+        "Neo, Claire Wen Ying",
+        "Verma, Chandra S",
+        "Hoon, Shawn",
+        "Lim, Su Chi",
+        "Tai, E Shyong",
+        "Teo, Adrian Kee Keong"
+      ],
+      "short_names": [
+        "Low BSJ",
+        "Lim CS",
+        "Ding SSL",
+        "Tan YS",
+        "Ng NHJ",
+        "Krishnan VG",
+        "Ang SF",
+        "Neo CWY",
+        "Verma CS",
+        "Hoon S",
+        "Lim SC",
+        "Tai ES",
+        "Teo AKK"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3304-0861",
+        "ORCID: 0000-0001-9818-6058",
+        "ORCID: 0000-0002-2522-9421",
+        "ORCID: 0000-0002-3892-3332",
+        "ORCID: 0000-0001-5901-7075"
+      ],
+      "affiliations": [
+        "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Saw Swee Hock School of Public Health, National University of Singapore, Singapore, Singapore.",
+        "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Molecular Engineering Lab (MEL), IMCB, A*STAR, Singapore, Singapore.",
+        "Khoo Teck Puat Hospital, Singapore, Singapore.",
+        "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+        "Department of Biological Sciences, National University of Singapore, Singapore, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore.",
+        "Molecular Engineering Lab (MEL), IMCB, A*STAR, Singapore, Singapore.",
+        "Saw Swee Hock School of Public Health, National University of Singapore, Singapore, Singapore.",
+        "Khoo Teck Puat Hospital, Singapore, Singapore.",
+        "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+        "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore. ateo@imcb.a-star.edu.sg.",
+        "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore. ateo@imcb.a-star.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Low, Blaise Su Jun",
+        "short_name": "Low BSJ",
+        "identifiers": [
+          "0000-0003-3304-0861"
+        ],
+        "affiliations": [
+          "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+          "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lim, Chang Siang",
+        "short_name": "Lim CS",
+        "identifiers": [
+          "0000-0001-9818-6058"
+        ],
+        "affiliations": [
+          "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+          "Saw Swee Hock School of Public Health, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ding, Shirley Suet Lee",
+        "short_name": "Ding SSL",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tan, Yaw Sing",
+        "short_name": "Tan YS",
+        "identifiers": [
+          "0000-0002-2522-9421"
+        ],
+        "affiliations": [
+          "Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ng, Natasha Hui Jin",
+        "short_name": "Ng NHJ",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Krishnan, Vidhya Gomathi",
+        "short_name": "Krishnan VG",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Engineering Lab (MEL), IMCB, A*STAR, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ang, Su Fen",
+        "short_name": "Ang SF",
+        "identifiers": [],
+        "affiliations": [
+          "Khoo Teck Puat Hospital, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Neo, Claire Wen Ying",
+        "short_name": "Neo CWY",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+          "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Verma, Chandra S",
+        "short_name": "Verma CS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore, Singapore.",
+          "Department of Biological Sciences, National University of Singapore, Singapore, Singapore.",
+          "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Hoon, Shawn",
+        "short_name": "Hoon S",
+        "identifiers": [
+          "0000-0002-3892-3332"
+        ],
+        "affiliations": [
+          "Molecular Engineering Lab (MEL), IMCB, A*STAR, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lim, Su Chi",
+        "short_name": "Lim SC",
+        "identifiers": [],
+        "affiliations": [
+          "Saw Swee Hock School of Public Health, National University of Singapore, Singapore, Singapore.",
+          "Khoo Teck Puat Hospital, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tai, E Shyong",
+        "short_name": "Tai ES",
+        "identifiers": [],
+        "affiliations": [
+          "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Teo, Adrian Kee Keong",
+        "short_name": "Teo AKK",
+        "identifiers": [
+          "0000-0001-5901-7075"
+        ],
+        "affiliations": [
+          "Stem Cells and Diabetes Laboratory, Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore. ateo@imcb.a-star.edu.sg.",
+          "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore. ateo@imcb.a-star.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 May 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/27 06:00",
+    "fetched_at": "2026-09-27 18:07:38"
+  },
+  "links": {
+    "cites": [
+      "42318217",
+      "42213199",
+      "42110601",
+      "42100870",
+      "42020312",
+      "41887801",
+      "41807373",
+      "41687621",
+      "41570819",
+      "40774250",
+      "40189101",
+      "40149950",
+      "39457484",
+      "39442620",
+      "39387055",
+      "39057094",
+      "38909044",
+      "38826370",
+      "38819467",
+      "38660759",
+      "38655365",
+      "38260407",
+      "38032734",
+      "37943614",
+      "37817130",
+      "37711893",
+      "37623520",
+      "37409484",
+      "37305084",
+      "37255971",
+      "37137894",
+      "37068109",
+      "37066622",
+      "36573710",
+      "36361808",
+      "36361703",
+      "35918471",
+      "35719247",
+      "35630985",
+      "35412067",
+      "35328643",
+      "35024468",
+      "34636707",
+      "34295307"
+    ],
+    "refs": [
+      "31828876",
+      "31374199",
+      "30535056",
+      "30507613",
+      "30143652",
+      "30074477",
+      "29768196",
+      "29728363",
+      "29606121",
+      "29386132",
+      "29175243",
+      "27899486",
+      "27700527",
+      "27420379",
+      "26615191",
+      "26574453",
+      "26500707",
+      "25422561",
+      "25303535",
+      "24915262",
+      "23986439",
+      "23747250",
+      "23197416",
+      "22733750",
+      "22696037",
+      "22693455",
+      "22660720",
+      "22589549",
+      "22158537",
+      "21920790",
+      "21865645",
+      "21816900",
+      "21750032",
+      "21522129",
+      "21515849",
+      "21460823",
+      "21117705",
+      "20733586",
+      "20523905",
+      "20513432",
+      "20393147",
+      "20132535",
+      "20081858",
+      "19430480",
+      "19289501",
+      "19261174",
+      "19213841",
+      "19213833",
+      "18678618",
+      "18586913",
+      "18567820",
+      "17664243",
+      "17488974",
+      "17488841",
+      "17362055",
+      "17351000",
+      "17172639",
+      "16917892",
+      "16715098",
+      "16377800",
+      "15983230",
+      "15197259",
+      "15048829",
+      "15034147",
+      "14988562",
+      "14668246",
+      "12453420",
+      "12447688",
+      "12235114",
+      "12210150",
+      "12193788",
+      "11978637",
+      "11834736",
+      "11679424",
+      "10969832",
+      "10823833",
+      "10777539",
+      "9593777",
+      "9166684",
+      "9032114",
+      "8866553",
+      "8744570",
+      "8290348",
+      "8067430",
+      "7937157",
+      "7593639",
+      "2673420",
+      "1985954",
+      "1685988"
+    ],
+    "similar": [
+      "34035238",
+      "31145732",
+      "26853433",
+      "32684311",
+      "29597128",
+      "31739614",
+      "10601964",
+      "37137894",
+      "29396371",
+      "9726235",
+      "28410371",
+      "32375679",
+      "28934671",
+      "20393147",
+      "36563694",
+      "20705777",
+      "24559927",
+      "35299962",
+      "35328643",
+      "12031966",
+      "23517481",
+      "25979074",
+      "28493909",
+      "35918471",
+      "23707370",
+      "11174836",
+      "17919177",
+      "30963309",
+      "12712243",
+      "19651901",
+      "10754480",
+      "21761282",
+      "8866553",
+      "21628466",
+      "26176428",
+      "31374199",
+      "16760222",
+      "9075819",
+      "14633861",
+      "29587416",
+      "35081418",
+      "31517624",
+      "35257744",
+      "23679181",
+      "23986439",
+      "35235779",
+      "28766492",
+      "38909044",
+      "21677039",
+      "22672869",
+      "36633628",
+      "19119252",
+      "15657605",
+      "34448879",
+      "29107594",
+      "8945470",
+      "21193557",
+      "37440709",
+      "12882939",
+      "12475773",
+      "18593771",
+      "20682686",
+      "27306424",
+      "32392844",
+      "23306198",
+      "8945471",
+      "16917892",
+      "17407387",
+      "24677712",
+      "36361808",
+      "18003757",
+      "15649097",
+      "20106981",
+      "21823540",
+      "24157454",
+      "29590649",
+      "26324089",
+      "18513305",
+      "33472798",
+      "21267535",
+      "29844095",
+      "25041077",
+      "10944108",
+      "9313763",
+      "27142837",
+      "15841481",
+      "30324491",
+      "36782183",
+      "21874357",
+      "15305805",
+      "19336222",
+      "26822262",
+      "29717618",
+      "38632103",
+      "17033837",
+      "20069546",
+      "9045858",
+      "19181415",
+      "38731926",
+      "19289501",
+      "35317157",
+      "24915262",
+      "26436572",
+      "30507613",
+      "33371430",
+      "39125908",
+      "37777536",
+      "34402288",
+      "20943816",
+      "23778137",
+      "21841783",
+      "37842141",
+      "37943614",
+      "22696037",
+      "21167120",
+      "18497863",
+      "25294126",
+      "35673428",
+      "35796342",
+      "28116330",
+      "32556999",
+      "34269485",
+      "34866061",
+      "39170165",
+      "35992257",
+      "39103322",
+      "35043148",
+      "32369775",
+      "37698079",
+      "37509590",
+      "38985991",
+      "21183721",
+      "37669939",
+      "37146279",
+      "37146277",
+      "38875310"
+    ],
+    "review": [
+      "34035238",
+      "24559927",
+      "35299962",
+      "35328643",
+      "26176428",
+      "31517624",
+      "15649097"
+    ],
+    "pmc": [
+      "8149827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-22843-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34035238/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34035238",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34035238",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse139832",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/34035238",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

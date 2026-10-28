@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40747552",
+  "title": "Predicting p53 Status in IDH-Mutant Gliomas Using MRI-Based Radiomic Model.",
+  "authors": "Li, Jiamin; Lan, Zhihong; Zhang, Xiao; Liang, Xiaoyun; Chen, Hanwei; Yu, Xiangrong",
+  "journal": "Cancer medicine",
+  "published_date": "2025-08-01",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用MRI影像组学预测IDH突变胶质瘤的p53状态，属于临床影像诊断，不涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟建模，与本课题无关。",
+  "abstract": "OBJECTIVES: Accurate and noninvasive detection of p53 status in isocitrate dehydrogenase mutant (IDH-mt) glioma is clinically meaningful for molecular stratification of glioma, yet it remains challenging. We aimed to investigate the diagnostic efficacy of radiomics utilizing pre-surgery contrast-enhanced T1-weighted imaging (CE-T1WI) for predicting p53 status in IDH-mt gliomas. METHODS: A total of seventy-eight patients with pathologically confirmed IDH-mutant glioma were admitted to our institution between January 2011 and October 2018. For each patient, three types of volumes of interest (VOIs) were segmented: (i) VOI(T): the entire tumor (including the necrotic area within the tumor); (ii) VOI(PE): the peritumoral edema; (iii) VOI(T + PE): the entire tumor and peritumoral edema. A total of 962 radiomic features were extracted for each VOI, followed by feature selection and modeling (Rad_VOI(T), Rad_VOI(PE), and Rad_VOI(T + PE) models) using machine learning algorithms. A nomogram was developed to integrate significant clinical factors and radiomic predictors for p53 status prediction. Akaike Information Criterion (AIC) was leveraged as the stopping rule. The predictive performance of the models was evaluated using receiver operating characteristic (ROC) curve analysis. RESULTS: The VOI(PE) model, which included the eight best-performing features, demonstrated the highest predictive performance among the three VOI-based models, with AUCs of 0.811 (95% CI: 0.782-0.840) and 0.810 (95% CI: 0.786-0.834) in the training and validation cohorts, respectively. Age was identified as the only significant clinical factor and was combined with the Rad-scores from VOI(T), VOI(PE), and VOI(T + PE) to construct a clinical-radiomics nomogram with the most notable discriminative ability for p53 status (AIC = -120.19). The AUCs for this nomogram were 0.969 (95% CI: 0.942-0.996) in the training cohort and 0.929 (95% CI: 0.898-0.960) in the validation cohort. CONCLUSION: The CE-T1WI-based radiomic model can noninvasively predict p53 mutation status in IDH-mt gliomas. The textural differences of peritumoral edema may more accurately reflect the underlying tumor heterogeneity associated with p53 status.",
+  "abstract_zh": "目的：准确、无创地检测异柠檬酸脱氢酶突变型（IDH-mt）胶质瘤中p53状态，对于胶质瘤的分子分层具有临床意义，但仍具挑战性。本研究旨在探讨利用术前对比增强T1加权成像（CE-T1WI）的影像组学预测IDH-mt胶质瘤中p53状态的诊断效能。方法：2011年1月至2018年10月期间，共78例经病理确诊的IDH突变型胶质瘤患者在我院就诊。对每位患者，分割三种类型的感兴趣体积（VOIs）：（i）VOI(T)：整个肿瘤（包括肿瘤内坏死区域）；（ii）VOI(PE)：瘤周水肿；（iii）VOI(T + PE)：整个肿瘤及瘤周水肿。对每个VOI提取共962个影像组学特征，随后使用机器学习算法进行特征选择和建模（Rad_VOI(T)、Rad_VOI(PE)和Rad_VOI(T + PE)模型）。开发了一个列线图，整合显著的临床因素和影像组学预测因子以预测p53状态。采用赤池信息准则（AIC）作为停止规则。使用受试者工作特征（ROC）曲线分析评估模型的预测性能。结果：包含八个最佳性能特征的VOI(PE)模型在三个基于VOI的模型中表现出最高的预测性能，训练队列和验证队列的AUC分别为0.811（95% CI：0.782-0.840）和0.810（95% CI：0.786-0.834）。年龄被确定为唯一显著的临床因素，并与来自VOI(T)、VOI(PE)和VOI(T + PE)的Rad评分相结合，构建了具有最显著区分能力的临床-影像组学列线图用于预测p53状态（AIC = -120.19）。该列线图的AUC在训练队列中为0.969（95% CI：0.942-0.996），在验证队列中为0.929（95% CI：0.898-0.960）。结论：基于CE-T1WI的影像组学模型可无创预测IDH-mt胶质瘤中的p53突变状态。瘤周水肿的纹理差异可能更准确地反映与p53状态相关的潜在肿瘤异质性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40747552/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40747552/",
+  "paper_page_path": "papers/pubmed/40747552/index.html"
+}

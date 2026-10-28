@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "42379535",
+    "doi": "10.1016/j.jep.2026.122143",
+    "title": "Elucidating the therapeutic mechanism of Gomisin G from Guomin Gecoction for psoriasis treatment through targeting the PI3K-AKT/JAK3-STAT3 pathway."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Guomin Decoction (GMD) is a traditional Chinese medicine formula that has been empirically used for the treatment of inflammatory skin disorders, including psoriasis. However, its active constituents and underlying mechanisms remain poorly defined. Gomisin G (GomG), a representative bioactive component of GMD, possesses potent anti-inflammatory properties; yet, its role in psoriasis has not been established. AIM OF THE STUDY: This study aimed to identify the key anti-psoriatic component of GMD and clarify its mechanism of action. MATERIAL AND METHODS: We predicted the active components and potential targets of GMD using the Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform (TCMSP) and Swiss Target Prediction. Additionally, we integrated psoriasis-related targets from GeneCard and DisGeNET. Protein-protein interaction (PPI) and network pharmacology analyses were conducted using STRING and Cytoscape. Molecular docking was employed to validate the binding affinity of GomG. The therapeutic effect of GomG was assessed in imiquimod-induced psoriatic mice through histopathological examination and ELISA, coupled with untargeted metabolomics to characterize metabolic reprogramming in skin lesions. In vitro studies were performed in HaCaT keratinocytes, and molecular mechanisms were validated using ELISA and Western blotting. RESULTS: We identified GomG as the core active constituent of GMD. GomG treatment was associated with significant anti-psoriatic effects, accompanied by suppression of the PI3K-AKT/JAK3-STAT3 signaling pathway, reduced release of pro-inflammatory cytokines, ameliorated metabolic disturbance, and attenuated epidermal hyperplasia. CONCLUSIONS: These findings support the traditional use of GMD and highlight GomG as a promising candidate for the treatment of psoriasis.",
+    "keywords": [
+      "Gomisin G",
+      "Guomin decoction",
+      "HaCaT cells",
+      "Metabolomics",
+      "Molecular docking",
+      "Network pharmacology",
+      "PI3K-AKT/JAK3-STAT3",
+      "Psoriasis"
+    ],
+    "mesh_terms": [
+      "*Psoriasis/drug therapy/chemically induced/pathology/metabolism",
+      "Animals",
+      "STAT3 Transcription Factor/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Humans",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use/chemistry",
+      "Molecular Docking Simulation",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Signal Transduction/drug effects",
+      "Janus Kinase 3/metabolism",
+      "Mice",
+      "*Anti-Inflammatory Agents/pharmacology/therapeutic use",
+      "Network Pharmacology",
+      "Imiquimod",
+      "Keratinocytes/drug effects",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Hui",
+        "Tao, Chunyan",
+        "Li, Xiaoting",
+        "Zhang, Yun",
+        "Li, Yingtao",
+        "Dong, Rongjing",
+        "Li, Sisi",
+        "Qu, Lu"
+      ],
+      "short_names": [
+        "Yang H",
+        "Tao C",
+        "Li X",
+        "Zhang Y",
+        "Li Y",
+        "Dong R",
+        "Li S",
+        "Qu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China; Chinese Medicine Guangdong Laboratory, Zhuhai, 519060, China.",
+        "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China.",
+        "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China.",
+        "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China.",
+        "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China.",
+        "Department of Dermatology and Venereology, First Affiliated Hospital of Kunming Medical University, Kunming, 650032, China.",
+        "Wuhan Pulmonary Hospital (Wuhan Institute for Tuberculosis Control), Hubei Branch (Wuhan Pulmonary Hospital) of the National Clinical Research Center for Infectious Diseases, Wuhan, 430030, China. Electronic address: alu365ser@163.com.",
+        "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China; Chinese Medicine Guangdong Laboratory, Zhuhai, 519060, China. Electronic address: qululuhan88@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Hui",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China; Chinese Medicine Guangdong Laboratory, Zhuhai, 519060, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Chunyan",
+        "short_name": "Tao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoting",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yingtao",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Rongjing",
+        "short_name": "Dong R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology and Venereology, First Affiliated Hospital of Kunming Medical University, Kunming, 650032, China."
+        ]
+      },
+      {
+        "full_name": "Li, Sisi",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Wuhan Pulmonary Hospital (Wuhan Institute for Tuberculosis Control), Hubei Branch (Wuhan Pulmonary Hospital) of the National Clinical Research Center for Infectious Diseases, Wuhan, 430030, China. Electronic address: alu365ser@163.com."
+        ]
+      },
+      {
+        "full_name": "Qu, Lu",
+        "short_name": "Qu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chinese Medicine, Yunnan University of Chinese Medicine, Kunming, 650500, China; Chinese Medicine Guangdong Laboratory, Zhuhai, 519060, China. Electronic address: qululuhan88@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2026 Dec 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/01 00:34",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42379535",
+      "42421348",
+      "41539635",
+      "42000881",
+      "41490553",
+      "41785726",
+      "37833363",
+      "40466880",
+      "39326136",
+      "41022608",
+      "41974236",
+      "39577223",
+      "41253925",
+      "37080367",
+      "41482085",
+      "41944069",
+      "36403742",
+      "42173417",
+      "39278295",
+      "41724286",
+      "39374878",
+      "39952005",
+      "37879505",
+      "39917920",
+      "40197419",
+      "33757812",
+      "40089261",
+      "38845538",
+      "35970314",
+      "32493482",
+      "37480968",
+      "34246740",
+      "36280016",
+      "40018935",
+      "37799727",
+      "40233887",
+      "39038503",
+      "39343107",
+      "41780614",
+      "35926779",
+      "38301984",
+      "33513419",
+      "41762831",
+      "39354758",
+      "41891757",
+      "40812556",
+      "40350911",
+      "42044778",
+      "40013962",
+      "40063187",
+      "41344519",
+      "42219068",
+      "40158831",
+      "42252036",
+      "40186900",
+      "40507893",
+      "39306207",
+      "42302946",
+      "42124362",
+      "38114219",
+      "38835124",
+      "42134228",
+      "41802508",
+      "38387682",
+      "38042385",
+      "40350871",
+      "38316220",
+      "40403895",
+      "41101549",
+      "42208704",
+      "39399124",
+      "39074420",
+      "39971014",
+      "41548617",
+      "39617073",
+      "39490433",
+      "33556477",
+      "38814209",
+      "40316154",
+      "37437794",
+      "39520962",
+      "39993869",
+      "37777029",
+      "41692806",
+      "41736432",
+      "41690038",
+      "42474154",
+      "39089660",
+      "39004032",
+      "41759559",
+      "38114126",
+      "34675488",
+      "36083487",
+      "35101570",
+      "41533160",
+      "39923957",
+      "40725959",
+      "42332356",
+      "40850653",
+      "40101980"
+    ],
+    "review": [
+      "42379535"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(26)00997-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

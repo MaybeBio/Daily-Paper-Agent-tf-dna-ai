@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the provided manuscript material only; no external literature verification or supplementary data assessment
+- **Shared manuscript claim summary** The authors report that multisite threonine phosphorylation of the SPT5 CTR1 domain by P-TEFb occurs at a subset of Thr-Pro motifs, does not induce proline cis/trans isomerization, and does not alter global conformational dimensions as measured by SAXS. They further propose that local sequence context, particularly tyrosine residues, modulates phosphorylation efficiency, and that the lack of structural response is consistent with weak polyampholyte behavior predicted by sequence-based models.
+- **Visible evidence base** NMR spectroscopy (chemical shift assignments, CSP analysis, proline-selective experiments), SAXS (P(r), Rg, Kratky plots), MALDI-TOF mass spectrometry (phosphorylation state distributions), all-atom simulations of model peptides, STARLING ensemble predictions with back-calculated SAXS profiles, and site-directed mutagenesis with mass spectrometry readout
+- **Missing materials affecting confidence** Supplementary figures (S1-S10), Supplementary Table S1, BMRB deposition details, raw SAXS data and fitting parameters, STARLING ensemble details, full mass spectra, and experimental replicates for mutagenesis experiments are referenced but not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically rigorous investigation of threonine phosphorylation in a disordered transcriptional regulator. The combination of NMR, SAXS, mass spectrometry, and simulations is appropriate and well-integrated. The central finding, that pThr does not induce proline isomerization in contrast to pSer, is potentially significant for the field of disordered protein regulation. However, several claims regarding sequence-dependent phosphorylation and the mechanistic interpretation of the simulation data require additional support or clarification. The manuscript is generally well-written and accessible, though some technical details are under-specified.
+- **Who would be interested in the results, and why** Researchers studying transcriptional elongation and the SPT5/DSIF regulatory axis; biophysicists and computational biologists focused on intrinsically disordered proteins and post-translational modification; biochemists interested in kinase substrate specificity in disordered contexts; and those studying the differential chemical biology of serine versus threonine phosphorylation.
+- **Major strengths** The study addresses a timely and important question about whether phosphorylation paradigms established for the Pol II CTD generalize to other disordered regulatory domains. The experimental design is logical, progressing from construct validation to phosphorylation mapping to structural analysis. The use of proline-selective NMR methods to resolve a challenging spectral region is technically impressive. The integration of polymer physics models (polyampholyte theory) with experimental SAXS data provides a coherent interpretive framework. The mutagenesis experiments begin to address the sequence determinants of phosphorylation selectivity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of phosphorylation site assignment
+  - **Claim pointer** The authors claim that six specific Thr-Pro motifs undergo "nearly complete" phosphorylation, while three others are minimally phosphorylated, based on NMR CSP analysis.
+  - **Evidence pointer** Results and Discussion, "P-TEFb Phosphorylates Multiple Threonine Sites in CTR1"; Figures F and associated panels
+  - **Concern** The manuscript does not provide a clear quantitative threshold or statistical criterion for classifying a site as "phosphorylated" versus "not phosphorylated" based on CSP values. The distinction between "nearly complete" and "low-population" phosphorylation appears qualitative. Without a defined cutoff or an independent validation method (e.g., site-directed mutagenesis of individual Thr to Ala followed by mass spectrometry to confirm loss of specific phosphate peaks), the assignment of exactly six sites as the primary phosphorylation targets is not fully established. The MALDI data show a distribution of 5-9 phosphates, which is consistent with heterogeneity, but the NMR-based site assignment requires more explicit justification.
+  - **Why it matters** The central claim of sequence-dependent phosphorylation selectivity rests on the accurate identification of which sites are phosphorylated and to what extent. If the site assignment is uncertain, the subsequent interpretation of sequence context effects (tyrosine, arginine, glycine) is compromised.
+  - **Resolution test** Provide a quantitative CSP threshold (e.g., based on chemical shift dispersion or a statistical test relative to unphosphorylated controls), or validate the assignment by generating Thr-to-Ala mutants at each predicted site and demonstrating loss of the corresponding phosphate mass shift and NMR perturbation. Alternatively, provide a table listing per-residue CSP values with explicit classification criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic claim from simulations
+  - **Claim pointer** The authors state that molecular simulations "suggest this resistance arises because phosphothreonine forms an intramolecular hydrogen bond that restricts the backbone flexibility required for isomerization."
+  - **Evidence pointer** Results and Discussion, "Molecular Simulations Highlight Atomistic Differences in pSer and pThr"; Figures A and B
+  - **Concern** The simulation evidence for the proposed hydrogen bond is presented as a single distance measurement (P-HN distance of 3.47 Å for pThr versus 4.36 Å for pSer) and hydrogen bond occupancy values. However, the manuscript does not report the distribution of these distances across the ensemble, the statistical significance of the difference, or whether the hydrogen bond is specifically to the amide proton as opposed to other donors. The claim that this hydrogen bond "restricts backbone flexibility" is inferred but not directly demonstrated; no backbone dihedral angle distributions or flexibility metrics (e.g., root-mean-square fluctuations) are shown. The connection between this local effect and the absence of proline isomerization in the full-length CTR1 is correlational rather than causal.
+  - **Why it matters** The mechanistic explanation for why pThr does not induce isomerization is a key conceptual contribution of the paper. If the simulation evidence is not robust, the mechanistic claim is weakened.
+  - **Resolution test** Provide ensemble distributions of the relevant distances and angles, demonstrate that the hydrogen bond is statistically enriched in pThr relative to pSer, and show that backbone flexibility (e.g., dihedral angle fluctuations or conformational entropy estimates) is reduced in pThr. Ideally, perform a control simulation where the hydrogen bond is disrupted (e.g., by methylation of the amide nitrogen) to test causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the "no structural remodeling" conclusion
+  - **Claim pointer** The authors conclude that phosphorylation does not cause global conformational changes in CTR1, based on SAXS measurements of the native and phosphorylated states.
+  - **Evidence pointer** Results and Discussion, "CTR1 Phosphorylation Does Not Affect Global Conformation"; Figures A-D and Table S2
+  - **Concern** The SAXS analysis is presented for the native and phosphorylated CTR1, but the manuscript does not report whether the phosphorylated sample was fractionated to isolate specific phosphorylation states (e.g., 5-phospho versus 9-phospho). The MALDI data show a distribution of species, and the SAXS measurement represents an ensemble average over this heterogeneous mixture. It is possible that different phosphorylation states have different conformations that average out in the SAXS profile. Additionally, the authors use a phosphomimetic (glutamate) for STARLING predictions, which may not fully recapitulate the electrostatic and hydrogen-bonding properties of phosphothreonine. The conclusion that phosphorylation has no global structural effect is therefore only as strong as the assumption that the heterogeneous phospho-mixture is representative of the biologically relevant state.
+  - **Why it matters** The title and abstract emphasize the absence of global structural remodeling. If the SAXS data cannot distinguish between subpopulations, the conclusion may be an artifact of ensemble averaging.
+  - **Resolution test** Perform size-exclusion chromatography or ion-exchange fractionation to isolate defined phosphorylation states and measure SAXS on each, or use a single-site phosphorylation strategy (e.g., genetic code expansion or selective kinase conditions) to generate homogeneous samples. Alternatively, explicitly acknowledge the limitation and discuss whether the heterogeneity could mask state-specific conformational changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** SAXS data collection and analysis
+  - **Evidence pointer** Methods, "SAXS Data Collection" and "SAXS Data Analysis"
+  - **Issue** The manuscript states that SAXS data were collected at protein concentrations of 2 and 4 mg/mL but does not report whether concentration-dependent effects (e.g., aggregation or interparticle interference) were assessed. The Guinier analysis is mentioned, but the Rg values are only given as a range without uncertainties.
+  - **Required correction** Report the Rg values with standard deviations or confidence intervals for each replicate and condition, and state whether the data at the two concentrations were merged or analyzed separately. Include a statement on the assessment of radiation damage and interparticle effects.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of mutagenesis data
+  - **Affected element** Tyrosine mutagenesis experiments
+  - **Evidence pointer** Results and Discussion, "Tyrosine and Other Local Residues Modulate Phosphorylation Efficiency"
+  - **Issue** The authors report that Y811A reduced phosphorylation, but the magnitude of the effect is not quantified. The statement "reduced phosphorylation" is qualitative, and the manuscript does not provide a numerical comparison (e.g., percentage of phosphorylated species or relative peak intensities) between wild-type and mutant.
+  - **Required correction** Provide a quantitative measure of the phosphorylation reduction for Y811A (e.g., relative abundance of the dominant phospho-species or integrated peak intensities) and state the number of independent replicates performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of simulation description
+  - **Affected element** All-atom peptide simulations
+  - **Evidence pointer** Methods, "Simulations"
+  - **Issue** The simulation methods state that five replicates per sequence were performed, but the total simulation time per replicate is not reported. The equilibration protocol is described, but the production run length is missing. This information is essential for assessing the statistical convergence of the reported distance and occupancy measurements.
+  - **Required correction** Report the total simulation time per replicate and the total aggregated simulation time per sequence. State whether convergence was assessed (e.g., by block averaging or time-series analysis).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation of STARLING predictions
+  - **Affected element** Ensemble predictions and SAXS back-calculation
+  - **Evidence pointer** Results and Discussion, "CTR1 Phosphorylation Does Not Affect Global Conformation"; Figure A
+  - **Issue** The manuscript states that STARLING predictions show "good agreement" with experimental SAXS data, but the chi-squared free values are not reported in the main text. The reader cannot assess the quality of the agreement.
+  - **Required correction** Report the chi-squared free values for the native and phosphomimetic predictions in the main text or in a table, and state the criteria used to judge the agreement as "good."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative threshold for phosphorylation site assignment) and R1-M2 (robustness of the hydrogen bond mechanism from simulations) are the primary technical issues. R1-M3 (heterogeneity of the phospho-sample in SAXS) is important but may be addressable by discussion rather than new experiments.
+- **Assessment against Nature-style criteria** Originality: The study is original in its focus on threonine-specific effects in a non-CTD disordered regulatory domain, and the finding that pThr does not induce isomerization contrasts with established pSer behavior. Scientific importance: The work has clear importance for understanding how phosphorylation encodes regulatory information in disordered proteins, and the polyampholyte framework provides a useful predictive tool. Interdisciplinary readership: The topic bridges transcription biology, biophysical chemistry, and polymer physics, and the writing is largely accessible across these fields. Technical soundness: The experimental methods are generally appropriate and well-executed, but the quantitative basis for site assignment and the simulation-derived mechanism require strengthening. Readability for nonspecialists: The manuscript is clearly written, with helpful context for those outside the immediate field, though some sections (e.g., simulation analysis) assume familiarity with specialized techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, and the experimental approach is sound. However, the quantitative basis for the phosphorylation site assignment and the mechanistic interpretation of the simulations must be strengthened before the conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that six specific Thr-Pro motifs are "nearly completely" phosphorylated is not quantitatively supported without a defined CSP threshold or independent validation.
+- The mechanistic claim that a pThr-specific intramolecular hydrogen bond restricts backbone flexibility and prevents proline isomerization is inferred from limited simulation metrics and is not causally established.
+- The conclusion that phosphorylation does not alter global conformation is based on SAXS of a heterogeneous phospho-mixture and may not capture state-specific effects.
+- The statement that "specific residues modulating kinase selectivity" is supported by mutagenesis data, but the quantitative extent of the effect is not reported.
+- The generalizability of the findings to other threonine-rich disordered domains is speculative and not directly tested.

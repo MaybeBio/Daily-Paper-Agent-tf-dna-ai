@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "40300727",
+    "doi": "10.1016/j.jbc.2025.108552",
+    "title": "A TATA-box-binding protein binds single-stranded DNA in two modes: To poly(G) tracts and to flexible DNA regions."
+  },
+  "content": {
+    "abstract": "The TATA-box-binding protein (TBP) homolog from Giardia intestinalis (gTBP) is highly divergent, lacking key phenylalanine residues crucial for binding and unwinding double-stranded DNA. Surprisingly, we determined that gTBP exhibits unconventional DNA-binding properties and preferentially binds to single-stranded DNA (ssDNA) using a DNA-binding pocket that is narrower relative to other eukaryotic TBPs. Additionally, we showed that gTBP binds in two distinct modes, which we call the A and B modes, that are dependent on ssDNA sequence and protein concentration. For the A mode, gTBP binds as an oligomer to ssDNA that contains four or more consecutive guanine bases. For the B mode, using base stacking energy potentials between adjacent dinucleotides as a simple proxy for per-nucleotide flexibility, gTBP binds as a monomer to ssDNA in a manner that is dependent on DNA structural properties. To validate the latter concept, we designed de novo DNA sequences with base stacking energy profiles comparable to two DNA sequences that bind gTBP and showed that these designed sequences can compete for gTBP binding against the two original sequences. Overall, we present a potential new perspective on eukaryotic transcription regulation based on our findings around unconventional gTBP-ssDNA binding. A comprehensive understanding of the binding modes of gTBP could yield insights into Giardia's biology and eukaryotic transcription in general.",
+    "keywords": [
+      "AlphaFold3",
+      "DNA structure",
+      "EMSA",
+      "G-quadruplex",
+      "Giardia intestinalis",
+      "base stacking energy",
+      "computer modelling",
+      "parasite",
+      "protein binding microarray (PBM)",
+      "protist",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*DNA, Single-Stranded/metabolism/chemistry/genetics",
+      "*Giardia lamblia/metabolism/genetics/chemistry",
+      "*TATA-Box Binding Protein/metabolism/chemistry/genetics",
+      "*Protozoan Proteins/metabolism/chemistry/genetics",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Freitag, Kieran",
+        "Marlow, Melanie",
+        "Joseph, Joella",
+        "Ta, Robert",
+        "Krekhno, Jessica",
+        "Schuett, Evan",
+        "Yang, Ally",
+        "Ray, Debashish",
+        "Hughes, Timothy",
+        "Rafferty, Steven",
+        "Yee, Janet"
+      ],
+      "short_names": [
+        "Freitag K",
+        "Marlow M",
+        "Joseph J",
+        "Ta R",
+        "Krekhno J",
+        "Schuett E",
+        "Yang A",
+        "Ray D",
+        "Hughes T",
+        "Rafferty S",
+        "Yee J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada.",
+        "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada.",
+        "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada.",
+        "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada.",
+        "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada.",
+        "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada.",
+        "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada.",
+        "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada. Electronic address: jyee@trentu.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Freitag, Kieran",
+        "short_name": "Freitag K",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Marlow, Melanie",
+        "short_name": "Marlow M",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Joseph, Joella",
+        "short_name": "Joseph J",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Ta, Robert",
+        "short_name": "Ta R",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Krekhno, Jessica",
+        "short_name": "Krekhno J",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Schuett, Evan",
+        "short_name": "Schuett E",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Yang, Ally",
+        "short_name": "Yang A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Ray, Debashish",
+        "short_name": "Ray D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Hughes, Timothy",
+        "short_name": "Hughes T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Rafferty, Steven",
+        "short_name": "Rafferty S",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Yee, Janet",
+        "short_name": "Yee J",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Program, Trent University, Peterborough, Ontario, Canada. Electronic address: jyee@trentu.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/30 00:31",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38718835",
+      "38597606",
+      "37933859",
+      "37086783",
+      "34265844",
+      "34255847",
+      "33892767",
+      "33816053",
+      "33795473",
+      "32771681",
+      "32636376",
+      "31754698",
+      "30933978",
+      "30442764",
+      "29946135",
+      "29870236",
+      "28959734",
+      "28334825",
+      "28143930",
+      "27956239",
+      "27495142",
+      "26350216",
+      "26297679",
+      "25953851",
+      "25215497",
+      "24637158",
+      "24507606",
+      "24297440",
+      "23846655",
+      "23354101",
+      "23166026",
+      "23062343",
+      "22611020",
+      "21988835",
+      "21321018",
+      "19874015",
+      "19749174",
+      "19561594",
+      "19443739",
+      "18515081",
+      "17901334",
+      "17703195",
+      "17425802",
+      "17403692",
+      "17012276",
+      "16407213",
+      "15543148",
+      "15289474",
+      "15173120",
+      "15041689",
+      "12734189",
+      "12195017",
+      "11875576",
+      "11864821",
+      "11713317",
+      "11254964",
+      "10948264",
+      "10753960",
+      "10391910",
+      "10385521",
+      "9741622",
+      "9574910",
+      "8757291",
+      "8643494",
+      "8609157",
+      "8413605",
+      "8413604",
+      "8367480",
+      "7984417",
+      "7794913",
+      "7777558",
+      "7775443",
+      "7775442",
+      "5420325",
+      "3315805",
+      "2569738",
+      "2320109",
+      "2038335",
+      "1840670",
+      "1586947"
+    ],
+    "similar": [
+      "40300727",
+      "19668860",
+      "41605430",
+      "23062343",
+      "31473857",
+      "29466468",
+      "15752353",
+      "26529408",
+      "35597524",
+      "32771681",
+      "34108018",
+      "30933978",
+      "41037282",
+      "21366326",
+      "12767124",
+      "17425802",
+      "12107178",
+      "11929523",
+      "17320040",
+      "24200676",
+      "24003239",
+      "15699629",
+      "9325092",
+      "16179647",
+      "19582697",
+      "1827990",
+      "15133082",
+      "17901334",
+      "23151674",
+      "28416612",
+      "24829456",
+      "11470894",
+      "8805365",
+      "34287056",
+      "25662961",
+      "25352516",
+      "9545375",
+      "14695279",
+      "7979247",
+      "15879529",
+      "16500964",
+      "11048951",
+      "27255709",
+      "17576671",
+      "11700054",
+      "16387764",
+      "14585974",
+      "15760658",
+      "27667393",
+      "38608978",
+      "8444340",
+      "15306462",
+      "11836536",
+      "10049334",
+      "22054219",
+      "22355320",
+      "29111974",
+      "15362978",
+      "16888622",
+      "17681538",
+      "16310259",
+      "20026212",
+      "16407329",
+      "20028139",
+      "12535529",
+      "8735270",
+      "31713614",
+      "19090808",
+      "29514716",
+      "11341827",
+      "8196638",
+      "12818428",
+      "18096614",
+      "12899613",
+      "27122319",
+      "8994183",
+      "30604864",
+      "9455487",
+      "22298788",
+      "25575717",
+      "38522699",
+      "22543238",
+      "11162464",
+      "24369431",
+      "40052821",
+      "12446791",
+      "17661353",
+      "41099709",
+      "28539359",
+      "40396489",
+      "15289474",
+      "23201273",
+      "8208615",
+      "7524668",
+      "33727188",
+      "15066429",
+      "12471023",
+      "18195009",
+      "17002295",
+      "31604524"
+    ],
+    "review": [
+      "40300727",
+      "35597524",
+      "32771681",
+      "7979247"
+    ],
+    "pmc": [
+      "12209930"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(25)00401-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40300727/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

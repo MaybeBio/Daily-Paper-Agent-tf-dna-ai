@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors generated matched single-cell RNA and ATAC sequencing data from human scalp biopsies, integrated these data to infer enhancer-gene links, and used these regulatory maps to prioritize cell types, genes, and causal variants for androgenetic alopecia (AGA), eczema, and other complex traits. They report enrichment of AGA GWAS signals in dermal papilla open chromatin and use machine learning to nominate functional SNPs affecting expression of WNT10A and IL18RAP.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical details, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures, tables, methods, supplementary data, and any statistical or computational details
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and potentially impactful approach to integrating single-cell chromatin and transcriptomic data for understanding genetic risk in hair and skin diseases. The conceptual framework is sound and the target diseases are of broad interest. However, the abstract alone provides insufficient evidence to evaluate the validity, robustness, or novelty of the claims. Key quantitative results, validation strategies, and methodological details are absent, preventing a rigorous assessment of whether the conclusions are supported.
+- **Who would be interested in the results, and why** Researchers in dermatology, hair biology, complex trait genetics, single-cell genomics, and gene regulation would be interested. The work offers a potential resource for linking noncoding GWAS variants to causal genes and cell types in skin and hair disorders, which is a central challenge in human genetics. The methodological approach may also appeal to computational biologists developing enhancer-gene linking and variant effect prediction tools.
+- **Major strengths** The use of matched scRNA-seq and scATAC-seq from human scalp is a valuable and relatively underexplored tissue context. The claim of improved enhancer-gene linking over prior approaches suggests methodological advancement. The focus on disease-relevant cell types and causal variant prioritization addresses a critical gap in interpreting GWAS findings. The integration of machine learning to nominate functional SNPs is a modern and potentially powerful strategy.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that integrated analyses infer 50-100% more enhancer-gene links than prior approaches and that aggregate accessibility at linked enhancers predicts expression.
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract provides no quantitative data, statistical metrics, or comparison details to support the claimed improvement in enhancer-gene linking or the predictive power of aggregate accessibility. Without specific numbers, benchmarks, or validation against independent datasets, this claim cannot be evaluated.
+  - **Why it matters** The central methodological contribution of the paper rests on this claim. If the improvement is marginal or not robust, the downstream biological interpretations may be compromised.
+  - **Resolution test** Provide quantitative comparisons with prior methods, including performance metrics (e.g., precision, recall, correlation) and validation in independent datasets or experimental assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that AGA GWAS signals are strongly and specifically enriched in dermal papilla cell open chromatin regions.
+  - **Evidence pointer** Abstract only; no enrichment statistics or cell type definitions provided
+  - **Concern** No enrichment scores, p-values, or effect sizes are reported. The specificity of enrichment relative to other cell types is asserted but not demonstrated. The abstract does not clarify how cell types were defined or how confounding factors (e.g., linkage disequilibrium, sample size) were handled.
+  - **Why it matters** This is a key biological conclusion with implications for AGA pathogenesis. Without rigorous statistical support, the claim of specificity is unsubstantiated.
+  - **Resolution test** Report enrichment statistics with appropriate multiple testing correction, include comparison against all other cell types, and describe the GWAS variant set and LD-based null models used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Machine-learning models nominate candidate functional SNPs linked to expression of WNT10A in AGA and IL18RAP in eczema.
+  - **Evidence pointer** Abstract only; no model details or validation provided
+  - **Concern** The abstract does not describe the machine learning approach, training data, feature sets, or validation strategy. No evidence is provided that the nominated SNPs have functional effects on gene expression, such as reporter assays, eQTL data, or CRISPR perturbations.
+  - **Why it matters** The claim of causal variant nomination is central to the translational relevance of the work. Without functional validation or at least orthogonal support, these nominations remain speculative.
+  - **Resolution test** Provide model performance metrics, external validation in independent eQTL or functional genomics datasets, and ideally experimental validation of at least one nominated SNP.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "identifying causal variants and interpreting their function requires deciphering gene-regulatory networks" is somewhat vague and could be more precise about the specific gap being addressed.
+  - **Required correction** Clarify what is meant by "deciphering gene-regulatory networks" in this context, e.g., identifying enhancer-promoter interactions and transcription factor binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract, no data availability statement
+  - **Issue** The abstract does not mention whether the single-cell data and computational tools will be made publicly available, which is critical for reproducibility and community use.
+  - **Required correction** Add a statement on data and code availability in the abstract or ensure it is prominently included in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Disease coverage
+  - **Evidence pointer** Abstract, mention of "other complex traits"
+  - **Issue** The abstract mentions "other complex traits" but does not specify which traits or how they were analyzed, leaving the scope unclear.
+  - **Required correction** List the specific traits analyzed or clarify that this is a minor component of the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence, statistical rigor, and validation for the three core claims. Without these, the case for the paper's conclusions is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of matched single-cell chromatin and transcriptomic profiling in human scalp is not entirely novel but is applied to a relatively underexplored tissue and disease context. The claim of improved enhancer-gene linking suggests methodological novelty, but this cannot be assessed from the abstract.
+  - Scientific importance: The potential to link GWAS variants to causal genes and cell types in hair and skin diseases is of high importance, given the prevalence of these conditions and the difficulty of interpreting noncoding variants.
+  - Interdisciplinary readership: The work bridges dermatology, genetics, and computational biology, which could attract a broad audience. However, the abstract is written in a way that assumes familiarity with single-cell genomics and GWAS methods.
+  - Technical soundness: Cannot be evaluated from the abstract. No details on data quality, computational pipelines, statistical models, or validation are provided.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses technical terms (e.g., scRNA-seq, scATAC-seq, enhancer-gene links) without explanation, which may limit accessibility for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework and plausible hypotheses, but the absence of quantitative results, statistical support, and validation means the core claims cannot be assessed. I would be supportive if the full manuscript provides rigorous evidence addressing the major concerns.
+
+## Risk / unsupported claims
+- The claim of 50-100% more enhancer-gene links than prior approaches is unsupported without quantitative comparison data.
+- The claim that aggregate accessibility at linked enhancers predicts expression is unsupported without correlation or predictive performance metrics.
+- The claim of strong and specific enrichment of AGA GWAS signals in dermal papilla open chromatin is unsupported without enrichment statistics and comparison to other cell types.
+- The nomination of candidate functional SNPs for WNT10A and IL18RAP is unsupported without model details or functional validation.
+- The general statement that the work "reveals principles of gene regulation" is overreaching given the lack of demonstrated mechanistic insights in the abstract.

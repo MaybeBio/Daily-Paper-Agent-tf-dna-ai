@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "pmid": "41787525",
+    "doi": "10.1186/s40001-026-03966-0",
+    "title": "Screening, validation, and transcriptional regulation analysis of oxidative stress-related biomarkers in gestational diabetes mellitus: SH3BP5, ITGAM, PRRG1, and MIS12."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gestational diabetes mellitus (GDM) is a common pregnancy complication linked to adverse outcomes, highlighting the need for new diagnostic markers. This study aimed to identify oxidative stress-related genes as potential biomarkers for GDM using integrated bioinformatics and experimental validation. METHODS: The GSE70493 dataset was obtained from the Gene Expression Omnibus (GEO) database and analyzed using weighted gene co-expression network analysis (WGCNA), functional enrichment, and differential expression analysis. Reactive oxygen species (ROS) activity scores for each sample were calculated using single-sample gene set enrichment analysis (ssGSEA). ROS-associated differentially expressed genes (DEGs) were further screened using the least absolute shrinkage and selection operator (LASSO), support vector machine-recursive feature elimination (SVM-RFE), and RandomForest algorithms to identify pivotal genes. A diagnostic radial-kernel support vector machine (SVM) classifier was constructed and rigorously evaluated through a 5 x 5 nested cross-validation framework on the training set, followed by validation in an independent external cohort (GSE249311). A transcription factor (TF)-gene regulatory network was established via the JASPAR database on the NetworkAnalyst 3.0 platform. The biological role of PRRG1 in GDM was also explored using cellular experiments. RESULTS: WGCNA identified 7 co-expression modules, among which the green, pink, and black modules showed a strong positive correlation with ROS scores. Enrichment analysis showed that the module genes were mainly implicated in protein hydrolysis and processing, cell adhesion molecule binding, and various immune-related pathways. 765 DEGs, including 470 downregulated genes and 295 upregulated genes, were screened between GDM samples and control samples. Machine learning algorithm identified four hub genes (SH3BP5, ITGAM, PRRG1, and MIS12). When the four hub genes were combined, ROC curves showed that the hub genes exhibited strong diagnostic value for GDM. In GDM, SH3BP5, MIS12, and ITGAM were low-expressed, while PRRG1 was high-expressed. The TF-gene regulatory network showed that the hub genes could regulate multiple transcription factors separately. In vitro experiments demonstrated that PRRG1 knockdown significantly enhanced the viability, migration, and invasion of GDM cells.Table: Table [3, 4] was received; however, no citation was provided in the manuscript. Please provide the location of where to insert the citation in the main body of the text. Otherwise, kindly advise us on how to proceed. Please note that tables should be cited in ascending numerical order in the main body of the textDear editor, please consider removing the Tables 3 and 4 in the paper, since the data of molecular docking are absent in the current paper. CONCLUSION: We provided four novel biomarkers targeting oxidative stress for the treatment of GDM.",
+    "keywords": [
+      "Diagnostic biomarkers",
+      "Gestational diabetes mellitus",
+      "Oxidative stress",
+      "Transcription factor-gene regulatory networks"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Haiyu",
+        "Wu, Wen"
+      ],
+      "short_names": [
+        "He H",
+        "Wu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, The Third Xiangya Hospital of Central South University, Changsha, 410013, China.",
+        "Department of Obstetrics and Gynecology, The Third Xiangya Hospital of Central South University, Changsha, 410013, China. wuwen20601@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Haiyu",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The Third Xiangya Hospital of Central South University, Changsha, 410013, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wen",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The Third Xiangya Hospital of Central South University, Changsha, 410013, China. wuwen20601@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2026 Mar 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/06 09:04",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41787525",
+      "31881887",
+      "41117218",
+      "41388523",
+      "40860289",
+      "38476236",
+      "36532015",
+      "35764238",
+      "40374866",
+      "39876591",
+      "38291374",
+      "41432483",
+      "39375405",
+      "40997906",
+      "38371524",
+      "31886571",
+      "41013556",
+      "39263286",
+      "36660690",
+      "39142001",
+      "33890634",
+      "41300841",
+      "40406620",
+      "41146237",
+      "40630623",
+      "41487007",
+      "41029776",
+      "40263690",
+      "36316672",
+      "41508240",
+      "41583295",
+      "38951833",
+      "39170142",
+      "40901831",
+      "39556279",
+      "39509434",
+      "41132349",
+      "41415264",
+      "41164411",
+      "40849369",
+      "38260098",
+      "41709967",
+      "39697326",
+      "37359529",
+      "37691920",
+      "35713363",
+      "39507054",
+      "37250717",
+      "36148059",
+      "41116042",
+      "40967560",
+      "38711508",
+      "35473522",
+      "40313958",
+      "41052072",
+      "37908757",
+      "41006883",
+      "38274270",
+      "36699262",
+      "41334450",
+      "37454542",
+      "40868258",
+      "39394418",
+      "41324863",
+      "40754871",
+      "39341981",
+      "37974210",
+      "41073551",
+      "39138958",
+      "41200172",
+      "40738705",
+      "36470144",
+      "41044520",
+      "36034449",
+      "41611834",
+      "39206894",
+      "36792688",
+      "38028617",
+      "36225941",
+      "39139563",
+      "39923303",
+      "40574839",
+      "41479901",
+      "40964162",
+      "38076120",
+      "38544384",
+      "40374840",
+      "41627661",
+      "37359526",
+      "40832467",
+      "40830558",
+      "39364223",
+      "30168213",
+      "41333466",
+      "40619562",
+      "36782344",
+      "41620921",
+      "37582718",
+      "37608666",
+      "35558576"
+    ],
+    "review": [
+      "41787525"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-026-03966-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ITGAM-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

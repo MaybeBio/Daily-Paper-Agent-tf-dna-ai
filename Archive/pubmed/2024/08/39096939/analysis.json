@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39096939",
+  "title": "APOD: A biomarker associated with oxidative stress in acute rejection of kidney transplants based on multiple machine learning algorithms and animal experimental validation.",
+  "authors": "Pei, Jun; Zhang, Jie; Yu, Chengjun; Luo, Jin; Hua, Yi; Wei, Guanghui",
+  "journal": "Transplant immunology",
+  "published_date": "2024-08-04",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习算法筛选肾移植急性排斥中氧化应激相关生物标志物APOD，虽涉及转录因子调控预测，但核心是临床生物标志物与免疫浸润分析，无蛋白质-DNA互作建模或TF-DNA结合机制研究，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Oxidative stress is an unavoidable process in kidney transplantation and is closely related to the development of acute rejection after kidney transplantation. This study aimed to investigate the biomarkers associated with oxidative stress and their potential biological functions during acute rejection of kidney transplants. METHODS: We identified Hub genes using five machine learning algorithms based on differentially expressed genes (DEGs) in the kidney transplant acute rejection dataset GSE50058 and oxidative stress-related genes (OS) obtained from the MSigDB database, and validated them with the datasets GSE1563 and GSE9493, as well as with animal experiments; Subsequently, we explored the potential biological functions of Hub genes using single-gene GSEA enrichment analysis; The Cibersort algorithm was used to explore the altered levels of infiltration of 22 immune cells during acute rejection of renal transplantation, and a correlation analysis between Hub genes and immune cells was performed; Finally, we also explored transcription factors (TFs), miRNAs, and potential drugs that regulate Hub genes. RESULTS: We obtained a total of 57 genes, which we defined as oxidative stress-associated differential genes (DEOSGs), after intersecting DEGs during acute rejection of kidney transplants with OSs obtained from the MSigDB database; The results of enrichment analysis revealed that DEOSGs were mainly enriched in response to oxidative stress, response to reactive oxygen species, and regulation of oxidative stress and reactive oxygen species; Subsequently, we identified one Hub gene as APOD using five machine learning algorithms, which were validated by validation sets and animal experiments; The results of single-gene GSEA enrichment analysis revealed that APOD was closely associated with the regulation of immune signaling pathways during acute rejection of kidney transplants; The Cibersort algorithm found that the infiltration levels of a total of 10 immune cells were altered in acute rejection, while APOD was found to correlate with the expression of multiple immune cells; Finally, we also identified 154 TFs, 12 miRNAs, and 12 drugs or compounds associated with APOD regulation. CONCLUSION: In this study, APOD was identified as a biomarker associated with oxidative stress during acute rejection of kidney transplants using multiple machine learning algorithms, which provides a potential therapeutic target for mitigating oxidative stress injury and reducing the incidence of acute rejection in kidney transplantation.",
+  "abstract_zh": "背景：氧化应激是肾移植过程中不可避免的过程，与肾移植后急性排斥反应的发生密切相关。本研究旨在探讨肾移植急性排斥反应期间与氧化应激相关的生物标志物及其潜在生物学功能。方法：我们基于肾移植急性排斥反应数据集GSE50058中的差异表达基因（DEGs）与从MSigDB数据库获得的氧化应激相关基因（OS），使用五种机器学习算法鉴定Hub基因，并利用数据集GSE1563和GSE9493以及动物实验进行验证；随后，我们通过单基因GSEA富集分析探讨Hub基因的潜在生物学功能；使用Cibersort算法探讨肾移植急性排斥反应期间22种免疫细胞浸润水平的变化，并进行Hub基因与免疫细胞之间的相关性分析；最后，我们还探讨了调控Hub基因的转录因子（TFs）、miRNAs及潜在药物。结果：我们将肾移植急性排斥反应期间的DEGs与从MSigDB数据库获得的OSs相交集，共获得57个基因，定义为氧化应激相关差异基因（DEOSGs）；富集分析结果显示，DEOSGs主要富集于对氧化应激的反应、对活性氧的反应以及氧化应激和活性氧的调控；随后，我们使用五种机器学习算法鉴定出一个Hub基因APOD，并通过验证集和动物实验进行了验证；单基因GSEA富集分析结果显示，APOD与肾移植急性排斥反应期间免疫信号通路的调控密切相关；Cibersort算法发现，急性排斥反应中总共10种免疫细胞的浸润水平发生变化，而APOD被发现与多种免疫细胞的表达相关；最后，我们还鉴定了154个TFs、12个miRNAs和12个与APOD调控相关的药物或化合物。结论：在本研究中，通过多种机器学习算法，APOD被鉴定为肾移植急性排斥反应期间与氧化应激相关的生物标志物，这为减轻氧化应激损伤和降低肾移植急性排斥反应发生率提供了潜在的治疗靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39096939/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39096939/",
+  "paper_page_path": "papers/pubmed/39096939/index.html"
+}

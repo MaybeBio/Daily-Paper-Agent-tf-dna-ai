@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "38618725",
+    "doi": "10.1615/CritRevImmunol.2024051277",
+    "title": "Exploration of Diagnostic Markers Associated with Inflammation in Chronic Kidney Disease Based on WGCNA and Machine Learning."
+  },
+  "content": {
+    "abstract": "Chronic kidney disease (CKD) is a common disorder related to inflammatory pathways; its effective management remains limited. This study aimed to use bioinformatics analysis to find diagnostic markers that might be therapeutic targets for CKD. CKD microarray datasets were screened from the GEO database and the differentially expressed genes (DEGs) in CKD dataset GSE98603 were analyzed. Gene set variation analysis (GSVA) was used to explore the activity scores of the inflammatory pathways and samples. Algorithms such as weighted gene co-expression network analysis (WGCNA) and Lasso were used to screen CKD diagnostic markers related to inflammation. Then functional enrichment analysis of inflammation-related DEGs was performed. ROC curves were conducted to examine the diagnostic value of inflammation-related hub-genes. Lastly, quantitative real-time PCR further verified the prediction of bioinformatics. A total of 71 inflammation-related DEGs were obtained, of which 5 were hub genes. Enrichment analysis showed that these genes were significantly enriched in inflammation-related pathways (NF-kappaB, JAK-STAT, and MAPK signaling pathways). ROC curves showed that the 5 CKD diagnostic markers (TIGD7, ACTA2, ACTG2, MAP4K4, and HOXA11) also exhibited good diagnostic value. In addition, TIGD7, ACTA2, ACTG2, and HOXA11 expression was downregulated while MAP4K4 expression was upregulated in LPS-induced HK-2 cells. The present study identified TIGD7, ACTA2, ACTG2, MAP4K4, and HOXA11 as reliable CKD diagnostic markers, thereby providing a basis for further understanding of CKD in clinical treatments.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Expression Profiling",
+      "Machine Learning",
+      "NF-kappa B",
+      "Inflammation/diagnosis",
+      "*Renal Insufficiency, Chronic/diagnosis/genetics",
+      "Protein Serine-Threonine Kinases",
+      "Intracellular Signaling Peptides and Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Qianjia",
+        "Yang, Yang",
+        "Lin, Chongze"
+      ],
+      "short_names": [
+        "Wu Q",
+        "Yang Y",
+        "Lin C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, Wenzhou TCM Hospital of Zhejiang Chinese Medical University, Wenzhou, Zhejiang, 325000, China.",
+        "Wenzhou TCM Hospital of Zhejiang Chinese Medical University.",
+        "Department of Nephrology, Wenzhou TCM Hospital of Zhejiang Chinese Medical University, Wenzhou, Zhejiang, 325000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Qianjia",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Wenzhou TCM Hospital of Zhejiang Chinese Medical University, Wenzhou, Zhejiang, 325000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou TCM Hospital of Zhejiang Chinese Medical University."
+        ]
+      },
+      {
+        "full_name": "Lin, Chongze",
+        "short_name": "Lin C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Wenzhou TCM Hospital of Zhejiang Chinese Medical University, Wenzhou, Zhejiang, 325000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Critical reviews in immunology"
+    ],
+    "journal_abbrev": [
+      "Crit Rev Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/15 06:44",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42070774",
+      "39705287"
+    ],
+    "refs": [],
+    "similar": [
+      "38618725",
+      "36923221",
+      "32340064",
+      "36642989",
+      "30448842",
+      "39427047",
+      "36860851",
+      "39058890",
+      "37359526",
+      "35571562",
+      "37264340",
+      "31257514",
+      "38051734",
+      "37684281",
+      "36699262",
+      "38184215",
+      "36814902",
+      "36968495",
+      "35713363",
+      "37026010",
+      "34856750",
+      "37837870",
+      "38274270",
+      "35764238",
+      "38384969",
+      "34714891",
+      "36603559",
+      "34790731",
+      "36341378",
+      "38027143",
+      "35865542",
+      "37235492",
+      "38533476",
+      "38650155",
+      "35909518",
+      "38515668",
+      "36960398",
+      "35278479",
+      "34536521",
+      "29642064",
+      "37179305",
+      "33046027",
+      "35578687",
+      "34861826",
+      "35844557",
+      "36978098",
+      "37662976",
+      "35958412",
+      "37974210",
+      "36049413",
+      "37085667",
+      "37740761",
+      "31721901",
+      "37683138",
+      "38291374",
+      "35709926",
+      "35558576",
+      "35047008",
+      "36948405",
+      "36203606",
+      "38283355",
+      "38371524",
+      "38390317",
+      "38573982",
+      "37582718",
+      "36195955",
+      "37704087",
+      "35562622",
+      "37743309",
+      "36438903",
+      "37503333",
+      "36823662",
+      "37008314",
+      "36035194",
+      "36742304",
+      "37153000",
+      "33451334",
+      "36685864",
+      "35910761",
+      "36148059",
+      "35091780",
+      "36311708",
+      "36643579",
+      "37059863",
+      "35392084",
+      "31390578",
+      "36576616",
+      "38077447",
+      "34867380",
+      "37265689",
+      "37454542",
+      "37732314",
+      "38601640",
+      "37760894",
+      "34908186",
+      "36854280",
+      "36777638",
+      "36437991",
+      "37085805"
+    ],
+    "review": [
+      "38618725"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/chronickidneydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chronic Kidney Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-866",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://www.begellhouse.com/journals/2ff21abf44b19838,5a98a32d16098686,7668340c651b6426.html",
+        "provider": "BegellHouse Publisher, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

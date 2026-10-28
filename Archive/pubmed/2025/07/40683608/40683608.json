@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "40683608",
+    "doi": "10.1016/j.bbadis.2025.167988",
+    "title": "Identification and validation of BCL11A as a neural and immune vulnerability factor in pancreatic adenocarcinoma."
+  },
+  "content": {
+    "abstract": "As a highly malignant tumor, pancreatic adenocarcinoma (PAAD) has nonspecific symptoms and a poor prognosis. Previous studies have demonstrated that perineural invasion (PNI) and neurotrophic factors (NFs) play essential roles in PAAD. Nevertheless, the prognostic significance and functions of NF-related genes (NFRGs) in PAAD remain unclear. In this research, we conducted an intersection analysis utilizing differentially expressed genes (DEGs) found in the TCGA-PAAD cohort along with NFRGs from the Genecard. Using machine learning (ML) techniques, including LASSO regression, SVM-RFE and random forest algorithms, we developed a highly accurate prognostic model centered on NFRGs, ultimately pinpointing BCL11A as the crucial prognostic NFRG. Via analysis of the TCGA cohort, immunohistochemistry of 20 pairs of clinical samples and western blot of PAAD cell lines, BCL11A was found to be low-expressed in PAAD and associated with a poor prognosis. Experiments conducted both in vitro and in vivo revealed that the increased expression of BCL11A suppressed tumor growth and triggered apoptosis through endoplasmic reticulum (ER) stress. Moreover, immune infiltration analysis found increased CD8(+) T cells in the BCL11A(high) group. Flow cytometry demonstrated that overexpression of BCL11A in vivo promoted intratumoral CD8(+) T cell infiltration and activation, and increased PD-L1 expression. Our study confirmed BCL11A as a potential biomarker of clinical prognosis, immune infiltration, and neural-tumor interactions in PAAD, and might provide new insights for diagnosis and treatment of this tumor.",
+    "keywords": [
+      "BCL11A",
+      "ER stress",
+      "NFRGs",
+      "PAAD",
+      "Tumor immunity",
+      "Tumorigenesis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/immunology/pathology/genetics/metabolism",
+      "*Adenocarcinoma/immunology/pathology/genetics/metabolism",
+      "Animals",
+      "Cell Line, Tumor",
+      "*B-Cell CLL-Lymphoma 10 Protein/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "Mice",
+      "Female",
+      "Male",
+      "*Biomarkers, Tumor/genetics/immunology/metabolism",
+      "Apoptosis/genetics",
+      "Endoplasmic Reticulum Stress",
+      "Middle Aged",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Aotian",
+        "Wang, Jialun",
+        "Yang, Jiaying",
+        "Wang, Yue",
+        "Wu, Chenchen",
+        "Yang, Huaina",
+        "Fan, Yaoyao",
+        "Gao, Qing",
+        "Hu, Yiqiao",
+        "Li, Xihan",
+        "Zou, Xiaoping"
+      ],
+      "short_names": [
+        "Chen A",
+        "Wang J",
+        "Yang J",
+        "Wang Y",
+        "Wu C",
+        "Yang H",
+        "Fan Y",
+        "Gao Q",
+        "Hu Y",
+        "Li X",
+        "Zou X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing 210008, China. Electronic address: atchen@smail.nju.edu.cn.",
+        "Department of Gastroenterology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing 210008, China. Electronic address: DG20350083@smail.nju.edu.cn.",
+        "State Key Laboratory of Pharmaceutical Biotechnology, Medical School, School of Life Science, Nanjing University, Nanjing 210008, China. Electronic address: 15660938793@163.com.",
+        "Department of Gastroenterology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing 210008, China. Electronic address: 20221799@njucm.edu.cn.",
+        "Department of Gastroenterology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing 210008, China. Electronic address: wuchenchen99@163.com.",
+        "Department of Gastroenterology, Joint Institute of Nanjing Drum Tower Hospital for Life and Health, College of Life Science, Nanjing Normal University, Nanjing 210008, China. Electronic address: 15069246540@163.com.",
+        "School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou 310053, China. Electronic address: 202411111411002@zcmu.edu.cn.",
+        "School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou 310053, China. Electronic address: gaoqing1992ye@163.com.",
+        "State Key Laboratory of Pharmaceutical Biotechnology, Medical School, School of Life Science, Nanjing University, Nanjing 210008, China. Electronic address: huyiqiao@nju.edu.cn.",
+        "Department of Gastroenterology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing 210008, China; Department of Gastroenterology, Joint Institute of Nanjing Drum Tower Hospital for Life and Health, College of Life Science, Nanjing Normal University, Nanjing 210008, China; School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou 310053, China. Electronic address: xihanli@nju.edu.cn.",
+        "Department of Gastroenterology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing 210008, China. Electronic address: zouxp@nju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Aotian",
+        "short_name": "Chen A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing 210008, China. Electronic address: atchen@smail.nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Jialun",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing 210008, China. Electronic address: DG20350083@smail.nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiaying",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Pharmaceutical Biotechnology, Medical School, School of Life Science, Nanjing University, Nanjing 210008, China. Electronic address: 15660938793@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing 210008, China. Electronic address: 20221799@njucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Chenchen",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing 210008, China. Electronic address: wuchenchen99@163.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Huaina",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Joint Institute of Nanjing Drum Tower Hospital for Life and Health, College of Life Science, Nanjing Normal University, Nanjing 210008, China. Electronic address: 15069246540@163.com."
+        ]
+      },
+      {
+        "full_name": "Fan, Yaoyao",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou 310053, China. Electronic address: 202411111411002@zcmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Gao, Qing",
+        "short_name": "Gao Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou 310053, China. Electronic address: gaoqing1992ye@163.com."
+        ]
+      },
+      {
+        "full_name": "Hu, Yiqiao",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Pharmaceutical Biotechnology, Medical School, School of Life Science, Nanjing University, Nanjing 210008, China. Electronic address: huyiqiao@nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Xihan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing 210008, China; Department of Gastroenterology, Joint Institute of Nanjing Drum Tower Hospital for Life and Health, College of Life Science, Nanjing Normal University, Nanjing 210008, China; School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou 310053, China. Electronic address: xihanli@nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zou, Xiaoping",
+        "short_name": "Zou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing 210008, China. Electronic address: zouxp@nju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Molecular basis of disease"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Mol Basis Dis"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/20 04:03",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40683608",
+      "39604668",
+      "40226617",
+      "39209222",
+      "32181755",
+      "41346611",
+      "36199146",
+      "39127164",
+      "40677006",
+      "39875873",
+      "38303549",
+      "41315624",
+      "39026679",
+      "39152432",
+      "40258406",
+      "34332578",
+      "40141028",
+      "40683920",
+      "41431044",
+      "40350979",
+      "39791146",
+      "39208654",
+      "39342295",
+      "35154122",
+      "39661267",
+      "35322324",
+      "33000197",
+      "39762747",
+      "40646168",
+      "39773340",
+      "41209574",
+      "40191200",
+      "38783033",
+      "33648511",
+      "37024802",
+      "38817665",
+      "38837874",
+      "37563820",
+      "33465729",
+      "35000541",
+      "39310930",
+      "39332020",
+      "38520747",
+      "33129696",
+      "33661995",
+      "35083488",
+      "41151864",
+      "34233576",
+      "38245886",
+      "35488119",
+      "34840598",
+      "34517516",
+      "39526455",
+      "34777634",
+      "34956177",
+      "34804059",
+      "33387040",
+      "39454972",
+      "41128888",
+      "29903985",
+      "39538226",
+      "38955307",
+      "40129158",
+      "34290570",
+      "41327677",
+      "40264098",
+      "40281485",
+      "38333724",
+      "38538250",
+      "38944166",
+      "39844556",
+      "36408702",
+      "38124367",
+      "34772375",
+      "31731384",
+      "36600208",
+      "33507917",
+      "38012210",
+      "39748113",
+      "31913856",
+      "40507914",
+      "37861515",
+      "40188284",
+      "34468015",
+      "36261459",
+      "39044066",
+      "34471186",
+      "35219310",
+      "40705960",
+      "39117252",
+      "34175402",
+      "34134622",
+      "35048799",
+      "36451085",
+      "41482412",
+      "33994864",
+      "38526683",
+      "39220187",
+      "39847517",
+      "35077391"
+    ],
+    "review": [
+      "40683608",
+      "35083488"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0925-4439(25)00336-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

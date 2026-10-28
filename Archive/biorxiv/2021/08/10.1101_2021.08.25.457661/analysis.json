@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.08.25.457661",
+  "title": "AlphaFold2-aware protein-DNA binding site prediction using graph transformer",
+  "authors": "Qianmu Yuan; Sheng Chen; Jiahua Rao; Shuangjia Zheng; Huiying Zhao; Yuedong Yang",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-26",
+  "window": {
+    "start": "2021-08-23",
+    "end": "2021-08-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文利用AlphaFold2预测结构结合图Transformer进行蛋白质-DNA结合位点预测，核心聚焦蛋白-DNA互作界面识别，方法上融合AI与结构建模，与课题高度匹配。",
+  "abstract": "Protein-DNA interactions play crucial roles in the biological systems, and identifying protein-DNA binding sites is the first step for mechanistic understanding of various biological activities (such as transcription and repair) and designing novel drugs. How to accurately identify DNA-binding residues from only protein sequence remains a challenging task. Currently, most existing sequence-based methods only consider contextual features of the sequential neighbors, which are limited to capture spatial information. Based on the recent breakthrough in protein structure prediction by AlphaFold2, we propose an accurate predictor, GraphSite, for identifying DNA-binding residues based on the structural models predicted by AlphaFold2. Here, we convert the binding site prediction problem into a graph node classification task and employ a transformer-based variant model to take the protein structural information into account. By leveraging predicted protein structures and graph transformer, GraphSite substantially improves over the latest sequence-based and structure-based methods. The algorithm is further confirmed on the independent test set of 181 proteins, where GraphSite surpasses the state-of-the-art structure-based method by 16.4% in AUPR and 11.2% in MCC, respectively. We provide the datasets, the predicted structures, and the source codes along with the pre-trained models of GraphSite at https://github.com/biomed-AI/GraphSite . The GraphSite web server is freely available at https://biomed.nscc-gz.cn/apps/GraphSite .",
+  "abstract_zh": "蛋白质-DNA相互作用在生物系统中扮演着关键角色，识别蛋白质-DNA结合位点是理解各种生物活动（如转录和修复）机制以及设计新型药物的第一步。如何仅从蛋白质序列中准确识别DNA结合残基仍然是一项具有挑战性的任务。目前，大多数现有的基于序列的方法仅考虑序列邻居的上下文特征，这限制了其捕捉空间信息的能力。基于AlphaFold2在蛋白质结构预测方面的最新突破，我们提出了一种名为GraphSite的准确预测器，用于基于AlphaFold2预测的结构模型识别DNA结合残基。在此，我们将结合位点预测问题转化为图节点分类任务，并采用基于Transformer的变体模型来考虑蛋白质结构信息。通过利用预测的蛋白质结构和图Transformer，GraphSite显著优于最新的基于序列和基于结构的方法。该算法在包含181个蛋白质的独立测试集上进一步得到验证，其中GraphSite在AUPR和MCC方面分别比最先进的基于结构的方法高出16.4%和11.2%。我们在https://github.com/biomed-AI/GraphSite 提供了数据集、预测结构、源代码以及GraphSite的预训练模型。GraphSite网络服务器可在https://biomed.nscc-gz.cn/apps/GraphSite 免费使用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.08.25.457661",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.08.25.457661",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.08.25.457661/index.html"
+}

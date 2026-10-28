@@ -1,0 +1,503 @@
+{
+  "identity": {
+    "pmid": "35502901",
+    "doi": "10.7554/eLife.74919",
+    "title": "Post-translational modification patterns on beta-myosin heavy chain are altered in ischemic and nonischemic human hearts."
+  },
+  "content": {
+    "abstract": "Phosphorylation and acetylation of sarcomeric proteins are important for fine-tuning myocardial contractility. Here, we used bottom-up proteomics and label-free quantification to identify novel post-translational modifications (PTMs) on beta-myosin heavy chain (beta-MHC) in normal and failing human heart tissues. We report six acetylated lysines and two phosphorylated residues: K34-Ac, K58-Ac, S210-P, K213-Ac, T215-P, K429-Ac, K951-Ac, and K1195-Ac. K951-Ac was significantly reduced in both ischemic and nonischemic failing hearts compared to nondiseased hearts. Molecular dynamics (MD) simulations show that K951-Ac may impact stability of thick filament tail interactions and ultimately myosin head positioning. K58-Ac altered the solvent-exposed SH3 domain surface - known for protein-protein interactions - but did not appreciably change motor domain conformation or dynamics under conditions studied. Together, K213-Ac/T215-P altered loop 1's structure and dynamics - known to regulate ADP-release, ATPase activity, and sliding velocity. Our study suggests that beta-MHC acetylation levels may be influenced more by the PTM location than the type of heart disease since less protected acetylation sites are reduced in both heart failure groups. Additionally, these PTMs have potential to modulate interactions between beta-MHC and other regulatory sarcomeric proteins, ADP-release rate of myosin, flexibility of the S2 region, and cardiac myofilament contractility in normal and failing hearts.",
+    "keywords": [
+      "heart failure",
+      "human",
+      "molecular biophysics",
+      "myosin heavy chain",
+      "post-translational modifications",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "Adenosine Diphosphate/metabolism",
+      "Humans",
+      "Myocardium/metabolism",
+      "*Myosin Heavy Chains/metabolism",
+      "Myosins/metabolism",
+      "Protein Processing, Post-Translational",
+      "*Sarcomeres/metabolism",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Landim-Vieira, Maicon",
+        "Childers, Matthew C",
+        "Wacker, Amanda L",
+        "Garcia, Michelle Rodriquez",
+        "He, Huan",
+        "Singh, Rakesh",
+        "Brundage, Elizabeth A",
+        "Johnston, Jamie R",
+        "Whitson, Bryan A",
+        "Chase, P Bryant",
+        "Janssen, Paul M L",
+        "Regnier, Michael",
+        "Biesiadecki, Brandon J",
+        "Pinto, J Renato",
+        "Parvatiyar, Michelle S"
+      ],
+      "short_names": [
+        "Landim-Vieira M",
+        "Childers MC",
+        "Wacker AL",
+        "Garcia MR",
+        "He H",
+        "Singh R",
+        "Brundage EA",
+        "Johnston JR",
+        "Whitson BA",
+        "Chase PB",
+        "Janssen PML",
+        "Regnier M",
+        "Biesiadecki BJ",
+        "Pinto JR",
+        "Parvatiyar MS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2440-9612",
+        "ORCID: 0000-0002-7580-7189",
+        "ORCID: 0000-0001-9701-561X",
+        "ORCID: 0000-0001-9092-4976",
+        "ORCID: 0000-0002-9416-0069"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States.",
+        "Department of Bioengineering, College of Medicine, University of Washington, Seattle, United States.",
+        "Department of Nutrition and Integrative Physiology, The Florida State University, Tallahassee, United States.",
+        "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States.",
+        "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States.",
+        "Translational Science Laboratory, College of Medicine, The Florida State University, Tallahassee, United States.",
+        "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States.",
+        "Translational Science Laboratory, College of Medicine, The Florida State University, Tallahassee, United States.",
+        "Department of Physiology and Cell Biology, College of Medicine, The Ohio State University, Columbus, United States.",
+        "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States.",
+        "Department of Surgery, College of Medicine, The Ohio State University, Columbus, United States.",
+        "Department of Biological Science, The Florida State University, Tallahassee, United States.",
+        "Department of Physiology and Cell Biology, College of Medicine, The Ohio State University, Columbus, United States.",
+        "Department of Bioengineering, College of Medicine, University of Washington, Seattle, United States.",
+        "Department of Physiology and Cell Biology, College of Medicine, The Ohio State University, Columbus, United States.",
+        "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States.",
+        "Department of Nutrition and Integrative Physiology, The Florida State University, Tallahassee, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Landim-Vieira, Maicon",
+        "short_name": "Landim-Vieira M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States."
+        ]
+      },
+      {
+        "full_name": "Childers, Matthew C",
+        "short_name": "Childers MC",
+        "identifiers": [
+          "0000-0003-2440-9612"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, College of Medicine, University of Washington, Seattle, United States."
+        ]
+      },
+      {
+        "full_name": "Wacker, Amanda L",
+        "short_name": "Wacker AL",
+        "identifiers": [
+          "0000-0002-7580-7189"
+        ],
+        "affiliations": [
+          "Department of Nutrition and Integrative Physiology, The Florida State University, Tallahassee, United States."
+        ]
+      },
+      {
+        "full_name": "Garcia, Michelle Rodriquez",
+        "short_name": "Garcia MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States."
+        ]
+      },
+      {
+        "full_name": "He, Huan",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States.",
+          "Translational Science Laboratory, College of Medicine, The Florida State University, Tallahassee, United States."
+        ]
+      },
+      {
+        "full_name": "Singh, Rakesh",
+        "short_name": "Singh R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States.",
+          "Translational Science Laboratory, College of Medicine, The Florida State University, Tallahassee, United States."
+        ]
+      },
+      {
+        "full_name": "Brundage, Elizabeth A",
+        "short_name": "Brundage EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Cell Biology, College of Medicine, The Ohio State University, Columbus, United States."
+        ]
+      },
+      {
+        "full_name": "Johnston, Jamie R",
+        "short_name": "Johnston JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States."
+        ]
+      },
+      {
+        "full_name": "Whitson, Bryan A",
+        "short_name": "Whitson BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, College of Medicine, The Ohio State University, Columbus, United States."
+        ]
+      },
+      {
+        "full_name": "Chase, P Bryant",
+        "short_name": "Chase PB",
+        "identifiers": [
+          "0000-0001-9701-561X"
+        ],
+        "affiliations": [
+          "Department of Biological Science, The Florida State University, Tallahassee, United States."
+        ]
+      },
+      {
+        "full_name": "Janssen, Paul M L",
+        "short_name": "Janssen PML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Cell Biology, College of Medicine, The Ohio State University, Columbus, United States."
+        ]
+      },
+      {
+        "full_name": "Regnier, Michael",
+        "short_name": "Regnier M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, College of Medicine, University of Washington, Seattle, United States."
+        ]
+      },
+      {
+        "full_name": "Biesiadecki, Brandon J",
+        "short_name": "Biesiadecki BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Cell Biology, College of Medicine, The Ohio State University, Columbus, United States."
+        ]
+      },
+      {
+        "full_name": "Pinto, J Renato",
+        "short_name": "Pinto JR",
+        "identifiers": [
+          "0000-0001-9092-4976"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, The Florida State University, Tallahassee, United States."
+        ]
+      },
+      {
+        "full_name": "Parvatiyar, Michelle S",
+        "short_name": "Parvatiyar MS",
+        "identifiers": [
+          "0000-0002-9416-0069"
+        ],
+        "affiliations": [
+          "Department of Nutrition and Integrative Physiology, The Florida State University, Tallahassee, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2022 May 3",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/04 06:00",
+    "fetched_at": "2026-09-28 08:05:38"
+  },
+  "links": {
+    "cites": [
+      "42612577",
+      "42316426",
+      "42192426",
+      "41472705",
+      "41241105",
+      "40611109",
+      "39684422",
+      "39633650",
+      "39427968",
+      "39408754",
+      "38928324",
+      "38587113",
+      "38506610",
+      "38440918",
+      "38054039",
+      "37602753",
+      "36525480",
+      "36009379"
+    ],
+    "refs": [
+      "34111934",
+      "32971072",
+      "31941339",
+      "30297972",
+      "29893147",
+      "29687901",
+      "29437146",
+      "28510178",
+      "28445763",
+      "28366003",
+      "28119616",
+      "27801516",
+      "27492088",
+      "26583988",
+      "26574453",
+      "26574374",
+      "26573747",
+      "26150528",
+      "25911107",
+      "25200323",
+      "25145273",
+      "24858848",
+      "24659926",
+      "24140722",
+      "23445784",
+      "23195437",
+      "23085150",
+      "22559222",
+      "22225877",
+      "22127559",
+      "21643973",
+      "21276796",
+      "21257760",
+      "21257753",
+      "21072141",
+      "20298699",
+      "20147306",
+      "20123786",
+      "19743430",
+      "18250163",
+      "18202317",
+      "18057959",
+      "17885681",
+      "17724026",
+      "17597155",
+      "17498971",
+      "17095604",
+      "17075052",
+      "16563742",
+      "15769782",
+      "15264254",
+      "12759902",
+      "12065321",
+      "11106718",
+      "10872464",
+      "10747208",
+      "10592235",
+      "9578557",
+      "9497352",
+      "8906967",
+      "6325440",
+      "4357624",
+      "2521628",
+      "278975"
+    ],
+    "similar": [
+      "35502901",
+      "9105042",
+      "25911107",
+      "38587113",
+      "21177250",
+      "28427997",
+      "39283968",
+      "20445002",
+      "28213770",
+      "30048711",
+      "37602753",
+      "27568194",
+      "30523115",
+      "20833952",
+      "24043862",
+      "41167329",
+      "23116444",
+      "19395549",
+      "31983222",
+      "12933792",
+      "15607403",
+      "26562659",
+      "12626511",
+      "23111184",
+      "16416042",
+      "23318932",
+      "26100051",
+      "10651160",
+      "21112946",
+      "23580644",
+      "17575272",
+      "23123290",
+      "21799905",
+      "9670919",
+      "33895132",
+      "11169744",
+      "26342069",
+      "1533346",
+      "15469907",
+      "30602626",
+      "9497352",
+      "24145982",
+      "10494800",
+      "25645586",
+      "7869390",
+      "23352598",
+      "25681424",
+      "29052230",
+      "12135937",
+      "12708747",
+      "23980194",
+      "11032348",
+      "16416047",
+      "26150528",
+      "21217059",
+      "19237661",
+      "35591788",
+      "29660325",
+      "11247796",
+      "20004663",
+      "36800490",
+      "22160857",
+      "26792537",
+      "9410910",
+      "26792327",
+      "11519739",
+      "9180009",
+      "19801488",
+      "27162358",
+      "28366003",
+      "28130336",
+      "32976931",
+      "2266165",
+      "33850019",
+      "9180011",
+      "11076938",
+      "41439707",
+      "25324513",
+      "22884844",
+      "10998634",
+      "27001966",
+      "27975185",
+      "19106098",
+      "1618795",
+      "17900618",
+      "2614840",
+      "26475586",
+      "6453716",
+      "8995523",
+      "24825904",
+      "18411228",
+      "10937947",
+      "26952936",
+      "31836543",
+      "11058169",
+      "25006251",
+      "8106364",
+      "8739245",
+      "40972758",
+      "30642915"
+    ],
+    "review": [
+      "35502901",
+      "38587113",
+      "16416042",
+      "24145982",
+      "16416047",
+      "26792327",
+      "11519739",
+      "9180009",
+      "32976931",
+      "9180011"
+    ],
+    "pmc": [
+      "9122498"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35502901/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35502901",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.74919",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.phosphosite.org/referenceSearchSubmitAction.action?from=0&queryId=-1&pubMedIds=35502901",
+        "provider": "PhosphoSitePlus",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "PhosphoSitePlus® - comprehensive post-translational modification resource"
+      }
+    ],
+    "text_mined": []
+  }
+}

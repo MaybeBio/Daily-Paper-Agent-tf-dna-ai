@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "42500821",
+    "doi": "10.1093/nar/gkag711",
+    "title": "Molecular basis of UV lesion binding and repair inhibition by ETS-family transcription factors."
+  },
+  "content": {
+    "abstract": "Mutation hotspots in melanoma frequently occur at DNA binding sites of E26 transformation-specific (ETS)-family transcription factors, as ETS factors stimulate the formation of UV-induced cyclobutane pyrimidine dimers (CPDs) while suppressing repair at ETS-bound DNA sites. To elucidate the molecular mechanism by which ETS factors bind to damaged DNA sites and inhibit repair, we investigated the binding of members from the three major classes of the ETS superfamily (Ets1, ELF1, and PU.1) to cognate DNA containing a cis-syn TpT CPD. These site-specific CPDs modulated ETS recognition and repair by a model repair enzyme in a position-dependent manner. Specifically, a deaminated CPD located in a damage hotspot in the ETS binding motif consistently stimulated binding and inhibited T4 PDG (a CPD repair enzyme) by all three paralogs. Co-crystal structures of PU.1 reveal that CPDs and mismatches are recognized within the framework of canonical ETS/DNA complexes. Molecular dynamics simulations in explicit solvent show that CPD introduces compensatory structural dynamics to both the free and ETS-bound states that strongly modify the underlying thermodynamics of recognition. The results offer a molecular basis for how ETS factors induce mutation hotspots in skin cancers and other UV-exposed tissues by binding to CPD-containing sites and inhibiting their repair.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Ultraviolet Rays",
+      "*Pyrimidine Dimers/chemistry/metabolism",
+      "Binding Sites",
+      "Protein Binding",
+      "DNA/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Proto-Oncogene Proteins c-ets/chemistry/metabolism",
+      "Humans",
+      "Excision Repair",
+      "DNA Damage",
+      "*DNA Repair",
+      "Trans-Activators/chemistry/metabolism",
+      "Proto-Oncogene Protein Spi-1",
+      "Proto-Oncogene Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sivapragasam, Smitha",
+        "Terrell, James Ross",
+        "van der Vaart, Arjan",
+        "Germann, Markus W",
+        "Laughery, Marian F",
+        "Everly, Michaela E",
+        "Adhikari, Shiva P",
+        "Hrdlicka, Patrick J",
+        "Wyrick, John J",
+        "Poon, Gregory M K"
+      ],
+      "short_names": [
+        "Sivapragasam S",
+        "Terrell JR",
+        "van der Vaart A",
+        "Germann MW",
+        "Laughery MF",
+        "Everly ME",
+        "Adhikari SP",
+        "Hrdlicka PJ",
+        "Wyrick JJ",
+        "Poon GMK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5599-9988",
+        "ORCID: 0000-0001-5394-5663",
+        "ORCID: 0000-0002-8950-1850",
+        "ORCID: 0000-0002-8113-0450",
+        "ORCID: 0000-0002-7911-3803",
+        "ORCID: 0000-0001-5107-9458"
+      ],
+      "affiliations": [
+        "School of Molecular Biosciences, Washington State University, Pullman WA 99164,USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA 30303,USA.",
+        "Department of Chemistry, University of South Florida, Tampa, FL 33620,USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA 30303,USA.",
+        "Department of Biology, Georgia State University, Atlanta, GA 30303,USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman WA 99164,USA.",
+        "Department of Chemistry, University of Idaho, Moscow, ID 83844,USA.",
+        "Department of Chemistry, University of Idaho, Moscow, ID 83844,USA.",
+        "Department of Chemistry, University of Idaho, Moscow, ID 83844,USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman WA 99164,USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA 30303,USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sivapragasam, Smitha",
+        "short_name": "Sivapragasam S",
+        "identifiers": [
+          "0000-0002-5599-9988"
+        ],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman WA 99164,USA."
+        ]
+      },
+      {
+        "full_name": "Terrell, James Ross",
+        "short_name": "Terrell JR",
+        "identifiers": [
+          "0000-0001-5394-5663"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA 30303,USA."
+        ]
+      },
+      {
+        "full_name": "van der Vaart, Arjan",
+        "short_name": "van der Vaart A",
+        "identifiers": [
+          "0000-0002-8950-1850"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of South Florida, Tampa, FL 33620,USA."
+        ]
+      },
+      {
+        "full_name": "Germann, Markus W",
+        "short_name": "Germann MW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA 30303,USA.",
+          "Department of Biology, Georgia State University, Atlanta, GA 30303,USA."
+        ]
+      },
+      {
+        "full_name": "Laughery, Marian F",
+        "short_name": "Laughery MF",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman WA 99164,USA."
+        ]
+      },
+      {
+        "full_name": "Everly, Michaela E",
+        "short_name": "Everly ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Idaho, Moscow, ID 83844,USA."
+        ]
+      },
+      {
+        "full_name": "Adhikari, Shiva P",
+        "short_name": "Adhikari SP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Idaho, Moscow, ID 83844,USA."
+        ]
+      },
+      {
+        "full_name": "Hrdlicka, Patrick J",
+        "short_name": "Hrdlicka PJ",
+        "identifiers": [
+          "0000-0002-8113-0450"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Idaho, Moscow, ID 83844,USA."
+        ]
+      },
+      {
+        "full_name": "Wyrick, John J",
+        "short_name": "Wyrick JJ",
+        "identifiers": [
+          "0000-0002-7911-3803"
+        ],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman WA 99164,USA."
+        ]
+      },
+      {
+        "full_name": "Poon, Gregory M K",
+        "short_name": "Poon GMK",
+        "identifiers": [
+          "0000-0001-5107-9458"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA 30303,USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jul 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/25 06:36",
+    "fetched_at": "2026-10-02 02:16:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41219227",
+      "39303207",
+      "38241433",
+      "38154096",
+      "38042148",
+      "37352101",
+      "37169761",
+      "37169747",
+      "36888663",
+      "35419468",
+      "35289750",
+      "34589668",
+      "34487363",
+      "34230647",
+      "33087930",
+      "31723047",
+      "30801747",
+      "30700907",
+      "30586386",
+      "30552409",
+      "30295801",
+      "29980679",
+      "29610481",
+      "29335749",
+      "28696686",
+      "28467829",
+      "28296403",
+      "27974201",
+      "27819658",
+      "27079976",
+      "27075101",
+      "27036006",
+      "26691984",
+      "26550823",
+      "26416425",
+      "25934506",
+      "25383969",
+      "25354245",
+      "25234829",
+      "25215497",
+      "24952944",
+      "24086042",
+      "23348506",
+      "23348503",
+      "22533913",
+      "22474303",
+      "22368531",
+      "22217736",
+      "21892138",
+      "21548782",
+      "21460441",
+      "20686355",
+      "20517297",
+      "20383002",
+      "20378718",
+      "20124702",
+      "20124692",
+      "20100451",
+      "18600227",
+      "18476794",
+      "18201813",
+      "17882165",
+      "15576622",
+      "15498926",
+      "12456887",
+      "11779502",
+      "9615173",
+      "8961932",
+      "8744570",
+      "8303294",
+      "2914925"
+    ],
+    "similar": [
+      "42500821",
+      "41648613",
+      "38241433",
+      "29980679",
+      "30586386",
+      "34487363",
+      "28790174",
+      "27270080",
+      "15913668",
+      "25824951",
+      "24952944",
+      "10946233",
+      "25382106",
+      "27457959",
+      "9010223",
+      "14659744",
+      "12907715",
+      "38884271",
+      "40530698",
+      "8255775",
+      "8510925",
+      "9889199",
+      "42196261",
+      "15121904",
+      "30801747",
+      "9548743",
+      "38104746",
+      "9813119",
+      "31048376",
+      "15576622",
+      "26837048",
+      "30295801",
+      "16223728",
+      "9354642",
+      "15016863",
+      "37169747",
+      "12646562",
+      "34333390",
+      "41219227",
+      "37169761",
+      "19450588",
+      "35944237",
+      "8961932",
+      "14976186",
+      "19074258",
+      "30315111",
+      "11779502",
+      "15811629",
+      "9506963",
+      "7937106",
+      "1409581",
+      "15668165",
+      "27611318",
+      "25765478",
+      "11841229",
+      "9649437",
+      "11278640",
+      "22533913",
+      "22474303",
+      "28296403",
+      "22262850",
+      "10838132",
+      "10867009",
+      "23331252",
+      "8798534",
+      "25866208",
+      "16033759",
+      "21160086",
+      "41365654",
+      "28592487",
+      "31372632",
+      "8552380",
+      "16263717",
+      "37757853",
+      "40498072",
+      "8552081",
+      "11222776",
+      "27431478",
+      "21889915",
+      "19150617",
+      "1592263",
+      "12749910",
+      "25938608",
+      "39043658",
+      "12417196",
+      "7773776",
+      "9045705",
+      "10212261",
+      "23416556",
+      "14500810",
+      "12198174",
+      "26393415",
+      "8524663",
+      "22584210",
+      "26270861",
+      "12888343",
+      "10742173",
+      "16236176",
+      "15135732",
+      "31106376"
+    ],
+    "review": [
+      "42500821",
+      "10946233"
+    ],
+    "pmc": [
+      "13401050"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42500821/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1206",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag711",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

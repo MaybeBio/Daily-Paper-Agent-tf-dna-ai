@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.22.568210",
+  "title": "Integration of transcription regulation and functional genomic data reveals lncRNA SNHG6’s role in hematopoietic differentiation and leukemia",
+  "authors": "Hazan JM; Amador R; Lahav T; Assaraf YG; Guigó R; Bester AC",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-22",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习模型整合转录因子结合数据预测功能性lncRNA，并验证SNHG6在造血分化中的作用，但核心对象是lncRNA功能而非TF-DNA互作机制，方法上仅将TF结合作为特征，缺乏结合建模与机理研究。",
+  "abstract": "<h4>Background</h4> Long non-coding RNAs (lncRNAs) are pivotal players in cellular processes, and their unique cell-type specific expression patterns make them attractive biomarkers and therapeutic targets. Yet, the functional roles of most lncRNAs remain enigmatic. To address the need to identify new druggable lncRNAs, we developed a comprehensive approach integrating transcription factor binding data with other genetic features to generate a machine learning model, which we have called INFLAMeR (Identifying Novel Functional LncRNAs with Advanced Machine Learning Resources). <h4>Methods</h4> INFLAMeR was trained on high-throughput CRISPR interference (CRISPRi) screens across seven cell lines, and the algorithm was based on 71 genetic features. To validate the predictions, we selected candidate lncRNAs in the K562 leukemia cell line and determined the effect of their knockdown on cell proliferation and chemotherapy drug resistance. We further performed transcriptomic analysis for candidate genes. Based on these findings, we assessed the lncRNA Small Nucleolar RNA Host Gene 6 ( SNHG6 ) for its role in myeloid differentiation by incubation with Phorbol 12-myristate 13-acetate (PMA) to induce megakaryocyte differentiation, or with hemin to induce erythrocyte differentiation. <h4>Results</h4> The INFLAMeR model successfully reconstituted CRISPRi screening data and predicted functional lncRNAs that were previously overlooked. Intensive cell-based and transcriptomic validation of nearly fifty genes in K562 revealed cell type-specific functionality for 85% of the predicted lncRNAs. Our cell-based and transcriptomic analyses predicted a role for SNHG6 in hematopoiesis and leukemia. Consistent with its predicted role in hematopoietic differentiation, SNHG6 transcription is regulated by hematopoiesis-associated transcription factors. Knockdown of SNHG6 reduced the proliferation of leukemia cells and sensitized them to differentiation. Treatment of K562 leukemic cells with hemin and PMA, respectively, demonstrated that SNHG6 inhibits red blood cell differentiation but strongly promotes megakaryocyte differentiation. Despite SNHG6 transcripts showing strong cytoplasmic enrichment, SNHG6 regulates the expression of hematopoietic genes such as PPBP (Pro-Platelet Basic Protein) and PF4 (Platelet Factor 4). <h4>Conclusions</h4> Our approach not only improved the identification and characterization of functional lncRNAs through genomic approaches in a cell type-specific manner, but also identified new lncRNAs with a role in hematopoiesis and leukemia. Such approaches cab be used to identify new targets for precision therapy.",
+  "abstract_zh": "<h4>背景</h4> 长链非编码RNA（lncRNAs）在细胞过程中扮演关键角色，其独特的细胞类型特异性表达模式使其成为有吸引力的生物标志物和治疗靶点。然而，大多数lncRNAs的功能作用仍不明确。为了满足识别新型可成药lncRNAs的需求，我们开发了一种综合方法，整合转录因子结合数据与其他遗传特征，生成机器学习模型，并将其命名为INFLAMeR（利用先进机器学习资源识别新型功能性lncRNAs）。<h4>方法</h4> INFLAMeR在七个细胞系的高通量CRISPR干扰（CRISPRi）筛选数据上进行了训练，算法基于71个遗传特征。为验证预测结果，我们在K562白血病细胞系中选择了候选lncRNAs，并测定其敲低对细胞增殖和化疗药物耐药性的影响。我们进一步对候选基因进行了转录组分析。基于这些发现，我们评估了lncRNA小核仁RNA宿主基因6（SNHG6）在髓系分化中的作用，通过孵育佛波醇12-肉豆蔻酸酯13-乙酸酯（PMA）诱导巨核细胞分化，或孵育血红素诱导红细胞分化。<h4>结果</h4> INFLAMeR模型成功重构了CRISPRi筛选数据，并预测了先前被忽视的功能性lncRNAs。对K562中近五十个基因的密集细胞基础和转录组验证显示，85%的预测lncRNAs具有细胞类型特异性功能。我们的细胞基础和转录组分析预测SNHG6在造血和白血病中发挥作用。与其在造血分化中的预测作用一致，SNHG6的转录受造血相关转录因子调控。SNHG6的敲低减少了白血病细胞的增殖，并使其对分化敏感。分别用血红素和PMA处理K562白血病细胞，结果表明SNHG6抑制红细胞分化，但强烈促进巨核细胞分化。尽管SNHG6转录本显示强烈的细胞质富集，SNHG6仍调控造血基因如PPBP（前血小板碱性蛋白）和PF4（血小板因子4）的表达。<h4>结论</h4> 我们的方法不仅通过基因组方法以细胞类型特异性方式改善了功能性lncRNAs的识别和表征，还识别了在造血和白血病中发挥作用的新型lncRNAs。此类方法可用于识别精准治疗的新靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.22.568210",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.22.568210",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.22.568210/index.html"
+}

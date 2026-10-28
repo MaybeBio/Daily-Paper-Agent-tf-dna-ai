@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.07.490949",
+  "title": "MorphoFeatures: unsupervised exploration of cell types, tissues and organs in volume electron microscopy",
+  "authors": "Zinchenko V; Hugger J; Uhlmann V; Arendt D; Kreshuk A",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-07",
+  "window": {
+    "start": "2022-05-02",
+    "end": "2022-05-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用CNN对体积电镜数据进行无监督细胞形态特征学习，完全不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "Electron microscopy (EM) provides a uniquely detailed view of cellular morphology, including organelles and fine subcellular ultrastructure. While the acquisition and (semi-)automatic segmentation of multicellular EM volumes is now becoming routine, large-scale analysis remains severely limited by the lack of generally applicable pipelines for automatic extraction of comprehensive morphological descriptors. Here, we present a novel unsupervised method for learning cellular morphology features directly from 3D EM data: a convolutional neural network delivers a representation of cells by shape and ultrastructure. Applied to the full volume of an entire three-segmented worm of the annelid Platynereis dumerilii , it yields a visually consistent grouping of cells supported by specific gene expression profiles. Integration of features across spatial neighbours can retrieve tissues and organs, revealing, for example, a detailed organization of the animal foregut. We envision that the unbiased nature of the proposed morphological descriptors will enable rapid exploration of very different biological questions in large EM volumes, greatly increasing the impact of these invaluable, but costly resources.",
+  "abstract_zh": "电子显微镜（EM）提供了细胞形态学上极为详细的视图，包括细胞器及精细的亚细胞超微结构。尽管多细胞EM体积的获取及（半）自动分割现已逐渐成为常规操作，但大规模分析仍因缺乏普遍适用的自动化提取全面形态描述符流程而受到严重限制。在此，我们提出了一种新颖的无监督方法，直接从3D EM数据中学习细胞形态学特征：卷积神经网络通过形状和超微结构提供细胞的表征。应用于环节动物 Platynereis dumerilii 整个三段虫体的全体积，该方法产生了由特定基因表达谱支持的视觉上一致的细胞分组。跨空间邻居的特征整合能够检索组织和器官，例如揭示了动物前肠的详细组织结构。我们预期，所提出的形态描述符的无偏特性将促进在大型EM体积中快速探索各种不同的生物学问题，从而极大地提升这些宝贵但成本高昂资源的利用价值。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.07.490949",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.07.490949",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.07.490949/index.html"
+}

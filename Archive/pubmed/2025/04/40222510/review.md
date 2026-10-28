@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract claims that hesperidin, a citrus flavanone, binds to and stabilizes the c-Myc promoter G-quadruplex (Pu-27), leading to selective inhibition of MDA-MB-231 breast cancer cell viability, clonogenicity, migration, and c-Myc expression, with in vivo tumor reduction and minimal toxicity, thereby positioning hesperidin as a promising targeted anticancer agent.
+- **Visible evidence base** Molecular docking binding energy, circular dichroism ellipticity, melting temperature, nanostructure formation, cell viability assays, clonogenic and migration assays, c-Myc expression measurement, PCR stop assay, mTFP reporter assay, and preclinical tumor volume data, all as summarized in the abstract
+- **Missing materials affecting confidence** Full methods, quantitative data with statistical parameters, dose and treatment schedules, cell line authentication details, in vivo experimental design, raw spectra, gel images, reporter assay controls, and any negative or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially interesting hypothesis that a natural flavonoid can stabilize a promoter G-quadruplex to downregulate an oncogene. However, the evidence as summarized is largely qualitative and lacks the quantitative rigor, controls, and mechanistic depth required to establish the claims. Several conclusions appear to outrun the data presented, particularly regarding selectivity, mechanism, and therapeutic potential.
+- **Who would be interested in the results, and why** Researchers in nucleic acid structure and ligand design, cancer biologists studying transcriptional regulation, and investigators exploring natural products as G4-stabilizing agents. The potential link between a dietary compound and epigenetic regulation of an oncogene may also attract interest from translational oncology and chemoprevention communities.
+- **Major strengths** The study addresses a relevant target, the c-Myc G4 silencer, with a clinically accessible natural compound. The use of multiple orthogonal assays, including biophysical, cellular, and in vivo approaches, is commendable. The reported selectivity for cancer cells over normal cells is an important preliminary finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that hesperidin selectively inhibits MDA-MB-231 breast cancer cells while sparing normal cells.
+  - **Evidence pointer** Functional assays section, location not provided
+  - **Concern** The abstract does not specify which normal cell line was used, the concentration range tested, the duration of exposure, or the assay format. Selectivity is a strong claim that requires a clear comparator and dose response data.
+  - **Why it matters** Selectivity is central to the therapeutic potential of the compound. Without defined normal cell controls and dose response curves, the claim of cancer cell selectivity cannot be evaluated.
+  - **Resolution test** Provide the identity of the normal cell line, full dose response curves for both cell types, and statistical comparison of IC50 values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that hesperidin stabilizes the G4 structure based on increased ellipticity, higher melting temperature, and enhanced nanostructure formation.
+  - **Evidence pointer** Biophysical characterization section, location not provided
+  - **Concern** The abstract does not report the magnitude of changes, the concentration of hesperidin used, the buffer conditions, or whether control ligands or mutant G4 sequences were included. Increased ellipticity and melting temperature shifts can be modest and may not be specific to G4 stabilization.
+  - **Why it matters** The biophysical evidence is foundational for the proposed mechanism. Without quantitative values and appropriate controls, the claim of specific G4 stabilization is not established.
+  - **Resolution test** Report the delta Tm, delta ellipticity, and nanostructure dimensions with standard deviations, and include a non-G4 control sequence and a known G4 ligand as a positive control.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that hesperidin reduced primer dimer formation in the PCR stop assay and decreased mTFP expression in the mTFP reporter assay, supporting specificity for G4 stabilization.
+  - **Evidence pointer** PCR stop assay and mTFP reporter assay sections, location not provided
+  - **Concern** The abstract does not provide quantitative data, such as percent inhibition, dose dependence, or comparison to a negative control sequence. The PCR stop assay can be affected by nonspecific polymerase inhibition, and the reporter assay requires a mutated G4 control to demonstrate sequence specificity.
+  - **Why it matters** These assays are used to link the biophysical binding to functional consequences in a cellular context. Without proper controls and quantification, the mechanistic claim is not supported.
+  - **Resolution test** Provide dose response curves for both assays, include a G4-mutant control, and show that hesperidin does not inhibit PCR or reporter expression in the absence of the G4 sequence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that hesperidin treatment led to a marked reduction in tumor volume with minimal systemic toxicity.
+  - **Evidence pointer** Preclinical studies section, location not provided
+  - **Concern** The abstract does not specify the animal model, route of administration, dose, treatment duration, tumor type, or how toxicity was assessed. "Minimal systemic toxicity" is a broad claim that requires organ histology, body weight data, and serum biomarkers.
+  - **Why it matters** In vivo efficacy and safety are critical for the translational claim. Without experimental details, the preclinical conclusion cannot be assessed.
+  - **Resolution test** Provide the animal model, dosing schedule, tumor growth curves, body weight changes, and histopathology or serum chemistry data.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that hesperidin offers a targeted strategy for breast cancer therapy by directly modulating c-Myc expression.
+  - **Evidence pointer** Overall conclusion, location not provided
+  - **Concern** The abstract does not demonstrate that the observed reduction in c-Myc expression is causally linked to G4 stabilization rather than to off-target effects. No rescue experiment or genetic perturbation is described.
+  - **Why it matters** The central mechanistic claim requires evidence that G4 stabilization is necessary and sufficient for the observed phenotypic effects.
+  - **Resolution test** Include a G4-mutant c-Myc promoter reporter or a knockdown/rescue approach to show that the effects are dependent on the G4 element.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses technical terms such as "Pu-27" and "mTFP" without defining them, which may limit accessibility.
+  - **Required correction** Define Pu-27 as the c-Myc promoter G-quadruplex sequence and mTFP as a fluorescent reporter protein in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Docking analysis
+  - **Evidence pointer** Molecular docking section, location not provided
+  - **Concern** The binding energy of -48.344 kcal/mol is reported without context, such as comparison to known G4 ligands or the docking methodology used.
+  - **Required correction** Provide the docking software, scoring function, and a comparison to a positive control ligand.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that hesperidin "holds promise for clinical translation" without discussing bioavailability, which is a known limitation for flavonoids.
+  - **Required correction** Acknowledge bioavailability considerations or provide pharmacokinetic data if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5
+- **Assessment against Nature-style criteria** Originality: moderate, as G4 stabilization by natural products is an active area, but the specific compound and target combination may offer some novelty. Scientific importance: potentially high if the mechanism is rigorously established, but the current evidence does not yet support the broad claims. Interdisciplinary readership: the topic bridges chemistry, biology, and oncology, which could appeal to a broad audience. Technical soundness: not yet established from the abstract, as key controls and quantitative data are missing. Readability for nonspecialists: the abstract is reasonably clear but uses undefined technical terms.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is multifaceted, but the abstract lacks the quantitative data, controls, and mechanistic proof required to support the central claims. A revised manuscript with full experimental details and appropriate controls could change this assessment.
+
+## Risk / unsupported claims
+- Selective inhibition of cancer cells over normal cells is unsupported without specifying the normal cell line and dose response data.
+- G4 stabilization is not quantitatively established without delta Tm, delta ellipticity, and control experiments.
+- Specificity for G4 in functional assays is not supported without G4-mutant controls.
+- In vivo efficacy and minimal toxicity are not assessable without animal model and toxicity data.
+- Causal link between G4 stabilization and c-Myc downregulation is not demonstrated.
+- Clinical translational potential is overstated without pharmacokinetic or bioavailability data.

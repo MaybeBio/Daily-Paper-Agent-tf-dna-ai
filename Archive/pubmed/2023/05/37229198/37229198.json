@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "37229198",
+    "doi": "10.3389/fgene.2023.1190887",
+    "title": "Comparative analysis of tissue-specific genes in maize based on machine learning models: CNN performs technically best, LightGBM performs biologically soundest."
+  },
+  "content": {
+    "abstract": "Introduction: With the advancement of RNA-seq technology and machine learning, training large-scale RNA-seq data from databases with machine learning models can generally identify genes with important regulatory roles that were previously missed by standard linear analytic methodologies. Finding tissue-specific genes could improve our comprehension of the relationship between tissues and genes. However, few machine learning models for transcriptome data have been deployed and compared to identify tissue-specific genes, particularly for plants. Methods: In this study, an expression matrix was processed with linear models (Limma), machine learning models (LightGBM), and deep learning models (CNN) with information gain and the SHAP strategy based on 1,548 maize multi-tissue RNA-seq data obtained from a public database to identify tissue-specific genes. In terms of validation, V-measure values were computed based on k-means clustering of the gene sets to evaluate their technical complementarity. Furthermore, GO analysis and literature retrieval were used to validate the functions and research status of these genes. Results: Based on clustering validation, the convolutional neural network outperformed others with higher V-measure values as 0.647, indicating that its gene set could cover as many specific properties of various tissues as possible, whereas LightGBM discovered key transcription factors. The combination of three gene sets produced 78 core tissue-specific genes that had previously been shown in the literature to be biologically significant. Discussion: Different tissue-specific gene sets were identified due to the distinct interpretation strategy for machine learning models and researchers may use multiple methodologies and strategies for tissue-specific gene sets based on their goals, types of data, and computational resources. This study provided comparative insight for large-scale data mining of transcriptome datasets, shedding light on resolving high dimensions and bias difficulties in bioinformatics data processing.",
+    "keywords": [
+      "CNN",
+      "Lightgbm",
+      "SHAP (shapley additive explanation)",
+      "limma",
+      "maize",
+      "tissue specific genes"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Zijie",
+        "Zhu, Yuzhi",
+        "Liu, Zhule",
+        "Li, Hongfu",
+        "Tang, Xinqiang",
+        "Jiang, Yi"
+      ],
+      "short_names": [
+        "Wang Z",
+        "Zhu Y",
+        "Liu Z",
+        "Li H",
+        "Tang X",
+        "Jiang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Agriculture, Sun Yat-sen University, Shenzhen, China.",
+        "School of Agriculture, Sun Yat-sen University, Shenzhen, China.",
+        "School of Agriculture, Sun Yat-sen University, Shenzhen, China.",
+        "School of Agriculture, Sun Yat-sen University, Shenzhen, China.",
+        "School of Intelligent Systems Engineering, Sun Yat-sen University, Shenzhen, China.",
+        "School of Agriculture, Sun Yat-sen University, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Zijie",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture, Sun Yat-sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yuzhi",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture, Sun Yat-sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhule",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture, Sun Yat-sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongfu",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture, Sun Yat-sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Xinqiang",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Intelligent Systems Engineering, Sun Yat-sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yi",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture, Sun Yat-sen University, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/25 19:12",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "41578913",
+      "40574309"
+    ],
+    "refs": [
+      "37309525",
+      "36271793",
+      "36215030",
+      "36063461",
+      "36035445",
+      "35914052",
+      "35563470",
+      "35400885",
+      "35151253",
+      "34691142",
+      "34681032",
+      "34605806",
+      "34561450",
+      "34557778",
+      "34544450",
+      "34455034",
+      "34300489",
+      "34057034",
+      "33962062",
+      "33750713",
+      "33514769",
+      "33398155",
+      "33280125",
+      "33175160",
+      "32737073",
+      "32677712",
+      "31882993",
+      "31375807",
+      "31350363",
+      "31245718",
+      "31231407",
+      "30423086",
+      "30407532",
+      "30395287",
+      "30102349",
+      "27560171",
+      "27540173",
+      "25738861",
+      "25690850",
+      "25605792",
+      "25223304",
+      "24520154",
+      "23193258",
+      "22217600",
+      "22009792",
+      "21830775",
+      "20223836",
+      "19910308",
+      "19505943",
+      "18987217"
+    ],
+    "similar": [
+      "37229198",
+      "34991439",
+      "36321557",
+      "33514769",
+      "29879919",
+      "35959132",
+      "38467662",
+      "38691403",
+      "38313005",
+      "38250147",
+      "29986843",
+      "29404850",
+      "35346252",
+      "35168083",
+      "38956008",
+      "30026067",
+      "20153956",
+      "34182322",
+      "34589181",
+      "36818871",
+      "39152423",
+      "39087583",
+      "36059957",
+      "26269925",
+      "34500139",
+      "34553171",
+      "37038881",
+      "38265429",
+      "38315278",
+      "36119721",
+      "38751121",
+      "35812327",
+      "36694130",
+      "37143945",
+      "36211563",
+      "29492098",
+      "38308870",
+      "37773288",
+      "39148090",
+      "39057627",
+      "23637782",
+      "37568831",
+      "34731954",
+      "36485032",
+      "31243426",
+      "32241303",
+      "36159979",
+      "37996844",
+      "38481447",
+      "36831891",
+      "37008906",
+      "38902314",
+      "32784184",
+      "36303456",
+      "32449176",
+      "36691030",
+      "36991790",
+      "29109070",
+      "36001363",
+      "34526114",
+      "39121059",
+      "38354497",
+      "34824337",
+      "36366781",
+      "38101117",
+      "37581894",
+      "38817683",
+      "38948379",
+      "31710668",
+      "37235796",
+      "35306876",
+      "34828360",
+      "37375375",
+      "38702954",
+      "39236563",
+      "37949702",
+      "35957890",
+      "36905605",
+      "31769759",
+      "38439097",
+      "36131178",
+      "38822049",
+      "36978668",
+      "38365005",
+      "36613360",
+      "38508934",
+      "39170022",
+      "33664585",
+      "38863714",
+      "36991659",
+      "38332892",
+      "37313714",
+      "36182867",
+      "35072631",
+      "28984204",
+      "38234474",
+      "37510135",
+      "38962264",
+      "31856731"
+    ],
+    "review": [
+      "37229198",
+      "36321557",
+      "38956008",
+      "34589181"
+    ],
+    "pmc": [
+      "10203421"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37229198/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37229198",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2023.1190887",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

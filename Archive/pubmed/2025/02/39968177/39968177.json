@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "39968177",
+    "doi": "10.3389/fphar.2025.1520881",
+    "title": "Exploring the anti-metastatic potential of sunitinib and novel analogs in colorectal cancer: insights into HIF-1alpha mediated metastasis."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Colorectal cancer (CRC) is a prevalent malignancy worldwide with high mortality rate. Metastasis, the primary cause of cancer-related deaths, is attributed to various factors including tumor hypoxia. Due to the urgent demand for potent anti-metastatic agents, we aimed to determine the effects of sunitinib and novel analogs on the metastatic behavior of human CRC cells in hypoxic condition for the first time. METHODS: For in silico analyses, pathogenic targets of metastatic CRC were identified, PPI network was constructed and KEGG pathway enrichment analysis was conducted. The expression of HIF1A was evaluated in seven CRC cell lines, and computational modeling was carried out to define the interaction of sunitinib with HIF-1alpha. For in vitro studies, analogs of sunitinib were synthesized, and cells were assessed for viability, migration, invasion, MMPs activity and gene expression in hypoxic condition. RESULTS AND DISCUSSION: Computational analyses highlighted the importance of HIF-1alpha as a crucial mediator of metastasis in CRC. Molecular docking and dynamics simulations demonstrated favorable and stable interaction of sunitinib and three novel analogs with HIF-1alpha PAS-B domain. Volcano plots indicated upregulation of HIF1A in LoVo cells compared to six other CRC cell lines. Findings of in vitro studies revealed considerable inhibitory effects of sunitinib and analogs on LoVo cell migration and invasion in hypoxic condition. Gelatin zymography and qPCR analysis indicated decreased activity of MMP-2 and MMP-9, along with downregulation of EMT transcription factors in hypoxic condition. Current study reports promising anti-metastatic effects of sunitinib and novel analogs on CRC cells, providing foundation for further investigation to combat cancer metastasis.",
+    "keywords": [
+      "colon cancer",
+      "hypoxia",
+      "metastasis",
+      "novel analogs",
+      "sunitinib"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rassouli, Fatemeh B",
+        "Matin, Maryam M",
+        "Hadizadeh, Farzin",
+        "Nejabat, Masoud",
+        "Allahverdizadeh, Hossein",
+        "Jamali, Hamidreza",
+        "Gharedaghi, Shahin",
+        "Hassanzadeh, Halimeh"
+      ],
+      "short_names": [
+        "Rassouli FB",
+        "Matin MM",
+        "Hadizadeh F",
+        "Nejabat M",
+        "Allahverdizadeh H",
+        "Jamali H",
+        "Gharedaghi S",
+        "Hassanzadeh H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Novel Diagnostics and Therapeutics Research Group, Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Novel Diagnostics and Therapeutics Research Group, Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Biotechnology Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Department of Medicinal Chemistry, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Novel Diagnostics and Therapeutics Research Group, Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Stem Cell and Regenerative Medicine Research Group, Academic Center for Education, Culture and Research (ACECR)-Khorasan Razavi, Mashhad, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rassouli, Fatemeh B",
+        "short_name": "Rassouli FB",
+        "identifiers": [],
+        "affiliations": [
+          "Novel Diagnostics and Therapeutics Research Group, Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Matin, Maryam M",
+        "short_name": "Matin MM",
+        "identifiers": [],
+        "affiliations": [
+          "Novel Diagnostics and Therapeutics Research Group, Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran.",
+          "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Hadizadeh, Farzin",
+        "short_name": "Hadizadeh F",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran.",
+          "Department of Medicinal Chemistry, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Nejabat, Masoud",
+        "short_name": "Nejabat M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Allahverdizadeh, Hossein",
+        "short_name": "Allahverdizadeh H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Jamali, Hamidreza",
+        "short_name": "Jamali H",
+        "identifiers": [],
+        "affiliations": [
+          "Novel Diagnostics and Therapeutics Research Group, Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Gharedaghi, Shahin",
+        "short_name": "Gharedaghi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Hassanzadeh, Halimeh",
+        "short_name": "Hassanzadeh H",
+        "identifiers": [],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Research Group, Academic Center for Education, Culture and Research (ACECR)-Khorasan Razavi, Mashhad, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/19 06:21",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "41930177",
+      "41594588",
+      "40842994",
+      "40563539"
+    ],
+    "refs": [
+      "37206081",
+      "36551540",
+      "36521737",
+      "36076302",
+      "34944826",
+      "34738626",
+      "34243011",
+      "33808542",
+      "32470488",
+      "32322559",
+      "32133645",
+      "31053634",
+      "30388517",
+      "29910669",
+      "29515112",
+      "28870911",
+      "27807302",
+      "27363580",
+      "26168132",
+      "23033253",
+      "22391574",
+      "20599738",
+      "20524040",
+      "19894779",
+      "18514780",
+      "17897025",
+      "17690708",
+      "1260746"
+    ],
+    "similar": [
+      "39968177",
+      "35083610",
+      "39375926",
+      "21725877",
+      "34029939",
+      "30537081",
+      "32215176",
+      "34969360",
+      "38571352",
+      "20599738",
+      "32269630",
+      "30410397",
+      "29017924",
+      "31291975",
+      "37583906",
+      "40226472",
+      "26057751",
+      "31330410",
+      "30121667",
+      "21847402",
+      "38118310",
+      "34998404",
+      "36537608",
+      "38612546",
+      "38941816",
+      "34631221",
+      "40164945",
+      "31208913",
+      "37799727",
+      "38989423",
+      "19435875",
+      "35896535",
+      "28572533",
+      "38299557",
+      "35847793",
+      "17088993",
+      "34268403",
+      "28105174",
+      "28435028",
+      "26528854",
+      "36847822",
+      "22363134",
+      "30834693",
+      "36610169",
+      "29760417",
+      "39691198",
+      "36610120",
+      "38087342",
+      "28602978",
+      "30737895",
+      "31587013",
+      "26730155",
+      "32895059",
+      "25602156",
+      "31467922",
+      "26936485",
+      "17332917",
+      "29852266",
+      "33225938",
+      "34116327",
+      "25824695",
+      "36816970",
+      "28449718",
+      "33062005",
+      "21751260",
+      "29587825",
+      "39642461",
+      "26141990",
+      "19305150",
+      "39858431",
+      "28899657",
+      "37151068",
+      "32026770",
+      "31115225",
+      "29886834",
+      "33904146",
+      "30114390",
+      "37352917",
+      "24901645",
+      "20514449",
+      "30357530",
+      "31228451",
+      "38820970",
+      "28928287",
+      "33976746",
+      "35986274",
+      "27121066",
+      "38037834",
+      "25333739",
+      "35603730",
+      "28498393",
+      "38889378",
+      "19619276",
+      "34169422",
+      "25069832",
+      "21069452",
+      "32774415",
+      "37494179",
+      "28257048",
+      "23947803"
+    ],
+    "review": [
+      "39968177"
+    ],
+    "pmc": [
+      "11832664"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39968177/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2025.1520881",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

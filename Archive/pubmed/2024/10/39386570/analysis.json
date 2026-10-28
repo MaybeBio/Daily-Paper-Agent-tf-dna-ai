@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39386570",
+  "title": "Predicting bacterial fitness in Mycobacterium tuberculosis with transcriptional regulatory network-informed interpretable machine learning.",
+  "authors": "Bustad, Ethan; Petry, Edson; Gu, Oliver; Griebel, Braden T; Rustad, Tige R; Sherman, David R; Yang, Jason H; Ma, Shuyi",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-10-10",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用转录调控网络和可解释机器学习预测结核分枝杆菌的适应性，虽涉及转录因子活性，但核心是基因表达与表型预测，缺乏蛋白质-DNA三维互作建模或结合位点机制研究，与本课题关联较弱。",
+  "abstract": "Mycobacterium tuberculosis (Mtb) is the causative agent of tuberculosis disease, the greatest source of global mortality by a bacterial pathogen. Mtb adapts and responds to diverse stresses such as antibiotics by inducing transcriptional stress-response regulatory programs. Understanding how and when these mycobacterial regulatory programs are activated could enable novel treatment strategies for potentiating the efficacy of new and existing drugs. Here we sought to define and analyze Mtb regulatory programs that modulate bacterial fitness. We assembled a large Mtb RNA expression compendium and applied these to infer a comprehensive Mtb transcriptional regulatory network and compute condition-specific transcription factor activity profiles. We utilized transcriptomic and functional genomics data to train an interpretable machine learning model that can predict Mtb fitness from transcription factor activity profiles. We demonstrated that this transcription factor activity-based model can successfully predict Mtb growth arrest and growth resumption under hypoxia and reaeration using only RNA-seq expression data as a starting point. These integrative network modeling and machine learning analyses thus enable the prediction of mycobacterial fitness under different environmental and genetic contexts. We envision these models can potentially inform the future design of prognostic assays and therapeutic intervention that can cripple Mtb growth and survival to cure tuberculosis disease.",
+  "abstract_zh": "结核分枝杆菌（Mycobacterium tuberculosis, Mtb）是结核病的病原体，也是全球细菌性病原体导致死亡的首要原因。Mtb通过诱导转录应激反应调控程序来适应并应对多种胁迫，如抗生素。理解这些分枝杆菌调控程序如何及何时被激活，可能为增强新药和现有药物疗效的新型治疗策略提供可能。在此，我们旨在定义并分析调节细菌适应性的Mtb调控程序。我们汇编了一个大型Mtb RNA表达数据集，并应用这些数据推断出全面的Mtb转录调控网络，计算条件特异性转录因子活性谱。我们利用转录组学和功能基因组学数据训练了一个可解释的机器学习模型，该模型能够从转录因子活性谱预测Mtb适应性。我们证明，仅以RNA-seq表达数据为起点，该基于转录因子活性的模型能成功预测Mtb在低氧和再通气条件下的生长停滞和生长恢复。因此，这些整合的网络建模和机器学习分析能够预测分枝杆菌在不同环境和遗传背景下的适应性。我们设想这些模型可能为未来设计预后检测和削弱Mtb生长与存活以治愈结核病的治疗干预措施提供信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39386570/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39386570/",
+  "paper_page_path": "papers/pubmed/39386570/index.html"
+}

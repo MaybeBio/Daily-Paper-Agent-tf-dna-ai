@@ -1,0 +1,498 @@
+{
+  "identity": {
+    "pmid": "34789568",
+    "doi": "10.1073/pnas.2115116118",
+    "title": "CRISPR-SID: Identifying EZH2 as a druggable target for desmoid tumors via in vivo dependency mapping."
+  },
+  "content": {
+    "abstract": "Cancer precision medicine implies identification of tumor-specific vulnerabilities associated with defined oncogenic pathways. Desmoid tumors are soft-tissue neoplasms strictly driven by Wnt signaling network hyperactivation. Despite this clearly defined genetic etiology and the strict and unique implication of the Wnt/beta-catenin pathway, no specific molecular targets for these tumors have been identified. To address this caveat, we developed fast, efficient, and penetrant genetic Xenopus tropicalis desmoid tumor models to identify and characterize drug targets. We used multiplexed CRISPR/Cas9 genome editing in these models to simultaneously target a tumor suppressor gene (apc) and candidate dependency genes. Our methodology CRISPR/Cas9 selection-mediated identification of dependencies (CRISPR-SID) uses calculated deviations between experimentally observed gene editing outcomes and deep-learning-predicted double-strand break repair patterns to identify genes under negative selection during tumorigenesis. This revealed EZH2 and SUZ12, both encoding polycomb repressive complex 2 components, and the transcription factor CREB3L1 as genetic dependencies for desmoid tumors. In vivo EZH2 inhibition by Tazemetostat induced partial regression of established autochthonous tumors. In vitro models of patient desmoid tumor cells revealed a direct effect of Tazemetostat on Wnt pathway activity. CRISPR-SID represents a potent approach for in vivo mapping of tumor vulnerabilities and drug target identification.",
+    "keywords": [
+      "APC",
+      "EZH2",
+      "Xenopus",
+      "cancer dependency",
+      "desmoid tumor"
+    ],
+    "mesh_terms": [
+      "Abdominal Neoplasms/genetics",
+      "Adenomatous Polyposis Coli/genetics",
+      "Animals",
+      "*CRISPR-Cas Systems",
+      "Carcinogenesis/genetics",
+      "Cell Line, Tumor",
+      "*Clustered Regularly Interspaced Short Palindromic Repeats",
+      "Cyclic AMP Response Element-Binding Protein",
+      "Enhancer of Zeste Homolog 2 Protein/*genetics/*isolation & purification/*metabolism",
+      "Desmoid Tumors/genetics",
+      "Gene Editing/*methods",
+      "Gene Expression Regulation, Neoplastic",
+      "Humans",
+      "Neoplasm Proteins/genetics/metabolism",
+      "Nerve Tissue Proteins",
+      "Oncogenes",
+      "Polycomb Repressive Complex 2/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Wnt Signaling Pathway",
+      "Xenopus",
+      "beta Catenin"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naert, Thomas",
+        "Tulkens, Dieter",
+        "Van Nieuwenhuysen, Tom",
+        "Przybyl, Joanna",
+        "Demuynck, Suzan",
+        "van de Rijn, Matt",
+        "Al-Jazrawe, Mushriq",
+        "Alman, Benjamin A",
+        "Coucke, Paul J",
+        "De Leeneer, Kim",
+        "Vanhove, Christian",
+        "Savvides, Savvas N",
+        "Creytens, David",
+        "Vleminckx, Kris"
+      ],
+      "short_names": [
+        "Naert T",
+        "Tulkens D",
+        "Van Nieuwenhuysen T",
+        "Przybyl J",
+        "Demuynck S",
+        "van de Rijn M",
+        "Al-Jazrawe M",
+        "Alman BA",
+        "Coucke PJ",
+        "De Leeneer K",
+        "Vanhove C",
+        "Savvides SN",
+        "Creytens D",
+        "Vleminckx K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3988-5980",
+        "ORCID: 0000-0003-3420-5947",
+        "ORCID: 0000-0002-9666-4105"
+      ],
+      "affiliations": [
+        "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium.",
+        "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium.",
+        "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium.",
+        "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium.",
+        "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium.",
+        "Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305.",
+        "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium.",
+        "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium.",
+        "Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305.",
+        "Department of Cell Biology, Duke University School of Medicine, Durham, NC 12422.",
+        "Department of Cell Biology, Duke University School of Medicine, Durham, NC 12422.",
+        "Center for Medical Genetics, Ghent University, Ghent 9000, Belgium.",
+        "Center for Medical Genetics, Ghent University, Ghent 9000, Belgium.",
+        "Department of Electronics and Information Systems, Ghent University, Ghent 9000, Belgium.",
+        "VIB Center for Inflammation Research, VIB, Ghent 9052, Belgium.",
+        "Department of Biochemistry and Microbiology, Ghent University, Ghent 9052, Belgium.",
+        "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium.",
+        "Department of Pathology, Ghent University and Ghent University Hospital, Ghent 9000, Belgium.",
+        "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium; kris.vleminckx@irc.ugent.be.",
+        "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naert, Thomas",
+        "short_name": "Naert T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium.",
+          "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Tulkens, Dieter",
+        "short_name": "Tulkens D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium.",
+          "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Van Nieuwenhuysen, Tom",
+        "short_name": "Van Nieuwenhuysen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium."
+        ]
+      },
+      {
+        "full_name": "Przybyl, Joanna",
+        "short_name": "Przybyl J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305."
+        ]
+      },
+      {
+        "full_name": "Demuynck, Suzan",
+        "short_name": "Demuynck S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium.",
+          "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "van de Rijn, Matt",
+        "short_name": "van de Rijn M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305."
+        ]
+      },
+      {
+        "full_name": "Al-Jazrawe, Mushriq",
+        "short_name": "Al-Jazrawe M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Duke University School of Medicine, Durham, NC 12422."
+        ]
+      },
+      {
+        "full_name": "Alman, Benjamin A",
+        "short_name": "Alman BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Duke University School of Medicine, Durham, NC 12422."
+        ]
+      },
+      {
+        "full_name": "Coucke, Paul J",
+        "short_name": "Coucke PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Genetics, Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Leeneer, Kim",
+        "short_name": "De Leeneer K",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Genetics, Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vanhove, Christian",
+        "short_name": "Vanhove C",
+        "identifiers": [
+          "0000-0002-3988-5980"
+        ],
+        "affiliations": [
+          "Department of Electronics and Information Systems, Ghent University, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Savvides, Savvas N",
+        "short_name": "Savvides SN",
+        "identifiers": [
+          "0000-0003-3420-5947"
+        ],
+        "affiliations": [
+          "VIB Center for Inflammation Research, VIB, Ghent 9052, Belgium.",
+          "Department of Biochemistry and Microbiology, Ghent University, Ghent 9052, Belgium."
+        ]
+      },
+      {
+        "full_name": "Creytens, David",
+        "short_name": "Creytens D",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium.",
+          "Department of Pathology, Ghent University and Ghent University Hospital, Ghent 9000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vleminckx, Kris",
+        "short_name": "Vleminckx K",
+        "identifiers": [
+          "0000-0002-9666-4105"
+        ],
+        "affiliations": [
+          "Department of Biomedical Molecular Biology, Ghent University, Ghent 9052, Belgium; kris.vleminckx@irc.ugent.be.",
+          "Cancer Research Institute Ghent (CRIG), Ghent University, Ghent 9000, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2021 Nov 23",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/19 06:00",
+    "fetched_at": "2026-09-28 01:55:23"
+  },
+  "links": {
+    "cites": [
+      "40796977",
+      "40706632",
+      "38832520",
+      "37795470",
+      "37794102",
+      "37546427",
+      "37469443"
+    ],
+    "refs": [
+      "34413171",
+      "33754292",
+      "33504770",
+      "33500573",
+      "33327550",
+      "33035459",
+      "32978169",
+      "32887910",
+      "32762028",
+      "32723346",
+      "32514112",
+      "32166598",
+      "32099073",
+      "32001819",
+      "31862961",
+      "31165043",
+      "30844313",
+      "30657919",
+      "30575484",
+      "30445998",
+      "30418203",
+      "30405244",
+      "30205880",
+      "29769388",
+      "29330550",
+      "29202477",
+      "29187504",
+      "29156001",
+      "28898989",
+      "28836216",
+      "28580607",
+      "28489620",
+      "28350521",
+      "27739525",
+      "27461955",
+      "27134174",
+      "27124915",
+      "27122193",
+      "27096365",
+      "26916719",
+      "26845405",
+      "26813419",
+      "26508638",
+      "26348868",
+      "26322839",
+      "26097888",
+      "25961408",
+      "25520397",
+      "25310401",
+      "25184501",
+      "24402778",
+      "24342436",
+      "24055345",
+      "22682243",
+      "21826666",
+      "21436291",
+      "20805504",
+      "19648921",
+      "17715111",
+      "17135276",
+      "15869330",
+      "15385962",
+      "14966464",
+      "14534534",
+      "11809808",
+      "11390661",
+      "10597266",
+      "9250146",
+      "8223060"
+    ],
+    "similar": [
+      "34789568",
+      "27092879",
+      "28329683",
+      "30150059",
+      "29202477",
+      "32651460",
+      "15832580",
+      "31461190",
+      "37747726",
+      "21512140",
+      "23949225",
+      "29087303",
+      "29764585",
+      "27129219",
+      "26993776",
+      "35031563",
+      "37549258",
+      "33753930",
+      "16912203",
+      "24055345",
+      "30144514",
+      "37175580",
+      "28418912",
+      "30968962",
+      "10367940",
+      "28490465",
+      "37794102",
+      "18715618",
+      "23541808",
+      "29144570",
+      "30343511",
+      "28052011",
+      "29901254",
+      "22305464",
+      "28795320",
+      "18854359",
+      "26623729",
+      "30220457",
+      "33978242",
+      "22533881",
+      "9250146",
+      "26414222",
+      "32816909",
+      "10782927",
+      "8608492",
+      "29690746",
+      "18722078",
+      "31747604",
+      "27207647",
+      "31882269",
+      "29223978",
+      "35580699",
+      "25751801",
+      "30528042",
+      "29705714",
+      "17502350",
+      "30684591",
+      "28923495",
+      "31842978",
+      "29019352",
+      "30391781",
+      "29326075",
+      "17952864",
+      "26686699",
+      "31008529",
+      "28231254",
+      "31295471",
+      "17721184",
+      "25486432",
+      "30697727",
+      "23814483",
+      "33431674",
+      "28985512",
+      "30269229",
+      "35189910",
+      "33479180",
+      "33593912",
+      "34477520",
+      "33545120",
+      "30867289",
+      "35446005",
+      "30540162",
+      "30926729",
+      "33296708",
+      "25337879",
+      "33009487",
+      "35331717",
+      "28459449",
+      "37612728",
+      "34857732",
+      "39128652",
+      "37427349",
+      "33068406",
+      "25961408",
+      "36192757",
+      "32456131",
+      "35666804",
+      "38215750",
+      "37377751",
+      "36980521",
+      "29467179",
+      "28711281",
+      "34853037",
+      "33510483",
+      "36230482",
+      "39009815",
+      "36497457",
+      "39383772",
+      "38197697"
+    ],
+    "review": [
+      "34789568",
+      "15832580",
+      "26993776",
+      "23541808",
+      "22533881",
+      "29690746",
+      "18722078",
+      "31882269",
+      "30684591",
+      "29326075",
+      "17952864",
+      "31295471",
+      "30697727",
+      "28985512",
+      "30269229",
+      "35189910",
+      "34477520"
+    ],
+    "pmc": [
+      "8617425"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2115116118?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34789568/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34789568",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1745",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

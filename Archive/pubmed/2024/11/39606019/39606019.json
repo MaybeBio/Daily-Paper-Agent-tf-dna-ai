@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "39606019",
+    "doi": "10.3389/fgene.2024.1446903",
+    "title": "Integrative analysis of single-cell transcriptomic and multilayer signaling networks in glioma reveal tumor progression stage."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Tumor microenvironments (TMEs) encompass complex ecosystems of cancer cells, infiltrating immune cells, and diverse cell types. Intercellular and intracellular signals within the TME significantly influence cancer progression and therapeutic outcomes. Although computational tools are available to study TME interactions, explicitly modeling tumor progression across different cancer types remains a challenge. METHODS: This study introduces a comprehensive framework utilizing single-cell RNA sequencing (scRNA-seq) data within a multilayer network model, designed to investigate molecular changes across glioma progression stages. The heterogeneous, multilayered network model replicates the hierarchical structure of biological systems, from genetic building blocks to cellular functions and phenotypic manifestations. RESULTS: Applying this framework to glioma scRNA-seq data allowed complex network analysis of different cancer stages, revealing significant ligand‒receptor interactions and key ligand‒receptor-transcription factor (TF) axes, along with their associated biological pathways. Differential network analysis between grade III and grade IV glioma highlighted the most critical nodes and edges involved in interaction rewiring. Pathway enrichment analysis identified four essential genes-PDGFA (ligand), PDGFRA (receptor), CREB1 (TF), and PLAT (target gene)-involved in the Receptor Tyrosine Kinases (RTK) signaling pathway, which plays a pivotal role in glioma progression from grade III to grade IV. DISCUSSION: These genes emerged as significant features for machine learning in predicting glioma progression stages, achieving 87% accuracy and 93% AUC in a 3-year survival prediction through Kaplan-Meier analysis. This framework provides deeper insights into the cellular machinery of glioma, revealing key molecular relationships that may inform prognosis and therapeutic strategies.",
+    "keywords": [
+      "glioma progression",
+      "inter-intra signaling network",
+      "machine learning",
+      "scRNA-seq",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Atanaki, Fereshteh Fallah",
+        "Mirsadeghi, Leila",
+        "Manesh, Mohsen Riahi",
+        "Kavousi, Kaveh"
+      ],
+      "short_names": [
+        "Atanaki FF",
+        "Mirsadeghi L",
+        "Manesh MR",
+        "Kavousi K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Complex Biological Systems and Bioinformatics (CBB), Department of Bioinformatics, Institute of Biochemistry and Biophysics (IBB ), University of Tehran, Tehran, Iran.",
+        "Laboratory of Complex Biological Systems and Bioinformatics (CBB), Department of Bioinformatics, Institute of Biochemistry and Biophysics (IBB ), University of Tehran, Tehran, Iran.",
+        "School of Engineering, Campbell University, Buies Creek, NC, United States.",
+        "Laboratory of Complex Biological Systems and Bioinformatics (CBB), Department of Bioinformatics, Institute of Biochemistry and Biophysics (IBB ), University of Tehran, Tehran, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Atanaki, Fereshteh Fallah",
+        "short_name": "Atanaki FF",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Complex Biological Systems and Bioinformatics (CBB), Department of Bioinformatics, Institute of Biochemistry and Biophysics (IBB ), University of Tehran, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Mirsadeghi, Leila",
+        "short_name": "Mirsadeghi L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Complex Biological Systems and Bioinformatics (CBB), Department of Bioinformatics, Institute of Biochemistry and Biophysics (IBB ), University of Tehran, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Manesh, Mohsen Riahi",
+        "short_name": "Manesh MR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Engineering, Campbell University, Buies Creek, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Kavousi, Kaveh",
+        "short_name": "Kavousi K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Complex Biological Systems and Bioinformatics (CBB), Department of Bioinformatics, Institute of Biochemistry and Biophysics (IBB ), University of Tehran, Tehran, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/28 06:36",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "42142055",
+      "40332008"
+    ],
+    "refs": [],
+    "similar": [
+      "39606019",
+      "31329830",
+      "38007705",
+      "39896800",
+      "40064955",
+      "39759507",
+      "40145099",
+      "40072722",
+      "38595234",
+      "39867913",
+      "31518750",
+      "37650991",
+      "39799269",
+      "38645202",
+      "38254989",
+      "31150762",
+      "40328901",
+      "34471502",
+      "39488096",
+      "31118022",
+      "39989140",
+      "38515748",
+      "35572582",
+      "39364414",
+      "38391150",
+      "37629071",
+      "38506564",
+      "39148129",
+      "39714742",
+      "36973787",
+      "40052358",
+      "40130175",
+      "39926598",
+      "39868675",
+      "39090422",
+      "40330458",
+      "34489938",
+      "38824202",
+      "40299459",
+      "39697754",
+      "35515000",
+      "38594466",
+      "35865011",
+      "38286348",
+      "35349479",
+      "39403379",
+      "39712016",
+      "26526635",
+      "37662954",
+      "40247403",
+      "37147894",
+      "39033204",
+      "39742274",
+      "34185421",
+      "31068142",
+      "36199426",
+      "39270996",
+      "38221616",
+      "37194413",
+      "37248320",
+      "32309356",
+      "36660733",
+      "40286882",
+      "40205350",
+      "39021287",
+      "25365520",
+      "40074978",
+      "40165301",
+      "39850883",
+      "34863158",
+      "40148380",
+      "38958838",
+      "39530087",
+      "36147664",
+      "40308585",
+      "39453922",
+      "40332226",
+      "40275021",
+      "40308576",
+      "38022677",
+      "39707188",
+      "39859524",
+      "39916959",
+      "39805182",
+      "39324133",
+      "39382606",
+      "40202138",
+      "39895784",
+      "39271545",
+      "34980200",
+      "38054820",
+      "39981232",
+      "38578883",
+      "38613802",
+      "39580469",
+      "40321621",
+      "37809064",
+      "39845963",
+      "38515213",
+      "38577605"
+    ],
+    "review": [
+      "39606019",
+      "35572582",
+      "36147664",
+      "39271545"
+    ],
+    "pmc": [
+      "11599185"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39606019/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1767",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2024.1446903",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

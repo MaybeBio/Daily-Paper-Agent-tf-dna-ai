@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose DeepPocket, a framework combining geometry-based software (Fpocket) with 3D convolutional neural networks for rescoring and segmentation of putative ligand binding sites. They also introduce a new dataset, SC6K, derived from PDB structures deposited between January 2018 and February 2020. They claim superior performance over state-of-the-art methods and good generalization on novel structures.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or dataset statistics are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction details, evaluation protocols, baseline comparisons, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to structure-based drug design, combining established geometric pocket detection with deep learning refinement. However, the abstract lacks quantitative evidence, methodological specificity, and clear benchmarking details. The core claims of improved performance and generalization cannot be evaluated from the supplied material. The introduction of the SC6K dataset is mentioned but not characterized in terms of size, diversity, or quality control. The work may be of interest to computational structural biologists and drug discovery researchers, but the current evidence base is insufficient to assess technical soundness or significance.
+- **Who would be interested in the results, and why** Computational biologists and medicinal chemists working on structure-based drug design would be interested in improved binding site detection and segmentation, as accurate pocket identification is a critical early step in virtual screening and lead optimization. Researchers developing deep learning methods for protein structure analysis may also find the combination of geometric and learning-based approaches relevant.
+- **Major strengths** The proposed hybrid approach, integrating a widely used geometric tool (Fpocket) with 3D CNNs, is a sensible design that leverages complementary strengths. The introduction of a new dataset (SC6K) addresses the need for up-to-date benchmarks in this area. The claim of generalization to novel structures, if substantiated, would be valuable for practical applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DeepPocket's results on various binding site datasets and SC6K highlights its better performance over current state-of-the-art methods and good generalization ability over novel structures."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts superior performance and generalization without reporting any quantitative metrics, such as DCC, ROC-AUC, precision-recall, or success rates at top-ranked pockets. No comparison numbers against state-of-the-art methods are given, and no statistical significance is mentioned.
+  - **Why it matters** Without quantitative results, the central claim of improved performance is unverifiable. The reader cannot assess whether the improvement is meaningful, marginal, or dataset-specific. This is the core contribution of the work, and its absence prevents any evaluation of the method's value.
+  - **Resolution test** Provide performance metrics (e.g., success rate, DCC, AUC) for DeepPocket and at least two baseline methods on multiple datasets, including error bars or confidence intervals, and demonstrate statistical significance where applicable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "DeepPocket that utilises 3D convolutional neural networks for the rescoring of pockets identified by Fpocket and further segments these identified cavities on the protein surface."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe the network architecture, input representation (e.g., voxelization parameters, grid resolution), training data, loss functions, or how rescoring and segmentation are integrated. The segmentation output is not defined (e.g., per-voxel labels, surface patches).
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without architectural and training details, other researchers cannot implement or validate DeepPocket. The lack of clarity on segmentation also obscures what the method actually outputs and how it would be used in practice.
+  - **Resolution test** Include a methods section or supplementary material specifying the CNN architecture, input featurization, training procedure, hyperparameters, and a precise definition of the segmentation output.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset validity
+  - **Claim pointer** "we also propose another dataset SC6K containing protein structures submitted in the Protein Data Bank (PDB) from January 2018 till February 2020 for ligand binding site (LBS) detection."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no details on SC6K, such as the number of proteins, filtering criteria (e.g., sequence identity cutoffs, resolution thresholds, ligand types), annotation protocol for binding sites, or how it avoids redundancy with existing datasets. The temporal range is stated but not justified.
+  - **Why it matters** A dataset's utility depends on its construction quality. Without filtering and annotation details, the dataset may contain biases, redundancies, or errors that undermine its use as a benchmark. The claim of generalization to novel structures relies on the dataset being representative and clean.
+  - **Resolution test** Describe SC6K's size, selection criteria, redundancy removal, binding site definition, and validation against existing datasets (e.g., COACH420, HOLO4K). Provide a statistical summary and access details.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "rescoring" is used without defining the scoring function or how it relates to Fpocket's original scores. The phrase "segments these identified cavities" is ambiguous regarding the output format.
+  - **Required correction** Define rescoring in terms of the specific output (e.g., a confidence score per pocket) and clarify whether segmentation produces a binary mask, probability map, or surface annotation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "a majority of them surprisingly fail" but does not specify which methods or on what criteria. This is a strong claim without citation or context.
+  - **Required correction** Reference specific prior methods and their reported limitations, or soften the claim to avoid unsupported generalization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No mention of code or dataset availability, which is important for community adoption and reproducibility.
+  - **Required correction** State where the code and SC6K dataset will be made available (e.g., GitHub, Zenodo) and under what license.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (insufficient methodological detail), R1-M3 (incomplete dataset description). These are blocking because the core claims of performance, reproducibility, and dataset utility cannot be assessed from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The hybrid geometric plus deep learning approach is not entirely novel, as similar ideas exist in the literature, but the specific combination and segmentation focus may offer incremental novelty. Scientific importance: Binding site detection is a relevant problem in drug discovery, but the abstract does not demonstrate a substantial advance over existing methods. Interdisciplinary readership: The work bridges computational biology and machine learning, which could appeal to a broad audience, but the abstract is too technical and underspecified for nonspecialists to grasp the contribution. Technical soundness: Cannot be evaluated due to missing details and results. Readability for nonspecialists: The abstract assumes familiarity with Fpocket, CNNs, and binding site terminology, and lacks context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable research direction, but the absence of quantitative results, methodological specifics, and dataset characterization prevents any assessment of validity or impact. A revised submission with full results and methods could change this assessment.
+
+## Risk / unsupported claims
+- "better performance over current state-of-the-art methods" is unsupported without quantitative comparisons.
+- "good generalization ability over novel structures" is unsupported without cross-dataset or temporal split results.
+- "a majority of them surprisingly fail" is an unsupported generalization without specific citations or failure criteria.
+- The utility and quality of the SC6K dataset are unassessable without construction details.
+- The segmentation capability is claimed but not defined or demonstrated.

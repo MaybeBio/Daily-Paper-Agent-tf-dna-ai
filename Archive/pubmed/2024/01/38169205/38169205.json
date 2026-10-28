@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "38169205",
+    "doi": "10.1016/j.jep.2023.117682",
+    "title": "Network pharmacology combines machine learning, molecular simulation dynamics and experimental validation to explore the mechanism of acetylbinankadsurin A in the treatment of liver fibrosis."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: The Kadsura coccinea (Lem.) A. C. Smith is known as \"Heilaohu\" of the Tujia ethnomedicine in China. It has anti-tumor, anti-oxidation, anti-HIV, anti-inflammatory and liver protective effects, used to treat diseases such as rheumatoid arthritis, cancer, gastritis and hepatitis. In this research, we investigated the anti-fibrotic effect and possible mechanisms of acetylbinankadsurin A (ACBA) in vitro and in vivo, which is a natural compound derived from roots of K. coccinea. AIM OF THE STUDY: We try to evaluate the efficacy of ACBA in the treatment of liver fibrosis and to explore the underlying mechanisms of ACBA by network pharmacology, machine learning, molecular docking, molecular dynamics simulations, and experimental assessment. MATERIALS AND METHODS: ACBA was isolated from the CH(2)Cl(2) layer of the roots of K. coccinea through column chromatographic techniques. The structure of ACBA was determined by using 1D and 2D NMR. CCl(4)-induced C57BL/6 mouse liver fibrosis models were established to evaluate the anti-fibrosis effects of ACBA in vivo. The molecular targets of ACBA and liver fibrosis were obtained from various databases, then constructed a protein-protein interaction (PPI) networks through the STRING database. Gene ontology (GO) enrichment and kyoto encyclopedia of genes and genomes (KEGG) analysis were applied using the \"clusterProfiler\" R package. Furthermore, the key genes for ACBA treatment of liver fibrosis were identified by the least absolute shrinkage and selection operator (LASSO). Molecular docking and molecular dynamics simulations were also carried out. Finally, the target and pathway of ACBA were verified by immunofluorescence staining, RT-PCR and Western blot. RESULT: First, ACBA attenuated CCl(4)-induced liver injury and fibrosis in vivo. These findings were accompanied by decreased expression of alpha-SMA and collagen I. Second, ACBA significantly decreased serum levels of ALT, AST, TNF-alpha and IL-6. Then, we identified 133 potential targets of ACBA and 7987 targets of liver fibrosis. KEGG analysis showed that ACBA could regulate the drug metabolism - cytochrome P450, fructose and mannose metabolism, IL-17 and NF-kappaB signaling pathways. Next, six core targets was screened by LASSO analysis including AKR1B1, PFKFB3, EPHA3, CDK1, CCR1 and CYP3A4. Molecular docking showed that ACBA has a good binding affinity for CCR1. Furthermore, compared with CCR1 inhibitor BX-471, The results of molecular simulation dynamics showed that ACBA was stable in binding with CCR1. Consistently, ACBA remarkably downregulated the expression of CCR1, p-NF-kappaBp65, p-IkappaBalpha, p-STAT1 and TNF-alpha proteins, which were upregulated in CCl(4)-induced hepatic fibrosis and LPS-THP-1 cells. CONCLUSION: Our results suggest that ACBA significantly attenuated CCl(4)-induced liver fibrosis in histopathological and in serum level. This effect may be mediated by CCR1, NF-kappaB and STAT1 signalling.",
+    "keywords": [
+      "Acetylbinankadsurin A",
+      "Liver fibrosis",
+      "Machine learning",
+      "Molecular simulation dynamics",
+      "Network pharmacology"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "Mice, Inbred C57BL",
+      "*Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "Tumor Necrosis Factor-alpha",
+      "Network Pharmacology",
+      "NF-kappa B",
+      "Liver Cirrhosis/drug therapy",
+      "Machine Learning",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Wangxia",
+        "Yang, Yupei",
+        "Lu, Huaguan",
+        "Shi, Huan",
+        "Jiang, Lihong",
+        "Liao, Xiaolin",
+        "Zhao, Hongqing",
+        "Wang, Wei",
+        "Liu, Jianjun"
+      ],
+      "short_names": [
+        "Peng W",
+        "Yang Y",
+        "Lu H",
+        "Shi H",
+        "Jiang L",
+        "Liao X",
+        "Zhao H",
+        "Wang W",
+        "Liu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China.",
+        "TCM and Ethnomedicine Innovation & Development International Laboratory, Innovative Materia Medica Research Institute, School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China.",
+        "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China.",
+        "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China.",
+        "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China.",
+        "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China.",
+        "TCM and Ethnomedicine Innovation & Development International Laboratory, Innovative Materia Medica Research Institute, School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China. Electronic address: wangwei402@hotmail.com.",
+        "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China. Electronic address: liujianjun2018@hnucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Wangxia",
+        "short_name": "Peng W",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yupei",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "TCM and Ethnomedicine Innovation & Development International Laboratory, Innovative Materia Medica Research Institute, School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Huaguan",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Huan",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lihong",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Xiaolin",
+        "short_name": "Liao X",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongqing",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "TCM and Ethnomedicine Innovation & Development International Laboratory, Innovative Materia Medica Research Institute, School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China. Electronic address: wangwei402@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Jianjun",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center of Hunan University of Traditional Chinese Medicine, Innovation Base of Hunan State Key Laboratory of Innovative Medicine and Traditional Chinese Medicine, Changsha, 410208, China. Electronic address: liujianjun2018@hnucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2024 Apr 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 01:18",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "42602266",
+      "42535626",
+      "42523549",
+      "42353082",
+      "41982746",
+      "41828326",
+      "41719428",
+      "41710579",
+      "41611957",
+      "41498029",
+      "41451445",
+      "41375167",
+      "41150789",
+      "40938677",
+      "40921925",
+      "40725063",
+      "40719833",
+      "40137300",
+      "40137169",
+      "40069777",
+      "39869574",
+      "39621088"
+    ],
+    "refs": [],
+    "similar": [
+      "38169205",
+      "38114126",
+      "37023836",
+      "38190954",
+      "33444723",
+      "36529247",
+      "37802827",
+      "38387680",
+      "37454750",
+      "37356743",
+      "39322020",
+      "38588987",
+      "36472040",
+      "36403742",
+      "38104874",
+      "37480968",
+      "35970314",
+      "32479885",
+      "38696100",
+      "38583728",
+      "37530723",
+      "34785888",
+      "36725238",
+      "35850815",
+      "37499457",
+      "38219885",
+      "38914662",
+      "38107658",
+      "37437794",
+      "34808299",
+      "36646160",
+      "36604893",
+      "37080367",
+      "33645089",
+      "38115276",
+      "35622496",
+      "35644437",
+      "37390879",
+      "32105750",
+      "35926779",
+      "37802787",
+      "36604920",
+      "35221674",
+      "35718494",
+      "32783983",
+      "37382018",
+      "33441867",
+      "35988839",
+      "36284987",
+      "37056062",
+      "36471963",
+      "38555283",
+      "36162550",
+      "28864168",
+      "34492285",
+      "37083803",
+      "37657772",
+      "36595795",
+      "37741472",
+      "36604925",
+      "35837376",
+      "30959141",
+      "32810620",
+      "32101775",
+      "37777029",
+      "34994139",
+      "37640538",
+      "36592822",
+      "35850814",
+      "35101570",
+      "36083487",
+      "36414217",
+      "36280016",
+      "33358854",
+      "37576085",
+      "36472042",
+      "36872242",
+      "38395179",
+      "36389420",
+      "36386126",
+      "38114219",
+      "36058476",
+      "36587875",
+      "36906159",
+      "36099655",
+      "37247682",
+      "37861962",
+      "35851129",
+      "37100262",
+      "35430443",
+      "36471935",
+      "38110130",
+      "37406747",
+      "38878880",
+      "36998242",
+      "34951222",
+      "35438554",
+      "36860812",
+      "34593896",
+      "37233418",
+      "34173707",
+      "36924863",
+      "35429380",
+      "36634726",
+      "35964821",
+      "35057680",
+      "38423410",
+      "35135448",
+      "36565772",
+      "36597607",
+      "39276053",
+      "39081706",
+      "38616754",
+      "38498951",
+      "38707614",
+      "37587811",
+      "38880400",
+      "38387122",
+      "38496849",
+      "38413973",
+      "38566171",
+      "38733905",
+      "37866462",
+      "39180676",
+      "38421706",
+      "38785796",
+      "37878048",
+      "38103742",
+      "33986661",
+      "38941899",
+      "39068852",
+      "39171467",
+      "39137627",
+      "36337846",
+      "33505505",
+      "38964723",
+      "34417500",
+      "39401665",
+      "39180042",
+      "39085510",
+      "38621605",
+      "38461449",
+      "38402418",
+      "38435751",
+      "39243097",
+      "39299362",
+      "39301261",
+      "39236475",
+      "38785131",
+      "38378674",
+      "37963492",
+      "38954070",
+      "38948030",
+      "38751131",
+      "39427127",
+      "38734868",
+      "38481992",
+      "38680343",
+      "38429802",
+      "38520786",
+      "38737798",
+      "37243678",
+      "39232997",
+      "38571642",
+      "39311920",
+      "38299285",
+      "39245240",
+      "38018869",
+      "33519923",
+      "38504075",
+      "39021977",
+      "38276007",
+      "38344924",
+      "39019913",
+      "39369611",
+      "38749471"
+    ],
+    "review": [
+      "38169205",
+      "37083803"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(23)01552-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

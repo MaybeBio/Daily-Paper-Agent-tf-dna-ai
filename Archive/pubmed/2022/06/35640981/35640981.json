@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "35640981",
+    "doi": "10.1093/bioinformatics/btac373",
+    "title": "DeepLUCIA: predicting tissue-specific chromatin loops using Deep Learning-based Universal Chromatin Interaction Annotator."
+  },
+  "content": {
+    "abstract": "MOTIVATION: The importance of chromatin loops in gene regulation is broadly accepted. There are mainly two approaches to predict chromatin loops: transcription factor (TF) binding-dependent approach and genomic variation-based approach. However, neither of these approaches provides an adequate understanding of gene regulation in human tissues. To address this issue, we developed a deep learning-based chromatin loop prediction model called Deep Learning-based Universal Chromatin Interaction Annotator (DeepLUCIA). RESULTS: Although DeepLUCIA does not use TF binding profile data which previous TF binding-dependent methods critically rely on, its prediction accuracies are comparable to those of the previous TF binding-dependent methods. More importantly, DeepLUCIA enables the tissue-specific chromatin loop predictions from tissue-specific epigenomes that cannot be handled by genomic variation-based approach. We demonstrated the utility of the DeepLUCIA by predicting several novel target genes of SNPs identified in genome-wide association studies targeting Brugada syndrome, COVID-19 severity and age-related macular degeneration. Availability and implementation DeepLUCIA is freely available at https://github.com/bcbl-kaist/DeepLUCIA. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Chromatin",
+      "Genome-Wide Association Study",
+      "*Deep Learning",
+      "*COVID-19",
+      "Genomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Dongchan",
+        "Chung, Taesu",
+        "Kim, Dongsup"
+      ],
+      "short_names": [
+        "Yang D",
+        "Chung T",
+        "Kim D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2311-5794",
+        "ORCID: 0000-0002-5916-6799"
+      ],
+      "affiliations": [
+        "Department of Bio and Brain Engineering, KAIST, Daejeon 34141, Republic of Korea.",
+        "Biotechnology & Healthcare Examination Division, Convergence Technology Examination Bureau, KIPO, Daejeon 35208, Republic of Korea.",
+        "Department of Bio and Brain Engineering, KAIST, Daejeon 34141, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Dongchan",
+        "short_name": "Yang D",
+        "identifiers": [
+          "0000-0003-2311-5794"
+        ],
+        "affiliations": [
+          "Department of Bio and Brain Engineering, KAIST, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Chung, Taesu",
+        "short_name": "Chung T",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology & Healthcare Examination Division, Convergence Technology Examination Bureau, KIPO, Daejeon 35208, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Dongsup",
+        "short_name": "Kim D",
+        "identifiers": [
+          "0000-0002-5916-6799"
+        ],
+        "affiliations": [
+          "Department of Bio and Brain Engineering, KAIST, Daejeon 34141, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Jul 11",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/01 06:00",
+    "fetched_at": "2026-09-28 09:12:56"
+  },
+  "links": {
+    "cites": [
+      "42651636",
+      "41714417",
+      "41555433",
+      "40186170",
+      "40108448",
+      "38770419",
+      "37292728",
+      "37066196"
+    ],
+    "refs": [],
+    "similar": [
+      "35640981",
+      "35997565",
+      "34289010",
+      "36495179",
+      "25957350",
+      "33196774",
+      "33634313",
+      "38555493",
+      "31373606",
+      "30423062",
+      "35929807",
+      "36206320",
+      "29069282",
+      "38366935",
+      "31504161",
+      "38770419",
+      "30967126",
+      "34255822",
+      "35997560",
+      "32657401",
+      "31510655",
+      "35695776",
+      "26092860",
+      "35077535",
+      "35191481",
+      "33381816",
+      "35266510",
+      "33067636",
+      "37402191",
+      "33135730",
+      "27153645",
+      "30084962",
+      "31723409",
+      "33232622",
+      "33279983",
+      "28750606",
+      "32657412",
+      "22954627",
+      "32777818",
+      "31318408",
+      "33031552",
+      "33367499",
+      "30590407",
+      "30184052",
+      "35511108",
+      "28881969",
+      "28137713",
+      "37569400",
+      "30295703",
+      "32847102",
+      "35099535",
+      "31510693",
+      "26545821",
+      "29253110",
+      "32550271",
+      "30423078",
+      "28968736",
+      "28203701",
+      "29244056",
+      "18988630",
+      "32246829",
+      "21690103",
+      "27609510",
+      "31742324",
+      "30816925",
+      "30304373",
+      "29982330",
+      "24967590",
+      "32661261",
+      "25431329",
+      "21724591",
+      "33372147",
+      "29668842",
+      "19959498",
+      "34769020",
+      "27993786",
+      "34534646",
+      "32016382",
+      "37816141",
+      "31904817",
+      "29982337",
+      "37224527"
+    ],
+    "review": [
+      "35640981",
+      "30084962"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://www.ovid.com/35640981.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac373",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

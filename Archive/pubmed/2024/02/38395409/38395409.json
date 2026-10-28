@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "38395409",
+    "doi": "10.1016/j.jmoldx.2024.02.002",
+    "title": "Machine Learning-Supported Diagnosis of Small Blue Round Cell Sarcomas Using Targeted RNA Sequencing."
+  },
+  "content": {
+    "abstract": "Small blue round cell sarcomas (SBRCSs) are a heterogeneous group of tumors with overlapping morphologic features but markedly varying prognosis. They are characterized by distinct chromosomal alterations, particularly rearrangements leading to gene fusions, whose detection currently represents the most reliable diagnostic marker. Ewing sarcomas are the most common SBRCSs, defined by gene fusions involving EWSR1 and transcription factors of the ETS family, and the most frequent non-EWSR1-rearranged SBRCSs harbor a CIC rearrangement. Unfortunately, currently the identification of CIC::DUX4 translocation events, the most common CIC rearrangement, is challenging. Here, we present a machine-learning approach to support SBRCS diagnosis that relies on gene expression profiles measured via targeted sequencing. The analyses on a curated cohort of 69 soft-tissue tumors showed markedly distinct expression patterns for SBRCS subgroups. A random forest classifier trained on Ewing sarcoma and CIC-rearranged cases predicted probabilities of being CIC-rearranged >0.9 for CIC-rearranged-like sarcomas and <0.6 for other SBRCSs. Testing on a retrospective cohort of 1335 routine diagnostic cases identified 15 candidate CIC-rearranged tumors with a probability >0.75, all of which were supported by expert histopathologic reassessment. Furthermore, the multigene random forest classifier appeared advantageous over using high ETV4 expression alone, previously proposed as a surrogate to identify CIC rearrangement. Taken together, the expression-based classifier can offer valuable support for SBRCS pathologic diagnosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Retrospective Studies",
+      "*Sarcoma, Small Cell/diagnosis/genetics/pathology",
+      "Transcription Factors/genetics",
+      "*Sarcoma/genetics",
+      "*Soft Tissue Neoplasms/genetics",
+      "Sequence Analysis, RNA",
+      "Oncogene Proteins, Fusion/genetics",
+      "Biomarkers, Tumor/genetics/analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schlieben, Lea D",
+        "Carta, Maria Giulia",
+        "Moskalev, Evgeny A",
+        "Stohr, Robert",
+        "Metzler, Markus",
+        "Besendorfer, Manuel",
+        "Meidenbauer, Norbert",
+        "Semrau, Sabine",
+        "Janka, Rolf",
+        "Grutzmann, Robert",
+        "Wiemann, Stefan",
+        "Hartmann, Arndt",
+        "Agaimy, Abbas",
+        "Haller, Florian",
+        "Ferrazzi, Fulvia"
+      ],
+      "short_names": [
+        "Schlieben LD",
+        "Carta MG",
+        "Moskalev EA",
+        "Stohr R",
+        "Metzler M",
+        "Besendorfer M",
+        "Meidenbauer N",
+        "Semrau S",
+        "Janka R",
+        "Grutzmann R",
+        "Wiemann S",
+        "Hartmann A",
+        "Agaimy A",
+        "Haller F",
+        "Ferrazzi F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany.",
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany.",
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany.",
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany.",
+        "Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Pediatrics, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany.",
+        "Department of Pediatric Surgery, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany.",
+        "Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Internal Medicine 5-Hematology and Oncology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany.",
+        "Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Radiation Oncology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany.",
+        "Department of Radiology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany.",
+        "Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Pediatric Surgery, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Department of Surgery, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany.",
+        "Division of Molecular Genome Analysis, German Cancer Research Center, Heidelberg, Germany.",
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany.",
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany.",
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany.",
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Nephropathology, Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Erlangen, Germany. Electronic address: fulvia.ferrazzi@uk-erlangen.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schlieben, Lea D",
+        "short_name": "Schlieben LD",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Carta, Maria Giulia",
+        "short_name": "Carta MG",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Moskalev, Evgeny A",
+        "short_name": "Moskalev EA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Stöhr, Robert",
+        "short_name": "Stöhr R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Metzler, Markus",
+        "short_name": "Metzler M",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Pediatrics, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Besendörfer, Manuel",
+        "short_name": "Besendörfer M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Meidenbauer, Norbert",
+        "short_name": "Meidenbauer N",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Internal Medicine 5-Hematology and Oncology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Semrau, Sabine",
+        "short_name": "Semrau S",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Radiation Oncology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Janka, Rolf",
+        "short_name": "Janka R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Grützmann, Robert",
+        "short_name": "Grützmann R",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Pediatric Surgery, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Department of Surgery, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Wiemann, Stefan",
+        "short_name": "Wiemann S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Genome Analysis, German Cancer Research Center, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hartmann, Arndt",
+        "short_name": "Hartmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Agaimy, Abbas",
+        "short_name": "Agaimy A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Haller, Florian",
+        "short_name": "Haller F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Ferrazzi, Fulvia",
+        "short_name": "Ferrazzi F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany; Comprehensive Cancer Center Erlangen-EMN, Erlangen, Germany; Bavarian Cancer Research Center, Erlangen, Germany; Department of Nephropathology, Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany. Electronic address: fulvia.ferrazzi@uk-erlangen.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of molecular diagnostics : JMD"
+    ],
+    "journal_abbrev": [
+      "J Mol Diagn"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/24 11:42",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "40227789",
+      "39954999",
+      "39941915"
+    ],
+    "refs": [
+      "34802044",
+      "34562614",
+      "32444689",
+      "31802230",
+      "29700887",
+      "29661713",
+      "28493604",
+      "28404587",
+      "28346326",
+      "28233365",
+      "27790742",
+      "27562494",
+      "27443513",
+      "27180056",
+      "26647377",
+      "26304893",
+      "25516281",
+      "25176350",
+      "24950687",
+      "24723486",
+      "24632715",
+      "24215322",
+      "23104886",
+      "22387997",
+      "22143140",
+      "22072439",
+      "20979621",
+      "17361217",
+      "16717057",
+      "16359533",
+      "15461798"
+    ],
+    "similar": [
+      "38395409",
+      "27562494",
+      "37814845",
+      "35836290",
+      "27443513",
+      "38705279",
+      "22072439",
+      "29661713",
+      "28346326",
+      "27790742",
+      "37167753",
+      "30709443",
+      "24723486",
+      "28493604",
+      "30257034",
+      "39576278",
+      "36788092",
+      "37272442",
+      "28197724",
+      "31886887",
+      "27180056",
+      "31870501",
+      "38278603",
+      "36537582",
+      "35715887",
+      "29227121",
+      "36484765",
+      "41494974",
+      "38703529",
+      "25683183",
+      "32026485",
+      "39381843",
+      "26386605",
+      "26800124",
+      "25007147",
+      "36791667",
+      "34515032",
+      "38280658",
+      "37863565",
+      "29533464",
+      "23887164",
+      "40374389",
+      "38851744",
+      "35440765",
+      "26847175",
+      "30353686",
+      "28337592",
+      "32875423",
+      "32449046",
+      "28645808",
+      "26752546",
+      "37114626",
+      "35151033",
+      "30989672",
+      "27324529",
+      "27079694",
+      "39010330",
+      "28188754",
+      "32362012",
+      "26685084",
+      "21813156",
+      "39921488",
+      "40298239",
+      "28233365",
+      "39510958",
+      "32048619",
+      "34344077",
+      "40398821",
+      "29480450",
+      "35216845",
+      "38972355",
+      "32155762",
+      "32788348",
+      "28797504",
+      "36542130",
+      "32873768",
+      "39985329",
+      "24947144",
+      "40230184",
+      "29901569",
+      "29300189",
+      "30895378",
+      "30310990",
+      "37212486",
+      "35730520",
+      "38970674",
+      "40716917",
+      "36593014",
+      "24213312",
+      "38036973",
+      "34405608",
+      "28404587",
+      "11216714",
+      "28062084",
+      "29700887",
+      "29431183",
+      "30633925",
+      "41053525",
+      "31756779",
+      "33183732"
+    ],
+    "review": [
+      "38395409",
+      "37167753",
+      "30709443",
+      "30257034",
+      "39576278",
+      "37272442",
+      "38278603",
+      "29227121",
+      "36484765",
+      "25683183",
+      "34515032",
+      "38280658",
+      "37863565",
+      "40374389",
+      "38851744",
+      "32875423",
+      "39921488",
+      "39510958",
+      "40398821",
+      "29480450",
+      "32155762",
+      "28797504",
+      "36542130",
+      "32873768",
+      "35730520",
+      "40716917",
+      "38036973",
+      "30633925",
+      "33183732"
+    ],
+    "pmc": [
+      "12178384"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1525-1578(24)00046-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/softtissuesarcoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Soft Tissue Sarcoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38395409/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1346",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1525-1578(24)00046-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

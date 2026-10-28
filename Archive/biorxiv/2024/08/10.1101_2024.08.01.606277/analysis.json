@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.01.606277",
+  "title": "Enhanced Sampling Simulations of RNA-peptide Binding using Deep Learning Collective Variables",
+  "authors": "Nisha Kumari; Sonam Dhull; Tarak Karmakar",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-02",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习集体变量增强采样模拟RNA-肽结合，虽非TF-DNA体系，但方法可迁移至蛋白质-DNA互作建模，故给6分。",
+  "abstract": "Enhanced sampling (ES) simulations of biomolecular recognition such as binding of small molecules to proteins and nucleic acids targets, protein-protein association, and protein-nucleic acids interactions have been gaining significant attention in the simulation community due to their ability to sample long timescale processes. However, a key challenge in implementing collective variable (CV)-based enhanced sampling methods is the selection of appropriate CVs that can distinguish the system’s metastable states and, when biased, can effectively sample these states. This challenge is particularly acute when simulating the binding of a flexible molecule to a conformationally rich host molecule, such as the binding of a peptide to an RNA. In such cases, a large number of CVs are required to capture the conformations of both the host and the guest, as well as the binding process. In our work, we employed the recently developed Deep Targeted Discrimination Analysis (DeepTDA) method to design CVs for the study of the binding of a cyclic peptide, L22 to a TAR RNA of HIV as a prototypical system. These CVs were used in the on-the-fly probability-based enhanced sampling and well-tempered metadynamics simulations to sample reversible binding and unbinding of L22 peptide to the TAR RNA target. The enhanced sampling simulations revealed multiple binding and unbinding events, which enabled the calculation of the free energy surface for the peptide binding process. Our results demonstrate the potential of the DeepTDA method for designing CVs to study complex biomolecular recognition processes.",
+  "abstract_zh": "生物分子识别的增强采样（ES）模拟，例如小分子与蛋白质及核酸靶标的结合、蛋白质-蛋白质关联以及蛋白质-核酸相互作用，在模拟领域已获得显著关注，因其能够采样长时间尺度过程。然而，实施基于集体变量（CV）的增强采样方法的一个关键挑战是选择适当的CV，这些CV需能区分系统的亚稳态，并在施加偏置时有效采样这些状态。这一挑战在模拟柔性分子与构象丰富宿主分子结合时尤为严峻，例如肽与RNA的结合。在此类情况下，需要大量CV来捕捉宿主和客体的构象以及结合过程。在我们的工作中，我们采用了最近开发的深度目标判别分析（DeepTDA）方法，为研究环肽L22与HIV的TAR RNA结合这一原型系统设计CV。这些CV被用于基于概率的实时增强采样和温和回火元动力学模拟，以采样L22肽与TAR RNA靶标的可逆结合与解离。增强采样模拟揭示了多次结合与解离事件，从而能够计算肽结合过程的自由能表面。我们的结果展示了DeepTDA方法在设计CV以研究复杂生物分子识别过程方面的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606277",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606277",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.01.606277/index.html"
+}

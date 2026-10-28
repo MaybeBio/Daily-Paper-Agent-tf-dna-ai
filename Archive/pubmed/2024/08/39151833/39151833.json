@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "39151833",
+    "doi": "10.1016/j.bbagen.2024.130692",
+    "title": "Identification of small molecule antagonists of sonic hedgehog/heparin binding with activity in hedgehog functional assays."
+  },
+  "content": {
+    "abstract": "Sonic hedgehog (Shh) is a morphogen with important roles in embryonic development and in the development of a number of cancers. Its activity is modulated by interactions with binding partners and co-receptors including heparin and heparin sulfate proteoglycans (HSPG). To identify antagonists of Shh/heparin binding, a diverse collection of 34,560 chemicals was screened in single point 384-well format. We identified and confirmed twenty six novel small molecule antagonists with diverse structures including four scaffolds that gave rise to multiple hits. Nineteen of the confirmed hits blocked binding of the N-terminal fragment of Shh (ShhN) to heparin with IC(50) values < 50 muM. In the Shh-responsive C3H10T1/2 cell model, four of the compounds demonstrated the ability to block ShhN-induced alkaline phosphatase activity. To demonstrate a direct and selective effect on ShhN ligand mediated activity, two of the compounds were able to block induction of Gli1 mRNA, a primary downstream marker for Shh signaling activity, in Shh-mediated but not Smoothened agonist (SAG)-mediated C3H10T1/2 cells. Direct binding of the two compounds to ShhN was confirmed by thermal shift assay and molecular docking simulations, with both compounds docking with the N-terminal heparin binding domain of Shh. Overall, our findings indicate that small molecule compounds that block ShhN binding to heparin and act to inhibit Shh mediated activity in vitro can be identified. We propose that the interaction between Shh and HSPGs provides a novel target for identifying small molecules that bind Shh, potentially leading to novel tool compounds to probe Shh ligand function.",
+    "keywords": [
+      "C3H10T1/2",
+      "Heparin",
+      "High-throughput screening",
+      "SAG",
+      "Sonic hedgehog"
+    ],
+    "mesh_terms": [
+      "*Hedgehog Proteins/metabolism/antagonists & inhibitors",
+      "*Heparin/metabolism/chemistry",
+      "Animals",
+      "*Small Molecule Libraries/pharmacology/chemistry",
+      "Mice",
+      "Humans",
+      "Protein Binding",
+      "Signal Transduction/drug effects",
+      "Cell Line",
+      "Zinc Finger Protein GLI1/metabolism/antagonists & inhibitors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lamson, David R",
+        "Tarpley, Michael",
+        "Addo, Kezia",
+        "Ji, Xiaojia",
+        "Abu Rabe, Dina",
+        "Ehe, Ben",
+        "Hughes, Mark",
+        "Smith, Ginger R",
+        "Daye, Laura R",
+        "Musso, David L",
+        "Zheng, Weifan",
+        "Williams, Kevin P"
+      ],
+      "short_names": [
+        "Lamson DR",
+        "Tarpley M",
+        "Addo K",
+        "Ji X",
+        "Abu Rabe D",
+        "Ehe B",
+        "Hughes M",
+        "Smith GR",
+        "Daye LR",
+        "Musso DL",
+        "Zheng W",
+        "Williams KP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA; INBS PhD Program, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA; Department of Pharmaceutical Sciences, North Carolina Central University, Durham, NC 27707, USA.",
+        "Biomanufacturing Research Institute and Technology Enterprise, USA; Department of Pharmaceutical Sciences, North Carolina Central University, Durham, NC 27707, USA. Electronic address: kpwilliams@nccu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lamson, David R",
+        "short_name": "Lamson DR",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Tarpley, Michael",
+        "short_name": "Tarpley M",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Addo, Kezia",
+        "short_name": "Addo K",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Ji, Xiaojia",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Abu Rabe, Dina",
+        "short_name": "Abu Rabe D",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA; INBS PhD Program, USA."
+        ]
+      },
+      {
+        "full_name": "Ehe, Ben",
+        "short_name": "Ehe B",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Hughes, Mark",
+        "short_name": "Hughes M",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Ginger R",
+        "short_name": "Smith GR",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Daye, Laura R",
+        "short_name": "Daye LR",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Musso, David L",
+        "short_name": "Musso DL",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA."
+        ]
+      },
+      {
+        "full_name": "Zheng, Weifan",
+        "short_name": "Zheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA; Department of Pharmaceutical Sciences, North Carolina Central University, Durham, NC 27707, USA."
+        ]
+      },
+      {
+        "full_name": "Williams, Kevin P",
+        "short_name": "Williams KP",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, USA; Department of Pharmaceutical Sciences, North Carolina Central University, Durham, NC 27707, USA. Electronic address: kpwilliams@nccu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. General subjects"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Gen Subj"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/17 15:43",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "40808911"
+    ],
+    "refs": [
+      "37596267",
+      "37062794",
+      "36932157",
+      "36911531",
+      "36765094",
+      "36332550",
+      "36294790",
+      "35817500",
+      "35669560",
+      "35606054",
+      "35271396",
+      "34887403",
+      "34707294",
+      "34611914",
+      "34434730",
+      "33863273",
+      "33038332",
+      "32829689",
+      "32682931",
+      "32612978",
+      "32311334",
+      "31692471",
+      "31548691",
+      "31127104",
+      "31092502",
+      "31018591",
+      "30977233",
+      "30939349",
+      "30649745",
+      "30242104",
+      "30139912",
+      "29995851",
+      "29954986",
+      "29857275",
+      "29537987",
+      "29109946",
+      "28986380",
+      "28759213",
+      "28581526",
+      "28133533",
+      "27647915",
+      "27547735",
+      "27050677",
+      "25967551",
+      "25692848",
+      "25529135",
+      "25237857",
+      "24870236",
+      "24522195",
+      "24412155",
+      "24344235",
+      "24062467",
+      "23935859",
+      "23118222",
+      "22659135",
+      "22144251",
+      "22049079",
+      "21983857",
+      "21632555",
+      "21572042",
+      "20708941",
+      "20504762",
+      "20024066",
+      "19801637",
+      "19638582",
+      "19561611",
+      "19561609",
+      "19151731",
+      "18829478",
+      "18754008",
+      "18725627",
+      "18585355",
+      "18477453",
+      "17348690",
+      "17139287",
+      "17077139",
+      "16411766",
+      "16396909",
+      "16339763",
+      "16086578",
+      "15132968",
+      "14520411",
+      "14499657",
+      "12437772",
+      "12391318",
+      "11959830",
+      "11731473",
+      "11592978",
+      "11259830",
+      "10984056",
+      "10771469",
+      "10753901",
+      "10564658",
+      "10549295",
+      "9593755",
+      "9268735",
+      "8929535",
+      "8824192",
+      "8552589",
+      "7985023",
+      "7891723",
+      "2463827"
+    ],
+    "similar": [
+      "39151833",
+      "34434730",
+      "32404987",
+      "23416332",
+      "31018591",
+      "11755778",
+      "32612978",
+      "25529135",
+      "32894788",
+      "22049079",
+      "26658865",
+      "25033298",
+      "38999049",
+      "20024066",
+      "32527063",
+      "28886322",
+      "31816328",
+      "38130211",
+      "32298032",
+      "23867465",
+      "23667589",
+      "35171398",
+      "24063979",
+      "26859575",
+      "28994542",
+      "30355933",
+      "17507410",
+      "41060747",
+      "23725514",
+      "27694322",
+      "31455382",
+      "30347228",
+      "19095649",
+      "22900095",
+      "10555969",
+      "34210780",
+      "26843616",
+      "28379718",
+      "21649559",
+      "18046410",
+      "19244133",
+      "28759213",
+      "23029396",
+      "38753688",
+      "33570491",
+      "28458545",
+      "28446712",
+      "32111038",
+      "17884337",
+      "37307020",
+      "30548093",
+      "25595187",
+      "27825830",
+      "28302010",
+      "29535725",
+      "22461522",
+      "11493644",
+      "22811598",
+      "32772391",
+      "19801637",
+      "27632999",
+      "29564556",
+      "26146059",
+      "25290062",
+      "29045809",
+      "18794898",
+      "30610878",
+      "23935859",
+      "23872071",
+      "25072505",
+      "31558698",
+      "40113123",
+      "25999130",
+      "26768620",
+      "28630282",
+      "23935925",
+      "17901397",
+      "26666870",
+      "27113760",
+      "41005522",
+      "21380601",
+      "31506300",
+      "35027088",
+      "27528433",
+      "29627579",
+      "21946948",
+      "24617895",
+      "19567223",
+      "16571352",
+      "22241722",
+      "30679745",
+      "34887403",
+      "32286274",
+      "23118222",
+      "26716648",
+      "21720682",
+      "19836325",
+      "19254376",
+      "22554036",
+      "34990285"
+    ],
+    "review": [
+      "39151833",
+      "20024066",
+      "32111038"
+    ],
+    "pmc": [
+      "11486593"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-4165(24)00135-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bloodthinners.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Blood Thinners"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39151833/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

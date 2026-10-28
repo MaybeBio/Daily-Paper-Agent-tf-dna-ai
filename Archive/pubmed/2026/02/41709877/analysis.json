@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41709877",
+  "title": "Identification of key biomarkers of telomere-related genes in diabetic nephropathy via bioinformatic analysis.",
+  "authors": "Yu, Dan; Feng, Zhipeng; Yao, Huan; An, Ke",
+  "journal": "Frontiers in genetics",
+  "published_date": "2026-02-19",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过生物信息学和机器学习筛选糖尿病肾病端粒相关基因并预测转录因子，但核心是疾病标志物而非蛋白质-DNA互作机制建模，方法上仅用LASSO/SVM-RFE等统计筛选，无AI或物理模拟的互作建模，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Diabetic nephropathy (DN) is a major cause of end-stage renal disease. Understanding the molecular mechanisms underlying DN is crucial for developing new therapeutic targets and diagnostic biomarkers. METHODS: We utilized microarray data from the GEO database to identify differentially expressed genes related to DN. Machine learning algorithms, including LASSO regression and SVM-RFE, were employed to screen and validate telomere-related genes. We also predicted the transcription factors of the significant genes. Subsequently, correlation analysis and Receiver Operating Characteristic diagnostics were performed on the key genes, along with validation using external datasets. Additionally, GSEA enrichment analysis and immune infiltration analysis were conducted. Furthermore, we analyzed the expression of significant genes in cell subgroups using single-cell sequencing technology. Finally, key genes were validated in DN kidney biopsy tissues and normal kidney biopsy tissues. RESULTS: Through differential analysis and machine learning screening, we identified a total of 14 differentially expressed genes related to telomeres, among which TRIM22, ELOVL4, NLGN4X, and FOSB were highlighted as key genes. We also predicted seven related transcription factors (BCLAF1, HNRNPL, TAF15, STAT1, SRSF9, SAFB2, PTEN). The key gene TRIM22 showed a high correlation with NLGN4X, ELOVL4, and NLGN4X. ROC diagnostics demonstrated sufficient diagnostic accuracy in both the test and validation sets. GSEA enrichment analysis and immune infiltration analysis revealed significant differences among immune cells, such as PC cells, and preliminary expression validation was conducted using single-cell analysis (for example, TRIM22 exhibited high expression levels in EDC, PEC, MES, and IMC). Finally, we performed RT-PCR between DN samples and control samples, finding that the expression levels of key genes in both groups were consistent with the trends predicted by bioinformatics, indicating that these genes may serve as potential diagnostic biomarkers and therapeutic targets. CONCLUSION: This study provides a comprehensive analysis of telomere-related DEGs in DN, enhancing our understanding of DN pathogenesis. The identified key genes offer potential for new diagnostic and therapeutic strategies, warranting further investigation into their biological roles in DN.",
+  "abstract_zh": "背景：糖尿病肾病（DN）是终末期肾病的主要原因。理解DN的分子机制对于开发新的治疗靶点和诊断生物标志物至关重要。方法：我们利用GEO数据库中的微阵列数据来识别与DN相关的差异表达基因。采用机器学习算法，包括LASSO回归和SVM-RFE，筛选并验证端粒相关基因。我们还预测了重要基因的转录因子。随后，对关键基因进行了相关性分析和受试者工作特征（ROC）诊断，并使用外部数据集进行验证。此外，进行了GSEA富集分析和免疫浸润分析。进一步地，我们利用单细胞测序技术分析了重要基因在细胞亚群中的表达。最后，在DN肾活检组织和正常肾活检组织中验证了关键基因。结果：通过差异分析和机器学习筛选，我们共识别出14个与端粒相关的差异表达基因，其中TRIM22、ELOVL4、NLGN4X和FOSB被突出为关键基因。我们还预测了七个相关转录因子（BCLAF1、HNRNPL、TAF15、STAT1、SRSF9、SAFB2、PTEN）。关键基因TRIM22与NLGN4X、ELOVL4和NLGN4X显示出高度相关性。ROC诊断在测试集和验证集中均显示出足够的诊断准确性。GSEA富集分析和免疫浸润分析揭示了免疫细胞（如PC细胞）之间的显著差异，并通过单细胞分析进行了初步表达验证（例如，TRIM22在EDC、PEC、MES和IMC中表现出高表达水平）。最后，我们在DN样本和对照样本之间进行了RT-PCR，发现两组中关键基因的表达水平与生物信息学预测的趋势一致，表明这些基因可能作为潜在的诊断生物标志物和治疗靶点。结论：本研究对DN中端粒相关的差异表达基因进行了全面分析，增进了我们对DN发病机制的理解。识别出的关键基因为新诊断和治疗策略提供了潜力，值得进一步研究它们在DN中的生物学作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41709877/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41709877/",
+  "paper_page_path": "papers/pubmed/41709877/index.html"
+}

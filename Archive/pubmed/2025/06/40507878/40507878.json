@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "40507878",
+    "doi": "10.3390/ijms26115066",
+    "title": "The Role of Hydrogen Sulfide in the Localization and Structural-Functional Organization of p53 Following Traumatic Brain Injury: Development of a YOLO Model for Detection and Quantification of Apoptotic Nuclei."
+  },
+  "content": {
+    "abstract": "Traumatic brain injury (TBI) triggers a cascade of molecular and cellular disturbances, including apoptosis, inflammation, and destabilization of neuronal connections. The transcription factor p53 plays a pivotal role in regulating cell fate following brain injury by initiating pro-apoptotic signaling cascades. Hydrogen sulfide (H(2)S) may significantly contribute to the regulation of p53. Using scanning laser confocal microscopy, we found that after TBI, p53 accumulates extensively in the damaged cerebral cortex, showing distinct subcellular localization in neurons and astrocytes. In neurons, p53 predominantly localizes to the cytoplasm, suggesting involvement in mitochondria-dependent apoptosis, whereas in astrocytes, p53 is found in both the nucleus and cytoplasm, indicating possible activation of transcription-dependent apoptotic pathways. Quantitative analysis confirmed a correlation between p53 localization and morphological signs of cell death, as revealed by Sytox Green and Hoechst nuclear staining. Modulating H(2)S levels exerted a marked influence on p53 expression and distribution. Administration of the H(2)S donor sodium thiosulfate (Na(2)S(2)O(3)) reduced the overall number of p53-positive cells, decreased nuclear localization, and lowered the level of apoptosis. Conversely, inhibition of H(2)S synthesis using aminooxyacetic acid (AOAA) led to enhanced p53 expression, increased numbers of cells exhibiting nuclear fragmentation, and a more pronounced apoptotic response. These findings highlight a neuroprotective role for H(2)S, likely mediated through the suppression of p53-dependent cell death pathways. To improve analytical accuracy, we developed a YOLO-based deep-learning model for the automated detection of fragmented nuclei. Additionally, evolutionary and molecular dynamics analysis revealed a high degree of p53 conservation among vertebrates and indicated that, although H(2)S does not form stable complexes with p53, it may modulate its conformational dynamics.",
+    "keywords": [
+      "YOLO",
+      "apoptosis",
+      "glial cells",
+      "hydrogen sulfide",
+      "neurons",
+      "p53",
+      "traumatic brain injury"
+    ],
+    "mesh_terms": [
+      "*Hydrogen Sulfide/metabolism",
+      "*Tumor Suppressor Protein p53/metabolism/chemistry",
+      "*Apoptosis/drug effects",
+      "*Brain Injuries, Traumatic/metabolism/pathology",
+      "Animals",
+      "*Cell Nucleus/metabolism",
+      "Neurons/metabolism/pathology",
+      "Rats",
+      "Astrocytes/metabolism",
+      "Male",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kirichenko, Evgeniya",
+        "Bachurin, Stanislav",
+        "Lisovin, Anton",
+        "Nabiullina, Rozaliia",
+        "Kaplya, Marya",
+        "Romanov, Aleksandr",
+        "Nwosu, Chizaram",
+        "Rodkin, Stanislav"
+      ],
+      "short_names": [
+        "Kirichenko E",
+        "Bachurin S",
+        "Lisovin A",
+        "Nabiullina R",
+        "Kaplya M",
+        "Romanov A",
+        "Nwosu C",
+        "Rodkin S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7788-288X",
+        "ORCID: 0009-0009-0685-5281",
+        "ORCID: 0009-0002-7420-085X",
+        "ORCID: 0009-0001-2820-4406",
+        "ORCID: 0000-0003-4036-5410"
+      ],
+      "affiliations": [
+        "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia.",
+        "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia.",
+        "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia.",
+        "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia.",
+        "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia.",
+        "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia.",
+        "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia.",
+        "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kirichenko, Evgeniya",
+        "short_name": "Kirichenko E",
+        "identifiers": [],
+        "affiliations": [
+          "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+        ]
+      },
+      {
+        "full_name": "Bachurin, Stanislav",
+        "short_name": "Bachurin S",
+        "identifiers": [],
+        "affiliations": [
+          "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+        ]
+      },
+      {
+        "full_name": "Lisovin, Anton",
+        "short_name": "Lisovin A",
+        "identifiers": [
+          "0000-0001-7788-288X"
+        ],
+        "affiliations": [
+          "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+        ]
+      },
+      {
+        "full_name": "Nabiullina, Rozaliia",
+        "short_name": "Nabiullina R",
+        "identifiers": [
+          "0009-0009-0685-5281"
+        ],
+        "affiliations": [
+          "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+        ]
+      },
+      {
+        "full_name": "Kaplya, Marya",
+        "short_name": "Kaplya M",
+        "identifiers": [
+          "0009-0002-7420-085X"
+        ],
+        "affiliations": [
+          "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+        ]
+      },
+      {
+        "full_name": "Romanov, Aleksandr",
+        "short_name": "Romanov A",
+        "identifiers": [
+          "0009-0001-2820-4406"
+        ],
+        "affiliations": [
+          "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+        ]
+      },
+      {
+        "full_name": "Nwosu, Chizaram",
+        "short_name": "Nwosu C",
+        "identifiers": [],
+        "affiliations": [
+          "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+        ]
+      },
+      {
+        "full_name": "Rodkin, Stanislav",
+        "short_name": "Rodkin S",
+        "identifiers": [
+          "0000-0003-4036-5410"
+        ],
+        "affiliations": [
+          "Research Laboratory \"Medical Digital Images Based on the Basic Model\", Department of Bioengineering, Faculty of Bioengineering and Veterinary Medicine, Don State Technical University, 344000 Rostov-on-Don, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 May 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/13 06:34",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "42278669",
+      "42076023",
+      "41900119",
+      "41465271",
+      "41303677",
+      "41009422"
+    ],
+    "refs": [
+      "40169306",
+      "40152392",
+      "40103451",
+      "40087248",
+      "39963874",
+      "39770582",
+      "38783332",
+      "38379088",
+      "38068946",
+      "37987182",
+      "37958692",
+      "37805934",
+      "37760041",
+      "37628735",
+      "37500760",
+      "37445920",
+      "37389674",
+      "37237961",
+      "36859359",
+      "36565718",
+      "36045197",
+      "35572126",
+      "35147165",
+      "34638598",
+      "34278794",
+      "34265844",
+      "34208631",
+      "33932560",
+      "33640879",
+      "33615665",
+      "33425216",
+      "33395748",
+      "32962378",
+      "32406215",
+      "31714766",
+      "30559434",
+      "30286333",
+      "30127117",
+      "28778026",
+      "26605738",
+      "25835573",
+      "23858384",
+      "23858383",
+      "23030661",
+      "22949826",
+      "20666726",
+      "20043212",
+      "15261480",
+      "9200835"
+    ],
+    "similar": [
+      "40507878",
+      "37958692",
+      "42278669",
+      "39595962",
+      "30401820",
+      "33640879",
+      "27553877",
+      "31237956",
+      "32719328",
+      "25819102",
+      "41037124",
+      "29402897",
+      "31102754",
+      "26983602",
+      "24239876",
+      "24166684",
+      "32344470",
+      "34576259",
+      "41009422",
+      "23797734",
+      "41900119",
+      "36402296",
+      "28336431",
+      "39562524",
+      "27671232",
+      "9914434",
+      "42475469",
+      "39437931",
+      "41636499",
+      "17464322",
+      "25448048",
+      "27159133",
+      "39855313",
+      "20950674",
+      "41154637",
+      "39128303",
+      "31778663",
+      "29606856",
+      "21092747",
+      "29698747",
+      "10407189",
+      "31828728",
+      "39662754",
+      "29080084",
+      "12091479",
+      "29774773",
+      "34637761",
+      "32860803",
+      "29174311",
+      "28738820",
+      "31669102",
+      "35901975",
+      "26470728",
+      "29379271",
+      "30409173",
+      "33186631",
+      "26546573",
+      "34396581",
+      "11934469",
+      "9671657",
+      "25438952",
+      "27307572",
+      "23479292",
+      "14689451",
+      "10340750",
+      "29168791",
+      "15062045",
+      "36044869",
+      "41085788",
+      "35682768",
+      "15140181",
+      "28835703",
+      "40320408",
+      "26269921",
+      "41197270",
+      "17668855",
+      "38909329",
+      "28245754",
+      "39709098",
+      "30430911",
+      "30626699",
+      "30172256",
+      "25891762",
+      "23726868",
+      "32666312",
+      "27090258",
+      "15038834",
+      "25578565",
+      "23007641",
+      "21748659",
+      "40032841",
+      "42617790",
+      "26091790",
+      "7895650",
+      "28786047",
+      "17327799",
+      "12641745",
+      "42176875",
+      "40711610",
+      "38217003"
+    ],
+    "review": [
+      "40507878",
+      "24239876"
+    ],
+    "pmc": [
+      "12154982"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26115066",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/traumaticbraininjury.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Traumatic Brain Injury"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40507878/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

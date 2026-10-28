@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "42399771",
+    "doi": "10.1186/s12876-026-05071-2",
+    "title": "Integrating WGCNA and machine learning to identify and validate key biomarkers in MASLD."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) represents the most prevalent chronic liver disease worldwide. The absence of approved pharmacotherapies is largely attributed to their profound molecular heterogeneity. The identification of novel hub genes in MASLD is therefore critical for unraveling the complex molecular mechanisms driving disease pathogenesis and progression. METHODS: We employed an integrative systems-biology approach utilizing Weighted Gene Co-expression Network Analysis (WGCNA) followed by multi-algorithm machine learning (LASSO, Random Forest, SVM-RFE) across GEO datasets (GSE89632, GSE63067) to identify hub genes. Key hub genes were validated in vitro with FFA-treated HepG2 cells and in vivo with an HFD-fed mouse model. RESULTS: Bioinformatic analyses revealed two distinct pathological networks. First, a lipogenesis-associated cluster revealed FMO1 and C10orf140 as upregulated, alongside JUNB downregulation. In vitro, the expression of these genes was significantly associated with the activation of the SREBP-1c/FASN lipogenic pathway. Second, WGCNA revealed a co-expression module that exhibited high correlation with inflammation (R = 0.59, p = 4e-05), from which 11 hub genes relating to inflammation (such as MAP3K8, PFKFB3) were identified. In vivo, HFD mice developed severe steatosis and demonstrated a key pathological paradox: high-level activation of both the pro-lipogenic p-AKT and the inhibitory p-AMPK pathways. CONCLUSION: Our study identified the hub genes FMO1, C10orf140, and JUNB as novel regulators of MASLD lipogenesis through the SREBP-1c pathway. Additionally, we showed that co-activated p-AKT and p-AMPK in steatotic livers indicates \"AMPK Resistance\". Ultimately, we describe a mechanism of pro-lipogenic signaling that is not curtailed and is accompanied by the inability to compensate for the inhibitory path. All findings reveal potential therapeutic targets for MASLD.",
+    "keywords": [
+      "AMPK resistance",
+      "Hub genes",
+      "Lipogenesis",
+      "Machine learning",
+      "Metabolic dysfunction-associated steatotic liver disease (MASLD)",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Fatty Liver/genetics",
+      "Mice",
+      "*Machine Learning",
+      "Biomarkers/metabolism",
+      "Hep G2 Cells",
+      "Lipogenesis/genetics",
+      "*Gene Regulatory Networks",
+      "*Non-alcoholic Fatty Liver Disease/genetics",
+      "Systems Biology",
+      "Male",
+      "Disease Models, Animal",
+      "Gene Expression Profiling",
+      "Mice, Inbred C57BL",
+      "Sterol Regulatory Element Binding Protein 1/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jianfeng",
+        "Liang, Qi",
+        "Xu, Xiaona",
+        "Wang, Peilong",
+        "Yan, Baoguo"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Liang Q",
+        "Xu X",
+        "Wang P",
+        "Yan B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Eighth Hospital of Xi'an City, Xi'an, Shaanxi, 710061, China.",
+        "Shaanxi Provincial Drug Evaluation Center, No. 56, Gaoxin Sixth Road, Xi'an, Shaanxi, 710065, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710004, China.",
+        "Department of Pharmacy, Eighth Hospital of Xi'an City, Xi'an, Shaanxi, 710061, China.",
+        "Department of Pharmacy, Eighth Hospital of Xi'an City, Xi'an, Shaanxi, 710061, China. 13709188719@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jianfeng",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Eighth Hospital of Xi'an City, Xi'an, Shaanxi, 710061, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Qi",
+        "short_name": "Liang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shaanxi Provincial Drug Evaluation Center, No. 56, Gaoxin Sixth Road, Xi'an, Shaanxi, 710065, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaona",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Peilong",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Eighth Hospital of Xi'an City, Xi'an, Shaanxi, 710061, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Baoguo",
+        "short_name": "Yan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Eighth Hospital of Xi'an City, Xi'an, Shaanxi, 710061, China. 13709188719@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC gastroenterology"
+    ],
+    "journal_abbrev": [
+      "BMC Gastroenterol"
+    ],
+    "pub_date": "2026 Jul 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/04 00:33",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42399771",
+      "40275274",
+      "42332016",
+      "41962267",
+      "42217414",
+      "39479173",
+      "42609119",
+      "40362669",
+      "42715255",
+      "39414652",
+      "38476236",
+      "41990925",
+      "40425614",
+      "41134388",
+      "41139042",
+      "42064079",
+      "39496918",
+      "39388920",
+      "41021615",
+      "39259911",
+      "41522335",
+      "31226399",
+      "29555473",
+      "24362075",
+      "32585242",
+      "40360670",
+      "39351239",
+      "41162503",
+      "40263690",
+      "37952731",
+      "39069636",
+      "42015036",
+      "39925925",
+      "37562090",
+      "42283841",
+      "41077131",
+      "32579753",
+      "40918148",
+      "41806388",
+      "31569635",
+      "41816342",
+      "29702089",
+      "41185013",
+      "34758532",
+      "42269031",
+      "41731716",
+      "27013659",
+      "40227546",
+      "41107929",
+      "40973872",
+      "42505350",
+      "23145499",
+      "41024248",
+      "40594616",
+      "40374840",
+      "39991675",
+      "41052072",
+      "41262249",
+      "40406126",
+      "40467680",
+      "41878449",
+      "42811992",
+      "42698445",
+      "41792213",
+      "42642681",
+      "41029776",
+      "23348573",
+      "40057459",
+      "23651738",
+      "40272632",
+      "25016220",
+      "41432483",
+      "37922570",
+      "41668749",
+      "25967664",
+      "42617521",
+      "42470494",
+      "42712911",
+      "42137057",
+      "41945278",
+      "39697326",
+      "42081554",
+      "38711508",
+      "28449683",
+      "40948769",
+      "41415264",
+      "42268665",
+      "41436831",
+      "31123744",
+      "24926685",
+      "42158856",
+      "40825823",
+      "41081092",
+      "40967560",
+      "40507104",
+      "40093012",
+      "19371623",
+      "19378344",
+      "42225205",
+      "40328901"
+    ],
+    "review": [
+      "42399771",
+      "40227546"
+    ],
+    "pmc": [
+      "13625418"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-026-05071-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-858",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

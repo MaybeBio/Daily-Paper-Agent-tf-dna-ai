@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "38490467",
+    "doi": "10.1016/j.bbagen.2024.130597",
+    "title": "ASPTF: A computational tool to predict abiotic stress-responsive transcription factors in plants by employing machine learning algorithms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Abiotic stresses pose serious threat to the growth and yield of crop plants. Several studies suggest that in plants, transcription factors (TFs) are important regulators of gene expression, especially when it comes to coping with abiotic stresses. Therefore, it is crucial to identify TFs associated with abiotic stress response for breeding of abiotic stress tolerant crop cultivars. METHODS: Based on a machine learning framework, a computational model was envisaged to predict TFs associated with abiotic stress response in plants. To numerically encode TF sequences, four distinct sequence derived features were generated. The prediction was performed using ten shallow learning and four deep learning algorithms. For prediction using more pertinent and informative features, feature selection techniques were also employed. RESULTS: Using the features chosen by the light-gradient boosting machine-variable importance measure (LGBM-VIM), the LGBM achieved the highest cross-validation performance metrics (accuracy: 86.81%, auROC: 92.98%, and auPRC: 94.03%). Further evaluation of the proposed model (LGBM prediction method + LGBM-VIM selected features) was also done using an independent test dataset, where the accuracy, auROC and auPRC were observed 81.98%, 90.65% and 91.30%, respectively. CONCLUSIONS: To facilitate the adoption of the proposed strategy by users, the approach was implemented as a prediction server called ASPTF, accessible at https://iasri-sg.icar.gov.in/asptf/. The developed approach and the corresponding web application are anticipated to supplement experimental methods in the identification of transcription factors (TFs) responsive to abiotic stress in plants.",
+    "keywords": [
+      "Abiotic stress",
+      "Bioinformatics",
+      "Computational model",
+      "Machine learning",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "*Machine Learning",
+      "*Stress, Physiological",
+      "Algorithms",
+      "Gene Expression Regulation, Plant",
+      "Computational Biology/methods",
+      "Plant Proteins/genetics/metabolism",
+      "Plants/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pradhan, Upendra Kumar",
+        "Mahapatra, Anuradha",
+        "Naha, Sanchita",
+        "Gupta, Ajit",
+        "Parsad, Rajender",
+        "Gahlaut, Vijay",
+        "Rath, Surya Narayan",
+        "Meher, Prabina Kumar"
+      ],
+      "short_names": [
+        "Pradhan UK",
+        "Mahapatra A",
+        "Naha S",
+        "Gupta A",
+        "Parsad R",
+        "Gahlaut V",
+        "Rath SN",
+        "Meher PK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: upendra.pradhan@icar.gov.in.",
+        "Department of Bioinformatics, Odisha University of Agriculture & Technology, Bhubaneswar 751003, Odisha, India.",
+        "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: sanchita.naha@icar.gov.in.",
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: ajit@icar.gov.in.",
+        "ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: rajender.parsad@icar.gov.in.",
+        "University Centre for Research & Development, Chandigarh University, Mohali, Punjab, India. Electronic address: vijay.e14220@cumail.in.",
+        "Department of Bioinformatics, Odisha University of Agriculture & Technology, Bhubaneswar 751003, Odisha, India.",
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: prabina.meher@icar.gov.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pradhan, Upendra Kumar",
+        "short_name": "Pradhan UK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: upendra.pradhan@icar.gov.in."
+        ]
+      },
+      {
+        "full_name": "Mahapatra, Anuradha",
+        "short_name": "Mahapatra A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Odisha University of Agriculture & Technology, Bhubaneswar 751003, Odisha, India."
+        ]
+      },
+      {
+        "full_name": "Naha, Sanchita",
+        "short_name": "Naha S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: sanchita.naha@icar.gov.in."
+        ]
+      },
+      {
+        "full_name": "Gupta, Ajit",
+        "short_name": "Gupta A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: ajit@icar.gov.in."
+        ]
+      },
+      {
+        "full_name": "Parsad, Rajender",
+        "short_name": "Parsad R",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: rajender.parsad@icar.gov.in."
+        ]
+      },
+      {
+        "full_name": "Gahlaut, Vijay",
+        "short_name": "Gahlaut V",
+        "identifiers": [],
+        "affiliations": [
+          "University Centre for Research & Development, Chandigarh University, Mohali, Punjab, India. Electronic address: vijay.e14220@cumail.in."
+        ]
+      },
+      {
+        "full_name": "Rath, Surya Narayan",
+        "short_name": "Rath SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Odisha University of Agriculture & Technology, Bhubaneswar 751003, Odisha, India."
+        ]
+      },
+      {
+        "full_name": "Meher, Prabina Kumar",
+        "short_name": "Meher PK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India. Electronic address: prabina.meher@icar.gov.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. General subjects"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Gen Subj"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/16 05:42",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38490467",
+      "37000299",
+      "39265460",
+      "36939943",
+      "35163534",
+      "39316155",
+      "36098562",
+      "38747369",
+      "38768931",
+      "37158175",
+      "31575043",
+      "38551174",
+      "36416116",
+      "21737415",
+      "37651627",
+      "29857524",
+      "39453508",
+      "39000218",
+      "25931321",
+      "38999954",
+      "38660008",
+      "40013511",
+      "39694344",
+      "35748253",
+      "27766460",
+      "22917904",
+      "25063324",
+      "39279216",
+      "38703501",
+      "22037288",
+      "35143944",
+      "34439825",
+      "30600447",
+      "19273435",
+      "39448923",
+      "38705959",
+      "39150804",
+      "40251968",
+      "39740732",
+      "31898148",
+      "35219299",
+      "38812034",
+      "36982696",
+      "36271979",
+      "39602828",
+      "37897893",
+      "33922069",
+      "31151273",
+      "39427786",
+      "25130909",
+      "36764264",
+      "30231862",
+      "31393553",
+      "38255967",
+      "38791407",
+      "35765653",
+      "37301338",
+      "34615898",
+      "34528291",
+      "27105420",
+      "24337801",
+      "39456735",
+      "21729923",
+      "37939107",
+      "38287813",
+      "39684542",
+      "21867785",
+      "36603451",
+      "38003347",
+      "37240255",
+      "39708562",
+      "37178519",
+      "38564941",
+      "22325868",
+      "34299275",
+      "40042853",
+      "24727366",
+      "28419345",
+      "23398910",
+      "25547126",
+      "33180329",
+      "29028906",
+      "39103657",
+      "33647600",
+      "34445391",
+      "28637218",
+      "37558755",
+      "32218164",
+      "25903161",
+      "27658260",
+      "21642548",
+      "22412187",
+      "20827602",
+      "29391403",
+      "22808152",
+      "35409091",
+      "38284474",
+      "27981726",
+      "39769043",
+      "40220943"
+    ],
+    "review": [
+      "38490467",
+      "31575043",
+      "21737415",
+      "29857524",
+      "38999954",
+      "40013511",
+      "39694344",
+      "22917904",
+      "39279216",
+      "22037288",
+      "35143944",
+      "34439825",
+      "30600447",
+      "19273435",
+      "40251968",
+      "39740732",
+      "38812034",
+      "37897893",
+      "39427786",
+      "38255967",
+      "38791407",
+      "37301338",
+      "39456735",
+      "38287813",
+      "21867785",
+      "36603451",
+      "37178519",
+      "38564941",
+      "22325868",
+      "28419345",
+      "33180329",
+      "39103657",
+      "34445391",
+      "37558755",
+      "32218164",
+      "21642548",
+      "35409091",
+      "39769043",
+      "40220943"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-4165(24)00040-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

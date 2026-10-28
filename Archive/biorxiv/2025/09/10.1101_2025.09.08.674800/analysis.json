@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.08.674800",
+  "title": "Rapid and Interpretable Protein Contact Map Prediction Using a Pattern-Matching Strategy",
+  "authors": "Hacisuleyman A; Fasshauer D",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-15",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用模式匹配策略预测蛋白质接触图，虽涉及结构建模但对象为蛋白质自身残基接触，非蛋白质-DNA互作体系，且方法为传统模式匹配而非AI或物理模拟，与TF-DNA互作课题关联度低。",
+  "abstract": "Protein sequence determines the structure, function, and dynamics of a protein. In recent years, enormous progress has been made in translating sequence information into structural information using machine learning approaches. However, because of the underlying methodology, it is an immense computational challenge to extract this information from the ever-increasing number of sequences. In the present study, we show that it is possible to create two-dimensional contact maps from sequences, for which only a few exemplary structures are available on a laptop without the need for GPUs or high-performance computing clusters. This is achieved by using a pattern matching approach. The resulting contact maps largely reflect the interactions in the three-dimensional structures. The validity of our method was tested on the 25 protein domains, with abundant structural data, achieving correlations of 0.73-0.94 between predicted and experimental contact maps. To demonstrate broader applicability, we further validated our approach on 7,599 poorly annotated sequences using homologous structural templates, achieving a mean F1-score of 0.609 ± 0.095 and mean accuracy of 0.954 ± 0.036 when compared against high-confidence AlphaFold structures. These results demonstrate that our pattern matching approach maintains robust performance even when relying on a small number of structural templates.",
+  "abstract_zh": "蛋白质序列决定了蛋白质的结构、功能及动态特性。近年来，利用机器学习方法将序列信息转化为结构信息取得了巨大进展。然而，由于方法论本身的限制，从不断增长的序列中提取这些信息是一项巨大的计算挑战。在本研究中，我们展示了仅凭少量示例结构，即可在笔记本电脑上无需GPU或高性能计算集群，从序列生成二维接触图。这是通过使用模式匹配方法实现的。生成的接触图在很大程度上反映了三维结构中的相互作用。我们方法的有效性在25个具有丰富结构数据的蛋白质结构域上进行了测试，预测接触图与实验接触图之间的相关性达到0.73-0.94。为展示更广泛的适用性，我们进一步利用同源结构模板对7，599个注释较差的序列进行了验证，与高置信度AlphaFold结构相比，平均F1分数为0.609 ± 0.095，平均准确率为0.954 ± 0.036。这些结果表明，即使仅依赖少量结构模板，我们的模式匹配方法也能保持稳健的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.08.674800",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.08.674800",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.08.674800/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.01.646034",
+  "title": "Improving interpretability of transcription factor binding models with DNA shape features",
+  "authors": "Keivanfar RL; Yang F; Pollard KS; Ioannidis NM",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-03",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发结合DNA序列与结构形状特征的深度学习模型，用于预测转录因子结合（ChIP-seq），提升可解释性与调控元件识别，高度契合TF-DNA结合位点预测与AI建模课题。",
+  "abstract": "Deep learning models in genomics that predict molecular phenotypes from DNA sequence traditionally focus on one-hot encoded representations. Here, we develop a novel model that extends this approach by incorporating DNA structural attributes indicative of local shape alongside canonical sequence inputs. This augmentation provides an additional axis for model interpretability and aids in identifying regulatory patterns not apparent from sequence alone. Applying this approach to prediction of transcription factor binding (ChIP-seq) demonstrates that combining sequence and structural DNA data can improve the identification of regulatory elements to provide a more nuanced understanding of genomic function and regulation.",
+  "abstract_zh": "基因组学中的深度学习模型，传统上通过DNA序列预测分子表型时，主要依赖于独热编码表示。在此，我们开发了一种新颖模型，通过将指示局部形状的DNA结构属性与标准序列输入相结合，扩展了这一方法。这种增强为模型可解释性提供了额外维度，并有助于识别仅凭序列无法显现的调控模式。将该方法应用于转录因子结合（ChIP-seq）预测，表明结合序列与结构DNA数据能够提升调控元件的识别能力，从而更细致地理解基因组功能与调控机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.01.646034",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.01.646034",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.01.646034/index.html"
+}

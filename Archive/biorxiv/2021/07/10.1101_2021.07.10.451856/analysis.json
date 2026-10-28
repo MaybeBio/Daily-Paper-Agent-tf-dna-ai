@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.10.451856",
+  "title": "Protein-Protein Interaction Site Prediction Based on Attention Mechanism and Convolutional Neural Networks",
+  "authors": "Shuai Lu; Yuguang Li; Qiang Ma; Xiaofei Nan; Shoutao Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-12",
+  "window": {
+    "start": "2021-07-12",
+    "end": "2021-07-18"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用注意力机制和CNN预测蛋白质-蛋白质互作位点，对象为PPI而非蛋白质-DNA互作，方法虽可借鉴但与本课题TF-DNA结合体系关联较弱。",
+  "abstract": "Proteins usually perform their cellular functions by interacting with other proteins. Accurate identification of protein-protein interaction sites (PPIs) from sequence is import for designing new drugs and developing novel therapeutics. A lot of computational models for PPIs prediction have been developed because experimental methods are slow and expensive. Most models employ a sliding window approach in which local neighbors are concatenated to present a target residue. However, those neighbors are not been distinguished by pairwise information between a neighbor and the target. In this study, we propose a novel PPIs prediction model AttCNNPPISP, which combines attention mechanism and convolutional neural networks (CNNs). The attention mechanism dynamically captures the pairwise correlation of each neighbor-target pair within a sliding window, and therefore makes a better understanding of the local environment of target residue. And then, CNNs take the local representation as input to make prediction. Experiments are employed on several public benchmark datasets. Compared with the state-of-the-art models, AttCNNPPISP significantly improves the prediction performance. Also, the experimental results demonstrate that the attention mechanism is effective in terms of constructing comprehensive context information of target residue.",
+  "abstract_zh": "蛋白质通常通过与其他蛋白质相互作用来执行其细胞功能。从序列中准确识别蛋白质-蛋白质相互作用位点（PPIs）对于设计新药和开发新型疗法至关重要。由于实验方法耗时且成本高昂，已开发出许多用于PPIs预测的计算模型。大多数模型采用滑动窗口方法，其中局部邻居被串联起来以表示目标残基。然而，这些邻居并未通过邻居与目标之间的成对信息进行区分。在本研究中，我们提出了一种新颖的PPIs预测模型AttCNNPPISP，该模型结合了注意力机制和卷积神经网络（CNNs）。注意力机制动态捕捉滑动窗口内每个邻居-目标对的成对相关性，从而更好地理解目标残基的局部环境。随后，CNNs将局部表示作为输入进行预测。我们在多个公开基准数据集上进行了实验。与最先进的模型相比，AttCNNPPISP显著提高了预测性能。此外，实验结果还表明，注意力机制在构建目标残基的全面上下文信息方面是有效的。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.10.451856",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.10.451856",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.10.451856/index.html"
+}

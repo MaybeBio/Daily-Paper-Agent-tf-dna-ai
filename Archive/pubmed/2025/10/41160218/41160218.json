@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "41160218",
+    "doi": "10.1007/s12672-025-03782-8",
+    "title": "Characterization of PANoptosis-based markers for ischemic stroke and their appealing implications in improving prognosis and in glioma patients."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Pyroptosis, apoptosis and necroptosis separately participate in the pathogenesis of ischemic stroke, but the implication of PANoptosis in this disease is still unexplored. This study conducted a comprehensive investigation on PANoptosis in ischemic stroke and glioma. METHODS: Four transcriptomic datasets of ischemic stroke: GSE16561, GSE58294, GSE22255, and GSE37587 were gathered. Consensus clustering analysis was implemented based upon PANoptosis genes. WGCNA was utilized for PANoptosis subtyping-related genes. Multiple well-established machine learning models were also built for feature gene selection. Moreover, survival and receiver operating characteristic (ROC) analysis was performed to evaluated the prognostic value of the feature genes in the glioma. RESULTS: Fifteen PANoptosis genes were aberrantly expressed in peripheral blood of ischemic stroke than that of controls. Based upon them, ischemic stroke was classified as two PANoptosis molecular subtypes, with heterogeneous molecular mechanisms, and immune cell infiltration. The PANoptosis molecular subtyping-related module genes were determined, and key genes were subsequently via distinct machine learning approaches. Among them, the SVM model had the lowest |residual|, and the AUC of 1 in diagnosing ischemic stroke. The feature genes in the SVM model were regarded as the key genes (comprising TMEM55A, CCPG1, CYP1B1, PJA2, MTPN, SCYL2, BAZ2B, and DPYD). Based upon them, the nomogram was established, which could accurately predict ischemic stroke risk. All of them were in relation to ischemic stroke-related signaling pathways, and immune cell infiltration. Transcription factors were predicted, which transcriptionally modulated them. Additionally, drugs that potentially targeted them were determined. Moreover, the expression and prognostic value of genes in glioma were evaluated in the The Human Protein Atlas (HPA) and The Cancer Genome Atlas database (TCGA). All genes showed a significant prognostic value except PJA2. The diagnostic and prognostic ROC analysis result indicated that BAZ2B can served as potential diagnostic and prognostic marker in glioma. CONCLUSION: Altogether, this is the first study to characterize PANoptosis-based molecular subtypes, and diagnostic model for ischemic stroke, providing a promising avenue for patient risk prediction through a non-invasive method. Moreover, the BAZ2B genes could serve as predictive biomarkers in glioma, providing essential implications for patient prognosis.",
+    "keywords": [
+      "Diagnostic model",
+      "Glioma",
+      "Immune cell infiltration",
+      "Ischemic stroke",
+      "Machine learning",
+      "PANoptosis",
+      "Prognosis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jianli",
+        "Liu, Caiwen",
+        "Zhong, Weimin",
+        "Zhu, Maoshu",
+        "Lin, Ruidian",
+        "Wang, Lili",
+        "Lei, Aidi"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Liu C",
+        "Zhong W",
+        "Zhu M",
+        "Lin R",
+        "Wang L",
+        "Lei A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China.",
+        "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China.",
+        "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China.",
+        "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China.",
+        "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China. sweden8282@163.com.",
+        "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China. 19859255775@139.com.",
+        "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China. leiaidi8282@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jianli",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Caiwen",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Weimin",
+        "short_name": "Zhong W",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Maoshu",
+        "short_name": "Zhu M",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China."
+        ]
+      },
+      {
+        "full_name": "Lin, Ruidian",
+        "short_name": "Lin R",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China. sweden8282@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Lili",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China. 19859255775@139.com."
+        ]
+      },
+      {
+        "full_name": "Lei, Aidi",
+        "short_name": "Lei A",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth Hospital of Xiamen, Xiamen, 361101, Fujian Province, People's Republic Of China. leiaidi8282@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Discover oncology"
+    ],
+    "journal_abbrev": [
+      "Discov Oncol"
+    ],
+    "pub_date": "2025 Oct 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 18:27",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37078794",
+      "36930242",
+      "36691064",
+      "36634630",
+      "36543286",
+      "36209898",
+      "35690810",
+      "35587515",
+      "35470064",
+      "35288298",
+      "35185859",
+      "34897996",
+      "34630845",
+      "34487721",
+      "34471287",
+      "33957000",
+      "33724327",
+      "33464335",
+      "33464334",
+      "32484539",
+      "32199783",
+      "32078683",
+      "32071228",
+      "31637020",
+      "31440386",
+      "30739745",
+      "29156001",
+      "26771021",
+      "25605792",
+      "25124890",
+      "25036109",
+      "23937229",
+      "23323831",
+      "22455463",
+      "22453632",
+      "22257669",
+      "20837969",
+      "20427518",
+      "19114008",
+      "16199517",
+      "14597658"
+    ],
+    "similar": [
+      "41160218",
+      "41136446",
+      "39394418",
+      "41479901",
+      "38577605",
+      "40849873",
+      "41291841",
+      "40636523",
+      "38587531",
+      "40311345",
+      "40786625",
+      "40211224",
+      "36543888",
+      "37667921",
+      "40918470",
+      "37997255",
+      "39287311",
+      "39697326",
+      "39744560",
+      "40891136",
+      "41432823",
+      "39650656",
+      "40663577",
+      "37501725",
+      "40353888",
+      "40008397",
+      "37666920",
+      "39248067",
+      "39814753",
+      "37519797",
+      "40672091",
+      "37032832",
+      "40547036",
+      "40151638",
+      "41369928",
+      "39145097",
+      "38281281",
+      "39074415",
+      "37891634",
+      "37064154",
+      "39554569",
+      "39838688",
+      "37664853",
+      "39649423",
+      "39737099",
+      "38508210",
+      "40233527",
+      "40044828",
+      "39315170",
+      "39430460",
+      "38701259",
+      "40317125",
+      "38371524",
+      "36890219",
+      "41438490",
+      "39402203",
+      "39853491",
+      "41468372",
+      "39104814",
+      "37455906",
+      "39251701",
+      "39816535",
+      "38215553",
+      "41409300",
+      "41266526",
+      "40540134",
+      "38845990",
+      "41281377",
+      "38800594",
+      "40165301",
+      "40620603",
+      "40628169",
+      "39051056",
+      "38650649",
+      "40333895",
+      "38371527",
+      "36275754",
+      "36545400",
+      "36313471",
+      "37535161",
+      "38562657",
+      "36930242",
+      "41141246",
+      "39331898",
+      "40156525",
+      "40261608",
+      "41273616",
+      "38404827",
+      "40208478",
+      "39411951",
+      "41071456",
+      "40263690",
+      "39841296",
+      "38914821",
+      "36186438",
+      "38284890",
+      "41207123",
+      "41009972",
+      "40948644",
+      "39663269"
+    ],
+    "review": [
+      "41160218",
+      "36930242"
+    ],
+    "pmc": [
+      "12572540"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41160218/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3730",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

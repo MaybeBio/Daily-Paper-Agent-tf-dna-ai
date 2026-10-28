@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "35810792",
+    "doi": "10.1016/j.jmb.2022.167696",
+    "title": "Optimising Elastic Network Models for Protein Dynamics and Allostery: Spatial and Modal Cut-offs and Backbone Stiffness."
+  },
+  "content": {
+    "abstract": "The family of coarse-grained models for protein dynamics known as Elastic Network Models (ENMs) require careful choice of parameters to represent well experimental measurements or fully-atomistic simulations. The most basic ENM that represents each protein residue by a node at the position of its C-alpha atom, all connected by springs of equal stiffness, up to a cut-off in distance. Even at this level a choice is required of the optimum cut-off distance and the upper limit of elastic normal modes taken in any sum for physical properties, such as dynamic correlation or allosteric effects on binding. Additionally, backbone-enhanced ENM (BENM) may improve the model by allocating a higher stiffness to springs that connect along the protein backbone. This work reports on the effect of varying these three parameters (distance and mode cutoffs, backbone stiffness) on the dynamical structure of three proteins, Catabolite Activator Protein (CAP), Glutathione S-transferase (GST), and the SARS-CoV-2 Main Protease (M pro ). Our main results are: (1) balancing B-factor and dispersion-relation predictions, a near-universal optimal value of 8.5 A is advisable for ENMs; (2) inhomogeneity in elasticity brings the first mode containing spatial structure not well-resolved by the ENM typically within the first 20; (3) the BENM only affects modes in the upper third of the distribution, and, additionally to the ENM, is only able to model the dispersion curve better in this vicinity; (4) BENM does not typically affect fluctuation-allostery, which also requires careful treatment of the effector binding to the host protein to capture.",
+    "keywords": [
+      "Elastic Network Models",
+      "allostery",
+      "protein dynamics"
+    ],
+    "mesh_terms": [
+      "Allosteric Regulation",
+      "*Coronavirus 3C Proteases/chemistry",
+      "*Cyclic AMP Receptor Protein/chemistry",
+      "Elasticity",
+      "*Glutathione Transferase/chemistry",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dubanevics, Igors",
+        "McLeish, Tom C B"
+      ],
+      "short_names": [
+        "Dubanevics I",
+        "McLeish TCB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, University of York, UK.",
+        "Department of Physics, University of York, UK. Electronic address: tom.mcleish@york.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dubanevics, Igors",
+        "short_name": "Dubanevics I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of York, UK."
+        ]
+      },
+      {
+        "full_name": "McLeish, Tom C B",
+        "short_name": "McLeish TCB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of York, UK. Electronic address: tom.mcleish@york.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Sep 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/11 06:00",
+    "fetched_at": "2026-09-28 10:54:38"
+  },
+  "links": {
+    "cites": [
+      "40249023",
+      "39669181",
+      "39085250",
+      "36859094",
+      "36659985"
+    ],
+    "refs": [],
+    "similar": [
+      "35810792",
+      "19708737",
+      "33244830",
+      "26187469",
+      "16384030",
+      "27566318",
+      "30563146",
+      "24058293",
+      "19843465",
+      "33402024",
+      "23456820",
+      "33315216",
+      "38097109",
+      "26244893",
+      "20483341",
+      "24625758",
+      "39513739",
+      "41008647",
+      "24692201",
+      "22924033",
+      "22256894",
+      "16906160",
+      "33525993",
+      "32853525",
+      "16289973",
+      "24446359",
+      "25243707",
+      "34169568",
+      "24296313",
+      "24021665",
+      "26338443",
+      "20848551",
+      "25267310",
+      "40026279",
+      "24759093",
+      "37003737",
+      "17483178",
+      "25495718",
+      "18041838",
+      "30240209",
+      "34717972",
+      "26616090",
+      "24648309",
+      "19289039",
+      "39496839",
+      "32915744",
+      "24762569",
+      "34117647",
+      "35778086",
+      "39543040",
+      "35325529",
+      "28190781",
+      "39456193",
+      "41151708",
+      "41213266",
+      "23912807",
+      "18234807",
+      "33496590",
+      "34060425",
+      "33645457",
+      "28043838",
+      "17949219",
+      "39613993",
+      "25471641",
+      "39643167",
+      "25700189",
+      "33582935",
+      "35202628",
+      "19617554",
+      "29268615",
+      "35883520",
+      "26100687",
+      "36961997",
+      "40842437",
+      "38776839",
+      "11124031",
+      "34023738",
+      "16361345",
+      "22612113",
+      "26000062",
+      "37482789",
+      "35324337",
+      "22669912",
+      "26610017",
+      "38116743",
+      "30775734",
+      "16845072",
+      "25174610",
+      "37290391",
+      "33844135",
+      "35163572",
+      "36827465",
+      "34985081",
+      "33983654",
+      "33448856",
+      "33320670",
+      "41116736",
+      "40005117",
+      "26473491",
+      "23900877"
+    ],
+    "review": [
+      "35810792",
+      "30563146",
+      "25267310",
+      "28043838"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(22)00288-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

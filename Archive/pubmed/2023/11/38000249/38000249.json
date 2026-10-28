@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "38000249",
+    "doi": "10.1016/j.compbiomed.2023.107737",
+    "title": "Integrating biocomputational techniques for Breast cancer drug discovery via the HER-2, BCRA, VEGF and ER protein targets."
+  },
+  "content": {
+    "abstract": "Computational modelling remains an indispensable technique in drug discovery. With myriad of high computing resources, and improved modelling algorithms, there has been a high-speed in the drug development cycle with promising success rate compared to the traditional route. For example, lapatinib; a well-known anticancer drug with clinical applications was discovered with computational drug design techniques. Similarly, molecular modelling has been applied to various disease areas ranging from cancer to neurodegenerative diseases. The techniques ranges from high-throughput virtual screening, molecular mechanics with generalized Born and surface area solvation (MM/GBSA) to molecular dynamics simulation. This review focuses on the application of computational modelling tools in the identification of drug candidates for Breast cancer. First, we begin with a succinct overview of molecular modelling in the drug discovery process. Next, we take note of special efforts on the developments and applications of combining these techniques with particular emphasis on possible breast cancer therapeutic targets such as estrogen receptor (ER), human epidermal growth factor receptor 2 (HER2), vascular endothelial growth factor (VEGF), breast cancer gene 1 (BRCA1), and breast cancer gene 2 (BRCA2). Finally, we discussed the search for covalent inhibitors against these receptors using computational techniques, advances, pitfalls, possible solutions, and future perspectives.",
+    "keywords": [
+      "Breast Cancer",
+      "Drug discovery",
+      "Inhibitors",
+      "Molecular docking",
+      "Molecular dynamics simulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Vascular Endothelial Growth Factor A",
+      "Drug Discovery/methods",
+      "Molecular Dynamics Simulation",
+      "Receptors, Estrogen/metabolism",
+      "Vascular Endothelial Growth Factors",
+      "*Breast Neoplasms/drug therapy/metabolism",
+      "Molecular Docking Simulation",
+      "Erb-b2 Receptor Tyrosine Kinases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Odunitan, Tope T",
+        "Saibu, Oluwatosin A",
+        "Apanisile, Boluwatife T",
+        "Omoboyowa, Damilola A",
+        "Balogun, Toheeb A",
+        "Awe, Adeyoola V",
+        "Ajayi, Temitope M",
+        "Olagunju, Grace V",
+        "Mahmoud, Fatimah M",
+        "Akinboade, Modinat",
+        "Adeniji, Catherine B",
+        "Abdulazeez, Waliu O"
+      ],
+      "short_names": [
+        "Odunitan TT",
+        "Saibu OA",
+        "Apanisile BT",
+        "Omoboyowa DA",
+        "Balogun TA",
+        "Awe AV",
+        "Ajayi TM",
+        "Olagunju GV",
+        "Mahmoud FM",
+        "Akinboade M",
+        "Adeniji CB",
+        "Abdulazeez WO"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria; Genomics Unit, Helix Biogen Institute, Ogbomoso, Oyo State, Nigeria.",
+        "Department of Chemistry and Biochemistry, New Mexico State University, Las Cruces, NM, USA. Electronic address: saioluwatosin@gmail.com.",
+        "Department of Nutrition and Dietetics, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria.",
+        "Department of Biochemistry, Adekunle Ajasin University, Akungba-Akoko, Oyo State, Nigeria.",
+        "Department of Biological Sciences, University of California, San Diego, CA, USA.",
+        "Department of Medical Laboratory Science, Lead City, University, Ibadan, Oyo State, Nigeria.",
+        "Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria.",
+        "Department of Molecular Biology, New Mexico State University, Las Cruces, NM, USA.",
+        "Department of Molecular Biology, New Mexico State University, Las Cruces, NM, USA.",
+        "Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria.",
+        "Department of Environmental Management and Toxicology, Lead City University, Ibadan, Oyo State, Nigeria.",
+        "Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Odunitan, Tope T",
+        "short_name": "Odunitan TT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria; Genomics Unit, Helix Biogen Institute, Ogbomoso, Oyo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Saibu, Oluwatosin A",
+        "short_name": "Saibu OA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, New Mexico State University, Las Cruces, NM, USA. Electronic address: saioluwatosin@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Apanisile, Boluwatife T",
+        "short_name": "Apanisile BT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Dietetics, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Omoboyowa, Damilola A",
+        "short_name": "Omoboyowa DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Adekunle Ajasin University, Akungba-Akoko, Oyo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Balogun, Toheeb A",
+        "short_name": "Balogun TA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of California, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Awe, Adeyoola V",
+        "short_name": "Awe AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Science, Lead City, University, Ibadan, Oyo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ajayi, Temitope M",
+        "short_name": "Ajayi TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Olagunju, Grace V",
+        "short_name": "Olagunju GV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, New Mexico State University, Las Cruces, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Mahmoud, Fatimah M",
+        "short_name": "Mahmoud FM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, New Mexico State University, Las Cruces, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Akinboade, Modinat",
+        "short_name": "Akinboade M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Adeniji, Catherine B",
+        "short_name": "Adeniji CB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Management and Toxicology, Lead City University, Ibadan, Oyo State, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Abdulazeez, Waliu O",
+        "short_name": "Abdulazeez WO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State, Nigeria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/25 07:43",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "42183222",
+      "41652393",
+      "41009411",
+      "39430478",
+      "39309764"
+    ],
+    "refs": [],
+    "similar": [
+      "38000249",
+      "12400015",
+      "34514973",
+      "31463793",
+      "24358939",
+      "23146280",
+      "34957309",
+      "19130322",
+      "29212519",
+      "22133077",
+      "16034044",
+      "30306880",
+      "33220433",
+      "23955549",
+      "36799050",
+      "25146114",
+      "11955408",
+      "20087739",
+      "12138395",
+      "15199112",
+      "26550792",
+      "34554395",
+      "37241915",
+      "37682937",
+      "34957911",
+      "33525984",
+      "21816844",
+      "27693363",
+      "11556826",
+      "32234678",
+      "32586261",
+      "36358960",
+      "36752338",
+      "12208749",
+      "29307843",
+      "29064326",
+      "27771839",
+      "12168051",
+      "11705867",
+      "12196720",
+      "30360721",
+      "32643536",
+      "31721572",
+      "11454684",
+      "30414936",
+      "22761403",
+      "25482936",
+      "23861918",
+      "21388048",
+      "20530283",
+      "27756875",
+      "12684392",
+      "29243483",
+      "37154819",
+      "27685895",
+      "20926342",
+      "35135446",
+      "24495353",
+      "37925393",
+      "29970508",
+      "16467118",
+      "31588558",
+      "27137076",
+      "36045539",
+      "25420726",
+      "19914546",
+      "37702945",
+      "26573009",
+      "29702367",
+      "31995002",
+      "36826428",
+      "37298256",
+      "33129865",
+      "32878771",
+      "20179241",
+      "19620495",
+      "12138404",
+      "27076751",
+      "36213305",
+      "24176518",
+      "33625319",
+      "30161001",
+      "29910644",
+      "31339372",
+      "30415281",
+      "25682781",
+      "24636276",
+      "30138940",
+      "32186248",
+      "26543084",
+      "19940005",
+      "35067782",
+      "24080156",
+      "35032738",
+      "30052133",
+      "28382865"
+    ],
+    "review": [
+      "38000249",
+      "30306880",
+      "33220433",
+      "25146114",
+      "12138395",
+      "21816844",
+      "30414936",
+      "21388048",
+      "20530283",
+      "27685895",
+      "20926342",
+      "35135446",
+      "27137076",
+      "36045539",
+      "25420726",
+      "19914546",
+      "37702945",
+      "26573009",
+      "37298256",
+      "33129865",
+      "32878771",
+      "20179241",
+      "12138404",
+      "24176518",
+      "29910644",
+      "31339372",
+      "26543084",
+      "24080156"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(23)01202-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(23)01202-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

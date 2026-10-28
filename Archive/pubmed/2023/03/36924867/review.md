@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific validity, methodological soundness, and clarity of claims based solely on the provided text
+- **Shared manuscript claim summary** The authors present a machine learning approach (PDA-Pred) for predicting protein-DNA binding affinity (ΔG) using structural features, reporting a correlation of 0.78 and MAE of 0.98 kcal/mol in jack-knife testing, and provide a web server for public use
+- **Visible evidence base** Text descriptions of methods and results; references to figures (Fig. 1-7), tables (Table 1-4), and supplementary materials (Tables S1-S6, Figs. S1-S2) that are not included in the provided material
+- **Missing materials affecting confidence** All figures, tables, supplementary data, the actual regression equations, feature lists, and the dataset itself; the web server URL could not be verified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in structural bioinformatics with a potentially useful practical tool. The authors have assembled a substantial dataset and explored feature engineering in a systematic manner. However, the current text does not provide sufficient detail to evaluate the methodological rigor, particularly regarding dataset construction, feature selection procedures, and validation protocols. The reported performance metrics are promising but their reliability cannot be fully assessed without access to the underlying data and code. The comparison with PreDBA is described but the fairness of this comparison is questionable given the described evaluation protocol. The manuscript would benefit from clearer reporting of statistical significance, error analysis, and potential biases in the dataset.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on protein-nucleic acid interactions, particularly those developing or using prediction tools for binding affinity. Structural biologists studying protein-DNA recognition mechanisms may also find the feature analysis informative. The web server provides a practical resource for the community, which could be useful for hypothesis generation in experimental studies.
+- **Major strengths** The authors address a relevant problem with practical applications. The dataset of 391 complexes is larger than some previous efforts. The classification of complexes into structural and functional classes is a sensible approach that acknowledges the diversity of protein-DNA interactions. The development of a freely available web server increases the potential impact of the work. The feature analysis, while preliminary, provides some biological insights into determinants of binding affinity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset construction and redundancy control
+  - **Claim pointer** The authors claim to have constructed a "non-redundant dataset" of 391 protein-DNA complexes with known binding affinities and 3D structures
+  - **Evidence pointer** Materials and methods, Dataset section; location not provided
+  - **Concern** The text states that a non-redundant dataset was constructed but provides no details on the redundancy criteria. What sequence identity threshold was used? Was redundancy assessed at the protein level, DNA level, or complex level? How were homologous complexes with different binding affinities handled? The lack of this information makes it impossible to assess whether the dataset contains hidden biases that could inflate performance estimates.
+  - **Why it matters** If the dataset contains highly similar complexes, the reported performance could be optimistically biased due to information leakage between training and test sets. This would undermine the generalizability claims of the method.
+  - **Resolution test** Provide explicit redundancy criteria (e.g., sequence identity threshold, structural similarity measure), describe the clustering procedure, and report the number of clusters or the distribution of pairwise similarities in the final dataset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Feature selection methodology
+  - **Claim pointer** The authors state they performed "an exhaustive systematic search for all possible combinations of four features" and then added features until no improvement in correlation was observed, with the number of features limited to the square root of the number of data points.
+  - **Evidence pointer** Materials and methods, Procedure for feature selection; location not provided
+  - **Concern** The described feature selection procedure is problematic. An exhaustive search over all combinations of four features from 117 candidates is computationally infeasible (approximately 7.5 million combinations), and the text does not clarify how this was implemented. Furthermore, the stopping criterion based on correlation improvement is vague and does not account for overfitting. The use of the square root of the number of data points as a maximum feature count is arbitrary and not justified. The text does not specify whether feature selection was performed within the cross-validation procedure or on the full dataset, which is critical for avoiding selection bias.
+  - **Why it matters** If feature selection is performed on the full dataset before validation, the reported performance metrics will be optimistically biased. The lack of methodological detail prevents replication and makes it difficult to assess the validity of the reported results.
+  - **Resolution test** Clarify the exact feature selection algorithm, specify whether it was nested within the validation procedure, provide justification for the feature count limit, and report the computational cost. Ideally, the authors should use a more robust approach such as recursive feature elimination with cross-validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation protocol and performance reporting
+  - **Claim pointer** The authors report a correlation of 0.78 and MAE of 0.98 kcal/mol on jack-knife testing, and also mention 10-fold cross-validation results in supplementary material
+  - **Evidence pointer** Results and discussion, Prediction of binding affinity; location not provided
+  - **Concern** The text reports only aggregate performance metrics without confidence intervals, standard deviations, or statistical comparisons with baseline methods. The jack-knife (leave-one-out) procedure is described but the text does not specify whether the entire modeling pipeline (including feature selection) was repeated for each left-out sample. The 10-fold cross-validation results are only mentioned in passing and not discussed in the main text. No comparison with simple baselines (e.g., using only protein size or number of contacts) is provided.
+  - **Why it matters** Without measures of variance and appropriate baselines, the reported performance cannot be properly contextualized. The lack of detail on whether feature selection was nested within the validation protocol raises concerns about potential information leakage.
+  - **Resolution test** Report performance metrics with confidence intervals, provide statistical comparisons with appropriate baselines, and explicitly state whether feature selection was performed within each training fold. Consider using repeated cross-validation to obtain more stable estimates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with PreDBA
+  - **Claim pointer** The authors claim their method outperforms PreDBA, reporting an average correlation of 0.76 and MAE of 0.98 kcal/mol for their method versus 0.32 and 1.86 kcal/mol for PreDBA
+  - **Evidence pointer** Results and discussion, Comparison of our method with PreDBA; location not provided
+  - **Concern** The comparison protocol is described but raises concerns. The text states that for complexes with multiple protein or DNA chains, the authors "considered the closest prediction to the experimental binding affinity." This is a favorable treatment of PreDBA that could inflate its apparent performance, yet the authors still report much worse performance for PreDBA. More importantly, the text does not specify whether the same train/test split was used for both methods, or whether PreDBA was retrained on the authors' dataset. The comparison would be more informative if both methods were evaluated under identical conditions.
+  - **Why it matters** A fair comparison is essential to support the claim of improved performance. The described protocol introduces potential biases that could affect the conclusions.
+  - **Resolution test** Describe the exact evaluation protocol for both methods, including whether PreDBA was retrained or used as a pre-trained model, and whether the same data splits were used. Consider reporting performance on a common benchmark dataset.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation of features
+  - **Claim pointer** The authors claim that "interaction energy, contact potential, number of atoms in contact, volume of protein binding sites and interaction-based features such as interaction energies and contact potentials are important to understand the binding affinity"
+  - **Evidence pointer** Results and discussion, Analysis of binding affinity and Prediction of binding affinity; location not provided
+  - **Concern** The text provides limited biological interpretation of the selected features. For example, the finding that Thymine-Trp interaction is energetically favorable is mentioned but not discussed in the context of known protein-DNA recognition mechanisms. The authors do not address whether the selected features are consistent across different classes or whether they provide new insights beyond what is already known. The case study with DNA Polymerase I is descriptive but does not provide a critical evaluation of the model's limitations.
+  - **Why it matters** For a methods paper, biological interpretation adds value by providing mechanistic insights. The current treatment is superficial and does not fully exploit the potential of the feature analysis.
+  - **Resolution test** Provide a more detailed discussion of the biological significance of the selected features, possibly with reference to known structural motifs or experimental mutagenesis studies. Discuss any unexpected findings and their potential implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of dataset description
+  - **Affected element** Materials and methods, Dataset section
+  - **Evidence pointer** location not provided
+  - **Issue** The text mentions that complexes were classified based on "structure, function and percentage of binding site residues" but does not define these categories clearly. The number of complexes in each class is only shown in Table 2, which is not provided.
+  - **Required correction** Provide explicit definitions of the structural and functional classes, and report the number of complexes in each class in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting of feature details
+  - **Affected element** Materials and methods, Development of features
+  - **Evidence pointer** location not provided
+  - **Issue** The text lists 117 features but does not provide a complete enumeration. The description of protein-based, DNA-based, and interaction-based features is incomplete, and the specific parameters used (e.g., which base step parameters, which surface area measures) are not fully specified.
+  - **Required correction** Provide a complete list of features in the main text or supplementary material, with clear definitions of each feature.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical significance
+  - **Affected element** Results and discussion, Prediction of binding affinity
+  - **Evidence pointer** location not provided
+  - **Issue** The text reports correlation coefficients and MAE values but does not provide p-values or confidence intervals for the correlations.
+  - **Required correction** Report p-values for the correlation coefficients and provide confidence intervals for the performance metrics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Web server accessibility
+  - **Affected element** Results and discussion, Prediction on the web
+  - **Evidence pointer** location not provided
+  - **Issue** The web server URL is provided, but the text does not describe the input/output interface, the computational requirements, or the expected runtime.
+  - **Required correction** Provide a brief description of the web server interface and any usage limitations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability statement
+  - **Affected element** Data availability section
+  - **Evidence pointer** location not provided
+  - **Issue** The statement "Data will be made available on request" is vague and does not specify what data (dataset, code, regression equations) will be shared.
+  - **Required correction** Specify exactly what data and code will be made available and under what conditions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Throughout
+  - **Evidence pointer** location not provided
+  - **Issue** Some sentences are awkwardly phrased, and the text contains minor grammatical errors. For example, "the important factors mainly depend on the number of DNA strands as well as functional and structural classes of proteins" could be clearer.
+  - **Required correction** Careful proofreading and language editing to improve clarity and readability.
+
+## Risk / unsupported claims
+- The claim that the method "showed an average correlation and mean absolute error of 0.78 and 0.98 kcal/mol, respectively" cannot be fully evaluated without access to the actual predictions and the dataset
+- The claim that the method outperforms PreDBA is based on a comparison protocol that may not be fair, as described in R1-M4
+- The claim that "interaction energy, contact potential, number of atoms in contact, volume of protein binding sites and interaction-based features such as interaction energies and contact potentials are important" is based on feature selection results that are not fully described
+- The claim that the web server is "freely available" could not be verified as the URL was not accessible during review
+- The case study with DNA Polymerase I is presented as validation but is based on a single example and does not provide statistical evidence of generalizability
+- The statement that the method is "better than other existing methods in the literature" is not supported by a systematic comparison with all relevant methods

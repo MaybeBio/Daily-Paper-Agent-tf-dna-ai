@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "42334304",
+    "doi": "10.1021/acs.jmedchem.6c00944",
+    "title": "Rifamycin Structural Modifications Attenuate PXR Binding and CYP3A4 Induction."
+  },
+  "content": {
+    "abstract": "Rifamycins are a cornerstone of antimycobacterial therapy. However, their clinical use is limited by drug-drug interactions, arising from activation of the nuclear receptor pregnane X receptor (PXR). PXR activation induces expression of drug-metabolizing enzymes, including the cytochrome P450 3A4 isoform (CYP3A4), and accelerates clearance of coadministered medications. The structural understanding of rifamycin-PXR interactions remains limited. We designed a series of C25-modified rifabutin analogs and systematically evaluated their PXR binding, transcriptional activation, and pharmacological profile. Several analogs retained PXR binding affinity yet showed reduced CYP3A4 induction, exhibiting behavior consistent with antagonists or inverse agonists and revealing a disconnect between receptor binding and transcriptional activation. Molecular dynamics simulations indicated C25 modifications may disrupt positioning of the PXR alpha12 helix through steric interactions. These findings demonstrate conservative modifications of rifamycin can potentially convert PXR agonists into antagonists or inverse agonists and offer a structure-guided framework for developing rifamycins with attenuated CYP3A4 induction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Pregnane X Receptor/metabolism/agonists",
+      "*Cytochrome P-450 CYP3A/metabolism/biosynthesis",
+      "Humans",
+      "*Rifamycins/pharmacology/chemistry",
+      "Structure-Activity Relationship",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*Cytochrome P-450 CYP3A Inducers/pharmacology/chemistry",
+      "*Receptors, Steroid/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "George, Amir",
+        "Lan, Tian",
+        "Huber, Andrew D",
+        "Dartois, Veronique",
+        "Dick, Thomas",
+        "Chen, Taosheng",
+        "Aldrich, Courtney C",
+        "Freundlich, Joel S"
+      ],
+      "short_names": [
+        "George A",
+        "Lan T",
+        "Huber AD",
+        "Dartois V",
+        "Dick T",
+        "Chen T",
+        "Aldrich CC",
+        "Freundlich JS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4099-5386",
+        "ORCID: 0000-0002-3790-8368",
+        "ORCID: 0000-0001-9470-5009",
+        "ORCID: 0000-0002-9604-9452",
+        "ORCID: 0000-0001-6420-3809",
+        "ORCID: 0000-0001-9261-594X",
+        "ORCID: 0000-0002-3411-3455"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, Physiology, and Neuroscience, Rutgers University horizontal line New Jersey Medical School, Newark, New Jersey 07103, United States.",
+        "Department of Medicinal Chemistry, University of Minnesota, Minneapolis, Minnesota 55455, United States.",
+        "Department of Chemical Biology and Therapeutics, St. Jude Children's Research Hospital, Memphis, Tennessee 38105, United States.",
+        "Center for Discovery & Innovation, Hackensack Meridian Health, Nutley, New Jersey 07110, United States.",
+        "Department of Medical Sciences, Hackensack Meridian School of Medicine, Nutley, New Jersey 07110, United States.",
+        "Center for Discovery & Innovation, Hackensack Meridian Health, Nutley, New Jersey 07110, United States.",
+        "Department of Medical Sciences, Hackensack Meridian School of Medicine, Nutley, New Jersey 07110, United States.",
+        "Department of Microbiology and Immunology, Georgetown University, Washington, District of Columbia 20057, United States.",
+        "Department of Chemical Biology and Therapeutics, St. Jude Children's Research Hospital, Memphis, Tennessee 38105, United States.",
+        "Department of Medicinal Chemistry, University of Minnesota, Minneapolis, Minnesota 55455, United States.",
+        "Department of Pharmacology, Physiology, and Neuroscience, Rutgers University horizontal line New Jersey Medical School, Newark, New Jersey 07103, United States.",
+        "Division of Infectious Disease, Department of Medicine and the Ruy V. Lourenco Center for the Study of Emerging and Re-emerging Pathogens, Rutgers University horizontal line New Jersey Medical School, Newark, New Jersey 07103, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "George, Amir",
+        "short_name": "George A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology, and Neuroscience, Rutgers University─New Jersey Medical School, Newark, New Jersey 07103, United States."
+        ]
+      },
+      {
+        "full_name": "Lan, Tian",
+        "short_name": "Lan T",
+        "identifiers": [
+          "0000-0002-4099-5386"
+        ],
+        "affiliations": [
+          "Department of Medicinal Chemistry, University of Minnesota, Minneapolis, Minnesota 55455, United States."
+        ]
+      },
+      {
+        "full_name": "Huber, Andrew D",
+        "short_name": "Huber AD",
+        "identifiers": [
+          "0000-0002-3790-8368"
+        ],
+        "affiliations": [
+          "Department of Chemical Biology and Therapeutics, St. Jude Children's Research Hospital, Memphis, Tennessee 38105, United States."
+        ]
+      },
+      {
+        "full_name": "Dartois, Véronique",
+        "short_name": "Dartois V",
+        "identifiers": [
+          "0000-0001-9470-5009"
+        ],
+        "affiliations": [
+          "Center for Discovery & Innovation, Hackensack Meridian Health, Nutley, New Jersey 07110, United States.",
+          "Department of Medical Sciences, Hackensack Meridian School of Medicine, Nutley, New Jersey 07110, United States."
+        ]
+      },
+      {
+        "full_name": "Dick, Thomas",
+        "short_name": "Dick T",
+        "identifiers": [
+          "0000-0002-9604-9452"
+        ],
+        "affiliations": [
+          "Center for Discovery & Innovation, Hackensack Meridian Health, Nutley, New Jersey 07110, United States.",
+          "Department of Medical Sciences, Hackensack Meridian School of Medicine, Nutley, New Jersey 07110, United States.",
+          "Department of Microbiology and Immunology, Georgetown University, Washington, District of Columbia 20057, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Taosheng",
+        "short_name": "Chen T",
+        "identifiers": [
+          "0000-0001-6420-3809"
+        ],
+        "affiliations": [
+          "Department of Chemical Biology and Therapeutics, St. Jude Children's Research Hospital, Memphis, Tennessee 38105, United States."
+        ]
+      },
+      {
+        "full_name": "Aldrich, Courtney C",
+        "short_name": "Aldrich CC",
+        "identifiers": [
+          "0000-0001-9261-594X"
+        ],
+        "affiliations": [
+          "Department of Medicinal Chemistry, University of Minnesota, Minneapolis, Minnesota 55455, United States."
+        ]
+      },
+      {
+        "full_name": "Freundlich, Joel S",
+        "short_name": "Freundlich JS",
+        "identifiers": [
+          "0000-0002-3411-3455"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Physiology, and Neuroscience, Rutgers University─New Jersey Medical School, Newark, New Jersey 07103, United States.",
+          "Division of Infectious Disease, Department of Medicine and the Ruy V. Lourenço Center for the Study of Emerging and Re-emerging Pathogens, Rutgers University─New Jersey Medical School, Newark, New Jersey 07103, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2026 Jul 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/23 12:35",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41138720",
+      "40607753",
+      "40310456",
+      "39405362",
+      "38744881",
+      "38713375",
+      "37805934",
+      "37252824",
+      "36848571",
+      "36714853",
+      "36480704",
+      "36385424",
+      "36222275",
+      "35977382",
+      "35772743",
+      "35300949",
+      "34831358",
+      "34284062",
+      "34265844",
+      "34228545",
+      "34228543",
+      "34003642",
+      "33497575",
+      "33037121",
+      "32232515",
+      "29757018",
+      "28963450",
+      "28696416",
+      "25133934",
+      "24777631",
+      "22719858",
+      "21500218",
+      "19617467",
+      "19575467",
+      "18784074",
+      "18349144",
+      "18052394",
+      "17418145",
+      "15807509",
+      "15705662",
+      "12909012",
+      "12882588",
+      "12372848",
+      "11846609",
+      "11417442",
+      "11180018",
+      "10859152",
+      "10668858",
+      "10570062",
+      "10418969",
+      "9784494",
+      "9770465",
+      "9741954",
+      "9727070",
+      "8549036"
+    ],
+    "similar": [
+      "42334304",
+      "33812052",
+      "29440179",
+      "25181459",
+      "33333074",
+      "33397228",
+      "23707768",
+      "31101589",
+      "28685622",
+      "23928187",
+      "26408814",
+      "40721555",
+      "29157826",
+      "22363234",
+      "21913896",
+      "42324158",
+      "19833845",
+      "32320483",
+      "18839173",
+      "41506019",
+      "21333771",
+      "12167569",
+      "23674609",
+      "18805405",
+      "26782648",
+      "23845848",
+      "17484516",
+      "28546420",
+      "18799805",
+      "18332045",
+      "30071242",
+      "34524495",
+      "34035124",
+      "12065438",
+      "37349114",
+      "18268015",
+      "20553580",
+      "33048369",
+      "31455676",
+      "35417848",
+      "18332086",
+      "25381754",
+      "17998298",
+      "25455453",
+      "22126990",
+      "23702042",
+      "18299335",
+      "20171174",
+      "17003103",
+      "24460184",
+      "11668216",
+      "23264496",
+      "34003642",
+      "15252010",
+      "26366873",
+      "19084030",
+      "18096673",
+      "12514743",
+      "22912432",
+      "25341566",
+      "23891548",
+      "33483427",
+      "36473234",
+      "27678410",
+      "17392393",
+      "23330538",
+      "25069801",
+      "16455805",
+      "19202563",
+      "20942813",
+      "28571685",
+      "30653754",
+      "21402137",
+      "19173680",
+      "15650019",
+      "21628639",
+      "20966043",
+      "11723248",
+      "40479899",
+      "21342487",
+      "23688499",
+      "22982774",
+      "30848264",
+      "22976785",
+      "25341568",
+      "29095659",
+      "21920351",
+      "17764444",
+      "37285043",
+      "29569712",
+      "36460477",
+      "21117944",
+      "26341324",
+      "25141173",
+      "36017831",
+      "42014325",
+      "26340669",
+      "41192646",
+      "31038762",
+      "28289823"
+    ],
+    "review": [
+      "42334304",
+      "34003642"
+    ],
+    "pmc": [
+      "13371085"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42334304/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.6c00944",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

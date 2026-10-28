@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42598852",
+  "title": "DNAreader: accurate prediction of DNA-binding residues in structured and disordered proteins using transformers and contrastive learning.",
+  "authors": "Zhang, Jian; Basu, Sushmita; Qian, Jingjing; Kurgan, Lukasz",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-08-14",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用堆叠Transformer和对比学习预测蛋白质序列中的DNA结合残基，覆盖有序和 disordered 区域，属于蛋白质-DNA互作位点预测的AI方法，虽非直接TF-DNA体系，但方法可迁移至转录因子结合位点研究。",
+  "abstract": "Accurate predictions of DNA-binding residues (DBRs) in protein sequences facilitate decoding molecular-level mechanisms underlying cellular functions that involve protein-DNA interactions. While dozens of these predictors have been released, they target either structured or intrinsically disordered regions (IDRs), and the latter were trained to predict less detailed DNA-binding IDRs rather than DBRs. Given this dichotomy, the structure-trained methods underperform on disordered proteins, and vice versa. Moreover, they suffer from high cross-prediction rates, incorrectly labeling many residues that interact with non-DNA ligands as DBRs. We address these issues by introducing DNAreader, the first predictor specifically designed to predict DBRs in the structured and disordered sequence regions. DNAreader relies on an innovative stacked transformer encoder network that combines batch training and contrastive learning, which substantially boosts predictive performance. Using two low-similarity test datasets, we demonstrate that DNAreader statistically outperforms existing tools, performs well for structured and disordered regions, and produces very few cross-predictions. We also developed the DNAreaderDBIDR module, which accurately predicts DNA-binding IDRs, providing flexibility to identify DBRs within IDRs or to predict entire disordered DNA-binding regions. We release DNAreader as a user-friendly web server at http://biomine.cs.vcu.edu/servers/DNAreader/, with the corresponding source code at https://github.com/jianzhang-xynu/DNAreader.",
+  "abstract_zh": "对蛋白质序列中DNA结合残基（DBRs）的准确预测有助于解码涉及蛋白质-DNA相互作用的细胞功能的分子水平机制。尽管已有数十种此类预测器发布，但它们要么针对结构化区域，要么针对固有无序区域（IDRs），且后者训练时预测的是较不详细的DNA结合IDRs，而非DBRs。鉴于这种二分法，基于结构训练的预测器在无序蛋白质上表现不佳，反之亦然。此外，它们存在高交叉预测率的问题，错误地将许多与非DNA配体相互作用的残基标记为DBRs。我们通过引入DNAreader来解决这些问题，这是首个专门设计用于预测结构化和无序序列区域中DBRs的预测器。DNAreader依赖于一种创新的堆叠变换器编码器网络，该网络结合了批量训练和对比学习，显著提升了预测性能。使用两个低相似性测试数据集，我们证明DNAreader在统计上优于现有工具，在结构化和无序区域均表现良好，且产生极少的交叉预测。我们还开发了DNAreaderDBIDR模块，该模块能准确预测DNA结合IDRs，提供了在IDRs内识别DBRs或预测整个无序DNA结合区域的灵活性。我们将DNAreader作为用户友好的网络服务器发布，网址为http://biomine.cs.vcu.edu/servers/DNAreader/，相应源代码可在https://github.com/jianzhang-xynu/DNAreader获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42598852/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42598852/",
+  "paper_page_path": "papers/pubmed/42598852/index.html"
+}

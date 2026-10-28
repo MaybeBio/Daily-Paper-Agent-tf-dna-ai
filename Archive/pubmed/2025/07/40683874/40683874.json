@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "40683874",
+    "doi": "10.1038/s41419-025-07765-z",
+    "title": "Identification of Nogo-B as a potential therapeutic target of osteosarcoma via stereochemically selective covalent probes."
+  },
+  "content": {
+    "abstract": "Osteosarcoma (OS) has been defined as one of the most intricate and formidable malignant bone tumors, and there has been no significant improvement in targeted therapies for OS over the past 50 years. Therefore, it is crucial to identify new potential drug targets for OS. Here, we have developed a label-free activity-based protein profiling (ABPP) using a stereochemically selective probe from an in-house patrimonial library of covalent small molecule compounds to identify an anti-OS target. Phenotypic screening resulted in the discovery of a selective inhibitor (S,R)-4v that potently suppresses the proliferation of OS 143B cells with an IC(50) value of 0.28 microM. Subsequent label-free ABPP studies identified neurite outgrowth inhibitor B (Nogo-B) as the primary cellular target for (S,R)-4v via a rapid relatively quantitative analysis using its inactive isomer as control. This finding was validated by interaction assays including pull-down, cellular thermal shift assay (CETSA), molecular docking and functional studies. Mechanistic investigations revealed that the apoptotic effect induced by (S,R)-4v was mediated through Nogo-B inhibition of the PI3K/AKT-dependent NF-kappaB pathway. Altogether, this study presents a novel strategy that couples anti-OS compound screening with target identification and successfully identifies Nogo-B as a potential candidate for targeted OS therapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Osteosarcoma/drug therapy/metabolism/pathology/genetics",
+      "*Nogo Proteins/metabolism/antagonists & inhibitors/chemistry/genetics",
+      "Cell Line, Tumor",
+      "Cell Proliferation/drug effects",
+      "Molecular Docking Simulation",
+      "*Bone Neoplasms/drug therapy/metabolism/pathology",
+      "Apoptosis/drug effects",
+      "Signal Transduction/drug effects",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Stereoisomerism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xue, Jian",
+        "Li, Meng",
+        "Kang, Li",
+        "Wang, Meiting",
+        "Yin, Jiabin",
+        "Sun, Donghui",
+        "Deng, Yaqi",
+        "Wei, Qinghua",
+        "Wong, Jiemin",
+        "Zhu, Tong",
+        "Liu, Shunying"
+      ],
+      "short_names": [
+        "Xue J",
+        "Li M",
+        "Kang L",
+        "Wang M",
+        "Yin J",
+        "Sun D",
+        "Deng Y",
+        "Wei Q",
+        "Wong J",
+        "Zhu T",
+        "Liu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5311-842X",
+        "ORCID: 0000-0001-7472-3736",
+        "ORCID: 0000-0002-3894-757X"
+      ],
+      "affiliations": [
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China.",
+        "Shanghai Key Laboratory of Regulatory Biology, Fengxian District Central Hospital-ECNU Joint Center of Translational Medicine, Institute of Biomedical Sciences and School of Life Sciences, East China Normal University, Shanghai, 200241, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China.",
+        "Shanghai Key Laboratory of Regulatory Biology, Fengxian District Central Hospital-ECNU Joint Center of Translational Medicine, Institute of Biomedical Sciences and School of Life Sciences, East China Normal University, Shanghai, 200241, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China. syliu@sist.ecnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xue, Jian",
+        "short_name": "Xue J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Li, Meng",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Li",
+        "short_name": "Kang L",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Regulatory Biology, Fengxian District Central Hospital-ECNU Joint Center of Translational Medicine, Institute of Biomedical Sciences and School of Life Sciences, East China Normal University, Shanghai, 200241, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Meiting",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Jiabin",
+        "short_name": "Yin J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Donghui",
+        "short_name": "Sun D",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yaqi",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Qinghua",
+        "short_name": "Wei Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Wong, Jiemin",
+        "short_name": "Wong J",
+        "identifiers": [
+          "0000-0002-5311-842X"
+        ],
+        "affiliations": [
+          "Shanghai Key Laboratory of Regulatory Biology, Fengxian District Central Hospital-ECNU Joint Center of Translational Medicine, Institute of Biomedical Sciences and School of Life Sciences, East China Normal University, Shanghai, 200241, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Tong",
+        "short_name": "Zhu T",
+        "identifiers": [
+          "0000-0001-7472-3736"
+        ],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shunying",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0002-3894-757X"
+        ],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai, 200062, China. syliu@sist.ecnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2025 Jul 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/20 04:03",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41199144"
+    ],
+    "refs": [
+      "38092761",
+      "37935665",
+      "37402997",
+      "36617552",
+      "36537781",
+      "36484537",
+      "36241702",
+      "36008483",
+      "35476936",
+      "35242707",
+      "35075114",
+      "34921235",
+      "34862364",
+      "34503094",
+      "34224050",
+      "34131316",
+      "33893087",
+      "33727543",
+      "33479682",
+      "33448534",
+      "32686768",
+      "32542927",
+      "32127003",
+      "31332308",
+      "30693030",
+      "30078441",
+      "29899333",
+      "29644114",
+      "29210294",
+      "29049996",
+      "28643781",
+      "28628795",
+      "28352901",
+      "27786289",
+      "27309814",
+      "27098809",
+      "26758486",
+      "26646421",
+      "26304877",
+      "25319867",
+      "25271963",
+      "25233217",
+      "24606149",
+      "22534782",
+      "22454324",
+      "22435565",
+      "21480333",
+      "21085121",
+      "20538003",
+      "19805174",
+      "19281244",
+      "18366325",
+      "17095620",
+      "14663477",
+      "12538487",
+      "12488097"
+    ],
+    "similar": [
+      "40683874",
+      "41252934",
+      "41380825",
+      "39069677",
+      "39803606",
+      "29393336",
+      "41057878",
+      "30442873",
+      "40176057",
+      "41106249",
+      "33154629",
+      "40541124",
+      "27840900",
+      "25120775",
+      "29782821",
+      "29734183",
+      "40016386",
+      "24172910",
+      "32323781",
+      "30182951",
+      "35029287",
+      "39988167",
+      "30657552",
+      "38967079",
+      "32713851",
+      "39216834",
+      "30520540",
+      "32088353",
+      "32762018",
+      "40155004",
+      "25310590",
+      "40594499",
+      "40461231",
+      "34013357",
+      "39047413",
+      "36651540",
+      "22382389",
+      "39970856",
+      "40578955",
+      "24797937",
+      "31473323",
+      "40991530",
+      "38925854",
+      "39674349",
+      "30132953",
+      "39707861",
+      "39024509",
+      "31122179",
+      "39739023",
+      "40578953",
+      "24566468",
+      "40117702",
+      "30545626",
+      "24685520",
+      "31001861",
+      "30652346",
+      "34907738",
+      "22263786",
+      "25371071",
+      "40779492",
+      "34080667",
+      "34861640",
+      "33372687",
+      "32297574",
+      "33813077",
+      "31228450",
+      "28109246",
+      "40680332",
+      "25792811",
+      "29462818",
+      "39115605",
+      "38758844",
+      "40676084",
+      "39190380",
+      "23372675",
+      "23912183",
+      "39279704",
+      "26478521",
+      "40594358",
+      "39090568",
+      "33859780",
+      "37877147",
+      "31264066",
+      "25351625",
+      "25627547",
+      "36222295",
+      "35917943",
+      "26526352",
+      "34706747",
+      "27748868",
+      "41106450",
+      "23232982",
+      "40059184",
+      "39799423",
+      "29215700",
+      "38087310",
+      "26135006",
+      "30536897",
+      "22993301",
+      "39994220"
+    ],
+    "review": [
+      "40683874"
+    ],
+    "pmc": [
+      "12276343"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-025-07765-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40683874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41472745",
+    "doi": "10.3389/fimmu.2025.1627133",
+    "title": "EGR3 as a dual tumor-immune regulator: a machine learning-driven prognostic target for cold breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer heterogeneity necessitates robust prognostic biomarkers and therapeutic targets. This study aimed to identify key molecular drivers through integrative multi-omics approaches and validate their clinical relevance. METHODS: We combined differential expression analysis, weighted gene co-expression network analysis (WGCNA), and machine learning (StepCox-Random Survival Forest [RSF]) to screen prognostic signatures across TCGA, GEO (GSE42568, GSE9893, GSE7390), and METABRIC datasets. Immune microenvironment characterization utilized ESTIMATE, CIBERSORT, and functional enrichment analyses. Mechanistic validation included single-cell RNA sequencing, in vitro/in vivo experiments, and clinical cohort profiling. RESULTS: WGCNA identified 102 hub genes linked to breast cancer progression. Machine learning optimization yielded a 3-gene signature (EGR3, RECQL4, MMP1) with superior prognostic stratification. Multi-cohort validation confirmed signature robustness. The C2 subtype, defined by high-risk scores, exhibited an immunosuppressive microenvironment with elevated PD-L1/LAG3/TIGIT and M2 macrophage enrichment. EGR3 emerged as a pivotal tumor suppressor: its expression inversely correlated with tumor stage and positively associated with CD8(+) T cell infiltration. EGR3-high patients showed prolonged survival and enhanced immunotherapy response. Functional studies demonstrated EGR3 overexpression suppressed tumor growth and activated CD8(+) T cells. CONCLUSION: Our integrative framework established a machine learning-optimized 3-gene prognostic model with cross-platform reliability. EGR3 was validated as a dual-function regulator of tumor suppression and immunomodulation, offering a novel therapeutic target for breast cancer, particularly in immunologically \"cold\" triple-negative subtypes.",
+    "keywords": [
+      "EGR3",
+      "breast cancer",
+      "machine learning",
+      "multi-omics integration",
+      "tumor-immune"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Machine Learning",
+      "*Early Growth Response Protein 3/genetics/metabolism/immunology",
+      "Prognosis",
+      "Tumor Microenvironment/immunology/genetics",
+      "*Breast Neoplasms/immunology/genetics/mortality",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Animals",
+      "Mice",
+      "Gene Expression Profiling",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Qianxue",
+        "Song, Daqiang",
+        "Yue, Jian",
+        "Li, Benhua",
+        "Gong, Junge",
+        "Zhang, Xiang"
+      ],
+      "short_names": [
+        "Wu Q",
+        "Song D",
+        "Yue J",
+        "Li B",
+        "Gong J",
+        "Zhang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast and Thyroid Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast Surgery, Gaozhou People's Hospital, Gaozhou, Guangdong, China.",
+        "Department of Clinical Laboratory, The Second People's Hospital of Liangshan yi Autonomous Prefecture, Xichang, Sichuan, China.",
+        "Clinical Molecular Medicine Testing Center, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Breast and Thyroid Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Qianxue",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Song, Daqiang",
+        "short_name": "Song D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Jian",
+        "short_name": "Yue J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Gaozhou People's Hospital, Gaozhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Benhua",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Second People's Hospital of Liangshan yi Autonomous Prefecture, Xichang, Sichuan, China.",
+          "Clinical Molecular Medicine Testing Center, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Junge",
+        "short_name": "Gong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/31 07:37",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40022828",
+      "39966355",
+      "39722042",
+      "39415336",
+      "39266535",
+      "39134750",
+      "38993569",
+      "38748804",
+      "38703428",
+      "38685045",
+      "38381090",
+      "38347143",
+      "37816755",
+      "37709615",
+      "37660039",
+      "37612741",
+      "37079257",
+      "36911691",
+      "36862804",
+      "36594088",
+      "36505501",
+      "36481504",
+      "35062949",
+      "34824203",
+      "34272041",
+      "34261540",
+      "34234781",
+      "32907925"
+    ],
+    "similar": [
+      "41472745",
+      "40438115",
+      "39870964",
+      "40330458",
+      "39988478",
+      "41208987",
+      "41488652",
+      "39202452",
+      "40496857",
+      "41200185",
+      "39355255",
+      "38890248",
+      "40615664",
+      "40200221",
+      "39354417",
+      "40473720",
+      "40821828",
+      "41504052",
+      "40330470",
+      "41425595",
+      "40881682",
+      "41293150",
+      "41025546",
+      "41098738",
+      "39507529",
+      "40460484",
+      "39669558",
+      "41246350",
+      "41080607",
+      "40438100",
+      "40873584",
+      "40442298",
+      "40406140",
+      "40761790",
+      "40642093",
+      "40873572",
+      "40740776",
+      "41094064",
+      "41019083",
+      "41099090",
+      "39524444",
+      "39896800",
+      "34341184",
+      "40382513",
+      "39835132",
+      "41146251",
+      "41290867",
+      "41300841",
+      "41235257",
+      "41394854",
+      "41451212",
+      "40225866",
+      "41207909",
+      "40977710",
+      "41052233",
+      "41383634",
+      "41425594",
+      "41102194",
+      "41000388",
+      "40247837",
+      "41164190",
+      "38213151",
+      "39732954",
+      "41208974",
+      "40636126",
+      "40607411",
+      "40230854",
+      "40328901",
+      "39904894",
+      "39703515",
+      "40552290",
+      "40640380",
+      "40936892",
+      "41233852",
+      "40607387",
+      "40330476",
+      "40382303",
+      "41209574",
+      "39271768",
+      "40672941",
+      "38864225",
+      "40956482",
+      "40963600",
+      "39253092",
+      "41415282",
+      "39391958",
+      "39539551",
+      "39441216",
+      "38287356",
+      "40435135",
+      "41107799",
+      "41174714",
+      "40618698",
+      "40603761",
+      "40681784",
+      "40993741",
+      "40308576",
+      "39875895",
+      "41179292",
+      "40621461"
+    ],
+    "review": [
+      "41472745"
+    ],
+    "pmc": [
+      "12745386"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41472745/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1104",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1627133",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "38869635",
+    "doi": "10.1007/s10238-024-01387-z",
+    "title": "Revolutionary multi-omics analysis revealing prognostic signature of thyroid cancer and subsequent in vitro validation of SNAI1 in mediating thyroid cancer progression through EMT."
+  },
+  "content": {
+    "abstract": "Thyroid carcinoma (TC), the most commonly diagnosed malignancy of the endocrine system, has witnessed a significant rise in incidence over the past few decades. The integration of scRNA-seq with other sequencing approaches offers researchers a distinct perspective to explore mechanisms underlying TC progression. Therefore, it is crucial to develop a prognostic model for TC patients by utilizing a multi-omics approach. We acquired and processed transcriptomic data from the TCGA-THCA dataset, including mRNA expression profiles, lncRNA expression profiles, miRNA expression profiles, methylation chip data, gene mutation data, and clinical data. We constructed a tumor-related risk model using machine learning methods and developed a consensus machine learning-driven signature (CMLS) for accurate and stable prediction of TC patient outcomes. 2 strains of undifferentiated TC cell lines and 1 strain of PTC cell line were utilized for in vitro validation. mRNA, protein levels of hub genes, epithelial-mesenchymal transition (EMT)-associated phenotypes were detected by a series of in vitro experiments. We identified 3 molecular subtypes of TC based on integrated multi-omics clustering algorithms, which were associated with overall survival and displayed distinct molecular features. We developed a CMLS based on 28 hub genes to predict patient outcomes, and demonstrated that CMLS outperformed other prognostic models. TC patients of relatively lower CMLS score had significantly higher levels of T cells, B cells, and macrophages, indicating an immune-activated state. Fibroblasts were predominantly enriched in the high CMLS group, along with markers associated with immune suppression and evasion. We identified several drugs that could be suitable for patients with high CMLS, including Staurosporine_1034, Rapamycin_1084, gemcitabine, and topotecan. SNAI1 was elevated in both undifferentiated TC cell lines, comparing to PTC cells. Knockdown of SNAI1 reduced the cell proliferation and EMT phenotypes of undifferentiated TC cells. Our findings highlight the importance of multi-omics analysis in understanding the molecular subtypes and immune characteristics of TC, and provide a novel prognostic model and potential therapeutic targets for this disease. Moreover, we identified SNAI1 in mediating TC progression through EMT in vitro.",
+    "keywords": [
+      "EMT",
+      "Multi-omics analysis",
+      "Prognostic model",
+      "Proliferation",
+      "SNAI1",
+      "Thyroid cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "*Thyroid Neoplasms/genetics/pathology",
+      "Prognosis",
+      "*Snail Family Transcription Factors/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Disease Progression",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Biomarkers, Tumor/genetics",
+      "Machine Learning",
+      "Transcriptome",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Xin",
+        "Fu, Chunlan",
+        "Qi, Jiahui",
+        "Chen, Chuanzhi"
+      ],
+      "short_names": [
+        "Jin X",
+        "Fu C",
+        "Qi J",
+        "Chen C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Surgery, Zhuji Affiliated Hospital of Wenzhou Medical University, Zhuji, 311899, Zhejiang, China.",
+        "Department of Hematology, Zhuji Affiliated Hospital of Wenzhou Medical University, Zhuji, 311899, Zhejiang, China.",
+        "Institute of Aging, Key Laboratory of Alzheimer's Disease of Zhejiang Province, Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China.",
+        "Department of Thyroid Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China. captainc@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Xin",
+        "short_name": "Jin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Zhuji Affiliated Hospital of Wenzhou Medical University, Zhuji, 311899, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Chunlan",
+        "short_name": "Fu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Zhuji Affiliated Hospital of Wenzhou Medical University, Zhuji, 311899, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Jiahui",
+        "short_name": "Qi J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Aging, Key Laboratory of Alzheimer's Disease of Zhejiang Province, Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chuanzhi",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China. captainc@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and experimental medicine"
+    ],
+    "journal_abbrev": [
+      "Clin Exp Med"
+    ],
+    "pub_date": "2024 Jun 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/13 12:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42171146",
+      "41957726",
+      "41732271",
+      "41095712"
+    ],
+    "refs": [
+      "38633247",
+      "38584220",
+      "38511143",
+      "38507067",
+      "38431620",
+      "38334792",
+      "37884956",
+      "37662889",
+      "37408577",
+      "37408575",
+      "37117846",
+      "36823338",
+      "35945960",
+      "35899307",
+      "35711946",
+      "33777960",
+      "33538338",
+      "33367753",
+      "30463570",
+      "29735546",
+      "29686425",
+      "29427661",
+      "28042956",
+      "27045886",
+      "26529630",
+      "24048068",
+      "22738343",
+      "22509395",
+      "22028439",
+      "21399628",
+      "11238531"
+    ],
+    "similar": [
+      "38869635",
+      "40200221",
+      "39885324",
+      "39702326",
+      "39559351",
+      "40330470",
+      "40330458",
+      "39703515",
+      "39732954",
+      "40248728",
+      "40308576",
+      "40119647",
+      "39391958",
+      "39436102",
+      "38549156",
+      "40170843",
+      "34537302",
+      "38480676",
+      "39669580",
+      "39434164",
+      "33128099",
+      "38836761",
+      "29427661",
+      "31989658",
+      "39738081",
+      "34315405",
+      "32042337",
+      "39872516",
+      "38958523",
+      "40281492",
+      "40304806",
+      "40038532",
+      "39712016",
+      "39370684",
+      "39633373",
+      "40263498",
+      "39870964",
+      "31997506",
+      "38282145",
+      "40243888",
+      "38217587",
+      "39346927",
+      "39960662",
+      "35095892",
+      "31915310",
+      "34840106",
+      "39730893",
+      "39809381",
+      "35996170",
+      "34866524",
+      "35608185",
+      "29906225",
+      "32940082",
+      "32945534",
+      "36076232",
+      "32857728",
+      "38935217",
+      "33387351",
+      "26729198",
+      "35359404",
+      "39294296",
+      "26420858",
+      "29967342",
+      "39742274",
+      "40084144",
+      "37679111",
+      "38616208",
+      "40330476",
+      "39256881",
+      "40076569",
+      "39539551",
+      "38237535",
+      "32881051",
+      "37404304",
+      "36829176",
+      "38890750",
+      "39568815",
+      "39966486",
+      "34012269",
+      "38990290",
+      "38144565",
+      "40234378",
+      "39726597",
+      "39528670",
+      "38656888",
+      "39355255",
+      "39759507",
+      "39735553",
+      "32588760",
+      "39327245",
+      "38753243",
+      "40066454",
+      "22514743",
+      "28651527",
+      "34335956",
+      "39873820",
+      "26536459",
+      "24643400",
+      "40226617",
+      "39681148"
+    ],
+    "review": [
+      "38869635"
+    ],
+    "pmc": [
+      "11176101"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/thyroidcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38869635/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10238-024-01387-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38869635",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNAI1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

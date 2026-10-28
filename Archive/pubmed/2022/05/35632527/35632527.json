@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "35632527",
+    "doi": "10.3390/vaccines10050771",
+    "title": "Disclosing Potential Key Genes, Therapeutic Targets and Agents for Non-Small Cell Lung Cancer: Evidence from Integrative Bioinformatics Analysis."
+  },
+  "content": {
+    "abstract": "Non-small-cell lung cancer (NSCLC) is considered as one of the malignant cancers that causes premature death. The present study aimed to identify a few potential novel genes highlighting their functions, pathways, and regulators for diagnosis, prognosis, and therapies of NSCLC by using the integrated bioinformatics approaches. At first, we picked out 1943 DEGs between NSCLC and control samples by using the statistical LIMMA approach. Then we selected 11 DEGs (CDK1, EGFR, FYN, UBC, MYC, CCNB1, FOS, RHOB, CDC6, CDC20, and CHEK1) as the hub-DEGs (potential key genes) by the protein-protein interaction network analysis of DEGs. The DEGs and hub-DEGs regulatory network analysis commonly revealed four transcription factors (FOXC1, GATA2, YY1, and NFIC) and five miRNAs (miR-335-5p, miR-26b-5p, miR-92a-3p, miR-155-5p, and miR-16-5p) as the key transcriptional and post-transcriptional regulators of DEGs as well as hub-DEGs. We also disclosed the pathogenetic processes of NSCLC by investigating the biological processes, molecular function, cellular components, and KEGG pathways of DEGs. The multivariate survival probability curves based on the expression of hub-DEGs in the SurvExpress web-tool and database showed the significant differences between the low- and high-risk groups, which indicates strong prognostic power of hub-DEGs. Then, we explored top-ranked 5-hub-DEGs-guided repurposable drugs based on the Connectivity Map (CMap) database. Out of the selected drugs, we validated six FDA-approved launched drugs (Dinaciclib, Afatinib, Icotinib, Bosutinib, Dasatinib, and TWS-119) by molecular docking interaction analysis with the respective target proteins for the treatment against NSCLC. The detected therapeutic targets and repurposable drugs require further attention by experimental studies to establish them as potential biomarkers for precision medicine in NSCLC treatment.",
+    "keywords": [
+      "gene expression profiles",
+      "integrated bioinformatics approaches",
+      "molecular signatures",
+      "non-small cell lung cancer",
+      "therapeutic targets and agents"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mosharaf, Md Parvez",
+        "Reza, Md Selim",
+        "Gov, Esra",
+        "Mahumud, Rashidul Alam",
+        "Mollah, Md Nurul Haque"
+      ],
+      "short_names": [
+        "Mosharaf MP",
+        "Reza MS",
+        "Gov E",
+        "Mahumud RA",
+        "Mollah MNH"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9788-1868",
+        "ORCID: 0000-0002-3883-3396"
+      ],
+      "affiliations": [
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "School of Commerce, Faculty of Business, Education, Law and Arts, University of Southern Queensland, Toowoomba, QLD 4350, Australia.",
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Centre for High Performance Computing, Joint Engineering Research Centre for Health Big Data Intelligent Analysis Technology, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China.",
+        "Department of Bioengineering, Faculty of Engineering, Adana AlparslanTurkes Science and Technology University, Adana 01250, Turkey.",
+        "NHMRC Clinical Trials Centre, Faculty of Medicine and Health, The University of Sydney, Camperdown, NSW 2006, Australia.",
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mosharaf, Md Parvez",
+        "short_name": "Mosharaf MP",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+          "School of Commerce, Faculty of Business, Education, Law and Arts, University of Southern Queensland, Toowoomba, QLD 4350, Australia."
+        ]
+      },
+      {
+        "full_name": "Reza, Md Selim",
+        "short_name": "Reza MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+          "Centre for High Performance Computing, Joint Engineering Research Centre for Health Big Data Intelligent Analysis Technology, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Gov, Esra",
+        "short_name": "Gov E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Faculty of Engineering, Adana AlparslanTurkes Science and Technology University, Adana 01250, Turkey."
+        ]
+      },
+      {
+        "full_name": "Mahumud, Rashidul Alam",
+        "short_name": "Mahumud RA",
+        "identifiers": [
+          "0000-0001-9788-1868"
+        ],
+        "affiliations": [
+          "NHMRC Clinical Trials Centre, Faculty of Medicine and Health, The University of Sydney, Camperdown, NSW 2006, Australia."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Nurul Haque",
+        "short_name": "Mollah MNH",
+        "identifiers": [
+          "0000-0002-3883-3396"
+        ],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Vaccines"
+    ],
+    "journal_abbrev": [
+      "Vaccines (Basel)"
+    ],
+    "pub_date": "2022 May 12",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/29 06:00",
+    "fetched_at": "2026-09-28 08:58:11"
+  },
+  "links": {
+    "cites": [
+      "42454595",
+      "41992345",
+      "41908738",
+      "41080754",
+      "40025145",
+      "39808342",
+      "39700095",
+      "39348357",
+      "39210294",
+      "39024368",
+      "38859862",
+      "37993790",
+      "37893423",
+      "37470934",
+      "37082197"
+    ],
+    "refs": [
+      "35447458",
+      "35409328",
+      "35390032",
+      "35277538",
+      "34849558",
+      "34764329",
+      "33933015",
+      "33539530",
+      "33298930",
+      "33173413",
+      "32971089",
+      "32903519",
+      "32133645",
+      "31715539",
+      "31516579",
+      "31324603",
+      "31212673",
+      "31186759",
+      "30935143",
+      "30872657",
+      "30776072",
+      "30705065",
+      "30658502",
+      "30606694",
+      "30558318",
+      "30503889",
+      "30429014",
+      "29927717",
+      "29922886",
+      "29845250",
+      "29545845",
+      "29545604",
+      "29449899",
+      "29156006",
+      "29140473",
+      "28972861",
+      "28937943",
+      "28823540",
+      "28808491",
+      "28481733",
+      "28206814",
+      "28154808",
+      "27930094",
+      "27924014",
+      "27899662",
+      "27835911",
+      "27413711",
+      "27310702",
+      "27174888",
+      "26590260",
+      "26476454",
+      "26348713",
+      "26344953",
+      "26344468",
+      "25950236",
+      "25912964",
+      "25820571",
+      "25521941",
+      "25379140",
+      "24807155",
+      "24803000",
+      "24066126",
+      "23649439",
+      "23550210",
+      "23342174",
+      "23199362",
+      "23193258",
+      "22588877",
+      "22263017",
+      "22054879",
+      "21534921",
+      "20802022",
+      "20513649",
+      "19499576",
+      "19399780",
+      "19131956",
+      "19033363",
+      "18222207",
+      "17008526",
+      "16621717",
+      "15461798",
+      "10592173"
+    ],
+    "similar": [
+      "35632527",
+      "35390032",
+      "32093341",
+      "36991484",
+      "36401966",
+      "30606694",
+      "37534476",
+      "31377428",
+      "31692035",
+      "36567949",
+      "31190860",
+      "31805030",
+      "35313857",
+      "32041280",
+      "35634481",
+      "35368701",
+      "36176446",
+      "30975489",
+      "33083112",
+      "32059076",
+      "35422618",
+      "34337056",
+      "37993790",
+      "35117319",
+      "36204232",
+      "35571642",
+      "33532314",
+      "37925496",
+      "31311829",
+      "33407587",
+      "30369945",
+      "31987036",
+      "35409328",
+      "34234459",
+      "32048869",
+      "33767726",
+      "29921304",
+      "35719390",
+      "35994213",
+      "33490151",
+      "31788082",
+      "35836518",
+      "31934299",
+      "35706800",
+      "34254931",
+      "32299382",
+      "33538941",
+      "29063236",
+      "35386284",
+      "34934349",
+      "34466069",
+      "34916825",
+      "33604823",
+      "28952134",
+      "34434654",
+      "32724822",
+      "34797837",
+      "32547322",
+      "32535071",
+      "32300359",
+      "30658502",
+      "28927388",
+      "35617355",
+      "34536521",
+      "32102656",
+      "34390411",
+      "29081411",
+      "32578582",
+      "34754623",
+      "35484565",
+      "35480306",
+      "35071774",
+      "34366885",
+      "31897214",
+      "34313877",
+      "29845250",
+      "35401659",
+      "38657441",
+      "33501609",
+      "31173250",
+      "34354368",
+      "35221911",
+      "34744455",
+      "31930065",
+      "32160841",
+      "31737652",
+      "31698633",
+      "32855723",
+      "32642095",
+      "34876855",
+      "30697079",
+      "35237056",
+      "33126319",
+      "36016137",
+      "32415511",
+      "34827193",
+      "37416747",
+      "37373974",
+      "32931455",
+      "37324026",
+      "35923698",
+      "31338439",
+      "38033382",
+      "39239087",
+      "35721149",
+      "36900162",
+      "35456223",
+      "36551878"
+    ],
+    "review": [
+      "35632527",
+      "37993790"
+    ],
+    "pmc": [
+      "9143695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=vaccines10050771",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35632527/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35632527",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1792",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

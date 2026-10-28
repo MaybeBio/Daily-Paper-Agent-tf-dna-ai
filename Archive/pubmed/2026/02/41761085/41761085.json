@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41761085",
+    "doi": "10.1186/s12870-026-08468-z",
+    "title": "A machine learning approach to genome-wide association mapping of disease resistance and geographic origin in sorghum."
+  },
+  "content": {
+    "abstract": "Sorghum, the fifth most important cereal crop globally, faces persistent threats from fungal diseases that limit productivity and resilience. To investigate the genetic basis of disease resistance and geographic adaptation, we applied a machine learning-enabled genome-wide association study (GWAS) to a panel of 377 genetically diverse sorghum accessions, incorporating nearly 300,000 SNP markers and phenotypic evaluations for resistance to anthracnose, head smut, and downy mildew. While disease resistance phenotypes did not cluster strictly by geographic origin, SNP-based analyses revealed significant genetic differentiation among accessions from different regions, particularly involving a genetically distinct group from Senegal. Bootstrap Forest models highlighted candidate SNPs predictive of geographic origin, most notably on Chromosome 10, near genes encoding transcription factors (e.g., bHLH, EREBP-like) and DUF6598-domain proteins with potential roles in plant defense. For disease resistance, top-ranked SNPs were located near genes implicated in canonical immune pathways, including zinc-binding proteins (anthracnose), NB-ARC and LRR-containing proteins (head smut), and F-box proteins (downy mildew). Although exploratory in nature, these findings suggest that local adaptation to pathogen pressure may have shaped sorghum's genomic landscape. The identified candidate genes and associated SNPs help prioritize targets for marker-assisted selection and follow-up functional validation, contributing to the development of sorghum varieties with enhanced resistance and adaptability.",
+    "keywords": [
+      "Anthracnose",
+      "Downy mildew",
+      "GWAS",
+      "Genetic diversity",
+      "Head smut",
+      "Landraces",
+      "Mini-core collections"
+    ],
+    "mesh_terms": [
+      "*Sorghum/genetics/microbiology",
+      "*Genome-Wide Association Study",
+      "*Machine Learning",
+      "*Disease Resistance/genetics",
+      "*Plant Diseases/microbiology/genetics",
+      "Polymorphism, Single Nucleotide",
+      "Chromosome Mapping"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ahn, Ezekiel",
+        "Baek, Insuck",
+        "Park, Sunchung",
+        "Prom, Louis K",
+        "Lim, Seunghyun",
+        "Jang, Jae Hee",
+        "Hong, Seok Min",
+        "Kim, Moon S",
+        "Meinhardt, Lyndel W",
+        "Magill, Clint"
+      ],
+      "short_names": [
+        "Ahn E",
+        "Baek I",
+        "Park S",
+        "Prom LK",
+        "Lim S",
+        "Jang JH",
+        "Hong SM",
+        "Kim MS",
+        "Meinhardt LW",
+        "Magill C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA. Ezekiel.ahn@usda.gov.",
+        "United States Department of Agriculture, Environmental Microbial and Food Safety Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA.",
+        "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA.",
+        "United States Department of Agriculture, Insect Control and Cotton Disease Research, Agricultural Research Service, Southern Plains Agricultural Research Center, United States, College Station, TX, 77845, USA.",
+        "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA.",
+        "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA.",
+        "United States Department of Agriculture, Environmental Microbial and Food Safety Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA.",
+        "Department of Civil Urban Earth and Environmental Engineering, Ulsan National Institute of Science and Technology, UNIST-gil 50, Ulsan, 44919, Republic of Korea.",
+        "United States Department of Agriculture, Environmental Microbial and Food Safety Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA.",
+        "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA.",
+        "Department of Plant Pathology and Microbiology, Texas A&M University, College Station, TX, 77843, USA. c-magill@tamu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ahn, Ezekiel",
+        "short_name": "Ahn E",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA. Ezekiel.ahn@usda.gov."
+        ]
+      },
+      {
+        "full_name": "Baek, Insuck",
+        "short_name": "Baek I",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Environmental Microbial and Food Safety Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Sunchung",
+        "short_name": "Park S",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA."
+        ]
+      },
+      {
+        "full_name": "Prom, Louis K",
+        "short_name": "Prom LK",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Insect Control and Cotton Disease Research, Agricultural Research Service, Southern Plains Agricultural Research Center, United States, College Station, TX, 77845, USA."
+        ]
+      },
+      {
+        "full_name": "Lim, Seunghyun",
+        "short_name": "Lim S",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA."
+        ]
+      },
+      {
+        "full_name": "Jang, Jae Hee",
+        "short_name": "Jang JH",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA."
+        ]
+      },
+      {
+        "full_name": "Hong, Seok Min",
+        "short_name": "Hong SM",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Environmental Microbial and Food Safety Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA.",
+          "Department of Civil Urban Earth and Environmental Engineering, Ulsan National Institute of Science and Technology, UNIST-gil 50, Ulsan, 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Moon S",
+        "short_name": "Kim MS",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Environmental Microbial and Food Safety Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA."
+        ]
+      },
+      {
+        "full_name": "Meinhardt, Lyndel W",
+        "short_name": "Meinhardt LW",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture, Sustainable Perennial Crops Laboratory, Agricultural Research Service, United States, Beltsville, MD, 20705, USA."
+        ]
+      },
+      {
+        "full_name": "Magill, Clint",
+        "short_name": "Magill C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Pathology and Microbiology, Texas A&M University, College Station, TX, 77843, USA. c-magill@tamu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC plant biology"
+    ],
+    "journal_abbrev": [
+      "BMC Plant Biol"
+    ],
+    "pub_date": "2026 Feb 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/28 00:41",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40025430",
+      "39472326",
+      "38977981",
+      "38556556",
+      "38005757",
+      "37730178",
+      "37176964",
+      "37105805",
+      "36203361",
+      "35906277",
+      "34894286",
+      "33900689",
+      "31524095",
+      "31086384",
+      "30951089",
+      "30727452",
+      "30348309",
+      "28758991",
+      "28401336",
+      "27297986",
+      "26748515",
+      "26601206",
+      "25161657",
+      "24695491",
+      "23704283",
+      "23649651",
+      "23493712",
+      "23267105",
+      "23086497",
+      "22110026",
+      "21573248",
+      "20546594",
+      "17586829",
+      "17108957",
+      "16972869",
+      "15593090",
+      "15476917",
+      "14673035",
+      "12897250",
+      "12206236",
+      "12147764",
+      "11402176",
+      "10339521",
+      "9262467"
+    ],
+    "similar": [
+      "41761085",
+      "38977981",
+      "41408459",
+      "40684039",
+      "31086384",
+      "40155810",
+      "31992189",
+      "30025025",
+      "31289022",
+      "42075717",
+      "42169511",
+      "37375469",
+      "29321632",
+      "34929013",
+      "40025430",
+      "33452894",
+      "30688991",
+      "25882062",
+      "32102832",
+      "39268657",
+      "23463493",
+      "27194807",
+      "41047493",
+      "33900689",
+      "41013176",
+      "29602808",
+      "31290917",
+      "41949611",
+      "41874680",
+      "33588716",
+      "38910245",
+      "42169491",
+      "41088541",
+      "41804045",
+      "40549737",
+      "39532720",
+      "39761500",
+      "37929175",
+      "35419653",
+      "35716823",
+      "41058572",
+      "38062401",
+      "40955042",
+      "41891342",
+      "40790867",
+      "42444097",
+      "31813131",
+      "40640111",
+      "39397345",
+      "31362973",
+      "42032458",
+      "41261851",
+      "41906791",
+      "37894980",
+      "38532180",
+      "41684087",
+      "29876718",
+      "30557301",
+      "36362397",
+      "33388884",
+      "26690530",
+      "39684293",
+      "23267105",
+      "38669464",
+      "33438060",
+      "36275584",
+      "34075443",
+      "33469696",
+      "37851522",
+      "39596115",
+      "40364624",
+      "35906277",
+      "41483330",
+      "26930078",
+      "41430118",
+      "34010322",
+      "41566423",
+      "34988630",
+      "39699583",
+      "32398006",
+      "39518909",
+      "41565595",
+      "39127987",
+      "30223789",
+      "39103778",
+      "33999918",
+      "22143275",
+      "39468118",
+      "31672122",
+      "41486861",
+      "38909331",
+      "35822435",
+      "33492413",
+      "26988219",
+      "27742723",
+      "41705476",
+      "38644483",
+      "26536890",
+      "34482633",
+      "25268502"
+    ],
+    "review": [
+      "41761085"
+    ],
+    "pmc": [
+      "13059599"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-026-08468-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41761085/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

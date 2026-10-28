@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.12.499365",
+  "title": "Peptide binding specificity prediction using fine-tuned protein structure prediction networks",
+  "authors": "Amir Motmaen; Justas Dauparas; Minkyung Baek; Mohamad H. Abedi; David Baker; Philip Bradley",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-13",
+  "window": {
+    "start": "2022-07-11",
+    "end": "2022-07-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过微调AlphaFold结构预测网络联合预测肽-MHC结合特异性，虽非TF-DNA体系，但蛋白-肽互作建模方法可迁移至TF-DNA结合预测，具有借鉴价值。",
+  "abstract": "Peptide binding proteins play key roles in biology, and predicting their binding specificity is a long-standing challenge. While considerable protein structural information is available, the most successful current methods use sequence information alone, in part because it has been a challenge to model the subtle structural changes accompanying sequence substitutions. Protein structure prediction networks such as AlphaFold model sequence-structure relationships very accurately, and we reasoned that if it were possible to specifically train such networks on binding data, more generalizable models could be created. We show that placing a classifier on top of the AlphaFold network and fine-tuning the combined network parameters for both classification and structure prediction accuracy leads to a model with strong generalizable performance on a wide range of Class I and Class II peptide-MHC interactions that approaches the overall performance of the state-of-the-art NetMHCpan sequence-based method. The peptide-MHC optimized model shows excellent performance in distinguishing binding and non-binding peptides to SH3 and PDZ domains. This ability to generalize well beyond the training set far exceeds that of sequence only models, and should be particularly powerful for systems where less experimental data is available. Significance statement Peptide binding proteins carry out a variety of biological functions in cells and predicting their binding specificity could significantly improve our understanding of molecular pathways. Deep neural networks have achieved high structure prediction accuracy, but are not trained to predict binding specificity. Here we describe an approach to extending such networks to jointly predict protein structure and binding specificity. We incorporate AlphaFold into this approach, and fine-tune its parameters on peptide-MHC Class I and II structural and binding data. The fine-tuned model approaches state-of-the-art classification accuracy on peptide-MHC specificity prediction and generalizes to other peptide-binding systems such as the PDZ and SH3 domains.",
+  "abstract_zh": "肽结合蛋白在生物学中扮演关键角色，预测其结合特异性是一个长期挑战。尽管已有大量蛋白质结构信息可用，当前最成功的方法仅依赖序列信息，部分原因在于模拟序列替换伴随的细微结构变化颇具难度。诸如AlphaFold等蛋白质结构预测网络能非常准确地建模序列-结构关系，我们推测，若能专门针对结合数据训练此类网络，则可能创建出更具泛化能力的模型。我们证明，在AlphaFold网络之上放置一个分类器，并微调组合网络参数以同时优化分类和结构预测准确性，可得到一个在广泛的I类和II类肽-MHC相互作用上具有强大泛化性能的模型，其整体性能接近最先进的基于序列的NetMHCpan方法。经肽-MHC优化的模型在区分SH3和PDZ结构域的结合与非结合肽方面表现出色。这种远超训练集的泛化能力显著优于仅基于序列的模型，尤其适用于实验数据较少的系统。意义声明：肽结合蛋白在细胞中执行多种生物学功能，预测其结合特异性可显著增进我们对分子途径的理解。深度神经网络已实现高结构预测精度，但未训练用于预测结合特异性。在此，我们描述了一种扩展此类网络以联合预测蛋白质结构和结合特异性的方法。我们将AlphaFold纳入此方法，并在肽-MHC I类和II类结构及结合数据上微调其参数。微调后的模型在肽-MHC特异性预测上接近最先进的分类精度，并能泛化至其他肽结合系统，如PDZ和SH3结构域。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.12.499365",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.12.499365",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.12.499365/index.html"
+}

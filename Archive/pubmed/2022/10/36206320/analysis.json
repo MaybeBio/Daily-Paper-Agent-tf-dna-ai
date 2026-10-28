@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36206320",
+  "title": "DLoopCaller: A deep learning approach for predicting genome-wide chromatin loops by integrating accessible chromatin landscapes.",
+  "authors": "Wang, Siguo; Zhang, Qinhu; He, Ying; Cui, Zhen; Guo, Zhenghao; Han, Kyungsook; Huang, De-Shuang",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-10-08",
+  "window": {
+    "start": "2022-10-03",
+    "end": "2022-10-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习整合开放染色质景观预测全基因组染色质环，虽涉及三维基因组与转录因子基序共富集，但核心是染色质环而非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "In recent years, major advances have been made in various chromosome conformation capture technologies to further satisfy the needs of researchers for high-quality, high-resolution contact interactions. Discriminating the loops from genome-wide contact interactions is crucial for dissecting three-dimensional(3D) genome structure and function. Here, we present a deep learning method to predict genome-wide chromatin loops, called DLoopCaller, by combining accessible chromatin landscapes and raw Hi-C contact maps. Some available orthogonal data ChIA-PET/HiChIP and Capture Hi-C were used to generate positive samples with a wider contact matrix which provides the possibility to find more potential genome-wide chromatin loops. The experimental results demonstrate that DLoopCaller effectively improves the accuracy of predicting genome-wide chromatin loops compared to the state-of-the-art method Peakachu. Moreover, compared to two of most popular loop callers, such as HiCCUPS and Fit-Hi-C, DLoopCaller identifies some unique interactions. We conclude that a combination of chromatin landscapes on the one-dimensional genome contributes to understanding the 3D genome organization, and the identified chromatin loops reveal cell-type specificity and transcription factor motif co-enrichment across different cell lines and species.",
+  "abstract_zh": "近年来，多种染色体构象捕获技术在满足研究人员对高质量、高分辨率接触相互作用需求方面取得了重大进展。从全基因组接触相互作用中区分环状结构对于解析三维（3D）基因组结构和功能至关重要。在此，我们提出了一种名为DLoopCaller的深度学习方法，通过结合可及染色质景观和原始Hi-C接触图谱来预测全基因组染色质环。利用一些可用的正交数据，如ChIA-PET/HiChIP和Capture Hi-C，生成了具有更宽接触矩阵的正样本，这为发现更多潜在的全基因组染色质环提供了可能性。实验结果表明，与最先进的方法Peakachu相比，DLoopCaller有效提高了预测全基因组染色质环的准确性。此外，与两种最流行的环调用器（如HiCCUPS和Fit-Hi-C）相比，DLoopCaller识别出了一些独特的相互作用。我们得出结论，一维基因组上染色质景观的组合有助于理解3D基因组组织，并且所识别的染色质环揭示了不同细胞系和物种间的细胞类型特异性及转录因子基序共富集现象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36206320/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36206320/",
+  "paper_page_path": "papers/pubmed/36206320/index.html"
+}

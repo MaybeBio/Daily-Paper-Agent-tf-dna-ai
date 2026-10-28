@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36982508",
+  "title": "Predicting Key Genes and Therapeutic Molecular Modelling to Explain the Association between Porphyromonas gingivalis (P. gingivalis) and Alzheimer's Disease (AD).",
+  "authors": "Hamarsha, Ahmed; Balachandran, Kumarendran; Sailan, Ahmad Tarmidi; Nasruddin, Nurrul Shaqinah",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-03-30",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过GEO差异表达基因分析、CMap药物筛选及分子对接/动力学模拟，探索牙龈卟啉单胞菌与阿尔茨海默病的关联基因和药物靶点，但核心是疾病基因关联而非蛋白质-DNA互作，且无TF-DNA结合建模，仅分子对接涉及蛋白-小分子，与本课题关系微弱。",
+  "abstract": "The association between Porphyromonas gingivalis (P. gingivalis) and Alzheimer's disease (AD) remains unclear. The major aim of this study was to elucidate the role of genes and molecular targets in P. gingivalis-associated AD. Two Gene Expression Omnibus (GEO) datasets, GSE5281 for AD (n = 84 Alzheimer's, n = 74 control) and GSE9723 (n = 4 P. gingivalis, n = 4 control), were downloaded from the GEO database. Differentially expressed genes (DEGs) were obtained, and genes common to both diseases were drawn. Additionally, Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) analysis was performed from the top 100 genes (50 upregulated and 50 downregulated genes). We then proceeded with CMap analysis to screen for possible small drug molecules targeting these genes. Subsequently, we performed molecular dynamics simulations. A total of 10 common genes (CALD1, HES1, ID3, PLK2, PPP2R2D, RASGRF1, SUN1, VPS33B, WTH3DI/RAB6A, and ZFP36L1) were identified with a p-value < 0.05. The PPI network of the top 100 genes showed UCHL1, SST, CHGB, CALY, and INA to be common in the MCC, DMNC, and MNC domains. Out of the 10 common genes identified, only 1 was mapped in CMap. We found three candidate small drug molecules to be a fit for PLK2, namely PubChem ID: 24971422, 11364421, and 49792852. We then performed molecular docking of PLK2 with PubChem ID: 24971422, 11364421, and 49792852. The best target, 11364421, was used to conduct the molecular dynamics simulations. The results of this study unravel novel genes to P. gingivalis-associated AD that warrant further validation.",
+  "abstract_zh": "Porphyromonas gingivalis（P. gingivalis）与阿尔茨海默病（Alzheimer's disease, AD）之间的关联仍不明确。本研究的主要目的是阐明P. gingivalis相关AD中基因和分子靶点的作用。从GEO数据库下载了两个基因表达综合（Gene Expression Omnibus, GEO）数据集：GSE5281用于AD（n = 84例阿尔茨海默病，n = 74例对照）和GSE9723（n = 4例P. gingivalis，n = 4例对照）。获取差异表达基因（differentially expressed genes, DEGs），并绘制两种疾病共有的基因。此外，对前100个基因（50个上调基因和50个下调基因）进行了京都基因与基因组百科全书（Kyoto Encyclopedia of Genes and Genomes, KEGG）和基因本体论（Gene Ontology, GO）分析。随后，我们进行了CMap分析，以筛选可能靶向这些基因的小分子药物。之后，我们进行了分子动力学模拟。共鉴定出10个共有基因（CALD1、HES1、ID3、PLK2、PPP2R2D、RASGRF1、SUN1、VPS33B、WTH3DI/RAB6A和ZFP36L1），p值 < 0.05。前100个基因的蛋白质-蛋白质相互作用（PPI）网络显示，UCHL1、SST、CHGB、CALY和INA在MCC、DMNC和MNC域中常见。在鉴定出的10个共有基因中，只有1个在CMap中被映射。我们发现三个候选小药物分子适合PLK2，即PubChem ID：24971422、11364421和49792852。然后，我们对PLK2与PubChem ID：24971422、11364421和49792852进行了分子对接。最佳靶点11364421被用于进行分子动力学模拟。本研究结果揭示了P. gingivalis相关AD中的新基因，这些基因值得进一步验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36982508/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36982508/",
+  "paper_page_path": "papers/pubmed/36982508/index.html"
+}

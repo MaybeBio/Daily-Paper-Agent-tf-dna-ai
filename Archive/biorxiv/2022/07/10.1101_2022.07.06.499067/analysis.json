@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.06.499067",
+  "title": "DeepBend: An Interpretable Model of DNA Bendability",
+  "authors": "Khan SR; Sakib S; Rahman MS; Samee MAH",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-07",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释CNN模型DeepBend预测DNA可弯曲性并解析序列基序，虽聚焦DNA力学性质而非TF-DNA结合，但DNA可弯曲性直接影响蛋白-DNA结合，方法可迁移至TF-DNA互作建模。",
+  "abstract": "The bendability of genomic DNA impacts chromatin packaging and protein-DNA binding. However, beyond a handful of known sequence motifs, such as certain dinucleotides and poly(A)/poly(T) sequences, we do not have a comprehensive understanding of the motifs influencing DNA bendability. Recent high-throughput technologies like Loop-Seq offer an opportunity to address this gap but the lack of accurate and interpretable machine learning models still poses a significant challenge. Here we introduce DeepBend, a convolutional neural network model built as a visible neural network where we designed the convolutions to directly capture the motifs underlying DNA bendability and how their periodic occurrences or relative arrangements modulate bendability. Through extensive benchmarking on Loop-Seq data, we show that DeepBend consistently performs on par with alternative machine learning and deep learning models while giving an extra edge through mechanistic interpretations. Besides confirming the known motifs of DNA bendability, DeepBend also revealed several novel motifs and showed how the spatial patterns of motif occurrences influence bendability. DeepBend’s genome-wide prediction of bendability further showed how bendability is linked to chromatin conformation and revealed the motifs controlling bendability of topologically associated domains and their boundaries.",
+  "abstract_zh": "基因组DNA的可弯曲性影响染色质包装和蛋白质-DNA结合。然而，除了少数已知的序列基序，如特定的二核苷酸和poly(A)/poly(T)序列外，我们对影响DNA可弯曲性的基序缺乏全面理解。近期高通量技术如Loop-Seq为弥补这一空白提供了机会，但缺乏准确且可解释的机器学习模型仍构成重大挑战。在此，我们引入DeepBend，一种卷积神经网络模型，构建为可见神经网络，其中我们设计了卷积层以直接捕获DNA可弯曲性背后的基序，以及这些基序的周期性出现或相对排列如何调节可弯曲性。通过对Loop-Seq数据的广泛基准测试，我们表明DeepBend在性能上始终与替代机器学习和深度学习模型相当，同时通过机制解释提供了额外优势。除了确认已知的DNA可弯曲性基序外，DeepBend还揭示了若干新基序，并展示了基序出现的空间模式如何影响可弯曲性。DeepBend对全基因组可弯曲性的预测进一步展示了可弯曲性如何与染色质构象相关联，并揭示了控制拓扑关联结构域及其边界可弯曲性的基序。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.06.499067",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.06.499067",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.06.499067/index.html"
+}

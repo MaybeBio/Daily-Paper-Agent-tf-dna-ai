@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.14.633076",
+  "title": "Sequence-based Drug-Target Binding Site Pre-training Enables Cryptic Pocket Detection and Improves Binding Affinity and Kinetics Prediction",
+  "authors": "Shuo Zhang; Li Xie; Daniel Tiourine; Lei Xie",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-19",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 5,
+  "one_liner_zh": "提出基于序列的蛋白-配体结合位点预训练框架ProMoNet，用于预测结合亲和力与动力学，虽非TF-DNA体系，但其结合位点预训练与蛋白动态建模方法可迁移至蛋白质-DNA互作研究。",
+  "abstract": "Predicting protein-ligand binding characteristics, such as affinity and kinetics, is critical for accelerating drug discovery. However, many existing computational methods face key limitations, including insufficient integration of comprehensive databases, inadequate representation of protein structural dynamics, and incomplete modeling of microscale protein-ligand interactions. To address these challenges, we introduce ProMoNet, a sequence-based pre-training and fine-tuning framework to enhance the prediction of protein-ligand binding characteristics. ProMoNet leverages protein and molecular foundation models to expand data coverage and enhance diversity. It also introduces a pre-training strategy based on protein-ligand binding site prediction, which bridges protein- and ligand-level representations to support downstream prediction tasks involving protein-ligand complexes. Our pre-training module effectively models microscale protein-ligand interactions and captures the dynamic nature of proteins, including binding site crypticity, without relying on 3-dimensional structural inputs. Notably, this module surpasses or matches state-of-the-art structure-based methods in identifying exposed and cryptic binding sites while maintaining high efficiency. Our fine-tuning module then efficiently transfers the pre-trained knowledge to downstream tasks such as binding affinity and binding kinetics prediction, achieving superior performance. The combination of ProMoNet’s strong performance and demonstrated efficiency across multiple tasks highlights its potential for broad applications in drug discovery. Scientific Contribution We propose ProMoNet, a sequence-based pre-training and fine-tuning framework for protein-ligand binding characteristic prediction, where protein-ligand binding site prediction is introduced as a pre-training strategy to bridge independent protein- and ligand-level representations for downstream complex-level tasks. We design two dedicated modules, including a pre-training module that models microscale protein-ligand interactions and captures protein dynamics, as well as a fine-tuning module that efficiently integrates the pre-trained representations for downstream tasks. Even compared to structure-based methods, ProMoNet matches state-of-the-art performance in exposed and cryptic binding site identification and delivers superior results in binding affinity and kinetics prediction, making it a promising tool for drug discovery.",
+  "abstract_zh": "预测蛋白质-配体结合特性，如亲和力和动力学，对于加速药物发现至关重要。然而，许多现有计算方法面临关键限制，包括对综合数据库的整合不足、对蛋白质结构动力学的表征不充分，以及对微观尺度蛋白质-配体相互作用的建模不完整。为应对这些挑战，我们引入了ProMoNet，一个基于序列的预训练和微调框架，以增强蛋白质-配体结合特性的预测。ProMoNet利用蛋白质和分子基础模型来扩展数据覆盖范围并增强多样性。它还引入了一种基于蛋白质-配体结合位点预测的预训练策略，该策略桥接蛋白质和配体级别的表示，以支持涉及蛋白质-配体复合物的下游预测任务。我们的预训练模块有效建模微观尺度的蛋白质-配体相互作用，并捕捉蛋白质的动态特性，包括结合位点的隐蔽性，而无需依赖三维结构输入。值得注意的是，该模块在识别暴露和隐蔽结合位点方面超越或匹配最先进的结构基方法，同时保持高效率。我们的微调模块随后将预训练知识高效迁移到下游任务，如结合亲和力和结合动力学预测，实现卓越性能。ProMoNet的强性能和多任务效率的结合突显了其在药物发现中广泛应用的潜力。科学贡献 我们提出ProMoNet，一个基于序列的预训练和微调框架，用于蛋白质-配体结合特性预测，其中蛋白质-配体结合位点预测被引入作为预训练策略，以桥接独立的蛋白质和配体级别表示，用于下游复合物级别任务。我们设计了两个专用模块，包括一个预训练模块，用于建模微观尺度的蛋白质-配体相互作用并捕捉蛋白质动态，以及一个微调模块，用于高效整合预训练表示以支持下游任务。即使与结构基方法相比，ProMoNet在暴露和隐蔽结合位点识别方面匹配最先进性能，并在结合亲和力和动力学预测中提供卓越结果，使其成为药物发现的有前景工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.14.633076",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.14.633076",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.14.633076/index.html"
+}

@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure legends, methods summary) as provided by the author
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The manuscript identifies and characterizes a family of short chromatophore-targeted proteins (DB-sCTPs) in the photosynthetic protist Paulinella chromatophore, demonstrating their DNA-binding capacity, antimicrobial activity, membrane lipid binding, and the 3D structure of one family member, and proposes a role in nuclear control of chromatophore genetic information processing
+- **Visible evidence base** In silico sequence analysis, heterologous protein expression and purification, E. coli confrontation assays, fluorescence microscopy, protein-lipid overlay assays, flotation assays, DNA pull-down from cell lysate, EMSA, BLI binding kinetics, X-ray crystallography, homology modeling, and molecular docking
+- **Missing materials affecting confidence** Full experimental details in SI Appendix (not provided), raw data for binding curves, crystallographic structure factors, complete coexpression analysis details, and the full list of 161 sequences and their alignment
+
+## Reviewer
+- **Overall assessment** The manuscript presents a substantial and well-executed characterization of a novel expanded protein family in a biologically important model system for organellogenesis. The combination of structural biology, biophysical binding assays, and in silico analyses is appropriate and generally rigorous. The crystallographic structure at 1.2 Å resolution is a strong contribution. However, several claims extend beyond what the presented evidence can support, particularly regarding the proposed regulatory function in genetic information processing, the interpretation of antimicrobial activity, and the biological relevance of the DNA-binding affinities. The manuscript would be strengthened by tempering these claims and by providing additional controls and quantitative comparisons.
+- **Who would be interested in the results, and why** Researchers studying endosymbiosis and organellogenesis, particularly the transition from endosymbiont to organelle; evolutionary biologists interested in gene transfer and nuclear control of organellar processes; structural biologists studying HTH domains and DNA-protein interactions; and researchers working on antimicrobial peptides and protein-membrane interactions. The Paulinella system is a unique and increasingly important model, and this work provides the first structural and biochemical characterization of a protein family that may be central to nuclear-chromatophore coordination.
+- **Major strengths** 1) The study addresses a fundamental and timely question in evolutionary cell biology, namely how a recently acquired endosymbiont is integrated under nuclear control. 2) The crystallographic structure at 1.2 Å is of high quality and provides a solid foundation for understanding the DB-sCTP fold. 3) The combination of multiple orthogonal approaches (pull-down, EMSA, BLI, docking) to establish DNA-binding is methodologically sound. 4) The comparative analysis with homing endonucleases provides useful evolutionary context. 5) The identification of a large expanded family (204 members) with conserved structural features is a significant finding in itself.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence mismatch
+  - **Claim pointer** The manuscript claims that DB-sCTPs "likely act in genetic information processing" in the chromatophore and proposes a specific regulatory function, including a speculative model involving CP43 interaction and control of gene expression.
+  - **Evidence pointer** Discussion section, "A Possible Function of DB-sCTPs as Nuclear Regulators of Chromatophore Genetic Information Processing"; Results, "DB-sCTP Orthologs in Paulinella micropora Show Differential Expression"
+  - **Concern** The functional claim of a role in genetic information processing is not directly tested. The evidence presented demonstrates DNA-binding capacity in vitro, but no experiment links this binding to transcriptional regulation, replication control, or any specific genetic information processing function. The differential expression data in P. micropora are correlative and do not establish function. The CP43 interaction is identified in a pull-down but is not validated by any independent method, and its functional significance is entirely speculative. The proposed model of "control by epistasy of synthesis" is presented without direct evidence.
+  - **Why it matters** The title and significance statement frame the manuscript around a functional role in genetic information processing. If this function is not established, the central claim of the manuscript is overstated. Readers may be misled about the strength of the evidence for a regulatory role.
+  - **Resolution test** The authors should either (a) provide direct experimental evidence for a regulatory function (e.g., effects on transcription in a reporter assay, binding to native chromatophore promoters with functional consequences), or (b) substantially revise the title, significance statement, and discussion to frame the work as a structural and biochemical characterization of a DNA-binding protein family with unknown function, and clearly state that the regulatory role is hypothetical.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of antimicrobial activity
+  - **Claim pointer** The manuscript interprets the antimicrobial activity of DB-sCTPs as potentially related to their import mechanism into the chromatophore, suggesting that membrane binding facilitates translocation across the inner chromatophore membrane.
+  - **Evidence pointer** Results, "DB-sCTPs Show Antimicrobial Activity against E. coli and Bind to Bacterial Lipids In Vitro"; Discussion, "Antimicrobial Activity and Membrane Lipid-Binding Characteristics of sCTPs"
+  - **Concern** The antimicrobial activity is observed at low micromolar concentrations (5 µM) and is accompanied by membrane permeabilization. However, the manuscript also notes that similar activity is seen for other sCTPs not in the DB-sCTP group, suggesting this may be a general property of cationic proteins rather than a specific function of DB-sCTPs. The connection between this in vitro activity and a proposed import mechanism is speculative. No evidence is provided that DB-sCTPs actually cross the chromatophore membrane, nor that the concentrations used in vitro are relevant to in vivo conditions.
+  - **Why it matters** The antimicrobial activity is presented as a significant finding, but its biological relevance to the Paulinella system is unclear. If this activity is a general property of cationic proteins, it may be an artifact of the assay conditions rather than a specific functional feature. The proposed link to import mechanism is not supported by any direct evidence.
+  - **Resolution test** The authors should either (a) provide evidence that the antimicrobial activity is specific to DB-sCTPs (e.g., by testing a broader panel of control proteins, including anionic and neutral sCTPs), (b) demonstrate that the concentrations used are physiologically relevant, or (c) clearly state that the antimicrobial activity is likely a non-specific property of cationic proteins and remove the speculative import mechanism from the discussion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative binding data and specificity
+  - **Claim pointer** The manuscript claims that DB-sCTPs bind with "high affinity" to chromatophore genomic DNA, with a KD of 3.4 ± 1.2 nM for sCTP-23166 binding to PhemB.
+  - **Evidence pointer** Results, "DB-sCTPs Bind with High Affinity to Chromatophore Genomic DNA In Vitro"; Figure 3B-C
+  - **Concern** The KD value is reported for a single protein-DNA pair. The manuscript does not provide binding data for non-specific DNA controls (e.g., random sequence DNA, host nuclear DNA) to establish that the binding is sequence-specific. The claim of "high affinity" is relative and would benefit from comparison to known DNA-binding proteins under similar conditions. Additionally, the manuscript does not report whether the binding is cooperative or whether the protein binds as a monomer or dimer, which would be important for interpreting the functional significance.
+  - **Why it matters** The KD value is a central quantitative claim. Without appropriate controls for specificity, the reader cannot assess whether the binding is biologically meaningful or a general property of cationic proteins binding to DNA. The comparison to known transcription factors in the discussion is useful but would be strengthened by direct comparison under identical conditions.
+  - **Resolution test** The authors should provide (a) binding data for non-specific DNA controls, (b) a comparison of binding affinities across multiple DB-sCTP family members to assess variability, and (c) a discussion of the stoichiometry of binding. If the binding is not sequence-specific, this should be stated explicitly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation and functional relevance
+  - **Claim pointer** The manuscript claims that the 3D structure of sCTP-23166 reveals a fold similar to DNA-binding domains of homing endonucleases, and that the recognition helix shows high sequence variability across the family, implying divergent DNA-binding specificities.
+  - **Evidence pointer** Results, "3D Structure Determination by X-ray Crystallography"; Figure 4; Discussion
+  - **Concern** The structural comparison to homing endonucleases is based on overall fold similarity, but the manuscript notes that the spatial arrangement of secondary structures differs significantly (rmsd values of 1.4-3.6 Å). The claim of functional similarity is therefore weakened. The sequence variability in the recognition helix is inferred from the alignment of 161 sequences, but the manuscript does not provide a quantitative analysis of this variability or demonstrate that the variable residues are actually involved in DNA contacts. The docking studies are performed with a random DNA sequence, which limits their relevance to understanding sequence-specific binding.
+  - **Why it matters** The structural analysis is a key contribution, but the interpretation of functional relevance goes beyond what the data can support. The claim of divergent DNA-binding specificities is plausible but not directly tested. The docking results are suggestive but not validated by any experimental binding data with defined sequences.
+  - **Resolution test** The authors should either (a) provide experimental evidence for sequence-specific binding (e.g., SELEX, binding to defined promoter sequences with mutations), (b) perform a more rigorous bioinformatic analysis of sequence variability in the context of the structure, or (c) temper the claims about divergent specificities and present the docking as a hypothesis-generating tool rather than evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1 and associated text
+  - **Evidence pointer** Results, "In Silico Analysis of DB-sCTPs"
+  - **Issue** The manuscript states that 161 of 204 DB-sCTPs have full-length sequence information, but the criteria for inclusion in the "full-length" category are not defined. The size distribution shown in Figure 1B-C appears to include only the 161 full-length proteins, but this is not explicitly stated.
+  - **Required correction** Clarify the criteria for "full-length" and explicitly state which subset of proteins is shown in each panel of Figure 1.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** BLI measurements
+  - **Evidence pointer** Methods, "BLI Measurements"
+  - **Issue** The manuscript reports KD values but does not specify the number of independent replicates or the error analysis method. The reported error (± 1.2 nM) is not defined as standard deviation or standard error.
+  - **Required correction** Specify the number of replicates and the statistical measure used for the reported errors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of pull-down data
+  - **Affected element** DNA pull-down from P. chromatophora lysate
+  - **Evidence pointer** Results, "DB-sCTPs Bind with High Affinity to Chromatophore Genomic DNA In Vitro"
+  - **Issue** The pull-down identified 41 proteins, including ribosomal proteins and metabolic enzymes, which are unlikely to be specific DNA-binding proteins. This suggests the pull-down may have significant non-specific binding. The manuscript does not discuss this potential limitation.
+  - **Required correction** Address the potential for non-specific binding in the pull-down and discuss how the identification of DB-sCTPs among many other proteins supports or weakens the claim of specific DNA binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Protein naming throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript uses the term "DB-sCTP" for the family and individual proteins are referred to by scaffold identifiers. This is functional but somewhat unwieldy. A clearer naming convention for individual proteins would improve readability.
+  - **Required correction** Consider assigning simple numerical identifiers (e.g., DB-sCTP1, DB-sCTP2) to the experimentally studied proteins for clarity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Differential expression data in P. micropora
+  - **Evidence pointer** Results, "DB-sCTP Orthologs in Paulinella micropora Show Differential Expression"
+  - **Issue** The manuscript reports that 29% of DB-sCTP orthologs are differentially expressed under high-light stress, but does not provide the statistical framework used to define "differentially expressed" beyond the stated threshold of |log2 fold change| > 1 and P = 0.05. The multiple testing correction method is not described.
+  - **Required correction** Describe the statistical methods used for differential expression analysis, including any multiple testing corrections.
+- **Technical failings that need to be addressed before the case is established** 1) The central functional claim (role in genetic information processing) is not supported by direct experimental evidence. 2) The specificity of DNA binding is not established with appropriate controls. 3) The biological relevance of the antimicrobial activity is unclear. 4) The CP43 interaction is not validated by an independent method.
+- **Assessment against Nature-style criteria** Originality: The study is original in its focus on a unique and understudied system (Paulinella chromatophore) and in the identification of a novel expanded protein family. The structural characterization of a DB-sCTP is a new contribution. Scientific importance: The work addresses a fundamental question in evolutionary cell biology, but the importance is currently limited by the lack of functional evidence. The family is large and potentially important, but the manuscript does not yet establish what these proteins do. Interdisciplinary readership: The topic bridges cell biology, evolution, and structural biology, and would appeal to a broad readership if the functional claims were better supported. Technical soundness: The structural work appears sound, and the biochemical assays are generally well-executed. However, the lack of specificity controls for DNA binding and the absence of functional validation weaken the overall technical case. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the Discussion contains speculative passages that may be difficult to distinguish from established findings.
+- **Recommendation posture** Supportive if major concerns are addressed. The structural and biochemical characterization is a solid contribution, but the manuscript currently overreaches in its functional claims. The authors should either provide direct evidence for a role in genetic information processing or substantially revise the framing of the work. The manuscript would be suitable for publication in a high-impact journal after these revisions, but the case is not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that DB-sCTPs "likely act in genetic information processing" in the chromatophore is not supported by direct functional evidence.
+- The proposed model of "control by epistasy of synthesis" involving CP43 interaction is entirely speculative and not tested.
+- The claim that DB-sCTPs have "divergent sequence-dependent DNA-binding preferences" is inferred from sequence variability and docking but not experimentally validated.
+- The biological relevance of the antimicrobial activity to the in vivo function of DB-sCTPs is not established.
+- The claim that DB-sCTPs may be involved in translocating across the chromatophore inner membrane is speculative and not supported by direct evidence.
+- The statement that "likely more if not all" DB-sCTPs localize to the chromatophore is based on absence of evidence for depletion, which is a weak basis for this claim.

@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "41690144",
+    "doi": "10.1016/j.compmedimag.2026.102723",
+    "title": "Diffusion-based virtual multi-stain staining for pituitary adenoma histopathology."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: Immunohistochemistry (IHC) for lineage-defining transcription factors-such as Pit1, Tpit, and SF1-together with markers like Ki67 and ACTH, is central to classifying pituitary neuroendocrine tumors and guiding management. Yet preparing multiple IHC slides beyond hematoxylin-eosin (H&E) is costly and inconsistent across sites. We aim to produce clinically reliable virtual IHC stains from a single H&E image under unpaired supervision. METHODS: We develop a diffusion-based one-to-many virtual staining framework that transforms a single H&E image into five key IHC stains. Our approach fuses multi-scale structural features into a unified conditional representation, processed by a shared backbone with stain-specific decoders to enable mutually reinforcing learning across stains. The model incorporates perception-prioritized, timestep-aware diffusion loss and a stain-consistency term during training, combined with classifier-guided sampling during inference, to achieve exceptional fidelity in both cellular structure and chromogenic style. For clinical validation, we further introduced the nuclear positivity rate as a slide-level endpoint to quantitatively evaluate agreement between virtual and real IHC. RESULTS AND CONCLUSION: Compared to the best-performing baseline, our method achieves superior pixel and perceptual fidelity (PSNR  upward arrow +0.94 dB, SSIM  upward arrow +0.015; FID  downward arrow-7.8%, LPIPS  downward arrow-7.9%). For the clinical endpoint, averaged across all stains, it delivers substantial improvements in mean absolute error, correlation, and accuracy relative to the baseline average-reducing MAE by approximately 28.7%, increasing correlation by 0.07, and boosting accuracy by 0.05. Coupled with roughly 80% fewer parameters and comparable throughput, these outcomes position our approach as a unified, clinically focused diffusion model for virtual multi-stain synthesis.",
+    "keywords": [
+      "Diffusion models",
+      "Histopathology",
+      "Multi-stain translation",
+      "Pituitary adenoma",
+      "Virtual staining"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pituitary Neoplasms/pathology/diagnostic imaging",
+      "*Adenoma/pathology/diagnostic imaging",
+      "Immunohistochemistry",
+      "*Staining and Labeling/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yifan",
+        "Qiao, Nidan",
+        "Niu, Xinyuan",
+        "Zhao, Yao",
+        "Yu, Jinhua",
+        "Wu, Guoqing",
+        "Cheng, Haixia"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Qiao N",
+        "Niu X",
+        "Zhao Y",
+        "Yu J",
+        "Wu G",
+        "Cheng H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Biomedical Engineering, Fudan University, Shanghai, 200438, China.",
+        "Department of Neurosurgery, Huashan Hospital, Fudan University, Shanghai, 200040, China.",
+        "College of Biomedical Engineering, Fudan University, Shanghai, 200438, China.",
+        "Department of Neurosurgery, Huashan Hospital, Fudan University, Shanghai, 200040, China.",
+        "College of Biomedical Engineering, Fudan University, Shanghai, 200438, China.",
+        "College of Biomedical Engineering, Fudan University, Shanghai, 200438, China. Electronic address: guoqingwu@fudan.edu.cn.",
+        "Department of Pathology, Huashan Hospital, Fudan University, Shanghai, Shanghai, 200040, China. Electronic address: chenghaixia99@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yifan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biomedical Engineering, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Nidan",
+        "short_name": "Qiao N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Huashan Hospital, Fudan University, Shanghai, 200040, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Xinyuan",
+        "short_name": "Niu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biomedical Engineering, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yao",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Huashan Hospital, Fudan University, Shanghai, 200040, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jinhua",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biomedical Engineering, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Guoqing",
+        "short_name": "Wu G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biomedical Engineering, Fudan University, Shanghai, 200438, China. Electronic address: guoqingwu@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cheng, Haixia",
+        "short_name": "Cheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Huashan Hospital, Fudan University, Shanghai, Shanghai, 200040, China. Electronic address: chenghaixia99@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society"
+    ],
+    "journal_abbrev": [
+      "Comput Med Imaging Graph"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/15 00:31",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41690144",
+      "41187597",
+      "42311953",
+      "41336375",
+      "41118427",
+      "42263351",
+      "33321163",
+      "32991684",
+      "39241330",
+      "41284417",
+      "40085941",
+      "39087085",
+      "41359740",
+      "35810588",
+      "41628093",
+      "42122020",
+      "41747115",
+      "40158294",
+      "39024079",
+      "41478227",
+      "39579326",
+      "38282056",
+      "40946794",
+      "7507978",
+      "41063205",
+      "41310253",
+      "42310241",
+      "41770959",
+      "41308536",
+      "37214150",
+      "41671138",
+      "41310372",
+      "39233337",
+      "32432709",
+      "39106763",
+      "42084770",
+      "34963687",
+      "36473344",
+      "42101572",
+      "40030860",
+      "41616975",
+      "37011426",
+      "40712735",
+      "41182920",
+      "41237448",
+      "36857953",
+      "39636222",
+      "33784619",
+      "37268858",
+      "38649148",
+      "38228887",
+      "32087466",
+      "37074863",
+      "41693888",
+      "32238879",
+      "41369112",
+      "42253229",
+      "36527335",
+      "41945805",
+      "33126125",
+      "36321557",
+      "42039392",
+      "25952080",
+      "36271964",
+      "27227698",
+      "40384494",
+      "28865461",
+      "40167112",
+      "32480373",
+      "35291028",
+      "40447613",
+      "42384553",
+      "41231551",
+      "40597706",
+      "12452074",
+      "42204783",
+      "29533895",
+      "41188199",
+      "41676162",
+      "32109870",
+      "39982832",
+      "41007195",
+      "39298886",
+      "36764189",
+      "34362386",
+      "38145285",
+      "33936170",
+      "42209541",
+      "41479458",
+      "38325211",
+      "39688088",
+      "26585529",
+      "41693633",
+      "37661840",
+      "24672736",
+      "41186030",
+      "25920325",
+      "38993526",
+      "41638432",
+      "27779153"
+    ],
+    "review": [
+      "41690144",
+      "38228887",
+      "36321557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0895-6111(26)00026-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pituitarytumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pituitary Tumors"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0895-6111(26)00026-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

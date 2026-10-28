@@ -1,0 +1,539 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.27.489756",
+  "title": "Molecular docking, simulation and binding free energy analysis of small molecules as <i>Pf</i> HT1 inhibitors",
+  "doi": "10.1101/2022.04.27.489756",
+  "abstract": "Malaria chemotherapy has been plagued by parasite resistance. Novel drugs must be continually explored for malaria treatment. Plasmodium falciparum requires host glucose for survival and proliferation. Protein involved in hexose permeation, P. falciparum hexose transporter 1 ( Pf HT1) is a potential drug target. We performed high throughput virtual screening of 21,352 small-molecule compounds against Pf HT1. The stability of the lead compound complexes was evaluated via molecular dynamics (MD) simulation for 100 nanoseconds. We also investigated the pharmacodynamic, pharmacokinetic and physiological characteristics of the compounds in accordance with Lipinksi rules for drug-likeness to bind and inhibit Pf HT1. Molecular docking and free binding energy analyses were carried out using Molecular Mechanics with Generalised Born and Surface Area (MMGBSA) solvation to determine the selectivity of the hit compounds for Pf HT1 over the human glucose transporter (hGLUT1) orthologue. Five important compounds were identified: Hyperoside (CID5281643); avicularin (CID5490064); sylibin (CID5213); harpagoside (CID5481542) and quercetagetin (CID5281680). The compounds formed intermolecular interaction with the binding pocket of the target via conserved amino acid residues (Val314, Gly183, Thr49, Asn52, Gly183, Ser315, Ser317, and Asn48). The MMGBSA analysis of the complexes yielded high free binding energies. Four (CID5281643, CID5490064, CID5213, and CID5481542) of the identified compounds were found to be stable within the Pf HT1 binding pocket throughout the 100 nanoseconds simulation run time. The four compounds demonstrated higher affinity for Pf HT1 than the human major glucose transporter (hGLUT1). This investigation demonstrates the inhibition potential of sylibin, hyperoside, harpagoside, and avicularin against Pf HT1 receptor. Robust preclinical investigations are required to validate the chemotherapeutic properties of the identified compounds.",
+  "authors": [
+    "Afolabi J. Owoloye",
+    "Funmilayo C. Ligali",
+    "Ojochenemi A. Enejoh",
+    "Adesola Z. Musa",
+    "Oluwagbemiga Aina",
+    "Emmanuel T. Idowu",
+    "Kolapo M. Oyebola"
+  ],
+  "published_date": "2022-04-27",
+  "updated_date": "2022-05-19T12:28:44Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.27.489756",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.27.489756.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            25
+          ]
+        ],
+        "date-time": "2026-07-25T15:42:53Z",
+        "timestamp": 1784994173057,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            27
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 44,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Malaria chemotherapy has been plagued by parasite resistance. Novel drugs must be continually explored for malaria treatment.\n                  <jats:italic>Plasmodium falciparum</jats:italic>\n                  requires host glucose for survival and proliferation. Protein involved in hexose permeation,\n                  <jats:italic>P. falciparum</jats:italic>\n                  hexose transporter 1 (\n                  <jats:italic>Pf</jats:italic>\n                  HT1) is a potential drug target. We performed high throughput virtual screening of 21,352 small-molecule compounds against\n                  <jats:italic>Pf</jats:italic>\n                  HT1. The stability of the lead compound complexes was evaluated via molecular dynamics (MD) simulation for 100 nanoseconds. We also investigated the pharmacodynamic, pharmacokinetic and physiological characteristics of the compounds in accordance with Lipinksi rules for drug-likeness to bind and inhibit\n                  <jats:italic>Pf</jats:italic>\n                  HT1. Molecular docking and free binding energy analyses were carried out using Molecular Mechanics with Generalised Born and Surface Area (MMGBSA) solvation to determine the selectivity of the hit compounds for\n                  <jats:italic>Pf</jats:italic>\n                  HT1 over the human glucose transporter (hGLUT1) orthologue. Five important compounds were identified: Hyperoside (CID5281643); avicularin (CID5490064); sylibin (CID5213); harpagoside (CID5481542) and quercetagetin (CID5281680). The compounds formed intermolecular interaction with the binding pocket of the target via conserved amino acid residues (Val314, Gly183, Thr49, Asn52, Gly183, Ser315, Ser317, and Asn48). The MMGBSA analysis of the complexes yielded high free binding energies. Four (CID5281643, CID5490064, CID5213, and CID5481542) of the identified compounds were found to be stable within the\n                  <jats:italic>Pf</jats:italic>\n                  HT1 binding pocket throughout the 100 nanoseconds simulation run time. The four compounds demonstrated higher affinity for\n                  <jats:italic>Pf</jats:italic>\n                  HT1 than the human major glucose transporter (hGLUT1). This investigation demonstrates the inhibition potential of sylibin, hyperoside, harpagoside, and avicularin against\n                  <jats:italic>Pf</jats:italic>\n                  HT1 receptor. Robust preclinical investigations are required to validate the chemotherapeutic properties of the identified compounds.\n                </jats:p>",
+      "DOI": "10.1101/2022.04.27.489756",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            19
+          ]
+        ],
+        "date-time": "2022-05-19T12:28:44Z",
+        "timestamp": 1652963324000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 9,
+      "title": [
+        "Molecular docking, simulation and binding free energy analysis of small molecules as\n                  <i>Pf</i>\n                  HT1 inhibitors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Afolabi J.",
+          "family": "Owoloye",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Funmilayo C.",
+          "family": "Ligali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ojochenemi A.",
+          "family": "Enejoh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adesola Z.",
+          "family": "Musa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Oluwagbemiga",
+          "family": "Aina",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3269-0598",
+          "authenticated-orcid": false,
+          "given": "Emmanuel T.",
+          "family": "Idowu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1003-2570",
+          "authenticated-orcid": false,
+          "given": "Kolapo M.",
+          "family": "Oyebola",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.1",
+          "unstructured": "WHO. World malaria report 2021. 2021."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fairhurst RM , Dondorp AM. Artemisinin-Resistant Plasmodium falciparum Malaria. Microbiol Spectr. 2016;4(3).",
+          "DOI": "10.1128/microbiolspec.EI10-0013-2016"
+        },
+        {
+          "issue": "4",
+          "key": "2022052006094071000_2022.04.27.489756v1.3",
+          "first-page": "e00019",
+          "volume": "32",
+          "year": "2019",
+          "journal-title": "Plasmodium genomics and genetics: new insights into malaria pathogenesis, drug resistance, epidemiology, and evolution"
+        },
+        {
+          "issue": "16",
+          "key": "2022052006094071000_2022.04.27.489756v1.4",
+          "first-page": "2569",
+          "volume": "284",
+          "year": "2017",
+          "journal-title": "Combating multidrug-resistant Plasmodium falciparum malaria"
+        },
+        {
+          "issue": "3",
+          "key": "2022052006094071000_2022.04.27.489756v1.5",
+          "first-page": "209",
+          "article-title": "Kappe SHJCh, microbe",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "Malaria parasite pre-erythrocytic stage infection: gliding and hiding"
+        },
+        {
+          "issue": "6",
+          "key": "2022052006094071000_2022.04.27.489756v1.6",
+          "first-page": "a025486",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Malaria parasite liver infection and exoerythrocytic biology"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.7",
+          "unstructured": "Saylor KL. Computational Evaluation and Structure-based Design for Potentiation of Nicotine Vaccines: Virginia Tech; 2020."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.8",
+          "first-page": "413",
+          "article-title": "Jha PCJJoMG, Modelling",
+          "volume": "75",
+          "year": "2017",
+          "journal-title": "Multicomplex-based pharmacophore modeling coupled with molecular dynamics simulations: An efficient strategy for the identification of novel inhibitors of PfDHODH"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-1963-z"
+        },
+        {
+          "issue": "2",
+          "key": "2022052006094071000_2022.04.27.489756v1.10",
+          "first-page": "195",
+          "volume": "82",
+          "year": "1996",
+          "journal-title": "Glucose uptake in Plasmodium falciparum-infected erythrocytes is an equilibrative not an active process"
+        },
+        {
+          "issue": "5",
+          "key": "2022052006094071000_2022.04.27.489756v1.11",
+          "first-page": "e0216457",
+          "volume": "14",
+          "year": "2019",
+          "journal-title": "Identification of druggable small molecule antagonists of the Plasmodium falciparum hexose transporter PfHT and assessment of ligand access to the glucose permeation pathway via FLAG-mediated protein engineering"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang J , Yuan Y , Zhao N , Pu D , Tang Q , Zhang S , et al. Orthosteric-allosteric dual inhibitors of PfHT1 as selective antimalarial agents. Proceedings of the National Academy of Sciences of the United States of America. 2021;118(3).",
+          "DOI": "10.1073/pnas.2017749118"
+        },
+        {
+          "issue": "1",
+          "key": "2022052006094071000_2022.04.27.489756v1.13",
+          "first-page": "79",
+          "volume": "67",
+          "year": "1994",
+          "journal-title": "Hexose-monophosphate shunt activity in intact Plasmodium falciparum-infected erythrocytes and in free parasites"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Althoff T , Abramson J. Protein structure reveals how a malaria parasite imports a wide range of sugars. Nature Publishing Group; 2020.",
+          "DOI": "10.1038/d41586-020-00148-8"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.15",
+          "unstructured": "Epik S , LLC, New York, NY, 2021; Impact, Schrödinger, LLC, New York, NY; Prime, Schrödinger, LLC, New York, NY, 2021. Schrödinger Release 2021-4: Protein Preparation Wizard. 2021."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.16",
+          "unstructured": "Maestro SJNY, NY. Llc. 2017."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.17",
+          "unstructured": "LigPrep SJNY, NY. LLC. 2017;2017."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.18",
+          "unstructured": "Epik S , LLC. Schrödinger Release 2021-3: Newyork. 2021."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.19",
+          "unstructured": "Glide MJSd, LLC, New York, NY. 11.1. 012. 2017."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00864"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bowers KJ , Chow DE , Xu H , Dror RO , Eastwood MP , Gregersen BA , et al., editors. Scalable algorithms for molecular dynamics simulations on commodity clusters. SC’06: Proceedings of the 2006 ACM/IEEE Conference on Supercomputing; 2006: IEEE.",
+          "DOI": "10.1145/1188455.1188544"
+        },
+        {
+          "issue": "34",
+          "key": "2022052006094071000_2022.04.27.489756v1.22",
+          "first-page": "3909",
+          "article-title": "Correa Basurto JJCmc",
+          "volume": "23",
+          "year": "2016",
+          "journal-title": "Current tools and methods in molecular dynamics (MD) simulations for drug design"
+        },
+        {
+          "issue": "5",
+          "key": "2022052006094071000_2022.04.27.489756v1.23",
+          "first-page": "4177",
+          "volume": "101",
+          "year": "1994",
+          "journal-title": "Constant pressure molecular dynamics algorithms"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.24",
+          "unstructured": "QikProp SJML , New York, USA. Schrödinger Release 2017. 2017."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0169-409X(00)00129-0"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.etap.2007.08.006"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.27",
+          "first-page": "149",
+          "article-title": "Chemistry",
+          "volume": "107",
+          "year": "2015",
+          "journal-title": "A pulse radiolysis study of hyperoside isolated from Hypericum mysorense"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zheng M , Liu C , Fan Y , Shi DJLAJoP. Involvement of serotonergic system in the antidepressant-like effect of hyperoside from Apocynum venetum leaves. 2012;31.",
+          "DOI": "10.1016/j.phymed.2011.06.029"
+        },
+        {
+          "issue": "1-2",
+          "key": "2022052006094071000_2022.04.27.489756v1.29",
+          "first-page": "97",
+          "volume": "1116",
+          "year": "2006",
+          "journal-title": "Application of high-speed counter-current chromatography coupled with high-performance liquid chromatography–diode array detection for the preparative isolation and purification of hyperoside from Hypericum perforatum with online purity monitoring"
+        },
+        {
+          "issue": "3",
+          "key": "2022052006094071000_2022.04.27.489756v1.30",
+          "first-page": "727",
+          "volume": "8",
+          "year": "2014",
+          "journal-title": "Protective effects of quercetin and hyperoside on renal fibrosis in rats with unilateral ureteral obstruction"
+        },
+        {
+          "issue": "6",
+          "key": "2022052006094071000_2022.04.27.489756v1.31",
+          "first-page": "519",
+          "volume": "42",
+          "year": "2014",
+          "journal-title": "Prophylactic effects of quercetin and hyperoside in a calcium oxalate stone forming rat model"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.32",
+          "unstructured": "Rutz A , Sorokina M , Galgonek J , Mietchen D , Willighagen E , Graham J , et al. Open natural products research: curation and dissemination of biological occurrences of chemical structures through Wikidata. 2021:2021.02. 28.433265."
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jf401154c"
+        },
+        {
+          "issue": "2",
+          "key": "2022052006094071000_2022.04.27.489756v1.34",
+          "first-page": "368",
+          "volume": "76",
+          "year": "2015",
+          "journal-title": "Inhibitory effects of harpagoside on TNF-α-induced pro-inflammatory adipokine expression through PPAR-γ activation in 3T3-L1 adipocytes"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.35",
+          "unstructured": "Pizzorno JE , Murray MT. Textbook of Natural Medicine-E-Book: Elsevier Health Sciences; 2020."
+        },
+        {
+          "issue": "16",
+          "key": "2022052006094071000_2022.04.27.489756v1.36",
+          "first-page": "6249",
+          "article-title": "Sadhukhan SJJoBS, Dynamics",
+          "volume": "39",
+          "year": "2021",
+          "journal-title": "Plant-derived natural polyphenols as potential antiviral drugs against SARS-CoV-2 via RNA-dependent RNA polymerase (RdRp) inhibition: an in-silico analysis"
+        },
+        {
+          "issue": "6",
+          "key": "2022052006094071000_2022.04.27.489756v1.37",
+          "first-page": "2614",
+          "volume": "53",
+          "year": "2016",
+          "journal-title": "In vitro antioxidant, anti-diabetic and antilipemic potentials of quercetagetin extracted from marigold (Tagetes erecta L.) inflorescence residues"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "174",
+          "DOI": "10.1016/j.jmgm.2016.03.015",
+          "article-title": "Docking, QM/MM, and molecular dynamics simulations of the hexose transporter from Plasmodium falciparum (PfHT)",
+          "volume": "66",
+          "year": "2016",
+          "journal-title": "J Mol Graph Model"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0216457"
+        },
+        {
+          "issue": "2",
+          "key": "2022052006094071000_2022.04.27.489756v1.40",
+          "first-page": "198",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "An overview of the Amber biomolecular simulation package"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.41",
+          "first-page": "87",
+          "volume": "334",
+          "year": "2013",
+          "journal-title": "Extra precision docking, free energy calculation and molecular dynamics simulation studies of CDK2 inhibitors"
+        },
+        {
+          "key": "2022052006094071000_2022.04.27.489756v1.42",
+          "first-page": "180",
+          "article-title": "Modelling",
+          "volume": "60",
+          "author": "Azam SSJJoMG",
+          "year": "2015",
+          "journal-title": "Structural and dynamical aspects of Streptococcus gordonii FabH through molecular docking and MD simulations"
+        },
+        {
+          "issue": "7",
+          "key": "2022052006094071000_2022.04.27.489756v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "3060",
+          "DOI": "10.1080/07391102.2020.1844803",
+          "article-title": "Discovery of new promising USP14 inhibitors: computational evaluation of the thumb-palm pocket",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "J Biomol Struct Dyn"
+        },
+        {
+          "issue": "20",
+          "key": "2022052006094071000_2022.04.27.489756v1.44",
+          "first-page": "6237",
+          "volume": "51",
+          "year": "2008",
+          "journal-title": "Target flexibility: an emerging consideration in drug discovery and design"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.27.489756",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:58:13Z",
+        "timestamp": 1768445893000
+      },
+      "score": 77.55954,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.27.489756"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            27
+          ]
+        ]
+      },
+      "references-count": 44,
+      "URL": "https://doi.org/10.1101/2022.04.27.489756",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pone.0268269",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

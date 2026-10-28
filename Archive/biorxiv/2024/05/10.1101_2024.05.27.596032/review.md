@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, data availability, funding, acknowledgements)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and conclusions as presented in the provided manuscript text. No supplementary figures or tables were available for direct inspection.
+- **Shared manuscript claim summary** The authors report that NrdR repressors from four bacterial species bind optimally to DNA when the two NrdR boxes are separated by an integer number of DNA helical turns, corresponding to spacer lengths of 14-17 bp (short) or 24-27 bp (long). They further report that binding is weakest at intermediate spacer lengths, particularly around 20 bp, and that these in vitro findings are corroborated by in vivo reporter assays in E. coli.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (plasmids, protein purification, MST, SEC, promoter activity assay, bioinformatics), Results (binding to native promoters, spacer length effects, in vivo confirmation), Discussion, Data availability, Funding, Acknowledgements. References to supplementary figures and tables are made but their contents were not provided.
+- **Missing materials affecting confidence** Supplementary figures 1-9, supplementary tables 1-4, all primary MST binding curves, SEC chromatograms, raw fluorescence data from reporter assays, and the bioinformatics dataset underlying Table 5. Without these, quantitative claims regarding KD values and their statistical significance cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a focused and mechanistically interesting question: how the spacing between two NrdR repressor binding sites influences DNA binding affinity across diverse bacterial species. The experimental approach combining in vitro MST binding assays with in vivo reporter measurements is appropriate and the conclusions are generally consistent with the data as described. However, several technical details and interpretive claims require clarification or additional support before the central conclusion can be fully accepted. The claim that optimal binding corresponds to an integer number of DNA turns is plausible and well-aligned with structural expectations, but the quantitative evidence presented in the text is incomplete, and the statistical treatment of the data is not described. The manuscript would benefit from a more rigorous presentation of the binding data, including error analysis and a clearer definition of what constitutes "good" versus "poor" binding.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in bacteria, particularly those interested in DNA-binding protein specificity, promoter architecture, and the role of DNA topology in gene regulation. The work also has relevance for those studying ribonucleotide reductase regulation and the development of antimicrobial strategies targeting NrdR. The comparative approach across four bacterial species from different phyla broadens the appeal to evolutionary biologists studying regulatory network conservation.
+- **Major strengths** The study addresses a previously underappreciated aspect of NrdR-DNA interactions, namely the role of spacer length in binding site recognition. The use of a systematic series of synthetic DNA fragments with varying spacer lengths is a clean and informative design. The inclusion of four NrdR orthologs from different bacterial phyla strengthens the generality of the conclusions. The combination of in vitro and in vivo approaches provides complementary evidence. The observation that SpnNrdR binds more strongly to heterologous short-spacer sites than to its own long-spacer native sites is intriguing and raises interesting questions about the in vivo relevance of the long spacer in Streptococcus pneumoniae.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of quantitative binding data
+  - **Claim pointer** The authors report specific KD values for NrdR binding to synthetic DNA fragments with different spacer lengths, and state that binding to non-optimal spacers is "two orders of magnitude less efficient" and that SpnNrdR binds "approximately 10 times stronger" to short-spacer sites.
+  - **Evidence pointer** Results section, Tables 1-3 and 6, Supplementary figures 2-3 and 5-9 (not provided)
+  - **Concern** The manuscript text provides KD values in the tables but does not describe how these values were derived from the MST data, what fitting model was used, how many independent replicates were performed, or what the associated errors are. The statement that binding is "two orders of magnitude less efficient" for non-optimal spacers is not accompanied by a statistical comparison. Without this information, the reliability of the reported KD differences cannot be assessed.
+  - **Why it matters** The central conclusion of the manuscript, that spacer length determines binding affinity in a periodic manner, rests entirely on the accuracy and reproducibility of the KD measurements. If the errors are large or the fitting is unreliable, the observed differences may not be significant.
+  - **Resolution test** Provide a detailed description of the MST data analysis, including the fitting model, the number of replicates, and the standard errors or confidence intervals for each reported KD. Perform and report appropriate statistical tests comparing binding affinities across spacer lengths.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of in vivo data
+  - **Claim pointer** The authors state that "our in vivo results are in good agreement with the in vitro results" and that the reporter is "efficiently repressed" at spacer lengths of 15-17 bp and 26±1 bp, but "derepressed" at 14 bp and shorter or 18-24 bp.
+  - **Evidence pointer** Results section, Figure 6 (not provided)
+  - **Concern** The in vivo reporter assay is described only qualitatively. No quantitative fluorescence values, normalization details, or statistical comparisons are provided in the text. The claim of "good agreement" between in vitro and in vivo data cannot be evaluated without seeing the actual data and the criteria used to define "repressed" versus "derepressed."
+  - **Why it matters** The in vivo experiments are presented as confirmation of the in vitro findings. If the in vivo data are noisy or the differences are small, the confirmation is weak. Conversely, if the in vivo data show repression at all spacer lengths, the interpretation of spacer length as a critical determinant of binding may need to be nuanced.
+  - **Resolution test** Provide quantitative fluorescence data for all reporter constructs, including the mutant control, with appropriate normalization and statistical analysis. Clearly define the threshold for "repressed" versus "derepressed" and show that the differences between spacer lengths are statistically significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors conclude that "NrdR repressors bind most efficiently when there is an integer number of DNA turns between the center of the two NrdR boxes" and suggest this is a general feature of NrdR proteins.
+  - **Evidence pointer** Discussion section
+  - **Concern** The study tests four NrdR proteins, but only one set of synthetic DNA sequences is used, based on a consensus NrdR box. It is unclear whether the observed spacer length preference is influenced by the specific flanking sequences or the exact box sequence used. Additionally, the in vivo experiments are only performed in E. coli with the E. coli promoter, which may not reflect the behavior of the other NrdR proteins in their native contexts.
+  - **Why it matters** The conclusion of generality is important for the broader relevance of the work. If the spacer length preference is context-dependent, the conclusions would need to be tempered.
+  - **Resolution test** Discuss the potential influence of flanking sequence context on spacer length preference. If possible, test at least one additional sequence context or acknowledge this limitation explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of bioinformatics methods
+  - **Affected element** Bioinformatics section
+  - **Evidence pointer** Materials and Methods, Bioinformatics
+  - **Issue** The regular expression used to identify NrdR boxes is described but the specific pattern is not given. The criteria for defining "short" and "long" spacers are stated, but the rationale for these cutoffs is not explained.
+  - **Required correction** Provide the full regular expression and justify the choice of spacer length cutoffs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of protein purification description
+  - **Affected element** Protein purification section
+  - **Evidence pointer** Materials and Methods, Protein expression and purification
+  - **Issue** The text states that HIC was used to remove bound nucleotides from LmoNrdR, but no information is given about the efficiency of this step or whether similar treatment was applied to the other NrdR proteins.
+  - **Required correction** Clarify whether all NrdR proteins were subjected to HIC and whether the removal of bound nucleotides was verified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of sequence identity data
+  - **Affected element** Results section, Supplementary figure 7
+  - **Evidence pointer** Results section, "To find out if this relaxed dependence on spacer length is specific for LmoNrdR and SpnNrdR or a general feature of other NrdRs"
+  - **Issue** The authors mention that the four NrdR proteins have 39-52% sequence identity, but this information is only in the text and not shown in a figure or table. A sequence alignment or identity matrix would be helpful.
+  - **Required correction** Include a supplementary figure showing the sequence alignment or a table of pairwise sequence identities.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative interpretations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, paragraph on spacer length and DNA topology
+  - **Issue** The authors speculate that DNA supercoiling may influence NrdR binding, but this is not tested experimentally. The discussion would benefit from a more explicit acknowledgment of this as a hypothesis rather than a conclusion.
+  - **Required correction** Rephrase the relevant sentences to clearly distinguish speculation from experimentally supported conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative basis for the central claim (spacer length determines binding affinity) and its in vivo confirmation must be fully documented and statistically validated. Without this, the case is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of spacer length requirements for NrdR binding is relatively unexplored, and the systematic approach across multiple species adds a novel dimension. However, the concept that protein-DNA binding depends on helical phasing is well established in other systems, so the conceptual novelty is moderate.
+  - Scientific importance: The work has implications for understanding NrdR-mediated regulation of ribonucleotide reductase, which is a validated antimicrobial target. The findings could inform predictions of NrdR binding sites in bacterial genomes. However, the direct therapeutic or translational impact is not demonstrated.
+  - Interdisciplinary readership: The topic is primarily of interest to microbiologists, molecular biologists, and biochemists. The broader appeal to structural biologists or biophysicists is limited unless the structural basis of spacer length tolerance is explored.
+  - Technical soundness: The experimental design is generally sound, but the lack of detailed quantitative analysis and statistical treatment is a significant weakness. The MST and in vivo data must be presented with full rigor.
+  - Readability for nonspecialists: The manuscript is clearly written and the concepts are accessible. The introduction and discussion provide sufficient context for readers unfamiliar with NrdR biology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the experimental approach is appropriate, but the manuscript in its current form does not provide sufficient quantitative evidence to fully support the central claims. A revised version with complete data presentation, statistical analysis, and a more nuanced discussion of limitations could be suitable for publication.
+
+## Risk / unsupported claims
+- The claim that "all four NrdR proteins bound well to NrdR boxes separated by 14-17 bp, and also to NrdR boxes separated by 24-27 bp" is not fully supported by the data presented in the text, as the KD values for the long spacers are only shown for EcoNrdR and are described as "two-fold higher" than for short spacers, while for other proteins the long-spacer binding is described as much weaker.
+- The statement that "the worst binding occurred when NrdR boxes were separated by 20 bp" is presented without quantitative support or statistical comparison.
+- The conclusion that "NrdR repressors bind most efficiently when there is an integer number of DNA turns between the center of the two NrdR boxes" is an interpretation that goes beyond the direct data, as the authors do not measure DNA topology or directly demonstrate helical phasing.
+- The speculation that DNA supercoiling may modulate NrdR binding and that this could serve as an environmental sensor is presented without experimental evidence.
+- The claim that "the presence of the Fur repressor in close proximity to this operon's binding site may also contribute to repression in vivo" is speculative and not tested.

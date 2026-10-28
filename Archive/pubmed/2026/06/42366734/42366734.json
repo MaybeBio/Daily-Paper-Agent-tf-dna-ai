@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "42366734",
+    "doi": "10.1002/bit.70279",
+    "title": "Minimizing Off-Target Effects of CRISPR-Cas9 With Optimized sgRNA: Evaluation of Efficiency and Specificity in the Tumor Protein 53 (TP53) Region."
+  },
+  "content": {
+    "abstract": "CRISPR-Cas9 is a widely used genetic tool with therapeutic potential in molecular biology. CRISPR-Cas9 enables precise genome editing by its ability to target specific DNA sequence. After off-target and on-target regions are identified, CRISPR-Cas9 is applied to these regions based on the match between the guide RNA (gRNA) and target DNA sequence. This study points to the off-target impact of mismatches between the gRNA and target DNA on exon regions of the TP53 gene, which are involved in regulating multiple genes and cellular functions. Off-target positions are typically evaluated using scoring methods. In this study, we have used latent class analysis to reveal subclasses of off-target positions. Thus, we have created the levels of off-target positions and evaluated the effects of mismatching positions within these classes using machine learning classifiers. The results revealed that mismatching positions could be categorized into three levels: low, middle, and high off-target positions. We have improved a computational framework to minimize off-target effects and to identify the PAM sequences in the gRNA design. Thus, carefully designed gRNAs will ensure that desired genetic edits are performed and target variants are achieved. This work will avail the future research aimed at optimizing genome editing by customizing CRISPR-Cas9 to target specific protospacer DNA through gRNA.",
+    "keywords": [
+      "CRISPR",
+      "latent class analysis",
+      "levels of off-target",
+      "machine learning",
+      "tumor protein 53"
+    ],
+    "mesh_terms": [
+      "*CRISPR-Cas Systems",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*RNA, Guide, CRISPR-Cas Systems/genetics",
+      "Humans",
+      "*Gene Editing/methods",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kose, Ali Mertcan",
+        "Ranalli, Monia",
+        "Trivanovic, Drenka",
+        "Maslovaric, Irina"
+      ],
+      "short_names": [
+        "Kose AM",
+        "Ranalli M",
+        "Trivanovic D",
+        "Maslovaric I"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5464-9441",
+        "ORCID: 0000-0001-7193-8803",
+        "ORCID: 0000-0001-7041-3917",
+        "ORCID: 0000-0003-0892-5617"
+      ],
+      "affiliations": [
+        "Department of Statistics, Suleyman Demirel University, Isparta, Turkey.",
+        "Department of Statistics, Sapienza University, Rome, Italy.",
+        "Institute for Medical Research, University of Belgrade, National Institute of the Republic of Serbia, Belgrade, Serbia.",
+        "Institute for Medical Research, University of Belgrade, National Institute of the Republic of Serbia, Belgrade, Serbia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Köse, Ali Mertcan",
+        "short_name": "Köse AM",
+        "identifiers": [
+          "0000-0002-5464-9441"
+        ],
+        "affiliations": [
+          "Department of Statistics, Suleyman Demirel University, Isparta, Turkey."
+        ]
+      },
+      {
+        "full_name": "Ranalli, Monia",
+        "short_name": "Ranalli M",
+        "identifiers": [
+          "0000-0001-7193-8803"
+        ],
+        "affiliations": [
+          "Department of Statistics, Sapienza University, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Trivanovic, Drenka",
+        "short_name": "Trivanovic D",
+        "identifiers": [
+          "0000-0001-7041-3917"
+        ],
+        "affiliations": [
+          "Institute for Medical Research, University of Belgrade, National Institute of the Republic of Serbia, Belgrade, Serbia."
+        ]
+      },
+      {
+        "full_name": "Maslovaric, Irina",
+        "short_name": "Maslovaric I",
+        "identifiers": [
+          "0000-0003-0892-5617"
+        ],
+        "affiliations": [
+          "Institute for Medical Research, University of Belgrade, National Institute of the Republic of Serbia, Belgrade, Serbia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biotechnology and bioengineering"
+    ],
+    "journal_abbrev": [
+      "Biotechnol Bioeng"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/29 06:30",
+    "fetched_at": "2026-10-02 00:49:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42366734",
+      "31821359",
+      "30367669",
+      "25247697",
+      "28643248",
+      "40004545",
+      "33261648",
+      "31694550",
+      "27866656",
+      "42525385",
+      "39380278",
+      "30369475",
+      "39871553",
+      "32241913",
+      "29019352",
+      "41678668",
+      "32006410",
+      "31198958",
+      "27210042",
+      "29476306",
+      "33346713",
+      "35543560",
+      "38358884",
+      "27185399",
+      "39409191",
+      "35758815",
+      "29219081",
+      "27340770",
+      "41524770",
+      "34549979",
+      "35637227",
+      "38656525",
+      "42310064",
+      "42634480",
+      "29972722",
+      "27574704",
+      "33428725",
+      "31040331",
+      "30894153",
+      "40481308",
+      "32687187",
+      "30043367",
+      "33661348",
+      "42192532",
+      "42261595",
+      "38922052",
+      "36301478",
+      "42309993",
+      "37047235",
+      "38199209",
+      "29229813",
+      "35078987",
+      "40175512",
+      "40273916",
+      "32298599",
+      "34413309",
+      "29771955",
+      "34478654",
+      "35078986",
+      "40401239",
+      "39510079",
+      "32298586",
+      "41051673",
+      "31161741",
+      "29176845",
+      "39037032",
+      "33685601",
+      "36009017",
+      "32643177",
+      "32163387",
+      "31684940",
+      "29192199",
+      "39073893",
+      "41241768",
+      "26582526",
+      "29377001",
+      "31902584",
+      "31601489",
+      "38537809",
+      "37080758",
+      "39091030",
+      "26535798",
+      "32926385",
+      "42029722",
+      "42261185",
+      "34259977",
+      "31658261",
+      "30391232",
+      "39332185",
+      "38212640",
+      "37615574",
+      "41508607",
+      "33509781",
+      "34208669",
+      "32640832",
+      "32441252",
+      "35341983",
+      "34576035",
+      "30871200",
+      "24838573"
+    ],
+    "review": [
+      "42366734",
+      "30369475",
+      "39871553",
+      "32006410",
+      "27210042",
+      "27340770",
+      "41524770",
+      "42634480",
+      "33428725",
+      "42261595",
+      "33685601",
+      "32163387",
+      "41241768",
+      "26582526",
+      "31902584",
+      "37080758",
+      "26535798",
+      "39332185",
+      "33509781",
+      "35341983"
+    ],
+    "pmc": [
+      "13576857"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42366734/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/bit.70279",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

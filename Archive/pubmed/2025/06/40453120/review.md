@@ -1,0 +1,133 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, experimental, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific soundness, technical validity, and support of claims based solely on the supplied text
+- **Shared manuscript claim summary** The authors report synthesis of ten novel dibenzoxepin-11-one derivatives, characterization by NMR, FTIR, HRMS, DFT/TD-DFT analysis, molecular docking against three targets, 50 ns MD simulations, in vitro antimicrobial testing, and ct-DNA binding studies, with compound 7a identified as the most promising lead.
+- **Visible evidence base** Text sections including abstract, introduction, experimental methods, synthesis procedures, DFT, docking, MD simulation, antimicrobial assays, ct-DNA studies, results, and conclusion
+- **Missing materials affecting confidence** Figures, tables, ESI files, spectral data, dose-response curves, statistical analyses, docking scores table (Table S1), ADME tables (Tables S3, S4), and raw simulation data are referenced but not provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a broad synthetic and computational study with potential interest in medicinal chemistry, but several technical inconsistencies, missing data, and overinterpretations weaken the current claims. The synthetic route is plausible, and the antimicrobial and DNA-binding results are promising, yet the evidence base is incomplete and some conclusions exceed what the presented data support.
+- **Who would be interested in the results, and why** Researchers in heterocyclic synthesis, medicinal chemistry, and computational drug design would find interest in the new dibenzoxepinone derivatives and their preliminary biological profiles. The combination of experimental and computational methods may appeal to those seeking multifunctional lead compounds.
+- **Major strengths**
+  - The synthetic route is logical and yields ten derivatives with reasonable reported yields.
+  - The integration of DFT, docking, MD, and in vitro assays provides a multifaceted approach.
+  - Compound 7a shows consistent promise across multiple assays, suggesting a genuine lead candidate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims "ten novel derivatives" were synthesized and characterized, but full characterization data (NMR, HRMS) are only provided for intermediates 3, 4, and compound 7a. Data for 7b–j are relegated to ESI without visible verification.
+  - **Evidence pointer** Synthesis sections for 7a–j; "All these compounds were fully characterized... provided in a ESI file"
+  - **Concern** The claim of ten fully characterized novel compounds cannot be assessed from the supplied text. Without visible spectral or analytical data for each derivative, the synthesis claim is unverifiable.
+  - **Why it matters** The core contribution is the new compounds; incomplete evidence undermines the manuscript's foundation.
+  - **Resolution test** Provide full characterization data (NMR, HRMS, IR) for all ten compounds in the main text or a clearly accessible supplementary file, with key peaks assigned.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states "From in vitro studies, antibacterial activity was assessed for all the synthesized derivatives" and reports MIC values, but the methods section only describes the zone of inhibition test for compound 7a and the RMDA method for all compounds. No MIC values are presented in the visible text.
+  - **Evidence pointer** Antimicrobial sections; "Table 4 and Fig. S29" referenced but not provided
+  - **Concern** The MIC results are claimed but not shown. The conclusion repeats specific MIC values (8 μg ml−1, 16 μg ml−1) that do not appear in the visible results.
+  - **Why it matters** Quantitative antimicrobial activity is a key claim; missing data prevent validation.
+  - **Resolution test** Present MIC data in a main-text table with replicates, standard deviations, and positive/negative controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims "Molecular docking studies revealed favorable binding energies across all targets, with compound 7a exhibiting the highest binding affinities of −9.2 kcal mol−1 with E. coli, −11.0 kcal mol−1 with C. albicans, and −8.1 kcal mol−1 with ct-DNA." However, the docking results section states binding energies range from −6.0 to −9.2 kcal mol−1 for antibacterial, −8.0 to −11.0 for antifungal, and the ct-DNA range is not specified.
+  - **Evidence pointer** Docking sections; "Table S1" referenced but not provided
+  - **Concern** The conclusion states 7a has the highest affinity for all targets, but the visible text does not provide a comparative table of all compounds' binding energies. The ct-DNA docking range is missing entirely.
+  - **Why it matters** The ranking of 7a as best binder is central to the lead identification; without comparative data, this claim is unsupported.
+  - **Resolution test** Provide a complete docking results table (all compounds, all targets) with binding energies and interacting residues.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states "MD simulations were conducted for 50 ns using the most promising compound, 7a, confirming the stability of its binding conformation." The MD section describes simulations with both antibacterial and antifungal proteins, but the results only report RMSD, RMSF, Rg, and hydrogen bond ranges without quantitative comparison to unbound protein or statistical analysis.
+  - **Evidence pointer** MD simulation sections; Figures 14 and 15 referenced but not provided
+  - **Concern** The claim of "stability" is based on qualitative descriptions of RMSD ranges (0.1–0.39 nm, 0.1–0.34 nm) and Rg ranges. No convergence criteria, error bars, or comparison to apo-protein simulations are provided. The hydrogen bond analysis is described but not quantified.
+  - **Why it matters** MD stability claims require quantitative evidence; current descriptions are insufficient to confirm binding stability.
+  - **Resolution test** Provide RMSD/RMSF/Rg plots with error estimates, compare to apo-protein controls, and report time-averaged hydrogen bond numbers.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The ct-DNA binding section claims "The intrinsic binding constant (Kb) was evaluated... mentioned in Table 5" and reports Kb = 3.61 × 105 M−1 for 7a. The UV-visible absorption method is described, but the Benesi–Hildebrand equation is not fully written out, and the fluorescence quenching section reports Ksv = 2.0 × 103 M−1 and Kq = 2.0 × 1011 M−1 s−1.
+  - **Evidence pointer** ct-DNA binding sections; Table 5 referenced but not provided
+  - **Concern** The binding constant and thermodynamic parameters are claimed but not shown in the visible text. The Kq value exceeds the diffusion-controlled limit (typically ~10^10 M−1 s−1), which is not discussed. The manuscript states Ksv suggests non-intercalative binding but does not compare to known intercalator values.
+  - **Why it matters** DNA binding affinity is a major claim; missing data and an unexplained high Kq value raise concerns about interpretation.
+  - **Resolution test** Provide the full Benesi–Hildebrand plot, Kb values for all tested compounds, and discuss the Kq value in context of static vs. dynamic quenching.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The synthesis of compound 4 reports "FeCl2 formed the product in 90% yield while CeCl3 formed the product in 65% only," but the experimental section states "1.5 mmol of anhydrous FeCl2 or anhydrous CeCl3" without specifying which catalyst was used for the reported 70% yield.
+  - **Evidence pointer** Synthesis section for compound 4
+  - **Concern** The yield discrepancy (90% vs 70%) and catalyst ambiguity create confusion. The text mentions FeCl2 in the mechanism but the experimental description is unclear.
+  - **Why it matters** Reproducibility of the key intermediate synthesis is essential.
+  - **Resolution test** Clarify which catalyst was used for the reported yield and reconcile the discrepancy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "PDB IDs:IKZN" typo
+  - **Issue** The PDB ID is written as "IKZN" in the abstract but "1KZN" elsewhere.
+  - **Required correction** Correct the typo to "1KZN" in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Antimicrobial methods section
+  - **Issue** The zone of inhibition method is described only for compound 7a, but the abstract claims antibacterial activity was assessed for all derivatives.
+  - **Required correction** Clarify whether zone of inhibition was performed for all compounds or only 7a, and align with the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results
+  - **Evidence pointer** Docking results section
+  - **Issue** The text states "range between −6.0 to 9.2 kcal mol−1" for antibacterial docking, but the sign is missing for the upper bound.
+  - **Required correction** Correct to "−6.0 to −9.2 kcal mol−1".
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** MD simulation
+  - **Evidence pointer** MD simulation section
+  - **Issue** The text mentions "the Macro model" in the velocity-Verlet description, which is unclear and likely a typo.
+  - **Required correction** Clarify or remove the reference to "Macro model".
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** DFT section
+  - **Evidence pointer** DFT study section
+  - **Issue** The DFT section mentions PES analysis and vibrational analysis for 7a only, but the abstract implies DFT was performed for the lead compound. It is unclear if DFT was done for all derivatives.
+  - **Required correction** State explicitly which compounds were subjected to DFT calculations.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** ct-DNA binding
+  - **Evidence pointer** ct-DNA binding section
+  - **Issue** The Benesi–Hildebrand equation is referenced but not written out, and the plot is not shown.
+  - **Required correction** Include the equation and a representative plot in the main text or supplementary.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Incomplete characterization data for compounds 7b–j
+  - R1-M2: Missing MIC data table
+  - R1-M3: Missing comparative docking results table
+  - R1-M4: Insufficient MD simulation evidence for stability claims
+  - R1-M5: Missing ct-DNA binding data and unexplained Kq value
+- **Assessment against Nature-style criteria**
+  - Originality: Moderate. The dibenzoxepinone scaffold is known, and the synthetic approach is incremental. The combination of assays is not conceptually new.
+  - Scientific importance: Limited at present. The biological results are preliminary, and no mechanism of action is established beyond binding affinity estimates.
+  - Interdisciplinary readership: The work spans synthesis, computational chemistry, and microbiology, but the depth in each area is insufficient to attract a broad audience.
+  - Technical soundness: Currently inadequate due to missing data and inconsistencies described above.
+  - Readability for nonspecialists: The text is generally readable but contains jargon and incomplete method details that hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the missing data and technical issues must be resolved before the claims can be evaluated. Supportive if technical concerns are addressed with complete datasets and clarified methods.
+
+## Risk / unsupported claims
+- "Ten novel derivatives" cannot be verified without full characterization data for all compounds.
+- Specific MIC values (8 μg ml−1, 16 μg ml−1) are claimed but not shown in the visible text.
+- "Compound 7a exhibited the highest binding affinities" is unsupported without a comparative docking table.
+- "MD simulations confirmed stability" is an overstatement given the qualitative nature of the reported analysis.
+- "Compound 7a demonstrated the strongest binding affinity" for ct-DNA is unsupported without Kb values for other compounds.
+- The claim that all compounds "behave as orally active drug" is based on in silico predictions only and is not validated experimentally.

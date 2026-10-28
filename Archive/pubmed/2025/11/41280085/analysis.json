@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41280085",
+  "title": "Natural variation in regulatory code revealed through Bayesian analysis of plant pan-genomes and pan-transcriptomes.",
+  "authors": "Wei, Wei; Wu, Xing; Sutherland, Chandler A; Lin, Yuting; Lunde, China; Exposito-Alonso, Moises; Krasileva, Ksenia",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用贝叶斯k-mer框架从植物泛基因组和泛转录组中鉴定顺式调控元件，虽涉及TF结合位点预测但无三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Understanding the genetic code of cis-regulatory elements (CREs) is essential for engineering gene expression and modulating agronomic traits in crops. In plants, CREs underlying rapid evolution of gene expression often overlap with structural variation in promoters, making them undetectable using single-reference genomes. Here, we develop K-PROB (K-mer-based in silico PROmoter Bashing), a computational tool that learns from intraspecies promoter sequence and gene expression variation in pan-genomes and pan-transcriptomes to identify CREs controlling gene expression. K-PROB deploys a k-mer-based Bayesian variable selection framework to prioritize causal variable identification. We demonstrate the effectiveness of our approach in maize and soybean, two staple crops species. Applying K-PROB to genes with the most highly variable promoter sequences and the most diverse patterns of expression, such as nucleotide-binding leucine-rich repeat receptors, we identified k-mers enriched for bona fide transcription factor binding sequences, and overlapping with open chromatin regions and DAP-seq binding sites. Notably, multiple significant k-mers are located within presence/absence structural variants, highlighting structural variation in promoters as key drivers of transcriptional diversity of highly variable genes. We further validated the regulatory effects of identified k-mers on gene expression using luciferase reporter assays. Our results showcase a high-throughput and pangenomic approach for probing natural intraspecies cis-regulatory diversity, discovering new causative cis-elements, and facilitating future expression engineering across plant species.",
+  "abstract_zh": "理解顺式调控元件（cis-regulatory elements, CREs）的遗传密码对于工程化基因表达和调控作物农艺性状至关重要。在植物中，支撑基因表达快速进化的CREs常与启动子中的结构变异重叠，使其无法通过单一参考基因组检测。在此，我们开发了K-PROB（基于k-mer的计算机模拟启动子敲除，K-mer-based in silico PROmoter Bashing），这是一种计算工具，利用泛基因组和泛转录组中种内启动子序列及基因表达变异来识别控制基因表达的CREs。K-PROB采用基于k-mer的贝叶斯变量选择框架，优先识别因果变量。我们在玉米和大豆这两种主要作物物种中展示了该方法的有效性。将K-PROB应用于启动子序列变异最大且表达模式最多样化的基因，如核苷酸结合富亮氨酸重复受体（nucleotide-binding leucine-rich repeat receptors），我们识别出富含真实转录因子结合序列的k-mers，并与开放染色质区域和DAP-seq结合位点重叠。值得注意的是，多个显著k-mers位于存在/缺失结构变异内，突显启动子中的结构变异是高变异基因转录多样性的关键驱动因素。我们进一步通过荧光素酶报告基因实验验证了所识别k-mers对基因表达的调控效应。我们的结果展示了一种高通量且泛基因组的方法，用于探测自然种内顺式调控多样性、发现新的因果顺式元件，并促进未来跨植物物种的表达工程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41280085/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41280085/",
+  "paper_page_path": "papers/pubmed/41280085/index.html"
+}

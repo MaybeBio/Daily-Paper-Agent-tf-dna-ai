@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational and structural analysis of rice WRKY13 transcription factor binding to promoter motifs of downstream disease resistance-related genes, using promoter sequence scanning, Gene Ontology and gene set enrichment analysis, cis-element analysis, 3D structure prediction, docking, molecular dynamics simulations, expression data, and co-expression network analysis. They propose downstream target genes regulated by WRKY13 and a molecular mechanism for disease resistance against rice fungal pathogens.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical measures, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, expression datasets, and docking/MD simulation parameters
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad computational pipeline aimed at identifying WRKY13 target genes in rice and characterizing their interactions. The topic is relevant to plant immunity and transcriptional regulation. However, the abstract lacks quantitative results, validation of computational predictions, and experimental confirmation. The claims of downstream target gene regulation and molecular mechanism are not supported by the evidence presented in the abstract. The work appears to be largely computational and predictive, and the abstract does not demonstrate that the identified genes are bona fide WRKY13 targets or that the proposed mechanism is functionally validated.
+- **Who would be interested in the results, and why** Researchers in plant molecular biology, particularly those studying transcription factor-mediated disease resistance in rice and other crops. The computational approach for promoter motif scanning and target prediction may interest bioinformaticians working on gene regulatory networks. However, the lack of experimental validation limits the appeal to a broader plant science audience.
+- **Major strengths** The abstract addresses a relevant biological question regarding WRKY13-mediated regulation of disease resistance genes. The pipeline integrates multiple computational methods, including promoter analysis, structure prediction, docking, and molecular dynamics, which could provide a comprehensive in silico framework. The focus on rice, a major crop, adds practical relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that WRKY13 regulates downstream disease resistance-related genes and that a molecular mechanism is explored.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides no quantitative or statistical evidence that the identified genes are regulated by WRKY13. No binding affinity values, expression fold changes, or functional validation are reported. The claim of regulation is inferred solely from computational predictions.  
+  - **Why it matters** Without experimental validation, such as chromatin immunoprecipitation, electrophoretic mobility shift assays, or transgenic overexpression or knockdown studies, the claim of regulation remains speculative. The abstract does not establish a causal link between WRKY13 binding and gene expression changes.  
+  - **Resolution test** Provide experimental evidence of WRKY13 binding to the identified promoters and demonstrate that WRKY13 modulates the expression of these genes in vivo.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract states that 55,986 promoter sequences were analyzed using a Perl program algorithm to detect WRKY13 binding motifs.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not describe the motif definition, the algorithm's validation, or the criteria for selecting genes with more than four binding motifs. The selection of ten genes is not justified beyond a statement of prior reports of disease resistance roles.  
+  - **Why it matters** The reproducibility and reliability of the entire pipeline depend on the motif detection method and gene selection criteria. Without these details, the reader cannot assess whether the identified targets are biologically meaningful or an artifact of the algorithm.  
+  - **Resolution test** Describe the motif model, the algorithm's sensitivity and specificity, and provide a clear rationale for gene selection thresholds.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The abstract claims that molecular dynamic simulations provided details regarding interactions and that expression data revealed the mechanism of interaction.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No simulation parameters, convergence criteria, or interaction stability metrics are reported. The expression data are not described in terms of experimental conditions, tissue types, or statistical significance. The co-expression network is mentioned without any network metrics or validation.  
+  - **Why it matters** These methods are central to the proposed mechanism, but the abstract provides no evidence that the simulations were robust or that the expression data are meaningful. The claims are therefore unverifiable from the supplied material.  
+  - **Resolution test** Provide simulation validation metrics, expression data with statistical analysis, and network significance measures.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scope of conclusion  
+  - **Claim pointer** The abstract concludes that the study suggests downstream target genes regulated by WRKY13 and explores the molecular mechanism in disease resistance against rice fungal pathogens.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not include any phenotypic or pathogen challenge data. The link between WRKY13, the identified genes, and actual disease resistance is not demonstrated.  
+  - **Why it matters** The title and conclusion imply a functional role in disease resistance, but the abstract provides no evidence that the proposed targets affect resistance to fungal pathogens. This overreach is not supported by the presented data.  
+  - **Resolution test** Include pathogen infection assays or genetic evidence linking WRKY13 and its targets to disease resistance phenotypes.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The phrase "WRKY13 was considered for docking analysis based on the prior reports of autoregulation" is unclear. It is not explained how autoregulation justifies the choice of WRKY13 for docking.  
+  - **Required correction** Clarify the rationale for selecting WRKY13, or remove the reference to autoregulation if it is not directly relevant.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Gene selection  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract states that ten genes were selected for further analysis but does not list them or describe their known functions.  
+  - **Required correction** Provide the gene names and a brief description of their reported roles in disease resistance.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "TF bm" abbreviation  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abbreviation "TF bm" is used without definition.  
+  - **Required correction** Define the abbreviation at first use, for example, "transcription factor binding motifs (TF bm)."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The core claims of target gene regulation and disease resistance mechanism are not established from the abstract alone. The computational pipeline lacks validation, and no experimental data are presented.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of promoter scanning, structure prediction, docking, and molecular dynamics for WRKY13 target identification is not novel in concept, as similar in silico approaches are common in plant transcription factor studies. The abstract does not present a new biological principle or unexpected finding.  
+  - **Scientific importance** The topic is of interest to plant pathologists and molecular biologists, but the abstract does not demonstrate a significant advance in understanding WRKY13 function or disease resistance mechanisms. The findings are predictive and lack functional validation.  
+  - **Interdisciplinary readership** The work may appeal to computational biologists and plant scientists, but the abstract is unlikely to attract a broad interdisciplinary audience due to the lack of generalizable insights or methodological innovation.  
+  - **Technical soundness** The abstract does not provide sufficient methodological detail to assess technical soundness. The absence of validation metrics for motif detection, docking, and simulations is a major concern.  
+  - **Readability for nonspecialists** The abstract is written in a straightforward manner, but the lack of context for the computational methods and the absence of results make it difficult for nonspecialists to appreciate the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a computational pipeline without experimental validation or quantitative results. The claims of regulation and mechanism are unsupported. The manuscript may be reconsidered if the full text provides robust validation, but based on the abstract alone, the case is not made.
+
+## Risk / unsupported claims
+- The claim that WRKY13 regulates downstream disease resistance-related genes is unsupported without experimental binding and expression data.
+- The claim that a molecular mechanism for disease resistance against fungal pathogens is explored is unsupported without phenotypic or pathogen challenge data.
+- The claim that molecular dynamic simulations provided details regarding interactions is unverifiable without simulation parameters and stability metrics.
+- The claim that expression data revealed the mechanism of interaction is unsupported without description of experimental conditions or statistical analysis.
+- The selection of ten genes as WRKY13 targets is not justified beyond a general statement of prior disease resistance roles.

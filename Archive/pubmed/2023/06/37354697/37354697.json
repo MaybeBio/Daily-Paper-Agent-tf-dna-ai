@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "37354697",
+    "doi": "10.1016/j.phymed.2023.154939",
+    "title": "Identification of Andrographolide as a novel FABP4 inhibitor for osteoarthritis treatment."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND PURPOSE: Fatty acid binding protein 4 (FABP4) has been identified as a contributor to cartilage degradation in osteoarthritis (OA) patients, and inhibiting FABP4 using small molecules has emerged as a promising approach for developing OA drugs. Our previous research showed that Andrographis paniculata, a medicinal plant, strongly inhibits FABP4 activity. This led us to hypothesize that Andrographis paniculata ingredients might have protective effects on OA cartilage through FABP4 inhibition. METHODS: We analyzed scRNA-seq data from joint tissue of OA patients (GSE152805; GSE145286) using Scanpy 1.9.1 and Single Cell Portal. We conducted docking analysis of FABP4 inhibitors using Autodock Vina v.1.0.2. We evaluated the anti-FABP4 activity using a fluorescence displacement assay and measured the fatty acid oxidation (FAO) activity using the FAOBlue assay. We used H(2)DCF-DA to measure reactive oxygen species (ROS) levels. We studied signaling pathways using bulk RNA sequencing and western blot analysis in human C28/I2 chondrocytes. We evaluated anti-OA activity in monosodium iodoacetate (MIA)-induced rats. RESULTS: We identified Andrographolide (AP) as a novel FABP4 inhibitor. Bulk RNA-sequencing analysis revealed that FABP4 upregulated FAO and ROS in chondrocytes, which was inhibited by AP. ROS generation activated the NF-kappaB pathway, leading to overexpression of a disintegrin and metalloproteinase with thrombospondin motifs 4 (ADAMTS4), which is a responsible factor for cartilage degradation in OA patients. AP inhibited FABP4, thereby reducing the overexpression of ADAMTS4 by inhibiting the NF-kappaB pathway. In MIA rats, AP treatment reduced the overexpression of ADAMTS4, repaired cartilage and subchondral bone, and promoted cartilage regeneration. CONCLUSION: Our results indicate that the inhibition of FABP4 activity by AP explains the anti-OA properties of Andrographis paniculata by protecting against cartilage degradation in OA patients. Additionally, our findings suggest that AP may be a promising therapeutic agent for OA treatment due to its ability to alleviate cartilage damage and bone erosion.",
+    "keywords": [
+      "A disintegrin and metalloproteinase with thrombospondin motifs 4",
+      "Andrographolide",
+      "Cartilage degradation",
+      "Fatty acid binding protein 4",
+      "Osteoarthritis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Rats",
+      "Animals",
+      "NF-kappa B/metabolism",
+      "Reactive Oxygen Species/metabolism",
+      "*Osteoarthritis/metabolism",
+      "*Cartilage, Articular",
+      "Fatty Acid-Binding Proteins/genetics/metabolism/pharmacology",
+      "Diterpenes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Kuangyang",
+        "Xie, Qian",
+        "Liang, Jianhui",
+        "Shen, Yanni",
+        "Li, Ziqi",
+        "Zhao, Na",
+        "Wu, Yuanyan",
+        "Liu, Lichu",
+        "Zhang, Peng",
+        "Hu, Chun",
+        "Chen, Lei",
+        "Wang, Yan"
+      ],
+      "short_names": [
+        "Yang K",
+        "Xie Q",
+        "Liang J",
+        "Shen Y",
+        "Li Z",
+        "Zhao N",
+        "Wu Y",
+        "Liu L",
+        "Zhang P",
+        "Hu C",
+        "Chen L",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Foshan Hospital of Traditional Chinese Medicine, Institute of Orthopedics and Traumatology, Foshan 528000, China.",
+        "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China; Department of Orthopaedics, Shenzhen University General Hospital, Shenzhen 518055, China.",
+        "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China.",
+        "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China; Key Laboratory of Structure-Based Drug Design & Discovery, Ministry of Education, Shenyang Pharmaceutical University, Shenyang 110016, China.",
+        "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China.",
+        "Foshan Hospital of Traditional Chinese Medicine, Institute of Orthopedics and Traumatology, Foshan 528000, China.",
+        "Foshan Hospital of Traditional Chinese Medicine, Institute of Orthopedics and Traumatology, Foshan 528000, China.",
+        "Foshan Hospital of Traditional Chinese Medicine, Institute of Orthopedics and Traumatology, Foshan 528000, China.",
+        "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China.",
+        "Key Laboratory of Structure-Based Drug Design & Discovery, Ministry of Education, Shenyang Pharmaceutical University, Shenyang 110016, China.",
+        "School of Life Science and Technology, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing 210096, China.",
+        "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China. Electronic address: yan.wang@siat.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Kuangyang",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "Foshan Hospital of Traditional Chinese Medicine, Institute of Orthopedics and Traumatology, Foshan 528000, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Qian",
+        "short_name": "Xie Q",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China; Department of Orthopaedics, Shenzhen University General Hospital, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Jianhui",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yanni",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China; Key Laboratory of Structure-Based Drug Design & Discovery, Ministry of Education, Shenyang Pharmaceutical University, Shenyang 110016, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ziqi",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Na",
+        "short_name": "Zhao N",
+        "identifiers": [],
+        "affiliations": [
+          "Foshan Hospital of Traditional Chinese Medicine, Institute of Orthopedics and Traumatology, Foshan 528000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yuanyan",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Foshan Hospital of Traditional Chinese Medicine, Institute of Orthopedics and Traumatology, Foshan 528000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lichu",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Foshan Hospital of Traditional Chinese Medicine, Institute of Orthopedics and Traumatology, Foshan 528000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Chun",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Structure-Based Drug Design & Discovery, Ministry of Education, Shenyang Pharmaceutical University, Shenyang 110016, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lei",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing 210096, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Translation Medicine Research and Development, Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, Shenzhen 518055, China. Electronic address: yan.wang@siat.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/25 01:08",
+    "fetched_at": "2026-09-29 02:39:11"
+  },
+  "links": {
+    "cites": [
+      "41939708",
+      "41708706",
+      "41683732",
+      "41575628",
+      "41560017",
+      "41384366",
+      "40995602",
+      "40884029",
+      "40708540",
+      "40514623",
+      "40360512",
+      "40104642",
+      "40090836",
+      "39886385",
+      "39466361",
+      "39280613",
+      "39223664"
+    ],
+    "refs": [],
+    "similar": [
+      "37354697",
+      "36403512",
+      "37031825",
+      "36508923",
+      "38095503",
+      "27748894",
+      "34651666",
+      "33456343",
+      "29890416",
+      "33532039",
+      "31752825",
+      "36348189",
+      "27082728",
+      "36893673",
+      "29549054",
+      "31364869",
+      "28852776",
+      "31563117",
+      "36387933",
+      "36045373",
+      "26083352",
+      "35994920",
+      "38473759",
+      "30261492",
+      "22247346",
+      "33982891",
+      "32004530",
+      "18031579",
+      "31696655",
+      "34500490",
+      "30619261",
+      "28237856",
+      "36530063",
+      "35074577",
+      "31631977",
+      "30529425",
+      "32315736",
+      "36386227",
+      "37343369",
+      "26092928",
+      "37079558",
+      "36235621",
+      "32308389",
+      "33022338",
+      "30521963",
+      "26285913",
+      "32860098",
+      "23552998",
+      "35147250",
+      "34941874",
+      "31897918",
+      "35820500",
+      "31520995",
+      "31342791",
+      "31837574",
+      "28662337",
+      "29393494",
+      "31310911",
+      "30117186",
+      "36768689",
+      "29208566",
+      "39180420",
+      "30110204",
+      "27484345",
+      "35457176",
+      "31575035",
+      "16798739",
+      "27067395",
+      "30236789",
+      "35847580",
+      "32394143",
+      "36538851",
+      "27908544",
+      "33739851",
+      "21972422",
+      "28643466",
+      "32003758",
+      "35469836",
+      "28957807",
+      "34764819",
+      "35831464",
+      "30551412",
+      "31577939",
+      "34629040",
+      "30261513",
+      "30811038",
+      "31353084",
+      "36056701",
+      "37262955",
+      "23546441",
+      "35026522",
+      "26015264",
+      "29672044",
+      "27789465",
+      "29604191",
+      "32474881",
+      "37249927",
+      "38840731",
+      "37457300",
+      "39206714",
+      "38712377",
+      "37674829"
+    ],
+    "review": [
+      "37354697",
+      "30236789"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00300-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse227483",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an in silico investigation of the Cox protein from P2-type enteric bacteriophages, integrating sequence-based phylogenetic and conservation analyses, homology modelling, atomic-level docking, and molecular dynamics simulations (50 ns per system, 10 systems, 500 ns total) to characterize the structural and dynamic basis of Cox DNA binding and its role in the lytic-lysogenic switch. They assert that these analyses provide a sequence-to-structure-to-dynamics-to-function understanding that will aid in elucidating the biochemical mechanism of Cox activation and in designing phage-based therapeutics.
+- **Visible evidence base** Abstract text only; no methodological details, numerical results, structural coordinates, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, docking scores, model quality metrics, phylogenetic trees, conservation scores, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful in silico workflow for studying a phage regulatory protein, but the claims of functional understanding and therapeutic relevance are not supported by the evidence visible in the abstract. The study appears to be largely descriptive and computational, and the abstract lacks quantitative results, validation of the homology model, or any demonstration that the simulations meaningfully capture DNA-binding specificity. The connection between the computational findings and the proposed biochemical mechanism or therapeutic design is asserted rather than demonstrated. As presented, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in phage biology, particularly those studying P2-like bacteriophages and their regulatory circuits, would be interested in a structural and dynamic characterization of Cox protein. Computational biologists working on protein-DNA interactions and homology modelling of viral proteins may also find the methodological pipeline relevant. Those developing phage-based antimicrobial strategies might be tangentially interested, but the abstract does not provide sufficient evidence to justify a direct therapeutic application.
+- **Major strengths** The study addresses a biologically relevant question, namely the structural basis of Cox-mediated regulation of the lytic-lysogenic switch. The integration of multiple computational methods, including phylogenetics, homology modelling, docking, and MD simulation, represents a comprehensive in silico approach. The authors acknowledge the initial lack of available information and describe a systematic effort to compile a database, which suggests a careful literature-based foundation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that their analyses provide "sequence to structure to dynamics to functional understanding" of Cox protein and its DNA binding.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract provides no quantitative results from any of the methods employed. There are no phylogenetic tree details, no conservation scores, no homology model quality metrics (e.g., Ramachandran statistics, QMEAN, or PROCHECK values), no docking scores or binding affinities, and no MD simulation analyses such as RMSD, RMSF, or binding free energy calculations. Without these data, the claim of a functional understanding is unsupported.  
+  - **Why it matters** A functional understanding requires demonstration that the modelled structure is reliable and that the predicted DNA-binding interface is energetically and dynamically plausible. The absence of any numerical evidence prevents the reader from assessing whether the conclusions are robust or merely speculative.  
+  - **Resolution test** Provide key quantitative results in the abstract or full text, including model validation scores, docking energies, and MD-derived stability metrics, and explicitly state how these data support the functional interpretation.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim substantiation  
+  - **Claim pointer** The authors state that the study "would indeed be very helpful in understanding the biochemical mechanism of Cox activation as well as designing potential phage therapeutics."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** This claim of therapeutic relevance is not supported by any evidence in the abstract. No link is made between the computational findings and a specific mechanistic step in Cox activation, nor is any rationale provided for how the structural data could inform therapeutic design. The statement is aspirational rather than evidence-based.  
+  - **Why it matters** Overstating the translational relevance of a purely computational study without experimental validation or a clear mechanistic hypothesis can mislead readers and overstate the study's contribution.  
+  - **Resolution test** Either remove or substantially temper the therapeutic claim, or provide a specific, evidence-based mechanism by which the structural and dynamic findings could inform therapeutic development.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The authors describe performing "Atomic-level Docking and Molecular Dynamics (MD) Simulation (50 ns each for 10 systems, i.e. total of 500 ns)."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not specify which docking software, force field, water model, or simulation protocol was used. It is also unclear what the 10 systems represent (e.g., different phage variants, different DNA sequences, or different Cox conformations). Without this information, the reproducibility and interpretability of the simulations are limited.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The lack of methodological detail prevents other researchers from replicating or building upon the work.  
+  - **Resolution test** Provide full methodological details in the main text, including software versions, parameters, and a clear description of the 10 simulated systems.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "Unavailability of information was a big burden in further proceedings" is vague and informal. It is unclear what specific information was unavailable and how the authors' database construction addressed this gap.  
+  - **Required correction** Rephrase to specify the nature of the missing information and how the literature-derived database was used to overcome this limitation.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope justification  
+  - **Affected element** Abstract rationale  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that Cox protein is "one of the most important candidates" for phage-based therapeutics, but no comparative evidence or citation is provided to justify this claim.  
+  - **Required correction** Provide a brief justification or reference supporting the importance of Cox relative to other phage proteins.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract phrase  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "functional integrity" in the title is not defined or explained in the abstract. It is unclear whether this refers to structural stability, DNA-binding competence, or another property.  
+  - **Required correction** Define "functional integrity" in the abstract or introduction to clarify the study's objective.
+
+## Risk / unsupported claims
+- The claim of achieving a "sequence to structure to dynamics to functional understanding" is unsupported because no quantitative results are presented.
+- The claim that the study will be "very helpful" for understanding Cox activation and designing phage therapeutics is unsupported and appears speculative.
+- The assertion that Cox is "one of the most important candidates" for therapeutic development is not substantiated with evidence or references.
+- The methodological adequacy of the homology model and MD simulations cannot be assessed due to the absence of validation metrics and protocol details.

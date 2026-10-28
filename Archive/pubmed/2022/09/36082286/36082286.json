@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "36082286",
+    "doi": "10.3389/fpls.2022.970018",
+    "title": "Plant-DTI: Extending the landscape of TF protein and DNA interaction in plants by a machine learning-based approach."
+  },
+  "content": {
+    "abstract": "As a sessile organism, plants hold elaborate transcriptional regulatory systems that allow them to adapt to variable surrounding environments. Current understanding of plant regulatory mechanisms is greatly constrained by limited knowledge of transcription factor (TF)-DNA interactions. To mitigate this problem, a Plant-DTI predictor (Plant DBD-TFBS Interaction) was developed here as the first machine-learning model that covered the largest experimental datasets of 30 plant TF families, including 7 plant-specific DNA binding domain (DBD) types, and their transcription factor binding sites (TFBSs). Plant-DTI introduced a novel TFBS feature construction, called TFBS base-preference, which enhanced the specificity of TFBS to DBD types. The proposed model showed better predictive performance with the TFBS base-preference than the simple binary representation. Plant-DTI was validated with 22 independent ChIP-seq datasets. It accurately predicted the measured DBD-TFBS pairs along with their TFBS motifs, and effectively predicted interactions of other TFs containing similar DBD types. Comparing to the existing state-of-art methods, Plant-DTI prediction showed a figure of merit in sensitivity and specificity with respect to the position weight matrix (PWM) and TSPTFBS methods. Finally, the proposed Plant-DTI model helped to fill the knowledge gap in the regulatory mechanisms of the cassava sucrose synthase 1 gene (MeSUS1). Plant-DTI predicted MeERF72 as a regulator of MeSUS1 in consistence with the yeast one-hybrid (Y1H) experiment. Taken together, Plant-DTI would help facilitate the prediction of TF-TFBS and TF-target gene (TG) interactions, thereby accelerating the study of transcriptional regulatory systems in plant species.",
+    "keywords": [
+      "DNA binding domain",
+      "TF-TFBS interactions",
+      "machine-learning",
+      "plants",
+      "transcription factor",
+      "transcription factor binding site",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruengsrichaiya, Bhukrit",
+        "Nukoolkit, Chakarida",
+        "Kalapanulak, Saowalak",
+        "Saithong, Treenut"
+      ],
+      "short_names": [
+        "Ruengsrichaiya B",
+        "Nukoolkit C",
+        "Kalapanulak S",
+        "Saithong T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioinformatics and Systems Biology Program, School of Bioresources and Technology and School of Information Technology, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand.",
+        "Bioinformatics and Systems Biology Program, School of Bioresources and Technology and School of Information Technology, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand.",
+        "School of Information Technology, King Mongkut's University of Technology Thonburi, Bangkok, Thailand.",
+        "Bioinformatics and Systems Biology Program, School of Bioresources and Technology and School of Information Technology, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand.",
+        "Center for Agricultural Systems Biology, Systems Biology and Bioinformatics Research Group, Pilot Plant Development and Training Institute, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand.",
+        "Bioinformatics and Systems Biology Program, School of Bioresources and Technology and School of Information Technology, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand.",
+        "Center for Agricultural Systems Biology, Systems Biology and Bioinformatics Research Group, Pilot Plant Development and Training Institute, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ruengsrichaiya, Bhukrit",
+        "short_name": "Ruengsrichaiya B",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, School of Bioresources and Technology and School of Information Technology, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Nukoolkit, Chakarida",
+        "short_name": "Nukoolkit C",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, School of Bioresources and Technology and School of Information Technology, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand.",
+          "School of Information Technology, King Mongkut's University of Technology Thonburi, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Kalapanulak, Saowalak",
+        "short_name": "Kalapanulak S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, School of Bioresources and Technology and School of Information Technology, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand.",
+          "Center for Agricultural Systems Biology, Systems Biology and Bioinformatics Research Group, Pilot Plant Development and Training Institute, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Saithong, Treenut",
+        "short_name": "Saithong T",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, School of Bioresources and Technology and School of Information Technology, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand.",
+          "Center for Agricultural Systems Biology, Systems Biology and Bioinformatics Research Group, Pilot Plant Development and Training Institute, King Mongkut's University of Technology Thonburi (Bang KhunThian), Bangkok, Thailand."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/10 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "42055456",
+      "40566792",
+      "38903438"
+    ],
+    "refs": [
+      "34301293",
+      "34174819",
+      "33631799",
+      "33416862",
+      "33007377",
+      "31701126",
+      "31586406",
+      "31328026",
+      "30873200",
+      "30800137",
+      "30447332",
+      "30395277",
+      "29990126",
+      "29693589",
+      "29617876",
+      "29140464",
+      "27933071",
+      "27924042",
+      "27869212",
+      "27806697",
+      "27522016",
+      "27117388",
+      "26904044",
+      "26476450",
+      "26103991",
+      "26072453",
+      "25918418",
+      "25547914",
+      "25220462",
+      "25215497",
+      "24743548",
+      "24477691",
+      "24174544",
+      "23292602",
+      "23040085",
+      "22955618",
+      "22397531",
+      "21486936",
+      "21330290",
+      "21059685",
+      "19736561",
+      "19608713",
+      "19401410",
+      "19099508",
+      "18802439",
+      "18265084",
+      "17623704",
+      "17576669",
+      "17324271",
+      "16899225",
+      "16888363",
+      "16166257",
+      "15608292",
+      "14681436",
+      "12824369",
+      "11433033",
+      "11118137",
+      "10608657",
+      "8594589"
+    ],
+    "similar": [
+      "36082286",
+      "24386279",
+      "24927817",
+      "33416862",
+      "24039567",
+      "31001412",
+      "25559499",
+      "21912677",
+      "20158869",
+      "24965723",
+      "34174819",
+      "27567672",
+      "38701417",
+      "25918418",
+      "21193520",
+      "15053842",
+      "27052996",
+      "37229121",
+      "29617876",
+      "37682473",
+      "34448158",
+      "27871221",
+      "31742324",
+      "27546793",
+      "30447332",
+      "30380113",
+      "27503086",
+      "21124986",
+      "37651425",
+      "23175603",
+      "24926895",
+      "17973026",
+      "34394179",
+      "25560196",
+      "22904079",
+      "31336830",
+      "19956545",
+      "34547062",
+      "21896508",
+      "27106869",
+      "23921661",
+      "18485226",
+      "26130577",
+      "21486752",
+      "21690103",
+      "35240993",
+      "28623591",
+      "24074225",
+      "35713985",
+      "29990126",
+      "19586888",
+      "23427986",
+      "28764727",
+      "28485207",
+      "24564277",
+      "38798191",
+      "22073148",
+      "17914226",
+      "24472686",
+      "33975951",
+      "37099664",
+      "23272209",
+      "26818008",
+      "26291518",
+      "22187154",
+      "28849563",
+      "30597011",
+      "27209209",
+      "29617378",
+      "25387969",
+      "23599922",
+      "19061501",
+      "34488759",
+      "22888987",
+      "23282203",
+      "21059262",
+      "34272562",
+      "12364607",
+      "27803259",
+      "25245407",
+      "32660981",
+      "16362910",
+      "25108460",
+      "35901946",
+      "29896218",
+      "29855957",
+      "20193056",
+      "29693589",
+      "24564945",
+      "25682954",
+      "18272477",
+      "20056654",
+      "30395277",
+      "18053230",
+      "30629513",
+      "37140548",
+      "22701314",
+      "37598467",
+      "38216534",
+      "37482504",
+      "37662307",
+      "39013383",
+      "37962376",
+      "34882561",
+      "38848239",
+      "33303494",
+      "39392681",
+      "38285430",
+      "36119976",
+      "38269075",
+      "39184348",
+      "36090812",
+      "29900118",
+      "37711605"
+    ],
+    "review": [
+      "36082286",
+      "31742324",
+      "30447332",
+      "19586888",
+      "37099664",
+      "37482504"
+    ],
+    "pmc": [
+      "9445498"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36082286/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36082286",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2022.970018",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

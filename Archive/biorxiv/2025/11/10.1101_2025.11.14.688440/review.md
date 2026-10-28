@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/video legends. Figures, tables, and supplementary files were not provided.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the claims as presented in the text. Assessment is limited by the absence of all primary data displays (figures, tables, supplementary materials).
+- **Shared manuscript claim summary** The authors report that E. coli Dps maintains its dodecameric ferritin-like fold across pH 3–11, that its surface electrostatics shift from positive to negative with increasing pH, that DNA binding affinity is maximal at pH 5 (EC50 73.4 nM) and weakest at pH 11 (EC50 815.5 nM), and that Dps forms amorphous globular or tubular assemblies with short (448 bp) DNA rather than crystalline lattices. They propose a two-stage assembly model involving N-terminal lysine-driven nucleation followed by lattice ordering on long DNA.
+- **Visible evidence base** Text descriptions of cryo-EM reconstructions at ~1.75 Å resolution, APBS electrostatic calculations, EMSA binding data, and cryo-ET of Dps-DNA complexes. No actual figures, tables, or numerical data tables were available for inspection.
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, supplementary videos, and deposited data (PDB/EMDB accession numbers listed as XXX). Without these, resolution claims, map quality, binding curve fits, and tomographic interpretations cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a broad, multi-technique study of pH-dependent Dps behavior, combining high-resolution cryo-EM, electrostatic modeling, binding assays, and tomography. The central claims are plausible and align with prior literature, but the manuscript as provided cannot be fully evaluated because all primary data displays are absent. The structural stability claim is well supported by the described methodology, and the pH-dependent binding trend is consistent with electrostatic expectations. However, the two-stage assembly model is speculative and would benefit from additional experimental support. The comparison with prior crystallographic work on long DNA is interesting but the distinction between "globular" and "crystalline" assemblies needs clearer quantitative definition. The manuscript is well written and will interest the bacterial chromatin and structural biology communities, but several technical details and interpretive leaps require attention.
+- **Who would be interested in the results, and why** Researchers studying nucleoid-associated proteins, bacterial chromatin organization, DNA-protein interactions, and stress responses in bacteria. The pH-dependent behavior is relevant to understanding Dps function in acid-resistant pathogens like EHEC. Structural biologists using cryo-EM and cryo-ET will also find the methodological pipeline of interest. The potential biotechnological application of Dps as a pH-responsive DNA packaging system may appeal to synthetic biology and drug delivery researchers.
+- **Major strengths** 1) The multi-technique approach provides complementary views of Dps behavior across pH. 2) The pH range studied (3–11) is unusually broad and physiologically relevant. 3) The use of cryo-ET to directly visualize Dps-DNA assemblies at different pH values is innovative. 4) The comparison between short and long DNA substrates addresses an important gap in the literature. 5) The electrostatic modeling provides a mechanistic framework for interpreting binding data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims cryo-EM reconstructions at ~1.75 Å resolution across five pH conditions, with maps showing "over 99% similarity" to the pH 7 map.
+  - **Evidence pointer** Results section "Cryo-EM Structure of Dps Across pH Values"; Figure 1; Supplementary Figures 2-5; Table 1
+  - **Concern** The resolution claims and map similarity values cannot be verified without the actual figures, maps, and validation statistics. More critically, the text states that the pH 7 model was docked into all other pH maps and validated, but no quantitative measures of model-map fit (e.g., Q-scores, CCmask, EMRinger scores) are reported in the text. The claim that "no gross differences" exist between pH conditions is qualitative and would benefit from per-residue displacement analysis or RMSD calculations between models. Additionally, the statement that local resolution reaches the "Nyquist limit of 1.66 Å" is unusual; Nyquist frequency is typically 2x pixel size, and reaching it exactly is rarely achievable in practice.
+  - **Why it matters** The structural stability claim is a central pillar of the manuscript. Without rigorous quantitative comparison of the five structures, the conclusion that pH does not affect Dps structure is not fully established. Overstated resolution claims could mislead readers about the quality of the reconstructions.
+  - **Resolution test** Provide the actual figures with FSC curves, local resolution maps, and a table of model validation statistics for each pH condition. Report per-residue RMSD values between the pH 7 model and models built into other pH maps. Clarify the pixel size and how the Nyquist limit was calculated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript reports EC50 values of 73.4 nM (pH 5) to 815.5 nM (pH 11) for Dps-DNA binding, with Hill coefficients from 1.60 to 3.16.
+  - **Evidence pointer** Results section "Dps Binding Affinity is Maximal at pH 5 and Drops at pH 11"; Figure 5; Table 3; Supplementary Figure 8
+  - **Concern** The EMSA methodology is described only briefly. The text mentions "fixed amounts of DNA" and Dps concentrations ranging from 0 to 1000 ng (or 3500 ng at pH 11), but the units are inconsistent (ng of protein vs. nM in the EC50 values). The conversion from protein mass to molar concentration requires the molecular weight of the Dps dodecamer, which is not stated. Additionally, the text states that "bound like" signal was obtained from loss of free DNA, but the equation is not fully shown. The normalization procedure is described but the rationale for using the "near-saturating lane" as a reference is unclear. The Hill coefficients exceeding 2 suggest positive cooperativity, but this is not discussed. Finally, the pH 11 data required a higher maximum Dps concentration (3500 ng vs. 1000 ng), which complicates direct comparison of EC50 values across pH conditions.
+  - **Why it matters** The pH-dependent binding affinity is the second central claim of the manuscript. If the EC50 calculations are flawed or the units are inconsistent, the quantitative conclusions are unreliable. The manuscript does not report error estimates or confidence intervals for the EC50 values in the text, despite stating that Prism reported these.
+  - **Resolution test** Provide the full EMSA methodology with clear unit conversions, the complete equation for fraction bound, and a table of EC50 values with 95% confidence intervals for each pH. Discuss the implications of Hill coefficients >2. Clarify whether the different Dps concentration ranges at pH 11 affect the comparability of EC50 values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript proposes a "two-stage assembly model" in which protonation-driven nucleation occurs via N-terminal lysine residues, followed by lattice ordering on long DNA.
+  - **Concern** The two-stage model is presented as a "possible" model, which is appropriately cautious, but the evidence supporting it is indirect. The cryo-ET data show globular assemblies at pH 7 and tubular structures at pH 3, but the text does not provide quantitative measurements of these assemblies (e.g., size distributions, packing densities, or stoichiometries). The claim that N-terminal lysine residues drive nucleation is inferred from electrostatic calculations but is not directly tested, for example through mutagenesis or comparative studies with Dps homologs lacking these residues. The relationship between the short-DNA globular assemblies and the long-DNA crystalline lattices is not mechanistically explained.
+  - **Why it matters** The two-stage model is the main conceptual advance of the manuscript. If it is not well supported, the manuscript becomes primarily a descriptive study of pH effects rather than a mechanistic one. The model's speculative nature should be clearly distinguished from the more solid empirical findings.
+  - **Resolution test** Provide quantitative characterization of the globular and tubular assemblies from cryo-ET (e.g., diameter distributions, inter-particle distances). If possible, include mutagenesis data on N-terminal lysine residues or comparative data with a Dps variant lacking these residues. Alternatively, soften the model claim and present it as a hypothesis requiring further testing.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the His-tagged Dps retains wild-type behavior and that the His-tag mediates inter-multimer interactions in the 2D lattice.
+  - **Evidence pointer** Results section "The presence and absence of a His-tag in Dps"; Figure 4
+  - **Concern** The comparison between His-tagged and untagged Dps is described only in the context of the 2D lattice formed at pH 5 and 7. The text states that the His-tag is responsible for changes in inter-multimer distances, but no quantitative comparison of lattice parameters between His-tagged and untagged Dps is provided. The claim that the His-tag is "potentially benign" for DNA binding is based on the EMSA data, but the EMSA experiments appear to have been performed only with His-tagged Dps. A direct comparison of DNA binding between His-tagged and untagged Dps is not described.
+  - **Why it matters** The manuscript makes a methodological contribution by validating the use of His-tagged Dps, but this validation is incomplete without direct comparative data. If the His-tag does affect DNA binding or assembly, the conclusions drawn from the His-tagged construct would need to be revisited.
+  - **Resolution test** Provide direct comparison of DNA binding (EMSA) and lattice formation (cryo-EM or negative stain) between His-tagged and untagged Dps. If such data are not available, temper the claim that the His-tag is benign.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The title and abstract refer to Dps as a "nucleoid associated protein," but the introduction correctly notes that Dps is a DNA-binding protein from starved cells with ferroxidase activity. The dual function is mentioned in the abstract, but the title is somewhat generic.
+  - **Required correction** Consider a more specific title that reflects the pH-dependent DNA binding and assembly findings, such as "pH-Dependent DNA Binding and Assembly of E. coli Dps."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Cryo-EM Structure of Dps Across pH Values"
+  - **Evidence pointer** "Each of the final maps showed that the Dps protein consists of 12 identical subunits"
+  - **Issue** This sentence is redundant with the known dodecameric structure of Dps and does not add new information. It would be more useful to state the number of particles used in each reconstruction and the symmetry verification procedure.
+  - **Required correction** Replace with a statement about particle counts, symmetry verification, and any differences observed between pH conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Dps-DNA Binding Gels"
+  - **Evidence pointer** "100 ng of DNA at a concentration of 1000 ng/mL"
+  - **Issue** The DNA concentration is given in ng/mL, but the volume is not stated. The final DNA concentration in the binding reaction is unclear.
+  - **Required correction** Specify the volume of DNA solution used and the final concentration in the reaction mixture.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Dps Binding Affinity is Maximal at pH 5 and Drops at pH 11"
+  - **Evidence pointer** "Because the Hill slope deviates from 1 for some conditions, we report EC50 (K½, apparent) rather than an authentic Kd."
+  - **Issue** This is a reasonable choice, but the manuscript does not discuss what the Hill slope values mean mechanistically. Hill slopes >2 could indicate positive cooperativity, which is biologically interesting.
+  - **Required correction** Add a brief discussion of the Hill slope values and their potential implications for cooperative DNA binding.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section "Electrostatic Driving Force"
+  - **Evidence pointer** "The N-termini remain positively charged over a wide pH range and are undoubtedly responsible for the initial attraction to DNA"
+  - **Issue** The word "undoubtedly" is too strong for a claim based on computational modeling. The N-termini are likely important, but direct experimental evidence (e.g., mutagenesis) is not provided.
+  - **Required correction** Replace "undoubtedly" with "likely" or "probably."
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Cryo-ET data processing and sub-tomogram averaging (STA)"
+  - **Evidence pointer** "Due to the lack of fiducial markers within the tilt series collections, tomograms were automatically aligned using AreTomo"
+  - **Issue** The absence of fiducial markers is a significant limitation for tomographic alignment. The manuscript does not discuss how alignment accuracy was assessed or whether the lack of fiducials affected the resolution of the tomograms.
+  - **Required correction** Add a statement about alignment accuracy assessment and potential limitations.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Cryo-ET Reveals Globular Dps–DNA Assemblies on Short DNA"
+  - **Evidence pointer** "The segmentation data shown in Figure 6 illustrated the straightforward 3D amalgamation of Dps at pH 7"
+  - **Issue** The term "straightforward 3D amalgamation" is vague. It is unclear what specific morphological features distinguish the pH 7 globoids from the pH 3 tubular structures beyond the qualitative descriptions.
+  - **Required correction** Provide quantitative measurements of the assemblies (e.g., size, shape, density) to support the qualitative descriptions.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section "His-Tagged Dps vs. Wild-Type"
+  - **Evidence pointer** "Therefore, a key takeaway for researchers is that a C-terminal His-tag on E. coli Dps is potentially benign in terms of its structure and DNA-binding function."
+  - **Issue** This statement is presented as a "key takeaway" but is based on limited comparative data. The manuscript does not show direct comparison of DNA binding between His-tagged and untagged Dps.
+  - **Required correction** Soften this claim or provide the direct comparative data.
+- **Technical failings that need to be addressed before the case is established** 1) Inconsistent units in the EMSA description (ng vs. nM) without clear conversion. 2) Lack of quantitative model-map fit statistics for the cryo-EM structures. 3) Absence of error estimates or confidence intervals for EC50 values in the text. 4) No direct comparison between His-tagged and untagged Dps for DNA binding. 5) The claim that the His-tag is visible in the cryo-EM density is based on a low-resolution feature that was not modelable.
+- **Assessment against Nature-style criteria** Originality: Moderate. The pH-dependent behavior of Dps has been partially explored, but the systematic multi-technique approach across pH 3–11 is novel. Scientific importance: Moderate. The findings refine our understanding of Dps as a pH-responsive nucleoid protein, but the conceptual advance (two-stage model) is speculative. Interdisciplinary readership: The work bridges structural biology, biophysics, and microbiology, which could appeal to a broad audience. Technical soundness: Cannot be fully assessed without the primary data. The described methods are appropriate, but the missing figures and tables prevent verification. Readability for nonspecialists: The manuscript is generally well written, but some sections (e.g., the detailed cryo-EM processing pipeline) may be dense for non-specialists. The abstract is clear and accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question with a comprehensive approach, and the core findings are likely to be of interest to the community. However, the missing primary data, inconsistent units, and speculative model prevent full endorsement at this stage. The authors should provide the actual figures and tables, clarify the quantitative methods, and either strengthen or soften the two-stage model claim.
+
+## Risk / unsupported claims
+- The claim that Dps forms "amorphous ~50 nm globular or tubular complexes" on short DNA is based on cryo-ET data that were not shown or quantified.
+- The claim that the His-tag mediates inter-multimer interactions in the 2D lattice is based on a comparison with a previously published untagged Dps dataset, but the comparison is not shown quantitatively.
+- The claim that "protonation-driven nucleation occurs via the Dps N-terminal lysine residues" is inferred from electrostatic calculations and is not directly tested.
+- The statement that the pH 7 model fits within the density maps for every pH value is not supported by quantitative validation statistics in the text.
+- The claim that Dps is a "pH-responsive nucleoid compaction factor" is reasonable but is an extrapolation from in vitro data to in vivo function without direct cellular evidence.

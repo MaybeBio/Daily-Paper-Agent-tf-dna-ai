@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "pmid": "37821882",
+    "doi": "10.1186/s12967-023-04547-z",
+    "title": "Characterization of endoplasmic reticulum stress unveils ZNF703 as a promising target for colorectal cancer immunotherapy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is one of the most common malignant tumors globally, with high morbidity and mortality. Endoplasmic reticulum is a major organelle responsible for protein synthesis, processing, and transport. Endoplasmic reticulum stress (ERS) refers to the abnormal accumulation of unfolded and misfolded proteins in the endoplasmic reticulum, which are involved in tumorigenesis and cancer immunity. Nevertheless, the clinical significance of ERS remains largely unexplored in CRC. METHODS: In present study, we performed an unsupervised clustering to identify two types of ERS-related subtypes [ERS clusters, and ERS-related genes (ERSGs) clusters] in multiple large-scale CRC cohorts. Through the utilization of machine learning techniques, we have successfully developed an uncomplicated yet robust gene scoring system (ERSGs signature). Furthermore, a series of analyses, including GO, KEGG, Tumor Immune Dysfunction and Exclusion (TIDE), the Consensus Molecular Subtypes (CMS), were used to explore the underlying biological differences and clinical significance between these groups. And immunohistochemical and bioinformatics analyses were performed to explore ZNF703, a gene of ERSGs scoring system. RESULTS: We observed significant differences in prognosis and tumor immune status between the ERS clusters as well as ERSGs clusters. And the ERSGs scoring system was an independent risk factor for overall survival; and exhibited distinct tumor immune status in multicenter CRC cohorts. Besides, analyses of TNM stages, CMS groups demonstrated that patients in advanced stage and CMS4 had higher ERSGs scores. In addition, the ERSGs scores inversely correlated with positive ICB response predictors (such as, CD8A, CD274 (PD-L1), and TIS), and directly correlated with negative ICB response predictors (such as, TIDE, T cell Exclusion, COX-IS). Notably, immunohistochemical staining and bioinformatics analyses revealed that ZNF70 correlated with CD3 + and CD8 + T cells infiltration. CONCLUSION: Based on large-scale and multicenter transcriptomic data, our study comprehensively revealed the essential role of ERS in CRC; and constructed a novel ERSGs scoring system to predict the prognosis of patients and the efficacy of ICB treatment. Furthermore, we identified ZNF703 as a potentially promising target for ICB therapy in CRC.",
+    "keywords": [
+      "Colorectal cancer",
+      "Endoplasmic reticulum stress",
+      "ICB response biomarkers",
+      "Prognosis",
+      "Tumor immunity"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Immunotherapy",
+      "Transcription Factors",
+      "Carcinogenesis",
+      "Endoplasmic Reticulum Stress/genetics",
+      "*Colorectal Neoplasms/genetics/therapy",
+      "Prognosis",
+      "Carrier Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Hufei",
+        "Li, Zhi",
+        "Tao, Yangbao",
+        "Ou, Suwen",
+        "Ye, Jinhua",
+        "Ran, Songlin",
+        "Luo, Kangjia",
+        "Guan, Zilong",
+        "Xiang, Jun",
+        "Yan, Guoqing",
+        "Wang, Yang",
+        "Ma, Tianyi",
+        "Yu, Shan",
+        "Song, Yanni",
+        "Huang, Rui"
+      ],
+      "short_names": [
+        "Wang H",
+        "Li Z",
+        "Tao Y",
+        "Ou S",
+        "Ye J",
+        "Ran S",
+        "Luo K",
+        "Guan Z",
+        "Xiang J",
+        "Yan G",
+        "Wang Y",
+        "Ma T",
+        "Yu S",
+        "Song Y",
+        "Huang R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Obstetrics and Gynecology, the Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China.",
+        "Department of Pathology, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China. Yushan@hrbmu.edu.cn.",
+        "Department of Breast Surgery, Harbin Medical University Cancer Hospital, Harbin, China. yannimd@126.com.",
+        "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China. huangrui2019@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Hufei",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhi",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, the Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Yangbao",
+        "short_name": "Tao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Suwen",
+        "short_name": "Ou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Jinhua",
+        "short_name": "Ye J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Ran, Songlin",
+        "short_name": "Ran S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Kangjia",
+        "short_name": "Luo K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Zilong",
+        "short_name": "Guan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Jun",
+        "short_name": "Xiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Guoqing",
+        "short_name": "Yan G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Tianyi",
+        "short_name": "Ma T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Shan",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China. Yushan@hrbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Yanni",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Harbin Medical University Cancer Hospital, Harbin, China. yannimd@126.com."
+        ]
+      },
+      {
+        "full_name": "Huang, Rui",
+        "short_name": "Huang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, the Second Affiliated Hospital of Harbin Medical University, Harbin, 150080, China. huangrui2019@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2023 Oct 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/12 00:43",
+    "fetched_at": "2026-09-29 08:36:35"
+  },
+  "links": {
+    "cites": [
+      "41767393",
+      "41617967",
+      "41158314",
+      "40236629",
+      "40208082",
+      "40169935",
+      "38229155"
+    ],
+    "refs": [
+      "35972800",
+      "35365629",
+      "34702991",
+      "34307339",
+      "34031121",
+      "34015686",
+      "33838688",
+      "33619348",
+      "33611848",
+      "33548387",
+      "33538338",
+      "33246486",
+      "33221922",
+      "33214692",
+      "33194663",
+      "32888471",
+      "32629077",
+      "32520957",
+      "32451460",
+      "32269215",
+      "32171661",
+      "32102694",
+      "31838023",
+      "31740819",
+      "31263264",
+      "30940817",
+      "30886395",
+      "30610226",
+      "30341162",
+      "30154154",
+      "30127394",
+      "30127393",
+      "30063920",
+      "29966302",
+      "29608179",
+      "29480818",
+      "29443960",
+      "29192179",
+      "28741511",
+      "28731040",
+      "28653677",
+      "28650338",
+      "28417112",
+      "28134810",
+      "28052254",
+      "27765066",
+      "27626662",
+      "27207943",
+      "26457759",
+      "26073941",
+      "26063961",
+      "25986851",
+      "25920797",
+      "25822800",
+      "25742952",
+      "25463841",
+      "25017610",
+      "24705811",
+      "23143306",
+      "22718352",
+      "22455463",
+      "22238271",
+      "22135092",
+      "20808728",
+      "20702765",
+      "20427518",
+      "20303879",
+      "19204204",
+      "19114008",
+      "18952570",
+      "18498744",
+      "17496320",
+      "17482542",
+      "16492686",
+      "15591335",
+      "14960456",
+      "11823860",
+      "10592173"
+    ],
+    "similar": [
+      "37821882",
+      "37189138",
+      "38478111",
+      "36894919",
+      "37920989",
+      "37995661",
+      "36999888",
+      "35614390",
+      "35711437",
+      "36585626",
+      "37928532",
+      "37762157",
+      "37087456",
+      "36967783",
+      "35836930",
+      "38685045",
+      "36189298",
+      "36311750",
+      "38477602",
+      "37647290",
+      "38363409",
+      "35681225",
+      "37643369",
+      "37287987",
+      "37091788",
+      "35880031",
+      "36092873",
+      "38330578",
+      "38206293",
+      "37815881",
+      "35571564",
+      "36253721",
+      "38632658",
+      "37950153",
+      "36699685",
+      "35383115",
+      "39076097",
+      "30569094",
+      "38274787",
+      "37343507",
+      "38440732",
+      "35933032",
+      "36389694",
+      "37313465",
+      "38267662",
+      "36458010",
+      "38576045",
+      "36275646",
+      "32627024",
+      "36675039",
+      "32888940",
+      "37294065",
+      "35350786",
+      "37217516",
+      "36333388",
+      "36060663",
+      "36591255",
+      "36479114",
+      "34573357",
+      "25017610",
+      "38011291",
+      "36811212",
+      "37730959",
+      "39145077",
+      "37323657",
+      "37342338",
+      "35687183",
+      "37483596",
+      "37328788",
+      "35962436",
+      "36353576",
+      "36968641",
+      "36389750",
+      "34488791",
+      "36532062",
+      "36330513",
+      "36991138",
+      "33579737",
+      "37353812",
+      "32017925",
+      "37971354",
+      "37530469",
+      "35958598",
+      "35410338",
+      "36212126",
+      "34741675",
+      "31578316",
+      "32771948",
+      "36402931",
+      "36920728",
+      "35783281",
+      "34868393",
+      "32948653",
+      "33193316",
+      "34193202",
+      "35833141",
+      "34316400",
+      "29024602",
+      "29749460",
+      "37698679",
+      "35154148",
+      "34717544",
+      "38062499",
+      "37275857",
+      "37202800",
+      "34603338",
+      "34335633",
+      "36949429",
+      "34646265",
+      "39159861",
+      "35884393",
+      "33163194",
+      "38297270",
+      "39296237",
+      "38942324",
+      "38298428",
+      "39009862",
+      "36786568",
+      "38955938",
+      "33005848",
+      "37502611",
+      "38565865",
+      "38322164",
+      "38222302",
+      "39165641",
+      "37612266",
+      "39430538",
+      "38449811",
+      "36831448",
+      "39139391",
+      "38825696"
+    ],
+    "review": [
+      "37821882",
+      "32017925",
+      "34741675",
+      "33005848"
+    ],
+    "pmc": [
+      "10566095"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-04547-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37821882/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37821882",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

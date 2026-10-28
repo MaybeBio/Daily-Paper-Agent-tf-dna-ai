@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) as provided by the author. No supplementary figures or data files were supplied.
+- **Assessment boundary** This review evaluates the scientific claims, experimental design, data interpretation, and internal consistency of the manuscript as submitted. It does not assess the editorial fit for a specific journal, nor does it verify the accuracy of cited references or external data sources.
+- **Shared manuscript claim summary** The authors report that an acetone extract of Sarracenia purpurea roots (Sp-R-A) induces apoptosis, inhibits proliferation and migration in three NSCLC cell lines (H1975, H838, A549), inhibits the ssDNA-binding activity of human RPA32 in vitro, and shows synergistic apoptosis enhancement with afatinib. In silico docking suggests that several known S. purpurea compounds may bind the RPA32 DNA-binding domain.
+- **Visible evidence base** The manuscript includes descriptions of cell viability (MTT), apoptosis (Hoechst staining), migration (wound healing), proliferation (clonogenic), and RPA32 DNA-binding inhibition (EMSA) assays, plus AlphaFold structural prediction and AutoDock Vina docking results. Figures are referenced but not provided in the text.
+- **Missing materials affecting confidence** Figures 1-12 and Table 1 are cited but not included in the supplied text. Supplementary Figure S1 is mentioned but not provided. No raw data, statistical outputs, or experimental replicates beyond "triplicate" statements are shown. The identity and purity of the extract are not characterized (e.g., no HPLC or LC-MS profile). No positive or negative controls for the EMSA inhibition assay are described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward screening study of a plant extract against NSCLC cells, with a plausible but incompletely supported mechanistic hypothesis involving RPA32 inhibition. The cytotoxic and anti-migratory effects are documented in a dose-dependent manner across three cell lines, which is a reasonable initial characterization. However, the central mechanistic claim that RPA32 is a molecular target of Sp-R-A rests on a single biochemical assay (EMSA) using a crude extract, and the docking results are purely computational without experimental validation. The synergistic effect with afatinib is reported from a single assay condition without formal synergy analysis. The manuscript would benefit from a more rigorous experimental framework, including extract characterization, target validation, and quantitative synergy assessment.
+- **Who would be interested in the results, and why** Researchers in natural product pharmacology and cancer biology, particularly those interested in plant-derived extracts with potential anti-cancer activity. The RPA32 angle may attract investigators studying DNA replication stress as a therapeutic vulnerability. The ethnopharmacological context of S. purpurea could interest those working on medicinal plants. However, the audience is likely narrow, as the study is at an early preclinical stage without in vivo data or compound identification.
+- **Major strengths** The study addresses a relatively unexplored plant species for anti-cancer activity, which is a reasonable gap in the literature. The use of multiple NSCLC cell lines and multiple functional assays (viability, apoptosis, migration, proliferation) provides a broad phenotypic characterization. The dose-dependent responses are consistently reported. The comparison of different extraction solvents and plant parts is a sensible approach to identify the most potent fraction. The EMSA data, if properly controlled, would provide direct biochemical evidence of RPA32 inhibition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Sp-R-A inhibits the ssDNA-binding activity of human RPA32 with an IC50 of 13.6 μg/mL, and that this constitutes a molecular mechanism for the observed cytotoxicity.
+  - **Evidence pointer** Section 2.8, Figure 11
+  - **Concern** The EMSA inhibition assay uses a crude acetone extract containing an unknown mixture of compounds. The observed inhibition of RPA32-ssDNA binding could be due to non-specific effects such as protein precipitation, competition by other nucleic acid-binding components in the extract, or interference with the detection system. No controls are described to rule out these possibilities, such as a mock extract from a non-cytotoxic plant part, a known RPA inhibitor as a positive control, or a binding assay with a non-specific protein. The IC50 value is derived from a graphical analysis without statistical treatment or replicate information.
+  - **Why it matters** The central mechanistic claim of the paper depends on this assay. If the inhibition is non-specific, the conclusion that RPA32 is a molecular target is not supported. This would weaken the entire rationale for the study and the proposed therapeutic relevance.
+  - **Resolution test** The authors should provide: (1) a characterization of the extract composition (e.g., LC-MS or HPLC profile); (2) EMSA controls including a non-specific protein (e.g., BSA) and a known RPA inhibitor; (3) replicate experiments with error bars and a statistical comparison; (4) a demonstration that the extract does not cause non-specific nucleic acid precipitation or degradation (e.g., by agarose gel analysis of the ssDNA after incubation).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim a synergistic effect between Sp-R-A and afatinib in inducing apoptosis in H1975 cells.
+  - **Evidence pointer** Section 2.7, Figure 10
+  - **Concern** The term "synergistic" is used, but no formal synergy analysis (e.g., Chou-Talalay combination index, isobologram analysis) is presented. The data shown are single concentrations of each agent and their combination. Without a dose-response matrix and a quantitative metric, the claim of synergy is not supported. The observed increase from 17% to 63% could be additive or even less than additive depending on the dose-response curves.
+  - **Why it matters** Synergy claims have therapeutic implications and require rigorous statistical and pharmacological evidence. An unsupported synergy claim could mislead future research directions and clinical expectations.
+  - **Resolution test** The authors should perform a combination index analysis using multiple concentrations of both agents, with at least three independent experiments, and report the combination index values with confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Sp-R-A did not induce a similar apoptotic effect in normal 16HBE cells at a concentration of 40 μg/mL" (Section 3, referencing Figure S1).
+  - **Evidence pointer** Section 3, Figure S1 (not provided)
+  - **Concern** The selectivity claim is based on a single concentration in a single normal cell line. The IC50 values for cancer cells are 33-66 μg/mL, so 40 μg/mL is within the effective range for cancer cells. However, without a full dose-response curve in 16HBE cells, it is unclear whether the lack of effect at 40 μg/mL represents true selectivity or just a shifted dose-response. Additionally, the normal cell line data are only mentioned in the discussion and not in the results section, and the figure is not provided.
+  - **Why it matters** Selectivity for cancer cells over normal cells is a key claim for therapeutic potential. Incomplete data on this point weakens the translational relevance of the findings.
+  - **Resolution test** Provide a full dose-response curve for 16HBE cells, with IC50 values, and include the data in the results section with appropriate statistical analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "major bioactive compounds in S. purpurea, including α-amyrin, ursolic acid, and betalinaldehyde, strongly interact with the DNA-binding domain of huRPA32" based on docking studies.
+  - **Evidence pointer** Section 2.9, Table 1, Figure 12
+  - **Concern** The docking study uses an AlphaFold-predicted structure of RPA32, which may not accurately represent the DNA-binding conformation. The docking scores are presented as a ranking without any validation of the docking protocol (e.g., redocking of a known ligand, comparison with experimental structures). The claim of "strong interaction" is qualitative and not supported by binding affinity measurements or cellular validation. Furthermore, the compounds were not tested individually in the EMSA or in cell-based assays.
+  - **Why it matters** The computational results are used to support the mechanistic hypothesis, but without experimental validation, they remain speculative. Overinterpretation of docking results can mislead subsequent research efforts.
+  - **Resolution test** Validate the docking predictions by testing the individual compounds in the EMSA and in cell viability assays. If possible, use a crystal structure of RPA32 or a homolog for docking, and include a positive control compound with known RPA32 binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Extract preparation
+  - **Evidence pointer** Section 4.6
+  - **Issue** The plant material source is described as "obtained from Guoguang Flower Market and Taiwan Provincial Flower Marketing Cooperative," which is not a standardized or reproducible source. The authors do not provide a voucher specimen number or deposition in a herbarium.
+  - **Required correction** Provide a voucher specimen number and deposit the specimen in a recognized herbarium. Describe the plant material's growth conditions, harvest time, and authentication method in more detail.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Section 4.12
+  - **Issue** The statistical methods section states that ANOVA was used, but the results sections do not report F-values, degrees of freedom, or post-hoc tests. It is unclear which comparisons were tested and whether multiple comparisons were corrected for.
+  - **Required correction** Report full statistical details for each experiment, including the specific test used, the test statistic, degrees of freedom, p-values, and the method for multiple comparison correction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Cell line authentication
+  - **Evidence pointer** Section 4.1
+  - **Issue** The cell lines are described as "kindly provided by Dr. Kuo-Ting Chang," but no authentication (e.g., STR profiling) or mycoplasma testing is mentioned.
+  - **Required correction** State whether the cell lines were authenticated and tested for mycoplasma, and provide the method and date of testing.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures 1-12 (not provided)
+  - **Issue** The figure legends are not included in the manuscript text, making it impossible to assess the data presentation, statistical annotations, or experimental conditions for each figure.
+  - **Required correction** Include complete figure legends with detailed descriptions of experimental conditions, sample sizes, statistical tests, and significance indicators.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Docking methodology
+  - **Evidence pointer** Section 4.11
+  - **Issue** The docking methods do not specify the search space, exhaustiveness, or scoring function parameters used in AutoDock Vina. The preparation of the protein and ligands is described only briefly.
+  - **Required correction** Provide full details of the docking protocol, including the grid box dimensions and center, exhaustiveness, number of runs, and the specific scoring function used. State the version of AutoDock Tools and PyRx.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Extract preparation
+  - **Evidence pointer** Section 4.6
+  - **Issue** The extraction yield is not reported, and the final concentration of the extract in the assays is described only in μg/mL without information on the dry weight basis or the amount of extract obtained per gram of plant material.
+  - **Required correction** Report the extraction yield (e.g., mg extract per g dry plant material) and the final concentration of the stock solution in mg/mL.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (RPA32 inhibition specificity) and R1-M2 (synergy claim) are the primary technical issues that must be resolved. The lack of extract characterization and the absence of individual compound testing also undermine the mechanistic claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The study of S. purpurea for anti-cancer activity is relatively novel, but the approach (crude extract screening with standard assays) is not methodologically innovative. The RPA32 angle is interesting but not fully developed.
+  - Scientific importance: Low to moderate. The findings are preliminary and do not yet establish a clear therapeutic rationale. The lack of in vivo data and compound identification limits the significance.
+  - Interdisciplinary readership: Limited. The work sits at the intersection of natural product chemistry and cancer biology, but the depth in either field is insufficient to attract a broad audience.
+  - Technical soundness: Currently insufficient. The key mechanistic claim (RPA32 inhibition) is not rigorously supported, and the synergy claim lacks quantitative analysis. Several methodological details are missing.
+  - Readability for nonspecialists: The manuscript is generally readable, but the discussion of docking and RPA32 biology assumes some familiarity with these topics. The structure is logical, and the writing is clear.
+- **Recommendation posture** Currently not established from the provided evidence. The phenotypic effects of Sp-R-A are documented, but the central mechanistic claim and the synergy claim require substantial additional experimental support. The manuscript would need major revisions, including extract characterization, controlled EMSA experiments, formal synergy analysis, and validation of the docking predictions, before the case for RPA32 as a molecular target can be considered.
+
+## Risk / unsupported claims
+- The claim that RPA32 is a molecular target of Sp-R-A is unsupported due to the lack of specificity controls in the EMSA and the absence of validation with individual compounds.
+- The claim of synergy between Sp-R-A and afatinib is unsupported without a formal combination index analysis.
+- The claim that "major bioactive compounds... strongly interact with the DNA-binding domain" is unsupported, as docking alone does not demonstrate binding affinity or biological relevance.
+- The claim of selectivity for cancer cells over normal cells is weakly supported, as only a single concentration in one normal cell line is mentioned.
+- The statement that "these findings suggest that huRPA32 is a potential molecular target" is an overinterpretation given the current evidence.
+- The identity and purity of the extract are not characterized, making the reproducibility of the findings uncertain.

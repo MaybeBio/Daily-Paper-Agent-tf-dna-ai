@@ -1,0 +1,458 @@
+{
+  "identity": {
+    "pmid": "37697433",
+    "doi": "10.1093/nar/gkad720",
+    "title": "Assessing base-resolution DNA mechanics on the genome scale."
+  },
+  "content": {
+    "abstract": "Intrinsic DNA properties including bending play a crucial role in diverse biological systems. A recent advance in a high-throughput technology called loop-seq makes it possible to determine the bendability of hundred thousand 50-bp DNA duplexes in one experiment. However, it's still challenging to assess base-resolution sequence bendability in large genomes such as human, which requires thousands of such experiments. Here, we introduce 'BendNet'-a deep neural network to predict the intrinsic DNA bending at base-resolution by using loop-seq results in yeast as training data. BendNet can predict the DNA bendability of any given sequence from different species with high accuracy. To explore the utility of BendNet, we applied it to the human genome and observed DNA bendability is associated with chromatin features and disease risk regions involving transcription/enhancer regulation, DNA replication, transcription factor binding and extrachromosomal circular DNA generation. These findings expand our understanding on DNA mechanics and its association with transcription regulation in mammals. Lastly, we built a comprehensive resource of genomic DNA bendability profiles for 307 species by applying BendNet, and provided an online tool to assess the bendability of user-specified DNA sequences (http://www.dnabendnet.com/).",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*DNA/chemistry/genetics/metabolism",
+      "*Nucleic Acid Conformation",
+      "*Genome, Human",
+      "Neural Networks, Computer",
+      "Animals",
+      "Chromatin/chemistry/genetics/metabolism",
+      "Sequence Analysis, DNA/methods",
+      "Genomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Wen-Jie",
+        "Hu, Congcong",
+        "Lai, Futing",
+        "Pang, Weixiong",
+        "Yi, Xinyao",
+        "Xu, Qianyi",
+        "Wang, Haojie",
+        "Zhou, Jialu",
+        "Zhu, Hanwen",
+        "Zhong, Chunge",
+        "Kuang, Zeyu",
+        "Fan, Ruiqi",
+        "Shen, Jing",
+        "Zhou, Xiaorui",
+        "Wang, Yu-Juan",
+        "Wong, Catherine C L",
+        "Zheng, Xiaoqi",
+        "Wu, Hua-Jun"
+      ],
+      "short_names": [
+        "Jiang WJ",
+        "Hu C",
+        "Lai F",
+        "Pang W",
+        "Yi X",
+        "Xu Q",
+        "Wang H",
+        "Zhou J",
+        "Zhu H",
+        "Zhong C",
+        "Kuang Z",
+        "Fan R",
+        "Shen J",
+        "Zhou X",
+        "Wang YJ",
+        "Wong CCL",
+        "Zheng X",
+        "Wu HJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China.",
+        "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China.",
+        "Department of Mathematics, Shanghai Normal University, 200234 Shanghai, China.",
+        "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China.",
+        "Department of Mathematics, Shanghai Ocean University, 201306 Shanghai, China.",
+        "Department of Mathematics, Shanghai Normal University, 200234 Shanghai, China.",
+        "University of California, San Diego, CA 92103, USA.",
+        "Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, 100101 Beijing, China.",
+        "Department of Gynecology and Obstetrics, Chinese PLA General Hospital, 100853 Beijing, China.",
+        "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China.",
+        "College of Life and Health Sciences, Northeastern University, 110819 Shenyang, China.",
+        "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China.",
+        "Central Laboratory, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China.",
+        "Central Laboratory, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China.",
+        "Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China.",
+        "Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China.",
+        "Department of Medical Research Center, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science & Peking Union Medical College, 100730 Beijing, China.",
+        "Center for Single-Cell Omics, School of Public Health, Shanghai Jiao Tong University School of Medicine, 200025 Shanghai, China.",
+        "Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China.",
+        "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Wen-Jie",
+        "short_name": "Jiang WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China.",
+          "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Congcong",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Shanghai Normal University, 200234 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Futing",
+        "short_name": "Lai F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Weixiong",
+        "short_name": "Pang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Shanghai Ocean University, 201306 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Xinyao",
+        "short_name": "Yi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Shanghai Normal University, 200234 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qianyi",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, San Diego, CA 92103, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Haojie",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, 100101 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jialu",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Chinese PLA General Hospital, 100853 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hanwen",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Chunge",
+        "short_name": "Zhong C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life and Health Sciences, Northeastern University, 110819 Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Kuang, Zeyu",
+        "short_name": "Kuang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Ruiqi",
+        "short_name": "Fan R",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Jing",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaorui",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu-Juan",
+        "short_name": "Wang YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wong, Catherine C L",
+        "short_name": "Wong CCL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Research Center, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science & Peking Union Medical College, 100730 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xiaoqi",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Single-Cell Omics, School of Public Health, Shanghai Jiao Tong University School of Medicine, 200025 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hua-Jun",
+        "short_name": "Wu HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education/Beijing), Peking University Cancer Hospital and Institute, 100142 Beijing, China.",
+          "School of Basic Medical Sciences, Center for Precision Medicine Multi-Omics Research, Peking University Health Science Center, 102206 Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Oct 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/12 06:42",
+    "fetched_at": "2026-09-29 06:57:14"
+  },
+  "links": {
+    "cites": [
+      "42255020",
+      "42183351",
+      "42087784",
+      "39763889",
+      "38816704",
+      "38375921",
+      "37954573"
+    ],
+    "refs": [
+      "36866046",
+      "36471057",
+      "35288750",
+      "34792166",
+      "33542507",
+      "33328628",
+      "33290552",
+      "31713622",
+      "30987063",
+      "30476243",
+      "30445434",
+      "29120462",
+      "28794835",
+      "28392672",
+      "27867195",
+      "26192317",
+      "25723102",
+      "25693563",
+      "25199790",
+      "24799436",
+      "22936778",
+      "22373907",
+      "21818400",
+      "21725294",
+      "21720957",
+      "21176138",
+      "20513432",
+      "18511918",
+      "17291569",
+      "13947099",
+      "11573000",
+      "11126367",
+      "11125122",
+      "10802651",
+      "9169453",
+      "7838732",
+      "1942040"
+    ],
+    "similar": [
+      "37697433",
+      "38375921",
+      "36866046",
+      "33328628",
+      "40427616",
+      "25563930",
+      "20476799",
+      "37769928",
+      "35288750",
+      "29069282",
+      "9710538",
+      "20827597",
+      "27008018",
+      "31351925",
+      "25957350",
+      "12654999",
+      "9358163",
+      "32701977",
+      "30423062",
+      "36495920",
+      "41253815",
+      "33539885",
+      "33046896",
+      "8804440",
+      "30346381",
+      "26080409",
+      "24124207",
+      "26038153",
+      "31776829",
+      "23511541",
+      "10710711",
+      "7723041",
+      "33232622",
+      "36471057",
+      "11724529",
+      "22120510",
+      "19108579",
+      "30199150",
+      "31206543",
+      "33634313",
+      "29030827",
+      "32728249",
+      "28890333",
+      "21642965",
+      "36719906",
+      "28087167",
+      "10871404",
+      "32689977",
+      "22652625",
+      "21938629",
+      "22929766",
+      "22550012",
+      "29522153",
+      "32275847",
+      "22449982",
+      "36723807",
+      "27659989",
+      "31265077",
+      "32820397",
+      "27526722",
+      "26404155",
+      "39498488",
+      "9548713",
+      "28024297",
+      "18544548",
+      "25448293",
+      "26818008",
+      "11120677",
+      "33872156",
+      "30968131",
+      "12101405",
+      "34776217",
+      "32822050",
+      "33263279",
+      "22863112",
+      "27955889",
+      "26721486",
+      "39080437",
+      "38831502",
+      "30575519",
+      "30218370",
+      "19958507",
+      "11494319",
+      "19932116",
+      "2798415",
+      "9787640",
+      "19159457",
+      "31252062",
+      "26861146",
+      "26374059",
+      "18274532",
+      "33581335",
+      "28826674",
+      "21779159",
+      "23281809",
+      "40216226",
+      "29855387",
+      "24074120",
+      "35858748",
+      "40846509"
+    ],
+    "review": [
+      "37697433",
+      "33539885",
+      "26038153",
+      "10710711",
+      "22120510",
+      "28087167",
+      "32275847",
+      "27955889",
+      "11494319",
+      "9787640"
+    ],
+    "pmc": [
+      "10570052"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37697433/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/37697433",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37697433",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad720",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

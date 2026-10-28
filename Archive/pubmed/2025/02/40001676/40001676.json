@@ -1,0 +1,496 @@
+{
+  "identity": {
+    "pmid": "40001676",
+    "doi": "10.3390/bioengineering12020156",
+    "title": "Applications of Machine Learning-Driven Molecular Models for Advancing Ophthalmic Precision Medicine."
+  },
+  "content": {
+    "abstract": "Ophthalmic diseases such as glaucoma, age-related macular degeneration (ARMD), and optic neuritis involve complex molecular and cellular disruptions that challenge current diagnostic and therapeutic approaches. Advanced artificial intelligence (AI) and machine learning (ML) models offer a novel lens to analyze these diseases by integrating diverse datasets, identifying patterns, and enabling precision medicine strategies. Over the past decade, applications of AI in ophthalmology have expanded from imaging-based diagnostics to molecular-level modeling, bridging critical gaps in understanding disease mechanisms. This paper systematically reviews the application of AI-driven methods, including reinforcement learning (RL), graph neural networks (GNNs), Bayesian inference, and generative adversarial networks (GANs), in the context of these ophthalmic conditions. RL models simulate transcription factor dynamics in hypoxic or inflammatory environments, offering insights into disrupted molecular pathways. GNNs map intricate molecular networks within affected tissues, identifying key inflammatory or degenerative drivers. Bayesian inference provides probabilistic models for predicting disease progression and response to therapies, while GANs generate synthetic datasets to explore therapeutic interventions. By contextualizing these AI tools within the broader framework of ophthalmic disease management, this review highlights their potential to transform diagnostic precision and therapeutic outcomes. Ultimately, this work underscores the need for continued interdisciplinary collaboration to harness AI's potential in advancing the field of ophthalmology and improving patient care.",
+    "keywords": [
+      "AI in clinical diagnostics",
+      "machine learning in healthcare",
+      "molecular dynamics",
+      "neural network models",
+      "precision medicine"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Rahul",
+        "Ong, Joshua",
+        "Waisberg, Ethan",
+        "Lee, Ryung",
+        "Nguyen, Tuan",
+        "Paladugu, Phani",
+        "Rivolta, Maria Chiara",
+        "Gowda, Chirag",
+        "Janin, John Vincent",
+        "Saintyl, Jeremy",
+        "Amiri, Dylan",
+        "Gosain, Ansh",
+        "Jagadeesan, Ram"
+      ],
+      "short_names": [
+        "Kumar R",
+        "Ong J",
+        "Waisberg E",
+        "Lee R",
+        "Nguyen T",
+        "Paladugu P",
+        "Rivolta MC",
+        "Gowda C",
+        "Janin JV",
+        "Saintyl J",
+        "Amiri D",
+        "Gosain A",
+        "Jagadeesan R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8574-2895",
+        "ORCID: 0000-0003-4860-827X",
+        "ORCID: 0000-0002-8365-5672",
+        "ORCID: 0000-0002-9997-0335",
+        "ORCID: 0000-0002-2955-7190",
+        "ORCID: 0009-0004-4419-1045"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Miller School of Medicine, University of Miami, Miami, FL 33136, USA.",
+        "Department of Ophthalmology and Visual Sciences, University of Michigan Kellogg Eye Center, Ann Arbor, MI 48105, USA.",
+        "Department of Clinical Neurosciences, University of Cambridge, Cambridge CB2 3EB, UK.",
+        "Touro College of Osteopathic Medicine, New York, NY 10027, USA.",
+        "Weill Cornell/Rockefeller/Sloan-Kettering Tri-Institutional MD-PhD Program, New York, NY 10065, USA.",
+        "Sidney Kimmel Medical College, Thomas Jefferson University, Philadelphia, PA 19107, USA.",
+        "Brigham and Women's Hospital, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Ophthalmology, University of Eastern Piedmont \"A. Avogadro\", Via Ettore Perrone, 18, 28100 Novara, Italy.",
+        "Department of Biochemistry and Molecular Biology, Miller School of Medicine, University of Miami, Miami, FL 33136, USA.",
+        "Department of Biochemistry and Molecular Biology, Miller School of Medicine, University of Miami, Miami, FL 33136, USA.",
+        "Department of Chemistry, University of Miami, Coral Gables, FL 33146, USA.",
+        "Department of Biology, University of Miami, Coral Gables, FL 33146, USA.",
+        "Mecklenburg Neurology Group, Charlotte, NC 28211, USA.",
+        "Department of Biochemistry and Molecular Biology, Miller School of Medicine, University of Miami, Miami, FL 33136, USA.",
+        "Department of Computer Science, Whiting School of Engineering, Johns Hopkins University, Baltimore, MD 21218, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Rahul",
+        "short_name": "Kumar R",
+        "identifiers": [
+          "0000-0001-8574-2895"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Miller School of Medicine, University of Miami, Miami, FL 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Ong, Joshua",
+        "short_name": "Ong J",
+        "identifiers": [
+          "0000-0003-4860-827X"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology and Visual Sciences, University of Michigan Kellogg Eye Center, Ann Arbor, MI 48105, USA."
+        ]
+      },
+      {
+        "full_name": "Waisberg, Ethan",
+        "short_name": "Waisberg E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Neurosciences, University of Cambridge, Cambridge CB2 3EB, UK."
+        ]
+      },
+      {
+        "full_name": "Lee, Ryung",
+        "short_name": "Lee R",
+        "identifiers": [
+          "0000-0002-8365-5672"
+        ],
+        "affiliations": [
+          "Touro College of Osteopathic Medicine, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Tuan",
+        "short_name": "Nguyen T",
+        "identifiers": [],
+        "affiliations": [
+          "Weill Cornell/Rockefeller/Sloan-Kettering Tri-Institutional MD-PhD Program, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Paladugu, Phani",
+        "short_name": "Paladugu P",
+        "identifiers": [],
+        "affiliations": [
+          "Sidney Kimmel Medical College, Thomas Jefferson University, Philadelphia, PA 19107, USA.",
+          "Brigham and Women's Hospital, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Rivolta, Maria Chiara",
+        "short_name": "Rivolta MC",
+        "identifiers": [
+          "0000-0002-9997-0335"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, University of Eastern Piedmont \"A. Avogadro\", Via Ettore Perrone, 18, 28100 Novara, Italy."
+        ]
+      },
+      {
+        "full_name": "Gowda, Chirag",
+        "short_name": "Gowda C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Miller School of Medicine, University of Miami, Miami, FL 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Janin, John Vincent",
+        "short_name": "Janin JV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Miller School of Medicine, University of Miami, Miami, FL 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Saintyl, Jeremy",
+        "short_name": "Saintyl J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Miami, Coral Gables, FL 33146, USA."
+        ]
+      },
+      {
+        "full_name": "Amiri, Dylan",
+        "short_name": "Amiri D",
+        "identifiers": [
+          "0000-0002-2955-7190"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Miami, Coral Gables, FL 33146, USA.",
+          "Mecklenburg Neurology Group, Charlotte, NC 28211, USA."
+        ]
+      },
+      {
+        "full_name": "Gosain, Ansh",
+        "short_name": "Gosain A",
+        "identifiers": [
+          "0009-0004-4419-1045"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Miller School of Medicine, University of Miami, Miami, FL 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Jagadeesan, Ram",
+        "short_name": "Jagadeesan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Whiting School of Engineering, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioengineering (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Bioengineering (Basel)"
+    ],
+    "pub_date": "2025 Feb 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/26 06:27",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39592855",
+      "39267172",
+      "38965655",
+      "38803647",
+      "38783085",
+      "38611617",
+      "38564358",
+      "38514615",
+      "38398742",
+      "38308315",
+      "38297331",
+      "38137014",
+      "37669960",
+      "37488468",
+      "37396052",
+      "37385253",
+      "37061083",
+      "37029212",
+      "36925938",
+      "36830640",
+      "36468086",
+      "36316368",
+      "36220072",
+      "36216772",
+      "35906132",
+      "35837482",
+      "35034261",
+      "34077762",
+      "33597034",
+      "33273494",
+      "32167919",
+      "32105823",
+      "31434538",
+      "30943338",
+      "30617339",
+      "30617335",
+      "30538529",
+      "30236283",
+      "30106803",
+      "30055153",
+      "29659558",
+      "29527677",
+      "28476144",
+      "26248581",
+      "25912998",
+      "25750690",
+      "25105142",
+      "24655508",
+      "24424177",
+      "23046631",
+      "18929124",
+      "16962364",
+      "12150988",
+      "5915961"
+    ],
+    "similar": [
+      "40001676",
+      "40394320",
+      "39013268",
+      "40553344",
+      "38762072",
+      "40166361",
+      "40263170",
+      "39677277",
+      "40747166",
+      "40838224",
+      "38161806",
+      "38975538",
+      "39721292",
+      "41711077",
+      "41471520",
+      "39996136",
+      "40142244",
+      "38435218",
+      "40711807",
+      "37779744",
+      "40501296",
+      "41388211",
+      "41170231",
+      "40975441",
+      "39133462",
+      "40851729",
+      "40241963",
+      "40251567",
+      "40228444",
+      "40131188",
+      "40740956",
+      "40616302",
+      "40896622",
+      "40957986",
+      "40645039",
+      "40893125",
+      "39629887",
+      "41043137",
+      "41375721",
+      "40354275",
+      "39834911",
+      "40517231",
+      "40098604",
+      "40453785",
+      "34268437",
+      "39941325",
+      "41477342",
+      "40791911",
+      "40140300",
+      "40647712",
+      "41468029",
+      "39526945",
+      "41751160",
+      "40150498",
+      "38391608",
+      "40426849",
+      "40065389",
+      "39647859",
+      "36611392",
+      "31149787",
+      "41630488",
+      "41410516",
+      "41266662",
+      "40536356",
+      "40376348",
+      "38628986",
+      "39819459",
+      "40587976",
+      "41758481",
+      "40762974",
+      "41050046",
+      "40965022",
+      "41531594",
+      "37777066",
+      "41520911",
+      "40184880",
+      "40745644",
+      "40553330",
+      "40414522",
+      "38186931",
+      "38734807",
+      "39776281",
+      "40283559",
+      "39929595",
+      "40579558",
+      "40660032",
+      "40851938",
+      "40940963",
+      "39766465",
+      "41451278",
+      "39332994",
+      "41749685",
+      "41631125",
+      "39917100",
+      "38581445",
+      "33036834",
+      "39703783",
+      "41717418",
+      "37876506",
+      "41463599"
+    ],
+    "review": [
+      "40001676",
+      "40394320",
+      "39013268",
+      "38762072",
+      "40263170",
+      "39677277",
+      "40747166",
+      "40838224",
+      "38161806",
+      "38975538",
+      "39721292",
+      "41711077",
+      "41471520",
+      "39996136",
+      "40142244",
+      "38435218",
+      "40711807",
+      "37779744",
+      "40501296",
+      "41388211",
+      "40975441",
+      "39133462",
+      "40851729",
+      "40241963",
+      "40251567",
+      "40228444",
+      "40131188",
+      "40740956",
+      "40616302",
+      "40896622",
+      "40957986",
+      "40645039",
+      "40893125",
+      "39629887",
+      "41043137",
+      "41375721",
+      "40354275",
+      "39834911",
+      "40517231",
+      "40098604",
+      "40453785",
+      "34268437",
+      "39941325",
+      "41477342",
+      "40791911",
+      "40140300",
+      "40647712",
+      "41468029",
+      "39526945",
+      "41751160",
+      "40150498",
+      "38391608",
+      "40426849",
+      "39647859",
+      "36611392",
+      "31149787",
+      "41630488",
+      "41410516",
+      "41266662",
+      "40536356",
+      "40376348",
+      "39819459",
+      "40587976",
+      "41758481",
+      "41050046",
+      "40965022",
+      "41531594",
+      "37777066",
+      "41520911",
+      "40184880",
+      "40553330",
+      "40414522",
+      "38734807",
+      "39776281",
+      "40283559",
+      "40851938",
+      "40940963",
+      "39766465",
+      "41451278",
+      "41749685",
+      "41631125",
+      "39917100",
+      "39703783",
+      "41717418",
+      "37876506",
+      "41463599"
+    ],
+    "pmc": [
+      "11851544"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=bioengineering12020156",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40001676/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

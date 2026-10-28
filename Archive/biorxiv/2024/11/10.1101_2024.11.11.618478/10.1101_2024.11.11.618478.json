@@ -1,0 +1,703 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.11.618478",
+  "title": "GHT-SELEX demonstrates unexpectedly high intrinsic sequence specificity and complex DNA binding of many human transcription factors",
+  "doi": "10.1101/2024.11.11.618478",
+  "abstract": "Precise identification of transcription factor (TF) binding sites is a long standing challenge in human regulatory genomics: TF binding motifs are short and degenerate, while the genome is large. Motif scans, therefore, often produce excessive binding site predictions. By surveying 179 TFs across 25 families using >1,500 cyclic in vitro selection experiments with fragmented, naked, and unmodified genomic DNA – a method we term GHT-SELEX (Genomic HT-SELEX) – we find that many human TFs possess much higher sequence specificity than anticipated. Moreover, genomic binding regions from GHT-SELEX are often surprisingly similar to those obtained in vivo (i.e., ChIP-seq peaks). Contrary to conventional wisdom, we find that high specificity can also be obtained from motif scans, but performance is highly dependent on the derivation and use of the motifs, including accounting for multiple local matches. We also observe alternative engagement of multiple DNA-binding domains within the same protein: long C2H2 zinc finger proteins often utilize modular DNA recognition, engaging different subsets of their DNA-binding domain (DBD) arrays to recognize multiple types of distinct target sites, frequently evolving via internal duplication and divergence of one or more DBDs. Thus, it is common for TFs to possess sufficient intrinsic specificity to delineate a large fraction of in vivo genomic targets, independently of other cellular factors.",
+  "authors": [
+    "Arttu Jolma",
+    "Aldo Hernandez-Corchado",
+    "Ally W.H. Yang",
+    "Ali Fathi",
+    "Kaitlin U. Laverty",
+    "Alexander Brechalov",
+    "Rozita Razavi",
+    "Mihai Albu",
+    "Hong Zheng",
+    "The Codebook Consortium",
+    "Ivan V. Kulakovskiy",
+    "Hamed S. Najafabadi",
+    "Timothy R. Hughes"
+  ],
+  "published_date": "2024-11-12",
+  "updated_date": "2024-11-12T18:35:15Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.618478",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.618478.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            24
+          ]
+        ],
+        "date-time": "2026-02-24T05:48:33Z",
+        "timestamp": 1771912113797,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 69,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                12
+              ]
+            ],
+            "date-time": "2024-11-12T00:00:00Z",
+            "timestamp": 1731369600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>SUMMARY</jats:title>\n                <jats:p>\n                  Precise identification of transcription factor (TF) binding sites is a long standing challenge in human regulatory genomics: TF binding motifs are short and degenerate, while the genome is large. Motif scans, therefore, often produce excessive binding site predictions. By surveying 179 TFs across 25 families using &gt;1,500 cyclic\n                  <jats:italic>in vitro</jats:italic>\n                  selection experiments with fragmented, naked, and unmodified genomic DNA – a method we term GHT-SELEX (Genomic HT-SELEX) – we find that many human TFs possess much higher sequence specificity than anticipated. Moreover, genomic binding regions from GHT-SELEX are often surprisingly similar to those obtained\n                  <jats:italic>in vivo</jats:italic>\n                  (i.e., ChIP-seq peaks). Contrary to conventional wisdom, we find that high specificity can also be obtained from motif scans, but performance is highly dependent on the derivation and use of the motifs, including accounting for multiple local matches. We also observe alternative engagement of multiple DNA-binding domains within the same protein: long C2H2 zinc finger proteins often utilize modular DNA recognition, engaging different subsets of their DNA-binding domain (DBD) arrays to recognize multiple types of distinct target sites, frequently evolving via internal duplication and divergence of one or more DBDs. Thus, it is common for TFs to possess sufficient intrinsic specificity to delineate a large fraction of\n                  <jats:italic>in vivo</jats:italic>\n                  genomic targets, independently of other cellular factors.\n                </jats:p>",
+      "DOI": "10.1101/2024.11.11.618478",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2024-11-12T18:35:15Z",
+        "timestamp": 1731436515000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "GHT-SELEX demonstrates unexpectedly high intrinsic sequence specificity and complex DNA binding of many human transcription factors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2543-7490",
+          "authenticated-orcid": false,
+          "given": "Arttu",
+          "family": "Jolma",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0682-3959",
+          "authenticated-orcid": false,
+          "given": "Aldo",
+          "family": "Hernandez-Corchado",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8678-0946",
+          "authenticated-orcid": false,
+          "given": "Ally W.H.",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-1441-9653",
+          "authenticated-orcid": false,
+          "given": "Ali",
+          "family": "Fathi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-4341-4665",
+          "authenticated-orcid": false,
+          "given": "Kaitlin U.",
+          "family": "Laverty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Brechalov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-5466-6519",
+          "authenticated-orcid": false,
+          "given": "Rozita",
+          "family": "Razavi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mihai",
+          "family": "Albu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hong",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "The Codebook Consortium",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6554-8128",
+          "authenticated-orcid": false,
+          "given": "Ivan V.",
+          "family": "Kulakovskiy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2735-4231",
+          "authenticated-orcid": false,
+          "given": "Hamed S.",
+          "family": "Najafabadi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8721-4719",
+          "authenticated-orcid": false,
+          "given": "Timothy R.",
+          "family": "Hughes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3005"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1188"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0042779"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0411-1"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2009.08.003"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-021-02503-y"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1315"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1246"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Marinov, G.K. , Kundaje, A. , Park, P.J. & Wold, B.J . Large-Scale Quality Analysis of Published ChIP-seq Data. G3 (Bethesda) (2013).",
+          "DOI": "10.1534/g3.113.008680"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2493-4"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.11.013"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.09.018"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08531"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.5655606"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.12.048"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1000138"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Walker, M. et al. Affinity-seq detects genome-wide PRDM9 binding sites and reveals the impact of prior chromatin modifications on mammalian recombination hotspot usage. Epigenetics Chromatin 8, 31 (2015).",
+          "DOI": "10.1186/s13072-015-0024-6"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Morgunova, E. et al. Two distinct DNA sequences recognized by transcription factors represent enthalpy and entropy optima. Elife 7(2018).",
+          "DOI": "10.7554/eLife.32963"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08473"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.112.138685"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15518"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Horton, C.A. et al. Short tandem repeats bind transcription factors to tune eukaryotic gene expression. Science 381, eadd1250 (2023).",
+          "DOI": "10.1126/science.add1250"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100617-062719"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08924"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.09.045"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.29.1.183"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-010909-095056"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-90-481-9069-0_4"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2013.04.024"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.11.039"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.279406.116"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Najafabadi, H.S. et al. C2H2 zinc finger proteins greatly expand the human regulatory lexicon. Nat Biotechnol (2015).",
+          "DOI": "10.1038/nbt.3128"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv284"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2200121"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100552.109"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yin, Y. et al. Impact of cytosine methylation on DNA binding specificities of human transcription factors. Science 356(2017).",
+          "DOI": "10.1126/science.aaj2239"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.290684"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw051"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1001134"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.038"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jolma, A. et al. Perspectives on Codebook: sequence specificity of uncharacterized human transcription factors. bioRxiv, 2024.11.11.622097 (2024).",
+          "DOI": "10.1101/2024.11.11.622097"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4143"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Razavi, R. et al. Extensive binding of uncharacterized human transcription factors to genomic dark matter. bioRxiv, 2024.11.11.622123 (2024).",
+          "DOI": "10.1101/2024.11.11.622123"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.209643.116"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vorontsov, I.E. et al. Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors. bioRxiv, 2024.11.11.619379 (2024).",
+          "DOI": "10.1101/2024.11.11.619379"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gralak, A.J. et al. Identification of methylation-sensitive human transcription factors using meSMiLE-seq. bioRxiv, 2024.11.11.619598 (2024).",
+          "DOI": "10.1101/2024.11.11.619598"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Razavi, R. et al. Extensive binding of uncharacterized human transcription factors to genomic dark matter. bioRxiv, 2024.11.11.622123 (2024).",
+          "DOI": "10.1101/2024.11.11.622123"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.4.958"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Khetan, S. , Carroll, B.S. & Bulyk, M.L . Multiple overlapping binding sites determine transcription factor occupancy. Nature (2025).",
+          "DOI": "10.1038/s41586-025-09472-3"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(98)01187-6"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2486"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-7027-8_9"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s004120100146"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22366"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06661-w"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/10.9.2997"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac694"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu170"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr011"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.66",
+          "unstructured": "Vorontsov, I.E. et al. Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors. bioRxiv, 2024.11.11.619379 (2024)."
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp554"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1287-y"
+        },
+        {
+          "key": "2025101010200941000_2024.11.11.618478v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw683"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.11.618478",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:27:01Z",
+        "timestamp": 1768462021000
+      },
+      "score": 105.50714,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.11.618478"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "references-count": 69,
+      "URL": "https://doi.org/10.1101/2024.11.11.618478",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

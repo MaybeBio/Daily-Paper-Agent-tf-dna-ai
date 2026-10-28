@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that conserved prolines (P577 and P588) in the C-terminal extension of the Kaiso zinc finger domain are critical for DNA-binding activity, with P588 in trans conformation providing essential rigidity and intramolecular tension, and that cis-trans isomerization of P588 may serve as a regulatory mechanism.
+- **Visible evidence base** Molecular dynamics simulations (100 ns trajectories, with one extended 500 ns run), electrophoretic mobility shift assays with mutant and deletion derivatives, sequence conservation analysis, and reference to prior structural data (PDB 4F6N, 2LT7)
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S5, Tables S1–S3) are referenced but not provided; raw EMSA gel images are not shown; no quantitative binding affinity data (e.g., Kd values) are presented; no replicate information for EMSA experiments is given; force field parameters and simulation convergence metrics are only partially described
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question regarding the role of proline conformation in allosteric regulation of a zinc finger DNA-binding protein. The combination of MD simulations and in vitro binding assays is appropriate, and the findings suggest a novel mechanism involving intramolecular tension. However, the evidence presented is incomplete in several respects. The MD simulation results are descriptive and lack rigorous quantitative analysis, the in vitro data are not quantified or replicated, and the central claim of cis-trans isomerization as a regulatory mechanism is speculative without direct experimental support. The discrepancy between MD predictions and experimental results for P577A is acknowledged but not fully resolved. The manuscript would benefit from more thorough experimental validation and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers studying C2H2 zinc finger proteins, transcription factor DNA-binding mechanisms, allosteric regulation, proline isomerization in protein function, and the Kaiso family of proteins (including ZBTB4 and ZBTB38). The proposed mechanism of intramolecular tension and proline-mediated regulation could have broader implications for understanding how disordered regions and proline conformations modulate DNA-binding activity in other transcription factors.
+- **Major strengths** 1) The study addresses a specific and mechanistically interesting question about proline function in a well-defined DNA-binding domain. 2) The combination of computational (MD) and experimental (EMSA) approaches provides complementary perspectives. 3) The identification of conserved prolines across vertebrates and paralogous proteins strengthens the biological relevance. 4) The authors acknowledge limitations and discrepancies in their data, which is scientifically honest.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that P588 cis-trans isomerization may regulate Kaiso DNA-binding activity is presented as a plausible mechanism, but no direct experimental evidence for such regulation (e.g., via prolyl isomerases) is provided.
+  - **Evidence pointer** Section 3 (Discussion), Section 2.2 (MD simulations)
+  - **Concern** The manuscript speculates that cis-trans isomerization of P588 could regulate Kaiso DNA binding, but this is only supported by MD simulations of a constrained cis conformation. No experiments with prolyl isomerases, phosphorylation mimics, or other approaches to test the regulatory hypothesis are presented. The claim that "DNA-binding activity may be regulated by a cis-trans switch mediated by proline-isomerase family proteins" (Section 1) is therefore not experimentally substantiated.
+  - **Why it matters** The regulatory mechanism is a central part of the paper's significance and framing. Without direct evidence, the claim remains speculative and reduces the impact of the findings.
+  - **Resolution test** Provide experimental evidence for cis-trans regulation, such as: (a) testing the effect of a prolyl isomerase (e.g., Pin1) on Kaiso DNA binding, (b) using a non-isomerizable proline analog, or (c) demonstrating that phosphorylation of S578 (adjacent to P577) affects isomerization or binding. Alternatively, clearly reframe the claim as a hypothesis requiring future testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The in vitro EMSA results are described qualitatively (e.g., "negatively affected," "almost completely abolished"), and the claim that P588A and P588V "almost completely abolished" binding is not supported by quantitative data.
+  - **Evidence pointer** Section 2.3, Figure 5
+  - **Concern** The EMSA data are presented as gel images without quantification. No binding affinities, percent bound values, or statistical analyses are provided. The differences between mutants are described in relative terms, but the reader cannot assess the magnitude of effects or their significance. This is particularly problematic for the comparison between P588A and P588V, where the authors claim both abolish binding but for different reasons.
+  - **Why it matters** Quantitative binding data are essential to support the claims about the relative importance of proline rigidity versus side-chain size/hydrophobicity. Without quantification, the conclusions about the mechanism are not robustly supported.
+  - **Resolution test** Provide quantified EMSA data (e.g., fraction of DNA bound as a function of protein concentration) with at least three independent replicates, and report Kd values or relative binding efficiencies with error bars and statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The MD simulation results are used to support claims about H-bond losses and allosteric effects, but the analysis is not fully described and the significance of observed differences is not assessed.
+  - **Evidence pointer** Section 2.2, Figures 2–4, Tables S2–S3
+  - **Concern** The H-bond occupancy analysis is described as using a 15% threshold, but the rationale for this threshold is not given. The authors state that some H-bonds "increased their presence" in mutants but were not considered because they did not exceed the threshold; this is confusing and not clearly explained. Additionally, no error estimates or replicate simulations are reported, so the robustness of the H-bond occupancy differences is unknown.
+  - **Why it matters** The MD results are a key pillar of the paper's conclusions. Without proper statistical treatment and clear methodology, the reliability of the predicted H-bond changes and allosteric effects cannot be evaluated.
+  - **Resolution test** Provide details on the threshold selection, report standard deviations or confidence intervals for H-bond occupancies (e.g., from block averaging or multiple replicates), and clarify how increased H-bonds were handled in the analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency
+  - **Claim pointer** The authors state that P588V "restores the ability of the C-terminal extension to interact with specific DNA sites" in MD simulations but "almost completely abolished" binding in vitro, and they attribute this to loss of chain rigidity.
+  - **Evidence pointer** Section 2.2, Section 2.3, Figure 3, Figure 5
+  - **Concern** The discrepancy between MD predictions (partial rescue by P588V) and experimental results (complete loss of binding) is noted but not mechanistically resolved. The authors suggest that loss of rigidity is responsible, but this is not directly tested. The argument that a valine substitution "leads to a loss of chain rigidity" is not well supported, as valine is also a rigid beta-branched amino acid.
+  - **Why it matters** The interpretation of the P588V results is central to the claim that rigidity, not just side-chain identity, is critical. Without a clear mechanistic explanation or additional experiments, the conclusion is weakened.
+  - **Resolution test** Provide additional experimental or computational evidence to distinguish between loss of rigidity and other effects of the valine substitution, such as altered side-chain packing or steric clashes. Alternatively, test other substitutions with different rigidity properties.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, description of simulation setup
+  - **Evidence pointer** Section 2.2, Section 4.4
+  - **Issue** The text states simulations were performed at 298.15 K in Section 4.4 but at 310 K in the same section. This inconsistency is confusing.
+  - **Required correction** Clarify the correct simulation temperature and ensure consistency between the methods text and any other references.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 5 description
+  - **Evidence pointer** Section 2.3, Figure 5
+  - **Issue** The figure legend is not provided in the manuscript text, making it difficult to interpret the EMSA results without referring to the figure itself.
+  - **Required correction** Include a complete figure legend describing the experimental conditions, protein concentrations, and labeling of lanes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1 (Introduction)
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction mentions that proline isomerization regulates transcription factor DNA binding in other systems, but specific examples are not cited in the text provided.
+  - **Required correction** Add citations to specific examples of proline isomerization regulating DNA-binding proteins to strengthen the rationale.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2, "squeezing" metaphor
+  - **Evidence pointer** Section 2.2, Section 5
+  - **Issue** The term "squeezing the DNA chain" is used to describe the proposed mechanism, but this is not a standard biophysical term and may be misleading.
+  - **Required correction** Replace with more precise language, such as "mechanical strain" or "conformational constraint," and define the concept clearly.
+
+## Risk / unsupported claims
+- The claim that cis-trans isomerization of P588 may regulate Kaiso DNA-binding activity is unsupported by direct experimental evidence and remains speculative.
+- The claim that P588V "leads to a loss of chain rigidity" is not directly demonstrated and is inferred from MD simulations without experimental validation.
+- The statement that "the presence of the C-terminal extension and cis-conformation of proline residues are essential for efficient Kaiso-DNA binding" is partially supported, but the role of cis-conformation is only inferred from MD, not tested experimentally.
+- The discrepancy between MD predictions and in vitro results for P577A is acknowledged but not resolved, leaving the predictive power of the simulations in question.
+- The biological relevance of the proposed regulatory mechanism in vivo is not addressed experimentally and is stated as requiring future study.

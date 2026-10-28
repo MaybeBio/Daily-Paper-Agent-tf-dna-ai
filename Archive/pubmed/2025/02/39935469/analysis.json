@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39935469",
+  "title": "Identification of WDR74 and TNFRSF12A as biomarkers for early osteoarthritis using machine learning and immunohistochemistry.",
+  "authors": "Chen, Yiwei; Lin, Jiali; Shi, Detong; Miao, Yu; Xue, Feng; Liu, Kexin; Wang, Xiaotao; Zhang, Changqing",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-02-12",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用机器学习识别骨关节炎泛素化相关基因生物标志物，仅涉及转录因子预测数据库查询，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Osteoarthritis (OA) is a chronic joint condition that causes pain, limited mobility, and reduced quality of life, posing a threat to healthy aging. Early detection is crucial for improving prognosis. Recent research has focused on the role of ubiquitination-related genes (URGs) in early OA prediction. This study aims to integrate URG expression data with machine learning (ML) to identify biomarkers that improve diagnosis and prognosis in the early stages of OA. METHODS: OA single-cell RNA sequencing datasets were collected from the GEO database. Single-cell analysis was performed to investigate the composition and relationships of chondrocytes in OA. The potential intercellular communication mechanisms were explored using the CellChat R package. URGs were retrieved from GeneCards, and ubiquitination scores were calculated using the AUCell package. Gene module analysis based on co-expression network analysis was conducted to identify core genes. Additionally, ML analysis was performed to identify core URGs and construct a diagnostic model. We employed XGBoost, a gradient-boosting ML algorithm, to identify core URGs and construct a diagnostic model. The model's performance was evaluated using the area under the curve (AUC) of the receiver operating characteristic (ROC) curve. In addition, we explored the relationship between core URGs and immune processes. The ChEA3 database was utilized to predict the transcription factors regulated by core ubiquitination-related genes. The expression of select URGs was validated using qRT-PCR and immunohistochemistry (IHC). RESULTS: We identified WDR74 and TNFRSF12A as pivotal ubiquitination-related genes associated with OA, exhibiting considerable differential expression. The diagnostic model constructed with URGs exhibited remarkable accuracy, with area under the curve (AUC) values consistently exceeding 0.9. The expression levels of WDR74 and TNFRSF12A were significantly higher in the IL-1beta-induced group in an in vitro qPCR experiment. The IHC validation on human knee joint specimens confirmed the upregulation of WDR74 and TNFRSF12A in OA tissues, corroborating their potential as diagnostic biomarkers. CONCLUSIONS: WDR74 and TNFRSF12A as principal biomarkers highlighted their attractiveness as therapeutic targets. The identification of core biomarkers might facilitate early intervention options, potentially modifying the illness trajectory and enhancing patient outcomes.",
+  "abstract_zh": "背景：骨关节炎（OA）是一种慢性关节疾病，导致疼痛、活动受限和生活质量下降，对健康老龄化构成威胁。早期检测对于改善预后至关重要。近期研究聚焦于泛素化相关基因（URGs）在OA早期预测中的作用。本研究旨在整合URG表达数据与机器学习（ML），以识别改善OA早期诊断和预后的生物标志物。方法：从GEO数据库收集OA单细胞RNA测序数据集。进行单细胞分析以探究OA中软骨细胞的组成和关系。使用CellChat R包探索潜在的细胞间通讯机制。从GeneCards获取URGs，并使用AUCell包计算泛素化评分。基于共表达网络分析进行基因模块分析以识别核心基因。此外，进行ML分析以识别核心URGs并构建诊断模型。我们采用XGBoost（一种梯度提升ML算法）来识别核心URGs并构建诊断模型。使用受试者工作特征（ROC）曲线的曲线下面积（AUC）评估模型性能。此外，我们探讨了核心URGs与免疫过程的关系。利用ChEA3数据库预测核心泛素化相关基因调控的转录因子。通过qRT-PCR和免疫组织化学（IHC）验证选定URGs的表达。结果：我们确定WDR74和TNFRSF12A为与OA相关的关键泛素化相关基因，表现出显著的差异表达。基于URGs构建的诊断模型展现出卓越的准确性，AUC值持续超过0.9。在体外qPCR实验中，IL-1beta诱导组的WDR74和TNFRSF12A表达水平显著升高。对人膝关节标本的IHC验证确认了OA组织中WDR74和TNFRSF12A的上调，证实了它们作为诊断生物标志物的潜力。结论：WDR74和TNFRSF12A作为主要生物标志物，凸显了它们作为治疗靶点的吸引力。核心生物标志物的识别可能促进早期干预选择，潜在地改变疾病轨迹并改善患者结局。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39935469/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39935469/",
+  "paper_page_path": "papers/pubmed/39935469/index.html"
+}

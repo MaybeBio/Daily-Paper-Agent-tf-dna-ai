@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "40733263",
+    "doi": "10.3390/molecules30142992",
+    "title": "Selective Cleaning Enhances Machine Learning Accuracy for Drug Repurposing: Multiscale Discovery of MDM2 Inhibitors."
+  },
+  "content": {
+    "abstract": "Cancer remains one of the most formidable challenges to human health; hence, developing effective treatments is critical for saving lives. An important strategy involves reactivating tumor suppressor genes, particularly p53, by targeting their negative regulator MDM2, which is essential in promoting cell cycle arrest and apoptosis. Leveraging a drug repurposing approach, we screened over 24,000 clinically tested molecules to identify new MDM2 inhibitors. A key innovation of this work is the development and application of a selective cleaning algorithm that systematically filters assay data to mitigate noise and inconsistencies inherent in large-scale bioactivity datasets. This approach significantly improved the predictive accuracy of our machine learning model for pIC(50) values, reducing RMSE by 21.6% and achieving state-of-the-art performance (R(2) = 0.87)-a substantial improvement over standard data preprocessing pipelines. The optimized model was integrated with structure-based virtual screening via molecular docking to prioritize repurposing candidate compounds. We identified two clinical CB1 antagonists, MePPEP and otenabant, and the statin drug atorvastatin as promising repurposing candidates based on their high predicted potency and binding affinity toward MDM2. Interactions with the related proteins MDM4 and BCL2 suggest these compounds may enhance p53 restoration through multi-target mechanisms. Quantum mechanical (ONIOM) optimizations and molecular dynamics simulations confirmed the stability and favorable interaction profiles of the selected protein-ligand complexes, resembling that of navtemadlin, a known MDM2 inhibitor. This multiscale, accuracy-boosted workflow introduces a novel data-curation strategy that substantially enhances AI model performance and enables efficient drug repurposing against challenging cancer targets.",
+    "keywords": [
+      "MDM2",
+      "docking",
+      "drug repurposing",
+      "machine learning",
+      "selective cleaning"
+    ],
+    "mesh_terms": [
+      "*Proto-Oncogene Proteins c-mdm2/antagonists & inhibitors/chemistry/metabolism",
+      "*Machine Learning",
+      "*Drug Repositioning/methods",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Drug Discovery",
+      "Algorithms",
+      "Protein Binding",
+      "Tumor Suppressor Protein p53"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akmal, Mohammad Firdaus",
+        "Wong, Ming Wah"
+      ],
+      "short_names": [
+        "Akmal MF",
+        "Wong MW"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8030-0000",
+        "ORCID: 0000-0003-2162-1220"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Faculty of Science, National University of Singapore, 3 Science Drive 3, Singapore 117543, Singapore.",
+        "Department of Chemistry, Faculty of Science, National University of Singapore, 3 Science Drive 3, Singapore 117543, Singapore."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akmal, Mohammad Firdaus",
+        "short_name": "Akmal MF",
+        "identifiers": [
+          "0000-0001-8030-0000"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, National University of Singapore, 3 Science Drive 3, Singapore 117543, Singapore."
+        ]
+      },
+      {
+        "full_name": "Wong, Ming Wah",
+        "short_name": "Wong MW",
+        "identifiers": [
+          "0000-0003-2162-1220"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, National University of Singapore, 3 Science Drive 3, Singapore 117543, Singapore."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2025 Jul 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/30 06:28",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42370758",
+      "41942578"
+    ],
+    "refs": [
+      "38695063",
+      "38647086",
+      "38338378",
+      "38147829",
+      "38059334",
+      "37953279",
+      "37933841",
+      "37779953",
+      "37765069",
+      "37506762",
+      "37375838",
+      "36852389",
+      "36669146",
+      "36416118",
+      "36305812",
+      "35255749",
+      "35018225",
+      "34278794",
+      "33834929",
+      "33431024",
+      "33198233",
+      "32971841",
+      "32752951",
+      "32651541",
+      "32167393",
+      "31294972",
+      "31066983",
+      "30488727",
+      "30310233",
+      "30237864",
+      "27789690",
+      "27768894",
+      "27764791",
+      "26459177",
+      "25396320",
+      "23373702",
+      "23351099",
+      "23262034",
+      "22703617",
+      "21448176",
+      "19499576",
+      "19455066",
+      "19008887",
+      "18989472",
+      "17172851",
+      "16543935",
+      "16200636",
+      "16159876",
+      "10963376",
+      "10592235",
+      "9126849",
+      "8875929",
+      "8504413",
+      "7949188"
+    ],
+    "similar": [
+      "40733263",
+      "31473433",
+      "38059334",
+      "35536362",
+      "34794098",
+      "30464405",
+      "40396628",
+      "24858256",
+      "25388787",
+      "25377899",
+      "30513790",
+      "32691963",
+      "24050442",
+      "38204258",
+      "40339040",
+      "35822492",
+      "41053158",
+      "39795242",
+      "27269808",
+      "27302609",
+      "38111168",
+      "33925237",
+      "40899411",
+      "23400593",
+      "37029281",
+      "24554192",
+      "40251828",
+      "41319394",
+      "26746660",
+      "31795143",
+      "24476585",
+      "31089613",
+      "35961068",
+      "26141769",
+      "40853597",
+      "25987034",
+      "31781989",
+      "26359458",
+      "33988074",
+      "36922937",
+      "39827292",
+      "32359398",
+      "18673221",
+      "24358984",
+      "23726030",
+      "32001262",
+      "27905468",
+      "25312347",
+      "21046355",
+      "30253242",
+      "29070416",
+      "40825424",
+      "25739118",
+      "23428467",
+      "40427535",
+      "28723868",
+      "34413896",
+      "24983416",
+      "38679255",
+      "33952867",
+      "40022459",
+      "23611770",
+      "31304749",
+      "23601819",
+      "27543608",
+      "37578044",
+      "25042256",
+      "28669344",
+      "27542305",
+      "30721669",
+      "26265252",
+      "33773191",
+      "26720344",
+      "39384887",
+      "20666726",
+      "40576645",
+      "23046248",
+      "19910468",
+      "16789731",
+      "23035244",
+      "39740390",
+      "23262034",
+      "19727615",
+      "21425995",
+      "22731511",
+      "39826482",
+      "24210632",
+      "41497266",
+      "26584879",
+      "27943171",
+      "38991490",
+      "26616018",
+      "30598450",
+      "22650254",
+      "36758667",
+      "39337714",
+      "30724592",
+      "39899126",
+      "41406173",
+      "28296148"
+    ],
+    "review": [
+      "40733263",
+      "27302609",
+      "40853597",
+      "18673221",
+      "21046355",
+      "30253242",
+      "29070416",
+      "40427535",
+      "28669344",
+      "20666726",
+      "23262034",
+      "21425995",
+      "39826482",
+      "27943171"
+    ],
+    "pmc": [
+      "12299252"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules30142992",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40733263/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

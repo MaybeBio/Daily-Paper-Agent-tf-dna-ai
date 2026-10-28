@@ -1,0 +1,601 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2023.11.11.23295492",
+  "title": "Single-cell spatial proteomics identifies the JAK/STAT pathway as an actionable therapeutic target in lethal cutaneous drug reactions",
+  "doi": "10.1101/2023.11.11.23295492",
+  "abstract": "Toxic epidermal necrolysis (TEN) is a fatal drug-induced skin reaction and an emerging public health issue. Triggered by common medications, TEN patients undergo severe and sudden epidermal detachment caused by keratinocyte cell death. Although molecular mechanisms driving keratinocyte cell death have been proposed, the main drivers remain unknown and no effective therapy exists. To systematically map molecular changes that are associated with TEN and identify potential druggable targets, we employed the single- cell spatial proteomics technique Deep Visual Proteomics. We analyzed formalin-fixed paraffin-embedded archived skin-tissue biopsies of three types of cutaneous drug reactions with varying severity and quantified over 5,000 proteins in keratinocytes and skin-infiltrating immune cells. Most strikingly, this revealed a robust enrichment of Type-I and -II interferon signature in the immune cell and keratinocyte compartment of TEN patients, along with a drastic activation of pSTAT1. Targeted inhibition with pan- JAK inhibitor (JAKi) tofacitinib reduced keratinocyte-directed cytotoxicity in a novel live-cell imaging assay, using patient-derived keratinocytes and peripheral blood mononuclear cells (PBMCs). Furthermore, oral administration of pan-JAKi tofacitinib or baricitinib ameliorated clinical and histological disease severity in two distinct mouse models of TEN. Lastly, JAKi treatment was safe and associated with rapid cutaneous re- epithelialization and recovery in four patients with TEN. This study uncovers the JAK- STAT and interferon signaling pathways as key pathogenic drivers of TEN and demonstrates the potential of targeted JAK inhibition as a curative therapy.",
+  "authors": [
+    "Nordmann TM",
+    "Anderton H",
+    "Hasegawa A",
+    "Schweizer L",
+    "Zhang P",
+    "Stadler P",
+    "Sinha A",
+    "Metousis A",
+    "Rosenberger FA",
+    "Zwiebel M",
+    "Satoh TK",
+    "Anzengruber F",
+    "Tanzer MC",
+    "Saito Y",
+    "Gong T",
+    "Thielert M",
+    "Kimura H",
+    "Silke N",
+    "Rodriguez EH",
+    "Gaetana R",
+    "Nguyen HH",
+    "Gross A",
+    "Levesque MP",
+    "Murray PJ",
+    "Ingen-Housz-Oro S",
+    "Mund A",
+    "Abe R",
+    "Silke J",
+    "Ji C",
+    "French LE",
+    "Mann M"
+  ],
+  "published_date": "2023-11-12",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2023.11.11.23295492",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2023.11.11.23295492.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR758328",
+    "raw_record": {
+      "id": "PPR758328",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR758328"
+        ]
+      },
+      "doi": "10.1101/2023.11.11.23295492",
+      "title": "Single-cell spatial proteomics identifies the JAK/STAT pathway as an actionable therapeutic target in lethal cutaneous drug reactions",
+      "authorString": "Nordmann TM, Anderton H, Hasegawa A, Schweizer L, Zhang P, Stadler P, Sinha A, Metousis A, Rosenberger FA, Zwiebel M, Satoh TK, Anzengruber F, Tanzer MC, Saito Y, Gong T, Thielert M, Kimura H, Silke N, Rodriguez EH, Gaetana R, Nguyen HH, Gross A, Levesque MP, Murray PJ, Ingen-Housz-Oro S, Mund A, Abe R, Silke J, Ji C, French LE, Mann M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nordmann TM",
+            "lastName": "Nordmann",
+            "firstName": "Thierry",
+            "initials": "TM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                },
+                {
+                  "affiliation": "Department of Dermatology, University Hospital Zurich, University of Zurich, Zurich; Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Anderton H",
+            "lastName": "Anderton",
+            "firstName": "Holly",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Inflammation division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, VIC 3052, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hasegawa A",
+            "lastName": "Hasegawa",
+            "firstName": "Akito",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Dermatology, Niigata University Graduate School of Medical and Dental Sciences, Niigata, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schweizer L",
+            "lastName": "Schweizer",
+            "firstName": "Lisa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang P",
+            "lastName": "Zhang",
+            "firstName": "Peng",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology, The First Affiliated Hospital of Fujian Medical University, Fuzhou, Fujian, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stadler P",
+            "lastName": "Stadler",
+            "firstName": "Pia-Charlotte",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                },
+                {
+                  "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig Maximilian University (LMU) Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sinha A",
+            "lastName": "Sinha",
+            "firstName": "Ankit",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Metousis A",
+            "lastName": "Metousis",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rosenberger FA",
+            "lastName": "Rosenberger",
+            "firstName": "Florian",
+            "initials": "FA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zwiebel M",
+            "lastName": "Zwiebel",
+            "firstName": "Maximillian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Satoh TK",
+            "lastName": "Satoh",
+            "firstName": "Takashi",
+            "initials": "TK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig Maximilian University (LMU) Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Anzengruber F",
+            "lastName": "Anzengruber",
+            "firstName": "Florian",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology, University Hospital Zurich, University of Zurich, Zurich; Switzerland"
+                },
+                {
+                  "affiliation": "Department of Internal Medicine, Division of Dermatology, Cantonal Hospital Graubuenden, Chur, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tanzer MC",
+            "lastName": "Tanzer",
+            "firstName": "Maria",
+            "initials": "MC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Inflammation division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, VIC 3052, Australia"
+                },
+                {
+                  "affiliation": "Advanced Technology and Biology division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saito Y",
+            "lastName": "Saito",
+            "firstName": "Yuki",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Dermatology, Niigata University Graduate School of Medical and Dental Sciences, Niigata, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gong T",
+            "lastName": "Gong",
+            "firstName": "Ting",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology, The First Affiliated Hospital of Fujian Medical University, Fuzhou, Fujian, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thielert M",
+            "lastName": "Thielert",
+            "firstName": "Marvin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kimura H",
+            "lastName": "Kimura",
+            "firstName": "Haruna",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Dermatology, Niigata University Graduate School of Medical and Dental Sciences, Niigata, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Silke N",
+            "lastName": "Silke",
+            "firstName": "Natasha",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Inflammation division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, VIC 3052, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rodriguez EH",
+            "lastName": "Rodriguez",
+            "firstName": "Edwin",
+            "initials": "EH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gaetana R",
+            "lastName": "Gaetana",
+            "firstName": "Restivo",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology, University Hospital Zurich, University of Zurich, Zurich; Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nguyen HH",
+            "lastName": "Nguyen",
+            "firstName": "Hong Ha",
+            "initials": "HH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Dermatology, Niigata University Graduate School of Medical and Dental Sciences, Niigata, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gross A",
+            "lastName": "Gross",
+            "firstName": "Annette",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Immunoregulation Research Group, Max Planck Institute of Biochemistry, Martinsried, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levesque MP",
+            "lastName": "Levesque",
+            "firstName": "Mitchell",
+            "initials": "MP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5902-9420"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology, University Hospital Zurich, University of Zurich, Zurich; Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murray PJ",
+            "lastName": "Murray",
+            "firstName": "Peter",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Immunoregulation Research Group, Max Planck Institute of Biochemistry, Martinsried, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ingen-Housz-Oro S",
+            "lastName": "Ingen-Housz-Oro",
+            "firstName": "Saskia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dermatology Department, AP-HP, Henri Mondor Hospital, Créteil, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mund A",
+            "lastName": "Mund",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Proteomics Program, The Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abe R",
+            "lastName": "Abe",
+            "firstName": "Riichiro",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Dermatology, Niigata University Graduate School of Medical and Dental Sciences, Niigata, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Silke J",
+            "lastName": "Silke",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Inflammation division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, VIC 3052, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ji C",
+            "lastName": "Ji",
+            "firstName": "Chao",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology, The First Affiliated Hospital of Fujian Medical University, Fuzhou, Fujian, China"
+                },
+                {
+                  "affiliation": "Key Laboratory of Skin Cancer of Fujian Higher Education Institutions, Fujian Medical University, Fuzhou, Fujian, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "French LE",
+            "lastName": "French",
+            "firstName": "Lars",
+            "initials": "LE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Dermatology and Allergy, University Hospital, Ludwig Maximilian University (LMU) Munich, Germany"
+                },
+                {
+                  "affiliation": "Dr. Philip Frost, Department of Dermatology and Cutaneous Surgery, University of Miami Miller School of Medicine, Miami, FL"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mann M",
+            "lastName": "Mann",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Proteomics and Signal Transduction; Max Planck Institute of Biochemistry; Martinsried, Bavaria, 82152; Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5902-9420"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Toxic epidermal necrolysis (TEN) is a fatal drug-induced skin reaction and an emerging public health issue. Triggered by common medications, TEN patients undergo severe and sudden epidermal detachment caused by keratinocyte cell death. Although molecular mechanisms driving keratinocyte cell death have been proposed, the main drivers remain unknown and no effective therapy exists. To systematically map molecular changes that are associated with TEN and identify potential druggable targets, we employed the single- cell spatial proteomics technique Deep Visual Proteomics. We analyzed formalin-fixed paraffin-embedded archived skin-tissue biopsies of three types of cutaneous drug reactions with varying severity and quantified over 5,000 proteins in keratinocytes and skin-infiltrating immune cells. Most strikingly, this revealed a robust enrichment of Type-I and -II interferon signature in the immune cell and keratinocyte compartment of TEN patients, along with a drastic activation of pSTAT1. Targeted inhibition with pan- JAK inhibitor (JAKi) tofacitinib reduced keratinocyte-directed cytotoxicity in a novel live-cell imaging assay, using patient-derived keratinocytes and peripheral blood mononuclear cells (PBMCs). Furthermore, oral administration of pan-JAKi tofacitinib or baricitinib ameliorated clinical and histological disease severity in two distinct mouse models of TEN. Lastly, JAKi treatment was safe and associated with rapid cutaneous re- epithelialization and recovery in four patients with TEN. This study uncovers the JAK- STAT and interferon signaling pathways as key pathogenic drivers of TEN and demonstrates the potential of targeted JAK inhibition as a curative therapy.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "199648",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2023/11/12/2023.11.11.23295492.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.11.11.23295492"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR758328"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR758328&type=FILE&fileName=EMS190968-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS190968",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-11-14",
+      "firstPublicationDate": "2023-11-12",
+      "firstIndexDate": "2023-11-14",
+      "fullTextReceivedDate": "2024-01-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

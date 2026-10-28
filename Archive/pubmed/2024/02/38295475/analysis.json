@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38295475",
+  "title": "DRBpred: A sequence-based machine learning method to effectively predict DNA- and RNA-binding residues.",
+  "authors": "Kabir, Md Wasi Ul; Alawad, Duaa Mohammad; Pokhrel, Pujan; Hoque, Md Tamjidul",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2024-02-01",
+  "window": {
+    "start": "2024-01-29",
+    "end": "2024-02-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用序列特征和LightGBM预测DNA/RNA结合残基，属于广义蛋白-DNA互作位点预测，方法可迁移至TF-DNA体系，但未聚焦TF-DNA且无三维结构建模。",
+  "abstract": "DNA-binding and RNA-binding proteins are essential to an organism's normal life cycle. These proteins have diverse functions in various biological processes. DNA-binding proteins are crucial for DNA replication, transcription, repair, packaging, and gene expression. Likewise, RNA-binding proteins are essential for the post-transcriptional control of RNAs and RNA metabolism. Identifying DNA- and RNA-binding residue is essential for biological research and understanding the pathogenesis of many diseases. However, most DNA-binding and RNA-binding proteins still need to be discovered. This research explored various properties of the protein sequences, such as amino acid composition type, Position-Specific Scoring Matrix (PSSM) values of amino acids, Hidden Markov model (HMM) profiles, physiochemical properties, structural properties, torsion angles, and disorder regions. We utilized a sliding window technique to extract more information from a target residue's neighbors. We proposed an optimized Light Gradient Boosting Machine (LightGBM) method, named DRBpred, to predict DNA-binding and RNA-binding residues from the protein sequence. DRBpred shows an improvement of 112.00 %, 33.33 %, and 6.49 % for the DNA-binding test set compared to the state-of-the-art method. It shows an improvement of 112.50 %, 16.67 %, and 7.46 % for the RNA-binding test set regarding Sensitivity, Mathews Correlation Coefficient (MCC), and AUC metric.",
+  "abstract_zh": "DNA结合蛋白和RNA结合蛋白对生物体的正常生命周期至关重要。这些蛋白在各种生物过程中具有多种功能。DNA结合蛋白对于DNA复制、转录、修复、包装和基因表达至关重要。同样，RNA结合蛋白对于RNA的转录后调控和RNA代谢也是必不可少的。识别DNA和RNA结合残基对于生物学研究以及理解许多疾病的发病机制至关重要。然而，大多数DNA结合蛋白和RNA结合蛋白仍有待发现。本研究探索了蛋白质序列的各种特性，如氨基酸组成类型、氨基酸的位置特异性评分矩阵（PSSM）值、隐马尔可夫模型（HMM）图谱、理化性质、结构性质、扭转角和无序区域。我们利用滑动窗口技术从目标残基的邻近残基中提取更多信息。我们提出了一种优化的轻量级梯度提升机（LightGBM）方法，命名为DRBpred，用于从蛋白质序列中预测DNA结合和RNA结合残基。与最先进的方法相比，DRBpred在DNA结合测试集上分别提高了112.00%、33.33%和6.49%。在RNA结合测试集上，在灵敏度、马修斯相关系数（MCC）和AUC指标方面，它分别提高了112.50%、16.67%和7.46%。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38295475/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38295475/",
+  "paper_page_path": "papers/pubmed/38295475/index.html"
+}

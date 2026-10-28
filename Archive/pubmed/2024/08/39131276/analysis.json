@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39131276",
+  "title": "EPInformer: a scalable deep learning framework for gene expression prediction by integrating promoter-enhancer sequences with multimodal epigenomic data.",
+  "authors": "Lin, Jiecong; Luo, Ruibang; Pinello, Luca",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-08-12",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出EPInformer深度学习框架，整合启动子-增强子序列与表观基因组数据预测基因表达，虽涉及转录调控和TF基序识别，但核心是基因表达预测而非TF-DNA结合互作建模，方法可迁移但对象和互作轴匹配度中等。",
+  "abstract": "Transcriptional regulation, critical for cellular differentiation and adaptation to environmental changes, involves coordinated interactions among DNA sequences, regulatory proteins, and chromatin architecture. Despite extensive data from consortia like ENCODE, understanding the dynamics of cis-regulatory elements (CREs) in gene expression remains challenging. Deep learning is a powerful tool for learning gene expression and epigenomic signals from DNA sequences, exhibiting superior performance compared to conventional machine learning approaches. However, even the most advanced deep learning-based methods may fall short in capturing the regulatory effects of distal elements such as enhancers, limiting their predictive accuracy. In addition, these methods may require significant resources to train or to adapt to newly generated data. To address these challenges, we present EPInformer, a scalable deep-learning framework for predicting gene expression by integrating promoter-enhancer interactions with their sequences, epigenomic signals, and chromatin contacts. Our model outperforms existing gene expression prediction models in rigorous cross-chromosome validation, accurately recapitulates enhancer-gene interactions validated by CRISPR perturbation experiments, and identifies crucial transcription factor motifs within regulatory sequences. EPInformer is available as open-source software at https://github.com/pinellolab/EPInformer.",
+  "abstract_zh": "转录调控对细胞分化及对环境变化的适应至关重要，涉及DNA序列、调控蛋白和染色质结构之间的协调相互作用。尽管来自ENCODE等联盟的大量数据已积累，但理解顺式调控元件（cis-regulatory elements, CREs）在基因表达中的动态仍具挑战性。深度学习是从DNA序列学习基因表达和表观基因组信号的强大工具，相比传统机器学习方法表现出更优性能。然而，即使是最先进的基于深度学习的方法也可能在捕捉增强子等远端元件的调控效应方面有所不足，限制了其预测准确性。此外，这些方法可能需要大量资源来训练或适应新生成的数据。为解决这些挑战，我们提出了EPInformer，一个可扩展的深度学习框架，通过整合启动子-增强子相互作用及其序列、表观基因组信号和染色质接触来预测基因表达。我们的模型在严格的跨染色体验证中优于现有基因表达预测模型，准确重现了经CRISPR扰动实验验证的增强子-基因相互作用，并识别了调控序列中的关键转录因子基序。EPInformer作为开源软件可在https://github.com/pinellolab/EPInformer获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39131276/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39131276/",
+  "paper_page_path": "papers/pubmed/39131276/index.html"
+}

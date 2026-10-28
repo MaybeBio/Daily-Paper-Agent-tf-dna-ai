@@ -1,0 +1,587 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.26.493537",
+  "title": "Specific Pupylation as IDEntity Reporter (SPIDER) for the identification of Protein-Biomolecule interactions",
+  "doi": "10.1101/2022.05.26.493537",
+  "abstract": "Protein-biomolecule interactions play pivotal roles in almost all biological processes, the identification of the interacting protein is essential. By combining a substrate-based proximity labelling activity from the pupylation pathway of Mycobacterium tuberculosis , and the streptavidin (SA)-biotin system, we developed S pecific P upylation as IDE ntity R eporter (SPIDER) for identifying protein-biomolecular interactions. As a proof of principle, SPIDER was successfully applied for global identification of interacting proteins, including substrates for enzyme (CobB), the readers of m 6 A, the protein interactome of mRNA, and the target proteins of drug (lenalidomide). In addition, by SPIDER, we identified SARS-CoV-2 Omicron variant specific receptors on cell membrane and performed in-depth analysis for one candidate, Protein-g. These potential receptors could explain the differences between the Omicron variant and the Prototype strain, and further serve as target for combating the Omicron variant. Overall, we provide a robust technology which is applicable for a wide-range of protein-biomolecular interaction studies.",
+  "authors": [
+    "Jiang H",
+    "Chen H",
+    "Zheng Y",
+    "Wang X",
+    "Meng Q",
+    "Xie J",
+    "Zhang J",
+    "Zhang C",
+    "Xu Z",
+    "Chen Z",
+    "Wang L",
+    "Kong W",
+    "Zhou K",
+    "Ma M",
+    "Zhang H",
+    "Guo S",
+    "Xue J",
+    "Hou J",
+    "Liu Z",
+    "Niu W",
+    "Wang F",
+    "Wang T",
+    "Li W",
+    "Wang R",
+    "Dang Y",
+    "Czajkowsky DM",
+    "Qiao Y",
+    "Dong J",
+    "Pei J",
+    "Tao S"
+  ],
+  "published_date": "2022-05-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.26.493537",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.26.493537.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR499210",
+    "raw_record": {
+      "id": "PPR499210",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR499210"
+        ]
+      },
+      "doi": "10.1101/2022.05.26.493537",
+      "title": "Specific Pupylation as IDEntity Reporter (SPIDER) for the identification of Protein-Biomolecule interactions",
+      "authorString": "Jiang H, Chen H, Zheng Y, Wang X, Meng Q, Xie J, Zhang J, Zhang C, Xu Z, Chen Z, Wang L, Kong W, Zhou K, Ma M, Zhang H, Guo S, Xue J, Hou J, Liu Z, Niu W, Wang F, Wang T, Li W, Wang R, Dang Y, Czajkowsky DM, Qiao Y, Dong J, Pei J, Tao S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jiang H",
+            "lastName": "Jiang",
+            "firstName": "He-Wei",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen H",
+            "lastName": "Chen",
+            "firstName": "Hong",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zheng Y",
+            "lastName": "Zheng",
+            "firstName": "Yun-Xiao",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang X",
+            "lastName": "Wang",
+            "firstName": "Xue-Ning",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meng Q",
+            "lastName": "Meng",
+            "firstName": "Qingfeng",
+            "initials": "Q",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8706-065X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xie J",
+            "lastName": "Xie",
+            "firstName": "Jin",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, 100871, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang J",
+            "lastName": "Zhang",
+            "firstName": "Jiong",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Inflammation and Immune Mediated Diseases Laboratory of Anhui Province, School of Pharmacy, Anhui Medical University, Hefei, 230032, China"
+                },
+                {
+                  "affiliation": "Key Laboratory of Organofluorine Chemistry, Center for Excellence in Molecular Synthesis, Shanghai Institute of Organic Chemistry, University of the Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang C",
+            "lastName": "Zhang",
+            "firstName": "ChangSheng",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xu Z",
+            "lastName": "Xu",
+            "firstName": "Zhao-Wei",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou, 350122, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen Z",
+            "lastName": "Chen",
+            "firstName": "ZiQing",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology, Princeton University, New Jersey, 08540, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Lei",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kong W",
+            "lastName": "Kong",
+            "firstName": "Wei-Sha",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhou K",
+            "lastName": "Zhou",
+            "firstName": "Kuan",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ma M",
+            "lastName": "Ma",
+            "firstName": "Ming-Liang",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang H",
+            "lastName": "Zhang",
+            "firstName": "Hai-Nan",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guo S",
+            "lastName": "Guo",
+            "firstName": "Shu-Juan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xue J",
+            "lastName": "Xue",
+            "firstName": "Jun-Biao",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hou J",
+            "lastName": "Hou",
+            "firstName": "Jing-Li",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instrumental Analysis Center, Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu Z",
+            "lastName": "Liu",
+            "firstName": "Zhe-Yi",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CAS Key Laboratory of Separation Sciences for Analytical Chemistry, Dalian Institute of Chemical Physics, Chinese Academy of Sciences (CAS), Dalian, 116023, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Niu W",
+            "lastName": "Niu",
+            "firstName": "Wen-Xue",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CAS Key Laboratory of Separation Sciences for Analytical Chemistry, Dalian Institute of Chemical Physics, Chinese Academy of Sciences (CAS), Dalian, 116023, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang F",
+            "lastName": "Wang",
+            "firstName": "Fang-Jun",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CAS Key Laboratory of Separation Sciences for Analytical Chemistry, Dalian Institute of Chemical Physics, Chinese Academy of Sciences (CAS), Dalian, 116023, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang T",
+            "lastName": "Wang",
+            "firstName": "Tao",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems Biology, Shenzhen Bay Laboratory, Peking University Shenzhen Graduate School, Shenzhen, 518055, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li W",
+            "lastName": "Li",
+            "firstName": "Wei",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicinal Chemistry, School of Pharmacy, China Pharmaceutical University, Nanjing, 211198, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang R",
+            "lastName": "Wang",
+            "firstName": "Rui-Na",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Key Laboratory of Metabolism and Molecular Medicine, the Ministry of Education, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fudan University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dang Y",
+            "lastName": "Dang",
+            "firstName": "Yong-Jun",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Novel Target and Therapeutic Intervention, Chongqing Medical University, Chongqing, 400016, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Czajkowsky DM",
+            "lastName": "Czajkowsky",
+            "firstName": "Daniel",
+            "initials": "DM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biomedical Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qiao Y",
+            "lastName": "Qiao",
+            "firstName": "Yu",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Infinite Intelligent Pharma,Beijing, 100083,China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dong J",
+            "lastName": "Dong",
+            "firstName": "Jia-Jia",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2767-9124"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Key Laboratory of Organofluorine Chemistry, Center for Excellence in Molecular Synthesis, Shanghai Institute of Organic Chemistry, University of the Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, 200240, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pei J",
+            "lastName": "Pei",
+            "firstName": "JianFeng",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, 100871, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tao S",
+            "lastName": "Tao",
+            "firstName": "Sheng-Ce",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9210-1823"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, Shanghai, 200240, China"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5077-2250"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8706-065X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9210-1823"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2767-9124"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3578-416X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Protein-biomolecule interactions play pivotal roles in almost all biological processes, the identification of the interacting protein is essential. By combining a substrate-based proximity labelling activity from the pupylation pathway of  Mycobacterium tuberculosis , and the streptavidin (SA)-biotin system, we developed  S pecific  P upylation as  IDE ntity  R eporter (SPIDER) for identifying protein-biomolecular interactions. As a proof of principle, SPIDER was successfully applied for global identification of interacting proteins, including substrates for enzyme (CobB), the readers of m  6 A, the protein interactome of mRNA, and the target proteins of drug (lenalidomide). In addition, by SPIDER, we identified SARS-CoV-2 Omicron variant specific receptors on cell membrane and performed in-depth analysis for one candidate, Protein-g. These potential receptors could explain the differences between the Omicron variant and the Prototype strain, and further serve as target for combating the Omicron variant. Overall, we provide a robust technology which is applicable for a wide-range of protein-biomolecular interaction studies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/28/2022.05.26.493537.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.26.493537"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR499210"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR499210&type=FILE&fileName=EMS161311-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37059927",
+            "reference": "Science China. Life sciences. 2023 Aug;66(8):1869-1887",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161311",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-05-29",
+      "firstPublicationDate": "2022-05-26",
+      "firstIndexDate": "2022-05-29",
+      "fullTextReceivedDate": "2023-02-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

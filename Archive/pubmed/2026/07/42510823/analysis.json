@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42510823",
+  "title": "Mitotic Hub Gene Network in Colorectal Cancer: Integrated Transcriptomic, Protein-Level, and Clinical-Genomic Characterization of a Ten-Gene Signature.",
+  "authors": "Kamal, Ebtihal; Moglad, Ehssan; Mohager, Samah O; Ahmed, Mehad; Aldoseri, Mobarak Mahfod; Suwayyid, Barakat A Al; Bawadood, Azizah Salim; Hamdan, Hamdan Z; Akbulut, Mikail",
+  "journal": "Genes",
+  "published_date": "2026-07-28",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究基于转录组和蛋白表达分析结直肠癌有丝分裂枢纽基因签名，纯表达与预后统计，无蛋白质-DNA互作、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Background: Colorectal cancer (CRC) remains a heterogeneous disease, and improved biomarkers are needed to support prognostic assessment. This study aimed to characterize hub genes in CRC and evaluate whether a gene signature provides biologically meaningful and prognostic information in clinical-genomic models. Methods: We integrated three GEO microarray datasets (GSE110223, GSE110224, and GSE23878) to identify common differentially expressed genes using adjusted p<0.05 and mid R:log2FCmid R:>1. Hub genes and protein expression were identified through protein-protein interaction network analysis using maximal clique centrality and Human Protein Atlas, respectively. Prognostic relevance was evaluated in TCGA-COAD/READ using Kaplan-Meier analysis, multivariable Cox regression, Cox-derived prognostic indices, time-dependent ROC analysis, and regression-based machine learning for internal robustness. Principal component analysis (PCA) was used to derive a standardized PC1-based score from the 10-hub gene signature. Results: A ten-gene mitotic hub signature (TPX2, UBE2C, AURKA, NEK2, PRC1, CCNB1, CDK1, CEP55, FOXM1, and RRM2) was consistently upregulated across the three datasets and enriched for cell-cycle and mitotic pathways. Protein-level and survival analyses supported the biological relevance of several hub genes. In TCGA-COAD/READ, the signature showed limited standalone prognostic value and did not retain independent significance after adjustment for clinical variables, although it contributed modestly in integrated clinical-genomic models. PCA showed a one-dimensional signature, with PC1 capturing the dominant shared expression pattern. Gradient Boosting Regressor (R(2) = 0.8035, MSE = 0.0473) supported the internal robustness of the DEG-based expression pattern. Conclusions: The ten-gene mitotic hub signature represents a coherent CRC-related proliferative program with limited value as an isolated prognostic marker, but it may still be useful as part of integrated risk models that require external validation.",
+  "abstract_zh": "背景：结直肠癌（CRC）仍是一种异质性疾病，需要改进的生物标志物以支持预后评估。本研究旨在表征CRC中的核心基因，并评估基因签名是否在临床基因组模型中提供具有生物学意义和预后价值的信息。方法：我们整合了三个GEO微阵列数据集（GSE110223、GSE110224和GSE23878），使用调整后p<0.05和mid R:log2FCmid R:>1识别常见差异表达基因。通过基于最大团中心性的蛋白质-蛋白质相互作用网络分析和人类蛋白质图谱，分别识别核心基因和蛋白质表达。在TCGA-COAD/READ中，使用Kaplan-Meier分析、多变量Cox回归、Cox衍生的预后指数、时间依赖性ROC分析以及基于回归的机器学习进行内部稳健性评估，以评价预后相关性。主成分分析（PCA）用于从10个核心基因签名中推导标准化PC1评分。结果：一个十基因有丝分裂核心签名（TPX2、UBE2C、AURKA、NEK2、PRC1、CCNB1、CDK1、CEP55、FOXM1和RRM2）在三个数据集中一致上调，并富集于细胞周期和有丝分裂通路。蛋白质水平和生存分析支持多个核心基因的生物学相关性。在TCGA-COAD/READ中，该签名显示出有限的独立预后价值，并在调整临床变量后未保留独立显著性，尽管它在整合的临床基因组模型中贡献有限。PCA显示一维签名，其中PC1捕获主导的共享表达模式。梯度提升回归器（R(2) = 0.8035，MSE = 0.0473）支持基于DEG表达模式的内部稳健性。结论：十基因有丝分裂核心签名代表一个连贯的CRC相关增殖程序，作为独立预后标志物的价值有限，但作为需要外部验证的整合风险模型的一部分可能仍有用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42510823/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42510823/",
+  "paper_page_path": "papers/pubmed/42510823/index.html"
+}

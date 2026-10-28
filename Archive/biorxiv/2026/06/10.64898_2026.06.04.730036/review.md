@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims and technical soundness based solely on the provided text; figures, tables, and supplementary data referenced but not visible
+- **Shared manuscript claim summary** The authors identify three conserved arginine residues (R71, R80, R81) in the N-terminal DNA-binding region of the velvet domain of Aspergillus nidulans VelB as essential for protein function, including spore viability, sexual development, and secondary metabolism. They further propose that these residues generate positive electrostatic surface potential required for DNA interaction, supported by electrostatic modeling and cross-kingdom complementation with a Capsaspora owczarzaki velvet domain.
+- **Visible evidence base** Abstract, Introduction, full Materials and Methods, full Results narrative, Discussion, Acknowledgments
+- **Missing materials affecting confidence** All figures (Figure 1-5), Table 1, Table 2, Table S1, Table S2, supplementary data, and raw quantitative data are not provided; statistical details for quantitative comparisons are absent
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in understanding the molecular basis of DNA recognition by the velvet domain, a conserved fungal regulatory module. The alanine-scanning approach is systematic, and the cross-kingdom complementation experiment is conceptually interesting. However, the evidence as presented is incomplete. The central mechanistic claim that electrostatic surface potential mediates DNA interaction is inferred from computational modeling without direct DNA-binding assays. The functional data are described qualitatively, and quantitative support is not visible. The manuscript is potentially valuable but currently does not establish the mechanistic case at the level claimed.
+- **Who would be interested in the results, and why** Researchers studying fungal development and secondary metabolism regulation, particularly those working on velvet family proteins in model and pathogenic fungi. The work may also interest investigators studying the evolution of transcription factor DNA-binding domains across opisthokonts, given the cross-kingdom complementation approach. The proposed electrostatic mechanism could inform broader studies of protein-DNA recognition in Rel-homology-domain-like folds.
+- **Major strengths** The study addresses a previously uncharacterized region of a biologically important protein family. The alanine-scanning mutagenesis of 15 conserved residues is a thorough approach. The cross-kingdom complementation experiment with Capsaspora owczarzaki is a creative and informative design. The authors connect their findings to a general principle of positively charged residues in DNA-binding regions across multiple transcription factor families.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The claim that R71, R80, and R81 are "indispensable for VelB function" and essential for spore viability, sexual development, and secondary metabolism
+  - **Evidence pointer** Results sections "Arginine 71, 80 and 81 of the VelB DNA-binding region are essential for spore viability, sexual development and secondary metabolism"; Figure 2; location not provided
+  - **Concern** The functional phenotypes are described qualitatively in the text. Quantitative data, statistical analyses, and the actual figure panels are not visible. For example, the statement that R71A produced 13.3% of wild-type cleistothecia is presented without confidence intervals, number of replicates, or statistical testing. The secondary metabolite data are described as "partially overlapped" and "significantly upregulated" without visible chromatograms, peak areas, or statistical comparisons.
+  - **Why it matters** The central conclusion that these three residues are essential depends entirely on the robustness of these phenotypic measurements. Without visible quantitative data and statistical support, the claim cannot be independently evaluated.
+  - **Resolution test** Provide the full figure panels with all replicates, error bars, and statistical test results. Include raw data for cleistothecia counts, spore viability time courses, and secondary metabolite peak areas with appropriate statistical comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The claim that "a cluster of conserved arginine residues generates the positive electrostatic surface potential required for velvet-DNA interaction"
+  - **Evidence pointer** Results section "Point mutations of R71A, R80A and R71A trigger local reduction and global remodeling of electrostatic potential"; Figure 3; Table 2; location not provided
+  - **Concern** The electrostatic analysis is purely computational. No direct DNA-binding experiments (e.g., electrophoretic mobility shift assay, surface plasmon resonance, isothermal titration calorimetry, or chromatin immunoprecipitation) are described. The inference that reduced electrostatic potential explains loss of function is plausible but not tested. The claim that mutations cause "global remodeling" of electrostatic properties across the entire protein surface is presented without visible structural figures or quantitative metrics beyond the summary in Table 2.
+  - **Why it matters** The title and abstract frame this as a characterization of the DNA-binding region. Without direct binding data, the mechanistic link between the identified residues and DNA interaction remains correlative. The electrostatic mechanism is one possible explanation among several (e.g., protein stability, folding, or protein-protein interaction defects).
+  - **Resolution test** Include direct DNA-binding assays comparing wild-type and mutant VelB proteins. If such experiments are not feasible, temper the mechanistic language and explicitly acknowledge that the electrostatic model is a hypothesis requiring direct testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design
+  - **Claim pointer** The claim that introduction of arginine at the position corresponding to R71 in the Capsaspora velvet DNA-binding region "conferred substantial functional restoration"
+  - **Evidence pointer** Results section "Point mutations of R71A, R80A and R71A trigger local reduction and global remodeling of electrostatic potential" and Discussion; Figure 4; location not provided
+  - **Concern** The cross-kingdom complementation experiment is described as showing that the wild-type Capsaspora domain fails to rescue, while the R71-introduced variant substantially restores function. However, the Capsaspora domain may differ from the A. nidulans domain at multiple positions beyond the single R71 site. The conclusion that R71 alone accounts for the functional difference requires demonstration that all other differences are functionally neutral. Additionally, the text does not clarify whether the Capsaspora domain was tested in the context of full-length VelB or as a chimeric domain swap, and whether expression levels were comparable.
+  - **Why it matters** The interpretation that a single residue explains the functional difference is strong and requires ruling out other sequence differences as contributing factors. Without this control, the conclusion is overreaching.
+  - **Resolution test** Provide sequence alignment showing all differences between the A. nidulans and Capsaspora DNA-binding regions. If feasible, test additional chimeric constructs or point mutants to isolate the contribution of R71. Confirm comparable protein expression for all chimeric constructs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and framing
+  - **Claim pointer** The claim that the findings "define the molecular basis of DNA recognition by this ancient family of fungal transcription factors"
+  - **Evidence pointer** Abstract; Discussion; location not provided
+  - **Concern** The study identifies residues important for VelB function and provides a computational electrostatic model, but it does not define the molecular basis of DNA recognition in a direct sense. No DNA binding affinity, specificity, or structural data for a velvet-DNA complex are presented. The final claim in the abstract overstates what the evidence supports.
+  - **Why it matters** Overstatement in the abstract can mislead readers about the level of mechanistic understanding achieved. The distinction between identifying functionally important residues and defining a molecular recognition mechanism is substantive.
+  - **Resolution test** Revise the abstract and discussion to accurately reflect that the study identifies critical residues and proposes an electrostatic model, without claiming to define the molecular basis of DNA recognition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and Methods, "Construction of plasmid pME5335 and strains with replacement of velB DNA binding region by C. owczarzaki velvet one in A. nidulans (AGB1481)"
+  - **Evidence pointer** Materials and Methods; location not provided
+  - **Issue** The section title and text are difficult to parse. The phrase "velvet one" is unclear, and the naming of strains and constructs is inconsistent across the manuscript (e.g., "velBcDNA(ΔvelB_DBR::CapVelvet_DBR)" appears in some places and "velB(ΔvelB_DBR::CapVelvet_DBR)" in others).
+  - **Required correction** Standardize strain and construct nomenclature throughout. Rewrite the section title for clarity, for example "Construction of chimeric velB alleles carrying the Capsaspora owczarzaki velvet DNA-binding region."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, "Conidiospore and cleistothecia quantification"
+  - **Evidence pointer** Materials and Methods; location not provided
+  - **Issue** The methods for cleistothecia quantification are described, but the statistical methods used for comparing groups are not stated. The spore viability section mentions t-tests, but the cleistothecia and secondary metabolite comparisons do not specify statistical approaches.
+  - **Required correction** Add a statistical analysis subsection describing all tests used, including corrections for multiple comparisons where applicable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Results, "Sequence features of velvet DNA-binding region and alanine scanning of conserved residues by A. nidulans VelB"
+  - **Evidence pointer** Results; location not provided
+  - **Issue** The text states that "several residues exhibit strong evolutionary conservation" and that "positively charged amino acids were presumed to be functionally critical," but the criteria for conservation (thresholds, alignment methods, number of sequences) are not described in the Methods.
+  - **Required correction** Provide details on the sequence dataset, alignment method, and conservation scoring in the Methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The sentence "Subsequent functional assays demonstrated that these three residues are essential for the full function of VelB, including the maintenance of long-term spore viability, esiduesregulation of sexual development and modulation of secondary metabolism" contains the typographical error "esiduesregulation."
+  - **Required correction** Correct the typo to "regulation."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, "Structural modeling and analysis of VelB and related variants"
+  - **Evidence pointer** Materials and Methods; location not provided
+  - **Concern** The electrostatic calculations are described as using the Coulomb Potential model, but the specific software, parameters, dielectric constants, and charge assignment methods are not stated. The AlphaFold 3 modeling is mentioned, but confidence metrics beyond "highest-confidence model" are not provided.
+  - **Required correction** Provide full computational details to enable reproduction, including software versions, parameters, and validation metrics.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative data and statistics not visible), R1-M2 (no direct DNA-binding evidence for the electrostatic mechanism), R1-M3 (single-residue conclusion requires ruling out other sequence differences)
+- **Assessment against Nature-style criteria** Originality: Moderate. The identification of specific residues in the velvet DNA-binding region is a useful incremental advance, but the electrostatic mechanism is not new as a general concept in protein-DNA recognition. Scientific importance: Moderate. The velvet family is biologically significant in fungal biology, and defining functional residues has practical value, but the conceptual advance is limited without direct mechanistic evidence. Interdisciplinary readership: Limited. The work is primarily of interest to fungal molecular biologists; the cross-kingdom element adds some evolutionary interest. Technical soundness: Not fully assessable. The genetic and phenotypic approaches appear sound in design, but the missing quantitative data and lack of direct binding assays prevent full evaluation. Readability for nonspecialists: Acceptable. The writing is generally clear, though some sections are repetitive and the nomenclature is inconsistent.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question with a reasonable experimental strategy, but the mechanistic claim requires direct DNA-binding evidence, and the quantitative data must be visible for the phenotypic conclusions to be evaluated. The cross-kingdom complementation is a strength that could elevate the paper if the single-residue conclusion is properly supported.
+
+## Risk / unsupported claims
+- The claim that R71, R80, and R81 are "indispensable" for VelB function is not fully supported without visible quantitative data and statistical analysis.
+- The claim that electrostatic surface potential is "required for velvet-DNA interaction" is unsupported by direct DNA-binding experiments.
+- The claim that the study "define[s] the molecular basis of DNA recognition" overstates the evidence, which is limited to computational modeling and phenotypic correlation.
+- The claim that introduction of arginine at the Capsaspora position "conferred substantial functional restoration" requires confirmation that other sequence differences do not contribute and that expression levels are comparable.
+- The statement that mutations cause "global remodeling" of electrostatic properties across the entire protein is not verifiable without the structural figures and quantitative metrics.

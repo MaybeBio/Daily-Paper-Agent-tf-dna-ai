@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text including Introduction, Methods, Results, Discussion, Conclusions, and figure legends. Supplementary material not provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the manuscript text. No assessment of supplementary figures or tables beyond what is referenced.
+- **Shared manuscript claim summary** The authors report that full-length hnRNP A2/B1 forms soluble amorphous aggregates in vitro, while three tag-cleaved truncates (ΔNLS 1–313, RRM-PrLD 15–293, RRM-RGG 15–250) are stable monomers. They further report that G4-structured ssDNA induces homodimerization of the RRM-RGG (15–250) truncate, as evidenced by SEC, AUC, and EMSA, and that structure prediction indicates ~75% intrinsic disorder in the full-length protein.
+- **Visible evidence base** Methods sections for SEC, SEC-MALS, ITC, EMSA, CD, AUC, crystallization, and structure prediction. Results sections with figures referenced as Fig. 1–4 and supplementary figures S Fig. 1–15. Tables 1 and S Tables 1–10 referenced.
+- **Missing materials affecting confidence** Supplementary figures and tables (S Fig. 1–15, S Tables 1–10) are referenced but not provided. Raw data for SEC, AUC, ITC, EMSA, and CD are not shown. The NPDock modeling parameters and output scores are not described in detail. No statistical analysis section is present.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question regarding the oligomeric states and DNA-binding properties of hnRNP A2/B1 truncates. The finding that G4-structured ssDNA induces homodimerization of the RRM-RGG truncate is potentially interesting. However, the evidence presented is largely qualitative and the manuscript suffers from several technical weaknesses, including incomplete method descriptions, missing controls, and overinterpretation of computational predictions. The claim of G4-specific induced dimerization is not fully established from the data shown.
+- **Who would be interested in the results, and why** Researchers studying hnRNP A2/B1 function in RNA metabolism, antiviral innate immunity, and nucleic acid sensing. The biophysical characterization of hnRNP A2/B1 truncates may also be of interest to structural biologists studying G4-binding proteins and to those investigating protein aggregation and disorder in nucleic acid-binding proteins.
+- **Major strengths** The manuscript addresses a gap in understanding the oligomeric behavior of hnRNP A2/B1. The use of multiple biophysical techniques (SEC, SEC-MALS, AUC, ITC, EMSA, CD) is commendable. The finding that G4 ssDNA induces dimerization of the RRM-RGG truncate, distinct from the 1:1 binding reported for homologous proteins, is potentially novel. The authors are transparent about the crystallization difficulties and the limitations of their structural predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that G4-structured ssDNA induces homodimerization of the RRM-RGG (15–250) truncate, based on SEC, AUC, and EMSA data.
+  - **Evidence pointer** Results section, Fig. 3D–E, 3G–H; Methods sections for SEC, AUC, EMSA
+  - **Concern** The evidence for G4-induced dimerization is not quantitatively supported. The SEC elution volumes and AUC molecular weights are described qualitatively, but no sedimentation coefficient distributions, molar mass plots, or binding stoichiometry data are shown in the text. The EMSA data are described only by gray values, with no representative gel images shown in the manuscript. The distinction between G4-induced dimerization and non-specific aggregation is not clearly established. Furthermore, the ITC data are only shown for the 12nt C ssDNA (a non-G4 control), not for the G4 ssDNA, which is the key claim of the paper.
+  - **Why it matters** The central claim of the manuscript is that G4 ssDNA specifically induces dimerization. Without quantitative binding data (stoichiometry, affinity) for the G4 ssDNA and proper controls, this claim is not supported. The lack of representative gel images and raw biophysical traces prevents the reader from assessing data quality.
+  - **Resolution test** Provide representative EMSA gels with increasing protein concentrations for both G4 and non-G4 ssDNA. Show AUC sedimentation coefficient distributions and fitted molecular weights for the complex. Provide ITC thermograms and fitted binding isotherms for the G4 ssDNA interaction, including stoichiometry (N value). Include a control showing that the dimerization is not due to non-specific aggregation (e.g., concentration dependence, salt dependence).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that full-length hnRNP A2/B1 exists as soluble amorphous aggregates in vitro, and that the C-terminal NLS and PrLD domains are key mediators of aggregation.
+  - **Evidence pointer** Results section, Fig. 1D, 1G–H; Discussion section
+  - **Concern** The claim that the C-terminal NLS and PrLD domains mediate aggregation is inferred from the observation that truncates lacking these regions are monomeric. However, no direct experiment testing the role of these domains in aggregation is presented. For example, no construct containing the NLS/PrLD but lacking other regions was tested, and no mutagenesis of key residues was performed. The comparison between full-length and truncates is confounded by the presence of different fusion tags (SUMO vs MBP) and the possibility that the full-length protein's aggregation is due to the tag rather than the protein sequence.
+  - **Why it matters** The conclusion that specific domains mediate aggregation is a key finding of the manuscript. Without direct evidence, this remains speculative. The role of the fusion tags in promoting or preventing aggregation is not controlled for.
+  - **Resolution test** Perform a domain-mapping experiment: express and purify the NLS, PrLD, and N-terminal disordered regions individually and test their oligomeric states. Use the same fusion tag for all constructs. Include a control where the full-length protein is expressed with both tags and compared.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that G4 ssDNA-dependent dimerization may contribute to the protein's antiviral function.
+  - **Evidence pointer** Discussion section; Conclusions section
+  - **Concern** The link between the in vitro dimerization observed and the antiviral function is purely speculative. No functional assays are presented. The authors themselves acknowledge that in vivo validation is required, but the discussion frames the dimerization as potentially contributing to antiviral immunity without providing any direct or indirect evidence for this connection.
+  - **Why it matters** The potential antiviral relevance is a major motivation for the study. Without any functional data, the significance of the observed dimerization for the protein's biological role remains unclear. The manuscript would be strengthened by at least a discussion of how the observed affinity and stoichiometry relate to physiological conditions.
+  - **Resolution test** Add a paragraph in the discussion that critically evaluates the physiological relevance, including estimates of intracellular concentrations of hnRNP A2/B1 and G4 DNA, and whether the measured Kd (3.9 µM) is consistent with binding under physiological conditions. Alternatively, include a preliminary cellular experiment, such as a pulldown or co-localization assay, to support the relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use NPDock to predict the interaction between RRM-RGG and 12nt G4 ssDNA and identify specific residues (PHE30, ARG82, ARG89, ASP139, THR140, ARG190, GLU195, GLN197) as key mediators of hydrogen bonding.
+  - **Evidence pointer** Results section, Fig. 4D–F; Methods section for structure prediction
+  - **Concern** The NPDock modeling is described in a single sentence with no details on the input structures, scoring function, or selection of the top model. The claim that these specific residues are "key" is not supported by any experimental validation, such as mutagenesis or binding assays with mutant proteins. The authors themselves note that the predictions require validation, but the text presents them as a finding.
+  - **Why it matters** The identification of specific residues is presented as a result, but without experimental validation or detailed methodology, this is not a robust finding. The reader cannot assess the reliability of the prediction.
+  - **Resolution test** Provide full details of the NPDock run, including input PDB structures, docking scores, and the criteria for selecting the final model. If possible, validate at least one or two of the predicted residues by site-directed mutagenesis and binding assays. Alternatively, clearly label this section as preliminary and speculative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction is dense and assumes significant background knowledge. Terms such as "U-shaped DNA" and "G-quadruplex" are introduced but not defined for a general scientific audience.
+  - **Required correction** Add brief definitions of key terms, such as G-quadruplex and U-shaped DNA, and explain why they are relevant to hnRNP A2/B1 function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, SEC-MALS
+  - **Evidence pointer** Methods section, SEC-MALS
+  - **Issue** The SEC-MALS method states that molecular weights were calculated using the Berry model, but no details on the dn/dc value used or the calibration of the system are provided.
+  - **Required correction** Provide the dn/dc value used for protein concentration determination and describe the calibration procedure for the MALS detectors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, ITC
+  - **Evidence pointer** Methods section, ITC
+  - **Issue** The ITC method states that 20 injections of equal volume were performed, but the injection volume, spacing, and reference power are not specified. The fitting model (one-site vs. two-site) is not described.
+  - **Required correction** Specify the injection volume, spacing, reference power, and the binding model used for fitting. Report the fitted stoichiometry (N) and enthalpy change (ΔH).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 3F
+  - **Evidence pointer** Results section, Fig. 3F
+  - **Issue** The CD spectra are described as showing characteristic peaks at 240, 260, and 290 nm for G4 structures, but the y-axis units and the buffer conditions are not stated in the text.
+  - **Required correction** State the CD units (e.g., millidegrees or molar ellipticity) and the buffer composition used for CD measurements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of the discrepancy between AUC and SEC-MALS molecular weights is overly technical and may confuse readers. The explanation is plausible but not fully developed.
+  - **Required correction** Simplify the explanation and consider adding a supplementary figure showing the AUC and SEC-MALS data side by side for clarity.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 1D
+  - **Evidence pointer** Results section, Fig. 1D
+  - **Issue** The SEC analysis of SUMO-tagged full-length hnRNP A2/B1 shows a major peak at 48.84 mL, but the molecular weight standards used for column calibration are not described.
+  - **Required correction** Describe the molecular weight standards used for column calibration and how the apparent molecular weight was estimated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative binding data for G4 ssDNA), R1-M2 (lack of direct evidence for domain-mediated aggregation), R1-M4 (unvalidated computational predictions presented as findings).
+- **Assessment against Nature-style criteria**
+  - **Originality** The observation that G4 ssDNA induces dimerization of hnRNP A2/B1 truncates, distinct from the 1:1 binding of homologous proteins, is potentially original. However, the manuscript does not fully distinguish this finding from prior work on other hnRNP family members.
+  - **Scientific importance** The potential link to antiviral innate immunity is important, but the manuscript does not provide functional evidence to support this connection. The biophysical characterization is useful but incremental.
+  - **Interdisciplinary readership** The topic is relevant to structural biology, biophysics, and immunology. However, the manuscript is written in a way that assumes significant background in all three areas, which may limit accessibility.
+  - **Technical soundness** The manuscript has several technical weaknesses, including incomplete method descriptions, missing controls, and overinterpretation of computational predictions. The central claim of G4-induced dimerization is not quantitatively supported.
+  - **Readability for nonspecialists** The manuscript is dense and uses specialized terminology without adequate definition. The figures are referenced but not shown in the text, making it difficult to follow the results.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has potential, but the central claims are not quantitatively supported, and several technical issues need to be resolved. The authors should provide quantitative binding data, direct evidence for domain-mediated aggregation, and either validate or clearly label the computational predictions as preliminary.
+
+## Risk / unsupported claims
+- The claim that G4-structured ssDNA induces homodimerization of RRM-RGG (15–250) is not quantitatively supported by the data shown in the text.
+- The claim that the C-terminal NLS and PrLD domains are key mediators of aggregation is inferred but not directly tested.
+- The identification of specific residues (PHE30, ARG82, ARG89, ASP139, THR140, ARG190, GLU195, GLN197) as key mediators of G4 ssDNA binding is based solely on unvalidated computational predictions.
+- The statement that "~75% of hnRNP A2/B1's N and C-termini are intrinsically disordered" is based on prediction tools and is presented as a finding without experimental validation.
+- The claim that G4-dependent dimerization "may contribute to the protein's antiviral function" is speculative and not supported by any functional data.

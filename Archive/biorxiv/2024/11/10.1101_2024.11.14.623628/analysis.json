@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.14.623628",
+  "title": "miRBench: novel benchmark datasets for microRNA binding site prediction that mitigate against prevalent microRNA Frequency Class Bias",
+  "authors": "Stephanie Sammut; Katarina Gresova; Dimosthenis Tzimotoudis; Eva Marsalkova; David Cechak; Panagiotis Alexiou",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-15",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出miRBench基准数据集和负样本生成方法，用于miRNA结合位点预测，虽属RNA-蛋白质互作而非TF-DNA，但其AI建模方法和数据集设计对TF-DNA结合位点预测有借鉴意义。",
+  "abstract": "Motivation MicroRNAs (miRNAs) are crucial regulators of gene expression, but the precise mechanisms governing their binding to target sites remain unclear. A major contributing factor to this is the lack of unbiased experimental datasets for training accurate prediction models. While recent experimental advances have provided numerous miRNA-target interactions, these are solely positive interactions. Generating negative examples in silico is challenging and prone to introducing biases, such as the miRNA frequency class bias identified in this work. Biases within datasets can compromise model generalization, leading models to learn dataset-specific artifacts rather than true biological patterns. Results We introduce a novel methodology for negative sample generation that effectively mitigates the miRNA frequency class bias. Using this methodology, we curate several new, extensive datasets and benchmark several state-of-the-art methods on them. We find that a simple convolutional neural network model, retrained on some of these datasets, is able to outperform state-of-the-art methods. This highlights the potential for leveraging unbiased datasets to achieve improved performance in miRNA binding site prediction. To facilitate further research and lower the barrier to entry for machine learning researchers, we provide an easily accessible Python package, miRBench, for dataset retrieval, sequence encoding, and the execution of state-of-the-art models. Availability The miRBench Python Package is accessible at https://github.com/katarinagresova/miRBench/releases/tag/v1.0.0",
+  "abstract_zh": "动机 微小RNA（miRNAs）是基因表达的关键调控因子，但调控其与靶位点结合的精确机制仍不清楚。造成这一现象的主要因素之一是缺乏用于训练准确预测模型的无偏实验数据集。尽管近期的实验进展提供了大量miRNA-靶标相互作用，但这些均为阳性相互作用。在计算机上生成阴性样本颇具挑战性，且容易引入偏差，例如本工作中识别的miRNA频率类别偏差。数据集中的偏差可能损害模型的泛化能力，导致模型学习数据集特有的伪影而非真实的生物学模式。结果 我们引入了一种新颖的阴性样本生成方法，有效缓解了miRNA频率类别偏差。利用该方法，我们整理了几个新的、广泛的数据集，并在其上基准测试了多种最先进的方法。我们发现，一个简单的卷积神经网络模型，在部分这些数据集上重新训练后，能够超越最先进的方法。这凸显了利用无偏数据集在miRNA结合位点预测中实现更优性能的潜力。为促进进一步研究并降低机器学习研究者的入门门槛，我们提供了一个易于访问的Python包miRBench，用于数据集检索、序列编码及最先进模型的执行。可用性 miRBench Python包可在https://github.com/katarinagresova/miRBench/releases/tag/v1.0.0获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.14.623628",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.14.623628",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.14.623628/index.html"
+}

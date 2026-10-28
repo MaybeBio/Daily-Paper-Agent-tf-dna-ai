@@ -1,0 +1,438 @@
+{
+  "identity": {
+    "pmid": "41484149",
+    "doi": "10.1038/s41467-025-68074-9",
+    "title": "CUL4A-DDB1-DCAF10 is an N-recognin for N-terminally acetylated Src kinases."
+  },
+  "content": {
+    "abstract": "Co-translational N-terminal modifications such as methionine excision, acetylation, and myristoylation govern protein stability, localization, and folding. Disruption can expose N-terminal degrons that trigger ubiquitin-mediated degradation, safeguarding the proteome. N-terminal acetylation usually protects proteins from degradation, but can also promote it through the Ac/N-degron pathway. Src-family kinases (SFKs), signaling enzymes implicated in tumorigenesis, require N-terminal myristoylation for function. Using peptide pull-downs, mass spectrometry, and AlphaFold 3 predictions, we identify DCAF10 as the E3 ligase substrate receptor for alternatively N-terminally acetylated SFKs. Combining siRNA-mediated knockdown and CRISPR/Cas9-mediated knockout of endogenous Lyn with inducible Lyn-GFP variants confirms that DCAF10 regulates SFK levels by recognizing an N-terminal acetylated glycine residue. In vitro, a CUL4A-DDB1-DCAF10 complex ubiquitinates N-terminally acetylated SFKs. Thus, we define a novel N-degron pathway that monitors replacement of myristoylation by acetylation and activates degradation of SFKs upon acetylation. This mechanism may extend to other N-terminally myristoylated proteins beyond SFKs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cullin Proteins/metabolism/genetics",
+      "Humans",
+      "Acetylation",
+      "*src-Family Kinases/metabolism/genetics",
+      "HEK293 Cells",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "Proteolysis",
+      "Protein Processing, Post-Translational",
+      "Ubiquitination",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "CRISPR-Cas Systems"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kremer, Nora",
+        "Mueller, Franziska",
+        "Nguyen, Hang",
+        "Schulz, Louisa",
+        "Popp, Tanja",
+        "Artes, Elena",
+        "Wolters, Julian",
+        "Renner, Michael",
+        "Vetter, Ingrid",
+        "Maffini, Stefano",
+        "Robles, Maria S",
+        "Musacchio, Andrea",
+        "Bange, Tanja"
+      ],
+      "short_names": [
+        "Kremer N",
+        "Mueller F",
+        "Nguyen H",
+        "Schulz L",
+        "Popp T",
+        "Artes E",
+        "Wolters J",
+        "Renner M",
+        "Vetter I",
+        "Maffini S",
+        "Robles MS",
+        "Musacchio A",
+        "Bange T"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5532-3088",
+        "ORCID: 0000-0002-4880-9269",
+        "ORCID: 0009-0008-9305-5559",
+        "ORCID: 0009-0003-2235-0191",
+        "ORCID: 0009-0009-4962-1039",
+        "ORCID: 0009-0009-8169-9442",
+        "ORCID: 0000-0001-9149-8761",
+        "ORCID: 0000-0003-2362-8784",
+        "ORCID: 0000-0002-9680-8586"
+      ],
+      "affiliations": [
+        "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+        "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany.",
+        "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany.",
+        "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+        "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany.",
+        "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+        "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany.",
+        "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+        "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+        "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany.",
+        "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+        "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+        "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany.",
+        "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany.",
+        "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany.",
+        "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany.",
+        "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany.",
+        "Faculty of Biology, Centre for Medical Biotechnology, University of Duisburg-Essen, Essen, Germany.",
+        "Department of Medicine II, LMU University Hospital, Munich, Germany. tanja.bange@med.uni-muenchen.de.",
+        "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany. tanja.bange@med.uni-muenchen.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kremer, Nora",
+        "short_name": "Kremer N",
+        "identifiers": [
+          "0009-0002-5532-3088"
+        ],
+        "affiliations": [
+          "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+          "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Mueller, Franziska",
+        "short_name": "Mueller F",
+        "identifiers": [
+          "0000-0002-4880-9269"
+        ],
+        "affiliations": [
+          "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Hang",
+        "short_name": "Nguyen H",
+        "identifiers": [
+          "0009-0008-9305-5559"
+        ],
+        "affiliations": [
+          "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+          "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Schulz, Louisa",
+        "short_name": "Schulz L",
+        "identifiers": [
+          "0009-0003-2235-0191"
+        ],
+        "affiliations": [
+          "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+          "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Popp, Tanja",
+        "short_name": "Popp T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine II, LMU University Hospital, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Artes, Elena",
+        "short_name": "Artes E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+          "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Wolters, Julian",
+        "short_name": "Wolters J",
+        "identifiers": [
+          "0009-0009-4962-1039"
+        ],
+        "affiliations": [
+          "Department of Medicine II, LMU University Hospital, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Renner, Michael",
+        "short_name": "Renner M",
+        "identifiers": [
+          "0009-0009-8169-9442"
+        ],
+        "affiliations": [
+          "Department of Medicine II, LMU University Hospital, Munich, Germany.",
+          "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Vetter, Ingrid",
+        "short_name": "Vetter I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Maffini, Stefano",
+        "short_name": "Maffini S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Robles, Maria S",
+        "short_name": "Robles MS",
+        "identifiers": [
+          "0000-0001-9149-8761"
+        ],
+        "affiliations": [
+          "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Musacchio, Andrea",
+        "short_name": "Musacchio A",
+        "identifiers": [
+          "0000-0003-2362-8784"
+        ],
+        "affiliations": [
+          "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany.",
+          "Faculty of Biology, Centre for Medical Biotechnology, University of Duisburg-Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Bange, Tanja",
+        "short_name": "Bange T",
+        "identifiers": [
+          "0000-0002-9680-8586"
+        ],
+        "affiliations": [
+          "Department of Medicine II, LMU University Hospital, Munich, Germany. tanja.bange@med.uni-muenchen.de.",
+          "Faculty of Medicine, Institute of Medical Psychology and Biomedical Center (BMC), LMU Munich, Munich, Germany. tanja.bange@med.uni-muenchen.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jan 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/04 00:31",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [
+      "42104018"
+    ],
+    "refs": [
+      "40887166",
+      "40639378",
+      "39837675",
+      "39814713",
+      "39264755",
+      "39216628",
+      "38918375",
+      "38718835",
+      "37962355",
+      "37949301",
+      "37891180",
+      "37689310",
+      "37532409",
+      "36496439",
+      "35145090",
+      "34723319",
+      "34604860",
+      "34277807",
+      "33898171",
+      "33523899",
+      "32305250",
+      "32290470",
+      "31768060",
+      "31273098",
+      "30622213",
+      "30054468",
+      "29892081",
+      "29590189",
+      "29038344",
+      "28336923",
+      "27941902",
+      "27348712",
+      "26984511",
+      "25766235",
+      "25489052",
+      "25450248",
+      "25398333",
+      "25255805",
+      "23603116",
+      "23583076",
+      "22223895",
+      "21900231",
+      "20584982",
+      "20110468",
+      "19885390",
+      "19491936",
+      "19420222",
+      "16963780",
+      "16949367",
+      "11524371",
+      "11448952",
+      "7691845",
+      "3018930",
+      "3009860"
+    ],
+    "similar": [
+      "41484149",
+      "31273098",
+      "18593899",
+      "40992841",
+      "39216628",
+      "21205828",
+      "22134138",
+      "29727619",
+      "16964240",
+      "37061529",
+      "16537899",
+      "26021757",
+      "37532409",
+      "16473935",
+      "29779948",
+      "40992840",
+      "32265326",
+      "32466489",
+      "29738775",
+      "17630831",
+      "25766235",
+      "18381890",
+      "21795677",
+      "27099313",
+      "26431207",
+      "17041588",
+      "20110468",
+      "30425097",
+      "19276361",
+      "18332868",
+      "29522376",
+      "21633985",
+      "23357576",
+      "16951172",
+      "32140073",
+      "36496439",
+      "29531159",
+      "24558487",
+      "22952844",
+      "32811853",
+      "22570418",
+      "17452440",
+      "27535046",
+      "32140074",
+      "38670995",
+      "28886238",
+      "15448697",
+      "25970626",
+      "20870715",
+      "27573245",
+      "30945288",
+      "21959250",
+      "28599312",
+      "27203177",
+      "24452595",
+      "16861890",
+      "34764209",
+      "23063525",
+      "29930086",
+      "23363603",
+      "21940857",
+      "17588513",
+      "22910413",
+      "37891180",
+      "27325702",
+      "19557001",
+      "26990986",
+      "17079684",
+      "41066978",
+      "27091446",
+      "24563203",
+      "28784162",
+      "39075067",
+      "24284072",
+      "40593687",
+      "20089662",
+      "39396041",
+      "25464366",
+      "25542213",
+      "24912982",
+      "15811626",
+      "40992850",
+      "31636116",
+      "23479607",
+      "18606781",
+      "36688959",
+      "38567734",
+      "39145933",
+      "23085759",
+      "33636084",
+      "11046148",
+      "28154141",
+      "23045529",
+      "23603116",
+      "40158790",
+      "37844242",
+      "25535897",
+      "26170450",
+      "24337577",
+      "14739464"
+    ],
+    "review": [
+      "41484149",
+      "21633985",
+      "21959250"
+    ],
+    "pmc": [
+      "12775124"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-68074-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41484149/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2785",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39198740",
+  "title": "Prediction of mutation-induced protein stability changes based on the geometric representations learned by a self-supervised method.",
+  "authors": "Li, Shan Shan; Liu, Zhao Ming; Li, Jiao; Ma, Yi Bo; Dong, Ze Yuan; Hou, Jun Wei; Shen, Fu Jie; Wang, Wei Bu; Li, Qi Ming; Su, Ji Guo",
+  "journal": "BMC bioinformatics",
+  "published_date": "2024-08-31",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用自监督图注意力网络预测突变引起的蛋白质稳定性变化，虽涉及蛋白结构建模，但核心是蛋白自身稳定性而非蛋白质-DNA互作，与TF-DNA结合机制课题关联较弱。",
+  "abstract": "BACKGROUND: Thermostability is a fundamental property of proteins to maintain their biological functions. Predicting protein stability changes upon mutation is important for our understanding protein structure-function relationship, and is also of great interest in protein engineering and pharmaceutical design. RESULTS: Here we present mutDDG-SSM, a deep learning-based framework that uses the geometric representations encoded in protein structure to predict the mutation-induced protein stability changes. mutDDG-SSM consists of two parts: a graph attention network-based protein structural feature extractor that is trained with a self-supervised learning scheme using large-scale high-resolution protein structures, and an eXtreme Gradient Boosting model-based stability change predictor with an advantage of alleviating overfitting problem. The performance of mutDDG-SSM was tested on several widely-used independent datasets. Then, myoglobin and p53 were used as case studies to illustrate the effectiveness of the model in predicting protein stability changes upon mutations. Our results show that mutDDG-SSM achieved high performance in estimating the effects of mutations on protein stability. In addition, mutDDG-SSM exhibited good unbiasedness, where the prediction accuracy on the inverse mutations is as well as that on the direct mutations. CONCLUSION: Meaningful features can be extracted from our pre-trained model to build downstream tasks and our model may serve as a valuable tool for protein engineering and drug design.",
+  "abstract_zh": "背景：热稳定性是蛋白质维持其生物功能的基本属性。预测突变引起的蛋白质稳定性变化对于理解蛋白质结构-功能关系至关重要，同时在蛋白质工程和药物设计领域也具有重大意义。结果：在此，我们介绍了mutDDG-SSM，一个基于深度学习的框架，利用蛋白质结构中编码的几何表示来预测突变诱导的蛋白质稳定性变化。mutDDG-SSM由两部分组成：一个基于图注意力网络的蛋白质结构特征提取器，通过自监督学习方案使用大规模高分辨率蛋白质结构进行训练；以及一个基于极端梯度提升模型的稳定性变化预测器，该模型具有缓解过拟合问题的优势。mutDDG-SSM的性能在多个广泛使用的独立数据集上进行了测试。随后，以肌红蛋白和p53作为案例研究，以说明该模型在预测突变引起的蛋白质稳定性变化方面的有效性。我们的结果表明，mutDDG-SSM在评估突变对蛋白质稳定性影响方面取得了高性能。此外，mutDDG-SSM表现出良好的无偏性，其对反向突变的预测准确性与正向突变相当。结论：从我们预训练的模型中提取有意义的特征可用于构建下游任务，我们的模型可能成为蛋白质工程和药物设计的有价值工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39198740/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39198740/",
+  "paper_page_path": "papers/pubmed/39198740/index.html"
+}

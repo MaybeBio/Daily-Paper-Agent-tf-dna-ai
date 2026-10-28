@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34223192",
+  "title": "Few-shot learning creates predictive models of drug response that translate from high-throughput screens to individual patients.",
+  "authors": "Ma, Jianzhu; Fong, Samson H; Luo, Yunan; Bakkenist, Christopher J; Shen, John Paul; Mourragui, Soufiane; Wessels, Lodewyk F A; Hafner, Marc; Sharan, Roded; Peng, Jian; Ideker, Trey",
+  "journal": "Nature cancer",
+  "published_date": "2021-07-06",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究药物反应的少样本学习预测模型，不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "Cell-line screens create expansive datasets for learning predictive markers of drug response, but these models do not readily translate to the clinic with its diverse contexts and limited data. In the present study, we apply a recently developed technique, few-shot machine learning, to train a versatile neural network model in cell lines that can be tuned to new contexts using few additional samples. The model quickly adapts when switching among different tissue types and in moving from cell-line models to clinical contexts, including patient-derived tumor cells and patient-derived xenografts. It can also be interpreted to identify the molecular features most important to a drug response, highlighting critical roles for RB1 and SMAD4 in the response to CDK inhibition and RNF8 and CHD4 in the response to ATM inhibition. The few-shot learning framework provides a bridge from the many samples surveyed in high-throughput screens (n-of-many) to the distinctive contexts of individual patients (n-of-one).",
+  "abstract_zh": "细胞系筛选生成了用于学习药物反应预测标记的广泛数据集，但这些模型并不能轻易转化到具有多样背景和有限数据的临床环境中。在本研究中，我们应用一种近期开发的技术——少样本机器学习 (few-shot machine learning)，在细胞系中训练一个通用的神经网络模型，该模型可通过少量额外样本调整以适应新背景。该模型在不同组织类型之间切换以及从细胞系模型转向临床背景（包括患者来源的肿瘤细胞和患者来源的异种移植）时能快速适应。它还可被解释以识别对药物反应最重要的分子特征，突出RB1和SMAD4在CDK抑制反应中的关键作用，以及RNF8和CHD4在ATM抑制反应中的关键作用。少样本学习框架为高通量筛选（多样本，n-of-many）中调查的大量样本与个体患者（单样本，n-of-one）的独特背景之间架起了一座桥梁。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34223192/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34223192/",
+  "paper_page_path": "papers/pubmed/34223192/index.html"
+}

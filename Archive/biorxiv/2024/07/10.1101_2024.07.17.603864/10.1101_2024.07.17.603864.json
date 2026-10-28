@@ -1,0 +1,149 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.17.603864",
+  "title": "Epigenetics is all you need: A Transformer to decode chromatin structural compartments from the epigenome",
+  "doi": "10.1101/2024.07.17.603864",
+  "abstract": "Chromatin within the nucleus adopts complex three-dimensional structures that are crucial for gene regulation and cellular function. Recent studies have revealed the presence of distinct chromatin subcompartments beyond the traditional A/B compartments (eu- and hetero-chromatin), each exhibiting unique structural and functional properties. Here, we introduce TECSAS (Transformer of Epigenetics to Chromatin Structural AnnotationS), a deep learning model based on the Transformer architecture, designed to predict chromatin subcompartment annotations directly from epigenomic data. TECSAS leverages information from histone modifications, transcription factor binding profiles, and RNA-Seq data to decode the relationship between the biochemical composition of chromatin and its 3D structural behavior. TECSAS achieves high accuracy in predicting subcompartment annotations and reveals the influence of long-range epigenomic context on chromatin organization. Furthermore, we demonstrate the model’s capability to predict the association of loci with nuclear bodies, such as the lamina, nucleoli, and speckles, providing insights into the role of these structures in shaping the 3D genome organization. This study highlights the potential of deep learning models for deciphering the complex interplay between epigenomic features and 3D genome organization, allowing us to better understand genome structure and function.",
+  "authors": [
+    "Dodero-Rojas E",
+    "Contessoto VG",
+    "Fehlis Y",
+    "Mayala N",
+    "Onuchic JN"
+  ],
+  "published_date": "2024-07-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.17.603864",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.17.603864.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR884489",
+    "raw_record": {
+      "id": "PPR884489",
+      "source": "PPR",
+      "doi": "10.1101/2024.07.17.603864",
+      "title": "Epigenetics is all you need: A Transformer to decode chromatin structural compartments from the epigenome",
+      "authorString": "Dodero-Rojas E, Contessoto VG, Fehlis Y, Mayala N, Onuchic JN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dodero-Rojas E",
+            "lastName": "Dodero-Rojas",
+            "firstName": "Esteban",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9054-9555"
+            }
+          },
+          {
+            "fullName": "Contessoto VG",
+            "lastName": "Contessoto",
+            "firstName": "Vinícius",
+            "initials": "VG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1891-9563"
+            }
+          },
+          {
+            "fullName": "Fehlis Y",
+            "lastName": "Fehlis",
+            "firstName": "Yao",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Mayala N",
+            "lastName": "Mayala",
+            "firstName": "Nicolas",
+            "initials": "N"
+          },
+          {
+            "fullName": "Onuchic JN",
+            "lastName": "Onuchic",
+            "firstName": "José",
+            "initials": "JN"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9054-9555"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1891-9563"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Chromatin within the nucleus adopts complex three-dimensional structures that are crucial for gene regulation and cellular function. Recent studies have revealed the presence of distinct chromatin subcompartments beyond the traditional A/B compartments (eu- and hetero-chromatin), each exhibiting unique structural and functional properties. Here, we introduce TECSAS (Transformer of Epigenetics to Chromatin Structural AnnotationS), a deep learning model based on the Transformer architecture, designed to predict chromatin subcompartment annotations directly from epigenomic data. TECSAS leverages information from histone modifications, transcription factor binding profiles, and RNA-Seq data to decode the relationship between the biochemical composition of chromatin and its 3D structural behavior. TECSAS achieves high accuracy in predicting subcompartment annotations and reveals the influence of long-range epigenomic context on chromatin organization. Furthermore, we demonstrate the model’s capability to predict the association of loci with nuclear bodies, such as the lamina, nucleoli, and speckles, providing insights into the role of these structures in shaping the 3D genome organization. This study highlights the potential of deep learning models for deciphering the complex interplay between epigenomic features and 3D genome organization, allowing us to better understand genome structure and function.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.17.603864"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41337156",
+            "reference": "PLoS computational biology. 2025 Dec;21(12):e1012326",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-07-22",
+      "firstPublicationDate": "2024-07-19",
+      "firstIndexDate": "2024-07-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

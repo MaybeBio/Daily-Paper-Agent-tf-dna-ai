@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose an integrated computational network modelling approach to reconstruct signalling networks using experimental and predicted TP53 regulons, and compare network topology to infer the functional impact of different TP53 somatic mutations. They evaluate this approach alongside a machine learning (ML) method on matched genomics and transcriptomics data from 1,457 cell lines and 12,531 clinical samples. The ML approach predicts TP53 mutation status but fails to resolve mutation types. The network approach, accounting for mutation type, deleterious consequences, and hotspot mapping, yields gene signatures for each mutation type and provides a richer understanding of gene expression regulation than simple mutation/wild type or expression status grouping.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, validation details, or methodological specifics are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, code availability, and any statistical or validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and ambitious approach to a clinically relevant problem, namely the functional characterization of TP53 somatic mutations. However, the current evidence base is insufficient to evaluate the technical soundness, validity, or novelty of the proposed methods. The claims are broad and the abstract lacks quantitative support, making it impossible to assess whether the network modelling approach genuinely outperforms simpler alternatives. The work may be of interest to computational biologists and cancer genomics researchers, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on network inference and mutation impact prediction would be interested in the methodological aspects. Cancer genomics researchers and precision medicine investigators would be interested in the potential to stratify TP53 mutations functionally. However, interest is contingent on the availability of rigorous validation and comparison with existing approaches.
+- **Major strengths** The problem addressed is important and timely, given the high frequency of TP53 mutations in cancer. The proposed integration of experimental and predicted regulons with network topology comparison is conceptually interesting. The scale of the analysis, involving thousands of cell lines and clinical samples, suggests a potentially comprehensive evaluation. The stated generalizability to other genetic variations is a positive framing.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the network modelling approach "infers a much richer understanding of gene expression regulation" than simple grouping by mutation status or expression status.  
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative comparisons provided  
+  - **Concern** The abstract provides no quantitative evidence, such as effect sizes, statistical significance, or performance metrics, to support the claim of "richer understanding." It is unclear how this superiority is measured or demonstrated.  
+  - **Why it matters** Without quantitative comparison, the central claim of the paper cannot be evaluated. The reader cannot determine whether the network approach adds meaningful value over standard approaches.  
+  - **Resolution test** Provide explicit metrics (e.g., classification accuracy, area under the curve, enrichment scores, or cross-validated performance) comparing the network-derived signatures against baseline grouping methods, with confidence intervals and statistical tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and methodological detail  
+  - **Claim pointer** The abstract describes an "integrated computational network modelling approach" and an ML approach based on "penalized generalized linear regression."  
+  - **Evidence pointer** Abstract only; methods section not provided  
+  - **Concern** The abstract lacks essential methodological details, including the specific network reconstruction algorithm, the nature of the "optimized" networks, the criteria for comparing topology, and the exact ML implementation. Without these, the approach cannot be reproduced or assessed for validity.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of methodological specifics prevents independent verification and undermines confidence in the results.  
+  - **Resolution test** Provide a detailed methods section with algorithmic descriptions, parameter choices, software versions, and code availability.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation and generalizability  
+  - **Claim pointer** The abstract claims the approach is evaluated in a "scrutinized pan-cancer analysis" across cell lines and clinical samples.  
+  - **Evidence pointer** Abstract only; no validation details provided  
+  - **Concern** The abstract does not describe how the approach was validated, whether on independent cohorts, with cross-validation, or against known biological annotations. The term "scrutinized" is vague and unsupported.  
+  - **Why it matters** Without clear validation, the generalizability of the findings to new datasets or clinical settings is uncertain. The claim of pan-cancer applicability requires robust evidence.  
+  - **Resolution test** Describe the validation strategy, including training and test splits, external validation datasets, and any biological benchmarks used to confirm the functional relevance of the derived signatures.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty and comparison to existing methods  
+  - **Claim pointer** The abstract implies the network approach is a novel strategy for characterizing mutation impact.  
+  - **Evidence pointer** Abstract only; no literature comparison provided  
+  - **Concern** The abstract does not situate the work relative to existing methods for predicting mutation impact, such as functional scores, structural models, or other network-based approaches. It is unclear what is genuinely new.  
+  - **Why it matters** For a Nature-style audience, novelty must be clearly articulated against the state of the art. Without this, the contribution's significance is difficult to assess.  
+  - **Resolution test** Include a comparison with existing mutation impact prediction tools and discuss specific advantages or improvements demonstrated with data.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "upwards of twenty thousand"  
+  - **Issue** The phrase "upwards of twenty thousand" is imprecise and informal for a scientific abstract.  
+  - **Required correction** Replace with an exact number or a clear range, e.g., "over 20,000 networks."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The claim that the approach "can be applied in general to genetic variation" is broad and not supported by evidence in the abstract.  
+  - **Required correction** Soften the claim or provide a specific example of generalizability beyond TP53.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Regulon" usage  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The term "regulon" is used but not defined; readers may be unfamiliar with its specific meaning in this context.  
+  - **Required correction** Provide a brief definition or clarify the scope of the regulon in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence), R1-M2 (insufficient methodological detail), R1-M3 (inadequate validation description). These are fundamental and must be resolved for the claims to be credible.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The conceptual combination of network reconstruction and mutation-type-specific signature extraction may be original, but this cannot be confirmed without a literature comparison.  
+  - **Scientific importance** The problem is important, but the abstract does not demonstrate a significant advance over existing approaches.  
+  - **Interdisciplinary readership** The work could appeal to computational and cancer biology audiences, but the abstract is too technical and lacks context for broader readers.  
+  - **Technical soundness** Not assessable from the abstract; critical details are missing.  
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with network modelling and genomics; it is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient support for the central claims. A full manuscript with detailed methods, quantitative results, and validation would be required to assess whether the approach is sound and impactful.
+
+## Risk / unsupported claims
+- The claim of "richer understanding" of gene expression regulation is unsupported without quantitative comparisons.
+- The claim of general applicability to "genetic variation" is unsupported and speculative.
+- The assertion that the network approach outperforms simple grouping is not evidenced.
+- The scale of the analysis (1,457 cell lines, 12,531 clinical samples) is stated but not substantiated with any results.
+- The failure of the ML approach to "resolve different mutation types" is reported without performance metrics or statistical context.

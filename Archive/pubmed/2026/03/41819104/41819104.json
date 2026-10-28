@@ -1,0 +1,704 @@
+{
+  "identity": {
+    "pmid": "41819104",
+    "doi": "10.1016/j.cell.2026.02.015",
+    "title": "Cell-type-specific transposon demethylation and TAD remodeling in aging mouse brain."
+  },
+  "content": {
+    "abstract": "Aging is a major risk factor for neurodegenerative diseases, yet the underlying epigenetic mechanisms remain unclear. Here, we generated a comprehensive single-nucleus cell atlas of brain aging across multiple brain regions, comprising 132,551 single-cell methylomes and 72,666 joint chromatin conformation-methylome nuclei. Integration with companion transcriptomic and chromatin accessibility data yielded a cross-modality taxonomy of 36 major cell types. We observed that transposable element (TE) methylation alone distinguished age groups, showing cell-type-specific genome-wide demethylation. Chromatin conformation analysis demonstrated age-related increases in topologically associated domain (TAD) boundary strength with enhanced accessibility at CCCTC-binding factor (CTCF) binding sites. Spatial transcriptomics across 895,296 cells revealed regional heterogeneity during aging within identical cell types. Finally, we developed deep-learning models that reliably predict age-related gene expression changes using multi-modal epigenetic features, providing mechanistic insights into gene regulation. Age-related comparisons use a 2-month baseline reflecting the late-adolescent/early-young adult stage. This dataset advances our understanding of brain aging and offers potential translational applications.",
+    "keywords": [
+      "3D genome",
+      "DNA methylation",
+      "brain aging",
+      "deep learning",
+      "multi-omic",
+      "neurons and glias",
+      "single-cell",
+      "spatial transcriptome",
+      "topologically associating domains",
+      "transposable elements"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Aging/genetics",
+      "*Brain/metabolism",
+      "*DNA Transposable Elements/genetics",
+      "Mice",
+      "DNA Methylation/genetics",
+      "Epigenesis, Genetic",
+      "Chromatin/metabolism",
+      "Mice, Inbred C57BL",
+      "CCCTC-Binding Factor/metabolism",
+      "Male",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Qiurui",
+        "Wang, Wenliang",
+        "Tian, Wei",
+        "Klein, Amit",
+        "Bartlett, Anna",
+        "Liu, Hanqing",
+        "Nery, Joseph R",
+        "Castanon, Rosa G",
+        "Osteen, Julia",
+        "Johnson, Nicholas D",
+        "Ding, Wubin",
+        "Chen, Huaming",
+        "Altshul, Jordan",
+        "Kenworthy, Mia",
+        "Valadon, Cynthia",
+        "Owens, William",
+        "Wu, Zhanghao",
+        "Amaral, Maria Luisa",
+        "Zemke, Nathan R",
+        "Song, Yuru",
+        "Baez-Becerra, Cindy Tatiana",
+        "Cho, Silvia",
+        "Chen, Chumo",
+        "Willier, Jackson",
+        "Cao, Stella",
+        "Rink, Jonathan",
+        "Lee, Jasper",
+        "Barcoma, Ariana",
+        "Arzavala, Jessica",
+        "Emerson, Nora",
+        "Lu, Yuancheng Ryan",
+        "Ren, Bing",
+        "Behrens, M Margarita",
+        "Ecker, Joseph R"
+      ],
+      "short_names": [
+        "Zeng Q",
+        "Wang W",
+        "Tian W",
+        "Klein A",
+        "Bartlett A",
+        "Liu H",
+        "Nery JR",
+        "Castanon RG",
+        "Osteen J",
+        "Johnson ND",
+        "Ding W",
+        "Chen H",
+        "Altshul J",
+        "Kenworthy M",
+        "Valadon C",
+        "Owens W",
+        "Wu Z",
+        "Amaral ML",
+        "Zemke NR",
+        "Song Y",
+        "Baez-Becerra CT",
+        "Cho S",
+        "Chen C",
+        "Willier J",
+        "Cao S",
+        "Rink J",
+        "Lee J",
+        "Barcoma A",
+        "Arzavala J",
+        "Emerson N",
+        "Lu YR",
+        "Ren B",
+        "Behrens MM",
+        "Ecker JR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA; Division of Biological Sciences, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA; Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA; Junior Fellow, Faculty of Arts and Sciences, Harvard University, Cambridge, MA 02138, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Sky Computing Lab, University of California, Berkeley, Berkeley, CA 94709, USA.",
+        "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA 92093, USA; Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA 92093, USA; Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA 92093, USA.",
+        "Neurosciences Graduate Program, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA.",
+        "Whitehead Institute for Biomedical Research, Cambridge, MA 02138, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA 92093, USA; New York Genome Center, 101 Avenue of the Americas, New York, NY 10013, USA; Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, 701 W 168th Street, New York, NY 10032, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA. Electronic address: mbehrens@salk.edu.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA; Howard Hughes Medical Institute, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA. Electronic address: ecker@salk.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Qiurui",
+        "short_name": "Zeng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA; Division of Biological Sciences, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenliang",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Tian, Wei",
+        "short_name": "Tian W",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Klein, Amit",
+        "short_name": "Klein A",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA; Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Bartlett, Anna",
+        "short_name": "Bartlett A",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Hanqing",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA; Junior Fellow, Faculty of Arts and Sciences, Harvard University, Cambridge, MA 02138, USA."
+        ]
+      },
+      {
+        "full_name": "Nery, Joseph R",
+        "short_name": "Nery JR",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Castanon, Rosa G",
+        "short_name": "Castanon RG",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Osteen, Julia",
+        "short_name": "Osteen J",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Nicholas D",
+        "short_name": "Johnson ND",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Ding, Wubin",
+        "short_name": "Ding W",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Huaming",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Altshul, Jordan",
+        "short_name": "Altshul J",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Kenworthy, Mia",
+        "short_name": "Kenworthy M",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Valadon, Cynthia",
+        "short_name": "Valadon C",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Owens, William",
+        "short_name": "Owens W",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhanghao",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Sky Computing Lab, University of California, Berkeley, Berkeley, CA 94709, USA."
+        ]
+      },
+      {
+        "full_name": "Amaral, Maria Luisa",
+        "short_name": "Amaral ML",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA 92093, USA; Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Zemke, Nathan R",
+        "short_name": "Zemke NR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA 92093, USA; Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Yuru",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosciences Graduate Program, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Báez-Becerra, Cindy Tatiana",
+        "short_name": "Báez-Becerra CT",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Cho, Silvia",
+        "short_name": "Cho S",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Chumo",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Willier, Jackson",
+        "short_name": "Willier J",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Stella",
+        "short_name": "Cao S",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Rink, Jonathan",
+        "short_name": "Rink J",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Jasper",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Barcoma, Ariana",
+        "short_name": "Barcoma A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Arzavala, Jessica",
+        "short_name": "Arzavala J",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Emerson, Nora",
+        "short_name": "Emerson N",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Yuancheng Ryan",
+        "short_name": "Lu YR",
+        "identifiers": [],
+        "affiliations": [
+          "Whitehead Institute for Biomedical Research, Cambridge, MA 02138, USA."
+        ]
+      },
+      {
+        "full_name": "Ren, Bing",
+        "short_name": "Ren B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA 92093, USA; New York Genome Center, 101 Avenue of the Americas, New York, NY 10013, USA; Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, 701 W 168th Street, New York, NY 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Behrens, M Margarita",
+        "short_name": "Behrens MM",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA. Electronic address: mbehrens@salk.edu."
+        ]
+      },
+      {
+        "full_name": "Ecker, Joseph R",
+        "short_name": "Ecker JR",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA; Howard Hughes Medical Institute, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA. Electronic address: ecker@salk.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2026 Apr 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/13 00:50",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [
+      "42650097",
+      "42516216",
+      "41824460"
+    ],
+    "refs": [
+      "40043106",
+      "39843737",
+      "39743592",
+      "39604704",
+      "38959897",
+      "38838671",
+      "38781369",
+      "38724736",
+      "38499830",
+      "38381405",
+      "38102202",
+      "38092919",
+      "38092917",
+      "38092916",
+      "38092913",
+      "38092912",
+      "37824674",
+      "37774679",
+      "37774676",
+      "37676945",
+      "37563227",
+      "37331354",
+      "37312416",
+      "37154113",
+      "36758546",
+      "36750315",
+      "36638792",
+      "36622562",
+      "36610399",
+      "36599349",
+      "36580914",
+      "36548410",
+      "36369226",
+      "35947677",
+      "35651462",
+      "35501397",
+      "35269761",
+      "34725479",
+      "34671600",
+      "34654889",
+      "34616061",
+      "34433614",
+      "34349292",
+      "34335235",
+      "34321664",
+      "34035898",
+      "33888553",
+      "33833439",
+      "33318659",
+      "33268865",
+      "33264392",
+      "32616769",
+      "32606809",
+      "32531247",
+      "32386544",
+      "32360405",
+      "32160266",
+      "31932797",
+      "31784727",
+      "31780648",
+      "31755929",
+      "31501588",
+      "31501549",
+      "31435019",
+      "31249361",
+      "31235599",
+      "30914743",
+      "30867571",
+      "30853213",
+      "30728521",
+      "30408501",
+      "30237449",
+      "29239145",
+      "29158945",
+      "28826529",
+      "28803918",
+      "28529057",
+      "28525758",
+      "27984723",
+      "27886173",
+      "27026523",
+      "26819470",
+      "26814963",
+      "26704975",
+      "26653891",
+      "25959774",
+      "25858977",
+      "25640177",
+      "25599223",
+      "25056061",
+      "25042786",
+      "24410996",
+      "24362762",
+      "24335803",
+      "24198767",
+      "23995138",
+      "23828890",
+      "23290134",
+      "22955616",
+      "22715882",
+      "22495300",
+      "22388286",
+      "22170606",
+      "21537331",
+      "21333600",
+      "21208982",
+      "20513432",
+      "20152109",
+      "19815776",
+      "19505943",
+      "19194443",
+      "19116299",
+      "18724932",
+      "17084361",
+      "16545965",
+      "11124987",
+      "3409321"
+    ],
+    "similar": [
+      "41819104",
+      "38092913",
+      "37131654",
+      "34616061",
+      "42475469",
+      "41015942",
+      "40796890",
+      "38961490",
+      "32286261",
+      "38092917",
+      "30948436",
+      "37824674",
+      "42267589",
+      "38372175",
+      "24034465",
+      "31594536",
+      "28863138",
+      "40764058",
+      "31911579",
+      "41495924",
+      "33201571",
+      "30180872",
+      "31491387",
+      "29335803",
+      "26091484",
+      "34764232",
+      "40497496",
+      "42210302",
+      "31831055",
+      "41080543",
+      "34981210",
+      "35159171",
+      "38669177",
+      "41824460",
+      "31910870",
+      "41622199",
+      "32680543",
+      "34598831",
+      "30717603",
+      "38866804",
+      "30142075",
+      "38643172",
+      "29757144",
+      "34273410",
+      "35933090",
+      "28671686",
+      "41603298",
+      "40301621",
+      "23804403",
+      "28577753",
+      "39999165",
+      "40616903",
+      "36599988",
+      "23580197",
+      "42315917",
+      "38697116",
+      "37824643",
+      "38956648",
+      "34245617",
+      "30604769",
+      "41121355",
+      "26091879",
+      "25956794",
+      "34326481",
+      "42135109",
+      "31629814",
+      "29137603",
+      "42696576",
+      "26321660",
+      "39730969",
+      "29590048",
+      "42490474",
+      "38643244",
+      "33957080",
+      "29631215",
+      "40760208",
+      "42106409",
+      "42304519",
+      "28737770",
+      "42490473",
+      "39317796",
+      "41277030",
+      "28125731",
+      "39180406",
+      "39090757",
+      "39604704",
+      "25880792",
+      "41676689",
+      "42544445",
+      "29593713",
+      "33239788",
+      "35997258",
+      "36580914",
+      "35947991",
+      "39217176",
+      "34462306",
+      "34311744",
+      "42065963",
+      "25079557",
+      "23028473"
+    ],
+    "review": [
+      "41819104",
+      "42267589",
+      "42135109"
+    ],
+    "pmc": [
+      "13007725"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(26)00222-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41819104/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

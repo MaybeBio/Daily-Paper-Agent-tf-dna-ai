@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text, including main text, appendices, and footnotes. Figures and tables referenced but not provided.
+- **Assessment boundary** Scientific claims, methodological soundness, experimental design, and interpretation as presented in the supplied text. No assessment of code, data, or supplementary materials beyond what is described.
+- **Shared manuscript claim summary** The authors propose a unified autoregressive transformer model, adapted from Prot2Token, connected to ESM-2, for predicting protein-ligand binding sites across 41 ligands from protein sequence alone. They claim broad ligand coverage, meaningful biochemical information captured in task token embeddings, and improved predictions for underrepresented ligands via multi-task learning.
+- **Visible evidence base** Main text sections 1-4, Appendix A.1-A.4, Tables 1-2 referenced, Figures 1-13 referenced, Algorithm 1 described. No actual data, tables, or figures were provided in the supplied material.
+- **Missing materials affecting confidence** All tables, figures, quantitative results, and algorithmic details are referenced but not included. This severely limits the ability to verify the central claims of the manuscript.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of protein-ligand binding sites from sequence alone, and proposes a reasonable extension of an existing architecture. The framing of the task as language modeling with task tokens is sensible, and the multi-task learning strategy is a plausible approach to address data scarcity. However, the manuscript as provided is essentially a description of methods and intentions without the supporting quantitative evidence. No results are presented in the supplied text, making it impossible to assess whether the claims of improved performance, meaningful embeddings, or effective knowledge transfer are actually supported. The writing is generally clear but contains several structural and formatting issues that would need correction.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, drug discovery, and machine learning applications to biology would be the primary audience. The potential to predict binding sites for many ligand types from sequence alone, without structural information, is of practical interest for high-throughput annotation of proteins, especially for understudied organisms or proteins without experimentally determined structures. The interpretability analysis of task token embeddings may also interest researchers studying representation learning in biological sequence models.
+- **Major strengths**
+  1. The problem is well-motivated and practically relevant. The limitations of existing methods, particularly in terms of ligand coverage and data scarcity, are clearly articulated.
+  2. The methodological approach is a sensible and novel adaptation of an existing architecture, with a clear rationale for replacing the chemical encoder with task tokens.
+  3. The self-supervised pre-training strategy for the decoder is a thoughtful contribution that addresses a known limitation of the original Prot2Token approach.
+  4. The multi-task learning framework with interpretability analysis is a valuable direction, as it attempts to provide mechanistic insight into why knowledge transfer works.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims superior generalization and applicability compared to existing methods, supported by experimental evaluations on 41 ligands.
+  - **Evidence pointer** Section 4, Tables 1, 4, 5, Figures 5-10 (all referenced but not provided)
+  - **Concern** No quantitative results are presented in the supplied material. The central claim of the manuscript, namely that the proposed method achieves strong predictive performance across 41 ligands and outperforms existing methods, cannot be evaluated. The text refers to tables and figures that are not included, and no numerical values, error bars, or statistical comparisons are given anywhere in the text.
+  - **Why it matters** The entire scientific contribution rests on the experimental results. Without access to the actual performance metrics, baseline comparisons, and statistical analyses, the claims are unverifiable. This is a fundamental issue that prevents any assessment of the manuscript's validity.
+  - **Resolution test** Provide the full results tables and figures, including performance metrics for all 41 ligands, comparisons with baseline methods, and appropriate statistical tests. The claims of superiority must be supported by direct quantitative evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript claims that multi-task learning enables effective knowledge transfer across ligands, significantly improving predictions for those with limited training data.
+  - **Evidence pointer** Section 4.4, Table 2 (referenced but not provided)
+  - **Concern** The experimental design for the multi-task learning analysis is described only in vague terms. The text states that three groups of ligands were compared, but the exact composition of these groups, the selection criteria, the training procedure, and the evaluation protocol are not specified. The claim that group 3 improves F1 score more than other groups is presented without any supporting numbers or statistical significance testing.
+  - **Why it matters** The multi-task learning claim is a key contribution of the paper. Without a clear description of the experimental setup and the actual results, it is impossible to determine whether the observed improvements are real, significant, or an artifact of the specific ligand selection or training configuration.
+  - **Resolution test** Provide a detailed description of the experimental setup for the multi-task learning comparison, including the exact ligands in each group, the training and evaluation protocols, and the full results with appropriate statistical analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability validation
+  - **Claim pointer** The manuscript claims that task token embeddings capture meaningful biochemical properties, validated through clustering and correlation analyses.
+  - **Evidence pointer** Section 4.3, Figures 4, 6-12, Tables 6-8 (all referenced but not provided)
+  - **Concern** The interpretability analysis is a central part of the paper's contribution, but the methodology is described only at a high level. The text mentions clustering of task token embeddings and comparison with clustering based on biochemical features, but the specific clustering algorithm, the choice of distance metric, the number of clusters, and the interpretation of the agreement metrics are not described in sufficient detail. The reported metrics (ARI, NMI, pairwise accuracy) are given without context or comparison to appropriate baselines.
+  - **Why it matters** The claim that embeddings capture meaningful biochemical information is used to justify the multi-task learning strategy and the broader applicability of the framework. Without a rigorous and well-described validation methodology, this claim remains anecdotal.
+  - **Resolution test** Provide a detailed description of the clustering and correlation analysis methodology, including all parameters, and present the results with appropriate context, such as comparison to random embeddings or other baselines.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The manuscript claims superior performance compared to existing methods, but acknowledges difficulties in direct comparison.
+  - **Evidence pointer** Section 4.2, Appendix A.4, Table 5 (referenced but not provided)
+  - **Concern** The text acknowledges that direct comparison with existing methods was challenging due to server availability, speed, and potential training data overlap. While this is an honest admission, it raises questions about the validity of any comparative claims. The manuscript states that LMetalSite showed signs of data leakage in the comparison, but no details are given about how this was detected or how it affects the interpretation of results.
+  - **Why it matters** Comparative claims are a key part of establishing the value of a new method. If the comparison is compromised by data leakage or other issues, the claims of superiority may not be reliable.
+  - **Resolution test** Provide a clear description of the comparison methodology, including how data leakage was assessed, and present results that are robust to these concerns, or temper the comparative claims accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3, Method
+  - **Evidence pointer** Section 3, equations (location not provided)
+  - **Issue** The mathematical formulation of the autoregressive model and the loss function is presented in a fragmented manner. The equations are referenced but not fully displayed in the supplied text, and the notation is not consistently defined.
+  - **Required correction** Present the full mathematical formulation with clear notation and definitions for all variables.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3, Dataset
+  - **Evidence pointer** Section 3, Dataset
+  - **Issue** The description of the dataset preparation is incomplete. The text mentions clustering at 40% identity using CD-HIT but does not specify the exact parameters, the number of protein sequences per ligand, or the distribution of the data across training, validation, and test sets.
+  - **Required correction** Provide a detailed description of the dataset statistics, including the number of proteins per ligand, sequence length distributions, and the exact splitting procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 4.1, Self-supervised pre-training
+  - **Evidence pointer** Section 4.1
+  - **Issue** The description of the self-supervised pre-training data generation is unclear. The text states that 80 million and 20k self-supervised samples were created, then 1 million and 1k were sampled from them. The relationship between these numbers and the original 4 million protein sequences is not explained.
+  - **Required correction** Clarify the data generation process and the relationship between the original sequences and the self-supervised samples.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.3, Finding relationships between ligands
+  - **Evidence pointer** Section 4.3
+  - **Issue** The text mentions that ligands with F1 score below 0.5 were excluded from the clustering analysis, but the rationale for this threshold is not given, and the number of ligands excluded is not stated.
+  - **Required correction** Justify the F1 threshold and report how many ligands were excluded and how this affects the analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 4.2, Protein-ligand binding site
+  - **Evidence pointer** Section 4.2
+  - **Issue** The text mentions that retaining a portion of self-supervised samples during fine-tuning resulted in measurable improvement, but no quantitative evidence is provided for this claim.
+  - **Required correction** Provide the specific numbers supporting this claim, or remove it if it cannot be substantiated.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Formatting
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript contains several formatting issues, including missing spaces between words, inconsistent citation formatting, and incomplete equation displays. These issues detract from readability.
+  - **Required correction** Perform a thorough proofreading and formatting pass to ensure consistent and professional presentation.
+
+## Risk / unsupported claims
+- The claim of superior generalization and applicability compared to existing methods is unsupported in the supplied material, as no quantitative results are presented.
+- The claim that multi-task learning significantly improves predictions for underrepresented ligands is unsupported, as the relevant experimental results are not provided.
+- The claim that task token embeddings capture meaningful biochemical properties is only partially supported by the described methodology, but the actual results are not available for verification.
+- The claim that self-supervised pre-training improves performance is stated but not substantiated with data.
+- The claim that retaining self-supervised samples during fine-tuning results in measurable improvement is stated without supporting evidence.
+- The comparison with existing methods is acknowledged to be potentially compromised by data leakage, which undermines the reliability of any comparative claims.

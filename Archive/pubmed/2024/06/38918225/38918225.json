@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "38918225",
+    "doi": "10.1007/s12032-024-02427-0",
+    "title": "A drug repurposing study identifies novel FOXM1 inhibitors with in vitro activity against breast cancer cells."
+  },
+  "content": {
+    "abstract": "FOXM1, a proto-oncogenic transcription factor, plays a critical role in cancer development and treatment resistance in cancers, particularly in breast cancer. Thus, this study aimed to identify potential FOXM1 inhibitors through computational screening of drug databases, followed by in vitro validation of their inhibitory activity against breast cancer cells. In silico studies involved pharmacophore modeling using the FOXM1 inhibitor, FDI-6, followed by virtual screening of DrugBank and Selleckchem databases. The selected drugs were prepared for molecular docking, and the crystal structure of FOXM1 was pre-processed for docking simulations. In vitro studies included MTT assays to assess cytotoxicity, and Western blot analysis to evaluate protein expression levels. Our study identified Pantoprazole and Rabeprazole as potential FOXM1 inhibitors through in silico screening and molecular docking. Molecular dynamics simulations confirmed stable interactions of these drugs with FOXM1. In vitro experiments showed both Pantoprazole and Rabeprazole exhibited strong FOXM1 inhibition at effective concentrations and that showed inhibition of cell proliferation. Rabeprazole showed the inhibitor activity at 10 microM in BT-20 and MCF-7 cell lines. Pantoprazole exhibited FOXM1 inhibition at 30 microM and in BT-20 cells and at 70 microM in MCF-7 cells, respectively. Our current study provides the first evidence that Rabeprazole and Pantoprazole can bind to FOXM1 and inhibit its activity and downstream signaling, including eEF2K and pEF2, in breast cancer cells. These findings indicate that rabeprazole and pantoprazole inhibit FOXM1 and breast cancer cell proliferation, and they can be used for FOXM1-targeted therapy in breast or other cancers driven by FOXM1.",
+    "keywords": [
+      "Breast cancer",
+      "Cell cytotoxicity assay",
+      "Drug repurposing",
+      "FOXM1",
+      "FOXM1-siRNA transfection",
+      "Molecular docking",
+      "Pantoprazole",
+      "Pharmacophore",
+      "Rabeprazole",
+      "Targeted therapy",
+      "Triple-negative breast cancer",
+      "Western blot"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Forkhead Box Protein M1/antagonists & inhibitors/metabolism",
+      "*Drug Repositioning",
+      "*Breast Neoplasms/drug therapy/pathology/metabolism",
+      "*Molecular Docking Simulation",
+      "Female",
+      "*Rabeprazole/pharmacology",
+      "MCF-7 Cells",
+      "*Cell Proliferation/drug effects",
+      "Molecular Dynamics Simulation",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Pantoprazole/pharmacology",
+      "Cell Line, Tumor",
+      "Pyridines",
+      "Thiophenes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abusharkh, Khaled A N",
+        "Comert Onder, Ferah",
+        "Cinar, Venhar",
+        "Hamurcu, Zuhal",
+        "Ozpolat, Bulent",
+        "Ay, Mehmet"
+      ],
+      "short_names": [
+        "Abusharkh KAN",
+        "Comert Onder F",
+        "Cinar V",
+        "Hamurcu Z",
+        "Ozpolat B",
+        "Ay M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, School of Graduate Studies, Canakkale Onsekiz Mart University, 17020, Canakkale, Turkiye.",
+        "Department of Chemistry, Faculty of Science, Natural Products and Drug Research Laboratory, Canakkale Onsekiz Mart University, 17020, Canakkale, Turkiye.",
+        "Department of Chemistry and Chemical Technology, Faculty of Science and Technology, Al-Quds University, Jerusalem, 20002, Palestine.",
+        "Department of Medical Biology, Faculty of Medicine, Canakkale Onsekiz Mart University, 17020, Canakkale, Turkiye. ferahcomertonder@comu.edu.tr.",
+        "Department of Medical Biology, Faculty of Medicine, Erciyes University, 38039, Kayseri, Turkiye.",
+        "Department of Medical Biology, Faculty of Medicine, Erciyes University, 38039, Kayseri, Turkiye.",
+        "Department of Nanomedicine, Houston Methodist Research Institute, Houston, TX, 77030, USA. bozpolat@houstonmethodist.org.",
+        "Department of Chemistry, Faculty of Science, Natural Products and Drug Research Laboratory, Canakkale Onsekiz Mart University, 17020, Canakkale, Turkiye. mehmetay06@comu.edu.tr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abusharkh, Khaled A N",
+        "short_name": "Abusharkh KAN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Graduate Studies, Çanakkale Onsekiz Mart University, 17020, Çanakkale, Türkiye.",
+          "Department of Chemistry, Faculty of Science, Natural Products and Drug Research Laboratory, Çanakkale Onsekiz Mart University, 17020, Çanakkale, Türkiye.",
+          "Department of Chemistry and Chemical Technology, Faculty of Science and Technology, Al-Quds University, Jerusalem, 20002, Palestine."
+        ]
+      },
+      {
+        "full_name": "Comert Onder, Ferah",
+        "short_name": "Comert Onder F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Faculty of Medicine, Çanakkale Onsekiz Mart University, 17020, Çanakkale, Türkiye. ferahcomertonder@comu.edu.tr."
+        ]
+      },
+      {
+        "full_name": "Çınar, Venhar",
+        "short_name": "Çınar V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Faculty of Medicine, Erciyes University, 38039, Kayseri, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Hamurcu, Zuhal",
+        "short_name": "Hamurcu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Faculty of Medicine, Erciyes University, 38039, Kayseri, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Ozpolat, Bulent",
+        "short_name": "Ozpolat B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nanomedicine, Houston Methodist Research Institute, Houston, TX, 77030, USA. bozpolat@houstonmethodist.org."
+        ]
+      },
+      {
+        "full_name": "Ay, Mehmet",
+        "short_name": "Ay M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, Natural Products and Drug Research Laboratory, Çanakkale Onsekiz Mart University, 17020, Çanakkale, Türkiye. mehmetay06@comu.edu.tr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical oncology (Northwood, London, England)"
+    ],
+    "journal_abbrev": [
+      "Med Oncol"
+    ],
+    "pub_date": "2024 Jun 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/26 00:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42518399",
+      "42505347",
+      "42352984",
+      "42070099",
+      "41627142",
+      "41335181",
+      "41032159",
+      "41011031",
+      "40939706",
+      "40573222",
+      "39318080"
+    ],
+    "refs": [
+      "38572751",
+      "38084766",
+      "37676264",
+      "36006564",
+      "35680842",
+      "34962586",
+      "34908809",
+      "34812040",
+      "34206484",
+      "33948872",
+      "33860211",
+      "33676555",
+      "31654840",
+      "31596514",
+      "30729279",
+      "29789637",
+      "29748184",
+      "29604922",
+      "29414039",
+      "29301506",
+      "28712971",
+      "28361350",
+      "28176242",
+      "27748935",
+      "27557051",
+      "27167337",
+      "26918606",
+      "26706905",
+      "26164623",
+      "25449432",
+      "25387393",
+      "24577129",
+      "23536876",
+      "23147197",
+      "21982300",
+      "21860463",
+      "21712406",
+      "21281787",
+      "21251245",
+      "21082037",
+      "20360045",
+      "20074015",
+      "19499576",
+      "19399780",
+      "17101782",
+      "16809346",
+      "16452231",
+      "12482952"
+    ],
+    "similar": [
+      "38918225",
+      "34402202",
+      "31322278",
+      "34206484",
+      "26918606",
+      "34809496",
+      "36006564",
+      "37340696",
+      "36847915",
+      "38653790",
+      "18645012",
+      "33069434",
+      "29859987",
+      "34954029",
+      "25213081",
+      "31244930",
+      "34358518",
+      "26148240",
+      "38980505",
+      "38623839",
+      "26927663",
+      "29288948",
+      "19813088",
+      "33744419",
+      "36113258",
+      "32080887",
+      "29748184",
+      "37370117",
+      "33466512",
+      "28176242",
+      "29745344",
+      "28361350",
+      "25387393",
+      "27439614",
+      "31654840",
+      "28114286",
+      "29197962",
+      "32048247",
+      "20068070",
+      "33797379",
+      "19276163",
+      "23531216",
+      "19513552",
+      "30365046",
+      "28502298",
+      "33200225",
+      "30201862",
+      "37976368",
+      "30206781",
+      "21154750",
+      "26588055",
+      "38282144",
+      "27213551",
+      "36334454",
+      "21518729",
+      "34880209",
+      "23306612",
+      "25897210",
+      "29414039",
+      "30883132",
+      "32429421",
+      "33221995",
+      "39127010",
+      "20208560",
+      "28902136",
+      "30927552",
+      "38159701",
+      "28197631",
+      "24896091",
+      "31311575",
+      "33166925",
+      "32209309",
+      "26164623",
+      "21763263",
+      "35066766",
+      "29301438",
+      "38704607",
+      "35007724",
+      "26563150",
+      "32981511",
+      "25869208",
+      "25337187",
+      "33130288",
+      "38913211",
+      "15258107",
+      "31359594",
+      "24909516",
+      "36995997",
+      "26560505",
+      "28148279",
+      "27277416",
+      "26884854",
+      "28061449",
+      "38816444",
+      "30978209",
+      "35125087",
+      "39318080",
+      "26316295",
+      "26820938",
+      "28154085",
+      "34688691",
+      "22203467",
+      "39146703",
+      "39208664",
+      "37747672",
+      "38815949",
+      "36232751",
+      "39082832",
+      "39397003",
+      "38320249",
+      "35536789",
+      "39168013"
+    ],
+    "review": [
+      "38918225",
+      "29859987",
+      "37370117",
+      "28176242"
+    ],
+    "pmc": [
+      "11199234"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38918225/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12032-024-02427-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38918225",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

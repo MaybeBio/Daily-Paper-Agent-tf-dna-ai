@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report an in-silico investigation of ten missense mutations in the Vitamin D receptor ligand-binding domain, using AlphaFold modeling, molecular docking, molecular dynamics simulations, and pocket analysis, concluding that these mutations reduce Vitamin D3 binding affinity and receptor stability, thereby contributing to calcitriol resistance and associated skeletal and immune abnormalities.
+- **Visible evidence base** Abstract text only; no numerical data beyond docking scores, no methodological details, no structural or simulation figures
+- **Missing materials affecting confidence** Full methods, all figures and tables, simulation parameters, validation of the AlphaFold model, statistical analyses, and any comparison with experimental or clinical data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow and a clinically relevant question, but the evidence provided is insufficient to support the central claims. The reported docking scores and qualitative stability descriptions are not accompanied by the necessary methodological context, statistical validation, or structural analysis to establish that the identified mutations cause functional resistance. The link between computational predictions and clinical outcomes is asserted rather than demonstrated.
+- **Who would be interested in the results, and why** Researchers in vitamin D biology, nuclear receptor signaling, and computational structural biology would be interested, as the work addresses a clinically important receptor and proposes a framework for variant prioritization. Clinicians managing hereditary rickets or vitamin D resistance might also find the variant-level insights relevant, provided the computational predictions are validated.
+- **Major strengths** The study addresses a clinically significant problem with potential translational relevance. The use of multiple complementary computational methods (docking, MD simulations, PCA, CASTp) is appropriate for a structural investigation. The focus on a defined set of pathogenic variants from a larger pool is a reasonable strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that mutations R274H, R274L, and H305Q exhibit "minimal RMSD and Rg fluctuations, indicating stable protein conformations" and that docking revealed "reduced binding affinities" relative to wild-type.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no methodological details for the docking protocol, force field, scoring function, or simulation length. RMSD and Rg values are described qualitatively without numerical thresholds or comparison to a positive or negative control. The docking scores (-8.9, -8.8, -9.0 vs -9.9 kcal/mol) are presented as evidence of reduced affinity, but the difference is small and no error estimates or replicate analyses are reported.
+  - **Why it matters** Without these details, the reader cannot assess whether the observed differences are statistically or physically meaningful. Small docking score differences are often within the noise of the method, and stability claims based on qualitative RMSD descriptions are not reproducible.
+  - **Resolution test** Provide full docking and simulation parameters, report RMSD and Rg values with standard deviations across replicates, include a statistical test comparing mutant to wild-type, and show that the docking score differences exceed the method's known error margin.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract concludes that "missense mutations in the VDR LBD compromise Vitamin D3 binding and receptor stability, contributing to resistance and related skeletal and immune abnormalities."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The causal link between computational predictions and clinical phenotypes is asserted without any experimental or clinical validation. The abstract does not state whether the selected mutations are from patients with documented resistance, nor does it compare predictions to known functional data for these variants.
+  - **Why it matters** Computational predictions alone cannot establish a pathogenic mechanism. Without validation against experimental binding assays, cellular assays, or clinical genotype-phenotype correlations, the claim of "contributing to resistance" is unsupported.
+  - **Resolution test** Cite or provide experimental data for at least a subset of the mutations, or clearly reframe the conclusions as predictions requiring validation. If no such data exist, the abstract should state this limitation explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "CASTp analyses identified key residues in the binding pocket" and that "downstream non-genomic pathways were assessed to interpret functional effects."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The CASTp analysis is mentioned but no results are reported, and the method for assessing downstream non-genomic pathways is not described. It is unclear whether this was a literature-based inference, a pathway analysis tool, or a separate simulation.
+  - **Why it matters** These analyses are presented as part of the evidence base, but without results or methods, their contribution to the conclusions cannot be evaluated.
+  - **Resolution test** Provide the CASTp results (e.g., pocket volumes, residue lists) and describe the pathway assessment method, including any tools or databases used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "biologically active metabolite of vitamin D [1alpha,25-dihydroxyvitamin D3 (calcitriol)]" is grammatically awkward and interrupts the flow.
+  - **Required correction** Rephrase to "the biologically active metabolite 1alpha,25-dihydroxyvitamin D3 (calcitriol)" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Mutation nomenclature
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The mutations are described as "R --> H and R --> L at position 274" and "H --> Q at position 305." Standard nomenclature (e.g., p.Arg274His) is not used, which may cause ambiguity.
+  - **Required correction** Use standard single-letter or three-letter amino acid notation with position, such as p.Arg274His, p.Arg274Leu, and p.His305Gln.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Selection criteria
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that 62 of 503 variants were "likely pathogenic" and that ten LBD mutations were analyzed, but the criteria for selecting these ten are not stated.
+  - **Required correction** Briefly state the selection criteria (e.g., allele frequency, pathogenicity scores, structural location) in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and statistical validation for the docking and simulation results, combined with the absence of any experimental or clinical validation, means the central claims are not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: moderate, as computational analysis of VDR mutations is not novel, though the specific variant set may be. Scientific importance: potentially high given the clinical relevance, but not demonstrated without validation. Interdisciplinary readership: the topic bridges structural biology and clinical endocrinology, but the abstract is too technical for a broad audience and too vague for specialists. Technical soundness: not assessable from the abstract alone; the reported methods are standard but the results lack statistical rigor. Readability for nonspecialists: the abstract is understandable but contains jargon and awkward phrasing that could be improved.
+- **Recommendation posture** Currently not established from the provided evidence. The work is potentially interesting, and I would be supportive if the technical concerns are resolved, specifically by providing full methodological details, statistical validation of the computational results, and a clear statement of limitations regarding the lack of experimental validation.
+
+## Risk / unsupported claims
+- The claim that the three mutations (R274H, R274L, H305Q) exhibit "stable protein conformations" is unsupported because no numerical RMSD or Rg data are provided.
+- The claim that reduced docking scores indicate "altered ligand-binding geometry" is unsupported without error estimates or structural analysis of the binding pose.
+- The claim that mutations "contribute to resistance and related skeletal and immune abnormalities" is unsupported without experimental or clinical validation.
+- The claim that "downstream non-genomic pathways were assessed" is not assessable because the method and results are not described.
+- The claim that computational modeling "can guide therapeutic strategies" is speculative and not supported by the data presented.

@@ -1,0 +1,694 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.10.602965",
+  "title": "A multiomic atlas of human early skeletal development",
+  "doi": "10.1101/2024.07.10.602965",
+  "abstract": "Bone and joint formation in the developing skeleton rely on co-ordinated differentiation of progenitors in the nascent developing limbs and joints. The cell states, epigenetic processes and key regulatory factors underlying their lineage commitment to osteogenic and other mesenchymal populations during ossification and joint formation remain poorly understood and are largely unexplored in human studies. Here, we apply paired single-nuclei transcriptional and epigenetic profiling of 336,000 droplets, in addition to spatial transcriptomics, to construct a comprehensive atlas of human bone, cartilage and joint development in the shoulder, hip, knee and cranium from 5 to 11 post-conception weeks. Spatial mapping of cell clusters to our highly multiplexed in situ sequencing (ISS) data using our newly developed tool ISS-Patcher revealed new cellular mechanisms of zonation during bone and joint formation. Combined modelling of chromatin accessibility and RNA expression allowed the identification of the transcriptional and epigenetic regulatory landscapes that drive differentiation of mesenchymal lineages including osteogenic and chondrogenic lineages, and novel chondrocyte cell states. In particular, we define regionally distinct limb and cranial osteoprogenitor populations and trajectories across the fetal skeleton and characterise differential regulatory networks that govern intramembranous and endochondral ossification. We also introduce SNP2Cell, a tool to link cell-type specific regulatory networks to numerous polygenic traits such as osteoarthritis. We also conduct in silico perturbations of genes that cause monogenic craniosynostosis and implicate potential pathogenic cell states and disease mechanisms involved. This work forms a detailed and dynamic regulatory atlas of human fetal skeletal maturation and advances our fundamental understanding of cell fate determination in human skeletal development.",
+  "authors": [
+    "To K",
+    "Fei L",
+    "Patrick Pett J",
+    "Roberts K",
+    "Polański K",
+    "Li T",
+    "Yayon N",
+    "He P",
+    "Xu C",
+    "Cranley J",
+    "Li R",
+    "Kanemaru K",
+    "Huang N",
+    "Megas S",
+    "Richardson L",
+    "Kapuge R",
+    "Perera S",
+    "Tuck E",
+    "Wilbrey-Clark A",
+    "Mulas I",
+    "Memi F",
+    "Cakir B",
+    "Predeus AV",
+    "Horsfall D",
+    "Murray S",
+    "Prete M",
+    "Mazin P",
+    "He X",
+    "Meyer KB",
+    "Haniffa M",
+    "Barker RA",
+    "Bayraktar O",
+    "Buckley CD",
+    "Teichmann SA"
+  ],
+  "published_date": "2024-07-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.10.602965",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.10.602965.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR880181",
+    "raw_record": {
+      "id": "PPR880181",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR880181"
+        ]
+      },
+      "doi": "10.1101/2024.07.10.602965",
+      "title": "A multiomic atlas of human early skeletal development",
+      "authorString": "To K, Fei L, Patrick Pett J, Roberts K, Polański K, Li T, Yayon N, He P, Xu C, Cranley J, Li R, Kanemaru K, Huang N, Megas S, Richardson L, Kapuge R, Perera S, Tuck E, Wilbrey-Clark A, Mulas I, Memi F, Cakir B, Predeus AV, Horsfall D, Murray S, Prete M, Mazin P, He X, Meyer KB, Haniffa M, Barker RA, Bayraktar O, Buckley CD, Teichmann SA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "To K",
+            "lastName": "To",
+            "firstName": "Ken",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fei L",
+            "lastName": "Fei",
+            "firstName": "Lijiang",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Patrick Pett J",
+            "lastName": "Patrick Pett",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5249-444X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roberts K",
+            "lastName": "Roberts",
+            "firstName": "Kenny",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polański K",
+            "lastName": "Polański",
+            "firstName": "Krzysztof",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li T",
+            "lastName": "Li",
+            "firstName": "Tong",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yayon N",
+            "lastName": "Yayon",
+            "firstName": "Nadav",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7034-0524"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "He P",
+            "lastName": "He",
+            "firstName": "Peng",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xu C",
+            "lastName": "Xu",
+            "firstName": "Chuan",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cranley J",
+            "lastName": "Cranley",
+            "firstName": "James",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li R",
+            "lastName": "Li",
+            "firstName": "Ruoyan",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kanemaru K",
+            "lastName": "Kanemaru",
+            "firstName": "Kazumasa",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang N",
+            "lastName": "Huang",
+            "firstName": "Ni",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Megas S",
+            "lastName": "Megas",
+            "firstName": "Stathis",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richardson L",
+            "lastName": "Richardson",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kapuge R",
+            "lastName": "Kapuge",
+            "firstName": "Rakesh",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perera S",
+            "lastName": "Perera",
+            "firstName": "Shani",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8021-2078"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tuck E",
+            "lastName": "Tuck",
+            "firstName": "Elizabeth",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilbrey-Clark A",
+            "lastName": "Wilbrey-Clark",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mulas I",
+            "lastName": "Mulas",
+            "firstName": "Ilaria",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Memi F",
+            "lastName": "Memi",
+            "firstName": "Fani",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cakir B",
+            "lastName": "Cakir",
+            "firstName": "Batuhan",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Predeus AV",
+            "lastName": "Predeus",
+            "firstName": "Alexander",
+            "initials": "AV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2750-1599"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Horsfall D",
+            "lastName": "Horsfall",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Biosciences Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murray S",
+            "lastName": "Murray",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prete M",
+            "lastName": "Prete",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mazin P",
+            "lastName": "Mazin",
+            "firstName": "Pavel",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "He X",
+            "lastName": "He",
+            "firstName": "Xiaoling",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "John van Geest Centre for Brain Repair, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meyer KB",
+            "lastName": "Meyer",
+            "firstName": "Kerstin",
+            "initials": "KB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haniffa M",
+            "lastName": "Haniffa",
+            "firstName": "Muzlifah",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Biosciences Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barker RA",
+            "lastName": "Barker",
+            "firstName": "Roger",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "John van Geest Centre for Brain Repair, Department of Clinical Neurosciences, , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bayraktar O",
+            "lastName": "Bayraktar",
+            "firstName": "Omer",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buckley CD",
+            "lastName": "Buckley",
+            "firstName": "Christopher",
+            "initials": "CD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6924-6402"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Kennedy Institute of Rheumatology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Teichmann SA",
+            "lastName": "Teichmann",
+            "firstName": "Sarah",
+            "initials": "SA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6294-6366"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6924-6402"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8021-2078"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2750-1599"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5249-444X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6294-6366"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7034-0524"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Bone and joint formation in the developing skeleton rely on co-ordinated differentiation of progenitors in the nascent developing limbs and joints. The cell states, epigenetic processes and key regulatory factors underlying their lineage commitment to osteogenic and other mesenchymal populations during ossification and joint formation remain poorly understood and are largely unexplored in human studies. Here, we apply paired single-nuclei transcriptional and epigenetic profiling of 336,000 droplets, in addition to spatial transcriptomics, to construct a comprehensive atlas of human bone, cartilage and joint development in the shoulder, hip, knee and cranium from 5 to 11 post-conception weeks. Spatial mapping of cell clusters to our highly multiplexed in situ sequencing (ISS) data using our newly developed tool ISS-Patcher revealed new cellular mechanisms of zonation during bone and joint formation. Combined modelling of chromatin accessibility and RNA expression allowed the identification of the transcriptional and epigenetic regulatory landscapes that drive differentiation of mesenchymal lineages including osteogenic and chondrogenic lineages, and novel chondrocyte cell states. In particular, we define regionally distinct limb and cranial osteoprogenitor populations and trajectories across the fetal skeleton and characterise differential regulatory networks that govern intramembranous and endochondral ossification. We also introduce SNP2Cell, a tool to link cell-type specific regulatory networks to numerous polygenic traits such as osteoarthritis. We also conduct  in silico perturbations of genes that cause monogenic craniosynostosis and implicate potential pathogenic cell states and disease mechanisms involved. This work forms a detailed and dynamic regulatory atlas of human fetal skeletal maturation and advances our fundamental understanding of cell fate determination in human skeletal development.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221052/E/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220540/Z/20/A",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221052/A/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221052/B/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221052/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203312",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221052/C/20/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.10.602965"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR880181"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR880181&type=FILE&fileName=EMS197543-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197543",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-07-15",
+      "firstPublicationDate": "2024-07-12",
+      "firstIndexDate": "2024-07-15",
+      "fullTextReceivedDate": "2024-09-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract and author summary only
+- **Assessment boundary** Claims presented in the abstract and author summary, as supplied
+- **Shared manuscript claim summary** The authors introduce two black-box interpretation methods, Expected Pattern Effect (EPE) and Differential Expected Pattern Effect (DEPE), for interpreting genome regulatory sequence models. They claim these methods identify transcription factor motifs and spacings predictive of cell state-specific chromatin accessibility, and that the methods are integrated into a framework accessible to non-experts and available via binary download, PyPI, or bioconda.
+- **Visible evidence base** Abstract text and author summary only. No figures, tables, methods sections, or results are provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, method descriptions, validation details, benchmark comparisons, and software documentation. The supplied material is insufficient to evaluate the technical validity of the proposed methods or the strength of the reported results.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to interpretable deep learning for genomics, specifically addressing the need for methods that identify cell type-specific sequence patterns. However, the supplied material is limited to a high-level summary and does not include any technical detail, results, or validation. The core claims regarding the effectiveness of EPE and DEPE cannot be assessed from the provided evidence. The software availability statement is clear and actionable, but the scientific case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on regulatory genomics, particularly those developing or applying deep learning models to chromatin accessibility, transcription factor binding, and cell type-specific gene regulation. The proposed methods could also interest experimental biologists seeking interpretable tools for understanding sequence determinants of cell fate decisions, provided the methods are validated and accessible.
+- **Major strengths** The problem addressed is important and timely, as interpretability of deep learning models in genomics remains a bottleneck. The proposed focus on differential pattern effects across cell types is a meaningful extension of existing interpretation methods. The stated commitment to accessibility through multiple distribution channels (binary, PyPI, bioconda) is commendable and addresses a common barrier to adoption.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that EPE and DEPE "identify relevant transcription factor motifs and spacings that are predictive of cell state-specific chromatin accessibility."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No methodological detail is provided on how EPE and DEPE are defined, computed, or validated. The abstract does not describe the underlying algorithm, the model architecture used, the datasets analyzed, or the comparison against existing interpretation methods. Without this information, the claim that these methods identify relevant motifs and spacings cannot be evaluated.
+  - **Why it matters** The central contribution of the paper is the proposed methods. If the methods are not described with sufficient detail to allow replication or assessment of their statistical properties, the scientific value cannot be established. The claim of identifying "relevant" patterns requires a clear definition of relevance and a demonstration of performance against baselines.
+  - **Resolution test** Provide a detailed methods section describing the mathematical formulation of EPE and DEPE, the model training procedure, the datasets used, and quantitative results showing that the identified motifs and spacings are statistically significant and outperform existing interpretation approaches on benchmark tasks.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the methods "can interpret genome regulatory sequences for cell type-specific or condition specific patterns" and apply them to "transcription factor binding and DNA accessibility across multiple cell types."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not report any specific results, such as which motifs were identified, how many cell types were analyzed, or whether the findings align with known biology. The claim of applicability is made without supporting data.
+  - **Why it matters** For a methods paper, demonstrating utility on real data is essential. The absence of any reported findings means the reader cannot judge whether the methods produce biologically meaningful insights or merely recapitulate known results.
+  - **Resolution test** Include a results section with concrete examples of identified motifs and spacings, a comparison to known regulatory elements, and an assessment of cell type specificity using appropriate statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the framework is "readily accessible to non-experts."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No information is provided on the user interface, required computational resources, input/output formats, or documentation. The claim of accessibility for non-experts is unsubstantiated.
+  - **Why it matters** The stated goal of making the methods accessible is a key part of the contribution. If the software requires significant computational expertise to install or use, the claim is misleading.
+  - **Resolution test** Provide a user manual, example workflows, and a demonstration that a non-expert can install and run the software on a standard dataset without advanced programming skills.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Author summary
+  - **Evidence pointer** Author summary, location not provided
+  - **Issue** The author summary uses the term "black-box methods" without explaining what this means in context. A brief clarification would help nonspecialist readers.
+  - **Required correction** Add a sentence defining "black-box" as referring to models whose internal decision-making is not directly interpretable, and explain that the proposed methods provide a way to probe such models.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability statement
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The URL is provided, but no version number, license, or citation instructions are given.
+  - **Required correction** Specify the software version, the open-source license, and a recommended citation for the software package.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "disease related mutations" in the first sentence but does not return to this topic. The connection to disease is not developed.
+  - **Required correction** Either remove the disease reference or add a brief statement on how the methods could be applied to interpret disease-associated variants.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail, results, and software usability evidence means the core claims are unsupported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of differential pattern effects across cell types is a reasonable extension of existing interpretation methods, but the abstract does not demonstrate novelty relative to prior work. Not assessable from the supplied material.
+  - Scientific importance: The problem is important, but the abstract does not provide evidence that the methods yield new biological insights. Not established.
+  - Interdisciplinary readership: The topic bridges machine learning and genomics, which has broad appeal. The author summary is written in accessible language, which is a positive sign.
+  - Technical soundness: Not assessable. No methodological or validation details are provided.
+  - Readability for nonspecialists: The author summary is clear and well written, though the term "black-box" could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to evaluate the technical validity or scientific impact of the proposed methods. A full manuscript with detailed methods, results, and software documentation would be required to assess the claims.
+
+## Risk / unsupported claims
+- The claim that EPE and DEPE identify relevant transcription factor motifs and spacings is unsupported due to lack of results.
+- The claim that the methods are applicable to transcription factor binding and DNA accessibility across multiple cell types is unsupported due to lack of data.
+- The claim that the framework is accessible to non-experts is unsupported due to lack of usability evidence.
+- The relevance of the methods to disease-related mutations is mentioned but not developed or supported.

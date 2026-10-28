@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "40355841",
+    "doi": "10.1186/s12920-025-02148-x",
+    "title": "Transcriptomics-based exploration of ubiquitination-related biomarkers and potential molecular mechanisms in laryngeal squamous cell carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: One of the most common and prevalent cancers is laryngeal squamous cell carcinoma (LSCC), which poses a great threat to the life and health of the patient. Nonetheless, it has been demonstrated that ubiquitination is crucial for the development and course of LSCC. Therefore, it is particularly important to identify biomarkers for ubiquitination-related genes (UbRGs) in LSCC. METHODS: Differentially expressed genes (DEGs) in the LSCC versus controls were obtained by differential expression analysis. Also, key modular genes associated with LSCC were obtained using weighted gene co-expression network analysis (WGCNA). Next, DEGs, key module genes, and UbRGs were taken to intersect to obtain candidate genes. And then machine algorithms were to screen potential biomarkers, further their diagnostic value were analyzed and validated. Then, therapeutic agents for biomarkers were predict. In addition, the regulatory networks of the biomarkers were mapped. The expression levels of biomarkers were detected in clinical samples using reverse transcription-quantitative PCR (RT-qPCR). RESULTS: A total of eight candidate genes were acquired by the overlap 1,911 DEGs, the key modular genes of WGCNA, and 1,393 UbRGs. A sum of four biomarkers (WDR54, KAT2B, NBEAL2 and LNX1) were identified by two machine learning, then these four biomarkers were validated in GSE127165 and the expression trend was consistent with TCGA-LSCC, they were recorded as biomarkers. Moreover, the accuracy of the biomarkers in predicting clinical aspects of LSCC was confirmed by the receiver operating characteristic (ROC) curves. Subsequently, cancers such as malignant neoplasms, colorectal cancers, tumors, and primary malignant neoplasms were significantly associated with the biomarkers, which further suggests that these four biomarkers were strongly associated with cancer. Meanwhile, the drugs garcinol, cocaine, and triazolam, among others, used for LSCC treatment were predicted. Finally, transcription factors (TFs) (BRD4, MYC, AR, and CTCF) were predicted to regulate the biomarkers. RT-qPCR assays illustrated that the expression trends of KAT2B, LNX1 and NBEAL2 remained consistent with the dataset. CONCLUSION: The identification of four biomarkers (WDR54, KAT2B, NBEAL2 and LNX1) associated with UbRGs could ultimately serve as a predictive clinical diagnosis of LSCC and provide insight into the molecular mechanisms of LSCC.",
+    "keywords": [
+      "Biomarkers",
+      "Laryngeal squamous cell carcinoma",
+      "Regulatory network",
+      "Ubiquitination-related genes",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Laryngeal Neoplasms/genetics/metabolism/pathology",
+      "*Gene Expression Profiling",
+      "*Ubiquitination/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Regulation, Neoplastic",
+      "*Carcinoma, Squamous Cell/genetics/metabolism",
+      "*Transcriptome",
+      "*Squamous Cell Carcinoma of Head and Neck/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Qiu",
+        "Wu, Zhimin",
+        "Ma, Yifei"
+      ],
+      "short_names": [
+        "Chen Q",
+        "Wu Z",
+        "Ma Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, 550004, China.",
+        "Department of Otorhinolaryngology, Affiliated Hospital of Guizhou Medical University, 28 Guiyi Street, Yunyan District, Guiyang, Guizhou, 550004, China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, 550004, China.",
+        "Department of Otorhinolaryngology, Affiliated Hospital of Guizhou Medical University, 28 Guiyi Street, Yunyan District, Guiyang, Guizhou, 550004, China. mayifei@gmc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Qiu",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, 550004, China.",
+          "Department of Otorhinolaryngology, Affiliated Hospital of Guizhou Medical University, 28 Guiyi Street, Yunyan District, Guiyang, Guizhou, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhimin",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yifei",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, Affiliated Hospital of Guizhou Medical University, 28 Guiyi Street, Yunyan District, Guiyang, Guizhou, 550004, China. mayifei@gmc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Med Genomics"
+    ],
+    "pub_date": "2025 May 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/13 00:33",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "42059479"
+    ],
+    "refs": [
+      "38577593",
+      "38187064",
+      "38102653",
+      "37813853",
+      "37787047",
+      "37634410",
+      "37205188",
+      "37076536",
+      "36919585",
+      "36627049",
+      "36532015",
+      "35769467",
+      "35679799",
+      "35403781",
+      "35366893",
+      "35328752",
+      "34557778",
+      "34439220",
+      "34409029",
+      "33637103",
+      "33255632",
+      "33042838",
+      "32841388",
+      "32783067",
+      "32442275",
+      "32194300",
+      "32084367",
+      "31960380",
+      "31680165",
+      "30833887",
+      "30576000",
+      "30360733",
+      "29790900",
+      "29156006",
+      "27048349",
+      "26662507",
+      "26590260",
+      "26578587",
+      "25516281",
+      "25378301",
+      "25055920",
+      "23950933",
+      "23937229",
+      "21802130",
+      "21414208",
+      "20808728",
+      "20689021",
+      "20192978",
+      "19114008",
+      "11984355",
+      "10394158"
+    ],
+    "similar": [
+      "40355841",
+      "40858160",
+      "25936657",
+      "41361273",
+      "36509010",
+      "38863714",
+      "27658780",
+      "39738606",
+      "33371795",
+      "36718148",
+      "37792175",
+      "38102653",
+      "34999279",
+      "29443735",
+      "31310372",
+      "31127661",
+      "31128861",
+      "34565301",
+      "26323359",
+      "32623386",
+      "34585589",
+      "32174248",
+      "35715770",
+      "32487167",
+      "40328901",
+      "41099090",
+      "38538265",
+      "30128795",
+      "31109699",
+      "38912837",
+      "42180604",
+      "42614551",
+      "41436994",
+      "34898376",
+      "37219914",
+      "36181662",
+      "35988928",
+      "24386425",
+      "25997441",
+      "39062659",
+      "41052072",
+      "42343374",
+      "31932027",
+      "41419148",
+      "39145051",
+      "35568824",
+      "39428922",
+      "36964893",
+      "42483177",
+      "39869954",
+      "30415008",
+      "36369089",
+      "29949786",
+      "40216868",
+      "41198554",
+      "29716593",
+      "42157182",
+      "39376501",
+      "30468474",
+      "41080548",
+      "32432318",
+      "41469752",
+      "40679719",
+      "35945754",
+      "38426543",
+      "41388523",
+      "34672813",
+      "25243407",
+      "31770041",
+      "39107908",
+      "26847279",
+      "40020330",
+      "35087752",
+      "42263482",
+      "40386053",
+      "32067095",
+      "31889588",
+      "40836320",
+      "33361747",
+      "31538341",
+      "26395262",
+      "39323031",
+      "38610001",
+      "38592439",
+      "33173143",
+      "29048627",
+      "27123111",
+      "34130645",
+      "40374840",
+      "40821990",
+      "38987822",
+      "33826083",
+      "26912061",
+      "33481663",
+      "42034909",
+      "39707377",
+      "40755754",
+      "36438491",
+      "37534482",
+      "36707952"
+    ],
+    "review": [
+      "40355841",
+      "40858160"
+    ],
+    "pmc": [
+      "12070575"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-025-02148-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40355841/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1031",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

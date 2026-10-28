@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "40957717",
+    "doi": "10.1021/acs.jcim.5c01785",
+    "title": "Partner-RBR: Predicting Multitype RNA-Binding Residues Based on Mutual Learning."
+  },
+  "content": {
+    "abstract": "RNA molecules play diverse and critical roles in various biological processes, including gene expression, post-transcriptional regulation, and disease pathogenesis. Understanding the interaction between proteins and RNA necessitates the precise identification of RNA-binding residues. Traditional approaches are costly and time-consuming, and existing computational methods are often agnostic to RNA types. In this study, we introduce Partner-RBR, a novel method for the comprehensive identification of RNA-binding residues capable of accommodating a range of RNA types. Our approach leverages protein sequences and integrates features from multiple sources, including Multiple Sequence Alignment (MSA), the protein language model, and predicted protein structures obtained from AlphaFold protein structure database. Local sequence information is captured using a sliding window, while structural neighbors are considered by creating an adjacency matrix. The hierarchical semantic information is extracted using a TextCNN architecture, and performance is further enhanced through mutual learning. Through the proposed framework, we have achieved the identification of key patterns and the extraction of critical information on RNA-binding residues. Upon evaluation using a public test data set, Partner-RBR demonstrates significant improvements in predictive performance, exhibiting a substantial increase in the Area Under the Curve (AUC) from 2 to 10% compared to existing methods. Notably, it achieves the lowest error rates for both cross-prediction and overprediction, effectively distinguishing RNA-binding residues from DNA-binding residues and non-nucleic acid-binding residues. The data set and code of Partner-RBR are available at: https://github.com/Hhhzj-7/Partner-RBR.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA/metabolism/chemistry",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "Binding Sites",
+      "Protein Binding",
+      "Databases, Protein",
+      "Sequence Alignment",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Zhijian",
+        "Dong, Yihan",
+        "Nie, Wenjuan",
+        "Chen, Hang",
+        "Aljanabi, Qahtan Adnan",
+        "Deng, Lei"
+      ],
+      "short_names": [
+        "Huang Z",
+        "Dong Y",
+        "Nie W",
+        "Chen H",
+        "Aljanabi QA",
+        "Deng L"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-1949-167X"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Zhijian",
+        "short_name": "Huang Z",
+        "identifiers": [
+          "0009-0000-1949-167X"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yihan",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Wenjuan",
+        "short_name": "Nie W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hang",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Aljanabi, Qahtan Adnan",
+        "short_name": "Aljanabi QA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Lei",
+        "short_name": "Deng L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Oct 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/17 00:30",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "41699382"
+    ],
+    "refs": [],
+    "similar": [
+      "40957717",
+      "40662818",
+      "26776208",
+      "38295475",
+      "30536635",
+      "37254800",
+      "25935161",
+      "29219069",
+      "35150250",
+      "26540053",
+      "21268114",
+      "19700370",
+      "41045511",
+      "21143803",
+      "39833102",
+      "20549269",
+      "38491248",
+      "20483814",
+      "22373313",
+      "25846271",
+      "19835626",
+      "40646507",
+      "20300450",
+      "38830995",
+      "26254826",
+      "32142788",
+      "24564966",
+      "35753699",
+      "34905768",
+      "27266516",
+      "19389733",
+      "20887256",
+      "22574904",
+      "19508202",
+      "39214282",
+      "31483777",
+      "29253082",
+      "29722865",
+      "40795032",
+      "16712732",
+      "30808287",
+      "40971691",
+      "40997583",
+      "39079742",
+      "28245811",
+      "39804669",
+      "29281004",
+      "40544633",
+      "39576589",
+      "24854765",
+      "38643894",
+      "33442949",
+      "40919912",
+      "34929730",
+      "30478757",
+      "35709747",
+      "29934510",
+      "24209914",
+      "29970003",
+      "29529991",
+      "32920048",
+      "32808039",
+      "38866950",
+      "40961942",
+      "26467480",
+      "38871095",
+      "39625988",
+      "29028926",
+      "41134132",
+      "41376296",
+      "28349426",
+      "35471886",
+      "19714772",
+      "39892680",
+      "27787829",
+      "17946337",
+      "21955494",
+      "24573478",
+      "20677174",
+      "40569190",
+      "23138266",
+      "22086767",
+      "33685590",
+      "17932917",
+      "39788787",
+      "40883253",
+      "40601256",
+      "39456153",
+      "40455481",
+      "40914361",
+      "25940624",
+      "40449614",
+      "33334313",
+      "29562711",
+      "19091029",
+      "34415020",
+      "30423078",
+      "41352986",
+      "39848362",
+      "24343026"
+    ],
+    "review": [
+      "40957717",
+      "25935161",
+      "26540053",
+      "39833102",
+      "29253082",
+      "40544633"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01785",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

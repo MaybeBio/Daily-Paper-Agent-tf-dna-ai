@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "37051780",
+    "doi": "10.1080/07391102.2023.2199080",
+    "title": "Identification of common candidate genes and pathways for Spina Bifida and Wilm's Tumor using an integrative bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Spina Bifida (SB) and Wilm's Tumor (WT) are conditions, both associated with children. Several studies have shown that WT later develops in SB patients, which led us to elucidate common key genes and linked pathways of both conditions, aimed at their concurrent therapeutic management. For this, integrated bioinformatics analysis was employed. A comprehensive manual curation of genes identified 133 and 139 genes associated with SB and WT, respectively, which were used to construct a single protein-protein interaction (PPI) network. Topological parameters analysis of the network showed its scale-free and hierarchical nature. Centrality-based analysis of the network identified 116 hubs, of which, 6 were called the key genes attributed to being common between SB and WT besides being the hubs. Gene enrichment analysis of the 5 most essential modules, identified important biological processes and pathways possibly linking SB to WT. Additionally, miRNA-key gene-transcription factor (TF) regulatory network elucidated a few important miRNAs and TFs that regulate our key genes. In closing, we put forward TP53, DICER1, NCAM1, PAX3, PTCH1, MTHFR; hsa-mir-107, hsa-mir-137, hsa-mir-122, hsa-let-7d; and YY1, SOX4, MYC, STAT3; key genes, miRNAs and TFs, respectively, as the key regulators. Further, MD simulation studies of wild and Glu429Ala forms of MTHFR proteins showed that there is a slight change in MTHFR protein structure due to Glu429Ala polymorphism. We anticipate that the interplay of these three entities will be an interesting area of research to explore the regulatory mechanism of SB and WT and may serve as candidate target molecules to diagnose, monitor, and treat SB and WT, parallelly.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "MiRNAs",
+      "Spina Bifida",
+      "Wilm's Tumor",
+      "key genes",
+      "protein-protein interaction network",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Child",
+      "Humans",
+      "Gene Expression Profiling",
+      "*MicroRNAs/genetics",
+      "Computational Biology",
+      "Gene Regulatory Networks",
+      "*Wilms Tumor",
+      "SOXC Transcription Factors/genetics",
+      "Ribonuclease III/genetics",
+      "DEAD-box RNA Helicases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tamkeen, Naaila",
+        "Farooqui, Anam",
+        "Alam, Aftab",
+        "Najma",
+        "Tazyeen, Safia",
+        "Ahmad, Mohd Murshad",
+        "Ahmad, Nadeem",
+        "Ishrat, Romana"
+      ],
+      "short_names": [
+        "Tamkeen N",
+        "Farooqui A",
+        "Alam A",
+        "Najma",
+        "Tazyeen S",
+        "Ahmad MM",
+        "Ahmad N",
+        "Ishrat R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biosciences, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India.",
+        "Department of Biosciences, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tamkeen, Naaila",
+        "short_name": "Tamkeen N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Jamia Millia Islamia, New Delhi, India.",
+          "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Farooqui, Anam",
+        "short_name": "Farooqui A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Alam, Aftab",
+        "short_name": "Alam A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Najma",
+        "short_name": "Najma",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Tazyeen, Safia",
+        "short_name": "Tazyeen S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Mohd Murshad",
+        "short_name": "Ahmad MM",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Nadeem",
+        "short_name": "Ahmad N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Ishrat, Romana",
+        "short_name": "Ishrat R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Science, Jamia Millia Islamia, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Jan-Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/14 06:00",
+    "fetched_at": "2026-09-28 22:57:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37051780",
+      "30844478",
+      "34600545",
+      "32299382",
+      "41300749",
+      "31578247",
+      "40826767",
+      "40068024",
+      "28952134",
+      "31692035",
+      "35757392",
+      "35397550",
+      "29516510",
+      "39037979",
+      "36991484",
+      "27535859",
+      "25292042",
+      "27900039",
+      "29032608",
+      "40834023",
+      "38839916",
+      "32508878",
+      "35313857",
+      "34384283",
+      "25189652",
+      "41530916",
+      "35593364",
+      "30258285",
+      "30602391",
+      "40748585",
+      "36076300",
+      "36104591",
+      "32714975",
+      "39028999",
+      "33599894",
+      "32888289",
+      "38062833",
+      "40783296",
+      "29543360",
+      "35877019",
+      "31138194",
+      "32832554",
+      "35390032",
+      "28072703",
+      "39238649",
+      "42006143",
+      "34734085",
+      "35322101",
+      "33747117",
+      "30886860",
+      "39116715",
+      "30249878",
+      "40574839",
+      "39828023",
+      "33104965",
+      "29373717",
+      "27809691",
+      "26611531",
+      "35114922",
+      "37776011",
+      "34337040",
+      "33299863",
+      "38549107",
+      "26282502",
+      "33036164",
+      "37904849",
+      "41751506",
+      "38393632",
+      "34686186",
+      "37821907",
+      "38886500",
+      "41196851",
+      "35545337",
+      "22260379",
+      "37632659",
+      "33207024",
+      "31424269",
+      "35249869",
+      "39080630",
+      "33813720",
+      "27935034",
+      "32031354",
+      "32481304",
+      "32307200",
+      "36049413",
+      "34934349",
+      "41444522",
+      "39945271",
+      "40287845",
+      "30250531",
+      "31555364",
+      "38366952",
+      "40166907",
+      "35049167",
+      "34234459",
+      "29128636",
+      "30138363",
+      "39238829",
+      "34218797",
+      "32377711"
+    ],
+    "review": [
+      "37051780",
+      "40748585",
+      "27935034"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2199080?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/wilmstumor.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Wilms Tumor"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NCAM1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3846",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2199080",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40640934",
+  "title": "Machine learning identifies lipid-associated genes and constructs diagnostic and prognostic models for idiopathic pulmonary fibrosis.",
+  "authors": "Liu, Xingren; Song, Junmei; Guo, Shujin; Liao, Yi; Zou, Jun; Yang, Liqing; Jiang, Caiyu",
+  "journal": "Orphanet journal of rare diseases",
+  "published_date": "2025-07-11",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用机器学习构建脂质相关基因的IPF诊断预后模型，核心是基因表达与临床表型，无蛋白质-DNA互作体系或结合建模，仅KLF4为转录因子但未涉及其DNA结合机制，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: Emerging evidence suggests a potential relationship between lipid metabolism and idiopathic pulmonary fibrosis (IPF). This study aimed to identify lipid-related genes implicated in IPF pathogenesis. METHODS: Lipid-associated genes were retrieved from the GeneCards database and analyzed using unsupervised consensus clustering to classify IPF samples. Weighted gene co-expression network analysis (WGCNA) was performed on the identified clusters to determine core modules and hub genes associated with IPF. Machine learning algorithms were applied to these hub genes to construct diagnostic and prognostic models, which were validated across multiple datasets. Single-cell sequencing was used to investigate the distribution of potential pathogenic genes, and their functional roles were further validated through cellular experiments. RESULTS: Two distinct clusters were identified, showing significant differences in lung function parameters and fibrosis-related gene expression. WGCNA revealed that the blue module was strongly associated with IPF and served as the core module. Genes from this module were used to construct diagnostic and prognostic models, which demonstrated strong predictive performance across multiple validation datasets. Single-cell sequencing revealed that KLF4 was highly expressed in lung epithelial cells. Functional assays indicated that knockdown of KLF4 did not affect the proliferation of human alveolar type II epithelial cells but significantly enhanced their migratory capacity, thereby promoting the fibrotic process. CONCLUSION: This study successfully constructed lipid-related diagnostic and prognostic models for IPF and identified KLF4 as a potential causative gene. These findings provide a foundation for further exploration of lipid metabolism in IPF pathogenesis and potential therapeutic strategies targeting KLF4.",
+  "abstract_zh": "目的：新出现的证据提示脂质代谢与特发性肺纤维化（IPF）之间可能存在关联。本研究旨在识别与IPF发病机制相关的脂质相关基因。方法：从GeneCards数据库获取脂质相关基因，并使用无监督共识聚类对IPF样本进行分类。对识别出的聚类进行加权基因共表达网络分析（WGCNA），以确定与IPF相关的核心模块和枢纽基因。应用机器学习算法对这些枢纽基因构建诊断和预后模型，并在多个数据集中进行验证。使用单细胞测序研究潜在致病基因的分布，并通过细胞实验进一步验证其功能作用。结果：识别出两个不同的聚类，在肺功能参数和纤维化相关基因表达方面显示出显著差异。WGCNA揭示蓝色模块与IPF密切相关，并作为核心模块。该模块中的基因用于构建诊断和预后模型，这些模型在多个验证数据集中表现出强大的预测性能。单细胞测序显示KLF4在肺上皮细胞中高表达。功能实验表明，敲低KLF4不影响人肺泡II型上皮细胞的增殖，但显著增强其迁移能力，从而促进纤维化进程。结论：本研究成功构建了IPF的脂质相关诊断和预后模型，并确定KLF4为潜在致病基因。这些发现为进一步探索脂质代谢在IPF发病机制中的作用以及靶向KLF4的潜在治疗策略奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40640934/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40640934/",
+  "paper_page_path": "papers/pubmed/40640934/index.html"
+}

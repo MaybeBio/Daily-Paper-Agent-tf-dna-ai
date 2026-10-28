@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41512255",
+  "title": "Computational Framework for Causal Inference in Molecular Dynamics Analysis of Lipid-Protein Interactions.",
+  "authors": "Sato, Takeshi",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-01-09",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了基于贝叶斯因果推断的MD分析框架LIPAC，用于脂质-蛋白互作中的因果效应量化，虽非TF-DNA体系，但其因果推断方法可迁移至蛋白-DNA互作动态分析。",
+  "abstract": "Direct experimental observation of lipid-protein reorganization is limited by temporal and spatial resolution. Molecular dynamics (MD) simulations address this limitation by providing atomic-resolution trajectories, yet, conventional analysis methods cannot distinguish causal relationships from correlations. To address this challenge, LIPAC (Lipid-Protein Analysis with Causal inference), a computational framework that applies hierarchical Bayesian causal inference to MD simulations, was developed. LIPAC quantifies causal, rather than merely correlational, relationships between lipid binding and membrane organization, providing effect size estimates with full uncertainty quantification at both individual and population levels. The framework consists of two complementary stages: (1) between-system analysis to detect potential causal relationships and (2) within-system Bayesian inference to evaluate their magnitudes under a unified statistical model. Applied to receptor-membrane systems (EphA2-GM3 and Notch-GM3), LIPAC correctly distinguished strong, reproducible effects (EphA2: consistent DIPC depletion with narrow credible intervals) from weak, inconsistent effects (Notch: wide credible intervals, inconsistent directionality across copies), demonstrating both sensitivity and specificity. For EphA2, GM3 binding causally induces local enrichment of cholesterol and sphingomyelin while depleting unsaturated phosphatidylcholine, consistent with lipid-raft formation. This study establishes a general paradigm for extracting mechanistic insight from MD trajectories beyond traditional correlation-based approaches.",
+  "abstract_zh": "脂质-蛋白质重组的直接实验观察受限于时间和空间分辨率。分子动力学（molecular dynamics, MD）模拟通过提供原子级分辨率的轨迹来弥补这一限制，然而，传统分析方法无法区分因果关系与相关性。为应对这一挑战，开发了LIPAC（脂质-蛋白质因果推断分析，Lipid-Protein Analysis with Causal inference），这是一种将层次贝叶斯因果推断应用于MD模拟的计算框架。LIPAC量化了脂质结合与膜组织之间的因果（而非仅相关）关系，在个体和群体水平上提供带有完整不确定性量化的效应大小估计。该框架由两个互补阶段组成：（1）系统间分析以检测潜在因果关系，以及（2）系统内贝叶斯推断以在统一统计模型下评估其幅度。应用于受体-膜系统（EphA2-GM3和Notch-GM3）时，LIPAC正确区分了强且可重复的效应（EphA2：一致的DIPC耗竭，具有狭窄的置信区间）与弱且不一致的效应（Notch：宽的置信区间，跨拷贝方向不一致），展示了其敏感性和特异性。对于EphA2，GM3结合因果性地诱导胆固醇和鞘磷脂的局部富集，同时耗竭不饱和磷脂酰胆碱，这与脂筏形成一致。本研究建立了一种通用范式，用于从MD轨迹中提取超越传统基于相关性方法的机制性见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41512255/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41512255/",
+  "paper_page_path": "papers/pubmed/41512255/index.html"
+}

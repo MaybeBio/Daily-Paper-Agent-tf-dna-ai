@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "41593860",
+    "doi": "10.1139/cjpp-2025-0146",
+    "title": "GLP-1 and diabetic nephropathy share key molecular targets."
+  },
+  "content": {
+    "abstract": "Glucagon-like peptide-1 (GLP-1) receptor agonists provide renoprotective benefits in diabetes, yet the molecular mechanisms linking GLP-1 signaling to diabetic nephropathy remain poorly defined. This study aimed to identify shared molecular targets between GLP-1 activity and diabetic kidney disease by integrating protein targets of GLP-1 from UniProt with disease-associated genes from GeneCards. The overlapping gene set was analyzed using STRING and Cytoscape((R)) with MCODE clustering, followed by GO and KEGG enrichment through the clusterProfiler package. Molecular docking with HADDOCK was employed to validate structural interactions between GLP-1 and central network proteins. We identified 17 shared genes, including STAT3, EP300, MAPK1, and INSR, which formed a densely connected cluster enriched in pathways related to insulin response, hypoxia adaptation, apoptosis, and glucose metabolism. Docking analysis demonstrated direct and favorable binding of GLP-1 to STAT3, PIK3R1, and EP300, suggesting noncanonical intracellular mechanisms involving transcriptional regulation and epigenetic modulation. These findings reveal a novel convergence between GLP-1 signaling and diabetic nephropathy pathways, providing mechanistic insights that guide the experimental determination of the underlying molecular interactions. This framework may ultimately contribute to the refinement of renal therapies based on GLP-1 modulation.",
+    "keywords": [
+      "diabetic nephropathy",
+      "glucagon-like peptide-1",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Diabetic Nephropathies/metabolism/genetics/drug therapy",
+      "Humans",
+      "*Glucagon-Like Peptide 1/metabolism/chemistry",
+      "STAT3 Transcription Factor/metabolism/chemistry",
+      "Signal Transduction/drug effects",
+      "Molecular Docking Simulation",
+      "E1A-Associated p300 Protein/metabolism/genetics",
+      "Glucagon-Like Peptide-1 Receptor/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Melo, Wanderson Gabriel Gomes de",
+        "Dos Santos Silva, Regina Lucia",
+        "Santos Soares, Ianahanna Duarte",
+        "de Sousa Barbosa, Bruno",
+        "Cardoso de Brito, Felipe",
+        "Argolo Neto, Napoleao Martins",
+        "Bezerra, Dayseanny de Oliveira"
+      ],
+      "short_names": [
+        "Melo W",
+        "Dos Santos Silva R",
+        "Santos Soares I",
+        "de Sousa Barbosa B",
+        "Cardoso de Brito F",
+        "Argolo Neto N",
+        "Bezerra D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6218-6168",
+        "ORCID: 0000-0002-7662-2776"
+      ],
+      "affiliations": [
+        "Nucleo Integrado de Morfologia e Pesquisa com Celulas Tronco, Programa de Pos-Graduacao em Tecnologias Aplicadas a Animais de Interesse Regional, Universidade Federal do Piaui, Teresina, Piaui, Brazil.",
+        "Nucleo Integrado de Morfologia e Pesquisa com Celulas Tronco, Programa de Pos-Graduacao em Tecnologias Aplicadas a Animais de Interesse Regional, Universidade Federal do Piaui, Teresina, Piaui, Brazil.",
+        "Nucleo Integrado de Morfologia e Pesquisa com Celulas Tronco, Programa de Pos-Graduacao em Tecnologias Aplicadas a Animais de Interesse Regional, Universidade Federal do Piaui, Teresina, Piaui, Brazil.",
+        "Programa de Pos-Graduacao em Farmacologia, Universidade Federal do Piaui, Teresina, Piaui, Brazil. RINGGOLD: 67823",
+        "Campus Avancado de Jose de Freitas, Instituto Federal do Piaui, Jose de Freitas, Piaui, Brazil. RINGGOLD: 119529",
+        "Nucleo Integrado de Morfologia e Pesquisa com Celulas Tronco, Programa de Pos-Graduacao em Tecnologias Aplicadas a Animais de Interesse Regional, Universidade Federal do Piaui, Teresina, Piaui, Brazil.",
+        "Campus Avancado de Jose de Freitas, Instituto Federal do Piaui, Jose de Freitas, Piaui, Brazil. RINGGOLD: 119529"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Melo, Wanderson Gabriel Gomes de",
+        "short_name": "Melo W",
+        "identifiers": [],
+        "affiliations": [
+          "Núcleo Integrado de Morfologia e Pesquisa com Células Tronco, Programa de Pós-Graduação em Tecnologias Aplicadas a Animais de Interesse Regional, Universidade Federal do Piauí, Teresina, Piauí, Brazil."
+        ]
+      },
+      {
+        "full_name": "Dos Santos Silva, Regina Lúcia",
+        "short_name": "Dos Santos Silva R",
+        "identifiers": [],
+        "affiliations": [
+          "Núcleo Integrado de Morfologia e Pesquisa com Células Tronco, Programa de Pós-Graduação em Tecnologias Aplicadas a Animais de Interesse Regional, Universidade Federal do Piauí, Teresina, Piauí, Brazil."
+        ]
+      },
+      {
+        "full_name": "Santos Soares, Ianahanna Duarte",
+        "short_name": "Santos Soares I",
+        "identifiers": [],
+        "affiliations": [
+          "Núcleo Integrado de Morfologia e Pesquisa com Células Tronco, Programa de Pós-Graduação em Tecnologias Aplicadas a Animais de Interesse Regional, Universidade Federal do Piauí, Teresina, Piauí, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Sousa Barbosa, Bruno",
+        "short_name": "de Sousa Barbosa B",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Pós-Graduação em Farmacologia, Universidade Federal do Piauí, Teresina, Piauí, Brazil."
+        ]
+      },
+      {
+        "full_name": "Cardoso de Brito, Felipe",
+        "short_name": "Cardoso de Brito F",
+        "identifiers": [],
+        "affiliations": [
+          "Campus Avançado de José de Freitas, Instituto Federal do Piauí, José de Freitas, Piauí, Brazil."
+        ]
+      },
+      {
+        "full_name": "Argôlo Neto, Napoleão Martins",
+        "short_name": "Argôlo Neto N",
+        "identifiers": [
+          "0000-0002-6218-6168"
+        ],
+        "affiliations": [
+          "Núcleo Integrado de Morfologia e Pesquisa com Células Tronco, Programa de Pós-Graduação em Tecnologias Aplicadas a Animais de Interesse Regional, Universidade Federal do Piauí, Teresina, Piauí, Brazil."
+        ]
+      },
+      {
+        "full_name": "Bezerra, Dayseanny de Oliveira",
+        "short_name": "Bezerra D",
+        "identifiers": [
+          "0000-0002-7662-2776"
+        ],
+        "affiliations": [
+          "Campus Avançado de José de Freitas, Instituto Federal do Piauí, José de Freitas, Piauí, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Canadian journal of physiology and pharmacology"
+    ],
+    "journal_abbrev": [
+      "Can J Physiol Pharmacol"
+    ],
+    "pub_date": "2026 Jan 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:48",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41593860",
+      "41492010",
+      "33634308",
+      "40467639",
+      "38801274",
+      "38379386",
+      "40858660",
+      "41150817",
+      "40046619",
+      "32985256",
+      "40835195",
+      "37718520",
+      "39923458",
+      "38069998",
+      "31318152",
+      "36865917",
+      "41995568",
+      "36280016",
+      "26201485",
+      "39740397",
+      "40994081",
+      "33628839",
+      "42342966",
+      "39832069",
+      "41178712",
+      "40127835",
+      "39129282",
+      "25085841",
+      "40728954",
+      "34159207",
+      "35427726",
+      "41814794",
+      "41389885",
+      "39805329",
+      "38077799",
+      "36799940",
+      "40508014",
+      "30104246",
+      "39099827",
+      "40957644",
+      "40374840",
+      "42011617",
+      "31841385",
+      "41346967",
+      "41764694",
+      "41318403",
+      "37523837",
+      "24140094",
+      "36471978",
+      "39307799",
+      "38759074",
+      "41638057",
+      "42176188",
+      "41380415",
+      "40840920",
+      "38587907",
+      "40865282",
+      "33444721",
+      "34926700",
+      "42344418",
+      "38619514",
+      "35387335",
+      "35851128",
+      "39535879",
+      "34471642",
+      "29940597",
+      "41483656",
+      "40988247",
+      "33588742",
+      "22204436",
+      "23159951",
+      "28329747",
+      "40086050",
+      "40995593",
+      "37382018",
+      "41802508",
+      "38822913",
+      "39287308",
+      "40151083",
+      "41373699",
+      "40224490",
+      "41724871",
+      "41843163",
+      "40496556",
+      "34047086",
+      "22963445",
+      "38374020",
+      "26789107",
+      "35848975",
+      "39311772",
+      "39949090",
+      "38707616",
+      "35932042",
+      "38115276",
+      "42070473",
+      "41603182",
+      "39333622",
+      "37308949",
+      "41723134",
+      "39621727"
+    ],
+    "review": [
+      "41593860",
+      "38379386",
+      "31318152",
+      "26201485",
+      "39832069",
+      "41178712",
+      "40127835",
+      "25085841",
+      "24140094",
+      "42344418",
+      "34471642",
+      "22204436",
+      "41724871"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cdnsciencepub.com/doi/10.1139/cjpp-2025-0146?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-870",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://datadryad.org/discover?query=10.1139/cjpp-2025-0146",
+        "provider": "Dryad Digital Repository",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

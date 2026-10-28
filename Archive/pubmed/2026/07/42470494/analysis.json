@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42470494",
+  "title": "Investigating the mechanisms of malignant progression in colorectal cancer using weighted gene co-expression network analysis and machine learning.",
+  "authors": "Zheng, Song; Meng, Lei; Fan, Xiaoye; He, Xiaoqing",
+  "journal": "Journal of molecular histology",
+  "published_date": "2026-07-19",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用WGCNA和机器学习筛选结直肠癌关键基因CDK1，并通过ChIP等实验验证转录因子TFAP4调控CDK1，虽涉及TF-DNA调控但以湿实验为主，缺乏AI/物理模拟建模方法。",
+  "abstract": "Colorectal cancer (CRC) remains a leading cause of cancer-related mortality worldwide. Understanding the complex molecular networks that underlie this aggressive behavior is critical for developing novel diagnostic and therapeutic strategies. This study aimed to identify key molecular regulators of CRC progression by integrating Weighted Gene Co-expression Network Analysis (WGCNA) with machine learning algorithms. Hub genes were initially identified by intersecting genes from the most significant module with CRC-related and glycolysis-related targets from the GeneCards database, as well as upregulated differentially expressed genes (DEGs) from the GSE113513 dataset. Lasso regression and random forest (RF) algorithms were employed to screen for key genes from this intersection. The expression of the identified key gene was validated using quantitative real-time PCR (qRT-PCR) and Western blotting. Functional assays, including Cell Counting Kit-8 (CCK-8), colony formation, Transwell invasion, flow cytometry, and metabolic analyses, were conducted to analyze the malignant behaviors of CRC cells. The regulatory relationship between cyclin dependent kinase 1 (CDK1) and transcription factor AP-4 (TFAP4) was validated through chromatin immunoprecipitation (ChIP) and dual-luciferase reporter assays. A xenograft mouse model was used to evaluate the effect of TFAP4 knockdown on the malignant progression of CRC cells in vivo. WGCNA and machine learning analyses identified three key genes: MET, MYC, and CDK1. CDK1 was selected for further investigation and found to be significantly upregulated in CRC tissues and cell lines. Functionally, CDK1 knockdown markedly inhibited CRC cell proliferation, invasion, and glycolysis while promoting apoptosis. Mechanistically, the transcription factor TFAP4 was identified as an upstream regulator that directly activated CDK1 transcription. Moreover, CDK1 and TFAP4 expression were associated with metastatic stage. TFAP4 exerted its oncogenic effects by positively regulating CDK1. Furthermore, silencing TFAP4 significantly suppressed tumor growth in vivo. This study establishes the TFAP4-CDK1 axis as a critical driver of malignant progression in CRC. Targeting this pathway could lead to the development of novel interventions for CRC.",
+  "abstract_zh": "结直肠癌（CRC）仍是全球癌症相关死亡的主要原因之一。理解驱动这种侵袭性行为的复杂分子网络对于开发新型诊断和治疗策略至关重要。本研究旨在通过整合加权基因共表达网络分析（WGCNA）与机器学习算法，识别CRC进展的关键分子调控因子。通过将最显著模块中的基因与GeneCards数据库中CRC相关及糖酵解相关靶点，以及GSE113513数据集中的上调差异表达基因（DEGs）取交集，初步鉴定出核心基因。采用Lasso回归和随机森林（RF）算法从该交集中筛选关键基因。通过定量实时PCR（qRT-PCR）和Western blotting验证所识别关键基因的表达。功能实验，包括细胞计数试剂盒-8（CCK-8）、集落形成、Transwell侵袭、流式细胞术和代谢分析，用于分析CRC细胞的恶性行为。通过染色质免疫沉淀（ChIP）和双荧光素酶报告基因实验验证细胞周期蛋白依赖性激酶1（CDK1）与转录因子AP-4（TFAP4）之间的调控关系。使用异种移植小鼠模型评估TFAP4敲低对CRC细胞体内恶性进展的影响。WGCNA和机器学习分析识别出三个关键基因：MET、MYC和CDK1。CDK1被选作进一步研究对象，并发现其在CRC组织和细胞系中显著上调。在功能上，CDK1敲低显著抑制CRC细胞增殖、侵袭和糖酵解，同时促进凋亡。在机制上，转录因子TFAP4被鉴定为直接激活CDK1转录的上游调控因子。此外，CDK1和TFAP4的表达与转移分期相关。TFAP4通过正向调控CDK1发挥其致癌作用。进一步地，沉默TFAP4在体内显著抑制肿瘤生长。本研究确立了TFAP4-CDK1轴作为CRC恶性进展的关键驱动因素。靶向该通路可能为CRC开发新型干预措施。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42470494/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42470494/",
+  "paper_page_path": "papers/pubmed/42470494/index.html"
+}

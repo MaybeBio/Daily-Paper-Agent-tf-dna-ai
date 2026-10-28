@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "42348123",
+    "doi": "10.1111/pce.70692",
+    "title": "Systems-Level Developmental Reprogramming Under Waterlogging Stress in Cowpea Revealed by Integrated Phenotypic, Physiological, and Transcriptomic Analysis."
+  },
+  "content": {
+    "abstract": "Cowpea (Vigna unguiculata (L.) Walp.) is a climate-resilient grain legume that contributes to nutritional and food safety in a variety of production regions around the world; however, many of these regions are becoming more vulnerable to climate-driven flooding and waterlogging, endangering productivity and seed quality. In this study, we used RNA-seq to assess transcriptional responses to waterlogging in different cowpea genotypes during the vegetative, flowering, and maturity stages. Using measured phenotypic/physiological, biochemical, yield, and seed-quality traits, RNA-seq expression profiles were combined with differential expression analysis, KEGG pathway enrichment/Pathview mapping, transcription factor profiling, weighted gene co-expression network analysis (WGCNA), and XGBoost-based machine-learning prediction. The tolerant genotype UCR369 demonstrated stronger physiological recovery and more dynamic transcriptional adjustment than EpicSelect.4, whereas flowering and maturity exhibited the clearest divergence in waterlogging responses, which were strongly stage- and genotype-dependent. Waterlogging caused stage-dependent alterations to soluble sugars, phenolics, flavonoids and seed-quality traits while decreasing pigment status, gas exchange, chlorophyll fluorescence, membrane stability, and yield components. Pathway analysis revealed four prominent response axes: phenylpropanoid biosynthesis, flavonoid/isoflavonoid biosynthesis, starch and sucrose metabolism, and cutin/suberin/wax biosynthesis. KEGG pathway and Pathview analyses revealed activation of antioxidant and wall-associated phenolic metabolism, carbohydrate reallocation, and surface-lipid/barrier remodelling in UCR369, with a stronger integration of these responses, particularly during flowering and maturation. Transcription factor expression dynamics exhibited stage-specific activation of the MYB, bHLH, ERF/AP2, WRKY, HD-ZIP, and HSF families, which is compatible with redox buffering, hormone-linked stress signalling, and membrane/cuticle protection. WGCNA detected 35 co-expression modules, with the top five modules as the most closely linked to phenolics/starch, sucrose, plastid/pigment functions, and membrane stability. These transcriptome-scale patterns were condensed by XGBoost into a compact collection of trait-linked predictors, with the strongest cross-layer support centred on LTP3, CER1/CER22, and CASPL1D1 for cuticle/barrier remodelling, NIA2/NR2, ICL, and SAG12 for carbohydrate and redox reprogramming, HSP21 for plastid protection, and ACS6 for ethylene-associated stress signalling. Additional recurrent predictors, such as Vigun07g271600 and Vigun08g155100, point to cytochrome P450 and HSP20-related stress-protective activities. These findings establish a trait-anchored, systems-level framework for cowpea waterlogging tolerance, as well as biologically grounded targets for marker development, functional validation, and breeding in waterlogging-prone regions.",
+    "keywords": [
+      "KEGG enrichment",
+      "cowpea",
+      "machine learning models",
+      "transcriptomics",
+      "waterlogging stress",
+      "weighted gene vo-expression network analysis (WGCNA)"
+    ],
+    "mesh_terms": [
+      "Gene Expression Profiling",
+      "*Vigna/physiology/genetics/growth & development",
+      "*Stress, Physiological",
+      "Phenotype",
+      "Gene Expression Regulation, Plant",
+      "Genotype",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ghanbari, Mohammad A",
+        "Olorunwa, Omolayo J",
+        "Verma, Mohit",
+        "Popescu, Sorina C",
+        "Shi, Ainong",
+        "Casey Barickman, T",
+        "Popescu, George V"
+      ],
+      "short_names": [
+        "Ghanbari MA",
+        "Olorunwa OJ",
+        "Verma M",
+        "Popescu SC",
+        "Shi A",
+        "Casey Barickman T",
+        "Popescu GV"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-4011-7986",
+        "ORCID: 0000-0002-0830-360X",
+        "ORCID: 0000-0002-0438-5396",
+        "ORCID: 0000-0001-5780-8252",
+        "ORCID: 0000-0003-1915-5769",
+        "ORCID: 0000-0002-7580-6792"
+      ],
+      "affiliations": [
+        "Institute for Genomics, Biocomputing & Biotechnology, Mississippi State, Mississippi, USA.",
+        "Department of Plant and Soil Sciences, Mississippi State University, Mississippi State, Mississippi, USA.",
+        "Institute for Genomics, Biocomputing & Biotechnology, Mississippi State, Mississippi, USA.",
+        "Department of Biomedical Sciences, Joan C. Edwards School of Medicine, Marshall University, Huntington, West Virginia, USA.",
+        "Department of Biochemistry, Nutrition, and Health Promotion, Mississippi State University, Mississippi State, Mississippi, USA.",
+        "Department of Horticulture, University of Arkansas, Fayetteville, Arkansas, USA.",
+        "Department of Plant and Soil Sciences, Mississippi State University, Mississippi State, Mississippi, USA.",
+        "School of Integrative Plant Science, Horticulture Section, Cornell University, Ithaca, New York, USA.",
+        "Institute for Genomics, Biocomputing & Biotechnology, Mississippi State, Mississippi, USA.",
+        "Department of Biochemistry, Nutrition, and Health Promotion, Mississippi State University, Mississippi State, Mississippi, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ghanbari, Mohammad A",
+        "short_name": "Ghanbari MA",
+        "identifiers": [
+          "0009-0002-4011-7986"
+        ],
+        "affiliations": [
+          "Institute for Genomics, Biocomputing & Biotechnology, Mississippi State, Mississippi, USA."
+        ]
+      },
+      {
+        "full_name": "Olorunwa, Omolayo J",
+        "short_name": "Olorunwa OJ",
+        "identifiers": [
+          "0000-0002-0830-360X"
+        ],
+        "affiliations": [
+          "Department of Plant and Soil Sciences, Mississippi State University, Mississippi State, Mississippi, USA."
+        ]
+      },
+      {
+        "full_name": "Verma, Mohit",
+        "short_name": "Verma M",
+        "identifiers": [
+          "0000-0002-0438-5396"
+        ],
+        "affiliations": [
+          "Institute for Genomics, Biocomputing & Biotechnology, Mississippi State, Mississippi, USA.",
+          "Department of Biomedical Sciences, Joan C. Edwards School of Medicine, Marshall University, Huntington, West Virginia, USA."
+        ]
+      },
+      {
+        "full_name": "Popescu, Sorina C",
+        "short_name": "Popescu SC",
+        "identifiers": [
+          "0000-0001-5780-8252"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Nutrition, and Health Promotion, Mississippi State University, Mississippi State, Mississippi, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Ainong",
+        "short_name": "Shi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture, University of Arkansas, Fayetteville, Arkansas, USA."
+        ]
+      },
+      {
+        "full_name": "Casey Barickman, T",
+        "short_name": "Casey Barickman T",
+        "identifiers": [
+          "0000-0003-1915-5769"
+        ],
+        "affiliations": [
+          "Department of Plant and Soil Sciences, Mississippi State University, Mississippi State, Mississippi, USA.",
+          "School of Integrative Plant Science, Horticulture Section, Cornell University, Ithaca, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Popescu, George V",
+        "short_name": "Popescu GV",
+        "identifiers": [
+          "0000-0002-7580-6792"
+        ],
+        "affiliations": [
+          "Institute for Genomics, Biocomputing & Biotechnology, Mississippi State, Mississippi, USA.",
+          "Department of Biochemistry, Nutrition, and Health Promotion, Mississippi State University, Mississippi State, Mississippi, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant, cell & environment"
+    ],
+    "journal_abbrev": [
+      "Plant Cell Environ"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/25 12:37",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40661760",
+      "40661129",
+      "39940636",
+      "39890501",
+      "39735343",
+      "39573924",
+      "39354337",
+      "38254690",
+      "37847974",
+      "37615019",
+      "37511393",
+      "37372368",
+      "37255589",
+      "37240398",
+      "37046988",
+      "36987026",
+      "36946261",
+      "36780757",
+      "36765112",
+      "36710329",
+      "36689830",
+      "36171500",
+      "36115267",
+      "36079697",
+      "35736733",
+      "35734248",
+      "35664329",
+      "35596185",
+      "35067306",
+      "35050160",
+      "35022593",
+      "34839099",
+      "34576120",
+      "34561450",
+      "34502463",
+      "33325112",
+      "32859149",
+      "32688442",
+      "32624633",
+      "31882993",
+      "31382508",
+      "31181725",
+      "31134633",
+      "31017340",
+      "30889856",
+      "30809241",
+      "30774639",
+      "30464024",
+      "29982633",
+      "29788353",
+      "29656381",
+      "28830345",
+      "27509049",
+      "26174675",
+      "26139823",
+      "25516281",
+      "25342550",
+      "23740750",
+      "20089772",
+      "19617889",
+      "19114008",
+      "18603613",
+      "18436781",
+      "14597658"
+    ],
+    "similar": [
+      "42348123",
+      "42475469",
+      "36115267",
+      "35067306",
+      "40141245",
+      "42511822",
+      "40360985",
+      "41974281",
+      "41864881",
+      "31412781",
+      "35231571",
+      "41965503",
+      "39864038",
+      "38594627",
+      "36079697",
+      "32121334",
+      "39069616",
+      "40263479",
+      "35363798",
+      "41029505",
+      "41065939",
+      "39456837",
+      "41439183",
+      "36107155",
+      "41581103",
+      "35328659",
+      "41664654",
+      "38862913",
+      "28953908",
+      "41254527",
+      "38539093",
+      "39595960",
+      "32859149",
+      "42046055",
+      "42177410",
+      "30889856",
+      "41240170",
+      "42353788",
+      "40725500",
+      "25520726",
+      "38941312",
+      "33380327",
+      "32610550",
+      "42510801",
+      "26759178",
+      "40167783",
+      "41635687",
+      "41777388",
+      "40576806",
+      "41826822",
+      "23936429",
+      "37834015",
+      "37298249",
+      "40076517",
+      "41571927",
+      "41237517",
+      "26934874",
+      "42265583",
+      "41270574",
+      "42000539",
+      "36050651",
+      "38493093",
+      "35596185",
+      "41946812",
+      "42353081",
+      "42083209",
+      "40093413",
+      "42101208",
+      "40869998",
+      "42271233",
+      "40452025",
+      "41898851",
+      "35287570",
+      "42353798",
+      "41187558",
+      "38724918",
+      "30315521",
+      "41515041",
+      "42004709",
+      "31415937",
+      "40610876",
+      "42510731",
+      "41220776",
+      "32802007",
+      "39125984",
+      "27215785",
+      "42480475",
+      "38561687",
+      "32916530",
+      "33957505",
+      "42115335",
+      "41555240",
+      "26689934",
+      "39709354",
+      "40792006",
+      "41132929",
+      "37629034",
+      "32150870",
+      "41717106",
+      "36076993"
+    ],
+    "review": [
+      "42348123"
+    ],
+    "pmc": [
+      "13436478"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42348123/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/pce.70692",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

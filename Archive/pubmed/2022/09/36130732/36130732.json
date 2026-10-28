@@ -1,0 +1,452 @@
+{
+  "identity": {
+    "pmid": "36130732",
+    "doi": "10.1093/nar/gkac755",
+    "title": "OCT4 interprets and enhances nucleosome flexibility."
+  },
+  "content": {
+    "abstract": "Pioneer transcription factors are proteins that induce cellular identity transitions by binding to inaccessible regions of DNA in nuclear chromatin. They contribute to chromatin opening and recruit other factors to regulatory DNA elements. The structural features and dynamics modulating their interaction with nucleosomes are still unresolved. From a combination of experiments and molecular simulations, we reveal here how the pioneer factor and master regulator of pluripotency, Oct4, interprets and enhances nucleosome structural flexibility. The magnitude of Oct4's impact on nucleosome dynamics depends on the binding site position and the mobility of the unstructured tails of nucleosomal histone proteins. Oct4 uses both its DNA binding domains to propagate and stabilize open nucleosome conformations, one for specific sequence recognition and the other for nonspecific interactions with nearby regions of DNA. Our findings provide a structural basis for the versatility of transcription factors in engaging with nucleosomes and have implications for understanding how pioneer factors induce chromatin dynamics.",
+    "keywords": [],
+    "mesh_terms": [
+      "Chromatin/genetics",
+      "Histones/metabolism",
+      "*Nucleosomes/genetics",
+      "Octamer Transcription Factor-3/*metabolism",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "MacCarthy, Caitlin M",
+        "Huertas, Jan",
+        "Ortmeier, Claudia",
+        "Vom Bruch, Hermann",
+        "Tan, Daisylyn Senna",
+        "Reinke, Deike",
+        "Sander, Astrid",
+        "Bergbrede, Tim",
+        "Jauch, Ralf",
+        "Scholer, Hans R",
+        "Cojocaru, Vlad"
+      ],
+      "short_names": [
+        "MacCarthy CM",
+        "Huertas J",
+        "Ortmeier C",
+        "Vom Bruch H",
+        "Tan DS",
+        "Reinke D",
+        "Sander A",
+        "Bergbrede T",
+        "Jauch R",
+        "Scholer HR",
+        "Cojocaru V"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8434-5441",
+        "ORCID: 0000-0003-2607-5214",
+        "ORCID: 0000-0002-0930-1884",
+        "ORCID: 0000-0002-6590-9579",
+        "ORCID: 0000-0003-2643-5136",
+        "ORCID: 0000-0003-0886-3401"
+      ],
+      "affiliations": [
+        "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Munster, Germany.",
+        "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Munster, Germany.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, UK.",
+        "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Munster, Germany.",
+        "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Munster, Germany.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, University of Hong Kong, Hong Kong SAR, China.",
+        "Max Planck Institute of Molecular Physiology, Dortmund, Germany.",
+        "Max Planck Institute of Molecular Physiology, Dortmund, Germany.",
+        "Lead Discovery Center GmbH, Dortmund, Germany.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Munster, Germany.",
+        "Medical Faculty, University of Munster, Germany.",
+        "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Munster, Germany.",
+        "Computational Structural Biology Group, University of Utrecht, The Netherlands.",
+        "STAR-UBB Institute, Babes-Bolyai University, Cluj-Napoca, Romania."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "MacCarthy, Caitlin M",
+        "short_name": "MacCarthy CM",
+        "identifiers": [
+          "0000-0001-8434-5441"
+        ],
+        "affiliations": [
+          "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Huertas, Jan",
+        "short_name": "Huertas J",
+        "identifiers": [
+          "0000-0003-2607-5214"
+        ],
+        "affiliations": [
+          "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Münster, Germany.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Ortmeier, Claudia",
+        "short_name": "Ortmeier C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Vom Bruch, Hermann",
+        "short_name": "Vom Bruch H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Tan, Daisylyn Senna",
+        "short_name": "Tan DS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Reinke, Deike",
+        "short_name": "Reinke D",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Physiology, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Sander, Astrid",
+        "short_name": "Sander A",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Physiology, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Bergbrede, Tim",
+        "short_name": "Bergbrede T",
+        "identifiers": [
+          "0000-0002-0930-1884"
+        ],
+        "affiliations": [
+          "Lead Discovery Center GmbH, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Jauch, Ralf",
+        "short_name": "Jauch R",
+        "identifiers": [
+          "0000-0002-6590-9579"
+        ],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Schöler, Hans R",
+        "short_name": "Schöler HR",
+        "identifiers": [
+          "0000-0003-2643-5136"
+        ],
+        "affiliations": [
+          "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Münster, Germany.",
+          "Medical Faculty, University of Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Cojocaru, Vlad",
+        "short_name": "Cojocaru V",
+        "identifiers": [
+          "0000-0003-0886-3401"
+        ],
+        "affiliations": [
+          "Department of Cellular and Developmental Biology, Max Planck Institute for Molecular Biomedicine, Münster, Germany.",
+          "Computational Structural Biology Group, University of Utrecht, The Netherlands.",
+          "STAR-UBB Institute, Babeş-Bolyai University, Cluj-Napoca, Romania."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Oct 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/22 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "42033231",
+      "41778583",
+      "40312022",
+      "40229384",
+      "40024204",
+      "39099845",
+      "39099839",
+      "38958075",
+      "38881841",
+      "38293962",
+      "37940484",
+      "37327775",
+      "37050377",
+      "36631980",
+      "36495920"
+    ],
+    "refs": [
+      "35313165",
+      "34489435",
+      "34354236",
+      "34081696",
+      "33888707",
+      "33856458",
+      "33309853",
+      "32886547",
+      "32778600",
+      "32678275",
+      "32350470",
+      "32327602",
+      "32027821",
+      "31956896",
+      "31484078",
+      "31462772",
+      "31375664",
+      "30532059",
+      "30372613",
+      "30250250",
+      "29910149",
+      "29563192",
+      "29185124",
+      "29129686",
+      "28877499",
+      "28834535",
+      "28007765",
+      "27527579",
+      "27320042",
+      "27270081",
+      "26931280",
+      "26896338",
+      "26826681",
+      "26583988",
+      "26574453",
+      "26574374",
+      "26574339",
+      "26569599",
+      "26192632",
+      "26067358",
+      "25892221",
+      "24145198",
+      "23376973",
+      "23159369",
+      "23085715",
+      "22960375",
+      "22448809",
+      "22344693",
+      "20454547",
+      "20362542",
+      "18555785",
+      "16904174",
+      "16222654",
+      "16200636",
+      "15860457",
+      "15264254",
+      "12136102",
+      "11864602",
+      "11309664",
+      "10804500",
+      "10409735",
+      "9514715",
+      "9343393",
+      "9305837",
+      "8744570",
+      "1361172"
+    ],
+    "similar": [
+      "36130732",
+      "32027821",
+      "37327775",
+      "36495920",
+      "32678275",
+      "32778600",
+      "39099839",
+      "39208807",
+      "37225990",
+      "34354236",
+      "25892221",
+      "25582194",
+      "35863165",
+      "32327602",
+      "23715545",
+      "31484078",
+      "33309853",
+      "20886052",
+      "34081696",
+      "28287392",
+      "20015349",
+      "32886547",
+      "9826764",
+      "29126175",
+      "32203463",
+      "33865440",
+      "38293962",
+      "33181171",
+      "32567715",
+      "27058788",
+      "24086160",
+      "31303471",
+      "26699921",
+      "10532314",
+      "34446700",
+      "23739170",
+      "27016736",
+      "27979995",
+      "9752726",
+      "22004754",
+      "7565770",
+      "9427758",
+      "28377300",
+      "33888707",
+      "33667509",
+      "32702132",
+      "31253573",
+      "30287617",
+      "34830005",
+      "22737086",
+      "9488435",
+      "9372928",
+      "27903656",
+      "35477757",
+      "34364091",
+      "34489435",
+      "11063594",
+      "33522067",
+      "10736184",
+      "9614938",
+      "34099689",
+      "26305225",
+      "32811816",
+      "26416878",
+      "21326360",
+      "36321206",
+      "36789416",
+      "28104838",
+      "26826681",
+      "25491770",
+      "11154274",
+      "30017582",
+      "33387534",
+      "29648537",
+      "37805066",
+      "17996059",
+      "26750377",
+      "31604067",
+      "32574554",
+      "11397084",
+      "25992972",
+      "24145198",
+      "12596908",
+      "31269447",
+      "31473439",
+      "11809876",
+      "33823458",
+      "26933790",
+      "10806063",
+      "33684542",
+      "28475873",
+      "22124157",
+      "10921904",
+      "29931239",
+      "30557018",
+      "34757077",
+      "30529788",
+      "31901887",
+      "35182480",
+      "36993452",
+      "37405916",
+      "37307148",
+      "38778580",
+      "37986743",
+      "35810158",
+      "37425841",
+      "38365978",
+      "39058903",
+      "36714865",
+      "37125729",
+      "38956169",
+      "39367253",
+      "37740118"
+    ],
+    "review": [
+      "36130732",
+      "39099839",
+      "35863165",
+      "23715545",
+      "33309853",
+      "32886547",
+      "32567715",
+      "9752726",
+      "27903656",
+      "34364091",
+      "21326360",
+      "26826681",
+      "24145198",
+      "12596908",
+      "31473439",
+      "33823458",
+      "10806063",
+      "30529788",
+      "31901887"
+    ],
+    "pmc": [
+      "9561370"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36130732/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36130732",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac755",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

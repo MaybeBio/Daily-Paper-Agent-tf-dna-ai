@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39633487",
+  "title": "SiRCle (Signature Regulatory Clustering) model integration reveals mechanisms of phenotype regulation in renal cancer.",
+  "authors": "Mora, Ariane; Schmidt, Christina; Balderson, Brad; Frezza, Christian; Boden, Mikael",
+  "journal": "Genome medicine",
+  "published_date": "2024-12-05",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出多组学整合方法SiRCle，结合VAE研究肾癌表型调控机制，但核心是DNA甲基化、RNA和蛋白质数据整合，未涉及蛋白质-DNA互作建模或TF-DNA结合机制，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Clear cell renal cell carcinoma (ccRCC) tumours develop and progress via complex remodelling of the kidney epigenome, transcriptome, proteome and metabolome. Given the subsequent tumour and inter-patient heterogeneity, drug-based treatments report limited success, calling for multi-omics studies to extract regulatory relationships, and ultimately, to develop targeted therapies. Yet, methods for multi-omics integration to reveal mechanisms of phenotype regulation are lacking. METHODS: Here, we present SiRCle (Signature Regulatory Clustering), a method to integrate DNA methylation, RNA-seq and proteomics data at the gene level by following central dogma of biology, i.e. genetic information proceeds from DNA, to RNA, to protein. To identify regulatory clusters across the different omics layers, we group genes based on the layer where the gene's dysregulation first occurred. We combine the SiRCle clusters with a variational autoencoder (VAE) to reveal key features from omics' data for each SiRCle cluster and compare patient subpopulations in a ccRCC and a PanCan cohort. RESULTS: Applying SiRCle to a ccRCC cohort, we showed that glycolysis is upregulated by DNA hypomethylation, whilst mitochondrial enzymes and respiratory chain complexes are translationally suppressed. Additionally, we identify metabolic enzymes associated with survival along with the possible molecular driver behind the gene's perturbations. By using the VAE to integrate omics' data followed by statistical comparisons between tumour stages on the integrated space, we found a stage-dependent downregulation of proximal renal tubule genes, hinting at a loss of cellular identity in cancer cells. We also identified the regulatory layers responsible for their suppression. Lastly, we applied SiRCle to a PanCan cohort and found common signatures across ccRCC and PanCan in addition to the regulatory layer that defines tissue identity. CONCLUSIONS: Our results highlight SiRCle's ability to reveal mechanisms of phenotype regulation in cancer, both specifically in ccRCC and broadly in a PanCan context. SiRCle ranks genes according to biological features. https://github.com/ArianeMora/SiRCle_multiomics_integration .",
+  "abstract_zh": "背景：透明细胞肾细胞癌（ccRCC）肿瘤通过肾脏表观基因组、转录组、蛋白质组和代谢组的复杂重塑而发展和进展。鉴于随后的肿瘤异质性和患者间异质性，基于药物的治疗报告成功率有限，这要求进行多组学研究以提取调控关系，并最终开发靶向疗法。然而，目前缺乏用于整合多组学数据以揭示表型调控机制的方法。方法：在此，我们提出SiRCle（Signature Regulatory Clustering），一种通过遵循生物学中心法则（即遗传信息从DNA流向RNA再到蛋白质）在基因水平上整合DNA甲基化、RNA-seq和蛋白质组数据的方法。为了识别跨不同组学层的调控簇，我们根据基因失调首次发生的层对基因进行分组。我们将SiRCle簇与变分自编码器（VAE）相结合，以从每个SiRCle簇的组学数据中揭示关键特征，并在ccRCC和PanCan队列中比较患者亚群。结果：将SiRCle应用于ccRCC队列，我们表明糖酵解通过DNA低甲基化上调，而线粒体酶和呼吸链复合物则受到翻译水平的抑制。此外，我们识别了与生存相关的代谢酶以及基因扰动背后可能的分子驱动因素。通过使用VAE整合组学数据，并在整合空间上进行肿瘤分期之间的统计比较，我们发现近端肾小管基因存在分期依赖性下调，提示癌细胞中细胞身份丧失。我们还识别了导致其抑制的调控层。最后，我们将SiRCle应用于PanCan队列，发现ccRCC和PanCan之间共有的特征，以及定义组织身份的调控层。结论：我们的结果强调了SiRCle在揭示癌症表型调控机制方面的能力，既特异于ccRCC，也广泛适用于PanCan背景。SiRCle根据生物学特征对基因进行排序。https://github.com/ArianeMora/SiRCle_multiomics_integration 。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39633487/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39633487/",
+  "paper_page_path": "papers/pubmed/39633487/index.html"
+}

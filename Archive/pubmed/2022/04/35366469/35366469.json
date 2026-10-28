@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "35366469",
+    "doi": "10.1016/j.compbiomed.2022.105457",
+    "title": "Clinical data mining reveals Gancao-Banxia as a potential herbal pair against moderate COVID-19 by dual binding to IL-6/STAT3."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Coronavirus disease 2019 (COVID-19) keeps spreading globally. Chinese medicine (CM) exerts a critical role for the prevention or therapy of COVID-19 in an integrative and holistic way. However, mining and development of early, efficient, multisite binding CMs that inhibit the cytokine storm are imminent. METHODS: The formulae were extracted retrospectively from clinical records in Hunan Province. Clinical data mining analysis and association rule analysis were employed for mining the high-frequency herbal pairs and groups from formulae. Network pharmacology methods were applied to initially explore the most critical pair's hub targets, active ingredients, and potential mechanisms. The binding power of active ingredients to the hub targets was verified by molecular docking. RESULTS: Eight hundred sixty-two prescriptions were obtained from 320 moderate COVID-19 through the Hunan Provincial Health Commission. Glycyrrhizae Radix et Rhizoma (Gancao) and Pinelliae Rhizoma (Banxia) were used with the highest frequency and support. There were 49 potential genes associated with Gancao-Banxia pair against moderate COVID-19 patients. The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) indicated that Gancao-Banxia might act via inflammatory response, viral defense, and immune responses signaling pathways. IL-6 and STAT3 were the two most hub targets in the protein-protein interaction (PPI) network. The binding of five active ingredients originated from Gancao-Banxia to IL-6-STAT3 was verified by molecular docking, namely quercetin, coniferin, licochalcone a, Licoagrocarpin and (3S,6S)-3-(benzyl)-6-(4-hydroxybenzyl)piperazine-2,5-quinone, maximizing therapeutic efficacy. CONCLUSIONS: This work provided some potential candidate Chinese medicine formulas for moderate COVID-19. Among them, Gancao-Banxia was considered the most potential herbal pair. Bioinformatic data demonstrated that Gancao-Banxia pair may achieve dual inhibition of IL-6-STAT3 via directly interacting with IL-6 and STAT3, suppressing the IL-6 amplifier. SARS-CoV-2 models will be needed to validate this possibility in the future.",
+    "keywords": [
+      "Chinese medicines (CMs)",
+      "Data mining",
+      "Gancao-Banxia",
+      "Interleukin-6 (IL-6)",
+      "Moderate COVID-19",
+      "Molecular docking",
+      "Network pharmacology",
+      "Signal transducer and activator of transcription 3 (STAT3)"
+    ],
+    "mesh_terms": [
+      "Data Mining",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Glycyrrhiza",
+      "Humans",
+      "Interleukin-6/metabolism",
+      "Medicine, Chinese Traditional/methods",
+      "Molecular Docking Simulation",
+      "Retrospective Studies",
+      "SARS-CoV-2",
+      "STAT3 Transcription Factor/metabolism",
+      "*COVID-19 Drug Treatment"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Weikang",
+        "Ding, Ruoqi",
+        "Guo, Xiaohang",
+        "Zhan, Tao",
+        "Tang, Tao",
+        "Fan, Rong",
+        "Wang, Yang"
+      ],
+      "short_names": [
+        "Luo W",
+        "Ding R",
+        "Guo X",
+        "Zhan T",
+        "Tang T",
+        "Fan R",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China.",
+        "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China.",
+        "Hunan University of Chinese Medicine, Changsha, 410008, PR China.",
+        "Department of Integrated TCM and Western Medicine, The First Hospital of Changsha, Changsha, 410005, PR China.",
+        "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China.",
+        "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China. Electronic address: fanrong3463@163.com.",
+        "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China. Electronic address: wangyang_xy87@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Weikang",
+        "short_name": "Luo W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ruoqi",
+        "short_name": "Ding R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaohang",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Chinese Medicine, Changsha, 410008, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Tao",
+        "short_name": "Zhan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated TCM and Western Medicine, The First Hospital of Changsha, Changsha, 410005, PR China."
+        ]
+      },
+      {
+        "full_name": "Tang, Tao",
+        "short_name": "Tang T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China."
+        ]
+      },
+      {
+        "full_name": "Fan, Rong",
+        "short_name": "Fan R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China. Electronic address: fanrong3463@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Yang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrative Medicine, Department of Integrated Traditional Chinese and Western Medicine, Xiangya Hospital, Central South University, Changsha, 410008, PR China; National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, 410008, PR China. Electronic address: wangyang_xy87@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/03 06:00",
+    "fetched_at": "2026-09-28 06:47:29"
+  },
+  "links": {
+    "cites": [
+      "41657804",
+      "41501914",
+      "39612422",
+      "39082169",
+      "38873430",
+      "37564653",
+      "36913345",
+      "36366444",
+      "36288651",
+      "36211429",
+      "36204096",
+      "36120307",
+      "36046826"
+    ],
+    "refs": [
+      "34567957",
+      "33837054",
+      "33811957",
+      "33787349",
+      "33658066",
+      "33513419",
+      "33476733",
+      "33476691",
+      "33442016",
+      "33370568",
+      "33357725",
+      "33329518",
+      "33292385",
+      "33290972",
+      "33248473",
+      "33246112",
+      "33241658",
+      "33221457",
+      "33185910",
+      "33181320",
+      "33173434",
+      "33163124",
+      "33158717",
+      "33146673",
+      "33017170",
+      "32978039",
+      "32949888",
+      "32926319",
+      "32915877",
+      "32912236",
+      "32907861",
+      "32907358",
+      "32902413",
+      "32837538",
+      "32798614",
+      "32790510",
+      "32762696",
+      "32726800",
+      "32675044",
+      "32643448",
+      "32642005",
+      "32640747",
+      "32634603",
+      "32622723",
+      "32505821",
+      "32445956",
+      "32420637",
+      "32380051",
+      "32376368",
+      "32360484",
+      "32325025",
+      "32237918",
+      "32205232",
+      "32145402",
+      "32109013",
+      "31811935",
+      "31487867",
+      "30995501",
+      "30846939",
+      "28620096",
+      "27185365",
+      "26579460",
+      "26199948",
+      "23142198",
+      "22837674"
+    ],
+    "similar": [
+      "35366469",
+      "32376368",
+      "33513419",
+      "33191068",
+      "34941025",
+      "38018195",
+      "37957903",
+      "33831468",
+      "33645090",
+      "34313585",
+      "33357725",
+      "36164884",
+      "35438554",
+      "33496116",
+      "35859316",
+      "38882048",
+      "34217946",
+      "38986753",
+      "37653800",
+      "32632717",
+      "32643448",
+      "32489081",
+      "33832291",
+      "35178960",
+      "34605344",
+      "32622723",
+      "33624589",
+      "33658066",
+      "33054436",
+      "32281328",
+      "35227178",
+      "37713907",
+      "33146673",
+      "32495559",
+      "32726005",
+      "32897211",
+      "33140889",
+      "33357239",
+      "19284958",
+      "32281332",
+      "30453719",
+      "35870684",
+      "38784930",
+      "33452734",
+      "33251769",
+      "33691446",
+      "35988839",
+      "36353282",
+      "33299870",
+      "36773790",
+      "33475051",
+      "36258089",
+      "32233641",
+      "38055068",
+      "35178925",
+      "32572780",
+      "34349502",
+      "35130311",
+      "38457601",
+      "34731090",
+      "36930472",
+      "33082858",
+      "33135607",
+      "35067174",
+      "33662681",
+      "35837376",
+      "32767929",
+      "34159207",
+      "35342751",
+      "33485973",
+      "33746604",
+      "32281329",
+      "32922187",
+      "33634308",
+      "34675488",
+      "33581688",
+      "35029877",
+      "35616676",
+      "33986661",
+      "34047082",
+      "30582378",
+      "33877545",
+      "36280016",
+      "39133272",
+      "35584000",
+      "33485971",
+      "25701755",
+      "34708128",
+      "32764874",
+      "36267846",
+      "32754224",
+      "32065348",
+      "35644437",
+      "35636166",
+      "35135448",
+      "36403263",
+      "36452059",
+      "37783074",
+      "35430443",
+      "35075100",
+      "33235305",
+      "37805293",
+      "33787349",
+      "37196671",
+      "39001776",
+      "37881069",
+      "34505138",
+      "35583580",
+      "37832096",
+      "35997858",
+      "37147756",
+      "33357718",
+      "36158124",
+      "37963492",
+      "37657053",
+      "36499711",
+      "38330604",
+      "33931765",
+      "34397905",
+      "36800601",
+      "38050310",
+      "36204096",
+      "37935508",
+      "35114443",
+      "37546617",
+      "37129739",
+      "39173044",
+      "36534045",
+      "38487885",
+      "36805222",
+      "35995784",
+      "37580936",
+      "39262242",
+      "39427742",
+      "37140561",
+      "34040397",
+      "33224256",
+      "37704909",
+      "39051370",
+      "39382736",
+      "32691000",
+      "33593628",
+      "36618881",
+      "39154130",
+      "36874035",
+      "35883227",
+      "36700092",
+      "33791734"
+    ],
+    "review": [
+      "35366469",
+      "32622723",
+      "35870684",
+      "33485973",
+      "30582378",
+      "32065348",
+      "33787349",
+      "37196671",
+      "33357718",
+      "37657053",
+      "36534045",
+      "39051370",
+      "32691000",
+      "33593628"
+    ],
+    "pmc": [
+      "8957363"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(22)00249-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35366469/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35366469",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(22)00249-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "identity": {
+    "pmid": "38135208",
+    "doi": "10.1016/j.canlet.2023.216594",
+    "title": "Deciphering the immune modulation through deep transcriptomic profiling and therapeutic implications of DNA damage repair pattern in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "AIMS: DNA damage repair (DDR) plays a pivotal role in hepatocellular carcinoma (HCC), driving oncogenesis, progression, and therapeutic response. However, the mechanisms of DDR mediated immune cells and immuno-modulatory pathways in HCC are yet ill-defined. METHODS: Our study introduces an innovative deep machine learning framework for precise DDR assessment, utilizing single-cell RNA sequencing (scRNA-seq) and bulk RNA-seq data. Single-cell RNA sequencing data were obtained and in total 85,628 cells of primary or post-immunotherapy cases were analyzed. Large-scale HCC datasets, including 1027 patients in house together with public datasets, were used for 101 machine-learning models and a novel DDR feature was derived at single-cell resolution (DDRscore). Druggable targets were predicted using the reverse phase protein array (RPPA) proteomic profiling of 169 HCC patients and RNA-seq data from 22 liver cancer cell lines. RESULTS: Our investigation reveals a dynamic interplay of DDR with natural killer cells and B cells in the primary HCC microenvironment, shaping a tumor-promoting immune milieu through metabolic programming. Analysis of HCC post-immunotherapy demonstrates elevated DDR levels that induces epithelial-mesenchymal transition and fibroblast-like transformation, reshaping the fibrotic tumor microenvironment. Conversely, attenuated DDR promotes antigen cross-presentation by dendritic cells and CD8(+) T cells, modulating the inflammatory tumor microenvironment. Regulatory network analysis identifies the CXCL10-CXCR3 axis as a key determinant of immunotherapeutic response in low DDR HCC, potentially regulated by transcription factors GATA3, REL, and TBX21. Using machine learning techniques by combining bulk RNA-seq data in house together with public datasets, we introduce DDRscore, a robust consensus DDR scoring system to predict overall survival and resistance to PD-1 therapy in HCC patients. Finally, we identify BRAF as a potential therapeutic target for high DDRscore patients. CONCLUSION: Our comprehensive findings advance our understanding of DDR and the tumor microenvironment in HCC, providing insights into immune regulatory mechanisms mediated via DDR pathways.",
+    "keywords": [
+      "DNA damage repair",
+      "Drug targets",
+      "Hepatocellular carcinoma",
+      "Immunotherapy",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/therapy",
+      "CD8-Positive T-Lymphocytes",
+      "Proteomics",
+      "*Liver Neoplasms/genetics/therapy",
+      "Gene Expression Profiling",
+      "DNA Damage",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Weifeng",
+        "Zhang, Yang",
+        "Wang, Siwei",
+        "Zheng, Danxue",
+        "Hsu, Shujung",
+        "Zhou, Jian",
+        "Fan, Jia",
+        "Zeng, Zhaochong",
+        "Wang, Nan",
+        "Ding, Zhiyong",
+        "Yu, Min",
+        "Gao, Qiang",
+        "Du, Shisuo"
+      ],
+      "short_names": [
+        "Hong W",
+        "Zhang Y",
+        "Wang S",
+        "Zheng D",
+        "Hsu S",
+        "Zhou J",
+        "Fan J",
+        "Zeng Z",
+        "Wang N",
+        "Ding Z",
+        "Yu M",
+        "Gao Q",
+        "Du S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China.",
+        "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China.",
+        "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China.",
+        "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China.",
+        "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China.",
+        "Department of Liver Surgery and Transplantation, Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai, 200032, China.",
+        "Department of Liver Surgery and Transplantation, Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai, 200032, China.",
+        "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China.",
+        "Mills Institute for Personalized Cancer Care, Fynn Biotechnologies Ltd., Jinan, Shandong, 250000, China.",
+        "Mills Institute for Personalized Cancer Care, Fynn Biotechnologies Ltd., Jinan, Shandong, 250000, China.",
+        "Department of Pancreas Center, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, Guangdong, 510000, China. Electronic address: yumin@gdph.org.cn.",
+        "Department of Liver Surgery and Transplantation, Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai, 200032, China. Electronic address: gaoqiang@fudan.edu.cn.",
+        "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China. Electronic address: du.shisuo@zs-hospital.sh.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Weifeng",
+        "short_name": "Hong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siwei",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Danxue",
+        "short_name": "Zheng D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China."
+        ]
+      },
+      {
+        "full_name": "Hsu, Shujung",
+        "short_name": "Hsu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jian",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery and Transplantation, Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Jia",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery and Transplantation, Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zhaochong",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Nan",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "Mills Institute for Personalized Cancer Care, Fynn Biotechnologies Ltd., Jinan, Shandong, 250000, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Zhiyong",
+        "short_name": "Ding Z",
+        "identifiers": [],
+        "affiliations": [
+          "Mills Institute for Personalized Cancer Care, Fynn Biotechnologies Ltd., Jinan, Shandong, 250000, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Min",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreas Center, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Southern Medical University, Guangzhou, Guangdong, 510000, China. Electronic address: yumin@gdph.org.cn."
+        ]
+      },
+      {
+        "full_name": "Gao, Qiang",
+        "short_name": "Gao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery and Transplantation, Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Liver Cancer Institute, Zhongshan Hospital, Fudan University, Shanghai, 200032, China. Electronic address: gaoqiang@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Du, Shisuo",
+        "short_name": "Du S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Cancer Center, Zhongshan Hospital, Fudan University, Shanghai, 200000, China. Electronic address: du.shisuo@zs-hospital.sh.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer letters"
+    ],
+    "journal_abbrev": [
+      "Cancer Lett"
+    ],
+    "pub_date": "2024 Feb 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/23 12:42",
+    "fetched_at": "2026-10-04 23:05:59"
+  },
+  "links": {
+    "cites": [
+      "42500424",
+      "42446473",
+      "42141239",
+      "42047819",
+      "41969611",
+      "41928257",
+      "41851828",
+      "41684520",
+      "41339932",
+      "41247642",
+      "41188483",
+      "41186525",
+      "41180782",
+      "41112515",
+      "41112005",
+      "41009970",
+      "40711645",
+      "40676059",
+      "40629424",
+      "40596367",
+      "40301641",
+      "40100377",
+      "39634327",
+      "39535375",
+      "39098992",
+      "38277059"
+    ],
+    "refs": [],
+    "similar": [
+      "38135208",
+      "34335575",
+      "36108528",
+      "39081317",
+      "37006257",
+      "28674001",
+      "36284275",
+      "38909498",
+      "32461345",
+      "32544882",
+      "23472066",
+      "38293784",
+      "39067872",
+      "38404591",
+      "37914817",
+      "37383234",
+      "37540264",
+      "37649103",
+      "34456923",
+      "36889359",
+      "37006285",
+      "39332093",
+      "33995362",
+      "35967384",
+      "37231509",
+      "36536232",
+      "37030269",
+      "38007237",
+      "37469973",
+      "33357445",
+      "35449866",
+      "35783358",
+      "31969776",
+      "36458010",
+      "37458958",
+      "36113894",
+      "38006433",
+      "34975338",
+      "37689322",
+      "36714595",
+      "29740200",
+      "38287713",
+      "35924241",
+      "31678303",
+      "36707911",
+      "37377962",
+      "36596711",
+      "35092558",
+      "39262476",
+      "38255993",
+      "34448895",
+      "35681134",
+      "35246476",
+      "38235128",
+      "37287981",
+      "37575252",
+      "36275676",
+      "34461607",
+      "36826593",
+      "34389000",
+      "34673334",
+      "36524206",
+      "36177006",
+      "31071366",
+      "38008394",
+      "36936948",
+      "35892599",
+      "31353124",
+      "37717019",
+      "38200408",
+      "37385725",
+      "37698679",
+      "38114725",
+      "28449718",
+      "37691948",
+      "37426674",
+      "37438675",
+      "31344396",
+      "38197309",
+      "33679751",
+      "35236966",
+      "36930502",
+      "37105392",
+      "35720326",
+      "37019619",
+      "37322434",
+      "35367533",
+      "33407546",
+      "38633247",
+      "30626493",
+      "34374301",
+      "38361757",
+      "32070428",
+      "28648905",
+      "35853969",
+      "37429231",
+      "31887370",
+      "35986302",
+      "36938729",
+      "36384423",
+      "37725855",
+      "34717566",
+      "36043445",
+      "31438961",
+      "37743471",
+      "37094826",
+      "38414015",
+      "36845133",
+      "37643716",
+      "32722054",
+      "38091986",
+      "37723590",
+      "38008179",
+      "38302034",
+      "38397869",
+      "38170006",
+      "37574160",
+      "35961697",
+      "38441331",
+      "38168935",
+      "38022619",
+      "38251896",
+      "38503825",
+      "39393439",
+      "38420802",
+      "37725755",
+      "39318093",
+      "38886186",
+      "38472339",
+      "38891936",
+      "38902716",
+      "38169837",
+      "38414027",
+      "38797016",
+      "30456308",
+      "39135526",
+      "38980715",
+      "37725716",
+      "37013458",
+      "38101410",
+      "33995488",
+      "39231877",
+      "38254989",
+      "37849429",
+      "39252823",
+      "38947379",
+      "39354613",
+      "34216724",
+      "39162005",
+      "38887516",
+      "38270111",
+      "38655783",
+      "39349007",
+      "38397459",
+      "37652015",
+      "36921674",
+      "39085744",
+      "38280378",
+      "36263133",
+      "39367397",
+      "34376827",
+      "38900411",
+      "38899748",
+      "38566984",
+      "38195165",
+      "39422063",
+      "38376513",
+      "38993839",
+      "39327501",
+      "36712976",
+      "38689749",
+      "38609353",
+      "39245753",
+      "38903113",
+      "39268081",
+      "38159716",
+      "38649887",
+      "38791916",
+      "36779841",
+      "38292233",
+      "39022385",
+      "34430923",
+      "38783893",
+      "34885119",
+      "39048401",
+      "38947395",
+      "38966543",
+      "35340894",
+      "31820393",
+      "34522690",
+      "39041033",
+      "39105196",
+      "38327521",
+      "38730626",
+      "39309694"
+    ],
+    "review": [
+      "38135208",
+      "33995362",
+      "29740200",
+      "34673334",
+      "31353124",
+      "37426674",
+      "37429231",
+      "32722054",
+      "35961697",
+      "38441331",
+      "38420802",
+      "38169837",
+      "38655783",
+      "37652015",
+      "39367397",
+      "34376827",
+      "36712976",
+      "38689749",
+      "38159716",
+      "38649887",
+      "38791916",
+      "39022385",
+      "38783893",
+      "34885119",
+      "39048401",
+      "38966543",
+      "35340894",
+      "31820393",
+      "34522690",
+      "38730626"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-3835(23)00545-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0304-3835(23)00545-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

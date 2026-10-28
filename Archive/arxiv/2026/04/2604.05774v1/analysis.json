@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2604.05774v1",
+  "title": "GenomeQA: Benchmarking General Large Language Models for Genome Sequence Understanding",
+  "authors": "Weicai Long; Yusen Hou; Junning Feng; Houcheng Su; Shuo Yang; Donglin Xie; Yanlin Zhang",
+  "journal": "",
+  "published_date": "2026-04-07",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出GenomeQA基准，评估通用大语言模型在原始基因组序列上的推断能力，涵盖转录因子结合位点预测等任务，虽非直接建模TF-DNA互作机制，但为LLM在序列级结合位点识别提供诊断性基准，方法可迁移至本课题。",
+  "abstract": "Large Language Models (LLMs) are increasingly adopted as conversational assistants in genomics, where they are mainly used to reason over biological knowledge, annotations, and analysis outputs through natural language interfaces. However, existing benchmarks either focus on specialized DNA models trained for sequence prediction or evaluate biological knowledge using text-only questions, leaving the behavior of general-purpose LLMs when directly exposed to raw genome sequences underexplored. We introduce GenomeQA, a benchmark designed to provide a controlled evaluation setting for general-purpose LLMs on sequence-based genome inference tasks. GenomeQA comprises 5,200 samples drawn from multiple biological databases, with sequence lengths ranging from 6 to 1,000 base pairs (bp), spanning six task families: Enhancer and Promoter Identification, Splice Site Identification, Taxonomic Classification, Histone Mark Prediction, Transcription Factor Binding Site Prediction, and TF Motif Prediction. Across six frontier LLMs, we find that models consistently outperform random baselines and can exploit local sequence signals such as GC content and short motifs, while performance degrades on tasks that require more indirect or multi-step inference over sequence patterns. GenomeQA establishes a diagnostic benchmark for studying and improving the use of general-purpose LLMs on raw genomic sequences.",
+  "abstract_zh": "大语言模型（LLMs）正日益被用作基因组学中的对话式助手，主要通过自然语言界面在生物学知识、注释及分析结果上进行推理。然而，现有基准要么专注于为序列预测而训练的专门DNA模型，要么仅通过纯文本问题评估生物学知识，导致通用大语言模型在直接接触原始基因组序列时的行为尚未得到充分探索。我们引入GenomeQA，这是一个基准，旨在为通用大语言模型在基于序列的基因组推断任务上提供受控评估环境。GenomeQA包含从多个生物数据库提取的5,200个样本，序列长度范围从6到1,000个碱基对（bp），涵盖六个任务家族：增强子和启动子识别、剪接位点识别、分类学分类、组蛋白标记预测、转录因子结合位点预测以及转录因子基序预测。在六个前沿大语言模型中，我们发现模型始终优于随机基线，并能利用局部序列信号如GC含量和短基序，而在需要更间接或多步推理序列模式的任务上性能下降。GenomeQA为研究和改进通用大语言模型在原始基因组序列上的应用建立了一个诊断性基准。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2604.05774v1",
+  "source_url": "https://arxiv.org/abs/2604.05774v1",
+  "paper_page_path": "papers/arxiv/2604.05774v1/index.html"
+}

@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "41516350",
+    "doi": "10.3390/ijms27010479",
+    "title": "Artificial Intelligence-Enhanced Molecular Profiling of JAK-STAT Pathway Alterations in FOLFOX-Treated Early-Onset Colorectal Cancer."
+  },
+  "content": {
+    "abstract": "Early-onset colorectal cancer (EOCRC) continues to rise, with the steepest increases observed among Hispanic/Latino (H/L) populations, underscoring the urgency of identifying ancestry- and treatment-specific biomarkers. The JAK-STAT signaling axis plays a central role in colorectal tumor biology, yet its relevance under FOLFOX-based chemotherapy in EOCRC remains poorly defined. In this study, we evaluated 2515 colorectal cancer (CRC) cases (266 H/L; 2249 non-Hispanic White [NHW]), stratifying analyses by ancestry, age of onset, and FOLFOX exposure. Statistical comparisons were performed using Fisher's exact and chi-square tests, and survival patterns were assessed via Kaplan-Meier analysis. To extend conventional analytics, we deployed AI-HOPE and AI-HOPE-JAK-STAT, conversational artificial intelligence platforms capable of harmonizing genomic, clinical, demographic, and treatment variables through natural language queries, to accelerate multi-parameter biomarker exploration. JAK-STAT pathway alterations showed marked variation by ancestry and treatment context. Among H/L EOCRC cases, alterations were significantly enriched in patients who did not receive FOLFOX compared with those who did (21.2% vs. 4.1%; p = 0.003). A similar pattern emerged in late-onset CRC (LOCRC) NHW patients, where alterations were more frequent without FOLFOX exposure (13.3% vs. 7.5%; p = 0.0002). Notably, JAK-STAT alterations were significantly more common in untreated H/L EOCRC compared with untreated NHW EOCRC (21.2% vs. 9.9%; p = 0.002). Survival analyses revealed that JAK-STAT pathway alterations conferred improved overall survival across several NHW strata, including EOCRC treated with FOLFOX (p = 0.0008), EOCRC not treated with FOLFOX (p = 0.07), and LOCRC not treated with FOLFOX (p = 0.01). These findings suggest that JAK-STAT alterations may function as ancestry- and treatment-dependent prognostic markers in EOCRC, particularly among disproportionately affected H/L patients. However, prognostic interpretation in H/L subgroups is limited by small mutation-positive sample sizes, reflecting historical underrepresentation and highlighting the need for larger ancestry-balanced studies. The integration of AI-enabled platforms streamlined analyses and reveals the potential of artificial intelligence to accelerate discovery and advance precision medicine for populations historically underrepresented in cancer genomics research.",
+    "keywords": [
+      "AI-agents",
+      "FOLFOX chemotherapy",
+      "Hispanic/Latino",
+      "JAK-STAT signaling pathway",
+      "artificial intelligence",
+      "biomarkers",
+      "colorectal cancer",
+      "early-onset colorectal cancer",
+      "health disparities",
+      "tumor suppressor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/drug therapy/genetics/metabolism",
+      "Fluorouracil/therapeutic use",
+      "*Antineoplastic Combined Chemotherapy Protocols/therapeutic use",
+      "Leucovorin/therapeutic use",
+      "*Janus Kinases/metabolism/genetics",
+      "*STAT Transcription Factors/metabolism/genetics",
+      "*Artificial Intelligence",
+      "Signal Transduction/drug effects",
+      "Female",
+      "Male",
+      "Organoplatinum Compounds/therapeutic use",
+      "Middle Aged",
+      "Biomarkers, Tumor/genetics",
+      "Age of Onset",
+      "Adult",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Diaz, Fernando C",
+        "Waldrup, Brigette",
+        "Carranza, Francisco G",
+        "Manjarrez, Sophia",
+        "Velazquez-Villarreal, Enrique"
+      ],
+      "short_names": [
+        "Diaz FC",
+        "Waldrup B",
+        "Carranza FG",
+        "Manjarrez S",
+        "Velazquez-Villarreal E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2602-1526",
+        "ORCID: 0009-0009-5991-9779",
+        "ORCID: 0000-0003-1789-4197",
+        "ORCID: 0009-0006-0607-1784",
+        "ORCID: 0000-0002-3603-6414"
+      ],
+      "affiliations": [
+        "Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, NC 27514, USA.",
+        "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope, Duarte, CA 91010, USA.",
+        "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope, Duarte, CA 91010, USA.",
+        "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope, Duarte, CA 91010, USA.",
+        "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope, Duarte, CA 91010, USA.",
+        "City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Diaz, Fernando C",
+        "short_name": "Diaz FC",
+        "identifiers": [
+          "0000-0002-2602-1526"
+        ],
+        "affiliations": [
+          "Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, NC 27514, USA."
+        ]
+      },
+      {
+        "full_name": "Waldrup, Brigette",
+        "short_name": "Waldrup B",
+        "identifiers": [
+          "0009-0009-5991-9779"
+        ],
+        "affiliations": [
+          "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope, Duarte, CA 91010, USA."
+        ]
+      },
+      {
+        "full_name": "Carranza, Francisco G",
+        "short_name": "Carranza FG",
+        "identifiers": [
+          "0000-0003-1789-4197"
+        ],
+        "affiliations": [
+          "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope, Duarte, CA 91010, USA."
+        ]
+      },
+      {
+        "full_name": "Manjarrez, Sophia",
+        "short_name": "Manjarrez S",
+        "identifiers": [
+          "0009-0006-0607-1784"
+        ],
+        "affiliations": [
+          "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope, Duarte, CA 91010, USA."
+        ]
+      },
+      {
+        "full_name": "Velazquez-Villarreal, Enrique",
+        "short_name": "Velazquez-Villarreal E",
+        "identifiers": [
+          "0000-0002-3603-6414"
+        ],
+        "affiliations": [
+          "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope, Duarte, CA 91010, USA.",
+          "City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jan 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 06:31",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [
+      "42511923",
+      "42122184",
+      "42064947",
+      "41959803"
+    ],
+    "refs": [
+      "41301724",
+      "40723258",
+      "40699838",
+      "40577785",
+      "40473767",
+      "40438851",
+      "40429281",
+      "40244518",
+      "40227607",
+      "40118773",
+      "39972942",
+      "39920741",
+      "39711954",
+      "39576674",
+      "39119869",
+      "38850363",
+      "38424636",
+      "37393364",
+      "36958855",
+      "36800999",
+      "36788743",
+      "35809090",
+      "35443109",
+      "35090605",
+      "34809691",
+      "34415330",
+      "34074491",
+      "33538338",
+      "33389864",
+      "33219329",
+      "32194671",
+      "31684144",
+      "31243121",
+      "30671672",
+      "30633978",
+      "30520562",
+      "30155605",
+      "29439310",
+      "29405201",
+      "27956718",
+      "27864324",
+      "27404452",
+      "25750173",
+      "25527793",
+      "24995503",
+      "23049789",
+      "18320073"
+    ],
+    "similar": [
+      "41516350",
+      "41009631",
+      "41301724",
+      "41684025",
+      "41595159",
+      "41030937",
+      "40227607",
+      "41595212",
+      "41030939",
+      "40282501",
+      "40940930",
+      "40723258",
+      "40868090",
+      "40860720",
+      "40940961",
+      "40650262",
+      "42326815",
+      "40617240",
+      "39761813",
+      "40165548",
+      "40922842",
+      "40282485",
+      "41030927",
+      "41075061",
+      "41580344",
+      "22968062",
+      "31684858",
+      "42349246",
+      "38742845",
+      "42278514",
+      "38691296",
+      "26722535",
+      "30898102",
+      "28781171",
+      "29211295",
+      "20972872",
+      "33465114",
+      "41030934",
+      "40227587",
+      "38778685",
+      "42287778",
+      "42475469",
+      "40301858",
+      "22121102",
+      "38701955",
+      "23015662",
+      "40956186",
+      "40034762",
+      "39586927",
+      "22965965",
+      "38619285",
+      "30262136",
+      "27955637",
+      "41257562",
+      "25201358",
+      "41595104",
+      "33028592",
+      "42168886",
+      "40869017",
+      "39288563",
+      "28983557",
+      "39875275",
+      "31893575",
+      "20033812",
+      "40118773",
+      "41285660",
+      "24460313",
+      "11218187",
+      "41820332",
+      "38929620",
+      "26859833",
+      "22617127",
+      "39887374",
+      "39682092",
+      "17009149",
+      "38917875",
+      "39521798",
+      "41959803",
+      "40561471",
+      "42105167",
+      "25083765",
+      "19672255",
+      "24556041",
+      "31060539",
+      "38484206",
+      "23034738",
+      "23082002",
+      "39844333",
+      "21474966",
+      "33258714",
+      "39570583",
+      "29299827",
+      "38728364",
+      "19949897",
+      "41037761",
+      "32958699",
+      "35346999",
+      "39516395",
+      "42241009",
+      "28455965"
+    ],
+    "review": [
+      "41516350",
+      "40956186",
+      "31893575",
+      "39682092"
+    ],
+    "pmc": [
+      "12786996"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27010479",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41516350/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

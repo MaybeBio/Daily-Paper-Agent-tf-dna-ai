@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "42573439",
+    "doi": "10.1002/cns.71080",
+    "title": "Vorinostat Mitigates Early Brain Injury Following Subarachnoid Hemorrhage Through Modulation of the C3aR1/TGF-beta/Smad Pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Excessive microglial activation after subarachnoid hemorrhage (SAH) contributes to early brain injury (EBI) and poor clinical outcomes. This study explores the role of complement C3a receptor 1 (C3aR1) in microglial activation after SAH and evaluates Vorinostat as a potential therapeutic agent. METHODS: Differentially expressed genes were identified from GEO datasets (GSE36791, GSE73378), followed by WGCNA and machine learning to pinpoint key SAH-related genes. Molecular docking and molecular dynamics simulation identified Vorinostat as a potential C3aR1-targeting compound. Functional studies were conducted using C3aR1 knockout mice and BV2 microglial cells. Neurological outcomes were assessed through Garcia score, rotarod, and pole tests. Histological staining and immunofluorescence evaluated neuronal injury and microglial activation. ELISA was used to measure plasma C3aR1 and inflammatory markers in SAH patients and correlate them with 6-month modified Rankin Scale (mRS) scores. RESULTS: C3aR1 was identified as a key SAH-related gene and was significantly upregulated after SAH. C3aR1 deficiency alleviated brain edema, neuronal apoptosis, neuroinflammation, and neurological dysfunction in SAH mice. Transcriptomic and functional analyses demonstrated that these protective effects were mediated, at least in part, through activation of the TGF-beta/Smad signaling pathway. In vitro, C3aR1 knockdown suppressed microglial proliferation, migration, phagocytosis, and inflammatory responses, while reducing oxidative stress in co-cultured neurons; opposite effects were observed following C3aR1 overexpression. Vorinostat exhibited strong binding affinity to C3aR1, reduced C3aR1 protein expression, activated TGF-beta/Smad signaling, and attenuated EBI after SAH. Clinically, plasma C3aR1 levels were significantly elevated in SAH patients, correlated with inflammatory cytokines and 6-month modified Rankin Scale scores, and independently predicted poor functional outcomes. CONCLUSION: C3aR1 promotes microglial overactivation and neuronal injury after SAH, partly via suppression of TGF-beta signaling. Vorinostat attenuates EBI and is associated with reduced C3aR1 expression. Plasma C3aR1 may serve as a prognostic biomarker in SAH.",
+    "keywords": [
+      "C3aR1",
+      "TGF-beta signaling",
+      "Vorinostat",
+      "microglia",
+      "subarachnoid hemorrhage"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Subarachnoid Hemorrhage/metabolism/complications/drug therapy",
+      "Mice",
+      "Signal Transduction/drug effects",
+      "*Transforming Growth Factor beta/metabolism",
+      "*Brain Injuries/metabolism/drug therapy/etiology",
+      "Male",
+      "*Vorinostat/pharmacology/therapeutic use",
+      "*Receptors, Complement/metabolism/genetics",
+      "*Smad Proteins/metabolism",
+      "Microglia/metabolism/drug effects",
+      "Mice, Knockout",
+      "Humans",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Chonghui",
+        "Xu, Yifan",
+        "Wan, Junshan",
+        "Wu, Jinpeng",
+        "Wang, Chao",
+        "Feng, Yugong"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Xu Y",
+        "Wan J",
+        "Wu J",
+        "Wang C",
+        "Feng Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-4750-966X",
+        "ORCID: 0000-0001-6366-9172",
+        "ORCID: 0000-0002-2707-1752"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+        "Medical College, Qingdao University, Qingdao, People's Republic of China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+        "Medical College, Qingdao University, Qingdao, People's Republic of China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+        "Medical College, Qingdao University, Qingdao, People's Republic of China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+        "Medical College, Qingdao University, Qingdao, People's Republic of China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+        "Medical College, Qingdao University, Qingdao, People's Republic of China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Chonghui",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+          "Medical College, Qingdao University, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yifan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+          "Medical College, Qingdao University, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wan, Junshan",
+        "short_name": "Wan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+          "Medical College, Qingdao University, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jinpeng",
+        "short_name": "Wu J",
+        "identifiers": [
+          "0009-0001-4750-966X"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+          "Medical College, Qingdao University, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chao",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0001-6366-9172"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China.",
+          "Medical College, Qingdao University, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Feng, Yugong",
+        "short_name": "Feng Y",
+        "identifiers": [
+          "0000-0002-2707-1752"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Qingdao University, Qingdao, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "CNS neuroscience & therapeutics"
+    ],
+    "journal_abbrev": [
+      "CNS Neurosci Ther"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/10 12:36",
+    "fetched_at": "2026-10-02 03:35:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40425792",
+      "39722093",
+      "38652401",
+      "38415607",
+      "38382328",
+      "37978532",
+      "37759701",
+      "37317973",
+      "37266433",
+      "36561497",
+      "36324028",
+      "36322370",
+      "35778649",
+      "35501375",
+      "34791268",
+      "34720082",
+      "34557778",
+      "34461942",
+      "34354664",
+      "34325514",
+      "33992453",
+      "33078345",
+      "32990682",
+      "31924226",
+      "31903107",
+      "29989020",
+      "26758846",
+      "26619985",
+      "26439625",
+      "25605792",
+      "25516281",
+      "23512133",
+      "22455463",
+      "19114008",
+      "17762737",
+      "17322921",
+      "17069513",
+      "17058068"
+    ],
+    "similar": [
+      "42573439",
+      "39528767",
+      "41949581",
+      "31949876",
+      "40263235",
+      "30646897",
+      "37770901",
+      "39986195",
+      "29102603",
+      "41524992",
+      "41285187",
+      "30117729",
+      "41650890",
+      "33245889",
+      "30225551",
+      "42107476",
+      "37863400",
+      "32664984",
+      "41989498",
+      "42047211",
+      "41807810",
+      "30126439",
+      "41299803",
+      "35641805",
+      "38636772",
+      "42243462",
+      "27000704",
+      "32450897",
+      "40200750",
+      "39304001",
+      "31486022",
+      "37884185",
+      "26091790",
+      "34899720",
+      "35778649",
+      "36633130",
+      "31778579",
+      "31791369",
+      "31493504",
+      "38866102",
+      "29729651",
+      "38095841",
+      "34461942",
+      "36481985",
+      "41342722",
+      "30098550",
+      "30572907",
+      "39207623",
+      "39743001",
+      "38285214",
+      "31779639",
+      "41612866",
+      "37949309",
+      "32951103",
+      "41085724",
+      "33829412",
+      "41335045",
+      "39287134",
+      "41671619",
+      "41076547",
+      "30067508",
+      "42049118",
+      "40339910",
+      "38720657",
+      "33792028",
+      "28236213",
+      "38122912",
+      "27665283",
+      "26867656",
+      "41277193",
+      "42580479",
+      "42144484",
+      "40740133",
+      "42159851",
+      "39270995",
+      "38428144",
+      "27529233",
+      "30018671",
+      "32961266",
+      "42559269",
+      "30084007",
+      "36566220",
+      "32098619",
+      "35957622",
+      "40432444",
+      "35383529",
+      "27845194",
+      "41408892",
+      "31924226",
+      "34511434",
+      "38035075",
+      "29842860",
+      "38720350",
+      "30296700",
+      "29397536",
+      "34645687",
+      "27241720",
+      "40935310",
+      "42262450",
+      "33989759"
+    ],
+    "review": [
+      "42573439"
+    ],
+    "pmc": [
+      "13455684"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42573439/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cns.71080",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

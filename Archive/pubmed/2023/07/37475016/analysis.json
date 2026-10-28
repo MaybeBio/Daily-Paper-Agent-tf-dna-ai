@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37475016",
+  "title": "Ensemble learning model for identifying the hallmark genes of NFkappaB/TNF signaling pathway in cancers.",
+  "authors": "Su, Yin-Yuan; Liu, Yu-Ling; Huang, Hsuan-Cheng; Lin, Chen-Ching",
+  "journal": "Journal of translational medicine",
+  "published_date": "2023-07-21",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用集成学习基于转录组数据识别癌症中NFkappaB/TNF通路标志基因，属纯表达统计与通路分析，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题关联极弱。",
+  "abstract": "BACKGROUND: The nuclear factor kappa B (NFkappaB) regulatory pathways downstream of tumor necrosis factor (TNF) play a critical role in carcinogenesis. However, the widespread influence of NFkappaB in cells can result in off-target effects, making it a challenging therapeutic target. Ensemble learning is a machine learning technique where multiple models are combined to improve the performance and robustness of the prediction. Accordingly, an ensemble learning model could uncover more precise targets within the NFkappaB/TNF signaling pathway for cancer therapy. METHODS: In this study, we trained an ensemble learning model on the transcriptome profiles from 16 cancer types in the TCGA database to identify a robust set of genes that are consistently associated with the NFkappaB/TNF pathway in cancer. Our model uses cancer patients as features to predict the genes involved in the NFkappaB/TNF signaling pathway and can be adapted to predict the genes for different cancer types by switching the cancer type of patients. We also performed functional analysis, survival analysis, and a case study of triple-negative breast cancer to demonstrate our model's potential in translational cancer medicine. RESULTS: Our model accurately identified genes regulated by NFkappaB in response to TNF in cancer patients. The downstream analysis showed that the identified genes are typically involved in the canonical NFkappaB-regulated pathways, particularly in adaptive immunity, anti-apoptosis, and cellular response to cytokine stimuli. These genes were found to have oncogenic properties and detrimental effects on patient survival. Our model also could distinguish patients with a specific cancer subtype, triple-negative breast cancer (TNBC), which is known to be influenced by NFkappaB-regulated pathways downstream of TNF. Furthermore, a functional module known as mononuclear cell differentiation was identified that accurately predicts TNBC patients and poor short-term survival in non-TNBC patients, providing a potential avenue for developing precision medicine for cancer subtypes. CONCLUSIONS: In conclusion, our approach enables the discovery of genes in NFkappaB-regulated pathways in response to TNF and their relevance to carcinogenesis. We successfully categorized these genes into functional groups, providing valuable insights for discovering more precise and targeted cancer therapeutics.",
+  "abstract_zh": "背景：肿瘤坏死因子（TNF）下游的核因子kappa B（NFkappaB）调控通路在致癌过程中发挥关键作用。然而，NFkappaB在细胞中的广泛影响可能导致脱靶效应，使其成为具有挑战性的治疗靶点。集成学习是一种机器学习技术，通过组合多个模型来提高预测的性能和鲁棒性。因此，集成学习模型可能在NFkappaB/TNF信号通路中发现更精确的癌症治疗靶点。方法：在本研究中，我们基于TCGA数据库中16种癌症类型的转录组谱训练了一个集成学习模型，以识别一组与癌症中NFkappaB/TNF通路稳定相关的基因。我们的模型使用癌症患者作为特征来预测参与NFkappaB/TNF信号通路的基因，并可通过切换患者的癌症类型来适应不同癌症类型的基因预测。我们还进行了功能分析、生存分析以及三阴性乳腺癌的案例研究，以展示我们的模型在转化癌症医学中的潜力。结果：我们的模型准确识别了癌症患者中响应TNF的NFkappaB调控基因。下游分析显示，这些识别出的基因通常参与经典的NFkappaB调控通路，特别是在适应性免疫、抗凋亡和细胞对细胞因子刺激的响应中。这些基因被发现具有致癌特性，并对患者生存产生不利影响。我们的模型还能区分具有特定癌症亚型的患者，即三阴性乳腺癌（TNBC），该亚型已知受TNF下游NFkappaB调控通路的影响。此外，我们识别出一个称为单核细胞分化的功能模块，该模块能准确预测TNBC患者和非TNBC患者的不良短期生存，为癌症亚型的精准医学开发提供了潜在途径。结论：总之，我们的方法能够发现响应TNF的NFkappaB调控通路中的基因及其与致癌的相关性。我们成功地将这些基因分类为功能组，为发现更精确和靶向的癌症治疗方法提供了宝贵见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37475016/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37475016/",
+  "paper_page_path": "papers/pubmed/37475016/index.html"
+}

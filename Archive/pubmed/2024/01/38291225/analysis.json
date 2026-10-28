@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38291225",
+  "title": "GMean-a semi-supervised GRU and K-mean model for predicting the TF binding site.",
+  "authors": "Chuah, Chai Wen; He, Wanxian; Huang, De-Shuang",
+  "journal": "Scientific reports",
+  "published_date": "2024-01-31",
+  "window": {
+    "start": "2024-01-29",
+    "end": "2024-02-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出结合GRU与K-means的半监督GMean模型预测TF结合位点，核心聚焦TF-DNA互作序列预测，方法为AI深度学习，高度匹配课题。",
+  "abstract": "The transcription factor binding site is a deoxyribonucleic acid sequence that binds to transcription factors. Transcription factors are proteins that regulate the transcription gene. Abnormal turnover of transcription factors can lead to uncontrolled cell growth. Therefore, discovering the relationships between transcription factors and deoxyribonucleic acid sequences is an important component of bioinformatics research. Numerous deep learning and machine learning language models have been developed to accomplish these tasks. Our goal in this work is to propose a GMean model for predicting unlabelled deoxyribonucleic acid sequences. The GMean model is a hybrid model with a combination of gated recurrent unit and K-mean clustering. The GMean model is developed in three phases. The labelled and unlabelled data are processed based on k-mers and tokenization. The labelled data is used for training. The unlabelled data are used for testing and prediction. The experimental data consists of deoxyribonucleic acid experimental of GM12878, K562 and HepG2. The experimental results show that GMean is feasible and effective in predicting deoxyribonucleic acid sequences, as the highest accuracy is 91.85% in predicting K562 and HepG2. This is followed by the prediction of the sequence between GM12878 and K562 with an accuracy of 89.13%. The lowest accuracy is the prediction of the sequence between HepG2 and GM12828, which is 88.80%.",
+  "abstract_zh": "转录因子结合位点是一种与转录因子结合的脱氧核糖核酸序列。转录因子是调控转录基因的蛋白质。转录因子的异常周转可能导致细胞生长失控。因此，发现转录因子与脱氧核糖核酸序列之间的关系是生物信息学研究的重要组成部分。许多深度学习和机器学习语言模型已被开发用于完成这些任务。我们在这项工作中的目标是提出一个GMean模型，用于预测未标记的脱氧核糖核酸序列。GMean模型是一个结合了门控循环单元和K均值聚类的混合模型。GMean模型的开发分为三个阶段。标记和未标记的数据基于k-mers和分词处理。标记数据用于训练。未标记数据用于测试和预测。实验数据包括GM12878、K562和HepG2的脱氧核糖核酸实验。实验结果表明，GMean在预测脱氧核糖核酸序列方面是可行且有效的，因为在预测K562和HepG2时最高准确率为91.85%。其次是预测GM12878和K562之间的序列，准确率为89.13%。最低准确率是预测HepG2和GM12828之间的序列，为88.80%。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38291225/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38291225/",
+  "paper_page_path": "papers/pubmed/38291225/index.html"
+}

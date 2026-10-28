@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "42244857",
+    "doi": "10.1093/nargab/lqag050",
+    "title": "TSProm: deep learning framework to predict tissue-specific regulatory logic."
+  },
+  "content": {
+    "abstract": "Characterizing tissue-specific (TSp) gene expression is crucial for understanding development and disease; however, traditional expression-based methods often overlook the latent \"regulatory grammar\" embedded in non-coding DNA, particularly across distal promoter regions. Here, we introduce TSProm, a framework that adapts a DNA foundation model (DNABERT2) to decode the regulatory logic of TSp promoters at the isoform level. Our contributions are two-fold: (i) a comparative design that trains two specialized models: Model A for general promoter biology and Model B for tissue-specific regulation enabling precise isolation of sequence motifs surrounding the transcription start site that uniquely define tissue identity; (ii) we develop an explainable AI module that integrates attention-based motif discovery with model-agnostic SHAP analysis to yield cross-validated interpretations of learned features. Applying TSProm to human brain, liver, and testis promoters, we identified clinically relevant transcription factors (TFs) in the brain, including SP1, MYC, and HES6, whose associations with gliomas and neuroblastomas highlight clinical relevance. Moreover, our results highlight C2H2 zinc finger proteins as a dominant family shaping the global landscape of TSp gene regulation. TSProm provides an interpretable and generalizable framework for identifying tissue-specific regulatory elements, offering powerful computational tools to investigate gene regulation in both normal and disease contexts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Promoter Regions, Genetic",
+      "Organ Specificity/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "Brain/metabolism",
+      "*Gene Expression Regulation",
+      "Liver/metabolism",
+      "Testis/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Surana, Pallavi",
+        "Dutta, Pratik",
+        "Papineni, Nimisha",
+        "Sathian, Rekha",
+        "Zhou, Zhihan",
+        "Liu, Han",
+        "Davuluri, Ramana V"
+      ],
+      "short_names": [
+        "Surana P",
+        "Dutta P",
+        "Papineni N",
+        "Sathian R",
+        "Zhou Z",
+        "Liu H",
+        "Davuluri RV"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4241-9181",
+        "ORCID: 0000-0002-7053-1064"
+      ],
+      "affiliations": [
+        "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States.",
+        "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States.",
+        "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States.",
+        "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States.",
+        "Department of Computer Science, Northwestern University, IL 60208, United States.",
+        "Department of Computer Science, Northwestern University, IL 60208, United States.",
+        "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Surana, Pallavi",
+        "short_name": "Surana P",
+        "identifiers": [
+          "0009-0004-4241-9181"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States."
+        ]
+      },
+      {
+        "full_name": "Dutta, Pratik",
+        "short_name": "Dutta P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States."
+        ]
+      },
+      {
+        "full_name": "Papineni, Nimisha",
+        "short_name": "Papineni N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States."
+        ]
+      },
+      {
+        "full_name": "Sathian, Rekha",
+        "short_name": "Sathian R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhihan",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University, IL 60208, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Han",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University, IL 60208, United States."
+        ]
+      },
+      {
+        "full_name": "Davuluri, Ramana V",
+        "short_name": "Davuluri RV",
+        "identifiers": [
+          "0000-0002-7053-1064"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, NY 11794, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/05 06:35",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40804431",
+      "40536817",
+      "40208082",
+      "40078374",
+      "39817513",
+      "39609566",
+      "39120880",
+      "38485768",
+      "38397241",
+      "37962376",
+      "37956336",
+      "37884865",
+      "37402191",
+      "37174714",
+      "36430421",
+      "36161334",
+      "35863177",
+      "35778451",
+      "34986601",
+      "34143767",
+      "33538820",
+      "33259518",
+      "32482868",
+      "32117005",
+      "32092639",
+      "31341302",
+      "30872507",
+      "29510665",
+      "29425488",
+      "29069589",
+      "29044119",
+      "29035372",
+      "28740726",
+      "28646208",
+      "27411336",
+      "26162102",
+      "22955991",
+      "22955616",
+      "19458158",
+      "18974185",
+      "18329129",
+      "17224917",
+      "16645617",
+      "16380080",
+      "15256515",
+      "15186484"
+    ],
+    "similar": [
+      "42244857",
+      "41279024",
+      "42475469",
+      "41801512",
+      "41639451",
+      "18078513",
+      "31514204",
+      "41283681",
+      "41768065",
+      "14623514",
+      "41951735",
+      "41303598",
+      "41898404",
+      "31053165",
+      "37889080",
+      "14680477",
+      "16966320",
+      "25905672",
+      "9757029",
+      "8369280",
+      "23148487",
+      "7579328",
+      "17224917",
+      "8321243",
+      "41595447",
+      "40360798",
+      "20501695",
+      "15833120",
+      "22369687",
+      "17174484",
+      "40983924",
+      "42140663",
+      "10982849",
+      "31372637",
+      "11491305",
+      "41303635",
+      "22456606",
+      "15723697",
+      "1719378",
+      "27146629",
+      "24291025",
+      "39578697",
+      "29378629",
+      "7615825",
+      "9162060",
+      "12409289",
+      "30709337",
+      "31792407",
+      "34161320",
+      "37582793",
+      "29120694",
+      "15590647",
+      "8355712",
+      "40994322",
+      "16643658",
+      "40914877",
+      "38653489",
+      "15496828",
+      "39779852",
+      "41839849",
+      "41285795",
+      "15214842",
+      "8816507",
+      "24156763",
+      "11078737",
+      "19426448",
+      "8584025",
+      "32028828",
+      "11000266",
+      "38485768",
+      "20085649",
+      "40902506",
+      "21569359",
+      "40869356",
+      "29254942",
+      "25428367",
+      "41288963",
+      "8618898",
+      "17953763",
+      "41437153",
+      "15656994",
+      "19425158",
+      "33602314",
+      "7776980",
+      "41782896",
+      "41554183",
+      "12684688",
+      "10452946",
+      "8774732",
+      "9015757",
+      "40603503",
+      "33036380",
+      "15716059",
+      "15879122",
+      "14670973",
+      "8617743",
+      "32770026",
+      "8045940",
+      "41129591",
+      "22926843"
+    ],
+    "review": [
+      "42244857",
+      "41768065",
+      "14623514",
+      "40360798",
+      "40994322",
+      "16643658",
+      "41554183"
+    ],
+    "pmc": [
+      "13233143"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42244857/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1162",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqag050",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

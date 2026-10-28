@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "38616975",
+    "doi": "10.1016/j.synbio.2024.04.001",
+    "title": "Dynamics design of a non-natural transcription factor responding to androst-4-ene-3,17-dione."
+  },
+  "content": {
+    "abstract": "The production of androst-4-ene-3,17-dione (AD) by the steroidal microbial cell factory requires transcription factors (TFs) to participate in metabolic regulation. However, microbial cell factory lacks effective TFs that can respond to AD in its metabolic pathway. Additionally, finding and obtaining natural TFs that specifically respond to AD is a complex and onerous task. In this study, we devised an artificial TF that responds to AD, termed AdT, based on structure-guided molecular dynamics (MD) simulation. According to MD analysis of the conformational changes of AdT after binding to AD, an LBD in which the N- and C-termini exhibited convergence tendencies was used as a microswitch to guide the assembly of a DNA-binding domain lexA, a linker (GGGGS)(2), and a transcription activation domain B42 into an artificial TF. As a proof of design, a AD biosensor was designed and constructed in yeast on the basis of the ligand-binding domain (LBD) of hormone receptor. In addition, the transcription factor activity of AdT was increased by 1.44-fold for its variant F320Y. Overall, we created non-natural TF elements for AD microbial cell factory, and expected that the design TF strategy will be applied to running in parallel to the signaling machinery of the host cell.",
+    "keywords": [
+      "Artificial transcription factor",
+      "Molecular dynamics",
+      "Protein design",
+      "Site-mutations",
+      "Steriods"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Ming",
+        "Hu, Mengkai",
+        "Han, Rumeng",
+        "Ye, Chao",
+        "Li, Xiangfei",
+        "Wang, Tianwen",
+        "Liu, Yan",
+        "Xue, Zhenglian",
+        "Liu, Kun"
+      ],
+      "short_names": [
+        "Zhao M",
+        "Hu M",
+        "Han R",
+        "Ye C",
+        "Li X",
+        "Wang T",
+        "Liu Y",
+        "Xue Z",
+        "Liu K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China.",
+        "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Ming",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Mengkai",
+        "short_name": "Hu M",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Han, Rumeng",
+        "short_name": "Han R",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Chao",
+        "short_name": "Ye C",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangfei",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tianwen",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Zhenglian",
+        "short_name": "Xue Z",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kun",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Engineering Laboratory for Industrial Microbiology Molecular Breeding, College of Biology and Food Engineering, Anhui Polytechnic University, Wuhu 241000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Synthetic and systems biotechnology"
+    ],
+    "journal_abbrev": [
+      "Synth Syst Biotechnol"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/15 06:42",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "41829116",
+      "39108279"
+    ],
+    "refs": [
+      "38647746",
+      "37691767",
+      "36502964",
+      "36017332",
+      "35332283",
+      "35134684",
+      "33503651",
+      "33199913",
+      "32978386",
+      "32775708",
+      "32315913",
+      "32152281",
+      "32029621",
+      "32004463",
+      "31439819",
+      "31133663",
+      "30765569",
+      "30675620",
+      "30154163",
+      "26898409",
+      "26843427",
+      "26721385",
+      "26689263",
+      "25549265",
+      "24831710",
+      "24005320",
+      "23164577",
+      "20360767",
+      "19582228",
+      "18355019",
+      "15660998",
+      "9620806",
+      "9600906",
+      "9202384",
+      "7027256",
+      "3115591",
+      "2005981"
+    ],
+    "similar": [
+      "38616975",
+      "35134684",
+      "31429310",
+      "8628257",
+      "29728384",
+      "18082864",
+      "37805453",
+      "28391482",
+      "26886757",
+      "32358727",
+      "22350385",
+      "23474435",
+      "28710634",
+      "3543647",
+      "10082539",
+      "16349252",
+      "32414803",
+      "23337090",
+      "36043696",
+      "36943132",
+      "8603050",
+      "27797429",
+      "22044637",
+      "22218861",
+      "28531348",
+      "38817964",
+      "35537448",
+      "16973198",
+      "31689103",
+      "31742324",
+      "26678747",
+      "30598100",
+      "38300290",
+      "9033395",
+      "17136536",
+      "27377798",
+      "34056016",
+      "35397581",
+      "31557516",
+      "2304374",
+      "16213800",
+      "36001066",
+      "22189060",
+      "10549872",
+      "7623841",
+      "15828056",
+      "21774747",
+      "21172055",
+      "28750606",
+      "31093693",
+      "35757392",
+      "7838157",
+      "24086308",
+      "25133310",
+      "23859952",
+      "31881824",
+      "31481462",
+      "2085891",
+      "27706217",
+      "2004038",
+      "4146836",
+      "30790119",
+      "16267080",
+      "35089653",
+      "28634712",
+      "37546716",
+      "27010673",
+      "6090577",
+      "26291518",
+      "23737157",
+      "35978548",
+      "25037164",
+      "1324415",
+      "36322688",
+      "36114445",
+      "30582418",
+      "23733188",
+      "32858223",
+      "18221524",
+      "29393635",
+      "25559499",
+      "32817380",
+      "15466214",
+      "17123559",
+      "36710325",
+      "16645042",
+      "37087734",
+      "34544361",
+      "24239507",
+      "18220337",
+      "27557669",
+      "34742399",
+      "18586698",
+      "19772633",
+      "23847101"
+    ],
+    "review": [
+      "38616975",
+      "8603050",
+      "31742324",
+      "31093693",
+      "23859952",
+      "35089653"
+    ],
+    "pmc": [
+      "11015099"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-805X(24)00052-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38616975/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38616975",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

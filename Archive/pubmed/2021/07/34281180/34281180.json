@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "34281180",
+    "doi": "10.3390/ijms22137129",
+    "title": "Comparative Transcriptome Analysis Reveals Genetic Mechanisms of Sugarcane Aphid Resistance in Grain Sorghum."
+  },
+  "content": {
+    "abstract": "The sugarcane aphid, Melanaphis sacchari (Zehntner) (Hemiptera: Aphididae) (SCA), has become a major pest of grain sorghum since its appearance in the USA. Several grain sorghum parental lines are moderately resistant to the SCA. However, the molecular and genetic mechanisms underlying this resistance are poorly understood, which has constrained breeding for improved resistance. RNA-Seq was used to conduct transcriptomics analysis on a moderately resistant genotype (TAM428) and a susceptible genotype (Tx2737) to elucidate the molecular mechanisms underlying resistance. Differential expression analysis revealed differences in transcriptomic profile between the two genotypes at multiple time points after infestation by SCA. Six gene clusters had differential expression during SCA infestation. Gene ontology enrichment and cluster analysis of genes differentially expressed after SCA infestation revealed consistent upregulation of genes controlling protein and lipid binding, cellular catabolic processes, transcription initiation, and autophagy in the resistant genotype. Genes regulating responses to external stimuli and stress, cell communication, and transferase activities, were all upregulated in later stages of infestation. On the other hand, expression of genes controlling cell cycle and nuclear division were reduced after SCA infestation in the resistant genotype. These results indicate that different classes of genes, including stress response genes and transcription factors, are responsible for countering the physiological effects of SCA infestation in resistant sorghum plants.",
+    "keywords": [
+      "RNA-seq",
+      "gene expression",
+      "sorghum",
+      "sugarcane aphid",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Aphids/*physiology",
+      "Disease Susceptibility",
+      "Edible Grain/genetics",
+      "Gene Expression",
+      "Gene Expression Profiling/methods",
+      "Gene Ontology",
+      "Genotype",
+      "Pest Control, Biological/methods",
+      "Plant Breeding/methods",
+      "Plant Defense Against Herbivory/*genetics",
+      "Sorghum/*genetics/parasitology",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Serba, Desalegn D",
+        "Meng, Xiaoxi",
+        "Schnable, James",
+        "Bashir, Elfadil",
+        "Michaud, J P",
+        "Vara Prasad, P V",
+        "Perumal, Ramasamy"
+      ],
+      "short_names": [
+        "Serba DD",
+        "Meng X",
+        "Schnable J",
+        "Bashir E",
+        "Michaud JP",
+        "Vara Prasad PV",
+        "Perumal R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7217-2037",
+        "ORCID: 0000-0001-6632-3361"
+      ],
+      "affiliations": [
+        "United States Department of Agriculture-Agricultural Research Service, U.S. Arid Land Agricultural Research Center, Maricopa, AZ 85138, USA.",
+        "Department of Agronomy and Horticulture, University of Nebraska, Lincoln, NE 68588, USA.",
+        "Department of Agronomy and Horticulture, University of Nebraska, Lincoln, NE 68588, USA.",
+        "Department of Agronomy, Kansas State University, Manhattan, KS 66506, USA.",
+        "Department of Entomology, Kansas State University, Hays, KS 67601, USA.",
+        "Agricultural Research Center, Hays, KS 67601, USA.",
+        "Department of Agronomy, Kansas State University, Manhattan, KS 66506, USA.",
+        "Department of Agronomy, Kansas State University, Manhattan, KS 66506, USA.",
+        "Agricultural Research Center, Hays, KS 67601, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Serba, Desalegn D",
+        "short_name": "Serba DD",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture-Agricultural Research Service, U.S. Arid Land Agricultural Research Center, Maricopa, AZ 85138, USA."
+        ]
+      },
+      {
+        "full_name": "Meng, Xiaoxi",
+        "short_name": "Meng X",
+        "identifiers": [
+          "0000-0001-7217-2037"
+        ],
+        "affiliations": [
+          "Department of Agronomy and Horticulture, University of Nebraska, Lincoln, NE 68588, USA."
+        ]
+      },
+      {
+        "full_name": "Schnable, James",
+        "short_name": "Schnable J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agronomy and Horticulture, University of Nebraska, Lincoln, NE 68588, USA."
+        ]
+      },
+      {
+        "full_name": "Bashir, Elfadil",
+        "short_name": "Bashir E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agronomy, Kansas State University, Manhattan, KS 66506, USA."
+        ]
+      },
+      {
+        "full_name": "Michaud, J P",
+        "short_name": "Michaud JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Entomology, Kansas State University, Hays, KS 67601, USA.",
+          "Agricultural Research Center, Hays, KS 67601, USA."
+        ]
+      },
+      {
+        "full_name": "Vara Prasad, P V",
+        "short_name": "Vara Prasad PV",
+        "identifiers": [
+          "0000-0001-6632-3361"
+        ],
+        "affiliations": [
+          "Department of Agronomy, Kansas State University, Manhattan, KS 66506, USA."
+        ]
+      },
+      {
+        "full_name": "Perumal, Ramasamy",
+        "short_name": "Perumal R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agronomy, Kansas State University, Manhattan, KS 66506, USA.",
+          "Agricultural Research Center, Hays, KS 67601, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Jul 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/21 06:00",
+    "fetched_at": "2026-09-27 20:56:33"
+  },
+  "links": {
+    "cites": [
+      "42678666",
+      "42151766",
+      "41286629",
+      "40880367",
+      "40530263",
+      "40299207",
+      "39001705",
+      "38903420",
+      "38862926",
+      "38438880",
+      "37543569",
+      "36631779",
+      "35163807",
+      "34886808"
+    ],
+    "refs": [
+      "33763093",
+      "33488643",
+      "33407137",
+      "33239664",
+      "33037196",
+      "33033836",
+      "32539886",
+      "32213912",
+      "32201218",
+      "31420517",
+      "31354752",
+      "31133004",
+      "30911880",
+      "30853964",
+      "30367619",
+      "30212454",
+      "30022098",
+      "29161754",
+      "28472432",
+      "28446991",
+      "28011682",
+      "27008021",
+      "26579152",
+      "26470381",
+      "26470168",
+      "26378101",
+      "26357844",
+      "26338952",
+      "25516281",
+      "25260700",
+      "24753304",
+      "24695404",
+      "24431500",
+      "24221166",
+      "23887885",
+      "23847627",
+      "22895106",
+      "20436464",
+      "19505943",
+      "19189423",
+      "18579086",
+      "18483564",
+      "17725549",
+      "17059405",
+      "16776299",
+      "15708343",
+      "8217775"
+    ],
+    "similar": [
+      "34281180",
+      "37543569",
+      "30367619",
+      "35643611",
+      "35020066",
+      "32621008",
+      "36430259",
+      "38862926",
+      "28011682",
+      "33547788",
+      "33063221",
+      "30853964",
+      "34260707",
+      "36806611",
+      "33270502",
+      "26357844",
+      "26470168",
+      "31504628",
+      "28073905",
+      "39233513",
+      "26470276",
+      "35048112",
+      "29694435",
+      "36581623",
+      "36321896",
+      "31504648",
+      "33888060",
+      "33595638",
+      "37655065",
+      "31751451",
+      "30972411",
+      "35394339",
+      "33236087",
+      "29955822",
+      "35031833",
+      "31168438",
+      "28962004",
+      "28446991",
+      "35349677",
+      "37389680",
+      "36538118",
+      "30376107",
+      "38903420",
+      "30486776",
+      "23865216",
+      "39001705",
+      "35716823",
+      "33438726",
+      "33764987",
+      "38890375",
+      "32707968",
+      "38658156",
+      "30816948",
+      "38614292",
+      "33387173",
+      "29982680",
+      "32280982",
+      "31175363",
+      "28645245",
+      "35217668",
+      "32303956",
+      "36186020",
+      "32333015",
+      "38654377",
+      "32442185",
+      "32601289",
+      "26645959",
+      "30674945",
+      "36350938",
+      "33120946",
+      "26350764",
+      "26309289",
+      "26600253",
+      "38270755",
+      "32515791",
+      "33558907",
+      "35216389",
+      "37328502",
+      "32445112",
+      "34553239",
+      "35020893",
+      "33143636",
+      "22992001",
+      "32142559",
+      "26797431",
+      "35639524",
+      "38438880",
+      "15765684",
+      "39290157",
+      "36507434",
+      "34193042",
+      "31991584",
+      "22104744",
+      "27838454",
+      "29590108",
+      "11761613",
+      "16292568",
+      "37138226",
+      "31858036",
+      "20857758",
+      "35710084",
+      "33856488",
+      "30911880",
+      "30133510",
+      "28697783",
+      "16523667",
+      "30915439",
+      "31653200",
+      "22375710",
+      "31823722",
+      "33726668",
+      "32034919",
+      "31296169",
+      "20345634",
+      "36012130",
+      "34287698",
+      "32005168",
+      "37019182",
+      "33335168",
+      "20469648",
+      "32539886",
+      "33049995",
+      "32629952",
+      "38254972",
+      "28357620",
+      "36863218",
+      "36354863",
+      "35621752",
+      "32918207",
+      "37260405",
+      "37468707",
+      "21740560",
+      "37207754",
+      "24456189",
+      "37378835",
+      "36441009",
+      "36661939",
+      "35886782",
+      "37372395",
+      "38321382",
+      "35628281",
+      "35774818",
+      "35778525",
+      "35806202",
+      "37715988",
+      "34895143",
+      "36076172",
+      "24817586",
+      "35138897",
+      "35018449",
+      "24104862",
+      "38602082",
+      "35024864",
+      "38348538",
+      "35393498",
+      "34228194",
+      "31013987",
+      "34394141",
+      "33278640",
+      "38072547",
+      "37591898",
+      "37999061",
+      "35684263",
+      "35956614",
+      "35217660",
+      "32075100",
+      "35301161",
+      "28374049",
+      "37887819",
+      "38786568",
+      "34456979",
+      "29876066",
+      "35481153",
+      "36998682",
+      "35234909",
+      "35262803",
+      "35674674",
+      "37626411",
+      "34303486"
+    ],
+    "review": [
+      "34281180",
+      "39001705",
+      "31013987",
+      "33278640"
+    ],
+    "pmc": [
+      "8268927"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22137129",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34281180/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34281180",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

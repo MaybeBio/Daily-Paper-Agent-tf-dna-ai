@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "41781900",
+    "doi": "10.1186/s12888-026-07918-0",
+    "title": "Identification of metabolism and inflammation-related biomarkers and potential drugs for schizophrenia based on comprehensive bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Schizophrenia (SCZ) is a significant and widespread mental illness, where metabolism and inflammation-related genes (MIRGs) are crucial to understanding its underlying biology. This study aimed to identify peripheral biomarkers linked to metabolism and inflammation, validate these through the creation of a diagnostic model, investigate their connections with miRNA and transcription factors (TFs), and find potential drugs for targeting. METHODS: The datasets GES38484 and GSE54913 were obtained from the Gene Expression Omnibus (GEO) database, while the MIRGs were sourced from both the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways and GeneCards. Key signature genes were identified using differential expression analysis, alongside techniques such as least absolute shrinkage and selection operator (LASSO) regression, support vector machine (SVM), Random Forest (RF), and extreme gradient boosting (XGBoost) methodologies. A logistic regression model was constructed for diagnostics, and its performance was assessed using a separate testing database. Furthermore, the signature genes were verified through RT-qPCR, and levels of immune infiltration were assessed using single-sample Gene Set Enrichment Analysis (ssGSEA). Finally, regulatory networks involving gene-miRNA and gene-TF interactions were created utilizing Cytoscape, while candidate drugs were identified through the Drug-Gene Interaction database. RESULTS: Six hub MIRGs were identified (HDC, NCKAP1L, FUCA1, CD40LG, CX3CR1, and SNAP25), leading to the development of a diagnostic signature based on these genes which served as potential biomarkers for SCZ (AUC = 0.884), further confirmed in the validation cohort (AUC = 0.933). The diagnostic model illustrated distinctions between low- and high-risk groups, highlighting differences in immune cell infiltration patterns. In-depth examination of these six genes indicated connections to 47 targeted miRNAs, 11 TFs within regulatory networks, and 40 potential therapeutic agents. CONCLUSION: Findings from this research offer significant understanding regarding the function of MIRGs in SCZ, which could aid in the creation of viable candidate biomarkers and possible therapies that modify the disease for SCZ. CLINICAL TRIAL NUMBER: Not applicable.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarker",
+      "Metabolism and inflammation-related genes",
+      "Schizophrenia"
+    ],
+    "mesh_terms": [
+      "*Schizophrenia/genetics/metabolism/drug therapy",
+      "Humans",
+      "Biomarkers/metabolism",
+      "Computational Biology",
+      "MicroRNAs/genetics/metabolism",
+      "*Inflammation/genetics/metabolism",
+      "*Machine Learning",
+      "Gene Regulatory Networks",
+      "Transcription Factors/genetics",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Antipsychotic Agents/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yanfang",
+        "Zhang, Min",
+        "Qiao, Ling",
+        "Lu, Feng",
+        "Ji, Shaoping"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Zhang M",
+        "Qiao L",
+        "Lu F",
+        "Ji S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for molecular medicine, Zhengzhou Health College, Zhengzhou, Henan Province, 450064, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Henan University, Kaifeng, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Henan University, Kaifeng, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Henan University, Kaifeng, China. Lufeng@henu.edu.cn.",
+        "Center for molecular medicine, Zhengzhou Health College, Zhengzhou, Henan Province, 450064, China. shaopingji@henu.edu.cn.",
+        "Department of Gastroenterology, Huaihe Hospital, Henan University, Kaifeng, Henan Province, 475004, China. shaopingji@henu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yanfang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for molecular medicine, Zhengzhou Health College, Zhengzhou, Henan Province, 450064, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Min",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Henan University, Kaifeng, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Ling",
+        "short_name": "Qiao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Henan University, Kaifeng, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Feng",
+        "short_name": "Lu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Henan University, Kaifeng, China. Lufeng@henu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ji, Shaoping",
+        "short_name": "Ji S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for molecular medicine, Zhengzhou Health College, Zhengzhou, Henan Province, 450064, China. shaopingji@henu.edu.cn.",
+          "Department of Gastroenterology, Huaihe Hospital, Henan University, Kaifeng, Henan Province, 475004, China. shaopingji@henu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC psychiatry"
+    ],
+    "journal_abbrev": [
+      "BMC Psychiatry"
+    ],
+    "pub_date": "2026 Mar 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/05 00:39",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41007867",
+      "40767005",
+      "40693926",
+      "40442662",
+      "40250540",
+      "40170009",
+      "40078640",
+      "39972407",
+      "38522596",
+      "38189472",
+      "37955633",
+      "37841288",
+      "37437837",
+      "36993785",
+      "36913932",
+      "36313022",
+      "36239635",
+      "35741729",
+      "35660966",
+      "35605971",
+      "35524619",
+      "35114079",
+      "34975338",
+      "34808064",
+      "34206976",
+      "33600594",
+      "32766723",
+      "32646852",
+      "32339094",
+      "32303029",
+      "31664453",
+      "31569988",
+      "31568986",
+      "31487867",
+      "30873175",
+      "30579835",
+      "30453885",
+      "29689222",
+      "29156001",
+      "28857378",
+      "28742081",
+      "28097367",
+      "27301672",
+      "26874244",
+      "26777917",
+      "26612861",
+      "26539073",
+      "26476454",
+      "26359903",
+      "26011091",
+      "25662103",
+      "25485531",
+      "25433960",
+      "24975926",
+      "24704219",
+      "24286760",
+      "24072812",
+      "23953755",
+      "23193258",
+      "23123365",
+      "23118852",
+      "22778420",
+      "22547898",
+      "22472311",
+      "22460002",
+      "22257669",
+      "22207632",
+      "22193673",
+      "22007635",
+      "21641581",
+      "21170045",
+      "21057585",
+      "20864679",
+      "20425584",
+      "20087360",
+      "19944883",
+      "19426221",
+      "18480098",
+      "16732273",
+      "16725119",
+      "16421460",
+      "16338246",
+      "15208191",
+      "15056598",
+      "12755662",
+      "12562574",
+      "11526812",
+      "11478947",
+      "10592173",
+      "10094192",
+      "9724801",
+      "9468137",
+      "9410920",
+      "9044528",
+      "7869041",
+      "7537298",
+      "1642752"
+    ],
+    "similar": [
+      "41781900",
+      "39142001",
+      "41146237",
+      "41432483",
+      "41006883",
+      "39341981",
+      "38863714",
+      "40374840",
+      "40093012",
+      "39556279",
+      "40613560",
+      "40374866",
+      "40500570",
+      "40360670",
+      "39650552",
+      "41044520",
+      "41316541",
+      "42164373",
+      "39507054",
+      "40313967",
+      "42431430",
+      "39670237",
+      "41291978",
+      "42109727",
+      "40830558",
+      "42123756",
+      "40312440",
+      "40980038",
+      "40997906",
+      "40129981",
+      "41013556",
+      "42397093",
+      "42510870",
+      "40738705",
+      "40313958",
+      "42243611",
+      "35757392",
+      "42313235",
+      "39697326",
+      "40918403",
+      "38755717",
+      "42292668",
+      "39512836",
+      "40245021",
+      "38690269",
+      "39586719",
+      "39972407",
+      "39953122",
+      "40441253",
+      "41351083",
+      "36704339",
+      "42327749",
+      "40596265",
+      "39396400",
+      "41479901",
+      "42123445",
+      "41291841",
+      "42274933",
+      "38711508",
+      "39139563",
+      "40901831",
+      "39375405",
+      "41102315",
+      "36532015",
+      "41563994",
+      "42015036",
+      "39509434",
+      "38291374",
+      "38650649",
+      "36313022",
+      "40836320",
+      "40165133",
+      "41265166",
+      "40692778",
+      "41388523",
+      "38499050",
+      "38062833",
+      "40242178",
+      "42024670",
+      "40884580",
+      "40967560",
+      "40406620",
+      "38951833",
+      "38650009",
+      "40108736",
+      "42302029",
+      "40196107",
+      "39609718",
+      "41703488",
+      "42509823",
+      "41013727",
+      "39855613",
+      "41052072",
+      "41200172",
+      "39819531",
+      "40216809",
+      "42099899",
+      "40233527",
+      "39789578",
+      "40754871"
+    ],
+    "review": [
+      "41781900"
+    ],
+    "pmc": [
+      "13023209"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-026-07918-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/schizophrenia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Schizophrenia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41781900/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

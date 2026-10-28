@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.15.562421",
+  "title": "ChEC-seq2: an improved Chromatin Endogenous Cleavage sequencing method and bioinformatic analysis pipeline for mapping <i>in vivo</i> protein-DNA interactions",
+  "authors": "Jake VanBelzen; Chengzhe Duan; Donna Garvey Brickner; Jason H. Brickner",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-18",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文改进ChEC-seq2实验与生信流程以绘制体内蛋白-DNA互作图谱，虽聚焦TF-DNA结合位点，但以湿实验和常规生信为主，缺乏AI或物理模拟方法，深度不足。",
+  "abstract": "Defining the in vivo DNA binding specificity of transcription factors (TFs) has relied nearly exclusively on chromatin immunoprecipitation (ChIP). While ChIP reveals TF binding patterns, its resolution is low. Higher resolution methods employing nucleases such as ChIP-exo, chromatin endogenous cleavage (ChEC-seq) and CUT&RUN resolve both TF occupancy and binding site protection. ChEC-seq, in which an endogenous TF is fused to micrococcal nuclease, requires neither fixation nor antibodies. However, the specificity of DNA cleavage during ChEC has been suggested to be lower than the specificity of the peaks identified by ChIP or ChIP-exo, perhaps reflecting non-specific binding of transcription factors to DNA. We have simplified the ChEC-seq protocol to minimize nuclease digestion while increasing the yield of cleaved DNA. ChEC-seq2 cleavage patterns were highly reproducible between replicates and with published ChEC-seq data. Combined with DoubleChEC, a new bioinformatic pipeline that removes non-specific cleavage sites, ChEC-seq2 identified high-confidence cleavage sites for three different yeast TFs that are strongly enriched for their known binding sites and adjacent to known target genes.",
+  "abstract_zh": "体内转录因子（TFs）的DNA结合特异性的定义几乎完全依赖于染色质免疫沉淀（ChIP）。尽管ChIP揭示了TF的结合模式，但其分辨率较低。采用核酸酶的高分辨率方法，如ChIP-exo、染色质内源切割（ChEC-seq）和CUT&RUN，能够解析TF的占据情况和结合位点的保护。ChEC-seq中，内源TF与微球菌核酸酶融合，既不需要固定也不需要抗体。然而，ChEC过程中DNA切割的特异性被认为低于ChIP或ChIP-exo所识别峰的特异性，这可能反映了转录因子与DNA的非特异性结合。我们简化了ChEC-seq方案，以最小化核酸酶消化，同时提高切割DNA的产量。ChEC-seq2的切割模式在重复实验之间以及已发表的ChEC-seq数据中高度可重复。结合DoubleChEC（一种新的生物信息学流程，用于去除非特异性切割位点），ChEC-seq2为三种不同的酵母TF识别出高置信度的切割位点，这些位点显著富集于其已知结合位点，并邻近已知靶基因。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.15.562421",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.15.562421",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.15.562421/index.html"
+}

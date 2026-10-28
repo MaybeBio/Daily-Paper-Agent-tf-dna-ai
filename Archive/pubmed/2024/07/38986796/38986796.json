@@ -1,0 +1,217 @@
+{
+  "identity": {
+    "pmid": "38986796",
+    "doi": "10.1016/j.ab.2024.115603",
+    "title": "PreDBP-PLMs: Prediction of DNA-binding proteins based on pre-trained protein language models and convolutional neural networks."
+  },
+  "content": {
+    "abstract": "The recognition of DNA-binding proteins (DBPs) is the crucial step to understanding their roles in various biological processes such as genetic regulation, gene expression, cell cycle control, DNA repair, and replication within cells. However, conventional experimental methods for identifying DBPs are usually time-consuming and expensive. Therefore, there is an urgent need to develop rapid and efficient computational methods for the prediction of DBPs. In this study, we proposed a novel predictor named PreDBP-PLMs to further improve the identification accuracy of DBPs by fusing the pre-trained protein language model (PLM) ProtT5 embedding with evolutionary features as input to the classic convolutional neural network (CNN) model. Firstly, the ProtT5 embedding was combined with different evolutionary features derived from the position-specific scoring matrix (PSSM) to represent protein sequences. Then, the optimal feature combination was selected and input to the CNN classifier for the prediction of DBPs. Finally, the 5-fold cross-validation (CV), the leave-one-out CV (LOOCV), and the independent set test were adopted to examine the performance of PreDBP-PLMs on the benchmark datasets. Compared to the existing state-of-the-art predictors, PreDBP-PLMs exhibits an accuracy improvement of 0.5 % and 5.2 % on the PDB186 and PDB2272 datasets, respectively. It demonstrated that the proposed method could serve as a useful tool for the recognition of DBPs.",
+    "keywords": [
+      "Convolutional neural network",
+      "DNA-binding proteins",
+      "Position-specific scoring matrix",
+      "Protein language model"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "Computational Biology/methods",
+      "Databases, Protein",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qi, Dawei",
+        "Song, Chen",
+        "Liu, Taigang"
+      ],
+      "short_names": [
+        "Qi D",
+        "Song C",
+        "Liu T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Information Technology, Shanghai Ocean University, Shanghai, 201306, China.",
+        "College of Information Technology, Shanghai Ocean University, Shanghai, 201306, China.",
+        "College of Information Technology, Shanghai Ocean University, Shanghai, 201306, China. Electronic address: tgliu@shou.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qi, Dawei",
+        "short_name": "Qi D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Technology, Shanghai Ocean University, Shanghai, 201306, China."
+        ]
+      },
+      {
+        "full_name": "Song, Chen",
+        "short_name": "Song C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Technology, Shanghai Ocean University, Shanghai, 201306, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Taigang",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Technology, Shanghai Ocean University, Shanghai, 201306, China. Electronic address: tgliu@shou.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical biochemistry"
+    ],
+    "journal_abbrev": [
+      "Anal Biochem"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/11 00:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "40601248",
+      "40439671",
+      "40333592",
+      "39657630"
+    ],
+    "refs": [],
+    "similar": [
+      "38986796",
+      "35378437",
+      "35447463",
+      "39164870",
+      "31123959",
+      "40439671",
+      "32920048",
+      "38303473",
+      "41257586",
+      "39481588",
+      "41232885",
+      "38316843",
+      "39426757",
+      "41172803",
+      "40628826",
+      "37651627",
+      "38975896",
+      "32352006",
+      "40441416",
+      "33780341",
+      "30866736",
+      "38486135",
+      "38856168",
+      "33238837",
+      "39464790",
+      "34291709",
+      "41566703",
+      "39457474",
+      "41192641",
+      "39270885",
+      "31228283",
+      "39357703",
+      "23282098",
+      "33410688",
+      "41865419",
+      "40333592",
+      "28841194",
+      "31722485",
+      "39900285",
+      "38064959",
+      "36503892",
+      "40601256",
+      "38679191",
+      "30321541",
+      "25708928",
+      "19091029",
+      "24475169",
+      "37864911",
+      "31285519",
+      "39316498",
+      "27565741",
+      "41875143",
+      "36416116",
+      "40675306",
+      "39214282",
+      "30668479",
+      "37437362",
+      "29753757",
+      "35937990",
+      "36403092",
+      "39858443",
+      "29097781",
+      "36166351",
+      "30296240",
+      "40859107",
+      "41168713",
+      "34714748",
+      "38662579",
+      "35633468",
+      "40121399",
+      "40705403",
+      "31693872",
+      "36719781",
+      "35799660",
+      "40359455",
+      "39576667",
+      "36211019",
+      "41507462",
+      "40919912",
+      "32300371",
+      "29297322",
+      "39806147",
+      "31881828",
+      "30032213",
+      "41290782",
+      "38248912",
+      "34073774",
+      "28423569",
+      "39516218",
+      "38871095",
+      "38555810",
+      "38747369",
+      "33476047",
+      "29404850",
+      "39067723",
+      "39714563",
+      "36653898",
+      "41130478",
+      "39447059",
+      "31027046"
+    ],
+    "review": [
+      "38986796"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0003-2697(24)00147-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

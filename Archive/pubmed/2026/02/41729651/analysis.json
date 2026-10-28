@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41729651",
+  "title": "A Spectral Clustering-Based Approach for Balancing Data in TF-Target Gene Interaction Prediction Using Heterogeneous Network Embedding.",
+  "authors": "Dang, Quoc Huy; Le, Thanh Tuoi; Vu, Thi Thu Hien; Le, Thi Tu Kien; Dang, Xuan Tho",
+  "journal": "IEEE transactions on computational biology and bioinformatics",
+  "published_date": "2026-02-23",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用谱聚类平衡数据并基于异质网络嵌入预测TF-靶基因互作，属TF-DNA相关但仅网络级预测，无三维结构或结合机制建模，方法可迁移但深度有限。",
+  "abstract": "Identifying transcription factors (TFs) interacting with target genes plays a crucial role in regulating gene expression, providing deep insights into the molecular mechanisms involved in biological processes and diseases, while also opening new opportunities for research and treatment, particularly in precision medicine. However, challenges arise from the high cost of experiments and biological complexity. Recent machine learning models show promise for predicting TF-target gene interactions but struggle with data imbalance, as the number of known interactions is much smaller than unknown ones, reducing prediction performance. To address this challenge, we propose an approach that integrates sample selection from potential unknown interactions with spectral clustering to balance the dataset. We construct an adjacency matrix from known interactions, apply spectral clustering to partition the data, and select unknown interactions farthest from the cluster center for diversity. A deep learning method combining random walk sampling and skip-gram embeddings is used to learn representations of biological networks. Experimental results, evaluated via five-fold cross-validation, show an average AUC of 0.9575 +/- 0.0044, outperforming existing methods. These findings validate our approach's efficacy in improving prediction accuracy and resolving data imbalance, offering a robust framework for discovering novel TF-target gene interactions in molecular biology and biomedical research.",
+  "abstract_zh": "识别与靶基因相互作用的转录因子（TFs）在调控基因表达中起着关键作用，为理解生物过程和疾病中的分子机制提供了深入见解，同时也为研究和治疗开辟了新机遇，尤其是在精准医学领域。然而，实验成本高昂和生物复杂性带来了挑战。最近的机器学习模型在预测转录因子-靶基因相互作用方面显示出潜力，但面临数据不平衡问题，因为已知相互作用的数量远少于未知的，这降低了预测性能。为解决这一挑战，我们提出了一种方法，将潜在未知相互作用中的样本选择与谱聚类相结合，以平衡数据集。我们从已知相互作用构建邻接矩阵，应用谱聚类对数据进行划分，并选择距离聚类中心最远的未知相互作用以确保多样性。采用结合随机游走采样和skip-gram嵌入的深度学习方法学习生物网络的表示。通过五折交叉验证评估的实验结果显示，平均AUC为0.9575 ± 0.0044，优于现有方法。这些发现验证了我们的方法在提高预测准确性和解决数据不平衡方面的有效性，为分子生物学和生物医学研究中发现新型转录因子-靶基因相互作用提供了稳健框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41729651/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41729651/",
+  "paper_page_path": "papers/pubmed/41729651/index.html"
+}

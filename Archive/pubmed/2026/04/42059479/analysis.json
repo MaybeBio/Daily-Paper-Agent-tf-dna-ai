@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42059479",
+  "title": "CaHoT-GRN: context-aware high-order topology learning for robust single-cell gene regulatory network inference.",
+  "authors": "Yao, Dengju; Zhang, BinBin; Zhan, Xiaojuan; Wang, Wentao; Liang, Ning",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-04-30",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出CaHoT-GRN框架，利用预训练大语言模型提取TF与基因序列语义嵌入以推断TF-靶标结合亲和力，并结合蛋白互作构建异质网络建模高阶调控，属于AI方法用于TF-DNA结合预测的GRN推断，虽非直接三维互作建模，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "Cells regulate their functions through gene expression, driven by a complex interplay of transcription factors (TFs) and other regulatory mechanisms that together can be modeled as gene regulatory networks (GRNs). While the advent of single-cell sequencing has revolutionized our understanding of these networks, current GRNs inference methods rely predominantly on expression data alone, overlooking the sequence semantic context of target genes, and the intrinsic physicochemical properties of TFs. Consequently, the reconstructed networks are often riddled with false-positive connections, significantly compromising their reliability. To address these challenges, we propose CaHoT-GRN, a context-aware high-order topology learning framework for robust single-cell GRNs inference. First, we leverage pretrained biological large language models to extract deep semantic embeddings from gene and protein sequences. This allows the model to explore the potential TF-target binding affinity within a latent semantic space. Second, to model cooperative regulatory mechanisms and capture high-order gene interactions, we construct a heterogeneous information network (HIN) via meta-path generation constrained by protein-protein interactions. Furthermore, we propose a similarity co-attention module to model the topological consistency between the prior GRNs and the HIN, thereby capturing long-range associations among genes. On single-cell transcriptomic datasets across four types of networks, CaHoT-GRN yielded an average AUC of 0.846 and an AUPR of 0.420, matching or outperforming existing methods. Moreover, downstream case studies, pathway analyses, and motif matching confirmed its high biological relevance. CaHoT-GRN is publicly available at https://github.com/ydkvictory/CaHoT-GRN.",
+  "abstract_zh": "细胞通过基因表达调控其功能，这一过程由转录因子（TFs）及其他调控机制的复杂相互作用驱动，可共同建模为基因调控网络（GRNs）。尽管单细胞测序的出现彻底改变了我们对这些网络的理解，但现有的GRNs推断方法主要依赖表达数据，忽视了靶基因的序列语义上下文以及TFs的内在物理化学性质。因此，重建的网络常充满假阳性连接，显著损害其可靠性。为应对这些挑战，我们提出CaHoT-GRN，一种上下文感知的高阶拓扑学习框架，用于稳健的单细胞GRNs推断。首先，我们利用预训练的生物大语言模型从基因和蛋白质序列中提取深层语义嵌入，使模型能够在潜在语义空间中探索TF-靶标结合亲和力。其次，为建模协同调控机制并捕捉高阶基因相互作用，我们通过受蛋白质-蛋白质相互作用约束的元路径生成构建异质信息网络（HIN）。此外，我们提出一个相似性共注意力模块，以建模先验GRNs与HIN之间的拓扑一致性，从而捕捉基因间的长程关联。在四种网络类型的单细胞转录组数据集上，CaHoT-GRN实现了平均AUC为0.846和AUPR为0.420，匹配或优于现有方法。此外，下游案例研究、通路分析和基序匹配确认了其高生物学相关性。CaHoT-GRN公开可用，网址为https://github.com/ydkvictory/CaHoT-GRN。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42059479/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42059479/",
+  "paper_page_path": "papers/pubmed/42059479/index.html"
+}

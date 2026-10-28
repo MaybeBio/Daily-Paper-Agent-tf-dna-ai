@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "41873809",
+    "doi": "10.1021/acs.jmedchem.5c02991",
+    "title": "Discovery of a Selective DNMT1 Degrader with a Unique Molecular Glue Mechanism as a Potential Therapeutic Agent for Acute Myeloid Leukemia."
+  },
+  "content": {
+    "abstract": "Previous research indicated that DNA methyltransferase 1 (DNMT1) inhibitors can induce UHRF1-mediated degradation of the DNMT1 protein. However, the underlying degradation mechanism remains poorly understood. During our investigation of a series of quinazoline-based DNMT1 inhibitors, we serendipitously discovered a highly potent and selective DNMT1 degrader 6k. Employing techniques such as surface plasmon resonance (SPR) and molecular dynamics (MD) simulations, we have for the first time clearly demonstrated that 6k can promote a significant direct interaction between DNMT1 and UHRF1 proteins via a molecular glue mechanism under cell-free conditions. Further biological evaluations indicated that this DNMT1 degrader exhibits potent inhibitory effects on AML cells both in vitro and in vivo. The results show that compound 6k effectively suppresses the proliferation of primary AML cells and significantly extends the survival of experimental animals in the patient-derived xenograft (PDX) model. More importantly, 6k demonstrates favorable bioavailability and safety profiles, suggesting its promising potential for further development.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Leukemia, Myeloid, Acute/drug therapy/pathology/metabolism",
+      "Animals",
+      "*Antineoplastic Agents/pharmacology/therapeutic use/chemistry/chemical synthesis",
+      "*DNA (Cytosine-5-)-Methyltransferase 1/metabolism/antagonists & inhibitors",
+      "Mice",
+      "*Quinazolines/pharmacology/therapeutic use/chemistry",
+      "Structure-Activity Relationship",
+      "Cell Proliferation/drug effects",
+      "Molecular Dynamics Simulation",
+      "Drug Discovery",
+      "Cell Line, Tumor",
+      "Xenograft Model Antitumor Assays",
+      "CCAAT-Enhancer-Binding Proteins/metabolism",
+      "Proteolysis/drug effects",
+      "Ubiquitin-Protein Ligases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Lan",
+        "Zhang, Kun",
+        "Wang, Yubo",
+        "Zheng, Nan",
+        "Gu, Xiaoting",
+        "Li, Chao",
+        "Li, Weiya",
+        "Li, Ning",
+        "Liu, Yulin",
+        "Lu, Zhongao",
+        "Lin, Jianping",
+        "Wang, Xin",
+        "Xu, Jing",
+        "Huang, Ziqi",
+        "Zhao, Xingli",
+        "Li, Dongmei",
+        "Liu, Shuangwei",
+        "Yang, Guang"
+      ],
+      "short_names": [
+        "Ma L",
+        "Zhang K",
+        "Wang Y",
+        "Zheng N",
+        "Gu X",
+        "Li C",
+        "Li W",
+        "Li N",
+        "Liu Y",
+        "Lu Z",
+        "Lin J",
+        "Wang X",
+        "Xu J",
+        "Huang Z",
+        "Zhao X",
+        "Li D",
+        "Liu S",
+        "Yang G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6974-0072",
+        "ORCID: 0000-0001-6641-3041",
+        "ORCID: 0000-0002-1773-9392"
+      ],
+      "affiliations": [
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "Institute of Chemistry, Henan Academy of Sciences, Zhengzhou 450002, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "Guangdong Institute for Drug Control, Guangzhou 510700, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "Department of Hematology, Department of Pharmacy, Oncology Center, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin 300071, P. R. China.",
+        "Department of Hematology, Department of Pharmacy, Oncology Center, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "Biodesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "Department of Hematology, Department of Pharmacy, Oncology Center, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "Department of Hematology, Department of Pharmacy, Oncology Center, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+        "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Lan",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kun",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+          "Institute of Chemistry, Henan Academy of Sciences, Zhengzhou 450002, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yubo",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Nan",
+        "short_name": "Zheng N",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+          "Guangdong Institute for Drug Control, Guangzhou 510700, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Gu, Xiaoting",
+        "short_name": "Gu X",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Chao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Department of Pharmacy, Oncology Center, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Weiya",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Department of Pharmacy, Oncology Center, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Ning",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yulin",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhongao",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jianping",
+        "short_name": "Lin J",
+        "identifiers": [
+          "0000-0001-6974-0072"
+        ],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China.",
+          "Biodesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin 300308, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xin",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0001-6641-3041"
+        ],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jing",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Department of Pharmacy, Oncology Center, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ziqi",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xingli",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Department of Pharmacy, Oncology Center, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongmei",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shuangwei",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guang",
+        "short_name": "Yang G",
+        "identifiers": [
+          "0000-0002-1773-9392"
+        ],
+        "affiliations": [
+          "The State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin 300071, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2026 Apr 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/24 12:36",
+    "fetched_at": "2026-10-01 17:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41873809",
+      "39302251",
+      "39854008",
+      "39905966",
+      "39810240",
+      "30014490",
+      "33222246",
+      "28415607",
+      "41380451",
+      "42204795",
+      "41955111",
+      "38829718",
+      "40960568",
+      "41740583",
+      "38820938",
+      "39267107",
+      "38655686",
+      "30672294",
+      "42025203",
+      "40440957",
+      "33664520",
+      "31747516",
+      "41411691",
+      "40518729",
+      "38577724",
+      "41747324",
+      "40112662",
+      "40578254",
+      "28582695",
+      "23457487",
+      "37573395",
+      "40453212",
+      "39230932",
+      "39965406",
+      "31708096",
+      "40022722",
+      "33591756",
+      "30925338",
+      "40068407",
+      "38823264",
+      "38649304",
+      "40010131",
+      "41056821",
+      "31077779",
+      "40764262",
+      "29357910",
+      "40925146",
+      "41885367",
+      "40124558",
+      "38687638",
+      "39983554",
+      "38955003",
+      "38637479",
+      "28100769",
+      "39754404",
+      "41147365",
+      "38905635",
+      "27421653",
+      "42223949",
+      "40509639",
+      "31400111",
+      "38913763",
+      "31103903",
+      "30696879",
+      "41633119",
+      "40252382",
+      "38471647",
+      "39264152",
+      "28993705",
+      "40991730",
+      "39028938",
+      "41147004",
+      "40186895",
+      "34080968",
+      "33170271",
+      "40619015",
+      "40366532",
+      "37658623",
+      "41786054",
+      "40460439",
+      "39198401",
+      "38798252",
+      "31127149",
+      "30557609",
+      "39530508",
+      "39630953",
+      "39804067",
+      "39705732",
+      "22064703",
+      "32272419",
+      "39721086",
+      "30190513",
+      "42247371",
+      "39288597",
+      "39708768",
+      "34550682",
+      "38285887",
+      "41165741",
+      "39121336",
+      "41329866"
+    ],
+    "review": [
+      "41873809",
+      "40960568"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.5c02991",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

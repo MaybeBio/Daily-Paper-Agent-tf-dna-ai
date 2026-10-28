@@ -1,0 +1,615 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.07.642067",
+  "title": "Improved Prediction of Bacterial Type VI Secretion Effector Proteins Using an Integrated Convolutional Neural Network Model Combining N-terminal Signal Sequences, Evolutionary Information and Pre-Trained Protein Language Features",
+  "doi": "10.1101/2025.03.07.642067",
+  "abstract": "Type VI secretion system effectors (T6SEs) are crucial for bacterial pathogenicity, making their accurate identification essential for understanding bacterial virulence mechanisms. This study analyzed the differences in amino acid composition of N-terminal signal sequences between T6SEs and non-T6SEs, uncovering distinct positional amino acid preferences in T6SEs. Using a combination of unsupervised and supervised analysis, we evaluated feature encoding methods and developed T6CNN, an ensemble model that integrates N-terminal signal sequences, evolutionary information, and pre-trained protein language features for T6SE prediction. T6CNN demonstrated outstanding performance in independent testing, outperforming existing tools with a 7.9% accuracy increase (to 0.953), a 13.2% sensitivity improvement (to 0.964), and a 6.6% specificity enhancement (to 0.951). The T6CNN model offers a reliable and accurate solution for T6SE prediction, with significant potential to advance research on bacterial pathogenicity. Importance This study introduces T6CNN, a new computational model for identifying Type VI secretion system effectors used by harmful bacteria. By analyzing early protein sequences, T6CNN uncovers unique features that reliably distinguish effector proteins. Integrating evolutionary data and pre-trained protein language features, the model outperforms existing methods in accuracy, sensitivity, and specificity. This enhanced prediction tool deepens our understanding of bacterial infection mechanisms and offers researchers a valuable resource for pinpointing key virulence factors. Ultimately, T6CNN may help drive the development of more targeted antibacterial treatments and strategies to combat bacterial diseases.",
+  "authors": [
+    "Yueming Hu",
+    "Minqing Yan",
+    "Yanyan Zhu",
+    "Haoyu Chao",
+    "Sida Li",
+    "Qinyang Ni",
+    "Yanshi Hu",
+    "Enyan Liu",
+    "Liya Liu",
+    "Yifan Chen",
+    "Zeya Zhou",
+    "Yuhao Chen",
+    "Shilong Zhang",
+    "Yejun Wang",
+    "Cong Feng",
+    "Ming Chen"
+  ],
+  "published_date": "2025-03-12",
+  "updated_date": "2025-03-13T06:45:23Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.642067",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.642067.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T02:09:27Z",
+        "timestamp": 1790647767859,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 33,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2025-03-12T00:00:00Z",
+            "timestamp": 1741737600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Type VI secretion system effectors (T6SEs) are crucial for bacterial pathogenicity, making their accurate identification essential for understanding bacterial virulence mechanisms. This study analyzed the differences in amino acid composition of N-terminal signal sequences between T6SEs and non-T6SEs, uncovering distinct positional amino acid preferences in T6SEs. Using a combination of unsupervised and supervised analysis, we evaluated feature encoding methods and developed T6CNN, an ensemble model that integrates N-terminal signal sequences, evolutionary information, and pre-trained protein language features for T6SE prediction. T6CNN demonstrated outstanding performance in independent testing, outperforming existing tools with a 7.9% accuracy increase (to 0.953), a 13.2% sensitivity improvement (to 0.964), and a 6.6% specificity enhancement (to 0.951). The T6CNN model offers a reliable and accurate solution for T6SE prediction, with significant potential to advance research on bacterial pathogenicity.</jats:p>\n                <jats:sec>\n                  <jats:title>Importance</jats:title>\n                  <jats:p>This study introduces T6CNN, a new computational model for identifying Type VI secretion system effectors used by harmful bacteria. By analyzing early protein sequences, T6CNN uncovers unique features that reliably distinguish effector proteins. Integrating evolutionary data and pre-trained protein language features, the model outperforms existing methods in accuracy, sensitivity, and specificity. This enhanced prediction tool deepens our understanding of bacterial infection mechanisms and offers researchers a valuable resource for pinpointing key virulence factors. Ultimately, T6CNN may help drive the development of more targeted antibacterial treatments and strategies to combat bacterial diseases.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.03.07.642067",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            13
+          ]
+        ],
+        "date-time": "2025-03-13T06:45:23Z",
+        "timestamp": 1741848323000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Improved Prediction of Bacterial Type VI Secretion Effector Proteins Using an Integrated Convolutional Neural Network Model Combining N-terminal Signal Sequences, Evolutionary Information and Pre-Trained Protein Language Features"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2174-5987",
+          "authenticated-orcid": false,
+          "given": "Yueming",
+          "family": "Hu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China"
+            },
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Minqing",
+          "family": "Yan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Public Health, Zhejiang University School of Medicine, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yanyan",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haoyu",
+          "family": "Chao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sida",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qinyang",
+          "family": "Ni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yanshi",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Enyan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liya",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yifan",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zeya",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Science and Technology, Wenzhou-Kean University School of Medicine, Wenzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuhao",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shilong",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4030-0027",
+          "authenticated-orcid": false,
+          "given": "Yejun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Youth Innovation Team of Medical Bioinformatics, Shenzhen University Medical School, Shenzhen, China"
+            },
+            {
+              "name": "Department of Cell Biology and Genetics, College of Basic Medicine, Shenzhen University Medical School, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cong",
+          "family": "Feng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China"
+            },
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ming",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China"
+            },
+            {
+              "name": "Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2021.03.019"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0510322103"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chom.2009.12.007"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1012931107"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fcimb.2017.00254"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tim.2023.05.011"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/cmi.13241"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1505317112"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2019.01218"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.12571"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.13292"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1406110111"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-11546-6"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro3185"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty155"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa899"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbw100"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bby009"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0219720019500197"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2024.01.015"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbz120"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep41031"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11427-022-2172-x"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-15-50"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hui X , Chen Z , Lin M , Zhang J , Hu Y , Zeng Y , Cheng X , Ou-Yang L , Sun MA , White AP , Wang Y . 2020. T3SEpp: an Integrated Prediction Pipeline for Bacterial Type III Secreted Effectors. mSystems 5.",
+          "DOI": "10.1128/mSystems.00288-20"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0036-z"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty140"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx302"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chom.2009.02.005"
+        },
+        {
+          "key": "2026041100130620000_2025.03.07.642067v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chom.2013.11.008"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.07.642067",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T07:13:16Z",
+        "timestamp": 1775891596000
+      },
+      "score": 55.776638,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.07.642067"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "references-count": 33,
+      "URL": "https://doi.org/10.1101/2025.03.07.642067",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38229116",
+  "title": "Epigenetic characterization of sarcopenia-associated genes based on machine learning and network screening.",
+  "authors": "Chen, Yong; Zhang, Zhenyu; Hu, Xiaolan; Zhang, Yang",
+  "journal": "European journal of medical research",
+  "published_date": "2024-01-17",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过机器学习筛选肌少症相关特征基因，仅涉及基因表达与诊断，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "To screen characteristic genes related to sarcopenia by bioinformatics and machine learning, and to verify the accuracy of characteristic genes in the diagnosis of sarcopenia. Download myopia-related data sets from geo public database, find the differential genes through R language limma package after merging, STRING database to build protein interaction network, and do Go analysis and GSEA analysis to understand the functions and molecular signal pathways that may be affected by the differential genes. Further screen the characteristic genes through LASSO and SVM-RFE machine algorithms, make the ROC curve of the characteristic genes, and obtain the AUC value. 10 differential genes were obtained from the data set, including 7 upregulated genes and 3 downregulated genes. Eight characteristic genes were screened by a machine learning algorithm, and the AUC value of characteristic genes exceeded 0.7. In patients with sarcopenia, the expression of TPPP3, C1QA, LGR5, MYH8, and CDKN1A genes are upregulated, and the expression of SLC38A1, SERPINA5, and HOXB2 genes are downregulated. The above genes have high accuracy in the diagnosis of sarcopenia. The research results provide new ideas for the diagnosis and mechanism research of sarcopenia.",
+  "abstract_zh": "通过生物信息学和机器学习筛选与肌少症相关的特征基因，并验证特征基因在肌少症诊断中的准确性。从GEO公共数据库下载近视相关数据集，合并后通过R语言limma包寻找差异基因，利用STRING数据库构建蛋白质相互作用网络，并进行GO分析和GSEA分析，以了解差异基因可能影响的功能和分子信号通路。进一步通过LASSO和SVM-RFE机器学习算法筛选特征基因，绘制特征基因的ROC曲线，并获取AUC值。从数据集中获得10个差异基因，包括7个上调基因和3个下调基因。通过机器学习算法筛选出8个特征基因，特征基因的AUC值超过0.7。在肌少症患者中，TPPP3、C1QA、LGR5、MYH8和CDKN1A基因表达上调，而SLC38A1、SERPINA5和HOXB2基因表达下调。上述基因在肌少症诊断中具有较高的准确性。研究结果为肌少症的诊断和机制研究提供了新思路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38229116/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38229116/",
+  "paper_page_path": "papers/pubmed/38229116/index.html"
+}

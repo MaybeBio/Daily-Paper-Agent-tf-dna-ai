@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34962264",
+  "title": "Detection of transcription factors binding to methylated DNA by deep recurrent neural network.",
+  "authors": "Li, Hongfei; Gong, Yue; Liu, Yifeng; Lin, Hao; Wang, Guohua",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-12-29",
+  "window": {
+    "start": "2021-12-27",
+    "end": "2022-01-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度循环神经网络预测转录因子能否结合甲基化DNA，聚焦TF-DNA互作识别，但方法为序列特征分类，缺乏三维结构建模与动态机制研究。",
+  "abstract": "Transcription factors (TFs) are proteins specifically involved in gene expression regulation. It is generally accepted in epigenetics that methylated nucleotides could prevent the TFs from binding to DNA fragments. However, recent studies have confirmed that some TFs have capability to interact with methylated DNA fragments to further regulate gene expression. Although biochemical experiments could recognize TFs binding to methylated DNA sequences, these wet experimental methods are time-consuming and expensive. Machine learning methods provide a good choice for quickly identifying these TFs without experimental materials. Thus, this study aims to design a robust predictor to detect methylated DNA-bound TFs. We firstly proposed using tripeptide word vector feature to formulate protein samples. Subsequently, based on recurrent neural network with long short-term memory, a two-step computational model was designed. The first step predictor was utilized to discriminate transcription factors from non-transcription factors. Once proteins were predicted as TFs, the second step predictor was employed to judge whether the TFs can bind to methylated DNA. Through the independent dataset test, the accuracies of the first step and the second step are 86.63% and 73.59%, respectively. In addition, the statistical analysis of the distribution of tripeptides in training samples showed that the position and number of some tripeptides in the sequence could affect the binding of TFs to methylated DNA. Finally, on the basis of our model, a free web server was established based on the proposed model, which can be available at https://bioinfor.nefu.edu.cn/TFPM/.",
+  "abstract_zh": "转录因子（Transcription factors, TFs）是专门参与基因表达调控的蛋白质。在表观遗传学中普遍认为，甲基化核苷酸能阻止转录因子与DNA片段结合。然而，近期研究已证实，某些转录因子具有与甲基化DNA片段相互作用以进一步调控基因表达的能力。尽管生物化学实验能识别与甲基化DNA序列结合的转录因子，但这些湿实验方法耗时且成本高昂。机器学习方法为无需实验材料快速识别这些转录因子提供了良好选择。因此，本研究旨在设计一个稳健的预测器来检测与甲基化DNA结合的转录因子。我们首先提出使用三肽词向量特征来表述蛋白质样本。随后，基于具有长短期记忆的循环神经网络，设计了一个两步计算模型。第一步预测器用于区分转录因子与非转录因子。一旦蛋白质被预测为转录因子，第二步预测器则用于判断这些转录因子是否能与甲基化DNA结合。通过独立数据集测试，第一步和第二步的准确率分别为86.63%和73.59%。此外，对训练样本中三肽分布的统计分析显示，某些三肽在序列中的位置和数量可能影响转录因子与甲基化DNA的结合。最后，基于我们的模型，建立了一个免费的网络服务器，可通过 https://bioinfor.nefu.edu.cn/TFPM/ 访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34962264/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34962264/",
+  "paper_page_path": "papers/pubmed/34962264/index.html"
+}

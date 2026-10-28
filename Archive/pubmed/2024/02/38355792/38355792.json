@@ -1,0 +1,758 @@
+{
+  "identity": {
+    "pmid": "38355792",
+    "doi": "10.1038/s41586-024-07042-7",
+    "title": "A model of human neural networks reveals NPTX2 pathology in ALS and FTLD."
+  },
+  "content": {
+    "abstract": "Human cellular models of neurodegeneration require reproducibility and longevity, which is necessary for simulating age-dependent diseases. Such systems are particularly needed for TDP-43 proteinopathies(1), which involve human-specific mechanisms(2-5) that cannot be directly studied in animal models. Here, to explore the emergence and consequences of TDP-43 pathologies, we generated induced pluripotent stem cell-derived, colony morphology neural stem cells (iCoMoNSCs) via manual selection of neural precursors(6). Single-cell transcriptomics and comparison to independent neural stem cells(7) showed that iCoMoNSCs are uniquely homogenous and self-renewing. Differentiated iCoMoNSCs formed a self-organized multicellular system consisting of synaptically connected and electrophysiologically active neurons, which matured into long-lived functional networks (which we designate iNets). Neuronal and glial maturation in iNets was similar to that of cortical organoids(8). Overexpression of wild-type TDP-43 in a minority of neurons within iNets led to progressive fragmentation and aggregation of the protein, resulting in a partial loss of function and neurotoxicity. Single-cell transcriptomics revealed a novel set of misregulated RNA targets in TDP-43-overexpressing neurons and in patients with TDP-43 proteinopathies exhibiting a loss of nuclear TDP-43. The strongest misregulated target encoded the synaptic protein NPTX2, the levels of which are controlled by TDP-43 binding on its 3' untranslated region. When NPTX2 was overexpressed in iNets, it exhibited neurotoxicity, whereas correcting NPTX2 misregulation partially rescued neurons from TDP-43-induced neurodegeneration. Notably, NPTX2 was consistently misaccumulated in neurons from patients with amyotrophic lateral sclerosis and frontotemporal lobar degeneration with TDP-43 pathology. Our work directly links TDP-43 misregulation and NPTX2 accumulation, thereby revealing a TDP-43-dependent pathway of neurotoxicity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Amyotrophic Lateral Sclerosis/metabolism/pathology",
+      "*C-Reactive Protein/metabolism",
+      "*DNA-Binding Proteins/deficiency/metabolism",
+      "*Frontotemporal Lobar Degeneration/metabolism/pathology",
+      "*Nerve Net/metabolism/pathology",
+      "*Nerve Tissue Proteins/metabolism",
+      "Neural Stem Cells/cytology",
+      "Neuroglia/cytology",
+      "*Neurons/cytology/metabolism",
+      "Reproducibility of Results",
+      "Pentraxins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hruska-Plochan, Marian",
+        "Wiersma, Vera I",
+        "Betz, Katharina M",
+        "Mallona, Izaskun",
+        "Ronchi, Silvia",
+        "Maniecka, Zuzanna",
+        "Hock, Eva-Maria",
+        "Tantardini, Elena",
+        "Laferriere, Florent",
+        "Sahadevan, Sonu",
+        "Hoop, Vanessa",
+        "Delvendahl, Igor",
+        "Perez-Berlanga, Manuela",
+        "Gatta, Beatrice",
+        "Panatta, Martina",
+        "van der Bourg, Alexander",
+        "Bohaciakova, Dasa",
+        "Sharma, Puneet",
+        "De Vos, Laura",
+        "Frontzek, Karl",
+        "Aguzzi, Adriano",
+        "Lashley, Tammaryn",
+        "Robinson, Mark D",
+        "Karayannis, Theofanis",
+        "Mueller, Martin",
+        "Hierlemann, Andreas",
+        "Polymenidou, Magdalini"
+      ],
+      "short_names": [
+        "Hruska-Plochan M",
+        "Wiersma VI",
+        "Betz KM",
+        "Mallona I",
+        "Ronchi S",
+        "Maniecka Z",
+        "Hock EM",
+        "Tantardini E",
+        "Laferriere F",
+        "Sahadevan S",
+        "Hoop V",
+        "Delvendahl I",
+        "Perez-Berlanga M",
+        "Gatta B",
+        "Panatta M",
+        "van der Bourg A",
+        "Bohaciakova D",
+        "Sharma P",
+        "De Vos L",
+        "Frontzek K",
+        "Aguzzi A",
+        "Lashley T",
+        "Robinson MD",
+        "Karayannis T",
+        "Mueller M",
+        "Hierlemann A",
+        "Polymenidou M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9253-4362",
+        "ORCID: 0000-0001-8223-4588",
+        "ORCID: 0000-0001-5041-6205",
+        "ORCID: 0000-0002-2853-7526",
+        "ORCID: 0000-0001-9189-3390",
+        "ORCID: 0000-0002-0753-5505",
+        "ORCID: 0000-0002-6151-2363",
+        "ORCID: 0000-0001-9064-9724",
+        "ORCID: 0000-0002-9538-6668",
+        "ORCID: 0000-0003-0566-9005",
+        "ORCID: 0000-0001-6675-6968",
+        "ORCID: 0000-0002-0945-8857",
+        "ORCID: 0000-0002-0344-6708",
+        "ORCID: 0000-0001-7389-0348",
+        "ORCID: 0000-0002-3267-6254",
+        "ORCID: 0000-0003-1624-6761",
+        "ORCID: 0000-0002-3838-2468",
+        "ORCID: 0000-0003-1271-9445"
+      ],
+      "affiliations": [
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "MaxWell Biosystems AG, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Brain Research Institute, University of Zurich, Zurich, Switzerland.",
+        "Department of Histology and Embryology, Faculty of Medicine, Masaryk University Brno, Brno, Czech Republic.",
+        "Department of Chemistry, Biochemistry and Pharmaceutical Sciences, University of Bern, Bern, Switzerland.",
+        "NCCR RNA and Disease Technology Platform, Bern, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Institute of Neuropathology, University of Zurich, Zurich, Switzerland.",
+        "Institute of Neuropathology, University of Zurich, Zurich, Switzerland.",
+        "Queen Square Brain Bank for Neurological diseases, Department of Movement Disorders, UCL Institute of Neurology, London, UK.",
+        "Department of Neurodegenerative Disease, UCL Institute of Neurology, London, UK.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland.",
+        "Brain Research Institute, University of Zurich, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland. magdalini.polymenidou@uzh.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hruska-Plochan, Marian",
+        "short_name": "Hruska-Plochan M",
+        "identifiers": [
+          "0000-0002-9253-4362"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wiersma, Vera I",
+        "short_name": "Wiersma VI",
+        "identifiers": [
+          "0000-0001-8223-4588"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Betz, Katharina M",
+        "short_name": "Betz KM",
+        "identifiers": [
+          "0000-0001-5041-6205"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+          "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+          "SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mallona, Izaskun",
+        "short_name": "Mallona I",
+        "identifiers": [
+          "0000-0002-2853-7526"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+          "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+          "SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ronchi, Silvia",
+        "short_name": "Ronchi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland.",
+          "MaxWell Biosystems AG, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Maniecka, Zuzanna",
+        "short_name": "Maniecka Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Hock, Eva-Maria",
+        "short_name": "Hock EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Tantardini, Elena",
+        "short_name": "Tantardini E",
+        "identifiers": [
+          "0000-0001-9189-3390"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Laferriere, Florent",
+        "short_name": "Laferriere F",
+        "identifiers": [
+          "0000-0002-0753-5505"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sahadevan, Sonu",
+        "short_name": "Sahadevan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Hoop, Vanessa",
+        "short_name": "Hoop V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Delvendahl, Igor",
+        "short_name": "Delvendahl I",
+        "identifiers": [
+          "0000-0002-6151-2363"
+        ],
+        "affiliations": [
+          "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pérez-Berlanga, Manuela",
+        "short_name": "Pérez-Berlanga M",
+        "identifiers": [
+          "0000-0001-9064-9724"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Gatta, Beatrice",
+        "short_name": "Gatta B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Panatta, Martina",
+        "short_name": "Panatta M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "van der Bourg, Alexander",
+        "short_name": "van der Bourg A",
+        "identifiers": [],
+        "affiliations": [
+          "Brain Research Institute, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Bohaciakova, Dasa",
+        "short_name": "Bohaciakova D",
+        "identifiers": [
+          "0000-0002-9538-6668"
+        ],
+        "affiliations": [
+          "Department of Histology and Embryology, Faculty of Medicine, Masaryk University Brno, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Sharma, Puneet",
+        "short_name": "Sharma P",
+        "identifiers": [
+          "0000-0003-0566-9005"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Biochemistry and Pharmaceutical Sciences, University of Bern, Bern, Switzerland.",
+          "NCCR RNA and Disease Technology Platform, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "De Vos, Laura",
+        "short_name": "De Vos L",
+        "identifiers": [
+          "0000-0001-6675-6968"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Frontzek, Karl",
+        "short_name": "Frontzek K",
+        "identifiers": [
+          "0000-0002-0945-8857"
+        ],
+        "affiliations": [
+          "Institute of Neuropathology, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Aguzzi, Adriano",
+        "short_name": "Aguzzi A",
+        "identifiers": [
+          "0000-0002-0344-6708"
+        ],
+        "affiliations": [
+          "Institute of Neuropathology, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Lashley, Tammaryn",
+        "short_name": "Lashley T",
+        "identifiers": [
+          "0000-0001-7389-0348"
+        ],
+        "affiliations": [
+          "Queen Square Brain Bank for Neurological diseases, Department of Movement Disorders, UCL Institute of Neurology, London, UK.",
+          "Department of Neurodegenerative Disease, UCL Institute of Neurology, London, UK."
+        ]
+      },
+      {
+        "full_name": "Robinson, Mark D",
+        "short_name": "Robinson MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland.",
+          "SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Karayannis, Theofanis",
+        "short_name": "Karayannis T",
+        "identifiers": [
+          "0000-0002-3267-6254"
+        ],
+        "affiliations": [
+          "Brain Research Institute, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mueller, Martin",
+        "short_name": "Mueller M",
+        "identifiers": [
+          "0000-0003-1624-6761"
+        ],
+        "affiliations": [
+          "Department of Molecular Life Sciences, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Hierlemann, Andreas",
+        "short_name": "Hierlemann A",
+        "identifiers": [
+          "0000-0002-3838-2468"
+        ],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Polymenidou, Magdalini",
+        "short_name": "Polymenidou M",
+        "identifiers": [
+          "0000-0003-1271-9445"
+        ],
+        "affiliations": [
+          "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland. magdalini.polymenidou@uzh.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/15 00:42",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42438357",
+      "42404435",
+      "42404433",
+      "42396333",
+      "42141120",
+      "42120390",
+      "41986745",
+      "41932338",
+      "41911287",
+      "41875888",
+      "41741666",
+      "41698978",
+      "41637622",
+      "41619170",
+      "41497595",
+      "41063558",
+      "40781905",
+      "40643333",
+      "40518263",
+      "40514452",
+      "40468389",
+      "40367947",
+      "40346540",
+      "40291645",
+      "40169452",
+      "40128350",
+      "40072076",
+      "39901378",
+      "39801792",
+      "39737553",
+      "39573823",
+      "39400160",
+      "39148819",
+      "39049825",
+      "38997636",
+      "38989321"
+    ],
+    "refs": [
+      "38853250",
+      "37651231",
+      "37431963",
+      "37104599",
+      "36764301",
+      "36254605",
+      "35959108",
+      "35197628",
+      "35197626",
+      "34806807",
+      "34791404",
+      "34309222",
+      "34021139",
+      "33971027",
+      "33758076",
+      "33729694",
+      "33654921",
+      "33382996",
+      "33170122",
+      "32905541",
+      "32873325",
+      "32827688",
+      "32273328",
+      "32055031",
+      "31836174",
+      "31651061",
+      "31619793",
+      "31570887",
+      "31521605",
+      "31303374",
+      "31178118",
+      "31088905",
+      "31042469",
+      "30951143",
+      "30867054",
+      "30787437",
+      "30643298",
+      "30643292",
+      "30559480",
+      "30357387",
+      "30044993",
+      "29764981",
+      "29608179",
+      "29491377",
+      "28502989",
+      "28466142",
+      "28440221",
+      "28088763",
+      "27986928",
+      "27909575",
+      "27444967",
+      "27008025",
+      "26655895",
+      "26462653",
+      "26430063",
+      "26250685",
+      "25973786",
+      "25480548",
+      "24704492",
+      "24703839",
+      "24658644",
+      "24240615",
+      "23931993",
+      "23382207",
+      "23104886",
+      "22908213",
+      "22855830",
+      "22743772",
+      "22272239",
+      "21460823",
+      "21358643",
+      "21358640",
+      "21131904",
+      "20729843",
+      "20624952",
+      "20400460",
+      "20040602",
+      "19951898",
+      "19910308",
+      "19668191",
+      "18267377",
+      "17084815",
+      "17023659",
+      "16157876",
+      "15809225",
+      "12895424",
+      "12777621",
+      "12040056",
+      "9021256",
+      "8786423",
+      "7695898"
+    ],
+    "similar": [
+      "38355792",
+      "32157757",
+      "20102519",
+      "33917673",
+      "33115537",
+      "22993125",
+      "39069095",
+      "19496940",
+      "29078806",
+      "24256250",
+      "41739556",
+      "20133711",
+      "35641224",
+      "29916022",
+      "33946763",
+      "26197969",
+      "23742895",
+      "41225259",
+      "28960544",
+      "38896163",
+      "38896345",
+      "21673800",
+      "21360076",
+      "21863317",
+      "34558120",
+      "23900071",
+      "28040728",
+      "19833869",
+      "26437864",
+      "21206091",
+      "32770214",
+      "17713769",
+      "28877758",
+      "27928708",
+      "24378564",
+      "24113586",
+      "28859339",
+      "20472655",
+      "20660618",
+      "25921485",
+      "32628315",
+      "21777387",
+      "23471911",
+      "28301478",
+      "37819053",
+      "26723245",
+      "22101323",
+      "21921519",
+      "25788357",
+      "23922830",
+      "38374041",
+      "40482730",
+      "37150879",
+      "41486180",
+      "29802307",
+      "36293362",
+      "35274674",
+      "34032984",
+      "24477737",
+      "34075102",
+      "21847013",
+      "27015757",
+      "33421065",
+      "29460270",
+      "34823271",
+      "41668214",
+      "20102522",
+      "23023293",
+      "32686212",
+      "33415820",
+      "34880495",
+      "31100073",
+      "34015498",
+      "23041957",
+      "41485061",
+      "35320398",
+      "27445339",
+      "21921552",
+      "34371283",
+      "25787090",
+      "22563080",
+      "23196514",
+      "27338935",
+      "21700347",
+      "37431963",
+      "19204154",
+      "36495262",
+      "32778941",
+      "25556531",
+      "23124365",
+      "21752789",
+      "23378033",
+      "35697676",
+      "22235134",
+      "33269497",
+      "22133678",
+      "41805572",
+      "25756586",
+      "36001801",
+      "22052354"
+    ],
+    "review": [
+      "38355792",
+      "32157757",
+      "20102519",
+      "33917673",
+      "39069095",
+      "24256250",
+      "29916022",
+      "33946763",
+      "28960544",
+      "21863317",
+      "34558120",
+      "23900071",
+      "24113586",
+      "21777387",
+      "21921519",
+      "36293362",
+      "21847013",
+      "27015757",
+      "29460270",
+      "20102522",
+      "23041957",
+      "35320398",
+      "21921552"
+    ],
+    "pmc": [
+      "10901740"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://boris-portal.unibe.ch/handle/20.500.12422/174441",
+        "provider": "Bern Open Repository and Information System",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full text from BORIS Portal"
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38355792/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41586-024-07042-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38355792/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38355792",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38355792",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse230647",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

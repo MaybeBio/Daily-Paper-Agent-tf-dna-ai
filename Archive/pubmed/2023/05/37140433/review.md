@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that specific fatty acids (capric, lauric, myristoleic, palmitoleic, sapienic) directly bind to the Shigella virulence master regulator VirF, inhibiting its transcriptional activity on target genes (virB, icsA), thereby reducing bacterial invasion and intracellular proliferation in epithelial cells. This is presented as a novel posttranslational regulatory mechanism.
+- **Visible evidence base** Computational modeling and docking (VirF structure, fatty acid binding predictions); qRT-PCR data for virF, virB, icsA transcription; Western blot data for VirF and VirB protein levels; EMSA and a novel plate-based binding assay (DPIPA); cell infection assays with Caco-2 cells; site-directed mutagenesis of VirF histidine residues.
+- **Missing materials affecting confidence** Supplemental figures (Fig. S1–S7) and tables (Table S1–S3) are referenced but not provided. Raw data for qRT-PCR, Western blots, and infection assays are not shown. No statistical analysis details (e.g., number of biological replicates, error bar definitions, test types) are given in the text. The docking scores and predicted dissociation constants are not reported numerically.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question: whether fatty acids can directly inhibit the master virulence regulator VirF in Shigella, analogous to mechanisms described for related AraC-XylS regulators in other enteric pathogens. The combination of computational prediction, in vitro binding assays, and in vivo transcriptional and phenotypic assays is a reasonable approach. However, the evidence as presented has several gaps. The computational model is not fully validated, the in vitro binding data are indirect and rely on a nonstandard assay, and the in vivo data do not fully establish that the observed transcriptional repression is due to direct VirF inhibition rather than indirect or pleiotropic effects. The mechanistic model, while plausible, is not conclusively supported by the data shown. The manuscript would benefit from additional controls, quantitative data, and a clearer demonstration of the direct VirF-fatty acid interaction.
+- **Who would be interested in the results, and why** Researchers studying Shigella pathogenesis and virulence regulation, the AraC-XylS family of transcriptional regulators, and the intersection of host metabolism (fatty acids) with bacterial virulence. The potential for developing antivirulence compounds targeting VirF would also interest those in antimicrobial drug discovery.
+- **Major strengths** The study addresses a novel regulatory axis for a key virulence regulator. The use of multiple orthogonal approaches (computational, biochemical, transcriptional, phenotypic) is commendable. The identification of specific fatty acids with differential effects provides a basis for structure-activity relationships. The inclusion of a negative control fatty acid (linoleic acid) strengthens the specificity argument.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the central interaction claim
+  - **Claim pointer** The authors claim that specific fatty acids directly bind to VirF and inhibit its activity, based on computational docking and in vitro assays (EMSA, DPIPA).
+  - **Evidence pointer** Results sections "Structure modeling of VirF and docking studies with fatty acids" and "FAs bind to the VirF protein and affect its interaction with the virB promoter in vitro"; Figures 1, 4.
+  - **Concern** The direct physical interaction between VirF and the fatty acids is not convincingly demonstrated. The EMSA data are complicated by the fact that the protein-DNA complexes do not enter the gel, and the analysis relies on quantifying the unbound DNA fraction. This is an indirect readout and could be affected by protein aggregation or other artifacts. The DPIPA is described as a novel assay, but its validation is not fully described, and the data are only presented as fold reductions without raw values or controls. The docking predictions are not experimentally validated by, for example, isothermal titration calorimetry, surface plasmon resonance, or a competition assay with a known ligand. The mutagenesis data (Figure 5) show that histidine mutations reduce the effect of fatty acids on virB transcription, but this is an in vivo readout and does not directly prove that the fatty acids no longer bind to the mutant proteins.
+  - **Why it matters** The central claim of the paper is that fatty acids directly bind to VirF. Without robust evidence for this physical interaction, the proposed mechanism remains speculative. The in vivo transcriptional and phenotypic effects could potentially be explained by other mechanisms, such as changes in membrane fluidity affecting secretion or signaling, or effects on other regulators.
+  - **Resolution test** Provide direct biophysical evidence of binding (e.g., ITC, MST, or NMR) using purified VirF and the candidate fatty acids. Alternatively, perform a competition assay where a known VirF ligand or a labeled fatty acid is displaced. For the EMSA, a different experimental setup (e.g., using a shorter DNA probe or a different gel system) that allows the complex to enter the gel would strengthen the data. For the DPIPA, provide a full validation of the assay, including controls for non-specific binding and a demonstration that the readout is linear and specific.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the in vivo mechanistic model
+  - **Claim pointer** The authors claim that the fatty acids inhibit VirF activity in vivo, leading to reduced virB transcription and reduced virulence.
+  - **Evidence pointer** Results sections "S. flexneri virulence gene expression following treatment with fatty acids" and "FAs strongly reduce the S. flexneri infectivity on epithelial cells"; Figures 2, 3, 5, 6.
+  - **Concern** The in vivo data show that fatty acid treatment reduces virB transcription and invasion, but the link to direct VirF inhibition is not fully established. The authors show that VirF protein levels are unchanged, which is good, but they do not show that VirF's ability to bind to the virB promoter is reduced in vivo (e.g., via ChIP). The possibility that the fatty acids affect the stability or activity of VirB or other downstream components is not excluded. The infection assays show a reduction in intracellular bacteria, but it is not clear if this is due to reduced invasion, reduced intracellular growth, or both, and whether this is a direct consequence of VirF inhibition. The concentrations of fatty acids used (0.02%) are relatively high, and their physiological relevance is not discussed in detail.
+  - **Why it matters** The paper aims to establish a physiological mechanism. The in vivo data are consistent with the model but do not uniquely prove it. Without a direct in vivo demonstration of reduced VirF-DNA binding or activity, alternative explanations remain plausible.
+  - **Resolution test** Perform chromatin immunoprecipitation (ChIP) to show that VirF occupancy at the virB promoter is reduced in the presence of inhibitory fatty acids. Use a reporter system where VirF activity can be monitored in real time. For the infection assays, differentiate between invasion and intracellular proliferation (e.g., using a gentamicin protection assay with time points that distinguish between the two). Discuss the physiological relevance of the fatty acid concentrations used, perhaps by measuring fatty acid levels in the gut lumen or mucosa.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The authors claim this is a novel posttranslational regulatory mechanism for VirF.
+  - **Evidence pointer** Introduction and Discussion sections.
+  - **Concern** While the study of VirF regulation by fatty acids is new for Shigella, the concept of fatty acid-mediated inhibition of AraC-XylS regulators is already established for ToxT in V. cholerae and Rns in ETEC, as the authors themselves note. The novelty is therefore incremental, extending a known mechanism to a new regulator. The authors should more clearly articulate what is mechanistically new about the VirF-fatty acid interaction compared to the ToxT and Rns paradigms, beyond the specific regulator involved.
+  - **Why it matters** The significance of the work depends on whether it provides new general insights into AraC-XylS regulation or fatty acid-mediated control of virulence, or whether it is primarily a demonstration that a known mechanism applies to another pathogen.
+  - **Resolution test** Provide a more detailed comparative analysis of the VirF-fatty acid interaction with the ToxT and Rns systems. For example, are the binding sites and mechanisms of inhibition conserved or distinct? Does the VirF-fatty acid interaction reveal a new aspect of AraC-XylS regulation that was not appreciated from the ToxT and Rns studies?
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, first paragraph; Discussion, first paragraph.
+  - **Issue** The text assumes familiarity with the Shigella virulence cascade and AraC-XylS regulators. A brief, clear explanation of the VirF-VirB-MxiE cascade and the significance of the "master regulator" concept would make the work more accessible to a broader readership.
+  - **Required correction** Add one or two sentences in the Introduction explaining the hierarchical nature of the virulence regulon and the specific role of VirF as the primary activator.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Computational methods"
+  - **Evidence pointer** Materials and Methods, "Computational methods" section.
+  - **Issue** The description of the docking procedure is brief. The scoring function, the number of runs, and the criteria for selecting the final poses are mentioned, but the results of the docking (e.g., predicted binding affinities, scores for each fatty acid) are not reported in the text or a table.
+  - **Required correction** Provide a table or supplementary figure with the docking scores and predicted binding affinities for all tested fatty acids, including the negative controls.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "FAs strongly reduce the S. flexneri infectivity on epithelial cells"
+  - **Evidence pointer** Results, Figure 6.
+  - **Issue** The infection assay data are presented as percentages, but the absolute numbers (CFU/mL) and the time points are not clearly described in the text. The statistical significance of the differences is not stated.
+  - **Required correction** Clearly state the number of independent experiments, the error bars (SD or SEM), and the statistical test used. Present the data as CFU/mL over time in addition to percentages.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion, paragraph on therapeutic implications
+  - **Evidence pointer** Discussion, final paragraph.
+  - **Issue** The discussion of therapeutic implications is brief and does not address potential challenges, such as the bioavailability of fatty acids in the gut, potential toxicity, or the risk of resistance.
+  - **Required correction** Expand the discussion to include a more balanced view of the challenges and opportunities for developing fatty acid-based antivirulence therapies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of direct binding data and the indirect nature of the in vivo evidence mean that the central claim of direct VirF inhibition by fatty acids is not yet established. The missing supplemental data and statistical details also need to be provided.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of a known mechanism (fatty acid inhibition of AraC-XylS regulators) to a new target (VirF) is a reasonable extension, but the core concept is not new.
+  - **Scientific importance** Potentially high for the Shigella field, as it identifies a possible environmental cue (fatty acids) that silences virulence. However, the physiological relevance is not fully demonstrated.
+  - **Interdisciplinary readership** The topic is of interest to microbiologists, infection biologists, and those studying host-pathogen interactions. The therapeutic angle could broaden the appeal, but the current discussion is limited.
+  - **Technical soundness** The experimental design is generally sound, but the key interaction claim is not supported by direct evidence. The reliance on a novel, unvalidated assay (DPIPA) and the indirect EMSA analysis are weaknesses.
+  - **Readability for nonspecialists** The manuscript is clearly written but assumes significant background knowledge. The abstract is accessible, but the results and discussion sections are dense.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has a logical experimental approach, but the central claim of direct fatty acid binding to VirF is not convincingly demonstrated. The in vivo data are consistent with the model but do not exclude alternative explanations. The authors need to provide direct biophysical evidence of binding and strengthen the in vivo mechanistic link before the case is made.
+
+## Risk / unsupported claims
+- The claim that fatty acids "directly interact" with VirF is not supported by direct binding data; it is inferred from docking and indirect in vitro assays.
+- The claim that the mechanism is "posttranslational" is supported by the observation that VirF protein levels are unchanged, but this does not rule out effects on protein stability or post-translational modifications other than direct ligand binding.
+- The claim that the effect is specific to the tested fatty acids is supported by the negative control (linoleic acid), but the lack of a comprehensive panel of fatty acids limits the strength of this claim.
+- The physiological relevance of the fatty acid concentrations used (0.02%) is not established.
+- The claim that VirF inhibition by fatty acids "silences the whole virulence system" is based on the reduction of virB transcription, but the effect on other VirF-regulated genes is not shown.
+- The computational model of VirF is not experimentally validated, and the docking results are not reported quantitatively.

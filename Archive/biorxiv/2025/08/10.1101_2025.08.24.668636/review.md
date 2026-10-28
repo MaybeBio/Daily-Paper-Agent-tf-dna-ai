@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, funding, author contributions, declarations, acknowledgments)
+- **Assessment boundary** Scientific content, methodological rigor, evidence quality, and claims as presented in the provided text. Figures, tables, and supplementary materials referenced but not provided.
+- **Shared manuscript claim summary** The authors map drought-responsive gene regulatory networks (GRNs) for three Brassicaceae species with differential drought tolerance using yeast one-hybrid (Y1H) assays, identify 1,137 high-confidence TF-promoter interactions, and report species-specific network topologies and edge rewiring events that may explain differential drought tolerance.
+- **Visible evidence base** Abstract, Introduction, Results sections (Mapping of drought responsive GRN; Validation of DGRN using orthogonal assays; Characteristics of DGRN; Network divergence trends in DGRN; Differential drought signaling in DGRN; Temporal drought response changes in DGRN), Discussion, Funding, Author Contributions, Declarations, Acknowledgments
+- **Missing materials affecting confidence** All figures (Fig. 1a-g, 2a-d, 3a-h, 4a-d, 5a-d), all supplementary figures (Fig. S1a-d), all tables (Table S1), Methods section, statistical details, raw data, and code. These are essential for evaluating the validity of the reported results.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial experimental effort to map cross-species drought-responsive gene regulatory networks in Brassicaceae. The Y1H approach is appropriate for the promoter-centric question posed, and the integration with prior transcriptomic data provides a logical framework. The reported validation steps (literature benchmarking, ampDAP-seq, tobacco transactivation assays) are commendable and address common concerns with Y1H data quality. However, the manuscript as provided is incomplete, lacking all figures, tables, methods, and statistical details. Several key claims, particularly regarding network topology differences, genome-wide motif enrichment, and the functional significance of specific edge rewiring events, cannot be adequately assessed without these materials. The causal link between observed network features and drought tolerance phenotypes remains largely correlative. The manuscript would benefit from clearer presentation of effect sizes, confidence intervals, and the biological relevance of the reported differences.
+- **Who would be interested in the results, and why** Plant molecular biologists studying stress responses, gene regulatory network evolution, and comparative genomics. Researchers working on drought tolerance mechanisms in Brassicaceae and other crops would find the resource valuable. The methodological framework for cross-species GRN mapping by Y1H could be of interest to a broader systems biology audience. The identification of specific TF-promoter edges (e.g., GBF3-CYP707A1, ABF-mTERF10) and candidate regulators (ASIL2, CSDP1, ERF4, MYB73, HB6) provides testable hypotheses for functional validation.
+- **Major strengths** 1) The experimental design addresses a significant gap: the molecular basis of differential drought tolerance among closely related species. 2) The Y1H approach is gene-centric and directly interrogates promoter regulation, complementing TF-centric methods. 3) The multi-layered validation strategy (literature benchmarking, orthogonal ampDAP-seq, functional transactivation assays) substantially strengthens confidence in the interaction data. 4) The integration of network topology analysis with functional annotation and expression data provides a coherent framework for interpreting species differences. 5) The identification of specific, testable hypotheses regarding edge rewiring and stress-primed states is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript reports 1,137 high-confidence TF-promoter interactions and describes network topology differences between species.
+  - **Evidence pointer** Results sections "Mapping of drought responsive GRN", "Characteristics of DGRN"; Figures 1, 2; Table S1
+  - **Concern** The manuscript is submitted without any figures, tables, or the Methods section. It is impossible to evaluate the quality of the Y1H data, the reproducibility criteria, the statistical methods used for network comparisons, or the validity of the reported interaction counts and topology metrics. The claim of "high-confidence" interactions cannot be verified without seeing the raw data, quality control metrics, and the specific thresholds applied.
+  - **Why it matters** The core contribution of this work is the GRN map itself. Without access to the data and methods, the central claims of the manuscript are unverifiable. The "high-confidence" designation is a key qualifier that requires transparent evidence.
+  - **Resolution test** Provide all figures, tables, and a complete Methods section. Include details on Y1H screening replicates, scoring thresholds, the convolutional neural network model, statistical tests for topology comparisons, and the full list of interactions with confidence scores.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that tolerant species (Aly, Esa) have higher network connectance and nestedness than susceptible Ath, and that Esa shows a specific expansion of bZIP TF interactions.
+  - **Evidence pointer** Results section "Characteristics of DGRN", "Network divergence trends in DGRN"; Figure 2d
+  - **Concern** The statistical basis for the topology comparisons is not described. It is unclear whether the differences in connectance and nestedness are statistically significant, what the effect sizes are, and how the analysis accounted for the different numbers of promoters tested per species (35, 31, 33 for Ath, Aly, Esa respectively). The bZIP expansion claim relies on raw p-values without FDR correction, which is acknowledged, but the number of tests performed and the potential for false positives is not discussed.
+  - **Why it matters** The network topology differences are a central finding that supports the authors' interpretation of species-specific regulatory strategies. Without proper statistical validation, these differences could be due to sampling bias or noise.
+  - **Resolution test** Provide a detailed statistical analysis of network topology metrics, including appropriate multiple testing corrections, confidence intervals, and a discussion of how the unequal promoter sampling across species was handled. For the bZIP expansion, provide FDR-corrected p-values or a clear justification for not applying them.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors propose that specific edge rewiring events (GBF3-CYP707A1 in Ath, ABF-mTERF10 in Esa) and the "stress-primed" state of tolerant species contribute to differential drought tolerance.
+  - **Evidence pointer** Results sections "Differential drought signaling in DGRN", "Temporal drought response changes in DGRN"; Figure 4a-c, 5a-d
+  - **Concern** The functional significance of the identified edge rewiring events is inferred primarily from correlation with expression patterns and literature annotation of node function. The ASIL2 mutant experiment provides some functional validation, but it is limited to osmotic stress in seedlings and does not directly test the proposed mechanism involving CYP707A1 regulation. The claim that the "stress-primed" state is a hallmark of tolerant species is based on a small number of promoters (7-10 per species) and lacks direct experimental manipulation.
+  - **Why it matters** The manuscript aims to explain the mechanistic basis of differential drought tolerance. Correlative network analysis, while generating hypotheses, does not establish causation. The strength of the conclusions depends on the quality of functional validation.
+  - **Resolution test** Provide additional functional validation for at least one or two key edge rewiring events, such as demonstrating that the GBF3-CYP707A1 interaction in Ath leads to increased ABA catabolism and reduced tolerance, or that the ABF-mTERF10 interaction in Esa is necessary for sustained mTERF10 expression and tolerance. For the stress-primed state, test the effect of manipulating the identified TFs (e.g., HB6, CSDP1) on basal expression of target genes and subsequent stress tolerance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that their work provides "a broadly applicable framework for comparative GRN mapping" and a "valuable resource for improving drought tolerance in crops."
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** The framework relies on the availability of a comprehensive TF collection, which currently exists only for Ath. The authors used Ath TFs as surrogates for Aly and Esa, an assumption that is discussed but not directly validated. The generalizability to crops with larger, more complex genomes and different regulatory architectures is asserted but not demonstrated. The resource itself is limited to 100 promoters, which is a small fraction of the drought-responsive transcriptome.
+  - **Why it matters** The broader impact and utility of the work depend on its applicability beyond the three species studied. Overstating the framework's generalizability could mislead future research efforts.
+  - **Resolution test** Provide a more nuanced discussion of the framework's limitations and the conditions under which it would be applicable. If possible, include a proof-of-concept application to a crop species or a discussion of how the approach could be adapted. Clarify the scope of the resource in terms of genome coverage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "an Esa-specific expansion of bZIP TF interactions was observed" but does not provide the magnitude of this expansion or its statistical significance. The phrase "consistent with an enrichment of G-box motifs in its genome" is vague.
+  - **Required correction** Provide a quantitative summary of the bZIP expansion (e.g., fold-change, number of interactions) and the statistical significance. Specify the enrichment of G-box motifs with a metric (e.g., percentage of promoters containing the motif).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "Mapping of drought responsive GRN"
+  - **Evidence pointer** Results section "Mapping of drought responsive GRN"
+  - **Issue** The term "drought-responsive GRN" is used, but the network is built from Y1H interactions that are not condition-specific. The "responsiveness" is inferred from the selection of promoters based on differential expression, not from differential binding.
+  - **Required correction** Clarify the terminology. Consider using "drought-associated GRN" or explicitly state that the network represents potential regulatory interactions for drought-responsive genes, not condition-specific binding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Characteristics of DGRN"
+  - **Evidence pointer** Results section "Characteristics of DGRN"
+  - **Issue** The numbers of interactions per species (374, 366, 397) are presented without context. It is unclear if these differences are meaningful given the different numbers of promoters tested.
+  - **Required correction** Present interaction counts normalized by the number of promoters tested, and provide a statistical comparison of interaction densities across species.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Network divergence trends in DGRN"
+  - **Evidence pointer** Results section "Network divergence trends in DGRN"
+  - **Issue** The statement "rather than tracking evolutionary distance, TF-promoter interaction patterns align more closely with shared drought-tolerance phenotypes" is based on a comparison of only three species. This is insufficient to draw conclusions about evolutionary versus phenotypic drivers.
+  - **Required correction** Soften the claim or provide additional analysis, such as including more species or explicitly discussing the limitations of a three-species comparison.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of transposable elements as a potential driver of G-box expansion is speculative and not supported by direct evidence in this manuscript.
+  - **Required correction** Clearly label this as a hypothesis and suggest specific experiments to test it, or cite supporting evidence from other systems.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Results section "Validation of DGRN using orthogonal assays"
+  - **Evidence pointer** Results section "Validation of DGRN using orthogonal assays"
+  - **Issue** The tobacco transactivation assay is described as testing "eight random interactions," but the criteria for randomness and the number of biological replicates are not specified.
+  - **Required correction** Provide details on the selection of interactions for validation and the experimental design, including replicates and statistical analysis.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Temporal drought response changes in DGRN"
+  - **Evidence pointer** Results section "Temporal drought response changes in DGRN"
+  - **Issue** The term "stress-primed" is used to describe the basal expression state of tolerant species, but the definition and criteria for this state are not explicitly stated.
+  - **Required correction** Define "stress-primed" operationally (e.g., genes with higher basal expression in tolerant species that are also drought-responsive) and provide the specific criteria used.
+- **Technical failings that need to be addressed before the case is established** 1) Missing Methods section, all figures, and tables. 2) Lack of statistical details for network topology comparisons and motif enrichment analyses. 3) Insufficient functional validation to support causal claims regarding edge rewiring and drought tolerance. 4) Unclear handling of multiple testing in the TF family bias analysis. 5) The use of Ath TFs for cross-species screening is an assumption that requires more explicit validation or discussion of its limitations.
+- **Assessment against Nature-style criteria** Originality: The work is original in its systematic cross-species Y1H approach to drought-responsive GRN mapping. The focus on comparing closely related species with differential tolerance is a valuable angle. Scientific importance: The resource and the identified candidate regulators have potential importance for understanding drought tolerance mechanisms and for crop improvement efforts. However, the importance is somewhat diminished by the limited promoter coverage and the lack of strong functional validation. Interdisciplinary readership: The topic is of interest to plant biologists, systems biologists, and agricultural scientists. The methodological framework could appeal to a broader audience, but the presentation is quite specialized. Technical soundness: The Y1H methodology is established, and the validation steps are appropriate. However, the lack of statistical rigor in some analyses and the incomplete presentation of data prevent a full assessment of technical soundness. Readability for nonspecialists: The manuscript is written in a technical style that would be challenging for nonspecialists. The abstract is dense and assumes familiarity with GRN concepts and Y1H methodology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially valuable resource and interesting hypotheses, but the absence of all figures, tables, and methods makes it impossible to verify the core claims. Even with these materials, the causal link between network features and drought tolerance requires stronger functional validation. The authors should be encouraged to resubmit a complete version with enhanced statistical analysis and more direct experimental tests of their key hypotheses.
+
+## Risk / unsupported claims
+- The claim of 1,137 "high-confidence" TF-promoter interactions is unverifiable without the underlying data and quality control metrics.
+- The reported differences in network connectance and nestedness between species are unsupported without statistical analysis.
+- The "Esa-specific expansion of bZIP TF interactions" is based on raw p-values without multiple testing correction and is therefore not a robust finding.
+- The proposal that GBF3-CYP707A1 edge in Ath contributes to drought susceptibility is correlative and lacks direct functional evidence.
+- The claim that ABF-mTERF10 interactions in Esa maintain sustained mTERF10 expression is inferred from binding and expression correlation, not demonstrated causality.
+- The "stress-primed" state of Aly and Esa is based on a small number of promoters and lacks a clear operational definition.
+- The generalizability of the framework to crops is asserted without demonstration or adequate discussion of limitations.
+- The assumption of conserved TF binding specificity across Brassicaceae is stated but not directly validated for the specific TFs and promoters studied.

@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "40418826",
+    "doi": "10.1002/cbdv.202501091",
+    "title": "Rotenoids from the Roots of Vicia faba L. (Fabaceae): Structural Characterization, Cytotoxic Effects, and Molecular Docking."
+  },
+  "content": {
+    "abstract": "The chemical study of the ethanolic extract from the roots of Vicia faba led to the isolation of two isoflavonoids, alfalone and 8-O-methylretusine, as well as a mixture of rotenoids, including clitoriacetal and clitoriacetal B, the latter of which is reported for the first time. These compounds were characterized through nuclear magnetic resonance and vibrational circular dichroism spectroscopies, and density functional theory calculations. The rotenoid mixture exhibited cytotoxic activity against HCT-116, MCF-7, and 501Mel cell lines, while showing no significant toxicity to NIH/3T3 cells. The predictive analysis identified several shared therapeutic targets across colorectal cancer, breast cancer, and melanoma. Key sites, including hypoxia-inducible factor 1-alpha (HIF1A), estrogen receptor, heat shock protein HSP 90-beta, and heat shock protein HSP 90-alpha, were highlighted for their critical roles in tumor progression and therapeutic resistance. Notably, clitoriacetal demonstrated an affinity for HIF1A, suggesting its involvement in the observed antitumor effects, likely through modulation of the HIF1A pathway. These findings underscore the potential of V. faba root-derived compounds as promising candidates for targeted cancer therapies.",
+    "keywords": [
+      "Vicia faba",
+      "cytotoxicity",
+      "isoflavonoids",
+      "molecular docking",
+      "network pharmacology",
+      "rotenoids"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Antineoplastic Agents, Phytogenic/chemistry/pharmacology/isolation & purification",
+      "Cell Line, Tumor",
+      "Cell Proliferation/drug effects",
+      "Cell Survival/drug effects",
+      "Dose-Response Relationship, Drug",
+      "Drug Screening Assays, Antitumor",
+      "*Molecular Docking Simulation",
+      "Molecular Structure",
+      "NIH 3T3 Cells",
+      "*Plant Roots/chemistry/metabolism",
+      "Structure-Activity Relationship",
+      "*Vicia faba/chemistry",
+      "Hypoxia-Inducible Factor 1, alpha Subunit"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sipoloni, Victor Menezes",
+        "Silva-Silva, Joao Victor",
+        "Ferreira, Elthon G",
+        "Lee, Eric Yoshitaka",
+        "Junior, Joao Marcos Batista",
+        "Uemi, Miriam",
+        "de Medeiros, Livia Soman",
+        "Jimenez, Paula C",
+        "Veiga, Thiago A M"
+      ],
+      "short_names": [
+        "Sipoloni VM",
+        "Silva-Silva JV",
+        "Ferreira EG",
+        "Lee EY",
+        "Junior JMB",
+        "Uemi M",
+        "de Medeiros LS",
+        "Jimenez PC",
+        "Veiga TAM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3181-1784",
+        "ORCID: 0000-0002-7064-2610",
+        "ORCID: 0000-0001-8381-7849",
+        "ORCID: 0009-0002-1758-2126",
+        "ORCID: 0000-0002-0267-2631",
+        "ORCID: 0000-0002-5407-0894",
+        "ORCID: 0000-0001-8743-3340",
+        "ORCID: 0000-0002-5244-9761",
+        "ORCID: 0000-0002-1377-158X"
+      ],
+      "affiliations": [
+        "Programa de Pos-Graduacao em Biologia Quimica, Instituto de Ciencias Ambientais, Quimicas e Farmaceuticas, Universidade Federal de Sao Paulo, Diadema, Brazil.",
+        "Laboratorio de Quimica Medicinal e Computacional, Instituto de Fisica de Sao Carlos, Universidade de Sao Paulo, Sao Carlos, Brazil.",
+        "Departamento de Farmacologia, Instituto de Ciencias Biomedicas, Universidade de Sao Paulo, Sao Paulo, Brazil.",
+        "Instituto de Ciencia e Tecnologia, Universidade Federal de Sao Paulo, Sao Jose dos Campos, Brazil.",
+        "Instituto de Ciencia e Tecnologia, Universidade Federal de Sao Paulo, Sao Jose dos Campos, Brazil.",
+        "Departamento de Quimica, Instituto de Ciencias Ambientais, Quimicas e Farmaceuticas, Universidade Federal de Sao Paulo, Diadema, Brazil.",
+        "Departamento de Quimica, Instituto de Ciencias Ambientais, Quimicas e Farmaceuticas, Universidade Federal de Sao Paulo, Diadema, Brazil.",
+        "Departamento de Ciencias do Mar, Instituto do Mar, Universidade Federal de Sao Paulo, Santos, Brazil.",
+        "Departamento de Quimica, Instituto de Ciencias Ambientais, Quimicas e Farmaceuticas, Universidade Federal de Sao Paulo, Diadema, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sipoloni, Victor Menezes",
+        "short_name": "Sipoloni VM",
+        "identifiers": [
+          "0000-0002-3181-1784"
+        ],
+        "affiliations": [
+          "Programa de Pós-Graduação em Biologia Química, Instituto de Ciências Ambientais, Químicas e Farmacêuticas, Universidade Federal de São Paulo, Diadema, Brazil."
+        ]
+      },
+      {
+        "full_name": "Silva-Silva, João Victor",
+        "short_name": "Silva-Silva JV",
+        "identifiers": [
+          "0000-0002-7064-2610"
+        ],
+        "affiliations": [
+          "Laboratório de Química Medicinal e Computacional, Instituto de Física de São Carlos, Universidade de São Paulo, Sao Carlos, Brazil."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Elthon G",
+        "short_name": "Ferreira EG",
+        "identifiers": [
+          "0000-0001-8381-7849"
+        ],
+        "affiliations": [
+          "Departamento de Farmacologia, Instituto de Ciências Biomédicas, Universidade de São Paulo, Sao Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Lee, Eric Yoshitaka",
+        "short_name": "Lee EY",
+        "identifiers": [
+          "0009-0002-1758-2126"
+        ],
+        "affiliations": [
+          "Instituto de Ciência e Tecnologia, Universidade Federal de São Paulo, Sao Jose dos Campos, Brazil."
+        ]
+      },
+      {
+        "full_name": "Junior, João Marcos Batista",
+        "short_name": "Junior JMB",
+        "identifiers": [
+          "0000-0002-0267-2631"
+        ],
+        "affiliations": [
+          "Instituto de Ciência e Tecnologia, Universidade Federal de São Paulo, Sao Jose dos Campos, Brazil."
+        ]
+      },
+      {
+        "full_name": "Uemi, Miriam",
+        "short_name": "Uemi M",
+        "identifiers": [
+          "0000-0002-5407-0894"
+        ],
+        "affiliations": [
+          "Departamento de Química, Instituto de Ciências Ambientais, Químicas e Farmacêuticas, Universidade Federal de São Paulo, Diadema, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Medeiros, Lívia Soman",
+        "short_name": "de Medeiros LS",
+        "identifiers": [
+          "0000-0001-8743-3340"
+        ],
+        "affiliations": [
+          "Departamento de Química, Instituto de Ciências Ambientais, Químicas e Farmacêuticas, Universidade Federal de São Paulo, Diadema, Brazil."
+        ]
+      },
+      {
+        "full_name": "Jimenez, Paula C",
+        "short_name": "Jimenez PC",
+        "identifiers": [
+          "0000-0002-5244-9761"
+        ],
+        "affiliations": [
+          "Departamento de Ciências do Mar, Instituto do Mar, Universidade Federal de São Paulo, Santos, Brazil."
+        ]
+      },
+      {
+        "full_name": "Veiga, Thiago A M",
+        "short_name": "Veiga TAM",
+        "identifiers": [
+          "0000-0002-1377-158X"
+        ],
+        "affiliations": [
+          "Departamento de Química, Instituto de Ciências Ambientais, Químicas e Farmacêuticas, Universidade Federal de São Paulo, Diadema, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemistry & biodiversity"
+    ],
+    "journal_abbrev": [
+      "Chem Biodivers"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/26 18:27",
+    "fetched_at": "2026-09-30 18:45:06"
+  },
+  "links": {
+    "cites": [
+      "42357522"
+    ],
+    "refs": [
+      "39938178",
+      "39388959",
+      "39384651",
+      "39234927",
+      "39134249",
+      "38702053",
+      "38157250",
+      "37596643",
+      "37180757",
+      "37164974",
+      "37110140",
+      "36772804",
+      "36375658",
+      "36115852",
+      "35308285",
+      "35062053",
+      "34575983",
+      "34572020",
+      "34392831",
+      "34323692",
+      "34101078",
+      "33633762",
+      "33281037",
+      "31992715",
+      "30506958",
+      "30258904",
+      "29787901",
+      "28923363",
+      "27124451",
+      "26546517",
+      "26358502",
+      "25881042",
+      "25608853",
+      "25453096",
+      "25329591",
+      "24658881",
+      "23562885",
+      "22889332",
+      "22398146",
+      "22304911",
+      "22169972",
+      "21941619",
+      "21411015",
+      "21184128",
+      "17488841",
+      "16557604",
+      "15489140",
+      "12910460",
+      "11123984"
+    ],
+    "similar": [
+      "40418826",
+      "39355945",
+      "30352359",
+      "39856016",
+      "30444979",
+      "39779566",
+      "40468803",
+      "39265878",
+      "34488594",
+      "40232997",
+      "39211952",
+      "39343745",
+      "41045503",
+      "32182518",
+      "32329701",
+      "29518053",
+      "29164821",
+      "38710376",
+      "39146703",
+      "39269195",
+      "27133593",
+      "28654120",
+      "38482619",
+      "23022281",
+      "39983020",
+      "40122687",
+      "37818574",
+      "40961457",
+      "40262138",
+      "29223588",
+      "29451710",
+      "30574990",
+      "30056276",
+      "40882034",
+      "33438565",
+      "39679660",
+      "39500725",
+      "26633031",
+      "39051584",
+      "24051209",
+      "39276823",
+      "40254723",
+      "39986411",
+      "21638245",
+      "39694396",
+      "40101115",
+      "33112334",
+      "32721778",
+      "39870601",
+      "24472391",
+      "23727777",
+      "40083146",
+      "31487934",
+      "39984308",
+      "40780124",
+      "25029176",
+      "41100474",
+      "38897264",
+      "33714021",
+      "39853896",
+      "25066952",
+      "29170993",
+      "40818522",
+      "20180522",
+      "30118990",
+      "34134031",
+      "24934682",
+      "40074052",
+      "24882730",
+      "30488799",
+      "15387658",
+      "30339861",
+      "28766970",
+      "38243957",
+      "17190442",
+      "39177326",
+      "39878119",
+      "31849451",
+      "40289350",
+      "30278332",
+      "40206492",
+      "32717693",
+      "40893046",
+      "40516110",
+      "8326318",
+      "41005519",
+      "40245240",
+      "39067352",
+      "16272730",
+      "20151385",
+      "25082124",
+      "39134110",
+      "40685791",
+      "38855945",
+      "26086179",
+      "17180412",
+      "40780127",
+      "22014228",
+      "30584950",
+      "40219922"
+    ],
+    "review": [
+      "40418826"
+    ],
+    "pmc": [
+      "12533803"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40418826/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cbdv.202501091",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

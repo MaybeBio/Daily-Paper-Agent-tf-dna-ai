@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.28.533945",
+  "title": "Single-cell multi-scale footprinting reveals the modular organization of DNA regulatory elements",
+  "authors": "Hu Y; Ma S; Kartha VK; Duarte FM; Horlbeck M; Zhang R; Shrestha R; Labade A; Kletzien H; Meliki A; Castillo A; Durand N; Mattei E; Anderson LJ; Tay T; Earl AS; Shoresh N; Epstein CB; Wagers A; Buenrostro JD",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-29",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发基于深度学习的PRINT方法，从单细胞染色质可及性数据中推断多尺度蛋白-DNA互作足迹，用于解析顺式调控元件结构，虽非直接TF-DNA结合建模，但方法可迁移至TF-DNA互作预测。",
+  "abstract": "Cis -regulatory elements control gene expression and are dynamic in their structure, reflecting changes to the composition of diverse effector proteins over time 1–3 . Here we sought to connect the structural changes at cis -regulatory elements to alterations in cellular fate and function. To do this we developed PRINT, a computational method that uses deep learning to correct sequence bias in chromatin accessibility data and identifies multi-scale footprints of DNA-protein interactions. We find that multi-scale footprints enable more accurate inference of TF and nucleosome binding. Using PRINT with single-cell multi-omics, we discover wide-spread changes to the structure and function of candidate cis -regulatory elements (cCREs) across hematopoiesis, wherein nucleosomes slide, expose DNA for TF binding, and promote gene expression. Activity segmentation using the co-variance across cell states identifies “sub-cCREs” as modular cCRE subunits of regulatory DNA. We apply this single-cell and PRINT approach to characterize the age-associated alterations to cCREs within hematopoietic stem cells (HSCs). Remarkably, we find a spectrum of aging alterations among HSCs corresponding to a global gain of sub-cCRE activity while preserving cCRE accessibility. Collectively, we reveal the functional importance of cCRE structure across cell states, highlighting changes to gene regulation at single-cell and single-base-pair resolution.",
+  "abstract_zh": "顺式调控元件控制基因表达，其结构动态变化，反映了不同效应蛋白组成随时间的变化1–3。在此，我们旨在将顺式调控元件的结构变化与细胞命运和功能的改变联系起来。为此，我们开发了PRINT，一种计算方法，利用深度学习校正染色质可及性数据中的序列偏差，并识别DNA-蛋白质相互作用的多尺度足迹。我们发现，多尺度足迹能够更准确地推断转录因子和核小体的结合。将PRINT与单细胞多组学结合，我们发现了造血过程中候选顺式调控元件（cCREs）结构和功能的广泛变化，其中核小体滑动，暴露DNA供转录因子结合，并促进基因表达。利用细胞状态间的协方差进行活性分割，识别出“亚cCREs”作为调控DNA的模块化cCRE亚单位。我们应用这种单细胞和PRINT方法，表征了造血干细胞（HSCs）中与年龄相关的cCREs变化。值得注意的是，我们发现HSCs中存在一系列衰老相关改变，对应于亚cCRE活性的整体增加，同时保持cCRE可及性。总体而言，我们揭示了cCRE结构在不同细胞状态下的功能重要性，突出了单细胞和单碱基对分辨率下基因调控的变化。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.28.533945",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.28.533945",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.28.533945/index.html"
+}

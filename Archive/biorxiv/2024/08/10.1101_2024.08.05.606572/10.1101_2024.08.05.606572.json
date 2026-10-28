@@ -1,0 +1,669 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.05.606572",
+  "title": "Integrating Natural and Engineered Genetic Variation to Decode Regulatory Influence on Blood Traits",
+  "doi": "10.1101/2024.08.05.606572",
+  "abstract": "Understanding the function of genetic variants associated with human traits and diseases remains a significant challenge. Here we combined analyses based on natural genetic variation and genetic engineering to dissect the function of 94 non-coding variants associated with haematological traits. We describe 22 genetic variants impacting haematological variation through gene expression. Further, through in-depth functional analysis, we illustrate how a rare, non-coding variant near the CUX1 transcription factor impacts megakaryopoiesis through modulation of the CUX1 transcriptional cascade. Collectively, our findings enhance the functional interpretation of genetic association studies and advance understanding of how non-coding variants contribute to blood and immune system variation.",
+  "authors": [
+    "Tardaguila M",
+    "Von Schiller D",
+    "Colombo M",
+    "Gori I",
+    "Coomber EL",
+    "Vanderstichele T",
+    "Benaglio P",
+    "Chiereghin C",
+    "Gerety S",
+    "Vuckovic D",
+    "Landini A",
+    "Clerici G",
+    "Casiraghi A",
+    "Albers P",
+    "Ray-Jones H",
+    "Burnham KL",
+    "Tokolyi A",
+    "Persyn E",
+    "Spivakov M",
+    "Sankaran VG",
+    "Walter K",
+    "Kundu K",
+    "Pirastu N",
+    "Inouye M",
+    "Paul DS",
+    "Davenport EE",
+    "Sahlén P",
+    "Watt S",
+    "Soranzo N"
+  ],
+  "published_date": "2024-08-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.05.606572",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.05.606572.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR891211",
+    "raw_record": {
+      "id": "PPR891211",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR891211"
+        ]
+      },
+      "doi": "10.1101/2024.08.05.606572",
+      "title": "Integrating Natural and Engineered Genetic Variation to Decode Regulatory Influence on Blood Traits",
+      "authorString": "Tardaguila M, Von Schiller D, Colombo M, Gori I, Coomber EL, Vanderstichele T, Benaglio P, Chiereghin C, Gerety S, Vuckovic D, Landini A, Clerici G, Casiraghi A, Albers P, Ray-Jones H, Burnham KL, Tokolyi A, Persyn E, Spivakov M, Sankaran VG, Walter K, Kundu K, Pirastu N, Inouye M, Paul DS, Davenport EE, Sahlén P, Watt S, Soranzo N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tardaguila M",
+            "lastName": "Tardaguila",
+            "firstName": "Manuel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7812-604X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Von Schiller D",
+            "lastName": "Von Schiller",
+            "firstName": "Dominique",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Colombo M",
+            "lastName": "Colombo",
+            "firstName": "Michela",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2252-1424"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gori I",
+            "lastName": "Gori",
+            "firstName": "Ilaria",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coomber EL",
+            "lastName": "Coomber",
+            "firstName": "Eve",
+            "initials": "EL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vanderstichele T",
+            "lastName": "Vanderstichele",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benaglio P",
+            "lastName": "Benaglio",
+            "firstName": "Paola",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chiereghin C",
+            "lastName": "Chiereghin",
+            "firstName": "Chiara",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7927-8317"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gerety S",
+            "lastName": "Gerety",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6126-5040"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vuckovic D",
+            "lastName": "Vuckovic",
+            "firstName": "Dragana",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9343-6142"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", School of Public Health, Faculty of Medicine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Landini A",
+            "lastName": "Landini",
+            "firstName": "Arianna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clerici G",
+            "lastName": "Clerici",
+            "firstName": "Giuditta",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-9255-4958"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Casiraghi A",
+            "lastName": "Casiraghi",
+            "firstName": "Aurora",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Albers P",
+            "lastName": "Albers",
+            "firstName": "Patrick",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ray-Jones H",
+            "lastName": "Ray-Jones",
+            "firstName": "Helen",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burnham KL",
+            "lastName": "Burnham",
+            "firstName": "Katie",
+            "initials": "KL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tokolyi A",
+            "lastName": "Tokolyi",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Persyn E",
+            "lastName": "Persyn",
+            "firstName": "Elodie",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Victor Phillip Dahdaleh Heart and Lung Research Institute, ,"
+                },
+                {
+                  "affiliation": "Cambridge Baker Systems Genomics Initiative, Department of Public Health and Primary Care, , ,"
+                },
+                {
+                  "affiliation": "National Institute for Health Research Blood and Transplant Research Unit in Donor Health and Genomics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spivakov M",
+            "lastName": "Spivakov",
+            "firstName": "Mikhail",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Victor Phillip Dahdaleh Heart and Lung Research Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sankaran VG",
+            "lastName": "Sankaran",
+            "firstName": "Vijay",
+            "initials": "VG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Hematology/Oncology, Boston Children’s Hospital and Department of Pediatric Oncology, , Harvard Medical School, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walter K",
+            "lastName": "Walter",
+            "firstName": "Klaudia",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kundu K",
+            "lastName": "Kundu",
+            "firstName": "Kousik",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": "British Heart Foundation Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pirastu N",
+            "lastName": "Pirastu",
+            "firstName": "Nicola",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Inouye M",
+            "lastName": "Inouye",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Victor Phillip Dahdaleh Heart and Lung Research Institute, ,"
+                },
+                {
+                  "affiliation": "Cambridge Baker Systems Genomics Initiative, Department of Public Health and Primary Care, , ,"
+                },
+                {
+                  "affiliation": "British Heart Foundation Centre of Research Excellence, , ,"
+                },
+                {
+                  "affiliation": ", Wellcome Genome Campus and , ,"
+                },
+                {
+                  "affiliation": "Cambridge Baker Systems Genomics Initiative, , 75 Commercial Rd , , ,"
+                },
+                {
+                  "affiliation": "British Heart Foundation Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Paul DS",
+            "lastName": "Paul",
+            "firstName": "Dirk",
+            "initials": "DS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Victor Phillip Dahdaleh Heart and Lung Research Institute, ,"
+                },
+                {
+                  "affiliation": "Centre for Genomics Research, Discovery Sciences, BioPharmaceuticals R&D, , ,"
+                },
+                {
+                  "affiliation": "British Heart Foundation Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davenport EE",
+            "lastName": "Davenport",
+            "firstName": "Emma",
+            "initials": "EE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sahlén P",
+            "lastName": "Sahlén",
+            "firstName": "Pelin",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", School of Chemistry, Biotechnology and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Watt S",
+            "lastName": "Watt",
+            "firstName": "Stephen",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Soranzo N",
+            "lastName": "Soranzo",
+            "firstName": "Nicole",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": "Department of Haematology, , Cambridge Biomedical Campus, ,"
+                },
+                {
+                  "affiliation": "British Heart Foundation Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care, ,"
+                },
+                {
+                  "affiliation": "National Institute for Health Research Blood and Transplant Research Unit in Donor Health and Genomics, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7812-604X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9343-6142"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6126-5040"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7927-8317"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2252-1424"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-9255-4958"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Understanding the function of genetic variants associated with human traits and diseases remains a significant challenge. Here we combined analyses based on natural genetic variation and genetic engineering to dissect the function of 94 non-coding variants associated with haematological traits. We describe 22 genetic variants impacting haematological variation through gene expression. Further, through in-depth functional analysis, we illustrate how a rare, non-coding variant near the  CUX1 transcription factor impacts megakaryopoiesis through modulation of the  CUX1 transcriptional cascade. Collectively, our findings enhance the functional interpretation of genetic association studies and advance understanding of how non-coding variants contribute to blood and immune system variation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203312",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RE/18/1/34212",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RG/13/13/30194",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "CH/12/2/29428",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203337",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RG/18/13/33946",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.05.606572"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.05.606572"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR891211"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR891211&type=FILE&fileName=EMS198024-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41637188",
+            "reference": "Cell reports. 2026 Feb;45(2):116937",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198024",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refsnp",
+          "ega",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-08-08",
+      "firstPublicationDate": "2024-08-05",
+      "firstIndexDate": "2024-08-08",
+      "fullTextReceivedDate": "2025-12-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

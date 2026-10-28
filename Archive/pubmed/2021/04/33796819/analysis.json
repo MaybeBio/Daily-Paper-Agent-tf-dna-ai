@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33796819",
+  "title": "Deep neural networks identify sequence context features predictive of transcription factor binding.",
+  "authors": "Zheng, An; Lamkin, Michael; Zhao, Hanqing; Wu, Cynthia; Su, Hao; Gymrek, Melissa",
+  "journal": "Nature machine intelligence",
+  "published_date": "2021-04-03",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用卷积神经网络预测转录因子在基序位点的结合，并解析序列上下文特征，核心聚焦TF-DNA结合预测，方法为深度学习，高度匹配本课题。",
+  "abstract": "Transcription factors (TFs) bind DNA by recognizing specific sequence motifs, typically of length 6-12bp. A motif can occur many thousands of times in the human genome, but only a subset of those sites are actually bound. Here we present a machine learning framework leveraging existing convolutional neural network architectures and model interpretation techniques to identify and interpret sequence context features most important for predicting whether a particular motif instance will be bound. We apply our framework to predict binding at motifs for 38 TFs in a lymphoblastoid cell line, score the importance of context sequences at base-pair resolution, and characterize context features most predictive of binding. We find that the choice of training data heavily influences classification accuracy and the relative importance of features such as open chromatin. Overall, our framework enables novel insights into features predictive of TF binding and is likely to inform future deep learning applications to interpret non-coding genetic variants.",
+  "abstract_zh": "转录因子（TFs）通过识别特定序列基序（motifs）结合DNA，这些基序通常长度为6-12bp。一个基序在人类基因组中可能出现数千次，但只有其中一部分位点实际被结合。在此，我们提出了一种机器学习框架，利用现有的卷积神经网络架构和模型解释技术，来识别和解释对于预测特定基序实例是否会被结合最为重要的序列上下文特征。我们将该框架应用于预测淋巴母细胞系中38个转录因子的基序结合情况，以碱基对分辨率对上下文序列的重要性进行评分，并刻画最能预测结合的特征。我们发现，训练数据的选择显著影响分类准确性以及开放染色质等特征的相对重要性。总体而言，我们的框架为预测转录因子结合的特征提供了新颖见解，并可能为未来深度学习应用在解释非编码遗传变异方面提供参考。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33796819/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33796819/",
+  "paper_page_path": "papers/pubmed/33796819/index.html"
+}

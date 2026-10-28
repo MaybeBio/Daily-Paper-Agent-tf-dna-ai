@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39382604",
+  "title": "Screening core genes for minimal change disease based on bioinformatics and machine learning approaches.",
+  "authors": "Hao, Dingfan; Yang, Xiuting; Li, Zexuan; Xie, Bin; Feng, Yongliang; Liu, Gaohong; Ren, Xiaojun",
+  "journal": "International urology and nephrology",
+  "published_date": "2024-10-09",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习筛选微小病变肾病的核心基因，虽涉及GATA3等转录因子，但无蛋白质-DNA互作建模或结合机制研究，仅属基因表达筛选，与本课题关联微弱。",
+  "abstract": "Based on bioinformatics and machine learning methods, we conducted a study to screen the core genes of minimal change disease (MCD) and further explore its pathogenesis. First, we obtained the chip data sets GSE108113 and GSE200828 from the Gene Expression Comprehensive Database (GEO), which contained MCD information. We then used R software to analyze the gene chip data and performed functional enrichment analysis. Subsequently, we employed Cytoscape to screen the core genes and utilized machine learning algorithms (random forest and LASSO regression) to accurately identify them. To validate and analyze the core genes, we conducted immunohistochemistry (IHC) and gene set enrichment analysis (GSEA). Our results revealed a total of 394 highly expressed differential genes. Enrichment analysis indicated that these genes are primarily involved in T cell differentiation and p13k-akt signaling pathway of immune response. We identified NOTCH1, TP53, GATA3, and TGF-beta1 as the core genes. IHC staining demonstrated significant differences in the expression of these four core genes between the normal group and the MCD group. Furthermore, GSEA suggested that their up-regulation may be closely associated with the pathological changes in MCD kidneys, particularly in the glycosaminoglycans signaling pathway. In conclusion, our study highlights NOTCH1, TP53, GATA3, and TGF-beta1 as the core genes in MCD and emphasizes the close relationship between glycosaminoglycans and pathogenesis of MCD.",
+  "abstract_zh": "基于生物信息学和机器学习方法，我们开展了一项研究，旨在筛选微小病变病（MCD）的核心基因，并进一步探讨其发病机制。首先，我们从基因表达综合数据库（GEO）获取了包含MCD信息的芯片数据集GSE108113和GSE200828。随后，我们使用R软件分析基因芯片数据，并进行功能富集分析。接着，我们利用Cytoscape筛选核心基因，并采用机器学习算法（随机森林和LASSO回归）进行精确识别。为验证和分析核心基因，我们进行了免疫组织化学（IHC）和基因集富集分析（GSEA）。我们的结果显示共有394个高表达差异基因。富集分析表明，这些基因主要参与T细胞分化和免疫反应的p13k-akt信号通路。我们确定了NOTCH1、TP53、GATA3和TGF-beta1为核心基因。IHC染色显示，这四种核心基因在正常组和MCD组之间的表达存在显著差异。此外，GSEA提示它们的上调可能与MCD肾脏的病理变化密切相关，特别是在糖胺聚糖信号通路中。总之，我们的研究强调了NOTCH1、TP53、GATA3和TGF-beta1作为MCD的核心基因，并突出了糖胺聚糖与MCD发病机制之间的密切关系。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39382604/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39382604/",
+  "paper_page_path": "papers/pubmed/39382604/index.html"
+}

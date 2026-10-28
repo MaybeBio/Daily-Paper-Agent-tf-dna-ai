@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.16.732527",
+  "title": "Large-scale prediction of transcription factor binding across human cell types informs regulatory genomics and reveals promiscuous occupancy associated with chromatin contacts",
+  "authors": "Emanuel Sonder; İpek Güneş Aymergen; Jieran Sun; Audran Feuvrier; Gerhard Schratt; Katharina Gapp; Johannes Bohacek; Mark D. Robinson; Pierre-Luc Germain",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-18",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文基于ATAC-seq数据开发TFBlearner平台，大规模预测跨细胞类型的TF结合位点，虽聚焦结合预测而非三维互作机制，但方法可迁移至TF-DNA互作建模，与课题高度相关。",
+  "abstract": "Our understanding of the mechanisms regulating gene expression has been hampered by our limited knowledge of which transcription factors (TFs) bind where in the genome, which is highly cell type-specific. While genome-wide TF binding can be experimentally assayed for individual TFs in individual cell types, profiling the full combinations of over 1600 TFs in hundreds of cell types is beyond practical reach. In this work, we developed a streamlined platform, TFBlearner , to train TF-specific models and predict bindings based on ATAC-seq data. We focused on biologically-motivated feature engineering and harnessed TF cooperativity and binding similarity across cell types to achieve state of the art binding predictions in unseen cell types in a scalable fashion. This enabled us to generate a compendium of binding predictions for 1108 Chromatin-associated proteins, of which 960 TFs, across 43 human cell types including widely-used cell lines and 36 physiological cell types representing all major human cell lineages. We show how the models additionally provide biological insights on the TFs, and show how the binding predictions can be used in downstream tasks such as TF activity inference. Our study additionally led to the observation of high promiscuity in TF occupancy. To investigate aspecific occupancy, we characterized crowded or high-occupancy (HOT) regions across cell types, providing evidence of their functionality, and reporting important cell type-specificity. Finally, we show that, across cell types, crowded regions engage in more 3D contacts, and that most TF occupancy at crowded promoters can be explained as tethered bindings from distal regulatory elements.",
+  "abstract_zh": "我们对基因表达调控机制的理解一直受到限制，因为我们对于转录因子（TFs）在基因组中何处结合的知识有限，而这具有高度的细胞类型特异性。虽然可以通过实验对单个细胞类型中的单个转录因子进行全基因组结合检测，但在数百种细胞类型中对超过1600种转录因子的完整组合进行图谱分析，超出了实际可行范围。在本工作中，我们开发了一个简化平台TFBlearner，用于训练转录因子特异性模型，并基于ATAC-seq数据预测结合情况。我们专注于生物学驱动的特征工程，并利用转录因子的协同性和跨细胞类型的结合相似性，以可扩展的方式在未见过的细胞类型中实现最先进的结合预测。这使我们能够生成一个包含1108种染色质相关蛋白（其中960种为转录因子）在43种人类细胞类型中的结合预测汇编，这些细胞类型包括广泛使用的细胞系和代表所有主要人类细胞谱系的36种生理细胞类型。我们展示了这些模型如何额外提供关于转录因子的生物学见解，并展示了结合预测如何用于下游任务，如转录因子活性推断。我们的研究还观察到转录因子占据具有高度混杂性。为了研究非特异性占据，我们表征了跨细胞类型的拥挤或高占据（HOT）区域，提供了其功能性的证据，并报告了重要的细胞类型特异性。最后，我们表明，跨细胞类型，拥挤区域参与更多的3D接触，并且拥挤启动子处的大多数转录因子占据可以解释为来自远端调控元件的拴系结合。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732527",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732527",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.16.732527/index.html"
+}

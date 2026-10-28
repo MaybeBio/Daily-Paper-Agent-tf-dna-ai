@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "38580999",
+    "doi": "10.1186/s12906-024-04414-4",
+    "title": "Mechanism of Smilax china L. in the treatment of intrauterine adhesions based on network pharmacology, molecular docking and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Smilax china L. (SCL) is a traditional herbal medicine for the potential treatment of intrauterine adhesion (IUA). However, the mechanisms of action have not yet been determined. In this study, we explored the effects and mechanisms of SCL in IUA by network pharmacology, molecular docking and molecular biology experiments. METHODS: Active ingredients and targets of SCL were acquired from TCMSP and SwissTargetPrediction. IUA-related targets were collected from the GeneCards, DisGeNET, OMIM and TTD databases. A protein‒protein interaction (PPI) network was constructed by Cytoscape 3.9.1 and analysed with CytoHubba and CytoNCA to identify the core targets. The DAVID tool was used for GO and KEGG enrichment analyses. Furthermore, molecular docking was employed to assess the interaction between the compounds and key targets. Finally, the mechanisms and targets of SCL in IUA were verified by cellular experiments and western blot. RESULTS: A total of 196 targets of SCL were identified, among which 93 were related to IUA. Topological and KEGG analyses results identified 15 core targets that were involved in multiple pathways, such as inflammation, apoptosis, and PI3K/AKT signalling pathways. Molecular docking results showed that the active compounds had good binding to the core targets. In vitro experiments showed that astilbin (AST), a major component of SCL, significantly reduced TGF-beta-induced overexpression of fibronectin (FN), activation of the PI3K/AKT signalling pathway and the expression of downstream factors (NF-kappaB and BCL2) in human endometrial stromal cells, suggesting that AST ameliorates IUA by mediating the PI3K/AKT/NF-kappaB and BCL2 proteins. CONCLUSIONS: AST, a major component of SCL, may be a potential therapeutic agent for IUA. Moreover, its mechanism is strongly associated with regulation of the PI3K/AKT signalling pathway and the downstream NF-kappaB and BCL2 proteins. This study will provide new strategies that utilize AST for the treatment of IUA.",
+    "keywords": [
+      "Astilbin",
+      "Intrauterine adhesion",
+      "Molecular docking",
+      "Network pharmacology",
+      "PI3K/AKT",
+      "Smilax china L."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*NF-kappa B",
+      "Network Pharmacology",
+      "*Smilax",
+      "Phosphatidylinositol 3-Kinases",
+      "Proto-Oncogene Proteins c-akt",
+      "Proto-Oncogene Proteins c-bcl-2",
+      "China"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Tingting",
+        "Hou, Chuqi",
+        "Duan, Yongzhen",
+        "Li, Yuliang",
+        "Liu, Wenqin",
+        "Huang, Peixian",
+        "Zhou, Yuhua",
+        "Yu, Shanshan",
+        "Song, Luyao"
+      ],
+      "short_names": [
+        "Shi T",
+        "Hou C",
+        "Duan Y",
+        "Li Y",
+        "Liu W",
+        "Huang P",
+        "Zhou Y",
+        "Yu S",
+        "Song L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China.",
+        "Clinical Pharmacy Center, Nanfang Hospital, Southern Medical University, Guangzhou, 510515, China.",
+        "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China.",
+        "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China.",
+        "Clinical Pharmacy Center, Nanfang Hospital, Southern Medical University, Guangzhou, 510515, China.",
+        "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China.",
+        "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China.",
+        "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China. hygeia1019@163.com.",
+        "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China. songluyao.nice@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Tingting",
+        "short_name": "Shi T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Chuqi",
+        "short_name": "Hou C",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Pharmacy Center, Nanfang Hospital, Southern Medical University, Guangzhou, 510515, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Yongzhen",
+        "short_name": "Duan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuliang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenqin",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Pharmacy Center, Nanfang Hospital, Southern Medical University, Guangzhou, 510515, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Peixian",
+        "short_name": "Huang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuhua",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Shanshan",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China. hygeia1019@163.com."
+        ]
+      },
+      {
+        "full_name": "Song, Luyao",
+        "short_name": "Song L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Zhujiang Hospital, Southern Medical University, #253 Industrial Avenue Zhong, Guangzhou, 510280, Guangdong, China. songluyao.nice@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC complementary medicine and therapies"
+    ],
+    "journal_abbrev": [
+      "BMC Complement Med Ther"
+    ],
+    "pub_date": "2024 Apr 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/06 00:42",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [
+      "42244299",
+      "41341539",
+      "41011287",
+      "39819727"
+    ],
+    "refs": [
+      "38326846",
+      "38153125",
+      "38143380",
+      "37035992",
+      "36474249",
+      "36410103",
+      "36341744",
+      "36263529",
+      "36232594",
+      "36184634",
+      "36049518",
+      "35991850",
+      "35841027",
+      "35505443",
+      "35367781",
+      "35196191",
+      "35087967",
+      "34681429",
+      "34561124",
+      "33927774",
+      "33780953",
+      "33574731",
+      "32828744",
+      "32673411",
+      "32444974",
+      "31986212",
+      "31838230",
+      "31448882",
+      "31154456",
+      "30922643",
+      "30269606",
+      "29954457",
+      "29471006",
+      "29355707",
+      "28652014",
+      "28582327",
+      "27522260",
+      "27486270",
+      "27173082",
+      "25573184",
+      "25451770",
+      "24592293",
+      "18937941"
+    ],
+    "similar": [
+      "38580999",
+      "37879505",
+      "37833363",
+      "37799727",
+      "37080367",
+      "36576506",
+      "37282910",
+      "36403742",
+      "37480968",
+      "36604893",
+      "38428659",
+      "38387682",
+      "36280016",
+      "37437794",
+      "39038503",
+      "38347958",
+      "35837376",
+      "34994139",
+      "35970314",
+      "35590353",
+      "37282941",
+      "35429380",
+      "35367781",
+      "34306252",
+      "36372090",
+      "36872359",
+      "36472041",
+      "35616676",
+      "35442463",
+      "37454750",
+      "35667260",
+      "38502457",
+      "34246740",
+      "33556477",
+      "38114126",
+      "36872279",
+      "37005850",
+      "36281111",
+      "38364259",
+      "38114219",
+      "37382018",
+      "36044117",
+      "38403323",
+      "37366364",
+      "38115259",
+      "37391801",
+      "34692849",
+      "35249865",
+      "35926779",
+      "37369336",
+      "35734366",
+      "37796994",
+      "36467890",
+      "36193142",
+      "35850814",
+      "36083487",
+      "38050247",
+      "38460276",
+      "36389420",
+      "37976694",
+      "37350984",
+      "38159819",
+      "37257328",
+      "38342157",
+      "37802827",
+      "35872979",
+      "37138492",
+      "37000102",
+      "36876711",
+      "35851128",
+      "38040415",
+      "38363936",
+      "36604925",
+      "37863399",
+      "35899176",
+      "36825591",
+      "38518857",
+      "32928080",
+      "34627325",
+      "37563784",
+      "36386135",
+      "37690812",
+      "36472040",
+      "35178962",
+      "34660782",
+      "37233418",
+      "37576085",
+      "37777029",
+      "38621927",
+      "35528155",
+      "37216777",
+      "38115276",
+      "35777610",
+      "36105239",
+      "35101570",
+      "36064190",
+      "34349502",
+      "38093206",
+      "38814209",
+      "39022084",
+      "38850960",
+      "39326136",
+      "39364246",
+      "38616753",
+      "39374878",
+      "38670409",
+      "38180061",
+      "39171590",
+      "39240306",
+      "39101141",
+      "39349481",
+      "35790443",
+      "38484140",
+      "37486473",
+      "38582374",
+      "38644599",
+      "38365767",
+      "38586320",
+      "39065764",
+      "39033091",
+      "39155506",
+      "39104394",
+      "39101145",
+      "39321855",
+      "39114070",
+      "39406145",
+      "38533569",
+      "39170477",
+      "39410896",
+      "39295929",
+      "39023545"
+    ],
+    "review": [
+      "38580999",
+      "38363936"
+    ],
+    "pmc": [
+      "10996135"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccomplementmedtherapies.biomedcentral.com/articles/10.1186/s12906-024-04414-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38580999/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38580999",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1122",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

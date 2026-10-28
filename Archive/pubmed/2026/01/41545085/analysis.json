@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41545085",
+  "title": "A scalable computational framework for predicting gene expression from candidate cis-regulatory elements.",
+  "authors": "Zhang, Qinhu; Wang, Siguo; Li, Zhipeng; Bao, Wenzheng; Liu, Wenjian; Huang, De-Shuang",
+  "journal": "Genome research",
+  "published_date": "2026-01-17",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出ScPGE框架，用CNN+Transformer整合TF结合分数和表观组学数据预测基因表达并识别增强子-基因互作，虽涉及TF-DNA结合位点与调控机制，但核心是基因表达预测而非TF-DNA互作建模，方法可迁移至本课题。",
+  "abstract": "Deciphering the relationships between cis-regulatory elements (CREs) and target gene expression has been a long-standing unsolved problem in molecular biology, and the dynamics of CREs in different cell types make this problem more challenging. To address this challenge, we propose a scalable computational framework for predicting gene expression (ScPGE) from discrete candidate CREs (cCREs). ScPGE assembles DNA sequences, transcription factor (TF) binding scores, and epigenomic tracks from discrete cCREs into three-dimensional tensors, and then models the relationships between cCREs and genes by combining convolutional neural networks with transformers. Compared with current state-of-the-art models, ScPGE exhibits superior performance in predicting gene expression and yields higher accuracy in identifying active enhancer-gene interactions through attention mechanisms. By comprehensively analyzing ScPGE's predictions, we find a pattern in true positives (TPs) that the regulatory effect of cCREs on genes decreases with distance. Inspired by the pattern, we design two methods to enhance the ability to capture distal cCRE-gene interactions by incorporating chromatin loops into the ScPGE model. Furthermore, ScPGE accurately discovers some crucial TF motifs within prioritized cCREs and reveals the different regulatory types of these cCREs.",
+  "abstract_zh": "解析顺式调控元件（cis-regulatory elements, CREs）与靶基因表达之间的关系一直是分子生物学中一个长期未解的问题，而CREs在不同细胞类型中的动态变化使这一问题更具挑战性。为应对这一挑战，我们提出了一种可扩展的计算框架，用于从离散候选CREs（cCREs）预测基因表达（ScPGE）。ScPGE将DNA序列、转录因子（transcription factor, TF）结合评分以及来自离散cCREs的表观基因组轨道组装成三维张量，然后通过结合卷积神经网络与变换器来建模cCREs与基因之间的关系。与当前最先进的模型相比，ScPGE在预测基因表达方面表现出更优的性能，并通过注意力机制在识别活性增强子-基因相互作用方面获得更高准确性。通过综合分析ScPGE的预测结果，我们在真阳性（true positives, TPs）中发现一种模式，即cCREs对基因的调控效应随距离增加而减弱。受此模式启发，我们设计了两种方法，通过将染色质环纳入ScPGE模型来增强捕获远端cCRE-基因相互作用的能力。此外，ScPGE准确发现了优先cCREs中的一些关键TF基序，并揭示了这些cCREs的不同调控类型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41545085/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41545085/",
+  "paper_page_path": "papers/pubmed/41545085/index.html"
+}

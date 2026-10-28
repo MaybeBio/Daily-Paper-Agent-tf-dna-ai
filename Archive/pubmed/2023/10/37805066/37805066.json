@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "37805066",
+    "doi": "10.1016/j.jmb.2023.168308",
+    "title": "Structural and Dynamic Changes of Nucleosome upon GATA3 Binding."
+  },
+  "content": {
+    "abstract": "Pioneer factors, which can directly bind to nucleosomes, have been considered to change chromatin conformations. However, the binding impact on the nucleosome is little known. Here, we show how the pioneer factor GATA3 binds to nucleosomal DNA and affects the conformation and dynamics of nucleosomes by using a combination of SAXS, molecular modeling, and molecular dynamics simulations. Our structural models, consistent with the SAXS data, indicate that only one of the two DNA binding domains, N- and C-fingers, of GATA3 binds to an end of the DNA in solution. Our MD simulations further showed that the other unbound end of the DNA increases the fluctuation and enhances the DNA dissociation from the histone core when the N-finger binds to a DNA end, a site near the entry or exit of the nucleosome. However, this was not true for the binding of the C-finger that binds to a location about 15 base pairs distant from the DNA end. In this case, DNA dissociation occurred on the bound end. Taken together, we suggest that the N-finger and C-finger bindings of GATA3 commonly enhance DNA dissociation at one of the two DNA ends (the bound end for the C-finger binding and the unbound end for the N-finger binding), leading to triggering a conformational change in the chromatin.",
+    "keywords": [
+      "GATA3",
+      "SAXS",
+      "dynamics",
+      "nucleosome",
+      "pioneer factor"
+    ],
+    "mesh_terms": [
+      "Chromatin/chemistry",
+      "DNA/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Nucleosomes/chemistry",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "Protein Binding",
+      "*GATA3 Transcription Factor/chemistry",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ishida, Hisashi",
+        "Matsumoto, Atsushi",
+        "Tanaka, Hiroki",
+        "Okuda, Aya",
+        "Morishima, Ken",
+        "Wade, Paul A",
+        "Kurumizaka, Hitoshi",
+        "Sugiyama, Masaaki",
+        "Kono, Hidetoshi"
+      ],
+      "short_names": [
+        "Ishida H",
+        "Matsumoto A",
+        "Tanaka H",
+        "Okuda A",
+        "Morishima K",
+        "Wade PA",
+        "Kurumizaka H",
+        "Sugiyama M",
+        "Kono H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Quantum Life Science, Institutes for Quantum Science and Technology, 4-9-1 Anagawa, Inage-ku, Chiba city, Chiba 263-8555, Japan.",
+        "Institute for Quantum Life Science, Institutes for Quantum Science and Technology, 4-9-1 Anagawa, Inage-ku, Chiba city, Chiba 263-8555, Japan.",
+        "Laboratory of Chromatin Structure and Function, Institute for Quantitative Biosciences, The University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-0032, Japan; Present address: Department of Structural Virology, National Center for Global Health and Medicine, 1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655, Japan.",
+        "Institute for Integrated Radiation and Nuclear Science, Kyoto University, 2-1010 Asashironishi, Kumatori, Sennan-gun, Osaka, 590-0494, Japan.",
+        "Institute for Integrated Radiation and Nuclear Science, Kyoto University, 2-1010 Asashironishi, Kumatori, Sennan-gun, Osaka, 590-0494, Japan.",
+        "Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, Research Triangle Park, Durham, NC 27709, USA.",
+        "Laboratory of Chromatin Structure and Function, Institute for Quantitative Biosciences, The University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-0032, Japan.",
+        "Institute for Integrated Radiation and Nuclear Science, Kyoto University, 2-1010 Asashironishi, Kumatori, Sennan-gun, Osaka, 590-0494, Japan.",
+        "Institute for Quantum Life Science, Institutes for Quantum Science and Technology, 4-9-1 Anagawa, Inage-ku, Chiba city, Chiba 263-8555, Japan; Graduate School of Science, Chiba University, 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan. Electronic address: kono.hidetoshi@qst.go.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ishida, Hisashi",
+        "short_name": "Ishida H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantum Life Science, Institutes for Quantum Science and Technology, 4-9-1 Anagawa, Inage-ku, Chiba city, Chiba 263-8555, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsumoto, Atsushi",
+        "short_name": "Matsumoto A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantum Life Science, Institutes for Quantum Science and Technology, 4-9-1 Anagawa, Inage-ku, Chiba city, Chiba 263-8555, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Hiroki",
+        "short_name": "Tanaka H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chromatin Structure and Function, Institute for Quantitative Biosciences, The University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-0032, Japan; Present address: Department of Structural Virology, National Center for Global Health and Medicine, 1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655, Japan."
+        ]
+      },
+      {
+        "full_name": "Okuda, Aya",
+        "short_name": "Okuda A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrated Radiation and Nuclear Science, Kyoto University, 2-1010 Asashironishi, Kumatori, Sennan-gun, Osaka, 590-0494, Japan."
+        ]
+      },
+      {
+        "full_name": "Morishima, Ken",
+        "short_name": "Morishima K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrated Radiation and Nuclear Science, Kyoto University, 2-1010 Asashironishi, Kumatori, Sennan-gun, Osaka, 590-0494, Japan."
+        ]
+      },
+      {
+        "full_name": "Wade, Paul A",
+        "short_name": "Wade PA",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, Research Triangle Park, Durham, NC 27709, USA."
+        ]
+      },
+      {
+        "full_name": "Kurumizaka, Hitoshi",
+        "short_name": "Kurumizaka H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chromatin Structure and Function, Institute for Quantitative Biosciences, The University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-0032, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugiyama, Masaaki",
+        "short_name": "Sugiyama M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrated Radiation and Nuclear Science, Kyoto University, 2-1010 Asashironishi, Kumatori, Sennan-gun, Osaka, 590-0494, Japan."
+        ]
+      },
+      {
+        "full_name": "Kono, Hidetoshi",
+        "short_name": "Kono H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantum Life Science, Institutes for Quantum Science and Technology, 4-9-1 Anagawa, Inage-ku, Chiba city, Chiba 263-8555, Japan; Graduate School of Science, Chiba University, 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan. Electronic address: kono.hidetoshi@qst.go.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2023 Dec 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/08 02:42",
+    "fetched_at": "2026-09-29 08:16:30"
+  },
+  "links": {
+    "cites": [
+      "39099839"
+    ],
+    "refs": [
+      "37284265",
+      "36435807",
+      "35777463",
+      "33558240",
+      "32886547",
+      "32811816",
+      "32738677",
+      "32513995",
+      "32350470",
+      "32327602",
+      "32027821",
+      "31984189",
+      "31952809",
+      "31724275",
+      "30344106",
+      "30107233",
+      "30073519",
+      "29505570",
+      "29067766",
+      "28877499",
+      "28808438",
+      "28718930",
+      "26922637",
+      "26753008",
+      "26574453",
+      "26569599",
+      "21321607",
+      "20856692",
+      "20800598",
+      "18593145",
+      "18550805",
+      "18397047",
+      "16881818",
+      "16494409",
+      "11806949",
+      "10940251",
+      "8254673"
+    ],
+    "similar": [
+      "37805066",
+      "32811816",
+      "33432055",
+      "27270081",
+      "39315643",
+      "29850894",
+      "29648537",
+      "21278419",
+      "33667509",
+      "32678275",
+      "17142268",
+      "12927539",
+      "33309853",
+      "32702132",
+      "36495920",
+      "31952809",
+      "31303471",
+      "33888707",
+      "29643509",
+      "32027821",
+      "24265699",
+      "21326360",
+      "34153285",
+      "26699921",
+      "15624215",
+      "32778600",
+      "14701742",
+      "25730864",
+      "36062461",
+      "33823458",
+      "36130732",
+      "33617899",
+      "31732143",
+      "21355036",
+      "31490686",
+      "27362329",
+      "40101710",
+      "38991237",
+      "20236766",
+      "25786215",
+      "26922637",
+      "37380014",
+      "32017651",
+      "25564155",
+      "28973435",
+      "30557018",
+      "25418099",
+      "17996059",
+      "29098179",
+      "15601846",
+      "28475873",
+      "37894874",
+      "16756990",
+      "33387534",
+      "12666179",
+      "22385856",
+      "24990379",
+      "32356891",
+      "26175159",
+      "31527274",
+      "21730181",
+      "32350470",
+      "35863165",
+      "9372928",
+      "29505570",
+      "29138400",
+      "30617833",
+      "30392928",
+      "39796159",
+      "34830005",
+      "37225990",
+      "21768347",
+      "12581654",
+      "23475204",
+      "14985365",
+      "32958761",
+      "29395785",
+      "35377618",
+      "33856458",
+      "40029962",
+      "22448809",
+      "25563807",
+      "19932116",
+      "37307148",
+      "34489435",
+      "15306464",
+      "40334658",
+      "9256417",
+      "8522597",
+      "25304387",
+      "20959101",
+      "17234628",
+      "29019976",
+      "39099839",
+      "27624769",
+      "38415718",
+      "7753597",
+      "39383876",
+      "39757199",
+      "21131284"
+    ],
+    "review": [
+      "37805066",
+      "33309853",
+      "21326360",
+      "33823458",
+      "38991237",
+      "32017651",
+      "35863165",
+      "30617833",
+      "12581654",
+      "15306464",
+      "39099839"
+    ],
+    "pmc": [
+      "10843466"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(23)00419-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37805066/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

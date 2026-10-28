@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary materials were available for evaluation
+- **Shared manuscript claim summary** The authors densely map the functional evolution of five mouse developmental enhancers by testing orthologous sequences from 480 extant and ancestrally reconstructed mammalian genomes using massively parallel reporter assays (MPRAs). They report diverse evolutionary modes, identify causal transcription factor binding site (TFBS) changes and context-dependent epistasis via a model-driven reconstitution strategy, and demonstrate an asymmetry between ablation (one to seven mutations) and enhancement (activity ceilings) in model-guided enhancer editing.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, statistical analyses, model architecture and training details, MPRA data, and any validation or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant contribution to understanding enhancer evolution and offers a novel framework for model-guided enhancer editing. The scale of the phylogenetic sampling (480 genomes) and the integration of ancestral reconstruction with deep learning predictions are commendable. However, the abstract alone does not provide sufficient evidence to evaluate the robustness of the claims. Key assertions regarding epistasis, activity ceilings, and the asymmetry between ablation and enhancement require detailed experimental and statistical support that is not visible here. The work is of broad interest to evolutionary and developmental biologists, but the current evidence base is insufficient to fully assess its validity.
+- **Who would be interested in the results, and why** Evolutionary biologists studying cis-regulatory evolution, developmental biologists investigating enhancer function, and computational biologists working on deep learning applications in genomics. The framework for reprogramming endogenous CREs at nucleotide resolution would also interest researchers in genome engineering and gene therapy.
+- **Major strengths** The use of 480 extant and ancestrally reconstructed genomes represents an unusually dense phylogenetic sampling for functional assays. The combination of MPRA with deep learning-based predictions for causal mutation identification is an innovative methodological integration. The reported asymmetry between ablation and enhancement, if robust, has practical implications for enhancer editing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "ablation of enhancer function required as few as one to seven mutations, whereas enhancement was constrained by element-specific activity ceilings" implies a systematic and generalizable asymmetry.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how "ablation" and "enhancement" were defined, measured, or normalized across different enhancers and cell types. Without details on the MPRA readout thresholds, the number of mutations tested per enhancer, and the statistical criteria for calling a functional change, the asymmetry claim cannot be evaluated. It is unclear whether the activity ceiling is a biological property or an artifact of the assay dynamic range.
+  - **Why it matters** This asymmetry is a central conclusion of the work and has implications for the predictability of enhancer editing. If the effect is driven by assay saturation or by the specific choice of enhancers, the generalizability of the claim would be substantially weakened.
+  - **Resolution test** Provide the full MPRA data, including dose-response curves or activity distributions for all tested orthologs and mutants, and demonstrate that the activity ceiling is not an artifact of reporter assay saturation. Show statistical comparisons between ablation and enhancement across all five enhancers, with appropriate multiple-testing corrections.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model-driven reconstitution strategy "revealed critical TFBS changes and pervasive context-dependent epistasis, including instances where mutational effects were strongly contingent on the order of their introduction."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how epistasis was quantified, how the order of mutation introduction was controlled, or how the deep learning model's predictions were validated against experimental measurements. The term "pervasive" implies a quantitative frequency that is not supported by any visible data. The model's accuracy in predicting chromatin accessibility, and its relevance to enhancer activity, is not described.
+  - **Why it matters** Epistasis is a strong claim that requires rigorous demonstration. If the model predictions are not well-calibrated or if the reconstitution strategy introduces systematic biases, the conclusions about causal TFBS changes could be unreliable.
+  - **Resolution test** Show model performance metrics (e.g., correlation between predicted and measured accessibility or activity) and provide a clear definition of epistasis with statistical thresholds. Include control experiments where mutation order is permuted to confirm that the observed contingency is not an artifact of the reconstruction procedure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The overall framework for "reprogramming the activity of endogenous CREs at nucleotide resolution" is presented as a generalizable advance.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not state whether the findings were validated in endogenous contexts (e.g., via genome editing) or only in episomal reporter assays. The leap from MPRA-based measurements to endogenous enhancer function is nontrivial, and the abstract does not address potential discrepancies between the two.
+  - **Why it matters** The claim of reprogramming endogenous CREs has translational implications. If the results are only from reporter assays, the framework's applicability to native chromatin contexts remains unproven.
+  - **Resolution test** Provide evidence of validation in endogenous loci, or clearly state the limitation that the framework has only been tested in reporter assays. If endogenous validation is absent, temper the claim accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "densely mapped" and "pervasive"
+  - **Issue** The terms "densely mapped" and "pervasive" are qualitative and not supported by quantitative descriptors in the abstract.
+  - **Required correction** Provide specific numbers (e.g., number of orthologs tested per enhancer, percentage of mutations showing epistasis) to substantiate these descriptors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, "deep learning-based predictions of chromatin accessibility"
+  - **Issue** The abstract does not name the model or its training data, making it impossible to assess its novelty or generalizability.
+  - **Required correction** Cite the model architecture and training dataset, or state that full details are in the Methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract, "five mouse developmental enhancers"
+  - **Issue** The abstract does not discuss how representative these five enhancers are of mammalian enhancers more broadly, which limits the generalizability of the conclusions.
+  - **Required correction** Add a sentence acknowledging the limited number of enhancers and discussing potential selection biases.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail or quantitative evidence to support the central claims of epistasis, activity ceilings, and the asymmetry between ablation and enhancement. Without access to the full data and methods, the case is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of dense phylogenetic sampling with deep learning-guided mutation reconstitution appears novel, but the abstract does not clearly differentiate this from prior work on enhancer evolution or MPRA-based approaches.
+  - Scientific importance: The question of how enhancers evolve and how their activity can be predictably edited is of high importance. However, the significance of the findings depends on the robustness of the asymmetry claim, which is not yet verifiable.
+  - Interdisciplinary readership: The work bridges evolutionary biology, genomics, and machine learning, which would appeal to a broad readership. The abstract is written in a way that is largely accessible to nonspecialists, though terms like "context-dependent epistasis" may require some background.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail and statistical validation is a major gap.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured, but the claims are presented without sufficient caveats or quantitative support.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing and potentially important framework, but the central claims cannot be evaluated without the full manuscript. I would be supportive if the technical concerns regarding assay dynamics, epistasis quantification, and endogenous validation are addressed in the full paper.
+
+## Risk / unsupported claims
+- The asymmetry between ablation (one to seven mutations) and enhancement (activity ceilings) is unsupported without data on assay dynamic range and statistical thresholds.
+- The claim of "pervasive context-dependent epistasis" is unsupported without a clear definition and quantification of epistasis.
+- The generalizability of the framework to endogenous CREs is unsupported, as no endogenous validation is mentioned.
+- The term "densely mapped" is not quantified, making the scale of the functional mapping difficult to assess.

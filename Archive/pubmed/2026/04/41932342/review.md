@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to figures, tables, methods, or supplemental information
+- **Shared manuscript claim summary** The authors propose GFETM, a deep learning framework that integrates genome foundation model (GFM) sequence embeddings with the embedded topic model (ETM) for scATAC-seq analysis. They claim superior accuracy and generalizability over existing methods, the ability to capture cell-state-specific transcription factor (TF) activity via zero-shot inference and attention-mechanism analysis, and the discovery of biologically meaningful epigenomic signatures in kidney diabetes.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, benchmark definitions, dataset descriptions, and supplemental information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing integration of genome foundation models with topic modeling for scATAC-seq analysis. The motivation is clear and the potential utility for interpretable single-cell epigenomics is evident. However, the abstract provides no quantitative evidence, no benchmark details, and no methodological specifics. The core claims of superior accuracy, generalizability, and biological discovery cannot be evaluated from the supplied material. The work may be of interest to computational biologists working on single-cell epigenomics, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing and applying deep learning methods for single-cell epigenomics. Researchers studying gene regulation, chromatin accessibility, and transcription factor activity at single-cell resolution would also be interested, particularly those working on disease contexts such as diabetic kidney disease. The integration of foundation models with interpretable topic models may attract readers interested in interpretable AI for genomics.
+- **Major strengths** The conceptual framing is strong. The hypothesis that GFM sequence embeddings from open chromatin regions could improve scATAC-seq modeling is well motivated given the known sequence features of OCRs. The combination of a foundation model with an interpretable topic model addresses a real need for both performance and interpretability in single-cell epigenomics. The mention of zero-shot inference and attention-mechanism analysis suggests methodological novelty beyond simple embedding integration.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GFETM demonstrates superior accuracy and generalizability" compared to existing scATAC-seq modeling approaches
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims superior accuracy and generalizability but provides no quantitative results, no comparison baselines, no evaluation metrics, and no datasets used for benchmarking. Without any numerical evidence or specification of what methods GFETM is compared against, this claim is unsupported.
+  - **Why it matters** The central contribution of the paper appears to be improved performance over existing methods. If this claim cannot be evaluated, the primary value proposition of the work is unverifiable from the provided material.
+  - **Resolution test** Provide benchmark results with specific metrics (e.g., clustering accuracy, cell-type identification F1, imputation quality), list comparison methods, and describe datasets and evaluation protocols in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GFETM captures cell-state-specific transcription factor (TF) activity with both zero-shot inference and attention-mechanism analysis"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that TF activity is captured but provides no details on how this is validated, what cell states are examined, which TFs are identified, or how zero-shot inference and attention analysis are implemented and evaluated. The biological validity of the TF activity inference is not demonstrated.
+  - **Why it matters** This claim bridges the methodological contribution to biological interpretation. If the TF activity inference is not rigorously validated, the interpretability advantage of the model is not established.
+  - **Resolution test** Provide validation of TF activity against known regulatory programs, describe the zero-shot inference protocol, show attention analysis results, and include comparison with orthogonal TF activity inference methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The topic mixtures inferred by GFETM reveal biologically meaningful epigenomic signatures of kidney diabetes"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims biological discovery in kidney diabetes but provides no details on the dataset, the specific signatures found, how they relate to known diabetes biology, or any validation of the biological findings. The claim of biological meaningfulness is not supported by any evidence in the abstract.
+  - **Why it matters** This claim positions the work as having translational relevance. Without evidence of biological validity, the significance of the findings for disease understanding is unsubstantiated.
+  - **Resolution test** Describe the kidney diabetes dataset, show the identified epigenomic signatures, relate them to known diabetes-associated regulatory mechanisms, and provide validation through independent analyses or experimental evidence.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify which GFM is used, how the sequence embeddings are integrated with the ETM, or the overall architecture of the model. The term "genome foundation embedded topic model" is introduced but the embedding mechanism is not described.
+  - **Required correction** Provide a brief description of the model architecture, the specific GFM used, and the integration mechanism in the abstract or clearly reference the methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of data availability, code availability, or whether the method is publicly accessible. For a computational method paper, this is an important omission.
+  - **Required correction** Include a data and code availability statement in the abstract or ensure it is prominently stated in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Comparison scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims "superior accuracy and generalizability" but does not specify the scope of comparison. It is unclear whether GFETM is compared against other topic models, other deep learning methods, or other scATAC-seq analysis tools.
+  - **Required correction** Specify the comparison methods and the evaluation settings in the abstract or clearly reference the benchmark section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking concerns. The abstract provides no quantitative evidence, no validation of the biological claims, and no methodological details sufficient to evaluate the core contributions. The case for the paper's central claims is not established from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of GFM embeddings with an interpretable topic model for scATAC-seq appears conceptually novel, though the abstract does not provide enough detail to assess the degree of methodological innovation relative to existing work.
+  - Scientific importance: The potential to improve scATAC-seq analysis and extract interpretable biological signals is important for the single-cell epigenomics community. The kidney diabetes application suggests translational relevance, but the significance cannot be assessed without evidence.
+  - Interdisciplinary readership: The work bridges machine learning, genomics, and disease biology, which could attract a broad readership. However, the abstract is written at a level that assumes familiarity with both foundation models and scATAC-seq, which may limit accessibility.
+  - Technical soundness: Cannot be assessed from the abstract. No methodological details, evaluation protocols, or statistical analyses are provided.
+  - Readability for nonspecialists: The abstract is concise but uses field-specific terminology without sufficient context. The biological significance of the findings is not explained in a way that would be accessible to a broader scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising and the work may be of interest, but the abstract alone does not provide sufficient evidence to support the core claims of superior performance, valid TF activity inference, and meaningful biological discovery. A full review of the complete manuscript would be required to assess whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim of "superior accuracy and generalizability" is unsupported by any quantitative evidence in the abstract.
+- The claim of capturing "cell-state-specific TF activity" is unsupported by any validation or methodological detail.
+- The claim of revealing "biologically meaningful epigenomic signatures of kidney diabetes" is unsupported by any dataset description, result, or validation.
+- The generalizability claim is not defined in terms of what settings or datasets it applies to.
+- The choice of GFM and the integration mechanism are not described, making the method irreproducible from the abstract alone.

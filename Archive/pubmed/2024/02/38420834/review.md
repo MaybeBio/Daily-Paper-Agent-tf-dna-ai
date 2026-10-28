@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors use a proprietary deep-learning algorithm based on a biased Support Vector Machine model to predict that 11 isoforms of CCM1, CCM2, and CCM3 proteins may act as transcription factors, and further substantiate transcription factor functionality for 8 isoforms from CCM1 and CCM2, challenging the prevailing paradigm that CCM signaling is limited to endothelial cellular functions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, algorithm architecture and training details, dataset descriptions, validation experiments, statistical analyses, and any experimental corroboration of transcription factor activity
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational prediction regarding CCM isoforms as transcription factors, but the evidence base is entirely insufficient to support the strong claims made. The reliance on a proprietary deep-learning algorithm without any methodological transparency, validation against experimental data, or independent corroboration leaves the central conclusions unsubstantiated. The claim of "substantiated" transcription factor functionality is particularly problematic given the purely computational nature of the study as described.
+- **Who would be interested in the results, and why** Researchers studying cerebral cavernous malformations, vascular biology, and transcriptional regulation might find the hypothesis intriguing. Computational biologists developing protein function prediction tools could also be interested in the methodological approach. However, the current abstract does not provide enough detail to assess whether the findings would be actionable for these communities.
+- **Major strengths** The hypothesis is clearly framed and builds logically on prior observations of nucleocytoplasmic shuttling and interactions with progesterone receptors. The focus on alternative splicing isoforms is a relevant and underexplored angle in CCM biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a proprietary deep-learning algorithm, specifically a biased-SVM model, was used to "effectively discern" 11 isoforms across all CCM proteins as potential transcription factors.
+  - **Evidence pointer** Methods section not provided; abstract only
+  - **Concern** No details are provided on the algorithm's architecture, training data, feature representation, or how the biased-SVM model was configured and validated. The term "proprietary" further prevents independent assessment or replication.
+  - **Why it matters** Without methodological transparency, the predictive results cannot be evaluated for reliability, and the claim of "effectively discerned" is unsupported. Reproducibility is a core requirement for computational studies.
+  - **Resolution test** Provide full methods including algorithm description, training and test datasets, cross-validation procedures, performance metrics, and code or pseudocode to enable replication.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors state they "substantiated the TF functionality of 8 isoforms derived from CCM1 and CCM2 proteins, marking the inaugural identification of CCM isoforms in the role of TFs."
+  - **Evidence pointer** Results section not provided; abstract only
+  - **Concern** The term "substantiated" implies experimental or strong functional validation, but the abstract only describes comparative DL-based predictive analysis. No experimental evidence such as DNA binding assays, reporter gene assays, chromatin immunoprecipitation, or knockdown studies is mentioned.
+  - **Why it matters** Computational prediction alone cannot substantiate transcription factor functionality. The claim of "inaugural identification" requires robust experimental confirmation to avoid overstatement and potential misinterpretation by the field.
+  - **Resolution test** Provide experimental validation data demonstrating DNA binding, transcriptional activation or repression, and functional relevance in relevant cell types, or revise the claim to reflect that functionality is predicted rather than substantiated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance and framing
+  - **Claim pointer** The conclusion states this "directly challenges the prevailing paradigm, which predominantly emphasizes the involvement of CSC solely in endothelial cellular functions."
+  - **Evidence pointer** Conclusions section; abstract only
+  - **Concern** The abstract does not provide any comparative analysis or literature synthesis demonstrating that the prevailing paradigm is indeed "solely" endothelial. The claim of a paradigm challenge is not supported by evidence presented here.
+  - **Why it matters** Overstating the conceptual impact without supporting evidence weakens the scientific credibility and may mislead readers about the state of the field.
+  - **Resolution test** Provide a balanced review of existing literature showing the current paradigm and clearly delineate how the new findings alter it, with appropriate citations and evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Background description of CCM2 gene name
+  - **Evidence pointer** Background section; abstract only
+  - **Issue** The gene MGC4607 is referred to as CCM2, but the standard nomenclature is CCM2. The use of MGC4607 may confuse readers unfamiliar with older aliases.
+  - **Required correction** Use standard gene symbols consistently, e.g., CCM2, and mention aliases only if necessary.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Terminology "biased-Support Vector Machine"
+  - **Evidence pointer** Methods section; abstract only
+  - **Issue** The term "biased-SVM" is not standard and is not defined. It is unclear whether this refers to cost-sensitive learning, class imbalance handling, or another modification.
+  - **Required correction** Define the term explicitly and explain how the bias is introduced and why it is appropriate for this prediction task.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Number of isoforms and validation status
+  - **Evidence pointer** Results section; abstract only
+  - **Issue** The abstract states 11 isoforms were "discerned" and 8 were "substantiated" but does not clarify the relationship between these two numbers or why 3 isoforms were not substantiated.
+  - **Required correction** Clarify the criteria for substantiation and explain the discrepancy between the 11 predicted and 8 substantiated isoforms.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of methodological transparency), R1-M2 (unsupported claim of substantiated functionality), R1-M3 (overstated paradigm challenge without evidence)
+- **Assessment against Nature-style criteria** Originality: The hypothesis that CCM isoforms may act as transcription factors is novel and potentially interesting. Scientific importance: If validated, the findings could have implications for CCM biology, but the current evidence does not establish importance. Interdisciplinary readership: The topic bridges vascular biology and computational biology, but the abstract lacks sufficient detail to engage either audience deeply. Technical soundness: Not assessable due to missing methods and validation. Readability for nonspecialists: The abstract is generally readable but uses jargon such as "biased-SVM" and "nucleocytoplasmic shuttling" without adequate explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing hypothesis but lacks the methodological detail and experimental validation necessary to support the strong claims. Supportive if technical concerns are resolved and experimental evidence is provided.
+
+## Risk / unsupported claims
+- The claim that 11 isoforms were "effectively discerned" as transcription factors is unsupported without algorithm details and validation metrics.
+- The claim that 8 isoforms have "substantiated TF functionality" is unsupported as no experimental evidence is described.
+- The claim of "inaugural identification" of CCM isoforms as transcription factors is unverifiable from the abstract alone.
+- The assertion that the findings "directly challenge the prevailing paradigm" is unsupported without a literature-based comparison.
+- The overall conclusion that CCM proteins may function as transcription factors is a plausible hypothesis but is not established by the evidence presented.

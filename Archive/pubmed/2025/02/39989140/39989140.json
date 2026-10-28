@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "39989140",
+    "doi": "10.1111/cas.70028",
+    "title": "Novel CHI3L1-Associated Angiogenic Phenotypes Define Glioma Microenvironments: Insights From Multi-Omics Integration."
+  },
+  "content": {
+    "abstract": "The CHI3L1 signaling pathway significantly influences glioma angiogenesis, but its role in the tumor microenvironment (TME) remains elusive. We propose a novel CHI3L1-associated vascular phenotype classification for glioma through integrative analyses of multiple datasets with bulk and single-cell transcriptome, genomics, digital pathology, and clinical data. We investigated the biological characteristics, genomic alterations, therapeutic vulnerabilities, and immune profiles within these phenotypes through a comprehensive multi-omics approach. We constructed the vascular-related risk (VR) score based on CHI3L1-associated vascular signatures (CAVS) identified by machine learning algorithms. Utilizing unsupervised consensus clustering, gliomas were stratified into three distinct vascular phenotypes: Cluster A, marked by high vascularization and stromal activation with a relatively low levels of tumor-infiltrating lymphocytes (TILs); Cluster B, characterized by moderate vascularization and stromal activity, coupled with a high density of TILs; and Cluster C, defined by low vascularization and sparse immune cell infiltration. We observed that the CAVS effectively indicated glioma-associated angiogenesis and immune suppression by single-cell RNA-seq analysis. Moreover, the high-VR-score group exhibited enhanced angiogenic activity, reduced immune response, resistance to immunotherapy, and poorer clinical outcomes. The VR score independently predicted glioma prognosis and, combined with a nomogram, provided a robust clinical decision-making tool. Potential drug prediction based on transcription factors for high-risk patients was also performed. Our study reveals that CHI3L1-associated vascular phenotypes shape distinct immune landscapes in gliomas, offering insights for optimizing therapeutic strategies to improve patient outcomes.",
+    "keywords": [
+      "CHI3L1-associated vascular signature",
+      "glioma",
+      "prognosis",
+      "tumor microenvironment",
+      "vascular phenotype"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Microenvironment/genetics/immunology",
+      "*Glioma/genetics/pathology/blood supply/immunology/metabolism",
+      "*Neovascularization, Pathologic/genetics/pathology",
+      "*Brain Neoplasms/genetics/pathology/blood supply/immunology",
+      "*Chitinase-3-Like Protein 1/genetics/metabolism",
+      "Lymphocytes, Tumor-Infiltrating/immunology",
+      "Phenotype",
+      "Prognosis",
+      "Genomics/methods",
+      "Biomarkers, Tumor/genetics",
+      "Single-Cell Analysis",
+      "Transcriptome",
+      "Gene Expression Regulation, Neoplastic",
+      "Nomograms",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yu-Hang",
+        "Cai, Yu-Xiang",
+        "Pan, Zhi-Yong",
+        "Tang, Feng",
+        "Ma, Chao",
+        "Wang, Ze-Fen",
+        "Li, Gang",
+        "Chang, Hang",
+        "Tian, Su-Fang",
+        "Li, Zhi-Qiang"
+      ],
+      "short_names": [
+        "Zhao YH",
+        "Cai YX",
+        "Pan ZY",
+        "Tang F",
+        "Ma C",
+        "Wang ZF",
+        "Li G",
+        "Chang H",
+        "Tian SF",
+        "Li ZQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2417-1835",
+        "ORCID: 0000-0003-3185-5717"
+      ],
+      "affiliations": [
+        "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Department of Pathology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Department of Physiology, Wuhan University School of Basic Medical Sciences, Wuhan, China.",
+        "Department of Biological Repositories, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Berkeley Biomedical Data Science Center, Lawrence Berkeley National Laboratory, Berkeley, California, USA.",
+        "Department of Pathology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Hubei International Science and Technology Cooperation Base for Research and Clinical Techniques for Brain Glioma Diagnosis and Treatment, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yu-Hang",
+        "short_name": "Zhao YH",
+        "identifiers": [
+          "0000-0003-2417-1835"
+        ],
+        "affiliations": [
+          "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yu-Xiang",
+        "short_name": "Cai YX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Zhi-Yong",
+        "short_name": "Pan ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Feng",
+        "short_name": "Tang F",
+        "identifiers": [
+          "0000-0003-3185-5717"
+        ],
+        "affiliations": [
+          "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chao",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ze-Fen",
+        "short_name": "Wang ZF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Wuhan University School of Basic Medical Sciences, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Gang",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Repositories, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Hang",
+        "short_name": "Chang H",
+        "identifiers": [],
+        "affiliations": [
+          "Berkeley Biomedical Data Science Center, Lawrence Berkeley National Laboratory, Berkeley, California, USA."
+        ]
+      },
+      {
+        "full_name": "Tian, Su-Fang",
+        "short_name": "Tian SF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhi-Qiang",
+        "short_name": "Li ZQ",
+        "identifiers": [],
+        "affiliations": [
+          "Brain Glioma Center & Department of Neurosurgery, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+          "Hubei International Science and Technology Cooperation Base for Research and Clinical Techniques for Brain Glioma Diagnosis and Treatment, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer science"
+    ],
+    "journal_abbrev": [
+      "Cancer Sci"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/24 06:20",
+    "fetched_at": "2026-09-30 12:23:43"
+  },
+  "links": {
+    "cites": [
+      "42703256"
+    ],
+    "refs": [
+      "39061137",
+      "38039967",
+      "37820582",
+      "37580710",
+      "35882906",
+      "35541910",
+      "35379580",
+      "35365796",
+      "35148413",
+      "34556668",
+      "34329662",
+      "34185076",
+      "34150622",
+      "33688998",
+      "33538338",
+      "33230435",
+      "33199490",
+      "33140095",
+      "33031808",
+      "32929074",
+      "32775303",
+      "32509568",
+      "31611708",
+      "31327527",
+      "30755454",
+      "29863955",
+      "29846705",
+      "29434333",
+      "29141164",
+      "29110682",
+      "28991892",
+      "28228279",
+      "28187290",
+      "28102259",
+      "27698118",
+      "26951085",
+      "25277523",
+      "24282289",
+      "23890059",
+      "23755018",
+      "23579075",
+      "22786655",
+      "22378045",
+      "21953450",
+      "21385870",
+      "19767768",
+      "18273688",
+      "17894407",
+      "17273768",
+      "16177122",
+      "12727857",
+      "12586633",
+      "12414522",
+      "9044528",
+      "8640769"
+    ],
+    "similar": [
+      "39989140",
+      "39574472",
+      "35115572",
+      "38847472",
+      "34220791",
+      "40130175",
+      "34795663",
+      "34726238",
+      "37748218",
+      "34489938",
+      "31234870",
+      "38956740",
+      "33889156",
+      "33594424",
+      "39000203",
+      "39845963",
+      "39075640",
+      "33363544",
+      "36244672",
+      "32572951",
+      "35069579",
+      "38824202",
+      "38687049",
+      "36276655",
+      "32162312",
+      "33858847",
+      "33848908",
+      "39390013",
+      "38536568",
+      "27121858",
+      "39453922",
+      "32392361",
+      "34603309",
+      "34539626",
+      "40330458",
+      "39994800",
+      "35144680",
+      "39712016",
+      "40330470",
+      "27738332",
+      "40052358",
+      "38687369",
+      "40200221",
+      "39703515",
+      "40222970",
+      "39126294",
+      "39135890",
+      "33902005",
+      "34659218",
+      "33658560",
+      "39127414",
+      "34539622",
+      "39707188",
+      "39095785",
+      "39993959",
+      "33959130",
+      "39757245",
+      "40275021",
+      "38918441",
+      "32289666",
+      "34566979",
+      "40308585",
+      "40308576",
+      "38599441",
+      "39870964",
+      "20506295",
+      "34815785",
+      "34603316",
+      "28531337",
+      "32457124",
+      "39491527",
+      "39955518",
+      "38837011",
+      "39148129",
+      "38846954",
+      "39742274",
+      "38987542",
+      "34712225",
+      "31428092",
+      "28754819",
+      "38926605",
+      "39530087",
+      "40275154",
+      "39445005",
+      "39416790",
+      "40330476",
+      "38687460",
+      "38164693",
+      "33557837",
+      "34368351",
+      "40243888",
+      "35154121",
+      "35990696",
+      "39468708",
+      "40058165",
+      "39868675",
+      "33188484",
+      "39735553",
+      "39355251",
+      "31088845"
+    ],
+    "review": [
+      "39989140",
+      "34603316"
+    ],
+    "pmc": [
+      "12044658"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://www.ovid.com/39989140.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39989140/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/cas.70028",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

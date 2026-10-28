@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41858352",
+    "doi": "10.3389/fonc.2026.1781380",
+    "title": "Artificial neural network-based immune biomarker signature predicts pathological complete response to neoadjuvant chemotherapy in HER2-negative breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Neoadjuvant chemotherapy (NAC) is widely used in early-stage and locally advanced HER2-negative breast cancer, yet pathological complete response (pCR) is achieved in only a subset of patients. Reliable pretreatment biomarkers for predicting pCR are lacking, particularly for patients treated with standard anthracycline- and taxane-based regimens. Increasing evidence indicates that chemotherapy efficacy is closely linked to the tumor immune microenvironment, suggesting that immune-related molecular signatures may improve response prediction. METHODS: A total of 2,385 pretreatment HER2-negative breast cancer patients from ten GEO cohorts were included. GSE194040 (n = 743) was used for training, and nine independent cohorts (n = 1,642) were used for external validation. Differential expression analysis was performed separately in hormone receptor positive and negative subgroups, and genes showing concordant regulation between pCR and non-pCR cases were identified. Weighted gene co-expression network analysis (WGCNA) was applied to detect pCR-associated gene modules. Immune-related genes curated from the ImmPort database were intersected with candidate genes, followed by feature selection using least absolute shrinkage and selection operator regression, random forest, and support vector machine recursive feature elimination. An artificial neural network (ANN) model was constructed based on overlapping features and evaluated using receiver operating characteristic analysis. Immune infiltration was estimated by CIBERSORT, and transcription factor, competing endogenous RNA, and drug enrichment analyses were performed. Key genes were further validated by quantitative real-time PCR in pretreatment tumor tissues. RESULTS: Five immune-related genes (CCL2, CXCL10, CXCL13, HLA-E, and IGKV1D-8) were identified as robust predictors of pCR and used to build the ANN model. The model achieved an area under the curve of 0.858(95% CI: 0.829-0.888) in the training cohort and 0.773 (95% CI: 0.735-0.808) in the external validation cohorts, demonstrating s predictive performance across independent datasets. High expression of the five-gene signature was associated with increased infiltration of cytotoxic and antigen-presenting immune cells, consistent with an immune-activated tumor microenvironment, and was confirmed by qRT-PCR analysis. CONCLUSION: This study establishes a rigorously validated ANN-based immune gene signature for predicting response to neoadjuvant chemotherapy in HER2-negative breast cancer, providing a potential tool for pretreatment risk stratifictableation and individualized therapeutic decision-making.",
+    "keywords": [
+      "HER2-negative breast cancer",
+      "artificial neural network",
+      "immune biomarkers",
+      "neoadjuvant chemotherapy",
+      "pathologic complete response"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yulong",
+        "Nong, Shitang",
+        "Deng, Suai",
+        "Su, Qiyuan",
+        "Lu, Jiao",
+        "Fang, Dalang",
+        "Qin, Shihuan",
+        "Ma, Yanfei"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Nong S",
+        "Deng S",
+        "Su Q",
+        "Lu J",
+        "Fang D",
+        "Qin S",
+        "Ma Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gland Surgery, Baise People's Hospital, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Baise People's Hospital, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Ultrasound, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Baise People's Hospital, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yulong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Baise People's Hospital, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Nong, Shitang",
+        "short_name": "Nong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Baise People's Hospital, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Suai",
+        "short_name": "Deng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Su, Qiyuan",
+        "short_name": "Su Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jiao",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Dalang",
+        "short_name": "Fang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Shihuan",
+        "short_name": "Qin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Baise People's Hospital, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yanfei",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in oncology"
+    ],
+    "journal_abbrev": [
+      "Front Oncol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/20 07:10",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41653522",
+      "41650749",
+      "41044370",
+      "40963050",
+      "40790759",
+      "40592739",
+      "40320521",
+      "39856787",
+      "39717767",
+      "39574183",
+      "39286218",
+      "39019058",
+      "38955423",
+      "38902472",
+      "38458196",
+      "38335394",
+      "38157855",
+      "37820582",
+      "37774952",
+      "37575246",
+      "37422617",
+      "37275958",
+      "37265698",
+      "37033251",
+      "37006285",
+      "36978140",
+      "36969232",
+      "36950684",
+      "36110217",
+      "35935976",
+      "35800743",
+      "35754838",
+      "34526986",
+      "34504204",
+      "34143979",
+      "34115499",
+      "33579951",
+      "33545385",
+      "33299141",
+      "33240283",
+      "33238581",
+      "32656317",
+      "32101663",
+      "32046998",
+      "30228933",
+      "30170605",
+      "29233559",
+      "29207310",
+      "28089769",
+      "26454214",
+      "21602432",
+      "18640859"
+    ],
+    "similar": [
+      "41858352",
+      "41018039",
+      "40936892",
+      "41388523",
+      "41809834",
+      "35928032",
+      "42445417",
+      "42088521",
+      "41987242",
+      "42512912",
+      "41656803",
+      "42004699",
+      "39472970",
+      "36175898",
+      "42244292",
+      "34341184",
+      "42421685",
+      "35610143",
+      "42173822",
+      "42016158",
+      "35958598",
+      "27312051",
+      "41947063",
+      "41656832",
+      "35800743",
+      "33639324",
+      "40438115",
+      "39834541",
+      "38087296",
+      "42582767",
+      "41121364",
+      "41858783",
+      "40976768",
+      "34233259",
+      "36685822",
+      "41580311",
+      "40016785",
+      "42035196",
+      "41797338",
+      "34990895",
+      "42393615",
+      "42305494",
+      "17993229",
+      "33069665",
+      "40386252",
+      "42326009",
+      "33403050",
+      "41667698",
+      "42123756",
+      "40131473",
+      "41013799",
+      "36660659",
+      "40330698",
+      "34076352",
+      "42292668",
+      "42399808",
+      "28051275",
+      "41116969",
+      "41220724",
+      "41971137",
+      "23074401",
+      "40584836",
+      "28521821",
+      "41231625",
+      "42597971",
+      "42180906",
+      "42326181",
+      "41988156",
+      "19758440",
+      "40838069",
+      "42000858",
+      "41885969",
+      "41815152",
+      "39395242",
+      "39209452",
+      "40597935",
+      "42495609",
+      "39958895",
+      "41354135",
+      "41132349",
+      "41482355",
+      "41927823",
+      "35633290",
+      "42299275",
+      "41432483",
+      "38507233",
+      "40277751",
+      "35663978",
+      "41828646",
+      "35965814",
+      "40963050",
+      "40680158",
+      "36409395",
+      "41601635",
+      "40104717",
+      "40460484",
+      "36532015",
+      "42251269",
+      "42431430",
+      "36060977"
+    ],
+    "review": [
+      "41858352",
+      "17993229"
+    ],
+    "pmc": [
+      "12995788"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41858352/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fonc.2026.1781380",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

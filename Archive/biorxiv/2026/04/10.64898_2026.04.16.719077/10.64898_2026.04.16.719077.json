@@ -1,0 +1,585 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.16.719077",
+  "title": "Defining the DNA Binding Specificity of GRHL2",
+  "doi": "10.64898/2026.04.16.719077",
+  "abstract": "Grainyhead-like 2 (GRHL2) is an epithelial transcription factor with context-dependent regulatory roles, yet the sequence rules governing its DNA recognition remain incompletely defined. In this study, a high-density genomic Specificity and Affinity for Protein (SNAP) DNA-binding array containing 772,732 tiled probes derived from GRHL2 ChIP-seq regions was used to resolve GRHL2 binding specificity at 6 base pair resolution across genomic sequences. From high-affinity probes, de novo motif analysis recovered the canonical 5’-AACCGGTT-3’ motif. Sequence specificity landscapes revealed a stepwise reduction in binding as mismatches were introduced, with the strongest effects at the C (position 3) and G (position 6) within the motif, greater tolerance at the central CG dinucleotide, and intermediate tolerance at the A/T bases at the motif edges. This analysis also demonstrated the influence of nearby flanking sequences. Extended motif and spacing analyses indicated dimeric binding at paired motifs, with periodic helical spacing consistent with interactions on the same face of the DNA helix. Integration of SNAP array binding with ChIP-seq data distinguished direct, motif-encoded GRHL2 occupancy from indirect, cofactor-mediated recruitment at genomic sites. These results define the sequence specificity of GRHL2 interactions with variations in the DNA consensus motif and flanking sequences within an endogenous genomic context. Graphical Abstract",
+  "authors": [
+    "Paige E. Messa",
+    "Christopher L. Warren",
+    "Noah R. Nicol",
+    "Keenan S. Pearson",
+    "Justin P. Peters",
+    "Amy M. Fowler",
+    "Elaine T. Alarid",
+    "Mary Szatkowski Ozers"
+  ],
+  "published_date": "2026-04-18",
+  "updated_date": "2026-04-19T05:45:19Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.16.719077",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.16.719077.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            21
+          ]
+        ],
+        "date-time": "2026-04-21T18:15:58Z",
+        "timestamp": 1776795358453,
+        "version": "3.51.2"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            18
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                18
+              ]
+            ],
+            "date-time": "2026-04-18T00:00:00Z",
+            "timestamp": 1776470400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01 CA260140"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01 CA260140"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Grainyhead-like 2 (GRHL2) is an epithelial transcription factor with context-dependent regulatory roles, yet the sequence rules governing its DNA recognition remain incompletely defined. In this study, a high-density genomic Specificity and Affinity for Protein (SNAP) DNA-binding array containing 772,732 tiled probes derived from GRHL2 ChIP-seq regions was used to resolve GRHL2 binding specificity at 6 base pair resolution across genomic sequences. From high-affinity probes, de novo motif analysis recovered the canonical 5’-AACCGGTT-3’ motif.</jats:p>\n                <jats:p>Sequence specificity landscapes revealed a stepwise reduction in binding as mismatches were introduced, with the strongest effects at the C (position 3) and G (position 6) within the motif, greater tolerance at the central CG dinucleotide, and intermediate tolerance at the A/T bases at the motif edges. This analysis also demonstrated the influence of nearby flanking sequences.</jats:p>\n                <jats:p>Extended motif and spacing analyses indicated dimeric binding at paired motifs, with periodic helical spacing consistent with interactions on the same face of the DNA helix. Integration of SNAP array binding with ChIP-seq data distinguished direct, motif-encoded GRHL2 occupancy from indirect, cofactor-mediated recruitment at genomic sites. These results define the sequence specificity of GRHL2 interactions with variations in the DNA consensus motif and flanking sequences within an endogenous genomic context.</jats:p>\n                <jats:sec>\n                  <jats:title>Graphical Abstract</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"719077v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.64898/2026.04.16.719077",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            19
+          ]
+        ],
+        "date-time": "2026-04-19T05:45:19Z",
+        "timestamp": 1776577519000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Defining the DNA Binding Specificity of GRHL2"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Paige E.",
+          "family": "Messa",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Proteovista LLC, Madison, WI 53719, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christopher L.",
+          "family": "Warren",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Proteovista LLC, Madison, WI 53719, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Noah R.",
+          "family": "Nicol",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Proteovista LLC, Madison, WI 53719, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Keenan S.",
+          "family": "Pearson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Proteovista LLC, Madison, WI 53719, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Justin P.",
+          "family": "Peters",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Biochemistry, University of Northern Iowa, Cedar Falls, IA 50614, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Amy M.",
+          "family": "Fowler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Radiology, University of Wisconsin-Madison, Madison, WI 53792, USA"
+            },
+            {
+              "name": "Department of Medical Physics, University of Wisconsin-Madison, Madison, WI 53705, USA"
+            },
+            {
+              "name": "Carbone Comprehensive Cancer Center, University of Wisconsin-Madison, Madison, WI 53705, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Elaine T.",
+          "family": "Alarid",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "McArdle Laboratory for Cancer Research, Department of Oncology, Carbone Comprehensive Cancer Center, University of Wisconsin-Madison, Madison, WI 53705, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mary Szatkowski",
+          "family": "Ozers",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Proteovista LLC, Madison, WI 53719, USA"
+            },
+            {
+              "name": "Department of Radiology, University of Wisconsin-Madison, Madison, WI 53792, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.modgep.2006.03.011"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0925-4773(02)00046-1"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-11-4038"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-12-4082"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2010.07.017"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.055483"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers16162906"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M113.456293"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ijc.29841"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1210/en.2019-00213"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1681/ASN.2014080759"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12964-022-01029-5"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-019-0506-3"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.113829"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1819155116"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1307589110"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E16-04-0249"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep19943"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2016.11.028"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/320134a0"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14740/jocmr4398"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1200/jco.22.02500"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3322/caac.21863"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1993.tb05756.x"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1996.tb00571.x"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1210/en.2007-0148"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.25.13.5417-5428.2005"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1210/me.2001-0316"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00417-18"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mcb.00191-22"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.730"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers13205205"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-59745-483-4_41"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M114.621698"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1698-z"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2008.195"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0033583510000077"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku180"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.105.070490"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.21.6325"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0914023107"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1299"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41392-022-00944-w"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scisignal.ado3473"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp335"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz394"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2019.02.036"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0215340"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1012088"
+        },
+        {
+          "key": "2026042110150893000_2026.04.16.719077v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2016.020"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.16.719077",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            21
+          ]
+        ],
+        "date-time": "2026-04-21T17:15:19Z",
+        "timestamp": 1776791719000
+      },
+      "score": 116.26141,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.16.719077"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            18
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.64898/2026.04.16.719077",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

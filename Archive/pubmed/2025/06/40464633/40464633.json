@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "40464633",
+    "doi": "10.1021/acs.jcim.5c00580",
+    "title": "Investigation of Structural Mechanisms Underlying p53 Dysfunction Caused by 148 Missense Mutations Using AlphaFold3 and Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "Tumor protein p53 (TP53) is a crucial regulator of genomic integrity, frequently mutated in more than half of all human cancers. These mutations predominantly target the DNA-binding domain (DBD), impairing p53's interaction with DNA and its tumor-suppressive functions. To elucidate the structural and functional consequences of p53 mutations, we investigated 148 missense variants located within its DNA-binding interface using cutting-edge computational approaches. We employed AlphaFold3 (AF3) to predict p53-DNA complex structures, integrating these predictions with molecular dynamics (MD) and force-guided pulling simulations to assess mutation-induced changes in structural stability and DNA-binding properties. Moreover, we compared the results of our study with experimental in vitro enrichment scores (RFS) and Combined Annotation Dependent Depletion (CADD). We identified a moderate negative correlation between plDDT and the pathogenicity of mutant variants, suggesting that mutations causing more significant alterations in the protein tertiary structure have a greater negative impact on cellular function. Moreover, we identified two possible structural mechanisms through which mutations can impair the p53 functionality. Specifically, some mutations, such as R248P and N239S, reduce the binding affinity of the p53-DNA complex, whereas others, such as C238Y and P278R, enhance affinity but compromise the structural stability of the complex. Furthermore, we uncovered mutations with potential rescuing effects, such as E285A and M243T, which preserved structural stability and enhanced the DNA-binding ability. Our findings provide a comprehensive framework for understanding the molecular mechanisms underlying p53 mutations and their role in cancer pathogenesis. This study highlights the value of integrative computational approaches in investigating protein-nucleic acid interactions, providing critical insights that can guide the development of therapeutic strategies targeting p53 mutations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/genetics/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Mutation, Missense",
+      "Humans",
+      "DNA/metabolism/chemistry",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Stability"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rustamov, Kh R",
+        "Razzokov, J I",
+        "Baev, A Y"
+      ],
+      "short_names": [
+        "Rustamov KR",
+        "Razzokov JI",
+        "Baev AY"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7661-869X",
+        "ORCID: 0000-0003-1582-5059"
+      ],
+      "affiliations": [
+        "Laboratory of Experimental Biophysics, Center for Advanced Technologies, Tashkent 100174, Uzbekistan.",
+        "Institute of Fundamental and Applied Research, National Research University TIIAME, Kori Niyoziy 39, Tashkent 100000, Uzbekistan.",
+        "Department of Pharmaceuticals and Chemistry, Alfraganus University, Yukori Karakamish street 2a, Tashkent 100190, Uzbekistan.",
+        "Laboratory of Experimental Biophysics, Center for Advanced Technologies, Tashkent 100174, Uzbekistan.",
+        "Department of Biophysics, National University of Uzbekistan, Tashkent 100174, Uzbekistan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rustamov, Kh R",
+        "short_name": "Rustamov KR",
+        "identifiers": [
+          "0000-0001-7661-869X"
+        ],
+        "affiliations": [
+          "Laboratory of Experimental Biophysics, Center for Advanced Technologies, Tashkent 100174, Uzbekistan."
+        ]
+      },
+      {
+        "full_name": "Razzokov, J I",
+        "short_name": "Razzokov JI",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Applied Research, National Research University TIIAME, Kori Niyoziy 39, Tashkent 100000, Uzbekistan.",
+          "Department of Pharmaceuticals and Chemistry, Alfraganus University, Yukori Karakamish street 2a, Tashkent 100190, Uzbekistan."
+        ]
+      },
+      {
+        "full_name": "Baev, A Y",
+        "short_name": "Baev AY",
+        "identifiers": [
+          "0000-0003-1582-5059"
+        ],
+        "affiliations": [
+          "Laboratory of Experimental Biophysics, Center for Advanced Technologies, Tashkent 100174, Uzbekistan.",
+          "Department of Biophysics, National University of Uzbekistan, Tashkent 100174, Uzbekistan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Jun 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/04 12:29",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42558429",
+      "42306789",
+      "42075988",
+      "41772647"
+    ],
+    "refs": [],
+    "similar": [
+      "40464633",
+      "40504558",
+      "39264222",
+      "36555140",
+      "39737749",
+      "21561095",
+      "35659507",
+      "34403252",
+      "26442703",
+      "26244575",
+      "28126403",
+      "20113312",
+      "24687952",
+      "31881526",
+      "18996393",
+      "30160791",
+      "11917017",
+      "26579714",
+      "22110706",
+      "25550083",
+      "39140857",
+      "30388364",
+      "24324553",
+      "28813011",
+      "40064360",
+      "35887312",
+      "39603375",
+      "40333905",
+      "36700982",
+      "34402752",
+      "31216622",
+      "33263541",
+      "34768775",
+      "11793474",
+      "25378323",
+      "33315226",
+      "26477317",
+      "18260640",
+      "41009698",
+      "27043210",
+      "25897952",
+      "29260852",
+      "22803791",
+      "30419285",
+      "21338609",
+      "16687402",
+      "35234033",
+      "17401432",
+      "11697899",
+      "40867533",
+      "14519637",
+      "20124408",
+      "24100332",
+      "28052007",
+      "8023157",
+      "30362715",
+      "28410371",
+      "38679255",
+      "18315848",
+      "20978130",
+      "41397879",
+      "40111159",
+      "17401433",
+      "14534297",
+      "24253321",
+      "27503952",
+      "16969499",
+      "40725138",
+      "23863845",
+      "32075132",
+      "29857816",
+      "33984364",
+      "31073076",
+      "38018912",
+      "32098369",
+      "16818505",
+      "22028641",
+      "39684639",
+      "17703463",
+      "30339916",
+      "37072394",
+      "29663862",
+      "21339981",
+      "39390510",
+      "40382899",
+      "29670092",
+      "38862470",
+      "23952735",
+      "21464285",
+      "28208646",
+      "19913028",
+      "34612239",
+      "41365927",
+      "40806592",
+      "15683227",
+      "39946082",
+      "40233742",
+      "32307496",
+      "9698540",
+      "28836764"
+    ],
+    "review": [
+      "40464633",
+      "25550083",
+      "29260852",
+      "17401432",
+      "40867533",
+      "41397879",
+      "17401433",
+      "32075132",
+      "29857816",
+      "39684639",
+      "39390510"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00580",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

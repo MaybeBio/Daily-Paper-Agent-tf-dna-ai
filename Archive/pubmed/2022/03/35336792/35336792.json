@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "35336792",
+    "doi": "10.3390/biology11030418",
+    "title": "PWM2Vec: An Efficient Embedding Approach for Viral Host Specification from Coronavirus Spike Sequences."
+  },
+  "content": {
+    "abstract": "The study of host specificity has important connections to the question about the origin of SARS-CoV-2 in humans which led to the COVID-19 pandemic-an important open question. There are speculations that bats are a possible origin. Likewise, there are many closely related (corona)viruses, such as SARS, which was found to be transmitted through civets. The study of the different hosts which can be potential carriers and transmitters of deadly viruses to humans is crucial to understanding, mitigating, and preventing current and future pandemics. In coronaviruses, the surface (S) protein, or spike protein, is important in determining host specificity, since it is the point of contact between the virus and the host cell membrane. In this paper, we classify the hosts of over five thousand coronaviruses from their spike protein sequences, segregating them into clusters of distinct hosts among birds, bats, camels, swine, humans, and weasels, to name a few. We propose a feature embedding based on the well-known position weight matrix (PWM), which we call PWM2Vec, and we use it to generate feature vectors from the spike protein sequences of these coronaviruses. While our embedding is inspired by the success of PWMs in biological applications, such as determining protein function and identifying transcription factor binding sites, we are the first (to the best of our knowledge) to use PWMs from viral sequences to generate fixed-length feature vector representations, and use them in the context of host classification. The results on real world data show that when using PWM2Vec, machine learning classifiers are able to perform comparably to the baseline models in terms of predictive performance and runtime-in some cases, the performance is better. We also measure the importance of different amino acids using information gain to show the amino acids which are important for predicting the host of a given coronavirus. Finally, we perform some statistical analyses on these results to show that our embedding is more compact than the embeddings of the baseline models.",
+    "keywords": [
+      "COVID-19",
+      "classification",
+      "clustering",
+      "coronavirus",
+      "host specification",
+      "k-mers",
+      "position weight matrix"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ali, Sarwan",
+        "Bello, Babatunde",
+        "Chourasia, Prakash",
+        "Punathil, Ria Thazhe",
+        "Zhou, Yijing",
+        "Patterson, Murray"
+      ],
+      "short_names": [
+        "Ali S",
+        "Bello B",
+        "Chourasia P",
+        "Punathil RT",
+        "Zhou Y",
+        "Patterson M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8121-2168",
+        "ORCID: 0000-0002-9974-5824",
+        "ORCID: 0000-0002-4329-0234"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA.",
+        "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA.",
+        "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA.",
+        "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA.",
+        "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA.",
+        "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ali, Sarwan",
+        "short_name": "Ali S",
+        "identifiers": [
+          "0000-0001-8121-2168"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA."
+        ]
+      },
+      {
+        "full_name": "Bello, Babatunde",
+        "short_name": "Bello B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA."
+        ]
+      },
+      {
+        "full_name": "Chourasia, Prakash",
+        "short_name": "Chourasia P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA."
+        ]
+      },
+      {
+        "full_name": "Punathil, Ria Thazhe",
+        "short_name": "Punathil RT",
+        "identifiers": [
+          "0000-0002-9974-5824"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yijing",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA."
+        ]
+      },
+      {
+        "full_name": "Patterson, Murray",
+        "short_name": "Patterson M",
+        "identifiers": [
+          "0000-0002-4329-0234"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Georgia State University, Atlanta, GA 30303, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2022 Mar 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/27 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "40988919",
+      "39650499",
+      "38254915",
+      "37395885",
+      "37372139",
+      "37371514",
+      "36914815",
+      "36576129",
+      "36296187"
+    ],
+    "refs": [
+      "35507111",
+      "34698531",
+      "34698508",
+      "34606462",
+      "33763052",
+      "33464914",
+      "33400058",
+      "33353955",
+      "33324602",
+      "33126180",
+      "32990100",
+      "32981683",
+      "32747721",
+      "32563999",
+      "32544437",
+      "32295153",
+      "32275855",
+      "32228809",
+      "32109013",
+      "32015507",
+      "32011700",
+      "31062021",
+      "31057715",
+      "30427878",
+      "29790939",
+      "29514181",
+      "28984206",
+      "28604872",
+      "27578435",
+      "26941778",
+      "26130577",
+      "25884504",
+      "25248734",
+      "24925766",
+      "24580807",
+      "24278755",
+      "22913572",
+      "22073148",
+      "22006842",
+      "21912677",
+      "21868852",
+      "21491842",
+      "20855926",
+      "19586537",
+      "19106141",
+      "17993673",
+      "17470909",
+      "16611880",
+      "16400146",
+      "15615680",
+      "15215414",
+      "12885925",
+      "12824371",
+      "10812473",
+      "10627550",
+      "8211139",
+      "7584402",
+      "7048259"
+    ],
+    "similar": [
+      "35336792",
+      "32981683",
+      "32404529",
+      "32342926",
+      "32209118",
+      "33327904",
+      "33878118",
+      "35365153",
+      "32592038",
+      "37199653",
+      "24172901",
+      "29258555",
+      "32571797",
+      "33132205",
+      "33655480",
+      "26378164",
+      "32295925",
+      "32515561",
+      "32451808",
+      "35431364",
+      "30744201",
+      "34055887",
+      "33347434",
+      "36197088",
+      "32341622",
+      "34635199",
+      "33102628",
+      "32238584",
+      "32821661",
+      "32847856",
+      "24899185",
+      "30531999",
+      "31167913",
+      "33175551",
+      "32817223",
+      "31522710",
+      "32829257",
+      "33795938",
+      "32641482",
+      "26792741",
+      "33922613",
+      "32604730",
+      "33667553",
+      "25791336",
+      "32794346",
+      "32661139",
+      "34375189",
+      "30807567",
+      "26206723",
+      "28077633",
+      "35301337",
+      "32471829",
+      "38189333",
+      "36321557",
+      "32526937",
+      "32719684",
+      "33377359",
+      "33514319",
+      "32581081",
+      "38399953",
+      "34044007",
+      "36656554",
+      "33751699",
+      "32658736",
+      "21763784",
+      "33419245",
+      "36730750",
+      "36688655",
+      "32522207",
+      "32788194",
+      "28361670",
+      "35947637",
+      "38436242",
+      "34004573",
+      "26689940",
+      "34494876",
+      "25031349",
+      "33210300",
+      "37371514",
+      "33372198",
+      "33917481",
+      "33137344",
+      "34858595",
+      "29263263",
+      "24184128",
+      "27030273",
+      "32622082",
+      "32940573",
+      "39066295",
+      "29887526",
+      "32568687",
+      "33911008"
+    ],
+    "review": [
+      "35336792",
+      "32342926",
+      "33327904",
+      "33132205",
+      "33655480",
+      "32515561",
+      "32451808",
+      "34055887",
+      "32341622",
+      "33102628",
+      "32821661",
+      "32829257",
+      "33795938",
+      "32604730",
+      "33667553",
+      "25791336",
+      "26206723",
+      "36321557",
+      "32719684",
+      "38399953",
+      "26689940",
+      "33917481",
+      "33137344",
+      "24184128",
+      "32940573"
+    ],
+    "pmc": [
+      "8945605"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology11030418",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35336792/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35336792",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

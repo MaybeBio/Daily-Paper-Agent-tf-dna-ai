@@ -1,0 +1,563 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.08.487641",
+  "title": "MOCCS profile analysis clarifies the cell type dependency of transcription factor-binding sequences and cis-regulatory SNPs in humans",
+  "doi": "10.1101/2022.04.08.487641",
+  "abstract": "Transcription factors (TFs) show heterogeneous DNA-binding specificities in individual cells and whole organisms in natural conditions): de novo motif discovery usually provides multiple motifs even from a single ChIP-seq sample. Despite the accumulation of ChIP-seq data and ChIP-seq-derived motifs, the diversity of DNA-binding specificities across different TFs and cell types remains largely unexplored. Here, we propose MOCCS profiles, the new representation of DNA-binding specificity of TFs, which describes a ChIP-seq sample as a profile of TF-binding specificity scores (MOCCS2scores) for every k -mer sequence. Using our k -mer-based motif discovery method MOCCS2, we systematically computed MOCCS profiles for >10,000 human TF ChIP-seq samples across diverse TFs and cell types. Comparison of MOCCS profiles revealed the global distributions of DNA-binding specificities, and found that one-third of the analyzed TFs showed differences in DNA-binding specificities across cell types. Moreover, we showed that the differences in MOCCS2scores (ΔMOCCS2scores) predicted the effect of variants on TF binding, validated by in vitro and in vivo assay datasets. We also demonstrate ΔMOCCS2scores can be used to interpret non-coding GWAS-SNPs as TF-affecting SNPs and provide their candidate responsible TFs and cell types. Our study provides the basis for investigating gene expression regulation and non-coding disease-associated variants in humans.",
+  "authors": [
+    "Saeko Tahara",
+    "Takaho Tsuchiya",
+    "Hirotaka Matsumoto",
+    "Haruka Ozaki"
+  ],
+  "published_date": "2022-04-10",
+  "updated_date": "2022-04-10T19:20:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487641",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487641.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:33:21Z",
+        "timestamp": 1768498401477,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            10
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 58,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Transcription factors (TFs) show heterogeneous DNA-binding specificities in individual cells and whole organisms in natural conditions):\n                  <jats:italic>de novo</jats:italic>\n                  motif discovery usually provides multiple motifs even from a single ChIP-seq sample. Despite the accumulation of ChIP-seq data and ChIP-seq-derived motifs, the diversity of DNA-binding specificities across different TFs and cell types remains largely unexplored. Here, we propose MOCCS profiles, the new representation of DNA-binding specificity of TFs, which describes a ChIP-seq sample as a profile of TF-binding specificity scores (MOCCS2scores) for every\n                  <jats:italic>k</jats:italic>\n                  -mer sequence. Using our\n                  <jats:italic>k</jats:italic>\n                  -mer-based motif discovery method MOCCS2, we systematically computed MOCCS profiles for &gt;10,000 human TF ChIP-seq samples across diverse TFs and cell types. Comparison of MOCCS profiles revealed the global distributions of DNA-binding specificities, and found that one-third of the analyzed TFs showed differences in DNA-binding specificities across cell types. Moreover, we showed that the differences in MOCCS2scores (ΔMOCCS2scores) predicted the effect of variants on TF binding, validated by\n                  <jats:italic>in vitro</jats:italic>\n                  and\n                  <jats:italic>in vivo</jats:italic>\n                  assay datasets. We also demonstrate ΔMOCCS2scores can be used to interpret non-coding GWAS-SNPs as TF-affecting SNPs and provide their candidate responsible TFs and cell types. Our study provides the basis for investigating gene expression regulation and non-coding disease-associated variants in humans.\n                </jats:p>",
+      "DOI": "10.1101/2022.04.08.487641",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            10
+          ]
+        ],
+        "date-time": "2022-04-10T19:20:15Z",
+        "timestamp": 1649618415000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "MOCCS profile analysis clarifies the cell type dependency of transcription factor-binding sequences and cis-regulatory SNPs in humans"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Saeko",
+          "family": "Tahara",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7540-5115",
+          "authenticated-orcid": false,
+          "given": "Takaho",
+          "family": "Tsuchiya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9896-4817",
+          "authenticated-orcid": false,
+          "given": "Hirotaka",
+          "family": "Matsumoto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1606-2762",
+          "authenticated-orcid": false,
+          "given": "Haruka",
+          "family": "Ozaki",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(92)90723-W"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1998.1947"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1069",
+          "DOI": "10.1093/bib/bbx026",
+          "article-title": "An algorithmic perspective of de novo cis-regulatory motif finding based on ChIP-seq data",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "Brief. Bioinform"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2017.02.007"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.139105.112"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1106"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1113"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.135681.111"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.04.040"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.267310.120"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "269",
+          "DOI": "10.1016/j.tig.2016.03.001",
+          "article-title": "Evolution of Epigenetic Regulation in Vertebrate Genomes",
+          "volume": "32",
+          "year": "2016",
+          "journal-title": "Trends Genet"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt615"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1812884116"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr261"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "e27",
+          "DOI": "10.1093/nar/gkaa009",
+          "article-title": "Uncovering tissue-specific binding features from differential deep learning",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2011-12-8-r83"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.20",
+          "first-page": "D61",
+          "article-title": "GTRD: a database of transcription factor binding sites identified by ChIP-seq experiments",
+          "volume": "45",
+          "year": "2016",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oki, S. , Ohta, T. , Shioi, G. , Hatanaka, H. , Ogasawara, O. , Okuda, Y. , Kawaji, H. , Nakaki, R. , Sese, J. and Meno, C. (2018) ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data. EMBO Rep., 19.",
+          "DOI": "10.15252/embr.201846255"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Czipa, E. , Schiller, M. , Nagy, T. , Kontra, L. , Steiner, L. , Koller, J. , Pálné-Szén, O. and Barta, E. (2020) ChIPSummitDB: a ChIP-seq-based database of human transcription factor binding sites and the topological arrangements of the proteins bound to them. Database, 2020.",
+          "DOI": "10.1093/database/baz141"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "62",
+          "DOI": "10.1016/j.compbiolchem.2016.01.014",
+          "article-title": "MOCCS: Clarifying DNA-binding motif ambiguity using ChIP-Seq data",
+          "volume": "63",
+          "year": "2016",
+          "journal-title": "Comput. Biol. Chem"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.226852.117"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.01465-13"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.26",
+          "unstructured": "Tompa, M. (1999) An exact method for finding short motifs in sequences, with application to the ribosome binding site problem. Proc. Int. Conf. Intell. Syst. Mol. Biol."
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl243"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003711"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "300",
+          "DOI": "10.1038/s42003-019-0522-3",
+          "article-title": "Functional D-box sequences reset the circadian clock and drive mRNA rhythms",
+          "volume": "2",
+          "year": "2019",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "596",
+          "DOI": "10.1093/bioinformatics/btaa845",
+          "article-title": "NoPeak: k-mer-based motif discovery in ChIP-Seq data without peak calling",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv565"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/gtc.12058"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.08.006"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(88)90147-X"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "147",
+          "DOI": "10.1038/s41586-021-03211-0",
+          "article-title": "Systematic analysis of binding of transcription factors to noncoding variants",
+          "volume": "591",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23007-0"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222794"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.136127.111"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.03.041"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "16039",
+          "DOI": "10.1038/nrdp.2016.39",
+          "article-title": "Systemic lupus erythematosus",
+          "volume": "2",
+          "year": "2016",
+          "journal-title": "Nat Rev Dis Primers"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1007/s00281-021-00894-5",
+          "article-title": "Beyond GWAS: from simple associations to functional insights",
+          "volume": "44",
+          "year": "2022",
+          "journal-title": "Semin. Immunopathol"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2504"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "2298",
+          "DOI": "10.1038/s41467-021-22548-8",
+          "article-title": "Genetic perturbation of PU.1 binding and chromatin looping at neutrophil enhancers associates with autoimmune disease",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13835"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2010.03.006"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.46"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "280",
+          "DOI": "10.1186/s13059-021-02499-5",
+          "article-title": "Biologically relevant transfer learning improves transcription factor binding prediction",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Winick-Ng, W. , Kukalev, A. , Harabula, I. , Zea-Redondo, L. , Szabó, D. , Meijer, M. , Serebreni, L. , Zhang, Y. , Bianco, S. , Chiariello, A.M. , et al. (2021) Cell-type specialization is encoded by specific chromatin topologies. Nature.",
+          "DOI": "10.1038/s41586-021-04081-2"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15518"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "619",
+          "DOI": "10.1038/s41568-021-00377-7",
+          "article-title": "Mutational signatures: emerging concepts, caveats and clinical applications",
+          "volume": "21",
+          "year": "2021",
+          "journal-title": "Nat. Rev. Cancer"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shen, Z. , Li, R.Z. , Prohaska, T.A. , Hoeksema, M.A. , Spann, N.J. , Tao, J. , Fonseca, G.J. , Le, T. , Stolze, L.K. , Sakai, M. , et al. (2022) Systematic analysis of naturally occurring insertions and deletions that alter transcription factor spacing identifies tolerant and sensitive transcription factor pairs. Elife, 11.",
+          "DOI": "10.7554/eLife.70878"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "100096",
+          "DOI": "10.1016/j.jtauto.2021.100096",
+          "article-title": "Predicted regulatory SNPs reveal potential drug targets and novel companion diagnostics in psoriasis",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "J Transl Autoimmun"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0797-4"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "44",
+          "DOI": "10.1016/j.ymeth.2020.03.005",
+          "article-title": "Methods for ChIP-seq analysis: A practical workflow and advanced applications",
+          "volume": "187",
+          "year": "2021",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.56",
+          "unstructured": "McInnes, L. , Healy, J. and Melville, J. (2020) UMAP: uniform manifold approximation and projection for dimension reduction."
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.57",
+          "unstructured": "Sprinthall, R.C. (2012) Basic Statistical Analysis Pearson Allyn & Bacon."
+        },
+        {
+          "key": "2022061709350459000_2022.04.08.487641v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1120"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.08.487641",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:54:10Z",
+        "timestamp": 1768445650000
+      },
+      "score": 100.7705,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.08.487641"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            10
+          ]
+        ]
+      },
+      "references-count": 58,
+      "URL": "https://doi.org/10.1101/2022.04.08.487641",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

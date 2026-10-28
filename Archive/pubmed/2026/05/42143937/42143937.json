@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "42143937",
+    "doi": "10.1016/j.intimp.2026.116848",
+    "title": "CXCL16 promotes macrophage-driven inflammation and vascular smooth muscle cell phenotypic switching during carotid plaque destabilization."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Carotid plaque instability is a major determinant of ischemic stroke and is characterized by heightened inflammation and structural remodeling of the vessel wall. Although macrophages and vascular smooth muscle cells (VSMCs) are central to plaque vulnerability, the mechanisms coordinating immune activation with vascular remodeling remain incompletely understood. METHODS: Bulk transcriptomic data from multiple Gene Expression Omnibus (GEO) datasets were integrated to compare unstable and stable carotid plaques. Differential gene expression analysis, weighted gene co-expression network analysis, immune-gene curation, and machine learning methods (least absolute shrinkage and selection operator [LASSO] and random forest) were used to identify key genes and construct a nomogram. The findings were validated using independent datasets, single-cell RNA sequencing, and human carotid plaque specimens. The mechanistic roles of CXCL16 were examined using macrophage functional assays, NF-kappaB inhibition, VSMC co-culture with macrophage-conditioned media, and the establishment of an ApoE(-/-) carotid atherosclerosis model with local CXCL16 suppression. Cell-cell communication and pseudotime analyses were performed to explore macrophage-VSMC interactions. RESULTS: CXCL16, CCL2, and MMP9 were consistently upregulated in unstable plaques and showed robust diagnostic performance across datasets. A three-gene nomogram generated from this study suggested potential clinical utility. Single-cell analyses indicated that CXCL16 was enriched in plaque-associated M1 macrophages and was associated with inflammatory activation states. Human plaque staining confirmed higher CXCL16/CCL2/MMP9 expression in unstable plaques with increased macrophage and leukocyte infiltration. In vitro, CXCL16 knockdown attenuated NF-kappaB activation and reduced downstream inflammatory mediators (including CCL2), accompanied by decreased macrophage migration; NF-kappaB inhibition phenocopied these effects. In vivo, CXCL16 suppression reduced carotid plaque formation and inflammatory cell infiltration. Cell-cell communication analysis revealed enhanced SPP1/osteopontin signaling from M1 macrophages toward VSMCs, with higher SPP1 expression in CXCL16-high M1 macrophages. Co-culture experiments showed that macrophage-derived CXCL16 promoted VSMC migration and phenotypic switching, which was reversed by CXCL16 knockdown. CONCLUSION: CXCL16 acts as a central inflammatory mediator in carotid plaque destabilization by promoting NF-kappaB-dependent macrophage activation and migration. It also enhances SPP1/osteopontin-associated macrophage-VSMC crosstalk that drives phenotypic remodeling in VSMCs. Our results collectively suggest CXCL16 as a diagnostic biomarker and a potential therapeutic target for carotid atherosclerosis.",
+    "keywords": [
+      "Carotid plaque instability",
+      "Macrophage-VSMC interaction",
+      "Macrophages",
+      "Single-cell RNA sequencing",
+      "Vascular inflammation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chemokine CXCL16/genetics/metabolism",
+      "Animals",
+      "*Macrophages/immunology/metabolism",
+      "*Plaque, Atherosclerotic/immunology/genetics/pathology/metabolism",
+      "*Muscle, Smooth, Vascular/pathology/immunology/metabolism",
+      "*Myocytes, Smooth Muscle/metabolism/immunology",
+      "*Carotid Artery Diseases/immunology/genetics/pathology/metabolism",
+      "Mice",
+      "*Inflammation/immunology/metabolism",
+      "NF-kappa B/metabolism",
+      "Phenotype",
+      "Male",
+      "Mice, Knockout",
+      "Matrix Metalloproteinase 9/genetics/metabolism",
+      "Mice, Inbred C57BL",
+      "Cells, Cultured"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yao, Guoqing",
+        "Luan, Tiankuo",
+        "Song, Daqiang",
+        "Liu, Guojing",
+        "Hu, Xuemei",
+        "Feng, Yangyang",
+        "Liang, Rui",
+        "Zhao, Yu",
+        "Liu, Hong"
+      ],
+      "short_names": [
+        "Yao G",
+        "Luan T",
+        "Song D",
+        "Liu G",
+        "Hu X",
+        "Feng Y",
+        "Liang R",
+        "Zhao Y",
+        "Liu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Vascular Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Anatomy, Chongqing Medical University, Chongqing 400016, China.",
+        "Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Neurosurgery, The University-Town Hospital of Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Endocrinology, The People's Hospital of Rongchang District, Chongqing 402460, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China.",
+        "Institute for Laboratory Animals Research, Chongqing Academy of Chinese Materia Medica, Chongqing 400065, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China. Electronic address: zhaoyu201514@163.com.",
+        "Department of Vascular Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China; Department of Day Service Center, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China. Electronic address: liuhong6261@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yao, Guoqing",
+        "short_name": "Yao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Luan, Tiankuo",
+        "short_name": "Luan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Song, Daqiang",
+        "short_name": "Song D",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Key Laboratory of Molecular Oncology and Epigenetics, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guojing",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The University-Town Hospital of Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xuemei",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The People's Hospital of Rongchang District, Chongqing 402460, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Yangyang",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Rui",
+        "short_name": "Liang R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Laboratory Animals Research, Chongqing Academy of Chinese Materia Medica, Chongqing 400065, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yu",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China. Electronic address: zhaoyu201514@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Hong",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China; Department of Day Service Center, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400016, China. Electronic address: liuhong6261@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2026 Aug 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 00:30",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [
+      "42554184"
+    ],
+    "refs": [],
+    "similar": [
+      "42143937",
+      "42039168",
+      "42007508",
+      "41519833",
+      "41851623",
+      "39978719",
+      "41264461",
+      "42242406",
+      "41294139",
+      "38760675",
+      "41164881",
+      "41784666",
+      "40241381",
+      "36211422",
+      "41580116",
+      "41895505",
+      "25614279",
+      "39026250",
+      "42269553",
+      "25614278",
+      "41873711",
+      "40377016",
+      "40577585",
+      "27439892",
+      "41736028",
+      "39938358",
+      "40727388",
+      "40836918",
+      "41383630",
+      "40808653",
+      "35163719",
+      "40876177",
+      "25522268",
+      "42013987",
+      "42048040",
+      "39206919",
+      "42125810",
+      "37979015",
+      "42107160",
+      "37528397",
+      "28487392",
+      "29463262",
+      "41155497",
+      "42288847",
+      "20224039",
+      "26062991",
+      "22796540",
+      "41983287",
+      "38437888",
+      "39675550",
+      "35008765",
+      "30315930",
+      "22112851",
+      "34807278",
+      "37199168",
+      "39197028",
+      "40931837",
+      "40493738",
+      "41795298",
+      "39364414",
+      "19423618",
+      "25868464",
+      "35159221",
+      "42353233",
+      "31866461",
+      "38934115",
+      "42165147",
+      "42404895",
+      "41484716",
+      "42207605",
+      "42459700",
+      "28735290",
+      "41974110",
+      "33471078",
+      "40691040",
+      "41216933",
+      "26966277",
+      "21281823",
+      "41566509",
+      "23393393",
+      "39520955",
+      "29673854",
+      "39588003",
+      "28987865",
+      "33501750",
+      "34132364",
+      "34608503",
+      "40165931",
+      "26416809",
+      "34102609",
+      "25524056",
+      "26564819",
+      "42264140",
+      "41850467",
+      "41539563",
+      "23840832",
+      "29206900",
+      "38639096",
+      "41110296",
+      "41991765"
+    ],
+    "review": [
+      "42143937",
+      "41155497"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(26)00694-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/carotidarterydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Carotid Artery Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

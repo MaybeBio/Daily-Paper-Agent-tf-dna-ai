@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "40308601",
+    "doi": "10.3389/fimmu.2025.1583103",
+    "title": "Artificial intelligence-assisted RNA-binding protein signature for prognostic stratification and therapeutic guidance in breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer is the most common malignancy in women globally, with significant heterogeneity affecting prognosis and treatment. RNA-binding proteins play vital roles in tumor progression, yet their prognostic potential remains unclear. This study introduces an Artificial Intelligence-Assisted RBP Signature (AIRS) model to improve prognostic accuracy and guide personalized treatment. METHODS: Data from 14 BC cohorts (9,000+ patients) were analyzed using 108 machine learning model combinations. The AIRS model, built on three key RBP genes (PGK1, MPHOSPH10, MAP2K6), stratified patients into high- and low-risk groups. Genomic alterations, single-cell transcriptomics, tumor microenvironment characteristics, and drug sensitivity were assessed to uncover AIRS-associated mechanisms. RESULTS: The AIRS model demonstrated superior prognostic performance, surpassing 106 established signatures. High AIRS scores correlated with elevated tumor mutational burden, specific copy number alterations, and an immune-suppressive TME. Single-cell analysis revealed functional heterogeneity in epithelial cells, linking high AIRS scores to pathways like transcription factor binding. Regulatory network analysis identified key transcription factors such as MYC. Low AIRS scores predicted better responses to immune checkpoint inhibitors, while drug sensitivity analysis highlighted panobinostat and paclitaxel as potential therapies for high-risk patients. CONCLUSIONS: The AIRS model offers a robust tool for BC prognosis and treatment stratification, integrating genomic, transcriptomic, and single-cell data. It provides actionable insights for personalized therapy, paving the way for improved clinical outcomes. Future studies should validate findings across diverse populations and expand functional analyses.",
+    "keywords": [
+      "RNA-binding proteins",
+      "breast cancer",
+      "immunotherapy",
+      "personalized treatment",
+      "prognostic model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/genetics/metabolism/therapy/diagnosis/drug therapy",
+      "Prognosis",
+      "*Artificial Intelligence",
+      "*RNA-Binding Proteins/genetics/metabolism",
+      "Tumor Microenvironment",
+      "*Biomarkers, Tumor/genetics",
+      "Transcriptome",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Single-Cell Analysis",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yunxia",
+        "Li, Li",
+        "Yuan, Shuqi",
+        "Meng, Zixin",
+        "Xu, Jiayi",
+        "Cai, Zhaogen",
+        "Zhang, Yijing",
+        "Zhang, Xiaonan",
+        "Wang, Tao"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Li L",
+        "Yuan S",
+        "Meng Z",
+        "Xu J",
+        "Cai Z",
+        "Zhang Y",
+        "Zhang X",
+        "Wang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, Anhui, China.",
+        "Department of Pathology, Bengbu Medical University, Anqing 116 Hospital, Anqing, Anhui, China.",
+        "Department of Rheumatology and Immunology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China.",
+        "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, Anhui, China.",
+        "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, Anhui, China.",
+        "Department of Pathology, Bengbu Medical University, Longzihu, Bengbu, Anhui, China.",
+        "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, Anhui, China.",
+        "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, Anhui, China.",
+        "Research Laboratory Center, Guizhou Provincial People's Hospital, Nanming, Guiyang, Guizhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yunxia",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Bengbu Medical University, Anqing 116 Hospital, Anqing, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Shuqi",
+        "short_name": "Yuan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Zixin",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jiayi",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Zhaogen",
+        "short_name": "Cai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Bengbu Medical University, Longzihu, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yijing",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaonan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tao",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Research Laboratory Center, Guizhou Provincial People's Hospital, Nanming, Guiyang, Guizhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/01 06:27",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "41992363",
+      "41550348",
+      "41200279"
+    ],
+    "refs": [
+      "39522039",
+      "39232499",
+      "38272151",
+      "38252116",
+      "36059653",
+      "35982039",
+      "35154121",
+      "34755873",
+      "34314098",
+      "34276676",
+      "33950524",
+      "33538338",
+      "33483705",
+      "33446876",
+      "33038057",
+      "32967226",
+      "32653017",
+      "32550911",
+      "32457508",
+      "31604482",
+      "30971760",
+      "30954475",
+      "30881302",
+      "30127393",
+      "28718405",
+      "28245597",
+      "27503141",
+      "26382145",
+      "24113773",
+      "17690249",
+      "14744933",
+      "2181374"
+    ],
+    "similar": [
+      "40308601",
+      "39507529",
+      "39669558",
+      "39870964",
+      "39202452",
+      "40332226",
+      "39098994",
+      "39628476",
+      "35990668",
+      "40200221",
+      "39730892",
+      "40330458",
+      "39896800",
+      "39596658",
+      "40221624",
+      "39650663",
+      "39877345",
+      "39354417",
+      "39524444",
+      "40078998",
+      "39267056",
+      "39355255",
+      "39020010",
+      "38728370",
+      "39703515",
+      "38404059",
+      "40253524",
+      "37868988",
+      "39712016",
+      "40330470",
+      "39441216",
+      "39859524",
+      "40046063",
+      "39966486",
+      "39447409",
+      "40145099",
+      "39530087",
+      "39726597",
+      "39205467",
+      "39759507",
+      "39555060",
+      "40171814",
+      "40308576",
+      "39799269",
+      "40098972",
+      "39380996",
+      "39708127",
+      "39726033",
+      "38235137",
+      "39998699",
+      "39031800",
+      "39431237",
+      "39046884",
+      "39346916",
+      "39889412",
+      "39794799",
+      "40145096",
+      "39185402",
+      "39894886",
+      "39904693",
+      "39906743",
+      "39432642",
+      "40329678",
+      "39742274",
+      "35154121",
+      "36033441",
+      "34795663",
+      "39695482",
+      "38879780",
+      "39712012",
+      "40064955",
+      "33195699",
+      "39948551",
+      "39754071",
+      "39835132",
+      "39340957",
+      "40193637",
+      "40224950",
+      "40041930",
+      "40092988",
+      "39712023",
+      "36860848",
+      "36843602",
+      "39453457",
+      "39850878",
+      "39300389",
+      "40243888",
+      "40275154",
+      "39287311",
+      "39523404",
+      "38686904",
+      "39955556",
+      "39940786",
+      "34341184",
+      "39810215",
+      "39284852",
+      "39340434",
+      "38951896",
+      "39684426",
+      "39724993"
+    ],
+    "review": [
+      "40308601"
+    ],
+    "pmc": [
+      "12040944"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40308601/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-820",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1583103",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "40849622",
+    "doi": "10.1186/s12866-025-04257-0",
+    "title": "Structural and functional analysis of the accessory gene regulators of Staphylococcus aureus and Staphylococcus epidermidis: an in Silico approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Staphylococcus aureus and Staphylococcus epidermidis are tenacious pathogens that cause toxic shock syndrome. Accessory gene regulator (Agr) of Staphylococcus sp. controls the expression of multiple genes that encode virulence properties. Evolutionary covariance of accessory gene regulators of selected strains of two Staphylococcus sp. was entrenched through multiple sequence alignment, relative synonymous codon usage, codon adaptation index and compositional analysis. Artificial intelligence and machine learning based AlphaFold and TrRosetta were used to determine the tertiary structures of the proteins. Structure-based ab initio models could forecast subcellular localization, domain length, molecular docking, and simulation of Agrs in the isolates belonging to Staphylococcus sp. RESULTS: AT ending codons are preferred over GC ending codons. Besides, the mutational pressure has been found to be one of the causative factors in shaping the codon usage biasness. Topological investigations reveal the existence of AgrA and AgrD in the cytosol, while AgrB and AgrC to reside in the cellular membrane. All Agrs are acidic and stable, except AgrB. Secondary structural studies showed that Agrs mostly consist of alpha-helix followed by random coils that preferentially remain in the transmembrane region. Protein-protein docking studies using the HDOCK server demonstrated that AgrA has stronger binding affinity with AgrC in S. epidermidis isolates than the same in S. aureus. By analysing the docking potential of AgrB and AgrD, it has been found that S. aureus possesses higher docking score than S. epidermidis. CONCLUSION: Such compressive investigations could provide crucial insights into the structural features of Agrs in S. aureus and S. epidermidis, that are actively implicated in quorum sensing signalling-mediated virulence factor regulation and help in the identification of new Agr-dependent quorum sensing inhibitors. AgrA and AgrC are, therefore, appear to be seemingly promising in the management of bacterial infections and are apprehended to be useful therapeutic targets for the discovery of potential antimicrobial drugs.",
+    "keywords": [
+      "In Silico",
+      "S. aureus",
+      "S. epidermidis",
+      "Agr",
+      "QS sytem"
+    ],
+    "mesh_terms": [
+      "*Staphylococcus epidermidis/genetics/metabolism",
+      "*Staphylococcus aureus/genetics/metabolism/chemistry",
+      "*Bacterial Proteins/genetics/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "Computer Simulation",
+      "Gene Expression Regulation, Bacterial",
+      "Codon",
+      "*Trans-Activators/genetics/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dey, Subhamoy",
+        "Manna, Tuhin",
+        "Guchhait, Kartik Chandra",
+        "Karmakar, Monalisha",
+        "Jana, Debarati",
+        "Raul, Priyanka",
+        "Ballav, Saroj",
+        "Manna, Mousumi",
+        "Hazra, Subrata",
+        "Panda, Amiya Kumar",
+        "Ghosh, Chandradipa"
+      ],
+      "short_names": [
+        "Dey S",
+        "Manna T",
+        "Guchhait KC",
+        "Karmakar M",
+        "Jana D",
+        "Raul P",
+        "Ballav S",
+        "Manna M",
+        "Hazra S",
+        "Panda AK",
+        "Ghosh C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre for Life Sciences, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Centre for Life Sciences, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Chemistry, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+        "Department of Chemistry, Rani Rashmoni Green University, Singur, West Bengal, 712409, India.",
+        "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India. ch_ghosh@mail.vidyasagar.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dey, Subhamoy",
+        "short_name": "Dey S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Life Sciences, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Manna, Tuhin",
+        "short_name": "Manna T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Guchhait, Kartik Chandra",
+        "short_name": "Guchhait KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Karmakar, Monalisha",
+        "short_name": "Karmakar M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Jana, Debarati",
+        "short_name": "Jana D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Raul, Priyanka",
+        "short_name": "Raul P",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Life Sciences, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Ballav, Saroj",
+        "short_name": "Ballav S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Manna, Mousumi",
+        "short_name": "Manna M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Hazra, Subrata",
+        "short_name": "Hazra S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India."
+        ]
+      },
+      {
+        "full_name": "Panda, Amiya Kumar",
+        "short_name": "Panda AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Vidyasagar University, Midnapore, West Bengal, 721102, India.",
+          "Department of Chemistry, Rani Rashmoni Green University, Singur, West Bengal, 712409, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Chandradipa",
+        "short_name": "Ghosh C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Physiology, Vidyasagar University, Midnapore, West Bengal, 721102, India. ch_ghosh@mail.vidyasagar.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC microbiology"
+    ],
+    "journal_abbrev": [
+      "BMC Microbiol"
+    ],
+    "pub_date": "2025 Aug 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/26 04:44",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42655859",
+      "40932559"
+    ],
+    "refs": [
+      "40845364",
+      "40407368",
+      "40352657",
+      "40330072",
+      "40229459",
+      "40019240",
+      "39368563",
+      "39208402",
+      "38751014",
+      "38658824",
+      "38429810",
+      "38305457",
+      "38298832",
+      "38295473",
+      "37924857",
+      "37239470",
+      "37110421",
+      "37095436",
+      "37031187",
+      "36949844",
+      "36882717",
+      "36704497",
+      "36305764",
+      "36271180",
+      "35693465",
+      "35452465",
+      "35335616",
+      "35295312",
+      "35152903",
+      "35146638",
+      "35093395",
+      "35052374",
+      "34849210",
+      "34759384",
+      "34489706",
+      "34480904",
+      "34466411",
+      "34429443",
+      "34418423",
+      "34265844",
+      "34019657",
+      "33287389",
+      "33172298",
+      "32983045",
+      "32064388",
+      "32028684",
+      "31658413",
+      "31608095",
+      "31088356",
+      "31075336",
+      "31013936",
+      "30816075",
+      "30619958",
+      "29762700",
+      "29722887",
+      "29464485",
+      "29422887",
+      "29405832",
+      "29359191",
+      "28955870",
+      "28875543",
+      "28521030",
+      "27706107",
+      "27536699",
+      "27102860",
+      "27047173",
+      "26672018",
+      "26186290",
+      "25953851",
+      "25943549",
+      "25816325",
+      "25713785",
+      "24945495",
+      "24911789",
+      "24858185",
+      "24451626",
+      "24132122",
+      "23711963",
+      "23257412",
+      "23125205",
+      "22682058",
+      "22496652",
+      "22160374",
+      "21741390",
+      "21621023",
+      "20697171",
+      "20521936",
+      "20406434",
+      "20401516",
+      "20212089",
+      "19609257",
+      "19520867",
+      "19429891",
+      "19157086",
+      "19151095",
+      "18854234",
+      "18796141",
+      "18462677",
+      "17921170",
+      "17557828",
+      "17517781",
+      "17483518",
+      "15980438",
+      "15466021",
+      "15213324",
+      "14681372",
+      "12824418",
+      "12682375",
+      "11807070",
+      "11796572",
+      "11587788",
+      "9631538",
+      "9620969",
+      "8808585",
+      "3547335"
+    ],
+    "similar": [
+      "40849622",
+      "39261350",
+      "31358609",
+      "9631538",
+      "24945495",
+      "35044202",
+      "15466021",
+      "30817121",
+      "12122003",
+      "31088356",
+      "38615572",
+      "10359085",
+      "16428734",
+      "24957093",
+      "11004170",
+      "27159024",
+      "9620969",
+      "33926572",
+      "11587788",
+      "40762857",
+      "35586806",
+      "35862951",
+      "24164684",
+      "38810547",
+      "16622233",
+      "24858185",
+      "11489134",
+      "25300477",
+      "41663520",
+      "22467783",
+      "30918056",
+      "11240104",
+      "23143800",
+      "33536503",
+      "29661157",
+      "35661493",
+      "39120147",
+      "40193824",
+      "27047173",
+      "41760927",
+      "9632266",
+      "42017772",
+      "31387900",
+      "33201435",
+      "35939668",
+      "29233782",
+      "30833334",
+      "35331848",
+      "39202871",
+      "39611824",
+      "15774886",
+      "21701848",
+      "29796774",
+      "27329753",
+      "22906238",
+      "19856270",
+      "21741390",
+      "38832917",
+      "23294220",
+      "41210938",
+      "15734745",
+      "39966225",
+      "35295312",
+      "12732329",
+      "18582472",
+      "30706343",
+      "39177535",
+      "18851841",
+      "28289032",
+      "9596762",
+      "33633702",
+      "12409375",
+      "11179383",
+      "31164467",
+      "15150336",
+      "22067547",
+      "23898801",
+      "35699423",
+      "39814109",
+      "40667988",
+      "39033680",
+      "33662434",
+      "30622190",
+      "29066545",
+      "36700647",
+      "25352558",
+      "12513972",
+      "11473989",
+      "41090347",
+      "23216863",
+      "38659576",
+      "38953351",
+      "37214482",
+      "21103340",
+      "40952178",
+      "30773482",
+      "34253065",
+      "35608301",
+      "31043623",
+      "17548478"
+    ],
+    "review": [
+      "40849622",
+      "24957093",
+      "11587788"
+    ],
+    "pmc": [
+      "12374375"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-025-04257-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40849622/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

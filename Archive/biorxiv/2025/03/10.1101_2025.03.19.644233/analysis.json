@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.19.644233",
+  "title": "deepTFBS: Improving within- and cross-species prediction of transcription factor binding using deep multi-task and transfer learning",
+  "authors": "Jingjing Zhai; Yuzhou Zhang; Chujun Zhang; Xiaotong Yi; Minggui Song; Chenglong Tang; Pengjun Ding; Zenglin Li; Chuang Ma",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-20",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出deepTFBS深度学习框架，利用多任务学习和迁移学习构建DNA语言模型，预测植物物种内及跨物种的转录因子结合位点，核心聚焦TF-DNA互作且方法为AI，高度匹配本课题。",
+  "abstract": "The precise prediction of transcription factor binding sites (TFBSs) is crucial in understanding gene regulation. In this study, we present deepTFBS, a comprehensive deep learning (DL) framework that builds a robust DNA language model of TF binding grammar for accurately predicting TFBSs within and across plant species. Taking advantages of multi-task DL and transfer learning, deepTFBS is capable of leveraging the knowledge learned from large-scale TF binding profiles to enhance the prediction of TFBSs under small-sample training and cross-species prediction tasks. When tested using available information on 359 Arabidopsis TFs, deepTFBS outperformed previously described prediction strategies, including position weight matrix, deepSEA and DanQ, with a 244.49%, 49.15%, and 23.32% improvement of the area under the precision-recall curve (PRAUC), respectively. Further cross-species prediction of TFBS in wheat showed that deepTFBS yielded a significant PRAUC improvement of 30.6% over these three baseline models. deepTFBS can also utilize information from gene conservation and binding motifs, enabling efficient TFBS prediction in species where experimental data availability is limited. A case study, focusing on the WUSCHEL (WUS) transcription factor, illustrated the potential use of deepTFBS in cross-species applications, in our example between Arabidopsis and wheat. deepTFBS is publically available at https://github.com/cma2015/deepTFBS.",
+  "abstract_zh": "转录因子结合位点（TFBSs）的精确预测对于理解基因调控至关重要。在本研究中，我们提出了deepTFBS，一个全面的深度学习（DL）框架，构建了稳健的DNA语言模型，用于精确预测植物物种内及跨物种的TFBSs。利用多任务深度学习和迁移学习的优势，deepTFBS能够利用从大规模TF结合谱中学到的知识，增强在小样本训练和跨物种预测任务中的TFBSs预测能力。当使用359个拟南芥TFs的可用信息进行测试时，deepTFBS优于先前描述的预测策略，包括位置权重矩阵、deepSEA和DanQ，在精确率-召回率曲线下面积（PRAUC）上分别提高了244.49%、49.15%和23.32%。进一步在小麦中的跨物种TFBS预测显示，deepTFBS相对于这三个基线模型，PRAUC显著提高了30.6%。deepTFBS还能利用基因保守性和结合基序的信息，在实验数据可用性有限的物种中实现高效的TFBS预测。一个以WUSCHEL（WUS）转录因子为重点的案例研究，展示了deepTFBS在跨物种应用中的潜在用途，例如在拟南芥和小麦之间的应用。deepTFBS公开可用，网址为https://github.com/cma2015/deepTFBS。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.19.644233",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.19.644233",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.19.644233/index.html"
+}

@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "41676627",
+    "doi": "10.64898/2026.01.30.702953",
+    "title": "Co-repression of Yap1 and Sox9 Abrogates Established Cholangiocarcinoma by Eliminating Transcriptional Compensation."
+  },
+  "content": {
+    "abstract": "BACKGROUND/AIMS: Intrahepatic cholangiocarcinoma (iCCA) represents an unmet clinical need due to its increasing incidence, aggressive biology, and limited treatment options. The extremely low-response rates to current systemic regimens and the emergence of adaptive resistance to targeted therapies underscore the urgent need for alternative therapeutic strategies. Given that the lineage-defining transcription factors SOX9 and YAP1 are central regulators of cholangiocyte and iCCA identity, we investigated their functional roles as potential therapeutic vulnerabilities across multiple preclinical models. METHODS: Patient tissue-microarray (TMA) analysis, Sleeping-Beauty hydrodynamic tail vein injection-based iCCA models, and Cre-mediated inducible gene deletion systems were used to investigate the roles of Sox9 and Yap1. Deep-learning-based prediction, RNA-seq, ChIP-seq and immunohistochemistry analyses were performed to delineate transcriptional networks and downstream effectors associated with SOX9/YAP1 signaling. RESULTS: Dual deletion of Sox9 and Yap1 effectively eradicated advanced iCCA while preserving intrahepatic bile ducts, regardless of oncogenic drivers. Mechanistically, SOX9 and YAP1 transcriptionally compensated for each other when one was absent, and ILF2, MGAT5, and WWTR1 were identified as key downstream effectors mediating this compensatory mechanism. Loss of Ilf2, Mgat5, or Taz suppressed iCCA, whereas overexpression of Ilf2 or Taz following Sox9/Yap1 co-deletion restored tumor development, indicating that ILF2 or TAZ can functionally substitute for YAP1 and SOX9 in sustaining iCCA. CONCLUSIONS: Co-targeting SOX9 and YAP1 offers a promising and safe broad-spectrum preventive/therapeutic approach for iCCA, potentially overcoming resistance to YAP1 inhibition. The adaptive resistance mechanism identified may extend to other malignancies, providing insights for addressing the advanced resistant to YAP1-TEAD-directed therapies.",
+    "keywords": [
+      "ILF2",
+      "TAZ",
+      "adaptive resistance",
+      "bile duct cancer",
+      "liver cancer"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Minwook",
+        "Hu, Shikai",
+        "Park, Yoojeong",
+        "Kwon, Joseph",
+        "Molina, Laura",
+        "Wang, Li-Ju",
+        "Liu, Jia-Jun",
+        "Liu, Silvia",
+        "Singhi, Aatur",
+        "Chiu, Yu-Chiao",
+        "Ko, Sungjin"
+      ],
+      "short_names": [
+        "Kim M",
+        "Hu S",
+        "Park Y",
+        "Kwon J",
+        "Molina L",
+        "Wang LJ",
+        "Liu JJ",
+        "Liu S",
+        "Singhi A",
+        "Chiu YC",
+        "Ko S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0093-4562",
+        "ORCID: 0009-0005-1828-7147",
+        "ORCID: 0009-0005-9945-2211",
+        "ORCID: 0009-0001-3677-613X",
+        "ORCID: 0000-0003-1647-8634",
+        "ORCID: 0000-0002-6079-5939"
+      ],
+      "affiliations": [
+        "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "School of Medicine, Tsinghua Medicine, Tsinghua University, Beijing, China.",
+        "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Department of Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "University of Pittsburgh Medical Center Hillman Cancer Center, Pittsburgh, PA USA.",
+        "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Organ Pathobiology and Therapeutic Institute, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Organ Pathobiology and Therapeutic Institute, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Department of Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "University of Pittsburgh Medical Center Hillman Cancer Center, Pittsburgh, PA USA.",
+        "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+        "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Minwook",
+        "short_name": "Kim M",
+        "identifiers": [
+          "0000-0002-0093-4562"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Shikai",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "School of Medicine, Tsinghua Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Park, Yoojeong",
+        "short_name": "Park Y",
+        "identifiers": [
+          "0009-0005-1828-7147"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Kwon, Joseph",
+        "short_name": "Kwon J",
+        "identifiers": [
+          "0009-0005-9945-2211"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Molina, Laura",
+        "short_name": "Molina L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "Department of Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Li-Ju",
+        "short_name": "Wang LJ",
+        "identifiers": [],
+        "affiliations": [
+          "University of Pittsburgh Medical Center Hillman Cancer Center, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Jia-Jun",
+        "short_name": "Liu JJ",
+        "identifiers": [
+          "0009-0001-3677-613X"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "Organ Pathobiology and Therapeutic Institute, University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Silvia",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "Organ Pathobiology and Therapeutic Institute, University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Singhi, Aatur",
+        "short_name": "Singhi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Chiu, Yu-Chiao",
+        "short_name": "Chiu YC",
+        "identifiers": [
+          "0000-0003-1647-8634"
+        ],
+        "affiliations": [
+          "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "Department of Medicine, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "University of Pittsburgh Medical Center Hillman Cancer Center, Pittsburgh, PA USA."
+        ]
+      },
+      {
+        "full_name": "Ko, Sungjin",
+        "short_name": "Ko S",
+        "identifiers": [
+          "0000-0002-6079-5939"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, PA USA.",
+          "Pittsburgh Liver Research Center, University of Pittsburgh Medical Center and University of Pittsburgh School of Medicine, Pittsburgh, PA USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Feb 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 06:54",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39955269",
+      "37843855",
+      "37188899",
+      "36924251",
+      "36906109",
+      "36697706",
+      "36192517",
+      "35961703",
+      "35809836",
+      "35584893",
+      "35550144",
+      "35420673",
+      "35226770",
+      "35044789",
+      "34626563",
+      "34233187",
+      "33768568",
+      "33512716",
+      "33127392",
+      "33093444",
+      "32709532",
+      "32606456",
+      "31214875",
+      "31195063",
+      "30881868",
+      "30420613",
+      "29398707",
+      "28297679",
+      "27465555",
+      "27147489",
+      "27141961",
+      "26289314",
+      "26056329",
+      "24480331",
+      "23295441",
+      "22797301",
+      "22178589",
+      "19403103"
+    ],
+    "similar": [
+      "41676627",
+      "41928626",
+      "35961703",
+      "35550144",
+      "40759200",
+      "35655220",
+      "29511023",
+      "42475469",
+      "38826352",
+      "35489428",
+      "36180487",
+      "36906109",
+      "34615513",
+      "30420613",
+      "34793870",
+      "39273023",
+      "42441024",
+      "33741397",
+      "38812060",
+      "42480814",
+      "40683603",
+      "41292957",
+      "35738508",
+      "24837480",
+      "42067828",
+      "41791461",
+      "34293352",
+      "42667985",
+      "35439973",
+      "37934103",
+      "34052254",
+      "42708082",
+      "42102112",
+      "38679071",
+      "35798875",
+      "41744160",
+      "41929148",
+      "39826667",
+      "41761192",
+      "36528236",
+      "31796534",
+      "40917509",
+      "40992734",
+      "42032598",
+      "41063222",
+      "31195063",
+      "42713690",
+      "39725790",
+      "42342150",
+      "39243039",
+      "41839437",
+      "42098854",
+      "41341748",
+      "40422514",
+      "31880317",
+      "31837357",
+      "40932240",
+      "31873172",
+      "29871934",
+      "42632493",
+      "39051998",
+      "36922354",
+      "38857989",
+      "38458319",
+      "40041119",
+      "36443822",
+      "32451369",
+      "33415007",
+      "39002018",
+      "33650193",
+      "38043787",
+      "38017206",
+      "32193376",
+      "41285867",
+      "38773866",
+      "38691847",
+      "41009648",
+      "29976931",
+      "36348252",
+      "35961700",
+      "40095023",
+      "39089631",
+      "27215660",
+      "24906622",
+      "40604818",
+      "42104482",
+      "40894710",
+      "30251463",
+      "38143235",
+      "42492263",
+      "35983734",
+      "35864972",
+      "38526177",
+      "38223418",
+      "35073587",
+      "35619118",
+      "38023605",
+      "40959663",
+      "40824331",
+      "38508240"
+    ],
+    "review": [
+      "41676627",
+      "35961703",
+      "41744160",
+      "42713690",
+      "42632493",
+      "36922354",
+      "40095023",
+      "30251463",
+      "35983734",
+      "38223418"
+    ],
+    "pmc": [
+      "12889492"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41676627/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-223",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.01.30.702953",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

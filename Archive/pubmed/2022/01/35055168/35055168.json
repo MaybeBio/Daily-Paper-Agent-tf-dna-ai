@@ -1,0 +1,488 @@
+{
+  "identity": {
+    "pmid": "35055168",
+    "doi": "10.3390/ijms23020981",
+    "title": "Cold Response Transcriptome Analysis of the Alternative Splicing Events Induced by the Cold Stress in D. catenatum."
+  },
+  "content": {
+    "abstract": "Dendrobium catenatum Lindl is a valuable medicinal herb and gardening plant due to its ornamental value and special medical value. Low temperature is a major bottleneck restricting D. catenatum expansion towards the north, which influences the quality and yield of D. catenatum. In this study, we analysed the cold response of D. catenatum by RNA-Seq. A total of 4302 differentially expressed genes were detected under cold stress, which were mainly linked to protein kinase activity, membrane transport and the glycan biosynthesis and metabolism pathway. We also identified 4005 differential alternative events in 2319 genes significantly regulated by cold stress. Exon skipping and intron retention were the most common alternative splicing isoforms. Numerous genes were identified that differentially modulated under cold stress, including cold-induced transcription factors and splicing factors mediated by AS (alternative splicing). GO enrichment analysis found that differentially alternatively spliced genes without differential expression levels were related to RNA/mRNA processing and spliceosomes. DAS (differentially alternative splicing) genes with different expression levels were mainly enriched in protein kinase activity, plasma membrane and cellular response to stimulus. We further identified and cloned DcCBP20 in D. catenatum; we found that DcCBP20 promotes the generation of alternative splicing variants in cold-induced genes under cold stress via genetic experiments and RT-PCR. Taken together, our results identify the main cold-response pathways and alternative splicing events in D. catenatum responding to cold treatment and that DcCBP20 of D. catenatum get involved in regulating the AS and gene expression of cold-induced genes during this process. Our study will contribute to understanding the role of AS genes in regulating the cold stress response in D. catenatum.",
+    "keywords": [
+      "DcCBP20",
+      "Dendrobium catenatum Lindl",
+      "alternative splicing",
+      "cold stress"
+    ],
+    "mesh_terms": [
+      "*Alternative Splicing",
+      "Cold-Shock Response",
+      "Dendrobium/genetics/*growth & development",
+      "Gene Expression Profiling/*methods",
+      "Gene Expression Regulation, Plant",
+      "Gene Ontology",
+      "Plant Proteins/*genetics",
+      "RNA-Seq",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Yan",
+        "Luo, Landi",
+        "Chen, Qian",
+        "Yang, Danni",
+        "Gong, Yuqiang",
+        "Yang, Ya",
+        "Qin, Xiangshi",
+        "Wang, Yuhua",
+        "Kong, Xiangxiang",
+        "Yang, Yongping"
+      ],
+      "short_names": [
+        "Zheng Y",
+        "Luo L",
+        "Chen Q",
+        "Yang D",
+        "Gong Y",
+        "Yang Y",
+        "Qin X",
+        "Wang Y",
+        "Kong X",
+        "Yang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7749-000X",
+        "ORCID: 0000-0001-7096-5404",
+        "ORCID: 0000-0002-0327-2664"
+      ],
+      "affiliations": [
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "CAS Laboratory of Tropical Plant Resources and Sustainable Use, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Menglun, Mengla 666303, China.",
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "College of Horticulture and Landscape, Yunnan Agricultural University, Kunming 650500, China.",
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+        "CAS Laboratory of Tropical Plant Resources and Sustainable Use, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Menglun, Mengla 666303, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Yan",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Landi",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "CAS Laboratory of Tropical Plant Resources and Sustainable Use, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Menglun, Mengla 666303, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qian",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Danni",
+        "short_name": "Yang D",
+        "identifiers": [],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Yuqiang",
+        "short_name": "Gong Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+          "College of Horticulture and Landscape, Yunnan Agricultural University, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ya",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Xiangshi",
+        "short_name": "Qin X",
+        "identifiers": [],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuhua",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-7749-000X"
+        ],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Xiangxiang",
+        "short_name": "Kong X",
+        "identifiers": [
+          "0000-0001-7096-5404"
+        ],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yongping",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0000-0002-0327-2664"
+        ],
+        "affiliations": [
+          "The Germplasm Bank of Wild Species, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming 650201, China.",
+          "CAS Laboratory of Tropical Plant Resources and Sustainable Use, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Menglun, Mengla 666303, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/22 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "41604022",
+      "40119401",
+      "39135170",
+      "38516669",
+      "38068587",
+      "36866358",
+      "36777007"
+    ],
+    "refs": [
+      "33649234",
+      "33421141",
+      "32246404",
+      "31713628",
+      "30664232",
+      "30407594",
+      "30321428",
+      "29764987",
+      "29735429",
+      "29220494",
+      "29142023",
+      "29056553",
+      "28834352",
+      "27716505",
+      "27655893",
+      "26754549",
+      "26582726",
+      "25835141",
+      "25751142",
+      "25516281",
+      "25480548",
+      "24689873",
+      "24681622",
+      "24354960",
+      "24179125",
+      "23933884",
+      "23175589",
+      "22706288",
+      "22550428",
+      "22483619",
+      "22391557",
+      "22388286",
+      "21816040",
+      "20724845",
+      "19453442",
+      "19403727",
+      "19246619",
+      "17916636",
+      "17487191",
+      "15012220",
+      "11489178",
+      "9707537",
+      "9525853",
+      "9023378",
+      "8721751"
+    ],
+    "similar": [
+      "35055168",
+      "39256953",
+      "30764546",
+      "30999026",
+      "29686299",
+      "34638610",
+      "31992218",
+      "33352659",
+      "34362300",
+      "32726020",
+      "35186030",
+      "31713628",
+      "38158058",
+      "35742843",
+      "38561687",
+      "35402092",
+      "31412781",
+      "36918075",
+      "22747664",
+      "36011392",
+      "34512725",
+      "38644527",
+      "38203567",
+      "38039587",
+      "30989948",
+      "30889858",
+      "34681032",
+      "31959105",
+      "34787764",
+      "35999493",
+      "38516669",
+      "34199229",
+      "29361913",
+      "31472675",
+      "29982137",
+      "39191343",
+      "29892797",
+      "38917739",
+      "28822173",
+      "30367578",
+      "33126442",
+      "33802927",
+      "35216201",
+      "36421768",
+      "37562204",
+      "32580699",
+      "19858364",
+      "37609820",
+      "30315521",
+      "25190283",
+      "38822270",
+      "30389557",
+      "31962204",
+      "27086112",
+      "32256528",
+      "32707667",
+      "32610550",
+      "35628539",
+      "24897929",
+      "31163611",
+      "29580898",
+      "24024969",
+      "31164105",
+      "20043850",
+      "35205403",
+      "38345423",
+      "24885185",
+      "32168930",
+      "38247518",
+      "30422119",
+      "28049741",
+      "31900194",
+      "30375990",
+      "32393171",
+      "32041113",
+      "23776682",
+      "29730427",
+      "28025318",
+      "29171225",
+      "38279226",
+      "36360194",
+      "29985922",
+      "21862516",
+      "36110360",
+      "32781758",
+      "28298629",
+      "30891054",
+      "39202430",
+      "31775630",
+      "34884432",
+      "34008042",
+      "26048292",
+      "32013013",
+      "31948405",
+      "26463379",
+      "23756193",
+      "34069261",
+      "32013237",
+      "33114685",
+      "32062377",
+      "32491251",
+      "35072517",
+      "32677959",
+      "31717396",
+      "38062379",
+      "19320972",
+      "32460709",
+      "26608743",
+      "32586292",
+      "29190752",
+      "31285023",
+      "30481682",
+      "38618752",
+      "31852401",
+      "36127644",
+      "27814694",
+      "30898711",
+      "25326238",
+      "30134624",
+      "39045328",
+      "31342703",
+      "36294998",
+      "26081586",
+      "35812932",
+      "39060996",
+      "35368655",
+      "35982703",
+      "36311064",
+      "37749466",
+      "36557254",
+      "33972998",
+      "29975766",
+      "39213173",
+      "32637139",
+      "39103795",
+      "37133618",
+      "36455514",
+      "36143477",
+      "35876764",
+      "34520292",
+      "38068587",
+      "38557987",
+      "37598828",
+      "38162923",
+      "33035235",
+      "35656323",
+      "36720950",
+      "36980872",
+      "36214541",
+      "37669612",
+      "38287039",
+      "36290198",
+      "35498646",
+      "38232820",
+      "36213507",
+      "35126432",
+      "39029007",
+      "38943483",
+      "37247592",
+      "31245776",
+      "35673877",
+      "35637454",
+      "37240011",
+      "38580919",
+      "38474122",
+      "36835290",
+      "36769054",
+      "29491729",
+      "37114622",
+      "35281128",
+      "34547477",
+      "33582968",
+      "35085775",
+      "35812973",
+      "36657650",
+      "35806361",
+      "27659065",
+      "39185521",
+      "39147335",
+      "36247241",
+      "35795237",
+      "33067945",
+      "37123006",
+      "37217679",
+      "38823507",
+      "35941292",
+      "36675032",
+      "36777722",
+      "35205090",
+      "35454655",
+      "38034685",
+      "35205300",
+      "35492252",
+      "36670103",
+      "36936029",
+      "38846964",
+      "31684996",
+      "39135731",
+      "38283853",
+      "38464054",
+      "37790793",
+      "28480052",
+      "37488652",
+      "37492731"
+    ],
+    "review": [
+      "35055168",
+      "28822173",
+      "36360194",
+      "38287039",
+      "36835290",
+      "34547477",
+      "35812973",
+      "35806361"
+    ],
+    "pmc": [
+      "8778272"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23020981",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35055168/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35055168",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

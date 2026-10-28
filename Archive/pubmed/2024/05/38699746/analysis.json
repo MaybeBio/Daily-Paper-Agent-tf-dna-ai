@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38699746",
+  "title": "Identification of shared molecular mechanisms and diagnostic biomarkers between heart failure and idiopathic pulmonary fibrosis.",
+  "authors": "Zhang, Peng; Geng, Lou; Zhang, Kandi; Liu, Dongsheng; Wei, Meng; Jiang, Zheyi; Lu, Yihua; Zhang, Tiantian; Chen, Jie; Zhang, Junfeng",
+  "journal": "Heliyon",
+  "published_date": "2024-05-03",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过WGCNA和机器学习识别心衰与特发性肺纤维化的共享基因及诊断标志物，虽提及转录因子TCF12，但核心是疾病共病机制与诊断标志物，非蛋白质-DNA互作或TF-DNA结合建模研究。",
+  "abstract": "BACKGROUND: Heart failure (HF) and idiopathic pulmonary fibrosis (IPF) are global public health concerns. The relationship between HF and IPF is widely acknowledged. However, the interaction mechanisms between these two diseases remain unclear, and early diagnosis is particularly difficult. Through the integration of bioinformatics and machine learning, our work aims to investigate common gene features, putative molecular causes, and prospective diagnostic indicators of IPF and HF. METHODS: The Gene Expression Omnibus (GEO) database provided the RNA-seq datasets for HF and IPF. Utilizing a weighted gene co-expression network analysis (WGCNA), possible genes linked to HF and IPF were found. The Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) were then employed to analyze the genes that were shared by HF and IPF. Using the cytoHubba and iRegulon algorithms, a competitive endogenous RNA (ceRNA) network was built based on seven basic diagnostic indicators. Additionally, hub genes were identified using machine learning approaches. External datasets were used to validate the findings. Lastly, the association between the number of immune cells in tissues and the discovered genes was estimated using the CIBERSORT method. RESULTS: In total, 63 shared genes were identified between HF- and IPF-related modules using WGCNA. Extracellular matrix (ECM)/structure organization, ECM-receptor interactions, focal, and protein digestion and absorption, were shown to be the most enrichment categories in GO and KEGG enrichment analysis of common genes. Furthermore, a total of seven fundamental genes, including COL1A1, COL3A1, THBS2, CCND1, ASPN, FAP, and S100A12, were recognized as pivotal genes implicated in the shared pathophysiological pathways of HF and IPF, and TCF12 may be the most important regulatory transcription factor. Two characteristic molecules, CCND1 and NAP1L3, were selected as potential diagnostic markers for HF and IPF, respectively, using a support vector machine-recursive feature elimination (SVM-RFE) model. Furthermore, the development of diseases and diagnostic markers may be associated with immune cells at varying degrees. CONCLUSIONS: This study demonstrated that ECM/structure organisation, ECM-receptor interaction, focal adhesion, and protein digestion and absorption, are common pathogeneses of IPF and HF. Additionally, CCND1 and NAP1L3 were identified as potential diagnostic biomarkers for both HF and IPF. The results of our study contribute to the comprehension of the co-pathogenesis of HF and IPF at the genetic level and offer potential biological indicators for the early detection of both conditions.",
+  "abstract_zh": "背景：心力衰竭（HF）和特发性肺纤维化（IPF）是全球性的公共卫生问题。HF与IPF之间的关系已被广泛认可。然而，这两种疾病之间的相互作用机制仍不清楚，早期诊断尤为困难。通过整合生物信息学和机器学习，我们的工作旨在探究IPF和HF的共同基因特征、推测的分子原因及潜在的诊断指标。方法：基因表达综合数据库（GEO）提供了HF和IPF的RNA-seq数据集。利用加权基因共表达网络分析（WGCNA），发现了可能与HF和IPF相关的基因。随后，采用京都基因与基因组百科全书（KEGG）和基因本体论（GO）分析HF和IPF共有的基因。基于七个基本诊断指标，使用cytoHubba和iRegulon算法构建了竞争性内源RNA（ceRNA）网络。此外，通过机器学习方法识别了核心基因。使用外部数据集验证了发现。最后，利用CIBERSORT方法估计了组织中免疫细胞数量与所发现基因之间的关联。结果：通过WGCNA，在HF和IPF相关模块之间共识别出63个共享基因。GO和KEGG富集分析显示，常见基因最富集的类别为细胞外基质（ECM）/结构组织、ECM-受体相互作用、焦点粘附以及蛋白质消化和吸收。此外，共识别出七个基础基因，包括COL1A1、COL3A1、THBS2、CCND1、ASPN、FAP和S100A12，作为参与HF和IPF共同病理生理通路的关键基因，且TCF12可能是最重要的调控转录因子。使用支持向量机-递归特征消除（SVM-RFE）模型，分别选择CCND1和NAP1L3作为HF和IPF的潜在诊断标志物。此外，疾病的发展和诊断标志物可能与免疫细胞在不同程度上相关。结论：本研究证明，ECM/结构组织、ECM-受体相互作用、焦点粘附以及蛋白质消化和吸收是IPF和HF的共同发病机制。此外，CCND1和NAP1L3被识别为HF和IPF的潜在诊断生物标志物。我们的研究结果有助于在基因水平上理解HF和IPF的共同发病机制，并为这两种疾病的早期检测提供了潜在的生物指标。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38699746/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38699746/",
+  "paper_page_path": "papers/pubmed/38699746/index.html"
+}

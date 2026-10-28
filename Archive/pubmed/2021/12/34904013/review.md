@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report the synthesis and characterization of three novel Cr(III) complexes with the 4,5-diazafluoren-9-one (dafone) ligand, and evaluate their DNA binding properties, molecular docking, and in-vitro cytotoxicity against cancer cell lines. The central claims are that these complexes bind DNA via groove mode, exhibit anti-proliferative activity, and show potential as anti-cancer agents.
+- **Visible evidence base** Abstract, full experimental section, results and discussion, tables (referenced but not fully visible), figures (referenced but not fully visible), and conclusion
+- **Missing materials affecting confidence** Figures 1-15 are referenced but not provided; Tables 1-3 are referenced but not provided; detailed spectral data (FT-IR, UV-Vis, CV) are summarized but raw data are absent; cell viability data and statistical analysis details are incomplete
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in bioinorganic chemistry, namely the design of Cr(III) complexes as potential anti-proliferative agents. The synthesis and characterization of three new complexes are described, and a range of biophysical techniques are employed to investigate DNA binding. However, the manuscript has several significant weaknesses. The characterization data are presented without sufficient detail or raw evidence, the DNA binding studies lack rigorous quantitative analysis, the cytotoxicity data are incomplete and lack statistical context, and the molecular docking methodology is superficial. The claims of groove binding and anti-proliferative potential are only partially supported by the evidence presented. The manuscript requires substantial revision and additional experiments before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers in the fields of bioinorganic chemistry, medicinal inorganic chemistry, and cancer pharmacology would be interested. The work addresses the ongoing search for non-platinum metal-based anticancer agents, and Cr(III) complexes with polypyridyl ligands are a relatively underexplored area. The combination of DNA binding studies and cytotoxicity evaluation is of general interest to those developing metal-based therapeutics.
+- **Major strengths** The synthesis of three new Cr(III) complexes with a less-common ligand (dafone) is a useful contribution. The use of multiple complementary techniques (UV-Vis, fluorescence, viscosity, CD, gel electrophoresis) to probe DNA binding is commendable. The inclusion of molecular docking to support experimental findings is a positive feature. The cytotoxicity evaluation against two cancer cell lines and a normal cell line provides a preliminary assessment of selectivity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the complexes were "characterized by different techniques" and that elemental analysis results were "compatible with their formula."
+  - **Evidence pointer** Experimental section, Results and Discussion, FT-IR and UV-Vis sections; location not provided for raw data
+  - **Concern** The characterization of the complexes is incomplete and insufficiently documented. The manuscript relies on FT-IR, UV-Vis, elemental analysis, and cyclic voltammetry, but the actual data are not shown in sufficient detail. For example, the FT-IR spectra are described narratively but the key bands are not tabulated with assignments. The UV-Vis spectra are described but the molar absorptivity values are not provided. The cyclic voltammetry data are mentioned but no electrochemical parameters (e.g., peak potentials, peak-to-peak separations) are given. Most critically, the manuscript does not provide any mass spectrometry or single-crystal X-ray diffraction data, which are essential for unequivocal confirmation of the proposed molecular structures. The proposed formulas are therefore not rigorously established.
+  - **Why it matters** Without rigorous characterization, the identity and purity of the complexes are not confirmed. This undermines all subsequent biological and biophysical studies, as any observed effects could be attributed to impurities or incorrect structures. The claim of "novel complexes" cannot be verified without definitive structural evidence.
+  - **Resolution test** Provide full characterization data including tabulated FT-IR band assignments, UV-Vis absorption maxima with molar absorptivities, cyclic voltammetry parameters, mass spectrometry data, and, ideally, single-crystal X-ray structures. Elemental analysis should be presented with calculated and found values for all elements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "the data of viscosity and circular dichroism (CD) support the groove binding mode" and that the complexes bind DNA via groove mode.
+  - **Evidence pointer** Results and Discussion, Viscosity measurement and Circular Dichroism analysis sections; Figures 12 and 13 referenced but not provided
+  - **Concern** The DNA binding studies are not quantitatively rigorous. The viscosity measurements are described qualitatively ("did not change") without presenting the actual data or statistical analysis. The CD spectra are described as showing "decrease in the magnitude of the bands" but the actual spectra are not shown, and the interpretation is ambiguous. Groove binding is a specific mode that requires more definitive evidence, such as competitive displacement assays with a known groove binder (e.g., Hoechst 33258) or minor groove binder (e.g., DAPI), or DNA melting studies. The UV-Vis titration data are used to calculate Kb values, but the methodology is not described in detail, and the Kb values are not compared with known groove binders or intercalators in a meaningful way. The claim that the binding is groove mode is not sufficiently supported by the data presented.
+  - **Why it matters** The mode of DNA binding is a central claim of the manuscript and is used to rationalize the biological activity. If the binding mode is not rigorously established, the mechanistic interpretation is weakened. The distinction between groove binding and intercalation has important implications for the design of future analogues.
+  - **Resolution test** Provide quantitative viscosity data with error bars and statistical analysis. Show the CD spectra with clear labeling of bands and quantitative analysis of changes. Perform competitive displacement assays with known groove binders and intercalators. Provide detailed UV-Vis titration methodology, including the fitting procedure for Kb calculation, and compare Kb values with those of known DNA binders under identical conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the complexes are "potent anti-proliferative agents" and "could be further studied as anti-cancer agents."
+  - **Evidence pointer** Results and Discussion, Determination of anti-proliferative activity section; Table 2 referenced but not provided
+  - **Concern** The cytotoxicity data are presented in a very limited manner. Only IC50 values are given for two cancer cell lines and one normal cell line, but the full dose-response curves are not shown, and the number of independent experiments is not stated. The statistical analysis is absent, with no error bars or significance testing. The claim of "potent" activity is not justified without comparison to a broader panel of cell lines and without a more detailed analysis of selectivity. The manuscript does not discuss the mechanism of cell death (e.g., apoptosis vs. necrosis) or the cellular uptake of the complexes. The comparison with cisplatin is made, but the significance of the differences is not tested. The statement that "the presence of dafone ligand could be the reason for better efficiency" is speculative and not supported by any structure-activity relationship data.
+  - **Why it matters** The anti-proliferative activity is a key selling point of the manuscript. Without rigorous cytotoxicity data, the claim of potential anti-cancer agents is not established. The lack of statistical analysis and mechanistic studies limits the significance of the findings.
+  - **Resolution test** Provide full dose-response curves for all cell lines, with at least three independent experiments. Include statistical analysis (e.g., mean ± SD, significance testing). Assess selectivity by calculating selectivity indices. Perform additional experiments to investigate the mechanism of cell death and cellular uptake. Discuss structure-activity relationships with appropriate controls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that molecular docking results "confirmed efficient binding of the target compounds to DNA structure and confirmed groove mode of binding."
+  - **Evidence pointer** Results and Discussion, Molecular docking results section; Table 3 and Figure 15 referenced but not provided
+  - **Concern** The molecular docking methodology is described in a single sentence, with no details on the docking software parameters, the DNA structure used, the preparation of the ligands, or the validation of the docking protocol. The results are presented as a table of binding energies, but the docking poses are not described or analyzed in detail. The claim that docking "confirmed" groove binding is an overstatement, as docking studies are predictive and require experimental validation. The manuscript does not discuss the limitations of the docking approach or compare the docking results with the experimental findings in a critical manner.
+  - **Why it matters** Molecular docking is used as supporting evidence for the binding mode. If the methodology is not rigorous, the conclusions drawn from it are weakened. The overstatement of docking results as "confirmation" is scientifically inaccurate.
+  - **Resolution test** Provide a detailed description of the docking methodology, including software version, scoring function, DNA structure preparation, ligand preparation, and validation (e.g., redocking of a known ligand). Show the docking poses with key interactions. Discuss the limitations of the approach and compare the docking results with experimental data in a balanced manner.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract is dense and uses technical terms without explanation. The introduction does not provide sufficient background on why Cr(III) complexes are of interest as anticancer agents, and the rationale for choosing the dafone ligand is not clearly articulated.
+  - **Required correction** Expand the introduction to provide context on the role of metal complexes in cancer therapy and the specific advantages of Cr(III) complexes. Clarify the rationale for selecting dafone and the other ligands. Simplify the abstract for a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental section, DNA binding experiments
+  - **Evidence pointer** Experimental section, DNA binding experiments
+  - **Issue** The concentrations of complexes used in the UV-Vis titrations are inconsistent. In the "DNA binding experiments" subsection, the concentrations are given as 3.7 × 10-5, 6.8 × 10-5, and 9.8 × 10-5 M for complexes 1, 2, and 3, respectively. However, in the "Electronic absorption spectra" subsection, the concentration for complex 1 is stated as 3.7 × 10-5 M, which is consistent, but the DNA concentration ranges are not clearly defined. The text also mentions "9.8 × 10-6 M" in one place, which appears to be a typographical error.
+  - **Required correction** Ensure all concentrations are consistent and correct. Clearly state the concentration ranges for DNA in each titration. Proofread for typographical errors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, Cyclic voltammetry section
+  - **Evidence pointer** Results and Discussion, Cyclic voltammetry section
+  - **Issue** The cyclic voltammetry data are described qualitatively, but no electrochemical parameters are provided. The text mentions "quasi reversible reduction waves" but does not give the peak potentials or the scan rate dependence. The assignment of the waves to specific redox processes is not discussed.
+  - **Required correction** Provide a table of electrochemical data, including peak potentials, peak-to-peak separations, and assignments. Discuss the redox behavior in the context of the complex structures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results and Discussion, DNA binding sections
+  - **Evidence pointer** Results and Discussion, DNA binding sections
+  - **Issue** The text is repetitive, with similar statements about groove binding appearing in multiple sections. The logical flow could be improved by consolidating the DNA binding results into a single coherent section.
+  - **Required correction** Restructure the DNA binding sections to avoid repetition and improve clarity. Present the results in a logical order, with a clear summary of the evidence for the binding mode.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete characterization), R1-M2 (insufficient DNA binding evidence), R1-M3 (incomplete cytotoxicity data)
+- **Assessment against Nature-style criteria** Originality: The use of dafone as a ligand in Cr(III) complexes is relatively novel, but the overall approach (synthesis, DNA binding, cytotoxicity) is routine and does not offer a new conceptual framework. Scientific importance: The findings are of moderate interest to the bioinorganic chemistry community, but the lack of rigorous data limits the significance. The potential therapeutic relevance is not convincingly demonstrated. Interdisciplinary readership: The work spans chemistry and biology, but the presentation is not accessible to a broad audience. Technical soundness: The manuscript has significant technical weaknesses, particularly in characterization and quantitative analysis. Readability for nonspecialists: The manuscript is written in a technical style that would be challenging for nonspecialists, and the lack of clear figures and tables exacerbates this issue.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic and the synthesis of new complexes is a positive contribution, but the characterization is incomplete, the DNA binding studies lack rigor, and the cytotoxicity data are insufficient. Major revisions and additional experiments are required before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that the complexes are "novel" is not fully supported without definitive structural characterization (e.g., X-ray crystallography or mass spectrometry).
+- The claim of groove binding mode is not rigorously established; the evidence presented is qualitative and lacks appropriate controls.
+- The claim of "potent anti-proliferative activity" is not supported by the limited data presented, which lack statistical analysis and full dose-response curves.
+- The statement that "the presence of dafone ligand could be the reason for better efficiency" is speculative and not supported by structure-activity relationship studies.
+- The molecular docking results are presented as "confirmation" of groove binding, which is an overstatement given the predictive nature of docking and the lack of methodological detail.

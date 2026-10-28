@@ -1,0 +1,223 @@
+{
+  "identity": {
+    "pmid": "39047594",
+    "doi": "10.1016/j.compbiolchem.2024.108157",
+    "title": "Discovering novel targets of abscisic acid using computational approaches."
+  },
+  "content": {
+    "abstract": "Abscisic acid (ABA) is a crucial plant hormone that is naturally produced in various mammalian tissues and holds significant potential as a therapeutic molecule in humans. ABA is selected for this study due to its known roles in essential human metabolic processes, such as glucose homeostasis, immune responses, cardiovascular system, and inflammation regulation. Despite its known importance, the molecular mechanism underlying ABA's action remain largely unexplored. This study employed computational techniques to identify potential human ABA receptors. We screened 64 candidate molecules using online servers and performed molecular docking to assess binding affinity and interaction types with ABA. The stability and dynamics of the best complexes were investigated using molecular dynamics simulation over a 100 ns time period. Root mean square fluctuations (RMSF), root mean square deviation (RMSD), solvent-accessible surface area (SASA), radius of gyration (Rg), free energy landscape (FEL), and principal component analysis (PCA) were analyzed. Next, the molecular mechanics Poisson-Boltzmann surface area (MM-PBSA) method was employed to calculate the binding energies of the complexes based on the simulated data. Our study successfully pinpointed four key receptors responsible for ABA signaling (androgen receptor, glucocorticoid receptor, mineralocorticoid receptor, and retinoic acid receptor beta) that have a strong affinity for binding with ABA and remained structurally stable throughout the simulations. The simulations with Hydralazine as an unrelated ligand were conducted to validate the specificity of the identified receptors for ABA. The findings of this study can contribute to further experimental validation and a better understanding of how ABA functions in humans.",
+    "keywords": [
+      "Abscisic acid",
+      "Molecular docking",
+      "Molecular dynamics simulation",
+      "Receptor"
+    ],
+    "mesh_terms": [
+      "*Abscisic Acid/chemistry/metabolism",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "Receptors, Glucocorticoid/metabolism/chemistry",
+      "Receptors, Androgen/metabolism/chemistry",
+      "Receptors, Mineralocorticoid/metabolism/chemistry",
+      "Receptors, Retinoic Acid/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Iranmanesh, Zahra",
+        "Dehestani, Maryam",
+        "Esmaeili-Mahani, Saeed"
+      ],
+      "short_names": [
+        "Iranmanesh Z",
+        "Dehestani M",
+        "Esmaeili-Mahani S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Shahid Bahonar University of Kerman, Kerman, Iran.",
+        "Department of Chemistry, Shahid Bahonar University of Kerman, Kerman, Iran. Electronic address: dehestani@uk.ac.ir.",
+        "Department of Biology, Shahid Bahonar University of Kerman, Kerman, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Iranmanesh, Zahra",
+        "short_name": "Iranmanesh Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Shahid Bahonar University of Kerman, Kerman, Iran."
+        ]
+      },
+      {
+        "full_name": "Dehestani, Maryam",
+        "short_name": "Dehestani M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Shahid Bahonar University of Kerman, Kerman, Iran. Electronic address: dehestani@uk.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Esmaeili-Mahani, Saeed",
+        "short_name": "Esmaeili-Mahani S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shahid Bahonar University of Kerman, Kerman, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/26 12:36",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "41596967",
+      "41303597"
+    ],
+    "refs": [],
+    "similar": [
+      "39047594",
+      "40594675",
+      "41629408",
+      "40489515",
+      "40992974",
+      "35386188",
+      "42163961",
+      "41028134",
+      "41045314",
+      "39293331",
+      "39395347",
+      "35105279",
+      "29468945",
+      "34935010",
+      "38282535",
+      "40398358",
+      "40059543",
+      "41388231",
+      "34260631",
+      "30686665",
+      "41719001",
+      "29633919",
+      "36518265",
+      "42011130",
+      "42118388",
+      "40455734",
+      "40516341",
+      "35978863",
+      "30295165",
+      "41238606",
+      "38222948",
+      "40114577",
+      "41863439",
+      "36253940",
+      "36094198",
+      "39818002",
+      "39535182",
+      "29334340",
+      "40973684",
+      "34662260",
+      "41545687",
+      "41713229",
+      "41343928",
+      "40706551",
+      "37744007",
+      "34500740",
+      "36935093",
+      "39471254",
+      "41970697",
+      "29633905",
+      "41814730",
+      "32629182",
+      "41418352",
+      "41964725",
+      "29132266",
+      "35780236",
+      "39563176",
+      "41045435",
+      "39653633",
+      "31497942",
+      "41138359",
+      "37676253",
+      "40331986",
+      "40910199",
+      "39769078",
+      "39706436",
+      "32196303",
+      "38693868",
+      "38802394",
+      "29142437",
+      "28063347",
+      "35510600",
+      "41188391",
+      "38501198",
+      "38246999",
+      "40126822",
+      "39915777",
+      "34709124",
+      "29064326",
+      "11742533",
+      "40549449",
+      "29842849",
+      "41547173",
+      "40534200",
+      "41172603",
+      "42153145",
+      "33670773",
+      "42054915",
+      "41152498",
+      "39561510",
+      "39802857",
+      "39443392",
+      "39948258",
+      "31451955",
+      "38658642",
+      "41444316",
+      "41678886",
+      "40207812",
+      "23825939",
+      "29447108"
+    ],
+    "review": [
+      "39047594"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(24)00145-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

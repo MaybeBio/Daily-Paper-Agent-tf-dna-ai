@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "41949600",
+    "doi": "10.1007/s00210-026-05281-1",
+    "title": "Integrated multi-omics and experimental validation for identifying novel biomarkers of acute myocardial infarction."
+  },
+  "content": {
+    "abstract": "Acute myocardial infarction (AMI) remains a leading cause of morbidity and mortality, and early diagnosis and personalized therapy are constrained by complex molecular mechanisms. We integrated high-throughput bulk RNA sequencing with weighted gene co-expression network analysis (WGCNA) to prioritize AMI-associated genes, externally validated findings in two independent cohorts, and screened candidates using machine learning models. Diagnostic performance was assessed by receiver operating characteristic area under the curve, and immune-cell associations were explored. Single-cell RNA sequencing (scRNA-seq) across AMI stages provided orthogonal validation via gene set variation analysis, inferred cell-cell communication, pseudotime trajectories, and cell-type proportion analyses. Genetic support for causality was evaluated using two-sample bidirectional Mendelian randomization (MR) and summary-data-based MR (SMR). We additionally predicted compound-target interactions through in silico molecular docking of Comparative Toxicogenomics Database sourced compounds and examined histology and gene expression in rat and H9C2 models using hematoxylin and eosin (HE) staining, Western blotting, and qRT-PCR. MR/SMR analyses supported potential causal contributions of STAT3 (OR 1.417, 95% CI 1.063-1.889, P(IVW) = 0.005) and DUSP4 (OR 0.578, 95% CI 0.460-0.726, P(IVW) < 0.001) to AMI. Both genes were linked to immune-inflammatory signaling involving T cells, natural killer cells, and M2 macrophages, showed high expression in cardiomyocytes in scRNA-seq, and aligned with apoptosis, tumor necrosis factor-alpha, and hypoxia pathways. Western blotting and qRT-PCR analyses confirmed that STAT3 and DUSP4 expression was significantly upregulated after AMI (P < 0.001). In summary, STAT3 and DUSP4 are key biomarkers of acute myocardial infarction and may hold promise as targets for personalized therapeutic strategies in AMI.",
+    "keywords": [
+      "Acute myocardial infarction",
+      "Biomarkers",
+      "Machine learning",
+      "Plasma proteome"
+    ],
+    "mesh_terms": [
+      "*Myocardial Infarction/genetics/metabolism/diagnosis",
+      "Animals",
+      "Biomarkers/metabolism",
+      "Rats",
+      "Multiomics",
+      "STAT3 Transcription Factor/genetics/metabolism",
+      "Humans",
+      "Cell Line",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qu, Siyuan",
+        "Nie, Qi",
+        "Li, Jiaxi",
+        "Zhang, Bo",
+        "Chen, Ziqiang",
+        "Zhou, Liya"
+      ],
+      "short_names": [
+        "Qu S",
+        "Nie Q",
+        "Li J",
+        "Zhang B",
+        "Chen Z",
+        "Zhou L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medical Sciences, Changchun University of Chinese Medicine, Changchun, 130117, China.",
+        "School of Basic Medical Sciences, Changchun University of Chinese Medicine, Changchun, 130117, China.",
+        "School of Basic Medical Sciences, Changchun University of Chinese Medicine, Changchun, 130117, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, China.",
+        "School of Basic Medical Sciences, Changchun University of Chinese Medicine, Changchun, 130117, China. zhouliya0919@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qu, Siyuan",
+        "short_name": "Qu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Changchun University of Chinese Medicine, Changchun, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Qi",
+        "short_name": "Nie Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Changchun University of Chinese Medicine, Changchun, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiaxi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Changchun University of Chinese Medicine, Changchun, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bo",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ziqiang",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Liya",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Changchun University of Chinese Medicine, Changchun, 130117, China. zhouliya0919@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Naunyn-Schmiedeberg's archives of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Naunyn Schmiedebergs Arch Pharmacol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/08 12:35",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39857660",
+      "39787372",
+      "39152432",
+      "38518057",
+      "38438006",
+      "38022594",
+      "37775746",
+      "37507372",
+      "36613514",
+      "36368511",
+      "35488372",
+      "34857953",
+      "34594039",
+      "34292971",
+      "34239129",
+      "33309175",
+      "32971526",
+      "31915373",
+      "31862877",
+      "31772123",
+      "31656670",
+      "29875488",
+      "29846171",
+      "29686387",
+      "28825705",
+      "27340270",
+      "27294090",
+      "27135364",
+      "26184564",
+      "26055795",
+      "24658644",
+      "22993413",
+      "19114008",
+      "16629850"
+    ],
+    "similar": [
+      "41949600",
+      "42136960",
+      "42098867",
+      "42051519",
+      "38022594",
+      "42327787",
+      "41526548",
+      "40782973",
+      "40916281",
+      "41782887",
+      "41601671",
+      "42236612",
+      "39809140",
+      "41768570",
+      "41204556",
+      "40133574",
+      "35764238",
+      "37597790",
+      "40685440",
+      "39650552",
+      "41388545",
+      "40619072",
+      "40319218",
+      "41699549",
+      "40861421",
+      "40760666",
+      "42305536",
+      "42292364",
+      "40467768",
+      "42074514",
+      "39938168",
+      "42024670",
+      "42173079",
+      "41611834",
+      "41415264",
+      "42233387",
+      "42255489",
+      "40251588",
+      "39308815",
+      "40738705",
+      "33563285",
+      "41484731",
+      "41388523",
+      "42015036",
+      "41939867",
+      "41863100",
+      "40340571",
+      "42123445",
+      "42256531",
+      "41017094",
+      "41333919",
+      "41459671",
+      "41436831",
+      "40679719",
+      "42359574",
+      "41129479",
+      "40909263",
+      "42123756",
+      "38783198",
+      "41080564",
+      "37178159",
+      "41191606",
+      "42351206",
+      "42267557",
+      "41112249",
+      "35592331",
+      "41422660",
+      "41665627",
+      "40853611",
+      "41186507",
+      "41548375",
+      "39067546",
+      "41371106",
+      "41099890",
+      "40704466",
+      "35126626",
+      "42210330",
+      "42435052",
+      "36062187",
+      "41706814",
+      "41192724",
+      "37908757",
+      "39103773",
+      "41733593",
+      "39521235",
+      "41923163",
+      "42343898",
+      "40181401",
+      "39552895",
+      "41716413",
+      "41291841",
+      "39364414",
+      "41758878",
+      "38713173",
+      "42158856",
+      "39923303",
+      "41497980",
+      "41340073",
+      "38839020",
+      "40750228"
+    ],
+    "review": [
+      "41949600",
+      "40467768"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00210-026-05281-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

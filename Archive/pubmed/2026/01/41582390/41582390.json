@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "41582390",
+    "doi": "10.2174/0118715303419738251111055407",
+    "title": "Analysis of the Relationship Between Early Estrogen Response and Cryptorchidism."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Cryptorchidism, a common congenital malformation in male newborns due to abnormal testicular descent, is closely linked to male infertility and germ cell tumors. The study suggested that estrogen response contributes to its occurrence. METHODS: Data were collected from Gene Expression Omnibus (GEO). Enrichment scores were calculated by single-sample gene set enrichment analysis (GSEA), while pathway analysis was performed using GSEA. Key modules were identified through weighted gene co-expression network analysis (WGCNA), followed by the screening of differentially expressed genes (DEGs) using the limma package. The intersection genes were further screened by LASSO and Support Vector Machine-Recursive Feature Elimination (SVM-RFE). Potential transcription factors (TFs) were predicted using hTFtarget, and related microRNAs were analyzed using the Encori database. The TF regulatory network was visualized using Cytoscape 3.8.0. RESULTS: Patients with cryptorchidism exhibited significantly higher early estrogen response scores compared to controls, with a notable enrichment of the early estrogen response pathway. This study identified 2 biomarkers, PRR15 and SRPX, which were both regulated by the TF SPI1. PRR15 gene expression was significantly related to early estrogen response. Additionally, these two biomarkers were primarily involved in cell division pathways; in particular, PRR15 was closely linked to progesterone-mediated oocyte maturation. DISCUSSION: PRR15 and SRPX, which SPI1 potentially regulated, were identified as genes associated with early estrogen response in cryptorchidism and were enriched in estrogen-related and cell division pathways. CONCLUSION: This study provided translational insights, enhancing the current understanding of testicular pathogenesis and contributing to the diagnosis and treatment of cryptorchidism.",
+    "keywords": [
+      "Early estrogen response",
+      "biomarker",
+      "cryptorchidism",
+      "enrichment analysis",
+      "machine learning",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cryptorchidism/genetics/metabolism/diagnosis",
+      "Male",
+      "*Estrogens/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling/methods",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Miao, Dashuai",
+        "Sun, Yifang",
+        "Yu, Xiang",
+        "Feng, Suyin",
+        "Zhu, Long",
+        "Tong, Xiao",
+        "Ge, Wenliang",
+        "Li, Hua"
+      ],
+      "short_names": [
+        "Miao D",
+        "Sun Y",
+        "Yu X",
+        "Feng S",
+        "Zhu L",
+        "Tong X",
+        "Ge W",
+        "Li H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatrics, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+        "Department of Pediatrics, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+        "Department of Pediatrics, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+        "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+        "Department of Neurosurgery, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+        "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+        "Department of Neurosurgery, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+        "Department of Pediatrics, Jiangnan University Affiliated Hospital, Wuxi, 214122, China.",
+        "Department of Pediatric Surgery, Affiliated Hospital of Nantong University, Nantong, China.",
+        "Department of Pediatrics, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Miao, Dashuai",
+        "short_name": "Miao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yifang",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xiang",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Suyin",
+        "short_name": "Feng S",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+          "Department of Neurosurgery, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Long",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China.",
+          "Department of Neurosurgery, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Xiao",
+        "short_name": "Tong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Jiangnan University Affiliated Hospital, Wuxi, 214122, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Wenliang",
+        "short_name": "Ge W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Affiliated Hospital of Nantong University, Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hua",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Donghai, 223000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine, metabolic & immune disorders drug targets"
+    ],
+    "journal_abbrev": [
+      "Endocr Metab Immune Disord Drug Targets"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/26 06:26",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41582390",
+      "36532015",
+      "41487007",
+      "40754871",
+      "39509434",
+      "40860289",
+      "41388523",
+      "38951833",
+      "39142001",
+      "40964162",
+      "41787525",
+      "41102315",
+      "39351239",
+      "40312440",
+      "35713363",
+      "41432483",
+      "40454210",
+      "39953122",
+      "41255033",
+      "39375405",
+      "41029776",
+      "39507054",
+      "40901831",
+      "42642681",
+      "40245021",
+      "40630623",
+      "41120603",
+      "40263690",
+      "38755717",
+      "40148430",
+      "40313958",
+      "41826854",
+      "40574839",
+      "39923303",
+      "35877019",
+      "39341981",
+      "41200172",
+      "41013556",
+      "41052072",
+      "41006883",
+      "39086489",
+      "38863714",
+      "41126414",
+      "41146237",
+      "40296690",
+      "35757392",
+      "40997906",
+      "38711508",
+      "39586719",
+      "41117218",
+      "41300841",
+      "36316672",
+      "41816328",
+      "39904830",
+      "35749386",
+      "39346628",
+      "40441253",
+      "41843279",
+      "42367122",
+      "41533020",
+      "41415264",
+      "40598243",
+      "34555052",
+      "38774864",
+      "38476236",
+      "39466354",
+      "42326009",
+      "38260098",
+      "42059276",
+      "41716396",
+      "37821907",
+      "39540991",
+      "41378005",
+      "39609718",
+      "39206894",
+      "38899746",
+      "40676798",
+      "41189222",
+      "38549107",
+      "38767974",
+      "42715469",
+      "36576616",
+      "40933471",
+      "35278479",
+      "40078458",
+      "39735547",
+      "41884632",
+      "39560561",
+      "39945271",
+      "39501535",
+      "39953769",
+      "40129981",
+      "35965814",
+      "38573982",
+      "26264810",
+      "42292668",
+      "39394418",
+      "34430428",
+      "39559355",
+      "39650552"
+    ],
+    "review": [
+      "41582390"
+    ],
+    "pmc": [
+      "13563426"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41582390/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/249627/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

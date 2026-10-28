@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "41043336",
+    "doi": "10.1016/j.compbiolchem.2025.108702",
+    "title": "EnsembleRegNet: Interpretable deep learning for transcriptional network inference from single-cell RNA-seq."
+  },
+  "content": {
+    "abstract": "Gene regulatory networks (GRNs) govern gene expression and cellular identity, but accurately inferring their structure from high-dimensional single-cell RNA sequencing (scRNA-seq) data remains a major challenge. Here, we present EnsembleRegNet, a deep learning framework that infers transcription factor (TF)-target gene relationships by integrating an ensemble encoder-decoder and multilayer perceptron (MLP) architecture. EnsembleRegNet utilizes Hodges-Lehmann estimator (HLE)-based binarization, case-deletion analysis, motif enrichment using RcisTarget, and regulon activity scoring with AUCell to enhance both robustness and biological interpretability. Extensive evaluations across simulated and real scRNA-seq datasets demonstrate that EnsembleRegNet outperforms existing GRN inference methods, including SCENIC and SIGNET, in both clustering performance and regulatory accuracy. By uncovering cell-type-specific regulatory modules and enhancing interpretability, EnsembleRegNet offers a scalable and biologically grounded framework for exploring transcriptional regulation. Its demonstrated performance establishes a new benchmark for GRN inference and highlights its promise for applications in disease modeling, biomarker discovery, and cellular reprogramming.",
+    "keywords": [
+      "Cell clustering",
+      "Deep learning",
+      "Encoder-decoder",
+      "Ensemble",
+      "Gene regulatory network inference"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Single-Cell Analysis",
+      "*Gene Regulatory Networks/genetics",
+      "Humans",
+      "*RNA-Seq",
+      "Transcription Factors/genetics",
+      "*Sequence Analysis, RNA",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alawad, Duaa Mohammad",
+        "Katebi, Ataur",
+        "Hoque, Md Tamjidul"
+      ],
+      "short_names": [
+        "Alawad DM",
+        "Katebi A",
+        "Hoque MT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, University of New Orleans, New Orleans, LA, USA. Electronic address: dmalawad@uno.edu.",
+        "Department of Bioengineering, Northeastern University, Boston, MA, USA; Center for Theoretical Biological Physics, Northeastern University, Boston, MA, USA. Electronic address: a.katebi@neu.edu.",
+        "Department of Computer Science, University of New Orleans, New Orleans, LA, USA. Electronic address: thoque@uno.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alawad, Duaa Mohammad",
+        "short_name": "Alawad DM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of New Orleans, New Orleans, LA, USA. Electronic address: dmalawad@uno.edu."
+        ]
+      },
+      {
+        "full_name": "Katebi, Ataur",
+        "short_name": "Katebi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Northeastern University, Boston, MA, USA; Center for Theoretical Biological Physics, Northeastern University, Boston, MA, USA. Electronic address: a.katebi@neu.edu."
+        ]
+      },
+      {
+        "full_name": "Hoque, Md Tamjidul",
+        "short_name": "Hoque MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of New Orleans, New Orleans, LA, USA. Electronic address: thoque@uno.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/04 00:30",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "41596034"
+    ],
+    "refs": [
+      "40197174",
+      "39708840",
+      "39417321",
+      "38155269",
+      "36737104",
+      "35352511",
+      "34962260",
+      "34382935",
+      "34179690",
+      "33967674",
+      "33294129",
+      "33092903",
+      "32661177",
+      "32588900",
+      "32561888",
+      "32135093",
+      "31870278",
+      "31780669",
+      "31678629",
+      "31570380",
+      "31391919",
+      "31340985",
+      "30388455",
+      "29409532",
+      "29198524",
+      "29087512",
+      "29045685",
+      "29028984",
+      "28991892",
+      "28968704",
+      "28957658",
+      "28584094",
+      "28379368",
+      "25700174",
+      "24774859",
+      "23619691",
+      "22084422",
+      "21655103",
+      "21324878",
+      "20927193",
+      "19833651",
+      "19544440",
+      "15914541",
+      "15878890"
+    ],
+    "similar": [
+      "41043336",
+      "41288963",
+      "38980373",
+      "34962260",
+      "40062616",
+      "41052197",
+      "40251476",
+      "40654959",
+      "37985457",
+      "41257571",
+      "38950180",
+      "37244909",
+      "40116659",
+      "41354912",
+      "39062480",
+      "41317402",
+      "34251625",
+      "40591481",
+      "41871930",
+      "36626328",
+      "37004161",
+      "37686146",
+      "38896510",
+      "40220759",
+      "37085776",
+      "35961023",
+      "41883144",
+      "39487083",
+      "40708222",
+      "39694856",
+      "40956752",
+      "34424948",
+      "41300707",
+      "39960893",
+      "40409400",
+      "36168811",
+      "35050715",
+      "41896196",
+      "39605181",
+      "41191474",
+      "41462067",
+      "40426257",
+      "33026066",
+      "36631401",
+      "38653489",
+      "41191468",
+      "40662821",
+      "38892162",
+      "40362602",
+      "41067887",
+      "42126634",
+      "40977264",
+      "41065243",
+      "41206950",
+      "37897702",
+      "41554051",
+      "38744843",
+      "40152244",
+      "39708840",
+      "32051003",
+      "40983951",
+      "40699953",
+      "39237886",
+      "39373051",
+      "35062026",
+      "39900656",
+      "39800872",
+      "40037709",
+      "40739511",
+      "39417321",
+      "39999494",
+      "41766647",
+      "40671174",
+      "41009952",
+      "32174324",
+      "42059479",
+      "33619563",
+      "40713495",
+      "40095604",
+      "39939367",
+      "40806243",
+      "41330999",
+      "41972591",
+      "40094454",
+      "40993718",
+      "34584103",
+      "41229398",
+      "34481921",
+      "30547796",
+      "41981652",
+      "40838782",
+      "39119913",
+      "41139927",
+      "41518505",
+      "41325188",
+      "39180857",
+      "39311699",
+      "31068142",
+      "39504481",
+      "35692809"
+    ],
+    "review": [
+      "41043336",
+      "39939367"
+    ],
+    "pmc": [
+      "12871948"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00363-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41043336/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

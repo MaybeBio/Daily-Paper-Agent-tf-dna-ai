@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.31.697150",
+  "title": "Generative AI-based design of hybrid transcriptional activator proteins with new DNA-binding specificity",
+  "authors": "Sota L Okuda; Atsushi Minami; Michio Aiko; Kohei Uetsuka; Kazuteru Miyazaki; Kazumasa Ohtake; Daisuke Kiga",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-31",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用VAE生成模型设计LuxR家族杂合转录因子，实现新DNA结合特异性与双启动子识别，核心聚焦TF-DNA互作且方法为AI生成，高度匹配课题。",
+  "abstract": "Transcriptional control arises from the specific recognition of promoter DNA by transcription factors (TFs), forming the basis of cellular information processing and gene regulation. In synthetic biology, TF-promoter interactions are assembled into genetic circuits to program cellular behaviors. To ensure expected circuit performance, most synthetic genetic circuits rely on combinations of well-characterized and orthogonal transcriptional regulations. This reliance minimizes crosstalk but constrains circuit complexity and information integration. Creating hybrid TFs that combine or interpolate promoter specificities could therefore expand the design space of synthetic regulatory systems. However, it remains unclear whether hybrid functions can be created by mixing amino acid sequences, and how such functional integration could be achieved in a principled manner. Here we show that a variational autoencoder (VAE) trained on LuxR-family DNA-binding domains can generate transcription factors with hybrid and partially novel promoter recognition properties. By sampling intermediate regions of the VAE-learned latent space, we designed hybrid TFs that activate both the lux and las promoters. High-throughput sort-seq assays together with individual in vivo assays revealed that a subset of functional variants exhibited dual-responsive behavior while maintaining sequence-selective DNA recognition. Together, these results provide a data-driven strategy for exploring functional intermediate sequences between closely related proteins.",
+  "abstract_zh": "转录控制源于转录因子（TFs）对启动子DNA的特异性识别，构成细胞信息处理和基因调控的基础。在合成生物学中，TF-启动子相互作用被组装成遗传电路以编程细胞行为。为确保预期的电路性能，大多数合成遗传电路依赖于充分表征且正交的转录调控组合。这种依赖最小化了串扰，但限制了电路复杂性和信息整合。因此，创建结合或插值启动子特异性的混合TFs，可能扩展合成调控系统的设计空间。然而，目前尚不清楚是否可以通过混合氨基酸序列来创建混合功能，以及如何以原则性方式实现这种功能整合。在此，我们展示了一个在LuxR家族DNA结合域上训练的变分自编码器（VAE）能够生成具有混合及部分新颖启动子识别特性的转录因子。通过采样VAE学习到的潜在空间的中间区域，我们设计了同时激活lux和las启动子的混合TFs。高通量sort-seq测定结合个体体内测定揭示，一部分功能变体表现出双重响应行为，同时保持序列选择性的DNA识别。综合来看，这些结果为探索密切相关蛋白之间的功能性中间序列提供了一种数据驱动策略。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.31.697150",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.31.697150",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.31.697150/index.html"
+}

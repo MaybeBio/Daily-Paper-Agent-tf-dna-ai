@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "41547718",
+    "doi": "10.1186/s12880-026-02153-1",
+    "title": "MRI-Based peritumoral radiomics for predicting recurrence risk in ER+/HER2- breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The application of 21-gene assays in clinical practice is jeopardized by their cost and availability. This study aimed to predict the recurrence score (RS) of a 21-gene assay using MRI peritumoral radiomics in ER+/HER2- breast cancers. METHODS: 154 and 39 patients with ER+/HER2- breast cancer from two centers were enrolled, who underwent 21-gene test and preoperative MRI. Patients from Center 1 were divided into training (n = 108) and internal validation (n = 46) cohorts, and patients from Center 2 were enrolled in the external validation cohort. Radiomics features were extracted from the tumoral, peritumoral and dilation volumes of interest with peritumoral ranges of 1 mm, 3 mm, 5 mm, 7 mm, and 9 mm. After feature selection, RS-prediction models were constructed using support vector machine method to distinguish high (RS >/= 26) from low RS (RS < 26). RESULTS: As the thickness of the peritumor tissue increased, the AUC of models increased and then decreased, with the 3-mm model performing the best. Among all RS-prediction models, the 3 mm peritumoral model based on T2WI (T2-p3) achieved larger AUCs (0.70 and 0.69 in the internal and external validation cohorts, separately). The peritumoral-fusion model integrating intratumoral radiomic and imaging-clinicopathological features with the T2-p3 model, obtained greater AUCs (0.82 and 0.75 in the internal and external validation cohorts, separately). CONCLUSIONS: MRI peritumoral radiomic data exhibits the potential to serve as a biomarker of recurrence risk in patients with ER+/HER2- breast cancer.",
+    "keywords": [
+      "Artificial intelligence",
+      "Breast cancer",
+      "Machine learning",
+      "Magnetic resonance imaging"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Radiomics",
+      "Female",
+      "*Breast Neoplasms/diagnostic imaging/genetics/pathology",
+      "*Magnetic Resonance Imaging/methods",
+      "*Neoplasm Recurrence, Local/diagnostic imaging/genetics",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Middle Aged",
+      "Receptors, Estrogen/metabolism",
+      "Adult",
+      "Aged",
+      "Risk Assessment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yang",
+        "You, Liang",
+        "Huang, Yan",
+        "Xie, Lizhi",
+        "Xiao, Qin",
+        "Xie, Tianwen",
+        "Zhang, Ling",
+        "Li, Rong",
+        "Wang, Qifeng",
+        "Sun, Yingshi",
+        "Tang, Wei",
+        "Gu, Yajia",
+        "Peng, Weijun"
+      ],
+      "short_names": [
+        "Chen Y",
+        "You L",
+        "Huang Y",
+        "Xie L",
+        "Xiao Q",
+        "Xie T",
+        "Zhang L",
+        "Li R",
+        "Wang Q",
+        "Sun Y",
+        "Tang W",
+        "Gu Y",
+        "Peng W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Key laboratory of Carcinogenesis and Translational Research (Ministry of Education), Department of Radiology, Peking University Cancer Hospital & Institute, Beijing, 100142, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "MR Research China, GE Healthcare, Beijing, 100176, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Department of Pathology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+        "Key laboratory of Carcinogenesis and Translational Research (Ministry of Education), Department of Radiology, Peking University Cancer Hospital & Institute, Beijing, 100142, China. sys27@163.com.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China. tangwei105@163.com.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. tangwei105@163.com.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China. guyajia@shca.org.cn.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. guyajia@shca.org.cn.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China. weijun_2020@163.com.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. weijun_2020@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "You, Liang",
+        "short_name": "You L",
+        "identifiers": [],
+        "affiliations": [
+          "Key laboratory of Carcinogenesis and Translational Research (Ministry of Education), Department of Radiology, Peking University Cancer Hospital & Institute, Beijing, 100142, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Lizhi",
+        "short_name": "Xie L",
+        "identifiers": [],
+        "affiliations": [
+          "MR Research China, GE Healthcare, Beijing, 100176, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Qin",
+        "short_name": "Xiao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Tianwen",
+        "short_name": "Xie T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ling",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Li, Rong",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qifeng",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Department of Pathology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yingshi",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key laboratory of Carcinogenesis and Translational Research (Ministry of Education), Department of Radiology, Peking University Cancer Hospital & Institute, Beijing, 100142, China. sys27@163.com."
+        ]
+      },
+      {
+        "full_name": "Tang, Wei",
+        "short_name": "Tang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China. tangwei105@163.com.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. tangwei105@163.com."
+        ]
+      },
+      {
+        "full_name": "Gu, Yajia",
+        "short_name": "Gu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China. guyajia@shca.org.cn.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. guyajia@shca.org.cn."
+        ]
+      },
+      {
+        "full_name": "Peng, Weijun",
+        "short_name": "Peng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, 270 Dongan Road, Shanghai, 200032, China. weijun_2020@163.com.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China. weijun_2020@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical imaging"
+    ],
+    "journal_abbrev": [
+      "BMC Med Imaging"
+    ],
+    "pub_date": "2026 Jan 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/18 00:37",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [
+      "42365208"
+    ],
+    "refs": [
+      "40891595",
+      "37199241",
+      "36980724",
+      "36698037",
+      "36250028",
+      "36230497",
+      "35773561",
+      "35633290",
+      "35536129",
+      "35499264",
+      "35046937",
+      "34904187",
+      "34846204",
+      "34624649",
+      "33811123",
+      "33560188",
+      "33538338",
+      "32992569",
+      "31385051",
+      "31361209",
+      "31002322",
+      "30720861",
+      "30171822",
+      "29315062",
+      "28521821",
+      "27195438",
+      "25114856",
+      "20565468",
+      "20304629",
+      "19356249",
+      "18389253",
+      "17954709",
+      "16682732",
+      "15591335",
+      "8625046"
+    ],
+    "similar": [
+      "41547718",
+      "40891595",
+      "41814215",
+      "36440706",
+      "41917870",
+      "39413232",
+      "41688957",
+      "41462365",
+      "42365208",
+      "40460947",
+      "40771390",
+      "41545974",
+      "42251269",
+      "41444699",
+      "34233259",
+      "40329236",
+      "39427545",
+      "38742356",
+      "41081182",
+      "40899931",
+      "40926363",
+      "40717595",
+      "41622282",
+      "34904187",
+      "38644724",
+      "37199241",
+      "38761884",
+      "36698037",
+      "36763035",
+      "41714223",
+      "40552272",
+      "38623231",
+      "28521821",
+      "39698668",
+      "35814460",
+      "40068996",
+      "38808580",
+      "35773561",
+      "40170181",
+      "40289183",
+      "40044546",
+      "37160427",
+      "41350639",
+      "39773380",
+      "42340785",
+      "39736623",
+      "39591940",
+      "40053171",
+      "35079887",
+      "42148109",
+      "38803534",
+      "41186718",
+      "41083477",
+      "39631160",
+      "39167019",
+      "40134601",
+      "41456995",
+      "36051932",
+      "31169691",
+      "42299275",
+      "40813162",
+      "41895875",
+      "39538052",
+      "38456745",
+      "40155892",
+      "37835774",
+      "39122586",
+      "40082786",
+      "42116691",
+      "36292247",
+      "38875748",
+      "37915093",
+      "39578913",
+      "38902111",
+      "38363315",
+      "37948368",
+      "41831466",
+      "36686763",
+      "33289845",
+      "31002322",
+      "42414134",
+      "38839461",
+      "42129487",
+      "41305861",
+      "39080809",
+      "39576435",
+      "41173217",
+      "40893558",
+      "39380365",
+      "42285781",
+      "42159937",
+      "42329472",
+      "39533368",
+      "41130881",
+      "40897833",
+      "41735109",
+      "41219899",
+      "40328536",
+      "41013799",
+      "41633888"
+    ],
+    "review": [
+      "41547718"
+    ],
+    "pmc": [
+      "12896102"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-026-02153-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41547718/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

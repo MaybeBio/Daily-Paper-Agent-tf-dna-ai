@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "42315974",
+    "doi": "10.1080/0886022X.2026.2687235",
+    "title": "A four-gene signature for diagnosis of acute kidney injury following kidney transplantation."
+  },
+  "content": {
+    "abstract": "Acute kidney injury (AKI) is a common and severe complication following renal transplantation, largely driven by ischemia-reperfusion injury (IRI). However, reliable biomarkers for post-transplant AKI remain unavailable. In this study, we analyzed transcriptomic datasets from multiple cohorts to identify robust gene signatures associated with transplant-related AKI. Weighted gene co-expression network and differential expression analyses in the discovery cohort revealed 222 candidate genes altered during early allograft IRI, which were subsequently refined in an integrated training cohort using least absolute shrinkage and selection operator (LASSO) regression and support vector machine-recursive feature elimination (SVM-RFE) to a four-gene signature comprising SOCS3, MYC, TGIF1, and LETM2. This signature showed excellent discriminative performance in the training cohort (10-fold cross-validation AUC = 0.969) and was validated in independent external datasets, including a large cohort (AUC = 0.942). Decision curve analyses indicated potential clinical utility for early AKI identification across a broad threshold-probability range, with favorable performance compared with several established biomarkers such as neutrophil gelatinase-associated lipocalin. Single-cell transcriptomics revealed cell type-specific expression of the four genes across renal compartments. Moreover, their protein levels were elevated at 24 h after IRI in mouse kidneys, and displayed high expression in human AKI biopsies. Additionally, serum protein levels of SOCS3 and LETM2 were elevated in patients with cardiac surgery-associated AKI, whereas TGIF1 and MYC did not reach statistical significance. Collectively, this study identified a four-gene signature with potential utility as an early diagnostic biomarker panel for post-transplant AKI. Further large-scale clinical trials are needed to validate its diagnostic efficacy.",
+    "keywords": [
+      "Acute kidney injury",
+      "gene signature",
+      "machine learning",
+      "renal transplantation"
+    ],
+    "mesh_terms": [
+      "*Kidney Transplantation/adverse effects",
+      "*Acute Kidney Injury/diagnosis/genetics/etiology",
+      "Humans",
+      "Animals",
+      "Mice",
+      "Biomarkers",
+      "Male",
+      "Suppressor of Cytokine Signaling 3 Protein/genetics",
+      "*Reperfusion Injury/genetics",
+      "Repressor Proteins/genetics",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Kidney/pathology",
+      "*Postoperative Complications/diagnosis/genetics",
+      "Genes, myc",
+      "Female",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Jinghan",
+        "Zhang, Xinni",
+        "Liu, Jiayi",
+        "Sun, Qian",
+        "Peng, Fangyuan",
+        "Ren, Ting",
+        "Zou, Zhouping",
+        "Liu, Qin",
+        "Ding, Xiaoqiang",
+        "Jia, Ping"
+      ],
+      "short_names": [
+        "Feng J",
+        "Zhang X",
+        "Liu J",
+        "Sun Q",
+        "Peng F",
+        "Ren T",
+        "Zou Z",
+        "Liu Q",
+        "Ding X",
+        "Jia P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Shanghai Medical Center of Kidney, Shanghai, China.",
+        "Kidney and Dialysis Institute of Shanghai, Shanghai, China.",
+        "Kidney and Blood Purification Laboratory of Shanghai, Shanghai, China.",
+        "Hemodialysis quality control center of Shanghai, Shanghai, China.",
+        "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Kidney and Blood Purification Laboratory of Shanghai, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Jinghan",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinni",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiayi",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Qian",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Fangyuan",
+        "short_name": "Peng F",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Ting",
+        "short_name": "Ren T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Zhouping",
+        "short_name": "Zou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qin",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Xiaoqiang",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+          "Shanghai Medical Center of Kidney, Shanghai, China.",
+          "Kidney and Dialysis Institute of Shanghai, Shanghai, China.",
+          "Kidney and Blood Purification Laboratory of Shanghai, Shanghai, China.",
+          "Hemodialysis quality control center of Shanghai, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ping",
+        "short_name": "Jia P",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Zhongshan Hospital, Fudan University, Shanghai, China.",
+          "Kidney and Blood Purification Laboratory of Shanghai, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Renal failure"
+    ],
+    "journal_abbrev": [
+      "Ren Fail"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/19 00:36",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40888783",
+      "40694415",
+      "40519169",
+      "39990662",
+      "39952909",
+      "39145145",
+      "38704372",
+      "38673917",
+      "38654380",
+      "38581927",
+      "36968791",
+      "36959481",
+      "36399495",
+      "36085050",
+      "35821371",
+      "35113157",
+      "34362810",
+      "34267223",
+      "33021646",
+      "32571916",
+      "31740819",
+      "31678001",
+      "31005270",
+      "30801533",
+      "30593588",
+      "30429361",
+      "30241973",
+      "30202007",
+      "30094915",
+      "28483378",
+      "25569120",
+      "25427168",
+      "24402091",
+      "23968332",
+      "23716663",
+      "22343120",
+      "22045571",
+      "21929642",
+      "20819195",
+      "20808728",
+      "20064471",
+      "19762491",
+      "19114008"
+    ],
+    "similar": [
+      "42315974",
+      "38815767",
+      "41205031",
+      "41200199",
+      "40914702",
+      "40754871",
+      "34557203",
+      "40103812",
+      "40147738",
+      "42306297",
+      "40086342",
+      "42326009",
+      "41947228",
+      "42175497",
+      "39549926",
+      "39600181",
+      "41933744",
+      "42123756",
+      "31615452",
+      "35320116",
+      "39308866",
+      "25093671",
+      "31039814",
+      "38368866",
+      "20181666",
+      "21321005",
+      "29684255",
+      "41723386",
+      "41996313",
+      "35658960",
+      "39583859",
+      "39627404",
+      "42088521",
+      "41186507",
+      "41756296",
+      "41656809",
+      "39074415",
+      "41531361",
+      "39351221",
+      "41415264",
+      "41611834",
+      "42161063",
+      "41896610",
+      "36386255",
+      "40200699",
+      "42196413",
+      "42553929",
+      "33131359",
+      "42432978",
+      "41937676",
+      "41656803",
+      "39112648",
+      "29366580",
+      "40360670",
+      "40208026",
+      "41220724",
+      "39920300",
+      "27724849",
+      "38472598",
+      "39356055",
+      "38110934",
+      "39313116",
+      "39287102",
+      "38851159",
+      "41858783",
+      "40598328",
+      "41083646",
+      "41217598",
+      "37576602",
+      "34871811",
+      "39341981",
+      "25585949",
+      "42024670",
+      "39831226",
+      "40891136",
+      "30987577",
+      "37083129",
+      "41200172",
+      "28409285",
+      "41299729",
+      "38849409",
+      "41905213",
+      "37063876",
+      "24569379",
+      "38837000",
+      "42292668",
+      "42558367",
+      "28056546",
+      "37704087",
+      "38370470",
+      "42274933",
+      "28035621",
+      "29266311",
+      "40878031",
+      "24518531",
+      "36372309",
+      "39982410",
+      "40155864",
+      "38951833",
+      "41324863"
+    ],
+    "review": [
+      "42315974",
+      "29266311"
+    ],
+    "pmc": [
+      "13288727"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/0886022X.2026.2687235?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/aftersurgery.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "After Surgery"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42315974/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/0886022X.2026.2687235",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

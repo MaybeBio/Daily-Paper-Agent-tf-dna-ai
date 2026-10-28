@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and methods
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors report that phosphorylation of cytochrome c at tyrosine 48, mimicked by Y48pCMF, Y48D, and Y48E substitutions, alters the structural dynamics of the protein, reduces binding affinity to the histone chaperone SET/TAF-Iβ, changes the thermodynamic binding profile, and modulates the ability of cytochrome c to inhibit SET/TAF-Iβ histone chaperone activity. They further report that a phosphomimetic variant can translocate to the nucleus and interact with SET/TAF-Iβ in cells under basal DNA damage conditions.
+- **Visible evidence base** Molecular dynamics simulations, circular dichroism, UV/Vis spectroscopy, electrochemistry, isothermal titration calorimetry, NMR-based competition assays, immunofluorescence, and proximity ligation assays
+- **Missing materials affecting confidence** No raw data files, no statistical analysis details for most experiments, no NMR spectral assignments, no ITC raw thermograms, no replicate numbers for biophysical experiments, no cell quantification details for immunofluorescence, no supplementary figures or tables referenced in the text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding how post-translational modification of cytochrome c at tyrosine 48 modulates its nuclear interaction with the histone chaperone SET/TAF-Iβ. The combination of computational, biophysical, and cellular approaches is commendable. However, several major concerns undermine the strength of the conclusions. The use of phosphomimetic mutants as proxies for true phosphorylation is a significant limitation that is not adequately addressed. The structural conclusions from MD simulations lack experimental validation. The ITC data analysis appears incomplete, and the NMR competition assay interpretation is questionable. The cellular experiments lack quantitative rigor and do not directly test the phosphorylation state of the protein. The claim of "fine regulation" is not well supported by the data presented, which show relatively modest effects.
+- **Who would be interested in the results, and why** Researchers studying cytochrome c moonlighting functions, post-translational modification biology, histone chaperone regulation, and the DNA damage response. The work may also interest those investigating the structural basis of protein-protein interactions modulated by phosphorylation. The methodological combination of MD simulations with biophysical approaches could appeal to a broader structural biology audience.
+- **Major strengths** The manuscript addresses a relatively unexplored area of cytochrome c biology, namely its nuclear functions and how phosphorylation modulates these. The use of multiple complementary approaches (MD, ITC, NMR, cell-based assays) is a strength. The authors thoughtfully compare different phosphomimetic mutants and justify their choice of Y48D for cellular studies. The evolutionary conservation argument for the relevance of Tyr48 is compelling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental model validity
+  - **Claim pointer** The authors claim that phosphomimetic mutants (Y48pCMF, Y48D, Y48E) accurately replicate the effects of true tyrosine 48 phosphorylation on cytochrome c structure and function.
+  - **Evidence pointer** Results section "Tyr48 phosphorylation modifies the heme environment by increasing intramolecular cytochrome c dynamics", Figure 1, Table 1
+  - **Concern** The manuscript relies entirely on phosphomimetic mutants to draw conclusions about phosphorylation effects. While the authors acknowledge this limitation in the methods, they do not provide any direct evidence that these mutants faithfully recapitulate true phosphorylation. The pCMF mutant is described as "more accurately resembling" phosphorylated tyrosine, but no direct comparison to an authentically phosphorylated protein is provided. The MD simulations compare pTyr with phosphomimetics, but this is a computational prediction, not experimental validation. The authors should either provide experimental validation using an authentically phosphorylated cytochrome c (e.g., via enzymatic phosphorylation or chemical synthesis) or substantially temper their claims and explicitly discuss the limitations of phosphomimetics in the conclusions.
+  - **Why it matters** The central thesis of the manuscript is that phosphorylation at Tyr48 regulates cytochrome c binding to SET/TAF-Iβ. If the phosphomimetics do not accurately mimic phosphorylation, all subsequent conclusions about the functional consequences of phosphorylation are potentially invalid. This is particularly important given that the authors show differential effects among the three phosphomimetics, raising questions about which, if any, reflects the true phosphorylation state.
+  - **Resolution test** Provide experimental data comparing an authentically phosphorylated cytochrome c (at Tyr48) with the phosphomimetic mutants in at least one key assay (e.g., ITC binding to SET/TAF-Iβ or NMR structural analysis). Alternatively, provide strong evidence from the literature that these specific phosphomimetics have been validated for this protein and site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The authors claim that "Tyr48 phosphorylation allows a fine-tuning of the Cc-mediated inhibition of SET/TAF-Iβ histone chaperone activity in vitro" and that this represents a regulatory mechanism.
+  - **Evidence pointer** Results section "Tyr48-phosphorylated cytochrome c is less capable of inhibiting SET/TAF-Iβ histone chaperone activity", Figure 3, Figure S8c
+  - **Concern** The NMR competition assay used to assess histone chaperone activity is indirect. The authors measure the recovery of the Met80-εCH3 signal of cytochrome c upon addition of histones, which they interpret as competition between cytochrome c and histones for SET/TAF-Iβ binding. However, this assay does not directly measure histone chaperone activity (i.e., nucleosome assembly/disassembly). The EC50 values reported (0.77 vs 0.69) show only a modest difference between WT and Y48pCMF, and the error bars and statistical significance are not reported. The claim of "fine-tuning" implies a regulatory mechanism, but the functional significance of a ~10% difference in EC50 is unclear. The authors should either provide a more direct assay of histone chaperone activity or temper their conclusions about the functional significance.
+  - **Why it matters** The title and abstract emphasize the functional consequence of phosphorylation on histone chaperone activity. If the assay does not directly measure this activity and the effect is modest, the central claim of the manuscript is weakened. The interpretation that this represents a regulatory mechanism requires stronger functional evidence.
+  - **Resolution test** Provide a direct histone chaperone activity assay (e.g., nucleosome assembly or disassembly assays) comparing WT and phosphomimetic cytochrome c. Report statistical analysis with appropriate replicates for the competition assay. Clarify whether the observed differences are within experimental noise.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor and statistical analysis
+  - **Claim pointer** The authors report quantitative binding parameters (KD values, thermodynamic parameters) from ITC experiments and EC50 values from NMR competition assays.
+  - **Evidence pointer** Table 1, Figure S7, Figure S8c
+  - **Concern** The manuscript reports ITC-derived thermodynamic parameters and binding affinities but does not provide information on the number of replicates, error estimates, or statistical comparisons between WT and mutant proteins. The KD values in Table 1 are presented without standard deviations or confidence intervals. Similarly, the EC50 values from the NMR competition assay are reported with standard errors but no statistical test comparing WT and Y48pCMF. The claim that Y48E shows a 30-fold reduction in binding affinity compared to WT is striking but lacks statistical support. The authors should provide replicate data and appropriate statistical analyses for all quantitative measurements.
+  - **Why it matters** The quantitative differences in binding affinity and thermodynamic parameters are central to the manuscript's conclusions. Without proper error analysis and statistical testing, it is impossible to assess whether the observed differences are significant and reproducible. This is particularly important given the modest effects observed for some mutants.
+  - **Resolution test** Provide replicate ITC experiments (at least n=3) with full error analysis and statistical comparisons. Provide statistical tests for the EC50 differences in the NMR competition assay. Include information on how many independent experiments were performed for each measurement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cellular relevance and direct evidence
+  - **Claim pointer** The authors claim that "phosphorylation impacts the nuclear, stress-responsive functions of Cc" and that phosphomimetic cytochrome c can translocate to the nucleus and interact with SET/TAF-Iβ in cells.
+  - **Evidence pointer** Results section "Tyr48-phosphomimetic cytochrome c is able to shuttle to the cell nucleus under basal DNA damage and interact with SET/TAF-Iβ", Figure 4
+  - **Concern** The cellular experiments show that Y48D cytochrome c can localize to the nucleus and interact with SET/TAF-Iβ, but these experiments do not directly demonstrate that phosphorylation at Tyr48 occurs in cells or that it regulates this interaction. The authors use a phosphomimetic mutant, not a phosphorylated protein. The PLA data show no significant difference between WT and Y48D in the number of nuclear interaction events, which is inconsistent with the in vitro binding data showing reduced affinity. The authors attribute this to "changes in transfection or protein expression levels, among others," but this explanation is speculative. The claim that phosphorylation impacts nuclear functions requires direct evidence that phosphorylation occurs at Tyr48 in cells and that it affects the interaction with SET/TAF-Iβ.
+  - **Why it matters** The manuscript aims to establish a functional role for Tyr48 phosphorylation in the nuclear compartment. The cellular data are the most direct evidence for this claim, but they are correlative and do not demonstrate a phosphorylation-dependent effect. The lack of difference in PLA signals between WT and Y48D is concerning and needs to be addressed.
+  - **Resolution test** Provide evidence for endogenous phosphorylation of cytochrome c at Tyr48 in cells (e.g., using phospho-specific antibodies or mass spectrometry). Quantify PLA signals with appropriate controls for protein expression levels. If no difference is observed between WT and Y48D, discuss the implications for the proposed regulatory mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** MD simulation details
+  - **Evidence pointer** Materials and Methods "Molecular dynamics simulations"
+  - **Issue** The methods for MD simulations lack important details, including the force field version for the non-standard residues (pTyr, pCMF), the water model and box size, the equilibration protocol, the number of replicates, and the convergence criteria. The statement "three replicates beginning at different coordinates" is vague.
+  - **Required correction** Provide complete simulation parameters, including force field details for modified residues, simulation length, temperature and pressure coupling, and analysis methods. Specify how convergence was assessed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and data presentation
+  - **Affected element** Figure 1 and related supplementary figures
+  - **Evidence pointer** Results section "Tyr48 phosphorylation modifies the heme environment by increasing intramolecular cytochrome c dynamics"
+  - **Issue** The manuscript references multiple supplementary figures (S1-S4) but these are not provided in the submitted text. The main text describes RMSF, RMSD, Rg, and distance analyses but the figures are not available for assessment. The description of Figure 1e regarding water accessibility is unclear.
+  - **Required correction** Ensure all referenced figures are included and clearly labeled. Provide a more detailed description of the water accessibility analysis and how it was quantified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of MD results
+  - **Affected element** Discussion of structural dynamics
+  - **Evidence pointer** Results section "Tyr48 phosphorylation modifies the heme environment by increasing intramolecular cytochrome c dynamics"
+  - **Issue** The authors state that increased RMSF in the foldin V region indicates "increased intramolecular dynamics" but do not discuss whether these changes are functionally significant or within the range of thermal fluctuations. The correlation between MD-predicted dynamics and experimentally observed binding changes is asserted but not rigorously established.
+  - **Required correction** Provide a more nuanced discussion of the MD results, including the magnitude of the observed changes and their potential functional relevance. Consider whether the increased dynamics are sufficient to explain the binding differences.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Experimental controls
+  - **Affected element** NMR competition assay
+  - **Evidence pointer** Materials and Methods "Nuclear magnetic resonance-based assays of histone binding competition"
+  - **Issue** The NMR competition assay uses BSA as a negative control, which is appropriate. However, the authors do not describe how the histone mixture was prepared or whether the histones themselves affect the Met80-εCH3 signal in the absence of SET/TAF-Iβ. This control is important for interpreting the competition data.
+  - **Required correction** Describe the histone mixture preparation and include a control showing that histones alone do not affect the cytochrome c NMR signal.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion (not explicitly labeled in the text)
+  - **Issue** The manuscript does not include a dedicated discussion section, and the limitations of the study are not systematically addressed. The use of phosphomimetics, the indirect nature of the chaperone activity assay, and the lack of direct evidence for phosphorylation in cells are not thoroughly discussed.
+  - **Required correction** Add a discussion section that explicitly addresses the limitations of the study and the potential impact of these limitations on the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (phosphomimetic validity), R1-M2 (indirect assay and modest effect), R1-M3 (lack of statistical rigor)
+- **Assessment against Nature-style criteria** Originality: The question of how phosphorylation at Tyr48 modulates cytochrome c nuclear functions is relatively novel and extends beyond the well-studied mitochondrial and cytoplasmic roles. However, the use of phosphomimetics without validation limits the originality of the claims. Scientific importance: The work has potential importance for understanding cytochrome c moonlighting functions and the regulation of histone chaperones, but the modest effects and indirect assays reduce the significance. Interdisciplinary readership: The combination of computational, biophysical, and cellular approaches could appeal to a broad audience, but the technical nature of the assays may limit accessibility. Technical soundness: The experimental design is generally sound, but the lack of statistical rigor and the reliance on phosphomimetics without validation are significant weaknesses. Readability for nonspecialists: The manuscript is generally well-written and accessible, but some sections (particularly the MD and electrochemistry descriptions) may be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and uses a commendable multi-technique approach, but the central claims are undermined by the lack of validation of phosphomimetics as faithful mimics of phosphorylation, the indirect nature of the functional assay, the modest effects observed, and the absence of statistical rigor. These issues need to be addressed before the conclusions can be considered established.
+
+## Risk / unsupported claims
+- The claim that phosphomimetic mutants accurately replicate the effects of true Tyr48 phosphorylation is unsupported by direct experimental evidence.
+- The claim that Tyr48 phosphorylation "finely regulates" cytochrome c binding to SET/TAF-Iβ is not well supported given the modest differences observed and the lack of statistical analysis.
+- The claim that the NMR competition assay measures histone chaperone activity is indirect and not fully validated.
+- The claim that phosphorylation impacts nuclear functions of cytochrome c in cells is not directly supported, as the cellular experiments use phosphomimetics and do not demonstrate endogenous phosphorylation at Tyr48.
+- The correlation between MD-predicted structural dynamics and experimentally observed binding changes is asserted but not rigorously established.
+- The functional significance of the reduced histone chaperone inhibition by phosphomimetic cytochrome c is not demonstrated in a cellular context.

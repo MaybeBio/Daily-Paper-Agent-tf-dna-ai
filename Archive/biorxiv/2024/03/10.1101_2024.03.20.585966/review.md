@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results, discussion, conclusion) without supplementary materials, figures, or tables
+- **Assessment boundary** Computational screening pipeline for glucose-binding proteins; claims regarding predictive power of docking parameters validated against MD simulations
+- **Shared manuscript claim summary** The authors propose a high-throughput bioinformatics pipeline combining molecular docking and MD simulations to select glucose-binding proteins from a large protein database. They claim that threshold values of three docking parameters (docking energy, cavity depth, number of hydrogen bonds) can reliably predict stable glucose-protein complexes, based on correlations with MD-derived binding parameters.
+- **Visible evidence base** Abstract, Sections 1-4, references to Figures 1-10 and Tables 1, S1-S3, and a linked external website
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and the linked website content were not provided. This substantially limits verification of quantitative claims, correlation analyses, and the proposed pipeline.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational workflow for screening glucose-binding proteins, addressing a relevant problem in biosensor development. The concept of correlating fast docking parameters with more rigorous MD simulations to derive selection rules is sensible and of practical interest. However, the evidence base provided is insufficient to evaluate the validity of the central claims. Key quantitative results, correlation plots, and methodological details are referenced but not visible. The statistical basis for the proposed thresholds is not established from the supplied text. The manuscript would benefit from clearer presentation of the validation strategy and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in biosensor development, computational protein engineering, and molecular recognition. The proposed screening approach could be of interest to those seeking efficient methods for identifying binding proteins for small-molecule analytes beyond glucose. The correlation analysis between docking and MD parameters addresses a practical need in the field.
+- **Major strengths** The problem addressed is relevant and timely. The combination of high-throughput docking with MD-based validation is a sensible strategy. The idea of deriving simple threshold-based selection rules from docking parameters is practical and potentially transferable. The inclusion of a negative control and a widely used GBP for comparison is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The central claim that threshold values of three docking parameters (ΔE_AD > 7.0 kcal/mol, d_c > 12 Å, n_AD > 3) can reliably predict stable glucose-protein complexes
+  - **Evidence pointer** Section 3.5, Figures 8-9, location not provided
+  - **Concern** The correlation analyses that form the basis of the proposed thresholds are described only in text. The actual correlation plots, regression statistics, and the number of data points used are not visible. With only seven GBPs subjected to MD simulations, the statistical power to establish reliable thresholds is questionable. The claim of "strong linear correlation" for τ_b vs d_c and the sigmoidal dependence for |ΔG_b| vs n_AD cannot be assessed without the figures and quantitative fit parameters.
+  - **Why it matters** The entire practical value of the proposed pipeline rests on the reliability of these thresholds. If the correlations are weak, non-monotonic, or based on insufficient data, the proposed selection rules may not generalize. The manuscript does not provide evidence that the thresholds were validated on an independent set of proteins.
+  - **Resolution test** Provide the actual correlation plots with regression coefficients, confidence intervals, and the number of data points. Validate the proposed thresholds on a held-out set of GBPs not used in deriving the correlations. Report sensitivity and specificity of the selection criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The use of SMD-BD-FDT to estimate binding free energies and the claim that these values differ from docking energies
+  - **Evidence pointer** Section 2.4, Section 3.4, Figure 6-7, location not provided
+  - **Concern** The SMD-BD-FDT method is described briefly, but key parameters such as pulling speed, number of segments, equilibration times, and the convergence criteria for the PMF calculations are not provided in the main text. The claim that BD-FDT predicted a binding energy of -16.7 kcal/mol for 5TAO versus -7.7 kcal/mol from docking is presented without error estimates. The anomalous case of 2O7I, where a high binding energy was interpreted as weak binding due to negative PMF curvature, raises questions about the interpretation framework.
+  - **Why it matters** Reproducibility and interpretation of free energy calculations are critical. Without convergence assessment and error analysis, the reported ΔG_b values cannot be evaluated. The apparent inconsistency for 2O7I suggests that the relationship between PMF shape and binding stability needs clearer articulation.
+  - **Resolution test** Provide full SMD simulation parameters, convergence tests, and error estimates for ΔG_b values. Clarify the criteria for classifying a GBP as strong or weak binder based on PMF features. Show representative PMF curves with error bars.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validity
+  - **Claim pointer** The pipeline can be extended to other ligand-binding proteins for different analytes
+  - **Evidence pointer** Section 4, location not provided
+  - **Concern** The generalizability claim is made without supporting evidence. The thresholds were derived for glucose binding specifically. It is not demonstrated that the same parameter cutoffs would apply to other ligand-protein systems, where binding site geometries, chemical properties of the ligand, and protein flexibility may differ substantially.
+  - **Why it matters** The stated potential for extension to other analytes is a significant part of the claimed impact. Without evidence or a reasoned argument for transferability, this claim remains speculative.
+  - **Resolution test** Either temper the claim to be specific to glucose-binding proteins or provide proof-of-concept data for at least one additional ligand-protein system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Text, location not provided
+  - **Issue** The description of the filtering process is ambiguous. Filter 2 is described as using the chemical formula C6H12O6, but it is unclear how a chemical formula is used to filter proteins in a database search. The distinction between Filter 1 (keyword "glucose") and Filter 2 (chemical formula) needs clarification.
+  - **Required correction** Clarify the exact search criteria and database fields used for each filter. If Filter 2 involves searching for proteins with glucose as a ligand or co-crystallized molecule, state this explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Text, location not provided
+  - **Issue** The number of proteins after filtering is reported as 1,447 in Section 3.1, but Section 3.2 refers to "selected 1,450 GBPs." This numerical inconsistency is not explained.
+  - **Required correction** Reconcile the numbers or explain the discrepancy (e.g., inclusion of controls or additional proteins).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Table S1, location not provided
+  - **Issue** The simulation setup details are relegated to supplementary Table S1, which was not provided. Key information such as water model, ion concentration, and equilibration protocol is not stated in the main text.
+  - **Required correction** Summarize the essential simulation parameters in the main text or ensure the supplementary material is accessible and complete.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Figures 8-9, location not provided
+  - **Issue** The manuscript reports correlations qualitatively ("strong linear correlation", "sigmoidal dependence") without providing correlation coefficients, p-values, or goodness-of-fit measures.
+  - **Required correction** Report quantitative correlation statistics and, where relevant, the equations of fitted curves.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data accessibility
+  - **Affected element** Section 3.1, Data availability
+  - **Evidence pointer** https://aciitb23.github.io/GBPS.com/, location not provided
+  - **Issue** The manuscript relies on an external website for additional information about the screened GBPs. The availability and permanence of this resource are not guaranteed, and the content was not assessable during review.
+  - **Required correction** Provide the essential data as supplementary material in the manuscript submission and consider depositing the full screening results in a permanent repository.
+
+## Risk / unsupported claims
+- The claim that threshold values of ΔE_AD > 7.0 kcal/mol, d_c > 12 Å, and n_AD > 3 reliably predict stable glucose-protein complexes is unsupported without the actual correlation data and validation on independent proteins.
+- The claim that the pipeline can be extended to other ligand-binding proteins for different analytes is speculative and not supported by evidence in the supplied text.
+- The reported binding free energies from SMD-BD-FDT lack error estimates and convergence assessment, making quantitative comparisons with docking energies unreliable.
+- The numerical discrepancy between 1,447 and 1,450 proteins undermines confidence in the reporting accuracy.
+- The qualitative descriptions of correlations in Section 3.5 cannot be verified without the referenced figures.

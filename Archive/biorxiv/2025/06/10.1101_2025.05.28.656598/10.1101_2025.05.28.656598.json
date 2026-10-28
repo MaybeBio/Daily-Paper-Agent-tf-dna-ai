@@ -1,0 +1,635 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.28.656598",
+  "title": "Non-consensus flanking sequence of hundreds of base pairs around in vivo binding sites: statistical beacons for transcription factor scanning",
+  "doi": "10.1101/2025.05.28.656598",
+  "abstract": "It was long suspected that for specific DNA binding by a transcription factor, the flanks of the binding motifs can play an important role. By a thorough analysis of the DNA sequence in the broad context (± 5000 bp) of in vivo binding sites (as identified in a ChIP-seq or a Cut&Tag experiment), we show that the average GC content is in most cases statistically significantly increased around the binding site in a patch spanning 1000–1500 bp. This increase was observed consistently in experiment targeting the same TF in different cell lines. The surrounding of binding sites of certain TFs like MYC display a directional alteration of dinucleotide frequencies. We attempt to explain these preferences by alteration in DNA shape features as well as by potential cooperation with other TFs. We observed differences in sequence affinity to various potential cooperating TFs between cell lines. Altogether, we propose that the observed feature distortion is indicative of a coarse scanning mechanism that helps TFs find the target binding site. Graphical Abstract Key Messages We prove an increase in GC content 1000–1500 bp both upstream and downstream of the binding site. We observed a funnel-like sequence signature of thousands of bp that is shared between most cell lines. We propose an explanation based on helix shape and binding affinities of potential cooperating TFs, supported by crosslinking the ChIP-seq (Cut&Tag) experiments with ATAC-seq experiments.",
+  "authors": [
+    "Kateřina Faltejsková",
+    "Josef Šulc",
+    "Jiří Vondrášek"
+  ],
+  "published_date": "2025-06-01",
+  "updated_date": "2025-06-01T13:45:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.28.656598",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.28.656598.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T07:49:25Z",
+        "timestamp": 1775980165473,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            1
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 60,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "ELIXIR CZ Research Infrastructure",
+          "award": [
+            "LM2023055"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "LM2023055"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100010099",
+          "name": "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "61388963"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "61388963"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100010099",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>It was long suspected that for specific DNA binding by a transcription factor, the flanks of the binding motifs can play an important role. By a thorough analysis of the DNA sequence in the broad context (± 5000 bp) of in vivo binding sites (as identified in a ChIP-seq or a Cut&amp;Tag experiment), we show that the average GC content is in most cases statistically significantly increased around the binding site in a patch spanning 1000–1500 bp. This increase was observed consistently in experiment targeting the same TF in different cell lines. The surrounding of binding sites of certain TFs like MYC display a directional alteration of dinucleotide frequencies. We attempt to explain these preferences by alteration in DNA shape features as well as by potential cooperation with other TFs. We observed differences in sequence affinity to various potential cooperating TFs between cell lines. Altogether, we propose that the observed feature distortion is indicative of a coarse scanning mechanism that helps TFs find the target binding site.</jats:p>\n                <jats:sec>\n                  <jats:title>Graphical Abstract</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"656598v3_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key Messages</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>We prove an increase in GC content 1000–1500 bp both upstream and downstream of the binding site.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We observed a funnel-like sequence signature of thousands of bp that is shared between most cell lines.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We propose an explanation based on helix shape and binding affinities of potential cooperating TFs, supported by crosslinking the ChIP-seq (Cut&amp;Tag) experiments with ATAC-seq experiments.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+      "DOI": "10.1101/2025.05.28.656598",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2025-06-01T13:45:16Z",
+        "timestamp": 1748785516000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Non-consensus flanking sequence of hundreds of base pairs around in vivo binding sites: statistical beacons for transcription factor scanning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7390-8077",
+          "authenticated-orcid": false,
+          "given": "Kateřina",
+          "family": "Faltejsková",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo náměstí 542/2, 160 00, Czechia, Czechia"
+            },
+            {
+              "name": "Faculty of Mathematics and Physics, Charles University, Malostranské náměstí 25, 11800, Czechia, Czechia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7981-3607",
+          "authenticated-orcid": false,
+          "given": "Josef",
+          "family": "Šulc",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo náměstí 542/2, 160 00, Czechia, Czechia"
+            },
+            {
+              "name": "Faculty of Science, Charles University, Albertov 2038, 128 00, Czechia, Czechia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6066-973X",
+          "authenticated-orcid": false,
+          "given": "Jiří",
+          "family": "Vondrášek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo náměstí 542/2, 160 00, Czechia, Czechia"
+            },
+            {
+              "name": "Faculty of Science, Charles University, Albertov 2038, 128 00, Czechia, Czechia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2013.01.038"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2013.08.033"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2121-5-45"
+        },
+        {
+          "issue": "1",
+          "key": "2026041200261657000_2025.05.28.656598v3.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "19134",
+          "DOI": "10.1038/s41598-020-76203-1",
+          "article-title": "Deep learning approach for predicting functional z-dna regions using omics data",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "issue": "1",
+          "key": "2026041200261657000_2025.05.28.656598v3.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "17786",
+          "DOI": "10.1038/s41598-024-68439-y",
+          "article-title": "Z-dna formation in promoters conserved between human and mouse are associated with increased transcription reinitiation rates",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2014.03.013"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks955"
+        },
+        {
+          "issue": "1",
+          "key": "2026041200261657000_2025.05.28.656598v3.8",
+          "first-page": "49",
+          "article-title": "Z-dna, a new in situ marker for transcription",
+          "volume": "48",
+          "year": "2004",
+          "journal-title": "European Journal of Histochemistry"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae210"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2022.09.020"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.184671.114"
+        },
+        {
+          "issue": "9",
+          "key": "2026041200261657000_2025.05.28.656598v3.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1728",
+          "DOI": "10.1038/nprot.2012.101",
+          "article-title": "Identifying chip-seq enrichment using macs",
+          "volume": "7",
+          "year": "2012",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm627"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1210"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2022.08.015"
+        },
+        {
+          "issue": "8",
+          "key": "2026041200261657000_2025.05.28.656598v3.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "652",
+          "DOI": "10.1038/cmi.2017.38",
+          "article-title": "Irf1 and batf: key drivers of type regulatory t-cell differentiation",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "Cellular & molecular immunology"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcp.20689"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm489"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2013.03.014"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnins.2013.00267"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh624"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm109"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "issue": "1",
+          "key": "2026041200261657000_2025.05.28.656598v3.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1930",
+          "DOI": "10.1038/s41467-019-09982-5",
+          "article-title": "Cut&tag for efficient epigenomic profiling of small samples and single cells",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.12.032"
+        },
+        {
+          "issue": "6",
+          "key": "2026041200261657000_2025.05.28.656598v3.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "e166",
+          "DOI": "10.1038/emm.2015.33",
+          "article-title": "Ctcf as a multifunctional protein in genome regulation and gene expression",
+          "volume": "47",
+          "year": "2015",
+          "journal-title": "Experimental & molecular medicine"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100617-062719"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1106"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1145"
+        },
+        {
+          "issue": "1",
+          "key": "2026041200261657000_2025.05.28.656598v3.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1243",
+          "DOI": "10.1038/s41467-024-45191-5",
+          "article-title": "Predicting dna structure using a deep learning method",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature communications"
+        },
+        {
+          "issue": "4",
+          "key": "2026041200261657000_2025.05.28.656598v3.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005463",
+          "DOI": "10.1371/journal.pcbi.1005463",
+          "article-title": "Sequence dependency of canonical base pair opening in the dna double helix",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1062"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Mahendrawada , L. Warfield , R. Donczew , and S. Hahn . Low overlap of transcription factor dna binding and regulatory targets. Nature, pages 1–9, 2025.",
+          "DOI": "10.1038/s41586-025-08916-0"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Martinez-Corral , D. Friedrich , R. Frömel , L. Velten , J. Gunawardena , and A. H. DePace . Emergence of activation or repression in transcriptional control under a fixed molecular context. bioRxiv, 2024.",
+          "DOI": "10.1101/2024.05.29.596388"
+        },
+        {
+          "issue": "3",
+          "key": "2026041200261657000_2025.05.28.656598v3.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "278",
+          "DOI": "10.1016/j.cels.2016.07.001",
+          "article-title": "Dna shape features improve transcription factor binding site predictions in vivo",
+          "volume": "3",
+          "year": "2016",
+          "journal-title": "Cell systems"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.36",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in Python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae974"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaf333"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab609"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060408-091030"
+        },
+        {
+          "issue": "1",
+          "key": "2026041200261657000_2025.05.28.656598v3.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1016/j.cels.2018.12.001",
+          "article-title": "A de novo shape motif discovery algorithm reveals preferences of transcription factors for dna shape beyond sequence motifs",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Cell systems"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh733"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0021-9258(19)49776-7"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Seabold and J. Perktold . statsmodels: Econometric and statistical modeling with python. In 9th Python in Science Conference, 2010.",
+          "DOI": "10.25080/Majora-92bf1922-011"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2011.04.037"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/dnares/dsw031"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2011.75"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2014.07.002"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.104.050765"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.112.143370"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky092"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg296"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.omtn.2021.02.014"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00527a030"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-15-349"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Xie , I. Sokolov , M. Osmala , X. Yue , G. Bower , J. P. Pett , Y. Chen , K. Wang , A. D. Cavga , A. Popov , et al. Dna-guided transcription factor interactions extend human gene regulatory code. Nature, pages 1–10, 2025.",
+          "DOI": "10.1038/s41586-025-09129-1"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20167238"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1057"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0572-2"
+        },
+        {
+          "key": "2026041200261657000_2025.05.28.656598v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1422023112"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.28.656598",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T07:26:26Z",
+        "timestamp": 1775978786000
+      },
+      "score": 102.4613,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.28.656598"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            1
+          ]
+        ]
+      },
+      "references-count": 60,
+      "URL": "https://doi.org/10.1101/2025.05.28.656598",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

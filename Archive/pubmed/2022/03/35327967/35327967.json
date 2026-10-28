@@ -1,0 +1,455 @@
+{
+  "identity": {
+    "pmid": "35327967",
+    "doi": "10.3390/genes13030413",
+    "title": "HNF1A POU Domain Mutations Found in Japanese Liver Cancer Patients Cause Downregulation of HNF4A Promoter Activity with Possible Disruption in Transcription Networks."
+  },
+  "content": {
+    "abstract": "Hepatocyte nuclear factor 1A (HNF1A) is the master regulator of liver homeostasis and organogenesis and regulates many aspects of hepatocyte functions. It acts as a tumor suppressor in the liver, evidenced by the increased proliferation in HNF1A knockout (KO) hepatocytes. Hence, we postulated that any loss-of-function variation in the gene structure or composition (mutation) could trigger dysfunction, including disrupted transcriptional networks in liver cells. From the International Cancer Genome Consortium (ICGC) database of cancer genomes, we identified several HNF1A mutations located in the functional Pit-Oct-Unc (POU) domain. In our biochemical analysis, we found that the HNF1A POU-domain mutations Y122C, R229Q and V259F suppressed HNF4A promoter activity and disrupted the binding of HNF1A to its target HNF4A promoter without any effect on the nuclear localization. Our results suggest that the decreased transcriptional activity of HNF1A mutants is due to impaired DNA binding. Through structural simulation analysis, we found that a V259F mutation was likely to affect DNA interaction by inducing large conformational changes in the N-terminal region of HNF1A. The results suggest that POU-domain mutations of HNF1A downregulate HNF4A gene expression. Therefore, to mimic the HNF1A mutation phenotype in transcription networks, we performed siRNA-mediated knockdown (KD) of HNF4A. Through RNA-Seq data analysis for the HNF4A KD, we found 748 differentially expressed genes (DEGs), of which 311 genes were downregulated (e.g., HNF1A, ApoB and SOAT2) and 437 genes were upregulated. Kyoto Encyclopedia of Genes and Genomes (KEGG) mapping revealed that the DEGs were involved in several signaling pathways (e.g., lipid and cholesterol metabolic pathways). Protein-protein network analysis suggested that the downregulated genes were related to lipid and cholesterol metabolism pathways, which are implicated in hepatocellular carcinoma (HCC) development. Our study demonstrates that mutations of HNF1A in the POU domain result in the downregulation of HNF1A target genes, including HNF4A, and this may trigger HCC development through the disruption of HNF4A-HNF1A transcriptional networks.",
+    "keywords": [
+      "HNF1A",
+      "HNF4A",
+      "POU domain",
+      "hepatocellular carcinoma",
+      "mutation"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/genetics",
+      "Down-Regulation",
+      "Gene Regulatory Networks",
+      "Hepatocyte Nuclear Factor 1-alpha/genetics/metabolism",
+      "Hepatocyte Nuclear Factor 4/genetics",
+      "Humans",
+      "Japan",
+      "Lipids",
+      "*Liver Neoplasms/genetics",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Haque, Effi",
+        "Teeli, Aamir Salam",
+        "Winiarczyk, Dawid",
+        "Taguchi, Masahiko",
+        "Sakuraba, Shun",
+        "Kono, Hidetoshi",
+        "Leszczynski, Pawel",
+        "Pierzchala, Mariusz",
+        "Taniguchi, Hiroaki"
+      ],
+      "short_names": [
+        "Haque E",
+        "Teeli AS",
+        "Winiarczyk D",
+        "Taguchi M",
+        "Sakuraba S",
+        "Kono H",
+        "Leszczynski P",
+        "Pierzchala M",
+        "Taniguchi H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5176-2318",
+        "ORCID: 0000-0003-3562-7930",
+        "ORCID: 0000-0001-7154-4644",
+        "ORCID: 0000-0001-5768-2389",
+        "ORCID: 0000-0001-5729-8707"
+      ],
+      "affiliations": [
+        "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland.",
+        "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland.",
+        "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland.",
+        "Molecular Modeling and Simulation Group, National Institutes for Quantum Science and Technology, Kizugawa 619-0215, Japan.",
+        "Molecular Modeling and Simulation Group, National Institutes for Quantum Science and Technology, Kizugawa 619-0215, Japan.",
+        "Molecular Modeling and Simulation Group, National Institutes for Quantum Science and Technology, Kizugawa 619-0215, Japan.",
+        "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland.",
+        "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland.",
+        "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Haque, Effi",
+        "short_name": "Haque E",
+        "identifiers": [
+          "0000-0002-5176-2318"
+        ],
+        "affiliations": [
+          "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland."
+        ]
+      },
+      {
+        "full_name": "Teeli, Aamir Salam",
+        "short_name": "Teeli AS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland."
+        ]
+      },
+      {
+        "full_name": "Winiarczyk, Dawid",
+        "short_name": "Winiarczyk D",
+        "identifiers": [
+          "0000-0003-3562-7930"
+        ],
+        "affiliations": [
+          "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland."
+        ]
+      },
+      {
+        "full_name": "Taguchi, Masahiko",
+        "short_name": "Taguchi M",
+        "identifiers": [
+          "0000-0001-7154-4644"
+        ],
+        "affiliations": [
+          "Molecular Modeling and Simulation Group, National Institutes for Quantum Science and Technology, Kizugawa 619-0215, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakuraba, Shun",
+        "short_name": "Sakuraba S",
+        "identifiers": [
+          "0000-0001-5768-2389"
+        ],
+        "affiliations": [
+          "Molecular Modeling and Simulation Group, National Institutes for Quantum Science and Technology, Kizugawa 619-0215, Japan."
+        ]
+      },
+      {
+        "full_name": "Kono, Hidetoshi",
+        "short_name": "Kono H",
+        "identifiers": [
+          "0000-0001-5729-8707"
+        ],
+        "affiliations": [
+          "Molecular Modeling and Simulation Group, National Institutes for Quantum Science and Technology, Kizugawa 619-0215, Japan."
+        ]
+      },
+      {
+        "full_name": "Leszczyński, Paweł",
+        "short_name": "Leszczyński P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland."
+        ]
+      },
+      {
+        "full_name": "Pierzchała, Mariusz",
+        "short_name": "Pierzchała M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland."
+        ]
+      },
+      {
+        "full_name": "Taniguchi, Hiroaki",
+        "short_name": "Taniguchi H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genetics and Animal Biotechnology of the Polish Academy of Sciences, 05-552 Jastrzebiec, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Feb 24",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/26 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "41511298",
+      "41230205",
+      "40392499",
+      "40227950",
+      "36479791",
+      "36249028"
+    ],
+    "refs": [
+      "33990627",
+      "33574243",
+      "33538338",
+      "33083281",
+      "32916216",
+      "32576292",
+      "32110048",
+      "31685031",
+      "31363388",
+      "31186714",
+      "31109344",
+      "30954648",
+      "30745873",
+      "30228976",
+      "30121369",
+      "29899848",
+      "29175243",
+      "29101032",
+      "29051787",
+      "28758902",
+      "28622513",
+      "28547778",
+      "28465351",
+      "28410371",
+      "28392404",
+      "28295475",
+      "28283349",
+      "27899486",
+      "27811275",
+      "27469031",
+      "27241665",
+      "27225414",
+      "27143754",
+      "27064257",
+      "26853433",
+      "26593009",
+      "26574453",
+      "26221053",
+      "25793983",
+      "23945592",
+      "23803251",
+      "23315968",
+      "22129577",
+      "21898499",
+      "21887698",
+      "21384409",
+      "21170474",
+      "21071704",
+      "20388655",
+      "19924231",
+      "19289501",
+      "18593145",
+      "16929323",
+      "15251041",
+      "15141028",
+      "12574234",
+      "12453420",
+      "12355088",
+      "12235114",
+      "11590126",
+      "11162430",
+      "9867222",
+      "8744570",
+      "8641560",
+      "8254673",
+      "2475778",
+      "2065662",
+      "2044952",
+      "1685988"
+    ],
+    "similar": [
+      "35327967",
+      "34949673",
+      "29899848",
+      "39168523",
+      "30220099",
+      "21105491",
+      "21683639",
+      "30191603",
+      "38433330",
+      "29466992",
+      "23803251",
+      "16917892",
+      "29493090",
+      "24038112",
+      "38909044",
+      "23551881",
+      "26981542",
+      "22802087",
+      "38855865",
+      "30560924",
+      "24323243",
+      "20393147",
+      "23348805",
+      "19924231",
+      "17407387",
+      "21761282",
+      "30121369",
+      "26431509",
+      "19929997",
+      "18513302",
+      "21270186",
+      "25793983",
+      "26446475",
+      "28410371",
+      "16760222",
+      "34649947",
+      "28292020",
+      "27236156",
+      "29408271",
+      "23707370",
+      "25233928",
+      "20705777",
+      "25516669",
+      "21170474",
+      "37488681",
+      "27084450",
+      "39408812",
+      "29216278",
+      "22241473",
+      "35089870",
+      "27477312",
+      "21628466",
+      "29672926",
+      "27469031",
+      "31915469",
+      "32332020",
+      "29101032",
+      "36464036",
+      "30525236",
+      "20935164",
+      "25414334",
+      "35084807",
+      "32860162",
+      "35163468",
+      "33102593",
+      "33459938",
+      "31822116",
+      "22445113",
+      "27083284",
+      "29328449",
+      "25209997",
+      "19289501",
+      "30535497",
+      "29658607",
+      "30825595",
+      "30933372",
+      "26857093",
+      "34337056",
+      "32200915",
+      "29992318",
+      "27939373",
+      "34257537",
+      "30481753",
+      "17828387",
+      "31746405",
+      "34973414",
+      "30249878",
+      "16644680",
+      "28465351",
+      "18666237",
+      "20041408",
+      "33861762",
+      "21814873",
+      "26853433",
+      "28865121",
+      "31754975",
+      "25266181",
+      "34069882",
+      "39168525",
+      "36430456",
+      "38755249",
+      "31374199",
+      "36202974",
+      "17529977",
+      "35940258",
+      "33752475",
+      "35081418",
+      "34582629",
+      "20546279",
+      "36436492",
+      "38680615",
+      "36872411",
+      "36218393",
+      "36243044",
+      "33377648",
+      "30005691",
+      "38583492",
+      "35017517",
+      "37137894",
+      "21385945",
+      "36764138",
+      "24285859",
+      "39165427",
+      "28116330",
+      "36598838",
+      "38668386",
+      "17924661",
+      "37492105",
+      "35741825",
+      "38825059",
+      "28642491",
+      "36948605",
+      "35220676",
+      "38659853",
+      "36814838",
+      "31089332",
+      "38868330",
+      "37766831",
+      "35934060"
+    ],
+    "review": [
+      "35327967",
+      "26446475",
+      "31754975"
+    ],
+    "pmc": [
+      "8949677"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13030413",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35327967/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35327967",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-652",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

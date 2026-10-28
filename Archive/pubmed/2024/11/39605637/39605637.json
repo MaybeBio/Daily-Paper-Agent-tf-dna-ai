@@ -1,0 +1,546 @@
+{
+  "identity": {
+    "pmid": "39605637",
+    "doi": "10.1101/2024.11.12.623187",
+    "title": "Unveiling epigenetic regulatory elements associated with breast cancer development."
+  },
+  "content": {
+    "abstract": "Breast cancer is the most common cancer in women and the 2nd most common cancer worldwide, yearly impacting over 2 million females and causing 650 thousand deaths. It has been widely studied, but its epigenetic variation is not entirely unveiled. We aimed to identify epigenetic mechanisms impacting the expression of breast cancer related genes to detect new potential biomarkers and therapeutic targets. We considered The Cancer Genome Atlas database with over 800 samples and several omics datasets such as mRNA, miRNA, DNA methylation, which we used to select 2701 features that were statistically significant to differ between cancer and control samples using the Monte Carlo Feature Selection and Interdependency Discovery algorithm, from an initial total of 417,486. Their biological impact on cancerogenesis was confirmed using: statistical analysis, natural language processing, linear and machine learning models as well as: transcription factors identification, drugs and 3D chromatin structure analyses. Classification of cancer vs control samples on the selected features returned high classification weighted Accuracy from 0.91 to 0.98 depending on feature-type: mRNA, miRNA, DNA methylation, and classification algorithm. In general, cancer samples showed lower expression of differentially expressed genes and increased beta-values of differentially methylated sites. We identified mRNAs whose expression is well explained by miRNA expression and differentially methylated sites beta-values. We recognized differentially methylated sites possibly affecting NRF1 and MXI1 transcription factors binding, causing a disturbance in NKAPL and PITX1 expression, respectively. Our 3D models showed more loosely packed chromatin in cancer. This study successfully points out numerous possible regulatory dependencies.",
+    "keywords": [
+      "MCFS-ID",
+      "MXI1",
+      "Monte Carlo Feature Selection",
+      "NKAPL",
+      "NLP",
+      "NRF1",
+      "PITX1",
+      "breast cancer",
+      "chromatin structure",
+      "differentially methylated sites",
+      "epigenetic regulation",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jardanowska-Kotuniak, Marta",
+        "Draminski, Michal",
+        "Wlasnowolski, Michal",
+        "Lapinski, Marcin",
+        "Sengupta, Kaustav",
+        "Agarwal, Abhishek",
+        "Filip, Adam",
+        "Ghosh, Nimisha",
+        "Pancaldi, Vera",
+        "Grynberg, Marcin",
+        "Saha, Indrajit",
+        "Plewczynski, Dariusz",
+        "Dabrowski, Michal J"
+      ],
+      "short_names": [
+        "Jardanowska-Kotuniak M",
+        "Draminski M",
+        "Wlasnowolski M",
+        "Lapinski M",
+        "Sengupta K",
+        "Agarwal A",
+        "Filip A",
+        "Ghosh N",
+        "Pancaldi V",
+        "Grynberg M",
+        "Saha I",
+        "Plewczynski D",
+        "Dabrowski MJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0181-6266",
+        "ORCID: 0000-0002-0354-5917",
+        "ORCID: 0000-0003-0857-0713",
+        "ORCID: 0000-0003-0603-0916",
+        "ORCID: 0000-0003-4981-8746",
+        "ORCID: 0000-0002-0697-6368",
+        "ORCID: 0000-0002-7433-624X",
+        "ORCID: 0000-0003-1887-7209",
+        "ORCID: 0000-0001-9513-9707",
+        "ORCID: 0000-0002-3840-7610",
+        "ORCID: 0000-0003-1269-6722"
+      ],
+      "affiliations": [
+        "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland.",
+        "Institute of Biochemistry and Biophysics of the Polish Academy of Sciences, Warsaw, Poland.",
+        "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland.",
+        "Laboratory of Bioinformatics and Computational Genomics, Faculty of Mathematics and Information Science, Warsaw University of Technology, Warsaw, Poland.",
+        "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland.",
+        "Laboratory of Bioinformatics and Computational Genomics, Faculty of Mathematics and Information Science, Warsaw University of Technology, Warsaw, Poland.",
+        "Laboratory of Functional and Structural Genomics, Centre of New Technologies, University of Warsaw, Warsaw, Poland.",
+        "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland.",
+        "Department of Computer Science and Information Technology, Institute of Technical Education and Research, Siksha O Anusandhan University, Bhubaneswar, Odisha, 751030, India.",
+        "CRCT, Universite de Toulouse, Inserm, CNRS, Universite Toulouse III-Paul Sabatier, Centre de Recherches en Cancerologie de Toulouse, Toulouse, France.",
+        "Institute of Biochemistry and Biophysics of the Polish Academy of Sciences, Warsaw, Poland.",
+        "Department of Computer Science and Engineering, National Institute of Technical Teachers' Training and Research, Kolkata 700106, India.",
+        "Laboratory of Bioinformatics and Computational Genomics, Faculty of Mathematics and Information Science, Warsaw University of Technology, Warsaw, Poland.",
+        "Laboratory of Functional and Structural Genomics, Centre of New Technologies, University of Warsaw, Warsaw, Poland.",
+        "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jardanowska-Kotuniak, Marta",
+        "short_name": "Jardanowska-Kotuniak M",
+        "identifiers": [
+          "0000-0003-0181-6266"
+        ],
+        "affiliations": [
+          "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland.",
+          "Institute of Biochemistry and Biophysics of the Polish Academy of Sciences, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Dramiński, Michał",
+        "short_name": "Dramiński M",
+        "identifiers": [
+          "0000-0002-0354-5917"
+        ],
+        "affiliations": [
+          "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Własnowolski, Michał",
+        "short_name": "Własnowolski M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics and Computational Genomics, Faculty of Mathematics and Information Science, Warsaw University of Technology, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Łapiński, Marcin",
+        "short_name": "Łapiński M",
+        "identifiers": [
+          "0000-0003-0857-0713"
+        ],
+        "affiliations": [
+          "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Sengupta, Kaustav",
+        "short_name": "Sengupta K",
+        "identifiers": [
+          "0000-0003-0603-0916"
+        ],
+        "affiliations": [
+          "Laboratory of Bioinformatics and Computational Genomics, Faculty of Mathematics and Information Science, Warsaw University of Technology, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Abhishek",
+        "short_name": "Agarwal A",
+        "identifiers": [
+          "0000-0003-4981-8746"
+        ],
+        "affiliations": [
+          "Laboratory of Functional and Structural Genomics, Centre of New Technologies, University of Warsaw, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Filip, Adam",
+        "short_name": "Filip A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Nimisha",
+        "short_name": "Ghosh N",
+        "identifiers": [
+          "0000-0002-0697-6368"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Information Technology, Institute of Technical Education and Research, Siksha O Anusandhan University, Bhubaneswar, Odisha, 751030, India."
+        ]
+      },
+      {
+        "full_name": "Pancaldi, Vera",
+        "short_name": "Pancaldi V",
+        "identifiers": [
+          "0000-0002-7433-624X"
+        ],
+        "affiliations": [
+          "CRCT, Université de Toulouse, Inserm, CNRS, Université Toulouse III-Paul Sabatier, Centre de Recherches en Cancérologie de Toulouse, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Grynberg, Marcin",
+        "short_name": "Grynberg M",
+        "identifiers": [
+          "0000-0003-1887-7209"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry and Biophysics of the Polish Academy of Sciences, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Saha, Indrajit",
+        "short_name": "Saha I",
+        "identifiers": [
+          "0000-0001-9513-9707"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, National Institute of Technical Teachers' Training and Research, Kolkata 700106, India."
+        ]
+      },
+      {
+        "full_name": "Plewczynski, Dariusz",
+        "short_name": "Plewczynski D",
+        "identifiers": [
+          "0000-0002-3840-7610"
+        ],
+        "affiliations": [
+          "Laboratory of Bioinformatics and Computational Genomics, Faculty of Mathematics and Information Science, Warsaw University of Technology, Warsaw, Poland.",
+          "Laboratory of Functional and Structural Genomics, Centre of New Technologies, University of Warsaw, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Dąbrowski, Michał J",
+        "short_name": "Dąbrowski MJ",
+        "identifiers": [
+          "0000-0003-1269-6722"
+        ],
+        "affiliations": [
+          "Computational Biology Group, Institute of Computer Science of the Polish Academy of Sciences, Warsaw, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/28 06:36",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38991924",
+      "38722283",
+      "38519456",
+      "38499830",
+      "38182927",
+      "38160786",
+      "37841446",
+      "37835815",
+      "37827439",
+      "37442140",
+      "37426677",
+      "37298314",
+      "37241189",
+      "37222669",
+      "36883413",
+      "36793869",
+      "36672415",
+      "36370105",
+      "36012357",
+      "35912006",
+      "35898580",
+      "35799115",
+      "35748724",
+      "35681650",
+      "35620480",
+      "35607268",
+      "35471149",
+      "35267528",
+      "35263519",
+      "35223458",
+      "35205839",
+      "35191604",
+      "35132081",
+      "34788843",
+      "34766135",
+      "34612160",
+      "34513841",
+      "34341417",
+      "34321624",
+      "34298731",
+      "34235182",
+      "33907697",
+      "33854505",
+      "33801148",
+      "33649832",
+      "33538338",
+      "33304275",
+      "33191617",
+      "33125081",
+      "32850695",
+      "32798968",
+      "32728247",
+      "32714393",
+      "32610068",
+      "32590202",
+      "32587767",
+      "32548118",
+      "32544280",
+      "32442297",
+      "32412912",
+      "32259086",
+      "32179831",
+      "32174791",
+      "32098687",
+      "32073238",
+      "32012980",
+      "31910858",
+      "31846528",
+      "31845735",
+      "31840050",
+      "31790732",
+      "31755929",
+      "31647099",
+      "31638245",
+      "31504780",
+      "31428132",
+      "31311166",
+      "31197269",
+      "31195692",
+      "31182966",
+      "31125724",
+      "30961610",
+      "30825741",
+      "30792573",
+      "30763603",
+      "30660650",
+      "30649247",
+      "30513833",
+      "30443044",
+      "30105548",
+      "30097071",
+      "30069007",
+      "29888102",
+      "29535343",
+      "29521413",
+      "29483830",
+      "29353445",
+      "29240722",
+      "29212833",
+      "29140464",
+      "29029430",
+      "28968850",
+      "28718426",
+      "28696357",
+      "28427185",
+      "27920038",
+      "27863249",
+      "27789526",
+      "27528625",
+      "27479905",
+      "27466323",
+      "27447970",
+      "27329150",
+      "27185892",
+      "27174533",
+      "27141961",
+      "27102297",
+      "27035903",
+      "26917980",
+      "26820484",
+      "26783937",
+      "26739564",
+      "26675734",
+      "26519501",
+      "26459268",
+      "26356674",
+      "26344672",
+      "26177331",
+      "25981295",
+      "25875095",
+      "25578398",
+      "25520935",
+      "25479087",
+      "25467757",
+      "25057302",
+      "24651011",
+      "24520250",
+      "24151070",
+      "24015356",
+      "23896122",
+      "23846226",
+      "22722202",
+      "22356866",
+      "22315090",
+      "22169972",
+      "21390570",
+      "21330290",
+      "21240988",
+      "20944598",
+      "20810549",
+      "20369376",
+      "20194112",
+      "20110278",
+      "19847467",
+      "19584139",
+      "19458711",
+      "19107226",
+      "18048398",
+      "17999201",
+      "17478497",
+      "17251915",
+      "17160136",
+      "16527607",
+      "16381938",
+      "15864483",
+      "15448006",
+      "15264254",
+      "14731533",
+      "12473647",
+      "10746731",
+      "9828250",
+      "3280142"
+    ],
+    "similar": [
+      "39605637",
+      "40724805",
+      "35132081",
+      "40369608",
+      "40862714",
+      "35877019",
+      "37762215",
+      "30866861",
+      "33217867",
+      "37322932",
+      "39456830",
+      "34034219",
+      "29099283",
+      "31423189",
+      "40986511",
+      "31081184",
+      "29535343",
+      "33784351",
+      "29566670",
+      "22856590",
+      "31290690",
+      "31007607",
+      "36705386",
+      "41125735",
+      "35428183",
+      "36760264",
+      "33550016",
+      "29570800",
+      "29642861",
+      "32544280",
+      "32420140",
+      "35711943",
+      "30203578",
+      "38092913",
+      "31490960",
+      "41096905",
+      "41163216",
+      "33514440",
+      "26383847",
+      "34557219",
+      "26680018",
+      "32806782",
+      "30999858",
+      "32236623",
+      "37029310",
+      "33499882",
+      "35168604",
+      "36314280",
+      "40680631",
+      "29027401",
+      "29234590",
+      "39143382",
+      "33926515",
+      "29060924",
+      "31534349",
+      "29375678",
+      "34419168",
+      "29805586",
+      "31011409",
+      "33143142",
+      "35479077",
+      "31533842",
+      "31138902",
+      "29940789",
+      "30258192",
+      "37620896",
+      "34631789",
+      "32693820",
+      "33193625",
+      "34966440",
+      "28771724",
+      "32500672",
+      "29445424",
+      "28914394",
+      "40999368",
+      "40059124",
+      "28058013",
+      "40019680",
+      "41431055",
+      "35484501",
+      "30987631",
+      "38711158",
+      "31543899",
+      "25960784",
+      "34196129",
+      "34754623",
+      "30323202",
+      "34215221",
+      "32093698",
+      "34007328",
+      "40898538",
+      "38702584",
+      "28049580",
+      "30128822",
+      "40604083",
+      "32360590",
+      "35114976",
+      "29667778",
+      "29518546",
+      "40538628"
+    ],
+    "review": [
+      "39605637",
+      "30258192",
+      "28771724"
+    ],
+    "pmc": [
+      "11601335"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39605637/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.11.12.623187",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

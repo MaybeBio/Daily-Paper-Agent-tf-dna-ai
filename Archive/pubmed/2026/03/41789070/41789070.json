@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "41789070",
+    "doi": "10.3389/fimmu.2026.1729942",
+    "title": "A multi-machine learning framework identifies novel PANoptosis-related biomarkers and their immune landscape in ulcerative colitis: Insights from transcriptomics and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ulcerative colitis (UC), a persistent inflammatory bowel disorder, has witnessed a gradual increase in its global incidence in recent years. This study aims to identify biomarkers linked to PANoptosis in UC, highlighting a pressing requirement to identify novel diagnostic biomarkers and therapeutic targets for improved UC management. METHODS: Differentially expressed genes (DEGs) in UC were identified using R software through Gene Expression Omnibus (GEO) GSE87466 and GSE206285 datasets integration. Weighted Gene Co-expression Network Analysis (WGCNA) was employed to uncover co-expression modules. PANoptosis-related hub genes were selected using eight machine learning algorithms, followed by validation of the diagnostic markers with five machine learning algorithms in test datasets GSE38713 and GSE47908. A nomogram incorporating these six genes was subsequently constructed. Comprehensive analyses-including correlation assessment, single-cell profiling, gene set enrichment analysis (GSEA), and immune infiltration evaluation-were performed to characterize their functional relevance. Their expression profiles were further validated through DSS-induced mouse UC model. RESULTS: Six potential biomarkers (ECSCR, IRF1, MMP1, PPARG, S100A8, S100A9) were identified, demonstrating significant upregulation or downregulation in UC. KEGG and GO enrichment analyses indicated these genes are significantly implicated in bacterial infection, immune response, and inflammation pathways. Analysis of immune cell infiltration uncovered distinct shift in immune cell composition in UC patients, correlating with the identified biomarkers. The single-cell analysis indicated that IRF1 was predominantly expressed in smooth muscle cells, while S100A8 and S100A9 showed markedly high expression in neutrophils. In the DSS-induced mouse model, all six biomarkers showed significant expression, which was consistent with their expression patterns in clinical samples. CONCLUSIONS: This study effectively discovers six PANoptosis-related biomarkers with potential diagnostic value for UC, emphasizing their role in disease progression and immune regulation, offering new biomarkers for the early diagnosis and personalized treatment of UC.",
+    "keywords": [
+      "PANoptosis",
+      "biomarker",
+      "immune cell infiltration",
+      "machine learning",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "*Colitis, Ulcerative/immunology/genetics/diagnosis",
+      "*Machine Learning",
+      "Animals",
+      "Biomarkers",
+      "Mice",
+      "Humans",
+      "Gene Expression Profiling",
+      "*Transcriptome",
+      "Calgranulin A/genetics",
+      "Disease Models, Animal",
+      "Calgranulin B/genetics",
+      "Gene Regulatory Networks",
+      "PPAR gamma/genetics",
+      "Interferon Regulatory Factor-1/genetics",
+      "Matrix Metalloproteinase 1/genetics",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yuan",
+        "Zhai, Xiangjie",
+        "Wang, Han",
+        "Wang, Sen",
+        "Xu, Siliu",
+        "Zhu, Ni"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Zhai X",
+        "Wang H",
+        "Wang S",
+        "Xu S",
+        "Zhu N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Stomatology and Ophthalmology, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+        "School of Biomedical Engineering and Imaging, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+        "Key Laboratory of Optoelectronic Sensing and Intelligent Control, Hubei University of Science and Technology, Xianning, China.",
+        "School of Pharmacy, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+        "School of Pharmacy, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+        "School of Pharmacy, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+        "School of Biomedical Engineering and Imaging, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+        "Key Laboratory of Optoelectronic Sensing and Intelligent Control, Hubei University of Science and Technology, Xianning, China.",
+        "School of Stomatology and Ophthalmology, Xianning Medical College, Hubei University of Science and Technology, Xianning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yuan",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Stomatology and Ophthalmology, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+          "School of Biomedical Engineering and Imaging, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+          "Key Laboratory of Optoelectronic Sensing and Intelligent Control, Hubei University of Science and Technology, Xianning, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Xiangjie",
+        "short_name": "Zhai X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Xianning Medical College, Hubei University of Science and Technology, Xianning, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Han",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Xianning Medical College, Hubei University of Science and Technology, Xianning, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Sen",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Xianning Medical College, Hubei University of Science and Technology, Xianning, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Siliu",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering and Imaging, Xianning Medical College, Hubei University of Science and Technology, Xianning, China.",
+          "Key Laboratory of Optoelectronic Sensing and Intelligent Control, Hubei University of Science and Technology, Xianning, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ni",
+        "short_name": "Zhu N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Stomatology and Ophthalmology, Xianning Medical College, Hubei University of Science and Technology, Xianning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/06 09:08",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [
+      "42613625"
+    ],
+    "refs": [
+      "41006688",
+      "40987390",
+      "40972055",
+      "40932643",
+      "40905080",
+      "40855234",
+      "40775908",
+      "40659263",
+      "40600991",
+      "40487746",
+      "40412060",
+      "40408404",
+      "40317733",
+      "40279965",
+      "40255659",
+      "40138774",
+      "40087491",
+      "39986196",
+      "39985853",
+      "39736870",
+      "39643069",
+      "39568189",
+      "39170615",
+      "39073916",
+      "39064031",
+      "38942784",
+      "38912337",
+      "38800594",
+      "38778086",
+      "38623059",
+      "38576737",
+      "38203518",
+      "37823450",
+      "37573077",
+      "37266812",
+      "36543888",
+      "35955886",
+      "35426646",
+      "34689878",
+      "34270361",
+      "32913180",
+      "19114008"
+    ],
+    "similar": [
+      "41789070",
+      "42404897",
+      "41094572",
+      "41029776",
+      "41324863",
+      "40948782",
+      "42099592",
+      "41009970",
+      "39975557",
+      "39647286",
+      "40597456",
+      "38880160",
+      "39986196",
+      "38656456",
+      "38951638",
+      "41479901",
+      "41563994",
+      "41459538",
+      "42123445",
+      "40821793",
+      "40963602",
+      "39170615",
+      "39548254",
+      "41242266",
+      "39766817",
+      "36419192",
+      "41878449",
+      "41291841",
+      "41358199",
+      "39697326",
+      "38800594",
+      "40661186",
+      "39026683",
+      "40791849",
+      "40433374",
+      "39806040",
+      "33987007",
+      "40600991",
+      "41146237",
+      "40532306",
+      "41716396",
+      "40406126",
+      "41052072",
+      "41300794",
+      "42327749",
+      "38448514",
+      "36845139",
+      "42074501",
+      "35392084",
+      "40613560",
+      "41432483",
+      "41665627",
+      "42064079",
+      "41388523",
+      "41300749",
+      "38849409",
+      "39791167",
+      "40374840",
+      "41080564",
+      "41665828",
+      "41406086",
+      "42291298",
+      "41368500",
+      "41422315",
+      "41845922",
+      "41200172",
+      "39395728",
+      "41316541",
+      "41368353",
+      "40584713",
+      "42015036",
+      "38863714",
+      "41438107",
+      "41972123",
+      "36742304",
+      "36388363",
+      "41212891",
+      "41858783",
+      "34731452",
+      "40313958",
+      "39512836",
+      "40374866",
+      "40340571",
+      "38987612",
+      "39741751",
+      "40761790",
+      "39568749",
+      "32190668",
+      "40620701",
+      "40973872",
+      "41492412",
+      "39568189",
+      "42195052",
+      "38269750",
+      "40884580",
+      "41013556",
+      "40129981",
+      "41816342",
+      "42233387",
+      "37090740"
+    ],
+    "review": [
+      "41789070",
+      "41665627"
+    ],
+    "pmc": [
+      "12956638"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41789070/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1155",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1729942",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

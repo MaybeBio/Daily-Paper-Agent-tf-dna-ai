@@ -1,0 +1,159 @@
+# Identification of T-cell exhaustion-related biomarkers in aortic dissection via integrated multi-omics analysis and mendelian randomization
+
+
+## Background
+  Aortic dissection (AD) is a life-threatening cardiovascular emergency characterized by high acute mortality. While immune dysregulation is known to drive AD pathogenesis, the specific involvement of T-cell exhaustion-related genes (TEXRGs) remains largely elusive.
+
+
+## Methods
+  Differentially expressed TEXRGs (DETEXRGs) between AD and control samples were identified using transcriptomic datasets. Functional enrichment and Mendelian randomization (MR) analyses were performed to investigate potential causal associations with AD risk. Key diagnostic biomarkers were selected through integrated machine learning algorithms. Immune infiltration landscapes were characterized via gene set enrichment analysis (GSEA), while single-cell RNA sequencing (scRNA-seq) was employed to elucidate cell-type-specific expression profiles. Furthermore, the transcription factor (TF)-regulatory network and drug-gene interaction map were constructed. Finally, the expression levels of candidate genes were validated using quantitative real-time PCR (qRT-PCR).
+
+
+## Results
+  A total of 270 DETEXRGs were identified, which were predominantly enriched in cytokine-mediated signaling pathways and viral infection-related processes. MR analysis identified six genes significant causal associations with AD susceptibility. Among these, CASP4 and FPR1 were prioritized as core biomarkers through integrated machine learning algorithms. Immune infiltration analysis revealed a significantly altered immune landscape in AD tissues, characterized by the enrichment of eight immune cell subtypes that positively correlated with the expression of the identified biomarkers. Furthermore, scRNA-seq analysis localized FPR1 expression primarily to macrophages and monocytes. Finally, qRT-PCR validation confirmed significantly elevated expression levels of FPR1, PLSCR1, and other candidate genes in AD samples.
+
+
+## Conclusion
+  This study underscores the critical involvement of T-cell exhaustion-related mechanisms in the pathogenesis of AD and robust diagnostic biomarkers. These findings offer novel insights for early risk stratification and provide a theoretical foundation for the development of targeted immunotherapeutic strategies in aortic dissection.
+
+
+## Supplementary Information
+  The online version contains supplementary material available at https://doi.org/10.1186/s13019-026-04475-1.
+
+
+## Introduction
+  Aortic dissection (AD) represents a life-threatening cardiovascular emergency precipitated by structural failure within the aortic media under hemodynamic stress [1]. Predominant risk factors encompass hypertension, advanced age, atherosclerosis, and heritable vascular disorders. The condition is characterized by rapid progression and high acute mortality, with its incidence rising concomitantly with the global aging population [2]. Clinically, AD typically manifests as sudden-onset, excruciating chest pain, frequently accompanied by systemic signs of malperfusion or circulatory collapse, such as diaphoresis and impaired peripheral perfusion [3]. Some patients develop syncope or altered mental status, which may lead to misdiagnosis amidst other acute syndromes [4]. Initial management focuses on urgent analgesia and strict control of blood pressure and heart rate to minimize aortic wall stress and prevent rupture [5]. Definitive treatment depends on the dissection anatomy and severity: surgical intervention is indicated for type A dissections, while uncomplicated type B dissections may be managed medically [3, 6]. Despite these established protocols, the molecular etiology of AD remains partially understood, necessitating the identification of novel diagnostic and therapeutic targets [7].
+
+  As core components of the adaptive immune system, T cells orchestrate the identification and clearance of pathogens and abnormal cells [8]. Under chronic antigen exposure, T cells can undergo functional exhaustion, a state characterized by progressive attenuation of effector functions and the sustained upregulation of inhibitory receptors [9]. This process, known as T-cell exhaustion, is governed by a complex network of genes (TEXRGs). Understanding TEXRGs not only advances knowledge of immune regulation but also offers potential therapeutic targets for immune-related diseases [10–12]. Despite growing evidence supporting the role of immune inflammation in AD, the contribution of T-cell exhaustion remains poorly understood. Although several biomarkers such as smMHC [13], calponin [14], and sELAF [15] have been proposed for AD diagnosis, the clinical utility of TEXRGs has not been systematically investigated.
+
+  Single-cell RNA sequencing (scRNA-seq) has emerged as a pivotal tool for the high-resolution interrogation of the immune microenvironment during aortic dissection (AD) pathogenesis [16]. Unlike traditional bulk RNA sequencing, which only captures average gene expression across cell populations, scRNA-seq enables the resolution of cellular heterogeneity, identification of distinct immune cell subsets, and characterization of their functional states. It is particularly suitable for dissecting complex immune processes—such as T-cell exhaustion—and their specific contributions to AD [17, 18]. In AD research, scRNA-seq can precisely identify the expression patterns of TEXRGs across different immune cell subtypes and correlate them with disease severity, thereby providing cell-level insights into immune mechanisms, facilitating the discovery of diagnostic biomarkers, and supporting the development of targeted therapeutic strategies.
+
+  In the present study, we integrated transcriptomic data and scRNA-seq profiles from public databases with machine learning approaches to identify key TEXRGs involved in AD. We constructed a diagnostic model and validated its efficacy using ROC analysis. Furthermore, we explored immune infiltration patterns, regulatory networks, and drug-gene interactions. Experimental validation via qRT-PCR confirmed the differential expression of candidate genes. Our results provide novel insights into the immune mechanisms underlying AD and suggest potential biomarkers for early diagnosis and targeted therapy.
+
+
+## Materials and methods
+
+### Data collection
+  The gene expression profile of GSE153434, platform GPL20795, was downloaded from the Gene Expression Omnibus (GEO, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153434) database. The sequencing samples were 20 ascending aorta smooth muscle, consisting of 10 AD cases and 10 healthy controls. The GSE52093 dataset, platform GPL10558, was acquired from the GEO database as a validation set. The sequencing samples were from the ascending aorta, with a total of 12 samples, including 7 AD cases and 5 Controls. Summary-level genetic data for AD were retrieved from the IEU OpenGWAS database (https://gwas.mrcieu.ac.uk/). The specific dataset utilized was finn-b-I9_AORTDIS, which comprises a study population of European ancestry. The cohort included a total of 207,011 participants (470 cases and 206,541 controls) and provided coverage for 16,380,411 single nucleotide polymorphisms (SNPs). GSE213740 single-cell RNA sequencing (scRNA-seq) data included 9 ascending aortic wall tissue samples, of which 6 AD Cases and 3 Controls were used for subsequent analysis. Furthermore, 683 T-cell exhaustion-related genes (TEXRGs) were obtained from previous literature.
+
+
+### Acquisition and functional analysis of differential expressed TEXRGs (DETEXRGs)
+  Differentially expressed genes (DEGs) between AD cases and controls in the training set were identified using DESeq2 R package (v1.38.3) [19], with significance thresholds set at |log₂FC| ≥ 0.5 and P < 0.05. DETEXRGs were subsequently isolated by intersecting the DEGs with a predefined set of 683 TEXRGs using the ggvenn package (v0.1.10). Functional enrichment analyses—including Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways—were performed with clusterProfiler R package (v4.4.4) [20] under a significance level of P < 0.05.
+
+
+### Mendelian randomization (MR) analysis
+  A univariable Mendelian randomization (MR) analysis was conducted using the intersection genes as exposures and AD as the outcome. Independent instrumental variables (IVs) significantly associated with the exposures were selected from the GWAS summary data at a genome-wide significance threshold (P < 5 × 10⁻⁸) [21]. Linkage disequilibrium (LD) was clumped using a window size of 10,000 kb and an r² threshold of 0.001. Additionally, single-nucleotide polymorphisms (SNPs) associated with the outcome (AD) at P < 0.05 were removed to avoid potential pleiotropy. Effect alleles and effect sizes were harmonized using the mv_harmonise_data function from the TwoSampleMR R package (v 0.5.6) [22]. Causal effects were estimated primarily using the inverse variance weighted (IVW) method, and exposure factors showing a significant causal relationship with AD were identified.
+
+
+### Screening of biomarkers by machine learning algorithms
+  In the training set, LASSO regression analysis of the candidate genes was performed using the glmnet package (V 4.1-4). Concurrently, SVM-RFE analysis of the exposed genes was performed using the e1071 package (V 1.7–11). The recursive elimination of the feature genes was performed, and the model with the minimal cross-validation error was chosen. The biomarkers were obtained through the intersection of the feature genes in two machine learning methods. In the training set and validation set, the expression levels of the biomarkers were verified, and the ROC curves were generated. In addition, a nomogram was constructed based on the biomarkers in the training set, and the calibration curve was constructed to evaluate the clinical utility of the nomogram.
+
+
+### Gene set enrichment analysis (GSEA) and subcellular localization
+  To elucidate the biological functions and signaling pathways associated with the identified biomarkers, the correlation between biomarkers and other genes was calculated and sequenced in the training set, and the KEGG gene set was downloaded as the background set using the msigdbr package (V 7.5.1). The GSEA function was used to enrich these genes, and the top 5 enriched pathways were subsequently presented (P < 0.05). Furthermore, in order to further observe the suborganelles in which the biomarkers were located, Cell-PLoc 3.0 was used for subcellular localization of the biomarkers.
+
+
+### Immune infiltration analysis
+  The GSVA R package (V 1.44.5) was used to evaluate the infiltration level of 28 immune cells [23]. Differences in enrichment scores of immune cells among Controls and Cases were analyzed using the Wilcoxon test. Subsequently, correlation analysis was conducted on the biomarkers and immune cells with differences between groups.
+
+
+### Regulatory network and drug prediction
+  Transcription factor (TF) served as a crucial component transcriptional regulation and participated in the regulation of transcription initiation. The miRNet (https://www.mirnet.ca/) was employed to forecast transcription factors (TFs) associated with biomarkers, with a degree of ≥ 1, based on the JASPAR database. Subsequently, the relevant microRNAs (miRNAs) were predicted with a degree of = 2, and the corresponding regulatory network was mapped. Subsequently, drugs associated with biomarkers were predicted by utilizing the Drug - Gene Interaction database (DGIdb), and a gene - drug relationship network was constructed (Interaction Score > 1).
+
+
+### ScRNA-seq analysis of biomarkers in AD
+  The scRNA-seq data from the GSE213740 dataset were obtained, and quality control was conducted under the following conditions: (1) The proportion of mitochondrial cells was ≤ 25%; (2) UMI counts ranged from 700 and 15,000 [24, 25]. The expression data of 9 cases were imported using the Seurat package (V 4.3.0), and the data were integrated [26]. Following logarithmic normalization of the data, the vst method was used to extract genes with high variability. Principal component analysis (PCA) was conducted on 9 cases. Subsequently, the percentages of each principal component (PC) were ranked, and the PC that exhibited a tendency to reach a plateau was selected for cell clustering. Unsupervised cluster analysis of the filtered cells was performed using the FindNeighbors and FindClusters functions of the Seurat package. The UMAP algorithm was employed for cell clustering, and cell annotation was carried out based on marker genes reported in previous literature [23]. The distribution disparities of biomarkers among different in scRNA-seq were observed. Finally, the expression levels of biomarkers were analyzed between the control group and the case group.
+
+
+### Cell communication and pseudotime analysis
+  Cell communication was assessed through the utilization of CellChat package (V 1.6.1) based on the CellChatDB. Based on the cellular expression, the interaction of the ligand receptor and their cofactors was combined to simulate cell communication. Subsequently, the Monocle package (V 2.26.0) was used to construct a cell pseudotime trajectory by 2000 highly variable genes [27]. Moreover, the cell trajectories were shown in the Controls and Cases. Ultimately, the pseudotime‑dependent changes in the relative expression of biomarkers were analyzed.
+
+
+### MR analysis of biomarkers
+  The biomarkers-related SNPs (F > 10) and the effects of these biomarkers in AD were respectively acquired. Subsequently, the correlation between exposure factors and outcomes was evaluated using 5 different MR algorithms (IVW, MR Egger, Simple mode, Weighted median, and Weighted mode). IVW and MR Egger were used to assess the randomness of the SNPs. Moreover, heterogeneity tests, horizontal pleiotropy, and leave-one-out analysis were performed to ascertain the reliability of the analysis results through multiple tests.
+
+
+### qRT-PCR experiment validation
+  Vascular tissues from five paired cases of Alzheimer’s disease (AD) patients and matched controls were obtained from the First Affiliated Hospital of Zhengzhou University. This study was approved by the Hospital’s Ethics Committee (Approval No. 2023-KY-0160), and written informed consent was acquired from all participants. These specimens were collected from September 2024 to March 2025 at the First Affiliated Hospital of Zhengzhou University. Following data collection, the investigators were granted access to information capable of identifying individual participants. Total RNA was isolated from the vascular tissues. Reverse transcription was subsequently performed to synthesize cDNA. Gene-specific primers (Table 1) were designed, and gene expression was quantified using quantitative real-time reverse transcription polymerase chain reaction (qRT-PCR). The relative mRNA expression levels were calculated using the 2 − ΔΔCt method.
+
+  Table 1Primer sequencesGenesSequence-forwardSequence-reverseGAPDHTGTGTCCGTGGTGGATCTGATTGCTGTTGAAGTCGCAGGAGNCOA3GCAGCAACAGCAACAGCAACAGGCGGAGGAGCTTGTGGCATTGPLIN2GTGAGATGGCAGAGAACGGTGTGGCGGCTCTAGCTTCTGGATGATGFPR1GTCCTCTCCTTTGTCGCAGCAGCCAGGGCACTTGTCACATCCACCASP4GGAGGCTGGACCACCTGAGTCAGGCGTGTGCGGTTGTTTCTCPLSCR1TGCCAGTTGGGTATCCTCCTCAGAGCTGGGCCAGGACCTGAATGLITAFGCTGCTGCTTCATCCCCTTCTGACGCTTGTAGGTGCCCAGGAG
+
+
+## Result
+
+### Acquisition and functional analysis of DETEXRGs
+  In total, 3229 DEGs were acquired, among which 1375 DEGs were up-regulated genes and 1854 DEGs were down-regulated genes. The volcano plots and heatmaps exhibited the DEGs (Fig. 1A-B). Then, 270 DETEXRGs genes were obtained by overlapping 3229 DEGs and 683 TEXRGs (Fig. 1C). They were enriched to 1638 GO terms, encompassing cytokine-mediated signaling pathway, positive regulation of cytokine production, positive regulation of response to external stimulus, nuclear envelope, external side of plasma membrane, endocytic vesicle, DNA-binding transcription factor binding, DNA-binding transcription activator activity, DNA-binding transcription activator activity, RNA polymerase II-specific, etc. (Fig. 1D). Moreover, 90 significantly enriched KEGG pathways were identified, including Cytokine-cytokine receptor interaction, Human T-cell leukemia virus 1 infection, Epstein-Barr virus infection, etc. (Fig. 1E).
+
+  Fig. 1Identification and function enrichment analyses of DETEXRGs. (A) Volcano plot of the DEGs in training set; (B) The heatmaps of DEGs; (C) Venn diagram of DETEXRGs; (D) GO function enrichment analyses of DETEXRGs; (E) KEGG enrichment analyses of DETEXRGs
+
+
+### MR analysis
+  In total, 6 genes (NCOA3, PLIN2, FPR1, CASP4, PLSCR1, and LITAF) with significant causal relationships with AD were identified via MR analysis (Table 2). Based on IVW method, significant causal relationships were observed between these six genes and AD(P < 0.05). NCOA3, PLIN2, FPR1, and CASP4 were risk factors for AD (b > 0), while PLSCR1, and LITAF were protective factors for AD (b < 0).
+
+  Table 2MR analysis resultsOutcomeExposureMethodNsnpPvaluebfinn-b-I9 AORTDISeqtl-a-ENSG00000124151(NCOA3)IVW40.0010840220.754537868eqtl-a-ENSG00000147872(PLIN2)IVW60.0209598410.283795903eqtl-a-ENSG00000171051(FPR1)IVW70.0138931980.28926648eqtl-a-ENSG00000188313(PLSCR1)IVW30.023192529-0.320776493qtl-a-ENSG00000189067(LITAF)IVW40.047160473-0.518918974eqtl-a-ENSG00000196954(CASP4)IVW60.0444480680.54551235
+
+
+### Biomarkers acquisition
+  A total of 4 feature genes (CASP4, FPR1, LITAF, and NCOA3) were obtained through LASSO regression analysis (lambda.min = 3e-04) (Fig. 2A). Simultaneously, 2 feature genes (CASP4 and FPR1) were screened via SVM-RFE analysis (Fig. 2B). Subsequently, 2 intersection genes (CASP4 and FPR1) were obtained through the Venn diagram as biomarkers (Fig. 2C). The expression levels of CASP4 and FPR1 were higher in Cases, and the differences between groups were significant in GSE153434 and GSE52093 (Fig. 2D). In addition, ROC curves showed that the AUC values of the 2 biomarkers in both datasets were higher than 0.9, indicating high prediction accuracy (Fig. 2E). A nomogram was established based on 2 biomarkers. The slope of the calibration curve approximated 1, indicating that the nomogram exhibited superior predictive performance (Fig. 2F-G).
+
+  Fig. 2Biomarkers acquisition. (A) LASSO coefficient profile analysis and cross-validation; (B) The relationship between SVM generalization error and feature number; (C) Venn diagram of biomarkers; (D) The expression level of biomarkers between Cases and Controls in GSE153434 and GSE52093; (E) ROC curve of biomarkers in GSE153434 and GSE52093; (F) Nomogram of biomarkers; (G) Calibration curves of the nomogram
+
+
+### GSEA and subcellular localization analysis
+  The function of biomarkers was further verified via the GSEA. CASP4 was predominantly enriched in 90 KEGG pathways, such as spliceosome, vascular smooth muscle contraction, dilated cardiomyopathy, cytokine cytokine receptor interaction, and proteasome, etc. (Fig. S1A). FPR1 was predominantly enriched in 96 KEGG pathways, including ribosome, spliceosome, proteasome, vascular smooth muscle contraction, RNA polymerase, etc. (Fig. S1B). The results of subcellular localization indicated that CASP4 was more likely to be expressed in Cytoplasm and FPR1 was more likely to be expressed in Plasma membrane (Fig. S1C).
+
+
+### Immune infiltration analysis
+  There were 11 immune cell scores that were significantly different between Controls and Cases, and 8 immune cells (Activated dendritic cell, Central memory CD4 T-cell, Mast-cell, MDSC, Memory B cell, Monocyte, Natural killer T-cell, and Type 17 T helper cell) in Cases had a higher infiltration level, and the 3 immune cells (Activated B cell, Eosinophil, and Natural killer cell) in Controls had a higher infiltration level (Fig. S2A). Furthermore, 2 biomarkers exhibited correlations with distinct immune cells (|r| > 0.3). These biomarkers demonstrated positive correlations with immune cells characterized by a high infiltration level in the Cases, and negatively correlated with immune cells featuring a high infiltration level in Controls (Fig. S2B).
+
+
+### Regulatory network and drug prediction
+  A total of 17 TFs associated with 2 biomarkers were obtained. Among these, 14 TFs were related to CASP4, and 5 TFs related to FPR1. FOXC1 and HOXA5 can concurrently regulate CASP4 and FPR1. Moreover, 22 miRNAs associated with both 2 biomarkers were predicted (Fig. S3A). Furthermore, 10 drugs were obtained, of which 9 drugs (CHEMBL, AG-14, TOMINOSTAT, ICED-2, COMPOUND 42, 1G244, REBAMIPIDE, PENICILLIN G POTASSIUM, and COMPOUND 24DD) were related to FPR1 and only 1 drug (EMRICASAN) was related to CASP4 (Fig. S3B).
+
+
+### ScRNA-seq analysis of biomarkers
+  The scRNA-seq data of 9 Cases were read, and the nFeature, nCount, and percent of each sample were shown in Fig. 3A. Then the data were integrated, and 35,750 genes and 88,981 cells were obtained. The core cell gene expression was normalized, and 2000 genes with highly variable expression were identified (Fig. 3B). PCA results showed that cells from different Cases were completely mixed, and there were no outliers or abnormal samples (Fig. 3C). A total of 30 PCs were screened for cell clustering (Fig. 3D). The core cells were separated into 9 major and distinct clusters, encompassing fibroblasts, macrophages and monocytes, mesenchymal cells, smooth muscle cells, endothelial cells, T lymphocytes, Plasmocyte, B lymphocytes, and Mast cells (Fig. 3E). The expression levels of 30 PCs between the 9 different cell clusters were shown (Fig. 3F). In addition, the expression differences of 2 biomarkers between the different cells were analyzed, and CASP4 was expressed in 9 cell clusters, while FPR1 was mainly expressed in macrophages and monocytes and mast cells (Fig. 3G). Finally, the expression of 2 biomarkers was highly in the Cases, which was consistent with the results in the transcriptome (Fig. 3H).
+
+  Fig. 3Single-cell analysis of biomarkers in AD. (A) The nFeature, nCount, and percent analysis in each sample; (B) Degree of variation in each gene; (C) Graphs of PCA cell distribution; (D) Graphs of PCA inflection point; (E) The results of UMAP clustering; (F) Cell annotation bubble diagram; (G) The expression condition of biomarkers; (H) The expression level of biomarkers between groups
+
+
+### Cell communication and pseudotime analysis
+  The cell communication was analyzed, and the interaction between macrophages and monocytes and other cells was both the strongest in Control and Cases, but compared with Cases, the interaction between T lymphocytes and other cells was significantly enhanced in Control (Fig. S4A-B). Furthermore, the cell trajectory of T lymphocytes was constructed. The cells were arranged according to their chronological order, and the dynamic changes of cells over time were presented (Fig. S4C). The results of pseudotime analysis showed there were 7 states in T lymphocytes, and they were equally distributed in different locations of the pseudotime (Fig. S4D). The cell trajectories of T lymphocytes between two groups showed the early differentiated cells accounted for a higher proportion in Controls, and the late differentiated cells were higher in the Cases (Fig. S4E). Finally, the expression of the 2 biomarkers did not exhibit significant exhibit with the exhibit of pseudotime (Fig. S4F).
+
+
+### MR analysis of biomarkers
+  The MR effect size of the CASP4 and FPR1 SNPs was positive, suggesting that they were risk factors for AD (Fig. 4A). The correlation between exposure factors and outcomes was analyzed, and 2 biomarkers had positive slopes, and they were risk factors (Fig. 4B). Based on the IVW method, SNPs of 2 biomarkers were symmetrically distributed on both sides of the IVW line, suggesting that the results were in accordance with Mendel’s second Law (Fig. 4C). Heterogeneity tests were performed using 2 methods (MR-Egger and IVW), and the Q p-value was greater than 0.05, indicating no heterogeneity among these IVs (Table 3). There was no horizontal pleiotropy in MR-Egger analysis (P > 0.05) (Table 4). The leave-one-out analysis demonstrated that no individual single SNP exerted a significant influence on the outcome, suggesting the reliability of the results (Fig. 4D).
+
+  Table 3Heterogeneity testOutcomeExposureMethodQQ_dfQ_pvalfinn-b-I9_AORTDISeqtl-a-ENSG00000171051(FPR1)MR Egger2.310750.8047Inverse variance weighted2.450760.8739eqtl-a-ENSG00000196954(CASP4)MR Egger0.840340.933Inverse variance weighted1.012450.9616
+
+  Table 4Horizontal pleiotropy testOutcomeExposureEgger_interceptsepvalfinn-b-I9_AORTDISeqtl-a-ENSG00000171051(FPR1)0.02260.06050.7236eqtl-a-ENSG00000196954(CASP4)0.05550.13370.6995
+
+  Fig. 4MR analysis of biomarkers. (A) Effect forest plots of exposure factor related SNPs; (B) Scatter plot of MR analysis; (C) Funnel diagram of MR analysis; (D) The result of leave-one-out analysis method
+
+
+### Expression levels validation
+  The expression levels of COA3, PLIN2, FPR1, PLSCR1, CASP4, and LITAF showed significant differences between Controls and AD, and the expression levels of 6 genes were higher in the AD by qRT-PCR (Fig. S5).
+
+
+## Discussion
+  Aortic dissection (AD), a life-threatening cardiovascular emergency, is characterized by the compression of the true lumen and high mortality rates [28]. TEX, a state of dysfunctional T-cell activity, has been implicated in immune-related adverse events (irAEs) [29]. Notably, terminally exhausted T cells exhibit high expression of PD-1 within atherosclerotic lesions, and their reactivation may exacerbate atherosclerotic progression [30]. Nevertheless, the role of TEX in AD pathogenesis remains inadequately understood. Meanwhile, several biomarkers—such as smMHC [13], calponin [14], sELAF [15] have shown diagnostic relevance in AD [31]. Based on these observations, this study aims to identify novel TEX-related biomarkers in AD by integrating three GEO datasets, GWAS summary statistics, and eQTL data.
+
+  In this study,, we identified 270 DETEXRGs by overlapping 3229 DEGs and 683 TEXRGs. Subsequently, a batch MR Analysis was performed with 270 DETEXRGs (eQTL data) as exposure factors, of which 6 genes (NCOA3, PLIN2, FPR1, CASP4, PLSCR1, and LITAF) could directly affect the occurrence of AD. Among them, COA3, PLIN2, FPR1, and CASP4 were risk factors for AD (b > 0), while PLSCR1 and LITAF were protective factors for AD (b < 0). Then, CASP4 and FPR1 were identified as biomarkers through LASSO and SVM-RFE algorithms. In both the GSE153434 and GSE52093 datasets, the expression levels of biomarkers were up-regulated in AD group. Specially, CASP4 and FPR1 had positive correlation with Central memory CD4 T cells, Natural killer T cells, and Type 17 T helper cells. In the GSE213740 datasets, both CASP4 and FPR1 exhibited high expression levels in AD group. At the end of T lymphocytes differentiation, AD (state 5) and control (state 6) had presented two distinct differentiation states. Furthermore, sensitivity tests in MR further demonstrated the dangerous role of these two genes in AD. Ultimately, the qPCR assays indicated that the expression levels of CASP4 and FPR1 were much higher in AD group.
+
+  Caspase 4 (CASP4), a member of the cysteine-aspartic acid protease (caspase) family, plays a critical role in inducing cell pyroptosis through cleaving gasdermin D (GSDMD) protein to release its N-terminal domain [32]. Sun et al. [33] further confirmed transfection of lipopolysaccharide (LPS) into human aortic ECs (HAECs) can activate CASP4 and increase the expression of N-GSDMD on the plasma membrane. Additionally, Chen et al. [34] reported CASP4 was over-expressed in AD group by LASSO analysis and AD mouse model. Additionally, macrophage-EV/siHMGB can effectively prevent the formation of atherosclerotic plaque by inhibiting the release of HMGB1 and LPS-induced CASP11 activation [35]. In the present study, the expression level of CASP4 was up-regulated in AD. Meanwhile, MR analysis verified its role as a risk factor for occurrence of AD. Furthermore, the specific action mechanism of CASP4 in AD remains to be further explored.
+
+  Formyl peptide receptor-1 (FPR1) is a pathogen recognition receptor, which belongs to G protein-coupled receptors (GPCRs) family [36]. GPCRs are the most important regulators of heart function and are frequently targeted in therapeutic interventions [37]. The FPRs family contains three members (FPR1, FPR2, and FPR3), which are widely expressed across various tissues and cell types. These receptors play regulatory roles in multiple biological functions, including angiogenesis, cell proliferation, and the prevention of cell death [38]. FPR1, characterized by the typical seven-transmembrane structure of GPCRs, is involved in host defense, inflammatory response, immune cell recruitment, and cellular signaling regulation, etc [39]. FPR1-mediated signaling is vital in neurological tumors [39], myocardial infarction (MI) [40], neurodegenerative diseases [41], myocardial ischemia-reperfusion (I/R) injury [42]. The expression level of FPR1 was significantly elevated in patients with I/R injury, and FPR1 silencing reduces inflammation, cardiomyocyte apoptosis and ventricular remodeling in I/R injury by inhibiting MAPK signaling pathway [42]. In our study, FPR1 was found to be over-expressed in AD and identified as a risk factor for AD in MR analysis. Nevertheless, the specific mechanistic role of FPR1 in AD pathogenesis remains to be directly elucidated and warrants further investigation.
+
+  To the best of our knowledge, T lymphocytes comprise numerous subtypes, each playing distinct roles in immune regulation. Our scRNA-seq results revealed that the terminal differentiation states of T lymphocytes in AD patients markedly differed from those in healthy controls. Recent studies have shown that patients with AD have reduced T-cell levels and increased B cell count [43]. Notably, the apoptosis rates of both CD4 + and CD8 + T cells were much higher in AD patients compared to healthy controls [44]. The exhausted CD4 + T cells due to apoptosis can lead to lymphocytopenia before AD, which leads to poor prognosis in AD patients after surgery [45]. Consistent with these findings, the infiltration of T cells in AD group was significantly lower than that in control group, which further underscored the dysregulation of T-cell homeostasis in AD pathogenesis.
+
+  In conclusion, we identified two TEX-related biomarkers (CASP4 and FPR) for AD patients, which provided potential help for diagnosis of AD. Despite the promising findings, our study has several limitations. Firstly, the sample sizes of the used public datasets are relatively small, reflecting the rarity of AD. We have validated key findings by qRT-PCR in an independent cohort, but larger-scale studies are still required. Secondly, the biomarkers were generated by bioinformatics analysis using retrospective data from public databases. Therefore, it should be validated in more prospective in the future. Thirdly, the lack of an animal model for simulating perioperative pathology in patients with AD restricts the clinical applicability of our findings. Future research involving larger clinical sample sizes and animal models is necessary to further verify the diagnostic utility of the above two biomarkers.
+
+
+## Supplementary Information
+  Below is the link to the electronic supplementary material.
+
+  Supplementary Material 1.
+
+
+## Acknowledgements
+  This supplement will not be possible without the support of the Department of Cardiovascular Surgery, the First Affiliated Hospital of Zhengzhou University.

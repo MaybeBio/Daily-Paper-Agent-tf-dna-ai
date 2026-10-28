@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, methods, appendices, and data availability statements.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and adequacy of evidence as presented in the provided text. No external data or code were accessed.
+- **Shared manuscript claim summary** The authors propose HomoDSP, a template-retrieval-based framework that uses predicted homologous protein-DNA complex structures to improve DNA-binding specificity prediction. They claim consistent improvements over single-structure baselines across benchmark, external, AF3-predicted, and uPBM validation settings, with interpretability analyses supporting the mechanistic role of homologous templates.
+- **Visible evidence base** Text descriptions of results, figures referenced (Fig. 1-6, Fig. A1), methods sections, and appendix descriptions. No actual figures, tables, or numerical results are visible in the provided material.
+- **Missing materials affecting confidence** All figures, tables, and quantitative results are absent. The benchmark dataset details, JASPAR 2026 sample construction, and uPBM data processing are described but not shown. Code and database availability are stated but not verifiable from this material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in structural bioinformatics and presents a plausible framework with a reasonable rationale. The central hypothesis, that homologous protein-DNA interfaces provide complementary information for specificity prediction, is well motivated. However, the provided text is largely descriptive and lacks the quantitative evidence needed to evaluate the strength of the claims. The methods are described at a level that suggests technical competence, but the absence of results, figures, and statistical details prevents a rigorous assessment of whether the proposed improvements are real, general, or significant.
+- **Who would be interested in the results, and why** Researchers in computational biology, structural bioinformatics, and gene regulation would be interested. Specifically, those working on transcription factor binding specificity prediction, protein-DNA interaction modeling, and the application of predicted structures to functional genomics. The potential to use predicted structures at scale is timely given the widespread adoption of AlphaFold-class models.
+- **Major strengths** The problem is important and timely. The idea of using homologous templates to augment single-structure information is conceptually sound and distinct from simple nearest-neighbor transfer. The authors address practical concerns including template confidence, retrieval count, and robustness to predicted input structures. The inclusion of uPBM validation on designed proteins is a valuable addition that goes beyond standard benchmark evaluation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that HomoDSP outperforms existing methods in accuracy and generalization, with substantial gains on high-error samples.
+  - **Evidence pointer** Results sections "Comparison with existing structure-based predictors" and "Validity of homologous template databases"; figures referenced as Fig. 3a,b,d
+  - **Concern** The central performance claims are made without any visible quantitative data. No numerical values for MAE, RMSE, PCC, Spearman correlation, or AUROC are provided in the text. The descriptions of "outperforms," "substantial gains," and "modest degradation" are not supported by any reported statistics, confidence intervals, or significance tests. The reader cannot assess the magnitude, consistency, or statistical reliability of the reported improvements.
+  - **Why it matters** The core contribution of the paper is a claimed improvement in prediction accuracy. Without quantitative evidence, the primary claim is unverifiable from the provided material. This is a blocking issue because the entire case for the method rests on these results.
+  - **Resolution test** Provide the actual performance metrics for all methods and conditions in tabular form, including per-family breakdowns, error distributions, and appropriate statistical tests (e.g., paired tests across samples). Show the high-error sample analysis with clear definitions of "high-error" and the distribution of improvements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript describes the template retrieval and integration process, and the construction of the predicted homologous complex database.
+  - **Evidence pointer** Methods sections "The predicted homologous complex database" and "Template-enhanced geometric neural networks"; Appendix A
+  - **Concern** The description of the template retrieval process is underspecified. The text states that homologous sequences are retrieved and paired with DNA from anchor complexes, but does not specify the search method, the sequence identity thresholds, the definition of "homologous," or how the DNA fragment is chosen when multiple DNA molecules are present. The alignment procedure between query and template structures is mentioned but not detailed. The template-interface encoder is described as using "masked statistical pooling with a learned residue-importance score," but the exact architecture, the nature of the pooling, and how the importance score is learned are not specified. The weighting by structural matching scores is mentioned but the score definition is not given.
+  - **Why it matters** The method is the contribution. If the retrieval and integration steps are not reproducible from the description, the work cannot be validated or built upon. The current level of detail is insufficient for replication.
+  - **Resolution test** Provide a complete algorithmic description of the retrieval, alignment, and feature extraction steps. Specify all thresholds, scoring functions, and architectural details. Ideally, provide pseudocode or a detailed algorithm box. The appendix should be expanded to a level that allows independent reimplementation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline fairness and comparison validity
+  - **Claim pointer** The manuscript claims that HomoDSP outperforms DeepPBS and NA-MPNN.
+  - **Evidence pointer** Results section "Comparison with existing structure-based predictors"; Fig. 3a,b
+  - **Concern** The comparison with NA-MPNN is described as a "re-implementation using the same dataset." It is unclear whether this re-implementation is faithful to the original method, whether hyperparameters were tuned fairly, and whether the same training and evaluation protocols were used. The comparison with DeepPBS appears to use the original method, but the text does not state whether the same train-test splits, data preprocessing, and evaluation metrics were used. The observation that HomoDSP has lower MAE but higher RMSE than NA-MPNN suggests a different error distribution, which is not discussed in terms of practical implications.
+  - **Why it matters** Unfair or inconsistent baselines can inflate apparent improvements. The RMSE/MAE discrepancy hints at a heavier tail, which could be problematic for certain applications. The reader needs to know that the comparison is apples-to-apples.
+  - **Resolution test** Clarify the NA-MPNN re-implementation details, including any modifications. State explicitly the shared data splits, preprocessing, and evaluation protocols. Discuss the MAE/RMSE discrepancy and its practical meaning. Consider reporting additional metrics such as median error or quantiles.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and external validity
+  - **Claim pointer** The manuscript claims that HomoDSP generalizes to newly released JASPAR 2026 samples and to AI-designed proteins.
+  - **Evidence pointer** Results sections "Comparison with existing structure-based predictors" and "uPBM validation on AI-designed DBPs"; Fig. 6
+  - **Concern** The JASPAR 2026 set contains only 33 samples from 21 unique structures. This is a small set, and the text does not report the distribution of results across these samples or the uncertainty in the aggregate metrics. The uPBM validation is limited to seven designed proteins, and the analysis is presented for one representative position in one protein (DBP48). The text does not report how many of the seven proteins showed improvement, the magnitude of improvement across all proteins, or whether the failure mode corrected in DBP48 was observed in others.
+  - **Why it matters** Small external sets can give misleading estimates of generalization. The uPBM analysis is presented as a key validation, but the evidence shown is anecdotal. The reader cannot judge whether the method reliably helps for designed proteins or only in this one case.
+  - **Resolution test** Report full results for all 33 JASPAR 2026 samples and all seven uPBM proteins, including per-sample and per-protein metrics. Provide confidence intervals or bootstrap estimates. For the uPBM analysis, show the distribution of improvements and the frequency of the failure mode across all designed proteins.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability claim strength
+  - **Claim pointer** The manuscript claims that gradient-based attribution shows HomoDSP improves predictions by focusing on DNA-affinity residues across multiple homologous templates.
+  - **Evidence pointer** Results section "Template attribution explains HomoDSP rescue of baseline failures"; Fig. 4
+  - **Concern** The interpretability analysis is presented for three examples. The text describes which residues had high attribution but does not provide a quantitative comparison against a null distribution or a control condition. It is unclear whether the identified residues are significantly more attributed than would be expected by chance, or whether the attribution patterns are specific to the corrected predictions. The claim that "local geometry and atom-level DNA-context features dominated" is based on feature-block attribution, but the text does not report the actual values or how dominance was determined.
+  - **Why it matters** Interpretability claims are often used to support the mechanistic plausibility of a method. If the attribution analysis is not quantitatively grounded, the claim that the method works by a specific mechanism is not established.
+  - **Resolution test** Provide quantitative attribution summaries for all three examples, including the distribution of attribution scores across residues and feature blocks. Compare against a control, such as attribution for a randomly initialized model or for the baseline method. Report whether the identified residues are known DNA-contacting residues from the structure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first paragraph of Introduction
+  - **Issue** The phrase "homologous protein-DNA interfaces provide complementary structural evidence" is used repeatedly without a precise definition of "homologous" in this context. The distinction between sequence homology, structural homology, and functional homology is not made.
+  - **Required correction** Define the term "homologous" as used in this work, and clarify whether the templates are homologous by sequence, by structure, or by domain family.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Implementation details"
+  - **Evidence pointer** Methods section "Implementation details"
+  - **Issue** The loss function is described with an equation placeholder, but the actual equation is not rendered in the text. The hyperparameters λ PWM and λ IC are mentioned but their values are not given.
+  - **Required correction** Provide the full loss equation and the values of all hyperparameters. State the number of training epochs, learning rate schedule, and any early stopping criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Performance on AF3-predicted structures"
+  - **Evidence pointer** Fig. 5c
+  - **Issue** The text reports Spearman correlations of -0.19 and -0.12 between confidence metrics and error, with a p-value for one of them. The practical significance of these weak correlations is not discussed.
+  - **Required correction** Discuss whether these correlations are practically useful for filtering or quality control, and report confidence intervals for the correlation estimates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods, "uPBM data processing"
+  - **Evidence pointer** Methods section "uPBM data processing"
+  - **Issue** The text states that the best-matching 7-bp window was selected by highest Spearman correlation. It is not stated whether this selection was done independently for each model, which could introduce a bias favoring models with more flexible outputs.
+  - **Required correction** Clarify whether the window selection was fixed across models or optimized per model, and discuss the potential for overfitting in this selection step.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative results), R1-M2 (insufficient methodological detail for replication), R1-M3 (baseline fairness unclear).
+- **Assessment against Nature-style criteria** Originality: The idea of using homologous template interfaces is a reasonable extension of existing structure-based methods, but the conceptual novelty is incremental. The construction of a large predicted homologous complex database is a useful resource, but the approach is a natural combination of existing tools. Scientific importance: The problem is important, and the potential to improve specificity prediction using predicted structures is valuable. However, the importance of the specific contribution cannot be assessed without quantitative evidence. Interdisciplinary readership: The topic is of interest to computational biologists and molecular biologists, but the presentation is technical and would not be accessible to a broad interdisciplinary audience without significant simplification. Technical soundness: The described architecture is plausible, but the lack of detail and results prevents an assessment of technical soundness. Readability for nonspecialists: The manuscript is written for a specialist audience and assumes familiarity with structure prediction, geometric deep learning, and PWM models. The abstract is accessible but the body is dense.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible framework and a reasonable motivation, but the absence of quantitative results and the insufficient methodological detail prevent a determination of whether the claims are valid. The authors should provide the full results, detailed methods, and a fair comparison with baselines before the case can be evaluated.

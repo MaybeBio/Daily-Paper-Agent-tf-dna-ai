@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors propose that directed evolution of the linker helix (LH) connecting effector- and DNA-binding domains in LysR-type transcriptional regulators (LTTRs) is an efficient and universal strategy for engineering whole-cell biosensors. They support this with molecular dynamics simulations of LysG, directed evolution yielding variants with extended operational range and unaltered effector specificity, demonstration of improved performance in high-throughput screening and dynamic regulation of L-lysine biosynthesis, and transferability to another LTTR, BenM.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, simulation details, directed evolution library design and screening data, characterization of variant performance, specificity assays, application data for high-throughput screening and dynamic regulation, and data for BenM engineering
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially broadly applicable strategy for engineering LTTR-based biosensors. The central claim, that LH engineering is efficient and universal, is plausible given the conserved structure of LTTRs, but the evidence base provided is insufficient to rigorously evaluate the strength of the claims. The abstract reports outcomes without quantitative data, statistical support, or experimental details, limiting the ability to assess technical soundness and reproducibility. The work is likely to interest the biosensor and synthetic biology communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in whole-cell biosensor development, metabolic engineering, and synthetic biology would be interested because the strategy offers a potential alternative to effector-binding domain engineering, which is often limited by domain size and specificity risks. The claim of universality across LTTRs, the largest family of prokaryotic transcriptional regulators, could have broad applicability for environmental monitoring, high-throughput screening, and dynamic pathway regulation.
+- **Major strengths** The proposed strategy addresses a known limitation in transcriptional regulator engineering, namely the difficulty of diversifying large effector-binding domains. The use of molecular dynamics simulation to identify the linker helix as a key structural element provides a rational basis for engineering. The demonstration of transferability to a second LTTR, BenM, supports the claim of generality, though details are not provided.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Directed evolution of LH efficiently produced LysG variants with extended operational range and unaltered effector specificity.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that directed evolution of LH produced variants with extended operational range and unaltered specificity, but no quantitative data are provided. There is no information on the number of variants screened, the magnitude of the operational range extension, the assay conditions, or how specificity was assessed. Without these details, the efficiency and specificity claims cannot be evaluated.
+  - **Why it matters** The core value of the strategy depends on demonstrating that LH mutations improve biosensor performance without compromising specificity. If the operational range extension is marginal or specificity is only partially retained, the practical utility of the approach would be diminished.
+  - **Resolution test** Provide quantitative data on operational range (e.g., dynamic range, limit of detection, EC50 values) for wild-type and variant LysG, and specificity data against a panel of structurally related effectors, with appropriate statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The whole-cell biosensor based on the best LysG(E58V) variant outperformed the wild-type LysG in enzyme high-throughput screening and dynamic regulation of L-lysine biosynthetic pathway.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract claims superior performance in two applications but provides no metrics, such as screening accuracy, false positive or negative rates, or improvements in product titer or yield. The term "outperformed" is vague and unsupported without comparative data.
+  - **Why it matters** Application performance is a key selling point for biosensor engineering. Without quantitative comparisons, it is unclear whether the improvement is meaningful for practical use or merely statistically significant but operationally negligible.
+  - **Resolution test** Include data on screening performance (e.g., enrichment factors, correlation with reference assays) and dynamic regulation outcomes (e.g., final titers, productivity) comparing LysG(E58V) and wild-type LysG under identical conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** LH engineering was also successfully applied to optimize another LTTR BenM for biosensing.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The transferability claim is central to the universality argument, but no details are given on how BenM was engineered, what performance improvements were achieved, or whether specificity was maintained. The abstract provides only a single sentence, which is insufficient to support the claim.
+  - **Why it matters** The universality claim is a major part of the paper's significance. If the BenM example is limited or unsuccessful in key aspects, the generalizability of the strategy would be weakened.
+  - **Resolution test** Provide data on BenM variant performance, including operational range, specificity, and any application demonstrations, with sufficient detail to assess the success of the transfer.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic support
+  - **Claim pointer** LH mutations are suggested to affect DNA binding and facilitate transcriptional activation upon effector binding.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The mechanistic suggestion is presented without supporting evidence. It is unclear whether this is based on additional simulations, biochemical assays, or structural data. The abstract does not specify the nature of the evidence.
+  - **Why it matters** A mechanistic understanding would strengthen the rational basis for the strategy and help predict which LH residues to target in other LTTRs. Without evidence, the suggestion remains speculative.
+  - **Resolution test** Provide experimental or computational data, such as DNA binding affinity measurements, transcriptional activation assays, or structural analyses, that directly test the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "efficiently produced" is subjective and not defined. It is unclear whether efficiency refers to the number of variants screened, the success rate, or the time required.
+  - **Required correction** Define "efficient" with specific metrics, such as the number of variants screened per improved hit or the success rate of the directed evolution campaign.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The molecular dynamics simulation is mentioned as suggesting the role of LH, but no details are given on the simulation system, timescale, or analysis methods.
+  - **Required correction** Briefly describe the simulation setup and the key observations that led to the hypothesis, or refer to methods and supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim of universality
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The claim that LH engineering is "universal" is based on only two LTTR examples. While the conserved structure supports plausibility, two examples may not be sufficient to establish universality.
+  - **Required correction** Soften the claim to "potentially universal" or provide additional examples or a broader analysis of LH conservation across LTTRs.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the core claims of efficiency, application performance, and transferability are not supported by quantitative data in the abstract. R1-M4 is non-blocking but requires additional evidence to support the mechanistic suggestion.
+- **Assessment against Nature-style criteria** Originality: The strategy of targeting the linker helix is a novel angle compared to conventional effector-binding domain engineering, and the abstract presents it as a general approach. Scientific importance: If fully validated, the strategy could have broad impact on biosensor development, but the current evidence is insufficient to assess the magnitude of the contribution. Interdisciplinary readership: The work bridges protein engineering, synthetic biology, and metabolic engineering, and would appeal to a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative data and methodological details is a significant limitation. Readability for nonspecialists: The abstract is generally clear, but terms like "operational range" and "dynamic regulation" could be better defined for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising concept, but the absence of quantitative data and methodological details prevents a rigorous evaluation. The authors should provide full experimental data to support the claims of efficiency, performance, and universality.
+
+## Risk / unsupported claims
+- The claim that directed evolution of LH "efficiently" produced variants is unsupported without screening metrics.
+- The claim that the LysG(E58V) biosensor "outperformed" wild-type in applications is unsupported without comparative data.
+- The claim that LH engineering was "successfully" applied to BenM is unsupported without details on outcomes.
+- The mechanistic suggestion that LH mutations affect DNA binding and transcriptional activation is unsupported without direct evidence.
+- The claim of universality across LTTRs is weakly supported by only two examples and requires broader validation.

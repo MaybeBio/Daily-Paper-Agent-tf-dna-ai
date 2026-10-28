@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors report QM/MM umbrella sampling simulations at the DFTB3/MM level to study covalent inhibition of the bacterial transcription factor OxyR by four proposed inhibitors. They claim that the potential of mean force reveals the direct role of intrinsic inhibitor reactivity, that proton transfer is indispensable for full inhibition, that a nitrile inhibitor follows a stepwise mechanism with a small proton-transfer barrier and lower imaginary frequencies, that transition states were optimized and characterized at B3LYP 6-31+G(d,p), and that post-simulation analysis identifies a catalytic triad (His130/Cys199/Thr129) thermodynamically favored for inhibition, restricting water as a proton source.
+- **Visible evidence base** Abstract text only; no numerical data, figures, tables, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational details (system setup, simulation protocols, convergence criteria, error estimates), transition state characterization data, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on covalent inhibition of OxyR, a target of biological relevance. However, the claims are stated with a level of certainty that the visible evidence cannot support. Key mechanistic assertions, such as the role of proton transfer and the stepwise mechanism for the nitrile inhibitor, are presented without quantitative data or error analysis. The abstract also contains internal inconsistencies in terminology and lacks sufficient methodological context to assess technical soundness. The work may be of interest to computational chemists and chemical biologists working on covalent inhibitor design, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Computational chemists studying enzyme reaction mechanisms with QM/MM methods would be interested in the methodological application. Chemical biologists and medicinal chemists working on antibacterial targets, particularly those focused on redox-regulated transcription factors and covalent inhibitor design, would find the target and warhead modulation concepts relevant. The study could also appeal to researchers interested in the chemistry of cysteine oxidation and proton transfer in enzymatic environments.
+- **Major strengths** The target is biologically meaningful and underexplored for covalent inhibition. The use of QM/MM umbrella sampling to obtain free energy profiles is an appropriate approach for studying reaction mechanisms. The consideration of multiple warhead types and the focus on proton transfer kinetics as a design principle is a thoughtful angle. The identification of a catalytic triad that may restrict water-mediated protonation is a testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the potential of mean force reveals the direct role of intrinsic reactivity of inhibitors and that proton transfer is indispensable for full inhibition.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that proton transfer is "indispensable for full inhibition" but provides no quantitative free energy barriers, no comparison of barrier heights across inhibitors, and no error estimates for the PMF calculations. The claim of indispensability requires demonstration that alternative pathways are significantly disfavored, which is not shown.
+  - **Why it matters** The central mechanistic conclusion rests on this claim. Without quantitative PMF data and a demonstration that the proton transfer step is rate-limiting or thermodynamically required, the conclusion is unsupported. The term "indispensable" is a strong claim that requires comparative analysis of pathways with and without proton transfer.
+  - **Resolution test** Provide PMF profiles with error bars for all four inhibitors, identify the rate-limiting step for each, and show that blocking proton transfer (e.g., via mutation or solvent exclusion) abolishes or severely reduces inhibition in the simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the nitrile inhibitor undergoes a stepwise mechanism with a small proton-transfer energy barrier and lower imaginary frequencies that materialize instantly after nucleophilic attack.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of a "stepwise mechanism" and "lower imaginary frequencies" is presented without any numerical values. The phrase "materialize instantly" is vague and not a standard scientific descriptor. No comparison is made to the other inhibitors' mechanisms, so the reader cannot assess what "lower" refers to.
+  - **Why it matters** The mechanistic distinction between stepwise and concerted pathways is a key finding. Without barrier heights, imaginary frequency values, and a comparative context, the claim is not verifiable. The use of imprecise language undermines the scientific rigor of the report.
+  - **Resolution test** Provide the activation free energies for each step, the imaginary frequency values for all transition states, and a clear comparison table showing the mechanistic differences across the four inhibitors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that transition states were optimized and characterized with B3LYP 6-31+G(d,p).
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that transition states were optimized at B3LYP 6-31+G(d,p), but the QM/MM simulations were performed at the DFTB3/MM level. The relationship between these two levels is not explained. It is unclear whether the B3LYP optimizations were single-point refinements, full re-optimizations in the MM environment, or gas-phase calculations. The level of theory used for the PMF and the level used for transition state characterization must be consistent or clearly justified.
+  - **Why it matters** The reliability of the reported barriers and mechanisms depends on the level of theory. Mixing DFTB3 and B3LYP without a clear protocol raises questions about the consistency of the free energy surfaces and the validity of the transition state characterization.
+  - **Resolution test** Describe the exact protocol for how B3LYP was used relative to the DFTB3/MM simulations, including whether the QM region, the MM environment, and the free energy corrections were handled consistently. Provide benchmark data or justification for the chosen levels.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the catalytic triad (His130/Cys199/Thr129) is thermodynamically favored for inhibition and restricts water molecules from acting as a potential source of protonation/deprotonation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that the triad is "thermodynamically favored" is not supported by any thermodynamic data in the abstract. The statement that water is restricted from acting as a proton source is a strong mechanistic conclusion that would require explicit free energy calculations comparing water-mediated and triad-mediated proton transfer pathways.
+  - **Why it matters** This claim has direct implications for inhibitor design, as it suggests a specific proton transfer pathway. If the evidence is weak, the design implications are premature. The abstract does not provide the necessary comparative data.
+  - **Resolution test** Provide free energy profiles for proton transfer via the triad versus via water, with error estimates, and show that the triad pathway is significantly favored. Also provide structural evidence (e.g., distances, hydrogen bonding) that water is excluded from the active site.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "warhead-activated carbonyl samples" and "materialize instantly" that are either unclear or nonstandard. The phrase "modified experimental inhibitors with methyl oxo-enoate warhead-activated carbonyl samples" is difficult to parse.
+  - **Required correction** Rewrite for clarity. Define "warhead" in context, and replace "materialize instantly" with a quantitative or standard kinetic descriptor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methodological description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the size of the QM region, the number of umbrella sampling windows, the simulation time per window, or the convergence criteria for the PMF. These details are essential for reproducibility.
+  - **Required correction** Include these details in the abstract or indicate that they are provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that H(2)O(2) is "dispensable for bacterial growth that can potentially mitigate drug resistance," which is confusing. The relationship between H(2)O(2), OxyR, and drug resistance is not clearly articulated.
+  - **Required correction** Clarify the biological rationale. Explain how targeting OxyR could affect drug resistance and why this is significant.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient quantitative data, methodological consistency, or comparative analysis to support the central mechanistic claims.
+- **Assessment against Nature-style criteria** Originality: The application of QM/MM umbrella sampling to OxyR covalent inhibition is a reasonable extension of existing methods to a new target, but the abstract does not demonstrate a novel methodological advance. Scientific importance: The target is relevant, but the abstract does not establish why these findings would change the understanding of OxyR inhibition or guide inhibitor design in a way that is not already known. Interdisciplinary readership: The abstract is written for a specialist computational chemistry audience and would not be accessible to a broader biological or chemical readership. Technical soundness: The lack of quantitative data, error analysis, and methodological consistency prevents assessment of technical soundness. Readability for nonspecialists: The abstract is not clear for nonspecialists due to jargon and imprecise language.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses but does not provide the data needed to evaluate the claims. A revised abstract with quantitative results, clear methodological descriptions, and precise language could change this assessment.
+
+## Risk / unsupported claims
+- The claim that proton transfer is "indispensable for full inhibition" is unsupported without comparative free energy data.
+- The claim that the nitrile inhibitor undergoes a "stepwise mechanism with a small proton-transfer energy barrier and lower imaginary frequencies" is unsupported without numerical values.
+- The claim that the catalytic triad is "thermodynamically favored" and restricts water as a proton source is unsupported without comparative free energy calculations.
+- The biological significance of OxyR as a target for mitigating drug resistance is stated but not substantiated with evidence or context.
+- The relationship between the DFTB3/MM PMF calculations and the B3LYP transition state optimizations is unclear and potentially inconsistent.

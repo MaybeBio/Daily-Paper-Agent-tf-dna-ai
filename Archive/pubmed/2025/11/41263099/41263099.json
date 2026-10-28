@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "41263099",
+    "doi": "10.1093/nar/gkaf1188",
+    "title": "The PROSITE database for protein families, domains, and sites."
+  },
+  "content": {
+    "abstract": "PROSITE (https://prosite.expasy.org/) is a database of entries documenting protein domains, families, and functional sites, along with the associated patterns and profiles used to identify them. It is complemented by ProRule, a rule collection that enhances the discriminatory power of these profiles and patterns by providing additional information about amino acids critical for function and/or structure. Together, PROSITE motifs and ProRules are used to annotate domains and features in UniProtKB/Swiss-Prot entries. Since the onset of the COVID-19 pandemic, PROSITE has contributed to SARS-CoV-2 research by leveraging existing tools and by developing new profiles and ProRules for SARS-CoV-2 protein domains. A newly developed profile has also uncovered a link between coregulators of two transcription factor families: POU2F and NF-kappaB. ProRule has been updated to incorporate the ChEBI ontology to describe chemical ligands and the Rhea reference vocabulary for biochemical reaction annotation. Predicted tridimensional (3D) structures from AlphaFold are now regularly used to define domain boundaries during profile construction. ScanProsite has been enhanced to allow users to visualize motif matches on AlphaFold-predicted structures. In addition, the original pfsearch code has been fully rewritten and optimized to make efficient use of modern multi-core processors, with a new heuristic implemented to further improve performance.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Databases, Protein",
+      "SARS-CoV-2/chemistry",
+      "*Protein Domains",
+      "COVID-19/virology",
+      "Humans",
+      "*Viral Proteins/chemistry/genetics",
+      "*Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sigrist, Christian J A",
+        "Cuche, Beatrice A",
+        "de Castro, Edouard",
+        "Coudert, Elisabeth",
+        "Redaschi, Nicole",
+        "Bridge, Alan"
+      ],
+      "short_names": [
+        "Sigrist CJA",
+        "Cuche BA",
+        "de Castro E",
+        "Coudert E",
+        "Redaschi N",
+        "Bridge A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4348-0070",
+        "ORCID: 0000-0003-4364-6779",
+        "ORCID: 0000-0001-5436-7383",
+        "ORCID: 0000-0001-8314-404X",
+        "ORCID: 0000-0001-8890-2268",
+        "ORCID: 0000-0003-2148-9135"
+      ],
+      "affiliations": [
+        "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Medical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland.",
+        "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Medical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland.",
+        "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Medical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland.",
+        "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Medical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland.",
+        "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Medical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland.",
+        "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Medical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sigrist, Christian J A",
+        "short_name": "Sigrist CJA",
+        "identifiers": [
+          "0000-0002-4348-0070"
+        ],
+        "affiliations": [
+          "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Médical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Cuche, Béatrice A",
+        "short_name": "Cuche BA",
+        "identifiers": [
+          "0000-0003-4364-6779"
+        ],
+        "affiliations": [
+          "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Médical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland."
+        ]
+      },
+      {
+        "full_name": "de Castro, Edouard",
+        "short_name": "de Castro E",
+        "identifiers": [
+          "0000-0001-5436-7383"
+        ],
+        "affiliations": [
+          "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Médical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Coudert, Elisabeth",
+        "short_name": "Coudert E",
+        "identifiers": [
+          "0000-0001-8314-404X"
+        ],
+        "affiliations": [
+          "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Médical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Redaschi, Nicole",
+        "short_name": "Redaschi N",
+        "identifiers": [
+          "0000-0001-8890-2268"
+        ],
+        "affiliations": [
+          "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Médical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Bridge, Alan",
+        "short_name": "Bridge A",
+        "identifiers": [
+          "0000-0003-2148-9135"
+        ],
+        "affiliations": [
+          "Swiss-Prot Group, Swiss Institute of Bioinformatics (SIB), Centre Médical Universitaire (CMU), 1 rue Michel Servet, CH-1211Geneva 4, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/20 06:26",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42643537",
+      "42444349",
+      "42283633",
+      "42283034",
+      "42249657",
+      "42239416",
+      "42193237",
+      "41618727",
+      "41431842"
+    ],
+    "refs": [
+      "39565202",
+      "39552041",
+      "38309274",
+      "37933859",
+      "36851546",
+      "36484697",
+      "36420884",
+      "35576971",
+      "35458435",
+      "34755880",
+      "34265844",
+      "32399560",
+      "32130973",
+      "32015507",
+      "29788355",
+      "28875543",
+      "26467479",
+      "25348399",
+      "23908659",
+      "23505298",
+      "23161676",
+      "18547428",
+      "16845026",
+      "16734561",
+      "16513645",
+      "16381852",
+      "16091411",
+      "15130850",
+      "14681377",
+      "14681372",
+      "12230035",
+      "11159333",
+      "10541551",
+      "9342320",
+      "8594577",
+      "7584418",
+      "7511453",
+      "3474607",
+      "2041810"
+    ],
+    "similar": [
+      "41263099",
+      "23161676",
+      "19858104",
+      "18003654",
+      "16091411",
+      "16845026",
+      "16381852",
+      "12230035",
+      "23505298",
+      "14681377",
+      "34779073",
+      "10592245",
+      "9018603",
+      "33237325",
+      "11752303",
+      "11159333",
+      "33137182",
+      "15608177",
+      "11125043",
+      "31688925",
+      "15130850",
+      "33156333",
+      "12230031",
+      "33237286",
+      "34462960",
+      "34755880",
+      "12824418",
+      "18287689",
+      "30272209",
+      "36484697",
+      "30357350",
+      "39672676",
+      "18849571",
+      "39565202",
+      "9847199",
+      "26519399",
+      "40455157",
+      "41431842",
+      "27899672",
+      "12520024",
+      "17202162",
+      "32418327",
+      "39540428",
+      "18175334",
+      "12520011",
+      "39197652",
+      "35022216",
+      "12824319",
+      "25348399",
+      "12767941",
+      "33605735",
+      "36539305",
+      "15215405",
+      "33102591",
+      "11522919",
+      "33103435",
+      "23193261",
+      "37933859",
+      "33216893",
+      "11119311",
+      "32981130",
+      "9847184",
+      "34960694",
+      "33445429",
+      "18940856",
+      "34072181",
+      "33125078",
+      "9399865",
+      "18025686",
+      "9697225",
+      "14594458",
+      "10592178",
+      "10751683",
+      "15707838",
+      "15888679",
+      "34118359",
+      "33400927",
+      "12520052",
+      "39565206",
+      "12824383",
+      "15108278",
+      "36269348",
+      "34664328",
+      "36243970",
+      "10383472",
+      "15119965",
+      "33625752",
+      "34435953",
+      "18931379",
+      "17049409",
+      "17206849",
+      "32890396",
+      "17570144",
+      "19084081",
+      "16551660",
+      "21082430",
+      "18707150",
+      "33211854",
+      "16909843",
+      "33486617"
+    ],
+    "review": [
+      "41263099",
+      "33605735"
+    ],
+    "pmc": [
+      "12807641"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41263099/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1188",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

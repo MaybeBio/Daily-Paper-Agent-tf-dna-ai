@@ -1,0 +1,389 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.04.564839",
+  "title": "Transcriptomics and chromatin accessibility in multiple African population samples",
+  "doi": "10.1101/2023.11.04.564839",
+  "abstract": "Mapping the functional human genome and impact of genetic variants is often limited to European-descendent population samples. To aid in overcoming this limitation, we measured gene expression using RNA sequencing in lymphoblastoid cell lines (LCLs) from 599 individuals from six African populations to identify novel transcripts including those not represented in the hg38 reference genome. We used whole genomes from the 1000 Genomes Project and 164 Maasai individuals to identify 8,881 expression and 6,949 splicing quantitative trait loci (eQTLs/sQTLs), and 2,611 structural variants associated with gene expression (SV-eQTLs). We further profiled chromatin accessibility using ATAC-Seq in a subset of 100 representative individuals, to identity chromatin accessibility quantitative trait loci (caQTLs) and allele-specific chromatin accessibility, and provide predictions for the functional effect of 78.9 million variants on chromatin accessibility. Using this map of eQTLs and caQTLs we fine-mapped GWAS signals for a range of complex diseases. Combined, this work expands global functional genomic data to identify novel transcripts, functional elements and variants, understand population genetic history of molecular quantitative trait loci, and further resolve the genetic basis of multiple human traits and disease.",
+  "authors": [
+    "DeGorter MK",
+    "Goddard PC",
+    "Karakoc E",
+    "Kundu S",
+    "Yan SM",
+    "Nachun D",
+    "Abell N",
+    "Aguirre M",
+    "Carstensen T",
+    "Chen Z",
+    "Durrant M",
+    "Dwaracherla VR",
+    "Feng K",
+    "Gloudemans MJ",
+    "Hunter N",
+    "Moorthy MPS",
+    "Pomilla C",
+    "Rodrigues KB",
+    "Smith CJ",
+    "Smith KS",
+    "Ungar RA",
+    "Balliu B",
+    "Fellay J",
+    "Flicek P",
+    "McLaren PJ",
+    "Henn B",
+    "McCoy RC",
+    "Sugden L",
+    "Kundaje A",
+    "Sandhu MS",
+    "Gurdasani D",
+    "Montgomery SB"
+  ],
+  "published_date": "2023-11-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.04.564839",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.04.564839.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR753680",
+    "raw_record": {
+      "id": "PPR753680",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR753680"
+        ]
+      },
+      "doi": "10.1101/2023.11.04.564839",
+      "title": "Transcriptomics and chromatin accessibility in multiple African population samples",
+      "authorString": "DeGorter MK, Goddard PC, Karakoc E, Kundu S, Yan SM, Nachun D, Abell N, Aguirre M, Carstensen T, Chen Z, Durrant M, Dwaracherla VR, Feng K, Gloudemans MJ, Hunter N, Moorthy MPS, Pomilla C, Rodrigues KB, Smith CJ, Smith KS, Ungar RA, Balliu B, Fellay J, Flicek P, McLaren PJ, Henn B, McCoy RC, Sugden L, Kundaje A, Sandhu MS, Gurdasani D, Montgomery SB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "DeGorter MK",
+            "lastName": "DeGorter",
+            "firstName": "Marianne",
+            "initials": "MK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7592-752X"
+            }
+          },
+          {
+            "fullName": "Goddard PC",
+            "lastName": "Goddard",
+            "firstName": "Page",
+            "initials": "PC"
+          },
+          {
+            "fullName": "Karakoc E",
+            "lastName": "Karakoc",
+            "firstName": "Emre",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2324-8127"
+            }
+          },
+          {
+            "fullName": "Kundu S",
+            "lastName": "Kundu",
+            "firstName": "Soumya",
+            "initials": "S"
+          },
+          {
+            "fullName": "Yan SM",
+            "lastName": "Yan",
+            "firstName": "Stephanie",
+            "initials": "SM"
+          },
+          {
+            "fullName": "Nachun D",
+            "lastName": "Nachun",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Abell N",
+            "lastName": "Abell",
+            "firstName": "Nathan",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1098-5395"
+            }
+          },
+          {
+            "fullName": "Aguirre M",
+            "lastName": "Aguirre",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9069-6475"
+            }
+          },
+          {
+            "fullName": "Carstensen T",
+            "lastName": "Carstensen",
+            "firstName": "Tommy",
+            "initials": "T"
+          },
+          {
+            "fullName": "Chen Z",
+            "lastName": "Chen",
+            "firstName": "Ziwei",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1479-5057"
+            }
+          },
+          {
+            "fullName": "Durrant M",
+            "lastName": "Durrant",
+            "firstName": "Matthew",
+            "initials": "M"
+          },
+          {
+            "fullName": "Dwaracherla VR",
+            "lastName": "Dwaracherla",
+            "firstName": "Vikranth",
+            "initials": "VR"
+          },
+          {
+            "fullName": "Feng K",
+            "lastName": "Feng",
+            "firstName": "Karen",
+            "initials": "K"
+          },
+          {
+            "fullName": "Gloudemans MJ",
+            "lastName": "Gloudemans",
+            "firstName": "Michael",
+            "initials": "MJ"
+          },
+          {
+            "fullName": "Hunter N",
+            "lastName": "Hunter",
+            "firstName": "Naiomi",
+            "initials": "N"
+          },
+          {
+            "fullName": "Moorthy MPS",
+            "lastName": "Moorthy",
+            "firstName": "Mohana",
+            "initials": "MPS"
+          },
+          {
+            "fullName": "Pomilla C",
+            "lastName": "Pomilla",
+            "firstName": "Cristina",
+            "initials": "C"
+          },
+          {
+            "fullName": "Rodrigues KB",
+            "lastName": "Rodrigues",
+            "firstName": "Kameron",
+            "initials": "KB"
+          },
+          {
+            "fullName": "Smith CJ",
+            "lastName": "Smith",
+            "firstName": "Courtney",
+            "initials": "CJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford University, Stanford, CA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith KS",
+            "lastName": "Smith",
+            "firstName": "Kevin",
+            "initials": "KS"
+          },
+          {
+            "fullName": "Ungar RA",
+            "lastName": "Ungar",
+            "firstName": "Rachel",
+            "initials": "RA"
+          },
+          {
+            "fullName": "Balliu B",
+            "lastName": "Balliu",
+            "firstName": "Brunilda",
+            "initials": "B"
+          },
+          {
+            "fullName": "Fellay J",
+            "lastName": "Fellay",
+            "firstName": "Jacques",
+            "initials": "J"
+          },
+          {
+            "fullName": "Flicek P",
+            "lastName": "Flicek",
+            "firstName": "Paul",
+            "initials": "P"
+          },
+          {
+            "fullName": "McLaren PJ",
+            "lastName": "McLaren",
+            "firstName": "Paul",
+            "initials": "PJ"
+          },
+          {
+            "fullName": "Henn B",
+            "lastName": "Henn",
+            "firstName": "Brenna",
+            "initials": "B"
+          },
+          {
+            "fullName": "McCoy RC",
+            "lastName": "McCoy",
+            "firstName": "Rajiv",
+            "initials": "RC"
+          },
+          {
+            "fullName": "Sugden L",
+            "lastName": "Sugden",
+            "firstName": "Lauren",
+            "initials": "L"
+          },
+          {
+            "fullName": "Kundaje A",
+            "lastName": "Kundaje",
+            "firstName": "Anshul",
+            "initials": "A"
+          },
+          {
+            "fullName": "Sandhu MS",
+            "lastName": "Sandhu",
+            "firstName": "Manjinder",
+            "initials": "MS"
+          },
+          {
+            "fullName": "Gurdasani D",
+            "lastName": "Gurdasani",
+            "firstName": "Deepti",
+            "initials": "D"
+          },
+          {
+            "fullName": "Montgomery SB",
+            "lastName": "Montgomery",
+            "firstName": "Stephen",
+            "initials": "SB"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7592-752X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9069-6475"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1479-5057"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2324-8127"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1098-5395"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Mapping the functional human genome and impact of genetic variants is often limited to European-descendent population samples. To aid in overcoming this limitation, we measured gene expression using RNA sequencing in lymphoblastoid cell lines (LCLs) from 599 individuals from six African populations to identify novel transcripts including those not represented in the hg38 reference genome. We used whole genomes from the 1000 Genomes Project and 164 Maasai individuals to identify 8,881 expression and 6,949 splicing quantitative trait loci (eQTLs/sQTLs), and 2,611 structural variants associated with gene expression (SV-eQTLs). We further profiled chromatin accessibility using ATAC-Seq in a subset of 100 representative individuals, to identity chromatin accessibility quantitative trait loci (caQTLs) and allele-specific chromatin accessibility, and provide predictions for the functional effect of 78.9 million variants on chromatin accessibility. Using this map of eQTLs and caQTLs we fine-mapped GWAS signals for a range of complex diseases. Combined, this work expands global functional genomic data to identify novel transcripts, functional elements and variants, understand population genetic history of molecular quantitative trait loci, and further resolve the genetic basis of multiple human traits and disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.11.04.564839"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR753680"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR753680&type=FILE&fileName=EMS190763-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS190763",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "refsnp",
+          "arrayexpress",
+          "omim",
+          "igsr",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-11-07",
+      "firstPublicationDate": "2023-11-06",
+      "firstIndexDate": "2023-11-07",
+      "fullTextReceivedDate": "2024-01-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

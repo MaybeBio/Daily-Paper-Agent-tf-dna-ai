@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2505.09883v1",
+  "title": "DeepPlantCRE: A Transformer-CNN Hybrid Framework for Plant Gene Expression Modeling and Cross-Species Generalization",
+  "doi": "",
+  "abstract": "The investigation of plant transcriptional regulation constitutes a fundamental basis for crop breeding, where cis-regulatory elements (CREs), as the key factor determining gene expression, have become the focus of crop genetic improvement research. Deep learning techniques, leveraging their exceptional capacity for high-dimensional feature extraction and nonlinear regulatory relationship modeling, have been extensively employed in this field. However, current methodologies present notable limitations: single CNN-based architectures struggle to capture long-range regulatory interactions, while existing CNN-Transformer hybrid models demonstrate proneness to overfitting and inadequate generalization in cross-species prediction contexts. To address these challenges, this study proposes DeepPlantCRE, a deep-learning framework for plant gene expression prediction and CRE Extraction. The model employs a Transformer-CNN hybrid architecture that achieves enhanced Accuracy, AUC-ROC, and F1-score metrics over existing baselines (DeepCRE and PhytoExpr), with improved generalization performance and overfitting inhibiting. Cross-species validation experiments conducted on gene expression datasets from \\textit{Gossypium}, \\textit{Arabidopsis thaliana}, \\textit{Solanum lycopersicum}, \\textit{Sorghum bicolor}, and \\textit{Arabidopsis thaliana} reveal that the model achieves peak prediction accuracy of 92.3\\%, particularly excelling in complex genomic data analysis. Furthermore, interpretability investigations using DeepLIFT and Transcription Factor Motif Discovery from the importance scores algorithm (TF-MoDISco) demonstrate that the derived motifs from our model exhibit high concordance with known transcription factor binding sites (TFBSs) such as MYR2, TSO1 in JASPAR plant database, substantiating the potential of biological interpretability and practical agricultural application of DeepPlantCRE.",
+  "authors": [
+    "Yingjun Wu",
+    "Jingyun Huang",
+    "Liang Ming",
+    "Pengcheng Deng",
+    "Maojun Wang",
+    "Zeyu Zhang"
+  ],
+  "published_date": "2025-05-15T00:59:29Z",
+  "updated_date": "2025-05-15T00:59:29Z",
+  "journal": "",
+  "category": "q-bio.GN",
+  "landing_url": "https://arxiv.org/abs/2505.09883v1",
+  "pdf_url": "https://arxiv.org/pdf/2505.09883v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.GN"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2505.09883v1",
+    "raw_categories": [
+      "q-bio.GN"
+    ],
+    "journal_ref": ""
+  }
+}

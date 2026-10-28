@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that dynamics-based protein network features, derived from all-atom molecular dynamics simulations and perturbation residue response analysis, can accurately discriminate "rheostat" positions (positions where single amino acid substitutions tune protein function) from other substitution-outcome classes in the Escherichia coli lactose repressor protein (LacI). They report that a dynamic-feature classification model outperforms a static structural network model, particularly for rheostat positions located >8 Å from the binding site.
+- **Visible evidence base** Abstract text only; no quantitative results, model performance metrics, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, dataset composition, classification model specifications, cross-validation procedures, and any statistical significance tests
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking protein dynamics to the identification of rheostat positions, a functionally important but structurally elusive class of residues. The study leverages a well-characterized experimental system (LacI) and a plausible computational framework. However, the abstract provides insufficient quantitative evidence to evaluate the central claim of "accurate discrimination." Key performance metrics, comparison details, and validation approaches are absent. The claim that dynamic features are superior for distal rheostat positions is intriguing but currently unsupported by the visible evidence. The work may be of interest to the protein engineering and computational biophysics communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Protein engineers and synthetic biologists interested in tuning protein function through targeted mutagenesis; computational biophysicists studying protein dynamics and allostery; researchers in human genetics interpreting the functional impact of missense variants; and those studying pathogen drug resistance evolution, where rheostat positions may play a role in adaptive mutations.
+- **Major strengths** The study addresses a clearly defined and practically important problem, namely the identification of rheostat positions that lack obvious structural signatures. The use of experimental data from a well-studied model system (LacI) to ground computational predictions is a strength. The comparative design, testing dynamic versus static features, is a reasonable approach to isolate the contribution of dynamics. The focus on distal positions (>8 Å from the binding site) is a thoughtful and potentially impactful angle.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the dynamic model "better identified rheostat positions that were >8 Å from the binding site" and that dynamics-based features "accurately discriminate" rheostat positions.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** No quantitative performance metrics are reported. The abstract does not provide accuracy, precision, recall, F1-score, area under the ROC curve, or any other measure that would substantiate the claim of "accurate discrimination." The comparison between dynamic and static models is described qualitatively ("better identified") without numerical support.
+  - **Why it matters** The central claim of the study rests on the demonstrated superiority of dynamic features. Without quantitative evidence, the reader cannot assess the magnitude of the improvement, its statistical significance, or whether the performance is practically useful. This is essential for evaluating the study's contribution to the field.
+  - **Resolution test** Provide classification performance metrics for both models (e.g., accuracy, AUC, precision-recall) with confidence intervals or statistical tests, and specify the number of rheostat and non-rheostat positions used in training and testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "we integrated all-atom molecular dynamics simulations with perturbation residue response analysis" and "used a variety of dynamic features to build a classification model."
+  - **Evidence pointer** Abstract, Methods (location not provided)
+  - **Concern** The abstract does not describe the nature of the dynamic features, the classification algorithm used, the training/validation split, or how overfitting was addressed. The number of positions in the dataset is not stated, which is critical for assessing whether the classification problem is tractable with the described approach.
+  - **Why it matters** Without methodological detail, the reproducibility of the study is in question. The reader cannot determine whether the reported discrimination is a genuine property of the dynamic features or an artifact of model selection, feature selection, or small sample size. This is particularly important given that rheostat positions are likely rare within a protein.
+  - **Resolution test** Specify the feature set, classifier type, cross-validation scheme, dataset size (number of positions and classes), and any feature selection or regularization procedures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract concludes that "models built on dynamic features may be useful for predicting the locations of rheostat positions in a wide range of proteins."
+  - **Evidence pointer** Abstract, Discussion (location not provided)
+  - **Concern** The study is based on a single protein (LacI). The abstract provides no evidence that the dynamic features identified are transferable to other proteins with different folds, sizes, or allosteric mechanisms. The claim of broad utility is speculative.
+  - **Why it matters** The stated significance of the work, including applications to protein design and drug resistance prediction, depends on generalizability. A single-protein demonstration, while valuable, does not establish that the approach will work elsewhere.
+  - **Resolution test** Acknowledge the single-protein limitation explicitly, or provide preliminary evidence on a second protein system, or outline a clear validation strategy for future work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Background
+  - **Evidence pointer** Abstract, first paragraph (location not provided)
+  - **Issue** The definition of "rheostat" positions is provided, but the relationship between rheostat positions and "nonconserved positions" is not fully clarified. It is unclear whether all rheostat positions are nonconserved or whether the study only considers nonconserved positions as candidates.
+  - **Required correction** Clarify the relationship between conservation status and rheostat classification, and specify whether conservation was used as a filter in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, Results
+  - **Evidence pointer** Abstract, second paragraph (location not provided)
+  - **Issue** The term "perturbation residue response analysis" is introduced without definition or citation. Readers unfamiliar with this method may not understand what it entails.
+  - **Required correction** Provide a brief description of the method or a citation to the original methodology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Results
+  - **Evidence pointer** Abstract, second paragraph (location not provided)
+  - **Issue** The abstract mentions "distinct dynamic behavior in IPTG-bound LacI compared with apo LacI" but does not state what this distinct behavior is or how it relates to the classification model.
+  - **Required correction** Briefly describe the key dynamic difference observed and its relevance to the feature set used in the classifier.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative performance metrics and methodological detail prevents evaluation of the central claim. R1-M3, while not blocking, limits the scope of the conclusions that can be drawn.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using dynamics-based network features to identify rheostat positions is a novel angle, as the abstract notes the lack of clear structural relationships for these positions. This is a potentially original contribution.
+  - Scientific importance: The problem is important for protein engineering and variant interpretation. However, the importance of the specific findings cannot be assessed without quantitative results.
+  - Interdisciplinary readership: The work bridges biophysics, computational biology, and protein engineering, which could appeal to a broad readership. The abstract is written in a way that is largely accessible to nonspecialists, though some methodological terms are undefined.
+  - Technical soundness: Cannot be evaluated from the abstract. The lack of methodological detail and performance metrics precludes assessment.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured. The concept of rheostat positions is explained adequately. However, terms like "perturbation residue response analysis" and "static network features" may require elaboration for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the experimental system is appropriate, but the abstract does not provide sufficient quantitative or methodological detail to support the central claims. I would be supportive if the full manuscript provides robust classification metrics, clear methodological descriptions, and appropriate validation.
+
+## Risk / unsupported claims
+- The claim that dynamic features "accurately discriminate" rheostat positions is unsupported without performance metrics.
+- The claim that the dynamic model "better identified" distal rheostat positions is unsupported without comparative quantitative results.
+- The claim that the approach "may be useful for predicting" rheostat positions in other proteins is speculative and not supported by the single-protein study.
+- The observation of "distinct dynamic behavior" between IPTG-bound and apo LacI is stated without specific evidence or description.

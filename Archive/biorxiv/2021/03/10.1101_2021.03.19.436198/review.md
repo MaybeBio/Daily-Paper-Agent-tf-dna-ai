@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends. Figure files and supplementary materials were not provided.
+- **Assessment boundary** Assessment is limited to the scientific claims, methodology, and results as described in the provided text. The quality of figures, supplementary tables, and code could not be directly evaluated.
+- **Shared manuscript claim summary** The authors present ChromWave, a deep neural network based on the WaveNet architecture, that predicts transcription factor (TF) and nucleosome occupancies simultaneously at nucleotide resolution across the yeast genome and in human promoter regions. The model is claimed to learn sequence features underlying TF-nucleosome competition, recapitulate experimental results at the GAL1-GAL10 locus, and identify human promoter variants that alter nucleosome occupancy.
+- **Visible evidence base** The evidence base consists of the manuscript text, including descriptions of model architecture, training data, performance metrics (Pearson correlations, AUC values), and comparisons to experimental datasets. Specific quantitative results are reported in the text and referenced to figures and supplementary tables.
+- **Missing materials affecting confidence** Figure files, supplementary tables, and the actual model code were not provided. This limits the ability to verify the visual data, the detailed hyperparameter settings, and the reproducibility of the results. The manuscript also lacks a detailed comparison with existing deep learning models for nucleosome or TF binding prediction.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially valuable deep learning architecture for predicting TF and nucleosome occupancy at single-nucleotide resolution. The use of WaveNet-style dilated convolutions to capture long-range sequence dependencies is a reasonable and promising approach. The authors demonstrate good performance on yeast data and show interesting applications, such as recapitulating experimental results at the GAL locus and analyzing human promoter variants. However, several technical aspects require clarification and additional validation to fully support the claims. The lack of a direct comparison with existing state-of-the-art models, the limited analysis of the model's interpretability, and the potential for overfitting in the human promoter model are concerns that need to be addressed.
+- **Who would be interested in the results, and why** Researchers in computational genomics, gene regulation, and chromatin biology would be interested. The model provides a tool for predicting the competitive binding of TFs and nucleosomes, which is central to understanding gene regulatory mechanisms. The ability to make predictions at nucleotide resolution and to interpret the effects of genetic variants could be of interest to those studying regulatory genomics and disease-associated non-coding variation.
+- **Major strengths** The manuscript addresses an important and challenging problem: modeling the competition between TFs and nucleosomes. The proposed architecture is a sensible adaptation of a powerful deep learning model. The authors demonstrate the model's utility in multiple contexts, including genome-wide prediction in yeast, recapitulation of a specific experimental result, and analysis of human promoter variants. The use of transfer learning and the analysis of learned motifs are also positive aspects.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that ChromWave "for the first time, predicts the competing profiles for TF and nucleosomes occupancies with remarkable accuracy" and that it "surpasses with its precision, scope, and flexibility current state-of-the-art methods" is not fully supported.
+    - **Evidence pointer** Section 2.2, Section 2.3, Section 3 (Discussion)
+    - **Concern** The manuscript does not provide a quantitative comparison of ChromWave's performance against existing state-of-the-art models, such as the HMM-based models mentioned in the introduction or other deep learning models like Basenji or BPNet. The claim of superiority is therefore not substantiated. While the authors compare against the HMM from Kaplan et al. in some analyses, a direct, head-to-head comparison of prediction accuracy on the same datasets and metrics is missing.
+    - **Why it matters** Without a direct comparison, it is impossible to assess the actual advancement over the current state of the art. The claim of being "first" and "surpassing" current methods is a strong one that requires rigorous benchmarking against existing tools.
+    - **Resolution test** The authors should provide a direct comparison of ChromWave's performance against at least one or two established models (e.g., the HMM from Kaplan et al., and a deep learning model like Basenji or BPNet) on the same yeast and human datasets, using identical evaluation metrics (e.g., Pearson correlation, AUC for enriched regions).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the model can "resolve binding events not directly explainable by an annotated motif" and that it has learned "intricate sequence grammar" is not thoroughly validated.
+    - **Evidence pointer** Section 2.4, Section 2.5, Section 2.8
+    - **Concern** The analysis of learned motifs is somewhat superficial. While the authors identify motifs that match known TFs, they do not deeply analyze the novel or unknown motifs. The claim about resolving binding events not explainable by annotated motifs is not demonstrated with specific examples. The importance analysis (Section 2.5) is described but the results are not presented in detail in the text.
+    - **Why it matters** A key advantage of deep learning models is their ability to discover novel sequence features. The manuscript's claim to do so is a major part of its novelty. Without a detailed presentation and validation of these novel features, this claim remains unsubstantiated.
+    - **Resolution test** The authors should provide specific examples of novel motifs discovered by ChromWave, validate their functional relevance (e.g., through comparison with independent experimental data or mutation analysis), and demonstrate a case where ChromWave correctly predicts binding at a site lacking a known motif.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the human promoter model can identify causal variants linked to DNase hypersensitivity is based on a limited analysis.
+    - **Evidence pointer** Section 2.11, Section 2.12
+    - **Concern** The analysis of human promoter variants is interesting but appears preliminary. The authors identify 30 promoters where dsQTLs affect predictions, but the analysis does not demonstrate that these predictions are more accurate than random or that they provide new biological insights. The comparison to "causal variants" is not clearly defined or validated.
+    - **Why it matters** The application to human genetics is a significant potential impact of this work. However, the current analysis is not sufficiently rigorous to support the claim that ChromWave can prioritize causal variants. A more thorough analysis, including validation with independent functional data and comparison to other variant effect prediction methods, is needed.
+    - **Resolution test** The authors should provide a more detailed analysis of the 30 identified promoters, including a comparison of ChromWave's predictions with experimental measurements of chromatin accessibility or TF binding. They should also benchmark their variant effect predictions against existing tools (e.g., deep learning-based variant effect predictors).
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction, Section 1
+    - **Evidence pointer** Section 1
+    - **Issue** The introduction could be clearer in explaining the limitations of existing models, particularly the HMMs, to a broader audience. The technical details of the HMM assumptions might be difficult for non-specialists to follow.
+    - **Required correction** Consider simplifying the explanation of HMM limitations and focusing on the conceptual advantage of deep learning models in learning complex sequence features directly from data.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, Section 2.1
+    - **Evidence pointer** Methods
+    - **Issue** The description of the model architecture and training procedure is somewhat brief. More details on the number of layers, filter sizes, and other hyperparameters would be helpful for reproducibility.
+    - **Required correction** Provide a more detailed description of the model architecture, including the number of residual blocks, dilation rates, and the total number of parameters. A table or diagram summarizing the architecture would be useful.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results, Section 2.2
+    - **Evidence pointer** Section 2.2
+    - **Issue** The definition of "enriched" regions (10bp and 50bp) and the threshold (85th percentile) is somewhat arbitrary. The sensitivity of the results to these choices is not discussed.
+    - **Required correction** Briefly discuss the choice of these parameters and, if possible, show that the results are robust to reasonable variations in these thresholds.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Interdisciplinary readership
+    - **Affected element** Discussion, Section 3
+    - **Evidence pointer** Section 3
+    - **Issue** The discussion of potential applications in human genetics is brief and could be expanded to better engage a broader audience.
+    - **Required correction** Elaborate on the potential implications of the model for understanding non-coding disease variants and for guiding experimental studies.
+
+## Risk / unsupported claims
+- The claim that ChromWave is the "first" model to predict competing TF and nucleosome profiles is not verifiable from the provided text and is likely an overstatement.
+- The claim that ChromWave "surpasses" current state-of-the-art methods is unsupported due to the lack of direct quantitative comparisons.
+- The claim that the model can "resolve binding events not directly explainable by an annotated motif" is not demonstrated with specific examples.
+- The claim that the human promoter model can identify "causal variants" is not fully supported by the presented analysis.
+- The performance of the human promoter model on non-promoter regions is not evaluated, and the model's poor performance at CTCF sites is acknowledged but not fully addressed.

@@ -1,0 +1,138 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and internal consistency of the reported findings; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors report the first in vitro expression and purification of human TNP1, characterize its interaction with DNA using computational simulations, biochemical assays, fluorescence imaging, and atomic force microscopy, and propose that TNP1-mediated DNA condensation proceeds through fuzzy interactions and mesoscale phase separation relevant to histone-protamine exchange and vaccine development
+- **Visible evidence base** Main text figures referenced (Figs. 1-6), supplementary figures referenced (Figs. S1-S6), supplementary tables referenced (Table S1), methods descriptions
+- **Missing materials affecting confidence** Actual figure images and data files not provided; supplementary figures and tables not provided; specific numerical values for key measurements (e.g., ITC replicates, AFM statistics, DLS distributions) not available; simulation parameter files not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a biologically important and technically challenging problem: the molecular mechanism by which the intrinsically disordered protein TNP1 mediates DNA condensation during spermatogenesis. The authors combine multiple experimental and computational approaches, which is commendable. However, the current evidence base has significant gaps that prevent full evaluation of the central claims. Several conclusions are drawn from qualitative observations or single experiments without adequate statistical support or controls. The computational methods, particularly the metadynamics and coarse-grained simulations, lack sufficient detail for reproducibility. The link between the observed in vitro phenomena and the proposed physiological relevance remains speculative. The manuscript has potential but requires substantial additional evidence and methodological clarification before the case is established.
+- **Who would be interested in the results, and why** Researchers studying spermatogenesis and chromatin remodeling, particularly those interested in histone-protamine exchange mechanisms; investigators working on intrinsically disordered proteins and their interactions with nucleic acids; the biomolecular condensate and phase separation community; researchers developing protein-based nucleic acid delivery systems for vaccine applications
+- **Major strengths** The first reported expression and purification of human TNP1 is a significant technical achievement. The combination of atomistic simulations, coarse-grained modeling, and multiple experimental techniques (ITC, gel electrophoresis, AFM, fluorescence imaging) provides a multi-scale perspective. The observation of arginine-thymine O2' interactions is an interesting and potentially novel finding. The reversible assembly-disassembly behavior as a function of TNP1 concentration is a notable observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that TNP1 binding reduces the stiffness of DNA based on AFM analysis of DNA conformation and autocorrelation function calculations
+  - **Evidence pointer** Results section "Influence of TNP1 on electrostatic and mechanical properties of DNA", Fig. 3c, Fig. S5, Fig. S6
+  - **Concern** The AFM analysis of DNA mechanical properties is presented without quantitative statistical details. The manuscript states that autocorrelation functions were calculated from extracted DNA trajectories, but no information is provided on the number of molecules analyzed, the statistical comparison between conditions, or the persistence length values derived from the data. The claim of reduced stiffness appears to be based on visual inspection of images and qualitative curve comparisons.
+  - **Why it matters** The reduction in DNA stiffness is a central mechanistic claim that connects TNP1 binding to DNA condensation. Without quantitative analysis and statistical support, this claim cannot be evaluated. The AFM images shown are representative examples, and it is unclear whether the observed effects are reproducible across multiple experiments and DNA molecules.
+  - **Resolution test** Provide quantitative persistence length measurements from a statistically adequate number of DNA molecules (e.g., n > 50 per condition), with appropriate statistical tests comparing control and TNP1-treated samples. Report the distribution of measured values and effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that TNP1-DNA complexes undergo phase separation to form droplets, with droplet size dependent on TNP1 concentration
+  - **Evidence pointer** Results section "Formation of phases-separated droplets and potent influence factors", Fig. 6
+  - **Concern** The fluorescence imaging experiments use eGFP-TNP1 fusion protein, but no validation is provided that the fusion protein behaves identically to the untagged TNP1 used in other experiments. The manuscript does not report whether the eGFP-TNP1 fusion affects DNA binding affinity, condensation behavior, or protein oligomerization. Additionally, the phase separation experiments lack key controls: no turbidity measurements, no fluorescence recovery after photobleaching (FRAP) to demonstrate liquid-like properties, no salt or temperature dependence studies, and no quantification of droplet size distributions across conditions.
+  - **Why it matters** The claim of phase separation is a major conclusion of the manuscript. Without demonstrating that the observed droplets are indeed liquid-like condensates and not aggregates or artifacts of the fusion tag, the phase separation claim is not established. The physiological relevance of the observed droplets also requires demonstration that they form under conditions relevant to spermatogenesis.
+  - **Resolution test** Validate eGFP-TNP1 fusion protein functionality (e.g., ITC binding affinity comparable to untagged TNP1). Perform FRAP experiments to demonstrate liquid-like properties. Provide quantitative droplet size distributions with statistical comparisons across TNP1 concentrations. Include control experiments with mutations that disrupt TNP1-DNA interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MM-PBSA analysis shows a rapidly rising energy landscape as TNP1 is sequentially added to DNA, indicating weaker binding propensity at higher TNP1 content
+  - **Evidence pointer** Results section "Association of TNP1 with DNA", Fig. 1e, Fig. S2, Table S1
+  - **Concern** The MM-PBSA method is acknowledged by the authors to lack quantitative accuracy for highly charged systems, yet the qualitative trend is used to support a key conclusion about concentration-dependent binding. The manuscript does not report error estimates for the MM-PBSA calculations, the convergence of the simulations, or whether the sequential binding simulations reached equilibrium. The simulation time of 100 ns per TNP1 addition may be insufficient for a disordered protein to fully explore binding configurations.
+  - **Why it matters** The conclusion that TNP1 binding weakens with increasing TNP1 concentration is used to explain the observed assembly-disassembly behavior. If this conclusion is based on unreliable energy calculations, the mechanistic interpretation is compromised. The manuscript needs to demonstrate that the observed trend is robust and not an artifact of the simulation protocol.
+  - **Resolution test** Provide error estimates for MM-PBSA calculations (e.g., block averaging or bootstrap analysis). Demonstrate convergence of binding energies over the simulation trajectory. Validate the trend with an independent experimental method, such as ITC at different TNP1:DNA ratios or competition binding assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that TNP1 has weaker DNA binding than protamine, making it a potential candidate for nucleic acid delivery with more favorable release properties
+  - **Evidence pointer** Discussion section
+  - **Concern** The comparison between TNP1 and protamine DNA binding is speculative. No direct comparative experiments between TNP1 and protamine are presented. The Kd value of 0.89 uM for TNP1-DNA is reported, but no protamine-DNA Kd is measured under comparable conditions. The claim that TNP1 is a better candidate for vaccine development than protamine is not supported by any functional assay (e.g., transfection efficiency, cargo release, cell viability).
+  - **Why it matters** The translational claim regarding vaccine development is a stated motivation for the work. Without direct comparison to existing tools (protamine, PEG10, HBPs), the manuscript cannot substantiate the claim that TNP1 offers advantages. This weakens the broader significance of the study.
+  - **Resolution test** Perform direct comparative binding assays between TNP1 and protamine under identical conditions. Include functional assays (e.g., nucleic acid encapsulation efficiency, release kinetics, transfection in relevant cell lines) to support the translational claim.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that TNP1 exhibits multiple configurations with different radius of gyration (Rg) values from 1.5 nm to 3 nm, representing distinct binding modes toward DNA
+  - **Evidence pointer** Results section "Fuzzy interactions between TNP1 and DNA", Fig. 2a, Fig. S3
+  - **Concern** The metadynamics simulation protocol is insufficiently described. The collective variable is defined as the number of contacts between phosphate and nitrogen/carbon atoms, but the manuscript does not report the bias factor, the width and height of Gaussian hills (stated as "both set as 5" without units), the convergence criteria, or how the 20 independent simulations were initialized. The relationship between the sampled configurations and the free energy landscape is not presented.
+  - **Why it matters** The claim of fuzzy interactions and multiple binding modes is a central conceptual contribution. Without proper description of the enhanced sampling methodology and demonstration of convergence, the reliability of the sampled conformational ensemble cannot be assessed. The field of disordered protein simulations requires rigorous sampling validation.
+  - **Resolution test** Provide complete metadynamics parameters, convergence analysis (e.g., free energy surface as a function of simulation time), and validation that the 20 simulations sample a converged ensemble. Report the free energy differences between the identified binding modes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction assumes familiarity with the concept of fuzzy interactions in disordered protein complexes without defining it for readers outside the field.
+  - **Required correction** Add a brief definition or explanation of fuzzy interactions when first mentioned.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, gel electrophoresis
+  - **Evidence pointer** Methods section "Gel Electrophoresis"
+  - **Issue** The gel electrophoresis methods section is extremely brief and does not specify the DNA concentration, buffer conditions, voltage, run time, or staining method.
+  - **Required correction** Provide complete experimental details for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, ITC
+  - **Evidence pointer** Methods section "Isothermal titration calorimetry (ITC)"
+  - **Issue** The ITC methods do not specify the number of replicate experiments, the injection protocol, the cell and syringe concentrations, or the fitting model details beyond "one set of site model."
+  - **Required correction** Provide complete ITC experimental parameters and report the number of independent replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, CD spectroscopy
+  - **Evidence pointer** Methods section "CD spectrum"
+  - **Issue** The CD spectroscopy methods do not specify the DNA concentration, path length, scan parameters, or how the spectra were processed and normalized.
+  - **Required correction** Provide complete CD experimental details.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, AFM
+  - **Evidence pointer** Methods section "AFM sample preparation, data collection and analysis"
+  - **Issue** The AFM methods do not specify the imaging mode (tapping vs. contact), scan rate, resolution, or how DNA contour lengths and persistence lengths were extracted from the images.
+  - **Required correction** Provide complete AFM imaging parameters and analysis details.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, coarse-grained simulations
+  - **Evidence pointer** Methods section "Assembly simulations of TNP1-DNA mixture"
+  - **Issue** The coarse-grained model description references "the paper of XX" which is an incomplete citation. The force field parameters, equilibration protocol, and simulation length are not specified.
+  - **Required correction** Complete the citation and provide full simulation details.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of vaccine development implications is brief and does not explain how the findings specifically inform nucleic acid delivery design.
+  - **Required correction** Expand the discussion to articulate the specific design principles that emerge from the TNP1-DNA interaction studies.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 1b
+  - **Evidence pointer** Results section "Association of TNP1 with DNA", Fig. 1b
+  - **Issue** The gel electrophoresis results are described qualitatively ("dispersed DNA migration bands", "fully blocks the migration") without quantification or densitometry analysis.
+  - **Required correction** Provide quantitative analysis of gel band intensities or mobility shifts.
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 3a
+  - **Evidence pointer** Results section "Influence of TNP1 on electrostatic and mechanical properties of DNA", Fig. 3a
+  - **Issue** The zeta potential measurements are reported as single values without error bars or statistical analysis across replicates.
+  - **Required correction** Report mean values with standard deviations from at least three independent measurements.
+  - **Concern ID** R1-m10
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 5b
+  - **Evidence pointer** Results section "TNP1-DNA condensation at high ratio of TNP1 to DNA", Fig. 5b
+  - **Issue** The DLS data are presented as intensity distributions without reporting the polydispersity index or the number of replicate measurements.
+  - **Required correction** Report polydispersity indices and replicate information for DLS measurements.
+
+## Risk / unsupported claims
+- The claim that TNP1 binding reduces DNA stiffness is unsupported by quantitative analysis; only qualitative AFM observations are presented
+- The claim of phase separation is not established; no FRAP, turbidity, or rheological measurements demonstrate liquid-like properties
+- The claim that TNP1 is a suitable candidate for vaccine development is speculative and not supported by functional assays
+- The claim that arginine interacts with thymine O2' atoms is based on simulation data without experimental validation
+- The claim of fuzzy interactions is based on metadynamics simulations that are insufficiently described for evaluation
+- The physiological relevance of the observed TNP1-DNA condensation is not demonstrated; no experiments use conditions mimicking the spermatid nuclear environment
+- The claim that TNP1 binding is weaker than protamine binding is not supported by direct comparative measurements
+- The reversible assembly-disassembly behavior is only demonstrated in coarse-grained simulations, not experimentally validated

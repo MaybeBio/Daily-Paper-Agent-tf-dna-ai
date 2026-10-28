@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "38635316",
+    "doi": "10.1021/acs.jcim.3c01967",
+    "title": "Machine Learning of Three-Dimensional Protein Structures to Predict the Functional Impacts of Genome Variation."
+  },
+  "content": {
+    "abstract": "Research in the human genome sciences generates a substantial amount of genetic data for hundreds of thousands of individuals, which concomitantly increases the number of variants of unknown significance (VUS). Bioinformatic analyses can successfully reveal rare variants and variants with clear associations with disease-related phenotypes. These studies have had a significant impact on how clinical genetic screens are interpreted and how patients are stratified for treatment. There are few, if any, computational methods for variants comparable to biological activity predictions. To address this gap, we developed a machine learning method that uses protein three-dimensional structures from AlphaFold to predict how a variant will influence changes to a gene's downstream biological pathways. We trained state-of-the-art machine learning classifiers to predict which protein regions will most likely impact transcriptional activities of two proto-oncogenes, nuclear factor erythroid 2 (NFE2L2)-related factor 2 (NRF2) and c-Myc. We have identified classifiers that attain accuracies higher than 80%, which have allowed us to identify a set of key protein regions that lead to significant perturbations in c-Myc or NRF2 transcriptional pathway activities.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "NF-E2-Related Factor 2/metabolism/chemistry",
+      "Protein Conformation",
+      "Genetic Variation",
+      "Genome, Human",
+      "Models, Molecular",
+      "Proto-Oncogene Proteins c-myc/genetics/chemistry/metabolism",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shukla, Kriti",
+        "Idanwekhai, Kelvin",
+        "Naradikian, Martin",
+        "Ting, Stephanie",
+        "Schoenberger, Stephen P",
+        "Brunk, Elizabeth"
+      ],
+      "short_names": [
+        "Shukla K",
+        "Idanwekhai K",
+        "Naradikian M",
+        "Ting S",
+        "Schoenberger SP",
+        "Brunk E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9201-1417",
+        "ORCID: 0000-0001-8578-8658"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+        "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+        "School of Pharmacy, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+        "La Jolla Institute for Immunology, San Diego, California 92093, United States.",
+        "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+        "Computational Medicine Program, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+        "La Jolla Institute for Immunology, San Diego, California 92093, United States.",
+        "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+        "Department of Pharmacology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+        "Integrative Program for Biological and Genome Sciences (IBGS), University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+        "Computational Medicine Program, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shukla, Kriti",
+        "short_name": "Shukla K",
+        "identifiers": [
+          "0000-0001-9201-1417"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States."
+        ]
+      },
+      {
+        "full_name": "Idanwekhai, Kelvin",
+        "short_name": "Idanwekhai K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+          "School of Pharmacy, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States."
+        ]
+      },
+      {
+        "full_name": "Naradikian, Martin",
+        "short_name": "Naradikian M",
+        "identifiers": [],
+        "affiliations": [
+          "La Jolla Institute for Immunology, San Diego, California 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Ting, Stephanie",
+        "short_name": "Ting S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+          "Computational Medicine Program, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States."
+        ]
+      },
+      {
+        "full_name": "Schoenberger, Stephen P",
+        "short_name": "Schoenberger SP",
+        "identifiers": [],
+        "affiliations": [
+          "La Jolla Institute for Immunology, San Diego, California 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Brunk, Elizabeth",
+        "short_name": "Brunk E",
+        "identifiers": [
+          "0000-0001-8578-8658"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+          "Department of Pharmacology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+          "Integrative Program for Biological and Genome Sciences (IBGS), University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States.",
+          "Computational Medicine Program, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27516, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Jul 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/18 12:45",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "41127930"
+    ],
+    "refs": [],
+    "similar": [
+      "38635316",
+      "31693276",
+      "34750410",
+      "34042443",
+      "32444882",
+      "33859744",
+      "32967239",
+      "33683866",
+      "38848164",
+      "31047860",
+      "24933113",
+      "31693199",
+      "27218803",
+      "28886340",
+      "25226451",
+      "34087198",
+      "37550700",
+      "31954159",
+      "30458782",
+      "30982610",
+      "7794075",
+      "23950728",
+      "15851686",
+      "27406314",
+      "27074591",
+      "25935309",
+      "30589856",
+      "31066146",
+      "21623162",
+      "32827579",
+      "34850938",
+      "19179065",
+      "26409771",
+      "27842494",
+      "29566172",
+      "30767168",
+      "21974937",
+      "38743747",
+      "38424045",
+      "29695509",
+      "29047157",
+      "37733863",
+      "38284225",
+      "32804369",
+      "33333034",
+      "23900255",
+      "28454513",
+      "33798442",
+      "31342580",
+      "33795749",
+      "31801603",
+      "27453575",
+      "31175057",
+      "23962656",
+      "32396837",
+      "38895336",
+      "34372920",
+      "30139745",
+      "22312254",
+      "38631107",
+      "28882004",
+      "16398931",
+      "38685113",
+      "35169226",
+      "29720103",
+      "34226917",
+      "26070438",
+      "31779139",
+      "21763417",
+      "16620027",
+      "36646775",
+      "32980694",
+      "32340957",
+      "26427040",
+      "34440739",
+      "30026326",
+      "31301154",
+      "29887378",
+      "27551915",
+      "25496089",
+      "28209135",
+      "21925595",
+      "21734707",
+      "27807179",
+      "27859590",
+      "11282029",
+      "32687525",
+      "24816822",
+      "30417935",
+      "18186470",
+      "23277146",
+      "31851693",
+      "38783704"
+    ],
+    "review": [
+      "38635316",
+      "38848164",
+      "24933113",
+      "31954159",
+      "32827579",
+      "19179065",
+      "29566172",
+      "32804369",
+      "33798442",
+      "23962656",
+      "32396837",
+      "22312254",
+      "38631107",
+      "31779139",
+      "16620027",
+      "29887378"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c01967",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

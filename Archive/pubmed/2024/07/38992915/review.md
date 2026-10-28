@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report computational screening of FDA-approved drugs against an allosteric site of the aryl hydrocarbon receptor (AhR), identify nilotinib as a candidate allosteric antagonist, and provide experimental evidence that nilotinib blocks canonical AhR signaling without affecting nuclear translocation, instead disrupting the AhR-ARNT-DNA heterodimer assembly.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, compound screening details, MD simulation parameters, experimental assay protocols, and dose-response data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting dual-mode mechanism for nilotinib on AhR, combining computational prediction with functional validation. However, the brevity of the abstract and absence of methodological detail preclude rigorous evaluation of the central claims. The mechanistic conclusion, particularly the proposed allosteric antagonism via the PAS-B domain, is not adequately supported by the evidence described. The work may be of interest to the drug repurposing and AhR biology communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in drug repurposing, xenobiotic metabolism, and AhR-mediated toxicology or oncology would find these results relevant. The proposed noncompetitive allosteric antagonism of AhR by an approved drug could inform new therapeutic strategies for conditions where AhR activation is pathogenic, and the computational approach may interest structural pharmacologists.
+- **Major strengths** The study addresses a clinically relevant target with a drug repurposing strategy, which has translational appeal. The combination of computational screening, MD simulations, and functional assays suggests a multi-pronged approach. The surprising observation that nilotinib does not block nuclear translocation but disrupts downstream heterodimer formation is mechanistically interesting and distinguishes this from typical AhR antagonists.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that nilotinib acts as a noncompetitive allosteric antagonist capable of blocking canonical AhR signaling in the presence of potent agonists.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The mechanistic conclusion is stated without presentation of dose-response curves, competitive binding assays, or kinetic analyses that would distinguish noncompetitive from competitive antagonism. The claim that nilotinib modulates AhR via the PAS-B domain while binding to an allosteric site between alpha2 of bHLH and PAS-A is internally inconsistent, as the abstract does not explain how a ligand at one site exerts effects through a different domain.
+  - **Why it matters** Noncompetitive allosteric antagonism is a specific mechanistic designation that requires functional evidence of altered maximal response without changed agonist affinity. Without such data, the central mechanistic claim is unsubstantiated, and the proposed dual-site model is not coherently articulated.
+  - **Resolution test** Provide competitive binding data, Schild analysis or equivalent, and mutagenesis or domain-specific functional assays that directly link the proposed allosteric site to the observed antagonism. Clarify the relationship between the PAS-A binding site and the claimed PAS-B-mediated modulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and validation
+  - **Claim pointer** The abstract states that nilotinib effectively fits into the allosteric pocket and forms interactions with residues F82, Y76, and Y137, with the lowest binding free energy among top hits.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No computational details are provided, including the screening library size, docking software, scoring functions, MD simulation length, force field, or convergence criteria. The binding free energy calculation method is not specified, and no error estimates or comparison to positive or negative controls are given.
+  - **Why it matters** Computational predictions are highly method-dependent. Without these details, the reliability of the docking and MD results cannot be assessed, and the claim that nilotinib is the best hit is not verifiable.
+  - **Resolution test** Provide full computational methods, including software versions, parameters, validation of docking protocol against known ligands, and MD simulation convergence metrics. Include error bars or standard deviations for binding free energy estimates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support
+  - **Claim pointer** The abstract claims that nilotinib hinders the formation of the functional AhR-ARNT-DNA heterodimer assembly and prevents upregulation of CYP1A1.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The experimental evidence for these functional claims is not described. No assay types, concentrations, cell lines, exposure times, or statistical analyses are mentioned. The abstract does not state whether the effects were dose-dependent or whether cytotoxicity was excluded as a confounding factor.
+  - **Why it matters** Functional claims about transcriptional inhibition require robust experimental validation. Without knowing the assay conditions and demonstrating specificity, the observed effects could be due to off-target toxicity or nonspecific inhibition.
+  - **Resolution test** Describe the experimental systems, including cell lines, agonist and nilotinib concentrations, assay formats (e.g., reporter gene, Western blot, qPCR, EMSA), and include dose-response and viability data. Show that nilotinib does not affect AhR expression or general transcription machinery.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Mechanistic model
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that nilotinib binds to an allosteric site between alpha2 of bHLH and PAS-A, yet later claims modulation via the PAS-B domain. This apparent contradiction is not resolved.
+  - **Required correction** Clarify whether the allosteric site is distinct from the PAS-B domain and explain how binding at the identified site leads to PAS-B-mediated effects, or revise the mechanistic model for consistency.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Allosteric antagonist"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "allosteric antagonist" is used without defining whether it refers to a site distinct from the orthosteric ligand-binding pocket or to a functional mode of antagonism. The abstract also mentions nilotinib binding to the orthosteric site, which complicates the allosteric designation.
+  - **Required correction** Define the operational meaning of "allosteric" in this context and reconcile the dual-site binding description with the antagonist classification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Drug repurposing claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract concludes that findings open a new avenue for repurposing nilotinib in AhR-mediated diseases, but no in vivo data or disease-relevant models are presented.
+  - **Required correction** Soften the translational claim or provide additional context on how the in vitro and computational findings might translate, while acknowledging the need for further validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The mechanistic designation of noncompetitive allosteric antagonism is not supported by the evidence described, computational methods are not reproducible from the abstract, and functional claims lack experimental detail.
+- **Assessment against Nature-style criteria** Originality: The concept of targeting an allosteric site on AhR with approved drugs is moderately original, though allosteric modulation of AhR has been previously explored. Scientific importance: AhR is a relevant therapeutic target, and drug repurposing has translational value, but the significance of the specific findings cannot be fully assessed without data. Interdisciplinary readership: The work bridges computational chemistry, structural biology, and pharmacology, which could appeal to a broad audience if fully validated. Technical soundness: Not assessable from the abstract; the lack of methodological detail prevents evaluation of the computational and experimental rigor. Readability for nonspecialists: The abstract is generally readable but uses domain-specific terms without sufficient context, and the mechanistic inconsistency reduces clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the central mechanistic claims are not supported by the evidence described, and the lack of methodological detail prevents verification. Supportive if technical concerns are resolved with full data and methods.
+
+## Risk / unsupported claims
+- The claim that nilotinib is a noncompetitive allosteric antagonist is unsupported without kinetic or binding assays.
+- The claim that nilotinib modulates AhR via the PAS-B domain is unsupported and inconsistent with the stated binding site.
+- The claim that nilotinib has the lowest binding free energy among top hits is unverifiable without computational details.
+- The claim that nilotinib prevents AhR-ARNT-DNA heterodimer formation is unsupported without assay descriptions.
+- The translational claim regarding drug repurposing for AhR-mediated diseases is premature without in vivo or disease-relevant data.

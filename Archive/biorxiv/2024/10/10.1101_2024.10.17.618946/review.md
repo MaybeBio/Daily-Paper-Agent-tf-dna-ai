@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific content, experimental logic, internal consistency, and support of claims by presented data; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors propose that TCF25 imposes K48-linkage specificity on Listerin-mediated ubiquitination of nascent chains by directly binding the acceptor ubiquitin and orienting its K48 residue toward the E2∼Ub thioester bond, based on biochemical assays and an AlphaFold3 model
+- **Visible evidence base** In vitro ubiquitination assays of 60S RNCs, Ube2D1 C85S∼Ub oxyester hydrolysis assays, Listerin auto-ubiquitination assays, TCF25 ubiquitination and proteasomal degradation assays, FLAG pull-down assays, di-ubiquitin formation assays, AlphaFold3 modeling, and site-directed mutagenesis of TCF25, Listerin, and ubiquitin
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; no raw data, quantification, or statistical analysis; no experimental details for AlphaFold3 parameters or confidence metrics; no negative controls for some pull-down experiments; no structural validation beyond mutational correlation
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and unresolved question in ribosome-associated quality control: how a RING-type E3 ligase achieves linkage specificity when paired with a promiscuous E2. The authors present a plausible and mechanistically attractive model in which TCF25 acts as an adaptor that binds and orients the acceptor ubiquitin. The biochemical data are largely consistent with this model, and the mutational analysis provides reasonable correlative support. However, the central claim rests heavily on an AlphaFold3 model that is not experimentally validated by direct structural or biophysical methods, and several key experiments lack appropriate controls or quantification. The manuscript is technically sound in its overall approach but the case for the proposed mechanism is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying ubiquitin signaling, RING E3 ligase mechanisms, ribosome-associated quality control, and protein homeostasis. The finding that a non-enzymatic factor can impose linkage specificity on a RING E3 by orienting the acceptor ubiquitin is conceptually novel and would interest the broader ubiquitin field. The proposed mechanism of TCF25 autoregulation via Listerin-mediated degradation would also interest those studying RQC regulation.
+- **Major strengths** 1) The study addresses a mechanistically important and previously unresolved question. 2) The combination of functional biochemistry with AlphaFold3 modeling is a modern and potentially powerful approach. 3) The mutational analysis is systematic and includes both TCF25 and Listerin residues, as well as ubiquitin residues. 4) The finding that TCF25 itself undergoes K48-specific ubiquitination and proteasomal degradation provides a potential regulatory link. 5) The manuscript is clearly written and the logic is generally easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Central claim support
+  - **Claim pointer** The authors claim that TCF25 imposes K48 specificity by binding and orienting the acceptor ubiquitin such that its K48 is positioned to attack the thioester bond of the E2∼Ub conjugate
+  - **Evidence pointer** Results section, Figures 3-5 (figures not provided)
+  - **Concern** The central mechanistic claim is based primarily on an AlphaFold3 model that is not validated by any direct structural, biophysical, or crosslinking data. The mutational experiments provide correlative support but do not directly demonstrate that TCF25 orients UbA in the proposed manner. The model predicts specific contacts, but the functional data only show that mutations in predicted contact residues reduce activity; they do not show that the orientation mechanism is correct. Alternative explanations, such as TCF25 simply increasing local ubiquitin concentration or stabilizing a different conformational state, are not excluded.
+  - **Why it matters** The proposed orientation mechanism is the central novel claim of the manuscript. Without direct evidence for the physical orientation of UbA relative to the E2∼Ub thioester, the mechanism remains speculative. The distinction between "orienting" and "recruiting" has important conceptual implications for how RING E3s achieve linkage specificity.
+  - **Resolution test** Provide direct structural or biophysical evidence for the TCF25-UbA interaction and its orientation, such as NMR, crosslinking-mass spectrometry, or a high-resolution structure of the complex. Alternatively, use a FRET-based or single-molecule assay to directly monitor UbA orientation during ubiquitination. At minimum, show that TCF25 binds UbA directly with measurable affinity and that this binding is required for K48 specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and controls
+  - **Claim pointer** The authors claim that TCF25 stimulates formation of the active conformation of E2∼Ub based on hydrolysis of the Ube2D1 C85S∼Ub oxyester conjugate
+  - **Evidence pointer** Results section, Figure 1B (figure not provided)
+  - **Concern** The hydrolysis assay is described as showing that TCF25 stimulates hydrolysis of the oxyester conjugate, but no quantification is provided. The text states "no meaningful hydrolysis occurred without 60S subunits" and "slow, low-level hydrolysis was observed in the presence of 60S subunits alone," but the magnitude of the TCF25 effect is not quantified. It is unclear whether the stimulation is robust, reproducible, or statistically significant. Additionally, the assay uses a non-physiological oxyester linkage, and it is unclear how well this reports on the thioester bond in the actual E2∼Ub conjugate.
+  - **Why it matters** The hydrolysis assay is used to support the claim that TCF25 promotes the active conformation of E2∼Ub, which is a key part of the proposed mechanism. Without quantification and statistical analysis, the strength of this effect cannot be assessed. The oxyester conjugate may not faithfully recapitulate the behavior of the native thioester.
+  - **Resolution test** Provide quantified data with replicates and statistical analysis for the hydrolysis assay. Include a time course and dose-response for TCF25. Validate the oxyester assay by comparing with a thioester conjugate where feasible, or justify the use of the oxyester surrogate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic completeness
+  - **Claim pointer** The authors claim that TCF25 itself undergoes K48-specific ubiquitination by Listerin, suggesting a mechanism for regulation of TCF25 levels
+  - **Evidence pointer** Results section, Figure 2A-B (figures not provided)
+  - **Concern** The finding that TCF25 is ubiquitinated by Listerin is presented as a regulatory mechanism, but the functional significance is not explored. The authors do not test whether TCF25 ubiquitination affects its activity, stability, or interaction with the RQC complex. The claim that this explains the upregulation of Rqc1 in the absence of Ltn1 is speculative and not directly tested. The in vivo relevance of TCF25 ubiquitination is not established.
+  - **Why it matters** The proposed autoregulatory loop is an interesting observation but is presented as a conclusion without direct evidence. If TCF25 ubiquitination is merely a bystander effect of its proximity to Listerin, the regulatory claim would be weakened. The in vivo significance is important for the broader impact of the work.
+  - **Resolution test** Test whether TCF25 ubiquitination affects its half-life in cells, whether proteasome inhibition stabilizes TCF25, and whether TCF25 ubiquitination is dependent on its interaction with Listerin. Use a non-ubiquitinatable TCF25 mutant to test functional consequences on RQC activity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation and generalizability
+  - **Claim pointer** The authors claim that the AlphaFold3 model is validated by mutational analysis of predicted contact residues
+  - **Evidence pointer** Results section, Figures 4-5 (figures not provided)
+  - **Concern** The mutational analysis tests a limited set of residues and does not include a comprehensive alanine scan of the predicted interface. The authors do not test whether the mutations disrupt TCF25 binding to UbA directly, only that they reduce ubiquitination activity. It is possible that the mutations cause global misfolding or disrupt other interactions. The authors also do not test whether the predicted TCF25-UbA interface is conserved across species or whether the mechanism applies to other E2 enzymes beyond Ube2D1.
+  - **Why it matters** The mutational data are the primary experimental support for the AlphaFold3 model. Without direct binding assays or a more comprehensive mutational analysis, the model remains under-validated. The generalizability of the mechanism to other E2s and to yeast Rqc1 is important for the broader significance.
+  - **Resolution test** Perform direct binding assays (e.g., pull-down or ITC) with wild-type and mutant TCF25 and UbA. Include a more comprehensive set of interface mutations. Test whether the mechanism applies to Ube2E family E2s and whether yeast Rqc1 functions similarly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Results section, Figure 1A (figure not provided)
+  - **Issue** The text states that TCF25 was active along the entire length of the ubiquitination window, but the data are not quantified. It is unclear whether the efficiency of ubiquitination varies across the window positions.
+  - **Required correction** Provide quantification of ubiquitination efficiency at each lysine position, with appropriate normalization and statistical analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Listerin* purification
+  - **Evidence pointer** Results section, Figure 1C-D (figure not provided)
+  - **Concern** The occasional purification of Listerin* is described but the conditions leading to this state are not characterized. It is unclear whether this is a reproducible phenomenon or an artifact of a particular preparation.
+  - **Required correction** Provide more detail on the conditions that lead to Listerin* purification and whether this state can be reproducibly generated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model limitations
+  - **Affected element** AlphaFold3 model
+  - **Evidence pointer** Results section, Figure 3 (figure not provided)
+  - **Issue** The AlphaFold3 model is described as being generated without the 60S ribosomal context. The authors acknowledge this limitation but do not discuss how the absence of the ribosome might affect the predicted interactions, particularly given that Listerin's RING domain can occupy different positions relative to the 60S subunit.
+  - **Required correction** Add a discussion of how the lack of ribosomal context might affect the model and whether the proposed TCF25-UbA interaction is compatible with the known positions of Listerin on the ribosome.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of how TCF25's mechanism compares to other systems where accessory factors impose linkage specificity is brief. A more thorough comparison with, for example, Ube2V1/Ube2V2-mediated K63 specificity or Ube2R2-Cdc34 interactions would strengthen the conceptual framing.
+  - **Required correction** Expand the discussion to place the TCF25 mechanism in the broader context of how linkage specificity is achieved in ubiquitin signaling.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative assays
+  - **Evidence pointer** Methods and Results sections
+  - **Issue** No statistical methods are described and no error bars or significance tests are reported for any of the biochemical assays.
+  - **Required correction** Add statistical analysis for all quantitative experiments, including replicates, error bars, and significance testing where appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct evidence for the orientation mechanism), R1-M2 (lack of quantification and controls in the hydrolysis assay), R1-M3 (speculative regulatory claim without functional validation)
+- **Assessment against Nature-style criteria** Originality: High. The proposed mechanism, in which a non-enzymatic factor imposes linkage specificity by orienting the acceptor ubiquitin, is conceptually novel and would be of broad interest to the ubiquitin field. Scientific importance: High. Understanding how RING E3 ligases achieve linkage specificity is a fundamental question in ubiquitin biology, and the RQC pathway is of significant physiological and pathological relevance. Interdisciplinary readership: Moderate to high. The work would appeal to biochemists, structural biologists, and cell biologists studying protein quality control and ubiquitin signaling. Technical soundness: Moderate. The biochemical approaches are appropriate, but the central claim relies heavily on an unvalidated AlphaFold3 model, and several experiments lack quantification and controls. Readability for nonspecialists: Good. The manuscript is clearly written and the logic is easy to follow, though some familiarity with ubiquitin biochemistry is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The proposed mechanism is plausible and the data are largely consistent with it, but the central claim requires direct structural or biophysical validation, and the key experiments need quantification and appropriate controls. The regulatory implications of TCF25 ubiquitination require functional validation in a cellular context.
+
+## Risk / unsupported claims
+- The claim that TCF25 "orients" UbA such that K48 is positioned to attack the thioester bond is not directly supported by the provided evidence; the AlphaFold3 model is predictive, not experimental
+- The claim that TCF25 ubiquitination by Listerin explains the upregulation of Rqc1 in the absence of Ltn1 is speculative and not directly tested
+- The claim that TCF25 does not interact with E2 enzymes is based on the model and indirect functional data, not on direct binding assays
+- The claim that the AlphaFold3 model is "validated" by the mutational analysis is overstated; the mutations show correlation, not causation
+- The physiological relevance of the in vitro findings is not established; no experiments in cells or organisms are presented

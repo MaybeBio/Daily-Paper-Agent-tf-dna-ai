@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, conclusions, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to the evidence presented, and clarity of presentation. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors present a deep learning model (CycPred) trained on loop-seq cyclizability data from yeast, apply it to predict DNA flexibility across eight species from different kingdoms, and report associations between predicted local flexibility and genomic features including transcription start sites, transcription factor binding, DNA methylation, de novo and fixed mutations, and Spo11-associated double-strand break sites.
+- **Visible evidence base** Main text figures 1–10 as referenced, supplementary figures S1–S4 as referenced, and the methods descriptions provided. Raw data, model weights, and code are stated to be available via figshare and GitHub, but were not inspected.
+- **Missing materials affecting confidence** The manuscript text was provided without figures, figure legends, or supplementary material. Consequently, all references to figures and supplementary figures could not be directly verified. The training and test data splits, hyperparameter details, and model architecture specifics are only partially described. The exact statistical tests used for several comparisons are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question, namely whether DNA mechanical properties predicted at genomic scale can reveal functional associations. The development of CycPred and its application across multiple species is a reasonable and potentially useful contribution. However, the manuscript is largely descriptive and correlational, and several key claims are not fully supported by the evidence as presented. The reliance on a single training dataset from yeast, the absence of direct experimental validation in the species analyzed, and the lack of clear statistical frameworks for several comparisons weaken the overall case. The manuscript would benefit from a more rigorous treatment of confounding factors and from explicit statements about the limitations of cross-species prediction.
+- **Who would be interested in the results, and why** Researchers studying DNA mechanics, chromatin structure, transcription regulation, and genome evolution would find the results of interest. The application of a predictive model to multiple genomes and the observed associations with mutation rates and TF binding could inform hypotheses about the functional role of DNA flexibility. The work may also be of interest to computational biologists developing sequence-based predictors of biophysical properties.
+- **Major strengths** The study addresses a relevant and under-explored question about the genomic distribution and potential functional significance of DNA flexibility. The use of a deep learning approach trained on experimental loop-seq data is appropriate and the reported prediction accuracy is high. The analysis spans multiple species from different kingdoms, which adds breadth. The observation that dinucleotide composition largely explains the average flexibility profiles around TSSs is a useful and clearly demonstrated finding. The authors are appropriately cautious in several places, acknowledging that associations do not imply causation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CycPred generalizes across species and that predictions in other species are valid, based on training on yeast data and the assumption of universal sequence-structure relationships.
+  - **Evidence pointer** Materials and methods, "Design and training of the deep learning model"; Results, "The CNN/LSTM-based CycPred model"; Discussion, paragraph on cross-species transfer.
+  - **Concern** The model is trained exclusively on yeast loop-seq data and applied to other species without any experimental validation in those species. The authors argue that DNA is a universal polymer and that the model should transfer, but this is an assumption, not a demonstrated fact. Sequence-structure relationships may be conserved, but the quantitative relationship between sequence and cyclizability could differ across species due to differences in chromatin context, DNA modifications, or other factors. The manuscript does not provide any evidence that the predictions in non-yeast species are accurate. This is a fundamental limitation that affects the validity of all downstream analyses in other species.
+  - **Why it matters** If the model predictions are not accurate in non-yeast species, then all reported associations between predicted flexibility and genomic features in those species are potentially artifacts. The central claims of the manuscript depend on the validity of cross-species prediction.
+  - **Resolution test** Provide experimental validation of predicted cyclizability for a set of sequences from at least one non-yeast species, or clearly state and justify the assumption of universality with supporting evidence from the literature. Alternatively, retrain and test the model on data from another species if available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report significant associations between predicted flexibility and various genomic features, including mutation rates, methylation status, and TF binding.
+  - **Evidence pointer** Results, sections on de novo mutations, fixed SNPs, methylation, and TF binding; figures 8–10 as referenced.
+  - **Concern** The statistical framework for these comparisons is not described in sufficient detail. It is unclear what null models were used, how multiple testing was addressed, and whether confounding factors such as GC content, chromatin state, or sequence composition were controlled for. The authors report effect sizes, which is commendable, but the significance testing is not fully described. Given the large number of genomic windows analyzed, even small effect sizes will be statistically significant, and the biological relevance of these effects is not discussed in the context of the statistical power.
+  - **Why it matters** Without a clear statistical framework, the reported associations cannot be properly evaluated. The reader cannot determine whether the observed effects are robust or whether they could arise from known confounders.
+  - **Resolution test** Provide a detailed description of the statistical tests used, including null models, correction for multiple testing, and adjustment for potential confounders. Where effect sizes are small, discuss their biological relevance explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors state that "mutation rates may be linked to local DNA mechanical properties, with rigid areas being more susceptible to SNPs and, in particular, indel mutations."
+  - **Evidence pointer** Results, "De novo mutations and fixed SNPs in Arabidopsis thaliana appear more frequently in rigid genomic DNA contexts"; figure 10 as referenced.
+  - **Concern** The direction of causality is unclear. The authors suggest that rigid DNA may be more susceptible to mutations, but it is equally possible that mutations alter local DNA flexibility, or that both are influenced by a third factor such as chromatin state or replication timing. The manuscript does not address these alternative explanations. Furthermore, the analysis of fixed SNPs is potentially confounded by selection, as fixed variants have passed through the filter of natural selection and may not reflect the mutational process directly.
+  - **Why it matters** The claim about mutation susceptibility is potentially interesting but requires a more careful treatment of causality and confounding. As presented, the evidence supports only a correlational statement.
+  - **Resolution test** Discuss alternative explanations explicitly. If possible, analyze mutation spectra or use a framework that can distinguish between mutation and selection effects. At minimum, soften the causal language and clearly state that the observed associations are correlational.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** The authors state that "no motif beyond dimers was identified" using TF-MoDISco, yet they confirm a previously reported motif (GAAGAGC) as a strong indicator of high flexibility.
+  - **Evidence pointer** Results, "Dinucleotide composition is a driving factor of averaged local DNA-rigidity profiles"; Discussion, paragraph on motif identification.
+  - **Concern** The description of the motif analysis is brief and lacks detail. It is unclear how the TF-MoDISco analysis was performed, what parameters were used, and how the absence of higher-order motifs was determined. The confirmation of the GAAGAGC motif is presented without quantitative comparison to the original report. The relationship between this motif-level finding and the earlier conclusion that dinucleotides dominate the average profiles is not fully reconciled.
+  - **Why it matters** The motif analysis is presented as a supporting result, but the lack of detail prevents the reader from evaluating its validity. The relationship between dinucleotide-level and higher-order sequence determinants of flexibility is an important point that deserves clearer treatment.
+  - **Resolution test** Provide a more detailed description of the motif analysis, including parameters and thresholds. Quantitatively compare the identified motif to the previously reported one. Discuss how the motif-level findings relate to the dinucleotide-level conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence.
+  - **Issue** The abstract states that the study presents "a range of significant correlations" but does not give any indication of the magnitude or direction of the most important findings.
+  - **Required correction** Consider including one or two specific quantitative findings in the abstract to give readers a clearer sense of the results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, "Design and training of the deep learning model"
+  - **Evidence pointer** Materials and methods, "Design and training of the deep learning model".
+  - **Issue** The description of the model architecture and training procedure is brief. Details such as the number of layers, filter sizes, learning rate, batch size, and number of epochs are not provided.
+  - **Required correction** Provide a complete description of the model architecture and training hyperparameters, or refer to a publicly available configuration file.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "Genomic DNA of many eukaryotes is significantly more rigid than expected by random chance"
+  - **Evidence pointer** Results, "Genomic DNA of many eukaryotes is significantly more rigid than expected by random chance"; figure 7 as referenced.
+  - **Issue** The authors report that non-vertebrate eukaryotes are more rigid than expected, while vertebrates are more flexible. The biological interpretation of this difference is not discussed in depth.
+  - **Required correction** Add a brief discussion of possible explanations for the observed differences between taxonomic groups, or explicitly state that the reasons are unknown.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Sites that can undergo methylation in Arabidopsis thaliana show no preference in local cyclizability"
+  - **Evidence pointer** Results, "Sites that can undergo methylation in Arabidopsis thaliana show no preference in local cyclizability"; figure 9 as referenced.
+  - **Issue** The authors report small effect sizes for methylation-associated flexibility differences and conclude no biologically relevant preference. The threshold for "biologically relevant" is not defined.
+  - **Required correction** Define what effect size would be considered biologically relevant, or rephrase the conclusion to state that no large effect was observed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion, paragraph on limitations
+  - **Evidence pointer** Discussion, final paragraphs.
+  - **Issue** The discussion of limitations is brief and does not address the potential impact of using a single training species on the generality of the findings.
+  - **Required correction** Expand the limitations section to explicitly discuss the cross-species transfer assumption and its potential impact on the conclusions.
+- **Technical failings that need to be addressed before the case is established** The cross-species validity of the model predictions is not established (R1-M1). The statistical framework for the genomic feature comparisons is insufficiently described (R1-M2). The causal interpretation of the mutation-flexibility association is not justified (R1-M3). The motif analysis is under-described (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The application of a deep learning model to predict genomic-scale flexibility across species is somewhat novel, though it builds directly on prior work by Basu et al. and Li et al. The specific findings regarding TSS-proximal flexibility and mutation associations add incremental novelty. Scientific importance: The question of whether DNA mechanical properties have functional significance is important, but the manuscript provides mostly correlational evidence and does not establish functional relevance. The potential link between flexibility and mutation rates is intriguing but not mechanistically explored. Interdisciplinary readership: The topic bridges genomics, biophysics, and molecular biology, and the manuscript is generally accessible. However, the lack of clear statistical detail may limit its usefulness to readers outside computational biology. Technical soundness: The model development appears sound based on the reported performance metrics, but the downstream analyses lack statistical rigor and the cross-species generalization is assumed rather than demonstrated. Readability for nonspecialists: The manuscript is clearly written and the main concepts are explained adequately. The figures, which were not available for review, would likely aid comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the model appears to perform well, but the manuscript currently does not establish the validity of cross-species predictions or the robustness of the reported associations. Addressing the statistical framework and providing some form of validation in non-yeast species would substantially strengthen the case.

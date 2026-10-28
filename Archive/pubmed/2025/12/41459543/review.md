@@ -1,0 +1,125 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, ethics statement, author contributions, conflict of interest, generative AI statement, publisher's note, acknowledgments)
+- **Assessment boundary** Scientific content, methodological rigor, statistical validity, logical coherence, and support of claims by presented evidence. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report that the SCGB1A1 rs3741240 (G38A) polymorphism is associated with COPD risk in a West Bengal, India cohort (224 patients, 194 controls), with the AA genotype linked to reduced FEV1 and FEV1/FVC, and reduced SCGB1A1 mRNA and CC16 protein expression. In silico analyses suggest miRNA hsa-miR-11181-3p and transcription factors SMAD1, HAND1, and HAND2 may mediate this downregulation.
+- **Visible evidence base** Genotyping data (PCR-RFLP, Sanger validation), spirometry data, qRT-PCR and Western blot data, in silico predictions (miRDB, RNA22 v2, hTFtarget, HDOCK, DNAproDB), statistical analyses (chi-square, GLM, ANOVA, odds ratios, power calculation)
+- **Missing materials affecting confidence** Raw data files, full statistical outputs, figure images (referenced but not provided), primer and restriction enzyme details (Table 1 referenced but not shown), demographic table (Table 2 referenced but not shown), genotype/allele frequency table (Table 3 referenced but not shown), GLM output table (Table 4 referenced but not shown), supplementary tables (Tables 5-9 referenced but not shown), Western blot images, qRT-PCR amplification plots, and detailed methods for in silico docking validations
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant and understudied question: whether the SCGB1A1 rs3741240 variant contributes to COPD susceptibility in an Indian population. The study combines genetic association, expression analysis, and computational predictions. However, several critical issues undermine the strength of the conclusions. The sample size is modest, the statistical approach has inconsistencies, the expression analyses lack methodological detail, and the in silico findings are presented as supportive without adequate validation. The claim of being "first in an Indian population" is plausible but not verifiable from the provided material. The causal link between the variant and CC16 downregulation is not established by the data presented.
+- **Who would be interested in the results, and why** Respiratory geneticists and COPD researchers interested in population-specific genetic risk factors; clinicians involved in COPD management in South Asian populations; researchers studying SCGB1A1/CC16 biology. The findings could inform future replication studies and meta-analyses in Indian and other South Asian cohorts.
+- **Major strengths** 1) Addresses a genuine gap in population-specific COPD genetics. 2) Combines genetic, transcriptional, and protein-level data. 3) Includes in silico mechanistic exploration. 4) Reports power calculation. 5) Validates RFLP results with Sanger sequencing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The authors claim significant association between rs3741240 genotypes and COPD risk under additive, recessive, and dominant models (P = 0.01, 0.01, 0.03 respectively), and report odds ratios including OR = 6.43 for AA genotype.
+  - **Evidence pointer** Results section, "Allele and genotype analysis"; Table 3 (not provided)
+  - **Concern** The statistical framework is incompletely described. The authors report P values for three genetic models but do not state whether multiple testing correction was applied. The OR = 6.43 for AA genotype appears to be derived from a comparison against GG, but the reference group and adjustment for covariates (age, sex, smoking) are not specified. The GLM analysis is mentioned but the model specification, covariates included, and goodness-of-fit are not described. The power calculation (88.63%) is reported without stating the assumed effect size, allele frequency, or genetic model used. Without these details, the robustness of the association claim cannot be assessed.
+  - **Why it matters** The central claim of the manuscript is a genetic association. If the statistical analysis is not rigorously specified, the association may be spurious or inflated. Population stratification, which is a major concern in Indian cohorts given the genetic diversity, is not addressed.
+  - **Resolution test** Provide full model specifications, covariate adjustments, multiple testing correction, and a population stratification analysis (e.g., principal component analysis or genomic control). Report effect sizes with confidence intervals for all models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors claim that SCGB1A1 mRNA and CC16 protein expression are significantly reduced in patients bearing the 38AA genotype compared to GA and GG genotypes.
+  - **Evidence pointer** Results section, "SCGB1A1 mRNA expression in polymorphic variants via qRTPCR analysis" and "Assessment of CC16 protein expression by Western blot"; Figures 1F-H (not provided)
+  - **Concern** The qRT-PCR and Western blot methods are inadequately described. The number of biological replicates per genotype group is not stated. The text mentions "three representative samples per SCGB1A1 variant" for Western blot, but the total number of samples analyzed is unclear. Normalization strategies (reference genes beyond GAPDH, RNA quality thresholds) are not described. The statistical test used for expression comparisons is not specified beyond "one-way ANOVA followed by post hoc Tukey analysis with Bonferroni correction," but the sample sizes per group are not given. The Western blot quantification method is described as using ImageJ, but loading controls, linearity of detection, and replicate numbers are not detailed.
+  - **Why it matters** The expression data are central to the claim that the variant downregulates CC16. Without adequate methodological detail and sample size information, the reliability of these findings cannot be evaluated. Small sample sizes in expression analyses can lead to false positives.
+  - **Resolution test** Provide complete details on sample numbers per genotype group, biological and technical replicates, normalization methods, statistical tests with exact P values, and representative Western blot images with molecular weight markers and loading controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The title and conclusion state that the rs3741240 variant "downregulates CC16" and that this is a "molecular insight into COPD pathogenesis."
+  - **Evidence pointer** Title; Abstract; Discussion section
+  - **Concern** The study design is cross-sectional and correlational. The association between genotype and reduced CC16 expression does not establish causality. The in silico predictions of miRNA and transcription factor binding are computational only and are not validated experimentally. The authors acknowledge this limitation in the Discussion, but the title and framing of the manuscript overstate the causal claim. The phrase "downregulates" implies a functional effect that is not directly demonstrated.
+  - **Why it matters** Causal language in the title and conclusions can mislead readers and influence clinical interpretation. The distinction between association and causation is critical in genetic epidemiology.
+  - **Resolution test** Revise the title and conclusions to reflect association rather than causation. Alternatively, provide functional validation (e.g., reporter assays, siRNA knockdown, overexpression studies) demonstrating that the variant directly affects SCGB1A1 expression.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In silico methodology
+  - **Claim pointer** The authors claim that in silico analyses identified miRNA hsa-miR-11181-3p and transcription factors SMAD1, HAND1, and HAND2 that may mediate reduced CC16 expression.
+  - **Evidence pointer** Results section, "In silico study of SCGB1A1 polymorphic variants"; Tables 5-9 (not provided); Figures 3-5 (not provided)
+  - **Concern** The in silico pipeline has several issues. First, the use of miRDB to identify miRNAs targeting the 5' UTR is unusual, as miRDB primarily predicts miRNA targets in 3' UTRs. The authors state they selected "5' UTR from the dropdown list," but the validity of this approach is not established. Second, RNA22 v2 predictions are based on folding energy, but the threshold for "stronger binding affinity" is not defined. Third, the transcription factor analysis uses hTFtarget, but the selection of the 20-nucleotide stretch is not justified. Fourth, the docking studies with HDOCK are presented without validation of the docking protocol or scoring function. The claim that "the mutant promoter did not alter the binding affinity of these three TFs" is based on docking scores that are not reported with statistical significance.
+  - **Why it matters** The in silico results are used to propose a mechanistic hypothesis. If the computational methods are not robust or appropriately applied, the proposed mechanism is speculative and may misdirect future research.
+  - **Resolution test** Provide detailed parameters for each in silico tool, justify the choice of tools for 5' UTR analysis, report all docking scores with confidence intervals, and validate predictions with experimental data (e.g., luciferase reporter assays, electrophoretic mobility shift assays).
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Population genetics
+  - **Claim pointer** The authors claim that the rs3741240 AA genotype is associated with higher COPD risk, with sex-specific and age-specific differences, and that the risk is higher in rural and semi-urban areas.
+  - **Evidence pointer** Results section, "Allele and genotype analysis"; Table 3 (not provided)
+  - **Concern** The population structure of the West Bengal cohort is not described. India has significant genetic heterogeneity across caste, tribal, and geographic lines. The authors do not report any ancestry-informative markers, principal component analysis, or adjustment for population stratification. The sex-specific analysis (OR = 25.10 for females) is based on a small number of female patients, and the confidence intervals are not reported. The geographic analysis (rural vs. urban) is confounded by socioeconomic status, access to healthcare, and environmental exposures that are not measured.
+  - **Why it matters** Population stratification can produce spurious associations. The very large odds ratios reported for subgroups (e.g., OR = 25.10 for females, OR = 45.61 for old COPD) suggest possible small sample sizes or confounding. These findings need replication and careful adjustment.
+  - **Resolution test** Report allele frequencies by subgroup with confidence intervals, perform stratification analysis or genomic control, and adjust for relevant covariates. Provide a table of subgroup sample sizes.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical relevance
+  - **Claim pointer** The authors suggest that the findings have "potential for precision medicine in management" of COPD.
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The clinical utility of this single SNP in a modest cohort is not established. The positive predictive value, sensitivity, and specificity of the AA genotype for COPD risk are not reported. The interaction with smoking, the most important environmental risk factor, is not analyzed in detail. The claim of precision medicine potential is speculative without evidence of clinical validity or utility.
+  - **Why it matters** Overstating clinical implications can lead to premature translation and unrealistic expectations. Precision medicine claims require evidence of clinical utility, not just statistical association.
+  - **Resolution test** Provide a clear statement of the clinical context in which this SNP would be used, with calculations of predictive values and a discussion of the limitations of single-SNP approaches in complex diseases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting quality
+  - **Affected element** Methods section, "Study subject"
+  - **Evidence pointer** Materials and methods, "Study subject"
+  - **Issue** The exclusion criteria are not described. The authors state that 28 participants were excluded due to "other respiratory diseases, pregnancy, or failure to provide a written informed consent," but the specific respiratory diseases and the criteria for diagnosis are not specified.
+  - **Required correction** Provide a complete list of exclusion criteria and the number of participants excluded for each reason.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, "Allele and genotype analysis"
+  - **Evidence pointer** Results section, "Allele and genotype analysis"; Table 3 (not provided)
+  - **Issue** The authors report P values for genotype and allele frequency comparisons but do not report the test statistic values or degrees of freedom. The Hardy-Weinberg equilibrium P value is reported as χ2 = 0.54, df = 1, but the corresponding P value is not stated.
+  - **Required correction** Report test statistics, degrees of freedom, and exact P values for all comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section, "SCGB1A1 mRNA expression in polymorphic variants via qRTPCR analysis"
+  - **Evidence pointer** Results section, "SCGB1A1 mRNA expression in polymorphic variants via qRTPCR analysis"; Figure 1F (not provided)
+  - **Issue** The fold-change values for mRNA expression are not reported numerically. The text states that expression was "significantly decreased" but does not provide the magnitude of the decrease.
+  - **Required correction** Report mean fold-change values with standard deviations and 95% confidence intervals for each genotype group.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Abstract, "Conclusion"
+  - **Evidence pointer** Abstract, "Conclusion"
+  - **Issue** The phrase "first to reports" is grammatically incorrect. It should be "first to report."
+  - **Required correction** Correct the grammatical error.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion cites several studies (e.g., references 34, 35, 36, 37, 38, 39) but does not provide sufficient context for how these studies relate to the present findings. For example, the relevance of the Han et al. (35) study on sex differences in COPD mortality to the present sex-specific genetic association is not clearly articulated.
+  - **Required correction** Expand the discussion of how prior studies support or contrast with the present findings.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The data availability statement indicates deposition in ClinVar with accession SCV007106175, but it is unclear whether this includes all genotype and phenotype data or only the variant submission. The statement does not mention availability of the expression data or statistical analysis scripts.
+  - **Required correction** Clarify what data are deposited and provide access details for all datasets used in the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical specification), R1-M2 (expression analysis methodology), R1-M3 (causal language), R1-M4 (in silico validity)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The study addresses a population-specific question that has not been previously examined in an Indian cohort. However, the association between rs3741240 and COPD has been reported in other populations, and the mechanistic hypothesis (miRNA and TF involvement) is speculative and not novel in concept.
+  - **Scientific importance** Moderate. If confirmed, the findings would contribute to understanding population-specific genetic risk factors for COPD. However, the modest sample size and lack of functional validation limit the significance.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to respiratory geneticists and COPD researchers. The in silico components are not sufficiently developed to attract computational biology readership.
+  - **Technical soundness** Weak. The statistical analysis is incompletely described, the expression analyses lack methodological detail, and the in silico pipeline has questionable validity. These issues undermine confidence in the results.
+  - **Readability for nonspecialists** Adequate. The manuscript is generally well-written and accessible, though some sections (particularly the in silico methods) assume specialized knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question, but the methodological and statistical issues must be resolved before the claims can be supported. Major revisions are required, including full statistical specification, detailed expression analysis methods, tempering of causal language, and either validation or reframing of the in silico findings.
+
+## Risk / unsupported claims
+- The claim that rs3741240 "downregulates" CC16 is not supported by the cross-sectional design; the data show association, not causation.
+- The claim of being "first in an Indian population" is not verifiable from the provided material, as no systematic search of prior Indian studies is presented.
+- The in silico predictions of miRNA and TF involvement are unsupported without experimental validation.
+- The sex-specific and geographic-specific odds ratios (e.g., OR = 25.10 for females, OR = 45.61 for old COPD) are likely based on small subgroup sizes and are not reliable without confidence intervals and adjustment for multiple testing.
+- The power calculation (88.63%) is reported without sufficient detail to assess its validity.
+- The statement that "reduced CC16 expression suppresses SPLUNC1" and the downstream signaling claims in the Discussion are not directly tested in this study and are presented as established fact without adequate citation support.

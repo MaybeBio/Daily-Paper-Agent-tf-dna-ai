@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "35934844",
+    "doi": "10.1002/2211-5463.13469",
+    "title": "ERCC5, HES6 and RORA are potential diagnostic markers of coronary artery disease."
+  },
+  "content": {
+    "abstract": "The mortality rate of patients with coronary artery disease (CAD) increases year by year, and the age of onset is decreasing, primarily because of the lack of an efficient and convenient diagnostic method for CAD. In the present study, we aimed to detect CAD-correlated biomarkers and the regulatory pathways involved through weighted co-expression network analysis. The microarray data originated from 93 CAD patients and 48 controls within the Gene Expression Omnibus (GEO) database. The gene network was implemented by weighted gene co-expression network analysis, and the genes were observed to fall into a range of modules. We took the intersection of genes in the modules most correlated with CAD with the differentially expressed genes of CAD, which were identified by applying the limma package. Lasso regression and support vector machine recursive feature elimination algorithms were used to determine CAD candidate signature genes. The biomarkers for diagnosing CAD were detected by validating candidate signature gene diagnostic capabilities (receiver operating characteristic curves) based on data sets from GEO. Three modules were selected, and 26 vital genes were identified. Eight of these genes were reported as the optimal candidate features in terms of CAD diagnosis. Through receiver operating characteristic curve analysis, we identified three genes (ERCC5, HES6 and RORA; area under the curve > 0.8) capable of distinguishing CAD from the control, and observed that these genes are correlated with the immune response. In summary, ERCC5, HES6 and RORA may have potential for diagnosis of CAD.",
+    "keywords": [
+      "ERCC5",
+      "HES6",
+      "RORA",
+      "bioinformatics",
+      "coronary heart disease",
+      "diagnostic marker"
+    ],
+    "mesh_terms": [
+      "Basic Helix-Loop-Helix Proteins/genetics",
+      "Biomarkers/metabolism",
+      "*Coronary Artery Disease/diagnosis/genetics",
+      "DNA-Binding Proteins",
+      "Endonucleases",
+      "Gene Expression Profiling/methods",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Nuclear Proteins",
+      "Nuclear Receptor Subfamily 1, Group F, Member 1/genetics",
+      "Repressor Proteins/genetics",
+      "Support Vector Machine",
+      "Transcription Factors",
+      "DNA Excision Repair Protein ERCC-5"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bai, Zhifeng",
+        "Luo, Yuanyuan",
+        "Tian, Linyun"
+      ],
+      "short_names": [
+        "Bai Z",
+        "Luo Y",
+        "Tian L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8479-2310"
+      ],
+      "affiliations": [
+        "Second Department of Cardiovascular Medicine, The First People's Hospital of Shangqiu, Shangqiu City, China.",
+        "Department of Endocrinology and Metabolism, The First Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China.",
+        "Department of Cardiology, The First People's Hospital of Yunnan Province, The Affiliated Hospital of Kunming University of Science and Technology, Kunming, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bai, Zhifeng",
+        "short_name": "Bai Z",
+        "identifiers": [
+          "0000-0002-8479-2310"
+        ],
+        "affiliations": [
+          "Second Department of Cardiovascular Medicine, The First People's Hospital of Shangqiu, Shangqiu City, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yuanyuan",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, The First Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Linyun",
+        "short_name": "Tian L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First People's Hospital of Yunnan Province, The Affiliated Hospital of Kunming University of Science and Technology, Kunming, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FEBS open bio"
+    ],
+    "journal_abbrev": [
+      "FEBS Open Bio"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/09 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "41621130",
+      "40431601",
+      "39713371",
+      "37383675"
+    ],
+    "refs": [
+      "35673577",
+      "35230528",
+      "34101510",
+      "33462406",
+      "32450149",
+      "32291748",
+      "32246442",
+      "30165437",
+      "29724356",
+      "29671719",
+      "29656859",
+      "28796034",
+      "28040277",
+      "26105991",
+      "25605792",
+      "25319333",
+      "24737870",
+      "24582975",
+      "24524191",
+      "22864646",
+      "21785461",
+      "21414208",
+      "20932265",
+      "19923021",
+      "19430164",
+      "17644558",
+      "15953799",
+      "12957362"
+    ],
+    "similar": [
+      "35934844",
+      "36222281",
+      "35151267",
+      "37075605",
+      "31075415",
+      "31245869",
+      "26944061",
+      "38629070",
+      "38451044",
+      "39138958",
+      "33686958",
+      "30015300",
+      "35799780",
+      "35713363",
+      "37474895",
+      "34532380",
+      "39090590",
+      "36684561",
+      "36345357",
+      "34530741",
+      "34555052",
+      "38464509",
+      "35928610",
+      "30130524",
+      "35764238",
+      "30021655",
+      "36064568",
+      "28760552",
+      "35278479",
+      "35198634",
+      "35795669",
+      "24969630",
+      "34814316",
+      "32052443",
+      "31881747",
+      "35757721",
+      "32016447",
+      "39087405",
+      "34552349",
+      "35091780",
+      "37608687",
+      "31689620",
+      "25362032",
+      "30269354",
+      "29168540",
+      "34789641",
+      "25855937",
+      "36743388",
+      "35865542",
+      "32695216",
+      "38229693",
+      "34565095",
+      "33511207",
+      "36195955",
+      "35152560",
+      "30958112",
+      "30015926",
+      "36034449",
+      "31416885",
+      "35078435",
+      "36139449",
+      "25789810",
+      "21443790",
+      "30569177",
+      "26020271",
+      "30262697",
+      "38644543",
+      "36088434",
+      "33356708",
+      "35845512",
+      "36243706",
+      "35733129",
+      "35184762",
+      "34130601",
+      "26208504",
+      "35709926",
+      "26857419",
+      "30961613",
+      "31103880",
+      "22278920",
+      "26936111",
+      "23994195",
+      "31709737",
+      "35529472",
+      "34839606",
+      "28205634",
+      "29328373",
+      "31797949",
+      "28980286",
+      "16534784",
+      "27629254",
+      "35350787",
+      "35675985",
+      "32323776",
+      "35281591",
+      "35069594",
+      "29506519",
+      "35222523",
+      "36013591",
+      "26088318",
+      "31870308",
+      "34107850",
+      "34692847",
+      "36148059",
+      "32164735",
+      "34218797",
+      "36515245",
+      "37360784",
+      "38495669",
+      "38596069",
+      "30805932",
+      "36650288"
+    ],
+    "review": [
+      "35934844",
+      "34530741",
+      "35198634",
+      "32016447"
+    ],
+    "pmc": [
+      "9527589"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/35934844/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/coronaryarterydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Coronary Artery Disease"
+      },
+      {
+        "url": "https://www.ovid.com/35934844.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35934844/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35934844",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/2211-5463.13469",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-466",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

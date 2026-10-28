@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "35799660",
+    "doi": "10.1155/2022/5847242",
+    "title": "Comparative Analysis on Alignment-Based and Pretrained Feature Representations for the Identification of DNA-Binding Proteins."
+  },
+  "content": {
+    "abstract": "The interaction between DNA and protein is vital for the development of a living body. Previous numerous studies on in silico identification of DNA-binding proteins (DBPs) usually include features extracted from the alignment-based (pseudo) position-specific scoring matrix (PSSM), leading to limited application due to its time-consuming generation. Few researchers have paid attention to the application of pretrained language models at the scale of evolution to the identification of DBPs. To this end, we present comprehensive insights into a comparison study on alignment-based PSSM and pretrained evolutionary scale modeling (ESM) representations in the field of DBP classification. The comparison is conducted by extracting information from PSSM and ESM representations using four unified averaging operations and by performing various feature selection (FS) methods. Experimental results demonstrate that the pretrained ESM representation outperforms the PSSM-derived features in a fair comparison perspective. The pretrained feature presentation deserves wide application to the area of in silico DBP identification as well as other function annotation issues. Finally, it is also confirmed that an ensemble scheme by aggregating various trained FS models can significantly improve the classification performance of DBPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Computational Biology/methods",
+      "*DNA",
+      "*DNA-Binding Proteins",
+      "Humans",
+      "Position-Specific Scoring Matrices"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Die",
+        "Zhang, Hua",
+        "Chen, Zeqi",
+        "Xie, Bo",
+        "Wang, Ye"
+      ],
+      "short_names": [
+        "Chen D",
+        "Zhang H",
+        "Chen Z",
+        "Xie B",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1379-2348"
+      ],
+      "affiliations": [
+        "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China.",
+        "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China.",
+        "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China.",
+        "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China.",
+        "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Die",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hua",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0002-1379-2348"
+        ],
+        "affiliations": [
+          "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zeqi",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Bo",
+        "short_name": "Xie B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ye",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Zhejiang Gongshang University, Hangzhou, 310018 Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and mathematical methods in medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Math Methods Med"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/09 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [
+      "40740938",
+      "40359455"
+    ],
+    "refs": [
+      "35465187",
+      "35334314",
+      "35154264",
+      "34232869",
+      "33876751",
+      "33476047",
+      "33390682",
+      "32920048",
+      "32793956",
+      "32144887",
+      "31847804",
+      "31636460",
+      "31454964",
+      "31123959",
+      "30668479",
+      "30550813",
+      "29753757",
+      "29097781",
+      "28961273",
+      "28056090",
+      "27677692",
+      "27490858",
+      "26482832",
+      "25474679",
+      "24475169",
+      "23497329",
+      "23060610",
+      "23047561",
+      "22208280",
+      "22174245",
+      "22045506",
+      "21935457",
+      "21252072",
+      "20855926",
+      "20808728",
+      "20730525",
+      "20558184",
+      "20089514",
+      "19911048",
+      "19385697",
+      "18803867",
+      "18710875",
+      "18042272",
+      "17993650",
+      "17284455",
+      "16551468",
+      "16274699",
+      "14986705",
+      "12837780",
+      "10592235",
+      "9254694",
+      "8601471"
+    ],
+    "similar": [
+      "35799660",
+      "35447463",
+      "35378437",
+      "36211019",
+      "38674091",
+      "31123959",
+      "34291709",
+      "33780341",
+      "33410688",
+      "38986796",
+      "38812466",
+      "31472418",
+      "28483566",
+      "33442949",
+      "28851273",
+      "23747746",
+      "33617347",
+      "28903538",
+      "33476047",
+      "32908888",
+      "19091029",
+      "30668479",
+      "30032213",
+      "30395157",
+      "22574904",
+      "23108592",
+      "35652719",
+      "35242211",
+      "33238837",
+      "28927812",
+      "26592807",
+      "17488755",
+      "39000158",
+      "24675572",
+      "35439138",
+      "34320027",
+      "31621050",
+      "24607742",
+      "33505516",
+      "33259717",
+      "23484214",
+      "34749096",
+      "35388370",
+      "25445293",
+      "20855926",
+      "15720719",
+      "39244557",
+      "29100918",
+      "35981062",
+      "25028675",
+      "20677174",
+      "19828575",
+      "28961273",
+      "19091011",
+      "24093637",
+      "29125297",
+      "22316312",
+      "24067326",
+      "25463695",
+      "29532347",
+      "26054033",
+      "28423569",
+      "27730230",
+      "31430892",
+      "38213822",
+      "31874633",
+      "32448129",
+      "27383535",
+      "35421797",
+      "27437399",
+      "31693872",
+      "31208321",
+      "38983679",
+      "24475169",
+      "23116714",
+      "35767322",
+      "21216672",
+      "38903752",
+      "25616595",
+      "21071807",
+      "31617464",
+      "31027046",
+      "21209839",
+      "22174808",
+      "28764874",
+      "26788119",
+      "32313024",
+      "32420339",
+      "30452958",
+      "10860755",
+      "22985817",
+      "31228283",
+      "24184705",
+      "29990004",
+      "26819243",
+      "28841194",
+      "34912382",
+      "29182548",
+      "25189131",
+      "28492483",
+      "23710446",
+      "24018415",
+      "32723719",
+      "32920048",
+      "22269041",
+      "23670815",
+      "38145387",
+      "36370585",
+      "36299898"
+    ],
+    "review": [
+      "35799660"
+    ],
+    "pmc": [
+      "9256349"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35799660/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35799660",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/5847242",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

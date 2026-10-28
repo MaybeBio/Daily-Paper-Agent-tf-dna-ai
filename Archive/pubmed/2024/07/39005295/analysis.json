@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39005295",
+  "title": "CRISPR-GEM: A Novel Machine Learning Model for CRISPR Genetic Target Discovery and Evaluation.",
+  "authors": "Graham, Josh P; Zhang, Yu; He, Lifang; Gonzalez-Fernandez, Tomas",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-07-15",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用MLP构建基因调控网络预测CRISPR靶基因，但核心是基因表达调控而非蛋白质-DNA互作，且无TF-DNA结合建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "CRISPR gene editing strategies are shaping cell therapies through precise and tunable control over gene expression. However, achieving reliable therapeutic effects with improved safety and efficacy requires informed target gene selection. This depends on a thorough understanding of the involvement of target genes in gene regulatory networks (GRNs) that regulate cell phenotype and function. Machine learning models have been previously used for GRN reconstruction using RNA-seq data, but current techniques are limited to single cell types and focus mainly on transcription factors. This restriction overlooks many potential CRISPR target genes, such as those encoding extracellular matrix components, growth factors, and signaling molecules, thus limiting the applicability of these models for CRISPR strategies. To address these limitations, we have developed CRISPR-GEM, a multi-layer perceptron (MLP)-based synthetic GRN constructed to accurately predict the downstream effects of CRISPR gene editing. First, input and output nodes are identified as differentially expressed genes between defined experimental and target cell/tissue types respectively. Then, MLP training learns regulatory relationships in a black-box approach allowing accurate prediction of output gene expression using only input gene expression. Finally, CRISPR-mimetic perturbations are made to each input gene individually and the resulting model predictions are compared to those for the target group to score and assess each input gene as a CRISPR candidate. The top scoring genes provided by CRISPR-GEM therefore best modulate experimental group GRNs to motivate transcriptomic shifts towards a target group phenotype. This machine learning model is the first of its kind for predicting optimal CRISPR target genes and serves as a powerful tool for enhanced CRISPR strategies across a range of cell therapies.",
+  "abstract_zh": "CRISPR基因编辑策略通过精确且可调的基因表达控制，正在塑造细胞疗法。然而，要实现可靠的治疗效果并提高安全性和有效性，需要明智的靶基因选择。这取决于对靶基因在调控细胞表型和功能的基因调控网络（GRNs）中参与情况的深入理解。机器学习模型此前已被用于利用RNA-seq数据进行GRN重建，但当前技术仅限于单一细胞类型，且主要聚焦于转录因子。这一限制忽略了许多潜在的CRISPR靶基因，例如编码细胞外基质成分、生长因子和信号分子的基因，从而限制了这些模型在CRISPR策略中的适用性。为解决这些局限性，我们开发了CRISPR-GEM，一种基于多层感知器（MLP）的合成GRN，旨在准确预测CRISPR基因编辑的下游效应。首先，输入和输出节点分别被识别为定义实验组与靶细胞/组织类型之间的差异表达基因。然后，MLP训练以黑箱方式学习调控关系，使得仅利用输入基因表达即可准确预测输出基因表达。最后，对每个输入基因单独进行CRISPR模拟扰动，并将所得模型预测与靶组预测进行比较，以评分并评估每个输入基因作为CRISPR候选基因。因此，CRISPR-GEM提供的高分基因最能调节实验组GRN，以促进转录组向靶组表型转变。该机器学习模型是首个用于预测最佳CRISPR靶基因的此类模型，并作为增强一系列细胞疗法中CRISPR策略的强大工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39005295/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39005295/",
+  "paper_page_path": "papers/pubmed/39005295/index.html"
+}

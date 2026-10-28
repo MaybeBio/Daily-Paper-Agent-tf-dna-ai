@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an integrated computational and experimental workflow to identify small-molecule disruptors of the c-Myb-KIX protein-protein interaction. They screened an umbelliferyl phosphate scaffold library using virtual screening, docking, molecular dynamics, MM/PBSA, free energy landscape mapping, and microscale thermophoresis. They claim that stable ligand binding does not necessarily correlate with interface disruption, and identify Naphthol AS-BI phosphate as the most potent in vitro inhibitor (IC50 = 18.9 ± 0.6 µM) and MUP as a promising scaffold with activity comparable to a reference compound and favorable predicted ADMET properties.
+- **Visible evidence base** Abstract text only; no experimental details, computational parameters, statistical analyses, or raw data provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, docking scores, MD simulation details, MM/PBSA values, FEL plots, MST binding curves, ADMET prediction outputs, compound structures, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach to targeting the c-Myb-KIX interaction, with a clear conceptual distinction between binding affinity and interface disruption. However, the evidence base is insufficient to evaluate the robustness of the computational predictions or the validity of the experimental measurements. The key claims, particularly the DeltaDeltaG(PPI) values and the IC50 determinations, cannot be verified from the abstract alone. The work may be of interest to the protein-protein interaction inhibitor community, but the current presentation does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers working on transcriptional regulation, particularly the c-Myb-CBP/p300 axis, and those developing small-molecule inhibitors of protein-protein interactions. The methodological distinction between binding and disruption could also interest computational chemists and biophysicists focused on free energy methods and MD-based screening.
+- **Major strengths** The conceptual separation of stable binding from interface disruption is a valuable insight that could improve virtual screening campaigns. The use of multiple computational methods (docking, MD, MM/PBSA, FEL) followed by experimental validation via MST provides a logical workflow. The identification of MUP as a chemically tractable scaffold with activity comparable to a known reference is a practical outcome.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational predictions
+  - **Claim pointer** "DeltaDeltaG(PPI) analysis identified only MUP and Naphthol AS-BI phosphate as protein-protein interaction-weakening ligands, with Naphthol AS-BI phosphate showing the strongest predicted disruptive effect (DeltaDeltaG(PPI)=+3.25 kcal/mol)"
+  - **Evidence pointer** Abstract only; no methods or figures provided
+  - **Concern** The DeltaDeltaG(PPI) values are presented as definitive predictions, but the abstract provides no information on the method used to compute them, the error estimates, or the convergence criteria. The magnitude of +3.25 kcal/mol is substantial and would require rigorous validation, particularly given that MM/PBSA is known to be sensitive to parameter choices and system setup.
+  - **Why it matters** If the DeltaDeltaG(PPI) values are not robust, the central distinction between destabilizing and stabilizing ligands may be an artifact of the computational protocol, undermining the main conceptual contribution of the work.
+  - **Resolution test** Provide full details of the DeltaDeltaG(PPI) calculation, including the reference state, the decomposition scheme, error bars from multiple independent simulations, and a comparison with an alternative free energy method (e.g., FEP or TI) for at least one compound.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and reproducibility
+  - **Claim pointer** "Naphthol AS-BI phosphate showed the clearest disruption-like behavior in silico and was the most potent inhibitor in vitro, with an IC(5)(0) of 18.9 +/- 0.6 muM"
+  - **Evidence pointer** Abstract only; no MST data or assay conditions provided
+  - **Concern** The IC50 values are reported with small standard errors, but the abstract does not describe the assay conditions, the number of replicates, the protein and ligand concentrations, or the buffer composition. MST is sensitive to aggregation, fluorescence artifacts, and nonspecific binding, and these controls are not mentioned.
+  - **Why it matters** Without evidence of assay quality and specificity, the reported IC50 values could reflect artifacts rather than true disruption of the c-Myb-KIX interaction. This is critical because the in vitro data are the only direct validation of the computational predictions.
+  - **Resolution test** Provide MST binding curves, a positive and negative control compound, a demonstration that the ligands do not aggregate under assay conditions, and a statistical analysis of replicate measurements. Also confirm that the IC50 values are reproducible across independent experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of the chemical series
+  - **Claim pointer** "A focused Umbelliferyl phosphate scaffold library was subjected to stepwise virtual screening"
+  - **Evidence pointer** Abstract only; library size and composition not provided
+  - **Concern** The abstract does not state how many compounds were in the library, how many passed each screening step, or how the final selection for experimental testing was made. This makes it impossible to assess the hit rate or the chemical diversity of the tested set.
+  - **Why it matters** Without this information, the reader cannot judge whether the identified hits are representative of the scaffold class or whether the screening funnel was appropriately stringent. This affects the generalizability of the conclusions.
+  - **Resolution test** Provide a flowchart of the screening cascade with compound counts at each stage, the chemical structures of all tested compounds, and the criteria for advancing compounds to experimental evaluation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** IC50 notation
+  - **Evidence pointer** Abstract text
+  - **Issue** The notation "IC(5)(0)" appears to be a typographical error for "IC50". This appears multiple times and should be corrected.
+  - **Required correction** Replace "IC(5)(0)" with "IC50" throughout the abstract and manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reference comparison
+  - **Affected element** Reference compound
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "Naphthol AS-E phosphate" as a reference compound but does not state its origin, whether it is a known inhibitor, or how its activity was measured in this study.
+  - **Required correction** Provide a citation for the reference compound and state whether its IC50 was measured under identical conditions in this work or taken from the literature.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Disruption-like behavior"
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "disruption-like behavior in silico" is vague and does not specify which computational metric defines this behavior.
+  - **Required correction** Define the specific computational criteria that classify a compound as a disruptor versus a stabilizer, and state these criteria explicitly in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The computational predictions lack methodological detail and error analysis, and the experimental validation lacks assay controls and reproducibility evidence. Without addressing these, the central claims of the work are not established.
+- **Assessment against Nature-style criteria** Originality: The conceptual distinction between binding and disruption is a useful contribution, but the approach itself is not novel in a broad sense. Scientific importance: The c-Myb-KIX interaction is a relevant target, and new chemical starting points are of interest, but the impact is moderate given the limited validation. Interdisciplinary readership: The work bridges computational chemistry and biophysics, which could appeal to a mixed audience, but the abstract is too technical for a general readership. Technical soundness: Not assessable from the abstract; the lack of methodological detail and controls is a major concern. Readability for nonspecialists: The abstract is dense and assumes familiarity with MD, MM/PBSA, and MST, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the technical details and validation are insufficient to support the claims. The authors should be encouraged to resubmit with full methods, error analysis, and experimental controls.
+
+## Risk / unsupported claims
+- The DeltaDeltaG(PPI) values, particularly the +3.25 kcal/mol for Naphthol AS-BI phosphate, are unsupported without methodological details and error estimates.
+- The claim that "stable ligand binding did not necessarily translate into disruption" is plausible but not verifiable from the abstract.
+- The IC50 values for Naphthol AS-BI phosphate and MUP are unsupported without assay conditions and replicate data.
+- The statement that MUP has a "more favorable predicted ADMET profile" is unverifiable without the prediction method and output data.
+- The overall conclusion that MUP is an "attractive scaffold for further optimization" is a reasonable suggestion but is not fully supported by the evidence presented.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a novel Artificial Neural Network (ANN) model that predicts the free energy of binding (ΔG) for protein-protein complexes using Rosetta-calculated properties, reporting a root-mean-square error (RMSE) of 1.667 kcal/mol and claiming outperformance of state-of-the-art tools, with validation across a variety of complexes.
+- **Visible evidence base** Abstract text only; no quantitative details on dataset composition, feature selection, training/validation splits, or comparative benchmarks
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset description, model architecture, training details, validation set composition, baseline tool definitions, and any statistical analysis of prediction errors
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of machine learning to a challenging biophysical problem, but the evidence provided is insufficient to evaluate the validity, generalizability, or claimed superiority of the model. The reported RMSE, while promising, lacks context regarding dataset size, diversity, and the specific baseline tools used for comparison. The absence of methodological detail precludes any assessment of technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists working on protein-protein interactions, drug discovery researchers seeking fast affinity estimates, and machine learning practitioners applying neural networks to molecular property prediction. The potential for rapid ΔG estimation from structure could interest those in protein engineering and high-throughput screening.
+- **Major strengths** The problem addressed is of broad scientific importance. The use of Rosetta-calculated properties as input features is a pragmatic choice that leverages existing, widely used software. The reported RMSE of 1.667 kcal/mol, if robust, would represent a competitive performance level for structure-based binding affinity prediction.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The model "presents a root-mean-square error of 1.667 kcal/mol outperforming available state-of-art tools."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The abstract provides no information on the dataset used for training and testing, including the number of complexes, their structural diversity, or the range of ΔG values represented. Without this, the RMSE cannot be interpreted meaningfully, as a small or homogeneous dataset could yield artificially low errors.  
+    - **Why it matters** The claim of outperforming state-of-the-art tools depends entirely on the comparability of the test set and the baseline methods. If the test set is biased or the baselines are not representative, the claim is unsupported.  
+    - **Resolution test** Provide dataset size, composition, and ΔG range; specify the baseline tools and their reported errors on the same test set; include a statistical comparison (e.g., paired tests or confidence intervals) to substantiate the outperformance claim.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Reproducibility  
+    - **Claim pointer** The model is described as "novel" and uses "Rosetta-calculated properties" as inputs.  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** No details are given on the ANN architecture, feature set, hyperparameters, or training procedure. The term "novel" cannot be assessed without a clear description of what distinguishes this model from existing approaches.  
+    - **Why it matters** Reproducibility is a core requirement for scientific claims. Without methodological detail, other researchers cannot implement or test the model, and the novelty claim is unverifiable.  
+    - **Resolution test** Include a full methods section describing the ANN architecture, input features, training/validation protocol, and code or model availability.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Generalizability  
+    - **Claim pointer** "Validation of the model for a variety of protein-protein complexes is showcased."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The abstract does not specify the nature of the validation set, the criteria for "variety," or the performance metrics beyond RMSE. It is unclear whether the validation was performed on unseen complexes, whether they are structurally distinct from the training set, or whether the model performs consistently across different complex types.  
+    - **Why it matters** Generalizability is essential for practical utility. A model that works only on complexes similar to those in the training set would have limited applicability.  
+    - **Resolution test** Describe the validation set composition, including complex types, sequence identity cutoffs relative to training data, and per-category performance metrics.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract wording  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** The phrase "Rosetta-calculated properties" is vague; it is unclear which specific properties were used (e.g., interface scores, shape complementarity, electrostatic terms).  
+    - **Required correction** Specify the exact Rosetta output terms used as model inputs.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Comparative claim  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** The claim of outperforming "state-of-art tools" does not name the tools or the comparison metric beyond RMSE.  
+    - **Required correction** List the baseline tools and report their RMSE values on the same test set.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Statistical rigor  
+    - **Affected element** Error reporting  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** Only a single RMSE value is reported, with no indication of variance, confidence intervals, or error distribution.  
+    - **Required correction** Report additional metrics (e.g., Pearson correlation, mean absolute error) and, if possible, confidence intervals for the RMSE.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of model performance, novelty, and generalizability cannot be evaluated from the abstract alone.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** Not assessable. The abstract claims novelty but provides no comparative description of existing ANN-based approaches for this problem.  
+  - **Scientific importance** High. Accurate and fast prediction of protein-protein binding free energy is a long-standing challenge with broad applications.  
+  - **Interdisciplinary readership** Potentially broad, spanning structural biology, computational chemistry, and machine learning, but the abstract is too sparse to engage nonspecialists effectively.  
+  - **Technical soundness** Not assessable. No methodological detail is provided.  
+  - **Readability for nonspecialists** The abstract is concise and accessible, but the lack of context for the RMSE value and the vague description of inputs limit its clarity for a general audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims of model performance, novelty, or generalizability. A full manuscript with detailed methods, dataset description, and comparative benchmarks is required for a meaningful evaluation.
+
+## Risk / unsupported claims
+- The claim of outperforming state-of-the-art tools is unsupported without named baselines and comparable test conditions.
+- The reported RMSE of 1.667 kcal/mol is uninterpretable without dataset context.
+- The novelty of the ANN model is unverifiable without architectural and methodological details.
+- The generalizability claim is unsupported without a description of the validation set composition and diversity.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38319987",
+  "title": "The role of differentially expressed genes and immune cell infiltration in the progression of nonalcoholic steatohepatitis (NASH) to hepatocellular carcinoma (HCC): a new exploration based on bioinformatics analysis.",
+  "authors": "Liu, Yang; Yu, Xiaohan; Wang, Yuegu; Wu, Jinge; Feng, Bo; Li, Meng",
+  "journal": "Nucleosides, nucleotides & nucleic acids",
+  "published_date": "2024-02-06",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于GEO数据做NASH向HCC进展的差异表达基因与免疫浸润生物信息学分析，虽涉及转录因子CREB1与靶基因调控网络，但无蛋白质-DNA互作建模、结合位点预测或AI/物理模拟方法，与本课题核心无关。",
+  "abstract": "Nonalcoholic fatty liver disease (NAFLD) is a spectrum of chronic liver disease characterized. The condition ranges from isolated excessive hepatocyte triglyceride accumulation and steatosis (nonalcoholic fatty liver (NAFL), to hepatic triglyceride accumulation plus inflammation and hepatocyte injury (nonalcoholic steatohepatitis (NASH)) and finally to hepatic fibrosis and cirrhosis and/or hepatocellular carcinoma (HCC). However, the mechanism driving this process is not yet clear. Obtain sample microarray from the GEO database. Extract 6 healthy liver samples, 74 nonalcoholic hepatitis samples, 8 liver cirrhosis samples, and 53 liver cancer samples from the GSE164760 dataset. We used the GEO2R tool for differentially expressed genes (DEGs) analysis of disease progression (nonalcoholic hepatitis healthy group, cirrhosis nonalcoholic hepatitis group, and liver cancer cirrhosis group) and necroptosis gene set. Gene set variation analysis (GSVA) is used to evaluate the association between biological pathways and gene features. The STRING database and Cytoscape software were used to establish and visualize protein-protein interaction (PPI) networks and identify the key functional modules of DEGs, drawn factor-target genes regulatory network. Gene Ontology (GO) and KEGG pathway enrichment analyses of DEGs were also performed. Additionally, immune infiltration patterns were analyzed using the cibersort, and the correlation between immune cell-type abundance and DEGs expression was investigated. We further screened and obtained a total of 152 intersecting DEGs from three groups. 23 key genes were obtained through the MCODE plugin. Transcription factors regulating common differentially expressed genes were obtained in the hTFtarget database, and a TF target network diagram was drawn. There are 118 nodes, 251 edges, and 4 clusters in the PPI network. The key genes of the four modules include METAP2, RPL14, SERBP1, EEF2; HR4A1; CANX; ARID1A, UBE2K. METAP2, RPL14, SERBP1 and EEF2 was identified as the key hub genes. CREB1 was identified as the hub TF interacting with those gens by taking the intersection of potential TFs. The types of key gene changes were genetic mutations. It can be seen that the incidence of key gene mutations is 1.7% in EEF2, 0.8% in METAP2, and 0.3% in RPL14, respectively. Finally, We found that the most significant expression differences of the immune infiltrating cells among the three groups, were Tregs and M2, M0 type macrophages. We identified four hub genes METAP2, RPL14, SERBP1 and EEF2 being the most closely with the process from NASH to cirrhosis to HCC. It is beneficial to examine and understand the interaction between hub DEGs and potential regulatory molecules in the process. This knowledge may provide a novel theoretical foundation for the development of diagnostic biomarkers and gene-related therapy targets in the process.",
+  "abstract_zh": "非酒精性脂肪性肝病（NAFLD）是一种以慢性肝病为特征的疾病谱。该病从单纯的肝细胞甘油三酯过度积聚和脂肪变性（非酒精性脂肪肝（NAFL）），进展至肝甘油三酯积聚伴炎症和肝细胞损伤（非酒精性脂肪性肝炎（NASH）），最终发展为肝纤维化和肝硬化及/或肝细胞癌（HCC）。然而，驱动这一过程的机制尚不明确。从GEO数据库获取样本微阵列数据。从GSE164760数据集中提取6个健康肝脏样本、74个非酒精性肝炎样本、8个肝硬化样本和53个肝癌样本。我们使用GEO2R工具对疾病进展（非酒精性肝炎-健康组、肝硬化-非酒精性肝炎组和肝癌-肝硬化组）及坏死性凋亡基因集进行差异表达基因（DEGs）分析。采用基因集变异分析（GSVA）评估生物学通路与基因特征之间的关联。使用STRING数据库和Cytoscape软件建立并可视化蛋白质-蛋白质相互作用（PPI）网络，识别DEGs的关键功能模块，并绘制因子-靶基因调控网络。还对DEGs进行了基因本体论（GO）和KEGG通路富集分析。此外，使用cibersort分析免疫浸润模式，并研究免疫细胞类型丰度与DEGs表达之间的相关性。我们进一步筛选并共获得三组间的152个交集DEGs。通过MCODE插件获得23个关键基因。在hTFtarget数据库中获取调控常见差异表达基因的转录因子，并绘制TF-靶基因网络图。PPI网络中有118个节点、251条边和4个簇。四个模块的关键基因包括METAP2、RPL14、SERBP1、EEF2；HR4A1；CANX；ARID1A、UBE2K。METAP2、RPL14、SERBP1和EEF2被鉴定为关键枢纽基因。通过取潜在转录因子的交集，CREB1被鉴定为与这些基因相互作用的枢纽转录因子。关键基因的改变类型为基因突变。可见，关键基因突变的发生率分别为EEF2中1.7%、METAP2中0.8%和RPL14中0.3%。最后，我们发现三组间免疫浸润细胞表达差异最显著的是Tregs和M2、M0型巨噬细胞。我们鉴定出四个枢纽基因METAP2、RPL14、SERBP1和EEF2与从NASH到肝硬化再到HCC的过程关系最为密切。这有助于检查和理解枢纽DEGs与潜在调控分子在该过程中的相互作用。这一知识可能为该过程中诊断生物标志物和基因相关治疗靶点的开发提供新的理论基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38319987/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38319987/",
+  "paper_page_path": "papers/pubmed/38319987/index.html"
+}

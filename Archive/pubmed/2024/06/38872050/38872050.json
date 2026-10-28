@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "38872050",
+    "doi": "10.1038/s44320-024-00047-4",
+    "title": "Dynamical and combinatorial coding by MAPK p38 and NFkappaB in the inflammatory response of macrophages."
+  },
+  "content": {
+    "abstract": "Macrophages sense pathogens and orchestrate specific immune responses. Stimulus specificity is thought to be achieved through combinatorial and dynamical coding by signaling pathways. While NFkappaB dynamics are known to encode stimulus information, dynamical coding in other signaling pathways and their combinatorial coordination remain unclear. Here, we established live-cell microscopy to investigate how NFkappaB and p38 dynamics interface in stimulated macrophages. Information theory and machine learning revealed that p38 dynamics distinguish cytokine TNF from pathogen-associated molecular patterns and high doses from low, but contributed little to information-rich NFkappaB dynamics when both pathways are considered. This suggests that immune response genes benefit from decoding immune signaling dynamics or combinatorics, but not both. We found that the heterogeneity of the two pathways is surprisingly uncorrelated. Mathematical modeling revealed potential sources of uncorrelated heterogeneity in the branched pathway network topology and predicted it to drive gene expression variability. Indeed, genes dependent on both p38 and NFkappaB showed high scRNAseq variability and bimodality. These results identify combinatorial signaling as a mechanism to restrict NFkappaB-AND-p38-responsive inflammatory cytokine expression to few cells.",
+    "keywords": [
+      "Combinatorial Signaling Dynamics",
+      "Cytokine Control",
+      "Inflammation",
+      "Innate Immunity",
+      "Signal Encoding"
+    ],
+    "mesh_terms": [
+      "*p38 Mitogen-Activated Protein Kinases/metabolism",
+      "*NF-kappa B/metabolism",
+      "*Macrophages/metabolism/immunology",
+      "*Signal Transduction",
+      "*Inflammation/metabolism/genetics/immunology",
+      "Animals",
+      "Mice",
+      "Cytokines/metabolism",
+      "Machine Learning",
+      "Gene Expression Regulation",
+      "Humans",
+      "Tumor Necrosis Factor-alpha/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luecke, Stefanie",
+        "Guo, Xiaolu",
+        "Sheu, Katherine M",
+        "Singh, Apeksha",
+        "Lowe, Sarina C",
+        "Han, Minhao",
+        "Diaz, Jessica",
+        "Lopes, Francisco",
+        "Wollman, Roy",
+        "Hoffmann, Alexander"
+      ],
+      "short_names": [
+        "Luecke S",
+        "Guo X",
+        "Sheu KM",
+        "Singh A",
+        "Lowe SC",
+        "Han M",
+        "Diaz J",
+        "Lopes F",
+        "Wollman R",
+        "Hoffmann A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5740-2428",
+        "ORCID: 0000-0002-3811-3356",
+        "ORCID: 0000-0001-6523-0614",
+        "ORCID: 0000-0002-7632-3012",
+        "ORCID: 0009-0004-3311-364X",
+        "ORCID: 0000-0002-2715-2341",
+        "ORCID: 0000-0003-3865-2605",
+        "ORCID: 0000-0002-5607-3845"
+      ],
+      "affiliations": [
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Vatche and Tamar Manoukian Division of Digestive Diseases, Department of Medicine, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Grupo de Biologia do Desenvolvimento e Sistemas Dinamicos, Campus Duque de Caxias Professor Geraldo Cidade, Universidade Federal do Rio de Janeiro, Duque de Caxias, 25240-005, Brazil.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Chemistry and Biochemistry, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Integrative Biology and Physiology, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA. ahoffmann@ucla.edu.",
+        "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA. ahoffmann@ucla.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luecke, Stefanie",
+        "short_name": "Luecke S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaolu",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0002-5740-2428"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Sheu, Katherine M",
+        "short_name": "Sheu KM",
+        "identifiers": [
+          "0000-0002-3811-3356"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Apeksha",
+        "short_name": "Singh A",
+        "identifiers": [
+          "0000-0001-6523-0614"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Lowe, Sarina C",
+        "short_name": "Lowe SC",
+        "identifiers": [
+          "0000-0002-7632-3012"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Vatche and Tamar Manoukian Division of Digestive Diseases, Department of Medicine, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Minhao",
+        "short_name": "Han M",
+        "identifiers": [
+          "0009-0004-3311-364X"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Diaz, Jessica",
+        "short_name": "Diaz J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Lopes, Francisco",
+        "short_name": "Lopes F",
+        "identifiers": [
+          "0000-0002-2715-2341"
+        ],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Grupo de Biologia do Desenvolvimento e Sistemas Dinamicos, Campus Duque de Caxias Professor Geraldo Cidade, Universidade Federal do Rio de Janeiro, Duque de Caxias, 25240-005, Brazil."
+        ]
+      },
+      {
+        "full_name": "Wollman, Roy",
+        "short_name": "Wollman R",
+        "identifiers": [
+          "0000-0003-3865-2605"
+        ],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Department of Chemistry and Biochemistry, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Department of Integrative Biology and Physiology, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Alexander",
+        "short_name": "Hoffmann A",
+        "identifiers": [
+          "0000-0002-5607-3845"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Immunology, and Molecular Genetics (MIMG), University of California Los Angeles, Los Angeles, CA, 90095, USA. ahoffmann@ucla.edu.",
+          "Institute for Quantitative and Computational Biosciences, University of California Los Angeles, Los Angeles, CA, 90095, USA. ahoffmann@ucla.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular systems biology"
+    ],
+    "journal_abbrev": [
+      "Mol Syst Biol"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/14 00:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42568599",
+      "42527627",
+      "42460425",
+      "42325251",
+      "42197018",
+      "42098749",
+      "42057339",
+      "41669117",
+      "41596470",
+      "41210254",
+      "41031496",
+      "40961166",
+      "40839679",
+      "40746533",
+      "40529900",
+      "40343799"
+    ],
+    "refs": [
+      "38843840",
+      "37212045",
+      "36657439",
+      "35471841",
+      "34525335",
+      "34166361",
+      "34140389",
+      "33979588",
+      "33575610",
+      "32864512",
+      "32847129",
+      "32092227",
+      "31972132",
+      "31819255",
+      "31113301",
+      "30968361",
+      "30904375",
+      "30129203",
+      "29623300",
+      "29266096",
+      "29199017",
+      "29128684",
+      "28396000",
+      "28237795",
+      "27461000",
+      "27402796",
+      "27237739",
+      "27050527",
+      "26924576",
+      "26399197",
+      "26175492",
+      "25697863",
+      "25605798",
+      "25504722",
+      "25274725",
+      "24949979",
+      "24586270",
+      "24530305",
+      "24109465",
+      "23954936",
+      "23820856",
+      "23619691",
+      "23283238",
+      "22872091",
+      "22435558",
+      "22242014",
+      "21997792",
+      "21921160",
+      "21865167",
+      "21616434",
+      "20663918",
+      "20581820",
+      "20188673",
+      "19729616",
+      "18676814",
+      "18644831",
+      "16431125",
+      "16231973",
+      "16169504",
+      "16166517",
+      "16166516",
+      "15802586",
+      "14592977",
+      "12832462",
+      "12702751",
+      "12667451",
+      "12424381",
+      "11533235",
+      "9377276",
+      "8816754",
+      "7523568",
+      "1740105"
+    ],
+    "similar": [
+      "38872050",
+      "33979588",
+      "12175822",
+      "15826936",
+      "14606087",
+      "18675993",
+      "24378531",
+      "21677045",
+      "35970313",
+      "32117792",
+      "15837794",
+      "18291254",
+      "15611045",
+      "14980980",
+      "18441197",
+      "16154177",
+      "11278471",
+      "33123132",
+      "34833933",
+      "22589557",
+      "22537289",
+      "26491301",
+      "22644339",
+      "24759787",
+      "25917085",
+      "21098227",
+      "22942709",
+      "34238339",
+      "32590114",
+      "25911310",
+      "24023826",
+      "31759325",
+      "16879221",
+      "24070708",
+      "32016471",
+      "29393460",
+      "16954198",
+      "37212045",
+      "25274725",
+      "29412160",
+      "28001907",
+      "34551004",
+      "31351412",
+      "28822019",
+      "38621907",
+      "27461000",
+      "25166426",
+      "24566135",
+      "27183919",
+      "19162159",
+      "40593748",
+      "33419561",
+      "33809417",
+      "14764702",
+      "27208785",
+      "10940915",
+      "29067444",
+      "30728747",
+      "30076857",
+      "40236137",
+      "42176149",
+      "28848097",
+      "27920521",
+      "23994140",
+      "16603589",
+      "21667204",
+      "16894344",
+      "31931867",
+      "20011115",
+      "26507164",
+      "10433212",
+      "34656643",
+      "23310953",
+      "32005962",
+      "42011623",
+      "27261558",
+      "22967725",
+      "21434881",
+      "15225374",
+      "30195331",
+      "20427474",
+      "40653839",
+      "23405061",
+      "11543732",
+      "34237962",
+      "22675515",
+      "27771058",
+      "18492658",
+      "18025224",
+      "30045725",
+      "41550924",
+      "31231385",
+      "25536376",
+      "18252806",
+      "30535475",
+      "36946346",
+      "27060290",
+      "24247374",
+      "19596435",
+      "17182102"
+    ],
+    "review": [
+      "38872050",
+      "34656643"
+    ],
+    "pmc": [
+      "11297158"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44320-024-00047-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38872050/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38872050",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt9ws109bz",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

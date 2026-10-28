@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2312.00842v1",
+  "title": "ESM-NBR: fast and accurate nucleic acid-binding residue prediction via protein language model feature representation and multi-task learning",
+  "authors": "Wenwu Zeng; Dafeng Lv; Wenjuan Liu; Shaoliang Peng",
+  "journal": "",
+  "published_date": "2023-12-01",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用ESM2蛋白语言模型特征与多任务深度学习预测核酸结合残基，虽非TF-DNA特异体系，但方法可迁移至TF-DNA结合位点预测，属广义蛋白-DNA互作建模。",
+  "abstract": "Protein-nucleic acid interactions play a very important role in a variety of biological activities. Accurate identification of nucleic acid-binding residues is a critical step in understanding the interaction mechanisms. Although many computationally based methods have been developed to predict nucleic acid-binding residues, challenges remain. In this study, a fast and accurate sequence-based method, called ESM-NBR, is proposed. In ESM-NBR, we first use the large protein language model ESM2 to extract discriminative biological properties feature representation from protein primary sequences; then, a multi-task deep learning model composed of stacked bidirectional long short-term memory (BiLSTM) and multi-layer perceptron (MLP) networks is employed to explore common and private information of DNA- and RNA-binding residues with ESM2 feature as input. Experimental results on benchmark data sets demonstrate that the prediction performance of ESM2 feature representation comprehensively outperforms evolutionary information-based hidden Markov model (HMM) features. Meanwhile, the ESM-NBR obtains the MCC values for DNA-binding residues prediction of 0.427 and 0.391 on two independent test sets, which are 18.61 and 10.45% higher than those of the second-best methods, respectively. Moreover, by completely discarding the time-cost multiple sequence alignment process, the prediction speed of ESM-NBR far exceeds that of existing methods (5.52s for a protein sequence of length 500, which is about 16 times faster than the second-fastest method). A user-friendly standalone package and the data of ESM-NBR are freely available for academic use at: https://github.com/wwzll123/ESM-NBR.",
+  "abstract_zh": "蛋白质-核酸相互作用在多种生物活动中扮演着非常重要的角色。准确识别核酸结合残基是理解这些相互作用机制的关键步骤。尽管已开发出许多基于计算的方法来预测核酸结合残基，但仍面临挑战。在本研究中，提出了一种快速且准确的基于序列的方法，称为ESM-NBR。在ESM-NBR中，我们首先使用大型蛋白质语言模型ESM2从蛋白质一级序列中提取判别性生物特性特征表示；然后，采用由堆叠双向长短期记忆（BiLSTM）和多层感知器（MLP）网络组成的多任务深度学习模型，以ESM2特征作为输入，探索DNA和RNA结合残基的共有和私有信息。在基准数据集上的实验结果表明，ESM2特征表示的预测性能全面优于基于进化信息的隐马尔可夫模型（HMM）特征。同时，ESM-NBR在两个独立测试集上分别获得了DNA结合残基预测的MCC值为0.427和0.391，比第二优方法分别高出18.61%和10.45%。此外，通过完全省略耗时的多序列比对过程，ESM-NBR的预测速度远超现有方法（对于长度为500的蛋白质序列，耗时5.52秒，比第二快方法快约16倍）。ESM-NBR的用户友好独立软件包及其数据可免费用于学术用途，网址为：https://github.com/wwzll123/ESM-NBR。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2312.00842v1",
+  "source_url": "https://arxiv.org/abs/2312.00842v1",
+  "paper_page_path": "papers/arxiv/2312.00842v1/index.html"
+}

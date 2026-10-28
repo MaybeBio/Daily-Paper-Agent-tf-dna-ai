@@ -1,0 +1,1213 @@
+{
+  "identity": {
+    "pmid": "41676636",
+    "doi": "10.64898/2026.02.04.703852",
+    "title": "A consensus spinal cord cell type atlas across mouse, macaque, and human."
+  },
+  "content": {
+    "abstract": "The spinal cord contains evolutionarily conserved cell types critical for motor function, sensory processing, and autonomic regulation, many of which are implicated in diverse neurological diseases and injuries. Yet the field lacks a comprehensive molecular characterization of cellular diversity in human, macaque, and mouse spinal cord. Here, we present a unified, cross-species cell type atlas based on the integration of single-nucleus gene expression, chromatin accessibility, and spatial transcriptomic data from segments within cervical, thoracic, lumbar, and sacral regions, including motor neurons (MNs) sampled across the entire rostro-caudal axis of the macaque spinal cord. Leveraging the spatial distributions of our molecularly defined cell types, we generated a cell type-guided anatomical map of spinal cord laminae and nuclei. We identified both conserved and species-specific cellular features, including gene expression patterns across distinct MN subtypes in the primate spinal cord. Cross-species cis-regulatory analysis and deep learning sequence models dissected the enhancer logic underlying viral targeting, uncovering conserved transcription factor grammar encoding cellular identity. Together, these results establish a unifying molecular and anatomical taxonomy of spinal cord cell types across species.",
+    "keywords": [
+      "ATAC-seq",
+      "Primate",
+      "RNA-seq",
+      "evolution",
+      "rodent",
+      "spatial transcriptomics",
+      "spinal cord"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schmitz, Matthew T",
+        "Johansen, Nelson J",
+        "Kempynck, Niklas",
+        "Kapen, Inkar",
+        "Fu, Yuanyuan",
+        "Hewitt, Madeleine",
+        "Seeman, Stephanie C",
+        "Kussick, Emily",
+        "Gautier, Olivia",
+        "Leone, Michael J",
+        "Ding, Song-Lin",
+        "Gao, Yuan",
+        "Bhandiwad, Ashwin",
+        "Ariza, Jeanelle",
+        "Ayala, Angela",
+        "Barta, Stuard",
+        "Blum, Jacob A",
+        "Cano-Gomez, Liliana",
+        "Cardenas, Trangthanh",
+        "Chakka, Anish Bhaswanth",
+        "Cuevas, Nasmil Valera",
+        "Donadio, Nicholas",
+        "Fancher, Katherine A",
+        "Thomas, Emma D",
+        "Ferrer, Rebecca",
+        "Goldy, Jeff",
+        "Hastings, Samantha D",
+        "Hirschstein, Daniel",
+        "Ho, Windy",
+        "Huang, Cindy",
+        "Juneau, Zoe C",
+        "Kim, Sa Rang",
+        "Lewis, Zachary R",
+        "Liang, Elizabeth",
+        "Martin, Naomi X",
+        "Nagra, Josh",
+        "Newman, Dakota",
+        "Noh, Myung-Chul",
+        "Olsen, Paul",
+        "Oyama, Alana",
+        "Pena, Nick",
+        "Poldsam, Helen",
+        "Ray, Patrick L",
+        "Reding, Melissa",
+        "Rimorin, Christine",
+        "Ruiz, Augustin",
+        "Shapovalova, Nadiya V",
+        "Shulga, Lyudmila",
+        "Sobieski, Cassandra",
+        "Torkelson, Amy",
+        "Wirthlin, Morgan",
+        "Yao, Shenqin",
+        "Lai, Helen",
+        "Pfenning, Andreas",
+        "Pool, Allan-Hermann",
+        "Seal, Rebecca",
+        "Tasic, Bosiljka",
+        "Ting, Jonathan T",
+        "Waters, Jack",
+        "Yao, Zizhen",
+        "Gitler, Aaron D",
+        "McMillen, Delissa",
+        "Ng, Lydia",
+        "Zeng, Hongkui",
+        "van Velthoven, Cindy T J",
+        "Daigle, Tanya L",
+        "Smith, Kimberly A",
+        "Hodge, Rebecca D",
+        "Lein, Ed S",
+        "Bakken, Trygve E"
+      ],
+      "short_names": [
+        "Schmitz MT",
+        "Johansen NJ",
+        "Kempynck N",
+        "Kapen I",
+        "Fu Y",
+        "Hewitt M",
+        "Seeman SC",
+        "Kussick E",
+        "Gautier O",
+        "Leone MJ",
+        "Ding SL",
+        "Gao Y",
+        "Bhandiwad A",
+        "Ariza J",
+        "Ayala A",
+        "Barta S",
+        "Blum JA",
+        "Cano-Gomez L",
+        "Cardenas T",
+        "Chakka AB",
+        "Cuevas NV",
+        "Donadio N",
+        "Fancher KA",
+        "Thomas ED",
+        "Ferrer R",
+        "Goldy J",
+        "Hastings SD",
+        "Hirschstein D",
+        "Ho W",
+        "Huang C",
+        "Juneau ZC",
+        "Kim SR",
+        "Lewis ZR",
+        "Liang E",
+        "Martin NX",
+        "Nagra J",
+        "Newman D",
+        "Noh MC",
+        "Olsen P",
+        "Oyama A",
+        "Pena N",
+        "Poldsam H",
+        "Ray PL",
+        "Reding M",
+        "Rimorin C",
+        "Ruiz A",
+        "Shapovalova NV",
+        "Shulga L",
+        "Sobieski C",
+        "Torkelson A",
+        "Wirthlin M",
+        "Yao S",
+        "Lai H",
+        "Pfenning A",
+        "Pool AH",
+        "Seal R",
+        "Tasic B",
+        "Ting JT",
+        "Waters J",
+        "Yao Z",
+        "Gitler AD",
+        "McMillen D",
+        "Ng L",
+        "Zeng H",
+        "van Velthoven CTJ",
+        "Daigle TL",
+        "Smith KA",
+        "Hodge RD",
+        "Lein ES",
+        "Bakken TE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6177-8161",
+        "ORCID: 0000-0002-4436-969X",
+        "ORCID: 0000-0002-0104-4844",
+        "ORCID: 0009-0007-0159-0590",
+        "ORCID: 0000-0003-3894-1992",
+        "ORCID: 0000-0001-7885-3116",
+        "ORCID: 0000-0002-6365-7646",
+        "ORCID: 0000-0002-0829-7887",
+        "ORCID: 0009-0002-8512-6851",
+        "ORCID: 0000-0001-7180-3466",
+        "ORCID: 0000-0001-5869-4402",
+        "ORCID: 0000-0002-4738-5062",
+        "ORCID: 0000-0002-1095-1817",
+        "ORCID: 0000-0002-9846-3796",
+        "ORCID: 0000-0002-6250-1148",
+        "ORCID: 0000-0003-4775-1285",
+        "ORCID: 0000-0001-5140-6922",
+        "ORCID: 0009-0008-9107-8597",
+        "ORCID: 0009-0001-5839-6023",
+        "ORCID: 0000-0001-6200-9906",
+        "ORCID: 0009-0002-5386-6345",
+        "ORCID: 0000-0002-8860-5260",
+        "ORCID: 0009-0004-2049-5677",
+        "ORCID: 0000-0003-0160-4722",
+        "ORCID: 0009-0000-1781-6784",
+        "ORCID: 0000-0002-0034-1628",
+        "ORCID: 0009-0005-3746-0240",
+        "ORCID: 0000-0002-3835-0853",
+        "ORCID: 0009-0009-9735-1942",
+        "ORCID: 0000-0001-8132-3722",
+        "ORCID: 0000-0002-4492-0533",
+        "ORCID: 0009-0008-8481-332X",
+        "ORCID: 0009-0008-0390-2620",
+        "ORCID: 0000-0002-5260-9315",
+        "ORCID: 0000-0001-9845-1827",
+        "ORCID: 0000-0003-1491-8552",
+        "ORCID: 0000-0002-8361-5152",
+        "ORCID: 0000-0002-8618-8272",
+        "ORCID: 0009-0002-9785-328X",
+        "ORCID: 0009-0001-6194-5513",
+        "ORCID: 0000-0002-9465-4202",
+        "ORCID: 0000-0001-7967-7070",
+        "ORCID: 0000-0003-2992-4752",
+        "ORCID: 0000-0003-4334-0243",
+        "ORCID: 0000-0002-3447-9801",
+        "ORCID: 0000-0002-0811-9861",
+        "ORCID: 0000-0003-4955-703X",
+        "ORCID: 0000-0002-6861-4506",
+        "ORCID: 0000-0001-8266-0392",
+        "ORCID: 0000-0002-2312-4183",
+        "ORCID: 0000-0002-9361-5607",
+        "ORCID: 0000-0001-8603-1526",
+        "ORCID: 0000-0002-3413-4424",
+        "ORCID: 0000-0002-7499-3514",
+        "ORCID: 0000-0002-0326-5878",
+        "ORCID: 0000-0001-5120-4546",
+        "ORCID: 0000-0001-9700-8452",
+        "ORCID: 0000-0002-3142-1970",
+        "ORCID: 0000-0002-5784-9668",
+        "ORCID: 0000-0001-9012-6552",
+        "ORCID: 0000-0003-3373-7386"
+      ],
+      "affiliations": [
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "These authors contributed equally.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "These authors contributed equally.",
+        "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Neurosciences Graduate Program, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Department of Neurobiology, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA.",
+        "Pittsburgh Center for Pain Research, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Department of Chemistry and Biotechnology, Tallinn University of Technology, Tallinn, Estonia.",
+        "Protobios LLC, Maealuse 4, Tallinn, Estonia.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Department of Anesthesiology and Pain Management, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Department of Neurobiology, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA.",
+        "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Department of Anesthesiology and Pain Management, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Department of Neurobiology, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA.",
+        "Pittsburgh Center for Pain Research, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Department of Neurobiology and Biophysics, University of Washington, Seattle, WA 98195.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Department of Neurobiology and Biophysics, University of Washington, Seattle, WA 98195.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Allen Institute for Brain Science; Seattle, WA, 98109.",
+        "Lead contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schmitz, Matthew T",
+        "short_name": "Schmitz MT",
+        "identifiers": [
+          "0000-0002-6177-8161"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109.",
+          "These authors contributed equally."
+        ]
+      },
+      {
+        "full_name": "Johansen, Nelson J",
+        "short_name": "Johansen NJ",
+        "identifiers": [
+          "0000-0002-4436-969X"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109.",
+          "These authors contributed equally."
+        ]
+      },
+      {
+        "full_name": "Kempynck, Niklas",
+        "short_name": "Kempynck N",
+        "identifiers": [
+          "0000-0002-0104-4844"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology, VIB Center for AI & Computational Biology, Leuven, Belgium.",
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Kapen, Inkar",
+        "short_name": "Kapen I",
+        "identifiers": [
+          "0009-0007-0159-0590"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Fu, Yuanyuan",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Hewitt, Madeleine",
+        "short_name": "Hewitt M",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Seeman, Stephanie C",
+        "short_name": "Seeman SC",
+        "identifiers": [
+          "0000-0003-3894-1992"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Kussick, Emily",
+        "short_name": "Kussick E",
+        "identifiers": [
+          "0000-0001-7885-3116"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Gautier, Olivia",
+        "short_name": "Gautier O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+          "Neurosciences Graduate Program, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Leone, Michael J",
+        "short_name": "Leone MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Ding, Song-Lin",
+        "short_name": "Ding SL",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Gao, Yuan",
+        "short_name": "Gao Y",
+        "identifiers": [
+          "0000-0002-6365-7646"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Bhandiwad, Ashwin",
+        "short_name": "Bhandiwad A",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Ariza, Jeanelle",
+        "short_name": "Ariza J",
+        "identifiers": [
+          "0000-0002-0829-7887"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Ayala, Angela",
+        "short_name": "Ayala A",
+        "identifiers": [
+          "0009-0002-8512-6851"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Barta, Stuard",
+        "short_name": "Barta S",
+        "identifiers": [
+          "0000-0001-7180-3466"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Blum, Jacob A",
+        "short_name": "Blum JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cano-Gomez, Liliana",
+        "short_name": "Cano-Gomez L",
+        "identifiers": [
+          "0000-0001-5869-4402"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Cardenas, Trangthanh",
+        "short_name": "Cardenas T",
+        "identifiers": [
+          "0000-0002-4738-5062"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Chakka, Anish Bhaswanth",
+        "short_name": "Chakka AB",
+        "identifiers": [
+          "0000-0002-1095-1817"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Cuevas, Nasmil Valera",
+        "short_name": "Cuevas NV",
+        "identifiers": [
+          "0000-0002-9846-3796"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Donadio, Nicholas",
+        "short_name": "Donadio N",
+        "identifiers": [
+          "0000-0002-6250-1148"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Fancher, Katherine A",
+        "short_name": "Fancher KA",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Thomas, Emma D",
+        "short_name": "Thomas ED",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Ferrer, Rebecca",
+        "short_name": "Ferrer R",
+        "identifiers": [
+          "0000-0003-4775-1285"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Goldy, Jeff",
+        "short_name": "Goldy J",
+        "identifiers": [
+          "0000-0001-5140-6922"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Hastings, Samantha D",
+        "short_name": "Hastings SD",
+        "identifiers": [
+          "0009-0008-9107-8597"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Hirschstein, Daniel",
+        "short_name": "Hirschstein D",
+        "identifiers": [
+          "0009-0001-5839-6023"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Ho, Windy",
+        "short_name": "Ho W",
+        "identifiers": [
+          "0000-0001-6200-9906"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Huang, Cindy",
+        "short_name": "Huang C",
+        "identifiers": [
+          "0009-0002-5386-6345"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Juneau, Zoe C",
+        "short_name": "Juneau ZC",
+        "identifiers": [
+          "0000-0002-8860-5260"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Kim, Sa Rang",
+        "short_name": "Kim SR",
+        "identifiers": [
+          "0009-0004-2049-5677"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Lewis, Zachary R",
+        "short_name": "Lewis ZR",
+        "identifiers": [
+          "0000-0003-0160-4722"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Liang, Elizabeth",
+        "short_name": "Liang E",
+        "identifiers": [
+          "0009-0000-1781-6784"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Martin, Naomi X",
+        "short_name": "Martin NX",
+        "identifiers": [
+          "0000-0002-0034-1628"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Nagra, Josh",
+        "short_name": "Nagra J",
+        "identifiers": [
+          "0009-0005-3746-0240"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Newman, Dakota",
+        "short_name": "Newman D",
+        "identifiers": [
+          "0000-0002-3835-0853"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Noh, Myung-Chul",
+        "short_name": "Noh MC",
+        "identifiers": [
+          "0009-0009-9735-1942"
+        ],
+        "affiliations": [
+          "Department of Neurobiology, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA.",
+          "Pittsburgh Center for Pain Research, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Olsen, Paul",
+        "short_name": "Olsen P",
+        "identifiers": [
+          "0000-0001-8132-3722"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Oyama, Alana",
+        "short_name": "Oyama A",
+        "identifiers": [
+          "0000-0002-4492-0533"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Pena, Nick",
+        "short_name": "Pena N",
+        "identifiers": [
+          "0009-0008-8481-332X"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Poldsam, Helen",
+        "short_name": "Poldsam H",
+        "identifiers": [
+          "0009-0008-0390-2620"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+          "Department of Chemistry and Biotechnology, Tallinn University of Technology, Tallinn, Estonia.",
+          "Protobios LLC, Mäealuse 4, Tallinn, Estonia."
+        ]
+      },
+      {
+        "full_name": "Ray, Patrick L",
+        "short_name": "Ray PL",
+        "identifiers": [
+          "0000-0002-5260-9315"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Reding, Melissa",
+        "short_name": "Reding M",
+        "identifiers": [
+          "0000-0001-9845-1827"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Rimorin, Christine",
+        "short_name": "Rimorin C",
+        "identifiers": [
+          "0000-0003-1491-8552"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Ruiz, Augustin",
+        "short_name": "Ruiz A",
+        "identifiers": [
+          "0000-0002-8361-5152"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Shapovalova, Nadiya V",
+        "short_name": "Shapovalova NV",
+        "identifiers": [
+          "0000-0002-8618-8272"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Shulga, Lyudmila",
+        "short_name": "Shulga L",
+        "identifiers": [
+          "0009-0002-9785-328X"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Sobieski, Cassandra",
+        "short_name": "Sobieski C",
+        "identifiers": [
+          "0009-0001-6194-5513"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Torkelson, Amy",
+        "short_name": "Torkelson A",
+        "identifiers": [
+          "0000-0002-9465-4202"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Wirthlin, Morgan",
+        "short_name": "Wirthlin M",
+        "identifiers": [
+          "0000-0001-7967-7070"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Yao, Shenqin",
+        "short_name": "Yao S",
+        "identifiers": [
+          "0000-0003-2992-4752"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Lai, Helen",
+        "short_name": "Lai H",
+        "identifiers": [
+          "0000-0003-4334-0243"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+          "Department of Anesthesiology and Pain Management, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Pfenning, Andreas",
+        "short_name": "Pfenning A",
+        "identifiers": [
+          "0000-0002-3447-9801"
+        ],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Department of Neurobiology, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Pool, Allan-Hermann",
+        "short_name": "Pool AH",
+        "identifiers": [
+          "0000-0002-0811-9861"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+          "Department of Anesthesiology and Pain Management, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Seal, Rebecca",
+        "short_name": "Seal R",
+        "identifiers": [
+          "0000-0003-4955-703X"
+        ],
+        "affiliations": [
+          "Department of Neurobiology, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA.",
+          "Pittsburgh Center for Pain Research, University of Pittsburgh School of Medicine, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Tasic, Bosiljka",
+        "short_name": "Tasic B",
+        "identifiers": [
+          "0000-0002-6861-4506"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Ting, Jonathan T",
+        "short_name": "Ting JT",
+        "identifiers": [
+          "0000-0001-8266-0392"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109.",
+          "Department of Neurobiology and Biophysics, University of Washington, Seattle, WA 98195."
+        ]
+      },
+      {
+        "full_name": "Waters, Jack",
+        "short_name": "Waters J",
+        "identifiers": [
+          "0000-0002-2312-4183"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Yao, Zizhen",
+        "short_name": "Yao Z",
+        "identifiers": [
+          "0000-0002-9361-5607"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Gitler, Aaron D",
+        "short_name": "Gitler AD",
+        "identifiers": [
+          "0000-0001-8603-1526"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "McMillen, Delissa",
+        "short_name": "McMillen D",
+        "identifiers": [
+          "0000-0002-3413-4424"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Ng, Lydia",
+        "short_name": "Ng L",
+        "identifiers": [
+          "0000-0002-7499-3514"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Zeng, Hongkui",
+        "short_name": "Zeng H",
+        "identifiers": [
+          "0000-0002-0326-5878"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "van Velthoven, Cindy T J",
+        "short_name": "van Velthoven CTJ",
+        "identifiers": [
+          "0000-0001-5120-4546"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Daigle, Tanya L",
+        "short_name": "Daigle TL",
+        "identifiers": [
+          "0000-0001-9700-8452"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109.",
+          "Department of Neurobiology and Biophysics, University of Washington, Seattle, WA 98195."
+        ]
+      },
+      {
+        "full_name": "Smith, Kimberly A",
+        "short_name": "Smith KA",
+        "identifiers": [
+          "0000-0002-3142-1970"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Hodge, Rebecca D",
+        "short_name": "Hodge RD",
+        "identifiers": [
+          "0000-0002-5784-9668"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Lein, Ed S",
+        "short_name": "Lein ES",
+        "identifiers": [
+          "0000-0001-9012-6552"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109."
+        ]
+      },
+      {
+        "full_name": "Bakken, Trygve E",
+        "short_name": "Bakken TE",
+        "identifiers": [
+          "0000-0003-3373-7386"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science; Seattle, WA, 98109.",
+          "Lead contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Feb 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 06:55",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41193841",
+      "40403722",
+      "39453813",
+      "39272355",
+      "38191932",
+      "38092916",
+      "38092908",
+      "38061330",
+      "38030727",
+      "38029793",
+      "37824663",
+      "37824655",
+      "37824638",
+      "37667001",
+      "36731429",
+      "36426870",
+      "36007006",
+      "34616063",
+      "34588430",
+      "33931636",
+      "33589834",
+      "33479371",
+      "33033265",
+      "32407523",
+      "31435019",
+      "30540233",
+      "29491377",
+      "23678476",
+      "21665927",
+      "20005822",
+      "19954518",
+      "19651609",
+      "15806550",
+      "15388519",
+      "9096160",
+      "2794144",
+      "521509"
+    ],
+    "similar": [
+      "41676636",
+      "41446173",
+      "42327133",
+      "41279941",
+      "41427296",
+      "42367914",
+      "38289829",
+      "39453813",
+      "41687613",
+      "34588430",
+      "36731429",
+      "33393903",
+      "42475469",
+      "39829819",
+      "41839854",
+      "39944372",
+      "38092916",
+      "38092913",
+      "33589834",
+      "37131654",
+      "39856121",
+      "38091510",
+      "15913596",
+      "38934400",
+      "36596814",
+      "36202615",
+      "34616075",
+      "37095394",
+      "41420753",
+      "40981374",
+      "41937210",
+      "34616061",
+      "18996446",
+      "37388908",
+      "41648549",
+      "41332519",
+      "37577463",
+      "42074555",
+      "34351410",
+      "28723056",
+      "41632074",
+      "30846445",
+      "42124606",
+      "40500276",
+      "38421866",
+      "41193844",
+      "41279330",
+      "37442136",
+      "34616062",
+      "41447526",
+      "41279342",
+      "29466745",
+      "37034735",
+      "39326643",
+      "36943152",
+      "8750866",
+      "40403722",
+      "31855381",
+      "36823038",
+      "34473054",
+      "42006319",
+      "32360664",
+      "36121513",
+      "39602276",
+      "41278807",
+      "41210889",
+      "36163250",
+      "42210302",
+      "36495874",
+      "42335888",
+      "41768547",
+      "34079438",
+      "24126226",
+      "32029221",
+      "36374259",
+      "41719583",
+      "39282347",
+      "42239079",
+      "39829740",
+      "25009272",
+      "22351631",
+      "33153500",
+      "29150977",
+      "42608748",
+      "20534130",
+      "41723114",
+      "38177242",
+      "35232960",
+      "40825501",
+      "41531810",
+      "41993329",
+      "34616068",
+      "39799354",
+      "39938757",
+      "33422696",
+      "19939961",
+      "23469119",
+      "34880956",
+      "41306051",
+      "30658714"
+    ],
+    "review": [
+      "41676636",
+      "39944372",
+      "41420753"
+    ],
+    "pmc": [
+      "12889617"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41676636/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.02.04.703852",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

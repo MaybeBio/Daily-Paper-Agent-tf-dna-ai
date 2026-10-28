@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "37813854",
+    "doi": "10.1038/s41467-023-41899-y",
+    "title": "Deep flanking sequence engineering for efficient promoter design using DeepSEED."
+  },
+  "content": {
+    "abstract": "Designing promoters with desirable properties is essential in synthetic biology. Human experts are skilled at identifying strong explicit patterns in small samples, while deep learning models excel at detecting implicit weak patterns in large datasets. Biologists have described the sequence patterns of promoters via transcription factor binding sites (TFBSs). However, the flanking sequences of cis-regulatory elements, have long been overlooked and often arbitrarily decided in promoter design. To address this limitation, we introduce DeepSEED, an AI-aided framework that efficiently designs synthetic promoters by combining expert knowledge with deep learning techniques. DeepSEED has demonstrated success in improving the properties of Escherichia coli constitutive, IPTG-inducible, and mammalian cell doxycycline (Dox)-inducible promoters. Furthermore, our results show that DeepSEED captures the implicit features in flanking sequences, such as k-mer frequencies and DNA shape features, which are crucial for determining promoter properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Promoter Regions, Genetic/genetics",
+      "*Regulatory Sequences, Nucleic Acid",
+      "*Escherichia coli/genetics/metabolism",
+      "Mammals/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Pengcheng",
+        "Wang, Haochen",
+        "Xu, Hanwen",
+        "Wei, Lei",
+        "Liu, Liyang",
+        "Hu, Zhirui",
+        "Wang, Xiaowo"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Wang H",
+        "Xu H",
+        "Wei L",
+        "Liu L",
+        "Hu Z",
+        "Wang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3524-3478",
+        "ORCID: 0000-0003-2965-8036"
+      ],
+      "affiliations": [
+        "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China.",
+        "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China.",
+        "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China.",
+        "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China.",
+        "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China.",
+        "Center for Statistical Science, Tsinghua University, Beijing, China.",
+        "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China. xwwang@tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Pengcheng",
+        "short_name": "Zhang P",
+        "identifiers": [
+          "0000-0003-3524-3478"
+        ],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haochen",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hanwen",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Lei",
+        "short_name": "Wei L",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Liyang",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhirui",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Statistical Science, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaowo",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0003-2965-8036"
+        ],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Bioinformatics; Center for Synthetic and Systems Biology; Bioinformatics Division, Beijing National Research Center for Information Science and Technology; Department of Automation, Tsinghua University, Beijing, China. xwwang@tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Oct 9",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/10 00:42",
+    "fetched_at": "2026-09-29 08:36:35"
+  },
+  "links": {
+    "cites": [
+      "42412827",
+      "42212299",
+      "42160034",
+      "41813969",
+      "41803457",
+      "41693567",
+      "41574264",
+      "41556344",
+      "41505101",
+      "41484447",
+      "41309366",
+      "41136689",
+      "41136350",
+      "41135875",
+      "41128615",
+      "41121752",
+      "41083998",
+      "40994438",
+      "40902006",
+      "40874591",
+      "40613715",
+      "40439305",
+      "40397295",
+      "40078374",
+      "40035969",
+      "39938795",
+      "39922842",
+      "39818622",
+      "39682712",
+      "39524356",
+      "39420601",
+      "39224149",
+      "39199333",
+      "39124917",
+      "39120645",
+      "39110340",
+      "39072145",
+      "39068340",
+      "39065143",
+      "39047028",
+      "38817827",
+      "38783063",
+      "38429953",
+      "38383636",
+      "37889080"
+    ],
+    "refs": [
+      "37023129",
+      "36042233",
+      "36028502",
+      "35551305",
+      "34987221",
+      "34850907",
+      "34351706",
+      "34230498",
+      "33603233",
+      "33436562",
+      "33221420",
+      "33199691",
+      "32819422",
+      "32735779",
+      "32424410",
+      "32355169",
+      "31792407",
+      "31552424",
+      "31283382",
+      "31253799",
+      "31206543",
+      "30971806",
+      "30710128",
+      "30622120",
+      "30395339",
+      "30250250",
+      "30247654",
+      "30052624",
+      "29946135",
+      "29588420",
+      "29574344",
+      "29388765",
+      "28473536",
+      "28463494",
+      "28359978",
+      "28137873",
+      "27816209",
+      "27701403",
+      "27546793",
+      "27216914",
+      "26160164",
+      "25775564",
+      "25762553",
+      "25557079",
+      "25129887",
+      "23703209",
+      "23562153",
+      "23143103",
+      "22371084",
+      "22143240",
+      "21330290",
+      "20485554",
+      "20395970",
+      "20010584",
+      "18004278",
+      "16123130",
+      "9377276",
+      "9092630",
+      "7792603",
+      "3537305",
+      "2182324",
+      "1319065"
+    ],
+    "similar": [
+      "37813854",
+      "32424410",
+      "19772633",
+      "26883397",
+      "29855997",
+      "35043622",
+      "35641900",
+      "22369687",
+      "19426448",
+      "12907708",
+      "28256660",
+      "38613497",
+      "26655679",
+      "10756184",
+      "25573467",
+      "8437517",
+      "24063236",
+      "12123454",
+      "30457214",
+      "26305598",
+      "8055959",
+      "27557757",
+      "30191675",
+      "18366609",
+      "15927055",
+      "11222606",
+      "3045761",
+      "25036188",
+      "7781607",
+      "29948110",
+      "37246641",
+      "33988977",
+      "15081116",
+      "29534758",
+      "35922621",
+      "30706208",
+      "18517657",
+      "32363397",
+      "16321401",
+      "28743271",
+      "29949349",
+      "25383968",
+      "29855387",
+      "28158264",
+      "36134716",
+      "28463494",
+      "27715021",
+      "8668191",
+      "21601085",
+      "17096598",
+      "35225601",
+      "35771099",
+      "26499213",
+      "8626793",
+      "20133665",
+      "2160396",
+      "21046474",
+      "29302024",
+      "23886924",
+      "2169444",
+      "25318583",
+      "32134640",
+      "15935571",
+      "8169208",
+      "15966309",
+      "33256091",
+      "27268512",
+      "9553070",
+      "34083762",
+      "19329064",
+      "8996790",
+      "23178502",
+      "24893752",
+      "17985080",
+      "12954097",
+      "9922176",
+      "35389220",
+      "23457785",
+      "19029883",
+      "11169107",
+      "23818223",
+      "20133776",
+      "18722813",
+      "25853840",
+      "18004278",
+      "37327560",
+      "38783063",
+      "25543084",
+      "11397080",
+      "12391883",
+      "29320851",
+      "8894680",
+      "1599482",
+      "8868444",
+      "36099980",
+      "29101191",
+      "8383216",
+      "12758126",
+      "37889080",
+      "38099247",
+      "37961633"
+    ],
+    "review": [
+      "37813854",
+      "29855997",
+      "28256660",
+      "30706208",
+      "26499213"
+    ],
+    "pmc": [
+      "10562447"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-41899-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37813854/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37813854",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37813854",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

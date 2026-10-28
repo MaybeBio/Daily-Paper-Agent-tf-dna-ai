@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "39823806",
+    "doi": "10.1016/j.ejmech.2024.117208",
+    "title": "Synthesis and functional screening of novel inhibitors targeting the HDAC6 zinc finger ubiquitin-binding domain."
+  },
+  "content": {
+    "abstract": "Histone deacetylase 6 (HDAC6) is a promising target for treating neurodegenerative disorders, several cancer types and viral infections. Unique among HDACs, the HDAC6 isoform possesses a zinc finger ubiquitin-binding domain (UBD) crucial for managing misfolded protein aggregates and facilitating viral infection. HDAC6 binds aggregated polyubiquitinated proteins through its UBD, mediating their transport to the aggresome and subsequent removal via autophagy. Despite the importance of the UBD in proteostasis and viral infection, its pharmacological inhibition has been minimally explored thus far, with research largely focused on the deacetylase domain. We synthesized a diverse library of new compounds designed to target the HDAC6-UBD, termed HZUBi, with varied core structures including quinazolinone, oxindole and tetrahydrothiopyrano[4,3-b]indole, aimed at enhancing UBD interaction and extending into the side pocket. New structure-activity relationships were established, computational docking and molecular dynamics studies were performed and the functional impact of selected inhibitors was assessed in the context of multiple myeloma and viral infection. Several new HZUBi could displace a ubiquitin peptide from HDAC6-UBD in a differential manner, although to a lower extent than the literature reference compound HZUBi-3e. Despite exhibiting in vitro target engagement, neither HZUBi-3e nor its ester prodrug HZUBi-1e enhanced proteasome inhibitor-mediated multiple myeloma cell killing. Finally, none of the screened HZUBi triggered anti-viral activity.",
+    "keywords": [
+      "Aggresome",
+      "Antiviral activity",
+      "HDAC6 ubiquitin-binding domain",
+      "Histone deacetylase 6 (HDAC6)",
+      "Multiple myeloma"
+    ],
+    "mesh_terms": [
+      "*Histone Deacetylase 6/antagonists & inhibitors/metabolism",
+      "Humans",
+      "*Histone Deacetylase Inhibitors/pharmacology/chemical synthesis/chemistry",
+      "Structure-Activity Relationship",
+      "*Zinc Fingers",
+      "Ubiquitin/metabolism",
+      "Molecular Structure",
+      "Dose-Response Relationship, Drug",
+      "Molecular Docking Simulation",
+      "Antiviral Agents/pharmacology/chemical synthesis/chemistry",
+      "Antineoplastic Agents/pharmacology/chemical synthesis/chemistry",
+      "Cell Line, Tumor",
+      "Cell Proliferation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Geurs, Silke",
+        "Staessens, Eleni",
+        "Bredael, Kato",
+        "Borghgraef, Stefaan",
+        "De Ridder, Jordy",
+        "Persoons, Leentje",
+        "De Jonghe, Steven",
+        "Schols, Dominique",
+        "Mann, Mandeep K",
+        "Harding, Rachel J",
+        "Franceus, Jorick",
+        "Desmet, Tom",
+        "Van Hecke, Kristof",
+        "Clarisse, Dorien",
+        "De Bosscher, Karolien",
+        "D'hooghe, Matthias"
+      ],
+      "short_names": [
+        "Geurs S",
+        "Staessens E",
+        "Bredael K",
+        "Borghgraef S",
+        "De Ridder J",
+        "Persoons L",
+        "De Jonghe S",
+        "Schols D",
+        "Mann MK",
+        "Harding RJ",
+        "Franceus J",
+        "Desmet T",
+        "Van Hecke K",
+        "Clarisse D",
+        "De Bosscher K",
+        "D'hooghe M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium; Translational Nuclear Receptor Research, VIB-UGent Center for Medical Biotechnology, Ghent, Belgium.",
+        "Translational Nuclear Receptor Research, VIB-UGent Center for Medical Biotechnology, Ghent, Belgium; Department of Biomolecular Medicine, Ghent University, Ghent, Belgium; Cancer Research Institute Ghent (CRIG), Ghent, Belgium.",
+        "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium.",
+        "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium.",
+        "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium.",
+        "Molecular Genetics and Therapeutics in Virology and Oncology Research Group, Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven, Leuven, Belgium.",
+        "Molecular Structural and Translational Virology Research Group, Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven, Leuven, Belgium.",
+        "Molecular Structural and Translational Virology Research Group, Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven, Leuven, Belgium.",
+        "Structural Genomics Consortium, University of Toronto, Toronto, Ontario, Canada.",
+        "Structural Genomics Consortium, University of Toronto, Toronto, Ontario, Canada; Leslie Dan Faculty of Pharmacy, University of Toronto, Toronto, Ontario, Canada; Department of Pharmacology and Toxicology, University of Toronto, Toronto, Ontario, Canada.",
+        "Center for Synthetic Biology, Department of Biotechnology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium.",
+        "Center for Synthetic Biology, Department of Biotechnology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium.",
+        "XStruct, Department of Chemistry, Faculty of Sciences, Ghent University, Ghent, Belgium.",
+        "Translational Nuclear Receptor Research, VIB-UGent Center for Medical Biotechnology, Ghent, Belgium; Department of Biomolecular Medicine, Ghent University, Ghent, Belgium; Cancer Research Institute Ghent (CRIG), Ghent, Belgium. Electronic address: dorien.clarisse@vib-ugent.be.",
+        "Translational Nuclear Receptor Research, VIB-UGent Center for Medical Biotechnology, Ghent, Belgium; Department of Biomolecular Medicine, Ghent University, Ghent, Belgium; Cancer Research Institute Ghent (CRIG), Ghent, Belgium. Electronic address: karolien.debosscher@vib-ugent.be.",
+        "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium; Cancer Research Institute Ghent (CRIG), Ghent, Belgium. Electronic address: matthias.dhooghe@ugent.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Geurs, Silke",
+        "short_name": "Geurs S",
+        "identifiers": [],
+        "affiliations": [
+          "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium; Translational Nuclear Receptor Research, VIB-UGent Center for Medical Biotechnology, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Staessens, Eleni",
+        "short_name": "Staessens E",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Nuclear Receptor Research, VIB-UGent Center for Medical Biotechnology, Ghent, Belgium; Department of Biomolecular Medicine, Ghent University, Ghent, Belgium; Cancer Research Institute Ghent (CRIG), Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Bredael, Kato",
+        "short_name": "Bredael K",
+        "identifiers": [],
+        "affiliations": [
+          "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Borghgraef, Stefaan",
+        "short_name": "Borghgraef S",
+        "identifiers": [],
+        "affiliations": [
+          "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Ridder, Jordy",
+        "short_name": "De Ridder J",
+        "identifiers": [],
+        "affiliations": [
+          "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Persoons, Leentje",
+        "short_name": "Persoons L",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Therapeutics in Virology and Oncology Research Group, Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Jonghe, Steven",
+        "short_name": "De Jonghe S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Structural and Translational Virology Research Group, Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Schols, Dominique",
+        "short_name": "Schols D",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Structural and Translational Virology Research Group, Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mann, Mandeep K",
+        "short_name": "Mann MK",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Genomics Consortium, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Harding, Rachel J",
+        "short_name": "Harding RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Genomics Consortium, University of Toronto, Toronto, Ontario, Canada; Leslie Dan Faculty of Pharmacy, University of Toronto, Toronto, Ontario, Canada; Department of Pharmacology and Toxicology, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Franceus, Jorick",
+        "short_name": "Franceus J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Synthetic Biology, Department of Biotechnology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Desmet, Tom",
+        "short_name": "Desmet T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Synthetic Biology, Department of Biotechnology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Van Hecke, Kristof",
+        "short_name": "Van Hecke K",
+        "identifiers": [],
+        "affiliations": [
+          "XStruct, Department of Chemistry, Faculty of Sciences, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Clarisse, Dorien",
+        "short_name": "Clarisse D",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Nuclear Receptor Research, VIB-UGent Center for Medical Biotechnology, Ghent, Belgium; Department of Biomolecular Medicine, Ghent University, Ghent, Belgium; Cancer Research Institute Ghent (CRIG), Ghent, Belgium. Electronic address: dorien.clarisse@vib-ugent.be."
+        ]
+      },
+      {
+        "full_name": "De Bosscher, Karolien",
+        "short_name": "De Bosscher K",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Nuclear Receptor Research, VIB-UGent Center for Medical Biotechnology, Ghent, Belgium; Department of Biomolecular Medicine, Ghent University, Ghent, Belgium; Cancer Research Institute Ghent (CRIG), Ghent, Belgium. Electronic address: karolien.debosscher@vib-ugent.be."
+        ]
+      },
+      {
+        "full_name": "D'hooghe, Matthias",
+        "short_name": "D'hooghe M",
+        "identifiers": [],
+        "affiliations": [
+          "SynBioC Research Group, Department of Green Chemistry and Technology, Faculty of Bioscience Engineering, Ghent University, Ghent, Belgium; Cancer Research Institute Ghent (CRIG), Ghent, Belgium. Electronic address: matthias.dhooghe@ugent.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Chem"
+    ],
+    "pub_date": "2025 Mar 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/18 15:09",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "42305196",
+      "41378251"
+    ],
+    "refs": [],
+    "similar": [
+      "39823806",
+      "29741882",
+      "37499118",
+      "34474303",
+      "29019676",
+      "34139324",
+      "34153811",
+      "32120077",
+      "31072216",
+      "28044941",
+      "34656899",
+      "33831778",
+      "30632697",
+      "29859380",
+      "40252366",
+      "31865013",
+      "38142511",
+      "34583596",
+      "32615502",
+      "34224197",
+      "32916298",
+      "31924504",
+      "29102179",
+      "33744690",
+      "31271281",
+      "38714044",
+      "29150330",
+      "40013582",
+      "30885763",
+      "29738953",
+      "30092367",
+      "32768947",
+      "33992929",
+      "39042494",
+      "32803970",
+      "31155552",
+      "32497960",
+      "33576627",
+      "31235266",
+      "37002569",
+      "38857566",
+      "29120081",
+      "30407786",
+      "37870047",
+      "29945500",
+      "32348628",
+      "32721508",
+      "33629513",
+      "33237772",
+      "30499393",
+      "33213894",
+      "31580523",
+      "36942938",
+      "35043615",
+      "31400938",
+      "29203661",
+      "33161799",
+      "32880591",
+      "33799069",
+      "38685198",
+      "38181853",
+      "30667160",
+      "27799547",
+      "31606087",
+      "33359604",
+      "30645113",
+      "29500130",
+      "38772881",
+      "33677416",
+      "30597327",
+      "38945152",
+      "39549507",
+      "35119267",
+      "19033385",
+      "37446224",
+      "31267876",
+      "35408604",
+      "30365892",
+      "29533873",
+      "29549837",
+      "33668008",
+      "32058238",
+      "33035922",
+      "33523672",
+      "26592932",
+      "30151581",
+      "33759126",
+      "26619262",
+      "32067866",
+      "34517222",
+      "33894432",
+      "40112668",
+      "34120025",
+      "32357815",
+      "29563065",
+      "32022441",
+      "32591593",
+      "15937340",
+      "30168823",
+      "28574690"
+    ],
+    "review": [
+      "39823806",
+      "37002569",
+      "38857566",
+      "30499393",
+      "33677416",
+      "33035922",
+      "33523672"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223-5234(24)01090-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

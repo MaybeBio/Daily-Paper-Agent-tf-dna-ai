@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "36524115",
+    "doi": "10.3389/fimmu.2022.1007461",
+    "title": "Machine learning-based identification of SOX10 as an immune regulator of macrophage in gliomas."
+  },
+  "content": {
+    "abstract": "Gliomas, originating from the glial cells, are the most lethal type of primary tumors in the central nervous system. Standard treatments like surgery have not significantly improved the prognosis of glioblastoma patients. Recently, immune therapy has become a novel and effective option. As a conserved group of transcriptional regulators, the Sry-type HMG box (SOX) family has been proved to have a correlation with numerous diseases. Based on the large-scale machine learning, we found that the SOX family, with significant immune characteristics and genomic profiles, can be divided into two distinct clusters in gliomas, among which SOX10 was identified as an excellent immune regulator of macrophage in gliomas. The high expression of SOX10 is related to a shorter OS in LGG, HGG, and pan-cancer groups but benefited from the immunotherapy. It turned out in single-cell sequencing that SOX10 is high in neurons, M1 macrophages, and neural stem cells. Also, macrophages are found to be elevated in the SOX10 high-expression group. SOX10 has a positive correlation with macrophage cytokine production and negative regulation of macrophages' chemotaxis and migration. In conclusion, our study demonstrates the outstanding cluster ability of the SOX family, indicating that SOX10 is an immune regulator of macrophage in gliomas, which can be an effective target for glioma immunotherapy.",
+    "keywords": [
+      "SOX10",
+      "gliomas",
+      "immune infiltration",
+      "immune microenvironment",
+      "immunotherapy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioblastoma/pathology",
+      "*Glioma/immunology/pathology",
+      "Machine Learning",
+      "*Macrophages/immunology/metabolism",
+      "*SOXE Transcription Factors/immunology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiao, Gelei",
+        "Wang, Kaiyue",
+        "Wang, Zeyu",
+        "Dai, Ziyu",
+        "Liang, Xisong",
+        "Ye, Weijie",
+        "Luo, Peng",
+        "Zhang, Jian",
+        "Liu, Zaoqu",
+        "Cheng, Quan",
+        "Peng, Renjun"
+      ],
+      "short_names": [
+        "Xiao G",
+        "Wang K",
+        "Wang Z",
+        "Dai Z",
+        "Liang X",
+        "Ye W",
+        "Luo P",
+        "Zhang J",
+        "Liu Z",
+        "Cheng Q",
+        "Peng R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+        "Diagnosis and Treatment Center for Hydrocephalus, Xiangya Hospital, Central South University, Changsha, China.",
+        "Hunan International Scientific and Technological Cooperation Base of Brain Tumor Research, Xiangya Hospital, Central South University, Changsha, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Xiangya School of Medicine, Central South University, Changsha, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+        "MRC Centre for Regenerative Medicine, Institute for Regeneration and Repair, University of Edinburgh, Edinburgh, United Kingdom.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Clinical Pharmacology, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Interventional Radiology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Clinical Pharmacology, Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiao, Gelei",
+        "short_name": "Xiao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+          "Diagnosis and Treatment Center for Hydrocephalus, Xiangya Hospital, Central South University, Changsha, China.",
+          "Hunan International Scientific and Technological Cooperation Base of Brain Tumor Research, Xiangya Hospital, Central South University, Changsha, China.",
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kaiyue",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Medicine, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zeyu",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+          "MRC Centre for Regenerative Medicine, Institute for Regeneration and Repair, University of Edinburgh, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Dai, Ziyu",
+        "short_name": "Dai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Xisong",
+        "short_name": "Liang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Weijie",
+        "short_name": "Ye W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacology, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Peng",
+        "short_name": "Luo P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zaoqu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Quan",
+        "short_name": "Cheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
+          "Department of Clinical Pharmacology, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Renjun",
+        "short_name": "Peng R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, China.",
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/17 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "42381604",
+      "41727650",
+      "41425851",
+      "41006821",
+      "40159622",
+      "40055311",
+      "38331879",
+      "38212127",
+      "38164286"
+    ],
+    "refs": [
+      "36136350",
+      "35978433",
+      "35966587",
+      "34786152",
+      "34659218",
+      "34471502",
+      "33664747",
+      "33583737",
+      "33339831",
+      "33193404",
+      "33151388",
+      "33123732",
+      "33076453",
+      "32470396",
+      "32042191",
+      "31947645",
+      "31908895",
+      "31239444",
+      "30914279",
+      "30733593",
+      "29858273",
+      "29761394",
+      "28697342",
+      "28425506",
+      "27157931",
+      "27015306",
+      "26966000",
+      "26944317",
+      "26936505",
+      "26713745",
+      "26061753",
+      "26061751",
+      "25444903",
+      "25258310",
+      "25151262",
+      "24086078",
+      "23601682",
+      "23290134",
+      "22869205",
+      "21917735",
+      "20537983",
+      "20152168",
+      "19808959",
+      "19033425",
+      "17971532",
+      "16530701",
+      "10843666"
+    ],
+    "similar": [
+      "36524115",
+      "17855658",
+      "33664747",
+      "38366813",
+      "25524031",
+      "35465267",
+      "25436903",
+      "34471502",
+      "34489938",
+      "29262845",
+      "19425178",
+      "36134697",
+      "23520016",
+      "27821050",
+      "23874858",
+      "32029586",
+      "26287936",
+      "33339831",
+      "18272785",
+      "29947810",
+      "33246490",
+      "21908409",
+      "35144680",
+      "33937022",
+      "35265085",
+      "14523991",
+      "28370559",
+      "35677036",
+      "33959130",
+      "19647093",
+      "32781392",
+      "34667077",
+      "16214168",
+      "9760192",
+      "34728538",
+      "10559384",
+      "18786246",
+      "29447134",
+      "23729567",
+      "37879819",
+      "23719262",
+      "22363655",
+      "31399133",
+      "10931919",
+      "32304249",
+      "19922439",
+      "34054873",
+      "33618763",
+      "24954720",
+      "19304657",
+      "34654395",
+      "33936093",
+      "25536222",
+      "27552919",
+      "34667088",
+      "28216417",
+      "34725848",
+      "23799842",
+      "32457124",
+      "30794352",
+      "17961134",
+      "29894722",
+      "25356946",
+      "29023979",
+      "32572951",
+      "32858440",
+      "35006549",
+      "22037207",
+      "16790476",
+      "12789277",
+      "22922260",
+      "30506895",
+      "23644063",
+      "35144211",
+      "29764444",
+      "35301393",
+      "25301735",
+      "9425902",
+      "22495377",
+      "38488682",
+      "39285246",
+      "38960477",
+      "37598273"
+    ],
+    "review": [
+      "36524115",
+      "19647093",
+      "23729567",
+      "27552919",
+      "34667088",
+      "12789277",
+      "23644063",
+      "38960477"
+    ],
+    "pmc": [
+      "9745112"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36524115/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36524115",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3297",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2022.1007461",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "36734218",
+    "doi": "10.1080/07391102.2023.2174187",
+    "title": "In silico scanning of structural and functional deleterious nsSNPs in Arabidopsis thaliana's SOG1 protein, using molecular dynamic simulation approaches."
+  },
+  "content": {
+    "abstract": "Suppressor of gamma response 1 (SOG1) is a member of the NAC domain family transcription factors of the DNA damage response (DDR) signaling in the plant's genome. SOG1 is directly involved in transcriptional response to DNA damage, cell cycle checkpoints and ATR or ATM-mediated activation of the DNA damage responses and repair functioning in programmed cell death and regulation of end reduplication. Different mutations in the SOG1 protein lead to severe diseases and, ultimately, cell death. Single nucleotide polymorphisms (SNPs) are an important type of genetic alteration that cause different diseases or programmed cell death. The current study applied different computational approaches to Arabidopsis thaliana L. SOG1 protein to identify the potential deleterious nsSNPs and monitor their impact on the structure, function and protein stability. Various bioinformatics tools were applied to analyze the retrieved 34 nsSNPs and interestingly extracted four deleterious nsSNPs, that is, ensvath13968004 (Q166L), tmp18998388 (P159L), ensvath01103049 (K199N) and tmp18998295 (Y190F). For example, homology modeling, conservation and conformational analysis of the mutant's models were considered to scrutinize the deviations of these variants from the native SOG1 structure. All atoms molecular dynamic simulation confirmed the significance of these mutations on the protein stability, residual and structural conformation, compactness, surface conformation, dominant motion, Gibbs free energy distribution and dynamic effects. Similarly, protein-protein interaction revealed that SOG1 operates as a hub-linking cluster of various proteins, and any changes in the SOG1 might result in the disassociation of several signal transduction cascades.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Arabidopsis thaliana",
+      "Molecular dynamic simulation",
+      "NAC domain",
+      "SOG1",
+      "single nucleotide polymorphism"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics/metabolism",
+      "Molecular Dynamics Simulation",
+      "Transcription Factors/genetics",
+      "DNA Damage",
+      "Mutation",
+      "Polymorphism, Single Nucleotide",
+      "*Arabidopsis Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khan, Asif",
+        "Waqas, Muhammad",
+        "Tufail, Muhammad",
+        "Halim, Sobia Ahsan",
+        "Murad, Waheed",
+        "Ahmad, Syed Umair",
+        "Faheem, Muhammad",
+        "Uddin, Jalal",
+        "Khalid, Asaad",
+        "Abdalla, Ashraf N",
+        "Khan, Ajmal",
+        "Al-Harrasi, Ahmed"
+      ],
+      "short_names": [
+        "Khan A",
+        "Waqas M",
+        "Tufail M",
+        "Halim SA",
+        "Murad W",
+        "Ahmad SU",
+        "Faheem M",
+        "Uddin J",
+        "Khalid A",
+        "Abdalla AN",
+        "Khan A",
+        "Al-Harrasi A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6749-6878",
+        "ORCID: 0000-0003-4770-9319",
+        "ORCID: 0000-0001-7851-6080",
+        "ORCID: 0000-0002-0815-5942"
+      ],
+      "affiliations": [
+        "Laboratory of Phytochemistry, Department of Botany, University of Sao Paulo, Sao Paulo, Brazil.",
+        "Natural and Medical Sciences Research Center, University of Nizwa, Nizwa, Sultanate of Oman.",
+        "Department of Biotechnology and Genetic Engineering, Hazara University Mansehra, Dhodial, Pakistan.",
+        "Department of Zoology, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad, Pakistan.",
+        "Natural and Medical Sciences Research Center, University of Nizwa, Nizwa, Sultanate of Oman.",
+        "Department of Botany, Abdul Wali Khan University Mardan, Pakistan.",
+        "Department of Bioinformatics, Hazara University, Mansehra, Dhodial, Pakistan.",
+        "Department of Biological Sciences, National University of Medical Sciences, The Mall, Rawalpindi, Pakistan.",
+        "Department of Pharmaceutical Chemistry, College of Pharmacy, King Khalid University, Abha, Kingdom of Saudi Arabia.",
+        "Substance Abuse and Toxicology Research Center, Jazan University, Jazan, Saudi Arabia.",
+        "Medicinal and Aromatic Plants and Traditional Medicine Research Institute, National Center for Research, Khartoum, Sudan.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, Umm Al-Qura University, Makkah, Saudi Arabia.",
+        "Natural and Medical Sciences Research Center, University of Nizwa, Nizwa, Sultanate of Oman.",
+        "Natural and Medical Sciences Research Center, University of Nizwa, Nizwa, Sultanate of Oman."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khan, Asif",
+        "short_name": "Khan A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Phytochemistry, Department of Botany, University of São Paulo, São Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Waqas, Muhammad",
+        "short_name": "Waqas M",
+        "identifiers": [],
+        "affiliations": [
+          "Natural and Medical Sciences Research Center, University of Nizwa, Nizwa, Sultanate of Oman.",
+          "Department of Biotechnology and Genetic Engineering, Hazara University Mansehra, Dhodial, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Tufail, Muhammad",
+        "short_name": "Tufail M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Halim, Sobia Ahsan",
+        "short_name": "Halim SA",
+        "identifiers": [],
+        "affiliations": [
+          "Natural and Medical Sciences Research Center, University of Nizwa, Nizwa, Sultanate of Oman."
+        ]
+      },
+      {
+        "full_name": "Murad, Waheed",
+        "short_name": "Murad W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Botany, Abdul Wali Khan University Mardan, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Syed Umair",
+        "short_name": "Ahmad SU",
+        "identifiers": [
+          "0000-0002-6749-6878"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics, Hazara University, Mansehra, Dhodial, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Faheem, Muhammad",
+        "short_name": "Faheem M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Medical Sciences, The Mall, Rawalpindi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Uddin, Jalal",
+        "short_name": "Uddin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, College of Pharmacy, King Khalid University, Abha, Kingdom of Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Khalid, Asaad",
+        "short_name": "Khalid A",
+        "identifiers": [],
+        "affiliations": [
+          "Substance Abuse and Toxicology Research Center, Jazan University, Jazan, Saudi Arabia.",
+          "Medicinal and Aromatic Plants and Traditional Medicine Research Institute, National Center for Research, Khartoum, Sudan."
+        ]
+      },
+      {
+        "full_name": "Abdalla, Ashraf N",
+        "short_name": "Abdalla AN",
+        "identifiers": [
+          "0000-0003-4770-9319"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, Umm Al-Qura University, Makkah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Khan, Ajmal",
+        "short_name": "Khan A",
+        "identifiers": [
+          "0000-0001-7851-6080"
+        ],
+        "affiliations": [
+          "Natural and Medical Sciences Research Center, University of Nizwa, Nizwa, Sultanate of Oman."
+        ]
+      },
+      {
+        "full_name": "Al-Harrasi, Ahmed",
+        "short_name": "Al-Harrasi A",
+        "identifiers": [
+          "0000-0002-0815-5942"
+        ],
+        "affiliations": [
+          "Natural and Medical Sciences Research Center, University of Nizwa, Nizwa, Sultanate of Oman."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/04 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36734218",
+      "32004947",
+      "35446184",
+      "26617076",
+      "34079040",
+      "30541889",
+      "29430765",
+      "19549833",
+      "29939818",
+      "23907539",
+      "24736489",
+      "35456473",
+      "30554433",
+      "38242160",
+      "26320227",
+      "32277429",
+      "34859586",
+      "34437813",
+      "31176488",
+      "34791445",
+      "39892530",
+      "29208704",
+      "38494249",
+      "38865814",
+      "21613568",
+      "36271862",
+      "37159556",
+      "37173831",
+      "37415334",
+      "35412914",
+      "34827731",
+      "35858436",
+      "31630641",
+      "27658920",
+      "23561625",
+      "25595823",
+      "35092861",
+      "37640005",
+      "38858637",
+      "32787631",
+      "37278385",
+      "30204049",
+      "30884445",
+      "37676617",
+      "24777812",
+      "36995110",
+      "20594336",
+      "37434323",
+      "38977046",
+      "36727295",
+      "39562776",
+      "38630598",
+      "32308663",
+      "39854591",
+      "39021990",
+      "39007549",
+      "34988354",
+      "28320736",
+      "31583691",
+      "36943736",
+      "26800850",
+      "37616189",
+      "37139544",
+      "34853389",
+      "39951954",
+      "24591052",
+      "30657222",
+      "34618100",
+      "40149458",
+      "36598356",
+      "35231109",
+      "29222192",
+      "32414898",
+      "28556304",
+      "31976320",
+      "39858650",
+      "23056176",
+      "26033196",
+      "34355676",
+      "20198468",
+      "22384055",
+      "35727487",
+      "36812296",
+      "38117419",
+      "22158468",
+      "40044721",
+      "27497297",
+      "22018494",
+      "40149454",
+      "31236417",
+      "34352456",
+      "31398194",
+      "31781678",
+      "36764830",
+      "12750343",
+      "38193892",
+      "37860678",
+      "30427087",
+      "37286379",
+      "34234628"
+    ],
+    "review": [
+      "36734218",
+      "32004947",
+      "26617076",
+      "24736489",
+      "34437813"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2174187?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.arabidopsis.org/publication?key=501802106",
+        "provider": "The Arabidopsis Information Resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Linked Gene Data"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ATM-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-912",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2174187",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

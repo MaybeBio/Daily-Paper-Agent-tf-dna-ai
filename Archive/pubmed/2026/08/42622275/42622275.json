@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "42622275",
+    "doi": "10.1021/acs.jpcb.6c03886",
+    "title": "Multisite Threonine Phosphorylation in the SPT5 C-Terminal Region 1 Enables Sequence-Dependent Regulation without Global Structural Remodeling."
+  },
+  "content": {
+    "abstract": "Phosphorylation of intrinsically disordered regions (IDRs) is widely viewed as a mechanism for encoding regulatory information through structural transitions, as exemplified by the RNA polymerase II C-terminal domain (CTD), where phosphorylation induces local conformational changes such as proline isomerization. However, whether this paradigm extends to other disordered regulatory domains remains unclear. The C-terminal repeat region (CTR) of SPT5, a key cofactor in transcription elongation, contains multiple Thr-Pro motifs that are phosphorylated by P-TEFb, but the structural and mechanistic consequences of this modification have not been defined. Here, we combine NMR spectroscopy, small-angle X-ray scattering (SAXS), mass spectrometry, and molecular simulations to characterize the effects of multisite threonine phosphorylation on the SPT5 CTR1 domain. NMR analysis reveals that, in contrast to the RNA polymerase II CTD, phosphorylation does not induce detectable proline isomerization. Molecular simulations suggest this resistance arises because phosphothreonine forms an intramolecular hydrogen bond that restricts the backbone flexibility required for isomerization. SAXS measurements further show that hyperphosphorylation does not alter the global dimensions of the CTR1 ensemble, in agreement with predictions from polyampholyte polymer models. Notably, mass spectrometry and mutational analysis demonstrate that phosphorylation is strongly influenced by local sequence context, with specific residues modulating kinase selectivity. Together, these findings establish that multisite phosphorylation of the SPT5 CTR1 domain modulates a heterogeneous interaction landscape shaped by sequence context. More broadly, this work emphasizes the nontrivial difference between serine and threonine phosphorylation as a mechanism to regulate disordered protein structure-function relationships.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*Threonine/chemistry/metabolism",
+      "Scattering, Small Angle",
+      "*Transcriptional Elongation Factors/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "X-Ray Diffraction",
+      "Amino Acid Sequence",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Chromosomal Proteins, Non-Histone"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Rong",
+        "Usher, Emery T",
+        "Fraser, Olivia A",
+        "Chen, Wei",
+        "Holehouse, Alex S",
+        "Showalter, Scott A"
+      ],
+      "short_names": [
+        "Hu R",
+        "Usher ET",
+        "Fraser OA",
+        "Chen W",
+        "Holehouse AS",
+        "Showalter SA"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-4481-0044",
+        "ORCID: 0000-0002-0166-3311",
+        "ORCID: 0000-0002-4155-5729",
+        "ORCID: 0000-0001-5179-032X"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania16802, United States.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Cruz, California95064, United States.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania16802, United States.",
+        "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania16802, United States.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania16802, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri63110, United States.",
+        "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania16802, United States.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania16802, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Rong",
+        "short_name": "Hu R",
+        "identifiers": [
+          "0009-0008-4481-0044"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania16802, United States."
+        ]
+      },
+      {
+        "full_name": "Usher, Emery T",
+        "short_name": "Usher ET",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Cruz, California95064, United States."
+        ]
+      },
+      {
+        "full_name": "Fraser, Olivia A",
+        "short_name": "Fraser OA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania16802, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Wei",
+        "short_name": "Chen W",
+        "identifiers": [
+          "0000-0002-0166-3311"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania16802, United States.",
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania16802, United States."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri63110, United States."
+        ]
+      },
+      {
+        "full_name": "Showalter, Scott A",
+        "short_name": "Showalter SA",
+        "identifiers": [
+          "0000-0001-5179-032X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania16802, United States.",
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania16802, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Aug 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/20 11:41",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41708867",
+      "40475945",
+      "40273986",
+      "40250441",
+      "39823345",
+      "39539017",
+      "39266551",
+      "37939109",
+      "37595155",
+      "37463458",
+      "36478084",
+      "36463234",
+      "35948766",
+      "35512095",
+      "34004147",
+      "33945530",
+      "33715003",
+      "33640324",
+      "32966759",
+      "32696362",
+      "32696361",
+      "32541898",
+      "30471706",
+      "30135580",
+      "29790640",
+      "28992937",
+      "28790177",
+      "28497798",
+      "28497792",
+      "28248323",
+      "28213523",
+      "28076807",
+      "27807972",
+      "27353326",
+      "26728557",
+      "26488642",
+      "24333248",
+      "24101474",
+      "23972848",
+      "23901099",
+      "23619693",
+      "23060071",
+      "22986266",
+      "22588304",
+      "20639465",
+      "20534440",
+      "20231361",
+      "19581288",
+      "18506808",
+      "18457900",
+      "17145717",
+      "16427012",
+      "12782658",
+      "11371467",
+      "11145967",
+      "10757782",
+      "10199401",
+      "9857195",
+      "9729785",
+      "1922045"
+    ],
+    "similar": [
+      "42622275",
+      "10757782",
+      "12904290",
+      "19365074",
+      "40273986",
+      "20231361",
+      "25414009",
+      "16427012",
+      "39147127",
+      "39823345",
+      "24939935",
+      "32366382",
+      "24101474",
+      "23436654",
+      "11893740",
+      "40250441",
+      "26945063",
+      "25883047",
+      "37939109",
+      "26515650",
+      "30414042",
+      "12052871",
+      "12475973",
+      "9548941",
+      "15564463",
+      "28497798",
+      "23775116",
+      "11273707",
+      "30840442",
+      "26275777",
+      "26217010",
+      "22290438",
+      "30659095",
+      "11809800",
+      "29899453",
+      "23861868",
+      "25031324",
+      "11145967",
+      "42645201",
+      "31147444",
+      "20042611",
+      "19581288",
+      "30971428",
+      "22508988",
+      "26433031",
+      "29849146",
+      "34534457",
+      "37517697",
+      "17101794",
+      "19000817",
+      "15723518",
+      "10958691",
+      "22796944",
+      "22973055",
+      "23456097",
+      "42475469",
+      "41536062",
+      "32585849",
+      "19460865",
+      "41832603",
+      "20926372",
+      "10364292",
+      "15701032",
+      "11606527",
+      "24611769",
+      "40574713",
+      "19742326",
+      "24559475",
+      "10392900",
+      "29758263",
+      "26735936",
+      "39374889",
+      "28752165",
+      "19215094",
+      "33945530",
+      "18971272",
+      "32439331",
+      "37595155",
+      "9228069",
+      "18197258",
+      "39448580",
+      "24813444",
+      "23744817",
+      "29925592",
+      "28497792",
+      "11838236",
+      "9857195",
+      "12460579",
+      "7826625",
+      "28668130",
+      "33177626",
+      "20197319",
+      "9819213",
+      "12114499",
+      "30878202",
+      "16510875",
+      "27807972",
+      "34681718",
+      "39779860",
+      "22588304"
+    ],
+    "review": [
+      "42622275",
+      "39147127",
+      "30840442",
+      "39374889"
+    ],
+    "pmc": [
+      "13557439"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42622275/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SLC31A1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c03886",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary information descriptions.
+- **Assessment boundary** Scientific content, technical soundness, and support of claims by presented evidence. No assessment of formatting or editorial style beyond readability for the intended audience.
+- **Shared manuscript claim summary** The authors propose that the active Hermes transpososome assembles through asymmetric binding of BED domains to subterminal repeats (STRs) on the transposon left end (LE), with the right end (RE) lacking such interactions, and that this asymmetry drives sequential synaptic complex formation.
+- **Visible evidence base** Biochemical interaction assays (SEC, EMSA), X-ray crystallography of the BED domain bound to LE DNA, cryo-EM structures of LE-LE and RE-RE transpososome cores, mass photometry, and in-cell transposition assays in HEK293T cells.
+- **Missing materials affecting confidence** Full cryo-EM data processing details, validation statistics for the final maps beyond resolution values, raw EMSA gel images, detailed mutagenesis data for the in-cell assays, and structural coordinates for the BED/DNA complex are referenced but not fully described in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial body of structural and biochemical work addressing a long-standing question about the architecture of the Hermes transpososome. The combination of X-ray crystallography and cryo-EM is appropriate and the data are largely internally consistent. The central claim that BED domains bind asymmetrically to the LE but not the RE is supported by the cryo-EM reconstructions and corroborated by biochemical binding assays. However, several technical concerns regarding the interpretation of the cryo-EM maps, the generality of the proposed model, and the functional relevance of the observed asymmetry require clarification before the conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Researchers studying DNA transposition mechanisms, particularly the hAT superfamily, will find this work directly relevant. The structural insights into BED domain function and the proposed model for sequential end recognition will also interest investigators working on other DNA-binding proteins with zinc-finger domains, as well as those developing transposon-based genetic tools. The demonstration of Hermes activity in human cells may broaden the appeal to the genome engineering community.
+- **Major strengths** The study combines multiple complementary techniques to address a mechanistically important question. The crystal structure of the BED domain bound to its DNA target provides the first high-resolution view of this interaction for Hermes. The cryo-EM reconstructions of the transpososome cores, despite limited resolution, reveal a striking asymmetry in BED domain occupancy that is unexpected and mechanistically informative. The biochemical validation of the minimal binding site and the demonstration of cooperative binding are well executed. The in-cell assays extend the relevance of the findings to a physiological context.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural interpretation
+  - **Claim pointer** The authors state that "three BED domains bind to each DNA" in the LE-LE transpososome and that the RE-RE complex shows "no density corresponding to either free or bound BED domains."
+  - **Evidence pointer** Results section, cryo-EM reconstructions, Figures 4 and 5
+  - **Concern** The cryo-EM maps are reported at resolutions of 4.64 Å (LE-LE) and 5.31 Å (RE-RE). At these resolutions, unambiguous assignment of BED domain density is challenging, particularly when the domains are flexibly attached or partially disordered. The authors used rigid-body fitting of crystal structures into the maps, but the manuscript does not describe how the BED domain assignments were validated, whether the density for the BED domains was of comparable quality to the core, or how the possibility of alternative placements was excluded. The claim that the RE-RE complex lacks BED density entirely is a strong negative result that requires careful assessment of map quality in the relevant regions.
+  - **Why it matters** The central conclusion of the paper, that asymmetric BED binding drives sequential transpososome assembly, rests on the interpretation of these cryo-EM maps. If the BED domain assignments are incorrect or if the absence of density in the RE-RE map is due to technical limitations rather than genuine absence, the proposed model would be substantially weakened.
+  - **Resolution test** Provide local resolution estimates for the BED domain regions in both maps, show representative density for the BED/DNA interfaces, and describe any validation steps (e.g., focused classification, multi-model refinement) that support the assignments. For the RE-RE map, demonstrate that the absence of BED density is not due to lower local resolution or preferential orientation of particles.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of the proposed model
+  - **Claim pointer** The authors propose that "formation of the Hermes synaptic complex is sequential and relies on the considerable difference of affinity of the transposase towards its transposon ends."
+  - **Evidence pointer** Discussion section, in-cell transposition assays, Figure 7
+  - **Concern** The in-cell assays demonstrate that LE truncations beyond 190 bp reduce transposition activity, and that LE/LE or RE/RE symmetric constructs are inactive. However, the direct link between the structural observation of asymmetric BED binding and the functional requirement for full-length ends is not established. The authors do not test whether mutations in specific STRs that abolish BED binding also abolish transposition, nor do they provide evidence that the sequential binding model operates in cells. The proposed mechanism remains largely inferential.
+  - **Why it matters** The manuscript aims to explain the discrepancy between in vitro activity of dimers and in vivo requirement for octamers. Without direct functional evidence linking the structural asymmetry to the transposition mechanism, the model remains speculative.
+  - **Resolution test** Perform transposition assays with mutations in individual STRs (e.g., LE-STR1, LE-STR2, LE-STR3) to test whether loss of BED binding correlates with loss of activity. Alternatively, provide biochemical evidence for a two-step binding mechanism using pre-steady-state kinetics or single-molecule approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model to other hAT transposases
+  - **Claim pointer** The authors suggest that "the ability to deploy a multitude of BED domains and to cooperatively bind to STRs might be generalizable to other hAT transposons as well."
+  - **Evidence pointer** Discussion section
+  - **Concern** This generalization is based on sequence conservation of BED domains and the presence of STRs in other hAT elements. However, no experimental evidence from other hAT transposases is presented. The structural organization of the Hermes transpososome may be unique, and the proposed mechanism may not apply to elements with different end structures or BED domain arrangements.
+  - **Why it matters** The broader significance of the work depends in part on its relevance to the hAT superfamily as a whole. Overstating the generalizability without supporting data could mislead the field.
+  - **Resolution test** Either temper the claims in the discussion or provide comparative analysis (e.g., sequence alignments, structural predictions) that supports the proposed conservation of the mechanism.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2C and 2D
+  - **Evidence pointer** Results section, crystal structure description
+  - **Issue** The description of the base-specific interactions in the crystal structure is dense and difficult to follow without careful cross-referencing to the figure. The alternate conformations of R70 and N67 are described but the functional significance of this plasticity is not clearly explained.
+  - **Required correction** Consider simplifying the description and adding a schematic summary of the key contacts. Clarify whether the observed conformational flexibility is likely to be functionally important or is a crystallization artifact.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** EMSA experiments
+  - **Evidence pointer** Methods section, electrophoretic mobility shift assay
+  - **Issue** The EMSA experiments are described briefly, and the manuscript does not report the dissociation constants or binding stoichiometry derived from the data. The Hill coefficient is mentioned but the fitting procedure and error estimates are not provided.
+  - **Required correction** Provide the quantitative results of the EMSA experiments, including Kd values and Hill coefficients with errors, or state clearly that the data were only used qualitatively.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of in-cell assays
+  - **Affected element** Figure 7C
+  - **Evidence pointer** Results section, in-cell transposition assays
+  - **Issue** The in-cell assays show that LE/LE and RE/RE constructs have low but detectable activity. The authors interpret this as "little mobilization" but do not discuss whether this residual activity is significant or could reflect a low-efficiency alternative pathway.
+  - **Required correction** Add a brief discussion of the residual activity and whether it is consistent with the proposed model or suggests additional mechanisms.
+- **Technical failings that need to be addressed before the case is established** The cryo-EM map interpretation for BED domain placement requires additional validation as described in R1-M1. The functional link between structural asymmetry and transposition activity needs direct testing as described in R1-M2.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work provides the first structural view of BED domain interactions within a transpososome and reveals an unexpected asymmetry. This is a novel contribution.
+  - Scientific importance: The findings address a fundamental question in transposition biology and may have implications for understanding other multi-subunit DNA-protein complexes. The demonstration of Hermes activity in human cells adds practical relevance.
+  - Interdisciplinary readership: The work will primarily interest specialists in transposition, DNA repair, and structural biology. The broader genome engineering community may find the in-cell data relevant, but the structural details are likely too specialized for a general audience.
+  - Technical soundness: The experimental approaches are appropriate and largely well executed. However, the interpretation of the cryo-EM data at the reported resolutions requires additional validation, and the functional assays do not directly test the proposed mechanism.
+  - Readability for nonspecialists: The manuscript is clearly written but assumes substantial background knowledge in transposition mechanisms and structural biology. The abstract is accessible, but the results section will be challenging for readers outside the field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observations are likely correct and important, but the central mechanistic claim requires stronger validation before the paper can be accepted.
+
+## Risk / unsupported claims
+- The claim that "three BED domains bind to each DNA" in the LE-LE transpososome is not fully supported by the presented cryo-EM data without additional validation of map interpretation.
+- The proposal that "formation of the Hermes synaptic complex is sequential" is presented as a conclusion but is not directly tested experimentally.
+- The generalization of the proposed mechanism to other hAT transposases is speculative and not supported by experimental evidence.
+- The statement that the RE-RE complex shows "no density corresponding to either free or bound BED domains" is a strong negative claim that requires demonstration that the absence is not a technical artifact.
+- The suggestion that nucleosome positioning may play a role in transpososome assembly is presented without experimental support and should be clearly labeled as speculation.

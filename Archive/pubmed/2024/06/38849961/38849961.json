@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "38849961",
+    "doi": "10.1186/s12985-024-02408-9",
+    "title": "Long non-coding RNAs in biomarking COVID-19: a machine learning-based approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The coronavirus pandemic that started in 2019 has caused the highest mortality and morbidity rates worldwide. Data on the role of long non-coding RNAs (lncRNAs) in coronavirus disease 2019 (COVID-19) is scarce. We aimed to elucidate the relationship of three important lncRNAs in the inflammatory states, H19, taurine upregulated gene 1 (TUG1), and colorectal neoplasia differentially expressed (CRNDE) with key factors in inflammation and fibrosis induction including signal transducer and activator of transcription3 (STAT3), alpha smooth muscle actin (alpha-SMA), tumor necrosis factor-alpha (TNF-alpha), and interleukin-6 (IL-6) in COVID-19 patients with moderate to severe symptoms. METHODS: Peripheral blood mononuclear cells from 28 COVID-19 patients and 17 healthy controls were collected. The real-time quantitative polymerase chain reaction (RT-qPCR) was performed to evaluate the expression of RNAs and lncRNAs. Western blotting analysis was also performed to determine the expression levels of STAT3 and alpha-SMA proteins. Machine learning and receiver operating characteristic (ROC) curve analysis were carried out to evaluate the distinguishing ability of lncRNAs. RESULTS: The expression levels of H19, TUG1, and CRNDE were significantly overexpressed in COVID-19 patients compared to healthy controls. Moreover, STAT3 and alpha-SMA expression levels were remarkedly increased at both transcript and protein levels in patients with COVID-19 compared to healthy subjects and were correlated with Three lncRNAs. Likewise, IL-6 and TNF-alpha were considerably upregulated in COVID-19 patients. Machine learning and ROC curve analysis showed that CRNDE-H19 panel has the proper ability to distinguish COVID-19 patients from healthy individuals (area under the curve (AUC) = 0.86). CONCLUSION: The overexpression of three lncRNAs in COVID-19 patients observed in this study may align with significant manifestations of COVID-19. Furthermore, their co-expression with STAT3 and alpha-SMA, two critical factors implicated in inflammation and fibrosis induction, underscores their potential involvement in exacerbating cardiovascular, pulmonary and common symptoms and complications associated with COVID-19. The combination of CRNDE and H19 lncRNAs seems to be an impressive host-based biomarker panel for screening and diagnosis of COVID-19 patients from healthy controls. Research into lncRNAs can provide a robust platform to find new viral infection-related mediators and propose novel therapeutic strategies for viral infections and immune disorders.",
+    "keywords": [
+      "COVID-19",
+      "Diagnosis",
+      "Long non-coding RNA",
+      "Machine learning",
+      "Peripheral blood mononuclear cell"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*RNA, Long Noncoding/genetics",
+      "*COVID-19/diagnosis/virology/genetics",
+      "Male",
+      "Female",
+      "*Machine Learning",
+      "Middle Aged",
+      "*SARS-CoV-2/genetics",
+      "*STAT3 Transcription Factor/genetics",
+      "Adult",
+      "ROC Curve",
+      "Leukocytes, Mononuclear/virology",
+      "Interleukin-6/genetics/blood",
+      "Aged",
+      "Actins/genetics",
+      "Tumor Necrosis Factor-alpha/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heydari, Raheleh",
+        "Tavassolifar, Mohammad Javad",
+        "Fayazzadeh, Sara",
+        "Sadatpour, Omid",
+        "Meyfour, Anna"
+      ],
+      "short_names": [
+        "Heydari R",
+        "Tavassolifar MJ",
+        "Fayazzadeh S",
+        "Sadatpour O",
+        "Meyfour A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Basic and Molecular Epidemiology of Gastrointestinal Disorders Research Center, Research Institute for Gastroenterology and Liver Diseases, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "Basic and Molecular Epidemiology of Gastrointestinal Disorders Research Center, Research Institute for Gastroenterology and Liver Diseases, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "Bioinformatics and Computational Omics Lab (BioCOOL), Department of Biophysics, Faculty of Biological Sciences, Tarbiat Modares University, Tehran, Iran.",
+        "Department of Immunology, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Basic and Molecular Epidemiology of Gastrointestinal Disorders Research Center, Research Institute for Gastroenterology and Liver Diseases, Shahid Beheshti University of Medical Sciences, Tehran, Iran. a.meyfour@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heydari, Raheleh",
+        "short_name": "Heydari R",
+        "identifiers": [],
+        "affiliations": [
+          "Basic and Molecular Epidemiology of Gastrointestinal Disorders Research Center, Research Institute for Gastroenterology and Liver Diseases, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Tavassolifar, Mohammad Javad",
+        "short_name": "Tavassolifar MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Basic and Molecular Epidemiology of Gastrointestinal Disorders Research Center, Research Institute for Gastroenterology and Liver Diseases, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Fayazzadeh, Sara",
+        "short_name": "Fayazzadeh S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Computational Omics Lab (BioCOOL), Department of Biophysics, Faculty of Biological Sciences, Tarbiat Modares University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Sadatpour, Omid",
+        "short_name": "Sadatpour O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Meyfour, Anna",
+        "short_name": "Meyfour A",
+        "identifiers": [],
+        "affiliations": [
+          "Basic and Molecular Epidemiology of Gastrointestinal Disorders Research Center, Research Institute for Gastroenterology and Liver Diseases, Shahid Beheshti University of Medical Sciences, Tehran, Iran. a.meyfour@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Virology journal"
+    ],
+    "journal_abbrev": [
+      "Virol J"
+    ],
+    "pub_date": "2024 Jun 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/08 10:45",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "42529130",
+      "41174473",
+      "40898272",
+      "40877945",
+      "40809128",
+      "40148296",
+      "39976754"
+    ],
+    "refs": [
+      "38540252",
+      "38332929",
+      "38184893",
+      "37855715",
+      "37729955",
+      "36743692",
+      "36513710",
+      "36493512",
+      "36359290",
+      "35982898",
+      "35922752",
+      "35207576",
+      "35132910",
+      "35064006",
+      "35040400",
+      "34858185",
+      "34633988",
+      "34590683",
+      "34463916",
+      "34451904",
+      "34442770",
+      "34133256",
+      "34055659",
+      "33846375",
+      "33717166",
+      "33691172",
+      "33672311",
+      "33607284",
+      "33506952",
+      "33494237",
+      "33464299",
+      "33421521",
+      "33360049",
+      "33353982",
+      "33227504",
+      "33193379",
+      "33085068",
+      "33037393",
+      "33014208",
+      "33008761",
+      "32696505",
+      "32646047",
+      "32422178",
+      "32278856",
+      "32201498",
+      "31880241",
+      "31858814",
+      "31102664",
+      "30892430",
+      "30747209",
+      "30740112",
+      "30256448",
+      "30124004",
+      "30066872",
+      "29864958",
+      "29791864",
+      "29693721",
+      "29243780",
+      "29207102",
+      "28933364",
+      "28796262",
+      "28621230",
+      "27932875",
+      "25019052",
+      "22451267",
+      "21489289"
+    ],
+    "similar": [
+      "38849961",
+      "38389521",
+      "37855715",
+      "39776276",
+      "32696505",
+      "35982898",
+      "37657511",
+      "34872438",
+      "33833618",
+      "27932875",
+      "37866944",
+      "34092238",
+      "39425850",
+      "34831321",
+      "33969601",
+      "39281688",
+      "31072375",
+      "27888803",
+      "35007307",
+      "38332929",
+      "35392782",
+      "26857419",
+      "26774144",
+      "35545408",
+      "38194746",
+      "31302423",
+      "29140972",
+      "33759345",
+      "39037598",
+      "38261465",
+      "36274054",
+      "27683121",
+      "30572424",
+      "34129278",
+      "29997237",
+      "29031635",
+      "33548016",
+      "35871358",
+      "39317938",
+      "29129807",
+      "28039689",
+      "31601776",
+      "33421521",
+      "39735547",
+      "39205185",
+      "39637135",
+      "35300579",
+      "34954105",
+      "30328000",
+      "32563217",
+      "38183501",
+      "30772744",
+      "31301261",
+      "30747209",
+      "32646047",
+      "26887054",
+      "33600466",
+      "29621481",
+      "32733618",
+      "26096073",
+      "39304186",
+      "34288494",
+      "33205379",
+      "33475497",
+      "35509980",
+      "33226957",
+      "32885358",
+      "31815689",
+      "39054710",
+      "31346885",
+      "39729489",
+      "34504487",
+      "35938548",
+      "32569434",
+      "30320481",
+      "30107531",
+      "38634475",
+      "31246342",
+      "24063685",
+      "27716329",
+      "32652499",
+      "30139387",
+      "39349769",
+      "39830506",
+      "26574899",
+      "37283736",
+      "33947753",
+      "30015300",
+      "30021206",
+      "39525400",
+      "27495068",
+      "39528988",
+      "37486018",
+      "36224021",
+      "33802569",
+      "40181954",
+      "39609501",
+      "39080124",
+      "39932585",
+      "27540977"
+    ],
+    "review": [
+      "38849961",
+      "33421521"
+    ],
+    "pmc": [
+      "11161961"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://virologyj.biomedcentral.com/articles/10.1186/s12985-024-02408-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38849961/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38849961",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

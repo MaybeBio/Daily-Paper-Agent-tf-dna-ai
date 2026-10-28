@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report that the bisbenzylisoquinoline alkaloid derivative HY-2 inhibits breast cancer cell proliferation by targeting BLM DNA helicase, specifically suppressing its DNA binding, ATPase, and DNA unwinding activities, and that BLM is overexpressed in breast cancer tissues relative to normal tissues
+- **Visible evidence base** Enzymatic assays for BLM(642-1290) helicase activities, cellular helicase unwinding assay, breast cancer cell proliferation assays, mRNA and protein expression analyses, ultraviolet spectroscopy, and molecular dynamics simulations, all as described in the abstract
+- **Missing materials affecting confidence** Full methods, quantitative data, statistical analyses, figure panels, cell viability curves, dose-response data, specificity controls, and details of molecular dynamics parameters were not provided
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting candidate anticancer mechanism involving a natural product derivative targeting BLM helicase. However, the evidence as summarized is insufficient to establish the mechanistic claim that HY-2 acts through BLM inhibition to suppress breast cancer cell proliferation. Key gaps include lack of specificity controls, absence of quantitative data, and an unexplained paradoxical increase in BLM expression after treatment. The work may be of interest to the anticancer drug discovery community, but the current abstract does not provide enough support for the central conclusions.
+- **Who would be interested in the results, and why** Researchers in anticancer drug discovery, particularly those focused on natural product derivatives and DNA helicase inhibitors, would be interested. The work also has potential relevance for those studying Bloom syndrome helicase biology and its role in tumor progression.
+- **Major strengths** The study addresses a relatively underexplored target, BLM helicase, in the context of breast cancer. The use of multiple complementary approaches, including enzymatic assays, cellular assays, spectroscopy, and molecular dynamics, suggests a broad attempt to characterize the interaction. The focus on a derivative of a known natural product scaffold provides a clear translational rationale.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and causal mechanism
+  - **Claim pointer** The abstract claims that HY-2 inhibits breast cancer cell proliferation by suppressing BLM DNA helicase
+  - **Evidence pointer** Enzymatic assays, cell proliferation assays, location not provided
+  - **Concern** The abstract does not provide any evidence that the antiproliferative effect of HY-2 is specifically mediated by BLM inhibition. No knockdown, rescue, or overexpression experiments are described, and no comparison is made to cells with altered BLM levels. The observed increase in BLM mRNA and protein after HY-2 treatment is not reconciled with the proposed inhibitory mechanism.
+  - **Why it matters** Without establishing a causal link between BLM inhibition and reduced cell proliferation, the central claim of the paper remains correlative. The paradoxical increase in BLM expression could indicate a compensatory response or an off-target effect, either of which would undermine the proposed mechanism.
+  - **Resolution test** Provide experiments where BLM is knocked down or overexpressed and show that the antiproliferative effect of HY-2 is diminished or enhanced accordingly. Alternatively, demonstrate that a BLM-resistant mutant or a BLM-independent cell line is insensitive to HY-2.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target specificity
+  - **Claim pointer** The abstract implies that HY-2 selectively inhibits BLM helicase
+  - **Evidence pointer** Enzymatic assays, location not provided
+  - **Concern** No data are presented on the selectivity of HY-2 for BLM over other DNA helicases or ATPases. The abstract does not mention testing against related helicases such as WRN, RECQ1, or FANCJ, nor does it report IC50 values or comparison with known inhibitors.
+  - **Why it matters** A lack of selectivity data leaves open the possibility that HY-2 exerts its effects through multiple targets, which would weaken the specific claim of BLM-mediated action and complicate the interpretation of cellular results.
+  - **Resolution test** Include selectivity assays against a panel of related helicases and ATPases, and report quantitative inhibition constants for BLM and comparators.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative evidence and dose response
+  - **Claim pointer** The abstract claims that HY-2 inhibits DNA binding, ATPase, and DNA unwinding of BLM(642-1290)
+  - **Evidence pointer** Enzymatic assays, location not provided
+  - **Concern** The abstract provides no quantitative data, such as IC50 values, inhibition percentages, or dose-response curves. It is unclear whether the observed inhibition is potent, partial, or only achieved at supraphysiological concentrations.
+  - **Why it matters** Quantitative parameters are essential for assessing the biological relevance of the inhibition and for comparing HY-2 with other helicase inhibitors. Without these data, the strength of the enzymatic inhibition cannot be evaluated.
+  - **Resolution test** Report IC50 values for each enzymatic activity, with confidence intervals and replicate numbers, and show full dose-response curves.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cellular relevance of BLM overexpression
+  - **Claim pointer** The abstract claims that BLM mRNA and protein levels are higher in breast cancer tissues than in normal tissues
+  - **Evidence pointer** Expression analysis, location not provided
+  - **Concern** The abstract does not specify the number of tissue samples, the types of breast cancer subtypes, or the statistical significance of the differences. It is also unclear whether the cell lines used in the study reflect the expression levels observed in patient tissues.
+  - **Why it matters** The clinical relevance of BLM as a target depends on consistent overexpression across relevant breast cancer subtypes. Without detailed expression data, the translational rationale is not fully supported.
+  - **Resolution test** Provide sample sizes, statistical tests, and subtype breakdown for the expression analysis, and show that the cell lines used have BLM levels comparable to those in tumor tissues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "cell expansion"
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "cell expansion" is ambiguous and likely intended to mean "cell proliferation" or "tumor growth"
+  - **Required correction** Replace with a precise term such as "cell proliferation" or "tumor growth"
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency of protein construct
+  - **Affected element** BLM(642-1290) versus BLM(640-1291)
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract uses two different residue ranges for the BLM construct in the enzymatic assays and the molecular dynamics simulation. It is unclear whether these are the same protein or different constructs.
+  - **Required correction** Clarify whether the constructs are identical and, if not, explain the rationale for using different ranges
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of spectroscopy data
+  - **Affected element** Ultraviolet spectrogram of BLM(642-1290) with HY-2
+  - **Evidence pointer** Abstract, mechanism confirmation section
+  - **Issue** The abstract states that the effect of HY-2 on the ultraviolet spectrogram confirms the mechanism, but no interpretation of the spectral changes is provided
+  - **Required correction** Describe the nature of the spectral shift or change and how it supports direct binding or conformational alteration
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** "showed an inhibiting the MDA-MB-435, MDA-MB-231, MDA-MB-436 breast cancer cells expansion"
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The sentence is grammatically incorrect and unclear regarding the extent of inhibition
+  - **Required correction** Rewrite as "inhibited the expansion of MDA-MB-435, MDA-MB-231, and MDA-MB-436 breast cancer cells" and include quantitative measures
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical failings. The lack of genetic or biochemical evidence linking BLM inhibition to the antiproliferative effect, and the absence of selectivity data, prevent the central mechanistic claim from being established. R1-M3 also needs to be addressed to provide quantitative support for the enzymatic inhibition.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The use of a natural product derivative to target BLM helicase is not entirely novel, but the specific compound and its characterization may offer some new information.  
+  - Scientific importance: Moderate. BLM helicase is a relevant cancer target, but the abstract does not demonstrate a unique or broadly impactful advance beyond existing helicase inhibitor studies.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to cancer biologists and drug discovery researchers, with less obvious appeal to a broad interdisciplinary audience.  
+  - Technical soundness: Not established from the abstract. The lack of specificity controls, quantitative data, and mechanistic causality prevents a rigorous technical assessment.  
+  - Readability for nonspecialists: The abstract is understandable but contains some imprecise language and unexplained constructs that would benefit from clarification.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but does not provide sufficient experimental support for the central claim that HY-2 acts through BLM inhibition to suppress breast cancer cell proliferation. The authors would need to add specificity controls, causal experiments, and quantitative data to make the case convincing.
+
+## Risk / unsupported claims
+- The claim that HY-2 inhibits breast cancer cell proliferation by suppressing BLM DNA helicase is unsupported because no causal link is demonstrated
+- The claim that HY-2 specifically targets BLM is unsupported because no selectivity data against other helicases are provided
+- The claim that BLM is overexpressed in breast cancer tissues is weakly supported due to lack of sample details and statistical information
+- The claim that the ultraviolet spectroscopy and molecular dynamics results confirm the mechanism is not evaluable without the actual data and interpretation
+- The biological relevance of the observed increase in BLM expression after HY-2 treatment is unexplained and not reconciled with the proposed inhibitory mechanism

@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "36366446",
+    "doi": "10.3390/v14112348",
+    "title": "In Silico Characterization of African Swine Fever Virus Nucleoprotein p10 Interaction with DNA."
+  },
+  "content": {
+    "abstract": "African swine fever virus (ASFV) is the etiological agent of a highly contagious, hemorrhagic infectious swine disease, with a tremendous sanitary and economic impact on a global scale. Currently, there are no globally available vaccines or treatments. The p10 protein, a structural nucleoprotein encoded by ASFV, has been previously described as capable of binding double-stranded DNA (dsDNA), which may have implications for viral replication. However, the molecular mechanism that governs this interaction is still unknown, mostly due to the lack of a structural model for this protein. In this work, we have generated an ab initio model of the p10 protein and performed extensive structural characterization, using molecular dynamics simulations to identify the motifs and residues regulating DNA recognition. The helix-turn-helix motif identified at the C-terminal region of the protein was shown to be crucial to the dsDNA-binding efficiency. As with other DNA-binding proteins, two distinct serine and lysine-rich regions found in the two helices were identified as key players in the binding to DNA, whose importance was later validated using experimental binding assays. Altogether, these findings may contribute to a better understanding of the p10 function in ASFV replication.",
+    "keywords": [
+      "African swine fever virus",
+      "DNA binding function",
+      "K78R",
+      "molecular dynamics",
+      "p10 protein"
+    ],
+    "mesh_terms": [
+      "Swine",
+      "Animals",
+      "*African Swine Fever Virus/physiology",
+      "*African Swine Fever",
+      "Nucleoproteins/metabolism",
+      "Virus Replication",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Istrate, Claudia",
+        "Marques, Jessica",
+        "Bule, Pedro",
+        "Correia, Silvia",
+        "Aires-da-Silva, Frederico",
+        "Duarte, Marlene",
+        "Reis, Ana Luisa",
+        "Machuqueiro, Miguel",
+        "Leitao, Alexandre",
+        "Victor, Bruno L"
+      ],
+      "short_names": [
+        "Istrate C",
+        "Marques J",
+        "Bule P",
+        "Correia S",
+        "Aires-da-Silva F",
+        "Duarte M",
+        "Reis AL",
+        "Machuqueiro M",
+        "Leitao A",
+        "Victor BL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4706-7598",
+        "ORCID: 0000-0002-1856-0239",
+        "ORCID: 0000-0003-2531-9926",
+        "ORCID: 0000-0002-3821-419X",
+        "ORCID: 0000-0001-6923-8744",
+        "ORCID: 0000-0002-6472-5700"
+      ],
+      "affiliations": [
+        "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+        "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal.",
+        "BioISI-Biosystems & Integrative Sciences Institute, Faculty of Sciences, University of Lisbon, 1749-016 Lisboa, Portugal.",
+        "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+        "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal.",
+        "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+        "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal.",
+        "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+        "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal.",
+        "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+        "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal.",
+        "The Pirbright Institute, Ash Road, Pirbright, Surrey GU24 0NF, UK.",
+        "BioISI-Biosystems & Integrative Sciences Institute, Faculty of Sciences, University of Lisbon, 1749-016 Lisboa, Portugal.",
+        "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+        "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal.",
+        "BioISI-Biosystems & Integrative Sciences Institute, Faculty of Sciences, University of Lisbon, 1749-016 Lisboa, Portugal."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Istrate, Claudia",
+        "short_name": "Istrate C",
+        "identifiers": [
+          "0000-0003-4706-7598"
+        ],
+        "affiliations": [
+          "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+          "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Marques, Jéssica",
+        "short_name": "Marques J",
+        "identifiers": [
+          "0000-0002-1856-0239"
+        ],
+        "affiliations": [
+          "BioISI-Biosystems & Integrative Sciences Institute, Faculty of Sciences, University of Lisbon, 1749-016 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Bule, Pedro",
+        "short_name": "Bule P",
+        "identifiers": [
+          "0000-0003-2531-9926"
+        ],
+        "affiliations": [
+          "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+          "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Correia, Sílvia",
+        "short_name": "Correia S",
+        "identifiers": [],
+        "affiliations": [
+          "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+          "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Aires-da-Silva, Frederico",
+        "short_name": "Aires-da-Silva F",
+        "identifiers": [
+          "0000-0002-3821-419X"
+        ],
+        "affiliations": [
+          "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+          "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Duarte, Marlene",
+        "short_name": "Duarte M",
+        "identifiers": [],
+        "affiliations": [
+          "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+          "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Reis, Ana Luísa",
+        "short_name": "Reis AL",
+        "identifiers": [],
+        "affiliations": [
+          "The Pirbright Institute, Ash Road, Pirbright, Surrey GU24 0NF, UK."
+        ]
+      },
+      {
+        "full_name": "Machuqueiro, Miguel",
+        "short_name": "Machuqueiro M",
+        "identifiers": [
+          "0000-0001-6923-8744"
+        ],
+        "affiliations": [
+          "BioISI-Biosystems & Integrative Sciences Institute, Faculty of Sciences, University of Lisbon, 1749-016 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Leitão, Alexandre",
+        "short_name": "Leitão A",
+        "identifiers": [],
+        "affiliations": [
+          "CIISA-Centre for Interdisciplinary Research in Animal Health, Faculty of Veterinary Medicine, University of Lisbon, 1300-477 Lisboa, Portugal.",
+          "Associate Laboratory for Animal and Veterinary Sciences (AL4AnimalS), 1300-477 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Victor, Bruno L",
+        "short_name": "Victor BL",
+        "identifiers": [
+          "0000-0002-6472-5700"
+        ],
+        "affiliations": [
+          "BioISI-Biosystems & Integrative Sciences Institute, Faculty of Sciences, University of Lisbon, 1749-016 Lisboa, Portugal."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Viruses"
+    ],
+    "journal_abbrev": [
+      "Viruses"
+    ],
+    "pub_date": "2022 Oct 25",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/12 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "42347198",
+      "39123713",
+      "38545259",
+      "36846791"
+    ],
+    "refs": [
+      "35632853",
+      "30836106",
+      "30185597",
+      "27622275",
+      "27322406",
+      "26626387",
+      "26619985",
+      "26588601",
+      "26574453",
+      "24850022",
+      "23142553",
+      "23142552",
+      "21921995",
+      "21117705",
+      "19778072",
+      "18243588",
+      "17698651",
+      "15808743",
+      "15215442",
+      "15116359",
+      "12029148",
+      "11517324",
+      "11045621",
+      "10940251",
+      "10889025",
+      "10869041",
+      "10592235",
+      "9895674",
+      "8503790",
+      "8254673"
+    ],
+    "similar": [
+      "36366446",
+      "28381576",
+      "34668754",
+      "34787458",
+      "34190598",
+      "30185597",
+      "35935977",
+      "32828542",
+      "32358196",
+      "34552586",
+      "35861515",
+      "25810553",
+      "27568922",
+      "32788374",
+      "31319112",
+      "29940214",
+      "31969432",
+      "30918080",
+      "31726114",
+      "27497620",
+      "35862688",
+      "33629764",
+      "31748385",
+      "27795430",
+      "19216435",
+      "35312168",
+      "35618075",
+      "33478547",
+      "34908441",
+      "31325472",
+      "26656424",
+      "34890644",
+      "28814514",
+      "35412346",
+      "35278697",
+      "35062257",
+      "34668772",
+      "27182007",
+      "26183880",
+      "35972295",
+      "28489063",
+      "26063424",
+      "36298673",
+      "35933928",
+      "35481780",
+      "35513267",
+      "24996815",
+      "31461446",
+      "29551143",
+      "34613824",
+      "15207450",
+      "36016456",
+      "34960765",
+      "33383814",
+      "35862691",
+      "34495696",
+      "30080669",
+      "21167207",
+      "35401540",
+      "34406865",
+      "36413123",
+      "35062213",
+      "35507870",
+      "33637799",
+      "33298119",
+      "36326277",
+      "35632853",
+      "31694969",
+      "16140754",
+      "29457702",
+      "25505073",
+      "35019713",
+      "34578385",
+      "25463606",
+      "27770755",
+      "36146827",
+      "34251158",
+      "39217467"
+    ],
+    "review": [
+      "36366446",
+      "35935977",
+      "34552586",
+      "31319112",
+      "19216435",
+      "31325472",
+      "35278697",
+      "28489063",
+      "29551143",
+      "15207450",
+      "34960765",
+      "36413123",
+      "27770755"
+    ],
+    "pmc": [
+      "9694697"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=v14112348",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36366446/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36366446",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

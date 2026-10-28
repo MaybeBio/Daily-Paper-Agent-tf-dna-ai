@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and supplementary materials description
+- **Assessment boundary** Scientific and technical evaluation of the presented claims, methodology, benchmarking approach, and software utility. No assessment of code functionality beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present LanceOtron, a deep learning based peak caller for ATAC-seq, ChIP-seq, and DNase-seq data. The tool combines a convolutional neural network (CNN) trained on visual peak shape with logistic regression on enrichment measurements. The authors claim that LanceOtron outperforms MACS2 across multiple datasets in sensitivity, precision, selectivity, and F1 score, and that it provides a user-friendly graphical interface for peak calling and visualization.
+- **Visible evidence base** Abstract, full results section, discussion, methods, figure legends (referenced but not shown), supplementary table descriptions, and code availability statements
+- **Missing materials affecting confidence** Actual figures and supplementary tables are not provided. The benchmarking methodology lacks statistical rigor details. Training and test data separation is not clearly described. No information on hyperparameter tuning validation. No comparison with other deep learning peak callers. No runtime or resource usage benchmarks.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful tool for the genomics community, addressing a real need for improved peak calling methods. The core idea of combining deep learning on peak shape with enrichment metrics is reasonable and builds on prior work. However, the evidence provided is insufficient to fully evaluate the claims. The benchmarking methodology has several weaknesses, including potential data leakage, lack of statistical significance testing, and incomplete comparison with existing methods. The manuscript would benefit from clearer description of the training procedure, more rigorous benchmarking, and additional validation on independent datasets.
+- **Who would be interested in the results, and why** Researchers in functional genomics, epigenomics, and bioinformatics who routinely use ATAC-seq, ChIP-seq, or DNase-seq and rely on peak calling for downstream analysis. The tool's graphical interface may also appeal to bench biologists with limited computational expertise. The reanalysis capability for existing peak calls could be useful for quality control in large consortia such as ENCODE.
+- **Major strengths** The manuscript addresses a clear and important problem in genomics. The combination of deep learning with enrichment metrics is a sensible approach. The tool provides a graphical interface, which is a significant practical advantage. The authors demonstrate the utility of their approach across multiple assay types. The reanalysis of public ENCODE data provides a useful real-world application.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that LanceOtron outperforms MACS2 across all benchmarked datasets and metrics.
+  - **Evidence pointer** Results section, Figures 2-4, Supplementary Table 2
+  - **Concern** The benchmarking methodology is not described with sufficient detail to assess its validity. The authors state that testing datasets were "not used in LanceOtron's training data" but do not describe how the training and test sets were separated. If the training data and test data come from the same ENCODE experiments or closely related cell types, there is a risk of data leakage. Additionally, the number of labeled regions for testing is very small (55-129 positive peaks per dataset), which limits the statistical power of the comparison. No confidence intervals or statistical tests are provided for the performance metrics.
+  - **Why it matters** Without a clear demonstration that the test data are independent from training data and that the performance differences are statistically significant, the central claim of superiority over MACS2 is not established.
+  - **Resolution test** Provide a detailed description of how training and test datasets were selected, including the exact ENCODE experiment identifiers. Perform statistical significance testing (e.g., bootstrap or McNemar's test) on the performance differences. Increase the number of labeled test regions or provide power analysis justifying the current sample size.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the CNN "learns the shape of the signal" and that this is combined with enrichment measurements to identify peaks.
+  - **Evidence pointer** Methods section, Deep learning model
+  - **Concern** The description of the deep learning architecture is incomplete. The authors mention a "customized deep neural network" and a "wide and deep" architecture but do not provide sufficient details on the number of layers, filter sizes, pooling strategies, activation functions, or regularization methods. The training procedure is also underspecified: no information on optimization algorithm, learning rate, batch size, number of epochs, or early stopping criteria. The claim that 5,000 models were trained with Keras Tuner is mentioned but the search space and selection criteria are not described.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. Without a complete description of the model architecture and training procedure, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide a complete description of the neural network architecture, including layer types, dimensions, and hyperparameters. Describe the training procedure in detail, including optimization settings and validation strategy. Make the training code and configuration files publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that LanceOtron outperforms MACS2 in precision, sensitivity, and F1 score, and that it identifies peaks missed by MACS2 that are biologically relevant.
+  - **Evidence pointer** Results section, Figures 2-4, Table 1
+  - **Concern** The comparison with MACS2 is limited to a single existing peak caller. The authors do not compare LanceOtron with other deep learning based peak callers or with other widely used tools such as SPP, PeakSeq, or Genrich. The claim of improved performance would be more convincing if benchmarked against a broader range of existing methods. Additionally, the biological validation is limited to motif enrichment and overlap with promoters/enhancers, which is indirect evidence of biological relevance.
+  - **Why it matters** The genomics community has many peak calling tools available. To establish that LanceOtron represents a meaningful advance, it must be compared with the current state of the art, not just with one alternative.
+  - **Resolution test** Include comparisons with at least two additional peak callers, including at least one other deep learning based method. Provide additional biological validation, such as correlation with gene expression or known regulatory elements, to strengthen the claim of biological relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the candidate peak selection algorithm is designed to be a "loose filter" that allows "even modestly enriched regions through."
+  - **Evidence pointer** Methods section, Candidate peak selection
+  - **Concern** The candidate peak selection algorithm uses a threshold of "5 or more concurring definitions of enrichment" out of 25 possible combinations of smoothing windows and fold enrichments. The rationale for this specific threshold is not provided. The sensitivity of the final results to this threshold is not explored. If the threshold is too permissive, the neural network may be overwhelmed with noise; if too restrictive, real peaks may be missed.
+  - **Why it matters** The candidate peak selection is a critical first step in the pipeline. If this step is not well-validated, the performance of the overall system may be compromised regardless of the quality of the neural network.
+  - **Resolution test** Provide a sensitivity analysis of the candidate peak selection threshold. Show how the number of candidate peaks and the final performance metrics change as the threshold is varied. Justify the chosen threshold based on this analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that LanceOtron "outperforms the long-standing, gold-standard peak caller MACS2 through its improved selectivity and near perfect sensitivity." The term "near perfect sensitivity" is vague and could be interpreted as hyperbole without supporting numbers.
+  - **Required correction** Provide specific sensitivity values in the abstract or rephrase to be more precise, such as "sensitivity of 0.98 compared to 0.85 for MACS2."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Deep learning model
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the training data mentions "50 datasets" but does not specify the total number of samples or the balance between peak and noise regions. The class imbalance in the training data could significantly affect model performance.
+  - **Required correction** Provide the total number of training samples, the number of peak and noise regions, and describe any class balancing techniques used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Benchmarking
+  - **Evidence pointer** Results section, Figure 2a
+  - **Concern** The authors report that "LanceOtron without input actually achieved higher scores than MACS2 with input across all metrics" for the CTCF dataset. This is a strong claim that would benefit from error bars or confidence intervals to demonstrate that the difference is not due to chance.
+  - **Required correction** Add error bars or confidence intervals to the performance metrics in Figure 2a, or provide a statistical test demonstrating the significance of the difference.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions that LanceOtron "can form part of the review process when a manuscript is under consideration." This is an interesting practical application, but the authors do not provide any evidence or example of this use case.
+  - **Required correction** Either remove this claim or provide a concrete example of how LanceOtron was used in a review process.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Peak caller benchmarking
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the benchmarking procedure states that "Chromosomes were shuffled" before labeling. The purpose of this step is unclear, and the potential impact on the results is not discussed.
+  - **Required correction** Clarify the purpose of chromosome shuffling and explain how it affects the benchmarking procedure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking methodology and statistical rigor), R1-M2 (incomplete model description), R1-M3 (limited comparison with existing methods)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of combining deep learning on peak shape with enrichment measurements is a reasonable extension of existing work, but the core idea is not entirely novel. Prior studies have applied deep learning to peak calling, and the use of shape information has been explored. The manuscript would benefit from a clearer statement of what is genuinely new.
+  - **Scientific importance** Peak calling is a fundamental step in epigenomics, and improved tools have broad utility. However, the importance of the advance depends on the strength of the evidence, which is currently insufficient. The tool's graphical interface and reanalysis capability are practical contributions.
+  - **Interdisciplinary readership** The tool is relevant to computational biologists, epigenomics researchers, and potentially bench biologists. The graphical interface broadens accessibility. However, the manuscript is written primarily for a bioinformatics audience and may be challenging for nonspecialists.
+  - **Technical soundness** The technical soundness is currently not established due to incomplete model description, insufficient benchmarking details, and lack of statistical rigor. The candidate peak selection algorithm requires further validation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some sections, particularly the methods, assume familiarity with deep learning and peak calling concepts. The abstract could be more precise with specific performance numbers.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful tool, but the central claims of improved performance over MACS2 are not sufficiently supported. The authors must address the major concerns regarding benchmarking methodology, model description, and comparison with existing methods before the case for LanceOtron's utility is established.
+
+## Risk / unsupported claims
+- The claim that LanceOtron "outperforms" MACS2 across all datasets and metrics is not supported by statistical testing or confidence intervals.
+- The claim that LanceOtron achieves "near perfect sensitivity" is vague and not quantified in the abstract.
+- The claim that peaks uniquely identified by LanceOtron are enriched for biologically relevant regions (promoters, enhancers) is based on indirect evidence and limited to a single transcription factor dataset.
+- The claim that LanceOtron can be used in the manuscript review process is anecdotal and not supported by evidence.
+- The performance of LanceOtron on datasets not represented in the training data (e.g., different species, different assay protocols) is not evaluated.
+- The computational efficiency and resource requirements of LanceOtron are not reported, making it difficult to assess practical utility.

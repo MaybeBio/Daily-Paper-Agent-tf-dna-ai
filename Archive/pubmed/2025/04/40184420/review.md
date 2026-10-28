@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and figure legends (figures themselves not provided)
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with claims made in the abstract and discussion
+- **Shared manuscript claim summary** The authors use residue-resolution coarse-grained molecular dynamics simulations to predict DNA binding sites on human cohesin subunits (SMC1, SMC3, STAG1, NIPBL), map these sites onto a model of the whole cohesin complex, and propose that a cluster of binding sites cooperatively bends DNA to facilitate loop extrusion. They validate predictions against published mutagenesis data and HADDOCK docking.
+- **Visible evidence base** Text descriptions of results, tables (Table 1, Table 2), and references to supporting figures (S1–S13 Fig) and movies (S1–S3 Movie); actual figures, tables, and movies not provided
+- **Missing materials affecting confidence** Figures (main and supporting), tables, movies, simulation parameter files, and force field details; exact trajectory data and statistical analysis outputs
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive study aimed at identifying DNA binding sites on human cohesin subunits and proposing a mechanistic role for these sites in DNA loop extrusion. The methodological approach is reasonable and the use of coarse-grained MD simulations is appropriate for the scale of the system. However, the manuscript has several significant weaknesses that need to be addressed. The validation against experimental data is indirect and relies heavily on previously published mutagenesis studies without providing quantitative comparisons. The claim of cooperative DNA binding and bending is based on simulations with a small number of trajectories and lacks robust statistical analysis. The construction of the whole cohesin complex model involves multiple assumptions and steered MD steps that are not fully justified. The presentation is dense and at times difficult to follow, particularly in the methods section. The study provides useful predictions but the evidence presented does not fully establish the mechanistic conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying SMC complex biology, particularly those interested in cohesin structure and function, DNA loop extrusion mechanisms, and the application of computational methods to chromatin biology. The predicted DNA binding sites could be of interest to experimentalists working on cohesin who may use these predictions to design mutagenesis experiments. The methodological approach may also interest computational biologists working on protein-DNA interactions.
+- **Major strengths** The study addresses an important and timely question in chromosome biology. The use of residue-resolution coarse-grained MD simulations is appropriate and represents a methodological advance over simpler approaches. The systematic identification and ranking of DNA binding sites across multiple cohesin subunits is a valuable contribution. The integration of predictions with existing experimental data (mutagenesis, cryo-EM) provides some validation. The construction of a whole-complex model and the analysis of cooperative effects is ambitious and thought-provoking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the dissociation rate constants calculated from simulations can be used as a proxy for relative DNA binding affinity of the identified patches.
+  - **Evidence pointer** Results section "Molecular dynamics simulations predicted DNA binding patches in cohesin"; Materials and methods "DNA binding-patch calling and dissociation rate constant calculation"
+  - **Concern** The use of dissociation rate constants as a proxy for affinity assumes that association rate constants are similar across all patches (diffusion-limited binding). This assumption is stated but not tested. The simulations use a high ionic strength (300 mM) to speed up dissociation, which may alter binding kinetics in ways that affect the relative ranking of patches. The manuscript does not provide a sensitivity analysis or validation of this approach against known binding affinities for any of the identified patches.
+  - **Why it matters** The ranking of binding sites by affinity is a central result of the paper. If the proxy is not reliable, the identification of "strong" versus "weak" patches, and the subsequent interpretation of which sites are functionally important, could be incorrect.
+  - **Resolution test** The authors should provide evidence that the dissociation rate constants correlate with binding free energies or experimentally measured affinities for at least a subset of patches. Alternatively, they could perform simulations at different ionic strengths to show that the ranking of patches is robust. They should also discuss the limitations of this proxy more explicitly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the identified patch group (C2, C3, H2, G1, G3) cooperatively binds DNA, induces sharp bending, and that this bending is functionally relevant for loop extrusion.
+  - **Evidence pointer** Results section "Cooperative contributions of DNA binding sites may drive loop extrusion"; Figure 5
+  - **Concern** The evidence for cooperative binding is indirect. The authors show that a tetramer containing the patch group bends DNA more sharply than a control without STAG1 and NIPBL. However, the comparison is between a tetramer and a dimer, so the difference could be due to the presence of additional protein mass rather than specific cooperative interactions. The statistical analysis is based on only 20 trajectories, and the bending angle calculation has potential issues (e.g., the choice of atoms for defining the angle, the effect of DNA twist). The functional relevance of the observed bending angle (31 degrees) is not established.
+  - **Why it matters** The cooperative bending mechanism is the main mechanistic proposal of the paper. If the evidence is not robust, the central conclusion is weakened.
+  - **Resolution test** The authors should perform control simulations with a tetramer lacking the specific patch residues (e.g., via charge neutralization mutations) to demonstrate that the bending effect is due to the identified patches. They should also provide a more detailed analysis of the bending angle distribution and its convergence, and discuss the functional significance of the observed bending angle in the context of DNA loop extrusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their study "provides experimentally testable predictions of DNA binding sites implicated in previously proposed DNA loop extrusion mechanisms."
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** While the predictions are indeed testable, the manuscript does not provide a clear, prioritized list of specific residues or motifs for experimental mutagenesis. The patches are described in terms of residue ranges, but the key residues within each patch are not clearly identified. The connection between the predicted sites and the proposed loop extrusion models is largely qualitative. The authors do not discuss how their predictions could distinguish between different loop extrusion models.
+  - **Why it matters** The value of the study for the experimental community depends on the clarity and actionability of the predictions. Without a clear set of testable hypotheses, the impact of the work is diminished.
+  - **Resolution test** The authors should provide a table or figure that clearly lists the key residues in each patch, their proposed function, and the specific experimental test (e.g., mutation, deletion) that would validate or refute the prediction. They should also discuss how the results could differentiate between competing loop extrusion models.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the whole cohesin complex model was constructed using steered MD simulations and represents the gripping state.
+  - **Evidence pointer** Materials and methods "Modeling of the cohesin subunits and the whole cohesin complex"; Figure 5A
+  - **Concern** The construction of the whole complex model involves multiple steps of steered MD with harmonic restraints. The choice of restraint pairs and force constants is not fully justified. The final model is not validated against the cryo-EM structure beyond visual inspection. The authors note that the path of RAD21's IDR is one possibility, but the implications of this uncertainty for the interpretation of the patch mapping are not discussed.
+  - **Why it matters** The mapping of predicted binding patches onto the whole complex structure is a key step in identifying the patch group. If the model is not reliable, the spatial relationships between patches could be incorrect.
+  - **Resolution test** The authors should provide a quantitative comparison of their final model with the cryo-EM structure (e.g., RMSD values for structured regions). They should also discuss the sensitivity of the patch group identification to the model construction procedure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes significant background knowledge of SMC complex biology and loop extrusion. Terms like "SMC complex," "TAD," and "cohesin" are used without sufficient explanation for a general reader.
+  - **Required correction** Provide brief definitions or a short primer on the key concepts and components (e.g., what an SMC complex is, what a TAD is, the basic architecture of cohesin) to make the paper more accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and methods "DNA binding-patch calling and dissociation rate constant calculation"
+  - **Issue** The description of the clustering analysis and the calculation of dissociation rate constants is dense and lacks some details. For example, the exact definition of the Jaccard distance and the criteria for determining the breakpoint between transient and stable binding are not fully clear.
+  - **Required correction** Expand the methods section to provide a more detailed and step-by-step description of the analysis pipeline, including the specific parameters used and the rationale for the choices made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Molecular dynamics simulations predicted DNA binding patches in cohesin"; Table 1
+  - **Issue** The manuscript refers to Table 1 for the list of patches and their properties, but the table itself is not provided in the text. It is difficult to assess the completeness and clarity of the patch identification without seeing the table.
+  - **Required correction** Ensure that Table 1 is included in the final version and that it clearly lists all patches, their residue ranges, dissociation rate constants, and any relevant notes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The discussion of alternative loop extrusion models is brief and does not clearly explain the differences between them or how the current results relate to each model.
+  - **Required correction** Expand the discussion to provide a clearer overview of the competing models and a more detailed explanation of how the predicted binding sites and the proposed cooperative mechanism support or challenge each model.
+- **Technical failings that need to be addressed before the case is established** The use of dissociation rate constants as a proxy for affinity without validation (R1-M1). The lack of control simulations to demonstrate that the observed DNA bending is due to the specific patch group (R1-M2). The absence of a clear, prioritized list of experimentally testable predictions (R1-M3). The lack of quantitative validation of the whole complex model (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The study is original in its application of residue-resolution MD simulations to systematically identify DNA binding sites on human cohesin subunits. However, the concept of using simulations to predict binding sites is not new, and the mechanistic proposal of cooperative binding is an extension of existing models. Scientific importance: The identification of new DNA binding sites and their potential role in loop extrusion is of interest to the cohesin field. However, the importance is somewhat limited by the indirect validation and the lack of direct experimental confirmation. Interdisciplinary readership: The topic is of interest to both computational biologists and experimentalists in chromosome biology. However, the presentation is likely too technical for a general biology audience. Technical soundness: The methods are appropriate for the questions asked, but the lack of validation of the affinity proxy and the limited statistical power of the bending analysis are concerns. Readability for nonspecialists: The manuscript is dense and assumes significant background knowledge, which limits its accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question and provides useful predictions, but the current evidence does not fully establish the mechanistic conclusions. The authors need to address the concerns regarding the affinity proxy, the control simulations for the bending analysis, the clarity of the predictions, and the validation of the whole complex model.
+
+## Risk / unsupported claims
+- The claim that dissociation rate constants can be used as a proxy for relative binding affinity is unsupported without validation against known affinities or a sensitivity analysis.
+- The claim that the patch group cooperatively bends DNA is not fully supported due to the lack of control simulations with mutated patches.
+- The claim that the whole complex model represents the gripping state is not quantitatively validated.
+- The claim that the identified patches are "implicated in previously proposed DNA loop extrusion mechanisms" is an interpretation that goes beyond the direct evidence presented.
+- The functional significance of the observed DNA bending angle (31 degrees) is not established.

@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "36704725",
+    "doi": "10.1177/11779322221149616",
+    "title": "In silico Structure Prediction, Molecular Docking, and Dynamic Simulation of Plasmodium falciparum AP2-I Transcription Factor."
+  },
+  "content": {
+    "abstract": "Plasmodium falciparum Apicomplexan Apetala 2 Invasion (PfAP2-I) transcription factor (TF) is a protein that regulates the expression of a subset of gene families involved in P. falciparum red blood cell (RBC) invasion. Inhibiting PfAP2-I TF with small molecules represents a potential new antimalarial therapeutic target to combat drug resistance, which this study aims to achieve. The 3D model structure of PfAP2-I was predicted ab initio using ROBETTA prediction tool and was validated using Save server 6.0 and MolProbity. Computed Atlas of Surface Topography of proteins (CASTp) 3.0 was used to predict the active sites of the PfAP2-I modeled structure. Pharmacophore modeling of the control ligand and PfAP2-I modeled structure was carried out using the Pharmit server to obtain several compounds used for molecular docking analysis. Molecular docking and postdocking studies were conducted using AutoDock vina and Discovery studio. The designed ligands' toxicity predictions and in silico drug-likeness were performed using the SwissADME predictor and OSIRIS Property Explorer. The modeled protein structure from the ROBETTA showed a validation result of 96.827 for ERRAT, 90.2% of the amino acid residues in the most favored region for the Ramachandran plot, and MolProbity score of 1.30 in the 98th percentile. Five (5) best hit compounds from molecular docking analysis were selected based on their binding affinity (between -8.9 and -11.7 Kcal/mol) to the active site of PfAP2-I and were considered for postdocking studies. For the absorption, distribution, metabolism, elimination, and toxicity (ADMET) properties, compound MCULE-7146940834 had the highest drug score (0.63) and drug-likeness (6.76). MCULE-7146940834 maintained a stable conformation within the flexible protein's active site during simulation. The good, estimated binding energies, drug-likeness, drug score, and molecular dynamics simulation interaction observed for MCULE-7146940834 against PfAP2-I show that MCULE-7146940834 can be considered a lead candidate for PfAP2-I inhibition. Experimental validations should be carried out to ascertain the efficacy of these predicted best hit compounds.",
+    "keywords": [
+      "PfAP2-I",
+      "drug target",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "small molecules",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oladejo, David O",
+        "Duselu, Gbolahan O",
+        "Dokunmu, Titilope M",
+        "Isewon, Itunuoluwa",
+        "Oyelade, Jelili",
+        "Okafor, Esther",
+        "Iweala, Emeka Ej",
+        "Adebiyi, Ezekiel"
+      ],
+      "short_names": [
+        "Oladejo DO",
+        "Duselu GO",
+        "Dokunmu TM",
+        "Isewon I",
+        "Oyelade J",
+        "Okafor E",
+        "Iweala EE",
+        "Adebiyi E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+        "Department of Biochemistry, College of Science and Technology, Covenant University, Ota, Nigeria.",
+        "Department of Chemistry, College of Science and Technology, Covenant University, Ota, Nigeria.",
+        "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+        "Department of Biochemistry, College of Science and Technology, Covenant University, Ota, Nigeria.",
+        "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+        "Department of Computer and Information Science, College of Science and Technology, Covenant University, Ota, Nigeria.",
+        "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+        "Department of Computer and Information Science, College of Science and Technology, Covenant University, Ota, Nigeria.",
+        "Department of Biochemistry, College of Science and Technology, Covenant University, Ota, Nigeria.",
+        "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+        "Department of Biochemistry, College of Science and Technology, Covenant University, Ota, Nigeria.",
+        "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+        "Department of Computer and Information Science, College of Science and Technology, Covenant University, Ota, Nigeria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Oladejo, David O",
+        "short_name": "Oladejo DO",
+        "identifiers": [],
+        "affiliations": [
+          "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+          "Department of Biochemistry, College of Science and Technology, Covenant University, Ota, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Duselu, Gbolahan O",
+        "short_name": "Duselu GO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Science and Technology, Covenant University, Ota, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Dokunmu, Titilope M",
+        "short_name": "Dokunmu TM",
+        "identifiers": [],
+        "affiliations": [
+          "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+          "Department of Biochemistry, College of Science and Technology, Covenant University, Ota, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Isewon, Itunuoluwa",
+        "short_name": "Isewon I",
+        "identifiers": [],
+        "affiliations": [
+          "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+          "Department of Computer and Information Science, College of Science and Technology, Covenant University, Ota, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Oyelade, Jelili",
+        "short_name": "Oyelade J",
+        "identifiers": [],
+        "affiliations": [
+          "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+          "Department of Computer and Information Science, College of Science and Technology, Covenant University, Ota, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Okafor, Esther",
+        "short_name": "Okafor E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Science and Technology, Covenant University, Ota, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Iweala, Emeka Ej",
+        "short_name": "Iweala EE",
+        "identifiers": [],
+        "affiliations": [
+          "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+          "Department of Biochemistry, College of Science and Technology, Covenant University, Ota, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Adebiyi, Ezekiel",
+        "short_name": "Adebiyi E",
+        "identifiers": [],
+        "affiliations": [
+          "Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.",
+          "Department of Computer and Information Science, College of Science and Technology, Covenant University, Ota, Nigeria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics and biology insights"
+    ],
+    "journal_abbrev": [
+      "Bioinform Biol Insights"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/28 06:00",
+    "fetched_at": "2026-09-28 19:36:17"
+  },
+  "links": {
+    "cites": [
+      "41721429",
+      "41501127",
+      "41343493",
+      "41134838",
+      "40940359",
+      "40830840",
+      "40051864",
+      "39452639",
+      "39397980",
+      "39065734",
+      "38849372",
+      "38569653"
+    ],
+    "refs": [
+      "35783612",
+      "33431030",
+      "33304138",
+      "33237286",
+      "33088666",
+      "32850641",
+      "32738628",
+      "31220867",
+      "31188592",
+      "30717149",
+      "30357411",
+      "30094501",
+      "29953881",
+      "29921764",
+      "29860391",
+      "29788355",
+      "29649445",
+      "29126136",
+      "29067766",
+      "28618269",
+      "28256516",
+      "27293534",
+      "27191703",
+      "27095195",
+      "26993964",
+      "26829485",
+      "26637195",
+      "25549265",
+      "24392841",
+      "23975762",
+      "22830056",
+      "21982300",
+      "21570839",
+      "21060817",
+      "19997483",
+      "19399780",
+      "16844972",
+      "16758486",
+      "16237674",
+      "15771225",
+      "15734729",
+      "15264254",
+      "14579342",
+      "11259830",
+      "10753155",
+      "8401235",
+      "1579569"
+    ],
+    "similar": [
+      "36704725",
+      "36714108",
+      "35758564",
+      "36606151",
+      "31391779",
+      "34968763",
+      "35125087",
+      "26089981",
+      "30557817",
+      "38794114",
+      "33582935",
+      "35895695",
+      "30058446",
+      "29609141",
+      "36421973",
+      "38032502",
+      "28340400",
+      "30928871",
+      "30191613",
+      "33981493",
+      "36808033",
+      "34225565",
+      "37293082",
+      "36338939",
+      "36586228",
+      "37021347",
+      "35744817",
+      "37884813",
+      "25691625",
+      "34890431",
+      "37521844",
+      "35083215",
+      "31385774",
+      "33870856",
+      "33385575",
+      "26984239",
+      "27147082",
+      "37662005",
+      "33915968",
+      "34973929",
+      "27134887",
+      "29268664",
+      "26603928",
+      "29883916",
+      "37734644",
+      "38109128",
+      "36401950",
+      "35932508",
+      "34709133",
+      "30339824",
+      "38179257",
+      "35585777",
+      "36995063",
+      "36321557",
+      "38333003",
+      "36841551",
+      "32472293",
+      "28116998",
+      "35621970",
+      "37108083",
+      "38155300",
+      "31073393",
+      "29945500",
+      "36091808",
+      "27812412",
+      "32948119",
+      "38162870",
+      "36031629",
+      "31756512",
+      "33252029",
+      "27534744",
+      "23995310",
+      "31234337",
+      "29132266",
+      "34727985",
+      "33495684",
+      "31900062",
+      "25967133",
+      "29718775",
+      "31674282",
+      "34962586",
+      "33537025",
+      "34502340",
+      "32198457",
+      "35490310",
+      "29491627",
+      "32655067",
+      "36841313",
+      "32568603",
+      "35949428",
+      "36812293",
+      "32738620",
+      "35610713",
+      "34405765",
+      "34268135",
+      "34400833",
+      "34903987",
+      "34447254",
+      "35600144",
+      "39127518",
+      "37177811",
+      "38978708",
+      "38497294",
+      "39345873",
+      "29756074",
+      "36805155",
+      "38615023",
+      "30774861",
+      "38860144",
+      "39373224",
+      "29225432",
+      "38650742",
+      "21364794",
+      "25663113",
+      "37814681",
+      "39035102",
+      "38476643",
+      "38681227",
+      "35514899",
+      "38954355",
+      "36304279",
+      "29593394",
+      "35223440",
+      "31249440",
+      "21464839",
+      "37492541"
+    ],
+    "review": [
+      "36704725",
+      "34973929",
+      "36321557",
+      "36841313"
+    ],
+    "pmc": [
+      "9871981"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/11779322221149616?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36704725/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36704725",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

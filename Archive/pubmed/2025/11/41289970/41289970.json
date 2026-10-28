@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "pmid": "41289970",
+    "doi": "10.1016/j.compbiolchem.2025.108777",
+    "title": "POLR2C, HIF1A, CD4, and CREB1 as the identified key regulators in geriatric insomnia: A comprehensive approach using systems biology and machine learning methods."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Insomnia is a prevalent sleep disorder in older adults with an unknown pathogenesis. This study aims to develop a predictive molecular signature for geriatric insomnia by combining integrated systems biology and a machine learning approach to analyse patient gene expression and phenotypic data, and thereby identifying key molecular features, transcription factors and microRNAs. METHOD: The gene expression profiles from the GEO database, which include older adults with and without insomnia, were obtained. These datasets were analysed using DEG and WGCNA methods to identify key genes and modules related to the condition. Enrichment analyses and GSEA were performed to explore their underlying pathways. A PPI network was constructed to pinpoint hub genes. Three machine learning models were applied to identify potential biomarkers. Finally, immune cell infiltration and a regulatory network of transcription factors and microRNAs were examined, and the genes were compared to known ageing-related genes for validation. RESULT: Analysis of 5097 DEGs between controls and insomnia patients was obtained. WGCNA identified two key gene modules linked to insomnia. The intersection of DEGs and modules yielded 945 genes, enriched in pathways related to nucleocytoplasmic transport and immune processes. GSEA revealed the prominence of the immune process in the insomnia group. Further, 17 hub genes from the PPI network and four core molecular signatures, POLR2C, CD4, HIF1A, and CREB1 from machine learning, were identified. These genes were found to be correlated with immune cell infiltration, and validation showed that some, including HIF1A and CREB1, are also linked to ageing.",
+    "keywords": [
+      "DEGs",
+      "Insomnia",
+      "Machine learning",
+      "Molecular signatures",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Systems Biology",
+      "*Sleep Initiation and Maintenance Disorders/genetics/metabolism",
+      "*Cyclic AMP Response Element-Binding Protein/genetics/metabolism",
+      "Aged",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/genetics/metabolism",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "B, Tejaswini",
+        "S, Sajitha Lulu"
+      ],
+      "short_names": [
+        "B T",
+        "S SL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Integrative Multiomics Lab, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India. Electronic address: tejaswini.b2022@vitstudent.ac.in.",
+        "Integrative Multiomics Lab, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India. Electronic address: ssajithalulu@vit.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "B, Tejaswini",
+        "short_name": "B T",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Multiomics Lab, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India. Electronic address: tejaswini.b2022@vitstudent.ac.in."
+        ]
+      },
+      {
+        "full_name": "S, Sajitha Lulu",
+        "short_name": "S SL",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Multiomics Lab, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India. Electronic address: ssajithalulu@vit.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 00:27",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42180000"
+    ],
+    "refs": [],
+    "similar": [
+      "41289970",
+      "41052072",
+      "40685483",
+      "41502897",
+      "40151199",
+      "41013556",
+      "41479901",
+      "40406126",
+      "38863714",
+      "41393259",
+      "40374866",
+      "37740761",
+      "40997906",
+      "40340571",
+      "39559355",
+      "41316541",
+      "40332792",
+      "42158856",
+      "39069636",
+      "39142001",
+      "38755717",
+      "42265520",
+      "41200172",
+      "40977739",
+      "36316672",
+      "41432483",
+      "40313958",
+      "41146237",
+      "39657846",
+      "40574839",
+      "37008314",
+      "41716396",
+      "39139563",
+      "42123445",
+      "39779759",
+      "41288681",
+      "40967560",
+      "40540134",
+      "41442003",
+      "40973872",
+      "40830558",
+      "41107929",
+      "40313967",
+      "36576616",
+      "39586719",
+      "41006883",
+      "38899746",
+      "41214111",
+      "39086489",
+      "41120603",
+      "38987624",
+      "39507054",
+      "39080525",
+      "40596265",
+      "40443672",
+      "40884580",
+      "39958336",
+      "41789070",
+      "41964403",
+      "39375405",
+      "40818967",
+      "39346628",
+      "38701256",
+      "40924716",
+      "41474729",
+      "40532306",
+      "40328901",
+      "41816328",
+      "42236612",
+      "36532015",
+      "36699262",
+      "42267557",
+      "40589764",
+      "39512836",
+      "38867322",
+      "41895505",
+      "39976098",
+      "41424060",
+      "39509434",
+      "39034722",
+      "41388523",
+      "39713769",
+      "38690269",
+      "41300841",
+      "41316321",
+      "41229415",
+      "41633196",
+      "38319987",
+      "40374840",
+      "42074514",
+      "40956396",
+      "39707003",
+      "40808946",
+      "39026663",
+      "38371524",
+      "41305746",
+      "39707377",
+      "41094572",
+      "38951833",
+      "42195052"
+    ],
+    "review": [
+      "41289970"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00439-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/insomnia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Insomnia"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

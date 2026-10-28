@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "36265006",
+    "doi": "10.1371/journal.pcbi.1009880",
+    "title": "Deep mendelian randomization: Investigating the causal knowledge of genomic deep learning models."
+  },
+  "content": {
+    "abstract": "Multi-task deep learning (DL) models can accurately predict diverse genomic marks from sequence, but whether these models learn the causal relationships between genomic marks is unknown. Here, we describe Deep Mendelian Randomization (DeepMR), a method for estimating causal relationships between genomic marks learned by genomic DL models. By combining Mendelian randomization with in silico mutagenesis, DeepMR obtains local (locus specific) and global estimates of (an assumed) linear causal relationship between marks. In a simulation designed to test recovery of pairwise causal relations between transcription factors (TFs), DeepMR gives accurate and unbiased estimates of the 'true' global causal effect, but its coverage decays in the presence of sequence-dependent confounding. We then apply DeepMR to examine the global relationships learned by a state-of-the-art DL model, BPNet, between TFs involved in reprogramming. DeepMR's causal effect estimates validate previously hypothesized relationships between TFs and suggest new relationships for future investigation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Mendelian Randomization Analysis/methods",
+      "*Deep Learning",
+      "Causality",
+      "Research Design",
+      "Genomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malina, Stephen",
+        "Cizin, Daniel",
+        "Knowles, David A"
+      ],
+      "short_names": [
+        "Malina S",
+        "Cizin D",
+        "Knowles DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7383-0094",
+        "ORCID: 0000-0002-6908-6792",
+        "ORCID: 0000-0002-7408-146X"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Columbia University, New York, New York, United States of America.",
+        "Dyno Therapeutics, Watertown, Massachusetts, United States of America.",
+        "Department of Computer Science, Columbia University, New York, New York, United States of America.",
+        "Tri-Institutional Ph.D. Program in Computational Biology and Medicine, Weill Cornell Medicine, New York, New York, United States of America.",
+        "Department of Computer Science, Columbia University, New York, New York, United States of America.",
+        "New York Genome Center, New York, New York, United States of America.",
+        "Department of Systems Biology, Columbia University, New York, New York, United States of America.",
+        "Data Science Institute, Columbia University, New York, New York, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malina, Stephen",
+        "short_name": "Malina S",
+        "identifiers": [
+          "0000-0002-7383-0094"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Columbia University, New York, New York, United States of America.",
+          "Dyno Therapeutics, Watertown, Massachusetts, United States of America."
+        ]
+      },
+      {
+        "full_name": "Cizin, Daniel",
+        "short_name": "Cizin D",
+        "identifiers": [
+          "0000-0002-6908-6792"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Columbia University, New York, New York, United States of America.",
+          "Tri-Institutional Ph.D. Program in Computational Biology and Medicine, Weill Cornell Medicine, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Knowles, David A",
+        "short_name": "Knowles DA",
+        "identifiers": [
+          "0000-0002-7408-146X"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Columbia University, New York, New York, United States of America.",
+          "New York Genome Center, New York, New York, United States of America.",
+          "Department of Systems Biology, Columbia University, New York, New York, United States of America.",
+          "Data Science Institute, Columbia University, New York, New York, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/21 06:00",
+    "fetched_at": "2026-09-28 15:06:37"
+  },
+  "links": {
+    "cites": [
+      "42680998",
+      "41869282",
+      "41523993",
+      "41388250",
+      "41087731",
+      "40971794",
+      "40080320",
+      "39605624",
+      "39355404",
+      "38568343",
+      "37606627"
+    ],
+    "refs": [
+      "35238376",
+      "33983921",
+      "33789710",
+      "33603233",
+      "32702986",
+      "30967126",
+      "30661751",
+      "30323214",
+      "29846613",
+      "29771313",
+      "28245811",
+      "27197224",
+      "26301843",
+      "26282889",
+      "26213851",
+      "26050253",
+      "25559105",
+      "24335146",
+      "23263488",
+      "20150147",
+      "17886233",
+      "17603471",
+      "17558387",
+      "17540862",
+      "17512414",
+      "2200121"
+    ],
+    "similar": [
+      "36265006",
+      "26050253",
+      "26661904",
+      "23934314",
+      "35254260",
+      "32867428",
+      "24062299",
+      "25382280",
+      "25632051",
+      "25192829",
+      "28960498",
+      "34008876",
+      "33899104",
+      "23080538",
+      "29334416",
+      "33280888",
+      "31177761",
+      "31234011",
+      "26282889",
+      "30635941",
+      "30014513",
+      "33167994",
+      "25166881",
+      "31146640",
+      "31879996",
+      "27486138",
+      "32687429",
+      "36266083",
+      "35594779",
+      "31801373",
+      "23199790",
+      "26201704",
+      "28317167",
+      "35456516",
+      "26791863",
+      "22161218",
+      "34338327",
+      "20348110",
+      "27749700",
+      "35298462",
+      "26695146",
+      "31761964",
+      "35356648",
+      "28515044",
+      "21153618",
+      "31373921",
+      "33155035",
+      "33704372",
+      "20978399",
+      "24114802",
+      "34897459",
+      "24305512",
+      "31164902",
+      "37395630",
+      "33493347",
+      "32905524",
+      "39313311"
+    ],
+    "review": [
+      "36265006",
+      "32867428",
+      "26282889",
+      "27486138",
+      "32687429",
+      "23199790",
+      "26791863",
+      "22161218",
+      "26695146",
+      "31761964",
+      "20978399"
+    ],
+    "pmc": [
+      "9624391"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009880",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36265006/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36265006",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

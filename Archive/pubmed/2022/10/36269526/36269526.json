@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "36269526",
+    "doi": "10.1007/s10549-022-06763-5",
+    "title": "Use of a supervised machine learning model to predict Oncotype DX risk category in node-positive patients older than 50 years of age."
+  },
+  "content": {
+    "abstract": "PURPOSE: The use of the Oncotype DX recurrence score (RS) to predict chemotherapy benefit in patients with hormone receptor-positive/HER2 negative (HR+/HER2-) breast cancer has recently expanded to include postmenopausal patients with N1 disease. RS availability is limited in resource-poor settings, however, prompting the development of statistical models that predict RS using clinicopathologic features. We sought to assess the performance of our supervised machine learning model in a cohort of patients > 50 years of age with N1 disease. METHODS: We identified patients > 50 years of age with pT1-2N1 HR+/HER2- breast cancer and applied the statistical model previously developed in a node-negative cohort, which uses age, pathologic tumor size, histology, progesterone receptor expression, lymphovascular invasion, and tumor grade to predict RS. We measured the model's ability to predict RS risk category (low: RS </= 25; high: RS > 25). RESULTS: Our cohort included 401 patients, 60.6% of whom had macrometastases, with a median of 1 positive node. The majority of patients had a low-risk observed RS (85.8%). For predicting RS category, the model had specificity of 97.3%, sensitivity of 31.8%, a negative predictive value of 87.9%, and a positive predictive value of 70.0%. CONCLUSION: Our model, developed in a cohort of node-negative patients, was highly specific for identifying cN1 patients > 50 years of age with a low RS who could safely avoid chemotherapy. The use of this model for identifying patients in whom genomic testing is unnecessary would help decrease the cost burden in resource-poor settings as reliance on RS for adjuvant treatment recommendations increases.",
+    "keywords": [
+      "Breast cancer",
+      "Machine learning",
+      "Node positive",
+      "Recurrence score",
+      "Risk prediction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Receptors, Estrogen/metabolism",
+      "*Breast Neoplasms/pathology",
+      "Prognosis",
+      "Neoplasm Recurrence, Local/pathology",
+      "Supervised Machine Learning",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Williams, Austin D",
+        "Pawloski, Kate R",
+        "Wen, Hannah Y",
+        "Sevilimedu, Varadan",
+        "Thompson, Donna",
+        "Morrow, Monica",
+        "El-Tamer, Mahmoud"
+      ],
+      "short_names": [
+        "Williams AD",
+        "Pawloski KR",
+        "Wen HY",
+        "Sevilimedu V",
+        "Thompson D",
+        "Morrow M",
+        "El-Tamer M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2299-3061",
+        "ORCID: 0000-0003-2264-9487"
+      ],
+      "affiliations": [
+        "Breast Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA.",
+        "Breast Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA.",
+        "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA.",
+        "Biostatistics Service, Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA.",
+        "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA.",
+        "Breast Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA.",
+        "Breast Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA. eltamerm@mskcc.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Williams, Austin D",
+        "short_name": "Williams AD",
+        "identifiers": [
+          "0000-0002-2299-3061"
+        ],
+        "affiliations": [
+          "Breast Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Pawloski, Kate R",
+        "short_name": "Pawloski KR",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Wen, Hannah Y",
+        "short_name": "Wen HY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Sevilimedu, Varadan",
+        "short_name": "Sevilimedu V",
+        "identifiers": [],
+        "affiliations": [
+          "Biostatistics Service, Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Thompson, Donna",
+        "short_name": "Thompson D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Morrow, Monica",
+        "short_name": "Morrow M",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."
+        ]
+      },
+      {
+        "full_name": "El-Tamer, Mahmoud",
+        "short_name": "El-Tamer M",
+        "identifiers": [
+          "0000-0003-2264-9487"
+        ],
+        "affiliations": [
+          "Breast Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA. eltamerm@mskcc.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research and treatment"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res Treat"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/22 06:00",
+    "fetched_at": "2026-09-28 15:06:37"
+  },
+  "links": {
+    "cites": [
+      "41062491"
+    ],
+    "refs": [
+      "35711899",
+      "34914339",
+      "34751852",
+      "34091374",
+      "32565110",
+      "31522959",
+      "31200352",
+      "31146185",
+      "30384581",
+      "30129697",
+      "29860917",
+      "29181717",
+      "28606707",
+      "27928699",
+      "27097910",
+      "26072275",
+      "25932962",
+      "24455283",
+      "24164299",
+      "22173289",
+      "21720988",
+      "21369717",
+      "21043825",
+      "18360352",
+      "16720680",
+      "15591335"
+    ],
+    "similar": [
+      "36269526",
+      "34751852",
+      "30796885",
+      "32385567",
+      "23701403",
+      "31522959",
+      "29679201",
+      "21043825",
+      "27209424",
+      "28960862",
+      "31152079",
+      "29968028",
+      "35084624",
+      "33360027",
+      "23074401",
+      "39159413",
+      "22016474",
+      "31026440",
+      "29728098",
+      "36631400",
+      "33601299",
+      "28243896",
+      "29230662",
+      "32372329",
+      "35711899",
+      "36320066",
+      "19946706",
+      "37751078",
+      "28111076",
+      "32939592",
+      "26340863",
+      "31809240",
+      "32951186",
+      "32565110",
+      "30242578",
+      "30387876",
+      "36217063",
+      "30634106",
+      "33548871",
+      "32170635",
+      "26385397",
+      "29133514",
+      "28702894",
+      "27526056",
+      "30977026",
+      "30230117",
+      "31619259",
+      "31287883",
+      "29788166",
+      "18809056",
+      "35172273",
+      "29128896",
+      "34903609",
+      "25795632",
+      "21369717",
+      "29959613",
+      "34425579",
+      "31641007",
+      "25262341",
+      "35119458",
+      "29128898",
+      "34855202",
+      "21537874",
+      "21297447",
+      "21934103",
+      "31146185",
+      "34182528",
+      "30456680",
+      "33070279",
+      "31385051",
+      "23801158",
+      "22418568",
+      "27001586",
+      "36434599",
+      "30542840",
+      "33393046",
+      "29181717",
+      "31511599",
+      "27362843",
+      "26467036",
+      "30570850",
+      "31312792",
+      "31889145",
+      "33605163",
+      "22127090",
+      "34664429",
+      "29236174",
+      "31748278",
+      "35416089",
+      "32799886",
+      "18076012",
+      "37448522",
+      "32060781",
+      "32758491",
+      "23643806",
+      "37453958",
+      "38720854",
+      "35295864",
+      "38076600",
+      "38439804",
+      "38398165",
+      "39426965",
+      "22112467",
+      "30972106"
+    ],
+    "review": [
+      "36269526",
+      "35295864"
+    ],
+    "pmc": [
+      "10328094"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36269526/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10549-022-06763-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36269526",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1484",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

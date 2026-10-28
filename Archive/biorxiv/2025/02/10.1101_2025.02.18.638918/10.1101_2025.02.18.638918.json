@@ -1,0 +1,491 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.18.638918",
+  "title": "Genome modeling and design across all domains of life with Evo 2",
+  "doi": "10.1101/2025.02.18.638918",
+  "abstract": "All of life encodes information with DNA. While tools for sequencing, synthesis, and editing of genomic code have transformed biological research, intelligently composing new biological systems would also require a deep understanding of the immense complexity encoded by genomes. We introduce Evo 2, a biological foundation model trained on 9.3 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life. We train Evo 2 with 7B and 40B parameters to have an unprecedented 1 million token context window with single-nucleotide resolution. Evo 2 learns from DNA sequence alone to accurately predict the functional impacts of genetic variation—from noncoding pathogenic mutations to clinically significant BRCA1 variants—without task-specific finetuning. Applying mechanistic interpretability analyses, we reveal that Evo 2 autonomously learns a breadth of biological features, including exon–intron boundaries, transcription factor binding sites, protein structural elements, and prophage genomic regions. Beyond its predictive capabilities, Evo 2 generates mitochondrial, prokaryotic, and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Guiding Evo 2 via inference-time search enables controllable generation of epigenomic structure, for which we demonstrate the first inference-time scaling results in biology. We make Evo 2 fully open, including model parameters, training code, inference code, and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity.",
+  "authors": [
+    "Brixi G",
+    "Durrant MG",
+    "Ku J",
+    "Poli M",
+    "Brockman G",
+    "Chang D",
+    "Gonzalez GA",
+    "King SH",
+    "Li DB",
+    "Merchant AT",
+    "Naghipourfar M",
+    "Nguyen E",
+    "Ricci-Tam C",
+    "Romero DW",
+    "Sun G",
+    "Taghibakshi A",
+    "Vorontsov A",
+    "Yang B",
+    "Deng M",
+    "Gorton L",
+    "Nguyen N",
+    "Wang NK",
+    "Adams E",
+    "Baccus SA",
+    "Dillmann S",
+    "Ermon S",
+    "Guo D",
+    "Ilango R",
+    "Janik K",
+    "Lu AX",
+    "Mehta R",
+    "Mofrad MR",
+    "Ng MY",
+    "Pannu J",
+    "Ré C",
+    "Schmok JC",
+    "John JS",
+    "Sullivan J",
+    "Zhu K",
+    "Zynda G",
+    "Balsam D",
+    "Collison P",
+    "Costa AB",
+    "Hernandez-Boussard T",
+    "Ho E",
+    "Liu M",
+    "McGrath T",
+    "Powell K",
+    "Burke DP",
+    "Goodarzi H",
+    "Hsu PD",
+    "Hie BL"
+  ],
+  "published_date": "2025-02-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638918",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638918.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR981265",
+    "raw_record": {
+      "id": "PPR981265",
+      "source": "PPR",
+      "doi": "10.1101/2025.02.18.638918",
+      "title": "Genome modeling and design across all domains of life with Evo 2",
+      "authorString": "Brixi G, Durrant MG, Ku J, Poli M, Brockman G, Chang D, Gonzalez GA, King SH, Li DB, Merchant AT, Naghipourfar M, Nguyen E, Ricci-Tam C, Romero DW, Sun G, Taghibakshi A, Vorontsov A, Yang B, Deng M, Gorton L, Nguyen N, Wang NK, Adams E, Baccus SA, Dillmann S, Ermon S, Guo D, Ilango R, Janik K, Lu AX, Mehta R, Mofrad MR, Ng MY, Pannu J, Ré C, Schmok JC, John JS, Sullivan J, Zhu K, Zynda G, Balsam D, Collison P, Costa AB, Hernandez-Boussard T, Ho E, Liu M, McGrath T, Powell K, Burke DP, Goodarzi H, Hsu PD, Hie BL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Brixi G",
+            "lastName": "Brixi",
+            "firstName": "Garyk",
+            "initials": "G"
+          },
+          {
+            "fullName": "Durrant MG",
+            "lastName": "Durrant",
+            "firstName": "Matthew",
+            "initials": "MG"
+          },
+          {
+            "fullName": "Ku J",
+            "lastName": "Ku",
+            "firstName": "Jerome",
+            "initials": "J"
+          },
+          {
+            "fullName": "Poli M",
+            "lastName": "Poli",
+            "firstName": "Michael",
+            "initials": "M"
+          },
+          {
+            "fullName": "Brockman G",
+            "lastName": "Brockman",
+            "firstName": "Greg",
+            "initials": "G"
+          },
+          {
+            "fullName": "Chang D",
+            "lastName": "Chang",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Gonzalez GA",
+            "lastName": "Gonzalez",
+            "firstName": "Gabriel",
+            "initials": "GA"
+          },
+          {
+            "fullName": "King SH",
+            "lastName": "King",
+            "firstName": "Samuel",
+            "initials": "SH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1260-5045"
+            }
+          },
+          {
+            "fullName": "Li DB",
+            "lastName": "Li",
+            "firstName": "David",
+            "initials": "DB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8921-5168"
+            }
+          },
+          {
+            "fullName": "Merchant AT",
+            "lastName": "Merchant",
+            "firstName": "Aditi",
+            "initials": "AT"
+          },
+          {
+            "fullName": "Naghipourfar M",
+            "lastName": "Naghipourfar",
+            "firstName": "Mohsen",
+            "initials": "M"
+          },
+          {
+            "fullName": "Nguyen E",
+            "lastName": "Nguyen",
+            "firstName": "Eric",
+            "initials": "E"
+          },
+          {
+            "fullName": "Ricci-Tam C",
+            "lastName": "Ricci-Tam",
+            "firstName": "Chiara",
+            "initials": "C"
+          },
+          {
+            "fullName": "Romero DW",
+            "lastName": "Romero",
+            "firstName": "David",
+            "initials": "DW"
+          },
+          {
+            "fullName": "Sun G",
+            "lastName": "Sun",
+            "firstName": "Gwanggyu",
+            "initials": "G"
+          },
+          {
+            "fullName": "Taghibakshi A",
+            "lastName": "Taghibakshi",
+            "firstName": "Ali",
+            "initials": "A"
+          },
+          {
+            "fullName": "Vorontsov A",
+            "lastName": "Vorontsov",
+            "firstName": "Anton",
+            "initials": "A"
+          },
+          {
+            "fullName": "Yang B",
+            "lastName": "Yang",
+            "firstName": "Brandon",
+            "initials": "B"
+          },
+          {
+            "fullName": "Deng M",
+            "lastName": "Deng",
+            "firstName": "Myra",
+            "initials": "M"
+          },
+          {
+            "fullName": "Gorton L",
+            "lastName": "Gorton",
+            "firstName": "Liv",
+            "initials": "L"
+          },
+          {
+            "fullName": "Nguyen N",
+            "lastName": "Nguyen",
+            "firstName": "Nam",
+            "initials": "N"
+          },
+          {
+            "fullName": "Wang NK",
+            "lastName": "Wang",
+            "firstName": "Nicholas",
+            "initials": "NK"
+          },
+          {
+            "fullName": "Adams E",
+            "lastName": "Adams",
+            "firstName": "Etowah",
+            "initials": "E"
+          },
+          {
+            "fullName": "Baccus SA",
+            "lastName": "Baccus",
+            "firstName": "Stephen",
+            "initials": "SA"
+          },
+          {
+            "fullName": "Dillmann S",
+            "lastName": "Dillmann",
+            "firstName": "Steven",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4773-1463"
+            }
+          },
+          {
+            "fullName": "Ermon S",
+            "lastName": "Ermon",
+            "firstName": "Stefano",
+            "initials": "S"
+          },
+          {
+            "fullName": "Guo D",
+            "lastName": "Guo",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-5347-7569"
+            }
+          },
+          {
+            "fullName": "Ilango R",
+            "lastName": "Ilango",
+            "firstName": "Rajesh",
+            "initials": "R"
+          },
+          {
+            "fullName": "Janik K",
+            "lastName": "Janik",
+            "firstName": "Ken",
+            "initials": "K"
+          },
+          {
+            "fullName": "Lu AX",
+            "lastName": "Lu",
+            "firstName": "Amy",
+            "initials": "AX"
+          },
+          {
+            "fullName": "Mehta R",
+            "lastName": "Mehta",
+            "firstName": "Reshma",
+            "initials": "R"
+          },
+          {
+            "fullName": "Mofrad MR",
+            "lastName": "Mofrad",
+            "firstName": "Mohammad R.K.",
+            "initials": "MR"
+          },
+          {
+            "fullName": "Ng MY",
+            "lastName": "Ng",
+            "firstName": "Madelena",
+            "initials": "MY",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3824-9349"
+            }
+          },
+          {
+            "fullName": "Pannu J",
+            "lastName": "Pannu",
+            "firstName": "Jaspreet",
+            "initials": "J"
+          },
+          {
+            "fullName": "Ré C",
+            "lastName": "Ré",
+            "firstName": "Christopher",
+            "initials": "C"
+          },
+          {
+            "fullName": "Schmok JC",
+            "lastName": "Schmok",
+            "firstName": "Jonathan",
+            "initials": "JC"
+          },
+          {
+            "fullName": "John JS",
+            "lastName": "John",
+            "firstName": "John St.",
+            "initials": "JS"
+          },
+          {
+            "fullName": "Sullivan J",
+            "lastName": "Sullivan",
+            "firstName": "Jeremy",
+            "initials": "J"
+          },
+          {
+            "fullName": "Zhu K",
+            "lastName": "Zhu",
+            "firstName": "Kevin",
+            "initials": "K"
+          },
+          {
+            "fullName": "Zynda G",
+            "lastName": "Zynda",
+            "firstName": "Greg",
+            "initials": "G"
+          },
+          {
+            "fullName": "Balsam D",
+            "lastName": "Balsam",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Collison P",
+            "lastName": "Collison",
+            "firstName": "Patrick",
+            "initials": "P"
+          },
+          {
+            "fullName": "Costa AB",
+            "lastName": "Costa",
+            "firstName": "Anthony",
+            "initials": "AB"
+          },
+          {
+            "fullName": "Hernandez-Boussard T",
+            "lastName": "Hernandez-Boussard",
+            "firstName": "Tina",
+            "initials": "T"
+          },
+          {
+            "fullName": "Ho E",
+            "lastName": "Ho",
+            "firstName": "Eric",
+            "initials": "E"
+          },
+          {
+            "fullName": "Liu M",
+            "lastName": "Liu",
+            "firstName": "Ming-Yu",
+            "initials": "M"
+          },
+          {
+            "fullName": "McGrath T",
+            "lastName": "McGrath",
+            "firstName": "Thomas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Powell K",
+            "lastName": "Powell",
+            "firstName": "Kimberly",
+            "initials": "K"
+          },
+          {
+            "fullName": "Burke DP",
+            "lastName": "Burke",
+            "firstName": "Dave",
+            "initials": "DP"
+          },
+          {
+            "fullName": "Goodarzi H",
+            "lastName": "Goodarzi",
+            "firstName": "Hani",
+            "initials": "H"
+          },
+          {
+            "fullName": "Hsu PD",
+            "lastName": "Hsu",
+            "firstName": "Patrick",
+            "initials": "PD"
+          },
+          {
+            "fullName": "Hie BL",
+            "lastName": "Hie",
+            "firstName": "Brian",
+            "initials": "BL"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1260-5045"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4773-1463"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8921-5168"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3824-9349"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-5347-7569"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "All of life encodes information with DNA. While tools for sequencing, synthesis, and editing of genomic code have transformed biological research, intelligently composing new biological systems would also require a deep understanding of the immense complexity encoded by genomes. We introduce Evo 2, a biological foundation model trained on 9.3 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life. We train Evo 2 with 7B and 40B parameters to have an unprecedented 1 million token context window with single-nucleotide resolution. Evo 2 learns from DNA sequence alone to accurately predict the functional impacts of genetic variation—from noncoding pathogenic mutations to clinically significant  BRCA1 variants—without task-specific finetuning. Applying mechanistic interpretability analyses, we reveal that Evo 2 autonomously learns a breadth of biological features, including exon–intron boundaries, transcription factor binding sites, protein structural elements, and prophage genomic regions. Beyond its predictive capabilities, Evo 2 generates mitochondrial, prokaryotic, and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Guiding Evo 2 via inference-time search enables controllable generation of epigenomic structure, for which we demonstrate the first inference-time scaling results in biology. We make Evo 2 fully open, including model parameters, training code, inference code, and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.18.638918"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 93,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-02-24",
+      "firstPublicationDate": "2025-02-21",
+      "firstIndexDate": "2025-02-24",
+      "hasEvaluations": "Y"
+    }
+  }
+}

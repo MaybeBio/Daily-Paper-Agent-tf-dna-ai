@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "41561975",
+    "doi": "10.3389/fgene.2025.1688077",
+    "title": "Integrated network toxicology, machine learning algorithms and TMT proteomics reveal the mechanism of 18beta glycyrrhetinic acid against gastric cancer."
+  },
+  "content": {
+    "abstract": "The purpose of this paper is to explore the mechanism of 18beta glycyrrhetinic acid (18beta-GRA) in treating gastric cancer. Firstly, the toxicological effects of 18beta-GRA were predicted using the ProTox3.0 database. Then, candidate biomarkers for the anti-gastric cancer of 18beta-GRA were screened using the weighted gene co-expression network analysis (WGCNA), the least absolute shrinkage and selection operator (LASSO), the support vector machine (SVM), the random forest algorithm combined with the TMT proteomics methods. Additionally, we explored the potential upstream transcription factors and downstream interacting proteins of the biomarkers. The WGCNA method yielded 269 targets, while TMT proteomics analysis identified 6,273 genes. Among these, 12 targets were identical. Using LASSO, SVM, and random forest algorithms, three candidate markers were identified: insulin-like growth factor 2 mRNA binding protein 3 (IGF2BP3), keratin 6B (KRT6B), and E3 ubiquitin-protein ligase NEDD4-like (NEDD4L). Based on molecular docking and molecular dynamics results, NEDD4L is believed to be a 18beta-GRA biomarker, while sodium channel protein type 5 subunit alpha (SCN5A) and early growth response protein 1 (EGR1) are the potential upstream and downstream regulatory proteins, respectively. These findings provide a theoretical basis for future experimental verification.",
+    "keywords": [
+      "18beta glycyrrhetinic acid",
+      "NEDD4L",
+      "TMT proteomics",
+      "gastric cancer",
+      "machine learning algorithms"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Doudou",
+        "Jia, Shumin",
+        "Li, Yahong",
+        "Wang, Zhaozhao",
+        "Zhou, Ziying",
+        "Liu, Wenjing",
+        "Zhang, Lei",
+        "Yuan, Ling",
+        "Nan, Yi"
+      ],
+      "short_names": [
+        "Lu D",
+        "Jia S",
+        "Li Y",
+        "Wang Z",
+        "Zhou Z",
+        "Liu W",
+        "Zhang L",
+        "Yuan L",
+        "Nan Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medicine, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Traditional Chinese Medicine College, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Traditional Chinese Medicine College, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Traditional Chinese Medicine College, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Department of Pharmacy, General Hospital of Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Key Laboratory of Hui Ethnic Medicine Modernization of Ministry of Education, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Key Laboratory of Hui Ethnic Medicine Modernization of Ministry of Education, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "College of Pharmacy, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Key Laboratory of Hui Ethnic Medicine Modernization of Ministry of Education, Ningxia Medical University, Yinchuan, Ningxia, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Doudou",
+        "short_name": "Lu D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Shumin",
+        "short_name": "Jia S",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine College, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yahong",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine College, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhaozhao",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine College, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ziying",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, General Hospital of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenjing",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Hui Ethnic Medicine Modernization of Ministry of Education, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Hui Ethnic Medicine Modernization of Ministry of Education, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Ling",
+        "short_name": "Yuan L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Nan, Yi",
+        "short_name": "Nan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Hui Ethnic Medicine Modernization of Ministry of Education, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 06:31",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39048659",
+      "38764819",
+      "38657511",
+      "38647086",
+      "38552435",
+      "38401519",
+      "38383823",
+      "37631269",
+      "37545635",
+      "37398884",
+      "37011418",
+      "36714343",
+      "36293239",
+      "36077334",
+      "36070662",
+      "35979263",
+      "35757027",
+      "35593463",
+      "35116174",
+      "34989920",
+      "34604277",
+      "34369548",
+      "34281176",
+      "33538338",
+      "33530829",
+      "33507609",
+      "33338532",
+      "33152888",
+      "33029435",
+      "32519340",
+      "32469182",
+      "32265230",
+      "31902913",
+      "31900993",
+      "31578285",
+      "31537174",
+      "31022523",
+      "29588589",
+      "26758798",
+      "25395181",
+      "25240821",
+      "24261979",
+      "24094768",
+      "23185686",
+      "20728210",
+      "20657452",
+      "20489156",
+      "19649653",
+      "19024597",
+      "16990849",
+      "16267018",
+      "15882441",
+      "11495500",
+      "8910850"
+    ],
+    "similar": [
+      "41561975",
+      "35979263",
+      "37398884",
+      "37545635",
+      "37171392",
+      "37434738",
+      "39575438",
+      "39142001",
+      "37065920",
+      "31262112",
+      "38144565",
+      "40446574",
+      "27713126",
+      "29098529",
+      "32522541",
+      "40408942",
+      "41220724",
+      "39735547",
+      "30813699",
+      "38552435",
+      "41023076",
+      "18721818",
+      "36532015",
+      "39139563",
+      "30364936",
+      "38755717",
+      "38711508",
+      "21732363",
+      "23792039",
+      "41291841",
+      "39346075",
+      "38362683",
+      "39862324",
+      "41494475",
+      "34539837",
+      "29532412",
+      "41029776",
+      "16983688",
+      "40619562",
+      "39553728",
+      "41479901",
+      "40084401",
+      "40095160",
+      "40736665",
+      "41158276",
+      "41163278",
+      "27499091",
+      "27006947",
+      "41189222",
+      "34666184",
+      "39277096",
+      "40519656",
+      "40313958",
+      "38476236",
+      "39170142",
+      "40946227",
+      "20868669",
+      "38851983",
+      "40830558",
+      "39507054",
+      "38115320",
+      "40997906",
+      "40129981",
+      "41169101",
+      "41013556",
+      "41388523",
+      "39396400",
+      "35812327",
+      "36647553",
+      "22210441",
+      "24687644",
+      "41508240",
+      "37782162",
+      "37143707",
+      "35264872",
+      "34411493",
+      "41192341",
+      "38383823",
+      "34381358",
+      "39427825",
+      "37642133",
+      "38371524",
+      "40386252",
+      "41052072",
+      "37359529",
+      "22609834",
+      "36018512",
+      "39071813",
+      "29677640",
+      "36470144",
+      "16002718",
+      "35624826",
+      "39923303",
+      "38725627",
+      "22465130",
+      "34712051",
+      "41107929",
+      "29973878",
+      "38148887",
+      "39394418"
+    ],
+    "review": [
+      "41561975"
+    ],
+    "pmc": [
+      "12815446"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41561975/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4004",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2025.1688077",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

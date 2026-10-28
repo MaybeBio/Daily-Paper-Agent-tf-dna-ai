@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality. No assessment of code availability, reproducibility scripts, or supplementary figures beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present SigXTalk, a machine learning method that uses hypergraph learning and tree-based regression to identify and quantify crosstalk between cell-cell communication (CCC) pathways from single-cell RNA-seq data. The method introduces two metrics, pathway fidelity and specificity, to measure the selectivity of signal-target relationships in the presence of shared signaling components. The authors benchmark the method on simulated data, compare it to 12 existing gene regulatory network inference methods, and apply it to several real-world datasets including HNSCC, COVID-19 lung, mouse lung injury, and mouse brain spatial transcriptomics.
+- **Visible evidence base** Main text figures referenced (Figs. 1-7), supplementary figures referenced (Supplementary Figs. 1-7), supplementary tables referenced (Supplementary Tables 1-2), and methods equations (Eqs. 1-8, 18). No actual figure images, supplementary files, or code were provided for inspection.
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided. The actual figure images (Figs. 1-7) are not available for visual inspection. Code implementation and detailed hyperparameter settings are not fully described. The complete NicheNet database processing pipeline is not detailed. Statistical test details for the real data comparisons are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuine gap in the cell-cell communication inference field: the systematic analysis of crosstalk between signaling pathways that share components. The conceptual framing of fidelity and specificity is useful and biologically motivated. The hypergraph learning approach is technically appropriate for capturing higher-order regulatory relationships. However, the manuscript has several significant weaknesses that currently prevent the case from being fully established. The benchmarking against simulated data, while showing strong performance, uses a simulation framework that may favor the method's design assumptions. The real data applications are largely descriptive and lack quantitative validation against independent experimental evidence. The comparison with existing methods is limited in scope and the interpretation of the comparative results is somewhat circular, as the authors acknowledge. The statistical rigor of some real-data comparisons is unclear. The method's sensitivity to the choice of prior databases and thresholds is not thoroughly explored. The spatial transcriptomics application, while interesting, is presented as a proof-of-concept without clear validation of the refined cell-cell communication predictions.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on cell-cell communication inference, gene regulatory network reconstruction, and single-cell transcriptomics analysis would be the primary audience. Biologists studying signaling pathway crosstalk in development, cancer, and fibrosis may also find the conceptual framework and specific biological predictions of interest. The method could be of practical use to those analyzing scRNA-seq data to understand intercellular signaling dynamics.
+- **Major strengths** The conceptual introduction of fidelity and specificity as quantifiable metrics for pathway crosstalk is a valuable contribution. The hypergraph learning framework is a technically sound and appropriate choice for modeling higher-order regulatory interactions. The method is demonstrated on multiple diverse datasets, showing its potential generalizability. The authors are transparent about some limitations and the caveat regarding the evaluation metric favoring their approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that SigXTalk outperforms 12 representative methods in recovering regulatory pathways, with a 15% increase in AUROC and 20% increase in AUPRC over the second-best method.
+  - **Evidence pointer** Results section "Performance evaluation of SigXTalk", Figure 2b, 2c
+  - **Concern** The benchmarking methodology may be biased in favor of SigXTalk. The simulated data is generated from a 3-layer regulatory network (receptor-TF-target) that exactly matches the structure SigXTalk is designed to predict. The comparison methods are applied to predict pairwise interactions (receptor-TF and TF-target separately), and their scores are combined by multiplication. This is a reasonable approach, but the simulation framework may not adequately represent the complexity of real regulatory networks where crosstalk occurs through multiple mechanisms beyond shared TFs. Furthermore, the evaluation metric (identifying shared TFs) is explicitly acknowledged by the authors to favor their method. The claim of superiority is therefore not surprising and does not strongly demonstrate generalizable advantage.
+  - **Why it matters** The central claim of the method's utility rests on its demonstrated performance advantage. If this advantage is primarily an artifact of the evaluation design, the method's practical value over existing approaches is not established.
+  - **Resolution test** The authors should benchmark on simulated data with more complex and varied regulatory structures, including those not conforming to the receptor-TF-target paradigm. They should also evaluate performance on real datasets where some ground truth is known from experimental perturbation studies. Additionally, they should report performance using evaluation metrics that do not specifically favor higher-order relationship detection, such as overall accuracy of target gene expression prediction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that analysis of the COVID-19 lung dataset reveals a potential novel mechanism, specifically the PTPRM-STAT3-RAB2A axis contributing to fibrosis.
+  - **Evidence pointer** Results section "Contrasting regulatory patterns between healthy and diseased tissues", Figure 5h, 5i
+  - **Concern** The biological findings from the COVID-19 analysis are presented as novel mechanistic insights, but they are entirely computational predictions without any experimental validation. The claim that the PTPRM-STAT3-RAB2A axis "might contribute to excessive ECM deposition" is speculative. While the authors appropriately use cautious language, the presentation in the results section implies a level of biological discovery that is not supported by the evidence provided. The statistical significance of the differences between COVID and healthy samples is not clearly reported for the key comparisons.
+  - **Why it matters** For a methods paper, biological findings serve as validation of the method's utility. If the biological insights are not validated or are presented with insufficient statistical rigor, the case for the method's practical value is weakened.
+  - **Resolution test** The authors should either provide experimental validation of at least one key prediction, or clearly frame these as hypotheses requiring validation. They should also report effect sizes and confidence intervals for the key comparisons between COVID and healthy samples.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that SigXTalk can track the evolution of crosstalk pathways over time using the mouse lung injury dataset.
+  - **Evidence pointer** Results section "Tracking changes in crosstalk over time", Figure 6
+  - **Concern** The temporal analysis appears to treat the different time points as independent snapshots rather than modeling the temporal dynamics explicitly. The claim of "tracking evolution" implies a dynamic analysis, but the method as described uses static expression profiles at each time point. The comparison across time points is descriptive rather than a true dynamical analysis. The selection of time point combinations (Day 2+3, Day 10+11, Day 15) is not well justified, and the merging of Day 2 with Day 3 and Day 10 with Day 11 may obscure important differences between these adjacent time points.
+  - **Why it matters** The temporal application is presented as a key capability of the method. If the analysis is not truly dynamic, this claim is overstated and the utility for temporal studies is not fully demonstrated.
+  - **Resolution test** The authors should either develop a genuinely dynamic version of the method that models temporal trajectories, or temper the claims to describe the analysis as a comparison of crosstalk patterns across time points rather than tracking evolution.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that SigXTalk can refine cell-cell communication inference by identifying the specific cells that participate in communication, validated by spatial proximity in the mouse brain dataset.
+  - **Evidence pointer** Results section "Refining cell-cell communication inference by incorporating crosstalk", Figure 7
+  - **Concern** The spatial validation is indirect. The authors show that cells predicted to be "interacted" are closer to sender cells than "not-interacted" cells. However, this is a weak form of validation because spatial proximity does not necessarily imply functional communication, and the distance metric used is not clearly defined. The choice of the Ntrk3 receptor for this analysis is not well justified, and it is unclear how generalizable this approach is to other receptors and tissue types.
+  - **Why it matters** The claim of refining CCC inference is a significant contribution. If the validation is weak, the practical utility of this feature is not established.
+  - **Resolution test** The authors should validate the predicted interacting cells using an independent method, such as ligand-receptor co-expression analysis, or ideally, experimental validation such as spatial transcriptomics with higher resolution or in situ hybridization. They should also test the approach on multiple receptors and tissue types to demonstrate generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Figure 1
+  - **Evidence pointer** Figure 1a-c
+  - **Issue** The conceptual framework of crosstalk modules (Xmods) and the distinction between fidelity and specificity could be explained more clearly for readers unfamiliar with signaling pathway analysis. The figure is referenced but not visible in the text provided.
+  - **Required correction** Provide a more intuitive explanation of the Xmod concept, perhaps with a simple biological example in the main text. Ensure Figure 1 clearly illustrates the three types of Xmods and the difference between fidelity and specificity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, hyperparameter selection
+  - **Evidence pointer** Methods section "Training of the hypergraph neural network", Supplementary Table 2
+  - **Issue** The choice of the 10% threshold for positive sample selection and the 0.75 threshold for activated pathway selection are not well justified. The sensitivity of the results to these thresholds is not explored.
+  - **Required correction** Provide a sensitivity analysis showing how results change with different thresholds, or justify the chosen values based on biological or statistical reasoning.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, statistical testing
+  - **Evidence pointer** Results section "Contrasting regulatory patterns between healthy and diseased tissues", Figure 5d, 5e
+  - **Issue** The p-values reported for the comparisons between COVID and healthy samples are all reported as "< 2.2 × 10⁻¹⁶", which suggests the use of a test that may not be appropriate for the data distribution, or the reporting is overly simplistic. The effect sizes are not reported.
+  - **Required correction** Report the specific statistical test used, the test statistic, and the effect size for each comparison. Consider using multiple testing correction if many comparisons are made.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion, limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of limitations is somewhat brief and does not address the potential impact of the choice of prior knowledge databases (NicheNet, KEGG) on the results. The method's dependence on these databases is a significant limitation that should be discussed more thoroughly.
+  - **Required correction** Expand the limitations section to discuss the dependence on prior knowledge databases, the potential for database biases, and how the method might perform with incomplete or inaccurate prior knowledge.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, spatial analysis
+  - **Evidence pointer** Methods section "Receiver cell sub-clustering based on CCC-induced downstream regulatory events"
+  - **Issue** The weighted k-means clustering approach for identifying interacting cells is described briefly. The choice of k=2 (binary clustering) is not justified, and the weighting scheme is not fully explained.
+  - **Required correction** Provide more detail on the clustering algorithm, including how the weights are determined and how the number of clusters is selected. Discuss the potential limitations of binary clustering for this task.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking bias), R1-M2 (unvalidated biological claims), R1-M3 (overstated temporal analysis)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The conceptual framework of fidelity and specificity for pathway crosstalk is novel and addresses a real gap in the field. The application of hypergraph learning to this problem is also original. However, the individual components (hypergraph learning, random forest regression, CCC inference) are not new, and the novelty lies primarily in their integration.
+  - **Scientific importance** The problem of understanding crosstalk in cell-cell communication is important for many areas of biology. If the method is robust and validated, it could be a valuable tool. However, the current lack of experimental validation for the biological findings limits the demonstrated importance.
+  - **Interdisciplinary readership** The method is likely to be of interest to computational biologists, bioinformaticians, and potentially systems biologists. The biological applications (cancer, fibrosis) may attract interest from disease-focused researchers. However, the technical complexity may limit accessibility to a broader biological audience.
+  - **Technical soundness** The technical approach is generally sound, but the benchmarking methodology has potential biases, and the statistical rigor of some real-data analyses is unclear. The sensitivity of the method to key parameters is not fully explored.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written but assumes familiarity with both single-cell transcriptomics and network inference methods. The conceptual framework could be explained more intuitively for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is valuable and the method shows promise, but the benchmarking bias, lack of experimental validation, and overstated temporal claims need to be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim of superiority over 12 existing methods is not fully supported due to potential benchmarking bias.
+- The biological findings from the COVID-19 dataset (PTPRM-STAT3-RAB2A axis) are speculative and not experimentally validated.
+- The claim of "tracking evolution" of crosstalk over time is overstated given the static nature of the analysis.
+- The spatial validation of refined CCC inference is indirect and not fully convincing.
+- The generalizability of the method to different tissues, species, and experimental conditions is not demonstrated.
+- The impact of the choice of prior knowledge databases on the results is not assessed.

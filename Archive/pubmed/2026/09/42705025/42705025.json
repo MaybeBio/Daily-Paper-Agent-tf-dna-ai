@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "42705025",
+    "doi": "10.1016/j.ecoenv.2026.120754",
+    "title": "Exploring the targets and mechanisms of 6PPD-Q-induced cardiotoxicity: A network toxicology and molecular docking study."
+  },
+  "content": {
+    "abstract": "6PPD-quinone (6PPD-Q), a transformation product of the tire antioxidant 6PPD, is an emerging traffic-related contaminant with well-documented ecotoxicity in aquatic species. Its recent detection in airborne particulate matter, road dust, and human urine has raised concerns about possible human health effects. However, its cardiotoxicity in mammalian cells remains poorly understood. Here, we integrated network toxicology, molecular modeling, and in vitro experiments to investigate the effects of 6PPD-Q on the human AC16 cardiomyocyte cell line and the underlying mechanisms. Network toxicology identified 144 putative targets associated with 6PPD-Q-induced cardiotoxicity, with TP53 ranked as the top hub gene, followed by TRAF6, MAPK1, SQSTM1, TNF, and IL6. Enrichment analysis highlighted oxidative stress, inflammation, apoptosis, and autophagy regulation as key biological processes. Molecular docking suggested potential interactions between 6PPD-Q and these hub proteins, while molecular dynamics simulation supported the dynamic stability of the predicted 6PPD-Q-p53 complex. Experimentally, 6PPD-Q induced marked ROS accumulation in AC16 cells, with an IC50 of 13.92 muM after 24 h exposure. It also promoted p53 phosphorylation at Ser15 without increasing total p53 protein or TP53 mRNA expression, indicating stress-associated post-translational activation of p53. This response was accompanied by TRAF6 upregulation, enhanced MAPK1 phosphorylation, and increased IL6 and TNF expression and secretion, supporting the activation of inflammatory stress signaling. Functionally, 6PPD-Q triggered mitochondrial apoptosis, as indicated by mitochondrial membrane potential loss, an increased Bax/Bcl-2 ratio, and activation of cleaved caspase-9 and cleaved caspase-3. In addition, 6PPD-Q disrupted autophagy homeostasis, as evidenced by LC3-II accumulation, p62 depletion, reduced SQSTM1 mRNA expression, increased yellow LC3 puncta, and decreased red-only puncta, suggesting autophagosome accumulation with impaired late-stage autophagic flux. Pharmacological inhibition of p53 by Pifithrin-alpha (PFTalpha) attenuated 6PPD-Q-induced inflammatory responses, MAPK1 phosphorylation, mitochondrial apoptosis, and SQSTM1 transcriptional suppression, supporting the functional involvement of p53-related stress signaling. Collectively, these findings show that 6PPD-Q induces cardiomyocyte injury through a p53-associated stress network linking oxidative stress, inflammatory signaling, mitochondrial apoptosis, and autophagy dysregulation, providing mechanistic insight into its potential cardiovascular relevance.",
+    "keywords": [
+      "6PPD-Q",
+      "Cardiotoxicity",
+      "Molecular docking",
+      "Molecular dynamics",
+      "Network toxicology",
+      "P53"
+    ],
+    "mesh_terms": [
+      "Molecular Docking Simulation",
+      "Humans",
+      "*Cardiotoxicity/etiology",
+      "Cell Line",
+      "*Myocytes, Cardiac/drug effects",
+      "Apoptosis/drug effects",
+      "Oxidative Stress/drug effects",
+      "Reactive Oxygen Species/metabolism",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Autophagy/drug effects",
+      "Phenylenediamines",
+      "Benzoquinones"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Aimei",
+        "Huang, Kailin",
+        "Li, Mengfan",
+        "Lu, Yingdong",
+        "Cha, Suna",
+        "Zhang, Yani",
+        "Hu, Xiaomeng",
+        "Ji, Xing",
+        "Xue, Xinyu",
+        "Wu, Huanlin",
+        "Li, Hongzheng",
+        "Li, Wei"
+      ],
+      "short_names": [
+        "Lu A",
+        "Huang K",
+        "Li M",
+        "Lu Y",
+        "Cha S",
+        "Zhang Y",
+        "Hu X",
+        "Ji X",
+        "Xue X",
+        "Wu H",
+        "Li H",
+        "Li W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China.",
+        "Institute of Integrated Traditional Chinese and Western Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou 350122, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing 100053, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China.",
+        "Institute of Integrated Traditional Chinese and Western Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou 350122, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China. Electronic address: wuhuanlinboshi@aliyun.com.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing 100053, China; Faculty of Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada. Electronic address: holi@bccrc.ca.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China. Electronic address: 43644778@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Aimei",
+        "short_name": "Lu A",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Kailin",
+        "short_name": "Huang K",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mengfan",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrated Traditional Chinese and Western Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yingdong",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing 100053, China."
+        ]
+      },
+      {
+        "full_name": "Cha, Suna",
+        "short_name": "Cha S",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yani",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrated Traditional Chinese and Western Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiaomeng",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Xing",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Xinyu",
+        "short_name": "Xue X",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Huanlin",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China. Electronic address: wuhuanlinboshi@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Li, Hongzheng",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing 100053, China; Faculty of Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada. Electronic address: holi@bccrc.ca."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100007, China. Electronic address: 43644778@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Sep 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/07 23:34",
+    "fetched_at": "2026-10-02 05:17:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42705025",
+      "42425181",
+      "42589369",
+      "41616688",
+      "42632446",
+      "39983890",
+      "42741553",
+      "42456581",
+      "42710199",
+      "42556223",
+      "40505274",
+      "41690092",
+      "41554427",
+      "42216551",
+      "41330299",
+      "42409347",
+      "40796324",
+      "27084042",
+      "42521008",
+      "42697461",
+      "42285362",
+      "40972774",
+      "40992637",
+      "41796632",
+      "42140987",
+      "42477744",
+      "42347402",
+      "33395603",
+      "30859901",
+      "40694865",
+      "42172986",
+      "41876239",
+      "40797463",
+      "42521003",
+      "24722831",
+      "28369910",
+      "23027656",
+      "42013545",
+      "40963040",
+      "28678856",
+      "24411679",
+      "37549513",
+      "28374157",
+      "41151507",
+      "26739061",
+      "40118340",
+      "34111614",
+      "34774660",
+      "32086724",
+      "42710200",
+      "42624235",
+      "26775629",
+      "40946514",
+      "30009776",
+      "42297200",
+      "41876703",
+      "31116582",
+      "42542095",
+      "27785026",
+      "42594744",
+      "40615101",
+      "38643584",
+      "18775851",
+      "39304614",
+      "42594993",
+      "40924286",
+      "34713381",
+      "33321290",
+      "32278738",
+      "41995262",
+      "31454650",
+      "41812974",
+      "42289684",
+      "42079302",
+      "42330910",
+      "42502763",
+      "42531932",
+      "42302946",
+      "41610671",
+      "39394703",
+      "41492010",
+      "40780477",
+      "42103827",
+      "41840525",
+      "41930814",
+      "38959606",
+      "39248137",
+      "25551567",
+      "27620489",
+      "40593780",
+      "39094450",
+      "41966021",
+      "40543694",
+      "42726179",
+      "22283740",
+      "42521001",
+      "40139580",
+      "20716917",
+      "29484840",
+      "41764790"
+    ],
+    "review": [
+      "42705025",
+      "42726179"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)01084-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-870",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

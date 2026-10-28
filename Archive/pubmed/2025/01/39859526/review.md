@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions) as provided by the user. No supplementary files, figures, or tables were accessible beyond what is described in the text.
+- **Assessment boundary** This review evaluates the scientific claims, methodological soundness, and evidentiary support based solely on the manuscript text supplied. No external data, raw measurements, or supplementary materials were reviewed.
+- **Shared manuscript claim summary** The authors report identification of seven QTL for indole-3-carbinol (I3C) content in seedlings of a Brassica napus doubled haploid population, with a major QTL on chromosome A07 explaining up to 11.78% of phenotypic variation. They further characterize three IGMT genes within QTL confidence intervals, construct a transcription factor regulatory network, and use molecular docking to support functional roles of IGMTs in I3C biosynthesis.
+- **Visible evidence base** Results sections 2.1 through 2.5, including QTL detection, candidate gene analysis, IGMT family characterization, expression analysis, and molecular docking. Methods sections 4.1 through 4.8. Tables and figures are referenced but not directly viewable.
+- **Missing materials affecting confidence** Supplementary figures (Figure S1, S2), all tables (Tables 1, 2, 3, S1–S8), all main figures (Figures 1–5), raw phenotypic data, statistical outputs from QTL mapping, and the full co-expression network data were not provided. These are essential for verifying the core claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and potentially interesting question regarding the genetic basis of I3C content in rapeseed seedlings, a trait with plausible health implications. The experimental design using a DH population for QTL mapping is appropriate. However, the manuscript as presented has several significant weaknesses. The QTL analysis appears underpowered given the population size and the modest phenotypic variance explained. The candidate gene identification relies heavily on co-expression data from a public database without experimental validation of regulatory relationships. The molecular docking results, while suggestive, do not constitute functional validation. The connection between IGMT expression, I3C content, and the identified QTL is correlative rather than causal. Several claims in the abstract and discussion overstate the strength of the evidence. The manuscript would benefit from additional experimental validation and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers in Brassica genetics and breeding, particularly those focused on glucosinolate metabolism and health-promoting compounds in cruciferous crops. The identification of QTL and candidate genes for I3C content could inform marker-assisted selection for improved nutritional quality in rapeseed. The study may also be of interest to those studying the genetic regulation of secondary metabolites in plants more broadly.
+- **Major strengths** The use of a well-characterized DH population with a high-density genetic map is a solid approach for QTL mapping. The study addresses a relatively under-explored trait (I3C content in seedlings) compared to the more commonly studied seed glucosinolate content. The integration of multiple bioinformatic approaches, including co-expression network analysis and molecular docking, provides a multi-faceted perspective on candidate gene function. The identification of IGMT genes within QTL intervals is biologically plausible given their known role in indolic glucosinolate metabolism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness of QTL detection
+  - **Claim pointer** The authors claim identification of seven QTL for I3C content, with qI3C-22-A07-2 having the highest phenotypic contribution of 11.78%.
+  - **Evidence pointer** Section 2.2, Table 1, Figure 2 (not directly viewable)
+  - **Concern** The manuscript does not report the population size of the DH mapping population, the LOD significance thresholds for individual QTL, confidence intervals in centimorgans, or the total phenotypic variance explained by all QTL combined. Without this information, it is impossible to assess whether the QTL are statistically robust or whether the 11.78% figure represents a meaningful genetic effect. The phenotypic variance explained by individual QTL is modest, and the manuscript does not discuss whether the population has sufficient power to detect QTL of this effect size.
+  - **Why it matters** QTL mapping is the foundational claim of the paper. If the QTL are not robustly detected, the downstream candidate gene analysis loses its anchor. The lack of reporting on population size and statistical thresholds prevents readers from evaluating the reliability of the core findings.
+  - **Resolution test** The authors must report the DH population size, LOD thresholds used, confidence intervals for each QTL, and the combined phenotypic variance explained. Ideally, they should also provide permutation test results and, if possible, validation in an independent population or environment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation of candidate genes
+  - **Claim pointer** The authors state that BnaA07.ERF019 and BnaA07.NAC92 are "possible regulators" of GSL biosynthesis and that three IGMT genes within QTL CIs "play a role in I3C synthesis regulation."
+  - **Evidence pointer** Sections 2.3, 2.4, 2.5; Figures 3, 4, 5 (not directly viewable)
+  - **Concern** The evidence for the regulatory roles of the identified TFs and IGMTs is entirely correlative and computational. The co-expression analysis identifies potential relationships but does not demonstrate that BnaA07.ERF019 or BnaA07.NAC92 actually regulate the predicted target genes. The expression analysis shows correlation between IGMT expression and I3C content in a small number of samples, but this does not establish causation. The molecular docking demonstrates in silico binding potential, which is not equivalent to enzymatic activity in planta.
+  - **Why it matters** The title and abstract promise "candidate genes characterization," which implies functional insights. Without experimental validation, such as overexpression or knockout studies, gene expression analysis under different conditions, or enzyme activity assays, the characterization remains speculative. The claims as stated go beyond what the evidence supports.
+  - **Resolution test** The authors should either provide experimental validation of the regulatory relationships (e.g., transient expression assays, mutant analysis, or protein-DNA binding assays) or substantially temper the language to clearly indicate that these are hypotheses requiring further testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Phenotypic measurement and trait definition
+  - **Claim pointer** The authors measured I3C content in seedlings at 9 weeks post-sowing, with values ranging from 1.538 to 48.769 μg/g in 2021 and 7.954 to 31.181 μg/g in 2022.
+  - **Evidence pointer** Section 2.1, Figure 1, Table S1 (not directly viewable)
+  - **Concern** The manuscript does not describe the number of biological replicates per line, the number of lines phenotyped in each year, or the heritability of the trait. The range of values differs substantially between years, and the manuscript does not discuss the environmental influence on I3C content or the repeatability of measurements. The selection of 9 weeks post-sowing as the sampling time is justified by preliminary data, but the manuscript does not report how many lines were used for the time-course experiment or whether the chosen time point is optimal for all genotypes.
+  - **Why it matters** Phenotypic data quality is the foundation of QTL mapping. If the trait is measured with high error or is strongly influenced by environment, the QTL results may not be reproducible. The lack of heritability estimates and replicate information makes it difficult to assess the reliability of the phenotypic data.
+  - **Resolution test** The authors should report the number of replicates, heritability estimates, and the correlation between years for lines measured in both environments. They should also discuss the environmental sensitivity of I3C content and how this affects the interpretation of the QTL results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Candidate gene prioritization within QTL intervals
+  - **Claim pointer** The authors identified 287 genes within QTL confidence intervals and focused on IGMT genes and two TFs as candidates.
+  - **Evidence pointer** Section 2.3, Table S3 (not directly viewable)
+  - **Concern** The manuscript does not explain the criteria used to prioritize the 287 genes down to the specific candidates discussed. The QTL confidence intervals appear to be large (based on the centimorgan ranges mentioned for consensus QTL), and the number of genes within them is substantial. The authors do not provide a systematic filtering strategy, such as expression QTL analysis, sequence polymorphism analysis, or functional annotation prioritization, to narrow down the candidate list.
+  - **Why it matters** Without a clear prioritization strategy, the selection of IGMTs and the two TFs appears arbitrary. This weakens the claim that these are the most likely causal genes underlying the QTL. A more systematic approach would strengthen the candidate gene identification.
+  - **Resolution test** The authors should describe their candidate gene prioritization criteria in detail, including any filtering steps based on gene function, expression, or sequence variation. They should also discuss why other genes within the intervals were excluded.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of QTL nomenclature
+  - **Affected element** Section 2.2, Table 1
+  - **Evidence pointer** Section 2.2
+  - **Issue** The QTL naming convention is inconsistent. The text states "qI3C-21-C04-1 had the highest phenotypic value of 6.65%" but does not specify whether this is the phenotypic variance explained or another metric. The naming of consensus QTL (cqI3C-A07-2, cqI3C-C04-3) does not clearly map to the original QTL from which they were derived.
+  - **Required correction** Clarify the metric being reported (e.g., R², LOD score) and provide a clear table mapping individual QTL to consensus QTL with their respective confidence intervals and significance thresholds.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting of expression data
+  - **Affected element** Section 2.4, Figure 4C
+  - **Evidence pointer** Section 2.4
+  - **Issue** The RT-qPCR results are described qualitatively ("higher expression levels in N53-2 and QT15 compared to Ken-C8"), but no statistical analysis is reported. It is unclear whether the differences are significant and how many biological replicates were used.
+  - **Required correction** Provide statistical analysis of the RT-qPCR data, including error bars, significance tests, and the number of biological and technical replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Molecular docking methodology
+  - **Affected element** Section 2.5, Table 3
+  - **Evidence pointer** Section 2.5
+  - **Issue** The molecular docking methodology is described only briefly in the methods section. The manuscript does not specify the docking software parameters, the preparation of the protein structures, the validation of the docking protocol, or how the binding site was defined. The comparison of binding energies across different proteins may not be meaningful if the docking protocols were not standardized.
+  - **Required correction** Provide a more detailed description of the docking methodology, including software versions, scoring functions, and any validation steps. Discuss the limitations of comparing binding energies across different protein-ligand complexes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of independent genetic control
+  - **Affected element** Section 2.2, Discussion
+  - **Evidence pointer** Section 2.2
+  - **Issue** The claim that I3C content is "regulated by partially independent genetic mechanisms" based on the identification of new QTL not co-located with seed GSL QTL is somewhat overstated. The absence of co-localization does not necessarily imply independent genetic control, as the traits may be measured in different tissues and developmental stages.
+  - **Required correction** Soften this claim and discuss alternative explanations, such as tissue-specific gene expression or developmental regulation, that could explain the lack of QTL co-localization.
+- **Technical failings that need to be addressed before the case is established** The lack of reporting on population size, statistical thresholds, and heritability for the QTL analysis (R1-M1) is a fundamental issue that must be resolved. The absence of experimental validation for the regulatory roles of candidate genes (R1-M2) is also critical, as the current evidence is entirely computational. The manuscript should either provide such validation or substantially revise the claims to reflect the hypothesis-generating nature of the work.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of QTL mapping to I3C content in seedlings is relatively novel, but the approach is standard and the findings do not reveal fundamentally new biological mechanisms.
+  - Scientific importance: Moderate. The trait is of interest for nutritional breeding, but the modest effect sizes and lack of functional validation limit the broader significance.
+  - Interdisciplinary readership: Limited. The manuscript is primarily of interest to Brassica geneticists and breeders. The health-related framing may attract broader attention, but the technical content is specialized.
+  - Technical soundness: The QTL mapping approach is sound in principle, but the incomplete reporting of statistical details and the lack of validation experiments undermine confidence in the conclusions.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., the co-expression network description) assume familiarity with bioinformatics approaches.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and has a reasonable experimental design, but the incomplete reporting of QTL statistics, the lack of functional validation for candidate genes, and the overinterpretation of correlative data prevent the conclusions from being supported. The authors should be encouraged to resubmit after addressing the major concerns, particularly by providing complete QTL statistics and experimental validation of candidate gene function.
+
+## Risk / unsupported claims
+- The claim that BnaA07.ERF019 and BnaA07.NAC92 are "possible regulators" of GSL biosynthesis is unsupported by direct experimental evidence; the co-expression analysis is suggestive but not confirmatory.
+- The claim that IGMTs within QTL confidence intervals "play a role in I3C synthesis regulation" is based on expression correlation and in silico docking, neither of which demonstrates functional relevance in planta.
+- The statement that "higher binding ability and expression level of IGMTs within the I3C QTL CIs may ultimately make a significant contribution to the I3C phenotype" is speculative and not directly tested.
+- The assertion that I3C content is regulated by "partially independent genetic mechanisms" is not fully supported, as the lack of QTL co-localization could be due to tissue-specific or developmental effects rather than independent genetic control.
+- The comparison of I3C content between years (1.538–48.769 μg/g in 2021 vs. 7.954–31.181 μg/g in 2022) suggests substantial environmental influence, but the manuscript does not discuss the implications of this variability for the stability of the QTL effects.

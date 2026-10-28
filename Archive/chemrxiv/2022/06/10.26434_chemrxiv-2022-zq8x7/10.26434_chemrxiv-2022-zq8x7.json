@@ -1,0 +1,238 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2022-zq8x7",
+  "title": "A quantum chemical convolutional neural network model for predicting thermodynamics and kinetics of DNA molecules from sequences",
+  "doi": "10.26434/chemrxiv-2022-zq8x7",
+  "abstract": "Accurate predicting thermodynamics and kinetics of DNA molecules are important for designing oligonucleotides in biotechnological applications, but current models in use are not accurate enough. Here, we propose a model combining quantum chemical calculations and convolutional neural networks (QCM) to predict the free energies of DNA duplexes and rate constants of DNA strand displacement reactions. The QCM achieves better accuracy than previous models on two limited datasets by active learning, the accuracy of predicting free energies of duplexes is 23% better than the nearest neighbor model, and the accuracy of predicting rate constants of strand displacement reactions is 60% better than the worm-like chain model.",
+  "authors": [
+    "Likun Wang",
+    "Hao Pei",
+    "Tong Zhu"
+  ],
+  "published_date": "2022-06-21",
+  "updated_date": "2022-06-22T02:43:56Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2022-zq8x7",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-zq8x7",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T18:55:44Z",
+        "timestamp": 1785437744569,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            21
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                21
+              ]
+            ],
+            "date-time": "2022-06-21T00:00:00Z",
+            "timestamp": 1655769600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Accurate predicting thermodynamics and kinetics of DNA molecules are important for designing oligonucleotides in biotechnological applications, but current models in use are not accurate enough. Here, we propose a model combining quantum chemical calculations and convolutional neural networks (QCM) to predict the free energies of DNA duplexes and rate constants of DNA strand displacement reactions. The QCM achieves better accuracy than previous models on two limited datasets by active learning, the accuracy of predicting free energies of duplexes is 23% better than the nearest neighbor model, and the accuracy of predicting rate constants of strand displacement reactions is 60% better than the worm-like chain model.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2022-zq8x7",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            22
+          ]
+        ],
+        "date-time": "2022-06-22T02:43:56Z",
+        "timestamp": 1655865836000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A quantum chemical convolutional neural network model for predicting thermodynamics and kinetics of DNA molecules from sequences"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Likun",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02n96ep67",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "East China Normal University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hao",
+          "family": "Pei",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02n96ep67",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "East China Normal University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7472-3736",
+          "authenticated-orcid": false,
+          "given": "Tong",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02n96ep67",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "East China Normal University",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02vpsdb40",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "New York University Shanghai",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-zq8x7",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:54:27Z",
+        "timestamp": 1778752467000
+      },
+      "score": 112.93099,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2022-zq8x7"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            21
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2022-zq8x7",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

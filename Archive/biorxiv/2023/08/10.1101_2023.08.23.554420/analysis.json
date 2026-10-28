@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.23.554420",
+  "title": "multiDGD: A versatile deep generative model for multi-omics data",
+  "authors": "Schuster V; Dann E; Krogh A; Teichmann SA",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-23",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出多组学深度生成模型multiDGD，联合建模基因表达与染色质可及性，虽涉及调控区域关联但非TF-DNA结合互作建模，方法可迁移性有限。",
+  "abstract": "Recent technological advancements in single-cell genomics have enabled joint profiling of gene expression and alternative modalities at unprecedented scale. Consequently, the complexity of multi-omics data sets is increasing massively. Existing models for multi-modal data are typically limited in functionality or scalability, making data integration and downstream analysis cumbersome. We present multiDGD, a scalable deep generative model providing a probabilistic framework to learn shared representations of transcriptome and chromatin accessibility. It shows outstanding performance on data reconstruction without feature selection. We demonstrate on several data sets from human and mouse that multiDGD learns well-clustered joint representations. We further find that probabilistic modelling of sample covatiates enables post-hoc data integration without the need for fine-tuning. Additionally, we show that multiDGD can detect statistical associations between genes and regulatory regions conditioned on the learned representations. multiDGD is available as an scverse-compatible package ( https://github.com/Center-for-Health-Data-Science/multiDGD ).",
+  "abstract_zh": "单细胞基因组学的最新技术进步使得基因表达与替代模态的联合分析得以在空前规模上进行。因此，多组学数据集的复杂性正在大幅增加。现有的多模态数据模型通常在功能或可扩展性方面受限，使得数据整合和下游分析变得繁琐。我们提出了multiDGD，一种可扩展的深度生成模型，提供概率框架来学习转录组和染色质可及性的共享表征。它在无需特征选择的情况下展现出卓越的数据重建性能。我们在来自人类和小鼠的多个数据集上证明，multiDGD能够学习到聚类良好的联合表征。我们进一步发现，对样本协变量的概率建模能够实现无需微调的事后数据整合。此外，我们展示了multiDGD能够基于学习到的表征检测基因与调控区域之间的统计关联。multiDGD作为scverse兼容包提供（https://github.com/Center-for-Health-Data-Science/multiDGD）。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554420",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554420",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.23.554420/index.html"
+}

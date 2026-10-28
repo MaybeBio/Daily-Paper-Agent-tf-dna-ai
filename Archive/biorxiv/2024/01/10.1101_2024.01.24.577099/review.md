@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, supplementary statements, author contributions, funding, conflict of interest, acknowledgements)
+- **Assessment boundary** Scientific content, methodological rigor, claims versus evidence, and alignment with Nature-style criteria. No assessment of formatting, grammar, or editorial policy.
+- **Shared manuscript claim summary** The authors present a large-scale cancer-specific protein-DNA interaction network generated using enhanced yeast one-hybrid (eY1H) and paired yeast one-hybrid (pY1H) assays. They report 1,350 interactions between 265 transcription factors and promoters of 108 cancer-related genes, a clone resource of 700 promoters, analysis of TF family representation, prognostic bias of TF binding, cooperative and antagonistic TF-pair interactions, and a functional study of ESR1 intrinsically disordered regions (IDRs) on DNA binding and transcriptional activity.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (partial), Results (partial, with apparent truncation in section 2), Discussion, Data availability statement, Supplementary Data statement, Author contributions, Funding, Conflict of Interest, Acknowledgements. Supplementary tables and figures are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary Tables 1-8, Supplementary Figures 1A-C, full Results sections (the text appears truncated mid-sentence in the section on novel interactions), complete Methods details for some assays, raw data files, and code repositories. These are essential for verifying the claims.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial experimental resource and a large interaction dataset that could be of significant value to the cancer gene regulation community. The use of eY1H and pY1H assays to map TF-promoter interactions at scale is technically sound and the integration with ChIP-seq and literature evidence is a strength. However, the manuscript as presented has several critical gaps. The Results section is incomplete, with at least one section truncated mid-sentence, and the supplementary materials, which contain the core data tables, are not available for review. Several claims, particularly regarding the prognostic bias analysis, the novelty of interactions, and the ESR1 IDR functional studies, cannot be fully evaluated without these materials. The statistical framework for the prognostic score and the criteria for defining "preferential" binding are not fully described. The ESR1 IDR study, while interesting, is presented with limited mechanistic depth and the trade-off interpretation requires more direct evidence. Overall, the work is potentially important but the current manuscript does not provide sufficient evidence to fully establish all claims.
+- **Who would be interested in the results, and why** Cancer biologists studying transcriptional regulation, researchers interested in TF networks and gene regulatory logic, computational biologists developing network inference methods, and clinicians interested in prognostic biomarkers or TF-targeted therapies. The clone resource and interaction dataset would be a practical resource for these groups.
+- **Major strengths** 1) Large-scale systematic mapping of TF-promoter interactions in a cancer context, filling a gap left by ChIP-seq limitations. 2) Integration of multiple evidence types (eY1H, pY1H, ChIP-seq, literature) to support interaction quality. 3) The pY1H approach to detect cooperative and antagonistic TF-pair interactions adds a dimension rarely captured in high-throughput studies. 4) The ESR1 IDR analysis, while preliminary, addresses an understudied aspect of TF function. 5) The clone resource of 700 promoters is a valuable community asset.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims a "comprehensive cancer-associated TF-DNA network" with 1,350 interactions and 265 TFs, and states that "631 novel interactions" were found.
+  - **Evidence pointer** Results section "A comprehensive cancer-associated TF-DNA network", Supplementary Table 2, location not provided
+  - **Concern** The core dataset is presented in Supplementary Table 2, which is not provided. The Results section is also truncated mid-sentence, preventing a full understanding of the analysis. Without the actual interaction table, the reader cannot verify the number of interactions, the identity of TFs, the overlap with ChIP-seq and literature, or the criteria used to call an interaction. The claim of "comprehensive" is also difficult to assess without knowing the coverage of the TF array and promoter set relative to the full cancer gene regulatory landscape.
+  - **Why it matters** The central claim of the paper is the network itself. If the data table is not available or the analysis is incomplete, the primary contribution cannot be evaluated. The "comprehensiveness" claim requires a clear definition of the search space and coverage statistics.
+  - **Resolution test** Provide Supplementary Table 2 in full. Complete the truncated Results section. Provide a clear description of the TF array coverage (how many TFs, which families, what proportion of the human TF repertoire) and the promoter set (how selected, what proportion of cancer-related genes). Provide statistics on the overlap with ChIP-seq and literature, including the number of TFs with no prior evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript states that "TFs show varying levels of bias for binding promoters of good or poor prognosis genes" and that "moderately connected TFs tend to have a stronger bias" compared to highly connected TFs. A "prognostic score" is mentioned.
+  - **Evidence pointer** Results section "TFs show varying levels of bias for binding promoters of good or poor prognosis genes", Supplementary Tables 4, 5, 8, location not provided
+  - **Concern** The methodology for calculating the "prognostic score" is not described in the visible text. The survival analysis section in Methods mentions Cox proportional-hazards models and ANOVA to regress out confounders, but the exact definition of the score, the threshold for "bias," and the statistical test used to compare bias between connectivity groups are not provided. The claim that moderately connected TFs have a "stronger bias" requires a formal statistical comparison, not just a descriptive observation.
+  - **Why it matters** The conclusion that TF hubs are not biased toward good or poor prognosis genes, and that low-connectivity TFs are, has implications for therapeutic targeting. If the statistical framework is not robust, this conclusion is unsupported.
+  - **Resolution test** Provide a clear definition of the prognostic score, including how hazard ratios from multiple cancer types are combined. Describe the statistical test used to compare bias between connectivity groups. Provide effect sizes and confidence intervals. Show the distribution of scores for all TFs, not just selected examples.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The manuscript claims that "half of the tested oncogenes being potentially repressed by influencing specific activator or bifunctional TFs" and that this identifies "potential for oncogene targeted therapeutics."
+  - **Evidence pointer** Results section "Identification of TFs as potential targets to reduced oncogene expression", Figure 3, location not provided
+  - **Concern** The criteria for nominating TFs as therapeutic targets are stated (activator or bifunctional, PS>0.33), but the biological rationale for these thresholds is not justified. The claim that targeting these TFs would "reduce oncogene expression" is speculative, as no functional validation is presented. The figure is not available for review, so the specific TFs and oncogenes cannot be assessed.
+  - **Why it matters** This is a translational claim with potential clinical implications. Without functional validation or a clear rationale for the thresholds, the claim is premature and could be misleading.
+  - **Resolution test** Provide Figure 3 and the full list of nominated TFs and oncogenes. Justify the PS threshold. Discuss the potential off-target effects of targeting these TFs, given that they may also regulate other genes. If possible, include preliminary functional data (e.g., knockdown or overexpression experiments) to support the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic depth
+  - **Claim pointer** The manuscript claims that ESR1 IDRs "can have complex trade-offs in TF function," specifically that the N-terminal IDR suppresses DNA binding but contributes to transcriptional activation, and the hinge region enhances DNA binding but reduces transcriptional activation.
+  - **Evidence pointer** Results section "Intrinsically disordered regions affect ESR1 binding to DNA" and "ESR1 IDRs affect transcriptional activity", Figure 5, Supplementary Tables 6 and 7, location not provided
+  - **Concern** The observation that truncations and the hinge replacement affect DNA binding and transcriptional activity is interesting, but the mechanistic interpretation is limited. The authors do not explore how the IDRs exert these effects. For example, does the N-terminal IDR affect dimerization, DNA binding kinetics, or interactions with cofactors? The trade-off interpretation is inferred from the opposite effects on binding and activity, but alternative explanations (e.g., differential effects on protein stability, nuclear localization) are not ruled out.
+  - **Why it matters** The claim of a "trade-off" is a specific mechanistic interpretation. Without additional experiments or discussion of alternative mechanisms, the conclusion is not fully supported.
+  - **Resolution test** Provide additional data or discussion on the mechanism. For example, test whether the truncations affect ESR1 protein levels, dimerization, or nuclear localization. Discuss how the IDRs might influence interactions with coactivators or corepressors. If possible, perform experiments with point mutations that disrupt specific IDR-mediated interactions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript implies that the network and findings are broadly relevant to cancer, but the analysis is based on a selected set of 136 genes and 1,086 TFs.
+  - **Evidence pointer** Results section "Generation of a comprehensive clone resource of cancer gene promoters" and "A comprehensive cancer-associated TF-DNA network", location not provided
+  - **Concern** The selection of the 136 prioritized genes and the 1,086 TFs is not fully justified. The authors state that the prioritized genes were selected based on cancer association and H3K27ac marks, but the specific criteria and the potential for selection bias are not discussed. The TF array, while large, may not represent all TFs relevant to cancer. The generalizability of the network to other cancer types or to non-promoter regulatory elements is not addressed.
+  - **Why it matters** The claim of a "cancer-specific" network implies that the findings are relevant across cancer types. If the gene and TF selection is biased, the network may not be representative.
+  - **Resolution test** Provide a detailed description of the gene and TF selection criteria. Discuss the potential limitations of the selection. Compare the network properties to those of other published networks, if possible. Discuss the relevance of the findings to non-promoter regulatory elements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "eY1H screening"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The description of the eY1H screening is brief and lacks details on the number of replicates, the criteria for scoring positive interactions, and the quality control measures.
+  - **Required correction** Provide more detail on the experimental design, including the number of biological and technical replicates, the scoring criteria, and the controls used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "TF family representation in the cancer-associated TF-DNA network"
+  - **Evidence pointer** Results, location not provided
+  - **Issue** The statement that "we found an over-representation of interactions involving the EBF1, grainyhead, NHR, and AP-2 families" is not accompanied by a statistical test or a clear definition of "over-representation."
+  - **Required correction** Provide the statistical test used to determine over-representation and the expected vs. observed frequencies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of the therapeutic implications is speculative and does not fully address the challenges of targeting TFs, such as specificity and toxicity.
+  - **Required correction** Provide a more balanced discussion of the challenges and potential strategies for targeting TFs in cancer.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability, location not provided
+  - **Issue** The statement "All data generated in this study are available within the manuscript and its supplementary information" is insufficient. The supplementary tables are not provided, and the code is only available via a Zenodo link.
+  - **Required correction** Provide the supplementary tables and ensure the code is publicly accessible and documented.
+- **Technical failings that need to be addressed before the case is established** 1) Incomplete Results section, with at least one section truncated mid-sentence. 2) Missing supplementary tables and figures, which contain the core data. 3) Lack of a clear statistical framework for the prognostic score and the comparison of bias between connectivity groups. 4) Insufficient detail on the criteria for calling eY1H and pY1H interactions. 5) The mechanistic interpretation of the ESR1 IDR results is not fully supported by the presented data.
+- **Assessment against Nature-style criteria** Originality: The work is original in its scale and integration of eY1H and pY1H assays for cancer-specific promoter analysis. The pY1H approach for detecting cooperative and antagonistic interactions is a notable methodological contribution. Scientific importance: The dataset and clone resource have the potential to be widely used by the cancer biology community. The findings on TF hubs and prognostic bias, if robust, could inform therapeutic strategies. However, the importance is currently tempered by the incomplete presentation and lack of validation. Interdisciplinary readership: The work will appeal to molecular biologists, cancer researchers, and computational biologists. The use of yeast-based assays and the focus on TF networks are accessible to these groups. Technical soundness: The core experimental methods (eY1H, pY1H) are established and well-described. However, the statistical analysis of the prognostic data and the interpretation of the ESR1 IDR results are not fully rigorous. Readability for nonspecialists: The manuscript is generally well-written and the concepts are explained clearly. However, the truncated Results section and the reliance on supplementary data make it difficult for a nonspecialist to follow the full argument.
+- **Recommendation posture** Supportive if technical concerns are resolved. The work has the potential to be a valuable contribution, but the current manuscript does not provide sufficient evidence to fully establish all claims. The authors must provide the complete dataset, complete the Results section, and strengthen the statistical and mechanistic analyses.
+
+## Risk / unsupported claims
+- The claim of a "comprehensive" cancer-associated TF-DNA network is unsupported without a clear definition of the search space and coverage statistics.
+- The claim that "half of the tested oncogenes being potentially repressed by influencing specific activator or bifunctional TFs" is unsupported without functional validation.
+- The claim that "TF hubs do not have a higher mutation rate in cancer compared to moderately connected TFs" is presented without statistical support.
+- The claim that ESR1 IDRs have "complex trade-offs in TF function" is an interpretation that is not fully supported by the data.
+- The claim that "newly-associated TFs have a similar mutation rate in cancer to TFs known to regulate cancer genes" is presented without the underlying data or statistical test.
+- The overall network properties and their comparison to other networks are not described, making it difficult to assess the claim of "large-scale" and "cancer-specific."

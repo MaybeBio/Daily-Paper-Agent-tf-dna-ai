@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.06.736502",
+  "title": "EpiBinder: A Multimodal Framework for Cell-Type-Specific Prediction and Interpretation of Transcription Factor Binding",
+  "authors": "Ruben Solozabal; Albert Baichorov; Irina Miodownik; Tamir Avioz; Le Song; Marcos Matabuena; Martin Takáč; Ariel Afek",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-08",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 8,
+  "one_liner_zh": "EpiBinder 是一个多模态深度学习框架，联合DNA序列与表观遗传信息预测细胞类型特异的TF结合，并提供碱基级归因图解析结合机制，高度契合TF-DNA互作建模课题。",
+  "abstract": "Transcription factor (TF) occupancy in vivo depends not only on the underlying DNA sequence but also on the local epigenetic environment, which varies across cell types and strongly influences whether sequence-encoded binding potential becomes functional. Here we present EpiBinder , a multimodal deep-learning framework for cell-type-specific prediction of TF binding that jointly models DNA sequence with base-resolution epigenetic information, including cytosine methylation from whole-genome bisulfite sequencing and chromatin accessibility from DNase I hypersensitivity data. Across multiple human cell lines, EpiBinder consistently outperforms strong sequence-only baselines, improving TF-binding prediction by up to 10% in area under the precision-recall curve. Beyond predictive performance, EpiBinder provides base-level attribution maps that enable systematic interrogation of regulatory context, including candidate methylation-sensitive loci, contextual motif dependencies, and putative TF-TF interactions. These results position EpiBinder as a practical framework for modeling and exploring the local regulatory grammar underlying cell-type-specific TF occupancy.",
+  "abstract_zh": "转录因子（TF）在体内的占据不仅取决于底层DNA序列，还受局部表观遗传环境的影响，该环境在不同细胞类型间变化，并强烈影响序列编码的结合潜力是否得以实现。在此，我们介绍EpiBinder，一种多模态深度学习框架，用于细胞类型特异性的TF结合预测，该框架联合建模DNA序列与碱基分辨率的表观遗传信息，包括来自全基因组亚硫酸盐测序的胞嘧啶甲基化及来自DNase I超敏性数据的染色质可及性。在多种人类细胞系中，EpiBinder持续优于仅基于序列的强基线模型，在精确率-召回率曲线下面积上提升TF结合预测最高达10%。除预测性能外，EpiBinder提供碱基级别的归因图谱，能够系统性地探究调控环境，包括候选甲基化敏感位点、上下文基序依赖性及推测的TF-TF相互作用。这些结果使EpiBinder成为建模和探索细胞类型特异性TF占据背后局部调控语法的实用框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.06.736502",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.06.736502",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.06.736502/index.html"
+}

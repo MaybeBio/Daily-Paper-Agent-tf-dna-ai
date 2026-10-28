@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "36011293",
+    "doi": "10.3390/genes13081382",
+    "title": "A Comprehensive Analysis of the Myocardial Transcriptome in ZBED6-Knockout Bama Xiang Pigs."
+  },
+  "content": {
+    "abstract": "The ZBED6 gene is a transcription factor that regulates the expression of IGF2 and affects muscle growth and development. However, its effect on the growth and development of the heart is still unknown. Emerging evidence suggests that long noncoding RNAs (lncRNAs) can regulate genes at the epigenetic, transcriptional, and posttranscriptional levels and play an important role in the development of eukaryotes. To investigate the function of ZBED6 in the cardiac development of pigs, we constructed the expression profiles of mRNAs and lncRNAs in myocardial tissue obtained from Bama Xiang pigs in the ZBED6 knockout group (ZBED6-KO) and the wild-type group (ZBED6-WT). A total of 248 differentially expressed genes (DEGs) and 209 differentially expressed lncRNAs (DELs) were detected, and 105 potential cis target genes of DELs were identified. The functional annotation analysis based on the Gene Ontology (GO) and Kyoto Encyclopaedia of Genes and Genomes (KEGG) databases revealed two GO items related to muscle development by the cis target genes of DELs. Moreover, IGF2 was the direct target gene of ZBED6 by ChIP-PCR experiment. Our results explored the mechanism and expression profile of mRNAs and lncRNAs of ZBED6 gene knockout on myocardium tissue development, mining the key candidate genes in that process like IGF2.",
+    "keywords": [
+      "Bama Xiang pig",
+      "RNA-seq",
+      "ZBED6",
+      "heart",
+      "lncRNA"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Gene Ontology",
+      "Myocardium/metabolism",
+      "*RNA, Long Noncoding/genetics/metabolism",
+      "RNA, Messenger/genetics/metabolism",
+      "Swine/genetics",
+      "*Transcriptome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Shengnan",
+        "Tian, Wenjie",
+        "Pan, Dengke",
+        "Liu, Ling",
+        "Xu, Cheng",
+        "Ma, Yuehui",
+        "Wang, Dandan",
+        "Jiang, Lin"
+      ],
+      "short_names": [
+        "Wang S",
+        "Tian W",
+        "Pan D",
+        "Liu L",
+        "Xu C",
+        "Ma Y",
+        "Wang D",
+        "Jiang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8551-8164",
+        "ORCID: 0000-0001-9123-5988"
+      ],
+      "affiliations": [
+        "Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "State Key Laboratory for Conservation and Utilization of Subtropical Agro-Bioresources, College of Animal Science and Technology, Guangxi University, Nanning 530004, China.",
+        "Institute of Organ Transplantation, Sichuan Academy of Medical Sciences & Sichuan Provincial People's Hospital, Chengdu 610072, China.",
+        "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "College of Animal Science and Technology, Qingdao Agricultural University, Qingdao 266109, China.",
+        "Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+        "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Shengnan",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0001-8551-8164"
+        ],
+        "affiliations": [
+          "Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+          "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Wenjie",
+        "short_name": "Tian W",
+        "identifiers": [],
+        "affiliations": [
+          "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+          "State Key Laboratory for Conservation and Utilization of Subtropical Agro-Bioresources, College of Animal Science and Technology, Guangxi University, Nanning 530004, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Dengke",
+        "short_name": "Pan D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organ Transplantation, Sichuan Academy of Medical Sciences & Sichuan Provincial People's Hospital, Chengdu 610072, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ling",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+          "College of Animal Science and Technology, Qingdao Agricultural University, Qingdao 266109, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Cheng",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+          "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yuehui",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China.",
+          "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dandan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Animal (Poultry) Genetics Breeding and Reproduction, Ministry of Agriculture, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lin",
+        "short_name": "Jiang L",
+        "identifiers": [
+          "0000-0001-9123-5988"
+        ],
+        "affiliations": [
+          "National Germplasm Center of Domestic Animal Resources, Ministry of Science and Technology of the People's Republic of China, Institute of Animal Science, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Aug 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/27 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "41705837",
+      "40595345",
+      "36829600"
+    ],
+    "refs": [
+      "34710100",
+      "34348644",
+      "33125078",
+      "31375807",
+      "31212733",
+      "31066453",
+      "30560955",
+      "30339027",
+      "30259067",
+      "30071486",
+      "29931346",
+      "29890140",
+      "29440408",
+      "29373828",
+      "29178646",
+      "29152100",
+      "29106417",
+      "28746831",
+      "28521017",
+      "28491642",
+      "28380516",
+      "27922056",
+      "27560171",
+      "27466003",
+      "25690850",
+      "25674102",
+      "25274063",
+      "25239089",
+      "24714595",
+      "24481528",
+      "24002109",
+      "23957672",
+      "23892401",
+      "23555285",
+      "23479647",
+      "23287718",
+      "22383036",
+      "21816040",
+      "21404040",
+      "20962418",
+      "20016685",
+      "19932026",
+      "19910308",
+      "19239885",
+      "18454947",
+      "17947298",
+      "16306220",
+      "14729850",
+      "14574411",
+      "12732643",
+      "11846609",
+      "11359941",
+      "10965469",
+      "10952871",
+      "3944112"
+    ],
+    "similar": [
+      "36011293",
+      "34348644",
+      "34710100",
+      "33852074",
+      "36829600",
+      "34880865",
+      "31186438",
+      "29891752",
+      "36275904",
+      "38902760",
+      "33266436",
+      "33419093",
+      "40464206",
+      "29890140",
+      "36011260",
+      "33237828",
+      "30423578",
+      "29440408",
+      "31683503",
+      "35979716",
+      "34898376",
+      "32016349",
+      "40069611",
+      "33764282",
+      "35672672",
+      "34738870",
+      "20016685",
+      "38069312",
+      "34795345",
+      "30797995",
+      "36714570",
+      "39847586",
+      "33526009",
+      "39135040",
+      "30385735",
+      "29854728",
+      "32557799",
+      "37506405",
+      "29580899",
+      "35449433",
+      "33923632",
+      "30089776",
+      "29495545",
+      "30066903",
+      "33284098",
+      "31856144",
+      "31524265",
+      "34513995",
+      "32786114",
+      "30880326",
+      "35287569",
+      "40507971",
+      "33779949",
+      "37286730",
+      "30695714",
+      "26056301",
+      "38352274",
+      "39444146",
+      "33148167",
+      "32180678",
+      "30921509",
+      "31827539",
+      "30272307",
+      "38787831",
+      "27666820",
+      "31180537",
+      "32808463",
+      "30138363",
+      "33415145",
+      "30756084",
+      "36423164",
+      "29240458",
+      "37663277",
+      "26842313",
+      "40203071",
+      "32149111",
+      "32928107",
+      "32614449",
+      "32004088",
+      "30488155",
+      "30404735",
+      "30587197",
+      "38108929",
+      "32998696",
+      "28009235",
+      "36187128",
+      "38738625",
+      "30227846",
+      "33653335",
+      "33891681",
+      "39863835",
+      "34814929",
+      "30314355",
+      "30119177",
+      "31755521",
+      "30745559",
+      "32087271",
+      "31106482",
+      "30921505",
+      "36672909"
+    ],
+    "review": [
+      "36011293"
+    ],
+    "pmc": [
+      "9407500"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13081382",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36011293/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36011293",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3521",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

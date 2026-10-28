@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41849361",
+  "title": "Zero-shot prediction of drug responses using biologically informed neural networks trained on phosphoproteomic timeseries.",
+  "authors": "Antonopoulos, Konstantinos; Nordenstorm, Olof; Nilsson, Avlant",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-03-18",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用生物信息循环神经网络预测磷酸化蛋白组时间序列的药物反应，虽涉及转录因子FOXO3磷酸化，但核心是信号通路动态预测，非蛋白质-DNA互作或TF-DNA结合建模，方法也不针对互作机制。",
+  "abstract": "Cellular signaling is driven by complex, dynamic phosphorylation networks that control growth and survival, and their dysregulation underlies diseases such as cancer. Although modern mass spectrometry enables large-scale quantification of phosphoproteomic responses over time, these measurements remain descriptive and cannot by themselves predict how signaling will evolve under perturbations. Here, we extend a biologically informed recurrent neural network framework (LEMBAS), to learn time-resolved phosphoproteomic trajectories. We introduce two interpretable modules; a phosphosite mapping that links signaling nodes to measured phosphorylation sites and a monotonic time mapping that aligns continuous experimental times to discrete signaling steps. Using synthetic benchmarks and an EGF-stimulation dataset with inhibitor treatments, the model accurately interpolates unseen time points and predicts drug-induced phosphoproteomic responses in a zero-shot setting, outperforming naive and fully connected baselines. Importantly, the model identifies both canonical and non-canonical signaling effects, including modulation of the transcription factor FOXO3:S7 (from the PI3K/AKT pathway) by drugs affecting PTPN11 (from the RAS/ERK pathway). By combining mechanistic priors with deep learning, our framework provides a scalable approach to interpret and predict dynamic drug responses from phosphoproteomic data.",
+  "abstract_zh": "细胞信号传导由复杂的动态磷酸化网络驱动，这些网络控制生长与存活，其失调是癌症等疾病的根本原因。尽管现代质谱技术能够实现随时间变化的磷酸化蛋白质组响应的大规模定量，但这些测量仍属描述性，无法自行预测信号在扰动下将如何演变。在此，我们扩展了一个生物学信息化的循环神经网络框架（LEMBAS），以学习时间分辨的磷酸化蛋白质组轨迹。我们引入了两个可解释模块：一个磷酸化位点映射，将信号节点连接到测量的磷酸化位点；以及一个单调时间映射，将连续实验时间对齐到离散信号步骤。利用合成基准和一个含抑制剂处理的EGF刺激数据集，该模型准确插值未见时间点，并在零样本设置中预测药物诱导的磷酸化蛋白质组响应，优于朴素和全连接基线。重要的是，该模型识别了经典和非经典信号效应，包括通过影响PTPN11（来自RAS/ERK通路）的药物对转录因子FOXO3:S7（来自PI3K/AKT通路）的调节。通过将机制先验与深度学习相结合，我们的框架提供了一种可扩展的方法，用于从磷酸化蛋白质组数据中解释和预测动态药物响应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41849361/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41849361/",
+  "paper_page_path": "papers/pubmed/41849361/index.html"
+}

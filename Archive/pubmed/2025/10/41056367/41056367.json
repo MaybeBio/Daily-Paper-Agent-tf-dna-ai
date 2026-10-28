@@ -1,0 +1,450 @@
+{
+  "identity": {
+    "pmid": "41056367",
+    "doi": "10.1371/journal.pone.0333509",
+    "title": "In-silico identification of host-key-genes associated with dengue-virus-infections highlighting their pathogenetic mechanisms and therapeutic agents."
+  },
+  "content": {
+    "abstract": "Dengue fever (DF), a potentially fatal mosquito-transmitted viral disease caused by dengue virus (DENV) infections (DENVI), stands as the predominant arthropod-borne viral illness worldwide, presenting a significant global health challenge. DENV-mediated proteins/proteases interact with host proteins to develop the infection. Despite the severity of DENVI, the infection-causing host key-genes (hKGs), their pathogenetic processes, and inhibitors/activators are not yet rigorously investigated. This study aimed to disclose DENVI-causing hKGs, highlighting their pathogenetic mechanisms and therapeutic agents. At first, 115 host differentially expressed genes (hDEGs) between DENVI and control samples were identified by employing the LIMMA statistical approach. Through protein-protein interaction (PPI) network analysis, the top nine hDEGs (CDK1, BIRC5, TYMS, KIF20A, CCNB2, CDC20, AURKB, TK1, and PTEN) were detected as the infection-causing hGBs or host key-genes (hKGs). Among these hKGs, six genes (CDK1, BIRC5, TYMS, KIF20A, CCNB2, and TK1) have been emphasized as the DENVI-causing genes by the literature review. Functional enrichment analysis showed how hKGs orchestrate viral infection processes by disrupting cell cycles and immune responses. CDK1 and AURKB divert mitotic machinery to support viral replication, while PTEN and BIRC5 inhibit MAVS-MDA5 pathways to suppress interferon responses. In the nucleus, CDK1 and TYMS manipulate host transcription to favor viral processes. Key pathways identified through KEGG analysis include cell cycle and p53 signaling, explaining DENV-induced thrombocytopenia and dysregulated apoptosis. The regulatory network analysis identified five transcription factors (FOXC1, GATA2, RELA, TP53, PPARG) as the transcriptomic regulators of hKGs. The regulators FOXC1 and RELA influence EMT and inflammatory responses, and PPARG's involvement in lipid metabolism correlates with Dengue Shock Syndrome severity, while miR-103a-3p enhances viral replication by targeting the OTUD4/p38 MAPK pathway. Finally, hKGs-guided three drug candidates (ENTRECTINIB, IMATINIB, and QL47) were selected by molecular docking analysis. These findings provide valuable insights that could significantly impact dengue fever diagnosis and treatment strategies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Dengue/genetics/drug therapy/virology",
+      "Humans",
+      "*Dengue Virus/pathogenicity",
+      "Protein Interaction Maps",
+      "Computer Simulation",
+      "*Host-Pathogen Interactions/genetics",
+      "Antiviral Agents/pharmacology/therapeutic use",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Latif, Md Abdul",
+        "Noman, Md Al",
+        "Ahmmed, Reaz",
+        "Hossain, Md Sanoar",
+        "Ahmed, Md Foysal",
+        "Pappu, Md Al Amin",
+        "Islam, Md Shariful",
+        "Noor, Tasfia",
+        "Kabir, Md Hadiul",
+        "Mollah, Md Nurul Haque"
+      ],
+      "short_names": [
+        "Latif MA",
+        "Noman MA",
+        "Ahmmed R",
+        "Hossain MS",
+        "Ahmed MF",
+        "Pappu MAA",
+        "Islam MS",
+        "Noor T",
+        "Kabir MH",
+        "Mollah MNH"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-8751-0286",
+        "ORCID: 0000-0002-3883-3396"
+      ],
+      "affiliations": [
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Institute of Bangladesh Studies (IBS), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Computer Science and Engineering (CSE), Rajshahi University of Engineering and Technology (RUET), Rajshahi, Bangladesh.",
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+        "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Latif, Md Abdul",
+        "short_name": "Latif MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Noman, Md Al",
+        "short_name": "Noman MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmmed, Reaz",
+        "short_name": "Ahmmed R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+          "Department of Biochemistry and Molecular Biology, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Sanoar",
+        "short_name": "Hossain MS",
+        "identifiers": [
+          "0009-0001-8751-0286"
+        ],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh.",
+          "Institute of Bangladesh Studies (IBS), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Md Foysal",
+        "short_name": "Ahmed MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Pappu, Md Al Amin",
+        "short_name": "Pappu MAA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Shariful",
+        "short_name": "Islam MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Noor, Tasfia",
+        "short_name": "Noor T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering (CSE), Rajshahi University of Engineering and Technology (RUET), Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Kabir, Md Hadiul",
+        "short_name": "Kabir MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Nurul Haque",
+        "short_name": "Mollah MNH",
+        "identifiers": [
+          "0000-0002-3883-3396"
+        ],
+        "affiliations": [
+          "Department of Statistics, Bioinformatics Lab (Dry), University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 18:29",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40100920",
+      "39987330",
+      "39861863",
+      "39160196",
+      "39051974",
+      "38969013",
+      "38656209",
+      "38649998",
+      "38101711",
+      "38076406",
+      "37953380",
+      "37515125",
+      "37243122",
+      "37055751",
+      "35998194",
+      "35918744",
+      "35744813",
+      "35527876",
+      "35385549",
+      "35317262",
+      "35220956",
+      "35182390",
+      "35163880",
+      "35006471",
+      "34791371",
+      "34622360",
+      "34604670",
+      "34513730",
+      "34347790",
+      "34171205",
+      "34121198",
+      "33124206",
+      "33044659",
+      "32841293",
+      "32750848",
+      "32750466",
+      "32670253",
+      "32462996",
+      "32101750",
+      "31954402",
+      "31914414",
+      "31413301",
+      "31065454",
+      "31043529",
+      "30476243",
+      "30398111",
+      "30371825",
+      "30301880",
+      "30166344",
+      "29161433",
+      "29148875",
+      "29086303",
+      "29033939",
+      "28934431",
+      "28791003",
+      "28420884",
+      "28337328",
+      "28256516",
+      "28101327",
+      "28034743",
+      "27707928",
+      "27545046",
+      "27525287",
+      "27453290",
+      "26603900",
+      "25860834",
+      "25635835",
+      "25605792",
+      "25521941",
+      "24981612",
+      "24930603",
+      "24861621",
+      "24671231",
+      "23105540",
+      "22889332",
+      "22880140",
+      "22323224",
+      "21990031",
+      "21054000",
+      "21045058",
+      "20652028",
+      "20122215",
+      "19499576",
+      "19399780",
+      "19138155",
+      "18077471",
+      "16646809",
+      "16373484",
+      "16200636",
+      "15980585",
+      "15961482",
+      "15840442",
+      "15608262",
+      "14681407",
+      "14597658",
+      "12824332",
+      "11948792",
+      "10592235",
+      "10592173",
+      "8552589"
+    ],
+    "similar": [
+      "41056367",
+      "41219276",
+      "40839599",
+      "40100920",
+      "27252539",
+      "31898495",
+      "32999020",
+      "38649998",
+      "29566761",
+      "25905427",
+      "31915280",
+      "41171828",
+      "40050049",
+      "27058774",
+      "38909960",
+      "21722754",
+      "24316047",
+      "25017471",
+      "31533998",
+      "21358811",
+      "40281578",
+      "21798792",
+      "40059731",
+      "21113677",
+      "32277848",
+      "23285306",
+      "24373310",
+      "33670247",
+      "26565697",
+      "28148804",
+      "35390032",
+      "21835036",
+      "25629430",
+      "24696471",
+      "29281836",
+      "34116207",
+      "28465426",
+      "21911577",
+      "24076358",
+      "25968648",
+      "25762732",
+      "30639520",
+      "39702248",
+      "40693788",
+      "40846152",
+      "34845981",
+      "34550340",
+      "26669909",
+      "23476150",
+      "33044659",
+      "29261661",
+      "30564245",
+      "38834897",
+      "33009425",
+      "23735301",
+      "31092581",
+      "28338050",
+      "40645353",
+      "32721859",
+      "25499200",
+      "32325755",
+      "36055433",
+      "33920458",
+      "21379341",
+      "26526588",
+      "39885306",
+      "24829280",
+      "24590566",
+      "39976655",
+      "33374457",
+      "39902963",
+      "39772930",
+      "30761986",
+      "37498862",
+      "28930586",
+      "36992414",
+      "23630436",
+      "40984714",
+      "25131378",
+      "29712653",
+      "22102922",
+      "29890736",
+      "30360716",
+      "19121645",
+      "24478443",
+      "34036784",
+      "27381061",
+      "39490942",
+      "28733114",
+      "26889037",
+      "31421165",
+      "29321322",
+      "39214424",
+      "23875036",
+      "38793607",
+      "23077596",
+      "40142044",
+      "34379504",
+      "35652656",
+      "40881704"
+    ],
+    "review": [
+      "41056367",
+      "31898495",
+      "38649998",
+      "40050049",
+      "24316047",
+      "40281578",
+      "21798792",
+      "40059731",
+      "24373310",
+      "33670247",
+      "25629430",
+      "24076358",
+      "39702248",
+      "40846152",
+      "23476150",
+      "30564245",
+      "26526588",
+      "33374457",
+      "30761986",
+      "28930586",
+      "36992414",
+      "40984714",
+      "30360716",
+      "19121645"
+    ],
+    "pmc": [
+      "12503274"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/dengue.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Dengue"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0333509",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41056367/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-977",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

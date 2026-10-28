@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "39143123",
+    "doi": "10.1038/s41467-024-51297-7",
+    "title": "Molecular basis of facilitated target search and sequence discrimination of TALE homeodomain transcription factor Meis1."
+  },
+  "content": {
+    "abstract": "Transcription factors specifically bind to their consensus sequence motifs and regulate transcription efficiency. Transcription factors are also able to non-specifically contact the phosphate backbone of DNA through electrostatic interaction. The homeodomain of Meis1 TALE human transcription factor (Meis1-HD) recognizes its target DNA sequences via two DNA contact regions, the L1-alpha1 region and the alpha3 helix (specific binding mode). This study demonstrates that the non-specific binding mode of Meis1-HD is the energetically favored process during DNA binding, achieved by the interaction of the L1-alpha1 region with the phosphate backbone. An NMR dynamics study suggests that non-specific binding might set up an intermediate structure which can then rapidly and easily find the consensus region on a long section of genomic DNA in a facilitated binding process. Structural analysis using NMR and molecular dynamics shows that key structural distortions in the Meis1-HD-DNA complex are induced by various single nucleotide mutations in the consensus sequence, resulting in decreased DNA binding affinity. Collectively, our results elucidate the detailed molecular mechanism of how Meis1-HD recognizes single nucleotide mutations within its consensus sequence: (i) through the conformational features of the alpha3 helix; and (ii) by the dynamic features (rigid or flexible) of the L1 loop and the alpha3 helix. These findings enhance our understanding of how single nucleotide mutations in transcription factor consensus sequences lead to dysfunctional transcription and, ultimately, human disease.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Myeloid Ecotropic Viral Integration Site 1 Protein/metabolism/genetics",
+      "Humans",
+      "*DNA/metabolism/chemistry/genetics",
+      "*Protein Binding",
+      "*Molecular Dynamics Simulation",
+      "Binding Sites",
+      "Homeodomain Proteins/metabolism/genetics/chemistry",
+      "Mutation",
+      "Consensus Sequence",
+      "Base Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choi, Seo-Ree",
+        "Lee, Juyong",
+        "Seo, Yeo-Jin",
+        "Jin, Ho-Seong",
+        "Ahn, Hye-Bin",
+        "Go, Youyeon",
+        "Kim, Nak-Kyoon",
+        "Ryu, Kyoung-Seok",
+        "Lee, Joon-Hwa"
+      ],
+      "short_names": [
+        "Choi SR",
+        "Lee J",
+        "Seo YJ",
+        "Jin HS",
+        "Ahn HB",
+        "Go Y",
+        "Kim NK",
+        "Ryu KS",
+        "Lee JH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9493-0115",
+        "ORCID: 0000-0003-1174-4358",
+        "ORCID: 0000-0002-4187-9344",
+        "ORCID: 0000-0002-8422-6669"
+      ],
+      "affiliations": [
+        "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea.",
+        "Advanced Analysis Data Center, Korea Institute of Science and Technology, Seoul, 02456, Republic of Korea.",
+        "Department of Molecular Medicine and Biopharmaceutical Sciences, Graduate School of Convergence Science and Technology, and College of Pharmacy, Seoul National University, Seoul, 08826, Republic of Korea. nicole23@snu.ac.kr.",
+        "Research Institute of Pharmaceutical Science, College of Pharmacy, Seoul National University, Seoul, 08826, Republic of Korea. nicole23@snu.ac.kr.",
+        "Arontier Co., Seoul, 06735, Republic of Korea. nicole23@snu.ac.kr.",
+        "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea.",
+        "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea.",
+        "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea.",
+        "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea.",
+        "Advanced Analysis Data Center, Korea Institute of Science and Technology, Seoul, 02456, Republic of Korea.",
+        "Protein Structure Research Team, Korea Basic Science Institute, Cheongju, Chungcheongbuk-do, 28119, Republic of Korea.",
+        "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choi, Seo-Ree",
+        "short_name": "Choi SR",
+        "identifiers": [
+          "0000-0002-9493-0115"
+        ],
+        "affiliations": [
+          "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea.",
+          "Advanced Analysis Data Center, Korea Institute of Science and Technology, Seoul, 02456, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Juyong",
+        "short_name": "Lee J",
+        "identifiers": [
+          "0000-0003-1174-4358"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and Biopharmaceutical Sciences, Graduate School of Convergence Science and Technology, and College of Pharmacy, Seoul National University, Seoul, 08826, Republic of Korea. nicole23@snu.ac.kr.",
+          "Research Institute of Pharmaceutical Science, College of Pharmacy, Seoul National University, Seoul, 08826, Republic of Korea. nicole23@snu.ac.kr.",
+          "Arontier Co., Seoul, 06735, Republic of Korea. nicole23@snu.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Seo, Yeo-Jin",
+        "short_name": "Seo YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jin, Ho-Seong",
+        "short_name": "Jin HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ahn, Hye-Bin",
+        "short_name": "Ahn HB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Go, Youyeon",
+        "short_name": "Go Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Nak-Kyoon",
+        "short_name": "Kim NK",
+        "identifiers": [
+          "0000-0002-4187-9344"
+        ],
+        "affiliations": [
+          "Advanced Analysis Data Center, Korea Institute of Science and Technology, Seoul, 02456, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ryu, Kyoung-Seok",
+        "short_name": "Ryu KS",
+        "identifiers": [
+          "0000-0002-8422-6669"
+        ],
+        "affiliations": [
+          "Protein Structure Research Team, Korea Basic Science Institute, Cheongju, Chungcheongbuk-do, 28119, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Joon-Hwa",
+        "short_name": "Lee JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and RINS, Gyeongsang National University, Jinju, Gyeongsangnam-do, 52828, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Aug 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/15 00:42",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32888389",
+      "32716185",
+      "30713839",
+      "30592616",
+      "28322463",
+      "27300587",
+      "26592383",
+      "26583988",
+      "26574453",
+      "26550823",
+      "26531896",
+      "26464018",
+      "25910213",
+      "25505092",
+      "25253516",
+      "24187380",
+      "23962882",
+      "23873833",
+      "23663847",
+      "23602564",
+      "21760952",
+      "21071403",
+      "20334529",
+      "19444816",
+      "19059266",
+      "18593145",
+      "18485899",
+      "18351591",
+      "18040051",
+      "17439958",
+      "17185560",
+      "16777607",
+      "16243975",
+      "16200636",
+      "15617687",
+      "12183364",
+      "11462813",
+      "10654609",
+      "10523646",
+      "10082572",
+      "9343407",
+      "9315626",
+      "8520220",
+      "8183558",
+      "7032584",
+      "4924006",
+      "2568852",
+      "1980756",
+      "1515543",
+      "1497306"
+    ],
+    "similar": [
+      "39143123",
+      "19799567",
+      "30048701",
+      "12419257",
+      "9525891",
+      "10471746",
+      "12609849",
+      "20808819",
+      "23796517",
+      "36012753",
+      "9405651",
+      "23308270",
+      "15342239",
+      "38465368",
+      "26823969",
+      "10373562",
+      "11867548",
+      "15595839",
+      "15148315",
+      "9154919",
+      "7565694",
+      "7588776",
+      "11851335",
+      "9888529",
+      "19442701",
+      "9482739",
+      "12203971",
+      "9753723",
+      "21498098",
+      "10082572",
+      "27396829",
+      "25707357",
+      "12217688",
+      "21087615",
+      "30560549",
+      "35304708",
+      "18187506",
+      "12459268",
+      "27462121",
+      "38825283",
+      "15138251",
+      "29396371",
+      "23950697",
+      "8139574",
+      "21524647",
+      "9049632",
+      "29664630",
+      "27567672",
+      "40398789",
+      "11602361",
+      "10944215",
+      "39578497",
+      "7999775",
+      "9343407",
+      "14559893",
+      "30802457",
+      "12388550",
+      "33486697",
+      "19385698",
+      "8787739",
+      "36322688",
+      "15755900",
+      "17240973",
+      "31081034",
+      "9009203",
+      "14672405",
+      "29563767",
+      "30111810",
+      "10637514",
+      "40874594",
+      "31048376",
+      "9033593",
+      "10541438",
+      "9111059",
+      "10955992",
+      "10487759",
+      "11003663",
+      "22584078",
+      "41237949",
+      "20061473",
+      "10377247",
+      "11331288",
+      "10448033",
+      "9439992",
+      "10026784",
+      "30395339",
+      "38874471",
+      "23708613",
+      "26259236",
+      "20587330",
+      "9162047",
+      "32053778",
+      "32876058",
+      "30060237",
+      "35624144",
+      "16648484",
+      "20109151",
+      "40583771",
+      "18772384",
+      "29355528"
+    ],
+    "review": [
+      "39143123",
+      "35304708"
+    ],
+    "pmc": [
+      "11325038"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-51297-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39143123/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

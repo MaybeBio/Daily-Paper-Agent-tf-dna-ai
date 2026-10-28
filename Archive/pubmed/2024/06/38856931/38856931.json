@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "38856931",
+    "doi": "10.1007/s00018-024-05253-9",
+    "title": "Pyruvate kinase M2 sustains cardiac mitochondrial quality surveillance in septic cardiomyopathy by regulating prohibitin 2 abundance via S91 phosphorylation."
+  },
+  "content": {
+    "abstract": "The endogenous mitochondrial quality control (MQC) system serves to protect mitochondria against cellular stressors. Although mitochondrial dysfunction contributes to cardiac damage during many pathological conditions, the regulatory signals influencing MQC disruption during septic cardiomyopathy (SC) remain unclear. This study aimed to investigate the involvement of pyruvate kinase M2 (PKM2) and prohibitin 2 (PHB2) interaction followed by MQC impairment in the pathogenesis of SC. We utilized LPS-induced SC models in PKM2 transgenic (PKM2(TG)) mice, PHB2(S91D)-knockin mice, and PKM2-overexpressing HL-1 cardiomyocytes. After LPS-induced SC, cardiac PKM2 expression was significantly downregulated in wild-type mice, whereas PKM2 overexpression in vivo sustained heart function, suppressed myocardial inflammation, and attenuated cardiomyocyte death. PKM2 overexpression relieved sepsis-related mitochondrial damage via MQC normalization, evidenced by balanced mitochondrial fission/fusion, activated mitophagy, restored mitochondrial biogenesis, and inhibited mitochondrial unfolded protein response. Docking simulations, co-IP, and domain deletion mutant protein transfection experiments showed that PKM2 phosphorylates PHB2 at Ser91, preventing LPS-mediated PHB2 degradation. Additionally, the A domain of PKM2 and the PHB domain of PHB2 are required for PKM2-PHB2 binding and PHB2 phosphorylation. After LPS exposure, expression of a phosphorylation-defective PHB2(S91A) mutant negated the protective effects of PKM2 overexpression. Moreover, knockin mice expressing a phosphorylation-mimetic PHB2(S91D) mutant showed improved heart function, reduced inflammation, and preserved mitochondrial function following sepsis induction. Abundant PKM2 expression is a prerequisite to sustain PKM2-PHB2 interaction which is a key element for preservation of PHB2 phosphorylation and MQC, presenting novel interventive targets for the treatment of septic cardiomyopathy.",
+    "keywords": [
+      "MQC",
+      "Mitochondria",
+      "PHB2",
+      "PKM2",
+      "Septic cardiomyopathy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Male",
+      "Mice",
+      "*Cardiomyopathies/metabolism/pathology",
+      "Lipopolysaccharides",
+      "Mice, Inbred C57BL",
+      "Mice, Transgenic",
+      "*Mitochondria, Heart/metabolism",
+      "Mitophagy",
+      "Myocytes, Cardiac/metabolism/pathology",
+      "Phosphorylation",
+      "*Prohibitins",
+      "*Pyruvate Kinase/metabolism/genetics",
+      "*Repressor Proteins/metabolism/genetics",
+      "*Sepsis/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Yingzhen",
+        "Li, Jialei",
+        "Dai, Zhe",
+        "Chen, Yuxin",
+        "Zhao, Yao",
+        "Liu, Xiaoman",
+        "Xia, Tian",
+        "Zhu, Pingjun",
+        "Wang, Yijin"
+      ],
+      "short_names": [
+        "Du Y",
+        "Li J",
+        "Dai Z",
+        "Chen Y",
+        "Zhao Y",
+        "Liu X",
+        "Xia T",
+        "Zhu P",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-5507-3673"
+      ],
+      "affiliations": [
+        "The Second Medical Center & National Clinical Research Center for Geriatric Diseases, Chinese PLA General Hospital, Medical School of Chinese PLA, Beijing, China.",
+        "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+        "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+        "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+        "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+        "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of Clinical Laboratory Medicine, The First Medical Centre, Medical School of Chinese People's Liberation Army, Beijing, China.",
+        "Xianning Medical College, Hubei University of Science & Technology, Xianning, China.",
+        "The Second Medical Center & National Clinical Research Center for Geriatric Diseases, Chinese PLA General Hospital, Medical School of Chinese PLA, Beijing, China. zhupingjun@outlook.com.",
+        "The Second Medical Center & National Clinical Research Center for Geriatric Diseases, Chinese PLA General Hospital, Medical School of Chinese PLA, Beijing, China. yijinwang03@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Yingzhen",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Medical Center & National Clinical Research Center for Geriatric Diseases, Chinese PLA General Hospital, Medical School of Chinese PLA, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jialei",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Zhe",
+        "short_name": "Dai Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuxin",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yao",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoman",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Tian",
+        "short_name": "Xia T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory Medicine, The First Medical Centre, Medical School of Chinese People's Liberation Army, Beijing, China.",
+          "Xianning Medical College, Hubei University of Science & Technology, Xianning, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Pingjun",
+        "short_name": "Zhu P",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Medical Center & National Clinical Research Center for Geriatric Diseases, Chinese PLA General Hospital, Medical School of Chinese PLA, Beijing, China. zhupingjun@outlook.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Yijin",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0009-0009-5507-3673"
+        ],
+        "affiliations": [
+          "The Second Medical Center & National Clinical Research Center for Geriatric Diseases, Chinese PLA General Hospital, Medical School of Chinese PLA, Beijing, China. yijinwang03@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular and molecular life sciences : CMLS"
+    ],
+    "journal_abbrev": [
+      "Cell Mol Life Sci"
+    ],
+    "pub_date": "2024 Jun 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/10 13:48",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42620579",
+      "41408319",
+      "40900251",
+      "39880844",
+      "39744160",
+      "39550027",
+      "39468303"
+    ],
+    "refs": [
+      "38646464",
+      "36561053",
+      "36339468",
+      "36338284",
+      "36328752",
+      "36284676",
+      "36122552",
+      "35948750",
+      "35944900",
+      "35845153",
+      "35787437",
+      "35722032",
+      "35705980",
+      "35656980",
+      "35464645",
+      "35317391",
+      "35290083",
+      "35152003",
+      "34879266",
+      "34765669",
+      "34687136",
+      "34457111",
+      "34278573",
+      "34174558",
+      "34093852",
+      "33388396",
+      "33238149",
+      "33230467",
+      "33166869",
+      "33163341",
+      "33016468",
+      "32592929",
+      "32298723",
+      "32246225",
+      "32234339",
+      "32165613",
+      "32078387",
+      "32017072",
+      "31993882",
+      "31919590",
+      "31903127",
+      "31901590",
+      "31839999",
+      "31547300",
+      "31391918",
+      "31215035",
+      "31177901",
+      "30981733",
+      "30669391",
+      "29540794",
+      "28981157",
+      "28972001",
+      "28436957",
+      "28017329",
+      "27552928",
+      "26876154",
+      "25904163",
+      "25412762",
+      "24710105",
+      "24606918",
+      "24530506",
+      "24522204",
+      "22901803",
+      "22056988",
+      "21689744",
+      "19889967",
+      "19556262",
+      "19324101",
+      "18337823",
+      "15890975",
+      "15082531"
+    ],
+    "similar": [
+      "38856931",
+      "38774750",
+      "39143739",
+      "38464826",
+      "38818468",
+      "37781037",
+      "38322592",
+      "37464072",
+      "39285950",
+      "36603706",
+      "38876225",
+      "39153513",
+      "31903127",
+      "36774857",
+      "30981733",
+      "31354091",
+      "37328648",
+      "31215035",
+      "31177901",
+      "38260951",
+      "39402106",
+      "31712853",
+      "38934866",
+      "36305917",
+      "30993599",
+      "38560918",
+      "32529514",
+      "36200440",
+      "36406767",
+      "31386965",
+      "38964378",
+      "33542713",
+      "38614260",
+      "34219469",
+      "37056939",
+      "37042471",
+      "39256891",
+      "35656980",
+      "18958584",
+      "38133657",
+      "32320388",
+      "31570770",
+      "27003723",
+      "39121587",
+      "34457111",
+      "34724805",
+      "33760146",
+      "34602563",
+      "37451140",
+      "34798593",
+      "38547523",
+      "35944900",
+      "36379251",
+      "30611795",
+      "36350269",
+      "38430408",
+      "37541471",
+      "30669391",
+      "30604255",
+      "31976559",
+      "39247818",
+      "30646747",
+      "32142354",
+      "32323750",
+      "37190120",
+      "34174558",
+      "31535369",
+      "32236591",
+      "32939034",
+      "21689744",
+      "26038571",
+      "26246018",
+      "23144624",
+      "24710105",
+      "37759959",
+      "34859534",
+      "33390389",
+      "28942427",
+      "34435719",
+      "35948750",
+      "36126721",
+      "38992436",
+      "29987122",
+      "39000117",
+      "33820826",
+      "36564378",
+      "39128194",
+      "32239393",
+      "38142736",
+      "38401019",
+      "31166588",
+      "32721927",
+      "31900829",
+      "38936092",
+      "30539655",
+      "20959514",
+      "32302592",
+      "37771085",
+      "31951593",
+      "30890112",
+      "23417863",
+      "31618067",
+      "37816709",
+      "33984439",
+      "27794418",
+      "38897256",
+      "36147470",
+      "14739993",
+      "38387325",
+      "38077250",
+      "34529778",
+      "39051884",
+      "39091635"
+    ],
+    "review": [
+      "38856931",
+      "38560918",
+      "27003723",
+      "30669391",
+      "37190120",
+      "36126721",
+      "38142736",
+      "32302592",
+      "27794418",
+      "36147470"
+    ],
+    "pmc": [
+      "11335292"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38856931/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cardiomyopathy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cardiomyopathy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38856931/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s00018-024-05253-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

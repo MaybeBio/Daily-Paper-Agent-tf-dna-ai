@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41354912",
+    "doi": "10.1186/s12859-025-06329-4",
+    "title": "A DSSM network for inferring and prioritizing cell-type-specific regulons using single-cell RNA-seq data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Transcription factors and their target genes form regulatory modules known as regulons, which exhibit significant specificity across various cell types. The integration of single-cell transcriptome data, transcription factor motif data, and ChIP-seq data presents a challenging task in identifying cell-type-specific regulons and examining their activities. RESULTS: In response, this study presents a Deep Structured Semantic Model for inferring and prioritizing cell-type-specific Regulons (DSSMReg). This approach utilizes single-cell transcriptome and transcription factor motif data to map transcription factors and target genes into a low-dimensional semantic space, resulting in the generation of feature vectors. The model then computes the cosine similarity between transcription factors and target genes to evaluate their regulatory strength and subsequently infers cell-type-specific regulons based on this assessment. Moreover, DSSMReg employs the AUCell algorithm to rank the importance of regulons for each cell type. CONCLUSIONS: We compared DSSMReg against five representative gene regulatory inference algorithms using scRNA-seq data from five cell lines, with DSSMReg achieving the highest evaluation metrics for both AUROC and AUPRC. Furthermore, we applied DSSMReg to infer cell-type-specific regulons from scRNA-seq data of triple-negative breast cancer and human bone marrow hematopoietic stem cells. Our results indicated that regulons with high AUCell scores possess significant biological relevance. The source code of DSSMReg is freely available at https://github.com/YaxinF/DSSMReg .",
+    "keywords": [
+      "Cell type specificity",
+      "Deep learning",
+      "Deep structured semantic model",
+      "Regulon",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "Humans",
+      "Transcription Factors/metabolism/genetics",
+      "Algorithms",
+      "*RNA-Seq",
+      "*Gene Regulatory Networks",
+      "Transcriptome",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Yaxin",
+        "Mei, Yichao",
+        "Bao, Shengbao",
+        "Wang, Jianyong",
+        "Gao, Junxiang"
+      ],
+      "short_names": [
+        "Fan Y",
+        "Mei Y",
+        "Bao S",
+        "Wang J",
+        "Gao J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China. wjy01@mail.hzau.edu.cn.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China. gao200@mail.hzau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Yaxin",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Yichao",
+        "short_name": "Mei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Shengbao",
+        "short_name": "Bao S",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianyong",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China. wjy01@mail.hzau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Gao, Junxiang",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, 430070, China. gao200@mail.hzau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2025 Dec 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/08 01:36",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39279854",
+      "38714197",
+      "38556549",
+      "38253266",
+      "38217125",
+      "37962376",
+      "37703293",
+      "37365273",
+      "37304008",
+      "36925283",
+      "36768917",
+      "36321662",
+      "36309620",
+      "36305458",
+      "36300619",
+      "36077192",
+      "36012478",
+      "35776402",
+      "35652094",
+      "35350379",
+      "35062026",
+      "34421362",
+      "34321665",
+      "34006850",
+      "33960390",
+      "33575114",
+      "33514024",
+      "33462507",
+      "33345444",
+      "33187090",
+      "32958603",
+      "32858223",
+      "32728248",
+      "32605126",
+      "32522044",
+      "32035227",
+      "31907445",
+      "31825805",
+      "31822622",
+      "31777591",
+      "31570853",
+      "31292543",
+      "30929399",
+      "30712510",
+      "29935893",
+      "29520097",
+      "29410248",
+      "28991892",
+      "28957658",
+      "28514151",
+      "28475402",
+      "28379368",
+      "27789702",
+      "27542215",
+      "27277014",
+      "27179027",
+      "26950747",
+      "26496920",
+      "26271144",
+      "25867923",
+      "25621499",
+      "20927193",
+      "19114008",
+      "18438409",
+      "12824389",
+      "10592259",
+      "9113991"
+    ],
+    "similar": [
+      "41354912",
+      "38980373",
+      "41043336",
+      "34251625",
+      "38950180",
+      "40251476",
+      "40591481",
+      "40062616",
+      "41288963",
+      "37004161",
+      "37985457",
+      "32051003",
+      "39062480",
+      "31870278",
+      "39237886",
+      "39960893",
+      "39487083",
+      "38653489",
+      "39417321",
+      "35961023",
+      "36734596",
+      "39082647",
+      "31068142",
+      "34962260",
+      "36626328",
+      "38976751",
+      "39508444",
+      "39694856",
+      "39060167",
+      "37313714",
+      "40977264",
+      "32421805",
+      "39206896",
+      "37686146",
+      "40426257",
+      "38684178",
+      "39769196",
+      "36307979",
+      "40764361",
+      "41462339",
+      "38261340",
+      "35302164",
+      "40116659",
+      "40188497",
+      "39708840",
+      "38810116",
+      "40838782",
+      "35316190",
+      "40444783",
+      "41214061",
+      "32174324",
+      "37486829",
+      "32532794",
+      "38866896",
+      "34424948",
+      "33026066",
+      "37244909",
+      "39402696",
+      "38627250",
+      "39373051",
+      "33300547",
+      "39465162",
+      "40362233",
+      "37354494",
+      "41009952",
+      "37237310",
+      "39036845",
+      "39504481",
+      "40662821",
+      "36631401",
+      "30779739",
+      "40471991",
+      "37843125",
+      "40806243",
+      "40404675",
+      "41330999",
+      "28379368",
+      "41121316",
+      "40068952",
+      "41257571",
+      "39494609",
+      "40038714",
+      "39326643",
+      "35901457",
+      "38879931",
+      "39180857",
+      "40152244",
+      "40654959",
+      "41013245",
+      "39781510",
+      "41229398",
+      "39384856",
+      "39294558",
+      "36774895",
+      "41329984",
+      "40057293",
+      "40704686",
+      "39992219",
+      "39762897",
+      "40409400"
+    ],
+    "review": [
+      "41354912"
+    ],
+    "pmc": [
+      "12798040"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06329-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41354912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

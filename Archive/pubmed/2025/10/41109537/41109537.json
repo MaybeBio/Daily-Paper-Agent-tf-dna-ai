@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "41109537",
+    "doi": "10.1016/j.jep.2025.120758",
+    "title": "Er-Chen decoction alleviates spermatogenic dysfunction in obese mice by tuning the SIRT1/p53 axis."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Er-Chen Decoction (ECD), a classic traditional Chinese medicine (TCM) formula, is clinically indicated for dispelling dampness and resolving phlegm. It has been widely used in the management of phlegm‒dampness syndrome, including obesity, with a long-standing clinical application history in improving obesity-related male infertility. Although its therapeutic efficacy has been validated through long-term clinical practice, the underlying molecular mechanisms remain incompletely understood. AIM: This study aimed to investigate the molecular mechanisms by which ECD ameliorates obesity-related spermatogenic dysfunction (SD) through the SIRT1/p53 signaling axis. MATERIALS AND METHODS: A mouse model of diet-induced obesity was established by feeding a high-fat diet (HFD) for 8 weeks. Subsequently, obese mice were randomly assigned to receive interventions with ECD (low-, medium-, or high-dose) or L-carnitine (positive control) for 3 weeks. Sperm functional parameters were evaluated to assess obesity-related SD. A combination of network pharmacology analysis, molecular docking, biochemical assays, hematoxylin‒eosin (HE) staining, Oil Red O staining, transmission electron microscopy (TEM), quantitative real-time polymerase chain reaction (RT‒qPCR), immunofluorescence (IF) staining, immunohistochemical (IHC) staining, Western blotting (WB), and transcriptomic analysis was employed to dissect the molecular mechanisms underlying the protective effects of the ECD against obesity-related SD. Additionally, the bioactive components of ECD were characterized using extensive targeted mass spectrometry. RESULTS: Medium-dose ECD (ECD-M) significantly reduced body weight and lipid accumulation in HFD-induced obese mice. Notably, compared with the HFD group, the ECD-M group presented a 50 % reduction in the abnormal sperm percentage (p < 0.01), along with a 60 % increase in sperm concentration (p < 0.01), and showed an upward trend in both sperm progressive motility and sperm motility. Furthermore, ECD-M significantly upregulated the expression of the tight junction (TJ) proteins Occludin (p < 0.001) and beta-catenin (p < 0.05), thereby restoring the integrity of the blood‒testis barrier (BTB). Mechanistically, ECD not only reversed lipid-induced inhibition of SIRT1 but also suppressed p53 acetylation, leading to a significant decrease in the ratios of cleaved caspase-3/caspase-3 (p < 0.05) and Bax/Bcl-2 (p < 0.0001) in testicular tissues. These effects collectively alleviated mitochondria-mediated apoptosis in the testes of obese mice. CONCLUSION: ECD alleviates mitochondria-mediated apoptosis in testicular tissues by regulating the SIRT1/p53 axis, thereby mitigating obesity-related SD. These findings highlight ECD as a potential therapeutic agent for the management of obesity-related male infertility.",
+    "keywords": [
+      "Blood-testis barrier (BTB)",
+      "Er-Chen decoction (ECD)",
+      "High-fat diet (HFD)",
+      "Mitochondria-mediated apoptosis",
+      "Spermatogenic dysfunction (SD)",
+      "p53 acetylation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "*Sirtuin 1/metabolism/genetics",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "*Obesity/drug therapy/complications",
+      "Mice",
+      "Diet, High-Fat/adverse effects",
+      "*Spermatogenesis/drug effects",
+      "Mice, Inbred C57BL",
+      "*Infertility, Male/drug therapy/etiology",
+      "Spermatozoa/drug effects",
+      "Signal Transduction/drug effects",
+      "Mice, Obese",
+      "Sperm Motility/drug effects",
+      "Testis/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Maohui",
+        "Chen, Jiawei",
+        "Zhou, Zubing",
+        "Wang, Jiexin",
+        "Li, Guangsen",
+        "Xie, Jinghui",
+        "Wen, Lingmiao",
+        "Wang, Huan",
+        "Gan, Rong",
+        "Zhang, Peihai",
+        "Gong, Yanju",
+        "Ding, Weijun"
+      ],
+      "short_names": [
+        "Liu M",
+        "Chen J",
+        "Zhou Z",
+        "Wang J",
+        "Li G",
+        "Xie J",
+        "Wen L",
+        "Wang H",
+        "Gan R",
+        "Zhang P",
+        "Gong Y",
+        "Ding W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, 610075, Sichuan Province, People's Republic of China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China.",
+        "Research and Experiment Center, Sichuan College of Traditional Chinese Medicine, Mianyang, 621000, Sichuan Province, People's Republic of China.",
+        "Gengma Dai and Wa Autonomous County No. 1 Middle School, Lincang, 677599, Yunnan Province, People's Republic of China.",
+        "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, 610075, Sichuan Province, People's Republic of China. Electronic address: Zhangpeihai@cdutcm.edu.cn.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China. Electronic address: Gongyanju@cdutcm.edu.cn.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China. Electronic address: Dingweijun@cdutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Maohui",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiawei",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zubing",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiexin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Guangsen",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, 610075, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xie, Jinghui",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wen, Lingmiao",
+        "short_name": "Wen L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Huan",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Experiment Center, Sichuan College of Traditional Chinese Medicine, Mianyang, 621000, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gan, Rong",
+        "short_name": "Gan R",
+        "identifiers": [],
+        "affiliations": [
+          "Gengma Dai and Wa Autonomous County No. 1 Middle School, Lincang, 677599, Yunnan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peihai",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, 610075, Sichuan Province, People's Republic of China. Electronic address: Zhangpeihai@cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Gong, Yanju",
+        "short_name": "Gong Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China. Electronic address: Gongyanju@cdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ding, Weijun",
+        "short_name": "Ding W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, Sichuan Province, People's Republic of China. Electronic address: Dingweijun@cdutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2026 Feb 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/19 00:28",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41109537",
+      "40701420",
+      "40617360",
+      "33741439",
+      "29572383",
+      "42543373",
+      "41951192",
+      "32159232",
+      "42585680",
+      "41385953",
+      "41047055",
+      "40824306",
+      "39921059",
+      "37524234",
+      "41921767",
+      "42349767",
+      "42316183",
+      "41349872",
+      "40917356",
+      "40360040",
+      "42208102",
+      "42486454",
+      "41232479",
+      "34496874",
+      "33638320",
+      "40446578",
+      "42061567",
+      "33508368",
+      "41724290",
+      "38679399",
+      "39556986",
+      "38583728",
+      "34753504",
+      "41831735",
+      "41520958",
+      "40615099",
+      "41035162",
+      "41538120",
+      "38639009",
+      "31004475",
+      "41922818",
+      "41505913",
+      "25886196",
+      "40120542",
+      "41448369",
+      "41508211",
+      "39216775",
+      "42337893",
+      "41397546",
+      "41990925",
+      "33039628",
+      "42173415",
+      "39623123",
+      "42276391",
+      "41344517",
+      "40617365",
+      "37660955",
+      "38946025",
+      "33460759",
+      "42522177",
+      "42409346",
+      "41202380",
+      "40425964",
+      "42173417",
+      "34293456",
+      "42035996",
+      "41814823",
+      "37336336",
+      "34302943",
+      "36341818",
+      "41177240",
+      "40007375",
+      "40916281",
+      "41250907",
+      "42442304",
+      "26081124",
+      "37038833",
+      "38027181",
+      "41317807",
+      "42431282",
+      "42162760",
+      "41814773",
+      "31904495",
+      "40545514",
+      "42468370",
+      "37146842",
+      "40187624",
+      "39577223",
+      "39000558",
+      "35402191",
+      "42119951",
+      "39777882",
+      "39523692",
+      "41475625",
+      "32635386",
+      "38735877",
+      "41038150",
+      "41237871",
+      "42155248",
+      "39987515"
+    ],
+    "review": [
+      "41109537"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(25)01450-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/obesity.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Obesity"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAX-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

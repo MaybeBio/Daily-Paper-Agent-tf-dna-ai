@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "37149929",
+    "doi": "10.1016/j.ebiom.2023.104587",
+    "title": "Genome-wide CRISPR/Cas9 screening identifies a targetable MEST-PURA interaction in cancer metastasis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Metastasis is one of the most lethal hallmarks of esophageal squamous cell carcinoma (ESCC), yet the mechanisms remain unclear due to a lack of reliable experimental models and systematic identification of key drivers. There is urgent need to develop useful therapies for this lethal disease. METHODS: A genome-wide CRISPR/Cas9 screening, in combination with gene profiling of highly invasive and metastatic ESCC sublines, as well as PDX models, was performed to identify key regulators of cancer metastasis. The Gain- and loss-of-function experiments were taken to examine gene function. Protein interactome, RNA-seq, and whole genome methylation sequencing were used to investigate gene regulation and molecular mechanisms. Clinical significance was analyzed in tumor tissue microarray and TCGA databases. Homology modeling, modified ELISA, surface plasmon resonance and functional assays were performed to identify lead compound which targets MEST to suppress cancer metastasis. FINDINGS: High MEST expression was associated with poor patient survival and promoted cancer invasion and metastasis in ESCC. Mechanistically, MEST activates SRCIN1/RASAL1-ERK-snail signaling by interacting with PURA. miR-449a was identified as a direct regulator of MEST, and hypermethylation of its promoter led to MEST upregulation, whereas systemically delivered miR-449a mimic could suppress tumor metastasis without overt toxicity. Furthermore, molecular docking and computational screening in a small-molecule library of 1,500,000 compounds and functional assays showed that G699-0288 targets the MEST-PURA interaction and significantly inhibits cancer metastasis. INTERPRETATION: We identified the MEST-PURA-SRCIN1/RASAL1-ERK-snail signaling cascade as an important mechanism underlying cancer metastasis. Blockade of MEST-PURA interaction has therapeutic potential in management of cancer metastasis. FUNDING: This work was supported by National Key Research and Development Program of China (2021YFC2501000, 2021YFC2501900, 2017YFA0505100); National Natural Science Foundation of China (31961160727, 82073196, 81973339, 81803551); NSFC/RGC Joint Research Scheme (N_HKU727/19); Natural Science Foundation of Guangdong Province (2021A1515011158, 2021A0505030035); Key Laboratory of Guangdong Higher Education Institutes of China (2021KSYS009).",
+    "keywords": [
+      "CRISPR/Cas9 screening",
+      "Cancer metastasis",
+      "Esophageal cancer",
+      "Noncoding RNA",
+      "Protein interactome"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Esophageal Squamous Cell Carcinoma/pathology",
+      "*Esophageal Neoplasms/genetics",
+      "Molecular Docking Simulation",
+      "CRISPR-Cas Systems",
+      "Early Detection of Cancer",
+      "*MicroRNAs/genetics",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Proliferation",
+      "Cell Movement/genetics",
+      "DNA-Binding Proteins/genetics",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Wen Wen",
+        "Liao, Long",
+        "Dai, Wei",
+        "Zheng, Can-Can",
+        "Tan, Xiang-Peng",
+        "He, Yan",
+        "Zhang, Qi-Hua",
+        "Huang, Zhi-Hao",
+        "Chen, Wen-You",
+        "Qin, Yan-Ru",
+        "Chen, Kui-Sheng",
+        "He, Ming-Liang",
+        "Law, Simon",
+        "Lung, Maria Li",
+        "He, Qing-Yu",
+        "Li, Bin"
+      ],
+      "short_names": [
+        "Xu WW",
+        "Liao L",
+        "Dai W",
+        "Zheng CC",
+        "Tan XP",
+        "He Y",
+        "Zhang QH",
+        "Huang ZH",
+        "Chen WY",
+        "Qin YR",
+        "Chen KS",
+        "He ML",
+        "Law S",
+        "Lung ML",
+        "He QY",
+        "Li B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China; MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China.",
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China; MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China.",
+        "Department of Clinical Oncology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China.",
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China.",
+        "Research Center of Cancer Diagnosis and Therapy, and Department of Clinical Oncology, First Affiliated Hospital, Jinan University, Guangzhou, China.",
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China; MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China.",
+        "MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China.",
+        "MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China.",
+        "Department of Thoracic Surgery, First Affiliated Hospital, Jinan University, Guangzhou, China.",
+        "State Key Laboratory of Esophageal Cancer Prevention and Treatment, Department of Clinical Oncology, First Affiliated Hospital, Zhengzhou University, Zhengzhou, China.",
+        "Henan Province Key Laboratory of Tumor Pathology, Department of Pathology, First Affiliated Hospital, Zhengzhou University, Zhengzhou, China.",
+        "Department of Biomedical Sciences, City University of Hong Kong, Hong Kong, China.",
+        "Department of Surgery, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China.",
+        "Department of Clinical Oncology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China. Electronic address: mlilung@hku.hk.",
+        "MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China. Electronic address: tqyhe@jnu.edu.cn.",
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China; MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China. Electronic address: lib2128@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Wen Wen",
+        "short_name": "Xu WW",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China; MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Long",
+        "short_name": "Liao L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China; MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Wei",
+        "short_name": "Dai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Oncology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Can-Can",
+        "short_name": "Zheng CC",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Xiang-Peng",
+        "short_name": "Tan XP",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center of Cancer Diagnosis and Therapy, and Department of Clinical Oncology, First Affiliated Hospital, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Yan",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China; MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qi-Hua",
+        "short_name": "Zhang QH",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhi-Hao",
+        "short_name": "Huang ZH",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wen-You",
+        "short_name": "Chen WY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, First Affiliated Hospital, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Yan-Ru",
+        "short_name": "Qin YR",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Esophageal Cancer Prevention and Treatment, Department of Clinical Oncology, First Affiliated Hospital, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Kui-Sheng",
+        "short_name": "Chen KS",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Province Key Laboratory of Tumor Pathology, Department of Pathology, First Affiliated Hospital, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Ming-Liang",
+        "short_name": "He ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, City University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Law, Simon",
+        "short_name": "Law S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Lung, Maria Li",
+        "short_name": "Lung ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Oncology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China. Electronic address: mlilung@hku.hk."
+        ]
+      },
+      {
+        "full_name": "He, Qing-Yu",
+        "short_name": "He QY",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China. Electronic address: tqyhe@jnu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Bin",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes and Key Laboratory of Protein Modification and Degradation, The Fifth Affiliated Hospital of Guangzhou Medical University and School of Basic Medical Sciences, Guangzhou Medical University, Guangzhou, China; MOE Key Laboratory of Tumor Molecular Biology, National Engineering Research Center of Genetic Medicine, College of Life Science and Technology, Jinan University, Guangzhou, China. Electronic address: lib2128@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "EBioMedicine"
+    ],
+    "journal_abbrev": [
+      "EBioMedicine"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/08 00:41",
+    "fetched_at": "2026-09-29 00:14:05"
+  },
+  "links": {
+    "cites": [
+      "42614207",
+      "41711973",
+      "41501725",
+      "41499008",
+      "41329461",
+      "41073785",
+      "40518456",
+      "40476449",
+      "40034336",
+      "39979279",
+      "39844051",
+      "39217334",
+      "38866560",
+      "38816739",
+      "38206988",
+      "38003514"
+    ],
+    "refs": [],
+    "similar": [
+      "37149929",
+      "27407092",
+      "29940778",
+      "32863938",
+      "28645305",
+      "35616822",
+      "33144099",
+      "33243974",
+      "35507004",
+      "36636641",
+      "30514328",
+      "30862136",
+      "33079409",
+      "29047233",
+      "32886291",
+      "27779648",
+      "35255921",
+      "32239639",
+      "36493845",
+      "30362164",
+      "32867821",
+      "32867454",
+      "25805931",
+      "32901893",
+      "32653032",
+      "31778020",
+      "31754291",
+      "28069583",
+      "31743955",
+      "32619460",
+      "30594787",
+      "36002674",
+      "31017699",
+      "35608100",
+      "28408353",
+      "25644061",
+      "30779074",
+      "31679450",
+      "33693959",
+      "32868648",
+      "35760875",
+      "31853782",
+      "33432363",
+      "36216119",
+      "26577858",
+      "23013135",
+      "35436983",
+      "32495982",
+      "29532228",
+      "36696239",
+      "25637514",
+      "29101304",
+      "25613496",
+      "35799142",
+      "34347390",
+      "27358073",
+      "34089582",
+      "28147304",
+      "33880577",
+      "33416035",
+      "30576425",
+      "33125097",
+      "26316588",
+      "29530057",
+      "36514094",
+      "33932125",
+      "31669361",
+      "30551528",
+      "31401147",
+      "32905814",
+      "28209530",
+      "32065218",
+      "31512786",
+      "37088855",
+      "25954903",
+      "29126868",
+      "34517880",
+      "28174206",
+      "31226958",
+      "32375686",
+      "25480402",
+      "33345719",
+      "35997118",
+      "36991467",
+      "34488675",
+      "30569149",
+      "34001062",
+      "36380664",
+      "31732666",
+      "34368875",
+      "32832354",
+      "37725855",
+      "37799381",
+      "34902746",
+      "38462771",
+      "36651277",
+      "38454137",
+      "37720572",
+      "38951705",
+      "35419481",
+      "38645078",
+      "38260789",
+      "38627522"
+    ],
+    "review": [
+      "37149929",
+      "38951705"
+    ],
+    "pmc": [
+      "10192437"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352-3964(23)00152-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/37149929/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37149929/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37149929",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNAI1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2352-3964(23)00152-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

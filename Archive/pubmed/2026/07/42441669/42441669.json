@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "42441669",
+    "doi": "10.1371/journal.pcbi.1014416",
+    "title": "Mutual inhibition model of pattern formation: The role of Wnt-Dickkopf interactions in driving Hydra body axis formation."
+  },
+  "content": {
+    "abstract": "The antagonistic interplay between canonical Wnt signalling and Dickkopf (Dkk) proteins is fundamental to tissue organisation, including stem cell differentiation and body-axis formation. Disruptions in this interaction are linked to various human diseases, yet the mechanisms by which beta-catenin/Wnt-Dkk interactions give rise to robust spatial patterning remain unclear. A key model system for Wnt-driven pattern formation is the pre-bilaterian organism Hydra, where two ancestral Dkk proteins interact with Wnt signalling to self-organise the body axis. While Hydra patterning has been extensively studied within the activator-inhibitor framework, a model that directly integrates experimentally identified molecular components has been lacking. Here, we introduce a mathematical model incorporating both Dkk molecules and their experimentally established interactions with Wnt signalling. Numerical simulations and analytical results show that the Wnt-Dkk network alone is sufficient to drive de novo body-axis formation across a broad parameter range. The model provides a biologically grounded realisation of the general local activation-long-range inhibition (LALI) principle, in which effective local activation emerges from mutual inhibition rather than molecular self-activation. In contrast to previous Hydra models, it explicitly links experimentally characterised Wnt-Dkk interactions to pattern formation, accounts for the experimentally observed role of injury-induced activation, and exhibits robust behaviour under perturbations.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Hydra/physiology/metabolism/embryology/growth & development",
+      "*Models, Biological",
+      "*Body Patterning/physiology",
+      "*Wnt Signaling Pathway/physiology",
+      "*Intercellular Signaling Peptides and Proteins/metabolism",
+      "*Wnt Proteins/metabolism",
+      "beta Catenin/metabolism",
+      "Computer Simulation",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mercker, Moritz",
+        "Kazarnikov, Alexey",
+        "Tursch, Anja",
+        "Richter, Thomas",
+        "Ozbek, Suat",
+        "Holstein, Thomas",
+        "Marciniak-Czochra, Anna"
+      ],
+      "short_names": [
+        "Mercker M",
+        "Kazarnikov A",
+        "Tursch A",
+        "Richter T",
+        "Ozbek S",
+        "Holstein T",
+        "Marciniak-Czochra A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7685-6193",
+        "ORCID: 0000-0002-4456-4882",
+        "ORCID: 0000-0003-0206-3606"
+      ],
+      "affiliations": [
+        "Institute for Mathematics and Interdisciplinary Center of Scientific Computing (IWR), Heidelberg University, Heidelberg, Germany.",
+        "Institute for Mathematics and Interdisciplinary Center of Scientific Computing (IWR), Heidelberg University, Heidelberg, Germany.",
+        "Centre for Organismal Studies (COS), Heidelberg University, Heidelberg, Germany.",
+        "Institute of Analysis and Numerics, University Magdeburg, Magdeburg, Germany.",
+        "Centre for Organismal Studies (COS), Heidelberg University, Heidelberg, Germany.",
+        "Centre for Organismal Studies (COS), Heidelberg University, Heidelberg, Germany.",
+        "Institute for Mathematics and Interdisciplinary Center of Scientific Computing (IWR), Heidelberg University, Heidelberg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mercker, Moritz",
+        "short_name": "Mercker M",
+        "identifiers": [
+          "0000-0002-7685-6193"
+        ],
+        "affiliations": [
+          "Institute for Mathematics and Interdisciplinary Center of Scientific Computing (IWR), Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kazarnikov, Alexey",
+        "short_name": "Kazarnikov A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Mathematics and Interdisciplinary Center of Scientific Computing (IWR), Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Tursch, Anja",
+        "short_name": "Tursch A",
+        "identifiers": [
+          "0000-0002-4456-4882"
+        ],
+        "affiliations": [
+          "Centre for Organismal Studies (COS), Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Richter, Thomas",
+        "short_name": "Richter T",
+        "identifiers": [
+          "0000-0003-0206-3606"
+        ],
+        "affiliations": [
+          "Institute of Analysis and Numerics, University Magdeburg, Magdeburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Özbek, Suat",
+        "short_name": "Özbek S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Organismal Studies (COS), Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Holstein, Thomas",
+        "short_name": "Holstein T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Organismal Studies (COS), Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Marciniak-Czochra, Anna",
+        "short_name": "Marciniak-Czochra A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Mathematics and Interdisciplinary Center of Scientific Computing (IWR), Heidelberg University, Heidelberg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/13 22:42",
+    "fetched_at": "2026-10-02 01:52:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40758890",
+      "40561030",
+      "40026208",
+      "37339912",
+      "35994642",
+      "34890235",
+      "34107975",
+      "33904408",
+      "33779545",
+      "31676551",
+      "31570230",
+      "31542413",
+      "30659200",
+      "30106379",
+      "30082916",
+      "28354075",
+      "27479546",
+      "27032616",
+      "26648540",
+      "25954896",
+      "25484005",
+      "24376555",
+      "23919125",
+      "22855328",
+      "22689370",
+      "22451044",
+      "22072186",
+      "21819240",
+      "20482022",
+      "20045682",
+      "20005801",
+      "19273195",
+      "19217898",
+      "18403408",
+      "18375512",
+      "17143291",
+      "16806155",
+      "16618934",
+      "16452091",
+      "16386765",
+      "15930119",
+      "15473860",
+      "12557204",
+      "12557201",
+      "11902686",
+      "11861471",
+      "11050241",
+      "11044390",
+      "11001056",
+      "10918306",
+      "10570958",
+      "8806822",
+      "8500647",
+      "6825956",
+      "6825954",
+      "4663624",
+      "4507522",
+      "4507514",
+      "4395402",
+      "2731636",
+      "1577184",
+      "1577183"
+    ],
+    "similar": [
+      "42441669",
+      "31799436",
+      "29877570",
+      "42475469",
+      "22451044",
+      "11001056",
+      "29029622",
+      "39929422",
+      "16452091",
+      "32817436",
+      "34884726",
+      "39706357",
+      "33245611",
+      "19217898",
+      "15930119",
+      "28648560",
+      "34107975",
+      "31738910",
+      "22689359",
+      "32871156",
+      "21819240",
+      "17143289",
+      "11433302",
+      "11448771",
+      "16160745",
+      "26176867",
+      "40810225",
+      "27427963",
+      "40561030",
+      "20005801",
+      "18157634",
+      "30869835",
+      "35994642",
+      "41942019",
+      "33779545",
+      "20045682",
+      "20066073",
+      "23531412",
+      "28682874",
+      "30659200",
+      "34818531",
+      "35858299",
+      "19035286",
+      "23904598",
+      "25793621",
+      "33496879",
+      "24747916",
+      "18827832",
+      "19237582",
+      "26383960",
+      "25156256",
+      "27160071",
+      "18088386",
+      "17964517",
+      "23302695",
+      "15592505",
+      "16491118",
+      "29108673",
+      "22341307",
+      "32823838",
+      "30082916",
+      "16890928",
+      "25351982",
+      "24924167",
+      "18006602",
+      "24577091",
+      "31676551",
+      "10918306",
+      "24378667",
+      "27049730",
+      "31028181",
+      "18524778",
+      "24012879",
+      "24308963",
+      "22356261",
+      "23261982",
+      "11742004",
+      "26837533",
+      "24848709",
+      "31538414",
+      "23881674",
+      "23824574",
+      "22074601",
+      "23335859",
+      "22049680",
+      "29925589",
+      "22590521",
+      "36967201",
+      "17449905",
+      "17082421",
+      "29107840",
+      "17971207",
+      "20883218",
+      "17064353",
+      "40358879",
+      "24300170",
+      "21268126",
+      "28171748",
+      "30244402",
+      "28259755"
+    ],
+    "review": [
+      "42441669",
+      "22451044",
+      "39929422",
+      "21819240",
+      "17143289",
+      "20005801",
+      "20066073",
+      "34818531",
+      "19035286",
+      "18088386",
+      "32823838",
+      "24924167",
+      "31676551",
+      "10918306",
+      "24308963",
+      "22074601",
+      "22049680"
+    ],
+    "pmc": [
+      "13384401"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1014416",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42441669/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

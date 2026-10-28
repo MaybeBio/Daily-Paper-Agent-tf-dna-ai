@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The study investigates the role of the SAP domain of the Ku70 subunit in the Ku heterodimer's interaction with DNA ends. Using transient kinetic analysis (mwPIFE and stopped-flow), the authors report that the SAP domain facilitates the initial binding and docking phases of Ku onto DNA ends but does not affect sliding. In vivo, Arabidopsis plants expressing Ku lacking the SAP domain show normal telomere maintenance and proficiency in classical NHEJ, despite reduced DNA loading efficiency in vitro.
+- **Visible evidence base** Abstract, Introduction, Materials and methods, Results, Discussion, figure legends (partial), supplementary figure references
+- **Missing materials affecting confidence** Full figure panels and legends, supplementary figures and tables, raw kinetic data, statistical analysis details, plasmid construction details, primer sequences, full Western blot images
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question regarding the mechanistic role of the SAP domain in Ku function. The combination of in vitro kinetic analyses and in vivo plant studies is commendable and provides a comprehensive approach. However, several technical and interpretive issues need to be addressed, particularly regarding the quantification of kinetic parameters, the interpretation of EMSA data, and the generalizability of the in vivo conclusions given the reduced expression of the ΔSAP variant.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA repair, specifically NHEJ, telomere biology, and genome stability. The study also has relevance for those interested in the biophysics of protein-DNA interactions and the evolutionary conservation of DNA repair mechanisms across eukaryotes.
+- **Major strengths** The study combines rigorous in vitro biophysical approaches (stopped-flow kinetics, mwPIFE) with in vivo genetic complementation in Arabidopsis. The use of a plant system to dissect Ku function is valuable, as it provides an evolutionary perspective. The kinetic dissection of the loading pathway into distinct phases is a strong methodological contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of kinetic analysis
+  - **Claim pointer** The authors claim that the SAP domain facilitates the initial binding and docking phases of Ku onto DNA, based on stopped-flow kinetic analysis.
+  - **Evidence pointer** Results section, Figure 3C, Table 1, Supplementary Figure S3
+  - **Concern** The stopped-flow kinetic analysis relies on fitting fluorescence traces to single or double exponentials. The manuscript does not provide sufficient detail on how the kinetic model was selected, how many independent experiments were performed, and how the reported rate constants and their errors were calculated. The concentration dependence of observed rates is used to derive kinetic constants, but the fitting procedure and the statistical validation of the model (e.g., comparison of single vs. double exponential fits) are not described. This is critical because the interpretation of two distinct phases (initial binding vs. docking) depends entirely on the robustness of this fitting.
+  - **Why it matters** Without a clear and statistically validated kinetic model, the assignment of specific rate constants to distinct mechanistic steps (initial interaction, docking, sliding) is not reliable. The central claim of the paper rests on this kinetic dissection.
+  - **Resolution test** Provide a detailed description of the fitting procedure, including the criteria for choosing single vs. double exponential models, the number of replicates, and the error analysis. Show representative fits with residuals. Provide a global analysis of the concentration dependence, ideally with a full kinetic simulation of the proposed mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of in vivo data
+  - **Claim pointer** The authors claim that the ΔSAP Ku complex is fully proficient in telomere maintenance and NHEJ in vivo, despite reduced DNA loading efficiency in vitro.
+  - **Evidence pointer** Results section, Figures 4 and 5, Supplementary Figure S4
+  - **Concern** The Western blot analysis (Supplementary Figure S4) shows that the ΔSAP Ku70 variant is expressed at substantially lower levels than the wild-type Ku70. This confounds the interpretation of the in vivo results. It is possible that the reduced expression level is compensated by other mechanisms, or that the threshold for Ku function in vivo is lower than the level provided by the ΔSAP variant. The authors do not address this potential confound directly. They state that the lower level is not due to proteasome-mediated degradation, but this does not rule out functional consequences of reduced protein abundance.
+  - **Why it matters** The conclusion that the SAP domain is dispensable for telomere maintenance and NHEJ in vivo is weakened if the ΔSAP protein is present at lower levels. The observed proficiency could be due to the residual amount of ΔSAP Ku being sufficient for function, rather than the SAP domain being truly dispensable.
+  - **Resolution test** Provide quantitative analysis of Ku70 protein levels in the complemented lines. If possible, generate lines with comparable expression levels of wild-type and ΔSAP Ku70. Alternatively, perform a titration experiment to determine the minimum Ku level required for telomere protection and NHEJ, and compare this to the level of ΔSAP Ku expressed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of EMSA
+  - **Claim pointer** The authors state that EMSA shows that higher-order complexes (with four Ku molecules bound) form less efficiently with ΔSAP Ku.
+  - **Evidence pointer** Results section, Figure 2C
+  - **Concern** The EMSA data are presented qualitatively. The claim that higher-order complexes form less efficiently is based on visual inspection of the gel. No quantification is provided, and the concentration range tested is not clearly indicated in the text. It is unclear whether the difference in higher-order complex formation is statistically significant and whether it reflects a specific defect in loading or a general reduction in DNA binding affinity.
+  - **Why it matters** This is the first piece of evidence suggesting a role for SAP in DNA binding. If this observation is not robustly quantified, the subsequent kinetic analysis is built on a weak foundation.
+  - **Resolution test** Quantify the EMSA data (e.g., fraction of DNA bound, distribution of complexes) from at least three independent experiments. Show the concentration range tested and provide statistical analysis. Consider using a longer DNA substrate to better resolve multiple Ku binding events.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methodology
+  - **Affected element** Materials and methods, DNA binding assays
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The description of the mwPIFE and stopped-flow experiments lacks detail on the exact DNA substrates used (sequences, lengths, labeling positions) and the buffer conditions. This information is essential for reproducibility.
+  - **Required correction** Provide full details of the DNA substrates (sequences in Supplementary Table S1) and the exact buffer composition for all binding assays.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section, Figure 3
+  - **Evidence pointer** Results section, Figure 3C
+  - **Concern** The kinetic traces in Figure 3C are shown as averages, but the number of replicates and the variability between replicates are not indicated. Error bars or confidence intervals should be shown.
+  - **Required correction** Include error bars or confidence intervals on the kinetic traces and indicate the number of replicates in the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results section, Figures 4 and 5
+  - **Evidence pointer** Results section, Figures 4 and 5
+  - **Concern** The telomere length and bleomycin sensitivity data are presented without statistical analysis. It is unclear if the differences between genotypes are significant.
+  - **Required correction** Add statistical tests (e.g., ANOVA or t-tests) for the telomere length and bleomycin sensitivity data, and report p-values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of sliding data
+  - **Affected element** Results section, Figure 3B
+  - **Evidence pointer** Results section, Figure 3B
+  - **Concern** The statement that sliding is less affected by SAP deletion is based on a smaller difference in PIFE signal with the 55 bp probe. However, the PIFE signal is not a direct measure of sliding processivity. A more direct assay (e.g., single-molecule tracking) would be needed to confirm this conclusion.
+  - **Required correction** Acknowledge the limitation of the PIFE assay for measuring sliding and consider discussing alternative interpretations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Generalizability of conclusions
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors conclude that the speed of Ku loading is not decisive for telomere maintenance and NHEJ. This conclusion is based on a single plant system and a single mutant variant. It would be strengthened by discussing the potential differences between plant and mammalian Ku, particularly given the absence of DNA-PKcs in plants.
+  - **Required correction** Add a paragraph in the Discussion addressing the potential differences between plant and mammalian systems and the implications for the generalizability of the conclusions.
+
+## Risk / unsupported claims
+- The claim that the SAP domain facilitates the initial binding and docking phases is not fully supported due to insufficient detail on the kinetic fitting procedure and statistical validation.
+- The claim that ΔSAP Ku is fully proficient in telomere maintenance and NHEJ in vivo is confounded by the reduced expression level of the ΔSAP variant.
+- The claim that sliding is less affected by SAP deletion is based on indirect PIFE measurements and requires a more direct assay for confirmation.
+- The statement that the SAP domain may act as a "flexible holder" that grabs DNA and drags it to the channel is speculative and not directly tested in this study.
+- The conclusion that the speed of Ku loading is not decisive for telomere maintenance and NHEJ is based on a single experimental system and may not be generalizable.

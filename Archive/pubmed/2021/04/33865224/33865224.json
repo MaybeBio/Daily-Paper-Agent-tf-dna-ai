@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "33865224",
+    "doi": "10.1016/j.bbrc.2021.04.014",
+    "title": "Exploring the changes of brain immune microenvironment in Alzheimer's disease based on PANDA algorithm combined with blood brain barrier injury-related genes."
+  },
+  "content": {
+    "abstract": "Studies have shown that the specific entry of peripheral cells into the brain parenchyma caused by BBB injury and the imbalance of the immune microenvironment in the brain are closely related to the pathogenesis of Alzheimer's disease (AD). Because of the difficulty of obtaining data inside the brain, it is urgent to find out the relationship between the peripheral and intracerebral data and their influence on the development of AD by machine learning methods. However, in the actual algorithm design, it is still a challenge to extract relevant information from a variety of data to establish a complete and accurate regulatory network. In order to overcome the above difficulties, we presented a method based on a message passing model (Passing Attributes between Networks for Data Assimilation, PANDA) to discover the correlation between internal and external brain by the BBB injury-related genes, and further explore their regulatory mechanism of the brain immune environment for AD pathology. The Biological analysis of the results showed that pathways such as immune response pathway, inflammatory response pathway and chemokine signaling pathway are closely related to the pathogenesis of AD. Especially, some significant genes such as RELA, LAMA4, PPBP were found play certain roles in the injury of BBB and the change of permeability in AD patients, thus leading to the change of immune microenvironment in AD brain.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Blood brain barrier",
+      "Mutual information",
+      "PANDA"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Alzheimer Disease/genetics/immunology/*metabolism",
+      "Blood-Brain Barrier/immunology/*metabolism/pathology",
+      "Brain/metabolism/pathology",
+      "Cellular Microenvironment/*genetics/immunology",
+      "Chemokines/metabolism",
+      "Computer Simulation",
+      "Databases, Genetic",
+      "Gene Expression Regulation/*genetics/immunology",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Inflammation/metabolism",
+      "Laminin/genetics/metabolism",
+      "Signal Transduction/genetics/immunology",
+      "Transcription Factor RelA/genetics/metabolism",
+      "beta-Thromboglobulin/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Shiting",
+        "Kong, Wei",
+        "Wang, Shuaiqun"
+      ],
+      "short_names": [
+        "Lu S",
+        "Kong W",
+        "Wang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Information Engineering, Shanghai Maritime University, 1550 Haigang Ave., Shanghai, 201306, PR China. Electronic address: 201930310147@stu.shmtu.edu.cn.",
+        "College of Information Engineering, Shanghai Maritime University, 1550 Haigang Ave., Shanghai, 201306, PR China. Electronic address: weikong@shmtu.edu.cn.",
+        "College of Information Engineering, Shanghai Maritime University, 1550 Haigang Ave., Shanghai, 201306, PR China. Electronic address: wangsq@shmtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Shiting",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Shanghai Maritime University, 1550 Haigang Ave., Shanghai, 201306, PR China. Electronic address: 201930310147@stu.shmtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Kong, Wei",
+        "short_name": "Kong W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Shanghai Maritime University, 1550 Haigang Ave., Shanghai, 201306, PR China. Electronic address: weikong@shmtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuaiqun",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Shanghai Maritime University, 1550 Haigang Ave., Shanghai, 201306, PR China. Electronic address: wangsq@shmtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2021 Jun 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/18 06:00",
+    "fetched_at": "2026-09-27 16:06:43"
+  },
+  "links": {
+    "cites": [
+      "40254131",
+      "40085351",
+      "39544772",
+      "35615585",
+      "35318719"
+    ],
+    "refs": [],
+    "similar": [
+      "33865224",
+      "32372707",
+      "30801976",
+      "28446202",
+      "28413983",
+      "39180590",
+      "27661129",
+      "28719625",
+      "30106219",
+      "26019015",
+      "21996556",
+      "37051650",
+      "32781194",
+      "29675796",
+      "22130026",
+      "21336338",
+      "34897087",
+      "31047972",
+      "30252487",
+      "33023629",
+      "27633771",
+      "36569892",
+      "25757756",
+      "23399672",
+      "30598117",
+      "28129888",
+      "26484906",
+      "26454022",
+      "22531426",
+      "28471166",
+      "28902142",
+      "31306129",
+      "30541599",
+      "27497477",
+      "31750987",
+      "28697565",
+      "29777753",
+      "27894893",
+      "29061693",
+      "30153473",
+      "37451918",
+      "16932992",
+      "35069578",
+      "30219292",
+      "28606049",
+      "24859746",
+      "32111138",
+      "31699331",
+      "24812571",
+      "28245546",
+      "27156888",
+      "29782323",
+      "27799057",
+      "28514851",
+      "30201212",
+      "32977249",
+      "25281018",
+      "17310121",
+      "30079520",
+      "28442538",
+      "32043530",
+      "25114073",
+      "27288705",
+      "29401609",
+      "32389853",
+      "24251393",
+      "27732949",
+      "33050925",
+      "28994715",
+      "29171999",
+      "30240876",
+      "26338174",
+      "38807051",
+      "24853428",
+      "23741402",
+      "25075530",
+      "33199776",
+      "35085532",
+      "24148264",
+      "34539387",
+      "18563639",
+      "33023656",
+      "20435134",
+      "20635884",
+      "34523079",
+      "34211065",
+      "37629078",
+      "36012501",
+      "35766008",
+      "25197660",
+      "24367384",
+      "31073522",
+      "31080696"
+    ],
+    "review": [
+      "33865224",
+      "39180590",
+      "21996556",
+      "37051650",
+      "32781194",
+      "22130026",
+      "34897087",
+      "33023629",
+      "23399672",
+      "28129888",
+      "28902142",
+      "31306129",
+      "27497477",
+      "31750987",
+      "27894893",
+      "29061693",
+      "30153473",
+      "37451918",
+      "16932992",
+      "35069578",
+      "28606049",
+      "24859746",
+      "32111138",
+      "31699331",
+      "27156888",
+      "29782323",
+      "32977249",
+      "24251393",
+      "33050925",
+      "28994715",
+      "29171999",
+      "30240876",
+      "26338174",
+      "33199776",
+      "24148264",
+      "18563639",
+      "34523079",
+      "37629078",
+      "24367384"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(21)00610-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://scite.ai/reports/33865224",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.15.553228",
+  "title": "Machine learning model interpretations explain T cell receptor binding",
+  "authors": "Brandon Carter; Jonathan Krog; Michael E. Birnbaum; David K. Gifford",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-16",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习预测TCR-pMHC结合并解释序列特征，虽涉及蛋白-肽-MHC互作，但非蛋白质-DNA体系，且无三维互作建模，仅序列层面，与TF-DNA课题关联较弱。",
+  "abstract": "T cells mediate immune responses against pathogens and cancer through T cell receptors (TCRs) that recognize foreign peptides presented on the cell surface by Major Histocompatibility Complex (MHC) proteins. TCRs carry enormous diversity and differ across individuals, and mechanisms that determine TCR-pMHC binding are poorly understood. The ability to predict TCR-pMHC interactions would accelerate development of cellular therapeutics to design TCRs that specifically bind to a target of interest. We designed a randomized library of 19 6 TCR CDR3 β sequences and experimentally evaluated their affinities for the Tax-A02 peptide-MHC target. We trained ML models that predict TCR binding to Tax-A02 from TCR sequence and used model interpretation to identify TCR sequence features associated with binding. We found these features accurately mirror the true sequence features in our experimental data.",
+  "abstract_zh": "T细胞通过T细胞受体（TCRs）介导针对病原体和癌症的免疫反应，这些受体识别由主要组织相容性复合体（MHC）蛋白呈递在细胞表面的外源肽段。TCRs具有巨大的多样性，且在不同个体间存在差异，决定TCR-pMHC结合的机制尚不明确。预测TCR-pMHC相互作用的能力将加速细胞疗法的开发，以设计能特异性结合目标靶点的TCRs。我们设计了一个包含19 6个TCR CDR3 β序列的随机文库，并通过实验评估了它们对Tax-A02肽-MHC靶标的亲和力。我们训练了机器学习（ML）模型，从TCR序列预测TCR与Tax-A02的结合，并利用模型解释来识别与结合相关的TCR序列特征。我们发现这些特征准确反映了我们实验数据中的真实序列特征。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.15.553228",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.15.553228",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.15.553228/index.html"
+}

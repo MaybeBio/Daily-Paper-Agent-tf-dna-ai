@@ -1,0 +1,285 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.02.21.432120",
+  "title": "Finding Druggable Sites in Proteins using TACTICS",
+  "doi": "10.1101/2021.02.21.432120",
+  "abstract": "Structure-based drug discovery efforts require knowledge of where drug-binding sites are located on target proteins. To address the challenge of finding druggable sites, we developed a machine-learning algorithm called TACTICS (Trajectory-based Analysis of Conformations To Identify Cryptic Sites), which uses an ensemble of molecular structures (such as molecular dynamics simulation data) as input. First, TACTICS uses k-means clustering to select a small number of conformations that represent the overall conformational heterogeneity of the data. Then, TACTICS uses a random forest model to identify potentially bindable residues in each selected conformation, based on protein motion and geometry. Lastly, residues in possible binding pockets are scored using fragment docking. As proof-of-principle, TACTICS was applied to the analysis of simulations of the SARS-CoV-2 main protease and methyltransferase and the Yersinia pestis aryl carrier protein. Our approach recapitulates known small-molecule binding sites and predicts the locations of sites not previously observed in experimentally determined structures. The TACTICS code is available at https://github.com/Albert-Lau-Lab/tactics_protein_analysis .",
+  "authors": [
+    "Evans DJ",
+    "Yovanno RA",
+    "Rahman S",
+    "Cao DW",
+    "Beckett MQ",
+    "Patel MH",
+    "Bandak AF",
+    "Lau AY"
+  ],
+  "published_date": "2021-02-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.02.21.432120",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.02.21.432120.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR286455",
+    "raw_record": {
+      "id": "PPR286455",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR286455"
+        ]
+      },
+      "doi": "10.1101/2021.02.21.432120",
+      "title": "Finding Druggable Sites in Proteins using TACTICS",
+      "authorString": "Evans DJ, Yovanno RA, Rahman S, Cao DW, Beckett MQ, Patel MH, Bandak AF, Lau AY.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Evans DJ",
+            "lastName": "Evans",
+            "firstName": "Daniel",
+            "initials": "DJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2636-895X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yovanno RA",
+            "lastName": "Yovanno",
+            "firstName": "Remy",
+            "initials": "RA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3852-6684"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rahman S",
+            "lastName": "Rahman",
+            "firstName": "Sanim",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cao DW",
+            "lastName": "Cao",
+            "firstName": "David",
+            "initials": "DW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beckett MQ",
+            "lastName": "Beckett",
+            "firstName": "Morgan",
+            "initials": "MQ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6944-6305"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD 21205, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Patel MH",
+            "lastName": "Patel",
+            "firstName": "Milan",
+            "initials": "MH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0938-2805"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bandak AF",
+            "lastName": "Bandak",
+            "firstName": "Afif",
+            "initials": "AF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lau AY",
+            "lastName": "Lau",
+            "firstName": "Albert",
+            "initials": "AY",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0967-7558"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0938-2805"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0967-7558"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2636-895X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6944-6305"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3852-6684"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Structure-based drug discovery efforts require knowledge of where drug-binding sites are located on target proteins. To address the challenge of finding druggable sites, we developed a machine-learning algorithm called TACTICS (Trajectory-based Analysis of Conformations To Identify Cryptic Sites), which uses an ensemble of molecular structures (such as molecular dynamics simulation data) as input. First, TACTICS uses k-means clustering to select a small number of conformations that represent the overall conformational heterogeneity of the data. Then, TACTICS uses a random forest model to identify potentially bindable residues in each selected conformation, based on protein motion and geometry. Lastly, residues in possible binding pockets are scored using fragment docking. As proof-of-principle, TACTICS was applied to the analysis of simulations of the SARS-CoV-2 main protease and methyltransferase and the  Yersinia pestis aryl carrier protein. Our approach recapitulates known small-molecule binding sites and predicts the locations of sites not previously observed in experimentally determined structures. The TACTICS code is available at  https://github.com/Albert-Lau-Lab/tactics_protein_analysis .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/21/2021.02.21.432120.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.02.21.432120"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR286455"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR286455&type=FILE&fileName=EMS119984-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34096704",
+            "reference": "Journal of chemical information and modeling. 2021 Jun;61(6):2897-2910",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS119984",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-02-22",
+      "firstPublicationDate": "2021-02-21",
+      "firstIndexDate": "2021-02-22",
+      "fullTextReceivedDate": "2021-04-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

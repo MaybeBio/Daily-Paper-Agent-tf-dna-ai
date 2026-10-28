@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41959049",
+    "doi": "10.64898/2026.03.27.714770",
+    "title": "Modeling gene regulatory perturbations via deep learning from high-throughput reporter assays."
+  },
+  "content": {
+    "abstract": "Assessing likely variant effects on phenotypes is of critical importance in diagnostic settings, and while much progress has been made in interpreting genic mutations based on our understanding of coding sequence, noncoding variants can be much more challenging to reliably interpret based on DNA sequence alone. High-throughput reporter assays such as STARR-seq and MPRA have shown utility in experimentally measuring regulatory effects of noncoding variants present in samples but provide no readout for variants not present in the assay inputs. However, whole-genome reporter assays provide copious data that can be used to train predictive models for prioritizing variants not directly observed in the experiment. We describe a retrainable predictive modeling framework, BlueSTARR, for this task, and present results of training several models with this framework on whole-genome STARR-seq data from two cell lines and one drug treatment. Using these models, we uncover a global signature across the human genome consistent with purifying selection against both loss-of-function and gain-of-function regulatory variants, with the latter showing a significant bias consistent with selection against gains of cis regulatory function in closed chromatin proximal to genes. By testing the model on synthetic enhancers with binding motifs for transcription factors GR and AP-1, we find that when trained on drug perturbation data, the model is able to learn distance-dependent and treatment-dependent binding patterns and their resulting reporter gene activation. These results demonstrate that lightweight, easily retrainable models such as ours have utility in probing latent signals present in novel experimental data. Finally, we find only modest differences in performance between different deep-learning architectures when trained on this single data modality, and while somewhat greater predictive accuracy can be achieved with much larger models trained at great expense on many terabytes of data, there is still copious room for improvement even for industrial strength, state-of-the-art models.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Venukuttan, Revathy",
+        "Doty, Richard",
+        "Thomson, Alexander",
+        "Chen, Yutian",
+        "Li, Boyao",
+        "Duan, Yuncheng",
+        "Barrera, Alejandro",
+        "Dura, Katherine",
+        "Ko, Kuei-Yueh",
+        "Lapp, Hilmar",
+        "Reddy, Timothy E",
+        "Allen, Andrew S",
+        "Majoros, William H"
+      ],
+      "short_names": [
+        "Venukuttan R",
+        "Doty R",
+        "Thomson A",
+        "Chen Y",
+        "Li B",
+        "Duan Y",
+        "Barrera A",
+        "Dura K",
+        "Ko KY",
+        "Lapp H",
+        "Reddy TE",
+        "Allen AS",
+        "Majoros WH"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-6697-3854",
+        "ORCID: 0009-0006-5080-587X",
+        "ORCID: 0009-0008-1205-0618",
+        "ORCID: 0000-0002-4092-2902",
+        "ORCID: 0000-0002-6568-0081",
+        "ORCID: 0000-0001-9244-9822",
+        "ORCID: 0000-0001-9457-423X",
+        "ORCID: 0000-0001-8564-8524",
+        "ORCID: 0000-0001-9107-0714",
+        "ORCID: 0000-0002-7629-061X",
+        "ORCID: 0000-0002-7232-2143",
+        "ORCID: 0000-0001-7284-9335"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Venukuttan, Revathy",
+        "short_name": "Venukuttan R",
+        "identifiers": [
+          "0009-0005-6697-3854"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Doty, Richard",
+        "short_name": "Doty R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Thomson, Alexander",
+        "short_name": "Thomson A",
+        "identifiers": [
+          "0009-0006-5080-587X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Yutian",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0009-0008-1205-0618"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Boyao",
+        "short_name": "Li B",
+        "identifiers": [
+          "0000-0002-4092-2902"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Duan, Yuncheng",
+        "short_name": "Duan Y",
+        "identifiers": [
+          "0000-0002-6568-0081"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Barrera, Alejandro",
+        "short_name": "Barrera A",
+        "identifiers": [
+          "0000-0001-9244-9822"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dura, Katherine",
+        "short_name": "Dura K",
+        "identifiers": [
+          "0000-0001-9457-423X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ko, Kuei-Yueh",
+        "short_name": "Ko KY",
+        "identifiers": [
+          "0000-0001-8564-8524"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lapp, Hilmar",
+        "short_name": "Lapp H",
+        "identifiers": [
+          "0000-0001-9107-0714"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Reddy, Timothy E",
+        "short_name": "Reddy TE",
+        "identifiers": [
+          "0000-0002-7629-061X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Allen, Andrew S",
+        "short_name": "Allen AS",
+        "identifiers": [
+          "0000-0002-7232-2143"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Majoros, William H",
+        "short_name": "Majoros WH",
+        "identifiers": [
+          "0000-0001-7284-9335"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/10 06:32",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41959049",
+      "31206543",
+      "41310253",
+      "42234579",
+      "41920894",
+      "31131957",
+      "41959166",
+      "37600946",
+      "37851522",
+      "35858748",
+      "33832990",
+      "23512712",
+      "39090688",
+      "36043696",
+      "41185025",
+      "41153440",
+      "35435921",
+      "40060626",
+      "39026761",
+      "38979263",
+      "33137083",
+      "34486522",
+      "34898596",
+      "39975126",
+      "41639451",
+      "29855387",
+      "29028988",
+      "41810371",
+      "39852553",
+      "40568119",
+      "36711646",
+      "40672290",
+      "28204611",
+      "39829783",
+      "42281968",
+      "37868037",
+      "41283681",
+      "26476779",
+      "41514301",
+      "31228310",
+      "29069282",
+      "34033342",
+      "36321557",
+      "33085409",
+      "38712228",
+      "26332131",
+      "35396274",
+      "35536244",
+      "39928034",
+      "41096905",
+      "31503413",
+      "40662821",
+      "38014075",
+      "41576653",
+      "41797598",
+      "38853998",
+      "27490187",
+      "31884638",
+      "31106481",
+      "40631122",
+      "36350674",
+      "41381741",
+      "39975293",
+      "35082832",
+      "38889146",
+      "40360798",
+      "33515242",
+      "41576119",
+      "34285090",
+      "32043966",
+      "27197224",
+      "40633538",
+      "24097306",
+      "22371084",
+      "39482734",
+      "37546906",
+      "31053165",
+      "36085003",
+      "39605382",
+      "40421528",
+      "41952336",
+      "37214836",
+      "41279449",
+      "31469829",
+      "38093018",
+      "42173101",
+      "23912807",
+      "37805453",
+      "35410163",
+      "41022923",
+      "37090677",
+      "27831498",
+      "29151363",
+      "19956545",
+      "33874910",
+      "33796819",
+      "42366973",
+      "41993329",
+      "37170195",
+      "37985457"
+    ],
+    "review": [
+      "41959049",
+      "31131957",
+      "36321557",
+      "41797598",
+      "31884638",
+      "40360798",
+      "36085003"
+    ],
+    "pmc": [
+      "13060236"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41959049/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.03.27.714770",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

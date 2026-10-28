@@ -1,0 +1,424 @@
+{
+  "identity": {
+    "pmid": "41350865",
+    "doi": "10.1186/s12943-025-02530-4",
+    "title": "CircRNF10 sequestrates beta-catenin by a dual regulatory circuit of direct degradation and a miR-1275/DKK3-mediated inhibition in driver gene- negative lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Circular RNAs (circRNAs) exert critical regulatory functions in tumor biology by modulating pathways associated with oncogenesis or tumor suppression. Despite substantial progress in elucidating their roles in several malignancies, the contribution of circRNAs to the pathogenesis of driver gene-negative lung adenocarcinoma (LUAD), a molecular subtype lacking actionable genetic alterations and exhibiting limited response to existing targeted or immunotherapeutic strategies, remains poorly defined. METHODS: The expression of circRNF10 in driver gene-negative LUAD was analyzed using circRNA microarray analysis followed by RT-qPCR validation. A series of functional assays were performed both in vitro and in vivo to evaluate the effects of circRNF10 on tumor cell behavior, including proliferation (EdU incorporation), migration (wound healing), and invasion (transwell assays), as well as tumor growth in a murine model. To elucidate the underlying molecular mechanism, we employed a combination of computational and experimental approaches, including AlphaFold3-based structural prediction, in vitro transcription, biotin-labeled RNA pulldown, RNA immunoprecipitation (RIP), and dual-luciferase reporter assays. RESULTS: In this study, we identified a previously uncharacterized circular RNA, circRNF10, which is markedly downregulated in driver gene-negative lung adenocarcinoma (LUAD) and positively associated with favorable clinical outcomes. Functional analyses revealed that circRNF10 overexpression suppresses LUAD cell proliferation, migration, and invasion in vitro and in vivo, primarily through inhibition of the Wnt/beta-catenin signaling pathway. Mechanistically, circRNF10 directly interacts with beta-catenin via its cyclization site, thereby promoting beta-catenin degradation. Moreover, circRNF10 functions as a competing endogenous RNA by sequestering miR-1275, thereby alleviating the miR-1275-mediated suppression of DKK3, a potent inhibitor of the Wnt pathway. Our findings further confirm that circRNF10 promotes beta-catenin degradation through direct interaction and modulation of the miR-1275/DKK3 signaling cascade. CONCLUSIONS: Collectively, our findings highlight circRNF10 as a tumor suppressor in driver gene-negative LUAD and suggest that restoring circRNF10 expression represents a promising therapeutic approach for this refractory subtype.",
+    "keywords": [
+      "CircRNF10",
+      "Circular RNA",
+      "Dickkopf-related protein 3 (DKK3)",
+      "LUAD",
+      "MiRNA",
+      "Wnt/beta-catenin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*RNA, Circular/genetics",
+      "*Adenocarcinoma of Lung/genetics/pathology/metabolism",
+      "*MicroRNAs/genetics",
+      "*beta Catenin/metabolism/genetics",
+      "Animals",
+      "Mice",
+      "Gene Expression Regulation, Neoplastic",
+      "*Lung Neoplasms/genetics/pathology/metabolism",
+      "Cell Proliferation",
+      "Cell Line, Tumor",
+      "*Adaptor Proteins, Signal Transducing/metabolism/genetics",
+      "Cell Movement/genetics",
+      "Wnt Signaling Pathway",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Situ, Xiaohua",
+        "Wang, Xinwei",
+        "Liao, Xiting",
+        "Zhang, Xiaoxuan",
+        "Chen, Sicheng",
+        "Fang, Fei",
+        "Wei, Lihong",
+        "Wu, Peng",
+        "Liu, Zhiyu",
+        "Chen, Honglei",
+        "Tang, Kejing",
+        "Bai, Lihong",
+        "Ke, Zunfu"
+      ],
+      "short_names": [
+        "Situ X",
+        "Wang X",
+        "Liao X",
+        "Zhang X",
+        "Chen S",
+        "Fang F",
+        "Wei L",
+        "Wu P",
+        "Liu Z",
+        "Chen H",
+        "Tang K",
+        "Bai L",
+        "Ke Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China.",
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China.",
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China.",
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China.",
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, 510080, Guangdong, China.",
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China.",
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China.",
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China.",
+        "Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, 510080, Guangdong, China. tangkj@mail.sysu.edu.cn.",
+        "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, 510080, Guangdong, China. bailh5@mail.sysu.edu.cn.",
+        "Guangxi Hospital Division of First Affiliated Hospital, Sun Yat-Sen University, Nanning, Guangxi, China. bailh5@mail.sysu.edu.cn.",
+        "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China. kezunfu@mail.sysu.edu.cn.",
+        "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China. kezunfu@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Situ, Xiaohua",
+        "short_name": "Situ X",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinwei",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Xiting",
+        "short_name": "Liao X",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoxuan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Sicheng",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Fei",
+        "short_name": "Fang F",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Lihong",
+        "short_name": "Wei L",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Peng",
+        "short_name": "Wu P",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiyu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Honglei",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Kejing",
+        "short_name": "Tang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, 510080, Guangdong, China. tangkj@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Bai, Lihong",
+        "short_name": "Bai L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, 510080, Guangdong, China. bailh5@mail.sysu.edu.cn.",
+          "Guangxi Hospital Division of First Affiliated Hospital, Sun Yat-Sen University, Nanning, Guangxi, China. bailh5@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ke, Zunfu",
+        "short_name": "Ke Z",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Diagnosis and Gene Test Centre, First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, Guangdong, China. kezunfu@mail.sysu.edu.cn.",
+          "Department of Pathology, The First Affiliated Hospital, Sun Yat-Sen University, No. 58. Zhongshan Second Road, Guangzhou, Guangdong, 510080, China. kezunfu@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer"
+    ],
+    "pub_date": "2025 Dec 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/06 00:32",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40122855",
+      "39914442",
+      "39868921",
+      "39747873",
+      "39531509",
+      "39333496",
+      "39075222",
+      "38718835",
+      "38572751",
+      "38093017",
+      "37925421",
+      "37723588",
+      "37691066",
+      "37393311",
+      "37101128",
+      "36681689",
+      "36497344",
+      "35780929",
+      "35666804",
+      "35418578",
+      "35184419",
+      "34912049",
+      "34753486",
+      "34508258",
+      "34168333",
+      "34016945",
+      "33966037",
+      "33436560",
+      "33317550",
+      "33035655",
+      "32194819",
+      "31718709",
+      "31153371",
+      "30971423",
+      "30963817",
+      "30902547",
+      "30389658",
+      "29980667",
+      "29559363",
+      "29206297",
+      "28685964",
+      "28674110",
+      "28314175",
+      "27886165",
+      "26941261",
+      "25573172",
+      "24846037",
+      "20514419"
+    ],
+    "similar": [
+      "41350865",
+      "32194819",
+      "41102854",
+      "40918144",
+      "31889960",
+      "30470570",
+      "40197379",
+      "33753463",
+      "33118120",
+      "38290639",
+      "32623387",
+      "31027730",
+      "31012177",
+      "34975322",
+      "37500965",
+      "34326690",
+      "35672776",
+      "35474604",
+      "38129720",
+      "40191724",
+      "38127171",
+      "33660800",
+      "35768865",
+      "39466086",
+      "36747258",
+      "39180939",
+      "41372808",
+      "35907982",
+      "32768951",
+      "39551792",
+      "35366893",
+      "33992085",
+      "32772782",
+      "40629330",
+      "30841451",
+      "34970696",
+      "34634673",
+      "33204298",
+      "32364673",
+      "31573758",
+      "35821283",
+      "37014092",
+      "38857560",
+      "39139574",
+      "40152390",
+      "41248794",
+      "40011917",
+      "39866239",
+      "32329852",
+      "31960988",
+      "39648148",
+      "30779066",
+      "31889959",
+      "41138842",
+      "28751441",
+      "40594106",
+      "36496997",
+      "40497948",
+      "39052126",
+      "39023191",
+      "38704137",
+      "32275336",
+      "40352924",
+      "32026462",
+      "35785492",
+      "31599709",
+      "41394407",
+      "40403792",
+      "38494915",
+      "38698658",
+      "40522194",
+      "35908770",
+      "30809286",
+      "34852843",
+      "38159259",
+      "30623445",
+      "34253104",
+      "35842617",
+      "38619801",
+      "39173230",
+      "39428538",
+      "36434577",
+      "36461613",
+      "39075121",
+      "40170083",
+      "34491827",
+      "30981721",
+      "39789572",
+      "33109341",
+      "34236145",
+      "32472335",
+      "40116080",
+      "35578071",
+      "38613646",
+      "41326474",
+      "35275356",
+      "40632000",
+      "33619796",
+      "34485531",
+      "33971546"
+    ],
+    "review": [
+      "41350865"
+    ],
+    "pmc": [
+      "12797959"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molecular-cancer.biomedcentral.com/articles/10.1186/s12943-025-02530-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41350865/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1745",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

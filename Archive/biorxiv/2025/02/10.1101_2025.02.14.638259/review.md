@@ -1,0 +1,125 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, acknowledgments) as provided by the user. No supplementary files, figures, or tables were available for inspection.
+- **Assessment boundary** The review is limited to the text provided. Claims regarding figures, supplementary tables, and supplementary figures are assessed based on textual descriptions only, as these materials were not supplied.
+- **Shared manuscript claim summary** The authors present ComPASS, a computational method that integrates multiple dynamic properties from molecular dynamics simulations to construct weighted communication networks in protein-protein and protein-nucleic acid complexes. The method is applied to five systems (CysRS, LacI, Bse634I, RXRα-LXRβ, and four nucleosome variants) to identify allosteric pathways, communities, and hotspots. The authors claim that ComPASS uniquely accommodates nucleic acids, integrates multiple metrics, and outperforms existing tools in scope and efficiency.
+- **Visible evidence base** The manuscript text, including methods descriptions, results narratives, and discussion. No figures, tables, or supplementary data were provided.
+- **Missing materials affecting confidence** All figures (Figs. 1–4), all supplementary figures (S1–S8), all supplementary tables (S1–S2), the Zenodo dataset, and the GitHub repository contents. Without these, quantitative validation of the method, the network construction details, and the case study results cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in the field, namely the analysis of communication networks in protein-nucleic acid complexes, which is underrepresented relative to protein-only systems. The conceptual motivation is sound, and the integration of multiple dynamic properties into a single network framework is a reasonable and potentially useful contribution. However, the manuscript as provided has several critical weaknesses. The methods section is incomplete, with key equations and algorithmic details missing. The results are presented as qualitative narratives without quantitative metrics or statistical support. The comparison with existing methods is superficial and lacks a rigorous benchmark. The claims of novelty and performance are not substantiated by the visible evidence. The manuscript is not currently suitable for publication in a high-impact venue without substantial revision and the addition of missing validation data.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying allostery, signal transduction, and protein-nucleic acid interactions would be the primary audience. Researchers developing network-based methods for MD analysis would also be interested. The open-source availability of the tool and its focus on nucleic acid-containing complexes could attract users in the gene regulation and epigenetics communities, particularly those studying nucleosome dynamics and transcription factor complexes.
+- **Major strengths** The manuscript identifies a genuine gap in the field, namely the limited availability of tools for communication network analysis in protein-nucleic acid complexes. The proposed method integrates multiple dynamic properties, which is conceptually more comprehensive than single-property approaches. The application to diverse systems, including nucleosomes, demonstrates potential breadth. The open-source availability and the inclusion of MD trajectory data in a public repository are commendable practices.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method constructs a weighted communication network by integrating generalized correlations, interaction frequencies, and communication propensities, and applies PCA to derive a final adjacency matrix.
+  - **Evidence pointer** Methods section, "Network parameters" subsection; location not provided
+  - **Concern** The description of the network construction is incomplete and internally inconsistent. The text states that the adjacency matrix is constructed by integrating the generalized correlation matrix, the interaction frequency matrix, and the communication propensity matrix, but the actual mathematical operations are not specified. The equations for GCC and CP are referenced but not shown. The PCA step is described as reducing a combined matrix of dimensions n × 3n to n × 2, but the rationale for this dimensionality reduction and how it produces a meaningful adjacency matrix is not explained. The relationship between the PCA-derived matrix and the final weighted graph is unclear. Without a precise, reproducible description of the algorithm, the method cannot be evaluated or implemented by others.
+  - **Why it matters** The core contribution of the manuscript is the method itself. If the method is not described with sufficient detail and mathematical rigor, the scientific value of the manuscript is fundamentally compromised. Reproducibility is a cornerstone of computational method papers.
+  - **Resolution test** The authors must provide a complete, step-by-step mathematical description of the network construction, including all equations, normalization procedures, and the exact role of PCA. The description should be sufficient for an independent researcher to implement the method without recourse to the code.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method identifies allosteric hotspots and communication pathways that are validated by comparison with previously reported allosteric residues and known structural features.
+  - **Evidence pointer** Results sections for CysRS, LacI, Bse634I, RXRα-LXRβ, and nucleosomes; location not provided
+  - **Concern** The results are presented as qualitative descriptions without quantitative metrics. For example, the claim of a "60% overlap" between ComPASS-predicted hotspots and previously reported allosteric residues in CysRS is stated, but the basis for this calculation is not shown. No statistical significance is provided. For LacI, the identification of two of four known allosteric residues is mentioned, but the criteria for "identification" are not defined. The comparison with the ConSurf conservation data is visual and not quantified. For the nucleosome systems, the claim that pathways are "sensitive to histone variant exchange" is not supported by any numerical comparison. The absence of quantitative validation undermines the credibility of the method's predictive power.
+  - **Why it matters** The manuscript claims that ComPASS accurately identifies functionally significant residues and pathways. Without quantitative metrics, such as precision, recall, or enrichment scores relative to known annotations, these claims are anecdotal. The reader cannot assess whether the method performs better than chance or than existing tools.
+  - **Resolution test** The authors should provide quantitative validation for each system, including the number of predicted hotspots, the number of known allosteric residues, the overlap, and a statistical test (e.g., hypergeometric test) to assess significance. For the nucleosome comparison, a quantitative measure of pathway differences between systems should be provided.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The comparison with existing methods (NRIMD, MDiGest, PyInteraph2.0) demonstrates that ComPASS is superior in identifying realistic communication pathways.
+  - **Evidence pointer** Results section, "Comparison with other existing methods"; location not provided
+  - **Concern** The comparison with existing methods is not a rigorous benchmark. It is limited to a single system (CysRS) and is based on qualitative observations. The claim that NRIMD predicts pathways with "unexpectedly separated" residues is not quantified. The limitations of MDiGest and PyInteraph2.0 are described, but no direct comparison of their outputs with ComPASS is shown. The statement that ComPASS "emerges as a comprehensive approach" is an assertion, not a demonstrated conclusion. A proper benchmark would involve running all methods on the same systems, using the same input data, and comparing outputs using objective criteria.
+  - **Why it matters** The manuscript positions ComPASS as an improvement over existing tools. This claim requires a fair and quantitative comparison. Without it, the reader cannot judge whether ComPASS offers a genuine advantage or merely a different implementation.
+  - **Resolution test** The authors should run NRIMD, MDiGest, and PyInteraph2.0 on the same MD trajectories for at least one or two systems and provide a quantitative comparison of the predicted pathways, including metrics such as path length, residue overlap, and agreement with known functional residues.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The MD simulations were performed with a specific protocol, and the resulting trajectories were used for network analysis.
+  - **Evidence pointer** Methods section, "Setup of MD simulations"; location not provided
+  - **Concern** The MD simulation protocol is described, but several critical details are missing. The equilibration protocol is described as "125 ps at constant volume," but the temperature and pressure coupling during equilibration are not specified. The production run is described as three replicates of 500 ns, but the convergence of the simulations is not assessed. No RMSD or RMSF analysis is shown in the text, although these are referenced in supplementary figures. The force field combinations (Amber ff14SB for protein, OL3 for RNA, BSC1 for DNA) are unusual and may not be mutually compatible, but this is not discussed. The choice of 310 K for the simulation temperature is not justified. The handling of the missing loops in RXRα-LXRβ is described, but the impact of the modelling on the results is not discussed.
+  - **Why it matters** The quality of the MD trajectories directly affects the reliability of the network analysis. If the simulations are not converged or the force field combination is not validated, the resulting networks may be artifacts. The manuscript does not provide sufficient evidence that the simulations are of adequate quality.
+  - **Resolution test** The authors should provide convergence analysis (e.g., RMSD time series, block averaging of key observables) and justify the force field combination. They should also discuss the potential impact of the modelled loops on the results.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The Leiden algorithm was used for community detection, and cliques were identified using the networkx pymol package.
+  - **Evidence pointer** Methods section, "Analysis of network parameters"; location not provided
+  - **Concern** The description of the network analysis is vague. The Leiden algorithm is mentioned, but the resolution parameter, if any, is not specified. The statement that cliques were identified using the "networkx pymol package" is confusing, as networkx and pymol are separate packages; it is unclear which package was used for clique detection. The criteria for defining "top pathways" are not described. The ranking of pathways by "weight" is mentioned, but the definition of pathway weight is not given. The selection of the top 10% of shortest paths is stated, but the rationale for this threshold is not provided.
+  - **Why it matters** The network analysis parameters directly determine the reported results. Without precise definitions, the results are not reproducible and the reader cannot assess the sensitivity of the findings to parameter choices.
+  - **Resolution test** The authors should provide a precise description of the community detection parameters, the clique detection method, and the definition of pathway weight and ranking.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction; location not provided
+  - **Issue** The sentence "This paradigm shift contributes to the growing recognition that static representations of individual proteins, while valuable, cannot capture the dynamic behavior and communication essential for understanding the functions in large macromolecular complexes" is grammatically awkward and could be clearer.
+  - **Required correction** Rephrase for clarity, e.g., "This paradigm shift reflects the growing recognition that static representations of individual proteins, while valuable, cannot capture the dynamic behavior and communication essential for understanding the functions of large macromolecular complexes."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section, "Core domain bridges amino acid recognition and catalysis in Cysteinyl-tRNA Synthetase"
+  - **Evidence pointer** Results; location not provided
+  - **Issue** The phrase "C α –nucleotide connections" is used without prior definition of what constitutes a "connection" in this context. The reader is left to infer whether this refers to spatial proximity, correlated motion, or something else.
+  - **Required correction** Define what is meant by a "connection" between Cα atoms and nucleotides in the context of the network.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Network parameters"
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The text states "The generalized correlation coefficient GCC ij between the i -th and j -th atoms is calculated as: where I ij is the mutual information." The equation is missing.
+  - **Required correction** Insert the equation for GCC and define all variables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Network parameters"
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The text states "For each pair of residues i and j , we compute the CP ij following our previous work [ 15 ]: where d ij is the distance between the Cα atoms of residues i and j and is the mean value computed over all the conformations." The equation is missing and the mean value symbol is not shown.
+  - **Required correction** Insert the equation for CP and define all variables.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section, "Communication in Nucleosome Complexes"
+  - **Evidence pointer** Results; location not provided
+  - **Issue** The sentence "This finding indicate a potential contribution of sequence-specific dynamics to nucleosome organization" contains a subject-verb agreement error.
+  - **Required correction** Change "indicate" to "indicates".
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, "Comparison with other existing methods"
+  - **Evidence pointer** Results; location not provided
+  - **Issue** The claim that ComPASS achieves "success rates ranging from 30% to 100%" is vague. The basis for this range is not explained, and the reader cannot determine what is being measured.
+  - **Required correction** Provide a clear definition of "success rate" and specify the system and reference for each value in the range.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The phrase "offering immense potential for applications in medicine and bioengineering" is a general statement that is not tied to any specific finding of the manuscript.
+  - **Required correction** Either remove the statement or connect it to a specific result or capability of ComPASS.
+- **Technical failings that need to be addressed before the case is established** The missing equations for GCC and CP, the incomplete description of the adjacency matrix construction, the lack of quantitative validation metrics, and the absence of a rigorous benchmark against existing methods are the primary technical failings. These must be addressed before the method can be considered established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The manuscript addresses a gap in the field, namely the application of communication network analysis to protein-nucleic acid complexes. However, the underlying concepts of network-based analysis of MD simulations are not new, and the novelty of the specific integration approach is not clearly demonstrated. The originality is moderate.
+  - Scientific importance: The importance of understanding allostery in protein-nucleic acid complexes is well argued. However, the manuscript does not provide sufficient evidence that ComPASS offers a significant advance over existing methods. The importance is not yet established.
+  - Interdisciplinary readership: The manuscript is likely to be of interest to computational biophysicists, structural biologists, and bioinformaticians. The broader readership, such as experimental biologists, may find the methods section difficult to follow. The interdisciplinary appeal is limited.
+  - Technical soundness: The technical soundness is currently inadequate due to the incomplete methods description and the lack of quantitative validation. This is the most significant weakness.
+  - Readability for nonspecialists: The manuscript is generally readable, but the methods section is dense and the missing equations hinder comprehension. The results sections are descriptive and accessible, but the lack of quantitative data makes it difficult for a nonspecialist to assess the strength of the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a sound conceptual basis and addresses a relevant gap, but the technical description is incomplete, the validation is qualitative, and the comparison with existing methods is not rigorous. Substantial revision and the addition of missing data are required before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim that ComPASS is a "large-scale" computational method is not supported by any performance or scalability data.
+- The claim that ComPASS "surpasses" existing methods in speed and efficiency is not supported by any benchmark data.
+- The claim of a "60% overlap" between ComPASS-predicted hotspots and known allosteric residues in CysRS is not verifiable without the underlying data.
+- The claim that the identified pathways in LacI "surround the residues of the ligand binding region" and that ligand binding "might interfere" with these pathways is speculative and not supported by any perturbation or mutation analysis.
+- The claim that H3Y54 and H3S57 are "consistently present in the shortest pathway" is not verifiable without the pathway data.
+- The claim that the communities identified by ComPASS are "more regionally localized" than those from COMMA is not supported by any quantitative comparison.
+- The claim that the "top paths bridging nucleic acids and protein residues are highly present at the dyad" is not verifiable without the data.
+- The overall claim that ComPASS provides "feasible and biologically relevant pathways" is an assertion that is not quantitatively validated.

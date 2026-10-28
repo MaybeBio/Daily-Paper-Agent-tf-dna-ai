@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "38342857",
+    "doi": "10.1007/s12539-024-00604-3",
+    "title": "Inference of Gene Regulatory Networks Based on Multi-view Hierarchical Hypergraphs."
+  },
+  "content": {
+    "abstract": "Since gene regulation is a complex process in which multiple genes act simultaneously, accurately inferring gene regulatory networks (GRNs) is a long-standing challenge in systems biology. Although graph neural networks can formally describe intricate gene expression mechanisms, current GRN inference methods based on graph learning regard only transcription factor (TF)-target gene interactions as pairwise relationships, and cannot model the many-to-many high-order regulatory patterns that prevail among genes. Moreover, these methods often rely on limited prior regulatory knowledge, ignoring the structural information of GRNs in gene expression profiles. Therefore, we propose a multi-view hierarchical hypergraphs GRN (MHHGRN) inference model. Specifically, multiple heterogeneous biological information is integrated to construct multi-view hierarchical hypergraphs of TFs and target genes, using hypergraph convolution networks to model higher order complex regulatory relationships. Meanwhile, the coupled information diffusion mechanism and the cross-domain messaging mechanism facilitate the information sharing between genes to optimise gene embedding representations. Finally, a unique channel attention mechanism is used to adaptively learn feature representations from multiple views for GRN inference. Experimental results show that MHHGRN achieves better results than the baseline methods on the E. coli and S. cerevisiae benchmark datasets of the DREAM5 challenge, and it has excellent cross-species generalization, achieving comparable or better performance on scRNA-seq datasets from five mouse and two human cell lines.",
+    "keywords": [
+      "Gene regulatory networks",
+      "Heterogeneous information",
+      "Hypergraph convolution",
+      "Multi-view hierarchical networks",
+      "Omics data"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Escherichia coli/genetics",
+      "*Saccharomyces cerevisiae/genetics",
+      "Algorithms",
+      "Transcription Factors/genetics/metabolism",
+      "Computational Biology/methods",
+      "Mice",
+      "Humans",
+      "Animals",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Songyang",
+        "Jin, Kui",
+        "Tang, Mingjing",
+        "Xia, Yuelong",
+        "Gao, Wei"
+      ],
+      "short_names": [
+        "Wu S",
+        "Jin K",
+        "Tang M",
+        "Xia Y",
+        "Gao W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0435-8854"
+      ],
+      "affiliations": [
+        "School of Information Science and Technology, Yunnan Normal University, Kunming, 650500, China.",
+        "School of Information Science and Technology, Yunnan Normal University, Kunming, 650500, China.",
+        "School of Life Science, Yunnan Normal University, Kunming, 650500, China. tmj@ynnu.edu.cn.",
+        "Engineering Research Center of Sustainable Development and Utilization of Biomass Energy, Ministry of Education, Yunnan Normal University, Kunming, 650500, China. tmj@ynnu.edu.cn.",
+        "School of Information Science and Technology, Yunnan Normal University, Kunming, 650500, China.",
+        "School of Information Science and Technology, Yunnan Normal University, Kunming, 650500, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Songyang",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Yunnan Normal University, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Kui",
+        "short_name": "Jin K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Yunnan Normal University, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Mingjing",
+        "short_name": "Tang M",
+        "identifiers": [
+          "0000-0003-0435-8854"
+        ],
+        "affiliations": [
+          "School of Life Science, Yunnan Normal University, Kunming, 650500, China. tmj@ynnu.edu.cn.",
+          "Engineering Research Center of Sustainable Development and Utilization of Biomass Energy, Ministry of Education, Yunnan Normal University, Kunming, 650500, China. tmj@ynnu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xia, Yuelong",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Yunnan Normal University, Kunming, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Wei",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Yunnan Normal University, Kunming, 650500, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Interdisciplinary sciences, computational life sciences"
+    ],
+    "journal_abbrev": [
+      "Interdiscip Sci"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/12 05:43",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42488351",
+      "42059479"
+    ],
+    "refs": [
+      "38217125",
+      "35961023",
+      "33888761",
+      "33471763",
+      "33336197",
+      "33294129",
+      "32728249",
+      "31907445",
+      "31822622",
+      "31527870",
+      "30953525",
+      "30445495",
+      "30413482",
+      "30395189",
+      "29180805",
+      "28379368",
+      "23794736",
+      "23698722",
+      "22796662",
+      "21214342",
+      "20927193",
+      "19712066",
+      "17214507",
+      "16418235",
+      "12902159"
+    ],
+    "similar": [
+      "38342857",
+      "30547796",
+      "39417321",
+      "37085776",
+      "39062480",
+      "38980373",
+      "32054475",
+      "38950180",
+      "30051742",
+      "37985457",
+      "35961023",
+      "27479082",
+      "37939200",
+      "32019417",
+      "39082651",
+      "32606380",
+      "36585783",
+      "38581416",
+      "19594874",
+      "39142173",
+      "35050715",
+      "35947989",
+      "38935070",
+      "34673384",
+      "38653489",
+      "33294129",
+      "25573916",
+      "30326663",
+      "36418514",
+      "39311699",
+      "26072483",
+      "27045829",
+      "38879931",
+      "38963312",
+      "36182867",
+      "38652712",
+      "37267145",
+      "25539927",
+      "27876826",
+      "38451769",
+      "24228871",
+      "25162401",
+      "39401117",
+      "31128452",
+      "39266676",
+      "18237429",
+      "38238840",
+      "31950997",
+      "39207727",
+      "27879480",
+      "38810116",
+      "20927193",
+      "38820715",
+      "35524190",
+      "37642217",
+      "24551058",
+      "23497388",
+      "23525069",
+      "33989333",
+      "38744843",
+      "30207963",
+      "27342648",
+      "25093509",
+      "37889053",
+      "37607190",
+      "34963205",
+      "28748400",
+      "29182723",
+      "33828122",
+      "38806476",
+      "26564975",
+      "36790055",
+      "26072515",
+      "31185246",
+      "32664870",
+      "25807392",
+      "38261340",
+      "22784622",
+      "37244909",
+      "26862054",
+      "32690031",
+      "33817013",
+      "25521243",
+      "29879919",
+      "37523414",
+      "20338053",
+      "35061589",
+      "37897702",
+      "28294630",
+      "23173819",
+      "39030497",
+      "39376034",
+      "32174324",
+      "28254369",
+      "30445315",
+      "36626328",
+      "36450117",
+      "31117943",
+      "34706640",
+      "30961611",
+      "33939795",
+      "39013340",
+      "26537179",
+      "38589899",
+      "22467911",
+      "34495484",
+      "23192540",
+      "33563211",
+      "35062026",
+      "35692809",
+      "36695505",
+      "38913855",
+      "36768917",
+      "39024707",
+      "39134413",
+      "38260386",
+      "36192495",
+      "37418430",
+      "39276328",
+      "37703293",
+      "36991439",
+      "37857632",
+      "36303726",
+      "38848994",
+      "39340962",
+      "39387266",
+      "36204155",
+      "38460192",
+      "33667222",
+      "39137088",
+      "37879938",
+      "36575445",
+      "39235988",
+      "38867109",
+      "39058615",
+      "39401144",
+      "38609714",
+      "37276119",
+      "38940121",
+      "39101499",
+      "35137181",
+      "35205437",
+      "39024032",
+      "39082653",
+      "36972296",
+      "39371416",
+      "39294985",
+      "38014256",
+      "36993284",
+      "39213450",
+      "37996959",
+      "39296931",
+      "37350881",
+      "34268705",
+      "37998229",
+      "39005295",
+      "39080122",
+      "37436987"
+    ],
+    "review": [
+      "38342857",
+      "39207727",
+      "30445315",
+      "36695505",
+      "37857632",
+      "39137088"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12539-024-00604-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

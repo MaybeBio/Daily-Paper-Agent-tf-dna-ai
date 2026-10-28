@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42527627",
+  "title": "Macrophage response specificity to ligand mixtures is improved by signaling pathway antagonism.",
+  "authors": "Guo, Xiaolu; Sen, Supriya; Gonzalez, Julian; Hoffmann, Alexander",
+  "journal": "Molecular systems biology",
+  "published_date": "2026-07-30",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用数学模型和机器学习研究巨噬细胞NFkappaB信号通路对多配体混合物的响应特异性，涉及转录因子动态编码，但非TF-DNA结合建模，方法可迁移但对象偏离。",
+  "abstract": "Macrophages function as immune sentinels that distinguish diverse threats and mount appropriate responses. This stimulus-response specificity (SRS) is partly encoded in the dynamics of the NFkappaB transcription factor. While most studies examine single ligands, physiological exposures involve complex multi-ligand mixtures. Using a mathematical model that captures heterogeneous single-cell NFkappaB responses, we generated simulation datasets for mixtures of up to five ligands and validated key predictions with live-cell microscopy. Following iterative refinement of the model, we quantified SRS with Wasserstein distance and machine learning classification and found that NFkappaB temporal coding can partially convey the presence of specific ligands within mixtures. By generating simulation datasets across all ligand pairs at doses spanning the full responsiveness range, we found several cases of synergy and antagonism between stimuli. Antagonism was for example the result of a limited supply of stimulus-cofactor CD14 or endosomal transport capacity. Synergy depended on ultra-sensitive IKK activation in cells with low receptor expression. While synergy does not enhance SRS, antagonism between TLR9 and TLR3 signaling pathways due to endosomal transport competition may enhance the distinguishability of CpG-pIC from ligand mixtures. These studies therefore identified antagonism mechanisms in signaling pathways as key to maintaining immune specificity under complex conditions.",
+  "abstract_zh": "巨噬细胞作为免疫哨兵，能够区分各种威胁并作出相应反应。这种刺激-反应特异性（SRS）部分编码在NFkappaB转录因子的动态中。尽管大多数研究考察单一配体，但生理暴露涉及复杂的多配体混合物。利用一个捕捉异质单细胞NFkappaB响应的数学模型，我们生成了多达五种配体混合物的模拟数据集，并通过活细胞显微镜验证了关键预测。在模型迭代优化后，我们用Wasserstein距离和机器学习分类量化了SRS，发现NFkappaB时间编码能部分传达混合物中特定配体的存在。通过在所有配体对及覆盖完整响应范围的剂量下生成模拟数据集，我们发现了刺激之间协同和拮抗的若干案例。拮抗作用例如源于刺激辅因子CD14或内体运输能力的有限供应。协同作用依赖于低受体表达细胞中超敏感IKK激活。尽管协同作用不增强SRS，但TLR9和TLR3信号通路之间因内体运输竞争产生的拮抗可能增强CpG-pIC与配体混合物的可区分性。因此，这些研究识别出信号通路中的拮抗机制是维持复杂条件下免疫特异性的关键。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42527627/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42527627/",
+  "paper_page_path": "papers/pubmed/42527627/index.html"
+}

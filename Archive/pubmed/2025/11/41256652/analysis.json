@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41256652",
+  "title": "Qimai: a multi-agent framework for zero-shot DNA-protein interaction prediction.",
+  "authors": "Liu, Cong; Yao, Mina; Wang, Wei",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-19",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出多智能体框架Qimai，结合LLM推理与深度学习模型预测DNA-蛋白互作，虽非直接聚焦TF-DNA，但方法可迁移至转录因子结合位点预测，高度契合本课题。",
+  "abstract": "Accurate prediction of DNA-protein interactions, a fundamental task in genomics, is limited by the poor generalization of existing models to novel proteins not seen during training. To address this challenge, we introduce Qimai, a modular AI agent framework that integrates deep learning predictions with biological evidence using Large Language Model (LLM) as reasoning engine. Qimai combines direct motif evidence from the query protein, indirect motif evidence from its interactors, and quantitative prediction from a new transformer-based DPI model to produce explainable predictions with confidence scores. On a benchmark of 78 unseen proteins, Qimai consistently outperforms standalone deep learning models across all metrics, increasing the Area Under Curve of the Precision-Recall (AUC-PR), the Area Under Curve of the Receiver Operating Characteristic (AUC-ROC), and Matthews Correlation Coefficient (MCC) by 17.6%, 15.6%, and 244% respectively compared to the best standalone model. Ablation analyses reveal that this gain is driven by the LLM's ability to dynamically weigh diverse evidence, with indirect motif evidence of co-factors particularly critical for unseen proteins. Qimai establishes a generalizable and interpretable paradigm for integrating heterogeneous data in predictive genomics. This framework is accessible via the Qimai web portal (https://qimai.wanglab.ucsd.edu/).",
+  "abstract_zh": "DNA-蛋白质相互作用的准确预测是基因组学中的一项基本任务，但现有模型对训练中未见的新型蛋白质泛化能力差，限制了其性能。为应对这一挑战，我们引入了Qimai，一个模块化AI代理框架，利用大型语言模型（LLM）作为推理引擎，将深度学习预测与生物学证据相结合。Qimai结合了来自查询蛋白质的直接基序证据、其相互作用因子的间接基序证据，以及来自新型基于Transformer的DPI模型的定量预测，以生成带有置信评分的可解释预测。在78个未见蛋白质的基准测试中，Qimai在所有指标上均持续优于独立深度学习模型，与最佳独立模型相比，精确率-召回率曲线下面积（AUC-PR）、接收者操作特征曲线下面积（AUC-ROC）和马修斯相关系数（MCC）分别提高了17.6%、15.6%和244%。消融分析表明，这一提升源于LLM动态权衡多样证据的能力，其中辅助因子的间接基序证据对未见蛋白质尤为关键。Qimai为预测基因组学中异构数据的整合建立了一种可泛化且可解释的范式。该框架可通过Qimai门户网站（https://qimai.wanglab.ucsd.edu/）访问。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41256652/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41256652/",
+  "paper_page_path": "papers/pubmed/41256652/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.04.551687",
+  "title": "Quantification of biases in predictions of protein-protein binding affinity changes upon mutations",
+  "authors": "Matsvei Tsishyn; Fabrizio Pucci; Marianne Rooman",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-07",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该文基准测试蛋白-蛋白结合亲和力变化预测方法，虽涉及界面突变和机器学习/物理方法，但对象为蛋白-蛋白而非蛋白-DNA互作，且无TF-DNA结合建模，仅间接相关。",
+  "abstract": "Understanding the impact of mutations on protein-protein binding affinity is a key objective for a wide range of biotechnological applications and for shedding light on disease-causing mutations, which are often located at protein-protein interfaces. Over the past decade, many computational methods using physics-based and/or machine learning approaches have been developed to predict how protein binding affinity changes upon mutations. They all claim to achieve astonishing accuracy on both training and test sets, with performances on standard benchmarks such as SKEMPI 2.0 that seem overly optimistic. Here we benchmarked eight well-known and well-used predictors and identified their biases and dataset dependencies, using not only SKEMPI 2.0 as a test set but also deep mutagenesis data on the SARS-CoV-2 spike protein in complex with the human angiotensin-converting enzyme 2. We showed that, even though most of the tested methods reach a significant degree of robustness and accuracy, they suffer from limited generalizability properties and struggle to predict unseen mutations. Interestingly, the generalizability problems are more severe for pure machine learning approaches while physics-based methods are less affected by this issue. Moreover, undesirable prediction biases towards specific mutation properties, the most marked being towards destabilizing mutations, are also observed and should be carefully considered by method developers. We conclude from our analyses that there is room for improvement in the prediction models and suggest ways to check, assess and improve their generalizability and robustness.",
+  "abstract_zh": "理解突变对蛋白质-蛋白质结合亲和力的影响，是众多生物技术应用及揭示疾病相关突变（这些突变常位于蛋白质-蛋白质界面）的关键目标。过去十年间，许多采用基于物理和/或机器学习方法的计算工具已被开发，用于预测突变如何改变蛋白质结合亲和力。这些方法均声称在训练集和测试集上达到了惊人的准确性，在标准基准测试（如SKEMPI 2.0）上的表现似乎过于乐观。在此，我们评估了八种知名且广泛使用的预测器，并识别了它们的偏见和数据集依赖性，不仅使用SKEMPI 2.0作为测试集，还采用了SARS-CoV-2刺突蛋白与人血管紧张素转换酶2复合物的深度突变扫描数据。我们表明，尽管大多数测试方法达到了一定程度的稳健性和准确性，但它们存在泛化能力有限的问题，难以预测未见过的突变。有趣的是，纯机器学习方法的泛化问题更为严重，而基于物理的方法受此影响较小。此外，我们还观察到对特定突变特性的不良预测偏见，最显著的是对去稳定化突变的偏见，方法开发者应予以仔细考虑。从我们的分析中得出结论，预测模型仍有改进空间，并提出了检查、评估及提升其泛化性和稳健性的建议。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.04.551687",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.04.551687",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.04.551687/index.html"
+}

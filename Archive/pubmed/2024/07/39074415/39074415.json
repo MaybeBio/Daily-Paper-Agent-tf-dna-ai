@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "39074415",
+    "doi": "10.1016/j.intimp.2024.112739",
+    "title": "IRF1 and IL1A associated with PANoptosis serve as potential immune signatures for lung ischemia reperfusion injury following lung transplantation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lung ischemia reperfusion injury (IRI) is the principal cause of primary graft dysfunction (PGD) after lung transplantation, affecting short-term and long-term mortality post-transplantation. PANoptosis, a newly identified form of regulated cell death involving apoptosis, necroptosis, and pyroptosis, is now considered a possible cause of organ damage and IRI. However, the specific role of PANoptosis to the development of lung IRI following lung transplantation is still not fully understood. METHODS: In this study, we identified differentially expressed genes (DEGs) by analyzing the gene expression data from the GEO database related to lung IRI following lung transplantation. PANoptosis-IRI DEGs were determined based on the intersection of PANoptosis-related genes and screened DEGs. Hub genes associated with lung IRI were further screened using Lasso regression and the SVM-RFE algorithm. Additionally, the Cibersort algorithm was employed to assess immune cell infiltration and investigate the interaction between immune cells and hub genes. The upstream miRNAs that may regulate hub genes and compounds that may interact with hub genes were also analyzed. Moreover, an external dataset was utilized to validate the differential expression analysis of hub genes. Finally, the expressions of hub genes were ultimately confirmed using quantitative real-time PCR, western blotting, and immunohistochemistry in both animal models of lung IRI and lung transplant patients. RESULTS: PANoptosis-related genes, specifically interferon regulatory factor 1 (IRF1) and interleukin 1 alpha (IL1A), have been identified as potential biomarkers for lung IRI following lung transplantation. In mouse models of lung IRI, both the mRNA and protein expression levels of IRF1 and IL1A were significantly elevated in lung tissues of the IRI group compared to the control group. Moreover, lung transplant recipients exhibited significantly higher protein levels of IRF1 and IL1A in PBMCs when compared to healthy controls. Patients who experienced PGD showed elevated levels of IRF1 and IL1A proteins in their blood samples. Furthermore, in patients undergoing lung transplantation, the protein levels of IRF1 and IL1A were notably increased in peripheral blood mononuclear cells (PBMCs) compared to healthy controls. In addition, patients who developed primary graft dysfunction (PGD) exhibited even higher protein levels of IRF1 and IL1A than those without PGD. Furthermore, PANoptosis was observed in the lung tissues of mouse models of lung IRI and in the PBMCs of patients who underwent lung transplantation. CONCLUSIONS: Our research identified IRF1 and IL1A as biomarkers associated with PANoptosis in lung IRI, suggesting their potential utility as targets for diagnosing and therapeutically intervening in lung IRI and PGD following lung transplantation.",
+    "keywords": [
+      "Bioinformatics",
+      "Lung ischemia reperfusion injury",
+      "Lung transplantation",
+      "Machine learning",
+      "PANoptosis",
+      "Primary graft dysfunction"
+    ],
+    "mesh_terms": [
+      "*Lung Transplantation/adverse effects",
+      "*Reperfusion Injury/immunology/metabolism",
+      "Animals",
+      "*Interferon Regulatory Factor-1/genetics/metabolism",
+      "Humans",
+      "Mice",
+      "*Lung/pathology/immunology",
+      "Male",
+      "*Interleukin-1alpha/genetics/metabolism",
+      "Necroptosis",
+      "Mice, Inbred C57BL",
+      "Pyroptosis",
+      "Disease Models, Animal",
+      "Primary Graft Dysfunction/genetics/etiology/immunology/diagnosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Nan",
+        "Zhang, Qingqing",
+        "Zhang, Zhiyuan",
+        "Yu, Jing",
+        "Fu, Yu",
+        "Gao, Jiameng",
+        "Jiang, Xuemei",
+        "Jiang, Ping",
+        "Wen, Zongmei"
+      ],
+      "short_names": [
+        "Zhang N",
+        "Zhang Q",
+        "Zhang Z",
+        "Yu J",
+        "Fu Y",
+        "Gao J",
+        "Jiang X",
+        "Jiang P",
+        "Wen Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China. Electronic address: drjiangping2016@sina.com.",
+        "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China. Electronic address: wzm1103@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Nan",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qingqing",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhiyuan",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jing",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yu",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jiameng",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xuemei",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ping",
+        "short_name": "Jiang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China. Electronic address: drjiangping2016@sina.com."
+        ]
+      },
+      {
+        "full_name": "Wen, Zongmei",
+        "short_name": "Wen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, China. Electronic address: wzm1103@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2024 Sep 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/29 18:42",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42568010",
+      "42502101",
+      "42023232",
+      "41993192",
+      "41798924",
+      "40810721",
+      "40285923",
+      "39346628"
+    ],
+    "refs": [],
+    "similar": [
+      "39074415",
+      "35202801",
+      "30742487",
+      "38370470",
+      "38266883",
+      "37033969",
+      "37557956",
+      "37279643",
+      "38404827",
+      "21883907",
+      "32750037",
+      "35658960",
+      "32554929",
+      "39147333",
+      "38562657",
+      "38815767",
+      "37230395",
+      "22172817",
+      "39394418",
+      "37704087",
+      "28117940",
+      "38587531",
+      "31699960",
+      "37965311",
+      "20693898",
+      "39308866",
+      "26856667",
+      "31394048",
+      "26663441",
+      "30024306",
+      "34346860",
+      "30582269",
+      "26079744",
+      "34557203",
+      "35762542",
+      "25344633",
+      "37667921",
+      "27421969",
+      "38800594",
+      "37652362",
+      "39104814",
+      "32517688",
+      "38329418",
+      "38652339",
+      "35017436",
+      "30016764",
+      "38156909",
+      "36091399",
+      "26705301",
+      "39393431",
+      "22744333",
+      "35991562",
+      "31647878",
+      "36650643",
+      "36830644",
+      "35900430",
+      "35686120",
+      "37105441",
+      "34937545",
+      "37878485",
+      "36532016",
+      "38164346",
+      "25455749",
+      "26718318",
+      "37006305",
+      "36167867",
+      "34355495",
+      "38203518",
+      "37861483",
+      "32863945",
+      "35667543",
+      "31446154",
+      "23995372",
+      "38690269",
+      "37925138",
+      "39258145",
+      "39051056",
+      "33651003",
+      "34754625",
+      "37957490",
+      "27773452",
+      "38047310",
+      "39079349",
+      "37511062",
+      "31175855",
+      "30668132",
+      "37788115",
+      "37275548",
+      "38852523",
+      "32928548",
+      "32692317",
+      "34071255",
+      "30657612",
+      "29504277",
+      "35563804",
+      "33137133",
+      "39172530",
+      "24400993",
+      "26348570",
+      "37919062",
+      "21299834",
+      "29590671",
+      "38493695",
+      "37359526",
+      "32414595",
+      "28006785",
+      "31201834",
+      "39411951",
+      "39315170",
+      "39430764",
+      "39096939",
+      "39190789",
+      "38160361",
+      "39324174",
+      "39402203",
+      "38206205",
+      "38554602",
+      "38852506",
+      "38488011",
+      "39313116",
+      "36543888",
+      "39277381",
+      "39269827",
+      "39427288",
+      "39369968",
+      "39268501",
+      "39235684",
+      "39225412",
+      "39168969",
+      "35982650",
+      "39145004",
+      "39346794",
+      "39291396"
+    ],
+    "review": [
+      "39074415",
+      "20693898",
+      "36650643",
+      "35686120",
+      "34355495",
+      "23995372",
+      "33651003",
+      "34071255",
+      "35563804",
+      "26348570",
+      "29590671",
+      "39269827"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(24)01260-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungtransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Transplantation"
+      },
+      {
+        "url": "https://www.ovid.com/39074415.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-560",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

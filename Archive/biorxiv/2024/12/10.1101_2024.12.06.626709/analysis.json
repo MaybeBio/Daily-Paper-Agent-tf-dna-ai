@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.06.626709",
+  "title": "Scalable DNA Feature Generation and Transcription Factor Binding Prediction via Deep Surrogate Models",
+  "authors": "Anowarul Kabir; Toki Tahmid Inan; Kim Rasmussen; Amarda Shehu; Anny Usheva; Alan Bishop; Boian Alexandrov; Manish Bhattarai",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-10",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用条件扩散模型作为深度代理，快速生成DNA呼吸动力学特征并用于增强转录因子结合位点预测，核心聚焦TF-DNA互作且AI方法高度契合本课题。",
+  "abstract": "Simulating DNA breathing dynamics, for instance Extended Peyrard-Bishop-Dauxois (EPBD) model, across the entire human genome using traditional biophysical methods like pyDNA-EPBD is computationally prohibitive due to intensive techniques such as Markov Chain Monte Carlo (MCMC) and Langevin dynamics. To overcome this limitation, we propose a deep surrogate generative model utilizing a conditional Denoising Diffusion Probabilistic Model (DDPM) trained on DNA sequence-EPBD feature pairs. This surrogate model efficiently generates high-fidelity DNA breathing features conditioned on DNA sequences, reducing computational time from months to hours–a speedup of over 1000 times. By integrating these features into the EPBDxDNABERT-2 model, we enhance the accuracy of transcription factor (TF) binding site predictions. Experiments demonstrate that the surrogate-generated features perform comparably to those obtained from the original EPBD framework, validating the model’s efficacy and fidelity. This advancement enables real-time, genome-wide analyses, significantly accelerating genomic research and offering powerful tools for disease understanding and therapeutic development.",
+  "abstract_zh": "模拟DNA呼吸动力学，例如扩展的Peyrard-Bishop-Dauxois（EPBD）模型，在整个人类基因组范围内使用传统生物物理方法如pyDNA-EPBD，因涉及马尔可夫链蒙特卡洛（MCMC）和朗之万动力学等密集型技术而计算上不可行。为克服此限制，我们提出一种深度替代生成模型，利用基于DNA序列-EPBD特征对训练的条件去噪扩散概率模型（DDPM）。该替代模型能高效生成以DNA序列为条件的高保真DNA呼吸特征，将计算时间从数月缩短至数小时——加速超过1000倍。通过将这些特征整合到EPBDxDNABERT-2模型中，我们提高了转录因子（TF）结合位点预测的准确性。实验表明，替代生成的特征与原始EPBD框架获得的特征性能相当，验证了模型的有效性和保真度。这一进展实现了实时、全基因组分析，显著加速基因组研究，并为疾病理解和治疗开发提供了强大工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.06.626709",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.626709",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.06.626709/index.html"
+}

@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "37129234",
+    "doi": "10.1021/acssensors.3c00126",
+    "title": "NanoBeacon.AI: AI-Enhanced Nanodiamond Biosensor for Automated Sensitivity Prediction to Oxidative Phosphorylation Inhibitors."
+  },
+  "content": {
+    "abstract": "Spalt-like transcription factor 4 (SALL4) is an oncofetal protein that has been identified to drive cancer progression in hepatocellular carcinoma (HCC) and hematological malignancies. Furthermore, a high SALL4 expression level is correlated to poor prognosis in these cancers. However, SALL4 lacks well-structured small-molecule binding pockets, making it difficult to design targeted inhibitors. SALL4-induced expression of oxidative phosphorylation (OXPHOS) genes may serve as a therapeutically targetable vulnerability in HCC through OXPHOS inhibition. Because OXPHOS functions through a set of genes with intertumoral heterogeneous expression, identifying therapeutic sensitivity to OXPHOS inhibitors may not rely on a single clear biomarker. Here, we developed a workflow that utilized molecular beacons, nucleic-acid-based, activatable sensors with high specificity to the target mRNA, delivered by nanodiamonds, to establish an artificial intelligence (AI)-assisted platform for rapid evaluation of patient-specific drug sensitivity. Specifically, when the HCC cells were treated with the nanodiamond-medicated OXPHOS biosensor, high sensitivity and specificity of the sensor allowed for improved identification of OXPHOS expression in cells. Assisted by a trained convolutional neural network, drug sensitivity of cells toward an OXPHOS inhibitor, IACS-010759, could be accurately predicted. AI-assisted OXPHOS drug sensitivity assessment could be accomplished within 1 day, enabling rapid and efficient clinical decision support for HCC treatment. The work proposed here serves as a foundation for the patient-based subtype-specific therapeutic research platform and is well suited for precision medicine.",
+    "keywords": [
+      "artificial intelligence",
+      "biosensor",
+      "deep learning",
+      "hepatocellular carcinoma",
+      "molecular beacon",
+      "nanodiamond",
+      "oxidative phosphorylation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/drug therapy",
+      "*Liver Neoplasms/drug therapy",
+      "*Nanodiamonds/therapeutic use",
+      "Oxidative Phosphorylation",
+      "Artificial Intelligence",
+      "*Antineoplastic Agents/therapeutic use",
+      "*Biosensing Techniques"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Jingru",
+        "Zheng, Mengjia",
+        "Thng, Dexter Kai Hao",
+        "Toh, Tan Boon",
+        "Zhou, Lei",
+        "Bonney, Glenn Kunnath",
+        "Dan, Yock Young",
+        "Chow, Pierce Kah Hoe",
+        "Xu, Chenjie",
+        "Chow, Edward Kai-Hua"
+      ],
+      "short_names": [
+        "Xu J",
+        "Zheng M",
+        "Thng DKH",
+        "Toh TB",
+        "Zhou L",
+        "Bonney GK",
+        "Dan YY",
+        "Chow PKH",
+        "Xu C",
+        "Chow EK"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-6908-7531",
+        "ORCID: 0000-0003-0292-6985",
+        "ORCID: 0000-0002-9034-3255",
+        "ORCID: 0000-0002-8278-3912"
+      ],
+      "affiliations": [
+        "Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599, Singapore.",
+        "NUS Centre for Cancer Research (N2CR), Yong Loo Lin School of Medicine, National University Singapore, Singapore 117599, Singapore.",
+        "Department of Pharmacology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117600, Singapore.",
+        "Department of Biomedical Engineering, City University of Hong Kong, Hong Kong SAR 999077, People's Republic of China.",
+        "Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599, Singapore.",
+        "The N.1 Institute for Health (N.1), National University of Singapore, Singapore 117456, Singapore.",
+        "The Institute for Digital Medicine (WisDM), Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117456, Singapore.",
+        "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 119228, Singapore.",
+        "Division of Hepatobiliary & Pancreatic Surgery, Department of Surgery, University Surgical Cluster, National University Health System, Singapore 119074, Singapore.",
+        "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 119228, Singapore.",
+        "Department of Hepatopancreatobiliary and Transplant Surgery, Singapore General Hospital and National Cancer Centre Singapore, Singapore 169856, Singapore.",
+        "Academic Clinical Programme for Surgery, Duke-NUS Medical School, Singapore 169857, Singapore.",
+        "Department of Biomedical Engineering, City University of Hong Kong, Hong Kong SAR 999077, People's Republic of China.",
+        "Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599, Singapore.",
+        "NUS Centre for Cancer Research (N2CR), Yong Loo Lin School of Medicine, National University Singapore, Singapore 117599, Singapore.",
+        "Department of Pharmacology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117600, Singapore.",
+        "The N.1 Institute for Health (N.1), National University of Singapore, Singapore 117456, Singapore.",
+        "The Institute for Digital Medicine (WisDM), Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117456, Singapore.",
+        "Department of Biomedical Engineering, National University of Singapore, Singapore 117583, Singapore."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Jingru",
+        "short_name": "Xu J",
+        "identifiers": [
+          "0009-0009-6908-7531"
+        ],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599, Singapore.",
+          "NUS Centre for Cancer Research (N2CR), Yong Loo Lin School of Medicine, National University Singapore, Singapore 117599, Singapore.",
+          "Department of Pharmacology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117600, Singapore."
+        ]
+      },
+      {
+        "full_name": "Zheng, Mengjia",
+        "short_name": "Zheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, City University of Hong Kong, Hong Kong SAR 999077, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Thng, Dexter Kai Hao",
+        "short_name": "Thng DKH",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599, Singapore."
+        ]
+      },
+      {
+        "full_name": "Toh, Tan Boon",
+        "short_name": "Toh TB",
+        "identifiers": [
+          "0000-0003-0292-6985"
+        ],
+        "affiliations": [
+          "The N.1 Institute for Health (N.1), National University of Singapore, Singapore 117456, Singapore.",
+          "The Institute for Digital Medicine (WisDM), Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117456, Singapore."
+        ]
+      },
+      {
+        "full_name": "Zhou, Lei",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 119228, Singapore."
+        ]
+      },
+      {
+        "full_name": "Bonney, Glenn Kunnath",
+        "short_name": "Bonney GK",
+        "identifiers": [
+          "0000-0002-9034-3255"
+        ],
+        "affiliations": [
+          "Division of Hepatobiliary & Pancreatic Surgery, Department of Surgery, University Surgical Cluster, National University Health System, Singapore 119074, Singapore."
+        ]
+      },
+      {
+        "full_name": "Dan, Yock Young",
+        "short_name": "Dan YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 119228, Singapore."
+        ]
+      },
+      {
+        "full_name": "Chow, Pierce Kah Hoe",
+        "short_name": "Chow PKH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatopancreatobiliary and Transplant Surgery, Singapore General Hospital and National Cancer Centre Singapore, Singapore 169856, Singapore.",
+          "Academic Clinical Programme for Surgery, Duke-NUS Medical School, Singapore 169857, Singapore."
+        ]
+      },
+      {
+        "full_name": "Xu, Chenjie",
+        "short_name": "Xu C",
+        "identifiers": [
+          "0000-0002-8278-3912"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, City University of Hong Kong, Hong Kong SAR 999077, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chow, Edward Kai-Hua",
+        "short_name": "Chow EK",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, National University of Singapore, Singapore 117599, Singapore.",
+          "NUS Centre for Cancer Research (N2CR), Yong Loo Lin School of Medicine, National University Singapore, Singapore 117599, Singapore.",
+          "Department of Pharmacology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117600, Singapore.",
+          "The N.1 Institute for Health (N.1), National University of Singapore, Singapore 117456, Singapore.",
+          "The Institute for Digital Medicine (WisDM), Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117456, Singapore.",
+          "Department of Biomedical Engineering, National University of Singapore, Singapore 117583, Singapore."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS sensors"
+    ],
+    "journal_abbrev": [
+      "ACS Sens"
+    ],
+    "pub_date": "2023 May 26",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/02 12:43",
+    "fetched_at": "2026-09-28 23:57:44"
+  },
+  "links": {
+    "cites": [
+      "40208754",
+      "39727877",
+      "38958517",
+      "38264526",
+      "38241607"
+    ],
+    "refs": [],
+    "similar": [
+      "37129234",
+      "31718136",
+      "34910274",
+      "33268955",
+      "34365472",
+      "29020497",
+      "24012616",
+      "23257894",
+      "31900465",
+      "36272931",
+      "35952946",
+      "32335258",
+      "37082946",
+      "22210086",
+      "35394184",
+      "23758232",
+      "32553925",
+      "36105252",
+      "32722385",
+      "35589255",
+      "28026002",
+      "35624293",
+      "32371296",
+      "36300146",
+      "37002296",
+      "26267070",
+      "27329724",
+      "31771617",
+      "33147459",
+      "30880225",
+      "37050561",
+      "34518211",
+      "24839937",
+      "27677076",
+      "34983546",
+      "32729531",
+      "31413525",
+      "36321555",
+      "36134900",
+      "33088156",
+      "35143898",
+      "32662575",
+      "27784427",
+      "33709606",
+      "21311975",
+      "36748090",
+      "33590486",
+      "26724859",
+      "30885237",
+      "34539136",
+      "23175232",
+      "24344269",
+      "36316931",
+      "23867314",
+      "35971164",
+      "30171973",
+      "34233924",
+      "30561826",
+      "26576101",
+      "23942093",
+      "32446113",
+      "34737066",
+      "28011478",
+      "25070212",
+      "31072375",
+      "37120773",
+      "33103432",
+      "30341298",
+      "31954205",
+      "23220021",
+      "23929653",
+      "36372298",
+      "34542130",
+      "32240301",
+      "33412494",
+      "35125080",
+      "26772424",
+      "36448439",
+      "36813095",
+      "33709610",
+      "32681536",
+      "25496770"
+    ],
+    "review": [
+      "37129234",
+      "34910274",
+      "33268955",
+      "31900465",
+      "36272931",
+      "37082946",
+      "35589255",
+      "32371296",
+      "36300146",
+      "32729531",
+      "31413525",
+      "33088156",
+      "36748090",
+      "34539136",
+      "26576101",
+      "32446113",
+      "33103432"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pubs.acs.org/ascefj/article-lookup/doi/10.1021/acssensors.3c00126",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

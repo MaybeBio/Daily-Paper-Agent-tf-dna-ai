@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, data availability)
+- **Assessment boundary** Scientific validity, methodological soundness, evidence quality, and clarity of claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present RiSPICE, a method that fine-tunes the DNA language model DNABERT-2 on rice chromatin data (11 histone modifications and ATAC-seq) to predict chromatin features from DNA sequence, and uses predicted changes in these features to prioritize non-coding variants within GWAS loci. The method is demonstrated through three case studies: a heat tolerance locus, the DEP1 promoter, and the OsHAK1 promoter.
+- **Visible evidence base** Abstract, Introduction, Methods sections 2.1-2.5, Results sections 3.1-3.4, Conclusion, Data Availability. Tables 1-5 and Figures 1-8 are referenced but not visible in the provided text.
+- **Missing materials affecting confidence** All figures and tables are referenced but not provided. Model performance metrics (Table 2, Table 3) are described in text but exact values for most features are not given. The GWAS replication methodology for the heat tolerance case study is not described. Saturation mutagenesis results are described qualitatively only. No comparison against existing tools (PlantDeepSEA, RiceVarMap) is shown.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of DNA language models to a genuine problem in rice genetics: prioritizing non-coding variants within GWAS loci. The methodological framework is reasonable and follows established approaches from human genomics. However, the evidence provided is insufficient to establish that the method adds value beyond existing tools. The three case studies are presented as demonstrations of utility, but the validation is largely qualitative and lacks quantitative benchmarks. Critical details about model training, evaluation, and the statistical properties of the scoring scheme are missing or incomplete. The claim that the method provides "functionally informative prioritization" is not adequately supported by the evidence presented.
+- **Who would be interested in the results, and why** Rice geneticists and breeders working on GWAS follow-up studies would be the primary audience. Researchers developing computational methods for variant prioritization in plants, particularly those interested in applying DNA language models to crop genomes, would also find this relevant. The broader community working on functional interpretation of non-coding variation in plants may find the approach of interest, though the lack of rigorous validation limits its immediate utility.
+- **Major strengths** The problem addressed is real and important: GWAS loci in rice often contain many linked variants, and prioritizing non-coding candidates is a genuine bottleneck. The use of a pretrained DNA language model fine-tuned on chromatin data is a current and reasonable approach. The three case studies cover different scenarios (post-GWAS analysis, a well-studied gene, and a drought-associated gene), which is a sensible way to demonstrate the method. The authors acknowledge limitations regarding data availability and tissue specificity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the fine-tuned model "reliably predicts chromatin features" (Section 3.1) and that the 1000 bp model was selected as best.
+  - **Evidence pointer** Section 3.1, Tables 2 and 3 (not visible)
+  - **Concern** The evaluation of the chromatin prediction model is described only through summary statements. Table 2 is said to show "comparable results across all evaluation metrics" for the three sequence lengths, and Table 3 shows per-feature performance for the selected model. However, no details are given about how the model was evaluated on the test set, what the baseline comparisons are, or how the AUROC/AUPRC values translate to practical utility for variant prioritization. The selection of the 1000 bp model based on "highest AUROC and AUPRC" is stated without reporting the actual values or the magnitude of difference from the other models. Without seeing the actual performance numbers and understanding the evaluation protocol, the claim of reliable prediction cannot be assessed.
+  - **Why it matters** The entire variant prioritization framework depends on the quality of the chromatin prediction model. If the model is not accurately predicting chromatin features, the downstream scores are not meaningful. The manuscript must provide sufficient evidence of model quality for the method to be credible.
+  - **Resolution test** Provide the full performance table for all three sequence lengths, describe the evaluation protocol in detail, and show that the model performs substantially better than appropriate baselines (e.g., sequence composition, genomic location) for each chromatin feature.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that the method identifies variants "consistent with" candidate genes from integrated GWAS and transcriptomic analysis in the heat tolerance case study (Section 3.2).
+  - **Evidence pointer** Section 3.2, Table 4, Figures 2 and 3 (not visible)
+  - **Concern** The heat tolerance case study is presented as the primary demonstration of the method's utility. However, the evidence is entirely qualitative. The authors state that 12 SNPs met the significance threshold and that two were in the promoter of the primary candidate gene LOC_Os07g48710. But no quantitative assessment is provided: How many of the 390 promoter SNPs would be expected to be significant by chance? What is the enrichment of significant SNPs in candidate gene promoters relative to non-candidate promoters? The replication of the original GWAS is mentioned but not described, and no comparison with the original study's results is shown. The co-expression analysis is also qualitative, with no statistical measures reported.
+  - **Why it matters** The case study is meant to demonstrate that the method produces biologically meaningful results. Without a quantitative demonstration that the prioritized variants are enriched in relevant genes or regulatory regions, the claim of utility is not established. The reader cannot distinguish between a method that genuinely identifies relevant variants and one that produces results that happen to overlap with prior knowledge by chance.
+  - **Resolution test** Provide a quantitative enrichment analysis showing that prioritized variants are significantly enriched in promoters of genes with relevant functional annotations or expression patterns. Report the expected number of significant variants under the null hypothesis and compare with the observed number. Describe the GWAS replication and show that the identified locus matches the original study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the method "refines" variant prioritization in the DEP1 case study compared to existing tools (Section 3.3).
+  - **Evidence pointer** Section 3.3, Figures 4, 5, and 6 (not visible)
+  - **Concern** The DEP1 case study is framed as an improvement over previous analyses by PlantDeepSEA and RiceVarMap, but no direct comparison is shown. The authors state that their method ranked Chr9:16410405_CT highest while previous tools identified Chr9:16410299, and that the two are 106 bp apart. This is presented as evidence of refinement, but it is unclear why ranking a different variant constitutes an improvement. The saturation mutagenesis analysis identified 20 significant substitutions, but the significance threshold and the statistical method for determining significance are not described. The overlap with predicted TFBSs is mentioned but no enrichment analysis is provided.
+  - **Why it matters** The claim of refinement implies that the method provides information beyond what existing tools offer. Without a direct comparison showing that the method's predictions are more accurate or more informative, this claim is unsupported. The saturation mutagenesis results need proper statistical treatment to be interpretable.
+  - **Resolution test** Provide a direct comparison with PlantDeepSEA and RiceVarMap predictions for the same variants, including quantitative metrics of performance if available. Describe the statistical method for identifying significant substitutions in the saturation mutagenesis analysis and report the significance threshold. Show that the prioritized variant or region has functional support beyond computational prediction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that the OsHAK1 case study provides evidence of the method's utility through consistency with H2Bub-associated regulation (Section 3.4).
+  - **Evidence pointer** Section 3.4, Table 5, Figures 7 and 8 (not visible)
+  - **Concern** The OsHAK1 case study relies on the reported co-occurrence of H2Bub with H3K4 methylation to interpret the results. The authors state that the largest absolute Per-Feature Scores were observed for H3K4me2, which they interpret as consistent with H2Bub-associated regulation. However, this is a weak form of validation: the prediction of large H3K4me2 effects does not directly test whether the variants affect H2Bub or H3K4me2 in vivo. The saturation mutagenesis identified 44 significant positions, but again the statistical method is not described. The overlap with ABA-responsive TFBSs is mentioned but not quantified.
+  - **Why it matters** The case study is presented as demonstrating biological consistency, but the evidence is circumstantial. The method predicts chromatin feature changes, but there is no experimental validation showing that the prioritized variants actually affect chromatin state or gene expression. The connection to H2Bub regulation is inferred rather than demonstrated.
+  - **Resolution test** Provide experimental validation of at least one prioritized variant showing an effect on chromatin state or gene expression. Alternatively, provide a more rigorous computational validation, such as showing that the prioritized variants are enriched in experimentally validated regulatory regions or that the predicted chromatin effects correlate with expression quantitative trait loci.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the method can be used for "in silico saturation mutagenesis" to identify high-impact mutations and putative regulatory elements (Sections 2.1, 3.3, 3.4).
+  - **Evidence pointer** Sections 2.1, 3.3, 3.4, Figures 6 and 8 (not visible)
+  - **Concern** The saturation mutagenesis analysis is described as a key feature of the method, but the statistical framework for determining which substitutions are "significant" is not described in the methods. The authors state that 20 and 44 significant substitutions were identified in the DEP1 and OsHAK1 analyses, respectively, but the threshold for significance and the multiple testing correction are not specified. Without this information, the results cannot be interpreted or reproduced.
+  - **Why it matters** The saturation mutagenesis results are used to support the identification of putative regulatory regions. If the statistical framework is not described, the reader cannot assess whether the identified regions are meaningful or artifacts of the analysis.
+  - **Resolution test** Describe the statistical method for determining significance in the saturation mutagenesis analysis, including the null model, the test statistic, and the multiple testing correction. Provide the significance threshold used for each case study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The description of the scoring method states that Per-Feature Scores are aggregated using Euclidean normalization, but the formula is not shown in the text. The equations for the Per-Feature Score and Overall Score are referenced but not displayed.
+  - **Required correction** Include the explicit formulas for the Per-Feature Score and Overall Score in Section 2.5.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, Table 1 (not visible)
+  - **Issue** The description of training data collection mentions that datasets were obtained from RiceENCODE and GEO, but the specific accessions and the number of replicates for each chromatin feature are not stated in the text.
+  - **Required correction** Provide a complete list of dataset accessions and the number of samples used for each chromatin feature in Table 1 or in the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Issue** The selection of DNABERT-2 over other models is stated to be based on "predictive performance and relatively low complexity," but the evaluation procedure for this selection is not described.
+  - **Required correction** Briefly describe how the candidate models were evaluated for the model selection step.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, location not provided
+  - **Issue** The GWAS replication is mentioned but not described. The reader is not told how the GWAS was performed, what model was used, or how the lead SNP and locus boundaries were determined.
+  - **Required correction** Provide a brief description of the GWAS replication methodology, including the association model, the number of accessions, and the significance threshold used to define the locus.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3, location not provided
+  - **Issue** The statement that the method "refines" variant prioritization in DEP1 is not supported by a direct comparison with previous tools. The authors note that their top-ranked variant differs from the one identified by PlantDeepSEA and RiceVarMap, but the significance of this difference is not discussed.
+  - **Required correction** Clarify what is meant by "refines" and provide a direct comparison of predictions from the different methods for the same variants.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model evaluation insufficiently documented), R1-M2 (case study validation is qualitative only), R1-M3 (no direct comparison with existing tools), R1-M4 (no experimental or rigorous computational validation), R1-M5 (statistical framework for saturation mutagenesis not described)
+
+## Risk / unsupported claims
+- The claim that the method "reliably predicts chromatin features" is unsupported without full performance metrics and evaluation details.
+- The claim that the heat tolerance case study provides "independent support" for candidate genes is not quantitatively established.
+- The claim that the method "refines" variant prioritization in DEP1 is unsupported without direct comparison to existing tools.
+- The claim that the OsHAK1 results are "consistent with" H2Bub-associated regulation is circumstantial and not rigorously tested.
+- The claim that saturation mutagenesis identifies "putative regulatory elements" is unsupported without a described statistical framework.
+- The overall claim that the method provides "functionally informative prioritization" is not established from the evidence provided.

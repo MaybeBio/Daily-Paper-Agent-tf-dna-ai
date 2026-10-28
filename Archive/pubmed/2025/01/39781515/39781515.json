@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "39781515",
+    "doi": "10.1093/nargab/lqae186",
+    "title": "SProtFP: a machine learning-based method for functional classification of small ORFs in prokaryotes."
+  },
+  "content": {
+    "abstract": "Small proteins (</=100 amino acids) play important roles across all life forms, ranging from unicellular bacteria to higher organisms. In this study, we have developed SProtFP which is a machine learning-based method for functional annotation of prokaryotic small proteins into selected functional categories. SProtFP uses independent artificial neural networks (ANNs) trained using a combination of physicochemical descriptors for classifying small proteins into antitoxin type 2, bacteriocin, DNA-binding, metal-binding, ribosomal protein, RNA-binding, type 1 toxin and type 2 toxin proteins. We have also trained a model for identification of small open reading frame (smORF)-encoded antimicrobial peptides (AMPs). Comprehensive benchmarking of SProtFP revealed an average area under the receiver operator curve (ROC-AUC) of 0.92 during 10-fold cross-validation and an ROC-AUC of 0.94 and 0.93 on held-out balanced and imbalanced test sets. Utilizing our method to annotate bacterial isolates from the human gut microbiome, we could identify thousands of remote homologs of known small protein families and assign putative functions to uncharacterized proteins. This highlights the utility of SProtFP for large-scale functional annotation of microbiome datasets, especially in cases where sequence homology is low. SProtFP is freely available at http://www.nii.ac.in/sprotfp.html and can be combined with genome annotation tools such as ProsmORF-pred to uncover the functional repertoire of novel small proteins in bacteria.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Open Reading Frames/genetics",
+      "Neural Networks, Computer",
+      "Humans",
+      "Bacterial Proteins/genetics/metabolism/chemistry",
+      "Bacteria/genetics/metabolism/classification",
+      "Gastrointestinal Microbiome/genetics",
+      "Antimicrobial Peptides/genetics/chemistry/metabolism",
+      "Molecular Sequence Annotation/methods",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khanduja, Akshay",
+        "Mohanty, Debasisa"
+      ],
+      "short_names": [
+        "Khanduja A",
+        "Mohanty D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3374-0588"
+      ],
+      "affiliations": [
+        "National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khanduja, Akshay",
+        "short_name": "Khanduja A",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Debasisa",
+        "short_name": "Mohanty D",
+        "identifiers": [
+          "0000-0002-3374-0588"
+        ],
+        "affiliations": [
+          "National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/09 06:22",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38843834",
+      "38036921",
+      "37343614",
+      "37223003",
+      "37156916",
+      "36988160",
+      "36927031",
+      "36806354",
+      "36699405",
+      "36420884",
+      "36408920",
+      "36304293",
+      "36171426",
+      "36049139",
+      "35938008",
+      "35852327",
+      "35732113",
+      "35241840",
+      "34814826",
+      "34795654",
+      "34531327",
+      "34114031",
+      "33962981",
+      "33172998",
+      "33054771",
+      "32690973",
+      "32139545",
+      "31705614",
+      "31620433",
+      "31504789",
+      "31350877",
+      "31067315",
+      "30904393",
+      "30837344",
+      "30452523",
+      "30241466",
+      "30016950",
+      "29788290",
+      "29675032",
+      "29150605",
+      "29111488",
+      "29069344",
+      "28472402",
+      "28122954",
+      "28077403",
+      "27923914",
+      "27323842",
+      "27144353",
+      "26602694",
+      "26362088",
+      "25928477",
+      "25810428",
+      "25475368",
+      "24316328",
+      "23522326",
+      "23060610",
+      "22923291",
+      "22796954",
+      "22408190",
+      "22247505",
+      "20824206",
+      "19507241",
+      "19234132",
+      "18052539",
+      "15980461",
+      "15073010",
+      "15039428",
+      "12644238",
+      "12620847",
+      "11787063",
+      "11260474",
+      "8377180",
+      "2231712"
+    ],
+    "similar": [
+      "39781515",
+      "36988160",
+      "28732463",
+      "33290720",
+      "32598314",
+      "38995533",
+      "28977509",
+      "34125903",
+      "31703551",
+      "31819274",
+      "26099921",
+      "38843834",
+      "33206960",
+      "39214983",
+      "39910485",
+      "30753697",
+      "29047334",
+      "39388605",
+      "30717662",
+      "34220823",
+      "34339296",
+      "32387289",
+      "17678530",
+      "34259329",
+      "23874379",
+      "38972032",
+      "30153857",
+      "23484025",
+      "39163860",
+      "39573886",
+      "34253067",
+      "28800158",
+      "33245691",
+      "23273318",
+      "38747369",
+      "16845009",
+      "32602138",
+      "33054771",
+      "21787300",
+      "39781514",
+      "21030493",
+      "37464885",
+      "39201537",
+      "31698160",
+      "38865233",
+      "22335941",
+      "28849566",
+      "31441165",
+      "10547299",
+      "28964254",
+      "33774670",
+      "31106361",
+      "33765283",
+      "23111013",
+      "12783628",
+      "30810554",
+      "26460164",
+      "14690591",
+      "31961432",
+      "34750410",
+      "30520990",
+      "10860755",
+      "18831786",
+      "38851362",
+      "29141959",
+      "29036616",
+      "33076816",
+      "24118942",
+      "21036780",
+      "18174184",
+      "14506845",
+      "33974954",
+      "39665565",
+      "35325031",
+      "10743554",
+      "23026555",
+      "31402174",
+      "27400279",
+      "38842510",
+      "39037262",
+      "16319498",
+      "23417799",
+      "10954595",
+      "24484385",
+      "39166704",
+      "10027190",
+      "35241840",
+      "24059539",
+      "38520179",
+      "31164681",
+      "22434837",
+      "23046475",
+      "37171061",
+      "38739430",
+      "25721608",
+      "20175214",
+      "30606460",
+      "20085629",
+      "34898254",
+      "21443786"
+    ],
+    "review": [
+      "39781515",
+      "32387289",
+      "32602138",
+      "21787300",
+      "30810554",
+      "21036780",
+      "37171061",
+      "25721608"
+    ],
+    "pmc": [
+      "11704790"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39781515/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqae186",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

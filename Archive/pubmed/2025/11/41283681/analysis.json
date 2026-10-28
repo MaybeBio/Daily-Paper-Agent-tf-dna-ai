@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41283681",
+  "title": "Unveiling the landscape of prokaryotic global regulators through deep protein language models.",
+  "authors": "Geng, Jianing; Wu, Jiang; Luo, Sainan; Liu, Dongmei; Nie, Jingyi; Fan, Guomei; Sun, Qinglan; Hu, Songnian; Wu, Linhuan",
+  "journal": "mSystems",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用蛋白质语言模型大规模识别原核全局调控因子（转录因子），聚焦GR蛋白分类与调控网络而非TF-DNA结合位点或互作机制建模，方法可迁移但对象与互作深度有限。",
+  "abstract": "Global regulators (GRs) are key transcription factors that orchestrate the expression of multiple genes, playing essential roles in stress responses, virulence, secondary metabolism, and antibiotic resistance-traits that make them powerful tools for synthetic biology applications. However, conventional approaches often fail to detect remote homologs and novel GR types, limiting our understanding of their regulatory diversity and evolutionary dynamics across prokaryotes. Here, we present a large-scale, protein language model-driven framework to systematically chart the global regulatory landscape across 14,800 bacterial and archaeal type strain genomes-the most taxonomically diverse prokaryotic data set analyzed to date. Using a deep learning-based GR identification model trained on 74,872 curated GR sequences, we systematically identified over 270,000 GR-like proteins, including 173,256 homologs of 214 experimentally validated GR types, 52 putative GR types, and 76,113 proteins of unknown function. This model demonstrated high sensitivity and generalization capability, enabling the discovery of remote homologs and cryptic regulators beyond the reach of similarity- or domain-based methods. This expanded GR catalog revealed lineage-specific distribution patterns, functionally diverse regulons with both conserved and niche-specific targets, and hierarchical cross-regulatory networks with shared and phylum-enriched hubs. By unveiling the hidden diversity and evolutionary structure of prokaryotic global regulators, this landscape of GRs provides foundational insights into microbial gene regulation and offers a powerful toolkit for the rational design of tunable, modular, and orthogonal genetic circuits in synthetic biology.IMPORTANCEGRs are master transcriptional regulators critical for microbial adaptation, stress tolerance, and metabolic control, and they serve as valuable components for synthetic biology. However, a comprehensive understanding of GR diversity and function across the prokaryotic domain has remained elusive due to the limitations of traditional detection methods. In this study, we developed a deep learning-based identification framework and applied it to 14,800 bacterial and archaeal type strain genomes, resulting in the discovery of over 270,000 GR-like proteins, including dozens of novel types. This work provides a comprehensive landscape of prokaryotic global regulators, revealing lineage-specific distribution patterns, both conserved and specialized regulons, and modular cross-regulatory network architectures. These insights not only deepen our understanding of transcriptional regulation in microbial evolution and ecology but also provide a scalable resource for the rational design of regulatory systems in synthetic biology.",
+  "abstract_zh": "全局调控因子（GRs）是协调多个基因表达的关键转录因子，在应激反应、毒力、次级代谢和抗生素耐药性中发挥重要作用——这些特性使其成为合成生物学应用的强大工具。然而，传统方法往往无法检测远缘同源物和新颖的GR类型，限制了我们对原核生物中其调控多样性和进化动态的理解。在此，我们提出一个大规模、基于蛋白质语言模型的框架，系统性地描绘跨越14,800个细菌和古菌模式菌株基因组的全局调控景观——这是迄今分析过的分类学上最多样化的原核生物数据集。利用基于深度学习的GR识别模型（该模型在74,872条经过整理的GR序列上训练），我们系统性地识别出超过270,000个GR样蛋白，包括173,256个同源于214种经实验验证的GR类型的蛋白、52种推定GR类型，以及76,113个功能未知的蛋白。该模型展现出高灵敏度和泛化能力，能够发现超越相似性或结构域方法可达范围的远缘同源物和隐秘调控因子。这一扩展的GR目录揭示了谱系特异性分布模式、具有保守和生态位特异性靶标的功能多样性调控子，以及具有共享和门富集枢纽的层级交叉调控网络。通过揭示原核生物全局调控因子的隐藏多样性和进化结构，这一GR景观为微生物基因调控提供了基础性见解，并为合成生物学中可调、模块化和正交遗传电路的合理设计提供了强大工具包。\n\n**重要性** GRs是微生物适应、胁迫耐受和代谢控制中至关重要的主转录调控因子，并作为合成生物学的宝贵组件。然而，由于传统检测方法的局限性，对原核生物域中GR多样性和功能的全面理解一直难以实现。在本研究中，我们开发了一个基于深度学习的识别框架，并将其应用于14,800个细菌和古菌模式菌株基因组，从而发现了超过270,000个GR样蛋白，包括数十种新颖类型。这项工作提供了原核生物全局调控因子的全面景观，揭示了谱系特异性分布模式、保守和特化的调控子，以及模块化交叉调控网络架构。这些见解不仅加深了我们对微生物进化和生态中转录调控的理解，也为合成生物学中调控系统的合理设计提供了可扩展的资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41283681/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41283681/",
+  "paper_page_path": "papers/pubmed/41283681/index.html"
+}

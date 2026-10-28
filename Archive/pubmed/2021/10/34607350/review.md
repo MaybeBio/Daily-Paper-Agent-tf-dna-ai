@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability) as provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and completeness of evidence as presented in the provided text. No external data, figures, or supplementary materials were available for inspection.
+- **Shared manuscript claim summary** The authors benchmark 20 deep learning (DL) methods for cis-regulatory motif finding using 690 ENCODE ChIP-seq, 126 cancer ChIP-seq, and 55 CLIP-seq datasets. They assess four metrics (sequence classification accuracy via an aggregated AEMR score, motif prediction accuracy, scalability, and usability) and conclude that existing DL methods are highly complementary, with the best choice depending on data type, size, and desired outputs. They further apply 11 tools to cancer data and report TFImpute as the most robust across nine cancer types.
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 1–4, Supplementary Figures S1–S3, and Supplementary Tables S1–S7. None of these figures or tables were provided in the submitted material.
+- **Missing materials affecting confidence** All figures, supplementary tables, and supplementary figures are referenced but not included. Dataset accession details, tool version specifics, hyperparameter settings, and full benchmark results are not available. This substantially limits the ability to verify the reported findings.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and practically important question: how do existing deep learning tools for cis-regulatory motif discovery compare on standardized benchmarks? The scale of the evaluation (690 ChIP-seq, 126 cancer ChIP-seq, 55 CLIP-seq datasets) is commendable and potentially useful to the community. However, the manuscript as provided has several critical weaknesses. The evaluation methodology is described at a high level but lacks essential details on how each tool was configured, how hyperparameters were chosen, and how the AEMR score was computed in practice. The results section is largely qualitative, with no numerical results presented in the text, making it impossible to assess the magnitude of differences between tools. The claim that tools are "highly complementary" is not supported by any quantitative analysis of complementarity. The cancer analysis is interesting but the interpretation is speculative. The writing is generally clear but some technical descriptions are imprecise. Overall, the study has potential value as a community resource, but the current manuscript does not establish its conclusions from the evidence provided.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians who use or develop motif discovery tools would be the primary audience. The benchmark results could help practitioners choose appropriate tools for their specific data types. Researchers studying gene regulation, transcription factor binding, and cancer genomics may also find the comparative analysis useful. The study could serve as a reference for future method development in this area.
+- **Major strengths** 1) The scale of the benchmark is substantial, covering a large number of datasets across multiple data types (DNA, RNA, cancer). 2) The inclusion of four evaluation dimensions (classification, motif finding, scalability, usability) provides a more holistic view than many existing benchmarks. 3) The comparison against traditional non-DL methods (gkmSVM, MEME-ChIP) provides a useful baseline. 4) The cancer-specific analysis addresses an under-investigated area. 5) The manuscript is generally well-organized and readable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to have evaluated 20 DL methods across four metrics and to have identified the best-performing tools for different scenarios.
+  - **Evidence pointer** Results section; Figures 3 and 4; Supplementary Figures S1–S3; Supplementary Tables S1–S5. Location not provided for specific numerical values.
+  - **Concern** The results section provides no numerical data whatsoever. All performance comparisons are described qualitatively ("best performance", "higher scalability scores", "moderately varied"). No effect sizes, confidence intervals, or statistical tests are reported. The AEMR score is described but its distribution across tools is not shown in the text. Without quantitative results, the reader cannot evaluate the magnitude of differences between tools or the significance of the rankings.
+  - **Why it matters** A benchmark study's primary value lies in its quantitative comparisons. Qualitative statements such as "tool X performed better than tool Y" are not reproducible or verifiable without the underlying numbers. The absence of numerical results prevents readers from making informed decisions about tool selection and undermines the scientific contribution.
+  - **Resolution test** Provide the full numerical results for all four metrics across all 20 tools, including the AEMR scores, motif prediction scores, scalability scores, and usability scores. Include appropriate statistical analyses (e.g., confidence intervals, significance tests) to support claims of differences between tools.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the existing models presented unstable performances for the 126 ChIP-seq datasets obtained from nine cancer types" and that TFImpute was the most robust tool.
+  - **Evidence pointer** Results section, Figure 4; Supplementary Figure S3; Supplementary Table S5. Location not provided.
+  - **Concern** The claim of "unstable performances" is not defined or quantified. What does instability mean here? Variance across cancer types? Variance across datasets within a cancer type? The statement that TFImpute had "the lowest variance" is not supported by any numerical variance estimates. Additionally, the number of tools evaluated on cancer data (11) differs from the total (20), and the criteria for including only 11 tools are not explained.
+  - **Why it matters** The cancer analysis is a distinctive contribution of this study. If the robustness claims are not quantitatively supported, the conclusions about which tools are suitable for cancer data are not reliable. The discrepancy between 20 tools in the main benchmark and 11 in the cancer analysis needs clarification.
+  - **Resolution test** Define the instability metric explicitly. Report variance or dispersion measures for each tool across cancer types. Explain why only 11 tools were included in the cancer analysis and provide results for all tools that can handle cancer data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim to have benchmarked 20 DL tools and provide a GitHub link for source code.
+  - **Evidence pointer** Data availability section; Methods section.
+  - **Concern** The methods section does not describe how each of the 20 tools was installed, configured, and run. Critical details are missing: (i) the exact version of each tool, (ii) the hyperparameters used for each tool, (iii) whether default parameters were used or if tuning was performed, (iv) the computational environment (GPU model, memory, etc.), and (v) how the training/validation/test splits were constructed for each dataset. The statement that "we started the timer after loading data and the package" is vague and does not specify what is included in the timing.
+  - **Why it matters** Reproducibility is a core requirement for benchmark studies. Without detailed configuration information, other researchers cannot replicate the results or apply the same protocol to new data. The GitHub link is mentioned but its contents are not described.
+  - **Resolution test** Provide a detailed supplementary document describing the exact setup for each tool, including versions, parameters, and computational environment. Describe the data splitting procedure precisely. Clarify what the GitHub repository contains and how it relates to the manuscript.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "the most suitable model should primarily depend on the data size and type and the method's outputs" and that tools are "highly complementary."
+  - **Evidence pointer** Abstract; Discussion section.
+  - **Concern** The claim of complementarity is not supported by any analysis. Complementarity would require demonstrating that different tools identify different motifs or perform well on different subsets of data. No such analysis is presented. The conclusion that the best tool depends on data size and type is generic and could apply to almost any benchmark study. The authors do not provide specific guidance on which tools to choose for which scenarios.
+  - **Why it matters** The stated conclusion is the main takeaway message of the paper. If it is not supported by specific evidence, the paper's contribution is weakened. A benchmark study should provide actionable guidance, not just a general statement.
+  - **Resolution test** Provide a decision tree or a set of specific recommendations based on the results. For example, "for datasets with fewer than X peaks, tool A is recommended; for RNA data, tool B is recommended." Analyze whether tools identify different motifs and quantify the overlap or uniqueness of motif predictions across tools.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "CNN-based tools tend to have better performance than tools in other categories for DNA sequence-based analysis, while on the contrary, for RNA sequence-based analysis."
+  - **Evidence pointer** Results section, Figure 3.
+  - **Concern** This claim is presented as a general trend, but the number of tools in each category is small and unbalanced. Category III, IV, and V each contain only one tool. The comparison between categories is therefore confounded by the specific tools in each category. The authors do not discuss this limitation.
+  - **Why it matters** The categorization of tools into five architectural types is a central organizing principle of the paper. If the categories are too small to support general conclusions, the claims about architectural trends are not justified.
+  - **Resolution test** Acknowledge the small sample size per category and temper the claims accordingly. Alternatively, include more tools per category or frame the results as specific to the evaluated tools rather than general architectural conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, evaluation criteria for motif prediction
+  - **Evidence pointer** Equation 9
+  - **Issue** The motif prediction score formula is unclear. The notation "norm" is used but not defined. It is stated that both terms are "scaled to the range of 0-1 by dividing the maximum values," but it is not clear whether this scaling is applied before or after the addition, and what the maximum values refer to (maximum across all tools? maximum per tool?).
+  - **Required correction** Define the normalization procedure precisely. Specify what the maximum values are and how they are computed. Clarify the order of operations in the formula.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, dataset description
+  - **Evidence pointer** Dataset description section
+  - **Issue** The description of negative sample selection is brief. It states that negative samples are selected based on matched GC-content and not overlapping with peaks, but does not specify the genomic regions from which negative samples were drawn (e.g., random genomic regions, promoter regions, etc.).
+  - **Required correction** Provide more detail on how negative samples were generated, including the genomic context and the algorithm used for GC-content matching.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Figure 3
+  - **Issue** The text states that "the performance of these tools differed substantially in the AEMR scores, motif prediction scores and tool usability, while the method scalability scores moderately varied." This is a qualitative summary, but no specific values are given. The reader cannot assess what "substantially" or "moderately" means in quantitative terms.
+  - **Required correction** Include a summary table in the main text with the key numerical results for each tool and each metric.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement "the 'good-yet-not-the-best' methods can still provide a valuable contribution" is vague. It is unclear what this means in practical terms or how it follows from the results.
+  - **Required correction** Clarify this statement with specific examples from the results or remove it if it is not supported.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability section
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability section states that ChIP-seq data can be downloaded from a URL and that source codes are on GitHub. However, it does not mention whether the benchmark scripts, the exact dataset splits, or the trained models are available.
+  - **Required correction** Specify what exactly is available in the GitHub repository and whether all data and scripts needed to reproduce the results are included.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative results), R1-M2 (unsubstantiated robustness claims), R1-M3 (insufficient methodological detail for reproducibility). These are blocking issues because the core conclusions of the paper cannot be evaluated without them.
+- **Assessment against Nature-style criteria** Originality: The study is not conceptually novel, as several DL benchmarks for motif discovery exist, but the scale and the inclusion of cancer data provide some incremental value. Scientific importance: The results could be useful for tool selection, but the lack of quantitative detail limits the impact. Interdisciplinary readership: The topic is of interest to computational biologists and bioinformaticians, but the presentation is too specialized for a broader readership. Technical soundness: The methodology has significant gaps in reporting, and the absence of numerical results is a major flaw. Readability for nonspecialists: The manuscript is readable for those familiar with the field, but the technical descriptions assume prior knowledge of DL architectures and motif discovery. Overall, the manuscript does not currently meet the standards expected for a high-impact journal.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a relevant question and has a potentially valuable dataset, but the manuscript as presented lacks the quantitative detail and methodological transparency needed to support its conclusions. Major revisions are required.
+
+## Risk / unsupported claims
+- The claim that tools are "highly complementary" is unsupported by any analysis of complementarity.
+- The claim that TFImpute was the "most robust" tool on cancer data is unsupported by numerical evidence.
+- The claim that CNN-based tools perform better for DNA and worse for RNA is based on a small and unbalanced number of tools per category.
+- The claim that "the most suitable model should primarily depend on the data size and type" is a generic statement not backed by specific data-driven recommendations.
+- The statement that "DESSO achieves the highest overall score for DNA sequence-based analysis" cannot be verified without the underlying scores.
+- The claim that "only 62 motifs are unique to their corresponding cancer type" is presented without the supporting analysis or the list of motifs.
+- The interpretation that "shared motifs may shed light on shared regulatory mechanisms" is speculative and not directly supported by the presented results.

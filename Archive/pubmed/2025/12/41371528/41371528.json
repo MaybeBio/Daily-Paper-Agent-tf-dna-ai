@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "41371528",
+    "doi": "10.1016/j.ijbiomac.2025.149468",
+    "title": "Discovery of selective TLR9 antagonists via machine learning-driven structural modeling and experimental validation."
+  },
+  "content": {
+    "abstract": "Toll-like receptor 9 (TLR9) is a key sensor of CpG-rich DNA motifs, orchestrating host defense but also contributing to chronic inflammation, autoimmunity, and cancer progression when dysregulated. Selective small-molecule antagonists of TLR9 hold significant therapeutic promise; however, existing candidates exhibit off-target activity, suboptimal pharmacokinetics, and safety liabilities. Here, we employed an integrated computational-experimental strategy to discover and characterize novel TLR9 inhibitors. Machine learning-based QSAR classifiers were combined with molecular docking, pharmacophore modeling, and molecular dynamics simulations to predict active scaffolds and refine ligand candidates. This approach prioritized two compounds, TRin7 and TRin8, based on favorable binding free energies, stable receptor engagement, and key pharmacophoric features. In vitro, both compounds selectively suppressed CpG ODN2395-induced cytokine production (TNF-alpha, IL-6, MCP-1, and IL-8) in murine RAW264.7 macrophages and human Daudi cells, without affecting other TLR pathways, and did not cause significant toxicity even under extended treatment conditions. Mechanistic studies demonstrated that TRin7 and TRin8 directly disrupted TLR9-CpG DNA binding and inhibited downstream NF-kappaB and MAPK signaling, resulting in reduced COX2 and NOS2 expression. Comparative analyses indicated that TRin7 exhibited slightly greater potency, consistent with its lower binding free-energy profile in MM/PBSA calculations. Collectively, these findings establish TRin7 and TRin8 as promising small-molecule antagonists of TLR9 and highlight the utility of integrating machine learning with structural modeling and cellular validation in rational drug discovery.",
+    "keywords": [
+      "MD simulation",
+      "Machine learning",
+      "QSAR",
+      "Small-molecule antagonists",
+      "Toll-like receptor 9"
+    ],
+    "mesh_terms": [
+      "*Toll-Like Receptor 9/antagonists & inhibitors/chemistry/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "Animals",
+      "Mice",
+      "Molecular Docking Simulation",
+      "RAW 264.7 Cells",
+      "*Drug Discovery",
+      "Molecular Dynamics Simulation",
+      "Quantitative Structure-Activity Relationship",
+      "Cytokines/metabolism",
+      "Oligodeoxyribonucleotides",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khan, Abdul Waheed",
+        "Qayyum, Naila",
+        "Manan, Abdul",
+        "Farooq, Mariya",
+        "Haseeb, Muhammad",
+        "Ilyas, Sidra",
+        "Kim, Wook",
+        "Choi, Sangdun"
+      ],
+      "short_names": [
+        "Khan AW",
+        "Qayyum N",
+        "Manan A",
+        "Farooq M",
+        "Haseeb M",
+        "Ilyas S",
+        "Kim W",
+        "Choi S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea. Electronic address: waheed@ajou.ac.kr.",
+        "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea; S&K Therapeutics, Ajou University Campus Plaza 418, 199 Worldcup-ro, Yeongtong-gu, Suwon, 16502, Republic of Korea.",
+        "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea.",
+        "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea.",
+        "S&K Therapeutics, Ajou University Campus Plaza 418, 199 Worldcup-ro, Yeongtong-gu, Suwon, 16502, Republic of Korea.",
+        "Department of Herbal Pharmacology, College of Korean Medicine, Gachon University, 1342 Seongnamdae-ro, Sujeong-gu, Seongnam-si, 13120, Republic of Korea.",
+        "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea.",
+        "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea; S&K Therapeutics, Ajou University Campus Plaza 418, 199 Worldcup-ro, Yeongtong-gu, Suwon, 16502, Republic of Korea. Electronic address: sangdunchoi@ajou.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khan, Abdul Waheed",
+        "short_name": "Khan AW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea. Electronic address: waheed@ajou.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Qayyum, Naila",
+        "short_name": "Qayyum N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea; S&K Therapeutics, Ajou University Campus Plaza 418, 199 Worldcup-ro, Yeongtong-gu, Suwon, 16502, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Manan, Abdul",
+        "short_name": "Manan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Farooq, Mariya",
+        "short_name": "Farooq M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Haseeb, Muhammad",
+        "short_name": "Haseeb M",
+        "identifiers": [],
+        "affiliations": [
+          "S&K Therapeutics, Ajou University Campus Plaza 418, 199 Worldcup-ro, Yeongtong-gu, Suwon, 16502, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ilyas, Sidra",
+        "short_name": "Ilyas S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Herbal Pharmacology, College of Korean Medicine, Gachon University, 1342 Seongnamdae-ro, Sujeong-gu, Seongnam-si, 13120, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Wook",
+        "short_name": "Kim W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Sangdun",
+        "short_name": "Choi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Science and Technology, Ajou University, Suwon, 16499, Republic of Korea; S&K Therapeutics, Ajou University Campus Plaza 418, 199 Worldcup-ro, Yeongtong-gu, Suwon, 16502, Republic of Korea. Electronic address: sangdunchoi@ajou.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 01:22",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "41906012"
+    ],
+    "refs": [],
+    "similar": [
+      "41371528",
+      "38904299",
+      "26578650",
+      "23497207",
+      "26907260",
+      "31856726",
+      "28437629",
+      "41373728",
+      "29842849",
+      "19102653",
+      "37454749",
+      "38637479",
+      "32700178",
+      "25735984",
+      "17925007",
+      "18194990",
+      "20655295",
+      "25078697",
+      "18279792",
+      "30047845",
+      "22595112",
+      "30415122",
+      "27849177",
+      "38697440",
+      "30758898",
+      "34672136",
+      "21778270",
+      "22613717",
+      "24535292",
+      "39971016",
+      "11751985",
+      "40945215",
+      "16567503",
+      "31408613",
+      "37834438",
+      "19714766",
+      "39791728",
+      "31782817",
+      "24184955",
+      "28757040",
+      "16644479",
+      "12867418",
+      "38228433",
+      "32660060",
+      "22156340",
+      "25518931",
+      "20049870",
+      "17572678",
+      "20843814",
+      "11947920",
+      "28363843",
+      "40216147",
+      "41067371",
+      "37462852",
+      "27537371",
+      "40363830",
+      "40934169",
+      "15153500",
+      "39976334",
+      "39950821",
+      "23727784",
+      "15996194",
+      "25964477",
+      "30324898",
+      "40233673",
+      "36234844",
+      "27937044",
+      "19573862",
+      "28052994",
+      "41506199",
+      "16098606",
+      "23893288",
+      "15744581",
+      "40858055",
+      "40222546",
+      "16263754",
+      "16191419",
+      "40911109",
+      "24040108",
+      "26043572",
+      "30292896",
+      "27044334",
+      "33683038",
+      "34931613",
+      "33475043",
+      "40053865",
+      "20339095",
+      "30024926",
+      "27075928",
+      "41274068",
+      "18922969",
+      "23396449",
+      "35707851",
+      "31916502",
+      "40825424",
+      "40987012",
+      "18166152",
+      "17202329",
+      "41497266",
+      "24247649"
+    ],
+    "review": [
+      "41371528",
+      "24184955",
+      "41067371",
+      "16098606"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)10025-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-327",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

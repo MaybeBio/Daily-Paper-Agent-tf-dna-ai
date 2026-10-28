@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36374878",
+  "title": "Using Fully Convolutional Network to Locate Transcription Factor Binding Sites Based on DNA Sequence and Conservation Information.",
+  "authors": "Zhang, Qinhu; Xu, Youhong; Wang, Siguo; Wu, Yong; Ye, Yuannong; Yuan, Chang-An; Gribova, Valeriya; Filaretov, Vladimir Fedorovich; Huang, De-Shuang",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2022-11-15",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全卷积网络结合序列与保守性信息在核苷酸水平定位TF结合位点，属于TF-DNA互作位点预测的AI方法，与本课题高度匹配。",
+  "abstract": "Transcription factors (TFs) play a part in gene expression. TFs can form complex gene expression regulation system by combining with DNA. Thereby, identifying the binding regions has become an indispensable step for understanding the regulatory mechanism of gene expression. Due to the great achievements of applying deep learning (DL) to computer vision and language processing in recent years, many scholars are inspired to use these methods to predict TF binding sites (TFBSs), achieving extraordinary results. However, these methods mainly focus on whether DNA sequences include TFBSs. In this paper, we propose a fully convolutional network (FCN) coupled with refinement residual block (RRB) and global average pooling layer (GAPL), namely FCNARRB. Our model could classify binding sequences at nucleotide level by outputting dense label for input data. Experimental results on human ChIP-seq datasets show that the RRB and GAPL structures are very useful for improving model performance. Adding GAPL improves the performance by 9.32% and 7.61% in terms of IoU (Intersection of Union) and PRAUC (Area Under Curve of Precision and Recall), and adding RRB improves the performance by 7.40% and 4.64%, respectively. In addition, we find that conservation information can help locate TFBSs.",
+  "abstract_zh": "转录因子（TFs）在基因表达中发挥作用。TFs能与DNA结合形成复杂的基因表达调控系统。因此，识别结合区域已成为理解基因表达调控机制不可或缺的一步。近年来，由于深度学习（DL）在计算机视觉和语言处理领域的巨大成就，许多学者受到启发，利用这些方法预测转录因子结合位点（TFBSs），取得了非凡的成果。然而，这些方法主要关注DNA序列是否包含TFBSs。在本文中，我们提出了一种结合精炼残差块（RRB）和全局平均池化层（GAPL）的全卷积网络（FCN），即FCNARRB。我们的模型通过为输入数据输出密集标签，能够在核苷酸水平上对结合序列进行分类。在人类ChIP-seq数据集上的实验结果表明，RRB和GAPL结构对提升模型性能非常有用。添加GAPL在IoU（交并比）和PRAUC（精确率-召回率曲线下面积）方面分别提升了9.32%和7.61%的性能，而添加RRB则分别提升了7.40%和4.64%。此外，我们发现保守信息有助于定位TFBSs。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36374878/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36374878/",
+  "paper_page_path": "papers/pubmed/36374878/index.html"
+}

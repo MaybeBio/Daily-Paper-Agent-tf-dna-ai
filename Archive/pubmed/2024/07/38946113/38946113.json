@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "38946113",
+    "doi": "10.1021/acs.jcim.4c00546",
+    "title": "CapsEnhancer: An Effective Computational Framework for Identifying Enhancers Based on Chaos Game Representation and Capsule Network."
+  },
+  "content": {
+    "abstract": "Enhancers are a class of noncoding DNA, serving as crucial regulatory elements in governing gene expression by binding to transcription factors. The identification of enhancers holds paramount importance in the field of biology. However, traditional experimental methods for enhancer identification demand substantial human and material resources. Consequently, there is a growing interest in employing computational methods for enhancer prediction. In this study, we propose a two-stage framework based on deep learning, termed CapsEnhancer, for the identification of enhancers and their strengths. CapsEnhancer utilizes chaos game representation to encode DNA sequences into unique images and employs a capsule network to extract local and global features from sequence \"images\". Experimental results demonstrate that CapsEnhancer achieves state-of-the-art performance in both stages. In the first and second stages, the accuracy surpasses the previous best methods by 8 and 3.5%, reaching accuracies of 94.5 and 95%, respectively. Notably, this study represents the pioneering application of computer vision methods to enhancer identification tasks. Our work not only contributes novel insights to enhancer identification but also provides a fresh perspective for other biological sequence analysis tasks.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Enhancer Elements, Genetic",
+      "*Computational Biology/methods",
+      "Humans",
+      "Nonlinear Dynamics",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yao, Lantian",
+        "Xie, Peilin",
+        "Guan, Jiahui",
+        "Chung, Chia-Ru",
+        "Huang, Yixian",
+        "Pang, Yuxuan",
+        "Wu, Huacong",
+        "Chiang, Ying-Chih",
+        "Lee, Tzong-Yi"
+      ],
+      "short_names": [
+        "Yao L",
+        "Xie P",
+        "Guan J",
+        "Chung CR",
+        "Huang Y",
+        "Pang Y",
+        "Wu H",
+        "Chiang YC",
+        "Lee TY"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4554-6827"
+      ],
+      "affiliations": [
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Department of Computer Science and Information Engineering, National Central University, Taoyuan 320317, Taiwan.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Division of Health Medical Intelligence, Human Genome Center, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+        "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 300093, Taiwan.",
+        "Center for Intelligent Drug Systems and Smart Bio-devices (IDS2B), National Yang Ming Chiao Tung University, Hsinchu 300093, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yao, Lantian",
+        "short_name": "Yao L",
+        "identifiers": [
+          "0000-0003-4554-6827"
+        ],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Peilin",
+        "short_name": "Xie P",
+        "identifiers": [],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Jiahui",
+        "short_name": "Guan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Chung, Chia-Ru",
+        "short_name": "Chung CR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Information Engineering, National Central University, Taoyuan 320317, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Yixian",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Yuxuan",
+        "short_name": "Pang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Health Medical Intelligence, Human Genome Center, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan."
+        ]
+      },
+      {
+        "full_name": "Wu, Huacong",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Chiang, Ying-Chih",
+        "short_name": "Chiang YC",
+        "identifiers": [],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China.",
+          "School of Medicine, The Chinese University of Hong Kong, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Lee, Tzong-Yi",
+        "short_name": "Lee TY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 300093, Taiwan.",
+          "Center for Intelligent Drug Systems and Smart Bio-devices (IDS2B), National Yang Ming Chiao Tung University, Hsinchu 300093, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Jul 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/01 06:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42099625",
+      "42063579",
+      "41664908",
+      "41223195",
+      "39528950"
+    ],
+    "refs": [
+      "37938956",
+      "37762364",
+      "37442977",
+      "37387136",
+      "37336034",
+      "37113248",
+      "37015693",
+      "36715222",
+      "36063523",
+      "34900136",
+      "34882222",
+      "34864886",
+      "34364858",
+      "34226917",
+      "34141139",
+      "33833783",
+      "33802922",
+      "33539511",
+      "33119044",
+      "31874637",
+      "31519146",
+      "31225868",
+      "31086298",
+      "30520972",
+      "30262496",
+      "29878118",
+      "27941893",
+      "26476782",
+      "26375765",
+      "25650801",
+      "25473424",
+      "23503198",
+      "22138689",
+      "21825079",
+      "20833320",
+      "19212405",
+      "18555785",
+      "2336393"
+    ],
+    "similar": [
+      "38946113",
+      "35190950",
+      "38485768",
+      "27490187",
+      "35942693",
+      "33808317",
+      "36520922",
+      "35015646",
+      "36671456",
+      "37539835",
+      "35605495",
+      "29072144",
+      "33741075",
+      "34226917",
+      "33539511",
+      "39120645",
+      "25378307",
+      "33802922",
+      "34364858",
+      "29219068",
+      "33137083",
+      "37021401",
+      "33133227",
+      "27662874",
+      "30374023",
+      "36376800",
+      "36071071",
+      "26634919",
+      "37852600",
+      "33096548",
+      "23685394",
+      "32443951",
+      "36715222",
+      "33535061",
+      "31905774",
+      "27662872",
+      "37348298",
+      "28334114",
+      "35417351",
+      "37760334",
+      "28716036",
+      "38385876",
+      "31340596",
+      "35422876",
+      "30959806",
+      "32732264",
+      "28239713",
+      "37442977",
+      "31874637",
+      "30709337",
+      "27929098",
+      "33481715",
+      "36740001",
+      "36220606",
+      "27789687",
+      "26912062",
+      "30905748",
+      "39293807",
+      "28688491",
+      "33581335",
+      "32689977",
+      "26799292",
+      "37294799",
+      "34252960",
+      "38890584",
+      "28056037",
+      "36063523",
+      "33973014",
+      "34879086",
+      "36043696",
+      "23526891",
+      "38086419",
+      "28589862",
+      "37366813",
+      "39420601",
+      "26377945",
+      "30822398",
+      "17130149",
+      "31318408",
+      "17406258",
+      "23080243",
+      "30589856",
+      "23424115",
+      "38816426",
+      "24218630",
+      "35883552",
+      "34491989",
+      "15345045",
+      "24565409",
+      "28605766",
+      "33749795",
+      "28193886",
+      "35633468",
+      "25956793",
+      "31740966",
+      "24599251",
+      "17490485",
+      "27084358",
+      "32568326",
+      "34498677",
+      "33537074",
+      "29244011"
+    ],
+    "review": [
+      "38946113",
+      "37021401",
+      "26634919",
+      "23685394",
+      "32443951",
+      "23080243"
+    ],
+    "pmc": [
+      "11267569"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38946113/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c00546",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

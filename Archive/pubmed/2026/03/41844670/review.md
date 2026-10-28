@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends, supplementary figure legends)
+- **Assessment boundary** Scientific soundness, technical validity, reproducibility, and claims as supported by the provided evidence. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors present a two-stage neural network system (Place-Back and Determiner) trained via self-supervised learning to predict context-appropriate insertion sites and rewrite lengths for transcription factor binding sites (TFBS) in Saccharomyces cerevisiae promoters. They report in silico screening of 6,011 native promoters for tetO compatibility, experimental validation of four tetO-modified promoters with repression up to 98.4%, and rewiring of the native glucose-responsive network via Mig1 site insertion into the essential PCF1 promoter.
+- **Visible evidence base** Abstract, Introduction, Results (including Figures 1-4 and Supplementary Figures 1-21), Discussion, Methods, Strain table, equations for fold induction, repression rate, disruption rate, and relative activity.
+- **Missing materials affecting confidence** Raw data files, model training curves, hyperparameter details, code repository contents, full statistical outputs, replicate-level data, and complete supplementary tables were not provided in the reviewed material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to promoter engineering using a two-stage neural network architecture trained on a self-supervised proxy task. The core idea, predicting both insertion location and rewrite length for TFBS integration, addresses a genuine gap in current synthetic biology tooling. However, the evidence as presented does not fully establish the central claims. The model performance metrics are modest, the experimental validation is limited to a small number of promoters, and the relationship between the self-supervised training objective and functional regulatory outcomes is not rigorously demonstrated. The rewiring experiment is a compelling proof-of-concept but requires additional controls and quantitative analysis to support the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, promoter engineering, and computational genomics would find this work relevant. The approach of using self-supervised learning to model promoter context for TFBS insertion could inform future design tools. Those working on transcriptional network rewiring in yeast or other eukaryotes may also be interested in the demonstrated glucose-responsive control of an essential gene.
+- **Major strengths** The two-stage architecture with explicit prediction of rewrite length is a novel contribution. The self-supervised training strategy avoids the need for labeled functional data, which is a practical advantage. The inclusion of a negative control promoter (pFIG1) predicted as incompatible is a good experimental design element. The demonstration of endogenous network rewiring without additional transcription factors is a meaningful advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model predicts optimal TFBS insertion sites and rewrite lengths that enable functional regulation.
+  - **Evidence pointer** Results, "Model performance and prediction filtering"; Figure 1; Supplementary Figures 1-6
+  - **Concern** The reported precision of 48% and recall of 4-32% for the Place-Back models are low by conventional standards. The authors argue these are meaningful relative to a random baseline, but the comparison is not fully convincing. The random baseline of 10.95% precision for MSRL 40 and 1.26% for MSRL 5 is described but the methodology for generating this baseline is not detailed. More importantly, the relationship between the self-supervised proxy task (recovering a masked query region) and the actual goal (functional TFBS insertion) is not validated. The model may be learning to identify regions that are "contextually consistent" in a sequence-statistical sense without this corresponding to functional compatibility.
+  - **Why it matters** The central claim of the paper is that the model provides actionable predictions for promoter engineering. If the model's predictions do not correlate with functional outcomes beyond the four tested promoters, the generalizability of the approach is not established. The modest performance metrics raise questions about whether the model is capturing meaningful biological constraints or statistical artifacts.
+  - **Resolution test** Provide a more rigorous baseline comparison, including a description of how random placements were generated and whether they were matched for sequence composition. Include an analysis correlating model confidence scores with experimental outcomes across a larger panel of promoters. Demonstrate that the self-supervised objective correlates with functional regulatory activity, for example by showing that predicted "high-confidence" insertions are enriched for functional outcomes compared to lower-confidence predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Experimental validation showed that model-designed promoters achieved repression rates up to 98.4%.
+  - **Evidence pointer** Results, "Experimental validation of synthetic promoters with TetR"; Figure 3; Supplementary Figures 13-16
+  - **Concern** Only four promoters were experimentally validated for tetO insertion, and one of these (pHHF2_tetO) showed only 35.8% repression. The range of outcomes (35.8% to 98.4%) is wide, and the manuscript does not provide a clear explanation for this variability. The claim that the model identifies "high-confidence" pairs is based on a consensus threshold across 10 Determiner models, but the relationship between this consensus score and experimental success is not systematically examined. Additionally, the alternative insertion site controls are mentioned but only one example (pFIG1) is described in detail.
+  - **Why it matters** The predictive power of the model is the key contribution. With only four successful validations and one predicted-incompatible control, the statistical power to establish predictive accuracy is very limited. The wide range of repression efficiencies suggests the model may not reliably predict the magnitude of regulatory effect, only the possibility of some effect.
+  - **Resolution test** Expand experimental validation to a larger panel of promoters spanning the range of model confidence scores. Provide a quantitative analysis of the relationship between model confidence and experimental outcomes. Include additional negative controls beyond pFIG1, and test alternative insertion sites for at least two of the validated promoters to demonstrate that the model's chosen sites are specifically optimal.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The rewiring experiment demonstrates glucose-dependent regulation of an essential gene via Mig1 TFBS insertion.
+  - **Evidence pointer** Results, "Rewiring of the yeast transcriptional network"; Figure 4; Supplementary Figure 17
+  - **Concern** The rewiring experiment shows a 57% repression in glucose and a 10% reduction in maximum cell density. However, the manuscript does not report whether the wild-type PCF1 promoter is itself regulated by glucose or by Mig1. If the wild-type promoter has some native glucose responsiveness, the observed effect may be partially attributable to endogenous regulation rather than the inserted Mig1 site. Additionally, the growth phenotype is modest (10%), and it is unclear whether this is biologically significant or within experimental noise. The galactose condition shows 14% higher activity than wild-type, which is not discussed.
+  - **Why it matters** The rewiring experiment is presented as a key demonstration of the method's utility. If the observed effects are confounded by native promoter regulation or are too small to be biologically meaningful, the claim of successful network rewiring is weakened.
+  - **Resolution test** Include a control experiment measuring glucose responsiveness of the wild-type PCF1 promoter. Report statistical significance for the growth differences and provide confidence intervals. Discuss the mechanism by which the inserted Mig1 site confers glucose-dependent repression and why the effect is only partial.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The model is available as an online browser-based application and locally executable version.
+  - **Evidence pointer** Discussion, "Code Availability" section (referenced but not provided in the reviewed material)
+  - **Concern** The manuscript references a Code Availability section but the actual content is not included in the reviewed material. The availability of the trained model weights, training data generation scripts, and inference code is essential for reproducibility. The self-supervised training approach depends on specific data generation procedures that must be fully documented.
+  - **Why it matters** Without access to the code and model, other researchers cannot apply the method to their own promoters or verify the results. The claim of a "scalable, predictive method" requires that the method be usable by others.
+  - **Resolution test** Provide the full Code Availability section content, including repository URL, model weights, and documentation. Include a detailed description of the training data generation pipeline and hyperparameters in the Methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Statistical analysis"
+  - **Evidence pointer** Methods section, "Statistical analysis"
+  - **Issue** The statistical methods are described only as "ANOVA with a significance threshold of p < 0.05." No details are given on the experimental design structure, the number of comparisons, or whether multiple testing corrections were applied.
+  - **Required correction** Specify the ANOVA design (e.g., one-way, two-way), the factors and levels, and whether post-hoc tests or multiple comparison corrections were used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3B, 3C, 3D
+  - **Issue** The figure legend does not report error bars, sample sizes, or statistical significance indicators. The reader cannot assess the variability or reliability of the reported repression rates and activity measurements.
+  - **Required correction** Add error bars, sample sizes, and significance markers to all panels of Figure 3. Report the number of biological replicates in the legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Model performance and prediction filtering"
+  - **Evidence pointer** Results section, "Model performance and prediction filtering"
+  - **Issue** The manuscript states that "the model's performance was consistent regardless of whether a promoter had significant sequence similarity to the training set or not" but does not provide the data supporting this claim. No figure or table is referenced for this analysis.
+  - **Required correction** Provide a supplementary figure or table showing model performance stratified by sequence similarity to the training set.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the trade-off between "naturally fitting" insertion sites and maintenance of basal activity is speculative. The manuscript does not provide mechanistic evidence for why some insertions disrupt basal activity more than others.
+  - **Required correction** Either provide additional data supporting this interpretation or temper the language to clearly indicate this is a hypothesis requiring further testing.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, "Construction of synthetic promoters with tetr binding sites"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the scarless split-PCR method is incomplete. The text mentions restriction sites and overhangs but does not fully describe the primer design strategy or the assembly verification steps beyond "colony PCR and sequencing."
+  - **Required correction** Provide a complete protocol description, including primer sequences or a reference to a detailed protocol, and describe the sequencing verification strategy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model performance validation), R1-M2 (limited experimental validation), R1-M3 (rewiring experiment controls)
+- **Assessment against Nature-style criteria** Originality: The two-stage architecture with separate prediction of insertion location and rewrite length is a novel contribution to promoter engineering. The self-supervised training approach is creative. Scientific importance: The potential to streamline promoter design and enable network rewiring is significant for synthetic biology. However, the importance is not fully realized in the current evidence. Interdisciplinary readership: The work bridges machine learning and synthetic biology, which could appeal to both communities. Technical soundness: The model architecture is reasonable but the performance validation is insufficient. The experimental methods are standard but the statistical treatment is incomplete. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some machine learning terminology could benefit from additional explanation for a biology-focused audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising and the proof-of-concept experiments are suggestive, but the current evidence does not fully establish the predictive power and generalizability of the method. The authors should address the concerns around model validation, experimental scope, and statistical rigor before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that the model "predicts optimal TFBS insertion sites" is not fully supported given the modest precision and recall values and the limited experimental validation.
+- The claim that the rewiring experiment demonstrates "glucose-dependent regulation" is weakened by the lack of a wild-type control showing no native glucose responsiveness.
+- The statement that the model "does not explicitly optimize for the maintenance of basal activity levels" is presented as an interpretation but is not tested.
+- The claim that the model "relies on learned contextual features rather than homologous sequence retrieval" is supported only by indirect evidence and requires direct testing.
+- The assertion that the model can be applied to "other eukaryotic organisms" is speculative and not supported by any cross-species validation.

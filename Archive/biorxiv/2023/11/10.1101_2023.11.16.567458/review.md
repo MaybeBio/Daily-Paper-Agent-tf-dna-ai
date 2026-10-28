@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2023)
+- **Assessment boundary** Scientific claims, methodology, dataset construction, benchmarking, and conclusions as presented in the provided text. No supplementary materials, figures, or tables were available for inspection beyond what is described in the text.
+- **Shared manuscript claim summary** The authors introduce a new dataset (EMD-Ligand Dataset) of Cryo-EM maps with ligand-binding information, benchmark three existing PLBP methods (PUResNet, Kalasanty, DeepSurf) on this dataset, integrate the best-performing methods with DeepTracer for end-to-end binding site prediction from Cryo-EM maps, and extend the pipeline with Pocket2Mol for de novo drug-like ligand generation.
+- **Visible evidence base** Abstract, Background (Sections 1.1–1.3), Methods (Sections 2.1–2.5), Results (Sections 3.1–3.3), Discussion (Section 4), Code availability, Competing interests, Acknowledgments, Appendix (scoring pseudo-code and sample lists). Tables and figures are referenced but not provided in the supplied text.
+- **Missing materials affecting confidence** All tables (Tables 1–4), all figures (Figures 1–6), the EMD-Ligand Dataset itself, detailed experimental settings, hyperparameters, and the full results of the benchmarking. The manuscript text alone is insufficient to verify quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important gap: the application of PLBP methods to large protein complexes determined by Cryo-EM, which are increasingly common and biologically relevant. The creation of a dedicated dataset is a valuable contribution. However, the current text provides insufficient detail to evaluate the rigor of the dataset construction, the fairness of the benchmarking, or the validity of the reported performance improvements. Several claims are made without supporting quantitative data in the visible text. The work is promising but not yet established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists, structural biologists, and researchers in drug discovery and design. The dataset and pipeline could be useful for those working with Cryo-EM structures of large complexes, where existing PLBP tools are known to underperform. The integration of structure prediction and ligand generation is of broad interest to the machine learning for structural biology community.
+- **Major strengths** (1) The identification of a real and important limitation in current PLBP methods. (2) The creation of a novel, publicly relevant dataset (EMD-Ligand) that addresses a clear gap. (3) The demonstration of an end-to-end pipeline from Cryo-EM map to ligand generation, which is a practical and potentially impactful contribution. (4) The preliminary evidence that adding Cryo-EM-derived training data improves performance is a useful direction for the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset construction and validity
+  - **Claim pointer** The authors claim to have created "the first protein-ligand binding database created from EMDataResource and Protein Data Bank (PDB)" and that it is suitable for benchmarking PLBP methods.
+  - **Evidence pointer** Section 2.2, Table 1 (not provided)
+  - **Concern** The description of the dataset construction is incomplete. The authors state that they queried EMDataResource and found 24,505 Cryo-EM maps corresponding to 13,944 PDB entries, then matched these against existing ligand databases, finding 2,878 matches in BioLip. However, the criteria for including a ligand as "biologically relevant" (as opposed to a crystallization artifact or buffer component) are not described. The filtering process (removing RNA, DNA, peptides, ions) is mentioned but the rationale and the exact number of remaining entries are not fully justified. The text states 1,621 proteins and 10,463 chains remain, but the relationship between these numbers and the original 2,878 matches is unclear. Without a clear, reproducible protocol for ligand assignment and filtering, the dataset's validity as a benchmark is questionable.
+  - **Why it matters** A benchmark dataset is only useful if the ground truth is reliable. If ligands are incorrectly assigned or if the filtering is arbitrary, the reported performance of PLBP methods on this dataset cannot be interpreted meaningfully. This is a foundational issue that affects all subsequent claims.
+  - **Resolution test** Provide a detailed, step-by-step protocol for dataset construction, including: (a) the exact query and matching criteria, (b) the definition of a "ligand" and the rules for excluding non-biological entities, (c) a validation of the ligand assignments (e.g., manual inspection or comparison with literature), and (d) a clear description of how chains were split and how multi-chain complexes were handled. The authors should also report the distribution of ligand types, protein sizes, and resolutions in the final dataset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Benchmarking methodology and fairness
+  - **Claim pointer** The authors claim to have "fairly assess[ed]" three PLBP methods (PUResNet, Kalasanty, DeepSurf) on the EMD-Ligand Dataset and report that they "do poorly" compared to their performance on conventional datasets.
+  - **Evidence pointer** Sections 2.1, 2.3, 3.1, 3.2, Tables 2 and 3 (not provided)
+  - **Concern** The benchmarking methodology is not described in sufficient detail. The authors state that they split proteins by chain and apply each method to individual chains, but the exact input format (e.g., PDB file, surface points, grid resolution) for each method is not specified. The modification to the scoring algorithm to handle multiple ligands per chain is described in the Appendix, but the pseudo-code is ambiguous. For example, the pseudo-code assigns a True Positive if the distance between a predicted pocket and the closest reference ligand is ≤ 4.0 Å, but it does not specify how multiple predicted pockets for the same ligand are handled, or how a single predicted pocket that overlaps with multiple ligands is scored. The comparison across methods is also potentially unfair because each method outputs different representations (grids vs. atoms/residues), and the conversion to a common scoring framework is not described. Finally, the authors do not report the hyperparameters or training details for each method, making it impossible to assess whether the methods were used optimally.
+  - **Why it matters** The central claim of the paper is that current PLBP methods fail on Cryo-EM-derived structures. If the benchmarking is not fair or the scoring is flawed, this conclusion is not supported. The field needs a reliable comparison to guide future method development.
+  - **Resolution test** Provide a complete description of the input preparation for each method, including any preprocessing steps (e.g., protonation, surface generation). Describe the scoring algorithm in full detail, including how multiple predictions and multiple ligands are matched. Report the hyperparameters used for each method and justify any modifications made to the original implementations. Ideally, the authors should also report results using the original scoring protocols of each method, in addition to their unified scoring.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the end-to-end pipeline claim
+  - **Claim pointer** The authors claim that the integration of PLBP methods with DeepTracer creates "an end-to-end system capable of predicting ligand binding sites directly from Cryo-EM maps" and that extending with Pocket2Mol can "generate drug-like ligands."
+  - **Evidence pointer** Sections 2.4, 2.5, 3.3, Figures 3 and 5, Table 4 (not provided)
+  - **Concern** The text describes the pipeline and shows examples, but the quantitative evaluation is missing from the visible text. For the DeepTracer-PLBP pipeline, the authors do not report the success rate or F1-score on the EMD-Ligand Dataset when using DeepTracer-predicted structures as input. For the ligand generation, Table 4 is referenced but not provided, and the text only states that results are "very competitive" without giving specific numbers. The comparison between using DeepTracer-predicted structures and ground-truth structures is mentioned but not quantified. Without these data, the claim that the pipeline is effective is not supported.
+  - **Why it matters** The practical value of the proposed pipeline depends on its performance on real Cryo-EM maps, where the structure is not known a priori. If the pipeline only works well with ground-truth structures, its utility is limited. The authors need to demonstrate that the errors introduced by DeepTracer do not catastrophically degrade binding site prediction and ligand generation.
+  - **Resolution test** Provide the full results of the DeepTracer-PLBP evaluation on the EMD-Ligand Dataset, including success rates and F1-scores for both ground-truth and DeepTracer-predicted structures. For the ligand generation, report the Vina scores, QED, SAscore, and LogP values for all generated molecules, and compare them to the ground-truth ligands. The authors should also discuss the failure cases and the impact of structure prediction errors on the downstream tasks.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and comparison to prior work
+  - **Claim pointer** The authors state that "there is no one method that clearly outperforms the other methods on all test sets" and that their findings "call for more research and work to be done by the community."
+  - **Evidence pointer** Sections 3.1, 3.2, Discussion
+  - **Concern** The authors do not compare their results to any prior work that has applied PLBP methods to Cryo-EM structures, nor do they discuss the relationship between their EMD-Ligand Dataset and other existing benchmarks (e.g., COACH420, BU48, PDBbind). The claim that this is the first dataset of its kind is made, but the authors do not thoroughly search for or discuss any related efforts. The generalizability of their findings is also unclear: the dataset is derived from a specific subset of Cryo-EM maps, and the authors do not discuss potential biases (e.g., in terms of protein size, resolution, or ligand type).
+  - **Why it matters** For a field to progress, new benchmarks must be contextualized within existing work. The authors' claim of novelty needs to be verified, and their results need to be compared to any prior attempts to address the same problem. Without this, the contribution is difficult to assess.
+  - **Resolution test** Conduct a thorough literature review and discuss any prior datasets or methods for PLBP on Cryo-EM structures. Compare the EMD-Ligand Dataset to existing benchmarks in terms of size, diversity, and difficulty. Discuss the potential biases in the dataset and how they might affect the generalizability of the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 1.2
+  - **Evidence pointer** Text describing previous methods
+  - **Issue** The description of previous methods is brief and somewhat disorganized. For example, the text jumps from SURFNET to MaSIF to DeepCseqSite without a clear logical flow. The description of DeepSurf is also incomplete, as it does not explain the "surface-based representation" in sufficient detail.
+  - **Required correction** Reorganize the literature review to group methods by approach (e.g., sequence-based, structure-based, surface-based) and provide a more complete description of each method, including its key innovations and limitations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Description of the scoring algorithm
+  - **Issue** The pseudo-code in the Appendix is not fully specified. For example, it is unclear how the "distance" between a predicted pocket and a ligand is calculated (e.g., center-to-center, minimum atom distance). The pseudo-code also does not specify how to handle cases where a predicted pocket is close to multiple ligands.
+  - **Required correction** Provide a more detailed description of the scoring algorithm, including the exact distance metric and the rules for matching predictions to ligands. Consider providing a worked example.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of results
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Table 3 (not provided)
+  - **Issue** The text states that results are broken down by resolution, but the specific resolution bins are not defined. The text also mentions a "preliminary" experiment with Kalasanty but does not provide details on how the model was adapted or retrained.
+  - **Required correction** Define the resolution bins used in Table 3. Provide details on the Kalasanty adaptation experiment, including the training data, hyperparameters, and evaluation protocol.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Claims of novelty
+  - **Affected element** Section 1.3
+  - **Evidence pointer** Statement about the EMD-Ligand Dataset being the first of its kind
+  - **Issue** The claim of novelty is made without a thorough search of the literature. There may be existing datasets or benchmarks for Cryo-EM ligand binding that the authors have not considered.
+  - **Required correction** Soften the claim of novelty or provide a more comprehensive literature review to support it.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical details
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Description of Pocket2Mol integration
+  - **Issue** The text states that Pocket2Mol is used to generate drug-like molecules, but it does not specify the input format (e.g., the predicted pocket coordinates and the protein structure) or the output format (e.g., SMILES, 3D coordinates). The text also does not mention any post-processing steps, such as filtering or validation of the generated molecules.
+  - **Required correction** Provide a more detailed description of the Pocket2Mol integration, including the input and output formats and any post-processing steps.
+- **Technical failings that need to be addressed before the case is established** (1) The dataset construction protocol is not fully described, making the ground truth unreliable. (2) The benchmarking methodology is not sufficiently detailed to ensure fairness across methods. (3) The quantitative results for the end-to-end pipeline and ligand generation are not provided in the visible text. (4) The claim of novelty for the dataset is not supported by a thorough literature review.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The idea of applying PLBP methods to Cryo-EM structures and creating a dedicated dataset is original and addresses a clear gap. However, the novelty is not fully established without a comprehensive literature review.
+  - **Scientific importance** The problem is important, as Cryo-EM is increasingly used for large complexes relevant to drug discovery. The potential impact is high if the dataset and pipeline are validated.
+  - **Interdisciplinary readership** The work is relevant to structural biology, computational biology, and drug discovery. The writing is generally accessible, but the lack of detail in the methods may limit its usefulness to non-specialists.
+  - **Technical soundness** The technical approach is reasonable, but the lack of detail in the dataset construction, benchmarking, and evaluation prevents a full assessment of its soundness.
+  - **Readability for nonspecialists** The abstract and introduction are clear, but the methods and results sections are too brief and lack the necessary detail for a non-specialist to understand the key steps and findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and has the potential to be a valuable contribution, but the lack of detail in the dataset construction, benchmarking, and evaluation prevents a full assessment of the claims. The authors should provide the missing data and clarify their methodology before the work can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the EMD-Ligand Dataset is the "first" of its kind is unsupported without a thorough literature review.
+- The claim that the integration of PLBP methods with DeepTracer creates an effective end-to-end pipeline is unsupported without quantitative results.
+- The claim that the addition of Cryo-EM-derived training data improves performance is based on a "preliminary" experiment that is not described in sufficient detail.
+- The claim that the generated drug-like molecules are "very competitive" is unsupported without the data in Table 4.
+- The overall conclusion that current PLBP methods "do poorly" on Cryo-EM structures is not fully supported without a detailed description of the benchmarking methodology and the results.

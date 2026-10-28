@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "39066538",
+    "doi": "10.19852/j.cnki.jtcm.20240610.002",
+    "title": "Uncovering the action mechanism of Shenqi Tiaoshen formula in the treatment of chronic obstructive pulmonary disease through network pharmacology, molecular docking, and experimental verification."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To reveal the potential underlying mechanism of the Shenqi Tiaoshen formula (, SQTS) in the treatment of chronic obstructive pulmonary disease (COPD) by utilizing network pharmacology, molecular docking, and experimental verification. METHODS: Multiple open-source databases and research related to Traditional Chinese Medicine or compounds were employed to screen active ingredients and corresponding potential targets of the SQTS. The protein-protein interaction network screened hub genes, the relevant molecular mechanism and gene regulation were initially identified through the Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) analysis, and molecular docking was used to confirm further the interaction of the main components bound to the core targets. In vivo experiments on the COPD combined Qi-deficiency syndrome rat model were performed to verify the intervention effects and predicted potential molecular mechanisms of the SQTS. RESULTS: This study selected 156 active compounds and 326 candidate targets for treating COPD. Quercetin, Nobiletin, Kaempferol, Luteolin, Ginsenoside Rh2 and Formononetin were probably the main active compounds of SQTS in COPD treatment as they affected the most COPD-related targets, and interleukin-1 (IL-6), signal transducing activator of transcription 3 (STAT3), matrix metalloproteinase-9 (MMP9), vascular endothelial growth factor A (VEGFA), protein kinase B (AKT1), hypoxia-inducible factor-1alpha (HIF-1alpha), and forkhead box O3 (FoxO3) were identified as the hub genes associated with its therapeutic effect. KEGG analysis was mainly enriched in the signaling pathways closely related to inflammation, immunity and oxidative stress, such as HIF-1, tumor necrosis factor (TNF), phosphatidylinositol 3 kinase (PI3K)-AKT, FoxO, apoptosis, IL-17, and toll-like receptor. Molecular docking confirmed that the main active components shared a good affinity with the hub genes. In vivo experiments, the SQTS was found to improve the body weight, exhaustive swimming time, tail-hanging immobility time and struggle times, airway inflammation, lung functions, and inflammatory factors in the rat model of COPD. The up-regulation of p-PI3K, p-AKT, HIF-1alpha, FoxO3alpha, toll like receptor 4, VEGFA, Caspase 3, TNF-alpha, and IL-17 in COPD rats were down-regulated by SQTS, consistent with the network pharmacology results. CONCLUSIONS: This study provides evidence that the SQTS plays a critical role in anti-inflammation via suppressing immune inflammation and oxidative stress related pathways, indicating that the SQTS is a candidate herbal drug for further investigation in treating COPD.",
+    "keywords": [
+      "Shenqi Tiaoshen formula",
+      "experimental validation",
+      "inflammation",
+      "molecular docking simulation",
+      "network pharmacology",
+      "pulmonary disease, chronic obstructive"
+    ],
+    "mesh_terms": [
+      "*Pulmonary Disease, Chronic Obstructive/drug therapy/genetics/metabolism",
+      "*Drugs, Chinese Herbal/chemistry/pharmacology",
+      "Rats",
+      "*Molecular Docking Simulation",
+      "Animals",
+      "Male",
+      "*Network Pharmacology",
+      "Humans",
+      "Rats, Sprague-Dawley",
+      "Signal Transduction/drug effects",
+      "Protein Interaction Maps/drug effects",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/genetics/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism/genetics",
+      "Vascular Endothelial Growth Factor A/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qinjun, Yang",
+        "Dandan, Yin",
+        "Hui, Wang",
+        "Yating, Gao",
+        "Xinheng, Wang",
+        "Di, W U",
+        "Jiabing, Tong",
+        "Chuanbo, Wang",
+        "Zegeng, L I"
+      ],
+      "short_names": [
+        "Qinjun Y",
+        "Dandan Y",
+        "Hui W",
+        "Yating G",
+        "Xinheng W",
+        "Di WU",
+        "Jiabing T",
+        "Chuanbo W",
+        "Zegeng LI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Chinese Medicine, Anhui University of Chinese Medicine, Hefei 230038, China.",
+        "2 Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+        "Department of Pharmacy, the First Affiliated Hospital of Anhui Medical University, Hefei 230022, China.",
+        "School of Chinese Medicine, Anhui University of Chinese Medicine, Hefei 230038, China.",
+        "Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+        "4 Institute of Traditional Chinese Medicine Respiratory Disease Prevention and Control, Anhui Academy of Traditional Chinese Medicine, Hefei 230031, China.",
+        "5 Department of Respiratory, the First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei 230031, China.",
+        "School of Chinese Medicine, Anhui University of Chinese Medicine, Hefei 230038, China.",
+        "2 Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+        "School of Chinese Medicine, Anhui University of Chinese Medicine, Hefei 230038, China.",
+        "2 Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+        "Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+        "4 Institute of Traditional Chinese Medicine Respiratory Disease Prevention and Control, Anhui Academy of Traditional Chinese Medicine, Hefei 230031, China.",
+        "5 Department of Respiratory, the First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei 230031, China.",
+        "Department of Chinese Medicine, the Second Affiliated Hospital of Anhui Medical University, Hefei 230601, China.",
+        "Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+        "4 Institute of Traditional Chinese Medicine Respiratory Disease Prevention and Control, Anhui Academy of Traditional Chinese Medicine, Hefei 230031, China.",
+        "5 Department of Respiratory, the First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei 230031, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qinjun, Yang",
+        "short_name": "Qinjun Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Anhui University of Chinese Medicine, Hefei 230038, China.",
+          "2 Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China."
+        ]
+      },
+      {
+        "full_name": "Dandan, Yin",
+        "short_name": "Dandan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, the First Affiliated Hospital of Anhui Medical University, Hefei 230022, China."
+        ]
+      },
+      {
+        "full_name": "Hui, Wang",
+        "short_name": "Hui W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Anhui University of Chinese Medicine, Hefei 230038, China."
+        ]
+      },
+      {
+        "full_name": "Yating, Gao",
+        "short_name": "Yating G",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+          "4 Institute of Traditional Chinese Medicine Respiratory Disease Prevention and Control, Anhui Academy of Traditional Chinese Medicine, Hefei 230031, China.",
+          "5 Department of Respiratory, the First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei 230031, China."
+        ]
+      },
+      {
+        "full_name": "Xinheng, Wang",
+        "short_name": "Xinheng W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Anhui University of Chinese Medicine, Hefei 230038, China.",
+          "2 Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China."
+        ]
+      },
+      {
+        "full_name": "Di, W U",
+        "short_name": "Di WU",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Anhui University of Chinese Medicine, Hefei 230038, China.",
+          "2 Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China."
+        ]
+      },
+      {
+        "full_name": "Jiabing, Tong",
+        "short_name": "Jiabing T",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+          "4 Institute of Traditional Chinese Medicine Respiratory Disease Prevention and Control, Anhui Academy of Traditional Chinese Medicine, Hefei 230031, China.",
+          "5 Department of Respiratory, the First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei 230031, China."
+        ]
+      },
+      {
+        "full_name": "Chuanbo, Wang",
+        "short_name": "Chuanbo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chinese Medicine, the Second Affiliated Hospital of Anhui Medical University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Zegeng, L I",
+        "short_name": "Zegeng LI",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Province Key Laboratory of the Application and Transformation of Traditional Chinese Medicine in the Prevention and Treatment of Major Pulmonary Diseases, Hefei 230031, China.",
+          "4 Institute of Traditional Chinese Medicine Respiratory Disease Prevention and Control, Anhui Academy of Traditional Chinese Medicine, Hefei 230031, China.",
+          "5 Department of Respiratory, the First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei 230031, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of traditional Chinese medicine = Chung i tsa chih ying wen pan"
+    ],
+    "journal_abbrev": [
+      "J Tradit Chin Med"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/27 10:48",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "42683026",
+      "41394141",
+      "41376231",
+      "41111887",
+      "41015805",
+      "40430532"
+    ],
+    "refs": [
+      "37029090",
+      "35624831",
+      "35533707",
+      "34600177",
+      "34590155",
+      "34052411",
+      "33921415",
+      "33859776",
+      "33681222",
+      "33628018",
+      "33552385",
+      "33546691",
+      "33439200",
+      "33435700",
+      "33013383",
+      "32948180",
+      "32921997",
+      "32745966",
+      "32689994",
+      "32336666",
+      "32071149",
+      "31795352",
+      "30975275",
+      "30907495",
+      "30846476",
+      "30827233",
+      "30380087",
+      "30341024",
+      "30323581",
+      "30280794",
+      "30115538",
+      "30106145",
+      "30066869",
+      "29997932",
+      "29650248",
+      "29329563",
+      "28950251",
+      "28831024",
+      "28711657",
+      "28273403",
+      "28262619",
+      "28166213",
+      "27627572",
+      "27595800",
+      "27373322",
+      "27261583",
+      "26873449",
+      "25924008",
+      "25370745",
+      "25332099",
+      "25189464",
+      "24735618",
+      "24692711",
+      "24687317",
+      "24463065",
+      "23977698",
+      "23880677",
+      "23434445",
+      "23223453",
+      "20920189",
+      "19503817",
+      "19399780",
+      "11964479"
+    ],
+    "similar": [
+      "39066538",
+      "42421348",
+      "40350911",
+      "40350871",
+      "39917920",
+      "39041101",
+      "39140079",
+      "33313323",
+      "38916485",
+      "38551603",
+      "41346967",
+      "39041167",
+      "38381309",
+      "41921863",
+      "36280016",
+      "41508216",
+      "39075002",
+      "34560213",
+      "42011617",
+      "39279134",
+      "41418734",
+      "39380230",
+      "41814798",
+      "37080367",
+      "41365176",
+      "37382018",
+      "41473244",
+      "39004032",
+      "38114219",
+      "39089660",
+      "38216101",
+      "41184109",
+      "40750966",
+      "39066539",
+      "39923957",
+      "39399124",
+      "37827295",
+      "42023726",
+      "37673198",
+      "36083487",
+      "40427511",
+      "40466880",
+      "35970314",
+      "40916281",
+      "35101570",
+      "42173417",
+      "37807411",
+      "35837376",
+      "42365410",
+      "39326136",
+      "40172736",
+      "40255473",
+      "39076092",
+      "37795773",
+      "40013962",
+      "35442463",
+      "39343107",
+      "37799727",
+      "39816675",
+      "36817858",
+      "37201662",
+      "36403742",
+      "37437794",
+      "38759074",
+      "38638040",
+      "39259410",
+      "39173028",
+      "37469733",
+      "35430443",
+      "39015338",
+      "34941025",
+      "40885503",
+      "40904089",
+      "41843163",
+      "38582151",
+      "38449348",
+      "35872979",
+      "40986607",
+      "38588987",
+      "40388786",
+      "37403397",
+      "35178959",
+      "38812235",
+      "42085848",
+      "39929664",
+      "41261616",
+      "40725959",
+      "41736432",
+      "38342020",
+      "38696100",
+      "37802827",
+      "38432577",
+      "38178684",
+      "33513419",
+      "39742571",
+      "40023967",
+      "42566641",
+      "38941043",
+      "39074420",
+      "41944069"
+    ],
+    "review": [
+      "39066538"
+    ],
+    "pmc": [
+      "11337265"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/copd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COPD"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39066538/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://journaltcm.cn/EN/article/downloadArticleFile.do?attachType=PDF&id=7416",
+        "provider": "Academy of Traditional Chinese Medicine",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

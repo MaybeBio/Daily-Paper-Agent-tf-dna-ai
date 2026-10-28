@@ -1,0 +1,410 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.21.671512",
+  "title": "An integrated multi-tissue atlas of epigenomic landscapes and regulatory elements in the bovine genome",
+  "doi": "10.1101/2025.08.21.671512",
+  "abstract": "Deciphering the regulatory syntax of the genome is essential to understand the genetic and molecular architecture of complex traits, as most trait-associated variants lie in non-coding regions. Yet, functional annotation of the bovine genome remains limited, hindering our ability to unravel the mechanisms underpinning complex traits of economic and ecological importance in cattle. Here, we present a comprehensive epigenetic atlas comprising 1,138 genome-wide epigenetic profiles, including chromatin accessibility, six histone modifications, CCCTC-binding factor (CTCF) transcription factor binding, DNA methylation, chromatin conformation, and transcriptomes across 53 adult tissues, five fetal tissues, and seven primary cell types. This atlas-level data enables us to annotate around 45% of the genome as putative regulatory elements exhibiting tissue- or cell-specific regulatory activity. Leveraging sequence-to-function deep learning models, we discovered 301 sequence motifs and predicted the functional impact of genetic variants through in silico mutagenesis, thereby facilitating the decoding of the regulatory syntax of the cattle genome and fine-mapping of GWAS loci for 22 complex traits. Cross-species analysis further revealed evolutionarily conserved features of regulatory architecture and provided evolutionary insights into complex traits and diseases in humans. Together, this atlas offers a foundational resource for advancing cattle functional genomics, sustainable breeding, and studies of regulatory evolution.",
+  "authors": [
+    "Guan D",
+    "Bruscadin JJ",
+    "Yang W",
+    "Prowse-Wilkins C",
+    "Wang J",
+    "Petry B",
+    "Li H",
+    "Zhang H",
+    "Xu X(",
+    "Wang Y",
+    "Pan Z",
+    "Utsunomiya Y",
+    "Murdoch GK",
+    "Davenport KM",
+    "Xing Y",
+    "Wang G",
+    "Maltecca C",
+    "Ma L",
+    "Rincon G",
+    "Corum S",
+    "Lyu P",
+    "Deeb N",
+    "Ribeiro VMP",
+    "Michal JJ",
+    "Weng Z",
+    "Jiang J",
+    "Fang L",
+    "Jiang H",
+    "Murdoch BM",
+    "Rijnkels M",
+    "Gill CA",
+    "Smith TPL",
+    "Jiang Z",
+    "Liu W",
+    "Reecy J",
+    "Mendrano JF",
+    "Koltes JE",
+    "Ross PJ",
+    "Zhou H"
+  ],
+  "published_date": "2025-08-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.21.671512",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.21.671512.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1072923",
+    "raw_record": {
+      "id": "PPR1072923",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.21.671512",
+      "title": "An integrated multi-tissue atlas of epigenomic landscapes and regulatory elements in the bovine genome",
+      "authorString": "Guan D, Bruscadin JJ, Yang W, Prowse-Wilkins C, Wang J, Petry B, Li H, Zhang H, Xu X(, Wang Y, Pan Z, Utsunomiya Y, Murdoch GK, Davenport KM, Xing Y, Wang G, Maltecca C, Ma L, Rincon G, Corum S, Lyu P, Deeb N, Ribeiro VMP, Michal JJ, Weng Z, Jiang J, Fang L, Jiang H, Murdoch BM, Rijnkels M, Gill CA, Smith TPL, Jiang Z, Liu W, Reecy J, Mendrano JF, Koltes JE, Ross PJ, Zhou H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Guan D",
+            "lastName": "Guan",
+            "firstName": "Dailu",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8800-3158"
+            }
+          },
+          {
+            "fullName": "Bruscadin JJ",
+            "lastName": "Bruscadin",
+            "firstName": "Jennifer Jessica",
+            "initials": "JJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3446-9419"
+            }
+          },
+          {
+            "fullName": "Yang W",
+            "lastName": "Yang",
+            "firstName": "Wenjing",
+            "initials": "W"
+          },
+          {
+            "fullName": "Prowse-Wilkins C",
+            "lastName": "Prowse-Wilkins",
+            "firstName": "Claire",
+            "initials": "C"
+          },
+          {
+            "fullName": "Wang J",
+            "lastName": "Wang",
+            "firstName": "Junjian",
+            "initials": "J"
+          },
+          {
+            "fullName": "Petry B",
+            "lastName": "Petry",
+            "firstName": "Bruna",
+            "initials": "B"
+          },
+          {
+            "fullName": "Li H",
+            "lastName": "Li",
+            "firstName": "Houcheng",
+            "initials": "H"
+          },
+          {
+            "fullName": "Zhang H",
+            "lastName": "Zhang",
+            "firstName": "Huicong",
+            "initials": "H"
+          },
+          {
+            "fullName": "Xu X(",
+            "lastName": "Xu",
+            "firstName": "Xiaoqin (Shally)",
+            "initials": "X("
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Ying",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Pan Z",
+            "lastName": "Pan",
+            "firstName": "Zhangyuan",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Utsunomiya Y",
+            "lastName": "Utsunomiya",
+            "firstName": "Yuri",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Murdoch GK",
+            "lastName": "Murdoch",
+            "firstName": "Gordon",
+            "initials": "GK"
+          },
+          {
+            "fullName": "Davenport KM",
+            "lastName": "Davenport",
+            "firstName": "Kimberly",
+            "initials": "KM"
+          },
+          {
+            "fullName": "Xing Y",
+            "lastName": "Xing",
+            "firstName": "Yue",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Wang G",
+            "lastName": "Wang",
+            "firstName": "Guosong",
+            "initials": "G"
+          },
+          {
+            "fullName": "Maltecca C",
+            "lastName": "Maltecca",
+            "firstName": "Christian",
+            "initials": "C"
+          },
+          {
+            "fullName": "Ma L",
+            "lastName": "Ma",
+            "firstName": "Li",
+            "initials": "L"
+          },
+          {
+            "fullName": "Rincon G",
+            "lastName": "Rincon",
+            "firstName": "Gonzalo",
+            "initials": "G"
+          },
+          {
+            "fullName": "Corum S",
+            "lastName": "Corum",
+            "firstName": "Sarah",
+            "initials": "S"
+          },
+          {
+            "fullName": "Lyu P",
+            "lastName": "Lyu",
+            "firstName": "Pengcheng",
+            "initials": "P"
+          },
+          {
+            "fullName": "Deeb N",
+            "lastName": "Deeb",
+            "firstName": "Nader",
+            "initials": "N"
+          },
+          {
+            "fullName": "Ribeiro VMP",
+            "lastName": "Ribeiro",
+            "firstName": "Virgínia Mara Pereira",
+            "initials": "VMP"
+          },
+          {
+            "fullName": "Michal JJ",
+            "lastName": "Michal",
+            "firstName": "Jennifer",
+            "initials": "JJ"
+          },
+          {
+            "fullName": "Weng Z",
+            "lastName": "Weng",
+            "firstName": "Zhiping",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Jiang J",
+            "lastName": "Jiang",
+            "firstName": "Jicai",
+            "initials": "J"
+          },
+          {
+            "fullName": "Fang L",
+            "lastName": "Fang",
+            "firstName": "Lingzhao",
+            "initials": "L"
+          },
+          {
+            "fullName": "Jiang H",
+            "lastName": "Jiang",
+            "firstName": "Honglin",
+            "initials": "H"
+          },
+          {
+            "fullName": "Murdoch BM",
+            "lastName": "Murdoch",
+            "firstName": "Brenda",
+            "initials": "BM"
+          },
+          {
+            "fullName": "Rijnkels M",
+            "lastName": "Rijnkels",
+            "firstName": "Monique",
+            "initials": "M"
+          },
+          {
+            "fullName": "Gill CA",
+            "lastName": "Gill",
+            "firstName": "Clare",
+            "initials": "CA"
+          },
+          {
+            "fullName": "Smith TPL",
+            "lastName": "Smith",
+            "firstName": "Timothy",
+            "initials": "TPL"
+          },
+          {
+            "fullName": "Jiang Z",
+            "lastName": "Jiang",
+            "firstName": "Zhihua",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Liu W",
+            "lastName": "Liu",
+            "firstName": "Wansheng",
+            "initials": "W"
+          },
+          {
+            "fullName": "Reecy J",
+            "lastName": "Reecy",
+            "firstName": "James",
+            "initials": "J"
+          },
+          {
+            "fullName": "Mendrano JF",
+            "lastName": "Mendrano",
+            "firstName": "Juan",
+            "initials": "JF"
+          },
+          {
+            "fullName": "Koltes JE",
+            "lastName": "Koltes",
+            "firstName": "James",
+            "initials": "JE"
+          },
+          {
+            "fullName": "Ross PJ",
+            "lastName": "Ross",
+            "firstName": "Pablo",
+            "initials": "PJ"
+          },
+          {
+            "fullName": "Zhou H",
+            "lastName": "Zhou",
+            "firstName": "Huaijun",
+            "initials": "H"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8800-3158"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3446-9419"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Deciphering the regulatory syntax of the genome is essential to understand the genetic and molecular architecture of complex traits, as most trait-associated variants lie in non-coding regions. Yet, functional annotation of the bovine genome remains limited, hindering our ability to unravel the mechanisms underpinning complex traits of economic and ecological importance in cattle. Here, we present a comprehensive epigenetic atlas comprising 1,138 genome-wide epigenetic profiles, including chromatin accessibility, six histone modifications, CCCTC-binding factor (CTCF) transcription factor binding, DNA methylation, chromatin conformation, and transcriptomes across 53 adult tissues, five fetal tissues, and seven primary cell types. This atlas-level data enables us to annotate around 45% of the genome as putative regulatory elements exhibiting tissue- or cell-specific regulatory activity. Leveraging sequence-to-function deep learning models, we discovered 301 sequence motifs and predicted the functional impact of genetic variants through  in silico mutagenesis, thereby facilitating the decoding of the regulatory syntax of the cattle genome and fine-mapping of GWAS loci for 22 complex traits. Cross-species analysis further revealed evolutionarily conserved features of regulatory architecture and provided evolutionary insights into complex traits and diseases in humans. Together, this atlas offers a foundational resource for advancing cattle functional genomics, sustainable breeding, and studies of regulatory evolution.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "USDA National Institute of Food and Agriculture",
+            "grantId": "2012-67015-23673",
+            "orderIn": 0
+          },
+          {
+            "agency": "Foundation to Support the Research of São Paulo State",
+            "grantId": "2022/12631-4",
+            "orderIn": 0
+          },
+          {
+            "agency": "OECD Co-operative Research Programme, 2012 Fellowship, TAD/PROG",
+            "grantId": "JA00074636",
+            "orderIn": 0
+          },
+          {
+            "agency": "USDA National Institute of Food and Agriculture",
+            "grantId": "2018-67015-27500",
+            "orderIn": 0
+          },
+          {
+            "agency": "Foundation to Support the Research of São Paulo State",
+            "grantId": "2020/01369-1",
+            "orderIn": 0
+          },
+          {
+            "agency": "USDA National Institute of Food and Agriculture",
+            "grantId": "2015-67015-22940",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.21.671512"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-27",
+      "firstPublicationDate": "2025-08-25",
+      "firstIndexDate": "2025-08-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

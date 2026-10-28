@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the provided material
+- **Shared manuscript claim summary** The authors report the synthesis of a D-glucamine-based Schiff base containing a triazolyl silatrane (compound 6), its Fe(II) and Cu(II) complexes, and characterization of their interaction with calf thymus DNA. They claim that the free ligand binds DNA via groove binding, while metal complexation shifts the mode toward mixed groove-binding/intercalative interaction with enhanced affinity, supported by UV-vis, fluorescence, and docking studies.
+- **Visible evidence base** Text describing synthesis, FT-IR, NMR, ESI-MS, UV-vis, Job's method, DFT geometry optimization, DNA binding titrations, EtBr displacement, molecular docking, and normal mode analysis. Figures and tables are referenced but not visible. Supporting information is referenced but not provided.
+- **Missing materials affecting confidence** All figures, tables, schemes, and supporting information files are referenced but not available. Experimental section is stated to be in Supporting Information and is not provided. Raw spectra, titration data, docking coordinates, and computational details are not accessible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in medicinal inorganic chemistry, namely the modulation of DNA-binding properties of a silatrane-based ligand through Fe(II) and Cu(II) complexation. The concept of metal-induced switching of DNA-binding mode is of interest. However, the provided material is insufficient to verify the central claims. Key data (spectra, titration curves, docking outputs, computational details) are not visible. Several internal inconsistencies and ambiguities in the text further reduce confidence. The characterization of the metal complexes is incomplete, and the interpretation of spectroscopic results is presented without the underlying data. The manuscript is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, DNA-targeted drug design, and silatrane chemistry would be interested. The potential to tune DNA-binding mode via metal complexation is conceptually appealing for designing new anticancer or antimicrobial agents. The sugar-based silatrane scaffold is relatively underexplored, which adds novelty interest.
+- **Major strengths** The design concept of combining D-glucamine, triazole, and silatrane moieties is creative and potentially useful. The use of multiple complementary techniques (UV-vis, fluorescence, docking, DFT) is appropriate in principle. The authors acknowledge limitations of docking for intercalation and use a pre-intercalated DNA structure, which is methodologically thoughtful. The writing is generally clear and organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims successful synthesis and characterization of compound 6 and its Fe(II) and Cu(II) complexes, including proposed molecular formulas [Fe(L)2Cl2] and [Cu(L)2Cl2].
+  - **Evidence pointer** Results and Discussion, Synthesis and Characterization of Compounds (2-6); Synthesis and Characterization of Complex 6-Fe(II)/Cu(II) Cl2; Figures S1-S15; location not provided
+  - **Concern** The characterization data for the metal complexes are not visible. Only ESI-MS peaks and IR band shifts are mentioned in text. No elemental analysis data, magnetic moment, conductivity, or detailed spectroscopic assignments are provided. The proposed 2:1 ligand-to-metal stoichiometry from Job's method is mentioned but the Job plots are not shown. Without these data, the identity and purity of the complexes cannot be verified.
+  - **Why it matters** The entire subsequent DNA-binding study depends on the correct identity of the species under investigation. If the complexes are not properly characterized, all downstream claims about metal-modulated DNA binding are compromised.
+  - **Resolution test** Provide full characterization data including elemental analysis, ESI-MS with isotopic patterns, IR spectra with assignments, UV-vis spectra with molar absorptivities, Job plot data, and any additional evidence (e.g., magnetic susceptibility, conductivity) supporting the proposed structures and stoichiometry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** The manuscript claims that UV-vis titration data yield binding constants Kb of 1.9 x 10^5, 1.65 x 10^6, and 0.41 x 10^6 for 6, 6-Fe(II), and 6-Cu(II), respectively, and that these values indicate enhanced binding upon metal complexation.
+  - **Evidence pointer** Results and Discussion, DNA Binding Studies, UV-vis Analysis; Figures 4a-c, S16-S21; Table 2; location not provided
+  - **Concern** The actual titration spectra, the fitting plots, and the table of binding constants are not visible. The text states Kb values but does not show how they were derived. The equation is given but the fitting procedure, the concentration ranges, and the number of data points are not described. Without the raw data and fits, the Kb values cannot be assessed for reliability.
+  - **Why it matters** Binding constants are central quantitative claims of the paper. If they are not derived from clearly presented data with appropriate fitting, the claim of enhanced binding affinity is unsupported.
+  - **Resolution test** Show representative titration spectra, the linear fits used to extract Kb, a table with all Kb values and associated errors, and describe the fitting procedure in detail.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation consistency
+  - **Claim pointer** The manuscript claims that the free ligand 6 binds DNA via groove binding, while the Fe(II) and Cu(II) complexes exhibit a mixed groove-binding/intercalative mode, based on UV-vis hyper/hypochromism and EtBr displacement.
+  - **Evidence pointer** Results and Discussion, DNA Binding Studies, UV-vis Analysis and Competitive Binding With EtBr; Figures 4a-c, 5a-d; location not provided
+  - **Concern** The interpretation of UV-vis changes is not fully consistent. For the free ligand, hyperchromism is taken as evidence of groove binding. For the Fe(II) complex, band I shows hyperchromism while bands II and III show hypochromism, and this is interpreted as mixed binding. However, the text does not explain why hyperchromism in the ligand is groove binding but hyperchromism in the complex is part of a mixed mode. The EtBr displacement results are described qualitatively (27%, 46.8%, 49.2% quenching) but the spectra are not shown. The threshold for "significant" quenching is not defined. The claim that the complexes show partial intercalation is not strongly supported by the data as described.
+  - **Why it matters** The central claim of the paper is the metal-induced switch in binding mode. If the spectroscopic evidence is ambiguous or inconsistently interpreted, this claim is weakened.
+  - **Resolution test** Provide the actual spectra for all titrations and EtBr displacement experiments. Clearly define criteria for classifying binding modes. Discuss alternative interpretations and justify the chosen assignments with reference to the data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational support
+  - **Claim pointer** The manuscript claims that molecular docking results support the experimental findings, with binding energies of -7.4, -9.4, and -9.8 kcal/mol for 6, 6-Fe(II), and 6-Cu(II), respectively, and that the complexes fit into a pre-existing intercalation site.
+  - **Evidence pointer** Results and Discussion, Theoretical Validation of DNA Binding Interaction; Figures 6, 7a-b; location not provided
+  - **Concern** The docking methodology is not described in the visible text. No information is provided on the software version, docking protocol, scoring function, preparation of the DNA structure, or treatment of the metal centers. The docking figures are not visible. The text acknowledges that docking with a pre-intercalated site cannot demonstrate ligand-induced intercalation, which is appropriate, but the claim that docking "supports" a mixed mode is then weakened. The binding energies are presented without error estimates or comparison to controls.
+  - **Why it matters** The computational results are used as supporting evidence for the experimental claims. Without methodological details and visible results, the docking study cannot be evaluated.
+  - **Resolution test** Provide a full description of the docking methodology, including software, parameters, and validation. Show the docking poses and interaction diagrams. Discuss the limitations of the approach more explicitly and avoid overstating the support it provides.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The manuscript states in the abstract and conclusion that the ligand interacts predominantly through groove binding, while the complexes show mixed groove-binding/intercalative mode. The text also mentions "electrostatic" interactions in the docking results for the free ligand.
+  - **Evidence pointer** Abstract; Results and Discussion, Theoretical Validation of DNA Binding Interaction; Conclusion; location not provided
+  - **Concern** There is an inconsistency in the described binding modes. The abstract and conclusion emphasize groove binding for the ligand and mixed mode for the complexes. However, in the docking section, the ligand is described as having both hydrogen-bonding and electrostatic interactions, and the complexes are described as intercalating. The relationship between these descriptions is not clarified. Additionally, the text in the UV-vis section states that the ligand shows hyperchromism (associated with groove binding), but the docking section mentions electrostatic interactions, which are a different mode. The manuscript would benefit from a clearer and more consistent classification of binding modes across sections.
+  - **Why it matters** Inconsistent terminology and classification of binding modes across sections confuse the reader and weaken the overall argument.
+  - **Resolution test** Revise the text to use consistent terminology for binding modes. Clearly define what is meant by groove binding, intercalation, electrostatic interaction, and mixed mode, and apply these definitions consistently throughout.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation numbering
+  - **Evidence pointer** Results and Discussion, DNA Binding Studies, UV-vis Analysis; location not provided
+  - **Issue** The text refers to "Equation (1)" for the binding constant calculation and later refers to "Equation (1)" again for the Stern-Volmer equation. These are different equations and should be numbered separately.
+  - **Required correction** Renumber the equations sequentially and ensure correct cross-referencing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental section
+  - **Evidence pointer** Results and Discussion, Synthesis and Characterization of Compounds (2-6); location not provided
+  - **Issue** The experimental procedures are stated to be in the Supporting Information, but this is not visible. For a standalone assessment, key experimental details (solvents, reagents, conditions, yields) should be in the main text or the Supporting Information should be accessible.
+  - **Required correction** Provide the experimental section in the main text or ensure the Supporting Information is available for review.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction; location not provided
+  - **Issue** The phrase "the head biomolecule" in the Introduction is informal and unclear. The abstract contains the phrase "modulating binding interaction" which is grammatically awkward.
+  - **Required correction** Revise for clarity and formal scientific language.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 2
+  - **Evidence pointer** Results and Discussion, DNA Binding Studies, UV-vis Analysis; location not provided
+  - **Issue** Table 2 is referenced but not visible. The text mentions Kb values but does not present them in a clear comparative format.
+  - **Required correction** Ensure Table 2 is included and clearly presents all Kb values with errors and relevant statistical information.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Normal Mode Analysis section
+  - **Evidence pointer** Results and Discussion, Normal Mode Analysis of the Docked DNA Complexes; location not provided
+  - **Issue** The section describes NMA results but does not provide quantitative details. The eigenvalue for the free ligand complex is not given, only for the metal complexes. The text states "average deformability index of 0.8" but does not specify whether this applies to all three complexes.
+  - **Required correction** Provide quantitative NMA results for all complexes and clarify the deformability index values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (complex characterization), R1-M2 (binding constant derivation), R1-M3 (interpretation of binding modes), R1-M4 (docking methodology)
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of using metal complexation to switch DNA-binding mode in silatrane-based systems is moderately original. However, metal-induced modulation of DNA binding is well documented for other systems, and the specific novelty here is incremental.
+  - **Scientific importance** The potential application in DNA-targeted drug design is relevant, but the manuscript does not demonstrate biological activity or a clear advantage over existing systems. The importance is currently limited.
+  - **Interdisciplinary readership** The topic bridges synthetic chemistry, bioinorganic chemistry, and computational chemistry. However, the presentation is not sufficiently accessible to a broad readership, and the missing data prevents non-specialists from following the argument.
+  - **Technical soundness** The technical soundness cannot be fully assessed because key data are not visible. The described methodology has some appropriate elements (e.g., use of pre-intercalated DNA for docking), but the characterization and quantitative analyses are incomplete.
+  - **Readability for nonspecialists** The text is generally readable but contains informal phrases and some unclear passages. The lack of visible figures and tables makes it difficult for any reader to follow the results.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question, but the central claims cannot be verified without the missing data. Major revisions are required to provide full characterization, raw data, and methodological details. If these are provided and the claims are supported, the manuscript could be of interest to a specialized audience.
+
+## Risk / unsupported claims
+- The claim that compound 6 and its Fe(II) and Cu(II) complexes were successfully synthesized and characterized is unsupported because the characterization data are not visible.
+- The claim that metal complexation enhances DNA-binding affinity (Kb values) is unsupported because the titration data and fitting are not shown.
+- The claim that the binding mode shifts from groove binding to mixed groove-binding/intercalative upon metal complexation is weakly supported by the described qualitative spectral changes and cannot be verified without the actual spectra.
+- The claim that DFT-optimized geometries are correct is unsupported because the computational details and figures are not visible.
+- The claim that NMA results are consistent with experimental findings is unsupported because the NMA data are not fully presented.
+- The claim that the complexes have formulas [Fe(L)2Cl2] and [Cu(L)2Cl2] is unsupported without elemental analysis and detailed mass spectrometry data.

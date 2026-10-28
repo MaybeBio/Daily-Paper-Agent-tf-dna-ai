@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "37280404",
+    "doi": "10.1007/s11030-023-10666-y",
+    "title": "Targeting lipid-sensing nuclear receptors PPAR (alpha, gamma, beta/delta): HTVS and molecular docking/dynamics analysis of pharmacological ligands as potential pan-PPAR agonists."
+  },
+  "content": {
+    "abstract": "The global prevalence of obesity-related systemic disorders, including non-alcoholic fatty liver disease (NAFLD), and cancers are rapidly rising. Several of these disorders involve peroxisome proliferator-activated receptors (PPARs) as one of the key cell signaling pathways. PPARs are nuclear receptors that play a central role in lipid metabolism and glucose homeostasis. They can activate or suppress the genes responsible for inflammation, adipogenesis, and energy balance, making them promising therapeutic targets for treating metabolic disorders. In this study, an attempt has been made to screen novel PPAR pan-agonists from the ZINC database targeting the three PPAR family of receptors (alpha, gamma, beta/delta), using molecular docking and molecular dynamics (MD) simulations. The top scoring five ligands with strong binding affinity against all the three PPAR isoforms were eprosartan, canagliflozin, pralatrexate, sacubitril, olaparib. The ADMET analysis was performed to assess the pharmacokinetic profile of the top 5 molecules. On the basis of ADMET analysis, the top ligand was subjected to MD simulations, and compared with lanifibranor (reference PPAR pan-agonist). Comparatively, the top-scoring ligand showed better protein-ligand complex (PLC) stability with all the PPARs (alpha, gamma, beta/delta). When experimentally tested in in vitro cell culture model of NAFLD, eprosartan showed dose dependent decrease in lipid accumulation and oxidative damage. These outcomes suggest potential PPAR pan-agonist molecules for further experimental validation and pharmacological development, towards treatment of PPAR-mediated metabolic disorders.",
+    "keywords": [
+      "Drug repurposing",
+      "HTVS",
+      "Lipid metabolism",
+      "MD simulations",
+      "Pan-agonist",
+      "Peroxisome proliferator-activated receptors (PPARs)"
+    ],
+    "mesh_terms": [
+      "Ligands",
+      "*Molecular Docking Simulation",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Peroxisome Proliferator-Activated Receptors/agonists/metabolism/chemistry",
+      "Lipid Metabolism/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mandal, Sumit Kumar",
+        "Puri, Sonakshi",
+        "Kumar, Banoth Karan",
+        "Muzaffar-Ur-Rehman, Mohammed",
+        "Sharma, Pankaj Kumar",
+        "Sankaranarayanan, Murugesan",
+        "Deepa, P R"
+      ],
+      "short_names": [
+        "Mandal SK",
+        "Puri S",
+        "Kumar BK",
+        "Muzaffar-Ur-Rehman M",
+        "Sharma PK",
+        "Sankaranarayanan M",
+        "Deepa PR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Sciences, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India.",
+        "Department of Biological Sciences, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India.",
+        "Medicinal Chemistry Research Laboratory, Department of Pharmacy, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India.",
+        "Medicinal Chemistry Research Laboratory, Department of Pharmacy, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India.",
+        "Department of Biological Sciences, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India.",
+        "Medicinal Chemistry Research Laboratory, Department of Pharmacy, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India.",
+        "Department of Biological Sciences, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India. deepa@pilani.bits-pilani.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mandal, Sumit Kumar",
+        "short_name": "Mandal SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India."
+        ]
+      },
+      {
+        "full_name": "Puri, Sonakshi",
+        "short_name": "Puri S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Banoth Karan",
+        "short_name": "Kumar BK",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Laboratory, Department of Pharmacy, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India."
+        ]
+      },
+      {
+        "full_name": "Muzaffar-Ur-Rehman, Mohammed",
+        "short_name": "Muzaffar-Ur-Rehman M",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Laboratory, Department of Pharmacy, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Pankaj Kumar",
+        "short_name": "Sharma PK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India."
+        ]
+      },
+      {
+        "full_name": "Sankaranarayanan, Murugesan",
+        "short_name": "Sankaranarayanan M",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Laboratory, Department of Pharmacy, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India."
+        ]
+      },
+      {
+        "full_name": "Deepa, P R",
+        "short_name": "Deepa PR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Birla Institute of Technology and Science Pilani, Pilani Campus, Pilani, Rajasthan, 333 031, India. deepa@pilani.bits-pilani.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/07 01:07",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "42587803",
+      "42540234",
+      "42123407",
+      "42004616",
+      "41114233",
+      "40707685",
+      "40190631",
+      "39619421",
+      "39380655",
+      "38934695",
+      "38223813"
+    ],
+    "refs": [
+      "35914929",
+      "35809408",
+      "34219361",
+      "33345463",
+      "33278455",
+      "32810487",
+      "32744523",
+      "32650421",
+      "32375405",
+      "31730865",
+      "31523999",
+      "31068821",
+      "30393147",
+      "30278282",
+      "29369787",
+      "29289645",
+      "29164820",
+      "28711683",
+      "28585193",
+      "27486236",
+      "25860834",
+      "25576856",
+      "25148456",
+      "24167256",
+      "22687625",
+      "22318237",
+      "21072170",
+      "20101262",
+      "19609453",
+      "18220654",
+      "17586288",
+      "17520238",
+      "17418807",
+      "16360030",
+      "15860371",
+      "15117841",
+      "15057233",
+      "14735571",
+      "12096912",
+      "11897210",
+      "11226285",
+      "10592235",
+      "8536636"
+    ],
+    "similar": [
+      "37280404",
+      "32360434",
+      "23781121",
+      "21592078",
+      "35809408",
+      "22122453",
+      "23150952",
+      "24373239",
+      "16168052",
+      "30739829",
+      "34502131",
+      "34010603",
+      "15696231",
+      "19622862",
+      "35954274",
+      "22731403",
+      "34182904",
+      "17148746",
+      "34990085",
+      "31614690",
+      "28098353",
+      "33126411",
+      "24524207",
+      "17519293",
+      "24534255",
+      "15629253",
+      "18537685",
+      "8695669",
+      "17261671",
+      "17521292",
+      "22242855",
+      "38763495",
+      "16101410",
+      "37146924",
+      "32650421",
+      "34822814",
+      "29565812",
+      "17704824",
+      "37000796",
+      "35325635",
+      "25583100",
+      "38697298",
+      "17960326",
+      "20854178",
+      "38801530",
+      "26052390",
+      "23811400",
+      "28092722",
+      "30572788",
+      "26580452",
+      "22685582",
+      "9209701",
+      "31889755",
+      "23119024",
+      "25422585",
+      "29789866",
+      "30060458",
+      "23077903",
+      "18547851",
+      "22056763",
+      "29621036",
+      "34471049",
+      "39351059",
+      "30979019",
+      "34751120",
+      "30400386",
+      "27115677",
+      "31140170",
+      "18821746",
+      "24896326",
+      "30650453",
+      "25462281",
+      "29662003",
+      "31877771",
+      "19124421",
+      "15860371",
+      "24428677",
+      "22606221",
+      "21861924",
+      "28581362",
+      "32189570",
+      "9211064",
+      "26654758",
+      "33210212",
+      "17237841",
+      "25767888",
+      "29311481",
+      "37700501",
+      "17132851",
+      "32192216",
+      "12134632",
+      "26983922",
+      "19050303",
+      "31112893",
+      "22563432",
+      "15664689",
+      "17645586",
+      "33784603",
+      "37627519",
+      "16239592",
+      "12185990",
+      "15726823",
+      "19268404",
+      "38972148",
+      "36297575",
+      "36092543",
+      "39380655",
+      "39146316",
+      "39312165",
+      "37974963",
+      "39217892",
+      "37421886",
+      "39278449",
+      "39251737"
+    ],
+    "review": [
+      "37280404",
+      "23781121",
+      "22122453",
+      "23150952",
+      "24373239",
+      "16168052",
+      "30739829",
+      "34502131",
+      "34010603",
+      "15696231",
+      "35954274",
+      "17148746",
+      "34990085",
+      "31614690",
+      "28098353",
+      "24524207",
+      "17519293",
+      "15629253",
+      "18537685",
+      "8695669",
+      "17261671",
+      "17521292",
+      "22242855",
+      "37146924",
+      "32650421",
+      "34822814",
+      "29565812",
+      "17704824",
+      "38697298",
+      "20854178",
+      "38801530",
+      "23811400",
+      "28092722",
+      "30572788",
+      "26580452",
+      "9209701",
+      "31889755",
+      "29789866",
+      "30060458",
+      "22056763",
+      "34751120",
+      "30400386",
+      "27115677",
+      "31140170",
+      "24896326",
+      "29662003",
+      "31877771",
+      "19124421",
+      "15860371",
+      "24428677",
+      "28581362",
+      "9211064",
+      "33210212",
+      "17237841",
+      "37700501",
+      "17132851",
+      "32192216",
+      "12134632",
+      "31112893",
+      "17645586",
+      "16239592",
+      "12185990",
+      "38972148",
+      "36297575"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11030-023-10666-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

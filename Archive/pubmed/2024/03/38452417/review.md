@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations of SAMHD1 dimers bound to DNA oligomers, RNA oligomers of identical sequence, and DNA fragments with phosphorothioate backbone modifications, compared with the canonical GTP/dATP crossbridged form. They claim that SAMHD1 dimers preferentially bind DNA and RNA oligomers over GTP/dATP, that allosteric communication channels are altered in nucleic acid bound complexes, and that the DNA bound form represents an unproductive off-pathway state sequestering the protein from dNTP hydrolysis.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, or statistical analyses are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation setup details, force field parameters, convergence criteria, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible in silico investigation with potentially interesting implications for SAMHD1 function, but the claims as stated cannot be evaluated without the underlying data. The central conclusion that DNA bound SAMHD1 represents an unproductive off-pathway state is a strong functional inference that requires substantial quantitative and mechanistic support not visible in the abstract. The work may be of interest to the computational biophysics and HIV restriction communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying SAMHD1 structure and function, particularly those investigating its nucleic acid binding properties and the allosteric regulation of its dNTPase activity. Computational biophysicists interested in allosteric communication in multimeric enzymes and the application of molecular dynamics to protein nucleic acid complexes would also find the approach relevant. The potential link to HIV restriction mechanisms may attract virologists seeking structural explanations for SAMHD1's antiviral activity.
+- **Major strengths** The study addresses a debated aspect of SAMHD1 biology, namely the functional significance of its nucleic acid binding ability. The comparative design, including RNA versus DNA and phosphorothioate modified backbones, is thoughtful and could reveal sequence independent binding preferences. The use of allosteric communication analysis is appropriate for probing long range effects in a multimeric enzyme.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that SAMHD1 dimers preferably bind to DNA and RNA oligomers compared to GTP/dATP.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states a binding preference without reporting any quantitative measure such as binding free energies, dissociation constants, or occupancy times. The comparison between nucleic acid oligomers and GTP/dATP crossbridges is conceptually unclear because GTP/dATP are not simply alternative ligands but form crossbridges between monomers in the canonical tetramer. The claim of preference requires a well defined thermodynamic or kinetic comparison that is not described.
+  - **Why it matters** The central premise of the study rests on this preference claim. If the comparison is not rigorously defined, the subsequent interpretation of allosteric changes and the off-pathway hypothesis loses its foundation.
+  - **Resolution test** Provide quantitative binding free energies or occupancy based measures with error estimates for each complex, and clearly define the reference state for the GTP/dATP crossbridged form. Show that the preference is statistically significant and robust to simulation length and force field choice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that allosteric communication channels are altered in the nucleic acid bound complexes compared to the canonical form.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports altered allosteric communication but provides no description of the methods used to infer communication channels, such as dynamic network analysis, mutual information, or perturbation response scanning. Without knowing the metric, the significance threshold, and the comparison protocol, the claim is not assessable. Moreover, the abstract does not state whether the alterations are localized or global, nor whether they correlate with functional outcomes.
+  - **Why it matters** Allosteric communication is a mechanistic claim that requires a well defined computational observable. The absence of methodological detail prevents any evaluation of whether the observed changes are meaningful or artefactual.
+  - **Resolution test** Describe the specific allosteric communication analysis method, report the key quantitative differences between complexes, and demonstrate that the changes are reproducible across independent simulations and statistically distinguishable from noise.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Inference strength
+  - **Claim pointer** The authors claim that all results are consistent with the hypothesis that the DNA bound form corresponds to an unproductive off-pathway state where the protein is sequestered and not available for dNTP hydrolysis.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a strong functional conclusion drawn from simulations of dimers, whereas the catalytically active form of SAMHD1 is described as an allosterically triggered tetramer. The abstract does not explain how dimer simulations can inform the functional state of the tetramer, nor does it provide any direct evidence linking the observed allosteric changes to reduced dNTP hydrolysis activity. The phrase "consistent with" is weak and does not establish the hypothesis.
+  - **Why it matters** The off-pathway sequestration model has implications for understanding SAMHD1's HIV restriction mechanism. Overinterpreting simulation data without functional validation or a clear mechanistic link could mislead the field.
+  - **Resolution test** Provide a mechanistic argument or additional simulation evidence showing how the dimer bound state relates to the tetrameric active form, and ideally include free energy calculations or kinetic data supporting reduced dNTP accessibility or hydrolysis. If functional validation is not possible, temper the conclusion to a hypothesis generating statement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "nucleic acid acid bound complexes" contains a typographical error and should read "nucleic acid bound complexes."
+  - **Required correction** Correct the typo in the revised manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the simulation timescale, force field, or water model used. These details are essential for reproducibility and for assessing the reliability of the binding preference claims.
+  - **Required correction** Include key simulation parameters in the abstract or ensure they are prominently described in the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Comparison to canonical form
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The comparison between nucleic acid bound dimers and the GTP/dATP crossbridged form is not clearly framed. It is unclear whether the canonical form is a dimer or tetramer in the simulations, and how the crossbridge configuration is modeled.
+  - **Required correction** Clarify the oligomeric state and the exact composition of the reference complex in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking because the abstract alone does not provide sufficient quantitative or methodological evidence to support the central claims of binding preference, altered allosteric communication, and the off-pathway functional interpretation.
+- **Assessment against Nature-style criteria** Originality: The application of allosteric communication analysis to SAMHD1 nucleic acid complexes is potentially novel, but the abstract does not demonstrate how this advances beyond existing structural studies. Scientific importance: The question of SAMHD1 nucleic acid binding function is relevant, but the strong functional conclusion is not supported by the visible evidence. Interdisciplinary readership: The work could appeal to computational biologists and virologists, but the abstract lacks the mechanistic clarity needed to engage a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the absence of methods and quantitative results is a major limitation. Readability for nonspecialists: The abstract is generally readable but uses jargon such as "allosteric communications" and "crossbridges" without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative and methodological detail required to evaluate the claims. A full manuscript with rigorous simulation data and careful interpretation could be supportive, but the case is not made from the supplied material.
+
+## Risk / unsupported claims
+- The claim that SAMHD1 dimers preferably bind DNA and RNA oligomers compared to GTP/dATP is unsupported because no quantitative binding comparison is provided.
+- The claim that allosteric communication channels are altered is unsupported because the analysis method and significance criteria are not described.
+- The claim that the DNA bound form corresponds to an unproductive off-pathway state is unsupported because no direct link between the observed allosteric changes and reduced dNTP hydrolysis is established, and the relevance of dimer simulations to the tetrameric active form is not explained.

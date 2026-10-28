@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37030103",
+  "title": "Peripheral blood mononuclear cell derived biomarker detection using eXplainable Artificial Intelligence (XAI) provides better diagnosis of breast cancer.",
+  "authors": "Kumar, Sunil; Das, Asmita",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2023-04-09",
+  "window": {
+    "start": "2023-04-03",
+    "end": "2023-04-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用XAI和XGBoost分析PBMC基因表达数据诊断乳腺癌，纯表达谱分类，无蛋白质-DNA互作、无结合建模，与本课题无关。",
+  "abstract": "The incidence and mortality rate of breast cancer increases yearly by an average of 1.44 % and 0.23 %, respectively. Till 2021, there were 7.8 million women who had been diagnosed with breast cancer within 5 years. Biopsies of tumors are often expensive and invasive and raise the risk of serious complications like infection, excessive bleeding, and puncture damage to nearby tissues and organs. Early detection biomarkers are often variably expressed in different patients and may even be below the detection level at an early stage. Hence PBMC that shows alteration in gene profile as a result of interaction with tumor antigens may serve as a better early detection biomarker. Also, such alterations in immune gene profile in PBMCs are more prone to detection despite variability in different breast cancer mutants.This study aimed to identify potential diagnostic biomarkers for breast cancer using eXplainable Artificial Intelligence (XAI) on XGBoost machine learning (ML) models trained on a binary classification dataset containing the expression data of PBMCs from 252 breast cancer patients and 194 healthy women.After effectively adding SHAP values further into the XGBoost model, ten important genes related to breast cancer development were discovered to be effective potential biomarkers. Our studies showed that SVIP, BEND3, MDGA2, LEF1-AS1, PRM1, TEX14, MZB1, TMIGD2, KIT, and FKBP7 are key genes that impact model prediction. These genes may serve as early, non-invasive diagnostic and prognostic biomarkers for breast cancer patients.",
+  "abstract_zh": "乳腺癌的发病率和死亡率分别以年均1.44%和0.23%的速度逐年上升。截至2021年，已有780万名女性在5年内被诊断出患有乳腺癌。肿瘤活检通常费用高昂且具有侵入性，并增加严重并发症的风险，如感染、过度出血以及对邻近组织和器官的穿刺损伤。早期检测生物标志物在不同患者中常表达不一，甚至在早期阶段可能低于检测水平。因此，作为与肿瘤抗原相互作用导致基因谱改变的外周血单个核细胞（PBMC），可能成为更好的早期检测生物标志物。此外，尽管不同乳腺癌突变体存在变异性，PBMCs中免疫基因谱的此类改变更易于被检测到。\n\n本研究旨在利用可解释人工智能（eXplainable Artificial Intelligence, XAI）对基于XGBoost机器学习（machine learning, ML）模型进行训练，该模型基于包含252名乳腺癌患者和194名健康女性PBMCs表达数据的二分类数据集，以识别潜在的乳腺癌诊断生物标志物。在有效将SHAP值进一步纳入XGBoost模型后，发现十个与乳腺癌发展相关的重要基因可作为有效的潜在生物标志物。我们的研究表明，SVIP、BEND3、MDGA2、LEF1-AS1、PRM1、TEX14、MZB1、TMIGD2、KIT和FKBP7是影响模型预测的关键基因。这些基因可能作为乳腺癌患者早期、非侵入性的诊断和预后生物标志物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37030103/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37030103/",
+  "paper_page_path": "papers/pubmed/37030103/index.html"
+}

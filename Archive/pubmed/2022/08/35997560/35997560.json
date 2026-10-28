@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "35997560",
+    "doi": "10.1093/bioinformatics/btac569",
+    "title": "NetTIME: a multitask and base-pair resolution framework for improved transcription factor binding site prediction."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Machine learning models for predicting cell-type-specific transcription factor (TF) binding sites have become increasingly more accurate thanks to the increased availability of next-generation sequencing data and more standardized model evaluation criteria. However, knowledge transfer from data-rich to data-limited TFs and cell types remains crucial for improving TF binding prediction models because available binding labels are highly skewed towards a small collection of TFs and cell types. Transfer prediction of TF binding sites can potentially benefit from a multitask learning approach; however, existing methods typically use shallow single-task models to generate low-resolution predictions. Here, we propose NetTIME, a multitask learning framework for predicting cell-type-specific TF binding sites with base-pair resolution. RESULTS: We show that the multitask learning strategy for TF binding prediction is more efficient than the single-task approach due to the increased data availability. NetTIME trains high-dimensional embedding vectors to distinguish TF and cell-type identities. We show that this approach is critical for the success of the multitask learning strategy and allows our model to make accurate transfer predictions within and beyond the training panels of TFs and cell types. We additionally train a linear-chain conditional random field (CRF) to classify binding predictions and show that this CRF eliminates the need for setting a probability threshold and reduces classification noise. We compare our method's predictive performance with two state-of-the-art methods, Catchitt and Leopard, and show that our method outperforms previous methods under both supervised and transfer learning settings. AVAILABILITY AND IMPLEMENTATION: NetTIME is freely available at https://github.com/ryi06/NetTIME and the code is also archived at https://doi.org/10.5281/zenodo.6994897. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "Base Pairing",
+      "Binding Sites",
+      "*High-Throughput Nucleotide Sequencing/methods",
+      "Protein Binding",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yi, Ren",
+        "Cho, Kyunghyun",
+        "Bonneau, Richard"
+      ],
+      "short_names": [
+        "Yi R",
+        "Cho K",
+        "Bonneau R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0238-3573"
+      ],
+      "affiliations": [
+        "Department of Computer Science, New York University, New York, NY 10011, USA.",
+        "Department of Computer Science, New York University, New York, NY 10011, USA.",
+        "Center for Data Science, New York University, New York, NY 10011, USA.",
+        "Prescient Design, a Genentech accelerator, New York, NY 10010, USA.",
+        "Department of Computer Science, New York University, New York, NY 10011, USA.",
+        "Center for Data Science, New York University, New York, NY 10011, USA.",
+        "Prescient Design, a Genentech accelerator, New York, NY 10010, USA.",
+        "Department of Biology, New York University, New York, NY 10003, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yi, Ren",
+        "short_name": "Yi R",
+        "identifiers": [
+          "0000-0002-0238-3573"
+        ],
+        "affiliations": [
+          "Department of Computer Science, New York University, New York, NY 10011, USA."
+        ]
+      },
+      {
+        "full_name": "Cho, Kyunghyun",
+        "short_name": "Cho K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, New York University, New York, NY 10011, USA.",
+          "Center for Data Science, New York University, New York, NY 10011, USA.",
+          "Prescient Design, a Genentech accelerator, New York, NY 10010, USA."
+        ]
+      },
+      {
+        "full_name": "Bonneau, Richard",
+        "short_name": "Bonneau R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, New York University, New York, NY 10011, USA.",
+          "Center for Data Science, New York University, New York, NY 10011, USA.",
+          "Prescient Design, a Genentech accelerator, New York, NY 10010, USA.",
+          "Department of Biology, New York University, New York, NY 10003, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Oct 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/24 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "36695505"
+    ],
+    "refs": [
+      "34608324",
+      "34579793",
+      "33796819",
+      "33760053",
+      "33741685",
+      "33603233",
+      "32728249",
+      "32551184",
+      "32228704",
+      "31822622",
+      "31665499",
+      "31591579",
+      "31570894",
+      "31406384",
+      "30922998",
+      "30791920",
+      "30696696",
+      "30671054",
+      "30630522",
+      "30567711",
+      "30030442",
+      "30013180",
+      "29961576",
+      "29757349",
+      "29618526",
+      "29588361",
+      "29513366",
+      "29273804",
+      "28334916",
+      "28234893",
+      "27295424",
+      "27084946",
+      "26555596",
+      "26301843",
+      "26213851",
+      "25751057",
+      "25083876",
+      "24243859",
+      "24097267",
+      "23792147",
+      "23525069",
+      "23354101",
+      "22887818",
+      "22868264",
+      "22153082",
+      "21525870",
+      "21106759",
+      "20927193",
+      "19736561",
+      "19543373",
+      "17540862",
+      "17324271",
+      "16845028",
+      "11402334",
+      "11395428",
+      "10748524",
+      "9377276",
+      "7584402"
+    ],
+    "similar": [
+      "35997560",
+      "25957350",
+      "42099803",
+      "29757349",
+      "31161194",
+      "31723409",
+      "28961686",
+      "30304373",
+      "39786868",
+      "28750606",
+      "27993786",
+      "23980024",
+      "42475469",
+      "38940155",
+      "33124660",
+      "33741685",
+      "31742324",
+      "34579793",
+      "34252943",
+      "40102719",
+      "40662821",
+      "30709337",
+      "40848288",
+      "40411397",
+      "34272562",
+      "41310253",
+      "27153645",
+      "35266510",
+      "20838582",
+      "36484687",
+      "32770026",
+      "41601205",
+      "33381817",
+      "33416862",
+      "28234893",
+      "39701486",
+      "30567711",
+      "35659235",
+      "41450215",
+      "35681170",
+      "42145197",
+      "30922998",
+      "30423062",
+      "34999749",
+      "37140548",
+      "26130577",
+      "39482734",
+      "40372465",
+      "28718849",
+      "26291518",
+      "35263332",
+      "39975293",
+      "22863112",
+      "38517697",
+      "40971691",
+      "36692138",
+      "21724591",
+      "23812975",
+      "31974574",
+      "19956545",
+      "36321557",
+      "24039567",
+      "38701417",
+      "38422958",
+      "27288497",
+      "20158869",
+      "39107889",
+      "27845669",
+      "25559499",
+      "28334224",
+      "20663846",
+      "25722376",
+      "30629513",
+      "31899481",
+      "39076052",
+      "32976105",
+      "31336830",
+      "30578913",
+      "34096999",
+      "35997565",
+      "34252930",
+      "26818008",
+      "35042722",
+      "26703974",
+      "16362910",
+      "37805453",
+      "29588420",
+      "25775564",
+      "41134132",
+      "29326300",
+      "28849563",
+      "35961023",
+      "30084962",
+      "28541376",
+      "41294241",
+      "36869836",
+      "35799371",
+      "35900151",
+      "40598892",
+      "41518500"
+    ],
+    "review": [
+      "35997560",
+      "31742324",
+      "36321557"
+    ],
+    "pmc": [
+      "9563695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35997560.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35997560/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35997560",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac569",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

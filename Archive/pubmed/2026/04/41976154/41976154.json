@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "41976154",
+    "doi": "10.3390/molecules31071111",
+    "title": "Identifying ICAM-1 as a Therapeutic Target for Cytokine Storm in Human Macrophages Through Integrative Bioinformatics Approaches."
+  },
+  "content": {
+    "abstract": "Excessive macrophage activation is thought to be the primary cause of the cytokine storm that results in severe coronavirus disease 2019 (COVID-19) complications. The underlying mechanisms remain elusive, and more research is needed to find disease-critical genes and develop effective therapies. In this study, we used publicly accessible microarray datasets of cytokine storm in cultured human monocyte-derived macrophages challenged with cytokines, and employed bioinformatics, such as weighted gene co-expression network analysis (WGCNA) and differential expression analysis, to dissect gene expression profiles and identify putative disease-related molecules. Initially, three co-expression modules and related key genes were discovered, which highly correlated to macrophages challenged with cytokines. Then, a preliminary gene expression signature consisting of 203 upregulated and 24 downregulated genes was identified. Next, protein-protein interaction analysis and hub gene identification were used to identify 11 crucial hub genes, namely tripartite motif-containing 21 (TRIM21), interferon regulatory factor 1 (IRF1), guanylate binding protein 1 (GBP1), transporter associated with antigen processing 1 (TAP1), nuclear myosin I (NMI), interleukin 15 receptor subunit alpha (IL15RA), apolipoprotein L1 (APOL1), intercellular adhesion molecule 1 (ICAM-1), protein tyrosine phosphatase non-receptor type 1 (PTPN1), E74-like ETS transcription factor 4 (ELF4) and guanylate binding protein 2 (GBP2). Then, the LINCS L1000 characteristic direction signatures search engine (L1000CDS2) was employed for drug repurposing studies. Dasatinib was predicted to be the leading therapeutic compound to perturb the gene signature of cytokine storm in human macrophages. Connectivity Map results suggested that dasatinib may normalize ICAM-1 expression. In addition, the results of molecular docking studies and molecular dynamics simulation revealed that dasatinib may spontaneously interact with ICAM-1 via several key residues and form a relatively stable protein-ligand complex. Overall, this work, based on an analysis of co-expression correlation networks, gene expression signatures and pivotal genes in human macrophages challenged with cytokines, combined with drug repurposing studies, demonstrated that dasatinib may interact with ICAM-1 and could be a potential candidate for cytokine storm. However, due to the limitations of computational approaches, further experimental validation is necessary.",
+    "keywords": [
+      "COVID-19",
+      "ICAM-1",
+      "cytokine storm",
+      "dasatinib",
+      "gene expression signature",
+      "weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Macrophages/metabolism/drug effects/immunology",
+      "*Intercellular Adhesion Molecule-1/genetics/metabolism",
+      "*Computational Biology/methods",
+      "COVID-19",
+      "SARS-CoV-2",
+      "Gene Expression Profiling",
+      "*Cytokine Release Syndrome/drug therapy/genetics/metabolism",
+      "Protein Interaction Maps",
+      "Cytokines",
+      "Gene Regulatory Networks",
+      "Gene Expression Regulation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Shaojun",
+        "Wu, Dapeng",
+        "Zheng, Zhe",
+        "Luo, Yiyuan",
+        "Zhang, Lihua"
+      ],
+      "short_names": [
+        "Chen S",
+        "Wu D",
+        "Zheng Z",
+        "Luo Y",
+        "Zhang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Traditional Chinese Medicine, Zhejiang Pharmaceutical University, Ningbo 315000, China.",
+        "Affiliated Hospital, Nanjing University of Traditional Chinese Medicine, Nanjing 210023, China.",
+        "School of Pharmacy, Nanjing University of Traditional Chinese Medicine, Nanjing 210023, China.",
+        "Department of Traditional Chinese Medicine, Zhejiang Pharmaceutical University, Ningbo 315000, China.",
+        "School of Health Management, Zhejiang Pharmaceutical University, Ningbo 315000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Shaojun",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Zhejiang Pharmaceutical University, Ningbo 315000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Dapeng",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital, Nanjing University of Traditional Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Zhe",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Traditional Chinese Medicine, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yiyuan",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Zhejiang Pharmaceutical University, Ningbo 315000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lihua",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Health Management, Zhejiang Pharmaceutical University, Ningbo 315000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2026 Mar 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/14 06:31",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40864243",
+      "39414783",
+      "38569996",
+      "38048805",
+      "37933855",
+      "37803121",
+      "37708705",
+      "37706196",
+      "37442359",
+      "37426635",
+      "37423400",
+      "37350967",
+      "37280244",
+      "37211013",
+      "36932076",
+      "36704839",
+      "36700825",
+      "36455991",
+      "36423464",
+      "36394425",
+      "36305426",
+      "36179680",
+      "36083891",
+      "36076538",
+      "35635004",
+      "35567424",
+      "35345417",
+      "34715236",
+      "34686518",
+      "34671355",
+      "34535795",
+      "34517409",
+      "34326166",
+      "34234112",
+      "34009288",
+      "33915569",
+      "33711981",
+      "33608030",
+      "33290552",
+      "33278358",
+      "33263093",
+      "32729248",
+      "32610079",
+      "32574956",
+      "32423917",
+      "32398875",
+      "32376901",
+      "31986264",
+      "31270272",
+      "31110200",
+      "30664679",
+      "29912392",
+      "29195078",
+      "28477207",
+      "28413689",
+      "27901489",
+      "27482885",
+      "25521941",
+      "19114008",
+      "17008526",
+      "14504278"
+    ],
+    "similar": [
+      "41976154",
+      "34975885",
+      "36532040",
+      "33362771",
+      "34722158",
+      "35685361",
+      "40406126",
+      "42158856",
+      "40918512",
+      "42265520",
+      "42278407",
+      "39170609",
+      "39612274",
+      "41288681",
+      "41044520",
+      "38899746",
+      "37241840",
+      "37686182",
+      "40977739",
+      "42475469",
+      "34394108",
+      "40574839",
+      "34248936",
+      "41120603",
+      "36119022",
+      "38640424",
+      "39093763",
+      "38957433",
+      "41863700",
+      "40332792",
+      "41052072",
+      "40659785",
+      "41533020",
+      "40843941",
+      "39139563",
+      "36854280",
+      "41107929",
+      "41751534",
+      "40362669",
+      "35622496",
+      "41066424",
+      "41665764",
+      "35558576",
+      "40442788",
+      "33016027",
+      "34248968",
+      "35749386",
+      "39473404",
+      "42109727",
+      "42327749",
+      "41703488",
+      "41683685",
+      "42146949",
+      "37700485",
+      "41511918",
+      "42123445",
+      "33232865",
+      "39026250",
+      "38834626",
+      "39341952",
+      "37460430",
+      "40328901",
+      "35016690",
+      "40895573",
+      "35163833",
+      "40340571",
+      "37653800",
+      "40281518",
+      "40408617",
+      "41094572",
+      "38965970",
+      "32971089",
+      "34663380",
+      "30542696",
+      "40926543",
+      "38573982",
+      "33622336",
+      "33968364",
+      "39287877",
+      "40898538",
+      "21803433",
+      "41251871",
+      "41300749",
+      "40307269",
+      "38259479",
+      "41530290",
+      "40068024",
+      "41583468",
+      "40289127",
+      "30303482",
+      "40383755",
+      "37776011",
+      "39342024",
+      "39675129",
+      "40628511",
+      "40634559",
+      "33833618",
+      "41081092",
+      "37769276",
+      "32243390"
+    ],
+    "review": [
+      "41976154",
+      "42146949"
+    ],
+    "pmc": [
+      "13075147"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules31071111",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41976154/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "39386570",
+    "doi": "10.1101/2024.09.23.614645",
+    "title": "Predicting bacterial fitness in Mycobacterium tuberculosis with transcriptional regulatory network-informed interpretable machine learning."
+  },
+  "content": {
+    "abstract": "Mycobacterium tuberculosis (Mtb) is the causative agent of tuberculosis disease, the greatest source of global mortality by a bacterial pathogen. Mtb adapts and responds to diverse stresses such as antibiotics by inducing transcriptional stress-response regulatory programs. Understanding how and when these mycobacterial regulatory programs are activated could enable novel treatment strategies for potentiating the efficacy of new and existing drugs. Here we sought to define and analyze Mtb regulatory programs that modulate bacterial fitness. We assembled a large Mtb RNA expression compendium and applied these to infer a comprehensive Mtb transcriptional regulatory network and compute condition-specific transcription factor activity profiles. We utilized transcriptomic and functional genomics data to train an interpretable machine learning model that can predict Mtb fitness from transcription factor activity profiles. We demonstrated that this transcription factor activity-based model can successfully predict Mtb growth arrest and growth resumption under hypoxia and reaeration using only RNA-seq expression data as a starting point. These integrative network modeling and machine learning analyses thus enable the prediction of mycobacterial fitness under different environmental and genetic contexts. We envision these models can potentially inform the future design of prognostic assays and therapeutic intervention that can cripple Mtb growth and survival to cure tuberculosis disease.",
+    "keywords": [
+      "Mycobacterium tuberculosis",
+      "growth regulation",
+      "interpretable machine learning",
+      "network modeling",
+      "stress adaptation",
+      "transcriptional regulation",
+      "transcriptional regulatory network inference"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bustad, Ethan",
+        "Petry, Edson",
+        "Gu, Oliver",
+        "Griebel, Braden T",
+        "Rustad, Tige R",
+        "Sherman, David R",
+        "Yang, Jason H",
+        "Ma, Shuyi"
+      ],
+      "short_names": [
+        "Bustad E",
+        "Petry E",
+        "Gu O",
+        "Griebel BT",
+        "Rustad TR",
+        "Sherman DR",
+        "Yang JH",
+        "Ma S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0230-2913",
+        "ORCID: 0009-0003-3617-5734",
+        "ORCID: 0000-0003-2996-2943",
+        "ORCID: 0000-0003-0921-4657",
+        "ORCID: 0000-0003-0783-1328"
+      ],
+      "affiliations": [
+        "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle WA, USA.",
+        "Center for Emerging and Re-emerging Pathogens, Rutgers New Jersey Medical School, Newark NJ, USA.",
+        "Center for Emerging and Re-emerging Pathogens, Rutgers New Jersey Medical School, Newark NJ, USA.",
+        "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle WA, USA.",
+        "Department of Chemical Engineering, University of Washington, Seattle WA, USA.",
+        "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle WA, USA.",
+        "Center for Emerging and Re-emerging Pathogens, Rutgers New Jersey Medical School, Newark NJ, USA.",
+        "Department of Chemical Engineering, University of Washington, Seattle WA, USA.",
+        "Department of Microbiology, University of Washington, Seattle WA, USA.",
+        "Department of Microbiology, Biochemistry, & Molecular Genetics, Rutgers New Jersey Medical School, Newark NJ, USA.",
+        "Department of Pediatrics, University of Washington, Seattle WA, USA.",
+        "Pathobiology Graduate Program, Department of Global Health, University of Washington, Seattle WA, USA.",
+        "Department of Microbiology, University of Washington, Seattle WA, USA.",
+        "Center for Emerging and Re-emerging Pathogens, Rutgers New Jersey Medical School, Newark NJ, USA.",
+        "Department of Microbiology, Biochemistry, & Molecular Genetics, Rutgers New Jersey Medical School, Newark NJ, USA.",
+        "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle WA, USA.",
+        "Department of Chemical Engineering, University of Washington, Seattle WA, USA.",
+        "Department of Pediatrics, University of Washington, Seattle WA, USA.",
+        "Pathobiology Graduate Program, Department of Global Health, University of Washington, Seattle WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bustad, Ethan",
+        "short_name": "Bustad E",
+        "identifiers": [
+          "0000-0002-0230-2913"
+        ],
+        "affiliations": [
+          "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle WA, USA."
+        ]
+      },
+      {
+        "full_name": "Petry, Edson",
+        "short_name": "Petry E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Emerging and Re-emerging Pathogens, Rutgers New Jersey Medical School, Newark NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Gu, Oliver",
+        "short_name": "Gu O",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Emerging and Re-emerging Pathogens, Rutgers New Jersey Medical School, Newark NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Griebel, Braden T",
+        "short_name": "Griebel BT",
+        "identifiers": [
+          "0009-0003-3617-5734"
+        ],
+        "affiliations": [
+          "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle WA, USA.",
+          "Department of Chemical Engineering, University of Washington, Seattle WA, USA."
+        ]
+      },
+      {
+        "full_name": "Rustad, Tige R",
+        "short_name": "Rustad TR",
+        "identifiers": [
+          "0000-0003-2996-2943"
+        ],
+        "affiliations": [
+          "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle WA, USA.",
+          "Center for Emerging and Re-emerging Pathogens, Rutgers New Jersey Medical School, Newark NJ, USA.",
+          "Department of Chemical Engineering, University of Washington, Seattle WA, USA.",
+          "Department of Microbiology, University of Washington, Seattle WA, USA.",
+          "Department of Microbiology, Biochemistry, & Molecular Genetics, Rutgers New Jersey Medical School, Newark NJ, USA.",
+          "Department of Pediatrics, University of Washington, Seattle WA, USA.",
+          "Pathobiology Graduate Program, Department of Global Health, University of Washington, Seattle WA, USA."
+        ]
+      },
+      {
+        "full_name": "Sherman, David R",
+        "short_name": "Sherman DR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, University of Washington, Seattle WA, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Jason H",
+        "short_name": "Yang JH",
+        "identifiers": [
+          "0000-0003-0921-4657"
+        ],
+        "affiliations": [
+          "Center for Emerging and Re-emerging Pathogens, Rutgers New Jersey Medical School, Newark NJ, USA.",
+          "Department of Microbiology, Biochemistry, & Molecular Genetics, Rutgers New Jersey Medical School, Newark NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Shuyi",
+        "short_name": "Ma S",
+        "identifiers": [
+          "0000-0003-0783-1328"
+        ],
+        "affiliations": [
+          "Center for Global Infectious Disease Research, Seattle Children's Research Institute, Seattle WA, USA.",
+          "Department of Chemical Engineering, University of Washington, Seattle WA, USA.",
+          "Department of Pediatrics, University of Washington, Seattle WA, USA.",
+          "Pathobiology Graduate Program, Department of Global Health, University of Washington, Seattle WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Sep 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 06:22",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39993187",
+      "39299261",
+      "39122941",
+      "38890548",
+      "38734030",
+      "38600064",
+      "38587412",
+      "38519618",
+      "37802917",
+      "37542718",
+      "36960291",
+      "36926589",
+      "36866529",
+      "36084643",
+      "35986058",
+      "35944069",
+      "35637331",
+      "35306876",
+      "34726489",
+      "34469743",
+      "34355212",
+      "34297925",
+      "33536291",
+      "33283913",
+      "33199862",
+      "32379829",
+      "31797920",
+      "31719182",
+      "31080069",
+      "30082724",
+      "30022098",
+      "29993358",
+      "29505613",
+      "29234465",
+      "29036413",
+      "28991892",
+      "28893793",
+      "28096490",
+      "27312411",
+      "27153652",
+      "26025969",
+      "25977815",
+      "25873626",
+      "25760714",
+      "25581030",
+      "25380655",
+      "25232098",
+      "24227677",
+      "24007602",
+      "23940252",
+      "23823726",
+      "22829866",
+      "22796662",
+      "22388286",
+      "21818301",
+      "21531770",
+      "20980200",
+      "20927193",
+      "20661284",
+      "20167624",
+      "19505943",
+      "19376862",
+      "19015660",
+      "18985025",
+      "18231589",
+      "17510665",
+      "17214507",
+      "16749936",
+      "16723010",
+      "14673099",
+      "11416222",
+      "10802651",
+      "9689123",
+      "1180967"
+    ],
+    "similar": [
+      "39386570",
+      "40678166",
+      "37090677",
+      "25422323",
+      "24245755",
+      "35306876",
+      "39873486",
+      "31752669",
+      "40793863",
+      "17240921",
+      "41207937",
+      "40646483",
+      "37175635",
+      "36700638",
+      "38509362",
+      "41102315",
+      "31719182",
+      "37704889",
+      "41207939",
+      "36945399",
+      "25232098",
+      "37405387",
+      "26618656",
+      "41207941",
+      "20661284",
+      "25977815",
+      "40404665",
+      "27724857",
+      "32348771",
+      "38418874",
+      "26377923",
+      "25645949",
+      "39361873",
+      "39639222",
+      "38916320",
+      "39611843",
+      "35167150",
+      "40140944",
+      "27335215",
+      "36625672",
+      "35165358",
+      "39315796",
+      "34262571",
+      "31361123",
+      "35471080",
+      "40586596",
+      "27207833",
+      "30123778",
+      "33095750",
+      "36212533",
+      "38700329",
+      "24705585",
+      "20386700",
+      "38387847",
+      "38940175",
+      "30687646",
+      "41313006",
+      "24722908",
+      "35467412",
+      "22544630",
+      "38587412",
+      "41207940",
+      "19562030",
+      "17467338",
+      "40527579",
+      "29066303",
+      "29788125",
+      "33514755",
+      "26270051",
+      "34060333",
+      "33588338",
+      "40095213",
+      "31127308",
+      "37439558",
+      "40231840",
+      "38179948",
+      "38885567",
+      "31958639",
+      "37755167",
+      "20889800",
+      "29712924",
+      "32117257",
+      "26502963",
+      "37039646",
+      "30269499",
+      "32967690",
+      "40449326",
+      "31160336",
+      "30973110",
+      "41224155",
+      "38861604",
+      "36658559",
+      "29559631",
+      "39818957",
+      "33309526",
+      "36820061",
+      "39287444",
+      "36968107",
+      "38903780",
+      "39688428"
+    ],
+    "review": [
+      "39386570",
+      "17240921",
+      "41207937",
+      "37704889",
+      "41207939",
+      "41207941",
+      "34262571",
+      "31361123",
+      "41207940",
+      "17467338",
+      "29788125",
+      "33588338",
+      "32967690",
+      "41224155",
+      "33309526",
+      "38903780"
+    ],
+    "pmc": [
+      "11463588"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39386570/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.09.23.614645",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

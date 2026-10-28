@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39487131",
+  "title": "ChromaFold predicts the 3D contact map from single-cell chromatin accessibility.",
+  "authors": "Gao, Vianne R; Yang, Rui; Das, Arnav; Luo, Renhe; Luo, Hanzhi; McNally, Dylan R; Karagiannidis, Ioannis; Rivas, Martin A; Wang, Zhong-Min; Barisic, Darko; Karbalayghareh, Alireza; Wong, Wilfred; Zhan, Yingqian A; Chin, Christopher R; Noble, William S; Bilmes, Jeff A; Apostolou, Effie; Kharas, Michael G; Beguelin, Wendy; Viny, Aaron D; Huangfu, Danwei; Rudensky, Alexander Y; Melnick, Ari M; Leslie, Christina S",
+  "journal": "Nature communications",
+  "published_date": "2024-11-04",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习从单细胞染色质可及性预测3D接触图，涉及调控元件互作但非TF-DNA结合建模，方法可迁移至蛋白-DNA互作预测。",
+  "abstract": "Identifying cell-type-specific 3D chromatin interactions between regulatory elements can help decipher gene regulation and interpret disease-associated non-coding variants. However, achieving this resolution with current 3D genomics technologies is often infeasible given limited input cell numbers. We therefore present ChromaFold, a deep learning model that predicts 3D contact maps, including regulatory interactions, from single-cell ATAC sequencing (scATAC-seq) data alone. ChromaFold uses pseudobulk chromatin accessibility, co-accessibility across metacells, and a CTCF motif track as inputs and employs a lightweight architecture to train on standard GPUs. Trained on paired scATAC-seq and Hi-C data in human samples, ChromaFold accurately predicts the 3D contact map and peak-level interactions across diverse human and mouse test cell types. Compared to leading contact map prediction models that use ATAC-seq and CTCF ChIP-seq, ChromaFold achieves state-of-the-art performance using only scATAC-seq. Finally, fine-tuning ChromaFold on paired scATAC-seq and Hi-C in a complex tissue enables deconvolution of chromatin interactions across cell subpopulations.",
+  "abstract_zh": "识别调控元件之间细胞类型特异性的三维染色质相互作用，有助于解析基因调控并解读疾病相关的非编码变异。然而，鉴于输入细胞数量有限，使用当前的3D基因组学技术实现这种分辨率通常不可行。因此，我们提出了ChromaFold，一种深度学习模型，仅从单细胞ATAC测序（scATAC-seq）数据即可预测3D接触图谱，包括调控相互作用。ChromaFold利用伪批量染色质可及性、跨元细胞的共可及性以及CTCF基序轨迹作为输入，并采用轻量级架构，以便在标准GPU上进行训练。在人类样本中配对scATAC-seq和Hi-C数据上训练后，ChromaFold能准确预测多种人类和小鼠测试细胞类型中的3D接触图谱及峰值水平相互作用。与使用ATAC-seq和CTCF ChIP-seq的领先接触图谱预测模型相比，ChromaFold仅使用scATAC-seq即达到最先进性能。最后，在复杂组织中配对scATAC-seq和Hi-C数据上对ChromaFold进行微调，能够实现跨细胞亚群的染色质相互作用去卷积。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39487131/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39487131/",
+  "paper_page_path": "papers/pubmed/39487131/index.html"
+}

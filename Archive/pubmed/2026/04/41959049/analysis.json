@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41959049",
+  "title": "Modeling gene regulatory perturbations via deep learning from high-throughput reporter assays.",
+  "authors": "Venukuttan, Revathy; Doty, Richard; Thomson, Alexander; Chen, Yutian; Li, Boyao; Duan, Yuncheng; Barrera, Alejandro; Dura, Katherine; Ko, Kuei-Yueh; Lapp, Hilmar; Reddy, Timothy E; Allen, Andrew S; Majoros, William H",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-04-10",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习从全基因组STARR-seq报告基因数据中建模调控变异效应，并解析TF（GR/AP-1）结合基序的距离与处理依赖模式，属于AI方法用于TF-DNA调控功能预测，但未直接建模三维互作结构。",
+  "abstract": "Assessing likely variant effects on phenotypes is of critical importance in diagnostic settings, and while much progress has been made in interpreting genic mutations based on our understanding of coding sequence, noncoding variants can be much more challenging to reliably interpret based on DNA sequence alone. High-throughput reporter assays such as STARR-seq and MPRA have shown utility in experimentally measuring regulatory effects of noncoding variants present in samples but provide no readout for variants not present in the assay inputs. However, whole-genome reporter assays provide copious data that can be used to train predictive models for prioritizing variants not directly observed in the experiment. We describe a retrainable predictive modeling framework, BlueSTARR, for this task, and present results of training several models with this framework on whole-genome STARR-seq data from two cell lines and one drug treatment. Using these models, we uncover a global signature across the human genome consistent with purifying selection against both loss-of-function and gain-of-function regulatory variants, with the latter showing a significant bias consistent with selection against gains of cis regulatory function in closed chromatin proximal to genes. By testing the model on synthetic enhancers with binding motifs for transcription factors GR and AP-1, we find that when trained on drug perturbation data, the model is able to learn distance-dependent and treatment-dependent binding patterns and their resulting reporter gene activation. These results demonstrate that lightweight, easily retrainable models such as ours have utility in probing latent signals present in novel experimental data. Finally, we find only modest differences in performance between different deep-learning architectures when trained on this single data modality, and while somewhat greater predictive accuracy can be achieved with much larger models trained at great expense on many terabytes of data, there is still copious room for improvement even for industrial strength, state-of-the-art models.",
+  "abstract_zh": "评估变异对表型的可能影响在诊断环境中至关重要，尽管基于我们对编码序列的理解，在解释基因突变方面已取得很大进展，但非编码变异仅凭DNA序列进行可靠解释则更具挑战性。高通量报告基因检测如STARR-seq和MPRA已显示出在实验测量样本中非编码变异调控效应方面的实用性，但对于检测输入中不存在的变异则无法提供读数。然而，全基因组报告基因检测提供了大量数据，可用于训练预测模型，以优先处理实验中未直接观察到的变异。我们描述了一个可再训练的预测建模框架BlueSTARR，用于此任务，并展示了使用该框架在来自两个细胞系和一种药物处理的全基因组STARR-seq数据上训练多个模型的结果。利用这些模型，我们揭示了人类基因组中一个全局特征，与针对功能丧失和功能获得调控变异的纯化选择一致，其中后者显示出显著偏差，与针对基因附近闭合染色质中顺式调控功能获得的纯化选择一致。通过在带有转录因子GR和AP-1结合基序的合成增强子上测试模型，我们发现当在药物扰动数据上训练时，模型能够学习距离依赖性和处理依赖性结合模式及其产生的报告基因激活。这些结果表明，像我们这样的轻量级、易于再训练的模型在探测新实验数据中的潜在信号方面具有实用性。最后，我们发现当在单一数据模态上训练时，不同深度学习架构之间的性能差异仅适中，虽然通过使用更大的模型在大量数据上以高成本训练可以实现更高的预测准确性，但即使是工业级、最先进的模型仍有大量改进空间。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41959049/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41959049/",
+  "paper_page_path": "papers/pubmed/41959049/index.html"
+}

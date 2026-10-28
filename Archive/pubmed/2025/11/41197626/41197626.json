@@ -1,0 +1,607 @@
+{
+  "identity": {
+    "pmid": "41197626",
+    "doi": "10.1016/j.cell.2025.10.013",
+    "title": "Mapping chromatin structure at base-pair resolution unveils a unified model of cis-regulatory element interactions."
+  },
+  "content": {
+    "abstract": "Chromatin structure is a key determinant of gene expression in eukaryotes, but it has not been possible to define the structure of cis-regulatory elements at the scale of the proteins that bind them. Here, we generate multidimensional chromosome conformation capture (3C) maps at base-pair resolution using Micro Capture-C ultra (MCCu). This can resolve contacts between individual transcription factor motifs within cis-regulatory elements. Using degron systems, we show that removal of Mediator complex components alters fine-scale promoter structure and that nucleosome depletion plays a key role in transcription factor-driven enhancer-promoter contacts. We observe that chromatin is partitioned into nanoscale domains by nucleosome-depleted regions. This structural conformation is reproduced by chemically specific coarse-grained molecular dynamics simulations of the physicochemical properties of chromatin. Combining MCCu with molecular dynamics simulations and super-resolution microscopy allows us to propose a unified model in which the biophysical properties of chromatin orchestrate contacts between cis-regulatory elements.",
+    "keywords": [
+      "chromatin structure",
+      "chromosome conformation capture",
+      "cis-regulatory elements",
+      "enhancer-promoter interactions",
+      "gene regulation",
+      "mediator complex",
+      "molecular dynamics simulations",
+      "nuclear organization",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Chromatin/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Nucleosomes/metabolism/chemistry",
+      "Promoter Regions, Genetic",
+      "Humans",
+      "Transcription Factors/metabolism",
+      "Regulatory Sequences, Nucleic Acid"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Hangpeng",
+        "Dalgleish, James L T",
+        "Lister, George",
+        "Maristany, Maria Julia",
+        "Huertas, Jan",
+        "Dopico-Fernandez, Ana M",
+        "Hamley, Joseph C",
+        "Denny, Nicholas",
+        "Bloye, Gianna",
+        "Zhang, Weijiao",
+        "Hentges, Lance",
+        "Doll, Roman",
+        "Wei, Ye",
+        "Maresca, Michela",
+        "Dimitrova, Emilia",
+        "Pytowski, Lior",
+        "Tunnacliffe, Edward A J",
+        "Kassouf, Mira",
+        "Higgs, Doug",
+        "de Wit, Elzo",
+        "Klose, Robert J",
+        "Schermelleh, Lothar",
+        "Collepardo-Guevara, Rosana",
+        "Milne, Thomas A",
+        "Davies, James O J"
+      ],
+      "short_names": [
+        "Li H",
+        "Dalgleish JLT",
+        "Lister G",
+        "Maristany MJ",
+        "Huertas J",
+        "Dopico-Fernandez AM",
+        "Hamley JC",
+        "Denny N",
+        "Bloye G",
+        "Zhang W",
+        "Hentges L",
+        "Doll R",
+        "Wei Y",
+        "Maresca M",
+        "Dimitrova E",
+        "Pytowski L",
+        "Tunnacliffe EAJ",
+        "Kassouf M",
+        "Higgs D",
+        "de Wit E",
+        "Klose RJ",
+        "Schermelleh L",
+        "Collepardo-Guevara R",
+        "Milne TA",
+        "Davies JOJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; MRC WIMM Centre for Computational Biology, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK; Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK; Department of Genetics, University of Cambridge, Cambridge CB2 3EH, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; MRC WIMM Centre for Computational Biology, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; MRC WIMM Centre for Computational Biology, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "Division of Gene Regulation, the Netherlands Cancer Institute, 1066 CX Amsterdam, the Netherlands.",
+        "Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK.",
+        "Sir William Dunn School of Pathology, University of Oxford, Oxford OX1 3RE, UK; Pixel Biology Ltd., Oxford, UK.",
+        "MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK; Chinese Academy of Medical Sciences Oxford Institute, University of Oxford, Oxford OX3 7BN, UK.",
+        "Division of Gene Regulation, the Netherlands Cancer Institute, 1066 CX Amsterdam, the Netherlands.",
+        "Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK.",
+        "Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK; Sir William Dunn School of Pathology, University of Oxford, Oxford OX1 3RE, UK.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK; Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK; Department of Genetics, University of Cambridge, Cambridge CB2 3EH, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.",
+        "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK; National Institute of Health Research Blood and Transplant Research Unit in Precision Cellular Therapeutics, University of Oxford, Oxford OX3 9DU, UK; Oxford National Institute of Health Research Biomedical Research Centre, University of Oxford, Oxford OX3 9DU, UK. Electronic address: james.davies@imm.ox.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Hangpeng",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Dalgleish, James L T",
+        "short_name": "Dalgleish JLT",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; MRC WIMM Centre for Computational Biology, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Lister, George",
+        "short_name": "Lister G",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK."
+        ]
+      },
+      {
+        "full_name": "Maristany, Maria Julia",
+        "short_name": "Maristany MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK; Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Huertas, Jan",
+        "short_name": "Huertas J",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK; Department of Genetics, University of Cambridge, Cambridge CB2 3EH, UK."
+        ]
+      },
+      {
+        "full_name": "Dopico-Fernandez, Ana M",
+        "short_name": "Dopico-Fernandez AM",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Hamley, Joseph C",
+        "short_name": "Hamley JC",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Denny, Nicholas",
+        "short_name": "Denny N",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Bloye, Gianna",
+        "short_name": "Bloye G",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weijiao",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Hentges, Lance",
+        "short_name": "Hentges L",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; MRC WIMM Centre for Computational Biology, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Doll, Roman",
+        "short_name": "Doll R",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Wei, Ye",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; MRC WIMM Centre for Computational Biology, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Maresca, Michela",
+        "short_name": "Maresca M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Gene Regulation, the Netherlands Cancer Institute, 1066 CX Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dimitrova, Emilia",
+        "short_name": "Dimitrova E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK."
+        ]
+      },
+      {
+        "full_name": "Pytowski, Lior",
+        "short_name": "Pytowski L",
+        "identifiers": [],
+        "affiliations": [
+          "Sir William Dunn School of Pathology, University of Oxford, Oxford OX1 3RE, UK; Pixel Biology Ltd., Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Tunnacliffe, Edward A J",
+        "short_name": "Tunnacliffe EAJ",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Kassouf, Mira",
+        "short_name": "Kassouf M",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Higgs, Doug",
+        "short_name": "Higgs D",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK; Chinese Academy of Medical Sciences Oxford Institute, University of Oxford, Oxford OX3 7BN, UK."
+        ]
+      },
+      {
+        "full_name": "de Wit, Elzo",
+        "short_name": "de Wit E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Gene Regulation, the Netherlands Cancer Institute, 1066 CX Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Klose, Robert J",
+        "short_name": "Klose RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK."
+        ]
+      },
+      {
+        "full_name": "Schermelleh, Lothar",
+        "short_name": "Schermelleh L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK; Sir William Dunn School of Pathology, University of Oxford, Oxford OX1 3RE, UK."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK; Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK; Department of Genetics, University of Cambridge, Cambridge CB2 3EH, UK."
+        ]
+      },
+      {
+        "full_name": "Milne, Thomas A",
+        "short_name": "Milne TA",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK."
+        ]
+      },
+      {
+        "full_name": "Davies, James O J",
+        "short_name": "Davies JOJ",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK; MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford OX3 9DS, UK; National Institute of Health Research Blood and Transplant Research Unit in Precision Cellular Therapeutics, University of Oxford, Oxford OX3 9DU, UK; Oxford National Institute of Health Research Biomedical Research Centre, University of Oxford, Oxford OX3 9DU, UK. Electronic address: james.davies@imm.ox.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2025 Dec 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/07 00:27",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [
+      "42711428",
+      "42680838",
+      "42653476",
+      "42363759",
+      "42282682",
+      "42278215",
+      "42244752",
+      "41922325",
+      "41867868",
+      "41704232"
+    ],
+    "refs": [
+      "38781242",
+      "38614098",
+      "38413840",
+      "38291333",
+      "38101409",
+      "37740118",
+      "37691488",
+      "37430065",
+      "37225990",
+      "37157000",
+      "37024579",
+      "37011222",
+      "36991220",
+      "36471071",
+      "36220895",
+      "35871075",
+      "35866989",
+      "35440598",
+      "34850907",
+      "34108683",
+      "34001913",
+      "33958484",
+      "33902108",
+      "33707221",
+      "33398174",
+      "33326747",
+      "33318687",
+      "33235358",
+      "32967822",
+      "32886547",
+      "32483291",
+      "32305817",
+      "32213324",
+      "32213323",
+      "32165536",
+      "31915389",
+      "31740823",
+      "31543265",
+      "31494034",
+      "31402173",
+      "31285341",
+      "31228682",
+      "30655337",
+      "30241609",
+      "30038397",
+      "29930091",
+      "29849146",
+      "29765093",
+      "29581585",
+      "29217591",
+      "29126307",
+      "29094699",
+      "28985562",
+      "28712725",
+      "28525758",
+      "28483418",
+      "28424523",
+      "28111071",
+      "27723753",
+      "27412086",
+      "27376235",
+      "27210764",
+      "26826680",
+      "26595209",
+      "26527277",
+      "26525406",
+      "26499245",
+      "26119342",
+      "25563431",
+      "25497547",
+      "25409831",
+      "25202135",
+      "25057298",
+      "24670764",
+      "24097267",
+      "23785304",
+      "23685436",
+      "23642364",
+      "23582322",
+      "22961246",
+      "22955616",
+      "22682246",
+      "22495304",
+      "22495300",
+      "22388286",
+      "22264824",
+      "22170606",
+      "21903629",
+      "21295696",
+      "20808728",
+      "19815776",
+      "19011221",
+      "18083189",
+      "17320507",
+      "15998734",
+      "12504019",
+      "12079350",
+      "11932250",
+      "11283701",
+      "9736707",
+      "8416938"
+    ],
+    "similar": [
+      "41197626",
+      "36544209",
+      "34001913",
+      "27046080",
+      "40114377",
+      "26314830",
+      "30374068",
+      "39727280",
+      "8887635",
+      "40029962",
+      "26578577",
+      "37451823",
+      "21326360",
+      "9826764",
+      "39631398",
+      "17142268",
+      "34382185",
+      "24940877",
+      "36693380",
+      "24244184",
+      "25340767",
+      "15642189",
+      "38167349",
+      "9632765",
+      "34108683",
+      "33888707",
+      "17347439",
+      "26404156",
+      "26590168",
+      "26769147",
+      "39757199",
+      "28356342",
+      "40628730",
+      "25239823",
+      "8628676",
+      "38881841",
+      "37133993",
+      "40047512",
+      "17466507",
+      "25418099",
+      "34099014",
+      "33528710",
+      "28893533",
+      "33191916",
+      "31053165",
+      "29605855",
+      "40344741",
+      "31331374",
+      "21948798",
+      "12971721",
+      "17996059",
+      "32375040",
+      "20161746",
+      "41316707",
+      "24141950",
+      "15381691",
+      "9297506",
+      "34382193",
+      "16647254",
+      "8274422",
+      "31501517",
+      "36991220",
+      "8632475",
+      "26328275",
+      "30883217",
+      "9971771",
+      "21705643",
+      "28024297",
+      "33667509",
+      "39843737",
+      "23511541",
+      "40450687",
+      "19846608",
+      "36325618",
+      "23325854",
+      "8327891",
+      "10848593",
+      "33309853",
+      "23468649",
+      "25695508",
+      "19535505",
+      "23860914",
+      "24727477",
+      "33460684",
+      "40776446",
+      "40335694",
+      "37922325",
+      "7862134",
+      "8974015",
+      "26872330",
+      "22026390",
+      "24256300",
+      "18418379",
+      "28973435",
+      "30605682",
+      "17002502",
+      "33221335",
+      "24501021",
+      "32998049",
+      "29506273"
+    ],
+    "review": [
+      "41197626",
+      "21326360",
+      "36693380",
+      "15642189",
+      "26590168",
+      "26769147",
+      "39757199",
+      "17466507",
+      "33528710",
+      "40344741",
+      "12971721",
+      "16647254",
+      "36991220",
+      "26328275",
+      "30883217",
+      "33309853",
+      "19535505",
+      "33460684",
+      "8974015",
+      "26872330"
+    ],
+    "pmc": [
+      "7618578"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(25)01178-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41197626/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41197626",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

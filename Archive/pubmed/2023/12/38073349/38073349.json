@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "38073349",
+    "doi": "10.3233/THC-230796",
+    "title": "Identification of potential hub genes and regulatory networks of smoking-related endothelial dysfunction in atherosclerosis using bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Endothelial dysfunction, the earliest stage of atherosclerosis, can be caused by smoking, but its molecular mechanism requires further investigation. OBJECTIVE: This study aimed to use bioinformatics analysis to identify potential mechanisms involved in smoking-related atherosclerotic endothelial dysfunction. METHODS: The transcriptome data used for this bioinformatics analysis were obtained from the Gene Expression Omnibus (GEO) database. The GSE137578 and GSE141136 datasets were used to identify common differentially expressed genes (co-DEGs) in endothelial cells treated with oxidized low-density lipoprotein (ox-LDL) and tobacco. The co-DEGs were annotated using Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomics (KEGG) databases. Additionally, a protein-protein interaction (PPI) network was constructed to visualize their interactions and screen for hub genes. GSE120521 dataset was used to verify the expression of hub genes in unstable plaques. The miRNA expression profile GSE137580 and online databases (starBase 2.0, TargetScan 8.0 and DGIdb v4.2.0) were used to predict the related non-coding RNAs and drugs. RESULTS: A total of 232 co-DEGs were identified, including 113 up-regulated genes and 119 down-regulated genes. These DEGs were primarily enriched in detrimental autophagy, cell death, transcription factors, and cytokines, and were implicated in ferroptosis, abnormal lipid metabolism, inflammation, and oxidative stress pathways. Ten hub genes were screened from the constructed PPI network, including up-regulated genes such as FOS, HMOX1, SQSTM1, PTGS2, ATF3, DDIT3, and down-regulated genes MCM4, KIF15, UHRF1, and CCL2. Importantly, HMOX1 was further up-regulated in unstable plaques (p= 0.034). Finally, a regulatory network involving lncRNA/circRNA-miRNA-hub genes and drug-hub genes was established. CONCLUSION: Atherosclerotic endothelial dysfunction is associated with smoking-induced injury. Through bioinformatics analysis, we identified potential mechanisms and provided potential therapeutic targets.",
+    "keywords": [
+      "Atherosclerosis",
+      "endothelial cells",
+      "genes",
+      "smoke",
+      "tobacco"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Atherosclerosis/genetics",
+      "*Computational Biology",
+      "*Gene Regulatory Networks",
+      "Protein Interaction Maps/genetics",
+      "Smoking/adverse effects",
+      "Lipoproteins, LDL",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Julong",
+        "Ning, Yachan",
+        "Pan, Dikang",
+        "Wu, Sensen",
+        "Gao, Xixiang",
+        "Wang, Cong",
+        "Guo, Lianrui",
+        "Gu, Yongquan"
+      ],
+      "short_names": [
+        "Guo J",
+        "Ning Y",
+        "Pan D",
+        "Wu S",
+        "Gao X",
+        "Wang C",
+        "Guo L",
+        "Gu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China.",
+        "Department of Intensive Care Medicine, Xuanwu Hospital, Capital Medical University, Beijing, China.",
+        "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China.",
+        "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China.",
+        "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China.",
+        "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China.",
+        "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China.",
+        "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Julong",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Yachan",
+        "short_name": "Ning Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Dikang",
+        "short_name": "Pan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Sensen",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xixiang",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Cong",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Lianrui",
+        "short_name": "Guo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Yongquan",
+        "short_name": "Gu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Technology and health care : official journal of the European Society for Engineering and Medicine"
+    ],
+    "journal_abbrev": [
+      "Technol Health Care"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/11 06:45",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "42730279",
+      "42157912",
+      "42107035",
+      "39361997"
+    ],
+    "refs": [],
+    "similar": [
+      "38073349",
+      "35773742",
+      "31987036",
+      "35762549",
+      "33011223",
+      "32756534",
+      "36303246",
+      "34553293",
+      "38062833",
+      "32938406",
+      "38549107",
+      "28952134",
+      "31875420",
+      "38902567",
+      "35016690",
+      "39111872",
+      "32853947",
+      "33640831",
+      "35132271",
+      "38701300",
+      "32008037",
+      "37063926",
+      "31339875",
+      "30542696",
+      "31731384",
+      "39342024",
+      "32908877",
+      "33501609",
+      "34160465",
+      "34257537",
+      "31772617",
+      "35313524",
+      "30643084",
+      "31233342",
+      "30107230",
+      "36291136",
+      "38965970",
+      "39172048",
+      "34218797",
+      "38858671",
+      "31875973",
+      "38764052",
+      "34722763",
+      "28302149",
+      "33407587",
+      "32147961",
+      "38691241",
+      "33792237",
+      "31794546",
+      "32213192",
+      "38527674",
+      "30825595",
+      "32435051",
+      "34369277",
+      "35545337",
+      "35281953",
+      "32669126",
+      "39284931",
+      "31703725",
+      "35658960",
+      "35379124",
+      "29760609",
+      "37740761",
+      "33892654",
+      "30186872",
+      "30916045",
+      "33083497",
+      "31321566",
+      "32626989",
+      "35990248",
+      "31699960",
+      "36499614",
+      "36166989",
+      "38650009",
+      "33104965",
+      "31277155",
+      "38899746",
+      "34964740",
+      "38885209",
+      "35620387",
+      "33582701",
+      "29226137",
+      "32481304",
+      "39095691",
+      "35003319",
+      "32922167",
+      "39125762",
+      "31137244",
+      "34248836",
+      "34358255",
+      "34390411",
+      "30138363",
+      "33299863",
+      "32616722",
+      "38736878",
+      "30132538",
+      "34271942",
+      "34190177",
+      "38749785",
+      "36798084",
+      "35818227",
+      "32811479",
+      "38993198",
+      "31043156",
+      "31989994",
+      "31424263",
+      "31311829",
+      "33941565",
+      "38509535",
+      "38961143",
+      "31719822",
+      "31621692",
+      "37810795",
+      "31277149",
+      "38259479",
+      "29063236",
+      "35054979",
+      "36238478",
+      "38919616",
+      "39422340",
+      "36246123",
+      "38758521",
+      "38347799",
+      "39346078",
+      "35835980",
+      "38978245",
+      "38781871",
+      "35856366",
+      "32487076",
+      "37721628",
+      "34082770",
+      "39093763",
+      "39153206",
+      "38830963",
+      "39197622",
+      "38847168",
+      "38984304",
+      "39218162",
+      "38831425",
+      "39266981",
+      "35937806",
+      "39003404",
+      "39013959",
+      "38815767",
+      "38521147",
+      "38517701",
+      "38909539",
+      "39107295",
+      "33941187",
+      "37881076",
+      "38402873",
+      "39252231",
+      "39213070",
+      "34975833",
+      "38587531",
+      "38427757",
+      "38777778",
+      "36845391",
+      "38802191",
+      "38695984",
+      "38639275",
+      "37189834",
+      "39133390",
+      "34652258",
+      "36844983",
+      "39145311",
+      "38758892",
+      "36103997",
+      "39025980",
+      "38509743",
+      "39202387",
+      "38402404",
+      "38858305",
+      "37171773",
+      "37605414",
+      "37576152",
+      "38394540",
+      "39334338",
+      "38832038",
+      "39427050",
+      "39387547",
+      "38382092",
+      "38738215",
+      "35630098",
+      "38308666",
+      "39420432",
+      "39049641",
+      "38812739",
+      "37389128",
+      "38637126",
+      "39093733",
+      "38739634",
+      "36538194",
+      "39125922",
+      "39125691",
+      "38254192",
+      "38863372",
+      "38650143",
+      "38957825",
+      "39026189",
+      "38841253",
+      "39413445",
+      "39027131",
+      "39309859",
+      "39262253",
+      "38736872",
+      "39051000",
+      "37642954",
+      "38512012",
+      "38932912",
+      "38803920",
+      "38886134",
+      "35955709",
+      "38737277",
+      "35844380",
+      "38765020"
+    ],
+    "review": [
+      "38073349",
+      "32481304",
+      "38802191"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.3233/THC-230796?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1755",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

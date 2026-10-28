@@ -1,0 +1,542 @@
+{
+  "identity": {
+    "pmid": "42050196",
+    "doi": "10.1038/s41477-026-02289-6",
+    "title": "Single-cell chromatin accessibility and cis-regulatory element analyses in plants using the scPlantReg platform."
+  },
+  "content": {
+    "abstract": "Understanding gene regulation is fundamental to plant improvement. However, the lack of plant-specific single-cell assay for transposase-accessible chromatin using sequencing (scATAC-seq) frameworks and cross-species databases has limited insights into cell-type-specific cellular regulation. Here we present 'scPlantReg', an integrated framework and database for plant scATAC-seq data. scPlantReg supports end-to-end analyses from raw data processing to biological interpretation and features 'scATACtor', a supervised machine-learning approach that outperforms existing tools for cell-type annotation. We applied scPlantReg to pearl millet to characterize cell-type-specific chromatin accessibility and identify validated activating and repressing accessible chromatin regions (ACRs), revealing WRKY transcription factors as potential regulators of xylem development. Furthermore, we reanalysed scATAC-seq datasets from 8 plant species, spanning 11 tissues and multiple developmental stages, enabling cross-species comparisons. These analyses uncovered conserved regulatory programmes, including AP2/EREBP-associated ACRs linked to cell wall development and cell-type-conserved TFs across grasses. Collectively, scPlantReg provides a general framework and resource for comparative regulatory analysis in plants.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/metabolism/genetics",
+      "*Gene Expression Regulation, Plant",
+      "*Single-Cell Analysis/methods",
+      "*Regulatory Sequences, Nucleic Acid",
+      "Transcription Factors/genetics",
+      "*Plants/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Haidong",
+        "Jin, Yarong",
+        "Wang, Chengran",
+        "Zhang, Xinxin",
+        "Jia, Jiyuan",
+        "Cao, Xiaofang",
+        "Marand, Alexandre P",
+        "Xia, Mao",
+        "Zhang, Xuan",
+        "Zhong, Yun",
+        "Tang, Xin",
+        "Zhai, Qiang",
+        "Liu, Tao",
+        "Tian, Shilin",
+        "Li, Xiaoqin",
+        "Li, Xiang",
+        "Yao, Jie",
+        "Schmitz, Robert J",
+        "Wang, Zhaoming",
+        "Huang, Linkai"
+      ],
+      "short_names": [
+        "Yan H",
+        "Jin Y",
+        "Wang C",
+        "Zhang X",
+        "Jia J",
+        "Cao X",
+        "Marand AP",
+        "Xia M",
+        "Zhang X",
+        "Zhong Y",
+        "Tang X",
+        "Zhai Q",
+        "Liu T",
+        "Tian S",
+        "Li X",
+        "Li X",
+        "Yao J",
+        "Schmitz RJ",
+        "Wang Z",
+        "Huang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9903-2672",
+        "ORCID: 0009-0002-3515-9049",
+        "ORCID: 0009-0007-3853-711X",
+        "ORCID: 0000-0001-9100-8320",
+        "ORCID: 0009-0002-1610-435X",
+        "ORCID: 0000-0002-6635-371X",
+        "ORCID: 0009-0007-9306-4589",
+        "ORCID: 0009-0005-3444-8553",
+        "ORCID: 0000-0001-5328-675X",
+        "ORCID: 0000-0002-9500-1465",
+        "ORCID: 0000-0001-8958-1806",
+        "ORCID: 0009-0008-8820-3019",
+        "ORCID: 0000-0003-0257-6110",
+        "ORCID: 0000-0001-7538-6663",
+        "ORCID: 0009-0001-2012-4639",
+        "ORCID: 0000-0001-7810-4852"
+      ],
+      "affiliations": [
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China. yanhaidong1991@163.com.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China.",
+        "Novogene Bioinformatics Institute, Beijing, China.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China.",
+        "Department of Genetics, University of Georgia, Athens, GA, USA.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China.",
+        "College of Information Engineering, Sichuan Agricultural University, Chengdu, China.",
+        "College of Information Engineering, Sichuan Agricultural University, Chengdu, China.",
+        "Novogene Bioinformatics Institute, Beijing, China.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China.",
+        "Department of Genetics, University of Georgia, Athens, GA, USA.",
+        "Department of Genetics, University of Georgia, Athens, GA, USA.",
+        "Department of Genetics, University of Georgia, Athens, GA, USA. schmitz@uga.edu.",
+        "National Technology Innovation Center for Prataculture, Inner Mongolia Pratacultural Technology Innovation Center Co. Ltd, Hohhot, China. wzm_mcst2025@163.com.",
+        "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China. huanglinkai@sicau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Haidong",
+        "short_name": "Yan H",
+        "identifiers": [
+          "0000-0002-9903-2672"
+        ],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China. yanhaidong1991@163.com."
+        ]
+      },
+      {
+        "full_name": "Jin, Yarong",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chengran",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0009-0002-3515-9049"
+        ],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinxin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Jiyuan",
+        "short_name": "Jia J",
+        "identifiers": [
+          "0009-0007-3853-711X"
+        ],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Xiaofang",
+        "short_name": "Cao X",
+        "identifiers": [],
+        "affiliations": [
+          "Novogene Bioinformatics Institute, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Marand, Alexandre P",
+        "short_name": "Marand AP",
+        "identifiers": [
+          "0000-0001-9100-8320"
+        ],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Xia, Mao",
+        "short_name": "Xia M",
+        "identifiers": [
+          "0009-0002-1610-435X"
+        ],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuan",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0002-6635-371X"
+        ],
+        "affiliations": [
+          "Department of Genetics, University of Georgia, Athens, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhong, Yun",
+        "short_name": "Zhong Y",
+        "identifiers": [
+          "0009-0007-9306-4589"
+        ],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Xin",
+        "short_name": "Tang X",
+        "identifiers": [
+          "0009-0005-3444-8553"
+        ],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Qiang",
+        "short_name": "Zhai Q",
+        "identifiers": [
+          "0000-0001-5328-675X"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tao",
+        "short_name": "Liu T",
+        "identifiers": [
+          "0000-0002-9500-1465"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Shilin",
+        "short_name": "Tian S",
+        "identifiers": [
+          "0000-0001-8958-1806"
+        ],
+        "affiliations": [
+          "Novogene Bioinformatics Institute, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoqin",
+        "short_name": "Li X",
+        "identifiers": [
+          "0009-0008-8820-3019"
+        ],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0003-0257-6110"
+        ],
+        "affiliations": [
+          "Department of Genetics, University of Georgia, Athens, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Yao, Jie",
+        "short_name": "Yao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, University of Georgia, Athens, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Schmitz, Robert J",
+        "short_name": "Schmitz RJ",
+        "identifiers": [
+          "0000-0001-7538-6663"
+        ],
+        "affiliations": [
+          "Department of Genetics, University of Georgia, Athens, GA, USA. schmitz@uga.edu."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhaoming",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0009-0001-2012-4639"
+        ],
+        "affiliations": [
+          "National Technology Innovation Center for Prataculture, Inner Mongolia Pratacultural Technology Innovation Center Co. Ltd, Hohhot, China. wzm_mcst2025@163.com."
+        ]
+      },
+      {
+        "full_name": "Huang, Linkai",
+        "short_name": "Huang L",
+        "identifiers": [
+          "0000-0001-7810-4852"
+        ],
+        "affiliations": [
+          "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China. huanglinkai@sicau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature plants"
+    ],
+    "journal_abbrev": [
+      "Nat Plants"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/29 00:34",
+    "fetched_at": "2026-10-01 19:27:23"
+  },
+  "links": {
+    "cites": [
+      "42531161",
+      "42333573",
+      "42103908"
+    ],
+    "refs": [
+      "40920823",
+      "40415399",
+      "40245149",
+      "39779856",
+      "39742806",
+      "39670271",
+      "39567684",
+      "39312655",
+      "38298899",
+      "38191932",
+      "37740491",
+      "37530223",
+      "37309871",
+      "37188960",
+      "37152161",
+      "37084381",
+      "37016448",
+      "36864101",
+      "36608347",
+      "36536447",
+      "36482454",
+      "36238687",
+      "36083267",
+      "35840754",
+      "35281805",
+      "35054806",
+      "34918159",
+      "34850907",
+      "34725479",
+      "34687294",
+      "34548483",
+      "34348216",
+      "34099698",
+      "33964211",
+      "33824350",
+      "33667348",
+      "33637727",
+      "33633365",
+      "33422696",
+      "33152518",
+      "32767996",
+      "32634860",
+      "32567229",
+      "32312293",
+      "31829268",
+      "31817659",
+      "31781142",
+      "31780334",
+      "31740773",
+      "31605096",
+      "31377170",
+      "31375813",
+      "31154975",
+      "30954476",
+      "30478480",
+      "29961576",
+      "29158331",
+      "28922347",
+      "28919077",
+      "28825706",
+      "28091601",
+      "27903897",
+      "26876195",
+      "26083756",
+      "25867923",
+      "25053837",
+      "23616605",
+      "23590515",
+      "23102583",
+      "22307611",
+      "21954461",
+      "21330290",
+      "21135241",
+      "19505943",
+      "18798982",
+      "18088336",
+      "18039739",
+      "17687051",
+      "12231741",
+      "10954592"
+    ],
+    "similar": [
+      "42050196",
+      "39326643",
+      "38338756",
+      "36902216",
+      "40723810",
+      "29229750",
+      "41296545",
+      "36549922",
+      "41545440",
+      "38330939",
+      "41285681",
+      "38664790",
+      "26083756",
+      "39766899",
+      "40127931",
+      "39312655",
+      "39881144",
+      "36482454",
+      "40591481",
+      "30598689",
+      "41066618",
+      "38600256",
+      "41299571",
+      "37244909",
+      "37788349",
+      "41609358",
+      "42118842",
+      "41735542",
+      "39747019",
+      "41731605",
+      "41800139",
+      "41455555",
+      "40049167",
+      "35195064",
+      "39050785",
+      "39914387",
+      "40690927",
+      "29558892",
+      "40133827",
+      "42167226",
+      "39049508",
+      "35475224",
+      "40154828",
+      "40962852",
+      "31375813",
+      "38977847",
+      "40782710",
+      "42074532",
+      "35883430",
+      "34488759",
+      "41951735",
+      "41721429",
+      "41906094",
+      "38884167",
+      "41831316",
+      "40581357",
+      "41663439",
+      "36881507",
+      "39742806",
+      "37096870",
+      "36131234",
+      "39905485",
+      "42430021",
+      "40826469",
+      "41197291",
+      "31053165",
+      "32578841",
+      "40471991",
+      "42060707",
+      "34783109",
+      "33191916",
+      "39121855",
+      "33633365",
+      "33717140",
+      "32392348",
+      "37897340",
+      "39814021",
+      "39757254",
+      "40781032",
+      "40663269",
+      "41171141",
+      "35293310",
+      "39122670",
+      "29513366",
+      "41039501",
+      "39700048",
+      "39127768",
+      "38653489",
+      "40029523",
+      "40432571",
+      "38514783",
+      "36855961",
+      "36943152",
+      "36352404",
+      "32637041",
+      "39901471",
+      "37914932",
+      "33926839",
+      "34774128",
+      "39041910"
+    ],
+    "review": [
+      "42050196",
+      "38338756",
+      "36549922",
+      "41609358",
+      "41455555",
+      "42074532",
+      "42430021",
+      "41197291",
+      "32637041"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41477-026-02289-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

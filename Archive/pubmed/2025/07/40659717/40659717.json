@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "40659717",
+    "doi": "10.1038/s41598-025-10200-0",
+    "title": "Identification of potential shared core biomarkers in type 2 diabetes and sarcopenia."
+  },
+  "content": {
+    "abstract": "Type 2 diabetes (T2D) and sarcopenia (SA) commonly co-occur in clinical settings. This study aims to identify overlapping biomarkers for T2D and SA, thereby advancing the understanding of shared pathophysiological mechanisms. Gene expression data from the NCBI GEO database were analyzed to detect differentially expressed genes (DEGs) in T2D and SA using the limma package. Weighted Gene Co-expression Network Analysis (WGCNA) was applied to identify significant gene modules in each condition, followed by functional enrichment analysis. A risk assessment model was established and evaluated through Support Vector Machine (SVM) analysis. Additionally, regulatory networks, including miRNAs and transcription factors, were constructed to investigate gene regulation. qRT‒PCR and western blotting were employed to validate the expression of these biomarkers in the muscle tissues of db/db mice. A total of 330 DEGs were identified in the T2D dataset, while 1054 were found in the SA dataset, with 50 overlapping genes. Key modules in each condition highlighted 30 shared genes, which were enriched in biological processes and pathways related to metabolic and immune functions. Fourteen intersecting hub genes exhibited significant differential expression across the disease datasets, supporting the development of a robust risk classification model. This model demonstrated strong predictive performance, with AUC values of 0.944 for T2D and 0.940 for SA. BDH1, FGF9, and LDHA were identified as key biomarkers through bioinformatics analysis and experimental validation. The identification of BDH1, FGF9, and LDHA offers both diagnostic value and potential therapeutic targets for T2D and SA, thus clarifying the shared pathogenesis of these diseases.",
+    "keywords": [
+      "Co-expression networks",
+      "Immune microenvironment",
+      "Sarcopenia",
+      "Shared pathogenesis",
+      "Type 2 diabetes"
+    ],
+    "mesh_terms": [
+      "*Diabetes Mellitus, Type 2/genetics/metabolism",
+      "*Sarcopenia/genetics/metabolism",
+      "Animals",
+      "*Biomarkers/metabolism",
+      "Mice",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Gene Expression Profiling",
+      "Support Vector Machine",
+      "Gene Expression Regulation",
+      "MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ping",
+        "Du, Yijun",
+        "Zhong, Xing",
+        "Wang, Yue",
+        "Pan, Tianrong"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Du Y",
+        "Zhong X",
+        "Wang Y",
+        "Pan T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+        "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+        "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+        "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+        "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+        "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+        "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China. wangyue201300176@163.com.",
+        "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China. wangyue201300176@163.com.",
+        "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China. PanTR1968@163.com.",
+        "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China. PanTR1968@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ping",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+          "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yijun",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+          "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Xing",
+        "short_name": "Zhong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China.",
+          "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China. wangyue201300176@163.com.",
+          "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China. wangyue201300176@163.com."
+        ]
+      },
+      {
+        "full_name": "Pan, Tianrong",
+        "short_name": "Pan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China. PanTR1968@163.com.",
+          "Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, No. 678 Furong Road, Jingkai District, Hefei, 230601, Anhui Province, China. PanTR1968@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 00:30",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [
+      "42555741",
+      "42262870",
+      "42236676",
+      "42130732",
+      "41163687"
+    ],
+    "refs": [
+      "38229237",
+      "38160540",
+      "38151020",
+      "38042218",
+      "38040172",
+      "38015723",
+      "37734370",
+      "37093208",
+      "36944396",
+      "36776867",
+      "36300620",
+      "36169237",
+      "36111162",
+      "36070371",
+      "35722872",
+      "35517790",
+      "35504482",
+      "35060352",
+      "34904651",
+      "34440644",
+      "34217973",
+      "34157845",
+      "34149999",
+      "33347826",
+      "32927252",
+      "32772138",
+      "32705210",
+      "32198215",
+      "32103619",
+      "31735119",
+      "31441146",
+      "31372016",
+      "31171417",
+      "31074209",
+      "30845785",
+      "30603361",
+      "30364956",
+      "29163194",
+      "29087512",
+      "28559245",
+      "27924014",
+      "27773696",
+      "27626197",
+      "27569712",
+      "27483311",
+      "27087655",
+      "26938239",
+      "26347014",
+      "25768089",
+      "25605792",
+      "25521941",
+      "24939556",
+      "23434589",
+      "23349483",
+      "22517647",
+      "22424236",
+      "21911743",
+      "21414208",
+      "21251114",
+      "20353613",
+      "20088761",
+      "19937997",
+      "19633656",
+      "19131956",
+      "19114008",
+      "19033363",
+      "17065332",
+      "16848698",
+      "15687482",
+      "14597658",
+      "11782487",
+      "10592173",
+      "10528236",
+      "9688541"
+    ],
+    "similar": [
+      "40659717",
+      "41120603",
+      "39375405",
+      "39433858",
+      "40628511",
+      "39176085",
+      "40901831",
+      "39142001",
+      "40374840",
+      "41125916",
+      "41081092",
+      "38899746",
+      "41305746",
+      "41052072",
+      "41082466",
+      "40834023",
+      "40785039",
+      "41300841",
+      "38608447",
+      "38229237",
+      "29620215",
+      "41320776",
+      "38831425",
+      "35271662",
+      "38259479",
+      "32041280",
+      "41424060",
+      "38742851",
+      "40532306",
+      "35242109",
+      "40406126",
+      "41053312",
+      "40895573",
+      "40869253",
+      "40045538",
+      "39107295",
+      "41162503",
+      "40374866",
+      "40574839",
+      "39749331",
+      "38863714",
+      "39697326",
+      "38527674",
+      "41079183",
+      "41316541",
+      "38528189",
+      "41132669",
+      "29705125",
+      "37740761",
+      "40964162",
+      "41463417",
+      "41196851",
+      "40787468",
+      "40603423",
+      "41291841",
+      "41432483",
+      "37111057",
+      "40997906",
+      "37153000",
+      "40328901",
+      "40742465",
+      "41479901",
+      "39341952",
+      "39915429",
+      "40806550",
+      "35281591",
+      "39556279",
+      "41044520",
+      "38912048",
+      "39845878",
+      "36276976",
+      "34215202",
+      "34688145",
+      "36195955",
+      "35764238",
+      "39936105",
+      "41291978",
+      "34856750",
+      "41204493",
+      "40421012",
+      "40263690",
+      "38951833",
+      "41029776",
+      "39213112",
+      "39838688",
+      "39926598",
+      "36147639",
+      "41102315",
+      "40630623",
+      "41145553",
+      "39351239",
+      "39923303",
+      "41405958",
+      "40245021",
+      "36316672",
+      "35378210",
+      "39069636",
+      "40539266",
+      "40025145",
+      "40918148"
+    ],
+    "review": [
+      "40659717"
+    ],
+    "pmc": [
+      "12259881"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-10200-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40659717/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-91",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and figure legends. Supplementary tables referenced but not provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to evidence presented, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors claim to identify 73 common differentially expressed genes (CDEGs) across seven respiratory disease datasets, ten hub genes, six transcription factors, five microRNAs, and 63 drug agents. They further claim that five protein-drug complexes (PDE4D-benzo[a]pyrene, SMARCA2-benzo[a]pyrene, HINFP-benzo[a]pyrene, CD44-ketotifen, ATAD2B-ponatinib) represent the most probable repurposable candidates for treating respiratory diseases, based on molecular docking and molecular dynamics simulations.
+- **Visible evidence base** Main text, Figures 1–7, Tables S1–S7 referenced but not provided. No supplementary material was available for review.
+- **Missing materials affecting confidence** Supplementary Tables S1–S7 (drug lists, docking scores, enrichment details, network data) were not provided. Raw data, GEO accession processing details, and MD simulation trajectory data were not available. This limits verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational bioinformatics pipeline applied to seven publicly available gene expression datasets, aiming to identify shared biomarkers and repurposable drug candidates across multiple respiratory diseases. The workflow is standard and largely follows established protocols in the field. However, the study has several substantive weaknesses. The differential expression analysis uses an unusually permissive threshold (P-value < 0.05, |log2FC| > 0), which is not a meaningful effect size cutoff and will generate large numbers of false positives. The identification of hub genes relies on a single topological measure without statistical validation. The molecular docking methodology contains an apparent error in the exhaustiveness parameter description. The MD simulation results are reported selectively, with some complexes excluded without clear criteria. Most critically, the study lacks any experimental validation, and the leap from computational predictions to claims of "potential" therapeutic agents is not adequately qualified. The manuscript would benefit from substantial revision to address these issues.
+- **Who would be interested in the results, and why** Researchers working on computational drug repurposing, respiratory disease biomarker discovery, and integrative bioinformatics may find the methodological pipeline of interest. The identified hub genes and regulatory networks could serve as hypotheses for further wet-lab investigation. However, the lack of experimental validation limits the immediate utility for clinicians or pharmaceutical researchers.
+- **Major strengths** The study addresses a clinically relevant problem (shared molecular mechanisms across respiratory diseases) and uses a multi-layered bioinformatics approach that integrates transcriptomics, network analysis, regulatory factor prediction, and structure-based drug screening. The use of multiple public datasets is a strength, as is the combination of docking and MD simulation to assess protein-ligand stability. The manuscript is generally clearly written and the workflow is logically structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of differential expression analysis
+  - **Claim pointer** The authors claim to have identified 73 CDEGs across seven datasets using a threshold of P-value < 0.05 and |log2FC| > 0.
+  - **Evidence pointer** Materials and methods, "Data sources and identification of DEGs"; Results, "Identifications of DEGs in RD"
+  - **Concern** The threshold |log2FC| > 0 is mathematically equivalent to any non-zero fold change, meaning genes with a fold change of 1.01 (i.e., essentially no biological change) would be included. This is not a meaningful effect size filter and will produce a large number of statistically significant but biologically irrelevant genes. The P-value threshold of 0.05 without multiple testing correction (e.g., Benjamini-Hochberg FDR) further inflates false positives. The authors do not report adjusted P-values or effect size distributions.
+  - **Why it matters** The entire downstream analysis (hub gene identification, network construction, drug targeting) depends on the quality of the CDEG list. If the input gene list is contaminated with false positives, all subsequent claims about biomarkers and drug targets are built on an unreliable foundation. This is a fundamental methodological flaw that undermines the validity of the study's core findings.
+  - **Resolution test** The authors should re-run the differential expression analysis with a meaningful effect size threshold (e.g., |log2FC| ≥ 1) and apply multiple testing correction (e.g., FDR < 0.05). They should report the number of DEGs per dataset under these criteria and demonstrate that the 73 CDEGs remain robust. Alternatively, they should justify why a minimal fold change threshold is appropriate for their research question.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of hub gene identification
+  - **Claim pointer** The authors claim to have identified ten hub genes (ATAD2B, PPP1CB, FOXO1, AKT3, BCR, PDE4D, ITGB1, PCBP2, CD44, SMARCA2) based on a topological degree measure > 11 in the PPI network.
+  - **Evidence pointer** Materials and methods, "Protein–protein interactions (PPI) analysis of CDEGs"; Results, "Protein–protein interactions (PPI) analysis of CDEGs"
+  - **Concern** The selection of hub genes based solely on a degree cutoff of > 11 is arbitrary and not statistically justified. No information is provided on the distribution of degree values, the number of nodes in the network, or whether this cutoff was chosen a priori or post hoc. Alternative hub gene identification methods (e.g., betweenness centrality, closeness centrality, Maximal Clique Centrality) are not considered. The PPI network was constructed with a confidence score of 0.9, which is very stringent and may exclude biologically relevant interactions, potentially biasing the network topology.
+  - **Why it matters** Hub genes are central to the study's claims about biomarkers and drug targets. If the hub gene selection is not robust or statistically grounded, the subsequent drug docking and MD simulation analyses may be targeting genes that are not genuinely central to respiratory disease biology. The arbitrary cutoff undermines the reproducibility and generalizability of the findings.
+  - **Resolution test** The authors should provide a degree distribution plot for the PPI network, justify the degree cutoff with a statistical rationale (e.g., permutation testing or comparison to random networks), and consider using multiple centrality measures to confirm hub gene status. They should also report the network properties (number of nodes, edges, clustering coefficient) to allow readers to assess network quality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of molecular docking methodology
+  - **Claim pointer** The authors state that "The exhaustiveness value was set to −8.0 (kcal/mol)" in the molecular docking section.
+  - **Evidence pointer** Materials and methods, "Molecular docking simulation of proteins with aspirant drugs"
+  - **Concern** The exhaustiveness parameter in AutoDock Vina is a positive integer that controls the thoroughness of the global search; it is not an energy value and cannot be negative or expressed in kcal/mol. This appears to be a confusion between the exhaustiveness parameter and the binding affinity threshold (the authors later mention selecting complexes with binding energies "negatively larger than -8.0 kcal/mol"). This error suggests a misunderstanding of the docking software parameters, which raises questions about the reliability of the docking protocol.
+  - **Why it matters** Molecular docking is a central component of the drug repurposing claims. If the methodology is incorrectly described, the results cannot be reproduced by other researchers. The confusion between exhaustiveness and energy threshold may also indicate that the docking was not performed with appropriate search parameters, potentially affecting the accuracy of the binding affinity predictions.
+  - **Resolution test** The authors should correct the description of the exhaustiveness parameter (e.g., "exhaustiveness was set to 8" or a similar appropriate value) and clearly distinguish it from the binding affinity cutoff. They should also provide the full docking protocol, including grid box dimensions, receptor preparation steps, and ligand preparation details, to enable reproducibility.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of drug repurposing claims
+  - **Claim pointer** The authors claim that five protein-drug complexes (PDE4D-benzo[a]pyrene, SMARCA2-benzo[a]pyrene, HINFP-benzo[a]pyrene, CD44-ketotifen, ATAD2B-ponatinib) are "the most probable repurposable protein-drug complexes" for treating respiratory diseases.
+  - **Evidence pointer** Results, "Drug repurposing by molecular docking" and "Protein–ligand complex stability and conformational flexibility by MD simulation"; Discussion
+  - **Concern** The selection of the five "best" complexes is not clearly justified. The authors initially report 11 top-ranked docked complexes (Table S7) but then focus on only five in the MD simulation. The criteria for selecting these five over the other six are not stated. Furthermore, benzo[a]pyrene is a known carcinogen and environmental pollutant; proposing it as a therapeutic agent is highly problematic and requires extensive justification. The authors acknowledge this in the discussion ("Benzo[a]pyrene might be encouraged RD") but do not adequately address the safety concerns. The leap from computational binding affinity to therapeutic potential is not supported without experimental evidence of efficacy and safety.
+  - **Why it matters** The central claim of the paper is the identification of repurposable drug candidates. If the selection criteria are opaque and one of the proposed agents is a known carcinogen, the practical value of the findings is severely diminished. The authors need to provide a transparent, pre-defined selection protocol and address the toxicological profile of benzo[a]pyrene.
+  - **Resolution test** The authors should clearly state the criteria used to select the five complexes for MD simulation and the final five candidates. They should discuss the toxicological implications of benzo[a]pyrene and either justify its inclusion with strong evidence or remove it from the list of proposed therapeutic agents. They should also temper their claims to reflect that these are computational predictions requiring extensive experimental validation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Lack of experimental validation
+  - **Claim pointer** The authors claim their findings "will give readers, wet-lab scientists, and pharmaceuticals a thorough grasp of the biology behind RD" and that the identified complexes are "potential" therapeutic agents.
+  - **Evidence pointer** Abstract; Discussion; Conclusion
+  - **Concern** The study is entirely computational. There is no experimental validation of the identified biomarkers (e.g., qPCR, Western blot, immunohistochemistry) or drug candidates (e.g., in vitro cytotoxicity assays, in vivo efficacy studies). While computational studies can generate hypotheses, the claims made in the abstract and conclusion overstate the significance of the findings without any wet-lab confirmation.
+  - **Why it matters** Computational predictions, especially in drug repurposing, have a high false positive rate. Without experimental validation, the clinical relevance of the identified biomarkers and drug candidates remains speculative. The authors' claims of providing a "thorough grasp" of disease biology are not supported by the evidence presented.
+  - **Resolution test** The authors should either add experimental validation (even minimal, such as expression analysis of hub genes in a small patient cohort) or substantially temper their claims to clearly state that these are in silico predictions requiring experimental confirmation. The abstract and conclusion should be revised to reflect the hypothesis-generating nature of the study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Data preprocessing and normalization
+  - **Evidence pointer** Materials and methods, "Data sources and identification of DEGs"
+  - **Issue** The authors do not describe how the raw data from the GEO datasets were preprocessed, normalized, or how probes were mapped to genes. Different platforms may require different preprocessing steps, and this omission affects reproducibility.
+  - **Required correction** Provide details on the preprocessing pipeline, including normalization method (e.g., RMA, quantile), probe-to-gene mapping, and any batch effect correction applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Enrichment analysis results
+  - **Evidence pointer** Results, "Functions and pathway enrichment analysis of CDEGs"; Figure 4
+  - **Issue** The authors state that enrichment analysis was performed with a Fisher exact test and P-value < 0.05, but they do not report whether multiple testing correction was applied. The top 5 terms are shown, but the full list and effect sizes (e.g., gene counts, enrichment scores) are not provided in the main text.
+  - **Required correction** Report adjusted P-values (e.g., FDR) and provide the full enrichment results in a supplementary table with gene counts and enrichment scores.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and interpretability
+  - **Affected element** Figure 6
+  - **Evidence pointer** Results, "Drug repurposing by molecular docking"; Figure 6
+  - **Issue** Figure 6 is described as showing binding affinity scores, but the figure legend does not explain the color scale, the axes labels are incomplete, and it is unclear what the "12 target proteins" are (the text mentions 16 targets: 10 hub genes and 6 TFs).
+  - **Required correction** Clarify the figure legend, ensure all axes are labeled, and reconcile the number of target proteins shown in the figure with the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Inconsistent reporting of MD simulation results
+  - **Affected element** Results, "Protein–ligand complex stability and conformational flexibility by MD simulation"
+  - **Issue** The authors report Rg, RMSD, RMSF, and MM-PBSA values for the five selected complexes but do not provide a comparison with the other six complexes that were excluded. The criteria for exclusion are not stated.
+  - **Required correction** Provide a table comparing the MD simulation metrics for all 11 complexes and state the criteria for selecting the final five.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and terminology
+  - **Affected element** Throughout
+  - **Issue** Some sentences are awkwardly phrased or contain grammatical errors (e.g., "the author's shortlisted" in the discussion). The term "negatively larger than -8.0 kcal/mol" is confusing.
+  - **Required correction** The manuscript should be carefully proofread for language and terminology. Use standard phrasing such as "binding affinity better than -8.0 kcal/mol" or "more negative than -8.0 kcal/mol."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Missing supplementary data
+  - **Affected element** Supplementary Tables S1–S7
+  - **Evidence pointer** Referenced throughout the manuscript
+  - **Issue** The supplementary tables are referenced but were not provided for review. These tables contain critical data (drug lists, docking scores, enrichment details) that are essential for evaluating the claims.
+  - **Required correction** Ensure all supplementary tables are provided and that they contain complete, well-labeled data.
+
+## Risk / unsupported claims
+- The claim that 73 CDEGs are shared across seven respiratory diseases is not robustly supported due to the permissive differential expression thresholds (P < 0.05, |log2FC| > 0) and lack of multiple testing correction.
+- The claim that the five identified protein-drug complexes are "the most probable repurposable protein-drug complexes" is not supported by transparent selection criteria or experimental validation.
+- The proposal of benzo[a]pyrene as a therapeutic agent is not adequately justified given its known carcinogenic properties.
+- The claim that the identified microRNAs are significantly associated with respiratory diseases is based on an enrichment analysis whose full results are not provided.
+- The MD simulation results are reported selectively, and the stability claims for the five complexes cannot be fully evaluated without data for the excluded complexes.
+- The overall claim that the findings provide a "thorough grasp of the biology behind RD" is overstated given the purely computational nature of the study and the lack of experimental validation.

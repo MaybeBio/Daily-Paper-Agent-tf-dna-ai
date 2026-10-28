@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, materials and methods, results, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report that TFAM-DNA binding modulates the activities and products of mitochondrial base excision repair enzymes in a manner dependent on TFAM concentration, DNA sequence, and lesion type. They report stimulatory effects on UNG1 and APE1 at specific TFAM/DNA ratios, inhibitory effects on OGG1 and AAG, and provide molecular dynamics and bioinformatic evidence for sequence-dependent TFAM binding to 8-oxodG-containing DNA.
+- **Visible evidence base** In vitro biochemical assays (gel-based product analysis, EMSA, steady-state kinetics), molecular dynamics simulations (MM/PBSA binding energies, RMSF analysis), and reanalysis of published genomic datasets (8-oxodG maps, TFAM ChIP-seq)
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (Figs S1–S23, Tables S1–S4) were not provided; raw gel images, MD simulation parameters, and complete statistical analyses are not available for independent verification
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and understudied question: how TFAM packaging of mtDNA modulates base excision repair. The authors present a substantial body of work combining biochemistry, simulation, and bioinformatics. The finding that TFAM can stimulate certain repair enzymes at sub-saturating concentrations, rather than uniformly inhibiting them, is potentially novel and of interest to the mitochondrial DNA repair field. However, the manuscript has several significant weaknesses. The mechanistic basis for the reported stimulatory effects is not fully established, the connection between in vitro observations and in vivo relevance is speculative, and the bioinformatic analysis is limited by the use of published datasets from different experimental contexts. The manuscript would benefit from additional experiments to directly test the proposed model and from a more cautious interpretation of the correlative genomic data.
+- **Who would be interested in the results, and why** Researchers studying mitochondrial DNA maintenance and repair, particularly those interested in the role of TFAM in nucleoid organization and DNA damage processing. The findings may also be relevant to those studying mtDNA-mediated innate immune signaling, as the authors connect TFAM shielding of 8-oxodG lesions to potential modulation of inflammatory responses. The work could also interest investigators studying how DNA-binding proteins modulate enzyme access to damaged DNA in chromatin contexts.
+- **Major strengths** The study addresses a significant gap in understanding how TFAM packaging affects BER in mitochondria. The combination of biochemical assays with MD simulations and bioinformatic analysis provides a multi-pronged approach. The careful product analysis distinguishing different terminal chemistries is technically rigorous. The observation of hormetic (bell-shaped) responses to TFAM concentration for UNG1 and APE1 is interesting and suggests a more nuanced regulatory role for TFAM than previously appreciated. The use of multiple DNA sequences and lesion positions strengthens the conclusions about sequence dependence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim that the stimulatory effects of TFAM on UNG1 and APE1 activities are due to increased enzyme affinity for TFAM-DNA complexes, as supported by steady-state kinetic analysis showing reduced Km.
+  - **Evidence pointer** Table 1, Results section "TFAM stimulates UNG1 activities", location not provided
+  - **Concern** The kinetic analysis is performed with a single TFAM concentration (ratio 0.6) and a single DNA substrate (LSP22-4-dU). The claim that reduced Km explains the stimulatory effect is based on this limited dataset. It is unclear whether this effect is generalizable across the other DNA substrates that showed stimulation (e.g., LSP22-5-dU, LSP36 substrates). Furthermore, the kinetic analysis does not distinguish between increased binding affinity and increased processivity or altered product release. The authors also report unsuccessful pull-down experiments for TFAM-UNG1 interactions, which weakens the direct interaction model. The alternative explanation that TFAM alters DNA conformation to make the lesion more accessible is not directly tested.
+  - **Why it matters** The mechanistic basis for the central claim of stimulation is not firmly established. Without a clear mechanism, the physiological relevance of the observed hormetic effects remains speculative. The manuscript would be substantially strengthened by additional experiments such as binding affinity measurements (e.g., surface plasmon resonance or fluorescence anisotropy) with TFAM-DNA complexes, or by testing the effect of TFAM on UNG1 activity with DNA substrates that cannot form stable TFAM complexes.
+  - **Resolution test** Provide additional kinetic or binding data with multiple DNA substrates and TFAM concentrations. Alternatively, directly test whether TFAM alters the conformation of the lesion-containing DNA in a way that enhances UNG1 access, for example using FRET-based assays or by comparing stimulation with DNA substrates of varying flexibility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance
+  - **Claim pointer** The authors claim that the correlation between high-frequency 8-oxodG sites and high TFAM occupancy sites in HeLa cells supports a model where TFAM shields 8-oxodG lesions from repair in vivo.
+  - **Evidence pointer** Results section "Correlation of 8-oxodG and TFAM locations in mtDNA in cells", Table 2, Figure 6
+  - **Concern** The bioinformatic analysis relies on published datasets from different studies with potentially different experimental conditions. The 8-oxodG data (CLAPS-seq) was generated from nuclear DNA, and its application to mtDNA is not straightforwardly validated. The TFAM ChIP-seq data may not accurately reflect TFAM occupancy in the same cell population or under the same conditions as the 8-oxodG mapping. The analysis uses only the top 5% of sites, which is an arbitrary threshold. The statistical significance of the overlap is reported but the effect size is modest. Most importantly, correlation does not establish causation, and the authors do not provide direct evidence that TFAM binding actually protects 8-oxodG from repair in cells.
+  - **Why it matters** The in vivo relevance of the findings is a key part of the manuscript's significance. If the correlation analysis is not robust or is based on inappropriate comparisons, the claim that TFAM shields 8-oxodG lesions in cells is not supported. This weakens the broader implications for mtDNA mutagenesis and immune signaling.
+  - **Resolution test** Provide a more rigorous bioinformatic analysis with clear descriptions of data processing, appropriate statistical controls, and validation of the mtDNA-specific mapping. Ideally, include experimental validation such as TFAM knockdown or overexpression followed by measurement of 8-oxodG levels at specific mtDNA loci, or use of a system where TFAM occupancy can be manipulated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that "TFAM reduces the accumulation of certain repair intermediates" and that this is a general feature of TFAM's modulatory role.
+  - **Evidence pointer** Abstract, Results sections on UNG1 and APE1 assays, location not provided
+  - **Concern** The claim about reducing repair intermediates is based on the observation that TFAM's dRp-lyase activity can process 5'-dRp residues. However, the quantitative contribution of this activity relative to APE1's phosphodiesterase activity is not clearly established. The experiments use relatively high TFAM concentrations (up to 6.6 μM) that may not reflect physiological conditions. The physiological relevance of TFAM's dRp-lyase activity is unclear, as the rate of this reaction appears slow compared to dedicated repair enzymes. The manuscript does not address whether TFAM's dRp-lyase activity is significant in the context of competing repair pathways.
+  - **Why it matters** The claim that TFAM can process repair intermediates is presented as a novel function with potential implications for repair efficiency. If this activity is negligible under physiological conditions, the claim is overstated. The manuscript should provide a more quantitative assessment of TFAM's dRp-lyase activity relative to other repair enzymes.
+  - **Resolution test** Provide kinetic parameters for TFAM's dRp-lyase activity and compare them to APE1 and other relevant enzymes. Discuss the physiological relevance in the context of known enzyme concentrations and reaction rates in mitochondria.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 and associated text
+  - **Evidence pointer** Results section "Design of DNA substrates", Figure 1
+  - **Issue** The description of the DNA substrate design and the assignment of products in Figure 1 is complex and difficult to follow. The relationship between the different AP positions (LSP22-1-AP, LSP22-2-AP, LSP22-3-AP) and the corresponding TFAM domains (HMG1, HMG2, linker) is not clearly illustrated.
+  - **Required correction** Provide a clearer schematic of the DNA substrates showing the AP position relative to the TFAM binding site and the expected product sizes. Consider simplifying the product nomenclature or providing a summary table of expected products for each substrate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 2–4, Table 1
+  - **Evidence pointer** Results sections on UNG1, APE1, OGG1, and AAG assays
+  - **Issue** The manuscript reports means and standard deviations but does not consistently report the number of independent experiments (n) or the statistical tests used for comparisons. Some figures appear to show individual data points but this is not always clear.
+  - **Required correction** Clearly state the number of independent replicates for each experiment and the statistical tests used. Add significance indicators to figures where comparisons are made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section on immune signaling
+  - **Evidence pointer** Discussion, last two paragraphs
+  - **Issue** The discussion of implications for mtDNA-mediated immune signaling is speculative and goes beyond the data presented. The authors suggest that TFAM shielding of 8-oxodG could modulate inflammatory responses, but no experiments directly test this.
+  - **Required correction** Soften the language and clearly distinguish between findings and speculation. Consider moving some of the immune signaling discussion to a "future directions" section or clearly labeling it as hypothesis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** MD simulation methods
+  - **Evidence pointer** Materials and Methods, "MD simulations" section
+  - **Issue** The description of the MD simulations lacks important details, including the number of independent simulations performed, the convergence criteria, and how the binding energies were averaged. The choice of dielectric constant (15 for solute) is unusual and not justified.
+  - **Required correction** Provide additional methodological details, including the number of replicates, error estimates for binding energies, and justification for the choice of dielectric constant.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Supplementary figures
+  - **Evidence pointer** References to Figs S1–S23 throughout Results
+  - **Issue** The manuscript relies heavily on supplementary figures, but these were not provided for review. It is difficult to assess the quality of the data and the validity of the conclusions without seeing these figures.
+  - **Required correction** Ensure that all supplementary figures are available for review and that they are clearly referenced and described in the main text.
+
+## Risk / unsupported claims
+- The claim that TFAM's stimulatory effect on UNG1 is due to increased enzyme affinity for TFAM-DNA complexes is not fully supported by the limited kinetic data and the unsuccessful pull-down experiments.
+- The bioinformatic correlation between 8-oxodG sites and TFAM occupancy is based on datasets from different studies and may not be directly comparable; the claim of in vivo shielding is not directly tested.
+- The physiological relevance of TFAM's dRp-lyase activity in processing repair intermediates is not quantitatively assessed.
+- The statement that TFAM "reduces the accumulation of certain repair intermediates" is presented as a general finding but is based on specific in vitro conditions that may not reflect mitochondrial physiology.
+- The discussion of implications for immune signaling is speculative and not directly supported by experimental data in this manuscript.
+- The claim that the hormetic effect is "novel" should be tempered, as similar non-monotonic responses have been observed for other DNA-binding proteins modulating enzyme access.

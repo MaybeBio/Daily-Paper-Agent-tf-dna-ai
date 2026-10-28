@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that ResD activates transcription of the nasD operon in Bacillus subtilis through distinct interactions with RNA polymerase at proximal and distal promoter subsites, involving two αCTD subunits, and that this configuration compensates for the absence of a canonical −35 element.
+- **Visible evidence base** Abstract text only; no experimental data, statistical analyses, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, structural simulation details, genetic strain construction, and quantitative data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting model for ResD-dependent transcription activation, but the evidence base is insufficient to evaluate the validity of the central claims. The proposed mechanism, involving dual αCTD interactions at proximal and distal subsites, is novel in the context of two-component regulatory systems, but the abstract lacks the experimental and computational support needed to assess technical soundness. The work may be of interest to specialists in bacterial transcription regulation, but broader significance is not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying bacterial transcription regulation, two-component signal transduction systems, and RNA polymerase promoter recognition, particularly those focused on Gram-positive bacteria and anaerobic respiration. The proposed mechanism of αCTD involvement at multiple promoter subsites could inform studies of transcription activation in other systems.
+- **Major strengths** The abstract identifies a specific and testable mechanistic hypothesis, namely that ResD interacts with two αCTD subunits at distinct promoter subsites. The connection between the distal ResD-binding site and a UP element-like sequence provides a clear rationale for the proposed interaction. The acknowledgment of the missing −35 element and the proposed compensatory interactions is a thoughtful integration of genetic and structural considerations.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "interaction between αCTD and ResD at the promoter-distal site is essential for stimulating nasD transcription" and that "ResD participates in nasD transcription activation by binding to two αCTD subunits at the proximal and distal promoter sites."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central mechanistic claims are presented without any supporting data. No experimental evidence is shown for direct protein-protein interactions between ResD and αCTD, no mutagenesis data are described to establish essentiality of the distal site, and no structural or biochemical data are referenced to substantiate the proposed dual αCTD binding configuration.
+  - **Why it matters** The claims are the core of the manuscript's contribution. Without evidence for direct interactions and functional essentiality, the proposed model remains speculative. The abstract does not allow the reader to distinguish between correlation and causation in the observed promoter architecture.
+  - **Resolution test** Provide experimental evidence such as bacterial two-hybrid assays, crosslinking, or co-purification showing ResD-αCTD interaction; site-directed mutagenesis of the distal and proximal ResD-binding subsites with quantitative transcription assays; and structural or modeling data supporting the dual αCTD binding configuration.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "genetic analysis and structural simulations predicted that the absence of the −35 element might be compensated by interactions between σA and αCTD and between αCTD and ResD at the promoter-proximal ResD-binding subsite."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The nature and quality of the "genetic analysis and structural simulations" are not described. It is unclear whether these are original data from this study or prior work, and no details are given on the simulation methods, force fields, or validation. The predictive nature of the claim is acknowledged, but the abstract does not indicate the confidence level or limitations of these predictions.
+  - **Why it matters** The proposed compensation mechanism is a key element of the model. If the simulations are preliminary or not experimentally validated, the claim is weak. The abstract should clarify the evidence hierarchy and distinguish between tested and predicted interactions.
+  - **Resolution test** Describe the specific genetic constructs and simulation approaches used, and provide experimental validation of the predicted σA-αCTD and αCTD-ResD interactions, such as suppressor mutations or in vitro transcription assays with variant RNAP subunits.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims that "the finding of a new type of protein-promoter architecture provides insight into the understanding of transcription activation mechanisms controlled by transcription factors, including the ubiquitous response regulators."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The broader significance is asserted without comparative analysis. No evidence is presented that this architecture is generalizable beyond the nasD promoter or that it represents a distinct class of regulatory mechanism. The claim of "new type" requires comparison with known promoter architectures and demonstration of its occurrence in other systems.
+  - **Why it matters** The importance statement is a key justification for publication in a broad-interest venue. Without comparative evidence, the claim of novelty and generalizability is overstated relative to the data presented.
+  - **Resolution test** Provide a comparative analysis of promoter architectures in other ResD-regulated genes or related systems, and discuss whether the dual αCTD configuration is observed or predicted elsewhere.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "five molecules of ResD bind" is ambiguous regarding whether this is a demonstrated stoichiometry or an assumption based on binding site identification.
+  - **Required correction** Clarify whether the five ResD molecules were experimentally determined or inferred from the number of identified binding subsites.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "UP element" reference
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The comparison to the E. coli UP element is made without specifying the degree of sequence similarity or the functional relevance of the overlap.
+  - **Required correction** Provide the sequence alignment or similarity score, and state whether the overlap was tested functionally.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, importance statement
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The importance statement mentions "Gram-positive bacteria" but does not specify whether the proposed mechanism is expected to be conserved across this group or is specific to B. subtilis.
+  - **Required correction** Qualify the scope of the claim, either by citing related systems or by limiting the statement to B. subtilis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claims and the compensation model are not supported by the visible evidence. The abstract alone does not establish the essentiality of the distal site interaction or the validity of the structural predictions.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed dual αCTD interaction model is potentially original, but novelty cannot be fully assessed without comparison to existing literature and full data.
+  - Scientific importance: The work addresses a relevant question in bacterial transcription regulation, but the importance is not yet demonstrated beyond the specific system.
+  - Interdisciplinary readership: The topic is likely to appeal primarily to microbiologists and biochemists; broader appeal is not evident from the abstract.
+  - Technical soundness: Not assessable from the abstract; no methods or data are visible.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The model is interesting and testable, but the abstract does not provide sufficient data to support the central claims. A full manuscript with experimental evidence for direct interactions, functional essentiality, and validation of the structural predictions would be required to assess the case.
+
+## Risk / unsupported claims
+- The essentiality of the αCTD-ResD interaction at the distal site is unsupported by visible evidence.
+- The dual αCTD binding configuration is unsupported by visible evidence.
+- The compensation mechanism involving σA and αCTD is presented as predicted but not validated.
+- The generalizability of the proposed architecture to other systems is asserted without comparative data.
+- The stoichiometry of five ResD molecules is not substantiated.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36124796",
+  "title": "DeepZF: improved DNA-binding prediction of C2H2-zinc-finger proteins by deep transfer learning.",
+  "authors": "Aizenshtein-Gazit, Sofia; Orenstein, Yaron",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-09-21",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用深度迁移学习预测C2H2锌指转录因子的DNA结合偏好与结合锌指，核心聚焦TF-DNA互作建模，方法为AI，高度匹配课题。",
+  "abstract": "MOTIVATION: Cys2His2 zinc-finger (C2H2-ZF) proteins are the largest class of human transcription factors and hence play central roles in gene regulation and cell function. C2H2-ZF proteins are characterized by a DNA-binding domain containing multiple ZFs. A subset of the ZFs bind diverse DNA triplets. Despite their central roles, little is known about which of their ZFs are binding and how the DNA-binding preferences are encoded in the amino acid sequence of each ZF. RESULTS: We present DeepZF, a deep-learning-based pipeline for predicting binding ZFs and their DNA-binding preferences given only the amino acid sequence of a C2H2-ZF protein. To the best of our knowledge, we compiled the first in vivo dataset of binding and non-binding ZFs for training the first ZF-binding classifier. Our classifier, which is based on a novel protein transformer, achieved an average AUROC of 0.71. Moreover, we took advantage of both in vivo and in vitro datasets to learn the recognition code of ZF-DNA binding through transfer learning. Our newly developed model, which is the first to utilize deep learning for the task, achieved an average Pearson correlation greater than 0.94 over each of the three DNA binding positions. Together, DeepZF outperformed extant methods in the task of C2H2-ZF protein DNA-binding preferences prediction: it achieved an average Pearson correlation of 0.42 in motif similarity compared with an average correlation smaller than 0.1 achieved by extant methods. By applying established interpretability techniques, we show that DeepZF inferred biologically relevant binding principles, such as the effect of amino acid residue positions on ZF DNA-binding potential. AVAILABILITY AND IMPLEMENTATION: DeepZF code, model, and results are available via github.com/OrensteinLab/DeepZF. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：Cys2His2锌指（C2H2-ZF）蛋白是最大类的人类转录因子，因此在基因调控和细胞功能中发挥核心作用。C2H2-ZF蛋白的特征在于包含多个锌指（ZFs）的DNA结合域。其中一部分锌指结合多样的DNA三联体。尽管它们具有核心作用，但关于哪些锌指正在结合以及DNA结合偏好如何编码在每个锌指的氨基酸序列中，目前知之甚少。结果：我们提出了DeepZF，一种基于深度学习的流程，仅根据C2H2-ZF蛋白的氨基酸序列即可预测结合锌指及其DNA结合偏好。据我们所知，我们编制了首个体内结合和非结合锌指数据集，用于训练首个锌指结合分类器。我们的分类器基于一种新型蛋白质变换器，实现了平均AUROC为0.71。此外，我们利用体内和体外数据集，通过迁移学习学习了锌指-DNA结合识别代码。我们新开发的模型是首个利用深度学习完成此任务的模型，在三个DNA结合位置中的每一个上实现了平均Pearson相关系数大于0.94。综合来看，DeepZF在C2H2-ZF蛋白DNA结合偏好预测任务中优于现有方法：在基序相似性方面，它实现了平均Pearson相关系数0.42，而现有方法实现的平均相关系数小于0.1。通过应用已建立的可解释性技术，我们展示了DeepZF推断出生物学相关的结合原理，例如氨基酸残基位置对锌指DNA结合潜力的影响。可用性和实现：DeepZF代码、模型和结果可通过github.com/OrensteinLab/DeepZF获取。补充信息：补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36124796/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36124796/",
+  "paper_page_path": "papers/pubmed/36124796/index.html"
+}

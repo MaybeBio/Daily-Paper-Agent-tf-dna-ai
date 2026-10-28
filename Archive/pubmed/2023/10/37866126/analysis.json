@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37866126",
+  "title": "Enlightening the path to NSCLC biomarkers: Utilizing the power of XAI-guided deep learning.",
+  "authors": "Dwivedi, Kountay; Rajpal, Ankit; Rajpal, Sheetal; Kumar, Virendra; Agarwal, Manoj; Kumar, Naveen",
+  "journal": "Computer methods and programs in biomedicine",
+  "published_date": "2023-10-23",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用XAI引导的深度学习从甲基化数据中发现NSCLC生物标志物，属于纯临床诊断应用，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND AND OBJECTIVE: The early diagnosis of Non-small cell lung cancer (NSCLC) is of prime importance to improve the patient's survivability and quality of life. Being a heterogeneous disease at the molecular and cellular level, the biomarkers responsible for the heterogeneity aid in distinguishing NSCLC into its prominent subtypes-adenocarcinoma and squamous cell carcinoma. Moreover, if identified, these biomarkers could pave the path to targeted therapy. Through this work, a novel explainable AI (XAI)-guided deep learning framework is proposed that assists in discovering a set of significant NSCLC-relevant biomarkers using methylation data. METHODS: The proposed framework is divided into two blocks- the first block combines an autoencoder and a neural network to classify NSCLC instances. The second block utilizes various eXplainable AI (XAI) methods, namely IntegratedGradients, GradientSHAP, and DeepLIFT, to discover a set of seven significant biomarkers. RESULTS: The classification performance of the biomarkers discovered using the proposed framework is evaluated by employing multiple machine learning algorithms, among which the Multilayer Perceptron (MLP) algorithm-based model outperforms others, yielding a 10-fold cross-validation accuracy of 91.53%. An improved accuracy of 96.37% is achieved by integrating RNA-Seq, CNV, and methylation data. On performing statistical analysis using the Friedman and Nemenyi tests, the MLP model is found to be significantly better than other machine learning-based models. Further, the clinical efficacy of the resultant biomarkers is established based on their potential druggability, the likelihood of predicting NSCLC patients' survival, gene-disease association, and biological pathways targeted by them. While the biomarkers C18orf18, CCNT2, THOP1, and TNPO2, are found potentially druggable, the biomarkers CCDC15, SNORA9, THOP1, and TNPO2 are found prognostically relevant. On further analysis, some of the discovered biomarkers are found to be associated with around 104 diseases. Moreover, five KEGG, ten Reactome, and three Wiki pathways are found to be triggered by the biomarkers discovered. CONCLUSION: In summary, the proposed framework uncovers a set of clinically effective biomarkers that accurately classify NSCLC. As a future course of work, efforts would be made to combine a variety of omics data with histopathological data to unveil more precise biomarkers for devising personalized therapy.",
+  "abstract_zh": "背景与目标：非小细胞肺癌（NSCLC）的早期诊断对于提高患者生存率和生活质量至关重要。作为一种在分子和细胞水平上具有异质性的疾病，导致异质性的生物标志物有助于将NSCLC区分为其主要亚型——腺癌和鳞状细胞癌。此外，如果这些生物标志物被识别出来，它们可能为靶向治疗铺平道路。本研究提出了一种新颖的可解释人工智能（XAI）引导的深度学习框架，利用甲基化数据发现一组重要的NSCLC相关生物标志物。方法：所提出的框架分为两个模块——第一个模块结合自编码器和神经网络对NSCLC实例进行分类。第二个模块利用多种可解释人工智能（XAI）方法，即IntegratedGradients、GradientSHAP和DeepLIFT，发现一组七个重要生物标志物。结果：通过采用多种机器学习算法评估所提出框架发现的生物标志物的分类性能，其中基于多层感知器（MLP）算法的模型表现最佳，10折交叉验证准确率达到91.53%。通过整合RNA-Seq、CNV和甲基化数据，准确率提高到96.37%。使用Friedman和Nemenyi检验进行统计分析后，发现MLP模型显著优于其他基于机器学习的模型。此外，基于所得生物标志物的潜在可药性、预测NSCLC患者生存的可能性、基因-疾病关联以及它们靶向的生物通路，确立了其临床有效性。虽然生物标志物C18orf18、CCNT2、THOP1和TNPO2被发现具有潜在可药性，但生物标志物CCDC15、SNORA9、THOP1和TNPO2被发现与预后相关。进一步分析发现，一些发现的生物标志物与约104种疾病相关。此外，发现所发现的生物标志物触发了五个KEGG、十个Reactome和三个Wiki通路。结论：总之，所提出的框架揭示了一组临床有效的生物标志物，能够准确分类NSCLC。作为未来工作方向，将努力结合多种组学数据与组织病理学数据，以揭示更精确的生物标志物，用于制定个性化治疗。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37866126/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37866126/",
+  "paper_page_path": "papers/pubmed/37866126/index.html"
+}

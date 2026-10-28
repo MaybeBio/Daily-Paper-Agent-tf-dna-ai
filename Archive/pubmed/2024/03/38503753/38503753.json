@@ -1,0 +1,465 @@
+{
+  "identity": {
+    "pmid": "38503753",
+    "doi": "10.1038/s41467-024-46762-2",
+    "title": "The SecM arrest peptide traps a pre-peptide bond formation state of the ribosome."
+  },
+  "content": {
+    "abstract": "Nascent polypeptide chains can induce translational stalling to regulate gene expression. This is exemplified by the E. coli secretion monitor (SecM) arrest peptide that induces translational stalling to regulate expression of the downstream encoded SecA, an ATPase that co-operates with the SecYEG translocon to facilitate insertion of proteins into or through the cytoplasmic membrane. Here we present the structure of a ribosome stalled during translation of the full-length E. coli SecM arrest peptide at 2.0 A resolution. The structure reveals that SecM arrests translation by stabilizing the Pro-tRNA in the A-site, but in a manner that prevents peptide bond formation with the SecM-peptidyl-tRNA in the P-site. By employing molecular dynamic simulations, we also provide insight into how a pulling force on the SecM nascent chain can relieve the SecM-mediated translation arrest. Collectively, the mechanisms determined here for SecM arrest and relief are also likely to be applicable for a variety of other arrest peptides that regulate components of the protein localization machinery identified across a wide range of bacteria lineages.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Escherichia coli/genetics/metabolism",
+      "*Escherichia coli Proteins/metabolism",
+      "Peptide Chain Elongation, Translational",
+      "Ribosomes/metabolism",
+      "Peptides/metabolism",
+      "Protein Biosynthesis",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gersteuer, Felix",
+        "Morici, Martino",
+        "Gabrielli, Sara",
+        "Fujiwara, Keigo",
+        "Safdari, Haaris A",
+        "Paternoga, Helge",
+        "Bock, Lars V",
+        "Chiba, Shinobu",
+        "Wilson, Daniel N"
+      ],
+      "short_names": [
+        "Gersteuer F",
+        "Morici M",
+        "Gabrielli S",
+        "Fujiwara K",
+        "Safdari HA",
+        "Paternoga H",
+        "Bock LV",
+        "Chiba S",
+        "Wilson DN"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-1346-7193",
+        "ORCID: 0000-0002-7304-5264",
+        "ORCID: 0000-0002-3021-6094",
+        "ORCID: 0000-0002-5371-3552",
+        "ORCID: 0000-0003-3485-3477",
+        "ORCID: 0000-0003-3816-3828"
+      ],
+      "affiliations": [
+        "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany.",
+        "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany.",
+        "Theoretical and Computational Biophysics Department, Max Planck Institute for Multidisciplinary Sciences, Gottingen, Germany.",
+        "Faculty of Life Sciences and Institute for Protein Dynamics, Kyoto Sangyo University, Kamigamo, Motoyama, Kita-ku, Kyoto, 603-8555, Japan.",
+        "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany.",
+        "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany.",
+        "Theoretical and Computational Biophysics Department, Max Planck Institute for Multidisciplinary Sciences, Gottingen, Germany.",
+        "Faculty of Life Sciences and Institute for Protein Dynamics, Kyoto Sangyo University, Kamigamo, Motoyama, Kita-ku, Kyoto, 603-8555, Japan.",
+        "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany. Daniel.Wilson@chemie.uni-hamburg.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gersteuer, Felix",
+        "short_name": "Gersteuer F",
+        "identifiers": [
+          "0009-0000-1346-7193"
+        ],
+        "affiliations": [
+          "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Morici, Martino",
+        "short_name": "Morici M",
+        "identifiers": [
+          "0000-0002-7304-5264"
+        ],
+        "affiliations": [
+          "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gabrielli, Sara",
+        "short_name": "Gabrielli S",
+        "identifiers": [
+          "0000-0002-3021-6094"
+        ],
+        "affiliations": [
+          "Theoretical and Computational Biophysics Department, Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Fujiwara, Keigo",
+        "short_name": "Fujiwara K",
+        "identifiers": [
+          "0000-0002-5371-3552"
+        ],
+        "affiliations": [
+          "Faculty of Life Sciences and Institute for Protein Dynamics, Kyoto Sangyo University, Kamigamo, Motoyama, Kita-ku, Kyoto, 603-8555, Japan."
+        ]
+      },
+      {
+        "full_name": "Safdari, Haaris A",
+        "short_name": "Safdari HA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Paternoga, Helge",
+        "short_name": "Paternoga H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bock, Lars V",
+        "short_name": "Bock LV",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical and Computational Biophysics Department, Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Chiba, Shinobu",
+        "short_name": "Chiba S",
+        "identifiers": [
+          "0000-0003-3485-3477"
+        ],
+        "affiliations": [
+          "Faculty of Life Sciences and Institute for Protein Dynamics, Kyoto Sangyo University, Kamigamo, Motoyama, Kita-ku, Kyoto, 603-8555, Japan."
+        ]
+      },
+      {
+        "full_name": "Wilson, Daniel N",
+        "short_name": "Wilson DN",
+        "identifiers": [
+          "0000-0003-3816-3828"
+        ],
+        "affiliations": [
+          "Institute for Biochemistry and Molecular Biology, University of Hamburg, Martin-Luther-King-Platz 6, 20146, Hamburg, Germany. Daniel.Wilson@chemie.uni-hamburg.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Mar 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/20 06:45",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "42362696",
+      "42350466",
+      "42265116",
+      "42151144",
+      "42083989",
+      "42056528",
+      "41933606",
+      "41894501",
+      "41867869",
+      "41676707",
+      "41614299",
+      "41526491",
+      "41366021",
+      "41099701",
+      "40973728",
+      "40909734",
+      "40210524",
+      "40163725",
+      "40057501",
+      "39229094",
+      "38987455",
+      "38791303",
+      "38565864",
+      "38503735"
+    ],
+    "refs": [
+      "38565864",
+      "38503735",
+      "37028767",
+      "36399685",
+      "36316410",
+      "35927328",
+      "35869078",
+      "35619462",
+      "35317575",
+      "35165455",
+      "34930833",
+      "34783343",
+      "34605431",
+      "34504068",
+      "33932440",
+      "33503266",
+      "33384371",
+      "32962386",
+      "32924932",
+      "32881101",
+      "32870728",
+      "32790204",
+      "32627541",
+      "32527724",
+      "31913464",
+      "31588918",
+      "31373268",
+      "31240256",
+      "30713699",
+      "30563926",
+      "30539762",
+      "30365950",
+      "29661790",
+      "29100052",
+      "28891250",
+      "28689968",
+      "28564553",
+      "28556777",
+      "28524878",
+      "28250466",
+      "28177307",
+      "28112730",
+      "27791002",
+      "26926436",
+      "26906929",
+      "26879042",
+      "26859868",
+      "26804923",
+      "26670735",
+      "26619985",
+      "26574453",
+      "26384426",
+      "26321634",
+      "26222032",
+      "26073784",
+      "25908824",
+      "25903689",
+      "25806953",
+      "25400877",
+      "25132179",
+      "24836001",
+      "23959879",
+      "23746254",
+      "23729811",
+      "23001004",
+      "23000701",
+      "22853911",
+      "22751351",
+      "21971705",
+      "21460441",
+      "21383133",
+      "21316217",
+      "21267063",
+      "21233347",
+      "20676057",
+      "20383002",
+      "20080677",
+      "19840930",
+      "19518055",
+      "19394297",
+      "18593145",
+      "18586934",
+      "18511463",
+      "18439847",
+      "18078384",
+      "17669427",
+      "17350284",
+      "17212484",
+      "17086193",
+      "16968693",
+      "16762832",
+      "16713584",
+      "16179922",
+      "15851032",
+      "15572771",
+      "15063851",
+      "14594848",
+      "11893334",
+      "11172723",
+      "10422838",
+      "2268628"
+    ],
+    "similar": [
+      "38503753",
+      "26670735",
+      "21267063",
+      "16968693",
+      "25806953",
+      "22853911",
+      "22751351",
+      "15494397",
+      "24836001",
+      "25908824",
+      "16762832",
+      "38735477",
+      "37028767",
+      "21971705",
+      "39332784",
+      "24967850",
+      "21635582",
+      "15302932",
+      "16713584",
+      "25713070",
+      "30563926",
+      "19840930",
+      "23431150",
+      "21383133",
+      "16713583",
+      "15063851",
+      "31913464",
+      "14594848",
+      "29100052",
+      "19394297",
+      "15713839",
+      "17293419",
+      "38071619",
+      "16179922",
+      "38661232",
+      "23729811",
+      "14744860",
+      "18369182",
+      "38503735",
+      "11948148",
+      "17669427",
+      "28588135",
+      "23001004",
+      "11172723",
+      "24652291",
+      "22267723",
+      "26879042",
+      "19933110",
+      "33932440",
+      "22857598",
+      "31409676",
+      "323015",
+      "35065991",
+      "19170872",
+      "33503266",
+      "18586934",
+      "26037612",
+      "14695511",
+      "29389943",
+      "20117091",
+      "25306253",
+      "27487212",
+      "28556777",
+      "29100053",
+      "38395310",
+      "27216360",
+      "39229094",
+      "34906996",
+      "32727848",
+      "21403627",
+      "26804923",
+      "31246174",
+      "19761774",
+      "27359213",
+      "8801438",
+      "36722132",
+      "16194232",
+      "27380950",
+      "32527724",
+      "28363900",
+      "21757758",
+      "22326347",
+      "23239623",
+      "19092806",
+      "26458047",
+      "25903689",
+      "27108680",
+      "21051357",
+      "6808502",
+      "25148683",
+      "17889647",
+      "27827794",
+      "17350284",
+      "9593737",
+      "29229848",
+      "25653387",
+      "10986266",
+      "27906160",
+      "34504068",
+      "23051696",
+      "23746254",
+      "20668033",
+      "2207144",
+      "38315848",
+      "38627409",
+      "38159358",
+      "38565864"
+    ],
+    "review": [
+      "38503753",
+      "15063851",
+      "18369182",
+      "19170872",
+      "14695511",
+      "20117091",
+      "8801438",
+      "36722132",
+      "27108680",
+      "23746254"
+    ],
+    "pmc": [
+      "10951299"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG11087",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "secM"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-024-46762-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38503753/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38503753",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=empiar-11758",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

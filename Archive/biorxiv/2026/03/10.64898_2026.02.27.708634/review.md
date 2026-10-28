@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, data, model, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims made in the manuscript, based solely on the supplied text. No external data, code, or supplementary materials were available for verification.
+- **Shared manuscript claim summary** The authors introduce GTA-5, a graph transformer autoencoder that encodes ligands and protein binding pockets as labeled 3D point clouds without explicit bond connectivity. They claim that the resulting latent spaces organize by protein family, recover physicochemical pocket properties, and support downstream drug discovery tasks such as scaffold hopping, QSAR/QSPR, and drug repurposing.
+- **Visible evidence base** Abstract, Introduction, Data section (2.1, 2.2), Model section (3.1, 3.2), Results section (4.1, 4.2, 4.3), Discussion, Conclusion. Figures referenced but not provided: Figures 1, 2, 4, 5, 6, 7. Tables referenced but not provided: Table 1.
+- **Missing materials affecting confidence** Figures 1, 2, 4, 5, 6, 7 and Table 1 are referenced but not included in the supplied material. Quantitative results in Section 4.3 are presented as blank values (e.g., "mean Pfam normalised purity of" with no number). No code, hyperparameter details, training curves, or ablation studies are provided. No comparison to baseline methods is presented.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and timely idea: unifying ligands and protein binding pockets within a single geometric representation for drug discovery. The architectural choices are reasonable and the motivation is clear. However, the current manuscript is incomplete as a standalone scientific contribution. Key quantitative results are missing, figures are not available, and the central claims regarding latent space organization and downstream utility are not substantiated with sufficient evidence. The work is at an early stage and the evidence base, as presented, does not yet establish the case for the claimed capabilities.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on ligand-based virtual screening, pocket similarity, and drug repurposing would be the primary audience. Researchers developing geometric deep learning methods for molecular representation would also find the architectural choices relevant. The promise of a unified embedding space for ligands and pockets could attract interest from the broader AI-for-drug-discovery community, provided the claims are validated with stronger evidence.
+- **Major strengths** 1. The conceptual framing is clear and addresses a real gap in the field: the representational disconnect between small molecules and protein binding sites. 2. The choice of a point-cloud representation without explicit bond connectivity is a thoughtful design decision that enables modality-agnostic processing. 3. The use of a large, curated dataset from the PDB (64,124 pockets, 23,133 ligands) is a solid foundation. 4. The discussion of limitations and future directions is honest and constructive.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "functional protein families cluster coherently in both pocket and ligand latent spaces" and report quantitative metrics in Section 4.3.
+  - **Evidence pointer** Section 4.3, Figures 4, 5, 6, 7
+  - **Concern** The quantitative results in Section 4.3 are presented as blank values. The exact normalized purity and normalized entropy values are not provided. Without these numbers, the strength of the clustering claim cannot be assessed. Additionally, the figures that would visually support these claims are not included in the supplied material.
+  - **Why it matters** The central claim of the manuscript is that the latent spaces are meaningfully organized. Without the actual metric values, the reader cannot evaluate whether the clustering is strong, weak, or merely above random. This is the core evidence for the framework's utility.
+  - **Resolution test** Provide the exact values for normalized purity and normalized entropy for both pocket and ligand spaces, along with the corresponding figures. Include confidence intervals or error bars if available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the model "captures physicochemical pocket properties such as volume, exposure, and hydrophobicity directly from raw structural data."
+  - **Evidence pointer** Section 4.2, Figure 5
+  - **Concern** The claim that the latent space recapitulates physicochemical properties is supported only by a visual inspection of a minimum spanning tree (Figure 5, not provided). No quantitative correlation analysis between latent dimensions or distances and the measured pocket properties is presented. The statement "these features are coherently reflected in the minimum spanning tree" is subjective without a numerical measure.
+  - **Why it matters** This claim is presented as evidence that the model learns physically meaningful representations. Without a quantitative correlation or regression analysis, the claim is not substantiated.
+  - **Resolution test** Compute correlations between latent distances or specific latent dimensions and each of the three properties (volume, exposure, hydrophobicity). Report Pearson or Spearman correlation coefficients with significance levels.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the ligand space organization "facilitates scaffold hopping in ligand-based virtual screening" and that pocket proximity supports "drug repurposing via pocket similarity."
+  - **Evidence pointer** Section 4.2, Figures 6 and 7
+  - **Concern** These are downstream application claims, but no validation experiments are presented. No retrospective or prospective scaffold hopping exercise is shown. No example of a repurposing prediction is provided. The claims are purely inferential from the observed clustering.
+  - **Why it matters** The stated motivation for the framework is its utility in drug discovery. Without any demonstration of downstream task performance, the practical value of the method remains unproven.
+  - **Resolution test** Provide at least one concrete validation: e.g., a scaffold hopping benchmark where the latent space is used to retrieve known actives with novel scaffolds, or a case study where pocket similarity in the latent space identifies a known cross-target ligand.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "by not enforcing bond topology, GTA-5 maintains representational flexibility across molecular modalities while preserving chemically meaningful local environments."
+  - **Evidence pointer** Section 3.1, Section 5
+  - **Concern** The omission of bond connectivity is a deliberate and central design choice. However, the manuscript does not provide any analysis of what information is lost or how the model compensates. For example, how does the model distinguish between chemically distinct but geometrically similar arrangements of atoms? No ablation or sensitivity analysis is presented.
+  - **Why it matters** The design choice is defensible, but its consequences are not explored. Without understanding the limitations introduced by omitting bond topology, the reader cannot judge whether the approach is broadly applicable or only suitable for certain types of pockets and ligands.
+  - **Resolution test** Include an ablation study where the model is trained with and without bond connectivity (or with an alternative representation) and compare latent space quality and downstream performance.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The description of the dataset curation is brief and relies heavily on a prior publication (Moine-Franel et al., 2024). The specific criteria for excluding ligands (e.g., "molecules originating from crystallization buffers") are not detailed.
+  - **Required correction** Provide a brief summary of the key curation steps and exclusion criteria, or state explicitly that the full protocol is described in the referenced work.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The model architecture is described at a high level, but several details are missing: the exact number of transformer layers, attention heads, the dimension of the feedforward network, dropout rates, and the learning rate schedule are not specified.
+  - **Required correction** Provide a table or paragraph listing all key hyperparameters and optimization settings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Section 4.3, location not provided
+  - **Issue** The definitions of normalized purity and normalized entropy are given, but the choice of k = 10 is not justified. It is unclear whether the results are sensitive to this choice.
+  - **Required correction** State the rationale for k = 10 or show results for a range of k values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, Table 1
+  - **Issue** Table 1 is referenced but not provided. The table lists the Triatom atom types used for pocket pseudo-atoms, which is central to the representation.
+  - **Required correction** Include Table 1 in the manuscript or in the supplementary material.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results), R1-M2 (unsupported claim of physicochemical property recovery), R1-M3 (no downstream validation), R1-M4 (no ablation of the bond-omission design choice).
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of a unified point-cloud representation for ligands and pockets is not entirely new, but the specific combination of a graph transformer autoencoder with bond-omission is a reasonable contribution. However, the originality is not fully demonstrated without comparison to existing methods.
+  - Scientific importance: The problem addressed is important for drug discovery. If the claims were fully validated, the framework could be a useful tool. However, the current evidence is insufficient to establish importance.
+  - Interdisciplinary readership: The manuscript is written in a way that is accessible to computational chemists and structural biologists. The broader AI community would also follow the narrative, but the lack of quantitative results limits its appeal.
+  - Technical soundness: The architecture is plausible, but the missing details and lack of validation experiments prevent a full assessment of technical soundness.
+  - Readability for nonspecialists: The manuscript is generally well-written and the concepts are explained clearly. The abstract is accessible. However, the missing results and figures make it difficult for a nonspecialist to evaluate the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a promising concept and a reasonable architectural design, but the missing quantitative results, figures, and validation experiments prevent a positive recommendation. The authors should address the major concerns before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that "functional protein families cluster coherently in both pocket and ligand latent spaces" is unsupported because the quantitative metrics are not provided.
+- The claim that the model "captures physicochemical pocket properties such as volume, exposure, and hydrophobicity" is unsupported without a quantitative correlation analysis.
+- The claim that the ligand space "facilitates scaffold hopping" and that pocket proximity supports "drug repurposing" is unsupported without any downstream validation experiments.
+- The claim that the model "preserves chemically meaningful local environments" despite omitting bond connectivity is not tested or analyzed.
+- The claim that the model "recovers interpretable structural organization directly from raw three-dimensional data" is only supported by visual inspection of figures that were not provided.

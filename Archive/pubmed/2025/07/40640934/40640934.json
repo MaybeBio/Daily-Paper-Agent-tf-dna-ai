@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "40640934",
+    "doi": "10.1186/s13023-025-03876-0",
+    "title": "Machine learning identifies lipid-associated genes and constructs diagnostic and prognostic models for idiopathic pulmonary fibrosis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Emerging evidence suggests a potential relationship between lipid metabolism and idiopathic pulmonary fibrosis (IPF). This study aimed to identify lipid-related genes implicated in IPF pathogenesis. METHODS: Lipid-associated genes were retrieved from the GeneCards database and analyzed using unsupervised consensus clustering to classify IPF samples. Weighted gene co-expression network analysis (WGCNA) was performed on the identified clusters to determine core modules and hub genes associated with IPF. Machine learning algorithms were applied to these hub genes to construct diagnostic and prognostic models, which were validated across multiple datasets. Single-cell sequencing was used to investigate the distribution of potential pathogenic genes, and their functional roles were further validated through cellular experiments. RESULTS: Two distinct clusters were identified, showing significant differences in lung function parameters and fibrosis-related gene expression. WGCNA revealed that the blue module was strongly associated with IPF and served as the core module. Genes from this module were used to construct diagnostic and prognostic models, which demonstrated strong predictive performance across multiple validation datasets. Single-cell sequencing revealed that KLF4 was highly expressed in lung epithelial cells. Functional assays indicated that knockdown of KLF4 did not affect the proliferation of human alveolar type II epithelial cells but significantly enhanced their migratory capacity, thereby promoting the fibrotic process. CONCLUSION: This study successfully constructed lipid-related diagnostic and prognostic models for IPF and identified KLF4 as a potential causative gene. These findings provide a foundation for further exploration of lipid metabolism in IPF pathogenesis and potential therapeutic strategies targeting KLF4.",
+    "keywords": [
+      "Diagnosis",
+      "Idiopathic pulmonary fibrosis",
+      "Lipid",
+      "Prognosis"
+    ],
+    "mesh_terms": [
+      "*Idiopathic Pulmonary Fibrosis/genetics/diagnosis/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "Kruppel-Like Factor 4",
+      "Prognosis",
+      "*Lipid Metabolism/genetics",
+      "Kruppel-Like Transcription Factors/genetics/metabolism",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Xingren",
+        "Song, Junmei",
+        "Guo, Shujin",
+        "Liao, Yi",
+        "Zou, Jun",
+        "Yang, Liqing",
+        "Jiang, Caiyu"
+      ],
+      "short_names": [
+        "Liu X",
+        "Song J",
+        "Guo S",
+        "Liao Y",
+        "Zou J",
+        "Yang L",
+        "Jiang C"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5864-1401"
+      ],
+      "affiliations": [
+        "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.",
+        "Ultrasound in Cardiac Electrophysiology and Biomechanics Key Laboratory of Sichuan Province, Sichuan Clinical Research Center for Cardiovascular Disease, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.",
+        "Department of Cardiovascular Ultrasound & Noninvasive Cardiology, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.",
+        "Department of Health Management & Institute of Health Management, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.",
+        "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.",
+        "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.",
+        "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China. yangliqing@med.uestc.edu.cn.",
+        "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China. jiangcaiyu@med.uestc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Xingren",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Song, Junmei",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "Ultrasound in Cardiac Electrophysiology and Biomechanics Key Laboratory of Sichuan Province, Sichuan Clinical Research Center for Cardiovascular Disease, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.",
+          "Department of Cardiovascular Ultrasound & Noninvasive Cardiology, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Shujin",
+        "short_name": "Guo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Management & Institute of Health Management, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Yi",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Jun",
+        "short_name": "Zou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Liqing",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China. yangliqing@med.uestc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jiang, Caiyu",
+        "short_name": "Jiang C",
+        "identifiers": [
+          "0009-0002-5864-1401"
+        ],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, School of Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China. jiangcaiyu@med.uestc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Orphanet journal of rare diseases"
+    ],
+    "journal_abbrev": [
+      "Orphanet J Rare Dis"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/11 00:26",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42306685",
+      "42189270",
+      "41388329"
+    ],
+    "refs": [
+      "39340293",
+      "39046603",
+      "38872139",
+      "38843385",
+      "38318669",
+      "38285622",
+      "38274787",
+      "38238919",
+      "38112764",
+      "38053045",
+      "38035073",
+      "37762310",
+      "37488670",
+      "37031197",
+      "36702498",
+      "36578501",
+      "36474231",
+      "36370105",
+      "36267568",
+      "36147332",
+      "36049670",
+      "35964659",
+      "35748767",
+      "35559024",
+      "35508454",
+      "35309336",
+      "35083881",
+      "34983465",
+      "34813355",
+      "34790776",
+      "34755882",
+      "34671612",
+      "34233665",
+      "34194423",
+      "33753033",
+      "33493738",
+      "32759374",
+      "32602730",
+      "31740819",
+      "31178118",
+      "30565269",
+      "30141961",
+      "29649237",
+      "29158503",
+      "28085486",
+      "27322403",
+      "26589497",
+      "26560100",
+      "25822800",
+      "25605792",
+      "25428369",
+      "25217476",
+      "24089408",
+      "23783374",
+      "21670502",
+      "19114008",
+      "16904174",
+      "14597658",
+      "10592173"
+    ],
+    "similar": [
+      "40640934",
+      "39046603",
+      "39340293",
+      "41388329",
+      "41408564",
+      "40665394",
+      "40273141",
+      "40670650",
+      "39991151",
+      "37334348",
+      "40570466",
+      "39402203",
+      "39062997",
+      "41192648",
+      "40538010",
+      "41369928",
+      "40604645",
+      "40187620",
+      "40580591",
+      "37559532",
+      "39753882",
+      "40483519",
+      "38872139",
+      "39944354",
+      "35628257",
+      "41432483",
+      "41438766",
+      "40857336",
+      "37051233",
+      "40606673",
+      "37928522",
+      "41158409",
+      "37794454",
+      "36685820",
+      "38872435",
+      "38203265",
+      "30366970",
+      "38318669",
+      "39704195",
+      "37996625",
+      "40557159",
+      "36035368",
+      "40075162",
+      "40993738",
+      "36211385",
+      "31177264",
+      "26589497",
+      "38215148",
+      "40782499",
+      "40369105",
+      "39333367",
+      "38734841",
+      "40494203",
+      "37783761",
+      "33194355",
+      "37985153",
+      "37266442",
+      "35078421",
+      "38699746",
+      "35185901",
+      "34876074",
+      "37924392",
+      "36111015",
+      "37337515",
+      "38703565",
+      "38035073",
+      "34285914",
+      "35508454",
+      "38571583",
+      "37673297",
+      "33493738",
+      "36267568",
+      "37122736",
+      "38657143",
+      "41088915",
+      "40381971",
+      "40904095",
+      "41261179",
+      "29058630",
+      "40355204",
+      "40782923",
+      "40022042",
+      "39764456",
+      "38370408",
+      "36923791",
+      "40153017",
+      "39354547",
+      "39067403",
+      "39718612",
+      "39855369",
+      "35870428",
+      "39289672",
+      "39346776",
+      "36147332",
+      "39090671",
+      "36681777",
+      "37686108",
+      "40093327",
+      "41244106",
+      "39369217"
+    ],
+    "review": [
+      "40640934"
+    ],
+    "pmc": [
+      "12247251"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ojrd.biomedcentral.com/articles/10.1186/s13023-025-03876-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40640934/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

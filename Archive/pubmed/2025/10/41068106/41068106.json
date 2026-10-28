@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41068106",
+    "doi": "10.1038/s41467-025-63925-x",
+    "title": "IceQream: Quantitative chromosome accessibility analysis using physical TF models."
+  },
+  "content": {
+    "abstract": "Single-cell mapping of chromosomal accessibility patterns has recently led to improved predictive modelling of epigenomic activity from sequence. However, quantitative models explaining the epigenome using directly interpretable components are still lacking. Here we develop IceQream (IQ), a modelling strategy and inference algorithm for regressing accessibility from sequences using physical models of transcription factor (TF) binding. IQ uses spatial integration of sequences over a range of TF-DNA affinities and localization relative to the target locus. It infers TF effective concentrations as latent variables that activate or repress regulatory elements in a non-linear fashion. These are supplemented with synergistic and antagonistic pairwise interactions between TFs. Analysis of both human and mouse data shows that IQ derives similar, and in some cases, better performance compared to state-of-the-art deep neural network models. IQ provides an essential mechanistic and explicable baseline for further developments toward understanding gene and genome regulation from sequence.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Humans",
+      "*Transcription Factors/metabolism/genetics",
+      "Algorithms",
+      "*Chromosomes/metabolism/genetics",
+      "DNA/metabolism",
+      "Epigenomics/methods",
+      "Models, Genetic",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bercovich, Akhiad",
+        "Lifshitz, Aviezer",
+        "Eldar, Michal",
+        "Cheng, Saifeng",
+        "Stok Ranen, Roni",
+        "Stelzer, Yonatan",
+        "Tanay, Amos"
+      ],
+      "short_names": [
+        "Bercovich A",
+        "Lifshitz A",
+        "Eldar M",
+        "Cheng S",
+        "Stok Ranen R",
+        "Stelzer Y",
+        "Tanay A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2883-2306",
+        "ORCID: 0000-0002-8458-9507",
+        "ORCID: 0000-0003-2712-3521",
+        "ORCID: 0000-0001-9207-1479",
+        "ORCID: 0000-0001-9419-3824"
+      ],
+      "affiliations": [
+        "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel.",
+        "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel. amos.tanay@weizmann.ac.il.",
+        "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel. amos.tanay@weizmann.ac.il."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bercovich, Akhiad",
+        "short_name": "Bercovich A",
+        "identifiers": [
+          "0000-0002-2883-2306"
+        ],
+        "affiliations": [
+          "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel.",
+          "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Lifshitz, Aviezer",
+        "short_name": "Lifshitz A",
+        "identifiers": [
+          "0000-0002-8458-9507"
+        ],
+        "affiliations": [
+          "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel.",
+          "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Eldar, Michal",
+        "short_name": "Eldar M",
+        "identifiers": [],
+        "affiliations": [
+          "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel.",
+          "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Cheng, Saifeng",
+        "short_name": "Cheng S",
+        "identifiers": [
+          "0000-0003-2712-3521"
+        ],
+        "affiliations": [
+          "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Stok Ranen, Roni",
+        "short_name": "Stok Ranen R",
+        "identifiers": [],
+        "affiliations": [
+          "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel.",
+          "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Stelzer, Yonatan",
+        "short_name": "Stelzer Y",
+        "identifiers": [
+          "0000-0001-9207-1479"
+        ],
+        "affiliations": [
+          "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Tanay, Amos",
+        "short_name": "Tanay A",
+        "identifiers": [
+          "0000-0001-9419-3824"
+        ],
+        "affiliations": [
+          "Weizmann Institute of Science, Department of Computer Science and Applied Mathematics, Rehovot, Israel. amos.tanay@weizmann.ac.il.",
+          "Weizmann Institute of Science, Department of Molecular Cell Biology, Rehovot, Israel. amos.tanay@weizmann.ac.il."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Oct 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/10 00:30",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [
+      "42020311"
+    ],
+    "refs": [
+      "40205063",
+      "39779956",
+      "39090688",
+      "38036790",
+      "38036778",
+      "37798781",
+      "37633271",
+      "37443338",
+      "36973806",
+      "36973557",
+      "35941239",
+      "35817961",
+      "35475224",
+      "35440087",
+      "35288709",
+      "34850907",
+      "34608324",
+      "34390642",
+      "33932341",
+      "33603233",
+      "33098772",
+      "31792411",
+      "31604482",
+      "30078704",
+      "29970004",
+      "29140464",
+      "28825706",
+      "28111071",
+      "27863239",
+      "26550823",
+      "26083756",
+      "26000488",
+      "24531970",
+      "24385147",
+      "23664763",
+      "22955616",
+      "22868264",
+      "22090374",
+      "20877328",
+      "20808728",
+      "20644535",
+      "20513432",
+      "19443739",
+      "16809671",
+      "12853946"
+    ],
+    "similar": [
+      "41068106",
+      "19956545",
+      "22456606",
+      "25775564",
+      "42475469",
+      "24339764",
+      "28750606",
+      "30423062",
+      "30359306",
+      "29617928",
+      "30700703",
+      "21342583",
+      "25231769",
+      "20838582",
+      "31006511",
+      "41288963",
+      "40102719",
+      "32770026",
+      "32043966",
+      "38354497",
+      "24997396",
+      "38451769",
+      "18725950",
+      "38653489",
+      "18586698",
+      "37919990",
+      "27780826",
+      "21172055",
+      "33413545",
+      "25722376",
+      "36043696",
+      "23272209",
+      "40662784",
+      "39481376",
+      "17319944",
+      "38940155",
+      "32300008",
+      "29262847",
+      "34486522",
+      "37486787",
+      "34534646",
+      "35396274",
+      "22849367",
+      "23636944",
+      "23246694",
+      "26818008",
+      "23144600",
+      "33137083",
+      "40335485",
+      "18931780",
+      "18426580",
+      "21496241",
+      "39076052",
+      "18366607",
+      "23812975",
+      "23935523",
+      "29588361",
+      "41920894",
+      "16873495",
+      "20942926",
+      "29326300",
+      "35293310",
+      "19958507",
+      "32054475",
+      "22189060",
+      "40037709",
+      "26285121",
+      "41314178",
+      "40633682",
+      "30580963",
+      "39207727",
+      "16733547",
+      "35193937",
+      "25765714",
+      "24228871",
+      "20158869",
+      "42043940",
+      "16873464",
+      "39020164",
+      "41557834",
+      "41247408",
+      "16477324",
+      "30944857",
+      "8530078",
+      "26291518",
+      "31362726",
+      "37100167",
+      "33074101",
+      "23847101",
+      "33990600",
+      "32687525",
+      "31905774",
+      "35197482",
+      "42099803",
+      "32576674",
+      "41662352",
+      "18221524",
+      "9697188",
+      "37889053",
+      "29187152"
+    ],
+    "review": [
+      "41068106",
+      "18931780"
+    ],
+    "pmc": [
+      "12511641"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-63925-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41068106/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

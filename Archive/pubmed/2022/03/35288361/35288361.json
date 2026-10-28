@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "35288361",
+    "doi": "10.1016/j.compbiolchem.2022.107648",
+    "title": "Discovering inhibitors of TEAD palmitate binding pocket through virtual screening and molecular dynamics simulation."
+  },
+  "content": {
+    "abstract": "Transcriptional enhanced associate domain (TEAD) proteins bind to YAP/TAZ and mediate YAP/TAZ-induced gene expression. TEADs are not only the key transcription factors and final effector of the Hippo signaling pathway, but also the proteins that regulate cell proliferation and apoptosis. Disorders of Hippo signaling pathway occur in liver cancer, breast cancer, colon cancer and other cancers. S-palmitylation can stabilize the structure of TEADs and is also a necessary condition for the binding of TEADs to YAP/TAZ. The absence of TEAD palmitoylation prevents TEADs from binding to chromatin, thereby inhibiting the transcription and expression of downstream target genes in the Hippo pathway through a dominant-negative mechanism. Therefore, disrupting the S-palmitylation of TEADs has become an attractive and very feasible method in cancer treatment. The palmitate binding pockets of TEADs are conservative, and the crystal structures of TEAD2-palmitoylation inhibitor complexes and the potential TEAD2 inhibitors are more than other TEADs, TEAD2 can be selected to be the target receptor. In this study, structure-based and ligand-based virtual screening, molecular dynamics simulations, Molecular Mechanics Poisson-Boltzmann Surface Area (MM/PBSA) calculations, residue decomposition binding energy calculations, and ADME predictions have been performed to discover 11 potential TEAD2 S-palmitylation inhibitors. ChEBML196567 and ZINC000013942794 are the most recommended, because they formed strong binding energies and stable hydrogen bonds with TEAD2 and have good drugbility and high human oral absorption. We found that it was easier to find the targeting small molecules using a combination of structure-based and ligand-based virtual screening methods. Besides, a new core structure has been found in the selected small molecules. In addition, we analyzed the binding modes of these small molecules to TEAD2, and confirmed the hot spot residues Cys380, Ser345, Tyr426, Phe428, Ile408, and Met379. AVAILABILITY OF DATA AND MATERIAL: Supplementary materials are available online.",
+    "keywords": [
+      "Hippo pathway",
+      "Molecular docking",
+      "Molecular dynamics simulation",
+      "Palmitoylation inhibitor",
+      "TEAD"
+    ],
+    "mesh_terms": [
+      "*Breast Neoplasms",
+      "Female",
+      "Humans",
+      "Ligands",
+      "Molecular Dynamics Simulation",
+      "*Palmitates/chemistry/metabolism",
+      "*TEA Domain Transcription Factors/chemistry/metabolism",
+      "YAP-Signaling Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yimin",
+        "Li, Yaqi",
+        "Ning, Chao",
+        "Yue, Jianda",
+        "Zhang, Cheng",
+        "He, Xiao",
+        "Wang, Ying",
+        "Liu, Zhonghua"
+      ],
+      "short_names": [
+        "Li Y",
+        "Li Y",
+        "Ning C",
+        "Yue J",
+        "Zhang C",
+        "He X",
+        "Wang Y",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai 200062, China; New York University-East China Normal University Center for Computational Chemistry, New York University Shanghai, Shanghai 200062, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China. Electronic address: wangyin@hunnu.edu.cn.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China. Electronic address: liuzh@hunnu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yimin",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaqi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Chao",
+        "short_name": "Ning C",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Jianda",
+        "short_name": "Yue J",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Cheng",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "He, Xiao",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Engineering Research Center of Molecular Therapeutics and New Drug Development, School of Chemistry and Molecular Engineering, East China Normal University, Shanghai 200062, China; New York University-East China Normal University Center for Computational Chemistry, New York University Shanghai, Shanghai 200062, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China. Electronic address: wangyin@hunnu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhonghua",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China. Electronic address: liuzh@hunnu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/16 06:00",
+    "fetched_at": "2026-09-28 06:19:09"
+  },
+  "links": {
+    "cites": [
+      "42644201",
+      "42332776",
+      "41938532",
+      "41619135",
+      "40977744",
+      "40516001",
+      "39732335",
+      "39247503",
+      "38791396",
+      "38139762",
+      "35618322"
+    ],
+    "refs": [],
+    "similar": [
+      "35288361",
+      "38606592",
+      "36398861",
+      "38791396",
+      "34509860",
+      "36946421",
+      "35768160",
+      "36894036",
+      "36265280",
+      "35389210",
+      "31742995",
+      "36709077",
+      "37150829",
+      "26900866",
+      "32385107",
+      "30482112",
+      "26724994",
+      "30978352",
+      "34293352",
+      "33352993",
+      "38565920",
+      "29760238",
+      "32206112",
+      "34587361",
+      "36008411",
+      "37277530",
+      "37060904",
+      "36523977",
+      "36300789",
+      "34032019",
+      "38746898",
+      "36562717",
+      "33611407",
+      "36063664",
+      "36640924",
+      "29251924",
+      "37920398",
+      "36148553",
+      "24560909",
+      "35247806",
+      "30903741",
+      "20368466",
+      "27589805",
+      "28964625",
+      "31622854",
+      "19324876",
+      "31635084",
+      "37240355",
+      "37111340",
+      "23380592",
+      "24554433",
+      "36825662",
+      "37731696",
+      "36809780",
+      "29558384",
+      "26592798",
+      "32901856",
+      "33850002",
+      "35950546",
+      "34439400",
+      "35726026",
+      "28570566",
+      "26805820",
+      "36347861",
+      "36516960",
+      "24648515",
+      "28960584",
+      "31212916",
+      "33283479",
+      "32579935",
+      "27421669",
+      "31479631",
+      "25634692",
+      "27809333",
+      "33511508",
+      "28515457",
+      "33415007",
+      "27315596",
+      "38473214",
+      "33692845",
+      "34164919",
+      "34304741",
+      "30315101",
+      "36699391",
+      "34952145",
+      "36446891",
+      "33116297",
+      "29457552",
+      "28720576",
+      "34270926",
+      "30411639",
+      "37010474",
+      "33984529",
+      "29749524",
+      "25995450",
+      "32147946",
+      "30794805",
+      "30034932",
+      "27048650",
+      "36434952",
+      "35065165",
+      "23780915",
+      "30581134",
+      "25652178",
+      "30052133",
+      "34128986",
+      "34409639",
+      "38139762",
+      "21203923",
+      "24380865",
+      "31533970",
+      "35378854",
+      "26432639",
+      "25384421",
+      "32912021",
+      "28589555",
+      "34508829",
+      "25719868",
+      "29738494",
+      "32621422",
+      "35763499",
+      "36988034",
+      "39328531",
+      "37770003",
+      "35871292",
+      "39369801",
+      "35739490",
+      "38116405",
+      "36340146"
+    ],
+    "review": [
+      "35288361",
+      "35768160",
+      "36265280",
+      "35389210",
+      "36709077",
+      "30482112",
+      "33352993",
+      "32206112",
+      "34587361",
+      "36063664",
+      "29251924",
+      "27589805",
+      "28964625",
+      "37111340",
+      "23380592",
+      "29558384",
+      "26805820",
+      "31212916",
+      "27421669",
+      "33692845",
+      "34952145",
+      "29457552",
+      "29749524",
+      "30034932",
+      "25652178",
+      "34128986",
+      "34409639",
+      "21203923",
+      "25719868"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(22)00028-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

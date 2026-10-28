@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42296233",
+  "title": "Language model-based self-training reduces labeled data requirements by 99% for biological sequence classification.",
+  "authors": "Liu, Jingwen; Gao, Danmo; Yuan, Yan; Wu, Ziying; Li, Weidong; Wei, Chao",
+  "journal": "Briefings in functional genomics",
+  "published_date": "2026-06-15",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用预训练语言模型结合自训练半监督方法，在极少标注下分类DNA结合蛋白（DBP）序列，虽涉及蛋白-DNA互作对象但未聚焦TF-DNA结合位点或三维互作机制，方法可迁移至TF-DNA预测任务。",
+  "abstract": "The prediction of a biological sequence's function is an exploding field that could prove to be an invaluable tool in deciphering molecular mechanisms of diseases and genetic variation. However, existing techniques suffer from a very low number of experimentally verified labels as well as the complexity of modeling sequence context. Previous work only focuses on semi-supervised learning (SSL) or pre-trained language models (PLMs) individually and does not consider their complementarity: whereas PLMs capture syntactic conservatism and long-range dependency from huge unlabeled sequence data as features, SSL updates label-level certainty via confidence-weighted pseudo-label selection. To realize integrating these benefits, we make a creative use of PLMs as strong feature extractors to make the sequence semantics extracted, and meanwhile leverage the SSL to constrain the decision boundary by selecting reliable pseudo-labels. We show that our framework achieves competitive performance compared to full supervision while using far fewer labeled samples, on two biological prediction tasks: DNA-binding protein (DBP) and non-coding RNA (ncRNA) detection. In general, our approach, developed here, not only offers an efficient solution for discovering new DBP and ncRNA in low-resource settings where experimental verification is infeasible, but also lays a solid methodological foundation for biological sequence classification in computational biology. Key points Unlabeled data significantly improves model accuracy in semi-supervised learning. The language model-based self-training method outperforms traditional semi-supervised approaches like TSVM. It achieves competitive performance against state-of-the-art fully supervised methods, requiring only 1% labeled data for effective classification and accurately identifying novel biomolecules.",
+  "abstract_zh": "生物序列功能的预测是一个快速发展的领域，有望成为解读疾病分子机制和遗传变异中极具价值的工具。然而，现有技术面临实验验证标签数量极少以及序列上下文建模复杂性的挑战。以往的研究仅单独关注半监督学习（SSL）或预训练语言模型（PLMs），未考虑它们的互补性：PLMs从海量未标记序列数据中捕捉句法保守性和长程依赖性作为特征，而SSL通过置信度加权的伪标签选择更新标签级别的确定性。为整合这些优势，我们创造性地利用PLMs作为强大的特征提取器以提取序列语义，同时利用SSL通过选择可靠的伪标签来约束决策边界。我们展示了我们的框架在两个生物预测任务——DNA结合蛋白（DBP）和非编码RNA（ncRNA）检测中，使用远少于全监督的标记样本即可达到竞争性性能。总体而言，我们开发的方法不仅为在实验验证不可行的低资源环境中发现新的DBP和ncRNA提供了高效解决方案，也为计算生物学中的生物序列分类奠定了坚实的方法论基础。关键点：未标记数据在半监督学习中显著提升模型准确性；基于语言模型的自训练方法优于传统半监督方法如TSVM；仅需1%的标记数据即可实现有效分类，并准确识别新型生物分子，达到与最先进的全监督方法相媲美的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42296233/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42296233/",
+  "paper_page_path": "papers/pubmed/42296233/index.html"
+}

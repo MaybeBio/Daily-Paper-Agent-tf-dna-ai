@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41652481",
+  "title": "Identification of glycosylation-related gene signatures associated with coronary artery disease via integrated transcriptomic and machine learning analyses.",
+  "authors": "Fan, Kangjun; Wang, Meng; Zhang, Lin; Li, Zhaoshui; Wang, Hongjing; Jiang, Ting",
+  "journal": "European journal of medical research",
+  "published_date": "2026-02-07",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过转录组和机器学习识别糖基化相关基因作为冠心病诊断标志物，虽涉及转录因子调控网络但非蛋白质-DNA互作核心，且无AI/物理模拟结合建模，与本课题关联微弱。",
+  "abstract": "BACKGROUND: On a global scale, coronary artery disease (CAD) continues to be one of the leading causes of morbidity and death. Glycosylation, a vital post-translational modification, has been linked to a range of cardiovascular conditions, including CAD. This study aims to systematically identify and validate glycosylation-based prognostic biomarkers for CAD, with the ultimate goal of developing a novel clinical diagnostic tool. METHODS: We sourced and pre-processed CAD data sets (GSE20680, GSE20681, GSE42148) from the Gene Expression Omnibus (GEO) database, which comprised 199 CAD samples and 162 control samples post batch effect removal. DE analysis was executed using the R software to pinpoint glycosylation-related differentially expressed genes (GRDEGs), whose functional enrichment analysis was conducted subsequently. Risk scores were calculated using a diagnostic model that was built employing logistic regression (LR), support vector machine (SVM) algorithms, and least absolute shrinkage and selection operator (LASSO) regression analysis. The model further underwent validation employing receiver operating characteristic (ROC) curves, calibration plots, as well as decision curve analysis (DCA). The infiltrated abundance of the immune cells between the high-risk group (HRG) and low-risk group (LRG) was then analyzed by ssGSEA to explore the effect of the GRDEG-based prognostic signatures on the immune response. Furthermore, the interaction networks were constructed to explore the potential regulatory mechanisms and therapy approaches based on the GRDEGs. Finally, the levels of the GRDEG-based prognostic signatures in CAD samples were detected using qRT-PCR and western blotting. RESULTS: Thirty-nine GRDEGs were significantly and differently expressed between the CAD and control groups, which predominantly participate in protein glycosylation and N-Glycan biosynthesis pathways. Among these genes, seven GRDEGs were identified as the prognostic risk signatures, including F5, MGAT4A, HSPG2, ARSB, TUBB3, ST6GAL1, and CAMLG. Based on these genes, the CAD samples were separated into HRG and LRG, and the ICI between HRG and LRG were shown to be significantly different. The constructed interaction networks further suggested that the seven GRDEGs were regulated by several microRNAs (miRNAs), transcription factors (TFs), and RNA-binding proteins (RBPs), and they were the target genes of some chemical drugs. Finally, the outcomes of qRT-PCR and western blotting demonstrated that there were significant variations in expressing these seven key genes in CAD. CONCLUSIONS: This study establishes the critical role of GRDEGs in CAD pathogenesis and presents a robust diagnostic model with potential clinical utility. Furthermore, our findings reveal novel molecular targets that may inform future therapeutic strategies for CAD.",
+  "abstract_zh": "背景：在全球范围内，冠状动脉疾病（coronary artery disease, CAD）仍然是发病和死亡的主要原因之一。糖基化作为一种关键的翻译后修饰，与包括CAD在内的多种心血管疾病相关。本研究旨在系统性地识别并验证基于糖基化的CAD预后生物标志物，最终目标是开发一种新型临床诊断工具。方法：我们从基因表达综合（Gene Expression Omnibus, GEO）数据库中获取并预处理了CAD数据集（GSE20680、GSE20681、GSE42148），在去除批次效应后，共包含199个CAD样本和162个对照样本。使用R软件进行差异表达（DE）分析，以识别与糖基化相关的差异表达基因（GRDEGs），随后对其进行了功能富集分析。利用逻辑回归（logistic regression, LR）、支持向量机（support vector machine, SVM）算法和最小绝对收缩和选择算子（least absolute shrinkage and selection operator, LASSO）回归分析构建诊断模型，并计算风险评分。该模型进一步通过受试者工作特征（receiver operating characteristic, ROC）曲线、校准图和决策曲线分析（decision curve analysis, DCA）进行验证。随后，通过ssGSEA分析高风险组（HRG）和低风险组（LRG）之间免疫细胞的浸润丰度，以探索基于GRDEGs的预后特征对免疫反应的影响。此外，构建了相互作用网络，以探索基于GRDEGs的潜在调控机制和治疗方法。最后，使用qRT-PCR和western blotting检测CAD样本中基于GRDEGs的预后特征水平。结果：在CAD组和对照组之间，39个GRDEGs显著差异表达，主要参与蛋白质糖基化和N-聚糖生物合成途径。在这些基因中，七个GRDEGs被确定为预后风险特征，包括F5、MGAT4A、HSPG2、ARSB、TUBB3、ST6GAL1和CAMLG。基于这些基因，CAD样本被分为HRG和LRG，且HRG和LRG之间的ICI显示出显著差异。构建的相互作用网络进一步表明，这七个GRDEGs受多种微小RNA（miRNAs）、转录因子（TFs）和RNA结合蛋白（RBPs）调控，并且它们是某些化学药物的靶基因。最后，qRT-PCR和western blotting的结果表明，这七个关键基因在CAD中的表达存在显著差异。结论：本研究确立了GRDEGs在CAD发病机制中的关键作用，并提出了一种具有潜在临床实用性的稳健诊断模型。此外，我们的发现揭示了新的分子靶点，可能为未来CAD治疗策略提供信息。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41652481/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41652481/",
+  "paper_page_path": "papers/pubmed/41652481/index.html"
+}

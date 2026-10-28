@@ -1,0 +1,464 @@
+{
+  "identity": {
+    "pmid": "40915561",
+    "doi": "10.1016/j.jare.2025.09.004",
+    "title": "Discovery of natural RORgammat inhibitor using machine learning, virtual screening, and in vivo validation."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Retinoic acid receptor-related orphan receptor gamma t (RORgammat) is a crucial transcription factor regulating Th17 cells, which secrete the cytokine IL-17. RORgammat inhibitors are regarded as a therapeutic modality in a wide range of autoimmunity including psoriasis. OBJECTIVES: The objective of the study is to investigate novel RORgammat inhibitors from natural products (NPs), combining machine learning (ML)-based virtual screening, chemotaxonomic analysis, molecular docking, and molecular dynamics simulations, and biological validation. METHODS: This study employed an integrated approach combining ML-based ligand-based screening, docking study, molecular simulation, and chemotaxonomic analysis to identify RORgammat inhibitors from NPs. RESULTS: ML ensemble models predicted potential RORgammat inhibitors from an NP library; subsequent chemotaxonomic classification of top-ranked hits prioritized protoberberine alkaloids. Six protoberberine alkaloids, which are predicted to bind RORgammat via docking studies, were selected for experimental validation. Among them, berberine (Ber) and coptisine (Cop) potently inhibited Th17 differentiation in vitro. Surface plasmon resonance analysis demonstrated that both Ber and Cop directly bind to RORgammat, with Cop exhibiting a stronger affinity for RORgammat than Ber. Moreover, Cop demonstrated therapeutic efficacy in a preclinical mouse model of psoriasis. These results validate an integrated workflow, combining ML, chemotaxonomy, and experimental testing in vitro and in vivo, for the efficient discovery of novel RORgammat inhibitors.",
+    "keywords": [
+      "Berberine",
+      "Coptisine",
+      "Ensemble model",
+      "Machine learning",
+      "Natural products",
+      "RORgammat"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Nuclear Receptor Subfamily 1, Group F, Member 3/antagonists & inhibitors/chemistry/metabolism",
+      "Animals",
+      "Molecular Docking Simulation",
+      "Th17 Cells/drug effects/metabolism",
+      "Mice",
+      "*Biological Products/pharmacology/chemistry",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "*Drug Discovery/methods",
+      "Cell Differentiation/drug effects",
+      "Berberine/pharmacology/analogs & derivatives/chemistry",
+      "Psoriasis/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yoo, Hojin",
+        "Han, Sang-Jun",
+        "Lee, Jeong-Eun",
+        "Cho, Chaeyeon",
+        "Hong, Donggyun",
+        "Jeong, Birang",
+        "Kim, Sijin",
+        "Jung, Go-Yeon",
+        "Ma, Minjeong",
+        "Jung, Soeun",
+        "Park, Beomjun",
+        "Lee, Namgil",
+        "Yoo, Hee-Seop",
+        "Cho, Kwang-Jin",
+        "Seo, Min-Duk",
+        "Chung, Yeonseok",
+        "Kim, Byung-Seok",
+        "Yang, Heejung"
+      ],
+      "short_names": [
+        "Yoo H",
+        "Han SJ",
+        "Lee JE",
+        "Cho C",
+        "Hong D",
+        "Jeong B",
+        "Kim S",
+        "Jung GY",
+        "Ma M",
+        "Jung S",
+        "Park B",
+        "Lee N",
+        "Yoo HS",
+        "Cho KJ",
+        "Seo MD",
+        "Chung Y",
+        "Kim BS",
+        "Yang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bionsight, Inc., Chuncheon 24341, South Korea.",
+        "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea.",
+        "Laboratory of Immune Regulation, Institute of Pharmaceutical Sciences, College of Pharmacy, Seoul National University, Seoul 08826, South Korea.",
+        "Department of Pharmacy, Kangwon National University, Chuncheon 24341, South Korea.",
+        "Bionsight, Inc., Chuncheon 24341, South Korea.",
+        "Department of Pharmacy, Kangwon National University, Chuncheon 24341, South Korea.",
+        "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea.",
+        "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea.",
+        "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea.",
+        "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea.",
+        "Bionsight, Inc., Chuncheon 24341, South Korea.",
+        "Bionsight, Inc., Chuncheon 24341, South Korea; Department of Information Statistics, Kangwon National University, Chuncheon 24341, South Korea.",
+        "Department of Molecular Science and Technology & College of Pharmacy, Ajou University, Suwon 16499, South Korea.",
+        "Department of Biochemistry and Molecular Biology, Boonshoft School of Medicine, Wright State University, Dayton, OH 45435, USA.",
+        "Department of Molecular Science and Technology & College of Pharmacy, Ajou University, Suwon 16499, South Korea. Electronic address: mdseo@ajou.ac.kr.",
+        "Laboratory of Immune Regulation, Institute of Pharmaceutical Sciences, College of Pharmacy, Seoul National University, Seoul 08826, South Korea. Electronic address: yeonseok@snu.ac.kr.",
+        "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea. Electronic address: byungseokkim@inu.ac.kr.",
+        "Bionsight, Inc., Chuncheon 24341, South Korea; Department of Pharmacy, Kangwon National University, Chuncheon 24341, South Korea. Electronic address: heejyang@kangwon.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yoo, Hojin",
+        "short_name": "Yoo H",
+        "identifiers": [],
+        "affiliations": [
+          "Bionsight, Inc., Chuncheon 24341, South Korea."
+        ]
+      },
+      {
+        "full_name": "Han, Sang-Jun",
+        "short_name": "Han SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jeong-Eun",
+        "short_name": "Lee JE",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Immune Regulation, Institute of Pharmaceutical Sciences, College of Pharmacy, Seoul National University, Seoul 08826, South Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Chaeyeon",
+        "short_name": "Cho C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Kangwon National University, Chuncheon 24341, South Korea."
+        ]
+      },
+      {
+        "full_name": "Hong, Donggyun",
+        "short_name": "Hong D",
+        "identifiers": [],
+        "affiliations": [
+          "Bionsight, Inc., Chuncheon 24341, South Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Birang",
+        "short_name": "Jeong B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Kangwon National University, Chuncheon 24341, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Sijin",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea."
+        ]
+      },
+      {
+        "full_name": "Jung, Go-Yeon",
+        "short_name": "Jung GY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea."
+        ]
+      },
+      {
+        "full_name": "Ma, Minjeong",
+        "short_name": "Ma M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea."
+        ]
+      },
+      {
+        "full_name": "Jung, Soeun",
+        "short_name": "Jung S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Beomjun",
+        "short_name": "Park B",
+        "identifiers": [],
+        "affiliations": [
+          "Bionsight, Inc., Chuncheon 24341, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Namgil",
+        "short_name": "Lee N",
+        "identifiers": [],
+        "affiliations": [
+          "Bionsight, Inc., Chuncheon 24341, South Korea; Department of Information Statistics, Kangwon National University, Chuncheon 24341, South Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Hee-Seop",
+        "short_name": "Yoo HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Science and Technology & College of Pharmacy, Ajou University, Suwon 16499, South Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Kwang-Jin",
+        "short_name": "Cho KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Boonshoft School of Medicine, Wright State University, Dayton, OH 45435, USA."
+        ]
+      },
+      {
+        "full_name": "Seo, Min-Duk",
+        "short_name": "Seo MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Science and Technology & College of Pharmacy, Ajou University, Suwon 16499, South Korea. Electronic address: mdseo@ajou.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Chung, Yeonseok",
+        "short_name": "Chung Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Immune Regulation, Institute of Pharmaceutical Sciences, College of Pharmacy, Seoul National University, Seoul 08826, South Korea. Electronic address: yeonseok@snu.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Kim, Byung-Seok",
+        "short_name": "Kim BS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences, College of Life Science and Bioengineering, Incheon National University, Incheon 22012, South Korea. Electronic address: byungseokkim@inu.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Yang, Heejung",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Bionsight, Inc., Chuncheon 24341, South Korea; Department of Pharmacy, Kangwon National University, Chuncheon 24341, South Korea. Electronic address: heejyang@kangwon.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of advanced research"
+    ],
+    "journal_abbrev": [
+      "J Adv Res"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/08 00:33",
+    "fetched_at": "2026-10-05 04:20:13"
+  },
+  "links": {
+    "cites": [
+      "42059024"
+    ],
+    "refs": [
+      "40099818",
+      "39944624",
+      "39558165",
+      "35616633",
+      "35440144",
+      "34693143",
+      "34168145",
+      "34050263",
+      "33833336",
+      "33812489",
+      "33510482",
+      "33397953",
+      "32829384",
+      "32551004",
+      "32292560",
+      "32162523",
+      "31408336",
+      "31403347",
+      "30976107",
+      "30442987",
+      "29904348",
+      "29750902",
+      "29629118",
+      "28636167",
+      "27957743",
+      "27867422",
+      "27852111",
+      "27558503",
+      "27219696",
+      "26969793",
+      "26228628",
+      "25614221",
+      "25500868",
+      "25017032",
+      "24900774",
+      "24239186",
+      "24040486",
+      "23021777",
+      "21499262",
+      "20622114",
+      "20426451",
+      "20203100",
+      "19661066",
+      "17227914",
+      "17109902",
+      "14722075",
+      "14640776",
+      "12958591",
+      "12467577",
+      "11689423",
+      "3286870"
+    ],
+    "similar": [
+      "40915561",
+      "30301676",
+      "30972071",
+      "24516202",
+      "31881455",
+      "26368822",
+      "26021566",
+      "29523162",
+      "37110655",
+      "27905482",
+      "41189072",
+      "35163824",
+      "21441909",
+      "34040108",
+      "29899748",
+      "41688903",
+      "28943467",
+      "27726924",
+      "39987640",
+      "30905492",
+      "28546429",
+      "34303081",
+      "34219199",
+      "35453073",
+      "29155882",
+      "25341687",
+      "24782182",
+      "28617942",
+      "28318945",
+      "24388993",
+      "41997441",
+      "25604624",
+      "25527718",
+      "40760856",
+      "31403347",
+      "31744223",
+      "32829384",
+      "21499262",
+      "30513894",
+      "41780347",
+      "31323598",
+      "27926504",
+      "30121880",
+      "31795780",
+      "39396455",
+      "40110872",
+      "21733845",
+      "33272782",
+      "26277758",
+      "39133959",
+      "29282318",
+      "34957834",
+      "26170390",
+      "42143843",
+      "41405997",
+      "28738533",
+      "35127160",
+      "34752458",
+      "40237323",
+      "24745332",
+      "37037407",
+      "30009847",
+      "34022896",
+      "32375589",
+      "33473108",
+      "39972304",
+      "22949321",
+      "27430721",
+      "26477794",
+      "41480759",
+      "40356912",
+      "30652849",
+      "25187413",
+      "29687949",
+      "34118722",
+      "29342416",
+      "41267108",
+      "24574218",
+      "30405600",
+      "31375639",
+      "29369782",
+      "41373728",
+      "25073789",
+      "40498229",
+      "38824406",
+      "24064669",
+      "28763457",
+      "30478092",
+      "37335900",
+      "40670559",
+      "26792955",
+      "34132933",
+      "37301184",
+      "27880975",
+      "30592425",
+      "24792721",
+      "24808372",
+      "26926174",
+      "33852312",
+      "25092323"
+    ],
+    "review": [
+      "40915561",
+      "29899748",
+      "31403347",
+      "40110872",
+      "37037407",
+      "22949321",
+      "38824406",
+      "26792955"
+    ],
+    "pmc": [
+      "13227160"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2090-1232(25)00687-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40915561/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

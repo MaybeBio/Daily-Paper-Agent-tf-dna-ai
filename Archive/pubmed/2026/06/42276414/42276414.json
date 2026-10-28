@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "42276414",
+    "doi": "10.1016/j.ajpath.2026.05.008",
+    "title": "Predicting TP53 Biomarkers from Whole Slide Images across Human Solid Tumors Using Weakly Supervised Learning."
+  },
+  "content": {
+    "abstract": "Accurate molecular profiling from routine histopathology slides could transform clinical oncology. A Vision Transformer (ViT)-based model was developed to jointly predict the TP53 biomarker, detect 32 solid tumor types, and predict survival directly from whole slide images (WSIs). Over 11,000 primary tumor data were retrieved from the Pan-Cancer Atlas, along with corresponding somatic mutation, RNA-sequencing, and clinical outcome data. WSIs underwent tissue masking, quality control, stain normalization, patch extraction, and feature embedding using a ViT encoder. Seven task heads were developed to generate predictions for cancer type, TP53 mutation status, TP53 RNA expression levels, overall survival, progression-free interval, and their corresponding event times. Model training proceeded in two stages: initial training on tumor-only patches at multiple magnifications, followed by fine-tuning on WSIs using a content-aware strategy. Model performance was evaluated on an independent validation set of 1729 slides using evaluation metrics, including the area under the receiver operating characteristic curve, regression metrics, and the concordance index. An area under the receiver operating characteristic curve of 0.766 was found for TP53 mutation detection on an independent validation set across 32 human solid tumors. In conclusion, the ViT-based model could simultaneously infer TP53 mutation status, TP53 RNA expression levels, and tumor taxonomy directly from WSIs, supporting the existence of reproducible morphologic correlates of TP53 alterations across human cancers, whereas prognostic risk prediction remained limited.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Suppressor Protein p53/genetics/metabolism",
+      "*Biomarkers, Tumor/genetics/metabolism/analysis",
+      "*Neoplasms/pathology/genetics",
+      "*Supervised Machine Learning",
+      "Mutation",
+      "Prognosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chaurasia, Abadh K",
+        "Toohey, Patrick W",
+        "Bennett, Matthew T",
+        "Harris, Helen C",
+        "Hewitt, Alex W"
+      ],
+      "short_names": [
+        "Chaurasia AK",
+        "Toohey PW",
+        "Bennett MT",
+        "Harris HC",
+        "Hewitt AW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia; Pandani Solutions Pty Ltd, Hobart, Tasmania, Australia. Electronic address: abadh.chaurasia@utas.edu.au.",
+        "Pandani Solutions Pty Ltd, Hobart, Tasmania, Australia.",
+        "Pandani Solutions Pty Ltd, Hobart, Tasmania, Australia.",
+        "Department of Pathology, Royal Hobart Hospital, Hobart, Tasmania, Australia.",
+        "Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia; School of Medicine, University of Tasmania, Hobart, Tasmania, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chaurasia, Abadh K",
+        "short_name": "Chaurasia AK",
+        "identifiers": [],
+        "affiliations": [
+          "Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia; Pandani Solutions Pty Ltd, Hobart, Tasmania, Australia. Electronic address: abadh.chaurasia@utas.edu.au."
+        ]
+      },
+      {
+        "full_name": "Toohey, Patrick W",
+        "short_name": "Toohey PW",
+        "identifiers": [],
+        "affiliations": [
+          "Pandani Solutions Pty Ltd, Hobart, Tasmania, Australia."
+        ]
+      },
+      {
+        "full_name": "Bennett, Matthew T",
+        "short_name": "Bennett MT",
+        "identifiers": [],
+        "affiliations": [
+          "Pandani Solutions Pty Ltd, Hobart, Tasmania, Australia."
+        ]
+      },
+      {
+        "full_name": "Harris, Helen C",
+        "short_name": "Harris HC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Royal Hobart Hospital, Hobart, Tasmania, Australia."
+        ]
+      },
+      {
+        "full_name": "Hewitt, Alex W",
+        "short_name": "Hewitt AW",
+        "identifiers": [],
+        "affiliations": [
+          "Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia; School of Medicine, University of Tasmania, Hobart, Tasmania, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The American journal of pathology"
+    ],
+    "journal_abbrev": [
+      "Am J Pathol"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 00:37",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42276414",
+      "42494157",
+      "42286527",
+      "34686474",
+      "32896505",
+      "37352385",
+      "30416077",
+      "42589374",
+      "39947084",
+      "41250202",
+      "41923035",
+      "33789615",
+      "42026805",
+      "24374933",
+      "39461079",
+      "41993946",
+      "39372403",
+      "42260443",
+      "35483237",
+      "39809091",
+      "39979837",
+      "40639011",
+      "40522559",
+      "36481762",
+      "33177794",
+      "42706096",
+      "30900104",
+      "42588692",
+      "38871058",
+      "39166457",
+      "33879103",
+      "35935965",
+      "30542790",
+      "32735048",
+      "15538112",
+      "17504517",
+      "39923208",
+      "41841638",
+      "37655432",
+      "31564192",
+      "41455181",
+      "40777041",
+      "42339119",
+      "33314730",
+      "39358807",
+      "42553869",
+      "39531992",
+      "32724153",
+      "39285224",
+      "38820715",
+      "33391264",
+      "27129168",
+      "37890902",
+      "34908807",
+      "24803582",
+      "41751574",
+      "41237514",
+      "33356494",
+      "40959426",
+      "41955913",
+      "31425802",
+      "40165604",
+      "35588568",
+      "39197898",
+      "40829965",
+      "35847579",
+      "40865918",
+      "39843568",
+      "32662546",
+      "26910472",
+      "41289566",
+      "42025847",
+      "37324098",
+      "34400666",
+      "39038392",
+      "28599900",
+      "41656803",
+      "42074489",
+      "40486872",
+      "40792413",
+      "42601689",
+      "30990221",
+      "42233457",
+      "37081749",
+      "40199428",
+      "41444960",
+      "41002558",
+      "39089654",
+      "42315496",
+      "40380086",
+      "27880943",
+      "31365877",
+      "37275857",
+      "41436831",
+      "34902987",
+      "40143808",
+      "15329912",
+      "42103618",
+      "42407198",
+      "10987229"
+    ],
+    "review": [
+      "42276414",
+      "42260443"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0002-9440(26)00166-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0002-9440(26)00166-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

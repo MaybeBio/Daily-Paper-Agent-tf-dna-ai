@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34962963",
+  "title": "Developmental gene regulatory network connections predicted by machine learning from gene expression data alone.",
+  "authors": "Zhang, Jingyi; Ibrahim, Farhan; Najmulski, Emily; Katholos, George; Altarawy, Doaa; Heath, Lenwood S; Tulin, Sarah L",
+  "journal": "PloS one",
+  "published_date": "2021-12-29",
+  "window": {
+    "start": "2021-12-27",
+    "end": "2022-01-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习从基因表达数据推断发育基因调控网络，虽涉及转录因子但无蛋白-DNA三维互作建模，方法可迁移性有限。",
+  "abstract": "Gene regulatory network (GRN) inference can now take advantage of powerful machine learning algorithms to complement traditional experimental methods in building gene networks. However, the dynamical nature of embryonic development-representing the time-dependent interactions between thousands of transcription factors, signaling molecules, and effector genes-is one of the most challenging arenas for GRN prediction. In this work, we show that successful GRN predictions for a developmental network from gene expression data alone can be obtained with the Priors Enriched Absent Knowledge (PEAK) network inference algorithm. PEAK is a noise-robust method that models gene expression dynamics via ordinary differential equations and selects the best network based on information-theoretic criteria coupled with the machine learning algorithm Elastic Net. We test our GRN prediction methodology using two gene expression datasets for the purple sea urchin, Stronglyocentrotus purpuratus, and cross-check our results against existing GRN models that have been constructed and validated by over 30 years of experimental results. Our results find a remarkably high degree of sensitivity in identifying known gene interactions in the network (maximum 81.58%). We also generate novel predictions for interactions that have not yet been described, which provide a resource for researchers to use to further complete the sea urchin GRN. Published ChIPseq data and spatial co-expression analysis further support a subset of the top novel predictions. We conclude that GRN predictions that match known gene interactions can be produced using gene expression data alone from developmental time series experiments.",
+  "abstract_zh": "基因调控网络（GRN）推断现在可以利用强大的机器学习算法，以补充传统实验方法在构建基因网络方面的不足。然而，胚胎发育的动态特性——代表数千个转录因子、信号分子和效应基因之间随时间变化的相互作用——是GRN预测中最具挑战性的领域之一。在本工作中，我们展示了仅从基因表达数据出发，使用先验富集缺失知识（PEAK）网络推断算法，可以获得针对发育网络的成功GRN预测。PEAK是一种噪声鲁棒方法，通过常微分方程建模基因表达动态，并基于信息论准则结合机器学习算法弹性网络（Elastic Net）选择最佳网络。我们使用紫色海胆（Strongylocentrotus purpuratus）的两个基因表达数据集测试了我们的GRN预测方法，并将结果与已有GRN模型进行交叉验证，这些模型基于超过30年的实验结果构建并验证。我们的结果在识别网络中已知基因相互作用方面显示出极高的敏感性（最高达81.58%）。我们还为尚未描述的相互作用生成了新颖预测，这为研究人员进一步完善海胆GRN提供了资源。已发表的ChIPseq数据和空间共表达分析进一步支持了部分顶级新颖预测。我们得出结论，仅使用发育时间序列实验中的基因表达数据，即可产生与已知基因相互作用匹配的GRN预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34962963/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34962963/",
+  "paper_page_path": "papers/pubmed/34962963/index.html"
+}

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "41010053",
+    "doi": "10.3390/genes16091108",
+    "title": "Predicting Gene Expression Responses to Cold in Arabidopsis thaliana Using Natural Variation in DNA Sequence."
+  },
+  "content": {
+    "abstract": "Background/Objectives: The evolution of gene expression responses is a critical component of population adaptation to variable environments. Predicting how DNA sequence influences expression is challenging because the genotype-to-phenotype map is not well resolved for cis-regulatory elements, transcription factor binding, regulatory interactions, and epigenetic features, not to mention how these factors respond to the environment. Methods: We tested if flexible machine learning models could learn some of the underlying cis-regulatory genotype-to-phenotype map to predict expression response to a specific environment. We tested this approach using cold-responsive transcriptome profiles in five Arabidopsis thaliana natural accessions. Results: We first tested for evidence that cis regulation plays a role in environmental response, finding 14 and 15 motifs that were significantly enriched within the up- and downstream regions of cold-responsive differentially regulated genes (DEGs). We next applied convolutional neural networks (CNNs), which learn de novo cis-regulatory motifs in DNA sequences to predict expression response to cold. We found that CNNs predicted differential expression with moderate accuracy, with evidence that predictions were hindered by the biological complexity of regulation and the large potential regulatory code. Conclusions: Overall, approaches for predicting DEGs between specific environments based only on proximate DNA sequences require further development. It may be necessary to incorporate additional biological information into models to generate accurate predictions that will be useful to population biologists.",
+    "keywords": [
+      "evolution",
+      "gene expression prediction",
+      "genotype-environment interaction",
+      "low-frequency variants",
+      "machine learning",
+      "regulatory elements"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics",
+      "*Gene Expression Regulation, Plant",
+      "Cold Temperature",
+      "Transcriptome/genetics",
+      "Machine Learning",
+      "Neural Networks, Computer",
+      "Regulatory Sequences, Nucleic Acid",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Takou, Margarita",
+        "Bellis, Emily S",
+        "Lasky, Jesse R"
+      ],
+      "short_names": [
+        "Takou M",
+        "Bellis ES",
+        "Lasky JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6176-6251"
+      ],
+      "affiliations": [
+        "Department of Biology, Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Biology, Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Computer Science, Arkansas State University, Jonesboro, AR 72401, USA.",
+        "Department of Biology, Pennsylvania State University, University Park, PA 16802, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Takou, Margarita",
+        "short_name": "Takou M",
+        "identifiers": [
+          "0000-0001-6176-6251"
+        ],
+        "affiliations": [
+          "Department of Biology, Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Bellis, Emily S",
+        "short_name": "Bellis ES",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Pennsylvania State University, University Park, PA 16802, USA.",
+          "Department of Computer Science, Arkansas State University, Jonesboro, AR 72401, USA."
+        ]
+      },
+      {
+        "full_name": "Lasky, Jesse R",
+        "short_name": "Lasky JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2025 Sep 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 06:34",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "42352271",
+      "41925147",
+      "40864264"
+    ],
+    "refs": [
+      "38997252",
+      "38289961",
+      "38036778",
+      "37733863",
+      "37528982",
+      "37036986",
+      "37002860",
+      "36973806",
+      "36805962",
+      "36683406",
+      "36608347",
+      "36462664",
+      "35799371",
+      "35460234",
+      "35258588",
+      "35226744",
+      "35046575",
+      "34918159",
+      "34865154",
+      "34791192",
+      "34735005",
+      "34606492",
+      "34583930",
+      "34322657",
+      "33892958",
+      "33760053",
+      "33658387",
+      "33575601",
+      "33565589",
+      "33413545",
+      "32321158",
+      "31986354",
+      "31937681",
+      "31781160",
+      "31551359",
+      "31420517",
+      "30842277",
+      "30561727",
+      "30358892",
+      "30092410",
+      "29532920",
+      "29300935",
+      "29203652",
+      "28338820",
+      "28096395",
+      "28044345",
+      "27432888",
+      "27293186",
+      "27247130",
+      "27189540",
+      "27035986",
+      "26953271",
+      "26873929",
+      "26604315",
+      "26256266",
+      "25600594",
+      "25428981",
+      "25039860",
+      "24850899",
+      "24136507",
+      "23874456",
+      "22705669",
+      "22392219",
+      "22143240",
+      "21670576",
+      "21483757",
+      "20921187",
+      "20472817",
+      "19505943",
+      "19139764",
+      "17764576",
+      "17324271",
+      "16844837",
+      "16642012",
+      "15728337",
+      "15229602",
+      "14745450",
+      "14681366",
+      "12777501",
+      "12172015"
+    ],
+    "similar": [
+      "41010053",
+      "38712066",
+      "24148294",
+      "19566593",
+      "17291162",
+      "16113229",
+      "32600430",
+      "25361952",
+      "19357200",
+      "23171377",
+      "24850899",
+      "9023378",
+      "15890746",
+      "23124324",
+      "31551359",
+      "32526881",
+      "34735005",
+      "22184637",
+      "22168340",
+      "18808718",
+      "18375597",
+      "15634197",
+      "17888165",
+      "28009483",
+      "18471443",
+      "22744985",
+      "12820902",
+      "21635767",
+      "24204023",
+      "22402413",
+      "16214899",
+      "15833119",
+      "21036669",
+      "40378751",
+      "27861992",
+      "31856731",
+      "19425157",
+      "34983397",
+      "17764576",
+      "29588361",
+      "17672917",
+      "8193295",
+      "24520154",
+      "34865154",
+      "37289769",
+      "21694767",
+      "29764987",
+      "17408486",
+      "26369909",
+      "30029596",
+      "18922165",
+      "25428981",
+      "28373393",
+      "22086087",
+      "31270366",
+      "27185363",
+      "23620480",
+      "21106056",
+      "34039279",
+      "26645959",
+      "12172015",
+      "24009676",
+      "28615505",
+      "31937681",
+      "21571672",
+      "17148485",
+      "18230142",
+      "26175515",
+      "21044807",
+      "41317612",
+      "41015345",
+      "19270186",
+      "32586356",
+      "15908603",
+      "9881163",
+      "40341395",
+      "30192796",
+      "30866818",
+      "21592396",
+      "26833485",
+      "16412085",
+      "18775899",
+      "26817596",
+      "39457112",
+      "24888606",
+      "22321773",
+      "25354782",
+      "38187729",
+      "21515819",
+      "30261913",
+      "26499213",
+      "12728319",
+      "17630278",
+      "23645342",
+      "22058225",
+      "36100536",
+      "27189540",
+      "11158529",
+      "34561450",
+      "27557771"
+    ],
+    "review": [
+      "41010053",
+      "32526881",
+      "34983397",
+      "30192796"
+    ],
+    "pmc": [
+      "12469744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes16091108",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41010053/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

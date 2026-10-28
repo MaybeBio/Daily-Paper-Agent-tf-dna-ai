@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, materials and methods, tables, and figure legends.
+- **Assessment boundary** Scientific content, technical soundness, interpretation of results, and alignment with the stated conclusions. Editorial and stylistic aspects are considered only insofar as they affect clarity and readability.
+- **Shared manuscript claim summary** The authors systematically characterize six oncogenic Tyr-to-Cys mutations in the p53 DNA-binding domain (Y126C, Y163C, Y205C, Y220C, Y234C, Y236C) and two non-cancerous variants (Y103C, Y107C). They report that all cancer-associated mutants are highly destabilizing (ΔTm of 8–17 °C), that Y234C and Y236C create internal cavities of different sizes, that Y126C and Y205C create small surface pockets, and that Y163C exhibits a dynamic mutation-induced pocket. They further report differential stabilization of these mutants by arsenic trioxide (ATO) and stibogluconate, with a proximity effect related to the ATO binding site, and discuss implications for mutant-specific versus generic reactivator strategies.
+- **Visible evidence base** Differential scanning fluorimetry (DSF) melting temperatures (Table 1, Fig. 1C); X-ray crystal structures of six mutants (Table 2, Figs. 2, 3, 4); cavity size calculations (Table 3); ATO and stibogluconate stabilization data (Fig. 5, Supplementary Tables S3, S4); molecular dynamics simulations of Y126C and Y163C mutants (Figs. 3B, 4C, 4D, Supplementary Figs. S1–S3); database frequency analysis (Fig. 1B, Supplementary Tables S1, S2).
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S5) are referenced but not provided. PDB validation reports for the six new structures are not included. Coordinates and structure factors are not available for independent verification. Details of the druggability prediction using PockDrug are incomplete (e.g., ligand definition, parameters used).
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically rigorous analysis of Tyr-to-Cys mutations in the p53 DNA-binding domain, combining biophysical stability measurements, X-ray crystallography, and molecular dynamics simulations. The work extends the authors' previous studies on the Y220C mutant and provides a useful framework for considering mutant-specific versus generic reactivation strategies. The structural data are of good quality, and the stability measurements are carefully performed. However, several concerns arise regarding the interpretation of the ATO stabilization data, the generalizability of the conclusions, and the strength of the claims regarding druggability of the Y163C pocket. The manuscript is of interest to the p53 and drug discovery communities, but the case for broad implications is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in the p53 field, particularly those studying mutant p53 reactivation and structure-based drug design. The work also has relevance for the broader community interested in protein stabilization by small molecules, cavity-creating mutations, and the structural basis of temperature-sensitive phenotypes. The systematic comparison of six cancer-associated mutations provides a useful reference dataset for computational and experimental studies of p53 mutants.
+- **Major strengths** The systematic approach covering all cancer-associated Tyr-to-Cys mutations in the p53 DBD is commendable. The combination of DSF, crystallography, and MD simulations provides complementary views of the mutational effects. The crystal structures are determined at good resolution (1.38–2.10 Å) with reasonable refinement statistics. The observation of a proximity effect for ATO stabilization is interesting and potentially useful for predicting responsive mutants. The discussion of mutant-specific versus generic reactivators is thoughtful and balanced.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of ATO stabilization data
+  - **Claim pointer** The authors state that differential stabilization of the mutants upon ATO treatment revealed an "interesting proximity effect" and that this provides a "strong rationale for developing mutant-specific stabilizers alongside generic binders."
+  - **Evidence pointer** Fig. 5, Supplementary Tables S3, S4; location not provided for specific data points
+  - **Concern** The ATO stabilization experiments were performed on a stabilized quadruple mutant background (QM; M133L/V203A/N239Y/N268D), not on the wild-type or the clinically relevant single-mutant background. The authors do not address whether the stabilizing mutations in the QM background could alter the conformation or dynamics of the ATO binding site or the mutation-induced pockets, potentially confounding the observed differential stabilization. Furthermore, the ATO binding site involves cysteines (Cys124, Cys135, Cys141) that are in the vicinity of some of the Tyr-to-Cys mutations studied. The authors do not discuss whether the introduced cysteine at the mutation site could itself react with ATO, creating an additional binding or cross-linking possibility that would complicate the interpretation of the stabilization data. The claim of a "proximity effect" is based on a small number of mutants and lacks a quantitative framework (e.g., distance from mutation site to ATO binding site vs. degree of stabilization).
+  - **Why it matters** The ATO data are central to the authors' argument for mutant-specific reactivation strategies. If the QM background or the introduced cysteine confounds the results, the conclusions regarding differential responsiveness and the proximity effect may not be valid for the clinically relevant single-mutant p53 proteins. This directly affects the translational implications of the work.
+  - **Resolution test** The authors should repeat or justify the ATO stabilization experiments on single-mutant backgrounds (without the QM stabilizing mutations) for at least a subset of the mutants. Alternatively, they should provide evidence that the QM background does not alter the ATO binding site or the conformational dynamics relevant to ATO binding. They should also address the potential for the introduced cysteine at the mutation site to react with ATO, e.g., by mass spectrometry or by using a cysteine-free control.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors conclude that "Y234C and Y236C, which are destabilized via the formation of internal cavities, are classical ts mutants with the potential to be reactivated with generic stabilizers" and that "the Y163C mutant... may be exploited for the development of small-molecule stabilizers."
+  - **Evidence pointer** Figs. 2, 4, Table 3; location not provided
+  - **Concern** The classification of Y234C and Y236C as "classical ts mutants" is based solely on structural observations of internal cavities and stability measurements. No functional data (e.g., transcriptional activity at permissive versus non-permissive temperatures) are provided to support this classification. The claim that Y163C may be a target for small-molecule stabilizers is based on a single MD snapshot with a druggability score of 0.68, which is described as "reasonably high" but is substantially lower than the score of 0.90 for the Y220C pocket. The authors do not provide error estimates or a statistical analysis of the druggability prediction, nor do they compare with known non-druggable pockets to establish a threshold. The generalizability of the conclusions to other p53 mutants or to the clinical setting is not demonstrated.
+  - **Why it matters** The conclusions regarding ts classification and druggability are used to support the broader claim that the p53 mutome can be systematically targeted with reactivators. If these classifications are not experimentally validated, the framework proposed by the authors may be premature and could mislead future drug discovery efforts.
+  - **Resolution test** The authors should provide functional data (e.g., temperature-dependent transcriptional activity assays) for at least Y234C and Y236C to support the ts classification. For the druggability claim, they should provide a more rigorous analysis, including multiple MD snapshots, error estimates, and a comparison with known non-druggable pockets. Ideally, experimental validation of small-molecule binding to the Y163C pocket should be attempted or clearly stated as a future direction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation of Y163C dynamics
+  - **Claim pointer** The authors state that MD simulations of the Y163C mutant show "a pronounced structural plasticity, with transient protein states that are characterized by a drastically enlarged binding pocket."
+  - **Evidence pointer** Fig. 4C, 4D, Supplementary Figs. S2, S3; location not provided
+  - **Concern** The MD simulations were performed on the QM background, not on the single-mutant Y163C. The authors do not discuss whether the QM mutations could affect the dynamics of the L2/L3 loop region or the stability of the salt bridge between Glu171 and Arg249. The observation of a bimodal distribution for the Glu171-Arg249 distance is interesting, but the authors do not provide a quantitative analysis of the population sizes or the timescales of transitions between the two states. The representative snapshot shown in Fig. 4C is from a single time point (106.88 ns of run 4) and may not be representative of the overall ensemble.
+  - **Why it matters** The claim of a dynamic pocket in Y163C is a key finding that distinguishes this mutant from the others. If the dynamics are an artifact of the QM background or are not robustly characterized, the conclusion that Y163C may be targetable with small molecules is weakened.
+  - **Resolution test** The authors should perform MD simulations on the single-mutant Y163C background (without QM mutations) to confirm the observed dynamics. They should provide a more quantitative analysis of the conformational ensemble, including population distributions and transition rates. If possible, experimental validation of the conformational heterogeneity (e.g., by NMR or HDX-MS) would strengthen the claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Fig. 1B
+  - **Evidence pointer** Fig. 1B; location not provided
+  - **Issue** The solvent accessibility values in Fig. 1B are presented as a bar chart, but the units and the method of calculation (NACCESS) are only mentioned in the figure legend. The y-axis label is not visible in the text.
+  - **Required correction** Ensure the y-axis is clearly labeled with the solvent accessibility units (e.g., Å²) and that the NACCESS calculation is described in the main text or figure legend for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Druggability prediction
+  - **Evidence pointer** Results section, "Druggability prediction for the mutation-induced pocket in the MD snapshot shown in Fig. 4C using the program PockDrug [42] gave a reasonably high druggability score of 0.68"
+  - **Issue** The methods section does not describe how the druggability prediction was performed, including the input preparation, the choice of snapshot, and the parameters used.
+  - **Required correction** Add a brief description of the druggability prediction method in the Materials and methods section, including the software version, input preparation, and any relevant parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** DSF measurements
+  - **Evidence pointer** Table 1, Fig. 5; location not provided
+  - **Issue** The number of independent experiments is given in Table 1, but the statistical significance of differences between mutants (e.g., Y234C vs. Y236C) is not reported.
+  - **Required correction** Consider adding statistical tests (e.g., t-tests or ANOVA) to compare Tm values between mutants, or at least state that differences were not tested for significance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion; location not provided
+  - **Issue** The authors do not discuss the recent clinical data on rezatapopt (PC14586) in detail, nor do they compare their findings with other recent studies on p53 reactivation (e.g., small molecules targeting other mutants such as R175H or G245S).
+  - **Required correction** Add a brief discussion of recent clinical and preclinical data on p53 reactivators to place the findings in the current context.
+- **Technical failings that need to be addressed before the case is established** The ATO stabilization experiments on the QM background need to be justified or repeated on single-mutant backgrounds (R1-M1). The ts classification of Y234C and Y236C requires functional validation (R1-M2). The MD simulations should be performed on the single-mutant background to confirm the Y163C dynamics (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The systematic analysis of all cancer-associated Tyr-to-Cys mutations in the p53 DBD is a novel contribution, extending previous work on Y220C. The observation of a dynamic pocket in Y163C is potentially original, but requires further validation.
+  - **Scientific importance** The work addresses an important question in the p53 field: how to systematically target mutant p53 for reactivation. The findings have potential implications for drug discovery, but the translational relevance is not fully established.
+  - **Interdisciplinary readership** The work will appeal to structural biologists, biophysicists, cancer biologists, and medicinal chemists. The interdisciplinary appeal is moderate, as the focus is primarily on structural and biophysical aspects.
+  - **Technical soundness** The experimental methods are generally sound, with good-quality crystal structures and careful DSM measurements. However, the concerns regarding the QM background in ATO experiments and MD simulations need to be addressed.
+  - **Readability for nonspecialists** The manuscript is clearly written and accessible to a broad scientific audience. The figures are informative, though some (e.g., Fig. 4) are dense and may require careful study.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable dataset and interesting observations, but the key claims regarding ATO proximity effects, ts classification, and Y163C druggability require additional experimental support or clarification.
+
+## Risk / unsupported claims
+- The claim that Y234C and Y236C are "classical ts mutants" is unsupported by functional data.
+- The claim that the Y163C pocket is druggable, based on a single MD snapshot with a PockDrug score of 0.68, is weakly supported.
+- The "proximity effect" for ATO stabilization is based on a small number of mutants and lacks a quantitative framework.
+- The generalizability of the findings to the clinical setting (e.g., predicting which mutants will respond to ATO or other reactivators) is not established.
+- The statement that "Y126C and Y205C mutations induce small water-filled pockets on the surface" is supported by the crystal structures, but the functional significance of these pockets is not demonstrated.

@@ -1,0 +1,224 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2020.12.29.424636",
+  "title": "Chromatin and gene-regulatory dynamics of the developing human cerebral cortex at single-cell resolution",
+  "doi": "10.1101/2020.12.29.424636",
+  "abstract": "<h4>ABSTRACT</h4> Genetic perturbations of cerebral cortical development can lead to neurodevelopmental disease, including autism spectrum disorder (ASD). To identify genomic regions crucial to corticogenesis, we mapped the activity of gene-regulatory elements generating a single-cell atlas of gene expression and chromatin accessibility both independently and jointly. This revealed waves of gene regulation by key transcription factors (TFs) across a nearly continuous differentiation trajectory into glutamatergic neurons, distinguished the expression programs of glial lineages, and identified lineage-determining TFs that exhibited strong correlation between linked gene-regulatory elements and expression levels. These highly connected genes adopted an active chromatin state in early differentiating cells, consistent with lineage commitment. Basepair-resolution neural network models identified strong cell-type specific enrichment of noncoding mutations predicted to be disruptive in a cohort of ASD subjects and identified frequently disrupted TF binding sites. This approach illustrates how cell-type specific mapping can provide insights into the programs governing human development and disease.",
+  "authors": [
+    "Trevino AE",
+    "Müller F",
+    "Andersen J",
+    "Sundaram L",
+    "Kathiria A",
+    "Shcherbina A",
+    "Farh K",
+    "Chang HY",
+    "Paşca AM",
+    "Kundaje A",
+    "Paşca SP",
+    "Greenleaf WJ"
+  ],
+  "published_date": "2020-12-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2020.12.29.424636",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2020.12.29.424636.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR259158",
+    "raw_record": {
+      "id": "PPR259158",
+      "source": "PPR",
+      "doi": "10.1101/2020.12.29.424636",
+      "title": "Chromatin and gene-regulatory dynamics of the developing human cerebral cortex at single-cell resolution",
+      "authorString": "Trevino AE, Müller F, Andersen J, Sundaram L, Kathiria A, Shcherbina A, Farh K, Chang HY, Paşca AM, Kundaje A, Paşca SP, Greenleaf WJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Trevino AE",
+            "lastName": "Trevino",
+            "firstName": "Alexandro",
+            "initials": "AE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9763-1540"
+            }
+          },
+          {
+            "fullName": "Müller F",
+            "lastName": "Müller",
+            "firstName": "Fabian",
+            "initials": "F"
+          },
+          {
+            "fullName": "Andersen J",
+            "lastName": "Andersen",
+            "firstName": "Jimena",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9320-6507"
+            }
+          },
+          {
+            "fullName": "Sundaram L",
+            "lastName": "Sundaram",
+            "firstName": "Laksshman",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8953-3940"
+            }
+          },
+          {
+            "fullName": "Kathiria A",
+            "lastName": "Kathiria",
+            "firstName": "Arwa",
+            "initials": "A"
+          },
+          {
+            "fullName": "Shcherbina A",
+            "lastName": "Shcherbina",
+            "firstName": "Anna",
+            "initials": "A"
+          },
+          {
+            "fullName": "Farh K",
+            "lastName": "Farh",
+            "firstName": "Kyle",
+            "initials": "K"
+          },
+          {
+            "fullName": "Chang HY",
+            "lastName": "Chang",
+            "firstName": "Howard",
+            "initials": "HY"
+          },
+          {
+            "fullName": "Paşca AM",
+            "lastName": "Paşca",
+            "firstName": "Anca",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Kundaje A",
+            "lastName": "Kundaje",
+            "firstName": "Anshul",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3084-2287"
+            }
+          },
+          {
+            "fullName": "Paşca SP",
+            "lastName": "Paşca",
+            "firstName": "Sergiu",
+            "initials": "SP"
+          },
+          {
+            "fullName": "Greenleaf WJ",
+            "lastName": "Greenleaf",
+            "firstName": "William",
+            "initials": "WJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5809-2321"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9320-6507"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0445-9009"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8953-3940"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9763-1540"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3084-2287"
+          }
+        ]
+      },
+      "pubYear": "2020",
+      "abstractText": "<h4>ABSTRACT</h4>  Genetic perturbations of cerebral cortical development can lead to neurodevelopmental disease, including autism spectrum disorder (ASD). To identify genomic regions crucial to corticogenesis, we mapped the activity of gene-regulatory elements generating a single-cell atlas of gene expression and chromatin accessibility both independently and jointly. This revealed waves of gene regulation by key transcription factors (TFs) across a nearly continuous differentiation trajectory into glutamatergic neurons, distinguished the expression programs of glial lineages, and identified lineage-determining TFs that exhibited strong correlation between linked gene-regulatory elements and expression levels. These highly connected genes adopted an active chromatin state in early differentiating cells, consistent with lineage commitment. Basepair-resolution neural network models identified strong cell-type specific enrichment of noncoding mutations predicted to be disruptive in a cohort of ASD subjects and identified frequently disrupted TF binding sites. This approach illustrates how cell-type specific mapping can provide insights into the programs governing human development and disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2020
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/01/01/2020.12.29.424636.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2020.12.29.424636"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34390642",
+            "reference": "Cell. 2021 Sep;184(19):5053-5069.e23",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2020-12-31",
+      "firstPublicationDate": "2020-12-30",
+      "firstIndexDate": "2020-12-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

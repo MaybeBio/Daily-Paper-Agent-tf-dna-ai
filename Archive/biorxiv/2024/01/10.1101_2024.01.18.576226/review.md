@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, instrumentation, methods, data/code availability statements)
+- **Assessment boundary** Technical soundness, novelty, and scientific claims of the COMBI-Tweez instrument and its demonstration on DNA supercoiling and plectoneme visualization
+- **Shared manuscript claim summary** The authors present COMBI-Tweez, a combined optical and magnetic tweezers instrument with integrated fluorescence microscopy, capable of applying and measuring force and torque on single DNA molecules while simultaneously visualizing higher-order structural motifs such as plectonemes. They demonstrate decoupled force and torque control, characterize thermal effects of trapping magnetic beads, observe buckling transitions and plectoneme dynamics, and compare experimental plectoneme/bubble locations with predictions from curvature-based and SIDD models, supported by MD simulations.
+- **Visible evidence base** Main text figures referenced (Figs. 1-6), supplementary figures and notes referenced, supplementary movies referenced, methods sections for instrumentation, DNA preparation, fluorescence imaging, force calibration, MD simulation protocols, and data/code availability statements
+- **Missing materials affecting confidence** Figures and supplementary materials not provided; exact numerical data for force-extension curves, hat curves, and fluctuation analyses not shown; full MD simulation parameters and convergence criteria only partially described; no replicate numbers or statistical tests reported in the visible text
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically ambitious and potentially valuable instrument that combines optical tweezers, magnetic tweezers, and fluorescence microscopy in a single platform. The core concept of decoupling force and torque while enabling simultaneous fluorescence visualization is genuinely useful for the single-molecule biophysics community. However, the evidence presented in the text is insufficient to fully evaluate the performance claims, the novelty relative to existing combined OT-MT approaches is not clearly established, and several quantitative results are described without supporting data visible in the provided material. The manuscript would benefit from clearer presentation of control experiments, replicate statistics, and direct comparisons to prior art.
+- **Who would be interested in the results, and why** Single-molecule biophysicists studying DNA mechanics, DNA topology, and DNA-protein interactions; researchers developing combined force-torque-fluorescence instrumentation; computational biophysicists working on DNA supercoiling and plectoneme dynamics; the broader chromosome biology community interested in how mechanical forces and torsional stress influence DNA structure in vivo.
+- **Major strengths** The instrument design addresses a real technological gap by enabling simultaneous force, torque, and fluorescence measurements on the same DNA molecule. The use of Helmholtz coils for magnetic tweezers avoids mechanical vibration issues common with permanent magnets. The demonstration of plectoneme visualization during active supercoiling is a significant technical achievement. The integration of MD simulations to interpret experimental observations is a thoughtful approach. The thermal characterization of trapped magnetic beads is an important practical contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that COMBI-Tweez can exert "arbitrary combinations of sub-pN to approximately 10 pN and of sub-pN·nm to tens of pN·nm" and that force and torque are fully decoupled.
+  - **Evidence pointer** Results section "Decoupling force and torque", Figure 1, Supplementary Figs. 1-8
+  - **Concern** The text describes the conceptual design and shows that the magnetic field is uniform and that the OT can trap magnetic beads, but no quantitative data are shown demonstrating the full range of force and torque combinations, nor is there a systematic characterization of the cross-talk between OT and MT actuation. The claim of "arbitrary combinations" requires a calibration surface showing achievable force-torque pairs, which is not visible in the provided material.
+  - **Why it matters** The central claim of the instrument is that it enables independent control of force and torque. Without a demonstrated calibration and cross-talk analysis, the reader cannot assess whether the instrument actually achieves this, which is the primary basis for the paper's significance.
+  - **Resolution test** Provide a two-dimensional calibration map showing achievable force and torque combinations, including error bars, and a control experiment where force is held constant while torque is varied and vice versa, with measured deviations quantified.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and statistical rigor
+  - **Claim pointer** The authors report measurements of plectoneme size, position, mobility, and diffusion coefficients, and compare these to model predictions.
+  - **Evidence pointer** Results sections "Time-resolved visualization of DNA structural motifs" and "DNA dynamics during stretch/twist visualized by correlative fluorescence imaging", Figures 5-6, Table 1
+  - **Concern** The text reports diffusion coefficients (310-1,900 nm²/s), plectoneme sizes (2.6-3.1 kbp), and comparisons to model predictions, but no replicate numbers, standard deviations, or statistical tests are reported anywhere in the visible text. The manuscript footnote states "Added more details about sample and replicate numbers throughout," but these details are not present in the provided material. Without this information, the quantitative claims cannot be evaluated.
+  - **Why it matters** Single-molecule measurements are inherently noisy and molecule-to-molecule variability is expected. The absence of replicate statistics undermines confidence in the reported values and in the claimed agreement with model predictions.
+  - **Resolution test** Report the number of independent molecules measured for each condition, the number of plectonemes tracked, and provide mean ± SD or SEM for all reported quantities, with appropriate statistical tests for comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and positioning relative to prior art
+  - **Claim pointer** The authors state "To our knowledge, this is the first report of stable optical trapping of magnetic beads at physiologically relevant temperatures" and position COMBI-Tweez as transformative relative to existing approaches.
+  - **Evidence point** Abstract, Discussion section
+  - **Concern** The Discussion compares COMBI-Tweez to three existing approaches but does not cite or discuss prior combined OT-MT instruments, such as those developed by the groups of Dekker, Croquette, or others who have combined magnetic tweezers with optical trapping or fluorescence. The claim of "first report of stable optical trapping of magnetic beads at physiologically relevant temperatures" is surprising given the widespread use of magnetic beads in optical trapping experiments, and the text does not explain why previous attempts failed or how this work overcomes those limitations beyond citing "personal communication."
+  - **Why it matters** The novelty claim is central to the paper's significance. If prior work has already achieved stable trapping of magnetic beads or combined OT-MT-fluorescence, the contribution is incremental rather than transformative.
+  - **Resolution test** Provide a more comprehensive literature review of combined OT-MT systems, clarify the specific technical barrier that was overcome, and provide quantitative evidence (e.g., trapping stability over time, temperature measurements) supporting the "first report" claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of experimental results
+  - **Claim pointer** The authors interpret the observed fluorescent puncta as plectonemes and the blurred regions in negatively supercoiled DNA as evidence of bubbles, and hypothesize that bubbles nucleate plectonemes.
+  - **Evidence pointer** Results section "Time-resolved visualization of DNA structural motifs", Figures 5-6
+  - **Concern** The identification of puncta as plectonemes relies on the assumption that SYBR Gold fluorescence intensity correlates linearly with DNA density, but the manuscript does not present a calibration of this relationship. The claim that blurred regions indicate bubbles is indirect, and the alternative explanation that the blur is due to rapid plectoneme motion or out-of-focus fluorescence is not excluded. The MD simulations show bubble formation in negatively supercoiled DNA, but the connection between simulation timescales (ns-μs) and experimental timescales (ms-s) is not addressed.
+  - **Why it matters** The biological conclusions about plectoneme nucleation and mobility depend on correct identification of the observed structures. If the puncta are not plectonemes, or if the blur is not due to bubbles, the central results are misinterpreted.
+  - **Resolution test** Provide a calibration of SYBR Gold fluorescence intensity versus DNA density, perform control experiments with known plectoneme structures, and discuss the timescale mismatch between simulations and experiments.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of MD simulations
+  - **Claim pointer** The authors use MD simulations to support their interpretation of bubble formation and plectoneme dynamics.
+  - **Evidence pointer** Results section "Time-resolved visualization of DNA structural motifs", Figure 6d-e, Supplementary Figs. 12, 15
+  - **Concern** The simulation methods are described in the main text but lack critical details: the force field is stated as BSC1, but the water model, salt concentration treatment, and the specific implementation of the "NMR" restraints are only partially described. The simulations use implicit solvent, which the authors acknowledge, but the implications for bubble formation and plectoneme dynamics are not discussed. The convergence criterion is described as "cumulative end-to-end distance over time," which is not a standard convergence metric.
+  - **Why it matters** The MD simulations are used to support the interpretation of experimental results. If the simulations are not well-converged or use inappropriate methods, the conclusions drawn from them are weakened.
+  - **Resolution test** Provide full simulation parameters, standard convergence metrics (e.g., RMSD, block averaging), and a discussion of the limitations of implicit solvent for studying DNA supercoiling.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract, Results section "Stretching/twisting label-free DNA"
+  - **Evidence pointer** Abstract, Figure 3
+  - **Issue** The abstract states the instrument is "demonstrated on single DNA molecules" but does not specify the DNA length or construct used. The Results section mentions a 15.6 kbp construct but the abstract is vague.
+  - **Required correction** Specify the DNA construct and length in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Instrumentation section
+  - **Evidence pointer** Instrumentation section, Supplementary Fig. 5
+  - **Issue** The calibration of the QPD for force measurement is described, but the conversion from QPD voltage to force is not fully explained. The trap stiffness is stated as 10 pN/µm, but the method for determining this value is not given.
+  - **Required correction** Provide a brief description of the trap stiffness calibration method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Time-resolved visualization of DNA structural motifs"
+  - **Evidence pointer** Table 1, Figure 6
+  - **Issue** The diffusion coefficients are reported as a range (310-1,900 nm²/s) but the number of measurements and the conditions for each value are not specified.
+  - **Required correction** Report individual values with associated conditions and error estimates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "DNA preparation"
+  - **Evidence pointer** Methods section
+  - **Issue** The DNA preparation section describes the construct but does not specify the number of independent preparations or the batch-to-batch variability.
+  - **Required correction** State the number of independent DNA preparations used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 5-6
+  - **Evidence pointer** Figures 5-6
+  - **Issue** The figures are referenced but not visible in the provided material. The text descriptions suggest complex data, but without seeing the figures, the reader cannot assess the quality of the fluorescence images or the fitting procedures.
+  - **Required correction** Ensure figures are high-resolution and clearly labeled, with scale bars and annotation of key features.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (force-torque calibration and cross-talk), R1-M2 (replicate statistics), R1-M4 (puncta identification and bubble interpretation)
+- **Assessment against Nature-style criteria** Originality: The instrument concept is original in its specific combination of OT, MT, and fluorescence, but the individual components are well-established. The claim of "first report of stable optical trapping of magnetic beads" requires stronger evidence and literature context. Scientific importance: The ability to correlate force, torque, and fluorescence on the same DNA molecule has clear value for understanding DNA topology and protein-DNA interactions. However, the demonstrated applications (hat curves, plectoneme visualization) are largely confirmatory of prior work, and the new biological insights are speculative. Interdisciplinary readership: The work will appeal to biophysicists, physical chemists, and molecular biologists interested in DNA mechanics. The writing is generally accessible but assumes familiarity with single-molecule techniques. Technical soundness: The instrument design is plausible and the thermal characterization is thoughtful, but the lack of quantitative calibration data and replicate statistics prevents full assessment. Readability for nonspecialists: The manuscript is dense and assumes significant background knowledge. The abstract is accessible, but the results section would benefit from clearer explanations of the significance of each measurement.
+- **Recommendation posture** Supportive if technical concerns are resolved. The instrument has clear potential value, and the authors have addressed a genuine technological gap. However, the current manuscript does not provide sufficient evidence to fully evaluate the performance claims, and the novelty relative to prior combined OT-MT systems is not clearly established. The authors should address the calibration, statistics, and literature positioning concerns before the case is fully made.
+
+## Risk / unsupported claims
+- The claim of "arbitrary combinations" of force and torque is unsupported without a calibration map.
+- The claim of "first report of stable optical trapping of magnetic beads at physiologically relevant temperatures" is unsupported without a literature review and quantitative comparison to prior attempts.
+- The identification of fluorescent puncta as plectonemes and blurred regions as bubbles is not fully validated.
+- The hypothesis that bubbles nucleate plectonemes is speculative and not directly tested.
+- The comparison of experimental plectoneme locations to model predictions is presented without statistical measures of agreement.
+- The MD simulation results are described as supporting the experimental interpretation, but the simulation methods and convergence criteria are insufficiently detailed to assess their validity.
+- The claim that the instrument can be "adapted to study a range of filamentous biopolymers" is plausible but not demonstrated.

@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary figure/table legends)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text. Figures and supplementary data referenced but not fully accessible.
+- **Shared manuscript claim summary** The authors propose that SALL4, a stem cell transcription factor, binds pervasively across the genome in proportion to AT-rich DNA content, and that this dispersed binding modulates chromatin structure and gene expression via recruitment of the NuRD corepressor complex. They support this with CUT&RUN mapping, acute degron-based depletion, transcriptomics, chromatin accessibility assays, machine learning, and mouse genetic models.
+- **Visible evidence base** Text descriptions of results, methods, and figure/table legends. No raw data, full figures, or supplementary tables were available for direct inspection.
+- **Missing materials affecting confidence** Full figures and supplementary figures, supplementary tables (S1-S7), raw sequencing data, model architecture details, and complete statistical outputs. These are referenced but not provided in the submitted text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially important model for how a transcription factor can act through pervasive, low-affinity binding across gene bodies rather than through conventional enhancer/promoter peaks. The combination of acute protein depletion with nascent transcriptomics is methodologically strong and addresses a key limitation of prior knockout studies. The chromatin data showing rapid, transcription-independent changes in accessibility and acetylation are intriguing. However, several critical technical and interpretive issues need to be resolved before the central claims can be fully accepted. The machine learning component, while promising, is described with insufficient detail to assess its validity. The genetic rescue experiments, while elegant, do not fully establish that NuRD recruitment is the sole or primary mechanism. The manuscript would benefit from clearer presentation of effect sizes and from addressing alternative interpretations of the data.
+- **Who would be interested in the results, and why** Researchers studying transcription factor biology, chromatin structure, stem cell pluripotency, and gene regulation mechanisms. The work is also relevant to those interested in the role of AT-rich DNA in genome organization and to computational biologists developing interpretable models of gene regulation. The findings may have implications for understanding developmental disorders and cancers involving SALL4 dysregulation.
+- **Major strengths** 1) The use of an acute degron system to deplete SALL4 is a significant methodological advance over constitutive knockouts, allowing identification of likely primary transcriptional targets. 2) The combination of CUT&RUN with careful normalization and peak-independent analysis reveals a pervasive binding pattern that reconciles in vitro DNA-binding preferences with in vivo occupancy. 3) The multi-omics approach integrating transcriptomics, chromatin accessibility, and histone acetylation provides convergent evidence for a chromatin-based mechanism. 4) The genetic experiments in mice, including the domain swap with Sin3, directly test the functional importance of NuRD recruitment in vivo. 5) The use of explainable machine learning to identify predictive features is a forward-looking analytical approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "SALL4-repressed genes localise to AT-rich genomic domains with high levels of dispersed SALL4 occupancy" and "its occupancy across the gene body is a strong predictor of transcriptional output"
+  - **Evidence pointer** Results sections "SALL4 tracks AT-rich DNA base composition genome-wide" and "Acute degradation of SALL4 correlates gene body occupancy with base composition-dependent transcriptional deregulation"; Figures 1 and 2
+  - **Concern** The manuscript does not adequately address the potential confounding effect of chromatin state on SALL4 binding. AT-rich regions are often associated with specific chromatin features (e.g., H3K9me2/3, LADs) that could influence both SALL4 occupancy and transcriptional output independently of SALL4's direct DNA-binding activity. The correlation between SALL4 binding and AT-content, while striking, does not establish causality. The authors should demonstrate that SALL4 binding is directly mediated by DNA sequence recognition (e.g., via in vitro binding assays with mutated motifs or by showing that ZFC4 DNA-binding mutations abolish the pervasive pattern) rather than being a consequence of pre-existing chromatin structure.
+  - **Why it matters** The central claim of the paper is that SALL4 reads DNA base composition to modulate chromatin. If SALL4 binding is instead a consequence of chromatin state, the proposed mechanism would be incorrect. This distinction is critical for the interpretation of all downstream experiments.
+  - **Resolution test** Provide evidence that SALL4 binding to AT-rich regions is direct and sequence-dependent. This could include: (1) CUT&RUN or ChIP-seq in cells expressing a ZFC4 DNA-binding mutant, (2) in vitro binding assays with recombinant SALL4 and AT-rich vs. GC-rich DNA, or (3) demonstration that the pervasive binding pattern is lost upon mutation of the DNA-binding domain while protein stability and other interactions are maintained.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We observed rapid increases in chromatin accessibility and histone acetylation independent of transcriptional activity, suggesting that SALL4 primarily acts upon chromatin, while transcriptional changes are secondary"
+  - **Evidence pointer** Results section "SALL4 depletion rapidly alters chromatin structure independent of transcription"; Figure 3
+  - **Concern** The claim that chromatin changes are "independent of transcriptional activity" is based on the observation that accessibility changes occur in transcriptionally inactive regions. However, the manuscript does not fully exclude the possibility that these changes are secondary to other rapid cellular responses to SALL4 depletion, such as changes in cell cycle, differentiation state, or stress responses. The 0.5h timepoint is early, but SALL4 depletion could trigger rapid signaling cascades. Additionally, the use of a single timepoint for TT-seq (2h) and the chromatin assays (0.5h, 3h, 9h) makes it difficult to establish temporal precedence. The authors should show that chromatin changes precede transcriptional changes at the same loci, or use a system where transcription is globally inhibited to demonstrate that chromatin changes occur independently.
+  - **Why it matters** The proposed hierarchy (SALL4 → chromatin → transcription) is a key mechanistic claim. If chromatin changes are downstream of transcriptional changes or other cellular perturbations, the model would need substantial revision.
+  - **Resolution test** Perform a timecourse experiment with matched timepoints for TT-seq and ATAC-seq/H3K27ac (e.g., 0.5h, 1h, 2h, 4h) to establish temporal precedence. Alternatively, treat cells with a transcription inhibitor (e.g., actinomycin D or flavopiridol) prior to SALL4 depletion and show that chromatin changes still occur. Also, assess cell cycle and differentiation markers at early timepoints to exclude indirect effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Explainable machine learning revealed that its occupancy across the gene body is a strong predictor of transcriptional output"
+  - **Evidence pointer** Results section "Explainable machine learning predicts the transcriptional impact of SALL4 and chromatin structure over target gene bodies"; Figure 2F
+  - **Concern** The machine learning analysis is described with insufficient detail to evaluate its validity. Key missing information includes: (1) the exact architecture of the neural network, (2) the full list of input features and their sources, (3) how the train/validation/test splits were constructed (e.g., whether genes from the same chromosome were kept together to avoid data leakage), (4) the performance metrics of the model (e.g., R², correlation) on held-out test sets, and (5) how SHAP values were aggregated across the five models. Without this information, it is impossible to assess whether the model is overfitting, whether the SHAP values are stable, or whether the conclusions drawn from the model are justified.
+  - **Why it matters** The machine learning analysis is used to support the claim that SALL4 occupancy over gene bodies is a key predictor of transcription. If the model is poorly constructed or interpreted, this claim is not supported.
+  - **Resolution test** Provide full details of the model architecture, training procedure, hyperparameter selection, and performance metrics. Show that the model generalizes to held-out chromosomes or cell types. Provide confidence intervals for SHAP values across the five models. Consider using simpler, more interpretable models (e.g., linear regression with feature importance) as a sanity check.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Preventing SALL4 from recruiting the histone deacetylase and nucleosome remodelling corepressor NuRD mimicked a Sall4-null phenotype in stem cells and animal models"
+  - **Evidence pointer** Results section "Recruitment of the NuRD co-repressor complex is essential for SALL4 function in pluripotent cells and during development"; Figures 4 and 5
+  - **Concern** The genetic experiments are elegant, but the interpretation is somewhat limited. The NTΔ and NTmut mutations disrupt the NuRD interaction, but it is not clear whether these mutations also affect other SALL4 functions, such as its ability to interact with other proteins or to bind DNA. The authors show that SALL4-NTmut still binds DNA, but do they show that it retains all other protein-protein interactions? Additionally, the SID swap experiment is informative, but the partial rescue observed in some assays (e.g., 1,716 genes rescued out of >8,000 deregulated) suggests that NuRD recruitment alone is not sufficient for full SALL4 function. The authors should discuss what other functions of SALL4 might be important.
+  - **Why it matters** The claim that NuRD recruitment is "essential" for SALL4 function is strong. If the mutations have additional effects, or if the SID swap only partially rescues, the conclusion may be overstated.
+  - **Resolution test** Perform additional characterization of the NTΔ and NTmut proteins, such as assessing their interaction with other known SALL4 partners (e.g., other corepressors, chromatin remodelers). Quantify the extent of rescue in the SID swap experiments and discuss what fraction of SALL4 function is NuRD-dependent versus NuRD-independent.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "SALL4 is enriched within large ∼100Kb to megabase-scale blocks of higher AT-content, corresponding to lamina-associated domains (LADs)"
+  - **Evidence pointer** Results section "SALL4 tracks AT-rich DNA base composition genome-wide"; Figure 1C, S1E
+  - **Concern** The manuscript states that SALL4 is enriched in LADs, but the analysis appears to be based on correlation with AT-content rather than direct comparison with LAD maps. The authors should directly compare SALL4 occupancy with experimentally defined LADs in the same cell type. Additionally, the relationship between SALL4 binding and LADs could be confounded by the fact that both are associated with AT-rich DNA. The authors should use statistical approaches that account for AT-content when testing for LAD enrichment.
+  - **Why it matters** The claim that SALL4 is enriched in LADs is used to support the idea that SALL4 functions in repressive chromatin domains. If this enrichment is simply a consequence of AT-content, the biological significance is less clear.
+  - **Resolution test** Perform a direct overlap analysis between SALL4 CUT&RUN and LAD maps (e.g., from Lamin B1 DamID or ChIP) in the same cell type. Use a null model that controls for AT-content to test for significant enrichment. Discuss whether SALL4 binding to LADs has functional consequences beyond its general AT-content-dependent binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that SALL4 "modulates gene expression according to DNA base composition by reading the frequency of its AT-rich target motifs." This phrasing implies a direct mechanism that is not fully established by the data. The abstract could be more cautious in its language.
+  - **Required correction** Rephrase to indicate that SALL4 binding correlates with AT-content and that this binding is associated with transcriptional modulation, without implying direct causality.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and methods, "Experimental procedures"
+  - **Issue** The methods section does not provide details on the number of biological replicates for each experiment, nor does it specify how many cells were used per CUT&RUN or ATAC-seq reaction. This information is essential for assessing data quality and reproducibility.
+  - **Required correction** Add a section specifying the number of biological and technical replicates for each assay, along with cell counts and quality control metrics (e.g., FRiP scores for CUT&RUN, TSS enrichment for ATAC-seq).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "SALL4 tracks AT-rich DNA base composition genome-wide"
+  - **Evidence pointer** Figure 1D
+  - **Issue** The correlation between SALL4 signal and AT-content is described qualitatively. The manuscript should report the correlation coefficient and its statistical significance.
+  - **Required correction** Report the Spearman or Pearson correlation coefficient and p-value for the relationship between SALL4 CUT&RUN signal and AT-content in 10kb windows.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions that "SALL4 loss leads to rapid redistribution of the transcriptional machinery to AT-rich genes at the expense of GC-rich genes" as a hypothesis. This is an interesting idea but is not directly tested in the manuscript. It should be clearly labeled as speculation.
+  - **Required correction** Add a sentence clarifying that this is a hypothesis that requires further testing.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3B
+  - **Issue** The regression coefficients for ATAC-seq and H3K27ac changes are plotted, but the figure legend does not explain how these coefficients were calculated or what the error bars represent.
+  - **Required correction** Expand the figure legend to describe the statistical model used, the calculation of regression coefficients, and the definition of error bars.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct DNA binding vs. chromatin state confounding), R1-M2 (temporal precedence of chromatin vs. transcriptional changes), R1-M3 (insufficient detail on machine learning model).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a transcription factor acting through pervasive, low-affinity binding across gene bodies rather than through discrete enhancer/promoter elements is a novel and potentially important contribution. The application of explainable machine learning to this problem is also innovative.
+  - **Scientific importance** If the claims are substantiated, this work would significantly advance our understanding of how transcription factors can globally modulate gene expression and how DNA base composition can influence chromatin state. The findings could have broad implications for stem cell biology, development, and disease.
+  - **Interdisciplinary readership** The work bridges molecular biology, genomics, computational biology, and mouse genetics. It would be of interest to a broad readership in these fields.
+  - **Technical soundness** The experimental design is generally strong, particularly the use of acute depletion and nascent transcriptomics. However, the concerns raised above regarding direct DNA binding, temporal precedence, and machine learning details need to be addressed. The manuscript currently does not provide sufficient evidence to fully exclude alternative interpretations.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The key concepts are explained clearly. However, the machine learning section may be challenging for readers without a computational background. The authors should consider providing a more accessible explanation of the SHAP analysis.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the experimental approach is largely appropriate. However, the manuscript currently does not fully establish the directness of SALL4's DNA binding, the temporal hierarchy of chromatin vs. transcriptional changes, or the validity of the machine learning analysis. These issues must be addressed before the claims can be considered fully supported.
+
+## Risk / unsupported claims
+- The claim that SALL4 binding to AT-rich regions is direct and sequence-dependent is not fully supported; the data are correlative and could be confounded by chromatin state.
+- The claim that chromatin changes are "independent of transcriptional activity" is not fully established due to potential indirect effects and lack of matched timepoints.
+- The machine learning analysis is described with insufficient detail to assess its validity; the claim that SALL4 occupancy is a "strong predictor" of transcription is not fully supported.
+- The claim that NuRD recruitment is "essential" for SALL4 function may be overstated given the partial rescue observed in the SID swap experiments.
+- The hypothesis that SALL4 loss leads to redistribution of transcriptional machinery is speculative and not directly tested.

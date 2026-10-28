@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "36090034",
+    "doi": "10.3389/fmolb.2022.981020",
+    "title": "In-silico probing of AML related RUNX1 cancer-associated missense mutations: Predicted relationships to DNA binding and drug interactions."
+  },
+  "content": {
+    "abstract": "The molecular consequences of cancer associated mutations in Acute myeloid leukemia (AML) linked factors are not very well understood. Here, we interrogated the COSMIC database for missense mutations associated with the RUNX1 protein, that is frequently mis-regulated in AML, where we sought to identify recurrently mutated positions at the DNA-interacting interface. Indeed, six of the mutated residues, out of a total 417 residues examined within the DNA binding domain, evidenced reduced DNA association in in silico predictions. Further, given the prominence of RUNX1's compromised function in AML, we asked the question if the mutations themselves might alter RUNX1's interaction (off-target) with known FDA-approved drug molecules, including three currently used in treating AML. We identified several AML-associated mutations in RUNX1 that were calculated to enhance RUNX1's interaction with specific drugs. Specifically, we retrieved data from the COSMIC database for cancer-associated mutations of RUNX1 by using R package \"data.table\" and \"ggplot2\" modules. In the presence of DNA and/or drug, we used docking scores and energetics of the complexes as tools to evaluate predicted interaction strengths with RUNX1. For example, we performed predictions of drug binding pockets involving Enasidenib, Giltertinib, and Midostaurin (AML associated), as well as ten different published cancer associated drug compounds. Docking of wild type RUNX1 with these 13 different cancer-associated drugs indicates that wild-type RUNX1 has a lower efficiency of binding while RUNX1 mutants R142K, D171N, R174Q, P176H, and R177Q suggested higher affinity of drug association. Literature evidence support our prediction and suggests the mutation R174Q affects RUNX1 DNA binding and could lead to compromised function. We conclude that specific RUNX1 mutations that lessen DNA binding facilitate the binding of a number of tested drug molecules. Further, we propose that molecular modeling and docking studies for RUNX1 in the presence of DNA and/or drugs enables evaluation of the potential impact of RUNX1 cancer associated mutations in AML.",
+    "keywords": [
+      "RUNX1",
+      "acute myeloid leukemia",
+      "docking",
+      "missense mutation",
+      "molecular modeling"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ullah, Hanif",
+        "Zhang, Baoyun",
+        "Sharma, Narendra Kumar",
+        "McCrea, Pierre D",
+        "Srivastava, Yogesh"
+      ],
+      "short_names": [
+        "Ullah H",
+        "Zhang B",
+        "Sharma NK",
+        "McCrea PD",
+        "Srivastava Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangxi Key Laboratory for Genomics and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomics and Personalized Medicine, Guangxi Medical University, Nanning, China.",
+        "Key Laboratory of Regenerative Biology, South China Institute for Stem Cell Biology and Regenerative Medicine, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Key Laboratory of Regenerative Biology, South China Institute for Stem Cell Biology and Regenerative Medicine, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Department of Bioscience and Biotechnology, Banasthali Vidyapith, Banasthali, Tonk, Rajasthan, India.",
+        "University of Texas MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, Houston, TX, United States.",
+        "Department of Genetics, University of Texas MD Anderson Cancer Center, Houston, TX, United States.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Department of Genetics, University of Texas MD Anderson Cancer Center, Houston, TX, United States.",
+        "Genome Regulation Laboratory; Guangdong Provincial Key Laboratory of Stem Cell and Regenerative Medicine, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ullah, Hanif",
+        "short_name": "Ullah H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory for Genomics and Personalized Medicine, Guangxi Collaborative Innovation Center for Genomics and Personalized Medicine, Guangxi Medical University, Nanning, China.",
+          "Key Laboratory of Regenerative Biology, South China Institute for Stem Cell Biology and Regenerative Medicine, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Baoyun",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Regenerative Biology, South China Institute for Stem Cell Biology and Regenerative Medicine, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sharma, Narendra Kumar",
+        "short_name": "Sharma NK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience and Biotechnology, Banasthali Vidyapith, Banasthali, Tonk, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "McCrea, Pierre D",
+        "short_name": "McCrea PD",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, Houston, TX, United States.",
+          "Department of Genetics, University of Texas MD Anderson Cancer Center, Houston, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Yogesh",
+        "short_name": "Srivastava Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Department of Genetics, University of Texas MD Anderson Cancer Center, Houston, TX, United States.",
+          "Genome Regulation Laboratory; Guangdong Provincial Key Laboratory of Stem Cell and Regenerative Medicine, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/13 06:00",
+    "fetched_at": "2026-09-28 13:36:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "31848884",
+      "31574515",
+      "31569299",
+      "31454277",
+      "31454267",
+      "31450897",
+      "31431216",
+      "31350639",
+      "31138459",
+      "30922731",
+      "30333627",
+      "29860391",
+      "29786478",
+      "29721072",
+      "29335205",
+      "28836357",
+      "28741472",
+      "28297624",
+      "28179279",
+      "27908881",
+      "27288520",
+      "27276561",
+      "26745853",
+      "26639762",
+      "26574453",
+      "25083921",
+      "25058905",
+      "24919854",
+      "24799431",
+      "23784813",
+      "23634996",
+      "23169148",
+      "21779483",
+      "21727090",
+      "21624888",
+      "20615965",
+      "20483917",
+      "19865164",
+      "19463770",
+      "19444816",
+      "18852116",
+      "17918282",
+      "17488841",
+      "17431183",
+      "16620115",
+      "16250015",
+      "15264254",
+      "15215472",
+      "15188009",
+      "14631816",
+      "12971829",
+      "12736688",
+      "12369852",
+      "12014959",
+      "11129170",
+      "10893304",
+      "10840932",
+      "10545320",
+      "10508512",
+      "10197598",
+      "8273148",
+      "3701915"
+    ],
+    "similar": [
+      "36090034",
+      "29932212",
+      "21343560",
+      "11830488",
+      "34958450",
+      "30289875",
+      "32091281",
+      "32476595",
+      "32315381",
+      "29326930",
+      "28927163",
+      "21725049",
+      "28855357",
+      "19334039",
+      "16858696",
+      "19808697",
+      "34466057",
+      "33255417",
+      "22753902",
+      "29721072",
+      "21294243",
+      "28299663",
+      "15061191",
+      "34627418",
+      "28933735",
+      "31640815",
+      "33906574",
+      "30396184",
+      "27137476",
+      "19282830",
+      "35692075",
+      "33243739",
+      "19666867",
+      "27997762",
+      "28751771",
+      "33433047",
+      "15156185",
+      "22689681",
+      "17485549",
+      "18671852",
+      "31048839",
+      "24732596",
+      "21268063",
+      "12555067",
+      "35895695",
+      "27112265",
+      "32624544",
+      "33563056",
+      "28299658",
+      "31533028",
+      "34336831",
+      "28895127",
+      "32821971",
+      "31899799",
+      "34059800",
+      "29479958",
+      "12495904",
+      "14615365",
+      "21836608",
+      "33979975",
+      "16467864",
+      "12874780",
+      "35271994",
+      "18723428",
+      "34975010",
+      "32208489",
+      "32294461",
+      "35549661",
+      "35445594",
+      "30251205",
+      "11721958",
+      "26384344",
+      "27285584",
+      "22012064",
+      "31302905",
+      "28855157",
+      "26980726",
+      "32573733",
+      "35810308",
+      "32027277",
+      "25612891",
+      "24402164",
+      "30199909",
+      "28213513",
+      "12393679",
+      "21937700",
+      "24327541",
+      "39375928",
+      "37577681"
+    ],
+    "review": [
+      "36090034",
+      "29326930",
+      "19334039",
+      "28299663",
+      "15061191",
+      "33906574",
+      "15156185",
+      "28299658",
+      "29479958",
+      "12495904",
+      "33979975",
+      "35271994",
+      "35445594"
+    ],
+    "pmc": [
+      "9454315"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36090034/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36090034",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.981020",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

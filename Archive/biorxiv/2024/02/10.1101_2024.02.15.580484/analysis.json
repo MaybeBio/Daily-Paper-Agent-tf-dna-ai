@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.15.580484",
+  "title": "Predicting cell type-specific epigenomic profiles accounting for distal genetic effects",
+  "authors": "Murphy AE; Beardall W; Rei M; Phuycharoen M; Skene NG",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-17",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发深度学习模型Enformer Celltyping预测细胞类型特异性的表观遗传谱，虽涉及DNA远端效应和基因调控，但核心是组蛋白修饰预测而非TF-DNA结合互作建模，方法可迁移但对象和互作轴匹配度有限。",
+  "abstract": "Understanding genetic variants effects on the epigenome is crucial for interpreting genome-wide association studies (GWAS) results, yet profiling these effects across the non-coding genome remains challenging due to the scalability limits of experimental methods. This necessitates accurate computational models. Existing machine learning approaches, while progressively improving, are confined to the cell types they were trained on, limiting their applicability. Here, we propose the development of a deep learning model, Enformer Celltyping, which can both incorporate distal effects of DNA interactions, up to 100,000 base-pairs away, and predict epigenetic signals in a cell type-agnostic fashion. We demonstrate that Enformer Celltypings predictions of the epigenome out-perform the current best-in-class approach, have strong performance in a range of different cell types and biological regions and generalise to cell types assayed independently of the original training set. Finally, we propose an approach to test epigenetic models performance on genetic variant effect predictions using regulatory quantitative trait loci mapping studies, highlighting Enformer Celltypings and other genomic deep learning models limitations for this task. Our work introduces a new, accurate model for cell type-agnostic histone mark predictions and highlights the benefit of transfer learning for more efficient model development for deep learning in genomics. We make our customisable and efficient transfer learning approach for Enformer available to the community.",
+  "abstract_zh": "理解遗传变异对表观基因组的影响对于解读全基因组关联研究（GWAS）结果至关重要，然而，由于实验方法在可扩展性上的限制，在非编码基因组中全面分析这些影响仍具挑战性。这需要精确的计算模型。现有的机器学习方法虽在逐步改进，但受限于其训练所用的细胞类型，限制了其应用范围。在此，我们提出开发一种深度学习模型——Enformer Celltyping，该模型既能整合远达100,000个碱基对的DNA相互作用的远端效应，又能以细胞类型无关的方式预测表观遗传信号。我们证明，Enformer Celltyping对表观基因组的预测性能优于当前最佳方法，在多种不同细胞类型和生物区域中表现出色，并能泛化至独立于原始训练集测定的细胞类型。最后，我们提出一种方法，利用调控定量性状位点定位研究来测试表观遗传模型在遗传变异效应预测上的性能，突显了Enformer Celltyping及其他基因组深度学习模型在此任务上的局限性。我们的工作引入了一种新的、精确的细胞类型无关组蛋白标记预测模型，并强调了迁移学习在基因组学深度学习模型开发中提高效率的优势。我们向社区提供针对Enformer的可定制且高效的迁移学习方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.15.580484",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.15.580484",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.15.580484/index.html"
+}

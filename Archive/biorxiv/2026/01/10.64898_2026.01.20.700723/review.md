@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present TPCAV, an adaptation of Testing with Concept Activation Vectors (TCAV) for interpreting deep learning models in genomics. They introduce a PCA-based decorrelation step to address correlated embedding features, a strategy for concept-specific input attribution maps, and demonstrate application across diverse genomics models including one-hot DNA models, tokenized foundation models, and models with chromatin signal inputs. They claim comparable motif interpretation to TF-MoDISco, robust analysis of repetitive elements and chromatin states, and identification of representative concept-associated regions.
+- **Visible evidence base** Abstract text only; no quantitative results, figures, tables, or methodological details
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, quantitative performance metrics, comparison details, model descriptions, dataset specifications, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the interpretability toolkit for genomics deep learning models, addressing a genuine gap in extending concept attribution beyond one-hot DNA inputs. The proposed PCA-based decorrelation is a reasonable technical modification given the known correlation structure in embedding features. However, the abstract alone provides insufficient evidence to evaluate the validity of the central claims, particularly the claimed equivalence to TF-MoDISco and the robustness of interpretations across diverse model types. The work appears promising but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers developing and applying deep learning models in regulatory genomics, particularly those working with foundation models or chromatin state inputs, would find this relevant. The broader interpretability community in computational biology would also be interested given the generalizable framework. Practitioners seeking to move beyond nucleotide-level attribution toward concept-level understanding of model behavior would benefit.
+- **Major strengths** The abstract identifies a clear and important limitation in existing feature attribution methods for genomics, namely the restriction to one-hot DNA inputs. The proposed extension of TCAV with PCA-based decorrelation is a sensible and technically motivated improvement. The claimed scope of application, spanning multiple input representations and tasks, suggests broad utility. The introduction of concept-specific input attribution maps is a novel addition that could enhance interpretability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TPCAV provides comparable motif feature interpretation to TF-MoDISco on one-hot encoded DNA-based transcription factor binding prediction models.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states comparability to TF-MoDISco without presenting any quantitative metrics, benchmarks, or statistical comparisons. No information is given on how comparability was measured, which motifs were tested, or what thresholds defined equivalence.
+  - **Why it matters** This is a central claim that positions TPCAV against an established method. Without quantitative evidence, the claim cannot be assessed, and the reader cannot determine whether TPCAV offers genuine utility or merely anecdotal similarity.
+  - **Resolution test** Provide quantitative comparison metrics such as motif match rates, precision-recall curves, or correlation coefficients against TF-MoDISco outputs across multiple datasets, with statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TPCAV enables robust interpretive analysis of how repetitive elements and chromatin state annotations contribute to predictions.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The term "robust" is used without definition or supporting evidence. No details are provided on how robustness was assessed, what models or datasets were used, or how the interpretations were validated against biological ground truth.
+  - **Why it matters** Robustness is a strong claim that implies consistency and reliability across conditions. Without a clear validation strategy, the claim is unfalsifiable from the abstract and may overstate the method's reliability.
+  - **Resolution test** Define robustness criteria, such as stability across random seeds, model initializations, or dataset subsamples, and present quantitative results demonstrating consistency.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TPCAV uniquely generalizes to interpret features learned by tokenized foundation models and models incorporating chromatin signals as inputs.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The word "uniquely" is a strong exclusivity claim. No comparative evidence is presented showing that other concept attribution or interpretation methods fail on these model types. The abstract does not describe the foundation models or chromatin-signal models used, nor the interpretation outcomes.
+  - **Why it matters** Exclusivity claims require direct comparison with alternative methods. Without such evidence, the claim is unsupported and may mislead readers about the state of the art.
+  - **Resolution test** Provide comparative experiments with at least one alternative interpretation method on the same foundation and chromatin-signal models, showing that TPCAV succeeds where others fail or perform worse.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that incorporating a PCA-based decorrelation transformation addresses correlated and redundant embedding features.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain how PCA is applied, whether it is applied to concept activation vectors, model embeddings, or both, and how the number of principal components is selected. The potential information loss from PCA truncation is not discussed.
+  - **Why it matters** The technical validity of the core methodological contribution depends on these details. If PCA is applied incorrectly or with arbitrary component selection, the decorrelation may introduce artifacts or discard signal.
+  - **Resolution test** Describe the PCA application procedure, including component selection criteria, and show sensitivity analyses demonstrating that results are stable across reasonable choices of component numbers.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "concept-specific input attribution maps" is introduced without definition or example. It is unclear whether these maps are saliency maps, gradient-based attributions, or something else.
+  - **Required correction** Define the term explicitly and provide a brief description of how these maps are generated and what they represent.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Model diversity claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "a diverse set of genomics models" but does not specify the number, types, or tasks of these models beyond the examples given.
+  - **Required correction** List the model types, tasks, and input representations covered in the evaluation to substantiate the diversity claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of code availability, which is critical for a methods paper in computational biology.
+  - **Required correction** State whether code and data will be made publicly available, and if so, under what license and at what repository.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Comparative framing
+  - **Affected element** Baseline methods
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract only compares against TF-MoDISco for motif interpretation. It is unclear whether other concept attribution methods or standard feature attribution methods were considered as baselines.
+  - **Required correction** Clarify which baseline methods were used and justify the choice of comparators.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The central claims of comparability, robustness, uniqueness, and technical validity are all unsupported by quantitative or methodological detail in the abstract.
+- **Assessment against Nature-style criteria** 
+  - Originality: The adaptation of TCAV to genomics with a PCA-based decorrelation step is a novel contribution, though the underlying concept attribution framework is established. The extension to non-one-hot inputs and foundation models is timely.
+  - Scientific importance: If validated, the method would address a real gap in interpreting genomics models that use richer input representations. The potential impact is moderate to high for the computational genomics community.
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, and would appeal to both communities, though the abstract assumes familiarity with TCAV and TF-MoDISco.
+  - Technical soundness: Cannot be assessed from the abstract. The PCA modification is plausible but unverified, and the evaluation strategy is not described.
+  - Readability for nonspecialists: The abstract is reasonably clear for a technical audience but uses jargon without sufficient context for a broader readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising approach, but the absence of quantitative results, methodological detail, and validation strategy prevents assessment of the central claims. I would be supportive if the full manuscript provides rigorous evidence addressing the concerns above.
+
+## Risk / unsupported claims
+- Comparability to TF-MoDISco is unsupported without quantitative metrics.
+- Robustness of interpretations for repetitive elements and chromatin states is unsupported without a defined validation approach.
+- The claim of unique generalization to foundation models and chromatin-signal models is unsupported without comparative experiments.
+- The effectiveness of PCA-based decorrelation in addressing correlated features is unverified without methodological detail and sensitivity analysis.
+- The ability to identify representative regions associated with specific concepts is stated without evidence or examples.

@@ -1,0 +1,5 @@
+# Molecular Characterization of Membranous Nephropathy
+
+
+## Significance Statement
+  Although membranous nephropathy (MN) is one of the most common causes of nephrotic syndrome, the molecular characteristics of the kidney damage in MN remain poorly defined. In this study, the authors applied a machine-learning framework to predict diagnosis on the basis of gene expression in microdissected kidney tissue from patients with glomerulonephropathies. They found that MN has a glomerular transcriptional signature that distinguishes it from other glomerulonephropathies and identified a set of MN-specific genes differentially expressed across two independent cohorts and robustly recovered in an additional validation cohort. They also found the MN-specific genes are enriched in targets of transcription factor NF-κB and are predominantly expressed in podocytes. This work provides a molecular snapshot of MN and elucidates transcriptional alterations specific to this disease.

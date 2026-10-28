@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "40325818",
+    "doi": "10.2174/0109298673367678250414061434",
+    "title": "Identification and Validation of BATF3 as a Promising Biomarker Gene for Peripheral T-cell Lymphoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Peripheral T-cell lymphoma (PTCL) is a rare and heterogeneous group of hematological malignancies. Treatment options are limited and often unsatisfactory, leading to a poor prognosis in most subtypes. OBJECTIVE: This study aimed to identify potential biomarker genes for PTCL and to explore the underlying mechanisms by integrating machine learning, Mendelian Randomization (MR), and experimental validation. METHODS: Microarray datasets (GSE6338, GSE14879, and GSE59307) were downloaded from the Gene Expression Omnibus database. Differential expression analysis was conducted to identify the Differentially Expressed Genes (DEGs) between patients with PTCL and controls. A machine learning algorithm was then used to further refine the selection of characteristic genes for PTCL. We integrated genome-wide association studies data with expression quantitative trait loci data to identify genes with potential causal relationships to PTCL. Functional analysis was performed to explore underlying mechanisms. Finally, the identified gene was validated in clinical samples from patients with PTCL and controls. RESULTS: Based on 60 DEGs, the least absolute shrinkage and selection operator algorithm identified nine characteristic genes for PTCL. MR analysis revealed 203 genes with causal effects on PTCL, ultimately identifying one co-expressed gene: Basic Leucine Zipper ATF-like Transcription Factor 3 (BATF3). It demonstrated good predictive performance across various PTCL subtypes, with AUC values ranging from 0.7 to 1. Functional analysis suggested that BATF3 may play a role in PTCL through immune- related pathways. Experimental validation using clinical samples further suggested the potential of this biomarker gene in PTCL. CONCLUSION: By combining machine learning, MR, and experimental validation, we identified and validated BATF3 as a promising biomarker of PTCL. These findings provide insights into the molecular mechanisms underlying PTCL and may inform the development of effective treatment strategies for this disease.",
+    "keywords": [
+      "BATF3",
+      "Peripheral T-cell lymphoma",
+      "biomarker",
+      "immunity",
+      "machine learning",
+      "mendelian randomization"
+    ],
+    "mesh_terms": [
+      "*Basic-Leucine Zipper Transcription Factors/genetics",
+      "Humans",
+      "*Lymphoma, T-Cell, Peripheral/genetics/diagnosis",
+      "*Biomarkers, Tumor/genetics",
+      "*Repressor Proteins/genetics",
+      "Machine Learning",
+      "Genome-Wide Association Study",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yidong",
+        "Liu, Jun",
+        "Zhang, Ting"
+      ],
+      "short_names": [
+        "Zhu Y",
+        "Liu J",
+        "Zhang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Traditional Chinese Medicine, Shanghai Tenth People's Hospital, Tongji University School of Medicine, Shanghai, 200072, China.",
+        "Department of Traditional Chinese Medicine, Shanghai Tenth People's Hospital, Tongji University School of Medicine, Shanghai, 200072, China.",
+        "Department of Hematology, Jiangsu Province Hospital, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yidong",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shanghai Tenth People's Hospital, Tongji University School of Medicine, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jun",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shanghai Tenth People's Hospital, Tongji University School of Medicine, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Jiangsu Province Hospital, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Curr Med Chem"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/06 06:29",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39488307",
+      "39263576",
+      "39002211",
+      "38824603",
+      "38557926",
+      "38358555",
+      "38350451",
+      "38304959",
+      "38217769",
+      "38178117",
+      "38142400",
+      "37294962",
+      "36990264",
+      "36988595",
+      "36261191",
+      "36171096",
+      "35953649",
+      "35732829",
+      "35653592",
+      "35443168",
+      "35276674",
+      "35129014",
+      "35089332",
+      "35082398",
+      "34936225",
+      "34716031",
+      "34518686",
+      "34475573",
+      "34426474",
+      "34202976",
+      "33714208",
+      "33160401",
+      "33057139",
+      "32989328",
+      "32764512",
+      "32467604",
+      "32444689",
+      "31045282",
+      "30551880",
+      "30194138",
+      "29599200",
+      "29414251",
+      "29164242",
+      "27191829",
+      "26970726",
+      "26661904",
+      "26610247",
+      "25848977",
+      "25312824",
+      "24114802",
+      "19657361",
+      "19008445",
+      "17304354",
+      "9044528"
+    ],
+    "similar": [
+      "40325818",
+      "39370621",
+      "41540529",
+      "40411576",
+      "41177796",
+      "40600553",
+      "42136310",
+      "38468267",
+      "42236612",
+      "41291841",
+      "38649912",
+      "39507054",
+      "41706814",
+      "41333919",
+      "32980897",
+      "41872824",
+      "42558367",
+      "40313958",
+      "38802691",
+      "41146237",
+      "41376620",
+      "41772937",
+      "42316496",
+      "42123756",
+      "41415264",
+      "41665627",
+      "40836320",
+      "42004723",
+      "33160401",
+      "39872525",
+      "38951833",
+      "40830558",
+      "41436831",
+      "38863714",
+      "40997906",
+      "40922352",
+      "39717623",
+      "42195052",
+      "35131666",
+      "41107929",
+      "41991682",
+      "40223054",
+      "42051519",
+      "41699549",
+      "42500655",
+      "41960370",
+      "41388523",
+      "41029776",
+      "41188996",
+      "42327749",
+      "41507915",
+      "40916281",
+      "23735590",
+      "42158874",
+      "41826889",
+      "41080564",
+      "31239775",
+      "42475469",
+      "40755754",
+      "41163278",
+      "41200172",
+      "39509434",
+      "39559355",
+      "40034693",
+      "41432483",
+      "40255403",
+      "42244292",
+      "39804431",
+      "40500570",
+      "40328901",
+      "39142001",
+      "40350654",
+      "41858783",
+      "42280204",
+      "40340571",
+      "41836872",
+      "25559354",
+      "41798945",
+      "40677720",
+      "36746103",
+      "42631563",
+      "42377012",
+      "42456406",
+      "42164373",
+      "41339815",
+      "40215750",
+      "42582767",
+      "39650552",
+      "40406620",
+      "42175405",
+      "41479901",
+      "40936892",
+      "38728482",
+      "41099090",
+      "24632715",
+      "41378005",
+      "41882260",
+      "41220724",
+      "39491745",
+      "38923838"
+    ],
+    "review": [
+      "40325818",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.eurekaselect.com/241740/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

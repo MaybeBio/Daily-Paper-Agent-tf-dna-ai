@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41557834",
+  "title": "Learning a pairwise epigenomic and transcription factor binding association score across the human genome.",
+  "authors": "Kwon, Soo Bin; Ernst, Jason",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-01-20",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用神经网络从表观基因组和TF结合数据中学习基因组位点间的成对关联分数，虽涉及TF结合数据但非聚焦TF-DNA结合机制建模，方法可迁移但对象与互作深度有限。",
+  "abstract": "MOTIVATION: Identifying pairwise associations between genomic loci is an important challenge for which large and diverse collections of epigenomic and transcription factor (TF) binding data can potentially be informative. RESULTS: We developed Learning Evidence of Pairwise Association from Epigenomic and TF binding data (LEPAE). LEPAE uses neural networks to quantify evidence of association for pairs of genomic windows from large-scale epigenomic and TF binding data along with distance information. We applied LEPAE using thousands of human datasets. We show using additional data that LEPAE captures biologically meaningful pairwise relationships between genomic loci, and we expect LEPAE scores to be a resource. AVAILABILITY AND IMPLEMENTATION: The LEPAE scores and the software are available at https://github.com/ernstlab/LEPAE.",
+  "abstract_zh": "动机：识别基因组位点之间的成对关联是一项重要挑战，而大规模且多样化的表观基因组和转录因子（TF）结合数据可能为此提供信息。结果：我们开发了从表观基因组和TF结合数据中学习成对关联证据的方法（LEPAE）。LEPAE利用神经网络，结合距离信息，从大规模表观基因组和TF结合数据中量化基因组窗口对的关联证据。我们使用数千个人类数据集应用了LEPAE。我们通过额外数据表明，LEPAE捕获了基因组位点之间具有生物学意义的成对关系，并预期LEPAE评分将成为一种资源。可用性和实现：LEPAE评分及软件可在https://github.com/ernstlab/LEPAE获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41557834/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41557834/",
+  "paper_page_path": "papers/pubmed/41557834/index.html"
+}

@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, tables, methods, or supplementary material
+- **Shared manuscript claim summary** The authors report that McsB regulates CtsR thermosensing via phosphorylation of peripheral arginine residues, using a single-molecule fluorescence assay to monitor DNA-CtsR-McsB interactions. They report binding kinetics, show that McsB interaction lowers the temperature threshold for CtsR dissociation without removing CtsR from DNA, and propose a molecular mechanism based on mass spectrometry, mutational analysis, and structural simulation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, mass spectrometry data, mutational analysis results, structural simulation parameters, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting single-molecule study of the CtsR-McsB regulatory system, with a novel mechanistic proposal involving peripheral arginine phosphorylation. However, the evidence base available for review is limited to the abstract, and several key claims cannot be evaluated without access to the underlying data. The central mechanistic conclusion, that peripheral arginine phosphorylation reduces DNA-binding energy and thereby alters thermosensing, is plausible but not established from the abstract alone. The work may be of interest to researchers in bacterial stress responses and single-molecule biophysics, but the current evidence does not fully support the strength of the claims as stated.
+- **Who would be interested in the results, and why** Researchers studying bacterial heat-shock responses, transcriptional regulation, and protein-DNA interactions would be interested. The single-molecule approach and the proposed role of peripheral arginine phosphorylation may also attract biophysicists and biochemists interested in post-translational regulation of DNA-binding proteins. The potential generalizability of the mechanism to other arginine kinase systems could broaden interest.
+- **Major strengths** The use of a single-molecule fluorescence assay to monitor real-time interactions is a methodological strength. The report of quantitative binding kinetics (k(on) and k(off)) provides concrete data. The proposal that McsB modulates CtsR thermosensing without displacing it from DNA is a conceptually interesting finding that may refine current models. The combination of mass spectrometry, mutational analysis, and structural simulation to support the mechanism is a multi-pronged approach.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that phosphorylation of several peripheral arginine residues on CtsR reduces the binding energy of the CtsR-DNA complex, and that this underlies the molecular mechanism for the altered thermosensing behavior.
+  - **Evidence pointer** Abstract text; specific figures, tables, or methods not provided
+  - **Concern** The abstract states that mass spectrometry, mutational analysis, and structural simulation "together suggest" the mechanism, but no quantitative data are presented. It is unclear which arginine residues were identified, how many were mutated, what the effect of each mutation was on binding affinity or thermosensing, and how the structural simulations were performed and validated. The phrase "suggest" indicates a level of uncertainty that is not reflected in the abstract's concluding claim that the mechanism is "plausible" and "underlies" the effect.
+  - **Why it matters** The central mechanistic claim is the main novel contribution of the work. Without quantitative evidence linking specific phosphorylation sites to changes in binding energy and thermosensing, the claim remains speculative. The abstract does not provide enough detail to assess whether the data support a causal relationship or merely a correlation.
+  - **Resolution test** Provide quantitative data showing which arginine residues are phosphorylated, the effect of each mutation on CtsR-DNA binding affinity (e.g., Kd values), and the corresponding changes in temperature threshold for dissociation. Structural simulations should include validation against experimental data and clear presentation of how phosphorylation reduces binding energy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental controls and validation
+  - **Claim pointer** The authors claim that McsB interaction lowers the temperature threshold for CtsR dissociation and alters its thermosensing behavior, and that this is not due to removal of CtsR from DNA.
+  - **Evidence pointer** Abstract text; no figures or methods provided
+  - **Concern** The abstract does not describe how the temperature threshold was measured, what range of temperatures was tested, or how the effect of McsB was distinguished from other possible effects such as changes in buffer conditions or photobleaching in the single-molecule assay. The claim that McsB does not remove CtsR from DNA is stated but no supporting data are shown. It is also unclear whether the observed effect is specific to McsB or could be reproduced by a catalytically inactive McsB mutant.
+  - **Why it matters** The thermosensing modulation is a key functional claim. Without proper controls and a clear description of the assay conditions, it is not possible to assess whether the observed effect is real and specific, or an artifact of the experimental system.
+  - **Resolution test** Provide temperature-dependent dissociation curves with and without McsB, including error bars and replicates. Include a control with a catalytically inactive McsB mutant to show that kinase activity is required. Describe how photobleaching and other artifacts were controlled in the single-molecule measurements.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors report k(on) and k(off) values of 0.75 muM(-1) s(-1) and 0.34 s(-1), respectively, for McsB binding to DNA-bound CtsR.
+  - **Evidence pointer** Abstract text; no methods or statistical details provided
+  - **Concern** The kinetic parameters are reported without error estimates, number of measurements, or description of the fitting procedure. It is unclear whether these values are from a single experiment or averaged over multiple replicates, and what the uncertainty is. The abstract also does not state the temperature at which these measurements were made, which is relevant given the thermosensing claim.
+  - **Why it matters** Quantitative kinetic parameters are only meaningful with associated uncertainty and experimental context. Without this information, the values cannot be compared to other systems or used to support the mechanistic model.
+  - **Resolution test** Report kinetic parameters with standard errors or confidence intervals, the number of independent measurements, the fitting model used, and the temperature and buffer conditions for the measurements.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Assay name
+  - **Evidence pointer** Abstract text
+  - **Issue** The assay is described as "fluorescence intensity shift assay (FISA) based on the photoisomerisation-related fluorescence enhancement (or previously protein-induced fluorescence enhancement, PIFE) effect." The relationship between "FISA" and "PIFE" is not clearly defined, and the parenthetical "or previously" is confusing.
+  - **Required correction** Clarify whether FISA is a new name for PIFE or a distinct assay, and define the acronyms consistently throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Structural simulation details
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "structural simulation results" but does not specify the type of simulation (e.g., molecular dynamics, docking) or the system modeled.
+  - **Required correction** Provide a brief description of the simulation method and the structural model used in the abstract or refer to a methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that phosphorylation "reduces the binding energy of the CtsR-DNA complex" but does not specify whether this is a direct electrostatic effect or an indirect conformational change.
+  - **Required correction** Clarify the proposed mechanism in the abstract or indicate that the detailed mechanism is discussed in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that peripheral arginine phosphorylation reduces CtsR-DNA binding energy and underlies the thermosensing effect is not supported by quantitative data in the abstract.
+- The claim that McsB does not remove CtsR from DNA is stated without supporting evidence.
+- The kinetic parameters k(on) and k(off) are reported without error estimates or experimental context.
+- The functional significance of the observed effect for the bacterial heat-shock response is stated as a conclusion but not directly demonstrated.
+- The specificity of the phosphorylation sites and the causal link between phosphorylation and thermosensing changes are not established from the abstract alone.

@@ -1,0 +1,540 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.09.03.25334405",
+  "title": "RT2C: Predicting Time to New Dental Caries Using a Recurrent Neural Network Model Trained on Multi-Site Longitudinal Structured Dental Data",
+  "doi": "10.1101/2025.09.03.25334405",
+  "abstract": "Dental caries remains one of the most prevalent chronic conditions globally, yet efforts to quantify a patient’s risk of developing new caries over time remain limited. Existing caries risk assessment (CRA) tools are widely used in clinical settings but typically rely on cross-sectional data, which may limit their predictive accuracy and generalizability across populations. To address these limitations, we developed RT2C, a recurrent neural network model based on bidirectional gated recurrent units (Bi-GRU) to predict time to new caries. The model was trained on longitudinal dental records from 466,782 patients across four diverse dental organizations, encompassing over one million visits between 2019 and 2023. Input features included demographics, preventive procedures, caries history, and previously recorded CRA scores. We benchmarked the model performance against other machine learning models such as logistic regression, light gradient boost machine, random survival forest, and CRA-based baselines using AUROC for binary classification and concordance index (c-index) for survival prediction. Our model demonstrated strong predictive performance, achieving a c-index of 88.52% (95% CI: 88.51-88.54) in survival analysis, significantly outperforming baseline models based on current or past CRA scores by more than 18%. Site-level evaluations confirmed its robust generalizability, with pooled models performing comparably or better than sites-pecific ones. Additionally, decision curve analysis showed that the Bi-GRU model offers greater clinical net benefit across a range of decision thresholds when compared to CRA or treat-all/treat-none strategies. By leveraging longitudinal dental histories and temporal patterns in patient visits, our proposed model provides clinically meaningful improvements in predicting caries risk. These findings support its potential integration into decision support tools for more personalized and preventive dental care.",
+  "authors": [
+    "Xiangyi Liu",
+    "Krishna Kumar Kookal",
+    "Ryan Brandon",
+    "D. Brad Rindal",
+    "Joanna Mullins",
+    "Joel M. White",
+    "Muhammad F. Walji",
+    "Laila Rasmy"
+  ],
+  "published_date": "2025-09-05",
+  "updated_date": "2025-09-06T00:00:17Z",
+  "journal": "medRxiv",
+  "category": "Dentistry and Oral Medicine",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.09.03.25334405",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.09.03.25334405.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Dentistry and Oral Medicine"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Dentistry and Oral Medicine",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "medRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            11
+          ]
+        ],
+        "date-time": "2026-06-11T05:05:30Z",
+        "timestamp": 1781154330843,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "group-title": "Dentistry and Oral Medicine",
+      "reference-count": 34,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2025-09-05T00:00:00Z",
+            "timestamp": 1757030400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Dental caries remains one of the most prevalent chronic conditions globally, yet efforts to quantify a patient’s risk of developing new caries over time remain limited. Existing caries risk assessment (CRA) tools are widely used in clinical settings but typically rely on cross-sectional data, which may limit their predictive accuracy and generalizability across populations. To address these limitations, we developed RT2C, a recurrent neural network model based on bidirectional gated recurrent units (Bi-GRU) to predict time to new caries. The model was trained on longitudinal dental records from 466,782 patients across four diverse dental organizations, encompassing over one million visits between 2019 and 2023. Input features included demographics, preventive procedures, caries history, and previously recorded CRA scores. We benchmarked the model performance against other machine learning models such as logistic regression, light gradient boost machine, random survival forest, and CRA-based baselines using AUROC for binary classification and concordance index (c-index) for survival prediction.</jats:p>\n                <jats:p>Our model demonstrated strong predictive performance, achieving a c-index of 88.52% (95% CI: 88.51-88.54) in survival analysis, significantly outperforming baseline models based on current or past CRA scores by more than 18%. Site-level evaluations confirmed its robust generalizability, with pooled models performing comparably or better than sites-pecific ones. Additionally, decision curve analysis showed that the Bi-GRU model offers greater clinical net benefit across a range of decision thresholds when compared to CRA or treat-all/treat-none strategies. By leveraging longitudinal dental histories and temporal patterns in patient visits, our proposed model provides clinically meaningful improvements in predicting caries risk. These findings support its potential integration into decision support tools for more personalized and preventive dental care.</jats:p>",
+      "DOI": "10.1101/2025.09.03.25334405",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            6
+          ]
+        ],
+        "date-time": "2025-09-06T00:00:17Z",
+        "timestamp": 1757116817000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "RT2C: Predicting Time to New Dental Caries Using a Recurrent Neural Network Model Trained on Multi-Site Longitudinal Structured Dental Data"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1923-0730",
+          "authenticated-orcid": false,
+          "given": "Xiangyi",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Krishna Kumar",
+          "family": "Kookal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ryan",
+          "family": "Brandon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D. Brad",
+          "family": "Rindal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joanna",
+          "family": "Mullins",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joel M.",
+          "family": "White",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad F.",
+          "family": "Walji",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2644-4908",
+          "authenticated-orcid": false,
+          "given": "Laila",
+          "family": "Rasmy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0140-6736(24)02811-3"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/00220345211056247"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1600-0528.2005.00233.x"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0022034517736500"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0022034510364489"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21815/JDE.019.017"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7759/cureus.80069"
+        },
+        {
+          "issue": "10",
+          "key": "2025090914500690000_2025.09.03.25334405v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1166",
+          "DOI": "10.3390/children11101166",
+          "article-title": "Introducing the Index of Caries Risk (ICR): a comparative study on a novel tool for caries risk assessment in pediatric patients",
+          "volume": "11",
+          "year": "2024",
+          "journal-title": "Children"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jdent.2021.103664"
+        },
+        {
+          "issue": "10",
+          "key": "2025090914500690000_2025.09.03.25334405v1.10",
+          "first-page": "312",
+          "article-title": "Updates on caries risk assessment—a literature review",
+          "volume": "12",
+          "year": "2024",
+          "journal-title": "Dent J (Basel)"
+        },
+        {
+          "issue": "1",
+          "key": "2025090914500690000_2025.09.03.25334405v1.11",
+          "first-page": "33",
+          "article-title": "Development of quality measures to assess tooth decay outcomes from electronic health record data",
+          "volume": "83",
+          "year": "2022",
+          "journal-title": "J Public Health Dent"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7326/M18-1377"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/bmjopen-2024-088253"
+        },
+        {
+          "issue": "12",
+          "key": "2025090914500690000_2025.09.03.25334405v1.14",
+          "first-page": "141",
+          "article-title": "Using a machine learning algorithm to predict the likelihood of presence of dental caries among children aged 2 to 7",
+          "volume": "9",
+          "year": "2021",
+          "journal-title": "Dent J (Basel)"
+        },
+        {
+          "issue": "9",
+          "key": "2025090914500690000_2025.09.03.25334405v1.15",
+          "first-page": "164",
+          "article-title": "Dental caries risk assessment in children 5 years old and under via machine learning",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "Dent J (Basel)"
+        },
+        {
+          "issue": "16",
+          "key": "2025090914500690000_2025.09.03.25334405v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "8613",
+          "DOI": "10.3390/ijerph18168613",
+          "article-title": "Prediction models of early childhood caries based on machine learning algorithms",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Int J Environ Res Public Health"
+        },
+        {
+          "issue": "6",
+          "key": "2025090914500690000_2025.09.03.25334405v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "3043",
+          "DOI": "10.3390/app12063043",
+          "article-title": "DCP: prediction of dental caries using machine learning in personalized medicine",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Appl Sci"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "86",
+          "DOI": "10.1038/s41746-021-00455-y",
+          "article-title": "Med-BERT: pretrained contextualized embeddings on large-scale structured electronic health records for disease prediction",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "NPJ Digit Med"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/N16-1056"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.20",
+          "unstructured": "Rasmy L , Zhu J , Li Z , et al. 2021. Simple recurrent neural networks is all we need for clinical events predictions using EHR data. arXiv. 2110.00998."
+        },
+        {
+          "issue": "6",
+          "key": "2025090914500690000_2025.09.03.25334405v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "e415",
+          "DOI": "10.1016/S2589-7500(22)00049-8",
+          "article-title": "Recurrent neural network models (CovRNN) for predicting outcomes of patients with COVID-19 on admission to hospital: model development and validation using electronic health record data",
+          "volume": "4",
+          "year": "2022",
+          "journal-title": "Lancet Digit Health"
+        },
+        {
+          "issue": "1",
+          "key": "2025090914500690000_2025.09.03.25334405v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "2036",
+          "DOI": "10.1038/s41467-024-46211-0",
+          "article-title": "Deep learning model for personalized prediction of positive MRSA culture using time-series electronic health records",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "issue": "1",
+          "key": "2025090914500690000_2025.09.03.25334405v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1055/s-0041-1740920",
+          "article-title": "Caries risk documentation and prevention: eMeasures for dental electronic health records",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Appl Clin Inform"
+        },
+        {
+          "issue": "Suppl 1",
+          "key": "2025090914500690000_2025.09.03.25334405v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "S148",
+          "DOI": "10.4103/jpbs.jpbs_735_21",
+          "article-title": "Assessing the validity and reliability of tooth widths and Bolton ratios obtained from digital models and plaster models",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "J Pharm Bioallied Sci"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21815/JDE.019.123"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "167",
+          "DOI": "10.1016/j.jbi.2018.05.016",
+          "article-title": "Modeling asynchronous event sequences with RNNs",
+          "volume": "83",
+          "year": "2018",
+          "journal-title": "J Biomed Inform"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jphd.12413"
+        },
+        {
+          "key": "2025090914500690000_2025.09.03.25334405v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s41512-019-0064-7"
+        },
+        {
+          "issue": "1",
+          "key": "2025090914500690000_2025.09.03.25334405v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "457",
+          "DOI": "10.1186/s12903-021-01819-2",
+          "article-title": "A predictive nomogram: a cross-sectional study on a simple-to-use model for screening 12-year-old children for severe caries in middle schools",
+          "volume": "21",
+          "year": "2021",
+          "journal-title": "BMC Oral Health"
+        },
+        {
+          "issue": "11",
+          "key": "2025090914500690000_2025.09.03.25334405v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "3000605211060175",
+          "DOI": "10.1177/03000605211060175",
+          "article-title": "Nomogram prediction of caries risk among schoolchildren age 7 years based on a cohort study in Shanghai",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "J Int Med Res"
+        },
+        {
+          "issue": "4",
+          "key": "2025090914500690000_2025.09.03.25334405v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "157",
+          "DOI": "10.4038/cmj.v67i4.9744",
+          "article-title": "Identifying high-risk children for dental caries in school settings: a simple predictive model",
+          "volume": "67",
+          "year": "2022",
+          "journal-title": "Ceylon Med J"
+        },
+        {
+          "issue": "9",
+          "key": "2025090914500690000_2025.09.03.25334405v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "999",
+          "DOI": "10.1177/00220345231170535",
+          "article-title": "Early childhood predictors for dental caries: a machine learning approach",
+          "volume": "102",
+          "year": "2023",
+          "journal-title": "J Dent Res"
+        },
+        {
+          "issue": "6",
+          "key": "2025090914500690000_2025.09.03.25334405v1.33",
+          "first-page": "686",
+          "article-title": "Prediction model of dental caries in 12-year-old children in Sichuan Province based on machine learning",
+          "volume": "41",
+          "year": "2023",
+          "journal-title": "Hua Xi Kou Qiang Yi Xue Za Zhi"
+        },
+        {
+          "issue": "16",
+          "key": "2025090914500690000_2025.09.03.25334405v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "8613",
+          "DOI": "10.3390/ijerph18168613",
+          "article-title": "Prediction models of early childhood caries based on machine learning algorithms",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Int J Environ Res Public Health"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.03.25334405",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:44:57Z",
+        "timestamp": 1768509897000
+      },
+      "score": 58.279278,
+      "resource": {
+        "primary": {
+          "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.09.03.25334405"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "references-count": 34,
+      "URL": "https://doi.org/10.1101/2025.09.03.25334405",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "40472848",
+    "doi": "10.1016/j.cels.2025.101302",
+    "title": "Iterative deep learning design of human enhancers exploits condensed sequence grammar to achieve cell-type specificity."
+  },
+  "content": {
+    "abstract": "An important and largely unsolved problem in synthetic biology is how to target gene expression to specific cell types. Here, we apply iterative deep learning to design synthetic enhancers with strong differential activity between two human cell lines. We initially train models on published datasets of enhancer activity and chromatin accessibility and use them to guide the design of synthetic enhancers that maximize predicted specificity. We experimentally validate these sequences, use the measurements to re-optimize the model, and design a second generation of enhancers with improved specificity. Our design methods embed relevant transcription factor binding site (TFBS) motifs with higher frequency than comparable endogenous enhancers while using a more selective motif vocabulary, and we show that enhancer activity is correlated with transcription factor expression at the single-cell level. Finally, we characterize causal features of top enhancers via perturbation experiments and show that enhancers as short as 50 bp can maintain specificity. A record of this paper's transparent peer review process is included in the supplemental information.",
+    "keywords": [
+      "cell-type specificity",
+      "chromatin accessibility",
+      "cis-regulatory",
+      "deep learning",
+      "enhancer",
+      "enhancer design",
+      "generative design",
+      "synthetic biology",
+      "synthetic enhancers"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Enhancer Elements, Genetic/genetics",
+      "Binding Sites/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Chromatin/genetics",
+      "Synthetic Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yin, Christopher",
+        "Castillo-Hair, Sebastian",
+        "Byeon, Gun Woo",
+        "Bromley, Peter",
+        "Meuleman, Wouter",
+        "Seelig, Georg"
+      ],
+      "short_names": [
+        "Yin C",
+        "Castillo-Hair S",
+        "Byeon GW",
+        "Bromley P",
+        "Meuleman W",
+        "Seelig G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA.",
+        "Altius Institute for Biomedical Sciences, Seattle, WA, USA.",
+        "Altius Institute for Biomedical Sciences, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, USA. Electronic address: meuleman@altius.org.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, USA. Electronic address: gseelig@uw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yin, Christopher",
+        "short_name": "Yin C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Castillo-Hair, Sebastian",
+        "short_name": "Castillo-Hair S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Byeon, Gun Woo",
+        "short_name": "Byeon GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Bromley, Peter",
+        "short_name": "Bromley P",
+        "identifiers": [],
+        "affiliations": [
+          "Altius Institute for Biomedical Sciences, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Meuleman, Wouter",
+        "short_name": "Meuleman W",
+        "identifiers": [],
+        "affiliations": [
+          "Altius Institute for Biomedical Sciences, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, USA. Electronic address: meuleman@altius.org."
+        ]
+      },
+      {
+        "full_name": "Seelig, Georg",
+        "short_name": "Seelig G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA; Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, USA. Electronic address: gseelig@uw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2025 Jul 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 00:27",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42642514",
+      "42509369",
+      "42495002",
+      "42094554",
+      "42079234",
+      "41839899",
+      "41648586",
+      "41523993",
+      "41497587",
+      "41486594",
+      "41332771",
+      "41142759",
+      "41007184",
+      "40543151",
+      "39803435",
+      "39605624",
+      "39253514"
+    ],
+    "refs": [
+      "40403722",
+      "39814889",
+      "39779956",
+      "39778579",
+      "39443793",
+      "39420601",
+      "39362779",
+      "39322281",
+      "39020177",
+      "38724692",
+      "38565561",
+      "38161204",
+      "38086419",
+      "38086418",
+      "37935854",
+      "37889080",
+      "37087538",
+      "36693380",
+      "36635387",
+      "35863348",
+      "35551305",
+      "35190730",
+      "34853475",
+      "34850907",
+      "34670493",
+      "34608324",
+      "33789083",
+      "33760053",
+      "33689769",
+      "33603233",
+      "33046894",
+      "32978299",
+      "32728217",
+      "32711843",
+      "32641802",
+      "31988385",
+      "31870423",
+      "31253799",
+      "31206543",
+      "30737237",
+      "29545511",
+      "28591841",
+      "28118844",
+      "27701403",
+      "27197224",
+      "26492886",
+      "25638815",
+      "25516281",
+      "25391375",
+      "25177895",
+      "24097267",
+      "23900254",
+      "23512712",
+      "22955617",
+      "22419077",
+      "19915551",
+      "19295514",
+      "17277777",
+      "15550541",
+      "6276024",
+      "3052270"
+    ],
+    "similar": [
+      "40472848",
+      "38915713",
+      "38086419",
+      "39778579",
+      "41927920",
+      "34486522",
+      "35551305",
+      "39922842",
+      "27490187",
+      "33137083",
+      "38086418",
+      "36043696",
+      "23512712",
+      "41951735",
+      "41256364",
+      "28137873",
+      "41285795",
+      "20133776",
+      "29187214",
+      "24714811",
+      "37557175",
+      "28716036",
+      "41862973",
+      "39420601",
+      "32043966",
+      "37539835",
+      "37312570",
+      "32142172",
+      "36351387",
+      "33741075",
+      "23732772",
+      "38485768",
+      "27155014",
+      "20363979",
+      "41030057",
+      "34244796",
+      "24967590",
+      "32732264",
+      "21821017",
+      "36520922",
+      "32431014",
+      "22075113",
+      "22412381",
+      "32689977",
+      "24127591",
+      "22537144",
+      "33581335",
+      "36705030",
+      "30709337",
+      "1656080",
+      "39363017",
+      "28839111",
+      "40403730",
+      "33712417",
+      "11375977",
+      "40158221",
+      "27321818",
+      "26382291",
+      "36941077",
+      "35410163",
+      "39695228",
+      "8473739",
+      "27582178",
+      "37237005",
+      "33705711",
+      "32249388",
+      "39819837",
+      "41478195",
+      "31053165",
+      "41229401",
+      "36715222",
+      "30593493",
+      "32029002",
+      "24496624",
+      "30892142",
+      "23700312",
+      "22371084",
+      "42114111",
+      "27833659",
+      "32961076",
+      "26936291",
+      "24565409",
+      "41832145",
+      "39276360",
+      "22534400",
+      "33044128",
+      "25517091",
+      "39747144",
+      "29284524",
+      "32193341",
+      "28854172",
+      "41437153",
+      "24218637",
+      "23685394",
+      "35015646",
+      "26912062",
+      "41039989",
+      "39322281",
+      "8380090",
+      "23526891"
+    ],
+    "review": [
+      "40472848",
+      "41862973",
+      "37312570",
+      "32142172",
+      "27321818",
+      "32961076",
+      "26936291",
+      "39276360",
+      "23685394"
+    ],
+    "pmc": [
+      "12221157"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(25)00135-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40472848/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40472848",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

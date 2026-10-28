@@ -1,0 +1,455 @@
+{
+  "identity": {
+    "pmid": "35086918",
+    "doi": "10.1136/openhrt-2021-001898",
+    "title": "Genome-wide association study-based prediction of atrial fibrillation using artificial intelligence."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: We previously reported early-onset atrial fibrillation (AF) associated genetic loci among a Korean population. We explored whether the AF-associated single-nucleotide polymorphisms (SNPs) selected from the Genome-Wide Association Study (GWAS) of an external large cohort has a prediction power for AF in Korean population through a convolutional neural network (CNN). METHODS: This study included 6358 subjects (872 cases, 5486 controls) from the Korean population GWAS data. We extracted the lists of SNPs at each p value threshold of the association statistics from three different previously reported ethnical-specific GWASs. The Korean GWAS data were divided into training (64%), validation (16%) and test (20%) sets, and a stratified K-fold cross-validation was performed and repeated five times after data shuffling. RESULTS: The CNN-GWAS predictive power for AF had an area under the curve (AUC) of 0.78+/-0.01 based on the Japanese GWAS, AUC of 0.79+/-0.01 based on the European GWAS, and AUC of 0.82+/-0.01 based on the multiethnic GWAS, respectively. Gradient-weighted class activation mapping assigned high saliency scores for AF associated SNPs, and the PITX2 obtained the highest saliency score. The CNN-GWAS did not show AF prediction power by SNPs with non-significant p value subset (AUC 0.56+/-0.01) despite larger numbers of SNPs. The CNN-GWAS had no prediction power for odd-even registration numbers (AUC 0.51+/-0.01). CONCLUSIONS: AF can be predicted by genetic information alone with moderate accuracy. The CNN-GWAS can be a robust and useful tool for detecting polygenic diseases by capturing the cumulative effects and genetic interactions of moderately associated but statistically significant SNPs. TRIAL REGISTRATION NUMBER: NCT02138695.",
+    "keywords": [
+      "atrial fibrillation",
+      "genetics",
+      "genome-wide association study"
+    ],
+    "mesh_terms": [
+      "*Artificial Intelligence",
+      "Atrial Fibrillation/*diagnosis/epidemiology/genetics",
+      "DNA/*genetics",
+      "Female",
+      "*Genetic Predisposition to Disease",
+      "Genome-Wide Association Study",
+      "Homeodomain Proteins/*genetics/metabolism",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Morbidity/trends",
+      "*Polymorphism, Single Nucleotide",
+      "Republic of Korea/epidemiology",
+      "Transcription Factors/*genetics/metabolism",
+      "Homeobox Protein PITX2"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kwon, Oh-Seok",
+        "Hong, Myunghee",
+        "Kim, Tae-Hoon",
+        "Hwang, Inseok",
+        "Shim, Jaemin",
+        "Choi, Eue-Keun",
+        "Lim, Hong Euy",
+        "Yu, Hee Tae",
+        "Uhm, Jae-Sun",
+        "Joung, Boyoung",
+        "Oh, Seil",
+        "Lee, Moon-Hyoung",
+        "Kim, Young-Hoon",
+        "Pak, Hui-Nam"
+      ],
+      "short_names": [
+        "Kwon OS",
+        "Hong M",
+        "Kim TH",
+        "Hwang I",
+        "Shim J",
+        "Choi EK",
+        "Lim HE",
+        "Yu HT",
+        "Uhm JS",
+        "Joung B",
+        "Oh S",
+        "Lee MH",
+        "Kim YH",
+        "Pak HN"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3256-3620"
+      ],
+      "affiliations": [
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of).",
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of).",
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of).",
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of).",
+        "Cardiovascular Center, Korea University Medical Center, Seoul, Korea (the Republic of).",
+        "Cardiology, Seoul National University, Seoul, Korea (the Republic of).",
+        "Cardiology, Hallym University Sacred Heart Hospital, Anyang, Gyeonggi-do, Korea (the Republic of).",
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of).",
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of).",
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of).",
+        "Cardiology, Seoul National University, Seoul, Korea (the Republic of).",
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of).",
+        "Cardiovascular Center, Korea University Medical Center, Seoul, Korea (the Republic of).",
+        "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of) hnpak@yuhs.ac."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kwon, Oh-Seok",
+        "short_name": "Kwon OS",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Hong, Myunghee",
+        "short_name": "Hong M",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Kim, Tae-Hoon",
+        "short_name": "Kim TH",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Hwang, Inseok",
+        "short_name": "Hwang I",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Shim, Jaemin",
+        "short_name": "Shim J",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Center, Korea University Medical Center, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Choi, Eue-Keun",
+        "short_name": "Choi EK",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Seoul National University, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Lim, Hong Euy",
+        "short_name": "Lim HE",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Hallym University Sacred Heart Hospital, Anyang, Gyeonggi-do, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Yu, Hee Tae",
+        "short_name": "Yu HT",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Uhm, Jae-Sun",
+        "short_name": "Uhm JS",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Joung, Boyoung",
+        "short_name": "Joung B",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Oh, Seil",
+        "short_name": "Oh S",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Seoul National University, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Lee, Moon-Hyoung",
+        "short_name": "Lee MH",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Kim, Young-Hoon",
+        "short_name": "Kim YH",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Center, Korea University Medical Center, Seoul, Korea (the Republic of)."
+        ]
+      },
+      {
+        "full_name": "Pak, Hui-Nam",
+        "short_name": "Pak HN",
+        "identifiers": [
+          "0000-0002-3256-3620"
+        ],
+        "affiliations": [
+          "Cardiology, Yonsei University Health System, Seodaemun-gu, Seoul, Korea (the Republic of) hnpak@yuhs.ac."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Open heart"
+    ],
+    "journal_abbrev": [
+      "Open Heart"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/29 06:00",
+    "fetched_at": "2026-09-28 04:33:33"
+  },
+  "links": {
+    "cites": [
+      "41473159",
+      "41039509",
+      "40802796",
+      "40788127",
+      "40206300",
+      "40176068",
+      "38846068",
+      "38392270",
+      "38362554",
+      "38013648",
+      "37925783",
+      "37326705",
+      "35911511"
+    ],
+    "refs": [
+      "32423490",
+      "31824557",
+      "30898208",
+      "30535219",
+      "30171033",
+      "30061737",
+      "29892015",
+      "29880128",
+      "29802976",
+      "29550305",
+      "28460022",
+      "28416822",
+      "28137686",
+      "27567408",
+      "27252451",
+      "26272656",
+      "21948959",
+      "21076174",
+      "16428254"
+    ],
+    "similar": [
+      "35086918",
+      "26073630",
+      "26272656",
+      "28460022",
+      "24465984",
+      "31931171",
+      "24695651",
+      "33990960",
+      "31039368",
+      "23838598",
+      "24239840",
+      "29459676",
+      "25494715",
+      "24486271",
+      "34299303",
+      "28087289",
+      "21107608",
+      "26267381",
+      "28217939",
+      "25391453",
+      "31801406",
+      "28381281",
+      "31368859",
+      "30727926",
+      "29545482",
+      "22384221",
+      "25124494",
+      "25953654",
+      "37278238",
+      "27582060",
+      "38403485",
+      "26385043",
+      "32822252",
+      "29534064",
+      "24983873",
+      "28129963",
+      "34827661",
+      "32097431",
+      "23132824",
+      "24074973",
+      "24395921",
+      "32540331",
+      "24667784",
+      "22336519",
+      "30110000",
+      "28851283",
+      "33824227",
+      "23042660",
+      "38818473",
+      "29624624",
+      "25567478",
+      "35587846",
+      "38896256",
+      "25684755",
+      "26021244",
+      "28849223",
+      "30558760",
+      "27310578",
+      "39054468",
+      "30673079",
+      "21245058",
+      "29065906",
+      "31636200",
+      "26112950",
+      "35278573",
+      "22818067",
+      "33350184",
+      "27624063",
+      "34599422",
+      "23362995",
+      "36035367",
+      "25196315",
+      "20022124",
+      "22690879",
+      "26243430",
+      "20729558",
+      "28849422",
+      "33514068",
+      "26497660",
+      "19597492",
+      "31691645",
+      "32474920",
+      "37932605",
+      "30234802",
+      "30678657",
+      "37404734",
+      "29915175",
+      "25175087",
+      "32409696",
+      "29162046",
+      "39142603",
+      "25456346",
+      "21056700",
+      "32631100",
+      "25120818",
+      "20733104",
+      "32814717",
+      "30673084",
+      "35962833",
+      "38442074",
+      "28175276",
+      "25015694",
+      "24161141",
+      "39073570",
+      "38985600",
+      "30392061",
+      "39408638",
+      "37535755",
+      "38692398",
+      "37217627",
+      "39240858",
+      "37734486",
+      "39008506",
+      "37591828",
+      "39217223",
+      "39232768",
+      "35313536",
+      "38941432",
+      "39311016",
+      "38574792",
+      "37324776",
+      "39099578"
+    ],
+    "review": [
+      "35086918",
+      "23838598",
+      "34299303",
+      "28217939",
+      "31368859",
+      "30727926",
+      "25124494",
+      "32822252",
+      "38818473",
+      "35587846",
+      "25684755",
+      "30673079",
+      "21245058",
+      "26112950",
+      "27624063",
+      "34599422",
+      "22690879",
+      "37932605",
+      "25175087",
+      "21056700",
+      "39073570",
+      "39240858"
+    ],
+    "pmc": [
+      "8796259"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicaltrials.gov/search?term=AREA%5BReferencePMID%5D35086918",
+        "provider": "ClinicalTrials.gov",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://openheart.bmj.com/lookup/pmidlookup?view=long&pmid=35086918",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/atrialfibrillation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atrial Fibrillation"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35086918/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35086918",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

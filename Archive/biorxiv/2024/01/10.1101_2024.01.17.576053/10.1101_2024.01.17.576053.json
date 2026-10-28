@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.17.576053",
+  "title": "PatternJ: an ImageJ toolset for the automated and quantitative analysis of regular spatial patterns found in sarcomeres, axons, somites, and more",
+  "doi": "10.1101/2024.01.17.576053",
+  "abstract": "Regular spatial patterns are ubiquitous forms of organization in nature. In animals, regular patterns can be found from the cellular scale to the tissue scale, and from early stages of development to adulthood. To understand the formation of these patterns, how they form and mature, and how they are affected by perturbations, a precise quantitative description of the patterns is essential. However, accessible tools that offer in-depth analysis without the need for computational skills are lacking for biologists. Here we present PatternJ, a novel toolset to analyze regular pattern organizations precisely and automatically. This toolset, to be used with the popular imaging processing program ImageJ/Fiji, facilitates the extraction of key geometric features within and between pattern repeats. We validated PatternJ on simulated data and tested it on images of sarcomeres in insect muscles and cardiomyocytes, actin rings in neurons, and somites in zebrafish embryos obtained using confocal fluorescence microscopy, STORM, electron microscopy, and bright-field imaging. We show that the toolset delivers subpixel feature extraction reliably even with images of low signal-to-noise ratio. PatternJ’s straightforward use and functionalities make it valuable for various scientific fields requiring quantitative pattern analysis, including the sarcomere biology of muscles or the patterning of mammalian axons, speeding up discoveries with the bonus of high reproducibility.",
+  "authors": [
+    "Blin MB",
+    "Loreau V",
+    "Schnorrer F",
+    "Mangeol P"
+  ],
+  "published_date": "2024-01-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.17.576053",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.17.576053.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR790407",
+    "raw_record": {
+      "id": "PPR790407",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR790407"
+        ]
+      },
+      "doi": "10.1101/2024.01.17.576053",
+      "title": "PatternJ: an ImageJ toolset for the automated and quantitative analysis of regular spatial patterns found in sarcomeres, axons, somites, and more",
+      "authorString": "Blin MB, Loreau V, Schnorrer F, Mangeol P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Blin MB",
+            "lastName": "Blin",
+            "firstName": "Mélina Baheux",
+            "initials": "MB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aix Marseille Université, CNRS, IBDM–UMR7288, Turing Centre for Living Systems, Marseille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loreau V",
+            "lastName": "Loreau",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0556-2825"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aix Marseille Université, CNRS, IBDM–UMR7288, Turing Centre for Living Systems, Marseille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schnorrer F",
+            "lastName": "Schnorrer",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aix Marseille Université, CNRS, IBDM–UMR7288, Turing Centre for Living Systems, Marseille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mangeol P",
+            "lastName": "Mangeol",
+            "firstName": "Pierre",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8305-7322"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aix Marseille Université, CNRS, IBDM–UMR7288, Turing Centre for Living Systems, Marseille, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0556-2825"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8305-7322"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Regular spatial patterns are ubiquitous forms of organization in nature. In animals, regular patterns can be found from the cellular scale to the tissue scale, and from early stages of development to adulthood. To understand the formation of these patterns, how they form and mature, and how they are affected by perturbations, a precise quantitative description of the patterns is essential. However, accessible tools that offer in-depth analysis without the need for computational skills are lacking for biologists. Here we present PatternJ, a novel toolset to analyze regular pattern organizations precisely and automatically. This toolset, to be used with the popular imaging processing program ImageJ/Fiji, facilitates the extraction of key geometric features within and between pattern repeats. We validated PatternJ on simulated data and tested it on images of sarcomeres in insect muscles and cardiomyocytes, actin rings in neurons, and somites in zebrafish embryos obtained using confocal fluorescence microscopy, STORM, electron microscopy, and bright-field imaging. We show that the toolset delivers subpixel feature extraction reliably even with images of low signal-to-noise ratio. PatternJ’s straightforward use and functionalities make it valuable for various scientific fields requiring quantitative pattern analysis, including the sarcomere biology of muscles or the patterning of mammalian axons, speeding up discoveries with the bonus of high reproducibility.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "856118",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/20/2024.01.17.576053.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.17.576053"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR790407"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR790407&type=FILE&fileName=EMS193559-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193559",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-01-22",
+      "firstPublicationDate": "2024-01-20",
+      "firstIndexDate": "2024-01-22",
+      "fullTextReceivedDate": "2024-01-31",
+      "hasEvaluations": "Y"
+    }
+  }
+}

@@ -1,0 +1,507 @@
+{
+  "identity": {
+    "pmid": "34294701",
+    "doi": "10.1038/s41467-021-24813-2",
+    "title": "Oncogenic enhancers drive esophageal squamous cell carcinogenesis and metastasis."
+  },
+  "content": {
+    "abstract": "The role of cis-elements and their aberrations remains unclear in esophageal squamous cell carcinoma (ESCC, further abbreviated EC). Here we survey 28 H3K27ac-marked active enhancer profiles and 50 transcriptomes in primary EC, metastatic lymph node cancer (LNC), and adjacent normal (Nor) esophageal tissues. Thousands of gained or lost enhancers and hundreds of altered putative super-enhancers are identified in EC and LNC samples respectively relative to Nor, with a large number of common gained or lost enhancers. Moreover, these differential enhancers contribute to the transcriptomic aberrations in ECs and LNCs. We also reveal putative driver onco-transcription factors, depletion of which diminishes cell proliferation and migration. The administration of chemical inhibitors to suppress the predicted targets of gained super-enhances reveals HSP90AA1 and PDE4B as potential therapeutic targets for ESCC. Thus, our epigenomic profiling reveals a compendium of reprogrammed cis-regulatory elements during ESCC carcinogenesis and metastasis for uncovering promising targets for cancer treatment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Aged",
+      "Carcinogenesis/genetics",
+      "Cell Line, Tumor",
+      "*Enhancer Elements, Genetic",
+      "Esophageal Neoplasms/*genetics/pathology",
+      "Esophageal Squamous Cell Carcinoma/*genetics/secondary",
+      "Female",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Ontology",
+      "Histone Code/genetics",
+      "Humans",
+      "Lymphatic Metastasis/genetics",
+      "Male",
+      "Middle Aged",
+      "Oncogenes",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Bo",
+        "Fan, Dandan",
+        "Xiong, Weiwei",
+        "Li, Min",
+        "Yuan, Jian",
+        "Jiang, Qi",
+        "Zhao, Yuting",
+        "Lin, Jianxiang",
+        "Liu, Jie",
+        "Lv, Yilv",
+        "Wang, Xiongjun",
+        "Li, Zhigang",
+        "Su, Jianzhong",
+        "Qiao, Yunbo"
+      ],
+      "short_names": [
+        "Ye B",
+        "Fan D",
+        "Xiong W",
+        "Li M",
+        "Yuan J",
+        "Jiang Q",
+        "Zhao Y",
+        "Lin J",
+        "Liu J",
+        "Lv Y",
+        "Wang X",
+        "Li Z",
+        "Su J",
+        "Qiao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8391-5868"
+      ],
+      "affiliations": [
+        "Department of Thoracic Surgery, Shanghai Chest Hospital, Shanghai Jiaotong University, Shanghai, China.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China.",
+        "School of Biomedical Engineering, School of Ophthalmology and Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, China.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China.",
+        "School of Biomedical Engineering, School of Ophthalmology and Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, China.",
+        "School of Biomedical Engineering, School of Ophthalmology and Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, China.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China.",
+        "Guangzhou University & Zhongshan People's Hospital Joint Biomedical Institute, Guangzhou, China.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China.",
+        "Department of Thoracic Surgery, Shanghai Chest Hospital, Shanghai Jiaotong University, Shanghai, China.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China.",
+        "Department of Thoracic Surgery, Shanghai Chest Hospital, Shanghai Jiaotong University, Shanghai, China. zhigang.li@shchest.org.",
+        "School of Biomedical Engineering, School of Ophthalmology and Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, China. sujz@wibe.ac.cn.",
+        "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, China. sujz@wibe.ac.cn.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China. ybqiao@gzhu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Bo",
+        "short_name": "Ye B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shanghai Chest Hospital, Shanghai Jiaotong University, Shanghai, China.",
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Dandan",
+        "short_name": "Fan D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, School of Ophthalmology and Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Weiwei",
+        "short_name": "Xiong W",
+        "identifiers": [],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Jian",
+        "short_name": "Yuan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, School of Ophthalmology and Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Qi",
+        "short_name": "Jiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, School of Ophthalmology and Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuting",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China.",
+          "Guangzhou University & Zhongshan People's Hospital Joint Biomedical Institute, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jianxiang",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Yilv",
+        "short_name": "Lv Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shanghai Chest Hospital, Shanghai Jiaotong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiongjun",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhigang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shanghai Chest Hospital, Shanghai Jiaotong University, Shanghai, China. zhigang.li@shchest.org."
+        ]
+      },
+      {
+        "full_name": "Su, Jianzhong",
+        "short_name": "Su J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, School of Ophthalmology and Optometry and Eye Hospital, Wenzhou Medical University, Wenzhou, China. sujz@wibe.ac.cn.",
+          "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, China. sujz@wibe.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Qiao, Yunbo",
+        "short_name": "Qiao Y",
+        "identifiers": [
+          "0000-0002-8391-5868"
+        ],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, China. ybqiao@gzhu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Jul 22",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/24 06:00",
+    "fetched_at": "2026-09-27 20:56:33"
+  },
+  "links": {
+    "cites": [
+      "42309993",
+      "42153907",
+      "42098726",
+      "41986343",
+      "41715179",
+      "41502505",
+      "41465929",
+      "41413015",
+      "41355963",
+      "40830299",
+      "40777467",
+      "40588505",
+      "40550933",
+      "40517334",
+      "40507333",
+      "40473600",
+      "40307990",
+      "39981972",
+      "39867925",
+      "39702277",
+      "39113853",
+      "39006030",
+      "38959898",
+      "38845006",
+      "38844984",
+      "38487851",
+      "38291129",
+      "38136265",
+      "37548349",
+      "37385987",
+      "37154930",
+      "37059907",
+      "36923930",
+      "36765042",
+      "36763244",
+      "36313331",
+      "36254394",
+      "36246638",
+      "36139535",
+      "36072272",
+      "36045417",
+      "35300128"
+    ],
+    "refs": [
+      "36659571",
+      "33096021",
+      "32895572",
+      "32699215",
+      "32690948",
+      "32619460",
+      "32526202",
+      "32424275",
+      "32264695",
+      "32032585",
+      "31591447",
+      "31567483",
+      "31462645",
+      "31171663",
+      "30625312",
+      "30624548",
+      "30337457",
+      "30188895",
+      "30153855",
+      "30112053",
+      "29258295",
+      "28893800",
+      "28757253",
+      "28748917",
+      "28320776",
+      "28320055",
+      "28092686",
+      "27677335",
+      "27595477",
+      "27467250",
+      "27079975",
+      "26843070",
+      "26814967",
+      "26343385",
+      "25693563",
+      "25547603",
+      "25539106",
+      "25516281",
+      "25008978",
+      "24670651",
+      "24413736",
+      "24127591",
+      "24122041",
+      "24121790",
+      "24119843",
+      "23644492",
+      "23582323",
+      "23582322",
+      "23536305",
+      "23525077",
+      "23372946",
+      "23104886",
+      "22517427",
+      "22500808",
+      "22499810",
+      "22491032",
+      "22406644",
+      "22388286",
+      "22265404",
+      "22265016",
+      "21816040",
+      "21791690",
+      "21385931",
+      "21131975",
+      "20979621",
+      "20663846",
+      "20513432",
+      "20110278",
+      "19505943",
+      "19359472",
+      "19153598",
+      "18936567",
+      "18798982",
+      "17277777",
+      "16376541",
+      "14597658",
+      "11309337",
+      "9157888"
+    ],
+    "similar": [
+      "34294701",
+      "32619460",
+      "38291129",
+      "29454790",
+      "32495982",
+      "35917972",
+      "34937541",
+      "31743955",
+      "34743935",
+      "31679450",
+      "33771898",
+      "32908901",
+      "30954889",
+      "33144099",
+      "32323849",
+      "33658703",
+      "32239639",
+      "23013135",
+      "32533239",
+      "27120794",
+      "31512786",
+      "23803043",
+      "34024769",
+      "30915595",
+      "31236983",
+      "30484263",
+      "28893800",
+      "25805931",
+      "34044866",
+      "29771416",
+      "32194853",
+      "30975989",
+      "32200035",
+      "32788880",
+      "28560409",
+      "33757566",
+      "36624401",
+      "33972779",
+      "32216815",
+      "28939985",
+      "33932125",
+      "30280774",
+      "24151120",
+      "23341893",
+      "31278587",
+      "32901893",
+      "25352025",
+      "33650646",
+      "26667143",
+      "31749080",
+      "27247022",
+      "32662828",
+      "24626331",
+      "33432363",
+      "38085519",
+      "30468470",
+      "28713964",
+      "30652343",
+      "28209530",
+      "28671049",
+      "28640252",
+      "35216506",
+      "32460441",
+      "31778020",
+      "33079409",
+      "27358073",
+      "32051106",
+      "33381388",
+      "35894387",
+      "29763634",
+      "28184915",
+      "27001433",
+      "29524086",
+      "35317779",
+      "32441221",
+      "28024290",
+      "33693959",
+      "28941722",
+      "31298370",
+      "31754291",
+      "25963289",
+      "36011368",
+      "30390388",
+      "28656264",
+      "34368875",
+      "34260541",
+      "32732965",
+      "29898384",
+      "32805720",
+      "28939763",
+      "31298412",
+      "34257544",
+      "30569149",
+      "32377706",
+      "27470379",
+      "27407092",
+      "35932580",
+      "36636641",
+      "35277481",
+      "36253360",
+      "35053311",
+      "38844984"
+    ],
+    "review": [
+      "34294701",
+      "35277481",
+      "35053311",
+      "38844984"
+    ],
+    "pmc": [
+      "8298514"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-24813-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34294701/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34294701",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

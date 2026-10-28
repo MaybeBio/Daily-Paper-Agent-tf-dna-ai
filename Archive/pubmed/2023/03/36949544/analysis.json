@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36949544",
+  "title": "Evidence for the role of transcription factors in the co-transcriptional regulation of intron retention.",
+  "authors": "Ullah, Fahad; Jabeen, Saira; Salton, Maayan; Reddy, Anireddy S N; Ben-Hur, Asa",
+  "journal": "Genome biology",
+  "published_date": "2023-03-24",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习模型分析开放染色质区域，预测调控内含子保留的转录因子基序，虽涉及TF-DNA结合位点预测，但核心是剪接调控而非TF-DNA互作机制建模，方法可迁移但对象和互作深度有限。",
+  "abstract": "BACKGROUND: Alternative splicing is a widespread regulatory phenomenon that enables a single gene to produce multiple transcripts. Among the different types of alternative splicing, intron retention is one of the least explored despite its high prevalence in both plants and animals. The recent discovery that the majority of splicing is co-transcriptional has led to the finding that chromatin state affects alternative splicing. Therefore, it is plausible that transcription factors can regulate splicing outcomes. RESULTS: We provide evidence for the hypothesis that transcription factors are involved in the regulation of intron retention by studying regions of open chromatin in retained and excised introns. Using deep learning models designed to distinguish between regions of open chromatin in retained introns and non-retained introns, we identified motifs enriched in IR events with significant hits to known human transcription factors. Our model predicts that the majority of transcription factors that affect intron retention come from the zinc finger family. We demonstrate the validity of these predictions using ChIP-seq data for multiple zinc finger transcription factors and find strong over-representation for their peaks in intron retention events. CONCLUSIONS: This work opens up opportunities for further studies that elucidate the mechanisms by which transcription factors affect intron retention and other forms of splicing. AVAILABILITY: Source code available at https://github.com/fahadahaf/chromir.",
+  "abstract_zh": "背景：可变剪接是一种广泛的调控现象，使单个基因能够产生多种转录本。在可变剪接的不同类型中，内含子保留尽管在植物和动物中普遍存在，却是研究最少的类型之一。最近发现大多数剪接是共转录的，这导致人们认识到染色质状态影响可变剪接。因此，转录因子可能调控剪接结果。结果：我们通过研究保留和切除内含子中的开放染色质区域，为转录因子参与内含子保留调控的假设提供了证据。利用设计用于区分保留内含子与非保留内含子中开放染色质区域的深度学习模型，我们识别出在内含子保留事件中富集的基序，这些基序与已知人类转录因子有显著匹配。我们的模型预测，影响内含子保留的大多数转录因子来自锌指家族。我们使用多个锌指转录因子的ChIP-seq数据验证了这些预测的有效性，并发现其峰在内含子保留事件中显著过度代表。结论：这项工作为进一步研究转录因子影响内含子保留及其他剪接形式的机制开辟了机会。可用性：源代码可在 https://github.com/fahadahaf/chromir 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36949544/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36949544/",
+  "paper_page_path": "papers/pubmed/36949544/index.html"
+}

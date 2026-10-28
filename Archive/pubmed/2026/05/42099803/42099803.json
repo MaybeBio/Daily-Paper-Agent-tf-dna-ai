@@ -1,0 +1,258 @@
+{
+  "identity": {
+    "pmid": "42099803",
+    "doi": "10.1093/nargab/lqag047",
+    "title": "Integrating protein and DNA embeddings for improving genome-wide transcription factor binding site prediction."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) regulate gene expression by binding to specific DNA sites on genome, making accurate TF binding site prediction critical for understanding gene regulation and downstream phenotypes. Almost all current deep learning methods use only DNA-related information to predict TF binding sites, ignoring the fact that different TF protein sequences and structures recognize distinct DNA patterns. Not leveraging TF information not only limits prediction accuracy but also makes the methods not generalizable to predicting binding sites of new TFs that do not exist in the training data. Here, we present TransBind, a protein-aware deep learning architecture that integrates DNA sequence information with protein embeddings containing both sequence and structural information derived from a protein language model pretrained on DNA-binding proteins, to improve TF binding site prediction. Through the cross-attention, a TF embedding selectively attends to genomic regions according to its unique binding properties. Evaluated on the data of 690 ChIP-seq experiments spanning 161 TFs across 91 human cell types, TransBind achieves an AUROC of 0.9508 and AUPR of 0.3741-representing a [Formula: see text]11.8% relative AUPR improvement over state-of-the-art methods including TBiNet, EPBDXDNABERT-2, DanQ, and DeepSEA. The model outperformed existing methods in [Formula: see text]98% of TF-cell type combinations. It also recovered 160 known TF binding motifs in the JASPAR database, providing the biological interpretability of the model. Moreover, the approach enables label-zero-shot prediction for unseen TFs, demonstrating its potential of generalizing to new, poorly characterized TFs. The source code of TransBind is available at https://github.com/jianlin-cheng/TransBind. The version used in this work is archived at https://doi.org/10.5281/zenodo.19462292.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Transcription Factors/metabolism/chemistry/genetics",
+      "Humans",
+      "*DNA/metabolism/genetics/chemistry",
+      "*Deep Learning",
+      "DNA-Binding Proteins/metabolism",
+      "Computational Biology/methods",
+      "Protein Binding",
+      "Chromatin Immunoprecipitation Sequencing"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Basnet, Shreya",
+        "Cheng, Jianlin"
+      ],
+      "short_names": [
+        "Basnet S",
+        "Cheng J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0305-2853"
+      ],
+      "affiliations": [
+        "Department of Electrical Engineering & Computer Science, University of Missouri, Columbia, MO 65211, United States.",
+        "NextGen Precision Health, University of Missouri, Columbia, MO 65211, United States.",
+        "Department of Electrical Engineering & Computer Science, University of Missouri, Columbia, MO 65211, United States.",
+        "NextGen Precision Health, University of Missouri, Columbia, MO 65211, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Basnet, Shreya",
+        "short_name": "Basnet S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering & Computer Science, University of Missouri, Columbia, MO 65211, United States.",
+          "NextGen Precision Health, University of Missouri, Columbia, MO 65211, United States."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jianlin",
+        "short_name": "Cheng J",
+        "identifiers": [
+          "0000-0003-0305-2853"
+        ],
+        "affiliations": [
+          "Department of Electrical Engineering & Computer Science, University of Missouri, Columbia, MO 65211, United States.",
+          "NextGen Precision Health, University of Missouri, Columbia, MO 65211, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/08 06:33",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39271116",
+      "39244557",
+      "36585618",
+      "36408920",
+      "36018808",
+      "34850907",
+      "34265844",
+      "33876751",
+      "33522898",
+      "32770026",
+      "31634140",
+      "29425488",
+      "28167566",
+      "27307608",
+      "27084946",
+      "26301843",
+      "25775564",
+      "25486472",
+      "25215497",
+      "24441470",
+      "24039567",
+      "23703209",
+      "23047561",
+      "22851788",
+      "19458158",
+      "18369135",
+      "14980218",
+      "14597652",
+      "12045153",
+      "9960075",
+      "1497306"
+    ],
+    "similar": [
+      "42099803",
+      "40848288",
+      "32770026",
+      "40102719",
+      "28750606",
+      "33372147",
+      "26285121",
+      "31372637",
+      "41325984",
+      "19956545",
+      "20838582",
+      "25957350",
+      "35681170",
+      "31742324",
+      "39271116",
+      "34272562",
+      "39786868",
+      "40914877",
+      "26291518",
+      "31723409",
+      "39402535",
+      "38940155",
+      "30897079",
+      "35997560",
+      "24564277",
+      "30709337",
+      "40411397",
+      "25775564",
+      "26703974",
+      "35293310",
+      "39701486",
+      "34929739",
+      "20158869",
+      "39350338",
+      "35263332",
+      "31406384",
+      "36057196",
+      "34073774",
+      "34174819",
+      "32960766",
+      "22863112",
+      "39796242",
+      "24039567",
+      "34486522",
+      "39214282",
+      "27567672",
+      "41601205",
+      "26818008",
+      "19158363",
+      "19597778",
+      "39482734",
+      "37805453",
+      "25722376",
+      "41978381",
+      "30517703",
+      "31754708",
+      "28849563",
+      "28234893",
+      "40598892",
+      "23748563",
+      "22955984",
+      "16362910",
+      "37650641",
+      "20870645",
+      "26130577",
+      "28718849",
+      "22189060",
+      "25070602",
+      "41634097",
+      "24565265",
+      "42134988",
+      "36043696",
+      "24238150",
+      "33522898",
+      "40702706",
+      "29326300",
+      "27845669",
+      "31336830",
+      "22955990",
+      "40334196",
+      "30567711",
+      "20098497",
+      "28472398",
+      "35042722",
+      "31093693",
+      "35652477",
+      "42475469",
+      "41527854",
+      "39051143",
+      "18922190",
+      "23847101",
+      "32858223",
+      "31340985",
+      "27780826",
+      "38966997",
+      "30423062",
+      "35240993",
+      "28359978",
+      "36484687",
+      "21124945"
+    ],
+    "review": [
+      "42099803",
+      "31742324",
+      "36057196",
+      "31093693",
+      "35652477"
+    ],
+    "pmc": [
+      "13145115"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42099803/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqag047",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

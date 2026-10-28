@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose GLNet-TFBS, a hybrid deep learning framework combining a pre-trained DNABERT-2 Transformer path for global context and a path using three classical sequence encoding techniques for local patterns, and report improved TFBS prediction accuracy over existing benchmarks on ACC, ROC-AUC, and PR-AUC.
+- **Visible evidence base** Abstract text; no quantitative results, dataset descriptions, baseline specifications, or statistical analyses are provided
+- **Missing materials affecting confidence** Full text, all figures and tables, dataset details, baseline model definitions, hyperparameter settings, cross-validation procedures, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible hybrid architecture for TFBS prediction, but the evidence base is insufficient to evaluate the core claims. No quantitative results, dataset descriptions, or methodological details are provided. The novelty relative to existing deep learning approaches for TFBS prediction is not established. The claim of superior performance cannot be assessed without access to the full manuscript and supporting materials.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing or applying deep learning methods for transcription factor binding site prediction. The integration of a pre-trained language model with classical encoding features may interest researchers exploring feature fusion strategies in genomic sequence analysis.
+- **Major strengths** The proposed architecture combines a state-of-the-art pre-trained model (DNABERT-2) with classical sequence encodings, which is a reasonable design choice for capturing both global and local sequence features. The stated intention to release source code and data supports reproducibility, assuming the repository is complete and functional.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model "outperforms existing benchmarks on key evaluation metrics, including ACC, ROC-AUC, and PR-AUC"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are reported. The abstract states that the model outperforms existing benchmarks but provides no numerical values, no comparison table, no statistical significance tests, and no specification of which benchmarks were used.
+  - **Why it matters** The central claim of the study is superior predictive performance. Without any reported metrics, the claim is unverifiable and cannot be distinguished from a statement of intent. The reader cannot assess the magnitude of improvement, its consistency across datasets, or its practical significance.
+  - **Resolution test** Provide a results table with ACC, ROC-AUC, and PR-AUC values for GLNet-TFBS and all compared baselines on each dataset, including standard deviations and statistical significance tests (e.g., paired tests across cross-validation folds).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model integrates "three classical sequence encoding techniques" and uses "the pre-trained DNABERT-2 model"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which three encoding techniques are used, how the dual-path features are fused, what the model architecture dimensions are, how training was conducted, or how hyperparameters were selected. The GitHub link is mentioned but its contents cannot be verified from the abstract.
+  - **Why it matters** Reproducibility is a core requirement for computational biology studies. Without architectural details, training procedures, and dataset specifications, other researchers cannot implement or validate the method. The claim of a "hybrid deep learning framework" requires sufficient methodological transparency.
+  - **Resolution test** Provide a detailed methods section in the full manuscript, including the names of the three encoding techniques, the fusion mechanism, model layer sizes, training epochs, learning rates, batch sizes, and data splitting strategy. Confirm that the GitHub repository contains complete code, data preprocessing scripts, and trained model weights.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty
+  - **Claim pointer** The study "proposes a hybrid deep learning framework" that "integrates dual-path feature learning modules"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how this approach differs from existing deep learning methods for TFBS prediction. Multiple prior studies have combined pre-trained language models with additional feature encodings or have used multi-path architectures. The specific contribution of GLNet-TFBS is not articulated.
+  - **Why it matters** For a field with extensive prior work, the novelty claim must be explicit and defensible. Without a clear statement of what is new, the study risks being an incremental combination of existing components without demonstrated added value.
+  - **Resolution test** In the full manuscript, include a comparison with prior multi-path or feature-fusion TFBS prediction methods, and clearly state the specific architectural or methodological innovation that distinguishes GLNet-TFBS from them.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset and evaluation scope
+  - **Claim pointer** The model demonstrates "strong potential for broad applicability across diverse biological contexts"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No information is provided about the datasets used for training and evaluation, the number of cell types or transcription factors considered, or whether the evaluation includes cross-species or cross-cell-type generalization tests.
+  - **Why it matters** The claim of broad applicability requires evidence of performance across diverse conditions. If the model is only evaluated on a single dataset or a narrow set of factors, the generalization claim is unsupported.
+  - **Resolution test** Specify the training and test datasets, the number of transcription factors and cell types, and include evaluation on held-out chromosomes, cross-cell-type, or cross-species benchmarks to substantiate the generalization claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name and architecture description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "dual-path feature learning modules-global and local" with a hyphen that is ambiguous. The phrase "three classical sequence encoding techniques" is vague.
+  - **Required correction** Rewrite to clearly state the two paths and name the three encoding techniques explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance comparison statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the model "outperforms existing benchmarks" but does not name any of these benchmarks.
+  - **Required correction** List the specific baseline methods compared in the abstract or state that details are in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Code availability statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The GitHub link is provided but there is no statement about the license, the programming language, or the dependencies.
+  - **Required correction** Add a brief statement about the implementation language, key dependencies, and license in the abstract or the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative results), R1-M2 (insufficient methodological detail), R1-M3 (novelty not established), R1-M4 (evaluation scope not described)
+- **Assessment against Nature-style criteria** Originality: Not assessable from the abstract; the combination of DNABERT-2 with classical encodings may be novel but prior art is not discussed. Scientific importance: Potentially relevant to regulatory genomics, but the significance of the claimed improvement cannot be evaluated without effect sizes. Interdisciplinary readership: The topic is of interest to computational biologists and bioinformaticians, but the abstract is too technical and lacks context for a broader readership. Technical soundness: Not assessable; no architectural details, training procedures, or evaluation protocols are provided. Readability for nonspecialists: The abstract is concise but assumes familiarity with deep learning and TFBS prediction; the hyphenated phrase "dual-path feature learning modules-global and local" is awkward and reduces clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to assess the validity of the core claims. A supportive recommendation would require the full manuscript with quantitative results, methodological details, and a clear statement of novelty.
+
+## Risk / unsupported claims
+- The claim that GLNet-TFBS "outperforms existing benchmarks" is unsupported because no numerical results are provided.
+- The claim of "strong potential for broad applicability across diverse biological contexts" is unsupported because no dataset or evaluation scope is described.
+- The claim that "fusion of features from both paths significantly improves prediction accuracy and robustness" is unsupported because no ablation study or statistical analysis is reported.
+- The novelty of the proposed framework is not assessable from the abstract alone.

@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "37796695",
+    "doi": "10.31083/j.fbl2809214",
+    "title": "In Silico Identification of Therapeutic Targets and Novel Drug Candidates for Malignant Peripheral Nerve Sheath Tumors."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Malignant peripheral nerve sheath tumors (MPNSTs) are an aggressive form of sarcomas with a poor prognosis and limited treatment options. Therefore, new therapeutic targets are urgently needed to identify novel drugs. METHODS: Based on the Gene Expression Omnibus database, an integrated analysis was performed to identify differentially expressed genes (DEGs) in MPNSTs compared to neurofibromas (NFs). Then functional enrichment analyses, protein-protein interaction (PPI) network construction, and hub gene selection were conducted. We explored DEG-guided repurposable drugs to treat MPNST based on the Library of Integrated Network-Based Cellular Signatures (LINCS) database. Furthermore, the binding affinity between predicted drug candidates and the MPNST-associated hub gene was calculated using molecular docking. RESULTS: We identified 89 DEGs in common with all three MPNSTs datasets. In the PPI networks, twist family bHLH transcription factor 1 (Twist1) with higher node degrees was further evaluated as a therapeutic target. Cytochalasin-d, cabozantinib, everolimus, refametinib, and BGT-226 were extracted from the LINCS database, which showed lower normalized connectivity scores (-1.88, -1.81, -1.78, -1.76, and -1.72, respectively) and was considered as drug candidates. In addition, the results of molecular docking between the five drugs and Twist1 showed a binding affinity of -6.61, -7.03, -7.73, -3.94, and -7.07 kcal/mol, respectively. CONCLUSIONS: Overall, our results describe the importance of Twist1 in MPNST pathogenesis. Everolimus was also found to be a potential therapeutic drug for MPNSTs.",
+    "keywords": [
+      "everolimus",
+      "malignant peripheral nerve sheath tumors",
+      "molecular docking",
+      "twist family bHLH transcription factor 1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Nerve Sheath Neoplasms/drug therapy/genetics/metabolism",
+      "*Neurofibrosarcoma",
+      "Molecular Docking Simulation",
+      "Everolimus",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Min",
+        "Fan, Jianfeng",
+        "Peng, Renjun",
+        "Ding, Xiping",
+        "Xi, Jian",
+        "Huang, He"
+      ],
+      "short_names": [
+        "Wei M",
+        "Fan J",
+        "Peng R",
+        "Ding X",
+        "Xi J",
+        "Huang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Teaching and Research Section of Clinical Nursing, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "Department of Neurology, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Min",
+        "short_name": "Wei M",
+        "identifiers": [],
+        "affiliations": [
+          "Teaching and Research Section of Clinical Nursing, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+          "Department of Neurology, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Jianfeng",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Renjun",
+        "short_name": "Peng R",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Xiping",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Xi, Jian",
+        "short_name": "Xi J",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, He",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China.",
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, 410008 Changsha, Hunan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioscience (Landmark edition)"
+    ],
+    "journal_abbrev": [
+      "Front Biosci (Landmark Ed)"
+    ],
+    "pub_date": "2023 Sep 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/05 18:42",
+    "fetched_at": "2026-09-29 08:16:30"
+  },
+  "links": {
+    "cites": [
+      "41301760",
+      "38907140"
+    ],
+    "refs": [],
+    "similar": [
+      "37796695",
+      "37432984",
+      "37229542",
+      "37837931",
+      "16510576",
+      "37488294",
+      "24040940",
+      "37328102",
+      "37755632",
+      "28813519",
+      "18650488",
+      "35777330",
+      "22811580",
+      "35393544",
+      "35511749",
+      "21075781",
+      "33196586",
+      "30387840",
+      "22331697",
+      "19890883",
+      "27035165",
+      "35426432",
+      "23321323",
+      "10347283",
+      "30722027",
+      "22407831",
+      "22526161",
+      "31339498",
+      "19901965",
+      "14673600",
+      "16443732",
+      "38279513",
+      "28502478",
+      "34648240",
+      "26840085",
+      "18483311",
+      "32086342",
+      "31278855",
+      "23209032",
+      "22718995",
+      "28124441",
+      "26857854",
+      "17786186",
+      "22287730",
+      "34283254",
+      "15715079",
+      "37452945",
+      "12152785",
+      "32193699",
+      "35446392",
+      "29482987",
+      "18281533",
+      "36752552",
+      "27494873",
+      "32580246",
+      "26745487",
+      "31889416",
+      "33109559",
+      "27992966",
+      "38219800",
+      "14673046",
+      "23292448",
+      "16043787",
+      "34256542",
+      "17613203",
+      "37464750",
+      "36763849",
+      "35746841",
+      "37616542",
+      "11910511",
+      "26892009",
+      "30408304",
+      "18522746",
+      "34445326",
+      "29304038",
+      "27834629",
+      "7728565",
+      "38820476",
+      "19835664",
+      "20610366",
+      "29946184",
+      "27875628",
+      "32182803",
+      "23584200",
+      "21084276",
+      "16619545",
+      "29796169",
+      "15897877",
+      "34461930",
+      "29351992",
+      "24341609",
+      "19508838",
+      "38287421"
+    ],
+    "review": [
+      "37796695",
+      "35393544",
+      "30722027",
+      "31339498",
+      "15715079",
+      "35446392",
+      "36752552",
+      "26745487",
+      "38219800",
+      "17613203",
+      "34445326",
+      "19835664",
+      "32182803"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.imrpress.com/journal/FBL/28/9/10.31083/j.fbl2809214",
+        "provider": "IMR Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

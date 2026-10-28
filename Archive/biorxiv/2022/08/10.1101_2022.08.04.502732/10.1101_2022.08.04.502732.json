@@ -1,0 +1,150 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.04.502732",
+  "title": "Predicting regional somatic mutation rates using DNA motifs",
+  "doi": "10.1101/2022.08.04.502732",
+  "abstract": "How the locus-specificity of epigenetic modifications is regulated remains an unanswered question. A contributing mechanism is that epigenetic enzymes are recruited to specific loci by DNA binding factors recognizing particular sequence motifs (referred to as epi-motifs). Using these motifs to predict biological outputs depending on local epigenetic state such as somatic mutation rates would confirm their functionality. Here, we used DNA motifs including known TF motifs and epi-motifs as a surrogate of epigenetic signals to predict somatic mutation rates in 13 cancers at an average 23kbp resolution. We implemented an interpretable neural network model, called contextual regression, to successfully learn the universal relationship between mutations and DNA motifs, and uncovered motifs that are most impactful on the regional mutation rates such as TP53 and epi-motifs associated with H3K9me3. Furthermore, we identified genomic regions with significantly higher mutation rates than the expected values in each individual tumor and demonstrated that such cancer-specific regions can accurately predict cancer types. (The code is available from https://github.com/Wang-lab-UCSD/SomaticMutation ) <h4>Significance Statement</h4> The relationship between DNA motifs and somatic mutation rates in cancers is not fully understood, especially at high resolution. Here we developed an interpretable neural network model to successfully predict somatic mutation rates using DNA motifs in 13 diverse cancers and identified the most informative motifs. Furthermore, we showed that the genomic regions with significant higher mutation rates than the predicted values can be used for cancer classification.",
+  "authors": [
+    "Liu C",
+    "Wang Z",
+    "Wang J",
+    "Liu C",
+    "Wang M",
+    "Ngo V",
+    "Wang W"
+  ],
+  "published_date": "2022-08-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.04.502732",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.04.502732.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR528826",
+    "raw_record": {
+      "id": "PPR528826",
+      "source": "PPR",
+      "doi": "10.1101/2022.08.04.502732",
+      "title": "Predicting regional somatic mutation rates using DNA motifs",
+      "authorString": "Liu C, Wang Z, Wang J, Liu C, Wang M, Ngo V, Wang W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liu C",
+            "lastName": "Liu",
+            "firstName": "Cong",
+            "initials": "C"
+          },
+          {
+            "fullName": "Wang Z",
+            "lastName": "Wang",
+            "firstName": "Zengmiao",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Wang J",
+            "lastName": "Wang",
+            "firstName": "Jun",
+            "initials": "J"
+          },
+          {
+            "fullName": "Liu C",
+            "lastName": "Liu",
+            "firstName": "Chengyu",
+            "initials": "C"
+          },
+          {
+            "fullName": "Wang M",
+            "lastName": "Wang",
+            "firstName": "Mengchi",
+            "initials": "M"
+          },
+          {
+            "fullName": "Ngo V",
+            "lastName": "Ngo",
+            "firstName": "Vu",
+            "initials": "V"
+          },
+          {
+            "fullName": "Wang W",
+            "lastName": "Wang",
+            "firstName": "Wei",
+            "initials": "W"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "How the locus-specificity of epigenetic modifications is regulated remains an unanswered question. A contributing mechanism is that epigenetic enzymes are recruited to specific loci by DNA binding factors recognizing particular sequence motifs (referred to as epi-motifs). Using these motifs to predict biological outputs depending on local epigenetic state such as somatic mutation rates would confirm their functionality. Here, we used DNA motifs including known TF motifs and epi-motifs as a surrogate of epigenetic signals to predict somatic mutation rates in 13 cancers at an average 23kbp resolution. We implemented an interpretable neural network model, called contextual regression, to successfully learn the universal relationship between mutations and DNA motifs, and uncovered motifs that are most impactful on the regional mutation rates such as TP53 and epi-motifs associated with H3K9me3. Furthermore, we identified genomic regions with significantly higher mutation rates than the expected values in each individual tumor and demonstrated that such cancer-specific regions can accurately predict cancer types. (The code is available from  https://github.com/Wang-lab-UCSD/SomaticMutation )  <h4>Significance Statement</h4>  The relationship between DNA motifs and somatic mutation rates in cancers is not fully understood, especially at high resolution. Here we developed an interpretable neural network model to successfully predict somatic mutation rates using DNA motifs in 13 diverse cancers and identified the most informative motifs. Furthermore, we showed that the genomic regions with significant higher mutation rates than the predicted values can be used for cancer classification.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/05/2022.08.04.502732.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.04.502732"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37782656",
+            "reference": "PLoS computational biology. \n    2023 Oct;19(10):e1011536",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-08-07",
+      "firstPublicationDate": "2022-08-05",
+      "firstIndexDate": "2022-08-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

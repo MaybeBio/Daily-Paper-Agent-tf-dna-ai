@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "40808255",
+    "doi": "10.1016/j.molp.2025.08.009",
+    "title": "Exploring the maize transcriptional regulatory landscape through large-scale profiling of transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "Understanding gene regulatory networks (GRNs) is essential for improving maize yield and quality through molecular breeding approaches. The lack of comprehensive transcription factor (TF)-DNA interaction data has hindered accurate GRN predictions, limiting our insight into the regulatory mechanisms. In this study, we performed large-scale profiling of maize TF binding sites. We obtained and collected reliable binding profiles for 513 TFs, identified 394,136 binding sites, and constructed an accuracy-enhanced maize GRN (mGRN+) by integrating chromatin accessibility and gene expression data. The mGRN+ comprises 397,699 regulatory relationships. We further divided the mGRN+ into multiple modules across six major tissues. Using machine-learning algorithms, we optimized the mGRN+ to improve the prediction accuracy of gene functions and key regulators. Through independent genetic validation experiments, we further confirmed the reliability of these predictions. This work provides the largest collection of experimental TF binding sites in maize and highly optimized regulatory networks, which serve as valuable resources for studying maize gene function and crop improvement.",
+    "keywords": [
+      "cis-regulatory elements",
+      "endosperm",
+      "gene regulatory network",
+      "maize",
+      "photosynthesis",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "*Zea mays/genetics/metabolism",
+      "*Transcription Factors/metabolism/genetics",
+      "Binding Sites/genetics",
+      "*Gene Regulatory Networks",
+      "Gene Expression Regulation, Plant",
+      "Plant Proteins/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huo, Qiang",
+        "Zhang, Ziru",
+        "Zhang, Kechun",
+        "Wang, Qun",
+        "Zhang, Weixiao",
+        "Ye, Xinyu",
+        "Lyu, Qingya",
+        "Galbraith, David W",
+        "Ma, Zeyang",
+        "Song, Rentao"
+      ],
+      "short_names": [
+        "Huo Q",
+        "Zhang Z",
+        "Zhang K",
+        "Wang Q",
+        "Zhang W",
+        "Ye X",
+        "Lyu Q",
+        "Galbraith DW",
+        "Ma Z",
+        "Song R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China.",
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China.",
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China.",
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China.",
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China.",
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China.",
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China.",
+        "School of Plant Sciences and Bio5 Institute, University of Arizona, Tucson, AZ 85721, USA.",
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China; Sanya Institute of China Agricultural University, Sanya 572025, China. Electronic address: zeyangma@cau.edu.cn.",
+        "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China; Sanya Institute of China Agricultural University, Sanya 572025, China. Electronic address: rentaosong@cau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huo, Qiang",
+        "short_name": "Huo Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziru",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kechun",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qun",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weixiao",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Xinyu",
+        "short_name": "Ye X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Qingya",
+        "short_name": "Lyu Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Galbraith, David W",
+        "short_name": "Galbraith DW",
+        "identifiers": [],
+        "affiliations": [
+          "School of Plant Sciences and Bio5 Institute, University of Arizona, Tucson, AZ 85721, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Zeyang",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China; Sanya Institute of China Agricultural University, Sanya 572025, China. Electronic address: zeyangma@cau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Rentao",
+        "short_name": "Song R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, Frontiers Science Center for Molecular Design Breeding, Joint International Research Laboratory of Crop Molecular Breeding, National Maize Improvement Center, College of Agronomy and Biotechnology, China Agricultural University, Beijing 100193, China; Sanya Institute of China Agricultural University, Sanya 572025, China. Electronic address: rentaosong@cau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular plant"
+    ],
+    "journal_abbrev": [
+      "Mol Plant"
+    ],
+    "pub_date": "2025 Oct 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/14 06:28",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42387263",
+      "42245105",
+      "41977721",
+      "41904579",
+      "41551424",
+      "41466377"
+    ],
+    "refs": [],
+    "similar": [
+      "40808255",
+      "29879919",
+      "40365911",
+      "29072883",
+      "39701501",
+      "40369872",
+      "27871810",
+      "29436476",
+      "33098715",
+      "25918418",
+      "40127931",
+      "38167709",
+      "37788349",
+      "36991439",
+      "38551088",
+      "40506505",
+      "41411658",
+      "41486268",
+      "33631799",
+      "39566186",
+      "25261191",
+      "40690927",
+      "32184350",
+      "41828709",
+      "28726249",
+      "38962989",
+      "39766899",
+      "39622111",
+      "33964211",
+      "39395686",
+      "33037196",
+      "40827700",
+      "40245149",
+      "33098697",
+      "38705046",
+      "40908642",
+      "28039925",
+      "30375394",
+      "31752425",
+      "40517398",
+      "39300560",
+      "39695844",
+      "31807836",
+      "34383745",
+      "25937463",
+      "30395277",
+      "23497159",
+      "40004520",
+      "30242039",
+      "40574711",
+      "24307553",
+      "10482678",
+      "39928526",
+      "29934814",
+      "21272351",
+      "37085776",
+      "24228871",
+      "34544366",
+      "32676852",
+      "39630144",
+      "40903564",
+      "40789919",
+      "23718541",
+      "25053252",
+      "29769331",
+      "39095994",
+      "38354497",
+      "31345953",
+      "30200246",
+      "22862992",
+      "41092016",
+      "34292930",
+      "34884854",
+      "27709320",
+      "30262552",
+      "41851888",
+      "33057352",
+      "27328708",
+      "40990348",
+      "41857407",
+      "35151253",
+      "29272447",
+      "35205426",
+      "31638155",
+      "27895224",
+      "21053013",
+      "24416355",
+      "38922302",
+      "25691733",
+      "23048129",
+      "21241522",
+      "40204192",
+      "27917953",
+      "21729923",
+      "27030359",
+      "37047154",
+      "41359035",
+      "40653558",
+      "26829553",
+      "40711606"
+    ],
+    "review": [
+      "40808255",
+      "31807836"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1674-2052(25)00275-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40808255",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

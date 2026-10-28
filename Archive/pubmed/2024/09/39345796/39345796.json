@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "39345796",
+    "doi": "10.1007/s12551-024-01201-w",
+    "title": "Structure-based prediction of protein-nucleic acid binding using graph neural networks."
+  },
+  "content": {
+    "abstract": "Protein-nucleic acid (PNA) binding plays critical roles in the transcription, translation, regulation, and three-dimensional organization of the genome. Structural models of proteins bound to nucleic acids (NA) provide insights into the chemical, electrostatic, and geometric properties of the protein structure that give rise to NA binding but are scarce relative to models of unbound proteins. We developed a deep learning approach for predicting PNA binding given the unbound structure of a protein that we call PNAbind. Our method utilizes graph neural networks to encode the spatial distribution of physicochemical and geometric properties of protein structures that are predictive of NA binding. Using global physicochemical encodings, our models predict the overall binding function of a protein, and using local encodings, they predict the location of individual NA binding residues. Our models can discriminate between specificity for DNA or RNA binding, and we show that predictions made on computationally derived protein structures can be used to gain mechanistic understanding of chemical and structural features that determine NA recognition. Binding site predictions were validated against benchmark datasets, achieving AUROC scores in the range of 0.92-0.95. We applied our models to the HIV-1 restriction factor APOBEC3G and showed that our model predictions are consistent with and help explain experimental RNA binding data. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s12551-024-01201-w.",
+    "keywords": [
+      "Deep learning",
+      "Protein-DNA binding",
+      "Protein-RNA binding",
+      "Structural bioinformatics",
+      "Structure-function prediction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sagendorf, Jared M",
+        "Mitra, Raktim",
+        "Huang, Jiawei",
+        "Chen, Xiaojiang S",
+        "Rohs, Remo"
+      ],
+      "short_names": [
+        "Sagendorf JM",
+        "Mitra R",
+        "Huang J",
+        "Chen XS",
+        "Rohs R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853",
+        "Present Address: Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA 94158 USA. ROR: https://ror.org/043mz5j54. GRID: grid.266102.1. ISNI: 0000 0001 2297 6811",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853",
+        "Molecular and Computational Biology Section, Department of Biological Sciences, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853",
+        "Department of Chemistry, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853",
+        "Department of Chemistry, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853",
+        "Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, CA 90089 USA. ROR: https://ror.org/03taz7m60. GRID: grid.42505.36. ISNI: 0000 0001 2156 6853"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sagendorf, Jared M",
+        "short_name": "Sagendorf JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089 USA.",
+          "Present Address: Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA 94158 USA."
+        ]
+      },
+      {
+        "full_name": "Mitra, Raktim",
+        "short_name": "Mitra R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089 USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Jiawei",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089 USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaojiang S",
+        "short_name": "Chen XS",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Computational Biology Section, Department of Biological Sciences, University of Southern California, Los Angeles, CA 90089 USA.",
+          "Department of Chemistry, University of Southern California, Los Angeles, CA 90089 USA."
+        ]
+      },
+      {
+        "full_name": "Rohs, Remo",
+        "short_name": "Rohs R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089 USA.",
+          "Department of Chemistry, University of Southern California, Los Angeles, CA 90089 USA.",
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA 90089 USA.",
+          "Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, CA 90089 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical reviews"
+    ],
+    "journal_abbrev": [
+      "Biophys Rev"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/30 17:42",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42483831",
+      "42100742",
+      "41870490",
+      "41045511",
+      "40772340",
+      "40465796",
+      "40307455",
+      "40077832",
+      "39990254",
+      "39896490",
+      "39833102",
+      "39494533"
+    ],
+    "refs": [
+      "38744917",
+      "38718835",
+      "38281252",
+      "37996753",
+      "37072397",
+      "37070217",
+      "36408920",
+      "36101978",
+      "35637310",
+      "35150250",
+      "35039821",
+      "34791371",
+      "34335110",
+      "34282049",
+      "34265844",
+      "34039967",
+      "33577689",
+      "32961749",
+      "32217482",
+      "32005813",
+      "31819266",
+      "31666519",
+      "29694125",
+      "29253082",
+      "27480941",
+      "26681179",
+      "25935161",
+      "25756377",
+      "24657093",
+      "23577073",
+      "22574904",
+      "22198341",
+      "21693557",
+      "15215472",
+      "14634627",
+      "10802651",
+      "10592235",
+      "10550207",
+      "10222198",
+      "10026283",
+      "9254694",
+      "7563096"
+    ],
+    "similar": [
+      "39345796",
+      "38529493",
+      "42475469",
+      "40919912",
+      "37824738",
+      "38281252",
+      "30423078",
+      "36637199",
+      "37745556",
+      "12589754",
+      "40119464",
+      "40914361",
+      "41256668",
+      "42636031",
+      "33577689",
+      "38830995",
+      "40054795",
+      "22574904",
+      "33067636",
+      "40601256",
+      "41310253",
+      "32821925",
+      "22086767",
+      "42323855",
+      "34905768",
+      "20483814",
+      "39833102",
+      "41921096",
+      "29722865",
+      "39484977",
+      "29028926",
+      "39497201",
+      "40742755",
+      "16551468",
+      "40914406",
+      "35652477",
+      "41505730",
+      "10090291",
+      "17201922",
+      "41134132",
+      "41200913",
+      "29281985",
+      "17014735",
+      "39487084",
+      "40815964",
+      "36014351",
+      "42693585",
+      "42605800",
+      "42015301",
+      "23912807",
+      "37915276",
+      "17470296",
+      "39848362",
+      "33754707",
+      "16274699",
+      "41045511",
+      "37672551",
+      "39695955",
+      "39471921",
+      "37022086",
+      "34498061",
+      "39223071",
+      "31208331",
+      "38458968",
+      "40428123",
+      "40449614",
+      "31395671",
+      "38015872",
+      "23703214",
+      "30800250",
+      "40359455",
+      "38979954",
+      "41759455",
+      "32657407",
+      "37254800",
+      "40100667",
+      "28430949",
+      "30808287",
+      "29155928",
+      "22312425",
+      "40602636",
+      "37399293",
+      "36088285",
+      "40165821",
+      "33522898",
+      "33693581",
+      "32860044",
+      "31746961",
+      "38833802",
+      "40270304",
+      "33454744",
+      "40811258",
+      "39103447",
+      "37983381",
+      "41509447",
+      "40987097",
+      "42450193",
+      "42579672",
+      "28383703",
+      "19154742"
+    ],
+    "review": [
+      "39345796",
+      "39833102",
+      "35652477"
+    ],
+    "pmc": [
+      "11427629"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39345796/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12551-024-01201-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

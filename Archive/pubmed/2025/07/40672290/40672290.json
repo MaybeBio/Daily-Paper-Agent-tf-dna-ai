@@ -1,0 +1,554 @@
+{
+  "identity": {
+    "pmid": "40672290",
+    "doi": "10.1101/2025.07.11.659973",
+    "title": "Context-dependent regulatory variants in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "Noncoding genetic variants underlie many complex diseases, yet identifying and interpreting their functional impacts remains challenging. Late-onset Alzheimer's disease (LOAD), a polygenic neurodegenerative disorder, exemplifies this challenge. The disease is strongly associated with noncoding variation, including common variants enriched in microglial enhancers and rare variants that are hypothesized to influence neurodevelopment and synaptic plasticity. These variants often perturb regulatory sequences by disrupting transcription factor (TF) motifs or altering local TF interactions, thereby reshaping gene expression and chromatin accessibility. However, assessing their impact is complicated by the context-dependent functions of regulatory sequences, underscoring the need to systematically examine variant effects across diverse tissues, cell types, and cellular states. Here, we combined in vitro and in vivo massively parallel reporter assays (MPRAs) with interpretable machine-learning models to systematically characterize common and rare variants across myeloid and neural contexts. Parallel profiling of variants in four immune states in vitro and three mouse brain regions in vivo revealed that individual variants can differentially and even oppositely modulate regulatory function depending on cell-type and cell-state contexts. Common variants associated with LOAD tended to exert stronger effects in immune contexts, whereas rare variants showed more pronounced impacts in brain contexts. Interpretable sequence-to-function deep-learning models elucidated how genetic variation leads to cell-type-specific differences in regulatory activity, pinpointing both direct transcription-factor motif disruptions and subtler tuning of motif context. To probe the broader functional consequences of a locus prioritized by our reporter assays and models, we used CRISPR interference to silence an enhancer within the SEC63-OSTM1 locus that harbors four functional rare variants, revealing its gatekeeper role in inflammation and amyloidogenesis. These findings underscore the context-dependent nature of noncoding variant effects in LOAD and provide a generalizable framework for the mechanistic interpretation of risk alleles in complex diseases.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Ziheng",
+        "Liu, Yaxuan",
+        "Brown, Ashley R",
+        "Sestili, Heather H",
+        "Ramamurthy, Easwaran",
+        "Xiong, Xushen",
+        "Prokopenko, Dmitry",
+        "Phan, BaDoi N",
+        "Gadey, Lahari",
+        "Hu, Peinan",
+        "Tsai, Li-Huei",
+        "Bertram, Lars",
+        "Hide, Winston",
+        "Tanzi, Rudolph E",
+        "Kellis, Manolis",
+        "Pfenning, Andreas R"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Liu Y",
+        "Brown AR",
+        "Sestili HH",
+        "Ramamurthy E",
+        "Xiong X",
+        "Prokopenko D",
+        "Phan BN",
+        "Gadey L",
+        "Hu P",
+        "Tsai LH",
+        "Bertram L",
+        "Hide W",
+        "Tanzi RE",
+        "Kellis M",
+        "Pfenning AR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5709-8529",
+        "ORCID: 0000-0003-2359-5564",
+        "ORCID: 0000-0002-3091-3930",
+        "ORCID: 0000-0002-3944-3429",
+        "ORCID: 0000-0002-2439-0600",
+        "ORCID: 0000-0001-7090-7503",
+        "ORCID: 0000-0002-1844-5652",
+        "ORCID: 0000-0001-6331-5980",
+        "ORCID: 0000-0003-0914-2104",
+        "ORCID: 0000-0003-3229-1079",
+        "ORCID: 0000-0003-1262-0592",
+        "ORCID: 0000-0002-0108-124X",
+        "ORCID: 0000-0002-8621-3271",
+        "ORCID: 0000-0002-7032-1454",
+        "ORCID: 0000-0001-7113-9630",
+        "ORCID: 0000-0002-3447-9801"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+        "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Harvard Medical School, Boston, MA 02115, USA.",
+        "Genetics and Aging Research Unit, The Henry and Allison McCance Center for Brain Health, Department of Neurology, Massachusetts General Hospital, Boston, MA 02114, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Department of Genetics and Genome Sciences, School of Medicine, Case Western Reserve University, Cleveland, OH 44106, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+        "Picower Institute for Learning and Memory, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Lubeck Interdisciplinary Platform for Genome Analytics, Institutes of Neurogenetics and Cardiogenetics, University of Lubeck, Lubeck, Germany.",
+        "Department of Psychology, University of Oslo, Oslo, Norway.",
+        "Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Pathology, Beth Israel Deaconess Medical Center, Boston, MA 02215, USA.",
+        "Harvard Medical School, Boston, MA 02115, USA.",
+        "Genetics and Aging Research Unit, The Henry and Allison McCance Center for Brain Health, Department of Neurology, Massachusetts General Hospital, Boston, MA 02114, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+        "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Ziheng",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0000-0001-5709-8529"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Yaxuan",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0003-2359-5564"
+        ],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Brown, Ashley R",
+        "short_name": "Brown AR",
+        "identifiers": [
+          "0000-0002-3091-3930"
+        ],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Sestili, Heather H",
+        "short_name": "Sestili HH",
+        "identifiers": [
+          "0000-0002-3944-3429"
+        ],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Ramamurthy, Easwaran",
+        "short_name": "Ramamurthy E",
+        "identifiers": [
+          "0000-0002-2439-0600"
+        ],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Xiong, Xushen",
+        "short_name": "Xiong X",
+        "identifiers": [
+          "0000-0001-7090-7503"
+        ],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+          "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Prokopenko, Dmitry",
+        "short_name": "Prokopenko D",
+        "identifiers": [
+          "0000-0002-1844-5652"
+        ],
+        "affiliations": [
+          "Harvard Medical School, Boston, MA 02115, USA.",
+          "Genetics and Aging Research Unit, The Henry and Allison McCance Center for Brain Health, Department of Neurology, Massachusetts General Hospital, Boston, MA 02114, USA."
+        ]
+      },
+      {
+        "full_name": "Phan, BaDoi N",
+        "short_name": "Phan BN",
+        "identifiers": [
+          "0000-0001-6331-5980"
+        ],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Gadey, Lahari",
+        "short_name": "Gadey L",
+        "identifiers": [
+          "0000-0003-0914-2104"
+        ],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Peinan",
+        "short_name": "Hu P",
+        "identifiers": [
+          "0000-0003-3229-1079"
+        ],
+        "affiliations": [
+          "Department of Genetics and Genome Sciences, School of Medicine, Case Western Reserve University, Cleveland, OH 44106, USA."
+        ]
+      },
+      {
+        "full_name": "Tsai, Li-Huei",
+        "short_name": "Tsai LH",
+        "identifiers": [
+          "0000-0003-1262-0592"
+        ],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+          "Picower Institute for Learning and Memory, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+          "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Bertram, Lars",
+        "short_name": "Bertram L",
+        "identifiers": [
+          "0000-0002-0108-124X"
+        ],
+        "affiliations": [
+          "Lübeck Interdisciplinary Platform for Genome Analytics, Institutes of Neurogenetics and Cardiogenetics, University of Lübeck, Lübeck, Germany.",
+          "Department of Psychology, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Hide, Winston",
+        "short_name": "Hide W",
+        "identifiers": [
+          "0000-0002-8621-3271"
+        ],
+        "affiliations": [
+          "Harvard Medical School, Boston, MA 02115, USA.",
+          "Department of Pathology, Beth Israel Deaconess Medical Center, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Tanzi, Rudolph E",
+        "short_name": "Tanzi RE",
+        "identifiers": [
+          "0000-0002-7032-1454"
+        ],
+        "affiliations": [
+          "Harvard Medical School, Boston, MA 02115, USA.",
+          "Genetics and Aging Research Unit, The Henry and Allison McCance Center for Brain Health, Department of Neurology, Massachusetts General Hospital, Boston, MA 02114, USA."
+        ]
+      },
+      {
+        "full_name": "Kellis, Manolis",
+        "short_name": "Kellis M",
+        "identifiers": [
+          "0000-0001-7113-9630"
+        ],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+          "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Pfenning, Andreas R",
+        "short_name": "Pfenning AR",
+        "identifiers": [
+          "0000-0002-3447-9801"
+        ],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 06:27",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41741648",
+      "41671378",
+      "41435829",
+      "40456601",
+      "40270544",
+      "40268578",
+      "39848247",
+      "39779852",
+      "39753409",
+      "39653749",
+      "39618480",
+      "39443793",
+      "39363017",
+      "39186798",
+      "39059388",
+      "38724692",
+      "38504114",
+      "37774681",
+      "37774680",
+      "37774678",
+      "37735487",
+      "37735198",
+      "37463212",
+      "37396657",
+      "37359515",
+      "37104615",
+      "36638792",
+      "36635387",
+      "36450771",
+      "36323252",
+      "36306735",
+      "36170369",
+      "35981026",
+      "35931085",
+      "35576146",
+      "35526014",
+      "35459147",
+      "35410163",
+      "35379992",
+      "34630027",
+      "34608324",
+      "34493870",
+      "34239132",
+      "33797837",
+      "33712570",
+      "33318676",
+      "33046894",
+      "32912663",
+      "32259484",
+      "32231336",
+      "31831638",
+      "31784727",
+      "31727856",
+      "31477158",
+      "31413141",
+      "30820047",
+      "30707185",
+      "30617256",
+      "30424785",
+      "30395178",
+      "30266932",
+      "29643512",
+      "29434377",
+      "28714976",
+      "28620455",
+      "28369316",
+      "28209725",
+      "27701403",
+      "27311442",
+      "27259153",
+      "27240256",
+      "27135602",
+      "26638867",
+      "26458770",
+      "26432245",
+      "26414678",
+      "26301843",
+      "25728668",
+      "25693568",
+      "25693563",
+      "25516281",
+      "24604202",
+      "24335146",
+      "24121437",
+      "24097267",
+      "23452860",
+      "23332752",
+      "23296339",
+      "23138309",
+      "23104886",
+      "22955828",
+      "22955616",
+      "22455463",
+      "22064851",
+      "21085570",
+      "20811458",
+      "20110278",
+      "15895084",
+      "15831717",
+      "8820967",
+      "3670729"
+    ],
+    "similar": [
+      "40672290",
+      "42475469",
+      "35229021",
+      "42298188",
+      "40270544",
+      "31206543",
+      "39829783",
+      "37873175",
+      "41952336",
+      "36043696",
+      "42056104",
+      "42234579",
+      "42366973",
+      "34486522",
+      "41862973",
+      "39354714",
+      "40846081",
+      "29482603",
+      "36803612",
+      "32843144",
+      "30079747",
+      "23512712",
+      "37789374",
+      "41823835",
+      "40297423",
+      "40196246",
+      "41959448",
+      "42182259",
+      "38979263",
+      "42467704",
+      "40273430",
+      "35981026",
+      "34462306",
+      "41994484",
+      "26180553",
+      "31131957",
+      "39606363",
+      "38712228",
+      "38559211",
+      "31561366",
+      "37214836",
+      "38183988",
+      "36423637",
+      "39677760",
+      "31106481",
+      "38012720",
+      "35751107",
+      "22067658",
+      "30756131",
+      "33959712",
+      "34605404",
+      "35435921",
+      "29056226",
+      "40791531",
+      "41863598",
+      "31500627",
+      "42608145",
+      "42079203",
+      "39152038",
+      "28854172",
+      "42278322",
+      "28803920",
+      "42515778",
+      "30691483",
+      "40421528",
+      "39217658",
+      "41280078",
+      "40060626",
+      "41751570",
+      "40027628",
+      "42457959",
+      "37953348",
+      "25434007",
+      "40447495",
+      "40809120",
+      "41659682",
+      "40764843",
+      "35193936",
+      "38906146",
+      "33072063",
+      "35293310",
+      "31216982",
+      "42395488",
+      "42523423",
+      "33990600",
+      "41951735",
+      "35082832",
+      "28137873",
+      "37292699",
+      "41096905",
+      "39922197",
+      "33832990",
+      "39371155",
+      "41006627",
+      "41279603",
+      "42281968",
+      "31727856",
+      "29378629",
+      "34650237",
+      "41659643"
+    ],
+    "review": [
+      "40672290",
+      "41862973",
+      "32843144",
+      "41823835",
+      "31131957",
+      "22067658",
+      "30756131",
+      "39217658",
+      "40447495",
+      "40809120"
+    ],
+    "pmc": [
+      "12265656"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40672290/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.11.659973",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-tp6nl",
+  "title": "Prediction of large conformational changes of a protein binding pocket associated with ligand binding",
+  "authors": "kanta sakai; Takashi Ishida",
+  "journal": "ChemRxiv",
+  "published_date": "2024-02-29",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图神经网络预测配体结合诱导的蛋白结合口袋大尺度构象变化，虽非TF-DNA体系，但蛋白-配体结合口袋动态建模方法可迁移至TF-DNA互作研究。",
+  "abstract": "Docking simulation, a key technique in virtual screening, typically treats proteins as rigid bodies. However, proteins are inherently flexible, and ligand binding can induce significant conformational changes, affecting prediction accuracy. This study proposes a new approach to identify protein binding pockets that exhibit substantial conformational changes upon lig-and binding, potentially impacting docking simulation accuracy. In this research, we developed a prediction model using graph neural network to identify protein pockets with large conformational changes. To train the model, we constructed a dataset by calculating conformational changes in ligand-binding sites between multiple holo structures corresponding to the apo structure. We evaluated the performance of the prediction model and the results demonstrated that our model could iden-tify proteins with significant conformational changes, although the prediction accuracy remains low, with an AUC of 0.58 on the test data. This study highlights the potential of deep learning approaches in addressing the challenges of protein flexi-bility in virtual screening and docking simulations.",
+  "abstract_zh": "对接模拟（docking simulation）是虚拟筛选中的一项关键技术，通常将蛋白质视为刚性体。然而，蛋白质本质上是柔性的，配体结合可诱导显著的构象变化，从而影响预测准确性。本研究提出了一种新方法，用于识别在配体结合时表现出显著构象变化的蛋白质结合口袋，这可能影响对接模拟的准确性。在本研究中，我们开发了一个使用图神经网络（graph neural network）的预测模型，以识别具有较大构象变化的蛋白质口袋。为训练该模型，我们构建了一个数据集，通过计算对应于无配体结构（apo structure）的多个全配体结构（holo structures）中配体结合位点的构象变化来生成。我们评估了预测模型的性能，结果表明，尽管预测准确性仍较低，测试数据上的AUC为0.58，但我们的模型能够识别具有显著构象变化的蛋白质。本研究强调了深度学习方法在解决虚拟筛选和对接模拟中蛋白质柔性挑战方面的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-tp6nl",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-tp6nl",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-tp6nl/index.html"
+}

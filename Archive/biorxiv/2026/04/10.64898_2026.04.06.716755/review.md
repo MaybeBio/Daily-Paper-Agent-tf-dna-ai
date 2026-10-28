@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and reproducibility as presented in the provided text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors present Deep-Plant, a supervised foundation model for plant regulatory genomics, trained to predict chromatin state from DNA sequence in Arabidopsis and rice. They claim superior accuracy, computational efficiency, and interpretability compared to DNA language models on downstream tasks including gene expression and enhancer activity prediction, plus cross-species transferability.
+- **Visible evidence base** Text descriptions of results, figures referenced (Figures 1-6, Supplementary Figures 1-3, Tables 1, Supplementary Tables 1-2), methods descriptions, and data availability statement.
+- **Missing materials affecting confidence** Figures and tables themselves are not provided; only their captions or in-text references. Code repository and model weights are referenced but not reviewed. Benchmarking details for AgroNT and PDLLM are incomplete. Statistical significance testing and error bars are not described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in plant regulatory genomics by introducing a supervised foundation model paradigm. The core idea is timely and the reported performance gains over DNA language models are potentially impactful. However, the evidence as presented is insufficient to fully establish the claims. Key concerns include incomplete benchmarking methodology, unclear statistical rigor, and a lack of detailed architectural and training descriptions necessary for reproducibility. The cross-species transfer results are promising but require more thorough validation.
+- **Who would be interested in the results, and why** Plant molecular biologists and crop scientists interested in predicting gene regulation from sequence; computational biologists developing foundation models for genomics; researchers working on non-model plant species who could benefit from transferable models. The promise of faster, more interpretable models on commodity hardware is broadly appealing.
+- **Major strengths**
+  - Addresses a clear gap: plant-specific regulatory genomics lacks foundation models comparable to mammalian systems.
+  - The supervised paradigm, using chromatin state as supervision, is a sensible and potentially superior alternative to self-supervised DNA language models for regulatory tasks.
+  - Demonstrates strong performance on multiple downstream tasks (chromatin state, gene expression, enhancer activity) and across species (Arabidopsis, rice, maize).
+  - Emphasis on computational efficiency is practical and important for the community.
+  - The interpretability analyses (t-SNE, ISM, motif discovery) add biological value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Benchmarking methodology
+  - **Claim pointer** "Deep-Plant achieves superior accuracy and computational efficiency compared to DNA language models on downstream tasks."
+  - **Evidence pointer** Section 2.1, 2.2, 4.4; Figures 2, 3, 5
+  - **Concern** The benchmarking against AgroNT and PDLLM is not described with sufficient detail to be considered fair or reproducible. The text states all models were fine-tuned for 15 epochs using IA3, but does not specify hyperparameter tuning protocols, learning rates, or whether the baselines were given comparable optimization effort. The claim of "100x faster" is based on a single hardware comparison (RTX 4090) without specifying batch sizes, sequence lengths, or whether the comparison is for a single epoch or full fine-tuning. This is a critical comparison for the paper's central thesis.
+  - **Why it matters** If the baselines are not optimally fine-tuned, the performance and efficiency gains may be overstated. The community needs a fair, reproducible benchmark to assess the true value of Deep-Plant over existing DNA language models.
+  - **Resolution test** Provide a detailed benchmarking protocol including hyperparameter search ranges, final hyperparameters for all models, and a breakdown of computational cost (FLOPs, GPU hours) for pre-training and fine-tuning. Ideally, include a comparison with a fully fine-tuned (not just IA3) DNA language model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor / Evidence quality
+  - **Claim pointer** "Deep-Plant achieved strong predictive accuracy... outperforming AgroNT and PDLLM."
+  - **Evidence pointer** Sections 2.1, 2.2; Figures 2, 3, 5
+  - **Concern** The manuscript reports correlation coefficients and AuPRC values but does not describe any statistical significance testing, confidence intervals, or variance across different train/test splits. For example, the difference between Deep-Plant (AuPRC = 0.969) and the logistic regression on Deep-Plant outputs (AuPRC = 0.960-0.974) is within the noise of the measurement. It is unclear if the reported improvements over baselines are statistically significant.
+  - **Why it matters** Without error bars or significance tests, the reader cannot assess the reliability of the reported performance gains. This is essential for a claim of "superior accuracy."
+  - **Resolution test** Report performance metrics with standard deviations or confidence intervals across multiple seeds or cross-validation folds. Perform and report statistical significance tests (e.g., paired t-test, Wilcoxon) for the key comparisons against baselines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility / Technical soundness
+  - **Claim pointer** "The model is trained using a custom loss function based on the Poisson loss... and a custom consistency regularizer."
+  - **Evidence pointer** Section 4.2
+  - **Concern** The description of the loss function and the consistency regularizer is incomplete. The text mentions a "custom consistency regularizer" and a "FeatDistance" term but does not provide the full mathematical formulation. The equation for the overall training objective is referenced but not shown in the text provided. The augmentation strategy (e.g., "reverse complements and positional shifts") is mentioned but not detailed.
+  - **Why it matters** The consistency regularizer is a key novel component of the method. Without a full description, the method cannot be reproduced or compared against other approaches.
+  - **Resolution test** Provide the complete mathematical formulation of the loss function, including the consistency regularizer, and a detailed description of the augmentation strategy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Data leakage
+  - **Claim pointer** "Genes were divided into training, validation and test sets according to their overlap with the corresponding Deep-Plant training, validation, and test sets."
+  - **Evidence pointer** Section 4.3
+  - **Concern** The method for splitting genes into train/test sets is based on genomic overlap with the pre-training data. It is not clear if this fully prevents data leakage. For example, if a gene in the test set shares a regulatory region or is in linkage disequilibrium with a gene in the training set, the model may have seen highly similar sequences during pre-training. The text does not describe a sequence-similarity-based filtering step (e.g., excluding test genes with high sequence identity to training genes).
+  - **Why it matters** Data leakage can inflate performance estimates and lead to overoptimistic claims of generalization.
+  - **Resolution test** Describe the sequence similarity between train and test sets. If not already done, perform a homology-based filtering step and re-evaluate performance.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality / Interpretability
+  - **Claim pointer** "Analysis showed that 98.83% of the filters matched known TF binding motifs."
+  - **Evidence pointer** Section 3 (Discussion)
+  - **Concern** This is a strong claim presented in the Discussion without a corresponding description in the Results or Methods. The methodology for matching filters to known motifs is not described. What database was used? What was the matching threshold? How was the percentage calculated?
+  - **Why it matters** This is a key interpretability claim that supports the biological relevance of the model. Without a clear methodology, it is not verifiable.
+  - **Resolution test** Move this analysis to the Results section and provide a full description of the motif-matching methodology in the Methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "2,8535 Arabidopsis samples" which appears to be a typo. The correct number is likely 2,835 based on the Results section.
+  - **Required correction** Correct the typo in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The text mentions a soft-clipping function for outlier values but the function itself is not shown. The threshold tc = 50 is given, but the exact transformation is not described.
+  - **Required correction** Provide the full mathematical expression for the soft-clipping function.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The text says "the dataset (published by Yongjun et al. [41])" but the reference list is not provided. The citation style is inconsistent with the rest of the text.
+  - **Required correction** Ensure all citations are consistent and complete.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Section 4.4
+  - **Evidence pointer** Section 4.4
+  - **Issue** The text mentions "IA3 technique [72]" but does not explain what IA3 is. This is not a standard abbreviation for a general audience.
+  - **Required correction** Define IA3 on first use.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The text says "a similar, though less downstream-skewed, pattern emerged in rice (Figure 3E)" but the figure is not provided. It is difficult to assess this qualitative claim.
+  - **Required correction** Consider providing a quantitative measure of the skewness or a statistical comparison between species.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (Benchmarking methodology)
+  - R1-M2 (Statistical rigor)
+  - R1-M3 (Incomplete method description)
+  - R1-M4 (Potential data leakage)
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of a supervised foundation model paradigm to plant regulatory genomics is a novel contribution. The consistency regularization at the embedding level is a potentially interesting methodological innovation. However, the overall architecture (CNN + Transformer) is not fundamentally new.
+  - **Scientific importance** If the claims are substantiated, this work could provide a valuable resource for the plant genomics community, enabling accurate and efficient regulatory predictions in crops. The cross-species transfer results are particularly important for non-model species.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and plant molecular biologists. The potential applications in crop improvement could broaden its appeal, but the manuscript is written in a technical style that may be challenging for a general biology audience.
+  - **Technical soundness** The technical soundness is currently not fully established due to the concerns raised above regarding benchmarking, statistical rigor, and incomplete method descriptions.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with deep learning and genomics concepts. The abstract is accessible, but the methods section is dense. The claims of "interpretability" are not fully supported by the presented analyses.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the potential impact is high. However, the current evidence is insufficient to fully support the central claims of superiority over DNA language models. The authors must address the benchmarking, statistical, and methodological concerns before the case is established.
+
+## Risk / unsupported claims
+- The claim that Deep-Plant is "100x faster" than fine-tuning DNA language models is not sufficiently supported by the described benchmarking methodology.
+- The claim that "98.83% of the filters matched known TF binding motifs" is unsupported as no methodology is provided.
+- The claim of "superior accuracy" over baselines is not supported by statistical significance testing.
+- The claim of "robust generalization across Arabidopsis accessions" is based on a single comparison and lacks statistical rigor.
+- The claim that Deep-Plant "work[s] well as a building block for sequence modeling in related species such as corn" is based on a single downstream task and requires more extensive validation.
+- The effectiveness of the consistency regularizer is not demonstrated with an ablation study.

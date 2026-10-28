@@ -1,0 +1,463 @@
+{
+  "identity": {
+    "pmid": "37537196",
+    "doi": "10.1038/s41467-023-40365-z",
+    "title": "Functional annotation of proteins for signaling network inference in non-model species."
+  },
+  "content": {
+    "abstract": "Molecular biology aims to understand cellular responses and regulatory dynamics in complex biological systems. However, these studies remain challenging in non-model species due to poor functional annotation of regulatory proteins. To overcome this limitation, we develop a multi-layer neural network that determines protein functionality directly from the protein sequence. We annotate kinases and phosphatases in Glycine max. We use the functional annotations from our neural network, Bayesian inference principles, and high resolution phosphoproteomics to infer phosphorylation signaling cascades in soybean exposed to cold, and identify Glyma.10G173000 (TOI5) and Glyma.19G007300 (TOT3) as key temperature regulators. Importantly, the signaling cascade inference does not rely upon known kinase motifs or interaction data, enabling de novo identification of kinase-substrate interactions. Conclusively, our neural network shows generalization and scalability, as such we extend our predictions to Oryza sativa, Zea mays, Sorghum bicolor, and Triticum aestivum. Taken together, we develop a signaling inference approach for non-model species leveraging our predicted kinases and phosphatases.",
+    "keywords": [],
+    "mesh_terms": [
+      "Bayes Theorem",
+      "*Signal Transduction",
+      "*Transcription Factors/metabolism",
+      "Phosphorylation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Van den Broeck, Lisa",
+        "Bhosale, Dinesh Kiran",
+        "Song, Kuncheng",
+        "Fonseca de Lima, Cassio Flavio",
+        "Ashley, Michael",
+        "Zhu, Tingting",
+        "Zhu, Shanshuo",
+        "Van De Cotte, Brigitte",
+        "Neyt, Pia",
+        "Ortiz, Anna C",
+        "Sikes, Tiffany R",
+        "Aper, Jonas",
+        "Lootens, Peter",
+        "Locke, Anna M",
+        "De Smet, Ive",
+        "Sozzani, Rosangela"
+      ],
+      "short_names": [
+        "Van den Broeck L",
+        "Bhosale DK",
+        "Song K",
+        "Fonseca de Lima CF",
+        "Ashley M",
+        "Zhu T",
+        "Zhu S",
+        "Van De Cotte B",
+        "Neyt P",
+        "Ortiz AC",
+        "Sikes TR",
+        "Aper J",
+        "Lootens P",
+        "Locke AM",
+        "De Smet I",
+        "Sozzani R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0226-0757",
+        "ORCID: 0000-0001-7787-8784",
+        "ORCID: 0000-0002-0904-7636",
+        "ORCID: 0000-0002-3275-3459",
+        "ORCID: 0000-0003-4607-8893",
+        "ORCID: 0000-0003-3316-2367"
+      ],
+      "affiliations": [
+        "Plant and Microbial Biology Department and NC Plant Sciences Initiative, North Carolina State University, Raleigh, NC, 27695, USA. lfvanden@ncsu.edu.",
+        "Electrical and Computer Engineering Department, North Carolina State University, Raleigh, NC, 27695, USA.",
+        "Bioinformatics Research Center, North Carolina State University, Raleigh, NC, 27695, USA.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+        "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium.",
+        "Electrical and Computer Engineering Department, North Carolina State University, Raleigh, NC, 27695, USA.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+        "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+        "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+        "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+        "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium.",
+        "USDA-ARS Soybean & Nitrogen Fixation Research Unit, Raleigh, NC, 27607, Belgium.",
+        "USDA-ARS Soybean & Nitrogen Fixation Research Unit, Raleigh, NC, 27607, Belgium.",
+        "Protealis NV, Technologiepark-Zwijnaarde 94, 9052, Ghent, Belgium.",
+        "Plant Sciences Unit, Flanders Research Institute for Agriculture, Fisheries and Food (ILVO), 9090, Melle, Belgium.",
+        "USDA-ARS Soybean & Nitrogen Fixation Research Unit, Raleigh, NC, 27607, Belgium.",
+        "Department of Crop and Soil Sciences and NC Plant Sciences Initiative, North Carolina State University, Raleigh, NC, 27695, USA.",
+        "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+        "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium.",
+        "Plant and Microbial Biology Department and NC Plant Sciences Initiative, North Carolina State University, Raleigh, NC, 27695, USA. rsozzan@ncsu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Van den Broeck, Lisa",
+        "short_name": "Van den Broeck L",
+        "identifiers": [
+          "0000-0003-0226-0757"
+        ],
+        "affiliations": [
+          "Plant and Microbial Biology Department and NC Plant Sciences Initiative, North Carolina State University, Raleigh, NC, 27695, USA. lfvanden@ncsu.edu."
+        ]
+      },
+      {
+        "full_name": "Bhosale, Dinesh Kiran",
+        "short_name": "Bhosale DK",
+        "identifiers": [],
+        "affiliations": [
+          "Electrical and Computer Engineering Department, North Carolina State University, Raleigh, NC, 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Kuncheng",
+        "short_name": "Song K",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Research Center, North Carolina State University, Raleigh, NC, 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Fonseca de Lima, Cássio Flavio",
+        "short_name": "Fonseca de Lima CF",
+        "identifiers": [
+          "0000-0001-7787-8784"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+          "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ashley, Michael",
+        "short_name": "Ashley M",
+        "identifiers": [],
+        "affiliations": [
+          "Electrical and Computer Engineering Department, North Carolina State University, Raleigh, NC, 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Tingting",
+        "short_name": "Zhu T",
+        "identifiers": [
+          "0000-0002-0904-7636"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+          "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Zhu, Shanshuo",
+        "short_name": "Zhu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+          "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Van De Cotte, Brigitte",
+        "short_name": "Van De Cotte B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+          "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Neyt, Pia",
+        "short_name": "Neyt P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+          "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ortiz, Anna C",
+        "short_name": "Ortiz AC",
+        "identifiers": [],
+        "affiliations": [
+          "USDA-ARS Soybean & Nitrogen Fixation Research Unit, Raleigh, NC, 27607, Belgium."
+        ]
+      },
+      {
+        "full_name": "Sikes, Tiffany R",
+        "short_name": "Sikes TR",
+        "identifiers": [],
+        "affiliations": [
+          "USDA-ARS Soybean & Nitrogen Fixation Research Unit, Raleigh, NC, 27607, Belgium."
+        ]
+      },
+      {
+        "full_name": "Aper, Jonas",
+        "short_name": "Aper J",
+        "identifiers": [],
+        "affiliations": [
+          "Protealis NV, Technologiepark-Zwijnaarde 94, 9052, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Lootens, Peter",
+        "short_name": "Lootens P",
+        "identifiers": [
+          "0000-0002-3275-3459"
+        ],
+        "affiliations": [
+          "Plant Sciences Unit, Flanders Research Institute for Agriculture, Fisheries and Food (ILVO), 9090, Melle, Belgium."
+        ]
+      },
+      {
+        "full_name": "Locke, Anna M",
+        "short_name": "Locke AM",
+        "identifiers": [],
+        "affiliations": [
+          "USDA-ARS Soybean & Nitrogen Fixation Research Unit, Raleigh, NC, 27607, Belgium.",
+          "Department of Crop and Soil Sciences and NC Plant Sciences Initiative, North Carolina State University, Raleigh, NC, 27695, USA."
+        ]
+      },
+      {
+        "full_name": "De Smet, Ive",
+        "short_name": "De Smet I",
+        "identifiers": [
+          "0000-0003-4607-8893"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology and Bioinformatics, Ghent University, B-9052, Ghent, Belgium.",
+          "VIB Center for Plant Systems Biology, B-9052, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Sozzani, Rosangela",
+        "short_name": "Sozzani R",
+        "identifiers": [
+          "0000-0003-3316-2367"
+        ],
+        "affiliations": [
+          "Plant and Microbial Biology Department and NC Plant Sciences Initiative, North Carolina State University, Raleigh, NC, 27695, USA. rsozzan@ncsu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Aug 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/04 01:07",
+    "fetched_at": "2026-09-29 04:59:33"
+  },
+  "links": {
+    "cites": [
+      "42194062",
+      "40298292",
+      "40216665",
+      "40180917",
+      "40057525",
+      "40027840",
+      "39102077"
+    ],
+    "refs": [
+      "37077208",
+      "35190689",
+      "35020807",
+      "34723319",
+      "34384381",
+      "34251619",
+      "33990595",
+      "33119075",
+      "32770026",
+      "32547596",
+      "31942072",
+      "31819266",
+      "31727128",
+      "31725778",
+      "31571287",
+      "31187588",
+      "30971806",
+      "30094919",
+      "30040631",
+      "29887378",
+      "29618526",
+      "29193704",
+      "29069403",
+      "28827319",
+      "28400531",
+      "27694351",
+      "27348712",
+      "27153624",
+      "27084946",
+      "26301843",
+      "26243257",
+      "26213851",
+      "25930690",
+      "25806959",
+      "25614662",
+      "25359310",
+      "24984858",
+      "24942700",
+      "23396276",
+      "23176322",
+      "22889912",
+      "22110026",
+      "21988835",
+      "21864294",
+      "21593126",
+      "20927193",
+      "20008513",
+      "19029910",
+      "18765831",
+      "18433060",
+      "18251928",
+      "18037900",
+      "17921317",
+      "17570479",
+      "17130144",
+      "16723010",
+      "14597658",
+      "12471243",
+      "12169536",
+      "12068129",
+      "10802651",
+      "9918945"
+    ],
+    "similar": [
+      "37537196",
+      "37450158",
+      "17220363",
+      "29738528",
+      "21900206",
+      "36030508",
+      "21177495",
+      "23829771",
+      "25887590",
+      "35659261",
+      "22456606",
+      "28961802",
+      "31369175",
+      "28159843",
+      "26360816",
+      "23825934",
+      "18799736",
+      "19900289",
+      "19594874",
+      "25362847",
+      "28166542",
+      "36657259",
+      "25930703",
+      "27153602",
+      "18426580",
+      "30996098",
+      "25304781",
+      "31722220",
+      "24981518",
+      "28087598",
+      "24679076",
+      "17493251",
+      "25480755",
+      "21853033",
+      "26395771",
+      "30417516",
+      "21461660",
+      "22161322",
+      "23660284",
+      "34270057",
+      "35731801",
+      "24736851",
+      "23572811",
+      "36307979",
+      "29590108",
+      "32150537",
+      "19690332",
+      "21816876",
+      "32004947",
+      "20097792",
+      "30515190",
+      "21552464",
+      "36618990",
+      "24748057",
+      "25887857",
+      "15728114",
+      "19798456",
+      "36085860",
+      "15479714",
+      "20195360",
+      "28087663",
+      "26571415",
+      "34270043",
+      "19381531",
+      "24037665",
+      "28671251",
+      "23802010",
+      "24039601",
+      "31320316",
+      "12529172",
+      "15284094",
+      "1311681",
+      "24400017",
+      "27421996",
+      "17319944",
+      "28585197",
+      "18277381",
+      "21214508",
+      "30547796",
+      "36613735",
+      "23089823",
+      "22647244",
+      "12191611"
+    ],
+    "review": [
+      "37537196",
+      "36657259",
+      "21461660",
+      "32004947",
+      "34270043",
+      "19381531",
+      "24037665",
+      "31320316",
+      "28585197",
+      "21214508"
+    ],
+    "pmc": [
+      "10400656"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-40365-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37537196/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37537196",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

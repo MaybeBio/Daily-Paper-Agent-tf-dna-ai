@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2410.06211v1",
+  "title": "A mechanistically interpretable neural network for regulatory genomics",
+  "doi": "",
+  "abstract": "Deep neural networks excel in mapping genomic DNA sequences to associated readouts (e.g., protein-DNA binding). Beyond prediction, the goal of these networks is to reveal to scientists the underlying motifs (and their syntax) which drive genome regulation. Traditional methods that extract motifs from convolutional filters suffer from the uninterpretable dispersion of information across filters and layers. Other methods which rely on importance scores can be unstable and unreliable. Instead, we designed a novel mechanistically interpretable architecture for regulatory genomics, where motifs and their syntax are directly encoded and readable from the learned weights and activations. We provide theoretical and empirical evidence of our architecture's full expressivity, while still being highly interpretable. Through several experiments, we show that our architecture excels in de novo motif discovery and motif instance calling, is robust to variable sequence contexts, and enables fully interpretable generation of novel functional sequences.",
+  "authors": [
+    "Alex M. Tseng",
+    "Gokcen Eraslan",
+    "Tommaso Biancalani",
+    "Gabriele Scalia"
+  ],
+  "published_date": "2024-10-08T17:15:26Z",
+  "updated_date": "2024-10-08T17:15:26Z",
+  "journal": "",
+  "category": "q-bio.GN, cs.LG",
+  "landing_url": "https://arxiv.org/abs/2410.06211v1",
+  "pdf_url": "https://arxiv.org/pdf/2410.06211v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.GN",
+    "cs.LG"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2410.06211v1",
+    "raw_categories": [
+      "q-bio.GN",
+      "cs.LG"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "41548430",
+    "doi": "10.1016/j.redox.2026.104022",
+    "title": "Triclosan exacerbates post-myocardial infarction injury via Nur77 ubiquitination: Linking NTRK2/PGC-1alpha-mediated mitochondrial dysfunction to senescence and ferroptosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Triclosan (TCS), a widely used environmental antimicrobial agent, is associated with cardiovascular risks such as coronary heart disease; however, its effect on post-myocardial infarction (MI) prognosis remains unclear. This study investigated whether TCS exacerbated post-MI outcomes and the underlying mechanisms, with the goal of identifying potential preventive strategies. METHODS: MI models were established using mice with left anterior descending coronary artery ligation, alongside hypoxia-treated neonatal rat cardiomyocytes (NRCMs) and human AC16 cardiomyocytes. A comprehensive set of methodologies was employed, including RNA sequencing, echocardiography, Western blotting, co-immunoprecipitation, dual-luciferase reporter assays, molecular docking, quantitative real-time PCR, histological/immunofluorescence staining, and oxidative stress parameter analyses. Mechanistic investigations utilized Nur77 knockout mice, AAV9-based viral vectors targeting Nur77 and NTRK2, adenoviruses, plasmids, and small-molecule inhibitors/activators. RESULTS: Exposure to environmentally relevant TCS concentrations dose-dependently aggravated short- and long-term post-MI cardiac dysfunction and ventricular remodeling in both male and female mice. Mechanistically, TCS induced TRIM13-mediated K48-linked ubiquitination and proteasomal degradation of the nuclear receptor Nur77, leading to reduced transcription of NTRK2. Downregulated NTRK2 suppressed the AKT/mTOR/YY1 signaling cascade, ultimately decreasing PGC-1alpha expression and impairing mitochondrial function-specifically mitochondrial oxidative phosphorylation. This bioenergetic deficit triggered excessive reactive oxygen species (ROS) production, promoting lipid peroxidation and exacerbating cardiomyocyte ferroptosis, cellular senescence, and the senescence-associated secretory phenotype (SASP). These pathological effects collectively exacerbated acute post-MI injury and facilitated the progression of long-term ventricular remodeling. Validation in NRCMs and human AC16 cardiomyocytes confirmed conserved phenotypes and mechanisms. Pharmacological activation of PGC-1alpha with ZLN005 mitigated TCS-induced deterioration of short- and long-term post-MI cardiac function and attenuated ventricular remodeling. CONCLUSIONS: TCS exacerbates post-MI injury by disrupting the Nur77/NTRK2/PGC-1alpha axis, triggering mitochondrial dysfunction-mediated ferroptosis and senescence in cardiomyocytes of both male and female mice. Pharmacological activation of PGC-1alpha represents a potential strategy to counteract TCS-induced adverse outcomes after MI.",
+    "keywords": [
+      "Cellular senescence",
+      "Ferroptosis",
+      "Mitochondrial dysfunction",
+      "Myocardial infarction",
+      "Triclosan"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha/metabolism/genetics",
+      "*Myocardial Infarction/metabolism/pathology/etiology",
+      "Mice",
+      "Humans",
+      "Myocytes, Cardiac/metabolism/drug effects",
+      "*Nuclear Receptor Subfamily 4, Group A, Member 1/metabolism/genetics",
+      "*Ferroptosis/drug effects",
+      "Rats",
+      "Male",
+      "*Mitochondria/metabolism/drug effects",
+      "Ubiquitination/drug effects",
+      "Cellular Senescence/drug effects",
+      "Mice, Knockout",
+      "Disease Models, Animal",
+      "Oxidative Stress/drug effects",
+      "Reactive Oxygen Species/metabolism",
+      "Signal Transduction/drug effects",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Boshen",
+        "Chen, Yizhi",
+        "Zheng, Xinjie",
+        "Li, Taixi",
+        "Niu, Kaifan",
+        "Wang, Zhixiang",
+        "Xu, Xuanhao",
+        "Huang, Qiya",
+        "Wang, Xingyun",
+        "Fang, Yuan",
+        "Liu, Wei",
+        "Yu, Zhenwei",
+        "Wei, Dianhui",
+        "Zhu, YuanKang",
+        "Jin, Xian",
+        "Shen, Chengxing"
+      ],
+      "short_names": [
+        "Yang B",
+        "Chen Y",
+        "Zheng X",
+        "Li T",
+        "Niu K",
+        "Wang Z",
+        "Xu X",
+        "Huang Q",
+        "Wang X",
+        "Fang Y",
+        "Liu W",
+        "Yu Z",
+        "Wei D",
+        "Zhu Y",
+        "Jin X",
+        "Shen C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Respiratory Medicine, The Fourth Affiliated Hospital, Zhejiang University School of Medicine, Yiwu, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Tongren Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Oncology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: DianhuiWei@163.com.",
+        "Institute for Developmental and Regenerative Cardiovascular Medicine, Xinhua Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China; Department of Gerontology, Xinhua Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: 15258683336@sjtu.edu.cn.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: jinxianian@126.com.",
+        "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: shencx@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Boshen",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yizhi",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xinjie",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, The Fourth Affiliated Hospital, Zhejiang University School of Medicine, Yiwu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Taixi",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Kaifan",
+        "short_name": "Niu K",
+        "identifiers": [],
+        "affiliations": [
+          "Tongren Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhixiang",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xuanhao",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qiya",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xingyun",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Yuan",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhenwei",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dianhui",
+        "short_name": "Wei D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: DianhuiWei@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, YuanKang",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Developmental and Regenerative Cardiovascular Medicine, Xinhua Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China; Department of Gerontology, Xinhua Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: 15258683336@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jin, Xian",
+        "short_name": "Jin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: jinxianian@126.com."
+        ]
+      },
+      {
+        "full_name": "Shen, Chengxing",
+        "short_name": "Shen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: shencx@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Redox biology"
+    ],
+    "journal_abbrev": [
+      "Redox Biol"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/19 01:03",
+    "fetched_at": "2026-10-05 05:16:26"
+  },
+  "links": {
+    "cites": [
+      "42263416"
+    ],
+    "refs": [
+      "41400900",
+      "40599555",
+      "40188946",
+      "40111442",
+      "40096893",
+      "39862779",
+      "39555826",
+      "39421931",
+      "39273020",
+      "39121826",
+      "39069050",
+      "38979646",
+      "38801880",
+      "38762757",
+      "38697489",
+      "38588780",
+      "38582584",
+      "38424050",
+      "38391966",
+      "38220002",
+      "38158109",
+      "38101584",
+      "37980003",
+      "37940979",
+      "37459690",
+      "37351157",
+      "37320907",
+      "37316516",
+      "36814339",
+      "36593958",
+      "36534741",
+      "36368065",
+      "36150603",
+      "35997820",
+      "35718799",
+      "35704040",
+      "34952788",
+      "34560323",
+      "34478722",
+      "34465893",
+      "34315018",
+      "34126513",
+      "33963378",
+      "33878951",
+      "33562500",
+      "33537073",
+      "33402098",
+      "33154351",
+      "33114290",
+      "32811789",
+      "32554097",
+      "32542822",
+      "32524327",
+      "32489148",
+      "32434457",
+      "31923695",
+      "31627110",
+      "31574344",
+      "31381933",
+      "31181003",
+      "30950650",
+      "30947060",
+      "30920115",
+      "30905540",
+      "30557811",
+      "30527623",
+      "30503318",
+      "30453815",
+      "30311496",
+      "30226568",
+      "30224829",
+      "29630968",
+      "29608137",
+      "29573712",
+      "29477613",
+      "28632490",
+      "28478158",
+      "27552397",
+      "27502078",
+      "27340270",
+      "27221116",
+      "27208585",
+      "27067728",
+      "25892961",
+      "25495651",
+      "25410937",
+      "24625784",
+      "23423735",
+      "23250358",
+      "22891308",
+      "22556331",
+      "20377306",
+      "18046414",
+      "17942826",
+      "16713693",
+      "15913645",
+      "11763935"
+    ],
+    "similar": [
+      "41548430",
+      "30223807",
+      "38641076",
+      "40220403",
+      "31187505",
+      "41220146",
+      "30275441",
+      "40722060",
+      "40583767",
+      "41371162",
+      "27706848",
+      "35548408",
+      "29668847",
+      "40448227",
+      "40099370",
+      "40749617",
+      "40848413",
+      "40860187",
+      "42299075",
+      "41759420",
+      "32529514",
+      "42387999",
+      "41484741",
+      "40294850",
+      "42251941",
+      "23460046",
+      "39740363",
+      "40188946",
+      "39341301",
+      "41722768",
+      "40344316",
+      "38518637",
+      "41241334",
+      "31100876",
+      "41798912",
+      "40023300",
+      "30831132",
+      "41856459",
+      "39354361",
+      "41696987",
+      "42298968",
+      "39304097",
+      "39881220",
+      "39247818",
+      "39631469",
+      "41494251",
+      "41175588",
+      "39884075",
+      "26722406",
+      "29800789",
+      "37788754",
+      "41891495",
+      "41796618",
+      "37812853",
+      "42144210",
+      "40057160",
+      "41269417",
+      "42196177",
+      "33130150",
+      "36593958",
+      "39938168",
+      "37428351",
+      "41480995",
+      "41105727",
+      "40199978",
+      "41671772",
+      "36680791",
+      "39098896",
+      "39954087",
+      "42248375",
+      "34800647",
+      "40043828",
+      "41492949",
+      "39089090",
+      "28302481",
+      "27793739",
+      "42034026",
+      "39325807",
+      "40435425",
+      "34087195",
+      "41203196",
+      "40743621",
+      "42025008",
+      "41223038",
+      "30307485",
+      "38745296",
+      "38222788",
+      "41749209",
+      "41468066",
+      "40250033",
+      "41082249",
+      "40303337",
+      "28120943",
+      "40096893",
+      "30384366",
+      "32781064",
+      "30046377",
+      "33259334",
+      "31441382",
+      "41442992"
+    ],
+    "review": [
+      "41548430"
+    ],
+    "pmc": [
+      "12854874"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-2317(26)00020-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41548430/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

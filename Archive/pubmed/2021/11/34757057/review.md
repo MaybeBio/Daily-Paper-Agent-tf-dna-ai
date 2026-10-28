@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a conformational dynamics analysis of free human NEIL2 DNA glycosylase using hydrogen/deuterium exchange mass spectrometry (HDX-MS), homology modeling, and molecular dynamics simulations. They claim that a large N-terminal domain insert unique to vertebrate NEIL2 is unstructured in solution, that the open conformation of the helix-two-turn-helix (H2TH) DNA glycosylase family is favorable for free hNEIL2, and that the protein is conformationally flexible, potentially relevant to its role in repairing non-canonical DNA structures and engaging in protein-protein interactions.
+- **Visible evidence base** Abstract text only; no experimental details, HDX-MS data, structural models, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, HDX-MS raw data and processing details, homology model construction and validation, molecular dynamics simulation setup and convergence criteria, and any supporting statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting study on the conformational dynamics of hNEIL2, a DNA glycosylase for which no experimental structure exists. The combination of HDX-MS with computational approaches is appropriate for addressing the stated questions. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the HDX-MS experiments, the quality of the homology model, or the robustness of the molecular dynamics simulations. The central claims, particularly the unstructured nature of the N-terminal insert and the favorability of the open conformation, are stated without quantitative support. The work may be of interest to the DNA repair and structural biology communities, but the evidence base available here is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers in DNA repair, particularly those studying base excision repair and DNA glycosylase mechanisms, would be interested in the conformational behavior of hNEIL2 and its potential functional implications. Structural biologists using HDX-MS or molecular dynamics to study intrinsically disordered regions and domain dynamics in enzymes would also find relevance. Additionally, investigators interested in the structure-function relationships of H2TH superfamily proteins and the biological roles of non-canonical DNA structure repair may benefit from these findings.
+- **Major strengths** The study addresses a significant gap, as no experimental structure of hNEIL2 exists and its conformational dynamics have not been previously characterized. The use of complementary techniques, HDX-MS, homology modeling, and molecular dynamics, is a reasonable strategy to probe protein dynamics in the absence of a crystal structure. The focus on the unique N-terminal insert in vertebrate NEIL2 is a specific and potentially important feature that distinguishes this enzyme from other DNA glycosylases. The proposed link between conformational flexibility and the enzyme's role in repairing non-canonical DNA structures and engaging in protein-protein interactions provides a biologically meaningful interpretation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that the large N-terminal insert in hNEIL2 is unstructured in solution based on HDX-MS, homology modeling, and molecular dynamics simulations.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that the N-terminal insert is unstructured, but no quantitative data are presented, such as deuterium uptake levels, exchange rate differences, or comparison to structured regions. Without these details, it is impossible to assess whether the HDX-MS data convincingly support the unstructured assignment.  
+  - **Why it matters** The unstructured nature of the N-terminal insert is a central claim of the study. If the evidence is not robust, the conclusion could be overstated, and the biological interpretation built on this finding would be weakened.  
+  - **Resolution test** Provide deuterium uptake curves or exchange rate plots for peptides covering the N-terminal insert compared to known structured regions, along with statistical significance tests and appropriate controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that the open conformation is favorable for free hNEIL2 in solution.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe how the open conformation was identified or distinguished from the closed conformation in the HDX-MS data or molecular dynamics simulations. No metrics, such as domain separation distances, principal component analysis, or free energy estimates, are mentioned.  
+  - **Why it matters** The open-close transition is a proposed general feature of H2TH glycosylases, and capturing the open conformation has been elusive. If the evidence for the open state is not clearly presented, the claim cannot be evaluated or reproduced.  
+  - **Resolution test** Show explicit evidence from molecular dynamics trajectories, such as time series of domain-domain distances or conformational clustering, and correlate HDX-MS protection patterns with the open state model.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that hNEIL2 is a conformationally flexible protein based on their data.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative measures of conformational flexibility, such as deuterium exchange rates, B-factors from simulations, or ensemble descriptors. The claim appears to be a qualitative summary without supporting numerical data.  
+  - **Why it matters** Conformational flexibility is a broad claim that requires specific evidence to distinguish it from the behavior of other glycosylases. Without quantitative support, the claim is not falsifiable.  
+  - **Resolution test** Provide comparative flexibility metrics, such as per-residue deuterium uptake differences or root-mean-square fluctuation values from simulations, and place them in context with other DNA glycosylases if possible.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract assumes familiarity with HDX-MS and molecular dynamics terminology without brief explanations, which may limit accessibility for readers outside the structural biology subfield.  
+  - **Required correction** Add a brief phrase describing what HDX-MS measures, such as "which reports solvent exposure and hydrogen bonding of backbone amides," and clarify what "open" and "closed" conformations refer to in structural terms.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Biological interpretation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The final sentence suggests a link between conformational flexibility and participation in repair of non-canonical DNA structures or protein-protein interactions, but this connection is speculative and not elaborated.  
+  - **Required correction** Either provide a brief rationale for how flexibility might enable these functions or explicitly label this as a hypothesis requiring further testing.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Homology modeling  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions homology modeling but does not state the template structures used or the sequence identity between hNEIL2 and the templates.  
+  - **Required correction** Specify the templates, sequence identity, and model quality metrics, such as MolProbity score or Ramachandran statistics, in the abstract or indicate that these are provided in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative evidence to support the three central claims regarding the unstructured N-terminal insert, the favorable open conformation, and overall conformational flexibility. Without access to the underlying data, these claims cannot be verified.
+- **Assessment against Nature-style criteria**  
+  - Originality: The study addresses an uncharacterized protein and a specific structural feature, which is original. However, the abstract does not demonstrate how the findings advance beyond existing knowledge of H2TH glycosylase dynamics.  
+  - Scientific importance: The potential importance is moderate, as understanding hNEIL2 dynamics could inform DNA repair mechanisms, but the abstract does not establish broader significance beyond the specific enzyme.  
+  - Interdisciplinary readership: The topic is relevant to DNA repair and structural biology, but the abstract is unlikely to attract readers from outside these fields without clearer framing of broader implications.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of quantitative data and methodological details prevents evaluation of the technical quality.  
+  - Readability for nonspecialists: The abstract is concise but assumes background knowledge in HDX-MS and molecular dynamics, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses and a reasonable approach, but the absence of quantitative data and methodological detail means the central claims cannot be evaluated. A revised abstract with specific evidence, or access to the full manuscript, would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that the N-terminal insert is unstructured in solution is unsupported in the abstract, as no HDX-MS data or simulation metrics are provided.
+- The claim that the open conformation is favorable for free hNEIL2 is unsupported, as no conformational analysis details are given.
+- The claim that hNEIL2 is conformationally flexible is unsupported without quantitative flexibility measures.
+- The suggested link between conformational flexibility and participation in repair of non-canonical DNA structures or protein-protein interactions is speculative and not substantiated in the abstract.

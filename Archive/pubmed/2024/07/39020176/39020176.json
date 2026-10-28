@@ -1,0 +1,560 @@
+{
+  "identity": {
+    "pmid": "39020176",
+    "doi": "10.1038/s41586-024-07707-3",
+    "title": "Identification of plant transcriptional activation domains."
+  },
+  "content": {
+    "abstract": "Gene expression in Arabidopsis is regulated by more than 1,900 transcription factors (TFs), which have been identified genome-wide by the presence of well-conserved DNA-binding domains. Activator TFs contain activation domains (ADs) that recruit coactivator complexes; however, for nearly all Arabidopsis TFs, we lack knowledge about the presence, location and transcriptional strength of their ADs(1). To address this gap, here we use a yeast library approach to experimentally identify Arabidopsis ADs on a proteome-wide scale, and find that more than half of the Arabidopsis TFs contain an AD. We annotate 1,553 ADs, the vast majority of which are, to our knowledge, previously unknown. Using the dataset generated, we develop a neural network to accurately predict ADs and to identify sequence features that are necessary to recruit coactivator complexes. We uncover six distinct combinations of sequence features that result in activation activity, providing a framework to interrogate the subfunctionalization of ADs. Furthermore, we identify ADs in the ancient AUXIN RESPONSE FACTOR family of TFs, revealing that AD positioning is conserved in distinct clades. Our findings provide a deep resource for understanding transcriptional activation, a framework for examining function in intrinsically disordered regions and a predictive model of ADs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Arabidopsis/chemistry/genetics/metabolism",
+      "*Arabidopsis Proteins/chemistry/classification/metabolism",
+      "Conserved Sequence/genetics",
+      "Datasets as Topic",
+      "*Gene Expression Regulation, Plant/genetics",
+      "Indoleacetic Acids/metabolism",
+      "Intrinsically Disordered Proteins",
+      "Molecular Sequence Annotation",
+      "Neural Networks, Computer",
+      "*Protein Domains",
+      "Proteome/chemistry/metabolism",
+      "*Transcription Factors/chemistry/classification/metabolism",
+      "*Transcriptional Activation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morffy, Nicholas",
+        "Van den Broeck, Lisa",
+        "Miller, Caelan",
+        "Emenecker, Ryan J",
+        "Bryant, John A Jr",
+        "Lee, Tyler M",
+        "Sageman-Furnas, Katelyn",
+        "Wilkinson, Edward G",
+        "Pathak, Sunita",
+        "Kotha, Sanjana R",
+        "Lam, Angelica",
+        "Mahatma, Saloni",
+        "Pande, Vikram",
+        "Waoo, Aman",
+        "Wright, R Clay",
+        "Holehouse, Alex S",
+        "Staller, Max V",
+        "Sozzani, Rosangela",
+        "Strader, Lucia C"
+      ],
+      "short_names": [
+        "Morffy N",
+        "Van den Broeck L",
+        "Miller C",
+        "Emenecker RJ",
+        "Bryant JA Jr",
+        "Lee TM",
+        "Sageman-Furnas K",
+        "Wilkinson EG",
+        "Pathak S",
+        "Kotha SR",
+        "Lam A",
+        "Mahatma S",
+        "Pande V",
+        "Waoo A",
+        "Wright RC",
+        "Holehouse AS",
+        "Staller MV",
+        "Sozzani R",
+        "Strader LC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0226-0757",
+        "ORCID: 0009-0001-5944-2327",
+        "ORCID: 0000-0001-7055-2773",
+        "ORCID: 0009-0005-5806-0385",
+        "ORCID: 0000-0003-2878-2027",
+        "ORCID: 0009-0005-6657-1898",
+        "ORCID: 0009-0008-5707-3506",
+        "ORCID: 0000-0001-7125-3943",
+        "ORCID: 0000-0002-4155-5729",
+        "ORCID: 0000-0001-9094-5697",
+        "ORCID: 0000-0003-3316-2367",
+        "ORCID: 0000-0002-7600-7204"
+      ],
+      "affiliations": [
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Biological Systems Engineering, Virginia Tech, Blacksburg, VA, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA.",
+        "Biological Systems Engineering, Virginia Tech, Blacksburg, VA, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA. lucia.strader@duke.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morffy, Nicholas",
+        "short_name": "Morffy N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Van den Broeck, Lisa",
+        "short_name": "Van den Broeck L",
+        "identifiers": [
+          "0000-0003-0226-0757"
+        ],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Miller, Caelan",
+        "short_name": "Miller C",
+        "identifiers": [
+          "0009-0001-5944-2327"
+        ],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Emenecker, Ryan J",
+        "short_name": "Emenecker RJ",
+        "identifiers": [
+          "0000-0001-7055-2773"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Bryant, John A",
+        "short_name": "Bryant JA",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Systems Engineering, Virginia Tech, Blacksburg, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Tyler M",
+        "short_name": "Lee TM",
+        "identifiers": [
+          "0009-0005-5806-0385"
+        ],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Sageman-Furnas, Katelyn",
+        "short_name": "Sageman-Furnas K",
+        "identifiers": [
+          "0000-0003-2878-2027"
+        ],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Wilkinson, Edward G",
+        "short_name": "Wilkinson EG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Pathak, Sunita",
+        "short_name": "Pathak S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Kotha, Sanjana R",
+        "short_name": "Kotha SR",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lam, Angelica",
+        "short_name": "Lam A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mahatma, Saloni",
+        "short_name": "Mahatma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Pande, Vikram",
+        "short_name": "Pande V",
+        "identifiers": [
+          "0009-0005-6657-1898"
+        ],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Waoo, Aman",
+        "short_name": "Waoo A",
+        "identifiers": [
+          "0009-0008-5707-3506"
+        ],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Wright, R Clay",
+        "short_name": "Wright RC",
+        "identifiers": [
+          "0000-0001-7125-3943"
+        ],
+        "affiliations": [
+          "Biological Systems Engineering, Virginia Tech, Blacksburg, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Staller, Max V",
+        "short_name": "Staller MV",
+        "identifiers": [
+          "0000-0001-9094-5697"
+        ],
+        "affiliations": [
+          "Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sozzani, Rosangela",
+        "short_name": "Sozzani R",
+        "identifiers": [
+          "0000-0003-3316-2367"
+        ],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Strader, Lucia C",
+        "short_name": "Strader LC",
+        "identifiers": [
+          "0000-0002-7600-7204"
+        ],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA. lucia.strader@duke.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/18 00:42",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42648065",
+      "42519045",
+      "42479185",
+      "42239870",
+      "42141064",
+      "42052258",
+      "42020755",
+      "41896229",
+      "41839911",
+      "41838698",
+      "41770901",
+      "41764121",
+      "41690913",
+      "41674864",
+      "41649624",
+      "41511382",
+      "41398920",
+      "41375345",
+      "41232529",
+      "41000786",
+      "40951301",
+      "40909693",
+      "40885394",
+      "40872197",
+      "40844982",
+      "40836873",
+      "40737362",
+      "40674648",
+      "40670339",
+      "40566685",
+      "40538067",
+      "40479512",
+      "40389696",
+      "40371733",
+      "40365911",
+      "40302163",
+      "40275776",
+      "40070723",
+      "40028766",
+      "39987466",
+      "39933695",
+      "39864073",
+      "39738167",
+      "39677729",
+      "39657052",
+      "39229005"
+    ],
+    "refs": [
+      "38297184",
+      "37462277",
+      "37348464",
+      "37020022",
+      "35120642",
+      "34856504",
+      "34804056",
+      "34556672",
+      "34480923",
+      "34265844",
+      "34075876",
+      "33904398",
+      "32939066",
+      "32527832",
+      "32416068",
+      "31780648",
+      "31774605",
+      "30819094",
+      "30375394",
+      "30057584",
+      "29619039",
+      "29580381",
+      "29525204",
+      "28076807",
+      "27864773",
+      "27610578",
+      "27264908",
+      "27203113",
+      "26851278",
+      "24979769",
+      "24706860",
+      "24485461",
+      "23651006",
+      "23521778",
+      "22843664",
+      "22084422",
+      "21335373",
+      "20935498",
+      "20080505",
+      "19505943",
+      "17401334",
+      "16617101",
+      "15826952",
+      "15200645",
+      "12787253",
+      "12566590",
+      "11514548",
+      "10437826",
+      "10318972",
+      "3530496",
+      "3287180",
+      "2667136"
+    ],
+    "similar": [
+      "39020176",
+      "39657052",
+      "33904398",
+      "40836873",
+      "38866009",
+      "31642121",
+      "17675404",
+      "15287975",
+      "40371733",
+      "31421981",
+      "32416068",
+      "30909785",
+      "19995345",
+      "39933695",
+      "23682118",
+      "21976484",
+      "32929017",
+      "24710426",
+      "25348421",
+      "26107850",
+      "20840511",
+      "30202032",
+      "20797997",
+      "24485461",
+      "26858286",
+      "30541889",
+      "22852874",
+      "23050870",
+      "21343311",
+      "22100645",
+      "28827171",
+      "26867619",
+      "27097556",
+      "18258861",
+      "39548754",
+      "32188942",
+      "22003076",
+      "15598802",
+      "34001533",
+      "32305460",
+      "15659631",
+      "24889508",
+      "24821766",
+      "29386103",
+      "25145395",
+      "21831209",
+      "15923351",
+      "32279407",
+      "36088536",
+      "27716807",
+      "12747832",
+      "11786543",
+      "40493196",
+      "41838698",
+      "29474620",
+      "22784627",
+      "28045578",
+      "26637548",
+      "35922895",
+      "28265057",
+      "29507182",
+      "24046063",
+      "26045464",
+      "29945970",
+      "23333983",
+      "26428063",
+      "15200645",
+      "26578700",
+      "27881680",
+      "24118612",
+      "38734744",
+      "38056064",
+      "34003929",
+      "33208947",
+      "15829600",
+      "28284041",
+      "20624227",
+      "33007468",
+      "17158162",
+      "20592815",
+      "32385295",
+      "20479223",
+      "25881056",
+      "33946960",
+      "33361159",
+      "27122321",
+      "11798174",
+      "28992117",
+      "15295067",
+      "25159688",
+      "27590055",
+      "10966808",
+      "23878229",
+      "33104784",
+      "29936576",
+      "28531348",
+      "16523347",
+      "35950926",
+      "25911742",
+      "32430181"
+    ],
+    "review": [
+      "39020176",
+      "34001533",
+      "38056064",
+      "33361159",
+      "27122321",
+      "28992117"
+    ],
+    "pmc": [
+      "11589624"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-024-07707-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39020176/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse234215",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

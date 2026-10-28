@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.18.604047",
+  "title": "A Hierarchical Method to Analyze Protein-DNA Interfaces",
+  "authors": "Amol Tagad; G. Naresh Patwari",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-19",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出一种分层方法分析蛋白-DNA界面，通过距离截断预筛选残基-核苷酸对以降低计算成本，虽非TF-DNA特异体系且无AI/物理模拟，但方法可迁移至TF-DNA界面建模。",
+  "abstract": "The accessibility of genetic information and packaging of long chromosomal DNA into micron-sized nuclei is a great example of protein-DNA interaction. A large number of protein-DNA structures are available in the database and is continuously increasing. The analysis of such huge data to extract meaningful insights, several computational tools such as hydrogen bonding, SASA, all intermolecular heavy atom-to-atom contacts, as well as web-server and databases such as DNAproDB, PDIdb, PDB2PQR, Bio-python are available. Generally, the interaction between the protein and DNA is analyzed based on all heavy atom-to-atom contact matrices which are computationally expensive. Herein, a new and robust hierarchical approach is developed to analyze the protein-DNA interface. The present hierarchical method comprises two steps; the first step is to recognize the protein residue-nucleotide pairs at the interface by employing pairwise distance cut-off between the Cα of the protein residues and 05′ of the nucleotide and the second step is to calculate heavy atom-to-atom contact matrix using the first step as a qualifier. This method reduces the computational cost by three orders of magnitude making it tractable even on personal computers. On the whole, the protein-DNA interface is dominated by the arginine residues with a notable presence of lysine, serine, and tyrosine, highlighting the pivotal role of electrostatic interactions and hydrogen bonding in aggregation. Abstract Figure",
+  "abstract_zh": "遗传信息的可获取性以及将长染色体DNA包装进微米级细胞核的过程，是蛋白质-DNA相互作用的典型例证。数据库中已有大量蛋白质-DNA结构，且数量持续增长。为从这些海量数据中提取有意义的见解，多种计算工具如氢键分析、溶剂可及表面积（SASA）、所有分子间重原子间接触分析，以及诸如DNAproDB、PDIdb、PDB2PQR、Bio-python等网络服务器和数据库可供使用。通常，蛋白质与DNA之间的相互作用基于所有重原子间接触矩阵进行分析，这在计算上成本高昂。本文开发了一种新颖且稳健的分层方法来分析蛋白质-DNA界面。该分层方法包括两个步骤：第一步，通过蛋白质残基的Cα与核苷酸的O5′之间的成对距离截断来识别界面上的蛋白质残基-核苷酸对；第二步，利用第一步作为限定条件计算重原子间接触矩阵。该方法将计算成本降低了三个数量级，使其即使在个人计算机上也能轻松处理。总体而言，蛋白质-DNA界面主要由精氨酸残基主导，同时赖氨酸、丝氨酸和酪氨酸也有显著存在，突显了静电相互作用和氢键在聚集中的关键作用。摘要图",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.18.604047",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.18.604047",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.18.604047/index.html"
+}

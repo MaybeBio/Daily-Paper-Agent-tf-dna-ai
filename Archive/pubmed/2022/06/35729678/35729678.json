@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "35729678",
+    "doi": "10.1186/s41065-022-00233-0",
+    "title": "Identification of key apoptosis-related genes and immune infiltration in the pathogenesis of psoriasis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Psoriasis is a condition in which skin cells build up and form itchy scales and dry patches. It is also considered a common lifelong disease with an unclear pathogenesis. Furthermore, an effective cure for psoriasis is still unavailable. Reductive apoptosis of keratinocytes and immune infiltration are common in psoriasis. This study aimed to explore underlying functions of key apoptosis-related genes and the characteristics of immune infiltration in psoriasis. We used GSE13355 and GSE30999 to screen differentially expressed apoptosis related genes (DEARGs) in our study. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway, and gene set enrichment analysis (GSEA) were performed using clusterProfiler package. Protein-protein interaction (PPI) network was constructed to acquire key DEARGs. Transcription factor (TF)-target and miRNA-mRNA network analyses, drug sensitivity prediction, and immune infiltration were applied. Key DEARGs were validated using real-time quantitative PCR (RT-qPCR). RESULTS: We identified 482 and 32 DEARGs from GSE13355 and GSE30999, respectively. GO analysis showed that DEARGs were commonly enriched in cell chemotaxis, receptor ligand activity, and signaling receptor activator activity. KEGG pathway analysis indicated that viral protein interaction with cytokine and cytokine receptor was maximally enriched pathway. The GSEA analysis of GSE13355 and GSE30999 demonstrated a high consistency degree of enriched pathways. Thirteen key DEARGs with upregulation were obtained in the PPI network. Eleven key DEARGs were confirmed using RT-qPCR. Additionally, 5 TFs and 553 miRNAs were acquired, and three novel drugs were predicted. Moreover, Dendritic.cells.activated exhibited high levels of immune infiltration while Mast.cells.resting showed low levels of immune infiltration in psoriasis groups. CONCLUSION: Results of this study may reveal some insights into the underlying molecular mechanism of psoriasis and provide novel targeted drugs.",
+    "keywords": [
+      "DEARGs",
+      "Immune infiltration",
+      "Pathogenesis",
+      "Psoriasis"
+    ],
+    "mesh_terms": [
+      "Apoptosis/genetics",
+      "Gene Expression Regulation",
+      "Gene Ontology",
+      "Humans",
+      "*MicroRNAs/genetics/metabolism",
+      "Protein Interaction Maps",
+      "*Psoriasis/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zou, Ailing",
+        "Kong, Qingtao",
+        "Sang, Hong"
+      ],
+      "short_names": [
+        "Zou A",
+        "Kong Q",
+        "Sang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7188-6740"
+      ],
+      "affiliations": [
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, 510515, China.",
+        "Department of Dermatology, Huangshi Central Hospital, Affiliated Hospital of Hubei Polytechnic University, Edong Health Care Group, Huangshi, 435000, China.",
+        "Department of Dermatology, Jinling Hospital, Nanjing, 210002, China.",
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, 510515, China.",
+        "Department of Dermatology, Jinling Hospital, Nanjing, 210002, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zou, Ailing",
+        "short_name": "Zou A",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, 510515, China.",
+          "Department of Dermatology, Huangshi Central Hospital, Affiliated Hospital of Hubei Polytechnic University, Edong Health Care Group, Huangshi, 435000, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Qingtao",
+        "short_name": "Kong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Jinling Hospital, Nanjing, 210002, China."
+        ]
+      },
+      {
+        "full_name": "Sang, Hong",
+        "short_name": "Sang H",
+        "identifiers": [
+          "0000-0001-7188-6740"
+        ],
+        "affiliations": [
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, 510515, China.",
+          "Department of Dermatology, Jinling Hospital, Nanjing, 210002, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2022 Jun 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/22 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [
+      "41333037",
+      "40636028",
+      "40565008",
+      "40557155",
+      "40114770",
+      "39830966",
+      "38129460",
+      "37868105"
+    ],
+    "refs": [
+      "33812489",
+      "32686693",
+      "32669126",
+      "32648291",
+      "32467098",
+      "32427307",
+      "32226340",
+      "32160841",
+      "31833093",
+      "31660855",
+      "31175155",
+      "31115544",
+      "30909615",
+      "30566935",
+      "30476243",
+      "30333310",
+      "29087512",
+      "28887948",
+      "27982014",
+      "27667537",
+      "27035208",
+      "26025581",
+      "25822800",
+      "25605792",
+      "25229481",
+      "24655295",
+      "24130113",
+      "22763790",
+      "22455463",
+      "22054142",
+      "21388665",
+      "21269502",
+      "20689021",
+      "20620952",
+      "19818217",
+      "19169254",
+      "17496320",
+      "16216497",
+      "16014572",
+      "14960456",
+      "14597658",
+      "11422182",
+      "10894962"
+    ],
+    "similar": [
+      "35729678",
+      "38439147",
+      "37760894",
+      "38436011",
+      "37861483",
+      "32669126",
+      "37753698",
+      "33732554",
+      "39120060",
+      "34559160",
+      "31115544",
+      "35300136",
+      "34262330",
+      "32648291",
+      "39239353",
+      "36276287",
+      "38628660",
+      "38384278",
+      "35401659",
+      "36073801",
+      "26781069",
+      "35669784",
+      "38917217",
+      "38829444",
+      "34536521",
+      "34553293",
+      "36605987",
+      "38576744",
+      "34722763",
+      "35620387",
+      "33927789",
+      "34233597",
+      "38129460",
+      "33613635",
+      "34110956",
+      "32160841",
+      "35016690",
+      "31673979",
+      "37431117",
+      "36741233",
+      "30138363",
+      "30602391",
+      "35949173",
+      "36765431",
+      "39145050",
+      "33299863",
+      "33468161",
+      "35392084",
+      "33083497",
+      "35586812",
+      "37968618",
+      "31875420",
+      "35658960",
+      "28302149",
+      "35495609",
+      "31988808",
+      "34162355",
+      "35783271",
+      "31746348",
+      "33104965",
+      "35680809",
+      "35411170",
+      "37029373",
+      "27035208",
+      "29620143",
+      "37871808",
+      "35078433",
+      "35859795",
+      "35059509",
+      "33861762",
+      "39310902",
+      "34313877",
+      "33642437",
+      "31886250",
+      "35273637",
+      "31553078",
+      "35711463",
+      "35711934",
+      "30278433",
+      "32164735",
+      "35790963",
+      "20417062",
+      "33397492",
+      "35672672",
+      "39394253",
+      "34422793",
+      "34867824",
+      "38073713",
+      "35713363",
+      "32923489",
+      "36855217",
+      "37806279",
+      "36890558",
+      "34600545",
+      "35278479",
+      "33530816",
+      "33174045",
+      "31719822",
+      "35008808",
+      "28415685",
+      "35346191",
+      "32714978",
+      "32791870",
+      "31322209",
+      "34722158",
+      "30096582",
+      "39145061",
+      "24373112",
+      "28901494",
+      "35018096",
+      "34252359",
+      "33892654",
+      "35663995",
+      "35693833",
+      "36777818",
+      "39333640",
+      "38273053",
+      "39358990",
+      "37872959",
+      "39376789",
+      "38279589",
+      "37337513",
+      "38333021",
+      "37664450",
+      "36118895",
+      "36915614",
+      "35795312",
+      "37373186",
+      "36209691",
+      "37631238"
+    ],
+    "review": [
+      "35729678",
+      "36209691"
+    ],
+    "pmc": [
+      "9213172"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-022-00233-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35729678/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35729678",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

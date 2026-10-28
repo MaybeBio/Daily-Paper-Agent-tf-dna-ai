@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.14.694215",
+  "title": "Machine learning-based development of Gadolinium binding peptides",
+  "authors": "Nir A. Dayan; Makayla Long; Nicolas Scalzitti; Iliya Miralavy; Daniel Holmes; Mark Kocherovsky; Wolfgang Banzhaf; Assaf A. Gilad",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-16",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习平台POET设计钆结合肽，虽涉及蛋白-金属离子互作，但非蛋白质-DNA互作体系，且无结合位点预测或三维互作建模，仅序列优化与实验筛选，与本课题TF-DNA互作建模关联较弱。",
+  "abstract": "Gadolinium-based contrast agents (GBCAs) are indispensable tools in magnetic resonance imaging (MRI), yet their clinical use is limited by non-specific tissue accumulation, low molecular specificity, and safety concerns. Protein and peptide scaffolds provide a promising alternative because they can bind metal ions with high selectivity and enable precise molecular targeting. However, identifying short peptide motifs with optimal gadolinium (Gd³⁺) coordination and high relaxivity remains a major challenge. Here, we used a machine-learning-driven peptide evolution platform, the Protein Optimization Engineering Tool (POET), to design and optimize short Gd-binding motifs that enhance longitudinal relaxivity (r₁). Two algorithmic strategies were tested; motif-based and regular-expression-based representations, both were trained on an initial set of 74 twelve-amino-acid peptides derived from natural EF-hand scaffolds. Through two rounds of directed evolution and experimental screening, we identified peptides with up to a 24% increase in r₁ ratio compared with the best natural EF-hand, and a 55% improvement in absolute r₁ after removal of unbound Gd. Further analysis revealed that peptides exhibiting higher relaxivity generally possessed a more negative net charge and lower isoelectric point than the buffer pH, indicating stronger electrostatic stabilization of Gd³⁺. Sequence enrichment analysis showed that acidic and small polar residues, particularly aspartic acid, glycine, and threonine, were selectively favored during evolution, while bulky hydrophobic and basic residues were depleted. These compositional trends align with improved solubility and enhanced metal coordination. Together, these results demonstrate a generalizable framework that integrates computational evolution with biophysical screening to discover new biologically derived Gd-binding motifs. This approach provides a scalable route to engineer responsive, tunable, and biocompatible MRI contrast tags for precision imaging and molecular diagnostics.",
+  "abstract_zh": "基于钆的造影剂（GBCAs）是磁共振成像（MRI）中不可或缺的工具，但其临床应用受到非特异性组织积累、低分子特异性和安全性问题的限制。蛋白质和肽支架提供了一种有前景的替代方案，因为它们能够以高选择性结合金属离子，并实现精确的分子靶向。然而，识别具有最佳钆（Gd³⁺）配位和高弛豫率的短肽基序仍然是一个重大挑战。在此，我们使用了一种机器学习驱动的肽进化平台，即蛋白质优化工程工具（POET），来设计和优化增强纵向弛豫率（r₁）的短Gd结合基序。测试了两种算法策略：基于基序和基于正则表达式的表示方法，两者均基于来自天然EF-hand支架的74个十二氨基酸肽的初始数据集进行训练。通过两轮定向进化和实验筛选，我们鉴定出与最佳天然EF-hand相比，r₁比率提高高达24%的肽，并且在去除未结合Gd后，绝对r₁提高了55%。进一步分析揭示，具有较高弛豫率的肽通常具有更负的净电荷和低于缓冲液pH的等电点，表明Gd³⁺的静电稳定作用更强。序列富集分析显示，酸性和小极性残基，特别是天冬氨酸、甘氨酸和苏氨酸，在进化过程中被选择性偏好，而庞大的疏水性和碱性残基则被消耗。这些组成趋势与改善的溶解性和增强的金属配位相一致。总之，这些结果展示了一个通用框架，将计算进化与生物物理筛选相结合，以发现新的生物来源的Gd结合基序。该方法为工程化响应性、可调谐且生物相容的MRI对比标签提供了一条可扩展的途径，用于精准成像和分子诊断。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.14.694215",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.14.694215",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.14.694215/index.html"
+}

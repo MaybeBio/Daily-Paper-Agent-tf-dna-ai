@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supporting material list) from bioRxiv preprint
+- **Assessment boundary** Scientific content, methodological soundness, and claim-evidence alignment as presented in the provided text. No line numbers were available; section and figure references are used as provided.
+- **Shared manuscript claim summary** The authors use multi-replica all-atom MD simulations initiated from NMR structures to characterize the conformational landscape and intradomain stability of TDP-43 tandem RRMs in RNA-free and RNA-bound states. They report that RNA binding reduces conformational plasticity, stabilizes the RRM1 β4/5 region, and that conserved Phe and Lys residues mediate dynamic protein-RNA interactions.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (partial), Results (narrative with figure references), Discussion, Supporting Material list. Figures and tables referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** Figures S1-S15, Tables S1-S5, all figure panels, simulation parameter details beyond those described, force field validation data, and convergence analyses. The manuscript text alone does not permit independent verification of the quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and biologically important question: how RNA binding modulates the conformational dynamics and stability of TDP-43 tandem RRM domains. The authors employ a reasonable computational strategy with multi-replica all-atom MD simulations initiated from NMR-derived structures. The central claims, that RNA binding reduces conformational plasticity and stabilizes RRM1, are plausible and consistent with prior experimental observations. However, the provided text does not include the actual data figures or quantitative analyses, making it impossible to assess the robustness of the conclusions. Several claims appear to extend beyond what the described methods can support, particularly regarding the functional interpretation of specific residue-level interactions. The manuscript would benefit from clearer presentation of convergence metrics, force field limitations, and a more cautious interpretation of the biological implications.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 biology, RNA-protein interactions, and the molecular mechanisms underlying neurodegeneration in ALS and FTD. Computational biophysicists interested in conformational ensembles of multi-domain RNA-binding proteins would also find the methodological approach relevant. The findings on RNA-mediated stabilization of RRM1 could inform studies on TDP-43 aggregation and potential therapeutic strategies.
+- **Major strengths** The study addresses a significant gap in understanding the dynamic behavior of TDP-43 tandem RRMs. The use of multi-replica simulations initiated from an NMR ensemble is appropriate for exploring conformational heterogeneity. The focus on conserved residues and their differential roles in RNA binding provides a useful framework for interpreting experimental data. The authors acknowledge key limitations including force field accuracy and timescale constraints.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "RNA binding effectively reduces the intrinsic conformational variability of the tandem RRMs and acts as a protective factor for the unfolding of RRM1 by stabilizing its β4/5 region."  
+  - **Evidence pointer** Results section, Figures 1B, 2A, S3, S8; location not provided  
+  - **Concern** The central claim that RNA binding prevents RRM1 unfolding is based on free energy landscapes and RMSD analyses, but the actual figures and quantitative data are not included in the provided text. The population of the partially unfolded basin in the RNA-free state is described as "low" (Table S3), yet the authors use this to support a protective role for RNA. Without seeing the actual distributions, convergence metrics, or statistical comparisons across replicas, the strength of this claim cannot be evaluated.  
+  - **Why it matters** This is the primary conclusion of the study and has implications for understanding how RNA loss may promote TDP-43 aggregation. If the partially unfolded population is very small or not reproducible across replicas, the claim would be substantially weakened.  
+  - **Resolution test** Provide the FEL plots with clear basin populations, replica-by-replica RMSD distributions, and a quantitative comparison of unfolded population fractions between RNA-free and RNA-bound states, including error estimates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological rigor  
+  - **Claim pointer** The authors state that "several RRM-RNA contacts mediated by highly conserved residues are observed to be far more dynamic than previously inferred from NMR structural ensemble."  
+  - **Evidence pointer** Results section, Figures 4A, S11-S13; location not provided  
+  - **Concern** The comparison between MD-derived contact dynamics and the NMR structural ensemble is presented without a clear quantitative framework. The NMR ensemble represents a set of structures consistent with experimental restraints, not a dynamic trajectory. Directly comparing contact persistence from MD to static NMR contacts requires careful definition of what constitutes a "dynamic" contact and what threshold distinguishes it from the NMR-inferred picture. The authors do not describe such a framework in the provided text.  
+  - **Why it matters** This claim is used to argue that the MD simulations reveal new features of the protein-RNA interface not captured by experimental structures. If the comparison is not rigorously defined, the claim may be overstated.  
+  - **Resolution test** Define a quantitative metric for contact stability (e.g., occupancy over time), compare it to the NMR ensemble contact map with a clear statistical test, and discuss whether differences reflect genuine dynamics or force field artifacts.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretive caution  
+  - **Claim pointer** The authors conclude that "RNA binding not only plays a pivotal role in maintaining the functionality of the protein network but also acts as a protective factor, restricting the exploration of aggregation-prone microstates."  
+  - **Evidence pointer** Discussion section; location not provided  
+  - **Concern** The leap from simulation observations of reduced conformational plasticity to a protective role against aggregation is speculative. The simulations do not directly probe aggregation, and the relationship between the sampled conformational states and aggregation-prone species is not established. The authors do not cite or discuss experimental evidence linking the specific partially unfolded states they observe to aggregation pathways.  
+  - **Why it matters** This interpretive claim extends the findings beyond what the simulations can directly demonstrate. Overstating the aggregation relevance could mislead readers about the strength of the evidence.  
+  - **Resolution test** Either temper the language to indicate that the simulations suggest a possible mechanism, or provide additional analysis linking the observed conformational states to known aggregation-prone features of TDP-43, such as exposure of hydrophobic patches or loss of native contacts in regions implicated in aggregation.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Materials and Methods, Molecular modeling and simulation protocol; location not provided  
+  - **Issue** The description of the equilibration protocol is somewhat unclear. The text states that a minimization run was followed by heating, then two NVT simulations, then an NPT equilibration, but the force constants and restraint details are only partially specified.  
+  - **Required correction** Provide a clear step-by-step list of the equilibration stages with the force constants used at each stage, and specify which atoms were restrained.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Simulation convergence  
+  - **Evidence pointer** Results section; location not provided  
+  - **Issue** The manuscript does not describe how convergence of the simulations was assessed. For multi-replica simulations of flexible systems, block averaging, autocorrelation analysis, or replica-to-replica variability should be reported.  
+  - **Required correction** Add a paragraph in the Results or Methods describing convergence metrics and showing that the key observables (e.g., Rg, contact probabilities) have converged within the simulation time.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Figure references  
+  - **Evidence pointer** Results section, Figures 4A, 4B, 4C; location not provided  
+  - **Issue** The text refers to Figure 4A, 4B, and 4C in different contexts, but the figure panels are not described in the text. It is unclear what each panel shows.  
+  - **Required correction** Add a brief description of each figure panel in the text or figure legend so that readers can follow the narrative without accessing the figure separately.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract and Results  
+  - **Evidence pointer** Abstract, Results; location not provided  
+  - **Issue** The term "intradomain stability" is used throughout, but it is not explicitly defined. It appears to refer to the structural stability of individual RRM domains, but the metric used (RMSD excluding loops) is not described as a stability measure.  
+  - **Required correction** Define "intradomain stability" in the Introduction or Methods, and clarify how it is quantified in the analyses.
+
+## Risk / unsupported claims
+- The claim that RNA binding acts as a "protective factor" against aggregation is not directly supported by the simulation data presented and requires additional evidence or more cautious language.
+- The statement that specific conserved Phe and Lys residues mediate a "dynamic binding interface" is based on contact analyses that are not shown in the provided text; the quantitative basis for this claim is not verifiable.
+- The comparison between MD-derived contact dynamics and the NMR structural ensemble lacks a defined quantitative framework, making the claim of "far more dynamic" contacts difficult to assess.
+- The assertion that RRM2 stability is "contingent on the presence of RRM1" is based on truncated construct simulations, but the text does not provide sufficient detail on how these constructs were designed or whether the results are statistically robust.
+- The biological interpretation that RNA loss promotes "accumulation of non-native TDP-43 in the cytoplasm" is speculative and extends beyond the simulation data.

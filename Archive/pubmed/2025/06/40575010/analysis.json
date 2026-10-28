@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40575010",
+  "title": "RBI: a novel algorithm for regulatory-metabolic network model in designing the optimal mutant strain.",
+  "authors": "Ananda, Ridho; Daud, Kauthar Mohd; Zainudin, Suhaila",
+  "journal": "PeerJ. Computer science",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 4,
+  "one_liner_zh": "提出基于可靠性理论的RBI算法整合基因调控与代谢网络以设计最优突变菌株，虽涉及转录因子敲除方案，但核心是代谢工程网络优化，缺乏蛋白质-DNA互作建模与AI/物理模拟方法，与课题关联较弱。",
+  "abstract": "Over the last 20 years, researchers have proposed regulatory-metabolic network models to integrate gene regulatory networks (GRNs) and metabolic networks in in silico metabolic engineering, aiming to enhance the production rate of desired metabolites. However, the proposed models are unable to comprehensively include the Boolean rules in the empirical gene regulatory networks (GRNs) and gene-protein-reaction (GPR) interactions. Thus, the types of gene interactions, such as inhibition and activation, are disregarded from the analysis. This may result in sub-optimal model performance. Hence, this article presented a novel model using reliability theory to include Boolean rules in empirical GRNs and GPR rules in the integrating process. The proposed algorithm of this model is termed as a reliability-based integrating (RBI) algorithm. The suggested algorithm had three variants: RBI-T1, RBI-T2, and RBI-T3. The performance of the RBI algorithms was assessed by comparing them with the existing algorithms, using empirical results and validated transcription factors (TF) knockout schemes, and their complexity time was identified. Also, the RBI method was implemented in the design of optimal mutant strains of Escherichia coli and Saccharomyces cerevisiae. The simulation results indicated that the effectiveness and efficiency of the RBI algorithms are adequately strong and competitive relative to the existing algorithms. Furthermore, the RBI algorithm effectively identified eight schemes capable of enhancing succinate and ethanol production rates by maintaining the survival of microbial strains. Those results demonstrated that the RBI algorithms are recommended for the construction of optimum mutant strains in in silico metabolic engineering.",
+  "abstract_zh": "过去20年间，研究者们提出了调控-代谢网络模型，旨在整合基因调控网络（GRNs）与代谢网络，用于计算机模拟代谢工程，以提高目标代谢产物的生产效率。然而，所提出的模型未能全面包含经验基因调控网络（GRNs）中的布尔规则及基因-蛋白质-反应（GPR）相互作用。因此，诸如抑制和激活等基因相互作用类型在分析中被忽略，这可能导致模型性能欠佳。为此，本文提出了一种基于可靠性理论的新模型，在整合过程中纳入经验GRNs中的布尔规则和GPR规则。该模型的算法被称为基于可靠性的整合（RBI）算法。所提算法有三种变体：RBI-T1、RBI-T2和RBI-T3。通过将RBI算法与现有算法进行比较，利用经验结果和验证过的转录因子（TF）敲除方案评估其性能，并确定了其复杂度时间。此外，RBI方法还被应用于设计大肠杆菌（Escherichia coli）和酿酒酵母（Saccharomyces cerevisiae）的最优突变菌株。模拟结果表明，相对于现有算法，RBI算法的有效性和效率足够强大且具有竞争力。进一步地，RBI算法有效识别了八种方案，这些方案能在维持微生物菌株存活的同时提高琥珀酸和乙醇的生产速率。这些结果证明，RBI算法推荐用于计算机模拟代谢工程中最优突变菌株的构建。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40575010/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40575010/",
+  "paper_page_path": "papers/pubmed/40575010/index.html"
+}

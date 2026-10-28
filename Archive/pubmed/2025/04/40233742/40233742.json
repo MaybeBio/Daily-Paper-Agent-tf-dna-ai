@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "40233742",
+    "doi": "10.1016/j.ajhg.2025.01.012",
+    "title": "Integration of protein stability and AlphaMissense scores improves bioinformatic impact prediction for p53 missense and in-frame amino acid deletion variants."
+  },
+  "content": {
+    "abstract": "The clinical classification of germline missense variants and single-amino-acid deletions is challenging. The BayesDel and Align-GVGD bioinformatic prediction tools currently used for ClinGen TP53 variant curation expert panel (VCEP) classification do not directly capture changes in protein folding stability, measured using computed destabilization energies (DeltaDeltaG scores). The AlphaMissense tool recently developed by Google DeepMind to predict pathogenicity for all human proteome missense variants is trained in part using AlphaFold2 architecture. Our study investigated whether protein folding stability and/or AlphaMissense scores could improve impact prediction for p53 missense and single-amino-acid deletion variants. DeltaDeltaG scores were calculated for missense variants using FoldX and for single-amino-acid deletions using an AlphaFold2/RosettaRelax protocol. Residue surface exposure was categorized using relative solvent accessibility (RSA) measures. The predictive values of DeltaDeltaG scores, AlphaMissense, BayesDel, and Align-GVGD were examined using Boruta and binary logistic regression based on functionally defined reference sets. The likelihood ratio (LR) toward pathogenicity was estimated and used to refine optimal categories for predicting variant pathogenicity for different RSA values. We showed that current VCEP predictive approaches for missense variants were improved by integrating DeltaDeltaG scores >/=2.5 kcal/mol for partially buried and buried residues, but better performance was achieved using AlphaMissense with DeltaDeltaG and RSA. For deletion variants, DeltaDeltaG scores >/=4.8 Rosetta energy unit (REU) in buried residues outperformed currently used predictive approaches. Future TP53 VCEP specifications for p53 missense impact prediction may consider AlphaMissense, DeltaDeltaG score, and RSA combined for substitution variants and DeltaDeltaG score alone for deletion variants.",
+    "keywords": [
+      "ACMG/AMP",
+      "AlphaMissense",
+      "BP4",
+      "PP3",
+      "TP53",
+      "bioinformatic predictions",
+      "protein stability",
+      "relative solvent accessibility",
+      "variant classification",
+      "DeltaDeltaG"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation, Missense/genetics",
+      "*Tumor Suppressor Protein p53/genetics/chemistry",
+      "*Computational Biology/methods",
+      "Protein Stability",
+      "Protein Folding",
+      "*Sequence Deletion/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rotenberg, Nitsan",
+        "Fortuno, Cristina",
+        "Varga, Matthew J",
+        "Chamberlin, Adam C",
+        "Ramadane-Morchadi, Lobna",
+        "Feng, Bing-Jian",
+        "de la Hoya, Miguel",
+        "Richardson, Marcy E",
+        "Spurdle, Amanda B"
+      ],
+      "short_names": [
+        "Rotenberg N",
+        "Fortuno C",
+        "Varga MJ",
+        "Chamberlin AC",
+        "Ramadane-Morchadi L",
+        "Feng BJ",
+        "de la Hoya M",
+        "Richardson ME",
+        "Spurdle AB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia; University of Queensland, Brisbane, QLD, Australia.",
+        "Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Molecular Oncology Laboratory, Hospital Clinico San Carlos, IdISSC (Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos), 28040 Madrid, Spain.",
+        "University of Utah Department of Dermatology, Salt Lake City, UT, USA; University of Utah Huntsman Cancer Institute, Salt Lake City, UT, USA.",
+        "Molecular Oncology Laboratory, Hospital Clinico San Carlos, IdISSC (Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos), 28040 Madrid, Spain.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia; University of Queensland, Brisbane, QLD, Australia. Electronic address: amanda.spurdle@qimrberghofer.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rotenberg, Nitsan",
+        "short_name": "Rotenberg N",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia; University of Queensland, Brisbane, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Fortuno, Cristina",
+        "short_name": "Fortuno C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia."
+        ]
+      },
+      {
+        "full_name": "Varga, Matthew J",
+        "short_name": "Varga MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Chamberlin, Adam C",
+        "short_name": "Chamberlin AC",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Ramadane-Morchadi, Lobna",
+        "short_name": "Ramadane-Morchadi L",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Oncology Laboratory, Hospital Clínico San Carlos, IdISSC (Instituto de Investigación Sanitaria del Hospital Clínico San Carlos), 28040 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Feng, Bing-Jian",
+        "short_name": "Feng BJ",
+        "identifiers": [],
+        "affiliations": [
+          "University of Utah Department of Dermatology, Salt Lake City, UT, USA; University of Utah Huntsman Cancer Institute, Salt Lake City, UT, USA."
+        ]
+      },
+      {
+        "full_name": "de la Hoya, Miguel",
+        "short_name": "de la Hoya M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Oncology Laboratory, Hospital Clínico San Carlos, IdISSC (Instituto de Investigación Sanitaria del Hospital Clínico San Carlos), 28040 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Richardson, Marcy E",
+        "short_name": "Richardson ME",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Spurdle, Amanda B",
+        "short_name": "Spurdle AB",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia; University of Queensland, Brisbane, QLD, Australia. Electronic address: amanda.spurdle@qimrberghofer.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of human genetics"
+    ],
+    "journal_abbrev": [
+      "Am J Hum Genet"
+    ],
+    "pub_date": "2025 May 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42327342",
+      "41749372",
+      "41358200",
+      "40233741"
+    ],
+    "refs": [
+      "40084623",
+      "38718835",
+      "37733863",
+      "37119820",
+      "37076566",
+      "34791371",
+      "34265844",
+      "33300245",
+      "32237272",
+      "30712981",
+      "30224644",
+      "30193102",
+      "29775997",
+      "29300386",
+      "29165669",
+      "29076577",
+      "28127402",
+      "27995669",
+      "25851949",
+      "25741868",
+      "25352545",
+      "24278298",
+      "21287615",
+      "19765975",
+      "17482644",
+      "17457049",
+      "16543939",
+      "16522644",
+      "16014699",
+      "15980494",
+      "15290653",
+      "12826609",
+      "10592235",
+      "7892171",
+      "7878469",
+      "6667333",
+      "2259385",
+      "1978757",
+      "1614522"
+    ],
+    "similar": [
+      "40233742",
+      "40233743",
+      "29775997",
+      "41809564",
+      "42199731",
+      "30840781",
+      "16522644",
+      "39440667",
+      "39430403",
+      "29580235",
+      "27356511",
+      "37084271",
+      "41126324",
+      "39780207",
+      "41786677",
+      "34198491",
+      "39676521",
+      "17113702",
+      "34768775",
+      "39180217",
+      "41383239",
+      "12606942",
+      "39140857",
+      "41492285",
+      "38815586",
+      "39030733",
+      "40910438",
+      "41840222",
+      "23621914",
+      "41246429",
+      "40127826",
+      "38211594",
+      "37733863",
+      "34273903",
+      "36865205",
+      "36413997",
+      "34063805",
+      "37961354",
+      "42159056",
+      "39720176",
+      "33300245",
+      "35524565",
+      "39096911",
+      "29394989",
+      "37961642",
+      "40708850",
+      "37953256",
+      "39595115",
+      "40565264",
+      "38087376",
+      "38271453",
+      "37201251",
+      "40570257",
+      "39392163",
+      "42069732",
+      "40084623",
+      "42063570",
+      "39840793",
+      "40337643",
+      "21480434",
+      "40869965",
+      "33766936",
+      "38508191",
+      "39345488",
+      "30311375",
+      "40464633",
+      "38396641",
+      "40806592",
+      "41419200",
+      "32750050",
+      "40758722",
+      "33909605",
+      "40225155",
+      "37352859",
+      "38905920",
+      "37873426",
+      "32958805",
+      "17370310",
+      "39706198",
+      "29664915",
+      "33378330",
+      "40967221",
+      "29069390",
+      "17073727",
+      "40486492",
+      "18387208",
+      "38199457",
+      "38849599",
+      "39142283",
+      "31979111",
+      "38452609",
+      "38744964",
+      "40907936",
+      "38910474",
+      "32881105",
+      "37119820",
+      "27964946",
+      "34955381",
+      "31243847",
+      "41944209"
+    ],
+    "review": [
+      "40233742",
+      "41126324",
+      "34063805"
+    ],
+    "pmc": [
+      "12120181"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0002-9297(25)00012-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40233742/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

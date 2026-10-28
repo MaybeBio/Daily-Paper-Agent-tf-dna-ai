@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-dh114",
+  "title": "Accurate prediction of ligand binding for a flexible protein using P-score ranking.",
+  "authors": "Peter E. G. F. Ibrahim; Fabio Zuccotto; Ulrich Zachariae; Ian Gilbert; Mike Bodkin",
+  "journal": "ChemRxiv",
+  "published_date": "2023-10-20",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用SuMD和DA-QM-FMO预测蛋白-配体结合，但对象为SARS-CoV-2蛋白酶与小分子，非蛋白质-DNA互作体系，方法虽涉及物理模拟但不可直接迁移至TF-DNA研究。",
+  "abstract": "Protein ligand binding prediction typically relies on docking methodologies and associated scoring functions to propose the binding mode of a ligand in a biological target. Significant challenges are associated with this approach, including the flexibility of the protein-ligand system, solvent-mediated interactions and associated entropy changes. In addition, scoring functions are only weakly accurate due to the short time required for calculating enthalpic and entropic binding interactions. The workflow described here attempts to address these limitations by combining Supervised Molecular Dynamics (SuMD) with Dynamical Averaging Quantum Mechanics Fragment Molecular Orbital (DA-QM-FMO). This is illustrated using a set of five ligands targeting the SARS-CoV-2 Papain-like protease protein. This combination significantly increased the ability to predict the experimental binding structure of protein-ligand complexes independent from the starting position of the ligands or the binding site conformation. We found that the predictive power could be enhanced by combining the residence time (SuMD) and interaction energies (DA-QM-FMO) as descriptors in a novel scoring function named the P-score.",
+  "abstract_zh": "蛋白质配体结合预测通常依赖于对接方法及相关评分函数，以提出配体在生物靶标中的结合模式。这种方法面临重大挑战，包括蛋白质-配体系统的柔性、溶剂介导的相互作用以及相关的熵变。此外，由于计算焓和熵结合相互作用所需时间较短，评分函数的准确性仅较弱。本文描述的工作流程旨在通过结合监督分子动力学 (Supervised Molecular Dynamics, SuMD) 和动态平均量子力学片段分子轨道 (Dynamical Averaging Quantum Mechanics Fragment Molecular Orbital, DA-QM-FMO) 来克服这些限制。这通过一组针对SARS-CoV-2木瓜蛋白酶样蛋白酶蛋白的五个配体进行说明。这种组合显著提高了预测蛋白质-配体复合物实验结合结构的能力，且不受配体起始位置或结合位点构象的影响。我们发现，通过将停留时间 (SuMD) 和相互作用能 (DA-QM-FMO) 作为描述符结合到一种名为P-score的新评分函数中，可以增强预测能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-dh114",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-dh114",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-dh114/index.html"
+}

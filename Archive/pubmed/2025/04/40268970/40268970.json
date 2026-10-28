@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40268970",
+    "doi": "10.1038/s41598-025-90828-0",
+    "title": "Neural network conditioned to produce thermophilic protein sequences can increase thermal stability."
+  },
+  "content": {
+    "abstract": "This work presents Neural Optimization for Melting-temperature Enabled by Leveraging Translation (NOMELT), a novel approach for designing and ranking high-temperature stable proteins using neural machine translation. The model, trained on over 4 million protein homologous pairs from organisms adapted to different temperatures, demonstrates promising capability in targeting thermal stability. A designed variant of the Drosophila melanogaster Engrailed Homeodomain shows a melting temperature increase of 15.5 K. Furthermore, NOMELT achieves zero-shot predictive capabilities in ranking experimental melting and half-activation temperatures across a number of protein families. It achieves this without requiring extensive homology data or massive training datasets as do existing zero-shot predictors by specifically learning thermophilicity, as opposed to all natural variation. These findings underscore the potential of leveraging organismal growth temperatures in context-dependent design of proteins for enhanced thermal stability.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Stability",
+      "Animals",
+      "Drosophila melanogaster",
+      "*Neural Networks, Computer",
+      "*Drosophila Proteins/chemistry/genetics",
+      "*Homeodomain Proteins/chemistry/genetics",
+      "Temperature",
+      "Amino Acid Sequence",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Komp, Evan",
+        "Phillips, Christian",
+        "Lee, Lauren M",
+        "Fallin, Shayna M",
+        "Alanzi, Humood N",
+        "Zorman, Marlo",
+        "McCully, Michelle E",
+        "Beck, David A C"
+      ],
+      "short_names": [
+        "Komp E",
+        "Phillips C",
+        "Lee LM",
+        "Fallin SM",
+        "Alanzi HN",
+        "Zorman M",
+        "McCully ME",
+        "Beck DAC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Chemical Engineering, University of Washington, Seattle, WA, USA. komp.evan@gmail.com.",
+        "Chemistry, University of Washington, Seattle, WA, USA.",
+        "Department of Biology, Santa Clara University, Santa Clara, CA, USA.",
+        "Department of Biology, Santa Clara University, Santa Clara, CA, USA.",
+        "Chemical Engineering, University of Washington, Seattle, WA, USA.",
+        "Chemical Engineering, University of Washington, Seattle, WA, USA.",
+        "Department of Biology, Santa Clara University, Santa Clara, CA, USA.",
+        "Chemical Engineering, University of Washington, Seattle, WA, USA. dacb@uw.edu.",
+        "eScience Institute, University of Washington, Seattle, WA, USA. dacb@uw.edu.",
+        "Computer Science, University of Washington, Seattle, WA, USA. dacb@uw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Komp, Evan",
+        "short_name": "Komp E",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Engineering, University of Washington, Seattle, WA, USA. komp.evan@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Phillips, Christian",
+        "short_name": "Phillips C",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Lauren M",
+        "short_name": "Lee LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Santa Clara University, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fallin, Shayna M",
+        "short_name": "Fallin SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Santa Clara University, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Alanzi, Humood N",
+        "short_name": "Alanzi HN",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Zorman, Marlo",
+        "short_name": "Zorman M",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "McCully, Michelle E",
+        "short_name": "McCully ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Santa Clara University, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Beck, David A C",
+        "short_name": "Beck DAC",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Engineering, University of Washington, Seattle, WA, USA. dacb@uw.edu.",
+          "eScience Institute, University of Washington, Seattle, WA, USA. dacb@uw.edu.",
+          "Computer Science, University of Washington, Seattle, WA, USA. dacb@uw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/24 00:28",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38365240",
+      "38034401",
+      "37942269",
+      "37805601",
+      "37695922",
+      "37580175",
+      "36927031",
+      "36647575",
+      "36377772",
+      "36108050",
+      "36077513",
+      "35618822",
+      "35348602",
+      "34416172",
+      "34265844",
+      "33744284",
+      "33647531",
+      "33248339",
+      "33166383",
+      "33125078",
+      "32989159",
+      "32847584",
+      "32587353",
+      "32469061",
+      "32020026",
+      "31905288",
+      "31371509",
+      "30979809",
+      "30759982",
+      "30250057",
+      "29035372",
+      "28953867",
+      "28092658",
+      "28040640",
+      "27819658",
+      "26754672",
+      "26402741",
+      "24889800",
+      "23012442",
+      "22328436",
+      "21941460",
+      "21500218",
+      "21377472",
+      "20718988",
+      "20235548",
+      "20159163",
+      "20061306",
+      "20003500",
+      "19304878",
+      "18599073",
+      "18553935",
+      "17628593",
+      "16120678",
+      "16111437",
+      "15283920",
+      "15029827",
+      "14604790",
+      "11087839",
+      "9918945",
+      "7849596",
+      "1438297"
+    ],
+    "similar": [
+      "40268970",
+      "17628593",
+      "11829512",
+      "38034401",
+      "19348939",
+      "18585360",
+      "36261883",
+      "26018075",
+      "17070676",
+      "9108369",
+      "17900877",
+      "26101839",
+      "23012442",
+      "16406070",
+      "16778079",
+      "14660693",
+      "9551094",
+      "18553935",
+      "16156660",
+      "12223400",
+      "32053778",
+      "21821154",
+      "11471237",
+      "12054883",
+      "15937930",
+      "19481089",
+      "38677012",
+      "7909851",
+      "12419257",
+      "16117662",
+      "18634873",
+      "14565439",
+      "26129990",
+      "15741348",
+      "15147763",
+      "18504607",
+      "11305907",
+      "9927754",
+      "19232326",
+      "25843630",
+      "11003663",
+      "12923178",
+      "25998254",
+      "9636163",
+      "20732315",
+      "7849596",
+      "12756170",
+      "11875653",
+      "30738927",
+      "38285937",
+      "31010135",
+      "21369923",
+      "16455680",
+      "23154412",
+      "17277370",
+      "16383657",
+      "12560098",
+      "9649440",
+      "19675130",
+      "20886739",
+      "10574758",
+      "11580276",
+      "9822383",
+      "26377945",
+      "38152979",
+      "8696974",
+      "24077301",
+      "21799919",
+      "9144767",
+      "7643404",
+      "18508761",
+      "9556579",
+      "30067846",
+      "8562421",
+      "12123607",
+      "23139817",
+      "14645536",
+      "26950647",
+      "23900252",
+      "16765059",
+      "16409378",
+      "11901122",
+      "7711388",
+      "8563624",
+      "12626758",
+      "16980977",
+      "25286318",
+      "11566109",
+      "12409462",
+      "17942685",
+      "7504178",
+      "23500466",
+      "31934860",
+      "11124901",
+      "11714268",
+      "12737810",
+      "1673924",
+      "26362765",
+      "11851425",
+      "11302705"
+    ],
+    "review": [
+      "40268970",
+      "17628593",
+      "8696974"
+    ],
+    "pmc": [
+      "12019596"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40268970",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-90828-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40268970/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

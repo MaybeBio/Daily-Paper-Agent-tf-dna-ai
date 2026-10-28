@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39730699",
+  "title": "Comparative evaluation of feature reduction methods for drug response prediction.",
+  "authors": "Firoozbakht, Farzaneh; Yousefi, Behnam; Tsoy, Olga; Baumbach, Jan; Schwikowski, Benno",
+  "journal": "Scientific reports",
+  "published_date": "2024-12-28",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该文比较特征降维方法用于药物反应预测，虽涉及转录因子活性但非蛋白质-DNA互作建模，且无AI/物理模拟方法聚焦结合机制，与本课题关联微弱。",
+  "abstract": "Personalized medicine aims to tailor medical treatments to individual patients, and predicting drug responses from molecular profiles using machine learning is crucial for this goal. However, the high dimensionality of the molecular profiles compared to the limited number of samples presents significant challenges. Knowledge-based feature selection methods are particularly suitable for drug response prediction, as they leverage biological insights to reduce dimensionality and improve model interpretability. This study presents the first comparative evaluation of nine different knowledge-based and data-driven feature reduction methods on cell line and tumor data. Our analysis employs six distinct machine learning models, with a total of more than 6,000 runs to ensure a robust evaluation. Our findings indicate that transcription factor activities outperform other methods in predicting drug responses, effectively distinguishing between sensitive and resistant tumors for seven of the 20 drugs evaluated.",
+  "abstract_zh": "个性化医疗旨在为个体患者量身定制治疗方案，而利用机器学习从分子谱中预测药物反应对这一目标至关重要。然而，与有限样本数量相比，分子谱的高维度性带来了显著挑战。基于知识的特征选择方法特别适用于药物反应预测，因为它们利用生物学见解来降低维度并提高模型可解释性。本研究首次对九种不同的基于知识和数据驱动的特征降维方法在细胞系和肿瘤数据上进行了比较评估。我们的分析采用了六种不同的机器学习模型，总计超过6,000次运行，以确保评估的稳健性。我们的研究结果表明，转录因子活性在预测药物反应方面优于其他方法，能有效区分所评估的20种药物中7种药物的敏感性和耐药性肿瘤。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39730699/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39730699/",
+  "paper_page_path": "papers/pubmed/39730699/index.html"
+}

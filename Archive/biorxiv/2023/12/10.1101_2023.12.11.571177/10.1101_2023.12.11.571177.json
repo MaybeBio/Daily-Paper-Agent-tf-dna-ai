@@ -1,0 +1,557 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.11.571177",
+  "title": "DNA-protein interaction is dominated by short anchoring elements",
+  "doi": "10.1101/2023.12.11.571177",
+  "abstract": "To understand the regulation of gene expression, it is essential to elucidate the binding mechanism of DNA binding domain (DBD) of transcription factors (TFs), and predict the location of transcription factor binding sites (TFBSs). For an exhaustive search of TFBSs, we have investigated four typical TFs with diverse origins, such as WRKY, PU.1, GLUCOCORTICOID RECEPTOR (GR), and MYC2 by using a newly developed method, KaScape. During KaScape experiments, we identified short sequences (3-4 bases) or “anchoring element” (AE) for the four TFs that dominated the bound population of DNA-DBD binding. We further developed the AEEscape (AE Energy landscape) algorithm to detect and confirm the AE and derived its binding energy landscape for all possible sequences. Our analysis of the energy landscape revealed an energetic funnel around the TFBS, which is related to the AE density gradient in the region surrounding the TFBS. Our results provide novel insights into the mechanism of TF binding to TFBSs.",
+  "authors": [
+    "Hong Chen",
+    "Yongping Xu",
+    "Hao Ge",
+    "Xiao-dong Su"
+  ],
+  "published_date": "2023-12-12",
+  "updated_date": "2023-12-12T13:45:20Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.11.571177",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.11.571177.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:02:09Z",
+        "timestamp": 1768507329164,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            12
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 60,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>To understand the regulation of gene expression, it is essential to elucidate the binding mechanism of DNA binding domain (DBD) of transcription factors (TFs), and predict the location of transcription factor binding sites (TFBSs). For an exhaustive search of TFBSs, we have investigated four typical TFs with diverse origins, such as WRKY, PU.1, GLUCOCORTICOID RECEPTOR (GR), and MYC2 by using a newly developed method, KaScape. During KaScape experiments, we identified short sequences (3-4 bases) or “anchoring element” (AE) for the four TFs that dominated the bound population of DNA-DBD binding. We further developed the AEEscape (AE Energy landscape) algorithm to detect and confirm the AE and derived its binding energy landscape for all possible sequences. Our analysis of the energy landscape revealed an energetic funnel around the TFBS, which is related to the AE density gradient in the region surrounding the TFBS. Our results provide novel insights into the mechanism of TF binding to TFBSs.</jats:p>",
+      "DOI": "10.1101/2023.12.11.571177",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            12
+          ]
+        ],
+        "date-time": "2023-12-12T13:45:20Z",
+        "timestamp": 1702388720000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DNA-protein interaction is dominated by short anchoring elements"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5712-857X",
+          "authenticated-orcid": false,
+          "given": "Hong",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yongping",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0404-5268",
+          "authenticated-orcid": false,
+          "given": "Hao",
+          "family": "Ge",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6948-2317",
+          "authenticated-orcid": false,
+          "given": "Xiao-dong",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-019-0287-x"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.2",
+          "first-page": "417",
+          "article-title": "Transcription factors: an overview",
+          "volume": "74",
+          "year": "1993",
+          "journal-title": "Int J Exp Pathol"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3242"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/10.9.2997"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "115",
+          "DOI": "10.1007/s40484-013-0012-4",
+          "article-title": "Modeling the specificity of protein-DNA interactions",
+          "volume": "1",
+          "year": "2013",
+          "journal-title": "Quant Biol"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.6",
+          "first-page": "2.15.11",
+          "article-title": "DNA Motif Databases and Their Uses",
+          "volume": "51",
+          "year": "2015",
+          "journal-title": "Curr Protoc Bioinformatics"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100552.109"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1131007"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-61779-292-2_6"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "16595",
+          "DOI": "10.1038/s41598-023-43426-x",
+          "article-title": "KaScape: a sequencing-based method for global characterization of protein-DNA binding affinity",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2003-5-1-201"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1315"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl372"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.genom.7.080505.115745"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-5-6"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki519"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti361"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.21",
+          "unstructured": "Barash, Y. , Elidan, G. , Friedman, N. and Kaplan, T. (2003), Proceedings of the seventh annual international conference on Research in computational molecular biology. Association for Computing Machinery, Berlin, Germany, pp. 28–37."
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "8484",
+          "DOI": "10.1038/s41598-019-44966-x",
+          "article-title": "Modeling in-vivo protein-DNA binding by combining multiple-instance learning with a hybrid deep neural network",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2020.12.001"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(70)90074-4"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00527a028"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0968-0004(82)90075-5"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.27"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "558",
+          "DOI": "10.1093/nar/gkx1220",
+          "article-title": "Energetic funnel facilitates facilitated diffusion",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2009.08.003"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky681"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "5273",
+          "DOI": "10.1038/s41467-022-32971-0",
+          "article-title": "Systematic analysis of low-affinity transcription factor binding site clusters in vitro and in vivo establishes their functional relevance",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2005.02.004"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "540",
+          "DOI": "10.1038/s41467-019-14217-8",
+          "article-title": "Eukaryotic transcription factors can track and control their target genes using DNA antennas",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.109.168103"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "eadd1250",
+          "DOI": "10.1126/science.add1250",
+          "article-title": "Short tandem repeats bind transcription factors to tune eukaryotic gene expression",
+          "volume": "381",
+          "year": "2023",
+          "journal-title": "Science"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "7323",
+          "DOI": "10.1039/D2CP04820E",
+          "article-title": "Molecular dynamics simulation-based trinucleotide and tetranucleotide level structural and energy characterization of the functional units of genomic DNA",
+          "volume": "25",
+          "year": "2023",
+          "journal-title": "Phys Chem Chem Phys"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx191"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkf578"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt718"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-0779(98)00182-9"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.16.00681"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2013.08.037"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2021.108742"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "290",
+          "DOI": "10.1038/s41477-020-0605-7",
+          "article-title": "Integrated multi-omics framework of the plant response to jasmonic acid",
+          "volume": "6",
+          "year": "2020",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13238-019-00670-0"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt732"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11103-008-9353-1"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1057"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "40",
+          "DOI": "10.7171/jbt.12-2302-004",
+          "article-title": "An efficient and cost-effective protocol for selecting transcription factor binding sites that reduces isotope usage",
+          "volume": "23",
+          "year": "2012",
+          "journal-title": "J Biomol Tech"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-13-215"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm955"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.53",
+          "first-page": "130",
+          "article-title": "Review of Different Sequence Motif Finding Algorithms",
+          "volume": "11",
+          "year": "2019",
+          "journal-title": "Avicenna J Med Biotechnol"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2010.01.044"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.03.006"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.11.041"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.05.029"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0549-5"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2016.12.007"
+        },
+        {
+          "key": "2023121409350688000_2023.12.11.571177v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.05.019"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.11.571177",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:39:09Z",
+        "timestamp": 1768455549000
+      },
+      "score": 89.45935,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.11.571177"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            12
+          ]
+        ]
+      },
+      "references-count": 60,
+      "URL": "https://doi.org/10.1101/2023.12.11.571177",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "41326335",
+    "doi": "10.1038/s41398-025-03775-9",
+    "title": "Computational biological analysis reveals that HIF-1 and FoxO signaling pathways influence cognitive impairment in patients with depression."
+  },
+  "content": {
+    "abstract": "Cognitive impairment, a common symptom in patients with depression, significantly affects social functioning. Currently, no recognized treatment exists for depression-related cognitive dysfunction. The study aimed to use computational biology methods to investigate the potential molecular mechanisms underlying cognitive impairment in depression and identify potential antidepressants that may mitigate this impairment. Targets associated with depression and cognitive impairment were obtained from GeneCards and OMIM. Overlapping disease targets were integrated to generate a PPI network, and hub targets were identified using network topology metrics. KEGG pathway enrichment analyses were conducted using the DAVID database. Finally, core targets enriched in key signaling pathways were virtually screened for interactions with antidepressants. Of the 1621 overlapping targets identified, 46 key targets were selected based on topological parameters in Cytoscape software of a KEGG enrichment analysis. The analysis revealed that the HIF-1 and FoxO signaling pathways may contribute to depression-induced cognitive impairment via 13 target genes. Virtual screening of these 13 core targets against various antidepressants identified mosapramine as having strong binding affinity to the core targets, including AKT3, EGFR, IL6, INS, MAPK1, MAPK3, and PIK3R1, with docking scores of -7.6 to -12.9 kcal/mol. Based on our results, the HIF-1 and FoxO signaling pathways may influence cognitive impairment through multiple targets, and mosapramine may alleviate cognitive impairment in patients with depression via these targets and pathways. These findings provide a foundation for the modification and optimization of antidepressant drugs to improve the treatment of cognitive impairment in patients with depression.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Signal Transduction/drug effects",
+      "*Cognitive Dysfunction/genetics/metabolism/etiology/drug therapy",
+      "Antidepressive Agents/pharmacology/therapeutic use",
+      "Computational Biology",
+      "*Depression/complications/drug therapy/genetics/metabolism",
+      "Protein Interaction Maps",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuo, Chuanjun",
+        "Zhang, Ying",
+        "Zhang, Qiuyu",
+        "Yang, Lei",
+        "Chen, Ximing",
+        "Ma, Xiaoyan",
+        "Li, Ranli",
+        "Wang, Lina",
+        "Tian, Hongjun",
+        "Mao, Fuqiang"
+      ],
+      "short_names": [
+        "Zhuo C",
+        "Zhang Y",
+        "Zhang Q",
+        "Yang L",
+        "Chen X",
+        "Ma X",
+        "Li R",
+        "Wang L",
+        "Tian H",
+        "Mao F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3793-550X",
+        "ORCID: 0009-0000-2794-6777",
+        "ORCID: 0000-0002-9466-3344",
+        "ORCID: 0009-0000-8349-1551",
+        "ORCID: 0009-0006-2438-6798"
+      ],
+      "affiliations": [
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China. zhuochuanjun@tmu.edu.cn.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China. zhuochuanjun@tmu.edu.cn.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Department of psychiatry, Tianjin Fourth Center Hospital, Tianjin 300040, China.",
+        "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+        "Department of Psychiatry and Psychology, College of Basic Medical Sciences, Tianjin Medical University, Tianjin, 300074, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuo, Chuanjun",
+        "short_name": "Zhuo C",
+        "identifiers": [
+          "0000-0002-3793-550X"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China. zhuochuanjun@tmu.edu.cn.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China. zhuochuanjun@tmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiuyu",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0009-0000-2794-6777"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lei",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0000-0002-9466-3344"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ximing",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0009-0000-8349-1551"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaoyan",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ranli",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lina",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Hongjun",
+        "short_name": "Tian H",
+        "identifiers": [
+          "0009-0006-2438-6798"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Department of psychiatry, Tianjin Fourth Center Hospital, Tianjin 300040, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Fuqiang",
+        "short_name": "Mao F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Biology and Computational Psychiatry (CBCP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP-Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, 300222, China.",
+          "Department of Psychiatry and Psychology, College of Basic Medical Sciences, Tianjin Medical University, Tianjin, 300074, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational psychiatry"
+    ],
+    "journal_abbrev": [
+      "Transl Psychiatry"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 01:00",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [
+      "42510625",
+      "42370305",
+      "42327728",
+      "42082461"
+    ],
+    "refs": [
+      "39717345",
+      "39419563",
+      "39349481",
+      "39173451",
+      "38992850",
+      "38861255",
+      "38848655",
+      "38603987",
+      "38321915",
+      "37819390",
+      "37776955",
+      "37740098",
+      "37492068",
+      "37433869",
+      "37100941",
+      "37008780",
+      "36845055",
+      "36499215",
+      "36396622",
+      "36305812",
+      "35935939",
+      "35434037",
+      "35422235",
+      "35303581",
+      "34697453",
+      "34423492",
+      "34391082",
+      "34312496",
+      "34278794",
+      "34075521",
+      "33907406",
+      "32621862",
+      "32532322",
+      "31975803",
+      "31820273",
+      "31801966",
+      "31601424",
+      "31068207",
+      "30397919",
+      "30395287",
+      "29149835",
+      "28654725",
+      "28533517",
+      "27924014",
+      "27322403",
+      "26995299",
+      "26995298",
+      "26290264",
+      "26271894",
+      "26073413",
+      "25547711",
+      "25525363",
+      "25176396",
+      "24851725",
+      "24215896",
+      "23652932",
+      "22781400",
+      "22525700",
+      "22293568",
+      "21163534",
+      "20932356",
+      "19401723",
+      "19171889",
+      "19133876",
+      "18936753",
+      "18853945",
+      "18823877",
+      "18406398",
+      "17303246",
+      "17275736",
+      "16221995",
+      "15950011",
+      "15207915",
+      "15110798",
+      "14597658",
+      "12734009",
+      "11457422",
+      "11106001",
+      "10775018",
+      "10592235"
+    ],
+    "similar": [
+      "41326335",
+      "40350911",
+      "39805787",
+      "40912487",
+      "40676786",
+      "40013962",
+      "36471978",
+      "37340752",
+      "41203698",
+      "37287284",
+      "40109471",
+      "37556042",
+      "40943141",
+      "34873575",
+      "39723533",
+      "40580693",
+      "38619514",
+      "32600331",
+      "34746302",
+      "39375405",
+      "40816715",
+      "38822120",
+      "37190808",
+      "38178684",
+      "39780215",
+      "40750966",
+      "40728954",
+      "38916485",
+      "41346967",
+      "39066538",
+      "38840248",
+      "39923957",
+      "40312983",
+      "39125368",
+      "40911004",
+      "38321908",
+      "38518857",
+      "41261616",
+      "40858065",
+      "38759074",
+      "39486672",
+      "39326136",
+      "39928767",
+      "39936089",
+      "40287116",
+      "33574879",
+      "39251712",
+      "37143282",
+      "36424782",
+      "40543694",
+      "40522420",
+      "41150817",
+      "41496113",
+      "40128047",
+      "37382018",
+      "41044331",
+      "38505421",
+      "40350824",
+      "40819186",
+      "39022084",
+      "35024051",
+      "38971780",
+      "40774882",
+      "40128040",
+      "38174416",
+      "41492010",
+      "38822913",
+      "40417754",
+      "39349481",
+      "39346898",
+      "40655169",
+      "40172736",
+      "38723920",
+      "34400264",
+      "39258670",
+      "38761877",
+      "36872279",
+      "39410900",
+      "33313323",
+      "40452077",
+      "40913651",
+      "40634934",
+      "33023593",
+      "41015074",
+      "40939458",
+      "32126522",
+      "38954241",
+      "40797463",
+      "37833363",
+      "39343107",
+      "40192506",
+      "40859027",
+      "39986574",
+      "38704482",
+      "40397259",
+      "39177391",
+      "36316904",
+      "41380442",
+      "33746571",
+      "33556477"
+    ],
+    "review": [
+      "41326335"
+    ],
+    "pmc": [
+      "12673102"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/depression.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Depression"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41398-025-03775-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41326335/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

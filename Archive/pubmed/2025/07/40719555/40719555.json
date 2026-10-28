@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "40719555",
+    "doi": "10.1021/acs.jcim.5c00756",
+    "title": "MutPNI: A Unified Model Architecture for Accurately Predicting the Effects of Mutations on Protein-Nucleic Acid Interactions."
+  },
+  "content": {
+    "abstract": "Missense mutations in DNA- and RNA-binding proteins can disrupt vital interaction networks and frequently lead to disease. However, current methods for predicting changes in binding affinity between protein-DNA and protein-RNA remain fragmented and inefficient. In this study, we introduce MutPNI, a novel general regression model that predicts the effects of missense mutations in DNA-binding and RNA-binding proteins. To achieve this, we integrate feature embeddings from pretrained ESM-2 and ProtT5 protein language models and incorporate energy terms derived from mutant protein structures. We then train the model through a Transformer-based encoder, enabling it to attain PCC values of 0.661 and 0.701 on DNA and RNA benchmark test sets, respectively. Furthermore, our final strategy relies on the same model architecture, rather than identical parameters, to predict mutations in both protein-DNA and protein-RNA complexes, thereby highlighting shared features as well as key distinctions in the two data sets. Finally, the method's high computational efficiency allows for scaling to large biological data sets, offering a robust platform for future research. The web server and data sets for MutPNI are publicly available at https://csbioinformatics.njust.edu.cn/mutpni/ for academic use.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/metabolism/chemistry",
+      "*RNA-Binding Proteins/genetics/metabolism/chemistry",
+      "*DNA-Binding Proteins/genetics/metabolism/chemistry",
+      "Protein Binding",
+      "*RNA/metabolism/chemistry",
+      "*Mutation",
+      "Models, Molecular",
+      "*Computational Biology/methods",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Zihao",
+        "Ge, Fang",
+        "Zhang, Ying",
+        "Yan, He",
+        "Liu, Yan",
+        "Zhu, Yi-Heng",
+        "Song, Jiangning",
+        "Yu, Dong-Jun"
+      ],
+      "short_names": [
+        "Yan Z",
+        "Ge F",
+        "Zhang Y",
+        "Yan H",
+        "Liu Y",
+        "Zhu YH",
+        "Song J",
+        "Yu DJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1792-0121",
+        "ORCID: 0000-0001-8031-9086",
+        "ORCID: 0000-0002-6786-8053"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China.",
+        "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, 9 Wenyuan Road, Nanjing 210023, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China.",
+        "College of Information Science and Technology & Artificial Intelligence, Nanjing Forestry University, Nanjing 210037, China.",
+        "Department of Computer Science, Yangzhou University, Yangzhou 225100, China.",
+        "College of Artificial Intelligence, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Monash Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Melbourne, VIC 3800, Australia.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Zihao",
+        "short_name": "Yan Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Fang",
+        "short_name": "Ge F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Flexible Electronics (LoFE) & Institute of Advanced Materials (IAM), Nanjing University of Posts & Telecommunications, 9 Wenyuan Road, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-1792-0121"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+        ]
+      },
+      {
+        "full_name": "Yan, He",
+        "short_name": "Yan H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Technology & Artificial Intelligence, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Yangzhou University, Yangzhou 225100, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yi-Heng",
+        "short_name": "Zhu YH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Artificial Intelligence, Nanjing Agricultural University, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jiangning",
+        "short_name": "Song J",
+        "identifiers": [
+          "0000-0001-8031-9086"
+        ],
+        "affiliations": [
+          "Monash Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Melbourne, VIC 3800, Australia."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [
+          "0000-0002-6786-8053"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Aug 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 19:00",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [
+      "42605800"
+    ],
+    "refs": [],
+    "similar": [
+      "40719555",
+      "39596413",
+      "33872313",
+      "34905768",
+      "39576589",
+      "40601256",
+      "28132027",
+      "40544633",
+      "28383703",
+      "39847079",
+      "25935161",
+      "25977296",
+      "39833102",
+      "19357098",
+      "38491248",
+      "30933978",
+      "30533007",
+      "39256728",
+      "31395671",
+      "30535108",
+      "40354482",
+      "29253082",
+      "25474259",
+      "40662818",
+      "32621227",
+      "28315749",
+      "22194614",
+      "41045511",
+      "17219397",
+      "29091991",
+      "14681388",
+      "32920048",
+      "40814145",
+      "24464995",
+      "32756481",
+      "26776208",
+      "29495575",
+      "32243832",
+      "25760613",
+      "15459285",
+      "37947586",
+      "26072475",
+      "40646507",
+      "8531718",
+      "39214282",
+      "8742852",
+      "29608705",
+      "25568280",
+      "23788679",
+      "22868682",
+      "22405571",
+      "19487258",
+      "23768997",
+      "11160927",
+      "41028220",
+      "40914361",
+      "33577689",
+      "40957717",
+      "24854765",
+      "11329270",
+      "25535242",
+      "7534505",
+      "21689482",
+      "17326079",
+      "20300450",
+      "34389843",
+      "21920789",
+      "19385696",
+      "9396800",
+      "30108179",
+      "29186336",
+      "26540053",
+      "27936518",
+      "21268114",
+      "39092854",
+      "28349426",
+      "40449614",
+      "22238259",
+      "25940624",
+      "22086767",
+      "39999571",
+      "39804669",
+      "39892680",
+      "39858648",
+      "22488669",
+      "24209914",
+      "38295475",
+      "38783112",
+      "32476604",
+      "36044786",
+      "41021316",
+      "29753757",
+      "39616716",
+      "27720642",
+      "19490865",
+      "40343467",
+      "18005254",
+      "33291838",
+      "40391089",
+      "40794872"
+    ],
+    "review": [
+      "40719555",
+      "40544633",
+      "25935161",
+      "39833102",
+      "29253082",
+      "28315749",
+      "32243832",
+      "8742852",
+      "22405571",
+      "23768997",
+      "7534505",
+      "26540053",
+      "39616716"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00756",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

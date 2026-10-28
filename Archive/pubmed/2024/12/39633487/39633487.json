@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "39633487",
+    "doi": "10.1186/s13073-024-01415-3",
+    "title": "SiRCle (Signature Regulatory Clustering) model integration reveals mechanisms of phenotype regulation in renal cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Clear cell renal cell carcinoma (ccRCC) tumours develop and progress via complex remodelling of the kidney epigenome, transcriptome, proteome and metabolome. Given the subsequent tumour and inter-patient heterogeneity, drug-based treatments report limited success, calling for multi-omics studies to extract regulatory relationships, and ultimately, to develop targeted therapies. Yet, methods for multi-omics integration to reveal mechanisms of phenotype regulation are lacking. METHODS: Here, we present SiRCle (Signature Regulatory Clustering), a method to integrate DNA methylation, RNA-seq and proteomics data at the gene level by following central dogma of biology, i.e. genetic information proceeds from DNA, to RNA, to protein. To identify regulatory clusters across the different omics layers, we group genes based on the layer where the gene's dysregulation first occurred. We combine the SiRCle clusters with a variational autoencoder (VAE) to reveal key features from omics' data for each SiRCle cluster and compare patient subpopulations in a ccRCC and a PanCan cohort. RESULTS: Applying SiRCle to a ccRCC cohort, we showed that glycolysis is upregulated by DNA hypomethylation, whilst mitochondrial enzymes and respiratory chain complexes are translationally suppressed. Additionally, we identify metabolic enzymes associated with survival along with the possible molecular driver behind the gene's perturbations. By using the VAE to integrate omics' data followed by statistical comparisons between tumour stages on the integrated space, we found a stage-dependent downregulation of proximal renal tubule genes, hinting at a loss of cellular identity in cancer cells. We also identified the regulatory layers responsible for their suppression. Lastly, we applied SiRCle to a PanCan cohort and found common signatures across ccRCC and PanCan in addition to the regulatory layer that defines tissue identity. CONCLUSIONS: Our results highlight SiRCle's ability to reveal mechanisms of phenotype regulation in cancer, both specifically in ccRCC and broadly in a PanCan context. SiRCle ranks genes according to biological features. https://github.com/ArianeMora/SiRCle_multiomics_integration .",
+    "keywords": [
+      "Clear cell renal cell carcinoma",
+      "Integration",
+      "Machine learning",
+      "Metabolism",
+      "Multi-omics",
+      "PanCan",
+      "Regulation",
+      "Variational autoencoder"
+    ],
+    "mesh_terms": [
+      "Phenotype",
+      "*Kidney Neoplasms/genetics/metabolism/pathology",
+      "Carcinoma, Renal Cell/genetics/metabolism",
+      "Humans",
+      "*Gene Expression Regulation, Neoplastic",
+      "Transcription Factors/metabolism",
+      "Genes, Neoplasm",
+      "Neoplasm Staging",
+      "Statistics as Topic",
+      "Cohort Studies",
+      "Metabolomics",
+      "Proteomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mora, Ariane",
+        "Schmidt, Christina",
+        "Balderson, Brad",
+        "Frezza, Christian",
+        "Boden, Mikael"
+      ],
+      "short_names": [
+        "Mora A",
+        "Schmidt C",
+        "Balderson B",
+        "Frezza C",
+        "Boden M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3293-7397"
+      ],
+      "affiliations": [
+        "School of Chemistry and Molecular Biosciences, University of Queensland, Molecular Biosciences Building 76, St Lucia, QLD, 4072, Australia.",
+        "Medical Research Council Cancer Unit, Hutchison/MRC Research Centre, University of Cambridge, Cambridge Biomedical Campus, Box 197, Cambridge, CB2 0X2, UK.",
+        "University of Cologne, Faculty of Medicine and University Hospital Cologne, Institute for Metabolomics in Ageing, Cluster of Excellence Cellular Stress Responses in Aging-associated Diseases (CECAD), Joseph-Stelzmann-Str. 26, Cologne, 50931, Germany.",
+        "School of Chemistry and Molecular Biosciences, University of Queensland, Molecular Biosciences Building 76, St Lucia, QLD, 4072, Australia.",
+        "University of Cologne, Faculty of Medicine and University Hospital Cologne, Institute for Metabolomics in Ageing, Cluster of Excellence Cellular Stress Responses in Aging-associated Diseases (CECAD), Joseph-Stelzmann-Str. 26, Cologne, 50931, Germany. christian.frezza@uni-koeln.de.",
+        "University of Cologne, Faculty of Mathematics and Natural Sciences, Institute of Genetics, Cluster of Excellence Cellular Stress Responses in Aging-associated Diseases (CECAD), Cologne, Germany. christian.frezza@uni-koeln.de.",
+        "School of Chemistry and Molecular Biosciences, University of Queensland, Molecular Biosciences Building 76, St Lucia, QLD, 4072, Australia. m.boden@uq.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mora, Ariane",
+        "short_name": "Mora A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, University of Queensland, Molecular Biosciences Building 76, St Lucia, QLD, 4072, Australia."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Christina",
+        "short_name": "Schmidt C",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Cancer Unit, Hutchison/MRC Research Centre, University of Cambridge, Cambridge Biomedical Campus, Box 197, Cambridge, CB2 0X2, UK.",
+          "University of Cologne, Faculty of Medicine and University Hospital Cologne, Institute for Metabolomics in Ageing, Cluster of Excellence Cellular Stress Responses in Aging-associated Diseases (CECAD), Joseph-Stelzmann-Str. 26, Cologne, 50931, Germany."
+        ]
+      },
+      {
+        "full_name": "Balderson, Brad",
+        "short_name": "Balderson B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, University of Queensland, Molecular Biosciences Building 76, St Lucia, QLD, 4072, Australia."
+        ]
+      },
+      {
+        "full_name": "Frezza, Christian",
+        "short_name": "Frezza C",
+        "identifiers": [
+          "0000-0002-3293-7397"
+        ],
+        "affiliations": [
+          "University of Cologne, Faculty of Medicine and University Hospital Cologne, Institute for Metabolomics in Ageing, Cluster of Excellence Cellular Stress Responses in Aging-associated Diseases (CECAD), Joseph-Stelzmann-Str. 26, Cologne, 50931, Germany. christian.frezza@uni-koeln.de.",
+          "University of Cologne, Faculty of Mathematics and Natural Sciences, Institute of Genetics, Cluster of Excellence Cellular Stress Responses in Aging-associated Diseases (CECAD), Cologne, Germany. christian.frezza@uni-koeln.de."
+        ]
+      },
+      {
+        "full_name": "Bodén, Mikael",
+        "short_name": "Bodén M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, University of Queensland, Molecular Biosciences Building 76, St Lucia, QLD, 4072, Australia. m.boden@uq.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome medicine"
+    ],
+    "journal_abbrev": [
+      "Genome Med"
+    ],
+    "pub_date": "2024 Dec 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/05 06:23",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "42608578",
+      "42140916",
+      "42043943",
+      "41213938",
+      "40890536",
+      "38386268"
+    ],
+    "refs": [
+      "37405921",
+      "36725887",
+      "36563681",
+      "35474667",
+      "35440542",
+      "35048973",
+      "34534465",
+      "34473315",
+      "34358469",
+      "33861994",
+      "33417831",
+      "33402734",
+      "33270910",
+      "33200787",
+      "33144689",
+      "33139243",
+      "32649874",
+      "32543653",
+      "32370188",
+      "32195169",
+      "31921281",
+      "31755929",
+      "31728204",
+      "31675502",
+      "31668768",
+      "31570620",
+      "31340985",
+      "31312515",
+      "31312210",
+      "31227599",
+      "31114875",
+      "30562943",
+      "30504886",
+      "30413482",
+      "30372397",
+      "29884221",
+      "29617669",
+      "29218871",
+      "29099853",
+      "28718431",
+      "28536930",
+      "28480903",
+      "28459819",
+      "28349958",
+      "28121507",
+      "27721378",
+      "27694978",
+      "27112207",
+      "26766592",
+      "26436686",
+      "25873244",
+      "25779055",
+      "25679508",
+      "25605792",
+      "25516281",
+      "25387056",
+      "25383517",
+      "25043030",
+      "24550497",
+      "23745156",
+      "23641065",
+      "22610075",
+      "22112490",
+      "21849978",
+      "21221095",
+      "19759197",
+      "17092632",
+      "15015753",
+      "4913914"
+    ],
+    "similar": [
+      "39633487",
+      "40642093",
+      "34795663",
+      "38944814",
+      "30838877",
+      "41601657",
+      "33502086",
+      "41981779",
+      "40723891",
+      "41999263",
+      "40243888",
+      "41403935",
+      "41663022",
+      "39809381",
+      "30143382",
+      "32323803",
+      "30616081",
+      "41286149",
+      "27705920",
+      "33836688",
+      "41135615",
+      "28754676",
+      "38994370",
+      "41405963",
+      "41898571",
+      "38970690",
+      "27128972",
+      "41501120",
+      "41591631",
+      "30538212",
+      "38061153",
+      "33803184",
+      "39348357",
+      "23841900",
+      "25368253",
+      "40522863",
+      "41863682",
+      "38953023",
+      "32807776",
+      "38928496",
+      "40539074",
+      "25047176",
+      "25126716",
+      "35586183",
+      "37608295",
+      "32815150",
+      "23444225",
+      "40413354",
+      "38440906",
+      "38659199",
+      "41568676",
+      "42038475",
+      "33647481",
+      "32567187",
+      "40016772",
+      "33795526",
+      "31813279",
+      "24094887",
+      "35422048",
+      "20502531",
+      "40954501",
+      "34331598",
+      "41088271",
+      "39797954",
+      "39799252",
+      "25867368",
+      "31491435",
+      "41050079",
+      "31390578",
+      "31112866",
+      "39707545",
+      "37676078",
+      "42003923",
+      "28349447",
+      "39160196",
+      "33223511",
+      "29534679",
+      "39614426",
+      "33761933",
+      "34237133",
+      "41476960",
+      "33691743",
+      "39684640",
+      "33628845",
+      "32560659",
+      "35876041",
+      "25970749",
+      "30642274",
+      "40335662",
+      "41213938",
+      "25337221",
+      "41846920",
+      "30070687",
+      "29192325",
+      "39840068",
+      "37438709",
+      "36607615",
+      "41357761",
+      "31133033",
+      "19401348"
+    ],
+    "review": [
+      "39633487",
+      "33803184",
+      "23841900",
+      "25867368"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-024-01415-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39633487/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

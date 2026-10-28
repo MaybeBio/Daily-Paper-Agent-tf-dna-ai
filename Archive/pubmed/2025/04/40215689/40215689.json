@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "40215689",
+    "doi": "10.1016/j.ecoenv.2025.118173",
+    "title": "Environmental toxicant 2,3,7,8-tetrachlorodibenzo-p-dioxin induces non-obstructive azoospermia: New insights from network toxicology, integrated machine learning, and biomolecular modeling."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: As industrial pollution intensifies, global male semen quality has been declining at a rate of 2.64 % per year in the 21st century. Among the various types of infertility, non-obstructive azoospermia (NOA) is the most severe and is closely associated with exposure to environmental toxins. The molecular mechanisms by which 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), a typical persistent organic pollutant, induces NOA have yet to be systematically elucidated. METHODS: This study employed the single-sample Gene Set Enrichment Analysis (ssGSEA) method to identify key toxicological pathways and constructed a diagnostic model based on 113 machine learning algorithms. By integrating Weighted Gene Co-expression Network Analysis (WGCNA) and single-cell analysis, we identified hub genes associated with the Sertoli Cell-Only Syndrome (SCOS) subtype. Finally, biomolecular modeling was conducted to validate the binding efficacy of the hub genes with TCDD. RESULTS: Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis based on the ssGSEA method indicated that TCDD may disrupt spermatogenesis by activating the Tumor Necrosis Factor (TNF) and Mitogen-Activated Protein Kinase (MAPK) signaling pathways while inhibiting the Vascular Endothelial Growth Factor (VEGF) signaling pathway, ultimately leading to NOA. Through the integration of machine learning techniques, 5 hub genes (AUC > 0.7) induced by TCDD and associated with NOA were identified: Androgen receptor (AR), Chromodomain Helicase DNA-Binding Protein 1 (CHD1), Discoidin Domain Receptor Tyrosine Kinase 2 (DDR2), Retinoic Acid Receptor-Related Orphan Receptor Alpha (RORA), and Glutamate Ionotropic Receptor AMPA Type Subunit 1 (GRIA1). WGCNA and single-cell analysis revealed that AR and DDR2 were specifically expressed in the testicular tissues of NOA patients and were closely associated with SCOS (p < 0.05). Immune infiltration analysis suggested that TCDD induces abnormal infiltration of various immune cells, indicating its close relationship with immune inflammatory responses (p < 0.05). Biomolecular modeling further demonstrated a strong binding affinity between AR and TCDD (∆G = -8.3 kcal.mol(-)(1), E(total) = -37(.)79 kcal.mol(-)(1)), highlighting the critical role of AR in TCDD-induced NOA. CONCLUSIONS: This study reveals the potential molecular mechanisms by which TCDD induces NOA, providing new targets for the development of diagnostic and therapeutic strategies.",
+    "keywords": [
+      "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+      "Biomolecular Modeling",
+      "Machine Learning",
+      "Network Toxicology",
+      "Non-Obstructive Azoospermia"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Machine Learning",
+      "*Azoospermia/chemically induced/genetics",
+      "*Polychlorinated Dibenzodioxins/toxicity",
+      "Humans",
+      "*Environmental Pollutants/toxicity",
+      "Models, Biological",
+      "Gene Regulatory Networks/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Lei",
+        "Chen, Shuai",
+        "Fu, Wei",
+        "Lin, Xuyao",
+        "Zhang, Fugang",
+        "Qin, Guozheng",
+        "Yuan, Zhuojun",
+        "Huang, Bin"
+      ],
+      "short_names": [
+        "Xu L",
+        "Chen S",
+        "Fu W",
+        "Lin X",
+        "Zhang F",
+        "Qin G",
+        "Yuan Z",
+        "Huang B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan 650500, China. Electronic address: xulei@ynucm.edu.cn.",
+        "The First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan 650500, China. Electronic address: chenshuai@ynutcm.edu.cn.",
+        "Shenzhen Bao'an Traditional Chinese Medicine Hospital, Guangzhou University of Chinese Medicine, Shenzhen 518133, China. Electronic address: fuwei84@gzucm.edu.cn.",
+        "The First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan 650500, China. Electronic address: linxuyao@ynucm.edu.cn.",
+        "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Yunnan Provincial Hospital of Chinese Medicine, Kunming, Yunnan 650021, China. Electronic address: bigtree0912@163.com.",
+        "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Yunnan Provincial Hospital of Chinese Medicine, Kunming, Yunnan 650021, China. Electronic address: guozhengqin@163.com.",
+        "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Yunnan Provincial Hospital of Chinese Medicine, Kunming, Yunnan 650021, China. Electronic address: 13888041916@163.com.",
+        "The First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan 650500, China; School of Pharmaceutical Sciences, Hunan University of Medicine, Huaihua, Hunan 418000, China. Electronic address: huangbin@ynucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan 650500, China. Electronic address: xulei@ynucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuai",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan 650500, China. Electronic address: chenshuai@ynutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fu, Wei",
+        "short_name": "Fu W",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Bao'an Traditional Chinese Medicine Hospital, Guangzhou University of Chinese Medicine, Shenzhen 518133, China. Electronic address: fuwei84@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Xuyao",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan 650500, China. Electronic address: linxuyao@ynucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fugang",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Yunnan Provincial Hospital of Chinese Medicine, Kunming, Yunnan 650021, China. Electronic address: bigtree0912@163.com."
+        ]
+      },
+      {
+        "full_name": "Qin, Guozheng",
+        "short_name": "Qin G",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Yunnan Provincial Hospital of Chinese Medicine, Kunming, Yunnan 650021, China. Electronic address: guozhengqin@163.com."
+        ]
+      },
+      {
+        "full_name": "Yuan, Zhuojun",
+        "short_name": "Yuan Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Yunnan Provincial Hospital of Chinese Medicine, Kunming, Yunnan 650021, China. Electronic address: 13888041916@163.com."
+        ]
+      },
+      {
+        "full_name": "Huang, Bin",
+        "short_name": "Huang B",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan 650500, China; School of Pharmaceutical Sciences, Hunan University of Medicine, Huaihua, Hunan 418000, China. Electronic address: huangbin@ynucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2025 Apr 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/12 00:42",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "42530569",
+      "42088650",
+      "41938534",
+      "41815139",
+      "41155851",
+      "40671236"
+    ],
+    "refs": [],
+    "similar": [
+      "40215689",
+      "39391879",
+      "37854191",
+      "36506310",
+      "39506588",
+      "37334314",
+      "36819497",
+      "25216946",
+      "37549510",
+      "27288597",
+      "34192390",
+      "33602558",
+      "24673440",
+      "37116198",
+      "36945018",
+      "31125047",
+      "37283758",
+      "33503546",
+      "28302560",
+      "33532314",
+      "32735753",
+      "39952966",
+      "33621950",
+      "31775841",
+      "24231000",
+      "36753968",
+      "16835633",
+      "23969120",
+      "27913140",
+      "39093776",
+      "39662639",
+      "33868362",
+      "39472682",
+      "31216422",
+      "23117151",
+      "28699682",
+      "26232522",
+      "29885354",
+      "32538428",
+      "21748585",
+      "38701725",
+      "15761253",
+      "37660771",
+      "11750091",
+      "14629743",
+      "17934341",
+      "24919724",
+      "37290064",
+      "28784202",
+      "15703262",
+      "20181658",
+      "12111005",
+      "24587053",
+      "19182260",
+      "23503944",
+      "34020259",
+      "39933234",
+      "34738918",
+      "25064398",
+      "31007129",
+      "30051472",
+      "11222880",
+      "34429122",
+      "17669606",
+      "37086653",
+      "38902567",
+      "12151645",
+      "8937476",
+      "35219767",
+      "28049042",
+      "30269365",
+      "17337447",
+      "34803904",
+      "12878042",
+      "15056816",
+      "11046109",
+      "31550799",
+      "36293429",
+      "15564318",
+      "38858625",
+      "33113971",
+      "39720712",
+      "12377990",
+      "35721721",
+      "22762285",
+      "35715550",
+      "39978740",
+      "12107651",
+      "34420467",
+      "31732351",
+      "20971882",
+      "20123757",
+      "35833143",
+      "23584357",
+      "14698564",
+      "40280502",
+      "37227814",
+      "9787404",
+      "12128104",
+      "31961203"
+    ],
+    "review": [
+      "40215689",
+      "34803904"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(25)00509-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

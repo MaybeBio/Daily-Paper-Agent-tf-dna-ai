@@ -1,0 +1,240 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.28.482344",
+  "title": "Data-driven large-scale genomic analysis reveals an intricate phylogenetic and functional landscape in J-domain proteins",
+  "doi": "10.1101/2022.02.28.482344",
+  "abstract": "The 70 kDalton Heat shock protein (Hsp70) chaperone system is emerging as a central hub of the proteostasis network that helps maintain protein homeostasis in all organisms. The recruitment of Hsp70 to perform a vast array of different cellular functions is regulated by a family of co-chaperones known as J-domain proteins (JDP) that bear a small namesake J-domain, which is required to interact and drive the ATPase cycle of Hsp70s. Both prokaryotic and eukaryotic JDPs display staggering diversity in domain architecture (besides the ubiquitous J-domain), function, and cell localization. On the contrary, a relatively small number of Hsp70 paralogs exist in cells, suggesting a high degree of specificity, but also promiscuity, in the partnering between JDPs and Hsp70s. Very little is known about the JDP family, despite their essential role in cellular proteostasis, development, and the link to a broad range of human diseases. The number of JDP gene sequences identified across all kingdoms as a consequence of advancements in sequencing technology has exponentially increased, where it is now beyond the ability of careful manual curation. In this work, we first provide a broad overview of the JDP repertoire accessible from public databases, and then we use an automated classification scheme, based on Artificial Neural Networks (ANNs), to demonstrate that the sequences of J-domains carry sufficient discriminatory information to recover with high reliability the phylogeny, localization, and domain composition of the corresponding full-length JDP. By harnessing the interpretability of the ANNs, we find that many of the discriminatory sequence positions match to residues that form the interaction interface between the J-domain and Hsp70. This reveals that key residues within the J-domains have coevolved with their obligatory Hsp70 partners to build chaperone circuits for specific functions in cells.",
+  "authors": [
+    "Malinverni D",
+    "Zamuner S",
+    "Rebeaud ME",
+    "Barducci A",
+    "Nillegoda NB",
+    "De Los Rios P"
+  ],
+  "published_date": "2022-03-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.28.482344",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.28.482344.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR463560",
+    "raw_record": {
+      "id": "PPR463560",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR463560"
+        ]
+      },
+      "doi": "10.1101/2022.02.28.482344",
+      "title": "Data-driven large-scale genomic analysis reveals an intricate phylogenetic and functional landscape in J-domain proteins",
+      "authorString": "Malinverni D, Zamuner S, Rebeaud ME, Barducci A, Nillegoda NB, De Los Rios P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Malinverni D",
+            "lastName": "Malinverni",
+            "firstName": "Duccio",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural Biology and Center for Data Driven Discovery, St Jude Children's Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zamuner S",
+            "lastName": "Zamuner",
+            "firstName": "Stefano",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physics, School of Basic Sciences, École Polytechnique Fédérale de Lausanne – EPFL, CH-1015 Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rebeaud ME",
+            "lastName": "Rebeaud",
+            "firstName": "Mathieu",
+            "initials": "ME",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9511-1958"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physics, School of Basic Sciences, École Polytechnique Fédérale de Lausanne – EPFL, CH-1015 Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barducci A",
+            "lastName": "Barducci",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1911-8039"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nillegoda NB",
+            "lastName": "Nillegoda",
+            "firstName": "Nadinath",
+            "initials": "NB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Australian Regenerative Medicine Institute (ARMI), Monash University, Melbourne, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Centre for Dementia and Brain Repair at the Australian Regenerative Medicine Institute, Monash University, Melbourne, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "De Los Rios P",
+            "lastName": "De Los Rios",
+            "firstName": "Paolo",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physics, School of Basic Sciences, École Polytechnique Fédérale de Lausanne – EPFL, CH-1015 Switzerland"
+                },
+                {
+                  "affiliation": "Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne – EPFL, CH-1015 Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9511-1958"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1911-8039"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The 70 kDalton Heat shock protein (Hsp70) chaperone system is emerging as a central hub of the proteostasis network that helps maintain protein homeostasis in all organisms. The recruitment of Hsp70 to perform a vast array of different cellular functions is regulated by a family of co-chaperones known as J-domain proteins (JDP) that bear a small namesake J-domain, which is required to interact and drive the ATPase cycle of Hsp70s. Both prokaryotic and eukaryotic JDPs display staggering diversity in domain architecture (besides the ubiquitous J-domain), function, and cell localization. On the contrary, a relatively small number of Hsp70 paralogs exist in cells, suggesting a high degree of specificity, but also promiscuity, in the partnering between JDPs and Hsp70s. Very little is known about the JDP family, despite their essential role in cellular proteostasis, development, and the link to a broad range of human diseases. The number of JDP gene sequences identified across all kingdoms as a consequence of advancements in sequencing technology has exponentially increased, where it is now beyond the ability of careful manual curation. In this work, we first provide a broad overview of the JDP repertoire accessible from public databases, and then we use an automated classification scheme, based on Artificial Neural Networks (ANNs), to demonstrate that the sequences of J-domains carry sufficient discriminatory information to recover with high reliability the phylogeny, localization, and domain composition of the corresponding full-length JDP. By harnessing the interpretability of the ANNs, we find that many of the discriminatory sequence positions match to residues that form the interaction interface between the J-domain and Hsp70. This reveals that key residues within the J-domains have coevolved with their obligatory Hsp70 partners to build chaperone circuits for specific functions in cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/12/2022.02.28.482344.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.28.482344"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR463560"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR463560&type=FILE&fileName=EMS144378-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37523524",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. 2023 Aug;120(32):e2218217120",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS144378",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-03-04",
+      "firstPublicationDate": "2022-03-02",
+      "firstIndexDate": "2022-03-04",
+      "fullTextReceivedDate": "2022-11-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

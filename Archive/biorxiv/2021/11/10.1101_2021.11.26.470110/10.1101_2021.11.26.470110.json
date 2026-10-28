@@ -1,0 +1,144 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.11.26.470110",
+  "title": "AlphaFill: enriching the AlphaFold models with ligands and co-factors",
+  "doi": "10.1101/2021.11.26.470110",
+  "abstract": "Artificial intelligence (AI) methods for constructing structural models of proteins on the basis of their sequence are having a transformative effect in biomolecular sciences. The AlphaFold protein structure database makes available hundreds of thousands of protein structures. However, all these structures lack cofactors essential for their structural integrity and molecular function (e.g. hemoglobin lacks a bound heme), key ions essential for structural integrity (e.g. zinc-finger motifs) or catalysis (e.g. Ca 2+ or Zn 2+ in metalloproteases), and ligands that are important for biological function (e.g. kinase structures lack ADP or ATP). Here, we present AlphaFill, an algorithm based on sequence and structure similarity, to “transplant” such “missing” small molecules and ions from experimentally determined structures to predicted protein models. These publicly available structural annotations are mapped to predicted protein models, to help scientists interpret biological function and design experiments.",
+  "authors": [
+    "Hekkelman ML",
+    "de Vries I",
+    "Joosten RP",
+    "Perrakis A"
+  ],
+  "published_date": "2021-11-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.11.26.470110",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.11.26.470110.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR425490",
+    "raw_record": {
+      "id": "PPR425490",
+      "source": "PPR",
+      "doi": "10.1101/2021.11.26.470110",
+      "title": "AlphaFill: enriching the AlphaFold models with ligands and co-factors",
+      "authorString": "Hekkelman ML, de Vries I, Joosten RP, Perrakis A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hekkelman ML",
+            "lastName": "Hekkelman",
+            "firstName": "Maarten",
+            "initials": "ML"
+          },
+          {
+            "fullName": "de Vries I",
+            "lastName": "de Vries",
+            "firstName": "Ida",
+            "initials": "I"
+          },
+          {
+            "fullName": "Joosten RP",
+            "lastName": "Joosten",
+            "firstName": "Robbie",
+            "initials": "RP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2323-2686"
+            }
+          },
+          {
+            "fullName": "Perrakis A",
+            "lastName": "Perrakis",
+            "firstName": "Anastassis",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1151-6227"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1151-6227"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2323-2686"
+          }
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Artificial intelligence (AI) methods for constructing structural models of proteins on the basis of their sequence are having a transformative effect in biomolecular sciences. The AlphaFold protein structure database makes available hundreds of thousands of protein structures. However, all these structures lack cofactors essential for their structural integrity and molecular function (e.g. hemoglobin lacks a bound heme), key ions essential for structural integrity (e.g. zinc-finger motifs) or catalysis (e.g. Ca  2+ or Zn  2+ in metalloproteases), and ligands that are important for biological function (e.g. kinase structures lack ADP or ATP). Here, we present AlphaFill, an algorithm based on sequence and structure similarity, to “transplant” such “missing” small molecules and ions from experimentally determined structures to predicted protein models. These publicly available structural annotations are mapped to predicted protein models, to help scientists interpret biological function and design experiments.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/11/27/2021.11.26.470110.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.11.26.470110"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36424442",
+            "reference": "Nature methods. 2023 Feb;20(2):205-213",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 10,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-11-28",
+      "firstPublicationDate": "2021-11-27",
+      "firstIndexDate": "2021-11-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

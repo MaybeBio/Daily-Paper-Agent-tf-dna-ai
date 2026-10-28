@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.27.605418",
+  "title": "Nucleotide dependency analysis of DNA language models reveals genomic functional elements",
+  "authors": "Tomaz da Silva P; Karollus A; Hingerl J; Galindez G; Wagner N; Hernandez-Alias X; Incarnato D; Gagneur J",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-27",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过DNA语言模型计算核苷酸依赖性图谱，用于识别转录因子结合位点等基因组功能元件，虽非直接建模TF-DNA三维互作，但方法可迁移至TF-DNA结合位点预测，与课题高度相关。",
+  "abstract": "Deciphering how nucleotides in genomes encode regulatory instructions and molecular machines is a long-standing goal in biology. DNA language models (LMs) implicitly capture functional elements and their organization from genomic sequences alone by modeling probabilities of each nucleotide given its sequence context. However, using DNA LMs for discovering functional genomic elements has been challenging due to the lack of interpretable methods. Here, we introduce nucleotide dependencies which quantify how nucleotide substitutions at one genomic position affect the probabilities of nucleotides at other positions. We generated genome-wide maps of pairwise nucleotide dependencies within kilobase ranges for animal, fungal, and bacterial species. We show that nucleotide dependencies indicate deleteriousness of human genetic variants more effectively than sequence alignment and DNA LM reconstruction. Regulatory elements appear as dense blocks in dependency maps, enabling the systematic identification of transcription factor binding sites as accurately as models trained on experimental binding data. Nucleotide dependencies also highlight bases in contact within RNA structures, including pseudoknots and tertiary structure contacts, with remarkable accuracy. This led to the discovery of four novel, experimentally validated RNA structures in Escherichia coli. Finally, using dependency maps, we reveal critical limitations of several DNA LM architectures and training sequence selection strategies by benchmarking and visual diagnosis. Altogether, nucleotide dependency analysis opens a new avenue for discovering and studying functional elements and their interactions in genomes.",
+  "abstract_zh": "解析基因组中核苷酸如何编码调控指令和分子机器是生物学中长期追求的目标。DNA语言模型（LMs）通过仅基于基因组序列，对每个核苷酸在其序列上下文中的概率进行建模，隐式捕获功能元件及其组织。然而，由于缺乏可解释的方法，使用DNA LMs发现功能性基因组元件一直具有挑战性。在此，我们引入核苷酸依赖性，其量化一个基因组位置的核苷酸替换如何影响其他位置核苷酸的概率。我们为动物、真菌和细菌物种生成了千碱基范围内成对核苷酸依赖性的全基因组图谱。我们表明，核苷酸依赖性在指示人类遗传变异的致病性方面比序列比对和DNA LM重建更有效。调控元件在依赖性图谱中表现为密集区块，使得转录因子结合位点的系统识别能够达到与基于实验结合数据训练的模型相当的准确性。核苷酸依赖性还以显著准确性突出RNA结构中接触的碱基，包括假结和三级结构接触。这导致在大肠杆菌中发现了四个新颖且经实验验证的RNA结构。最后，利用依赖性图谱，我们通过基准测试和视觉诊断揭示了多种DNA LM架构和训练序列选择策略的关键局限性。总之，核苷酸依赖性分析为发现和研究基因组中的功能元件及其相互作用开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.27.605418",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.27.605418",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.27.605418/index.html"
+}

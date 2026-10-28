@@ -1,0 +1,498 @@
+{
+  "identity": {
+    "pmid": "41807033",
+    "doi": "10.1136/jitc-2025-013305",
+    "title": "AGPAT3 reshapes tumor cell vulnerability to IFNgamma-mediated ferroptosis and enhances immunotherapy efficacy through lipid remodeling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ferroptosis plays a critical role in immune regulation and tumor microenvironment remodeling. However, its therapeutic potential in enhancing immune checkpoint inhibitor (ICI) efficacy remains incompletely understood and warrants further investigation. METHODS: To investigate the potential of ferroptosis in improving ICI response, we constructed a machine learning-based predictive model using ferroptosis-related genes and analyzed large-scale single-cell RNA sequencing datasets. Mechanistic studies were performed to examine the role of interferon (IFN)-gamma signaling in ferroptosis sensitization, including functional validation in vitro and in vivo. Lipidomic, transcriptomic, chromatin Immunoprecipitation sequencing (ChIP-seq) and Cleavage Under Targets and Tagmentation analyses were employed to dissect downstream pathways, focusing on IRF1 and AGPAT3. RESULTS: Our model successfully predicted ICI response based on ferroptosis-related gene signatures, identifying IFN-gamma as a key enhancer of ferroptosis sensitivity in tumor cells. IFN-gamma treatment induced activation of the transcription factor IRF1, which in turn upregulated AGPAT3 expression, driving lipid remodeling and accumulation of polyunsaturated ether phospholipids. This lipid remodeling significantly increased tumor cell susceptibility to ferroptosis and enhanced ICI efficacy. Loss of AGPAT3 impaired IFN-gamma-mediated tumor elimination both in vitro and in vivo. Clinically, higher AGPAT3 expression in tumors was associated with increased immune activation and improved overall survival in ICI-treated patients. CONCLUSION: The IFN-gamma-IRF1-AGPAT3 axis represents an important antitumor mechanism that promotes ferroptosis. Targeting this pathway in combination with our ferroptosis-driver model prediction may improve ICI efficacy and patient outcomes.",
+    "keywords": [
+      "Immune Checkpoint Inhibitor",
+      "Lung Cancer",
+      "Skin Cancer"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis",
+      "Humans",
+      "Animals",
+      "*Interferon-gamma/metabolism/pharmacology",
+      "Mice",
+      "*Immunotherapy/methods",
+      "Interferon Regulatory Factor-1/metabolism",
+      "Cell Line, Tumor",
+      "Tumor Microenvironment",
+      "*Immune Checkpoint Inhibitors/pharmacology/therapeutic use",
+      "Lipid Metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Chuan",
+        "Hu, Chuan",
+        "Cheng, Jinlin",
+        "Xin, Duanfeng",
+        "Jin, Sujie",
+        "Tian, Weihong",
+        "Li, Shan",
+        "Jin, Yuzhi",
+        "Liu, Yu",
+        "Wu, Wei",
+        "Hao, Shuqiang",
+        "Ren, Hui",
+        "Dai, Xiaomeng",
+        "Liu, Lulu",
+        "Ruan, Jian",
+        "Fang, Weijia",
+        "Bao, Xuanwen",
+        "Xin, Shan",
+        "Zhao, Peng"
+      ],
+      "short_names": [
+        "Liu C",
+        "Hu C",
+        "Cheng J",
+        "Xin D",
+        "Jin S",
+        "Tian W",
+        "Li S",
+        "Jin Y",
+        "Liu Y",
+        "Wu W",
+        "Hao S",
+        "Ren H",
+        "Dai X",
+        "Liu L",
+        "Ruan J",
+        "Fang W",
+        "Bao X",
+        "Xin S",
+        "Zhao P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0673-1886",
+        "ORCID: 0000-0001-9849-347X",
+        "ORCID: 0000-0002-5479-899X"
+      ],
+      "affiliations": [
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Interventional Radiology, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Zhejiang Key Laboratory of Imaging and Interventional Medicine, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, National Medical Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Zhejiang University, Hangzhou, China.",
+        "CAS Center for Excellence in Molecular Plant Sciences, Shanghai, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Changzhou Third People's Hospital, Changzhou Medical Center, Nanjing Medical University, Changzhou, China.",
+        "Zhejiang Key Laboratory of Pancreatic Disease, The First Affiliated Hospital, Zhejiang Key Laboratory of Frontier Medical Research on Cancer Metabolism, and Institute of Translational Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Institute of Fundamental and Transdisciplinary Research, Cancer Center, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Medical Oncology, Hangzhou Cancer Hospital, Hangzhou, Zhejiang, China.",
+        "Department of Hepato-Pancreato-Biliary & Gastric Medical Oncology, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, Zhejiang, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "National Key Laboratory of Advanced Drug Delivery and Release Systems, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "National Key Laboratory of Advanced Drug Delivery and Release Systems, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China xuanwen.bao@zju.edu.cn shan.xin@yale.edu zhaop@zju.edu.cn.",
+        "National Key Laboratory of Advanced Drug Delivery and Release Systems, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Department of Genetics, Yale School of Medicine, New Haven, Connecticut, USA xuanwen.bao@zju.edu.cn shan.xin@yale.edu zhaop@zju.edu.cn.",
+        "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China xuanwen.bao@zju.edu.cn shan.xin@yale.edu zhaop@zju.edu.cn.",
+        "National Key Laboratory of Advanced Drug Delivery and Release Systems, Zhejiang University, Hangzhou, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Chuan",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Chuan",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Zhejiang Key Laboratory of Imaging and Interventional Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jinlin",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, National Medical Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xin, Duanfeng",
+        "short_name": "Xin D",
+        "identifiers": [],
+        "affiliations": [
+          "CAS Center for Excellence in Molecular Plant Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Sujie",
+        "short_name": "Jin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Weihong",
+        "short_name": "Tian W",
+        "identifiers": [],
+        "affiliations": [
+          "Changzhou Third People's Hospital, Changzhou Medical Center, Nanjing Medical University, Changzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Pancreatic Disease, The First Affiliated Hospital, Zhejiang Key Laboratory of Frontier Medical Research on Cancer Metabolism, and Institute of Translational Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Institute of Fundamental and Transdisciplinary Research, Cancer Center, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Yuzhi",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Hangzhou Cancer Hospital, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wei",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepato-Pancreato-Biliary & Gastric Medical Oncology, Zhejiang Cancer Hospital, Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Shuqiang",
+        "short_name": "Hao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Hui",
+        "short_name": "Ren H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Xiaomeng",
+        "short_name": "Dai X",
+        "identifiers": [
+          "0000-0003-0673-1886"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "National Key Laboratory of Advanced Drug Delivery and Release Systems, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lulu",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ruan, Jian",
+        "short_name": "Ruan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Weijia",
+        "short_name": "Fang W",
+        "identifiers": [
+          "0000-0001-9849-347X"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "National Key Laboratory of Advanced Drug Delivery and Release Systems, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Xuanwen",
+        "short_name": "Bao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China xuanwen.bao@zju.edu.cn shan.xin@yale.edu zhaop@zju.edu.cn.",
+          "National Key Laboratory of Advanced Drug Delivery and Release Systems, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xin, Shan",
+        "short_name": "Xin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale School of Medicine, New Haven, Connecticut, USA xuanwen.bao@zju.edu.cn shan.xin@yale.edu zhaop@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Peng",
+        "short_name": "Zhao P",
+        "identifiers": [
+          "0000-0002-5479-899X"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China xuanwen.bao@zju.edu.cn shan.xin@yale.edu zhaop@zju.edu.cn.",
+          "National Key Laboratory of Advanced Drug Delivery and Release Systems, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal for immunotherapy of cancer"
+    ],
+    "journal_abbrev": [
+      "J Immunother Cancer"
+    ],
+    "pub_date": "2026 Mar 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/11 01:12",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42549069"
+    ],
+    "refs": [
+      "40078784",
+      "39147986",
+      "38942927",
+      "38880903",
+      "38843331",
+      "38773341",
+      "38625698",
+      "38569519",
+      "38382467",
+      "38106556",
+      "37044092",
+      "36894639",
+      "35902886",
+      "35322867",
+      "35256934",
+      "35216678",
+      "35121990",
+      "34804045",
+      "34663908",
+      "34295900",
+      "34143979",
+      "33975634",
+      "33711272",
+      "33707434",
+      "33542239",
+      "33504550",
+      "33495298",
+      "33212483",
+      "32879421",
+      "32444850",
+      "32385160",
+      "32105316",
+      "32054662",
+      "32004492",
+      "31980621",
+      "31932730",
+      "31562797",
+      "31537801",
+      "31327527",
+      "31273297",
+      "31033233",
+      "30979687",
+      "30753825",
+      "30388456",
+      "30388455",
+      "30383866",
+      "30202049",
+      "30127394",
+      "30120041",
+      "30041684",
+      "30013197",
+      "29988129",
+      "29681456",
+      "29674595",
+      "29656892",
+      "29410529",
+      "29198524",
+      "29091775",
+      "29033130",
+      "28650338",
+      "28552987",
+      "28360267",
+      "27842066",
+      "27124452",
+      "26997480",
+      "26952546",
+      "26359337",
+      "25867264",
+      "25594174",
+      "24925914",
+      "23715562",
+      "22658127",
+      "22632970",
+      "12676586"
+    ],
+    "similar": [
+      "41807033",
+      "38471712",
+      "42135764",
+      "39660968",
+      "41038145",
+      "39642461",
+      "41526921",
+      "42318657",
+      "39748404",
+      "41388312",
+      "40777041",
+      "41406067",
+      "35836797",
+      "40539046",
+      "41350704",
+      "42681644",
+      "41641368",
+      "39488102",
+      "40693608",
+      "37972062",
+      "41436831",
+      "42274587",
+      "41425595",
+      "42328167",
+      "33495298",
+      "38102680",
+      "39686841",
+      "35764364",
+      "42032729",
+      "32051287",
+      "39542656",
+      "40108693",
+      "42582320",
+      "41760260",
+      "39487895",
+      "40436260",
+      "42413983",
+      "42358824",
+      "41526167",
+      "39909124",
+      "40050048",
+      "40375605",
+      "39587835",
+      "41603185",
+      "42707754",
+      "40370455",
+      "41101075",
+      "37935565",
+      "41791790",
+      "40345706",
+      "36142591",
+      "41716413",
+      "34795663",
+      "40638251",
+      "40379272",
+      "41918749",
+      "41229436",
+      "40353308",
+      "35738798",
+      "39988347",
+      "41387877",
+      "42045535",
+      "37728413",
+      "41613147",
+      "41740783",
+      "39739311",
+      "42558624",
+      "38056895",
+      "41075009",
+      "40308576",
+      "41199296",
+      "41663385",
+      "40737844",
+      "42572499",
+      "40971094",
+      "42049035",
+      "39128094",
+      "38324132",
+      "41587523",
+      "39085878",
+      "40165405",
+      "39726597",
+      "31043744",
+      "36669362",
+      "42448430",
+      "40346580",
+      "40316957",
+      "41591489",
+      "42687986",
+      "32964498",
+      "39250241",
+      "35577506",
+      "40106436",
+      "41617394",
+      "39223929",
+      "41762251",
+      "42352916",
+      "25592039",
+      "41246332",
+      "40860143"
+    ],
+    "review": [
+      "41807033",
+      "42274587"
+    ],
+    "pmc": [
+      "12983827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jitc.bmj.com/lookup/pmidlookup?view=long&pmid=41807033",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41807033/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

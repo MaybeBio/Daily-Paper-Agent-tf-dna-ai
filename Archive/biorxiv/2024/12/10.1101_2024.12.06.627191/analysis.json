@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.06.627191",
+  "title": "Efficient High-Throughput DNA Breathing Features Generation Using Jax-EPBD",
+  "authors": "Inan TT; Kabir A; Rasmussen K; Shehu A; Usheva A; Bishop A; Alexandrov B; Bhattarai M",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-12",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用JAX加速的Langevin分子动力学模拟DNA呼吸动力学，并整合呼吸特征提升转录因子结合亲和力预测，核心聚焦TF-DNA互作且方法为物理模拟+AI预测，高度匹配课题。",
+  "abstract": "DNA breathing dynamics—transient base-pair opening and closing due to thermal fluctuations—are vital for processes like transcription, replication, and repair. Traditional models, such as the Extended Peyrard-Bishop-Dauxois (EPBD), provide insights into these dynamics but are computationally limited for long sequences. We present JAX-EPBD , a high-throughput Langevin molecular dynamics framework leveraging JAX for GPU-accelerated simulations, achieving up to 30x speedup and superior scalability compared to the original C-based EPBD implementation. JAX-EPBD efficiently captures time-dependent behaviors, including bubble lifetimes and base flipping kinetics, enabling genome-scale analyses. Applying it to transcription factor (TF) binding affinity prediction using SELEX datasets, we observed consistent improvements in R 2 values when incorporating breathing features with sequence data. Validating on the 77-bp AAV P5 promoter, JAX-EPBD revealed sequence-specific differences in bubble dynamics correlating with transcriptional activity. These findings establish JAX-EPBD as a powerful and scalable tool for understanding DNA breathing dynamics and their role in gene regulation and transcription factor binding.",
+  "abstract_zh": "DNA呼吸动力学——由热涨落引起的瞬时碱基对打开与关闭——对转录、复制和修复等过程至关重要。传统模型，如扩展的Peyrard-Bishop-Dauxois (EPBD)，为这些动力学提供了见解，但在长序列上计算能力受限。我们提出了JAX-EPBD，一个利用JAX进行GPU加速模拟的高通量朗之万分子动力学框架，相比原始的基于C的EPBD实现，实现了高达30倍的加速和卓越的可扩展性。JAX-EPBD高效捕捉时间依赖行为，包括气泡寿命和碱基翻转动力学，从而支持基因组规模的分析。将其应用于使用SELEX数据集的转录因子（TF）结合亲和力预测时，我们观察到在将呼吸特征与序列数据结合时，R²值持续改善。在77-bp AAV P5启动子上进行验证，JAX-EPBD揭示了与转录活性相关的气泡动力学的序列特异性差异。这些发现确立了JAX-EPBD作为理解DNA呼吸动力学及其在基因调控和转录因子结合中作用的强大且可扩展的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.06.627191",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.627191",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.06.627191/index.html"
+}

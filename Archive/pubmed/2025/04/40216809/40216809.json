@@ -1,0 +1,502 @@
+{
+  "identity": {
+    "pmid": "40216809",
+    "doi": "10.1038/s41598-025-90694-w",
+    "title": "Identification of osteoarthritis-associated chondrocyte subpopulations and key gene-regulating drugs based on multi-omics analysis."
+  },
+  "content": {
+    "abstract": "The mechanism by which chondrocytes respond to mechanical stress in joints significantly affects the balance and function of cartilage. This study aims to characterize osteoarthritis-associated chondrocyte subpopulations and key gene targets for regulatory drugs. To begin, single-cell and transcriptome datasets were obtained from the Gene Expression Omnibus (GEO) database. Cell communication and pseudo-temporal analysis, as well as High-dimensional Weighted Gene Co-expression Network Analysis (hdWGCNA), were conducted on the single-cell data to identify key chondrocyte subtypes and module genes. Subsequently, Consensus Cluster Plus analysis was utilized to identify distinct disease subgroups within the osteoarthritis (OA) training dataset based on the key module genes. Furthermore, differential gene expression analysis and GO/KEGG pathway enrichment analysis were performed on the identified subgroups. To screen for hub genes associated with OA, a combination of 10 machine learning algorithms and 113 algorithm compositions was integrated. Additionally, the immune and pathway scores of the training dataset samples were evaluated using the ESTIMATE, MCP-counter, and ssGSEA algorithms to establish the relationship between the hub genes and immune and pathways. Following this, a network depicting the interaction between the hub genes and transcription factors was constructed based on the Network Analyst database. Moreover, the hub genes were subjected to drug prediction and molecular docking using the RNAactDrug database and AutoDockTools. Finally, real-time fluorescence quantitative PCR (RT-qPCR) was employed to detect the expression of hub genes in the plasma samples collected from osteoarthritis patients and healthy adults. In the OA sample, there is a significant increase in the proportion of prehypertrophic chondrocytes (preHTC), particularly in subgroups 6, 7, and 9. We defined these subgroups as OA_PreHTC subgroups. The OA_PreHTC subgroup exhibits a higher communication intensity with proliferative-related pathways such as ANGPTL and TGF-beta. Furthermore, two OA disease subgroups were identified in the training set samples. This led to the identification of 411 differentially expressed genes (DEGs) related to osteoarthritis, 2485 DEGs among subgroups, as well as 238 intersecting genes and 5 hub genes (MMP13, FAM26F, CHI3L1, TAC1, and CKS2). RT-qPCR results indicate significant differences in the expression levels of five hub genes and their related TFs in the clinical blood samples of OA patients compared to the healthy control group (NC). Moreover, these five hub genes are positively associated with inflammatory pathways such as TNF-alpha, JAK-STAT3, and inflammatory response, while being negatively associated with proliferation pathways like WNT and KRAS. Additionally, the five hub genes are positively associated with neutrophils, activated CD4 T cell, gamma delta T cell, and regulatory T cell, while being negatively associated with CD56dim natural killer cell and Type 17T helper cell. Molecular docking results reveal that CAY10603, Tenulin, T0901317, and Nonactin exhibit high binding activity to CHI3L1, suggesting their potential as therapeutic drugs for OA. The OA_PreHTC subgroups plays a crucial role in the occurrence and development of osteoarthritis (OA). Five hub genes may exert their effects on OA through interactions with PreHTC cells, other chondrocytes, and immune cells, playing a role in inhibiting cell proliferation and stimulating inflammation, thus having high diagnostic value for OA. Additionally, CAY10603, Tenulin, T0901317, and Nonactin have potential therapeutic effects for OA patients.",
+    "keywords": [
+      "Bioinformatics",
+      "Machine learning",
+      "Molecular docking",
+      "Osteoarthritis",
+      "Single cell analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteoarthritis/genetics/drug therapy/pathology/metabolism",
+      "*Chondrocytes/metabolism/pathology/drug effects",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Gene Expression Regulation/drug effects",
+      "Computational Biology/methods",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Ting",
+        "Pei, Zhiwei",
+        "Hu, Sile",
+        "Zhao, Zhenqun",
+        "He, Wanxiong",
+        "Wang, Jing",
+        "Jiang, Liuchang",
+        "Ariben, Jirigala",
+        "Wu, Lina",
+        "Yang, Xiaolong",
+        "Wang, Leipeng",
+        "Wu, Yonggang",
+        "Chen, Xiaofeng",
+        "Li, Qiang",
+        "Yang, Haobo",
+        "Li, Siqin",
+        "Wang, Xing",
+        "Sun, Mingqi",
+        "Zhang, Baoxin"
+      ],
+      "short_names": [
+        "Hao T",
+        "Pei Z",
+        "Hu S",
+        "Zhao Z",
+        "He W",
+        "Wang J",
+        "Jiang L",
+        "Ariben J",
+        "Wu L",
+        "Yang X",
+        "Wang L",
+        "Wu Y",
+        "Chen X",
+        "Li Q",
+        "Yang H",
+        "Li S",
+        "Wang X",
+        "Sun M",
+        "Zhang B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Tianjin Hospital, Tianjin University, Jiefang Nan Road 406, Hexi District, Tianjin, 300211, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Sanya People's Hospital, No. 558 Jiefang Road, Sanya City, Hainan Province, China.",
+        "Baotou Medical College Bayannur Clinical Medical College, Bayannur City, 015000, Inner Mongolia, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Bayannur City Hospital, Bayannur City, 015000, Inner Mongolia, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Aier Eye Hospital, Tianjin University, No. 102 Fukang Road, Tianjin, 300000, China.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Bayannur City Hospital, Bayannur City, 015000, Inner Mongolia, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+        "Bayannur City Hospital, Bayannur City, 015000, Inner Mongolia, China.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China. 15648855750@yeah.net.",
+        "Bayannur City Hospital, Bayannur City, 015000, Inner Mongolia, China. 15648855750@yeah.net.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China. sunmingqi123456@163.com.",
+        "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China. z197218275@yeah.net.",
+        "Tianjin Hospital, Tianjin University, Jiefang Nan Road 406, Hexi District, Tianjin, 300211, China. z197218275@yeah.net.",
+        "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China. z197218275@yeah.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Ting",
+        "short_name": "Hao T",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Zhiwei",
+        "short_name": "Pei Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Hospital, Tianjin University, Jiefang Nan Road 406, Hexi District, Tianjin, 300211, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Sile",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhenqun",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "He, Wanxiong",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "Sanya People's Hospital, No. 558 Jiefang Road, Sanya City, Hainan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Baotou Medical College Bayannur Clinical Medical College, Bayannur City, 015000, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Liuchang",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Ariben, Jirigala",
+        "short_name": "Ariben J",
+        "identifiers": [],
+        "affiliations": [
+          "Bayannur City Hospital, Bayannur City, 015000, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lina",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+          "Aier Eye Hospital, Tianjin University, No. 102 Fukang Road, Tianjin, 300000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaolong",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Leipeng",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yonggang",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Bayannur City Hospital, Bayannur City, 015000, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaofeng",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qiang",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Haobo",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Li, Siqin",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China.",
+          "Bayannur City Hospital, Bayannur City, 015000, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xing",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China. 15648855750@yeah.net.",
+          "Bayannur City Hospital, Bayannur City, 015000, Inner Mongolia, China. 15648855750@yeah.net."
+        ]
+      },
+      {
+        "full_name": "Sun, Mingqi",
+        "short_name": "Sun M",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China. sunmingqi123456@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Baoxin",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China. z197218275@yeah.net.",
+          "Tianjin Hospital, Tianjin University, Jiefang Nan Road 406, Hexi District, Tianjin, 300211, China. z197218275@yeah.net.",
+          "Inner Mongolia Medical University, Hohhot, 010050, Inner Mongolia, China. z197218275@yeah.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/12 00:42",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "41717289",
+      "41148815",
+      "41107987"
+    ],
+    "refs": [
+      "37914703",
+      "37895219",
+      "37848267",
+      "37756391",
+      "37741987",
+      "37720230",
+      "37679035",
+      "37654485",
+      "37532285",
+      "37507898",
+      "37457300",
+      "37426759",
+      "37351173",
+      "37320872",
+      "37283761",
+      "37207197",
+      "37188001",
+      "37161083",
+      "37141654",
+      "37101376",
+      "37024468",
+      "36924682",
+      "36890785",
+      "36276655",
+      "36010838",
+      "35910382",
+      "35721756",
+      "35544558",
+      "35269552",
+      "35145098",
+      "34813381",
+      "34557778",
+      "34466014",
+      "34332049",
+      "34331449",
+      "34270864",
+      "33597522",
+      "32616761",
+      "32255771",
+      "32138770",
+      "31926346",
+      "30931480",
+      "30668405",
+      "30129142",
+      "29914354",
+      "28991892",
+      "28455435",
+      "28130449",
+      "28107588",
+      "28052254",
+      "27870898",
+      "27765066",
+      "27645024",
+      "26489762",
+      "26156959",
+      "24113773",
+      "23323831",
+      "20427518",
+      "20109188",
+      "19003601",
+      "18316470",
+      "16199517",
+      "10592173"
+    ],
+    "similar": [
+      "40216809",
+      "39779817",
+      "39026663",
+      "40589764",
+      "39238187",
+      "39086489",
+      "40442788",
+      "40804350",
+      "41316378",
+      "41146237",
+      "39849508",
+      "39640258",
+      "40726988",
+      "40628511",
+      "39438957",
+      "39612274",
+      "41031145",
+      "41502501",
+      "30365099",
+      "38771826",
+      "34583778",
+      "31277141",
+      "38509535",
+      "41327360",
+      "39341952",
+      "41089260",
+      "41112282",
+      "39695788",
+      "39839184",
+      "38325908",
+      "34340232",
+      "40977739",
+      "37503333",
+      "40592131",
+      "40335993",
+      "33325525",
+      "40564983",
+      "40821971",
+      "39176085",
+      "41310008",
+      "29344651",
+      "40885352",
+      "39733138",
+      "35860189",
+      "34949204",
+      "40771586",
+      "35473522",
+      "38734758",
+      "37454542",
+      "34719950",
+      "41111909",
+      "34113405",
+      "39738612",
+      "32135469",
+      "39953769",
+      "38767974",
+      "34224029",
+      "40797087",
+      "38868774",
+      "38863714",
+      "40646535",
+      "39720254",
+      "35278479",
+      "40242907",
+      "30186872",
+      "41219826",
+      "41479901",
+      "40849369",
+      "32871523",
+      "38444758",
+      "37382793",
+      "40299032",
+      "41398629",
+      "38292759",
+      "37545537",
+      "41286526",
+      "40164659",
+      "38919616",
+      "39512836",
+      "35381129",
+      "37986345",
+      "39919076",
+      "32255771",
+      "30551734",
+      "30107230",
+      "40196125",
+      "41261566",
+      "38259479",
+      "35996406",
+      "40828304",
+      "41232761",
+      "37805587",
+      "37465641",
+      "41291434",
+      "32342805",
+      "36929359",
+      "40574839",
+      "40196107",
+      "39639239",
+      "39139563"
+    ],
+    "review": [
+      "40216809",
+      "34340232"
+    ],
+    "pmc": [
+      "11992032"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-90694-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40216809/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

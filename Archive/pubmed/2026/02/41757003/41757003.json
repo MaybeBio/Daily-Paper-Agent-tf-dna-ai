@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "41757003",
+    "doi": "10.64898/2026.02.17.706433",
+    "title": "Multi-modal tissue-aware graph neural network for in silico genetic discovery."
+  },
+  "content": {
+    "abstract": "Understanding how perturbations influence gene function in a tissue-specific manner is key to uncovering novel drug targets. However, current computational approaches emphasize global network or sequence-derived features over context-driven dependencies. We introduce Mahi, a scalable and interpretable graph neural network framework that learns gene representations by integrating chromatin accessibility, transcription factor binding, histone modifications, and protein structure features in tissue-specific contexts. Through pretraining on tissue-specific network topologies followed by multi-modal feature integration, Mahi learns context-aware gene embeddings across 290 tissues and cell-types. Mahi outperforms sequence-based models in predicting gene essentiality across 1,183 cancer cell lines, demonstrating the advantage of integrating molecular context and functional connectivity. The learned embedding space reveals tissue-specific functional organization, with genes forming distinct clusters reflecting their context-dependent roles. In silico gene knockout perturbations demonstrate Mahi's ability to model intricate perturbation responses, identifying disease-relevant pathways and therapeutic targets. Together, these results demonstrate Mahi as a foundation for modeling tissue-specific gene function and perturbation responses, enabling applications in precision medicine, therapeutic target discovery, and prediction of context-dependent genetic vulnerabilities. All embeddings and the framework are publicly available to facilitate use by the scientific community.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aggarwal, Anusha",
+        "Sokolova, Ksenia",
+        "Troyanskaya, Olga G"
+      ],
+      "short_names": [
+        "Aggarwal A",
+        "Sokolova K",
+        "Troyanskaya OG"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-8627-6719",
+        "ORCID: 0000-0001-7499-5387",
+        "ORCID: 0000-0002-5676-5737"
+      ],
+      "affiliations": [
+        "Quantitative and Computational Biology Program, Princeton University, NJ, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA.",
+        "Princeton Precision Health, Princeton, NJ, USA.",
+        "Center for Computational Biology, Flatiron Institute, New York, NY, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA.",
+        "Princeton Precision Health, Princeton, NJ, USA.",
+        "Center for Computational Biology, Flatiron Institute, New York, NY, USA.",
+        "Department of Computer Science, Princeton University, Princeton, NJ, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aggarwal, Anusha",
+        "short_name": "Aggarwal A",
+        "identifiers": [
+          "0009-0007-8627-6719"
+        ],
+        "affiliations": [
+          "Quantitative and Computational Biology Program, Princeton University, NJ, USA.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Sokolova, Ksenia",
+        "short_name": "Sokolova K",
+        "identifiers": [
+          "0000-0001-7499-5387"
+        ],
+        "affiliations": [
+          "Princeton Precision Health, Princeton, NJ, USA.",
+          "Center for Computational Biology, Flatiron Institute, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Troyanskaya, Olga G",
+        "short_name": "Troyanskaya OG",
+        "identifiers": [
+          "0000-0002-5676-5737"
+        ],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA.",
+          "Princeton Precision Health, Princeton, NJ, USA.",
+          "Center for Computational Biology, Flatiron Institute, New York, NY, USA.",
+          "Department of Computer Science, Princeton University, Princeton, NJ, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Feb 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:32",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41526715",
+      "39526381",
+      "39468210",
+      "38035131",
+      "36803845",
+      "36568968",
+      "36230924",
+      "35817977",
+      "35579013",
+      "34608324",
+      "34498416",
+      "34265844",
+      "33290554",
+      "32630625",
+      "32015543",
+      "31809510",
+      "30554118",
+      "30445645",
+      "30355236",
+      "30194302",
+      "26301843",
+      "25990959",
+      "21084059",
+      "20675369",
+      "19365280",
+      "17588756",
+      "17430924",
+      "15705621"
+    ],
+    "similar": [
+      "41757003",
+      "42475469",
+      "41291726",
+      "41520229",
+      "41862973",
+      "42001824",
+      "41050338",
+      "32241274",
+      "42650039",
+      "42124720",
+      "42704265",
+      "41385420",
+      "41299450",
+      "41595671",
+      "42560939",
+      "42731537",
+      "42327793",
+      "41547391",
+      "42526193",
+      "41209342",
+      "42709528",
+      "41285097",
+      "42308421",
+      "40143108",
+      "40943585",
+      "41094395",
+      "42367280",
+      "41139924",
+      "42614934",
+      "40790157",
+      "42266665",
+      "36064320",
+      "42332551",
+      "37807013",
+      "40646507",
+      "41409156",
+      "33243142",
+      "42146410",
+      "40534839",
+      "37161255",
+      "41967428",
+      "42039299",
+      "41424764",
+      "39371421",
+      "40020422",
+      "42074175",
+      "39833831",
+      "37503080",
+      "42050415",
+      "40073281",
+      "41037545",
+      "42429765",
+      "42248581",
+      "40694853",
+      "38850625",
+      "40149941",
+      "42670852",
+      "40007773",
+      "41986815",
+      "41033661",
+      "40475415",
+      "42079812",
+      "42402023",
+      "42295634",
+      "41844874",
+      "38474033",
+      "41955157",
+      "42538947",
+      "41436386",
+      "41726926",
+      "41040798",
+      "42608748",
+      "39838298",
+      "41206950",
+      "41691979",
+      "41441912",
+      "42234579",
+      "39270533",
+      "40119464",
+      "42565039",
+      "42576503",
+      "40462515",
+      "38877401",
+      "40692709",
+      "41632825",
+      "42161290",
+      "41739380",
+      "39800872",
+      "41993521",
+      "42717098",
+      "42329999",
+      "39847542",
+      "41922959",
+      "42482180",
+      "41881288",
+      "40814229",
+      "42565648",
+      "42700516",
+      "41659468",
+      "42664103"
+    ],
+    "review": [
+      "41757003",
+      "41862973",
+      "42327793"
+    ],
+    "pmc": [
+      "12934690"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41757003/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.02.17.706433",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

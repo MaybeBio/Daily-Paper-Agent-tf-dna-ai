@@ -1,0 +1,688 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.09.08.22279729",
+  "title": "Image-based & machine learning-guided multiplexed serology test for SARS-CoV-2",
+  "doi": "10.1101/2022.09.08.22279729",
+  "abstract": "Here, we describe a scalable and automated, high-content microscopy -based mini-immunofluorescence assay (mini-IFA) for serological testing i.e., detection of antibodies. Unlike conventional IFA, which often relies on the use of cells infected with the target pathogen, our assay employs transfected cells expressing individual viral antigens. The assay builds on a custom neural network-based image analysis pipeline for the automated and multiplexed detection of immunoglobulins (IgG, IgA, and IgM) in patient samples. As a proof-of-concept, we employed high-throughput equipment to set up the assay for measuring antibody response against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection with spike (S), membrane (M), and nucleo (N) proteins, and the receptor-binding domain (R) as the antigens. We compared the automated mini-IFA results from hundreds of patient samples to the visual observations of human experts and to the results obtained with conventional ELISA. The comparisons demonstrated a high correlation to both, suggesting high sensitivity and specificity of the mini-IFA. By testing pre-pandemic samples and those collected from patients with RT-PCR confirmed SARS-CoV-2 infection, we found mini-IFA to be most suitable for IgG and IgA detection. The results demonstrated N and S proteins as the ideal antigens, and the use of these antigens can serve to distinguish between vaccinated and infected individuals. The assay principle described enables detection of antibodies against practically any pathogen, and none of the assay steps require high biosafety level environment. The simultaneous detection of multiple Ig classes allows for distinguishing between recent and past infection. <h4>Public abstract</h4> The manuscript describes a miniaturized immunofluorescence assay (mini-IFA) for measuring antibody response in patient blood samples. The automated method builds on machine-learning -guided image analysis with SARS-CoV-2 as the model pathogen. The method enables simultaneous measurement of IgM, IgA, and IgG responses against different virus antigens in a high throughput manner. The assay relies on antigens expressed through transfection and allows for differentiation between vaccine-induced and infection-induced antibody responses. The transfection-based antigen expression enables performing the assay at a low biosafety level laboratory and allows fast adaptation of the assay to emerging pathogens. Our results provide proof-of-concept for the approach, demonstrating fast and accurate measurement of antibody responses in a clinical and research set-up.",
+  "authors": [
+    "Pietiäinen V",
+    "Polso M",
+    "Migh E",
+    "Guckelsberger C",
+    "Harmati M",
+    "Diosdi A",
+    "Turunen L",
+    "Hassinen A",
+    "Potdar S",
+    "Koponen A",
+    "Sebestyen EG",
+    "Kovacs F",
+    "Kriston A",
+    "Hollandi R",
+    "Burian K",
+    "Terhes G",
+    "Visnyovszki A",
+    "Fodor E",
+    "Lacza Z",
+    "Kantele A",
+    "Kolehmainen P",
+    "Kakkola L",
+    "Strandin T",
+    "Levanov L",
+    "Kallioniemi O",
+    "Kemeny L",
+    "Julkunen I",
+    "Vapalahti O",
+    "Buzas K",
+    "Paavolainen L",
+    "Horvath P",
+    "Hepojoki J"
+  ],
+  "published_date": "2022-09-09",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.09.08.22279729",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.09.08.22279729.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR541917",
+    "raw_record": {
+      "id": "PPR541917",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR541917"
+        ]
+      },
+      "doi": "10.1101/2022.09.08.22279729",
+      "title": "Image-based & machine learning-guided multiplexed serology test for SARS-CoV-2",
+      "authorString": "Pietiäinen V, Polso M, Migh E, Guckelsberger C, Harmati M, Diosdi A, Turunen L, Hassinen A, Potdar S, Koponen A, Sebestyen EG, Kovacs F, Kriston A, Hollandi R, Burian K, Terhes G, Visnyovszki A, Fodor E, Lacza Z, Kantele A, Kolehmainen P, Kakkola L, Strandin T, Levanov L, Kallioniemi O, Kemeny L, Julkunen I, Vapalahti O, Buzas K, Paavolainen L, Horvath P, Hepojoki J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pietiäinen V",
+            "lastName": "Pietiäinen",
+            "firstName": "Vilja",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polso M",
+            "lastName": "Polso",
+            "firstName": "Minttu",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-2029-9707"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Migh E",
+            "lastName": "Migh",
+            "firstName": "Ede",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8312-6463"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guckelsberger C",
+            "lastName": "Guckelsberger",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1977-1887"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Department of Computer Science, Aalto University, Espoo, Finland"
+                },
+                {
+                  "affiliation": "Finnish Center for Artificial Intelligence, Espoo, Finland"
+                },
+                {
+                  "affiliation": "School of Electronic Engineering and Computer Science, Queen Mary University of London, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Harmati M",
+            "lastName": "Harmati",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4875-5723"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diosdi A",
+            "lastName": "Diosdi",
+            "firstName": "Akos",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3118-5576"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Turunen L",
+            "lastName": "Turunen",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0274-4794"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hassinen A",
+            "lastName": "Hassinen",
+            "firstName": "Antti",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Potdar S",
+            "lastName": "Potdar",
+            "firstName": "Swapnil",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2778-6918"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koponen A",
+            "lastName": "Koponen",
+            "firstName": "Annika",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Minerva Foundation Institute for Medical Research, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Department of Anatomy, Faculty of Medicine, University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sebestyen EG",
+            "lastName": "Sebestyen",
+            "firstName": "Edina Gyukity",
+            "initials": "EG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kovacs F",
+            "lastName": "Kovacs",
+            "firstName": "Ferenc",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                },
+                {
+                  "affiliation": "Single-Cell Technologies Ltd., Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kriston A",
+            "lastName": "Kriston",
+            "firstName": "Andras",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                },
+                {
+                  "affiliation": "Single-Cell Technologies Ltd., Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hollandi R",
+            "lastName": "Hollandi",
+            "firstName": "Reka",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burian K",
+            "lastName": "Burian",
+            "firstName": "Katalin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Microbiology, Faculty of Medicine, University of Szeged, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Terhes G",
+            "lastName": "Terhes",
+            "firstName": "Gabriella",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Microbiology, Faculty of Medicine, University of Szeged, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Visnyovszki A",
+            "lastName": "Visnyovszki",
+            "firstName": "Adam",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "1 Department of Internal Medicine, Faculty of Medicine, University of Szeged, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fodor E",
+            "lastName": "Fodor",
+            "firstName": "Eszter",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Sports Physiology, Inst. Sports and Health Sciences, University of Physical Education, Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lacza Z",
+            "lastName": "Lacza",
+            "firstName": "Zsombor",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Sports Physiology, Inst. Sports and Health Sciences, University of Physical Education, Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kantele A",
+            "lastName": "Kantele",
+            "firstName": "Anu",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Meilahti Infectious Diseases and Vaccine Research Center, MeiVac, University of Helsinki and Helsinki University Hospital, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Human Microbiome Research Program, University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kolehmainen P",
+            "lastName": "Kolehmainen",
+            "firstName": "Pekka",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biomedicine, University of Turku, Turku, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kakkola L",
+            "lastName": "Kakkola",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biomedicine, University of Turku, Turku, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Strandin T",
+            "lastName": "Strandin",
+            "firstName": "Tomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2454-7479"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Virology, Medicum, University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levanov L",
+            "lastName": "Levanov",
+            "firstName": "Lev",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Virology, Medicum, University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kallioniemi O",
+            "lastName": "Kallioniemi",
+            "firstName": "Olli",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Department of Oncology-Pathology, Karolinska Institutet, Science for Life Laboratory, Stockholm, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kemeny L",
+            "lastName": "Kemeny",
+            "firstName": "Lajos",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "HCEMM-USZ Skin Research Group, Department of Dermatology and Allergology, University of Szeged, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Julkunen I",
+            "lastName": "Julkunen",
+            "firstName": "Ilkka",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biomedicine, University of Turku, Turku, Finland"
+                },
+                {
+                  "affiliation": "Turku University Hospital, Turku, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vapalahti O",
+            "lastName": "Vapalahti",
+            "firstName": "Olli",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Virology, Medicum, University of Helsinki, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Department of Veterinary Biosciences, University of Helsinki, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "HUS Diagnostic Center, HUSLAB, Clinical Microbiology, Helsinki University Hospital, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buzas K",
+            "lastName": "Buzas",
+            "firstName": "Krisztina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                },
+                {
+                  "affiliation": "Department of Immunology, Faculty of Medicine, Faculty of Science and Informatics, University of Szeged, Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Paavolainen L",
+            "lastName": "Paavolainen",
+            "firstName": "Lassi",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Horvath P",
+            "lastName": "Horvath",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland (FIMM), Helsinki Institute of Life Sciences (HiLIFE), University of Helsinki, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Laboratory of Microscopic Image Analysis and Machine Learning, Institute of Biochemistry, Biological Research Centre, Szeged, Hungary"
+                },
+                {
+                  "affiliation": "Single-Cell Technologies Ltd., Szeged, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hepojoki J",
+            "lastName": "Hepojoki",
+            "firstName": "Jussi",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Virology, Medicum, University of Helsinki, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "University of Zurich, Vetsuisse Faculty, Institute of Veterinary Pathology, Zürich, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2454-7479"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2778-6918"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3118-5576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4875-5723"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8312-6463"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0274-4794"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1977-1887"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3125-2406"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-2029-9707"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Here, we describe a scalable and automated, high-content microscopy -based mini-immunofluorescence assay (mini-IFA) for serological testing i.e., detection of antibodies. Unlike conventional IFA, which often relies on the use of cells infected with the target pathogen, our assay employs transfected cells expressing individual viral antigens. The assay builds on a custom neural network-based image analysis pipeline for the automated and multiplexed detection of immunoglobulins (IgG, IgA, and IgM) in patient samples. As a proof-of-concept, we employed high-throughput equipment to set up the assay for measuring antibody response against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection with spike (S), membrane (M), and nucleo (N) proteins, and the receptor-binding domain (R) as the antigens. We compared the automated mini-IFA results from hundreds of patient samples to the visual observations of human experts and to the results obtained with conventional ELISA. The comparisons demonstrated a high correlation to both, suggesting high sensitivity and specificity of the mini-IFA. By testing pre-pandemic samples and those collected from patients with RT-PCR confirmed SARS-CoV-2 infection, we found mini-IFA to be most suitable for IgG and IgA detection. The results demonstrated N and S proteins as the ideal antigens, and the use of these antigens can serve to distinguish between vaccinated and infected individuals. The assay principle described enables detection of antibodies against practically any pathogen, and none of the assay steps require high biosafety level environment. The simultaneous detection of multiple Ig classes allows for distinguishing between recent and past infection. <h4>Public abstract</h4> The manuscript describes a miniaturized immunofluorescence assay (mini-IFA) for measuring antibody response in patient blood samples. The automated method builds on machine-learning -guided image analysis with SARS-CoV-2 as the model pathogen. The method enables simultaneous measurement of IgM, IgA, and IgG responses against different virus antigens in a high throughput manner. The assay relies on antigens expressed through transfection and allows for differentiation between vaccine-induced and infection-induced antibody responses. The transfection-based antigen expression enables performing the assay at a low biosafety level laboratory and allows fast adaptation of the assay to emerging pathogens. Our results provide proof-of-concept for the approach, demonstrating fast and accurate measurement of antibody responses in a clinical and research set-up.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2022/09/09/2022.09.08.22279729.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.08.22279729"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR541917"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR541917&type=FILE&fileName=EMS154120-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37671026",
+            "reference": "Cell reports methods. 2023 Aug;3(8):100565",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS154120",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-09-10",
+      "firstPublicationDate": "2022-09-09",
+      "firstIndexDate": "2022-09-10",
+      "fullTextReceivedDate": "2022-10-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

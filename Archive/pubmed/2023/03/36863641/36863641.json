@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "36863641",
+    "doi": "10.1016/j.jep.2023.116312",
+    "title": "Mechanism of the Mongolian medicine Eerdun Wurile basic formula in improving postoperative cognitive dysfunction by inhibiting apoptosis through the SIRT1/p53 signaling pathway."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: The Mongolian medicine Eerdun Wurile is a commonly used Mongolian in folk medicine used to treat cerebral nervous system diseases such as cerebral hemorrhage, cerebral thrombosis, nerve injury and cognitive function, cardiovascular diseases such as hypertension and coronary heart disease. Eerdun wurile may effect anti-postoperative cognitive function. AIM OF THE STUDY: To investigate the molecular mechanism of the Mongolian medicine Eerdun Wurile Basic Formula (EWB) in improving postoperative cognitive dysfunction (POCD) based on Network pharmacology, and to confirm involvement of the SIRT1/p53 signal pathway, one of the key signal pathways, by using the POCD mouse model. MATERIAL AND METHODS: Obtain compounds and disease-related targets through TCMSP, TCMID, PubChem, PharmMapper platforms, GeneCards, and OMIM databases, and screen intersection genes; Use Cytoscape software to build a \"drug-ingredient-disease-target\" network, and the STRING platform for protein interaction analysis.; R software was used to analyze the function of gene ontology (GO) and the Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment.; AutoDock Vina software for active components and core targets to Perform molecular docking. The POCD mouse model was prepared by intracerebroventricular injection of lipopolysaccharide (LPS), and the morphological changes of hippocampal tissue were observed by hematoxylin-eosin (HE) staining, Western blot, immunofluorescence and TUNEL were used to verify the results of network pharmacological enrichment analysis. RESULTS: There were 110 potential targets for improving POCD by EWB, 117 items were enriched by GO, and 113 pathways were enriched by KEGG, among which the SIRT1/p53 signaling pathway was related to the occurrence of POCD. Quercetin, kaempferol, vestitol, beta-sitosterol and 7-methoxy-2-methyl isoflavone in EWB can form stable conformations with low binding energy with core target proteins IL-6, CASP3, VEGFA, EGFR and ESR1. Animal experiments showed that compared with the POCD model group, the EWB group could significantly improve the apoptosis in the hippocampus of the mice, and significantly down-regulate the expression of Acetyl-p53 protein (P < 0.05). CONCLUSION: EWB can improve POCD with the characteristics of multi-component, multi-target, and multi-pathway synergistic effects. Studies have confirmed that EWB can improve the occurrence of POCD by regulating the expression of genes related to the SIRT1/p53 signal pathway, which provides a new target and basis for the treatment of POCD.",
+    "keywords": [
+      "Mongolian medicine Eerdun Wurile",
+      "Network pharmacology",
+      "Postoperative cognitive dysfunction",
+      "SIRT1/p53",
+      "Verification"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Postoperative Cognitive Complications",
+      "Sirtuin 1",
+      "Medicine, Mongolian Traditional",
+      "Molecular Docking Simulation",
+      "Tumor Suppressor Protein p53/genetics",
+      "Apoptosis",
+      "Cerebral Hemorrhage",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Medicine, Chinese Traditional"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yan",
+        "Qiao, Yun",
+        "Li, Huiru",
+        "Wang, Zhe",
+        "Su, Enboer",
+        "Du, Yiri",
+        "Che, Limuge"
+      ],
+      "short_names": [
+        "Li Y",
+        "Qiao Y",
+        "Li H",
+        "Wang Z",
+        "Su E",
+        "Du Y",
+        "Che L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Inner Mongolia Medical University, Hohhot, 010059, China. Electronic address: 765147066@qq.com.",
+        "Inner Mongolia Medical University, Hohhot, 010059, China. Electronic address: 3490200563@qq.com.",
+        "Inner Mongolia Medical University, Hohhot, 010059, China. Electronic address: 1187343383@qq.com.",
+        "Inner Mongolia Medical University, Hohhot, 010059, China. Electronic address: frankne@163.com.",
+        "Department of Anesthesiology, Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, China. Electronic address: 526321757@qq.com.",
+        "Department of Anesthesiology, Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, China. Electronic address: duyiri10520@sina.com.",
+        "Medicine Innovation Center for Nationalities, Inner Mongolia Medical University, Hohhot, 010110, China. Electronic address: 1209691582@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010059, China. Electronic address: 765147066@qq.com."
+        ]
+      },
+      {
+        "full_name": "Qiao, Yun",
+        "short_name": "Qiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010059, China. Electronic address: 3490200563@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Huiru",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010059, China. Electronic address: 1187343383@qq.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhe",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Medical University, Hohhot, 010059, China. Electronic address: frankne@163.com."
+        ]
+      },
+      {
+        "full_name": "Su, Enboer",
+        "short_name": "Su E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, China. Electronic address: 526321757@qq.com."
+        ]
+      },
+      {
+        "full_name": "Du, Yiri",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Affiliated Hospital of Inner Mongolia Medical University, Hohhot, 010050, China. Electronic address: duyiri10520@sina.com."
+        ]
+      },
+      {
+        "full_name": "Che, Limuge",
+        "short_name": "Che L",
+        "identifiers": [],
+        "affiliations": [
+          "Medicine Innovation Center for Nationalities, Inner Mongolia Medical University, Hohhot, 010110, China. Electronic address: 1209691582@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2023 Jun 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/03 06:00",
+    "fetched_at": "2026-09-28 20:59:24"
+  },
+  "links": {
+    "cites": [
+      "42416519",
+      "41466849",
+      "41396393",
+      "40609236",
+      "38481801",
+      "38478029",
+      "37190639"
+    ],
+    "refs": [],
+    "similar": [
+      "36863641",
+      "38501365",
+      "35095392",
+      "37799727",
+      "38114219",
+      "32315738",
+      "37843333",
+      "37115092",
+      "36472040",
+      "35616676",
+      "37548853",
+      "34159207",
+      "33376732",
+      "34660782",
+      "35837376",
+      "36819991",
+      "35442463",
+      "38588987",
+      "36403742",
+      "34873575",
+      "34149863",
+      "34746302",
+      "36164911",
+      "35528155",
+      "33496115",
+      "35430443",
+      "36526095",
+      "36595795",
+      "34738438",
+      "35097126",
+      "35178959",
+      "35718496",
+      "33645093",
+      "36550856",
+      "33299870",
+      "36604848",
+      "33350195",
+      "29758340",
+      "34047083",
+      "34951253",
+      "34296561",
+      "36221378",
+      "36272491",
+      "35960090",
+      "34746316",
+      "33358854",
+      "36596057",
+      "34125845",
+      "38021433",
+      "34581057",
+      "36316904",
+      "35227068",
+      "36604893",
+      "34908920",
+      "36401375",
+      "35178927",
+      "35342751",
+      "32389853",
+      "33645090",
+      "34353081",
+      "37171332",
+      "34549702",
+      "33208065",
+      "37005817",
+      "35069454",
+      "36604925",
+      "37530723",
+      "37608672",
+      "34605344",
+      "36280016",
+      "36046450",
+      "36604920",
+      "35644437",
+      "31892693",
+      "33243703",
+      "32643448",
+      "39050570",
+      "33691446",
+      "36472042",
+      "36386135",
+      "35718495",
+      "37335709",
+      "34868222",
+      "36181021",
+      "33134394",
+      "35970314",
+      "35265311",
+      "35109845",
+      "33054436",
+      "37814868",
+      "35838222",
+      "35850844",
+      "35432570",
+      "32489064",
+      "35178962",
+      "36305128",
+      "33645094",
+      "35851128",
+      "35988839",
+      "35850814",
+      "36032542",
+      "33634308",
+      "35040393",
+      "36046907",
+      "36118001",
+      "34058439",
+      "35718498",
+      "35692141",
+      "35610009",
+      "37861516",
+      "37282864",
+      "37633621",
+      "37246327",
+      "37833759",
+      "37180648",
+      "38518016",
+      "36756383",
+      "38098593",
+      "38801815",
+      "37442491",
+      "36284394",
+      "38851758",
+      "38056934",
+      "38243958",
+      "38670559",
+      "37946484",
+      "37495029",
+      "38545117",
+      "33628636",
+      "39302422",
+      "37990900",
+      "37187360",
+      "33493588",
+      "37147756",
+      "32309111",
+      "36931097",
+      "36119920",
+      "38584603",
+      "32226705",
+      "37197593",
+      "37416661",
+      "38027735",
+      "36330645",
+      "38081857",
+      "39047880",
+      "37735113",
+      "38218499",
+      "37375548",
+      "37340727",
+      "33493484",
+      "38852658",
+      "37056861",
+      "37639811",
+      "36626245",
+      "33805206",
+      "37475082",
+      "37858827",
+      "37939611",
+      "38145345",
+      "37301120",
+      "38915950",
+      "38845938",
+      "32840089",
+      "38515838",
+      "39106820",
+      "38886876",
+      "37765280",
+      "38535971",
+      "37089916",
+      "33780389",
+      "36970216",
+      "36118006",
+      "35198036",
+      "38032295",
+      "32217731",
+      "32217730",
+      "34342411"
+    ],
+    "review": [
+      "36863641",
+      "33358854",
+      "33243703",
+      "32840089",
+      "38535971",
+      "33780389",
+      "36118006"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(23)00180-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

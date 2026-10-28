@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36180886",
+  "title": "Identification of DNA methylation-regulated genes as potential biomarkers for coronary heart disease via machine learning in the Framingham Heart Study.",
+  "authors": "Zhang, Xiaokang; Wang, Chen; He, Dingdong; Cheng, Yating; Yu, Li; Qi, Daoxi; Li, Boyu; Zheng, Fang",
+  "journal": "Clinical epigenetics",
+  "published_date": "2022-10-01",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用机器学习基于DNA甲基化调控基因预测冠心病，虽涉及基因调控但非蛋白质-DNA互作或TF-DNA结合机制，且无AI/物理模拟建模，与本课题无关。",
+  "abstract": "BACKGROUND: DNA methylation-regulated genes have been demonstrated as the crucial participants in the occurrence of coronary heart disease (CHD). The machine learning based on DNA methylation-regulated genes has tremendous potential for mining non-invasive predictive biomarkers and exploring underlying new mechanisms of CHD. RESULTS: First, the 2085 age-gender-matched individuals in Framingham Heart Study (FHS) were randomly divided into training set and validation set. We then integrated methylome and transcriptome data of peripheral blood leukocytes (PBLs) from the training set to probe into the methylation and expression patterns of CHD-related genes. A total of five hub DNA methylation-regulated genes were identified in CHD through dimensionality reduction, including ATG7, BACH2, CDKN1B, DHCR24 and MPO. Subsequently, methylation and expression features of the hub DNA methylation-regulated genes were used to construct machine learning models for CHD prediction by LightGBM, XGBoost and Random Forest. The optimal model established by LightGBM exhibited favorable predictive capacity, whose AUC, sensitivity, and specificity were 0.834, 0.672, 0.864 in the validation set, respectively. Furthermore, the methylation and expression statuses of the hub genes were verified in monocytes using methylation microarray and transcriptome sequencing. The methylation statuses of ATG7, DHCR24 and MPO and the expression statuses of ATG7, BACH2 and DHCR24 in monocytes of our study population were consistent with those in PBLs from FHS. CONCLUSIONS: We identified five DNA methylation-regulated genes based on a predictive model for CHD using machine learning, which may clue the new epigenetic mechanism for CHD.",
+  "abstract_zh": "背景：DNA甲基化调控基因已被证明是冠心病（CHD）发生中的关键参与者。基于DNA甲基化调控基因的机器学习在挖掘非侵入性预测生物标志物和探索CHD潜在新机制方面具有巨大潜力。结果：首先，将Framingham心脏研究（FHS）中的2085名年龄性别匹配个体随机分为训练集和验证集。随后，我们整合了训练集外周血白细胞（PBLs）的甲基化组和转录组数据，以探究CHD相关基因的甲基化和表达模式。通过降维分析，在CHD中鉴定出五个核心DNA甲基化调控基因，包括ATG7、BACH2、CDKN1B、DHCR24和MPO。接着，利用这些核心DNA甲基化调控基因的甲基化和表达特征，通过LightGBM、XGBoost和随机森林构建了用于CHD预测的机器学习模型。由LightGBM建立的最优模型展现出良好的预测能力，其在验证集中的AUC、敏感性和特异性分别为0.834、0.672和0.864。此外，使用甲基化微阵列和转录组测序在单核细胞中验证了核心基因的甲基化和表达状态。我们研究人群中单核细胞中ATG7、DHCR24和MPO的甲基化状态以及ATG7、BACH2和DHCR24的表达状态与FHS中PBLs的结果一致。结论：我们基于机器学习为CHD构建的预测模型，鉴定出五个DNA甲基化调控基因，这可能为CHD提供新的表观遗传机制线索。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36180886/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36180886/",
+  "paper_page_path": "papers/pubmed/36180886/index.html"
+}

@@ -1,0 +1,144 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.04.462902",
+  "title": "SARS-CoV-2 PLpro whole human proteome cleavage prediction and enrichment/depletion analysis",
+  "doi": "10.1101/2021.10.04.462902",
+  "abstract": "A novel coronavirus (SARS-CoV-2) has caused a pandemic that has killed millions of people, worldwide vaccination and herd immunity are still far away, and few therapeutics are approved by regulatory agencies for widespread use. The coronavirus 3-chymotrypsin-like protease (3CLpro) is a commonly investigated target in COVID-19, however less work has been directed toward the equally important papain-like protease (PLpro). PLpro is less characterized due to its fewer and more diverse cleavages in coronavirus proteomes and the assumption that it mainly modulates host pathways with its deubiquitinating activity. Here, I extend my previous work on 3CLpro human cleavage prediction and enrichment/depletion analysis to PLpro.[1] Using three sets of neural networks trained on different taxonomic ranks of dataset with a maximum of 463 different putative PLpro cleavages, Matthews correlation coefficients of 0.900, 0.948, and 0.966 were achieved for Coronaviridae , Betacoronavirus , and Sarbecovirus , respectively. I predict that more than 1,000 human proteins may be cleaved by PLpro depending on diversity of the training dataset and that many of these proteins are distinct from those previously predicted to be cleaved by 3CLpro. PLpro cleavages are similarly nonrandomly distributed and result in many annotations shared with 3CLpro cleavages including ubiquitination, poly(A) tail and 5’ cap RNA binding proteins, helicases, and endogenous viral proteins. Combining PLpro with 3CLpro cleavage predictions, additional novel enrichment analysis was performed on known substrates of cleaved E3 ubiquitin ligases with results indicating that many pathways including viral RNA sensing are affected indirectly by E3 ligase cleavage independent of traditional PLpro deubiquitinating activity. As with 3CLpro, PLpro whole proteome cleavage prediction revealed many novel potential therapeutic targets against coronaviruses, although experimental verification is similarly required.",
+  "authors": [
+    "Prescott L"
+  ],
+  "published_date": "2021-10-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.04.462902",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.04.462902.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR404888",
+    "raw_record": {
+      "id": "PPR404888",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR404888"
+        ]
+      },
+      "doi": "10.1101/2021.10.04.462902",
+      "title": "SARS-CoV-2 PLpro whole human proteome cleavage prediction and enrichment/depletion analysis",
+      "authorString": "Prescott L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Prescott L",
+            "lastName": "Prescott",
+            "firstName": "Lucas",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9273-0128"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Independent Researcher, Boston, Massachusetts, United States of America"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9273-0128"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "A novel coronavirus (SARS-CoV-2) has caused a pandemic that has killed millions of people, worldwide vaccination and herd immunity are still far away, and few therapeutics are approved by regulatory agencies for widespread use. The coronavirus 3-chymotrypsin-like protease (3CLpro) is a commonly investigated target in COVID-19, however less work has been directed toward the equally important papain-like protease (PLpro). PLpro is less characterized due to its fewer and more diverse cleavages in coronavirus proteomes and the assumption that it mainly modulates host pathways with its deubiquitinating activity. Here, I extend my previous work on 3CLpro human cleavage prediction and enrichment/depletion analysis to PLpro.[1] Using three sets of neural networks trained on different taxonomic ranks of dataset with a maximum of 463 different putative PLpro cleavages, Matthews correlation coefficients of 0.900, 0.948, and 0.966 were achieved for  Coronaviridae ,  Betacoronavirus , and  Sarbecovirus , respectively. I predict that more than 1,000 human proteins may be cleaved by PLpro depending on diversity of the training dataset and that many of these proteins are distinct from those previously predicted to be cleaved by 3CLpro. PLpro cleavages are similarly nonrandomly distributed and result in many annotations shared with 3CLpro cleavages including ubiquitination, poly(A) tail and 5’ cap RNA binding proteins, helicases, and endogenous viral proteins. Combining PLpro with 3CLpro cleavage predictions, additional novel enrichment analysis was performed on known substrates of cleaved E3 ubiquitin ligases with results indicating that many pathways including viral RNA sensing are affected indirectly by E3 ligase cleavage independent of traditional PLpro deubiquitinating activity. As with 3CLpro, PLpro whole proteome cleavage prediction revealed many novel potential therapeutic targets against coronaviruses, although experimental verification is similarly required.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/06/2021.10.04.462902.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.04.462902"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR404888"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR404888&type=FILE&fileName=EMS136342-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS136342",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-10-08",
+      "firstPublicationDate": "2021-10-06",
+      "firstIndexDate": "2021-10-08",
+      "fullTextReceivedDate": "2021-11-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

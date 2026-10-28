@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "37110655",
+    "doi": "10.3390/molecules28083420",
+    "title": "Virtual Screening Strategy to Identify Retinoic Acid-Related Orphan Receptor gammat Modulators."
+  },
+  "content": {
+    "abstract": "Molecular docking is a key method used in virtual screening (VS) campaigns to identify small-molecule ligands for drug discovery targets. While docking provides a tangible way to understand and predict the protein-ligand complex formation, the docking algorithms are often unable to separate active ligands from inactive molecules in practical VS usage. Here, a novel docking and shape-focused pharmacophore VS protocol is demonstrated for facilitating effective hit discovery using retinoic acid receptor-related orphan receptor gamma t (RORgammat) as a case study. RORgammat is a prospective target for treating inflammatory diseases such as psoriasis and multiple sclerosis. First, a commercial molecular database was flexibly docked. Second, the alternative docking poses were rescored against the shape/electrostatic potential of negative image-based (NIB) models that mirror the target's binding cavity. The compositions of the NIB models were optimized via iterative trimming and benchmarking using a greedy search-driven algorithm or brute force NIB optimization. Third, a pharmacophore point-based filtering was performed to focus the hit identification on the known RORgammat activity hotspots. Fourth, free energy binding affinity evaluation was performed on the remaining molecules. Finally, twenty-eight compounds were selected for in vitro testing and eight compounds were determined to be low muM range RORgammat inhibitors, thereby showing that the introduced VS protocol generated an effective hit rate of ~29%.",
+    "keywords": [
+      "brute force negative image-based optimization (BR-NiB)",
+      "docking rescoring",
+      "inflammation",
+      "molecular docking",
+      "negative image-based rescoring (R-NiB)",
+      "pharmacophore (PHA) filtering",
+      "retinoic acid receptor-related orphan receptor gamma t (RORgammat)",
+      "virtual screening (VS)"
+    ],
+    "mesh_terms": [
+      "Molecular Docking Simulation",
+      "*Nuclear Receptor Subfamily 1, Group F, Member 3",
+      "*Drug Discovery",
+      "Transcription Factors",
+      "Receptors, Retinoic Acid",
+      "Tretinoin",
+      "Ligands"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jokinen, Elmeri M",
+        "Niemelainen, Miika",
+        "Kurkinen, Sami T",
+        "Lehtonen, Jukka V",
+        "Latti, Sakari",
+        "Postila, Pekka A",
+        "Pentikainen, Olli T",
+        "Niinivehmas, Sanna P"
+      ],
+      "short_names": [
+        "Jokinen EM",
+        "Niemelainen M",
+        "Kurkinen ST",
+        "Lehtonen JV",
+        "Latti S",
+        "Postila PA",
+        "Pentikainen OT",
+        "Niinivehmas SP"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2352-6550",
+        "ORCID: 0000-0003-2515-7429",
+        "ORCID: 0000-0003-0385-0636",
+        "ORCID: 0000-0002-4132-8745",
+        "ORCID: 0000-0002-2947-7991",
+        "ORCID: 0000-0001-7188-4016"
+      ],
+      "affiliations": [
+        "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+        "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland.",
+        "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+        "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+        "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland.",
+        "Structural Bioinformatics Laboratory, Biochemistry, Faculty of Science and Engineering, Abo Akademi University, FI-20500 Turku, Finland.",
+        "InFLAMES Research Flagship Center, Abo Akademi University, FI-20500 Turku, Finland.",
+        "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+        "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland.",
+        "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+        "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland.",
+        "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+        "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland.",
+        "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+        "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jokinen, Elmeri M",
+        "short_name": "Jokinen EM",
+        "identifiers": [
+          "0000-0003-2352-6550"
+        ],
+        "affiliations": [
+          "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+          "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Niemeläinen, Miika",
+        "short_name": "Niemeläinen M",
+        "identifiers": [],
+        "affiliations": [
+          "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Kurkinen, Sami T",
+        "short_name": "Kurkinen ST",
+        "identifiers": [
+          "0000-0003-2515-7429"
+        ],
+        "affiliations": [
+          "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+          "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Lehtonen, Jukka V",
+        "short_name": "Lehtonen JV",
+        "identifiers": [
+          "0000-0003-0385-0636"
+        ],
+        "affiliations": [
+          "Structural Bioinformatics Laboratory, Biochemistry, Faculty of Science and Engineering, Åbo Akademi University, FI-20500 Turku, Finland.",
+          "InFLAMES Research Flagship Center, Åbo Akademi University, FI-20500 Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Lätti, Sakari",
+        "short_name": "Lätti S",
+        "identifiers": [
+          "0000-0002-4132-8745"
+        ],
+        "affiliations": [
+          "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+          "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Postila, Pekka A",
+        "short_name": "Postila PA",
+        "identifiers": [
+          "0000-0002-2947-7991"
+        ],
+        "affiliations": [
+          "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+          "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Pentikäinen, Olli T",
+        "short_name": "Pentikäinen OT",
+        "identifiers": [
+          "0000-0001-7188-4016"
+        ],
+        "affiliations": [
+          "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+          "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Niinivehmas, Sanna P",
+        "short_name": "Niinivehmas SP",
+        "identifiers": [],
+        "affiliations": [
+          "MedChem.fi, Institute of Biomedicine, Integrative Physiology and Pharmacology, University of Turku, FI-20014 Turku, Finland.",
+          "InFLAMES Research Flagship Center, University of Turku, FI-20014 Turku, Finland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2023 Apr 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 06:42",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "39123240",
+      "37929724",
+      "37616260"
+    ],
+    "refs": [
+      "35887220",
+      "35561964",
+      "35211272",
+      "35133138",
+      "34932340",
+      "34776280",
+      "34264059",
+      "33914685",
+      "33852312",
+      "33330376",
+      "32829384",
+      "32735890",
+      "32727079",
+      "31403347",
+      "31386594",
+      "31290660",
+      "31260165",
+      "31174295",
+      "30817167",
+      "30513894",
+      "30121880",
+      "30023945",
+      "29981919",
+      "29632488",
+      "29342416",
+      "28590087",
+      "28546429",
+      "28510083",
+      "27905482",
+      "27899562",
+      "27794042",
+      "27606011",
+      "27043267",
+      "26640126",
+      "26584231",
+      "26407559",
+      "25500868",
+      "24704616",
+      "24574218",
+      "24214965",
+      "23157335",
+      "22292739",
+      "21948594",
+      "21591817",
+      "20579912",
+      "20504004",
+      "20450209",
+      "20383002",
+      "19434847",
+      "19381306",
+      "19183238",
+      "17288412",
+      "15663001",
+      "15520816",
+      "15048827",
+      "11259830",
+      "10592235",
+      "7063747"
+    ],
+    "similar": [
+      "37110655",
+      "35887220",
+      "35133138",
+      "33759125",
+      "31174295",
+      "29632488",
+      "30023945",
+      "31260165",
+      "33759124",
+      "39123240",
+      "32375589",
+      "37336069",
+      "31881455",
+      "31290660",
+      "25137647",
+      "34118722",
+      "37167779",
+      "31821760",
+      "28318945",
+      "33422603",
+      "25148595",
+      "24752099",
+      "30415122",
+      "34008974",
+      "31195082",
+      "29079472",
+      "34957834",
+      "34303081",
+      "26774287",
+      "30972071",
+      "25305688",
+      "35849939",
+      "33272782",
+      "38198965",
+      "27043267",
+      "25341687",
+      "27432277",
+      "34906860",
+      "35790469",
+      "18280498",
+      "29475408",
+      "30652849",
+      "36550239",
+      "36557826",
+      "27600555",
+      "28766097",
+      "25541527",
+      "31559538",
+      "37172324",
+      "30661449",
+      "34264059",
+      "33034255",
+      "29910804",
+      "30513894",
+      "29342416",
+      "36499162",
+      "25142403",
+      "28546429",
+      "29899748",
+      "24782182",
+      "33239687",
+      "30255759",
+      "28809009",
+      "30047845",
+      "28116998",
+      "33915968",
+      "28849732",
+      "30052133",
+      "32340232",
+      "36566711",
+      "32328476",
+      "29718775",
+      "29262987",
+      "31373819",
+      "31266509",
+      "33493627",
+      "33422580",
+      "27515040",
+      "32786511",
+      "26368822",
+      "32336498",
+      "24050442",
+      "36816679",
+      "34776280",
+      "31403347",
+      "28943467",
+      "31306865",
+      "35014597",
+      "30149308",
+      "35163234",
+      "28714799",
+      "35457251",
+      "29529496",
+      "31375639",
+      "27939874",
+      "36693026",
+      "27562018",
+      "36430841",
+      "31744223",
+      "34723528",
+      "25072167",
+      "37489095",
+      "38239446",
+      "38157481",
+      "36555602",
+      "38050632",
+      "39367774",
+      "37702938",
+      "33292486",
+      "38994407",
+      "36526584",
+      "35211272",
+      "35984589",
+      "35849793",
+      "37629492",
+      "33153778",
+      "34168840",
+      "38783061",
+      "37163364",
+      "39071262"
+    ],
+    "review": [
+      "37110655",
+      "37336069",
+      "34264059",
+      "29899748",
+      "32340232",
+      "36566711",
+      "34776280",
+      "31403347",
+      "25072167",
+      "36555602",
+      "35849793"
+    ],
+    "pmc": [
+      "10145393"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules28083420",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37110655/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37110655",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37110655",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

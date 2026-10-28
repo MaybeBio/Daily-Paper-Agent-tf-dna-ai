@@ -1,0 +1,507 @@
+{
+  "identity": {
+    "pmid": "33980827",
+    "doi": "10.1038/s41467-021-23035-w",
+    "title": "Mechanism of MRX inhibition by Rif2 at telomeres."
+  },
+  "content": {
+    "abstract": "Specific proteins present at telomeres ensure chromosome end stability, in large part through unknown mechanisms. In this work, we address how the Saccharomyces cerevisiae ORC-related Rif2 protein protects telomere. We show that the small N-terminal Rif2 BAT motif (Blocks Addition of Telomeres) previously known to limit telomere elongation and Tel1 activity is also sufficient to block NHEJ and 5' end resection. The BAT motif inhibits the ability of the Mre11-Rad50-Xrs2 complex (MRX) to capture DNA ends. It acts through a direct contact with Rad50 ATP-binding Head domains. Through genetic approaches guided by structural predictions, we identify residues at the surface of Rad50 that are essential for the interaction with Rif2 and its inhibition. Finally, a docking model predicts how BAT binding could specifically destabilise the DNA-bound state of the MRX complex. From these results, we propose that when an MRX complex approaches a telomere, the Rif2 BAT motif binds MRX Head in its ATP-bound resting state. This antagonises MRX transition to its DNA-bound state, and favours a rapid return to the ATP-bound state. Unable to stably capture the telomere end, the MRX complex cannot proceed with the subsequent steps of NHEJ, Tel1-activation and 5' resection.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Motifs",
+      "Chromosomes, Fungal/metabolism",
+      "DNA Breaks, Double-Stranded",
+      "DNA End-Joining Repair",
+      "DNA, Fungal/metabolism",
+      "DNA-Binding Proteins/chemistry/genetics/*metabolism",
+      "Endodeoxyribonucleases/chemistry/*metabolism",
+      "Exodeoxyribonucleases/chemistry/*metabolism",
+      "Models, Molecular",
+      "Multiprotein Complexes",
+      "Mutation",
+      "Protein Binding",
+      "Protein Domains",
+      "Saccharomyces cerevisiae",
+      "Saccharomyces cerevisiae Proteins/chemistry/genetics/*metabolism",
+      "Telomere/*metabolism",
+      "Telomere-Binding Proteins/chemistry/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roisne-Hamelin, Florian",
+        "Pobiega, Sabrina",
+        "Jezequel, Kevin",
+        "Miron, Simona",
+        "Depagne, Jordane",
+        "Veaute, Xavier",
+        "Busso, Didier",
+        "Du, Marie-Helene Le",
+        "Callebaut, Isabelle",
+        "Charbonnier, Jean-Baptiste",
+        "Cuniasse, Philippe",
+        "Zinn-Justin, Sophie",
+        "Marcand, Stephane"
+      ],
+      "short_names": [
+        "Roisne-Hamelin F",
+        "Pobiega S",
+        "Jezequel K",
+        "Miron S",
+        "Depagne J",
+        "Veaute X",
+        "Busso D",
+        "Du ML",
+        "Callebaut I",
+        "Charbonnier JB",
+        "Cuniasse P",
+        "Zinn-Justin S",
+        "Marcand S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4868-247X",
+        "ORCID: 0000-0003-3027-7900",
+        "ORCID: 0000-0001-5199-1885"
+      ],
+      "affiliations": [
+        "Universite de Paris, Universite Paris-Saclay, Inserm, CEA, Institut de Biologie Francois Jacob, iRCM, UMR Stabilite Genetique Cellules Souches et Radiations, Fontenay-aux-Roses, France.",
+        "Universite de Paris, Universite Paris-Saclay, Inserm, CEA, Institut de Biologie Francois Jacob, iRCM, UMR Stabilite Genetique Cellules Souches et Radiations, Fontenay-aux-Roses, France.",
+        "Universite de Paris, Universite Paris-Saclay, Inserm, CEA, Institut de Biologie Francois Jacob, iRCM, UMR Stabilite Genetique Cellules Souches et Radiations, Fontenay-aux-Roses, France.",
+        "Universite Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France.",
+        "CIGEx, Universite de Paris, Universite Paris-Saclay, Inserm, CEA, Institut de Biologie Francois Jacob, iRCM, UMR Stabilite Genetique Cellules Souches et Radiations, Fontenay-aux-Roses, France.",
+        "CIGEx, Universite de Paris, Universite Paris-Saclay, Inserm, CEA, Institut de Biologie Francois Jacob, iRCM, UMR Stabilite Genetique Cellules Souches et Radiations, Fontenay-aux-Roses, France.",
+        "CIGEx, Universite de Paris, Universite Paris-Saclay, Inserm, CEA, Institut de Biologie Francois Jacob, iRCM, UMR Stabilite Genetique Cellules Souches et Radiations, Fontenay-aux-Roses, France.",
+        "Universite Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France.",
+        "Sorbonne Universite, Museum National d'Histoire Naturelle, UMR CNRS 7590, Institut de Mineralogie de Physique des Materiaux et de Cosmochimie (IMPMC), Paris, France.",
+        "Universite Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France.",
+        "Universite Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France.",
+        "Universite Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France.",
+        "Universite de Paris, Universite Paris-Saclay, Inserm, CEA, Institut de Biologie Francois Jacob, iRCM, UMR Stabilite Genetique Cellules Souches et Radiations, Fontenay-aux-Roses, France. stephane.marcand@cea.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roisné-Hamelin, Florian",
+        "short_name": "Roisné-Hamelin F",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, Université Paris-Saclay, Inserm, CEA, Institut de Biologie François Jacob, iRCM, UMR Stabilité Génétique Cellules Souches et Radiations, Fontenay-aux-Roses, France."
+        ]
+      },
+      {
+        "full_name": "Pobiega, Sabrina",
+        "short_name": "Pobiega S",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, Université Paris-Saclay, Inserm, CEA, Institut de Biologie François Jacob, iRCM, UMR Stabilité Génétique Cellules Souches et Radiations, Fontenay-aux-Roses, France."
+        ]
+      },
+      {
+        "full_name": "Jézéquel, Kévin",
+        "short_name": "Jézéquel K",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Paris, Université Paris-Saclay, Inserm, CEA, Institut de Biologie François Jacob, iRCM, UMR Stabilité Génétique Cellules Souches et Radiations, Fontenay-aux-Roses, France."
+        ]
+      },
+      {
+        "full_name": "Miron, Simona",
+        "short_name": "Miron S",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Dépagne, Jordane",
+        "short_name": "Dépagne J",
+        "identifiers": [],
+        "affiliations": [
+          "CIGEx, Université de Paris, Université Paris-Saclay, Inserm, CEA, Institut de Biologie François Jacob, iRCM, UMR Stabilité Génétique Cellules Souches et Radiations, Fontenay-aux-Roses, France."
+        ]
+      },
+      {
+        "full_name": "Veaute, Xavier",
+        "short_name": "Veaute X",
+        "identifiers": [
+          "0000-0003-4868-247X"
+        ],
+        "affiliations": [
+          "CIGEx, Université de Paris, Université Paris-Saclay, Inserm, CEA, Institut de Biologie François Jacob, iRCM, UMR Stabilité Génétique Cellules Souches et Radiations, Fontenay-aux-Roses, France."
+        ]
+      },
+      {
+        "full_name": "Busso, Didier",
+        "short_name": "Busso D",
+        "identifiers": [
+          "0000-0003-3027-7900"
+        ],
+        "affiliations": [
+          "CIGEx, Université de Paris, Université Paris-Saclay, Inserm, CEA, Institut de Biologie François Jacob, iRCM, UMR Stabilité Génétique Cellules Souches et Radiations, Fontenay-aux-Roses, France."
+        ]
+      },
+      {
+        "full_name": "Du, Marie-Hélène Le",
+        "short_name": "Du ML",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Callebaut, Isabelle",
+        "short_name": "Callebaut I",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, Muséum National d'Histoire Naturelle, UMR CNRS 7590, Institut de Minéralogie de Physique des Matériaux et de Cosmochimie (IMPMC), Paris, France."
+        ]
+      },
+      {
+        "full_name": "Charbonnier, Jean-Baptiste",
+        "short_name": "Charbonnier JB",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Cuniasse, Philippe",
+        "short_name": "Cuniasse P",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Zinn-Justin, Sophie",
+        "short_name": "Zinn-Justin S",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, CEA, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Marcand, Stéphane",
+        "short_name": "Marcand S",
+        "identifiers": [
+          "0000-0001-5199-1885"
+        ],
+        "affiliations": [
+          "Université de Paris, Université Paris-Saclay, Inserm, CEA, Institut de Biologie François Jacob, iRCM, UMR Stabilité Génétique Cellules Souches et Radiations, Fontenay-aux-Roses, France. stephane.marcand@cea.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 May 12",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/14 06:00",
+    "fetched_at": "2026-09-27 17:11:47"
+  },
+  "links": {
+    "cites": [
+      "42430337",
+      "42344925",
+      "42162378",
+      "41094168",
+      "40968163",
+      "40707444",
+      "40133633",
+      "38884214",
+      "38321948",
+      "38180815",
+      "37653240",
+      "37653239",
+      "37584323",
+      "37569756",
+      "36291091",
+      "35044907",
+      "34817085",
+      "34329854",
+      "34125900"
+    ],
+    "refs": [
+      "34125900",
+      "33361389",
+      "32875643",
+      "32597753",
+      "32509463",
+      "32443982",
+      "32187176",
+      "32096305",
+      "31759824",
+      "31723267",
+      "31645360",
+      "31640985",
+      "31552432",
+      "31492634",
+      "31454352",
+      "31390569",
+      "31204167",
+      "31175837",
+      "31073030",
+      "30819891",
+      "30698745",
+      "30510002",
+      "30501098",
+      "30357364",
+      "30279093",
+      "30275497",
+      "30208292",
+      "30057197",
+      "30033372",
+      "29709199",
+      "29529242",
+      "29413748",
+      "29258817",
+      "29216371",
+      "29149597",
+      "28867292",
+      "28805810",
+      "28689660",
+      "28666126",
+      "28604726",
+      "28134932",
+      "28096526",
+      "28082411",
+      "27918544",
+      "27801516",
+      "26901759",
+      "26896444",
+      "26774283",
+      "26586427",
+      "26410586",
+      "26294668",
+      "26165956",
+      "26063574",
+      "26057807",
+      "24493214",
+      "24095731",
+      "23746845",
+      "23417015",
+      "23389450",
+      "23341755",
+      "23188080",
+      "23028367",
+      "22879408",
+      "22343724",
+      "21909575",
+      "21593126",
+      "21152442",
+      "21057524",
+      "20834227",
+      "20523746",
+      "19633668",
+      "19217405",
+      "18832348",
+      "18650924",
+      "18458108",
+      "18451106",
+      "18093953",
+      "17538011",
+      "17494770",
+      "16314503",
+      "16222654",
+      "15870268",
+      "15572688",
+      "15109493",
+      "12208847",
+      "11741545",
+      "11090632",
+      "10892749",
+      "10790418",
+      "9366550",
+      "9087429",
+      "8744570",
+      "2185891"
+    ],
+    "similar": [
+      "33980827",
+      "30279093",
+      "21152442",
+      "34158470",
+      "22130795",
+      "16765654",
+      "19217405",
+      "31640985",
+      "22354991",
+      "26901759",
+      "34311383",
+      "38180815",
+      "31879780",
+      "17698079",
+      "33789097",
+      "23672410",
+      "16043424",
+      "16314503",
+      "21057524",
+      "27746018",
+      "29420790",
+      "23443654",
+      "17377065",
+      "21402778",
+      "31390569",
+      "35044907",
+      "33278361",
+      "30698745",
+      "20620955",
+      "26743002",
+      "11553325",
+      "31073030",
+      "29922906",
+      "27173583",
+      "25831494",
+      "22203190",
+      "38884214",
+      "25231868",
+      "29321177",
+      "29925516",
+      "30275497",
+      "20834227",
+      "30819891",
+      "15716496",
+      "39174552",
+      "21102445",
+      "15852023",
+      "20729809",
+      "15721260",
+      "14522986",
+      "11741545",
+      "28398510",
+      "16096640",
+      "14698290",
+      "26990569",
+      "23555316",
+      "25601756",
+      "15811632",
+      "11553326",
+      "24692507",
+      "23963457",
+      "15990364",
+      "27930670",
+      "21115410",
+      "24553123",
+      "17589524",
+      "12509295",
+      "30940321",
+      "30428339",
+      "30937455",
+      "30224481",
+      "9635193",
+      "28604726",
+      "18245831",
+      "19276071",
+      "26773053",
+      "27889450",
+      "10430581",
+      "15548595",
+      "23376930",
+      "26294668",
+      "19279665",
+      "23589858",
+      "23746845",
+      "25569305",
+      "17070718",
+      "17289918",
+      "15126391",
+      "31645360",
+      "17565964",
+      "31204167",
+      "29544213",
+      "20628356",
+      "28679532",
+      "12152085",
+      "28970327",
+      "23080121",
+      "16143598",
+      "28292918",
+      "21458667",
+      "30538107",
+      "38321948",
+      "34817085",
+      "15572688",
+      "17237517",
+      "30501098",
+      "25120270"
+    ],
+    "review": [
+      "33980827",
+      "34311383",
+      "29922906",
+      "22203190"
+    ],
+    "pmc": [
+      "8115599"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-23035-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33980827/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/33980827",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33980827",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD50-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-954",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33980827",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

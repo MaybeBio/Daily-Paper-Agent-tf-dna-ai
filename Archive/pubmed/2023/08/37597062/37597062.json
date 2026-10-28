@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "37597062",
+    "doi": "10.1007/s10822-023-00528-y",
+    "title": "Computational workflow for discovering small molecular binders for shallow binding sites by integrating molecular dynamics simulation, pharmacophore modeling, and machine learning: STAT3 as case study."
+  },
+  "content": {
+    "abstract": "STAT3 belongs to a family of seven transcription factors. It plays an important role in activating the transcription of various genes involved in a variety of cellular processes. High levels of STAT3 are detected in several types of cancer. Hence, STAT3 inhibition is considered a promising therapeutic anti-cancer strategy. However, since STAT3 inhibitors bind to the shallow SH2 domain of the protein, it is expected that hydration water molecules play significant role in ligand-binding complicating the discovery of potent binders. To remedy this issue, we herein propose to extract pharmacophores from molecular dynamics (MD) frames of a potent co-crystallized ligand complexed within STAT3 SH2 domain. Subsequently, we employ genetic function algorithm coupled with machine learning (GFA-ML) to explore the optimal combination of MD-derived pharmacophores that can account for the variations in bioactivity among a list of inhibitors. To enhance the dataset, the training and testing lists were augmented nearly a 100-fold by considering multiple conformers of the ligands. A single significant pharmacophore emerged after 188 ns of MD simulation to represent STAT3-ligand binding. Screening the National Cancer Institute (NCI) database with this model identified one low micromolar inhibitor most likely binds to the SH2 domain of STAT3 and inhibits this pathway.",
+    "keywords": [
+      "Data augmentation",
+      "Drug discovery",
+      "Genetic function algorithm",
+      "Machine learning",
+      "Molecular dynamic simulation",
+      "QSAR",
+      "STAT3"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "Pharmacophore",
+      "Ligands",
+      "Workflow",
+      "Binding Sites",
+      "*Neoplasms",
+      "Molecular Docking Simulation",
+      "Quantitative Structure-Activity Relationship",
+      "STAT3 Transcription Factor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jaradat, Nour Jamal",
+        "Hatmal, Mamon",
+        "Alqudah, Dana",
+        "Taha, Mutasem Omar"
+      ],
+      "short_names": [
+        "Jaradat NJ",
+        "Hatmal M",
+        "Alqudah D",
+        "Taha MO"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Laboratory Sciences, Faculty of Applied Health Sciences, The Hashemite University, P.O. Box 330127, Zarqa, 13133, Jordan.",
+        "Department of Medical Laboratory Sciences, Faculty of Applied Health Sciences, The Hashemite University, P.O. Box 330127, Zarqa, 13133, Jordan.",
+        "Cell Therapy Center, the University of Jordan, Amman, 11942, Jordan.",
+        "Department of Pharmaceutical Sciences, Faculty of Pharmacy, University of Jordan, Amman, Jordan. mutasem@ju.edu.jo."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jaradat, Nour Jamal",
+        "short_name": "Jaradat NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Sciences, Faculty of Applied Health Sciences, The Hashemite University, P.O. Box 330127, Zarqa, 13133, Jordan."
+        ]
+      },
+      {
+        "full_name": "Hatmal, Mamon",
+        "short_name": "Hatmal M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Sciences, Faculty of Applied Health Sciences, The Hashemite University, P.O. Box 330127, Zarqa, 13133, Jordan."
+        ]
+      },
+      {
+        "full_name": "Alqudah, Dana",
+        "short_name": "Alqudah D",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Therapy Center, the University of Jordan, Amman, 11942, Jordan."
+        ]
+      },
+      {
+        "full_name": "Taha, Mutasem Omar",
+        "short_name": "Taha MO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Faculty of Pharmacy, University of Jordan, Amman, Jordan. mutasem@ju.edu.jo."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of computer-aided molecular design"
+    ],
+    "journal_abbrev": [
+      "J Comput Aided Mol Des"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/19 20:41",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "42582948"
+    ],
+    "refs": [
+      "37100941",
+      "36760267",
+      "36010614",
+      "35736838",
+      "35636004",
+      "35424985",
+      "34953855",
+      "34876230",
+      "34426763",
+      "34262291",
+      "33839684",
+      "32603980",
+      "32475130",
+      "32361862",
+      "31957003",
+      "31576621",
+      "31512867",
+      "31456282",
+      "31158642",
+      "30976107",
+      "29660364",
+      "29313301",
+      "29165360",
+      "29101826",
+      "28875329",
+      "28722471",
+      "27899562",
+      "26575568",
+      "26487442",
+      "25956379",
+      "25941465",
+      "25883136",
+      "25574766",
+      "25448759",
+      "24842057",
+      "24413672",
+      "24339763",
+      "24050502",
+      "23092060",
+      "22112539",
+      "21526897",
+      "21182587",
+      "19701750",
+      "18196462",
+      "17692803",
+      "17691764",
+      "17129668",
+      "17114005",
+      "15801843",
+      "12133614",
+      "11994401",
+      "11472240",
+      "10458605",
+      "4009615"
+    ],
+    "similar": [
+      "37597062",
+      "35973966",
+      "34463213",
+      "36760267",
+      "30415122",
+      "37855953",
+      "31158642",
+      "37222400",
+      "35831728",
+      "30799792",
+      "28486912",
+      "31355691",
+      "33932608",
+      "38697440",
+      "27668885",
+      "29475408",
+      "37978263",
+      "26587754",
+      "36709457",
+      "28938860",
+      "26954606",
+      "34809538",
+      "35032738",
+      "31394858",
+      "25288792",
+      "33915968",
+      "35507210",
+      "25160651",
+      "30052133",
+      "30661449",
+      "26685860",
+      "29633917",
+      "35059939",
+      "36597611",
+      "34405765",
+      "21360612",
+      "30149308",
+      "29753941",
+      "36799050",
+      "35014597",
+      "30703688",
+      "32363995",
+      "31172362",
+      "30938574",
+      "29064326",
+      "29182053",
+      "37182359",
+      "39014286",
+      "30633630",
+      "30324898",
+      "36214962",
+      "30047845",
+      "29842849",
+      "27995250",
+      "33034255",
+      "26188796",
+      "34151738",
+      "25350685",
+      "29156382",
+      "33063944",
+      "28135036",
+      "32898834",
+      "35543232",
+      "30079817",
+      "28399673",
+      "36775656",
+      "29456101",
+      "36550239",
+      "37641144",
+      "37062794",
+      "25710482",
+      "32339898",
+      "38446372",
+      "27114700",
+      "31904142",
+      "32484104",
+      "26906522",
+      "31057055",
+      "27479469",
+      "32639159",
+      "25541527",
+      "28849890",
+      "36841313",
+      "29549805",
+      "35451916",
+      "38954070",
+      "25777967",
+      "32911607",
+      "32748063",
+      "32772816",
+      "27401212",
+      "25574766",
+      "29945500",
+      "29138965",
+      "31755336",
+      "27722817",
+      "29718775",
+      "33155526",
+      "26804643",
+      "28768454",
+      "28714799",
+      "32472293",
+      "22545675",
+      "35424985",
+      "39173044",
+      "36545090",
+      "39399689",
+      "38264524",
+      "27661130"
+    ],
+    "review": [
+      "37597062",
+      "36841313"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10822-023-00528-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

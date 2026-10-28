@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "37205561",
+    "doi": "10.1101/2023.05.03.539308",
+    "title": "A Bayesian Noisy Logic Model for Inference of Transcription Factor Activity from Single Cell and Bulk Transcriptomic Data."
+  },
+  "content": {
+    "abstract": "The advent of high-throughput sequencing has made it possible to measure the expression of genes at relatively low cost. However, direct measurement of regulatory mechanisms, such as Transcription Factor (TF) activity is still not readily feasible in a high-throughput manner. Consequently, there is a need for computational approaches that can reliably estimate regulator activity from observable gene expression data. In this work, we present a noisy Boolean logic Bayesian model for TF activity inference from differential gene expression data and causal graphs. Our approach provides a flexible framework to incorporate biologically motivated TF-gene regulation logic models. Using simulations and controlled over-expression experiments in cell cultures, we demonstrate that our method can accurately identify TF activity. Moreover, we apply our method to bulk and single cell transcriptomics measurements to investigate transcriptional regulation of fibroblast phenotypic plasticity. Finally, to facilitate usage, we provide user-friendly software packages and a web-interface to query TF activity from user input differential gene expression data: https://umbibio.math.umb.edu/nlbayes/.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arriojas, Argenis",
+        "Patalano, Susan",
+        "Macoska, Jill",
+        "Zarringhalam, Kourosh"
+      ],
+      "short_names": [
+        "Arriojas A",
+        "Patalano S",
+        "Macoska J",
+        "Zarringhalam K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mathematics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Department of Physics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Department of Mathematics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arriojas, Argenis",
+        "short_name": "Arriojas A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+          "Department of Physics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+          "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+        ]
+      },
+      {
+        "full_name": "Patalano, Susan",
+        "short_name": "Patalano S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+        ]
+      },
+      {
+        "full_name": "Macoska, Jill",
+        "short_name": "Macoska J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+        ]
+      },
+      {
+        "full_name": "Zarringhalam, Kourosh",
+        "short_name": "Zarringhalam K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+          "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 May 5",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/19 19:14",
+    "fetched_at": "2026-09-29 00:42:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37205561",
+      "38094309",
+      "28961802",
+      "27519564",
+      "36326081",
+      "29178844",
+      "30547796",
+      "26678566",
+      "21172055",
+      "31099391",
+      "29769331",
+      "35783282",
+      "36790055",
+      "32858223",
+      "31790679",
+      "15166027",
+      "15784747",
+      "37607190",
+      "25957350",
+      "29506475",
+      "22647244",
+      "19036135",
+      "37537644",
+      "34251625",
+      "26679776",
+      "28294630",
+      "22931563",
+      "36147664",
+      "28617232",
+      "32615918",
+      "30725469",
+      "18426580",
+      "28068916",
+      "23079107",
+      "22563068",
+      "32690031",
+      "16131521",
+      "37577525",
+      "32174324",
+      "23161675",
+      "33877766",
+      "19045834",
+      "31455220",
+      "18586698",
+      "17500587",
+      "32357166",
+      "30573378",
+      "29051499",
+      "25707768",
+      "34039282",
+      "35961023",
+      "28666320",
+      "22106333",
+      "22456606",
+      "24565265",
+      "21586587",
+      "26072483",
+      "31857203",
+      "32054475",
+      "15890068",
+      "30458000",
+      "37682477",
+      "26758513",
+      "33573289",
+      "24348226",
+      "24608172",
+      "16719927",
+      "24028533",
+      "18021409",
+      "36476060",
+      "19786497",
+      "26334955",
+      "33135076",
+      "36040154",
+      "29621972",
+      "27600248",
+      "31046682",
+      "22955984",
+      "32163125",
+      "25433230",
+      "30445760",
+      "26066708"
+    ],
+    "review": [
+      "37205561",
+      "36147664"
+    ],
+    "pmc": [
+      "10187261"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37205561/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37205561",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.05.03.539308",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

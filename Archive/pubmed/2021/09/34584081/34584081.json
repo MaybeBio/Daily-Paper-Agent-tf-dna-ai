@@ -1,0 +1,561 @@
+{
+  "identity": {
+    "pmid": "34584081",
+    "doi": "10.1038/s41467-021-25862-3",
+    "title": "The leukemic oncogene EVI1 hijacks a MYC super-enhancer by CTCF-facilitated loops."
+  },
+  "content": {
+    "abstract": "Chromosomal rearrangements are a frequent cause of oncogene deregulation in human malignancies. Overexpression of EVI1 is found in a subgroup of acute myeloid leukemia (AML) with 3q26 chromosomal rearrangements, which is often therapy resistant. In AMLs harboring a t(3;8)(q26;q24), we observed the translocation of a MYC super-enhancer (MYC SE) to the EVI1 locus. We generated an in vitro model mimicking a patient-based t(3;8)(q26;q24) using CRISPR-Cas9 technology and demonstrated hyperactivation of EVI1 by the hijacked MYC SE. This MYC SE contains multiple enhancer modules, of which only one recruits transcription factors active in early hematopoiesis. This enhancer module is critical for EVI1 overexpression as well as enhancer-promoter interaction. Multiple CTCF binding regions in the MYC SE facilitate this enhancer-promoter interaction, which also involves a CTCF binding site upstream of the EVI1 promoter. We hypothesize that this CTCF site acts as an enhancer-docking site in t(3;8) AML. Genomic analyses of other 3q26-rearranged AML patient cells point to a common mechanism by which EVI1 uses this docking site to hijack enhancers active in early hematopoiesis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Acute Disease",
+      "CCCTC-Binding Factor/*genetics/metabolism",
+      "Chromosomes, Human, Pair 3/genetics",
+      "Chromosomes, Human, Pair 8/genetics",
+      "Enhancer Elements, Genetic/*genetics",
+      "Gene Expression Regulation, Leukemic",
+      "Gene Rearrangement",
+      "High-Throughput Nucleotide Sequencing/methods",
+      "Humans",
+      "In Situ Hybridization, Fluorescence/methods",
+      "K562 Cells",
+      "Karyotyping",
+      "Leukemia, Myeloid/*genetics/metabolism/pathology",
+      "MDS1 and EVI1 Complex Locus Protein/*genetics",
+      "Promoter Regions, Genetic/genetics",
+      "Protein Binding",
+      "Proto-Oncogene Proteins c-myc/*genetics",
+      "Proto-Oncogenes/*genetics",
+      "Translocation, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ottema, Sophie",
+        "Mulet-Lazaro, Roger",
+        "Erpelinck-Verschueren, Claudia",
+        "van Herk, Stanley",
+        "Havermans, Marije",
+        "Arricibita Varea, Andrea",
+        "Vermeulen, Michael",
+        "Beverloo, H Berna",
+        "Groschel, Stefan",
+        "Haferlach, Torsten",
+        "Haferlach, Claudia",
+        "J Wouters, Bas",
+        "Bindels, Eric",
+        "Smeenk, Leonie",
+        "Delwel, Ruud"
+      ],
+      "short_names": [
+        "Ottema S",
+        "Mulet-Lazaro R",
+        "Erpelinck-Verschueren C",
+        "van Herk S",
+        "Havermans M",
+        "Arricibita Varea A",
+        "Vermeulen M",
+        "Beverloo HB",
+        "Groschel S",
+        "Haferlach T",
+        "Haferlach C",
+        "J Wouters B",
+        "Bindels E",
+        "Smeenk L",
+        "Delwel R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0298-7948",
+        "ORCID: 0000-0002-3965-4488",
+        "ORCID: 0000-0002-8707-703X",
+        "ORCID: 0000-0001-7025-8515"
+      ],
+      "affiliations": [
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Department of Clinical Genetics, Erasmus University Medical Center, Rotterdam, The Netherlands.",
+        "A380, German Cancer Research Center, Heidelberg, Germany.",
+        "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany.",
+        "Munich Leukemia Laboratory, Munich, Germany.",
+        "Munich Leukemia Laboratory, Munich, Germany.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands. h.delwel@erasmusmc.nl.",
+        "Oncode Institute, Utrecht, The Netherlands. h.delwel@erasmusmc.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ottema, Sophie",
+        "short_name": "Ottema S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+          "Oncode Institute, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Mulet-Lazaro, Roger",
+        "short_name": "Mulet-Lazaro R",
+        "identifiers": [
+          "0000-0003-0298-7948"
+        ],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+          "Oncode Institute, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Erpelinck-Verschueren, Claudia",
+        "short_name": "Erpelinck-Verschueren C",
+        "identifiers": [
+          "0000-0002-3965-4488"
+        ],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+          "Oncode Institute, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Herk, Stanley",
+        "short_name": "van Herk S",
+        "identifiers": [
+          "0000-0002-8707-703X"
+        ],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+          "Oncode Institute, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Havermans, Marije",
+        "short_name": "Havermans M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+          "Oncode Institute, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Arricibita Varea, Andrea",
+        "short_name": "Arricibita Varea A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+          "Oncode Institute, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vermeulen, Michael",
+        "short_name": "Vermeulen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Beverloo, H Berna",
+        "short_name": "Beverloo HB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Erasmus University Medical Center, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gröschel, Stefan",
+        "short_name": "Gröschel S",
+        "identifiers": [],
+        "affiliations": [
+          "A380, German Cancer Research Center, Heidelberg, Germany.",
+          "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Haferlach, Torsten",
+        "short_name": "Haferlach T",
+        "identifiers": [],
+        "affiliations": [
+          "Munich Leukemia Laboratory, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Haferlach, Claudia",
+        "short_name": "Haferlach C",
+        "identifiers": [],
+        "affiliations": [
+          "Munich Leukemia Laboratory, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "J Wouters, Bas",
+        "short_name": "J Wouters B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+          "Oncode Institute, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Bindels, Eric",
+        "short_name": "Bindels E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Smeenk, Leonie",
+        "short_name": "Smeenk L",
+        "identifiers": [
+          "0000-0001-7025-8515"
+        ],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands.",
+          "Oncode Institute, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Delwel, Ruud",
+        "short_name": "Delwel R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands. h.delwel@erasmusmc.nl.",
+          "Oncode Institute, Utrecht, The Netherlands. h.delwel@erasmusmc.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Sep 28",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/30 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [
+      "42551945",
+      "42346076",
+      "42223735",
+      "42034869",
+      "41777888",
+      "41722573",
+      "41419608",
+      "40983567",
+      "40962935",
+      "40606603",
+      "40237701",
+      "40219822",
+      "40032852",
+      "39853740",
+      "39680456",
+      "39121370",
+      "39093124",
+      "39047169",
+      "38834613",
+      "38586095",
+      "38542080",
+      "38375042",
+      "38086946",
+      "37953829",
+      "37886034",
+      "37870453",
+      "37810550",
+      "37525239",
+      "37460542",
+      "37443779",
+      "37349773",
+      "36947815",
+      "36672407",
+      "36649572",
+      "36159594",
+      "35982471",
+      "35899387",
+      "35709354",
+      "35162973",
+      "35053311"
+    ],
+    "refs": [
+      "33398174",
+      "32219447",
+      "31701148",
+      "31351925",
+      "31106371",
+      "31092938",
+      "30809026",
+      "30576868",
+      "29641996",
+      "29507293",
+      "29342133",
+      "29224777",
+      "29126249",
+      "28263959",
+      "27863955",
+      "27728794",
+      "27570068",
+      "27364700",
+      "27079975",
+      "26925227",
+      "26328504",
+      "25516281",
+      "25497547",
+      "25303531",
+      "24703906",
+      "24703711",
+      "24335803",
+      "24227677",
+      "23974199",
+      "23199754",
+      "23193294",
+      "22961246",
+      "22908213",
+      "22495300",
+      "22388286",
+      "21694736",
+      "21376230",
+      "21295696",
+      "21221095",
+      "20660833",
+      "20308656",
+      "19668202",
+      "19451168",
+      "18798982",
+      "18272813",
+      "17693189",
+      "17361217",
+      "16619048",
+      "16616115",
+      "16314052",
+      "15084694",
+      "14551738",
+      "12393383",
+      "11846609"
+    ],
+    "similar": [
+      "34584081",
+      "17693189",
+      "32219447",
+      "33911178",
+      "14551738",
+      "8585955",
+      "22887804",
+      "9067573",
+      "18181178",
+      "8643684",
+      "22553314",
+      "17243162",
+      "24703711",
+      "7780155",
+      "23008312",
+      "28484159",
+      "30576868",
+      "10482986",
+      "10557037",
+      "28781278",
+      "24703906",
+      "18272813",
+      "29641996",
+      "38834613",
+      "9447815",
+      "35709354",
+      "31820561",
+      "22634393",
+      "29288910",
+      "37914237",
+      "22682625",
+      "38710877",
+      "9209363",
+      "24828867",
+      "33980539",
+      "12393383",
+      "38296260",
+      "24495476",
+      "12461752",
+      "20357826",
+      "9695409",
+      "21750091",
+      "38086946",
+      "18815193",
+      "39358295",
+      "31127282",
+      "8049440",
+      "16875579",
+      "30526151",
+      "39187468",
+      "26043219",
+      "11167805",
+      "10086725",
+      "17341266",
+      "11835339",
+      "1570317",
+      "36095844",
+      "28391050",
+      "16342172",
+      "9234595",
+      "17011981",
+      "26229090",
+      "8813093",
+      "20084277",
+      "16955462",
+      "14607750",
+      "17894555",
+      "11050005",
+      "16532439",
+      "28630119",
+      "8613429",
+      "16843110",
+      "31593983",
+      "21965759",
+      "19027486",
+      "8118036",
+      "25331116",
+      "25886616",
+      "8171026",
+      "24735919",
+      "30971697",
+      "16619048",
+      "7919381",
+      "23547050",
+      "25491945",
+      "30315161",
+      "9192861",
+      "37060567",
+      "7795214",
+      "32535247",
+      "29666005",
+      "9307271",
+      "23760684",
+      "16995417",
+      "24498324",
+      "28186604",
+      "20855866",
+      "17507183",
+      "15138998",
+      "19665075",
+      "23054648",
+      "17409414",
+      "27908728",
+      "15085164",
+      "25959919",
+      "25486926",
+      "22689058",
+      "25015941",
+      "20556821",
+      "33753715",
+      "34668265",
+      "38748792",
+      "29939287",
+      "15343390",
+      "39033128",
+      "16204320",
+      "33397967",
+      "34040254",
+      "35863900",
+      "39122009",
+      "36717694",
+      "34725128",
+      "32979164",
+      "38452764",
+      "27498870",
+      "36289338",
+      "20133699",
+      "33863876",
+      "33298918",
+      "33741908",
+      "35234932",
+      "37280210",
+      "38923173",
+      "36207300",
+      "39110799",
+      "38995475",
+      "38328209",
+      "36609474",
+      "34933939",
+      "38057321",
+      "35053311",
+      "36710659",
+      "38480925",
+      "39316719",
+      "35108519",
+      "36477537",
+      "39304649",
+      "36157504",
+      "36945628"
+    ],
+    "review": [
+      "34584081",
+      "28484159",
+      "9447815",
+      "31820561",
+      "24495476",
+      "39358295",
+      "26043219",
+      "9234595",
+      "7795214",
+      "23760684",
+      "16995417",
+      "17507183",
+      "33753715",
+      "34725128",
+      "35053311"
+    ],
+    "pmc": [
+      "8479123"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-25862-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34584081/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34584081",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

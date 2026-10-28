@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, main sections, future perspectives, acknowledgments)
+- **Assessment boundary** Scientific content, technical accuracy, logical coherence, and support for claims based solely on the provided text
+- **Shared manuscript claim summary** The authors argue that enhancers are dynamic regulatory elements central to cardiovascular development and disease, that recent technological advances (single-cell multi-omics, CRISPR screens, machine learning) enable new insights into enhancer function, and that transcriptional condensates represent a novel and important framework for understanding enhancer-mediated gene regulation and cell fate decisions in the cardiovascular system
+- **Visible evidence base** The manuscript is a narrative review; evidence cited includes published studies (e.g., Ma and Conley et al., Kanemaru and Cranley et al., Alexanian et al., Wang and Cui et al., Xiao et al., Kang et al., Goldman and Kuzu et al., Yan and Cigliola et al., Begeman et al.) and the authors' own published work on MYOCD condensates
+- **Missing materials affecting confidence** No figures, tables, or reference list were provided. Specific experimental details, data quantification, and methodological descriptions for cited studies are not available. The manuscript's length and depth relative to a typical Nature-style review cannot be fully assessed
+
+## Reviewer
+- **Overall assessment** This is a well-written and informative review that covers a broad range of topics related to enhancer biology in the cardiovascular system. The authors successfully integrate discussions of technological advances, noncoding variant interpretation, and emerging concepts such as transcriptional condensates. The manuscript is likely to be of interest to cardiovascular biologists and researchers in gene regulation. However, several concerns limit the strength of the review: the scope is overly broad in places, some claims are not fully supported by the evidence presented, and the discussion of transcriptional condensates, while interesting, is speculative and not critically balanced. The review would benefit from a clearer focus and more rigorous treatment of alternative interpretations and limitations.
+- **Who would be interested in the results, and why** Cardiovascular researchers studying gene regulation, epigenomics, and disease mechanisms would find this review useful. Investigators interested in enhancer biology, single-cell genomics, and transcriptional condensates would also benefit. The review provides a useful summary of recent technological developments and highlights key studies, which could help orient newcomers to the field and stimulate new research directions.
+- **Major strengths** The review is clearly organized and covers a timely topic. The authors provide a good overview of recent technological advances, particularly single-cell co-assays and their application to cardiovascular tissues. The discussion of noncoding variants and their impact on enhancer function is relevant and well-illustrated with specific examples. The inclusion of transcriptional condensates as a conceptual framework is thought-provoking and adds a forward-looking perspective. The authors also acknowledge limitations of current approaches, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope and focus
+  - **Claim pointer** The review claims to discuss "cutting-edge techniques that are being or can be leveraged to fill knowledge gaps in studying cardiovascular enhancers" and to summarize "findings of inducible enhancer functions in the cardiovascular system"
+  - **Evidence pointer** Sections: "Technological advances to characterize cardiovascular enhancers", "Inducible cardiovascular enhancer activation"
+  - **Concern** The review attempts to cover an extremely broad range of topics, from technological methods to disease mechanisms to transcriptional condensates. As a result, each topic is treated at a relatively superficial level. For example, the section on single-cell histone modifications lists many methods but does not critically compare their strengths and limitations in the context of cardiovascular research. Similarly, the section on inducible enhancers provides only brief summaries of selected studies without deep mechanistic discussion. The review lacks a clear central thesis or organizing principle that would tie these diverse topics together.
+  - **Why it matters** A review that tries to cover too much ground risks becoming a list of topics rather than a coherent synthesis. For a Nature-style review, readers expect a focused, in-depth treatment of a specific area that provides new insights and identifies key questions. The current breadth may dilute the impact and make the review less useful for specialists.
+  - **Resolution test** The authors should either narrow the scope to a more focused topic (e.g., enhancer dynamics in cardiovascular disease) or restructure the review to clearly articulate how the different sections relate to a central theme. Each section should provide deeper analysis and critical evaluation rather than descriptive summaries.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The authors state that "transcriptional condensates are ubiquitous in the cardiovascular system and play critical roles in various cellular processes that demand rapid and robust gene activation"
+  - **Evidence pointer** Section: "Future perspectives"
+  - **Concern** This claim is presented as a statement of fact, but the evidence provided in the review is limited to the authors' own study on MYOCD condensates and a few other examples. The claim of ubiquity is not supported by systematic evidence. The authors themselves note that "MYOCD has been the only master cardiovascular transcriptional coactivator confirmed to regulate cell lineage specification through forming condensates." The extrapolation to ubiquity is therefore speculative.
+  - **Why it matters** Overstating the evidence for a novel concept can mislead readers and undermine the credibility of the review. A more measured and critical assessment of the current evidence for transcriptional condensates in the cardiovascular system is needed.
+  - **Resolution test** The authors should temper the claim and explicitly distinguish between established findings and hypotheses. They should also discuss alternative models for enhancer function and the limitations of the condensate framework.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Balance and critical analysis
+  - **Claim pointer** The review discusses "implications of transcriptional condensates in regulating cardiovascular cell fate" and proposes that condensates are a "new frontier"
+  - **Evidence pointer** Section: "Implications of transcriptional condensates in regulating cardiovascular cell fate"
+  - **Concern** The discussion of transcriptional condensates is largely one-sided. The authors do not critically engage with the controversies or limitations of the condensate model, such as questions about the functional relevance of phase-separated condensates versus other mechanisms of transcriptional regulation. The potential artifacts of condensate studies (e.g., overexpression systems, non-physiological conditions) are not discussed.
+  - **Why it matters** A balanced review should present multiple perspectives and acknowledge uncertainties. The current treatment may give readers an overly optimistic view of the condensate model and its applicability to cardiovascular biology.
+  - **Resolution test** The authors should include a critical discussion of the limitations and alternative interpretations of the condensate model, and clearly state what is known versus what is speculative.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of evidence
+  - **Claim pointer** The review states that "MPRA has been successfully applied to the cardiovascular system" and cites a study using AAV9 to deliver MPRA constructs in vivo
+  - **Evidence pointer** Section: "Experimental approaches to characterize enhancer activities"
+  - **Concern** The description of the in vivo MPRA study is brief and lacks details on the experimental design, the number of enhancers tested, the validation criteria, and the biological significance of the findings. Without these details, it is difficult for the reader to assess the robustness and generalizability of the results.
+  - **Why it matters** For a review that aims to inform readers about the utility of a technique, providing sufficient detail about key studies is essential. The current level of detail is insufficient for readers to evaluate the strength of the evidence.
+  - **Resolution test** The authors should provide more specific information about the cited studies, including sample sizes, effect sizes, and any limitations. Alternatively, they could refer readers to the original publications for details, but the review should still provide enough context to understand the significance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and lists many topics without a clear logical flow. The sentence "Like gene expression, enhancers display functional dynamics in concordance with specific cellular stress" is vague and could be more specific.
+  - **Required correction** Revise the abstract to more clearly state the main purpose and scope of the review, and provide a more concrete description of the key findings and concepts discussed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section: "Inducible cardiovascular enhancer activation"
+  - **Evidence pointer** Section: "Inducible cardiovascular enhancer activation"
+  - **Issue** The term "inducible enhancers" is used without a clear definition. It is not immediately clear whether this refers to enhancers that are activated by specific stimuli, enhancers that are dynamically regulated during development, or both.
+  - **Required correction** Provide a clear definition of "inducible enhancers" at the start of the section and explain how they differ from constitutive enhancers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section: "Machine learning and cardiovascular enhancer biology"
+  - **Evidence pointer** Section: "Machine learning and cardiovascular enhancer biology"
+  - **Issue** The discussion of machine learning models is brief and does not clearly explain how these models are trained, what features they use, or how they are validated. The mention of AlphaGenome is interesting but lacks context.
+  - **Required correction** Expand the discussion to provide a brief overview of how machine learning models are applied to enhancer prediction, including the types of input data and the evaluation metrics used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section: "Dosage-dependent regulation of cardiovascular cell fate by transcription factors"
+  - **Evidence pointer** Section: "Dosage-dependent regulation of cardiovascular cell fate by transcription factors"
+  - **Issue** The section on dosage-dependent regulation is somewhat disjointed, moving from TF haploinsufficiency to condensates without a clear transition. The connection between the two topics could be made more explicit.
+  - **Required correction** Add a transitional paragraph or sentence that links the concept of TF dosage to the formation of transcriptional condensates and explains how the condensate model provides a mechanistic framework for understanding dosage sensitivity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section: "Future perspectives"
+  - **Evidence pointer** Section: "Future perspectives"
+  - **Issue** The future perspectives section is brief and does not provide a clear roadmap for the field. It mentions integrating enhancer annotation with machine learning and human genetics but does not discuss specific challenges or priorities.
+  - **Required correction** Expand the future perspectives to include a more detailed discussion of the key questions that need to be addressed, the technical hurdles that must be overcome, and the potential clinical applications of enhancer research.
+- **Technical failings that need to be addressed before the case is established** The review's central claim that transcriptional condensates are a "new frontier" in cardiovascular enhancer research is not fully supported by the evidence presented. The authors should provide a more balanced and critical assessment of the condensate model, including its limitations and alternative interpretations. Additionally, the review's broad scope prevents deep treatment of any single topic, which weakens its overall impact.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The review is not highly original in its overall scope, as enhancer biology in the cardiovascular system has been reviewed before. However, the emphasis on transcriptional condensates as a framework for understanding enhancer function is a relatively novel angle. The originality is moderate.
+  - **Scientific importance** The topic is of significant importance, as enhancer dysfunction is increasingly recognized in cardiovascular disease. The review highlights recent advances and identifies areas for future research, which is valuable. However, the importance is somewhat undermined by the lack of depth in some sections.
+  - **Interdisciplinary readership** The review is likely to appeal to a broad audience, including cardiovascular biologists, epigenomics researchers, and computational biologists. The discussion of machine learning and single-cell technologies may attract readers from other fields. The interdisciplinary appeal is good.
+  - **Technical soundness** The technical content is generally accurate, but the review lacks critical evaluation of the methods and studies discussed. The authors do not always distinguish between well-established findings and speculative hypotheses, which is a technical weakness.
+  - **Readability for nonspecialists** The review is generally well-written and accessible, but some sections are dense and assume prior knowledge of the field. The abstract could be clearer. The readability is adequate but could be improved.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review has the potential to be a useful and thought-provoking contribution, but it requires revisions to sharpen its focus, provide more critical analysis, and ensure that claims are appropriately supported.
+
+## Risk / unsupported claims
+- The claim that "transcriptional condensates are ubiquitous in the cardiovascular system" is not supported by the evidence presented in the review.
+- The statement that "enhancers display functional dynamics in concordance with specific cellular stress" is vague and not clearly defined or supported.
+- The assertion that "these insights have great potential to inform novel therapeutic strategies targeting enhancer-mediated gene dysregulation" is speculative and not backed by specific examples or evidence.
+- The review's discussion of the in vivo MPRA study lacks sufficient detail to assess the robustness of the findings.

@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "40234426",
+    "doi": "10.1038/s41540-025-00510-4",
+    "title": "Predicting gene expression changes from chromatin structure modification."
+  },
+  "content": {
+    "abstract": "Spatial organization of chromatin plays a critical role in gene transcription, but connecting population-averaged HiC data to functional outcomes remains a challenge. We present a computational framework linking HiC contact map to gene transcription. Utilizing a bead-spring polymer model informed by HiC contact maps, we generate an ensemble of 3D conformations for a given genomic locus. These conformations are then coupled to gene transcription levels through a Markov chain model, with transition rates derived from molecular dynamics simulations. The efficacy of this framework is demonstrated by simulating the perturbation of a CTCF-mediated TAD boundary, impacting the expression of sox9 and kcnj2. Our model quantitatively reproduces experimentally observed changes in gene expression, revealing that the increased kcnj2 transcription is a consequence of enhancers within the sox9 TAD becoming accessible upon boundary disruption. Quantifying enhancer impact, our model can also identify functional enhancers. This framework enhances our understanding of the relationship between chromosome spatial architecture and gene regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/genetics/chemistry/metabolism",
+      "Humans",
+      "*Gene Expression Regulation/genetics",
+      "CCCTC-Binding Factor",
+      "SOX9 Transcription Factor/genetics/metabolism",
+      "Markov Chains",
+      "Molecular Dynamics Simulation",
+      "Enhancer Elements, Genetic",
+      "Potassium Channels, Inwardly Rectifying/genetics",
+      "Transcription, Genetic",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Senapati, Swayamshree",
+        "Irshad, Inayat Ullah",
+        "Sharma, Ajeet K",
+        "Kumar, Hemant"
+      ],
+      "short_names": [
+        "Senapati S",
+        "Irshad IU",
+        "Sharma AK",
+        "Kumar H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4339-5711"
+      ],
+      "affiliations": [
+        "School of Basic Sciences, Indian Institute of Technology Bhubaneswar, Argul, Odisha, 752050, India.",
+        "Department of Physics, Indian Institute of Technology Jammu, Jammu, 181221, India.",
+        "Department of Physics, Indian Institute of Technology Jammu, Jammu, 181221, India.",
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology Jammu, Jammu, 181221, India.",
+        "School of Basic Sciences, Indian Institute of Technology Bhubaneswar, Argul, Odisha, 752050, India. hemant@iitbbs.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Senapati, Swayamshree",
+        "short_name": "Senapati S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Bhubaneswar, Argul, Odisha, 752050, India."
+        ]
+      },
+      {
+        "full_name": "Irshad, Inayat Ullah",
+        "short_name": "Irshad IU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Indian Institute of Technology Jammu, Jammu, 181221, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Ajeet K",
+        "short_name": "Sharma AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Indian Institute of Technology Jammu, Jammu, 181221, India.",
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology Jammu, Jammu, 181221, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Hemant",
+        "short_name": "Kumar H",
+        "identifiers": [
+          "0000-0003-4339-5711"
+        ],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Bhubaneswar, Argul, Odisha, 752050, India. hemant@iitbbs.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2025 Apr 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42182314",
+      "41495604"
+    ],
+    "refs": [
+      "39168125",
+      "38509385",
+      "38171575",
+      "37789867",
+      "37770717",
+      "37537334",
+      "36471076",
+      "36471071",
+      "36180596",
+      "36104547",
+      "35817979",
+      "35639508",
+      "35418676",
+      "35390165",
+      "35168174",
+      "34931241",
+      "34645712",
+      "34241389",
+      "34240703",
+      "34040254",
+      "33885786",
+      "33767413",
+      "33086041",
+      "32719507",
+      "32620890",
+      "32514111",
+      "32109364",
+      "31740966",
+      "31554625",
+      "31398323",
+      "31358994",
+      "31308546",
+      "31181064",
+      "30344096",
+      "30108770",
+      "29764566",
+      "29662163",
+      "29472443",
+      "28728836",
+      "28369076",
+      "28070687",
+      "27760553",
+      "27688758",
+      "27405443",
+      "27218881",
+      "27210764",
+      "27111891",
+      "27067601",
+      "27064255",
+      "26716464",
+      "26223848",
+      "25959774",
+      "25768903",
+      "25497547",
+      "25349675",
+      "25160912",
+      "25092923",
+      "24821768",
+      "24813616",
+      "24413732",
+      "23746550",
+      "23060900",
+      "22951020",
+      "22341456",
+      "22215806",
+      "21300894",
+      "20833320",
+      "19927119",
+      "19923429",
+      "19815776",
+      "19793304",
+      "18931780",
+      "17130149",
+      "16728641",
+      "15685227",
+      "12426570",
+      "9679020",
+      "8744570",
+      "7987648"
+    ],
+    "similar": [
+      "40234426",
+      "31358994",
+      "34033138",
+      "34245617",
+      "39545685",
+      "36650052",
+      "28863138",
+      "28977568",
+      "34099725",
+      "32213323",
+      "35180428",
+      "28085555",
+      "31177910",
+      "22665440",
+      "33581110",
+      "32086528",
+      "32680543",
+      "33229569",
+      "32249388",
+      "39312688",
+      "26034287",
+      "38452764",
+      "28737770",
+      "32293525",
+      "34821995",
+      "38062010",
+      "30717603",
+      "34453048",
+      "28137913",
+      "32853367",
+      "29757144",
+      "27706140",
+      "30146478",
+      "39257002",
+      "30086769",
+      "35691341",
+      "40114377",
+      "31811132",
+      "39272130",
+      "34108683",
+      "35234932",
+      "26686651",
+      "25299688",
+      "31266948",
+      "34240703",
+      "28388437",
+      "30456521",
+      "30125668",
+      "27899590",
+      "39999165",
+      "31500627",
+      "36996812",
+      "30031214",
+      "34002095",
+      "39169755",
+      "34197738",
+      "40140405",
+      "32431014",
+      "39727192",
+      "34711654",
+      "29284524",
+      "39093600",
+      "29335803",
+      "17382392",
+      "39671497",
+      "38855864",
+      "33232622",
+      "32058623",
+      "34253239",
+      "29522804",
+      "34931241",
+      "17551083",
+      "23650640",
+      "21829357",
+      "28536180",
+      "31911579",
+      "30596637",
+      "31533978",
+      "25228660",
+      "33398174",
+      "39283462",
+      "39306948",
+      "31127282",
+      "35993175",
+      "31629814",
+      "22952237",
+      "40063813",
+      "31511252",
+      "31701553",
+      "30738580",
+      "29760161",
+      "21606361",
+      "24659782",
+      "30674949",
+      "23143266",
+      "21454523",
+      "38238628",
+      "33545029",
+      "28693562",
+      "22347474"
+    ],
+    "review": [
+      "40234426",
+      "35691341",
+      "30456521",
+      "30125668",
+      "30031214",
+      "39169755",
+      "29522804",
+      "23650640",
+      "39306948",
+      "35993175"
+    ],
+    "pmc": [
+      "12000410"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41540-025-00510-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40234426/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

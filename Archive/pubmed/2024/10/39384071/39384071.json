@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "39384071",
+    "doi": "10.1016/j.neuint.2024.105877",
+    "title": "Jun modulates endoplasmic reticulum stress-associated ferroptosis in dorsal root ganglia neurons during neuropathic pain by regulating Timp1."
+  },
+  "content": {
+    "abstract": "Neuropathic pain (NP) is a complex disorder caused by lesions or diseases affecting the somatosensory nervous system, severely impacting patients' quality of life. Recent studies suggest ferroptosis may be involved in NP induction, but its precise mechanisms remain unclear. We used GO and KEGG pathway enrichment analyses to functionally annotate ferroptosis-related differentially expressed genes (FRDs). Through STRING and the maximum cluster centrality (MCC) algorithm, we identified five hub FRDs (Jun, Timp1, Egfr, Cdkn1a, Cdkn2a). Single-cell analysis revealed significant expression of Jun and Timp1 in neurons. Our study confirmed the association between ferroptosis and endoplasmic reticulum stress (ERS) in NP and validated changes in hub FRD expression across various NP animal models. In vitro experiments demonstrated that Jun regulates neuronal ferroptosis and ERS, particularly by modulating Timp1 expression. Transcription factor prediction and JASPAR binding site analysis elucidated the regulatory network involving Jun. ROC curve analysis of external datasets highlighted the diagnostic potential of hub FRDs and ERS-related differentially expressed genes (ERSRDs) in NP. Using the Comparative Toxicogenomics Database (CTD), we identified estradiol (E2) as a potential therapeutic drug targeting hub FRDs and ERSRDs. Molecular docking predicted its binding sites with Jun and Timp1, and in vivo experiments confirmed that E2 alleviated NP and reversed the expression of Jun and Timp1. This study underscores the crucial role of Jun and Timp1 in the interplay between ferroptosis and ERS, offering new insights and promising avenues for NP treatment.",
+    "keywords": [
+      "Dorsal root ganglia",
+      "Endoplasmic reticulum stress",
+      "Ferroptosis",
+      "Jun",
+      "Neuropathic pain",
+      "Timp1"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Ferroptosis/physiology/drug effects",
+      "*Endoplasmic Reticulum Stress/physiology/drug effects",
+      "*Neuralgia/metabolism",
+      "*Ganglia, Spinal/metabolism/drug effects",
+      "*Tissue Inhibitor of Metalloproteinase-1/metabolism/genetics",
+      "*Neurons/metabolism/pathology",
+      "Male",
+      "Rats",
+      "Rats, Sprague-Dawley",
+      "Proto-Oncogene Proteins c-jun/metabolism",
+      "Mice",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Ziqiang",
+        "Wang, Yi",
+        "Deng, Yingdong",
+        "Li, Lu",
+        "Cao, Yu",
+        "Wang, Suo",
+        "Zhang, Xiangsheng",
+        "Ding, Guoda",
+        "Cheng, Jiurong",
+        "Tang, Simin",
+        "Zhou, Jun"
+      ],
+      "short_names": [
+        "Lin Z",
+        "Wang Y",
+        "Deng Y",
+        "Li L",
+        "Cao Y",
+        "Wang S",
+        "Zhang X",
+        "Ding G",
+        "Cheng J",
+        "Tang S",
+        "Zhou J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China.",
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China.",
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China.",
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China.",
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China.",
+        "Department of Anesthesiology, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, 510000, Guangdong, China.",
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China.",
+        "Postgraduate Training Base of Hubei University of Medicine, Jinzhou Medical University, Jinzhou, 121000, Liaoning, China.",
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China.",
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China.",
+        "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China. Electronic address: zhoujun7843@sum.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Ziqiang",
+        "short_name": "Lin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yingdong",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lu",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yu",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Suo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiangsheng",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Guoda",
+        "short_name": "Ding G",
+        "identifiers": [],
+        "affiliations": [
+          "Postgraduate Training Base of Hubei University of Medicine, Jinzhou Medical University, Jinzhou, 121000, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jiurong",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Simin",
+        "short_name": "Tang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jun",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Third Affiliated Hospital of Southern Medical University, Guangzhou, 510000, Guangdong, China. Electronic address: zhoujun7843@sum.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neurochemistry international"
+    ],
+    "journal_abbrev": [
+      "Neurochem Int"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 00:37",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "42326878"
+    ],
+    "refs": [],
+    "similar": [
+      "39384071",
+      "41200818",
+      "9522371",
+      "40946670",
+      "39578773",
+      "40840732",
+      "40209863",
+      "17081520",
+      "37421564",
+      "38509741",
+      "38032469",
+      "38329706",
+      "40759305",
+      "38944951",
+      "36813954",
+      "41444522",
+      "41058260",
+      "31696225",
+      "38734758",
+      "31809190",
+      "39828229",
+      "38812057",
+      "40185230",
+      "40220216",
+      "40414463",
+      "39094671",
+      "15051730",
+      "35281346",
+      "40544908",
+      "26109318",
+      "39928173",
+      "39639377",
+      "39695164",
+      "39671358",
+      "39531905",
+      "40115159",
+      "41288682",
+      "39143617",
+      "39091931",
+      "9398479",
+      "31535407",
+      "31858405",
+      "39580324",
+      "40823351",
+      "9450677",
+      "31295750",
+      "40199450",
+      "21782897",
+      "26700435",
+      "38995476",
+      "35637927",
+      "30077771",
+      "39328008",
+      "19699278",
+      "39928137",
+      "39541922",
+      "29331040",
+      "30448292",
+      "20452292",
+      "40204188",
+      "33225523",
+      "30859436",
+      "40157471",
+      "40750228",
+      "38370466",
+      "32677089",
+      "41110296",
+      "40809812",
+      "40925202",
+      "38163561",
+      "40211809",
+      "40973872",
+      "30471427",
+      "40014587",
+      "34244727",
+      "31491465",
+      "33054557",
+      "8955944",
+      "35867896",
+      "40967378",
+      "35165251",
+      "30338452",
+      "39009095",
+      "29477655",
+      "36604795",
+      "40918403",
+      "33864570",
+      "30872136",
+      "39789929",
+      "40106735",
+      "28361271",
+      "39836526",
+      "11896157",
+      "38955643",
+      "40795617",
+      "35729568",
+      "30289077",
+      "40785673",
+      "36178348",
+      "41410814"
+    ],
+    "review": [
+      "39384071",
+      "39928173"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0197-0186(24)00204-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

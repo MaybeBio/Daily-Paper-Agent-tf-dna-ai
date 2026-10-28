@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with reference to the cited article metadata
+- **Shared manuscript claim summary** The authors report long well-tempered metadynamics and molecular dynamics simulations of the transcription factor SOX4 interacting with DNA, proposing that the protein binds to the DNA backbone, rotates around it to form an intercalative native state, that multiple intercalation pathways exist, that the deintercalation pathway matches the most probable intercalation pathway, and that bending and kinking occur simultaneously and are driven by the onset of amino acid intercalation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters are provided in the supplied material
+- **Missing materials affecting confidence** Full methods, simulation parameters, convergence criteria, free energy estimates, structural ensembles, pathway definitions, statistical uncertainties, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible simulation-based study of SOX4 DNA intercalation, but the supplied material is insufficient to evaluate the technical soundness of the metadynamics protocol, the statistical reliability of the pathway analysis, or the quantitative support for the central claims. The conclusions are stated with high confidence, yet the evidence base visible here is limited to a brief narrative summary. The work may be of interest to computational biophysicists and structural biologists, but the case for the specific mechanistic claims is not established from the provided material.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein DNA recognition and conformational transitions, structural biologists interested in transcription factor DNA bending mechanisms, and researchers developing enhanced sampling methods for biomolecular interactions. The proposed pathway reversal between intercalation and deintercalation, if robustly demonstrated, would be of methodological interest to the enhanced sampling community.
+- **Major strengths** The study addresses a mechanistically important and undercharacterized process, namely the sequence of molecular events preceding DNA bending and kinking by a transcription factor. The use of well-tempered metadynamics is appropriate for exploring rare conformational transitions. The explicit comparison between intercalation and deintercalation pathways is a conceptually valuable design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "long well-tempered metadynamics and molecular dynamics simulations show that the protein primarily binds to the backbone of DNA and rotates around it to form an intercalative native state."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on the simulation length, the number of collective variables, the choice of bias parameters, the convergence criteria, or the force field used. Without these details, the reliability of the claimed binding and rotation mechanism cannot be assessed. The term "long" is undefined, and no free energy surface or error estimates are reported.
+  - **Why it matters** Metadynamics results are only meaningful if the bias has converged and the collective variables adequately describe the relevant slow degrees of freedom. If the simulation is underconverged or the collective variables are poorly chosen, the proposed mechanism could be an artifact of insufficient sampling.
+  - **Resolution test** Provide simulation lengths, collective variable definitions, bias parameters, convergence metrics (e.g., free energy difference as a function of time), and error bars on the free energy surface. Show that the binding and rotation pathway is reproducible across independent runs or multiple replicas.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for central claim
+  - **Claim pointer** The authors claim that "although there are multiple pathways for intercalation, the deintercalation pathway matches with the most probable intercalation pathway."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that multiple pathways exist and that the deintercalation pathway matches the most probable intercalation pathway, but no quantitative definition of "pathway" is given, no pathway identification method is described, and no statistical comparison is presented. The claim of pathway reversal is a strong statement that requires a rigorous definition of reaction coordinates and a demonstration that the forward and reverse fluxes are consistent.
+  - **Why it matters** Pathway reversal is a nontrivial claim. If the system exhibits multiple intercalation routes, the statement that deintercalation follows the most probable forward route implies a specific kinetic and thermodynamic relationship that cannot be inferred from a narrative summary. Without quantitative pathway analysis, the claim is unsupported.
+  - **Resolution test** Define pathways using a committor analysis, transition path sampling, or a well-defined reaction coordinate. Provide free energy profiles along the forward and reverse directions, and show that the dominant forward and reverse transition ensembles overlap within statistical uncertainty.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for central claim
+  - **Claim pointer** The authors claim that "bending and kinking happen simultaneously, driven by the onset of the intercalation of the amino acid."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a temporal coincidence between bending, kinking, and amino acid intercalation, but no time series, correlation analysis, or causal inference is presented. The phrase "driven by" implies a causal relationship that cannot be established from the abstract alone. It is unclear whether bending precedes, follows, or is concurrent with intercalation, and whether the relationship is causal or merely correlated.
+  - **Why it matters** The central mechanistic claim of the paper is that intercalation drives bending and kinking. If the temporal ordering is not rigorously demonstrated, the proposed mechanism may be incorrect or incomplete. A correlation between two events does not establish causation.
+  - **Resolution test** Provide time-resolved analysis of the intercalation depth, DNA bend angle, and kink angle along the transition paths. Show that the onset of intercalation consistently precedes or coincides with bending and kinking across multiple transition events, and discuss possible alternative causal orderings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses the term "intercalative native state" without defining what distinguishes it from a nonintercalative bound state. The term "kinked" is used without specifying the structural definition of a kink.
+  - **Required correction** Define the intercalative state and the kink criterion in the abstract or refer to a specific structural metric.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation protocol description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "long well-tempered metadynamics and molecular dynamics simulations" but does not specify the system size, the DNA sequence context, the number of SOX4 molecules, or the solvent conditions.
+  - **Required correction** Include system composition and simulation conditions in the abstract or refer to a methods section with these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Support for central claim
+  - **Affected element** Statistical reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "there are multiple pathways" but provides no indication of how many pathways were observed or how their probabilities were estimated.
+  - **Required correction** Report the number of distinct pathways identified and the statistical method used to assign probabilities.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of convergence metrics, pathway definitions, and temporal correlation analysis means that none of the three central claims can be evaluated from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The topic is of interest, and the pathway reversal question is a potentially original angle, but the abstract does not demonstrate novelty beyond prior simulation studies of protein DNA intercalation. Scientific importance: The mechanism of transcription factor induced DNA bending is biologically relevant, but the abstract does not connect the findings to functional consequences or broader biological implications. Interdisciplinary readership: The abstract is written in a way that is accessible to computational biophysicists but may be less clear to experimental biologists due to undefined terms. Technical soundness: Not assessable from the abstract; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract is concise but uses jargon without definition, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but unsupported by the visible material. A full manuscript with methods, convergence analysis, and quantitative pathway characterization would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that the protein "primarily binds to the backbone of DNA and rotates around it" is unsupported because no binding mode analysis or structural ensembles are provided.
+- The claim that "multiple pathways" exist for intercalation is unsupported because no pathway enumeration or probability estimates are given.
+- The claim that the deintercalation pathway "matches" the most probable intercalation pathway is unsupported because no forward and reverse transition analysis is presented.
+- The claim that bending and kinking "happen simultaneously" is unsupported because no time-resolved correlation is shown.
+- The claim that bending and kinking are "driven by the onset of the intercalation" is unsupported because no causal analysis is presented.
+- The overall reliability of the simulation results is not assessable because no convergence metrics, force field details, or statistical uncertainties are reported.

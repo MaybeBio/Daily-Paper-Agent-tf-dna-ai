@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use multiple short molecular dynamics (MSMD) simulations to investigate how DNA influences the hyperthermophilic protein Ape10b2 (an Alba2 family member) at four temperatures. They report that DNA induces conformational changes in loop1 and loop5, increases inter-monomer hydrogen bonds, and stabilizes DNA via electrostatic interactions, with five specific residues implicated in binding.
+- **Visible evidence base** Abstract text only; no simulation parameters, structural analysis, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, simulation setup details, force field parameters, convergence criteria, structural figures, hydrogen bond analysis data, electrostatic interaction calculations, and residue-level interaction maps
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a relevant question in hyperthermophilic protein-DNA interactions. However, the claims are stated without quantitative support, and the methodological basis for several conclusions is not assessable from the supplied material. The link between observed conformational changes and oligomerization propensity is asserted rather than demonstrated.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein oligomerization mechanisms, and hyperthermophilic protein engineering. The potential industrial relevance for enzyme stability and DNA-binding applications may attract applied biochemists.
+- **Major strengths** The study addresses a specific gap in understanding DNA's role in Alba2 oligomerization. The use of multiple temperatures and MSMD is appropriate for exploring thermal effects. The identification of specific residues provides a testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DNA could cause the conformational changes of two important regions (loop1 and loop5), which may be beneficial for protein oligomerization"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any quantitative measure of conformational change, such as root-mean-square deviation or fluctuation values, nor does it establish a causal link between loop1/loop5 changes and oligomerization. The phrase "may be beneficial" is speculative without free energy calculations or comparative simulations of the apo state.
+  - **Why it matters** The central claim of the study depends on demonstrating that DNA-induced conformational changes are both significant and mechanistically connected to oligomerization. Without this, the conclusion is unsupported.
+  - **Resolution test** Provide quantitative conformational metrics with statistical significance, and show that loop1/loop5 changes correlate with oligomerization propensity in simulations or experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results of hydrogen bond analysis show that the increasing number of hydrogen bonds between two monomers of Ape10b2 may also be a favorable factor for oligomerization"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No numerical data on hydrogen bond counts, their temporal evolution, or comparison with a DNA-free control are provided. The claim that increased hydrogen bonds favor oligomerization is a correlation without demonstrated causality.
+  - **Why it matters** Hydrogen bond increases could be a consequence of conformational changes rather than a driver of oligomerization. The abstract does not distinguish between these possibilities.
+  - **Resolution test** Present hydrogen bond occupancy data over simulation time, compare with apo simulations, and relate changes to oligomerization free energy or experimental binding data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Ape10b2 can stabilize DNA by electrostatic interactions with an increase in temperature, and five residues (Arg40, Arg42, Asn43, Asn45, and Arg46) play a stabilizing role during protein binding to DNA"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of temperature-dependent electrostatic stabilization is not supported by any energetic or structural data. The specific role of the five residues is asserted without showing interaction energies, contact maps, or mutational analysis.
+  - **Why it matters** Temperature effects on electrostatic interactions are nontrivial and require careful analysis of solvation and counterion effects. The residue-level claim needs direct evidence of their contribution.
+  - **Resolution test** Provide electrostatic interaction energies as a function of temperature, and show per-residue decomposition or alanine scanning data to support the stabilizing roles.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction of Ape10b2 and Alba2
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The relationship between Ape10b2 and Alba2 is stated parenthetically but not explained. Nonspecialists may not understand the significance of this classification.
+  - **Required correction** Briefly clarify the Alba2 family context and why Ape10b2 is a relevant representative.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Industrial relevance statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final sentence claims contribution to enzyme engineering from an industrial perspective, but no industrial application or practical implication is described.
+  - **Required correction** Either specify a concrete application or temper the claim to match the scope of the findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation protocol description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "multiple short molecular dynamics" is used without defining simulation length, number of replicates, or equilibration protocol.
+  - **Required correction** Provide these parameters in the abstract or refer to the methods section with specific values.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence for all three major claims, and the causal relationships are not established.
+- **Assessment against Nature-style criteria** Originality is moderate, as the question is specific but the approach is standard. Scientific importance is limited by the lack of demonstrated mechanistic insight beyond descriptive observations. Interdisciplinary readership is narrow, primarily computational biophysics. Technical soundness cannot be assessed from the abstract alone, but the claims as stated are not supported. Readability for nonspecialists is acceptable but could be improved with clearer context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting study, but the claims require substantial quantitative support and clearer causal reasoning before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that loop1 and loop5 conformational changes are beneficial for oligomerization is unsupported without free energy or comparative data.
+- The claim that increased inter-monomer hydrogen bonds favor oligomerization is a correlation without demonstrated causality.
+- The claim that five specific residues stabilize DNA binding is unsupported without per-residue energetic or mutational evidence.
+- The temperature-dependent electrostatic stabilization claim is not quantifiable from the abstract.
+- The industrial relevance statement is speculative and not tied to any specific application.

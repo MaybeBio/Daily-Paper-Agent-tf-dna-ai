@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42464325",
+  "title": "Bioinformatics identification of candidate biomarkers associated with T cell proliferation in atherosclerosis via WGCNA and machine learning.",
+  "authors": "Xiong, Wen; Long, Xiang; Lu, Feng; Lin, Kun; Zhu, Zhigang",
+  "journal": "Journal of cardiothoracic surgery",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过WGCNA和机器学习筛选动脉粥样硬化中T细胞增殖相关生物标志物，虽涉及分子对接和MD模拟，但核心是转录组生物标志物筛选，非蛋白质-DNA互作或TF-DNA结合机制研究，仅部分方法可借鉴。",
+  "abstract": "BACKGROUND: Atherosclerosis (AS) is a complex chronic disease caused by the development of atherosclerotic plaques. T cell proliferation exerts a vital influence on development of the AS. This research aimed to conduct a comprehensive analysis to computationally screen candidate T cell proliferation-related biomarkers in AS and to explore their potential molecular mechanisms. METHODS: The transcriptional datasets of AS patients were obtained from the Gene Expression Omnibus (GEO) repository. To identify differentially expressed-T cell proliferation-related genes (DE-TPRGs), we integrated differential gene expression analysis with weighted gene co-expression network analysis (WGCNA), taking the intersection of DEGs and WGCNA-derived T cell proliferation-related module genes (TRMGs). Biomarkers were selected and validated through machine learning algorithms and expression levels. Moreover, a nomogram for predicting AS risk was developed based on the biomarkers. Enrichment analysis was employed to examine relevant pathways, while immune cell infiltration analysis was conducted to investigate the connection between immune cells and biomarkers. Finally, the construction of molecular regulatory and compound prediction networks, as well as molecular docking and molecular dynamic simulations, further validated the key regulatory roles of biomarkers in AS. RESULTS: Overall, two candidate genes (CLU and GUCY1B3) were determined to be potentially associated with the progression of AS. The nomogram constructed from these biomarkers showed good performance in predicting AS risk. Reactome rRNA processing and reactome translation were notably enriched in the pathways related to two biomarkers. CLU and GUCY1B3 showed positive computational corrections with activated dendritic cells, suggesting a possible involvement of these immune processes in AS. Moreover, 50 miRNAs (like hsa-miR-4504) and 68 transcription factors (TFs) (like MYB and TAL1) were found to have relationships with biomarkers. Importantly, the results and molecular dynamics simulation analyses predicted potential binding interactions between these candidate genes and bisphenol A, with GUCY1B3 demonstrating relatively greater binding stability. CONCLUSIONS: The bioinformatics findings suggested that CLU and GUCY1B3 may serve as candidate biomarkers warranting further experimental investigation in AS associated with T cell proliferation.",
+  "abstract_zh": "背景：动脉粥样硬化（AS）是一种由动脉粥样硬化斑块发展引起的复杂慢性疾病。T细胞增殖对AS的发展具有重要影响。本研究旨在进行全面分析，通过计算方法筛选AS中候选的T细胞增殖相关生物标志物，并探讨其潜在分子机制。方法：从基因表达综合（GEO）数据库中获取AS患者的转录组数据集。为鉴定差异表达的T细胞增殖相关基因（DE-TPRGs），我们将差异基因表达分析与加权基因共表达网络分析（WGCNA）相结合，取差异表达基因（DEGs）与WGCNA衍生的T细胞增殖相关模块基因（TRMGs）的交集。通过机器学习算法和表达水平筛选并验证生物标志物。此外，基于这些生物标志物构建了预测AS风险的列线图。采用富集分析检查相关通路，同时进行免疫细胞浸润分析以探讨免疫细胞与生物标志物之间的关联。最后，通过构建分子调控网络和化合物预测网络，以及分子对接和分子动力学模拟，进一步验证了生物标志物在AS中的关键调控作用。结果：总体而言，确定了两个候选基因（CLU和GUCY1B3）可能与AS的进展相关。基于这些生物标志物构建的列线图在预测AS风险方面表现出良好性能。Reactome rRNA加工和Reactome翻译在与两个生物标志物相关的通路中显著富集。CLU和GUCY1B3与活化树突状细胞呈正计算相关性，提示这些免疫过程可能参与AS。此外，发现50个miRNA（如hsa-miR-4504）和68个转录因子（TFs）（如MYB和TAL1）与生物标志物存在关联。重要的是，结果和分子动力学模拟分析预测了这些候选基因与双酚A之间的潜在结合相互作用，其中GUCY1B3表现出相对更高的结合稳定性。结论：生物信息学发现提示，CLU和GUCY1B3可能作为与T细胞增殖相关的AS中值得进一步实验研究的候选生物标志物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42464325/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42464325/",
+  "paper_page_path": "papers/pubmed/42464325/index.html"
+}

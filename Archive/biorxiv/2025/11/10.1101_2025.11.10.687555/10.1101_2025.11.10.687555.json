@@ -1,0 +1,343 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.10.687555",
+  "title": "AstraBIND: Graph Attention Network for Predicting Ligand Binding Sites",
+  "doi": "10.1101/2025.11.10.687555",
+  "abstract": "Predicting ligand binding sites is central to computational biology and drug discovery. Existing machine learning approaches either use protein sequence, structure, or both. While structure-based deep learning models typically outperform sequence-based methods, they often require high computational cost or ligand-specific data, forcing a trade-off between accuracy and scalability. We present AstraBIND, a lightweight graph neural network that bridges this gap by integrating protein sequence, structure (experimental or predicted), and homology information to predict ligand classes and binding residues within minutes. The model employs a GATv2 architecture with 0.9 M parameters, trained on ¿250 000 curated protein–ligand complexes across 16 ligand categories. By encoding residue-level features and spatial geometry through graph attention, AstraBIND identifies binding residues and ligand types while maintaining structural consistency. In benchmarking, AstraBIND achieved a weighted macro-F1 of 0.47 across all ligand classes, with top performance for nucleotides (F1 = 0.79), porphyrins (0.74), and cofactors (0.73). Case studies, including p53 and CRFR1, demonstrate robust pocket localization for diverse proteins. Combined with its minimal inference time and broad ligand coverage, AstraBIND enables rapid in-silico screening and integration into laboratory workflows. Together with other Astra ML models (1; 2), it represents a step toward real-time protein design and validation pipelines. Astra models are available at https://www.orbion.life .",
+  "authors": [
+    "Aniruddh Goteti",
+    "Alexandra Vasilyeva",
+    "Çağlar Bozkurt"
+  ],
+  "published_date": "2025-11-11",
+  "updated_date": "2025-11-11T23:50:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687555",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687555.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            18
+          ]
+        ],
+        "date-time": "2026-07-18T03:16:58Z",
+        "timestamp": 1784344618186,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 18,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                11
+              ]
+            ],
+            "date-time": "2025-11-11T00:00:00Z",
+            "timestamp": 1762819200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Predicting ligand binding sites is central to computational biology and drug discovery. Existing machine learning approaches either use protein sequence, structure, or both. While structure-based deep learning models typically outperform sequence-based methods, they often require high computational cost or ligand-specific data, forcing a trade-off between accuracy and scalability.</jats:p>\n                <jats:p>We present AstraBIND, a lightweight graph neural network that bridges this gap by integrating protein sequence, structure (experimental or predicted), and homology information to predict ligand classes and binding residues within minutes. The model employs a GATv2 architecture with 0.9 M parameters, trained on ¿250 000 curated protein–ligand complexes across 16 ligand categories. By encoding residue-level features and spatial geometry through graph attention, AstraBIND identifies binding residues and ligand types while maintaining structural consistency.</jats:p>\n                <jats:p>In benchmarking, AstraBIND achieved a weighted macro-F1 of 0.47 across all ligand classes, with top performance for nucleotides (F1 = 0.79), porphyrins (0.74), and cofactors (0.73). Case studies, including p53 and CRFR1, demonstrate robust pocket localization for diverse proteins. Combined with its minimal inference time and broad ligand coverage, AstraBIND enables rapid in-silico screening and integration into laboratory workflows. Together with other Astra ML models (1; 2), it represents a step toward real-time protein design and validation pipelines.</jats:p>\n                <jats:p>\n                  Astra models are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.orbion.life\">https://www.orbion.life</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2025.11.10.687555",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2025-11-11T23:50:11Z",
+        "timestamp": 1762905011000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "AstraBIND: Graph Attention Network for Predicting Ligand Binding Sites"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Aniruddh",
+          "family": "Goteti",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandra",
+          "family": "Vasilyeva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Çağlar",
+          "family": "Bozkurt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.06.21.660734"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.10.03.680341"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-024-00865-6"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab009"
+        },
+        {
+          "issue": "21",
+          "key": "2025111309152675000_2025.11.10.687555v1.5",
+          "first-page": "5069",
+          "article-title": "DeepPocket: ligand binding site detection and segmentation using 3D convolutional neural networks",
+          "volume": "62",
+          "year": "2021",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "issue": "1",
+          "key": "2025111309152675000_2025.11.10.687555v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "66",
+          "DOI": "10.1186/s13321-024-00865-6",
+          "article-title": "PUResNetV2. 0: a deep learning model leveraging sparse representation for improved ligand binding site prediction",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "issue": "17",
+          "key": "2025111309152675000_2025.11.10.687555v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "9280",
+          "DOI": "10.3390/ijms25179280",
+          "article-title": "A point cloud graph neural network for protein–ligand binding site prediction",
+          "volume": "25",
+          "year": "2024",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "issue": "7",
+          "key": "2025111309152675000_2025.11.10.687555v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "2637",
+          "DOI": "10.1021/acs.jcim.3c01698",
+          "article-title": "Graph attention site prediction (GrASP): identifying druggable binding sites using graph neural networks with attention",
+          "volume": "64",
+          "year": "2024",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.9",
+          "article-title": "Vn-egnn: E (3)-equivariant graph neural networks with virtual nodes enhance protein binding site identification",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "8",
+          "key": "2025111309152675000_2025.11.10.687555v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1809",
+          "DOI": "10.1021/acs.jcim.1c00972",
+          "article-title": "Birds-binding residue detection from protein sequences using deep resnets",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "issue": "1",
+          "key": "2025111309152675000_2025.11.10.687555v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1186/s13321-022-00584-w",
+          "article-title": "Sequence-based prediction of protein binding regions and drug–target interactions",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "107257",
+          "DOI": "10.1016/j.engappai.2023.107257",
+          "article-title": "Pseq2Sites: enhancing protein sequence-based ligand binding-site prediction accuracy via the deep convolutional network and attention mechanism",
+          "volume": "127",
+          "year": "2024",
+          "journal-title": "Engineering Applications of Artificial Intelligence"
+        },
+        {
+          "issue": "1",
+          "key": "2025111309152675000_2025.11.10.687555v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "btad738",
+          "DOI": "10.1093/bioinformatics/btad738",
+          "article-title": "Seq-InSite: sequence supersedes structure for protein interaction site prediction",
+          "volume": "40",
+          "year": "2024",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaf431"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.15",
+          "article-title": "Protein Language model-powered 3D ligand binding site prediction from protein sequence",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2025111309152675000_2025.11.10.687555v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.1186/s13321-024-00821-4",
+          "article-title": "Learnt representations of proteins can be used for accurate prediction of small molecule binding sites on experimentally determined and predicted protein structures",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu829"
+        },
+        {
+          "key": "2025111309152675000_2025.11.10.687555v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1052"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.10.687555",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T10:00:06Z",
+        "timestamp": 1768471206000
+      },
+      "score": 108.00914,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.10.687555"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ]
+      },
+      "references-count": 18,
+      "URL": "https://doi.org/10.1101/2025.11.10.687555",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

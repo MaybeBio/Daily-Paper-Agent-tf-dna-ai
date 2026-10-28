@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "42316062",
+    "doi": "10.1186/s12880-026-02338-8",
+    "title": "Distinguishing Ki67 stratification expression in ER-positive/HER2-negative breast cancers: comparison of advanced MRI diffusion models."
+  },
+  "content": {
+    "abstract": "PURPOSE: Identifying the stratification expression of Ki67 is crucial for directing clinical treatment strategies in ER+/HER2- breast cancers. This diagnostic study investigated the value of first-order features extracted from conventional DWI, diffusion kurtosis imaging (DKI), fractional order calculus (FROC), and continuous-time random walk (CTRW) in discriminating Ki67 expression of ER+/HER2- invasive ductal breast cancer. MATERIALS AND METHODS: This retrospective study included 121 patients who underwent DWI, DKI, FROC and CTRW and were pathologically categorized into the low (</= 5%, n = 30), medium (> 5% to < 30%, n = 41), and high Ki67 expression group (>/= 30%, n = 50). Sixty-three diffusion parameters were computed and subsequently compared across different groups. The area under the receiver operating characteristic (ROC) curve (AUC) was used to quantify diagnostic efficacy. Multivariate logistic regression and bootstrap (1,000 samples) analyses were used to establish and evaluate, respectively, the optimal model to identify Ki67 expression. RESULTS: Twenty-three features showed statistically significant differences among the low, medium and high expression groups (all p values < 0.05). Further multivariable logistic regression analysis for discriminating the low Ki67 and non-low expression group showed that the FROC model constructed by D(10%), micro(90%) and micro(Skewness) had optimal diagnostic efficacy (AUC = 0.858; 95% confidence interval, 0.783-0.915), which was significantly better than that of DWI model (AUC = 0.677; p = 0.008). The validation model showed good accuracy (AUC = 0.850; 95%CI, 0.774-0.916). CONCLUSIONS: The FROC model could help identify the low Ki67 expression (</= 5%) and prevent unnecessary chemotherapy.",
+    "keywords": [
+      "Breast neoplasms",
+      "Diffusion-weighted MRI",
+      "Magnetic resonance imaging"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ki-67 Antigen/metabolism",
+      "Female",
+      "*Breast Neoplasms/diagnostic imaging/metabolism/pathology",
+      "Retrospective Studies",
+      "*Diffusion Magnetic Resonance Imaging/methods",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Middle Aged",
+      "Receptors, Estrogen/metabolism",
+      "Adult",
+      "Aged",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Zhongqi",
+        "Du, Siyao",
+        "Zhao, Li",
+        "Zhao, Ruimeng",
+        "Gao, Si",
+        "Zhang, Yanni",
+        "Yu, Jiaping",
+        "Liu, Xiaofei",
+        "Jiang, Yueluan",
+        "Wang, Yan",
+        "Zhang, Lina"
+      ],
+      "short_names": [
+        "Kang Z",
+        "Du S",
+        "Zhao L",
+        "Zhao R",
+        "Gao S",
+        "Zhang Y",
+        "Yu J",
+        "Liu X",
+        "Jiang Y",
+        "Wang Y",
+        "Zhang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+        "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, Liaoning Province, 110165, China.",
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+        "Department of Intervention, The First Hospital of China Medical University, Shenyang, 110001, China.",
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+        "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, Liaoning Province, 110165, China.",
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+        "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, Liaoning Province, 110165, China.",
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+        "MR Research Collaboration, Siemens Healthineers, Beijing, 100102, China.",
+        "Department of Pathology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China. 18602441616@163.com.",
+        "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China. lnzhang@cmu.edu.cn.",
+        "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, Liaoning Province, 110165, China. lnzhang@cmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Zhongqi",
+        "short_name": "Kang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+          "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, Liaoning Province, 110165, China."
+        ]
+      },
+      {
+        "full_name": "Du, Siyao",
+        "short_name": "Du S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Li",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ruimeng",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Si",
+        "short_name": "Gao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intervention, The First Hospital of China Medical University, Shenyang, 110001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanni",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+          "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, Liaoning Province, 110165, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jiaping",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China.",
+          "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, Liaoning Province, 110165, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaofei",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yueluan",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "MR Research Collaboration, Siemens Healthineers, Beijing, 100102, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China. 18602441616@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lina",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of China Medical University, Shenyang, Liaoning Province, 110001, China. lnzhang@cmu.edu.cn.",
+          "Department of Radiology, The Fourth Affiliated Hospital of China Medical University, Shenyang, Liaoning Province, 110165, China. lnzhang@cmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical imaging"
+    ],
+    "journal_abbrev": [
+      "BMC Med Imaging"
+    ],
+    "pub_date": "2026 Jun 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/19 06:33",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39922806",
+      "39075336",
+      "38942456",
+      "38307375",
+      "37925343",
+      "37890802",
+      "37672055",
+      "37506477",
+      "37344324",
+      "37188173",
+      "36996598",
+      "36912198",
+      "36765765",
+      "36577184",
+      "36251468",
+      "35873887",
+      "35729220",
+      "35020204",
+      "34792837",
+      "34749223",
+      "34473381",
+      "34003287",
+      "33543512",
+      "33369635",
+      "33122307",
+      "32888071",
+      "31690273",
+      "30260589",
+      "30179110",
+      "29921323",
+      "29846122",
+      "29165847",
+      "28453516",
+      "28139036",
+      "27313102",
+      "26852247",
+      "26519663",
+      "26035586",
+      "25938679",
+      "25919239",
+      "25203132",
+      "22411304",
+      "21966624",
+      "21804746",
+      "21182127",
+      "20404251",
+      "20187164",
+      "15906300",
+      "7542341"
+    ],
+    "similar": [
+      "42316062",
+      "41923005",
+      "37672055",
+      "40137571",
+      "42126725",
+      "40908518",
+      "39922806",
+      "42036493",
+      "41081881",
+      "37506477",
+      "31696388",
+      "39738357",
+      "41354135",
+      "38307375",
+      "42223631",
+      "41462129",
+      "38995401",
+      "39592385",
+      "39636532",
+      "39075336",
+      "41350639",
+      "39254709",
+      "35679701",
+      "38744701",
+      "34792837",
+      "22527371",
+      "41481027",
+      "41528926",
+      "27313102",
+      "38577177",
+      "39429562",
+      "36661350",
+      "41953399",
+      "41801595",
+      "36912198",
+      "41742653",
+      "40774877",
+      "39576843",
+      "42168907",
+      "41606519",
+      "25776017",
+      "34749223",
+      "41189947",
+      "34662700",
+      "35174093",
+      "40358858",
+      "40251492",
+      "40479855",
+      "39413232",
+      "42068346",
+      "38742356",
+      "38905803",
+      "37063453",
+      "36440706",
+      "40676103",
+      "31098866",
+      "29501957",
+      "35186753",
+      "40596898",
+      "28532429",
+      "39837702",
+      "40611065",
+      "38088478",
+      "39427545",
+      "31262334",
+      "38726785",
+      "40116097",
+      "39643475",
+      "27332719",
+      "42021417",
+      "29219225",
+      "30260589",
+      "36251468",
+      "36624021",
+      "33413654",
+      "25082658",
+      "39191564",
+      "41444699",
+      "35299114",
+      "33167903",
+      "38363315",
+      "38131531",
+      "41242317",
+      "29178616",
+      "40770783",
+      "38265001",
+      "40879693",
+      "31385051",
+      "29717790",
+      "42174497",
+      "36763035",
+      "41688957",
+      "25118482",
+      "38766488",
+      "37188173",
+      "42247047",
+      "36175898",
+      "34342693",
+      "41083960",
+      "29886409"
+    ],
+    "review": [
+      "42316062"
+    ],
+    "pmc": [
+      "13523294"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-026-02338-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42316062/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "41266362",
+    "doi": "10.1038/s41467-025-64631-4",
+    "title": "Non-coding genetic variants underlying higher prostate cancer risk in men of African ancestry."
+  },
+  "content": {
+    "abstract": "Prostate cancer (PrCa) incidence and severity vary across ancestries; men of African ancestry (AA) are more likely to be diagnosed and die from PrCa than those of European ancestry (EA). Current polygenic risk scores, even from multi-ancestry GWAS, do not fully capture population-specific genetic mechanisms, especially those mediated by non-coding regulatory single nucleotide polymorphisms (SNPs). Using a deep learning model of prostate enhancers, we identify ~ 2000 SNPs, potentially affecting enhancer function, with higher alternate allele frequency in AA men, that may affect PrCa risk. These SNPs may promote cancer via two mechanisms: increased enhancer activity leading to immune suppression and telomere elongation or decreased activity causing de-differentiation and apoptosis inhibition. Identified SNPs predominantly modulate binding of key transcription factors such as FOX, HOX, and AR - the first was experimentally validated. Incorporating these SNPs into a polygenic risk score improves PrCa risk assessment beyond existing GWAS-identified variants.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Black People/genetics",
+      "Deep Learning",
+      "Enhancer Elements, Genetic",
+      "Gene Frequency",
+      "*Genetic Predisposition to Disease",
+      "Genome-Wide Association Study",
+      "Multifactorial Inheritance/genetics",
+      "*Polymorphism, Single Nucleotide/genetics",
+      "*Prostatic Neoplasms/genetics",
+      "Risk Factors",
+      "White People/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shan",
+        "Fatema, Kaniz",
+        "Sundarraj, Nidharshan",
+        "Singh, Arashdeep",
+        "Rajagopal, Padma Sheila",
+        "Notani, Dimple",
+        "Takeda, David Y",
+        "Hannenhalli, Sridhar"
+      ],
+      "short_names": [
+        "Li S",
+        "Fatema K",
+        "Sundarraj N",
+        "Singh A",
+        "Rajagopal PS",
+        "Notani D",
+        "Takeda DY",
+        "Hannenhalli S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6760-0711",
+        "ORCID: 0009-0002-8552-2846",
+        "ORCID: 0000-0001-6087-7240",
+        "ORCID: 0000-0002-0489-0819",
+        "ORCID: 0000-0002-9460-8070",
+        "ORCID: 0000-0002-5986-1169",
+        "ORCID: 0000-0001-9603-7569"
+      ],
+      "affiliations": [
+        "Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.",
+        "Genitourinary Malignancies Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.",
+        "Genetics and Development, National Centre for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, Karnataka, India.",
+        "Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.",
+        "Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.",
+        "Genetics and Development, National Centre for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, Karnataka, India.",
+        "Genitourinary Malignancies Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.",
+        "Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA. sridhar.hannenhalli@nih.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shan",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0001-6760-0711"
+        ],
+        "affiliations": [
+          "Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Fatema, Kaniz",
+        "short_name": "Fatema K",
+        "identifiers": [
+          "0009-0002-8552-2846"
+        ],
+        "affiliations": [
+          "Genitourinary Malignancies Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Sundarraj, Nidharshan",
+        "short_name": "Sundarraj N",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Development, National Centre for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Arashdeep",
+        "short_name": "Singh A",
+        "identifiers": [
+          "0000-0001-6087-7240"
+        ],
+        "affiliations": [
+          "Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Rajagopal, Padma Sheila",
+        "short_name": "Rajagopal PS",
+        "identifiers": [
+          "0000-0002-0489-0819"
+        ],
+        "affiliations": [
+          "Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Notani, Dimple",
+        "short_name": "Notani D",
+        "identifiers": [
+          "0000-0002-9460-8070"
+        ],
+        "affiliations": [
+          "Genetics and Development, National Centre for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Takeda, David Y",
+        "short_name": "Takeda DY",
+        "identifiers": [
+          "0000-0002-5986-1169"
+        ],
+        "affiliations": [
+          "Genitourinary Malignancies Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Hannenhalli, Sridhar",
+        "short_name": "Hannenhalli S",
+        "identifiers": [
+          "0000-0001-9603-7569"
+        ],
+        "affiliations": [
+          "Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA. sridhar.hannenhalli@nih.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Nov 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/21 00:27",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "41971127"
+    ],
+    "refs": [
+      "39283637",
+      "38968937",
+      "38603523",
+      "37945903",
+      "37311464",
+      "36808133",
+      "36791193",
+      "36071171",
+      "36040971",
+      "35513724",
+      "35193936",
+      "34822763",
+      "34343635",
+      "33398198",
+      "33037017",
+      "32946061",
+      "32690948",
+      "32680982",
+      "32409115",
+      "32334405",
+      "31395865",
+      "31253979",
+      "31243370",
+      "31165883",
+      "30329142",
+      "30203706",
+      "30190481",
+      "30127393",
+      "30013180",
+      "29892016",
+      "29789686",
+      "28753430",
+      "28235418",
+      "27571263",
+      "26586801",
+      "26432245",
+      "26301843",
+      "25693563",
+      "25473424",
+      "25378322",
+      "25215497",
+      "24695404",
+      "24497837",
+      "24194598",
+      "24185611",
+      "22508765",
+      "22388286",
+      "21804603",
+      "20436461",
+      "19800102",
+      "19505943",
+      "19458158",
+      "18798982",
+      "17401364",
+      "17130146",
+      "16945910",
+      "9815652",
+      "6831420"
+    ],
+    "similar": [
+      "41266362",
+      "39678351",
+      "39606387",
+      "36494783",
+      "37311464",
+      "31226226",
+      "39930085",
+      "33792693",
+      "31568648",
+      "22549899",
+      "21456070",
+      "37945903",
+      "25809866",
+      "32930425",
+      "34127801",
+      "25044450",
+      "19568772",
+      "38536467",
+      "22985493",
+      "23573233",
+      "20932654",
+      "21637779",
+      "34906489",
+      "33600772",
+      "25595936",
+      "41236419",
+      "19726753",
+      "27867202",
+      "21557270",
+      "36872133",
+      "32059012",
+      "26881390",
+      "27941040",
+      "29892050",
+      "38816834",
+      "35030997",
+      "27587788",
+      "30517918",
+      "38294689",
+      "18361410",
+      "31342140",
+      "26025378",
+      "23475944",
+      "28359301",
+      "33031749",
+      "19549807",
+      "24497837",
+      "25145435",
+      "40141087",
+      "33257898",
+      "33258481",
+      "31999256",
+      "25252079",
+      "22479307",
+      "29892016",
+      "30659077",
+      "16783571",
+      "22532847",
+      "25598430",
+      "33293427",
+      "34234117",
+      "19562729",
+      "28510291",
+      "38741014",
+      "39670412",
+      "35152271",
+      "27052111",
+      "22801071",
+      "29438991",
+      "19520795",
+      "21715604",
+      "27321945",
+      "32393663",
+      "16682969",
+      "25647083",
+      "18483343",
+      "24068893",
+      "17925536",
+      "29117387",
+      "41037100",
+      "35801699",
+      "21671247",
+      "23727086",
+      "28430825",
+      "22885689",
+      "30160659",
+      "29030865",
+      "32878958",
+      "38598551",
+      "24920305",
+      "25217961",
+      "40229280",
+      "30368908",
+      "31883642",
+      "21743057",
+      "27113481",
+      "30245085",
+      "34347061",
+      "26162851",
+      "23830236"
+    ],
+    "review": [
+      "41266362",
+      "39930085",
+      "27867202",
+      "36872133",
+      "26881390",
+      "27941040",
+      "29892050",
+      "35030997",
+      "27587788",
+      "25252079",
+      "34234117",
+      "21715604",
+      "27321945",
+      "29117387",
+      "35801699",
+      "28430825"
+    ],
+    "pmc": [
+      "12635056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-64631-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41266362/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

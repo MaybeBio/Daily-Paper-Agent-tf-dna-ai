@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational study of methyl beta-d-galactopyranoside (MGP) esters (compounds 2-10) using DFT optimization, molecular docking against CTX-M-15 beta-lactamase (PDB: 4HBT) and HPV31 E2 DNA-binding domain (PDB: 1A7G), 200 ns molecular dynamics simulations, and pharmacokinetic predictions. They claim most esters bind efficiently to both targets, maintain protein-ligand stability over 200 ns, and exhibit improved pharmacokinetic profiles with lower hazard than the parent compound.
+- **Visible evidence base** Abstract text only; no numerical data, figures, tables, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational parameters, force field details, docking scores, RMSD/RMSF plots, pharmacokinetic data, and compound synthesis or source information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow combining DFT, docking, MD, and ADMET prediction for a series of carbohydrate esters. However, the claims are broad and the evidence base is entirely inaccessible from the abstract alone. Key quantitative results are absent, and several statements overreach relative to what can be supported by the described methods. The work may have merit as a computational screening study, but the current presentation does not allow verification of the central conclusions.
+- **Who would be interested in the results, and why** Computational chemists and medicinal chemists working on carbohydrate-based drug design, particularly those interested in HPV-related targets or antimicrobial resistance. Researchers using DFT, docking, and MD pipelines for lead discovery may find the methodological combination useful, though the novelty of the approach is not established from the abstract.
+- **Major strengths** The study integrates multiple computational techniques (DFT, docking, MD, ADMET) in a single workflow, which is a reasonable strategy for preliminary drug candidate assessment. The choice of two distinct targets (a bacterial enzyme and a viral protein) broadens the potential applicability. The use of 200 ns MD simulations is a positive feature for assessing conformational stability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "most of the esters can efficiently bind to the target"
+  - **Evidence pointer** Abstract, docking section; location not provided
+  - **Concern** The claim of efficient binding is made without any quantitative docking scores, binding energies, or comparison thresholds. No data are presented to define what constitutes "efficient" binding, and no reference compound or positive control is mentioned.
+  - **Why it matters** Without numerical docking results or a defined benchmark, the claim is unfalsifiable and cannot be evaluated by readers. Efficient binding is a central premise of the study, and its support is essential.
+  - **Resolution test** Provide docking scores (e.g., Glide score, AutoDock Vina affinity) for all compounds against both targets, include a known inhibitor or co-crystallized ligand as a positive control, and state a threshold for acceptable binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "the stability of the protein-ligand combination was maintained during the whole 200 ns simulations for all compounds"
+  - **Evidence pointer** Abstract, MD section; location not provided
+  - **Concern** The abstract states stability was maintained for all compounds based on RMSD and RMSF, but no numerical values, acceptable thresholds, or comparative analysis are provided. The absence of any reported fluctuation ranges or convergence criteria makes this claim unverifiable.
+  - **Why it matters** MD stability is a key supporting result for the binding claim. Without quantitative RMSD/RMSF data or a defined stability criterion, the conclusion cannot be assessed.
+  - **Resolution test** Report mean and standard deviation of RMSD and RMSF for each complex, specify acceptable stability thresholds, and include representative plots in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim overreach
+  - **Claim pointer** "modified esters of MGP exhibited better pharmacokinetic characteristics and were less hazardous than the parent drug"
+  - **Evidence pointer** Abstract, pharmacokinetic section; location not provided
+  - **Concern** The claim of improved pharmacokinetics and reduced hazard is made without any specific parameters (e.g., absorption, distribution, metabolism, excretion, toxicity endpoints) or comparative values. The term "parent drug" is ambiguous because MGP is not established as a drug in the abstract.
+  - **Why it matters** Pharmacokinetic superiority is a strong claim that requires specific ADMET metrics and a clear comparator. Without these, the statement is unsupported and potentially misleading.
+  - **Resolution test** List the specific ADMET properties predicted (e.g., human intestinal absorption, blood-brain barrier permeability, CYP inhibition, hERG liability), provide values for each ester and the parent compound, and clarify the identity and status of the parent drug.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual framing
+  - **Claim pointer** "opened avenues for the development of newer antimicrobial agents that can target dangerous pathogens"
+  - **Evidence pointer** Abstract, conclusion; location not provided
+  - **Concern** The abstract frames the study as antimicrobial, but the targets are a beta-lactamase (antibiotic resistance enzyme) and an HPV protein (antiviral). The connection between these targets and a general antimicrobial claim is not articulated. The title also mixes "antimicrobial" with "antiviral," which is conceptually inconsistent.
+  - **Why it matters** The framing affects how readers interpret the study's scope and significance. A clear rationale for why these two targets are grouped under an antimicrobial umbrella is needed.
+  - **Resolution test** Clarify the antimicrobial scope in the introduction and discussion, and explain the relationship between beta-lactamase inhibition and HPV E2 binding in the context of antimicrobial drug development.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound nomenclature
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The term "monosaccharaides" is misspelled, and the naming of compounds (1-10) is introduced without a clear structural description or reference to a prior synthesis paper.
+  - **Required correction** Correct the spelling to "monosaccharides" and provide a brief structural description or citation for the previously designed esters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** DFT level of theory
+  - **Evidence pointer** Abstract, methods; location not provided
+  - **Issue** The DFT level B3LYP/6-311+G(d,p) is stated, but no basis for this choice or validation against experimental or higher-level data is mentioned.
+  - **Required correction** Add a sentence justifying the chosen level of theory or note any benchmarking performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Target relevance
+  - **Affected element** PDB target selection
+  - **Evidence pointer** Abstract, docking section; location not provided
+  - **Issue** The choice of CTX-M-15 beta-lactamase (4HBT) and HPV31 E2 domain (1A7G) is stated, but the biological rationale for selecting these specific targets is not explained.
+  - **Required correction** Briefly state why these targets are relevant to the antimicrobial claim and how they relate to the parent compound's known activity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** MD simulation details
+  - **Evidence pointer** Abstract, MD section; location not provided
+  - **Issue** The abstract mentions Desmond for MD but does not specify the force field, water model, temperature, pressure, or number of replicates.
+  - **Required correction** Include these parameters in the full methods section and summarize key conditions in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative docking data), R1-M2 (no quantitative MD stability data), R1-M3 (no pharmacokinetic values or clear comparator). These three concerns collectively prevent verification of the central claims.
+- **Assessment against Nature-style criteria** Originality: The combination of DFT, docking, MD, and ADMET for galactopyranoside esters is not clearly novel, as such pipelines are routine in computational drug discovery. Scientific importance: The potential relevance to HPV and antimicrobial resistance is interesting, but the abstract does not establish a significant advance over existing computational studies. Interdisciplinary readership: The work may appeal to computational chemists and medicinal chemists, but the abstract lacks sufficient detail to engage a broader biological or clinical audience. Technical soundness: The methods are standard, but the absence of quantitative results undermines confidence in the conclusions. Readability for nonspecialists: The abstract is generally readable, but the conceptual inconsistency between "antimicrobial" and "antiviral" targets may confuse readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a reasonable computational workflow, but the absence of quantitative data for docking, MD, and pharmacokinetics prevents verification of the central claims. A revised version with full numerical results, clear thresholds, and a coherent framing of the antimicrobial scope would be needed to support the conclusions.
+
+## Risk / unsupported claims
+- The claim that "most of the esters can efficiently bind to the target" is unsupported without docking scores or a defined threshold.
+- The claim that "the stability of the protein-ligand combination was maintained during the whole 200 ns simulations for all compounds" is unsupported without RMSD/RMSF values or stability criteria.
+- The claim that "modified esters of MGP exhibited better pharmacokinetic characteristics and were less hazardous than the parent drug" is unsupported without specific ADMET parameters or a clear comparator.
+- The statement that the work "opened avenues for the development of newer antimicrobial agents" is an overreach given the abstract's limited evidence and the conceptual mismatch between antimicrobial and antiviral targets.
+- The identity and status of the "parent drug" is unclear and not defined in the abstract.

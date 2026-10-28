@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40531093",
+  "title": "AIoptamer: Artificial Intelligence-Driven Aptamer Optimization Pipeline for Targeted Therapeutics in Healthcare.",
+  "authors": "Gupta, Tushar; Sharma, Priyanka; Malik, Sheeba; Pant, Pradeep",
+  "journal": "Molecular pharmaceutics",
+  "published_date": "2025-06-18",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出AI驱动的适配体优化流程，结合深度学习评分与MD模拟预测RNA/DNA适配体-蛋白结合亲和力，虽聚焦适配体而非典型TF-DNA体系，但蛋白-DNA/RNA互作建模方法可迁移至TF-DNA研究。",
+  "abstract": "Aptamers are short, single-stranded DNA or RNA molecules known for their high specificity and affinity toward target biomolecules, making them powerful tools in drug discovery, diagnostics, and biosensing. However, conventional aptamer selection methods such as SELEX (Systematic Evolution of Ligands by EXponential Enrichment) are often labor-intensive, time-consuming, and resource-demanding. To overcome these limitations, we introduce a novel AI-driven aptamer optimization pipeline (AIoptamer: AI-driven optimization of aptamers) that integrates artificial intelligence with advanced classical computational approaches to accelerate aptamer discovery and design. The workflow begins with a known aptamer-host complex and systematically generates all possible aptamer sequence variants to target the same host. These variants are then screened using AI-based models that rank them based on sequence features and predicted binding affinity. Top candidates undergo structural modeling through CHIMERA_NA, an in-house mutagenesis tool designed to perform structural mutations in nucleic acids. The modeled structures are further evaluated using PredPRBA, a deep learning-based scoring function tailored for RNA-protein binding affinity prediction and PDA-Pred, a machine learning based model for predicting DNA-protein binding affinity. The highest-ranking aptamer-host complexes are then refined through molecular dynamics (MD) simulations to assess structural stability and interaction strength at the atomic level. Our pipeline demonstrates effectiveness across both RNA and DNA aptamer complexes, offering a generalized and robust framework for aptamer optimization. By combining AI-powered prediction with conventional computational techniques, our method advances the rational design of aptamers and significantly reduces reliance on traditional experimental trial-and-error strategies, making aptamer optimization faster, scalable and more efficient.",
+  "abstract_zh": "适配体是短的单链DNA或RNA分子，以其对靶标生物分子的高特异性和高亲和力而闻名，使其成为药物发现、诊断和生物传感中的强大工具。然而，传统的适配体筛选方法，如SELEX（指数富集配体系统进化），通常劳动密集、耗时且资源需求大。为克服这些限制，我们引入了一种新型的AI驱动适配体优化流程（AIoptamer：AI驱动的适配体优化），将人工智能与先进的经典计算方法相结合，以加速适配体的发现和设计。该工作流程始于已知的适配体-宿主复合物，并系统性地生成所有可能的适配体序列变体以靶向同一宿主。这些变体随后通过基于AI的模型进行筛选，这些模型根据序列特征和预测的结合亲和力对其进行排序。排名靠前的候选者通过CHIMERA_NA进行结构建模，这是一种内部开发的诱变工具，专门用于核酸的结构突变。建模后的结构进一步通过PredPRBA（一种针对RNA-蛋白质结合亲和力预测的深度学习评分函数）和PDA-Pred（一种用于预测DNA-蛋白质结合亲和力的机器学习模型）进行评估。排名最高的适配体-宿主复合物随后通过分子动力学（molecular dynamics）模拟进行细化，以在原子水平上评估结构稳定性和相互作用强度。我们的流程在RNA和DNA适配体复合物中均显示出有效性，为适配体优化提供了一个通用且稳健的框架。通过将AI驱动的预测与传统计算技术相结合，我们的方法推进了适配体的理性设计，并显著减少了对传统实验试错策略的依赖，使适配体优化更快、可扩展且更高效。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40531093/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40531093/",
+  "paper_page_path": "papers/pubmed/40531093/index.html"
+}

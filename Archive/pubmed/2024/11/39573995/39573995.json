@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "39573995",
+    "doi": "10.1186/s10020-024-01002-7",
+    "title": "Hyperoside induces ferroptosis in chronic myeloid leukemia cells by targeting NRF2."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hyperoside (quercetin-3-O-beta-D-galactopyranoside) is a flavonol glycoside compound derived from plants in the Hypericum and Crataegus genera that reportedly exhibits an array of anti-inflammatory, antioxidant, and antitumor properties such that it has been used to treat various diseases. Whether it can serve as an effective treatment for chronic myeloid leukemia (CML) cells, however, has yet to be established. The present study was thus devised to assess the therapeutic effects of hyperoside on CML cells and to clarify the underlying mechanism of action. METHODS: Cellular viability, proliferative activity, migration, and apoptotic death were respectively analyzed through CCK-8, EDU, transwell, and flow cytometry assays. RNA-seq and bioinformatics approaches were further employed to evaluate the mechanisms through which hyperoside influences CML cells, while analyses of reactive oxygen species (ROS) and free iron were detected with commercial kits. Transmission electron microscopy was used to assess mitochondrial morphology. Molecular docking, cellular thermal shift assay (CETSA), and drug affinity responsive target stability (DARTS) approaches were also used to explore the ability of hyperoside to target NRF2. RESULTS: From a mechanistic perspective, hyperoside was able to inhibit SLC7A11/GPX4 signaling in a manner that was abrogated by the ferroptosis inhibitor ferrostatin-1. NRF2 was also closely associated with the inactivation of the SLC7A11/GPX4 axis mediated by hyperoside such that overexpressing NRF2 ablated the benefits associated with hyperoside treatment. CONCLUSIONS: The present analyses indicate that hyperoside can target the NRF2/SLC7A11/GPX4 axis to induce ferroptotic CML cell death.",
+    "keywords": [
+      "Chronic myeloid leukemia",
+      "Ferroptosis",
+      "Hyperoside",
+      "NRF2"
+    ],
+    "mesh_terms": [
+      "*NF-E2-Related Factor 2/metabolism/genetics",
+      "Humans",
+      "*Leukemia, Myelogenous, Chronic, BCR-ABL Positive/drug therapy/metabolism/pathology/genetics",
+      "*Ferroptosis/drug effects",
+      "*Quercetin/pharmacology/analogs & derivatives",
+      "*Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "Reactive Oxygen Species/metabolism",
+      "Cell Proliferation/drug effects",
+      "Cell Survival/drug effects",
+      "Apoptosis/drug effects",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Junyi",
+        "Chai, Quanyou",
+        "Qin, Yuqiao",
+        "Li, Long",
+        "Guo, Chunling",
+        "Lu, Zhaoyang",
+        "Liu, Huimin"
+      ],
+      "short_names": [
+        "Wei J",
+        "Chai Q",
+        "Qin Y",
+        "Li L",
+        "Guo C",
+        "Lu Z",
+        "Liu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Immunology, Zhejiang University School of Medicine, 866 Yuhangtang Road, Hangzhou, 310058, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, 1369 West Wenyi Road, Hangzhou, China.",
+        "Department of Hematology, The Second Hospital of Shanxi Medical University, Taiyuan, China.",
+        "Institute of Immunology, Zhejiang University School of Medicine, 866 Yuhangtang Road, Hangzhou, 310058, China.",
+        "Department of Cardiology, Sir Run-Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Key Laboratory of Cardiovascular Intervention and Regenerative Medicine of Zhejiang Province, and Engineering Research Center for Cardiovascular Innovative Devices of Zhejiang Province, Hangzhou, China.",
+        "Department of Cardiology, The Second Hospital of Shanxi Medical University, Taiyuan, China.",
+        "Institute of Immunology, Zhejiang University School of Medicine, 866 Yuhangtang Road, Hangzhou, 310058, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, 1369 West Wenyi Road, Hangzhou, China.",
+        "Department of Hematology, The Second Hospital of Shanxi Medical University, Taiyuan, China.",
+        "Department of Cardiology, Sir Run-Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Key Laboratory of Cardiovascular Intervention and Regenerative Medicine of Zhejiang Province, and Engineering Research Center for Cardiovascular Innovative Devices of Zhejiang Province, Hangzhou, China.",
+        "Department of Cardiology, The Second Hospital of Shanxi Medical University, Taiyuan, China.",
+        "Department of Cardiology, Sir Run-Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Key Laboratory of Cardiovascular Intervention and Regenerative Medicine of Zhejiang Province, and Engineering Research Center for Cardiovascular Innovative Devices of Zhejiang Province, Hangzhou, China.",
+        "Department of Cardiology, The Second Hospital of Shanxi Medical University, Taiyuan, China.",
+        "Department of Cardiology, Sir Run-Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China. luzhaoyang@zju.edu.cn.",
+        "Key Laboratory of Cardiovascular Intervention and Regenerative Medicine of Zhejiang Province, and Engineering Research Center for Cardiovascular Innovative Devices of Zhejiang Province, Hangzhou, China. luzhaoyang@zju.edu.cn.",
+        "Department of Cardiology, The Second Hospital of Shanxi Medical University, Taiyuan, China. luzhaoyang@zju.edu.cn.",
+        "Institute of Immunology, Zhejiang University School of Medicine, 866 Yuhangtang Road, Hangzhou, 310058, China. flysharon@zju.edu.cn.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, 1369 West Wenyi Road, Hangzhou, China. flysharon@zju.edu.cn.",
+        "Department of Hematology, The Second Hospital of Shanxi Medical University, Taiyuan, China. flysharon@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Junyi",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Immunology, Zhejiang University School of Medicine, 866 Yuhangtang Road, Hangzhou, 310058, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, 1369 West Wenyi Road, Hangzhou, China.",
+          "Department of Hematology, The Second Hospital of Shanxi Medical University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Quanyou",
+        "short_name": "Chai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Immunology, Zhejiang University School of Medicine, 866 Yuhangtang Road, Hangzhou, 310058, China.",
+          "Department of Cardiology, Sir Run-Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Key Laboratory of Cardiovascular Intervention and Regenerative Medicine of Zhejiang Province, and Engineering Research Center for Cardiovascular Innovative Devices of Zhejiang Province, Hangzhou, China.",
+          "Department of Cardiology, The Second Hospital of Shanxi Medical University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Yuqiao",
+        "short_name": "Qin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Immunology, Zhejiang University School of Medicine, 866 Yuhangtang Road, Hangzhou, 310058, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, 1369 West Wenyi Road, Hangzhou, China.",
+          "Department of Hematology, The Second Hospital of Shanxi Medical University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Long",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sir Run-Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Key Laboratory of Cardiovascular Intervention and Regenerative Medicine of Zhejiang Province, and Engineering Research Center for Cardiovascular Innovative Devices of Zhejiang Province, Hangzhou, China.",
+          "Department of Cardiology, The Second Hospital of Shanxi Medical University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Chunling",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sir Run-Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+          "Key Laboratory of Cardiovascular Intervention and Regenerative Medicine of Zhejiang Province, and Engineering Research Center for Cardiovascular Innovative Devices of Zhejiang Province, Hangzhou, China.",
+          "Department of Cardiology, The Second Hospital of Shanxi Medical University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhaoyang",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sir Run-Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China. luzhaoyang@zju.edu.cn.",
+          "Key Laboratory of Cardiovascular Intervention and Regenerative Medicine of Zhejiang Province, and Engineering Research Center for Cardiovascular Innovative Devices of Zhejiang Province, Hangzhou, China. luzhaoyang@zju.edu.cn.",
+          "Department of Cardiology, The Second Hospital of Shanxi Medical University, Taiyuan, China. luzhaoyang@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Huimin",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Immunology, Zhejiang University School of Medicine, 866 Yuhangtang Road, Hangzhou, 310058, China. flysharon@zju.edu.cn.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, 1369 West Wenyi Road, Hangzhou, China. flysharon@zju.edu.cn.",
+          "Department of Hematology, The Second Hospital of Shanxi Medical University, Taiyuan, China. flysharon@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular medicine (Cambridge, Mass.)"
+    ],
+    "journal_abbrev": [
+      "Mol Med"
+    ],
+    "pub_date": "2024 Nov 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/22 06:22",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [
+      "42006488",
+      "41847430",
+      "41750850",
+      "41596074",
+      "41483453",
+      "41462004",
+      "41408359",
+      "41175279",
+      "41063277",
+      "40917752",
+      "40227235"
+    ],
+    "refs": [
+      "38464829",
+      "38347435",
+      "38305391",
+      "38166505",
+      "37407304",
+      "37380530",
+      "37339981",
+      "37324946",
+      "37209607",
+      "36622894",
+      "36482419",
+      "36402146",
+      "36252358",
+      "35561084",
+      "35151318",
+      "34257594",
+      "33536413",
+      "33462411",
+      "33268902",
+      "32541831",
+      "32447047",
+      "32413317",
+      "32127639",
+      "31958545",
+      "31907378",
+      "31881478",
+      "31878204",
+      "31736748",
+      "31595562",
+      "31516392",
+      "30888116",
+      "30692038",
+      "30620402",
+      "29764521",
+      "29731393",
+      "29067453",
+      "28959654",
+      "28789450",
+      "28707601",
+      "28433662",
+      "28204974",
+      "28197632",
+      "26948085",
+      "24173369",
+      "23140285",
+      "21263154",
+      "17151364",
+      "15291471",
+      "12235164",
+      "11121513",
+      "8998181"
+    ],
+    "similar": [
+      "39573995",
+      "41344272",
+      "42119178",
+      "39805792",
+      "40412057",
+      "42048794",
+      "42178012",
+      "39706065",
+      "37856990",
+      "42414868",
+      "40806353",
+      "41408403",
+      "39751740",
+      "40085199",
+      "40819642",
+      "41423144",
+      "40456202",
+      "40146790",
+      "40825957",
+      "41053553",
+      "40917026",
+      "40594119",
+      "39134490",
+      "37714424",
+      "41730482",
+      "41825841",
+      "42420410",
+      "41814775",
+      "40876907",
+      "31878204",
+      "40252902",
+      "41187650",
+      "41684188",
+      "40344847",
+      "39642461",
+      "42000005",
+      "41761985",
+      "40066086",
+      "42089895",
+      "33389727",
+      "40530967",
+      "39657533",
+      "39393329",
+      "40686148",
+      "41655724",
+      "42543668",
+      "39465372",
+      "39260309",
+      "37005755",
+      "41430257",
+      "29843123",
+      "31810012",
+      "41920257",
+      "42026586",
+      "40664345",
+      "40222690",
+      "40930912",
+      "40812220",
+      "40877163",
+      "30378302",
+      "42263898",
+      "38685305",
+      "39032284",
+      "38930897",
+      "38663476",
+      "38520834",
+      "42126498",
+      "34942457",
+      "42462527",
+      "38977343",
+      "40985323",
+      "40935194",
+      "42492799",
+      "41589402",
+      "38000454",
+      "28409295",
+      "19240172",
+      "41429385",
+      "24040019",
+      "25701353",
+      "40592077",
+      "35091012",
+      "41121022",
+      "41316369",
+      "38104880",
+      "39214275",
+      "38295662",
+      "31757050",
+      "40274347",
+      "40219018",
+      "42411497",
+      "40494017",
+      "40613296",
+      "41275941",
+      "31362681",
+      "39511708",
+      "41690038",
+      "41435609",
+      "39423479",
+      "39755103"
+    ],
+    "review": [
+      "39573995"
+    ],
+    "pmc": [
+      "11583796"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molmed.biomedcentral.com/articles/10.1186/s10020-024-01002-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/chronicmyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chronic Myeloid Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39573995/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

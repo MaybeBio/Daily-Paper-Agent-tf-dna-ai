@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, methods, data/code availability statements, and supplementary appendix descriptions.
+- **Assessment boundary** Scientific and technical claims as presented in the provided manuscript text. No external data, code execution, or independent replication was performed. Assessment is based solely on the supplied material.
+- **Shared manuscript claim summary** The authors introduce Evo 2, a genomic foundation model trained on 9.3 trillion nucleotides from a curated dataset spanning all domains of life. They claim state-of-the-art zero-shot performance on variant effect prediction, including noncoding and non-SNV variants, competitive performance on protein and RNA fitness prediction, and novel generative capabilities including genome-scale sequence generation and epigenomic design via inference-time search. They also present mechanistic interpretability analyses using sparse autoencoders to identify biologically meaningful features.
+- **Visible evidence base** Abstract, Introduction, Results sections 2.1-2.6, Discussion, Methods sections 4.1-4.6, Data/Code availability statements, and Appendix B.1. Figures and tables are referenced but not directly viewable in the provided text.
+- **Missing materials affecting confidence** Figure panels and supplementary figures (S1-S9) are referenced but not provided. Table contents (Tables 1-7) are referenced but not shown. Detailed hyperparameter configurations, training curves, and full evaluation results are not fully specified. The exact composition of the OpenGenome2 dataset and the full list of species used are not enumerated in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial technical achievement in training a large-scale genomic foundation model with an unprecedented context window and dataset scale. The breadth of evaluations across diverse biological tasks is commendable, and the open release of model weights, code, and data represents a significant community resource. However, several core claims require additional scrutiny. The zero-shot variant effect prediction results, while promising, are compared against a limited set of baselines in the provided text, and the novelty of the architectural contributions relative to prior work (including the authors' own Evo 1) is not fully articulated. The generative epigenomics results, while innovative, rely on a complex pipeline whose components are not fully validated in isolation. The mechanistic interpretability section, while interesting, is largely descriptive and the biological significance of the identified features is not deeply explored. Overall, the work is potentially important but the current evidence base is insufficient to fully support all claims as stated.
+- **Who would be interested in the results, and why** Computational biologists developing and applying foundation models to genomics will be the primary audience. Researchers studying variant interpretation, noncoding regulatory element function, and genome evolution will find the predictive capabilities relevant. The generative design approach may interest synthetic biologists and those working on genome engineering. The open release of resources will attract a broad community of machine learning researchers and biologists seeking to apply or fine-tune these models. The mechanistic interpretability findings may interest those studying the internal representations of biological language models.
+- **Major strengths**
+  1. The scale of the model and dataset is a clear advance, with the 1 million token context window being a notable technical achievement.
+  2. The breadth of evaluation tasks, spanning molecular to organismal fitness and including both coding and noncoding elements, is impressive.
+  3. The commitment to open science, with release of model parameters, code, and the OpenGenome2 dataset, is exemplary and will accelerate the field.
+  4. The demonstration of inference-time scaling for biological design is a novel and potentially influential contribution.
+  5. The application of mechanistic interpretability to a genomic foundation model is a forward-looking approach that may yield new biological insights.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that Evo 2 achieves "state-of-the-art performance" on noncoding and splice variant prediction (Abstract, Section 2.3, Discussion).
+  - **Evidence pointer** Section 2.3, Figure 3, Table S7 (referenced but not provided).
+  - **Concern** The provided text does not fully specify the comparison baselines, the statistical significance of the improvements, or the exact evaluation protocols for the ClinVar, SpliceVarDB, and BRCA1/2 benchmarks. The claim of "state-of-the-art" requires a rigorous and transparent comparison against a comprehensive set of existing methods, including specialized variant effect predictors and other genomic foundation models. The text mentions "other models" but does not enumerate them or provide their performance values in the main text.
+  - **Why it matters** The central claim of the manuscript's utility rests on its predictive performance. Without a clear and complete comparison, the reader cannot assess whether the improvements are meaningful or within the range of expected variation. This is a core claim that must be rigorously supported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The manuscript positions Evo 2 as a major advance over prior work, including the authors' own Evo 1 (Introduction, Section 2.1).
+  - **Evidence pointer** Section 2.1, Figure 1, Appendix B.1.
+  - **Concern** The specific architectural and methodological innovations that distinguish Evo 2 from Evo 1 and other genomic foundation models are not clearly delineated. The text mentions a new architecture (StripedHyena 2) and training data improvements, but the incremental benefit of each component is not quantified. The ablation study in Appendix B.1 focuses on data composition, but a similar analysis of the architectural changes is not presented. The claim of a "major advance" requires a clearer demonstration of what specifically is new and why it matters.
+  - **Why it matters** For a field advancing rapidly, it is critical to understand the specific contributions of this work. Without a clear articulation of novelty, the manuscript risks being seen as an incremental scaling exercise rather than a conceptual advance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that Evo 2 can generate "genome-scale" sequences with "greater naturalness and coherence than previous methods" (Abstract, Section 2.5).
+  - **Evidence pointer** Section 2.5, Figures 5, S8.
+  - **Concern** The evaluation of generated sequences relies on metrics such as "naturalness" and "coherence" which are not rigorously defined. The comparison to previous methods is not fully specified. The analysis of generated mitochondrial genomes and M. genitalium genomes, while showing some structural similarity, does not demonstrate functional validity. The claim of "genome-scale" generation is based on a 1 million token context window, but the actual generated sequences are of specific loci, not complete genomes.
+  - **Why it matters** Generative capabilities are a key differentiator of this work. The evaluation metrics must be objective and the claims must be scoped appropriately. Overstating the quality or scale of generation could mislead the community.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the generative epigenomics approach demonstrates "the first inference-time scaling results in biology" (Abstract, Section 2.6, Discussion).
+  - **Evidence pointer** Section 2.6, Figure 6.
+  - **Concern** The scaling relationship is demonstrated for a specific design task (chromatin accessibility) using a specific scoring function (ensemble of Enformer and Borzoi). The generality of this result to other biological design tasks is speculative. The claim of "first" is strong and requires a thorough literature search to substantiate. The practical utility of the designed sequences is not demonstrated experimentally.
+  - **Why it matters** This is a novel and potentially important contribution. However, the claim of primacy and the generalizability of the approach need to be carefully qualified to avoid overstatement.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that mechanistic interpretability reveals features corresponding to "exon-intron boundaries, transcription factor binding sites, protein structural elements, and prophage genomic regions" (Abstract, Section 2.4).
+  - **Evidence pointer** Section 2.4, Figures 4, S5-S7.
+  - **Concern** The analysis is largely descriptive. The text does not provide quantitative evidence that these features are more predictive of the annotated biological elements than random features or features from other models. The selection of features for detailed analysis appears to be based on manual inspection, which introduces potential bias. The biological significance of these features is not validated experimentally or through independent computational analyses.
+  - **Why it matters** The interpretability analysis is presented as a key contribution. Without rigorous quantitative evaluation, the claims of biological relevance are not fully supported.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.1, Figure 1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The description of the training data composition and the two-phase training procedure is dense and would benefit from a clearer summary of the key design choices and their rationale.
+  - **Required correction** Consider adding a summary paragraph or table that clearly outlines the data sources, filtering criteria, and the rationale for the training curriculum.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2, Figure 2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of the mutation effect prediction evaluations is brief. The text mentions "20 prokaryotic species and 16 eukaryotic species" but does not specify the number of variants tested per species or the statistical methods used to aggregate results.
+  - **Required correction** Provide more detail on the evaluation protocol, including the number of variants, the handling of multiple testing, and the confidence intervals for the reported correlations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.6, Figure 6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The description of the beam search algorithm and the scoring function is complex. The text would benefit from a pseudocode description or a more intuitive explanation of the approach.
+  - **Required correction** Consider adding a pseudocode block or a step-by-step description of the algorithm in the Methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.1, Table 2
+  - **Evidence pointer** Section 4.1
+  - **Issue** The hyperparameters for the models are listed in a table, but the text does not discuss the sensitivity of the results to these choices.
+  - **Required correction** Add a brief discussion of the hyperparameter selection process and any relevant sensitivity analyses.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of safety and ethical considerations is thorough but could be more tightly integrated with the technical contributions of the paper.
+  - **Required correction** Consider moving some of the safety discussion to a dedicated section or appendix to improve the flow of the main text.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Incomplete specification of baselines and statistical rigor for the central claim of state-of-the-art variant effect prediction.
+  - R1-M2: Lack of a clear and quantified articulation of the architectural and methodological innovations over prior work, including Evo 1.
+  - R1-M3: Subjective and under-specified evaluation metrics for generated sequences, and overstatement of "genome-scale" generation.
+  - R1-M4: The claim of "first" inference-time scaling results in biology requires a more thorough literature review and careful qualification.
+  - R1-M5: The mechanistic interpretability analysis lacks quantitative validation of the biological relevance of the identified features.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its scale and integration of capabilities, but the specific novel contributions are not clearly delineated. The application of inference-time search to genomic design is a novel concept. The mechanistic interpretability approach is not new but its application to a genomic foundation model at this scale is. The claim of "first" for inference-time scaling needs verification. Overall, the originality is moderate to high, but the manuscript must more clearly articulate what is conceptually new.
+  - **Scientific importance** The potential importance is high. A generalist genomic model with strong predictive and generative capabilities could have broad impact on variant interpretation, genome engineering, and understanding of genome evolution. The open release of resources is a major contribution. However, the importance is contingent on the robustness of the performance claims, which are not fully established in the provided text.
+  - **Interdisciplinary readership** The work is likely to appeal to a broad readership spanning machine learning, genomics, molecular biology, and synthetic biology. The writing is generally accessible, but the Methods section is highly technical. The potential for broad interest is high, but the manuscript must ensure that the key claims are understandable and credible to non-specialists.
+  - **Technical soundness** The technical execution appears sound, but the evidence base is incomplete. The lack of full details on evaluation protocols, baselines, and statistical analyses prevents a full assessment. The generative and interpretability analyses require more rigorous validation. The technical soundness is currently not fully established.
+  - **Readability for nonspecialists** The abstract and introduction are well-written and accessible. The results sections are dense but understandable. The Methods section is highly technical and will be challenging for non-experts. The manuscript would benefit from a clearer summary of the key technical innovations and their significance for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The work has the potential to be an important contribution, but the current evidence base is insufficient to fully support all claims. The authors must provide a more rigorous and transparent evaluation of the model's performance, clearly articulate the novel contributions, and validate the generative and interpretability analyses. If these concerns are addressed, the manuscript could be suitable for publication in a high-impact venue.

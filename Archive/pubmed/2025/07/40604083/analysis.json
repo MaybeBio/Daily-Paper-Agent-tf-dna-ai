@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40604083",
+  "title": "Cohesive data analysis for the identification of prognostic hub genes and significant pathways associated with HER2 + and TN breast cancer types.",
+  "authors": "Zakir, Mahrukh; Saddiqa, Alishbah; Sheikh, Mawara; Zakir, Lalarukh; Sami, Fatima; Ahmad, Faisal Sardar; Rauf, Sadaf Abdul; Ali, Iqra; Muneer, Zahid; Alonazi, Wadi B; Siddiqi, Abdul Rauf",
+  "journal": "Scientific reports",
+  "published_date": "2025-07-03",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用转录组数据识别乳腺癌亚型预后枢纽基因和通路，虽提及转录因子但仅作关联分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题核心无关。",
+  "abstract": "Breast cancer is the most prevalent and lethal form of cancer being the utmost common medical concern of women. Breast cancer etiology implicates numerous cellular protein receptors such as estrogen receptors (ER), progesterone receptors (PR), and human epidermal growth factor/receptor 2 (HER2) which turn on oncogenic cascade often attributed to certain genetic variations. Breast Cancer is thus classified into ER + /-, PR + /-, HER2 +/- and Triple Negative types. This study seeks to build upon our current knowledge of HER2 + and TNBC BC types to discover novel patterns for diagnosis and prognosis. The study exploits wealth of HER2 + and TNBC transcriptome (RNA Seq) data to elucidate the key hub genes, their associated networks, pathways, stage-wise expression profile, role in prognosis and survival expectancy, and regulatory transcription factors. The study also employs machine learning models including support vector machine (SVM), XGBoost, Random Forest, k nearest neighbor (kNN), Naive Bayes and Voting Classifier to distinguish between HER2 + and TNBC transcriptomes which is a key variable for early detection and choice of therapeutic alternatives. RNA Seq datasets consisting of 49 HER2 + and 44 TNBC breast tumor samples were retrieved and pre-processed. Differentially Expressed Genes (DEGs) along with their logFC and p-values were fetched. The KEGG (Kyoto Encyclopedia of Genes and Genomes) and GO (Gene Ontology) analyses of DEGs were conducted on DAVID (the Database for Annotation, Visualization and Integrated Discovery) and interaction network was constructed through Cytoscape. Ten hub genes were obtained based on maximum clique centrality (MCC), maximum neighborhood component (MNC), degree, closeness and betweenness using cytoHubba which included ACTB, ATM, ESR1, GAPDH, HNRNPK, KRAS, MDM2, SIRT1, TP53, and H3F3C (H3-5). These hub genes were found to be associated with cell proliferation, invasion and migration. Transcription factors and association of the expression profile of these hub genes with survival expectancy was also determined. Among the ML models, SVM stood out, exhibiting classification success between HER2 + and TNBC transcriptomes with an accuracy of 90%. The findings of this study can therefore effectively aid in tracing the initial prognosis of BC and identify biomarkers for the personalized prevention, prediction, diagnosis, and treatment of BC.",
+  "abstract_zh": "乳腺癌是女性最常见且致死率最高的癌症，也是女性最普遍的医学关注点。乳腺癌的病因涉及众多细胞蛋白受体，如雌激素受体（ER）、孕激素受体（PR）和人表皮生长因子受体2（HER2），这些受体激活致癌级联反应，通常归因于某些遗传变异。因此，乳腺癌被分类为ER+/-、PR+/-、HER2+/-和三阴性类型。本研究旨在基于现有对HER2+和三阴性乳腺癌（TNBC）类型的知识，发现新的诊断和预后模式。研究利用丰富的HER2+和TNBC转录组（RNA Seq）数据，阐明关键枢纽基因、其相关网络、通路、分期表达谱、在预后和生存预期中的作用，以及调控转录因子。研究还采用机器学习模型，包括支持向量机（SVM）、XGBoost、随机森林、k近邻（kNN）、朴素贝叶斯和投票分类器，以区分HER2+和TNBC转录组，这是早期检测和治疗选择的关键变量。研究获取并预处理了包含49个HER2+和44个TNBC乳腺肿瘤样本的RNA Seq数据集。提取了差异表达基因（DEGs）及其logFC和p值。在DAVID（注释、可视化和集成发现数据库）上进行了DEGs的KEGG（京都基因与基因组百科全书）和GO（基因本体论）分析，并通过Cytoscape构建了相互作用网络。基于最大团中心性（MCC）、最大邻域组件（MNC）、度、接近度和介数，使用cytoHubba获得了十个枢纽基因，包括ACTB、ATM、ESR1、GAPDH、HNRNPK、KRAS、MDM2、SIRT1、TP53和H3F3C（H3-5）。这些枢纽基因被发现与细胞增殖、侵袭和迁移相关。还确定了转录因子以及这些枢纽基因表达谱与生存预期的关联。在机器学习模型中，SVM表现突出，在HER2+和TNBC转录组之间的分类成功率达到90%的准确率。因此，本研究的发现可以有效帮助追踪乳腺癌的初始预后，并识别用于个性化预防、预测、诊断和治疗的生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40604083/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40604083/",
+  "paper_page_path": "papers/pubmed/40604083/index.html"
+}

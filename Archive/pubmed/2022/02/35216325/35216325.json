@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "35216325",
+    "doi": "10.3390/ijms23042213",
+    "title": "A Transcriptomic Approach to Elucidate the Mechanisms of Gefitinib-Induced Toxicity in Healthy Human Intestinal Organoids."
+  },
+  "content": {
+    "abstract": "Gefitinib is a tyrosine kinase inhibitor (TKI) that selectively inhibits the epidermal growth factor receptor (EGFR), hampering cell growth and proliferation. Due to its action, gefitinib has been used in the treatment of cancers that present abnormally increased expression of EGFR. However, side effects from gefitinib therapy may occur, among which diarrhoea is most common, that can lead to interruption of the planned therapy in the more severe cases. The mechanisms underlying intestinal toxicity induced by gefitinib are not well understood. Therefore, this study aims at providing insight into these mechanisms based on transcriptomic responses induced in vitro. A 3D culture of healthy human colon and small intestine (SI) organoids was exposed to 0.1, 1, 10 and 30 microM of gefitinib, for a maximum of three days. These drug concentrations were selected using physiologically-based pharmacokinetic simulation considering patient dosing regimens. Samples were used for the analysis of viability and caspase 3/7 activation, image-based analysis of structural changes, as well as RNA isolation and sequencing via high-throughput techniques. Differential gene expression analysis showed that gefitinib perturbed signal transduction pathways, apoptosis, cell cycle, FOXO-mediated transcription, p53 signalling pathway, and metabolic pathways. Remarkably, opposite expression patterns of genes associated with metabolism of lipids and cholesterol biosynthesis were observed in colon versus SI organoids in response to gefitinib. These differences in the organoids' responses could be linked to increased activated protein kinase (AMPK) activity in colon, which can influence the sensitivity of the colon to the drug. Therefore, this study sheds light on how gefitinib induces toxicity in intestinal organoids and provides an avenue towards the development of a potential tool for drug screening and development.",
+    "keywords": [
+      "gefitinib",
+      "human intestinal organoids",
+      "molecular mechanisms",
+      "toxicity",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Aged",
+      "Antineoplastic Agents/pharmacology",
+      "Apoptosis/drug effects",
+      "Cell Cycle/drug effects",
+      "Cell Proliferation/drug effects",
+      "Drug Resistance, Neoplasm/drug effects",
+      "ErbB Receptors/metabolism",
+      "Gefitinib/*pharmacology",
+      "Humans",
+      "Intestines/*drug effects/metabolism",
+      "Male",
+      "Organoids/*drug effects/metabolism",
+      "Quinazolines/pharmacology",
+      "Signal Transduction/drug effects",
+      "Transcriptome/*genetics",
+      "Tumor Suppressor Protein p53/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rodrigues, Daniela",
+        "Herpers, Bram",
+        "Ferreira, Sofia",
+        "Jo, Heeseung",
+        "Fisher, Ciaran",
+        "Coyle, Luke",
+        "Chung, Seung-Wook",
+        "Kleinjans, Jos C S",
+        "Jennen, Danyel G J",
+        "de Kok, Theo M"
+      ],
+      "short_names": [
+        "Rodrigues D",
+        "Herpers B",
+        "Ferreira S",
+        "Jo H",
+        "Fisher C",
+        "Coyle L",
+        "Chung SW",
+        "Kleinjans JCS",
+        "Jennen DGJ",
+        "de Kok TM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5527-6627",
+        "ORCID: 0000-0002-8618-2487"
+      ],
+      "affiliations": [
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, 6229 ER Maastricht, The Netherlands.",
+        "Crown Bioscience Netherlands B.V., J.H. Oortweg 21, 2333 CH Leiden, The Netherlands.",
+        "Simcyp Division, Certara UK Limited, Sheffield S1 2BJ, UK.",
+        "Simcyp Division, Certara UK Limited, Sheffield S1 2BJ, UK.",
+        "Simcyp Division, Certara UK Limited, Sheffield S1 2BJ, UK.",
+        "Boehringer Ingelheim International GmbH, Pharmaceuticals Inc., Ridgefield, CT 06877, USA.",
+        "Boehringer Ingelheim International GmbH, Pharmaceuticals Inc., Ridgefield, CT 06877, USA.",
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, 6229 ER Maastricht, The Netherlands.",
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, 6229 ER Maastricht, The Netherlands.",
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, 6229 ER Maastricht, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rodrigues, Daniela",
+        "short_name": "Rodrigues D",
+        "identifiers": [
+          "0000-0001-5527-6627"
+        ],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, 6229 ER Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Herpers, Bram",
+        "short_name": "Herpers B",
+        "identifiers": [],
+        "affiliations": [
+          "Crown Bioscience Netherlands B.V., J.H. Oortweg 21, 2333 CH Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Sofia",
+        "short_name": "Ferreira S",
+        "identifiers": [],
+        "affiliations": [
+          "Simcyp Division, Certara UK Limited, Sheffield S1 2BJ, UK."
+        ]
+      },
+      {
+        "full_name": "Jo, Heeseung",
+        "short_name": "Jo H",
+        "identifiers": [],
+        "affiliations": [
+          "Simcyp Division, Certara UK Limited, Sheffield S1 2BJ, UK."
+        ]
+      },
+      {
+        "full_name": "Fisher, Ciarán",
+        "short_name": "Fisher C",
+        "identifiers": [],
+        "affiliations": [
+          "Simcyp Division, Certara UK Limited, Sheffield S1 2BJ, UK."
+        ]
+      },
+      {
+        "full_name": "Coyle, Luke",
+        "short_name": "Coyle L",
+        "identifiers": [],
+        "affiliations": [
+          "Boehringer Ingelheim International GmbH, Pharmaceuticals Inc., Ridgefield, CT 06877, USA."
+        ]
+      },
+      {
+        "full_name": "Chung, Seung-Wook",
+        "short_name": "Chung SW",
+        "identifiers": [],
+        "affiliations": [
+          "Boehringer Ingelheim International GmbH, Pharmaceuticals Inc., Ridgefield, CT 06877, USA."
+        ]
+      },
+      {
+        "full_name": "Kleinjans, Jos C S",
+        "short_name": "Kleinjans JCS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, 6229 ER Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jennen, Danyel G J",
+        "short_name": "Jennen DGJ",
+        "identifiers": [
+          "0000-0002-8618-2487"
+        ],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, 6229 ER Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Kok, Theo M",
+        "short_name": "de Kok TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, 6229 ER Maastricht, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Feb 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/27 06:00",
+    "fetched_at": "2026-09-28 05:37:21"
+  },
+  "links": {
+    "cites": [
+      "42653080",
+      "42482086",
+      "41689692",
+      "41225057",
+      "40525436",
+      "39412216",
+      "39281285",
+      "38806717",
+      "38501021",
+      "38258044",
+      "37215622",
+      "37077827",
+      "36167824",
+      "36106099"
+    ],
+    "refs": [
+      "35163210",
+      "34151400",
+      "33941270",
+      "33211851",
+      "32987868",
+      "32636524",
+      "32244867",
+      "32123859",
+      "31909603",
+      "31875869",
+      "31608434",
+      "31488816",
+      "30723234",
+      "30599189",
+      "30275119",
+      "30242980",
+      "30069771",
+      "29215723",
+      "29193123",
+      "29145629",
+      "28974774",
+      "28964539",
+      "28922975",
+      "28461741",
+      "28123721",
+      "27604037",
+      "27396387",
+      "27154635",
+      "26911908",
+      "26677228",
+      "25795635",
+      "25634113",
+      "25516281",
+      "25445223",
+      "25289886",
+      "25105065",
+      "24994036",
+      "24768708",
+      "24695404",
+      "23270470",
+      "23143270",
+      "21889923",
+      "21660955",
+      "19826406",
+      "19689244",
+      "19426836",
+      "19405992",
+      "19381840",
+      "19329995",
+      "19199378",
+      "19150257",
+      "18783297",
+      "17980406",
+      "17785573",
+      "17307039",
+      "16639716",
+      "16502356",
+      "16293881",
+      "16229013",
+      "16176119",
+      "15858854",
+      "15197213",
+      "14599302",
+      "8629727",
+      "3263702"
+    ],
+    "similar": [
+      "35216325",
+      "35163210",
+      "34151400",
+      "21858220",
+      "16222152",
+      "17611677",
+      "24682085",
+      "34370268",
+      "17145836",
+      "19033425",
+      "31132355",
+      "26883272",
+      "32820157",
+      "33989664",
+      "18803287",
+      "33276757",
+      "31323446",
+      "19756373",
+      "16731747",
+      "16532343",
+      "32342201",
+      "20088784",
+      "28683123",
+      "14583782",
+      "21660955",
+      "31411813",
+      "29714661",
+      "23523951",
+      "32464330",
+      "31698509",
+      "15475436",
+      "11986789",
+      "29961070",
+      "31020605",
+      "20558290",
+      "32070026",
+      "29080795",
+      "27264264",
+      "21741919",
+      "20846305",
+      "18973751",
+      "22160570",
+      "19190133",
+      "24840891",
+      "30791926",
+      "21487020",
+      "21964064",
+      "27864022",
+      "25400829",
+      "17549382",
+      "23061908",
+      "15613453",
+      "19318490",
+      "19921194",
+      "24874286",
+      "24374738",
+      "21220474",
+      "25501339",
+      "20530710",
+      "30759826",
+      "16819546",
+      "31323891",
+      "25483995",
+      "16229013",
+      "31109434",
+      "22111840",
+      "18281519",
+      "23761220",
+      "22985911",
+      "17283151",
+      "18506376",
+      "26919104",
+      "28578487",
+      "25008024",
+      "26825989",
+      "22315058",
+      "17973572",
+      "22687878",
+      "21255411",
+      "16818711",
+      "25877381",
+      "16322337",
+      "33972544",
+      "28345372",
+      "36183961",
+      "37012293",
+      "38985518",
+      "36203040",
+      "34389629",
+      "37697686",
+      "39113237",
+      "36594023",
+      "36732654",
+      "38658729",
+      "37803237"
+    ],
+    "review": [
+      "35216325",
+      "17549382"
+    ],
+    "pmc": [
+      "8876167"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23042213",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35216325/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35216325",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

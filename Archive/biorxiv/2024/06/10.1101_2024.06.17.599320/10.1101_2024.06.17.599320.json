@@ -1,0 +1,942 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.17.599320",
+  "title": "AP2/ERF transcription factors enriched in the drought-response transcriptome of the Thar desert tree <i>Prosopis cineraria</i> show higher copy number and greater DNA-binding affinity than orthologs in drought-sensitive species",
+  "doi": "10.1101/2024.06.17.599320",
+  "abstract": "We sequenced the drought-response transcriptome of the keystone tree species Prosopis cineraria from the Indian Thar desert to understand the key factors in its drought tolerance mechanism. We identified a network of genes activated in P. cineraria involved in osmotic stress response, phytohormone, calcium, and phosphorelay signal transduction. Of these, up-regulation of 54 APETALA2/Ethylene-Responsive Factor (AP2/ERF) transcription factor genes, validated by real-time PCR, suggests their key role in the drought tolerance of P. cineraria. We conducted a genome-wide study of the AP2/ERF superfamily in P. cineraria , classifying its 232 proteins into 15 clades and analyzing their protein structures, gene structure, and promoter organization. The P. cineraria genome contains more copies of AP2/ERF genes than drought-sensitive plants. Further, we identified sequence polymorphisms in AP2/ERF genes between Arabian and Indian cultivars of P. cineraria . We modeled the DNA-protein complex structures of AP2/ERFs from drought-tolerant and sensitive species using AlphaFold to compare their DNA binding ability. Though the DNA binding domain (DBD) is relatively conserved across species, the unstructured region of these proteins possesses different charge distributions, which might contribute differently to their DNA search and binding. Using all-atom molecular dynamics simulations, we teased out a higher number of specific DBD-DNA hydrogen bonds in P. cineraria, leading to a stronger DNA-binding affinity compared to drought-sensitive Arabidopsis thaliana . These results directly support copy number expansion of AP2/ERF transcription factors and the evolution of their structures for more efficient DNA search and binding as drought adaptation mechanisms in P. cineraria .",
+  "authors": [
+    "Vedikaa Dhiman",
+    "Debankona Marik",
+    "Amrita",
+    "Rajveer Singh Shekhawat",
+    "Asish Kumar Swain",
+    "Arpan Dey",
+    "Pankaj Yadav",
+    "Arumay Pal",
+    "Sucharita Dey",
+    "Ayan Sadhukhan"
+  ],
+  "published_date": "2024-06-19",
+  "updated_date": "2024-06-19T16:25:20Z",
+  "journal": "bioRxiv",
+  "category": "Plant Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.17.599320",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.17.599320.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Plant Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Plant Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:50:03Z",
+        "timestamp": 1768513803227,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            19
+          ]
+        ]
+      },
+      "group-title": "Plant Biology",
+      "reference-count": 131,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We sequenced the drought-response transcriptome of the keystone tree species\n                  <jats:italic>Prosopis cineraria</jats:italic>\n                  from the Indian Thar desert to understand the key factors in its drought tolerance mechanism. We identified a network of genes activated in\n                  <jats:italic>P. cineraria</jats:italic>\n                  involved in osmotic stress response, phytohormone, calcium, and phosphorelay signal transduction. Of these, up-regulation of 54 APETALA2/Ethylene-Responsive Factor (AP2/ERF) transcription factor genes, validated by real-time PCR, suggests their key role in the drought tolerance of\n                  <jats:italic>P. cineraria.</jats:italic>\n                  We conducted a genome-wide study of the AP2/ERF superfamily in\n                  <jats:italic>P. cineraria</jats:italic>\n                  , classifying its 232 proteins into 15 clades and analyzing their protein structures, gene structure, and promoter organization. The\n                  <jats:italic>P. cineraria</jats:italic>\n                  genome contains more copies of\n                  <jats:italic>AP2/ERF</jats:italic>\n                  genes than drought-sensitive plants. Further, we identified sequence polymorphisms in\n                  <jats:italic>AP2/ERF</jats:italic>\n                  genes between Arabian and Indian cultivars of\n                  <jats:italic>P. cineraria</jats:italic>\n                  . We modeled the DNA-protein complex structures of AP2/ERFs from drought-tolerant and sensitive species using AlphaFold to compare their DNA binding ability. Though the DNA binding domain (DBD) is relatively conserved across species, the unstructured region of these proteins possesses different charge distributions, which might contribute differently to their DNA search and binding. Using all-atom molecular dynamics simulations, we teased out a higher number of specific DBD-DNA hydrogen bonds in\n                  <jats:italic>P. cineraria,</jats:italic>\n                  leading to a stronger DNA-binding affinity compared to drought-sensitive\n                  <jats:italic>Arabidopsis thaliana</jats:italic>\n                  . These results directly support copy number expansion of AP2/ERF transcription factors and the evolution of their structures for more efficient DNA search and binding as drought adaptation mechanisms in\n                  <jats:italic>P. cineraria</jats:italic>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2024.06.17.599320",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            19
+          ]
+        ],
+        "date-time": "2024-06-19T16:25:20Z",
+        "timestamp": 1718814320000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "AP2/ERF transcription factors enriched in the drought-response transcriptome of the Thar desert tree\n                  <i>Prosopis cineraria</i>\n                  show higher copy number and greater DNA-binding affinity than orthologs in drought-sensitive species"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Vedikaa",
+          "family": "Dhiman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Debankona",
+          "family": "Marik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Amrita",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rajveer Singh",
+          "family": "Shekhawat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Asish Kumar",
+          "family": "Swain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Arpan",
+          "family": "Dey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pankaj",
+          "family": "Yadav",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Arumay",
+          "family": "Pal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sucharita",
+          "family": "Dey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6745-749X",
+          "authenticated-orcid": false,
+          "given": "Ayan",
+          "family": "Sadhukhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms21030772"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07487-w"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.006130"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/pbi.12520"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/17.18.5484"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.6",
+          "unstructured": "Andrews S . (2010) FastQC: a quality control tool for high throughput sequence data. 1–1. Available online at: http://www.bioinformatics.babraham.ac.uk/projects/fastqc"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/23818107.2021.1981437"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms160715811"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.physchem.51.1.129"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0405-z"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2022.167660"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pmpp.2020.101527"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12033-014-9828-z"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molp.2020.06.009"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13353-021-00675-8"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.12688/f1000research.8987.2"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.16.00025"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.006494"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00027338"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2021.750761"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks405"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts635"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12870-015-0700-5"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep37379"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2009554117"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.12.3.393"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.252637799"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jplph.2023.153923"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "449",
+          "DOI": "10.1517/17460441.2015.1032936",
+          "article-title": "The MM/PBSA and MM/GBSA methods to estimate ligand-binding affinities",
+          "volume": "10",
+          "year": "2015",
+          "journal-title": "Expert Opin Drug Dis"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/aob/mch150"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1883"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.17221/108/2022-cjgpb"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0161322"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.indcrop.2023.116820"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/Int"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-physiol-012110-142203"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.273.41.26857"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2023.03.002"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07391102.2021.1894980"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2018.00970"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/Int"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.colsurfb.2005.07.017"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11103-013-0054-z"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2019.01326"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-9-118"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-313x.2001.01096.x"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4362"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0221422"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2016.00207"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.18.01185"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad347"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(82)90515-0"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep18878"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jxb/err016"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jxb/err210"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.1.325"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab301"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/plants12173166"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.106.080580"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/IntJBiolMacromol19113637"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pld.2016.03.002"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-021-07799-5"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12870-019-1923-7"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.10.8.1391"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cj.2023.05.002"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-023-09585-x"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2014-15-1-r1"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2010.10.023"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1994.1334"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300418h"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2229-12-1"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gene.2023.147215"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2021.737490"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.105.073783"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gene.2020.144514"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.phytochem.2023.113715"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20033"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1007867"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmolb.2022.978310"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12870-018-1289-2"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.105.066324"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-49245-4"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/Int"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0065-3233(03)66002-X"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:PLAN.0000040903.66496.a4"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2019.01765"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12355-023-01337-1"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00468-020-02073-9"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00425-014-2111-5"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2017.01553"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/bbrc.2001.6299"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.105.035881"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7717/peerj.6810"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/treephys/tpy153"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/pce.14629"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.1239303"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s42397-021-00102-7"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2011.75"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv351"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/bf00303516"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00172a038"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiolchem.2009.07.007"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms23158503"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12870-023-04180-4"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2014.00771"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbs017"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1806460115"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2022.851731"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad045"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/Int"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-0-387-98141-3"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.109.073072"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.114",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jxb/eraa452"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12870-020-02795-5"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/Int"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.117",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-0-387-79144-9_2"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.118",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s0378-1119(96)00578-1"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.119",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1212547109"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.120",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2021.100945"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.121",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12870-022-03521-z"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.122",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s43897-023-00054-3"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.123",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-022-08345-7"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.124",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11103-008-9357-x"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.125",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11103-008-9357-x"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.126",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11103-008-9357-x"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.127",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2022.885694"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.128",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/ppl.14272"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.129",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijbiomac.2023.127582"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.130",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2008.04.087"
+        },
+        {
+          "key": "2024062302501149000_2024.06.17.599320v1.131",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00122-013-2177-7"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.17.599320",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:35:30Z",
+        "timestamp": 1768458930000
+      },
+      "score": 101.31421,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.17.599320"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            19
+          ]
+        ]
+      },
+      "references-count": 131,
+      "URL": "https://doi.org/10.1101/2024.06.17.599320",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1007/s00344-024-11532-3",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "37697333",
+    "doi": "10.1186/s12944-023-01911-2",
+    "title": "Identification of metabolic biomarkers associated with nonalcoholic fatty liver disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Nonalcoholic fatty liver disease (NAFLD) is the most common liver disease. Metabolism-related genes significantly influence the onset and progression of the disease. Hence, it is necessary to screen metabolism-related biomarkers for the diagnosis and treatment of NAFLD patients. METHODS: GSE48452, GSE63067, and GSE89632 datasets including nonalcoholic steatohepatitis (NASH) and healthy controls (HC) analyzed in this study were retrieved from the Gene Expression Omnibus (GEO) database. First, differentially expressed genes (DEGs) between NASH and HC samples were obtained. Next, metabolism-related DEGs (MR-DEGs) were identified by overlapping DEGs and metabolism-related genes (MRG). Further, a protein-protein interaction (PPI) network was developed to show the interaction among MR-DEGs. Subsequently, the \"Least absolute shrinkage and selection operator regression\" and \"Random Forest\" algorithms were used to screen metabolism-related genes (MRGs) in patients with NAFLD. Next, immune cell infiltration and gene set enrichment analyses (GSEA) were performed on these metabolism-related genes. Finally, the expression of metabolism-related gene was determined at the transcription level. RESULTS: First, 129 DEGs related to NAFLD development were identified among patients with nonalcoholic steatohepatitis (NASH) and healthy control. Next, 18 MR-DEGs were identified using the Venn diagram. Subsequently, four genes, including AMDHD1, FMO1, LPL, and P4HA1, were identified using machine learning algorithms. Moreover, a regulatory network consisting of four genes, 25 microRNAs (miRNAs), and 41 transcription factors (TFs) was constructed. Finally, a significant increase in FMO1 and LPL expression levels and a decrease in AMDHD1 and P4HA1 expression levels were observed in patients in the NASH group compared to the HC group. CONCLUSION: Metabolism-related genes associated with NAFLD were identified, containing AMDHD1, FMO1, LPL, and P4HA1, which provide insights into diagnosing and treating patients with NAFLD.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarkers",
+      "Differentially expressed genes",
+      "Metabolism",
+      "Nonalcoholic fatty liver disease"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Non-alcoholic Fatty Liver Disease/diagnosis/genetics",
+      "*MicroRNAs",
+      "Algorithms",
+      "Databases, Factual"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Hua",
+        "Hu, Yang",
+        "Zhang, Zhibo",
+        "Chen, Xujia",
+        "Gao, Jianpeng"
+      ],
+      "short_names": [
+        "Jiang H",
+        "Hu Y",
+        "Zhang Z",
+        "Chen X",
+        "Gao J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China.",
+        "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China.",
+        "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China.",
+        "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China.",
+        "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China. gaojianpengkm@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Hua",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yang",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhibo",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xujia",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jianpeng",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Affiffiffiliated YanAn Hospital of Kunming Medical University, Kunming, China. gaojianpengkm@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Lipids in health and disease"
+    ],
+    "journal_abbrev": [
+      "Lipids Health Dis"
+    ],
+    "pub_date": "2023 Sep 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/12 00:42",
+    "fetched_at": "2026-09-29 06:57:14"
+  },
+  "links": {
+    "cites": [
+      "42494971",
+      "42064079",
+      "41586376",
+      "41162503",
+      "41154676",
+      "40183447",
+      "39995143",
+      "39939537",
+      "39835298",
+      "39568592",
+      "38836118",
+      "38601640",
+      "37833930"
+    ],
+    "refs": [
+      "36880036",
+      "36613525",
+      "36376950",
+      "36330414",
+      "36319192",
+      "36266995",
+      "36099304",
+      "34895743",
+      "34803493",
+      "34618982",
+      "34603487",
+      "34358714",
+      "34234100",
+      "33803928",
+      "33746664",
+      "33732023",
+      "33729641",
+      "33401967",
+      "33324345",
+      "32044314",
+      "31551930",
+      "31388630",
+      "31309602",
+      "30660725",
+      "30391126",
+      "29908364",
+      "28867301",
+      "26704973",
+      "25920090",
+      "24922277",
+      "22257669",
+      "20199358",
+      "18084642",
+      "11846609"
+    ],
+    "similar": [
+      "37697333",
+      "32184169",
+      "39351239",
+      "38319987",
+      "38394483",
+      "37090698",
+      "31974594",
+      "37274336",
+      "36387855",
+      "33324350",
+      "38758850",
+      "38476236",
+      "36686439",
+      "38469144",
+      "36380355",
+      "26845596",
+      "37953553",
+      "35790963",
+      "34777484",
+      "38115130",
+      "37944972",
+      "39108890",
+      "35789605",
+      "34552988",
+      "34758532",
+      "37922570",
+      "36923221",
+      "35910194",
+      "32190149",
+      "29769552",
+      "37898694",
+      "38606153",
+      "39081807",
+      "34803493",
+      "38601640",
+      "37335656",
+      "37753698",
+      "39350187",
+      "37063958",
+      "28796060",
+      "37993474",
+      "31551930",
+      "37822923",
+      "33083497",
+      "39013959",
+      "35462486",
+      "33603714",
+      "38698841",
+      "39143741",
+      "38537674",
+      "36419827",
+      "36568397",
+      "35891648",
+      "38824040",
+      "38783263",
+      "35514751",
+      "38044432",
+      "32933141",
+      "38181273",
+      "34988225",
+      "34419146",
+      "34233850",
+      "34262330",
+      "25851235",
+      "31357780",
+      "38524129",
+      "26769057",
+      "36157062",
+      "30653341",
+      "34616724",
+      "27318147",
+      "38965537",
+      "37715392",
+      "26874844",
+      "27756518",
+      "27428872",
+      "23300535",
+      "31191837",
+      "38464965",
+      "30466110",
+      "36645666",
+      "30135001",
+      "37501756",
+      "35958412",
+      "33995497",
+      "30918425",
+      "30790285",
+      "30720100",
+      "35431924",
+      "36755803",
+      "38982979",
+      "36329886",
+      "33994867",
+      "37008925",
+      "37523974",
+      "37405258",
+      "36968495",
+      "38696908",
+      "32204538",
+      "27669236",
+      "26028579",
+      "36266995",
+      "31675274",
+      "32682086",
+      "37559129",
+      "28229316",
+      "24973316",
+      "32386798",
+      "37305039",
+      "39256536",
+      "35521691",
+      "34282172",
+      "36506310",
+      "25240529",
+      "32594092",
+      "28487615",
+      "32755310",
+      "29620197",
+      "27135827",
+      "24574716",
+      "36792688",
+      "38224712",
+      "33465844",
+      "31394730",
+      "29216278",
+      "34828420",
+      "35254642",
+      "39140679",
+      "38147020",
+      "38436022",
+      "39165965",
+      "38529412",
+      "39283128",
+      "36086766",
+      "38169083",
+      "38644829",
+      "38826193",
+      "38720280",
+      "39216434",
+      "39070641",
+      "38477602",
+      "38728481",
+      "38707433",
+      "38802459",
+      "39359475",
+      "38712372",
+      "38192427",
+      "39029052",
+      "38716300",
+      "39372587",
+      "38263097",
+      "38549670",
+      "38512536",
+      "36741233",
+      "37642954"
+    ],
+    "review": [
+      "37697333",
+      "38824040",
+      "26769057",
+      "36645666",
+      "30918425",
+      "33994867",
+      "24574716"
+    ],
+    "pmc": [
+      "10494330"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://lipidworld.biomedcentral.com/articles/10.1186/s12944-023-01911-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37697333/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37697333",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

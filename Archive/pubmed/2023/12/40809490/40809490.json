@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "40809490",
+    "doi": "10.3389/fsysb.2023.1276734",
+    "title": "An enhanced transcription factor repressilator that buffers stochasticity and entrains to an erratic external circadian signal."
+  },
+  "content": {
+    "abstract": "How do cellular regulatory networks solve the challenges of life? This article presents computer software to study that question, focusing on how transcription factor networks transform internal and external inputs into cellular response outputs. The example challenge concerns maintaining a circadian rhythm of molecular concentrations. The system must buffer intrinsic stochastic fluctuations in molecular concentrations and entrain to an external circadian signal that appears and disappears randomly. The software optimizes a stochastic differential equation of transcription factor protein dynamics and the associated mRNAs that produce those transcription factors. The cellular network takes as inputs the concentrations of the transcription factors and produces as outputs the transcription rates of the mRNAs that make the transcription factors. An artificial neural network encodes the cellular input-output function, allowing efficient search for solutions to the complex stochastic challenge. Several good solutions are discovered, measured by the probability distribution for the tracking deviation between the stochastic cellular circadian trajectory and the deterministic external circadian pattern. The solutions differ significantly from each other, showing that overparameterized cellular networks may solve a given challenge in a variety of ways. The computation method provides a major advance in its ability to find transcription factor network dynamics that can solve environmental challenges. The article concludes by drawing an analogy between overparameterized cellular networks and the dense and deeply connected overparameterized artificial neural networks that have succeeded so well in deep learning. Understanding how overparameterized networks solve challenges may provide insight into the evolutionary design of cellular regulation.",
+    "keywords": [
+      "Julia programming language",
+      "artificial neural networks",
+      "automatic differentiation",
+      "differential equation models",
+      "genetic regulatory networks",
+      "optimization",
+      "transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Frank, Steven A"
+      ],
+      "short_names": [
+        "Frank SA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ecology and Evolutionary Biology, University of California, Irvine, Irvine, CA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Frank, Steven A",
+        "short_name": "Frank SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ecology and Evolutionary Biology, University of California, Irvine, Irvine, CA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in systems biology"
+    ],
+    "journal_abbrev": [
+      "Front Syst Biol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/13 00:00",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36423287",
+      "36138773",
+      "33874910",
+      "33500352",
+      "33067397",
+      "32518109",
+      "32332161",
+      "30237343",
+      "30181903",
+      "28928947",
+      "27075000",
+      "20308593",
+      "15797195",
+      "15797194",
+      "14871568",
+      "14657375",
+      "12447977",
+      "10659856"
+    ],
+    "similar": [
+      "40809490",
+      "42475469",
+      "36138773",
+      "34986805",
+      "23912807",
+      "28341132",
+      "28268606",
+      "18373871",
+      "40961166",
+      "38250147",
+      "36950372",
+      "16457708",
+      "12754937",
+      "22000751",
+      "19351901",
+      "20800602",
+      "21354389",
+      "17617426",
+      "16784547",
+      "40992393",
+      "40108001",
+      "24792063",
+      "36449576",
+      "38309959",
+      "24012741",
+      "37920015",
+      "26496042",
+      "24937230",
+      "40555388",
+      "10468238",
+      "22929591",
+      "22022252",
+      "18541503",
+      "29058744",
+      "29451874",
+      "19836404",
+      "10815714",
+      "22761552",
+      "34721057",
+      "42088462",
+      "16880117",
+      "27058315",
+      "23875784",
+      "9861986",
+      "25057990",
+      "33453275",
+      "31505478",
+      "41679500",
+      "30779734",
+      "21236673",
+      "29040384",
+      "28485712",
+      "18845165",
+      "32996462",
+      "29470492",
+      "25571172",
+      "21943410",
+      "28180313",
+      "19404450",
+      "24886608",
+      "19566953",
+      "27381914",
+      "23852758",
+      "26835539",
+      "40439578",
+      "26042329",
+      "30961611",
+      "18846204",
+      "25374576",
+      "23101662",
+      "24553621",
+      "17194216",
+      "14643492",
+      "19948134",
+      "23367174",
+      "15457528",
+      "10798498",
+      "17957259",
+      "28254369",
+      "18399072",
+      "12593455",
+      "34919546",
+      "41889922",
+      "25368418",
+      "11720979",
+      "37467372",
+      "15113411",
+      "35758233",
+      "40471439",
+      "31881978",
+      "1680237",
+      "34640730",
+      "18263354",
+      "25105971",
+      "19300475",
+      "30411251",
+      "16984086",
+      "24730883",
+      "38421716",
+      "38607457"
+    ],
+    "review": [
+      "40809490",
+      "12754937",
+      "10815714",
+      "42088462",
+      "27058315",
+      "26042329",
+      "23367174",
+      "12593455",
+      "35758233",
+      "40471439"
+    ],
+    "pmc": [
+      "12342007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40809490/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fsysb.2023.1276734",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

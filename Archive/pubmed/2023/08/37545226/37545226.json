@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "37545226",
+    "doi": "10.3233/CBM-230119",
+    "title": "Machine learning methods revealed the roles of immune-metabolism related genes in immune infiltration, stemness, and prognosis of neuroblastoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Immunometabolism plays an important role in neuroblastoma (NB). However, the mechanism of immune-metabolism related genes (IMRGs) in NB remains unclear. This study aimed to explore the effects of IMRGs on the prognosis, immune infiltration and stemness of patients with NB using machine learning methods. METHODS: R software (v4.2.1) was used to identify the differentially expressed IMRGs, and machine learning algorithm was used to screen the prognostic genes from IMRGs. Then we constructed a prognostic model and calculated the risk scores. The NB patients were grouped according to the prognosis scores. In addition, the genes most associated with the immune infiltration and stemness of NB were analyzed by weighted gene co-expression network analysis (WGCNA). RESULTS: There were 89 differentially expressed IMRGs between the MYCN amplification and the MYCN non-amplification group, among which CNR1, GNAI1, GLDC and ABCC4 were selected by machine learning algorithm to construct the prognosis model due to their better prediction effect. Both the K-M survival curve and the 5-year Receiver operating characteristic (ROC) curve indicated that the prognosis model could predict the prognosis of NB patients, and there was significant difference in immune infiltration between the two groups according to the median of risk score. CONCLUSIONS: We verified the effects of IMRGs on the prognosis, immune infiltration and stemness of NB. These findings could provide help for predicting prognosis and developing immunotherapy in NB.",
+    "keywords": [
+      "Neuroblastoma",
+      "immune",
+      "machine learning",
+      "metabolism",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "N-Myc Proto-Oncogene Protein/genetics",
+      "Prognosis",
+      "*Neuroblastoma/genetics",
+      "Algorithms",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mu, Jianhua",
+        "Gong, Jianan",
+        "Lin, Peng",
+        "Zhang, Mengzhen",
+        "Wu, Kai"
+      ],
+      "short_names": [
+        "Mu J",
+        "Gong J",
+        "Lin P",
+        "Zhang M",
+        "Wu K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+        "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mu, Jianhua",
+        "short_name": "Mu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+          "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Jianan",
+        "short_name": "Gong J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China.",
+          "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Peng",
+        "short_name": "Lin P",
+        "identifiers": [],
+        "affiliations": [
+          "The Second School of Clinical Medicine, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mengzhen",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Kai",
+        "short_name": "Wu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer biomarkers : section A of Disease markers"
+    ],
+    "journal_abbrev": [
+      "Cancer Biomark"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/07 06:42",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "41036475",
+      "40808800",
+      "38249081"
+    ],
+    "refs": [
+      "37081160",
+      "36380095",
+      "35508169",
+      "35508111",
+      "35435953",
+      "35298877",
+      "35222371",
+      "35016005",
+      "34526362",
+      "34319759",
+      "34249930",
+      "34079545",
+      "34064197",
+      "33966392",
+      "33944788",
+      "33867731",
+      "33796460",
+      "33546704",
+      "33489900",
+      "33341446",
+      "33097495",
+      "33081264",
+      "32848164",
+      "32754274",
+      "32633291",
+      "32612154",
+      "32601305",
+      "32277480",
+      "32245497",
+      "32167865",
+      "31932198",
+      "31874369",
+      "31773974",
+      "31454045",
+      "31444411",
+      "31094257",
+      "30836096",
+      "30595497",
+      "30336841",
+      "30279732",
+      "30131656",
+      "30082653",
+      "30029203",
+      "29643473",
+      "29625051",
+      "29473338",
+      "28985214",
+      "28735070",
+      "28259608",
+      "27396447",
+      "27273632",
+      "26884397",
+      "25822800",
+      "25750696",
+      "25736695",
+      "25640269",
+      "24591841",
+      "24467211",
+      "24442245",
+      "23755281",
+      "23702928",
+      "23691483",
+      "23255319",
+      "22225612",
+      "21971567",
+      "21799180",
+      "21508971",
+      "21469396",
+      "21097714",
+      "20879881",
+      "19401703",
+      "19114008",
+      "17974716",
+      "17586306",
+      "16106245",
+      "15827327",
+      "14597658",
+      "12612655",
+      "9149737",
+      "4047115"
+    ],
+    "similar": [
+      "37545226",
+      "38323183",
+      "41588361",
+      "36311753",
+      "32204764",
+      "40600620",
+      "38512513",
+      "36419120",
+      "40108662",
+      "37712965",
+      "42273677",
+      "39703515",
+      "39641162",
+      "37081871",
+      "39403102",
+      "42600038",
+      "39145053",
+      "33182060",
+      "41840507",
+      "42050733",
+      "33172452",
+      "39904180",
+      "41904502",
+      "42244292",
+      "40066454",
+      "40261562",
+      "42179790",
+      "39486730",
+      "27876123",
+      "34751044",
+      "41798945",
+      "40376515",
+      "36046056",
+      "40596969",
+      "39034722",
+      "34773529",
+      "40718780",
+      "40956482",
+      "41657446",
+      "39822999",
+      "38427078",
+      "40619885",
+      "39302522",
+      "27517149",
+      "37346073",
+      "41643581",
+      "32237073",
+      "34655293",
+      "41360513",
+      "42143291",
+      "38962012",
+      "40764361",
+      "36211401",
+      "40121577",
+      "39145097",
+      "27599694",
+      "34116676",
+      "42411734",
+      "39384856",
+      "39948114",
+      "33393844",
+      "39355255",
+      "40302936",
+      "40761790",
+      "38035110",
+      "39958919",
+      "33869203",
+      "37008314",
+      "40349458",
+      "40341002",
+      "40008534",
+      "41815152",
+      "40386252",
+      "39575432",
+      "39524444",
+      "38404588",
+      "36149505",
+      "32593299",
+      "32974147",
+      "39695788",
+      "32411773",
+      "35460355",
+      "39823156",
+      "35513781",
+      "41233664",
+      "41432483",
+      "41420301",
+      "34016720",
+      "41504043",
+      "32979173",
+      "41425595",
+      "41286896",
+      "37291533",
+      "37622118",
+      "40330470",
+      "40353332",
+      "40016772",
+      "41663976",
+      "41639165",
+      "35783281"
+    ],
+    "review": [
+      "37545226",
+      "40619885"
+    ],
+    "pmc": [
+      "12412852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.3233/CBM-230119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37545226/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1243",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

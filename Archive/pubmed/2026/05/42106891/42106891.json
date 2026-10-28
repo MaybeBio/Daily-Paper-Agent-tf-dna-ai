@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "42106891",
+    "doi": "10.1186/s40246-026-00979-y",
+    "title": "Exploring the prognostic role of senescence-related genes in gastric cancer through multi-omics integration and machine learning."
+  },
+  "content": {
+    "abstract": "Cellular senescence plays a context-dependent role in gastric cancer (GC), functioning both through tumor-suppressive arrest and the tumor-promoting senescence-associated secretory phenotype. However, its systematic integration into prognostic models remains limited. Here, we develop a novel interpretable framework to identify and validate a robust senescence-related gene signature for GC prognosis. We first introduce a dual-model interpretable feature selection strategy that integrates a biologically informed Kolmogorov-Arnold Network with a tabular foundation model to identify cancer-associated senescence genes. From the initial candidates, an ensemble of ten machine learning algorithms distills a core 4-gene signature to construct a Senescence Risk Score (SRS). The SRS proves to be a powerful and independent prognostic indicator, effectively stratifies patients into high- and low-risk groups with distinct overall survival across multiple cohorts. High-risk patients exhibit an \"immune-hot\" but potentially dysfunctional tumor microenvironment, characterized by enriched immune cell infiltration, elevated checkpoint expression, and distinct metabolic reprogramming favoring pathways such as angiogenesis and epithelial-mesenchymal transition (EMT). Furthermore, the SRS correlates with differential somatic mutation profiles and suggests potential sensitivity to specific chemotherapeutic agents. In vitro functional assays confirmed the oncogenic role of SERPINE1, a top-ranked core gene, in promoting GC cell proliferation. Regulatory network analysis revealed potential upstream transcription factors and miRNAs governing the signature. Collectively, we present a validated senescence-related prognostic signature that enables effective risk stratification of patients with gastric cancer.",
+    "keywords": [
+      "Biomarker",
+      "Cellular senescence",
+      "Gastric cancer",
+      "Machine learning",
+      "Prognostic model",
+      "Tumor immune microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/pathology",
+      "*Machine Learning",
+      "Prognosis",
+      "*Cellular Senescence/genetics",
+      "Tumor Microenvironment/genetics",
+      "Gene Expression Regulation, Neoplastic/genetics",
+      "*Plasminogen Activator Inhibitor 1/genetics",
+      "*Biomarkers, Tumor/genetics",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Yangkun",
+        "Li, Dongjie",
+        "Bao, Li",
+        "Ding, Xiaoling",
+        "Guo, Yongzhen",
+        "Ni, Xiaobo",
+        "Liu, Yang"
+      ],
+      "short_names": [
+        "Cao Y",
+        "Li D",
+        "Bao L",
+        "Ding X",
+        "Guo Y",
+        "Ni X",
+        "Liu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Ningxia Institute of Clinical Medicine, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China.",
+        "School of Artificial Intelligence, Jilin University, Chang Chun, China.",
+        "People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China.",
+        "People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China.",
+        "People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China.",
+        "Department of Pathology, Third Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China.",
+        "People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China.",
+        "Ningxia Institute of Clinical Medicine, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China. herbliuyang@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Yangkun",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ningxia Institute of Clinical Medicine, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China.",
+          "School of Artificial Intelligence, Jilin University, Chang Chun, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongjie",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Li",
+        "short_name": "Bao L",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Xiaoling",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yongzhen",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Third Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Xiaobo",
+        "short_name": "Ni X",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ningxia Institute of Clinical Medicine, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China. herbliuyang@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human genomics"
+    ],
+    "journal_abbrev": [
+      "Hum Genomics"
+    ],
+    "pub_date": "2026 May 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/10 05:18",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41536497",
+      "41477861",
+      "41476608",
+      "41459539",
+      "41427020",
+      "41370346",
+      "41351414",
+      "41324273",
+      "41299024",
+      "41291184",
+      "41281748",
+      "41246257",
+      "41204284",
+      "41132829",
+      "41116184",
+      "41049742",
+      "41039629",
+      "40781676",
+      "40775646",
+      "40724918",
+      "40624406",
+      "39780007",
+      "39217404",
+      "38185129",
+      "37660105",
+      "36115171",
+      "34552244",
+      "33384961",
+      "33382980",
+      "32444850",
+      "23323831",
+      "22455463"
+    ],
+    "similar": [
+      "42106891",
+      "41798945",
+      "41551463",
+      "39904894",
+      "39703515",
+      "32754268",
+      "37807645",
+      "41436831",
+      "39165353",
+      "42253954",
+      "39267750",
+      "39810215",
+      "42477639",
+      "42317342",
+      "40543274",
+      "42327341",
+      "40330458",
+      "41208987",
+      "41601657",
+      "42035196",
+      "38994352",
+      "42107026",
+      "39939808",
+      "42192326",
+      "40438115",
+      "41476960",
+      "41656832",
+      "36479114",
+      "41425595",
+      "41716413",
+      "41522514",
+      "40229676",
+      "41246350",
+      "40855439",
+      "41938517",
+      "40330470",
+      "42244292",
+      "41957879",
+      "42253970",
+      "39401475",
+      "41808162",
+      "41674779",
+      "41381057",
+      "40926266",
+      "34746312",
+      "41693709",
+      "42211756",
+      "39294296",
+      "38869635",
+      "40392448",
+      "38411939",
+      "39855898",
+      "36458010",
+      "41981105",
+      "40956482",
+      "39074262",
+      "42093974",
+      "41286896",
+      "37670467",
+      "42445431",
+      "41372983",
+      "39870964",
+      "41286470",
+      "37679111",
+      "39816024",
+      "35095892",
+      "40496864",
+      "39118022",
+      "41249595",
+      "41836446",
+      "34708125",
+      "39540948",
+      "42183248",
+      "40842996",
+      "40473799",
+      "41485251",
+      "42591770",
+      "40460484",
+      "39355255",
+      "42180883",
+      "38546403",
+      "41472745",
+      "41423668",
+      "40200221",
+      "39730893",
+      "41771967",
+      "39333689",
+      "42367825",
+      "41498033",
+      "40496857",
+      "42317343",
+      "39606245",
+      "41164195",
+      "39478862",
+      "41567216",
+      "40642093",
+      "41634895",
+      "42475469",
+      "41583466",
+      "42079608"
+    ],
+    "review": [
+      "42106891"
+    ],
+    "pmc": [
+      "13343608"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://humgenomics.biomedcentral.com/articles/10.1186/s40246-026-00979-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42106891/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1150",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

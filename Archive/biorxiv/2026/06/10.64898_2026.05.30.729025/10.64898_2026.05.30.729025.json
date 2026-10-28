@@ -1,0 +1,600 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.30.729025",
+  "title": "Fusion of a non-specific DNA-binding domain enhances Cas12a trans-cleavage for robust nucleic-acid diagnostics",
+  "doi": "10.64898/2026.05.30.729025",
+  "abstract": "CRISPR–Cas12a underlies powerful genome-editing and nucleic-acid detection technologies, yet its performance is limited by inefficient target engagement and low catalytic turnover, particularly at low target abundance and elevated temperatures. Here, we report a modular protein-engineering strategy to enhance Cas12a trans-activity by fusing the hyperthermophilic DNA-binding protein Sso7d to the N terminus of Lachnospiraceae bacterium ND2006 Cas12a (LbaCas12a). The resulting fusion enzyme shows a twofold improvement in detection sensitivity, a 4.6-fold increase in k cat , and substantially accelerated trans-cleavage kinetics compared with wild-type Cas12a. These enhancements are observed across multiple guide RNAs, diverse DNA substrates, and a broad temperature range from 37 to 60 °C. The engineered Cas12a enables robust detection of the intrinsic blaOXA-51 and acquired blaOXA-24 antibiotic resistance genes from multiple Acinetobacter baumannii strains with independently validated resistance profiles, whereas wild-type Cas12a produces little or no detectable signal. Signal output is increased by up to ∼30-fold, expanding the effective detection window and shortening time-to-positive. Together, these results establish fusion of an accessory DNA-binding domain as a proof-of-concept for Sso7d fusion to LbCas12a and that generalization to other CRISPR effectors or non-specific DNA-binding domains represents an exciting avenue for future investigation.",
+  "authors": [
+    "Diogo Figueiredo",
+    "Mitsuru Hattori",
+    "Tetsuichi Wazawa",
+    "Kunihiko Nishino",
+    "Martijn Zwama",
+    "Takeharu Nagai"
+  ],
+  "published_date": "2026-06-01",
+  "updated_date": "2026-06-02T07:45:14Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.30.729025",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.30.729025.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            5
+          ]
+        ],
+        "date-time": "2026-06-05T18:05:02Z",
+        "timestamp": 1780682702384,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Core Research for Evolutionary Science and Technology, Japan Science and Technology Agency",
+          "award": [
+            "JPMJCR15N3"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JPMJCR15N3"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Grant-in-Aid from The Japan Society for the Promotion of Science",
+          "award": [
+            "21K19225"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "21K19225"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D3 Center Interdisciplinary CoCreation Project in the University of Osaka"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  CRISPR–Cas12a underlies powerful genome-editing and nucleic-acid detection technologies, yet its performance is limited by inefficient target engagement and low catalytic turnover, particularly at low target abundance and elevated temperatures. Here, we report a modular protein-engineering strategy to enhance Cas12a trans-activity by fusing the hyperthermophilic DNA-binding protein Sso7d to the N terminus of\n                  <jats:italic>Lachnospiraceae bacterium ND2006</jats:italic>\n                  Cas12a (LbaCas12a). The resulting fusion enzyme shows a twofold improvement in detection sensitivity, a 4.6-fold increase in\n                  <jats:italic>k</jats:italic>\n                  <jats:sub>cat</jats:sub>\n                  , and substantially accelerated trans-cleavage kinetics compared with wild-type Cas12a. These enhancements are observed across multiple guide RNAs, diverse DNA substrates, and a broad temperature range from 37 to 60 °C. The engineered Cas12a enables robust detection of the intrinsic\n                  <jats:italic>blaOXA-51</jats:italic>\n                  and acquired\n                  <jats:italic>blaOXA-24</jats:italic>\n                  antibiotic resistance genes from multiple\n                  <jats:italic>Acinetobacter baumannii</jats:italic>\n                  strains with independently validated resistance profiles, whereas wild-type Cas12a produces little or no detectable signal. Signal output is increased by up to ∼30-fold, expanding the effective detection window and shortening time-to-positive. Together, these results establish fusion of an accessory DNA-binding domain as a proof-of-concept for Sso7d fusion to LbCas12a and that generalization to other CRISPR effectors or non-specific DNA-binding domains represents an exciting avenue for future investigation.\n                </jats:p>",
+      "DOI": "10.64898/2026.05.30.729025",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T07:45:14Z",
+        "timestamp": 1780386314000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Fusion of a non-specific DNA-binding domain enhances Cas12a trans-cleavage for robust nucleic-acid diagnostics"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-6440-5664",
+          "authenticated-orcid": false,
+          "given": "Diogo",
+          "family": "Figueiredo",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Graduate School of Frontier Biosciences, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1189-6554",
+          "authenticated-orcid": false,
+          "given": "Mitsuru",
+          "family": "Hattori",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomolecular Science and Engineering, SANKEN, The University of Osaka, Ibaraki, Osaka 567-0047, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tetsuichi",
+          "family": "Wazawa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomolecular Science and Engineering, SANKEN, The University of Osaka, Ibaraki, Osaka 567-0047, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3349-1769",
+          "authenticated-orcid": false,
+          "given": "Kunihiko",
+          "family": "Nishino",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomolecular Science and Regulation, SANKEN, The University of Osaka, Ibaraki, Osaka 567-0047, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9081-382X",
+          "authenticated-orcid": false,
+          "given": "Martijn",
+          "family": "Zwama",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomolecular Science and Regulation, SANKEN, The University of Osaka, Ibaraki, Osaka 567-0047, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2650-9895",
+          "authenticated-orcid": false,
+          "given": "Takeharu",
+          "family": "Nagai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Graduate School of Frontier Biosciences, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            },
+            {
+              "name": "Department of Biomolecular Science and Engineering, SANKEN, The University of Osaka, Ibaraki, Osaka 567-0047, Japan"
+            },
+            {
+              "name": "Trans Dimensional Life Imaging Division, Institute for Open and Transdisciplinary Research Initiatives, The University of Osaka, Suita, Osaka 565-0871, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, R. et al. opvCRISPR: One-pot visual RT-LAMP-CRISPR platform for SARS-cov-2 detection. Biosens. Bioelectron. 172, (2021).",
+          "DOI": "10.1016/j.bios.2020.112766"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kellner, M. J. , Koob, J. G. , Gootenberg, J. S. , Abudayyeh, O. O. & Zhang, F. SHERLOCK: nucleic acid detection with CRISPR nucleases. Nature Protocols 14, (2019).",
+          "DOI": "10.1038/s41596-019-0210-2"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zetsche, B. et al. Cpf1 Is a Single RNA-Guided Endonuclease of a Class 2 CRISPR-Cas System. Cell 163, (2015).",
+          "DOI": "10.1016/j.cell.2015.09.038"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, X. et al. A far-red light–inducible CRISPR-Cas12a platform for remote-controlled genome editing and gene activation. Sci. Adv. 7, (2021).",
+          "DOI": "10.1126/sciadv.abh2358"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bryson, J. W. , Auxillos, J. Y. & Rosser, S. J. Multiplexed activation in mammalian cells using a split-intein CRISPR/Cas12a based synthetic transcription factor. Nucleic Acids Res. 50, (2022).",
+          "DOI": "10.1101/2021.01.31.429049"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kempton, H. R. , Goudy, L. E. , Love, K. S. & Qi, L. S. Multiple Input Sensing and Signal Integration Using a Split Cas12a System. Mol. Cell 78, (2020).",
+          "DOI": "10.1016/j.molcel.2020.01.016"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Figueiredo, D. , Cascalheira, A. & Goncalves, J. Rapid, multiplex detection of SARS-CoV-2 using isothermal amplification coupled with CRISPR-Cas12a. Scientific Reports 13, (2023).",
+          "DOI": "10.1038/s41598-022-27133-7"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Son, H. et al. Mg2+-dependent conformational rearrangements of CRISPR-Cas12a R-loop complex are mandatory for complete double-stranded DNA cleavage. Proc. Natl. Acad. Sci. U. S. A. 118, (2021).",
+          "DOI": "10.1073/pnas.2113747118"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bravo, J. P. K. et al. RNA targeting unleashes indiscriminate nuclease activity of CRISPR–Cas12a2. Nature 613, (2023).",
+          "DOI": "10.1038/s41586-022-05560-w"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, S. Y. et al. CRISPR-Cas12a has both cis- and trans-cleavage activities on single-stranded DNA. Cell Research 28, (2018).",
+          "DOI": "10.1038/s41422-018-0022-x"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Broughton, J. P. et al. CRISPR–Cas12-based detection of SARS-CoV-2. Nat Biotechnol (2020).",
+          "DOI": "10.1038/s41587-020-0513-4"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stella, S. et al. Conformational Activation Promotes CRISPR-Cas12a Catalysis and Resetting of the Endonuclease Activity. Cell 175, (2018).",
+          "DOI": "10.1016/j.cell.2018.10.045"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Strohkendl, I. , Saifuddin, F. A. , Rybarski, J. R. , Finkelstein, I. J. & Russell, R. Kinetic Basis for DNA Target Specificity of CRISPR-Cas12a. Mol. Cell 71, (2018).",
+          "DOI": "10.1101/355917"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nalefski, E. A. et al. Determinants of CRISPR Cas12a nuclease activation by DNA and RNA targets. Nucleic Acids Res. 52, (2024).",
+          "DOI": "10.1093/nar/gkae152"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fuchs, R. T. et al. Characterization of Cme and Yme thermostable Cas12a orthologs. Communications Biology 5, (2022).",
+          "DOI": "10.1038/s42003-022-03275-2"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lu, S. et al. Fast and sensitive detection of SARS-CoV-2 RNA using suboptimal protospacer adjacent motifs for Cas12a. Nature Biomedical Engineering 6, (2022).",
+          "DOI": "10.1038/s41551-022-00861-x"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang, Z. et al. Sensitive pathogen DNA detection by a multi-guide RNA Cas12a assay favoring trans-versus cis-cleavage. Nature Communications 16, (2025).",
+          "DOI": "10.1038/s41467-025-63094-x"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, J. et al. Enhancement of CRISPR-Cas12a system through universal circular RNA design. Cell Reports Methods 5, (2025).",
+          "DOI": "10.1016/j.crmeth.2025.101076"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen, L. T. , Smith, B. M. & Jain, P. K. Enhancement of trans-cleavage activity of Cas12a with engineered crRNA enables amplified nucleic acid detection. Nature Communications 11, (2020).",
+          "DOI": "10.1038/s41467-020-18615-1"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "712",
+          "DOI": "10.1093/nar/gkaf712",
+          "article-title": "Unleashing high trans-substrate cleavage kinetics of Cas12a for nucleic acid diagnostics",
+          "volume": "53",
+          "year": "2025",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deng, F. , Li, Y. , Li, B. & Goldys, E. M. Increasing trans-cleavage catalytic efficiency of Cas12a and Cas13a with chemical enhancers: Application to amplified nucleic acid detection. Sens. Actuators B Chem. 373, (2022).",
+          "DOI": "10.1016/j.snb.2022.132767"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, X. et al. Engineered FnCas12a with enhanced activity through directional evolution in human cells. J. Biol. Chem. 296, (2021).",
+          "DOI": "10.1016/j.jbc.2021.100394"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ma, E. et al. Directed evolution expands CRISPR–Cas12a genome-editing capacity. Nucleic Acids Res. 53, (2025).",
+          "DOI": "10.1093/nar/gkaf649"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tran, M. H. et al. A more efficient CRISPR-Cas12a variant derived from Lachnospiraceae bacterium MA2020. Mol. Ther. Nucleic Acids 24, (2021).",
+          "DOI": "10.1016/j.omtn.2021.02.012"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ma, E. et al. Improved genome editing by an engineered CRISPR-Cas12a. Nucleic Acids Res. 50, (2022).",
+          "DOI": "10.1101/2022.09.02.506401"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pan, J. et al. Kinetic analysis and engineering of thermostable Cas12a for nucleic acid detection. Nucleic Acids Res. 53, (2025).",
+          "DOI": "10.1093/nar/gkaf509"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shehi, E. et al. The Sso7d DNA-binding protein from Sulfolobus solfataricus has ribonuclease activity. FEBS Lett. 497, (2001).",
+          "DOI": "10.1016/S0014-5793(01)02455-3"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kalichuk, V. et al. The archaeal ‘7 kDa DNA-binding’ proteins: Extended characterization of an old gifted family. Sci. Rep. 6, (2016).",
+          "DOI": "10.1038/srep37274"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Catanzano, F. , Graziano, G. , Fusi, P. , Tortora, P. & Barone, G. Differential scanning calorimetry study of the thermodynamic stability of some mutants of Sso7d from Sulfolobus solfataricus. Biochemistry 37, (1998).",
+          "DOI": "10.1021/bi972994k"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Béhar, G. , Pacheco, S. , Maillasson, M. , Mouratou, B. & Pecorari, F. Switching an anti-IgG binding site between archaeal extremophilic proteins results in Affitins with enhanced pH stability. J. Biotechnol. 192, (2014).",
+          "DOI": "10.1016/j.jbiotec.2014.10.006"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lundbäck, T. & Härd, T. Salt Dependence of the Free Energy, Enthalpy, and Entropy of Nonsequence Specific DNA Binding. Journal of Physical Chemistry 100, (1996).",
+          "DOI": "10.1021/jp9614613"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mcafee, J. G. , Edmondson, S. P. , Zegar, I. & Shriver, J. W. Equilibrium DNA Binding of Sac7d Protein from the Hyperthermophile Sulfolobus acidocaldarius: Fluorescence and Circular Dichroism Studies. Biochemistry (1996).",
+          "DOI": "10.1021/bi952555q"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guilinger, J. P. , Thompson, D. B. & Liu, D. R. Fusion of catalytically inactive Cas9 to FokI nuclease improves the specificity of genome modification. Nat. Biotechnol. 32, (2014).",
+          "DOI": "10.1038/nbt.2909"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schellenberger, V. et al. A recombinant polypeptide extends the in vivo half-life of peptides and proteins in a tunable manner. Nat. Biotechnol. 27, (2009).",
+          "DOI": "10.1038/nbt.1588"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Villegas Kcam, M. C., Tsong, A. J. & Chappell, J. Rational engineering of a modular bacterial CRISPR– Cas activation platform with expanded target range. Nucleic Acids Res. 49, (2021).",
+          "DOI": "10.1093/nar/gkab211"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang, W. et al. CRISPR-Cas12a Nucleases Bind Flexible DNA Duplexes without RNA/DNA Complementarity. ACS Omega 4, (2019).",
+          "DOI": "10.1021/acsomega.9b01469"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "López-García, P. , Knapp, S. , Ladenstein, R. & Forterre, P. In vitro DNA binding of the archaeal protein Sso7d induces negative supercoiling at temperatures typical for thermophilic growth. Nucleic Acids Res. 26, (1998).",
+          "DOI": "10.1093/nar/26.10.2322"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Swarts, D. C. , van der Oost, J. & Jinek, M. Structural Basis for Guide RNA Processing and Seed-Dependent DNA Targeting by CRISPR-Cas12a. Mol. Cell 66, (2017).",
+          "DOI": "10.1016/j.molcel.2017.03.016"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Strohkendl, I. , Saifuddin, F. A. , Rybarski, J. R. , Finkelstein, I. J. & Russell, R. Kinetic Basis for DNA Target Specificity of CRISPR-Cas12a. Mol. Cell 71, (2018).",
+          "DOI": "10.1101/355917"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Brown, S. , Young, H. K. & Amyes, S. G. B. Characterisation of OXA-51, a novel class D carbapenemase found in genetically unrelated clinical strains of Acinetobacter baumannii from Argentina. Clinical Microbiology and Infection 11, (2005).",
+          "DOI": "10.1111/j.1469-0691.2004.01016.x"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lam, M. M. C. & Hamidian, M. Examining the role of Acinetobacter baumannii plasmid types in disseminating antimicrobial resistance. npj Antimicrobials and Resistance 2, (2024).",
+          "DOI": "10.1038/s44259-023-00019-y"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grosso, F. , Quinteira, S. , Poirel, L. , Novais, Â. & Peixe, L. Role of common blaOXA-24/OXA-40-carrying platforms and plasmids in the spread of OXA-24/OXA-40 among Acinetobacter species clinical isolates. Antimicrob. Agents Chemother. 56, (2012).",
+          "DOI": "10.1128/AAC.06255-11"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.43",
+          "unstructured": "Azam, N. et al. Dissemination and Genetic Structure of Carbapenemase Encoding Genes (blaOXA-23 and blaOXA-24) in Acinetobacter baumannii from Southern Texas. Adv. Microbiol. 5, (2015)."
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, T. L. et al. Emergence and Distribution of Plasmids Bearing the blaOXA-51-like gene with an upstream ISAba1 in carbapenem-resistant Acinetobacter baumannii isolates in Taiwan. Antimicrob. Agents Chemother. 54, (2010).",
+          "DOI": "10.1128/AAC.00764-10"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Carascal, M. B. , Macalalad, L. S. , Petronio-Santos, J. A. , Destura, R. V. & Rivera, W. L. Loop-mediated isothermal amplification assay detects multiple alleles of blaOXA-51-like genes in Acinetobacter baumannii and other Gram-negative bacteria despite primer-template mismatches. Heliyon 10, (2024).",
+          "DOI": "10.1016/j.heliyon.2024.e35653"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, Z. et al. A multiplex RPA coupled with CRISPR-Cas12a system for rapid and cost-effective identification of carbapenem-resistant Acinetobacter baumannii. Front. Microbiol. 15, (2024).",
+          "DOI": "10.3389/fmicb.2024.1359976"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lu, H. et al. On-Site Dual Detection of Airborne Acinetobacter baumannii and Its Carbapenem-Resistant Gene blaOXA-23 Using a One-Pot Visual LAMP-CRISPR/Cas12a-Based Platform. Microorganisms 13, (2025).",
+          "DOI": "10.3390/microorganisms13050976"
+        },
+        {
+          "key": "2026060510400748000_2026.05.30.729025v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Endo, S. et al. Molecular epidemiology of carbapenem-non-susceptible Acinetobacter baumannii in Japan. Journal of Antimicrobial Chemotherapy 67, (2012).",
+          "DOI": "10.1093/jac/dks094"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.30.729025",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            5
+          ]
+        ],
+        "date-time": "2026-06-05T17:40:39Z",
+        "timestamp": 1780681239000
+      },
+      "score": 119.09059,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.30.729025"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.64898/2026.05.30.729025",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

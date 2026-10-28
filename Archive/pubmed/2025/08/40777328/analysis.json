@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40777328",
+  "title": "An automated ATAC-seq method reveals sequence determinants of transcription factor dose response in the open chromatin.",
+  "authors": "Liu, Betty B; Shimasawa, Masaru; Vermeulen, Sidney; Kim, Samuel H; Iremadze, Nika; Lipson, Doron; Shipony, Zohar; Greenleaf, William J",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-08-08",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过自动化ATAC-seq和可解释深度学习模型研究TF剂量对染色质可及性的调控，虽聚焦开放染色质而非直接TF-DNA结合建模，但序列决定因素和深度学习分析对TF-DNA结合位点预测有方法学借鉴价值。",
+  "abstract": "Transcription factor (TF) dosage is a critical determinant of cellular identity. However, the quantitative relationship between TF dosage and its regulation of chromatin accessibility and gene expression remains poorly understood. To address this, we developed RoboATAC, a scalable, automated ATAC-seq platform for high-throughput accessibility profiling. We then systematically profiled genome-wide chromatin accessibility and gene expression changes induced by graded overexpression of 22 TFs in HEK293T cells (246 total samples), observing dose-dependent changes in accessibility and aggregate TF footprints. Modeling accessibility as a function of sequence and chromatin states revealed that DNA sequence alone accurately predicts dosage sensitivity at elements that become accessible, with low-affinity motifs requiring higher TF levels to induce accessibility. Interpretable deep learning models revealed contributions of motif orientation, spacing, and flanking bases to accessibility, both recapitulating known motifs and nominating novel dosage-sensitive motif arrangements. Nucleosome positioning analysis uncovered two distinct, TF identity dependent patterns by which accessibility is established by changing nucleosome position and occupancy.",
+  "abstract_zh": "转录因子（TF）剂量是细胞身份的关键决定因素。然而，TF剂量与其对染色质可及性和基因表达调控之间的定量关系仍知之甚少。为解决这一问题，我们开发了RoboATAC，一种可扩展、自动化的ATAC-seq平台，用于高通量可及性分析。随后，我们在HEK293T细胞中对22个TF的梯度过表达诱导的全基因组染色质可及性和基因表达变化进行了系统性分析（共246个样本），观察到可及性和聚合TF足迹的剂量依赖性变化。将可及性建模为序列和染色质状态的函数揭示，DNA序列本身能准确预测可及性元件上的剂量敏感性，其中低亲和力基序需要更高的TF水平才能诱导可及性。可解释的深度学习模型揭示了基序方向、间距和侧翼碱基对可及性的贡献，既重现了已知基序，又提出了新型剂量敏感性基序排列。核小体定位分析揭示了两种不同的、依赖于TF身份的机制，通过这些机制，可及性通过改变核小体位置和占据率得以建立。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40777328/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40777328/",
+  "paper_page_path": "papers/pubmed/40777328/index.html"
+}

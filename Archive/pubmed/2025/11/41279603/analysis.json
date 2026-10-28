@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41279603",
+  "title": "Quantifying the impact of genetic mutations on enhancer dynamics.",
+  "authors": "Das, Maitreya; Banerjee, Deepro; Hossain, Ayaan; Jensen, Matthew; Mogre, Saie; Sun, Jiawan; Mao, Joseph; Glick, Adam B; Salis, Howard M; Girirajan, Santhosh",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用STARR-seq和深度学习模型量化遗传突变对增强子活性的影响，虽涉及TF敲除和增强子序列建模，但核心是增强子功能而非TF-DNA结合机制，方法可迁移至TF-DNA研究。",
+  "abstract": "Transcriptional regulation is mediated by enhancers, yet how genetic perturbations alter enhancer activity and gene expression remains poorly understood. We developed UDI-UMI-STARR-seq, which integrates dual indexes and unique molecular identifiers, and combined it with RNA-seq to profile the effects of perturbations on enhancer activity and target gene expression. We applied this approach to a library of 253,632 fragments representing 46,142 cell type-specific candidate enhancers and assessed the impact of CRISPR/Cas9-mediated deletion of six transcription factors (or TFs; ATF2, CTCF, FOXA1, LEF1, TCF7L2, and SCRT1) with diverse regulatory roles. Across knockout lines, we identified responsive enhancers that were either repressed or induced, often through motifs such as the p53 family of TFs. Enhancer-gene mapping revealed TF-specific programs, including repression of Wnt/p53 targets with ATF2 or LEF1 loss, downregulation of the FIRRE locus with CTCF loss, and compensatory upregulation of RNA polymerase II regulators following FOXA1 depletion. A deep learning model trained on enhancer sequences recapitulated core principles of enhancer grammar, including cooperative motif syntax and the influence of flanking sequence context. Applying this framework to the neurodevelopmental disorder-associated 16p12.1 deletion identified responsive enhancers linked to genes involved in axon guidance, synaptic plasticity, and translational control, providing a scalable readout of enhancer dynamics generalizable to genetic mutations.",
+  "abstract_zh": "转录调控由增强子介导，然而遗传扰动如何改变增强子活性及基因表达仍知之甚少。我们开发了UDI-UMI-STARR-seq，该方法整合了双索引和唯一分子标识符，并将其与RNA-seq结合，以分析扰动对增强子活性和靶基因表达的影响。我们将此方法应用于一个包含253,632个片段、代表46,142个细胞类型特异性候选增强子的文库，并评估了CRISPR/Cas9介导的六种转录因子（或TF；ATF2、CTCF、FOXA1、LEF1、TCF7L2和SCRT1）缺失的影响，这些因子具有多样的调控作用。在敲除细胞系中，我们鉴定了响应性增强子，它们或被抑制或被诱导，通常通过如p53家族转录因子等基序发挥作用。增强子-基因映射揭示了TF特异性程序，包括ATF2或LEF1缺失时Wnt/p53靶标的抑制、CTCF缺失时FIRRE位点的下调，以及FOXA1耗竭后RNA聚合酶II调节因子的补偿性上调。一个基于增强子序列训练的深度学习模型重现了增强子语法的核心原则，包括协同基序语法和侧翼序列背景的影响。将该框架应用于神经发育障碍相关的16p12.1缺失，鉴定了与轴突导向、突触可塑性和翻译控制相关基因相连的响应性增强子，为遗传突变提供了可扩展的增强子动态读出方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41279603/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41279603/",
+  "paper_page_path": "papers/pubmed/41279603/index.html"
+}

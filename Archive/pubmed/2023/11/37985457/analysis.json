@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37985457",
+  "title": "Predicting gene regulatory links from single-cell RNA-seq data using graph neural networks.",
+  "authors": "Mao, Guo; Pang, Zhengbin; Zuo, Ke; Wang, Qinglin; Pei, Xiangdong; Chen, Xinhai; Liu, Jie",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-11-21",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络从单细胞RNA-seq数据预测基因调控链接，虽涉及转录因子结合DNA的已知数据，但核心是GRN推断而非TF-DNA三维互作建模，方法可迁移但深度不足。",
+  "abstract": "Single-cell RNA-sequencing (scRNA-seq) has emerged as a powerful technique for studying gene expression patterns at the single-cell level. Inferring gene regulatory networks (GRNs) from scRNA-seq data provides insight into cellular phenotypes from the genomic level. However, the high sparsity, noise and dropout events inherent in scRNA-seq data present challenges for GRN inference. In recent years, the dramatic increase in data on experimentally validated transcription factors binding to DNA has made it possible to infer GRNs by supervised methods. In this study, we address the problem of GRN inference by framing it as a graph link prediction task. In this paper, we propose a novel framework called GNNLink, which leverages known GRNs to deduce the potential regulatory interdependencies between genes. First, we preprocess the raw scRNA-seq data. Then, we introduce a graph convolutional network-based interaction graph encoder to effectively refine gene features by capturing interdependencies between nodes in the network. Finally, the inference of GRN is obtained by performing matrix completion operation on node features. The features obtained from model training can be applied to downstream tasks such as measuring similarity and inferring causality between gene pairs. To evaluate the performance of GNNLink, we compare it with six existing GRN reconstruction methods using seven scRNA-seq datasets. These datasets encompass diverse ground truth networks, including functional interaction networks, Loss of Function/Gain of Function data, non-specific ChIP-seq data and cell-type-specific ChIP-seq data. Our experimental results demonstrate that GNNLink achieves comparable or superior performance across these datasets, showcasing its robustness and accuracy. Furthermore, we observe consistent performance across datasets of varying scales. For reproducibility, we provide the data and source code of GNNLink on our GitHub repository: https://github.com/sdesignates/GNNLink.",
+  "abstract_zh": "单细胞RNA测序（scRNA-seq）已成为在单细胞水平研究基因表达模式的有力技术。从scRNA-seq数据推断基因调控网络（GRNs）可从基因组层面洞察细胞表型。然而，scRNA-seq数据固有的高稀疏性、噪声和缺失事件对GRN推断提出了挑战。近年来，实验验证的转录因子与DNA结合数据的大幅增加，使得通过监督方法推断GRNs成为可能。在本研究中，我们将GRN推断问题构建为图链接预测任务。本文提出了一种名为GNNLink的新框架，利用已知GRNs推断基因间潜在的调控相互依赖关系。首先，我们对原始scRNA-seq数据进行预处理。然后，我们引入基于图卷积网络的交互图编码器，通过捕捉网络中节点间的相互依赖关系有效细化基因特征。最后，通过对节点特征执行矩阵补全操作获得GRN推断结果。模型训练获得的特征可应用于下游任务，如测量基因对间的相似性和推断因果关系。为评估GNNLink的性能，我们使用七个scRNA-seq数据集将其与六种现有GRN重建方法进行比较。这些数据集涵盖多种真实网络，包括功能交互网络、功能丧失/功能获得数据、非特异性ChIP-seq数据和细胞类型特异性ChIP-seq数据。实验结果表明，GNNLink在这些数据集上达到相当或更优的性能，展示了其鲁棒性和准确性。此外，我们观察到在不同规模的数据集上性能保持一致。为便于复现，我们在GitHub仓库中提供了GNNLink的数据和源代码：https://github.com/sdesignates/GNNLink。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37985457/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37985457/",
+  "paper_page_path": "papers/pubmed/37985457/index.html"
+}

@@ -1,0 +1,548 @@
+{
+  "identity": {
+    "pmid": "40691134",
+    "doi": "10.1038/s41467-025-61224-z",
+    "title": "Allosteric activation of the SPRTN protease by ubiquitin maintains genome stability."
+  },
+  "content": {
+    "abstract": "The DNA-dependent protease SPRTN maintains genome stability by degrading toxic DNA-protein crosslinks (DPCs). To understand how SPRTN's promiscuous protease activity is confined to cleavage of crosslinked proteins, we reconstitute the repair of DPCs including their modification with SUMO and ubiquitin chains in vitro. We discover that DPC ubiquitylation strongly activates SPRTN independently of SPRTN's known ubiquitin-binding domains. Using protein structure prediction, MD simulations and NMR spectroscopy we reveal that ubiquitin binds to SPRTN's protease domain, promoting an open, active conformation. Replacing key interfacial residues prevents allosteric activation of SPRTN by ubiquitin, leading to genomic instability and cell cycle defects in cells expressing truncated SPRTN variants that cause premature aging and liver cancer in Ruijs-Aalfs syndrome patients. Collectively, our results reveal a ubiquitin-dependent regulatory mechanism that ensures SPRTN activity is deployed precisely when and where it is needed.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Ubiquitin/metabolism",
+      "*Genomic Instability",
+      "Allosteric Regulation",
+      "*DNA-Binding Proteins/metabolism/genetics/chemistry",
+      "Ubiquitination",
+      "Molecular Dynamics Simulation",
+      "DNA Repair",
+      "DNA/metabolism",
+      "Protein Binding",
+      "HEK293 Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Durauer, Sophie",
+        "Kang, Hyun-Seo",
+        "Wiebeler, Christian",
+        "Machida, Yuka",
+        "Schnapka, Dina S",
+        "Yaneva, Denitsa",
+        "Renz, Christian",
+        "Gotz, Maximilian J",
+        "Weickert, Pedro",
+        "Major, Abigail C",
+        "Rahmanto, Aldwin S",
+        "Gutenthaler-Tietze, Sophie M",
+        "Daumann, Lena J",
+        "Beli, Petra",
+        "Ulrich, Helle D",
+        "Sattler, Michael",
+        "Machida, Yuichi J",
+        "Schwierz, Nadine",
+        "Stingele, Julian"
+      ],
+      "short_names": [
+        "Durauer S",
+        "Kang HS",
+        "Wiebeler C",
+        "Machida Y",
+        "Schnapka DS",
+        "Yaneva D",
+        "Renz C",
+        "Gotz MJ",
+        "Weickert P",
+        "Major AC",
+        "Rahmanto AS",
+        "Gutenthaler-Tietze SM",
+        "Daumann LJ",
+        "Beli P",
+        "Ulrich HD",
+        "Sattler M",
+        "Machida YJ",
+        "Schwierz N",
+        "Stingele J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4029-5096",
+        "ORCID: 0000-0003-1286-0860",
+        "ORCID: 0000-0003-3164-3597",
+        "ORCID: 0000-0002-8412-3328",
+        "ORCID: 0000-0003-2197-136X",
+        "ORCID: 0000-0003-0431-2223",
+        "ORCID: 0000-0003-1414-0568",
+        "ORCID: 0000-0001-6020-2075"
+      ],
+      "affiliations": [
+        "Gene Center, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Bavarian NMR Center and Department of Bioscience, TUM School of Natural Sciences, Technical University of Munich, Garching, Germany.",
+        "Institute of Physics, University of Augsburg, Augsburg, Germany.",
+        "Developmental Therapeutics Branch, Center for Cancer Research, National Cancer Institute, Bethesda, MD, USA.",
+        "Gene Center, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Gene Center, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Institute of Molecular Biology gGmbH, Mainz, Germany.",
+        "Gene Center, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Gene Center, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Institute of Physics, University of Augsburg, Augsburg, Germany.",
+        "Institute of Molecular Biology gGmbH, Mainz, Germany.",
+        "Institute of Developmental Biology and Neurobiology (IDN), Johannes Gutenberg-Universitat Mainz, Mainz, Germany.",
+        "Chair of Bioinorganic Chemistry, Heinrich-Heine Universitat Dusseldorf, Dusseldorf, Germany.",
+        "Department of Chemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany.",
+        "Chair of Bioinorganic Chemistry, Heinrich-Heine Universitat Dusseldorf, Dusseldorf, Germany.",
+        "Institute of Molecular Biology gGmbH, Mainz, Germany.",
+        "Institute of Developmental Biology and Neurobiology (IDN), Johannes Gutenberg-Universitat Mainz, Mainz, Germany.",
+        "Institute of Molecular Biology gGmbH, Mainz, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+        "Bavarian NMR Center and Department of Bioscience, TUM School of Natural Sciences, Technical University of Munich, Garching, Germany.",
+        "Developmental Therapeutics Branch, Center for Cancer Research, National Cancer Institute, Bethesda, MD, USA.",
+        "Institute of Physics, University of Augsburg, Augsburg, Germany.",
+        "Gene Center, Ludwig-Maximilians-Universitat Munchen, Munich, Germany. stingele@genzentrum.lmu.de.",
+        "Department of Biochemistry, Ludwig-Maximilians-Universitat Munchen, Munich, Germany. stingele@genzentrum.lmu.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dürauer, Sophie",
+        "short_name": "Dürauer S",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany.",
+          "Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Kang, Hyun-Seo",
+        "short_name": "Kang HS",
+        "identifiers": [
+          "0000-0003-4029-5096"
+        ],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+          "Bavarian NMR Center and Department of Bioscience, TUM School of Natural Sciences, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Wiebeler, Christian",
+        "short_name": "Wiebeler C",
+        "identifiers": [
+          "0000-0003-1286-0860"
+        ],
+        "affiliations": [
+          "Institute of Physics, University of Augsburg, Augsburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Machida, Yuka",
+        "short_name": "Machida Y",
+        "identifiers": [],
+        "affiliations": [
+          "Developmental Therapeutics Branch, Center for Cancer Research, National Cancer Institute, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Schnapka, Dina S",
+        "short_name": "Schnapka DS",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany.",
+          "Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Yaneva, Denitsa",
+        "short_name": "Yaneva D",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany.",
+          "Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Renz, Christian",
+        "short_name": "Renz C",
+        "identifiers": [
+          "0000-0003-3164-3597"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Götz, Maximilian J",
+        "short_name": "Götz MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany.",
+          "Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Weickert, Pedro",
+        "short_name": "Weickert P",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany.",
+          "Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Major, Abigail C",
+        "short_name": "Major AC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, University of Augsburg, Augsburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rahmanto, Aldwin S",
+        "short_name": "Rahmanto AS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology gGmbH, Mainz, Germany.",
+          "Institute of Developmental Biology and Neurobiology (IDN), Johannes Gutenberg-Universität Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Gutenthaler-Tietze, Sophie M",
+        "short_name": "Gutenthaler-Tietze SM",
+        "identifiers": [
+          "0000-0002-8412-3328"
+        ],
+        "affiliations": [
+          "Chair of Bioinorganic Chemistry, Heinrich-Heine Universität Düsseldorf, Düsseldorf, Germany.",
+          "Department of Chemistry, Ludwig-Maximilians-Universität München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Daumann, Lena J",
+        "short_name": "Daumann LJ",
+        "identifiers": [
+          "0000-0003-2197-136X"
+        ],
+        "affiliations": [
+          "Chair of Bioinorganic Chemistry, Heinrich-Heine Universität Düsseldorf, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Beli, Petra",
+        "short_name": "Beli P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology gGmbH, Mainz, Germany.",
+          "Institute of Developmental Biology and Neurobiology (IDN), Johannes Gutenberg-Universität Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Ulrich, Helle D",
+        "short_name": "Ulrich HD",
+        "identifiers": [
+          "0000-0003-0431-2223"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Sattler, Michael",
+        "short_name": "Sattler M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg, Germany.",
+          "Bavarian NMR Center and Department of Bioscience, TUM School of Natural Sciences, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Machida, Yuichi J",
+        "short_name": "Machida YJ",
+        "identifiers": [
+          "0000-0003-1414-0568"
+        ],
+        "affiliations": [
+          "Developmental Therapeutics Branch, Center for Cancer Research, National Cancer Institute, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Schwierz, Nadine",
+        "short_name": "Schwierz N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, University of Augsburg, Augsburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Stingele, Julian",
+        "short_name": "Stingele J",
+        "identifiers": [
+          "0000-0001-6020-2075"
+        ],
+        "affiliations": [
+          "Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany. stingele@genzentrum.lmu.de.",
+          "Department of Biochemistry, Ludwig-Maximilians-Universität München, Munich, Germany. stingele@genzentrum.lmu.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jul 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/22 00:25",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [
+      "41727169",
+      "41407659"
+    ],
+    "refs": [
+      "38890499",
+      "38760575",
+      "38649616",
+      "38600236",
+      "38600235",
+      "38600234",
+      "38103558",
+      "37805934",
+      "37519246",
+      "36681662",
+      "36608669",
+      "35637307",
+      "35469923",
+      "35303790",
+      "34879279",
+      "34586825",
+      "34346517",
+      "34265844",
+      "33911272",
+      "33348378",
+      "33321094",
+      "33188014",
+      "32853547",
+      "32492421",
+      "32265276",
+      "32165630",
+      "32066963",
+      "32058279",
+      "31902667",
+      "31839538",
+      "31714766",
+      "31696235",
+      "30914427",
+      "30893605",
+      "30595447",
+      "30595436",
+      "30464214",
+      "29788355",
+      "29471634",
+      "28753430",
+      "28746339",
+      "28622525",
+      "28199696",
+      "28187286",
+      "27871366",
+      "27871365",
+      "27852435",
+      "26628622",
+      "26605738",
+      "26032357",
+      "25788871",
+      "25505092",
+      "25501849",
+      "25400877",
+      "25303529",
+      "25261934",
+      "24998930",
+      "23914143",
+      "23254330",
+      "23042607",
+      "23042605",
+      "22681887",
+      "22570416",
+      "22012022",
+      "19345192",
+      "16357261",
+      "16211538",
+      "15980491",
+      "12154409",
+      "10493861",
+      "8520220"
+    ],
+    "similar": [
+      "40691134",
+      "40685547",
+      "27852435",
+      "27871365",
+      "39651247",
+      "34879279",
+      "36681662",
+      "27871366",
+      "32853547",
+      "32649882",
+      "35469923",
+      "35782873",
+      "33348378",
+      "30893605",
+      "34346517",
+      "33567341",
+      "36282523",
+      "30595436",
+      "37788708",
+      "39730693",
+      "35303790",
+      "39028621",
+      "31316063",
+      "36608669",
+      "32058279",
+      "30170832",
+      "25496645",
+      "38600236",
+      "33183910",
+      "37024461",
+      "36718861",
+      "38254974",
+      "30914427",
+      "28199696",
+      "31980531",
+      "29098631",
+      "28655905",
+      "28506460",
+      "35210137",
+      "31613024",
+      "33957291",
+      "17848550",
+      "32356875",
+      "22730331",
+      "22020440",
+      "34408146",
+      "34551432",
+      "22733822",
+      "33558481",
+      "24587176",
+      "28475613",
+      "27316462",
+      "22705371",
+      "20023648",
+      "25261934",
+      "26678539",
+      "25352099",
+      "19233742",
+      "39328207",
+      "38084926",
+      "39077933",
+      "30177436",
+      "39243487",
+      "37144685",
+      "32674013",
+      "34189469",
+      "23416108",
+      "26927199",
+      "29576527",
+      "28525740",
+      "38572758",
+      "26130008",
+      "33640455",
+      "39180935",
+      "21605559",
+      "40563391",
+      "25118285",
+      "23404503",
+      "38600234",
+      "24224485",
+      "34818558",
+      "31902667",
+      "28053116",
+      "25756347",
+      "31831745",
+      "25533185",
+      "22492721",
+      "17728242",
+      "37080389",
+      "25533188",
+      "14621999",
+      "23863847",
+      "24107634",
+      "38862269",
+      "33398053",
+      "30257459",
+      "17588513",
+      "28275011",
+      "17762865",
+      "12226657"
+    ],
+    "review": [
+      "40691134",
+      "35782873",
+      "35303790",
+      "32058279",
+      "30170832",
+      "33183910",
+      "38254974",
+      "29098631",
+      "28655905",
+      "35210137",
+      "33957291",
+      "27316462",
+      "19233742",
+      "39328207",
+      "30177436",
+      "32674013",
+      "23416108",
+      "26927199",
+      "38572758",
+      "26130008",
+      "39180935",
+      "21605559",
+      "33398053",
+      "30257459"
+    ],
+    "pmc": [
+      "12279946"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-61224-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40691134/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.malacards.org/card/ruijs_aalfs_progeroid_syndrome",
+        "provider": "The Weizmann Institute of Science GeneCards and MalaCards databases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "MalaCards for ruijs-aalfs progeroid syndrome"
+      }
+    ],
+    "text_mined": []
+  }
+}

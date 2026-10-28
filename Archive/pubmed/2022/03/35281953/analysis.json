@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35281953",
+  "title": "Bioinformatics Analysis of mRNAs and miRNAs for Identifying Potential Biomarkers in Lung Adenosquamous Carcinoma.",
+  "authors": "Nie, Jin; Gong, Ling; Li, Zhu; Ou, Dong; Zhang, Ling; Liu, Yi; Zhang, Jianyong; Liu, Daishun",
+  "journal": "Computational and mathematical methods in medicine",
+  "published_date": "2022-03-15",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过GEO数据挖掘构建肺腺鳞癌miRNA-mRNA调控网络，仅涉及转录因子预测，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Lung adenosquamous carcinoma (LASC) is a special type of lung cancer. LASC is a malignant tumor with strong aggressiveness and a poor prognosis. Previous studies have revealed that microRNAs (miRNAs) are widely involved in the development of tumors by targeting mRNA. This study is aimed at identifying the key mRNAs and miRNAs of LASC and constructing miRNA-mRNA networks for deeply comprehending the latent molecular mechanisms. METHODS: mRNA dataset (GSE51852) and miRNA dataset (GSE51853) were extracted and downloaded from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) and differentially expressed miRNAs (DEMs) were picked out by the GEO2R web tool. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) functional enrichment analyses were conducted in the DAVID database. The protein-protein interaction (PPI) network was performed and analyzed by using the STRING database and Cytoscape software, respectively. TransmiR v2.0 was applied to predict potential transcription factors of miRNAs. The target genes of DEMs were predicted in the miRWalk database. RESULTS: In comparison to normal tissues, a total of 1458 DEGs (511 upregulated and 947 downregulated) and 13 DEMs (5 upregulated and 8 downregulated) were screened out in LASC tissues. The PPI network of the DEGs displayed five key modules and seventeen hub genes. Six target genes of the DEMs were predicted, and five essential miRNA-mRNA regulatory pairs were established. Ensuingly, CENPF, one of the target genes, was also the hub genes of GSE51852, which was obtained from MCODE and cytoHubba and regulated by hsa-miR-205. CONCLUSIONS: We constructed the miRNA-mRNA regulatory pairs, which are helpful to study the potential regulatory mechanisms and find out promising diagnosis biomarkers and therapeutic targets for LASC.",
+  "abstract_zh": "背景：肺腺鳞癌（LASC）是一种特殊类型的肺癌。LASC是一种侵袭性强、预后差的恶性肿瘤。既往研究表明，微小RNA（miRNAs）通过靶向mRNA广泛参与肿瘤的发生发展。本研究旨在识别LASC的关键mRNAs和miRNAs，并构建miRNA-mRNA网络，以深入理解其潜在分子机制。方法：从基因表达综合（GEO）数据库中提取并下载mRNA数据集（GSE51852）和miRNA数据集（GSE51853）。通过GEO2R网络工具筛选出差异表达基因（DEGs）和差异表达miRNAs（DEMs）。在DAVID数据库中进行基因本体论（GO）和京都基因与基因组百科全书（KEGG）功能富集分析。分别使用STRING数据库和Cytoscape软件构建并分析蛋白质-蛋白质相互作用（PPI）网络。应用TransmiR v2.0预测miRNAs的潜在转录因子。在miRWalk数据库中预测DEMs的靶基因。结果：与正常组织相比，在LASC组织中筛选出共1458个DEGs（511个上调，947个下调）和13个DEMs（5个上调，8个下调）。DEGs的PPI网络显示了五个关键模块和十七个枢纽基因。预测了DEMs的六个靶基因，并建立了五个关键的miRNA-mRNA调控对。随后，靶基因之一的CENPF也是GSE51852的枢纽基因，该基因通过MCODE和cytoHubba获得，并由hsa-miR-205调控。结论：我们构建了miRNA-mRNA调控对，这有助于研究潜在的调控机制，并为LASC寻找有前景的诊断生物标志物和治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35281953/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35281953/",
+  "paper_page_path": "papers/pubmed/35281953/index.html"
+}

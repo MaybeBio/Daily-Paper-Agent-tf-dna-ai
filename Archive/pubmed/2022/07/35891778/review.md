@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary data references.
+- **Assessment boundary** Scientific and technical evaluation of the manuscript as submitted to *Computational and Structural Biotechnology Journal*. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors present iSEGnet, a deep convolutional neural network framework that integrates DNA sequence and epigenetic modification data from cis-regulatory regions to predict mRNA abundance. They claim superior performance over existing machine learning models, identify important regulatory regions and epigenetic marks via Integrated Gradients, and demonstrate utility in cancer multi-omics datasets.
+- **Visible evidence base** Full text of the manuscript, including figures referenced in text (Fig. 1–7), supplementary figure and table references, and methodological descriptions.
+- **Missing materials affecting confidence** Actual figure images, supplementary data files, and code were not provided. Statistical details for some comparisons (e.g., exact p-values, confidence intervals) are not fully reported in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a useful and timely contribution to the field of gene expression prediction by integrating multiple data modalities in a deep learning framework. The architecture is clearly described, and the application of Integrated Gradients for interpretability is appropriate. However, several technical and validation concerns need to be addressed to fully establish the claims, particularly regarding model comparison fairness, statistical rigor, and the biological interpretation of attribution results.
+- **Who would be interested in the results, and why** Researchers in computational genomics, gene regulation, and machine learning applied to biology. The framework offers a practical tool for integrating multi-omics data and generating hypotheses about regulatory regions, which is of broad interest to the systems biology community.
+- **Major strengths** 
+  - Clear and well-structured presentation of the model architecture and training procedure.
+  - Integration of multiple data types (DNA sequence, histone modifications, DNase, methylation) in a single predictive framework.
+  - Use of Integrated Gradients to provide interpretable, position-specific attributions, which is a strength over black-box models.
+  - Demonstration of the framework on cancer datasets, showing potential translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that iSEGnet outperforms other machine learning models in predicting mRNA abundance.
+  - **Evidence pointer** Section "The iSEGnet models outperformed other machine learning models", Fig. 3, Supplement Fig. S4
+  - **Concern** The comparison with random forest and SVM is performed using a single train/test split per cell line. No cross-validation or repeated sampling is reported, and no statistical significance testing is provided for the observed differences in R2 and Pearson correlation. The comparison with DeepChrom is also indirect, as the authors modified iSEGnet to a classification task, which may not be a fair or equivalent comparison.
+  - **Why it matters** Without proper statistical validation, the observed performance differences could be due to chance, particularly given the small number of cell lines tested. The claim of superiority is central to the paper's contribution and must be robustly supported.
+  - **Resolution test** Provide performance metrics with confidence intervals or standard deviations across multiple runs or cross-validation folds. Report statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing iSEGnet to each baseline. For the DeepChrom comparison, ensure both models are evaluated under identical conditions, including the same data splits and evaluation metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the identified high-attribution regions are enriched for transcription factor binding sites and represent active regulatory regions.
+  - **Evidence pointer** Section "The high attribution regions are related to transcription factor binding", Fig. 5
+  - **Concern** The validation of high-attribution regions relies on motif enrichment analysis using AME and comparison with MYC ChIP-seq data. However, the statistical framework for defining "high attribution" regions is not clearly described. The threshold for selecting the top attribution sites is not specified, and the background model for motif enrichment is not detailed. Additionally, the comparison with MYC ChIP-seq is performed for only one transcription factor in one cell line, which is insufficient to generalize the claim.
+  - **Why it matters** The biological relevance of the attribution results is a key contribution of the paper. If the selection criteria and enrichment analysis are not rigorously defined, the conclusions about regulatory regions may not be reproducible or generalizable.
+  - **Resolution test** Clearly define the criteria for selecting high-attribution regions (e.g., top 5% of sites, absolute threshold). Describe the background model used in AME and report the number of regions tested. Expand the ChIP-seq validation to multiple transcription factors and cell lines, or provide a clear rationale for focusing on MYC alone.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that iSEGnet can uncover potential transcription factors with regulatory functions in cancer.
+  - **Evidence pointer** Section "Case studies", Fig. 6, Fig. 7
+  - **Concern** The cancer case studies are presented as demonstrations of utility, but the analysis is largely descriptive. For the esophageal cancer dataset, the comparison between transcription factors identified from differential methylation versus differential attribution is interesting, but the biological validation is limited. For the breast cancer dataset, only one sample per condition is used, which severely limits the reliability of the differential analysis. The authors acknowledge this limitation, but the claims about uncovering regulatory functions remain speculative.
+  - **Why it matters** The translational relevance of the framework depends on its ability to generate meaningful biological hypotheses. Without stronger validation or additional datasets, the case studies do not fully support the claim of uncovering cancer-relevant transcription factors.
+  - **Resolution test** Provide additional validation, such as experimental confirmation of predicted transcription factor binding or expression changes, or apply the framework to additional cancer datasets with more replicates. Alternatively, temper the claims to reflect the hypothesis-generating nature of the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction assume familiarity with deep learning terminology and epigenetic concepts. Terms such as "convolutional neural network," "Integrated Gradients," and "cis-regulatory regions" are used without brief definitions, which may limit accessibility for a broader biological audience.
+  - **Required correction** Add brief explanations of key technical terms in the abstract or introduction to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Model training and testing"
+  - **Evidence pointer** Section "Model training and testing"
+  - **Concern** The hyperparameter tuning procedure is described, but the range of values tested for each hyperparameter is not fully specified. The statement "The hyperparameters and the corresponding model performance using the evaluation criteria described in Section 2.4 are shown in Supplement Fig. S1" is vague without the supplementary figure.
+  - **Required correction** Provide a table or detailed description of the hyperparameter search space and the selection criteria in the main text or supplement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Feature attribution"
+  - **Evidence pointer** Section "Feature attribution identification"
+  - **Concern** The Integrated Gradients method is described, but the choice of baseline (zero) is not justified. The authors acknowledge this in the Discussion, but a brief rationale in the Methods would be helpful.
+  - **Required correction** Add a sentence explaining the choice of baseline and its potential implications for attribution results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Discussion, "Code availability"
+  - **Issue** The code is stated to be available on GitHub, but the specific repository URL is not provided in the manuscript text. The statement "The code of iSEGnet is available at github.com/YDaiLab/iSEGnet" appears in the Discussion, but it is not clear if this is a functional link or if the repository is publicly accessible.
+  - **Required correction** Ensure the URL is correct and accessible, and consider adding a formal Data and Code Availability statement.
+- **Technical failings that need to be addressed before the case is established** 
+  - Lack of statistical validation for model performance comparisons (R1-M1).
+  - Insufficient detail on the selection and validation of high-attribution regions (R1-M2).
+  - Limited biological validation in cancer case studies, particularly with single-sample data (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The integration of DNA sequence and multiple epigenetic marks in a single deep learning framework is a novel contribution, though similar approaches exist in the literature. The use of Integrated Gradients for interpretability adds originality.
+  - **Scientific importance** The work addresses a fundamental question in gene regulation and offers a practical tool for hypothesis generation. The importance is moderate to high, depending on the robustness of the validation.
+  - **Interdisciplinary readership** The topic is relevant to computational biologists, molecular biologists, and clinicians interested in gene regulation and cancer. The presentation is generally accessible but could be improved for nonspecialists.
+  - **Technical soundness** The model architecture is sound, but the evaluation and validation procedures have gaps that need to be addressed (see Major Concerns).
+  - **Readability for nonspecialists** The manuscript is well-written but includes technical jargon that may hinder accessibility. Brief definitions would improve readability.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the framework is potentially useful, but the current evidence does not fully establish the claims of superiority and biological relevance. Addressing the statistical and validation issues would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that iSEGnet outperforms other machine learning models is not statistically supported.
+- The claim that high-attribution regions are enriched for transcription factor binding sites is based on limited validation (one TF, one cell line).
+- The claim that iSEGnet can uncover cancer-relevant transcription factors is speculative given the limited sample sizes in the case studies.
+- The comparison with DeepChrom is indirect and may not be a fair assessment of relative performance.

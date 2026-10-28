@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37446311",
+  "title": "Using Machine Learning Methods to Study Colorectal Cancer Tumor Micro-Environment and Its Biomarkers.",
+  "authors": "Wei, Wei; Li, Yixue; Huang, Tao",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-07-14",
+  "window": {
+    "start": "2023-07-10",
+    "end": "2023-07-16"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用机器学习分析结直肠癌转录组数据筛选预后生物标志物，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "Colorectal cancer (CRC) is a leading cause of cancer deaths worldwide, and the identification of biomarkers can improve early detection and personalized treatment. In this study, RNA-seq data and gene chip data from TCGA and GEO were used to explore potential biomarkers for CRC. The SMOTE method was used to address class imbalance, and four feature selection algorithms (MCFS, Borota, mRMR, and LightGBM) were used to select genes from the gene expression matrix. Four machine learning algorithms (SVM, XGBoost, RF, and kNN) were then employed to obtain the optimal number of genes for model construction. Through interpretable machine learning (IML), co-predictive networks were generated to identify rules and uncover underlying relationships among the selected genes. Survival analysis revealed that INHBA, FNBP1, PDE9A, HIST1H2BG, and CADM3 were significantly correlated with prognosis in CRC patients. In addition, the CIBERSORT algorithm was used to investigate the proportion of immune cells in CRC tissues, and gene mutation rates for the five selected biomarkers were explored. The biomarkers identified in this study have significant implications for the development of personalized therapies and could ultimately lead to improved clinical outcomes for CRC patients.",
+  "abstract_zh": "结直肠癌（CRC）是全球癌症死亡的主要原因之一，而生物标志物的识别可改善早期检测和个性化治疗。本研究利用来自TCGA和GEO的RNA-seq数据和基因芯片数据，探索CRC的潜在生物标志物。采用SMOTE方法解决类别不平衡问题，并使用四种特征选择算法（MCFS、Borota、mRMR和LightGBM）从基因表达矩阵中筛选基因。随后，应用四种机器学习算法（SVM、XGBoost、RF和kNN）确定用于模型构建的最佳基因数量。通过可解释机器学习（IML），生成共预测网络以识别规则并揭示所选基因之间的潜在关系。生存分析显示，INHBA、FNBP1、PDE9A、HIST1H2BG和CADM3与CRC患者的预后显著相关。此外，使用CIBERSORT算法研究CRC组织中免疫细胞的比例，并探讨了五个选定生物标志物的基因突变率。本研究所识别的生物标志物对个性化治疗的发展具有重要意义，并可能最终改善CRC患者的临床结局。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37446311/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37446311/",
+  "paper_page_path": "papers/pubmed/37446311/index.html"
+}

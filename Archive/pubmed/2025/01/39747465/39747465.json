@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "39747465",
+    "doi": "10.1007/s00210-024-03712-5",
+    "title": "Network pharmacology and molecular docking to explore the potential mechanism of chlorogenic acid in septic acute liver injury and experimental validation of TLR4/NF-kappaB pathway in vivo."
+  },
+  "content": {
+    "abstract": "The objective of this study was to investigate the biological activities and mechanisms of chlorogenic acid (CGA) in the treatment of septic acute liver injury (SALI) based on the network pharmacology, molecular docking, in vivo studies, and other techniques. Chlorogenic acid and potential related targets of septic acute liver injury were searched from the public databases. Then, the protein-protein interaction (PPI), Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses were conducted. Subsequently, molecular docking was performed to predict the binding of the active compound to the core target. Finally, in vivo experiments were carried out for further validation. A total of 60 common targets were identified between acute septic liver injury and chlorogenic acid, among which 9 common core targets (EGFR, ESR1, GSK3B, PTGS2, TLR4, PPARA, HSP90AA1, ACE, and MMP9) were screened with Cytoscape. Molecular docking indicated that these core targets had good binding activity to chlorogenic acid (- 7.2, - 6.8, - 7.7, - 8.7, - 6.1, - 6.8, - 7.3, - 8.4, and - 8.6 kcal/mol respectively). In the SALI mouse model, chlorogenic acid can improve pathological damage to the liver and apoptosis of liver cells, and anti-inflammatory properties significantly by the TLR4/NF-kappaB pathway (all P < 0.05). The biological activity and regulatory network of CGA on SALI were revealed, and the anti-inflammatory effect of CGA was verified, which could be associated with the TLR4/NF-kappaB pathway.",
+    "keywords": [
+      "Chlorogenic acid",
+      "Molecular docking",
+      "Network pharmacology",
+      "Septic acute liver injury",
+      "TLR4"
+    ],
+    "mesh_terms": [
+      "*Chlorogenic Acid/pharmacology/therapeutic use",
+      "Molecular Docking Simulation",
+      "*Toll-Like Receptor 4/metabolism",
+      "Animals",
+      "Network Pharmacology",
+      "*NF-kappa B/metabolism",
+      "Mice",
+      "*Sepsis/drug therapy/metabolism/complications",
+      "Signal Transduction/drug effects",
+      "Male",
+      "Liver/drug effects/pathology/metabolism",
+      "Protein Interaction Maps",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Shangping",
+        "Su, Hui",
+        "Liu, Jiameng",
+        "Zhai, Kecheng",
+        "Gao, Yangmengna",
+        "Xiang, Yu",
+        "Li, Huan",
+        "Sun, Renke",
+        "Cheng, Huixian"
+      ],
+      "short_names": [
+        "Fang S",
+        "Su H",
+        "Liu J",
+        "Zhai K",
+        "Gao Y",
+        "Xiang Y",
+        "Li H",
+        "Sun R",
+        "Cheng H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+        "The First Affiliated Hospital, Wannan Medical College, Wuhu, Anhui Province, China. 20180041@wnmc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Shangping",
+        "short_name": "Fang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Su, Hui",
+        "short_name": "Su H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiameng",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Kecheng",
+        "short_name": "Zhai K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yangmengna",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Yu",
+        "short_name": "Xiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huan",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Renke",
+        "short_name": "Sun R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Anesthesia Laboratory and Training Center, Wannan Medical College, Wuhu, Anhui Province, China.",
+          "Wuhu Perioperative Monitoring and Prognostic Technology Research and Development Center, Wannan Medical College, Wuhu, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Huixian",
+        "short_name": "Cheng H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Wannan Medical College, Wuhu, Anhui Province, China. 20180041@wnmc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Naunyn-Schmiedeberg's archives of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Naunyn Schmiedebergs Arch Pharmacol"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/03 00:20",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42420537",
+      "41334328",
+      "40904605"
+    ],
+    "refs": [
+      "38818214",
+      "37847443",
+      "37697947",
+      "37126332",
+      "36961550",
+      "36951146",
+      "36304809",
+      "36267798",
+      "35845802",
+      "35790282",
+      "35689269",
+      "35307617",
+      "35156512",
+      "34472725",
+      "32907362",
+      "32396142",
+      "32089239",
+      "30506577",
+      "29447109",
+      "29080460",
+      "29022217",
+      "27010419",
+      "26740181",
+      "25846499",
+      "23168580",
+      "22971102",
+      "19131954",
+      "9671361"
+    ],
+    "similar": [
+      "39747465",
+      "40013962",
+      "41814740",
+      "39374881",
+      "40553825",
+      "36646160",
+      "40570565",
+      "39839500",
+      "36872242",
+      "39142620",
+      "40858660",
+      "39488873",
+      "41203698",
+      "40682227",
+      "39251712",
+      "37382018",
+      "40220405",
+      "39816675",
+      "38169205",
+      "39742571",
+      "39260206",
+      "41814794",
+      "41261616",
+      "39259129",
+      "39617073",
+      "39730994",
+      "41038141",
+      "41265260",
+      "37023836",
+      "39278295",
+      "39701786",
+      "40840728",
+      "39219424",
+      "37282883",
+      "41418734",
+      "40499803",
+      "39085510",
+      "38910274",
+      "37287284",
+      "38582151",
+      "38964626",
+      "39222242",
+      "36660249",
+      "41641273",
+      "40316154",
+      "39991083",
+      "38696100",
+      "41534756",
+      "33444723",
+      "38588987",
+      "39006190",
+      "39074420",
+      "41365176",
+      "41261300",
+      "28028753",
+      "40634934",
+      "40164657",
+      "39093467",
+      "39322020",
+      "37802827",
+      "39280256",
+      "36403742",
+      "40865347",
+      "40784326",
+      "36961550",
+      "38914662",
+      "40754029",
+      "38640713",
+      "40543694",
+      "37807411",
+      "34951223",
+      "39041167",
+      "36691639",
+      "40615101",
+      "38812235",
+      "37499457",
+      "41172141",
+      "38104874",
+      "41316260",
+      "42217408",
+      "41508081",
+      "38981149",
+      "42004947",
+      "38219885",
+      "41504045",
+      "38019769",
+      "34492285",
+      "39533555",
+      "36164882",
+      "42107750",
+      "39075002",
+      "40676786",
+      "41088057",
+      "39326136",
+      "38555283",
+      "37879505",
+      "36604925",
+      "41151450",
+      "39999932",
+      "40330488"
+    ],
+    "review": [
+      "39747465"
+    ],
+    "pmc": [
+      "12125114"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39747465/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00210-024-03712-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-804",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39679439",
+  "title": "A self-attention-driven deep learning framework for inference of transcriptional gene regulatory networks.",
+  "authors": "Liu, Yong; Zhong, Le; Yan, Bin; Chen, Zhuobin; Yu, Yanjia; Yu, Dan; Qin, Jing; Wang, Junwen",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-12-16",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用自注意力深度学习框架从转录组数据推断TF-靶基因调控网络，虽涉及TF-DNA互作但基于表达数据而非三维结合建模，方法可迁移但深度不足。",
+  "abstract": "The interactions between transcription factors (TFs) and the target genes could provide a basis for constructing gene regulatory networks (GRNs) for mechanistic understanding of various biological complex processes. From gene expression data, particularly single-cell transcriptomic data containing rich cell-to-cell variations, it is highly desirable to infer TF-gene interactions (TGIs) using deep learning technologies. Numerous models or software including deep learning-based algorithms have been designed to identify transcriptional regulatory relationships between TFs and the downstream genes. However, these methods do not significantly improve predictions of TGIs due to some limitations regarding constructing underlying interactive structures linking regulatory components. In this study, we introduce a deep learning framework, DeepTGI, that encodes gene expression profiles from single-cell and/or bulk transcriptomic data and predicts TGIs with high accuracy. Our approach could fuse the features extracted from Auto-encoder with self-attention mechanism and other networks and could transform multihead attention modules to define representative features. By comparing it with other models or methods, DeepTGI exhibits its superiority to identify more potential TGIs and to reconstruct the GRNs and, therefore, could provide broader perspectives for discovery of more biological meaningful TGIs and for understanding transcriptional gene regulatory mechanisms.",
+  "abstract_zh": "转录因子（TFs）与靶基因之间的相互作用可为构建基因调控网络（GRNs）提供基础，从而有助于从机制上理解各种复杂的生物过程。从基因表达数据，尤其是包含丰富细胞间变异的单细胞转录组数据中，利用深度学习技术推断TF-基因相互作用（TGIs）极具吸引力。已有众多模型或软件，包括基于深度学习的算法，被设计用于识别TFs与下游基因之间的转录调控关系。然而，由于在构建连接调控组件的潜在交互结构方面存在一些局限性，这些方法并未显著提升TGIs的预测性能。在本研究中，我们引入了一种深度学习框架DeepTGI，该框架编码来自单细胞和/或批量转录组数据的基因表达谱，并以高精度预测TGIs。我们的方法能够融合从自编码器结合自注意力机制及其他网络提取的特征，并可将多头注意力模块转换以定义代表性特征。通过与其他模型或方法比较，DeepTGI在识别更多潜在TGIs和重建GRNs方面展现出优越性，因此，可为发现更多具有生物学意义的TGIs及理解转录基因调控机制提供更广阔的视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39679439/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39679439/",
+  "paper_page_path": "papers/pubmed/39679439/index.html"
+}

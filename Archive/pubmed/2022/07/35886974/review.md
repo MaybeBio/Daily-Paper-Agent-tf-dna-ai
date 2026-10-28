@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) as provided by the user. No supplementary files, figures, or tables were accessible beyond in-text references.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the described evidence. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors use molecular dynamics (MD) simulations, interaction energy calculations, and in silico alanine scanning to compare the stability and interaction patterns of NONO and SFPQ homo- and heterodimers, and to model their binding to a polyG RNA probe. They claim that heterodimerization is thermodynamically favored over homodimerization, that RRM2 domains are primarily involved in protein–protein interactions rather than RNA binding, that specific residues in RRM1 β2/β4 strands and the NOPS region contribute to RNA recognition, and that these findings could inform drug design for multiple myeloma.
+- **Visible evidence base** Text descriptions of MD simulations (3 µs for dimers, 1 µs for monomers, 500 ns for RNA-bound complexes), RMSD/RMSF analyses, hydrogen bond and salt bridge counts, per-residue interaction analyses, single-point energy calculations, MM/GB-SA binding free energies, and in silico alanine scanning. Figures and tables are referenced but not visible.
+- **Missing materials affecting confidence** All figures (Figures 1–7), Supplementary Figures S1–S2, and Supplementary Table S1 are referenced but not provided. Numerical data (e.g., energy values, RMSF values, interaction percentages) are only partially reported in text. PDB structure preparation details are described but validation metrics (e.g., Ramachandran plots, clash scores) are absent. No information on force field validation, convergence criteria beyond RMSD, or error estimates for energy calculations is given.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question about the molecular basis of NONO and SFPQ dimerization and RNA recognition, with potential implications for multiple myeloma therapy. The computational approach is reasonable in principle, and the authors combine multiple techniques (MD, energy decomposition, alanine scanning) to strengthen their conclusions. However, the evidence as presented is insufficient to fully support several key claims. The lack of visible figures and numerical data prevents independent verification of the results. The claim that heterodimerization is more favorable than homodimerization rests on a single energy calculation method with no reported error bars or statistical significance testing. The RNA binding simulations are short (500 ns) and based on a modeled complex, which may not capture the full conformational landscape. The role of the NOPS region in direct RNA binding is an interesting hypothesis but is supported only by indirect evidence. Overall, the work has potential but requires substantial additional analysis and clearer presentation of data to establish its conclusions.
+- **Who would be interested in the results, and why** Structural biologists and computational chemists studying RNA-binding proteins, particularly the DBHS family, would find the dimerization and RNA recognition analyses of interest. Researchers working on paraspeckle biology and multiple myeloma pathogenesis may also be interested in the potential therapeutic implications. The methodological approach (combining MD with energy calculations and alanine scanning) could serve as a template for similar studies on other protein–RNA systems.
+- **Major strengths** The study addresses a biologically and clinically relevant question with potential therapeutic implications. The combination of multiple computational techniques (MD, energy decomposition, alanine scanning) provides a multi-faceted view of the systems. The authors acknowledge limitations, such as truncated N-termini and lack of full-length structures. The use of long MD simulations (3 µs) for the dimers is commendable and allows for equilibration and sampling of conformational states.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We demonstrated in silico that NONO::SFPQ heterodimerization is a more favorable process than homodimer formation."
+  - **Evidence pointer** Section 2.1, Figure 3, Section 3.4
+  - **Concern** The claim that heterodimerization is more favorable is based on a single dimer formation energy calculation (ΔE) with no reported standard deviation, confidence interval, or statistical test. The text states the heterodimer has the most negative energy (approx. −1200 kcal/mol), but no values for the homodimers are given, and it is unclear whether the differences are significant given the expected noise in such calculations. The method (comparing MD energies of monomers vs. dimers) is sensitive to simulation length, force field, and sampling completeness, and no convergence analysis for the energy values is provided.
+  - **Why it matters** This is the central claim of the paper and the basis for the proposed biological relevance. Without statistical rigor, the conclusion that heterodimerization is preferred over homodimerization is not established.
+  - **Resolution test** Provide the ΔE values for all three dimers with standard deviations or standard errors, perform a statistical test (e.g., bootstrap or block averaging) to show the differences are significant, and demonstrate convergence of the energy calculations over the simulation time.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We also show that NONO and SFPQ RRM2 subunits are primarily required for protein–protein interactions with the other DBHS protomer."
+  - **Evidence pointer** Section 2.2, Figures 4–5, Section 3.5
+  - **Concern** The conclusion that RRM2 is primarily for protein–protein interactions is based on interaction analyses and alanine scanning, but the data are not shown in the text. The alanine scanning method is described, but no results (e.g., which residues are hotspots, what ΔAffinity values are considered significant) are reported. The claim that RRM2 lacks the typical RNP signature is stated but not substantiated with a sequence alignment or structural comparison.
+  - **Why it matters** This is a key mechanistic claim that distinguishes the roles of RRM1 and RRM2. Without visible data, the reader cannot assess whether the evidence supports the conclusion or whether alternative interpretations (e.g., RRM2 also contributes to RNA binding) are possible.
+  - **Resolution test** Show the alanine scanning results (e.g., a table or figure of ΔAffinity values for all mutated residues), provide a sequence alignment or structural overlay demonstrating the absence of RNP signatures in RRM2, and quantify the contribution of RRM2 residues to protein–protein vs. protein–RNA interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Simulation of RNA binding to NONO and SFPQ, beside validating RRM1 RNP signature importance, highlighted the role of β2 and β4 strand residues for RNA specific recognition."
+  - **Evidence pointer** Section 2.3, Figures 6–7, Section 3.6
+  - **Concern** The RNA-bound models were built by aligning the protein to a CUGBP1–RNA complex (PDB: 3NNA) and manually placing a polyG pentanucleotide. This is a modeling approach that may introduce bias, and the 500 ns simulations may be too short to reach equilibrium for a protein–RNA complex. The text states that "all the largest trajectory clusters... display a similar RRM1::polyG binding mode," but no quantitative measure of binding stability (e.g., RMSD of RNA relative to protein, contact persistence) is provided. The claim that β2 and β4 residues are important for RNA recognition is based on interaction analysis, but the specific residues and their interaction frequencies are not reported in the text.
+  - **Why it matters** The RNA recognition mechanism is a central focus of the paper. If the modeling approach is not validated or the simulations are not converged, the conclusions about specific residues may be artifacts of the initial placement rather than genuine binding determinants.
+  - **Resolution test** Validate the modeled complex by comparing with known RNA-bound structures of DBHS proteins if available, extend the simulations or perform replica simulations to demonstrate convergence, and provide quantitative data on residue-specific interaction frequencies and binding energies with error estimates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Our results, having deepened RNA and DBHS dimer interactions, could contribute to the design of small molecules to modulate the activity of these proteins."
+  - **Evidence pointer** Section 4 (Conclusions)
+  - **Concern** The therapeutic implications are speculative and not supported by any direct evidence in the manuscript. No docking, virtual screening, or drug design experiments are presented. The claim that RNA-mimetics could impair paraspeckle formation is a hypothesis that goes beyond the data shown.
+  - **Why it matters** While speculative conclusions are common in computational studies, they should be clearly framed as hypotheses. The current phrasing may overstate the translational relevance of the findings.
+  - **Resolution test** Reframe the conclusion as a hypothesis or future direction, or provide additional computational evidence (e.g., docking of small molecules to the identified binding sites) to support the claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, Figure 1a
+  - **Evidence pointer** "the NONO::SFPQ heterodimer had an higher RMSD for the very first part of the simulation"
+  - **Issue** The sentence is grammatically awkward ("an higher") and the statement is vague. It is unclear how much higher the RMSD was and for how long.
+  - **Required correction** Revise to "the NONO::SFPQ heterodimer exhibited a higher RMSD during the initial phase of the simulation" and provide quantitative values or a time range.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2, Figure 4
+  - **Evidence pointer** "Figure 4 combines the results of the abovementioned analyses"
+  - **Issue** The text does not explain how the different analyses are combined or how to interpret the figure. The reader is left to infer the methodology.
+  - **Required correction** Add a brief description of how the data in Figure 4 are integrated (e.g., overlap of interaction frequencies, energy contributions) and what the color scheme or symbols represent.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 3.4, Equation 1
+  - **Evidence pointer** "ΔE=EA:Bself+EA:Bsolv+EA:Binter−(EAself+EAsolv+EBself+EBsolv)"
+  - **Issue** The equation is not fully explained. It is unclear what each term represents (e.g., "self" energy, "solv" energy) and how they are computed from the MD simulations.
+  - **Required correction** Define each term in the equation and specify the software or method used to compute these energies (e.g., MM/GB-SA, force field-based).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 2.3, "lysins"
+  - **Evidence pointer** "interactions between RNA backbone and lysins in the NOOS region"
+  - **Issue** "lysins" is a typo for "lysines." Also, "NOOS" appears to be a typo for "NOPS."
+  - **Required correction** Correct to "lysines" and "NOPS."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, "DBS proteins"
+  - **Evidence pointer** "a higher tendency of DBS proteins to heterodimerize"
+  - **Issue** The abbreviation "DBS" is used inconsistently; the text earlier uses "DBHS." This could confuse readers.
+  - **Required correction** Use "DBHS" consistently throughout the manuscript.
+
+## Risk / unsupported claims
+- The claim that heterodimerization is more favorable than homodimerization is unsupported without statistical analysis and error estimates.
+- The claim that RRM2 is primarily for protein–protein interactions is not verifiable without the alanine scanning data and sequence alignment.
+- The claim that specific β2 and β4 residues are important for RNA recognition is not supported by quantitative data in the text.
+- The claim that NOPS directly contributes to RNA binding is speculative and not directly tested.
+- The therapeutic implications for multiple myeloma are not supported by any direct evidence in the manuscript.
+- The statement that "all the largest trajectory clusters... display a similar RRM1::polyG binding mode" is unverifiable without the figure or quantitative metrics.
+- The modeling of the RNA-bound complex is not validated against experimental structures or independent computational methods.

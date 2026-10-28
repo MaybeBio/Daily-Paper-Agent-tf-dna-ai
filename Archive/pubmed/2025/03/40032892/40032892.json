@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "pmid": "40032892",
+    "doi": "10.1038/s41598-025-89884-3",
+    "title": "PHD-2/HIF-1alpha axis mediates doxorubicin-induced angiogenesis in SH-SY5Y neuroblastoma microenvironment: a potential survival mechanism."
+  },
+  "content": {
+    "abstract": "The response of neuroblastoma (NB) cells to chemotherapeutics and their influence on NB microenvironment remain incompletely understood. Herein, we examined the underlying molecular mechanism via which Doxorubicin, a chemotherapeutic agent used for NB treatment, promotes proangiogenic response in the SH-SY5Y microenvironment. Doxorubicin treatment at 1 microg/ml reduced SH-SY5Y cell proliferation and primed the apoptosis pathway. Unexpectedly, SH-SY5Y cells treated with doxorubicin upregulated their expression of the pro-angiogenic factors, including vascular endothelial growth factor (VEGF), platelets-derived growth factor (PDGF), and matrix metalloprotease-2 (MMP-2) and secretion of nitric oxide. To assess the functional angiogenesis of SH-SY5Y cells pre-treated with doxorubicin, an indirect co-culture system with human umbilical vein endothelial cells (HUVEC) was established. These HUVECs acquired enhanced proliferation, migration capacity, and tube formation capability and exhibited increased nitric oxide (NO) production, in addition to upregulated alpha-smooth muscle actin expression, suggesting enhanced contractility. In-ovo studies of the neo-angiogenic response of SH-SY5Y pre-treated with doxorubicin further show their promoted neo-angiogenesis as indicated by the generated blood vessels and histological analysis of CD31 expression. Inhibition of PHD-2 could be a potential target for doxorubicin, as indicated by molecular docking, molecular dynamics (MD) simulation, and MM-GBSA calculations, leading to hypoxia-inducible factor-1 alpha (HIF-1alpha) stabilization. Bioinformatics analyses and enrichment analyses of RNA-seq data revealed activation of Pi3K pathway which is further validated in-vitro. These results provide evidence of the unexpected pro-angiogenic response of SH-SY5Y cells to doxorubicin treatment and suggest the potential use of multi-modal therapeutic regimens for a more comprehensive approach to NB treatment.",
+    "keywords": [
+      "Doxorubicin",
+      "Neo-angiogenesis",
+      "Neuroblastoma angiogenesis",
+      "PHD-2/HIF-1alpha targeting",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Doxorubicin/pharmacology",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Neuroblastoma/metabolism/pathology/drug therapy",
+      "*Neovascularization, Pathologic/metabolism/chemically induced",
+      "Cell Line, Tumor",
+      "*Tumor Microenvironment/drug effects",
+      "Human Umbilical Vein Endothelial Cells/drug effects/metabolism",
+      "Cell Proliferation/drug effects",
+      "*Hypoxia-Inducible Factor-Proline Dioxygenases/metabolism",
+      "Signal Transduction/drug effects",
+      "Apoptosis/drug effects",
+      "Cell Survival/drug effects",
+      "Antibiotics, Antineoplastic/pharmacology",
+      "Angiogenesis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abou-Shanab, Ahmed M",
+        "Gaser, Ola A",
+        "Galal, Noha",
+        "Mohamed, Alaa",
+        "Atta, Dina",
+        "Kamar, Samaa Samir",
+        "Magdy, Shireen",
+        "Khedr, Mennatallah A",
+        "Elkhenany, Hoda",
+        "El-Badri, Nagwa"
+      ],
+      "short_names": [
+        "Abou-Shanab AM",
+        "Gaser OA",
+        "Galal N",
+        "Mohamed A",
+        "Atta D",
+        "Kamar SS",
+        "Magdy S",
+        "Khedr MA",
+        "Elkhenany H",
+        "El-Badri N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Histology Department, Kasr Al-Ainy Faculty of Medicine, Cairo University, Cairo, Egypt.",
+        "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+        "Department of Surgery, Faculty of Veterinary Medicine, Alexandria University, Alexandria, 22785, Egypt.",
+        "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt. nelbadri@zewailcity.edu.eg.",
+        "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt. nelbadri@zewailcity.edu.eg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abou-Shanab, Ahmed M",
+        "short_name": "Abou-Shanab AM",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+          "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt."
+        ]
+      },
+      {
+        "full_name": "Gaser, Ola A",
+        "short_name": "Gaser OA",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+          "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt."
+        ]
+      },
+      {
+        "full_name": "Galal, Noha",
+        "short_name": "Galal N",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt."
+        ]
+      },
+      {
+        "full_name": "Mohamed, Alaa",
+        "short_name": "Mohamed A",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+          "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt."
+        ]
+      },
+      {
+        "full_name": "Atta, Dina",
+        "short_name": "Atta D",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+          "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt."
+        ]
+      },
+      {
+        "full_name": "Kamar, Samaa Samir",
+        "short_name": "Kamar SS",
+        "identifiers": [],
+        "affiliations": [
+          "Histology Department, Kasr Al-Ainy Faculty of Medicine, Cairo University, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Magdy, Shireen",
+        "short_name": "Magdy S",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+          "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt."
+        ]
+      },
+      {
+        "full_name": "Khedr, Mennatallah A",
+        "short_name": "Khedr MA",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt.",
+          "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt."
+        ]
+      },
+      {
+        "full_name": "Elkhenany, Hoda",
+        "short_name": "Elkhenany H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Faculty of Veterinary Medicine, Alexandria University, Alexandria, 22785, Egypt."
+        ]
+      },
+      {
+        "full_name": "El-Badri, Nagwa",
+        "short_name": "El-Badri N",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Stem Cells and Regenerative Medicine, Zewail City of Science and Technology, Giza, 12578, Egypt. nelbadri@zewailcity.edu.eg.",
+          "Biomedical Sciences Program, University of Science and Technology, Zewail City of Science and Technology, Giza, 12578, Egypt. nelbadri@zewailcity.edu.eg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/04 00:22",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "42329467",
+      "41939908",
+      "40657618",
+      "40537738"
+    ],
+    "refs": [
+      "39453499",
+      "39036648",
+      "39007099",
+      "38851604",
+      "38769056",
+      "38760476",
+      "38637657",
+      "38181797",
+      "38036871",
+      "38030193",
+      "37867409",
+      "37038705",
+      "36765874",
+      "36723905",
+      "36300620",
+      "36157484",
+      "36054452",
+      "35985323",
+      "35721026",
+      "35277192",
+      "35212607",
+      "35079034",
+      "35010112",
+      "34823094",
+      "34586825",
+      "34316686",
+      "34233647",
+      "33524223",
+      "32946775",
+      "32392199",
+      "31477256",
+      "31441146",
+      "30124118",
+      "29115528",
+      "29032465",
+      "28240680",
+      "28173828",
+      "28038470",
+      "27774472",
+      "27137889",
+      "26696630",
+      "26304901",
+      "26233890",
+      "26000021",
+      "25811359",
+      "25751142",
+      "25521941",
+      "25516281",
+      "24695404",
+      "24481312",
+      "24227677",
+      "24098799",
+      "23959856",
+      "23222716",
+      "22964741",
+      "22948183",
+      "22571395",
+      "22455463",
+      "22439926",
+      "22415525",
+      "22285670",
+      "21546393",
+      "21403679",
+      "21059928",
+      "20972874",
+      "20460378",
+      "19903792",
+      "19794965",
+      "19788758",
+      "18772115",
+      "18500244",
+      "18498744",
+      "17586306",
+      "17434127",
+      "17172430",
+      "17097563",
+      "16990548",
+      "16361566",
+      "16199517",
+      "16141331",
+      "16139242",
+      "15994919",
+      "15902208",
+      "15833863",
+      "15170446",
+      "15157619",
+      "15144951",
+      "15122348",
+      "15015560",
+      "14645546",
+      "14597658",
+      "12912907",
+      "12778130",
+      "12210146",
+      "12175523",
+      "11902584",
+      "11595184",
+      "11474132",
+      "11357145",
+      "11292862",
+      "11292861",
+      "11181773",
+      "11001068",
+      "10592173",
+      "10077161",
+      "10037745",
+      "9653127",
+      "9554441",
+      "9544424",
+      "9269471"
+    ],
+    "similar": [
+      "40032892",
+      "32730833",
+      "25391657",
+      "28602978",
+      "38474195",
+      "40020629",
+      "30541574",
+      "25811359",
+      "21773947",
+      "37321076",
+      "18645007",
+      "21484514",
+      "28445928",
+      "29936638",
+      "23416116",
+      "28091613",
+      "29212519",
+      "29852266",
+      "23222716",
+      "22956186",
+      "19016766",
+      "26202335",
+      "25339014",
+      "26676934",
+      "30219159",
+      "26625311",
+      "16103078",
+      "23661177",
+      "31739837",
+      "32323837",
+      "19066415",
+      "29498688",
+      "39890164",
+      "23861918",
+      "25288151",
+      "21628883",
+      "33711197",
+      "26224681",
+      "20574527",
+      "29753314",
+      "28259965",
+      "22771629",
+      "29614494",
+      "39128809",
+      "39226705",
+      "31707727",
+      "27877088",
+      "25304380",
+      "29117193",
+      "19423615",
+      "24161739",
+      "16985058",
+      "25883214",
+      "39752899",
+      "39319846",
+      "25316137",
+      "23959856",
+      "31863779",
+      "21947252",
+      "27999195",
+      "25561311",
+      "19538463",
+      "26707275",
+      "28009852",
+      "29268703",
+      "27821809",
+      "29281186",
+      "23947803",
+      "20208561",
+      "29196053",
+      "30834693",
+      "28572533",
+      "30659163",
+      "38522817",
+      "22016776",
+      "30136034",
+      "29295567",
+      "32298193",
+      "25148040",
+      "24686084",
+      "39707779",
+      "29724989",
+      "30980943",
+      "29866133",
+      "31343893",
+      "26847718",
+      "20924210",
+      "23501055",
+      "23726275",
+      "33119829",
+      "37550736",
+      "39237822",
+      "27589831",
+      "24952732",
+      "11912158",
+      "17869204",
+      "38178660",
+      "26013382",
+      "34557995",
+      "22859221"
+    ],
+    "review": [
+      "40032892"
+    ],
+    "pmc": [
+      "11876694"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-89884-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40032892/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2615",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

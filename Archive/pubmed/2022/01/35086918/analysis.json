@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35086918",
+  "title": "Genome-wide association study-based prediction of atrial fibrillation using artificial intelligence.",
+  "authors": "Kwon, Oh-Seok; Hong, Myunghee; Kim, Tae-Hoon; Hwang, Inseok; Shim, Jaemin; Choi, Eue-Keun; Lim, Hong Euy; Yu, Hee Tae; Uhm, Jae-Sun; Joung, Boyoung; Oh, Seil; Lee, Moon-Hyoung; Kim, Young-Hoon; Pak, Hui-Nam",
+  "journal": "Open heart",
+  "published_date": "2022-01-29",
+  "window": {
+    "start": "2022-01-24",
+    "end": "2022-01-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用CNN基于GWAS SNP预测房颤风险，属纯序列统计与疾病预测，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "OBJECTIVE: We previously reported early-onset atrial fibrillation (AF) associated genetic loci among a Korean population. We explored whether the AF-associated single-nucleotide polymorphisms (SNPs) selected from the Genome-Wide Association Study (GWAS) of an external large cohort has a prediction power for AF in Korean population through a convolutional neural network (CNN). METHODS: This study included 6358 subjects (872 cases, 5486 controls) from the Korean population GWAS data. We extracted the lists of SNPs at each p value threshold of the association statistics from three different previously reported ethnical-specific GWASs. The Korean GWAS data were divided into training (64%), validation (16%) and test (20%) sets, and a stratified K-fold cross-validation was performed and repeated five times after data shuffling. RESULTS: The CNN-GWAS predictive power for AF had an area under the curve (AUC) of 0.78+/-0.01 based on the Japanese GWAS, AUC of 0.79+/-0.01 based on the European GWAS, and AUC of 0.82+/-0.01 based on the multiethnic GWAS, respectively. Gradient-weighted class activation mapping assigned high saliency scores for AF associated SNPs, and the PITX2 obtained the highest saliency score. The CNN-GWAS did not show AF prediction power by SNPs with non-significant p value subset (AUC 0.56+/-0.01) despite larger numbers of SNPs. The CNN-GWAS had no prediction power for odd-even registration numbers (AUC 0.51+/-0.01). CONCLUSIONS: AF can be predicted by genetic information alone with moderate accuracy. The CNN-GWAS can be a robust and useful tool for detecting polygenic diseases by capturing the cumulative effects and genetic interactions of moderately associated but statistically significant SNPs. TRIAL REGISTRATION NUMBER: NCT02138695.",
+  "abstract_zh": "目的：我们先前在韩国人群中报告了与早发性心房颤动（AF）相关的遗传位点。本研究探讨了从外部大型队列的全基因组关联研究（GWAS）中选出的与AF相关的单核苷酸多态性（SNPs），是否通过卷积神经网络（CNN）对韩国人群的AF具有预测能力。方法：本研究纳入了来自韩国人群GWAS数据的6358名受试者（872例病例，5486例对照）。我们从三个先前报道的不同种族特异性GWAS中，按关联统计的每个p值阈值提取SNP列表。韩国GWAS数据被分为训练集（64%）、验证集（16%）和测试集（20%），并进行了分层K折交叉验证，在数据洗牌后重复五次。结果：基于日本GWAS的CNN-GWAS对AF的预测能力，其曲线下面积（AUC）为0.78±0.01；基于欧洲GWAS的AUC为0.79±0.01；基于多民族GWAS的AUC为0.82±0.01。梯度加权类激活映射为AF相关SNP分配了高显著性分数，其中PITX2获得了最高显著性分数。CNN-GWAS在非显著p值子集的SNP中未显示出AF预测能力（AUC 0.56±0.01），尽管SNP数量更多。CNN-GWAS对奇偶登记号没有预测能力（AUC 0.51±0.01）。结论：仅凭遗传信息即可中等精度地预测AF。CNN-GWAS通过捕捉中度相关但统计显著的SNP的累积效应和遗传相互作用，可成为检测多基因疾病的稳健且有用的工具。试验注册号：NCT02138695。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35086918/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35086918/",
+  "paper_page_path": "papers/pubmed/35086918/index.html"
+}

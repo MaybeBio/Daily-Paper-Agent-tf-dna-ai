@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42136208",
+  "title": "Integrating Multi-omics, Mendelian Randomization, and Experimental Validation to Unveil the Role of Traditional Chinese Medicine in Postmenopausal Osteoporosis.",
+  "authors": "Xiao, Hefang; Wang, Yaobin; Chen, Yi; Geng, Bin; Xia, Yayi",
+  "journal": "Current computer-aided drug design",
+  "published_date": "2026-05-15",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过多组学与孟德尔随机化分析骨质疏松相关基因，仅涉及转录因子识别和分子对接，缺乏TF-DNA互作建模与AI/物理模拟方法，与课题关联较弱。",
+  "abstract": "INTRODUCTION: Postmenopausal Osteoporosis (PMOP) is an age-related disease prevalent among elderly women, characterized by decreased bone density and increased fracture risk. This study investigates the mechanisms of traditional Chinese medicine (TCM) in treating PMOP. METHODS: We analyzed bulk transcriptome data (GSE56815) and scRNA-seq data (GSE169396) using a range of bioinformatics techniques, including WGCNA, co-expression analysis, proteinprotein interaction (PPI) analysis, and immune infiltration. Transcription factor interactions and protein pathway involvement were explored. The TwoSampleMR package and SMR database were utilized for Mendelian randomization analysis. Molecular docking was performed using beta-carotene from Eucommia ulmoides Oliv as a ligand and CTNNB1 as a receptor to validate drug-target binding. RESULTS AND DISCUSSION: The study identified five key genes (PPP3CA, CTNNB1, NCOA2, NPEPPS, and ADRB) with AUC values above 0.7, which are involved in critical cellular and immune processes related to PMOP. Immune infiltration analysis emphasized the role of Tregs and correlated specific genes with various immune cells. Key transcription factors, including ELK1, SREBF1, PRRX2, FOXC1, and FOXL1, were identified as regulators of CTNNB1. Single- cell analysis revealed CTNNB1's predominant distribution in osteoclastic cells. Mendelian randomization analysis demonstrated a causal relationship between CTNNB1 and osteoporosis (OR=0.950431762, P =6.45E-17). Additionally, animal PCR results validated the expression of the key gene CTNNB1. These results suggest that CTNNB1 related pathways may play a role in the therapeutic effects of traditional Chinese medicine in PMOP. CONCLUSION: Our study sheds light on five critical targets related to PMOP progression. We found that TCM potentially modulates the miR-139-3p/ELK1/CTNNB1 axis within the noncanonical Wnt pathway, impacting osteoblast differentiation and providing therapeutic benefits for PMOP.",
+  "abstract_zh": "引言：绝经后骨质疏松症（PMOP）是一种在老年女性中常见的年龄相关疾病，其特征为骨密度降低和骨折风险增加。本研究探讨了中药（TCM）治疗PMOP的机制。方法：我们利用多种生物信息学技术，包括WGCNA、共表达分析、蛋白质-蛋白质相互作用（PPI）分析和免疫浸润，分析了批量转录组数据（GSE56815）和单细胞RNA测序数据（GSE169396）。探讨了转录因子相互作用和蛋白质通路参与情况。利用TwoSampleMR包和SMR数据库进行孟德尔随机化分析。以杜仲中的β-胡萝卜素作为配体，CTNNB1作为受体进行分子对接，以验证药物-靶点结合。结果与讨论：研究识别出五个关键基因（PPP3CA、CTNNB1、NCOA2、NPEPPS和ADRB），其AUC值均高于0.7，这些基因参与与PMOP相关的关键细胞和免疫过程。免疫浸润分析强调了Tregs的作用，并将特定基因与多种免疫细胞相关联。关键转录因子，包括ELK1、SREBF1、PRRX2、FOXC1和FOXL1，被确定为CTNNB1的调控因子。单细胞分析显示CTNNB1主要在破骨细胞中分布。孟德尔随机化分析证明了CTNNB1与骨质疏松症之间的因果关系（OR=0.950431762，P=6.45E-17）。此外，动物PCR结果验证了关键基因CTNNB1的表达。这些结果表明，CTNNB1相关通路可能在中药治疗PMOP的疗效中发挥作用。结论：我们的研究揭示了与PMOP进展相关的五个关键靶点。我们发现中药可能通过调节非经典Wnt通路中的miR-139-3p/ELK1/CTNNB1轴，影响成骨细胞分化，从而为PMOP提供治疗益处。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42136208/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42136208/",
+  "paper_page_path": "papers/pubmed/42136208/index.html"
+}

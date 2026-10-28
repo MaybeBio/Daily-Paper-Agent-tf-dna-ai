@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42395443",
+  "title": "Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B cells.",
+  "authors": "Karbalayghareh, Alireza; Pelzer, Benedikt; Chin, Christopher R; Melnick, Ari; Barisic, Darko; Leslie, Christina S",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-07-03",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用生成神经ODE模型学习单细胞多组学中基因表达与TF基序活性的联合动态，虽涉及TF活性与调控网络，但核心是细胞状态动态与扰动预测，而非TF-DNA三维互作建模，方法可迁移但对象与互作轴匹配度中等。",
+  "abstract": "We present DynaVelo, a generative neural ordinary differential equation model that learns the joint dynamics of gene expression and transcription factor (TF) motif activities in evolving cell systems using single-cell multiome with joint gene expression and chromatin accesibility readout. DynaVelo leverages partial RNA velocity information together with single-cell TF motif accessibility data to improve the modeling of cell state dynamics and identification of TF drivers. We show that DynaVelo recovers the complex and bifurcating in vivo dynamics of wildtype murine germinal center (GC) B cells and reveals how these cell dynamics change under loss-of-function mutations in epigenetic regulators Arid1a and Ctcf. DynaVelo resolves how TF motif activities evolve along latent time trajectories using analysis of training cells or through generated trajectories from the model. In silico perturbation analysis further enables DynaVelo to infer dynamic and cell-state-specific gene regulatory networks (GRNs), recovering many known TF-to-gene edges in the wildtype GC GRN and predicting those that are disrupted in mutants. Finally, in silico gene and TF perturbations allow both the prediction of cell dynamics under loss-of-function genetic mutations and the identification of TF perturbations to rescue loss-of-function dynamic and immunological phenotypes. This analysis predicted that Ctcf knockout would rescue Arid1a loss-of-function phenotype in the GC reaction and nominated Bcl6 and Stat3 as additional TFs whose knockout would rescue Arid1a loss. We validated these predictions in vivo using double heterozygous mutant mice, confirming rescue of the Arid1a dark zone phenotype in all cases and quantitatively assessing model predictions using multiome in Arid1aHet;CtcfHet double heterozygous mice. DynaVelo therefore provides a powerful new deep learning framework for modeling and perturbing dynamic cell systems by harnessing single-cell multiome data sets.",
+  "abstract_zh": "我们提出了DynaVelo，一种生成式神经常微分方程模型，它利用单细胞多组学数据（联合基因表达与染色质可及性读数）学习演化细胞系统中基因表达与转录因子（TF）基序活性的联合动态。DynaVelo利用部分RNA速度信息以及单细胞TF基序可及性数据，以改进细胞状态动态建模和TF驱动因子的识别。我们展示了DynaVelo能够恢复野生型小鼠生发中心（GC）B细胞的复杂且分叉的体内动态，并揭示这些细胞动态在表观遗传调控因子Arid1a和Ctcf的功能缺失突变下如何变化。DynaVelo通过分析训练细胞或利用模型生成的轨迹，解析了TF基序活性沿潜在时间轨迹的演化。进一步的计算机模拟扰动分析使DynaVelo能够推断动态且细胞状态特异性的基因调控网络（GRNs），恢复野生型GC GRN中许多已知的TF到基因的边，并预测突变体中这些边被破坏的情况。最后，计算机模拟的基因和TF扰动允许预测功能缺失遗传突变下的细胞动态，并识别TF扰动以挽救功能缺失的动态和免疫学表型。该分析预测Ctcf敲除将挽救GC反应中Arid1a功能缺失的表型，并提名Bcl6和Stat3作为额外的TF，其敲除将挽救Arid1a缺失。我们使用双杂合突变小鼠在体内验证了这些预测，确认在所有情况下Arid1a暗区表型的挽救，并使用Arid1aHet;CtcfHet双杂合小鼠的多组学数据定量评估模型预测。因此，DynaVelo通过利用单细胞多组学数据集，为建模和扰动动态细胞系统提供了一个强大的新深度学习框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42395443/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42395443/",
+  "paper_page_path": "papers/pubmed/42395443/index.html"
+}

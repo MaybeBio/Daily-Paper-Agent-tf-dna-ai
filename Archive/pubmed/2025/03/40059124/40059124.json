@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "40059124",
+    "doi": "10.1007/s00204-025-03990-9",
+    "title": "Integrative genome-wide aberrant DNA methylation and transcriptome analysis identifies diagnostic markers for colorectal cancer."
+  },
+  "content": {
+    "abstract": "Colorectal cancer remains a major cause of cancer mortality, with limited sensitivity in current diagnostics. Aberrant DNA methylation in expression-regulating sites shows biomarker potential, though few studies explore such methylation-based diagnostic tools for colorectal cancer. We conducted genome-wide DNA methylation and RNA sequencing on matched colorectal cancer and normal tissues to identify expression-related differentially methylated CpG sites (DMCs). Diagnostic models were constructed with training and validation sets of 689 samples. Machine learning techniques (random forest, elastic net, support vector machine) were employed to identify optimal diagnostic markers. Methylation-specific PCR confirmed marker-host gene regulatory relationships, and targeted bisulfite sequencing validated these markers in an independent cohort of 200 samples. Host genes roles in colorectal cancer pathogenesis were further investigated through in vivo and in vitro assays and tissue microarray analysis. We identified 64,824 DMCs in colorectal cancer, with 442 associated with gene expression. These sites impact transcription factor binding, and their host genes are linked to chemotherapy resistance. Diagnostic panels showed high efficacy, with methylation changes significantly impacting RNA and protein expression of host genes. Markers cg16851417, cg19498960, and cg16302790 were validated in blood for noninvasive screening. Clustering expression-related DMCs with similar methylation patterns may facilitate diagnostic tools development. Host genes SIM2, PDX1, and TNS4 influence colorectal cancer progression and may impact therapy response. Expression-related DMCs hold strong potential as colorectal cancer biomarkers, with implications for prognosis and therapy. The specific expression patterns of these DMCs in host genes support development of non-invasive blood-based diagnostic tools.",
+    "keywords": [
+      "Colorectal cancer",
+      "DNA methylation",
+      "Diagnostic biomarkers",
+      "Multi-omics analysis",
+      "Targeted bisulfite sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation",
+      "*Colorectal Neoplasms/genetics/diagnosis",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "CpG Islands",
+      "Male",
+      "Transcriptome",
+      "Female",
+      "Genome-Wide Association Study",
+      "Machine Learning",
+      "Middle Aged",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Hengyang",
+        "Wang, Zhenling",
+        "Chen, Yang",
+        "Huang, Changzhi",
+        "Xu, Lei",
+        "Tong, Ying",
+        "Zhang, Hongqiang",
+        "Lu, Yunfei",
+        "Li, Shuwei",
+        "Fu, Zan"
+      ],
+      "short_names": [
+        "Shen H",
+        "Wang Z",
+        "Chen Y",
+        "Huang C",
+        "Xu L",
+        "Tong Y",
+        "Zhang H",
+        "Lu Y",
+        "Li S",
+        "Fu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3397-0770"
+      ],
+      "affiliations": [
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China.",
+        "Department of Genetic Toxicology, the Key Laboratory of Modern Toxicology of Ministry of Education, School of Public Health, Nanjing Medical University, 101 Longmian Avenue, Nanjing, 211166, Jiangsu, People's Republic of China. shuweili@njmu.edu.cn.",
+        "Department of Environmental Genomics, Jiangsu Key Laboratory of Cancer Biomarkers, Prevention and Treatment, Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing Medical University, Nanjing, People's Republic of China. shuweili@njmu.edu.cn.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China. fuzan1971@njmu.edu.cn.",
+        "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China. fuzan1971@njmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Hengyang",
+        "short_name": "Shen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhenling",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Changzhi",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tong, Ying",
+        "short_name": "Tong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongqiang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yunfei",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Shuwei",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Toxicology, the Key Laboratory of Modern Toxicology of Ministry of Education, School of Public Health, Nanjing Medical University, 101 Longmian Avenue, Nanjing, 211166, Jiangsu, People's Republic of China. shuweili@njmu.edu.cn.",
+          "Department of Environmental Genomics, Jiangsu Key Laboratory of Cancer Biomarkers, Prevention and Treatment, Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing Medical University, Nanjing, People's Republic of China. shuweili@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fu, Zan",
+        "short_name": "Fu Z",
+        "identifiers": [
+          "0000-0002-3397-0770"
+        ],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanjing Medical University, 300 Guangzhou Road, Nanjing, 210009, Jiangsu, People's Republic of China. fuzan1971@njmu.edu.cn.",
+          "The First School of Clinical Medicine, Nanjing Medical University, Nanjing, Jiangsu, People's Republic of China. fuzan1971@njmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of toxicology"
+    ],
+    "journal_abbrev": [
+      "Arch Toxicol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 08:00",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [
+      "41681962",
+      "41036476",
+      "40312703"
+    ],
+    "refs": [
+      "39557310",
+      "38760334",
+      "38741204",
+      "38602535",
+      "38536911",
+      "38533566",
+      "38499079",
+      "38480537",
+      "38448820",
+      "37582362",
+      "37550304",
+      "37206360",
+      "36921601",
+      "36795966",
+      "36604116",
+      "36158666",
+      "35210398",
+      "35169223",
+      "35121966",
+      "34790902",
+      "33657038",
+      "33600806",
+      "33514701",
+      "33036415",
+      "32732965",
+      "32610068",
+      "32269342",
+      "31198475",
+      "30670627",
+      "30377193",
+      "29666440",
+      "29140473",
+      "29099566",
+      "28961746",
+      "28225755",
+      "24273214",
+      "23408352",
+      "23180760",
+      "22356323",
+      "20513432",
+      "18089654",
+      "16129820",
+      "15706433",
+      "15028942",
+      "12676991",
+      "12424112"
+    ],
+    "similar": [
+      "40059124",
+      "30999858",
+      "34366718",
+      "30846004",
+      "40565513",
+      "29686738",
+      "24485021",
+      "28058013",
+      "24441198",
+      "30672027",
+      "39244604",
+      "31762318",
+      "28351398",
+      "27566576",
+      "32317010",
+      "39235559",
+      "36057424",
+      "35202405",
+      "35169223",
+      "38730335",
+      "35210398",
+      "20618997",
+      "39456830",
+      "25472652",
+      "22038115",
+      "23209692",
+      "30904169",
+      "28270869",
+      "33859751",
+      "35114976",
+      "32407802",
+      "21298349",
+      "41190067",
+      "25997610",
+      "30993897",
+      "29225717",
+      "28537885",
+      "40860669",
+      "39199384",
+      "29507648",
+      "29270239",
+      "37770864",
+      "30931802",
+      "37400791",
+      "30081852",
+      "37779184",
+      "30286088",
+      "31727158",
+      "35974349",
+      "30358834",
+      "24282031",
+      "39487820",
+      "33203797",
+      "30866861",
+      "39265763",
+      "40598468",
+      "41220580",
+      "41044679",
+      "20423473",
+      "23867710",
+      "32599859",
+      "37501075",
+      "25366420",
+      "27255996",
+      "30987631",
+      "26438392",
+      "28174608",
+      "39819319",
+      "32398064",
+      "22284968",
+      "22581028",
+      "34591983",
+      "33826760",
+      "39350171",
+      "32970347",
+      "41309949",
+      "15526363",
+      "31833403",
+      "22901147",
+      "31334584",
+      "33444882",
+      "41125735",
+      "25985232",
+      "29027401",
+      "40441683",
+      "32412047",
+      "26239918",
+      "27966796",
+      "33741694",
+      "34369258",
+      "29717273",
+      "28754720",
+      "24793120",
+      "30954552",
+      "39496833",
+      "22552777",
+      "25127039",
+      "30413173",
+      "27102979",
+      "30449607"
+    ],
+    "review": [
+      "40059124",
+      "27102979"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s00204-025-03990-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

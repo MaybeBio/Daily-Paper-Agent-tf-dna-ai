@@ -1,0 +1,246 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.30.621056",
+  "title": "AlphaFold 2, but not AlphaFold 3, predicts confident but unrealistic β-solenoid structures for repeat proteins",
+  "doi": "10.1101/2024.10.30.621056",
+  "abstract": "AlphaFold 2 has revolutionised protein structure prediction but, like any new tool, its performance on specific classes of targets, especially those potentially under- represented in its training data, merits attention. Prompted by a highly confident prediction for a biologically meaningless, scrambled repeat sequence, we assessed AF2 performance on sequences comprised perfect repeats of random sequences of different lengths. AF2 frequently folds such sequences into β-solenoids which, while ascribed high confidence, contain unusual and implausible features such as internally stacked and uncompensated charged residues. A number of sequences confidently predicted as β-solenoids are predicted by other advanced methods as intrinsically disordered. The instability of some predictions is demonstrated by Molecular Dynamics. Importantly, other Deep Learning-based structure prediction tools predict different structures or β-solenoids with much lower confidence suggesting that AF2 alone has an unreasonable tendency to predict confident but unrealistic β-solenoids for perfect repeat sequences. The potential implications for structure prediction of natural (near-)perfect sequence repeat proteins are also explored.",
+  "authors": [
+    "Pratt OS",
+    "Elliott LG",
+    "Haon M",
+    "Mesdaghi S",
+    "Price RM",
+    "Simpkin AJ",
+    "Rigden DJ"
+  ],
+  "published_date": "2024-10-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621056",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621056.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR933452",
+    "raw_record": {
+      "id": "PPR933452",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR933452"
+        ]
+      },
+      "doi": "10.1101/2024.10.30.621056",
+      "title": "AlphaFold 2, but not AlphaFold 3, predicts confident but unrealistic β-solenoid structures for repeat proteins",
+      "authorString": "Pratt OS, Elliott LG, Haon M, Mesdaghi S, Price RM, Simpkin AJ, Rigden DJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pratt OS",
+            "lastName": "Pratt",
+            "firstName": "Olivia",
+            "initials": "OS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology; Institute of Structural, Molecular and Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Elliott LG",
+            "lastName": "Elliott",
+            "firstName": "Luc",
+            "initials": "LG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology; Institute of Structural, Molecular and Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haon M",
+            "lastName": "Haon",
+            "firstName": "Margaux",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology; Institute of Structural, Molecular and Integrative Biology, , Crown Street , ,"
+                },
+                {
+                  "affiliation": "Department of Chemistry, , Crown Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mesdaghi S",
+            "lastName": "Mesdaghi",
+            "firstName": "Shahram",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology; Institute of Structural, Molecular and Integrative Biology, , Crown Street , ,"
+                },
+                {
+                  "affiliation": "Computational Biology Facility, MerseyBio, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Price RM",
+            "lastName": "Price",
+            "firstName": "Rebecca",
+            "initials": "RM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology; Institute of Structural, Molecular and Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simpkin AJ",
+            "lastName": "Simpkin",
+            "firstName": "Adam",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology; Institute of Structural, Molecular and Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rigden DJ",
+            "lastName": "Rigden",
+            "firstName": "Daniel",
+            "initials": "DJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7565-8937"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology; Institute of Structural, Molecular and Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7565-8937"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "AlphaFold 2 has revolutionised protein structure prediction but, like any new tool, its performance on specific classes of targets, especially those potentially under- represented in its training data, merits attention. Prompted by a highly confident prediction for a biologically meaningless, scrambled repeat sequence, we assessed AF2 performance on sequences comprised perfect repeats of random sequences of different lengths. AF2 frequently folds such sequences into β-solenoids which, while ascribed high confidence, contain unusual and implausible features such as internally stacked and uncompensated charged residues. A number of sequences confidently predicted as β-solenoids are predicted by other advanced methods as intrinsically disordered. The instability of some predictions is demonstrated by Molecular Dynamics. Importantly, other Deep Learning-based structure prediction tools predict different structures or β-solenoids with much lower confidence suggesting that AF2 alone has an unreasonable tendency to predict confident but unrealistic β-solenoids for perfect repeat sequences. The potential implications for structure prediction of natural (near-)perfect sequence repeat proteins are also explored.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.30.621056"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.30.621056"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR933452"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR933452&type=FILE&fileName=EMS199807-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39911842",
+            "reference": "Computational and structural biotechnology journal. 2025 ;27:467-477",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199807",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-11-02",
+      "firstPublicationDate": "2024-10-30",
+      "firstIndexDate": "2024-11-02",
+      "fullTextReceivedDate": "2024-11-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

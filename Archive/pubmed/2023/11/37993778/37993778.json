@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "37993778",
+    "doi": "10.1186/s12859-023-05560-1",
+    "title": "MiREx: mRNA levels prediction from gene sequence and miRNA target knowledge."
+  },
+  "content": {
+    "abstract": "Messenger RNA (mRNA) has an essential role in the protein production process. Predicting mRNA expression levels accurately is crucial for understanding gene regulation, and various models (statistical and neural network-based) have been developed for this purpose. A few models predict mRNA expression levels from the DNA sequence, exploiting the DNA sequence and gene features (e.g., number of exons/introns, gene length). Other models include information about long-range interaction molecules (i.e., enhancers/silencers) and transcriptional regulators as predictive features, such as transcription factors (TFs) and small RNAs (e.g., microRNAs - miRNAs). Recently, a convolutional neural network (CNN) model, called Xpresso, has been proposed for mRNA expression level prediction leveraging the promoter sequence and mRNAs' half-life features (gene features). To push forward the mRNA level prediction, we present miREx, a CNN-based tool that includes information about miRNA targets and expression levels in the model. Indeed, each miRNA can target specific genes, and the model exploits this information to guide the learning process. In detail, not all miRNAs are included, only a selected subset with the highest impact on the model. MiREx has been evaluated on four cancer primary sites from the genomics data commons (GDC) database: lung, kidney, breast, and corpus uteri. Results show that mRNA level prediction benefits from selected miRNA targets and expression information. Future model developments could include other transcriptional regulators or be trained with proteomics data to infer protein levels.",
+    "keywords": [
+      "CNN",
+      "DNA",
+      "Gene expression levels",
+      "MiRNAs",
+      "Promoter",
+      "Sequence"
+    ],
+    "mesh_terms": [
+      "*MicroRNAs/genetics",
+      "RNA, Messenger/genetics",
+      "Mirex",
+      "Gene Expression Regulation",
+      "Transcription Factors/genetics",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pianfetti, Elena",
+        "Lovino, Marta",
+        "Ficarra, Elisa",
+        "Martignetti, Loredana"
+      ],
+      "short_names": [
+        "Pianfetti E",
+        "Lovino M",
+        "Ficarra E",
+        "Martignetti L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Engineering, University of Modena and Reggio Emilia, Via Vivarelli 10/1, Modena, 41225, Italy.",
+        "Department of Engineering, University of Modena and Reggio Emilia, Via Vivarelli 10/1, Modena, 41225, Italy. marta.lovino@unimore.it.",
+        "Department of Engineering, University of Modena and Reggio Emilia, Via Vivarelli 10/1, Modena, 41225, Italy.",
+        "Institut Curie, Rue d'Ulm 26, Paris, 75005, France. loredana.martignetti@curie.fr.",
+        "Inserm U900, Paris, France. loredana.martignetti@curie.fr.",
+        "CBIO-Centre for Computational Biology, Paris, France. loredana.martignetti@curie.fr.",
+        "PSL Research University, Paris, France. loredana.martignetti@curie.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pianfetti, Elena",
+        "short_name": "Pianfetti E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering, University of Modena and Reggio Emilia, Via Vivarelli 10/1, Modena, 41225, Italy."
+        ]
+      },
+      {
+        "full_name": "Lovino, Marta",
+        "short_name": "Lovino M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering, University of Modena and Reggio Emilia, Via Vivarelli 10/1, Modena, 41225, Italy. marta.lovino@unimore.it."
+        ]
+      },
+      {
+        "full_name": "Ficarra, Elisa",
+        "short_name": "Ficarra E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering, University of Modena and Reggio Emilia, Via Vivarelli 10/1, Modena, 41225, Italy."
+        ]
+      },
+      {
+        "full_name": "Martignetti, Loredana",
+        "short_name": "Martignetti L",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, Rue d'Ulm 26, Paris, 75005, France. loredana.martignetti@curie.fr.",
+          "Inserm U900, Paris, France. loredana.martignetti@curie.fr.",
+          "CBIO-Centre for Computational Biology, Paris, France. loredana.martignetti@curie.fr.",
+          "PSL Research University, Paris, France. loredana.martignetti@curie.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2023 Nov 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/23 00:42",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "42275459",
+      "40768347",
+      "39776246"
+    ],
+    "refs": [
+      "37004267",
+      "35970054",
+      "35421087",
+      "34608324",
+      "32433972",
+      "31536900",
+      "30577536",
+      "30013180",
+      "29588361",
+      "29570994",
+      "29293496",
+      "28186907",
+      "27899623",
+      "27653561",
+      "27104977",
+      "26550300",
+      "26267216",
+      "25793370",
+      "24898878",
+      "24688849",
+      "24469051",
+      "24072873",
+      "22955978",
+      "22954627",
+      "22950368",
+      "22411467",
+      "21324173",
+      "20133639",
+      "19995984",
+      "19001483"
+    ],
+    "similar": [
+      "37993778",
+      "17971223",
+      "27064982",
+      "23246694",
+      "34840985",
+      "37004267",
+      "35757392",
+      "28439831",
+      "26459852",
+      "28600227",
+      "22815777",
+      "22692086",
+      "27449149",
+      "19229866",
+      "30138363",
+      "15345049",
+      "34871208",
+      "28540682",
+      "30598118",
+      "35877019",
+      "26130578",
+      "21595958",
+      "27207881",
+      "32433972",
+      "26572553",
+      "29226599",
+      "20122191",
+      "30602391",
+      "30249878",
+      "27766936",
+      "23619378",
+      "25807437",
+      "26611531",
+      "19671175",
+      "30876399",
+      "26536459",
+      "25086961",
+      "36352212",
+      "21694770",
+      "22703586",
+      "25087086",
+      "32481304",
+      "31784845",
+      "35322335",
+      "23335783",
+      "23497388",
+      "25443390",
+      "34722763",
+      "32369518",
+      "18485210",
+      "27874043",
+      "31443043",
+      "31747387",
+      "26416600",
+      "26270642",
+      "20664596",
+      "19435500",
+      "31127661",
+      "22260379",
+      "28056026",
+      "25707768",
+      "38280472",
+      "26716983",
+      "24824797",
+      "34280006",
+      "25433550",
+      "24689063",
+      "19864316",
+      "21736879",
+      "36264868",
+      "19643113",
+      "29868708",
+      "28715336",
+      "27998789",
+      "22300320",
+      "31785969",
+      "35970054",
+      "27494513",
+      "30963484",
+      "37165183",
+      "28498428",
+      "19463832",
+      "27035433",
+      "32547551",
+      "34530741",
+      "20205738",
+      "23721325",
+      "25546151",
+      "21153515",
+      "34677573",
+      "21143779",
+      "27142172",
+      "32211130"
+    ],
+    "review": [
+      "37993778",
+      "32481304",
+      "34530741",
+      "21153515"
+    ],
+    "pmc": [
+      "10666312"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05560-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37993778/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37993778",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

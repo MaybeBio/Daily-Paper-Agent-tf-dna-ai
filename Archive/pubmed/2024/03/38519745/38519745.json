@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "38519745",
+    "doi": "10.1111/cyt.13373",
+    "title": "Artificial intelligence algorithm accurately assesses oestrogen receptor immunohistochemistry in metastatic breast cancer cytology specimens: A pilot study."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The Visiopharm artificial intelligence (AI) algorithm for oestrogen receptor (ER) immunohistochemistry (IHC) in whole slide images (WSIs) has been successfully validated in surgical pathology. This study aimed to assess its efficacy in cytology specimens. METHODS: The study cohort comprised 105 consecutive cytology specimens with metastatic breast carcinoma. ER IHC WSIs were seamlessly integrated into the Visiopharm platform from the Image Management System (IMS) during our routine digital workflow, and an AI algorithm was employed for analysis. ER AI scores were compared with pathologists' manual consensus scores. Optimization steps were implemented and evaluated to reduce discordance. RESULTS: The overall concordance between pathologists' scores and AI scores was excellent (99/105, 94.3%). Six cases exhibited discordant results, including two false-negative (FN) cases due to abundant histiocytes incorrectly counted as negatively stained tumour cells by AI, two FN cases owing to weak staining, and two false-positive (FP) cases where pigmented macrophages were erroneously counted as positively stained tumour cells by AI. The Pearson correlation coefficient of ER-positive percentages between pathologists' and AI scores was 0.8483. Optimization steps, such as lowering the cut-off threshold and additional training using higher input magnification, significantly improved accuracy. CONCLUSIONS: The automated ER AI algorithm demonstrated excellent concordance with pathologists' assessments and accurately differentiated ER-positive from ER-negative metastatic breast carcinoma cytology cases. However, precision in identifying tumour cells in cytology specimens requires further enhancement.",
+    "keywords": [
+      "artificial intelligence",
+      "breast cancer",
+      "cytology",
+      "digital image analysis",
+      "immunohistochemistry",
+      "oestrogen receptor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/pathology/diagnosis",
+      "Female",
+      "*Receptors, Estrogen/metabolism",
+      "*Immunohistochemistry/methods",
+      "*Algorithms",
+      "*Artificial Intelligence",
+      "Pilot Projects",
+      "*Cytodiagnosis/methods",
+      "Neoplasm Metastasis",
+      "Middle Aged",
+      "Adult",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Brenna C",
+        "Hammond, Scott",
+        "Parwani, Anil V",
+        "Shen, Rulong"
+      ],
+      "short_names": [
+        "Li BC",
+        "Hammond S",
+        "Parwani AV",
+        "Shen R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8143-2582"
+      ],
+      "affiliations": [
+        "Dublin Jerome High School, Dublin, Ohio, USA.",
+        "Department of Pathology, Wexner Medical Center, The Ohio State University, Columbus, Ohio, USA.",
+        "Department of Pathology, Wexner Medical Center, The Ohio State University, Columbus, Ohio, USA.",
+        "Department of Pathology, Wexner Medical Center, The Ohio State University, Columbus, Ohio, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Brenna C",
+        "short_name": "Li BC",
+        "identifiers": [],
+        "affiliations": [
+          "Dublin Jerome High School, Dublin, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Hammond, Scott",
+        "short_name": "Hammond S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wexner Medical Center, The Ohio State University, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Parwani, Anil V",
+        "short_name": "Parwani AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wexner Medical Center, The Ohio State University, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, Rulong",
+        "short_name": "Shen R",
+        "identifiers": [
+          "0000-0001-8143-2582"
+        ],
+        "affiliations": [
+          "Department of Pathology, Wexner Medical Center, The Ohio State University, Columbus, Ohio, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cytopathology : official journal of the British Society for Clinical Cytology"
+    ],
+    "journal_abbrev": [
+      "Cytopathology"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/23 20:42",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "42592487",
+      "41860812",
+      "41744886"
+    ],
+    "refs": [],
+    "similar": [
+      "38519745",
+      "36268080",
+      "38395930",
+      "37178923",
+      "41845525",
+      "38433072",
+      "38065702",
+      "18947395",
+      "31348505",
+      "35727052",
+      "39393036",
+      "32154039",
+      "39350085",
+      "40645910",
+      "40240237",
+      "22783929",
+      "39053133",
+      "36931740",
+      "28677240",
+      "27729430",
+      "38809272",
+      "21375607",
+      "39004603",
+      "36788100",
+      "39539960",
+      "39241826",
+      "39143539",
+      "26413911",
+      "33328045",
+      "34875014",
+      "28630050",
+      "32803890",
+      "30066060",
+      "42144873",
+      "36611460",
+      "12559071",
+      "41232833",
+      "40132671",
+      "38937624",
+      "34279719",
+      "21223801",
+      "26493985",
+      "41270247",
+      "40694190",
+      "21709197",
+      "28472544",
+      "7962603",
+      "41905185",
+      "8756370",
+      "38852812",
+      "40036728",
+      "34518629",
+      "26410019",
+      "40387263",
+      "41489584",
+      "20529811",
+      "27349894",
+      "41334895",
+      "39207803",
+      "38201594",
+      "35271701",
+      "38648759",
+      "21943197",
+      "36055933",
+      "40143808",
+      "29234806",
+      "27666130",
+      "36800539",
+      "36553102",
+      "41757801",
+      "36893772",
+      "21244664",
+      "32758491",
+      "38217716",
+      "36330383",
+      "17912629",
+      "40528232",
+      "39705612",
+      "37100542",
+      "23329232",
+      "27029805",
+      "31640622",
+      "32578891",
+      "38747491",
+      "39724961",
+      "37286323",
+      "41103138",
+      "38477366",
+      "39496910",
+      "23154769",
+      "10589046",
+      "32622359",
+      "39419594",
+      "35660765",
+      "26348443",
+      "7492518",
+      "38441847",
+      "30337080",
+      "34730818",
+      "29588372"
+    ],
+    "review": [
+      "38519745",
+      "39053133",
+      "36800539"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38519745.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/cyt.13373",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1122",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

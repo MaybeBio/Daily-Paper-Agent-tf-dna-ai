@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36199141",
+  "title": "Accurate prediction of functional states of cis-regulatory modules reveals common epigenetic rules in humans and mice.",
+  "authors": "Ni, Pengyu; Moe, Joshua; Su, Zhengchang",
+  "journal": "BMC biology",
+  "published_date": "2022-10-06",
+  "window": {
+    "start": "2022-10-03",
+    "end": "2022-10-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习预测顺式调控模块的功能状态，虽涉及转录因子ChIP-seq数据，但核心是表观遗传标记分类，未聚焦TF-DNA结合位点预测或互作机制建模，方法为传统机器学习，与课题关联较弱。",
+  "abstract": "BACKGROUND: Predicting cis-regulatory modules (CRMs) in a genome and their functional states in various cell/tissue types of the organism are two related challenging computational tasks. Most current methods attempt to simultaneously achieve both using data of multiple epigenetic marks in a cell/tissue type. Though conceptually attractive, they suffer high false discovery rates and limited applications. To fill the gaps, we proposed a two-step strategy to first predict a map of CRMs in the genome, and then predict functional states of all the CRMs in various cell/tissue types of the organism. We have recently developed an algorithm for the first step that was able to more accurately and completely predict CRMs in a genome than existing methods by integrating numerous transcription factor ChIP-seq datasets in the organism. Here, we presented machine-learning methods for the second step. RESULTS: We showed that functional states in a cell/tissue type of all the CRMs in the genome could be accurately predicted using data of only 1~4 epigenetic marks by a variety of machine-learning classifiers. Our predictions are substantially more accurate than the best achieved so far. Interestingly, a model trained on a cell/tissue type in humans can accurately predict functional states of CRMs in different cell/tissue types of humans as well as of mice, and vice versa. Therefore, epigenetic code that defines functional states of CRMs in various cell/tissue types is universal at least in humans and mice. Moreover, we found that from tens to hundreds of thousands of CRMs were active in a human and mouse cell/tissue type, and up to 99.98% of them were reutilized in different cell/tissue types, while as small as 0.02% of them were unique to a cell/tissue type that might define the cell/tissue type. CONCLUSIONS: Our two-step approach can accurately predict functional states in any cell/tissue type of all the CRMs in the genome using data of only 1~4 epigenetic marks. Our approach is also more cost-effective than existing methods that typically use data of more epigenetic marks. Our results suggest common epigenetic rules for defining functional states of CRMs in various cell/tissue types in humans and mice.",
+  "abstract_zh": "背景：预测基因组中的顺式调控模块（cis-regulatory modules, CRMs）及其在生物体不同细胞/组织类型中的功能状态，是两个相关的具有挑战性的计算任务。大多数现有方法试图通过使用细胞/组织类型中多种表观遗传标记的数据同时实现这两个目标。尽管概念上具有吸引力，但这些方法存在高假阳性率和应用受限的问题。为填补这些空白，我们提出了一种两步策略：首先预测基因组中的CRM图谱，然后预测该生物体不同细胞/组织类型中所有CRM的功能状态。我们最近开发了一种用于第一步的算法，通过整合生物体中大量转录因子ChIP-seq数据集，能够比现有方法更准确、更完整地预测基因组中的CRM。在此，我们提出了用于第二步的机器学习方法。结果：我们表明，仅使用1~4种表观遗传标记的数据，通过多种机器学习分类器，可以准确预测基因组中所有CRM在某一细胞/组织类型中的功能状态。我们的预测显著优于目前最佳结果。有趣的是，在人类某一细胞/组织类型上训练的模型能够准确预测人类以及小鼠不同细胞/组织类型中CRM的功能状态，反之亦然。因此，定义CRM在不同细胞/组织类型中功能状态的表观遗传密码至少在人类和小鼠中是普遍存在的。此外，我们发现，在人类和小鼠的细胞/组织类型中，有数万至数十万个CRM处于活跃状态，其中高达99.98%的CRM在不同细胞/组织类型中被重复利用，而仅有0.02%的CRM是特定于某一细胞/组织类型的，这些可能定义了该细胞/组织类型的特性。结论：我们的两步方法仅使用1~4种表观遗传标记的数据，即可准确预测基因组中所有CRM在任何细胞/组织类型中的功能状态。与通常使用更多表观遗传标记数据的现有方法相比，我们的方法也更具成本效益。我们的结果表明，在人类和小鼠中，定义CRM在不同细胞/组织类型中功能状态存在共同的表观遗传规则。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36199141/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36199141/",
+  "paper_page_path": "papers/pubmed/36199141/index.html"
+}

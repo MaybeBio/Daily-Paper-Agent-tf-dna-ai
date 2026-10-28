@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, data availability) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and interpretability of results as presented in the supplied text
+- **Shared manuscript claim summary** The authors propose ESM-DBP, a domain-adaptively pretrained protein language model based on ESM2, trained on 170,264 non-redundant DNA-binding protein sequences. They claim improved prediction performance over the base ESM2 and over state-of-the-art methods across four DBP-related downstream tasks, and report interpretability via integrated gradients showing sensitivity to DNA-binding domains, plus robust generalization to low-homology proteins.
+- **Visible evidence base** Abstract, introduction, methods (benchmark datasets, pretraining procedure, architecture), results sections with references to Figures 1-5 and Table 1, conclusions, data availability statement
+- **Missing materials affecting confidence** Figures 1-5 and Table 1 are referenced but not provided in the supplied text. Numerical results are partially reported in text but full performance tables, statistical significance tests, and detailed experimental configurations are not available. The GitHub and HuggingFace links are mentioned but their contents cannot be verified from the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem: adapting general protein language models to a specific functional domain (DNA-binding proteins) via domain-adaptive pretraining. The core idea is reasonable and the four downstream tasks provide a broad evaluation. However, the evidence as presented is insufficient to fully support the strong claims of state-of-the-art performance and interpretability. Key experimental details, statistical validation, and direct comparisons are referenced but not shown in the supplied text. The work has potential, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, protein-DNA interaction modeling, and protein language model adaptation. Researchers developing domain-specific pretraining strategies for biological sequence models would also find the approach relevant. The interpretability analysis and generalization to low-homology proteins may interest those studying orphan proteins and functional annotation of understudied sequences.
+- **Major strengths** The domain-adaptive pretraining strategy is well motivated and addresses a genuine limitation of general PLMs. The evaluation across four distinct DBP-related tasks is comprehensive in scope. The inclusion of interpretability analysis via integrated gradients is a valuable addition often missing in similar studies. The focus on generalization to low-homology proteins addresses an important practical challenge.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that ESM-DBP "outperforms other state-of-the-art prediction methods" across all four tasks.
+  - **Evidence pointer** Figure 3, Table 1 (location not provided in supplied text)
+  - **Concern** The central performance claims are presented with reference to figures and tables that are not included in the supplied material. Without the actual comparison data, statistical significance tests, and full performance metrics, the claim of state-of-the-art performance cannot be independently assessed. The text provides some numerical values for ESM-DBP and ESM2 on the DBP task, but no comparison values for the 22 SOTA methods are given in the text.
+  - **Why it matters** The primary contribution of the manuscript is the claimed performance improvement. If the comparative data are not available for scrutiny, the core scientific claim is unverifiable from the provided evidence.
+  - **Resolution test** Provide the full Table 1 and Figure 3 with all SOTA method results, including confidence intervals or statistical significance tests. The comparison should be fair, with identical evaluation protocols across all methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript states that the pretraining data were filtered to remove sequences sharing high similarity with test sequences, but the exact procedure is not fully specified.
+  - **Evidence pointer** Materials and Methods, Benchmark datasets section
+  - **Concern** The description of the data filtering procedure is incomplete. The text states that CD-HIT with a cluster threshold of 0.4 was used to remove redundant sequences and those sharing high similarity with test sequences, but the precise threshold for test-sequence similarity, the direction of filtering, and whether this was applied consistently across all four downstream datasets are not specified. This is critical for preventing data leakage and ensuring that reported improvements are not due to train-test contamination.
+  - **Why it matters** Data leakage in pretraining can artificially inflate performance gains. Without a clear description of the filtering procedure, the validity of the reported improvements is uncertain.
+  - **Resolution test** Provide a detailed description of the filtering procedure, including the exact similarity threshold used for excluding test-similar sequences, whether this was applied per downstream dataset, and any validation that no test sequences or close homologs remain in the pretraining set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability claim
+  - **Claim pointer** The manuscript claims that integrated gradient analysis reveals that ESM-DBP's improved performance stems from emphasis on specific DNA-binding domains such as Homeobox and Fork-head.
+  - **Evidence pointer** Results, "ESM-DBP explores the DNA-binding domain" section, Figure 4
+  - **Concern** The interpretability analysis is described qualitatively. The text states that saliency scores are higher in DBD regions, but no quantitative metrics are provided to support this claim. There is no comparison of saliency patterns between ESM-DBP and the base ESM2, which would be necessary to attribute the improved performance specifically to enhanced DBD sensitivity. The claim that "not all residues in the DBD region have significant saliency scores" and that "only one residue is more prominently colored" on one protein suggests variability that is not systematically analyzed.
+  - **Why it matters** The interpretability analysis is presented as a key contribution. Without quantitative evaluation, such as enrichment scores of high-saliency residues within annotated DBDs compared to non-DBD regions, or a statistical test comparing ESM-DBP and ESM2 saliency distributions, the claim remains anecdotal.
+  - **Resolution test** Provide quantitative analysis of saliency scores, such as mean saliency within DBD versus non-DBD regions across a larger set of proteins, with statistical testing. Include a direct comparison of saliency patterns between ESM-DBP and ESM2 to demonstrate that the domain-adaptive pretraining specifically enhances DBD sensitivity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalization claim
+  - **Claim pointer** The manuscript claims that ESM-DBP performs well on proteins with few similar homologous sequences, demonstrating robust generalization.
+  - **Evidence pointer** Results, "ESM-DBP is good at generalizability" section, Figure 5
+  - **Concern** The analysis of generalization to low-homology proteins is described but the quantitative results are not fully presented in the text. The statement that "most other predictors show a significant decrease in prediction scores on low homology DBPs" is not accompanied by specific numbers. The three case studies are illustrative but not systematic. The definition of "low homology" is not precisely stated.
+  - **Why it matters** The generalization claim is important for practical applicability. Without clear quantitative evidence, including the distribution of homology levels in the test set, the performance of ESM-DBP versus baselines at different homology strata, and the criteria for categorizing low versus high homology, the claim is not fully supported.
+  - **Resolution test** Provide a stratified analysis of prediction performance by homology level, with clear definitions of homology categories, and quantitative comparisons between ESM-DBP, ESM2, and SOTA methods within each stratum.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title is grammatically awkward and may confuse readers. The phrase "Interpretable improving prediction performance" is not standard English.
+  - **Required correction** Revise to a clearer formulation, for example "Domain-adaptive pretraining of a general protein language model improves interpretable prediction of DNA-binding proteins."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, pretraining details
+  - **Evidence pointer** Materials and Methods, Domain-adaptive pretraining section
+  - **Issue** The text states that the loss function and optimizer are "consistent with ESM2" but does not specify the learning rate, batch size schedule, warmup steps, or other hyperparameters. The batch size of 100 is given, but training duration is only described in steps (51k) without clear relation to epochs over the 170,264-sequence dataset.
+  - **Required correction** Provide full hyperparameter details, including learning rate, optimizer settings, sequence length handling, and the relationship between steps and epochs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Downstream task descriptions
+  - **Evidence pointer** Materials and Methods, Benchmark datasets section
+  - **Issue** The downstream datasets are referenced from previous studies, but the text does not describe the evaluation metrics used for each task beyond the general mention of "7 detailed evaluation indexes" in Table 1. It is unclear whether the same metrics are used across all tasks and whether the evaluation protocols match those of the SOTA methods being compared.
+  - **Required correction** Specify the evaluation metrics for each downstream task and confirm that the evaluation protocols are identical to those used by the comparison methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance comparisons
+  - **Evidence pointer** Results, "Role of Domain-adaptive Pretraining on Performance" section
+  - **Concern** The text reports percentage improvements but does not mention whether these differences are statistically significant. Given the relatively small test sets (e.g., 382 positive DBP test samples), confidence intervals or significance tests would strengthen the claims.
+  - **Required correction** Add statistical significance testing or confidence intervals for the key performance comparisons.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2E description
+  - **Evidence pointer** Results, "Determining the number of parameters to be updated" section
+  - **Issue** The text describes a procedure for determining the number of updatable transformer blocks but does not state the criterion used to select 4 as the optimal number. It is unclear whether the choice was based on average performance across all four tasks or on a specific task.
+  - **Required correction** Clarify the selection criterion and whether the same number of updatable blocks was used for all downstream tasks.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing comparative data), R1-M2 (incomplete data leakage prevention description), R1-M3 (unquantified interpretability claims), R1-M4 (unquantified generalization claims)
+- **Assessment against Nature-style criteria** Originality: The idea of domain-adaptive pretraining for a specific protein function is not entirely new, but applying it specifically to DNA-binding proteins with evaluation across multiple related tasks is a reasonable contribution. Scientific importance: The problem of improving PLM performance for specific functional classes is relevant, and the potential for better low-homology prediction is valuable. However, the importance is moderated by the lack of fully presented evidence. Interdisciplinary readership: The work is primarily of interest to computational biology and bioinformatics audiences. The methods and findings are unlikely to attract broad interdisciplinary attention beyond these fields. Technical soundness: The approach is methodologically plausible, but the incomplete description of data filtering, hyperparameters, and statistical validation prevents full assessment. Readability for nonspecialists: The manuscript is written in a technical style appropriate for the target audience, but the title is awkward and some sections assume familiarity with PLM terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims require the missing figures, tables, and methodological details to be evaluated. The approach is promising and the direction is worthwhile, but the manuscript in its current form does not provide sufficient evidence to support the strong claims of state-of-the-art performance, interpretability, and generalization. Revision with full experimental details and quantitative results is necessary before the case can be assessed.
+
+## Risk / unsupported claims
+- The claim that ESM-DBP "outperforms other state-of-the-art prediction methods" across all four tasks is unsupported without the full comparison data in Figure 3 and Table 1.
+- The claim that integrated gradient analysis reveals that improved performance stems from emphasis on specific DBDs is unsupported without quantitative saliency analysis.
+- The claim that ESM-DBP generalizes well to low-homology proteins is partially supported by case studies but lacks systematic quantitative evidence.
+- The statement that "most other predictors show a significant decrease in prediction scores on low homology DBPs" is not supported by specific numerical data in the text.
+- The claim that ESM-DBP "far exceeds" existing methods is not quantifiable from the provided text.
+- The pretraining data filtering procedure is described but its adequacy for preventing data leakage cannot be assessed without more detail.
+- The selection criterion for choosing 4 updatable transformer blocks is not stated.

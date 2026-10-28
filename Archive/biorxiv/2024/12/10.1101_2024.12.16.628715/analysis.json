@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.16.628715",
+  "title": "Prediction of Gene Regulatory Connections with Joint Single-Cell Foundation Models and Graph-Based Learning",
+  "authors": "Kommu S; Wang Y; Wang Y; Wang X",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-20",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用单细胞基础模型和图学习预测基因调控连接，虽涉及TF-DNA结合数据但核心是GRN推断，方法可迁移至TF-DNA互作预测，但非直接聚焦三维互作机制。",
+  "abstract": "<h4>Motivation</h4> Single-cell RNA sequencing (scRNA-seq) data offers unprecedented opportunities to infer gene regulatory networks (GRNs) at a fine-grained resolution, shedding light on cellular phenotypes at the molecular level. However, the high sparsity, noise, and dropout events inherent in scRNA-seq data pose significant challenges for accurate and reliable GRN inference. The rapid growth in experimentally validated transcription factor-DNA binding data (e.g., ChIP-seq) has enabled supervised machine learning methods, which rely on known gene regulatory interactions to learn patterns, and achieve high accuracy in GRN inference by framing it as a gene regulatory link prediction task. This study addresses the gene regulatory link prediction problem by learning informative vectorized representations at the gene level to predict missing regulatory interactions. However, a higher performance of supervised learning methods requires a large amount of known TF-DNA binding data, which is often experimentally expensive and therefore limited in amount. Advances in large-scale pre-training and transfer learning provide a transformative opportunity to address this challenge. In this study, we leverage large-scale pre-trained models, trained on extensive scRNA-seq datasets and known as single-cell foundation models (scFMs). These models are combined with joint graph-based learning to establish a robust foundation for gene regulatory link prediction. <h4>Results</h4> We propose scRegNet, a novel and effective framework that leverages scFMs with joint graph-based learning for gene regulatory link prediction. scRegNet achieves state-of-the-art results in comparison with nine baseline methods on seven scRNA-seq benchmark datasets. In addition, scRegNet is more robust than the baseline methods on noisy training data. <h4>Availability</h4> The source code is available at https://github.com/sindhura-cs/scRegNet .",
+  "abstract_zh": "<h4>动机</h4> 单细胞RNA测序（scRNA-seq）数据为以细粒度分辨率推断基因调控网络（GRNs）提供了前所未有的机会，从而在分子水平上揭示细胞表型。然而，scRNA-seq数据固有的高稀疏性、噪声和缺失事件对准确可靠的GRN推断构成了重大挑战。实验验证的转录因子-DNA结合数据（如ChIP-seq）的快速增长使得监督机器学习方法成为可能，这些方法依赖已知的基因调控相互作用来学习模式，并通过将GRN推断构建为基因调控链接预测任务来实现高准确性。本研究通过学习基因水平的向量化表示来预测缺失的调控相互作用，从而解决基因调控链接预测问题。然而，监督学习方法的高性能需要大量已知的TF-DNA结合数据，而这些数据通常实验成本高昂，因此数量有限。大规模预训练和迁移学习的进展为解决这一挑战提供了变革性机会。在本研究中，我们利用大规模预训练模型，这些模型在广泛的scRNA-seq数据集上训练，被称为单细胞基础模型（scFMs）。这些模型与联合图学习相结合，为基因调控链接预测建立了稳健的基础。<h4>结果</h4> 我们提出了scRegNet，一种新颖且有效的框架，利用scFMs结合联合图学习进行基因调控链接预测。在七个scRNA-seq基准数据集上，scRegNet与九种基线方法相比取得了最先进的结果。此外，在噪声训练数据上，scRegNet比基线方法更具稳健性。<h4>可用性</h4> 源代码可在 https://github.com/sindhura-cs/scRegNet 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628715",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628715",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.16.628715/index.html"
+}

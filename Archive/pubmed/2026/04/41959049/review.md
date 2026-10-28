@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present BlueSTARR, a retrainable predictive modeling framework for scoring noncoding variant effects using whole-genome STARR-seq data from two cell lines and one drug treatment. They report evidence of purifying selection against both loss-of-function and gain-of-function regulatory variants, with a bias against gains of cis regulatory function in closed chromatin proximal to genes. They also report that models trained on drug perturbation data learn distance-dependent and treatment-dependent transcription factor binding patterns for GR and AP-1. They further claim modest performance differences among deep-learning architectures and note that larger industrial models leave room for improvement.
+- **Visible evidence base** Abstract text only; no quantitative results, model details, or experimental validation are provided
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, supplementary data, model architecture specifications, training details, and performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful framework for noncoding variant effect prediction, but the evidence presented is insufficient to evaluate the validity of the central claims. The selection signature and transcription factor binding pattern findings are stated without quantitative support, and the comparison to larger models lacks specific metrics. The work addresses an important problem, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in functional genomics, regulatory genomics, and clinical genetics would be interested because the framework addresses the challenge of interpreting noncoding variants, which is relevant for variant prioritization in diagnostic settings. Those working on deep learning for regulatory genomics would also find the architecture comparison and the use of perturbation data of interest.
+- **Major strengths** The problem is well motivated and practically important. The use of whole-genome reporter assays to train retrainable models is a sensible approach. The focus on learning from drug perturbation data and probing transcription factor binding patterns is novel and potentially valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim evidence of purifying selection against both loss-of-function and gain-of-function regulatory variants, with a bias against gains of cis regulatory function in closed chromatin proximal to genes.
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract states that a global signature consistent with purifying selection was uncovered, but no quantitative measures are given. No effect sizes, statistical significance values, or confidence intervals are reported. The claim of a bias against gains of function in closed chromatin proximal to genes is similarly unsupported by any data.
+  - **Why it matters** This is a central biological finding of the paper. Without quantitative evidence, the reader cannot assess the strength or reliability of the selection signature, and the claim cannot be distinguished from a weak or confounded observation.
+  - **Resolution test** Provide the relevant statistics, such as effect sizes, p-values, and confidence intervals, along with the genomic annotations used to define closed chromatin and proximity to genes. Show that the signature is robust to confounders such as GC content, accessibility, and variant frequency.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that when trained on drug perturbation data, the model learns distance-dependent and treatment-dependent binding patterns for GR and AP-1 and their resulting reporter gene activation.
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract reports that the model is able to learn these patterns from synthetic enhancers, but no details are given on the experimental design, the nature of the synthetic enhancers, the distance ranges tested, or the quantitative comparison between predicted and measured activation. The claim of treatment-dependent learning is not supported by any data.
+  - **Why it matters** This is a key demonstration that the model captures biologically meaningful regulatory logic. Without specifics, it is unclear whether the model generalizes beyond the training data or simply memorizes simple motif features.
+  - **Resolution test** Provide the synthetic enhancer design, the range of distances and treatments tested, and quantitative metrics such as correlation between predicted and measured reporter activity. Show that the learned patterns are specific to GR and AP-1 and not explained by sequence composition alone.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim only modest performance differences between different deep-learning architectures and that larger models trained on terabytes of data achieve somewhat greater accuracy but leave room for improvement.
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract makes comparative claims about model performance without reporting any metrics. No baseline, no evaluation protocol, and no quantitative comparison are given. The statement about industrial strength models is anecdotal and not verifiable from the abstract.
+  - **Why it matters** These claims are central to the practical utility of the framework. Without performance numbers, the reader cannot judge whether BlueSTARR is competitive or whether the architecture comparison is meaningful.
+  - **Resolution test** Report evaluation metrics such as area under the ROC curve or correlation on held-out test sets, with confidence intervals. Specify the architectures compared, the training data used for each, and the statistical significance of any performance differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, description of the framework
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "retrainable predictive modeling framework" is vague. It is unclear what retrainable means in this context, whether it refers to the ability to update with new data, or to a specific training procedure.
+  - **Required correction** Clarify what retrainable means and describe the intended use case for retraining.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, description of data
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions two cell lines and one drug treatment but does not specify which cell lines or which drug. This limits the interpretability of the findings.
+  - **Required correction** Name the cell lines and the drug treatment in the abstract or state that they are described in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, claim about selection
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "global signature across the human genome" is imprecise. It is unclear whether this refers to all variants, a subset, or a genome-wide scan.
+  - **Required correction** Specify the scope of the analysis, such as the number of variants or the genomic regions considered.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central biological and performance claims are not supported by quantitative evidence in the abstract.
+- **Assessment against Nature-style criteria** Originality is moderate; the use of whole-genome reporter data for retrainable models is not entirely new, but the focus on perturbation data and transcription factor binding patterns adds some novelty. Scientific importance is potentially high given the relevance to noncoding variant interpretation, but the evidence is insufficient to establish significance. Interdisciplinary readership is plausible, spanning genomics, machine learning, and clinical genetics. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate, though some terms such as "cis regulatory function" and "closed chromatin" may require context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas but lacks the quantitative support needed to evaluate the claims. A full manuscript with methods and results would be required for a proper assessment.
+
+## Risk / unsupported claims
+- The claim of purifying selection against loss-of-function and gain-of-function regulatory variants is unsupported by any quantitative data.
+- The claim of a bias against gains of cis regulatory function in closed chromatin proximal to genes is unsupported.
+- The claim that the model learns distance-dependent and treatment-dependent binding patterns for GR and AP-1 is unsupported by experimental details or metrics.
+- The comparative performance claims across architectures and against larger models are unsupported by any reported metrics.
+- The general utility of the framework for prioritizing variants not observed in the assay is asserted but not demonstrated.

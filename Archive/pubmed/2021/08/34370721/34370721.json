@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "34370721",
+    "doi": "10.1371/journal.pcbi.1009282",
+    "title": "Discovering differential genome sequence activity with interpretable and efficient deep learning."
+  },
+  "content": {
+    "abstract": "Discovering sequence features that differentially direct cells to alternate fates is key to understanding both cellular development and the consequences of disease related mutations. We introduce Expected Pattern Effect and Differential Expected Pattern Effect, two black-box methods that can interpret genome regulatory sequences for cell type-specific or condition specific patterns. We show that these methods identify relevant transcription factor motifs and spacings that are predictive of cell state-specific chromatin accessibility. Finally, we integrate these methods into framework that is readily accessible to non-experts and available for download as a binary or installed via PyPI or bioconda at https://cgs.csail.mit.edu/deepaccess-package/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Genome, Human",
+      "High-Throughput Nucleotide Sequencing",
+      "Humans",
+      "Neural Networks, Computer",
+      "Sequence Analysis, DNA/methods",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hammelman, Jennifer",
+        "Gifford, David K"
+      ],
+      "short_names": [
+        "Hammelman J",
+        "Gifford DK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1008-2666",
+        "ORCID: 0000-0003-1709-4034"
+      ],
+      "affiliations": [
+        "Computational and Systems Biology, MIT, Cambridge, Massachusetts, United States of America.",
+        "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts, United States of America.",
+        "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts, United States of America.",
+        "Department of Electrical Engineering & Computer Science, MIT, Cambridge, Massachusetts, United States of America.",
+        "Department of Biological Engineering, MIT, Cambridge, Massachusetts, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hammelman, Jennifer",
+        "short_name": "Hammelman J",
+        "identifiers": [
+          "0000-0002-1008-2666"
+        ],
+        "affiliations": [
+          "Computational and Systems Biology, MIT, Cambridge, Massachusetts, United States of America.",
+          "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts, United States of America."
+        ]
+      },
+      {
+        "full_name": "Gifford, David K",
+        "short_name": "Gifford DK",
+        "identifiers": [
+          "0000-0003-1709-4034"
+        ],
+        "affiliations": [
+          "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts, United States of America.",
+          "Department of Electrical Engineering & Computer Science, MIT, Cambridge, Massachusetts, United States of America.",
+          "Department of Biological Engineering, MIT, Cambridge, Massachusetts, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/10 06:00",
+    "fetched_at": "2026-09-27 22:06:12"
+  },
+  "links": {
+    "cites": [
+      "42688306",
+      "39284975",
+      "37461616",
+      "36109497",
+      "35710610"
+    ],
+    "refs": [
+      "34650237",
+      "33983921",
+      "33603233",
+      "32973041",
+      "32560708",
+      "31974574",
+      "31856220",
+      "31350899",
+      "31138913",
+      "30995470",
+      "30923381",
+      "29659719",
+      "29220667",
+      "29220666",
+      "29140464",
+      "29044119",
+      "28580283",
+      "28334830",
+      "27939218",
+      "27307608",
+      "27197224",
+      "27084946",
+      "26904955",
+      "26598557",
+      "26301843",
+      "26213851",
+      "26021489",
+      "24963715",
+      "23872598",
+      "22955616",
+      "22912568",
+      "20966006",
+      "20110278",
+      "20086072",
+      "20035737",
+      "19505943",
+      "18798982",
+      "16269338",
+      "12150931",
+      "10725922",
+      "10482234"
+    ],
+    "similar": [
+      "34370721",
+      "30423062",
+      "29069282",
+      "35293310",
+      "31206543",
+      "23656909",
+      "32973041",
+      "26476779",
+      "31856220",
+      "33413545",
+      "29982337",
+      "35866989",
+      "36807077",
+      "29030827",
+      "32770026",
+      "33741075",
+      "33581335",
+      "32424069",
+      "28204611",
+      "31324140",
+      "37598467",
+      "33232622",
+      "33634313",
+      "30967120",
+      "35263332",
+      "29621972",
+      "27197224",
+      "37100167",
+      "33234095",
+      "35666736",
+      "29155775",
+      "36796796",
+      "22955984",
+      "24162561",
+      "31847308",
+      "27993786",
+      "36038049",
+      "34048560",
+      "30575519",
+      "29893919",
+      "33191916",
+      "29648622",
+      "30016465",
+      "18784119",
+      "25179504",
+      "29855387",
+      "34478378",
+      "24920305",
+      "31372637",
+      "36902216",
+      "23034120",
+      "32701977",
+      "37803123",
+      "25433490",
+      "36173566",
+      "34383754",
+      "32353042",
+      "35275822",
+      "26818008",
+      "33137083",
+      "31483104",
+      "18556756",
+      "22377895",
+      "30559361",
+      "25953800",
+      "29049320",
+      "25957350",
+      "33381816",
+      "37370113",
+      "22950945",
+      "37643374",
+      "28881969",
+      "33603233",
+      "27096930",
+      "35100401",
+      "31164146",
+      "33522898",
+      "37328639",
+      "33707415",
+      "34535759",
+      "31093705",
+      "30201789",
+      "30967126",
+      "35580841",
+      "34555591",
+      "33046897",
+      "28472398",
+      "32978299",
+      "32669542",
+      "34524404",
+      "29558892",
+      "36807065",
+      "34245239"
+    ],
+    "review": [
+      "34370721",
+      "33234095",
+      "29648622"
+    ],
+    "pmc": [
+      "8376110"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009282",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34370721/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34370721",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.10.743877",
+  "title": "CALFP-MHC: Interpretable Pan-Allelic Prediction of Peptide-MHC Binding and Presentation Using Chemically Grounded Fingerprints and Contrastive Learning",
+  "doi": "10.64898/2026.08.10.743877",
+  "abstract": "Identifying which peptides bind major histocompatibility complex (MHC) molecules is central to vaccine design, neoantigen prioritization, and precision immunotherapy. Existing deep learning predictors largely encode amino acids as discrete symbols, thereby missing the residue-level chemistry driving molecular recognition. Performance also tends to degrade under class imbalance, for rare alleles, and on peptide– MHC combinations outside the training distribution. We developed CALFP-MHC, a framework that encodes each amino acid as a set of complementary cheminformatics fingerprints capturing functional groups, atomic connectivity, and substructural features, and combines positional encoding with supervised contrastive pre-training to organize the latent space by binding class before fine-tuning a binary classifier. Peptide–MHC interactions are modeled through a hybrid convolutional-transformer backbone. In a large-scale computational benchmark covering ∼18.7 million peptide–MHC pairs across 112 HLA class I and 53 class II alleles, CALFP-MHC achieved AUCs of 0.93-0.97 and PPVs of 0.66–0.94. Critically, performance remained above AUC 0.90 even at a 200:1 negative-to-positive ratio, where competing tools frequently collapsed toward chance. On independent experimental data containing 3,627 class I and 520 class II MS/MS-confirmed ligands and 570 validated neoantigens, the model maintained strong discrimination, correctly prioritizing immunogenic peptides and MHC-presented ligands. Attention and integrated-gradient analyses recovered established anchor positions (P2 and PΩ for class I, P1, P4, P6, and P9 for class II) and highlighted chemically interpretable functional groups consistent with known binding determinants. CALFP-MHC demonstrates that grounding residue representations in molecular chemistry, rather than sequence symbols alone, improves both robustness and interpretability in peptide–MHC binding prediction.",
+  "authors": [
+    "My-Diem Nguyen Pham",
+    "Thi-Kim-Cuong Ho",
+    "Hoai-Nghia Nguyen",
+    "Le-Son Tran",
+    "Minh-Duy Phan",
+    "Vy Nguyen"
+  ],
+  "published_date": "2026-08-14",
+  "updated_date": "2026-08-15T03:50:16Z",
+  "journal": "bioRxiv",
+  "category": "Immunology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743877",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743877.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Immunology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Immunology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T18:26:41Z",
+        "timestamp": 1787077601931,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ]
+      },
+      "group-title": "Immunology",
+      "reference-count": 24,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                14
+              ]
+            ],
+            "date-time": "2026-08-14T00:00:00Z",
+            "timestamp": 1786665600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "NexCalibur Therapeutics",
+          "award": [
+            "NCT01"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NCT01"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Identifying which peptides bind major histocompatibility complex (MHC) molecules is central to vaccine design, neoantigen prioritization, and precision immunotherapy. Existing deep learning predictors largely encode amino acids as discrete symbols, thereby missing the residue-level chemistry driving molecular recognition. Performance also tends to degrade under class imbalance, for rare alleles, and on peptide– MHC combinations outside the training distribution.</jats:p>\n                <jats:p>We developed CALFP-MHC, a framework that encodes each amino acid as a set of complementary cheminformatics fingerprints capturing functional groups, atomic connectivity, and substructural features, and combines positional encoding with supervised contrastive pre-training to organize the latent space by binding class before fine-tuning a binary classifier. Peptide–MHC interactions are modeled through a hybrid convolutional-transformer backbone.</jats:p>\n                <jats:p>In a large-scale computational benchmark covering ∼18.7 million peptide–MHC pairs across 112 HLA class I and 53 class II alleles, CALFP-MHC achieved AUCs of 0.93-0.97 and PPVs of 0.66–0.94. Critically, performance remained above AUC 0.90 even at a 200:1 negative-to-positive ratio, where competing tools frequently collapsed toward chance. On independent experimental data containing 3,627 class I and 520 class II MS/MS-confirmed ligands and 570 validated neoantigens, the model maintained strong discrimination, correctly prioritizing immunogenic peptides and MHC-presented ligands. Attention and integrated-gradient analyses recovered established anchor positions (P2 and PΩ for class I, P1, P4, P6, and P9 for class II) and highlighted chemically interpretable functional groups consistent with known binding determinants.</jats:p>\n                <jats:p>CALFP-MHC demonstrates that grounding residue representations in molecular chemistry, rather than sequence symbols alone, improves both robustness and interpretability in peptide–MHC binding prediction.</jats:p>",
+      "DOI": "10.64898/2026.08.10.743877",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            15
+          ]
+        ],
+        "date-time": "2026-08-15T03:50:16Z",
+        "timestamp": 1786765816000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "CALFP-MHC: Interpretable Pan-Allelic Prediction of Peptide-MHC Binding and Presentation Using Chemically Grounded Fingerprints and Contrastive Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "My-Diem Nguyen",
+          "family": "Pham",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Medical Genetics Institute, Ho Chi Minh City, Vietnam"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thi-Kim-Cuong",
+          "family": "Ho",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Medical Genetics Institute, Ho Chi Minh City, Vietnam"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hoai-Nghia",
+          "family": "Nguyen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Medical Genetics Institute, Ho Chi Minh City, Vietnam"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Le-Son",
+          "family": "Tran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Medical Genetics Institute, Ho Chi Minh City, Vietnam"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Minh-Duy",
+          "family": "Phan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Medical Genetics Institute, Ho Chi Minh City, Vietnam"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vy",
+          "family": "Nguyen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Medical Genetics Institute, Ho Chi Minh City, Vietnam"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa379"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.1016/j.cels.2020.06.010",
+          "article-title": "MHCflurry 2.0: Improved Pan-Allele Prediction of MHC Class I-Presented Peptides by Incorporating Antigen Processing",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "861",
+          "DOI": "10.1038/s42256-023-00694-6",
+          "article-title": "Deep neural networks predict class I major histocompatibility complex epitope presentation and transfer learn neoepitope immunogenicity. Nat",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Mach. Intell"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005725"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac225"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0289-6"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "2188",
+          "DOI": "10.1109/TCBB.2021.3074927",
+          "article-title": "DeepSeqPanII: An Interpretable Recurrent Neural Network Model With Attention Mechanism for Peptide-HLA Class II Binding Prediction",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "279",
+          "DOI": "10.1038/s42003-024-05968-2",
+          "article-title": "Building trust in deep learning-based immune response predictors with interpretable explanations",
+          "volume": "7",
+          "year": "2024",
+          "journal-title": "Communications Biology"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2700",
+          "DOI": "10.1021/acs.biochem.3c00253",
+          "article-title": "AmorProt: Amino Acid Molecular Fingerprints Repurposing-Based Protein Fingerprint",
+          "volume": "62",
+          "year": "2023",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Adamczyk, J. , Ludynia, P. & Czech, W . Molecular fingerprints are strong models for peptide function prediction. Bioinformatics 42, (2026).",
+          "DOI": "10.1093/bioinformatics/btag179"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.12.21.572942"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.12",
+          "unstructured": "Vaswani, A. et al. Attention Is All You Need. 1 (2017)."
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0000796"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000107"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/351290a0"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST20210410"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACS.JPROTEOME.9B00874"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac542"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/imm.12889"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.iy.13.040195.003103"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s002510050595"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2017.02.007"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.09.015"
+        },
+        {
+          "key": "2026081810400841000_2026.08.10.743877v1.24",
+          "unstructured": "Khosla, P. , et al. Supervised Contrastive Learning. https://arxiv.org/pdf/2004.11362 (2020)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.08.10.743877",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T17:40:18Z",
+        "timestamp": 1787074818000
+      },
+      "score": 68.099556,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.08.10.743877"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ]
+      },
+      "references-count": 24,
+      "URL": "https://doi.org/10.64898/2026.08.10.743877",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

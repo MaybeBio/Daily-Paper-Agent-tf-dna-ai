@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "37889068",
+    "doi": "10.1093/nar/gkad872",
+    "title": "High-throughput data and modeling reveal insights into the mechanisms of cooperative DNA-binding by transcription factor proteins."
+  },
+  "content": {
+    "abstract": "Cooperative DNA-binding by transcription factor (TF) proteins is critical for eukaryotic gene regulation. In the human genome, many regulatory regions contain TF-binding sites in close proximity to each other, which can facilitate cooperative interactions. However, binding site proximity does not necessarily imply cooperative binding, as TFs can also bind independently to each of their neighboring target sites. Currently, the rules that drive cooperative TF binding are not well understood. In addition, it is oftentimes difficult to infer direct TF-TF cooperativity from existing DNA-binding data. Here, we show that in vitro binding assays using DNA libraries of a few thousand genomic sequences with putative cooperative TF-binding events can be used to develop accurate models of cooperativity and to gain insights into cooperative binding mechanisms. Using factors ETS1 and RUNX1 as our case study, we show that the distance and orientation between ETS1 sites are critical determinants of cooperative ETS1-ETS1 binding, while cooperative ETS1-RUNX1 interactions show more flexibility in distance and orientation and can be accurately predicted based on the affinity and sequence/shape features of the binding sites. The approach described here, combining custom experimental design with machine-learning modeling, can be easily applied to study the cooperative DNA-binding patterns of any TFs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Core Binding Factor Alpha 2 Subunit/genetics",
+      "Binding Sites/genetics",
+      "Protein Binding",
+      "*Gene Expression Regulation",
+      "DNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Martin, Vincentius",
+        "Zhuang, Farica",
+        "Zhang, Yuning",
+        "Pinheiro, Kyle",
+        "Gordan, Raluca"
+      ],
+      "short_names": [
+        "Martin V",
+        "Zhuang F",
+        "Zhang Y",
+        "Pinheiro K",
+        "Gordan R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6404-6556"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Durham, NC 27708, USA.",
+        "Center for Genomic & Computational Biology, Durham, NC 27708, USA.",
+        "Department of Computer Science, Durham, NC 27708, USA.",
+        "Center for Genomic & Computational Biology, Durham, NC 27708, USA.",
+        "Center for Genomic & Computational Biology, Durham, NC 27708, USA.",
+        "Program in Computational Biology & Bioinformatics, Durham, NC 27708, USA.",
+        "Department of Computer Science, Durham, NC 27708, USA.",
+        "Center for Genomic & Computational Biology, Durham, NC 27708, USA.",
+        "Department of Computer Science, Durham, NC 27708, USA.",
+        "Center for Genomic & Computational Biology, Durham, NC 27708, USA.",
+        "Department of Biostatistics & Bioinformatics, Department of Molecular Genetics and Microbiology, Department of Cell Biology, Duke University, Durham, NC 27708, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Martin, Vincentius",
+        "short_name": "Martin V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Durham, NC 27708, USA.",
+          "Center for Genomic & Computational Biology, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Farica",
+        "short_name": "Zhuang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Durham, NC 27708, USA.",
+          "Center for Genomic & Computational Biology, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuning",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic & Computational Biology, Durham, NC 27708, USA.",
+          "Program in Computational Biology & Bioinformatics, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Pinheiro, Kyle",
+        "short_name": "Pinheiro K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Durham, NC 27708, USA.",
+          "Center for Genomic & Computational Biology, Durham, NC 27708, USA."
+        ]
+      },
+      {
+        "full_name": "Gordân, Raluca",
+        "short_name": "Gordân R",
+        "identifiers": [
+          "0000-0002-6404-6556"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Durham, NC 27708, USA.",
+          "Center for Genomic & Computational Biology, Durham, NC 27708, USA.",
+          "Department of Biostatistics & Bioinformatics, Department of Molecular Genetics and Microbiology, Department of Cell Biology, Duke University, Durham, NC 27708, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Nov 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/27 12:42",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "41648522",
+      "41371343",
+      "41365655",
+      "41332771",
+      "40738104",
+      "40174587",
+      "40161696",
+      "40075640",
+      "39906159",
+      "39520544",
+      "39174927",
+      "38826400"
+    ],
+    "refs": [
+      "38093018",
+      "33975875",
+      "33603233",
+      "33087930",
+      "32728249",
+      "32133534",
+      "31913281",
+      "31341088",
+      "31175293",
+      "31001412",
+      "30016330",
+      "29605182",
+      "29196557",
+      "28349863",
+      "26550823",
+      "26545200",
+      "25362070",
+      "25349675",
+      "25083921",
+      "24646888",
+      "24419615",
+      "24243859",
+      "23703209",
+      "23562153",
+      "23413354",
+      "23332764",
+      "22153072",
+      "21859476",
+      "20686355",
+      "20378718",
+      "20363979",
+      "20334529",
+      "20019798",
+      "19720867",
+      "19265799",
+      "18566588",
+      "12670999",
+      "12221090",
+      "12034715",
+      "10594012",
+      "10594011",
+      "10384327",
+      "10075931",
+      "9501094",
+      "9209434",
+      "9032233",
+      "8804314",
+      "8745408",
+      "8628272",
+      "8458329",
+      "8264651",
+      "7609063",
+      "7569926",
+      "2338244",
+      "2114554"
+    ],
+    "similar": [
+      "37889068",
+      "28637900",
+      "28231333",
+      "19956545",
+      "25083921",
+      "25559499",
+      "23847101",
+      "26195629",
+      "20019798",
+      "26550823",
+      "25286944",
+      "24646888",
+      "25775564",
+      "35659235",
+      "24097306",
+      "32043966",
+      "21149679",
+      "27567672",
+      "31913281",
+      "35978548",
+      "26679776",
+      "23812975",
+      "16844711",
+      "27311443",
+      "23554463",
+      "24603674",
+      "25957350",
+      "23935523",
+      "21557082",
+      "26818008",
+      "39413205",
+      "40598892",
+      "26673693",
+      "29326300",
+      "38966997",
+      "21852305",
+      "41159612",
+      "22189060",
+      "36322688",
+      "33975875",
+      "28750606",
+      "26285121",
+      "36043696",
+      "20959602",
+      "37682473",
+      "22432043",
+      "30517703",
+      "30709337",
+      "25762553",
+      "37114997",
+      "36057196",
+      "26160164",
+      "30395339",
+      "23184988",
+      "20838582",
+      "37214836",
+      "30315111",
+      "35983231",
+      "40205063",
+      "26912662",
+      "25010228",
+      "31639474",
+      "37486787",
+      "34486522",
+      "41405863",
+      "18725950",
+      "34174819",
+      "17652178",
+      "37595278",
+      "40848288",
+      "33705711",
+      "18371204",
+      "22084256",
+      "32053778",
+      "32574834",
+      "10705431",
+      "38902964",
+      "39588827",
+      "10594011",
+      "20686355",
+      "28167566",
+      "33104784",
+      "30657937",
+      "26291518",
+      "22955984",
+      "32770026",
+      "30578913",
+      "23562153",
+      "30447332",
+      "16373364",
+      "31398323",
+      "24086290",
+      "40305050",
+      "40903577",
+      "39567683",
+      "16873495",
+      "21193520",
+      "33372147",
+      "27546793",
+      "37527656"
+    ],
+    "review": [
+      "37889068",
+      "21557082",
+      "36057196",
+      "31639474"
+    ],
+    "pmc": [
+      "10681739"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37889068/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37889068",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse171732",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad872",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40238799",
+  "title": "Taurine is a potential therapy for rheumatoid arthritis via targeting FOXO3 through cellular senescence and autophagy.",
+  "authors": "Zheng, Qingcong; Lin, Rongjie; Li, Zhechen; Zheng, Qingzhu; Xu, Weihong",
+  "journal": "PloS one",
+  "published_date": "2025-04-16",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过生物信息学和机器学习识别类风湿关节炎衰老自噬相关基因，并用分子对接/动力学验证牛磺酸与FOXO3结合，但核心是疾病标志物和药物筛选，TF-DNA互作仅涉及FOXO3的转录因子网络分析，缺乏对TF-DNA结合机制或界面建模的深入研究。",
+  "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is a chronic inflammatory autoimmune disease closely related to aging with unclear pathogenic mechanisms. This study aims to identify the biomarkers in RA, aging and autophagy using bioinformatics and machine learning and explore the binding stability of taurine to target utilizing computer-aided drug design (CADD). METHODS: We identified differentially expressed genes (DEGs) for RA, then crossed with gene libraries for aging and autophagy to identify common genes (Co-genes). We performed Gene Ontology (GO), Kyoto Encyclopedia of the Genome (KEGG), and ClueGO analysis for Co-genes. The Co-genes were subjected to support vector machine-recursive feature elimination (SVM-RFE), Degree, and Betweenness algorithms to get hub genes, then verified by an artificial neural network (ANN). After continuing to perform least absolute shrinkage and selection operator (LASSO) and weighted gene co-expression network analysis (WGCNA) on Co-genes, the results were crossed with hub genes to obtain genes, which were imported into various validation sets for receiver operating characteristics (ROC) to identify key genes. We analyzed the microRNA/TF network, enriched pathways, and immune cell infiltration for key genes. The binding stability of taurine with the target protein was verified by CADD. Finally, we used Western blot for in vitro experimental verification. RESULTS: We obtained 74 Co-genes enriched in RA, cellular senescence, and regulation of programmed cell death. The model prediction of hub genes works well in ANN. The key genes (MMP9, CXCL10, IL15, FOXO3) were tested in ROC with excellent efficacy. In RA, FOXO3 expression was down-regulated while MMP9, CXCL10, and IL15 expression were upregulated, and FOXO3 was negatively correlated with MMP9, CXCL10, and IL15. Two miRNAs (hsa-mir-21-5p, hsa-mir-129-2-3p) and four TFs (CTCF, KLF, FOXC1, TP53) were associated with key genes. The immune cells positively correlated with MMP9, CXCL10, and IL15 expression and negatively correlated with FOXO3 expression were Plasma cells, CD8 T cells, memory-activated CD4 T cells, and follicular helper T cells, aggregating in RA. The binding stability of taurine with FOXO3 was verified by molecular docking and molecular dynamics simulation. In vitro experiments have indicated that taurine can upregulate the expression of FOXO3 and treat RA through the FOXO3-Parkin signaling pathway. CONCLUSIONS: MMP9, CXCL10, IL15, and FOXO3 are biomarkers of RA, cellular senescence, and autophagy. Taurine might be a promising drug against RA via targeting cellular senescence and autophagy through FOXO3.",
+  "abstract_zh": "背景：类风湿关节炎（RA）是一种与衰老密切相关的慢性炎症性自身免疫性疾病，其发病机制尚不明确。本研究旨在利用生物信息学和机器学习识别RA、衰老和自噬中的生物标志物，并利用计算机辅助药物设计（CADD）探索牛磺酸与靶标的结合稳定性。方法：我们鉴定了RA的差异表达基因（DEGs），然后与衰老和自噬的基因库交叉，以识别共同基因（Co-genes）。我们对Co-genes进行了基因本体论（GO）、京都基因组百科全书（KEGG）和ClueGO分析。Co-genes经过支持向量机递归特征消除（SVM-RFE）、Degree和Betweenness算法处理以获得核心基因（hub genes），然后通过人工神经网络（ANN）进行验证。在继续对Co-genes进行最小绝对收缩和选择算子（LASSO）和加权基因共表达网络分析（WGCNA）后，结果与核心基因交叉以获得基因，并将其导入多个验证集进行受试者工作特征（ROC）分析以识别关键基因。我们分析了关键基因的microRNA/TF网络、富集通路和免疫细胞浸润。通过CADD验证了牛磺酸与靶蛋白的结合稳定性。最后，我们使用Western blot进行体外实验验证。结果：我们获得了74个Co-genes，富集于RA、细胞衰老和程序性细胞死亡调控中。核心基因的模型预测在ANN中表现良好。关键基因（MMP9、CXCL10、IL15、FOXO3）在ROC测试中显示出极佳的效果。在RA中，FOXO3表达下调，而MMP9、CXCL10和IL15表达上调，且FOXO3与MMP9、CXCL10和IL15呈负相关。两个miRNA（hsa-mir-21-5p、hsa-mir-129-2-3p）和四个转录因子（CTCF、KLF、FOXC1、TP53）与关键基因相关。与MMP9、CXCL10和IL15表达正相关且与FOXO3表达负相关的免疫细胞为浆细胞、CD8 T细胞、记忆活化CD4 T细胞和滤泡辅助T细胞，这些细胞在RA中聚集。通过分子对接和分子动力学模拟验证了牛磺酸与FOXO3的结合稳定性。体外实验表明，牛磺酸可上调FOXO3的表达，并通过FOXO3-Parkin信号通路治疗RA。结论：MMP9、CXCL10、IL15和FOXO3是RA、细胞衰老和自噬的生物标志物。牛磺酸可能通过靶向细胞衰老和自噬经由FOXO3成为治疗RA的有前景的药物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40238799/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40238799/",
+  "paper_page_path": "papers/pubmed/40238799/index.html"
+}

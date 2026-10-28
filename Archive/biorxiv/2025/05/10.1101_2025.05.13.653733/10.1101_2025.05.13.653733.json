@@ -1,0 +1,610 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.13.653733",
+  "title": "Decoding Plasticity Regulators and Transition Trajectories in Glioblastoma with Single-cell Multiomics",
+  "doi": "10.1101/2025.05.13.653733",
+  "abstract": "Glioblastoma (GB) is one of the most lethal human cancers, marked by profound intratumoral heterogeneity and near-universal treatment resistance. Cellular plasticity, the capacity of cancer cells to transition between phenotypic states, drives GB progression and resistance. However, the regulatory logic that permits or restricts specific state transitions remains poorly understood. Here, we integrated single-nucleus RNA and chromatin accessibility multi-ome profiles from over one million cells across primary IDH-wildtype GBs and developed scDORI, a scalable deep-learning framework to infer enhancer-driven gene regulatory networks (eGRNs) at single-cell resolution. Our analysis revealed a structured hierarchy of GB cell states governed by distinct regulatory programs, with marked variability in epigenetic plasticity that enables or constrains transitions. Neuronal-like tumor cells emerge as a low plasticity state that deploys active repression, in contrast to more permissive progenitor-like and astrocytic states. We identified the neuronal-like state-specific repressor MYT1L as a key regulator that silences master transcription factors of alternative states. MYT1L gain-of-function in patient-derived GB cells reduced chromatin accessibility, induced neuronal-like identity, and restricted proliferation and invasion in vivo, whereas loss-of-function reactivated plasticity and accelerated malignant features. Our findings delineate the epigenetic architecture and associated transcriptional master regulators that shape GB state trajectories, and establish safeguard repressors such as MYT1L as potential therapeutic targets to constrain malignant plasticity.",
+  "authors": [
+    "Saraswat M",
+    "Rueda-Gensini L",
+    "Heinzelmann E",
+    "Gracia T",
+    "Memi F",
+    "de Jong G",
+    "Straub J",
+    "Schloo C",
+    "Hoffmann DC",
+    "Jung E",
+    "Kindinger T",
+    "Weigel B",
+    "Lim B",
+    "Weil S",
+    "Gould O",
+    "Mair R",
+    "Mikulik K",
+    "Rohbeck M",
+    "Wick W",
+    "Winkler F",
+    "Bayraktar OA",
+    "Stegle O",
+    "Mall M"
+  ],
+  "published_date": "2025-05-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653733",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653733.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1019142",
+    "raw_record": {
+      "id": "PPR1019142",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1019142"
+        ]
+      },
+      "doi": "10.1101/2025.05.13.653733",
+      "title": "Decoding Plasticity Regulators and Transition Trajectories in Glioblastoma with Single-cell Multiomics",
+      "authorString": "Saraswat M, Rueda-Gensini L, Heinzelmann E, Gracia T, Memi F, de Jong G, Straub J, Schloo C, Hoffmann DC, Jung E, Kindinger T, Weigel B, Lim B, Weil S, Gould O, Mair R, Mikulik K, Rohbeck M, Wick W, Winkler F, Bayraktar OA, Stegle O, Mall M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Saraswat M",
+            "lastName": "Saraswat",
+            "firstName": "Manu",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                },
+                {
+                  "affiliation": "Genome Biology Unit, ; ,"
+                },
+                {
+                  "affiliation": "Computational Genomics and System Genetics Division, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rueda-Gensini L",
+            "lastName": "Rueda-Gensini",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0138-7393"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heinzelmann E",
+            "lastName": "Heinzelmann",
+            "firstName": "Elisa",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gracia T",
+            "lastName": "Gracia",
+            "firstName": "Tannia",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Memi F",
+            "lastName": "Memi",
+            "firstName": "Fani",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Jong G",
+            "lastName": "de Jong",
+            "firstName": "Grant",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Straub J",
+            "lastName": "Straub",
+            "firstName": "Jannes",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schloo C",
+            "lastName": "Schloo",
+            "firstName": "Cedar",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-8531-1021"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoffmann DC",
+            "lastName": "Hoffmann",
+            "firstName": "Dirk",
+            "initials": "DC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neurology Clinic and National Center for Tumor Diseases, ; ,"
+                },
+                {
+                  "affiliation": "Clinical Cooperation Unit Neurooncology, , ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jung E",
+            "lastName": "Jung",
+            "firstName": "Erik",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neurology Clinic and National Center for Tumor Diseases, ; ,"
+                },
+                {
+                  "affiliation": "Clinical Cooperation Unit Neurooncology, , ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kindinger T",
+            "lastName": "Kindinger",
+            "firstName": "Tim",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weigel B",
+            "lastName": "Weigel",
+            "firstName": "Bettina",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lim B",
+            "lastName": "Lim",
+            "firstName": "Bryce",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weil S",
+            "lastName": "Weil",
+            "firstName": "Sophie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neurology Clinic and National Center for Tumor Diseases, ; ,"
+                },
+                {
+                  "affiliation": "Clinical Cooperation Unit Neurooncology, , ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gould O",
+            "lastName": "Gould",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-9374-4511"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mair R",
+            "lastName": "Mair",
+            "firstName": "Richard",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical Neurosciences, ; ,"
+                },
+                {
+                  "affiliation": "; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mikulik K",
+            "lastName": "Mikulik",
+            "firstName": "Katharina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Genomics and System Genetics Division, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rohbeck M",
+            "lastName": "Rohbeck",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Biology Unit, ; ,"
+                },
+                {
+                  "affiliation": "Computational Genomics and System Genetics Division, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wick W",
+            "lastName": "Wick",
+            "firstName": "Wolfgang",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neurology Clinic and National Center for Tumor Diseases, ; ,"
+                },
+                {
+                  "affiliation": "Clinical Cooperation Unit Neurooncology, , ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Winkler F",
+            "lastName": "Winkler",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neurology Clinic and National Center for Tumor Diseases, ; ,"
+                },
+                {
+                  "affiliation": "Clinical Cooperation Unit Neurooncology, , ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bayraktar OA",
+            "lastName": "Bayraktar",
+            "firstName": "Omer Ali",
+            "initials": "OA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cellular Genetics Programme, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stegle O",
+            "lastName": "Stegle",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Biology Unit, ; ,"
+                },
+                {
+                  "affiliation": "Computational Genomics and System Genetics Division, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mall M",
+            "lastName": "Mall",
+            "firstName": "Moritz",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1278-2594"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Fate Engineering and Disease Modeling Group, and ; ,"
+                },
+                {
+                  "affiliation": "HITBR Hector Institute for Translational Brain Research gGmbH; 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": ", Medical Faculty Mannheim, ; ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1278-2594"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0138-7393"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-8531-1021"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-9374-4511"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Glioblastoma (GB) is one of the most lethal human cancers, marked by profound intratumoral heterogeneity and near-universal treatment resistance. Cellular plasticity, the capacity of cancer cells to transition between phenotypic states, drives GB progression and resistance. However, the regulatory logic that permits or restricts specific state transitions remains poorly understood. Here, we integrated single-nucleus RNA and chromatin accessibility multi-ome profiles from over one million cells across primary IDH-wildtype GBs and developed scDORI, a scalable deep-learning framework to infer enhancer-driven gene regulatory networks (eGRNs) at single-cell resolution. Our analysis revealed a structured hierarchy of GB cell states governed by distinct regulatory programs, with marked variability in epigenetic plasticity that enables or constrains transitions. Neuronal-like tumor cells emerge as a low plasticity state that deploys active repression, in contrast to more permissive progenitor-like and astrocytic states. We identified the neuronal-like state-specific repressor MYT1L as a key regulator that silences master transcription factors of alternative states. MYT1L gain-of-function in patient-derived GB cells reduced chromatin accessibility, induced neuronal-like identity, and restricted proliferation and invasion in vivo, whereas loss-of-function reactivated plasticity and accelerated malignant features. Our findings delineate the epigenetic architecture and associated transcriptional master regulators that shape GB state trajectories, and establish safeguard repressors such as MYT1L as potential therapeutic targets to constrain malignant plasticity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "German Research Foundation",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220540/Z/20/A",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "804710",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "orderIn": 0
+          },
+          {
+            "agency": "Innovation Campus Health&amp;#8201;+&amp;#8201;Life Science Alliance Heidelberg Mannheim",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "orderIn": 0
+          },
+          {
+            "agency": "DAAD",
+            "orderIn": 0
+          },
+          {
+            "agency": "German Federal Ministry of Education and Research (BMBF)",
+            "orderIn": 0
+          },
+          {
+            "agency": "Hector Stiftung II gGmbH",
+            "orderIn": 0
+          },
+          {
+            "agency": "Helmholtz International Graduate School Fellowship",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Leap, Delta Tissue programme",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/13/2025.05.13.653733.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.13.653733"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1019142"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1019142&type=FILE&fileName=EMS205512-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 10,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205512",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-05-15",
+      "firstPublicationDate": "2025-05-13",
+      "firstIndexDate": "2025-05-21",
+      "fullTextReceivedDate": "2025-05-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

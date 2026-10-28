@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence presented in the provided text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors present bpAI-TAC, a multi-task deep learning model that predicts ATAC-seq chromatin accessibility at base-pair resolution across 90 mouse immune cell types. They claim that modeling ATAC-seq profiles alongside total accessibility consistently improves predictions of differential chromatin accessibility across cell types compared to a model trained only on total accessibility (AI-TAC). They further claim that multi-task learning across related cell types outperforms single-task models, and that base-pair resolution training enables discovery of additional regulatory motifs and more accurate estimation of their cell-type-specific effect sizes.
+- **Visible evidence base** Main figures referenced (Figure 1a–d, 2a–f, 3a–d), supplementary figures (S1–S6), methods section, and data/code availability statements. No actual figure images, numerical values, or code outputs were provided in the manuscript text.
+- **Missing materials affecting confidence** Figure images and numerical performance metrics (e.g., exact Pearson R values, confidence intervals, p-values) are not visible. Supplementary methods are referenced but not provided. Code repository and processed data are not inspected. This limits quantitative verification of the reported improvements and the robustness of the motif analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in regulatory genomics: whether modeling ATAC-seq data at base-pair resolution improves sequence-to-activity model performance beyond aggregate accessibility predictions. The authors present a well-structured study with systematic ablations of loss functions, architectures, and bias modeling. The central claim that profile modeling improves differential accessibility prediction is plausible and supported by the described results, but the absence of visible quantitative results and figure details prevents full verification. The motif analysis is a valuable addition, though the claim that bpAI-TAC "learns additional motif syntax" is only partially supported, as the authors themselves note that the model does not discover entirely new motifs but improves effect size estimation. The manuscript is generally well-written and accessible, but some methodological details and the interpretation of footprint patterns require clarification.
+- **Who would be interested in the results, and why** Researchers in computational genomics, regulatory genomics, and deep learning applied to biology. The work is directly relevant to those developing or using sequence-to-activity models for chromatin accessibility, transcription factor binding prediction, and cell-type-specific regulatory element discovery. The multi-task framework and the systematic comparison of loss functions and architectures will be of practical interest to model developers. The motif analysis and the identification of cell-type-specific regulatory syntax may interest experimental biologists studying immune cell differentiation.
+- **Major strengths** 1. The study addresses a clear and important question: does base-pair resolution modeling improve sequence-to-activity predictions? 2. The systematic ablations of loss functions, architectures, and bias modeling are thorough and provide practical guidance. 3. The multi-task framework across 90 cell types is a significant computational contribution. 4. The motif analysis comparing bpAI-TAC and AI-TAC attributions is well-designed and provides biological insight. 5. The manuscript is clearly written and the methods are described in sufficient detail for replication.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "bpAI-TAC consistently outperforms AI-TAC in predicting differential accessibility (Figure 1b, S1a)" and "bpAI-TAC also improves predictions across test set OCRs for all cell types (Figure 1c, S1b)"
+  - **Evidence pointer** Figure 1b, 1c, S1a, S1b; location not provided
+  - **Concern** The central claim of improved differential accessibility prediction is based on figures that are not visible in the provided text. No numerical values, confidence intervals, or statistical tests are reported in the text. The magnitude of improvement and its consistency across cell types cannot be assessed.
+  - **Why it matters** This is the primary claim of the manuscript. Without quantitative evidence, the reader cannot evaluate whether the improvement is meaningful or marginal, and whether it justifies the added complexity of profile modeling.
+  - **Resolution test** Provide the actual Pearson R values (or other metrics) for bpAI-TAC and AI-TAC across cell types, with confidence intervals and statistical significance tests. Show the distribution of performance differences across cell types.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We identify novel motifs with strong effect sizes that emerge only when profile data is included."
+  - **Evidence pointer** Figure 3c, 3d; location not provided
+  - **Concern** The claim of "novel motifs" is not fully supported. The authors state that bpAI-TAC does not discover entirely new motifs but improves effect size estimation. The term "novel" is ambiguous. Additionally, the motif analysis is based on a selected set of 1,082 sequences (selection criteria in Supplementary Methods, not provided), and the statistical comparison of motif enrichment between models is not described in the main text.
+  - **Why it matters** The biological interpretation of the model improvements depends on the validity of the motif analysis. If the motif set is biased or the enrichment analysis is not rigorous, the conclusions about "additional motif syntax" may be overstated.
+  - **Resolution test** Clarify the definition of "novel" motifs. Provide the full motif enrichment analysis details, including the selection criteria for the 1,082 sequences, the multiple testing correction, and the effect size distributions for all identified motifs, not just the top ones.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We hypothesize that this performance drop arises from coarse binning, which may obscure fine-scale TF footprints..."
+  - **Evidence pointer** Figure 2f, S3e; location not provided
+  - **Concern** The hypothesis for why reduced resolution models underperform is speculative and not directly tested. The authors do not provide evidence that coarse binning specifically obscures TF footprints, as opposed to other potential causes such as loss of positional information or increased noise.
+  - **Why it matters** Understanding the mechanism of the performance drop is important for guiding future model design. A speculative explanation without supporting analysis weakens the conclusions.
+  - **Resolution test** Perform an analysis that directly tests the footprint-obscuring hypothesis, e.g., by comparing predicted footprints at different resolutions or by quantifying the information content of footprints at coarse resolutions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "modeling ATAC-seq profiles alongside accessibility consistently improves predictions" but does not specify the metric or the magnitude of improvement.
+  - **Required correction** Include a specific performance metric and the average improvement in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Bias-model training"
+  - **Evidence pointer** Methods, "Bias-model training", location not provided
+  - **Issue** The description of the closed OCR bias model training is brief. The threshold for "closed" (p > 0.25) is given, but the aggregation procedure across cell types is not fully detailed.
+  - **Required correction** Provide a more detailed description of how closed OCRs were aggregated and how the bias model was trained on these aggregated profiles.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion mentions "limited sequencing depth (2.5–40 million reads per cell type, 15 million on average)" as a potential limitation, but this is not discussed in the context of the model's performance or the footprint analysis.
+  - **Required correction** Briefly discuss how sequencing depth might affect the model's ability to learn footprints and whether this could explain the less pronounced footprints observed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2a
+  - **Evidence pointer** Figure 2a, location not provided
+  - **Issue** The description of the composite loss hyperparameter λ is clear in the text, but the figure legend is not visible. It would be helpful to state the range of λ values tested and the optimal value.
+  - **Required correction** Ensure the figure legend clearly states the λ values tested and the optimal λ used in subsequent analyses.
+- **Technical failings that need to be addressed before the case is established** 1. Quantitative results for the main performance claims (R1-M1) must be provided. 2. The motif analysis methodology and results must be fully described and statistically rigorous (R1-M2). 3. The hypothesis for the resolution ablation results should be tested or at least supported by additional analysis (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its systematic evaluation of base-pair resolution modeling in a multi-task framework across many cell types. While similar ideas exist in the field (e.g., BPNet, ChromBPnet), the multi-task comparative focus and the extensive ablations provide a new perspective.
+  - **Scientific importance** The question of whether higher-resolution data improves model performance is important for the field. The results have practical implications for model design and for the interpretation of regulatory syntax. However, the importance is somewhat incremental, as the core finding (profile modeling helps) is not entirely surprising given prior work.
+  - **Interdisciplinary readership** The work will appeal to computational biologists and deep learning researchers. The biological implications for immune cell differentiation may interest immunologists, but the technical focus may limit broader readership.
+  - **Technical soundness** The methodology is generally sound, but the lack of visible quantitative results and the speculative nature of some interpretations reduce confidence. The ablations are well-designed, but the statistical rigor of the motif analysis needs clarification.
+  - **Readability for nonspecialists** The manuscript is well-written and the concepts are explained clearly. The abstract and introduction are accessible. The results section is more technical but still understandable. The methods are detailed but may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the study is well-designed, but the lack of visible quantitative evidence and the need for more rigorous motif analysis prevent full endorsement at this stage.
+
+## Risk / unsupported claims
+- The claim of "consistently outperforms" (R1-M1) is unsupported without visible numerical data.
+- The claim of "novel motifs" (R1-M2) is ambiguous and not fully supported by the described analysis.
+- The hypothesis for the resolution ablation results (R1-M3) is speculative and not directly tested.
+- The statement that "bpAI-TAC does not discover entirely new motifs but improves the estimation of their effect sizes" is a more accurate representation of the findings, but this nuance is not consistently reflected in the abstract and introduction.
+- The claim that "modeling ATAC-seq at base-pair resolution enables the model to learn a more nuanced and sensitive representation of the cis-regulatory syntax" is a reasonable interpretation but is not directly demonstrated; it is inferred from performance improvements and motif analyses.

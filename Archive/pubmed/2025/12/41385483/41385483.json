@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "41385483",
+    "doi": "10.1371/journal.pone.0337906",
+    "title": "Investigation of the effect and mechanisms of moxa smoke in the treatment of Influenza A Virus (IAV) infection."
+  },
+  "content": {
+    "abstract": "Influenza, primarily caused by the Influenza A virus, is a highly contagious respiratory disease. While moxa burning is a traditional method used to reduce respiratory infections, most studies have focused on the components of moxa and air disinfection, often neglecting the pharmacological effects and mechanisms of moxa smoke. This study aimed to explore the antiviral and anti-inflammatory effects of moxa smoke in vivo, as well as the underlying mechanisms involved. Utilizing multiple databases, we identified 52 components of moxa smoke that target 384 proteins, with 92 of these potentially linked to protection against H1N1. Network analysis conducted using Cytoscape revealed 16 core targets, including PPARG and STAT3. We performed molecular docking to verify the stable binding affinities of core compounds with their corresponding targets. In vivo experiments demonstrated that moxa smoke significantly decreased the number of inflammatory cells in bronchoalveolar lavage fluid (BALF), lowered the levels of H1N1 nucleoprotein (H1N1NP), and reduced the mRNA expression of cytokines with chemokines in lung tissue, including Il-6, Il-1beta, Tnf-alpha, Cxcl1, Cxcl2, Cxcl10 and Ccl2. These results suggest a reduction in lung inflammation in mice infected with the PR8 strain of the IAV. Western blot analysis indicated that moxa smoke upregulated PPARgamma and reduced phosphorylated STAT3 levels. GW9662 inhibited the reduction of recruitment of inflammatory cells by moxa smoke, but didn't inhibit the reduction of viral load after moxa smoke treatment. A four-day treatment did not cause functional injury to the lungs, kidneys, or liver of H1N1-infected mice. However, after four weeks of exposure to moxa smoke, the mice exhibited changes in organ weight and pathological damage in the lungs and kidneys. In summary, Moxa smoke suppressed influenza virus-induced inflammatory cell infiltration by upregulating PPARgamma, while simultaneously reducing viral load through PPARgamma-independent mechanisms. Short-term exposure to moxa smoke did not cause significant impairment of pulmonary, hepatic or renal function; however, prolonged exposure may result in respiratory and renal dysfunction, potentially leading to more severe adverse effects.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Orthomyxoviridae Infections/drug therapy/virology/pathology",
+      "*Influenza A Virus, H1N1 Subtype/drug effects",
+      "*Smoke",
+      "STAT3 Transcription Factor/metabolism",
+      "PPAR gamma/metabolism",
+      "*Antiviral Agents/pharmacology",
+      "Molecular Docking Simulation",
+      "Cytokines/metabolism/genetics",
+      "Mice, Inbred BALB C",
+      "Lung/virology/pathology/drug effects/metabolism",
+      "Bronchoalveolar Lavage Fluid",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Ting",
+        "Pan, Wenchao",
+        "Liang, Ziyao",
+        "Quan, Jingyu",
+        "Zhang, Miaona",
+        "Li, Huameng",
+        "Fan, Long",
+        "Yu, Xuhua"
+      ],
+      "short_names": [
+        "Cao T",
+        "Pan W",
+        "Liang Z",
+        "Quan J",
+        "Zhang M",
+        "Li H",
+        "Fan L",
+        "Yu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0633-1850"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Ting",
+        "short_name": "Cao T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Wenchao",
+        "short_name": "Pan W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Ziyao",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Quan, Jingyu",
+        "short_name": "Quan J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Miaona",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huameng",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Long",
+        "short_name": "Fan L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xuhua",
+        "short_name": "Yu X",
+        "identifiers": [
+          "0000-0002-0633-1850"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine/ Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/12 19:28",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [
+      "41992312"
+    ],
+    "refs": [
+      "40757669",
+      "40596436",
+      "40143013",
+      "38342020",
+      "37440406",
+      "36858276",
+      "36570026",
+      "36431899",
+      "36082929",
+      "35909554",
+      "35196598",
+      "34540999",
+      "34273705",
+      "33805385",
+      "33758367",
+      "33178311",
+      "32978039",
+      "32185962",
+      "31969717",
+      "31636685",
+      "31366921",
+      "31009317",
+      "30787149",
+      "30755777",
+      "30733313",
+      "30728376",
+      "30617300",
+      "30488694",
+      "30202996",
+      "30106123",
+      "29543893",
+      "29231462",
+      "29127186",
+      "29030979",
+      "28933281",
+      "28899494",
+      "28335395",
+      "28296357",
+      "27966790",
+      "27823881",
+      "27366768",
+      "27351430",
+      "27129189",
+      "27044833",
+      "26580590",
+      "26498572",
+      "25792631",
+      "25263125",
+      "24699679",
+      "23831494",
+      "23652116",
+      "22219346",
+      "21095205",
+      "20967263",
+      "20716159",
+      "20594815",
+      "20518175",
+      "20508200",
+      "20203243",
+      "19653195",
+      "19279209",
+      "18039138",
+      "17852157",
+      "17515919",
+      "15541649",
+      "15154018",
+      "14975242",
+      "11875246",
+      "11779385",
+      "1680880"
+    ],
+    "similar": [
+      "41385483",
+      "40695405",
+      "39426575",
+      "40902813",
+      "38969152",
+      "39098621",
+      "40872344",
+      "41075514",
+      "33879121",
+      "32702592",
+      "38728923",
+      "38791439",
+      "40204248",
+      "31972325",
+      "31780358",
+      "40216045",
+      "41222720",
+      "41317805",
+      "36549371",
+      "29273069",
+      "32224195",
+      "26248373",
+      "40684492",
+      "40659142",
+      "33813013",
+      "27363862",
+      "39746408",
+      "22536437",
+      "40588145",
+      "39303507",
+      "31526500",
+      "31446589",
+      "27476045",
+      "40713716",
+      "34236078",
+      "30668313",
+      "39467851",
+      "37336335",
+      "22679275",
+      "31958713",
+      "40368255",
+      "28475918",
+      "32865668",
+      "18627612",
+      "41067321",
+      "40744420",
+      "38500396",
+      "29695548",
+      "34504501",
+      "21925541",
+      "22269828",
+      "31734578",
+      "28585438",
+      "40925470",
+      "41275939",
+      "39875956",
+      "31474976",
+      "22052877",
+      "25102242",
+      "39528119",
+      "41317814",
+      "22988062",
+      "29522425",
+      "38583346",
+      "41009408",
+      "40733492",
+      "40151115",
+      "25260755",
+      "38807015",
+      "28272019",
+      "36265612",
+      "31412594",
+      "22879974",
+      "26947929",
+      "29406285",
+      "26637810",
+      "34990767",
+      "29471085",
+      "26976767",
+      "25849069",
+      "40165966",
+      "21777621",
+      "26098681",
+      "38663783",
+      "24098792",
+      "23770981",
+      "26940899",
+      "31495632",
+      "29867955",
+      "21174118",
+      "39585242",
+      "30967261",
+      "39433166",
+      "35995276",
+      "32017949",
+      "40216182",
+      "27016458",
+      "21330465",
+      "40054181",
+      "21304882"
+    ],
+    "review": [
+      "41385483"
+    ],
+    "pmc": [
+      "12700386"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0337906",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41385483/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions) as provided by the author. No supplementary files, figures, or tables were accessible beyond those referenced in the text.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the reported findings. No assessment of editorial formatting or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors claim that salt stress in *Cyclocarya paliurus* seedlings induces specific triterpenoid saponin accumulation (notably cyclocaric acid B and oleanolic acid), that integrated transcriptomic and metabolomic analyses reveal transcriptional reprogramming, that WGCNA identifies transcription factors (WRKY18, bHLH121, ERF4, ERF1) as regulators of key biosynthetic genes (DXS, SQS, HMGR), and that molecular docking supports these regulatory interactions.
+- **Visible evidence base** Results sections 2.1–2.9, including ion content data (Table 1), growth parameters (Figure 1), saponin accumulation (Table 2), PCA plots (Figures 2a, 4a), DEG counts (Figure 2b), WGCNA module-trait correlations (Figure 6b), eigengene expression trends (Figure A1b), regulatory networks (Figure A2), pathway mapping (Figure 7), and docking results (Figure 8, Figure A3, Table A5). Methods sections 4.1–4.7.
+- **Missing materials affecting confidence** Supplementary figures (A1–A5) and tables (A1–A5) were referenced but not provided. Raw sequencing data, metabolomics data, and docking scoring details were not accessible. No accession numbers for data deposition were given in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a descriptive multi-omics study of triterpenoid saponin responses to salinity in a medicinal woody species. The experimental design is straightforward, and the data collection appears thorough. However, the central claims regarding transcriptional regulation of saponin biosynthesis rest on correlative evidence (WGCNA) and in silico predictions (docking) without functional validation. The molecular docking approach, as described, is conceptually problematic because it models protein-DNA interactions using full-length protein structures predicted by AlphaFold3, which is not a standard or validated method for predicting TF-promoter binding. The manuscript would benefit from substantial revision to clarify the novelty of the findings relative to prior work on the same species, and to temper claims that are not supported by direct experimental evidence.
+- **Who would be interested in the results, and why** Researchers studying triterpenoid saponin biosynthesis in medicinal plants, particularly those interested in abiotic stress modulation of secondary metabolism. The dataset may also be of interest to those working on *Cyclocarya paliurus* as a emerging crop for saline land utilization. The WGCNA results could serve as a candidate gene resource for follow-up functional studies.
+- **Major strengths** 1) The study addresses a relevant question with practical implications for cultivation of a medicinal species on marginal saline land. 2) The experimental design includes multiple salt concentrations and two time points, allowing assessment of dose- and time-dependent responses. 3) The integration of transcriptomic and metabolomic data is appropriate for generating hypotheses about regulatory networks. 4) The authors acknowledge the predictive nature of their TF identification and explicitly call for experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of molecular docking methodology
+  - **Claim pointer** The authors claim that molecular docking "validated" the regulatory interactions between TFs (bHLH35, MYC2, ERF113, MED26B) and their target gene promoters, and that these TFs "form stable complexes with target gene promoters through extensive hydrogen-bond networks."
+  - **Evidence pointer** Section 2.9, Figure 8, Figure A3, Table A5; Methods section 4.6
+  - **Concern** The molecular docking approach is fundamentally misapplied. The authors state they performed "protein–DNA docking" using AlphaFold3-predicted protein structures and the HDOCK server. However, HDOCK is primarily designed for protein-protein docking, not protein-DNA docking. Moreover, docking a full-length transcription factor protein against a double-stranded DNA promoter sequence is not a standard or validated approach for predicting TF binding. TF-DNA binding specificity is typically assessed using methods such as electrophoretic mobility shift assays (EMSA), yeast one-hybrid, or DNA pull-downs, or computationally using position weight matrices or molecular dynamics simulations with appropriate DNA force fields. The claim that these docking results "validate" regulatory interactions is therefore unsupported. At best, the docking exercise provides speculative structural hypotheses that require experimental confirmation.
+  - **Why it matters** The docking results are presented as a key piece of evidence supporting the central claim of the paper, namely that specific TFs regulate saponin biosynthetic genes. If the methodology is not fit for purpose, the validation claim collapses, leaving only correlative WGCNA evidence. This weakens the overall conclusion substantially.
+  - **Resolution test** The authors should either (a) remove the docking section entirely and reframe the TF claims as purely correlative, (b) replace the docking with a validated computational approach for TF binding site prediction (e.g., FIMO, MEME suite) combined with experimental validation (EMSA, dual-luciferase), or (c) provide clear justification and benchmarking for the docking approach used, including demonstration that the method can correctly predict known TF-DNA interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The authors claim the study "elucidates the regulatory framework of triterpenoid saponin metabolism under salinity" and provides "a foundation for molecular breeding."
+  - **Evidence pointer** Abstract, Section 3.3, Section 5
+  - **Concern** The novelty of the findings is not clearly established. The authors cite their own prior work on flavonoid metabolism in salt-stressed C. paliurus (reference 17) and note that triterpenoid regulation in this species "remains poorly characterized." However, the present study does not demonstrate any causal regulatory relationship. The identified TFs (WRKY18, bHLH121, ERF4, ERF1) are well-known stress-responsive regulators in many plant species, and their co-expression with saponin biosynthetic genes is a weak basis for claiming a "regulatory framework." The study is largely descriptive and confirmatory of patterns already documented in other species. The claim of providing a "foundation for molecular breeding" is premature without functional validation of the candidate TFs.
+  - **Why it matters** For a Nature-style journal, the work must offer conceptual advance or mechanistic insight beyond a descriptive omics dataset. As presented, the study does not move beyond correlation to causation, and the authors themselves acknowledge the lack of experimental validation. The scientific importance is therefore limited to a candidate-gene resource.
+  - **Resolution test** The authors should either (a) provide functional evidence (e.g., overexpression or knockdown of at least one candidate TF showing altered saponin content), or (b) substantially reframe the claims to position the work as a descriptive resource rather than an elucidation of regulatory mechanisms. The introduction and discussion should also explicitly differentiate the present findings from prior omics studies in this species.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of WGCNA interpretation
+  - **Claim pointer** The authors claim that WGCNA identified modules "significantly correlated with triterpenoid saponin accumulation" and that specific TFs within these modules regulate key biosynthetic genes.
+  - **Evidence pointer** Section 2.7, Figure 6, Figure A2
+  - **Concern** The WGCNA analysis is described with insufficient detail to assess its validity. The text states that 18,206 genes were clustered into 25 modules, but does not report the soft-thresholding power selection process beyond a single value (power = 9), the number of genes per module, or the correlation coefficients and p-values for module-trait relationships. The claim that the green module was "positively correlated with all compounds except hederagenin" while the blue module was "negatively correlated with all compounds" is presented without quantitative support. Furthermore, the selection of "top 15 TFs with the highest weight value" is ambiguous; it is unclear whether this refers to intramodular connectivity, module membership, or correlation with trait values. The construction of "relative association networks" between TFs and structural genes is not described methodologically.
+  - **Why it matters** WGCNA is the primary analytical tool supporting the regulatory claims. If the parameters and thresholds are not transparent, the reproducibility and robustness of the findings cannot be evaluated. The lack of quantitative detail undermines confidence in the identified TF-gene relationships.
+  - **Resolution test** The authors should provide a detailed WGCNA methods section including: soft-thresholding analysis, module size distribution, module-trait correlation table with p-values, and a clear definition of how TFs were ranked. The association networks should be described with edge weights and significance thresholds.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation and consistency
+  - **Claim pointer** The authors state that "salt treatment at T1 significantly increased the total triterpenoid saponin and major monomer content" but at T2 "no significant effect was observed" for total content, while individual compounds like cyclocaric acid B and oleanolic acid increased.
+  - **Evidence pointer** Section 2.2, Table 2, Section 3.1
+  - **Concern** The interpretation of the saponin data is confusing. If total triterpenoid saponin content did not change at T2, but specific compounds increased substantially (e.g., oleanolic acid +196%), then other compounds must have decreased to compensate. The authors do not discuss this mass balance issue. Additionally, the statement in the abstract that "cyclocaric acid B and oleanolic acid showed significant increases" is presented as a general finding, but the time-dependence and dose-dependence of these effects are not clearly summarized. The discussion of "reprogramming at specific branch points" is speculative without flux data or enzyme activity measurements.
+  - **Why it matters** The saponin accumulation patterns are the phenotypic anchor of the study. If the interpretation of these data is ambiguous, the correlation analyses with transcriptomic data lose meaning. The authors need to clarify whether the observed changes represent a genuine shift in metabolic flux or simply reflect the specific compounds measured.
+  - **Resolution test** The authors should provide a complete table of all measured saponin compounds with their individual responses, discuss the mass balance of total vs. individual saponins, and temper claims about "branch point reprogramming" unless supported by additional evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Section 4.2, ion content measurement
+  - **Evidence pointer** Section 4.2
+  - **Issue** The methods for ion content determination are not described. The text states that K+, Ca2+, Na+, and Mg2+ were analyzed by atomic absorption spectrophotometry, but the digestion protocol, instrument settings, and quality control measures are not provided.
+  - **Required correction** Add a brief description of the digestion procedure, instrument model, and any standards or reference materials used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All results sections
+  - **Evidence pointer** Tables 1 and 2, Figures 1, 2, 4, 5, 6
+  - **Issue** The text reports p < 0.05 for significance but does not specify the statistical test used for each comparison, whether corrections for multiple testing were applied (except for WGCNA), or the number of biological replicates included in each analysis. Error bars in figures are mentioned as SD but the number of replicates is not consistently stated.
+  - **Required correction** Provide a clear statistical analysis subsection specifying tests used for each data type, and state n values in all figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Transcriptomic and metabolomic datasets
+  - **Evidence pointer** Section 4.3, 4.4
+  - **Issue** No accession numbers are provided for the raw RNA-seq or metabolomics data. The reference genome is cited with a URL, but the sequencing data should be deposited in a public repository (e.g., NCBI SRA, GEO) to enable reproducibility.
+  - **Required correction** Provide accession numbers for all raw datasets in a Data Availability Statement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality and referencing
+  - **Affected element** Figures A1, A2, A5
+  - **Evidence pointer** Sections 2.7, 2.8, 4.5
+  - **Issue** Supplementary figures are referenced but were not provided for review. The main text refers to "Figure A1a,b" and "Figure A2a,b" without describing what is shown in each panel. The eigengene expression trends mentioned in Section 2.7 are not visible in the main figures.
+  - **Required correction** Ensure all supplementary figures are submitted and referenced clearly in the text with descriptive legends.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Sections 2.9, 3.3, 4.6
+  - **Issue** The term "validated" is used in the abstract and results to describe the docking results. This overstates the evidentiary value of in silico predictions. Additionally, the phrase "protein–DNA docking" is used without acknowledging that the method employed (HDOCK) is not designed for this purpose.
+  - **Required correction** Replace "validated" with "suggested" or "predicted" throughout. Clarify the limitations of the docking approach in the methods and discussion.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Consistency of results reporting
+  - **Affected element** Section 2.1, Table 1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The text states that K+ increased by 13.1% at T1 and 15.9% at T2 under HS, but the baseline values are not reported. The reader cannot assess whether these changes are biologically meaningful without knowing the absolute concentrations.
+  - **Required correction** Report absolute values in Table 1 or in the text, not only percentage changes.
+
+## Risk / unsupported claims
+- The claim that molecular docking "validated" TF-promoter interactions is unsupported given the methodological limitations described above. This should be reframed as a predictive hypothesis.
+- The claim that the study "elucidates the regulatory framework" of triterpenoid saponin metabolism is overstated. The evidence is correlative (WGCNA) and predictive (docking), with no functional validation.
+- The claim that "WRKY18 promoted the expression of genes encoding key enzymes" (Section 3.3) implies a causal relationship that is not demonstrated by the data presented.
+- The statement in the abstract that the findings "provide a foundation for molecular breeding" is premature without functional characterization of the candidate genes.
+- The interpretation of saponin data at T2 (no change in total content but large increases in specific compounds) requires clarification of the mass balance, which is not provided.
+- The novelty of the work relative to prior omics studies in C. paliurus (including the authors' own work on flavonoids) is not clearly established.
+
+## Assessment against Nature-style criteria
+- **Originality** Limited. The application of multi-omics to salt stress in C. paliurus is incremental. Similar approaches have been widely used in other species, and the authors have previously published omics work on this species. The identification of well-known stress-responsive TF families (WRKY, bHLH, ERF) as candidates does not constitute a conceptual advance.
+- **Scientific importance** Moderate. The work provides a useful dataset for a medicinal species of regional economic interest, but the mechanistic insights are limited. The findings are unlikely to change paradigms in plant stress biology or triterpenoid metabolism.
+- **Interdisciplinary readership** Narrow. The study will primarily interest researchers in plant secondary metabolism and medicinal plant biology. The methodological approach (standard omics plus WGCNA) is not novel enough to attract a broader readership.
+- **Technical soundness** Mixed. The omics data collection appears sound, and the WGCNA approach is standard. However, the molecular docking methodology is inappropriate for the stated purpose, and the statistical reporting is incomplete. The lack of functional validation is a significant technical limitation.
+- **Readability for nonspecialists** Adequate. The manuscript is generally well-written and the logic is clear, though some sections (particularly the docking description) assume specialized knowledge. The abstract is accessible.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript presents a descriptive dataset with correlative regulatory inferences. The molecular docking section, as described, does not provide valid evidence for TF-promoter interactions and should be removed or substantially revised. The claims of regulatory mechanism and breeding foundation are not supported without functional validation. The work may be suitable for a specialized plant science journal after major revision, but it does not meet the bar for a Nature-style publication in its present form.

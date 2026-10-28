@@ -1,0 +1,479 @@
+{
+  "identity": {
+    "pmid": "34871438",
+    "doi": "10.1093/nar/gkab1141",
+    "title": "Mechanisms of distinctive mismatch tolerance between Rad51 and Dmc1 in homologous recombination."
+  },
+  "content": {
+    "abstract": "Homologous recombination (HR) is a primary DNA double-strand breaks (DSBs) repair mechanism. The recombinases Rad51 and Dmc1 are highly conserved in the RecA family; Rad51 is mainly responsible for DNA repair in somatic cells during mitosis while Dmc1 only works during meiosis in germ cells. This spatiotemporal difference is probably due to their distinctive mismatch tolerance during HR: Rad51 does not permit HR in the presence of mismatches, whereas Dmc1 can tolerate certain mismatches. Here, the cryo-EM structures of Rad51-DNA and Dmc1-DNA complexes revealed that the major conformational differences between these two proteins are located in their Loop2 regions, which contain invading single-stranded DNA (ssDNA) binding residues and double-stranded DNA (dsDNA) complementary strand binding residues, stabilizing ssDNA and dsDNA in presynaptic and postsynaptic complexes, respectively. By combining molecular dynamic simulation and single-molecule FRET assays, we identified that V273 and D274 in the Loop2 region of human RAD51 (hRAD51), corresponding to P274 and G275 of human DMC1 (hDMC1), are the key residues regulating mismatch tolerance during strand exchange in HR. This HR accuracy control mechanism provides mechanistic insights into the specific roles of Rad51 and Dmc1 in DNA double-strand break repair and may shed light on the regulatory mechanism of genetic recombination in mitosis and meiosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Cell Cycle Proteins/chemistry/genetics/*metabolism",
+      "Cryoelectron Microscopy",
+      "DNA/chemistry/genetics/metabolism",
+      "DNA Breaks, Double-Stranded",
+      "*DNA Repair",
+      "DNA-Binding Proteins/chemistry/genetics/*metabolism",
+      "*Homologous Recombination",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Multiprotein Complexes/chemistry/*metabolism/ultrastructure",
+      "Nucleic Acid Conformation",
+      "Protein Conformation",
+      "Rad51 Recombinase/chemistry/genetics/*metabolism",
+      "Sequence Homology, Amino Acid"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Jingfei",
+        "Zhao, Lingyun",
+        "Peng, Sijia",
+        "Chu, Huiying",
+        "Liang, Rui",
+        "Tian, Meng",
+        "Connell, Philip P",
+        "Li, Guohui",
+        "Chen, Chunlai",
+        "Wang, Hong-Wei"
+      ],
+      "short_names": [
+        "Xu J",
+        "Zhao L",
+        "Peng S",
+        "Chu H",
+        "Liang R",
+        "Tian M",
+        "Connell PP",
+        "Li G",
+        "Chen C",
+        "Wang HW"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0128-7766",
+        "ORCID: 0000-0001-9494-8780"
+      ],
+      "affiliations": [
+        "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "School of Life Sciences, Beijing Normal University, Beijing, 100875, China.",
+        "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "Imaging and Characterization Core Lab, King Abdullah University of Science and Technology (KAUST), Thuwal, 23955-6900, Saudi Arabia.",
+        "Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "Laboratory of Molecular Modeling and Design, State Key Laboratory of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Science, 457 Zhongshan Road, Dalian, 116023, China.",
+        "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "Department of Radiation and Cellular Oncology, University of Chicago, Chicago, IL 60615, USA.",
+        "Laboratory of Molecular Modeling and Design, State Key Laboratory of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Science, 457 Zhongshan Road, Dalian, 116023, China.",
+        "Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Jingfei",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+          "School of Life Sciences, Beijing Normal University, Beijing, 100875, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lingyun",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+          "Imaging and Characterization Core Lab, King Abdullah University of Science and Technology (KAUST), Thuwal, 23955-6900, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Peng, Sijia",
+        "short_name": "Peng S",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Huiying",
+        "short_name": "Chu H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Modeling and Design, State Key Laboratory of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Science, 457 Zhongshan Road, Dalian, 116023, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Rui",
+        "short_name": "Liang R",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Meng",
+        "short_name": "Tian M",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Connell, Philip P",
+        "short_name": "Connell PP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation and Cellular Oncology, University of Chicago, Chicago, IL 60615, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Guohui",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Modeling and Design, State Key Laboratory of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Science, 457 Zhongshan Road, Dalian, 116023, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chunlai",
+        "short_name": "Chen C",
+        "identifiers": [
+          "0000-0002-0128-7766"
+        ],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hong-Wei",
+        "short_name": "Wang HW",
+        "identifiers": [
+          "0000-0001-9494-8780"
+        ],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Protein Sciences, Tsinghua-Peking Joint Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Dec 16",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/07 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "42592724",
+      "42491125",
+      "42053800",
+      "41965838",
+      "41772053",
+      "41704388",
+      "41371341",
+      "41206037",
+      "40906377",
+      "40902007",
+      "40721016",
+      "40166259",
+      "40091075",
+      "39898551",
+      "39677717",
+      "39463417",
+      "39275989",
+      "39033257",
+      "38828772",
+      "38803223",
+      "38693181",
+      "38657110",
+      "38643305",
+      "38014100",
+      "37612290",
+      "37591853",
+      "37488098",
+      "37437397",
+      "37378420",
+      "37344589",
+      "37216117",
+      "37056290",
+      "36007010",
+      "35488998"
+    ],
+    "refs": [
+      "34043941",
+      "33593897",
+      "33446654",
+      "31731884",
+      "31371435",
+      "30713699",
+      "30412051",
+      "29599286",
+      "29458759",
+      "29458757",
+      "28493637",
+      "28476890",
+      "28464279",
+      "28250466",
+      "28193500",
+      "27941862",
+      "27801516",
+      "27596592",
+      "27587394",
+      "27499708",
+      "26880205",
+      "26649820",
+      "26592709",
+      "26583988",
+      "26569599",
+      "26511629",
+      "26459995",
+      "26384422",
+      "26315438",
+      "26088134",
+      "25684365",
+      "25561575",
+      "24150939",
+      "24084082",
+      "23240082",
+      "23000701",
+      "22955832",
+      "22941658",
+      "22560720",
+      "22467216",
+      "22275364",
+      "22066484",
+      "22013164",
+      "20705238",
+      "20124702",
+      "19122145",
+      "18840682",
+      "18535008",
+      "18497818",
+      "17639080",
+      "16988658",
+      "16981200",
+      "16926856",
+      "16838012",
+      "15572765",
+      "15264254",
+      "15235592",
+      "15125839",
+      "15123651",
+      "12759902",
+      "12442171",
+      "11166572",
+      "11123888",
+      "9573041",
+      "9330616"
+    ],
+    "similar": [
+      "34871438",
+      "26088134",
+      "33446654",
+      "24465215",
+      "26719980",
+      "21660712",
+      "28476890",
+      "35641832",
+      "24367271",
+      "26976601",
+      "22955832",
+      "31790385",
+      "39147779",
+      "26315438",
+      "29444896",
+      "38142595",
+      "37891173",
+      "38803223",
+      "29382724",
+      "15899844",
+      "32610038",
+      "32414915",
+      "15164066",
+      "36007010",
+      "33593897",
+      "26459995",
+      "34003859",
+      "29458771",
+      "20015079",
+      "37439366",
+      "16945962",
+      "36508468",
+      "22066484",
+      "21903585",
+      "27760146",
+      "24086145",
+      "27329041",
+      "15467365",
+      "30941419",
+      "20062530",
+      "10562567",
+      "18039855",
+      "15547324",
+      "24798326",
+      "28745000",
+      "26709229",
+      "23300481",
+      "32463460",
+      "15620352",
+      "27052786",
+      "37344587",
+      "39333100",
+      "30760716",
+      "18313389",
+      "21151113",
+      "27131790",
+      "36938872",
+      "23770697",
+      "31371435",
+      "21483758",
+      "22589466",
+      "31127585",
+      "37344589",
+      "27483004",
+      "22761450",
+      "32404423",
+      "15917244",
+      "31127583",
+      "18275380",
+      "30872704",
+      "30420424",
+      "23973374",
+      "38828772",
+      "32460033",
+      "38302027",
+      "27974736",
+      "11080452",
+      "24186976",
+      "27941862",
+      "29507080",
+      "29069504",
+      "34879269",
+      "9427283",
+      "15499584",
+      "25820426",
+      "34298284",
+      "18535008",
+      "37977820",
+      "26720282",
+      "1581961",
+      "25475089",
+      "25684365",
+      "15834424",
+      "21599536",
+      "22156371",
+      "21307306",
+      "35729697",
+      "15125839",
+      "37189409",
+      "16407260",
+      "23545642",
+      "29458758",
+      "17426123",
+      "19004837",
+      "38924305",
+      "30900876",
+      "28797117",
+      "30716097",
+      "24658350",
+      "15014444",
+      "37499663",
+      "37306047",
+      "18718930",
+      "31748913",
+      "38403248",
+      "38509361",
+      "33981036",
+      "26186187",
+      "39340300",
+      "32457312",
+      "32345962",
+      "37924230",
+      "31665741",
+      "38323621",
+      "38649802",
+      "38494375",
+      "27239033",
+      "38766236",
+      "38571319",
+      "38466836",
+      "38869071",
+      "39095423",
+      "11038554",
+      "37563467",
+      "35279087",
+      "39275989",
+      "28668123",
+      "39395797",
+      "38772725"
+    ],
+    "review": [
+      "34871438",
+      "35641832",
+      "38142595",
+      "26459995",
+      "20015079",
+      "15467365",
+      "18275380",
+      "25475089",
+      "35729697",
+      "37189409",
+      "31748913",
+      "38494375"
+    ],
+    "pmc": [
+      "8682777"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34871438/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34871438",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD51C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab1141",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

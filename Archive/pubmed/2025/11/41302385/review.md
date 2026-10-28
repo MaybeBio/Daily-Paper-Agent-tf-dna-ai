@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and conclusions.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the reported data. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors report that cardamonin inhibits TNF-α-induced NF-κB signaling in A549 cells by preventing RelA nuclear translocation and DNA binding, without affecting IκBα degradation. They further propose that cardamonin binds to RelA at a site distinct from Cys38, based on mutagenesis and in silico docking.
+- **Visible evidence base** Figures 2–14, supplementary figures S1, and methods sections 4.1–4.14. Statistical methods described in section 4.13.
+- **Missing materials affecting confidence** Raw data files, uncropped blots, full statistical outputs, docking parameter files, and validation metrics for the molecular docking (e.g., RMSD, scoring function benchmarks) are not provided. No in vivo data are included.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic in vitro investigation of cardamonin's inhibitory effects on TNF-α-induced NF-κB signaling. The key finding that cardamonin acts downstream of IκBα degradation and inhibits RelA nuclear translocation is supported by multiple complementary assays. However, the mechanistic claim regarding direct RelA binding is not fully established, as the mutagenesis data are indirect and the docking analysis lacks validation. The study is technically sound in its core pharmacology but falls short of providing definitive molecular evidence for the proposed binding model.
+- **Who would be interested in the results, and why** Researchers studying natural product anti-inflammatory mechanisms, NF-κB signaling regulation, and cancer biology. The work may also interest medicinal chemists exploring chalcone derivatives as lead compounds. The finding that cardamonin acts at a post-IκBα step could inform future drug development strategies targeting RelA directly.
+- **Major strengths** The study uses a logical progression from phenotypic assays (ICAM-1 expression) to mechanistic dissection (IκBα degradation, RelA translocation, DNA binding). The inclusion of multiple cell lines (A549, MCF-7, HT-1080) strengthens the generalizability of the core observation. The mutagenesis approach, while indirect, is a reasonable attempt to test the docking predictions. The manuscript is clearly written and the figures are generally well-organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim
+  - **Claim pointer** The authors claim that cardamonin inhibits RelA nuclear translocation and DNA binding by binding to a specific site on RelA, as supported by docking and mutagenesis.
+  - **Evidence pointer** Section 2.10, Figure 13; Section 2.11, Figure 14
+  - **Concern** The mutagenesis data (Figure 14) show that RelA mutants with alanine substitutions at predicted binding sites fail to undergo nuclear translocation in response to TNF-α. However, this result does not demonstrate that cardamonin binds to these sites. The mutants may be globally misfolded or defective in other functions (e.g., dimerization, importin interaction), which would also abolish translocation. The authors acknowledge this limitation but do not provide any direct binding evidence (e.g., surface plasmon resonance, isothermal titration calorimetry, or cellular thermal shift assay) to support the docking model.
+  - **Why it matters** The central mechanistic claim of the paper is that cardamonin directly targets RelA. Without direct binding data, the docking and mutagenesis results are suggestive but not conclusive. The claim that cardamonin "interacted with RelA at different sites" (abstract) is not supported by the evidence presented.
+  - **Resolution test** Provide direct binding data (e.g., pull-down, MST, or ITC) showing cardamonin binds to recombinant RelA. Alternatively, show that the RelA mutants retain normal function (e.g., dimerization, IκBα binding, or TNF-α-induced phosphorylation) to rule out global misfolding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The in silico docking analysis is used to support the proposed binding model.
+  - **Evidence pointer** Section 2.10, Figure 13; Section 4.14
+  - **Concern** The docking analysis is described with minimal methodological detail. No information is provided on the receptor preparation, ligand parameterization, search space, or scoring function validation. The authors do not report docking scores for the top models beyond a threshold of ≥ −5.8 kcal/mol, and no comparison with a positive control (e.g., a known RelA ligand) or negative control (e.g., a decoy compound) is shown. The claim that cardamonin is "not positioned close enough" to Cys38 is based on a single docking run without ensemble or induced-fit considerations.
+  - **Why it matters** Docking results are highly dependent on the chosen parameters and are prone to false positives. Without validation, the docking model cannot be used as evidence for the proposed binding mode.
+  - **Resolution test** Provide full docking parameters, include a validation set (e.g., redocking of a co-crystallized ligand), and show multiple independent runs or an ensemble docking approach. If possible, support the model with molecular dynamics simulations or a pharmacophore analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors state that cardamonin inhibits RelA binding to the ICAM-1 promoter (Section 2.5).
+  - **Evidence pointer** Section 2.5, Figure 8
+  - **Concern** The ChIP assay is performed at a single time point (2 h post-TNF-α) and with a single concentration of cardamonin (50 µM). It is unclear whether the reduced RelA binding is a direct consequence of inhibited nuclear translocation or a secondary effect of reduced total nuclear RelA. The authors do not normalize ChIP signals to input DNA in a way that accounts for differences in nuclear RelA levels. A more informative experiment would be to perform ChIP with normalization to nuclear RelA content or to use an in vitro DNA-binding assay with recombinant RelA.
+  - **Why it matters** The distinction between reduced nuclear availability and reduced intrinsic DNA-binding affinity is mechanistically important. The current data do not allow this distinction.
+  - **Resolution test** Perform ChIP with normalization to nuclear RelA levels, or use an electrophoretic mobility shift assay (EMSA) with nuclear extracts normalized for RelA content. Alternatively, test whether cardamonin inhibits DNA binding of recombinant RelA in vitro.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 2–14
+  - **Evidence pointer** Section 4.13
+  - **Issue** The statistical methods state that one-way ANOVA with Tukey's post hoc test was used, but the figure legends do not consistently report exact p-values, F-statistics, or degrees of freedom. Some figures (e.g., Figure 3A) appear to show error bars but the number of independent experiments is not always stated in the legend.
+  - **Required correction** Add a supplementary table with full statistical details for each figure, including n, mean, SD/SEM, F-statistic, and exact p-values. Ensure figure legends state the number of independent replicates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Section 4.10
+  - **Evidence pointer** Section 4.10
+  - **Issue** The description of nuclear and cytoplasmic fractionation is brief. It is not stated whether the fractions were validated for purity (e.g., by probing for compartment-specific markers). This is important because the RelA translocation data rely on clean fractionation.
+  - **Required correction** Include a statement on fraction purity validation, or show a representative blot probed for a cytoplasmic marker (e.g., tubulin) and a nuclear marker (e.g., lamin A/C) in the supplementary data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Docking figure quality
+  - **Affected element** Figure 13
+  - **Evidence pointer** Figure 13
+  - **Issue** The docking poses in Figure 13 are shown as static images without clear indication of the interacting residues or the distance to Cys38. The reader cannot assess the claim that cardamonin is "not positioned close enough" to Cys38.
+  - **Required correction** Provide a 2D interaction diagram for the top-ranked poses, with distances to Cys38 explicitly labeled. Consider showing a surface representation of the binding pocket.
+- **Technical failings that need to be addressed before the case is established** The lack of direct binding data for cardamonin-RelA interaction (R1-M1) is the primary technical gap. The docking analysis (R1-M2) is under-validated. The ChIP data (R1-M3) do not distinguish between reduced nuclear availability and reduced DNA-binding affinity.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The finding that cardamonin acts downstream of IκBα degradation is a novel contribution, as prior studies focused on upstream inhibition. However, the concept of natural products targeting RelA directly is not new.  
+  - **Scientific importance** Moderate. The study provides mechanistic insight into a widely studied natural compound, but the clinical or translational relevance is limited by the lack of in vivo data and the high concentrations (10–50 µM) used.  
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to cell signaling and natural product researchers. The docking component is not sufficiently developed to attract a computational chemistry audience.  
+  - **Technical soundness** Adequate for the core pharmacology, but the molecular mechanism claim is not fully supported. The docking and mutagenesis data are suggestive but not conclusive.  
+  - **Readability for nonspecialists** The manuscript is clearly written and the logical flow is easy to follow. However, the docking section may be difficult for readers without computational biology background.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation that cardamonin inhibits RelA nuclear translocation downstream of IκBα degradation is well-supported and of interest. However, the mechanistic claim of direct RelA binding requires additional evidence. The manuscript would be strengthened by direct binding assays and a more rigorous docking validation.
+
+## Risk / unsupported claims
+- The claim that cardamonin "interacted with RelA at different sites" (abstract) is not supported by direct binding data.
+- The claim that cardamonin inhibits RelA DNA binding by preventing structural changes (Discussion) is a hypothesis, not a demonstrated mechanism.
+- The statement that "cardamonin exhibited the same inhibitory profiles in MCF-7 and HT-29 cells" (Section 2.4) is supported by the data, but the functional significance of this observation is not explored.
+- The in silico docking model is presented as supportive evidence, but the lack of validation metrics makes the model unverifiable from the provided information.

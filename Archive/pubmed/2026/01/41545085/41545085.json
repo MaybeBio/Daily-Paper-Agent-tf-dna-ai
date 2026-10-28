@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "41545085",
+    "doi": "10.1101/gr.281219.125",
+    "title": "A scalable computational framework for predicting gene expression from candidate cis-regulatory elements."
+  },
+  "content": {
+    "abstract": "Deciphering the relationships between cis-regulatory elements (CREs) and target gene expression has been a long-standing unsolved problem in molecular biology, and the dynamics of CREs in different cell types make this problem more challenging. To address this challenge, we propose a scalable computational framework for predicting gene expression (ScPGE) from discrete candidate CREs (cCREs). ScPGE assembles DNA sequences, transcription factor (TF) binding scores, and epigenomic tracks from discrete cCREs into three-dimensional tensors, and then models the relationships between cCREs and genes by combining convolutional neural networks with transformers. Compared with current state-of-the-art models, ScPGE exhibits superior performance in predicting gene expression and yields higher accuracy in identifying active enhancer-gene interactions through attention mechanisms. By comprehensively analyzing ScPGE's predictions, we find a pattern in true positives (TPs) that the regulatory effect of cCREs on genes decreases with distance. Inspired by the pattern, we design two methods to enhance the ability to capture distal cCRE-gene interactions by incorporating chromatin loops into the ScPGE model. Furthermore, ScPGE accurately discovers some crucial TF motifs within prioritized cCREs and reveals the different regulatory types of these cCREs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "Transcription Factors/metabolism",
+      "*Regulatory Sequences, Nucleic Acid",
+      "*Gene Expression Regulation",
+      "*Regulatory Elements, Transcriptional",
+      "Animals",
+      "Prediction Algorithms",
+      "Humans",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qinhu",
+        "Wang, Siguo",
+        "Li, Zhipeng",
+        "Bao, Wenzheng",
+        "Liu, Wenjian",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "Wang S",
+        "Li Z",
+        "Bao W",
+        "Liu W",
+        "Huang DS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4232-7736"
+      ],
+      "affiliations": [
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo 315201, China.",
+        "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning, 530007, China.",
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo 315201, China.",
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo 315201, China.",
+        "School of Information Engineering, Xuzhou University of Technology, Xuzhou 221018, China.",
+        "Faculty of Data Science, City University of Macau, Macau 999078, China.",
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo 315201, China; dshuang@eitech.edu.cn.",
+        "Institute for Regenerative Medicine, Shanghai East Hospital, Tongji University, Shanghai 200092, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0002-4232-7736"
+        ],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo 315201, China.",
+          "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning, 530007, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo 315201, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhipeng",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo 315201, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Wenzheng",
+        "short_name": "Bao W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Xuzhou University of Technology, Xuzhou 221018, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenjian",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Data Science, City University of Macau, Macau 999078, China."
+        ]
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo 315201, China; dshuang@eitech.edu.cn.",
+          "Institute for Regenerative Medicine, Shanghai East Hospital, Tongji University, Shanghai 200092, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2026 Feb 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/17 00:36",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40542429",
+      "40221460",
+      "39609566",
+      "38036778",
+      "37996959",
+      "37443338",
+      "35668082",
+      "35396274",
+      "34608324",
+      "34399797",
+      "33828297",
+      "33184104",
+      "32483332",
+      "31784727",
+      "31530818",
+      "31186519",
+      "31086298",
+      "30869141",
+      "30612741",
+      "30462313",
+      "30262496",
+      "30106688",
+      "29140464",
+      "27643841",
+      "26686651",
+      "25497547",
+      "22705667",
+      "21486936",
+      "17324271"
+    ],
+    "similar": [
+      "41545085",
+      "25442502",
+      "41832145",
+      "37996959",
+      "22456606",
+      "41285795",
+      "39183303",
+      "38951027",
+      "29617928",
+      "32043966",
+      "39131276",
+      "41299571",
+      "40633682",
+      "31318408",
+      "35396274",
+      "40369872",
+      "42140663",
+      "16817975",
+      "22313678",
+      "34570239",
+      "37090552",
+      "38232730",
+      "28204599",
+      "41288963",
+      "25637093",
+      "39814889",
+      "31969180",
+      "40240358",
+      "38631728",
+      "25281301",
+      "39904740",
+      "42560939",
+      "39127768",
+      "38940155",
+      "32770026",
+      "25788622",
+      "24604095",
+      "33874910",
+      "42026468",
+      "41978381",
+      "34292930",
+      "22369687",
+      "27490187",
+      "41782896",
+      "23272209",
+      "39217141",
+      "25303887",
+      "41057793",
+      "22534400",
+      "41662352",
+      "34219317",
+      "39843737",
+      "33990324",
+      "31915147",
+      "22955983",
+      "40102719",
+      "40382355",
+      "24603674",
+      "19426448",
+      "27567672",
+      "20808951",
+      "37066352",
+      "23554462",
+      "41926741",
+      "32054475",
+      "34486522",
+      "14638323",
+      "21637747",
+      "37034577",
+      "31006511",
+      "22941648",
+      "39814021",
+      "29298348",
+      "41643202",
+      "26772747",
+      "39724337",
+      "40332394",
+      "22683808",
+      "18311145",
+      "33978759",
+      "41920894",
+      "12971721",
+      "29051499",
+      "39679439",
+      "27064982",
+      "20422009",
+      "40421528",
+      "36708003",
+      "42475469",
+      "31786786",
+      "32728248",
+      "25624274",
+      "29116820",
+      "18950538",
+      "29733395",
+      "38715516",
+      "34650237",
+      "20671200",
+      "15890068",
+      "39082647"
+    ],
+    "review": [
+      "41545085",
+      "25637093",
+      "14638323",
+      "12971721",
+      "25624274"
+    ],
+    "pmc": [
+      "12863192"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=41545085",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41545085/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

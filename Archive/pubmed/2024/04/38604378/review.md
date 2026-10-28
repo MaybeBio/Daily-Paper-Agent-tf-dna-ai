@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report crystal structures of the human androgen receptor DNA binding domain (AR DBD) bound to two natural androgen response elements (C3 and MTV) in head-to-head dimer conformations at 2.05 Å and 2.25 Å resolution. They use BioLayer Interferometry (BLI) to measure binding affinities and Molecular Dynamics (MD) simulations for validation. They propose that high-affinity binding of the first DBD to the upstream 5'-AGAACA-3' motif drives cooperative binding of the second DBD to a less conserved hexanucleotide, with variations in binding arising from differences in DNA occupancy, protein-protein interactions, binding affinity, and energy profiles, and suggest functional consequences.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, crystallographic data and refinement statistics, BLI experimental details and raw binding curves, MD simulation parameters and trajectories, mutation data for androgen insensitivity mutations, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structural and biophysical study of AR DBD binding to natural AREs, with implications for understanding androgen insensitivity mutations. However, the provided material is insufficient to evaluate the technical soundness of the crystallographic, biophysical, and computational work, and several claims are stated without supporting quantitative data. The core conclusion regarding cooperative binding and the mechanistic basis for variations in DNA binding is plausible but not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in steroid hormone receptor biology, structural biology of transcription factors, and molecular endocrinology would be interested. The findings could inform understanding of androgen insensitivity syndrome and the design of AR-targeting therapeutics, and the structural data may be useful for computational studies of DBD-DNA interactions.
+- **Major strengths** The study addresses a relevant question about how AR DBD recognizes natural AREs with sequence variations. The combination of crystallography, BLI, and MD simulations is a multi-pronged approach that could provide complementary insights. The reported high-resolution structures (2.05 Å and 2.25 Å) suggest potentially high-quality crystallographic data, if properly refined.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the structures "help to explain the impact of androgen insensitivity mutations on the structure integrity, DNA binding and DBD dimerization."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No specific mutations are named, and no structural or functional data linking specific mutations to observed effects are presented in the abstract. The claim implies a direct mechanistic connection that cannot be assessed without details on which mutations were studied, how they were introduced, and what structural or binding changes were observed.
+  - **Why it matters** This claim is a key translational aspect of the work, connecting basic structural biology to a clinical condition. Without explicit evidence, the claim is unsupported and could overstate the clinical relevance.
+  - **Resolution test** Provide a list of mutations studied, with structural comparisons (e.g., mutant versus wild-type DBD structures or models) and quantitative binding data showing altered affinity or dimerization, with statistical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "the high binding affinity of the first DBD to the upstream 5'-AGAACA-3' motif induces the cooperative binding of the second DBD to the second hexanucleotide."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of cooperativity is central to the paper's mechanistic model, but no quantitative measure of cooperativity (e.g., Hill coefficient, ratio of dimer to monomer binding affinities) is provided. BLI measurements are mentioned but not described in terms of experimental design, replicates, or error analysis. MD simulations are cited as validation but no details on convergence, force fields, or free energy calculations are given.
+  - **Why it matters** Cooperativity is a specific thermodynamic phenomenon that requires rigorous demonstration. Without quantitative binding data and statistical analysis, the claim is not established.
+  - **Resolution test** Show BLI binding curves and fitted affinities for monomeric and dimeric DBD binding to each ARE, with a clear demonstration that the second binding event is enhanced relative to independent binding, and support with MD-derived free energy profiles or similar.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "variation in binding between the DBD monomers are the result of differences in DNA occupancy, protein-protein interactions, DNA binding affinity, and DNA binding energy profiles."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This is a multi-factorial claim that lists four distinct contributors, but no data are presented to disentangle their relative contributions. The phrase "DNA occupancy" is ambiguous, and no structural or energetic comparisons between the two DBD monomers are quantified.
+  - **Why it matters** The claim is presented as a conclusion, but it reads as a summary of observations without supporting metrics. The reader cannot judge whether the listed factors are independently measured or inferred.
+  - **Resolution test** Provide per-monomer structural comparisons (e.g., buried surface area, hydrogen bonds), per-site binding affinities, and energy decomposition from MD, with clear statistical or error assessments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses terms like "head-to-head dimer conformations" and "non-canonical hexanucleotides" without brief definition, which may limit accessibility for readers outside the steroid receptor field.
+  - **Required correction** Add a brief parenthetical explanation of "head-to-head" (e.g., DBDs arranged in opposite orientations on the DNA) and clarify what makes a hexanucleotide "non-canonical" (e.g., sequence deviation from the consensus).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text
+  - **Issue** The resolution values (2.05 Å and 2.25 Å) are reported without mention of crystallographic R-factors, which are standard for assessing structure quality.
+  - **Required correction** Include R-work and R-free values, or state that they are provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text
+  - **Issue** The final sentence "We propose this has functional consequences" is vague and does not specify what functions are affected or how.
+  - **Required correction** Specify the proposed functional consequences (e.g., differential gene regulation, response to ligand, or mutation effects) and indicate whether any functional assays were performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological detail to verify the central claims regarding mutation effects, cooperativity, and the mechanistic basis for binding variation.
+- **Assessment against Nature-style criteria** Originality: The study addresses a known question (AR DBD binding to natural AREs) but may offer new structural insights; however, the abstract does not clearly differentiate from prior AR DBD structures. Scientific importance: Potentially high for the steroid receptor field, but the clinical relevance is overstated without mutation data. Interdisciplinary readership: The abstract is likely accessible to structural biologists and endocrinologists, but less so to general readers. Technical soundness: Cannot be assessed from the abstract; crystallographic and biophysical details are missing. Readability for nonspecialists: The abstract is concise but uses field-specific jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible model, but the lack of quantitative data and methodological detail prevents verification of the core claims. A full manuscript with detailed methods and results would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that the structures "help to explain the impact of androgen insensitivity mutations" is unsupported because no specific mutations or data are presented.
+- The claim of cooperative binding is unsupported without quantitative binding measurements or statistical analysis.
+- The multi-factorial explanation for binding variation (DNA occupancy, protein-protein interactions, binding affinity, energy profiles) is stated without supporting data.
+- The proposal of "functional consequences" is vague and not tied to any experimental evidence.
+- The quality of the crystallographic structures cannot be evaluated without R-factors or other validation metrics.

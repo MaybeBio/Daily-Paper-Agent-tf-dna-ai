@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "40021664",
+    "doi": "10.1038/s41598-025-89344-y",
+    "title": "Molecular insights into ulcerative colitis and orbital inflammation."
+  },
+  "content": {
+    "abstract": "Ulcerative colitis (UC) is an increasingly prevalent inflammatory condition affecting the intestinal mucosa, while nonspecific orbital inflammation (NSOI) is a common non-neoplastic orbital disorder. Exploring the molecular interplay between UC and NSOI may help physicians make earlier diagnoses and enhance treatment approaches. We analyzed gene expression datasets (GSE58331, GSE105149, GSE206285, and GSE179285) for UC and NSOI from the GEO database. Using WGCNA and differential expression analysis, we identified genes commonly altered in both diseases. GO enrichment, PPI networks, and transcription factor prediction were performed using Cytoscape plugins (cytoHubba and iRegulon). Machine learning techniques were employed to assess transcription factor activity and evaluate potential therapeutic targets among the hub genes. We conducted an association analysis using the TwoSampleMR package in R to explore potential causal relationships between NSOI and UC. A total of 85 intersecting genes between NSOI and UC were identified, and enrichment analyses revealed their roles in immune and inflammatory processes. Key biomarkers, including CXCL10, CXCR4, CXCL9, CD27, SELL, MMP9, CD79A, CD3E, GZMK, and CCL19, were highlighted, linking them to processes such as leukocyte migration, viral response, and monocyte differentiation. STAT1 was identified as a shared transcription factor influencing both diseases. Machine learning algorithms identified eight potential genes for diagnostic and therapeutic use, with CXCL10 emerging as a key player in the pathogenesis of NSOI and UC. CXCL10 likely regulates CXCR4, LCK, CCR7, and other genes involved in pathways such as cytokine-cytokine receptor interactions, HIV-1 infection, and Epstein-Barr virus infection. This study offers insights into the co-pathogenic mechanisms of UC and NSOI, providing a foundation for further mechanistic research and therapeutic development.",
+    "keywords": [
+      "Autoimmune inflammatory disorder",
+      "Lasso regression",
+      "Mendelian randomization",
+      "Nonspecific orbital inflammation (NSOI)",
+      "SVM-RFE",
+      "Ulcerative colitis (UC)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colitis, Ulcerative/genetics/metabolism/pathology",
+      "*Inflammation/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Protein Interaction Maps",
+      "Biomarkers/metabolism",
+      "Databases, Genetic",
+      "Machine Learning",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, Kang",
+        "Liu, Pei",
+        "Wu, Zixuan",
+        "Long, Xi",
+        "Yu, Yunfeng",
+        "Jiang, Pengfei",
+        "Peng, Qinghua"
+      ],
+      "short_names": [
+        "Tan K",
+        "Liu P",
+        "Wu Z",
+        "Long X",
+        "Yu Y",
+        "Jiang P",
+        "Peng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Ophthalmology Center, Zhejiang Medical Health Quzhou Hospital, Quzhou, 324004, Jiangsu Province, China. 619926567@qq.com.",
+        "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China. pqh410007@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, Kang",
+        "short_name": "Tan K",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Pei",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zixuan",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Long, Xi",
+        "short_name": "Long X",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yunfeng",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Pengfei",
+        "short_name": "Jiang P",
+        "identifiers": [],
+        "affiliations": [
+          "Ophthalmology Center, Zhejiang Medical Health Quzhou Hospital, Quzhou, 324004, Jiangsu Province, China. 619926567@qq.com."
+        ]
+      },
+      {
+        "full_name": "Peng, Qinghua",
+        "short_name": "Peng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China. pqh410007@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Feb 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/01 14:40",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "41953020",
+      "41026280"
+    ],
+    "refs": [
+      "39458495",
+      "38489590",
+      "38341348",
+      "38338832",
+      "38115300",
+      "38070204",
+      "38065859",
+      "38044453",
+      "37898694",
+      "37876509",
+      "37832948",
+      "37695130",
+      "37634571",
+      "37414101",
+      "37142141",
+      "37106067",
+      "36219172",
+      "36076300",
+      "35719390",
+      "35669499",
+      "35392084",
+      "35352887",
+      "35346509",
+      "35311049",
+      "35165437",
+      "35152727",
+      "34793830",
+      "34090626",
+      "34012433",
+      "33852556",
+      "33706134",
+      "32717379",
+      "32603431",
+      "32413737",
+      "31528770",
+      "31278430",
+      "30891036",
+      "30405234",
+      "29497344",
+      "27914657",
+      "26974421",
+      "23154639",
+      "21574661",
+      "16920977",
+      "16505042"
+    ],
+    "similar": [
+      "40021664",
+      "39402101",
+      "39164324",
+      "38605967",
+      "40155679",
+      "38233749",
+      "39673621",
+      "38903815",
+      "38900395",
+      "33941565",
+      "37494129",
+      "37957905",
+      "38656456",
+      "39975557",
+      "38117365",
+      "39524758",
+      "39766817",
+      "40304766",
+      "39712025",
+      "39647286",
+      "39548254",
+      "35392084",
+      "38951638",
+      "33132649",
+      "38987612",
+      "39026683",
+      "33144895",
+      "39142001",
+      "36631011",
+      "39568749",
+      "39707393",
+      "38849409",
+      "32190668",
+      "39738583",
+      "36742304",
+      "39414957",
+      "39396400",
+      "38065859",
+      "33132321",
+      "39986196",
+      "39953769",
+      "38899746",
+      "33462173",
+      "37782162",
+      "40175429",
+      "36860851",
+      "36419192",
+      "38791570",
+      "38070204",
+      "37055495",
+      "39170615",
+      "37904419",
+      "39182484",
+      "38059894",
+      "37481583",
+      "38977802",
+      "40330488",
+      "27273946",
+      "38274809",
+      "34592880",
+      "38880160",
+      "37530128",
+      "40245021",
+      "38863714",
+      "35959356",
+      "34731452",
+      "39375405",
+      "35955742",
+      "39086489",
+      "32489050",
+      "38303405",
+      "25182475",
+      "39496786",
+      "39478467",
+      "39741751",
+      "37889323",
+      "39991734",
+      "32570281",
+      "38664443",
+      "37898694",
+      "33845143",
+      "31258663",
+      "31214045",
+      "38736878",
+      "38615385",
+      "40328901",
+      "40093802",
+      "32974809",
+      "39161963",
+      "39080525",
+      "39769269",
+      "35719390",
+      "38774864",
+      "38711508",
+      "39568189",
+      "38550602",
+      "37322958",
+      "39987439",
+      "34553293",
+      "38448514"
+    ],
+    "review": [
+      "40021664",
+      "38059894"
+    ],
+    "pmc": [
+      "11871363"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-89344-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40021664/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-929",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

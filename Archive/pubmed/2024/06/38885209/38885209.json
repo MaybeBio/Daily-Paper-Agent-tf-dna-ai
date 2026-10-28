@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "38885209",
+    "doi": "10.1371/journal.pone.0301647",
+    "title": "Ferroptosis-related gene MAPK3 is associated with the neurological outcome after cardiac arrest."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Neuronal ferroptosis is closely related to the disease of the nervous system, and the objective of the present study was to recognize and verify the potential ferroptosis-related genes to forecast the neurological outcome after cardiac arrest. METHODS: Cardiac Arrest-related microarray datasets GSE29540 and GSE92696 were downloaded from GEO and batch normalization of the expression data was performed using \"sva\" of the R package. GSE29540 was analyzed to identify DEGs. Venn diagram was applied to recognize ferroptosis-related DEGs from the DEGs. Subsequently, The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis were performed, and PPI network was applied to screen hub genes. Receiver operating characteristic (ROC) curves were adopted to determine the predictive value of the biomarkers, and the GSE92696 dataset was applied to further evaluate the diagnostic efficacy of the biomarkers. We explore transcription factors and miRNAs associated with hub genes. The \"CIBERSORT\" package of R was utilized to analyse the proportion infiltrating immune cells. Finally, validated by a series of experiments at the cellular level. RESULTS: 112 overlapping ferroptosis-related DEGs were further obtained via intersecting these DEGs and ferroptosis-related genes. The GO and KEGG analysis demonstrate that ferroptosis-related DEGs are mainly involved in response to oxidative stress, ferroptosis, apoptosis, IL-17 signalling pathway, autophagy, toll-like receptor signalling pathway. The top 10 hub genes were selected, including HIF1A, MAPK3, PPARA, IL1B, PTGS2, RELA, TLR4, KEAP1, SREBF1, SIRT6. Only MAPK3 was upregulated in both GSE29540 and GAE92696. The AUC values of the MAPK3 are 0.654 and 0.850 in GSE29540 and GSE92696 respectively. The result of miRNAs associated with hub genes indicates that hsa-miR-214-3p and hsa-miR-483-5p can regulate the expression of MAPK3. MAPK3 was positively correlated with naive B cells, macrophages M0, activated dendritic cells and negatively correlated with activated CD4 memory T cells, CD8 T cells, and memory B cells. Compared to the OGD4/R24 group, the OGD4/R12 group had higher MAPK3 expression at both mRNA and protein levels and more severe ferroptosis. CONCLUSION: In summary, the MAPK3 ferroptosis-related gene could be used as a biomarker to predict the neurological outcome after cardiac arrest. Potential biological pathways provide novel insights into the pathogenesis of cardiac arrest.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Biomarkers/metabolism",
+      "*Ferroptosis/genetics",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Gene Regulatory Networks",
+      "*Heart Arrest/genetics",
+      "MicroRNAs/genetics",
+      "Protein Interaction Maps/genetics",
+      "ROC Curve",
+      "Mitogen-Activated Protein Kinase 3"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hou, Hong Xiang",
+        "Pang, Li",
+        "Zhao, Liang",
+        "Xing, Jihong"
+      ],
+      "short_names": [
+        "Hou HX",
+        "Pang L",
+        "Zhao L",
+        "Xing J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6472-9517"
+      ],
+      "affiliations": [
+        "Department of Emergency, The First Hospital of Jilin University, Changchun, China.",
+        "Department of Emergency, The First Hospital of Jilin University, Changchun, China.",
+        "Rehabilitation Department, The First Hospital of Jilin University, Changchun, China.",
+        "Department of Emergency, The First Hospital of Jilin University, Changchun, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hou, Hong Xiang",
+        "short_name": "Hou HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The First Hospital of Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Li",
+        "short_name": "Pang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The First Hospital of Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Liang",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Department, The First Hospital of Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Jihong",
+        "short_name": "Xing J",
+        "identifiers": [
+          "0000-0002-6472-9517"
+        ],
+        "affiliations": [
+          "Department of Emergency, The First Hospital of Jilin University, Changchun, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/17 18:43",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "41164195",
+      "40918411",
+      "40779572",
+      "40365116"
+    ],
+    "refs": [
+      "38199096",
+      "38112196",
+      "37695472",
+      "37308192",
+      "36949360",
+      "36572909",
+      "36503279",
+      "36434649",
+      "36427096",
+      "36411664",
+      "36407421",
+      "36305834",
+      "36226171",
+      "36156537",
+      "35864966",
+      "35695264",
+      "35624495",
+      "35574010",
+      "35571244",
+      "35337359",
+      "35244745",
+      "35226829",
+      "35197442",
+      "35196426",
+      "35143157",
+      "35078371",
+      "35054890",
+      "34955860",
+      "34943973",
+      "34705079",
+      "34618729",
+      "34560374",
+      "34469757",
+      "34417831",
+      "34303216",
+      "34239024",
+      "33773833",
+      "33765189",
+      "33662979",
+      "33517223",
+      "33444733",
+      "32915254",
+      "32787543",
+      "32562686",
+      "32479993",
+      "32219413",
+      "31920915",
+      "31545574",
+      "31474876",
+      "31291775",
+      "30778133",
+      "30700139",
+      "30476243",
+      "30261516",
+      "29896429",
+      "29625173",
+      "28985560",
+      "28814571",
+      "25822800",
+      "24132163",
+      "22632970",
+      "22569528",
+      "22455463",
+      "20828914",
+      "19744622",
+      "18189318",
+      "14597658",
+      "10802651",
+      "10592173",
+      "1860248"
+    ],
+    "similar": [
+      "38885209",
+      "39586719",
+      "40263537",
+      "40790764",
+      "39556279",
+      "39284931",
+      "41444522",
+      "38020614",
+      "33407587",
+      "34536521",
+      "36291136",
+      "41940395",
+      "35637927",
+      "40024299",
+      "36335193",
+      "38701300",
+      "40628511",
+      "41286198",
+      "37359526",
+      "41044520",
+      "39789929",
+      "38527674",
+      "40561071",
+      "37259023",
+      "40665411",
+      "40821971",
+      "35401659",
+      "38728466",
+      "39798208",
+      "37492576",
+      "38957433",
+      "39375405",
+      "38650009",
+      "41146237",
+      "39754246",
+      "38873601",
+      "36118873",
+      "39192637",
+      "36110200",
+      "36506310",
+      "38734758",
+      "36438903",
+      "38062833",
+      "40370730",
+      "39608795",
+      "33274216",
+      "40977739",
+      "42530267",
+      "41738361",
+      "37520121",
+      "34233597",
+      "35558576",
+      "41667698",
+      "40692778",
+      "38993198",
+      "39218162",
+      "38444712",
+      "40635026",
+      "37250717",
+      "41479901",
+      "41468478",
+      "36343018",
+      "40996982",
+      "36837498",
+      "42050477",
+      "37235492",
+      "38902567",
+      "38875180",
+      "37325630",
+      "31987036",
+      "35702326",
+      "35016690",
+      "37033969",
+      "39342024",
+      "42327749",
+      "34553293",
+      "36101331",
+      "40228223",
+      "41511918",
+      "37550393",
+      "38549107",
+      "41533020",
+      "40918403",
+      "39028999",
+      "35392084",
+      "38718074",
+      "40245021",
+      "38509535",
+      "38774257",
+      "42092981",
+      "31553078",
+      "36798084",
+      "38443950",
+      "35713363",
+      "38057699",
+      "41059137",
+      "40119934",
+      "36627660",
+      "39670237",
+      "34390411"
+    ],
+    "review": [
+      "38885209",
+      "40665411"
+    ],
+    "pmc": [
+      "11182507"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38885209/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/suddencardiacarrest.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sudden Cardiac Arrest"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0301647",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38885209/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38885209",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

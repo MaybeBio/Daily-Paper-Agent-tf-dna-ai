@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.13498332.v1",
+  "title": "De Novo Molecule Design Through Molecular Generative Model Conditioned by 3D Information of Protein Binding Sites",
+  "authors": "Mingyuan Xu; Ting Ran; Hongming Chen",
+  "journal": "ChemRxiv",
+  "published_date": "2020-12-29",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于蛋白结合口袋3D信息的条件RNN分子生成模型，虽涉及蛋白-配体互作而非蛋白-DNA，但口袋描述与生成建模方法可迁移至TF-DNA结合位点导向的分子设计。",
+  "abstract": "De novo molecule design through molecular generative model is gaining increasing attention in recent years. Here a novel generative model was proposed by integrating the 3D structural information of the protein binding pocket into the conditional RNN (cRNN) model to control the generation of drug-like molecules. In this model, the composition of protein binding pocket is effectively characterized through a coarse-grain strategy and the three-dimensional information of the pocket can be represented by the sorted eigenvalues of the coulomb matrix (EGCM) of the coarse-grained atoms composing the binding pocket. In current work, we used our EGCM method and a previously reported binding pocket descriptor DeeplyTough to train cRNN models and compared their performance. It has been shown that the molecules generated with the control of protein environment information have a clear tendency on generating compounds with higher similarity to the original X-ray bound ligand than normal RNN model and also achieving better performance in terms of docking scores. Our results demonstrate the potential application of EGCM controlled generative model for the targeted molecule generation and guided exploration on the drug-like chemical space.",
+  "abstract_zh": "近年来，通过分子生成模型进行全新药物设计日益受到关注。本研究提出了一种新型生成模型，将蛋白质结合口袋的三维结构信息整合进条件循环神经网络（cRNN）模型中，以控制类药分子的生成。在该模型中，蛋白质结合口袋的组成通过粗粒化策略有效表征，而口袋的三维信息则通过构成结合口袋的粗粒化原子库仑矩阵（EGCM）的特征值排序来表示。在本工作中，我们使用EGCM方法及先前报道的结合口袋描述符DeeplyTough来训练cRNN模型，并比较了它们的性能。结果表明，在蛋白质环境信息控制下生成的分子，相较于普通RNN模型，明显倾向于生成与原始X射线结合配体相似度更高的化合物，并且在对接分数方面也取得了更优表现。我们的结果展示了EGCM控制生成模型在靶向分子生成及药物样化学空间引导探索中的潜在应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.13498332.v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.13498332.v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.13498332.v1/index.html"
+}

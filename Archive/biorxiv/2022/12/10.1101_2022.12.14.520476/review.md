@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, experiments, methods, data/code availability)
+- **Assessment boundary** Scientific claims, methodological soundness, experimental design, and evidence presented in the manuscript
+- **Shared manuscript claim summary** The authors present EquiPPIS, an E(3) equivariant graph neural network for partner-independent protein-protein interaction (PPI) site prediction. They claim that EquiPPIS substantially outperforms state-of-the-art methods using experimental structures, and achieves better accuracy with AlphaFold2-predicted structures than existing methods achieve with experimental structures. They further claim that the performance gains are directly attributable to the equivariant architecture.
+- **Visible evidence base** Tables 1-2, Figures 1-4, Methods section, benchmark datasets (Dset_186, Dset_72, Dset_164, Train_335, Test_60, UBtest_31, Validation_42)
+- **Missing materials affecting confidence** Supplementary figures/tables, detailed hyperparameter grid search results, statistical significance tests, per-protein performance breakdowns, and code execution verification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in structural bioinformatics with a timely and well-motivated methodological contribution. The core idea of applying E(3) equivariant graph neural networks to PPI site prediction is novel and the results are promising. However, several technical concerns regarding experimental rigor, statistical validation, and generalizability need to be addressed before the claims are fully established.
+- **Who would be interested in the results, and why** Computational biologists, structural bioinformaticians, and machine learning researchers working on protein structure prediction and function annotation. The demonstrated robustness to predicted structures is particularly relevant given the widespread adoption of AlphaFold2.
+- **Major strengths** The problem is well-motivated and timely. The methodological choice of E(3) equivariant networks is principled and clearly explained. The experimental design includes appropriate baselines and ablation studies. The robustness analysis with AlphaFold2 structures is a significant contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "EquiPPIS substantially outperforms state-of-the-art approaches based on the same experimental input"
+  - **Evidence pointer** Table 1, location not provided
+  - **Concern** The performance comparisons in Table 1 are presented as point estimates without any measure of variance or statistical significance. Given the relatively small test set (60 proteins), the observed differences could be within the range of random variation. No confidence intervals, standard deviations, or statistical tests (e.g., paired bootstrap, McNemar's test) are reported.
+  - **Why it matters** Without statistical validation, the claim of "substantial outperformance" cannot be reliably distinguished from chance variation, particularly for metrics like MCC and PR-AUC that can be sensitive to small sample sizes.
+  - **Resolution test** Provide confidence intervals or standard deviations across multiple runs or bootstrap resampling, and perform appropriate statistical significance tests (e.g., paired bootstrap test) comparing EquiPPIS against each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** "EquiPPIS attains better accuracy with AlphaFold2-predicted structural models as input than what existing methods can achieve even with experimental structures"
+  - **Evidence pointer** Table 2, location not provided
+  - **Concern** The AlphaFold2 evaluation is performed on the same Test_60 set used for the primary comparison. It is unclear whether the AlphaFold2 models were generated from the same sequences as the experimental structures, and whether the quality of these predicted models is representative of typical AlphaFold2 performance. Additionally, the comparison with GraphPPIS using AlphaFold2 structures is only reported for PR-AUC, not for other metrics.
+  - **Why it matters** The claim of robustness to predicted structures is central to the paper's significance. If the AlphaFold2 models are of unusually high quality or if the comparison is incomplete, the generalizability of this finding to real-world applications is uncertain.
+  - **Resolution test** Report full metrics (accuracy, precision, recall, F1, MCC, ROC-AUC, PR-AUC) for all methods with AlphaFold2 input. Provide quality assessment of the AlphaFold2 models (e.g., pLDDT distribution) and consider evaluating on a separate set of proteins not used in training.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** "We directly verify that the performance gains are connected to the unique E(3) equivariant architecture of EquiPPIS"
+  - **Evidence pointer** Figure 3, location not provided
+  - **Concern** The ablation study compares EquiPPIS against an invariant variant and a variant without attention. However, the invariant variant is created by "turning off coordinate updates," which may not be equivalent to a properly designed invariant baseline. The comparison with off-the-shelf GNNs (GCN, GAT) is informative but these baselines may not have been optimized to the same extent as EquiPPIS.
+  - **Why it matters** The claim that equivariance is responsible for the performance gain requires a clean experimental isolation of the equivariance property. If the invariant baseline is not a fair representation of an invariant architecture, the conclusion may be overstated.
+  - **Resolution test** Provide a more rigorous invariant baseline (e.g., an architecture that is explicitly designed to be invariant, not just a modified equivariant network). Report hyperparameter tuning details for all baselines to ensure fair comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "EquiPPIS is implemented on Pytorch 1.12.0 and Deep Graph Library (DGL) 0.9.0"
+  - **Evidence pointer** Methods section, location not provided
+  - **Concern** The manuscript does not provide sufficient details on the exact architecture configuration (e.g., number of layers, hidden dimensions, activation functions, normalization) beyond the high-level description. The training procedure mentions "at most 50 epochs" but does not specify early stopping criteria, batch size, or data loading details.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete architectural and training details, independent researchers cannot reliably replicate the results.
+  - **Resolution test** Provide a complete specification of the architecture and training procedure, including all hyperparameters, in the Methods or Supplementary Information. Consider releasing the training code and configuration files.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2, location not provided
+  - **Issue** The representative examples in Figure 2 are described qualitatively but the figure itself is not shown in the manuscript text. It is unclear how the visual comparison is presented and whether the chosen examples are representative or cherry-picked.
+  - **Required correction** Include the figure or provide a more detailed description of the visual comparison. Consider showing multiple examples, including cases where EquiPPIS performs poorly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The discussion of future work mentions extending to other biomolecular interaction types but does not discuss potential limitations of the method, such as performance on proteins with unusual structures or the computational cost of the equivariant architecture.
+  - **Required correction** Add a paragraph discussing limitations and potential failure modes of the method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1, location not provided
+  - **Issue** The table reports multiple metrics but does not indicate which differences are statistically significant or practically meaningful. The reader is left to interpret the numbers without guidance.
+  - **Required correction** Add significance markers or a note indicating the practical significance of the observed differences.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validation) and R1-M2 (generalizability of AlphaFold2 results) are the most critical. R1-M3 (ablation rigor) and R1-M4 (reproducibility) are also important for establishing the methodological contribution.
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of E(3) equivariant graph neural networks to PPI site prediction is novel and represents a meaningful methodological advance over existing graph-based approaches.
+  - **Scientific importance** The problem of PPI site prediction is of high importance, and the demonstrated robustness to predicted structures has significant practical implications for large-scale applications.
+  - **Interdisciplinary readership** The work bridges machine learning and structural biology, and the findings are likely to interest researchers in both communities.
+  - **Technical soundness** The overall approach is sound, but the lack of statistical validation and incomplete ablation analysis weaken the technical rigor.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, though the Methods section assumes familiarity with graph neural networks and equivariance concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the results are potentially significant, but the current evidence does not fully establish the claims of substantial outperformance and robustness. Statistical validation, more rigorous ablation, and improved reproducibility are required.
+
+## Risk / unsupported claims
+- The claim of "substantial outperformance" over state-of-the-art methods is not statistically validated.
+- The claim of "better accuracy with AlphaFold2-predicted structures than existing methods with experimental structures" is based on a single metric (PR-AUC) and a single test set.
+- The claim that equivariance is the cause of performance gains is not fully supported by the ablation study design.
+- The generalizability of the method to proteins with unusual structures or to other interaction types is not demonstrated.

@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "41074638",
+    "doi": "10.1002/jnr.70085",
+    "title": "Single-Cell RNA-Seq and Machine Learning Reveal Key Feature Genes of Astrocyte in Perioperative Neurocognitive Disorders."
+  },
+  "content": {
+    "abstract": "Perioperative neurocognitive disorder (PND) is common in older patients after anesthesia and surgery, significantly increasing morbidity and mortality. However, the role of astrocytes in its pathogenesis remains limitedly understood. Here, we analyzed 9976 and 9484 single-cell transcriptomes from hippocampal cells of aged mice undergoing PND surgery or sham operation, focusing on astrocytes. We identified 13 distinct clusters corresponding to nine cell types, including astrocytes, microglia, neurons, oligodendrocytes, and other relevant cell populations. Specifically, five astrocyte subclusters were identified, with cluster 0 being the most abundant. Its proportion decreased by 5.51% in the PND surgery condition, showing the largest difference between the groups. Functional enrichment analysis revealed that astrocytes are involved in crucial neurodevelopmental processes and pathways associated with nervous system development and synaptic regulation. Pseudotime analysis placed cluster 0 at the early stage of differentiation, suggesting it as a key responsive population. Gene co-expression network further identified modules with peak activity in cluster 0. By intersecting cluster 0 markers with differentially expressed genes (DEGs) and applying machine learning methods, including LASSO, XGBoost, and Random Forest, we pinpointed four feature genes Dbp, PISD, Id4, and Tsc22d3 with differential expression patterns between surgery and control conditions. Transcription factor activity analysis highlighted distinct regulatory networks in astrocytes, providing insights into their functional differences in response to PND surgery. These findings offer a detailed aged hippocampal landscape of astrocyte dynamics and intercellular communication, contributing to our understanding of neuroinflammation and cognitive dysfunction following surgical stress.",
+    "keywords": [
+      "astrocytes",
+      "hdWGCNA",
+      "machine learning",
+      "perioperative neurocognitive disorder",
+      "single cell"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Astrocytes/metabolism",
+      "*Machine Learning",
+      "Mice",
+      "Hippocampus/metabolism",
+      "Single-Cell Analysis/methods",
+      "*Neurocognitive Disorders/genetics/metabolism",
+      "RNA-Seq/methods",
+      "Mice, Inbred C57BL",
+      "Male",
+      "Transcriptome",
+      "*Postoperative Cognitive Complications/genetics/metabolism",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Le",
+        "Chen, Zhumei",
+        "Ma, Xuelian",
+        "Chi, Xinjin"
+      ],
+      "short_names": [
+        "Zhao L",
+        "Chen Z",
+        "Ma X",
+        "Chi X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0774-8439"
+      ],
+      "affiliations": [
+        "Surgical Anesthesia Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China.",
+        "Surgical Anesthesia Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China.",
+        "Surgical Anesthesia Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China.",
+        "Surgical Anesthesia Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Le",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Surgical Anesthesia Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhumei",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Surgical Anesthesia Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xuelian",
+        "short_name": "Ma X",
+        "identifiers": [
+          "0000-0002-0774-8439"
+        ],
+        "affiliations": [
+          "Surgical Anesthesia Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chi, Xinjin",
+        "short_name": "Chi X",
+        "identifiers": [],
+        "affiliations": [
+          "Surgical Anesthesia Center, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of neuroscience research"
+    ],
+    "journal_abbrev": [
+      "J Neurosci Res"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/11 06:32",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41074638",
+      "39135955",
+      "38701943",
+      "39827670",
+      "40659841",
+      "40753364",
+      "35899365",
+      "30804943",
+      "39432407",
+      "30180861",
+      "34530841",
+      "40589764",
+      "39116679",
+      "40955310",
+      "39938577",
+      "38830564",
+      "39762568",
+      "38750960",
+      "37189441",
+      "32264970",
+      "41151410",
+      "34732255",
+      "39859365",
+      "40362233",
+      "39540334",
+      "39190264",
+      "39700048",
+      "39650559",
+      "32758588",
+      "32381108",
+      "40967560",
+      "41009952",
+      "39974608",
+      "41175962",
+      "40287916",
+      "40983152",
+      "40560516",
+      "41013688",
+      "40395067",
+      "36153812",
+      "40296690",
+      "41235394",
+      "39142371",
+      "39681213",
+      "41042397",
+      "40377973",
+      "41306051",
+      "39926598",
+      "37973625",
+      "41200172",
+      "40997657",
+      "34392443",
+      "38940081",
+      "38320682",
+      "40728591",
+      "39468399",
+      "41177887",
+      "40007377",
+      "39218798",
+      "39923303",
+      "41242266",
+      "40914702",
+      "41030458",
+      "40247403",
+      "37470907",
+      "37244603",
+      "40618091",
+      "41182438",
+      "38656728",
+      "36104739",
+      "33220272",
+      "40943452",
+      "33708217",
+      "33942523",
+      "39384856",
+      "40384856",
+      "39969679",
+      "40651585",
+      "40286940",
+      "40404680",
+      "40503237",
+      "41083468",
+      "38419449",
+      "29437957",
+      "39580057",
+      "38849737",
+      "41031145",
+      "39899158",
+      "41273843",
+      "38739758",
+      "41291841",
+      "39491498",
+      "39555084",
+      "39752101",
+      "39653248",
+      "40404675",
+      "40939860",
+      "34990087",
+      "39509434",
+      "40693442"
+    ],
+    "review": [
+      "41074638",
+      "40384856",
+      "38419449"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41074638.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jnr.70085",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

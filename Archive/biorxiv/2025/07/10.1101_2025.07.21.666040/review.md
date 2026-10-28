@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and reproducibility as presented in the supplied text
+- **Shared manuscript claim summary** The authors propose ScPGE, a scalable computational framework that predicts gene expression from discrete candidate cis-regulatory elements (cCREs) by assembling DNA sequences, TF binding scores, and epigenomic tracks into 3D tensors and combining CNN with transformer architectures. They report superior performance over existing models, identification of a distance-dependent regulatory pattern in true positives, and improved capture of distal cCRE-gene interactions via chromatin loop integration.
+- **Visible evidence base** Results sections 2.1-2.6, figures referenced as Fig.1-6 and Supplementary Figs.1-8, methods section, data and code availability statements
+- **Missing materials affecting confidence** Actual figures and supplementary figures not provided; detailed hyperparameter settings for baseline models not fully specified; statistical significance testing not reported; exact dataset accession identifiers not listed in the text; training/validation/test split details not fully described
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally efficient approach to a relevant problem in gene regulation. The core idea of using discrete cCREs rather than continuous genomic windows is sensible and may offer practical advantages. However, the evidence as presented is insufficient to fully establish the claimed superiority over existing methods. Several comparisons lack statistical rigor, and the interpretability analyses, while interesting, are largely descriptive. The scalability claims are supported by limited experiments. The manuscript would benefit from clearer reporting of experimental design and more robust evaluation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene expression prediction, cis-regulatory element function, and deep learning applications in genomics. Researchers studying enhancer-promoter interactions and those developing methods for cell-type-specific regulatory prediction would find the framework relevant. The lightweight design may appeal to groups with limited computational resources.
+- **Major strengths** The problem is well-motivated and the approach of using discrete cCREs is a reasonable design choice that could reduce computational burden. The architecture combining CNN and transformer is appropriate for the input structure. The analysis of prediction patterns and the attempt to use these patterns to improve distal interaction capture is thoughtful. The cross-cell and cross-species generalization experiments are valuable. The code and data availability statements are positive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ScPGE consistently outperforms both CREaTor and EPInformer" and "ScPGE significantly outperforms both Enformer and EPInformer across all datasets"
+  - **Evidence pointer** Section 2.2, Fig.2a-b
+  - **Concern** The performance comparisons report only mean improvements in PCC and MAE without any measure of variance, confidence intervals, or statistical significance testing. The number of cell types used (19 for RNA-seq, 10 for CAGE-seq) is small, and it is unclear whether the reported improvements are consistent across cell types or driven by a few outliers. No per-cell-type results are shown.
+  - **Why it matters** Without statistical assessment, the claimed superiority over state-of-the-art methods cannot be reliably established. The improvements of 1.3-2.5% in PCC are modest and may not be meaningful without significance testing.
+  - **Resolution test** Provide per-cell-type performance values, report standard deviations or confidence intervals, and perform appropriate statistical tests (e.g., paired tests across cell types) to demonstrate that improvements are significant and consistent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ScPGE exhibits flexible scalability from three aspects: scalability of epigenomic tracks, scalability of cCREs, scalability of model structure"
+  - **Evidence pointer** Section 2.2, Fig.2c-f
+  - **Concern** The scalability experiments are described only qualitatively. For the cCRE scalability experiment, performance decreases as cCRE number increases, which is presented as "noise" but could also indicate a modeling limitation. The model structure experiments show that removing the transformer significantly reduces performance, but the other variations are described as having "little impact" without quantitative details. The range of cCRE numbers tested and the specific configurations are not reported.
+  - **Why it matters** Scalability is a central claim of the framework. Without quantitative details on how performance and computational cost scale with these parameters, the practical utility of the framework cannot be properly assessed.
+  - **Resolution test** Report quantitative results for each scalability experiment, including the specific values tested (e.g., number of cCREs, number of tracks, model depth) and the corresponding performance metrics and computational cost.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "ScPGE was trained to minimize the discrepancy between predicted and observed gene expression levels" and "All ScPGE models were implemented in PyTorch and trained on one A100 GPU"
+  - **Evidence pointer** Section 4, Methods
+  - **Concern** The training procedure is described at a high level, but several critical details are missing. The exact architecture dimensions (number of layers, hidden sizes, number of heads) are not specified. The warm-up strategy is described but the number of random initializations is not given. The hyperparameter alpha in the loss function is mentioned but its value is not reported. The train/validation/test split is not described in detail.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete architectural and training details, other researchers cannot implement or fairly compare against ScPGE.
+  - **Resolution test** Provide complete architecture specifications, all hyperparameter values, training details, and data split information either in the main text or a supplementary table.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "we find a pattern in true positives (TPs) that the regulatory effect of cCREs on genes decreases with distance"
+  - **Evidence pointer** Section 2.4, Fig.4a
+  - **Concern** The distance-dependent pattern is described as a key finding, but the analysis is purely descriptive. No statistical model is fitted to the relationship between distance and regulatory effect. The claim that this pattern is "generalized across cell or species" is supported only by reference to supplementary figures without quantitative details. The pattern is also noted to be similar in false positives, which is mentioned but not analyzed.
+  - **Why it matters** The distance-dependent pattern motivates the chromatin loop integration methods. If this pattern is not rigorously established, the rationale for those methods is weakened.
+  - **Resolution test** Fit a statistical model to the distance-effect relationship, report effect sizes and confidence intervals, and provide quantitative cross-cell and cross-species comparisons.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "ScPGE-Loop performs better than ScPGE on 30 out of 42 genes according to the TRP metric"
+  - **Evidence pointer** Section 2.5, Fig.5d
+  - **Concern** The evaluation of the chromatin loop integration methods uses TPR on a small set of 42 genes. The choice of top-k selection for defining active enhancers is arbitrary and may bias results. No statistical test is reported for the comparison between ScPGE-Loop and ScPGE. The improvement on 30 out of 42 genes is reported without assessing whether this is significantly better than chance.
+  - **Why it matters** The claim that chromatin loop integration improves distal cCRE-gene interaction capture is a key contribution. Without rigorous evaluation, this claim is not fully supported.
+  - **Resolution test** Report precision-recall curves or other threshold-independent metrics, perform statistical testing on the comparison, and justify the choice of k.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract contains typographical errors with extra spaces in "sc alable", "p redicting", "g ene", "e xpression".
+  - **Required correction** Correct the typographical errors in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The text states "These enhancer-gene interactions were collected from three public literatures" which is awkward phrasing. Also, the number of positive (677) and negative (2239) interactions is imbalanced, and it is unclear how this imbalance was handled in the evaluation.
+  - **Required correction** Rephrase to "three published studies" and describe how class imbalance was addressed in the evaluation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The exponential decay function is written as "exp −| x |/2" which is ambiguous. It should be clarified whether this is exp(-|x|/2) or (exp(-|x|))/2.
+  - **Required correction** Clarify the mathematical expression.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The notation "∅ a" and "∅ p" is used for candidate sets, which is unconventional since ∅ typically denotes the empty set. This could confuse readers.
+  - **Required correction** Use different notation, such as S_a and S_p, for the candidate sets.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4, Methods
+  - **Evidence pointer** Section 4, Methods
+  - **Issue** The DNA sequence encoding protocol states "T: [0, 0, 0, T]" which appears to be a typo. It should likely be "T: [0, 0, 0, 1]".
+  - **Required correction** Correct the encoding for thymine.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4, Methods
+  - **Evidence pointer** Section 4, Methods
+  - **Issue** The baseline comparison for CREaTor and EPInformer states they were "retrained" but the details of the retraining procedure, such as the number of epochs and learning rate, are not provided.
+  - **Required correction** Provide retraining details or state that default settings from the original publications were used.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The phrase "we used three state-of-the-art models such as Enformer, CREaTor, and EPInformer" is imprecise. It should be "we compared against three state-of-the-art models: Enformer, CREaTor, and EPInformer."
+  - **Required correction** Rephrase for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical testing in performance comparisons), R1-M2 (insufficient quantitative detail on scalability experiments), R1-M3 (incomplete reproducibility details)
+- **Assessment against Nature-style criteria** Originality: The approach of using discrete cCREs with a CNN-transformer hybrid is a reasonable incremental contribution, but similar ideas exist in the literature. The distance-dependent pattern analysis is somewhat novel. Scientific importance: Gene expression prediction is an important problem, and a lightweight, scalable method could be valuable. However, the demonstrated improvements over existing methods are modest and not rigorously established. Interdisciplinary readership: The work is primarily of interest to computational biologists; the biological insights are limited. Technical soundness: The architecture is sensible, but the evaluation lacks statistical rigor and the reproducibility details are incomplete. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with deep learning and genomics terminology. The abstract and introduction are accessible, but the methods section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea has merit, and the framework could be a useful contribution. However, the current evidence does not fully establish the claimed advantages. The authors should address the statistical rigor of comparisons, provide complete reproducibility details, and strengthen the evaluation of the chromatin loop integration methods.
+
+## Risk / unsupported claims
+- The claim of "superior performance" over existing models is not statistically supported.
+- The claim that the distance-dependent pattern is "generalized across cell or species" is not quantitatively demonstrated in the provided text.
+- The claim that ScPGE "accurately discovers some crucial TF motifs" is not supported by quantitative evaluation against known motifs.
+- The claim that chromatin loop integration improves distal cCRE-gene interaction capture is based on a small evaluation set without statistical testing.
+- The scalability claims are not quantitatively supported with computational cost measurements.
+- The statement that ScPGE "greatly reduces computational demands" is plausible but not demonstrated with runtime or resource usage comparisons.

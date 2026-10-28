@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42090444",
+  "title": "Tissue-specific transfer learning improves functional variant and therapeutic target discoveries in breast and prostate cancer.",
+  "authors": "Li, Qing; Wang, Dinghao; Zhang, Zilong; Perera, Deshan; Chen, Zhishan; Wen, Wanqing; MacDonald, M Ethan; Cai, Weijia; Yan, Jun; Shu, Xiao-Ou; Zheng, Wei; Guo, Xingyi; Long, Quan",
+  "journal": "PLoS genetics",
+  "published_date": "2026-05-06",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过迁移学习将DNA基础模型Enformer适配到乳腺和前列腺癌组织，利用TF ChIP-seq数据计算组织特异性调控活性并优先化变异，虽聚焦TF-DNA结合位点预测但未深入三维互作机制，方法可迁移至TF-DNA研究。",
+  "abstract": "DNA foundation models trained on large-scale genomic and epigenetic datasets have shown promise for regulatory variant interpretation, yet their application to tissue-specific contexts remain limited. Here, we present a transfer learning (TL) framework to adapt Enformer, a deep neural network trained on 5,313 multi-omics tracks, to breast and prostate cancer using 275 and 357 tissue-specific transcription factor (TF) ChIP-seq tracks, respectively. We computed tissue-specific cis-regulatory activity (tCRA) scores for millions of single-nucleotide variants (SNVs) in genome-wide association study (GWAS) datasets and prioritized high-impact SNV subsets (1M, 1.5M, and 2M). These TL-prioritized variants demonstrated consistently greater enrichment in tissue-specific enhancers, cancer GWAS risk variants, and ClinVar pathogenic variants compared to the original Enformer model. Transcriptome-wide association studies (TWAS) using TL-based SNVs identified more cancer-relevant genes, many of which exhibited functional essentiality (DepMap), therapeutic tractability (drug databases), and disease relevance (DisGeNET). Notably, TL models outperformed the base model in identifying genes enriched for drug targets and clinically relevant disease associations. Our results show that TL-derived tCRA scores enhance regulatory variant prioritization and improve susceptibility gene discovery in a tissue-specific manner. Our study provides a generalizable framework for tailoring foundation models to disease-relevant contexts, with implications for variant interpretation, therapeutic target discovery, and precision medicine.",
+  "abstract_zh": "在大规模基因组和表观遗传数据集上训练的DNA基础模型在调控变异解读方面展现出潜力，但其在组织特异性情境中的应用仍然有限。在此，我们提出一种迁移学习（transfer learning, TL）框架，将Enformer（一种在5,313条多组学轨迹上训练的深度神经网络）分别适配至乳腺癌和前列腺癌，使用275条和357条组织特异性转录因子（transcription factor, TF）ChIP-seq轨迹。我们计算了全基因组关联研究（genome-wide association study, GWAS）数据集中数百万个单核苷酸变异（single-nucleotide variant, SNV）的组织特异性顺式调控活性（tissue-specific cis-regulatory activity, tCRA）评分，并优先筛选出高影响SNV子集（1M、1.5M和2M）。与原始Enformer模型相比，这些TL优先化的变异在组织特异性增强子、癌症GWAS风险变异和ClinVar致病性变异中表现出持续更高的富集度。基于TL的SNV进行的转录组全关联研究（transcriptome-wide association study, TWAS）识别出更多癌症相关基因，其中许多基因表现出功能必需性（DepMap）、治疗可靶向性（药物数据库）和疾病相关性（DisGeNET）。值得注意的是，TL模型在识别富集药物靶点和临床相关疾病关联的基因方面优于基础模型。我们的结果表明，TL衍生的tCRA评分增强了调控变异的优先排序，并以组织特异性方式改善了易感基因的发现。我们的研究为将基础模型定制至疾病相关情境提供了一个通用框架，对变异解读、治疗靶点发现和精准医学具有启示意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42090444/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42090444/",
+  "paper_page_path": "papers/pubmed/42090444/index.html"
+}

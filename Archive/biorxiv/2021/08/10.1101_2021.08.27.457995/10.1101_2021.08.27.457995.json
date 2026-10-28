@@ -1,0 +1,446 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.08.27.457995",
+  "title": "A base-resolution panorama of the <i>in vivo</i> impact of cytosine methylation on transcription factor binding",
+  "doi": "10.1101/2021.08.27.457995",
+  "abstract": "While methylation of CpG dinucleotides is traditionally considered antagonistic to the DNA-binding activity of most transcription factors (TFs), recent in vitro studies have revealed a more complex picture, suggesting that over a third of TFs may preferentially bind to methylated sequences. Expanding these in vitro observations to in vivo TF binding preferences, however, is challenging, as the effect of methylation of individual CpG sites cannot be easily isolated from the confounding effects of DNA accessibility and regional DNA methylation. As a result, the in vivo methylation preferences of most TFs remain uncharacterized. Here, we introduce joint accessibility-methylation-sequence (JAMS) models, which connect the strength of the binding signal observed in ChIP-seq to the DNA accessibility of the binding site, regional methylation level, DNA sequence, and base-resolution cytosine methylation. We show that JAMS models quantitatively explain the TF binding strength, recapitulate cell type-specific TF binding, and have high precision for inferring intra-motif methylation effects. Analysis of 2209 ChIP-seq experiments resulted in high-confidence JAMS models for 260 TFs, revealing that 45% of TFs are inhibited by intra-motif methylation in vivo . In contrast, only 16 TFs (6%) preferentially bind to methylated sites, including 11 novel methyl-binding TFs that are mostly from the multi-zinc finger family of TFs. Our study substantially expands the repertoire of in vivo methyl-binding TFs, but also suggests that most TFs that prefer methylated CpGs in vitro present themselves as methylation agnostic in vivo , potentially due to the balancing effect of competition with other methyl-binding proteins.",
+  "authors": [
+    "Aldo Hernandez-Corchado",
+    "Hamed S. Najafabadi"
+  ],
+  "published_date": "2021-08-28",
+  "updated_date": "2021-08-28T12:55:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.08.27.457995",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.08.27.457995.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:07:56Z",
+        "timestamp": 1768496876279,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            28
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  While methylation of CpG dinucleotides is traditionally considered antagonistic to the DNA-binding activity of most transcription factors (TFs), recent\n                  <jats:italic>in vitro</jats:italic>\n                  studies have revealed a more complex picture, suggesting that over a third of TFs may preferentially bind to methylated sequences. Expanding these\n                  <jats:italic>in vitro</jats:italic>\n                  observations to\n                  <jats:italic>in vivo</jats:italic>\n                  TF binding preferences, however, is challenging, as the effect of methylation of individual CpG sites cannot be easily isolated from the confounding effects of DNA accessibility and regional DNA methylation. As a result, the\n                  <jats:italic>in vivo</jats:italic>\n                  methylation preferences of most TFs remain uncharacterized.\n                </jats:p>\n                <jats:p>\n                  Here, we introduce joint accessibility-methylation-sequence (JAMS) models, which connect the strength of the binding signal observed in ChIP-seq to the DNA accessibility of the binding site, regional methylation level, DNA sequence, and base-resolution cytosine methylation. We show that JAMS models quantitatively explain the TF binding strength, recapitulate cell type-specific TF binding, and have high precision for inferring intra-motif methylation effects. Analysis of 2209 ChIP-seq experiments resulted in high-confidence JAMS models for 260 TFs, revealing that 45% of TFs are inhibited by intra-motif methylation\n                  <jats:italic>in vivo</jats:italic>\n                  . In contrast, only 16 TFs (6%) preferentially bind to methylated sites, including 11 novel methyl-binding TFs that are mostly from the multi-zinc finger family of TFs.\n                </jats:p>\n                <jats:p>\n                  Our study substantially expands the repertoire of\n                  <jats:italic>in vivo</jats:italic>\n                  methyl-binding TFs, but also suggests that most TFs that prefer methylated CpGs\n                  <jats:italic>in vitro</jats:italic>\n                  present themselves as methylation agnostic\n                  <jats:italic>in vivo</jats:italic>\n                  , potentially due to the balancing effect of competition with other methyl-binding proteins.\n                </jats:p>",
+      "DOI": "10.1101/2021.08.27.457995",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            28
+          ]
+        ],
+        "date-time": "2021-08-28T12:55:15Z",
+        "timestamp": 1630155315000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A base-resolution panorama of the\n                  <i>in vivo</i>\n                  impact of cytosine methylation on transcription factor binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Aldo",
+          "family": "Hernandez-Corchado",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2735-4231",
+          "authenticated-orcid": false,
+          "given": "Hamed S.",
+          "family": "Najafabadi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.2.9.1136"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.146654.112"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg.2016.83"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin QXX , Rebbani K , Jha S , Benoukraf T : ZBTB33 (Kaiso) methylated binding sites are associated with primed heterochromatin. bioRxiv 2019:585653.",
+          "DOI": "10.1101/585653"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yin Y , Morgunova E , Jolma A , Kaasinen E , Sahu B , Khund-Sayeed S , Das PK , Kivioja T , Dave K , Zhong F , et al: Impact of cytosine methylation on DNA binding specificities of human transcription factors. Science 2017, 356.",
+          "DOI": "10.1126/science.aaj2239"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2217/epi.15.39"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.759"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11232"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.257576.119"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature16462"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wan J , Su Y , Song Q , Tung B , Oyinlade O , Liu S , Ying M , Ming GL , Song H , Qian J , et al: Methylated cis-regulatory elements mediate KLF4-dependent gene transactivation and cell migration. Elife 2017, 6.",
+          "DOI": "10.7554/eLife.20068"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grau J , Schmidt F , Schulz MH : Widespread effects of DNA methylation and intra-motif dependencies revealed by novel transcription factor binding models. bioRxiv 2020:2020.2010.2021.348193.",
+          "DOI": "10.1101/2020.10.21.348193"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv151"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "3287",
+          "DOI": "10.1093/bioinformatics/btz079",
+          "article-title": "Finding de novo methylated DNA motifs",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Viner C , Johnson J , Walker N , Shi H , Sjöberg M , Adams DJ , Ferguson-Smith AC , Bailey TL , Hoffman MM : Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet. bioRxiv 2016:043794.",
+          "DOI": "10.1101/043794"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.198501"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.16.6.2802"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2012.0369"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hansen AS , Pustova I , Cattoglio C , Tjian R , Darzacq X : CTCF and cohesin regulate chromatin loop stability with distinct dynamics. Elife 2017, 6.",
+          "DOI": "10.7554/eLife.25776"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.209643.116"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005898",
+          "DOI": "10.1371/journal.pgen.1005898",
+          "article-title": "Role of the BAHD1 Chromatin-Repressive Complex in Placental Development and Regulation of Steroid Metabolism",
+          "volume": "12",
+          "year": "2016",
+          "journal-title": "PLoS Genet"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx469"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0905443106"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2015.07.024"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.aao1799"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1614-y"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature21683"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.121749.111"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1081"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv284"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Danecek P , Bonfield JK , Liddle J , Marshall J , Ohan V , Pollard MO , Whitwham A , Keane T , McCarthy SA , Davies RM , Li H : Twelve years of SAMtools and BCFtools. Gigascience 2021, 10.",
+          "DOI": "10.1093/gigascience/giab008"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2012.101"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2008-9-9-r137"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2017.0096"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "D1046",
+          "DOI": "10.1093/nar/gkaa1070",
+          "article-title": "The UCSC Genome Browser database: 2021 update",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq351"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.40",
+          "unstructured": "RepeatModeler [http://www.repeatmasker.org/]"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dogan B , Kailasam S , Corchado AH , Nikpoor N , Najafabadi HS : A domain-resolution map of <em>in vivo</em> DNA binding reveals the regulatory consequences of somatic mutations in zinc finger transcription factors. bioRxiv 2020:630756.",
+          "DOI": "10.1101/630756"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "15",
+          "DOI": "10.1007/978-1-4939-8799-3_2",
+          "article-title": "Computational Methods for Analysis of the DNA-Binding Preferences of Cys2His2 Zinc-Finger Proteins",
+          "volume": "1867",
+          "year": "2018",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw489"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/0471250953.bi1112s47"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu056"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.46",
+          "unstructured": "Venables WN , Ripley BD : Modern applied statistics with S-PLUS. Springer Science & Business Media; 2013."
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0550-8"
+        },
+        {
+          "key": "2021102014001060000_2021.08.27.457995v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.08.27.457995",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:06:28Z",
+        "timestamp": 1768442788000
+      },
+      "score": 104.806114,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.08.27.457995"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            28
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.1101/2021.08.27.457995",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s13059-022-02713-y",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            28
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

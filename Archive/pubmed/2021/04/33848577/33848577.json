@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "33848577",
+    "doi": "10.1016/j.gene.2021.145643",
+    "title": "A sequence-based prediction of Kruppel-like factors proteins using XGBoost and optimized features."
+  },
+  "content": {
+    "abstract": "Kruppel-like factors (KLF) refer to a group of conserved zinc finger-containing transcription factors that are involved in various physiological and biological processes, including cell proliferation, differentiation, development, and apoptosis. Some bioinformatics methods such as sequence similarity searches, multiple sequence alignment, phylogenetic reconstruction, and gene synteny analysis have also been proposed to broaden our knowledge of KLF proteins. In this study, we proposed a novel computational approach by using machine learning on features calculated from primary sequences. To detail, our XGBoost-based model is efficient in identifying KLF proteins, with accuracy of 96.4% and MCC of 0.704. It also holds a promising performance when testing our model on an independent dataset. Therefore, our model could serve as an useful tool to identify new KLF proteins and provide necessary information for biologists and researchers in KLF proteins. Our machine learning source codes as well as datasets are freely available at https://github.com/khanhlee/KLF-XGB.",
+    "keywords": [
+      "Feature selection",
+      "Kruppel-like factor",
+      "Protein sequence",
+      "SMOTE imbalance",
+      "Zinc finger",
+      "eXtreme Gradient Boosting"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Amino Acid Sequence",
+      "Animals",
+      "*Computational Biology/methods",
+      "Databases, Protein",
+      "Humans",
+      "Kruppel-Like Transcription Factors/analysis/*chemistry/genetics",
+      "Machine Learning",
+      "Models, Biological"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Evaluation Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Le, Nguyen Quoc Khanh",
+        "Do, Duyen Thi",
+        "Nguyen, Trinh-Trung-Duong",
+        "Le, Quynh Anh"
+      ],
+      "short_names": [
+        "Le NQK",
+        "Do DT",
+        "Nguyen TT",
+        "Le QA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Professional Master Program in Artificial Intelligence in Medicine, College of Medicine, Taipei Medical University, Taipei 106, Taiwan; Research Center for Artificial Intelligence in Medicine, Taipei Medical University, Taipei 106, Taiwan; Translational Imaging Research Center, Taipei Medical University Hospital, Taipei 110, Taiwan. Electronic address: khanhlee@tmu.edu.tw.",
+        "Graduate Institute of Biomedical Informatics, Taipei Medical University, Taipei 106, Taiwan.",
+        "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan.",
+        "Faculty of Applied Sciences, Ton Duc Thang University, No. 19 Nguyen Huu Tho Street, Tan Hung Ward, District 7, Ho Chi Minh City, Viet Nam."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Le, Nguyen Quoc Khanh",
+        "short_name": "Le NQK",
+        "identifiers": [],
+        "affiliations": [
+          "Professional Master Program in Artificial Intelligence in Medicine, College of Medicine, Taipei Medical University, Taipei 106, Taiwan; Research Center for Artificial Intelligence in Medicine, Taipei Medical University, Taipei 106, Taiwan; Translational Imaging Research Center, Taipei Medical University Hospital, Taipei 110, Taiwan. Electronic address: khanhlee@tmu.edu.tw."
+        ]
+      },
+      {
+        "full_name": "Do, Duyen Thi",
+        "short_name": "Do DT",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Biomedical Informatics, Taipei Medical University, Taipei 106, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Trinh-Trung-Duong",
+        "short_name": "Nguyen TT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Le, Quynh Anh",
+        "short_name": "Le QA",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Applied Sciences, Ton Duc Thang University, No. 19 Nguyen Huu Tho Street, Tan Hung Ward, District 7, Ho Chi Minh City, Viet Nam."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gene"
+    ],
+    "journal_abbrev": [
+      "Gene"
+    ],
+    "pub_date": "2021 Jun 30",
+    "pub_year": "2021",
+    "pub_types": [
+      "Comparative Study",
+      "Evaluation Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/14 06:00",
+    "fetched_at": "2026-09-27 16:06:43"
+  },
+  "links": {
+    "cites": [
+      "40411314",
+      "40146403",
+      "39748058",
+      "39421723",
+      "38971879",
+      "38892007",
+      "38849815",
+      "38643305",
+      "38594078",
+      "38560274",
+      "38546623",
+      "38378721",
+      "37964470",
+      "37958386",
+      "37525139",
+      "37409618",
+      "36761967",
+      "36698095",
+      "36532062",
+      "36520785",
+      "36474806",
+      "36246618",
+      "35740988"
+    ],
+    "refs": [],
+    "similar": [
+      "33848577",
+      "29408733",
+      "19941950",
+      "28292252",
+      "31603468",
+      "32300371",
+      "18680432",
+      "38560274",
+      "11844803",
+      "33267753",
+      "24244731",
+      "16460907",
+      "35301064",
+      "33505515",
+      "20959618",
+      "20503383",
+      "26232396",
+      "33505516",
+      "32003548",
+      "34119922",
+      "35365726",
+      "17904406",
+      "29775609",
+      "33446014",
+      "26130574",
+      "28032601",
+      "33238837",
+      "31393553",
+      "23142072",
+      "19427851",
+      "33072049",
+      "36499521",
+      "24429391",
+      "12620113",
+      "32102444",
+      "31046040",
+      "35748253",
+      "39182368",
+      "34198216",
+      "32768046",
+      "29940836",
+      "35286461",
+      "17098717",
+      "16904636",
+      "25654975",
+      "29151135",
+      "38679187",
+      "21360637",
+      "38360239",
+      "29183738",
+      "27993784",
+      "30250210",
+      "29848272",
+      "26406767",
+      "28992202",
+      "32372714",
+      "29047157",
+      "30668479",
+      "33660783",
+      "15820306",
+      "31298436",
+      "28366734",
+      "25846271",
+      "18847492",
+      "31165141",
+      "28000567",
+      "35690478",
+      "31495395",
+      "12072445",
+      "29501620",
+      "31362694",
+      "21856285",
+      "31412138",
+      "31771119",
+      "31703551",
+      "26314219",
+      "32420339",
+      "30598073",
+      "32685987",
+      "29753757",
+      "38761901",
+      "30323214",
+      "8723389",
+      "28218782",
+      "27411307",
+      "25659434",
+      "39024250",
+      "35260777",
+      "29286255",
+      "23134681",
+      "16266294",
+      "33513487",
+      "33087125",
+      "33133228",
+      "16385466",
+      "11779640",
+      "25445906",
+      "17548317",
+      "37326976",
+      "37174466",
+      "31734254",
+      "28222000",
+      "27098518",
+      "17043967",
+      "26943822",
+      "32201349",
+      "34790508",
+      "36902112",
+      "38909149",
+      "35557849",
+      "35388017",
+      "39272379",
+      "30711452",
+      "32223731",
+      "32324561",
+      "33729104",
+      "38216539",
+      "35036922",
+      "35982784",
+      "18504508",
+      "34030465",
+      "37964470",
+      "36076915",
+      "35154264",
+      "35736770",
+      "35333855",
+      "20514221",
+      "29416266",
+      "35591855"
+    ],
+    "review": [
+      "33848577",
+      "38560274",
+      "35301064",
+      "20959618",
+      "17904406",
+      "23142072",
+      "36499521",
+      "24429391",
+      "12620113",
+      "17098717",
+      "25654975",
+      "21360637",
+      "28992202",
+      "28366734",
+      "16266294",
+      "17548317",
+      "36902112"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-1119(21)00237-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33848577",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

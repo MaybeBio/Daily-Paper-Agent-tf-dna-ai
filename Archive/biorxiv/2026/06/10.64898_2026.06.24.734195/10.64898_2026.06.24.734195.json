@@ -1,0 +1,468 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.24.734195",
+  "title": "Collinearity of Decomposed Energy Terms in MM-P(G)BSA Binding Free Energy Calculations of Protein-Protein Complexes",
+  "doi": "10.64898/2026.06.24.734195",
+  "abstract": "The molecular mechanics (MM) Poisson-Boltzmann (PB) or generalized Born (GB) surface area methods (MM-P(G)BSA) are among the most commonly used end state approaches for the calculation of the binding free energies (BFEs) in computational drug design and screening studies. Their thermodynamic cycle is based on the decomposition of the free energy change into several energy terms, including molecular mechanics (MM) electrostatic and van der Waals terms representing the gas phase binding energy change, as well as implicit solvation energies comprising polar solvation, calculated by solving PB equation or its reduced form, GB, and nonpolar solvation surface area (SA) terms. Although these terms are additive, and thus the sum of these components should yield the total free energy change, most of these terms are represented with coefficients that are physically meaningful but empirical. To date, a great deal of effort has been made to improve the accuracy of these methods in the prediction of experimental binding free energies, at least relatively, i.e., relative binding free energy (RBFE), resulting in totally empirical coefficients on energy terms and breaking the underlying physics. Furthermore, although these methods originated from protein-ligand RBFE estimation, there have been examples or even tutorials using these methods for protein-peptide or protein-protein interactions (PPIs), due to the same simple physics of binding at the bound state, without sufficient hesitation regarding their accuracy limitations. Here, we thoroughly evaluate MMP(G)BSA methods in all variants available in the literature for a diverse protein-protein complex set and reveal their true RBFE accuracy by means of Pearson correlation with experimental values, with at most R = 0.42. We also demonstrate that the assumption of independent fitting coefficients for decomposed energy terms could not only break the physics but also statistically represent overfitting. Through analytic derivation and large-scale molecular dynamics simulations, we show that (i) the protein-ligand (PL), protein-peptide or protein-protein (PP) Coulomb interaction energy and the GB solvation correction are almost perfectly collinear (R 2 ≥0.99) reflecting their designed role as vacuum electrostatics plus solvent screening, and (ii) the van der Waals interaction and SA term also exhibit strong correlation. Interaction entropy (IE) and C2 entropy corrections, which are also found to be strongly dependent on each other, worsen the overall accuracy of the methods due to the large energetic fluctuations of these extended protein-protein systems. The findings of collinearity hold both at the level of instantaneous trajectory fluctuations and when averaged across a diverse set of 138 PP complexes and persist in both single-trajectory and three-trajectory MM-GBSA protocols. Our results show the limitation of the methods for protein-protein complexes and caution against using decomposed MM-GBSA terms as independent predictors in regression models and suggest instead combining correlated terms into effective polar, nonpolar, and entropic contributions, while noting the adverse impact of these entropy terms.",
+  "authors": [
+    "Azize Sevim",
+    "Abdulkadir Kocak"
+  ],
+  "published_date": "2026-06-29",
+  "updated_date": "2026-06-29T19:10:20Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.24.734195",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.24.734195.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            8
+          ]
+        ],
+        "date-time": "2026-07-08T21:16:08Z",
+        "timestamp": 1783545368742,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 54,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                29
+              ]
+            ],
+            "date-time": "2026-06-29T00:00:00Z",
+            "timestamp": 1782691200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The molecular mechanics (MM) Poisson-Boltzmann (PB) or generalized Born (GB) surface area methods (MM-P(G)BSA) are among the most commonly used end state approaches for the calculation of the binding free energies (BFEs) in computational drug design and screening studies. Their thermodynamic cycle is based on the decomposition of the free energy change into several energy terms, including molecular mechanics (MM) electrostatic and van der Waals terms representing the gas phase binding energy change, as well as implicit solvation energies comprising polar solvation, calculated by solving PB equation or its reduced form, GB, and nonpolar solvation surface area (SA) terms. Although these terms are additive, and thus the sum of these components should yield the total free energy change, most of these terms are represented with coefficients that are physically meaningful but empirical. To date, a great deal of effort has been made to improve the accuracy of these methods in the prediction of experimental binding free energies, at least relatively, i.e., relative binding free energy (RBFE), resulting in totally empirical coefficients on energy terms and breaking the underlying physics. Furthermore, although these methods originated from protein-ligand RBFE estimation, there have been examples or even tutorials using these methods for protein-peptide or protein-protein interactions (PPIs), due to the same simple physics of binding at the bound state, without sufficient hesitation regarding their accuracy limitations. Here, we thoroughly evaluate MMP(G)BSA methods in all variants available in the literature for a diverse protein-protein complex set and reveal their true RBFE accuracy by means of Pearson correlation with experimental values, with at most R = 0.42. We also demonstrate that the assumption of independent fitting coefficients for decomposed energy terms could not only break the physics but also statistically represent overfitting. Through analytic derivation and large-scale molecular dynamics simulations, we show that (i) the protein-ligand (PL), protein-peptide or protein-protein (PP) Coulomb interaction energy and the GB solvation correction are almost perfectly collinear (R\n                  <jats:sup>2</jats:sup>\n                  ≥0.99) reflecting their designed role as vacuum electrostatics plus solvent screening, and (ii) the van der Waals interaction and SA term also exhibit strong correlation. Interaction entropy (IE) and C2 entropy corrections, which are also found to be strongly dependent on each other, worsen the overall accuracy of the methods due to the large energetic fluctuations of these extended protein-protein systems. The findings of collinearity hold both at the level of instantaneous trajectory fluctuations and when averaged across a diverse set of 138 PP complexes and persist in both single-trajectory and three-trajectory MM-GBSA protocols. Our results show the limitation of the methods for protein-protein complexes and caution against using decomposed MM-GBSA terms as independent predictors in regression models and suggest instead combining correlated terms into effective polar, nonpolar, and entropic contributions, while noting the adverse impact of these entropy terms.\n                </jats:p>",
+      "DOI": "10.64898/2026.06.24.734195",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2026-06-29T19:10:20Z",
+        "timestamp": 1782760220000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Collinearity of Decomposed Energy Terms in MM-P(G)BSA Binding Free Energy Calculations of Protein-Protein Complexes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4689-2070",
+          "authenticated-orcid": false,
+          "given": "Azize",
+          "family": "Sevim",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Physics, Gebze Technical University, 41400, Kocaeli/Turkey"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6891-6929",
+          "authenticated-orcid": false,
+          "given": "Abdulkadir",
+          "family": "Kocak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, Gebze Technical University, 41400, Kocaeli/Turkey"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.9b00055"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00609"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gpb.2021.03.004"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/wcms.1455"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/wcms.1455"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00179"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100275a"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00610-7"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1521-3773(20020802)41"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm0609162"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22192"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.9b00055"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.2c07079"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ar000033j"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/minf.201100135"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.2c07079"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00609"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-018-0162-6"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C9NR10638C"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.3c00834"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c00934"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00001"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-022-00487-w"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci600369n"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00609"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07391102.2016.1268974"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21372"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(04)74084-9"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm0608210"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct8003707"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21366"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10822-011-9486-1"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmolb.2021.712085"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00734"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4978893"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b02682"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.39",
+          "unstructured": "S. Llc , W. DeLano PyMol , (2020). http://www.pymol.org/pymol."
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1758-2946-3-1"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCSE.2007.55"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20291"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22711"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20035"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct200731v"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevB.31.2643"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.448118"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.328693"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.3.CO;2-L"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.1c00645"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20033"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.8b00418"
+        },
+        {
+          "key": "2026070813500667000_2026.06.24.734195v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.3c00834"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.24.734195",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            8
+          ]
+        ],
+        "date-time": "2026-07-08T20:50:12Z",
+        "timestamp": 1783543812000
+      },
+      "score": 102.42005,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.24.734195"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 54,
+      "URL": "https://doi.org/10.64898/2026.06.24.734195",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

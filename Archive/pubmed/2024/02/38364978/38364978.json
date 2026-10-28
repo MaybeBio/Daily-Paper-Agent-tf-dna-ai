@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "38364978",
+    "doi": "10.1016/j.jad.2024.01.274",
+    "title": "NEFA can serve as good biological markers for the diagnosis of depression in adolescents."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The incidence of adolescent depression has markedly risen in recent years, with a high recurrence rate into adulthood. Diagnosis in adolescents is challenging due to subjective factors, highlighting the crucial need for objective diagnostic markers. METHODS: Our study enrolled 204 participants, including healthy controls (n = 88) and first-episode adolescent depression patients (n = 116). Serum samples underwent gas chromatography-mass spectrometry (GC-MS) analysis to assess non-esterified fatty acids (NEFA) expression. Machine learning and ROC analysis were employed to identify potential biomarkers, followed by bioinformatics analysis to explore underlying mechanisms. RESULTS: Nearly all differentially expressed NEFA exhibited significant downregulation. Notably, nonanoic acid, cis-10-pentadecenoic acid, cis-10-carboenoic acid, and cis-11-eicosenoic acid demonstrated excellent performance in distinguishing adolescent depression patients. Metabolite-gene interaction analysis revealed these NEFAs interacted with multiple genes. KEGG pathway analysis on these genes suggested that differentially expressed NEFA may impact PPAR and cAMP signaling pathways. LIMITATIONS: Inclusion of diverse populations for evaluation is warranted. Biomarkers identified in this study require samples that are more in line with the experimental design for external validation, and further basic research is necessary to validate the potential depressive mechanisms of NEFA. CONCLUSIONS: The overall reduction in NEFA expression in first-episode adolescent depression patients suggests a potential mediation of depression symptoms through cAMP and PPAR signaling pathways. NEFA levels show promise as a diagnostic tool for identifying first-episode adolescent depression patients.",
+    "keywords": [
+      "Adolescent depression",
+      "Diagnostic markers",
+      "Machine learning",
+      "Non-esterified fatty acids"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Adolescent",
+      "*Fatty Acids, Nonesterified/metabolism",
+      "*Depression/diagnosis",
+      "Peroxisome Proliferator-Activated Receptors",
+      "Biomarkers",
+      "Gas Chromatography-Mass Spectrometry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Guan-Xi",
+        "Li, Ze-Lin",
+        "Lin, Su-Yan",
+        "Luo, Zheng-Yi",
+        "Yin, Ya-Nan",
+        "Zhou, Yan-Ling",
+        "Ning, Yu-Ping"
+      ],
+      "short_names": [
+        "Liu GX",
+        "Li ZL",
+        "Lin SY",
+        "Luo ZY",
+        "Yin YN",
+        "Zhou YL",
+        "Ning YP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, China; The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China.",
+        "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China.",
+        "The Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China.",
+        "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China.",
+        "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China.",
+        "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China. Electronic address: zhouylivy@aliyun.com.",
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, China; The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China. Electronic address: ningjeny@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Guan-Xi",
+        "short_name": "Liu GX",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, China; The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ze-Lin",
+        "short_name": "Li ZL",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Su-Yan",
+        "short_name": "Lin SY",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zheng-Yi",
+        "short_name": "Luo ZY",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Ya-Nan",
+        "short_name": "Yin YN",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yan-Ling",
+        "short_name": "Zhou YL",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China. Electronic address: zhouylivy@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Ning, Yu-Ping",
+        "short_name": "Ning YP",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, China; The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital), Guangzhou, China; Key Laboratory of Neurogenetics and Channelopathies of Guangdong Province and the Ministry of Education of China, Guangzhou Medical University, Guangzhou, China. Electronic address: ningjeny@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of affective disorders"
+    ],
+    "journal_abbrev": [
+      "J Affect Disord"
+    ],
+    "pub_date": "2024 May 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/17 10:43",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42277741",
+      "41575925",
+      "41394405",
+      "38612284"
+    ],
+    "refs": [],
+    "similar": [
+      "38364978",
+      "24036177",
+      "32793344",
+      "34871861",
+      "25200787",
+      "23250958",
+      "34578930",
+      "30576500",
+      "38705456",
+      "23239188",
+      "34755529",
+      "33819629",
+      "10419984",
+      "31676441",
+      "25256931",
+      "23861170",
+      "33091626",
+      "24714724",
+      "26923087",
+      "12853447",
+      "22934076",
+      "27179869",
+      "33548344",
+      "12204798",
+      "15059948",
+      "30426168",
+      "28298252",
+      "38307453",
+      "25573885",
+      "38876225",
+      "34147225",
+      "33447694",
+      "3028742",
+      "884858",
+      "26205910",
+      "3354349",
+      "29602237",
+      "25702040",
+      "17216277",
+      "37268562",
+      "21228312",
+      "32000864",
+      "40005947",
+      "26553490",
+      "26119475",
+      "33483356",
+      "17141227",
+      "33682438",
+      "6325715",
+      "34678645",
+      "16906479",
+      "32389474",
+      "39080990",
+      "40002343",
+      "22720932",
+      "22224852",
+      "36308982",
+      "9888641",
+      "10620001",
+      "22529526",
+      "14559108",
+      "29636047",
+      "31910030",
+      "35616199",
+      "39890076",
+      "30830452",
+      "35469642",
+      "33651122",
+      "35149437",
+      "35840398",
+      "24945112",
+      "39053153",
+      "40123481",
+      "35011078",
+      "19226374",
+      "3219328",
+      "35903133",
+      "16238111",
+      "8906595",
+      "27143381",
+      "32234835",
+      "11478365",
+      "15637883",
+      "25637632",
+      "21046209",
+      "21338761",
+      "1737920",
+      "19138447",
+      "7217291",
+      "33129573",
+      "38107572",
+      "3220107",
+      "15940468",
+      "6821682",
+      "27777202",
+      "10794723",
+      "21489952",
+      "30032133",
+      "26586277",
+      "38951833"
+    ],
+    "review": [
+      "38364978",
+      "26553490",
+      "9888641",
+      "16238111"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0165-0327(24)00299-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/depression.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Depression"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0165-0327(24)00299-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.06.708946",
+  "title": "A Modular Framework for Automated Segmentation and Analysis of AFM Imaging of Chromatin Organization",
+  "doi": "10.64898/2026.03.06.708946",
+  "abstract": "<h4>ABSTRACT</h4> Chromatin organization underlies essential genome functions, but its nanoscale organization remains challenging to capture and quantify with precision. Atomic force microscopy (AFM) offers direct structural readouts of DNA and chromatin, yet translating these rich images into reproducible biological metrics has been limited by the lack of standardized, scalable analysis tools. Here we present DNAsight, an automated analysis framework that integrates machine learning (ML)-based segmentation with modular, base-pair-calibrated quantification of DNA spatial organization, looping, nucleosome spacing, and protein clustering. Applied across diverse chromatin-associated proteins, DNAsight reveals protein-specific organizational signatures, including topology-dependent compaction by integration host factor (IHF), condition-dependent changes in loop-like DNA structures in cohesin-CTCF-precocious dissociation of sisters 5A (PDS5A) reactions, and promoter-driven multimerization of GAGA factor (GAF) clusters. The framework further enables direct extraction of nucleosome spacing distributions from raw AFM images, providing a label-free route to investigate chromatin fiber architecture. Together, these advances establish DNAsight as a generalizable and scalable approach for converting AFM measurements into quantitative insights into the physical principles of chromatin organization. <h4>Abstract Figure</h4>",
+  "authors": [
+    "Sørensen EW",
+    "Pangeni S",
+    "Urteaga-Merino R",
+    "Murray PJ",
+    "Rudnizky S",
+    "Liao T",
+    "Rashid F",
+    "Hwang J",
+    "Yamadi M",
+    "Feng XA",
+    "Zähringer J",
+    "Gu S",
+    "Davidson IF",
+    "Caccianini L",
+    "Osorio-Valeriano M",
+    "Farnung L",
+    "Vos SM",
+    "Peters J",
+    "Berger J",
+    "Wu C",
+    "Hatzakis NS",
+    "Kirkegaard JB",
+    "Ha T"
+  ],
+  "published_date": "2026-03-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.06.708946",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.06.708946.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1213263",
+    "raw_record": {
+      "id": "PPR1213263",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1213263"
+        ]
+      },
+      "doi": "10.64898/2026.03.06.708946",
+      "title": "A Modular Framework for Automated Segmentation and Analysis of AFM Imaging of Chromatin Organization",
+      "authorString": "Sørensen EW, Pangeni S, Urteaga-Merino R, Murray PJ, Rudnizky S, Liao T, Rashid F, Hwang J, Yamadi M, Feng XA, Zähringer J, Gu S, Davidson IF, Caccianini L, Osorio-Valeriano M, Farnung L, Vos SM, Peters J, Berger J, Wu C, Hatzakis NS, Kirkegaard JB, Ha T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sørensen EW",
+            "lastName": "Sørensen",
+            "firstName": "Emily Winther",
+            "initials": "EW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pangeni S",
+            "lastName": "Pangeni",
+            "firstName": "Sushil",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6804-8794"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Cellular & Molecular Medicine and , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Urteaga-Merino R",
+            "lastName": "Urteaga-Merino",
+            "firstName": "Raquel",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Cellular & Molecular Medicine and , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murray PJ",
+            "lastName": "Murray",
+            "firstName": "Peter",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Cellular & Molecular Medicine and , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rudnizky S",
+            "lastName": "Rudnizky",
+            "firstName": "Sergei",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0520-0752"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Cellular & Molecular Medicine and , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liao T",
+            "lastName": "Liao",
+            "firstName": "Ting-Wei",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rashid F",
+            "lastName": "Rashid",
+            "firstName": "Fahad",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3898-3842"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hwang J",
+            "lastName": "Hwang",
+            "firstName": "Jihee",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Cellular & Molecular Medicine and , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yamadi M",
+            "lastName": "Yamadi",
+            "firstName": "Maryam",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feng XA",
+            "lastName": "Feng",
+            "firstName": "Xinyu",
+            "initials": "XA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zähringer J",
+            "lastName": "Zähringer",
+            "firstName": "Jonas",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Cellular & Molecular Medicine and , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gu S",
+            "lastName": "Gu",
+            "firstName": "Stephanie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Cellular & Molecular Medicine and , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davidson IF",
+            "lastName": "Davidson",
+            "firstName": "Iain",
+            "initials": "IF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Caccianini L",
+            "lastName": "Caccianini",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, and , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Osorio-Valeriano M",
+            "lastName": "Osorio-Valeriano",
+            "firstName": "Manuel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Farnung L",
+            "lastName": "Farnung",
+            "firstName": "Lucas",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vos SM",
+            "lastName": "Vos",
+            "firstName": "Seychelle",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, and , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Peters J",
+            "lastName": "Peters",
+            "firstName": "Jan-Michael",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berger J",
+            "lastName": "Berger",
+            "firstName": "James",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu C",
+            "lastName": "Wu",
+            "firstName": "Carl",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hatzakis NS",
+            "lastName": "Hatzakis",
+            "firstName": "Nikos",
+            "initials": "NS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kirkegaard JB",
+            "lastName": "Kirkegaard",
+            "firstName": "Julius",
+            "initials": "JB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ha T",
+            "lastName": "Ha",
+            "firstName": "Taekjip",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Cellular & Molecular Medicine and , , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0520-0752"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6804-8794"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3898-3842"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>ABSTRACT</h4>  Chromatin organization underlies essential genome functions, but its nanoscale organization remains challenging to capture and quantify with precision. Atomic force microscopy (AFM) offers direct structural readouts of DNA and chromatin, yet translating these rich images into reproducible biological metrics has been limited by the lack of standardized, scalable analysis tools. Here we present DNAsight, an automated analysis framework that integrates machine learning (ML)-based segmentation with modular, base-pair-calibrated quantification of DNA spatial organization, looping, nucleosome spacing, and protein clustering. Applied across diverse chromatin-associated proteins, DNAsight reveals protein-specific organizational signatures, including topology-dependent compaction by integration host factor (IHF), condition-dependent changes in loop-like DNA structures in cohesin-CTCF-precocious dissociation of sisters 5A (PDS5A) reactions, and promoter-driven multimerization of GAGA factor (GAF) clusters. The framework further enables direct extraction of nucleosome spacing distributions from raw AFM images, providing a label-free route to investigate chromatin fiber architecture. Together, these advances establish DNAsight as a generalizable and scalable approach for converting AFM measurements into quantitative insights into the physical principles of chromatin organization. <h4>Abstract Figure</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101020558",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101072505",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.06.708946"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1213263"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1213263&type=FILE&fileName=EMS215038-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42328787",
+            "reference": "Nucleic acids research. \n    2026 Jun;54(12):gkag632",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215038",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-07",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

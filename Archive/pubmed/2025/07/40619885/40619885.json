@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40619885",
+    "doi": "10.1177/15330338251358324",
+    "title": "Radiomics-Based Machine Learning for Determining MYCN Amplification Status in Childhood Neuroblastoma: A Systematic Review and Meta-Analysis."
+  },
+  "content": {
+    "abstract": "IntroductionThe MYCN oncogene promotes tumor cell proliferation in neuroblastoma, and its amplification is a well-established marker of poor prognosis. Radiomics-based approaches have shown promise in noninvasively determining MYCN amplification status; however, their diagnostic performance has varied significantly across studies. This systematic review and meta-analysis aimed to quantitatively evaluate the diagnostic accuracy of radiomics-based machine learning models for determining MYCN amplification in neuroblastoma and to critically assess the methodological quality of the included studies.MethodsA systematic search of articles published between January 1, 2000, and June 30, 2024, was conducted across PubMed, Embase, Web of Science, and the Cochrane Library. The articles focused on using radiomics to determine MYCN amplification in neuroblastoma. Methodological quality was assessed using the Radiomics Quality Score (RQS), METhodological RadiomICs Score (METRICS), and Quality Assessment of Diagnostic Accuracy Studies 2 (QUADAS-2) tools. A meta-analysis of validation performance was performed on studies with Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis statement Type 2a or higher.ResultsNine studies with 851 patients were included, and seven studies with 217 patients in the validation set were eligible for meta-analysis. The RQS scores ranged from 10 to 16 (mean 12), and METRICS scores ranged from 28.8% to 78.4% (mean 59.7%). QUADAS-2 assessment indicated that most studies had a low or unclear risk of bias. The pooled sensitivity, specificity, positive likelihood ratio, and negative likelihood ratio were 0.78, 0.92, 9.45, and 0.24, respectively. The area under the summary receiver operating characteristic curve was 0.94 (95% confidence interval: 0.91-0.95).ConclusionDespite variability in study design and bias risk, radiomics shows promise as a non-invasive method for detecting MYCN amplification in neuroblastoma. Further refinement and validation in multicenter studies with larger sample sizes are needed to enhance its clinical applicability.",
+    "keywords": [
+      "MYCN oncogene",
+      "meta-analysis",
+      "neuroblastoma",
+      "radiomics",
+      "systematic review"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neuroblastoma/genetics/diagnostic imaging/diagnosis",
+      "*N-Myc Proto-Oncogene Protein/genetics",
+      "*Machine Learning",
+      "*Gene Amplification",
+      "Child",
+      "Prognosis",
+      "Biomarkers, Tumor/genetics",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Systematic Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Haoru",
+        "Ji, Yi",
+        "Chen, Xin",
+        "He, Ling",
+        "Fang, Xiangming",
+        "Cai, Jinhua"
+      ],
+      "short_names": [
+        "Wang H",
+        "Ji Y",
+        "Chen X",
+        "He L",
+        "Fang X",
+        "Cai J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2497-0872"
+      ],
+      "affiliations": [
+        "Department of Radiology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Chongqing, China. RINGGOLD: 159456",
+        "Department of Radiology, The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi, China. RINGGOLD: 261546",
+        "Wuxi Medical Center, Nanjing Medical University, Wuxi, China.",
+        "Department of Radiology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Chongqing, China. RINGGOLD: 159456",
+        "Department of Radiology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Chongqing, China. RINGGOLD: 159456",
+        "Department of Radiology, The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi, China. RINGGOLD: 261546",
+        "Wuxi Medical Center, Nanjing Medical University, Wuxi, China.",
+        "Department of Radiology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Chongqing, China. RINGGOLD: 159456"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Haoru",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0003-2497-0872"
+        ],
+        "affiliations": [
+          "Department of Radiology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Yi",
+        "short_name": "Ji Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi, China.",
+          "Wuxi Medical Center, Nanjing Medical University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "He, Ling",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Xiangming",
+        "short_name": "Fang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi, China.",
+          "Wuxi Medical Center, Nanjing Medical University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Jinhua",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Child Health and Disorders, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatrics, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Technology in cancer research & treatment"
+    ],
+    "journal_abbrev": [
+      "Technol Cancer Res Treat"
+    ],
+    "pub_date": "2025 Jan-Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Systematic Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/07 06:26",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [
+      "42696227",
+      "42575955",
+      "42411734",
+      "41699756"
+    ],
+    "refs": [
+      "38900321",
+      "38286723",
+      "38228979",
+      "38001240",
+      "37889265",
+      "37867018",
+      "37707410",
+      "37395888",
+      "37178203",
+      "36063183",
+      "35460355",
+      "35372427",
+      "35237892",
+      "34815394",
+      "34109133",
+      "34003574",
+      "33118047",
+      "32296467",
+      "32015512",
+      "31365300",
+      "31270976",
+      "29284669",
+      "28975929",
+      "28945781",
+      "25560730",
+      "22007046",
+      "19047291"
+    ],
+    "similar": [
+      "40619885",
+      "41410890",
+      "35460355",
+      "37178203",
+      "40744488",
+      "34751044",
+      "37707410",
+      "40397102",
+      "34003574",
+      "27510381",
+      "27465929",
+      "33118047",
+      "40108662",
+      "38001240",
+      "31695155",
+      "30691436",
+      "40600620",
+      "40914722",
+      "27513929",
+      "38802557",
+      "38436700",
+      "39937273",
+      "32896084",
+      "32015512",
+      "40707262",
+      "37463039",
+      "32593299",
+      "24022278",
+      "30584073",
+      "32492633",
+      "31115156",
+      "35820898",
+      "36775958",
+      "37395888",
+      "31685009",
+      "41309108",
+      "31053863",
+      "37925343",
+      "16051962",
+      "39049899",
+      "38384802",
+      "34109133",
+      "39841228",
+      "38308012",
+      "17020972",
+      "32032241",
+      "27599694",
+      "40349577",
+      "33739795",
+      "15363318",
+      "39060885",
+      "38867143",
+      "40489053",
+      "36018355",
+      "32204764",
+      "40505605",
+      "31685267",
+      "36648615",
+      "36119492",
+      "32237073",
+      "39443629",
+      "38360554",
+      "39742798",
+      "31365300",
+      "40829998",
+      "17213019",
+      "40513092",
+      "35437614",
+      "30483774",
+      "38360532",
+      "40722478",
+      "32945147",
+      "41328447",
+      "15549714",
+      "39528874",
+      "14694373",
+      "38043380",
+      "40146313",
+      "38762472",
+      "36749371",
+      "26482175",
+      "29797634",
+      "36321557",
+      "16047351",
+      "12670915",
+      "29117357",
+      "12097268",
+      "23091029",
+      "38389371",
+      "41027762",
+      "37221048",
+      "15527323",
+      "40129922",
+      "8996128",
+      "34116676",
+      "40195139",
+      "21288077",
+      "17023822",
+      "41428015",
+      "32060267"
+    ],
+    "review": [
+      "40619885",
+      "41410890",
+      "40744488",
+      "40397102",
+      "40914722",
+      "38802557",
+      "39937273",
+      "32015512",
+      "40707262",
+      "37463039",
+      "37395888",
+      "41309108",
+      "37925343",
+      "38384802",
+      "39841228",
+      "38308012",
+      "40349577",
+      "39060885",
+      "38867143",
+      "40489053",
+      "36018355",
+      "40505605",
+      "36648615",
+      "36119492",
+      "39742798",
+      "40829998",
+      "40513092",
+      "40722478",
+      "41328447",
+      "39528874",
+      "40146313",
+      "38762472",
+      "36749371",
+      "36321557",
+      "29117357",
+      "38389371",
+      "41027762",
+      "37221048",
+      "40129922",
+      "40195139"
+    ],
+    "pmc": [
+      "12235222"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/15330338251358324?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40619885/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

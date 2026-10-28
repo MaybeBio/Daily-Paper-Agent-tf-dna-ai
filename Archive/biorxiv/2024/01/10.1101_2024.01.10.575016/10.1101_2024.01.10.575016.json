@@ -1,0 +1,367 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.10.575016",
+  "title": "Cell Cycle Regulation has Shaped Budding Yeast Replication Origin Structure and Function",
+  "doi": "10.1101/2024.01.10.575016",
+  "abstract": "<h4>Summary</h4> Eukaryotic DNA replication initiates from multiple genomic loci known as origins. At budding yeast origins like ARS1, a double hexamer (DH) of the MCM replicative helicase is assembled by Origin Recognition Complex (ORC), Cdc6 and Cdt1 via sequential hexamer loading from two opposed ORC binding sites. Cyclin Dependent Kinase (CDK) inhibits DH assembly, which prevents re-replication by restricting helicase loading to G1 phase. Here we show that an intrinsically disordered region (IDR) in the Orc2 subunit promotes interaction between ORC and the first loaded, closed-ring MCM hexamer (the MO intermediate); CDK phosphorylation of this IDR blocks MO formation and DH assembly. We show that MO functions by stabilising ORC at the lower affinity binding sites required for second hexamer loading. Origins comprising two high affinity ORC sites can assemble DH efficiently without MO by independently loading single hexamers; these origins escape CDK inhibition in vitro and in vivo . Our work reveals mechanistic plasticity in MCM loading with implications for understanding how CDK regulation has shaped yeast origin evolution and how natural origins might escape cell cycle regulation. We also identify key steps common to loading pathways, with implications for understanding how MCM is loaded in other eukaryotes.",
+  "authors": [
+    "Lim CT",
+    "Miller TC",
+    "Tan KW",
+    "Tan KW",
+    "Talele S",
+    "Early A",
+    "East P",
+    "Sánchez H",
+    "Dekker NH",
+    "Costa A",
+    "Diffley JF"
+  ],
+  "published_date": "2024-01-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.10.575016",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.10.575016.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR785837",
+    "raw_record": {
+      "id": "PPR785837",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR785837"
+        ]
+      },
+      "doi": "10.1101/2024.01.10.575016",
+      "title": "Cell Cycle Regulation has Shaped Budding Yeast Replication Origin Structure and Function",
+      "authorString": "Lim CT, Miller TC, Tan KW, Tan KW, Talele S, Early A, East P, Sánchez H, Dekker NH, Costa A, Diffley JF.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lim CT",
+            "lastName": "Lim",
+            "firstName": "Chew Theng",
+            "initials": "CT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5184-7680"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Chromosome Replication Laboratory, The Francis Crick Institute, 1 Midland Road, London, NW1 1AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miller TC",
+            "lastName": "Miller",
+            "firstName": "Thomas C.R.",
+            "initials": "TC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Macromolecular Machines Laboratory, The Francis Crick Institute, 1 Midland Road, London, NW1 1AT"
+                },
+                {
+                  "affiliation": "DNRF Center for Chromosome Stability, Department of Cellular and Molecular Medicine, University of Copenhagen, Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tan KW",
+            "lastName": "Tan",
+            "firstName": "Kang Wei",
+            "initials": "KW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9749-1656"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Chromosome Replication Laboratory, The Francis Crick Institute, 1 Midland Road, London, NW1 1AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tan KW",
+            "lastName": "Tan",
+            "firstName": "Kang Wei",
+            "initials": "KW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5285-5324"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Chromosome Replication Laboratory, The Francis Crick Institute, 1 Midland Road, London, NW1 1AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Talele S",
+            "lastName": "Talele",
+            "firstName": "Saurabh",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9238-1442"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Early A",
+            "lastName": "Early",
+            "firstName": "Anne",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9076-1310"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Chromosome Replication Laboratory, The Francis Crick Institute, 1 Midland Road, London, NW1 1AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "East P",
+            "lastName": "East",
+            "firstName": "Philip",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics & Biostatistics, The Francis Crick Institute, 1 Midland Road, London, NW1 1AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sánchez H",
+            "lastName": "Sánchez",
+            "firstName": "Humberto",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dekker NH",
+            "lastName": "Dekker",
+            "firstName": "Nynke",
+            "initials": "NH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Costa A",
+            "lastName": "Costa",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1126-2498"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Macromolecular Machines Laboratory, The Francis Crick Institute, 1 Midland Road, London, NW1 1AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diffley JF",
+            "lastName": "Diffley",
+            "firstName": "John F.X.",
+            "initials": "JF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Chromosome Replication Laboratory, The Francis Crick Institute, 1 Midland Road, London, NW1 1AT"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5184-7680"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5285-5324"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9076-1310"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9238-1442"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9749-1656"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1126-2498"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  Eukaryotic DNA replication initiates from multiple genomic loci known as origins. At budding yeast origins like ARS1, a double hexamer (DH) of the MCM replicative helicase is assembled by Origin Recognition Complex (ORC), Cdc6 and Cdt1 via sequential hexamer loading from two opposed ORC binding sites. Cyclin Dependent Kinase (CDK) inhibits DH assembly, which prevents re-replication by restricting helicase loading to G1 phase. Here we show that an intrinsically disordered region (IDR) in the Orc2 subunit promotes interaction between ORC and the first loaded, closed-ring MCM hexamer (the MO intermediate); CDK phosphorylation of this IDR blocks MO formation and DH assembly. We show that MO functions by stabilising ORC at the lower affinity binding sites required for second hexamer loading. Origins comprising two high affinity ORC sites can assemble DH efficiently without MO by independently loading single hexamers; these origins escape CDK inhibition  in vitro and  in vivo . Our work reveals mechanistic plasticity in MCM loading with implications for understanding how CDK regulation has shaped yeast origin evolution and how natural origins might escape cell cycle regulation. We also identify key steps common to loading pathways, with implications for understanding how MCM is loaded in other eukaryotes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "789267",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101020432",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "106252/Z/14/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "669424",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "219527/Z/19/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/10/2024.01.10.575016.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.10.575016"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR785837"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR785837&type=FILE&fileName=EMS193356-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40588661",
+            "reference": "Nature structural & molecular biology. 2025 Sep;32(9):1697-1707",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193356",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-01-12",
+      "firstPublicationDate": "2024-01-10",
+      "firstIndexDate": "2024-01-12",
+      "fullTextReceivedDate": "2024-01-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

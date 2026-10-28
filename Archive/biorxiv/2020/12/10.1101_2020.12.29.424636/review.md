@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary figure legends)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present a single-cell atlas of chromatin accessibility and gene expression from the developing human cerebral cortex across four gestational timepoints. They identify gene-regulatory dynamics along a continuous differentiation trajectory into glutamatergic neurons, characterize glial lineage programs, define a class of genes with predictive chromatin (GPCs), and use deep learning models to prioritize noncoding de novo mutations in autism spectrum disorder (ASD).
+- **Visible evidence base** Main text figures referenced (Figures 1–7), supplementary figures (S1–S16), supplementary tables (S1–S20), methods section
+- **Missing materials affecting confidence** Figure panels and actual data visualizations not provided; supplementary tables not provided; exact statistical test outputs and effect sizes not fully reported; code availability stated but not reviewed
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and technically ambitious dataset that will be of considerable interest to the developmental neuroscience and genomics communities. The integration of single-cell chromatin accessibility and gene expression across multiple gestational timepoints is a valuable resource. However, several key claims require additional support or clarification. The GPC concept is interesting but its definition and validation need scrutiny. The ASD mutation analysis is potentially impactful but the enrichment statistics and model interpretation require careful evaluation. The manuscript would benefit from clearer presentation of validation metrics and more explicit discussion of limitations.
+- **Who would be interested in the results, and why** Developmental neuroscientists studying corticogenesis, researchers interested in gene regulatory mechanisms of cell fate specification, computational biologists developing methods for single-cell multi-omics integration, and human geneticists studying the noncoding genome in neurodevelopmental disorders such as ASD.
+- **Major strengths** 1) The generation of paired single-cell ATAC-seq and RNA-seq data from the developing human cortex across multiple timepoints is a significant resource. 2) The use of multi-omics data from the same cells for validation strengthens the CRE-gene linking approach. 3) The application of base-resolution deep learning models to interpret noncoding mutations in ASD is timely and methodologically sophisticated. 4) The identification of GPCs as a class of genes with predictive chromatin is conceptually interesting. 5) The characterization of glial progenitor heterogeneity, including evidence for a common multipotent glial progenitor, is novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that GPCs are genes whose expression can be well-predicted from chromatin accessibility signals, and that these genes are enriched for transcription factors and play a driving role in cell identity establishment.
+  - **Evidence pointer** Results section "A single-cell regulatory atlas"; Figure 2D–E; Table S9
+  - **Concern** The definition of GPCs relies on gene activity-expression correlations computed from single-cell data. The authors note that few genes exhibit high correlations due to data sparsity, yet they define GPCs as the top 10% of correlations with a minimum of 10 linked CREs. This threshold-based approach may be sensitive to technical factors such as sequencing depth, cell type composition, and the choice of correlation metric. The validation using multi-omics data shows concordance (Pearson r = 0.62), but this is a moderate correlation and the authors do not report how many of the 185 GPCs are validated in the multi-omics data specifically. The claim that GPCs are "driving" cell identity is causal language that is not supported by correlative evidence.
+  - **Why it matters** The GPC concept is central to the manuscript's conceptual contribution. If the definition is arbitrary or the validation is incomplete, the biological interpretation may be overstated.
+  - **Resolution test** Provide a more rigorous statistical framework for GPC definition, including permutation-based significance thresholds. Report the proportion of GPCs validated in the multi-omics data. Demonstrate that GPCs are not simply an artifact of gene length, GC content, or expression level. Soften causal language or provide functional validation (e.g., CRISPR perturbation) to support the claim that GPCs drive cell identity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that BPNet models trained on cluster-specific chromatin accessibility profiles can prioritize disruptive noncoding mutations in ASD, with significant enrichment in cases versus controls.
+  - **Evidence pointer** Results section "Deep learning models"; Figure 7B–C; Table S22
+  - **Concern** The enrichment analysis for ASD mutations relies on a threshold of impact score > 20, but the choice of this threshold is not justified. The authors report enrichment for several clusters but do not provide a multiple testing correction across the 16 clusters tested. The comparison to fetal heart models as a negative control is useful, but the authors do not report whether the heart models were trained with the same architecture and hyperparameters. The statement that enrichment "approached levels seen for deleterious protein-coding mutations" is vague and requires quantitative comparison. The authors also do not address potential confounding factors such as mutation density, recombination rates, or selection pressure in the genomic regions tested.
+  - **Why it matters** The ASD mutation analysis is a key translational claim of the manuscript. If the enrichment is not robust to threshold choice or multiple testing correction, the conclusion that these mutations are functionally relevant may be premature.
+  - **Resolution test** Provide a systematic sensitivity analysis for the impact score threshold. Apply multiple testing correction across clusters. Report the exact enrichment values for coding mutations for comparison. Address potential confounders or justify their exclusion. Consider validating a subset of prioritized mutations experimentally (e.g., reporter assays).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that the fuzzy c-means clustering approach reveals three broad glial programs emanating from cycling cells, including a common multipotent glial progenitor.
+  - **Evidence pointer** Results section "Clustering approach"; Figure 4; Figure 6
+  - **Concern** The fuzzy clustering approach is described but the choice of parameters (c=14, m=1.25) and the threshold for binarizing membership (0.06) are not fully justified. The authors state that the structure is stable to parameter sweeps but do not show this analysis. The interpretation of "programs emanating from cycling cells" relies on the pseudotime inference, which is based on RNA velocity. The authors do not report the robustness of the velocity analysis to parameter choices or the fraction of cells with confident velocity estimates. The claim of a "common multipotent glial progenitor" is speculative and requires additional evidence, such as lineage tracing or clonal analysis.
+  - **Why it matters** The glial progenitor claim is a novel biological finding. If the clustering or pseudotime analysis is not robust, the interpretation may be an artifact of the computational methods.
+  - **Resolution test** Provide the parameter sweep results. Report the fraction of cells with confident velocity estimates and the robustness of the pseudotime to alternative methods. Soften the claim of a common progenitor or provide additional supporting evidence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that the CRE-gene linking approach identifies 64,878 potential regulatory interactions, with 53% validated in the multi-omics data.
+  - **Evidence pointer** Results section "A single-cell regulatory atlas"; Figure 2H; Table S13
+  - **Concern** The validation rate of 53% is reported, but the authors do not specify the criteria for a "validated" link. Is it the same correlation threshold applied to the multi-omics data? The authors also do not report the false discovery rate for the initial linking approach. The choice of 100 bp window for the radial basis function in gene activity scoring may influence the results, and the sensitivity to this parameter is not reported.
+  - **Why it matters** The CRE-gene linking is foundational to the GPC analysis and the interpretation of regulatory dynamics. If the validation criteria are lenient or the linking approach is not robust, downstream analyses may be affected.
+  - **Resolution test** Clearly define the validation criteria. Report the FDR for the initial linking. Provide a sensitivity analysis for the gene activity scoring parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1E
+  - **Evidence pointer** Results section "A single-cell regulatory atlas"
+  - **Issue** The authors state that key factors such as SOX9, EOMES, NEUROD2, and DLX2 show strong cluster-specific enrichments in gene expression, gene activity, and motif activity. However, the figure legend is not provided, and it is unclear how these three metrics are visualized together.
+  - **Required correction** Clarify the figure layout and how the three metrics are compared. Consider showing the three metrics side-by-side for each factor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Definition of RNA velocity and pseudotime"
+  - **Evidence pointer** Methods section
+  - **Issue** The authors state that they used a modified version of the scVelo function for pseudotime calculation but do not describe the modification in detail.
+  - **Required correction** Provide a clear description of the modification and the rationale for it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Deep learning models"
+  - **Evidence pointer** Figure 7E; Table S23
+  - **Issue** The authors identify TF motifs disrupted by high-impact mutations but do not report the statistical significance of the motif enrichment analysis.
+  - **Required correction** Report the statistical framework and significance thresholds for the motif enrichment analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of GPCs as a "general principle of fate determination" is speculative and not directly supported by the data.
+  - **Required correction** Soften this claim and clearly distinguish between speculation and data-supported conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "De novo Mutation Filtering"
+  - **Evidence pointer** Methods section
+  - **Issue** The filtering criteria for de novo mutations are described, but the number of mutations remaining after each filtering step is not reported.
+  - **Required correction** Provide a flow diagram or table showing the number of mutations at each filtering step.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (GPC definition and validation), R1-M2 (ASD mutation enrichment robustness)
+- **Assessment against Nature-style criteria** Originality: High. The paired single-cell atlas across developmental timepoints is a novel resource, and the GPC concept is a new framework. Scientific importance: High. The data will be a valuable reference for the field, and the ASD mutation analysis has translational relevance. Interdisciplinary readership: Broad. The work spans developmental biology, genomics, and computational biology, and will appeal to a wide audience. Technical soundness: Moderate. The computational methods are sophisticated, but several key claims require additional validation and robustness analysis. Readability for nonspecialists: Moderate. The manuscript is dense and assumes familiarity with single-cell genomics and deep learning. The abstract is accessible, but the results section will be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The dataset is a valuable contribution, and the conceptual framework is interesting. However, the GPC definition and the ASD mutation enrichment analysis require additional rigor before the main claims are fully established.
+
+## Risk / unsupported claims
+- The claim that GPCs "drive" cell identity is not supported by the correlative evidence presented.
+- The claim that a "common multipotent glial progenitor" exists is speculative and not directly supported by the data.
+- The statement that ASD mutation enrichment "approached levels seen for deleterious protein-coding mutations" is vague and not quantitatively supported.
+- The claim that the fuzzy clustering structure is stable to parameter choices is not demonstrated with data.
+- The claim that the BPNet models can identify "frequently disrupted TF binding sites" in ASD is not supported by statistical significance testing.

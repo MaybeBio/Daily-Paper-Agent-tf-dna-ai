@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "41751574",
+    "doi": "10.3390/genes17020190",
+    "title": "Integrated Transcriptomic and Histological Analysis of TP53/CTNNB1 Mutations and Microvascular Invasion in Hepatocellular Carcinoma."
+  },
+  "content": {
+    "abstract": "Background/Objectives: Hepatocellular carcinoma (HCC) shows marked molecular and histopathological heterogeneity. Among the alterations most strongly associated with clinical outcome are mutations in TP53 and CTNNB1, as well as the presence of microvascular invasion (MVI). Although these factors are well established as prognostic indicators, how their molecular effects relate to tumor morphology remains unclear. In this work, we studied transcriptomic changes linked to TP53 and CTNNB1 mutational status and to MVI, and examined whether these changes are reflected in routine histology. Methods: RNA sequencing data from HCC samples annotated for mutations and vascular invasion were analyzed using differential expression analysis combined with machine learning-based feature selection to characterize the underlying transcriptional programs. In parallel, we trained a weakly supervised multitask deep learning model on hematoxylin and eosin-stained whole-slide images using slide-level labels only, without spatial annotations, to assess whether these features could be inferred from global histological patterns. Results: Distinct gene expression profiles were observed for TP53-mutated, CTNNB1-mutated, and MVI-positive tumors, involving pathways related to proliferation, metabolism, and invasion. Image-based models were able to capture morphological patterns associated with these states, achieving above-random discrimination with variable performance across tasks. Conclusions: Taken together, these results support the existence of coherent biological programs underlying key risk determinants in HCC and indicate that their phenotypic effects are, at least in part, detectable in routine histopathology. This provides a rationale for integrative morpho-molecular approaches to risk assessment in HCC.",
+    "keywords": [
+      "CTNNB1",
+      "RNA-seq",
+      "TP53",
+      "WSI",
+      "hepatocellular carcinoma (HCC)",
+      "liver cancer",
+      "vascular invasion"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/pathology",
+      "*Liver Neoplasms/genetics/pathology",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*beta Catenin/genetics",
+      "*Mutation",
+      "*Transcriptome/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Neoplasm Invasiveness/genetics",
+      "Microvessels/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garach, Ignacio",
+        "Hernandez, Nerea",
+        "Herrera, Luis J",
+        "Ortuno, Francisco M",
+        "Rojas, Ignacio"
+      ],
+      "short_names": [
+        "Garach I",
+        "Hernandez N",
+        "Herrera LJ",
+        "Ortuno FM",
+        "Rojas I"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-6618-7949",
+        "ORCID: 0009-0009-4150-1585",
+        "ORCID: 0000-0003-3220-9389",
+        "ORCID: 0000-0001-7424-1753",
+        "ORCID: 0000-0002-1033-5635"
+      ],
+      "affiliations": [
+        "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain.",
+        "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain.",
+        "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain.",
+        "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain.",
+        "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garach, Ignacio",
+        "short_name": "Garach I",
+        "identifiers": [
+          "0009-0006-6618-7949"
+        ],
+        "affiliations": [
+          "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Hernandez, Nerea",
+        "short_name": "Hernandez N",
+        "identifiers": [
+          "0009-0009-4150-1585"
+        ],
+        "affiliations": [
+          "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Herrera, Luis J",
+        "short_name": "Herrera LJ",
+        "identifiers": [
+          "0000-0003-3220-9389"
+        ],
+        "affiliations": [
+          "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Ortuño, Francisco M",
+        "short_name": "Ortuño FM",
+        "identifiers": [
+          "0000-0001-7424-1753"
+        ],
+        "affiliations": [
+          "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Rojas, Ignacio",
+        "short_name": "Rojas I",
+        "identifiers": [
+          "0000-0002-1033-5635"
+        ],
+        "affiliations": [
+          "Department of Computer Engineering, Automation and Robotics, CITIC, University of Granada, 18071 Granada, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Feb 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [
+      "42665991",
+      "42302326"
+    ],
+    "refs": [
+      "41368120",
+      "41261129",
+      "40723277",
+      "40699663",
+      "40675969",
+      "40350059",
+      "40172726",
+      "40056827",
+      "39934425",
+      "39915765",
+      "39915447",
+      "39701280",
+      "39583094",
+      "39261716",
+      "39176099",
+      "39080678",
+      "38987821",
+      "38077422",
+      "36975480",
+      "36751118",
+      "36518850",
+      "36413406",
+      "36382598",
+      "35509083",
+      "35269894",
+      "34902334",
+      "34840111",
+      "34550275",
+      "34465782",
+      "33921282",
+      "33892664",
+      "33872966",
+      "33872216",
+      "33649564",
+      "33619384",
+      "33315502",
+      "32382660",
+      "31400114",
+      "31058850",
+      "30963639",
+      "30635948",
+      "30617138",
+      "28886379",
+      "28498607",
+      "27241665",
+      "27222047",
+      "26646797",
+      "26384566",
+      "25446263",
+      "24276407",
+      "23720287",
+      "23400918",
+      "23149850",
+      "22801782",
+      "22561517",
+      "21603257",
+      "21527845",
+      "20501644",
+      "19543321",
+      "19084931",
+      "18611112",
+      "18324443",
+      "17907809",
+      "15814635",
+      "12209121",
+      "9566688",
+      "9034162",
+      "7624395"
+    ],
+    "similar": [
+      "41751574",
+      "34592239",
+      "26034368",
+      "28532995",
+      "33096424",
+      "40344393",
+      "42139279",
+      "41664193",
+      "40051627",
+      "23583669",
+      "38572921",
+      "41699549",
+      "39176099",
+      "40055377",
+      "39506070",
+      "28843658",
+      "42156413",
+      "33529367",
+      "41036748",
+      "38927057",
+      "39261716",
+      "41428609",
+      "37217808",
+      "34911488",
+      "32641413",
+      "27248174",
+      "24798046",
+      "20963515",
+      "41661474",
+      "42026805",
+      "21094160",
+      "39583094",
+      "28012864",
+      "26553052",
+      "38642400",
+      "25135868",
+      "38918127",
+      "30953666",
+      "25248380",
+      "35349075",
+      "41814977",
+      "42486346",
+      "38470497",
+      "34624411",
+      "27499097",
+      "37733676",
+      "29776391",
+      "33898558",
+      "29408647",
+      "22962603",
+      "39047713",
+      "30566242",
+      "39054058",
+      "29525529",
+      "31195064",
+      "39642087",
+      "40581839",
+      "27614453",
+      "41134139",
+      "32222644",
+      "37853415",
+      "40505357",
+      "41366455",
+      "26661118",
+      "26341700",
+      "40489756",
+      "40317014",
+      "31560893",
+      "37968991",
+      "33200377",
+      "35351523",
+      "41558394",
+      "41153430",
+      "34238242",
+      "30876945",
+      "31395065",
+      "40946928",
+      "37972953",
+      "28363643",
+      "30690729",
+      "33039961",
+      "39526926",
+      "21061181",
+      "31862487",
+      "42352927",
+      "40374146",
+      "18433021",
+      "42165897",
+      "40933208",
+      "42016321",
+      "40775092",
+      "38488408",
+      "25021421",
+      "25012536",
+      "40707265",
+      "41790668",
+      "39649551",
+      "18313840",
+      "33827453",
+      "30901310"
+    ],
+    "review": [
+      "41751574",
+      "26034368",
+      "23583669",
+      "39261716",
+      "41814977",
+      "37733676"
+    ],
+    "pmc": [
+      "12940783"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17020190",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41751574/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

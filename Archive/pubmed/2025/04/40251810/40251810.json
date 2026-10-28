@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "40251810",
+    "doi": "10.1111/cpr.70039",
+    "title": "Deciphering Sequence Determinants of Zygotic Genome Activation Genes: Insights From Machine Learning and the ZGAExplorer Platform."
+  },
+  "content": {
+    "abstract": "The mammalian life cycle initiates with the transition of genetic control from the maternal to the embryonic genome during zygotic genome activation (ZGA), which becomes pivotal for development. Nevertheless, understanding the conservation of genes and transcription factors (TFs) that underlie mammalian ZGA remains limited. Here, we compiled a comprehensive set of ZGA genes from mice, humans, pigs, bovines and goats, including Nr5a2 and TPRX1/2. The identification of 111 homologous genes through comparative analyses was followed by the discovery of a conserved genetic coding region, suggesting potential sequence preferences for ZGA genes. Notably, an interpretable machine learning model based on k-mer core features showed excellent performance in predicting ZGA genes (area under the ROC curve [AUC] > 0.81), revealing abundant and intricate 6-base sequence specific patterns and potential binding TFs, including motifs from NR5A2 and TPRX1/2. Further analysis demonstrated that gene sequence features and epigenetic modification features play equally important roles in regulating ZGA genes. Ultimately, we developed the ZGAExplorer platform to provide an invaluable resource for screening ZGA genes. Our study unravels the sequence determinants of ZGA genes across species through multi-omics data integration and machine learning, yielding insights into ZGA regulatory mechanisms and embryonic developmental arrest.",
+    "keywords": [
+      "epigenetic modification",
+      "gene conservation",
+      "machine learning",
+      "sequence specificity",
+      "zygotic genome activation"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Animals",
+      "*Zygote/metabolism",
+      "Humans",
+      "Mice",
+      "*Genome/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Gene Expression Regulation, Developmental",
+      "Swine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xing, Jixiang",
+        "Yang, Siqi",
+        "Liang, Yuchao",
+        "Hu, Pengwei",
+        "Dai, Bingjie",
+        "Li, Hanshuang",
+        "Xing, Yongqiang",
+        "Zuo, Yongchun"
+      ],
+      "short_names": [
+        "Xing J",
+        "Yang S",
+        "Liang Y",
+        "Hu P",
+        "Dai B",
+        "Li H",
+        "Xing Y",
+        "Zuo Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6065-7835"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "School of Life Science and Technology, Inner Mongolia University of Science and Technology, Baotou, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xing, Jixiang",
+        "short_name": "Xing J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Siqi",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yuchao",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Pengwei",
+        "short_name": "Hu P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Bingjie",
+        "short_name": "Dai B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hanshuang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Yongqiang",
+        "short_name": "Xing Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Inner Mongolia University of Science and Technology, Baotou, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Yongchun",
+        "short_name": "Zuo Y",
+        "identifiers": [
+          "0000-0002-6065-7835"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell proliferation"
+    ],
+    "journal_abbrev": [
+      "Cell Prolif"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/19 22:12",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "41946881",
+      "41936073"
+    ],
+    "refs": [
+      "39358607",
+      "39182225",
+      "39153678",
+      "38927123",
+      "38878289",
+      "38856708",
+      "38840832",
+      "38619966",
+      "38493496",
+      "38338738",
+      "38327665",
+      "38325372",
+      "38305985",
+      "38288760",
+      "38248909",
+      "37984872",
+      "37698691",
+      "37490350",
+      "37459895",
+      "37339553",
+      "37223479",
+      "37191574",
+      "36914622",
+      "36876139",
+      "36423263",
+      "36370105",
+      "36189903",
+      "36167681",
+      "36074823",
+      "36042231",
+      "35928113",
+      "35868641",
+      "35850435",
+      "35803226",
+      "35732112",
+      "35652477",
+      "35108058",
+      "34669035",
+      "33316032",
+      "33117808",
+      "32946529",
+      "32650721",
+      "31802128",
+      "31708972",
+      "31591446",
+      "31273069",
+      "31189646",
+      "31164042",
+      "30755522",
+      "30224646",
+      "29771291",
+      "29720659",
+      "29686419",
+      "29423137",
+      "29233752",
+      "28881991",
+      "28829942",
+      "28716036",
+      "27560171",
+      "27558897",
+      "25953851",
+      "25765347",
+      "25516281",
+      "25512556",
+      "25240437",
+      "25239089",
+      "25187560",
+      "25150012",
+      "25033408",
+      "24639739",
+      "24227677",
+      "23383188",
+      "22575960",
+      "22517427",
+      "22388286",
+      "22137762",
+      "20596960",
+      "19700615"
+    ],
+    "similar": [
+      "40251810",
+      "39358607",
+      "37935903",
+      "37459895",
+      "36434523",
+      "38927123",
+      "36423263",
+      "39160344",
+      "27475850",
+      "23560912",
+      "38248909",
+      "36074823",
+      "30692203",
+      "35216671",
+      "38305985",
+      "22965566",
+      "38325372",
+      "33116310",
+      "38643284",
+      "31728579",
+      "40202846",
+      "31746724",
+      "39182225",
+      "35868641",
+      "32634384",
+      "40315839",
+      "40244397",
+      "36007528",
+      "34931676",
+      "38619966",
+      "34104941",
+      "29720659",
+      "39300156",
+      "40156116",
+      "40674211",
+      "31595154",
+      "34878123",
+      "29967139",
+      "40245181",
+      "36430821",
+      "31211992",
+      "28829942",
+      "40418445",
+      "38338738",
+      "37460529",
+      "38605678",
+      "20814167",
+      "32731098",
+      "29771291",
+      "36493774",
+      "41233731",
+      "8135766",
+      "36577375",
+      "40523893",
+      "32220807",
+      "12444069",
+      "31767152",
+      "39276507",
+      "28459456",
+      "16818606",
+      "29576477",
+      "27004788",
+      "29325037",
+      "31862379",
+      "34342574",
+      "39521214",
+      "35575026",
+      "39932187",
+      "35417229",
+      "31133747",
+      "33173118",
+      "35034936",
+      "38493496",
+      "34256217",
+      "17827882",
+      "36215692",
+      "23676078",
+      "34199637",
+      "39541353",
+      "31935425",
+      "34388374",
+      "32226006",
+      "39749834",
+      "29427077",
+      "30759824",
+      "38493164",
+      "30948459",
+      "39823229",
+      "37224706",
+      "40188779",
+      "35732099",
+      "31777931",
+      "34667153",
+      "35123389",
+      "30444999",
+      "32997106",
+      "34965941",
+      "36757845",
+      "30712485",
+      "30674556"
+    ],
+    "review": [
+      "40251810",
+      "38927123",
+      "39160344",
+      "27475850",
+      "22965566",
+      "31728579",
+      "39182225",
+      "28829942",
+      "38338738",
+      "8135766",
+      "32220807",
+      "35034936",
+      "34256217",
+      "17827882",
+      "34199637",
+      "29427077",
+      "30759824",
+      "40188779"
+    ],
+    "pmc": [
+      "12686121"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40251810.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40251810/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/cpr.70039",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

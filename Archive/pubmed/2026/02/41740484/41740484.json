@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "pmid": "41740484",
+    "doi": "10.1016/j.compbiomed.2026.111458",
+    "title": "Integrative transcriptomic and machine learning analysis identifies CDH17 and HOXC13 as robust candidate prognostic biomarkers in uveal melanoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Uveal melanoma (UM), the most common form of ocular melanoma, represents poor prognosis, with approximately 50% of patients developing metastatic disease that significantly reduces survival rates. There is an crtitical need for accurate prognostic biomarkers to better stratify patients by risk and guide personalized treatment strategies. METHODS: We employed an integrative, multi-step strategy to analyze UVM transcriptomic data, combining Cox proportional hazards survival analysis, stage-dependent differential expression, and a multi-layer perceptron (MLP) model to identify candidate prognostic genes. Receiver operating characteristic (ROC) analysis and Kaplan-Meier survival analysis were used to evaluate predictive performance, and external validation was performed using the GSE22138 cohort. Functional relevance was assessed through pan-cancer expression, DNA methylation, immune-infiltration, and protein expression analyses. RESULTS: Integration of Cox regression, stage-dependent differential expression, and MLP modeling identified four robust prognostic biomarkers in UVM: CDH17, HOXC13, FABP5P7, and LINC02188. CDH17, a cadherin involved in cell-cell adhesion, promotes invasion and metastasis via integrin signaling and is oncogenic in gastrointestinal and melanoma tumors. HOXC13, a HOX transcription factor regulating proliferation, differentiation, and EMT, drives metastasis in skin melanoma and other cancers. FABP5P7, a pseudogene of the fatty acid-binding protein family, may act as a ceRNA influencing lipid metabolism and tumor progression. LINC02188, a long noncoding RNA, participates in ceRNA networks and has been linked to proliferation and migration in multiple cancers. Given the established oncogenic roles and protein-coding nature, CDH17 and HOXC13 were further prioritized for in-depth validation, including ROC analysis and pan-cancer characterization. ROC analysis demonstrated discriminative ability for patient outcomes (AUC = 0.76 for CDH17 and 0.65 for HOXC13), and metastasis-free survival trends were validated in the independent cohort. Pan-cancer analysis revealed elevated expression and frequent gene amplification in multiple tumor types, while immune-infiltration and methylation patterns suggested potential mechanistic roles. Both genes have established oncogenic functions in cutaneous melanoma, strengthening their biological plausibility in UM. CONCLUSIONS: Our integrative approach identifies CDH17 and HOXC13 as biologically relevant, stage-associated prognostic biomarkers in UM. These findings provide a foundation for mechanistic studies and potential translational applications, including therapeutic targeting and risk-stratified patient management.",
+    "keywords": [
+      "Bioinformatics",
+      "Deep learning",
+      "Pan-cancer",
+      "Prognostic biomarker",
+      "RNA-Sequencing",
+      "Uveal melanoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Melanoma/genetics/metabolism/mortality",
+      "*Uveal Neoplasms/genetics/metabolism/mortality",
+      "Uveal Melanoma",
+      "*Biomarkers, Tumor/genetics/biosynthesis/metabolism",
+      "*Homeodomain Proteins/genetics/metabolism/biosynthesis",
+      "*Cadherins/genetics/biosynthesis/metabolism",
+      "*Machine Learning",
+      "Prognosis",
+      "*Transcriptome",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khorshid Sokhangouy, Saeideh",
+        "Yousefi, Yasamin",
+        "Alizadeh, Farzaneh",
+        "Nazari, Elham"
+      ],
+      "short_names": [
+        "Khorshid Sokhangouy S",
+        "Yousefi Y",
+        "Alizadeh F",
+        "Nazari E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Biotechnology, School of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Department of Medical Genetics, School of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Department of Medical Genetics, School of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Department of Health Information Technology and Management, School of Allied Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran. Electronic address: Elham.Nazari@sbmu.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khorshid Sokhangouy, Saeideh",
+        "short_name": "Khorshid Sokhangouy S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biotechnology, School of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Yousefi, Yasamin",
+        "short_name": "Yousefi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, School of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Alizadeh, Farzaneh",
+        "short_name": "Alizadeh F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, School of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Nazari, Elham",
+        "short_name": "Nazari E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Information Technology and Management, School of Allied Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran. Electronic address: Elham.Nazari@sbmu.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2026 Apr 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 15:25",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41740484",
+      "41274898",
+      "34630418",
+      "39916959",
+      "40550050",
+      "40362553",
+      "40460484",
+      "40180694",
+      "33367533",
+      "39478575",
+      "41436831",
+      "39635521",
+      "38698303",
+      "42311235",
+      "41656832",
+      "40763838",
+      "40571316",
+      "33785306",
+      "38644411",
+      "41872824",
+      "40898185",
+      "38987843",
+      "31270856",
+      "40607411",
+      "40812391",
+      "36683494",
+      "30816460",
+      "36967081",
+      "40993621",
+      "41103423",
+      "40200221",
+      "31469983",
+      "40550052",
+      "41836446",
+      "41351424",
+      "32926921",
+      "40625743",
+      "40374855",
+      "38767825",
+      "39835132",
+      "41166122",
+      "41798945",
+      "41613120",
+      "33387485",
+      "32714316",
+      "38246894",
+      "32682400",
+      "34814288",
+      "39501960",
+      "35300699",
+      "37522545",
+      "41613147",
+      "36793711",
+      "35774794",
+      "33682883",
+      "39252325",
+      "41878416",
+      "42317342",
+      "38701273",
+      "39075441",
+      "31903983",
+      "35536719",
+      "42244292",
+      "30338785",
+      "40821828",
+      "40419032",
+      "34434692",
+      "32098099",
+      "34763233",
+      "41540415",
+      "33196683",
+      "41455917",
+      "42079608",
+      "42067178",
+      "35281030",
+      "39746274",
+      "41188996",
+      "41659855",
+      "41516312",
+      "41716413",
+      "39181686",
+      "41425595",
+      "42337485",
+      "37725244",
+      "41566326",
+      "38468495",
+      "41331566",
+      "41099090",
+      "38969283",
+      "35232428",
+      "41208987",
+      "39799269",
+      "32620623",
+      "41194017",
+      "22815634",
+      "39516442",
+      "41388523",
+      "41904502",
+      "34743576",
+      "34587931"
+    ],
+    "review": [
+      "41740484"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(26)00019-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(26)00019-3",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

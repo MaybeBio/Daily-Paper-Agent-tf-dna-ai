@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40838019",
+  "title": "Prediction of cell states and key transcription factors of the human cornea through integrated single-cell omics analyses.",
+  "authors": "Arts, Julian A; Fallo, Sofia; Florencio, Melanie S; Smits, Jos G A; Lima Cunha, Dulce; Roubroeks, Janou A Y; Dickman, Mor M; LaPointe, Vanessa L S; Yu, Rosemary; Zhou, Huiqing",
+  "journal": "PNAS nexus",
+  "published_date": "2025-08-21",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文整合单细胞组学数据构建角膜细胞状态图谱，并用机器学习预测细胞状态及识别关键转录因子，但核心是细胞注释而非TF-DNA结合机制建模，方法上仅用机器学习分类，缺乏AI/物理模拟的互作建模，故相关性有限。",
+  "abstract": "The cornea, a transparent tissue composed of multiple layers, allows light to enter the eye. Several single-cell RNA-seq (scRNA-seq) analyses have been performed to explore the cell states and to understand the cellular composition of the human cornea. However, inconsistences in cell state annotations between these studies complicate the application of these findings in corneal studies. To address this, we integrated scRNA-seq data from four published studies and created a human corneal cell state meta-atlas. This meta-atlas was subsequently evaluated in two applications. First, we developed a machine learning pipeline cPredictor, using the human corneal cell state meta-atlas as input, to annotate corneal cell states. We demonstrated the accuracy of cPredictor and its ability to identify novel marker genes and rare cell states in the human cornea. Furthermore, cPredictor revealed the differences of the cell states between pluripotent stem cell-derived corneal organoids and the human cornea. Second, we integrated the scRNA-seq-based cell state meta-atlas with chromatin accessibility data, conducting motif-focused and gene regulatory network analyses. These approaches identified distinct transcription factors (TFs) driving cell states of the human cornea. The novel marker genes and TFs were validated by immunohistochemistry. Overall, this study offers a reliable and accessible reference for profiling corneal cell states, which facilitates future research in cornea development, disease, and regeneration.",
+  "abstract_zh": "角膜是一种由多层组成的透明组织，允许光线进入眼睛。已进行了多项单细胞RNA测序（scRNA-seq）分析，以探索人类角膜的细胞状态并理解其细胞组成。然而，这些研究之间细胞状态注释的不一致性使得这些发现在角膜研究中的应用变得复杂。为解决这一问题，我们整合了四项已发表研究中的scRNA-seq数据，创建了一个人类角膜细胞状态元图谱。该元图谱随后在两个应用中进行了评估。首先，我们开发了一个机器学习流程cPredictor，以人类角膜细胞状态元图谱为输入，用于注释角膜细胞状态。我们展示了cPredictor的准确性及其识别人类角膜中新型标记基因和稀有细胞状态的能力。此外，cPredictor揭示了多能干细胞来源的角膜类器官与人类角膜之间细胞状态的差异。其次，我们将基于scRNA-seq的细胞状态元图谱与染色质可及性数据整合，进行了基序聚焦和基因调控网络分析。这些方法识别出驱动人类角膜细胞状态的独特转录因子（TFs）。新型标记基因和TFs通过免疫组织化学进行了验证。总体而言，本研究为描绘角膜细胞状态提供了一个可靠且可访问的参考，有助于未来在角膜发育、疾病和再生方面的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40838019/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40838019/",
+  "paper_page_path": "papers/pubmed/40838019/index.html"
+}

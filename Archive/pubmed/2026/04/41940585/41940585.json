@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41940585",
+    "doi": "10.1002/ptr.70335",
+    "title": "Eriodictyol Regulates Macrophage Polarization to Treat Rheumatoid Arthritis by Inhibiting Jumonji Domain-Containing Protein D3-Mediated Demethylation of Trimethylation of Lysine 27 on Histone H3: An Integrative Single Cell Sequencing and Experimental Validation Study."
+  },
+  "content": {
+    "abstract": "Eriodictyol (EDT), a natural flavonoid abundant in citrus fruits, exhibits potent anti-inflammatory activity. However, its therapeutic potential and mechanisms of action in rheumatoid arthritis (RA) remain poorly understood. This study aimed to evaluate the anti-RA efficacy of EDT and elucidate the molecular mechanisms underlying its effects. A collagen-induced arthritis (CIA) rat model was established to assess the therapeutic efficacy of EDT. Single-cell RNA sequencing (scRNA-seq) was performed to identify the key cell clusters modulated by EDT. Consequently, EDT's effects on M1 macrophage polarization were assessed in vitro. Molecular docking, cellular thermal shift assay (CETSA), and drug affinity responsive target stability (DARTS) assays were employed to identify the target of EDT. Neutralizing antibodies, gene silencing, and chromatin immunoprecipitation quantitative PCR (ChIP-qPCR) were used to validate the downstream mechanisms. EDT significantly alleviated arthritis symptoms in CIA rats. ScRNA-seq, in conjunction with bioinformatics analysis, identified M1 macrophages as the principal target cell of EDT and demonstrated a significant inhibition of their glycolytic activity and associated gene set. Further analysis indicated that EDT's inhibitory effect on HIF-1alpha-driven glycolysis in M1 macrophages was associated with decreased Insulin-like growth factor 1 (IGF1). More importantly, JMJD3, a histone demethylase, is a direct binding target of EDT. Silencing Jmjd3 impaired EDT-induced H3K27me3 enrichment and reversed its suppression of IGF1 transcription and M1 polarization. EDT effectively attenuates RA progression and inhibits M1 polarization of macrophages. Moreover, our results first identify the direct link between EDT and the histone demethylase JMJD3, which mediates the epigenetic silencing of IGF1 and inhibits HIF-1alpha-driven glycolysis in M1 macrophages.",
+    "keywords": [
+      "H3K27me3",
+      "JMJD3",
+      "M1 macrophage",
+      "eriodictyol",
+      "glycolysis",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Arthritis, Rheumatoid/drug therapy/metabolism",
+      "*Macrophages/drug effects/metabolism",
+      "Rats",
+      "*Flavanones/pharmacology",
+      "*Histones/metabolism",
+      "Arthritis, Experimental/drug therapy",
+      "Molecular Docking Simulation",
+      "Methylation/drug effects",
+      "*Jumonji Domain-Containing Histone Demethylases/metabolism/antagonists & inhibitors",
+      "Male",
+      "Lysine/metabolism",
+      "Single-Cell Analysis",
+      "Rats, Sprague-Dawley",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Insulin-Like Growth Factor I/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Zixuan",
+        "Pei, Huan",
+        "Nie, Yuhang",
+        "Fu, Zhenlin",
+        "Long, Yuan",
+        "Yang, Juan",
+        "Fu, Yongshi",
+        "Min, Feitian",
+        "Cui, Huantian",
+        "Wang, Ning",
+        "Nie, Lijuan"
+      ],
+      "short_names": [
+        "Li Z",
+        "Pei H",
+        "Nie Y",
+        "Fu Z",
+        "Long Y",
+        "Yang J",
+        "Fu Y",
+        "Min F",
+        "Cui H",
+        "Wang N",
+        "Nie L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0053-5561",
+        "ORCID: 0000-0002-0820-5436",
+        "ORCID: 0009-0002-1920-4727"
+      ],
+      "affiliations": [
+        "Medical School, Xizang University, Lhasa, China.",
+        "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China.",
+        "School of Integrative Chinese and Western Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "Medical School, Xizang University, Lhasa, China.",
+        "Medical School, Xizang University, Lhasa, China.",
+        "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China.",
+        "Medical School, Xizang University, Lhasa, China.",
+        "Medical School, Xizang University, Lhasa, China.",
+        "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China.",
+        "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China.",
+        "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China.",
+        "Medical School, Xizang University, Lhasa, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Zixuan",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School, Xizang University, Lhasa, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Huan",
+        "short_name": "Pei H",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China.",
+          "School of Integrative Chinese and Western Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Yuhang",
+        "short_name": "Nie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School, Xizang University, Lhasa, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Zhenlin",
+        "short_name": "Fu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School, Xizang University, Lhasa, China."
+        ]
+      },
+      {
+        "full_name": "Long, Yuan",
+        "short_name": "Long Y",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Juan",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School, Xizang University, Lhasa, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yongshi",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School, Xizang University, Lhasa, China."
+        ]
+      },
+      {
+        "full_name": "Min, Feitian",
+        "short_name": "Min F",
+        "identifiers": [
+          "0000-0002-0053-5561"
+        ],
+        "affiliations": [
+          "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Huantian",
+        "short_name": "Cui H",
+        "identifiers": [
+          "0000-0002-0820-5436"
+        ],
+        "affiliations": [
+          "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ning",
+        "short_name": "Wang N",
+        "identifiers": [
+          "0009-0002-1920-4727"
+        ],
+        "affiliations": [
+          "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Lijuan",
+        "short_name": "Nie L",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School, Xizang University, Lhasa, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytotherapy research : PTR"
+    ],
+    "journal_abbrev": [
+      "Phytother Res"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 12:36",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41940585",
+      "29481307",
+      "41456528",
+      "41072281",
+      "41857767",
+      "42054737",
+      "39842374",
+      "38987388",
+      "42001838",
+      "41507723",
+      "38782307",
+      "35371061",
+      "39838477",
+      "29844591",
+      "40671689",
+      "39026367",
+      "39490433",
+      "41963573",
+      "42081959",
+      "40020629",
+      "36055613",
+      "39390367",
+      "41391371",
+      "36209953",
+      "24703936",
+      "40456494",
+      "40081512",
+      "35585798",
+      "17825402",
+      "41485290",
+      "37658121",
+      "41794275",
+      "40456372",
+      "40819640",
+      "41903585",
+      "31092054",
+      "40172736",
+      "42263544",
+      "39617708",
+      "42112343",
+      "38838922",
+      "41539099",
+      "39985573",
+      "36074918",
+      "42074103",
+      "40955790",
+      "41131607",
+      "32738596",
+      "41866004",
+      "21735477",
+      "35077015",
+      "39547097",
+      "22842901",
+      "42119867",
+      "41421281",
+      "41447843",
+      "34333356",
+      "38181528",
+      "41713810",
+      "40328036",
+      "34735867",
+      "40048054",
+      "39987998",
+      "37480967",
+      "40350051",
+      "34297635",
+      "22713873",
+      "40000906",
+      "24097101",
+      "22014533",
+      "37976601",
+      "41482061",
+      "37035757",
+      "41935464",
+      "39881361",
+      "41864012",
+      "41475287",
+      "40466361",
+      "32425508",
+      "35111160",
+      "40706389",
+      "30319603",
+      "31341023",
+      "41038145",
+      "42114348",
+      "41680065",
+      "33391480",
+      "37011736",
+      "41534756",
+      "41013704",
+      "39292325",
+      "36330911",
+      "42033182",
+      "37480451",
+      "34479471",
+      "41080555",
+      "42034145",
+      "39892307",
+      "41825207",
+      "41687943"
+    ],
+    "review": [
+      "41940585"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://doi.org/10.1002/ptr.70335",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2677",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

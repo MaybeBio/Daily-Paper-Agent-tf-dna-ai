@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "41855208",
+    "doi": "10.1371/journal.pone.0344666",
+    "title": "Gene expression and metadata based identification of key genes for lung cancer, COPD, and IPF using machine learning and statistical models."
+  },
+  "content": {
+    "abstract": "Lung cancer (LC) is one of the most prevalent and deadly cancers globally, presenting a major public health challenge. Patients with chronic obstructive pulmonary disease (COPD) and idiopathic pulmonary fibrosis (IPF) are at a significantly higher risk of developing lung cancer. Despite developments in research, the primary molecular pathways of many disorders remain poorly understood. The current study aimed to identify potential therapeutic genes for lung cancer (LC), chronic obstructive pulmonary disease (COPD), and idiopathic pulmonary fibrosis (IPF) through machine learning (ML) and bioinformatics methodologies. The differentially expressed genes (DEGs) were identified across three datasets utilising DESeq2 and limma, and the common genes among the DEGs from these datasets were subsequently selected. The protein-protein interaction (PPI) networks were generated utilising STRING, and major hub genes were discerned via topological analysis. The Key hub genes, such as ETS1, MSH2, RORA, and PMAIP1, were detected. The pathways named KEGG and cancer pathway studies were conducted to evaluate their contributions to disease processes. The research included network-based methodologies, including transcription factors, GO keywords, gene-miRNA relationships, and survival data analyses, to further narrow the list of differential genes linked to LC, COPD, and IPF. The metadata for hub genes was aggregated from prior studies to integrate earlier discoveries. In the end, four key candidate genes (ETS1, MSH2, RORA, and PMAIP1) were found by intersecting the common differentially expressed genes, hub genes, major module genes, and meta-hub genes. The outcomes present a solid framework for subsequent research and therapy strategies for LC, COPD, and IPF. The potential drug compounds targeting the identified key genes are proposed, offering new avenues for the development of treatment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Lung Neoplasms/genetics",
+      "*Machine Learning",
+      "*Pulmonary Disease, Chronic Obstructive/genetics",
+      "*Idiopathic Pulmonary Fibrosis/genetics",
+      "Gene Expression Profiling",
+      "Protein Interaction Maps/genetics",
+      "*Metadata",
+      "Models, Statistical",
+      "Computational Biology/methods",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yasmin, Mst Farjana",
+        "Hosen, Md Faruk",
+        "Basar, Md Abul",
+        "Rahman, Anichur",
+        "Hasan, Mahedi",
+        "Al Farid, Fahmid",
+        "Karim, Hezerul Abdul",
+        "Miah, Abu Saleh Musa"
+      ],
+      "short_names": [
+        "Yasmin MF",
+        "Hosen MF",
+        "Basar MA",
+        "Rahman A",
+        "Hasan M",
+        "Al Farid F",
+        "Karim HA",
+        "Miah ASM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8047-119X",
+        "ORCID: 0000-0002-1238-0464"
+      ],
+      "affiliations": [
+        "Department of Computing and Information System(CIS), Daffodil International University (DIU), Ashulia, Dhaka, Bangladesh.",
+        "Department of Computing and Information System(CIS), Daffodil International University (DIU), Ashulia, Dhaka, Bangladesh.",
+        "Department of Computer Science and Engineering, Netrokona University, Netrokona, Bangladesh.",
+        "Department of Computer Science and Engineering, National Institute of Textile Engineering and Research (NITER), Constituent Institute of the University of Dhaka, Savar, Dhaka, Bangladesh.",
+        "Department of Computer Science and Engineering, National Institute of Textile Engineering and Research (NITER), Constituent Institute of the University of Dhaka, Savar, Dhaka, Bangladesh.",
+        "School of Computing, Georgia Southern University, Statesboro, Georgia, United States of America.",
+        "Department of Information and Communication Technology (ICT), Mawlana Bhashani Science and Technology University (MBSTU), Santosh, Tangail, Bangladesh.",
+        "Faculty of Computer Science and Informatics, Berlin School of Business and Innovation Karl-Marx-Strasse 97-99, Berlin, Germany.",
+        "Centre for Image and Vision Computing (CIVC), COE for Artificial Intelligence, Faculty of Artificial Intelligence and Engineering (FAIE), Multimedia University, Cyberjaya, Malaysia.",
+        "Centre for Image and Vision Computing (CIVC), COE for Artificial Intelligence, Faculty of Artificial Intelligence and Engineering (FAIE), Multimedia University, Cyberjaya, Malaysia.",
+        "Department of Computer Science and Engineering, Rajshahi University, Rajshahi, Bangladesh.",
+        "Graduate Department of Computer Science and Engineering, The University of Aizu, Aizuwakamatsu, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yasmin, Mst Farjana",
+        "short_name": "Yasmin MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computing and Information System(CIS), Daffodil International University (DIU), Ashulia, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hosen, Md Faruk",
+        "short_name": "Hosen MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computing and Information System(CIS), Daffodil International University (DIU), Ashulia, Dhaka, Bangladesh.",
+          "Department of Computer Science and Engineering, Netrokona University, Netrokona, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Basar, Md Abul",
+        "short_name": "Basar MA",
+        "identifiers": [
+          "0000-0002-8047-119X"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, National Institute of Textile Engineering and Research (NITER), Constituent Institute of the University of Dhaka, Savar, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Anichur",
+        "short_name": "Rahman A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, National Institute of Textile Engineering and Research (NITER), Constituent Institute of the University of Dhaka, Savar, Dhaka, Bangladesh.",
+          "School of Computing, Georgia Southern University, Statesboro, Georgia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Hasan, Mahedi",
+        "short_name": "Hasan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information and Communication Technology (ICT), Mawlana Bhashani Science and Technology University (MBSTU), Santosh, Tangail, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Al Farid, Fahmid",
+        "short_name": "Al Farid F",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Computer Science and Informatics, Berlin School of Business and Innovation Karl-Marx-Straße 97-99, Berlin, Germany.",
+          "Centre for Image and Vision Computing (CIVC), COE for Artificial Intelligence, Faculty of Artificial Intelligence and Engineering (FAIE), Multimedia University, Cyberjaya, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Karim, Hezerul Abdul",
+        "short_name": "Karim HA",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Image and Vision Computing (CIVC), COE for Artificial Intelligence, Faculty of Artificial Intelligence and Engineering (FAIE), Multimedia University, Cyberjaya, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Miah, Abu Saleh Musa",
+        "short_name": "Miah ASM",
+        "identifiers": [
+          "0000-0002-1238-0464"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Rajshahi University, Rajshahi, Bangladesh.",
+          "Graduate Department of Computer Science and Engineering, The University of Aizu, Aizuwakamatsu, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 21:43",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38397694",
+      "38195910",
+      "37783761",
+      "37240069",
+      "36777997",
+      "36644219",
+      "36353113",
+      "35896191",
+      "35688625",
+      "35449067",
+      "35184748",
+      "34734011",
+      "34233665",
+      "34172784",
+      "33546691",
+      "33126329",
+      "33046043",
+      "32944202",
+      "31610634",
+      "30453885",
+      "29615773",
+      "29145629",
+      "29140473",
+      "29136241",
+      "27924014",
+      "27899567",
+      "27141961",
+      "26476454",
+      "26424082",
+      "26420365",
+      "25990557",
+      "25950236",
+      "25635490",
+      "25613170",
+      "25521941",
+      "24293462",
+      "22917154",
+      "22561964",
+      "22350210",
+      "21296855",
+      "21284573",
+      "21071411",
+      "19802349",
+      "17906084",
+      "16236856",
+      "15980585",
+      "15608262",
+      "14597658",
+      "11465731",
+      "10592173"
+    ],
+    "similar": [
+      "41855208",
+      "40826767",
+      "42074286",
+      "33847347",
+      "37887075",
+      "41562054",
+      "40332792",
+      "38734841",
+      "37686108",
+      "34285914",
+      "39991151",
+      "40665394",
+      "40045538",
+      "40557159",
+      "40307363",
+      "42566402",
+      "40670650",
+      "41320661",
+      "37907428",
+      "40014586",
+      "41405958",
+      "31987036",
+      "37812547",
+      "39944354",
+      "39945271",
+      "40628511",
+      "38334875",
+      "41006883",
+      "41665823",
+      "40997906",
+      "41316541",
+      "40093012",
+      "39496786",
+      "36049413",
+      "41388329",
+      "40406126",
+      "38319987",
+      "41955235",
+      "39340293",
+      "35996248",
+      "40857336",
+      "39071134",
+      "40320470",
+      "35975032",
+      "42345426",
+      "38137330",
+      "35637927",
+      "38411985",
+      "38863714",
+      "42024670",
+      "38987624",
+      "38858671",
+      "39046603",
+      "39908244",
+      "40280949",
+      "40369105",
+      "32982206",
+      "37924392",
+      "37794454",
+      "34542049",
+      "41454420",
+      "39888730",
+      "37996625",
+      "37024866",
+      "31829519",
+      "37928522",
+      "33046043",
+      "39420432",
+      "39893187",
+      "31177264",
+      "37559532",
+      "40394719",
+      "35762549",
+      "32059076",
+      "39234248",
+      "42536689",
+      "40273141",
+      "40482557",
+      "41009659",
+      "41044520",
+      "40328901",
+      "34522168",
+      "35092415",
+      "39725779",
+      "37740761",
+      "40313958",
+      "38703565",
+      "38873611",
+      "40685483",
+      "42158856",
+      "41009972",
+      "30997486",
+      "40355204",
+      "38802460",
+      "32039826",
+      "39811093",
+      "33194355",
+      "42278407",
+      "40580591",
+      "42109727"
+    ],
+    "review": [
+      "41855208",
+      "37887075"
+    ],
+    "pmc": [
+      "13001922"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0344666",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41855208/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1206",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

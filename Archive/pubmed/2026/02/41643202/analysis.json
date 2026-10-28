@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41643202",
+  "title": "Deciphering hierarchical regulatory network of cell fate via an epigenetics-informed heterogeneous graph transformer on single-cell multi-omics data.",
+  "authors": "Huang, Yuhong; Liu, Chao; Yang, Zhiling; Liu, Bo; Zhai, Xiao; Zheng, Jiajin; Xiao, Jing; Song, Tao",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-02-05",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用异构图Transformer整合单细胞多组学数据预测TF-CRE调控与染色质互作，虽涉及TF-DNA调控网络但侧重调控层级与细胞命运，非直接TF-DNA结合机制建模，方法可迁移至本课题。",
+  "abstract": "The precise control of cell fate is driven by a hierarchical regulatory network (HRNet) where transcription factors (TFs) and cis-regulatory elements (CREs) orchestrate the expression of target genes (TGs) through complex causal actions. While single-cell multi-omics technologies provide multi-dimensional data to resolve regulatory networks, existing methods often fail to capture their hierarchical and causal properties. We propose SMOGT (Single-cell Multi-Omics Graph Transformer), a graph representation learning method to decipher HRNet. SMOGT embeds epigenetic mechanism into Heterogeneous Graph Transformer (HGT) by structuring information flow along a hierarchical-guided meta-path (TF-TF --> TF-CRE --> CRE-CRE --> CRE-TG), and employs a semi-supervised strategy to ensure network accuracy. Validated against ChIP-seq and HiC-seq benchmarked datasets, SMOGT showed significantly higher accuracy in predicting transcriptional regulation (TF-CRE) and long-range chromatin conformation (CRE-CRE). The HRNet scaffolds downstream modules that mechanistically link network architecture to cell fate. The multi-layer random walk (MRWR) module identifies driver regulators and their TGs. The BioStreamNet module predicts shifts in cell fate trajectories following in silico perturbations within gene-specific HRNet formed by extracting regulatory weights during TG expression prediction. In hematopoietic stem cell differentiation, SMOGT elucidated the hierarchical causal cascade from driver TFs that governs lineage commitment. In melanoma epithelial-to-mesenchymal transition (EMT), it revealed a critical therapeutic window for reversing the process, and in Acute Myeloid Leukemia (AML), it uncovered hub-CREs with significant prognostic value. By accurately modeling hierarchical causality, SMOGT provides a robust tool to dissect and predict cell fate dynamics in both development and disease.",
+  "abstract_zh": "细胞命运的精确调控由层级调控网络（HRNet）驱动，其中转录因子（TFs）和顺式调控元件（CREs）通过复杂的因果作用协调靶基因（TGs）的表达。尽管单细胞多组学技术提供了解析调控网络的多维数据，但现有方法往往无法捕捉其层级性和因果特性。我们提出SMOGT（单细胞多组学图变换器），一种图表示学习方法，用于解析HRNet。SMOGT通过沿层级引导的元路径（TF-TF --> TF-CRE --> CRE-CRE --> CRE-TG）构建信息流，将表观遗传机制嵌入异构图变换器（HGT），并采用半监督策略确保网络准确性。针对ChIP-seq和HiC-seq基准数据集进行验证，SMOGT在预测转录调控（TF-CRE）和长程染色质构象（CRE-CRE）方面显示出显著更高的准确性。HRNet支撑下游模块，这些模块将网络架构与细胞命运机制性连接。多层随机游走（MRWR）模块识别驱动调控因子及其靶基因。BioStreamNet模块在提取TG表达预测期间的调控权重后，预测基因特异性HRNet内计算机模拟扰动后的细胞命运轨迹变化。在造血干细胞分化中，SMOGT阐明了驱动谱系决定的驱动转录因子层级因果级联。在黑色素瘤上皮-间质转化（EMT）中，它揭示了逆转该过程的关键治疗窗口，并在急性髓系白血病（AML）中发现了具有显著预后价值的hub-CREs。通过精确建模层级因果性，SMOGT为解析和预测发育及疾病中的细胞命运动态提供了稳健工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41643202/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41643202/",
+  "paper_page_path": "papers/pubmed/41643202/index.html"
+}

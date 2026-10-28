@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "41719286",
+    "doi": "10.1371/journal.pone.0342050",
+    "title": "Molecular interplay of ASNS and the PI3K-AKT-mTOR pathway in CMV and HIV co-infections: Therapeutic implications."
+  },
+  "content": {
+    "abstract": "CMV/HIV coinfection markedly exacerbates disease progression, elevates treatment failure risk, and worsens patient outcomes, yet the underlying molecular mechanisms remain incompletely understood-creating an urgent need for targeted host-focused research. This study identifies asparagine synthetase (ASNS) as a pivotal metabolic-signaling hub in coinfection pathogenesis, with critical interactions with the PI3K-AKT-mTOR pathway. Using integrated bioinformatics analyses of transcriptomic data, ASNS emerged as a central hub in protein-protein interaction networks, with robust positive co-expression alongside key PI3K-AKT-mTOR components (PIK3CA, MTOR, AKT2, AKT3), while machine learning validated AKT2 as a critical node. ASNS was consistently upregulated 48 hours following CMV infection and across all HIV disease stages, while single-cell RNA sequencing localized ASNS and MDM2 to plasma cells in HIV-positive individuals-implicating their role in virus-driven immune responses. Transcription factor analysis identified RUNX1 as a central regulator: bioinformatics predictions confirmed RUNX1 binds to the ASNS promoter, and validation studies identified RUNX1 as the top biomarker for HIV treatment resistance (AUC = 0.714). Molecular docking and 200-ns dynamics simulations showed that cidofovir-an approved antiviral agent-binds ASNS with high affinity (-6.61 kcal/mol) through nine hydrogen bonds, forming a more stable complex than ASNS-ONL, with VAL-51 and ASN-74 as key residues. Collectively, these findings establish ASNS as a host metabolic-signaling hub exploited by CMV and HIV, highlighting its potential as a novel therapeutic target. Targeting ASNS, particularly at residues VAL-51 and ASN-74, may offer a promising host-directed strategy to improve coinfection treatment outcomes. This work lays the groundwork for experimental validation and the development of targeted therapies for CMV/HIV coinfection.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*TOR Serine-Threonine Kinases/metabolism",
+      "*Cytomegalovirus Infections/metabolism/drug therapy/genetics/virology",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "*Phosphatidylinositol 3-Kinases/metabolism",
+      "Signal Transduction",
+      "*HIV Infections/metabolism/drug therapy/virology/genetics/complications",
+      "*Coinfection/metabolism/virology",
+      "Protein Interaction Maps",
+      "Molecular Docking Simulation",
+      "Cytomegalovirus"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hao",
+        "Yuan, ShuYou",
+        "Ding, ShaoXiang",
+        "Bao, HongXia",
+        "Chen, WenJun",
+        "Cai, Bo",
+        "Sun, JunKai",
+        "Zhu, HaoGang",
+        "Lu, Wei",
+        "Fang, Ye"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Yuan S",
+        "Ding S",
+        "Bao H",
+        "Chen W",
+        "Cai B",
+        "Sun J",
+        "Zhu H",
+        "Lu W",
+        "Fang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-6566-5368"
+      ],
+      "affiliations": [
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China.",
+        "Laboratory Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China.",
+        "Neurology Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China.",
+        "Pathology Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China.",
+        "Department of Interventional Radiology, Wuxi No. 5 People's Hospital, Wuxi, Jiangsu, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China.",
+        "Department of Emergency Medicine, Wuxi People's Hospital, Wuxi, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hao",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, ShuYou",
+        "short_name": "Yuan S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ding, ShaoXiang",
+        "short_name": "Ding S",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Bao, HongXia",
+        "short_name": "Bao H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, WenJun",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Neurology Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Bo",
+        "short_name": "Cai B",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Sun, JunKai",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, Wuxi No. 5 People's Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, HaoGang",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Wei",
+        "short_name": "Lu W",
+        "identifiers": [
+          "0009-0008-6566-5368"
+        ],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Ye",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, Wuxi People's Hospital, Wuxi, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/20 21:28",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39459874",
+      "38703813",
+      "38130714",
+      "38059445",
+      "35392111",
+      "35336991",
+      "35107743",
+      "34520334",
+      "33833209",
+      "33112820",
+      "32819135",
+      "31594813",
+      "30257949",
+      "30157439",
+      "29328380",
+      "29084849",
+      "27764698",
+      "27714898",
+      "27610026",
+      "22009813",
+      "21827432",
+      "20864448",
+      "18025223",
+      "17902124"
+    ],
+    "similar": [
+      "41719286",
+      "41427835",
+      "42062902",
+      "42475469",
+      "39331625",
+      "42216572",
+      "41657040",
+      "41569177",
+      "42172807",
+      "42067902",
+      "33556477",
+      "41402890",
+      "40594966",
+      "42264299",
+      "41232383",
+      "42068765",
+      "41518939",
+      "41692806",
+      "38554191",
+      "39307810",
+      "25193113",
+      "41490553",
+      "41985846",
+      "38980538",
+      "40737847",
+      "41638183",
+      "42298019",
+      "41120700",
+      "40275490",
+      "32197467",
+      "41983768",
+      "39593139",
+      "38259082",
+      "42467315",
+      "39917999",
+      "42166099",
+      "40186900",
+      "40554052",
+      "42336026",
+      "40686149",
+      "42263888",
+      "31498483",
+      "38627462",
+      "23107319",
+      "41879392",
+      "25424347",
+      "37047624",
+      "39151711",
+      "42362788",
+      "42112355",
+      "30824386",
+      "39284270",
+      "42075882",
+      "41775785",
+      "39092562",
+      "35253622",
+      "40065054",
+      "40255473",
+      "42421348",
+      "41865146",
+      "40796045",
+      "39617291",
+      "32325885",
+      "39436133",
+      "39952005",
+      "31058807",
+      "28932706",
+      "42287035",
+      "41135226",
+      "40790482",
+      "40409102",
+      "40354838",
+      "36180880",
+      "28475412",
+      "27393705",
+      "22845486",
+      "41650521",
+      "40049296",
+      "30668978",
+      "32460412",
+      "42021531",
+      "36620343",
+      "41759558",
+      "41656395",
+      "32630372",
+      "42252036",
+      "34175443",
+      "36634381",
+      "41619002",
+      "40446548",
+      "32962206",
+      "38265369",
+      "41430313",
+      "29181846",
+      "38282149",
+      "42336298",
+      "40973891",
+      "39246119",
+      "41982459",
+      "41943831"
+    ],
+    "review": [
+      "41719286",
+      "42068765",
+      "42467315",
+      "31058807",
+      "22845486",
+      "41650521",
+      "40049296",
+      "30668978",
+      "32630372",
+      "34175443",
+      "38265369",
+      "41430313"
+    ],
+    "pmc": [
+      "12923000"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cytomegalovirusinfections.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cytomegalovirus Infections"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0342050",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41719286/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-788",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cytomegalovirusinfections.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cytomegalovirus Infections"
+      }
+    ],
+    "text_mined": []
+  }
+}

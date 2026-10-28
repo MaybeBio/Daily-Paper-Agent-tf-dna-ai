@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40449614",
+  "title": "BindUP-Alpha: A Webserver for Predicting DNA-and RNA-binding Proteins based on Experimental and Computational Structural Models☆.",
+  "authors": "Alexandrovich, Dina; Kagan, Shani; Mandel-Gutfreund, Yael",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-06-01",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了基于结构静电特征和SVM的核酸结合蛋白预测服务器BindUP-Alpha，虽非聚焦TF-DNA特异性结合，但属于蛋白质-DNA互作界面预测且方法可迁移至TF-DNA研究。",
+  "abstract": "Structural data provides important information on the proteins' function. Recent development of advanced machine learning and artificial intelligence tools, such as AlphaFold, have led to an explosion of predicted protein structures. However, many of the computed protein models contain unstructured and disordered regions, posing challenges in protein function characterization. Here we present BindUP-Alpha, an upgraded webserver for predicting nucleic acid binding proteins. Our structure-based algorithm utilizes the electrostatic features of the protein surface and other physiochemical and structural properties extracted from the protein sequence. Using a Support Vector Machine (SVM) learning approach, BindUP-Alpha successfully predicts DNA- and RNA-binding proteins from both experimentally solved structures and predicted models. In addition, BindUP-Alpha identifies electrostatic patches on the protein's surface that represent potential nucleic-acid binding interfaces. BindUP-Alpha is freely accessible at https://bindup.technion.ac.il, providing interactive three-dimensional visualizations and downloadable text-based results.",
+  "abstract_zh": "结构数据为蛋白质功能提供了重要信息。近年来，先进机器学习和人工智能工具（如AlphaFold）的发展导致了预测蛋白质结构的激增。然而，许多计算得到的蛋白质模型包含无序和未结构化区域，这给蛋白质功能表征带来了挑战。在此，我们介绍BindUP-Alpha，一个用于预测核酸结合蛋白的升级版网络服务器。我们的基于结构的算法利用蛋白质表面的静电特征以及从蛋白质序列中提取的其他物理化学和结构特性。采用支持向量机（SVM）学习方法，BindUP-Alpha成功地从实验解析结构和预测模型中预测DNA和RNA结合蛋白。此外，BindUP-Alpha识别蛋白质表面的静电斑块，这些斑块代表潜在的核酸结合界面。BindUP-Alpha可在https://bindup.technion.ac.il免费访问，提供交互式三维可视化和可下载的基于文本的结果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40449614/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40449614/",
+  "paper_page_path": "papers/pubmed/40449614/index.html"
+}

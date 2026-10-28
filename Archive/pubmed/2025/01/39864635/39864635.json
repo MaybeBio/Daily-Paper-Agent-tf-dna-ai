@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "39864635",
+    "doi": "10.1016/j.ygeno.2025.111009",
+    "title": "Decoding ferroptosis in alcoholic hepatitis: A bioinformatics approach to hub gene identification."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ferroptosis is associated with alcoholic hepatitis (AH); however, the underlying mechanisms remain unclear. METHODS: Changes in iron content and oxidative stress in AH patients and in vivo and in vitro models were analyzed. Iron homeostasis pathways in the livers of patients with AH were investigated using RNA sequencing. AH-associated ferroptosis-related genes (FRGs) were identified using weighted gene co-expression network analysis. Hub genes were identified using machine learning methods, and their diagnostic potential for AH was assessed. The correlation between FRGs and the immune microenvironment was analyzed, and the underlying regulatory mechanism was explored. FRG expression was validated in clinical samples and in vitro and in vivo models. The role of FRGs in AH-related ferroptosis was explored through gene-silencing experiments. RESULTS: Significant iron deposits and oxidative stress were detected in clinical samples and in vivo and in vitro AH models. Bioinformatics identified GCLC, NQO1, and ULK1 as key FRGs linked to the immune microenvironment and AH-related pathogenic genes. A nomogram based on these FRGs accurately assessed AH risk, as validated using the calibration curve. A regulatory network involving 154 miRNAs and 136 transcription factors was mapped for FRGs. In AH patients, NQO1 was upregulated in the liver, whereas GCLC and ULK1 were downregulated. Silencing GCLC and ULK1 reduced cell viability and increased oxidative stress and ferroptosis, whereas silencing NQO1 had the opposite effect. CONCLUSIONS: Therefore, GCLC, NQO1, and ULK1 are key AH-related FRGs, potentially serving as targets for diagnosing and treating AH.",
+    "keywords": [
+      "NAD(P)H:quinone oxidoreductase 1",
+      "alcoholic hepatitis",
+      "bioinformatics",
+      "ferroptosis-related genes",
+      "glutamate-cysteine ligase catalytic subunit",
+      "unc-51-like kinase 1"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "Humans",
+      "*Hepatitis, Alcoholic/genetics/metabolism/pathology",
+      "Animals",
+      "Computational Biology/methods",
+      "Gene Regulatory Networks",
+      "Mice",
+      "Iron/metabolism",
+      "NAD(P)H Dehydrogenase (Quinone)/genetics/metabolism",
+      "Male",
+      "MicroRNAs/genetics/metabolism",
+      "Oxidative Stress",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tongtong, Pan",
+        "Yujuan, Shen",
+        "Ting, Li",
+        "Fangfang, Yi",
+        "Shijia, Wu",
+        "Yilun, Huang",
+        "Huadong, Zhang",
+        "Qiongying, Zhang",
+        "Yongping, Chen",
+        "Dazhi, Chen"
+      ],
+      "short_names": [
+        "Tongtong P",
+        "Yujuan S",
+        "Ting L",
+        "Fangfang Y",
+        "Shijia W",
+        "Yilun H",
+        "Huadong Z",
+        "Qiongying Z",
+        "Yongping C",
+        "Dazhi C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China.",
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China; Huzhou Key Laboratory of Precision Medicine Research and Translation for Infectious Diseases, Huzhou Central Hospital, Wuxing District, Huzhou 313000, China.",
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China.",
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China.",
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China.",
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China.",
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China.",
+        "Department of Pathology, the First Affiliated Hospital of Wenzhou Medical University, Ouhai District, Wenzhou 325035, China.",
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China. Electronic address: cyp@wmu.edu.cn.",
+        "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China; Hangzhou Medical College, Linan District, Hangzhou 311300, China. Electronic address: dazhichen@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tongtong, Pan",
+        "short_name": "Tongtong P",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Yujuan, Shen",
+        "short_name": "Yujuan S",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China; Huzhou Key Laboratory of Precision Medicine Research and Translation for Infectious Diseases, Huzhou Central Hospital, Wuxing District, Huzhou 313000, China."
+        ]
+      },
+      {
+        "full_name": "Ting, Li",
+        "short_name": "Ting L",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Fangfang, Yi",
+        "short_name": "Fangfang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Shijia, Wu",
+        "short_name": "Shijia W",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Yilun, Huang",
+        "short_name": "Yilun H",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Huadong, Zhang",
+        "short_name": "Huadong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Qiongying, Zhang",
+        "short_name": "Qiongying Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the First Affiliated Hospital of Wenzhou Medical University, Ouhai District, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Yongping, Chen",
+        "short_name": "Yongping C",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China. Electronic address: cyp@wmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Dazhi, Chen",
+        "short_name": "Dazhi C",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory for Accurate Diagnosis and Treatment of Chronic Liver Diseases, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325035, China; Hangzhou Medical College, Linan District, Hangzhou 311300, China. Electronic address: dazhichen@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics"
+    ],
+    "journal_abbrev": [
+      "Genomics"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/27 00:20",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [
+      "41087919",
+      "40589609"
+    ],
+    "refs": [],
+    "similar": [
+      "39864635",
+      "39872538",
+      "41311024",
+      "31404595",
+      "37275855",
+      "41754379",
+      "39735537",
+      "37090703",
+      "39586719",
+      "41940395",
+      "35637927",
+      "39739972",
+      "39984919",
+      "41186509",
+      "38902567",
+      "39707003",
+      "37919056",
+      "40973872",
+      "37957905",
+      "39793232",
+      "37752199",
+      "41825713",
+      "40024299",
+      "41782887",
+      "35100981",
+      "41162488",
+      "41444522",
+      "42060917",
+      "35901060",
+      "37163321",
+      "41286198",
+      "36335193",
+      "41508240",
+      "40948782",
+      "37316756",
+      "38649061",
+      "40646297",
+      "37081490",
+      "40966021",
+      "37305039",
+      "37403234",
+      "38402377",
+      "39688470",
+      "39814853",
+      "39488307",
+      "40964101",
+      "40161396",
+      "38741149",
+      "36407421",
+      "40649881",
+      "41738361",
+      "40246772",
+      "37378023",
+      "40592741",
+      "41634496",
+      "41629618",
+      "37550393",
+      "39991755",
+      "35444445",
+      "41751603",
+      "40454210",
+      "39072329",
+      "41312366",
+      "37878496",
+      "34652258",
+      "38229237",
+      "42004467",
+      "38542784",
+      "39192637",
+      "35501667",
+      "40939963",
+      "40823359",
+      "40391833",
+      "40565608",
+      "39541922",
+      "41908043",
+      "31493407",
+      "39147333",
+      "35906548",
+      "41213837",
+      "41802512",
+      "38472694",
+      "41106766",
+      "27196584",
+      "36689408",
+      "42072050",
+      "41257951",
+      "41756296",
+      "36440700",
+      "36011284",
+      "40022042",
+      "39107713",
+      "40196107",
+      "36238640",
+      "36582202",
+      "39794696",
+      "39026664",
+      "37920499",
+      "40211281",
+      "39324174"
+    ],
+    "review": [
+      "39864635"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0888-7543(25)00025-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3976",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

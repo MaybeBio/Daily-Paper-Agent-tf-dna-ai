@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "41068840",
+    "doi": "10.1186/s12935-025-03987-5",
+    "title": "Machine learning on transcription factor expression profiles for precision breast cancer therapy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although breast cancer is a significant heterogeneous disease with an increasing global prevalence, precise prognostic evaluation is a vital aspect of designing personalized therapy strategies and upholding patients' survival rates. With the incorporation of artificial intelligence technology, in particular, machine learning, cancer prognosis and prediction have significantly been redefined. METHODS: In this study, we adopted a ten-fold cross-validation method to construct a Machine Learning-Derived Transcription Factor Signature (MDTS) across 108 algorithmic combinations. The optimal model was selected based on the highest average C-index across ten cohorts. We integrated single-cell data with multi-omics analysis to comprehensively assess the robustness of the MDTS model at both molecular and genomic levels. The MDTS demonstrated superior predictive power, outperforming 103 existing signatures and accurately predicting breast cancer outcomes across 10 independent cohorts. RESULTS: Our findings revealed that patients with low MDTS scores are more likely to benefit from immunotherapy, while the PAC-1 drug was identified as the most targeted agents to the chemotherapy with high MDTS score. CONCLUSIONS: These insights will open the door to delivering cutting-edge MDTS strategies to customizing breast cancer therapies.",
+    "keywords": [
+      "Breast cancer",
+      "Immunotherapy",
+      "Machine learning",
+      "PAC-1",
+      "Transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaonan",
+        "Min, Simin",
+        "Zhang, Ning",
+        "Shi, Xiaoyu",
+        "Cai, Zhaogen",
+        "Yang, Di",
+        "Meng, Zixin",
+        "Zhao, Yunxia",
+        "Ni, Ni",
+        "Wang, Tao"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Min S",
+        "Zhang N",
+        "Shi X",
+        "Cai Z",
+        "Yang D",
+        "Meng Z",
+        "Zhao Y",
+        "Ni N",
+        "Wang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China.",
+        "Clinical Research Center, Suzhou Hospital of Anhui Medical University, Suzhou, 234000, Anhui, P.R. China.",
+        "Department of Emergency Hand and Foot Microsurgery, General Hospital of Ningxia Medical University, Yinchuan, P.R. China.",
+        "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China.",
+        "Department of Pathology, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China.",
+        "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China.",
+        "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China.",
+        "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China.",
+        "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China.",
+        "Research Laboratory Center, Guizhou Provincial People's Hospital, Nanming, 550002, Guiyang, Guizhou, P.R. China. wangtaoGPPH@gzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaonan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Min, Simin",
+        "short_name": "Min S",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Center, Suzhou Hospital of Anhui Medical University, Suzhou, 234000, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ning",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Hand and Foot Microsurgery, General Hospital of Ningxia Medical University, Yinchuan, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Shi, Xiaoyu",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Cai, Zhaogen",
+        "short_name": "Cai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yang, Di",
+        "short_name": "Yang D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Meng, Zixin",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yunxia",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Ni, Ni",
+        "short_name": "Ni N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Bengbu Medical University, Longzihu, Bengbu, 233030, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tao",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Research Laboratory Center, Guizhou Provincial People's Hospital, Nanming, 550002, Guiyang, Guizhou, P.R. China. wangtaoGPPH@gzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer cell international"
+    ],
+    "journal_abbrev": [
+      "Cancer Cell Int"
+    ],
+    "pub_date": "2025 Oct 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/10 06:29",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38203556",
+      "37686305",
+      "36693157",
+      "36579891",
+      "36282174",
+      "35982039",
+      "35858707",
+      "35844605",
+      "35798535",
+      "35154121",
+      "35008672",
+      "34945750",
+      "34834420",
+      "34755873",
+      "34639214",
+      "34460109",
+      "34276676",
+      "34249704",
+      "33950524",
+      "33818764",
+      "33597522",
+      "32824207",
+      "32009853",
+      "31912902",
+      "31905966",
+      "31819264",
+      "31604482",
+      "31350295",
+      "31013831",
+      "30954475",
+      "30643254",
+      "30404000",
+      "30370248",
+      "30158849",
+      "30127393",
+      "29921764",
+      "29100045",
+      "27368099",
+      "27049816",
+      "26712084",
+      "26412456",
+      "26392377",
+      "24113773",
+      "20561908",
+      "19960541",
+      "17339520",
+      "16688725",
+      "15249231",
+      "12466970",
+      "12183458"
+    ],
+    "similar": [
+      "41068840",
+      "39628476",
+      "39732954",
+      "40200221",
+      "41342434",
+      "39522039",
+      "41208987",
+      "40423850",
+      "40761262",
+      "39794799",
+      "40308601",
+      "39165361",
+      "38935217",
+      "40406140",
+      "39669558",
+      "37275552",
+      "38512513",
+      "39703515",
+      "39870964",
+      "39991096",
+      "36282174",
+      "40496857",
+      "37090728",
+      "39554586",
+      "40792137",
+      "41164195",
+      "40713654",
+      "41423668",
+      "40438115",
+      "41344266",
+      "37994489",
+      "39524444",
+      "40771801",
+      "39650663",
+      "40299459",
+      "40549038",
+      "41207909",
+      "40332226",
+      "40615664",
+      "39443311",
+      "38756785",
+      "39749326",
+      "38666027",
+      "39395242",
+      "39910672",
+      "40170854",
+      "40435135",
+      "40615919",
+      "41162968",
+      "39966486",
+      "39333608",
+      "40016785",
+      "39707545",
+      "40200832",
+      "40595395",
+      "33830879",
+      "41158400",
+      "39877345",
+      "39391958",
+      "41234865",
+      "41081048",
+      "40366513",
+      "40066454",
+      "38287356",
+      "37671155",
+      "38805774",
+      "39873820",
+      "41114433",
+      "39145093",
+      "40950700",
+      "39596658",
+      "39507529",
+      "41281377",
+      "40847227",
+      "41140446",
+      "41472745",
+      "32957968",
+      "40419997",
+      "37925432",
+      "39669580",
+      "38299230",
+      "41120506",
+      "39076986",
+      "41278162",
+      "41122248",
+      "39421051",
+      "39764127",
+      "38507067",
+      "38745285",
+      "40652009",
+      "39026174",
+      "37507593",
+      "35990668",
+      "40598539",
+      "38028548",
+      "35998003",
+      "41200185",
+      "39434164",
+      "38601163",
+      "40936892"
+    ],
+    "review": [
+      "41068840",
+      "39443311",
+      "40847227"
+    ],
+    "pmc": [
+      "12512818"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cancerci.biomedcentral.com/articles/10.1186/s12935-025-03987-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41068840/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

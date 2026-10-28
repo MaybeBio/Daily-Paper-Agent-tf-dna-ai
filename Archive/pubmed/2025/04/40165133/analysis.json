@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40165133",
+  "title": "Integrated bioinformatics and experiment validation reveal cuproptosis-related biomarkers and therapeutic targets in sepsis-induced myocardial dysfunction.",
+  "authors": "Shi, Xuemei; Yan, Zhonghan; Ding, Ruilin; Xia, Fenfen; Du, Yan; Wang, Xiaojie; Peng, Qing",
+  "journal": "BMC infectious diseases",
+  "published_date": "2025-04-01",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学与实验验证鉴定脓毒症心肌功能障碍中的铜死亡相关生物标志物，虽涉及转录因子网络构建，但核心为疾病标志物筛选，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Sepsis-induced myocardial dysfunction (SIMD) is a serious sepsis complication with high mortality, yet current diagnostic and therapeutic approaches remain limited. The lack of early, specific biomarkers and effective treatments necessitates exploration of novel mechanisms. Recently, cuproptosis has been implicated in various diseases, but its role in SIMD is unclear. This study aimed to identify cuproptosis-related biomarkers and potential therapeutic agents, supported by animal model validation. METHODS: Four GEO datasets (GSE79962, GSE267388, GSE229925, GSE229298) were analyzed using Limma and WGCNA to identify overlapping genes from differentially expressed genes (DEGs), cuproptosis-related DEGs (DE-CRGs), and module-associated genes. Gene Set Enrichment Analysis (GSEA) and single-sample GSEA (ssGSEA) were performed to assess biological functions and immune cell infiltration, respectively. ceRNA and transcription factor networks were constructed to explore gene regulatory mechanisms, while consensus clustering was employed to define cuproptosis-related subtypes. Diagnostic genes were selected through SVM-RFE, LASSO, and random forest models. Additionally, potential gene-targeting agents were predicted using drug-gene interaction analysis. The findings were validated in SIMD animal models through qPCR and immunohistochemical analysis to confirm gene expression. RESULTS: PDHB and DLAT emerged as key cuproptosis-related biomarkers. GSEA indicated upregulation of oxidative phosphorylation and downregulation of chemokine signaling. ssGSEA revealed negative correlations with several immune cell types. A ceRNA network (51 nodes, 56 edges) was constructed. Machine learning identified PDHB, NDUFA9, and TIMMDC1 as diagnostic genes, with PDHB showing high accuracy (AUC = 0.995 in GSE79962; AUC = 0.960, 0.864, and 0.984 in external datasets). Using the DSigDB database, we predicted six drugs that exhibit significant binding activity with PDHB. qPCR and immunohistochemistry confirmed reduced PDHB and DLAT expression in SIMD animal models. CONCLUSION: This study identifies PDHB and DLAT as cuproptosis-related biomarkers, addressing the diagnostic and therapeutic gaps in SIMD by unveiling novel molecular insights for early intervention and targeted treatment. CLINICAL TRIAL NUMBER: Not applicable.",
+  "abstract_zh": "背景：脓毒症诱导的心肌功能障碍（SIMD）是一种严重的脓毒症并发症，死亡率高，但目前诊断和治疗方法仍然有限。缺乏早期、特异性生物标志物和有效治疗手段，促使探索新的机制。近年来，铜死亡（cuproptosis）已被涉及多种疾病，但其在SIMD中的作用尚不清楚。本研究旨在识别铜死亡相关生物标志物和潜在治疗药物，并通过动物模型验证予以支持。方法：使用Limma和WGCNA分析四个GEO数据集（GSE79962、GSE267388、GSE229925、GSE229298），以识别差异表达基因（DEGs）、铜死亡相关DEGs（DE-CRGs）和模块相关基因中的重叠基因。进行基因集富集分析（GSEA）和单样本GSEA（ssGSEA），分别评估生物学功能和免疫细胞浸润。构建ceRNA和转录因子网络以探索基因调控机制，同时采用共识聚类定义铜死亡相关亚型。通过SVM-RFE、LASSO和随机森林模型选择诊断基因。此外，利用药物-基因相互作用分析预测潜在靶向药物。在SIMD动物模型中通过qPCR和免疫组化分析验证发现，以确认基因表达。结果：PDHB和DLAT成为关键的铜死亡相关生物标志物。GSEA显示氧化磷酸化上调，趋化因子信号下调。ssGSEA揭示与多种免疫细胞类型呈负相关。构建了ceRNA网络（51个节点，56条边）。机器学习识别PDHB、NDUFA9和TIMMDC1为诊断基因，其中PDHB显示出高准确性（GSE79962中AUC = 0.995；外部数据集中AUC = 0.960、0.864和0.984）。利用DSigDB数据库，我们预测了六种与PDHB具有显著结合活性的药物。qPCR和免疫组化证实SIMD动物模型中PDHB和DLAT表达降低。结论：本研究将PDHB和DLAT识别为铜死亡相关生物标志物，通过揭示新的分子见解，填补了SIMD诊断和治疗方面的空白，为早期干预和靶向治疗提供支持。临床试验编号：不适用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40165133/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40165133/",
+  "paper_page_path": "papers/pubmed/40165133/index.html"
+}

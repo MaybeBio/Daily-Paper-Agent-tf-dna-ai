@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodological soundness, claims vs. evidence, and alignment with stated scope. No line-by-line copyediting.
+- **Shared manuscript claim summary** The authors argue that explainable artificial intelligence (XAI) methods are necessary and underused in data-driven protein engineering. They review XAI categories, propose integration pipelines, and demonstrate two case studies (DNA-binding protein classification and GFP brightness regression) to show how XAI can provide interpretable insights and guide protein design.
+- **Visible evidence base** Main text, abstract, figure references (Figures 1–4), and references to Supplementary Materials (Sections S1–S3). No supplementary file content was provided.
+- **Missing materials affecting confidence** Supplementary sections (S1–S3) and all figures are referenced but not available. This limits verification of dataset details, model hyperparameters, performance metrics, and the visual outputs of XAI analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant topic: the integration of explainable AI into protein engineering. The conceptual review of XAI methods is broad and generally accurate, and the proposed pipelines are reasonable. However, the work is largely descriptive and the case studies, as presented, are insufficiently detailed to substantiate the central claim that XAI methods "effectively" guide protein design. The lack of quantitative comparisons, baseline models, and access to supplementary details weakens the evidence base. The manuscript would benefit from a more rigorous experimental design and clearer articulation of what is novel beyond existing reviews.
+- **Who would be interested in the results, and why** Researchers in protein engineering, computational biology, and machine learning who are seeking practical guidance on applying XAI to predictive models. The review of XAI methods and the proposed pipelines may be useful for practitioners new to the field. The case studies, if fully detailed, could serve as templates for similar applications.
+- **Major strengths**  
+  - Timely and relevant topic with clear practical importance.  
+  - Broad and structured overview of XAI method categories (feature attribution, instance-based, graph-based, self-explaining, uncertainty estimation).  
+  - The proposed pipelines (Figures 3A–C) provide a useful conceptual framework for integrating XAI into protein engineering workflows.  
+  - The case studies address both classification and regression tasks, covering two common protein engineering objectives.  
+  - Code and data availability statement is commendable and supports reproducibility.
+- **Major Concerns**  
+  - **R1-M1** (Severity: Major, Blocking: Yes)  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The abstract and Section 4.5 claim that the XAI-integrated models are "effective" in identifying DNA-binding proteins and optimizing GFP brightness.  
+    - **Evidence pointer** Section 4.5, Figures 4A–G, Supplementary Sections S1–S3  
+    - **Concern** The case study results are presented without sufficient quantitative detail. For the DNA-binding classifier, only precision (77%) and recall (0.77) are reported for the best model, with no comparison to baselines, no cross-validation details, and no error bars. For the GFP regression, only Pearson coefficient (0.7) and MSE (0.4) are given, with no baseline comparison or discussion of overfitting. The XAI outputs (SHAP, LIME, counterfactuals) are described qualitatively, but the figures are not available for inspection. Without these details, the claim of "effectiveness" is not substantiated.  
+    - **Why it matters** The central contribution of the manuscript is the demonstration that XAI can be practically integrated into protein engineering. If the case studies are not rigorously evaluated, the claim is unsupported and the manuscript becomes primarily a review, which is not the stated scope.  
+    - **Resolution test** Provide full experimental details in the main text or supplementary: dataset sizes, train/test splits, cross-validation schemes, baseline model comparisons, and statistical significance tests. Include the actual SHAP/LIME plots and counterfactual examples as figures. Show how the XAI insights led to specific, validated protein designs (e.g., experimental validation of predicted beneficial mutations).  
+  - **R1-M2** (Severity: Major, Blocking: No)  
+    - **Axis** Novelty and positioning  
+    - **Claim pointer** The manuscript implies a novel contribution by proposing "strategies for seamless integration" of XAI into protein engineering.  
+    - **Evidence pointer** Sections 3 and 4  
+    - **Concern** The manuscript does not clearly differentiate its contribution from existing reviews on XAI in biology or from prior work applying SHAP/LIME to protein property prediction. The proposed pipelines are generic and do not introduce new algorithms or methodological innovations. The authors should explicitly state what is new: is it the specific combination of encoding + model + XAI method? Is it the application domain? Is it the counterfactual-based design workflow?  
+    - **Why it matters** For a Nature-style audience, novelty and conceptual advance are critical. Without a clear statement of novelty, the manuscript reads as a tutorial or review rather than a research contribution.  
+    - **Resolution test** Add a dedicated section or paragraph that explicitly contrasts the proposed approach with prior work (e.g., cite and compare with existing XAI applications in protein science). Highlight any new methodological elements, such as the counterfactual-guided design loop or the integration of uncertainty estimation with feature attribution.  
+  - **R1-M3** (Severity: Major, Blocking: No)  
+    - **Axis** Technical soundness of XAI application  
+    - **Claim pointer** Section 4.5 states that SHAP and LIME analyses identified "relevant positions" and that counterfactual strategies revealed mutations affecting function.  
+    - **Evidence pointer** Section 4.5, Figures 4A–G  
+    - **Concern** The interpretation of XAI outputs is presented without critical discussion of their limitations. For example, SHAP values can be misleading when features are correlated, and LIME is known to be unstable. The manuscript does not address whether the identified positions are robust across different explanation methods or whether they align with known structural or functional annotations. The counterfactual analysis is described as exploring a "window of ±3," but the rationale for this window and the validation of the proposed mutations are not provided.  
+    - **Why it matters** Overinterpretation of XAI outputs can lead to incorrect biological conclusions and poor design decisions. The manuscript should demonstrate that the XAI findings are reliable and actionable.  
+    - **Resolution test** Include a robustness analysis (e.g., compare SHAP and LIME results, test stability across random seeds). Validate the identified positions against known functional annotations (e.g., DNA-binding domains, GFP chromophore proximity). For counterfactuals, show whether the proposed mutations were experimentally tested or at least supported by independent computational predictions.  
+  - **R1-M4** (Severity: Major, Blocking: No)  
+    - **Axis** Reproducibility and completeness  
+    - **Claim pointer** The manuscript states that "the source code to replicate all exploring methods and XAI strategies" is available on GitHub.  
+    - **Evidence pointer** Codes and data availability statement  
+    - **Concern** The GitHub link is provided, but the manuscript does not describe the repository structure, dependencies, or how to run the code. More critically, the datasets used for the case studies are only described as "given in Supporting Information," which was not provided. Without access to the data and clear instructions, reproducibility is questionable.  
+    - **Why it matters** Reproducibility is a core requirement for scientific claims. The authors should ensure that the repository is well-documented and that the data are accessible.  
+    - **Resolution test** Provide a detailed README in the repository, list all dependencies, and ensure that the datasets are either publicly available or included in the supplementary materials. Add a reproducibility statement in the manuscript describing the computational environment and expected runtime.
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Axis** Clarity of terminology  
+    - **Affected element** Section 1, definitions of interpretability and explainability  
+    - **Evidence pointer** Section 1, paragraph 3  
+    - **Issue** The terms "interpretability" and "explainability" are used interchangeably in places, despite the authors' own definitions. This could confuse readers.  
+    - **Required correction** Consistently use the definitions provided in the introduction. Consider adding a table or glossary to clarify the distinction.  
+  - **R1-m2**  
+    - **Axis** Figure quality and accessibility  
+    - **Affected element** Figures 1–4  
+    - **Evidence pointer** Figure references throughout  
+    - **Issue** The figures are not available in the provided text, and their captions are not included. It is impossible to assess whether the figures are clear, informative, and accessible to nonspecialists.  
+    - **Required correction** Ensure that all figures are self-contained, with clear captions explaining the key takeaway. Consider adding schematic diagrams for the pipelines (Figures 3A–C) to improve accessibility.  
+  - **R1-m3**  
+    - **Axis** Citation of prior work  
+    - **Affected element** Section 3.6, paragraph 2  
+    - **Evidence pointer** Section 3.6  
+    - **Issue** The discussion of prior XAI applications in protein science is brief and does not cite specific examples of SHAP or LIME being used for protein property prediction.  
+    - **Required correction** Add citations to representative studies that have applied XAI to protein function prediction, stability, or design. This will help position the work within the existing literature.  
+  - **R1-m4**  
+    - **Axis** Language and readability  
+    - **Affected element** Abstract and Section 5  
+    - **Evidence pointer** Abstract, Section 5  
+    - **Issue** Some sentences are long and convoluted, which may hinder readability for nonspecialists. For example, the abstract's final sentence is dense.  
+    - **Required correction** Simplify sentence structures and break up long sentences. Consider having a nonspecialist read the abstract to ensure clarity.  
+  - **R1-m5**  
+    - **Axis** Ethical and societal implications  
+    - **Affected element** Section 5  
+    - **Evidence pointer** Section 5, final paragraph  
+    - **Issue** The discussion of future opportunities does not address potential risks or limitations of using AI-guided protein design, such as biosafety or dual-use concerns.  
+    - **Required correction** Add a brief paragraph acknowledging these considerations, which would strengthen the manuscript's relevance to a broad audience.
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1: Insufficient quantitative evidence for the effectiveness of the case studies.  
+  - R1-M3: Lack of robustness analysis for XAI outputs and no validation of proposed mutations.  
+  - R1-M4: Incomplete reproducibility details (data and code documentation).
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The topic is timely, but the manuscript does not present a fundamentally new method or concept. The proposed pipelines are syntheses of existing techniques.  
+  - **Scientific importance** High. The integration of XAI into protein engineering is an important problem with practical implications. However, the importance is not fully realized due to weak case study evidence.  
+  - **Interdisciplinary readership** Good. The topic bridges machine learning, protein science, and bioengineering. The writing is generally accessible, though some sections are dense.  
+  - **Technical soundness** Weak. The case studies lack rigorous evaluation, and the XAI interpretations are not critically assessed.  
+  - **Readability for nonspecialists** Adequate. The structure is logical, but the abstract and some sections could be clearer. Figures, if well-designed, would help.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant and important topic, and the conceptual framework is useful. However, the case studies must be substantially strengthened with quantitative rigor, robustness checks, and validation of XAI-driven insights. The novelty must also be more clearly articulated. If these issues are addressed, the manuscript could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that XAI methods "effectively" identify DNA-binding proteins and optimize GFP brightness is unsupported without full experimental details and baseline comparisons.
+- The claim that counterfactual analysis identified mutations that "directly caused" loss of function (e.g., position 129 lysine to alanine) is presented without experimental validation or citation of prior evidence.
+- The claim that the proposed pipelines are "seamless" integrations is not demonstrated; the manuscript does not provide end-to-end examples with all steps fully specified.
+- The general statement that XAI methods "foster confidence in model reliability" is asserted but not empirically tested (e.g., no user study or comparison of trust before/after explanations).

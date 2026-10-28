@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "42340574",
+    "doi": "10.1007/s12010-026-05793-9",
+    "title": "Identification of Diagnostic Biomarkers Among Metabolism-related Genes in Rheumatoid Arthritis: Insights into Immune Landscape and Molecular Subtype Characterization."
+  },
+  "content": {
+    "abstract": "Rheumatoid arthritis (RA) is a chronic autoimmune disease characterized by synovial inflammation and joint destruction. Metabolic reprogramming and immune dysregulation are increasingly recognized as pivotal contributors to RA pathogenesis. However, a comprehensive understanding of metabolism-related genes that act as key regulators of RA progression and their impact on the immune microenvironment is lacking. We obtained RA mRNA expression profiles and single-cell RNA sequencing (scRNA-seq) data from the Gene Expression Omnibus. Weighted Gene Co-expression Network Analysis identified RA-associated gene modules, followed by functional enrichment (Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, and Gene Set Enrichment Analysis) and Gene Set Variation Analysis. Four machine learning algorithms (Least Absolute Shrinkage and Selection Operator, Random Forest, Support Vector Machine-Recursive Feature Elimination, and Boruta) were applied to select diagnostic biomarkers. Model performance was validated using Receiver Operating Characteristic curves. Immune infiltration was assessed via CIBERSORT and Single-sample Gene Set Enrichment Analysis. Consensus clustering identified RA subtypes, and scRNA-seq data were analyzed using CellChat to characterize cellular profiles and intercellular interactions. Four robust metabolism-related biomarkers, ACSL4, ARG1, GALNT4, and ST3GAL6, were identified and validated across datasets, demonstrating strong diagnostic performance. The model stratified RA patients into two subtypes with distinct immune infiltration patterns. Single-cell analysis revealed increased CD4 T cells and B cells proportions in RA, with enhanced migration inhibitory factor (MIF) signaling and upregulated metabolic pathways. Regulatory networks (Competing Endogenous RNA, Transcription Factor) and single-gene GSEA highlighted the roles of hub genes in immune and metabolic processes. This study provides a comprehensive analysis of metabolism-related genes in RA, identifying four diagnostic biomarkers. The integration of single-cell transcriptomics offers novel insights into RA pathogenesis and suggests potential biomarkers and therapeutic targets for precision medicine.",
+    "keywords": [
+      "Diagnostic model",
+      "Immune infiltration",
+      "Metabolism-related genes",
+      "Rheumatoid arthritis",
+      "ScRNA-seq"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/genetics/immunology/diagnosis/metabolism",
+      "Humans",
+      "Biomarkers/metabolism",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Changfeng",
+        "Xu, Hengwu",
+        "Wu, Yifan",
+        "Zeng, Pingkai",
+        "Lu, Yuqi",
+        "Ye, Zhijian"
+      ],
+      "short_names": [
+        "Fang C",
+        "Xu H",
+        "Wu Y",
+        "Zeng P",
+        "Lu Y",
+        "Ye Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Rehabilitation Medical College, Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China.",
+        "Department of Pharmacy, Jinhua People's Hospital, Jinhua, Zhejiang, 321000, China.",
+        "Rehabilitation Medical College, Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China.",
+        "Rehabilitation Medical College, Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China.",
+        "Rehabilitation Medical College, Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China.",
+        "Department of Anesthesiology, The Jinhua Affiliated Hospital of Wenzhou Medical University, No. 267, Danxi East Road, Jindong District, Jinhua City, Zhejiang Province, China. zhijiany7849@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Changfeng",
+        "short_name": "Fang C",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Medical College, Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hengwu",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Jinhua People's Hospital, Jinhua, Zhejiang, 321000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yifan",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Medical College, Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Pingkai",
+        "short_name": "Zeng P",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Medical College, Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yuqi",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Rehabilitation Medical College, Wenzhou Medical University, Wenzhou, Zhejiang, 325000, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zhijian",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Jinhua Affiliated Hospital of Wenzhou Medical University, No. 267, Danxi East Road, Jindong District, Jinhua City, Zhejiang Province, China. zhijiany7849@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Applied biochemistry and biotechnology"
+    ],
+    "journal_abbrev": [
+      "Appl Biochem Biotechnol"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/24 12:36",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40505844",
+      "40342839",
+      "40236704",
+      "40095631",
+      "40038288",
+      "39560902",
+      "39139555",
+      "38962008",
+      "38910494",
+      "38884501",
+      "38862501",
+      "38711508",
+      "38322264",
+      "38240831",
+      "38240792",
+      "38086266",
+      "37442770",
+      "37264340",
+      "37138862",
+      "37131409",
+      "36797236",
+      "36672343",
+      "36618407",
+      "36508473",
+      "36213670",
+      "36064646",
+      "35888759",
+      "35547214",
+      "35185879",
+      "34974060",
+      "34758308",
+      "34220809",
+      "33879788",
+      "33460504",
+      "32797249",
+      "32362840",
+      "31969567",
+      "31520798",
+      "30990796",
+      "30693283",
+      "29736302",
+      "28538163",
+      "27842070",
+      "26635790",
+      "22700726",
+      "10759780"
+    ],
+    "similar": [
+      "42340574",
+      "42003657",
+      "39509434",
+      "40500570",
+      "41913032",
+      "38711508",
+      "42431430",
+      "41116042",
+      "36238290",
+      "42642681",
+      "39139563",
+      "39170142",
+      "39466354",
+      "41432483",
+      "39953769",
+      "39845946",
+      "41459480",
+      "42251905",
+      "42135859",
+      "41388523",
+      "40153321",
+      "42741539",
+      "41570454",
+      "41146237",
+      "41816328",
+      "42056344",
+      "41488645",
+      "40550064",
+      "35434133",
+      "40532306",
+      "42123445",
+      "41066424",
+      "41680947",
+      "40592131",
+      "42367122",
+      "42483176",
+      "41846910",
+      "38656728",
+      "40636121",
+      "42109201",
+      "41200172",
+      "42059276",
+      "39830504",
+      "38962008",
+      "42243611",
+      "42363518",
+      "42292364",
+      "41044520",
+      "39067546",
+      "39507054",
+      "36532015",
+      "41637423",
+      "41316541",
+      "34477936",
+      "40238799",
+      "40406620",
+      "42326009",
+      "41013556",
+      "37492576",
+      "41021591",
+      "38573982",
+      "34484236",
+      "41548166",
+      "39840076",
+      "39142001",
+      "36699262",
+      "40644421",
+      "42528732",
+      "40859487",
+      "40901831",
+      "40312440",
+      "42450069",
+      "33407587",
+      "42708302",
+      "40849565",
+      "41583523",
+      "38273392",
+      "41291841",
+      "40704466",
+      "41310117",
+      "42416066",
+      "39713769",
+      "40801343",
+      "42456406",
+      "40766309",
+      "35844557",
+      "40974094",
+      "39270557",
+      "42024670",
+      "38767974",
+      "40777023",
+      "40819095",
+      "42236612",
+      "41068798",
+      "42583273",
+      "42274933",
+      "42123756",
+      "42568110",
+      "40967560",
+      "38371524"
+    ],
+    "review": [
+      "42340574"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12010-026-05793-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3893",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

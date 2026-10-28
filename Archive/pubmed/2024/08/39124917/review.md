@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, main sections, conclusions) as provided
+- **Assessment boundary** Scientific content, structure, and claims as presented in the supplied text; no external literature or data verification performed
+- **Shared manuscript claim summary** The authors review recent applications of AI algorithms (machine learning and deep learning) for the rational design and activity prediction of biological elements (promoters, enhancers, RBS, transcription factors, enzymes), and discuss how AI-designed elements can be used to optimize the response performance of transcription-factor-based biosensors (TFBs). They also propose future directions and solutions to current challenges.
+- **Visible evidence base** Narrative descriptions of published studies, summary claims about model accuracies and performance metrics, and references to figures and tables (figures and tables themselves not provided)
+- **Missing materials affecting confidence** Figures, tables, reference list, and any supplementary data were not provided; specific numerical details and methodological descriptions of cited studies could not be independently verified
+
+## Reviewer
+- **Overall assessment** This is a broad narrative review covering AI applications in biological element design and TFB optimization. The topic is timely and of interest to the synthetic biology community. The manuscript is well-organized and generally readable. However, the review is largely descriptive, with limited critical analysis, and several claims lack sufficient supporting detail. The absence of figures and tables in the provided material limits full evaluation. The scope is broad, and the depth of treatment varies across sections. The manuscript would benefit from a more structured comparative framework and clearer articulation of the specific contributions of AI methods relative to traditional approaches.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and computational biology would be the primary audience. Those working on biosensor design, gene circuit optimization, and the application of machine learning to biological sequence-function relationships would find the review useful as an entry point to the literature. The discussion of TFB optimization via AI-designed elements is particularly relevant to those developing whole-cell biosensors for metabolic monitoring and high-throughput screening.
+- **Major strengths** The manuscript covers a relevant and rapidly evolving topic. The organization by biological element type (promoters, enhancers, RBS, proteins) and by application (TFB optimization) is logical. The authors include recent examples and highlight both the potential and the limitations of AI approaches. The concluding section addresses important challenges such as data quality, model interpretability, and interdisciplinary integration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that AI algorithms have shown "excellent performance" and "powerful potential" in the design and prediction of biological elements, and that AI-designed elements can effectively optimize TFB response performance.
+  - **Evidence pointer** Sections 2 and 3; specific figures and tables referenced but not provided
+  - **Concern** The central claims of the review rest on summaries of published studies, but the level of detail provided is insufficient for the reader to critically assess the strength of the evidence. For example, prediction accuracies are cited (e.g., 0.7, 0.78, 0.88, 0.92, 0.86, 0.98) without context regarding dataset sizes, benchmarks, or comparison to baseline methods. The figures and tables that presumably contain comparative data are not available in the provided material. Without this information, the claims of "excellent performance" are not fully substantiated.
+  - **Why it matters** A review's value depends on its ability to synthesize and critically evaluate evidence. If performance metrics are presented without methodological context, readers cannot judge whether the reported successes are generalizable or study-specific. This weakens the manuscript's contribution as a reliable guide for researchers.
+  - **Resolution test** Provide a comparative table summarizing key studies, including dataset characteristics, model types, evaluation metrics, and performance relative to non-AI baselines. Ensure all figures and tables are included in the submission for review.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Critical analysis
+  - **Claim pointer** The manuscript states that AI algorithms "bypass some complex biological mechanisms" and that they can address challenges in bio-element design and TFB optimization.
+  - **Evidence pointer** Sections 1, 2, and 3
+  - **Concern** The review is largely descriptive and does not critically examine the limitations, failure modes, or potential biases of the AI methods discussed. For example, the authors do not discuss issues such as overfitting, data leakage, transferability across organisms or conditions, or the interpretability of deep learning models in the context of biological mechanism discovery. The claim that AI can "bypass" biological complexity is presented without nuance.
+  - **Why it matters** A critical perspective is essential for a review to be useful. Without discussing limitations, the manuscript risks presenting an overly optimistic view that may mislead readers, particularly those new to AI methods.
+  - **Resolution test** Add a dedicated section or subsection discussing limitations and challenges of AI approaches, including specific examples of cases where AI predictions failed or underperformed, and a balanced discussion of interpretability versus performance trade-offs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and depth
+  - **Claim pointer** The manuscript claims to cover "recent applications and challenges" of AI in bio-element design and TFB optimization.
+  - **Evidence pointer** Sections 2 and 3
+  - **Concern** The coverage is uneven. The sections on promoters and RBS are relatively detailed, while the section on transcription factor optimization (Section 3.3) is brief and does not include any AI-based examples, despite the title of the review suggesting a focus on AI-designed elements for TFB optimization. The authors acknowledge this gap but do not adequately address it.
+  - **Why it matters** The review's stated scope includes AI-based TFB optimization, but the treatment of this topic is incomplete. This may disappoint readers specifically interested in this application and weakens the manuscript's coherence.
+  - **Resolution test** Either expand Section 3.3 with relevant AI-based studies (if they exist) or explicitly reframe the review's scope to acknowledge that AI-based TF optimization is an emerging area with limited published work, and discuss potential approaches and future directions in more depth.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is somewhat generic and does not clearly state the specific scope, methods of synthesis, or key conclusions of the review.
+  - **Required correction** Revise the abstract to include a clearer statement of the review's scope, the types of AI methods covered, and the main take-home messages.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The term "rational design" is used frequently but not explicitly defined. It may be interpreted differently by different readers.
+  - **Required correction** Provide a brief definition or clarification of "rational design" in the context of this review, distinguishing it from other design approaches.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Structure
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** This section covers protein design and enzyme function prediction, but the connection to the overall theme of TFB optimization is not explicitly made.
+  - **Required correction** Add a sentence or two linking protein design and enzyme prediction back to the broader context of biosensor development and TFB optimization.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5, Conclusions and Perspective
+  - **Evidence pointer** Section 5
+  - **Issue** The discussion of future directions is broad and somewhat generic. Specific, actionable research priorities are not clearly identified.
+  - **Required correction** Consider listing 3-5 specific, concrete research priorities or open questions that would advance the field, with brief justifications.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of accessible evidence for the performance claims. The figures and tables are referenced but not provided, and the numerical results cited in the text lack sufficient methodological context. This must be resolved before the review's claims can be fully evaluated.
+- **Assessment against Nature-style criteria**
+  - **Originality** The review covers a topic that has been addressed in other recent reviews. Its specific angle on TFB optimization via AI-designed elements is somewhat distinctive, but the overall framework is not highly novel.
+  - **Scientific importance** The topic is important and timely. AI applications in synthetic biology are of growing interest, and biosensor optimization is a practical challenge. However, the review does not provide new data or a new conceptual framework, limiting its scientific impact.
+  - **Interdisciplinary readership** The manuscript bridges AI, synthetic biology, and metabolic engineering, and could appeal to readers across these fields. However, the depth of treatment in each area is limited, and the lack of critical analysis may reduce its value for expert readers.
+  - **Technical soundness** The technical soundness of the review depends on the accuracy of the cited studies, which could not be verified from the provided material. The presentation of performance metrics without context is a concern.
+  - **Readability for nonspecialists** The manuscript is generally readable, with clear section structure and explanations of AI concepts. However, some terms and methods are introduced without sufficient explanation for a nonspecialist audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant topic and has a logical structure, but the lack of supporting evidence (figures, tables, methodological details) and the limited critical analysis must be addressed. If the authors provide the missing materials and strengthen the critical perspective, the review could be a useful contribution. Currently, the case for the review's central claims is not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- Claims of "excellent performance" and "powerful potential" of AI algorithms in bio-element design and prediction are not fully supported by the provided evidence, as specific performance metrics are presented without methodological context.
+- The claim that AI algorithms can "bypass some complex biological mechanisms" is an oversimplification and is not critically examined.
+- The statement that AI-designed elements can effectively optimize TFB response performance is supported only by narrative summaries of a limited number of studies; the generalizability of these findings is not established.
+- The claim that the review provides "valuable insights for advancing both academic research and practical applications" is an assertion that is not directly supported by the evidence presented in the text.

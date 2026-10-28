@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) with supplementary figure/table references, but no actual supplementary files or figures provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to the evidence presented in the text, and alignment with Nature-style criteria. No assessment of formatting, grammar, or editorial fit for a specific journal.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations and free-energy calculations to characterize the conformational dynamics of a mouse zinc finger antiviral protein (ZAP) bound to a CG-rich viral RNA, identify residue-nucleotide interactions not observed in the crystal structure, and compute the effects of alanine mutations on binding affinity, concluding that five residues (Arg74, Lys76, Lys89, Lys107, Glu148) significantly reduce binding when mutated.
+- **Visible evidence base** Text descriptions of methods (simulation setup, TI, MM/GBSA, conformational metrics), results (RMSD, RMSF, BSA, interaction energies, hydrogen bonds, fractional occupancy, ΔGbind, ΔΔGbind), and references to figures (Fig. 1-5) and supplementary items (Fig. S1-S8, Table S1). No actual figures, tables, or supplementary data were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary files are absent. This includes the crystal structure images, MD trajectory analyses, free-energy plots, and the numerical data in Table S1. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and technically sound computational study of ZAP-RNA interactions, with a clear rationale and appropriate methodology. The central claims, however, rest on data that are not visible in the provided material, and several statements in the results and discussion are not fully supported by the text alone. The work is of interest to the structural biology and antiviral research communities, but the case for novelty and significance is only partially established from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers studying host-viral interactions, particularly the molecular basis of RNA recognition by antiviral proteins, and computational biophysicists interested in protein-RNA binding free-energy predictions. The identification of dynamic, non-crystallographic contacts and the ranking of mutation effects could inform experimental mutagenesis studies and drug design efforts targeting ZAP.
+- **Major strengths** The study addresses a relevant question about the role of conformational dynamics in RNA recognition, which is not captured by static crystal structures. The methodology is state-of-the-art, combining long-timescale MD with alchemical free-energy calculations and MM/GBSA decomposition. The selection of mutation targets is well justified by prior experimental data and the authors' own interaction analysis. The provision of input files on GitHub is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the terminal nucleotides C1 and G2 of RNA change their positions from the ZF3 to ZF1 domain" and that this is due to "the dynamic behavior of the single stranded RNA."
+  - **Evidence pointer** Results section, "Dynamics of the ZAP/RNA Complex"; Figure 2; location not provided for specific trajectory frames.
+  - **Concern** This is a central finding, but the text provides no quantitative support, such as time-series of distances, contact maps, or representative structures. The claim is stated descriptively without data showing the transition or its frequency across the three independent simulations.
+  - **Why it matters** The repositioning of RNA is the basis for identifying new interactions (e.g., C1-Arg74, G2-Arg74) and for the subsequent mutation analysis. Without evidence, the reader cannot assess whether this is a robust, reproducible event or a rare fluctuation.
+  - **Resolution test** Provide a figure showing the distance between C1/G2 and ZF1 versus ZF3 residues over time, or a contact map with occupancy thresholds, and state the fraction of simulation time during which the RNA is in the ZF1-bound state.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the Ala mutation in each of the five residues Arg74, Lys76, Lys89, Lys107, and Glu148 significantly reduced the binding affinity of ZAP to RNA."
+  - **Evidence pointer** Results section, "Relative Binding Free Energies"; Figure 5; Table S1; location not provided.
+  - **Concern** The ΔΔGbind values are not reported in the text, and the statistical significance of the differences is not discussed. The text mentions standard deviations between 0.10 and 1.16 kcal/mol, but it is unclear which mutations have uncertainties that overlap with zero or with each other. The threshold for "significant" reduction is not defined.
+  - **Why it matters** The ranking of mutation effects is a key conclusion. Without numerical values and error estimates, the reader cannot judge whether the identified five residues are truly distinct from the other five mutations or from each other.
+  - **Resolution test** Report the mean and standard deviation of ΔΔGbind for each mutation, and state the criterion used to define a significant reduction (e.g., >1 kcal/mol and non-overlapping confidence intervals).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors state that "the electrostatic interactions between the zinc ions and the viral RNA provide further stability to the ZAP/RNA complex."
+  - **Evidence pointer** Results section, "Interaction Energies Between Zinc Finger Domains and RNA"; Figure S4; location not provided.
+  - **Concern** The text reports interaction energies between zinc ions and RNA, but it is unclear whether these are direct zinc-RNA contacts or mediated through protein. The claim of "stability" is inferred from energy values, but no free-energy decomposition or comparison to a control (e.g., without zinc) is provided.
+  - **Why it matters** The role of zinc ions in RNA binding is a secondary but notable claim. If the ions contribute significantly, this has implications for the mechanism of RNA recognition and for the design of mutants that disrupt metal coordination.
+  - **Resolution test** Clarify whether the zinc-RNA interactions are direct or water-mediated, and provide a comparison of the total interaction energy with and without the zinc ions, or a per-ion decomposition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Relative Binding Free Energy Calculations"
+  - **Evidence pointer** Equation 1; location not provided.
+  - **Issue** The thermodynamic cycle is described, but the sign convention for ΔΔGbind is not explicitly stated. A positive value indicates a destabilizing mutation, but this is not defined in the text.
+  - **Required correction** Add a sentence defining the sign convention, e.g., "A positive ΔΔGbind indicates that the mutation reduces binding affinity."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Residue-level Interactions Between ZAP and RNA"
+  - **Evidence pointer** Figure 4; location not provided.
+  - **Issue** The text lists eleven critical residue-pairs but only discusses ten in the mutation analysis. The eleventh pair (C1-Arg179) is mentioned in the text but not included in the mutation set, and the reason is not given.
+  - **Required correction** State why Arg179 was not mutated, or include it in the analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Simulation Setup"
+  - **Evidence pointer** Text; location not provided.
+  - **Issue** The equilibration protocol is described, but the total simulation time per replica (2 μs) is stated, while the number of replicas is three. The text does not specify whether the 2 μs is per replica or total.
+  - **Required correction** Clarify that each of the three simulations was 2 μs in length, or state the total aggregate simulation time.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claims of RNA repositioning and mutation effects are not quantitatively supported in the provided text. The absence of figures and tables prevents verification of the reported values.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of MD and free-energy methods to ZAP-RNA is not conceptually new, but the focus on dynamic, non-crystallographic contacts adds a useful perspective. Scientific importance: Moderate. The findings could inform experimental studies, but the impact is limited to a specific protein-RNA system. Interdisciplinary readership: Limited. The work is primarily of interest to computational biophysicists and virologists; the broader significance for immunology or drug discovery is not articulated. Technical soundness: Generally sound in methodology, but the evidence presented is insufficient to support all claims. Readability for nonspecialists: The text is accessible, but the lack of quantitative results makes it hard for a nonspecialist to follow the key conclusions.
+- **Recommendation posture** Supportive if technical concerns are resolved. The methodology is appropriate and the questions are relevant, but the manuscript in its current form does not provide sufficient evidence to establish the central claims. The authors should add the missing quantitative data and clarify the statistical basis for their conclusions.
+
+## Risk / unsupported claims
+- The claim that C1 and G2 move from ZF3 to ZF1 is unsupported without trajectory data or distance analysis.
+- The claim that five mutations "significantly" reduce binding affinity is unsupported without reported ΔΔGbind values and error estimates.
+- The claim that zinc ions provide "further stability" is weakly supported, as no control or free-energy decomposition is provided.
+- The statement that "we identified new residues (Lys89, Arg95, Tyr98, and Arg179)" is partially misleading, as some of these residues were already implicated in prior experimental studies cited by the authors.

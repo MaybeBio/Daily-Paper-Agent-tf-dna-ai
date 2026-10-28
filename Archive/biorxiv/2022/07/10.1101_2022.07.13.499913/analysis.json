@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.13.499913",
+  "title": "ExTrack characterizes transition kinetics and diffusion in noisy single-particle tracks",
+  "authors": "Simon F; Tinevez J; van Teeffelen S",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-14",
+  "window": {
+    "start": "2022-07-11",
+    "end": "2022-07-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出单颗粒追踪概率方法ExTrack，用于分析活细胞中蛋白质动态互作（含结合/扩散状态转换），虽非TF-DNA体系，但方法可迁移至蛋白质-DNA互作动态研究。",
+  "abstract": "Single-particle tracking microscopy is a powerful technique to investigate how proteins dynamically interact with their environment in live cells. However, the analysis of tracks is confounded by noisy molecule localization, short tracks, and rapid transitions between different motion states, notably between immobile and diffusive states. Here, we propose a probabilistic method termed ExTrack that uses the full spatio-temporal information of tracks to extract global model parameters, to calculate state probabilities at every time point, to reveal distributions of state durations, and to refine the positions of bound molecules. ExTrack works for a wide range of diffusion coefficients and transition rates, even if experimental data deviate from model assumptions. We demonstrate its capacity by applying it to slowly diffusing and rapidly transitioning bacterial envelope proteins. ExTrack greatly increases the regime of computationally analyzable noisy single-particle tracks. The ExTrack package is available in ImageJ and Python.",
+  "abstract_zh": "单粒子追踪显微镜是一种强大的技术，用于研究蛋白质如何在活细胞中与其环境动态相互作用。然而，轨迹分析受到分子定位噪声、短轨迹以及不同运动状态（特别是固定状态与扩散状态）之间快速转换的干扰。在此，我们提出一种名为ExTrack的概率方法，该方法利用轨迹的完整时空信息来提取全局模型参数、计算每个时间点的状态概率、揭示状态持续时间的分布，并细化结合分子的位置。ExTrack适用于广泛的扩散系数和转换速率，即使实验数据偏离模型假设也能工作。我们通过将其应用于缓慢扩散且快速转换的细菌包膜蛋白来展示其能力。ExTrack极大地扩展了可计算分析的噪声单粒子轨迹的范围。ExTrack软件包可在ImageJ和Python中使用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499913",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499913",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.13.499913/index.html"
+}

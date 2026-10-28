@@ -1,0 +1,491 @@
+{
+  "identity": {
+    "pmid": "39436581",
+    "doi": "10.1007/s11030-024-11009-1",
+    "title": "Advancements of anticancer agents by targeting the Hippo signalling pathway: biological activity, selectivity, docking analysis, and structure-activity relationship."
+  },
+  "content": {
+    "abstract": "The Hippo signalling pathway is prominent and governs cell proliferation and stem cell activity, acting as a growth regulator and tumour suppressor. Defects in Hippo signalling and hyperactivation of its downstream effector's Yes-associated protein (YAP) and transcriptional co-activator with PDZ-binding motif (TAZ) play roles in cancer development, implying that pharmacological inhibition of YAP and TAZ activity could be an effective cancer treatment strategy. Conversely, YAP and TAZ can also have beneficial effects in promoting tissue repair and regeneration following damage, therefore their activation may be therapeutically effective in certain instances. Recently, a complex network of intracellular and extracellular signalling mechanisms that affect YAP and TAZ activity has been uncovered. The YAP/TAZ-TEAD interaction leads to tumour development and the protein structure of YAP/TAZ-TEAD includes three interfaces and one hydrophobic pocket. There are clinical and preclinical trial drugs available to inhibit the hippo signalling pathway, but these drugs have moderate to severe side effects, so researchers are in search of novel, potent, and selective hippo signalling pathway inhibitors. In this review, we have discussed the hippo pathway in detail, including its structure, activation, and role in cancer. We have also provided the various inhibitors under clinical and preclinical trials, and advancement of small molecules their detailed docking analysis, structure-activity relationship, and biological activity. We anticipate that the current study will be a helpful resource for researchers.",
+    "keywords": [
+      "Anti-cancer agents",
+      "Clinical and preclinical trial drugs",
+      "Docking analysis",
+      "Hippo signalling pathway",
+      "Structure-activity relationship (SAR)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Signal Transduction/drug effects",
+      "*Antineoplastic Agents/pharmacology/chemistry/therapeutic use",
+      "Hippo Signaling Pathway",
+      "*Protein Serine-Threonine Kinases/metabolism/antagonists & inhibitors/chemistry",
+      "Structure-Activity Relationship",
+      "Molecular Docking Simulation",
+      "Neoplasms/drug therapy/metabolism",
+      "Animals",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Haripriya, E",
+        "Hemalatha, K",
+        "Matada, Gurubasavaraja Swamy Purawarga",
+        "Pal, Rohit",
+        "Das, Pronoy Kanti",
+        "Ashadul Sk, M D",
+        "Mounika, S",
+        "Viji, M P",
+        "Aayishamma, I",
+        "Jayashree, K R"
+      ],
+      "short_names": [
+        "Haripriya E",
+        "Hemalatha K",
+        "Matada GSP",
+        "Pal R",
+        "Das PK",
+        "Ashadul Sk MD",
+        "Mounika S",
+        "Viji MP",
+        "Aayishamma I",
+        "Jayashree KR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1206-6712",
+        "ORCID: 0000-0002-2763-5757"
+      ],
+      "affiliations": [
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India. kamurthy18@gmail.com.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India. rohitpal.rp096@gmail.com.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India.",
+        "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Haripriya, E",
+        "short_name": "Haripriya E",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Hemalatha, K",
+        "short_name": "Hemalatha K",
+        "identifiers": [
+          "0000-0003-1206-6712"
+        ],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India. kamurthy18@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Matada, Gurubasavaraja Swamy Purawarga",
+        "short_name": "Matada GSP",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Rohit",
+        "short_name": "Pal R",
+        "identifiers": [
+          "0000-0002-2763-5757"
+        ],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India. rohitpal.rp096@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Das, Pronoy Kanti",
+        "short_name": "Das PK",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Ashadul Sk, M D",
+        "short_name": "Ashadul Sk MD",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Mounika, S",
+        "short_name": "Mounika S",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Viji, M P",
+        "short_name": "Viji MP",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Aayishamma, I",
+        "short_name": "Aayishamma I",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Jayashree, K R",
+        "short_name": "Jayashree KR",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Drug Discovery Centre, Department of Pharmaceutical Chemistry, Acharya & BM Reddy College of Pharmacy, Bengaluru, 560107, Karnataka, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/22 12:23",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "40657375"
+    ],
+    "refs": [
+      "38181651",
+      "38067201",
+      "38001686",
+      "37770003",
+      "37731696",
+      "37308716",
+      "37277530",
+      "36988034",
+      "36510887",
+      "36434952",
+      "36398861",
+      "36347861",
+      "36300789",
+      "36265280",
+      "36148553",
+      "36008139",
+      "35950546",
+      "35834904",
+      "35704761",
+      "35456049",
+      "35214125",
+      "35211741",
+      "34685695",
+      "34657158",
+      "34509860",
+      "34471235",
+      "34439400",
+      "34425716",
+      "34173335",
+      "34164919",
+      "34032019",
+      "33850002",
+      "33511508",
+      "33415007",
+      "33222286",
+      "33199845",
+      "32907324",
+      "32682200",
+      "32313141",
+      "32292545",
+      "32292165",
+      "31913126",
+      "31806419",
+      "31792377",
+      "31761807",
+      "31742995",
+      "31659153",
+      "31622854",
+      "31341276",
+      "31174842",
+      "31024911",
+      "30805310",
+      "30662519",
+      "30640473",
+      "30566373",
+      "30400599",
+      "30322867",
+      "30183404",
+      "30158528",
+      "30050119",
+      "29985391",
+      "29738494",
+      "29734788",
+      "29251924",
+      "29063833",
+      "28964625",
+      "28230103",
+      "28114269",
+      "27912098",
+      "27013234",
+      "26909576",
+      "26592798",
+      "26549256",
+      "26437443",
+      "26324895",
+      "25965575",
+      "25937570",
+      "25751140",
+      "25751139",
+      "25625370",
+      "25601544",
+      "25373897",
+      "25287865",
+      "25175178",
+      "24976283",
+      "24882516",
+      "24882515",
+      "24715453",
+      "24336504",
+      "24012335",
+      "23752589",
+      "23467301",
+      "23380592",
+      "23245941",
+      "23001183",
+      "22863277",
+      "22078877",
+      "22075148",
+      "22075147",
+      "21831922",
+      "21654799",
+      "21205866",
+      "21199877",
+      "21189257",
+      "20850437",
+      "20368466",
+      "20159599",
+      "20123905",
+      "19371381",
+      "18579750",
+      "18328423",
+      "17980593",
+      "17974916",
+      "17889654",
+      "17085591",
+      "16894141",
+      "16814713",
+      "14765127",
+      "13351639",
+      "11118213",
+      "10975468",
+      "9808622",
+      "9744270",
+      "8702974",
+      "8035999",
+      "7958896",
+      "2826126",
+      "1851669"
+    ],
+    "similar": [
+      "39436581",
+      "24336504",
+      "30482112",
+      "25652178",
+      "36265280",
+      "37748190",
+      "26429069",
+      "25719868",
+      "39527559",
+      "29457552",
+      "39348982",
+      "28752853",
+      "36877351",
+      "40148032",
+      "31018586",
+      "39903968",
+      "39153238",
+      "30546055",
+      "27048650",
+      "28820389",
+      "39572674",
+      "27826640",
+      "34509860",
+      "27589805",
+      "32748155",
+      "35349740",
+      "32385107",
+      "30570758",
+      "38565920",
+      "34173335",
+      "39468616",
+      "40318272",
+      "38606782",
+      "26109050",
+      "37337213",
+      "39626959",
+      "32206112",
+      "38741073",
+      "29305295",
+      "35064256",
+      "39521692",
+      "38538573",
+      "24380865",
+      "40100056",
+      "25266986",
+      "39826667",
+      "24560909",
+      "39686607",
+      "27009852",
+      "36709077",
+      "39123485",
+      "39047607",
+      "37608027",
+      "33945400",
+      "26561204",
+      "28964625",
+      "29802201",
+      "39641583",
+      "25843714",
+      "30565132",
+      "31431076",
+      "38987584",
+      "30466081",
+      "38811804",
+      "38700015",
+      "36044856",
+      "28035075",
+      "38599470",
+      "39931781",
+      "35119068",
+      "39786847",
+      "34339458",
+      "29749524",
+      "29325286",
+      "39103676",
+      "36740402",
+      "28589555",
+      "32981290",
+      "31262852",
+      "39592955",
+      "24356468",
+      "32145593",
+      "40014178",
+      "18955139",
+      "37211598",
+      "30401838",
+      "30477496",
+      "28960584",
+      "34425716",
+      "36052554",
+      "39718433",
+      "39752217",
+      "25995450",
+      "25670202",
+      "34409639",
+      "37277530",
+      "38806345",
+      "35217640",
+      "38606592",
+      "38527062"
+    ],
+    "review": [
+      "39436581",
+      "24336504",
+      "30482112",
+      "25652178",
+      "36265280",
+      "26429069",
+      "25719868",
+      "29457552",
+      "39348982",
+      "36877351",
+      "40148032",
+      "31018586",
+      "30546055",
+      "28820389",
+      "27826640",
+      "27589805",
+      "32748155",
+      "35349740",
+      "30570758",
+      "34173335",
+      "39468616",
+      "38606782",
+      "32206112",
+      "29305295",
+      "35064256",
+      "39521692",
+      "38538573",
+      "40100056",
+      "25266986",
+      "36709077",
+      "39123485",
+      "39047607",
+      "37608027",
+      "28964625",
+      "39641583",
+      "38700015",
+      "28035075",
+      "38599470",
+      "39931781",
+      "35119068",
+      "29749524",
+      "29325286",
+      "32981290",
+      "31262852",
+      "39592955",
+      "32145593",
+      "40014178",
+      "18955139",
+      "37211598",
+      "36052554",
+      "34409639",
+      "38806345"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11030-024-11009-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3877",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

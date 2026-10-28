@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39142001",
+  "title": "Exploration of the shared diagnostic genes and mechanisms between periodontitis and primary Sjogren's syndrome by integrated comprehensive bioinformatics analysis and machine learning.",
+  "authors": "Wang, Shaoru; Wang, Qimin; Zhao, Kai; Zhang, Shengchao; Chen, Zhenggang",
+  "journal": "International immunopharmacology",
+  "published_date": "2024-08-15",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用生物信息学与机器学习筛选牙周炎和干燥综合征的共享诊断基因，虽涉及转录因子调控网络，但核心是疾病标志物而非蛋白质-DNA互作建模，方法无AI/物理模拟深度。",
+  "abstract": "BACKGROUND: Accumulating evidence has showed a bidirectional link between periodontitis (PD) and primary Sjogren's syndrome (pSS), but the mechanisms of their occurrence remain unclear. Hence, this study aimed to investigate the shared diagnostic genes and potential mechanisms between PD and pSS using bioinformatics methods. METHODS: Gene expression data for PD and pSS were acquired from the Gene Expression Omnibus (GEO) database. Differential expression genes (DEGs) analysis and weighted gene co-expression network analysis (WGCNA) were utilized to search common genes. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis were conducted to explore biological functions. Three machine learning algorithms (least absolute shrinkage and selection operator (LASSO), support vector machine recursive feature elimination (SVM-RFE), and random forest (RF)) were used to further identify shared diagnostic genes, and these genes were assessed via receiver operating characteristic (ROC) curves in discovery and validation datasets. CIBERSORT was employed for immune cell infiltration analysis. Transcription factors (TFs)-genes and miRNAs-genes regulatory networks were conducted by NetworkAnalyst. Finally, relevant drug targets were predicted by DSigDB. RESULTS: Based on DEGs, 173 overlapping genes were obtained and primarily enriched in immune- and inflammation-related pathways. WGCNA revealed 34 common disease-related genes, which were enriched in similar biological pathways. Intersecting the DEGs with WGCNA results yielded 22 candidate genes. Moreover, three machine learning algorithms identified three shared genes (CSF2RB, CXCR4, and LYN) between PD and pSS, and these genes demonstrated good diagnostic performance (AUC>0.85) in both discovery and validation datasets. The immune cell infiltration analysis showed significant dysregulation in several immune cell populations. Regulatory network analysis highlighted that WRNIP1 and has-mir-155-5p might be pivotal co-regulators of the three shared gene expressions. Finally, the top 10 potential gene-targeted drugs were screened. CONCLUSION: CSF2RB, CXCR4, and LYN may serve as potential biomarkers for the concurrent diagnosis of PD and pSS. Additionally, we identified common molecular mechanisms, TFs, miRNAs, and candidate drugs between PD and pSS, which may provide novel insights and targets for future research on the pathogenesis, diagnosis, and therapy of both diseases.",
+  "abstract_zh": "背景：越来越多的证据表明牙周炎（PD）与原发性干燥综合征（pSS）之间存在双向关联，但其发生机制尚不清楚。因此，本研究旨在利用生物信息学方法探讨PD与pSS之间的共享诊断基因及潜在机制。方法：从基因表达综合（GEO）数据库获取PD和pSS的基因表达数据。采用差异表达基因（DEGs）分析和加权基因共表达网络分析（WGCNA）寻找共同基因。进行基因本体论（GO）和京都基因与基因组百科全书（KEGG）富集分析以探索生物学功能。使用三种机器学习算法（最小绝对收缩和选择算子（LASSO）、支持向量机递归特征消除（SVM-RFE）和随机森林（RF））进一步识别共享诊断基因，并通过受试者工作特征（ROC）曲线在发现和验证数据集中评估这些基因。采用CIBERSORT进行免疫细胞浸润分析。通过NetworkAnalyst构建转录因子（TFs）-基因和miRNAs-基因调控网络。最后，通过DSigDB预测相关药物靶点。结果：基于DEGs，获得173个重叠基因，主要富集于免疫和炎症相关通路。WGCNA揭示34个共同疾病相关基因，富集于相似的生物学通路。将DEGs与WGCNA结果相交，获得22个候选基因。此外，三种机器学习算法识别出PD和pSS之间的三个共享基因（CSF2RB、CXCR4和LYN），这些基因在发现和验证数据集中均表现出良好的诊断性能（AUC>0.85）。免疫细胞浸润分析显示多个免疫细胞群体存在显著失调。调控网络分析强调WRNIP1和has-mir-155-5p可能是三个共享基因表达的关键共同调控因子。最后，筛选出前10个潜在基因靶向药物。结论：CSF2RB、CXCR4和LYN可能作为PD和pSS并发诊断的潜在生物标志物。此外，我们识别了PD和pSS之间的共同分子机制、TFs、miRNAs和候选药物，这可能为两种疾病的发病机制、诊断和治疗的未来研究提供新的见解和靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39142001/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39142001/",
+  "paper_page_path": "papers/pubmed/39142001/index.html"
+}

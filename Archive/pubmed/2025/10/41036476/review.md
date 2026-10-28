@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and conceptual claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The manuscript reviews how 3D genome architecture, including compartments, TADs, and chromatin loops, dynamically reorganizes during stem cell lineage commitment, and argues that integrating spatial genomics with epigenetic marks, phase-separated transcriptional condensates, AI modeling, and genome editing tools can move the field from descriptive structural mapping toward precision regulation and therapeutic applications.
+- **Visible evidence base** The manuscript is a narrative review. It cites published literature throughout, but no primary experimental data, figures, or supplementary materials were provided for evaluation. Figures are referenced but not included.
+- **Missing materials affecting confidence** Figures 1 through 5 are referenced but not provided. The reference list is not included. No primary data, analysis scripts, or supplementary information were supplied. The full text appears to be present, but the absence of figures and references limits verification of specific claims.
+
+## Reviewer
+- **Overall assessment** This is a broad, well-structured narrative review covering the role of 3D genome organization in stem cell fate decisions. The authors synthesize a large body of literature across chromatin compartments, TADs, loops, phase separation, single-cell technologies, AI modeling, and therapeutic applications. The writing is generally clear and accessible. However, the manuscript is largely descriptive and does not offer a critical or synthetic framework that would distinguish it from existing reviews in this crowded field. Several claims are made without sufficient nuance or with overgeneralized statements, and the absence of figures and references prevents full verification. The review would benefit from a sharper thesis, a more balanced treatment of evidence and controversy, and clearer articulation of what is new relative to prior reviews.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, epigenetics, stem cell biology, and computational genomics would find this review useful as an entry point into the field. Clinicians and translational scientists interested in regenerative medicine and epigenetic therapies may also find the later sections relevant. The review is pitched at a level accessible to graduate students and non-specialists seeking an overview of how 3D genome architecture relates to cell fate.
+- **Major strengths** The manuscript covers a wide range of relevant topics in a logical progression from structure to function to application. The inclusion of phase separation and transcriptional condensates adds a modern perspective. The discussion of single-cell technologies and AI-based modeling reflects current trends. The authors make an effort to connect basic mechanistic insights to translational opportunities, which broadens the appeal. The writing is fluent and generally easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and added value
+  - **Claim pointer** The manuscript claims to provide a comprehensive and novel synthesis of 3D genome architecture in stem cell lineage commitment, moving from structural organization to precision regulation.
+  - **Evidence pointer** Entire manuscript, location not provided
+  - **Concern** The review does not clearly articulate what is new or distinct relative to existing reviews on 3D genome organization and stem cell differentiation. The topics covered, including compartments, TADs, loops, CTCF, cohesin, phase separation, and single-cell Hi-C, are well established in the literature. The manuscript reads as a summary of known concepts rather than a critical synthesis that offers new perspectives, frameworks, or unresolved questions in a novel way.
+  - **Why it matters** For a review to be valuable in a competitive field, it must offer a unique angle, a critical evaluation of evidence, or a forward-looking framework. Without this, the manuscript risks duplicating existing reviews and providing limited added value to specialists.
+  - **Resolution test** The authors should explicitly state what is novel about their synthesis, for example by comparing and contrasting with prior reviews, identifying conceptual gaps, or proposing a new integrative model. A revised introduction and discussion should make the unique contribution clear.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and support of claims
+  - **Claim pointer** The manuscript makes specific claims about the roles of compartments, TADs, loops, and phase-separated condensates in stem cell differentiation, and about the capabilities of AI models and genome editing tools.
+  - **Evidence pointer** Sections on "Spatial Genome Architecture in Pluripotency and Lineage Commitment," "Current Challenges and Unresolved Questions," and "Future Directions," location not provided
+  - **Concern** Many claims are stated as established fact without acknowledging the ongoing debate, contradictory evidence, or limitations in the underlying studies. For example, the functional significance of TADs and the extent to which phase separation drives transcription are actively debated. The manuscript also makes strong statements about AI models and their predictive power without discussing validation challenges or failure modes. The absence of specific citations in the provided text makes it impossible to assess whether the claims are accurately attributed.
+  - **Why it matters** A review that presents contested topics as settled can mislead readers, especially non-specialists. Scientific rigor requires acknowledging uncertainty and presenting a balanced view of the evidence.
+  - **Resolution test** The authors should revise the text to include caveats, mention contradictory findings, and clearly distinguish between well-established mechanisms and hypotheses. Specific citations should be added to support each major claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and verifiability
+  - **Claim pointer** The manuscript references specific technologies, findings, and examples, such as the Sox9-Kcnj2 TAD boundary, GATA1 super-enhancer clusters, and various AI models.
+  - **Evidence pointer** Throughout the manuscript, location not provided
+  - **Concern** The reference list is not provided, and figures are not included. This makes it impossible to verify the accuracy of specific claims, the context of cited findings, or the interpretation of data. For a review, accurate citation is essential.
+  - **Why it matters** Readers must be able to trace claims to primary sources. Without references and figures, the manuscript cannot be properly evaluated or used as a reliable resource.
+  - **Resolution test** The authors must provide the complete reference list and all figures. Each factual claim should be linked to a specific reference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability and structure
+  - **Claim pointer** The manuscript aims to be accessible to a broad audience, including non-specialists.
+  - **Evidence pointer** Entire manuscript, location not provided
+  - **Concern** Some sections are dense and list-like, particularly the "Future Directions" section, which enumerates technologies and tools without sufficient explanation of how they connect to the central thesis. The transition from descriptive review to forward-looking vision is abrupt in places. The abstract is overly broad and does not clearly state the scope or main message of the review.
+  - **Why it matters** A review should guide the reader through the material with a clear narrative. Dense, list-like sections reduce readability and obscure the main arguments.
+  - **Resolution test** The authors should streamline the "Future Directions" section, ensuring each technology or tool is tied back to the central question of how 3D genome architecture regulates stem cell fate. The abstract should be revised to state the specific scope and key message.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is a general summary that does not clearly indicate the scope, structure, or specific focus of the review. It reads more like an introduction to the field than a summary of the manuscript's content.
+  - **Required correction** Revise the abstract to state the specific topics covered, the main argument, and the intended take-home message.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section "Engineered Intervention Strategies"
+  - **Evidence pointer** Section "Engineered Intervention Strategies," location not provided
+  - **Issue** The term "Engineered Intervention Strategies" is used as a heading, but the section includes both genome editing tools and sequencing technologies. The heading may be too narrow or misleading for the content covered.
+  - **Required correction** Consider renaming the section to better reflect its content, such as "Technological and Genome-Editing Tools for Intervention."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section "Current Challenges and Unresolved Questions"
+  - **Evidence pointer** Section "Current Challenges and Unresolved Questions," location not provided
+  - **Issue** The section on "Heterogeneity and Reversibility" overlaps with the earlier discussion of single-cell technologies and could be more tightly integrated. Some points are repeated across sections.
+  - **Required correction** Streamline the text to avoid redundancy and ensure each section has a distinct focus.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Precision of language
+  - **Affected element** Section "Translational Potential in Clinical Applications"
+  - **Evidence pointer** Section "Translational Potential in Clinical Applications," location not provided
+  - **Issue** Some statements in this section are speculative and not clearly framed as such, for example the potential for developing diagnostic tools based on chromatin interaction markers.
+  - **Required correction** Clearly distinguish between established applications and speculative or emerging possibilities, using appropriate hedging language.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Functional Crosstalk with Epigenetic Modifications"
+  - **Evidence pointer** Section "Functional Crosstalk with Epigenetic Modifications," location not provided
+  - **Issue** The discussion of crosstalk between 3D genome structure and epigenetic modifications is brief and could benefit from more specific examples or a more detailed mechanistic discussion.
+  - **Required correction** Expand this section with additional examples or a more detailed explanation of the bidirectional relationship.
+
+## Risk / unsupported claims
+- The claim that AI-driven models enhance target discovery efficiency by three to fivefold is presented without specific context or citation, making it unverifiable.
+- The statement that "recent advances continue to push the field forward" is vague and not supported by specific examples in the provided text.
+- The claim that phase-separated transcriptional condensates are "essential regulators" of gene expression during cell fate transitions is presented as established fact, whereas this remains an actively debated area.
+- The assertion that integrating Hi-C data with DepMap gene effect scores can identify context-specific vulnerabilities is presented as a demonstrated approach, but the specific example given (HOXA9 in AML) is not cited and its validity cannot be assessed.
+- The statement that "recent studies propose that, beyond static structural partitioning, the 3D genome hosts dynamic transcriptional condensates" is appropriately hedged, but the subsequent discussion treats this as more established than the literature currently supports.
+- The claim that "engineered interventions such as CRISPR-based spatial genome editing hold great promise" is forward-looking and speculative, which is acceptable in a review, but it should be clearly framed as a vision rather than an established capability.

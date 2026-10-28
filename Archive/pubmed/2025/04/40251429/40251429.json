@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "40251429",
+    "doi": "10.1038/s10038-025-01341-1",
+    "title": "A random forest-based predictive model for classifying BRCA1 missense variants: a novel approach for evaluating the missense mutations effect."
+  },
+  "content": {
+    "abstract": "The right classification of variants is the key to pre-symptomatic detection of disease and conducting preventive actions. Since BRCA1 has a high incidence and penetrance in breast and ovarian cancers, a high-performance predictive tool can be employed to classify the clinical significance of its variants. Several tools have previously been developed for this purpose which poorly classify the significance in specific cases. The proposed tools commonly assign a score without providing any interpretation behind it. To reach an accurate predictive tool with interpretation abilities, in this study, we propose BRCA1-Forest which works based on random forest as a well-known machine learning technique for making interpretable decisions with high specificity and sensitivity in variants classification. The method involves narrowing down available options until reaching the final decision. To this end, a set of BRCA1 benign and pathogenic missense variants was collected first, and then, the dataset was prepared based on the effect of each variant on the protein sequence. The dataset was enriched by adding physicochemical changes and the conservation score of the amino acid position as pathogenicity criteria. The proposed model was trained based on the dataset to classify the clinical significance of variants. The performance of BRCA1-Forest was compared to four state-of-the-art methods, SIFT, PolyPhen2, CADD, and DANN, in terms of different evaluation metrics including precision, recall, false positive rate (FPR), the area under the receiver operator curve (AUC ROC), the area under the precision-recall curve (AUC-PR), and Mathew correlation coefficient (MCC). The results reveal that the proposed model outperforms the abovementioned tools in all metrics except for recall. The software of BRCA1-Forest is available at https://github.com/HamedKAAC/BRCA1Forest .",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation, Missense/genetics",
+      "*BRCA1 Protein/genetics",
+      "Female",
+      "*Breast Neoplasms/genetics",
+      "Machine Learning",
+      "*Ovarian Neoplasms/genetics",
+      "Genetic Predisposition to Disease",
+      "Computational Biology/methods",
+      "ROC Curve",
+      "Random Forest"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ka, Hamed",
+        "Naghinejad, Maryam",
+        "Amirfiroozy, Akbar",
+        "Shamsir, Mohd Shahir",
+        "Parvizpour, Sepideh",
+        "Razmara, Jafar"
+      ],
+      "short_names": [
+        "Ka H",
+        "Naghinejad M",
+        "Amirfiroozy A",
+        "Shamsir MS",
+        "Parvizpour S",
+        "Razmara J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6320-8517"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Faculty of Mathematics, Statistics, and Computer Science, University of Tabriz, Tabriz, Iran.",
+        "Department of Medical Genetics, Faculty of Medicine, Tabriz University of Medical Sciences, Tabriz, Iran.",
+        "Department of Medical Genetics, Faculty of Medicine, Tabriz University of Medical Sciences, Tabriz, Iran.",
+        "Bioinformatics Research Group, Faculty of Science, Universiti Teknologi Malaysia, Johor Bahru, Malaysia.",
+        "Research Center for Pharmaceutical Nanotechnology, Biomedicine Institute, Tabriz University of Medical Sciences, Tabriz, Iran.",
+        "Department of Computer Science, Faculty of Mathematics, Statistics, and Computer Science, University of Tabriz, Tabriz, Iran. razmara@tabrizu.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ka, Hamed",
+        "short_name": "Ka H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Faculty of Mathematics, Statistics, and Computer Science, University of Tabriz, Tabriz, Iran."
+        ]
+      },
+      {
+        "full_name": "Naghinejad, Maryam",
+        "short_name": "Naghinejad M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, Faculty of Medicine, Tabriz University of Medical Sciences, Tabriz, Iran."
+        ]
+      },
+      {
+        "full_name": "Amirfiroozy, Akbar",
+        "short_name": "Amirfiroozy A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, Faculty of Medicine, Tabriz University of Medical Sciences, Tabriz, Iran."
+        ]
+      },
+      {
+        "full_name": "Shamsir, Mohd Shahir",
+        "short_name": "Shamsir MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Research Group, Faculty of Science, Universiti Teknologi Malaysia, Johor Bahru, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Parvizpour, Sepideh",
+        "short_name": "Parvizpour S",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Pharmaceutical Nanotechnology, Biomedicine Institute, Tabriz University of Medical Sciences, Tabriz, Iran."
+        ]
+      },
+      {
+        "full_name": "Razmara, Jafar",
+        "short_name": "Razmara J",
+        "identifiers": [
+          "0000-0002-6320-8517"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Faculty of Mathematics, Statistics, and Computer Science, University of Tabriz, Tabriz, Iran. razmara@tabrizu.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of human genetics"
+    ],
+    "journal_abbrev": [
+      "J Hum Genet"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/19 00:56",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35794153",
+      "34440832",
+      "34063805",
+      "33597508",
+      "32795534",
+      "32313206",
+      "32198463",
+      "31911673",
+      "31669277",
+      "31388036",
+      "31337537",
+      "31219644",
+      "31119042",
+      "30376034",
+      "29184171",
+      "28938088",
+      "28884485",
+      "28632866",
+      "27145881",
+      "26582918",
+      "25896959",
+      "25741868",
+      "25338716",
+      "25165599",
+      "24487276",
+      "20354512",
+      "19602639",
+      "19369211",
+      "18518824",
+      "16522651",
+      "15405679",
+      "12890688",
+      "12824425",
+      "12183412",
+      "11179017",
+      "9699640",
+      "8692877",
+      "1438297"
+    ],
+    "similar": [
+      "40251429",
+      "29580235",
+      "22684231",
+      "28807866",
+      "25643705",
+      "29884841",
+      "35729312",
+      "33937409",
+      "38910474",
+      "37335020",
+      "30458859",
+      "40233743",
+      "34045478",
+      "31907386",
+      "31911673",
+      "41475884",
+      "40397311",
+      "35409408",
+      "38802532",
+      "40931232",
+      "31112341",
+      "29996917",
+      "37578980",
+      "30105462",
+      "33087888",
+      "32546644",
+      "34207612",
+      "29215753",
+      "39761285",
+      "15689452",
+      "19200354",
+      "23867111",
+      "16014699",
+      "11157798",
+      "36358902",
+      "39096911",
+      "31336956",
+      "31294896",
+      "17279547",
+      "12215251",
+      "31131967",
+      "39440667",
+      "34750410",
+      "31144781",
+      "19543972",
+      "40829598",
+      "15235020",
+      "39256852",
+      "20737206",
+      "15172985",
+      "31409081",
+      "36833189",
+      "30765603",
+      "27272900",
+      "35659930",
+      "21356067",
+      "30219179",
+      "39194334",
+      "34597585",
+      "25724305",
+      "31769492",
+      "21965345",
+      "27577208",
+      "22889855",
+      "31825140",
+      "18992264",
+      "23704879",
+      "23819521",
+      "32180084",
+      "24700448",
+      "28477318",
+      "33106425",
+      "27495310",
+      "28866612",
+      "23819870",
+      "12827452",
+      "21318380",
+      "38860553",
+      "20516115",
+      "26913838",
+      "12872252",
+      "21447777",
+      "29297111",
+      "15923272",
+      "15350310",
+      "41383239",
+      "16875939",
+      "27616075",
+      "34906479",
+      "28277317",
+      "24728577",
+      "40257527",
+      "32483276",
+      "34981296",
+      "18680205",
+      "33428613",
+      "16847550",
+      "29302806",
+      "27357839",
+      "30725392"
+    ],
+    "review": [
+      "40251429",
+      "31409081",
+      "31825140",
+      "28866612"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

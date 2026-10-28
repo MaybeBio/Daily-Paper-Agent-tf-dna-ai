@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "42002905",
+    "doi": "10.1507/endocrj.EJ25-0648",
+    "title": "ZFP36-ferroptosis axis as a key renal protective pathway in diabetic kidney disease."
+  },
+  "content": {
+    "abstract": "Diabetic Kidney Disease (DKD) is strongly related to ferroptosis, an iron-dependent form of programmed cell death characterized by the accumulation of lipid peroxides. While ferroptosis is a pivotal mediator in DKD pathogenesis, its upstream regulatory mechanism remains poorly defined, thus impeding the development of targeted therapeutic strategies. In this study, by integrating multi-omics clinical data (GSE96804 and GSE104954) and combining machine learning algorithms, the RNA-binding protein ZFP36 was screened out as the core regulatory factor of ferroptosis in DKD. The results revealed that the expression level of ZFP36 in the DKD group was significantly lower than that in the normal group. Functional experiments demonstrated that overexpression of ZFP36 could significantly alleviate lipid peroxidation, iron ion accumulation, and cellular fibrosis, thereby inhibiting ferroptosis and alleviating kidney damage. Transcriptome analysis further revealed that ZFP36 regulated key genes related to oxidative stress and iron metabolism. Additionally, molecular docking simulations revealed strong binding affinity between ZFP36 and bioactive natural products such as berberine and astragalus, providing a potential mechanism for its renal protective effect. Overall, ZFP36 was hereby established as an important inhibitor of ferroptosis in DKD, highlighting its potential as both a biomarker and a therapeutic target for its precision diagnosis and intervention.",
+    "keywords": [
+      "Biomarker",
+      "Diabetic kidney disease",
+      "Ferroptosis",
+      "Targeted therapy",
+      "ZFP36"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics/physiology/drug effects",
+      "*Diabetic Nephropathies/metabolism/genetics/pathology",
+      "*Tristetraprolin/metabolism/genetics",
+      "Humans",
+      "Oxidative Stress/genetics",
+      "Lipid Peroxidation/genetics",
+      "Molecular Docking Simulation",
+      "*Kidney/metabolism/pathology",
+      "Iron/metabolism",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Anni",
+        "Ye, Yuxuan",
+        "Cao, Huimin",
+        "Hu, Jiawei",
+        "Shi, Min",
+        "Zhang, Juan",
+        "Zhang, Yiyuan",
+        "Liu, Yuting",
+        "Gu, Bixia",
+        "Zhang, Hong"
+      ],
+      "short_names": [
+        "Li A",
+        "Ye Y",
+        "Cao H",
+        "Hu J",
+        "Shi M",
+        "Zhang J",
+        "Zhang Y",
+        "Liu Y",
+        "Gu B",
+        "Zhang H"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-6273-4419",
+        "ORCID: 0009-0009-1382-9831"
+      ],
+      "affiliations": [
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China.",
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China.",
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China.",
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China.",
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China.",
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China.",
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China.",
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China.",
+        "Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing 210004, China.",
+        "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Anni",
+        "short_name": "Li A",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Yuxuan",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Huimin",
+        "short_name": "Cao H",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jiawei",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Min",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Juan",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yiyuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuting",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Bixia",
+        "short_name": "Gu B",
+        "identifiers": [
+          "0009-0001-6273-4419"
+        ],
+        "affiliations": [
+          "Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing 210004, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0009-0009-1382-9831"
+        ],
+        "affiliations": [
+          "The Affiliated Huai'an No. 1 People's Hospital of Nanjing Medical University, Huai'an 223300, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine journal"
+    ],
+    "journal_abbrev": [
+      "Endocr J"
+    ],
+    "pub_date": "2026 Aug 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/20 13:10",
+    "fetched_at": "2026-10-01 19:03:47"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39881208",
+      "39806549",
+      "39353481",
+      "39201721",
+      "39117638",
+      "38871674",
+      "38366593",
+      "38145959",
+      "37735472",
+      "37633882",
+      "37542052",
+      "37455912",
+      "37324941",
+      "37101021",
+      "37001616",
+      "36828120",
+      "36613888",
+      "36470394",
+      "36427568",
+      "36269839",
+      "35989335",
+      "35661785",
+      "35326421",
+      "34979769",
+      "34914852",
+      "34896479",
+      "34879977",
+      "34583624",
+      "34385713",
+      "34258295",
+      "34162834",
+      "34092035",
+      "33779497",
+      "33495651",
+      "33190588",
+      "32998798",
+      "32398868",
+      "32363639",
+      "32160513",
+      "31876542",
+      "31610178",
+      "31273299",
+      "30894700",
+      "30826889",
+      "29475133",
+      "28522654",
+      "27579659",
+      "21261520",
+      "18493227"
+    ],
+    "similar": [
+      "42002905",
+      "38972525",
+      "40166850",
+      "41945160",
+      "39137626",
+      "40414576",
+      "41389885",
+      "39490713",
+      "38678670",
+      "39746795",
+      "40043828",
+      "41713080",
+      "41425591",
+      "40425285",
+      "40172091",
+      "42456907",
+      "40532799",
+      "41740333",
+      "41914830",
+      "40722167",
+      "41936633",
+      "37324941",
+      "41075516",
+      "42494277",
+      "40000392",
+      "36466094",
+      "42602622",
+      "37690659",
+      "41264843",
+      "41690038",
+      "41767403",
+      "42107160",
+      "42526578",
+      "31679460",
+      "40536069",
+      "36581059",
+      "41083062",
+      "42186424",
+      "41861539",
+      "39960657",
+      "41857149",
+      "41071444",
+      "42167448",
+      "42216164",
+      "41874449",
+      "38952291",
+      "40092979",
+      "41968458",
+      "40618318",
+      "40016517",
+      "40615901",
+      "41925798",
+      "38643193",
+      "40151083",
+      "41643264",
+      "42289390",
+      "41856074",
+      "39630101",
+      "42565568",
+      "41765113",
+      "40828784",
+      "40273899",
+      "41105249",
+      "40233506",
+      "38428828",
+      "37564215",
+      "40690089",
+      "42159303",
+      "41046974",
+      "41544688",
+      "40702453",
+      "40319746",
+      "41315089",
+      "40543833",
+      "41814794",
+      "38512446",
+      "41878449",
+      "40334339",
+      "41314455",
+      "42229624",
+      "40881129",
+      "40329437",
+      "38111578",
+      "37552124",
+      "38403669",
+      "41484743",
+      "39723566",
+      "40907404",
+      "38198194",
+      "40820457",
+      "41634735",
+      "42196240",
+      "41854751",
+      "36246888",
+      "42057440",
+      "39426490",
+      "39602247",
+      "42013986",
+      "40835195",
+      "38286833"
+    ],
+    "review": [
+      "42002905",
+      "40166850",
+      "41425591",
+      "37324941",
+      "41071444",
+      "42216164",
+      "40092979",
+      "40828784",
+      "40273899",
+      "37564215",
+      "40881129",
+      "40329437",
+      "38111578",
+      "41854751",
+      "36246888"
+    ],
+    "pmc": [
+      "13478692"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1507/endocrj.EJ25-0648",
+        "provider": "J-STAGE, Japan Science and Technology Information Aggregator, Electronic",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42002905/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medicalonline.jp/meteo_linkout.php?issn=0918-8959&volume=73&issue=8&spage=923",
+        "provider": "Medical Online, Meteo Inc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.12.607687",
+  "title": "DeepAge: Harnessing Deep Neural Network for Epigenetic Age Estimation From DNA Methylation Data of human blood samples",
+  "doi": "10.1101/2024.08.12.607687",
+  "abstract": "Accurate prediction of biological age from DNA methylation data is a critical endeavor in understanding the molecular mechanisms of aging and developing age-related disease interventions. Traditional epigenetic clocks rely on linear regression or basic machine learning models, which often fail to capture the complex, non-linear interactions within methylation data. This study introduces DeepAge, a novel deep learning framework utilizing Temporal Convolutional Networks (TCNs) to enhance the prediction of biological age from DNA methylation profiles using selected CpGs by a Dual-Correlation based apparoach. DeepAge leverages a sequence-based approach with dilated convolutions to effectively capture long-range dependencies between CpG sites, addressing the limitations of prior models by incorporating advanced network architectures including residual connections and dropout regularization. The dual correlation feature selection enhances our model’s predictive capabilities by identifying the most age-relevant CpG sites. Our model outperforms existing epigenetic clocks across multiple datasets, offering significant improvements in accuracy and providing deeper insights into the epigenetic determinants of aging. The proposed method not only sets a new standard in age estimation but also highlights the potential of deep learning in biologically relevant feature extraction and interpretation, contributing to the broader field of computational biology and precision medicine.",
+  "authors": [
+    "Sajib Acharjee Dip",
+    "Da Ma",
+    "Liqing Zhang"
+  ],
+  "published_date": "2024-08-15",
+  "updated_date": "2024-08-15T20:00:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.12.607687",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.12.607687.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T22:07:09Z",
+        "timestamp": 1768514829821,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            15
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 26,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                15
+              ]
+            ],
+            "date-time": "2024-08-15T00:00:00Z",
+            "timestamp": 1723680000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Accurate prediction of biological age from DNA methylation data is a critical endeavor in understanding the molecular mechanisms of aging and developing age-related disease interventions. Traditional epigenetic clocks rely on linear regression or basic machine learning models, which often fail to capture the complex, non-linear interactions within methylation data. This study introduces DeepAge, a novel deep learning framework utilizing Temporal Convolutional Networks (TCNs) to enhance the prediction of biological age from DNA methylation profiles using selected CpGs by a Dual-Correlation based apparoach. DeepAge leverages a sequence-based approach with dilated convolutions to effectively capture long-range dependencies between CpG sites, addressing the limitations of prior models by incorporating advanced network architectures including residual connections and dropout regularization. The dual correlation feature selection enhances our model’s predictive capabilities by identifying the most age-relevant CpG sites. Our model outperforms existing epigenetic clocks across multiple datasets, offering significant improvements in accuracy and providing deeper insights into the epigenetic determinants of aging. The proposed method not only sets a new standard in age estimation but also highlights the potential of deep learning in biologically relevant feature extraction and interpretation, contributing to the broader field of computational biology and precision medicine.</jats:p>",
+      "DOI": "10.1101/2024.08.12.607687",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            15
+          ]
+        ],
+        "date-time": "2024-08-15T20:00:10Z",
+        "timestamp": 1723752010000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DeepAge: Harnessing Deep Neural Network for Epigenetic Age Estimation From DNA Methylation Data of human blood samples"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-0959-2638",
+          "authenticated-orcid": false,
+          "given": "Sajib Acharjee",
+          "family": "Dip",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Da",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Liqing",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.1",
+          "article-title": "Deep learning using rectified linear units (relu)",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.73420"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1023/A:1010933404324",
+          "article-title": "Random forests",
+          "volume": "45",
+          "year": "2001",
+          "journal-title": "Machine learning"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, T. ; and Guestrin, C. 2016. Xgboost: A scalable tree boosting system. In Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining, 785–794.",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/met0000079"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.1.207"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Graves, A. ; and Graves, A. 2012. Long short-term memory. Supervised sequence labelling with recurrent neural networks, 37–45.",
+          "DOI": "10.1007/978-3-642-24797-2_4"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2012.10.016"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, K. ; Zhang, X. ; Ren, S. ; and Sun, J. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, 770–778.",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2013-14-1-r1"
+        },
+        {
+          "issue": "7",
+          "key": "2024081821250771000_2024.08.12.607687v1.11",
+          "first-page": "1758",
+          "article-title": "Epigenetic clock for skin and blood cells applied to Hutchinson Gilford Progeria Syndrome and ex vivo studies",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Aging (Albany NY)"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lea, C. ; Vidal, R. ; Reiter, A. ; and Hager, G. D. 2016. Temporal convolutional networks: A unified approach to action segmentation. In Computer Vision–ECCV 2016 Workshops: Amsterdam, The Netherlands, October 8-10 and 15-16, 2016, Proceedings, Part III 14, 47–54. Springer.",
+          "DOI": "10.1007/978-3-319-49409-8_7"
+        },
+        {
+          "issue": "4",
+          "key": "2024081821250771000_2024.08.12.607687v1.13",
+          "first-page": "573",
+          "article-title": "An epigenetic biomarker of aging for lifespan and healthspan",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Aging (albany NY)"
+        },
+        {
+          "issue": "3",
+          "key": "2024081821250771000_2024.08.12.607687v1.14",
+          "first-page": "1393",
+          "article-title": "Age prediction by DNA methylation in neural networks",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "issue": "2",
+          "key": "2024081821250771000_2024.08.12.607687v1.15",
+          "first-page": "394",
+          "article-title": "DNA methylation levels at individual age-associated CpG sites can be indicative for life expectancy",
+          "volume": "8",
+          "year": "2016",
+          "journal-title": "Aging (Albany NY)"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.16",
+          "article-title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.17",
+          "article-title": "An introduction to convolutional neural networks",
+          "year": "2015",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.18",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in Python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "Journal of machine learning research"
+        },
+        {
+          "issue": "1",
+          "key": "2024081821250771000_2024.08.12.607687v1.19",
+          "first-page": "1929",
+          "article-title": "Dropout: a simple way to prevent neural networks from overfitting",
+          "volume": "15",
+          "year": "2014",
+          "journal-title": "The journal of machine learning research"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.20",
+          "unstructured": "Van der Maaten, L. ; and Hinton, G. 2008. Visualizing data using t-SNE. Journal of machine learning research, 9(11)."
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Varshavsky, M. ; Harari, G. ; Glaser, B. ; Dor, Y. ; Shemer, R. ; and Kaplan, T. 2023. Accurate age prediction from blood using a small set of DNA methylation sites and a cohort-based machine learning algorithm. Cell Reports Methods, 3(9).",
+          "DOI": "10.1016/j.crmeth.2023.100567"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.22",
+          "unstructured": "Vaswani, A. ; Shazeer, N. ; Parmar, N. ; Uszkoreit, J. ; Jones, L. ; Gomez, A. N. ; Kaiser, Ł. ; and Polosukhin, I. 2017. Attention is all you need. Advances in neural information processing systems, 30."
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, H. ; Cai, R. ; Zong, X. ; He, Z. ; and Zhang, L. 2023. MSCAP: DNA Methylation Age Predictor based on Multiscale Convolutional Neural Network. In 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 3582–3586. IEEE.",
+          "DOI": "10.1109/BIBM58861.2023.10385524"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.24",
+          "unstructured": "Ying, K. ; Paulson, S. ; Perez-Guevara, M. ; Emamifar, M. ; Martínez, M. C. ; Kwon, D. ; Poganik, J. R. ; Moqri, M. ; and Gladyshev, V. N. 2023. Biolearn, an open-source library for biomarkers of aging. bioRxiv, 2023–12."
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.25",
+          "article-title": "Multi-scale context aggregation by dilated convolutions",
+          "year": "2015",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024081821250771000_2024.08.12.607687v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1393856",
+          "DOI": "10.3389/fgene.2024.1393856",
+          "article-title": "A multi-organization epigenetic age prediction based on a channel attention perceptron networks",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Frontiers in Genetics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.08.12.607687",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:51:55Z",
+        "timestamp": 1768459915000
+      },
+      "score": 94.57074,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.08.12.607687"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            15
+          ]
+        ]
+      },
+      "references-count": 26,
+      "URL": "https://doi.org/10.1101/2024.08.12.607687",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1609/aaaiss.v4i1.31801",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

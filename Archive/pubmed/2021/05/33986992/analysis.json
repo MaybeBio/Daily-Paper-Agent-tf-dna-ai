@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33986992",
+  "title": "Prediction of DNA binding proteins using local features and long-term dependencies with primary sequences based on deep learning.",
+  "authors": "Li, Guobin; Du, Xiuquan; Li, Xinlu; Zou, Le; Zhang, Guanhong; Wu, Zhize",
+  "journal": "PeerJ",
+  "published_date": "2021-05-15",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN和Bi-LSTM从序列预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅序列分类、无三维互作建模，方法可迁移但深度有限。",
+  "abstract": "DNA-binding proteins (DBPs) play pivotal roles in many biological functions such as alternative splicing, RNA editing, and methylation. Many traditional machine learning (ML) methods and deep learning (DL) methods have been proposed to predict DBPs. However, these methods either rely on manual feature extraction or fail to capture long-term dependencies in the DNA sequence. In this paper, we propose a method, called PDBP-Fusion, to identify DBPs based on the fusion of local features and long-term dependencies only from primary sequences. We utilize convolutional neural network (CNN) to learn local features and use bi-directional long-short term memory network (Bi-LSTM) to capture critical long-term dependencies in context. Besides, we perform feature extraction, model training, and model prediction simultaneously. The PDBP-Fusion approach can predict DBPs with 86.45% sensitivity, 79.13% specificity, 82.81% accuracy, and 0.661 MCC on the PDB14189 benchmark dataset. The MCC of our proposed methods has been increased by at least 9.1% compared to other advanced prediction models. Moreover, the PDBP-Fusion also gets superior performance and model robustness on the PDB2272 independent dataset. It demonstrates that the PDBP-Fusion can be used to predict DBPs from sequences accurately and effectively; the online server is at http://119.45.144.26:8080/PDBP-Fusion/.",
+  "abstract_zh": "DNA结合蛋白（DNA-binding proteins, DBPs）在多种生物功能中扮演关键角色，如选择性剪接、RNA编辑和甲基化。已有许多传统机器学习（machine learning, ML）方法和深度学习（deep learning, DL）方法被提出用于预测DBPs。然而，这些方法要么依赖手动特征提取，要么未能捕捉DNA序列中的长期依赖性。本文中，我们提出了一种名为PDBP-Fusion的方法，仅基于初级序列的局部特征与长期依赖性的融合来识别DBPs。我们利用卷积神经网络（convolutional neural network, CNN）学习局部特征，并使用双向长短期记忆网络（bi-directional long-short term memory network, Bi-LSTM）捕捉上下文中的关键长期依赖性。此外，我们同时进行特征提取、模型训练和模型预测。PDBP-Fusion方法在PDB14189基准数据集上预测DBPs时，实现了86.45%的敏感性、79.13%的特异性、82.81%的准确率和0.661的MCC。与其他先进预测模型相比，我们提出的方法的MCC至少提高了9.1%。此外，PDBP-Fusion在PDB2272独立数据集上也表现出优越的性能和模型鲁棒性。这表明PDBP-Fusion能够准确有效地从序列中预测DBPs；在线服务器位于http://119.45.144.26:8080/PDBP-Fusion/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33986992/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33986992/",
+  "paper_page_path": "papers/pubmed/33986992/index.html"
+}

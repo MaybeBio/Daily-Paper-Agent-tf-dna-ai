@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that, using high-density 3D single-molecule light-field microscopy and novel spatiotemporal analysis pipelines, they tracked SOX2 and NANOG dynamics in live naïve pluripotent cells. They claim that NANOG, despite lower abundance, has a similar chromatin-bound fraction to SOX2; that both TFs show transient non-specific binding (~0.5-0.7 s) but NANOG has more stable specific binding (~25 s vs ~16 s); that both form ~400 nm phase-separated domains containing both freely diffusing and chromatin-bound proteins; and that NANOG's protein-protein interaction domain increases chromatin residence time (>5-fold) and phase-separated domain size. They conclude that these mechanisms stabilise gene regulatory networks maintaining naïve pluripotency.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, statistical analyses, control experiments, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially impactful study on the differential spatiotemporal dynamics of two key pluripotency transcription factors. The combination of advanced single-molecule imaging with quantitative analysis is timely and could appeal to a broad readership in cell biology and biophysics. However, the abstract alone provides insufficient detail to evaluate the technical rigor, statistical robustness, or biological significance of the claims. Several quantitative statements lack necessary context, and the mechanistic conclusion regarding the protein-protein interaction domain is not supported by the evidence presented in the abstract. The work is promising but currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in stem cell biology, transcription factor dynamics, single-molecule imaging, and phase separation biology would be interested. The study addresses fundamental questions about how transcription factors achieve specificity and stability in gene regulatory networks, which is relevant to understanding pluripotency maintenance and potentially reprogramming. The methodological pipeline for quantifying spatiotemporal dynamics could also interest biophysicists and computational biologists.
+- **Major strengths** The study addresses a significant and unresolved question about the molecular mechanisms underlying differential dynamics of core versus auxiliary transcription factors. The use of high-density 3D single-molecule light-field microscopy in live cells is technically advanced and appropriate for the question. The abstract reports quantitative measurements of binding kinetics and domain sizes, suggesting a rigorous experimental approach. The finding that NANOG's protein-protein interaction domain modulates both residence time and phase-separated domain size provides a potentially unifying mechanistic insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NANOG displays a similar chromatin-bound fraction to SOX2" despite lower abundance
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that NANOG has a similar chromatin-bound fraction to SOX2 despite lower abundance, but no quantitative values, statistical comparisons, or normalization methods are provided. It is unclear how chromatin-bound fraction was defined and measured, and whether the comparison accounts for differences in expression levels, nuclear volume, or imaging detection efficiency.
+  - **Why it matters** This claim is foundational to the study's premise that NANOG compensates for lower abundance through altered binding dynamics. Without clear evidence of how the fraction was quantified and compared, the claim cannot be evaluated, and the subsequent mechanistic interpretation is weakened.
+  - **Resolution test** Provide the measured chromatin-bound fractions for both TFs with error bars and statistical tests, and describe the method for defining and normalizing the bound fraction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NANOG exhibits more stable specific binding (~25s vs ~16s)" and "frequent transient non-specific binding interactions (~0.5-0.7s)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The binding times are presented as single values without measures of variability, sample sizes, or statistical significance. The distinction between "specific" and "non-specific" binding is not operationally defined, and the criteria for classifying binding events are not described. The ~0.5-0.7 s range for non-specific binding appears to cover both TFs, but it is unclear whether this range represents a statistically significant difference or overlap.
+  - **Why it matters** The central conclusion that NANOG and SOX2 differ in specific binding stability depends on these measurements. Without statistical rigor and clear definitions, the reported differences could be within experimental noise or an artifact of the analysis pipeline.
+  - **Resolution test** Report mean and standard deviation or confidence intervals for each binding time, specify the number of cells and binding events analyzed, and describe the criteria for classifying specific versus non-specific binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NANOG's protein-protein interaction domain markedly increases chromatin residence time (>5-fold) and the size of these phase-separated domains"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract attributes a causal role to NANOG's protein-protein interaction domain, but no experimental details are provided. It is unclear whether this conclusion is based on mutant constructs, deletion analysis, or overexpression systems. The >5-fold increase is a strong quantitative claim that requires direct comparison with appropriate controls.
+  - **Why it matters** This is the key mechanistic claim of the study and likely the most novel contribution. If the evidence is not robust, the study's main conclusion is unsupported. The abstract does not indicate whether the effect is specific to NANOG or a general property of protein-protein interaction domains.
+  - **Resolution test** Describe the experimental approach used to manipulate the protein-protein interaction domain, provide quantitative comparisons with controls, and show that the effect is specific to this domain.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Our work uncovers how NANOG and SOX2 stabilise gene regulatory networks that maintain naïve pluripotency"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not connect the measured biophysical parameters to gene regulatory network stability or pluripotency maintenance. No functional assays, gene expression data, or perturbation experiments are mentioned that would link the observed dynamics to biological outcomes.
+  - **Why it matters** The stated significance of the work depends on this link. Without evidence that the observed differences in binding dynamics and phase separation affect target gene expression or pluripotency, the broader biological conclusion remains speculative.
+  - **Resolution test** Include functional data such as perturbation of NANOG or SOX2 dynamics and measurement of downstream gene expression or pluripotency markers.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "high-density 3D single-molecule light-field microscopy" and "phase-separated domains" are used without brief explanation, which may limit accessibility for readers outside biophysics or cell biology.
+  - **Required correction** Add a brief parenthetical explanation of the imaging technique and phase separation in the abstract or introduce these concepts more gradually.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Quantitative precision
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The binding times are reported with inconsistent precision (~0.5-0.7s, ~25s, ~16s), and the ~ symbol is used without indicating whether these are means, medians, or fitted values.
+  - **Required correction** Specify the statistic reported and use consistent precision across all binding time measurements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses exclusively on NANOG and SOX2 without mentioning whether the findings are specific to these factors or potentially generalizable to other transcription factors in pluripotent cells.
+  - **Required correction** Add a sentence addressing whether the observed mechanisms are likely specific to NANOG and SOX2 or represent a general principle.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to missing quantitative details, lack of statistical rigor, and insufficient experimental description for the central claims. R1-M4 is important for biological significance but is not strictly a technical failing.
+- **Assessment against Nature-style criteria** Originality: The study appears original in combining high-density 3D single-molecule imaging with quantitative analysis of two key transcription factors and linking binding dynamics to phase separation. Scientific importance: The question of how transcription factor dynamics differ and contribute to pluripotency is important, but the abstract does not yet demonstrate the biological impact. Interdisciplinary readership: The work bridges biophysics, cell biology, and stem cell biology, which could attract a broad audience, but the abstract may be too technical for nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the quantitative claims lack statistical detail and methodological description. Readability for nonspecialists: The abstract is dense and uses specialized terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The study has clear potential and addresses an important question, but the abstract alone does not provide sufficient quantitative detail, statistical rigor, or experimental context to support the central claims. A full manuscript with methods and figures would be required to assess whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that NANOG has a similar chromatin-bound fraction to SOX2 is unsupported without quantitative values and statistical comparison.
+- The claim that NANOG exhibits more stable specific binding (~25s vs ~16s) is unsupported without measures of variability and statistical testing.
+- The claim that NANOG's protein-protein interaction domain increases chromatin residence time >5-fold is unsupported without experimental details and controls.
+- The claim that both TFs assemble into phase-separated domains of ~400 nm is unsupported without imaging or analysis details.
+- The conclusion that the findings explain how NANOG and SOX2 stabilise gene regulatory networks is unsupported without functional data.
+- The novelty of the "novel spatiotemporal analysis pipelines" cannot be assessed without methodological description.

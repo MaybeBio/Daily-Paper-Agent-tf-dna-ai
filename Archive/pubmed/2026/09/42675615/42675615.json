@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "42675615",
+    "doi": "10.1093/bioinformatics/btag652",
+    "title": "mmVelo: a deep generative model for estimating cell state-dependent dynamics across multiple modalities."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Single-cell multiomics reveals regulatory relationships across biological layers but captures only static snapshots, obscuring the dynamics coordinated across modalities. RNA velocity predicts transcriptome dynamics, yet cannot be extended to other layers such as the regulome, leaving chromatin accessibility dynamics unresolved. RESULTS: We developed mmVelo (multimodal velocity of single cells), a deep generative model that infers cell state dynamics from spliced and unspliced mRNA and projects them onto other modalities, yielding chromatin velocity at single-peak resolution. In developing mouse brain, mmVelo accurately recovered accessibility dynamics; in mouse skin, it identified transcription factors regulating accessibility. Decomposing posterior velocity variability into manifold-aligned and off-manifold components revealed modality-specific uncertainty structure, with chromatin fluctuation elevated near lineage branching. Using multiomics data as a bridge, mmVelo inferred the dynamics of missing modalities from single-modal human brain data. AVAILABILITY AND IMPLEMENTATION: Source code is freely available under the MIT license at https://github.com/nomuhyooon/mmVelo; the version and test data used here are archived at https://doi.org/10.5281/zenodo.20103609.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Humans",
+      "Multiomics",
+      "*Single-Cell Analysis/methods",
+      "Brain/metabolism",
+      "Chromatin/metabolism/genetics",
+      "Transcriptome",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nomura, Satoshi",
+        "Kojima, Yasuhiro",
+        "Minoura, Kodai",
+        "Hayashi, Shuto",
+        "Abe, Ko",
+        "Hirose, Haruka",
+        "Shimamura, Teppei"
+      ],
+      "short_names": [
+        "Nomura S",
+        "Kojima Y",
+        "Minoura K",
+        "Hayashi S",
+        "Abe K",
+        "Hirose H",
+        "Shimamura T"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-4463-754X",
+        "ORCID: 0000-0002-1363-7153",
+        "ORCID: 0000-0002-1623-0738",
+        "ORCID: 0009-0009-7713-2531"
+      ],
+      "affiliations": [
+        "Japanese Red Cross Aichi Medical Center, Nagoya Daiichi Hospital, Nagoya, Japan.",
+        "Laboratory of Computational Life Science, National Cancer Center Research Institute, Tokyo, Japan.",
+        "Japanese Red Cross Aichi Medical Center, Nagoya Daiichi Hospital, Nagoya, Japan.",
+        "Department of Computational and Systems Biology, Division of Biological Data Science, Medical Research Laboratory, Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Computational and Systems Biology, Division of Biological Data Science, Medical Research Laboratory, Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Computational and Systems Biology, Division of Biological Data Science, Medical Research Laboratory, Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan.",
+        "Japanese Red Cross Aichi Medical Center, Nagoya Daiichi Hospital, Nagoya, Japan.",
+        "Department of Computational and Systems Biology, Division of Biological Data Science, Medical Research Laboratory, Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nomura, Satoshi",
+        "short_name": "Nomura S",
+        "identifiers": [
+          "0009-0006-4463-754X"
+        ],
+        "affiliations": [
+          "Japanese Red Cross Aichi Medical Center, Nagoya Daiichi Hospital, Nagoya, Japan."
+        ]
+      },
+      {
+        "full_name": "Kojima, Yasuhiro",
+        "short_name": "Kojima Y",
+        "identifiers": [
+          "0000-0002-1363-7153"
+        ],
+        "affiliations": [
+          "Laboratory of Computational Life Science, National Cancer Center Research Institute, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Minoura, Kodai",
+        "short_name": "Minoura K",
+        "identifiers": [],
+        "affiliations": [
+          "Japanese Red Cross Aichi Medical Center, Nagoya Daiichi Hospital, Nagoya, Japan."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Shuto",
+        "short_name": "Hayashi S",
+        "identifiers": [
+          "0000-0002-1623-0738"
+        ],
+        "affiliations": [
+          "Department of Computational and Systems Biology, Division of Biological Data Science, Medical Research Laboratory, Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Abe, Ko",
+        "short_name": "Abe K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, Division of Biological Data Science, Medical Research Laboratory, Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Hirose, Haruka",
+        "short_name": "Hirose H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, Division of Biological Data Science, Medical Research Laboratory, Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Shimamura, Teppei",
+        "short_name": "Shimamura T",
+        "identifiers": [
+          "0009-0009-7713-2531"
+        ],
+        "affiliations": [
+          "Japanese Red Cross Aichi Medical Center, Nagoya Daiichi Hospital, Nagoya, Japan.",
+          "Department of Computational and Systems Biology, Division of Biological Data Science, Medical Research Laboratory, Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Aug 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/01 05:41",
+    "fetched_at": "2026-10-02 04:52:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42675615",
+      "42605072",
+      "40929041",
+      "39567490",
+      "41457082",
+      "36229609",
+      "42525289",
+      "40662813",
+      "39888834",
+      "33827925",
+      "39062661",
+      "42475469",
+      "42248920",
+      "40751912",
+      "40598278",
+      "38940155",
+      "37314966",
+      "36173306",
+      "33633365",
+      "41429574",
+      "41057364",
+      "39893194",
+      "41808453",
+      "41151585",
+      "42366683",
+      "42412805",
+      "41744270",
+      "34922949",
+      "35758807",
+      "39468737",
+      "38460192",
+      "42074294",
+      "42243114",
+      "40358524",
+      "38290765",
+      "34585247",
+      "41093751",
+      "37220900",
+      "41325188",
+      "34500455",
+      "34711971",
+      "41734268",
+      "38092913",
+      "36610708",
+      "35258562",
+      "40889281",
+      "41951735",
+      "41741362",
+      "40409272",
+      "40696189",
+      "40887856",
+      "41692967",
+      "41266355",
+      "35188184",
+      "40857392",
+      "42613761",
+      "36250795",
+      "41324558",
+      "41896196",
+      "42412830",
+      "42490484",
+      "41053815",
+      "40301621",
+      "38036964",
+      "42412825",
+      "38696763",
+      "39870864",
+      "40802529",
+      "41093852",
+      "42490430",
+      "41588477",
+      "37365273",
+      "40063068",
+      "41922764",
+      "42316814",
+      "37139553",
+      "34028557",
+      "41359545",
+      "30692544",
+      "39487131",
+      "41580083",
+      "37735568",
+      "34086847",
+      "39315707",
+      "32699019",
+      "42635227",
+      "40973591",
+      "42114088",
+      "39820306",
+      "40444783",
+      "42490198",
+      "39715685",
+      "40632608",
+      "41831316",
+      "42087325",
+      "39075536",
+      "33200787",
+      "40247122",
+      "40011786",
+      "36735940"
+    ],
+    "review": [
+      "42675615",
+      "37365273"
+    ],
+    "pmc": [
+      "13585172"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42675615/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag652",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

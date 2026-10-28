@@ -1,0 +1,390 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.10.566541",
+  "title": "Computational Design of Periplasmic Binding Protein Biosensors Guided by Molecular Dynamics",
+  "doi": "10.1101/2023.11.10.566541",
+  "abstract": "Periplasmic binding proteins (PBPs) are bacterial proteins commonly used as scaffolds for substrate-detecting biosensors. In such biosensors, effector proteins, for example circularly permuted green fluorescent protein (cpGFP), are inserted into a PBP such that the effector protein’s output changes upon PBP-substate binding. The insertion site is often determined by comparison of PBP apo / holo crystal structures, but random insertion libraries have shown that this can miss the best sites. Here, we present a PBP biosensor design method based on residue contact analysis from molecular dynamics. This computational method identifies the best previously known insertion sites in the maltose binding PBP, and suggests further previously unknown sites. We experimentally characterise cpGFP insertions at these new sites, finding they too give functional biosensors. Our method is sufficiently flexible to both suggest insertion sites compatible with a variety of effector proteins and be applied to binding proteins beyond PBPs.",
+  "authors": [
+    "Jack M. O’Shea",
+    "Annis Richardson",
+    "Peter Doerner",
+    "Christopher W. Wood"
+  ],
+  "published_date": "2023-11-10",
+  "updated_date": "2023-11-14T05:55:14Z",
+  "journal": "bioRxiv",
+  "category": "Synthetic Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.10.566541",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.10.566541.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Synthetic Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Synthetic Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:34:18Z",
+        "timestamp": 1768509258406,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            10
+          ]
+        ]
+      },
+      "group-title": "Synthetic Biology",
+      "reference-count": 36,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Periplasmic binding proteins (PBPs) are bacterial proteins commonly used as scaffolds for substrate-detecting biosensors. In such biosensors, effector proteins, for example circularly permuted green fluorescent protein (cpGFP), are inserted into a PBP such that the effector protein’s output changes upon PBP-substate binding. The insertion site is often determined by comparison of PBP\n                  <jats:italic>apo</jats:italic>\n                  /\n                  <jats:italic>holo</jats:italic>\n                  crystal structures, but random insertion libraries have shown that this can miss the best sites. Here, we present a PBP biosensor design method based on residue contact analysis from molecular dynamics. This computational method identifies the best previously known insertion sites in the maltose binding PBP, and suggests further previously unknown sites. We experimentally characterise cpGFP insertions at these new sites, finding they too give functional biosensors. Our method is sufficiently flexible to both suggest insertion sites compatible with a variety of effector proteins and be applied to binding proteins beyond PBPs.\n                </jats:p>",
+      "DOI": "10.1101/2023.11.10.566541",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            14
+          ]
+        ],
+        "date-time": "2023-11-14T05:55:14Z",
+        "timestamp": 1699941314000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Computational Design of Periplasmic Binding Protein Biosensors Guided by Molecular Dynamics"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9694-7340",
+          "authenticated-orcid": false,
+          "given": "Jack M.",
+          "family": "O’Shea",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Annis",
+          "family": "Richardson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7218-8469",
+          "authenticated-orcid": false,
+          "given": "Peter",
+          "family": "Doerner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1243-3105",
+          "authenticated-orcid": false,
+          "given": "Christopher W.",
+          "family": "Wood",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2011.09.047"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2139/ssrn.3554080"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2962"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300857j"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.talo.2021.100038"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.144.3.483"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1208/ps010202"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/smll.202100472"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.25080/Majora-629e541a-00e"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0502673102"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2003.12.016"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C7RA11347A"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-020-0953-2"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/msystems.01084-21"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.23118"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2333"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0471-2"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2015.08.015"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2018.01.033"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-313x.1998.00266.x"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.114.254003"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms12266"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41589-020-00718-x"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adg7731"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.1996.tb02484.x"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(97)00253-0"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13068-015-0293-0"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13068-016-0529-7"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2019/4798793"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac202"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1085/jgp.201812201"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-019-53507-5"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3696"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acssynbio.6b00184"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzy001"
+        },
+        {
+          "key": "2023113009500678000_2023.11.10.566541v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibtech.2010.10.004"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.10.566541",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:30:10Z",
+        "timestamp": 1768455010000
+      },
+      "score": 106.04099,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.10.566541"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            10
+          ]
+        ]
+      },
+      "references-count": 36,
+      "URL": "https://doi.org/10.1101/2023.11.10.566541",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pcbi.1012212",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

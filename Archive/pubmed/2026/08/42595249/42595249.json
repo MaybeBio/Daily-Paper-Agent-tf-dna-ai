@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "42595249",
+    "doi": "10.1016/j.cbi.2026.112302",
+    "title": "ADRB2 modulates asbestos-induced pleural mesothelioma progression by influencing IL-17/NF-kappaB-related inflammatory signalling: An integrated network toxicology, multi-omics and experimental study."
+  },
+  "content": {
+    "abstract": "Pleural mesothelioma (PM) is a highly aggressive asbestos-related malignancy with a poor prognosis and limited early diagnostic options. In this study, network toxicology and integrated multi-omics analyses were used to investigate the molecular mechanisms by which chrysotile, crocidolite, and amosite may induce PM and to identify core diagnostic genes. Asbestos-related targets from the Comparative Toxicogenomics Database (CTD) database were integrated with Gene Expression Omnibus (GEO) transcriptomic datasets, followed by differential expression analysis, weighted gene co-expression network analysis, protein-protein interaction analysis, functional enrichment, machine-learning screening, and SHAP interpretation. Candidate targets were mainly enriched in inflammation-related pathways, including cytokine regulation, complement and coagulation cascades, NF-kappaB, TNF, and IL-17 signalling. Adrenergic receptor beta 2 (ADRB2), LMO3, GPD1L, EDNRB, RNASE1, PDK4, CAT, and MAL showed strong diagnostic contributions, among which ADRB2 displayed particular mechanistic relevance. Immune-infiltration and single-cell RNA-sequencing analyses suggested that ADRB2 was associated with multiple immune-cell populations and was distributed across both malignant and immune-cell compartments within the PM microenvironment, while molecular docking indicated potential interactions between asbestos and multiple core proteins. LDH assays showed that 2.5 mug/cm(2) represented a low-to-subtoxic exposure concentration in MeT-5A and MSTO-211H cells. At this concentration, all three asbestos types promoted proliferation, clonogenic growth, and invasion while up-regulating ADRB2, with crocidolite exerting the strongest effect. Mechanistically, ADRB2 knockdown attenuated crocidolite-induced IL-17/NF-kappaB-related signalling, reduced IL-6, CXCL1, and CXCL8 expression, and suppressed the malignant phenotype of MSTO-211H cells, whereas recombinant human IL-17A partially restored these effects. These findings identify ADRB2 as a potential diagnostic and mechanistic target in asbestos-related PM and suggest that ADRB2 may contribute to crocidolite-induced malignant progression by modulating cellular responses associated with IL-17/NF-kappaB-related inflammatory signalling.",
+    "keywords": [
+      "Adrenergic receptor beta 2 (ADRB2)",
+      "Asbestos",
+      "IL-17/NF-kappaB-related inflammatory signalling",
+      "Machine learning",
+      "Network toxicology",
+      "Pleural mesothelioma (PM)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mesothelioma/pathology/metabolism/chemically induced",
+      "*NF-kappa B/metabolism",
+      "*Signal Transduction/drug effects",
+      "*Interleukin-17/metabolism",
+      "*Asbestos/toxicity",
+      "*Pleural Neoplasms/pathology/metabolism/chemically induced",
+      "Cell Line, Tumor",
+      "Multiomics",
+      "Animals",
+      "Molecular Docking Simulation",
+      "Inflammation/metabolism",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Shaoyang",
+        "Gu, Dandan",
+        "He, Jintao",
+        "Hou, Guangsheng",
+        "Wang, Jundong",
+        "Li, Zhengliang",
+        "Yu, Min",
+        "Li, Jiangyan",
+        "Xiong, Wei"
+      ],
+      "short_names": [
+        "Huang S",
+        "Gu D",
+        "He J",
+        "Hou G",
+        "Wang J",
+        "Li Z",
+        "Yu M",
+        "Li J",
+        "Xiong W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China; Key Laboratory of Clinical Biochemistry Testing in Universities of Yunnan Province, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China; Department of Cell Biology, College of Life Sciences, Shaanxi Normal University, Xi'an, Shaanxi, 710119, PR China.",
+        "Department of Gastroenterology, Northeast Yunnan Regional Central Hospital, Zhaotong, Yunnan, 657000, PR China.",
+        "Department of Biochemistry and Molecular Biology, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China; Key Laboratory of Clinical Biochemistry Testing in Universities of Yunnan Province, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China.",
+        "Department of Cell Biology, College of Life Sciences, Shaanxi Normal University, Xi'an, Shaanxi, 710119, PR China.",
+        "Department of Cardiothoracic Surgery, Dali Bai Autonomous Prefecture People's Hospital, Dali, Yunnan, 671000, PR China.",
+        "Department of Radiology, The First Affiliated Hospital of Dali University, Dali University, Dali, Yunnan, 671000, PR China.",
+        "Department of Biochemistry and Molecular Biology, College of Life Sciences, Yunnan University, Kunming, Yunnan, 650091, PR China.",
+        "Department of Surgery, College of Clinical Medicine, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China.",
+        "Department of Biochemistry and Molecular Biology, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China; Key Laboratory of Clinical Biochemistry Testing in Universities of Yunnan Province, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China. Electronic address: xiongwei@dali.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Shaoyang",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China; Key Laboratory of Clinical Biochemistry Testing in Universities of Yunnan Province, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China; Department of Cell Biology, College of Life Sciences, Shaanxi Normal University, Xi'an, Shaanxi, 710119, PR China."
+        ]
+      },
+      {
+        "full_name": "Gu, Dandan",
+        "short_name": "Gu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Northeast Yunnan Regional Central Hospital, Zhaotong, Yunnan, 657000, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Jintao",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China; Key Laboratory of Clinical Biochemistry Testing in Universities of Yunnan Province, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China."
+        ]
+      },
+      {
+        "full_name": "Hou, Guangsheng",
+        "short_name": "Hou G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, College of Life Sciences, Shaanxi Normal University, Xi'an, Shaanxi, 710119, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jundong",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Dali Bai Autonomous Prefecture People's Hospital, Dali, Yunnan, 671000, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhengliang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Dali University, Dali University, Dali, Yunnan, 671000, PR China."
+        ]
+      },
+      {
+        "full_name": "Yu, Min",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Life Sciences, Yunnan University, Kunming, Yunnan, 650091, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiangyan",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, College of Clinical Medicine, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Wei",
+        "short_name": "Xiong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China; Key Laboratory of Clinical Biochemistry Testing in Universities of Yunnan Province, College of Basic Medical Sciences, Health Science Center, Dali University, Dali, Yunnan, 671000, PR China. Electronic address: xiongwei@dali.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemico-biological interactions"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Interact"
+    ],
+    "pub_date": "2026 Oct 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 23:36",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42595249",
+      "41795298",
+      "39394704",
+      "40916281",
+      "42486346",
+      "41895505",
+      "41371106",
+      "42217408",
+      "42302947",
+      "41299400",
+      "25757056",
+      "20870754",
+      "42108770",
+      "42190416",
+      "41716413",
+      "41763175",
+      "42260484",
+      "42202914",
+      "42372809",
+      "41814740",
+      "41814772",
+      "40853611",
+      "39369919",
+      "42167662",
+      "42208328",
+      "42208330",
+      "41621766",
+      "42143937",
+      "40016284",
+      "40593998",
+      "40858660",
+      "40317014",
+      "24510578",
+      "40553825",
+      "42435052",
+      "36872359",
+      "39571698",
+      "33444723",
+      "26973208",
+      "41512388",
+      "38107658",
+      "41492010",
+      "42197115",
+      "37454750",
+      "35622496",
+      "41534756",
+      "42597971",
+      "42079590",
+      "26571085",
+      "42679618",
+      "41655547",
+      "41308385",
+      "41567202",
+      "40908208",
+      "42019124",
+      "32574520",
+      "40131544",
+      "39075002",
+      "39490433",
+      "41935997",
+      "41293954",
+      "42291298",
+      "41489113",
+      "42249421",
+      "40619656",
+      "41617993",
+      "41974235",
+      "41601623",
+      "39799354",
+      "26762744",
+      "42399461",
+      "41388523",
+      "41918119",
+      "40330488",
+      "41186507",
+      "41428039",
+      "40382939",
+      "42500573",
+      "39971016",
+      "42228185",
+      "15578154",
+      "42647555",
+      "40398085",
+      "42263871",
+      "39490646",
+      "42197164",
+      "39219424",
+      "41751882",
+      "42694414",
+      "42433942",
+      "42492262",
+      "40613545",
+      "41786520",
+      "41217566",
+      "42173415",
+      "41189252",
+      "42661803",
+      "41532702",
+      "41814950",
+      "41316260"
+    ],
+    "review": [
+      "42595249"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-2797(26)00410-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asbestos.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asbestos"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1496",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

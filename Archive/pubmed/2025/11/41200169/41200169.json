@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "41200169",
+    "doi": "10.3389/fimmu.2025.1675467",
+    "title": "Integrative multi-omics identifies MEIS3 as a diagnostic biomarker and immune modulator in hypertrophic cardiomyopathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hypertrophic cardiomyopathy (HCM) is a prevalent genetic cardiac disorder characterized by myocardial hypertrophy and diastolic dysfunction. While traditionally attributed to sarcomeric mutations, recent studies have highlighted the pivotal contribution of immune dysregulation and stromal-immune interactions in its pathophysiology. However, the molecular drivers bridging structural remodeling and immune activation remain poorly defined. OBJECTIVE: This study aimed to characterize the clinical and immunological role of the transcription factor MEIS3 in HCM through integrative transcriptomic and single-cell analyses, with a focus on its diagnostic potential and regulatory interactions within the cardiac microenvironment. METHODS: We performed bulk RNA sequencing on peripheral blood samples from clinically diagnosed HCM patients (n = 4) and matched healthy controls (n = 3), followed by differential expression analysis and weighted gene co-expression network analysis (WGCNA). Machine learning algorithms (LASSO and Random Forest) were used to identify key diagnostic genes. Single-cell RNA sequencing (scRNA-seq) from myocardial tissues was used to localize gene expression. The immunological context was evaluated via xCell-based immune deconvolution, cytokine-immune cell correlation analysis, and ceRNA network construction centered on MEIS3. RESULTS: MEIS3 was significantly upregulated in HCM samples and identified as a core hub gene in the HCM-associated blue WGCNA module. Machine learning consistently ranked MEIS3 among the top discriminatory markers (AUC > 0.90). scRNA-seq revealed MSCs as the predominant MEIS3-expressing population in HCM myocardium. Functional enrichment implicated MEIS3 in pathways related to protein synthesis, mitochondrial metabolism, and immune modulation. Immune deconvolution indicated increased M1 macrophages, NK cells, and dendritic cells in HCM. MEIS3 expression positively correlated with key immunomodulatory cytokines (CXCL12, BMP1) and altered immune landscapes. The ceRNA network identified candidate lncRNA-miRNA-MEIS3 axes potentially driving its overexpression. Cytokine-immune cell analysis revealed MEIS3-linked cytokines bridging stromal and immune compartments, reinforcing its central role in immunoregulatory remodeling. CONCLUSION: MEIS3 functions as a stromal-centric immunomodulator in HCM, shaping cytokine expression and immune infiltration in the diseased heart. Its expression shows diagnostic potential and may represent a novel target for immuno-modulatory strategies. These findings open new avenues for immuno-targeted interventions in HCM management.",
+    "keywords": [
+      "MEIS3",
+      "biomarker",
+      "ceRNA network",
+      "hypertrophic cardiomyopathy",
+      "immune infiltration",
+      "immunoregulation",
+      "single-cell RNA-seq",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cardiomyopathy, Hypertrophic/immunology/diagnosis/genetics/metabolism",
+      "*Homeodomain Proteins/genetics/metabolism",
+      "Biomarkers",
+      "Female",
+      "Male",
+      "Middle Aged",
+      "*Transcription Factors/genetics/metabolism",
+      "Single-Cell Analysis",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Gene Regulatory Networks",
+      "Adult",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Jinchen",
+        "Zhou, Zehua",
+        "Kong, Dejun",
+        "Zhu, Heng",
+        "Liu, Chunmei",
+        "Wang, Yuyuan",
+        "Wu, Tianqi",
+        "Chen, Jinfeng",
+        "Liao, Yan",
+        "Wu, Qi"
+      ],
+      "short_names": [
+        "He J",
+        "Zhou Z",
+        "Kong D",
+        "Zhu H",
+        "Liu C",
+        "Wang Y",
+        "Wu T",
+        "Chen J",
+        "Liao Y",
+        "Wu Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Irradiation Preservation and Effect Key Laboratory of Sichuan Province, Chengdu, China.",
+        "Department of Plastic Surgery, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Oncology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Jinchen",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China.",
+          "Irradiation Preservation and Effect Key Laboratory of Sichuan Province, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zehua",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Dejun",
+        "short_name": "Kong D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Heng",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chunmei",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuyuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Tianqi",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinfeng",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Yan",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qi",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Chengdu Medical College, Nuclear Industry 416 Hospital, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/07 06:28",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [
+      "42343833"
+    ],
+    "refs": [
+      "40018920",
+      "39889181",
+      "39691060",
+      "39417989",
+      "39365226",
+      "38990491",
+      "38774444",
+      "38488965",
+      "38474063",
+      "37115472",
+      "36509674",
+      "36382968",
+      "35843734",
+      "34765659",
+      "34572061",
+      "34526680",
+      "34445638",
+      "34327701",
+      "33983830",
+      "33820510",
+      "33718062",
+      "33270628",
+      "32105245",
+      "31898271",
+      "30582448",
+      "29218105",
+      "28498465",
+      "24592354",
+      "24206753",
+      "23710539",
+      "21059917",
+      "20571888",
+      "12763554"
+    ],
+    "similar": [
+      "41200169",
+      "41080564",
+      "36238494",
+      "37391825",
+      "41484731",
+      "34225646",
+      "33715137",
+      "34520765",
+      "41388523",
+      "33099311",
+      "40301504",
+      "38629342",
+      "40296690",
+      "41424060",
+      "31059139",
+      "41310117",
+      "38474063",
+      "40636124",
+      "41392291",
+      "33174017",
+      "39026663",
+      "34672721",
+      "41504052",
+      "38277535",
+      "40306461",
+      "38780967",
+      "39043774",
+      "40969769",
+      "41217566",
+      "40711603",
+      "41009952",
+      "41107929",
+      "39160643",
+      "41237469",
+      "35545053",
+      "39255898",
+      "37005704",
+      "39774683",
+      "40501248",
+      "39719426",
+      "32344918",
+      "40782934",
+      "35401927",
+      "40097519",
+      "40770404",
+      "37559135",
+      "40821793",
+      "36802768",
+      "35328083",
+      "40589764",
+      "41450821",
+      "40977710",
+      "41112249",
+      "40160813",
+      "37628806",
+      "41013556",
+      "41393260",
+      "39365226",
+      "40207230",
+      "38006610",
+      "40869128",
+      "40609041",
+      "34497835",
+      "39690389",
+      "40764361",
+      "41422136",
+      "40766309",
+      "38815672",
+      "36267414",
+      "41224720",
+      "39923303",
+      "40330458",
+      "40427439",
+      "40362669",
+      "35990977",
+      "40881699",
+      "39541897",
+      "34285551",
+      "41246350",
+      "36138345",
+      "41325315",
+      "24083979",
+      "29155983",
+      "34946964",
+      "39067546",
+      "38774444",
+      "41346577",
+      "37305994",
+      "38853772",
+      "38463581",
+      "40020138",
+      "41291841",
+      "41192724",
+      "40535153",
+      "41459671",
+      "40762716",
+      "38656728",
+      "41503916",
+      "41287009",
+      "30338905"
+    ],
+    "review": [
+      "41200169",
+      "39774683"
+    ],
+    "pmc": [
+      "12586186"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41200169/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3562",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1675467",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

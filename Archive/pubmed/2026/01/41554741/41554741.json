@@ -1,0 +1,475 @@
+{
+  "identity": {
+    "pmid": "41554741",
+    "doi": "10.1038/s41467-026-68644-5",
+    "title": "Engineering the MmeFz2-omegaRNA system for efficient genome editing through an integrated computational-experimental framework."
+  },
+  "content": {
+    "abstract": "Eukaryotic Fanzor proteins are compact, programmable RNA-guided nucleases with substantial potential for genome editing, although their efficiency in mammalian cells remains suboptimal. Here, we present a combinatorial engineering strategy to optimize a representative Fanzor system, MmeFz2-omegaRNA. AlphaFold3-powered rational redesign produced a minimized omegaRNA scaffold that is 30% smaller while maintaining up to 82.2% efficiency. Synergistic structure-guided and AI-augmented protein engineering generated two variants, enMmeFz2 and evoMmeFz2, which exhibited an average ~32-fold increase in activity across 38 genomic loci. Moreover, fusion of the non-specific DNA-binding domain HMG-D further enhanced editing performance (enMmeFz2-HMG-D and evoMmeFz2-HMG-D). Notably, evoMmeFz2-HMG-D demonstrated robust in vivo genome editing activity, enabling dystrophin restoration in humanized male Duchenne muscular dystrophy mouse models via single adeno-associated virus (AAV) delivery. This study establishes Fanzor2 as a gene editing platform for genome engineering and therapeutic applications, and underscores the power of AI-guided engineering to accelerate genome editor development while reducing experimental burden.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Muscular Dystrophy, Duchenne/genetics/therapy",
+      "Protein Engineering/methods",
+      "Dependovirus/genetics",
+      "Male",
+      "*RNA/genetics",
+      "HEK293 Cells",
+      "Genetic Engineering/methods",
+      "Dystrophin/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shangpu",
+        "Xu, Kun",
+        "Li, Guoling",
+        "Jiang, Henan",
+        "Wu, Zhenmin",
+        "Gao, Pengfei",
+        "Yue, Yang",
+        "Chen, Yufei",
+        "Liu, Zujiang",
+        "Zhou, Bingqian",
+        "Zhou, Min",
+        "Chen, Yulin",
+        "Liu, Xu",
+        "Wang, Xiaolong",
+        "Wu, Zhaowei",
+        "Wei, Yinghui"
+      ],
+      "short_names": [
+        "Li S",
+        "Xu K",
+        "Li G",
+        "Jiang H",
+        "Wu Z",
+        "Gao P",
+        "Yue Y",
+        "Chen Y",
+        "Liu Z",
+        "Zhou B",
+        "Zhou M",
+        "Chen Y",
+        "Liu X",
+        "Wang X",
+        "Wu Z",
+        "Wei Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5714-9090",
+        "ORCID: 0000-0003-0422-6157",
+        "ORCID: 0000-0001-5679-4055",
+        "ORCID: 0000-0003-1620-1344",
+        "ORCID: 0000-0001-8952-0181",
+        "ORCID: 0000-0002-6642-1559"
+      ],
+      "affiliations": [
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "Hainan Institute of Northwest A&F University, Sanya, Hainan, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "Hainan Institute of Northwest A&F University, Sanya, Hainan, China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, Guangdong, China.",
+        "HuidaGene Therapeutics Co. Ltd., Shanghai, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "Hainan Institute of Northwest A&F University, Sanya, Hainan, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "Life Science Research Core Services, Northwest A&F University, Yangling, Shaanxi, China.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+        "Hainan Institute of Northwest A&F University, Sanya, Hainan, China.",
+        "Key Laboratory of Animal Biotechnology of the Ministry of Agriculture, College of Veterinary Medicine, Northwest A&F University, Yangling, Shaanxi, China. liuxu1658@nwafu.edu.cn.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China. xiaolongwang@nwafu.edu.cn.",
+        "Hainan Institute of Northwest A&F University, Sanya, Hainan, China. xiaolongwang@nwafu.edu.cn.",
+        "School of Physical Science and Technology, ShanghaiTech University, Shanghai, China. wuzw1@shanghaitech.edu.cn.",
+        "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China. yinghuiwei@nwafu.edu.cn.",
+        "Hainan Institute of Northwest A&F University, Sanya, Hainan, China. yinghuiwei@nwafu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shangpu",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+          "Hainan Institute of Northwest A&F University, Sanya, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Kun",
+        "short_name": "Xu K",
+        "identifiers": [
+          "0000-0001-5714-9090"
+        ],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+          "Hainan Institute of Northwest A&F University, Sanya, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Guoling",
+        "short_name": "Li G",
+        "identifiers": [
+          "0000-0003-0422-6157"
+        ],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, Guangdong, China.",
+          "HuidaGene Therapeutics Co. Ltd., Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Henan",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhenmin",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+          "Hainan Institute of Northwest A&F University, Sanya, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Pengfei",
+        "short_name": "Gao P",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Yang",
+        "short_name": "Yue Y",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yufei",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zujiang",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bingqian",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Min",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Life Science Research Core Services, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yulin",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0001-5679-4055"
+        ],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China.",
+          "Hainan Institute of Northwest A&F University, Sanya, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xu",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Animal Biotechnology of the Ministry of Agriculture, College of Veterinary Medicine, Northwest A&F University, Yangling, Shaanxi, China. liuxu1658@nwafu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaolong",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0003-1620-1344"
+        ],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China. xiaolongwang@nwafu.edu.cn.",
+          "Hainan Institute of Northwest A&F University, Sanya, Hainan, China. xiaolongwang@nwafu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhaowei",
+        "short_name": "Wu Z",
+        "identifiers": [
+          "0000-0001-8952-0181"
+        ],
+        "affiliations": [
+          "School of Physical Science and Technology, ShanghaiTech University, Shanghai, China. wuzw1@shanghaitech.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wei, Yinghui",
+        "short_name": "Wei Y",
+        "identifiers": [
+          "0000-0002-6642-1559"
+        ],
+        "affiliations": [
+          "International Joint Agriculture Research Center for Animal Bio-Breeding of Ministry of Agriculture and Rural Affairs, College of Animal Science and Technology, Northwest A&F University, Yangling, Shaanxi, China. yinghuiwei@nwafu.edu.cn.",
+          "Hainan Institute of Northwest A&F University, Sanya, Hainan, China. yinghuiwei@nwafu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jan 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/20 00:37",
+    "fetched_at": "2026-10-05 05:16:26"
+  },
+  "links": {
+    "cites": [
+      "42637959"
+    ],
+    "refs": [
+      "39936575",
+      "39571002",
+      "39208796",
+      "39147927",
+      "39096898",
+      "39009678",
+      "38977788",
+      "38977787",
+      "38280857",
+      "37983496",
+      "37756409",
+      "37697004",
+      "37652974",
+      "37402371",
+      "37386294",
+      "37380027",
+      "37231266",
+      "37105976",
+      "37041195",
+      "37020030",
+      "37020015",
+      "36656942",
+      "36457249",
+      "36170834",
+      "35617371",
+      "35260581",
+      "35217295",
+      "34619744",
+      "34591643",
+      "34475565",
+      "34475560",
+      "34381246",
+      "34294706",
+      "33333018",
+      "32675376",
+      "32572269",
+      "32393889",
+      "32246713",
+      "31021236",
+      "30835493",
+      "30710128",
+      "30379597",
+      "30337455",
+      "29499947",
+      "28008168",
+      "26422227",
+      "24463181",
+      "23548000",
+      "23287718",
+      "22745249",
+      "19937601"
+    ],
+    "similar": [
+      "41554741",
+      "40394336",
+      "41072420",
+      "42315520",
+      "34509668",
+      "28790199",
+      "39147927",
+      "32128412",
+      "39541214",
+      "30778238",
+      "39096898",
+      "38977787",
+      "33845891",
+      "28195574",
+      "36401041",
+      "42269605",
+      "31129119",
+      "35350865",
+      "26721684",
+      "39284833",
+      "21194028",
+      "36512423",
+      "22551778",
+      "36243370",
+      "26414293",
+      "23732986",
+      "33472516",
+      "26721683",
+      "28390761",
+      "32892813",
+      "28334779",
+      "21453126",
+      "41898615",
+      "33160075",
+      "29551272",
+      "41793215",
+      "31586095",
+      "33401973",
+      "42193866",
+      "23681067",
+      "39009678",
+      "37098587",
+      "42589580",
+      "25692716",
+      "30181272",
+      "29173172",
+      "36401035",
+      "25186301",
+      "42178964",
+      "37511179",
+      "42192532",
+      "26159373",
+      "30648435",
+      "42194990",
+      "23752313",
+      "18679629",
+      "27215286",
+      "41917051",
+      "40335752",
+      "31327755",
+      "41242675",
+      "35776127",
+      "40105473",
+      "29463117",
+      "26373345",
+      "22068425",
+      "38280857",
+      "28505980",
+      "32573804",
+      "24753122",
+      "42309797",
+      "40340246",
+      "34140489",
+      "33931459",
+      "24580018",
+      "29366352",
+      "41532605",
+      "41708664",
+      "40176368",
+      "31988462",
+      "27378686",
+      "33823301",
+      "30518686",
+      "15454965",
+      "38667332",
+      "41104521",
+      "15694376",
+      "40493400",
+      "40357789",
+      "26264580",
+      "40278504",
+      "30093306",
+      "22144143",
+      "15709034",
+      "24781921",
+      "30854433",
+      "17426713",
+      "22587991",
+      "40848523",
+      "34244505"
+    ],
+    "review": [
+      "41554741",
+      "26414293",
+      "33472516",
+      "28390761",
+      "41898615",
+      "33401973",
+      "42193866",
+      "29173172",
+      "26159373",
+      "42194990",
+      "27215286",
+      "40105473",
+      "26373345",
+      "29366352",
+      "40176368",
+      "33823301",
+      "15454965",
+      "40357789",
+      "30093306"
+    ],
+    "pmc": [
+      "12923547"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-68644-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41554741/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:41554741",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

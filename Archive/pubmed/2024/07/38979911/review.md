@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full-text methods, figures, or supplementary data were provided
+- **Shared manuscript claim summary** The authors report that the yeast meiosis-specific kinase Mek1 interacts with substrates Ndt80 and Rrm3 via a noncanonical acidic loop in its FHA domain, recognizing an RPXKR motif. AlphaFold Multimer modeling predicted this interaction, and genetic validation using acidic loop mutants supports the model. Phenotypic analyses suggest additional unknown Mek1 substrates also use this motif.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or figure/table references
+- **Missing materials affecting confidence** Full methods, all figures and tables, strain construction details, AlphaFold model parameters and confidence metrics, two-hybrid assay data, phenotypic assay protocols, and any statistical reporting
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic finding regarding substrate recognition by Mek1, with a novel noncanonical FHA domain interaction. However, the evidence as presented is insufficient to fully evaluate the strength of the claims. The AlphaFold-based prediction is intriguing but requires experimental validation beyond the genetic data described. The phenotypic differences between acidic loop mutants and the NDT80 deletion mutant are suggestive but not fully explained. The work may be of interest to the meiosis and DNA repair communities, but the current abstract does not provide enough detail to assess technical rigor.
+- **Who would be interested in the results, and why** Researchers studying meiotic recombination, kinase-substrate specificity, FHA domain function, and checkpoint regulation in yeast. The finding of a noncanonical FHA domain interaction with an acidic loop may also interest structural biologists and those studying protein-protein interaction prediction using AlphaFold.
+- **Major strengths** The identification of a specific interaction motif (RPXKR) and a corresponding binding surface (acidic loop in the FHA domain) provides a clear mechanistic hypothesis. The use of AlphaFold Multimer to generate a testable model, followed by genetic validation, is a logical and modern approach. The observation that acidic loop mutants show more severe phenotypes than the NDT80 mutant suggests broader biological relevance beyond a single substrate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that AlphaFold Multimer modeling accurately predicted the interaction between the RPSKR motif and the acidic loop in the Mek1 FHA domain.
+  - **Evidence pointer** Abstract, no specific figure or table referenced; location not provided
+  - **Concern** The abstract states that AlphaFold Multimer modeling "indicated" the interaction, but no details are given regarding model confidence, prediction scores, or whether alternative binding modes were considered. AlphaFold predictions can be unreliable for protein-protein interfaces, especially for disordered regions or noncanonical interactions.
+  - **Why it matters** The entire mechanistic model rests on the validity of this structural prediction. Without confidence metrics or experimental structural validation, the claim that this is a "noncanonical interaction" is not fully supported.
+  - **Resolution test** Provide AlphaFold confidence scores (e.g., ipTM, pTM), show that the predicted interface is robust across multiple models, and ideally validate with mutagenesis that disrupts the predicted interface in a structure-dependent manner, or with a co-crystal structure or crosslinking data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that acidic loop mutants "specifically disrupt" two-hybrid interactions with Ndt80 and Rrm3, implying specificity for the RPXKR motif.
+  - **Evidence pointer** Abstract, no specific figure or table referenced; location not provided
+  - **Concern** The abstract does not describe what controls were used to establish specificity. It is unclear whether the acidic loop mutations affect overall Mek1 stability, folding, or other interactions. The term "specifically" requires demonstration that the mutants do not globally disrupt Mek1 function or its interaction with other partners.
+  - **Why it matters** If the mutations cause global structural defects, the observed loss of interaction may not be due to the specific disruption of the RPXKR binding site, undermining the mechanistic conclusion.
+  - **Resolution test** Show that acidic loop mutants retain kinase activity, interact with other known partners (if any), and that the two-hybrid defects are rescued by complementary mutations in the substrate motif. Also demonstrate that the mutants do not affect Mek1 protein levels or localization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive depth
+  - **Claim pointer** The claim that "additional, as yet unknown, substrates of Mek1 also bind to Mek1 using an RPXKR motif" based on the observation that acidic loop mutants exhibit more severe phenotypes than the NDT80 mutant.
+  - **Evidence pointer** Abstract, no specific figure or table referenced; location not provided
+  - **Concern** The inference that more severe phenotypes indicate additional substrates is plausible but not the only possible explanation. The acidic loop mutations could affect Mek1 functions unrelated to substrate binding, such as localization, dimerization, or regulation by other post-translational modifications.
+  - **Why it matters** Overinterpretation of phenotypic data could lead to incorrect conclusions about the breadth of the RPXKR motif usage, which is a central claim of the abstract.
+  - **Resolution test** Provide direct evidence for additional substrates, such as proteomic identification of Mek1 interactors that depend on the acidic loop, or show that the phenotypic differences are specifically due to loss of RPXKR-mediated interactions rather than other Mek1 functions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, description of Mek1 functions
+  - **Evidence pointer** Abstract, first two sentences
+  - **Issue** The abstract lists multiple Mek1 functions (resection limitation, interhomolog bias, Zip1 phosphorylation, Ndt80 phosphorylation) without clear logical flow or connection to the main finding.
+  - **Required correction** Reorganize the background to focus on the substrate recognition question, and briefly state how the identified motif relates to the known functions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Rrm3 characterization
+  - **Evidence pointer** Abstract, statement about Rrm3
+  - **Issue** The abstract states Rrm3 is an "in vitro substrate" but does not specify whether this is a new finding or confirmatory, nor does it explain the biological relevance of Rrm3 phosphorylation by Mek1.
+  - **Required correction** Clarify whether Rrm3 phosphorylation is novel and briefly state its potential meiotic role, or remove this detail if it is not central to the main claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, phrase "in certain circumstances"
+  - **Evidence pointer** Abstract, phenotypic analysis description
+  - **Issue** The phrase "in certain circumstances" is vague and does not specify the conditions under which the more severe phenotypes are observed.
+  - **Required correction** Specify the genetic background or experimental conditions (e.g., specific mutant alleles, temperature, or time points) where the enhanced phenotype is seen.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The AlphaFold prediction must be supported with confidence metrics and ideally independent validation. The specificity of the acidic loop mutants must be demonstrated with appropriate controls. Without these, the central mechanistic claim is not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The finding of a noncanonical FHA domain interaction with an acidic loop is potentially novel and of interest. Scientific importance: The work addresses a fundamental question in kinase-substrate specificity during meiosis, which is relevant to broader DNA repair and checkpoint fields. Interdisciplinary readership: The topic is primarily of interest to yeast geneticists, meiosis researchers, and kinase biologists; broader appeal may be limited. Technical soundness: Cannot be fully assessed from the abstract; the genetic validation approach is reasonable but the lack of structural validation and controls is concerning. Readability for nonspecialists: The abstract is dense with specialized terminology and assumes significant background knowledge; it would benefit from clearer framing of the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis with preliminary genetic support, but the blocking concerns regarding the AlphaFold prediction and mutant specificity must be resolved. I would be supportive if the full manuscript provides adequate structural confidence metrics, specificity controls, and direct evidence for additional substrates.
+
+## Risk / unsupported claims
+- The claim that the acidic loop interaction is "noncanonical" is unsupported without structural comparison to known FHA domain interactions.
+- The claim that additional unknown substrates use the RPXKR motif is speculative and not directly supported by the phenotypic data alone.
+- The biological significance of Rrm3 as a Mek1 substrate is not established from the abstract.
+- The overall functional importance of the acidic loop interaction for meiotic recombination outcomes is not quantitatively described.

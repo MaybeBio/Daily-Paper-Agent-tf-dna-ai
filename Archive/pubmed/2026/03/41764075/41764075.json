@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "41764075",
+    "doi": "10.1016/j.xhgg.2026.100583",
+    "title": "Gene-specific pathogenicity predictor for chromatin remodeling BAF complex-associated neurodevelopmental disorders."
+  },
+  "content": {
+    "abstract": "Advancements in whole-genome sequencing have increased the number of variants of uncertain significance (VUS) identified in human genomes. This has created a diagnostic bottleneck for genetic counselors tasked with sifting through these variants and determining those most likely to be causative for a patient's clinical presentation. Machine learning (ML) tools can aid in identifying pathogenic variants from VUS, but there is a need for gene-specific algorithms that predict pathogenic variants with high accuracy. To address this need, we present a workflow for developing gene-specific, ensemble-learning ML tools, that leverage outputs from other algorithms, locations of variants within the gene, and evolutionary conservation data to make a prediction of pathogenicity. Variants in SMARCA2 and SMARCA4 that are associated with rare neurodevelopmental diseases were used to screen 15 ML algorithms. A random forest learner was tuned to yield a final accuracy of 0.93 on holdout data. Generalizing this predictor to other BRG1/BRM-associated factor (BAF) complex proteins resulted in a sharp decline in performance. We trained a final predictor for all genes in the study to create a predictor that identifies pathogenic variants in these BAF subunits with an accuracy of 0.91 on holdout data. This predictor specific to BAF complex proteins performs with higher accuracy and area under the precision-recall curve than any other predictor. The decline in performance when generalized to other proteins emphasizes the need for the gene-specific calibration of predictors. Our workflow for the development of such models provides a quick, computationally inexpensive route for improving the ML tools available to genetic counselors.",
+    "keywords": [
+      "diagnostics",
+      "genetic counseling",
+      "machine learning",
+      "monogenic disease",
+      "rare disease",
+      "variants of uncertain significance"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/genetics",
+      "*Neurodevelopmental Disorders/genetics/diagnosis",
+      "*Chromatin Assembly and Disassembly/genetics",
+      "Machine Learning",
+      "*Nuclear Proteins/genetics",
+      "*DNA Helicases/genetics",
+      "Prediction Algorithms",
+      "Algorithms",
+      "*Genetic Predisposition to Disease",
+      "Predictive Learning Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hack, Joshua",
+        "Nazim, Mohammad"
+      ],
+      "short_names": [
+        "Hack J",
+        "Nazim M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Genetics and Genomics Department, University of California, Los Angeles, Los Angeles, CA 90095, USA. Electronic address: jhack2@g.ucla.edu.",
+        "Department of Biochemistry, School of Medicine, Case Western Reserve University, Cleveland, OH 44106, USA; Center for RNA Science and Therapeutics, School of Medicine, Case Western Reserve University, Cleveland, OH 44106, USA. Electronic address: mxn598@case.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hack, Joshua",
+        "short_name": "Hack J",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genomics Department, University of California, Los Angeles, Los Angeles, CA 90095, USA. Electronic address: jhack2@g.ucla.edu."
+        ]
+      },
+      {
+        "full_name": "Nazim, Mohammad",
+        "short_name": "Nazim M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Medicine, Case Western Reserve University, Cleveland, OH 44106, USA; Center for RNA Science and Therapeutics, School of Medicine, Case Western Reserve University, Cleveland, OH 44106, USA. Electronic address: mxn598@case.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "HGG advances"
+    ],
+    "journal_abbrev": [
+      "HGG Adv"
+    ],
+    "pub_date": "2026 Apr 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/01 06:35",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40225153",
+      "39764514",
+      "38701759",
+      "38271453",
+      "38235014",
+      "37953337",
+      "37878314",
+      "37733863",
+      "37500730",
+      "37246482",
+      "37152443",
+      "36035117",
+      "35436152",
+      "34707284",
+      "34007000",
+      "33602870",
+      "33053319",
+      "33046849",
+      "32845893",
+      "32843488",
+      "32461654",
+      "32127026",
+      "32001526",
+      "30703169",
+      "30661751",
+      "30371827",
+      "30343899",
+      "30220433",
+      "30123105",
+      "29453114",
+      "29325986",
+      "28824374",
+      "28391084",
+      "27666373",
+      "27413115",
+      "26601204",
+      "25741868",
+      "24496512",
+      "23785148",
+      "23644491",
+      "23568486",
+      "23315928",
+      "17640523",
+      "16343337",
+      "12824425"
+    ],
+    "similar": [
+      "41764075",
+      "41000737",
+      "39469763",
+      "35699097",
+      "40931232",
+      "28438527",
+      "31427792",
+      "32686290",
+      "27941795",
+      "24421395",
+      "41568967",
+      "31288860",
+      "41237357",
+      "31909846",
+      "30814119",
+      "28649782",
+      "41508098",
+      "35357185",
+      "41781977",
+      "38113003",
+      "42152354",
+      "18437052",
+      "26138476",
+      "42163282",
+      "25370573",
+      "34750410",
+      "39541575",
+      "41545737",
+      "29361909",
+      "25169878",
+      "24335282",
+      "24496512",
+      "42475469",
+      "37500730",
+      "32855269",
+      "34951482",
+      "30898143",
+      "23847378",
+      "35666215",
+      "30459321",
+      "42045441",
+      "38884529",
+      "41679301",
+      "39457434",
+      "27149204",
+      "41052624",
+      "29374058",
+      "33558760",
+      "23698369",
+      "38910326",
+      "37208601",
+      "31652801",
+      "35143088",
+      "42169569",
+      "31799076",
+      "28518218",
+      "36246618",
+      "41116019",
+      "30580808",
+      "37092535",
+      "24346698",
+      "31428904",
+      "39761285",
+      "33323379",
+      "36367395",
+      "38509596",
+      "32444882",
+      "42522262",
+      "41957161",
+      "28863138",
+      "34289068",
+      "33053319",
+      "32460018",
+      "33874999",
+      "41263939",
+      "23929686",
+      "41284190",
+      "31018240",
+      "34857774",
+      "41155467",
+      "31906887",
+      "39869148",
+      "33937409",
+      "41564299",
+      "39440667",
+      "41674383",
+      "41670376",
+      "39888726",
+      "38895336",
+      "30478150",
+      "42589294",
+      "23897427",
+      "22721696",
+      "31255411",
+      "41764152",
+      "41688057",
+      "33255744",
+      "24478402",
+      "34270679",
+      "42056890"
+    ],
+    "review": [
+      "41764075",
+      "18437052",
+      "39541575",
+      "25169878",
+      "24496512",
+      "30898143",
+      "27149204",
+      "38910326",
+      "39888726",
+      "31255411"
+    ],
+    "pmc": [
+      "13000492"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-2477(26)00023-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41764075/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1367",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-2477(26)00023-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/6b8135dq",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

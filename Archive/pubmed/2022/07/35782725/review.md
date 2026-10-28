@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions) without figures or supplementary data
+- **Assessment boundary** Scientific content, methodological soundness, database utility claims, and interpretability of results as presented in the text
+- **Shared manuscript claim summary** The authors present DESSO-DB, a web database hosting motif prediction results from the deep learning tool DESSO applied to 690 ENCODE and 1,677 Cistrome DB ChIP-seq datasets, plus downloadable results for 55 CLIP-seq and 126 cancer ChIP-seq datasets. The database offers online motif scanning and de novo motif finding. The authors also apply DESSO to 172 single-cell CUT&RUN samples and report identification of shared and unique motifs across CTCF, SOX2, and NANOG, with inferences about TF co-regulation.
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 1 and 2, Supplementary Data S1–S6, and Supplementary Examples S1–S4; no actual figures, tables, or supplementary files were provided
+- **Missing materials affecting confidence** Figures 1 and 2, all supplementary data files, database interface screenshots, benchmarking details, and any quantitative performance metrics are not available for inspection
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful community resource for motif analysis, but the current text provides insufficient evidence to evaluate the database's functionality, the validity of the single-cell CUT&RUN analysis, or the strength of the co-regulation claims. The methods section lacks critical details on model training, motif instance optimization, and statistical testing. The results section reports numbers without supporting statistical context. The manuscript would benefit from clearer presentation of validation metrics and a more cautious interpretation of the single-cell findings.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational biology, and bioinformatics who use ChIP-seq or CUT&RUN data for transcription factor binding site identification would find DESSO-DB potentially useful. The database could serve as a convenient resource for accessing precomputed motif predictions and performing motif scans without local computational expertise. The single-cell CUT&RUN analysis may interest investigators studying pluripotency and TF co-regulation in embryonic stem cells.
+- **Major strengths** The database addresses a real need for accessible DL-based motif analysis tools. The scale of precomputed data (2,367 ChIP-seq datasets) is substantial. The inclusion of shape motif features alongside sequence motifs adds analytical value. The deployment on Google Cloud Platform with free public access is commendable. The application to single-cell CUT&RUN data represents a novel direction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim DESSO was "benchmarked as the best tool with the highest overall score for motif finding and TFBS identification among 20 DL tools" and that DESSO-DB provides reliable motif predictions.
+  - **Evidence pointer** Introduction, Results section "Overview of DESSO-DB", location not provided
+  - **Concern** The benchmarking claim is referenced to prior work but no benchmarking details, performance metrics, or comparison results are presented in this manuscript. The database's prediction quality cannot be assessed without showing precision, recall, or other relevant metrics on held-out datasets. The claim that DESSO-DB provides "reliable" motif predictions is unsupported by any validation data in the current text.
+  - **Why it matters** Users of the database need confidence in the underlying prediction quality. Without validation metrics, the utility of the resource is unclear, and the claim of superiority over other tools cannot be verified from this manuscript.
+  - **Resolution test** Provide benchmarking results comparing DESSO against at least a few representative tools on standard datasets, including metrics such as area under the ROC curve, precision-recall, and motif recovery rates. Show these results in a figure or table.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "DESSO improves the identification and structural analysis of TF binding sites, by integrating the complexities of DNA binding into a DL framework" and describe a CNN architecture with a statistical model for motif instance optimization.
+  - **Evidence pointer** Materials and methods, section "Motif prediction using DESSO", location not provided
+  - **Concern** The model description is incomplete. The CNN architecture is described only in terms of layer types and activation functions, with no information on hyperparameters, number of layers, filter sizes, learning rates, regularization strength, or training epochs. The statistical model for motif instance optimization is mentioned but not formally defined. The binomial distribution model is described vaguely, and the relationship between the CNN output and the binomial model is unclear. The p-value threshold of 1e-4 is stated but the multiple testing correction, if any, is not described.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without full architectural and training details, other researchers cannot replicate the method or assess its validity. The statistical model for motif instance selection is central to the method's output and must be rigorously defined.
+  - **Resolution test** Provide a complete description of the model architecture, training procedure, hyperparameters, and the statistical model for motif instance optimization. Include pseudocode or a formal mathematical description of the optimization procedure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the existing DL methods are suitable for analyzing single-cell CUT&RUN data and can reveal potential TF co-regulatory patterns of potential marker gene candidates at the single-cell level."
+  - **Evidence pointer** Results, section "Motif analysis on single-cell CUT&RUN data reveals potential TF co-regulatory mechanisms", location not provided
+  - **Concern** The single-cell CUT&RUN analysis is presented with minimal methodological detail. The authors state that 118, 124, and 205 motifs were identified from SOX2, NANOG, and CTCF data, respectively, and that 240 representative motifs remained after merging, but the merging criteria, statistical significance thresholds, and quality control steps are not described. The claim that 88% of SOX2 cells and 88% of NANOG cells had motif enrichment in the same peak region is presented without confidence intervals or statistical tests. The inference that 13 co-regulated genes are "potential marker gene candidates" is speculative and not supported by functional validation or expression data.
+  - **Why it matters** The single-cell analysis is presented as a novel contribution, but the lack of methodological detail and statistical rigor undermines the validity of the conclusions. Overinterpretation of motif co-occurrence as co-regulation is a known pitfall in the field.
+  - **Resolution test** Provide detailed methods for the single-cell analysis, including data preprocessing, motif calling thresholds, merging criteria, and statistical tests for enrichment. Add appropriate caveats about the limitations of motif-based inference of co-regulation. Consider validating a subset of predictions with independent data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The authors state that DESSO-DB provides "efficient access to the identified motifs and diverse motif analyses" and that it is "a highly useful and user-friendly platform."
+  - **Evidence pointer** Abstract, Results section "Overview of DESSO-DB", Conclusions, location not provided
+  - **Concern** The database's usability and functionality are described only in text. No screenshots, workflow diagrams, or user interface descriptions are provided. The claim of user-friendliness cannot be evaluated. The description of the three major functions is high-level, and the supplementary examples referenced are not available for review.
+  - **Why it matters** For a database paper, the usability and accessibility of the resource are central claims. Without visual evidence or detailed descriptions of the interface, navigation, and output formats, potential users cannot assess whether the database meets their needs.
+  - **Resolution test** Include screenshots of the main interface, a workflow diagram, and descriptions of input/output formats. Provide a clear tutorial or example walkthrough in the main text or supplementary materials.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction jumps between topics without a clear logical flow. The mention of single-cell data and CUT&RUN appears abruptly after a discussion of DL tools, and the relevance to the database is not immediately clear.
+  - **Required correction** Restructure the introduction to first establish the need for accessible motif analysis tools, then introduce DESSO and DESSO-DB, and finally explain the rationale for testing on single-cell CUT&RUN data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, section "Data processing"
+  - **Evidence pointer** Materials and methods, section "Data processing", location not provided
+  - **Issue** The formula for position calculation is written as "position=⌈originstart+originend2⌉-50,⌈originstart+originend2⌉+50" which appears to be a formatting error. The intended formula is unclear.
+  - **Required correction** Correct the formula formatting to clearly show the calculation of the start and end positions of the pruned peaks.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, section "Data processing"
+  - **Evidence pointer** Materials and methods, section "Data processing", location not provided
+  - **Issue** The encoding scheme is described as "A=[0,0,0,1], G=[0,1,0,0], C=[0,0,1,0], T=[0,0,0,1]" which contains an error. The encoding for A and T are identical, and G and C are not one-hot encoded correctly.
+  - **Required correction** Correct the one-hot encoding scheme. For example, A=[1,0,0,0], C=[0,1,0,0], G=[0,0,1,0], T=[0,0,0,1].
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, section "Overview of DESSO-DB"
+  - **Evidence pointer** Results, section "Overview of DESSO-DB", location not provided
+  - **Issue** The text states "We also provide downloadable motif results of DESSO on the 690 ENCODE ChIP-seq datasets, 55 CLIP-seq datasets, 126 cancer-related ChIP-seq datasets, and 1,677 Cistrome DB datasets" but the abstract mentions only 690 ENCODE and 1,677 Cistrome DB datasets. The discrepancy is confusing.
+  - **Required correction** Clarify the total number of datasets and ensure consistency between the abstract and the results section.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, section "Single cell CUT&RUN data analysis"
+  - **Evidence pointer** Materials and methods, section "Single cell CUT&RUN data analysis", location not provided
+  - **Issue** The description of the single-cell CUT&RUN data analysis is very brief and lacks details on data source, preprocessing, and quality control.
+  - **Required correction** Provide more details on the data source, preprocessing steps, and quality control measures for the single-cell CUT&RUN data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking evidence missing), R1-M2 (incomplete model description), R1-M3 (insufficient statistical rigor in single-cell analysis), R1-M4 (no evidence of database usability)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of a DL tool to single-cell CUT&RUN data is somewhat novel, but the core methodology is incremental.
+  - Scientific importance: Moderate. The database could be a useful resource, but the scientific claims about co-regulation are not sufficiently supported.
+  - Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational biologists and bioinformaticians; the presentation is not accessible to a broader biological audience.
+  - Technical soundness: Weak. The methods are incompletely described, and the statistical basis for key claims is not provided.
+  - Readability for nonspecialists: Poor. The text assumes familiarity with DL and motif analysis terminology without adequate explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful resource, but the technical details and validation evidence are insufficient to support the claims made. Major revisions are required to address the concerns above before the case for the database's utility and the scientific conclusions can be established.
+
+## Risk / unsupported claims
+- The claim that DESSO is the "best tool with the highest overall score" among 20 DL tools is unsupported in this manuscript, as no benchmarking data are presented.
+- The claim that DESSO-DB provides "reliable" motif predictions is unsupported without validation metrics.
+- The claim that "the existing DL methods are suitable for analyzing single-cell CUT&RUN data" is not established, as the analysis lacks statistical rigor and methodological detail.
+- The inference that 13 genes co-regulated by SOX2 and NANOG are "potential marker gene candidates" is speculative and unsupported by functional or expression data.
+- The statement that "DESSO improves the identification and structural analysis of TF binding sites" is not verifiable from the provided text.
+- The usability and user-friendliness claims for DESSO-DB cannot be evaluated without screenshots or interface descriptions.

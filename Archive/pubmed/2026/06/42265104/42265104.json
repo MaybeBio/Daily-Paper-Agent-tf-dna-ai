@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "42265104",
+    "doi": "10.1038/s41467-026-73164-3",
+    "title": "Robust footprinting with sample-specific Tn5 bias correction for bulk and single cell ATAC-seq."
+  },
+  "content": {
+    "abstract": "Accurate detection of transcription factor (TF) and nucleosome occupancy from assay for transposase-accessible chromatin via sequencing (ATAC-seq) remains challenging due to sequence-dependent Tn5 cleavage bias. We show that this cleavage bias varies across samples and introduce TraceBind, an ATAC-seq footprinting framework that performs sample-specific Tn5 bias correction by fine-tuning a pretrained cleavage model using mitochondrial DNA reads, followed by multiscale detection with empirical false discovery rate control. Across bulk and single-cell ATAC-seq datasets, with validation by naked DNA controls, matched ChIP-seq and CUT&RUN experiments, and TF degradation perturbations, TraceBind reduces false positives while maintaining high sensitivity compared to existing methods. TraceBind enables improved downstream single-cell analyses, including transcription factor activity inference and cell age prediction. Base-resolution comparisons with DNA foundation model-based sequence annotations show enriched overlap but reveals many high-confidence footprints not captured by DNA foundation models, highlighting complementary regulatory information beyond what can be learned from DNA sequence alone.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*DNA Footprinting/methods",
+      "*Chromatin Immunoprecipitation Sequencing/methods",
+      "Transcription Factors/metabolism/genetics",
+      "*Transposases/metabolism",
+      "Humans",
+      "Nucleosomes/metabolism",
+      "DNA, Mitochondrial/genetics/metabolism",
+      "Animals",
+      "Sequence Analysis, DNA/methods",
+      "Chromatin/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Yuxuan",
+        "Wang, Hanzhi",
+        "Wilson, Parker C",
+        "Zhang, Nancy R"
+      ],
+      "short_names": [
+        "Lin Y",
+        "Wang H",
+        "Wilson PC",
+        "Zhang NR"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-4588-2328",
+        "ORCID: 0009-0001-4577-0864",
+        "ORCID: 0000-0001-8647-9662",
+        "ORCID: 0000-0002-0880-5749"
+      ],
+      "affiliations": [
+        "Department of Statistics and Data Science, Wharton School, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Bioengineering, School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Division of Diagnostic Innovation, Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. parker.wilson@pennmedicine.upenn.edu.",
+        "Penn/CHOP Kidney Innovation Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. parker.wilson@pennmedicine.upenn.edu.",
+        "Institute for Diabetes, Obesity, and Metabolism, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. parker.wilson@pennmedicine.upenn.edu.",
+        "Department of Statistics and Data Science, Wharton School, University of Pennsylvania, Philadelphia, PA, USA. nzh@wharton.upenn.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Yuxuan",
+        "short_name": "Lin Y",
+        "identifiers": [
+          "0009-0006-4588-2328"
+        ],
+        "affiliations": [
+          "Department of Statistics and Data Science, Wharton School, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Hanzhi",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0009-0001-4577-0864"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Wilson, Parker C",
+        "short_name": "Wilson PC",
+        "identifiers": [
+          "0000-0001-8647-9662"
+        ],
+        "affiliations": [
+          "Division of Diagnostic Innovation, Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. parker.wilson@pennmedicine.upenn.edu.",
+          "Penn/CHOP Kidney Innovation Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. parker.wilson@pennmedicine.upenn.edu.",
+          "Institute for Diabetes, Obesity, and Metabolism, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. parker.wilson@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Zhang, Nancy R",
+        "short_name": "Zhang NR",
+        "identifiers": [
+          "0000-0002-0880-5749"
+        ],
+        "affiliations": [
+          "Department of Statistics and Data Science, Wharton School, University of Pennsylvania, Philadelphia, PA, USA. nzh@wharton.upenn.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jun 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/10 06:54",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42185539",
+      "40440429",
+      "40399382",
+      "39939719",
+      "39843737",
+      "39779956",
+      "39747019",
+      "39627201",
+      "39183303",
+      "38724668",
+      "38609714",
+      "38428398",
+      "38347009",
+      "38318533",
+      "38287344",
+      "37857632",
+      "37563227",
+      "37488681",
+      "37154113",
+      "37034474",
+      "36336680",
+      "36130957",
+      "36082605",
+      "36068241",
+      "36055233",
+      "35814628",
+      "35478247",
+      "34729473",
+      "34725479",
+      "34723199",
+      "34385711",
+      "33850129",
+      "33633365",
+      "33590861",
+      "33098772",
+      "32848148",
+      "32728250",
+      "32728249",
+      "32485860",
+      "31740819",
+      "31611697",
+      "30808370",
+      "29610480",
+      "29608179",
+      "28825706",
+      "28537572",
+      "26914206",
+      "26901649",
+      "26656845",
+      "26314830",
+      "26083756",
+      "25953818",
+      "25223782",
+      "24097267",
+      "20383145",
+      "19305407",
+      "19204718",
+      "17574024",
+      "10471498",
+      "9819151",
+      "228293"
+    ],
+    "similar": [
+      "42265104",
+      "41279498",
+      "33191916",
+      "35858748",
+      "30808370",
+      "31164146",
+      "33188264",
+      "32213349",
+      "30791920",
+      "36130957",
+      "36173566",
+      "25294828",
+      "41663439",
+      "40795153",
+      "39017885",
+      "41924246",
+      "30559361",
+      "32014034",
+      "42168187",
+      "39127768",
+      "39255248",
+      "32543102",
+      "39745612",
+      "41932342",
+      "32312702",
+      "34383745",
+      "41571655",
+      "30042136",
+      "34875002",
+      "36062065",
+      "39326643",
+      "36995609",
+      "35941239",
+      "37118773",
+      "35478247",
+      "31409230",
+      "30958473",
+      "27903897",
+      "40250421",
+      "35195064",
+      "34870838",
+      "29052193",
+      "31427911",
+      "39572230",
+      "32807906",
+      "39041910",
+      "36902216",
+      "34898596",
+      "36719906",
+      "35848835",
+      "42114111",
+      "28075484",
+      "30821321",
+      "41041544",
+      "40950158",
+      "32660981",
+      "33606259",
+      "27008018",
+      "38654130",
+      "34488759",
+      "41108684",
+      "25957350",
+      "40452285",
+      "39878215",
+      "35103972",
+      "34255854",
+      "37811941",
+      "39501301",
+      "40049167",
+      "26901649",
+      "41831316",
+      "41545440",
+      "27993786",
+      "30580963",
+      "42125447",
+      "35411004",
+      "37537502",
+      "35296236",
+      "34284136",
+      "31199868",
+      "39757254",
+      "34382186",
+      "39881144",
+      "26083756",
+      "32312703",
+      "34313779",
+      "33111113",
+      "42242226",
+      "38589969",
+      "38943021",
+      "25559105",
+      "36792778",
+      "30064353",
+      "42167226",
+      "33637727",
+      "39141240",
+      "41418650",
+      "37274120",
+      "32336246",
+      "38515040"
+    ],
+    "review": [
+      "42265104",
+      "32014034",
+      "39255248",
+      "32312702",
+      "35478247",
+      "31427911",
+      "33606259",
+      "40452285",
+      "32312703",
+      "38943021"
+    ],
+    "pmc": [
+      "13402823"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-73164-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42265104/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

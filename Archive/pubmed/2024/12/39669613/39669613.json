@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "39669613",
+    "doi": "10.1016/j.gimo.2024.101894",
+    "title": "Integrative computational analyses implicate regulatory genomic elements contributing to spina bifida."
+  },
+  "content": {
+    "abstract": "PURPOSE: Spina bifida (SB) arises from complex genetic interactions that converge to interfere with neural tube closure. Understanding the precise patterns conferring SB risk requires a deep exploration of the genomic networks and molecular pathways that govern neurulation. This study aims to delineate genome-wide regulatory signatures underlying SB pathophysiology. METHODS: An untargeted, genome-wide approach was used to interrogate regulatory regions for rare single-nucleotide and copy-number variants (rSNVs and rCNVs, respectively) predicted to affect gene expression, comparing results from SB patients with healthy controls. Qualifying variants were subjected to a deep learning prioritization framework to identify the most functionally relevant variants, as well as the likely target genes affected by these rare regulatory variants. RESULTS: This ensemble of computational tools identified rSNVs in specific transcription factor binding sites (TFBSs) that distinguish SB cases from controls. rSNV enrichment was found in specific TFBSs, especially CCCTC-binding factor binding sites. These TFBSs were subjected to a deep learning prioritization framework to identify the most functionally relevant variants, as well as the likely target genes affected by these rSNVs. The functional pathways or modules implicated by these regulated genes serve protein transport, cilia assembly, and central nervous system development. Moreover, the detected rare copy-number variants in SB cases are positioned to disrupt gene regulatory networks and alter 3-dimensional genomic architectures, including brain-specific enhancers and topologically associated domain boundaries of relevant cell types. CONCLUSION: Our study provides a resource for identifying and interpreting genomic regulatory DNA variant contributions to human SB genetic predisposition.",
+    "keywords": [
+      "Deep learning",
+      "Intergenic variants",
+      "Neural tube defects",
+      "Topologically associating domains (TADs)",
+      "Transcription factor binding sites (TFBS)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wolujewicz, Paul",
+        "Aguiar-Pulido, Vanessa",
+        "Thareja, Gaurav",
+        "Suhre, Karsten",
+        "Elemento, Olivier",
+        "Finnell, Richard H",
+        "Ross, M Elizabeth"
+      ],
+      "short_names": [
+        "Wolujewicz P",
+        "Aguiar-Pulido V",
+        "Thareja G",
+        "Suhre K",
+        "Elemento O",
+        "Finnell RH",
+        "Ross ME"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY.",
+        "Department of Computer Science, University of Miami, Coral Gables, FL.",
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY.",
+        "Weill Cornell Medicine-Qatar, Doha, Qatar.",
+        "Weill Cornell Medicine-Qatar, Doha, Qatar.",
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY.",
+        "Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, NY.",
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY.",
+        "Center for Precision Environmental Health, Departments of Molecular and Cellular Biology, Molecular and Human Genetics and Medicine, Baylor College of Medicine, Houston, TX.",
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wolujewicz, Paul",
+        "short_name": "Wolujewicz P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY."
+        ]
+      },
+      {
+        "full_name": "Aguiar-Pulido, Vanessa",
+        "short_name": "Aguiar-Pulido V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Miami, Coral Gables, FL.",
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY."
+        ]
+      },
+      {
+        "full_name": "Thareja, Gaurav",
+        "short_name": "Thareja G",
+        "identifiers": [],
+        "affiliations": [
+          "Weill Cornell Medicine-Qatar, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Suhre, Karsten",
+        "short_name": "Suhre K",
+        "identifiers": [],
+        "affiliations": [
+          "Weill Cornell Medicine-Qatar, Doha, Qatar.",
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY."
+        ]
+      },
+      {
+        "full_name": "Elemento, Olivier",
+        "short_name": "Elemento O",
+        "identifiers": [],
+        "affiliations": [
+          "Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, NY.",
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY."
+        ]
+      },
+      {
+        "full_name": "Finnell, Richard H",
+        "short_name": "Finnell RH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Environmental Health, Departments of Molecular and Cellular Biology, Molecular and Human Genetics and Medicine, Baylor College of Medicine, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Ross, M Elizabeth",
+        "short_name": "Ross ME",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetics in medicine open"
+    ],
+    "journal_abbrev": [
+      "Genet Med Open"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/13 11:32",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35995050",
+      "35972862",
+      "35486646",
+      "35164667",
+      "34916285",
+      "34741515",
+      "34663447",
+      "34451862",
+      "34034781",
+      "33811715",
+      "33686259",
+      "33216750",
+      "32814038",
+      "32461652",
+      "32324215",
+      "32244264",
+      "32025007",
+      "31654503",
+      "31114916",
+      "30563709",
+      "29669011",
+      "28605766",
+      "27479844",
+      "27268795",
+      "27141961",
+      "26983021",
+      "26301843",
+      "26223183",
+      "26152199",
+      "25959774",
+      "25732821",
+      "25722852",
+      "25431634",
+      "25339461",
+      "24174537",
+      "22495300",
+      "21221095",
+      "19505943",
+      "19451168",
+      "1754501"
+    ],
+    "similar": [
+      "39669613",
+      "34916285",
+      "33686259",
+      "29335803",
+      "41013918",
+      "32969478",
+      "34541447",
+      "28276201",
+      "40191489",
+      "35887306",
+      "31316638",
+      "29703944",
+      "29081688",
+      "32650820",
+      "27503290",
+      "37051780",
+      "23024041",
+      "27503086",
+      "33545030",
+      "27933721",
+      "30256984",
+      "37522954",
+      "31801603",
+      "31500627",
+      "39922197",
+      "31332962",
+      "25131656",
+      "33919522",
+      "23771139",
+      "24386279",
+      "35986704",
+      "33219661",
+      "41378749",
+      "32850739",
+      "41247408",
+      "38701417",
+      "16817975",
+      "34462306",
+      "28863138",
+      "31177910",
+      "27106869",
+      "36609218",
+      "33137083",
+      "24920305",
+      "27357948",
+      "26340055",
+      "38308339",
+      "40406313",
+      "30054217",
+      "41751570",
+      "41634097",
+      "35176995",
+      "34189529",
+      "24042128",
+      "27067391",
+      "31311581",
+      "29378629",
+      "39606363",
+      "33839113",
+      "34973416",
+      "30086749",
+      "30275357",
+      "34134708",
+      "22140002",
+      "32948616",
+      "34934172",
+      "39283464",
+      "32155318",
+      "30040077",
+      "23706941",
+      "25637093",
+      "29351903",
+      "23223018",
+      "36726730",
+      "36768794",
+      "31266973",
+      "33216750",
+      "40740140",
+      "31533978",
+      "38177348",
+      "28742097",
+      "23913553",
+      "38526198",
+      "12797455",
+      "22313678",
+      "28977568",
+      "27406314",
+      "36648426",
+      "41527854",
+      "41096905",
+      "29793448",
+      "27871221",
+      "38226444",
+      "20671200",
+      "39838281",
+      "31881832",
+      "34174819",
+      "40664840",
+      "18627598",
+      "38798191"
+    ],
+    "review": [
+      "39669613",
+      "29081688",
+      "23024041",
+      "33919522",
+      "39283464"
+    ],
+    "pmc": [
+      "11613821"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2949-7744(24)01040-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39669613/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

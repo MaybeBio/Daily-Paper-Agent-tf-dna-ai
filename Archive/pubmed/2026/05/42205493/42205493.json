@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "42205493",
+    "doi": "10.1155/padi/8731032",
+    "title": "Identification of Gene Signatures and Molecular Mechanisms for Diagnosing Parkinson's Disease and Nonalcoholic Fatty Liver Disease Using Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Parkinson's disease (PD) is a prevalent neurodegenerative disease, whereas nonalcoholic fatty liver disease (NAFLD) is a common metabolic liver disorder. Growing evidence suggests that NAFLD may affect the central nervous system through the liver-brain axis, potentially contributing to PD, although the underlying molecular mechanisms remain unclear. METHODS: To identify differentially expressed genes (DEGs), transcriptomic data for NAFLD and PD were sourced from the GEO database. Key common candidate genes were screened using protein-protein interaction (PPI) networks, machine learning approaches (LASSO, neural networks, and random forest), and functional enrichment analyses, including GO, KEGG, GSEA, and GSVA. Immune infiltration, TF-miRNA regulatory networks, and single-cell RNA sequencing analyses were applied to investigate gene function, immune regulation, and cellular distribution. Candidate drugs were predicted using bioinformatic approaches and validated through molecular docking. RESULTS: CASP1, CCNA2, and INHBE were identified as three core common candidate genes that may be associated with NAFLD and PD. Involvement of these genes includes inflammatory responses, regulation of the cell cycle, metabolic pathways, and immune microenvironment remodeling. The analysis of the TF-miRNA network suggested possible regulation by transcription factors CEBPB, BRD4, FOS, and miRNAs such as hsa-miR-29b-1-5p and hsa-miR-128-3p. Drug prediction and molecular docking identified ethinyl estradiol, mesalamine, and seliciclib as candidate therapeutics, showing strong binding affinity to the core targets. CONCLUSION: This study offers a comprehensive elucidation of the molecular ties between NAFLD and PD. The identified core genes and candidate drugs offer theoretical support for potential candidate biomarkers and therapeutic targets in comorbid NAFLD and PD.",
+    "keywords": [
+      "CASP1",
+      "CCNA2",
+      "INHBE",
+      "NAFLD",
+      "Parkinson's disease",
+      "immune regulation",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Xuan",
+        "Wu, Yulin",
+        "Zhang, Yonglai",
+        "Hou, Yuli"
+      ],
+      "short_names": [
+        "Chen X",
+        "Wu Y",
+        "Zhang Y",
+        "Hou Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-2309-0684",
+        "ORCID: 0009-0002-8799-9664",
+        "ORCID: 0000-0002-3105-9182",
+        "ORCID: 0000-0002-4464-6212"
+      ],
+      "affiliations": [
+        "Department of Neurology, First Hospital of Shanxi Medical University, Taiyuan, Shanxi, China, sxmu.edu.cn.",
+        "Department of Neurology, Taiyuan City Central Hospital, Peking University First Hospital Taiyuan Branch, The Ninth Clinical Medical College of Shanxi Medical University, Taiyuan, Shanxi, China.",
+        "Changzhi Medical College, Changzhi, Shanxi, China, czmc.com.",
+        "School of Software, North University of China, Taiyuan, Shanxi, China, nuc.edu.cn.",
+        "Department of Neurology, First Hospital of Shanxi Medical University, Taiyuan, Shanxi, China, sxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Xuan",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0009-0000-2309-0684"
+        ],
+        "affiliations": [
+          "Department of Neurology, First Hospital of Shanxi Medical University, Taiyuan, Shanxi, China, sxmu.edu.cn.",
+          "Department of Neurology, Taiyuan City Central Hospital, Peking University First Hospital Taiyuan Branch, The Ninth Clinical Medical College of Shanxi Medical University, Taiyuan, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yulin",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0009-0002-8799-9664"
+        ],
+        "affiliations": [
+          "Changzhi Medical College, Changzhi, Shanxi, China, czmc.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yonglai",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-3105-9182"
+        ],
+        "affiliations": [
+          "School of Software, North University of China, Taiyuan, Shanxi, China, nuc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hou, Yuli",
+        "short_name": "Hou Y",
+        "identifiers": [
+          "0000-0002-4464-6212"
+        ],
+        "affiliations": [
+          "Department of Neurology, First Hospital of Shanxi Medical University, Taiyuan, Shanxi, China, sxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Parkinson's disease"
+    ],
+    "journal_abbrev": [
+      "Parkinsons Dis"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/28 06:33",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41389810",
+      "40535646",
+      "39948368",
+      "34763304",
+      "33314312",
+      "31279902",
+      "30745801",
+      "29786072",
+      "29159396",
+      "28629814",
+      "26928243",
+      "26911638",
+      "26226097",
+      "25621497",
+      "24945792",
+      "24873924",
+      "23375353",
+      "20822897",
+      "16861683",
+      "885122"
+    ],
+    "similar": [
+      "42205493",
+      "34536521",
+      "35278479",
+      "39351239",
+      "41052072",
+      "41291978",
+      "37063958",
+      "41703488",
+      "40406126",
+      "40859027",
+      "40093012",
+      "41388523",
+      "38319987",
+      "41442003",
+      "35731466",
+      "40687147",
+      "39973855",
+      "36568397",
+      "41190071",
+      "41378206",
+      "39875572",
+      "40374866",
+      "39556279",
+      "39375405",
+      "39142001",
+      "41021615",
+      "41895505",
+      "42269031",
+      "36605987",
+      "42565562",
+      "42653779",
+      "38476236",
+      "41006883",
+      "37335656",
+      "37090698",
+      "42292668",
+      "35790963",
+      "37506783",
+      "42642681",
+      "35693550",
+      "40534738",
+      "38950810",
+      "38115130",
+      "38051734",
+      "36105301",
+      "39028999",
+      "37520121",
+      "42698445",
+      "35401659",
+      "42004467",
+      "36532015",
+      "41479901",
+      "41102315",
+      "40186271",
+      "32184169",
+      "37697333",
+      "39496918",
+      "41907204",
+      "40539070",
+      "36291136",
+      "41731716",
+      "38755717",
+      "40151199",
+      "41200172",
+      "42074514",
+      "42348043",
+      "38444712",
+      "41145553",
+      "41821008",
+      "39568749",
+      "42528957",
+      "39976098",
+      "41591671",
+      "41436831",
+      "42015036",
+      "41255601",
+      "42024670",
+      "38310567",
+      "39351221",
+      "38537674",
+      "40779572",
+      "42192776",
+      "42541533",
+      "42609119",
+      "34434654",
+      "39108890",
+      "42123445",
+      "39080525",
+      "38601162",
+      "42107160",
+      "39512836",
+      "36704339",
+      "42729648",
+      "36104591",
+      "41465132",
+      "41291841",
+      "39935526",
+      "40532306",
+      "37305753",
+      "42326009"
+    ],
+    "review": [
+      "42205493"
+    ],
+    "pmc": [
+      "13202728"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42205493/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/padi/8731032",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

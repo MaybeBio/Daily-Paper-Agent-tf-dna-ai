@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "42524644",
+    "doi": "10.3164/jcbn.25-270",
+    "title": "Machine learning identifies neutrophil-related signatures for diagnostic value in neonatal sepsis."
+  },
+  "content": {
+    "abstract": "Neonatal sepsis (NS) is one of the leading causes of neonatal mortality. The nonspecific clinical manifestations and the limited timeliness of existing biomarkers (such as C-reactive protein) highlight the urgent need for highly accurate diagnostic tools. Neutrophils, as key effector cells of innate immunity, are closely involved in the progression of NS. This study integrated training (GSE69686) and validation (GSE25504) datasets from the GEO database. Neutrophil infiltration characteristics were analyzed utilizing CIBERSORT, and weighted gene co-expression network analysis (WGCNA) was introduced to determine neutrophil-related co-expression modules. Three machine learning algorithms-LASSO, SVM-RFE, and RF-were implemented to cross-screen core diagnostic genes. A combined diagnostic model was distributed based on these genes. NetworkAnalyst was utilized to predict miRNA-TF regulatory networks, and GSVA was conducted to interpret biological functions. Three algorithms identified IL1R2 and METTL7B as core diagnostic genes; the model showed strong reliability. IL1R2 high expression correlated with reduced CD8(+) T cells, regulatory T cells, and neutrophils (p<0.05). METTL7B high expression linked positively to B cells and negatively to NK cells/neutrophils. The two genes synergistically cause immune cell dysfunction. Six miRNAs and 15 transcription factors (e.g., NFKB1/RELA, STAT3) regulating these genes were found, involved in inflammation and metabolic reprogramming. Integrating neutrophil infiltration and triple-machine-learning, this study first proposed an IL1R2/METTL7B two-gene panel. The model had high accuracy and generalizability, potentially contributing to NS pathogenesis via immune dysfunction and metabolic reprogramming, supporting rapid diagnostics and targeted interventions.",
+    "keywords": [
+      "LASSO",
+      "SVM-RFE",
+      "neonatal sepsis",
+      "neutrophils",
+      "random forest"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Qibing",
+        "Chen, Jiandong",
+        "Zhong, Ronghua"
+      ],
+      "short_names": [
+        "Chen Q",
+        "Chen J",
+        "Zhong R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Neonatal Department, Longyan First Hospital Affiliated to Fujian Medical University, No. 1 Lianzhuang South Road, Caoxi Street, Xinluo District, Longyan City, Fujian Province, 364000, China.",
+        "Neonatal Department, Longyan First Hospital Affiliated to Fujian Medical University, No. 1 Lianzhuang South Road, Caoxi Street, Xinluo District, Longyan City, Fujian Province, 364000, China.",
+        "Neonatal Department, Longyan First Hospital Affiliated to Fujian Medical University, No. 1 Lianzhuang South Road, Caoxi Street, Xinluo District, Longyan City, Fujian Province, 364000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Qibing",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Neonatal Department, Longyan First Hospital Affiliated to Fujian Medical University, No. 1 Lianzhuang South Road, Caoxi Street, Xinluo District, Longyan City, Fujian Province, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiandong",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Neonatal Department, Longyan First Hospital Affiliated to Fujian Medical University, No. 1 Lianzhuang South Road, Caoxi Street, Xinluo District, Longyan City, Fujian Province, 364000, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Ronghua",
+        "short_name": "Zhong R",
+        "identifiers": [],
+        "affiliations": [
+          "Neonatal Department, Longyan First Hospital Affiliated to Fujian Medical University, No. 1 Lianzhuang South Road, Caoxi Street, Xinluo District, Longyan City, Fujian Province, 364000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of clinical biochemistry and nutrition"
+    ],
+    "journal_abbrev": [
+      "J Clin Biochem Nutr"
+    ],
+    "pub_date": "2026 Jul 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/29 13:54",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40704655",
+      "40582691",
+      "40446574",
+      "40186387",
+      "39703776",
+      "38236387",
+      "37904344",
+      "37666089",
+      "37515158",
+      "37261353",
+      "37137720",
+      "37095375",
+      "37078353",
+      "36900011",
+      "36512674",
+      "35603523",
+      "35491874",
+      "35306578",
+      "35254598",
+      "35148838",
+      "35144642",
+      "34992348",
+      "34990478",
+      "34772670",
+      "34743180",
+      "34376255",
+      "34320411",
+      "34295265",
+      "34183713",
+      "34140358",
+      "33833846",
+      "33111742",
+      "32793229",
+      "32556802",
+      "32555376",
+      "32157117",
+      "31918290",
+      "31832202",
+      "31443682",
+      "30984267",
+      "29757357",
+      "29247989",
+      "22622521",
+      "20417323",
+      "19891795",
+      "19114008",
+      "18793001",
+      "18366602",
+      "15657102",
+      "15001782",
+      "11377293"
+    ],
+    "similar": [
+      "42524644",
+      "41988156",
+      "42292468",
+      "40830558",
+      "42247642",
+      "42326009",
+      "42123445",
+      "41013727",
+      "41611834",
+      "41388523",
+      "41436831",
+      "41324863",
+      "36855207",
+      "42292668",
+      "39375405",
+      "39142001",
+      "38371524",
+      "41716396",
+      "39586719",
+      "42015036",
+      "42243611",
+      "41479901",
+      "41052072",
+      "38755717",
+      "41432483",
+      "41300841",
+      "42154423",
+      "40129981",
+      "40362669",
+      "41013556",
+      "42302029",
+      "40789248",
+      "40861421",
+      "40374866",
+      "42123756",
+      "38650649",
+      "40768057",
+      "41029776",
+      "39263286",
+      "35965814",
+      "38245687",
+      "41886545",
+      "41214111",
+      "42056344",
+      "40453984",
+      "41902830",
+      "40618698",
+      "35184762",
+      "41703488",
+      "38951833",
+      "38291374",
+      "38863714",
+      "40892227",
+      "40457357",
+      "41132349",
+      "40967560",
+      "41570454",
+      "40406620",
+      "42313235",
+      "40620701",
+      "38839020",
+      "41306613",
+      "41044520",
+      "38900395",
+      "41508240",
+      "39697326",
+      "37891634",
+      "42291298",
+      "42256531",
+      "41164826",
+      "40119397",
+      "34107850",
+      "41760060",
+      "40151199",
+      "35962388",
+      "39713769",
+      "38711508",
+      "41816342",
+      "40313958",
+      "40165133",
+      "42475469",
+      "36532015",
+      "39396400",
+      "38215553",
+      "39552895",
+      "41822387",
+      "39026250",
+      "40177399",
+      "41810197",
+      "42277919",
+      "36704339",
+      "39170142",
+      "41833346",
+      "41787525",
+      "37701780",
+      "39394418",
+      "41265166",
+      "41104127",
+      "41146237",
+      "41627661"
+    ],
+    "review": [
+      "42524644"
+    ],
+    "pmc": [
+      "13412481"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.3164/jcbn.25-270",
+        "provider": "J-STAGE, Japan Science and Technology Information Aggregator, Electronic",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42524644/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "40200431",
+    "doi": "10.1021/acs.jcim.4c02288",
+    "title": "Look What You Made Me Do: Discerning Feature for Classification of Endocrine-Disrupting Chemical Binding to Steroid Hormone Receptors."
+  },
+  "content": {
+    "abstract": "Exposure to metabolism-disrupting chemicals, which are a specific type of endocrine-disrupting chemical (EDC), is linked to metabolic problems such as dyslipidemia, insulin resistance, and hepatic steatosis. Steroid hormone receptors (SHRs) within the nuclear receptor superfamily are well-known targets for EDCs in reproductive tissues and, to a lesser extent, in liver. In this study, we investigated how five well-established SHR ligands and eight EDCs including pesticides, plasticizers, pharmaceuticals, flame retardants, industrial chemicals, and their metabolites affect estrogen (ERalpha in reproductive tissues) and glucocorticoid (GR in liver) receptors. We investigated the utility of structural molecular modeling to classify EDC binding to ERalpha and GR. To this end, we modeled a set of EDC binding to ER and GR using unbiased all-atom long-time scale molecular dynamics (MD) simulations and compared them against known established SHR agonists and antagonists. We systematically evaluated MD-derived variables such as protein-ligand interactions and binding energy, folding secondary structure elements, distances, and angles as relevant parameters. Our findings suggest that the well-established H12 folding and conformational angles can be discerning features for binding of EDCs to SHRs. Although SHR activation often involves changes in H12 folding and geometry, GR displayed less flexibility in this region, suggesting that protein-ligand interaction and binding energy are more relevant for its classification. We show that MD simulations combined with experimental assays can be a useful tool for studying novel EDCs by providing relevant structural features for their classification.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Endocrine Disruptors/metabolism/chemistry/classification",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*Receptors, Glucocorticoid/metabolism/chemistry",
+      "Ligands",
+      "Humans",
+      "*Receptors, Steroid/metabolism/chemistry",
+      "*Estrogen Receptor alpha/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rashidian, Azam",
+        "Pitkanen, Sini",
+        "Maltarollo, Vinicius Goncalves",
+        "Schoppmeier, Ulrich",
+        "Shevchenko, Ekaterina",
+        "Medarametla, Prasanthi",
+        "Poso, Antti",
+        "Kublbeck, Jenni",
+        "Honkakoski, Paavo",
+        "Kronenberger, Thales"
+      ],
+      "short_names": [
+        "Rashidian A",
+        "Pitkanen S",
+        "Maltarollo VG",
+        "Schoppmeier U",
+        "Shevchenko E",
+        "Medarametla P",
+        "Poso A",
+        "Kublbeck J",
+        "Honkakoski P",
+        "Kronenberger T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7631-3885",
+        "ORCID: 0000-0003-4196-4204",
+        "ORCID: 0000-0002-4332-3577",
+        "ORCID: 0000-0001-6933-7590"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universitat Tubingen, Auf der Morgenstelle 8, 72076 Tubingen, Germany.",
+        "Tubingen Center for Academic Drug Discovery & Development (TuCAD2), 72076 Tubingen, Germany.",
+        "Interfaculty Institute of Microbiology and Infection Medicine (IMIT), University of Tubingen, Tubingen, Germany; Partner-site Tubingen, German Center for Infection Research (DZIF), 72076 Tubingen, Germany.",
+        "A.I. Virtanen Institute for Molecular Sciences, University of Eastern Finland, P.O. Box 1627, 70210 Kuopio, Finland.",
+        "Departamento de Produtos Farmaceuticos, Faculdade de Farmacia, Universidade Federal de Minas Gerais, Av. Presidente Antonio Carlos, 6627, Pampulha, 31270-901 Belo Horizonte, MG, Brazil.",
+        "Interfaculty Institute of Microbiology and Infection Medicine (IMIT), University of Tubingen, Tubingen, Germany; Partner-site Tubingen, German Center for Infection Research (DZIF), 72076 Tubingen, Germany.",
+        "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universitat Tubingen, Auf der Morgenstelle 8, 72076 Tubingen, Germany.",
+        "Tubingen Center for Academic Drug Discovery & Development (TuCAD2), 72076 Tubingen, Germany.",
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, 70211 Kuopio, Finland.",
+        "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universitat Tubingen, Auf der Morgenstelle 8, 72076 Tubingen, Germany.",
+        "Tubingen Center for Academic Drug Discovery & Development (TuCAD2), 72076 Tubingen, Germany.",
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, 70211 Kuopio, Finland.",
+        "A.I. Virtanen Institute for Molecular Sciences, University of Eastern Finland, P.O. Box 1627, 70210 Kuopio, Finland.",
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, 70211 Kuopio, Finland.",
+        "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universitat Tubingen, Auf der Morgenstelle 8, 72076 Tubingen, Germany.",
+        "Tubingen Center for Academic Drug Discovery & Development (TuCAD2), 72076 Tubingen, Germany.",
+        "Interfaculty Institute of Microbiology and Infection Medicine (IMIT), University of Tubingen, Tubingen, Germany; Partner-site Tubingen, German Center for Infection Research (DZIF), 72076 Tubingen, Germany.",
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, 70211 Kuopio, Finland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rashidian, Azam",
+        "short_name": "Rashidian A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universität Tübingen, Auf der Morgenstelle 8, 72076 Tübingen, Germany.",
+          "Tübingen Center for Academic Drug Discovery & Development (TüCAD2), 72076 Tübingen, Germany.",
+          "Interfaculty Institute of Microbiology and Infection Medicine (IMIT), University of Tübingen, Tübingen, Germany; Partner-site Tübingen, German Center for Infection Research (DZIF), 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Pitkänen, Sini",
+        "short_name": "Pitkänen S",
+        "identifiers": [],
+        "affiliations": [
+          "A.I. Virtanen Institute for Molecular Sciences, University of Eastern Finland, P.O. Box 1627, 70210 Kuopio, Finland."
+        ]
+      },
+      {
+        "full_name": "Maltarollo, Vinicius Goncalves",
+        "short_name": "Maltarollo VG",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Produtos Farmacêuticos, Faculdade de Farmácia, Universidade Federal de Minas Gerais, Av. Presidente Antônio Carlos, 6627, Pampulha, 31270-901 Belo Horizonte, MG, Brazil."
+        ]
+      },
+      {
+        "full_name": "Schoppmeier, Ulrich",
+        "short_name": "Schoppmeier U",
+        "identifiers": [],
+        "affiliations": [
+          "Interfaculty Institute of Microbiology and Infection Medicine (IMIT), University of Tübingen, Tübingen, Germany; Partner-site Tübingen, German Center for Infection Research (DZIF), 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Shevchenko, Ekaterina",
+        "short_name": "Shevchenko E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universität Tübingen, Auf der Morgenstelle 8, 72076 Tübingen, Germany.",
+          "Tübingen Center for Academic Drug Discovery & Development (TüCAD2), 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Medarametla, Prasanthi",
+        "short_name": "Medarametla P",
+        "identifiers": [
+          "0000-0002-7631-3885"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, 70211 Kuopio, Finland."
+        ]
+      },
+      {
+        "full_name": "Poso, Antti",
+        "short_name": "Poso A",
+        "identifiers": [
+          "0000-0003-4196-4204"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universität Tübingen, Auf der Morgenstelle 8, 72076 Tübingen, Germany.",
+          "Tübingen Center for Academic Drug Discovery & Development (TüCAD2), 72076 Tübingen, Germany.",
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, 70211 Kuopio, Finland."
+        ]
+      },
+      {
+        "full_name": "Küblbeck, Jenni",
+        "short_name": "Küblbeck J",
+        "identifiers": [],
+        "affiliations": [
+          "A.I. Virtanen Institute for Molecular Sciences, University of Eastern Finland, P.O. Box 1627, 70210 Kuopio, Finland."
+        ]
+      },
+      {
+        "full_name": "Honkakoski, Paavo",
+        "short_name": "Honkakoski P",
+        "identifiers": [
+          "0000-0002-4332-3577"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, 70211 Kuopio, Finland."
+        ]
+      },
+      {
+        "full_name": "Kronenberger, Thales",
+        "short_name": "Kronenberger T",
+        "identifiers": [
+          "0000-0001-6933-7590"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universität Tübingen, Auf der Morgenstelle 8, 72076 Tübingen, Germany.",
+          "Tübingen Center for Academic Drug Discovery & Development (TüCAD2), 72076 Tübingen, Germany.",
+          "Interfaculty Institute of Microbiology and Infection Medicine (IMIT), University of Tübingen, Tübingen, Germany; Partner-site Tübingen, German Center for Infection Research (DZIF), 72076 Tübingen, Germany.",
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, 70211 Kuopio, Finland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Apr 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/09 10:11",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "42378554",
+      "42345802",
+      "41115053"
+    ],
+    "refs": [
+      "38593436",
+      "38501469",
+      "36756805",
+      "36398403",
+      "35782743",
+      "34937942",
+      "34121616",
+      "34096718",
+      "34046609",
+      "32786601",
+      "32432465",
+      "32344727",
+      "32303708",
+      "31836225",
+      "31792807",
+      "31689103",
+      "31520960",
+      "31244000",
+      "30366952",
+      "30085373",
+      "29728618",
+      "28615710",
+      "27246655",
+      "26602186",
+      "26092037",
+      "25558886",
+      "24843675",
+      "24103914",
+      "24094408",
+      "22927406",
+      "22519603",
+      "21905107",
+      "21054169",
+      "20924370",
+      "19913032",
+      "19598265",
+      "19372222",
+      "18676654",
+      "18225901",
+      "17064078",
+      "17034125",
+      "16322577",
+      "15876404",
+      "15276186",
+      "15048827",
+      "15027865",
+      "14648625",
+      "12686538",
+      "12151000",
+      "11937504",
+      "11123888",
+      "10970886",
+      "10746941",
+      "10573424",
+      "10469641",
+      "9895674",
+      "9875847",
+      "9338790",
+      "9192902",
+      "8544170"
+    ],
+    "similar": [
+      "40200431",
+      "40216312",
+      "33799614",
+      "32003036",
+      "29522903",
+      "24928891",
+      "23707773",
+      "25349983",
+      "18921983",
+      "23688835",
+      "31689103",
+      "32570315",
+      "31520960",
+      "23814048",
+      "23384675",
+      "32786601",
+      "26647222",
+      "31310931",
+      "16351736",
+      "30460461",
+      "39694292",
+      "32208804",
+      "23383871",
+      "29389661",
+      "36896182",
+      "34273429",
+      "31391291",
+      "29777833",
+      "38704805",
+      "23137989",
+      "31127318",
+      "23973438",
+      "28677244",
+      "26198481",
+      "21327625",
+      "16750840",
+      "31760044",
+      "34825505",
+      "38871163",
+      "25260197",
+      "21053929",
+      "26291836",
+      "40243467",
+      "21420388",
+      "28061508",
+      "34444624",
+      "17249692",
+      "12002784",
+      "31421215",
+      "23354572",
+      "25927714",
+      "33848905",
+      "22890857",
+      "34725837",
+      "36982431",
+      "38699885",
+      "35876442",
+      "27241264",
+      "34502280",
+      "32391796",
+      "40178351",
+      "17141447",
+      "23340252",
+      "34562481",
+      "27156209",
+      "29055205",
+      "18753690",
+      "25349334",
+      "17173372",
+      "34859678",
+      "29957541",
+      "33716955",
+      "17400923",
+      "38594491",
+      "33640727",
+      "32552445",
+      "10580842",
+      "37451095",
+      "32909075",
+      "34576301",
+      "26304264",
+      "21054169",
+      "38668470",
+      "24850832",
+      "25282305",
+      "9817600",
+      "25451822",
+      "15544494",
+      "37053516",
+      "20544555",
+      "32973678",
+      "20601221",
+      "31792807",
+      "21760925",
+      "27693315",
+      "33819127",
+      "22975079",
+      "39064835",
+      "27071811",
+      "39862785"
+    ],
+    "review": [
+      "40200431",
+      "29522903",
+      "23688835",
+      "31520960",
+      "36896182",
+      "31760044",
+      "21053929",
+      "26291836",
+      "12002784",
+      "33848905",
+      "36982431",
+      "38699885",
+      "34562481",
+      "33716955",
+      "21054169",
+      "24850832",
+      "15544494",
+      "32973678",
+      "31792807"
+    ],
+    "pmc": [
+      "12042260"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40200431/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c02288",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

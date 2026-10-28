@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "41322602",
+    "doi": "10.1021/acsomega.5c08531",
+    "title": "Discovery of Sesamolin as a Potential Anti-Helicobacter pylori Agent by Virtual Screening against the Essential Response Regulator HsrA with In Vitro Evaluation."
+  },
+  "content": {
+    "abstract": "Helicobacter pylori infects nearly half of the world's population and contributes to chronic gastritis, gastric cancer, and other gastrointestinal diseases. Upon diagnosis, antibiotic-based regimens are typically used for eradication. However, the increasing antibiotic resistance of H. pylori and the side effects of these medications highlight the need for safer and more effective alternatives, particularly those derived from natural products. In this study, by using high-throughput molecular docking, 12 commercially available potential HsrA inhibitors were screened out from 13,142 natural compounds in the TCMSP database for the first time. After evaluation of their binding-mode stability to HsrA by using molecular dynamics (MD) simulations and their minimum inhibitory concentration (MIC), sesamolin (3) and coptisine (6), exhibiting stable binding modes and strong anti-H. pylori activity, were selected, and their inhibitory effects on the DNA-binding activity of HsrA were further confirmed using electrophoretic mobility shift assay (EMSA). However, compound 3 bound HsrA with high affinity (K (D) = 17.08 nM), approximately 23-fold stronger than compound 6 (K (D) = 399.60 nM). Further RT-qPCR analysis demonstrated that compound 3 exerted regulatory effects stronger than those of 6 on HsrA-linked genes (tlpB, flhA), urease genes (ureA, ureB), and the oxidative stress gene (sodB; reported to inversely correlate with HsrA levels). Consistently, 3 showed a greater suppression of urea chemotaxis and a larger increase in superoxide dismutase (SOD) activity than 6. Our investigation uncovered sesamolin, a common lignan found in sesame, which could be a potential anti-H. pylori compound by binding with HsrA and regulating the related key genes of H. pylori.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Yihang",
+        "Luo, Shuhan",
+        "Yang, Fen",
+        "Zhang, Baochao",
+        "He, Xiaoqin",
+        "Liao, Juan",
+        "Liao, Lili",
+        "Zheng, Tianli",
+        "Pei, Xiaofang"
+      ],
+      "short_names": [
+        "Xu Y",
+        "Luo S",
+        "Yang F",
+        "Zhang B",
+        "He X",
+        "Liao J",
+        "Liao L",
+        "Zheng T",
+        "Pei X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0694-7783"
+      ],
+      "affiliations": [
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530",
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530",
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530",
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530",
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530",
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530",
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530",
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530",
+        "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China. RINGGOLD: 12530"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Yihang",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Shuhan",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fen",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Baochao",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "He, Xiaoqin",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Juan",
+        "short_name": "Liao J",
+        "identifiers": [],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Lili",
+        "short_name": "Liao L",
+        "identifiers": [],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Tianli",
+        "short_name": "Zheng T",
+        "identifiers": [],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Xiaofang",
+        "short_name": "Pei X",
+        "identifiers": [
+          "0000-0003-0694-7783"
+        ],
+        "affiliations": [
+          "West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/01 12:28",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39493576",
+      "39337660",
+      "39202269",
+      "38885678",
+      "38704935",
+      "38698330",
+      "38268702",
+      "38176660",
+      "37457142",
+      "37030876",
+      "36718848",
+      "36660649",
+      "36512676",
+      "36191284",
+      "35726731",
+      "35694298",
+      "35647033",
+      "35489057",
+      "35084181",
+      "34973929",
+      "34641392",
+      "34360614",
+      "34278794",
+      "34254810",
+      "34165011",
+      "33950214",
+      "33806161",
+      "33765344",
+      "33262701",
+      "31847484",
+      "31383920",
+      "31069703",
+      "30893780",
+      "30893536",
+      "30468256",
+      "28112213",
+      "28071659",
+      "26694080",
+      "26269952",
+      "25873628",
+      "25505712",
+      "24850022",
+      "24296668",
+      "23429531",
+      "22435959",
+      "21982300",
+      "21534921",
+      "19499576",
+      "19399780",
+      "17491010",
+      "17447753",
+      "16981200",
+      "15980475",
+      "12036371",
+      "11517324",
+      "11259830",
+      "10746014",
+      "10480269"
+    ],
+    "similar": [
+      "41322602",
+      "24296668",
+      "31383920",
+      "39337660",
+      "35694298",
+      "31847484",
+      "37586440",
+      "40252938",
+      "1612735",
+      "39257142",
+      "37160706",
+      "40786612",
+      "36344628",
+      "38823658",
+      "40073720",
+      "33585739",
+      "37971157",
+      "38440143",
+      "37723879",
+      "30191728",
+      "37164257",
+      "41498156",
+      "31262979",
+      "33786292",
+      "39493576",
+      "37587906",
+      "24747984",
+      "31724503",
+      "37274067",
+      "28045966",
+      "41047664",
+      "25132753",
+      "34363898",
+      "37578257",
+      "38396647",
+      "41373728",
+      "27923651",
+      "34464702",
+      "40127028",
+      "41264022",
+      "38114907",
+      "31759110",
+      "40054639",
+      "36681166",
+      "38430447",
+      "27177639",
+      "39831446",
+      "27930268",
+      "8857304",
+      "36038087",
+      "35493653",
+      "22891951",
+      "41488860",
+      "16706809",
+      "36771040",
+      "34997872",
+      "28498343",
+      "38024697",
+      "41392259",
+      "31031029",
+      "40912906",
+      "11940215",
+      "15901691",
+      "40005988",
+      "34977105",
+      "9491500",
+      "41394107",
+      "36174808",
+      "29410309",
+      "30094082",
+      "32013183",
+      "39988708",
+      "32116195",
+      "37876433",
+      "12490099",
+      "31384789",
+      "41205636",
+      "24040220",
+      "26269952",
+      "38937901",
+      "12471160",
+      "16105119",
+      "40455698",
+      "29867978",
+      "41150776",
+      "11349073",
+      "37956613",
+      "40617783",
+      "26297842",
+      "41097273",
+      "40264290",
+      "39407478",
+      "40437630",
+      "25892867",
+      "25483699",
+      "39919439",
+      "38663778",
+      "36421252",
+      "41275937",
+      "31568921"
+    ],
+    "review": [
+      "41322602",
+      "36344628",
+      "37971157",
+      "41047664",
+      "25132753",
+      "27177639",
+      "40912906",
+      "36174808",
+      "30094082",
+      "12471160",
+      "40617783"
+    ],
+    "pmc": [
+      "12658632"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41322602/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.5c08531",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.07.527436",
+  "title": "CircSSNN: circRNA-binding site prediction via sequence self-attention neural networks with pre-normalization",
+  "authors": "Chao Cao; Shuhong Yang; Mengli Li; Chungui Li",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-07",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用自注意力神经网络预测circRNA与RNA结合蛋白的结合位点，属于RNA-蛋白互作而非蛋白质-DNA互作，且无TF-DNA结合建模，方法虽可迁移但对象与互作轴均偏离本课题核心。",
+  "abstract": "Circular RNAs (circRNAs) play a significant role in some diseases by acting as transcription templates. Therefore, analyzing the interaction mechanism between circRNA and RNA-binding proteins (RBPs) has far-reaching implications for the prevention and treatment of diseases. Existing models for circRNA-RBP identification most adopt CNN, RNN, or their variants as feature extractors. Most of them have drawbacks such as poor parallelism, insufficient stability, and inability to capture long-term dependence. To address these issues, we designed a Seq_transformer module to extract deep semantic features and then propose a CircRNA-RBP identification model based on Sequence Self-attention with Pre-normalization. We test it on 37 circRNA datasets and 31 linear RNA datasets using the same set of hyperparameters, and the overall performance of the proposed model is highly competitive and, in some cases, significantly out-performs state-of-the-art methods. The experimental results indicate that the proposed model is scalable, transformable, and can be applied to a wide range of applications without the need for task-oriented fine-tuning of parameters. The code is available at https://github.com/cc646201081/CircSSNN . Author summary In this paper, we propose a new method completely using the self-attention mechanism to capture deep semantic features of RNA sequences. On this basis, we construct a CircSSNN model for the cirRNA-RBP identification. The proposed model constructs a feature scheme by fusing circRNA sequence representations with statistical distributions, static local context, and dynamic global context. With a stable and efficient network architecture, the distance between any two positions in a sequence is reduced to a constant, so CircSSNN can quickly capture the long-term dependence and extract the deep semantic features. Experiments on 37 circRNA datasets show that the proposed model has overall advantages in stability, parallelism, and prediction performance. Keeping the network structure and hyperparameters unchanged, we directly apply CircSSNN to linRNA datasets. The favorable results show that CircSSNN can be transformed simply and efficiently without task-oriented tuning. In conclusion, CircSSNN can serve as an appealing circRNA-RBP identification tool with good identification performance, excellent scalability, and wide application scope, which is expected to reduce the professional threshold required for hyperparameter tuning in bioinformatics analysis.",
+  "abstract_zh": "环状RNA（circRNAs）通过充当转录模板在某些疾病中发挥重要作用。因此，分析circRNA与RNA结合蛋白（RBPs）之间的相互作用机制对于疾病的预防和治疗具有深远意义。现有的circRNA-RBP识别模型大多采用CNN、RNN或其变体作为特征提取器，其中多数存在并行性差、稳定性不足以及无法捕捉长期依赖等缺点。为解决这些问题，我们设计了一个Seq_transformer模块来提取深层语义特征，进而提出了一种基于序列自注意力与预归一化的CircRNA-RBP识别模型。我们在37个circRNA数据集和31个线性RNA数据集上使用同一组超参数进行测试，所提模型的整体性能极具竞争力，在某些情况下显著优于现有最先进方法。实验结果表明，该模型具有可扩展性、可转换性，并且无需针对任务进行参数微调即可广泛应用于多种场景。代码可在https://github.com/cc646201081/CircSSNN获取。作者摘要：本文提出了一种完全利用自注意力机制捕捉RNA序列深层语义特征的新方法。在此基础上，我们构建了用于circRNA-RBP识别的CircSSNN模型。该模型通过融合circRNA序列表示与统计分布、静态局部上下文和动态全局上下文来构建特征方案。凭借稳定高效的网络架构，序列中任意两个位置之间的距离被缩减为常数，因此CircSSNN能够快速捕捉长期依赖并提取深层语义特征。在37个circRNA数据集上的实验表明，所提模型在稳定性、并行性和预测性能方面具有整体优势。保持网络结构和超参数不变，我们直接将CircSSNN应用于线性RNA数据集，良好的结果表明CircSSNN无需任务导向调整即可简单高效地转换。总之，CircSSNN可作为一种具有良好识别性能、优异可扩展性和广泛适用范围的circRNA-RBP识别工具，有望降低生物信息学分析中超参数调整所需的专业门槛。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.07.527436",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.07.527436",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.07.527436/index.html"
+}

@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "38987807",
+    "doi": "10.1186/s13059-024-03321-8",
+    "title": "TFscope: systematic analysis of the sequence features involved in the binding preferences of transcription factors."
+  },
+  "content": {
+    "abstract": "Characterizing the binding preferences of transcription factors (TFs) in different cell types and conditions is key to understand how they orchestrate gene expression. Here, we develop TFscope, a machine learning approach that identifies sequence features explaining the binding differences observed between two ChIP-seq experiments targeting either the same TF in two conditions or two TFs with similar motifs (paralogous TFs). TFscope systematically investigates differences in the core motif, nucleotide environment and co-factor motifs, and provides the contribution of each key feature in the two experiments. TFscope was applied to > 305 ChIP-seq pairs, and several examples are discussed.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "*Machine Learning",
+      "Binding Sites",
+      "Humans",
+      "Nucleotide Motifs",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Romero, Raphael",
+        "Menichelli, Christophe",
+        "Vroland, Christophe",
+        "Marin, Jean-Michel",
+        "Lebre, Sophie",
+        "Lecellier, Charles-Henri",
+        "Brehelin, Laurent"
+      ],
+      "short_names": [
+        "Romero R",
+        "Menichelli C",
+        "Vroland C",
+        "Marin JM",
+        "Lebre S",
+        "Lecellier CH",
+        "Brehelin L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2582-2831"
+      ],
+      "affiliations": [
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France.",
+        "IMAG, Univ Montpellier, CNRS, Montpellier, France.",
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France.",
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France.",
+        "Institut de Genetique Moleculaire de Montpellier, University of Montpellier, CNRS, Montpellier, France.",
+        "IMAG, Univ Montpellier, CNRS, Montpellier, France.",
+        "IMAG, Univ Montpellier, CNRS, Montpellier, France. sophie.lebre@umontpellier.fr.",
+        "AMIS, Universite Paul-Valery-Montpellier 3, Montpellier, France. sophie.lebre@umontpellier.fr.",
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France. charles.lecellier@igmm.cnrs.fr.",
+        "Institut de Genetique Moleculaire de Montpellier, University of Montpellier, CNRS, Montpellier, France. charles.lecellier@igmm.cnrs.fr.",
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France. brehelin@lirmm.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Romero, Raphaël",
+        "short_name": "Romero R",
+        "identifiers": [],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France.",
+          "IMAG, Univ Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Menichelli, Christophe",
+        "short_name": "Menichelli C",
+        "identifiers": [],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Vroland, Christophe",
+        "short_name": "Vroland C",
+        "identifiers": [],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France.",
+          "Institut de Génétique Moléculaire de Montpellier, University of Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Marin, Jean-Michel",
+        "short_name": "Marin JM",
+        "identifiers": [],
+        "affiliations": [
+          "IMAG, Univ Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Lèbre, Sophie",
+        "short_name": "Lèbre S",
+        "identifiers": [],
+        "affiliations": [
+          "IMAG, Univ Montpellier, CNRS, Montpellier, France. sophie.lebre@umontpellier.fr.",
+          "AMIS, Université Paul-Valéry-Montpellier 3, Montpellier, France. sophie.lebre@umontpellier.fr."
+        ]
+      },
+      {
+        "full_name": "Lecellier, Charles-Henri",
+        "short_name": "Lecellier CH",
+        "identifiers": [],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France. charles.lecellier@igmm.cnrs.fr.",
+          "Institut de Génétique Moléculaire de Montpellier, University of Montpellier, CNRS, Montpellier, France. charles.lecellier@igmm.cnrs.fr."
+        ]
+      },
+      {
+        "full_name": "Bréhélin, Laurent",
+        "short_name": "Bréhélin L",
+        "identifiers": [
+          "0000-0002-2582-2831"
+        ],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France. brehelin@lirmm.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2024 Jul 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/11 00:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "39735654"
+    ],
+    "refs": [
+      "37733848",
+      "35606795",
+      "34673109",
+      "34579793",
+      "33861755",
+      "33796819",
+      "33760053",
+      "33751115",
+      "33603233",
+      "33533919",
+      "33231677",
+      "32692442",
+      "32433972",
+      "32393327",
+      "31992709",
+      "31856220",
+      "31701148",
+      "31639474",
+      "31283382",
+      "31034924",
+      "30709337",
+      "30517703",
+      "29605182",
+      "29588361",
+      "29510689",
+      "29396493",
+      "29305491",
+      "29140464",
+      "28686588",
+      "28591841",
+      "28377102",
+      "28349863",
+      "28110180",
+      "27084946",
+      "27076634",
+      "26550823",
+      "26303532",
+      "26301843",
+      "26285121",
+      "26160164",
+      "25762553",
+      "25240437",
+      "24927817",
+      "24441470",
+      "23595227",
+      "23332764",
+      "22955990",
+      "22955617",
+      "22610855",
+      "21330290",
+      "21149679",
+      "20513432",
+      "19815308",
+      "15696541",
+      "15499007",
+      "15131651",
+      "7584402",
+      "2172928"
+    ],
+    "similar": [
+      "38987807",
+      "39796242",
+      "37805453",
+      "39402535",
+      "35681170",
+      "25179504",
+      "32825662",
+      "33975951",
+      "22955990",
+      "35240993",
+      "22955984",
+      "28240320",
+      "31138617",
+      "26160164",
+      "26818008",
+      "37650641",
+      "39482734",
+      "31742324",
+      "40102719",
+      "38654130",
+      "31723409",
+      "28750606",
+      "25215497",
+      "31653198",
+      "24927817",
+      "23748563",
+      "22863112",
+      "28334916",
+      "40598892",
+      "41325984",
+      "41536793",
+      "29363433",
+      "39944799",
+      "34465294",
+      "25927199",
+      "42018442",
+      "23805837",
+      "32574834",
+      "29605182",
+      "27871221",
+      "32976105",
+      "28137873",
+      "23461573",
+      "29325176",
+      "36631751",
+      "34953471",
+      "28718849",
+      "38966997",
+      "42099803",
+      "40205063",
+      "35971180",
+      "22534400",
+      "28234893",
+      "19956545",
+      "31750523",
+      "29385521",
+      "30598100",
+      "41526967",
+      "33326109",
+      "41022541",
+      "26291518",
+      "38831039",
+      "20375099",
+      "40015273",
+      "31942977",
+      "23793746",
+      "38256085",
+      "26703974",
+      "32858223",
+      "25957350",
+      "35410161",
+      "36484687",
+      "37486787",
+      "24790155",
+      "33999190",
+      "36043696",
+      "20870645",
+      "39438113",
+      "23272209",
+      "23531767",
+      "22300769",
+      "34524404",
+      "30453943",
+      "20838582",
+      "34272562",
+      "31372637",
+      "25428352",
+      "24565265",
+      "31093693",
+      "26550823",
+      "22039215",
+      "36012247",
+      "39326643",
+      "29326300",
+      "25953800",
+      "24322294",
+      "30133315",
+      "36929078",
+      "33037196",
+      "24564277"
+    ],
+    "review": [
+      "38987807",
+      "31742324"
+    ],
+    "pmc": [
+      "11514967"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03321-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38987807/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

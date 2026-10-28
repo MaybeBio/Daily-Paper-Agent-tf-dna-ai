@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "40345665",
+    "doi": "10.1016/j.labinv.2025.104192",
+    "title": "Deep Learning-Based Retinoblastoma Protein Subtyping of Pulmonary Large-Cell Neuroendocrine Carcinoma on Small Hematoxylin and Eosin-Stained Specimens."
+  },
+  "content": {
+    "abstract": "Molecular subtyping of pulmonary large-cell neuroendocrine carcinoma (LCNEC) based on retinoblastoma protein (pRb) expression may influence systemic treatment decisions. Current histomorphologic assessments of hematoxylin and eosin-stained tissue samples cannot reliably differentiate LCNEC molecular subtypes. This study explores the potential of deep learning (DL) to identify histologic patterns that distinguish these subtypes, by developing a custom convolutional neural network to predict the binary expression of pRb in small LCNEC tissue samples. Our model was trained, cross-validated, and tested on tissue microarray cores from 143 resection specimens and biopsies from 21 additional patients, with corresponding immunohistochemical pRb status. The best-performing DL model achieved a patient-wise balanced accuracy value of 0.75 and an area under the receiver operating characteristic curve value of 0.77 when tested on biopsies, significantly outperforming the hematoxylin and eosin-based subtype classification by lung pathologists. Explainable artificial intelligence techniques further highlighted coarse chromatin patterns and distinct nucleoli as distinguishing features for pRb retained status. Meanwhile, pRb lost cases were characterized by limited cytoplasm and morphologic similarities with small cell lung cancer. These findings suggest that DL analysis of small histopathology samples could ultimately replace immunohistochemical pRb testing. Such a development may assist in guiding chemotherapy decisions, particularly in metastatic cases.",
+    "keywords": [
+      "deep learning",
+      "hematoxylin and eosin",
+      "large-cell neuroendocrine carcinoma",
+      "retinoblastoma 1",
+      "subtyping"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lung Neoplasms/pathology/metabolism/classification/diagnosis",
+      "*Carcinoma, Neuroendocrine/pathology/metabolism/classification/diagnosis",
+      "*Deep Learning",
+      "*Retinoblastoma Protein/metabolism/analysis",
+      "Hematoxylin/chemistry",
+      "Eosine Yellowish-(YS)",
+      "*Carcinoma, Large Cell/pathology/metabolism/classification",
+      "Female",
+      "Male",
+      "Immunohistochemistry",
+      "Middle Aged",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Trandafir, Teodora E",
+        "Heijboer, Frank W J",
+        "Akram, Farhan",
+        "Derks, Jules L",
+        "Li, Yunlei",
+        "Hillen, Lisa M",
+        "Speel, Ernst-Jan M",
+        "Megyesfalvi, Zsolt",
+        "Dome, Balazs",
+        "Stubbs, Andrew P",
+        "Dingemans, Anne-Marie C",
+        "von der Thusen, Jan H"
+      ],
+      "short_names": [
+        "Trandafir TE",
+        "Heijboer FWJ",
+        "Akram F",
+        "Derks JL",
+        "Li Y",
+        "Hillen LM",
+        "Speel EM",
+        "Megyesfalvi Z",
+        "Dome B",
+        "Stubbs AP",
+        "Dingemans AC",
+        "von der Thusen JH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands.",
+        "Department of Respiratory Medicine, Erasmus MC Cancer Institute, Erasmus University Medical Center, Rotterdam, The Netherlands.",
+        "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands.",
+        "Department of Respiratory Medicine, Erasmus MC Cancer Institute, Erasmus University Medical Center, Rotterdam, The Netherlands; Department of Pulmonary Diseases, GROW School for Oncology and Reproduction, Maastricht University Medical Centre, Maastricht, The Netherlands.",
+        "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands.",
+        "Department of Pathology, GROW School for Oncology and Reproduction, Maastricht University Medical Centre, Maastricht, The Netherlands.",
+        "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands; Department of Pathology, GROW School for Oncology and Reproduction, Maastricht University Medical Centre, Maastricht, The Netherlands.",
+        "Department of Thoracic Surgery, Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria; Department of Thoracic Surgery, Semmelweis University and National Institute of Oncology, Budapest, Hungary; National Koranyi Institute of Pulmonology, Budapest, Hungary.",
+        "Department of Thoracic Surgery, Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria; Department of Thoracic Surgery, Semmelweis University and National Institute of Oncology, Budapest, Hungary; National Koranyi Institute of Pulmonology, Budapest, Hungary; Department of Translational Medicine, Lund University, Lund, Sweden.",
+        "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands.",
+        "Department of Respiratory Medicine, Erasmus MC Cancer Institute, Erasmus University Medical Center, Rotterdam, The Netherlands.",
+        "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands. Electronic address: j.vonderthusen@erasmusmc.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Trandafir, Teodora E",
+        "short_name": "Trandafir TE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Heijboer, Frank W J",
+        "short_name": "Heijboer FWJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Erasmus MC Cancer Institute, Erasmus University Medical Center, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Akram, Farhan",
+        "short_name": "Akram F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Derks, Jules L",
+        "short_name": "Derks JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Erasmus MC Cancer Institute, Erasmus University Medical Center, Rotterdam, The Netherlands; Department of Pulmonary Diseases, GROW School for Oncology and Reproduction, Maastricht University Medical Centre, Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Li, Yunlei",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hillen, Lisa M",
+        "short_name": "Hillen LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, GROW School for Oncology and Reproduction, Maastricht University Medical Centre, Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Speel, Ernst-Jan M",
+        "short_name": "Speel EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands; Department of Pathology, GROW School for Oncology and Reproduction, Maastricht University Medical Centre, Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Megyesfalvi, Zsolt",
+        "short_name": "Megyesfalvi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria; Department of Thoracic Surgery, Semmelweis University and National Institute of Oncology, Budapest, Hungary; National Koranyi Institute of Pulmonology, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Dome, Balazs",
+        "short_name": "Dome B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria; Department of Thoracic Surgery, Semmelweis University and National Institute of Oncology, Budapest, Hungary; National Koranyi Institute of Pulmonology, Budapest, Hungary; Department of Translational Medicine, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Stubbs, Andrew P",
+        "short_name": "Stubbs AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dingemans, Anne-Marie C",
+        "short_name": "Dingemans AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Erasmus MC Cancer Institute, Erasmus University Medical Center, Rotterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "von der Thüsen, Jan H",
+        "short_name": "von der Thüsen JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Clinical Bioinformatics, Erasmus University Medical Center, Rotterdam, The Netherlands. Electronic address: j.vonderthusen@erasmusmc.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Laboratory investigation; a journal of technical methods and pathology"
+    ],
+    "journal_abbrev": [
+      "Lab Invest"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/10 00:47",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40345665",
+      "32246504",
+      "40898302",
+      "38871058",
+      "19627535",
+      "31678831",
+      "27998793",
+      "9496831",
+      "34400666",
+      "9591721",
+      "40539233",
+      "37580019",
+      "31593583",
+      "11135471",
+      "17643676",
+      "10824928",
+      "35802259",
+      "30485478",
+      "28884744",
+      "35115593",
+      "35544410",
+      "32953248",
+      "31677963",
+      "31109352",
+      "23312550",
+      "35406511",
+      "21319315",
+      "29271588",
+      "20195168",
+      "34674268",
+      "22583114",
+      "18091382",
+      "32858338",
+      "20459535",
+      "19248553",
+      "38159439",
+      "27368130",
+      "26735857",
+      "31583856",
+      "33031101",
+      "37634868",
+      "32432709",
+      "16462732",
+      "31694833",
+      "22296117",
+      "26903161",
+      "15016488",
+      "40902984",
+      "30734490",
+      "31775086",
+      "36304941",
+      "40568803",
+      "39215631",
+      "31166966",
+      "36057739",
+      "32663285",
+      "39150543",
+      "22219429",
+      "10452502",
+      "30284410",
+      "35144629",
+      "37904277",
+      "39864546",
+      "11391577",
+      "20398190",
+      "25318848",
+      "41240593",
+      "34489586",
+      "37269416",
+      "16138368",
+      "35119111",
+      "11567220",
+      "40256728",
+      "40614900",
+      "40946794",
+      "40251691",
+      "21075474",
+      "40193520",
+      "36496303",
+      "27259015",
+      "32691982",
+      "21254456",
+      "39318255",
+      "38180312",
+      "12711118",
+      "15639721",
+      "11747218",
+      "25956813",
+      "39134429",
+      "16707368",
+      "26541538",
+      "21920624",
+      "34913369",
+      "40557542",
+      "35603802",
+      "20677557",
+      "25708144",
+      "18343782",
+      "25963795",
+      "30885341"
+    ],
+    "review": [
+      "40345665",
+      "17643676",
+      "36304941",
+      "40568803",
+      "34489586",
+      "39318255",
+      "25956813"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0023-6837(25)00102-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

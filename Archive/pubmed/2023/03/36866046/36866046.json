@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "36866046",
+    "doi": "10.1016/j.isci.2023.105945",
+    "title": "DeepBend: An interpretable model of DNA bendability."
+  },
+  "content": {
+    "abstract": "The bendability of genomic DNA impacts chromatin packaging and protein-DNA binding. However, we do not have a comprehensive understanding of the motifs influencing DNA bendability. Recent high-throughput technologies such as Loop-Seq offer an opportunity to address this gap but the lack of accurate and interpretable machine learning models still remains. Here we introduce DeepBend, a convolutional neural network model with convolutions designed to directly capture the motifs underlying DNA bendability and their periodic occurrences or relative arrangements that modulate bendability. DeepBend consistently performs on par with alternative models while giving an extra edge through mechanistic interpretations. Besides confirming the known motifs of DNA bendability, DeepBend also revealed several novel motifs and showed how the spatial patterns of motif occurrences influence bendability. DeepBend's genome-wide prediction of bendability further showed how bendability is linked to chromatin conformation and revealed the motifs controlling the bendability of topologically associated domains and their boundaries.",
+    "keywords": [
+      "Biochemistry",
+      "Biological sciences",
+      "Genetics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khan, Samin Rahman",
+        "Sakib, Sadman",
+        "Rahman, M Sohel",
+        "Samee, Md Abul Hassan"
+      ],
+      "short_names": [
+        "Khan SR",
+        "Sakib S",
+        "Rahman MS",
+        "Samee MAH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bangladesh University of Engineering and Technology, Dhaka, Bangladesh.",
+        "Bangladesh University of Engineering and Technology, Dhaka, Bangladesh.",
+        "Bangladesh University of Engineering and Technology, Dhaka, Bangladesh.",
+        "Baylor College of Medicine, Houston, TX, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khan, Samin Rahman",
+        "short_name": "Khan SR",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh University of Engineering and Technology, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sakib, Sadman",
+        "short_name": "Sakib S",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh University of Engineering and Technology, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, M Sohel",
+        "short_name": "Rahman MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh University of Engineering and Technology, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Samee, Md Abul Hassan",
+        "short_name": "Samee MAH",
+        "identifiers": [],
+        "affiliations": [
+          "Baylor College of Medicine, Houston, TX, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2023 Feb 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/04 06:00",
+    "fetched_at": "2026-09-28 20:59:24"
+  },
+  "links": {
+    "cites": [
+      "42087784",
+      "40895081",
+      "40894713",
+      "40071933",
+      "39763889",
+      "38375921",
+      "38336958",
+      "37954573",
+      "37697433"
+    ],
+    "refs": [
+      "36471057",
+      "36140783",
+      "35288750",
+      "33983921",
+      "33760053",
+      "33603233",
+      "33328628",
+      "33170773",
+      "31619572",
+      "31416914",
+      "29906441",
+      "29335486",
+      "29229184",
+      "27723753",
+      "26668005",
+      "26119342",
+      "25620396",
+      "25026169",
+      "24374639",
+      "23463311",
+      "22722846",
+      "21646431",
+      "21330290",
+      "19208466",
+      "17093194",
+      "14739342",
+      "6323997"
+    ],
+    "similar": [
+      "36866046",
+      "38375921",
+      "37697433",
+      "29069282",
+      "28245811",
+      "9710538",
+      "24124207",
+      "36140783",
+      "31653198",
+      "35288750",
+      "21295529",
+      "33581335",
+      "19108579",
+      "29931149",
+      "33232622",
+      "34741515",
+      "31092333",
+      "31856220",
+      "24266748",
+      "31881832",
+      "29060747",
+      "32424069",
+      "29335486",
+      "37954573",
+      "36609218",
+      "16789915",
+      "28977546",
+      "23656909",
+      "33634313",
+      "27526722",
+      "22066542",
+      "34729306",
+      "26971251",
+      "38807713",
+      "33953908",
+      "29137603",
+      "34524404",
+      "30661750",
+      "34383745",
+      "29993783",
+      "22449982",
+      "35240993",
+      "34429265",
+      "36069455",
+      "28472398",
+      "31164146",
+      "28155712",
+      "21142224",
+      "31049567",
+      "9358163",
+      "25409831",
+      "30731167",
+      "8804425",
+      "23805837",
+      "26868017",
+      "10710711",
+      "35867243",
+      "30598689",
+      "27993786",
+      "36094959",
+      "20579334",
+      "24606023",
+      "31351925",
+      "31510916",
+      "21486936",
+      "32324215",
+      "35676617",
+      "20056654",
+      "31138617",
+      "33005921",
+      "35181793",
+      "26374059",
+      "30128822",
+      "26490019",
+      "20096096",
+      "35933090",
+      "29267972",
+      "34383754",
+      "17963524",
+      "26411866",
+      "32144844",
+      "27896980",
+      "27747214",
+      "30044963",
+      "27436288",
+      "31742324"
+    ],
+    "review": [
+      "36866046",
+      "21295529",
+      "34429265",
+      "10710711",
+      "30044963"
+    ],
+    "pmc": [
+      "9971889"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(23)00022-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36866046/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36866046",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

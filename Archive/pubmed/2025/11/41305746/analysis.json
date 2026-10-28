@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41305746",
+  "title": "Integrative bioinformatics analysis for identifying the mitochondrial-related gene associated with immune infiltration in sarcopenia.",
+  "authors": "Yan, Hongyu; Li, Yang; Liu, Zhongyuan; Zhou, Tianle; Liu, Kai; Xiong, Ling; Huang, Fei",
+  "journal": "Medicine",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过生物信息学分析筛选肌少症线粒体相关基因并预测转录因子，但核心是表达谱与免疫浸润，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "The increasing prevalence of sarcopenia (SAR) has raised significant concerns in healthcare. Although mitochondrial dysfunction and immune disorders are recognized as risk factors, the interactions between them remain unclear. This study aims to identify potential diagnostic biomarkers associated with both phenotypes in the progression of SAR. Three transcriptional datasets were obtained from the GEO database. Gene set enrichment analysis (GSEA) was performed to explore the features of the training set, followed by filtering the differentially expressed genes (DEGs). Weighted gene co-expression network analysis was applied to select gene modules closely related to SAR. SAR-mitochondria-related DEGs were then determined by intersecting the DEGs, weighted gene co-expression network analysis, and mitochondrial-related genes from the MitoCarta3.0 database. Hub genes were further explored using LASSO and random forest machine learning algorithms. The regulatory molecules of these hub genes were predicted using the NetworkAnalyst database. Subsequently, receiver operating characteristic analysis was performed and the immune infiltration was analyzed using the CIBERSORT algorithm. A SAR model was established in C2C12 cells using d-galactose, and RT-qPCR experiments were performed for further validation. Gene set enrichment analysis results revealed that the training set genes are mainly enriched in mitochondrial function and energy metabolism. Through the machine learning methods, 5 hub genes were screened out from 32 SAR-Mito DEGs, namely MTRF1L, MICU1, DHTKD1, ACADM, and FHIT. A total of 42 transcription factors and 10 miRNAs strongly associated with the hub genes were detected. These hub genes demonstrated solid diagnostic potential in both training and validation sets. Furthermore, immune infiltration analysis indicated a significant reduction in neutrophil levels in SAR patients. The downregulation of the hub genes in d-galactose-induced C2C12 cells was confirmed. Collectively, our findings identified 5 potential biomarkers for the diagnosis and therapy of SAR and emphasized the interaction between mitochondrial function and the immune response in the development of this condition.",
+  "abstract_zh": "肌少症（SAR）患病率的日益增加已在医疗保健领域引起重大关注。尽管线粒体功能障碍和免疫紊乱被认为是风险因素，但二者之间的相互作用仍不清楚。本研究旨在识别与SAR进展中两种表型相关的潜在诊断生物标志物。从GEO数据库获取了三个转录数据集。进行基因集富集分析（GSEA）以探索训练集的特征，随后筛选差异表达基因（DEGs）。应用加权基因共表达网络分析选择与SAR密切相关的基因模块。通过将DEGs、加权基因共表达网络分析结果与来自MitoCarta3.0数据库的线粒体相关基因相交，确定了SAR-线粒体相关DEGs。使用LASSO和随机森林机器学习算法进一步探索核心基因。利用NetworkAnalyst数据库预测这些核心基因的调控分子。随后，进行受试者工作特征分析，并使用CIBERSORT算法分析免疫浸润。在C2C12细胞中使用d-半乳糖建立SAR模型，并进行RT-qPCR实验以进一步验证。基因集富集分析结果显示，训练集基因主要富集于线粒体功能和能量代谢。通过机器学习方法，从32个SAR-Mito DEGs中筛选出5个核心基因，即MTRF1L、MICU1、DHTKD1、ACADM和FHIT。共检测到42个转录因子和10个miRNA与核心基因密切相关。这些核心基因在训练集和验证集中均显示出可靠的诊断潜力。此外，免疫浸润分析表明SAR患者中性粒细胞水平显著降低。在d-半乳糖诱导的C2C12细胞中确认了核心基因的下调。总体而言，我们的发现识别了5个用于SAR诊断和治疗的潜在生物标志物，并强调了线粒体功能与免疫反应在该疾病发展中的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41305746/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41305746/",
+  "paper_page_path": "papers/pubmed/41305746/index.html"
+}

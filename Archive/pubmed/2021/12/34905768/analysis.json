@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34905768",
+  "title": "DeepDISOBind: accurate prediction of RNA-, DNA- and protein-binding intrinsically disordered residues with deep multi-task learning.",
+  "authors": "Zhang, Fuhao; Zhao, Bi; Shi, Wenbo; Li, Min; Kurgan, Lukasz",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-12-15",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度多任务学习预测蛋白内在无序区与DNA/RNA/蛋白的结合残基，虽非TF-DNA特异性体系，但方法可迁移至TF-DNA互作预测。",
+  "abstract": "Proteins with intrinsically disordered regions (IDRs) are common among eukaryotes. Many IDRs interact with nucleic acids and proteins. Annotation of these interactions is supported by computational predictors, but to date, only one tool that predicts interactions with nucleic acids was released, and recent assessments demonstrate that current predictors offer modest levels of accuracy. We have developed DeepDISOBind, an innovative deep multi-task architecture that accurately predicts deoxyribonucleic acid (DNA)-, ribonucleic acid (RNA)- and protein-binding IDRs from protein sequences. DeepDISOBind relies on an information-rich sequence profile that is processed by an innovative multi-task deep neural network, where subsequent layers are gradually specialized to predict interactions with specific partner types. The common input layer links to a layer that differentiates protein- and nucleic acid-binding, which further links to layers that discriminate between DNA and RNA interactions. Empirical tests show that this multi-task design provides statistically significant gains in predictive quality across the three partner types when compared to a single-task design and a representative selection of the existing methods that cover both disorder- and structure-trained tools. Analysis of the predictions on the human proteome reveals that DeepDISOBind predictions can be encoded into protein-level propensities that accurately predict DNA- and RNA-binding proteins and protein hubs. DeepDISOBind is available at https://www.csuligroup.com/DeepDISOBind/.",
+  "abstract_zh": "含有内在无序区域（IDRs）的蛋白质在真核生物中普遍存在。许多IDRs与核酸和蛋白质相互作用。这些相互作用的注释得到计算预测器的支持，但迄今为止，仅有一种预测核酸相互作用的工具被发布，且最近的评估表明，现有预测器的准确性水平有限。我们开发了DeepDISOBind，一种创新的深度多任务架构，能够从蛋白质序列中准确预测脱氧核糖核酸（DNA）、核糖核酸（RNA）和蛋白质结合的IDRs。DeepDISOBind依赖于信息丰富的序列谱，该谱由创新的多任务深度神经网络处理，其中后续层逐渐专门化以预测与特定伙伴类型的相互作用。共同输入层连接到一个区分蛋白质和核酸结合的层，该层进一步连接到区分DNA和RNA相互作用的层。实证测试表明，与单任务设计以及涵盖无序和结构训练工具的现有方法代表性选择相比，这种多任务设计在三种伙伴类型的预测质量上提供了统计学上显著的提升。对人类蛋白质组的预测分析揭示，DeepDISOBind的预测可编码为蛋白质水平倾向性，这些倾向性准确预测DNA和RNA结合蛋白及蛋白质枢纽。DeepDISOBind可在https://www.csuligroup.com/DeepDISOBind/获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34905768/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34905768/",
+  "paper_page_path": "papers/pubmed/34905768/index.html"
+}

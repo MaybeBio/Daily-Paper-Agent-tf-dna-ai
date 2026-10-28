@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42188872",
+  "title": "A Foundation Model of Cancer Genotype Enables Precise Predictions of Therapeutic Response.",
+  "authors": "Kong, JungHo; Lee, Ingoo; Boecher, Dean; Singhal, Akshat; Kelly, Marcus R; Moon, Jimin; Ahn, Chang Ho; Ock, Chan-Young; Pratt, Dexter; Kumar, Tannavee; Sears, Timothy J; Laub, David; Wright, Sarah; Wall, Patrick; Carter, Hannah; Wang, Zhen; Ideker, Trey",
+  "journal": "Cancer discovery",
+  "published_date": "2026-05-26",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 0,
+  "one_liner_zh": "该文构建肿瘤基因组基础模型预测治疗反应，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Although genetic sequencing is routine in cancer care, translating a tumor's complex mutation profile into actionable treatment decisions remains a central challenge. MutationProjector is pretrained on a large corpus of genomic alterations across more than 30,000 tumors, integrated with extensive molecular knowledge. The resulting projection reveals a tumor's altered molecular pathways, facilitating model interpretation, and it accurately reconstructs held-out mutations, demonstrating model generalization. When applied to predict immunotherapy or chemotherapy resistance across multiple cancer types and cohorts, MutationProjector achieves or exceeds state-of-the-art performance in all contexts. It identifies unexpected biomarkers, including KMT2D mutation in immunotherapy sensitivity and joint alteration of SMARCA4 and STK11 in immunotherapy resistance. These results establish a unifying framework for connecting tumor genotypes to biological mechanisms and therapeutic outcomes. SIGNIFICANCE: This work describes MutationProjector, a tumor genomic foundation model pretrained on more than 30,000 tumors. It maps mutations to biological states for diagnosis and treatment, achieving state-of-the-art performance in predicting therapy resistance and identifying biomarkers such as KMT2D (sensitivity) and SMARCA4/STK11 coalterations (resistance).",
+  "abstract_zh": "尽管基因测序在癌症治疗中已是常规操作，但将肿瘤复杂的突变谱转化为可行的治疗决策仍是一项核心挑战。MutationProjector在超过30,000个肿瘤的大规模基因组变异语料库上进行了预训练，并整合了广泛的分子知识。由此产生的投影揭示了肿瘤改变的分子通路，促进了模型的可解释性，并且它准确重建了保留的突变，展示了模型的泛化能力。当应用于预测多种癌症类型和队列中的免疫治疗或化疗耐药性时，MutationProjector在所有情境中均达到或超越了最先进的性能。它识别出意外的生物标志物，包括免疫治疗敏感性中的KMT2D突变以及免疫治疗耐药性中SMARCA4和STK11的联合改变。这些结果建立了一个统一框架，将肿瘤基因型与生物学机制及治疗结果联系起来。意义：这项工作描述了MutationProjector，一个在超过30,000个肿瘤上预训练的肿瘤基因组基础模型。它将突变映射到生物学状态以指导诊断和治疗，在预测治疗耐药性及识别生物标志物（如KMT2D（敏感性）和SMARCA4/STK11联合改变（耐药性））方面达到了最先进的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42188872/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42188872/",
+  "paper_page_path": "papers/pubmed/42188872/index.html"
+}

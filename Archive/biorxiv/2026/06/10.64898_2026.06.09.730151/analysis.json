@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.09.730151",
+  "title": "Multi-Scale Machine Learning for Antibody-Antigen Binding Affinity Prediction Using Deep Mutational Scanning and Structural Features",
+  "authors": "Santhosh Sivasubramani",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-23",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多尺度机器学习预测抗体-抗原结合亲和力变化，虽非TF-DNA体系，但蛋白-蛋白互作结合预测与特征融合方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Predicting how mutations alter antibody-antigen binding affinity is essential for antibody engineering and vaccine design, yet current methods generalize poorly to unseen complexes. We present a multi-scale machine learning framework integrating 93 descriptors across four modalities: physicochemical, structural, ESM-2 protein language model, and solvent-accessible surface area (SASA)/ΔΔ G fold features. Under leave-one-complex-out deep mutational scanning (LOCO-DMS) cross-validation on AbAgym (36,541 mutations, 68 experiments, 13 pathogens), gradient boosting achieved MCC = 0.206; a confidence-stratified ensemble reached MCC = 0.374 (83.5% accuracy, 25.5% coverage). No single modality exceeds the majority baseline alone; only multi-scale fusion succeeds. Boltzmann ceiling analysis shows 45.9% of mutations are near-neutral (|ΔΔ G | < k B T ), bounding theoretical maximum MCC at 0.473; our method achieves 79.1% of this limit. Five deep learning architectures benchmarked under LOCO-DMS showed self-attention matching gradient boosting (MCC = 0.200). Cross-pathogen transfer failed systematically (mean 46.7%), confirming universal binding predictors remain an open challenge.",
+  "abstract_zh": "预测突变如何改变抗体-抗原结合亲和力对于抗体工程和疫苗设计至关重要，然而当前方法在未见复合物上的泛化能力较差。我们提出了一种多尺度机器学习框架，整合了四种模态的93个描述符：物理化学、结构、ESM-2蛋白质语言模型以及溶剂可及表面积（SASA）/ΔΔG折叠特征。在AbAgym（36,541个突变，68个实验，13种病原体）上的留一复合物深度突变扫描（LOCO-DMS）交叉验证中，梯度提升实现了MCC = 0.206；置信度分层集成达到MCC = 0.374（83.5%准确率，25.5%覆盖率）。单一模态单独均未超过多数基线；只有多尺度融合成功。玻尔兹曼上限分析显示，45.9%的突变接近中性（|ΔΔG| < k_B T），将理论最大MCC限制在0.473；我们的方法达到了该极限的79.1%。在LOCO-DMS下基准测试的五种深度学习架构显示，自注意力与梯度提升相当（MCC = 0.200）。跨病原体迁移系统性失败（平均46.7%），确认通用结合预测因子仍是一个开放挑战。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.09.730151",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.09.730151",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.09.730151/index.html"
+}

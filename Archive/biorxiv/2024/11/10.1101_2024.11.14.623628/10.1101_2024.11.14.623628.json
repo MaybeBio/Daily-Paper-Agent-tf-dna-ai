@@ -1,0 +1,461 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.14.623628",
+  "title": "miRBench: novel benchmark datasets for microRNA binding site prediction that mitigate against prevalent microRNA Frequency Class Bias",
+  "doi": "10.1101/2024.11.14.623628",
+  "abstract": "Motivation MicroRNAs (miRNAs) are crucial regulators of gene expression, but the precise mechanisms governing their binding to target sites remain unclear. A major contributing factor to this is the lack of unbiased experimental datasets for training accurate prediction models. While recent experimental advances have provided numerous miRNA-target interactions, these are solely positive interactions. Generating negative examples in silico is challenging and prone to introducing biases, such as the miRNA frequency class bias identified in this work. Biases within datasets can compromise model generalization, leading models to learn dataset-specific artifacts rather than true biological patterns. Results We introduce a novel methodology for negative sample generation that effectively mitigates the miRNA frequency class bias. Using this methodology, we curate several new, extensive datasets and benchmark several state-of-the-art methods on them. We find that a simple convolutional neural network model, retrained on some of these datasets, is able to outperform state-of-the-art methods. This highlights the potential for leveraging unbiased datasets to achieve improved performance in miRNA binding site prediction. To facilitate further research and lower the barrier to entry for machine learning researchers, we provide an easily accessible Python package, miRBench, for dataset retrieval, sequence encoding, and the execution of state-of-the-art models. Availability The miRBench Python Package is accessible at https://github.com/katarinagresova/miRBench/releases/tag/v1.0.0",
+  "authors": [
+    "Stephanie Sammut",
+    "Katarina Gresova",
+    "Dimosthenis Tzimotoudis",
+    "Eva Marsalkova",
+    "David Cechak",
+    "Panagiotis Alexiou"
+  ],
+  "published_date": "2024-11-15",
+  "updated_date": "2024-11-15T22:45:27Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.14.623628",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.14.623628.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T23:19:07Z",
+        "timestamp": 1768519147464,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            15
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                15
+              ]
+            ],
+            "date-time": "2024-11-15T00:00:00Z",
+            "timestamp": 1731628800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            31
+          ]
+        ]
+      },
+      "abstract": "<jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>\n                    MicroRNAs (miRNAs) are crucial regulators of gene expression, but the precise mechanisms governing their binding to target sites remain unclear. A major contributing factor to this is the lack of unbiased experimental datasets for training accurate prediction models. While recent experimental advances have provided numerous miRNA-target interactions, these are solely positive interactions. Generating negative examples\n                    <jats:italic>in silico</jats:italic>\n                    is challenging and prone to introducing biases, such as the miRNA frequency class bias identified in this work. Biases within datasets can compromise model generalization, leading models to learn dataset-specific artifacts rather than true biological patterns.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We introduce a novel methodology for negative sample generation that effectively mitigates the miRNA frequency class bias. Using this methodology, we curate several new, extensive datasets and benchmark several state-of-the-art methods on them. We find that a simple convolutional neural network model, retrained on some of these datasets, is able to outperform state-of-the-art methods. This highlights the potential for leveraging unbiased datasets to achieve improved performance in miRNA binding site prediction. To facilitate further research and lower the barrier to entry for machine learning researchers, we provide an easily accessible Python package, miRBench, for dataset retrieval, sequence encoding, and the execution of state-of-the-art models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    The miRBench Python Package is accessible at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/katarinagresova/miRBench/releases/tag/v1.0.0\">https://github.com/katarinagresova/miRBench/releases/tag/v1.0.0</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2024.11.14.623628",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            15
+          ]
+        ],
+        "date-time": "2024-11-15T22:45:27Z",
+        "timestamp": 1731710727000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "miRBench: novel benchmark datasets for microRNA binding site prediction that mitigate against prevalent microRNA Frequency Class Bias"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Stephanie",
+          "family": "Sammut",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Katarina",
+          "family": "Gresova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dimosthenis",
+          "family": "Tzimotoudis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Eva",
+          "family": "Marsalkova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Cechak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3437-7482",
+          "authenticated-orcid": false,
+          "given": "Panagiotis",
+          "family": "Alexiou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp565"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1253"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2016.09.004"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc1997"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.omtn.2017.06.005"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1258"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Condrat, C.E. et al. (2020) miRNAs as Biomarkers in Disease: Latest Findings Regarding Their Role in Diagnosis and Prognosis. Cells, 9.",
+          "DOI": "10.3390/cells9020276"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.trsl.2011.01.007"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb1138"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc1840"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biology11121798"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.03.049"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1007730.1007736"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tins.2008.12.003"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-49757-z"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, K. et al. (2015) Deep Residual Learning for Image Recognition. arXiv [cs.CV].",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1379"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.03.043"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq1107"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/physiolgenomics.00144.2007"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.stem.2010.06.012"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/genes13122323"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(93)90529-Y"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1102513"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1748-7188-6-26"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Manakov, S.A. et al. (2022) Scalable and deep profiling of mRNA targets for individual microRNAs with chimeric eCLIP. bioRxiv, 2022.02.13.480296.",
+          "DOI": "10.1101/2022.02.13.480296"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McGeary, S.E. et al. (2022) MicroRNA 3’-compensatory pairing occurs through two binding modes, with affinity shaped by nucleotide identity and position. Elife, 11.",
+          "DOI": "10.7554/eLife.69803"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McGeary, S.E. et al. (2019) The biochemical basis of microRNA targeting efficacy. Science, 366.",
+          "DOI": "10.1126/science.aav1741"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab733"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ygeno.2007.01.004"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0610731104"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006185"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/imcb.12551"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0608791103"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd3864"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd.2016.246"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymthe.2023.11.017"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1582-4934.2008.00534.x"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1161/CIRCRESAHA.116.303549"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1215"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c01150"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature03817"
+        },
+        {
+          "key": "2025020304400747000_2024.11.14.623628v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0232578"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.14.623628",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:28:18Z",
+        "timestamp": 1768462098000
+      },
+      "score": 92.437744,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.14.623628"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            15
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2024.11.14.623628",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

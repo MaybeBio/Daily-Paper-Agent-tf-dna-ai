@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "35361921",
+    "doi": "10.1038/s41431-022-01083-0",
+    "title": "DNA methylation signature associated with Bohring-Opitz syndrome: a new tool for functional classification of variants in ASXL genes."
+  },
+  "content": {
+    "abstract": "The additional sex combs-like (ASXL) gene family-encoded by ASXL1, ASXL2, and ASXL3-is crucial for mammalian development. Pathogenic variants in the ASXL gene family are associated with three phenotypically distinct neurodevelopmental syndromes. Our previous work has shown that syndromic conditions caused by pathogenic variants in epigenetic regulatory genes show consistent patterns of genome-wide DNA methylation (DNAm) alterations, i.e., DNAm signatures in peripheral blood. Given the role of ASXL1 in chromatin modification, we hypothesized that pathogenic ASXL1 variants underlying Bohring-Opitz syndrome (BOS) have a unique DNAm signature. We profiled whole-blood DNAm for 17 ASXL1 variants, and 35 sex- and age-matched typically developing individuals, using Illumina's Infinium EPIC array. We identified 763 differentially methylated CpG sites in individuals with BOS. Differentially methylated sites overlapped 323 unique genes, including HOXA5 and HOXB4, supporting the functional relevance of DNAm signatures. We used a machine-learning classification model based on the BOS DNAm signature to classify variants of uncertain significance in ASXL1, as well as pathogenic ASXL2 and ASXL3 variants. The DNAm profile of one individual with the ASXL2 variant was BOS-like, whereas the DNAm profiles of three individuals with ASXL3 variants were control-like. We also used Horvath's epigenetic clock, which showed acceleration in DNAm age in individuals with pathogenic ASXL1 variants, and the individual with the pathogenic ASXL2 variant, but not in individuals with ASXL3 variants. These studies enhance our understanding of the epigenetic dysregulation underpinning ASXL gene family-associated syndromes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Craniosynostoses/genetics",
+      "DNA Methylation",
+      "Epigenesis, Genetic",
+      "Humans",
+      "*Intellectual Disability/genetics",
+      "Mammals/metabolism",
+      "Syndrome",
+      "Transcription Factors/genetics/metabolism",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Awamleh, Zain",
+        "Chater-Diehl, Eric",
+        "Choufani, Sanaa",
+        "Wei, Elizabeth",
+        "Kianmahd, Rebecca R",
+        "Yu, Anna",
+        "Chad, Lauren",
+        "Costain, Gregory",
+        "Tan, Wen-Hann",
+        "Scherer, Stephen W",
+        "Arboleda, Valerie A",
+        "Russell, Bianca E",
+        "Weksberg, Rosanna"
+      ],
+      "short_names": [
+        "Awamleh Z",
+        "Chater-Diehl E",
+        "Choufani S",
+        "Wei E",
+        "Kianmahd RR",
+        "Yu A",
+        "Chad L",
+        "Costain G",
+        "Tan WH",
+        "Scherer SW",
+        "Arboleda VA",
+        "Russell BE",
+        "Weksberg R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0555-8313",
+        "ORCID: 0000-0002-8326-1999",
+        "ORCID: 0000-0003-3934-9800",
+        "ORCID: 0000-0002-6501-4150"
+      ],
+      "affiliations": [
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+        "Department of Pediatrics, Division of Genetics, David Geffen School of Medicine, University of California, Los Angeles, CA, USA.",
+        "Department of Pediatrics, Division of Genetics, David Geffen School of Medicine, University of California, Los Angeles, CA, USA.",
+        "Division of Clinical & Metabolic Genetics, The Hospital for Sick Children, Toronto, ON, Canada.",
+        "Department of Paediatrics, University of Toronto, Toronto, ON, Canada.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+        "Division of Clinical & Metabolic Genetics, The Hospital for Sick Children, Toronto, ON, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Ontario, ON, Canada.",
+        "Division of Genetics and Genomics, Boston Children's Hospital, Boston, MA, USA.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Ontario, ON, Canada.",
+        "Institute of Medical Sciences, University of Toronto, Toronto, ON, Canada.",
+        "Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, CA, USA.",
+        "Department of Pathology & Laboratory Medicine, David Geffen School of Medicine, University of California, Los Angeles, CA, USA.",
+        "Department of Computational Medicine, University of California, Los Angeles, CA, USA.",
+        "Department of Pediatrics, Division of Genetics, David Geffen School of Medicine, University of California, Los Angeles, CA, USA.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada. rweksb@sickkids.ca.",
+        "Division of Clinical & Metabolic Genetics, The Hospital for Sick Children, Toronto, ON, Canada. rweksb@sickkids.ca.",
+        "Department of Molecular Genetics, University of Toronto, Ontario, ON, Canada. rweksb@sickkids.ca.",
+        "Institute of Medical Sciences, University of Toronto, Toronto, ON, Canada. rweksb@sickkids.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Awamleh, Zain",
+        "short_name": "Awamleh Z",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Chater-Diehl, Eric",
+        "short_name": "Chater-Diehl E",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Choufani, Sanaa",
+        "short_name": "Choufani S",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Wei, Elizabeth",
+        "short_name": "Wei E",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Kianmahd, Rebecca R",
+        "short_name": "Kianmahd RR",
+        "identifiers": [
+          "0000-0003-0555-8313"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Division of Genetics, David Geffen School of Medicine, University of California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Anna",
+        "short_name": "Yu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Division of Genetics, David Geffen School of Medicine, University of California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chad, Lauren",
+        "short_name": "Chad L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Clinical & Metabolic Genetics, The Hospital for Sick Children, Toronto, ON, Canada.",
+          "Department of Paediatrics, University of Toronto, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Costain, Gregory",
+        "short_name": "Costain G",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+          "Division of Clinical & Metabolic Genetics, The Hospital for Sick Children, Toronto, ON, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Ontario, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Tan, Wen-Hann",
+        "short_name": "Tan WH",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics and Genomics, Boston Children's Hospital, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Scherer, Stephen W",
+        "short_name": "Scherer SW",
+        "identifiers": [
+          "0000-0002-8326-1999"
+        ],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Ontario, ON, Canada.",
+          "Institute of Medical Sciences, University of Toronto, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Arboleda, Valerie A",
+        "short_name": "Arboleda VA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, David Geffen School of Medicine, University of California, Los Angeles, CA, USA.",
+          "Department of Pathology & Laboratory Medicine, David Geffen School of Medicine, University of California, Los Angeles, CA, USA.",
+          "Department of Computational Medicine, University of California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Russell, Bianca E",
+        "short_name": "Russell BE",
+        "identifiers": [
+          "0000-0003-3934-9800"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Division of Genetics, David Geffen School of Medicine, University of California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Weksberg, Rosanna",
+        "short_name": "Weksberg R",
+        "identifiers": [
+          "0000-0002-6501-4150"
+        ],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON, Canada. rweksb@sickkids.ca.",
+          "Division of Clinical & Metabolic Genetics, The Hospital for Sick Children, Toronto, ON, Canada. rweksb@sickkids.ca.",
+          "Department of Molecular Genetics, University of Toronto, Ontario, ON, Canada. rweksb@sickkids.ca.",
+          "Institute of Medical Sciences, University of Toronto, Toronto, ON, Canada. rweksb@sickkids.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of human genetics : EJHG"
+    ],
+    "journal_abbrev": [
+      "Eur J Hum Genet"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/02 06:00",
+    "fetched_at": "2026-09-28 06:47:29"
+  },
+  "links": {
+    "cites": [
+      "41463054",
+      "41178597",
+      "39843918",
+      "39614348",
+      "38282074",
+      "38180712",
+      "37861717",
+      "37115317",
+      "37053013",
+      "37022461",
+      "36750730",
+      "35860466",
+      "35676534"
+    ],
+    "refs": [
+      "34297908",
+      "33909990",
+      "33751773",
+      "33012783",
+      "32243864",
+      "31409373",
+      "31311581",
+      "31288860",
+      "31160375",
+      "30664650",
+      "30413482",
+      "30013160",
+      "28475860",
+      "28229513",
+      "28116354",
+      "27693232",
+      "27527698",
+      "26739236",
+      "26711108",
+      "26690673",
+      "26095772",
+      "25927341",
+      "25921057",
+      "25741868",
+      "25605792",
+      "24996520",
+      "24634419",
+      "24478339",
+      "24138928",
+      "23736028",
+      "23383720",
+      "23040499",
+      "22897849",
+      "21706002",
+      "20955926",
+      "20436461",
+      "20436459",
+      "20219945",
+      "19833123",
+      "16357870"
+    ],
+    "similar": [
+      "35361921",
+      "36440975",
+      "31288860",
+      "33751773",
+      "38282074",
+      "31311581",
+      "38027485",
+      "27693232",
+      "26768331",
+      "23736028",
+      "28229513",
+      "36751885",
+      "37053013",
+      "36130591",
+      "36367395",
+      "27075689",
+      "38791157",
+      "29681100",
+      "25835095",
+      "15138607",
+      "29037253",
+      "33909990",
+      "26364555",
+      "30326963",
+      "31006630",
+      "27527698",
+      "34297908",
+      "33529703",
+      "28475860",
+      "27237378",
+      "31002714",
+      "25921057",
+      "21047783",
+      "34527642",
+      "37865086",
+      "32132929",
+      "35276034",
+      "31692235",
+      "22419483",
+      "35111197",
+      "21706002",
+      "35947335",
+      "37884963",
+      "22186017",
+      "35246124",
+      "36991516",
+      "23672984",
+      "32243864",
+      "38787418",
+      "23383720",
+      "31426852",
+      "28428831",
+      "26506440",
+      "29074562",
+      "33242595",
+      "36705342",
+      "26610292",
+      "35119035",
+      "32248841",
+      "38054406",
+      "35945616",
+      "29681105",
+      "30147881",
+      "33464637",
+      "30373633",
+      "34436830",
+      "26647312",
+      "37120726",
+      "31953236",
+      "31779682",
+      "31828978",
+      "33234153",
+      "33739972",
+      "29304373",
+      "38181165",
+      "35608069",
+      "36177608",
+      "26095772",
+      "26936820",
+      "28515798",
+      "32164769",
+      "33571165",
+      "36457290",
+      "30660189",
+      "27043953",
+      "24321552",
+      "31409384",
+      "31582393",
+      "30806792",
+      "33059731",
+      "31819025",
+      "36842935",
+      "28889139",
+      "30879037",
+      "32039401",
+      "30401456",
+      "37022461",
+      "38770750",
+      "37860968",
+      "39423952",
+      "33935932",
+      "38848365",
+      "38962817",
+      "38601732"
+    ],
+    "review": [
+      "35361921",
+      "23736028",
+      "28229513",
+      "38791157",
+      "25835095",
+      "26364555",
+      "27527698",
+      "34297908"
+    ],
+    "pmc": [
+      "9177544"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41431-022-01083-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35361921/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35361921",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt7431m0nz",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

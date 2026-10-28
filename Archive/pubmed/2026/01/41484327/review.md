@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion, Conclusion, Acknowledgements)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to provided evidence, and suitability for a general scientific audience
+- **Shared manuscript claim summary** The authors report that the Arabidopsis thaliana COL5 gene underwent a single episode of positive selection in its lineage, resulting in two non-synonymous substitutions (T274A and G275T relative to the ancestor) that stabilize the modern protein structure. Reintroducing ancestral residues via reverse-evolution mutagenesis is claimed to destabilize the protein, as shown by Rosetta ΔΔG calculations and 100-ns molecular dynamics simulations.
+- **Visible evidence base** Abstract, Introduction, Materials and methods, Results (including descriptions of Fig. 1, Fig. 2, Fig. 3, Table 1, Table 2), Discussion, Conclusion
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided; no sequence alignment file, phylogenetic tree file, or simulation input/output data; no statistical output tables beyond descriptive text; no accession numbers for sequences or software version details beyond those named; no supplementary information
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting hypothesis and a potentially valuable integrative approach, combining phylogenetic selection tests with ancestral reconstruction and biophysical simulations. However, the evidence as presented is insufficient to support the strong mechanistic claims made. Several methodological details are missing or ambiguous, and the reported simulation metrics raise concerns about convergence and interpretation. The central claim that positive selection "structurally stabilizes" COL5 is not convincingly established from the provided data.
+- **Who would be interested in the results, and why** Evolutionary biologists studying gene family diversification and adaptive molecular evolution, plant molecular biologists interested in CONSTANS-like gene function, and computational biologists developing or applying ancestral sequence reconstruction and protein simulation pipelines. The integrative framework may appeal to researchers seeking to link phylogenetic signals to biophysical consequences.
+- **Major strengths** 1) The study addresses a relevant and under-explored question about the mechanistic consequences of positive selection on a specific gene. 2) The use of a curated, saturation-tested ortholog dataset is a methodological strength. 3) The combination of multiple evolutionary and biophysical tools (BUSTED, aBSREL, MEME, ancestral reconstruction, Rosetta, MD) is ambitious and potentially powerful. 4) The reverse-evolution mutagenesis concept is a clear and testable design.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation evidence
+  - **Claim pointer** The claim that "molecular dynamics simulations showed large increases in structural deviation, compaction, loss of flexibility, and significantly elevated potential energy" for the mutant.
+  - **Evidence pointer** Results section, Table 2, Fig. 3 (figures not provided)
+  - **Concern** The MD simulation metrics are reported as mean ± SD, but no information is provided on the number of independent simulations, the equilibration protocol beyond 50 ps, the convergence of the simulations, or whether the differences are statistically significant. The potential energy difference of ~1,000,000 kJ/mol between WT and MUT is extraordinarily large and suggests either a system setup issue (e.g., different numbers of atoms, ions, or water molecules) or a failure to equilibrate. The RMSD values (17-20 Å for self-aligned) are extremely high for a folded protein of this size, indicating that the simulations may not have reached a stable state or that the starting structures were not properly relaxed. Without convergence analysis, error estimates, or replicate simulations, these results cannot be interpreted as evidence for destabilization.
+  - **Why it matters** The MD results are a core pillar of the mechanistic claim. If the simulations are not converged or are improperly set up, the conclusion that the ancestral reversion destabilizes the protein is unsupported.
+  - **Resolution test** Provide details on system construction (number of atoms, water box size, ion concentration), equilibration and production run lengths, convergence metrics (e.g., RMSD plateau, block averaging), and at least three independent replicates per system. Report statistical comparisons of distributions, not just means. If the potential energy difference persists, explain the source (e.g., different system sizes) and provide normalized comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of Rosetta calculations
+  - **Claim pointer** The claim that "Rosetta ΔΔG values indicated strong destabilization" with an average of 50.90 REU.
+  - **Evidence pointer** Results section, Fig. 2 (not provided)
+  - **Concern** A ΔΔG of +50.90 REU is an enormous value, far beyond typical destabilization thresholds (usually a few kcal/mol or REU). This suggests either a methodological issue (e.g., comparing energies of different-length proteins, improper relaxation, or using raw total energies rather than differences of folded vs. unfolded states) or a misinterpretation of the Rosetta energy units. The manuscript does not describe how the ΔΔG was calculated (e.g., whether it is a single-point mutation analysis, a full relaxation of both WT and MUT, or a difference of total energies from different runs). The text states "ten independent Rosetta ΔΔG calculations per variant," but it is unclear what "per variant" means in this context.
+  - **Why it matters** The Rosetta result is the primary quantitative evidence for the stabilizing effect of the derived residues. If the calculation is flawed or misinterpreted, the central claim collapses.
+  - **Resolution test** Clarify the exact protocol: what structures were used, how mutations were introduced, how relaxation was performed, and how ΔΔG was computed. Report the individual replicate values and the distribution. If total energies are reported, explain why this is a valid proxy for stability. Provide a comparison with a known neutral mutation as a control.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and phylogenetic rigor
+  - **Claim pointer** The claim that "BUSTED identified significant episodic selection affecting at least one site on at least one foreground branch (P < 0.05 after Benjamini–Hochberg correction)" and that aBSREL identified only the COL5 branch as episodically selected.
+  - **Evidence pointer** Results section, Materials and methods
+  - **Concern** The manuscript does not report the number of sites tested, the multiple-testing correction procedure beyond naming it, or the specific P-values for the COL5 branch. For aBSREL, the P-value is given as 0.015, but it is unclear how many branches were tested and whether the FDR correction was applied across all branches or only the Arabidopsis foreground set. The text states "No other Arabidopsis COL branches met the significance threshold," but it is not stated whether non-Arabidopsis branches were tested. The MEME results are reported as three sites, but only two are used; the third site (position 194) is dismissed as unchanged, yet it was detected as episodically selected. This inconsistency is not explained.
+  - **Why it matters** The identification of the selected branch and sites is the foundation of the entire study. If the statistical framework is not fully described or is applied inconsistently, the subsequent analysis may be built on a weak foundation.
+  - **Resolution test** Provide full statistical output for BUSTED, aBSREL, and MEME, including all P-values, the number of tests, and the correction method. Explain why the third MEME site was not pursued despite being detected. Clarify whether the foreground set included only Arabidopsis branches or all branches.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation and functional relevance
+  - **Claim pointer** The claim that the stabilizing effect "likely conferred stabilizing advantages that reshaped the COL5 energy landscape" and that this is "adaptive evolution."
+  - **Evidence pointer** Discussion, Conclusion
+  - **Concern** The manuscript does not provide any functional or phenotypic evidence linking the stability changes to fitness or organismal function. The term "adaptive" is used throughout, but the evidence is purely biophysical (stability predictions). No data are presented on protein-protein interactions, DNA binding, subcellular localization, or any in vivo or in vitro functional assay. The claim that stability is adaptive is an inference that is not directly tested.
+  - **Why it matters** The title and abstract make strong claims about "adaptive evolution" and "structural stabilization." Without functional validation, the biological significance of the observed stability changes remains speculative.
+  - **Resolution test** Either provide functional data (e.g., binding assays, yeast complementation, plant transformation) or temper the claims to state that the substitutions are predicted to be stabilizing, and that this may have functional consequences, without asserting adaptiveness.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Materials and methods, "Identification of arabidopsis COL genes and curation of orthologs"
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The number of species and the total number of sequences are stated (31 Brassicaceae + 1 outgroup, 284 sequences), but the list of species is not provided. The RBH criteria are described, but the specific BLAST parameters (e.g., word size, matrix) are not given.
+  - **Required correction** Provide a supplementary table listing all species and sequence accessions. Specify all BLAST parameters and the version of the BLAST+ suite used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Rosetta stability analysis"
+  - **Evidence pointer** Results section, Fig. 2
+  - **Concern** The text states "average ΔΔG of 50.90 REU" but does not report the range, standard deviation, or the values for individual replicates. The Wilcoxon rank-sum test is mentioned, but the test statistic is not given.
+  - **Required correction** Report the full distribution of ΔΔG values for both WT and MUT, including mean, SD, and range. Provide the test statistic and effect size.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Fig. 1, Fig. 2, Fig. 3
+  - **Evidence pointer** Results section
+  - **Issue** The figures are described in the text but not provided. The descriptions suggest that Fig. 1 shows a tree and residue mapping, Fig. 2 shows boxplots, and Fig. 3 shows MD trajectories. Without seeing the figures, it is impossible to assess the quality of the phylogenetic tree, the distribution of Rosetta energies, or the convergence of MD simulations.
+  - **Required correction** Ensure that all figures are provided in the submission and that they include clear axis labels, legends, and statistical annotations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and terminology
+  - **Affected element** Abstract, Introduction, Discussion
+  - **Evidence pointer** Throughout
+  - **Issue** The phrase "structurally stabilizes" in the title is vague. The term "adaptive evolution" is used without a formal definition or test of adaptiveness (e.g., comparison to a null model of neutral evolution beyond the selection tests). The phrase "profound biophysical impact" is subjective.
+  - **Required correction** Define what is meant by "structural stabilization" (e.g., lower Rosetta energy, reduced RMSF). Use more measured language, such as "predicted to stabilize" or "associated with increased stability in silico."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, "Molecular dynamics simulations using OpenMM"
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The methods state that simulations were performed with OpenMM, AMBER14, and TIP3P water, but do not provide the initial structure source (e.g., homology model, AlphaFold), the temperature/pressure coupling algorithms, the cutoff for non-bonded interactions, or the use of constraints (e.g., SHAKE). The total simulation time is stated as 100 ns, but the number of replicates is not.
+  - **Required correction** Provide a complete description of the simulation setup, including the source of the starting structure, the equilibration protocol, the ensemble (NVT or NPT), and the number of replicates. Consider depositing simulation inputs and trajectories in a public repository.
+
+## Risk / unsupported claims
+- The claim that the two substitutions "structurally stabilize" the protein is based solely on Rosetta and MD predictions, with no experimental validation. This is a prediction, not a demonstrated fact.
+- The claim that the substitutions are "adaptive" is inferred from the selection tests and stability predictions, but no functional or fitness data are provided. The term "adaptive" is used beyond what the evidence supports.
+- The claim that the ancestral residues are "incompatible with the evolved structural background" is an interpretation of the simulation results, but the magnitude of the reported ΔΔG values (50-85 REU) is implausible and suggests a methodological artifact.
+- The MD simulation results (RMSD of 17-20 Å for a folded protein) are not consistent with a stable, well-equilibrated system, and the reported potential energy difference of ~1,000,000 kJ/mol between WT and MUT is not physically interpretable without further details. These results are not reliable as presented.
+- The statement that "COL5 was confirmed as a lineage exhibiting episodic diversifying selection" is based on a single-gene analysis; the robustness of this finding to alignment and model choices is not tested.
+- The claim that the third MEME site (position 194) was "unchanged" is confusing, as MEME detects sites with episodic selection, and the text does not explain why a site with a significant signal was not pursued.

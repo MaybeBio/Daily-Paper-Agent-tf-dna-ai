@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "pmid": "39096613",
+    "doi": "10.1016/j.compbiomed.2024.108974",
+    "title": "GraphPro: An interpretable graph neural network-based model for identifying promoters in multiple species."
+  },
+  "content": {
+    "abstract": "Promoters are DNA sequences that bind with RNA polymerase to initiate transcription, regulating this process through interactions with transcription factors. Accurate identification of promoters is crucial for understanding gene expression regulation mechanisms and developing therapeutic approaches for various diseases. However, experimental techniques for promoter identification are often expensive, time-consuming, and inefficient, necessitating the development of accurate and efficient computational models for this task. Enhancing the model's ability to recognize promoters across multiple species and improving its interpretability pose significant challenges. In this study, we introduce a novel interpretable model based on graph neural networks, named GraphPro, for multi-species promoter identification. Initially, we encode the sequences using k-tuple nucleotide frequency pattern, dinucleotide physicochemical properties, and dna2vec. Subsequently, we construct two feature extraction modules based on convolutional neural networks and graph neural networks. These modules aim to extract specific motifs from the promoters, learn their dependencies, and capture the underlying structural features of the promoters, providing a more comprehensive representation. Finally, a fully connected neural network predicts whether the input sequence is a promoter. We conducted extensive experiments on promoter datasets from eight species, including Human, Mouse, and Escherichia coli. The experimental results show that the average Sn, Sp, Acc and MCC values of GraphPro are 0.9123, 0.9482, 0.8840 and 0.7984, respectively. Compared with previous promoter identification methods, GraphPro not only achieves better recognition accuracy on multiple species, but also outperforms all previous methods in cross-species prediction ability. Furthermore, by visualizing GraphPro's decision process and analyzing the sequences matching the transcription factor binding motifs captured by the model, we validate its significant advantages in biological interpretability. The source code for GraphPro is available at https://github.com/liuliwei1980/GraphPro.",
+    "keywords": [
+      "Deep learning",
+      "Model interpretability",
+      "Promoter",
+      "Representation learning"
+    ],
+    "mesh_terms": [
+      "*Promoter Regions, Genetic",
+      "*Neural Networks, Computer",
+      "Humans",
+      "Animals",
+      "Computational Biology/methods",
+      "Sequence Analysis, DNA/methods",
+      "Mice",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qi",
+        "Wei, Yuxiao",
+        "Liu, Liwei"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "Wei Y",
+        "Liu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Science, Dalian Jiaotong University, Dalian, 116028, China.",
+        "College of Software, Dalian Jiaotong University, Dalian, 116028, China.",
+        "College of Science, Dalian Jiaotong University, Dalian, 116028, China. Electronic address: liutree80@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qi",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science, Dalian Jiaotong University, Dalian, 116028, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yuxiao",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Software, Dalian Jiaotong University, Dalian, 116028, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Liwei",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science, Dalian Jiaotong University, Dalian, 116028, China. Electronic address: liutree80@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/04 13:44",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42204286",
+      "40902856"
+    ],
+    "refs": [],
+    "similar": [
+      "39096613",
+      "39929298",
+      "36209437",
+      "40646507",
+      "28158264",
+      "39747934",
+      "38724920",
+      "33227813",
+      "40613943",
+      "40102719",
+      "36192696",
+      "39487084",
+      "39708840",
+      "36161334",
+      "40067266",
+      "40146403",
+      "41094395",
+      "35641900",
+      "34073774",
+      "38833802",
+      "38709606",
+      "39848362",
+      "41134033",
+      "35671653",
+      "39909261",
+      "35367367",
+      "40790157",
+      "41386531",
+      "39107889",
+      "38844961",
+      "40251827",
+      "39546160",
+      "39110340",
+      "36403092",
+      "41276805",
+      "40711460",
+      "39561516",
+      "39701486",
+      "39270533",
+      "40466979",
+      "39168294",
+      "40369616",
+      "38647155",
+      "40462515",
+      "38200437",
+      "31318408",
+      "37572298",
+      "32770026",
+      "40097269",
+      "39766779",
+      "37291763",
+      "40795814",
+      "33581335",
+      "41364671",
+      "38918692",
+      "41037779",
+      "39506679",
+      "41151193",
+      "31573385",
+      "40907360",
+      "34473626",
+      "41257586",
+      "35713780",
+      "40334196",
+      "40129032",
+      "41145903",
+      "38923911",
+      "39577348",
+      "35633468",
+      "36099675",
+      "41465557",
+      "40043997",
+      "28881969",
+      "38510021",
+      "37510345",
+      "35533969",
+      "29970003",
+      "40983850",
+      "30588558",
+      "34773871",
+      "33371891",
+      "39832275",
+      "38181611",
+      "39847542",
+      "40056540",
+      "32962628",
+      "39446541",
+      "40784875",
+      "38643595",
+      "38816885",
+      "38643080",
+      "36933628",
+      "28245811",
+      "39519295",
+      "28082394",
+      "40163821",
+      "39608151",
+      "39120645",
+      "40349379",
+      "40245487"
+    ],
+    "review": [
+      "39096613"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(24)01059-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(24)01059-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "40654659",
+    "doi": "10.1101/2025.05.06.650874",
+    "title": "Genome structure mapping with high-resolution 3D genomics and deep learning."
+  },
+  "content": {
+    "abstract": "Gene expression is often regulated by distal enhancers through cell-type-specific 3D looping interactions, but comprehensive mapping of these interactions across cell types is experimentally intractable. To address this gap, we introduce an integrated approach where we generate ultra-deep Region Capture Micro-C (RCMC) and Micro-C data specifically designed for state-of-the-art deep learning architectures. We developed Cleopatra, an attention-based deep learning model that takes epigenomic inputs and is pre-trained on genome-wide Micro-C data followed by fine-tuning with high-resolution RCMC data. Cleopatra accurately predicts 3D maps at sub-kilobase bin sizes and unprecedented resolution, enabling us to generate ultra-high-resolution, genome-wide 3D contact maps across four human cell types. These maps revealed cell-type-specific microcompartments and over 900,000 loops across the cell types, about half of which are cell-type-specific. Using Cleopatra maps, we observe that promoters form about a dozen loops on average, and that expression increases monotonically with the number of loops, indicating that looping is associated with higher gene expression. We further show the enhancer-promoter loops are often anchored by CTCF, and nominate new transcription factors that may regulate cell-type-specific enhancer-promoter interactions. Overall, we establish a framework for ultra-high-resolution 3D genome mapping, providing a broadly applicable resource for gaining new insights into cell-type-specific gene regulation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Clarice K Y",
+        "Feng, Fan",
+        "Ramanathan, Varshini",
+        "Liu, Jie",
+        "Hansen, Anders S"
+      ],
+      "short_names": [
+        "Hong CKY",
+        "Feng F",
+        "Ramanathan V",
+        "Liu J",
+        "Hansen AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9485-1425",
+        "ORCID: 0000-0002-5990-312X",
+        "ORCID: 0009-0001-6914-6484",
+        "ORCID: 0000-0002-9504-0587",
+        "ORCID: 0000-0001-7540-7858"
+      ],
+      "affiliations": [
+        "Department of Biological Engineering, Massachusetts Institute of Technology; Cambridge, MA 02139, USA.",
+        "The Broad Institute of MIT and Harvard; Cambridge, MA 02139, USA.",
+        "Koch Institute for Integrative Cancer Research; Cambridge, MA, 02139, USA.",
+        "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology; Cambridge, MA 02139, USA.",
+        "The Broad Institute of MIT and Harvard; Cambridge, MA 02139, USA.",
+        "Koch Institute for Integrative Cancer Research; Cambridge, MA, 02139, USA.",
+        "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA.",
+        "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Computer Science and Engineering, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology; Cambridge, MA 02139, USA.",
+        "The Broad Institute of MIT and Harvard; Cambridge, MA 02139, USA.",
+        "Koch Institute for Integrative Cancer Research; Cambridge, MA, 02139, USA.",
+        "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Clarice K Y",
+        "short_name": "Hong CKY",
+        "identifiers": [
+          "0000-0002-9485-1425"
+        ],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology; Cambridge, MA 02139, USA.",
+          "The Broad Institute of MIT and Harvard; Cambridge, MA 02139, USA.",
+          "Koch Institute for Integrative Cancer Research; Cambridge, MA, 02139, USA.",
+          "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Feng, Fan",
+        "short_name": "Feng F",
+        "identifiers": [
+          "0000-0002-5990-312X"
+        ],
+        "affiliations": [
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Ramanathan, Varshini",
+        "short_name": "Ramanathan V",
+        "identifiers": [
+          "0009-0001-6914-6484"
+        ],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology; Cambridge, MA 02139, USA.",
+          "The Broad Institute of MIT and Harvard; Cambridge, MA 02139, USA.",
+          "Koch Institute for Integrative Cancer Research; Cambridge, MA, 02139, USA.",
+          "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Jie",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0000-0002-9504-0587"
+        ],
+        "affiliations": [
+          "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA.",
+          "Department of Computer Science and Engineering, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Hansen, Anders S",
+        "short_name": "Hansen AS",
+        "identifiers": [
+          "0000-0001-7540-7858"
+        ],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology; Cambridge, MA 02139, USA.",
+          "The Broad Institute of MIT and Harvard; Cambridge, MA 02139, USA.",
+          "Koch Institute for Integrative Cancer Research; Cambridge, MA, 02139, USA.",
+          "The Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 12:29",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42380620",
+      "39948336",
+      "39903776",
+      "39862604",
+      "39487131",
+      "39093600",
+      "38991604",
+      "38509385",
+      "38413840",
+      "37673975",
+      "37280678",
+      "37280210",
+      "37157000",
+      "36914797",
+      "36624151",
+      "36495369",
+      "36351387",
+      "35704579",
+      "35686641",
+      "35551308",
+      "35440119",
+      "35145304",
+      "34789882",
+      "34400841",
+      "34321199",
+      "34040254",
+      "33398174",
+      "33046897",
+      "33046896",
+      "32998764",
+      "32913098",
+      "32817427",
+      "32728249",
+      "32647330",
+      "32213324",
+      "32213323",
+      "32103011",
+      "32094911",
+      "31778014",
+      "31713622",
+      "31699985",
+      "31522987",
+      "31290943",
+      "31147463",
+      "31124784",
+      "30626972",
+      "30612741",
+      "29641996",
+      "29467363",
+      "29053968",
+      "27708057",
+      "27461729",
+      "26807528",
+      "26748519",
+      "26472760",
+      "26287746",
+      "25938943",
+      "25693564",
+      "25693563",
+      "25517091",
+      "25497547",
+      "24470145",
+      "24185615",
+      "23810203",
+      "22955616",
+      "22941365",
+      "22495300",
+      "22265404",
+      "20356413",
+      "19923429",
+      "19815776",
+      "18775669",
+      "7542362"
+    ],
+    "similar": [
+      "40654659",
+      "42475469",
+      "37157000",
+      "37602215",
+      "35440119",
+      "40226920",
+      "37546906",
+      "36206320",
+      "27490187",
+      "41993329",
+      "39487131",
+      "26313521",
+      "37577543",
+      "33310227",
+      "36544209",
+      "26338778",
+      "41862973",
+      "35277509",
+      "31249064",
+      "32592681",
+      "40637236",
+      "33184104",
+      "42443443",
+      "42487124",
+      "40603633",
+      "32680543",
+      "31318408",
+      "41867859",
+      "32249388",
+      "41840705",
+      "41361473",
+      "39283464",
+      "25497547",
+      "35817982",
+      "28536180",
+      "28881991",
+      "32998764",
+      "26817822",
+      "41875404",
+      "39390531",
+      "41980945",
+      "34113473",
+      "41169613",
+      "40225268",
+      "25938943",
+      "39137961",
+      "37982508",
+      "39688903",
+      "32065070",
+      "27391817",
+      "35691341",
+      "35867245",
+      "39935886",
+      "42068378",
+      "34382193",
+      "32987449",
+      "42234579",
+      "30925856",
+      "36094314",
+      "39484446",
+      "30157915",
+      "42464115",
+      "38750461",
+      "38495565",
+      "31653198",
+      "32647330",
+      "29419817",
+      "32286261",
+      "39803441",
+      "40374602",
+      "42239130",
+      "42170760",
+      "41714417",
+      "37961446",
+      "32933554",
+      "36321557",
+      "34729306",
+      "35397520",
+      "34741515",
+      "41726976",
+      "41891880",
+      "25228660",
+      "30010637",
+      "30310060",
+      "36323252",
+      "42300122",
+      "26809507",
+      "25970635",
+      "39090688",
+      "38760655",
+      "38167349",
+      "22955621",
+      "37981682",
+      "42289051",
+      "38254945",
+      "38014075",
+      "42105235",
+      "42490438",
+      "41663926",
+      "42239386"
+    ],
+    "review": [
+      "40654659",
+      "33310227",
+      "41862973",
+      "42443443",
+      "39283464",
+      "35691341",
+      "32987449",
+      "30157915",
+      "42170760",
+      "36321557"
+    ],
+    "pmc": [
+      "12247674"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40654659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.05.06.650874",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.19.504617",
+  "title": "Leveraging Scaffold Information to Predict Protein-ligand Binding Affinity with an Empirical Graph Neural Network",
+  "doi": "10.1101/2022.08.19.504617",
+  "abstract": "Motivation Protein-ligand binding affinity prediction is an important task in structural bioinformatics for drug discovery and design. Although various scoring functions have been proposed, it remains challenging to accurately evaluate the binding affinity of a protein-ligand complex with known bound structure due to the potential preference of scoring system. In recent years, deep learning techniques have been applied to scoring functions without sophisticated feature engineering. Nevertheless, existing methods cannot model the differential contribution of atoms in various regions of proteins, and the relationship between atom properties and intermolecular distance is also not fully explored. Results We propose a novel empirical graph neural network for accurate protein-ligand binding affinity prediction (EGNA). Graphs of protein, ligand and their interactions are constructed based on different regions of each bound complex. Proteins and ligands are effectively represented by graph convolutional layers, enabling the EGNA to capture interaction patterns precisely by simulating empirical scoring functions. The contributions of different factors on binding affinity can thus be transparently investigated. EGNA is compared with the state-of-the-art machine learning-based scoring functions on two widely used benchmark datasets. The results demonstrate the superiority of EGNA and its good generalization capability. Availability and implementation The web server and source code of EGNA is available at www.csbio.sjtu.edu.cn/bioinf/EGNA and https://github.com/chunqiux/EGNA . Contact hbshen@sjtu.edu.cn or 2008xypan@sjtu.edu.cn Supplementary information Supplementary data are available at Bioinformatics online.",
+  "authors": [
+    "Chunqiu Xia",
+    "Shi-Hao Feng",
+    "Ying Xia",
+    "Xiaoyong Pan",
+    "Hong-Bin Shen"
+  ],
+  "published_date": "2022-08-21",
+  "updated_date": "2022-08-22T02:39:01Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.19.504617",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.19.504617.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:59:08Z",
+        "timestamp": 1768503548978,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            21
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 47,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Protein-ligand binding affinity prediction is an important task in structural bioinformatics for drug discovery and design. Although various scoring functions have been proposed, it remains challenging to accurately evaluate the binding affinity of a protein-ligand complex with known bound structure due to the potential preference of scoring system. In recent years, deep learning techniques have been applied to scoring functions without sophisticated feature engineering. Nevertheless, existing methods cannot model the differential contribution of atoms in various regions of proteins, and the relationship between atom properties and intermolecular distance is also not fully explored.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We propose a novel empirical graph neural network for accurate protein-ligand binding affinity prediction (EGNA). Graphs of protein, ligand and their interactions are constructed based on different regions of each bound complex. Proteins and ligands are effectively represented by graph convolutional layers, enabling the EGNA to capture interaction patterns precisely by simulating empirical scoring functions. The contributions of different factors on binding affinity can thus be transparently investigated. EGNA is compared with the state-of-the-art machine learning-based scoring functions on two widely used benchmark datasets. The results demonstrate the superiority of EGNA and its good generalization capability.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    The web server and source code of EGNA is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.csbio.sjtu.edu.cn/bioinf/EGNA\">www.csbio.sjtu.edu.cn/bioinf/EGNA</jats:ext-link>\n                    and\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/chunqiux/EGNA\">https://github.com/chunqiux/EGNA</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://hbshen@sjtu.edu.cn\">hbshen@sjtu.edu.cn</jats:ext-link>\n                    or\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://2008xypan@sjtu.edu.cn\">2008xypan@sjtu.edu.cn</jats:ext-link>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.08.19.504617",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2022-08-22T02:39:01Z",
+        "timestamp": 1661135941000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Leveraging Scaffold Information to Predict Protein-ligand Binding Affinity with an Empirical Graph Neural Network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Chunqiu",
+          "family": "Xia",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shi-Hao",
+          "family": "Feng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ying",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5010-464X",
+          "authenticated-orcid": false,
+          "given": "Xiaoyong",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hong-Bin",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq112"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00124387"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Brandsdal, B.O. , et al. (2003) Free Energy Calculations and Ligand Binding. In, Advances in protein chemistry. Academic Press, pp. 123–158.",
+          "DOI": "10.1016/S0065-3233(03)66004-3"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "135",
+          "DOI": "10.1146/annurev.biophys.36.040306.132812",
+          "article-title": "Calorimetry and thermodynamics in drug design",
+          "volume": "37",
+          "year": "2008",
+          "journal-title": "Annual review of biophysics"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "4153",
+          "DOI": "10.1021/acs.jcim.0c00116",
+          "article-title": "Rigorous Free Energy Simulations in Virtual Screening",
+          "volume": "60",
+          "year": "2020",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deng, L. , Hinton, G.E. and Kingsbury, B. (2013) New types of deep neural network learning for speech recognition and related applications: an overview. ICASSP. IEEE, pp. 8599–8603.",
+          "DOI": "10.1109/ICASSP.2013.6639344"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "699",
+          "DOI": "10.1021/ci034246+",
+          "article-title": "Predicting protein-ligand binding affinities using novel geometrical descriptors and machine-learning methods",
+          "volume": "44",
+          "year": "2004",
+          "journal-title": "Journal of chemical information and computer sciences"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja960751u"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci200082t"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100244v"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.12",
+          "unstructured": "Fout, A. , et al. (2017) Protein interface prediction using graph convolutional networks. Proceedings of the 31st International Conference on Neural Information Processing Systems. Curran Associates Inc., Long Beach, California, USA, pp. 6533–6542."
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd2589"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.36.040306.132550"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, K. , et al. (2016) Deep Residual Learning for Image Recognition. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). pp. 770–778.",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00650"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "115",
+          "DOI": "10.1002/minf.201400132",
+          "article-title": "Improving AutoDock Vina Using Random Forest: The Growing Accuracy of Binding Affinity Prediction by the Effective Exploitation of Larger Data Sets",
+          "volume": "34",
+          "year": "2015",
+          "journal-title": "Molecular Informatics"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "320",
+          "DOI": "10.1007/s12539-019-00327-w",
+          "article-title": "An Overview of Scoring Functions Used for Protein-Ligand Interactions in Molecular Docking",
+          "volume": "11",
+          "year": "2019",
+          "journal-title": "Interdiscip Sci"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, S. , et al. (2021) Structure-aware Interactive Graph Neural Networks for the Prediction of Protein-Ligand Binding Affinity, Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining.",
+          "DOI": "10.1145/3447548.3467311"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci500731a"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "302",
+          "DOI": "10.1021/acs.accounts.6b00491",
+          "article-title": "Forging the Basis for Developing Protein-Ligand Interaction Scoring Functions",
+          "volume": "50",
+          "year": "2017",
+          "journal-title": "Accounts of chemical research"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cbpa.2007.08.033"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.540130412"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw280"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meng, Z. and Xia, K. (2021) Persistent spectral-based machine learning (PerSpect ML) for protein-ligand binding affinity prediction, Science advances, 7.",
+          "DOI": "10.1126/sciadv.abc5329"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "3291",
+          "DOI": "10.1021/acs.jcim.9b00334",
+          "article-title": "AGL-Score: Algebraic Graph Learning Score for Protein-Ligand Binding Scoring, Ranking, Docking, and Screening",
+          "volume": "59",
+          "year": "2019",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.1186/1758-2946-3-33",
+          "article-title": "Open Babel: An open chemical toolbox",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2007.07.006"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.33",
+          "first-page": "173",
+          "article-title": "HHblits: lightning-fast iterative protein sequence searching by HMM-HMM alignment",
+          "volume": "9",
+          "year": "2011",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "231",
+          "DOI": "10.1016/j.ddtec.2004.08.004",
+          "article-title": "Scoring functions for protein-ligand interactions: a critical perspective",
+          "volume": "1",
+          "year": "2004",
+          "journal-title": "Drug discovery today. Technologies"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "3724",
+          "DOI": "10.1038/ncomms4724",
+          "article-title": "Protein conformational dynamics dictate the binding affinity for a ligand",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "542",
+          "DOI": "10.1186/s12859-021-04466-0",
+          "article-title": "Binding affinity prediction for protein-ligand complex using deep attention mechanism based on intermolecular interactions",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00545"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.39",
+          "unstructured": "Sundararajan, M. , Taly, A. and Yan, Q. (2017) Axiomatic attribution for deep networks. International conference on machine learning. pp. 3319––3328."
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.40",
+          "first-page": "5998",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "30",
+          "year": "2017"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1007/s00214-017-2083-1",
+          "article-title": "Feature functional theory–binding predictor (FFT–BP) for the blind prediction of binding free energies",
+          "volume": "136",
+          "year": "2017",
+          "journal-title": "Theoretical Chemistry Accounts"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, D.D. , Zhu, M. and Yan, H. (2021) Computationally predicting binding affinity in protein-ligand complexes: free energy-based simulations and machine learning-based scoring functions, Briefings in bioinformatics, 22.",
+          "DOI": "10.1093/bib/bbaa107"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "1334",
+          "DOI": "10.1093/bioinformatics/bty757",
+          "article-title": "Development of a protein-ligand extended connectivity (PLEC) fingerprint and its application for binding affinity predictions",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1109/TNNLS.2020.2978386",
+          "article-title": "A Comprehensive Survey on Graph Neural Networks",
+          "volume": "32",
+          "year": "2021",
+          "journal-title": "IEEE transactions on neural networks and learning systems"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1009986",
+          "DOI": "10.1371/journal.pcbi.1009986",
+          "article-title": "Fast protein structure comparison through effective representation learning with contrastive graph neural networks",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "e51",
+          "DOI": "10.1093/nar/gkab044",
+          "article-title": "GraphBind: protein structural context embedded rules learned by hierarchical graph neural networks for recognizing nucleic-acid-binding residues",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2022082308050760000_2022.08.19.504617v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "15956",
+          "DOI": "10.1021/acsomega.9b01997",
+          "article-title": "OnionNet: a Multiple-Layer Intermolecular-Contact-Based Convolutional Neural Network for Protein-Ligand Binding Affinity Prediction",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "ACS omega"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.08.19.504617",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:30:33Z",
+        "timestamp": 1768447833000
+      },
+      "score": 128.41164,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.19.504617"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            21
+          ]
+        ]
+      },
+      "references-count": 47,
+      "URL": "https://doi.org/10.1101/2022.08.19.504617",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbac603",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

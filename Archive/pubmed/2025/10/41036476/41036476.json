@@ -1,0 +1,524 @@
+{
+  "identity": {
+    "pmid": "41036476",
+    "doi": "10.1002/ggn2.202500035",
+    "title": "3D Genome Architecture in Stem Cell Lineage Commitment: from Structural Organization to Precision Regulation."
+  },
+  "content": {
+    "abstract": "Stem cell lineage commitment is governed by intricate interactions between epigenetic mechanisms and 3D genome organization. Traditional linear epigenetics, including DNA methylation and histone modifications, cannot fully elucidate the complex spatiotemporal regulation of gene expression. Recent advances in spatial genomics technologies, such as high-throughput chromosome conformation capture (Hi-C), single-cell Hi-C, and Chromatin immunoprecipitation combined with Hi-C (Hi-ChIP), have provided unprecedented insights into genome architecture, revealing key structural units like chromatin compartments, topologically associating domains (TADs), and chromatin loops. These structures dynamically reorganize during differentiation, influencing transcriptional accessibility and lineage-specific gene activation. Additionally, liquid-liquid phase separation (LLPS)-mediated transcriptional condensates, such as transcription factories and super-enhancers, have emerged as essential regulators of gene expression patterns during cell fate transitions. The integration of multiomics data and artificial intelligence-driven predictive modeling further enhances the understanding of these regulatory networks. Despite ongoing technical challenges, including limitations in resolution, data complexity, and causal inference, recent advances continue to push the field forward. Engineered interventions such as CRISPR-based spatial genome editing and AI-powered computational platforms hold great promise for translating structural insights into targeted therapeutic strategies in regenerative medicine.",
+    "keywords": [
+      "3D genome",
+      "epigenetic",
+      "lineage commitment",
+      "stem cell"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Yanchi",
+        "Li, Wenrui",
+        "Li, Lin",
+        "Yang, Ying",
+        "Lu, Yutong",
+        "Pan, Yufei",
+        "Wang, Qing",
+        "Sun, Yuqiang",
+        "Xie, Yuxuan",
+        "Wu, Mingyue",
+        "Luo, Peng",
+        "Sun, Wansu",
+        "Zhang, Hengguo"
+      ],
+      "short_names": [
+        "He Y",
+        "Li W",
+        "Li L",
+        "Yang Y",
+        "Lu Y",
+        "Pan Y",
+        "Wang Q",
+        "Sun Y",
+        "Xie Y",
+        "Wu M",
+        "Luo P",
+        "Sun W",
+        "Zhang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4438-8348"
+      ],
+      "affiliations": [
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+        "Second School of Clinical Medicine Anhui Medical University Hefei 230032 China.",
+        "First School of Clinical Medicine Anhui Medical University Hefei 230032 China.",
+        "First School of Clinical Medicine Anhui Medical University Hefei 230032 China.",
+        "Pharmaceutical Sciences Anhui Medical University Hefei 230032 China.",
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+        "Department of Oncology Zhujiang Hospital Southern Medical University Guangzhou 510280 China.",
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+        "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Yanchi",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China.",
+          "Second School of Clinical Medicine Anhui Medical University Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenrui",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine Anhui Medical University Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Li, Lin",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine Anhui Medical University Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ying",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmaceutical Sciences Anhui Medical University Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yutong",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Pan, Yufei",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qing",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yuqiang",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yuxuan",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Wu, Mingyue",
+        "short_name": "Wu M",
+        "identifiers": [],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Luo, Peng",
+        "short_name": "Luo P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology Zhujiang Hospital Southern Medical University Guangzhou 510280 China."
+        ]
+      },
+      {
+        "full_name": "Sun, Wansu",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hengguo",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0002-4438-8348"
+        ],
+        "affiliations": [
+          "College & Hospital of Stomatology Anhui Medical University Key Lab. of Oral Diseases Research of Anhui Province Hefei 230032 China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced genetics (Hoboken, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Adv Genet (Hoboken)"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/02 06:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42698925",
+      "41937145",
+      "41764190"
+    ],
+    "refs": [
+      "40618089",
+      "40586163",
+      "40203073",
+      "40073147",
+      "40065228",
+      "40059124",
+      "40038385",
+      "40022213",
+      "39999165",
+      "39888999",
+      "39872109",
+      "39840553",
+      "39837831",
+      "39813287",
+      "39778075",
+      "39760516",
+      "39738209",
+      "39730363",
+      "39723890",
+      "39662469",
+      "39627201",
+      "39579769",
+      "39579415",
+      "39567683",
+      "39516712",
+      "39419994",
+      "39271425",
+      "39094522",
+      "39004583",
+      "38886858",
+      "38782890",
+      "38741214",
+      "38658705",
+      "38614918",
+      "38604171",
+      "38602535",
+      "38586584",
+      "38254205",
+      "38253266",
+      "38242127",
+      "38062027",
+      "38062010",
+      "37831064",
+      "37676945",
+      "37640936",
+      "37382627",
+      "37331973",
+      "37330650",
+      "36855927",
+      "36775869",
+      "36669496",
+      "36638792",
+      "36608654",
+      "36482283",
+      "36313930",
+      "36304196",
+      "36289338",
+      "36265466",
+      "35768498",
+      "35678507",
+      "35608753",
+      "35577813",
+      "35545037",
+      "35477723",
+      "35420890",
+      "35385732",
+      "35278369",
+      "35277509",
+      "35263594",
+      "35143761",
+      "34927829",
+      "34791385",
+      "34785659",
+      "34758323",
+      "34526084",
+      "34386340",
+      "33953379",
+      "33627123",
+      "33554859",
+      "33545030",
+      "33484631",
+      "33480184",
+      "33453053",
+      "33427645",
+      "33242398",
+      "33046897",
+      "32929202",
+      "32909151",
+      "32444798",
+      "32393888",
+      "32318759",
+      "32182692",
+      "31384045",
+      "31358994",
+      "31308546",
+      "31231024",
+      "31197269",
+      "30778195",
+      "30643263",
+      "30367165",
+      "30318144",
+      "30262494",
+      "30173918",
+      "30146161",
+      "29930094",
+      "29930091",
+      "29496663",
+      "29335463",
+      "29220667",
+      "29203764",
+      "29053968",
+      "29033129",
+      "28985528",
+      "28985525",
+      "28982761",
+      "28804139",
+      "28757169",
+      "28475875",
+      "28467304",
+      "28340338",
+      "28334816",
+      "28027012",
+      "27996962",
+      "27863249",
+      "27814477",
+      "27806299",
+      "27111891",
+      "26700815",
+      "26689127",
+      "26455954",
+      "25959774",
+      "25768903",
+      "25693564",
+      "25497547",
+      "24905166",
+      "24835570",
+      "24831699",
+      "23681063",
+      "23582323",
+      "23539597",
+      "23498940",
+      "22713752",
+      "22549586",
+      "22508729",
+      "22495304",
+      "22495300",
+      "22374146",
+      "22179133",
+      "21663790",
+      "20682450",
+      "20010836",
+      "19815776",
+      "19350569",
+      "17522676",
+      "15860457",
+      "11498575"
+    ],
+    "similar": [
+      "41036476",
+      "41986002",
+      "42475469",
+      "34957106",
+      "40513402",
+      "41258946",
+      "42249089",
+      "41862973",
+      "42068378",
+      "34729306",
+      "32987449",
+      "42619843",
+      "42402925",
+      "36609218",
+      "40225268",
+      "31197269",
+      "41726976",
+      "25274727",
+      "41507775",
+      "42754322",
+      "42641604",
+      "38017297",
+      "35867573",
+      "30795893",
+      "28863138",
+      "40236218",
+      "40895527",
+      "40791469",
+      "36582436",
+      "29335803",
+      "33796120",
+      "41052277",
+      "42297231",
+      "39891345",
+      "35933090",
+      "42754317",
+      "39537822",
+      "38643244",
+      "38654598",
+      "41074186",
+      "40953615",
+      "41902470",
+      "39605346",
+      "30213728",
+      "40058875",
+      "29807547",
+      "38020976",
+      "35664233",
+      "27936932",
+      "37346038",
+      "32191860",
+      "42278333",
+      "37386239",
+      "42144428",
+      "40715029",
+      "35397520",
+      "41257569",
+      "31445093",
+      "42170760",
+      "29382556",
+      "39816913",
+      "34981210",
+      "27008015",
+      "32820401",
+      "30157915",
+      "34030950",
+      "40887344",
+      "35740532",
+      "29053968",
+      "33407087",
+      "42534908",
+      "41009620",
+      "29503869",
+      "42734757",
+      "36275628",
+      "32483172",
+      "33972012",
+      "42121028",
+      "32349780",
+      "42074532",
+      "34099014",
+      "39283464",
+      "42119869",
+      "34415530",
+      "38495565",
+      "41910071",
+      "37294468",
+      "41430607",
+      "31231024",
+      "28977418",
+      "40866611",
+      "34868269",
+      "37077163",
+      "39555660",
+      "38935071",
+      "42292961",
+      "40243368",
+      "40688355",
+      "30697540",
+      "31510693"
+    ],
+    "review": [
+      "41036476",
+      "41986002",
+      "34957106",
+      "40513402",
+      "41258946",
+      "42249089",
+      "41862973",
+      "32987449",
+      "42402925",
+      "31197269",
+      "42754322",
+      "40895527",
+      "36582436",
+      "33796120",
+      "41052277",
+      "42297231",
+      "42754317",
+      "41902470",
+      "30213728",
+      "40058875",
+      "35664233",
+      "27936932",
+      "37346038",
+      "37386239",
+      "42170760",
+      "39816913",
+      "30157915",
+      "34030950",
+      "40887344",
+      "35740532",
+      "41009620",
+      "36275628",
+      "33972012",
+      "42121028",
+      "42074532",
+      "39283464",
+      "42119869",
+      "41910071",
+      "37294468",
+      "34868269"
+    ],
+    "pmc": [
+      "12482939"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41036476/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

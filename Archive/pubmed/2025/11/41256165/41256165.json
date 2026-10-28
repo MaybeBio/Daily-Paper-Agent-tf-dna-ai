@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "41256165",
+    "doi": "10.1101/2025.09.28.25336826",
+    "title": "Epistatic contributions to human traits via transcription factor mechanisms."
+  },
+  "content": {
+    "abstract": "Epistasis causes an individual's genetic background to modulate a DNA variant's effect on trait [1-6]. Epistatic interactions among different loci in human complex traits are expected to be widespread but have not been found [7]. This could be due to small interaction effect sizes, the statistical complexity of estimating interactions that is higher than marginal variant effects, and a substantial multiple testing burden in a genome-wide scan [8-11]. Targeting interacting variants that contribute to the same biological pathway could lighten this burden. Here we combined Targeted Machine Learning [12, 13] with experimentally verified differential binding variants across 9 nuclear hormone receptors (NHR) to identify 535 two-point DNA variant-variant and 185 three-point variant-variant-sex NHR interactions among 768 traits in the UK Biobank (UKB) at a false discovery rate per trait of less than 0.05. Significance testing combined k allele-specific components into a Hotelling's T2 test of Average Interaction Effect estimates at pairs/triples of loci ( k </= 4 or k </= 8 for 2- or 3-point interactions, respectively). Nearly a third of 2-point interactions replicated, as they involved the same DNA-binding site and human trait but different trans-acting DNA variants. These epistatic mechanisms of altered transcription factor binding provide both plausible molecular mechanisms of action, and insight into sex-biased genetic risk, for diverse human traits and diseases.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roskams-Hieter, Breeshey",
+        "Labayle, Olivier",
+        "Tetley-Campbell, Kelsey",
+        "van der Laan, Mark J",
+        "Ponting, Chris P",
+        "Beentjes, Sjoerd V",
+        "Khamseh, Ava"
+      ],
+      "short_names": [
+        "Roskams-Hieter B",
+        "Labayle O",
+        "Tetley-Campbell K",
+        "van der Laan MJ",
+        "Ponting CP",
+        "Beentjes SV",
+        "Khamseh A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1119-2576",
+        "ORCID: 0000-0002-3708-3706",
+        "ORCID: 0000-0003-1432-5511",
+        "ORCID: 0000-0003-0202-7816",
+        "ORCID: 0000-0002-7998-4262",
+        "ORCID: 0000-0001-5203-2205"
+      ],
+      "affiliations": [
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+        "Health Data Research UK, 215 Euston Road, London, NW1 2BE, United Kingdom.",
+        "Institute for Regeneration and Repair, University of Edinburgh, 4-5 Little France Drive, Edinburgh, EH16 4UU, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+        "School of Public Health, University of California, Berkeley, 2121 Berkeley Way, California, 94720, United States of America.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+        "School of Public Health, University of California, Berkeley, 2121 Berkeley Way, California, 94720, United States of America.",
+        "School of Mathematics and Maxwell Institute for Mathematical Sciences, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, EH9 3FD, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+        "School of Public Health, University of California, Berkeley, 2121 Berkeley Way, California, 94720, United States of America.",
+        "School of Informatics, University of Edinburgh, 10 Crichton Street, Edinburgh, EH8 9AB, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roskams-Hieter, Breeshey",
+        "short_name": "Roskams-Hieter B",
+        "identifiers": [
+          "0000-0002-1119-2576"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+          "Health Data Research UK, 215 Euston Road, London, NW1 2BE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Labayle, Olivier",
+        "short_name": "Labayle O",
+        "identifiers": [
+          "0000-0002-3708-3706"
+        ],
+        "affiliations": [
+          "Institute for Regeneration and Repair, University of Edinburgh, 4-5 Little France Drive, Edinburgh, EH16 4UU, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Tetley-Campbell, Kelsey",
+        "short_name": "Tetley-Campbell K",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "van der Laan, Mark J",
+        "short_name": "van der Laan MJ",
+        "identifiers": [
+          "0000-0003-1432-5511"
+        ],
+        "affiliations": [
+          "School of Public Health, University of California, Berkeley, 2121 Berkeley Way, California, 94720, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ponting, Chris P",
+        "short_name": "Ponting CP",
+        "identifiers": [
+          "0000-0003-0202-7816"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Beentjes, Sjoerd V",
+        "short_name": "Beentjes SV",
+        "identifiers": [
+          "0000-0002-7998-4262"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+          "School of Public Health, University of California, Berkeley, 2121 Berkeley Way, California, 94720, United States of America.",
+          "School of Mathematics and Maxwell Institute for Mathematical Sciences, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, EH9 3FD, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Khamseh, Ava",
+        "short_name": "Khamseh A",
+        "identifiers": [
+          "0000-0001-5203-2205"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+          "School of Public Health, University of California, Berkeley, 2121 Berkeley Way, California, 94720, United States of America.",
+          "School of Informatics, University of Edinburgh, 10 Crichton Street, Edinburgh, EH8 9AB, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2025 Sep 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 06:32",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41256165",
+      "42475469",
+      "28746338",
+      "41332835",
+      "37350080",
+      "40450629",
+      "37243672",
+      "41366086",
+      "40738108",
+      "37745394",
+      "39965571",
+      "35147078",
+      "37028392",
+      "26397943",
+      "39657708",
+      "38639992",
+      "30064383",
+      "39062709",
+      "39609904",
+      "35472084",
+      "16020793",
+      "25765234",
+      "40313291",
+      "39209554",
+      "29617818",
+      "36321557",
+      "20736252",
+      "27052692",
+      "31931702",
+      "27640306",
+      "20026678",
+      "25754883",
+      "38826481",
+      "16035920",
+      "20977705",
+      "36383614",
+      "17179077",
+      "35685361",
+      "33023974",
+      "33878186",
+      "42078410",
+      "39107519",
+      "33733350",
+      "39778714",
+      "27821053",
+      "19761607",
+      "37965371",
+      "39732697",
+      "27224861",
+      "22346757",
+      "11381025",
+      "39990474",
+      "40262193",
+      "32809547",
+      "39678461",
+      "33733359",
+      "30770844",
+      "32915819",
+      "22205949",
+      "31931697",
+      "20040109",
+      "35274129",
+      "24990992",
+      "41024427",
+      "22419061",
+      "25536193",
+      "41260926",
+      "22949659",
+      "35508500",
+      "30704512",
+      "24572353",
+      "32600345",
+      "25340779",
+      "35953856",
+      "39143063",
+      "38739572",
+      "25044106",
+      "34541447",
+      "32529949",
+      "41467758",
+      "41445618",
+      "38625909",
+      "32103259",
+      "33864366",
+      "25367219",
+      "37398408",
+      "35716666",
+      "38516378",
+      "39986329",
+      "27322064",
+      "42458269",
+      "27473438",
+      "41654882",
+      "39626022",
+      "23912807",
+      "23281810",
+      "42393741",
+      "37790574",
+      "28552197",
+      "20228239"
+    ],
+    "review": [
+      "41256165",
+      "35472084",
+      "36321557",
+      "35274129",
+      "39986329"
+    ],
+    "pmc": [
+      "12622120"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41256165/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.28.25336826",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

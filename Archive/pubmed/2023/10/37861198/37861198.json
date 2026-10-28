@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "37861198",
+    "doi": "10.1002/prot.26604",
+    "title": "Dynamics and recognition of homeodomain containing protein-DNA complex of IRX4."
+  },
+  "content": {
+    "abstract": "Iroquois Homeobox 4 (IRX4) belongs to a family of homeobox TFs having roles in embryogenesis, cell specification, and organ development. Recently, large scale genome-wide association studies and epigenetic studies have highlighted the role of IRX4 and its associated variants in prostate cancer. No studies have investigated and characterized the structural aspect of the IRX4 homeodomain and its potential to bind to DNA. The current study uses sequence analysis, homology modeling, and molecular dynamics simulations to explore IRX4 homeodomain-DNA recognition mechanisms and the role of somatic mutations affecting these interactions. Using publicly available databases, gene expression of IRX4 was found in different tissues, including prostate, heart, skin, vagina, and the protein expression was found in cancer cell lines (HCT166, HEK293), B cells, ascitic fluid, and brain. Sequence conservation of the homeodomain shed light on the importance of N- and C-terminal residues involved in DNA binding. The specificity of IRX4 homodimer bound to consensus human DNA sequence was confirmed by molecular dynamics simulations, representing the role of conserved amino acids including R145, A194, N195, S190, R198, and R199 in binding to DNA. Additional N-terminal residues like T144 and G143 were also found to have specific interactions highlighting the importance of N-terminus of the homeodomain in DNA recognition. Additionally, the effects of somatic mutations, including the conserved Arginine (R145, R198, and R199) residues on DNA binding elucidated the importance of these residues in stabilizing the protein-DNA complex. Secondary structure and hydrogen bonding analysis showed the roles of specific residues (R145, T191, A194, N195, R198, and R199) in maintaining the homogeneity of the structure and its interaction with DNA. The differences in relative binding free energies of all the mutants shed light on the structural modularity of this protein and the dynamics behind protein-DNA interaction. We also have predicted that the C-terminal sequence of the IRX4 homeodomain could act as a potential cell-penetrating peptide, emphasizing the role these small peptides could play in targeting homeobox TFs.",
+    "keywords": [
+      "IRX4",
+      "homeodomain/DNA binding domain",
+      "molecular dynamics simulation",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Transcription Factors/metabolism",
+      "*Homeodomain Proteins/genetics/metabolism",
+      "Genome-Wide Association Study",
+      "HEK293 Cells"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malik, Adil",
+        "Jayarathna, Dulari K",
+        "Fisher, Mark",
+        "Barbhuiya, Tabassum Khair",
+        "Gandhi, Neha S",
+        "Batra, Jyotsna"
+      ],
+      "short_names": [
+        "Malik A",
+        "Jayarathna DK",
+        "Fisher M",
+        "Barbhuiya TK",
+        "Gandhi NS",
+        "Batra J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2465-9734",
+        "ORCID: 0000-0003-3422-454X",
+        "ORCID: 0000-0001-8975-4877",
+        "ORCID: 0000-0003-3119-6731",
+        "ORCID: 0000-0003-4646-6247"
+      ],
+      "affiliations": [
+        "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "Translational Research Institute, Woolloongabba, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "Department of Computer Science and Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education, Udupi, Karnataka, India.",
+        "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "Translational Research Institute, Woolloongabba, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malik, Adil",
+        "short_name": "Malik A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "Translational Research Institute, Woolloongabba, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Jayarathna, Dulari K",
+        "short_name": "Jayarathna DK",
+        "identifiers": [
+          "0000-0003-2465-9734"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Fisher, Mark",
+        "short_name": "Fisher M",
+        "identifiers": [
+          "0000-0003-3422-454X"
+        ],
+        "affiliations": [
+          "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Barbhuiya, Tabassum Khair",
+        "short_name": "Barbhuiya TK",
+        "identifiers": [
+          "0000-0001-8975-4877"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Gandhi, Neha S",
+        "short_name": "Gandhi NS",
+        "identifiers": [
+          "0000-0003-3119-6731"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "Department of Computer Science and Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education, Udupi, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Batra, Jyotsna",
+        "short_name": "Batra J",
+        "identifiers": [
+          "0000-0003-4646-6247"
+        ],
+        "affiliations": [
+          "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "Translational Research Institute, Woolloongabba, Queensland, Australia.",
+          "Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, Queensland, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/20 12:44",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [
+      "39487222"
+    ],
+    "refs": [],
+    "similar": [
+      "37861198",
+      "10625552",
+      "10026784",
+      "32894817",
+      "22323358",
+      "12419257",
+      "29433424",
+      "8654375",
+      "11382777",
+      "40398789",
+      "38465368",
+      "23950697",
+      "15886395",
+      "8888684",
+      "22584078",
+      "7916208",
+      "33919200",
+      "16101311",
+      "17167399",
+      "21498098",
+      "8657138",
+      "16814806",
+      "1678287",
+      "18508761",
+      "41646966",
+      "11455441",
+      "21821154",
+      "22615398",
+      "32820157",
+      "15842175",
+      "26642209",
+      "15895993",
+      "7623378",
+      "16765059",
+      "11238910",
+      "35685361",
+      "39426953",
+      "11302705",
+      "18815185",
+      "31855381",
+      "10448033",
+      "17091338",
+      "18293925",
+      "39487222",
+      "7913516",
+      "8649375",
+      "8096059",
+      "10491208",
+      "9111059",
+      "7588776",
+      "10955992",
+      "9154919",
+      "29664630",
+      "27412763",
+      "9056783",
+      "7999775",
+      "8700832",
+      "24022300",
+      "19385698",
+      "10471746",
+      "9079637",
+      "38994355",
+      "24078250",
+      "9162047",
+      "11279128",
+      "16397218",
+      "16339274",
+      "8657149",
+      "38076926",
+      "9582372",
+      "7915838",
+      "12203971",
+      "36745138",
+      "34713534",
+      "26926761",
+      "7910796",
+      "10848606",
+      "12923056",
+      "27396829",
+      "23912807",
+      "10490637",
+      "19780584",
+      "16406070",
+      "7568211",
+      "10933814",
+      "12217688",
+      "7623795",
+      "10541438",
+      "11602361",
+      "9890883",
+      "9332351",
+      "39506635",
+      "11668629",
+      "22311606",
+      "9315627",
+      "7739566",
+      "33486697",
+      "7915030",
+      "16494938",
+      "9228093"
+    ],
+    "review": [
+      "37861198",
+      "10026784",
+      "36745138"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/37861198/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26604",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

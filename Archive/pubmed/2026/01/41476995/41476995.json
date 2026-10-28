@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "41476995",
+    "doi": "10.1155/ije/2838739",
+    "title": "PTEN and GATA3 as Key Molecular Mediators Linking Diabetes Mellitus to Osteoarthritis: A Comprehensive Mendelian Randomization, Bioinformatics, and Experimental Study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Epidemiological studies suggest a potential link between diabetes mellitus (DM) and osteoarthritis (OA), but the molecular mechanisms underlying this association remain unclear. Identifying these mechanisms is crucial for developing targeted therapies for diabetic patients with OA. METHODS: A two-sample Mendelian randomization approach was used to assess causal relationships between DM and OA. Differential expression analysis of the GSE51588 and GSE21340 datasets identified common differentially expressed genes (co-DEGs), followed by GO and KEGG enrichment analysis. Protein-protein interaction (PPI) networks were constructed using STRING and Cytoscape, and potential biomarkers were identified via CytoHubba and ROC curve analysis. Transcription factor (TF)-mRNA and mRNA-miRNA regulatory networks were developed to identify potential drug targets through DGIdb. Molecular docking and artificial intelligence (AI)-based ADMET analysis were performed to validate the interaction between GATA3 and PTEN. RT-qPCR was conducted to confirm the expression of PTEN and GATA3. RESULTS: Mendelian randomization identified a causal relationship between diabetes-related SNPs and OA. A total of 142 co-DEGs were identified, with PTEN and GATA3 showing significant diagnostic relevance. Molecular docking indicated that GATA3 inhibitors exhibited higher binding affinities than PTEN inhibitors, with ZK-806711 emerging as a promising dual-target inhibitor. ADMET analysis suggested that Genz-10850 is suitable for CNS-targeted therapy. In chondrocytes, hyperglycemia upregulated PTEN and downregulated GATA3 expression. CONCLUSION: In conclusion, we identified the molecular mechanisms linking DM and OA, highlighting PTEN and GATA3 as potential therapeutic targets for intervention.",
+    "keywords": [
+      "Mendelian randomization",
+      "bioinformatics",
+      "diabetes mellitus",
+      "osteoarthritis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Jian",
+        "Liu, Xuqiang",
+        "Zhang, Jun",
+        "Zhang, Zhiping",
+        "Li, Xiaofeng"
+      ],
+      "short_names": [
+        "Ding J",
+        "Liu X",
+        "Zhang J",
+        "Zhang Z",
+        "Li X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6746-0736",
+        "ORCID: 0009-0004-6973-6777"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, The First Hospital of Nanchang, Nanchang, Jiangxi, 33000, China.",
+        "Department of Orthopedics, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+        "Department of Orthopedics, The Third Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+        "Artificial Joints Engineering and Technology Research Center of Jiangxi Province, Nanchang, 330000, China.",
+        "Department of Orthopedics, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+        "Artificial Joints Engineering and Technology Research Center of Jiangxi Province, Nanchang, 330000, China.",
+        "Department of Orthopedics, The Third Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+        "Department of Orthopedics, The Third Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+        "Department of Orthopedics, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+        "Artificial Joints Engineering and Technology Research Center of Jiangxi Province, Nanchang, 330000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Jian",
+        "short_name": "Ding J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Hospital of Nanchang, Nanchang, Jiangxi, 33000, China.",
+          "Department of Orthopedics, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+          "Department of Orthopedics, The Third Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+          "Artificial Joints Engineering and Technology Research Center of Jiangxi Province, Nanchang, 330000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xuqiang",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+          "Artificial Joints Engineering and Technology Research Center of Jiangxi Province, Nanchang, 330000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-6746-0736"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, The Third Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhiping",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Third Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaofeng",
+        "short_name": "Li X",
+        "identifiers": [
+          "0009-0004-6973-6777"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, 330000, China, ncu.edu.cn.",
+          "Artificial Joints Engineering and Technology Research Center of Jiangxi Province, Nanchang, 330000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of endocrinology"
+    ],
+    "journal_abbrev": [
+      "Int J Endocrinol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/01 07:38",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37681487",
+      "37525375",
+      "37244952",
+      "36939700",
+      "36058260",
+      "35509635",
+      "35509632",
+      "35225437",
+      "34557095",
+      "34315539",
+      "34145854",
+      "33969134",
+      "33519901",
+      "33178745",
+      "33150936",
+      "32510127",
+      "32315726",
+      "31908163",
+      "31487953",
+      "31392561",
+      "30868868",
+      "29496507",
+      "29247144",
+      "28556419",
+      "27114387",
+      "26535137",
+      "25106875",
+      "24630390",
+      "23494827",
+      "22907293",
+      "21324373",
+      "20021538",
+      "19710505",
+      "2379341"
+    ],
+    "similar": [
+      "41476995",
+      "42609827",
+      "39849508",
+      "39176085",
+      "40628511",
+      "41258630",
+      "40073855",
+      "41044520",
+      "42109727",
+      "41782887",
+      "41694337",
+      "40453984",
+      "40374840",
+      "40216809",
+      "39341952",
+      "38166541",
+      "40024299",
+      "40592131",
+      "41088691",
+      "38771826",
+      "39375405",
+      "35437349",
+      "40859027",
+      "38734758",
+      "42509698",
+      "42051521",
+      "35473522",
+      "41628840",
+      "41146237",
+      "39054551",
+      "35909518",
+      "42377012",
+      "40335993",
+      "42653779",
+      "39086489",
+      "40241169",
+      "41533020",
+      "37113991",
+      "41909102",
+      "41929818",
+      "39438957",
+      "41940395",
+      "40804350",
+      "41288681",
+      "41603583",
+      "40442788",
+      "40108295",
+      "36700234",
+      "29344651",
+      "39919076",
+      "42164373",
+      "41815121",
+      "42348043",
+      "41327360",
+      "37250717",
+      "35783271",
+      "40374866",
+      "39445158",
+      "41593037",
+      "39143741",
+      "39640258",
+      "41384025",
+      "42397093",
+      "41415264",
+      "41191606",
+      "41614904",
+      "41120603",
+      "40676786",
+      "40708520",
+      "38259479",
+      "38591204",
+      "41372957",
+      "41017094",
+      "39609849",
+      "41204712",
+      "39634176",
+      "41909133",
+      "41824857",
+      "35151359",
+      "40640313",
+      "38540773",
+      "41150817",
+      "38414734",
+      "42449128",
+      "36186471",
+      "41664372",
+      "40728954",
+      "39433858",
+      "41836872",
+      "41253465",
+      "42004467",
+      "42483912",
+      "42466303",
+      "35996406",
+      "42083957",
+      "33902539",
+      "37869636",
+      "40834023",
+      "41511918",
+      "42025819"
+    ],
+    "review": [
+      "41476995",
+      "40708520"
+    ],
+    "pmc": [
+      "12752880"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41476995/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/ije/2838739",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

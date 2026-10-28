@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "41436608",
+    "doi": "10.1038/s41598-025-33029-z",
+    "title": "Characterization of pancreatic cancer stem cells and construction of a stem cell-based prognostic signature."
+  },
+  "content": {
+    "abstract": "Pancreatic cancer is a gastrointestinal malignancy with a dismal prognosis. Cancer stem cells (CSCs) are considered key drivers of its aggressiveness, metastatic capacity, and resistance to treatment. However, the intratumoral heterogeneity of CSCs and their roles within the tumor microenvironment remain poorly characterized. We integrated single-cell transcriptomic data (GSE214295) with large-scale bulk RNA-seq datasets (TCGA-PAAD, GEO and CPTAC) for comprehensive analysis. Malignant epithelial subpopulations were identified and their stemness evaluated using Seurat, CopyKAT, and CytoTRACE. Monocle2, scMetabolism, decoupleR, and CellChat were applied to investigate differentiation trajectories, metabolic characteristics, transcription factor activities, and intercellular communication. Finally, CSC-like prognostic index (CSCLPI) was constructed and validated with multiple machine-learning approaches. The robustness and generalizability of the model were validated using the GEO and CPTAC dataset. Seven malignant epithelial subpopulations were identified. Among them, the C2 cluster displayed the highest stemness score, lowest metabolic activity, and prominent CSC-marker expression. Pseudotime analysis placed C2 at the origin of the differentiation trajectory. C2 also exhibited activation of key stemness-related transcription factors (e.g., SOX9, MYC) and robust cell-cell communication via WNT and TGF-beta signaling. The CSCLPI model, derived from C2-specific genes, stratified patients into distinct risk groups. The CSCLPI score correlated significantly with tumor mutation burden, stemness indices, immune escape, and chemoresistance, and showed consistent prognostic accuracy across multiple cohorts. A nomogram incorporating CSCLPI and clinical parameters demonstrated strong prognostic value in pancreatic cancer. This study systematically characterized the heterogeneity and functional landscape of CSC-related subpopulations in pancreatic cancer. The stemness-based CSCLPI model offers a robust prognostic tool and potential therapeutic targets for personalized treatment and CSC-directed strategies.",
+    "keywords": [
+      "Cancer stem cells",
+      "Immune cells",
+      "Machine learning",
+      "Nomogram",
+      "Pancreatic cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplastic Stem Cells/metabolism/pathology",
+      "*Pancreatic Neoplasms/pathology/genetics/metabolism/mortality",
+      "Prognosis",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Tumor Microenvironment",
+      "Transcriptome",
+      "Gene Expression Profiling",
+      "Single-Cell Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Junwei",
+        "Ji, Huitao",
+        "Wang, Meiping",
+        "Zheng, Baohua",
+        "Zhou, Junwei",
+        "Xiao, Chunhong"
+      ],
+      "short_names": [
+        "Fang J",
+        "Ji H",
+        "Wang M",
+        "Zheng B",
+        "Zhou J",
+        "Xiao C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, 900th Hospital of Joint Logistics Support Force of People's Liberation Army, Fuzhou, Fujian, China.",
+        "Department of General Surgery, Fuzhou General Teaching Hospital, Fujian University of Traditional Chinese Medicine (900th Hospital of Joint Logistics Support Force), Fuzhou, China.",
+        "Department of General Surgery, 900th Hospital of Joint Logistics Support Force of People's Liberation Army, Fuzhou, Fujian, China.",
+        "Department of General Surgery, Fuzhou General Teaching Hospital, Fujian University of Traditional Chinese Medicine (900th Hospital of Joint Logistics Support Force), Fuzhou, China.",
+        "Department of General Surgery, Fuzhou General Teaching Hospital, Fujian University of Traditional Chinese Medicine (900th Hospital of Joint Logistics Support Force), Fuzhou, China.",
+        "Department of General Surgery, 900th Hospital of Joint Logistics Support Force of People's Liberation Army, Fuzhou, Fujian, China. xiao84chun@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Junwei",
+        "short_name": "Fang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, 900th Hospital of Joint Logistics Support Force of People's Liberation Army, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Huitao",
+        "short_name": "Ji H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Fuzhou General Teaching Hospital, Fujian University of Traditional Chinese Medicine (900th Hospital of Joint Logistics Support Force), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Meiping",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, 900th Hospital of Joint Logistics Support Force of People's Liberation Army, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Baohua",
+        "short_name": "Zheng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Fuzhou General Teaching Hospital, Fujian University of Traditional Chinese Medicine (900th Hospital of Joint Logistics Support Force), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Junwei",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Fuzhou General Teaching Hospital, Fujian University of Traditional Chinese Medicine (900th Hospital of Joint Logistics Support Force), Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Chunhong",
+        "short_name": "Xiao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, 900th Hospital of Joint Logistics Support Force of People's Liberation Army, Fuzhou, Fujian, China. xiao84chun@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Dec 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/24 00:34",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39803529",
+      "39289562",
+      "39256886",
+      "39044249",
+      "38797752",
+      "38678032",
+      "38643837",
+      "38329598",
+      "38237621",
+      "38081505",
+      "38071088",
+      "38031089",
+      "37814123",
+      "37662928",
+      "37484396",
+      "37328851",
+      "37108193",
+      "36699385",
+      "36633525",
+      "36081499",
+      "35836256",
+      "35501462",
+      "34557778",
+      "34417225",
+      "34314478",
+      "34260682",
+      "33799798",
+      "33628041",
+      "33538338",
+      "33462507",
+      "33323379",
+      "33125081",
+      "33008330",
+      "32593337",
+      "32531042",
+      "31501409",
+      "31178118",
+      "31005653",
+      "30853342",
+      "30835723",
+      "30395155",
+      "30127393",
+      "28825705",
+      "28551612",
+      "26854441",
+      "25915844",
+      "25428369",
+      "24113773",
+      "21435460",
+      "17283135",
+      "16199517"
+    ],
+    "similar": [
+      "41436608",
+      "41208987",
+      "41235257",
+      "40496864",
+      "35048799",
+      "40411678",
+      "38885819",
+      "40141028",
+      "40240899",
+      "39332020",
+      "41050668",
+      "40541706",
+      "39896800",
+      "41153362",
+      "41164195",
+      "38894657",
+      "39604668",
+      "34671679",
+      "39182054",
+      "39987127",
+      "40711603",
+      "38355636",
+      "40764361",
+      "40688078",
+      "40438115",
+      "34474642",
+      "40308576",
+      "38817665",
+      "40646168",
+      "35854234",
+      "35681225",
+      "40226617",
+      "41373831",
+      "38694506",
+      "40423850",
+      "32725165",
+      "40486872",
+      "39507529",
+      "40642093",
+      "40666516",
+      "41234865",
+      "41080575",
+      "41209574",
+      "40053129",
+      "40607411",
+      "40443651",
+      "40787454",
+      "41425595",
+      "40534868",
+      "40247223",
+      "40604056",
+      "34840626",
+      "39747201",
+      "40375987",
+      "39271768",
+      "39754071",
+      "41475189",
+      "40474806",
+      "39726597",
+      "38795761",
+      "41373021",
+      "41485251",
+      "38168907",
+      "41275140",
+      "40855439",
+      "40016772",
+      "40102789",
+      "40243557",
+      "40909272",
+      "34418441",
+      "41261631",
+      "34654352",
+      "36902193",
+      "41498033",
+      "40191200",
+      "41567189",
+      "38515748",
+      "40507914",
+      "38704606",
+      "38872167",
+      "41133254",
+      "40406120",
+      "40307857",
+      "37936456",
+      "39516442",
+      "41050691",
+      "38685045",
+      "41408440",
+      "41504052",
+      "33777046",
+      "41317293",
+      "39079132",
+      "32810627",
+      "38847249",
+      "39865528",
+      "33648511",
+      "39355251",
+      "39798003",
+      "39431298",
+      "39575251"
+    ],
+    "review": [
+      "41436608"
+    ],
+    "pmc": [
+      "12830776"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-33029-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41436608/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://proteomics.cancer.gov/programs/cptac",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

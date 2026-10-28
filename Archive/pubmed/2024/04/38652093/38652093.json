@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "38652093",
+    "doi": "10.1111/jcmm.18304",
+    "title": "Identification of PPAR-related differentially expressed genes liver hepatocellular carcinoma and construction of a prognostic model based on data analysis and molecular docking."
+  },
+  "content": {
+    "abstract": "Liver hepatocellular carcinoma (LIHC) is a significant global health issue with limited treatment options. In this study, single-cell RNA sequencing (scRNA-seq) data were used to explore the molecular mechanisms of LIHC development and identify potential targets for therapy. The expression of peroxisome proliferator-activated receptors (PPAR)-related genes was analysed in LIHC samples, and primary cell populations, including natural killer cells, T cells, B cells, myeloid cells, endothelial cells, fibroblasts and hepatocytes, were identified. Analysis of the differentially expressed genes (DEGs) between normal and tumour tissues revealed significant changes in gene expression in various cell populations. PPAR activity was evaluated using the 'AUCell' R software, which indicated higher scores in the normal versus the malignant hepatocytes. Furthermore, the DEGs showed significant enrichment of pathways related to lipid and glucose metabolism, cell development, differentiation and inflammation. A prognostic model was then constructed using 8 PPARs-related genes, including FABP5, LPL, ACAA1, PPARD, FABP4, PLIN1, HMGCS2 and CYP7A1, identified using least absolute shrinkage and selection operator-Cox regression analysis, and validated in the TCGA-LIHC, ICGI-LIRI and GSE14520 datasets. Patients with low-risk scores had better prognosis in all cohorts. Based on the expression of the eight model genes, two clusters of patients were identified by ConsensusCluster analysis. We also predicted small-molecule drugs targeting the model genes, and identified perfluorohexanesulfonic acid, triflumizole and perfluorononanoic acid as potential candidates. Finally, wound healing assay confirmed that PPARD can promote the migration of liver cancer cells. Overall, our study offers novel perspectives on the molecular mechanisms of LIHC and potential areas for therapeutic intervention, which may facilitate the development of more effective treatment regimens.",
+    "keywords": [
+      "hepatocellular carcinoma",
+      "immunotherapeutic targets",
+      "liver hepatocellular carcinoma",
+      "peroxisome",
+      "peroxisome proliferator-activated receptors",
+      "prognostic model",
+      "tumour mutational burden"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/metabolism/pathology",
+      "*Liver Neoplasms/genetics/metabolism/pathology",
+      "*Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "*Peroxisome Proliferator-Activated Receptors/metabolism/genetics",
+      "*Molecular Docking Simulation",
+      "Gene Expression Profiling",
+      "Biomarkers, Tumor/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yumeng",
+        "Li, Shuqiang",
+        "Liu, Zihang",
+        "Li, Xuanzheng",
+        "Yu, Yifan",
+        "Liu, Hao"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Li S",
+        "Liu Z",
+        "Li X",
+        "Yu Y",
+        "Liu H"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-3085-3055"
+      ],
+      "affiliations": [
+        "Department of Organ Transplantation and Hepatobiliary, The First Hospital of China Medical University, Shenyang, Liaoning, China.",
+        "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China.",
+        "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China.",
+        "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China.",
+        "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China.",
+        "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yumeng",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0009-0003-3085-3055"
+        ],
+        "affiliations": [
+          "Department of Organ Transplantation and Hepatobiliary, The First Hospital of China Medical University, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shuqiang",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zihang",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuanzheng",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yifan",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hao",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/23 16:23",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "41659074",
+      "39858284"
+    ],
+    "refs": [
+      "37019619",
+      "35954274",
+      "35933472",
+      "34557778",
+      "34361064",
+      "34276676",
+      "33931972",
+      "33538338",
+      "33524529",
+      "33414412",
+      "32814346",
+      "32534989",
+      "32502310",
+      "32375405",
+      "31825687",
+      "31523999",
+      "31340985",
+      "31336903",
+      "31178118",
+      "30970190",
+      "30835723",
+      "30697791",
+      "30643254",
+      "30087805",
+      "29433850",
+      "29307467",
+      "29295995",
+      "28394260",
+      "27561621",
+      "26746473",
+      "26289479",
+      "25605792",
+      "25592151",
+      "25450203",
+      "25009377",
+      "23323831",
+      "22489042",
+      "22437870",
+      "21486861",
+      "20808728",
+      "20542036",
+      "20182551",
+      "18518822",
+      "18054742",
+      "17983557",
+      "11818483",
+      "7684926",
+      "1324435"
+    ],
+    "similar": [
+      "38652093",
+      "40295971",
+      "38561604",
+      "38415454",
+      "39428564",
+      "40307857",
+      "39137630",
+      "38568083",
+      "38701314",
+      "37346073",
+      "39587687",
+      "38774870",
+      "37898914",
+      "39284684",
+      "32311840",
+      "33376723",
+      "36438201",
+      "33861762",
+      "39486661",
+      "38251077",
+      "34260294",
+      "39798003",
+      "40081285",
+      "37987033",
+      "37555866",
+      "33004423",
+      "40211257",
+      "36211448",
+      "40074769",
+      "33407546",
+      "34257549",
+      "39445019",
+      "40251374",
+      "38635528",
+      "39463421",
+      "33602168",
+      "38903921",
+      "30525236",
+      "33299877",
+      "38820962",
+      "36177006",
+      "28432618",
+      "34741346",
+      "39708189",
+      "39340288",
+      "36195876",
+      "39118438",
+      "37715643",
+      "38393890",
+      "40014188",
+      "36195857",
+      "39085893",
+      "39044829",
+      "34647424",
+      "33850474",
+      "38662757",
+      "39814999",
+      "40330470",
+      "40149497",
+      "40255404",
+      "39082336",
+      "39512688",
+      "34278494",
+      "32559205",
+      "38441798",
+      "39096475",
+      "39264423",
+      "39529015",
+      "39546272",
+      "39530087",
+      "39611512",
+      "39537209",
+      "32715976",
+      "39850878",
+      "37269346",
+      "39712016",
+      "39540710",
+      "29785036",
+      "34040099",
+      "37515494",
+      "39840058",
+      "38654290",
+      "37932968",
+      "40243557",
+      "40312525",
+      "30582205",
+      "30122881",
+      "40302343",
+      "35513781",
+      "35401884",
+      "37986299",
+      "40141422",
+      "30486822",
+      "39215210",
+      "33687891",
+      "35915607",
+      "33897701",
+      "33934539",
+      "32644941",
+      "36211823"
+    ],
+    "review": [
+      "38652093",
+      "37987033"
+    ],
+    "pmc": [
+      "11037413"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38652093/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38652093",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.18304",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3645",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

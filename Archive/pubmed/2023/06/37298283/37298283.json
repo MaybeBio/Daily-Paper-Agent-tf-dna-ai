@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "37298283",
+    "doi": "10.3390/ijms24119332",
+    "title": "Investigation of Flavonoid Scaffolds as DAX1 Inhibitors against Ewing Sarcoma through Pharmacoinformatic and Dynamic Simulation Studies."
+  },
+  "content": {
+    "abstract": "Dosage-sensitive sex reversal, adrenal hypoplasia critical region, on chromosome X, gene 1 (DAX1) is an orphan nuclear receptor encoded by the NR0B1 gene. The functional study showed that DAX1 is a physiologically significant target for EWS/FLI1-mediated oncogenesis, particularly Ewing Sarcoma (ES). In this study, a three-dimensional DAX1 structure was modeled by employing a homology modeling approach. Furthermore, the network analysis of genes involved in Ewing Sarcoma was also carried out to evaluate the association of DAX1 and other genes with ES. Moreover, a molecular docking study was carried out to check the binding profile of screened flavonoid compounds against DAX1. Therefore, 132 flavonoids were docked in the predicted active binding pocket of DAX1. Moreover, the pharmacogenomics analysis was performed for the top ten docked compounds to evaluate the ES-related gene clusters. As a result, the five best flavonoid-docked complexes were selected and further evaluated by Molecular Dynamics (MD) simulation studies at 100 ns. The MD simulation trajectories were evaluated by generating RMSD, hydrogen bond plot analysis, and interaction energy graphs. Our results demonstrate that flavonoids showed interactive profiles in the active region of DAX1 and can be used as potential therapeutic agents against DAX1-mediated augmentation of ES after in-vitro and in-vivo evaluations.",
+    "keywords": [
+      "DAX1",
+      "Ewing sarcoma",
+      "flavonoids",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "pharmacogenomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sarcoma, Ewing/drug therapy/genetics",
+      "Receptors, Retinoic Acid/metabolism",
+      "Repressor Proteins/genetics",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yasir, Muhammad",
+        "Park, Jinyoung",
+        "Han, Eun-Taek",
+        "Park, Won Sun",
+        "Han, Jin-Hee",
+        "Kwon, Yong-Soo",
+        "Lee, Hee-Jae",
+        "Hassan, Mubashir",
+        "Kloczkowski, Andrzej",
+        "Chun, Wanjoo"
+      ],
+      "short_names": [
+        "Yasir M",
+        "Park J",
+        "Han ET",
+        "Park WS",
+        "Han JH",
+        "Kwon YS",
+        "Lee HJ",
+        "Hassan M",
+        "Kloczkowski A",
+        "Chun W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0836-6675",
+        "ORCID: 0000-0003-1002-5095",
+        "ORCID: 0000-0003-1984-3545"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea.",
+        "Department of Pharmacology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea.",
+        "Department of Medical Environmental Biology and Tropical Medicine, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea.",
+        "Department of Physiology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea.",
+        "Department of Medical Environmental Biology and Tropical Medicine, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea.",
+        "College of Pharmacy, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea.",
+        "Department of Pharmacology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea.",
+        "The Steve and Cindy Rasmussen Institute for Genomic Medicine at Nationwide Children's Hospital, Columbus, OH 43205, USA.",
+        "The Steve and Cindy Rasmussen Institute for Genomic Medicine at Nationwide Children's Hospital, Columbus, OH 43205, USA.",
+        "Department of Pharmacology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yasir, Muhammad",
+        "short_name": "Yasir M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Jinyoung",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Han, Eun-Taek",
+        "short_name": "Han ET",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Environmental Biology and Tropical Medicine, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Won Sun",
+        "short_name": "Park WS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Han, Jin-Hee",
+        "short_name": "Han JH",
+        "identifiers": [
+          "0000-0003-0836-6675"
+        ],
+        "affiliations": [
+          "Department of Medical Environmental Biology and Tropical Medicine, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Yong-Soo",
+        "short_name": "Kwon YS",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hee-Jae",
+        "short_name": "Lee HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hassan, Mubashir",
+        "short_name": "Hassan M",
+        "identifiers": [],
+        "affiliations": [
+          "The Steve and Cindy Rasmussen Institute for Genomic Medicine at Nationwide Children's Hospital, Columbus, OH 43205, USA."
+        ]
+      },
+      {
+        "full_name": "Kloczkowski, Andrzej",
+        "short_name": "Kloczkowski A",
+        "identifiers": [
+          "0000-0003-1002-5095"
+        ],
+        "affiliations": [
+          "The Steve and Cindy Rasmussen Institute for Genomic Medicine at Nationwide Children's Hospital, Columbus, OH 43205, USA."
+        ]
+      },
+      {
+        "full_name": "Chun, Wanjoo",
+        "short_name": "Chun W",
+        "identifiers": [
+          "0000-0003-1984-3545"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Kangwon National University School of Medicine, Chuncheon 24341, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 May 26",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/10 15:13",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "42193088",
+      "41957177",
+      "41373498",
+      "40392133",
+      "39729480",
+      "39451563",
+      "39310179",
+      "38988487",
+      "38737046",
+      "38542998",
+      "37894854",
+      "37744812",
+      "37446113"
+    ],
+    "refs": [
+      "37110591",
+      "36835002",
+      "36615603",
+      "35721972",
+      "33088424",
+      "32059369",
+      "31774910",
+      "31526064",
+      "31480720",
+      "31344629",
+      "31307525",
+      "31206565",
+      "31038249",
+      "30962574",
+      "30733525",
+      "30387173",
+      "30288060",
+      "30274781",
+      "30243565",
+      "29973097",
+      "29731909",
+      "29590477",
+      "29515034",
+      "29497051",
+      "29398920",
+      "28961156",
+      "28851822",
+      "28248815",
+      "28201973",
+      "28128329",
+      "26975371",
+      "26970672",
+      "26258070",
+      "26059056",
+      "25917613",
+      "25917567",
+      "25768946",
+      "25667482",
+      "24928441",
+      "24289569",
+      "23593011",
+      "23525949",
+      "23269287",
+      "22900064",
+      "22841931",
+      "21552559",
+      "20598117",
+      "19770515",
+      "19596285",
+      "19491900",
+      "19381893",
+      "18782567",
+      "18591936",
+      "18351591",
+      "17334634",
+      "17250957",
+      "16327988",
+      "16206264",
+      "15264254",
+      "15100157",
+      "12557186",
+      "11289151",
+      "10971051",
+      "10598869"
+    ],
+    "similar": [
+      "37298283",
+      "16206264",
+      "36615603",
+      "18591936",
+      "36825574",
+      "16709599",
+      "17686645",
+      "35721972",
+      "16146703",
+      "17164309",
+      "17114343",
+      "19773398",
+      "34060252",
+      "15464421",
+      "16459121",
+      "17210221",
+      "15589120",
+      "29328472",
+      "27259270",
+      "31025088",
+      "16355812",
+      "11738790",
+      "15046740",
+      "17503084",
+      "12519885",
+      "18827407",
+      "14678822",
+      "36330954",
+      "19528230",
+      "10341858",
+      "14567960",
+      "16684822",
+      "27557498",
+      "27760381",
+      "21856289",
+      "34315769",
+      "25625846",
+      "15841486",
+      "16645015",
+      "25401475",
+      "34385178",
+      "10656994",
+      "36913323",
+      "24277455",
+      "22986530",
+      "29945296",
+      "11427738",
+      "21643012",
+      "16275267",
+      "8630494",
+      "8675564",
+      "26337082",
+      "23954228",
+      "21403840",
+      "23995784",
+      "23966622",
+      "26336820",
+      "27006472",
+      "7609262",
+      "25162919",
+      "16840536",
+      "26623725",
+      "28847958",
+      "26979396",
+      "25779942",
+      "24415532",
+      "36495678",
+      "27035099",
+      "28671673",
+      "9529340",
+      "30927420",
+      "35633536",
+      "18038713",
+      "19920188",
+      "19491900",
+      "30496486",
+      "27375017",
+      "9232190",
+      "23935076",
+      "28062706",
+      "28902354",
+      "21653923",
+      "31072811",
+      "27577084",
+      "33080033",
+      "30731167",
+      "17425403",
+      "35366465",
+      "11145739",
+      "24481407",
+      "36062956",
+      "25968435",
+      "33652741",
+      "22749036",
+      "33326102",
+      "25093581",
+      "26455317",
+      "12538527",
+      "21672607",
+      "30926641"
+    ],
+    "review": [
+      "37298283",
+      "16146703",
+      "15464421",
+      "17210221",
+      "11738790",
+      "15046740",
+      "14567960",
+      "25162919",
+      "33652741",
+      "21672607"
+    ],
+    "pmc": [
+      "10253386"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24119332",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37298283/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37298283",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

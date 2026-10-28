@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "40068024",
+    "doi": "10.1097/MD.0000000000041785",
+    "title": "Analysis of key microRNA molecules associated with acute kidney injury based on bioinformatics method."
+  },
+  "content": {
+    "abstract": "RATIONALE: Acute kidney injury (AKI) is a critical condition with limited early detection biomarkers and therapeutic options. This study aims to identify differentially expressed genes and potential microRNAs (miRNAs) as detection and therapeutic targets for AKI using bioinformatics-based analysis. PATIENT CONCERNS: The study focuses on AKI as a major health concern with a need for improved biomarkers to monitor and treat this condition effectively. DIAGNOSES: The bioinformatics analysis was conducted on the Gene Expression Omnibus database to identify key differentially expressed genes related to AKI. Additionally, potential miRNAs associated with these genes were predicted to provide further insight into AKI diagnosis and therapeutic strategies. INTERVENTIONS: Raw chip data from the Gene Expression Omnibus database were analyzed using coexpression complex analysis of weighted genes to identify differentially expressed genes associated with AKI. Gene set enrichment analysis and gene ontology analyses were performed to examine the pathways involved. A gene-miRNA regulatory network was constructed to explore potential therapeutic targets. OUTCOMES: A total of 277 differentially expressed genes were identified, with 200 genes upregulated and 77 downregulated. Significant enrichment pathways included neuroactive ligand-receptor interactions, Leishmania infection, prion disease, and electrocardiogram receptor interactions. Key enriched pathways from the Kyoto Encyclopedia of Genes and Genomes included the cytokine receptor binding pathway, chemokine signaling pathway, phosphatidylinositol-3-kinase/protein kinase B signaling pathway, and nuclear transcription factor kappa B signaling pathway. Ten hub genes, namely intercellular adhesion molecule 1 (ICAM1), C-X-C chemokine ligand 8 (CXCL8), toll-like receptor 2 (TLR2), selectin L (SELL), cytotoxic T lymphocyte-associated antigen (CTLA4), cell differentiation antigen 69 (CD69), disaccharide proteoglycan (BGN), C-X-C chemokine ligand 13 (CXCL13), metalloproteinase inhibitor 1 (TIMP1), and chemokine receptor 4 (CXCR4), were identified. Twelve critical miRNAs, namely hsa-miR-335-5p, hsa-miR-92a-3p, hsa-miR-146a-5p, hsa-miR-155-5p, hsa-miR-4426, hsa-miR-26b-5p, hsa-miR-4462b, hsa-miR-4647, hsa-miR-32-5p, hsa-miR-92b-3p, hsa-miR-98-5p, and hsa-miR-93-5p, were also identified. LESSONS: This bioinformatics analysis highlights 277 differentially expressed genes and 12 potential miRNAs that may serve as biomarkers for AKI detection and therapy. These findings contribute to a better understanding of the molecular mechanisms underlying AKI and offer promising targets for future diagnostic and therapeutic strategies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Acute Kidney Injury/genetics/diagnosis",
+      "*MicroRNAs/genetics",
+      "Humans",
+      "*Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Biomarkers",
+      "Gene Regulatory Networks",
+      "Signal Transduction/genetics",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Dongzhi",
+        "Zhang, Xiaoyang",
+        "Xu, Jialin",
+        "Chen, Chuang",
+        "Shao, Hongyi",
+        "Chen, Xingxiang",
+        "Wu, Dayong",
+        "Ma, Qiang",
+        "Wang, Wenmin",
+        "Wang, Yan"
+      ],
+      "short_names": [
+        "Liu D",
+        "Zhang X",
+        "Xu J",
+        "Chen C",
+        "Shao H",
+        "Chen X",
+        "Wu D",
+        "Ma Q",
+        "Wang W",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-5858-1608"
+      ],
+      "affiliations": [
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+        "The Yangtze River Delta Biological Medicine Research and Development Center of Zhejiang Province, Yangtze Delta Region Institution of Tsinghua University, Hangzhou, Zhejiang, China.",
+        "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Dongzhi",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoyang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jialin",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chuang",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Hongyi",
+        "short_name": "Shao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xingxiang",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Dayong",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Qiang",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenmin",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "The Yangtze River Delta Biological Medicine Research and Development Center of Zhejiang Province, Yangtze Delta Region Institution of Tsinghua University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0009-0001-5858-1608"
+        ],
+        "affiliations": [
+          "Department of Critical Care Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Mar 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/12 11:34",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [
+      "41487520"
+    ],
+    "refs": [
+      "38782909",
+      "38062807",
+      "37781965",
+      "37761260",
+      "37713958",
+      "37085762",
+      "36959845",
+      "36180946",
+      "35974169",
+      "35793478",
+      "35764395",
+      "35729178",
+      "35537329",
+      "35510354",
+      "35442485",
+      "35366755",
+      "35220863",
+      "35184139",
+      "34871811",
+      "34641966",
+      "34370322",
+      "33996109",
+      "33859745",
+      "33782973",
+      "33290828",
+      "33204323",
+      "33198526",
+      "32682254",
+      "32477132",
+      "32086547",
+      "32062825",
+      "31996035",
+      "31362998",
+      "30969781"
+    ],
+    "similar": [
+      "40068024",
+      "31914881",
+      "32013934",
+      "38393632",
+      "31658856",
+      "38839916",
+      "32299382",
+      "39080630",
+      "32888289",
+      "32435051",
+      "36118873",
+      "36647068",
+      "33407587",
+      "29032608",
+      "39028999",
+      "34313877",
+      "36319098",
+      "30666640",
+      "29128636",
+      "30503955",
+      "38444712",
+      "34190177",
+      "32547322",
+      "35949853",
+      "31541491",
+      "37201049",
+      "31703725",
+      "28296904",
+      "35275451",
+      "31788082",
+      "35719390",
+      "35968647",
+      "32176034",
+      "34434654",
+      "34156425",
+      "36291136",
+      "35545337",
+      "29255496",
+      "30865617",
+      "25189652",
+      "39238829",
+      "40166907",
+      "31692035",
+      "35313857",
+      "32031354",
+      "33578541",
+      "30308506",
+      "39516222",
+      "39881138",
+      "36398070",
+      "26079930",
+      "36042613",
+      "35658960",
+      "31489700",
+      "36104591",
+      "34337040",
+      "33863396",
+      "34536521",
+      "34398996",
+      "39754769",
+      "39464889",
+      "36930090",
+      "32323261",
+      "35678909",
+      "31989994",
+      "27350400",
+      "36125921",
+      "29516510",
+      "40355240",
+      "32429001",
+      "38362844",
+      "36321868",
+      "28315020",
+      "33390802",
+      "35322101",
+      "33378838",
+      "30768982",
+      "37169818",
+      "31842912",
+      "34041839",
+      "29063236",
+      "34600545",
+      "35909518",
+      "38041130",
+      "33950983",
+      "37400149",
+      "32597160",
+      "38949075",
+      "31277149",
+      "33719338",
+      "29224008",
+      "32912111",
+      "34632546",
+      "35839011",
+      "38873601",
+      "32093341",
+      "33299863",
+      "31730405",
+      "34797582",
+      "33182754"
+    ],
+    "review": [
+      "40068024",
+      "37169818"
+    ],
+    "pmc": [
+      "11902973"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40068024.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40068024/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3273",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000041785",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

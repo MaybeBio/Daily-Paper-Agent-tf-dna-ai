@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "40655141",
+    "doi": "10.3389/fimmu.2025.1591912",
+    "title": "Myeloid Zinc Finger 1: insights into its oncogenic potential, prognostic value, and impact on immune microenvironment across cancers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Myeloid Zinc Finger 1 (MZF1) is a zinc finger transcription factor gene that regulates gene expression by recognizing and binding to specific DNA sequences. Preliminary studies have suggested that MZF1 plays a pivotal role in the invasion and metastasis of various solid cancers. However, its role within the tumor immune microenvironment, as well as its prognostic value and potential for predicting responses to immunotherapy across different cancer types, remains inadequately explored and warrants a comprehensive systematic analysis. METHODS: MZF1 expression levels in various cancers were obtained from the Cancer Genome Atlas (TCGA) database. The TISCH web tool analyzed MZF1 expression in 32 cell types. A spatial distribution map of MZF1 related to cancer tissue markers was created using the STOmics DB. A univariate Cox regression analysis was performed to evaluate MZF1's prognostic value. The cBioPortal database helped explore potential MZF1 mutations across cancer types. The TIMER2.0 database was used to study the relationship between MZF1 expression and immune cell infiltration. Gene Set Enrichment Analysis (GSEA) and Gene Set Variation Analysis (GSVA) were performed to elucidate signaling pathways modulated by MZF1. Drug sensitivity testing for MZF1 was done using the CellMiner, the Cancer Therapeutics Response Portal (CTRP), and the Genomics of Drug Sensitivity in Cancer (GDSC) databases. Finally, MZF1 knockdown was achieved with siRNA silencing. RESULTS: Changes in MZF1 expression are linked to the prognosis of most cancer patients. In the tumor microenvironment, MZF1 is mainly found in CD4 Tconv cells and monocytes/macrophages. Studies show that MZF1 is associated with cancer immunotherapy markers, immune cell infiltration, and immune modulators. Additionally, its role in immune regulation was confirmed through analysis of StromalScore, ImmuneScore, ESTIMATE, and immune infiltration. Molecular docking identified MZF1-targeted drugs, with validated effects on breast cancer and gastric cancer cell survival and migration in vitro. Lastly, the knockdown of MZF1 can suppress cancer cell migration. CONCLUSION: Collectively, these findings underscore the pivotal role of MZF1 in tumor biology and immune modulation. MZF1 emerges as a promising prognostic biomarker and potential therapeutic target, offering novel avenues for cancer treatment strategies.",
+    "keywords": [
+      "Myeloid Zinc Finger 1",
+      "immunotherapy drug susceptibility",
+      "pan-cancer",
+      "prognostic biomarker",
+      "tumor immunity"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Microenvironment/immunology/genetics",
+      "*Neoplasms/immunology/genetics/metabolism/pathology/mortality",
+      "Prognosis",
+      "*Kruppel-Like Transcription Factors/genetics/metabolism",
+      "Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Mutation",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tian, Wenze",
+        "Yu, Chun",
+        "Xu, Xin",
+        "Li, Jiaqi",
+        "Peng, Shuangfu",
+        "Sun, Aijun",
+        "Zhang, Shasha",
+        "Jiang, Chao"
+      ],
+      "short_names": [
+        "Tian W",
+        "Yu C",
+        "Xu X",
+        "Li J",
+        "Peng S",
+        "Sun A",
+        "Zhang S",
+        "Jiang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, The Affiliated Huaian No.1 People's Hospital of Nanjing Medical University, Huai'an, China.",
+        "General Surgery Department, Lianshui People's Hospital Affiliated to Kangda College of Nanjing Medical University, Huai'an, Jiangsu, China.",
+        "Department of Thyroid and Breast Oncological Surgery, Huai'an Second People's Hospital, The Affiliated Huaian Hospital of Xuzhou Medical University, Huai'an, Jiangsu, China.",
+        "Faculty of Life Science and Food Engineering, Huaiyin Institute of Technology, Huai'an, Jiangsu, China.",
+        "Department of Thyroid and Breast Oncological Surgery, Huai'an Second People's Hospital, The Affiliated Huaian Hospital of Xuzhou Medical University, Huai'an, Jiangsu, China.",
+        "General Surgery Department, Lianshui People's Hospital Affiliated to Kangda College of Nanjing Medical University, Huai'an, Jiangsu, China.",
+        "Key Laboratory of Systems Biomedicine, Shanghai Center for Systems Biomedicine, Engineering Research Center of Techniques and Instruments for Diagnosis and Treatment of Congenital Heart Disease, Institute of Developmental and Regenerative Medicine, Xin Hua Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Oncology, The Affiliated Huaian No.1 People's Hospital of Nanjing Medical University, Huai'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tian, Wenze",
+        "short_name": "Tian W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Affiliated Huaian No.1 People's Hospital of Nanjing Medical University, Huai'an, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chun",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery Department, Lianshui People's Hospital Affiliated to Kangda College of Nanjing Medical University, Huai'an, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xin",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Oncological Surgery, Huai'an Second People's Hospital, The Affiliated Huaian Hospital of Xuzhou Medical University, Huai'an, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiaqi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Food Engineering, Huaiyin Institute of Technology, Huai'an, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Shuangfu",
+        "short_name": "Peng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Oncological Surgery, Huai'an Second People's Hospital, The Affiliated Huaian Hospital of Xuzhou Medical University, Huai'an, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Aijun",
+        "short_name": "Sun A",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery Department, Lianshui People's Hospital Affiliated to Kangda College of Nanjing Medical University, Huai'an, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shasha",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Biomedicine, Shanghai Center for Systems Biomedicine, Engineering Research Center of Techniques and Instruments for Diagnosis and Treatment of Congenital Heart Disease, Institute of Developmental and Regenerative Medicine, Xin Hua Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Chao",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Affiliated Huaian No.1 People's Hospital of Nanjing Medical University, Huai'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 12:28",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [
+      "42653360",
+      "42249105"
+    ],
+    "refs": [
+      "39705434",
+      "39034807",
+      "38572751",
+      "38436570",
+      "37668528",
+      "36351537",
+      "34917899",
+      "34557778",
+      "34140079",
+      "34086348",
+      "33622705",
+      "33196847",
+      "33179754",
+      "33151290",
+      "32388292",
+      "32341410",
+      "31713629",
+      "31307554",
+      "30903160",
+      "30643254",
+      "30301827",
+      "29850653",
+      "29669262",
+      "28398314",
+      "27922669",
+      "27259238",
+      "25903835",
+      "25884514",
+      "25802326",
+      "25494122",
+      "25284586",
+      "24931138",
+      "24338397",
+      "23509792",
+      "23323831",
+      "22846578",
+      "22802077",
+      "22613095",
+      "20920744",
+      "20576703",
+      "20145042",
+      "19399780",
+      "19289369",
+      "16199517",
+      "15541732",
+      "11445537",
+      "7565760"
+    ],
+    "similar": [
+      "40655141",
+      "40191190",
+      "39923580",
+      "40842984",
+      "39737177",
+      "40275529",
+      "39405927",
+      "40777041",
+      "40129060",
+      "40607419",
+      "20145042",
+      "40529377",
+      "39562405",
+      "37600783",
+      "37275857",
+      "40375999",
+      "39748320",
+      "39863609",
+      "39103487",
+      "39865831",
+      "40295550",
+      "40936932",
+      "30301827",
+      "29179204",
+      "40481392",
+      "39810215",
+      "40830225",
+      "37848933",
+      "39181686",
+      "40607411",
+      "37942289",
+      "40625743",
+      "39504328",
+      "40471645",
+      "40442199",
+      "39353384",
+      "31366500",
+      "39376739",
+      "35069553",
+      "39085893",
+      "39333689",
+      "40646089",
+      "35069601",
+      "37781040",
+      "40746552",
+      "33679809",
+      "35990668",
+      "40898185",
+      "40034693",
+      "35140706",
+      "22846578",
+      "39700959",
+      "38639057",
+      "31963147",
+      "40441196",
+      "39747410",
+      "33946045",
+      "41153357",
+      "40124611",
+      "41208987",
+      "40152300",
+      "39031404",
+      "41309884",
+      "40076932",
+      "40729863",
+      "38970506",
+      "39123194",
+      "40165405",
+      "40075453",
+      "37275880",
+      "39455949",
+      "41201047",
+      "34762107",
+      "38688977",
+      "40084262",
+      "39735682",
+      "38642258",
+      "40247837",
+      "40568593",
+      "27922669",
+      "34290693",
+      "32714316",
+      "35252444",
+      "39963131",
+      "41098715",
+      "41193984",
+      "40124623",
+      "41327736",
+      "40258986",
+      "41235257",
+      "40213543",
+      "39749345",
+      "39896800",
+      "36761737",
+      "36499054",
+      "40696616",
+      "38584561",
+      "39375392",
+      "40460484",
+      "41151853"
+    ],
+    "review": [
+      "40655141",
+      "31963147"
+    ],
+    "pmc": [
+      "12245674"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40655141/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1591912",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

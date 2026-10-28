@@ -1,0 +1,622 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.06.495043",
+  "title": "TANKBind: Trigonometry-Aware Neural NetworKs for Drug-Protein Binding Structure Prediction",
+  "doi": "10.1101/2022.06.06.495043",
+  "abstract": "Illuminating interactions between proteins and small drug molecules is a longstanding challenge in the field of drug discovery. Despite the importance of understanding these interactions, most previous works are limited by hand-designed scoring functions and insufficient conformation sampling. The recently-proposed graph neural network-based methods provides alternatives to predict protein-ligand complex conformation in a one-shot manner. However, these methods neglect the geometric constraints of the complex structure and weaken the role of local functional regions. As a result, they might produce unreasonable conformations for challenging targets and generalize poorly to novel proteins. In this paper, we propose Trigonometry-Aware Neural networKs for binding structure prediction, TANKBind, that builds trigonometry constraint as a vigorous inductive bias into the model and explicitly attends to all possible binding sites for each protein by segmenting the whole protein into functional blocks. We construct novel contrastive losses with local region negative sampling to jointly optimize the binding interaction and affinity. Extensive experiments show substantial performance gains in comparison to state-of-the-art physics-based and deep learning-based methods on commonly-used benchmark datasets for both binding structure and affinity predictions with variant settings.",
+  "authors": [
+    "Wei Lu",
+    "Qifeng Wu",
+    "Jixian Zhang",
+    "Jiahua Rao",
+    "Chengtao Li",
+    "Shuangjia Zheng"
+  ],
+  "published_date": "2022-06-06",
+  "updated_date": "2022-06-06T23:35:11Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.06.495043",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.06.495043.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            10
+          ]
+        ],
+        "date-time": "2026-09-10T14:02:06Z",
+        "timestamp": 1789048926234,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            6
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 62,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Illuminating interactions between proteins and small drug molecules is a longstanding challenge in the field of drug discovery. Despite the importance of understanding these interactions, most previous works are limited by hand-designed scoring functions and insufficient conformation sampling. The recently-proposed graph neural network-based methods provides alternatives to predict protein-ligand complex conformation in a one-shot manner. However, these methods neglect the geometric constraints of the complex structure and weaken the role of local functional regions. As a result, they might produce unreasonable conformations for challenging targets and generalize poorly to novel proteins. In this paper, we propose Trigonometry-Aware Neural networKs for binding structure prediction, TANKBind, that builds trigonometry constraint as a vigorous inductive bias into the model and explicitly attends to all possible binding sites for each protein by segmenting the whole protein into functional blocks. We construct novel contrastive losses with local region negative sampling to jointly optimize the binding interaction and affinity. Extensive experiments show substantial performance gains in comparison to state-of-the-art physics-based and deep learning-based methods on commonly-used benchmark datasets for both binding structure and affinity predictions with variant settings.</jats:p>",
+      "DOI": "10.1101/2022.06.06.495043",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2022-06-06T23:35:11Z",
+        "timestamp": 1654558511000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 102,
+      "title": [
+        "TANKBind: Trigonometry-Aware Neural NetworKs for Drug-Protein Binding Structure Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1572-2909",
+          "authenticated-orcid": false,
+          "given": "Wei",
+          "family": "Lu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qifeng",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jixian",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiahua",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chengtao",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shuangjia",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Michael S Kinch , Zachary Kraft , and Tyler Schwartz . 2021 in review: Fda approvals of new medicines. Drug discovery today, 2022.",
+          "DOI": "10.1016/j.drudis.2022.04.010"
+        },
+        {
+          "issue": "9",
+          "key": "2022102800500483000_2022.06.06.495043v3.2",
+          "first-page": "3409",
+          "article-title": "Novel 2019 coronavirus structure, mechanism of action, antiviral drug promises and rule out against its treatment",
+          "volume": "39",
+          "year": "2021",
+          "journal-title": "Journal of Biomolecular Structure and Dynamics"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.01.004"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu626"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c0md00020e"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elena A Ponomarenko , Ekaterina V Poverennaya , Ekaterina V Ilgisonis , Mikhail A Pyatnitskiy , Arthur T Kopylov , Victor G Zgoda , Andrey V Lisitsa , and Alexander I Archakov . The size of the human proteome: the width and depth. International journal of analytical chemistry, 2016, 2016.",
+          "DOI": "10.1155/2016/7436849"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm0306430"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Suzanne Ackloo , Rima Al-awar , Rommie E Amaro , Cheryl H Arrowsmith , Hatylas Azevedo , Robert A Batey , Yoshua Bengio , Ulrich AK Betz , Cristian G Bologa , John D Chodera , et al. Cache (critical assessment of computational hit-finding experiments): A public–private partnership benchmarking initiative to enable the development of computational methods for hit-finding. Nature Reviews Chemistry, pages 1–9, 2022.",
+          "DOI": "10.33774/chemrxiv-2021-rzq4n"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Francesco Gentile , Jean Charle Yaacoub , James Gleave , Michael Fernandez , Anh-Tien Ton , Fuqiang Ban , Abraham Stern , and Artem Cherkasov . Artificial intelligence–enabled virtual screening of ultra-large chemical libraries with deep docking. Nature Protocols, pages 1–26, 2022.",
+          "DOI": "10.1038/s41596-021-00659-2"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2003.09.002"
+        },
+        {
+          "issue": "5",
+          "key": "2022102800500483000_2022.06.06.495043v3.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "407",
+          "DOI": "10.2174/138920306778559395",
+          "article-title": "Scoring functions for protein-ligand docking",
+          "volume": "7",
+          "year": "2006",
+          "journal-title": "Current Protein and Peptide Science"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-17794-1"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.physchem.48.1.545"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3414"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/19.1.163"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.19",
+          "unstructured": "Bowen Jing , Stephan Eismann , Pratham N Soni , and Ron O Dror . Equivariant graph neural networks for 3d macromolecular structure. arXiv preprint arXiv:2106.03843, 2021."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.20",
+          "unstructured": "Octavian-Eugen Ganea , Xinyuan Huang , Charlotte Bunne , Yatao Bian , Regina Barzilay , Tommi Jaakkola , and Andreas Krause . Independent se (3)-equivariant models for end-to-end rigid protein docking. arXiv preprint arXiv:2111.07786, 2021."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.21",
+          "unstructured": "Wengong Jin , Jeremy Wohlwend , Regina Barzilay , and Tommi Jaakkola . Iterative refinement graph neural network for antibody sequence-structure co-design. arXiv preprint arXiv:2110.04624, 2021."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.22",
+          "unstructured": "John Ingraham , Vikas Garg , Regina Barzilay , and Tommi Jaakkola . Generative models for graphbased protein design. Advances in Neural Information Processing Systems, 32, 2019."
+        },
+        {
+          "issue": "4",
+          "key": "2022102800500483000_2022.06.06.495043v3.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "292",
+          "DOI": "10.1016/j.cels.2019.03.006",
+          "article-title": "End-to-end differentiable learning of protein structure",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Cell systems"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.24",
+          "unstructured": "Kristof Schütt , Pieter-Jan Kindermans , Huziel Enoc Sauceda Felix , Stefan Chmiela , Alexandre Tkatchenko , and Klaus-Robert Müller . Schnet: A continuous-filter convolutional neural network for modeling quantum interactions. Advances in neural information processing systems, 30, 2017."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.25",
+          "unstructured": "Vignesh Ram Somnath , Charlotte Bunne , and Andreas Krause . Multi-scale representation learning on proteins. Advances in Neural Information Processing Systems, 34, 2021."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.26",
+          "unstructured": "Chence Shi , Shitong Luo , Minkai Xu , and Jian Tang . Learning gradient fields for molecular conformation generation. In International Conference on Machine Learning, pages 9558–9568. PMLR, 2021."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.27",
+          "unstructured": "Minkai Xu , Lantao Yu , Yang Song , Chence Shi , Stefano Ermon , and Jian Tang . Geodiff: A geometric diffusion model for molecular conformation generation. arXivpreprint arXiv:2203.02923, 2022."
+        },
+        {
+          "issue": "12",
+          "key": "2022102800500483000_2022.06.06.495043v3.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1033",
+          "DOI": "10.1038/s42256-021-00409-9",
+          "article-title": "A geometric deep learning approach to predict binding conformations of bioactive molecules",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jian Wang and Nikolay V Dokholyan . Yuel: Compound–protein interaction prediction with high generalizability. bioRxiv, 2021.",
+          "DOI": "10.1101/2021.07.06.451043"
+        },
+        {
+          "issue": "4",
+          "key": "2022102800500483000_2022.06.06.495043v3.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "308",
+          "DOI": "10.1016/j.cels.2020.03.002",
+          "article-title": "Monn: a multiobjective neural network for predicting compound-protein interactions and affinities",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "issue": "2",
+          "key": "2022102800500483000_2022.06.06.495043v3.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "309",
+          "DOI": "10.1093/bioinformatics/bty535",
+          "article-title": "Compound–protein interaction prediction with end-to-end learning of neural networks for graphs and sequences",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.32",
+          "first-page": "3371",
+          "article-title": "Interpretable drug target prediction using deep neural representation",
+          "volume": "2018",
+          "year": "2018",
+          "journal-title": "IJCAI"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz111"
+        },
+        {
+          "issue": "2",
+          "key": "2022102800500483000_2022.06.06.495043v3.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "134",
+          "DOI": "10.1038/s42256-020-0152-y",
+          "article-title": "Predicting drug–protein interaction using quasi-visual question answering system",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00650"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00387"
+        },
+        {
+          "issue": "9",
+          "key": "2022102800500483000_2022.06.06.495043v3.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "4170",
+          "DOI": "10.1021/acs.jcim.9b00927",
+          "article-title": "Combining docking pose rank and structure with deep learning improves protein–ligand binding mode prediction over a baseline docking approach",
+          "volume": "60",
+          "year": "2020",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.38",
+          "unstructured": "Hannes Stärk , Octavian-Eugen Ganea , Lagnajit Pattanaik , Regina Barzilay , and Tommi Jaakkola . Equibind: Geometric deep learning for drug binding structure prediction. arXiv preprint arXiv:2202.05146, 2022."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.39",
+          "unstructured": "Bowen Jing , Stephan Eismann , Patricia Suriana , Raphael JL Townshend , and Ron Dror . Learning from protein structure with geometric vector perceptrons. arXiv preprint arXiv:2009.01411, 2020."
+        },
+        {
+          "issue": "24",
+          "key": "2022102800500483000_2022.06.06.495043v3.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "18209",
+          "DOI": "10.1021/acs.jmedchem.1c01830",
+          "article-title": "Interactiongraphnet: A novel and efficient deep graph representation learning framework for accurate protein–ligand interaction predictions",
+          "volume": "64",
+          "year": "2021",
+          "journal-title": "Journal of medicinal chemistry"
+        },
+        {
+          "issue": "2",
+          "key": "2022102800500483000_2022.06.06.495043v3.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "184",
+          "DOI": "10.1038/s41592-019-0666-6",
+          "article-title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "12",
+          "key": "2022102800500483000_2022.06.06.495043v3.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006342",
+          "DOI": "10.1371/journal.pcbi.1006342",
+          "article-title": "Accurate calculation of side chain packing and free energy with applications to protein molecular dynamics",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "issue": "1",
+          "key": "2022102800500483000_2022.06.06.495043v3.43",
+          "first-page": "1",
+          "article-title": "P2rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.44",
+          "unstructured": "Zhaocheng Zhu , Chence Shi , Zuobai Zhang , Shengchao Liu , Minghao Xu , Xinyu Yuan , Yangtian Zhang , Junkun Chen , Huiyu Cai , Jiarui Lu , et al. Torchdrug: A powerful and flexible machine learning platform for drug discovery. arXiv preprint arXiv:2202.08320, 2022."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.45",
+          "unstructured": "Keyulu Xu , Weihua Hu , Jure Leskovec , and Stefanie Jegelka . How powerful are graph neural networks? arXiv preprint arXiv:1810.00826, 2018."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.46",
+          "unstructured": "Raphael JL Townshend , Martin Vögele , Patricia Suriana , Alexander Derry , Alexander Powers , Yianni Laloudakis , Sidhika Balachandar , Bowen Jing , Brandon Anderson , Stephan Eismann , et al. Atom3d: Tasks on molecules in three dimensions. arXiv preprint arXiv:2012.04035, 2020."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.47",
+          "first-page": "1735",
+          "volume-title": "2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR’06)",
+          "volume": "2",
+          "year": "2006"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.48",
+          "unstructured": "Matthew Masters , Amr H Mahmoud , Yao Wei , and Markus Lill . Deep learning model for flexible and efficient protein-ligand docking. In ICLR2022 Machine Learning for Drug Discovery, 2022."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.49",
+          "unstructured": "Moritz Hoffmann and Frank Noé . Generating valid euclidean distance matrices. arXiv preprint arXiv:1910.03131, 2019."
+        },
+        {
+          "issue": "1",
+          "key": "2022102800500483000_2022.06.06.495043v3.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "198",
+          "DOI": "10.1016/j.jmgm.2006.06.002",
+          "article-title": "ehits: a new fast, exhaustive flexible ligand docking system",
+          "volume": "26",
+          "year": "2007",
+          "journal-title": "Journal of Molecular Graphics and Modelling"
+        },
+        {
+          "issue": "D1",
+          "key": "2022102800500483000_2022.06.06.495043v3.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "D437",
+          "DOI": "10.1093/nar/gkaa1038",
+          "article-title": "Rcsb protein data bank: powerful new tools for exploring 3d structures of biological macromolecules for basic and applied research and education in fundamental biology, biomedicine, biotechnology, bioengineering and energy sciences",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.52",
+          "unstructured": "Greg Landrum et al. Rdkit: A software suite for cheminformatics, computational chemistry, and predictive modeling, 2013."
+        },
+        {
+          "issue": "1",
+          "key": "2022102800500483000_2022.06.06.495043v3.53",
+          "first-page": "1",
+          "article-title": "Gnina 1.0: molecular docking with deep learning",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300604z"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa524"
+        },
+        {
+          "issue": "13",
+          "key": "2022102800500483000_2022.06.06.495043v3.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "3661",
+          "DOI": "10.1039/D1SC06946B",
+          "article-title": "Pignet: a physics-informed deep learning model toward generalized drug–target interaction predictions",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Chemical Science"
+        },
+        {
+          "issue": "5",
+          "key": "2022102800500483000_2022.06.06.495043v3.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "1308",
+          "DOI": "10.1021/acs.jcim.2c00060",
+          "article-title": "Structure-aware multimodal deep learning for drug–protein interaction prediction",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.58",
+          "unstructured": "Roshan Rao , Nicholas Bhattacharya , Neil Thomas , Yan Duan , Peter Chen , John Canny , Pieter Abbeel , and Yun Song . Evaluating protein transfer learning with tape. Advances in neural information processing systems, 32, 2019."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.59",
+          "unstructured": "Petar Veličković , Guillem Cucurull , Arantxa Casanova , Adriana Romero , Pietro Lio , and Yoshua Bengio . Graph attention networks. arXiv preprint arXiv:1710.10903, 2017."
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Timo Lassmann . Kalign 3: multiple sequence alignment of large datasets, 2020.",
+          "DOI": "10.1093/bioinformatics/btz795"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2022102800500483000_2022.06.06.495043v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0082138"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.06.495043",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:11:04Z",
+        "timestamp": 1768446664000
+      },
+      "score": 112.00835,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.06.495043"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            6
+          ]
+        ]
+      },
+      "references-count": 62,
+      "URL": "https://doi.org/10.1101/2022.06.06.495043",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

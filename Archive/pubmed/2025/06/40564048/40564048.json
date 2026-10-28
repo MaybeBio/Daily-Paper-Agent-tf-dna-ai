@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40564048",
+    "doi": "10.3390/biomedicines13061330",
+    "title": "Single-Cell Transcriptomics Unveils the Mechanistic Role of FOSL1 in Cutaneous Wound Healing."
+  },
+  "content": {
+    "abstract": "Background: The skin, a complex organ vital for protecting the body against environmental challenges, undergoes a multifaceted wound healing process involving hemostasis, inflammation, proliferation, and remodeling. The transcription factor FOSL1 has been implicated in various cellular processes crucial for wound healing, including cell cycle regulation, differentiation, and apoptosis. We hypothesize that FOSL1 is a key regulator of wound healing processes. Objective: The objective of this study was to investigate the role of FOSL1 in cutaneous wound healing, identify the core signaling pathways involved, and assess FOSL1's potential as a therapeutic target. Method: We utilized datasets from the Gene Expression Omnibus (GEO) and applied the 'limma' package to discern differentially expressed genes (DEGs). We intersected these DEGs with transcription factor-associated genes from the TRRUST database. Subsequently, we constructed Protein-Protein Interaction (PPI) networks via the STRING database. Machine learning algorithms were instrumental in identifying pivotal genes, a finding corroborated through animal modeling and Western blot analysis of tissue samples. To elucidate biological pathway activities from gene expression data, we deployed the 'PROGENy' package, complemented by machine learning for precise pathway identification. Furthermore, Gene Set Variation Analysis (GSVA) was executed across Hallmark, biological process (BP), molecular function (MF), and cellular component (CC) categories to deepen our understanding of the wound healing process. Results: Our analysis revealed that FOSL1 is significantly upregulated in wounded skin. The Mitogen-Activated Protein Kinase (MAPK) and Epidermal Growth Factor Receptor (EGFR) pathways were identified as significantly associated with FOSL1. GSVA identifies critical changes in wound healing processes like 'apical junction' and 'epithelial-mesenchymal transition.' The upregulation of 'cytoplasm organization' and 'response to gravity' suggests roles in cellular adaptation. Molecular function analysis indicates alterations in 'cytokeratin filaments' and 'growth factor binding,' which are key for tissue repair. Cellular component shifts in 'postsynaptic cytosol' and 'endoplasmic reticulum' suggest changes in communication and protein processing. Conclusions: Our study identifies FOSL1 as a potential regulator of cutaneous wound healing through its modulation of cellular signaling pathways, offering novel insights into the molecular control of tissue repair. These findings highlight FOSL1 as a promising therapeutic target to accelerate healing in chronic or impaired wounds.",
+    "keywords": [
+      "EGFR pathway",
+      "FOSL1",
+      "MAPK pathway",
+      "single-cell sequencing",
+      "wound healing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Jingbi",
+        "Zheng, Ge",
+        "Luo, Yinli",
+        "Ge, Ling",
+        "Liu, Zhiqing",
+        "Huang, Wenhua",
+        "Jin, Meitong",
+        "Kong, Yanli",
+        "Xu, Shanhua",
+        "Jin, Zhehu",
+        "Pi, Longquan"
+      ],
+      "short_names": [
+        "Meng J",
+        "Zheng G",
+        "Luo Y",
+        "Ge L",
+        "Liu Z",
+        "Huang W",
+        "Jin M",
+        "Kong Y",
+        "Xu S",
+        "Jin Z",
+        "Pi L"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-9384-2159",
+        "ORCID: 0009-0005-3238-7881",
+        "ORCID: 0000-0002-8252-0557"
+      ],
+      "affiliations": [
+        "Department of Central Laboratory, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Central Laboratory, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Central Laboratory, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Anesthesia, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+        "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Jingbi",
+        "short_name": "Meng J",
+        "identifiers": [
+          "0009-0000-9384-2159"
+        ],
+        "affiliations": [
+          "Department of Central Laboratory, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Ge",
+        "short_name": "Zheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Central Laboratory, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yinli",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+          "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Ling",
+        "short_name": "Ge L",
+        "identifiers": [
+          "0009-0005-3238-7881"
+        ],
+        "affiliations": [
+          "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+          "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiqing",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+          "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wenhua",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Central Laboratory, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Meitong",
+        "short_name": "Jin M",
+        "identifiers": [
+          "0000-0002-8252-0557"
+        ],
+        "affiliations": [
+          "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+          "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Yanli",
+        "short_name": "Kong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+          "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shanhua",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Zhehu",
+        "short_name": "Jin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+          "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      },
+      {
+        "full_name": "Pi, Longquan",
+        "short_name": "Pi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Yanbian University Hospital, Yanji 133001, China.",
+          "Department of Medical Cosmetology, Yanbian University Hospital, Yanji 133001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicines"
+    ],
+    "journal_abbrev": [
+      "Biomedicines"
+    ],
+    "pub_date": "2025 May 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/26 06:27",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39808958",
+      "39729995",
+      "39168124",
+      "37231261",
+      "36370105",
+      "33102485",
+      "32968335",
+      "32082384",
+      "31740819",
+      "30787437",
+      "29295995",
+      "29087512",
+      "27476449",
+      "25605792",
+      "25176396",
+      "23323831",
+      "22250636",
+      "19609314",
+      "17276202",
+      "16990857",
+      "16199517",
+      "15996419",
+      "15482488"
+    ],
+    "similar": [
+      "40564048",
+      "40355666",
+      "40379053",
+      "41383633",
+      "40916281",
+      "40015667",
+      "38192258",
+      "34193119",
+      "39991734",
+      "39678778",
+      "35709926",
+      "40206361",
+      "38268224",
+      "36185257",
+      "39780180",
+      "36740424",
+      "35392760",
+      "38791400",
+      "39917920",
+      "39678169",
+      "33978371",
+      "36299206",
+      "40860289",
+      "40467768",
+      "36321793",
+      "41409744",
+      "34067297",
+      "30772301",
+      "38127424",
+      "28983581",
+      "39842648",
+      "28481878",
+      "31673979",
+      "41239461",
+      "38734758",
+      "30112053",
+      "41162503",
+      "38103125",
+      "39349110",
+      "39607512",
+      "30471098",
+      "37833759",
+      "38524085",
+      "29063236",
+      "32866426",
+      "35713363",
+      "39586719",
+      "35729652",
+      "39874886",
+      "26829882",
+      "29401709",
+      "38548393",
+      "29620143",
+      "40487403",
+      "40775796",
+      "34110956",
+      "39622393",
+      "28268192",
+      "39403102",
+      "36681232",
+      "41367897",
+      "40331545",
+      "38379227",
+      "30681184",
+      "39729995",
+      "39341981",
+      "39780215",
+      "40861493",
+      "38259479",
+      "31173250",
+      "38767331",
+      "39052109",
+      "41504052",
+      "36477977",
+      "36111048",
+      "41419874",
+      "39609719",
+      "39923427",
+      "40400126",
+      "36471356",
+      "11584015",
+      "40024299",
+      "40252113",
+      "28432618",
+      "27866912",
+      "33437215",
+      "39509434",
+      "35464062",
+      "39835554",
+      "40261295",
+      "37267693",
+      "25966254",
+      "40038579",
+      "41492412",
+      "10726679",
+      "40663577",
+      "41351424",
+      "39609849",
+      "34553293",
+      "40208456"
+    ],
+    "review": [
+      "40564048",
+      "38791400",
+      "40467768",
+      "36681232"
+    ],
+    "pmc": [
+      "12189721"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomedicines13061330",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40564048/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

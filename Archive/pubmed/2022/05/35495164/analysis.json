@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35495164",
+  "title": "Identification of Diagnostic Biomarkers in Systemic Lupus Erythematosus Based on Bioinformatics Analysis and Machine Learning.",
+  "authors": "Jiang, Zhihang; Shao, Mengting; Dai, Xinzhu; Pan, Zhixin; Liu, Dongmei",
+  "journal": "Frontiers in genetics",
+  "published_date": "2022-05-03",
+  "window": {
+    "start": "2022-05-02",
+    "end": "2022-05-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该文基于GEO数据用机器学习筛选SLE诊断生物标志物并构建TF-miRNA网络，但核心是基因表达与诊断标志物，缺乏蛋白质-DNA三维互作建模或结合机制研究，仅TF网络为间接关联。",
+  "abstract": "Systemic lupus erythematosus (SLE) is a complex autoimmune disease that affects several organs and causes variable clinical symptoms. Exploring new insights on genetic factors may help reveal SLE etiology and improve the survival of SLE patients. The current study is designed to identify key genes involved in SLE and develop potential diagnostic biomarkers for SLE in clinical practice. Expression data of all genes of SLE and control samples in GSE65391 and GSE72509 datasets were downloaded from the Gene Expression Omnibus (GEO) database. A total of 11 accurate differentially expressed genes (DEGs) were identified by the \"limma\" and \"RobustRankAggreg\" R package. All these genes were functionally associated with several immune-related biological processes and a single KEGG (Kyoto Encyclopedia of Genes and Genome) pathway of necroptosis. The PPI analysis showed that IFI44, IFI44L, EIF2AK2, IFIT3, IFITM3, ZBP1, TRIM22, PRIC285, XAF1, and PARP9 could interact with each other. In addition, the expression patterns of these DEGs were found to be consistent in GSE39088. Moreover, Receiver operating characteristic (ROC) curves analysis indicated that all these DEGs could serve as potential diagnostic biomarkers according to the area under the ROC curve (AUC) values. Furthermore, we constructed the transcription factor (TF)-diagnostic biomarker-microRNA (miRNA) network composed of 278 nodes and 405 edges, and a drug-diagnostic biomarker network consisting of 218 nodes and 459 edges. To investigate the relationship between diagnostic biomarkers and the immune system, we evaluated the immune infiltration landscape of SLE and control samples from GSE6539. Finally, using a variety of machine learning methods, IFI44 was determined to be the optimal diagnostic biomarker of SLE and then verified by quantitative real-time PCR (qRT-PCR) in an independent cohort. Our findings may benefit the diagnosis of patients with SLE and guide in developing novel targeted therapy in treating SLE patients.",
+  "abstract_zh": "系统性红斑狼疮（SLE）是一种复杂的自身免疫性疾病，影响多个器官并导致多变的临床症状。探索遗传因素的新见解可能有助于揭示SLE的病因并改善SLE患者的生存率。本研究旨在识别参与SLE的关键基因，并为临床实践中开发潜在的诊断生物标志物。从基因表达综合（GEO）数据库中下载了GSE65391和GSE72509数据集中SLE及对照样本的所有基因表达数据。通过“limma”和“RobustRankAggreg”R包共鉴定出11个准确的差异表达基因（DEGs）。所有这些基因在功能上与多个免疫相关生物过程及单一KEGG（京都基因与基因组百科全书）通路——坏死性凋亡相关联。PPI分析显示，IFI44、IFI44L、EIF2AK2、IFIT3、IFITM3、ZBP1、TRIM22、PRIC285、XAF1和PARP9可相互交互。此外，这些DEGs的表达模式在GSE39088中保持一致。进一步地，受试者工作特征（ROC）曲线分析表明，根据ROC曲线下面积（AUC）值，所有这些DEGs均可作为潜在的诊断生物标志物。此外，我们构建了由278个节点和405条边组成的转录因子（TF）-诊断生物标志物-微小RNA（miRNA）网络，以及由218个节点和459条边组成的药物-诊断生物标志物网络。为探究诊断生物标志物与免疫系统之间的关系，我们评估了来自GSE6539的SLE及对照样本的免疫浸润景观。最后，利用多种机器学习方法，确定IFI44为SLE的最佳诊断生物标志物，并在独立队列中通过实时定量PCR（qRT-PCR）进行验证。我们的发现可能有助于SLE患者的诊断，并指导开发针对SLE患者的新型靶向治疗。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35495164/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35495164/",
+  "paper_page_path": "papers/pubmed/35495164/index.html"
+}

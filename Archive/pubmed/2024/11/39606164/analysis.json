@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39606164",
+  "title": "Development and validation of biomarkers related to anoikis in liver cirrhosis based on bioinformatics analysis.",
+  "authors": "Luo, Jiang-Yan; Zheng, Sheng; Yang, Juan; Ma, Chi; Ma, Xiao-Ying; Wang, Xing-Xing; Fu, Xin-Nian; Mao, Xiao-Zhou",
+  "journal": "World journal of hepatology",
+  "published_date": "2024-11-28",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于生物信息学筛选肝硬化失巢凋亡相关生物标志物，虽构建了mRNA-miRNA-TF调控网络，但核心是表达谱统计与临床诊断，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: According to study, anoikis-related genes (ARGs) have been demonstrated to play a significant impact in cirrhosis, a major disease threatening human health worldwide. AIM: To investigate the relationship between ARGs and cirrhosis development to provide insights into the clinical treatment of cirrhosis. METHODS: RNA-sequencing data related to cirrhosis were obtained from the Gene Expression Omnibus database. Differentially expressed genes (DEGs) between cirrhotic and normal tissues were intersected with ARGs to derive differentially expressed ARGs (DEARGs). The DEARGs were filtered using the least absolute shrinkage and selection operator, support vector machine recursive feature elimination, and random forest algorithms to identify biomarkers for cirrhosis. These biomarkers were used to create a nomogram for predicting the prognosis of cirrhosis. The proportions of diverse immune cell subsets in cirrhotic vs normal tissues were compared using the CIBERSORT computational method. In addition, the linkage between immune cells and biomarkers was assessed, and a regulatory network of mRNA, miRNA, and transcription factors was constructed relying on the biomarkers. RESULTS: The comparison of cirrhotic and normal tissue samples led to the identification of 635 DEGs. Subsequent intersection of the DEGs with ARGs produced a set of 26 DEARGs. Subsequently, three DEARGs, namely, ACTG1, STAT1, and CCR7, were identified as biomarkers using three machine-learning algorithms. The proportions of M1 and M2 macrophages, resting CD4 memory T cells, resting mast cells, and plasma cells significantly differed between cirrhotic and normal tissue samples. The proportions of M1 and M2 macrophages, resting CD4 memory T cells, and resting mast cells were significantly correlated with the expression of the three biomarkers. The mRNA-miRNA-TF network showed that ACTG1, CCR7, and STAT1 were regulated by 28, 42, and 35 miRNAs, respectively. Moreover, AR, MAX, EP300, and FOXA1 were found to regulate four miRNAs related to the biomarkers. CONCLUSION: This study revealed ACTG1, STAT1, and CCR7 as biomarkers of cirrhosis, providing a reference for developing novel diagnostic and therapeutic strategies for cirrhosis.",
+  "abstract_zh": "背景：研究表明，失巢凋亡相关基因（anoikis-related genes, ARGs）在肝硬化中发挥重要作用，肝硬化是威胁全球人类健康的主要疾病。目的：探讨ARGs与肝硬化发展之间的关系，为肝硬化的临床治疗提供见解。方法：从基因表达综合（Gene Expression Omnibus）数据库获取与肝硬化相关的RNA测序数据。将肝硬化和正常组织之间的差异表达基因（differentially expressed genes, DEGs）与ARGs取交集，得到差异表达ARGs（DEARGs）。使用最小绝对收缩和选择算子、支持向量机递归特征消除和随机森林算法筛选DEARGs，以识别肝硬化的生物标志物。利用这些生物标志物构建列线图，用于预测肝硬化预后。使用CIBERSORT计算方法比较肝硬化和正常组织中不同免疫细胞亚群的比例。此外，评估免疫细胞与生物标志物之间的关联，并基于生物标志物构建mRNA、miRNA和转录因子的调控网络。结果：肝硬化和正常组织样本的比较鉴定出635个DEGs。随后，将DEGs与ARGs取交集，得到26个DEARGs。接着，使用三种机器学习算法将三个DEARGs，即ACTG1、STAT1和CCR7，识别为生物标志物。肝硬化和正常组织样本中M1和M2巨噬细胞、静息CD4记忆T细胞、静息肥大细胞和浆细胞的比例存在显著差异。M1和M2巨噬细胞、静息CD4记忆T细胞和静息肥大细胞的比例与三个生物标志物的表达显著相关。mRNA-miRNA-TF网络显示，ACTG1、CCR7和STAT1分别受28、42和35个miRNAs调控。此外，发现AR、MAX、EP300和FOXA1调控与生物标志物相关的四个miRNAs。结论：本研究揭示ACTG1、STAT1和CCR7为肝硬化的生物标志物，为开发肝硬化的新型诊断和治疗策略提供了参考。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39606164/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39606164/",
+  "paper_page_path": "papers/pubmed/39606164/index.html"
+}

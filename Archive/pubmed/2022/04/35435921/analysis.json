@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35435921",
+  "title": "Machine Learning Prediction of Non-Coding Variant Impact in Human Retinal cis-Regulatory Elements.",
+  "authors": "VandenBosch, Leah S; Luu, Kelsey; Timms, Andrew E; Challam, Shriya; Wu, Yue; Lee, Aaron Y; Cherry, Timothy J",
+  "journal": "Translational vision science & technology",
+  "published_date": "2022-04-19",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用gapped k-mer SVM基于视网膜ATAC-seq表观数据预测顺式调控元件中非编码变异影响，涉及TF结合基序破坏，但未做三维互作建模或MD/结构预测，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "PURPOSE: Prior studies have demonstrated the significance of specific cis-regulatory variants in retinal disease; however, determining the functional impact of regulatory variants remains a major challenge. In this study, we utilized a machine learning approach, trained on epigenomic data from the adult human retina, to systematically quantify the predicted impact of cis-regulatory variants. METHODS: We used human retinal DNA accessibility data (ATAC-seq) to determine a set of 18.9k high-confidence, putative cis-regulatory elements. Eighty percent of these elements were used to train a machine learning model utilizing a gapped k-mer support vector machine-based approach. In silico saturation mutagenesis and variant scoring was applied to predict the functional impact of all potential single nucleotide variants within cis-regulatory elements. Impact scores were tested in a 20% hold-out dataset and compared to allele population frequency, phylogenetic conservation, transcription factor (TF) binding motifs, and existing massively parallel reporter assay data. RESULTS: We generated a model that distinguishes between human retinal regulatory elements and negative test sequences with 95% accuracy. Among a hold-out test set of 3.7k human retinal CREs, all possible single nucleotide variants were scored. Variants with negative impact scores correlated with higher phylogenetic conservation of the reference allele, disruption of predicted TF binding motifs, and massively parallel reporter expression. CONCLUSIONS: We demonstrated the utility of human retinal epigenomic data to train a machine learning model for the purpose of predicting the impact of non-coding regulatory sequence variants. Our model accurately scored sequences and predicted putative transcription factor binding motifs. This approach has the potential to expedite the characterization of pathogenic non-coding sequence variants in the context of unexplained retinal disease. TRANSLATIONAL RELEVANCE: This workflow and resulting dataset serve as a promising genomic tool to facilitate the clinical prioritization of functionally disruptive non-coding mutations in the retina.",
+  "abstract_zh": "目的：先前的研究已证明特定顺式调控变异在视网膜疾病中的重要性；然而，确定调控变异的功能影响仍是一个重大挑战。在本研究中，我们利用一种机器学习方法，基于成人视网膜的表观基因组数据进行训练，以系统量化顺式调控变异的预测影响。方法：我们使用人类视网膜DNA可及性数据（ATAC-seq）来确定一组18.9k个高置信度的推定顺式调控元件。其中80%的元件用于训练一种基于间隙k-mer支持向量机方法的机器学习模型。应用计算机模拟饱和突变和变异评分，以预测顺式调控元件内所有潜在单核苷酸变异的功能影响。影响评分在20%的留出数据集中进行测试，并与等位基因群体频率、系统发育保守性、转录因子（TF）结合基序以及现有的大规模平行报告基因检测数据进行比较。结果：我们生成了一个模型，能够以95%的准确率区分人类视网膜调控元件和阴性测试序列。在3.7k个人类视网膜CREs的留出测试集中，对所有可能的单核苷酸变异进行了评分。具有负影响评分的变异与参考等位基因更高的系统发育保守性、预测TF结合基序的破坏以及大规模平行报告基因表达相关。结论：我们证明了人类视网膜表观基因组数据在训练机器学习模型以预测非编码调控序列变异影响方面的实用性。我们的模型准确地对序列进行了评分，并预测了推定的转录因子结合基序。该方法有潜力加速在原因不明的视网膜疾病背景下对致病性非编码序列变异的表征。转化相关性：该工作流程及所得数据集作为一种有前景的基因组工具，有助于在视网膜中优先考虑功能破坏性非编码突变的临床评估。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35435921/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35435921/",
+  "paper_page_path": "papers/pubmed/35435921/index.html"
+}

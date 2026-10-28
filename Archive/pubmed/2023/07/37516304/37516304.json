@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "37516304",
+    "doi": "10.1016/j.yrtph.2023.105464",
+    "title": "A multi-tiered hierarchical Bayesian approach to derive toxic equivalency factors for dioxin-like compounds."
+  },
+  "content": {
+    "abstract": "In 2005, the World Health Organization (WHO) re-evaluated Toxic Equivalency factors (TEFs) developed for dioxin-like compounds believed to act through the Ah receptor based on an updated database of relative estimated potency (REP)(REP(2004) database). This re-evalution identified the need to develop a consistent approach for dose-response modeling. Further, the WHO Panel discussed the significant heterogeneity of experimental datasets and dataset quality underlying the REPs in the database. There is a critical need to develop a quantitative, and quality weighted approach to characterize the TEF for each congener. To address this, a multi-tiered approach that combines Bayesian dose-response fitting and meta-regression with a machine learning model to predict REPS' quality categorizations was developed to predict the most likely relationship between each congener and its reference and derive model-predicted TEF uncertainty distributions. As a proof of concept, this 'Best-Estimate TEF workflow' was applied to the REP(2004) database to derive TEF point-estimates and characterizations of uncertainty for all congeners. Model-TEFs were similar to the 2005 WHO TEFs, with the data-poor congeners having larger levels of uncertainty. This transparent and reproducible computational workflow incorporates WHO expert panel recommendations and represents a substantial improvement in the TEF methodology.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Dioxins/toxicity",
+      "Bayes Theorem",
+      "Risk Assessment",
+      "Uncertainty",
+      "Receptors, Aryl Hydrocarbon",
+      "*Polychlorinated Biphenyls"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ring, Caroline",
+        "Blanchette, Alexander",
+        "Klaren, William D",
+        "Fitch, Seneca",
+        "Haws, Laurie",
+        "Wheeler, Matthew W",
+        "DeVito, Michael",
+        "Walker, Nigel",
+        "Wikoff, Daniele"
+      ],
+      "short_names": [
+        "Ring C",
+        "Blanchette A",
+        "Klaren WD",
+        "Fitch S",
+        "Haws L",
+        "Wheeler MW",
+        "DeVito M",
+        "Walker N",
+        "Wikoff D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "ToxStrategies, Austin, TX, USA. Electronic address: ring.caroline@epa.gov.",
+        "ToxStrategies, Asheville, NC, USA. Electronic address: ablanchette@toxstrategies.com.",
+        "ToxStrategies, Asheville, NC, USA. Electronic address: wklaren@toxstrategies.com.",
+        "ToxStrategies, Katy, TX, USA. Electronic address: sfitch@toxstrategies.com.",
+        "ToxStrategies, Austin, TX, USA. Electronic address: lhaws@toxstrategies.com.",
+        "National Institute of Environmental Health Sciences/National Institutes of Health, Research Triangle Park, NC, USA. Electronic address: matt.wheeler@nih.gov.",
+        "Environmental Protection Agency, Center for Computational Toxicology and Exposure, Research Triangle Park, NC, USA. Electronic address: devito.michael@epa.gov.",
+        "National Institute of Environmental Health Sciences/National Institutes of Health, Research Triangle Park, NC, USA. Electronic address: walker3@niehs.nih.gov.",
+        "ToxStrategies, Asheville, NC, USA. Electronic address: dwikoff@toxstrategies.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ring, Caroline",
+        "short_name": "Ring C",
+        "identifiers": [],
+        "affiliations": [
+          "ToxStrategies, Austin, TX, USA. Electronic address: ring.caroline@epa.gov."
+        ]
+      },
+      {
+        "full_name": "Blanchette, Alexander",
+        "short_name": "Blanchette A",
+        "identifiers": [],
+        "affiliations": [
+          "ToxStrategies, Asheville, NC, USA. Electronic address: ablanchette@toxstrategies.com."
+        ]
+      },
+      {
+        "full_name": "Klaren, William D",
+        "short_name": "Klaren WD",
+        "identifiers": [],
+        "affiliations": [
+          "ToxStrategies, Asheville, NC, USA. Electronic address: wklaren@toxstrategies.com."
+        ]
+      },
+      {
+        "full_name": "Fitch, Seneca",
+        "short_name": "Fitch S",
+        "identifiers": [],
+        "affiliations": [
+          "ToxStrategies, Katy, TX, USA. Electronic address: sfitch@toxstrategies.com."
+        ]
+      },
+      {
+        "full_name": "Haws, Laurie",
+        "short_name": "Haws L",
+        "identifiers": [],
+        "affiliations": [
+          "ToxStrategies, Austin, TX, USA. Electronic address: lhaws@toxstrategies.com."
+        ]
+      },
+      {
+        "full_name": "Wheeler, Matthew W",
+        "short_name": "Wheeler MW",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Environmental Health Sciences/National Institutes of Health, Research Triangle Park, NC, USA. Electronic address: matt.wheeler@nih.gov."
+        ]
+      },
+      {
+        "full_name": "DeVito, Michael",
+        "short_name": "DeVito M",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental Protection Agency, Center for Computational Toxicology and Exposure, Research Triangle Park, NC, USA. Electronic address: devito.michael@epa.gov."
+        ]
+      },
+      {
+        "full_name": "Walker, Nigel",
+        "short_name": "Walker N",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Environmental Health Sciences/National Institutes of Health, Research Triangle Park, NC, USA. Electronic address: walker3@niehs.nih.gov."
+        ]
+      },
+      {
+        "full_name": "Wikoff, Daniele",
+        "short_name": "Wikoff D",
+        "identifiers": [],
+        "affiliations": [
+          "ToxStrategies, Asheville, NC, USA. Electronic address: dwikoff@toxstrategies.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Regulatory toxicology and pharmacology : RTP"
+    ],
+    "journal_abbrev": [
+      "Regul Toxicol Pharmacol"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/30 01:06",
+    "fetched_at": "2026-09-29 04:31:06"
+  },
+  "links": {
+    "cites": [
+      "40906920",
+      "39133093",
+      "38244664",
+      "37972849"
+    ],
+    "refs": [
+      "37866700",
+      "36850973",
+      "36628859",
+      "36446273",
+      "36129438",
+      "36094007",
+      "36052482",
+      "35881550",
+      "35034131",
+      "34822706",
+      "33772556",
+      "33017053",
+      "32729940",
+      "32625254",
+      "32313097",
+      "30220889",
+      "29105341",
+      "16829543",
+      "16120753",
+      "9831538",
+      "8037844",
+      "2124811"
+    ],
+    "similar": [
+      "37516304",
+      "38244664",
+      "16829543",
+      "37972849",
+      "12712595",
+      "37866700",
+      "23973911",
+      "24472611",
+      "27588699",
+      "37283214",
+      "18065775",
+      "23492812",
+      "25654323",
+      "16120753",
+      "27161441",
+      "9464894",
+      "24901989",
+      "24046277",
+      "20819910",
+      "26202062",
+      "23665575",
+      "11993627",
+      "10912248",
+      "24950391",
+      "17342196",
+      "9861526",
+      "18342938",
+      "8571375",
+      "8037844",
+      "17342195",
+      "24363026",
+      "23674508",
+      "29738842",
+      "16628245",
+      "14736496",
+      "16835634",
+      "34761675",
+      "26452299",
+      "30359698",
+      "23690076",
+      "16835633",
+      "12850102",
+      "16728370",
+      "9799183",
+      "11337868",
+      "22022789",
+      "9831538",
+      "33348102",
+      "10943457",
+      "23676118",
+      "17160103",
+      "17269455",
+      "21383778",
+      "38548044",
+      "18333697",
+      "16443251",
+      "8748687",
+      "25226220",
+      "17475378",
+      "17160104",
+      "20702594",
+      "34888928",
+      "31149810",
+      "28669845",
+      "12227941",
+      "7784623",
+      "18435568",
+      "16955640",
+      "22074031",
+      "7762001",
+      "20043972",
+      "1669971",
+      "19573893",
+      "17454365",
+      "31812059",
+      "19950998",
+      "34952507",
+      "17941736",
+      "21204517",
+      "16460856",
+      "38484927",
+      "17912254",
+      "33297084",
+      "17363326",
+      "20435555",
+      "22364893",
+      "2124811",
+      "22428884",
+      "8432423",
+      "17009211",
+      "8143638",
+      "23933504",
+      "1335882",
+      "15175180",
+      "7570596",
+      "22954249",
+      "17223171",
+      "18936997",
+      "38759533",
+      "20728228"
+    ],
+    "review": [
+      "37516304",
+      "38244664",
+      "16829543",
+      "37972849",
+      "16120753",
+      "27161441",
+      "9464894",
+      "10912248",
+      "9861526",
+      "8037844",
+      "9799183",
+      "9831538",
+      "38548044",
+      "25226220",
+      "7784623",
+      "16955640",
+      "34952507",
+      "16460856",
+      "22364893",
+      "2124811",
+      "17009211",
+      "8143638"
+    ],
+    "pmc": [
+      "11110530"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0273-2300(23)00132-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/37516304.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37516304/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

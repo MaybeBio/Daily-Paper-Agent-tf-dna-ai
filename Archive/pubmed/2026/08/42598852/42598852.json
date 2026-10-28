@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "42598852",
+    "doi": "10.1093/nar/gkag779",
+    "title": "DNAreader: accurate prediction of DNA-binding residues in structured and disordered proteins using transformers and contrastive learning."
+  },
+  "content": {
+    "abstract": "Accurate predictions of DNA-binding residues (DBRs) in protein sequences facilitate decoding molecular-level mechanisms underlying cellular functions that involve protein-DNA interactions. While dozens of these predictors have been released, they target either structured or intrinsically disordered regions (IDRs), and the latter were trained to predict less detailed DNA-binding IDRs rather than DBRs. Given this dichotomy, the structure-trained methods underperform on disordered proteins, and vice versa. Moreover, they suffer from high cross-prediction rates, incorrectly labeling many residues that interact with non-DNA ligands as DBRs. We address these issues by introducing DNAreader, the first predictor specifically designed to predict DBRs in the structured and disordered sequence regions. DNAreader relies on an innovative stacked transformer encoder network that combines batch training and contrastive learning, which substantially boosts predictive performance. Using two low-similarity test datasets, we demonstrate that DNAreader statistically outperforms existing tools, performs well for structured and disordered regions, and produces very few cross-predictions. We also developed the DNAreaderDBIDR module, which accurately predicts DNA-binding IDRs, providing flexibility to identify DBRs within IDRs or to predict entire disordered DNA-binding regions. We release DNAreader as a user-friendly web server at http://biomine.cs.vcu.edu/servers/DNAreader/, with the corresponding source code at https://github.com/jianzhang-xynu/DNAreader.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/metabolism/chemistry",
+      "*Software",
+      "Binding Sites",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "*DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "Protein Binding",
+      "*Computational Biology/methods",
+      "Prediction Algorithms",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jian",
+        "Basu, Sushmita",
+        "Qian, Jingjing",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Basu S",
+        "Qian J",
+        "Kurgan L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7155-7760",
+        "ORCID: 0000-0002-7749-0314"
+      ],
+      "affiliations": [
+        "School of Computer and Information Technology, Xinyang Normal University, Xinyang 464000, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, United States.",
+        "Department of Biological Sciences, Birla Institute of Technology and Science-Pilani, Pilani, Rajasthan 333031, India.",
+        "School of Artificial Intelligence, Hebei University of Technology, Tianjin 300401, China.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0001-7155-7760"
+        ],
+        "affiliations": [
+          "School of Computer and Information Technology, Xinyang Normal University, Xinyang 464000, China.",
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324003, China."
+        ]
+      },
+      {
+        "full_name": "Basu, Sushmita",
+        "short_name": "Basu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, United States.",
+          "Department of Biological Sciences, Birla Institute of Technology and Science-Pilani, Pilani, Rajasthan 333031, India."
+        ]
+      },
+      {
+        "full_name": "Qian, Jingjing",
+        "short_name": "Qian J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Hebei University of Technology, Tianjin 300401, China."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [
+          "0000-0002-7749-0314"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Aug 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/14 12:16",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41978383",
+      "40133785",
+      "39833102",
+      "39633723",
+      "39470701",
+      "39467119",
+      "39357703",
+      "39202449",
+      "38862427",
+      "38739759",
+      "38701796",
+      "38349057",
+      "38303418",
+      "38301174",
+      "38281252",
+      "38171929",
+      "38166858",
+      "38146538",
+      "38048333",
+      "37933852",
+      "37915276",
+      "37904585",
+      "37522378",
+      "36927031",
+      "36755059",
+      "36629262",
+      "36420884",
+      "35943134",
+      "35834447",
+      "35709747",
+      "35652477",
+      "35039821",
+      "34905768",
+      "34714748",
+      "34637380",
+      "34415020",
+      "34290238",
+      "34048569",
+      "33454744",
+      "32860044",
+      "32142788",
+      "31510679",
+      "30943723",
+      "30598073",
+      "30207005",
+      "30169574",
+      "30040631",
+      "29860432",
+      "29843638",
+      "29253082",
+      "29182548",
+      "29136219",
+      "28701416",
+      "28334258",
+      "28132027",
+      "27787828",
+      "27740495",
+      "27730230",
+      "27037624",
+      "26176857",
+      "26109352",
+      "25935161",
+      "25805499",
+      "25204636",
+      "24667650",
+      "24334392",
+      "23170892",
+      "23051957",
+      "22868682",
+      "22404998",
+      "22399265",
+      "22268851",
+      "22198341",
+      "21689482",
+      "21207099",
+      "20877328",
+      "20522253",
+      "20478832",
+      "19911048",
+      "19594868",
+      "19483101",
+      "19008251",
+      "18071305",
+      "17998252",
+      "17646316",
+      "17578581",
+      "17275170",
+      "17237068",
+      "16845003",
+      "16712732",
+      "16568445",
+      "16515477",
+      "15720719",
+      "9285590"
+    ],
+    "similar": [
+      "42598852",
+      "38048333",
+      "34905768",
+      "34415020",
+      "27787828",
+      "40133785",
+      "40944448",
+      "40728621",
+      "26109352",
+      "40544633",
+      "34487138",
+      "40728620",
+      "37709009",
+      "34290238",
+      "33291838",
+      "32860044",
+      "36458437",
+      "32696351",
+      "39576586",
+      "28132027",
+      "31889261",
+      "31870849",
+      "41534519",
+      "39833102",
+      "42059199",
+      "40728619",
+      "30298407",
+      "40867524",
+      "41419011",
+      "40133791",
+      "30602422",
+      "40441416",
+      "31510679",
+      "29042212",
+      "25391399",
+      "40133781",
+      "40631955",
+      "31521235",
+      "25935161",
+      "36272675",
+      "28381244",
+      "32553192",
+      "39576583",
+      "38701796",
+      "36621533",
+      "41500381",
+      "30099775",
+      "28589442",
+      "32621220",
+      "37498545",
+      "38866950",
+      "38166858",
+      "32702119",
+      "40577786",
+      "24668165",
+      "31207240",
+      "29360926",
+      "42412843",
+      "36774964",
+      "31797594",
+      "37883249",
+      "39811792",
+      "26297830",
+      "23788679",
+      "32824743",
+      "32112084",
+      "39237195",
+      "30135358",
+      "40254833",
+      "40133775",
+      "39576584",
+      "32142788",
+      "36851914",
+      "32535960",
+      "16618368",
+      "38491248",
+      "40359455",
+      "39032884",
+      "30957840",
+      "34303077",
+      "32920048",
+      "31616935",
+      "27307636",
+      "29253082",
+      "30866736",
+      "38747347",
+      "36833360",
+      "42503799",
+      "38079339",
+      "36908253",
+      "40828855",
+      "41168713",
+      "39763873",
+      "19128505",
+      "34048569",
+      "28161714",
+      "40031750",
+      "25286318",
+      "38540707",
+      "34894985"
+    ],
+    "review": [
+      "42598852",
+      "40544633",
+      "33291838",
+      "39833102",
+      "31521235",
+      "25935161",
+      "28589442",
+      "39811792",
+      "36851914",
+      "34303077",
+      "31616935",
+      "29253082"
+    ],
+    "pmc": [
+      "13469069"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42598852/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag779",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

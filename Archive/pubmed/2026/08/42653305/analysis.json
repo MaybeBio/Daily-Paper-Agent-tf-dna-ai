@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42653305",
+  "title": "IAGRN: An Interleaved-Attention Graph Neural Network for Gene Regulatory Network Inference.",
+  "authors": "Wang, Yue; Tian, Sicheng; Li, Dan",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2026-08-27",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用交错注意力图神经网络从单细胞转录组推断基因调控网络，虽涉及转录因子-靶基因调控关系，但基于表达数据而非三维DNA互作建模，方法可迁移但非TF-DNA结合机制研究。",
+  "abstract": "Gene regulatory networks (GRNs) describe regulatory interactions between transcription factors and their target genes and are essential for understanding cellular processes and disease mechanisms. Recent advances in single-cell RNA sequencing (scRNA-seq) have enabled data-driven GRN inference at single-cell resolution. However, the high sparsity and noise inherent in scRNA-seq data pose substantial challenges for accurately recovering regulatory relationships. Existing graph neural network (GNN)-based approaches often rely on localized message passing, which can lead to over-smoothing and limited modeling of long-range regulatory dependencies. To address these limitations, a structure-aware interleaved-attention graph learning framework, termed IAGRN, is proposed for GRN inference from scRNA-seq data. Specifically, it interleaves topology-constrained local attention with distance-aware global attention, enabling effective integration of structural priors and long-range regulatory signals. Graph Laplacian positional encoding is further incorporated to preserve topological information and enhance node representations. Evaluations on seven public benchmark datasets demonstrate that IAGRN consistently improves GRN reconstruction under highly sparse conditions and achieves competitive performance compared with existing approaches.",
+  "abstract_zh": "基因调控网络（GRNs）描述了转录因子与其靶基因之间的调控相互作用，对于理解细胞过程和疾病机制至关重要。单细胞RNA测序（scRNA-seq）的最新进展使得在单细胞分辨率下进行数据驱动的GRN推断成为可能。然而，scRNA-seq数据固有的高稀疏性和噪声对准确恢复调控关系构成了重大挑战。现有的基于图神经网络（GNN）的方法通常依赖局部消息传递，这可能导致过度平滑以及对长程调控依赖关系的建模受限。为解决这些局限性，提出了一种名为IAGRN的结构感知交错注意力图学习框架，用于从scRNA-seq数据中推断GRN。具体而言，该框架将拓扑约束的局部注意力与距离感知的全局注意力交错结合，从而有效整合结构先验和长程调控信号。进一步引入图拉普拉斯位置编码以保留拓扑信息并增强节点表示。在七个公开基准数据集上的评估表明，IAGRN在高稀疏条件下持续改善GRN重建，并与现有方法相比实现了具有竞争力的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42653305/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42653305/",
+  "paper_page_path": "papers/pubmed/42653305/index.html"
+}

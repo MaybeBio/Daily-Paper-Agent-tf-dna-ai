@@ -1,0 +1,763 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.03.522623",
+  "title": "PIsToN: Evaluating Protein Binding Interfaces with Transformer Networks",
+  "doi": "10.1101/2023.01.03.522623",
+  "abstract": "The computational studies of protein binding are widely used to investigate fundamental biological processes and facilitate the development of modern drugs, vaccines, and therapeutics. Scoring functions aim to predict complexes that would be formed by the binding of two biomolecules and to assess and rank the strength of the binding at the interface. Despite past efforts, the accurate prediction and scoring of protein binding interfaces remain a challenge. The physics-based methods are computationally intensive and often have to trade accuracy for computational cost. The possible limitations of current machine learning (ML) methods are ineffective data representation, network architectures, and limited training data. Here, we propose a novel approach called PIsToN (evaluating P rotein binding I nterface s with T ransf o rmer N etworks) that aim to distinguish native-like protein complexes from decoys. Each protein interface is transformed into a collection of 2D images (interface maps), where each image corresponds to a geometric or biochemical property in which pixel intensity represents the feature values. Such a data representation provides atomic-level resolution of relevant protein characteristics. To build hybrid machine learning models, additional empirical-based energy terms are computed and provided as inputs to the neural network. The model is trained on thousands of native and computationally-predicted protein complexes that contain challenging examples. The multi-attention transformer network is also endowed with explainability by highlighting the specific features and binding sites that were the most important for the classification decision. The developed PIsToN model significantly outperforms existing state-of-the-art scoring functions on well-known datasets.",
+  "authors": [
+    "Vitalii Stebliankin",
+    "Azam Shirali",
+    "Prabin Baral",
+    "Prem Chapagain",
+    "Giri Narasimhan"
+  ],
+  "published_date": "2023-01-04",
+  "updated_date": "2023-01-04T09:25:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.03.522623",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.03.522623.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            14
+          ]
+        ],
+        "date-time": "2026-07-14T01:20:13Z",
+        "timestamp": 1783992013506,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            4
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 74,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The computational studies of protein binding are widely used to investigate fundamental biological processes and facilitate the development of modern drugs, vaccines, and therapeutics. Scoring functions aim to predict complexes that would be formed by the binding of two biomolecules and to assess and rank the strength of the binding at the interface. Despite past efforts, the accurate prediction and scoring of protein binding interfaces remain a challenge. The physics-based methods are computationally intensive and often have to trade accuracy for computational cost. The possible limitations of current machine learning (ML) methods are ineffective data representation, network architectures, and limited training data. Here, we propose a novel approach called PIsToN (evaluating\n                  <jats:bold>P</jats:bold>\n                  rotein binding\n                  <jats:bold>I</jats:bold>\n                  nterface\n                  <jats:bold>s</jats:bold>\n                  with\n                  <jats:bold>T</jats:bold>\n                  ransf\n                  <jats:bold>o</jats:bold>\n                  rmer\n                  <jats:bold>N</jats:bold>\n                  etworks) that aim to distinguish native-like protein complexes from decoys. Each protein interface is transformed into a collection of 2D images (interface maps), where each image corresponds to a geometric or biochemical property in which pixel intensity represents the feature values. Such a data representation provides atomic-level resolution of relevant protein characteristics. To build\n                  <jats:bold>hybrid</jats:bold>\n                  machine learning models, additional empirical-based energy terms are computed and provided as inputs to the neural network. The model is trained on thousands of native and computationally-predicted protein complexes that contain challenging examples. The multi-attention transformer network is also endowed with explainability by highlighting the specific features and binding sites that were the most important for the classification decision. The developed PIsToN model significantly outperforms existing state-of-the-art scoring functions on well-known datasets.\n                </jats:p>",
+      "DOI": "10.1101/2023.01.03.522623",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            4
+          ]
+        ],
+        "date-time": "2023-01-04T09:25:18Z",
+        "timestamp": 1672824318000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "PIsToN: Evaluating Protein Binding Interfaces with Transformer Networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9377-0263",
+          "authenticated-orcid": false,
+          "given": "Vitalii",
+          "family": "Stebliankin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1426-6478",
+          "authenticated-orcid": false,
+          "given": "Azam",
+          "family": "Shirali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5910-3846",
+          "authenticated-orcid": false,
+          "given": "Prabin",
+          "family": "Baral",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0999-4975",
+          "authenticated-orcid": false,
+          "given": "Prem",
+          "family": "Chapagain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0535-4871",
+          "authenticated-orcid": false,
+          "given": "Giri",
+          "family": "Narasimhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2000585117"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "139",
+          "DOI": "10.1002/prot.21495",
+          "article-title": "FireDock: fast interaction refinement in molecular docking",
+          "volume": "69",
+          "year": "2007",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Balci, A. , Gumeli, C. , Hakouz, A. , Yuret, D. , Keskin, O. , Gursoy, A. : DeepInterface: Protein-protein interface validation using 3D convolutional neural networks. bioRxiv p. 617506 (2019)",
+          "DOI": "10.1101/617506"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq112"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.6",
+          "first-page": "1",
+          "article-title": "A novel geometry-based approach to infer protein interface similarity",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Callaway, E. : After alphafold: protein-folding contest seeks next big breakthrough. Nature (2022)",
+          "DOI": "10.1038/d41586-022-04438-1"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.8",
+          "unstructured": "Chen, C. , Li, O. , Tao, D. , Barnett, A. , Rudin, C. , Su, J.K. : This looks like that: deep learning for interpretable image recognition. Advances in neural information processing systems 32 (2019)"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tips.2014.12.001"
+        },
+        {
+          "issue": "2",
+          "key": "2023011812000672000_2023.01.03.522623v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "503",
+          "DOI": "10.1002/prot.21419",
+          "article-title": "pyDock: electrostatics and desolvation for effective scoring of rigid-body protein–protein docking",
+          "volume": "68",
+          "year": "2007",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "2",
+          "key": "2023011812000672000_2023.01.03.522623v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "231",
+          "DOI": "10.1002/prot.20417",
+          "article-title": "Cation–π interactions in protein–protein interfaces",
+          "volume": "59",
+          "year": "2005",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.12",
+          "first-page": "1",
+          "article-title": "Classification and prediction of protein–protein interaction interface using machine learning algorithm",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja026939x"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.14",
+          "article-title": "An image is worth 16×16 words: Transformers for image recognition at scale",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.5560060807"
+        },
+        {
+          "issue": "9",
+          "key": "2023011812000672000_2023.01.03.522623v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1093",
+          "DOI": "10.1007/s00894-009-0454-9",
+          "article-title": "Solvent accessible surface area approximations for rapid and accurate protein structure prediction",
+          "volume": "15",
+          "year": "2009",
+          "journal-title": "Journal of molecular modeling"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100244v"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1007996124545"
+        },
+        {
+          "issue": "2",
+          "key": "2023011812000672000_2023.01.03.522623v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "184",
+          "DOI": "10.1038/s41592-019-0666-6",
+          "article-title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1093/bioinformatics/btz496",
+          "article-title": "iScore: a novel graph kernel-based function for scoring protein–protein docking models",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00670-3"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "210",
+          "DOI": "10.1016/j.compbiolchem.2018.06.005",
+          "article-title": "Docking techniques in pharmacology: How much promising?",
+          "volume": "76",
+          "year": "2018",
+          "journal-title": "Computational biology and chemistry"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2014.02.005"
+        },
+        {
+          "issue": "11",
+          "key": "2023011812000672000_2023.01.03.522623v2.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2319",
+          "DOI": "10.1021/acs.jcim.8b00350",
+          "article-title": "Protein family-specific models using deep neural networks and transfer learning improve virtual screening and highlight the need for more data",
+          "volume": "58",
+          "year": "2018",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.25",
+          "unstructured": "Inc., P.T.: Collaborative data science (2015), https://plot.ly"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.26",
+          "unstructured": "Instructional and Research Computing Center (IRCC): http://ircc.fiu.edu, accessed: 2022-10-03"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "2",
+          "DOI": "10.1002/prot.10381",
+          "article-title": "CAPRI: a critical assessment of predicted interactions",
+          "volume": "52",
+          "year": "2003",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0014-5793(02)03900-5"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "12",
+          "key": "2023011812000672000_2023.01.03.522623v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "2577",
+          "DOI": "10.1002/bip.360221211",
+          "article-title": "Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features",
+          "volume": "22",
+          "year": "1983",
+          "journal-title": "Biopolymers: Original Research on Biomolecules"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.31",
+          "first-page": "18661",
+          "article-title": "Supervised contrastive learning",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100369f"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202485799"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kumawat, S. , Raman, S. : LP-3DCNN: Unveiling local phase in 3D convolutional neural networks. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4903–4912 (2019)",
+          "DOI": "10.1109/CVPR.2019.00504"
+        },
+        {
+          "issue": "7",
+          "key": "2023011812000672000_2023.01.03.522623v2.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "665",
+          "DOI": "10.1038/s41592-020-0848-2",
+          "article-title": "Macromolecular modeling and design in rosetta: recent methods and frameworks",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature methods"
+        },
+        {
+          "issue": "11",
+          "key": "2023011812000672000_2023.01.03.522623v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "3163",
+          "DOI": "10.1002/prot.24678",
+          "article-title": "Score set: a CAPRI benchmark for scoring protein complexes",
+          "volume": "82",
+          "year": "2014",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-15-1"
+        },
+        {
+          "issue": "2",
+          "key": "2023011812000672000_2023.01.03.522623v2.38",
+          "first-page": "320",
+          "article-title": "An overview of scoring functions used for protein–ligand interactions in molecular docking",
+          "volume": "11",
+          "year": "2019",
+          "journal-title": "Interdisciplinary Sciences: Computational Life Sciences"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.39",
+          "first-page": "1",
+          "article-title": "The role of shape complementarity in the protein-protein interactions",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci500731a"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.41",
+          "first-page": "272",
+          "article-title": "Accurate and efficient calculation of protein–protein binding free energy-interaction entropy with residue type-specific dielectric constants",
+          "volume": "59",
+          "year": "2018",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.42",
+          "article-title": "Decoupled weight decay regularization",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.43",
+          "first-page": "27",
+          "article-title": "Review of the development of multidimensional scaling methods",
+          "volume": "41",
+          "year": "1992",
+          "journal-title": "Journal of the Royal Statistical Society: Series D (The Statistician)"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu594"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-14-1"
+        },
+        {
+          "issue": "19",
+          "key": "2023011812000672000_2023.01.03.522623v2.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "4505",
+          "DOI": "10.1093/bioinformatics/btac551",
+          "article-title": "Deep local analysis evaluates protein docking conformations with locally oriented cubes",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm9016416"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.472061"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ng, A.Y. : Feature selection, L 1 vs. L 2 regularization, and rotational invariance. In: Proceedings of the twenty-first international conference on Machine learning. p. 78 (2004)",
+          "DOI": "10.1145/1015330.1015435"
+        },
+        {
+          "issue": "7",
+          "key": "2023011812000672000_2023.01.03.522623v2.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1415",
+          "DOI": "10.3390/v14071415",
+          "article-title": "Potential autoimmunity resulting from molecular mimicry between SARS-CoV-2 spike and human proteins",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Viruses"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.51",
+          "first-page": "8024",
+          "volume-title": "In: Advances in Neural Information Processing Systems",
+          "volume": "32",
+          "year": "2019"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "270",
+          "DOI": "10.1002/prot.21920",
+          "article-title": "A combination of rescoring and refinement significantly improves protein docking performance",
+          "volume": "72",
+          "year": "2008",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100353e"
+        },
+        {
+          "issue": "2",
+          "key": "2023011812000672000_2023.01.03.522623v2.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "400",
+          "DOI": "10.1002/prot.22550",
+          "article-title": "Pie—efficient filters and coarse grained potentials for unbound protein–protein docking",
+          "volume": "78",
+          "year": "2010",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "49",
+          "key": "2023011812000672000_2023.01.03.522623v2.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "2077",
+          "DOI": "10.21105/joss.02077",
+          "article-title": "The pdb2sql Python package: parsing, manipulation and analysis of PDB files using SQL queries",
+          "volume": "5",
+          "year": "2020",
+          "journal-title": "Journal of Open Source Software"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.56",
+          "first-page": "1",
+          "article-title": "DeepRank: a deep learning framework for data mining 3d protein-protein interfaces",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci200528d"
+        },
+        {
+          "issue": "1",
+          "key": "2023011812000672000_2023.01.03.522623v2.58",
+          "first-page": "e1429",
+          "article-title": "From machine learning to deep learning: Advances in scoring functions for protein–ligand docking",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.59",
+          "article-title": "Time series forecasting (TSF) using various deep learning models",
+          "year": "2022",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "5",
+          "key": "2023011812000672000_2023.01.03.522623v2.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1190",
+          "DOI": "10.1016/j.jmb.2008.09.069",
+          "article-title": "The crystal structure of CD8 in complex with YTS156. 7.7 Fab and interaction with other CD8 antibodies define the binding mode of CD8 αβ to MHC class I",
+          "volume": "384",
+          "year": "2008",
+          "journal-title": "Journal of molecular biology"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stebliankin, V. , Baral, P. , Balbin, C. , Nunez-Castilla, J. , Sobhan, M. , Cickovski, T. , Mondal, A.M. , Siltberg-Liberles, J. , Chapagain, P. , Mathee, K. , et al.: EMoMiS: A pipeline for epitope-based molecular mimicry search in protein structures with applications to SARS-CoV-2. BioRxiv (2022)",
+          "DOI": "10.1101/2022.02.05.479274"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1028"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2014.08.033"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Valdes, C. , Stebliankin, V. , Ruiz-Perez, D. , Park, J.I. , Lee, H. , Narasimhan, G. : Microbiome maps: Hilbert curve visualizations of metagenomic profiles. bioRxiv pp. 2021–03 (2022)",
+          "DOI": "10.1101/2021.03.22.436520"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "261",
+          "DOI": "10.1038/s41592-019-0686-2",
+          "article-title": "SciPy 1.0 Contributors: SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "4",
+          "key": "2023011812000672000_2023.01.03.522623v2.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "592",
+          "DOI": "10.1002/prot.24214",
+          "article-title": "Improving ranking of models for protein complexes with side chain modeling and atomic potentials",
+          "volume": "81",
+          "year": "2013",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.68",
+          "article-title": "AtomNet: a deep convolutional neural network for bioactivity prediction in structure-based drug discovery",
+          "year": "2015",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "issue": "7",
+          "key": "2023011812000672000_2023.01.03.522623v2.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "2113",
+          "DOI": "10.1093/bioinformatics/btz870",
+          "article-title": "Protein docking model evaluation by 3D deep convolutional neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "5",
+          "key": "2023011812000672000_2023.01.03.522623v2.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "1829",
+          "DOI": "10.1038/s41596-020-0312-x",
+          "article-title": "The HDOCK server for integrated protein–protein docking",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.72",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhai, X. , Kolesnikov, A. , Houlsby, N. , Beyer, L. : Scaling vision transformers. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12104–12113 (2022)",
+          "DOI": "10.1109/CVPR52688.2022.01179"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0859"
+        },
+        {
+          "key": "2023011812000672000_2023.01.03.522623v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci400120b"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.03.522623",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:05:33Z",
+        "timestamp": 1768449933000
+      },
+      "score": 109.86523,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.01.03.522623"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            4
+          ]
+        ]
+      },
+      "references-count": 74,
+      "URL": "https://doi.org/10.1101/2023.01.03.522623",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "42349588",
+    "doi": "10.1016/j.ijbiomac.2026.153205",
+    "title": "PDA-MutPred: Reliable prediction of binding affinity change upon mutation in protein-DNA complexes."
+  },
+  "content": {
+    "abstract": "Mutations in protein-DNA complexes interfere with normal cell functions by causing structural changes, leading to the dissociation of complexes or altering the affinity of interactions between proteins and DNA. Reliable prediction of binding affinity changes (DeltaDeltaG) upon amino acid mutation in protein-DNA complexes in a challenging problem in computational biology. In this work, we compiled a set of 1169 mutations in 256 protein-DNA complexes from the ProNAB database and analyzed the influence of sequence, structural, and network-based features. Our analysis revealed that atom contacts at the interface, side-chain hydrogen bonding, amino acid properties, and unfolding energy are important for predicting changes in affinity upon mutation. We classified complexes based on DNA strand and protein functional class, and developed machine learning-based models for each category of complexes. Our prediction methods achieved an average correlation of 0.69 and a Mean Absolute Error (MAE) of 0.73 kcal/mol in 10-fold cross-validation. Further, in a blind test of 100 mutations, our method could predict DeltaDeltaG with a correlation of 0.65 and an MAE of 0.60 kcal/mol, outperforming other methods. We developed a web server for predicting changes in binding affinity due to single amino acid mutations in protein-DNA complexes, which is available at https://web.iitm.ac.in/bioinfo2/pdamutpred/. We envisage that our method would be a valuable resource to understand the binding affinity of protein-DNA complexes, large scale analysis and design complexes with desired affinities.",
+    "keywords": [
+      "Binding affinity changes",
+      "Linear regression",
+      "Point mutations",
+      "Protein-DNA complexes",
+      "XGBoost"
+    ],
+    "mesh_terms": [
+      "*DNA/chemistry/metabolism/genetics",
+      "Protein Binding",
+      "*Mutation",
+      "*Computational Biology/methods",
+      "*DNA-Binding Proteins/genetics/chemistry/metabolism",
+      "Models, Molecular",
+      "*Proteins/chemistry/genetics/metabolism",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Harini, K",
+        "Yasuo, N",
+        "Sekijima, M",
+        "Gromiha, M Michael"
+      ],
+      "short_names": [
+        "Harini K",
+        "Yasuo N",
+        "Sekijima M",
+        "Gromiha MM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, 600036, Tamil Nadu, India.",
+        "Department of Computer Science, Tokyo Institute of Technology, Yokohama, Japan.",
+        "Department of Computer Science, Tokyo Institute of Technology, Yokohama, Japan.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, 600036, Tamil Nadu, India. Electronic address: gromiha@iitm.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Harini, K",
+        "short_name": "Harini K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, 600036, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Yasuo, N",
+        "short_name": "Yasuo N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Tokyo Institute of Technology, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Sekijima, M",
+        "short_name": "Sekijima M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Tokyo Institute of Technology, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Gromiha, M Michael",
+        "short_name": "Gromiha MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, 600036, Tamil Nadu, India. Electronic address: gromiha@iitm.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 00:47",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42349588",
+      "39550225",
+      "39847079",
+      "35662456",
+      "38718170",
+      "31713585",
+      "36924867",
+      "34606614",
+      "37949651",
+      "30417935",
+      "39240325",
+      "39256728",
+      "33313775",
+      "27284087",
+      "40375059",
+      "37567456",
+      "30533007",
+      "38224813",
+      "24340062",
+      "41174318",
+      "39576589",
+      "39858648",
+      "34126874",
+      "37193676",
+      "29091991",
+      "26681483",
+      "28383703",
+      "42350672",
+      "38458968",
+      "40719555",
+      "41478395",
+      "36309134",
+      "27264959",
+      "24648146",
+      "29383762",
+      "23788679",
+      "28361672",
+      "41686649",
+      "40343467",
+      "41311232",
+      "40111004",
+      "31395671",
+      "18802470",
+      "33872313",
+      "29954286",
+      "33347442",
+      "19878545",
+      "32866236",
+      "38722047",
+      "29125747",
+      "31992738",
+      "29753757",
+      "40143108",
+      "22868682",
+      "21787304",
+      "41642195",
+      "32756481",
+      "34389843",
+      "39616716",
+      "27899282",
+      "26506533",
+      "27318206",
+      "29725908",
+      "40326522",
+      "23703214",
+      "17603074",
+      "26193119",
+      "26196228",
+      "19439068",
+      "40260988",
+      "28155654",
+      "41274550",
+      "30776430",
+      "36574037",
+      "31693276",
+      "40772546",
+      "19965883",
+      "38587997",
+      "25113160",
+      "15504402",
+      "18387208",
+      "27866112",
+      "30298389",
+      "39660955",
+      "39270885",
+      "38491248",
+      "14529266",
+      "41359544",
+      "32920050",
+      "10891272",
+      "18922190",
+      "41902842",
+      "28069340",
+      "26804571",
+      "30442086",
+      "40728624",
+      "29608705",
+      "38987468",
+      "42412784",
+      "23790211"
+    ],
+    "review": [
+      "42349588",
+      "41311232",
+      "39616716",
+      "27866112",
+      "28069340"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(26)03132-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

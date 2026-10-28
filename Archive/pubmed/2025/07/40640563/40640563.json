@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "40640563",
+    "doi": "10.1007/s00425-025-04756-4",
+    "title": "Transcriptomics and network pharmacology analysis reveal key genes in alkaloid biosynthesis in Zephyranthes candida and therapeutic targets for LIHC."
+  },
+  "content": {
+    "abstract": "This study identified key enzyme-encoding genes involved in the biosynthesis of lycorine and galanthamine in Zephyranthes candida, and predicted four critical therapeutic targets of lycorine for liver hepatocellular carcinoma (LIHC). Amaryllidaceae alkaloids (AAs) comprise a unique class of isoquinoline alkaloids mainly found in plants of the Amaryllidaceae family. Zephyranthes candida (Lindl.) Herb., a bulbous geophyte within this family, produces lycorine and galanthamine as its characteristic isoquinoline alkaloids. In this study, an in-depth analysis of the biosynthesis of these compounds in various tissues of the plant was conducted using transcriptomics and bioinformatics. Transcriptome databases were generated for roots, leaves, and bulbs of Z. candida. Key enzymes and differentially expressed genes (DEGs) associated with lycorine and galanthamine biosynthesis were screened, leading to the identification of two genes, ZcTYDC (DN4967_1) and ZcN4OMT (DN3779), based on correlation analysis. Subsequently, phylogenetic, structural modeling and molecular docking analyses of key enzymes were undertaken, followed by a detailed assessment of their characteristics and functions. A correlation was identified between the expression of genes encoding transcription factors (TFs) and major AAs biosynthetic enzymes in Z. candida. The expression levels of selected genes were determined by quantitative real-time polymerase chain reaction (qPCR), while the contents of lycorine and galanthamine in each tissue were detected by high-performance liquid chromatography (HPLC). Critical targets of lycorine in liver hepatocellular carcinoma (LIHC)-MMP9, IGF1, SRC, and CCNA2-were predicted using network pharmacology, gene expression profiling interactive analysis (GEPIA2), molecular docking, and visualization. This study provides a theoretical basis for further research on the biosynthesis of AAs, as well as support for the therapeutic application of lycorine in LIHC.",
+    "keywords": [
+      "Zephyranthes candida",
+      "Amaryllidaceae alkaloid biosynthesis",
+      "Key enzyme",
+      "Molecular docking",
+      "Network pharmacology",
+      "Transcriptome"
+    ],
+    "mesh_terms": [
+      "*Amaryllidaceae Alkaloids/therapeutic use/metabolism",
+      "Molecular Docking Simulation",
+      "Network Pharmacology",
+      "Phenanthridines/metabolism/therapeutic use/pharmacology",
+      "*Liver Neoplasms/drug therapy",
+      "*Carcinoma, Hepatocellular/drug therapy",
+      "*Transcriptome/genetics",
+      "*Amaryllidaceae/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Phylogeny",
+      "Humans",
+      "Alkaloids/biosynthesis",
+      "Gene Expression Regulation, Plant"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Wanying",
+        "Sun, Mengge",
+        "Fan, Jinshibo",
+        "Wang, Zhiwei",
+        "Xie, Ziyang",
+        "Tao, Yijia",
+        "Wu, Jiawen"
+      ],
+      "short_names": [
+        "Xie W",
+        "Sun M",
+        "Fan J",
+        "Wang Z",
+        "Xie Z",
+        "Tao Y",
+        "Wu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4407-6819"
+      ],
+      "affiliations": [
+        "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+        "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China.",
+        "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+        "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China.",
+        "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+        "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China.",
+        "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+        "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China.",
+        "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+        "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China.",
+        "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China. taoyijia@ahtcm.edu.cn.",
+        "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China. taoyijia@ahtcm.edu.cn.",
+        "Synergetic Innovation Center of Anhui Authentic Chinese Medicine Quality Improvement, Hefei, China. taoyijia@ahtcm.edu.cn.",
+        "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China. wujiawen@ahtcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Wanying",
+        "short_name": "Xie W",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+          "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Mengge",
+        "short_name": "Sun M",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+          "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Jinshibo",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+          "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiwei",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+          "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Ziyang",
+        "short_name": "Xie Z",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China.",
+          "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Yijia",
+        "short_name": "Tao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China. taoyijia@ahtcm.edu.cn.",
+          "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, China. taoyijia@ahtcm.edu.cn.",
+          "Synergetic Innovation Center of Anhui Authentic Chinese Medicine Quality Improvement, Hefei, China. taoyijia@ahtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiawen",
+        "short_name": "Wu J",
+        "identifiers": [
+          "0000-0003-4407-6819"
+        ],
+        "affiliations": [
+          "Anhui University of Chinese Medicine and Anhui Academy of Chinese Medicine, Hefei, China. wujiawen@ahtcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Planta"
+    ],
+    "journal_abbrev": [
+      "Planta"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/11 00:26",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "41304661"
+    ],
+    "refs": [
+      "40035234",
+      "39485554",
+      "39448923",
+      "39275794",
+      "39220827",
+      "39175104",
+      "39122011",
+      "39065458",
+      "38999582",
+      "38598867",
+      "38579643",
+      "38453941",
+      "37763801",
+      "37734258",
+      "37668687",
+      "37317616",
+      "37210872",
+      "36901927",
+      "36874006",
+      "36768823",
+      "36535411",
+      "36240608",
+      "36080382",
+      "36046655",
+      "35883449",
+      "35801852",
+      "35752077",
+      "35566325",
+      "35496280",
+      "35268735",
+      "35147783",
+      "34850941",
+      "34763856",
+      "34659286",
+      "34308647",
+      "33892491",
+      "33719294",
+      "33664760",
+      "33649853",
+      "33434626",
+      "33260413",
+      "33233833",
+      "33113950",
+      "33066212",
+      "33042169",
+      "32371491",
+      "31898973",
+      "31494163",
+      "31470601",
+      "31330284",
+      "31024762",
+      "30917613",
+      "30067954",
+      "29966257",
+      "28974556",
+      "28208655",
+      "27823880",
+      "26941773",
+      "26024611",
+      "22388286",
+      "10872203"
+    ],
+    "similar": [
+      "40640563",
+      "33434626",
+      "37668687",
+      "38490054",
+      "39024491",
+      "31394782",
+      "34768889",
+      "34673013",
+      "20737914",
+      "27823880",
+      "31060036",
+      "38354224",
+      "34863821",
+      "35566325",
+      "39485554",
+      "36901927",
+      "29253598",
+      "39312276",
+      "32757201",
+      "38652148",
+      "22939505",
+      "36535411",
+      "39065458",
+      "23727937",
+      "40035234",
+      "32211230",
+      "38579643",
+      "20105122",
+      "40516169",
+      "25233606",
+      "25233596",
+      "39229678",
+      "30526483",
+      "40424891",
+      "30636443",
+      "19413113",
+      "25115079",
+      "33066212",
+      "22508048",
+      "25431196",
+      "38614259",
+      "38516999",
+      "30548356",
+      "22908593",
+      "31186470",
+      "33113950",
+      "30990078",
+      "35483192",
+      "19166722",
+      "22086403",
+      "20614813",
+      "2096880",
+      "35953692",
+      "30016965",
+      "12755480",
+      "32524267",
+      "28416753",
+      "33042169",
+      "34981205",
+      "35883449",
+      "41045067",
+      "19788245",
+      "35752077",
+      "32450384",
+      "19591492",
+      "20066175",
+      "39604837",
+      "27562382",
+      "33578992",
+      "33845386",
+      "33761445",
+      "33376043",
+      "2611011",
+      "34152811",
+      "25529145",
+      "40604440",
+      "28898076",
+      "24393582",
+      "13947472",
+      "21259423",
+      "31494163",
+      "8868113",
+      "22014155",
+      "21615016",
+      "9512776",
+      "30801949",
+      "34550553",
+      "11218731",
+      "29966257",
+      "29949847",
+      "37820888",
+      "31330284",
+      "22155741",
+      "33594810",
+      "38397175",
+      "24461780",
+      "28809439",
+      "30987121",
+      "31687088",
+      "23326424"
+    ],
+    "review": [
+      "40640563",
+      "38652148",
+      "23727937",
+      "38579643",
+      "20105122",
+      "40516169",
+      "25233606",
+      "33066212",
+      "33113950",
+      "35883449"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00425-025-04756-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

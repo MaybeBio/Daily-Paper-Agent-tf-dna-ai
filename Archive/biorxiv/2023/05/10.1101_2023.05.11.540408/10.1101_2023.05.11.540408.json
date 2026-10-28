@@ -1,0 +1,433 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.11.540408",
+  "title": "Accelerating the Characterization of Dynamic DNA Origami Devices with Deep Neural Networks",
+  "doi": "10.1101/2023.05.11.540408",
+  "abstract": "Mechanical characterization of dynamic DNA nanodevices is essential to facilitate their use in applications like molecular diagnostics, force sensing, and nanorobotics that rely on device reconfiguration and interactions with other materials. A common approach to evaluate the mechanical properties of dynamic DNA nanodevices is by quantifying conformational distributions, where the magnitude of fluctuations correlates to the stiffness. This is generally carried out through manual measurement from experimental images, which is a tedious process and a critical bottleneck in the characterization pipeline. While many tools to support analysis of static of molecular structures, there is a need for tools to facilitate the rapid characterization of dynamic DNA devices that undergo large conformational fluctuations. Here, we develop a data processing pipeline based on Deep Neural Networks (DNNs) to address this problem. The YOLOv5 and Resnet50 network architecture were used for the two key subtasks: particle detection and pose (i.e. conformation) estimation. We demonstrate effective network performance (F1 score of 0.85 in particle detection) and good agreement with experimental distributions with limited user input and small training sets. We also demonstrate this pipeline can be applied to multiple nanodevices, providing a robust approach for the rapid characterization of dynamic DNA devices.",
+  "authors": [
+    "Yuchen Wang",
+    "Xin Jin",
+    "Carlos Castro"
+  ],
+  "published_date": "2023-05-14",
+  "updated_date": "2023-05-15T11:01:09Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540408",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540408.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:43:17Z",
+        "timestamp": 1768506197289,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            14
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 47,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Mechanical characterization of dynamic DNA nanodevices is essential to facilitate their use in applications like molecular diagnostics, force sensing, and nanorobotics that rely on device reconfiguration and interactions with other materials. A common approach to evaluate the mechanical properties of dynamic DNA nanodevices is by quantifying conformational distributions, where the magnitude of fluctuations correlates to the stiffness. This is generally carried out through manual measurement from experimental images, which is a tedious process and a critical bottleneck in the characterization pipeline. While many tools to support analysis of static of molecular structures, there is a need for tools to facilitate the rapid characterization of dynamic DNA devices that undergo large conformational fluctuations. Here, we develop a data processing pipeline based on Deep Neural Networks (DNNs) to address this problem. The YOLOv5 and Resnet50 network architecture were used for the two key subtasks: particle detection and pose (i.e. conformation) estimation. We demonstrate effective network performance (F1 score of 0.85 in particle detection) and good agreement with experimental distributions with limited user input and small training sets. We also demonstrate this pipeline can be applied to multiple nanodevices, providing a robust approach for the rapid characterization of dynamic DNA devices.</jats:p>",
+      "DOI": "10.1101/2023.05.11.540408",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            15
+          ]
+        ],
+        "date-time": "2023-05-15T11:01:09Z",
+        "timestamp": 1684148469000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Accelerating the Characterization of Dynamic DNA Origami Devices with Deep Neural Networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5308-2829",
+          "authenticated-orcid": false,
+          "given": "Yuchen",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Jin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7023-6105",
+          "authenticated-orcid": false,
+          "given": "Carlos",
+          "family": "Castro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41563-021-00930-7"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature18287"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1014-9"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/nl103427w"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.COCIS.2020.101411"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsnano.8b01510"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.34133/2022/9758460"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1364/OL.44.002831"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab656"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Datta and J. P. Davim , Machine Learning in Industry. Springer Nature, 2021.",
+          "DOI": "10.1007/978-3-030-75847-9"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.12",
+          "unstructured": "J. Erjavec and R. Thompson , Automotive Technology: A Systems Approach. Cengage Learning, 2014."
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.13",
+          "unstructured": "P. Nieuwenhuis and P. Wells , The Automotive Industry and the Environment. Woodhead Publishing, 2003."
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.1906.08834"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICRA.2017.7989385"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICRA.2018.8463189"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICRA.2019.8793506"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Deng and J. Platt , “Ensemble Deep Learning for Speech Recognition,” presented at the Proc. Interspeech, Sep. 2014. Accessed: Feb. 28, 2023. [Online]. Available: https://www.microsoft.com/en-us/research/publication/ensemble-deep-learning-for-speech-recognition/",
+          "DOI": "10.21437/Interspeech.2014-433"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-14596-5"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3178115"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.1701.01887"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3548606.3560612"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12911-020-01297-6"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.1909.05371"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H.-S. Fang , S. Xie , Y.-W. Tai , and C. Lu , “RMPE: Regional Multi-Person Pose Estimation,” presented at the Proceedings of the IEEE International Conference on Computer Vision, 2017, p. 2334–2343. Accessed: Feb. 28, 2023. [Online]. Available: https://openaccess.thecvf.com/content_iccv_2017/html/Fang_RMPE_Regional_Multi-Person_ICCV_2017_paper.html",
+          "DOI": "10.1109/ICCV.2017.256"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2012.6248110"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-07759-3"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.01.31.526220"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acssynbio.2c00533"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04586"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C9NH00529C"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsnano.6b03218"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms3127"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.12.15.520588"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsnano.1c10698"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1570"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C4NR07153K"
+        },
+        {
+          "issue": "7",
+          "key": "2023051615250793000_2023.05.11.540408v1.39",
+          "first-page": "36",
+          "article-title": "Image processing with ImageJ",
+          "volume": "11",
+          "year": "2004",
+          "journal-title": "Biophotonics international"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1408869112"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.7347926"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01443-0"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08016"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.201405991"
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.45",
+          "unstructured": "“Roboflow: Give your software the power to see objects in images and video.” https://roboflow.com/ (accessed Feb. 28, 2023)."
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.46",
+          "unstructured": "“Two-sample Kolmogorov-Smirnov test - MATLAB kstest2.” https://www.mathworks.com/help/stats/kstest2.html (accessed Apr. 25, 2023)."
+        },
+        {
+          "key": "2023051615250793000_2023.05.11.540408v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0160-9327(93)90069-F"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.11.540408",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:39:35Z",
+        "timestamp": 1768451975000
+      },
+      "score": 85.32549,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.05.11.540408"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            14
+          ]
+        ]
+      },
+      "references-count": 47,
+      "URL": "https://doi.org/10.1101/2023.05.11.540408",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41598-023-41459-w",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

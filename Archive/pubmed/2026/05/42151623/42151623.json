@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "42151623",
+    "doi": "10.1038/s42004-026-01991-y",
+    "title": "Simulation-guided chemical direct reprogramming informed by temporal cellular conversion processes at the single-cell level."
+  },
+  "content": {
+    "abstract": "Direct reprogramming (DR) involves inducing cell differentiation by converting somatic cells directly into target cells without bypassing induced pluripotent stem cells. Small molecule-induced DR reduces tumorigenic risk relative to transcription factor-triggered DR. However, identifying small molecules for DR through experimental exploration alone remains challenging. This study presents a computational method, SuperDIRECTEUR, to predict small molecules for DR using single-cell temporal transcriptome data. The cellular conversion processes in DR were simulated by calculating the RNA velocity in each cell. These processes were then classified into multiple stages (i.e., primal, immature, and mature stages), and a variant of simulated annealing was employed to search for the combination of small molecules that mimic stage-specific gene expression patterns during DR. We applied SuperDIRECTEUR to identifying candidate small molecules for DR converting mouse embryonic fibroblasts to induced neurons, and were able to reproduce experimentally verified and functionally related molecules inducing the corresponding conversions in a temporal stage-specific manner. The target proteins of the predicted small molecules in the early and later stages were distinctively involved in biologically relevant pathways toward neuronal differentiation and maturation. The proposed method has potential for practical applications in regenerative medicine.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ito, Ryoku",
+        "Hamano, Momoko",
+        "Kawasaki, Ryota",
+        "Watanabe, Hikaru",
+        "Matsuo, Arisa",
+        "Yamanishi, Yoshihiro"
+      ],
+      "short_names": [
+        "Ito R",
+        "Hamano M",
+        "Kawasaki R",
+        "Watanabe H",
+        "Matsuo A",
+        "Yamanishi Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8752-7053",
+        "ORCID: 0000-0003-2279-8773"
+      ],
+      "affiliations": [
+        "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan.",
+        "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan. momoko@bio.kyutech.ac.jp.",
+        "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan.",
+        "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan.",
+        "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan.",
+        "Department of Complex Systems Science, Graduate School of Informatics, Nagoya University, Nagoya, Japan. yamanishi@i.nagoya-u.ac.jp.",
+        "Division of Interdisciplinary Research and Development (R&D), Aichi Cancer Center Research Institute, Nagoya, Japan. yamanishi@i.nagoya-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ito, Ryoku",
+        "short_name": "Ito R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan."
+        ]
+      },
+      {
+        "full_name": "Hamano, Momoko",
+        "short_name": "Hamano M",
+        "identifiers": [
+          "0000-0002-8752-7053"
+        ],
+        "affiliations": [
+          "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan. momoko@bio.kyutech.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Kawasaki, Ryota",
+        "short_name": "Kawasaki R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan."
+        ]
+      },
+      {
+        "full_name": "Watanabe, Hikaru",
+        "short_name": "Watanabe H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsuo, Arisa",
+        "short_name": "Matsuo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience and Bioinformatics, Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology, Fukuoka, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamanishi, Yoshihiro",
+        "short_name": "Yamanishi Y",
+        "identifiers": [
+          "0000-0003-2279-8773"
+        ],
+        "affiliations": [
+          "Department of Complex Systems Science, Graduate School of Informatics, Nagoya University, Nagoya, Japan. yamanishi@i.nagoya-u.ac.jp.",
+          "Division of Interdisciplinary Research and Development (R&D), Aichi Cancer Center Research Institute, Nagoya, Japan. yamanishi@i.nagoya-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2026 May 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 00:28",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38273708",
+      "37550515",
+      "36400030",
+      "36179668",
+      "36124791",
+      "33984769",
+      "33891873",
+      "33619373",
+      "32747759",
+      "32185667",
+      "32140159",
+      "30624606",
+      "29195078",
+      "29020618",
+      "28755566",
+      "28698932",
+      "28441579",
+      "27281220",
+      "26748418",
+      "26639555",
+      "26354680",
+      "26292833",
+      "26253202",
+      "26114472",
+      "25658369",
+      "25558812",
+      "25352553",
+      "25096281",
+      "24638034",
+      "24265219",
+      "24183602",
+      "21948594",
+      "21725324",
+      "21232103",
+      "21059682",
+      "19880382",
+      "19188247",
+      "18983970",
+      "18600261",
+      "18513949",
+      "18509334",
+      "18021257",
+      "17942422",
+      "17813860",
+      "17145705",
+      "16355213",
+      "14597658",
+      "12525261"
+    ],
+    "similar": [
+      "42151623",
+      "38273708",
+      "36124791",
+      "42475469",
+      "28453285",
+      "35561200",
+      "29739872",
+      "23665234",
+      "30554025",
+      "36452429",
+      "37996395",
+      "41739342",
+      "23868920",
+      "28817722",
+      "38810477",
+      "33602141",
+      "27426081",
+      "38520033",
+      "35080746",
+      "22420508",
+      "27207831",
+      "32474866",
+      "26475975",
+      "39183062",
+      "28648365",
+      "23615220",
+      "28698932",
+      "41448293",
+      "23801083",
+      "32971463",
+      "35418683",
+      "27979736",
+      "27514850",
+      "27160704",
+      "37380102",
+      "27133794",
+      "27281220",
+      "26253202",
+      "26704449",
+      "42023244",
+      "33891873",
+      "26253201",
+      "26780608",
+      "34963331",
+      "23420199",
+      "42210302",
+      "22372576",
+      "37080451",
+      "41507320",
+      "39661857",
+      "40176603",
+      "37047770",
+      "31551670",
+      "32080339",
+      "23642067",
+      "30196399",
+      "24881998",
+      "42029832",
+      "32185667",
+      "42335655",
+      "28230276",
+      "34324179",
+      "21473689",
+      "24627642",
+      "30776728",
+      "24989459",
+      "19896224",
+      "39348466",
+      "37553383",
+      "25929128",
+      "26788068",
+      "19447925",
+      "34291049",
+      "24926434",
+      "26861316",
+      "28216149",
+      "25189575",
+      "29072293",
+      "21617963",
+      "22371436",
+      "37235474",
+      "25858064",
+      "27473056",
+      "24963715",
+      "25695848",
+      "20037631",
+      "23817132",
+      "36041647",
+      "32058047",
+      "28003219",
+      "29044560",
+      "21898684",
+      "33114756",
+      "34360910",
+      "20956998",
+      "33129359",
+      "41986248",
+      "30860479",
+      "26416679",
+      "29328434"
+    ],
+    "review": [
+      "42151623",
+      "29739872",
+      "38810477",
+      "27426081",
+      "26475975",
+      "28698932",
+      "23801083",
+      "27979736",
+      "27514850",
+      "23420199",
+      "37080451",
+      "39661857",
+      "32080339",
+      "23642067",
+      "32185667",
+      "28230276",
+      "24627642",
+      "24989459",
+      "19896224",
+      "39348466",
+      "25929128",
+      "34291049",
+      "26861316",
+      "22371436",
+      "25858064",
+      "23817132",
+      "33114756",
+      "34360910",
+      "41986248"
+    ],
+    "pmc": [
+      "13183877"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-026-01991-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42151623/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

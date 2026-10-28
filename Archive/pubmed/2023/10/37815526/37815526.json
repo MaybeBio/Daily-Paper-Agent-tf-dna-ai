@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "37815526",
+    "doi": "10.1002/cbic.202300136",
+    "title": "High-Content Image-Based Screening and Deep Learning for the Detection of Anti-Inflammatory Drug Leads."
+  },
+  "content": {
+    "abstract": "We developed a high-content image-based screen that utilizes the pro-inflammatory stimulus lipopolysaccharide (LPS) and murine macrophages (RAW264.7) with the goal of enabling the identification of novel anti-inflammatory lead compounds. We screened 2,259 bioactive compounds with annotated mechanisms of action (MOA) to identify compounds that block the LPS-induced phenotype in macrophages. We utilized a set of seven fluorescence microscopy probes to generate images that were used to train and optimize a deep neural network classifier to distinguish between unstimulated and LPS-stimulated macrophages. The top hits from the deep learning classifier were validated using a linear classifier trained on individual cells and subsequently investigated in a multiplexed cytokine secretion assay. All 12 hits significantly modulated the expression of at least one cytokine upon LPS stimulation. Seven of these were allosteric inhibitors of the mitogen-activated protein kinase kinase (MEK1/2) and showed similar effects on cytokine expression. This deep learning morphological assay identified compounds that modulate the innate immune response to LPS and may aid in identifying new anti-inflammatory drug leads.",
+    "keywords": [],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*NF-kappa B",
+      "Lipopolysaccharides/pharmacology",
+      "*Deep Learning",
+      "Anti-Inflammatory Agents/pharmacology",
+      "Cytokines",
+      "Nitric Oxide/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lau, Tannia A",
+        "Mair, Elmar",
+        "Rabbitts, Beverley M",
+        "Lohith, Akshar",
+        "Lokey, R Scott"
+      ],
+      "short_names": [
+        "Lau TA",
+        "Mair E",
+        "Rabbitts BM",
+        "Lohith A",
+        "Lokey RS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0896-6024",
+        "ORCID: 0000-0001-7523-5259",
+        "ORCID: 0000-0001-9891-1248"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "No affiliation, Santa Cruz, CA 95060, USA.",
+        "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lau, Tannia A",
+        "short_name": "Lau TA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "Mair, Elmar",
+        "short_name": "Mair E",
+        "identifiers": [],
+        "affiliations": [
+          "No affiliation, Santa Cruz, CA 95060, USA."
+        ]
+      },
+      {
+        "full_name": "Rabbitts, Beverley M",
+        "short_name": "Rabbitts BM",
+        "identifiers": [
+          "0000-0002-0896-6024"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "Lohith, Akshar",
+        "short_name": "Lohith A",
+        "identifiers": [
+          "0000-0001-7523-5259"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "Lokey, R Scott",
+        "short_name": "Lokey RS",
+        "identifiers": [
+          "0000-0001-9891-1248"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chembiochem : a European journal of chemical biology"
+    ],
+    "journal_abbrev": [
+      "Chembiochem"
+    ],
+    "pub_date": "2024 Jan 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/10 12:43",
+    "fetched_at": "2026-09-29 08:36:35"
+  },
+  "links": {
+    "cites": [
+      "42328637",
+      "42158926",
+      "40678216"
+    ],
+    "refs": [
+      "36322666",
+      "34123093",
+      "34061465",
+      "33353986",
+      "32435199",
+      "31810470",
+      "31695796",
+      "31655606",
+      "30840449",
+      "30159406",
+      "29767636",
+      "29553248",
+      "29503208",
+      "28954863",
+      "28615717",
+      "28460454",
+      "28420678",
+      "28391243",
+      "28203779",
+      "28003382",
+      "27307644",
+      "27031380",
+      "26950929",
+      "25684183",
+      "24718556",
+      "22743764",
+      "18304834",
+      "17110206",
+      "10679258",
+      "9873633"
+    ],
+    "similar": [
+      "37815526",
+      "35410593",
+      "14966369",
+      "33338590",
+      "22758221",
+      "22698256",
+      "24735815",
+      "28665991",
+      "24685589",
+      "19961388",
+      "32230861",
+      "32600338",
+      "22476925",
+      "30068871",
+      "25904113",
+      "30395976",
+      "26920260",
+      "37301305",
+      "36988555",
+      "36111584",
+      "23711142",
+      "22239491",
+      "19162159",
+      "31468462",
+      "26027823",
+      "28659238",
+      "27324043",
+      "27064013",
+      "26560439",
+      "24076326",
+      "34402957",
+      "18511885",
+      "33563883",
+      "28928906",
+      "24815219",
+      "24689881",
+      "34545298",
+      "27488478",
+      "29345351",
+      "34474343",
+      "28754101",
+      "33683191",
+      "27139571",
+      "21972936",
+      "24070708",
+      "20238486",
+      "25569097",
+      "24165583",
+      "23686005",
+      "28843892",
+      "32079307",
+      "30287730",
+      "29401674",
+      "36361915",
+      "21877189",
+      "34360887",
+      "30216506",
+      "27989509",
+      "32144444",
+      "33285210",
+      "19801997",
+      "22537289",
+      "37434032",
+      "36219321",
+      "28417622",
+      "29689498",
+      "26476923",
+      "24116971",
+      "31366870",
+      "28577049",
+      "34833933",
+      "23270759",
+      "37385574",
+      "37702501",
+      "19398040",
+      "27591413",
+      "32335480",
+      "24747164",
+      "32677756",
+      "29751609",
+      "30196988",
+      "23810444",
+      "22637723",
+      "24417898",
+      "25441150",
+      "23435916",
+      "20138247",
+      "25105683",
+      "32756588",
+      "23810685",
+      "28263754",
+      "12642589",
+      "24116148",
+      "28708322",
+      "30795639",
+      "25975516",
+      "25483391",
+      "26620692",
+      "38396824"
+    ],
+    "review": [
+      "37815526"
+    ],
+    "pmc": [
+      "11126213"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37815526/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37815526",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cbic.202300136",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-808",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt2gj76564",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "identity": {
+    "pmid": "33724276",
+    "doi": "10.1039/d0cp06378a",
+    "title": "Reinforcement learning to boost molecular docking upon protein conformational ensemble."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are widely involved in human diseases and thus are attractive therapeutic targets. In practice, however, it is computationally prohibitive to dock large ligand libraries to thousands and tens of thousands of conformations. Here, we propose a reversible upper confidence bound (UCB) algorithm for the virtual screening of IDPs to address the influence of the conformation ensemble. The docking process is dynamically arranged so that attempts are focused near the boundary to separate top ligands from the bulk accurately. It is demonstrated in the example of transcription factor c-Myc that the average docking number per ligand can be greatly reduced while the performance is merely slightly affected. This study suggests that reinforcement learning is highly efficient in solving the bottleneck of virtual screening due to the conformation ensemble in the rational drug design of IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Area Under Curve",
+      "Drug Design",
+      "Humans",
+      "Ligands",
+      "*Molecular Docking Simulation",
+      "Protein Binding",
+      "Protein Conformation",
+      "Proto-Oncogene Proteins c-myc/*chemistry/metabolism",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chong, Bin",
+        "Yang, Yingguang",
+        "Wang, Zi-Le",
+        "Xing, Han",
+        "Liu, Zhirong"
+      ],
+      "short_names": [
+        "Chong B",
+        "Yang Y",
+        "Wang ZL",
+        "Xing H",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing 100871, China. LiuZhiRong@pku.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chong, Bin",
+        "short_name": "Chong B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing 100871, China. LiuZhiRong@pku.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Yingguang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Zi-Le",
+        "short_name": "Wang ZL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xing, Han",
+        "short_name": "Xing H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Zhirong",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2021 Mar 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/17 06:00",
+    "fetched_at": "2026-09-27 14:44:41"
+  },
+  "links": {
+    "cites": [
+      "38987470",
+      "38138635",
+      "35762723"
+    ],
+    "refs": [],
+    "similar": [
+      "33724276",
+      "24098099",
+      "22815918",
+      "26931396",
+      "17096427",
+      "22988855",
+      "28887659",
+      "33054197",
+      "28650023",
+      "31117509",
+      "25611056",
+      "17123961",
+      "15001363",
+      "25330975",
+      "27077332",
+      "29495922",
+      "29241118",
+      "22569592",
+      "33651624",
+      "22658682",
+      "22540736",
+      "25800162",
+      "27127534",
+      "29190087",
+      "11327774",
+      "27562018",
+      "28135036",
+      "31663691",
+      "28024405",
+      "9568900",
+      "24881672",
+      "30979035",
+      "26476847",
+      "32369579",
+      "26414598",
+      "23374190",
+      "23237273",
+      "28668990",
+      "31344902",
+      "22482774",
+      "34652141",
+      "22323222",
+      "25198248",
+      "31720895",
+      "29016123",
+      "37536095",
+      "33759124",
+      "39237737",
+      "23312043",
+      "35762723",
+      "31402220",
+      "30695645",
+      "24171431",
+      "28334282",
+      "30883122",
+      "32901584",
+      "28415220",
+      "29092940",
+      "24116387",
+      "23420703",
+      "25088750",
+      "31323745",
+      "31375817",
+      "32093126",
+      "27844185",
+      "33759135",
+      "26250822",
+      "24286395",
+      "25266271",
+      "31216756",
+      "24410429",
+      "29738247",
+      "28836076",
+      "12001221",
+      "32697741",
+      "29244750",
+      "30946779",
+      "30173397",
+      "22992037",
+      "28168752",
+      "25940276",
+      "12021438",
+      "34164069",
+      "37585617",
+      "38160084",
+      "21625529",
+      "30114370",
+      "34731475"
+    ],
+    "review": [
+      "33724276",
+      "22988855",
+      "30979035",
+      "26414598",
+      "32901584"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d0cp06378a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33724276",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

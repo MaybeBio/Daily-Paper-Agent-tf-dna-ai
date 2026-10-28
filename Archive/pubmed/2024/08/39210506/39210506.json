@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "39210506",
+    "doi": "10.1093/bib/bbae418",
+    "title": "Multiview representation learning for identification of novel cancer genes and their causative biological mechanisms."
+  },
+  "content": {
+    "abstract": "Tumorigenesis arises from the dysfunction of cancer genes, leading to uncontrolled cell proliferation through various mechanisms. Establishing a complete cancer gene catalogue will make precision oncology possible. Although existing methods based on graph neural networks (GNN) are effective in identifying cancer genes, they fall short in effectively integrating data from multiple views and interpreting predictive outcomes. To address these shortcomings, an interpretable representation learning framework IMVRL-GCN is proposed to capture both shared and specific representations from multiview data, offering significant insights into the identification of cancer genes. Experimental results demonstrate that IMVRL-GCN outperforms state-of-the-art cancer gene identification methods and several baselines. Furthermore, IMVRL-GCN is employed to identify a total of 74 high-confidence novel cancer genes, and multiview data analysis highlights the pivotal roles of shared, mutation-specific, and structure-specific representations in discriminating distinctive cancer genes. Exploration of the mechanisms behind their discriminative capabilities suggests that shared representations are strongly associated with gene functions, while mutation-specific and structure-specific representations are linked to mutagenic propensity and functional synergy, respectively. Finally, our in-depth analyses of these candidates suggest potential insights for individualized treatments: afatinib could counteract many mutation-driven risks, and targeting interactions with cancer gene SRC is a reasonable strategy to mitigate interaction-induced risks for NR3C1, RXRA, HNF4A, and SP1.",
+    "keywords": [
+      "cancer gene identification",
+      "graph neural network",
+      "interpretable deep learning",
+      "multiview representation learning",
+      "precision oncology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplasms/genetics",
+      "Computational Biology/methods",
+      "Neural Networks, Computer",
+      "Mutation",
+      "Genes, Neoplasm",
+      "Hepatocyte Nuclear Factor 4/genetics",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Jianye",
+        "Fu, Haitao",
+        "Xue, Feiyang",
+        "Li, Menglu",
+        "Wu, Yuyang",
+        "Yu, Zhanhui",
+        "Luo, Haohui",
+        "Gong, Jing",
+        "Niu, Xiaohui",
+        "Zhang, Wen"
+      ],
+      "short_names": [
+        "Yang J",
+        "Fu H",
+        "Xue F",
+        "Li M",
+        "Wu Y",
+        "Yu Z",
+        "Luo H",
+        "Gong J",
+        "Niu X",
+        "Zhang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9673-6845",
+        "ORCID: 0000-0002-7876-9595",
+        "ORCID: 0000-0003-1895-2993",
+        "ORCID: 0000-0001-6801-2030"
+      ],
+      "affiliations": [
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "School of Artificial Intelligence, Hubei University, Wuhan 430070, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "College of Biomedicine and Health, Huazhong Agricultural University, Wuhan 430062, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Jianye",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Haitao",
+        "short_name": "Fu H",
+        "identifiers": [
+          "0000-0001-9673-6845"
+        ],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+          "School of Artificial Intelligence, Hubei University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Feiyang",
+        "short_name": "Xue F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Li, Menglu",
+        "short_name": "Li M",
+        "identifiers": [
+          "0000-0002-7876-9595"
+        ],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yuyang",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhanhui",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Haohui",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Jing",
+        "short_name": "Gong J",
+        "identifiers": [
+          "0000-0003-1895-2993"
+        ],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China.",
+          "College of Biomedicine and Health, Huazhong Agricultural University, Wuhan 430062, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Xiaohui",
+        "short_name": "Niu X",
+        "identifiers": [
+          "0000-0001-6801-2030"
+        ],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wen",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Jul 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/31 09:47",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "42042913",
+      "41287087",
+      "40716043",
+      "39751645"
+    ],
+    "refs": [
+      "37076248",
+      "36697834",
+      "36094338",
+      "35650238",
+      "34914581",
+      "34643232",
+      "34570431",
+      "34530444",
+      "33538338",
+      "32873799",
+      "32070943",
+      "31568528",
+      "31163177",
+      "31110280",
+      "31103572",
+      "30858366",
+      "30761181",
+      "30606230",
+      "30293088",
+      "30096302",
+      "29455648",
+      "28890946",
+      "27853626",
+      "27606777",
+      "26771021",
+      "25879670",
+      "25410163",
+      "25190456",
+      "24071849",
+      "23884480",
+      "23770567",
+      "23761452",
+      "23539594",
+      "23180760",
+      "23103869",
+      "22759861",
+      "22392706",
+      "22342309",
+      "21639808",
+      "20956538",
+      "19171888",
+      "19068426",
+      "17440062",
+      "17357067",
+      "16199517",
+      "12697834",
+      "10592173"
+    ],
+    "similar": [
+      "39210506",
+      "42475469",
+      "39804102",
+      "40716043",
+      "40907459",
+      "42133704",
+      "39751645",
+      "39789329",
+      "41530500",
+      "41465557",
+      "41029209",
+      "38844961",
+      "40811209",
+      "41945943",
+      "41761059",
+      "39270533",
+      "35066446",
+      "39408682",
+      "40073281",
+      "39700860",
+      "39968416",
+      "37950905",
+      "36241966",
+      "40194555",
+      "39776277",
+      "40466979",
+      "40424859",
+      "39987715",
+      "40072848",
+      "40155814",
+      "39417321",
+      "41881288",
+      "41139924",
+      "42046210",
+      "41329596",
+      "40834555",
+      "41066695",
+      "36464123",
+      "41520229",
+      "39695368",
+      "42470810",
+      "39197306",
+      "40814229",
+      "34889446",
+      "40811289",
+      "41608986",
+      "38814767",
+      "38724920",
+      "40580449",
+      "41134033",
+      "31881961",
+      "41032018",
+      "37862225",
+      "36124788",
+      "41345436",
+      "33577560",
+      "41308109",
+      "41525624",
+      "42334640",
+      "41276805",
+      "35974335",
+      "38877401",
+      "42042913",
+      "41109149",
+      "40119464",
+      "38754409",
+      "38225583",
+      "40147185",
+      "42412838",
+      "40853813",
+      "41206398",
+      "42295488",
+      "41329588",
+      "39423073",
+      "41348601",
+      "40360993",
+      "37055234",
+      "32175877",
+      "36699450",
+      "39499604",
+      "36516542",
+      "39523624",
+      "40814227",
+      "40851437",
+      "39487083",
+      "41805524",
+      "36984779",
+      "39838298",
+      "38564358",
+      "38940121",
+      "39704704",
+      "41037779",
+      "39234248",
+      "38643595",
+      "40406126",
+      "34882198",
+      "42032868",
+      "40779114",
+      "42268974",
+      "41237948"
+    ],
+    "review": [
+      "39210506",
+      "39804102"
+    ],
+    "pmc": [
+      "11361854"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/39210506.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39210506/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-905",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae418",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

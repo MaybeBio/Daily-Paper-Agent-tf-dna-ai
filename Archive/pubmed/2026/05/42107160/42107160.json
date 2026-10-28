@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "42107160",
+    "doi": "10.1016/j.archger.2026.106285",
+    "title": "Identification of MMP14 and FOS as key regulators of vascular smooth muscle cell senescence in diabetic kidney disease: A combined bioinformatics and experimental study."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Diabetic kidney disease (DKD) is a leading microvascular complication of diabetes in which vascular smooth muscle cell (VSMC) senescence plays a pivotal pathogenic role. This study aimed to identify key genes regulating VSMC senescence in DKD through integrated bioinformatics and machine learning analysis, construct a diagnostic nomogram prediction model, screen candidate therapeutic compounds, and validate findings experimentally. METHODS: Transcriptomic profiles for DKD (GSE30122, GSE96804, GSE142025) and a VSMC aging dataset (GSE198983) were retrieved from the GEO repository. Genes showing differential expression were determined using limma, succeeded by weighted gene co-expression network analysis (WGCNA) and functional annotation through Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG). Feature selection employed random forest, least absolute shrinkage and selection operator (LASSO), and support vector machine-recursive feature elimination (SVM-RFE) to isolate pivotal genes and develop diagnostic frameworks. Immune cell composition was analyzed via CIBERSORT, and competing endogenous RNA (ceRNA) plus transcription factor networks were assembled. Drug candidates were forecasted using the Connectivity Map platform. Human aortic smooth muscle cells (HASMCs), employed as a surrogate macrovascular smooth muscle cell model, and human renal artery smooth muscle cells (HRASMCs), employed as a kidney-proximal vascular model for cross-validation, underwent hyperglycemic exposure to recapitulate DKD conditions, with proliferation, programmed cell death, and senescence evaluated through CCK-8 assays, flow cytometry, and senescence-associated beta-galactosidase (SA-beta-gal) detection. Expression of p16, p21, osteopontin (OPN), and osteocalcin (OC) was quantified by Western blotting. Cell cycle distribution was additionally assessed by propidium iodide (PI)-based flow cytometry to elucidate the mechanism of proliferative suppression. RESULTS: A total of 43 candidate genes demonstrated enrichment predominantly in biological aging, cellular senescence, oxidative damage, insulin signaling cascades, and MAPK transduction pathways. MMP14 and FOS emerged consistently as pivotal genes exhibiting potential diagnostic capability. Immune infiltration disclosed marked changes across multiple immune populations, with MMP14 and FOS expression demonstrating associations with various immune cell subsets. The ceRNA architecture computationally predicted MMP14, FOS, NEAT1, and hsa-miR-181a-5p as critical regulatory nodes, with SRF computationally nominated as a shared transcriptional regulator. Five therapeutic candidates (neratinib, linsitinib, amlodipine, forskolin, piceatannol) were computationally identified. linsitinib demonstrated the most favorable in silico binding affinity in molecular docking simulations. This finding has not yet been validated experimentally and requires future in vitro and in vivo confirmation. Under hyperglycemic stress, HASMCs exhibited reduced proliferation, elevated apoptosis and senescence, alongside increased expression of p16, p21, OPN, and OC. Augmentation of MMP14 expression and suppression of FOS promoted cell proliferation while mitigating hyperglycemia-induced apoptosis and senescence. Cell cycle analysis revealed that high glucose induced G0/G1 phase arrest, which was relieved by MMP14 overexpression or FOS knockdown, and further exacerbated by MMP14 knockdown or FOS overexpression. All functional findings were consistently recapitulated in HRASMCs, confirming the conserved regulatory roles of MMP14 and FOS across VSMC subtypes. CONCLUSION: MMP14 and FOS function as crucial modulators of VSMC senescence in DKD, presenting diagnostic and therapeutic opportunities. The characterized regulatory circuits and identified pharmaceutical agents establish a foundation for precision interventions in DKD management.",
+    "keywords": [
+      "Competing endogenous RNA",
+      "Diabetic kidney disease",
+      "Immune cell infiltration",
+      "Molecular docking simulation",
+      "Transcriptional regulation",
+      "Vascular smooth muscle cell senescence",
+      "Weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [
+      "*Cellular Senescence/genetics",
+      "*Muscle, Smooth, Vascular/metabolism/cytology/pathology",
+      "Humans",
+      "*Diabetic Nephropathies/genetics/metabolism",
+      "Computational Biology/methods",
+      "*Myocytes, Smooth Muscle/metabolism",
+      "Animals",
+      "Gene Expression Profiling",
+      "Proto-Oncogene Proteins c-fos"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qu, Bo",
+        "He, Yuhua",
+        "Wang, Bo",
+        "Wang, Shanshan",
+        "Zhou, Li",
+        "Mao, Bing"
+      ],
+      "short_names": [
+        "Qu B",
+        "He Y",
+        "Wang B",
+        "Wang S",
+        "Zhou L",
+        "Mao B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Internal Medicine, Institute of Integrated Traditional Chinese and Western Medicine, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China.",
+        "Department of Nephrology, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan Province 610072, PR China.",
+        "Department of Nephrology, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China.",
+        "Department of Nephrology, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China.",
+        "Department of Nephrology, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China. Electronic address: zhoul_hx@scu.edu.cn.",
+        "Division of Internal Medicine, Institute of Integrated Traditional Chinese and Western Medicine, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China. Electronic address: maobing@scu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qu, Bo",
+        "short_name": "Qu B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Internal Medicine, Institute of Integrated Traditional Chinese and Western Medicine, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Yuhua",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan Province 610072, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bo",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shanshan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Li",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China. Electronic address: zhoul_hx@scu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Mao, Bing",
+        "short_name": "Mao B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Internal Medicine, Institute of Integrated Traditional Chinese and Western Medicine, West China School of Medicine and West China Hospital, Sichuan University, Chengdu, Sichuan Province 610041, PR China. Electronic address: maobing@scu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of gerontology and geriatrics"
+    ],
+    "journal_abbrev": [
+      "Arch Gerontol Geriatr"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/11 00:30",
+    "fetched_at": "2026-10-01 20:31:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42107160",
+      "42216551",
+      "42123756",
+      "40312440",
+      "40374840",
+      "37396184",
+      "41479901",
+      "41200172",
+      "42267557",
+      "41878449",
+      "38809515",
+      "35721731",
+      "39142001",
+      "42461218",
+      "41716413",
+      "39586719",
+      "41132349",
+      "41836445",
+      "41164826",
+      "37063851",
+      "40948769",
+      "41013556",
+      "40238799",
+      "42123445",
+      "41508240",
+      "40105149",
+      "42143937",
+      "42292668",
+      "40597829",
+      "41665703",
+      "40640102",
+      "41388523",
+      "41461777",
+      "41703488",
+      "38760675",
+      "42015036",
+      "38951833",
+      "41046974",
+      "26941017",
+      "41591671",
+      "42326009",
+      "34506226",
+      "42216376",
+      "41217537",
+      "41044520",
+      "42161063",
+      "42100482",
+      "40967560",
+      "39139563",
+      "40747306",
+      "41052072",
+      "34185955",
+      "36157062",
+      "41316541",
+      "40764361",
+      "41024185",
+      "42421348",
+      "41562054",
+      "42242331",
+      "41569454",
+      "41146237",
+      "36250071",
+      "39375405",
+      "41826854",
+      "36532015",
+      "40313958",
+      "41288681",
+      "41384025",
+      "41102315",
+      "39507054",
+      "42061003",
+      "38291374",
+      "41895505",
+      "39138741",
+      "42274933",
+      "41909133",
+      "40018934",
+      "42302029",
+      "42059276",
+      "39583859",
+      "41840566",
+      "41351424",
+      "40441253",
+      "40243723",
+      "36960398",
+      "30789795",
+      "32360331",
+      "42183235",
+      "41536554",
+      "41436831",
+      "41548166",
+      "40156764",
+      "41487007",
+      "40406126",
+      "38755717",
+      "40904090",
+      "36160712",
+      "39819531",
+      "41006883",
+      "41073490"
+    ],
+    "review": [
+      "42107160"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167-4943(26)00155-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0167-4943(26)00155-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "38349057",
+    "doi": "10.1093/bib/bbae040",
+    "title": "ULDNA: integrating unsupervised multi-source language models with LSTM-attention network for high-accuracy protein-DNA binding site prediction."
+  },
+  "content": {
+    "abstract": "Efficient and accurate recognition of protein-DNA interactions is vital for understanding the molecular mechanisms of related biological processes and further guiding drug discovery. Although the current experimental protocols are the most precise way to determine protein-DNA binding sites, they tend to be labor-intensive and time-consuming. There is an immediate need to design efficient computational approaches for predicting DNA-binding sites. Here, we proposed ULDNA, a new deep-learning model, to deduce DNA-binding sites from protein sequences. This model leverages an LSTM-attention architecture, embedded with three unsupervised language models that are pre-trained on large-scale sequences from multiple database sources. To prove its effectiveness, ULDNA was tested on 229 protein chains with experimental annotation of DNA-binding sites. Results from computational experiments revealed that ULDNA significantly improves the accuracy of DNA-binding site prediction in comparison with 17 state-of-the-art methods. In-depth data analyses showed that the major strength of ULDNA stems from employing three transformer language models. Specifically, these language models capture complementary feature embeddings with evolution diversity, in which the complex DNA-binding patterns are buried. Meanwhile, the specially crafted LSTM-attention network effectively decodes evolution diversity-based embeddings as DNA-binding results at the residue level. Our findings demonstrated a new pipeline for predicting DNA-binding sites on a large scale with high accuracy from protein sequence alone.",
+    "keywords": [
+      "LSTM-attention network",
+      "deep learning",
+      "evolution diversity",
+      "protein-DNA interaction",
+      "unsupervised protein language model"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "Amino Acid Sequence",
+      "*Data Analysis",
+      "Databases, Factual",
+      "*Language"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yi-Heng",
+        "Liu, Zi",
+        "Liu, Yan",
+        "Ji, Zhiwei",
+        "Yu, Dong-Jun"
+      ],
+      "short_names": [
+        "Zhu YH",
+        "Liu Z",
+        "Liu Y",
+        "Ji Z",
+        "Yu DJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5331-3655",
+        "ORCID: 0000-0002-0891-7118",
+        "ORCID: 0000-0002-6786-8053"
+      ],
+      "affiliations": [
+        "College of Artificial Intelligence, Nanjing Agricultural University, Nanjing 210095, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China.",
+        "School of Information Engineering, Yangzhou University, Yangzhou 225000, China.",
+        "College of Artificial Intelligence, Nanjing Agricultural University, Nanjing 210095, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yi-Heng",
+        "short_name": "Zhu YH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Artificial Intelligence, Nanjing Agricultural University, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zi",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yan",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-5331-3655"
+        ],
+        "affiliations": [
+          "School of Information Engineering, Yangzhou University, Yangzhou 225000, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Zhiwei",
+        "short_name": "Ji Z",
+        "identifiers": [
+          "0000-0002-0891-7118"
+        ],
+        "affiliations": [
+          "College of Artificial Intelligence, Nanjing Agricultural University, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [
+          "0000-0002-6786-8053"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Jan 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/13 12:46",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42598852",
+      "42323855",
+      "42100742",
+      "42012716",
+      "41959628",
+      "41608984",
+      "41394632",
+      "41322622",
+      "41222559",
+      "41060986",
+      "41045511",
+      "40919912",
+      "40784875",
+      "40728606",
+      "40628826",
+      "40601256",
+      "40601248",
+      "40359455",
+      "40067411",
+      "39833102",
+      "39342017",
+      "39202449"
+    ],
+    "refs": [
+      "37824738",
+      "37672551",
+      "37480553",
+      "36927031",
+      "36727436",
+      "36702895",
+      "36548439",
+      "35896542",
+      "35834447",
+      "35709747",
+      "35650286",
+      "35648833",
+      "35568117",
+      "35440077",
+      "35039821",
+      "34903827",
+      "34714748",
+      "34265844",
+      "34232869",
+      "33876751",
+      "33577689",
+      "33454744",
+      "33390682",
+      "31881828",
+      "31847804",
+      "31235882",
+      "30943723",
+      "30395287",
+      "29125297",
+      "27899574",
+      "27740495",
+      "24339888",
+      "24334392",
+      "23975762",
+      "23737141",
+      "23335013",
+      "22868682",
+      "22661576",
+      "21689482",
+      "20877328",
+      "20522253",
+      "19911048",
+      "19594868",
+      "19483101",
+      "18515839",
+      "17646316",
+      "17379688",
+      "17237068",
+      "17160063",
+      "16845003",
+      "16731699",
+      "16246914",
+      "15613393",
+      "15146487",
+      "14654694",
+      "12912846",
+      "10592235",
+      "10493868",
+      "9309224",
+      "9254694"
+    ],
+    "similar": [
+      "38349057",
+      "37748220",
+      "40814232",
+      "41257586",
+      "36548439",
+      "39214282",
+      "41977286",
+      "40209920",
+      "39357703",
+      "38830995",
+      "40067411",
+      "42012716",
+      "40919912",
+      "42475469",
+      "38630609",
+      "41172803",
+      "38460308",
+      "42099803",
+      "40628826",
+      "42391908",
+      "41168713",
+      "39121938",
+      "39456153",
+      "39576667",
+      "41290782",
+      "39270885",
+      "39788787",
+      "33837387",
+      "39471921",
+      "40742755",
+      "42636031",
+      "39092854",
+      "36403092",
+      "34073774",
+      "41677811",
+      "40119464",
+      "40375059",
+      "38990514",
+      "41902287",
+      "41762162",
+      "42227990",
+      "41608988",
+      "40914361",
+      "40601266",
+      "39961524",
+      "34664074",
+      "41791267",
+      "37603483",
+      "38003686",
+      "38744015",
+      "32808039",
+      "41454719",
+      "35652477",
+      "23912807",
+      "38975896",
+      "38127815",
+      "39653625",
+      "36274238",
+      "28245811",
+      "41292907",
+      "39566793",
+      "38281252",
+      "37845681",
+      "35443054",
+      "42185831",
+      "41572143",
+      "40334196",
+      "41534323",
+      "35189635",
+      "39067351",
+      "38871095",
+      "40563406",
+      "37000857",
+      "42157243",
+      "41280851",
+      "40121399",
+      "37958983",
+      "42239143",
+      "42348910",
+      "40054795",
+      "36279284",
+      "42228714",
+      "38171929",
+      "31847804",
+      "42163392",
+      "37824738",
+      "40914877",
+      "39350338",
+      "42032471",
+      "40116777",
+      "40914970",
+      "37871661",
+      "35471889",
+      "30463553",
+      "39695955",
+      "19091029",
+      "40784875",
+      "40036514",
+      "40601256",
+      "40662818"
+    ],
+    "review": [
+      "38349057",
+      "40209920",
+      "40601266",
+      "35652477",
+      "39067351"
+    ],
+    "pmc": [
+      "10939370"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38349057.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38349057/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38349057",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae040",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

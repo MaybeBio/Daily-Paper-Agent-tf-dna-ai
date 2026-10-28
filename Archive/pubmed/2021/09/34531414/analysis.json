@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34531414",
+  "title": "Structure-based design and classifications of small molecules regulating the circadian rhythm period.",
+  "authors": "Gul, Seref; Rahim, Fatih; Isin, Safak; Yilmaz, Fatma; Ozturk, Nuri; Turkay, Metin; Kavakli, Ibrahim Halil",
+  "journal": "Scientific reports",
+  "published_date": "2021-09-18",
+  "window": {
+    "start": "2021-09-13",
+    "end": "2021-09-19"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于CRY1晶体结构进行小分子药物设计并利用机器学习分类毒性及昼夜节律周期延长活性，虽涉及蛋白结构但核心是药物筛选，非蛋白质-DNA互作或TF-DNA结合机制研究，与本课题关联微弱。",
+  "abstract": "Circadian rhythm is an important mechanism that controls behavior and biochemical events based on 24 h rhythmicity. Ample evidence indicates disturbance of this mechanism is associated with different diseases such as cancer, mood disorders, and familial delayed phase sleep disorder. Therefore, drug discovery studies have been initiated using high throughput screening. Recently the crystal structures of core clock proteins (CLOCK/BMAL1, Cryptochromes (CRY), Periods), responsible for generating circadian rhythm, have been solved. Availability of structures makes amenable core clock proteins to design molecules regulating their activity by using in silico approaches. In addition to that, the implementation of classification features of molecules based on their toxicity and activity will improve the accuracy of the drug discovery process. Here, we identified 171 molecules that target functional domains of a core clock protein, CRY1, using structure-based drug design methods. We experimentally determined that 115 molecules were nontoxic, and 21 molecules significantly lengthened the period of circadian rhythm in U2OS cells. We then performed a machine learning study to classify these molecules for identifying features that make them toxic and lengthen the circadian period. Decision tree classifiers (DTC) identified 13 molecular descriptors, which predict the toxicity of molecules with a mean accuracy of 79.53% using tenfold cross-validation. Gradient boosting classifiers (XGBC) identified 10 molecular descriptors that predict and increase in the circadian period length with a mean accuracy of 86.56% with tenfold cross-validation. Our results suggested that these features can be used in QSAR studies to design novel nontoxic molecules that exhibit period lengthening activity.",
+  "abstract_zh": "昼夜节律是一种基于24小时节律性控制行为和生化事件的重要机制。大量证据表明，该机制的紊乱与多种疾病相关，如癌症、情绪障碍和家族性延迟睡眠期障碍。因此，已利用高通量筛选启动了药物发现研究。近期，负责产生昼夜节律的核心时钟蛋白（CLOCK/BMAL1、隐花色素（CRY）、周期蛋白）的晶体结构已被解析。这些结构的可用性使得核心时钟蛋白适合通过计算机模拟方法设计调节其活性的分子。此外，基于分子毒性和活性的分类特征的实施将提高药物发现过程的准确性。在此，我们利用基于结构的药物设计方法，鉴定了171个靶向核心时钟蛋白CRY1功能域的分子。我们通过实验确定115个分子无毒，21个分子显著延长了U2OS细胞中昼夜节律的周期。随后，我们进行了机器学习研究，对这些分子进行分类，以识别使其具有毒性并延长昼夜节律周期的特征。决策树分类器（DTC）识别出13个分子描述符，通过十折交叉验证预测分子毒性的平均准确率为79.53%。梯度提升分类器（XGBC）识别出10个分子描述符，预测昼夜节律周期长度的增加，十折交叉验证的平均准确率为86.56%。我们的结果表明，这些特征可用于定量构效关系（QSAR）研究，以设计具有周期延长活性的新型无毒分子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34531414/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34531414/",
+  "paper_page_path": "papers/pubmed/34531414/index.html"
+}

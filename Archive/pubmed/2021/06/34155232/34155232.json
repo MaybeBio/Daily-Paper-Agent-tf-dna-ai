@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "34155232",
+    "doi": "10.1038/s41598-021-92068-4",
+    "title": "The risk of pancreatic adenocarcinoma following SARS-CoV family infection."
+  },
+  "content": {
+    "abstract": "COVID 19 disease has become a global catastrophe over the past year that has claimed the lives of over two million people around the world. Despite the introduction of vaccines against the disease, there is still a long way to completely eradicate it. There are concerns about the complications following infection with SARS-CoV-2. This research aimed to evaluate the possible correlation between infection with SARS-CoV viruses and cancer in an in-silico study model. To do this, the relevent dataset was selected from GEO database. Identification of differentially expressed genes among defined groups including SARS-CoV, SARS-dORF6, SARS-BatSRBD, and H1N1 were screened where the |Log FC| >/= 1and p < 0.05 were considered statistically significant. Later, the pathway enrichment analysis and gene ontology (GO) were used by Enrichr and Shiny GO databases. Evaluation with STRING online was applied to predict the functional interactions of proteins, followed by Cytoscape analysis to identify the master genes. Finally, analysis with GEPIA2 server was carried out to reveal the possible correlation between candidate genes and cancer development. The results showed that the main molecular function of up- and down-regulated genes was \"double-stranded RNA binding\" and actin-binding, respectively. STRING and Cytoscape analysis presented four genes, PTEN, CREB1, CASP3, and SMAD3 as the key genes involved in cancer development. According to TCGA database results, these four genes were up-regulated notably in pancreatic adenocarcinoma. Our findings suggest that pancreatic adenocarcinoma is the most probably malignancy happening after infection with SARS-CoV family.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenocarcinoma/*etiology",
+      "COVID-19/*complications/genetics/metabolism/virology",
+      "Carcinogenesis/*genetics",
+      "Caspase 3/genetics",
+      "Cyclic AMP Response Element-Binding Protein/genetics",
+      "Gene Expression Regulation",
+      "Gene Ontology",
+      "Humans",
+      "*Influenza A Virus, H1N1 Subtype",
+      "Influenza, Human/*complications/genetics/metabolism/virology",
+      "PTEN Phosphohydrolase/genetics",
+      "Pancreatic Neoplasms/*etiology",
+      "Protein Interaction Maps",
+      "Risk",
+      "*Severe acute respiratory syndrome-related coronavirus",
+      "*SARS-CoV-2",
+      "Severe Acute Respiratory Syndrome/*complications/genetics/metabolism/virology",
+      "Signal Transduction/genetics",
+      "Smad3 Protein/genetics",
+      "Up-Regulation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ebrahimi Sadrabadi, Amin",
+        "Bereimipour, Ahmad",
+        "Jalili, Arsalan",
+        "Gholipurmalekabadi, Mazaher",
+        "Farhadihosseinabadi, Behrouz",
+        "Seifalian, Alexander M"
+      ],
+      "short_names": [
+        "Ebrahimi Sadrabadi A",
+        "Bereimipour A",
+        "Jalili A",
+        "Gholipurmalekabadi M",
+        "Farhadihosseinabadi B",
+        "Seifalian AM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6332-3067",
+        "ORCID: 0000-0002-8334-9376"
+      ],
+      "affiliations": [
+        "Department of Stem Cells and Developmental Biology at Cell Science Research Centre, Royan Institute, Tehran, Iran.",
+        "Department of Stem Cells and Developmental Biology at Cell Science Research Centre, Royan Institute, Tehran, Iran.",
+        "Faculty of Sciences and Advanced Technologies in Biology, University of Science and Culture, Tehran, Iran.",
+        "Department of Stem Cells and Developmental Biology at Cell Science Research Centre, Royan Institute, Tehran, Iran.",
+        "Parvaz Research Ideas Supporter Institute, Tehran, Iran.",
+        "Cellular and Molecular Research Centre, Department of Tissue Engineering and Regenerative Medicine, Iran University of Medical Sciences, Tehran, Iran.",
+        "Department of Medical Biotechnology, Iran University of Medical Sciences, Tehran, Iran.",
+        "Hematopoetic Stem Cell Research Centre, Shahid Beheshti University of Medical Sciences, Tehran, Iran. beh_far1364@yahoo.com.",
+        "Nanotechnology and Regenerative Medicine Commercialization Centre (Ltd), London BioScience Innovation Centre, London, UK. a.seifalian@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ebrahimi Sadrabadi, Amin",
+        "short_name": "Ebrahimi Sadrabadi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cells and Developmental Biology at Cell Science Research Centre, Royan Institute, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Bereimipour, Ahmad",
+        "short_name": "Bereimipour A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cells and Developmental Biology at Cell Science Research Centre, Royan Institute, Tehran, Iran.",
+          "Faculty of Sciences and Advanced Technologies in Biology, University of Science and Culture, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Jalili, Arsalan",
+        "short_name": "Jalili A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cells and Developmental Biology at Cell Science Research Centre, Royan Institute, Tehran, Iran.",
+          "Parvaz Research Ideas Supporter Institute, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Gholipurmalekabadi, Mazaher",
+        "short_name": "Gholipurmalekabadi M",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Research Centre, Department of Tissue Engineering and Regenerative Medicine, Iran University of Medical Sciences, Tehran, Iran.",
+          "Department of Medical Biotechnology, Iran University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Farhadihosseinabadi, Behrouz",
+        "short_name": "Farhadihosseinabadi B",
+        "identifiers": [
+          "0000-0001-6332-3067"
+        ],
+        "affiliations": [
+          "Hematopoetic Stem Cell Research Centre, Shahid Beheshti University of Medical Sciences, Tehran, Iran. beh_far1364@yahoo.com."
+        ]
+      },
+      {
+        "full_name": "Seifalian, Alexander M",
+        "short_name": "Seifalian AM",
+        "identifiers": [
+          "0000-0002-8334-9376"
+        ],
+        "affiliations": [
+          "Nanotechnology and Regenerative Medicine Commercialization Centre (Ltd), London BioScience Innovation Centre, London, UK. a.seifalian@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Jun 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/23 06:00",
+    "fetched_at": "2026-09-27 19:40:35"
+  },
+  "links": {
+    "cites": [
+      "40641932",
+      "40148293",
+      "39327555",
+      "37407993",
+      "36985286",
+      "36415513",
+      "36386821",
+      "36160747",
+      "35027080"
+    ],
+    "refs": [
+      "33757425",
+      "33544720",
+      "33164751",
+      "33125081",
+      "33061705",
+      "32932728",
+      "32693073",
+      "32674938",
+      "32653017",
+      "32649885",
+      "32644129",
+      "32382028",
+      "32347317",
+      "32334082",
+      "32333836",
+      "32283003",
+      "32217113",
+      "32194980",
+      "32064158",
+      "31441146",
+      "31382052",
+      "31260254",
+      "30890550",
+      "30850937",
+      "30612957",
+      "30589642",
+      "30550767",
+      "29773872",
+      "29524226",
+      "27237033",
+      "27073561",
+      "26934558",
+      "25866249",
+      "25341666",
+      "25115631",
+      "24979279",
+      "23305226",
+      "22817901",
+      "22301153",
+      "21164525",
+      "21150326",
+      "21084670",
+      "20805990",
+      "15279900",
+      "10592173"
+    ],
+    "similar": [
+      "34155232",
+      "33301474",
+      "35159296",
+      "33877681",
+      "33413085",
+      "34731091",
+      "33350025",
+      "33740387",
+      "34874956",
+      "33260034",
+      "33242204",
+      "33263384",
+      "33526164",
+      "34920753",
+      "33331649",
+      "33845483",
+      "24478444",
+      "36189314",
+      "33732251",
+      "33611340",
+      "32228827",
+      "34118117",
+      "33796097",
+      "37678512",
+      "35045126",
+      "35528205",
+      "34270613",
+      "33831468",
+      "33608407",
+      "33609069",
+      "37026010",
+      "33749932",
+      "34843492",
+      "36509426",
+      "33157216",
+      "19420084",
+      "36301107",
+      "33024988",
+      "33894414",
+      "32475052",
+      "34367154",
+      "33829464",
+      "33755731",
+      "34954105",
+      "33211371",
+      "33261654",
+      "35862681",
+      "28404843",
+      "32778874",
+      "33553808",
+      "24846384",
+      "35504488",
+      "36532040",
+      "33778787",
+      "33607766",
+      "32196410",
+      "34009691",
+      "33726831",
+      "32392945",
+      "35390032",
+      "32347053",
+      "33621405",
+      "32934758",
+      "32402576",
+      "26041291",
+      "34031419",
+      "33444904",
+      "33216851",
+      "33639165",
+      "32643448",
+      "32533062",
+      "36477795",
+      "33191068",
+      "32532933",
+      "33003587",
+      "29049217",
+      "33668070",
+      "34675048",
+      "33060566",
+      "34787756",
+      "33106987",
+      "33833618",
+      "21620914",
+      "31311829",
+      "32405236",
+      "33495994",
+      "38785948",
+      "34585746",
+      "37285245",
+      "35533463",
+      "38953254"
+    ],
+    "review": [
+      "34155232",
+      "33350025",
+      "33242204",
+      "33526164",
+      "33732251",
+      "34118117",
+      "37678512",
+      "33157216",
+      "34367154",
+      "32347053",
+      "33621405",
+      "32934758",
+      "32402576",
+      "32533062",
+      "32532933",
+      "33106987",
+      "32405236"
+    ],
+    "pmc": [
+      "8217230"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-021-92068-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34155232/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34155232",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

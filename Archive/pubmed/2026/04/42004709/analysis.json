@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42004709",
+  "title": "Integrating co-expression network analysis and machine learning to reveal the regulatory landscape of GPD genes in Chlamydomonas reinhardtii under salinity stress.",
+  "authors": "Tzec-Interian, Jorge A; Peraza-Echeverria, Santy; Herrera-Valencia, Virginia Aurora; Gongora-Castillo, Elsa B",
+  "journal": "PeerJ",
+  "published_date": "2026-04-20",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用WGCNA和随机森林分析衣藻盐胁迫下GPD基因的共表达网络与转录因子关联，但仅基于转录组统计推断，无蛋白-DNA三维互作建模或AI/物理模拟方法，与TF-DNA结合机制研究关联较弱。",
+  "abstract": "BACKGROUND: Salinity stress imposes major constraints on cellular homeostasis. In Chlamydomonas reinhardtii, glycerol biosynthesis is a key osmoprotective response mediated by glycerol-3-phosphate dehydrogenases (GPDs). Although GPD2 and GPD3 genes are known to be salt-responsive with high sequence identity and shared metabolic roles, the regulatory mechanisms of their differential expression have remained unclear. Here, we leverage publicly available time-course RNA-seq data to dissect the transcriptional regulation of these genes, using an integrative network analysis and machine-learning framework. METHODS: Weighted Gene Co-expression Network Analysis (WGCNA) was applied to transcriptomes of C. reinhardtii exposed to salinity stress. Modules containing GPD2 and GPD3 genes were analyzed for functional enrichment, transcription factor associations, and cis-regulatory elements. Module robustness was independently evaluated using a Random Forest classifier to assess the separability of gene-to-module assignments. RESULTS: GPD2 and GPD3 genes clustered into distinct co-expression modules with contrasting temporal profiles. GPD2 was associated with early stress responses and co-expressed with bZIP and C2C2-GATA transcription factors, whereas GPD3 was linked to later adaptive responses and associated with MYB, SBP, and ALFIN-like transcription factors. These differences were supported by distinct cis-regulatory motifs. Random Forest validation confirmed strong module coherence, providing independent support for the inferred regulatory programs. CONCLUSIONS: Despite their high sequence similarity, GPD2 and GPD3 are embedded in temporally and regulatory distinct transcriptional networks during salinity stress. By integrating co-expression analysis with supervised machine learning for internal module validation, this study introduces a robust strategy to refine regulatory inference from transcriptomic data. More broadly, it highlights the value of data reuse and integrative analysis for uncovering regulatory divergence among genes, with potential implications for functional optimization in microalgae and related biological systems.",
+  "abstract_zh": "背景：盐胁迫对细胞稳态构成重大限制。在莱茵衣藻（Chlamydomonas reinhardtii）中，甘油生物合成是由甘油-3-磷酸脱氢酶（GPDs）介导的关键渗透保护反应。尽管已知GPD2和GPD3基因具有高序列同一性和共享的代谢作用，并对盐胁迫有响应，但其差异表达的调控机制仍不清楚。在此，我们利用公开可用的时间序列RNA-seq数据，通过整合网络分析和机器学习框架，解析这些基因的转录调控。方法：应用加权基因共表达网络分析（WGCNA）对暴露于盐胁迫的C. reinhardtii转录组进行分析。对包含GPD2和GPD3基因的模块进行功能富集、转录因子关联和顺式调控元件分析。模块稳健性通过随机森林分类器独立评估，以检验基因到模块分配的分离性。结果：GPD2和GPD3基因聚类到不同的共表达模块中，具有对比鲜明的时间谱。GPD2与早期胁迫响应相关，并与bZIP和C2C2-GATA转录因子共表达，而GPD3与后期适应性响应相关，并与MYB、SBP和ALFIN样转录因子关联。这些差异得到不同顺式调控基序的支持。随机森林验证确认了模块强一致性，为推断的调控程序提供了独立支持。结论：尽管GPD2和GPD3具有高序列相似性，但在盐胁迫期间，它们嵌入在时间和调控上不同的转录网络中。通过将共表达分析与监督机器学习相结合进行内部模块验证，本研究引入了一种稳健策略，以细化从转录组数据中进行的调控推断。更广泛地，它强调了数据重用和整合分析在揭示基因间调控分歧方面的价值，对微藻及相关生物系统的功能优化具有潜在意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42004709/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42004709/",
+  "paper_page_path": "papers/pubmed/42004709/index.html"
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors apply a generalized ensemble method, multi-dimensional virtual-system coupled molecular dynamics (mD-VcMD), to simulate the binding of a helix-mimetic compound mS-11 to the receptor protein mSin3B. They report a thermally equilibrated ensemble containing bound and unbound states, with the lowest free-energy position of mS-11 matching the experimentally determined NRSF/REST binding site. They further claim that mS-11 maintains an ordered molecular orientation over a wide region around mSin3B, and propose a binding scenario involving descent along a free-energy slope followed by insertion of a long flexible hydrophobic sidechain into the binding site.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, free-energy calculations, or experimental validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation setup and parameters, force field details, free-energy profiles, error estimates, convergence assessments, and any comparison with experimental binding data beyond the positional match
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of a novel generalized ensemble method to a biologically relevant protein-protein interaction inhibitor. However, the claims regarding the binding mechanism and the functional significance of the observed orientation ordering are not supported by the evidence provided in the abstract alone. The central conclusion that mS-11 inhibits NRSF/REST binding through the described two-stage mechanism requires substantial quantitative and methodological support that is not visible here. The work may be of interest to computational chemists and structural biologists, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists developing and applying enhanced sampling methods for protein-ligand and protein-protein interactions would be interested in the methodological demonstration. Structural biologists studying transcriptional regulation, particularly the NRSF/REST-mSin3B interaction, may find the predicted binding mode relevant. Drug designers targeting protein-protein interactions with helix mimetics could also be interested in the proposed binding scenario.
+- **Major strengths** The use of a recently developed generalized ensemble method to sample both bound and unbound states in a single simulation is a notable technical approach. The agreement between the predicted lowest free-energy position and the experimentally determined binding site provides a useful validation point. The observation of orientation ordering over a wide region is an interesting and potentially novel finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that a thermally equilibrated distribution comprised of bound and unbound states was obtained, and that the lowest free-energy position of mS-11 coincides with the NRSF/REST position in the experimental complex.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no information on how thermal equilibration was assessed, how convergence of the generalized ensemble simulation was verified, or how the free-energy landscape was computed and validated. Without these details, the claim of a thermally equilibrated distribution and a reliable lowest free-energy position cannot be evaluated.
+  - **Why it matters** The central conclusion depends entirely on the accuracy and convergence of the free-energy calculation. If the simulation is not converged or the free-energy estimate is biased, the predicted binding position and mechanism would be unreliable.
+  - **Resolution test** Provide convergence metrics, such as time evolution of free-energy estimates, block averaging, or replica exchange statistics, and demonstrate that the lowest free-energy position is stable across independent simulations or extended sampling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that the molecular orientation of mS-11 is ordering in a wide region around mSin3B, and that this orientation ordering is important for the binding scenario.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not define what "ordering" means quantitatively, how it was measured, or why it is mechanistically significant. No statistical measure, such as an order parameter or orientational distribution, is described. The claim that orientation ordering facilitates binding is presented without supporting analysis.
+  - **Why it matters** The proposed binding scenario relies on the assertion that mS-11 maintains a favorable orientation while approaching the binding site. Without a quantitative definition and statistical validation, this claim is speculative and cannot be distinguished from random orientational sampling.
+  - **Resolution test** Define an orientational order parameter, show its distribution as a function of distance from the binding site, and compare it to a null model or to a control simulation without the generalized ensemble method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that a long and flexible hydrophobic sidechain of mS-11 fits into the binding site, and that this is the lowest free-energy complex structure inhibiting NRSF/REST binding.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No structural details of the predicted complex are provided, such as the specific residues involved, the nature of the hydrophobic contacts, or the free-energy difference between this complex and other bound states. The claim that this is the lowest free-energy structure is not supported by any quantitative comparison.
+  - **Why it matters** The proposed mechanism of inhibition depends on the identification of a specific low-energy binding mode. Without structural and energetic details, the claim that this mode is responsible for inhibition is unsubstantiated.
+  - **Resolution test** Provide a structural model of the predicted complex, a free-energy decomposition or comparison with alternative binding modes, and, if possible, mutagenesis or experimental binding data to support the functional relevance of the identified interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses the term "multi-dimensional virtual-system coupled molecular dynamics" without explaining the method in a way accessible to readers unfamiliar with generalized ensemble techniques.
+  - **Required correction** Add a brief parenthetical explanation of the method, such as "an enhanced sampling technique that accelerates exploration of conformational space by introducing artificial virtual systems."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state the biological or therapeutic significance of inhibiting NRSF/REST binding to mSin3B, which limits the perceived importance of the work.
+  - **Required correction** Add one sentence on the role of NRSF/REST in gene regulation and why its inhibition by a small molecule is of interest.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not specify the simulation length, system size, or force field used, which are standard details expected in computational studies.
+  - **Required correction** Include key simulation parameters, such as total simulation time, number of atoms, and force field, in the abstract or refer to methods in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence and equilibration), R1-M2 (quantitative orientation analysis), R1-M3 (structural and energetic validation of the binding mode)
+- **Assessment against Nature-style criteria** Originality: The application of mD-VcMD to a protein-protein interaction inhibitor is potentially original, but the abstract does not demonstrate novelty beyond the method itself. Scientific importance: The biological target is relevant, but the abstract does not establish why this specific system or finding is of broad significance. Interdisciplinary readership: The work may appeal to computational chemists and structural biologists, but the abstract is too method-focused to attract a wider audience. Technical soundness: Not assessable from the abstract; the lack of convergence and validation details is a major concern. Readability for nonspecialists: The abstract is dense and assumes familiarity with enhanced sampling methods, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting methodological application, but the central claims regarding the binding mechanism and the functional significance of the orientation ordering are not supported by the visible evidence. The case would be strengthened by providing convergence metrics, quantitative orientation analysis, and structural and energetic validation of the predicted binding mode.
+
+## Risk / unsupported claims
+- The claim of a thermally equilibrated distribution is unsupported without convergence or equilibration metrics.
+- The claim that mS-11 orientation is "ordering" is unsupported without a quantitative definition or statistical analysis.
+- The claim that the described binding scenario is the mechanism of inhibition is unsupported without structural and energetic details.
+- The claim that the lowest free-energy position coincides with the experimental binding site is only weakly supported by the abstract, as no quantitative comparison or error estimate is provided.
+- The functional claim that mS-11 inhibits NRSF/REST binding is not directly demonstrated in the abstract; only a structural prediction is presented.

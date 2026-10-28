@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34607350",
+  "title": "Assessing deep learning methods in cis-regulatory motif finding based on genomic sequencing data.",
+  "authors": "Zhang, Shuangquan; Ma, Anjun; Zhao, Jing; Xu, Dong; Ma, Qin; Wang, Yan",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-10-05",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统评估了20种深度学习工具在基于基因组测序数据识别顺式调控基序（TF结合位点）中的性能，虽为方法评估而非新建模，但核心聚焦TF-DNA结合位点预测，对课题选型有直接参考价值。",
+  "abstract": "Identifying cis-regulatory motifs from genomic sequencing data (e.g. ChIP-seq and CLIP-seq) is crucial in identifying transcription factor (TF) binding sites and inferring gene regulatory mechanisms for any organism. Since 2015, deep learning (DL) methods have been widely applied to identify TF binding sites and predict motif patterns, with the strengths of offering a scalable, flexible and unified computational approach for highly accurate predictions. As far as we know, 20 DL methods have been developed. However, without a clear and systematic assessment, users will struggle to choose the most appropriate tool for their specific studies. In this manuscript, we evaluated 20 DL methods for cis-regulatory motif prediction using 690 ENCODE ChIP-seq, 126 cancer ChIP-seq and 55 RNA CLIP-seq data. Four metrics were investigated, including the accuracy of motif finding, the performance of DNA/RNA sequence classification, algorithm scalability and tool usability. The assessment results demonstrated the high complementarity of the existing DL methods. It was determined that the most suitable model should primarily depend on the data size and type and the method's outputs.",
+  "abstract_zh": "从基因组测序数据（如ChIP-seq和CLIP-seq）中识别顺式调控基序（cis-regulatory motifs）对于识别转录因子（TF）结合位点及推断任何生物体的基因调控机制至关重要。自2015年以来，深度学习（DL）方法已被广泛应用于识别转录因子结合位点和预测基序模式，其优势在于提供了一种可扩展、灵活且统一的计算方法，以实现高精度预测。据我们所知，已有20种深度学习方法被开发出来。然而，缺乏清晰且系统的评估，用户将难以选择最适合其特定研究的工具。在本手稿中，我们使用690个ENCODE ChIP-seq、126个癌症ChIP-seq和55个RNA CLIP-seq数据，评估了20种用于顺式调控基序预测的深度学习方法。我们考察了四个指标，包括基序发现的准确性、DNA/RNA序列分类的性能、算法可扩展性和工具可用性。评估结果表明，现有深度学习方法具有高度互补性。确定最合适的模型应主要取决于数据大小和类型以及方法的输出。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34607350/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34607350/",
+  "paper_page_path": "papers/pubmed/34607350/index.html"
+}

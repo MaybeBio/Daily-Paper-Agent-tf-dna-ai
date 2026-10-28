@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusion. Figures and tables are referenced but not provided in full detail. Supporting Information is mentioned but not included.
+- **Assessment boundary** The review assesses the scientific claims, methodology, and evidence presented in the manuscript as supplied. It does not evaluate the choice of journal or editorial decisions.
+- **Shared manuscript claim summary** The authors report the synthesis and characterization of a novel dinuclear platinum (II) complex, [Pt2(μ-bpy-2H)(Me)2(dmso)2] (C1), and demonstrate its DNA binding, cytotoxicity in cisplatin-sensitive and resistant cancer cell lines, and antitumor efficacy in a murine breast cancer model when encapsulated in PLGA nanoparticles. The study combines in silico docking and molecular dynamics simulations with in vitro and in vivo experiments.
+- **Visible evidence base** The manuscript includes UV-visible spectroscopy data (Figure 2a), fluorescence spectroscopy with Stern-Volmer analysis (Figure 2b), viscosity measurements (Figure 2c), molecular docking results (Figure 3), MTT cytotoxicity assays (Figure 4, Figure S1), Annexin V-PI flow cytometry (Figure 5), ICP-OES cellular uptake and DNA binding measurements (Figure 6), molecular dynamics simulation results (Figure 7), SEM imaging of nanoparticles (Figure 8a, 8b), cytotoxicity of encapsulated forms (Figure 8c, Figure S2), in vivo survival and tumor volume data (Figure 9), and histology images (Figures 10-12, Figure S3). A table of encapsulation efficiency is referenced (Table 1).
+- **Missing materials affecting confidence** The full figures and tables are not provided, only referenced. Supporting Information (Figures S1-S3) is not included. Detailed experimental protocols for synthesis, characterization, and in vivo studies are abbreviated. Statistical details (exact p values, error bars, replicates) are not fully described. The manuscript does not provide raw data or detailed analysis parameters for the molecular dynamics simulations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting dinuclear platinum (II) complex with a novel bridging ligand and demonstrates a logical progression from computational prediction to in vitro and in vivo validation. The concept of combining a multinuclear platinum complex with PLGA encapsulation to address solubility and toxicity issues is reasonable and clinically relevant. However, the evidence as presented has several gaps that prevent full confidence in the claims. The in vivo study is severely underpowered (n=4 per group), the characterization of the complex and nanoparticles is incomplete, and the molecular dynamics simulation methodology lacks critical details. The manuscript would benefit from more rigorous experimental design, additional controls, and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers in the fields of bioinorganic chemistry, cancer pharmacology, and nanomedicine would find this work relevant. Those working on platinum-based anticancer drug development, particularly on strategies to overcome cisplatin resistance, would be interested in the novel complex. Investigators studying PLGA-based drug delivery systems for metal-based therapeutics would also find the encapsulation approach of interest.
+- **Major strengths** The study addresses a clinically important problem, namely cisplatin resistance and off-target toxicity. The combination of computational, in vitro, and in vivo approaches is comprehensive in scope. The use of a cisplatin-resistant cell line (A2780R) is a valuable addition. The PLGA encapsulation strategy is well-motivated and the in vivo comparison between encapsulated C1 and encapsulated cisplatin is informative. The histopathological analysis provides supportive evidence for reduced toxicity of the encapsulated C1.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and statistical power
+  - **Claim pointer** The authors claim that C1-NP showed superior antitumor activity with significantly reduced side effects in tumor-bearing mouse models.
+  - **Evidence pointer** Section 3.3.3.2, Figure 9, Figures 10-12
+  - **Concern** The in vivo study used only 4 mice per group (n=4). This is a very small sample size that severely limits the statistical power and reliability of the conclusions. The survival data show that all mice in the cisplatin-NP group died by week 3, while no deaths occurred in the C1-NP group, but with n=4, the confidence intervals are extremely wide. The claim of "significantly reduced side effects" is based on qualitative histology observations without quantitative scoring or statistical analysis. The tumor volume measurements are presented without error bars or statistical comparisons between groups.
+  - **Why it matters** The central translational claim of the manuscript, that C1-NP is superior to cisplatin-NP in vivo, rests on this underpowered experiment. Without adequate sample sizes and statistical analysis, the conclusions cannot be considered robust. The histology findings, while suggestive, are not quantified and cannot support the claim of reduced side effects.
+  - **Resolution test** The authors should increase the number of animals per group (at least 6-8 per group), provide quantitative histopathology scoring with statistical analysis, and present tumor volume data with appropriate error bars and statistical tests (e.g., two-way ANOVA with post-hoc comparisons). Survival analysis should include log-rank tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Characterization of the complex and nanoparticles
+  - **Claim pointer** The authors state that C1 was synthesized and encapsulated in PLGA, and that the nanoparticles were approximately 200-300 nm in size with a negative charge.
+  - **Evidence pointer** Section 2.2.1, Section 2.2.9, Section 3.3.2, Table 1, Figure 8
+  - **Concern** The manuscript lacks essential characterization data for the novel complex C1. No NMR, mass spectrometry, elemental analysis, or X-ray crystallography data are provided to confirm the structure and purity of the complex. The synthesis is referenced to a previous report, but the identity of the complex in this study is not independently verified. For the PLGA nanoparticles, only SEM images and a size range are mentioned. No data on drug loading content, encapsulation efficiency (despite Table 1 being referenced, its contents are not described in the text), release kinetics, or stability are provided. The zeta potential is mentioned but no values are given.
+  - **Why it matters** A novel compound must be rigorously characterized to establish its identity and purity. Without this, all subsequent biological data cannot be reliably attributed to the claimed structure. Similarly, the performance of the nanoparticle formulation depends critically on drug loading and release properties, which are not reported. The claim of "superior antitumor activity" for C1-NP cannot be properly evaluated without knowing how much drug was actually delivered.
+  - **Resolution test** Provide full characterization data for C1 (NMR, MS, elemental analysis, and if possible, X-ray structure). For the nanoparticles, provide drug loading content, encapsulation efficiency values, in vitro release profiles, and zeta potential measurements. Include this data in the main text or supplementary information.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Molecular dynamics simulation methodology
+  - **Claim pointer** The authors claim that molecular dynamics simulations predicted the formation of stable C1/PLGA complexes during the early stages of simulation.
+  - **Evidence pointer** Section 2.2.8, Figure 7
+  - **Concern** The description of the molecular dynamics simulation is insufficient for reproducibility. The force field parameters for the platinum complex are not described. The construction of the PLGA polymer model (chain length, stereochemistry, degree of polymerization) is not specified. The simulation box size, number of molecules, and the ratio of drug to polymer are not given. The equilibration protocol and the criteria for assessing "stability" are not defined. The RMSD, contact number, and SASA analyses are mentioned but the methods for these calculations are not described.
+  - **Why it matters** The in silico results are used to support the feasibility of the encapsulation approach. If the simulation methodology is not transparent and reproducible, the validity of these predictions cannot be assessed. Moreover, the claim that the complex is "encapsulated" by PLGA based on SASA analysis requires more detailed interpretation.
+  - **Resolution test** Provide a complete description of the simulation setup, including force field parameters, system construction, equilibration and production protocols, and analysis methods. Justify the choice of force field for the platinum complex. Show representative simulation snapshots to support the encapsulation claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** DNA binding mode interpretation
+  - **Claim pointer** The authors conclude that C1 binds to DNA via intercalation based on UV-visible spectroscopy, fluorescence quenching, and viscosity measurements.
+  - **Evidence pointer** Section 3.1.1, Section 3.1.2, Section 3.1.3, Figure 2
+  - **Concern** The interpretation of the DNA binding data is not fully consistent. The UV-visible data show a hyperchromic effect, which the authors attribute to groove binding, yet the viscosity data are interpreted as evidence for intercalation. These two conclusions are in tension, as groove binding typically does not cause significant viscosity increases. The fluorescence quenching of ethidium bromide could also result from displacement or from other quenching mechanisms. The binding constant (Kb = 8.8 x 10^4 M^-1) is described as "moderate," but no comparison to known intercalators or groove binders under the same conditions is provided. The molecular docking results are not quantitatively analyzed (no binding energies or scores are reported).
+  - **Why it matters** The proposed mechanism of action, which is central to the anticancer activity claim, depends on the correct interpretation of the DNA binding mode. Inconsistent or ambiguous evidence weakens the mechanistic conclusion.
+  - **Resolution test** Reconcile the UV-visible and viscosity data. Provide a more detailed analysis of the fluorescence quenching data, including the possibility of static vs. dynamic quenching. Report docking scores or binding energies. Consider additional experiments such as circular dichroism or DNA melting studies to clarify the binding mode.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting of statistical methods
+  - **Affected element** Section 2.2.11
+  - **Evidence pointer** Section 2.2.11
+  - **Issue** The statistical analysis section is very brief. It mentions t-tests and ANOVA but does not specify which comparisons were made with which tests, how normality was assessed, or whether multiple comparison corrections were applied.
+  - **Required correction** Provide a more detailed description of the statistical methods, including the specific tests used for each comparison, the software settings, and the criteria for significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and data presentation
+  - **Affected element** Figures 4, 5, 9
+  - **Evidence pointer** Figures 4, 5, 9
+  - **Issue** The figures are referenced but not shown in the manuscript text. The descriptions of the figures are not sufficient to evaluate the data. For example, Figure 4 is described as showing cytotoxicity but no dose-response curves or IC50 values are presented in the text. Figure 9 shows survival and tumor volume but the axes and error bars are not described.
+  - **Required correction** Ensure that all figures are included and clearly labeled. Provide quantitative data in the text or figure legends, including IC50 values with confidence intervals, and clearly indicate error bars and statistical significance in the figures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** There are several typographical and grammatical errors. For example, "synthetized" should be "synthesized", "alternation" should be "alteration", and "n this regard" is missing the "I" in "In". Some sentences are awkwardly phrased and could be clarified.
+  - **Required correction** The manuscript should be carefully proofread and edited for language and clarity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Missing experimental details
+  - **Affected element** Section 2.2.4, Section 2.2.9
+  - **Evidence pointer** Section 2.2.4, Section 2.2.9
+  - **Issue** The MTT assay description does not specify the cell seeding density, the duration of treatment, or the number of replicates. The encapsulation method does not specify the solvent system, the ratio of drug to polymer, or the sonication parameters.
+  - **Required correction** Provide complete experimental details to allow reproducibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** In vivo study design
+  - **Affected element** Section 2.2.10
+  - **Evidence pointer** Section 2.2.10
+  - **Issue** The in vivo study description is very brief. It does not specify the tumor cell line used for implantation, the route of administration, the dosing schedule, or the criteria for tumor measurement. The method of randomization and blinding is not described.
+  - **Required correction** Provide a complete description of the in vivo experimental design, including animal numbers, tumor model, dosing, and monitoring protocols.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (underpowered in vivo study), R1-M2 (incomplete characterization of complex and nanoparticles), R1-M3 (insufficient MD simulation details), R1-M4 (inconsistent DNA binding interpretation).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The complex itself appears to be novel, and the combination of a dinuclear platinum complex with PLGA encapsulation is not entirely unprecedented but adds a useful dimension. However, the novelty is not fully established without proper characterization and comparison to existing compounds.
+  - **Scientific importance** The problem of cisplatin resistance and off-target toxicity is important. If the claims are substantiated, the work could contribute to the development of improved platinum-based therapies. However, the current evidence is not sufficient to establish the significance of the findings.
+  - **Interdisciplinary readership** The work spans bioinorganic chemistry, cancer biology, and nanomedicine, which could appeal to a broad audience. However, the presentation is not sufficiently polished or detailed to engage readers from all these fields effectively.
+  - **Technical soundness** The technical soundness is currently compromised by the issues identified above, particularly the in vivo study design, the lack of characterization data, and the incomplete simulation methodology.
+  - **Readability for nonspecialists** The manuscript is generally readable but contains jargon and lacks sufficient context for nonspecialists to fully appreciate the significance of the findings. The abstract is clear but the main text could be improved.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial revisions to address the major concerns, particularly the in vivo study power, the characterization of the complex and nanoparticles, and the clarity of the DNA binding mode. If these issues are resolved, the work could be of interest to the field.
+
+## Risk / unsupported claims
+- The claim that C1-NP showed "significantly reduced side effects" is not supported by quantitative data or statistical analysis.
+- The claim that C1 binds to DNA via intercalation is not fully supported by the presented evidence, as the UV-visible data suggest groove binding while viscosity data suggest intercalation.
+- The claim of "superior antitumor activity" for C1-NP is based on an underpowered study (n=4) without statistical comparison.
+- The molecular dynamics simulation results are not reproducible from the provided methods.
+- The encapsulation efficiency values in Table 1 are referenced but not presented or discussed in the text.
+- The purity and identity of the novel complex C1 are not established with characterization data.

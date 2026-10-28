@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "38654122",
+    "doi": "10.1038/s44319-024-00134-5",
+    "title": "Detecting material state changes in the nucleolus by label-free digital holographic microscopy."
+  },
+  "content": {
+    "abstract": "Ribosome biogenesis is initiated in the nucleolus, a multiphase biomolecular condensate formed by liquid-liquid phase separation. The nucleolus is a powerful disease biomarker and stress biosensor whose morphology reflects function. Here we have used digital holographic microscopy (DHM), a label-free quantitative phase contrast microscopy technique, to detect nucleoli in adherent and suspension human cells. We trained convolutional neural networks to detect and quantify nucleoli automatically on DHM images. Holograms containing cell optical thickness information allowed us to define a novel index which we used to distinguish nucleoli whose material state had been modulated optogenetically by blue-light-induced protein aggregation. Nucleoli whose function had been impacted by drug treatment or depletion of ribosomal proteins could also be distinguished. We explored the potential of the technology to detect other natural and pathological condensates, such as those formed upon overexpression of a mutant form of huntingtin, ataxin-3, or TDP-43, and also other cell assemblies (lipid droplets). We conclude that DHM is a powerful tool for quantitatively characterizing nucleoli and other cell assemblies, including their material state, without any staining.",
+    "keywords": [
+      "Biomolecular Condensate",
+      "Digital Holographic Microscopy",
+      "Lipid Droplet",
+      "Liquid-Liquid Phase Separation (LLPS)",
+      "Nucleolus"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cell Nucleolus/metabolism",
+      "*Holography/methods",
+      "Neural Networks, Computer",
+      "Microscopy/methods",
+      "Ribosomal Proteins/metabolism/genetics",
+      "Ataxin-3/metabolism/genetics",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "Microscopy, Phase-Contrast/methods",
+      "Quantitative Phase Imaging"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zorbas, Christiane",
+        "Soenmez, Aynur",
+        "Leger, Jean",
+        "De Vleeschouwer, Christophe",
+        "Lafontaine, Denis Lj"
+      ],
+      "short_names": [
+        "Zorbas C",
+        "Soenmez A",
+        "Leger J",
+        "De Vleeschouwer C",
+        "Lafontaine DL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1861-3644",
+        "ORCID: 0009-0009-9377-3136",
+        "ORCID: 0000-0002-0098-2548",
+        "ORCID: 0000-0001-5049-2929",
+        "ORCID: 0000-0001-7295-6288"
+      ],
+      "affiliations": [
+        "RNA Molecular Biology, Fonds de la Recherche Scientifique (F.R.S./FNRS), Universite libre de Bruxelles (ULB), Biopark campus, B-6041, Gosselies, Belgium.",
+        "RNA Molecular Biology, Fonds de la Recherche Scientifique (F.R.S./FNRS), Universite libre de Bruxelles (ULB), Biopark campus, B-6041, Gosselies, Belgium.",
+        "ICTEAM-ELEN, Fonds de la Recherche Scientifique (F.R.S./FNRS), UCLouvain, B-1348, Louvain-la-Neuve, Belgium.",
+        "ICTEAM-ELEN, Fonds de la Recherche Scientifique (F.R.S./FNRS), UCLouvain, B-1348, Louvain-la-Neuve, Belgium.",
+        "RNA Molecular Biology, Fonds de la Recherche Scientifique (F.R.S./FNRS), Universite libre de Bruxelles (ULB), Biopark campus, B-6041, Gosselies, Belgium. denis.lafontaine@ulb.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zorbas, Christiane",
+        "short_name": "Zorbas C",
+        "identifiers": [
+          "0000-0002-1861-3644"
+        ],
+        "affiliations": [
+          "RNA Molecular Biology, Fonds de la Recherche Scientifique (F.R.S./FNRS), Université libre de Bruxelles (ULB), Biopark campus, B-6041, Gosselies, Belgium."
+        ]
+      },
+      {
+        "full_name": "Soenmez, Aynur",
+        "short_name": "Soenmez A",
+        "identifiers": [
+          "0009-0009-9377-3136"
+        ],
+        "affiliations": [
+          "RNA Molecular Biology, Fonds de la Recherche Scientifique (F.R.S./FNRS), Université libre de Bruxelles (ULB), Biopark campus, B-6041, Gosselies, Belgium."
+        ]
+      },
+      {
+        "full_name": "Léger, Jean",
+        "short_name": "Léger J",
+        "identifiers": [
+          "0000-0002-0098-2548"
+        ],
+        "affiliations": [
+          "ICTEAM-ELEN, Fonds de la Recherche Scientifique (F.R.S./FNRS), UCLouvain, B-1348, Louvain-la-Neuve, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Vleeschouwer, Christophe",
+        "short_name": "De Vleeschouwer C",
+        "identifiers": [
+          "0000-0001-5049-2929"
+        ],
+        "affiliations": [
+          "ICTEAM-ELEN, Fonds de la Recherche Scientifique (F.R.S./FNRS), UCLouvain, B-1348, Louvain-la-Neuve, Belgium."
+        ]
+      },
+      {
+        "full_name": "Lafontaine, Denis Lj",
+        "short_name": "Lafontaine DL",
+        "identifiers": [
+          "0000-0001-7295-6288"
+        ],
+        "affiliations": [
+          "RNA Molecular Biology, Fonds de la Recherche Scientifique (F.R.S./FNRS), Université libre de Bruxelles (ULB), Biopark campus, B-6041, Gosselies, Belgium. denis.lafontaine@ulb.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "EMBO reports"
+    ],
+    "journal_abbrev": [
+      "EMBO Rep"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/24 01:43",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "42156929",
+      "37808656"
+    ],
+    "refs": [
+      "37973889",
+      "37968398",
+      "37672657",
+      "34427635",
+      "33498839",
+      "33055158",
+      "32873929",
+      "32744794",
+      "32726575",
+      "32442467",
+      "32004090",
+      "31769409",
+      "31604601",
+      "31585176",
+      "31540874",
+      "31399547",
+      "30559429",
+      "30250292",
+      "29779866",
+      "28270966",
+      "28225081",
+      "28211448",
+      "28041848",
+      "27845411",
+      "27265389",
+      "27212236",
+      "26836305",
+      "26157976",
+      "26017442",
+      "26015579",
+      "25670395",
+      "25233328",
+      "24378568",
+      "23973377",
+      "22789538",
+      "21956940",
+      "21922053",
+      "21209826",
+      "21159662",
+      "20965417",
+      "20663773",
+      "20159984",
+      "20055700",
+      "19178588",
+      "18860291",
+      "17519961",
+      "16822055",
+      "15817375",
+      "15789705",
+      "15758027",
+      "14919571",
+      "13286432",
+      "12084819",
+      "10648559",
+      "10528852",
+      "9705492",
+      "6681676",
+      "2423479"
+    ],
+    "similar": [
+      "38654122",
+      "32441768",
+      "24152227",
+      "39161785",
+      "33379722",
+      "29622579",
+      "20615011",
+      "32405004",
+      "29438830",
+      "27685659",
+      "33686845",
+      "18214309",
+      "19017223",
+      "35799027",
+      "19566341",
+      "41239922",
+      "41486569",
+      "30302967",
+      "28264140",
+      "16556319",
+      "33690388",
+      "31399547",
+      "28437571",
+      "40793471",
+      "17994897",
+      "35321919",
+      "16822055",
+      "36543022",
+      "33836082",
+      "39889082",
+      "37321984",
+      "38867274",
+      "28788938",
+      "42242225",
+      "29936304",
+      "22796499",
+      "40291420",
+      "41346121",
+      "31169960",
+      "38339437",
+      "25640428",
+      "29155763",
+      "31044784",
+      "36526633",
+      "35607824",
+      "15789705",
+      "41479053",
+      "24223222",
+      "29283496",
+      "36227471",
+      "39551244",
+      "37076520",
+      "32873929",
+      "27136615",
+      "23636076",
+      "22303471",
+      "38168104",
+      "40413181",
+      "23469807",
+      "42245197",
+      "40684934",
+      "25251440",
+      "19256706",
+      "41266689",
+      "32284403",
+      "8877378",
+      "41103564",
+      "38439461",
+      "18382537",
+      "36444977",
+      "32225868",
+      "20533430",
+      "40363114",
+      "35203295",
+      "25322130",
+      "42549912",
+      "25431054",
+      "38196346",
+      "28081079",
+      "28836416",
+      "28990642",
+      "39456266",
+      "28718848",
+      "41589390",
+      "25142511",
+      "31295945",
+      "25208094",
+      "31941785",
+      "32755077",
+      "33118828",
+      "33188571",
+      "24781590",
+      "18594573",
+      "25364948",
+      "40549094",
+      "32895419",
+      "28500793",
+      "42596147",
+      "29162547",
+      "38984377"
+    ],
+    "review": [
+      "38654122",
+      "29438830",
+      "41239922",
+      "38867274",
+      "32873929",
+      "8877378",
+      "28990642",
+      "39456266",
+      "28500793"
+    ],
+    "pmc": [
+      "11169520"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44319-024-00134-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38654122/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38654122",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38654122",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

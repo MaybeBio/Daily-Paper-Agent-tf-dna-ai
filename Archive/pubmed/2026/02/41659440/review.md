@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods) as provided
+- **Assessment boundary** Scientific and technical evaluation of the TPCAV method, its validation, and the claims made; no assessment of code functionality or reproducibility beyond what is described
+- **Shared manuscript claim summary** The authors present TPCAV, a modification of TCAV incorporating PCA-based decorrelation, as the first systematic application of concept attribution to interpret deep learning models in genomics. They claim TPCAV provides reliable interpretation of motif, repeat, and chromatin state concepts across diverse model architectures and input modalities, including tokenized foundation models, and enables concept-specific attribution maps for ranking genomic regions.
+- **Visible evidence base** Results text, figure descriptions, methods descriptions, supplementary table/figure references
+- **Missing materials affecting confidence** Actual figures and supplementary materials not provided; no code or data availability verification; no baseline comparisons shown numerically; no statistical significance tests described in results text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuine gap in genomics deep learning interpretation by extending concept attribution beyond one-hot DNA inputs. The motivation is clear and the method is sensible. However, the evidence presented in the text is largely qualitative and descriptive, with key quantitative results, statistical validations, and comparisons to existing methods not visible in the provided material. The claim of being "first" is strong and requires more careful positioning against existing work. The technical soundness of the PCA modification is plausible but the validation is incomplete as presented.
+- **Who would be interested in the results, and why** Researchers developing and applying deep learning models in regulatory genomics, particularly those working with foundation models or multimodal inputs. Also method developers in interpretable machine learning for biology. The benchmarking of foundation models via concept attribution could be of broad interest to the genomics modeling community.
+- **Major strengths**
+  - Addresses a real limitation: existing attribution methods are largely restricted to one-hot DNA inputs
+  - The PCA-based decorrelation modification is well motivated by a concrete failure case (CTCF, NANOG)
+  - Demonstrates applicability across diverse architectures and input modalities, including tokenized foundation models
+  - Introduces a useful concept-specific attribution map approach for ranking genomic regions
+  - Provides a curated concept database, which is a practical contribution
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "TPCAV provides comparable motif feature interpretation to TF-MoDISco on one-hot encoded DNA-based transcription factor binding prediction models"
+  - **Evidence pointer** Results section "TPCAV provides comprehensive interpretation of DNA features", Figure 2b
+  - **Concern** The claim of comparability to TF-MoDISco is not substantiated with quantitative comparisons. The text states that results are "largely consistent" and that TF-MoDISco identifies the same cognate motifs among top patterns, but no direct comparison metric is provided. The authors also note discrepancies where TF-MoDISco identifies the same motif as both positive and negative, which they argue TPCAV resolves, but this is presented as an advantage without a systematic evaluation.
+  - **Why it matters** The claim of comparability to an established method is central to establishing TPCAV as a valid alternative. Without quantitative comparison (e.g., overlap coefficients, rank correlations, or recovery rates), the claim is unsupported.
+  - **Resolution test** Provide a quantitative comparison between TPCAV and TF-MoDISco on the same models and datasets, such as the fraction of known cognate motifs recovered in top-k rankings, or a rank correlation between method outputs. Show that TPCAV achieves comparable or better recovery of known motifs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "TPCAV correctly identifies all cognate motif concepts as positive influences, improving the reliability of the original method"
+  - **Evidence pointer** Results section "Testing with PCA-projected Concept Activation Vectors (TPCAV)", Figure 1b
+  - **Concern** The claim that TPCAV "correctly identifies" all cognate motifs as positive is based on the assumption that cognate motifs must always be positive influences. While this is reasonable for the specific TF binding models tested, the authors do not provide a systematic evaluation across all models. The text mentions "most cases" for TCAV and then states TPCAV fixes the exceptions, but the number of models, the criteria for "correct," and the statistical significance of the improvement are not reported.
+  - **Why it matters** The core methodological contribution is the PCA fix. The evidence that this fix resolves the identified problem must be systematic and quantitative, not anecdotal.
+  - **Resolution test** Report the number of TF models tested, the number where TCAV gave incorrect signs, and show that TPCAV corrects all of these. Provide a statistical test (e.g., sign test or paired comparison) demonstrating the improvement is significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "We present the first application of concept attribution to interpret genomics deep learning models"
+  - **Evidence pointer** Abstract, Introduction
+  - **Concern** The claim of being "first" is strong and not adequately supported. The authors do not discuss prior work that may have applied concept attribution or similar approaches in genomics, nor do they differentiate their contribution from existing concept-based methods in other domains applied to biological data. A thorough literature review is needed to substantiate this claim.
+  - **Why it matters** If prior applications exist, the novelty claim is overstated and the contribution is diminished. If none exist, the authors should demonstrate this with a comprehensive search.
+  - **Resolution test** Expand the Introduction or Discussion to include a systematic review of concept attribution applications in genomics and related fields, explicitly stating what was searched and why no prior applications were found.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "TPCAV uniquely generalizes to interpret features learned by tokenized foundation models as well as models incorporating chromatin signals as inputs"
+  - **Evidence pointer** Results section "TPCAV is an input format agnostic global feature attribution approach", Figure 3
+  - **Concern** The demonstration on foundation models is limited to a single fine-tuned model (DNABERT-2) and a single TF. The comparison across foundation models (DNABERT-2, Nucleotide Transformer, HyenaDNA) is done via classification of inserted motifs, which is an indirect measure of the model's learned representations. The claim of "uniquely generalizes" is too strong given the limited scope of the demonstration.
+  - **Why it matters** The generalizability claim is a key differentiator of the method. A single example per architecture type is insufficient to establish generalizability.
+  - **Resolution test** Apply TPCAV to additional foundation models and additional TFs, and to at least one more multimodal model. Show consistent performance across these settings.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "TPCAV can identify representative regions associated with specific concepts, motivating downstream investigation of distinct regulatory mechanisms"
+  - **Evidence pointer** Results section "TPCAV applied to a multi-headed model reveals differential usage of concepts in the shared embedding space", Figure 5
+  - **Concern** The concept-specific attribution maps are used to rank peaks, and the top-ranked peaks show differences in TSS distance and GO enrichment. However, the validation is correlational. The authors do not demonstrate that the top-ranked peaks are enriched for the concept beyond what would be expected by chance, nor do they compare against alternative ranking methods.
+  - **Why it matters** The utility of the attribution maps for identifying biologically meaningful subsets of peaks is a claimed advantage. Without a proper null model or comparison to existing peak-ranking approaches, the added value is unclear.
+  - **Resolution test** Compare the concept-ranked peaks against peaks ranked by total attribution or by motif occurrence frequency. Show that concept-specific ranking provides unique information, and validate with an independent assay (e.g., CRISPR perturbation or expression correlation).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, TPCAV description
+  - **Evidence pointer** Methods section "Testing with PCA-transformed Concept Activation Vectors (TPCAV)"
+  - **Issue** The description of the PCA transformation and residual handling is dense and could benefit from a clearer explanation of why the residual is kept and how it affects the classifier.
+  - **Required correction** Add a brief intuitive explanation of why the residual is concatenated and what would happen if it were omitted.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, model training
+  - **Evidence pointer** Methods section "Single TF binding prediction model dataset construction and training"
+  - **Issue** The model architecture table is referenced but not included in the provided text. The hyperparameters for training are partially described but key details (e.g., batch size, number of training steps, early stopping criteria) are missing.
+  - **Required correction** Include the full architecture table and provide complete training details in the Methods or Supplementary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, foundation model comparison
+  - **Evidence pointer** Results section "TPCAV is an input format agnostic global feature attribution approach", Figure 3b
+  - **Issue** The comparison of foundation models via F-score distributions is descriptive. No statistical test is reported to support the claim that DNABERT-2 "consistently outperforms" the others.
+  - **Required correction** Add statistical tests (e.g., ANOVA or non-parametric tests) across the motif concepts to support the claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion does not address limitations of the method, such as the choice of layer for concept extraction, sensitivity to the number of concept examples, or potential biases in concept definition.
+  - **Required correction** Add a limitations paragraph discussing these factors and potential avenues for future work.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Code Availability section
+  - **Issue** The code repository is mentioned but no version, license, or documentation details are provided.
+  - **Required correction** Provide a versioned release, license information, and a brief usage example or link to documentation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**
+  - Originality: The adaptation of concept attribution to genomics is a reasonable extension, but the "first" claim requires verification. The PCA modification is incremental.
+  - Scientific importance: The ability to interpret non-sequence inputs and foundation models addresses a real need. The benchmarking of foundation models is potentially valuable.
+  - Interdisciplinary readership: The method is relevant to both machine learning and genomics audiences, but the manuscript is written primarily for a genomics audience and may not be accessible to a broader readership without additional context.
+  - Technical soundness: The core idea is sound, but the validation is incomplete. Quantitative comparisons, statistical tests, and systematic evaluations are missing.
+  - Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with deep learning interpretation methods and genomics terminology. Some sections (e.g., Methods) are dense.
+- **Recommendation posture** Currently not established from the provided evidence. The method is promising and the direction is valuable, but the claims of comparability to TF-MoDISco, correctness of sign identification, and generalizability require quantitative support that is not visible in the provided material. Major revisions with additional analyses are needed.
+
+## Risk / unsupported claims
+- "Comparable motif feature interpretation to TF-MoDISco" - not quantitatively supported
+- "Correctly identifies all cognate motif concepts as positive influences" - not systematically demonstrated
+- "First application of concept attribution to interpret genomics deep learning models" - not verified against literature
+- "Uniquely generalizes to interpret features learned by tokenized foundation models" - overstatement based on limited examples
+- "Robust interpretation" of repeat and chromatin state concepts - no quantitative metrics reported
+- "Meaningful biological signal" in peak ranking - only correlational evidence provided

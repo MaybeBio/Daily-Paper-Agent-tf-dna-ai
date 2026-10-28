@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41855208",
+  "title": "Gene expression and metadata based identification of key genes for lung cancer, COPD, and IPF using machine learning and statistical models.",
+  "authors": "Yasmin, Mst Farjana; Hosen, Md Faruk; Basar, Md Abul; Rahman, Anichur; Hasan, Mahedi; Al Farid, Fahmid; Karim, Hezerul Abdul; Miah, Abu Saleh Musa",
+  "journal": "PloS one",
+  "published_date": "2026-03-19",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习与统计方法从基因表达数据中筛选肺癌/COPD/IPF关键基因，虽涉及转录因子ETS1但无蛋白-DNA互作建模或AI/物理模拟方法，属纯转录组与网络分析，与本课题关联弱。",
+  "abstract": "Lung cancer (LC) is one of the most prevalent and deadly cancers globally, presenting a major public health challenge. Patients with chronic obstructive pulmonary disease (COPD) and idiopathic pulmonary fibrosis (IPF) are at a significantly higher risk of developing lung cancer. Despite developments in research, the primary molecular pathways of many disorders remain poorly understood. The current study aimed to identify potential therapeutic genes for lung cancer (LC), chronic obstructive pulmonary disease (COPD), and idiopathic pulmonary fibrosis (IPF) through machine learning (ML) and bioinformatics methodologies. The differentially expressed genes (DEGs) were identified across three datasets utilising DESeq2 and limma, and the common genes among the DEGs from these datasets were subsequently selected. The protein-protein interaction (PPI) networks were generated utilising STRING, and major hub genes were discerned via topological analysis. The Key hub genes, such as ETS1, MSH2, RORA, and PMAIP1, were detected. The pathways named KEGG and cancer pathway studies were conducted to evaluate their contributions to disease processes. The research included network-based methodologies, including transcription factors, GO keywords, gene-miRNA relationships, and survival data analyses, to further narrow the list of differential genes linked to LC, COPD, and IPF. The metadata for hub genes was aggregated from prior studies to integrate earlier discoveries. In the end, four key candidate genes (ETS1, MSH2, RORA, and PMAIP1) were found by intersecting the common differentially expressed genes, hub genes, major module genes, and meta-hub genes. The outcomes present a solid framework for subsequent research and therapy strategies for LC, COPD, and IPF. The potential drug compounds targeting the identified key genes are proposed, offering new avenues for the development of treatment.",
+  "abstract_zh": "肺癌（LC）是全球最常见且致命的癌症之一，构成重大公共卫生挑战。患有慢性阻塞性肺疾病（COPD）和特发性肺纤维化（IPF）的患者发展为肺癌的风险显著更高。尽管研究有所进展，许多疾病的主要分子通路仍知之甚少。本研究旨在通过机器学习（ML）和生物信息学方法，识别肺癌（LC）、慢性阻塞性肺疾病（COPD）和特发性肺纤维化（IPF）的潜在治疗基因。利用DESeq2和limma在三个数据集中识别差异表达基因（DEGs），并随后从这些数据集的DEGs中筛选出共同基因。使用STRING生成蛋白质-蛋白质相互作用（PPI）网络，并通过拓扑分析识别主要枢纽基因。检测到关键枢纽基因，如ETS1、MSH2、RORA和PMAIP1。进行了名为KEGG和癌症通路的研究，以评估它们对疾病过程的贡献。研究包括基于网络的方法，如转录因子、GO关键词、基因-miRNA关系和生存数据分析，以进一步缩小与LC、COPD和IPF相关的差异基因列表。枢纽基因的元数据从先前研究中汇总，以整合早期发现。最终，通过交集共同差异表达基因、枢纽基因、主要模块基因和元枢纽基因，找到了四个关键候选基因（ETS1、MSH2、RORA和PMAIP1）。这些结果为LC、COPD和IPF的后续研究和治疗策略提供了坚实框架。提出了针对所识别关键基因的潜在药物化合物，为治疗开发提供了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41855208/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41855208/",
+  "paper_page_path": "papers/pubmed/41855208/index.html"
+}

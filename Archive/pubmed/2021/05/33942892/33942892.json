@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "33942892",
+    "doi": "10.1111/1556-4029.14704",
+    "title": "Molecular and morphological findings in a sample of oral surgery patients: What can we learn for multivariate concepts for age estimation?"
+  },
+  "content": {
+    "abstract": "It has already been proposed that a combined use of different molecular and morphological markers of aging in multivariate models may result in a greater accuracy of age estimation. However, such an approach can be complex and expensive, and not every combination may be useful. The significance and usefulness of combined analyses of D-aspartic acid in dentine, pentosidine in dentine, DNA methylation in buccal swabs at five genomic regions (PDE4C, RPA2, ELOVL2, DDO, and EDARADD), and third molar mineralization were tested by investigating a sample of 90 oral surgery patients. Machine learning models for age estimation were trained and evaluated, and the contribution of each parameter to multivariate models was tested by assessment of the predictor importance. For models based on D-aspartic acid, pentosidine, and the combination of both, mean absolute errors (MAEs) of 2.93, 3.41, and 2.68 years were calculated, respectively. The additional inclusion of the five DNAm markers did not improve the results. The sole DNAm-based model revealed a MAE of 4.14 years. In individuals under 28 years of age, the combination of the DNAm markers with the third molar mineralization stages reduced the MAE from 3.85 to 2.81 years. Our findings confirm that the combination of parameters in multivariate models may be very useful for age estimation. However, the inclusion of many parameters does not necessarily lead to better results. It is a task for future research to identify the best selection of parameters for the different requirements in forensic practice.",
+    "keywords": [
+      "D-aspartic acid",
+      "DNA methylation",
+      "age estimation",
+      "multivariate models",
+      "pentosidine",
+      "tooth mineralization stages"
+    ],
+    "mesh_terms": [
+      "Adolescent",
+      "Adult",
+      "Age Determination by Teeth/*methods",
+      "Aged",
+      "Arginine/analogs & derivatives/metabolism",
+      "Biomarkers/metabolism",
+      "Child",
+      "CpG Islands/genetics",
+      "Cyclic Nucleotide Phosphodiesterases, Type 4/metabolism",
+      "D-Aspartate Oxidase/metabolism",
+      "D-Aspartic Acid/metabolism",
+      "DNA Methylation",
+      "Dentin/metabolism",
+      "Edar-Associated Death Domain Protein/metabolism",
+      "Fatty Acid Elongases/metabolism",
+      "Humans",
+      "Lysine/analogs & derivatives/metabolism",
+      "Machine Learning",
+      "Middle Aged",
+      "Molar, Third/growth & development",
+      "Multivariate Analysis",
+      "Replication Protein A/metabolism",
+      "Tooth Calcification",
+      "Young Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Siahaan, Tatjana",
+        "Reckert, Alexandra",
+        "Becker, Julia",
+        "Eickhoff, Simon B",
+        "Koop, Barbara",
+        "Gunduz, Tanju",
+        "Bohme, Petra",
+        "Mayer, Felix",
+        "Kuppers, Lisa",
+        "Wagner, Wolfgang",
+        "Ritz-Timme, Stefanie"
+      ],
+      "short_names": [
+        "Siahaan T",
+        "Reckert A",
+        "Becker J",
+        "Eickhoff SB",
+        "Koop B",
+        "Gunduz T",
+        "Bohme P",
+        "Mayer F",
+        "Kuppers L",
+        "Wagner W",
+        "Ritz-Timme S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Institute for Systems Neuroscience, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Institute of Neuroscience and Medicine, Brain & Behaviour (INM-7), Research Centre Juelich, Juelich, Germany.",
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany.",
+        "Helmholtz-Institute for Biomedical Engineering, Stem Cell Biology and Cellular Engineering, RWTH Aachen University Medical School, Aachen, Germany.",
+        "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Siahaan, Tatjana",
+        "short_name": "Siahaan T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Reckert, Alexandra",
+        "short_name": "Reckert A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Becker, Julia",
+        "short_name": "Becker J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Eickhoff, Simon B",
+        "short_name": "Eickhoff SB",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Neuroscience, University Hospital Duesseldorf, Duesseldorf, Germany.",
+          "Institute of Neuroscience and Medicine, Brain & Behaviour (INM-7), Research Centre Juelich, Juelich, Germany."
+        ]
+      },
+      {
+        "full_name": "Koop, Barbara",
+        "short_name": "Koop B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Gündüz, Tanju",
+        "short_name": "Gündüz T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Böhme, Petra",
+        "short_name": "Böhme P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Mayer, Felix",
+        "short_name": "Mayer F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Küppers, Lisa",
+        "short_name": "Küppers L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Wagner, Wolfgang",
+        "short_name": "Wagner W",
+        "identifiers": [],
+        "affiliations": [
+          "Helmholtz-Institute for Biomedical Engineering, Stem Cell Biology and Cellular Engineering, RWTH Aachen University Medical School, Aachen, Germany."
+        ]
+      },
+      {
+        "full_name": "Ritz-Timme, Stefanie",
+        "short_name": "Ritz-Timme S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Legal Medicine, University Hospital Duesseldorf, Duesseldorf, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of forensic sciences"
+    ],
+    "journal_abbrev": [
+      "J Forensic Sci"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/05 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "40243941",
+      "39256256",
+      "36648544"
+    ],
+    "refs": [],
+    "similar": [
+      "33942892",
+      "28905104",
+      "33707346",
+      "30069788",
+      "30976985",
+      "29172065",
+      "31897670",
+      "32721866",
+      "26280308",
+      "35551445",
+      "31490551",
+      "28841467",
+      "39256256",
+      "32055939",
+      "34739581",
+      "33933877",
+      "33595689",
+      "27337639",
+      "28577061",
+      "32632799",
+      "33918302",
+      "30831415",
+      "36057238",
+      "37454509",
+      "20002266",
+      "28823041",
+      "26637329",
+      "24794846",
+      "32325350",
+      "25498932",
+      "38160598",
+      "33279766",
+      "30031222",
+      "28725932",
+      "27249102",
+      "22257966",
+      "28122322",
+      "27337627",
+      "27288716",
+      "26164359",
+      "23966355",
+      "36867979",
+      "27485643",
+      "36108573",
+      "27909868",
+      "31546163",
+      "27761650",
+      "30712026",
+      "28889868",
+      "23597737",
+      "27757575",
+      "16529893",
+      "28691915",
+      "12935604",
+      "35777225",
+      "22920764",
+      "30300865",
+      "26961959",
+      "26232290",
+      "25476056",
+      "24189628",
+      "22211957",
+      "15538611",
+      "17459627",
+      "24589728",
+      "17029860",
+      "26458182",
+      "26048509",
+      "11060990",
+      "28854399",
+      "19066157",
+      "23806342",
+      "26667772",
+      "7988966",
+      "12684820",
+      "26079219",
+      "32973211",
+      "21470234",
+      "15645300",
+      "21755702",
+      "28439695",
+      "33002654",
+      "28129585",
+      "29933125",
+      "31202084",
+      "30925381",
+      "29455020",
+      "32453457",
+      "12787654",
+      "29631189",
+      "29034417",
+      "18621493",
+      "24001572",
+      "23415402",
+      "26706411",
+      "18250164",
+      "29721810",
+      "30635722",
+      "29384736",
+      "37820545",
+      "28511095",
+      "34126371",
+      "34852982",
+      "34943227",
+      "39402823",
+      "39202255",
+      "37415799",
+      "38256009",
+      "35741377",
+      "38847025",
+      "19924428"
+    ],
+    "review": [
+      "33942892",
+      "16529893",
+      "28691915"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33942892.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/1556-4029.14704",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33942892",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

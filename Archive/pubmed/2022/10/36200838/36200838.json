@@ -1,0 +1,448 @@
+{
+  "identity": {
+    "pmid": "36200838",
+    "doi": "10.1093/nar/gkac847",
+    "title": "AgeAnno: a knowledgebase of single-cell annotation of aging in human."
+  },
+  "content": {
+    "abstract": "Aging is a complex process that accompanied by molecular and cellular alterations. The identification of tissue-/cell type-specific biomarkers of aging and elucidation of the detailed biological mechanisms of aging-related genes at the single-cell level can help to understand the heterogeneous aging process and design targeted anti-aging therapeutics. Here, we built AgeAnno (https://relab.xidian.edu.cn/AgeAnno/#/), a knowledgebase of single cell annotation of aging in human, aiming to provide comprehensive characterizations for aging-related genes across diverse tissue-cell types in human by using single-cell RNA and ATAC sequencing data (scRNA and scATAC). The current version of AgeAnno houses 1 678 610 cells from 28 healthy tissue samples with ages ranging from 0 to 110 years. We collected 5580 aging-related genes from previous resources and performed dynamic functional annotations of the cellular context. For the scRNA data, we performed analyses include differential gene expression, gene variation coefficient, cell communication network, transcription factor (TF) regulatory network, and immune cell proportionc. AgeAnno also provides differential chromatin accessibility analysis, motif/TF enrichment and footprint analysis, and co-accessibility peak analysis for scATAC data. AgeAnno will be a unique resource to systematically characterize aging-related genes across diverse tissue-cell types in human, and it could facilitate antiaging and aging-related disease research.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adolescent",
+      "Adult",
+      "Aged",
+      "Aged, 80 and over",
+      "Child",
+      "Child, Preschool",
+      "Humans",
+      "Infant",
+      "Infant, Newborn",
+      "Middle Aged",
+      "Young Adult",
+      "Chromatin/genetics",
+      "*Knowledge Bases",
+      "Single-Cell Analysis",
+      "*Aging/genetics/pathology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Kexin",
+        "Gong, Hoaran",
+        "Guan, Jingjing",
+        "Zhang, Lingxiao",
+        "Hu, Changbao",
+        "Zhao, Weiling",
+        "Huang, Liyu",
+        "Zhang, Wei",
+        "Kim, Pora",
+        "Zhou, Xiaobo"
+      ],
+      "short_names": [
+        "Huang K",
+        "Gong H",
+        "Guan J",
+        "Zhang L",
+        "Hu C",
+        "Zhao W",
+        "Huang L",
+        "Zhang W",
+        "Kim P",
+        "Zhou X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5661-4090",
+        "ORCID: 0000-0001-6534-2712",
+        "ORCID: 0000-0002-8321-6864",
+        "ORCID: 0000-0001-7191-6495"
+      ],
+      "affiliations": [
+        "West China Biomedical Big Data Centre, West China Hospital, Sichuan University, Chengdu, Sichuan 610041, P.R. China.",
+        "Med-X Center for Informatics, Sichuan University,Chengdu,Sichuan 610041, P.R. China.",
+        "West China Biomedical Big Data Centre, West China Hospital, Sichuan University, Chengdu, Sichuan 610041, P.R. China.",
+        "Med-X Center for Informatics, Sichuan University,Chengdu,Sichuan 610041, P.R. China.",
+        "School of Life Science and Technology, Xidian University, Xi'an, Shaanxi 710071, P.R. China.",
+        "School of Life Science and Technology, Xidian University, Xi'an, Shaanxi 710071, P.R. China.",
+        "School of Life Science and Technology, Xidian University, Xi'an, Shaanxi 710071, P.R. China.",
+        "Center for Computational Systems Medicine, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "School of Life Science and Technology, Xidian University, Xi'an, Shaanxi 710071, P.R. China.",
+        "West China Biomedical Big Data Centre, West China Hospital, Sichuan University, Chengdu, Sichuan 610041, P.R. China.",
+        "Med-X Center for Informatics, Sichuan University,Chengdu,Sichuan 610041, P.R. China.",
+        "Center for Computational Systems Medicine, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "Center for Computational Systems Medicine, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "School of Dentistry, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Kexin",
+        "short_name": "Huang K",
+        "identifiers": [],
+        "affiliations": [
+          "West China Biomedical Big Data Centre, West China Hospital, Sichuan University, Chengdu, Sichuan 610041, P.R. China.",
+          "Med-X Center for Informatics, Sichuan University,Chengdu,Sichuan 610041, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Gong, Hoaran",
+        "short_name": "Gong H",
+        "identifiers": [
+          "0000-0002-5661-4090"
+        ],
+        "affiliations": [
+          "West China Biomedical Big Data Centre, West China Hospital, Sichuan University, Chengdu, Sichuan 610041, P.R. China.",
+          "Med-X Center for Informatics, Sichuan University,Chengdu,Sichuan 610041, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Guan, Jingjing",
+        "short_name": "Guan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Xidian University, Xi'an, Shaanxi 710071, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lingxiao",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Xidian University, Xi'an, Shaanxi 710071, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Hu, Changbao",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Xidian University, Xi'an, Shaanxi 710071, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Weiling",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Systems Medicine, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Liyu",
+        "short_name": "Huang L",
+        "identifiers": [
+          "0000-0001-6534-2712"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, Xidian University, Xi'an, Shaanxi 710071, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "West China Biomedical Big Data Centre, West China Hospital, Sichuan University, Chengdu, Sichuan 610041, P.R. China.",
+          "Med-X Center for Informatics, Sichuan University,Chengdu,Sichuan 610041, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Kim, Pora",
+        "short_name": "Kim P",
+        "identifiers": [
+          "0000-0002-8321-6864"
+        ],
+        "affiliations": [
+          "Center for Computational Systems Medicine, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaobo",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0000-0001-7191-6495"
+        ],
+        "affiliations": [
+          "Center for Computational Systems Medicine, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+          "McGovern Medical School, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+          "School of Dentistry, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Jan 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/07 06:00",
+    "fetched_at": "2026-09-28 14:30:53"
+  },
+  "links": {
+    "cites": [
+      "41465404",
+      "41398222",
+      "41312120",
+      "41296545",
+      "41296513",
+      "41068321",
+      "40855191",
+      "40660726",
+      "40659676",
+      "40625295",
+      "40303407",
+      "40273201",
+      "39972258",
+      "39700255",
+      "39695922",
+      "39695855",
+      "39647635",
+      "39433213",
+      "39050785",
+      "39025913",
+      "38978014",
+      "38349859",
+      "38125297",
+      "37955230",
+      "37897340",
+      "37895909",
+      "37889053",
+      "37850657",
+      "37850649",
+      "37706427",
+      "37492566",
+      "37092296",
+      "36794708",
+      "36624667"
+    ],
+    "refs": [
+      "35476452",
+      "35004893",
+      "34557778",
+      "34471129",
+      "34239132",
+      "33982246",
+      "33633365",
+      "33238152",
+      "33119753",
+      "33068428",
+      "32637041",
+      "32563038",
+      "32103204",
+      "31834867",
+      "31824575",
+      "31740819",
+      "31560156",
+      "31528179",
+      "31303978",
+      "31162688",
+      "30415840",
+      "30335168",
+      "30093619",
+      "30031232",
+      "29776332",
+      "29608179",
+      "29121237",
+      "28991892",
+      "28938181",
+      "28825706",
+      "28722347",
+      "28336567",
+      "27924018",
+      "27789706",
+      "26895224",
+      "26807343",
+      "25765347",
+      "25428369",
+      "25232097",
+      "25158994",
+      "24707050",
+      "24360957",
+      "24210137",
+      "23746838",
+      "23675374",
+      "23440501",
+      "23386971",
+      "23180781",
+      "23013401",
+      "22975005",
+      "22434910",
+      "18830410",
+      "18798982",
+      "18081424",
+      "17108117",
+      "16791200",
+      "16433679",
+      "15781575",
+      "15520862",
+      "15280050",
+      "8920876",
+      "8803927",
+      "2698176"
+    ],
+    "similar": [
+      "36200838",
+      "37850649",
+      "38664790",
+      "36902216",
+      "39187646",
+      "37897340",
+      "34003213",
+      "33717140",
+      "35902485",
+      "39050785",
+      "38600256",
+      "17980028",
+      "38338756",
+      "32006715",
+      "35195064",
+      "37537502",
+      "32767996",
+      "38581422",
+      "36239391",
+      "33125076",
+      "32637041",
+      "38965562",
+      "37980428",
+      "26091484",
+      "38872103",
+      "35381424",
+      "36943152",
+      "38233398",
+      "33154459",
+      "36629404",
+      "32780218",
+      "26083756",
+      "33779599",
+      "38493346",
+      "36321557",
+      "36855961",
+      "36495457",
+      "34686316",
+      "38330939",
+      "31428792",
+      "34084162",
+      "33564857",
+      "35501711",
+      "36238687",
+      "32392348",
+      "37953308",
+      "36546093",
+      "33795532",
+      "36161934",
+      "36375296",
+      "36325073",
+      "35470070",
+      "34718405",
+      "39062661",
+      "33418426",
+      "33020484",
+      "30821321",
+      "36694725",
+      "34509499",
+      "36313930",
+      "36543131",
+      "33633365",
+      "38653489",
+      "35475224",
+      "37875977",
+      "34634794",
+      "39073828",
+      "37941124",
+      "20686723",
+      "34791419",
+      "34879708",
+      "37244909",
+      "28058013",
+      "35263594",
+      "34761274",
+      "37497729",
+      "31739806",
+      "37924441",
+      "36089620",
+      "39093856",
+      "35720370",
+      "1382606",
+      "38739758",
+      "32917699",
+      "32312293",
+      "36789086",
+      "34774128",
+      "35941239",
+      "33153500",
+      "33371906",
+      "32531351",
+      "39329269"
+    ],
+    "review": [
+      "36200838",
+      "38338756",
+      "32637041",
+      "36321557",
+      "33795532",
+      "33418426",
+      "36313930"
+    ],
+    "pmc": [
+      "9825500"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36200838/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36200838",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac847",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

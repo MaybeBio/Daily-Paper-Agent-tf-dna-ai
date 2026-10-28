@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors propose DBP-GAPred, a computational method for predicting DNA-binding protein types (single-stranded vs double-stranded) using enhanced evolutionary profile features derived from position-specific scoring matrix (PSSM), compressed via discrete cosine transform (DCT), and classified with support vector machine (SVM) optimized by genetic algorithm (GA) ensemble strategy. The method reportedly achieves accuracy improvements of 1.89%, 0.28%, and 6.63% over the best existing predictor on jackknife, 10-fold cross-validation, and independent dataset tests, respectively.
+- **Visible evidence base** Abstract text only; no figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, dataset descriptions, feature engineering details, baseline method specifications, statistical significance tests, and performance comparison tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational biology application with a reasonable feature engineering pipeline. However, the provided material is insufficient to evaluate the technical soundness, reproducibility, or validity of the claimed performance improvements. The performance gains are reported without statistical context, and the methodological novelty relative to existing PSSM-based approaches is not clearly established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-binding protein classification, and feature engineering from evolutionary profiles. The method could also interest developers of machine learning tools for genomic annotation and drug discovery applications involving DNA-protein interactions.
+- **Major strengths** The abstract identifies a relevant biological problem with clinical implications. The feature extraction approach combines established techniques (DPC, EDF, KSB) with PSSM and DCT compression, which is a reasonable strategy for capturing sequence-derived information. The use of ensemble learning via GA is a sensible approach to optimize model performance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves 1.89%, 0.28%, and 6.63% higher accuracies on jackknife, 10-fold, and independent dataset tests, respectively, than the best predictor.
+  - **Evidence pointer** Abstract, performance claims section; location not provided
+  - **Concern** The performance improvements are reported as raw accuracy differences without any measure of variance, confidence intervals, or statistical significance testing. The 0.28% improvement on 10-fold cross-validation is particularly small and may fall within normal variation across random folds.
+  - **Why it matters** Without statistical validation, the claimed superiority cannot be distinguished from random fluctuation. This is critical for establishing that DBP-GAPred genuinely outperforms existing methods.
+  - **Resolution test** Provide confidence intervals, p-values from paired statistical tests (e.g., McNemar's test), or repeated cross-validation results with standard deviations for all compared methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** Features are discovered by extending DPC, EDF, and KSB into PSSM, encoded by DCT, and trained with SVM optimized by GA ensemble strategy.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract lacks essential details on dataset composition, sequence length filtering, positive and negative sample selection, parameter settings for SVM and GA, and the specific implementation of the ensemble strategy. Without these, the method cannot be reproduced or independently validated.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational biology tools. The absence of these details prevents other researchers from implementing or benchmarking the method.
+  - **Resolution test** Provide full methodological details in the manuscript, including dataset accession numbers, hyperparameter values, and pseudocode or code availability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The novel predictor DBP-GAPred acquired higher accuracies than the best predictor.
+  - **Evidence pointer** Abstract, novelty claim; location not provided
+  - **Concern** The abstract does not clearly articulate what is novel compared to existing PSSM-based DBP predictors. The combination of DPC, EDF, KSB, DCT, and SVM with GA ensemble may be incremental rather than conceptually new.
+  - **Why it matters** For a methods paper, the novelty contribution must be explicit to justify publication in a competitive venue. If the components are all previously published, the contribution may be limited to their specific combination.
+  - **Resolution test** Clearly state which components are new, which are borrowed, and what specific gap in existing methods is addressed. Provide a comparison table with prior methods using identical evaluation protocols.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, background section
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The phrase "slicing" in the context of DNA-binding protein functions is ambiguous and likely a typographical error for "splicing."
+  - **Required correction** Replace "slicing" with "splicing" to accurately describe the biological process.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, performance reporting
+  - **Evidence pointer** Abstract, final paragraph; location not provided
+  - **Issue** The abstract does not report other standard performance metrics such as sensitivity, specificity, Matthews correlation coefficient, or area under the ROC curve, which are typically expected for classification tasks.
+  - **Required correction** Include additional performance metrics in the abstract or state that they are provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Benchmarking
+  - **Affected element** Abstract, comparison statement
+  - **Evidence pointer** Abstract, final paragraph; location not provided
+  - **Issue** The comparison is made against "the best predictor" without naming which predictor this refers to or how it was selected.
+  - **Required correction** Specify the name of the best existing predictor and provide a reference, or state that a comprehensive comparison against multiple baselines is presented in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validation of performance claims) and R1-M2 (reproducibility details) are blocking concerns. The performance improvement claim cannot be accepted without statistical evidence, and the method cannot be evaluated without full methodological transparency.
+- **Assessment against Nature-style criteria** Originality: The approach appears incremental, combining known feature extraction and classification techniques, but the specific combination may offer some novelty. Scientific importance: The problem of DBP type prediction has practical relevance, but the abstract does not demonstrate a major advance over existing tools. Interdisciplinary readership: The work is primarily of interest to computational biologists and machine learning practitioners; broader appeal is limited. Technical soundness: Cannot be assessed from the abstract alone due to missing methodological and statistical details. Readability for nonspecialists: The abstract is reasonably clear but uses domain-specific terminology without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to validate the technical claims or assess the method's contribution. A full manuscript review would be required to determine whether the concerns can be resolved.
+
+## Risk / unsupported claims
+- The claimed accuracy improvements (1.89%, 0.28%, 6.63%) are unsupported without statistical significance testing or variance measures.
+- The superiority of DBP-GAPred over existing predictors is not established from the abstract alone.
+- The novelty of the method relative to prior PSSM-based approaches is not clearly demonstrated.
+- The biological relevance of DBP type prediction to the listed diseases is stated but not substantiated with references or mechanistic evidence.

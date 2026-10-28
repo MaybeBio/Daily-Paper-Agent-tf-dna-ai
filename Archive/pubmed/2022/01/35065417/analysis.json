@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35065417",
+  "title": "PPred-PCKSM: A multi-layer predictor for identifying promoter and its variants using position based features.",
+  "authors": "Bhukya, Raju; Kumari, Archana; Amilpur, Santhosh; Dasari, Chandra Mohan",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2022-01-23",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用位置相关k-mer特征和人工神经网络预测大肠杆菌启动子及其类型，属于序列分类而非蛋白质-DNA互作建模，与TF-DNA结合机制研究关联较弱。",
+  "abstract": "Promoter is a small region of DNA where a protein called RNA polymerase binds thus resulting in initiation of transcription of a specific gene. In bacteria with prokaryotic cell type, the sigma subunit that combines with RNA polymerase helps in identifying promoters. In Escherichia coli (E.coli), the promoters are identified by different sigma factors consisting of different functionalities. There have been various methods used for prediction of different class of promoters. However, these methods need to be improved for better identification and classification of promoters. In this work, we propose a new multi-layer predictor named PPred-PCKSM that uses position-correlation based k-mer scoring matrix (PCKSM), a new feature extraction strategy and an artificial neural network (ANN) for predicting promoters and its six types, namely sigma(70), sigma(24), sigma(28), sigma(32), sigma(38) and sigma(54) in E.coli bacteria. We employ PCKSM technique to extract feature sets from different k-mers. The feature sets obtained from trimers and tetramers are concatenated and then passed through ANN for final prediction. The resultant feature set contained effective features that contributed towards achieving an accuracy of 98.02% and Matthews correlation coefficient (MCC) of 96.04% for promoter prediction task. Our model used 5-fold cross validation on the benchmark dataset and outperformed all the current state-of-art-methods used for prediction of promoters and its different types in E.coli bacteria.",
+  "abstract_zh": "启动子（Promoter）是DNA上一小段区域，RNA聚合酶（RNA polymerase）在此结合，从而启动特定基因的转录。在具有原核细胞类型的细菌中，与RNA聚合酶结合的σ亚基有助于识别启动子。在大肠杆菌（E.coli）中，启动子由不同功能的σ因子识别。已有多种方法用于预测不同类别的启动子，但这些方法仍需改进，以更好地识别和分类启动子。在本工作中，我们提出了一种名为PPred-PCKSM的新型多层预测器，它利用基于位置相关的k-mer评分矩阵（PCKSM）、一种新的特征提取策略和人工神经网络（ANN），用于预测大肠杆菌中的启动子及其六种类型，即sigma(70)、sigma(24)、sigma(28)、sigma(32)、sigma(38)和sigma(54)。我们采用PCKSM技术从不同的k-mer中提取特征集。将从三聚体和四聚体获得的特征集串联起来，然后通过ANN进行最终预测。所得特征集包含有效特征，有助于在启动子预测任务中实现98.02%的准确率和96.04%的马修斯相关系数（MCC）。我们的模型在基准数据集上使用5折交叉验证，并优于当前用于预测大肠杆菌启动子及其不同类型的所有最先进方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35065417/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35065417/",
+  "paper_page_path": "papers/pubmed/35065417/index.html"
+}

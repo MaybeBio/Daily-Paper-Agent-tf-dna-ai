@@ -1,0 +1,592 @@
+{
+  "identity": {
+    "pmid": "40672207",
+    "doi": "10.1101/2025.07.04.663250",
+    "title": "GAME: Genomic API for Model Evaluation."
+  },
+  "content": {
+    "abstract": "The rapid expansion of genomics datasets and the application of machine learning has produced sequence-to-activity genomics models with ever-expanding capabilities. However, benchmarking these models on practical applications has been challenging because individual projects evaluate their models in ad hoc ways, and there is substantial heterogeneity of both model architectures and benchmarking tasks. To address this challenge, we have created GAME, a system for large-scale, community-led standardized model benchmarking on user-defined evaluation tasks. We borrow concepts from the Application Programming Interface (API) paradigm to allow for seamless communication between pre-trained models and benchmarking tasks, ensuring consistent evaluation protocols. Because all models and benchmarks are inherently compatible in this framework, the continual addition of new models and new benchmarks is easy. We also developed a Matcher module powered by a large language model (LLM) to automate ambiguous task alignment between benchmarks and models. Containerization of these modules enhances reproducibility and facilitates the deployment of models and benchmarks across computing platforms. By focusing on predicting underlying biochemical phenomena (e.g. gene expression, open chromatin, DNA binding), we ensure that tasks remain technology-independent. We provide examples of benchmarks and models implementing this framework, and anticipate that the community will contribute their own, leading to an ever-expanding and evolving set of models and evaluation tasks. This resource will accelerate genomics research by illuminating the best models for a given task, motivating novel functional genomic benchmarks, and providing a more nuanced understanding of model abilities.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luthra, Ishika",
+        "Priyadarshi, Satyam",
+        "Guo, Rui",
+        "Mahieu, Lukas",
+        "Kempynck, Niklas",
+        "Dooley, Damion",
+        "Penzar, Dmitry",
+        "Vorontsov, Ilya",
+        "Sheng, Yilun",
+        "Tu, Xinming",
+        "Klie, Adam",
+        "Drusinsky, Shiron",
+        "Floren, Alexander",
+        "Armand, Ethan",
+        "Alasoo, Kaur",
+        "Seelig, Georg",
+        "Tewhey, Ryan",
+        "Koo, Peter",
+        "Agarwal, Vikram",
+        "Gosai, Sager",
+        "Pinello, Luca",
+        "White, Michael A",
+        "Lal, Avantika",
+        "Zeitlinger, Julia",
+        "Pollard, Katherine S",
+        "Libbrecht, Maxwell",
+        "Carter, Hannah",
+        "Mostafavi, Sara",
+        "Kulakovskiy, Ivan",
+        "Hsiao, Will",
+        "Aerts, Stein",
+        "Zhou, Jian",
+        "de Boer, Carl G"
+      ],
+      "short_names": [
+        "Luthra I",
+        "Priyadarshi S",
+        "Guo R",
+        "Mahieu L",
+        "Kempynck N",
+        "Dooley D",
+        "Penzar D",
+        "Vorontsov I",
+        "Sheng Y",
+        "Tu X",
+        "Klie A",
+        "Drusinsky S",
+        "Floren A",
+        "Armand E",
+        "Alasoo K",
+        "Seelig G",
+        "Tewhey R",
+        "Koo P",
+        "Agarwal V",
+        "Gosai S",
+        "Pinello L",
+        "White MA",
+        "Lal A",
+        "Zeitlinger J",
+        "Pollard KS",
+        "Libbrecht M",
+        "Carter H",
+        "Mostafavi S",
+        "Kulakovskiy I",
+        "Hsiao W",
+        "Aerts S",
+        "Zhou J",
+        "de Boer CG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada.",
+        "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "Centre for Infectious Disease Genomics and One Health, Simon Fraser University, Burnaby, BC, Canada.",
+        "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA.",
+        "Department of Medicine, Division of Genomics and Precision Medicine, University of California San Diego, La Jolla, CA, USA.",
+        "University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Gladstone Institute of Data Science & Biotechnology, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science & Biotechnology, San Francisco, CA, USA.",
+        "Integrative Biology Laboratory, Salk Institute for Biological Studies, 10010 N. Torrey Pines Road, La Jolla, CA 92037, USA.",
+        "Institute of Computer Science, University of Tartu, Tartu, Estonia.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA.",
+        "Department of Electrical & Computer Engineering, University as Washington.",
+        "The Jackson Laboratory, Bar Harbor, ME, USA.",
+        "Cold Spring Harbor Laboratory, 1 Bungtown Road, Cold Spring Harbor, NY 11724, USA.",
+        "mRNA Center of Excellence, Sanofi, Waltham, MA 02451, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+        "Gene Regulation Observatory, The Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "Department of Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Genetics, Washington University in St. Louis, St. Louis, MO, 63110, USA.",
+        "Biology Research | AI Development, gRED Computational Sciences, Genentech, South San Francisco, CA, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO 64110, USA.",
+        "University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Gladstone Institute of Data Science & Biotechnology, San Francisco, CA, USA.",
+        "Chan Zuckerberg Biohub SF, San Francisco, CA, USA.",
+        "School of Computing Science, Simon Fraser University, Burnaby, British Columbia V51 1S6, Canada.",
+        "Department of Medicine, Division of Genomics and Precision Medicine, University of California San Diego, La Jolla, CA, USA.",
+        "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA.",
+        "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Centre for Infectious Disease Genomics and One Health, Simon Fraser University, Burnaby, BC, Canada.",
+        "Faculty of Health Sciences, Simon Fraser University, Burnaby, BC, Canada.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luthra, Ishika",
+        "short_name": "Luthra I",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Priyadarshi, Satyam",
+        "short_name": "Priyadarshi S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Guo, Rui",
+        "short_name": "Guo R",
+        "identifiers": [],
+        "affiliations": [
+          "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Mahieu, Lukas",
+        "short_name": "Mahieu L",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Kempynck, Niklas",
+        "short_name": "Kempynck N",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Dooley, Damion",
+        "short_name": "Dooley D",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Infectious Disease Genomics and One Health, Simon Fraser University, Burnaby, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Penzar, Dmitry",
+        "short_name": "Penzar D",
+        "identifiers": [],
+        "affiliations": [
+          "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Vorontsov, Ilya",
+        "short_name": "Vorontsov I",
+        "identifiers": [],
+        "affiliations": [
+          "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Sheng, Yilun",
+        "short_name": "Sheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Tu, Xinming",
+        "short_name": "Tu X",
+        "identifiers": [],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Klie, Adam",
+        "short_name": "Klie A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Genomics and Precision Medicine, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Drusinsky, Shiron",
+        "short_name": "Drusinsky S",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, San Francisco, San Francisco, CA 94143, USA.",
+          "Gladstone Institute of Data Science & Biotechnology, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Floren, Alexander",
+        "short_name": "Floren A",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institute of Data Science & Biotechnology, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Armand, Ethan",
+        "short_name": "Armand E",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Biology Laboratory, Salk Institute for Biological Studies, 10010 N. Torrey Pines Road, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Alasoo, Kaur",
+        "short_name": "Alasoo K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computer Science, University of Tartu, Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Seelig, Georg",
+        "short_name": "Seelig G",
+        "identifiers": [],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA.",
+          "Department of Electrical & Computer Engineering, University as Washington."
+        ]
+      },
+      {
+        "full_name": "Tewhey, Ryan",
+        "short_name": "Tewhey R",
+        "identifiers": [],
+        "affiliations": [
+          "The Jackson Laboratory, Bar Harbor, ME, USA."
+        ]
+      },
+      {
+        "full_name": "Koo, Peter",
+        "short_name": "Koo P",
+        "identifiers": [],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, 1 Bungtown Road, Cold Spring Harbor, NY 11724, USA."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Vikram",
+        "short_name": "Agarwal V",
+        "identifiers": [],
+        "affiliations": [
+          "mRNA Center of Excellence, Sanofi, Waltham, MA 02451, USA."
+        ]
+      },
+      {
+        "full_name": "Gosai, Sager",
+        "short_name": "Gosai S",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Pinello, Luca",
+        "short_name": "Pinello L",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA, USA.",
+          "Gene Regulation Observatory, The Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+          "Department of Pathology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "White, Michael A",
+        "short_name": "White MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Washington University in St. Louis, St. Louis, MO, 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Lal, Avantika",
+        "short_name": "Lal A",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Research | AI Development, gRED Computational Sciences, Genentech, South San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zeitlinger, Julia",
+        "short_name": "Zeitlinger J",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO 64110, USA."
+        ]
+      },
+      {
+        "full_name": "Pollard, Katherine S",
+        "short_name": "Pollard KS",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, San Francisco, San Francisco, CA 94143, USA.",
+          "Gladstone Institute of Data Science & Biotechnology, San Francisco, CA, USA.",
+          "Chan Zuckerberg Biohub SF, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Libbrecht, Maxwell",
+        "short_name": "Libbrecht M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing Science, Simon Fraser University, Burnaby, British Columbia V51 1S6, Canada."
+        ]
+      },
+      {
+        "full_name": "Carter, Hannah",
+        "short_name": "Carter H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Genomics and Precision Medicine, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mostafavi, Sara",
+        "short_name": "Mostafavi S",
+        "identifiers": [],
+        "affiliations": [
+          "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Kulakovskiy, Ivan",
+        "short_name": "Kulakovskiy I",
+        "identifiers": [],
+        "affiliations": [
+          "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Hsiao, Will",
+        "short_name": "Hsiao W",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Infectious Disease Genomics and One Health, Simon Fraser University, Burnaby, BC, Canada.",
+          "Faculty of Health Sciences, Simon Fraser University, Burnaby, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Aerts, Stein",
+        "short_name": "Aerts S",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jian",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Lyda Hill Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "de Boer, Carl G",
+        "short_name": "de Boer CG",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 06:27",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41927920",
+      "40245860",
+      "39814889",
+      "39779956",
+      "39443793",
+      "39394483",
+      "38036790",
+      "38036789",
+      "38036778",
+      "37127596",
+      "36973806",
+      "35551308",
+      "34608324",
+      "34468849",
+      "32587015",
+      "31589781",
+      "31138913",
+      "30478442",
+      "19348640",
+      "19304878",
+      "17925349"
+    ],
+    "similar": [
+      "40672207",
+      "37127596",
+      "40795315",
+      "33001599",
+      "41310253",
+      "33036834",
+      "41325597",
+      "33119236",
+      "38405704",
+      "38319707",
+      "39713364",
+      "41727573",
+      "40199968",
+      "21575202",
+      "37271050",
+      "41060040",
+      "41380151",
+      "41404284",
+      "40381369",
+      "38816825",
+      "41525315",
+      "40301283",
+      "41232030",
+      "22782131",
+      "26571290",
+      "41555097",
+      "40774567",
+      "40984701",
+      "26042330",
+      "37495197",
+      "40892946",
+      "38234474",
+      "41360938",
+      "41834391",
+      "37904945",
+      "41912385",
+      "27960634",
+      "41905520",
+      "40945783",
+      "36321557",
+      "39123906",
+      "38106144",
+      "39786555",
+      "41411735",
+      "41158510",
+      "41144954",
+      "40160857",
+      "41553353",
+      "41324732",
+      "40948070",
+      "41315262",
+      "41696659",
+      "41032939",
+      "39276611",
+      "20102627",
+      "32661261",
+      "41725781",
+      "31586857",
+      "41330688",
+      "40653909",
+      "42152045",
+      "41691647",
+      "39394483",
+      "39083337",
+      "41346034",
+      "38774625",
+      "41616241",
+      "42169056",
+      "42128801",
+      "40041397",
+      "41319624",
+      "41530420",
+      "38447502",
+      "40843339",
+      "41548091",
+      "40460465",
+      "40849052",
+      "26269925",
+      "40190132",
+      "41278248",
+      "42116134",
+      "39180913",
+      "35364576",
+      "41528854",
+      "41917165",
+      "41232578",
+      "39212609",
+      "42166792",
+      "30212088",
+      "39881398",
+      "40669074",
+      "40895087",
+      "40188094",
+      "40894641",
+      "39040641",
+      "38048895",
+      "40660356",
+      "39792954",
+      "39361955",
+      "17240921"
+    ],
+    "review": [
+      "40672207",
+      "33001599",
+      "41325597",
+      "33119236",
+      "41555097",
+      "26042330",
+      "41912385",
+      "36321557",
+      "41158510",
+      "41144954",
+      "41324732",
+      "40653909",
+      "41691647",
+      "42128801",
+      "41530420",
+      "26269925",
+      "30212088"
+    ],
+    "pmc": [
+      "12265512"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40672207/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.04.663250",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

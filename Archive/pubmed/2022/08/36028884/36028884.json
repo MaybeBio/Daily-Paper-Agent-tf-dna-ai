@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "36028884",
+    "doi": "10.1186/s12964-022-00937-w",
+    "title": "Computational analysis of 4-1BB-induced NFkappaB signaling suggests improvements to CAR cell design."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chimeric antigen receptor (CAR)-expressing cells are a powerful modality of adoptive cell therapy against cancer. The potency of signaling events initiated upon antigen binding depends on the costimulatory domain within the structure of the CAR. One such costimulatory domain is 4-1BB, which affects cellular response via the NFkappaB pathway. However, the quantitative aspects of 4-1BB-induced NFkappaB signaling are not fully understood. METHODS: We developed an ordinary differential equation-based mathematical model representing canonical NFkappaB signaling activated by CD19scFv-4-1BB. After a global sensitivity analysis on model parameters, we ran Monte Carlo simulations of cell population-wide variability in NFkappaB signaling and quantified the mutual information between the extracellular signal and different levels of the NFkappaB signal transduction pathway. RESULTS: In response to a wide range of antigen concentrations, the magnitude of the transient peak in NFkappaB nuclear concentration varies significantly, while the timing of this peak is relatively consistent. Global sensitivity analysis showed that the model is robust to variations in parameters, and thus, its quantitative predictions would remain applicable to a broad range of parameter values. The model predicts that overexpressing NEMO and disabling IKKbeta deactivation can increase the mutual information between antigen levels and NFkappaB activation. CONCLUSIONS: Our modeling predictions provide actionable insights to guide CAR development. Particularly, we propose specific manipulations to the NFkappaB signal transduction pathway that can fine-tune the response of CD19scFv-4-1BB cells to the antigen concentrations they are likely to encounter. Video Abstract.",
+    "keywords": [
+      "4-1BB signaling",
+      "Adoptive cell therapy",
+      "CAR cells",
+      "Information theory",
+      "Mathematical modeling",
+      "NFkappaB pathway"
+    ],
+    "mesh_terms": [
+      "NF-kappa B",
+      "Receptors, Antigen, T-Cell",
+      "*Receptors, Chimeric Antigen",
+      "Signal Transduction",
+      "T-Lymphocytes",
+      "Tumor Necrosis Factor Receptor Superfamily, Member 9"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Video-Audio Media"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tserunyan, Vardges",
+        "Finley, Stacey D"
+      ],
+      "short_names": [
+        "Tserunyan V",
+        "Finley SD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA. sfinley@usc.edu.",
+        "Department of Biomedical Engineering, University of Southern California, Los Angeles, CA, USA. sfinley@usc.edu.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, USA. sfinley@usc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tserunyan, Vardges",
+        "short_name": "Tserunyan V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Finley, Stacey D",
+        "short_name": "Finley SD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA. sfinley@usc.edu.",
+          "Department of Biomedical Engineering, University of Southern California, Los Angeles, CA, USA. sfinley@usc.edu.",
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, USA. sfinley@usc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2022 Aug 26",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Video-Audio Media"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/27 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "41218104",
+      "40821789",
+      "38038772",
+      "37263529"
+    ],
+    "refs": [
+      "36039281",
+      "35059997",
+      "34771516",
+      "34607523",
+      "34490616",
+      "33759063",
+      "32797040",
+      "32395366",
+      "32234960",
+      "32023374",
+      "31866395",
+      "31350431",
+      "31316055",
+      "30559421",
+      "30524423",
+      "30187086",
+      "30082067",
+      "30034945",
+      "29162874",
+      "28838796",
+      "28225754",
+      "27931154",
+      "27857550",
+      "26427514",
+      "26169254",
+      "25412350",
+      "25051099",
+      "24667959",
+      "23936158",
+      "22507128",
+      "22435558",
+      "22393536",
+      "22204418",
+      "21921160",
+      "21102550",
+      "20866450",
+      "20703455",
+      "20577214",
+      "19918944",
+      "19399430",
+      "18997794",
+      "18940809",
+      "18572196",
+      "18209571",
+      "17406225",
+      "16835236",
+      "16603398",
+      "16321974",
+      "16231973",
+      "15327770",
+      "15244698",
+      "15175328",
+      "15094015",
+      "12424381",
+      "12391199",
+      "12133954",
+      "11520989",
+      "11460167",
+      "10602462",
+      "10195894",
+      "9597130",
+      "9418902",
+      "9374532",
+      "9346485",
+      "9346241",
+      "8605359",
+      "8413223",
+      "6609729",
+      "6378973"
+    ],
+    "similar": [
+      "36028884",
+      "38038772",
+      "28978471",
+      "37333129",
+      "32234960",
+      "30979735",
+      "29503204",
+      "29079655",
+      "38937625",
+      "33281809",
+      "32004441",
+      "30232281",
+      "34706886",
+      "30131370",
+      "28082401",
+      "33547226",
+      "37433196",
+      "33888899",
+      "29637550",
+      "41233815",
+      "34750385",
+      "29061641",
+      "38212893",
+      "29176334",
+      "21546571",
+      "41370403",
+      "40650909",
+      "29400710",
+      "36851890",
+      "27530312",
+      "32755564",
+      "31303072",
+      "33129371",
+      "36968221",
+      "19719389",
+      "33863641",
+      "41238217",
+      "36689620",
+      "32868878",
+      "29321369",
+      "34230645",
+      "29641319",
+      "34010245",
+      "25939063",
+      "24667959",
+      "33953316",
+      "40977952",
+      "32817348",
+      "32758419",
+      "33499253",
+      "28039295",
+      "30253384",
+      "34531250",
+      "41394877",
+      "33389403",
+      "40447312",
+      "36700773",
+      "32817364",
+      "38506769",
+      "33287637",
+      "37217069",
+      "21389874",
+      "23874982",
+      "11804328",
+      "38946142",
+      "30995926",
+      "29503199",
+      "30180944",
+      "9206996",
+      "31866395",
+      "32293729",
+      "15699116",
+      "30309819",
+      "36835603",
+      "40246581",
+      "30425092",
+      "15941918",
+      "34815355",
+      "26298772",
+      "24986688",
+      "31649672",
+      "36220186",
+      "33504651",
+      "36359781",
+      "29980239",
+      "9418902",
+      "34475869",
+      "22570473",
+      "38442200",
+      "19384291",
+      "12706838",
+      "12460192",
+      "32159399",
+      "27267778",
+      "40093096",
+      "30362586",
+      "34429382",
+      "37263529",
+      "34878825",
+      "40308593"
+    ],
+    "review": [
+      "36028884",
+      "37433196",
+      "34230645",
+      "24667959",
+      "36700773"
+    ],
+    "pmc": [
+      "9413922"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-022-00937-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36028884/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36028884",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNFRSF9-5",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3936",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

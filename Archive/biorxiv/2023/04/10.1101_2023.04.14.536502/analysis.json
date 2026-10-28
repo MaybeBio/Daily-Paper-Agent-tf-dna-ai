@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.14.536502",
+  "title": "Deep flanking sequence engineering for efficient promoter design",
+  "authors": "Zhang P; Wang H; Xu H; Wei L; Hu Z; Wang X",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-16",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出AI辅助启动子设计框架DeepSEED，通过深度学习优化TFBS侧翼序列以提升启动子功能，虽涉及TF-DNA相关序列特征但未聚焦于TF-DNA结合机制建模，方法可迁移至本课题。",
+  "abstract": "Human experts are good at summarizing explicit strong patterns from small samples, while deep learning models can learn implicit weak patterns from big data. Biologists have traditionally described the sequence patterns of promoters via transcription factor binding sites (TFBSs), while the flanking sequences among TFBSs, which can also significantly influence promoter activity and function, remain largely uncharacterized. Thus, current synthetic promoters are mainly designed by the manipulation of TFBSs, while the flanking sequence is often chosen arbitrarily or by previous experience due to a lack of well-summarized optimization criteria. Here, we introduced an AI-aided promoter design framework, DeepSEED, that employs expert knowledge and deep learning methods to efficiently design synthetic promoters that have various desirable functions. DeepSEED incorporates the user-defined cis-regulatory sequences as ‘seeds’ and generates flanking sequences that match the ‘seeds’. We showed that DeepSEED can automatically capture k-mer frequencies and DNA shape features from active promoters in the training set and efficiently optimize the flanking sequences to better match desired properties in synthetic promoters. We validated the effectiveness of this framework for diverse synthetic promoter design tasks in both prokaryotic and eukaryotic cells. DeepSEED successfully designed E. coli constitutive, isopropyl-beta-D-1-thiogalactopyranoside (IPTG)-inducible, and mammalian cell doxycycline (Dox)-inducible promoters with significant performance improvements, suggesting that DeepSEED has potential as an efficient AI-aided flanking sequence optimization approach for promoter design that may be of great benefit in synthetic biology applications. <h4>Availability</h4> https://github.com/WangLabTHU/deepseed",
+  "abstract_zh": "人类专家擅长从小样本中总结显性强模式，而深度学习模型能从大数据中学习隐弱模式。生物学家传统上通过转录因子结合位点（TFBSs）描述启动子的序列模式，而TFBSs之间的侧翼序列虽也能显著影响启动子活性和功能，却仍未得到充分表征。因此，当前合成启动子主要通过操纵TFBSs来设计，而侧翼序列常因缺乏良好总结的优化标准而任意选择或依据先前经验确定。在此，我们引入了一种AI辅助的启动子设计框架DeepSEED，该框架利用专家知识和深度学习方法高效设计具有多种所需功能的合成启动子。DeepSEED将用户定义的顺式调控序列作为“种子”整合，并生成与“种子”匹配的侧翼序列。我们展示了DeepSEED能自动从训练集中的活性启动子捕获k-mer频率和DNA形状特征，并高效优化侧翼序列，以更好地匹配合成启动子中的期望特性。我们在原核和真核细胞中验证了该框架在多种合成启动子设计任务中的有效性。DeepSEED成功设计了具有显著性能提升的大肠杆菌组成型、异丙基-β-D-1-硫代半乳糖苷（IPTG）诱导型及哺乳动物细胞多西环素（Dox）诱导型启动子，表明DeepSEED有潜力作为一种高效的AI辅助侧翼序列优化方法用于启动子设计，可能在合成生物学应用中大有裨益。<h4>可用性</h4> https://github.com/WangLabTHU/deepseed",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.14.536502",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.14.536502",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.14.536502/index.html"
+}

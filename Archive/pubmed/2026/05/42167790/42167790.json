@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "42167790",
+    "doi": "10.1111/ijlh.70154",
+    "title": "Circadian Deregulation in Multiple Myeloma: BMAL1/CLOCK Expression Patterns and Diagnostic Performance."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Circadian clock disruption has emerged as a relevant axis in cancer; however, the expression patterns and diagnostic relevance of BMAL1 and CLOCK in multiple myeloma (MM) remain insufficiently defined. METHODS: BMAL1 and CLOCK mRNA expression was quantified by RT-qPCR in bone marrow samples from 46 newly diagnosed MM patients and 13 healthy controls. Group comparisons, ROC analyses, multivariate logistic regression, partial correlation, and machine-learning models (logistic regression, random forest, and support-vector machine) with stratified 5-fold cross-validation (including class-weighted sensitivity analysis) were performed. RESULTS: BMAL1 expression was significantly higher in MM than in controls (1.12 +/- 0.33 vs. 0.85 +/- 0.33, p = 0.016; Cohen's d = 0.83), whereas CLOCK showed no significant univariate difference (p > 0.2). BMAL1 demonstrated moderate diagnostic performance (AUC = 0.729), while CLOCK alone showed limited discrimination (AUC = 0.617). Combined analysis modestly improved performance (AUC = 0.756). In multivariate logistic regression, BMAL1 remained a strong independent predictor of MM (OR = 3343.4, p = 0.0046), whereas CLOCK showed an inverse adjusted association (OR = 0.0037, p = 0.019). BMAL1 and CLOCK expression were strongly correlated in MM (rho  approximately  0.80), persisting after adjustment for age, ISS stage, and beta2-microglobulin (partial r = 0.847, p = 2.2 x 10-13). Among classifiers, the random forest achieved the best performance (AUC = 0.832; AUPRC = 0.952). Specificity was limited across classifiers, indicating that these performance estimates are exploratory and require validation in larger cohorts. CONCLUSION: MM is characterized by BMAL1 upregulation within a preserved but imbalanced BMAL1/CLOCK axis rather than uniform shifts across circadian genes. Although diagnostic performance is moderate, consistent signals across statistical and machine-learning approaches support an MM-associated circadian expression pattern warranting further validation.",
+    "keywords": [
+      "BMAL1",
+      "CLOCK",
+      "circadian clock",
+      "diagnostic biomarkers",
+      "gene expression",
+      "multiple myeloma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Multiple Myeloma/diagnosis/genetics/metabolism",
+      "*ARNTL Transcription Factors/genetics/biosynthesis",
+      "*Gene Expression Regulation, Neoplastic",
+      "*CLOCK Proteins/genetics/biosynthesis",
+      "Female",
+      "Male",
+      "*Circadian Rhythm",
+      "Middle Aged",
+      "Aged",
+      "Circadian Clocks",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Albayrak, Hamide",
+        "Ay, Mustafa Ertan",
+        "Tombak, Anil",
+        "Cevik, Kenan",
+        "Ay, Ozlem Izci",
+        "Kabasakal, Tuba",
+        "Erdal, Mehmet Emin"
+      ],
+      "short_names": [
+        "Albayrak H",
+        "Ay ME",
+        "Tombak A",
+        "Cevik K",
+        "Ay OI",
+        "Kabasakal T",
+        "Erdal ME"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2108-1316"
+      ],
+      "affiliations": [
+        "Health Science Institute, Department of Medical Biology, Mersin University, Mersin, Turkiye.",
+        "Faculty of Medicine, Department of Medical Biology and Genetics, Mersin University, Mersin, Turkiye.",
+        "Faculty of Medicine, Department of Hematology, Mersin University, Mersin, Turkiye.",
+        "Faculty of Medicine, Department of Medical Biology and Genetics, Mersin University, Mersin, Turkiye.",
+        "Faculty of Medicine, Department of Medical Biology and Genetics, Mersin University, Mersin, Turkiye.",
+        "Health Science Institute, Department of Medical Biology, Mersin University, Mersin, Turkiye.",
+        "Faculty of Medicine, Department of Medical Biology and Genetics, Mersin University, Mersin, Turkiye."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Albayrak, Hamide",
+        "short_name": "Albayrak H",
+        "identifiers": [],
+        "affiliations": [
+          "Health Science Institute, Department of Medical Biology, Mersin University, Mersin, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Ay, Mustafa Ertan",
+        "short_name": "Ay ME",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Department of Medical Biology and Genetics, Mersin University, Mersin, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Tombak, Anıl",
+        "short_name": "Tombak A",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Department of Hematology, Mersin University, Mersin, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Çevik, Kenan",
+        "short_name": "Çevik K",
+        "identifiers": [
+          "0000-0003-2108-1316"
+        ],
+        "affiliations": [
+          "Faculty of Medicine, Department of Medical Biology and Genetics, Mersin University, Mersin, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Ay, Özlem İzci",
+        "short_name": "Ay Öİ",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Department of Medical Biology and Genetics, Mersin University, Mersin, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Kabasakal, Tuba",
+        "short_name": "Kabasakal T",
+        "identifiers": [],
+        "affiliations": [
+          "Health Science Institute, Department of Medical Biology, Mersin University, Mersin, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Erdal, Mehmet Emin",
+        "short_name": "Erdal ME",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Department of Medical Biology and Genetics, Mersin University, Mersin, Türkiye."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of laboratory hematology"
+    ],
+    "journal_abbrev": [
+      "Int J Lab Hematol"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 00:33",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40835892",
+      "40829164",
+      "38943315",
+      "38022411",
+      "37265974",
+      "36806631",
+      "35743843",
+      "35122068",
+      "34615982",
+      "33846572",
+      "33433946",
+      "33066062",
+      "32223039",
+      "31346317",
+      "31151182",
+      "31014124",
+      "30854481",
+      "28688533",
+      "28061985",
+      "27058663",
+      "24190490",
+      "23712462",
+      "22510946",
+      "17975006",
+      "17179764"
+    ],
+    "similar": [
+      "42167790",
+      "42401921",
+      "41955950",
+      "36177562",
+      "29324865",
+      "38183795",
+      "22249125",
+      "27022680",
+      "39696277",
+      "31265956",
+      "37948027",
+      "24327317",
+      "29534090",
+      "38981930",
+      "21721853",
+      "41116204",
+      "39201748",
+      "38217033",
+      "23323702",
+      "19861541",
+      "26125130",
+      "37871489",
+      "37183795",
+      "36376366",
+      "20382135",
+      "23596172",
+      "26850841",
+      "36675058",
+      "22961668",
+      "34807912",
+      "41084968",
+      "23251369",
+      "31455674",
+      "40819779",
+      "35903031",
+      "41226832",
+      "31252075",
+      "22031781",
+      "31173767",
+      "32222559",
+      "34332958",
+      "31918914",
+      "35682995",
+      "24708606",
+      "35728080",
+      "35285799",
+      "34301769",
+      "32348679",
+      "26873744",
+      "40986222",
+      "30852291",
+      "31249486",
+      "35579906",
+      "30558467",
+      "34416563",
+      "20956306",
+      "39940739",
+      "40382284",
+      "38584196",
+      "20519775",
+      "26394143",
+      "42085778",
+      "34534703",
+      "25070164",
+      "41242455",
+      "41108717",
+      "21797776",
+      "34211057",
+      "26843191",
+      "41958333",
+      "41364136",
+      "38257148",
+      "21364973",
+      "41752176",
+      "40175421",
+      "16096739",
+      "27170536",
+      "22700438",
+      "28884339",
+      "22824757",
+      "40526442",
+      "33452134",
+      "42189225",
+      "38338765",
+      "33444293",
+      "41243864",
+      "40369504",
+      "30064996",
+      "39395574",
+      "42584798",
+      "31613643",
+      "29300726",
+      "39809202",
+      "12387815",
+      "41656803",
+      "41320098",
+      "41486525",
+      "32817420",
+      "39447118",
+      "29253904"
+    ],
+    "review": [
+      "42167790",
+      "41116204",
+      "36675058",
+      "31249486",
+      "41108717",
+      "42189225",
+      "38338765"
+    ],
+    "pmc": [
+      "13555196"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42167790/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/ijlh.70154",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table legends as referenced.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text. No external data, raw files, or unpublished supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors propose that the transcription factor CsMYB73 negatively regulates theanine accumulation in tea shoots by directly activating the expression of CsGGT2 (a theanine hydrolase) and repressing the expression of CsGGT4 (a theanine synthase). This differential regulation is supported by in vitro enzyme assays, molecular docking, transient expression, gene silencing, and correlation analyses across seasons and in the 'Huangkui' cultivar during yellowing-to-greening transition.
+- **Visible evidence base** Figures 1–6, Supplementary Figures S1–S4, Supplementary Table S1, and all corresponding methods sections as described in the text.
+- **Missing materials affecting confidence** Raw data files, uncropped blots, full ChIP-qPCR and EMSA gel images, statistical source data, and the complete supplementary figures/tables were not provided. The manuscript text references these items but they are not accessible for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting regulatory mechanism for theanine metabolism in tea, with the identification of CsMYB73 as a dual-function transcription factor differentially controlling two γ-glutamyl-transpeptidase genes. The combination of in vitro biochemistry, structural modeling, and in planta functional assays is commendable. However, several technical concerns, particularly regarding the interpretation of enzyme kinetics, the strength of the correlation data, and the mechanistic basis for differential promoter regulation, currently limit the robustness of the central claims. The case for a direct and physiologically significant negative regulation of theanine accumulation by CsMYB73 is suggestive but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in plant secondary metabolism, tea science, and transcription factor biology would find this work relevant. The identification of a transcription factor that differentially regulates two homologous metabolic genes offers insights into fine-tuning of specialized metabolite accumulation, which is of broad interest for understanding metabolic regulation in plants and for potential biotechnological applications in tea quality improvement.
+- **Major strengths** 1. The study addresses a significant gap in the transcriptional regulation of theanine metabolism. 2. The combination of in vitro enzyme assays, structural modeling, and in planta functional validation (silencing, overexpression) provides a multi-layered approach. 3. The use of multiple tea cultivars and seasonal sampling adds ecological relevance. 4. The identification of CsGGT4 as a theanine synthase with higher catalytic efficiency than CsGGT2 is a novel and important finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of enzyme kinetics
+  - **Claim pointer** "CsGGT4 exhibited a higher theanine synthesis catalytic efficiency" and "CsGGT4 has higher synthesis efficiency of theanine" based on kinetic parameters.
+  - **Evidence pointer** Figure 2d–f, Table 1, and text in "CsGGT4 has a preference for theanine synthetase in tea plants".
+  - **Concern** The kinetic parameters are reported as km values for glutamine (0.11 mM), ethylamine (57.12 mM), and theanine (140.75 mM). The conclusion that CsGGT4 prefers theanine synthesis is based on lower km for the substrates of synthesis (glutamine and ethylamine) compared to the substrate of degradation (theanine). However, catalytic efficiency is typically expressed as kcat/km, not km alone. The manuscript does not report kcat values. A lower km for a substrate does not necessarily translate to higher catalytic efficiency if the turnover number (kcat) is also low. The claim of "higher catalytic efficiency" is therefore not directly supported by the data presented.
+  - **Why it matters** The central functional distinction between CsGGT2 and CsGGT4, and the basis for the proposed regulatory model, rests on this claim. Without proper kinetic analysis (kcat/km), the conclusion that CsGGT4 is primarily a synthase and CsGGT2 primarily a hydrolase is not quantitatively established.
+  - **Resolution test** Provide kcat and kcat/km values for both CsGGT2 and CsGGT4 for all three substrates (glutamine, ethylamine, theanine). If kcat/km for theanine synthesis is indeed higher for CsGGT4 than for CsGGT2, the claim is supported. Alternatively, if the difference is only in km, the interpretation must be revised.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for direct transcriptional regulation
+  - **Claim pointer** "CsMYB73 was confirmed to act as a nucleus-localized transcription factor (TF), directly interacts with the CsGGT2 and CsGGT4 promoters, serving as an activator of CsGGT2 and a suppressor of CsGGT4."
+  - **Evidence pointer** Figure 5, text in "CsMYB73 targets and differentially regulates the promoters of CsGGT2 and CsGGT4".
+  - **Concern** The evidence for direct interaction relies on Y1H, ChIP-qPCR, EMSA, and dual-luciferase assays. While these are standard methods, the manuscript text does not provide sufficient detail on the EMSA results (e.g., whether mutant probes were used to confirm binding specificity at the identified MYB element) or the ChIP-qPCR data (e.g., enrichment levels, negative controls). The dual-luciferase assay shows activation of CsGGT2 and repression of CsGGT4, but the physiological relevance of these transient assays in tobacco leaves to the native tea plant context is not fully addressed. The claim of "direct" interaction is supported, but the differential effect (activation vs. repression) on two promoters with similar MYB elements is not mechanistically explained.
+  - **Why it matters** The proposed model hinges on CsMYB73 differentially regulating two target genes. Without a clear mechanistic explanation for how the same transcription factor activates one promoter and represses another, the model remains incomplete. The possibility of indirect effects or the involvement of additional co-factors is not explored.
+  - **Resolution test** Provide detailed EMSA data with mutant probes to confirm binding specificity. For ChIP-qPCR, show enrichment levels relative to a negative control and a known positive target. For the differential regulation, discuss or experimentally test potential mechanisms (e.g., different MYB-binding site contexts, interaction with other transcription factors, or chromatin state).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Correlation vs. causation in seasonal and cultivar data
+  - **Claim pointer** "Theanine content correlated significantly with the expression of CsGGT2, CsGGT4 and the transcription factor CsMYB73 in tea shoots from different seasons" and "resulting in a significant decline in the accumulation of theanine in tea shoots during the process of seasonal greening in 'Huangkui' leaves."
+  - **Evidence pointer** Figure 4, Figure 6, and text in "CsMYB73 is negatively correlated with theanine accumulation mediated by CsGGT2 and CsGGT4 in tea shoots".
+  - **Concern** The correlation analysis (R values) is presented as evidence for a regulatory relationship. However, correlation does not establish causation. The manuscript does not report whether the correlation is statistically significant (p-values) or whether other factors (e.g., nitrogen status, light intensity, temperature) that vary seasonally could explain the observed patterns. The gene silencing experiment (Figure 4e–g) provides more direct evidence, but the effect of CsMYB73 silencing on theanine levels is described as a "sharp reduction" which is counterintuitive if CsMYB73 negatively regulates theanine accumulation (silencing should increase theanine). This discrepancy is not adequately explained.
+  - **Why it matters** The physiological relevance of the proposed regulatory mechanism depends on the direction of the effect. The manuscript states that CsMYB73 negatively regulates theanine accumulation, but the silencing experiment appears to show that suppressing CsMYB73 reduces theanine, which would suggest a positive role. This inconsistency undermines the central claim.
+  - **Resolution test** Clarify the results of the silencing experiment. If CsMYB73 silencing reduces theanine, the model of negative regulation is incorrect. Provide statistical analysis for all correlations. Discuss potential confounding environmental factors in the seasonal data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Materials and Methods, "Heterologous expression and enzymatic activity assay"
+  - **Evidence pointer** Text in Materials and Methods
+  - **Issue** The methods for the enzyme activity assay are described briefly, referencing a previous study. The specific assay conditions (e.g., substrate concentrations, reaction time, detection methods) for the data in Figure 1b and c are not fully detailed.
+  - **Required correction** Provide a more detailed description of the enzyme assay conditions, or explicitly state that they are identical to the referenced previous study and specify which parts are new.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 4 and Figure 6
+  - **Evidence pointer** Figure legends and text
+  - **Issue** The correlation coefficients (R) are reported, but p-values are not. The number of biological replicates for the seasonal sampling is not stated.
+  - **Required correction** Report p-values for all correlations and specify the number of biological replicates for each experiment in the figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of structural data
+  - **Affected element** Figure 3 and Table 1
+  - **Evidence pointer** Text in "Binding modes generated by molecular docking"
+  - **Issue** The molecular docking results are used to explain functional differences, but the correlation between binding energy and catalytic efficiency is not straightforward. The statement "Because EA has a more favorable binding affinity for CsGGT4, CsGGT4 has a higher efficiency in theanine synthesis than CsGGT2" is an oversimplification.
+  - **Required correction** Soften the causal language and acknowledge that docking results are predictive and require experimental validation.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of kcat/km values for proper kinetic comparison (R1-M1). 2. Inconsistency between the proposed negative regulation by CsMYB73 and the reported effect of CsMYB73 silencing on theanine levels (R1-M3). 3. Insufficient detail on EMSA and ChIP-qPCR data to fully support the direct interaction claim (R1-M2).
+- **Assessment against Nature-style criteria** **Originality:** The work is original in identifying a transcription factor that differentially regulates two homologous theanine-metabolizing enzymes. This adds a new layer of regulatory complexity. **Scientific importance:** Theanine metabolism is central to tea quality, and understanding its regulation has clear applied value. The findings are of interest to the plant metabolism community. **Interdisciplinary readership:** The topic is somewhat specialized, but the regulatory mechanism (a TF differentially controlling two related genes) has broader relevance to plant biology. The readership would be primarily plant scientists and tea researchers. **Technical soundness:** The multi-method approach is a strength, but the kinetic analysis and the silencing data have technical issues that need resolution. The structural modeling is used appropriately but with overinterpretation. **Readability for nonspecialists:** The manuscript is generally well-written and the logic is clear, but the technical details of the kinetic and binding assays may be challenging for a general reader. The abstract effectively summarizes the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the experimental approach is comprehensive. However, the issues with kinetic analysis and the contradictory silencing result must be addressed to establish the central claims. The manuscript is not currently established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that CsGGT4 has "higher theanine synthesis catalytic efficiency" is unsupported without kcat/km data.
+- The claim that CsMYB73 "negatively regulates theanine accumulation" is contradicted by the described silencing experiment, which shows a reduction in theanine upon CsMYB73 suppression.
+- The statement that "the continuous increase in CsMYB73 produced a significantly increase in CsGGT2 expression and inhibited CsGGT4 expression" is presented as a general finding, but the data shown are from a single time-course experiment in one cultivar and may not be generalizable.
+- The physiological model proposed in Figure 7, involving additional unknown transcription factors, is speculative and not directly tested.

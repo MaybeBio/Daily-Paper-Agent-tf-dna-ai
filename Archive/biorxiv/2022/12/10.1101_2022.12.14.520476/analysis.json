@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.14.520476",
+  "title": "E(3) equivariant graph neural networks for robust and accurate protein–protein interaction site prediction",
+  "authors": "Rahmatullah Roche; Bernard Moussad; Md Hossain Shuvo; Debswapna Bhattacharya",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-16",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用E(3)等变图神经网络预测蛋白质-蛋白质互作位点，虽非TF-DNA体系，但方法可迁移至蛋白-DNA界面预测，对课题有借鉴价值。",
+  "abstract": "Artificial intelligence-powered protein structure prediction methods have led to a paradigm-shift in computational structural biology, yet contemporary approaches for predicting the interfacial residues (i.e., sites) of protein-protein interaction (PPI) still rely on experimental structures. Recent studies have demonstrated benefits of employing graph convolution for PPI site prediction, but ignore symmetries naturally occurring in 3-dimensional space and act only on experimental coordinates. Here we present EquiPPIS, an E(3) equivariant graph neural network approach for PPI site prediction. EquiPPIS employs symmetry-aware graph convolutions that transform equivariantly with translation, rotation, and reflection in 3D space, providing richer representations for molecular data compared to invariant convolutions. EquiPPIS substantially outperforms state-of-the-art approaches based on the same experimental input, and exhibits remarkable robustness by attaining better accuracy with predicted structural models from AlphaFold2 than what existing methods can achieve even with experimental structures. Freely available at https://github.com/Bhattacharya-Lab/EquiPPIS , EquiPPIS enables accurate PPI site prediction at scale.",
+  "abstract_zh": "人工智能驱动的蛋白质结构预测方法已引发计算结构生物学的范式转变，然而当前用于预测蛋白质-蛋白质相互作用（PPI）界面残基（即位点）的方法仍依赖于实验结构。近期研究展示了在图卷积用于PPI位点预测中的优势，但忽略了三维空间中自然存在的对称性，且仅作用于实验坐标。在此，我们提出EquiPPIS，一种用于PPI位点预测的E(3)等变图神经网络方法。EquiPPIS采用对称感知的图卷积，其在三维空间中随平移、旋转和反射等变变换，相较于不变卷积，为分子数据提供更丰富的表示。EquiPPIS在基于相同实验输入的情况下显著优于现有最先进方法，并展现出卓越的鲁棒性，即使用AlphaFold2预测的结构模型也能获得比现有方法在实验结构下更高的准确性。EquiPPIS可在https://github.com/Bhattacharya-Lab/EquiPPIS免费获取，支持大规模精确的PPI位点预测。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.14.520476",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.14.520476",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.14.520476/index.html"
+}

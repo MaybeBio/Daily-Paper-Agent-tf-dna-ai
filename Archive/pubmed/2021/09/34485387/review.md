@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and suitability for a Nature-style journal
+- **Shared manuscript claim summary** The authors report a computer-aided rational engineering approach to modulate the signal sensitivity of the quorum sensing protein LuxR from Vibrio fischeri toward 3OC6-HSL. Using molecular dynamics simulation, MM-GB/SA binding free energy calculations, and molecular docking, they identify isoleucine 46 (I46) as a key residue. They experimentally validate predicted binding affinity changes using surface plasmon resonance with MBP-fused LuxR variants (I46F and I46R). They then construct whole-cell biosensors in E. coli and demonstrate that the I46F variant confers higher sensitivity to 3OC6-HSL, including detection of the signaling molecule in Yersinia pestis culture supernatants.
+- **Visible evidence base** Main text including Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusion, Data Availability, Author Contributions, Funding, Conflict of Interest, Publisher's Note, Supplementary Material link, Acknowledgements. Figures 1-5 are referenced but not provided. Supplementary Figures S1-S6 are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-5, Supplementary Figures S1-S6, Supplementary Methods, all raw data, sequence alignments, structural coordinates, SPR sensorgrams, and statistical analysis details. The absence of these materials prevents full verification of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful workflow combining computational prediction and experimental validation for tuning LuxR sensitivity. The identification of I46 as a non-conserved, distal residue affecting ligand binding is interesting and could have practical value for biosensor design. However, the evidence as presented is incomplete. Key figures and supplementary data are not available for review, which limits the ability to assess the quality of the structural model, the rigor of the MD simulations, the reliability of the MM-GB/SA calculations, and the robustness of the SPR and biosensor data. The claims of "rational engineering" and "high sensitivity" are only partially supported by the text. The novelty relative to prior LuxR engineering efforts is not fully contextualized. The manuscript would benefit from clearer presentation of quantitative data, error analysis, and statistical comparisons.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, biosensor development, quorum sensing, and protein engineering would be interested. The work offers a potential strategy for tuning receptor-ligand sensitivity in a model quorum sensing system, which could inform the design of improved whole-cell biosensors for detecting bacterial pathogens or signaling molecules. The methodological combination of MD, MM-GB/SA, and experimental validation may be of interest to computational biologists seeking to apply such approaches to other receptor systems.
+- **Major strengths** 1) The study addresses a relevant problem: improving the sensitivity of LuxR-based biosensors. 2) The combination of computational prediction and experimental validation is a sound overall strategy. 3) The use of MBP fusion to stabilize apo-LuxR for biochemical characterization is a practical solution to a known technical challenge. 4) The demonstration of the I46F variant's improved sensitivity in a whole-cell biosensor context, including detection in a pathogen supernatant, is a useful proof-of-concept.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulation and MM-GB/SA calculations identified I46 as a key residue and that I46F would have the strongest binding energy and I46R the weakest.
+  - **Evidence pointer** Results and Discussion, "MD Simulation and Binding Site Analysis" and "Identification and Verification of I46"; Figures 1, 2; Supplementary Figures S1-S4
+  - **Concern** The computational methodology is described only briefly. The template selection (TraR, PDB 1L3L) for modeling V. fischeri LuxR is mentioned, but the sequence identity/similarity between the template and target is not stated. The quality of the final model is only assessed via Ramachandran plots, which is insufficient. The details of the MD simulation (e.g., equilibration protocol, force field parameters, water model, simulation length, convergence criteria) are not provided. The MM-GB/SA calculations are described, but the entropy term (TDS) is mentioned in the equation yet its calculation method is not described. The selection of residues for mutation scanning is not justified beyond a general statement about alignment. The heatmap data (Supplementary Figure S4B) is not visible.
+  - **Why it matters** Without detailed methodological information and visible data, the reliability of the computational predictions cannot be assessed. The claim that I46 is a "key residue" hinges entirely on the quality of the model and the calculations. If the model is inaccurate or the calculations are flawed, the entire premise of the rational engineering is undermined.
+  - **Resolution test** Provide the sequence alignment between LuxR and TraR, the model validation statistics (e.g., QMEAN, z-score), detailed MD simulation parameters and convergence analysis, a description of the entropy calculation, and the full heatmap of mutation scanning results. Show the structural context of I46 relative to the binding pocket.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SPR experiments confirmed the predicted binding affinities: Kd values of 258.5 µM (WT), 52.8 µM (I46F), and 365.0 µM (I46R).
+  - **Evidence pointer** Results and Discussion, "Identification and Verification of I46"; Figure 3
+  - **Concern** The SPR data is not shown. The Kd values are reported without error estimates or replicates. The fitting model is described as "one-phase dissociation fitting," but the steady-state affinity model is mentioned in the Methods. The two descriptions are inconsistent. The concentration range of 3OC6-HSL used for the SPR experiments is not stated. The quality of the sensorgrams, the fitting quality, and the reproducibility are not assessable.
+  - **Why it matters** The experimental validation is the cornerstone of the paper. If the SPR data are not robust, the correlation between computational prediction and experimental result is not established. The reported Kd values are in the micromolar range, which is relatively weak binding; the physiological relevance and the significance of the differences (e.g., 5-fold between WT and I46F) need to be discussed in this context.
+  - **Resolution test** Provide representative sensorgrams, the full concentration series, the fitting curves, and the Kd values with standard errors from at least three independent experiments. Clarify the fitting model used. Discuss the physiological relevance of the measured affinities.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the whole-cell biosensor based on LuxR-I46F has "high sensitivity" and can detect 3OC6-HSL at concentrations as low as 1 × 10⁻¹⁰ M, and can detect the signaling molecule in Y. pestis culture supernatants.
+  - **Evidence pointer** Results and Discussion, "Application of LuxR-I46 Mutants in a Whole-Cell Biosensor"; Figures 4, 5; Supplementary Figure S5
+  - **Concern** The biosensor data is not shown. The dose-response curves (Figure 4C,D) are not visible. The definition of "sensitivity" is not clear: is it the limit of detection (LOD) or the half-maximal effective concentration (EC50)? The LOD is not formally defined or calculated. The response time data (Figure 4E,F) is not shown. The data on detection of Y. pestis supernatant (Figure 5) is not shown. The statistical analysis of the differences between the biosensor variants is not described. The specificity of the response to 3OC6-HSL versus other HSLs is not addressed.
+  - **Why it matters** The application in a whole-cell biosensor is the key translational claim of the paper. Without visible dose-response curves, LOD calculations, and statistical comparisons, the claim of "high sensitivity" is not substantiated. The detection of Y. pestis supernatant is a critical proof-of-concept, but the data is not assessable.
+  - **Resolution test** Provide the full dose-response curves for WT, I46F, and I46R biosensors, with error bars and fitted parameters (EC50, LOD). Define the LOD explicitly. Provide the time-course data. Provide the Y. pestis supernatant detection data with appropriate controls and statistical analysis. Address specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors claim that their work demonstrates a "practical, generalizable framework for the rational design and adjustment of LuxR-family proteins."
+  - **Evidence pointer** Abstract, Conclusion
+  - **Concern** The novelty of the approach is not sufficiently differentiated from prior work. The authors mention directed evolution and previous MD studies, but do not clearly state what is new about their specific combination of methods or their findings. The identification of a single residue (I46) that modulates sensitivity is a modest step. The claim of "generalizable framework" is not supported by testing on other LuxR-family proteins or other ligands.
+  - **Why it matters** For a Nature-style journal, the work needs to demonstrate a significant advance over the state of the art. If the approach is essentially a standard computational workflow applied to one protein, the novelty is limited.
+  - **Resolution test** Clearly articulate the specific novelty of the method or the finding. Provide evidence of generality, e.g., by applying the approach to another LuxR-family member or by discussing how the framework would be adapted.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes familiarity with quorum sensing and LuxR/LuxI systems. A brief explanation of the biological context and the significance of 3OC6-HSL detection would improve accessibility.
+  - **Required correction** Add a sentence or two explaining the role of quorum sensing in bacterial communication and why detecting 3OC6-HSL is relevant (e.g., in pathogen detection).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, SPR
+  - **Evidence pointer** Materials and Methods, "Surface Plasmon Resonance"
+  - **Issue** The Methods state that Kd values were calculated using the "steady-state affinity model," but the Results mention "one-phase dissociation fitting." This inconsistency is confusing.
+  - **Required correction** Clarify which model was used for Kd determination and describe the fitting procedure consistently in both sections.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, MD simulation
+  - **Evidence pointer** Results and Discussion, "MD Simulation and Binding Site Analysis"
+  - **Issue** The authors state that the LuxR structure was "confirmed" by Ramachandran plot analysis. A Ramachandran plot is a basic validation, not a confirmation of structural accuracy.
+  - **Required correction** Use more appropriate language, such as "the model was assessed by Ramachandran plot analysis, which indicated that the backbone dihedral angles were in allowed regions."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion
+  - **Issue** The conclusion mentions "bioelectronics applications" without any prior discussion or data supporting this claim.
+  - **Required correction** Either remove the mention of bioelectronics or add a brief discussion of how the engineered LuxR could be integrated into such applications.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Biosensor
+  - **Evidence pointer** Results and Discussion, "Application of LuxR-I46 Mutants in a Whole-Cell Biosensor"
+  - **Issue** The authors state that the I46F biosensor "displayed a sensitive and stable response" but do not define "stable" or provide data on stability over time.
+  - **Required correction** Define what is meant by "stable" and provide data or a reference to support this claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (computational methodology details and data), R1-M2 (SPR data and analysis), R1-M3 (biosensor dose-response and detection data). These are blocking because the core claims of the paper depend on the quality and interpretation of these data, which are currently not assessable.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of combining MD, MM-GB/SA, and experimental validation for a LuxR protein is not entirely new. The specific finding of I46 as a sensitivity-modulating residue is a modest incremental step. The claim of a "generalizable framework" is not substantiated. Originality is limited.
+  - **Scientific importance** The work addresses a practical problem in biosensor design, but the significance is incremental. The improvement in sensitivity (5-fold) is modest, and the physiological relevance of the micromolar Kd values is not discussed. The importance is moderate.
+  - **Interdisciplinary readership** The work sits at the interface of computational biology, protein engineering, and synthetic biology. It could appeal to researchers in these fields, but the narrow focus on one protein and one ligand limits broader appeal.
+  - **Technical soundness** The technical soundness cannot be fully assessed due to missing data and methodological details. The inconsistencies in the SPR fitting model and the lack of statistical analysis are concerning. Technical soundness is currently not established.
+  - **Readability for nonspecialists** The manuscript is generally readable but assumes familiarity with quorum sensing. The Methods section is brief and relies heavily on supplementary material. Readability is adequate for a specialist audience but not for a broad one.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of computational prediction, experimental validation, and biosensor performance cannot be verified without the missing figures, supplementary data, and methodological details. The manuscript has potential, but the evidence base is incomplete. A revised manuscript addressing the blocking concerns would be required for further consideration.
+
+## Risk / unsupported claims
+- The claim that I46 is a "key residue" for ligand binding is based on computational predictions that are not fully described or visible.
+- The claim that the I46F mutation "increased the sensitivity" of LuxR is based on SPR data that is not shown and reported without error estimates.
+- The claim that the I46F-based biosensor has "high sensitivity" and can detect 3OC6-HSL at 1 × 10⁻¹⁰ M is not supported by visible dose-response data or a formal LOD calculation.
+- The claim that the biosensor can detect 3OC6-HSL in Y. pestis supernatant is not supported by visible data.
+- The claim of a "practical, generalizable framework" is not supported by evidence of generality.
+- The mention of "bioelectronics applications" is unsupported by any data or discussion in the manuscript.

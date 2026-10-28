@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "40157244",
+    "doi": "10.1016/j.ijmedinf.2025.105883",
+    "title": "Development and validation of a machine learning prognostic model based on an epigenomic signature in patients with pancreatic ductal adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In Pancreatic Ductal Adenocarcinoma (PDAC), current prognostic scores are unable to fully capture the biological heterogeneity of the disease. While some approaches investigating the role of multi-omics in PDAC are emerging, the analysis of methylation data is under exploited. MATERIALS AND METHODS: We analyzed CpG sites from two publicly available datasets, the TCGA-PAAD used as discovery set and the CPTAC-PDA as external test set. Single mutations and co-mutation of KRAS and TP53 genes were identified as targets, and differentially methylated CpG sites (DMC) were detected accordingly. We trained and validated Random Forest (RF) models to predict each target. Area Under the Receiver Operating Characteristic curve (AUROC) and Area Under the Precision-Recall curve (AUPRC) were used as performance metrics. Then, we performed consensus clustering from the DMCs to identify novel patients' profiles. Finally, we trained and validated a combination of eXtreme Gradient Boosting (XGB) and tree models to select an epigenomic prognostic determinant. RESULTS: From 598 DMCs extracted, an RF model predicted KRAS and TP53 co-mutation on the external test set with AUROC of 0.77 and AUPRC of 0.87. The consensus clustering allowed us to identify 4 clusters (C1, C2, C3, and C4) of patients. The C4 cluster captured a subgroup of patients with favorable Overall Survival (OS) with respect to others. The XGB model perfectly predicted C4 vs other clusters on the discovery set. In both cohorts, patients were stratified into two risk groups according to methylation levels of cg16854533, individuated as the most important CpG site. CONCLUSION: We analyzed methylation data to develop a classifier for the TP53 and KRAS mutational status. Four prognostic clusters were pointed out and a prognostic model using a CpG site was validated in an independent cohort. Our results evidence that the proposed use of methylation data facilitates risk stratification for PDAC.",
+    "keywords": [
+      "Epigenetics",
+      "Genetic Alteration",
+      "Machine Learning",
+      "Pancreatic Ductal Adenocarcinoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Pancreatic Ductal/genetics/mortality",
+      "Prognosis",
+      "*Machine Learning",
+      "*Pancreatic Neoplasms/genetics",
+      "DNA Methylation",
+      "*Epigenomics/methods",
+      "CpG Islands/genetics",
+      "Female",
+      "Male",
+      "Mutation",
+      "Proto-Oncogene Proteins p21(ras)/genetics",
+      "Middle Aged",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zaccaria, Gian Maria",
+        "Altini, Nicola",
+        "Mongelli, Valentina",
+        "Marino, Francescomaria",
+        "Bevilacqua, Vitoantonio"
+      ],
+      "short_names": [
+        "Zaccaria GM",
+        "Altini N",
+        "Mongelli V",
+        "Marino F",
+        "Bevilacqua V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy.",
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy. Electronic address: nicola.altini@poliba.it.",
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy.",
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy.",
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zaccaria, Gian Maria",
+        "short_name": "Zaccaria GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+        ]
+      },
+      {
+        "full_name": "Altini, Nicola",
+        "short_name": "Altini N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy. Electronic address: nicola.altini@poliba.it."
+        ]
+      },
+      {
+        "full_name": "Mongelli, Valentina",
+        "short_name": "Mongelli V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+        ]
+      },
+      {
+        "full_name": "Marino, Francescomaria",
+        "short_name": "Marino F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+        ]
+      },
+      {
+        "full_name": "Bevilacqua, Vitoantonio",
+        "short_name": "Bevilacqua V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of medical informatics"
+    ],
+    "journal_abbrev": [
+      "Int J Med Inform"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/30 23:02",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "42649745",
+      "41635556",
+      "41479788",
+      "40990645"
+    ],
+    "refs": [],
+    "similar": [
+      "40157244",
+      "31088413",
+      "42041735",
+      "33144687",
+      "40528743",
+      "41204213",
+      "26601720",
+      "35180847",
+      "39342876",
+      "41716413",
+      "34792696",
+      "32552660",
+      "40107149",
+      "42164702",
+      "24681874",
+      "32701143",
+      "32573775",
+      "32314446",
+      "29371474",
+      "34346253",
+      "38268915",
+      "41303394",
+      "37977512",
+      "30611220",
+      "39676652",
+      "26378065",
+      "29103024",
+      "30092011",
+      "38702822",
+      "39259678",
+      "38037073",
+      "29844410",
+      "39457426",
+      "40486872",
+      "39395242",
+      "32241274",
+      "31956659",
+      "34134622",
+      "41306958",
+      "25513781",
+      "41417942",
+      "38770632",
+      "32376411",
+      "40172749",
+      "41239365",
+      "27256393",
+      "41832427",
+      "39938521",
+      "28145465",
+      "40410330",
+      "33008426",
+      "31595147",
+      "35701533",
+      "41527990",
+      "33789615",
+      "31046123",
+      "33550277",
+      "40628176",
+      "39777438",
+      "28675654",
+      "41353164",
+      "39626942",
+      "32234756",
+      "39906959",
+      "34497315",
+      "41727227",
+      "37923686",
+      "33635431",
+      "23344532",
+      "37386391",
+      "39528880",
+      "40247392",
+      "40156071",
+      "36707046",
+      "36737824",
+      "38817665",
+      "38561976",
+      "32520974",
+      "40943438",
+      "41712870",
+      "30885352",
+      "40544110",
+      "34691034",
+      "26684803",
+      "40314742",
+      "41507565",
+      "32282466",
+      "41500779",
+      "40274200",
+      "38795761",
+      "31694133",
+      "28810144",
+      "41314504",
+      "33347393",
+      "36644936",
+      "25287138",
+      "39708562",
+      "39471087",
+      "37196196",
+      "42440056"
+    ],
+    "review": [
+      "40157244",
+      "33008426",
+      "41527990"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1386-5056(25)00100-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://proteomics.cancer.gov/programs/cptac",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1386-5056(25)00100-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

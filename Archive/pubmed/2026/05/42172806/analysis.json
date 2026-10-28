@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42172806",
+  "title": "Opt-DMA-trans: Explainable optimized residual dense-assisted multi-scale attention transformer assisted multi-class nucleic acid-binding proteins (NABP) classification system.",
+  "authors": "Kumar, Paritosh; Deepak, Akshay; Kumar, Prabhat; Ranjan, Ashish",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2026-05-23",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用优化Transformer和可解释AI对核酸结合蛋白（含DNA结合蛋白）进行序列分类，虽涉及蛋白-DNA互作对象但仅做序列级分类，无三维互作建模或结合机制研究，方法可迁移但深度有限。",
+  "abstract": "Nucleic acid binding proteins (NABP) include DNA binding proteins (DBP) and RNA binding proteins (RBP), which play an essential role in gene regulation, transcriptional control, RNA processing and different disease pathways. In order to figure out NABP, experiments take more time and money, and it just cannot keep up with a huge amount of protein sequences. Many existing models face issues in understanding complex relationships among protein sequences. They often depend on high-dimensional and redundant features and lack interpretability. To solve these problems, this study introduces Explainable AI to classify multi-class NABP. Initially, data are collected from the UniProtKB dataset. Then, in the pre-processing step, the duplicate and undesirable information is removed from the protein sequence. Next, in the feature extraction stage, the Python ProtLearn library is used to collect features from protein sequences. Moreover, the feature selection stage is utilized to remove redundant and unnecessary characteristics from the protein prediction method. Feature selection is performed by two methods, namely the Improved Orangutan optimization algorithm (IOOA) and Autoencoder (AE), in order to select the best features. Finally, the protein prediction process is carried out with the aid of the proposed optimized Residual Dense assisted Multi-Scale Attention Transformer (Opt-DMA-Trans). In order to enhance the interpretability of models, the Shapley Additive explanations (SHAP) technique is employed for the decision-making process. The investigational results attain an accuracy of 98.95%, precision 98.95%, and F1-score 98.75%, which shows that the proposed model is effective in predicting multiclass NABP.",
+  "abstract_zh": "核酸结合蛋白（NABP）包括DNA结合蛋白（DBP）和RNA结合蛋白（RBP），它们在基因调控、转录控制、RNA加工及不同疾病通路中发挥重要作用。为了识别NABP，实验方法耗时且成本高昂，无法跟上大量蛋白质序列的需求。许多现有模型在理解蛋白质序列间的复杂关系方面存在问题，它们往往依赖高维且冗余的特征，并缺乏可解释性。为解决这些问题，本研究引入可解释人工智能（Explainable AI）对多类NABP进行分类。首先，从UniProtKB数据集中收集数据。然后，在预处理步骤中，去除蛋白质序列中的重复和不必要信息。接下来，在特征提取阶段，使用Python ProtLearn库从蛋白质序列中提取特征。此外，利用特征选择阶段去除蛋白质预测方法中的冗余和不必要特征。特征选择通过两种方法进行，即改进猩猩优化算法（IOOA）和自编码器（AE），以选择最佳特征。最后，借助所提出的优化残差密集辅助多尺度注意力变换器（Opt-DMA-Trans）进行蛋白质预测过程。为增强模型的可解释性，在决策过程中采用Shapley加法解释（SHAP）技术。实验结果显示，准确率达到98.95%，精确率为98.95%，F1分数为98.75%，表明所提模型在预测多类NABP方面具有有效性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42172806/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42172806/",
+  "paper_page_path": "papers/pubmed/42172806/index.html"
+}

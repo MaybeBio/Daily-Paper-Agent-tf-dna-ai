@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41043336",
+  "title": "EnsembleRegNet: Interpretable deep learning for transcriptional network inference from single-cell RNA-seq.",
+  "authors": "Alawad, Duaa Mohammad; Katebi, Ataur; Hoque, Md Tamjidul",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2025-10-04",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习从单细胞RNA-seq推断TF-靶基因调控网络，虽涉及TF-DNA调控关系但基于表达共变与基序富集，缺乏三维互作建模，方法可迁移但非核心TF-DNA结合机制研究。",
+  "abstract": "Gene regulatory networks (GRNs) govern gene expression and cellular identity, but accurately inferring their structure from high-dimensional single-cell RNA sequencing (scRNA-seq) data remains a major challenge. Here, we present EnsembleRegNet, a deep learning framework that infers transcription factor (TF)-target gene relationships by integrating an ensemble encoder-decoder and multilayer perceptron (MLP) architecture. EnsembleRegNet utilizes Hodges-Lehmann estimator (HLE)-based binarization, case-deletion analysis, motif enrichment using RcisTarget, and regulon activity scoring with AUCell to enhance both robustness and biological interpretability. Extensive evaluations across simulated and real scRNA-seq datasets demonstrate that EnsembleRegNet outperforms existing GRN inference methods, including SCENIC and SIGNET, in both clustering performance and regulatory accuracy. By uncovering cell-type-specific regulatory modules and enhancing interpretability, EnsembleRegNet offers a scalable and biologically grounded framework for exploring transcriptional regulation. Its demonstrated performance establishes a new benchmark for GRN inference and highlights its promise for applications in disease modeling, biomarker discovery, and cellular reprogramming.",
+  "abstract_zh": "基因调控网络（GRNs）调控基因表达和细胞身份，但从高维单细胞RNA测序（scRNA-seq）数据中准确推断其结构仍是一项重大挑战。在此，我们提出EnsembleRegNet，一种深度学习框架，通过整合集成编码器-解码器与多层感知器（MLP）架构来推断转录因子（TF）-靶基因关系。EnsembleRegNet利用基于Hodges-Lehmann估计量（HLE）的二值化、病例删除分析、使用RcisTarget的基序富集以及使用AUCell的调控子活性评分，以增强鲁棒性和生物学可解释性。在模拟和真实scRNA-seq数据集上的广泛评估表明，EnsembleRegNet在聚类性能和调控准确性方面均优于现有GRN推断方法，包括SCENIC和SIGNET。通过揭示细胞类型特异性调控模块并增强可解释性，EnsembleRegNet为探索转录调控提供了一个可扩展且具有生物学基础的框架。其展示的性能为GRN推断设立了新基准，并突显了其在疾病建模、生物标志物发现和细胞重编程应用中的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41043336/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41043336/",
+  "paper_page_path": "papers/pubmed/41043336/index.html"
+}

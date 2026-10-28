@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38451769",
+  "title": "PPRTGI: A Personalized PageRank Graph Neural Network for TF-Target Gene Interaction Detection.",
+  "authors": "Ma, Ke; Li, Jiawei; Zhao, Mengyuan; Zamit, Ibrahim; Lin, Bin; Guo, Fei; Tang, Jijun",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2024-03-07",
+  "window": {
+    "start": "2024-03-04",
+    "end": "2024-03-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用个性化PageRank图神经网络结合DNA序列特征预测TF-靶基因互作，虽聚焦调控网络推断而非三维结构建模，但方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Transcription factors (TFs) regulation is required for the vast majority of biological processes in living organisms. Some diseases may be caused by improper transcriptional regulation. Identifying the target genes of TFs is thus critical for understanding cellular processes and analyzing disease molecular mechanisms. Computational approaches can be challenging to employ when attempting to predict potential interactions between TFs and target genes. In this paper, we present a novel graph model (PPRTGI) for detecting TF-target gene interactions using DNA sequence features. Feature representations of TFs and target genes are extracted from sequence embeddings and biological associations. Then, by combining the aggregated node feature with graph structure, PPRTGI uses a graph neural network with personalized PageRank to learn interaction patterns. Finally, a bilinear decoder is applied to predict interaction scores between TF and target gene nodes. We designed experiments on six datasets from different species. The experimental results show that PPRTGI is effective in regulatory interaction inference, with our proposed model achieving an area under receiver operating characteristic score of 93.87% and an area under precision-recall curves score of 88.79% on the human dataset. This paper proposes a new method for predicting TF-target gene interactions, which provides new insights into modeling molecular networks and can thus be used to gain a better understanding of complex biological systems.",
+  "abstract_zh": "转录因子（TFs）的调控是生物体中绝大多数生物过程所必需的。某些疾病可能由不当的转录调控引起。因此，识别转录因子的靶基因对于理解细胞过程和分析疾病分子机制至关重要。在尝试预测转录因子与靶基因之间的潜在相互作用时，计算方法可能难以应用。本文提出了一种新颖的图模型（PPRTGI），利用DNA序列特征检测转录因子-靶基因相互作用。转录因子和靶基因的特征表示从序列嵌入和生物关联中提取。然后，通过将聚合的节点特征与图结构相结合，PPRTGI使用带有个性化PageRank的图神经网络来学习相互作用模式。最后，应用双线性解码器预测转录因子与靶基因节点之间的相互作用得分。我们在来自不同物种的六个数据集上设计了实验。实验结果表明，PPRTGI在调控相互作用推断中有效，我们提出的模型在人类数据集上实现了接收者操作特征曲线下面积93.87%和精确率-召回率曲线下面积88.79%的得分。本文提出了一种预测转录因子-靶基因相互作用的新方法，为建模分子网络提供了新见解，从而可用于更深入地理解复杂生物系统。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38451769/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38451769/",
+  "paper_page_path": "papers/pubmed/38451769/index.html"
+}

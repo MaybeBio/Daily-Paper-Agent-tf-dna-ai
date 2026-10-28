@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37380154",
+  "title": "Oligodendrocyte Transcription Factor 2 as a Potential Prognostic Biomarker of Glioblastoma: Kaplan-Meier Analysis and the Development of a Binary Predictive Model Based on Visually Accessible Rembrandt Image and Magnetic Resonance Imaging Radiomic Features.",
+  "authors": "Mei, Nan; Lu, Yiping; Yang, Shan; Jiang, Shenghong; Ruan, Zhuoying; Wang, Dongdong; Liu, Xiujuan; Ying, Yinwei; Li, Xuanxuan; Yin, Bo",
+  "journal": "Journal of computer assisted tomography",
+  "published_date": "2023-06-29",
+  "window": {
+    "start": "2023-06-26",
+    "end": "2023-07-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用影像组学和随机森林预测胶质母细胞瘤中OLIG2表达水平，仅将OLIG2作为生物标志物，未涉及蛋白质-DNA互作或TF-DNA结合机制，且无AI/物理模拟方法用于互作建模。",
+  "abstract": "OBJECTIVE: Oligodendrocyte transcription factor 2 (OLIG2) is universally expressed in human glioblastoma (GB). Our study explores whether OLIG2 expression impacts GB patients' overall survival and establishes a machine learning model for OLIG2 level prediction in patients with GB based on clinical, semantic, and magnetic resonance imaging radiomic features. METHODS: Kaplan-Meier analysis was used to determine the optimal cutoff value of the OLIG2 in 168 GB patients. Three hundred thirteen patients enrolled in the OLIG2 prediction model were randomly divided into training and testing sets in a ratio of 7:3. The radiomic, semantic, and clinical features were collected for each patient. Recursive feature elimination (RFE) was used for feature selection. The random forest (RF) model was built and fine-tuned, and the area under the curve was calculated to evaluate the performance. Finally, a new testing set excluding IDH-mutant patients was built and tested in a predictive model using the fifth edition of the central nervous system tumor classification criteria. RESULTS: One hundred nineteen patients were included in the survival analysis. Oligodendrocyte transcription factor 2 was positively associated with GB survival, with an optimal cutoff of 10% ( P = 0.00093). One hundred thirty-four patients were eligible for the OLIG2 prediction model. An RFE-RF model based on 2 semantic and 21 radiomic signatures achieved areas under the curve of 0.854 in the training set, 0.819 in the testing set, and 0.825 in the new testing set. CONCLUSIONS: Glioblastoma patients with </=10% OLIG2 expression tended to have worse overall survival. An RFE-RF model integrating 23 features can predict the OLIG2 level of GB patients preoperatively, irrespective of the central nervous system classification criteria, further guiding individualized treatment.",
+  "abstract_zh": "目的：少突胶质细胞转录因子2（OLIG2）在人胶质母细胞瘤（GB）中普遍表达。本研究探讨OLIG2表达是否影响GB患者的总生存期，并基于临床、语义及磁共振成像影像组学特征建立机器学习模型，用于预测GB患者的OLIG2水平。方法：采用Kaplan-Meier分析确定168例GB患者中OLIG2的最佳截断值。313例纳入OLIG2预测模型的患者按7：3比例随机分为训练集和测试集。收集每位患者的影像组学、语义及临床特征。使用递归特征消除（RFE）进行特征选择。构建并微调随机森林（RF）模型，计算曲线下面积以评估性能。最后，根据第五版中枢神经系统肿瘤分类标准，构建并测试一个排除IDH突变患者的新测试集。结果：119例患者纳入生存分析。少突胶质细胞转录因子2与GB生存期呈正相关，最佳截断值为10%（P = 0.00093）。134例患者符合OLIG2预测模型条件。基于2个语义特征和21个影像组学特征的RFE-RF模型在训练集中达到0.854的曲线下面积，在测试集中为0.819，在新测试集中为0.825。结论：OLIG2表达≤10%的胶质母细胞瘤患者倾向于具有更差的总生存期。整合23个特征的RFE-RF模型可在术前预测GB患者的OLIG2水平，不受中枢神经系统分类标准影响，进一步指导个体化治疗。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37380154/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37380154/",
+  "paper_page_path": "papers/pubmed/37380154/index.html"
+}

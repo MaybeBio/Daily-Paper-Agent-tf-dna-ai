@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38395409",
+  "title": "Machine Learning-Supported Diagnosis of Small Blue Round Cell Sarcomas Using Targeted RNA Sequencing.",
+  "authors": "Schlieben, Lea D; Carta, Maria Giulia; Moskalev, Evgeny A; Stohr, Robert; Metzler, Markus; Besendorfer, Manuel; Meidenbauer, Norbert; Semrau, Sabine; Janka, Rolf; Grutzmann, Robert; Wiemann, Stefan; Hartmann, Arndt; Agaimy, Abbas; Haller, Florian; Ferrazzi, Fulvia",
+  "journal": "The Journal of molecular diagnostics : JMD",
+  "published_date": "2024-02-24",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习基于靶向RNA测序基因表达谱辅助小蓝圆细胞肉瘤诊断，虽涉及EWSR1与ETS转录因子融合，但核心是肿瘤分类诊断而非蛋白质-DNA互作建模，方法为表达分类器，无AI/物理模拟结合建模，与本课题关联微弱。",
+  "abstract": "Small blue round cell sarcomas (SBRCSs) are a heterogeneous group of tumors with overlapping morphologic features but markedly varying prognosis. They are characterized by distinct chromosomal alterations, particularly rearrangements leading to gene fusions, whose detection currently represents the most reliable diagnostic marker. Ewing sarcomas are the most common SBRCSs, defined by gene fusions involving EWSR1 and transcription factors of the ETS family, and the most frequent non-EWSR1-rearranged SBRCSs harbor a CIC rearrangement. Unfortunately, currently the identification of CIC::DUX4 translocation events, the most common CIC rearrangement, is challenging. Here, we present a machine-learning approach to support SBRCS diagnosis that relies on gene expression profiles measured via targeted sequencing. The analyses on a curated cohort of 69 soft-tissue tumors showed markedly distinct expression patterns for SBRCS subgroups. A random forest classifier trained on Ewing sarcoma and CIC-rearranged cases predicted probabilities of being CIC-rearranged >0.9 for CIC-rearranged-like sarcomas and <0.6 for other SBRCSs. Testing on a retrospective cohort of 1335 routine diagnostic cases identified 15 candidate CIC-rearranged tumors with a probability >0.75, all of which were supported by expert histopathologic reassessment. Furthermore, the multigene random forest classifier appeared advantageous over using high ETV4 expression alone, previously proposed as a surrogate to identify CIC rearrangement. Taken together, the expression-based classifier can offer valuable support for SBRCS pathologic diagnosis.",
+  "abstract_zh": "小蓝圆细胞肉瘤（SBRCSs）是一组具有重叠形态学特征但预后显著不同的异质性肿瘤。它们以独特的染色体改变为特征，尤其是导致基因融合的重排，目前其检测是最可靠的诊断标志物。尤文肉瘤是最常见的SBRCSs，由涉及EWSR1和ETS家族转录因子的基因融合定义，而最常见的非EWSR1重排SBRCSs则携带CIC重排。遗憾的是，目前识别CIC::DUX4易位事件（最常见的CIC重排）具有挑战性。在此，我们提出一种基于靶向测序测量的基因表达谱的机器学习方法，以支持SBRCS诊断。对69例软组织肿瘤的精选队列分析显示，SBRCS亚组具有显著不同的表达模式。在尤文肉瘤和CIC重排病例上训练的随机森林分类器，对CIC重排样肉瘤预测为CIC重排的概率>0.9，对其他SBRCSs则<0.6。对1335例常规诊断病例的回顾性队列测试，识别出15例概率>0.75的候选CIC重排肿瘤，所有病例均得到专家组织病理学重新评估的支持。此外，多基因随机森林分类器似乎优于单独使用高ETV4表达（先前被提议作为识别CIC重排的替代标志物）。综合来看，基于表达的分类器可为SBRCS病理诊断提供有价值的支持。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38395409/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38395409/",
+  "paper_page_path": "papers/pubmed/38395409/index.html"
+}

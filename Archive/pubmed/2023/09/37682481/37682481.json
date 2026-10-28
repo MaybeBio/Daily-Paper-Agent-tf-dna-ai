@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "37682481",
+    "doi": "10.1007/978-1-0716-3354-0_17",
+    "title": "Methodology for Constructing a Knowledgebase for Plant Gene Regulation Information."
+  },
+  "content": {
+    "abstract": "The amount of biological data is growing at a rapid pace as many high-throughput omics technologies and data pipelines are developed. This is resulting in the growth of databases for DNA and protein sequences, gene expression, protein accumulation, structural, and localization information. The diversity and multi-omics nature of such bioinformatic data requires well-designed databases for flexible organization and presentation. Besides general-purpose online bioinformatic databases, users need narrowly focused online databases to quickly access a meaningful collection of related data for their research. Here, we describe the methodology used to implement a plant gene regulatory knowledgebase, with data, query, and tool features, as well as the ability to expand to accommodate future datasets. We exemplify this methodology for the GRASSIUS knowledgebase, but it is applicable to developing and updating similar plant gene regulatory knowledgebases. GRASSIUS organizes and presents gene regulatory data from grass species with a central focus on maize (Zea mays). The main class of data presented include not only the families of transcription factors (TFs) and co-regulators (CRs) but also protein-DNA interaction data, where available.",
+    "keywords": [
+      "Database",
+      "GRASSIUS",
+      "Gene regulation",
+      "Knowledgebase methodology",
+      "Plant transcription factors"
+    ],
+    "mesh_terms": [
+      "*Genes, Plant",
+      "*Gene Expression Regulation, Plant",
+      "Amino Acid Sequence",
+      "Computational Biology",
+      "Knowledge Bases",
+      "Zea mays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gavgani, Hadi Nayebi",
+        "Grotewold, Erich",
+        "Gray, John"
+      ],
+      "short_names": [
+        "Gavgani HN",
+        "Grotewold E",
+        "Gray J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3172-6627",
+        "ORCID: 0000-0002-4720-7290",
+        "ORCID: 0000-0003-1352-2900"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI, USA.",
+        "Dandelions Therapeutics Inc., San Francisco, CA, USA.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI, USA.",
+        "Department of Biological Sciences, University of Toledo, Toledo, OH, USA. john.gray5@utoledo.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gavgani, Hadi Nayebi",
+        "short_name": "Gavgani HN",
+        "identifiers": [
+          "0000-0002-3172-6627"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI, USA.",
+          "Dandelions Therapeutics Inc., San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Grotewold, Erich",
+        "short_name": "Grotewold E",
+        "identifiers": [
+          "0000-0002-4720-7290"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Gray, John",
+        "short_name": "Gray J",
+        "identifiers": [
+          "0000-0003-1352-2900"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, University of Toledo, Toledo, OH, USA. john.gray5@utoledo.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/08 12:42",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "41365331"
+    ],
+    "refs": [
+      "35486290",
+      "35404235",
+      "35095939",
+      "35064997",
+      "34918159",
+      "34850907",
+      "34618085",
+      "34448158",
+      "34265844",
+      "34198190",
+      "33656670",
+      "33193733",
+      "33125078",
+      "33095870",
+      "33006643",
+      "32890394",
+      "32124327",
+      "32062128",
+      "31678628",
+      "31411700",
+      "31377174",
+      "31218344",
+      "31133749",
+      "31048830",
+      "30395277",
+      "30364959",
+      "30043374",
+      "29855956",
+      "29525962",
+      "29041960",
+      "28726847",
+      "28716409",
+      "28605751",
+      "27924042",
+      "27899674",
+      "27871810",
+      "27806697",
+      "27203113",
+      "26628745",
+      "25653163",
+      "25428362",
+      "25361952",
+      "25215497",
+      "25053252",
+      "25035402",
+      "24767513",
+      "24280374",
+      "24174544",
+      "24008418",
+      "23707967",
+      "23002270",
+      "22884952",
+      "22120662",
+      "21593126",
+      "21324878",
+      "21059685",
+      "19126689",
+      "18987217",
+      "18428685",
+      "17286856",
+      "16524982",
+      "16381825",
+      "15809445",
+      "12820902",
+      "11847087",
+      "7570003"
+    ],
+    "similar": [
+      "37682481",
+      "18987217",
+      "25053252",
+      "17980028",
+      "32898258",
+      "28623588",
+      "30057343",
+      "33170273",
+      "18221524",
+      "24840825",
+      "33631799",
+      "25918418",
+      "16524982",
+      "24219505",
+      "30407532",
+      "31443483",
+      "20232157",
+      "21134893",
+      "26719053",
+      "24718683",
+      "31950388",
+      "21880676",
+      "29165610",
+      "8580967",
+      "25261191",
+      "36300629",
+      "26896848",
+      "31549685",
+      "21472436",
+      "11094985",
+      "23497159",
+      "32089522",
+      "24363426",
+      "31006149",
+      "27814670",
+      "20955618",
+      "19858103",
+      "28914754",
+      "21272351",
+      "22719841",
+      "10480388",
+      "20305269",
+      "25410248",
+      "32727363",
+      "22760305",
+      "34718720",
+      "36899307",
+      "26519466",
+      "10974551",
+      "23928825",
+      "25527104",
+      "33098697",
+      "29385634",
+      "34210268",
+      "34468910",
+      "24422852",
+      "10645435",
+      "22527397",
+      "11718894",
+      "32676852",
+      "22194197",
+      "22792223",
+      "32525872",
+      "22862992",
+      "31624841",
+      "15707838",
+      "11148280",
+      "28623591",
+      "25251325",
+      "31752425",
+      "19933097",
+      "20833728",
+      "35037224",
+      "30945179",
+      "9193097",
+      "27504011",
+      "25449830",
+      "19330534",
+      "26518212",
+      "9037163",
+      "19926802",
+      "31362973",
+      "35151253",
+      "15208386",
+      "16820394",
+      "21404010",
+      "22564701",
+      "12972660",
+      "21447597"
+    ],
+    "review": [
+      "37682481",
+      "26719053",
+      "31549685",
+      "15707838",
+      "35037224"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-3354-0_17",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38747369",
+  "title": "ProkDBP: Toward more precise identification of prokaryotic DNA binding proteins.",
+  "authors": "Pradhan, Upendra Kumar; Meher, Prabina Kumar; Naha, Sanchita; Das, Ritwika; Gupta, Ajit; Parsad, Rajender",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2024-05-15",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发ProkDBP机器学习模型预测原核DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅基于序列特征分类，未涉及TF-DNA特异性结合或三维互作机制建模，方法可迁移性有限。",
+  "abstract": "Prokaryotic DNA binding proteins (DBPs) play pivotal roles in governing gene regulation, DNA replication, and various cellular functions. Accurate computational models for predicting prokaryotic DBPs hold immense promise in accelerating the discovery of novel proteins, fostering a deeper understanding of prokaryotic biology, and facilitating the development of therapeutics targeting for potential disease interventions. However, existing generic prediction models often exhibit lower accuracy in predicting prokaryotic DBPs. To address this gap, we introduce ProkDBP, a novel machine learning-driven computational model for prediction of prokaryotic DBPs. For prediction, a total of nine shallow learning algorithms and five deep learning models were utilized, with the shallow learning models demonstrating higher performance metrics compared to their deep learning counterparts. The light gradient boosting machine (LGBM), coupled with evolutionarily significant features selected via random forest variable importance measure (RF-VIM) yielded the highest five-fold cross-validation accuracy. The model achieved the highest auROC (0.9534) and auPRC (0.9575) among the 14 machine learning models evaluated. Additionally, ProkDBP demonstrated substantial performance with an independent dataset, exhibiting higher values of auROC (0.9332) and auPRC (0.9371). Notably, when benchmarked against several cutting-edge existing models, ProkDBP showcased superior predictive accuracy. Furthermore, to promote accessibility and usability, ProkDBP (https://iasri-sg.icar.gov.in/prokdbp/) is available as an online prediction tool, enabling free access to interested users. This tool stands as a significant contribution, enhancing the repertoire of resources for accurate and efficient prediction of prokaryotic DBPs.",
+  "abstract_zh": "原核生物DNA结合蛋白（DBPs）在基因调控、DNA复制及多种细胞功能中扮演着关键角色。准确的计算模型用于预测原核生物DBPs，在加速新蛋白发现、深化对原核生物生物学的理解以及促进针对潜在疾病干预的治疗开发方面具有巨大前景。然而，现有的通用预测模型在预测原核生物DBPs时往往准确性较低。为解决这一差距，我们引入了ProkDBP，一种新颖的基于机器学习驱动的计算模型，用于预测原核生物DBPs。在预测过程中，共利用了九种浅层学习算法和五种深度学习模型，其中浅层学习模型相比深度学习模型表现出更高的性能指标。结合通过随机森林变量重要性度量（RF-VIM）选择的进化显著特征，轻量梯度提升机（LGBM）在五折交叉验证中达到了最高准确率。该模型在评估的14种机器学习模型中获得了最高的auROC（0.9534）和auPRC（0.9575）。此外，ProkDBP在独立数据集上表现出显著性能，auROC（0.9332）和auPRC（0.9371）值更高。值得注意的是，在与几种现有前沿模型进行基准比较时，ProkDBP展示了优越的预测准确性。进一步地，为提升可访问性和易用性，ProkDBP（https://iasri-sg.icar.gov.in/prokdbp/）作为在线预测工具提供，允许感兴趣的用户免费访问。该工具作为一项重要贡献，增强了准确高效预测原核生物DBPs的资源库。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38747369/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38747369/",
+  "paper_page_path": "papers/pubmed/38747369/index.html"
+}

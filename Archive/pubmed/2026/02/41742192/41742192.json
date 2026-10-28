@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "41742192",
+    "doi": "10.1186/s12967-026-07785-z",
+    "title": "RASGEF1B suppresses hepatocellular carcinoma through the ALDH7A1/Betaine/SNAI1 metabolic‒epigenetic axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Metabolic‒epigenetic crosstalk critically orchestrates hepatocellular carcinoma (HCC) pathogenesis. Deciphering the precise mechanism underlying epigenetic remodeling and metabolic reprogramming in HCC may lead to novel treatment paradigms, however, the key mechanisms remain elusive. METHODS: RT-qPCR, western blotting and tissue microarrary Immunohistochemistry were used to detect the expression of RasGEF domain family member 1B (RASGEF1B) in HCC and normal liver tissues. Transcriptome sequencing and high-resolution untargeted metabolomics were integrated to identify the downstream regulatory mechanism through which RASGEF1B inhibited the HCC progression. Epigenetic regulation was investigated using methylation-specific PCR and luciferase reporter assays. Bioinformatic prediction and molecular docking suggested a functional interplay among RASGEF1B, ALDH7A1, and BMI1, which was experimentally confirmed through coimmunoprecipitation, GST pull-down, and immunofluorescence assays. Protein stability and ubiquitination status of ALDH7A1 were examined using cycloheximide, immunoprecipitation assay, and an in vitro reconstituted ubiquitination system. RESULTS: In this study, the antitumor role of RASGEF1B was confirmed in vitro and in vivo. Transcriptomic profiling revealed that RASGEF1B overexpression significantly reduced the snail family transcriptional repressor 1 (SNAI1), a master regulator of the epithelial-mesenchymal transition. Untargeted metabolomics revealed that RASGEF1B promoted SNAI1 DNA methylation through Betaine-mediated methionine metabolic reprogramming. Further analysis confirmed that RASGEF1B competitively protected the ALDH7A1 protein from BMI1-dependent ubiquitination, thereby elevating cellular Betaine levels in HCC. CONCLUSIONS: This study revealed that RASGEF1B inhibited SNAI1 to suppress HCC through metabolite‒epigenetic crosstalk. Our findings potentially offer a new perspective on the classical RAS signaling framework, uncovering a metabolic‒epigenetic axis as an innovative therapeutic approach for improving clinical outcomes in patients with HCC.",
+    "keywords": [
+      "BMI1",
+      "Choline metabolism",
+      "DNA methylation",
+      "Metabolic‒epigenetic crosstalk",
+      "RAS guanine exchange factor",
+      "Ubiquitination"
+    ],
+    "mesh_terms": [
+      "*Liver Neoplasms/genetics/pathology/metabolism",
+      "*Carcinoma, Hepatocellular/genetics/pathology/metabolism",
+      "Humans",
+      "*Snail Family Transcription Factors/metabolism",
+      "Animals",
+      "*Epigenesis, Genetic",
+      "Cell Line, Tumor",
+      "*Aldehyde Dehydrogenase/metabolism",
+      "*ras Guanine Nucleotide Exchange Factors/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Ubiquitination",
+      "Metabolic Reprogramming",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Zeyi",
+        "Tan, Kunjiang",
+        "Li, Zhongzhe",
+        "Ren, Yaguang",
+        "Dai, Yizhe",
+        "Jin, Meixian",
+        "Fu, Yu",
+        "Hu, Yukai",
+        "Guo, Jinhao",
+        "Zhang, Min",
+        "Liu, Chengbo",
+        "Fu, Shunjun",
+        "Shen, Feng"
+      ],
+      "short_names": [
+        "Guo Z",
+        "Tan K",
+        "Li Z",
+        "Ren Y",
+        "Dai Y",
+        "Jin M",
+        "Fu Y",
+        "Hu Y",
+        "Guo J",
+        "Zhang M",
+        "Liu C",
+        "Fu S",
+        "Shen F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatic Surgery IV, Eastern Hepatobiliary Surgery Hospital, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China.",
+        "International Cooperation Laboratory on Signal Transduction, Eastern Hepatobiliary Surgery Institute, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China.",
+        "Department of Hepatobiliary Surgery II, Zhujiang Hospital, Southern Medical University, Guangzhou, 510000, P. R. China.",
+        "Research Center for Biomedical Optics and Molecular Imaging, Key Laboratory of Biomedical Imaging Science and System, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518000, P. R. China.",
+        "Department of Hepatic Surgery IV, Eastern Hepatobiliary Surgery Hospital, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China.",
+        "Department of Anesthesiology of the Second Affiliated Hospital, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 518172, P. R. China.",
+        "Department of Hepatobiliary Surgery II, Zhujiang Hospital, Southern Medical University, Guangzhou, 510000, P. R. China.",
+        "International Cooperation Laboratory on Signal Transduction, Eastern Hepatobiliary Surgery Institute, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China.",
+        "Department of Hepatobiliary Surgery II, Zhujiang Hospital, Southern Medical University, Guangzhou, 510000, P. R. China.",
+        "Research Center for Biomedical Optics and Molecular Imaging, Key Laboratory of Biomedical Imaging Science and System, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518000, P. R. China.",
+        "Research Center for Biomedical Optics and Molecular Imaging, Key Laboratory of Biomedical Imaging Science and System, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518000, P. R. China. cb.liu@siat.ac.cn.",
+        "Department of Hepatobiliary Surgery II, Zhujiang Hospital, Southern Medical University, Guangzhou, 510000, P. R. China. fsj103@163.com.",
+        "Department of Hepatic Surgery IV, Eastern Hepatobiliary Surgery Hospital, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China. shenfengehbh@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Zeyi",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatic Surgery IV, Eastern Hepatobiliary Surgery Hospital, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Tan, Kunjiang",
+        "short_name": "Tan K",
+        "identifiers": [],
+        "affiliations": [
+          "International Cooperation Laboratory on Signal Transduction, Eastern Hepatobiliary Surgery Institute, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhongzhe",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery II, Zhujiang Hospital, Southern Medical University, Guangzhou, 510000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Ren, Yaguang",
+        "short_name": "Ren Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Biomedical Optics and Molecular Imaging, Key Laboratory of Biomedical Imaging Science and System, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Dai, Yizhe",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatic Surgery IV, Eastern Hepatobiliary Surgery Hospital, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Jin, Meixian",
+        "short_name": "Jin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology of the Second Affiliated Hospital, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 518172, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yu",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery II, Zhujiang Hospital, Southern Medical University, Guangzhou, 510000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yukai",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "International Cooperation Laboratory on Signal Transduction, Eastern Hepatobiliary Surgery Institute, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jinhao",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery II, Zhujiang Hospital, Southern Medical University, Guangzhou, 510000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Min",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Biomedical Optics and Molecular Imaging, Key Laboratory of Biomedical Imaging Science and System, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chengbo",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Biomedical Optics and Molecular Imaging, Key Laboratory of Biomedical Imaging Science and System, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518000, P. R. China. cb.liu@siat.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Fu, Shunjun",
+        "short_name": "Fu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery II, Zhujiang Hospital, Southern Medical University, Guangzhou, 510000, P. R. China. fsj103@163.com."
+        ]
+      },
+      {
+        "full_name": "Shen, Feng",
+        "short_name": "Shen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatic Surgery IV, Eastern Hepatobiliary Surgery Hospital, Naval Medical University (Second Military Medical University), Shanghai, 200438, P. R. China. shenfengehbh@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Feb 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 15:21",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41163059",
+      "40702551",
+      "40410880",
+      "40259053",
+      "40133308",
+      "39897540",
+      "39779890",
+      "39616161",
+      "39111307",
+      "38977902",
+      "38886530",
+      "38679670",
+      "38572751",
+      "38424197",
+      "37950057",
+      "37542324",
+      "37099250",
+      "36548410",
+      "36370105",
+      "36348464",
+      "36028717",
+      "35567547",
+      "34968454",
+      "34669962",
+      "34391775",
+      "34050894",
+      "33070389",
+      "32023446",
+      "31383647",
+      "31114869",
+      "30804505",
+      "30103712",
+      "29136506",
+      "28486107",
+      "27641100",
+      "23676670",
+      "22911555",
+      "21214365",
+      "19645719",
+      "18440551",
+      "17540168",
+      "17121879",
+      "16199517",
+      "10592235",
+      "6283357"
+    ],
+    "similar": [
+      "41742192",
+      "25574092",
+      "37099250",
+      "39390614",
+      "38315284",
+      "42486346",
+      "23496980",
+      "31438961",
+      "40227950",
+      "40234378",
+      "42062600",
+      "41293954",
+      "41572275",
+      "40646641",
+      "29898761",
+      "33522955",
+      "39672234",
+      "40659255",
+      "30486822",
+      "22911555",
+      "42213490",
+      "32576198",
+      "41629949",
+      "36602428",
+      "37122003",
+      "40319251",
+      "41740302",
+      "40609277",
+      "39884472",
+      "40412057",
+      "41501793",
+      "34174322",
+      "41126368",
+      "32129914",
+      "31383647",
+      "39910429",
+      "41781795",
+      "32772918",
+      "28716020",
+      "31188160",
+      "40809929",
+      "40814770",
+      "39030964",
+      "33234142",
+      "32754263",
+      "41866505",
+      "41655866",
+      "29316949",
+      "28271214",
+      "40615101",
+      "41168860",
+      "34930906",
+      "40778958",
+      "30799589",
+      "31012192",
+      "30646949",
+      "40211872",
+      "32723329",
+      "42275883",
+      "42676762",
+      "39695045",
+      "41981059",
+      "40589169",
+      "32552766",
+      "38769286",
+      "42419879",
+      "42139279",
+      "40934694",
+      "25879771",
+      "31349837",
+      "26034368",
+      "41350889",
+      "41613800",
+      "40552444",
+      "28334716",
+      "39702326",
+      "38653946",
+      "34551796",
+      "34939898",
+      "41727907",
+      "40536557",
+      "31319849",
+      "31365778",
+      "33051595",
+      "30556279",
+      "39814999",
+      "42155792",
+      "29764501",
+      "30180906",
+      "42067013",
+      "39763282",
+      "42288668",
+      "30809309",
+      "40394639",
+      "18801366",
+      "33259899",
+      "41236130",
+      "39097533",
+      "39128228",
+      "31072351"
+    ],
+    "review": [
+      "41742192",
+      "26034368"
+    ],
+    "pmc": [
+      "13041341"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-07785-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41742192/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-15",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

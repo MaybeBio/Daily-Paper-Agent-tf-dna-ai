@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "40966654",
+    "doi": "10.1093/bib/bbaf473",
+    "title": "AttBiomarker: unveiling preeclampsia biomarkers and molecular pathways through two-stage gene selection techniques and attention-based CNN with gene regulatory network analysis."
+  },
+  "content": {
+    "abstract": "Preeclampsia is a complex pregnancy disorder that poses significant health risks to both mother and fetus. Despite its clinical importance, the underlying molecular mechanisms remain poorly understood. In this study, we developed an integrative deep learning and bioinformatics approach to identify potential biomarkers for preeclampsia. Three microarray datasets related to preeclampsia were initially analyzed to select a preliminary gene subset based on $P$-values. Feature selection was then performed in two consecutive rounds: first, the Fisher score method was applied to extract significant genes, followed by the minimum Redundancy Maximum Relevance method to refine the subset further. These selected gene subsets were trained using our proposed Attention-based Convolutional Neural Network (AttCNN), which achieved the highest classification accuracy compared with other models. From the experiments, a set of 58 common genes was identified between differentially expressed genes and the final optimized subset. Here, Gene Ontology and KEGG pathway enrichment analyses highlighted key biological processes and pathways associated with preeclampsia. Subsequently, a protein-protein interaction network was constructed, identifying 10 hub genes: TSC22D1, IRF3, MME, SRSF10, SOD1, HK2, ERO1L, SH3BP5, UBC, and ZFAND5. Further analysis of gene regulatory networks, including transcription factor-gene, gene-microRNA, and drug-gene interactions, revealed that seven hub genes (HK2, SRSF10, SOD1, ERO1L, IRF3, MME, and SH3BP5) were strongly associated with preeclampsia. Molecular docking analysis showed that HK2, SH3BP5, and SOD1 exhibited significant binding affinities with two preeclampsia drugs. These findings suggest that the identified hub genes hold promise as biomarkers for early prognosis, diagnosis, and potential therapeutic targets for preeclampsia.",
+    "keywords": [
+      "attention-based CNN",
+      "biomarkers",
+      "differential expression",
+      "feature selection",
+      "hub genes",
+      "preeclampsia"
+    ],
+    "mesh_terms": [
+      "*Pre-Eclampsia/genetics/metabolism",
+      "Humans",
+      "Female",
+      "Pregnancy",
+      "*Gene Regulatory Networks",
+      "*Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "Protein Interaction Maps",
+      "*Neural Networks, Computer",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarker, Sakib",
+        "Mahmud, S M Hasan",
+        "Hosen, Md Faruk",
+        "Michael Goh, Kah Ong",
+        "Shoombuatong, Watshara"
+      ],
+      "short_names": [
+        "Sarker S",
+        "Mahmud SMH",
+        "Hosen MF",
+        "Michael Goh KO",
+        "Shoombuatong W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science and Engineering, Uttara University, Turag, Uttara, Dhaka 1230, Bangladesh.",
+        "Department of Software Engineering, Daffodil International University, Daffodil Smart City (DSC), Birulia, Savar, Dhaka 1216, Bangladesh.",
+        "Centre for Advanced Machine Learning and Applications (CAMLAs), Dhaka 1229, Bangladesh.",
+        "Centre for Advanced Machine Learning and Applications (CAMLAs), Dhaka 1229, Bangladesh.",
+        "Department of Computing and Information System, Daffodil International University, Daffodil Smart City (DSC), Birulia, Savar, Dhaka 1216, Bangladesh.",
+        "Center for Image and Vision Computing, COE for Artificial Intelligence, Faculty of Information Science & Technology (/FIST), Multimedia University, Jalan Ayer Keroh Lama, Bukit Beruang Melaka 75450, Malaysia.",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok 10700, Thailand."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sarker, Sakib",
+        "short_name": "Sarker S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Uttara University, Turag, Uttara, Dhaka 1230, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mahmud, S M Hasan",
+        "short_name": "Mahmud SMH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Software Engineering, Daffodil International University, Daffodil Smart City (DSC), Birulia, Savar, Dhaka 1216, Bangladesh.",
+          "Centre for Advanced Machine Learning and Applications (CAMLAs), Dhaka 1229, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hosen, Md Faruk",
+        "short_name": "Hosen MF",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Advanced Machine Learning and Applications (CAMLAs), Dhaka 1229, Bangladesh.",
+          "Department of Computing and Information System, Daffodil International University, Daffodil Smart City (DSC), Birulia, Savar, Dhaka 1216, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Michael Goh, Kah Ong",
+        "short_name": "Michael Goh KO",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Image and Vision Computing, COE for Artificial Intelligence, Faculty of Information Science & Technology (/FIST), Multimedia University, Jalan Ayer Keroh Lama, Bukit Beruang Melaka 75450, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Shoombuatong, Watshara",
+        "short_name": "Shoombuatong W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok 10700, Thailand."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Aug 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/18 18:32",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "42434339",
+      "42118213",
+      "41750695"
+    ],
+    "refs": [
+      "40919103",
+      "40016711",
+      "39853851",
+      "39779839",
+      "39709373",
+      "39544937",
+      "38919479",
+      "38702954",
+      "38260054",
+      "38259465",
+      "38166707",
+      "38141906",
+      "37770919",
+      "37585411",
+      "37576963",
+      "37527202",
+      "37525915",
+      "37524692",
+      "37365273",
+      "36660680",
+      "36353113",
+      "36341922",
+      "36300620",
+      "35528613",
+      "34991439",
+      "34866367",
+      "34852799",
+      "34354701",
+      "34315816",
+      "34020547",
+      "33847347",
+      "33024988",
+      "32724477",
+      "32241303",
+      "31416885",
+      "31054987",
+      "30935420",
+      "30931480",
+      "30664679",
+      "29507646",
+      "29440331",
+      "28335719",
+      "27420981",
+      "27141961",
+      "27008011",
+      "26584291",
+      "25605792",
+      "25521941",
+      "25436094",
+      "24554373",
+      "24349325",
+      "23193258",
+      "22455463",
+      "21183218",
+      "18455804",
+      "16381878"
+    ],
+    "similar": [
+      "40966654",
+      "41044520",
+      "31416885",
+      "33744280",
+      "39967661",
+      "39675129",
+      "38259479",
+      "40207223",
+      "40374866",
+      "33640831",
+      "40970657",
+      "39779839",
+      "38166707",
+      "40406126",
+      "40552285",
+      "40016711",
+      "39853851",
+      "36258174",
+      "33571845",
+      "38718074",
+      "39544937",
+      "37576963",
+      "41325315",
+      "32497025",
+      "41316541",
+      "35880174",
+      "39121584",
+      "36343018",
+      "25717061",
+      "40362669",
+      "38428097",
+      "40592741",
+      "38362844",
+      "40672961",
+      "37498421",
+      "39341952",
+      "40532551",
+      "41300749",
+      "40347801",
+      "30589053",
+      "31987036",
+      "38062833",
+      "37001424",
+      "41196851",
+      "33173953",
+      "39148025",
+      "39118438",
+      "40574839",
+      "28594854",
+      "40214693",
+      "40628511",
+      "31321566",
+      "39984919",
+      "38941397",
+      "37776011",
+      "39709373",
+      "31754223",
+      "41120378",
+      "35035521",
+      "38688978",
+      "39934690",
+      "39521940",
+      "32496505",
+      "40374840",
+      "40640313",
+      "34894939",
+      "28789679",
+      "40196107",
+      "34168274",
+      "40898538",
+      "40977739",
+      "30302816",
+      "38839916",
+      "39707003",
+      "33204297",
+      "39916955",
+      "41326554",
+      "39342024",
+      "41146237",
+      "35513840",
+      "39815029",
+      "39139563",
+      "40059764",
+      "41006883",
+      "41034826",
+      "40826767",
+      "34553293",
+      "38899746",
+      "35866827",
+      "32811479",
+      "39153206",
+      "40821971",
+      "40861438",
+      "41189173",
+      "39467967",
+      "34218797",
+      "38902567",
+      "39375405",
+      "33407587",
+      "40527859"
+    ],
+    "review": [
+      "40966654"
+    ],
+    "pmc": [
+      "12448737"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40966654.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40966654/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3945",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf473",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

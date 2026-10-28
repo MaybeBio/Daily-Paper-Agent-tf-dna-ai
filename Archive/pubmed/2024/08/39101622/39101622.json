@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "39101622",
+    "doi": "10.1002/adhm.202401407",
+    "title": "Untethered Microgrippers for Biopsy in the Upper Urinary Tract."
+  },
+  "content": {
+    "abstract": "Untethered microrobots offer the possibility to perform medical interventions in anatomically complex and small regions in the body. Presently, it is necessary to access the upper urinary tract to diagnose and treat Upper Tract Urothelial Carcinoma (UTUC). Diagnostic and treatment challenges include ensuring adequate tissue sampling, accurately grading the disease, achieving completeness in endoscopic treatment, and consistently delivering medications to targeted sites. This work introduces microgrippers (micro-grippers) that are autonomously triggered by physiological temperature for biopsy in the upper urinary tract. The experiments demonstrated that micro-grippers can be deployed using standard ureteral catheters and maneuvered using an external magnetic field. The mu-grippers successfully biopsied tissue samples from ex vivo pig ureters, indicating that the thin-film bilayer springs' autonomous, physiologically triggered actuation exerts enough force to retrieve urinary tract tissue. The quality of these biopsy samples is sufficient for histopathological examination, including hematoxylin and eosin (H&E) and GATA3 immunohistochemical staining. Beyond biopsy applications, the micro-grippers' small size, wafer-scale fabrication, and multifunctionality suggest their potential for statistical sampling in the urinary tract. Experimental data and clinical reports underscore this potential through statistical simulations that compare the efficacy of micro-grippers with conventional tools, such as ureteroscopic forceps and baskets.",
+    "keywords": [
+      "biopsy microrobot",
+      "microgripper",
+      "microrobotics",
+      "microsurgery",
+      "shape changing device"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Swine",
+      "Humans",
+      "Biopsy/methods",
+      "*Ureter/pathology",
+      "Urinary Tract/pathology",
+      "GATA3 Transcription Factor/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Wangqu",
+        "Alam, Ridwan",
+        "Choi, Si Young",
+        "Wan, Yan",
+        "Zhang, Ruili",
+        "Baraban, Ezra",
+        "Matoso, Andres",
+        "Matlaga, Brian R",
+        "Winoker, Jared S",
+        "Gracias, David H"
+      ],
+      "short_names": [
+        "Liu W",
+        "Alam R",
+        "Choi SY",
+        "Wan Y",
+        "Zhang R",
+        "Baraban E",
+        "Matoso A",
+        "Matlaga BR",
+        "Winoker JS",
+        "Gracias DH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6526-5398",
+        "ORCID: 0000-0001-7638-2875",
+        "ORCID: 0009-0006-9020-0111",
+        "ORCID: 0000-0002-0730-9014",
+        "ORCID: 0000-0003-2735-4725"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "The James Buchanan Brady Urological Institute and Department of Urology, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+        "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+        "The James Buchanan Brady Urological Institute and Department of Urology, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA.",
+        "Smith Institute for Urology, Lenox Hill Hospital, Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, New York, NY, 10075, USA.",
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Department of Chemistry, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Department of Materials Science and Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Department of Oncology, Johns Hopkins University School of Medicine, Baltimore, MD, 21205, USA.",
+        "Laboratory for Computational Sensing and Robotics (LCSR), Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Sidney Kimmel Comprehensive Cancer Center (SKCCC), Johns Hopkins School of Medicine, Baltimore, MD, 21205, USA.",
+        "Center for MicroPhysiological Systems (MPS), Johns Hopkins School of Medicine, Baltimore, MD, 21205, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Wangqu",
+        "short_name": "Liu W",
+        "identifiers": [
+          "0000-0002-6526-5398"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Alam, Ridwan",
+        "short_name": "Alam R",
+        "identifiers": [],
+        "affiliations": [
+          "The James Buchanan Brady Urological Institute and Department of Urology, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Si Young",
+        "short_name": "Choi SY",
+        "identifiers": [
+          "0000-0001-7638-2875"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Wan, Yan",
+        "short_name": "Wan Y",
+        "identifiers": [
+          "0009-0006-9020-0111"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruili",
+        "short_name": "Zhang R",
+        "identifiers": [
+          "0000-0002-0730-9014"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Baraban, Ezra",
+        "short_name": "Baraban E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA."
+        ]
+      },
+      {
+        "full_name": "Matoso, Andres",
+        "short_name": "Matoso A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA."
+        ]
+      },
+      {
+        "full_name": "Matlaga, Brian R",
+        "short_name": "Matlaga BR",
+        "identifiers": [],
+        "affiliations": [
+          "The James Buchanan Brady Urological Institute and Department of Urology, Johns Hopkins University School of Medicine, Baltimore, MD, 21287, USA."
+        ]
+      },
+      {
+        "full_name": "Winoker, Jared S",
+        "short_name": "Winoker JS",
+        "identifiers": [],
+        "affiliations": [
+          "Smith Institute for Urology, Lenox Hill Hospital, Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, New York, NY, 10075, USA."
+        ]
+      },
+      {
+        "full_name": "Gracias, David H",
+        "short_name": "Gracias DH",
+        "identifiers": [
+          "0000-0003-2735-4725"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+          "Department of Chemistry, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+          "Department of Materials Science and Engineering, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+          "Department of Oncology, Johns Hopkins University School of Medicine, Baltimore, MD, 21205, USA.",
+          "Laboratory for Computational Sensing and Robotics (LCSR), Johns Hopkins University, Baltimore, MD, 21218, USA.",
+          "Sidney Kimmel Comprehensive Cancer Center (SKCCC), Johns Hopkins School of Medicine, Baltimore, MD, 21205, USA.",
+          "Center for MicroPhysiological Systems (MPS), Johns Hopkins School of Medicine, Baltimore, MD, 21205, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced healthcare materials"
+    ],
+    "journal_abbrev": [
+      "Adv Healthc Mater"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/05 12:43",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "42677256",
+      "42384805",
+      "42147073",
+      "40911713",
+      "40428715",
+      "39712070"
+    ],
+    "refs": [
+      "38416855",
+      "38172430",
+      "38044866",
+      "37871301",
+      "37763728",
+      "37735158",
+      "37565051",
+      "37339969",
+      "37058137",
+      "36924475",
+      "36704240",
+      "36201302",
+      "36180582",
+      "36152841",
+      "36138145",
+      "35969749",
+      "35259093",
+      "35122470",
+      "34547599",
+      "34404373",
+      "33586341",
+      "33462214",
+      "33173743",
+      "33115736",
+      "32691952",
+      "32674841",
+      "32593530",
+      "32463679",
+      "32411369",
+      "32191559",
+      "31516892",
+      "31456871",
+      "31423113",
+      "31418640",
+      "30406201",
+      "29637309",
+      "29630955",
+      "29279170",
+      "29236716",
+      "27604375",
+      "25623674",
+      "25594664",
+      "24937214",
+      "24071011",
+      "23399954",
+      "23047708",
+      "21550642",
+      "19139411"
+    ],
+    "similar": [
+      "39101622",
+      "37941516",
+      "32691952",
+      "24642765",
+      "30537495",
+      "24108454",
+      "33085409",
+      "31418070",
+      "22471401",
+      "31456871",
+      "32463679",
+      "22819696",
+      "26413927",
+      "38009077",
+      "24251426",
+      "34492655",
+      "19139411",
+      "31051670",
+      "36117797",
+      "23228292",
+      "22300757",
+      "23451751",
+      "34907769",
+      "10604312",
+      "29082127",
+      "35223492",
+      "41099868",
+      "30617531",
+      "38930768",
+      "25199724",
+      "8073566",
+      "19053402",
+      "24343229",
+      "21529901",
+      "31423113",
+      "37261485",
+      "28428106",
+      "22451168",
+      "38860463",
+      "14521469",
+      "30525417",
+      "29630955",
+      "24071011",
+      "8252025",
+      "20478585",
+      "32715306",
+      "34582934",
+      "22564677",
+      "38704622",
+      "38044866",
+      "33881931",
+      "22458598",
+      "39264866",
+      "24917735",
+      "38423597",
+      "9726397",
+      "28554752",
+      "28753800",
+      "22521771",
+      "32944544",
+      "33908802",
+      "30560298",
+      "26188393",
+      "33677615",
+      "23954585",
+      "38593961",
+      "36576735",
+      "34764007",
+      "1072551",
+      "12352398",
+      "29415874",
+      "25251966",
+      "21550642",
+      "37340529",
+      "30178576",
+      "36585180",
+      "41322445",
+      "24139525",
+      "40933475",
+      "25324479",
+      "38507109",
+      "36534488",
+      "30312669",
+      "34129151",
+      "29396293",
+      "41372082",
+      "25454486",
+      "16098357",
+      "35295998",
+      "21451914",
+      "33763248",
+      "24905868",
+      "32808543",
+      "31482040",
+      "26926878",
+      "39665084",
+      "29236716",
+      "29927548",
+      "32674841",
+      "38756081"
+    ],
+    "review": [
+      "39101622",
+      "37941516",
+      "31418070",
+      "22471401",
+      "30617531",
+      "25199724",
+      "38044866",
+      "32944544",
+      "33908802",
+      "26188393",
+      "37340529",
+      "36534488",
+      "33763248"
+    ],
+    "pmc": [
+      "11584312"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39101622.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39101622/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/adhm.202401407",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "38758647",
+    "doi": "10.1016/j.celrep.2024.114241",
+    "title": "ArreSTick motif controls beta-arrestin-binding stability and extends phosphorylation-dependent beta-arrestin interactions to non-receptor proteins."
+  },
+  "content": {
+    "abstract": "The binding and function of beta-arrestins are regulated by specific phosphorylation motifs present in G protein-coupled receptors (GPCRs). However, the exact arrangement of phosphorylated amino acids responsible for establishing a stable interaction remains unclear. We employ a 1D sequence convolution model trained on GPCRs with established beta-arrestin-binding properties. With this approach, amino acid motifs characteristic of GPCRs that form stable interactions with beta-arrestins can be identified, a pattern that we name \"arreSTick.\" Intriguingly, the arreSTick pattern is also present in numerous non-receptor proteins. Using proximity biotinylation assay and mass spectrometry analysis, we demonstrate that the arreSTick motif controls the interaction between many non-receptor proteins and beta-arrestin2. The HIV-1 Tat-specific factor 1 (HTSF1 or HTATSF1), a nuclear transcription factor, contains the arreSTick pattern, and its subcellular localization is influenced by beta-arrestin2. Our findings unveil a broader role for beta-arrestins in phosphorylation-dependent interactions, extending beyond GPCRs to encompass non-receptor proteins as well.",
+    "keywords": [
+      "CP: Molecular biology",
+      "GPCR",
+      "HTATSF1",
+      "HTSF1",
+      "arreSTick",
+      "arrestin",
+      "convolution",
+      "machine learning",
+      "mass spectrometry",
+      "phosphorylation",
+      "proximity biotinylation assay"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Humans",
+      "*beta-Arrestins/metabolism",
+      "*Protein Binding",
+      "*Amino Acid Motifs",
+      "HEK293 Cells",
+      "beta-Arrestin 2/metabolism",
+      "Amino Acid Sequence",
+      "Protein Stability"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Toth, Andras David",
+        "Soltesz-Katona, Eszter",
+        "Kis, Katalin",
+        "Guti, Viktor",
+        "Gilzer, Sharon",
+        "Prokop, Susanne",
+        "Boros, Roxana",
+        "Misak, Adam",
+        "Balla, Andras",
+        "Varnai, Peter",
+        "Turiak, Lilla",
+        "Acs, Andras",
+        "Drahos, Laszlo",
+        "Inoue, Asuka",
+        "Hunyady, Laszlo",
+        "Turu, Gabor"
+      ],
+      "short_names": [
+        "Toth AD",
+        "Soltesz-Katona E",
+        "Kis K",
+        "Guti V",
+        "Gilzer S",
+        "Prokop S",
+        "Boros R",
+        "Misak A",
+        "Balla A",
+        "Varnai P",
+        "Turiak L",
+        "Acs A",
+        "Drahos L",
+        "Inoue A",
+        "Hunyady L",
+        "Turu G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudosok krt. 2., 1117 Budapest, Hungary; Department of Internal Medicine and Haematology, Semmelweis University, Szentkiralyi street 46, 1088 Budapest, Hungary.",
+        "Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudosok krt. 2., 1117 Budapest, Hungary; Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary.",
+        "Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary.",
+        "Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary.",
+        "Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary.",
+        "Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary.",
+        "Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary.",
+        "Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary.",
+        "Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary; HUN-REN SE Hungarian Research Network Laboratory of Molecular Physiology, Budapest, Hungary.",
+        "Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary; HUN-REN SE Hungarian Research Network Laboratory of Molecular Physiology, Budapest, Hungary.",
+        "Institute of Organic Chemistry, HUN-REN Research Centre for Natural Sciences, Magyar Tudosok krt. 2., 1117 Budapest, Hungary.",
+        "Institute of Organic Chemistry, HUN-REN Research Centre for Natural Sciences, Magyar Tudosok krt. 2., 1117 Budapest, Hungary.",
+        "Institute of Organic Chemistry, HUN-REN Research Centre for Natural Sciences, Magyar Tudosok krt. 2., 1117 Budapest, Hungary.",
+        "Molecular and Cellular Biochemistry, Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Japan.",
+        "Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudosok krt. 2., 1117 Budapest, Hungary; Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary. Electronic address: hunyady.laszlo@ttk.hun-ren.hu.",
+        "Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudosok krt. 2., 1117 Budapest, Hungary; Department of Physiology, Semmelweis University, Tuzolto street 37-47, 1094 Budapest, Hungary. Electronic address: turu.gabor@ttk.hun-ren.hu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tóth, András Dávid",
+        "short_name": "Tóth AD",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudósok krt. 2., 1117 Budapest, Hungary; Department of Internal Medicine and Haematology, Semmelweis University, Szentkirályi street 46, 1088 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Soltész-Katona, Eszter",
+        "short_name": "Soltész-Katona E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudósok krt. 2., 1117 Budapest, Hungary; Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Kis, Katalin",
+        "short_name": "Kis K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Guti, Viktor",
+        "short_name": "Guti V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Gilzer, Sharon",
+        "short_name": "Gilzer S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Prokop, Susanne",
+        "short_name": "Prokop S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Boros, Roxána",
+        "short_name": "Boros R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Misák, Ádám",
+        "short_name": "Misák Á",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Balla, András",
+        "short_name": "Balla A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary; HUN-REN SE Hungarian Research Network Laboratory of Molecular Physiology, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Várnai, Péter",
+        "short_name": "Várnai P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary; HUN-REN SE Hungarian Research Network Laboratory of Molecular Physiology, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Turiák, Lilla",
+        "short_name": "Turiák L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry, HUN-REN Research Centre for Natural Sciences, Magyar Tudósok krt. 2., 1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Ács, András",
+        "short_name": "Ács A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry, HUN-REN Research Centre for Natural Sciences, Magyar Tudósok krt. 2., 1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Drahos, László",
+        "short_name": "Drahos L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry, HUN-REN Research Centre for Natural Sciences, Magyar Tudósok krt. 2., 1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Inoue, Asuka",
+        "short_name": "Inoue A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biochemistry, Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Japan."
+        ]
+      },
+      {
+        "full_name": "Hunyady, László",
+        "short_name": "Hunyady L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudósok krt. 2., 1117 Budapest, Hungary; Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary. Electronic address: hunyady.laszlo@ttk.hun-ren.hu."
+        ]
+      },
+      {
+        "full_name": "Turu, Gábor",
+        "short_name": "Turu G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudósok krt. 2., 1117 Budapest, Hungary; Department of Physiology, Semmelweis University, Tűzoltó street 37-47, 1094 Budapest, Hungary. Electronic address: turu.gabor@ttk.hun-ren.hu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2024 May 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/17 18:42",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [
+      "41750307",
+      "39039165"
+    ],
+    "refs": [],
+    "similar": [
+      "38758647",
+      "39472027",
+      "29146594",
+      "12668664",
+      "28169830",
+      "26324936",
+      "33799570",
+      "32962859",
+      "11279203",
+      "37774973",
+      "37244255",
+      "24255721",
+      "27007855",
+      "21795688",
+      "30890705",
+      "24292830",
+      "37844230",
+      "16319069",
+      "16887887",
+      "32703898",
+      "16181421",
+      "12473660",
+      "15817468",
+      "37399373",
+      "23604254",
+      "32169216",
+      "37892234",
+      "34752340",
+      "25016018",
+      "23077507",
+      "38461904",
+      "10748214",
+      "11777902",
+      "27007854",
+      "28652372",
+      "17363685",
+      "29362459",
+      "12065593",
+      "23302795",
+      "30919361",
+      "22275358",
+      "35352338",
+      "21868357",
+      "39508463",
+      "24377933",
+      "36834700",
+      "1517224",
+      "24358341",
+      "11356842",
+      "27852822",
+      "10542263",
+      "36671883",
+      "11867621",
+      "10770944",
+      "16280323",
+      "32132133",
+      "15355986",
+      "21589858",
+      "29720660",
+      "23351735",
+      "18036556",
+      "33879605",
+      "35087057",
+      "16183993",
+      "36163356",
+      "21870240",
+      "17675294",
+      "38631405",
+      "20946952",
+      "30131371",
+      "32040695",
+      "31948726",
+      "12070169",
+      "17620599",
+      "32668755",
+      "26347956",
+      "28581517",
+      "9346876",
+      "12503639",
+      "22174878",
+      "29330504",
+      "37371033",
+      "21296876",
+      "34507982",
+      "36250246",
+      "16407241",
+      "15177932",
+      "28753425",
+      "23750009",
+      "18419762",
+      "32975788",
+      "33539669",
+      "23235155",
+      "36368322",
+      "10196181",
+      "12958365",
+      "11387315",
+      "32929862",
+      "32391018",
+      "11777932"
+    ],
+    "review": [
+      "38758647",
+      "24292830",
+      "39508463",
+      "23351735",
+      "20946952"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(24)00569-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

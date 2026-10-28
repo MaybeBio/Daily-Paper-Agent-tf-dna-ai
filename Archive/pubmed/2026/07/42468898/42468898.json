@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "42468898",
+    "doi": "10.1016/j.exer.2026.111176",
+    "title": "Preliminary analysis of biomarkers and molecular mechanisms in Graves' ophthalmopathy patients related to the retinol metabolic pathway."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study aimed to identify potential biomarkers for Graves' ophthalmopathy (GO) through bioinformatics analyses and to validate their expression at the cellular level, thereby providing new therapeutic targets for GO. METHOD: Differential analysis of the training set GSE58331 comparing patients to controls identified 42 GO-DEGs. Additionally, consensus clustering of patients based on 31 retinol metabolism pathway genes identified two molecular subtypes, and differential analysis between these subtypes yielded 2893 RM-DEGs. The intersection of GO-DEGs and RM-DEGs yielded 17 retinol metabolism-related differentially expressed genes (RMR-DEGs). Functional enrichment and machine learning were applied to identify candidate hub genes, which were subsequently validated using GPL30862. GO and control orbital fibroblasts were used for RT-qPCR/Western blot confirmation of hub expression. Comprehensive bioinformatics analysis, including artificial neural network modeling, genetic variation characterization, and small-molecule drug candidate prediction, was employed. RESULTS: A total of 42 DEGs were identified in the training set, and 2893 DEGs were obtained from the retinol metabolism pathway through consistent clustering. Seventeen overlapping DEGs were identified and saved as RMR-DEGs. Through PPI analysis, Lasso-logistic regression, and XGBoost modeling, three candidate hub genes were identified: F13A1, S100A8, and PPL. Moreover, validation using the GPL30862 dataset confirmed significant differences in S100A8 and PPL expression between GO and control groups, with S100A8 upregulated and PPL downregulated in GO detected by RT-qPCR and Western blot. GO samples exhibited increased immune cell infiltration. Transcription factor USF2 was predicted to regulate both S100A8 and PPL. ceRNA network analysis indicated that PPL primarily interacts with hsa-miR-340-5p, while S100A8 primarily interacts with hsa-miR-98-5p. CONCLUSION: PPL and S100A8 are both DEGs in GO patients and retinol metabolism, serving as biomarkers and potential therapeutic targets for Graves' ophthalmopathy.",
+    "keywords": [
+      "Bioinformatics",
+      "Biomarkers",
+      "Differentially expressed genes",
+      "Graves' ophthalmopathy",
+      "Periplakin",
+      "S100 calcium-binding protein A8"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Graves Ophthalmopathy/genetics/metabolism",
+      "*Biomarkers/metabolism",
+      "*Vitamin A/metabolism/genetics",
+      "*Gene Expression Regulation/physiology",
+      "Gene Expression Profiling",
+      "Computational Biology",
+      "Blotting, Western",
+      "Real-Time Polymerase Chain Reaction",
+      "Metabolic Networks and Pathways/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Lina",
+        "Peng, Xiaoqi",
+        "Zhang, Xiaoli",
+        "Yan, Yijun",
+        "Tao, Qingyuan",
+        "Liu, Haoqi",
+        "Li, Jumei",
+        "Jia, Li"
+      ],
+      "short_names": [
+        "Du L",
+        "Peng X",
+        "Zhang X",
+        "Yan Y",
+        "Tao Q",
+        "Liu H",
+        "Li J",
+        "Jia L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nuclear Medicine Major, Clinical Medical College of Dali University, Dali Bai Autonomous Prefecture, Yunnan Province, China.",
+        "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China.",
+        "Nuclear Medicine Major, Clinical Medical College of Dali University, Dali Bai Autonomous Prefecture, Yunnan Province, China.",
+        "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China.",
+        "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China.",
+        "Nuclear Medicine Major, Clinical Medical College of Dali University, Dali Bai Autonomous Prefecture, Yunnan Province, China.",
+        "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China.",
+        "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China. Electronic address: jiali760318@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Lina",
+        "short_name": "Du L",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Medicine Major, Clinical Medical College of Dali University, Dali Bai Autonomous Prefecture, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Xiaoqi",
+        "short_name": "Peng X",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoli",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Medicine Major, Clinical Medical College of Dali University, Dali Bai Autonomous Prefecture, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Yijun",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Qingyuan",
+        "short_name": "Tao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Haoqi",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Medicine Major, Clinical Medical College of Dali University, Dali Bai Autonomous Prefecture, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jumei",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Li",
+        "short_name": "Jia L",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Medicine Major, The Affiliated Hospital of Yunnan University, Kunming, Yunnan Province, China. Electronic address: jiali760318@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Experimental eye research"
+    ],
+    "journal_abbrev": [
+      "Exp Eye Res"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/18 00:38",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42468898",
+      "33613444",
+      "38259479",
+      "42565562",
+      "34536521",
+      "40986259",
+      "42180604",
+      "42123445",
+      "42599937",
+      "41703488",
+      "41145553",
+      "40374840",
+      "42327749",
+      "40821971",
+      "41146237",
+      "40901474",
+      "41338297",
+      "29063236",
+      "40211281",
+      "40790764",
+      "41367897",
+      "39735537",
+      "41044520",
+      "39359477",
+      "34553293",
+      "38509535",
+      "40216809",
+      "40374866",
+      "33407587",
+      "39375405",
+      "41288681",
+      "37059863",
+      "41544137",
+      "39349110",
+      "41200172",
+      "31987036",
+      "39754246",
+      "41729615",
+      "36076300",
+      "40406126",
+      "41964403",
+      "40628511",
+      "36056316",
+      "42302029",
+      "36479114",
+      "31673979",
+      "37359526",
+      "40312440",
+      "41052072",
+      "38268224",
+      "41583468",
+      "41030501",
+      "40442788",
+      "41214111",
+      "40948644",
+      "42243611",
+      "39789578",
+      "41444522",
+      "40215267",
+      "30975489",
+      "41479901",
+      "36104591",
+      "30132538",
+      "40055592",
+      "40340571",
+      "35663306",
+      "36291136",
+      "40776656",
+      "37063926",
+      "42397093",
+      "41258630",
+      "40665411",
+      "42109727",
+      "37875358",
+      "41530916",
+      "40685483",
+      "40589764",
+      "42065196",
+      "39028999",
+      "34285914",
+      "42358997",
+      "39118438",
+      "40241169",
+      "29257295",
+      "39108112",
+      "40263537",
+      "42509823",
+      "41115648",
+      "39697326",
+      "35401659",
+      "35378210",
+      "42471019",
+      "41511918",
+      "35278479",
+      "37254181",
+      "42128965",
+      "33658982",
+      "42009747",
+      "39080630",
+      "39793232"
+    ],
+    "review": [
+      "42468898",
+      "40665411"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-4835(26)00332-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/vitamina.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Vitamin A"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-5604",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

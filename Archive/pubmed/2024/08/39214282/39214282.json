@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "39214282",
+    "doi": "10.1016/j.jmb.2024.168769",
+    "title": "Deciphering the Language of Protein-DNA Interactions: A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling."
+  },
+  "content": {
+    "abstract": "Deciphering the mechanisms governing protein-DNA interactions is crucial for understanding key cellular processes and disease pathways. In this work, we present a powerful deep learning approach that significantly advances the computational prediction of DNA-interacting residues from protein sequences. Our method leverages the rich contextual representations learned by pre-trained protein language models, such as ProtTrans, to capture intrinsic biochemical properties and sequence motifs indicative of DNA binding sites. We then integrate these contextual embeddings with a multi-window convolutional neural network architecture, which scans across the sequence at varying window sizes to effectively identify both local and global binding patterns. Comprehensive evaluation on curated benchmark datasets demonstrates the remarkable performance of our approach, achieving an area under the ROC curve (AUC) of 0.89 - a substantial improvement over previous state-of-the-art sequence-based predictors. This showcases the immense potential of pairing advanced representation learning and deep neural network designs for uncovering the complex syntax governing protein-DNA interactions directly from primary sequences. Our work not only provides a robust computational tool for characterizing DNA-binding mechanisms, but also highlights the transformative opportunities at the intersection of language modeling, deep learning, and protein sequence analysis. The publicly available code and data further facilitate broader adoption and continued development of these techniques for accelerating mechanistic insights into vital biological processes and disease pathways. In addition, the code and data for this work are available at https://github.com/B1607/DIRP.",
+    "keywords": [
+      "DNA binding proteins",
+      "convolutional neural networks",
+      "deep learning",
+      "multiple windows scanning",
+      "pre-trained language model"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*DNA/metabolism/chemistry",
+      "*Computational Biology/methods",
+      "*Protein Binding",
+      "Binding Sites",
+      "DNA-Binding Proteins/metabolism/chemistry",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yu-Chen",
+        "Lin, Yi-Jing",
+        "Chang, Yan-Yun",
+        "Chuang, Cheng-Che",
+        "Ou, Yu-Yen"
+      ],
+      "short_names": [
+        "Liu YC",
+        "Lin YJ",
+        "Chang YY",
+        "Chuang CC",
+        "Ou YY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan.",
+        "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan.",
+        "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan.",
+        "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan.",
+        "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan; Graduate Program in Biomedical Informatics, Yuan Ze University, Chung-Li 32003, Taiwan. Electronic address: yien@saturn.yzu.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yu-Chen",
+        "short_name": "Liu YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Yi-Jing",
+        "short_name": "Lin YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, Yan-Yun",
+        "short_name": "Chang YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chuang, Cheng-Che",
+        "short_name": "Chuang CC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Ou, Yu-Yen",
+        "short_name": "Ou YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Yuan Ze University, Chung-Li 32003, Taiwan; Graduate Program in Biomedical Informatics, Yuan Ze University, Chung-Li 32003, Taiwan. Electronic address: yien@saturn.yzu.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/31 09:43",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "39833102"
+    ],
+    "refs": [],
+    "similar": [
+      "39214282",
+      "39576667",
+      "39653625",
+      "37871661",
+      "38830995",
+      "41977286",
+      "41172803",
+      "34073774",
+      "34905768",
+      "41257586",
+      "36049552",
+      "39788787",
+      "41168713",
+      "38642500",
+      "40359455",
+      "39833102",
+      "39456153",
+      "29722865",
+      "41564724",
+      "40919912",
+      "40914877",
+      "40646507",
+      "28245811",
+      "39270885",
+      "41844874",
+      "31186519",
+      "33837387",
+      "42099803",
+      "41791267",
+      "30808287",
+      "38975896",
+      "41634097",
+      "40209920",
+      "41578956",
+      "40601256",
+      "40914361",
+      "42105214",
+      "29993783",
+      "33334313",
+      "38281252",
+      "39900285",
+      "41290782",
+      "38349057",
+      "29970003",
+      "38733561",
+      "42013547",
+      "39695955",
+      "32920048",
+      "38316843",
+      "40439671",
+      "38064959",
+      "40054795",
+      "34073705",
+      "40742755",
+      "41370631",
+      "41284811",
+      "37824738",
+      "39121938",
+      "40102719",
+      "30106688",
+      "41686649",
+      "40036514",
+      "40119464",
+      "38347788",
+      "39510345",
+      "41232885",
+      "41921197",
+      "34571539",
+      "34550967",
+      "39795988",
+      "39316498",
+      "39747934",
+      "39798127",
+      "31593229",
+      "40483648",
+      "39357703",
+      "30423078",
+      "41762162",
+      "41133269",
+      "41920894",
+      "38171929",
+      "39714563",
+      "36935548",
+      "39528950",
+      "39237191",
+      "35652477",
+      "40598008",
+      "39332561",
+      "32960766",
+      "37328639",
+      "38701417",
+      "40121399",
+      "41285097",
+      "40957717",
+      "39488202",
+      "38630609",
+      "38461247",
+      "41257600",
+      "31483777",
+      "32808039"
+    ],
+    "review": [
+      "39214282",
+      "39833102",
+      "40209920"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(24)00389-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39214282",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

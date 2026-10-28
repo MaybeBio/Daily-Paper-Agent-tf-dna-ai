@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40233742",
+  "title": "Integration of protein stability and AlphaMissense scores improves bioinformatic impact prediction for p53 missense and in-frame amino acid deletion variants.",
+  "authors": "Rotenberg, Nitsan; Fortuno, Cristina; Varga, Matthew J; Chamberlin, Adam C; Ramadane-Morchadi, Lobna; Feng, Bing-Jian; de la Hoya, Miguel; Richardson, Marcy E; Spurdle, Amanda B",
+  "journal": "American journal of human genetics",
+  "published_date": "2025-04-16",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合AlphaMissense与蛋白稳定性DeltaDeltaG预测p53错义及缺失变异致病性，虽涉及蛋白-DNA互作体系（p53为转录因子），但核心是变异致病性分类而非TF-DNA结合位点或互作机制建模，方法上仅用FoldX/Rosetta计算稳定性，无AI或MD对结合界面的直接建模，故为中档。",
+  "abstract": "The clinical classification of germline missense variants and single-amino-acid deletions is challenging. The BayesDel and Align-GVGD bioinformatic prediction tools currently used for ClinGen TP53 variant curation expert panel (VCEP) classification do not directly capture changes in protein folding stability, measured using computed destabilization energies (DeltaDeltaG scores). The AlphaMissense tool recently developed by Google DeepMind to predict pathogenicity for all human proteome missense variants is trained in part using AlphaFold2 architecture. Our study investigated whether protein folding stability and/or AlphaMissense scores could improve impact prediction for p53 missense and single-amino-acid deletion variants. DeltaDeltaG scores were calculated for missense variants using FoldX and for single-amino-acid deletions using an AlphaFold2/RosettaRelax protocol. Residue surface exposure was categorized using relative solvent accessibility (RSA) measures. The predictive values of DeltaDeltaG scores, AlphaMissense, BayesDel, and Align-GVGD were examined using Boruta and binary logistic regression based on functionally defined reference sets. The likelihood ratio (LR) toward pathogenicity was estimated and used to refine optimal categories for predicting variant pathogenicity for different RSA values. We showed that current VCEP predictive approaches for missense variants were improved by integrating DeltaDeltaG scores >/=2.5 kcal/mol for partially buried and buried residues, but better performance was achieved using AlphaMissense with DeltaDeltaG and RSA. For deletion variants, DeltaDeltaG scores >/=4.8 Rosetta energy unit (REU) in buried residues outperformed currently used predictive approaches. Future TP53 VCEP specifications for p53 missense impact prediction may consider AlphaMissense, DeltaDeltaG score, and RSA combined for substitution variants and DeltaDeltaG score alone for deletion variants.",
+  "abstract_zh": "种系错义变异和单氨基酸缺失的临床分类具有挑战性。目前用于ClinGen TP53变异 curation 专家小组（VCEP）分类的BayesDel和Align-GVGD生物信息学预测工具并未直接捕捉蛋白质折叠稳定性的变化，这些变化通过计算去稳定化能量（DeltaDeltaG分数）来测量。Google DeepMind最近开发的AlphaMissense工具旨在预测所有人类蛋白质组错义变异的致病性，其训练部分基于AlphaFold2架构。我们的研究调查了蛋白质折叠稳定性和/或AlphaMissense分数是否能改善p53错义和单氨基酸缺失变异的影响预测。使用FoldX计算错义变异的DeltaDeltaG分数，并使用AlphaFold2/RosettaRelax协议计算单氨基酸缺失的DeltaDeltaG分数。残基表面暴露通过相对溶剂可及性（RSA）测量进行分类。使用Boruta和基于功能定义参考集的二元逻辑回归检验了DeltaDeltaG分数、AlphaMissense、BayesDel和Align-GVGD的预测价值。估计了致病性的似然比（LR），并用于细化不同RSA值下预测变异致病性的最佳类别。我们表明，通过整合部分埋藏和埋藏残基的DeltaDeltaG分数>/=2.5 kcal/mol，当前VCEP对错义变异的预测方法得到改善，但使用AlphaMissense结合DeltaDeltaG和RSA实现了更好的性能。对于缺失变异，埋藏残基中DeltaDeltaG分数>/=4.8 Rosetta能量单位（REU）优于当前使用的预测方法。未来TP53 VCEP规范中，对于p53错义影响预测，可考虑将AlphaMissense、DeltaDeltaG分数和RSA结合用于替换变异，而仅使用DeltaDeltaG分数用于缺失变异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40233742/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40233742/",
+  "paper_page_path": "papers/pubmed/40233742/index.html"
+}

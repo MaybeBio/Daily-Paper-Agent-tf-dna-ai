@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "42209541",
+    "doi": "10.1038/s41598-025-32233-1",
+    "title": "Virtual immunohistochemistry by conditional generative adversarial networks."
+  },
+  "content": {
+    "abstract": "Histopathological diagnosis is crucial for assisting doctors and veterinarians with timely treatment strategy selection and optimal patient management. After the hematoxylin and eosin (H&E) staining process, immunohistochemistry (IHC) staining is often required, resulting in a longer turnaround time but providing more disease-specific information. In this study, we propose a Virtual IHC Generative Adversarial Network (VihcGAN) model to transform the H&E stained images of formalin-fixed sections from canine lymph nodes into CD3 and PAX5 IHC stained images, providing a feasible procedure to obtain virtually IHC stained images paired with H&E images. We further propose a novel metric stain Intersection over Union (IoU) to evaluate the accuracy of IHC stained images by incorporating the knowledge of IHC staining, such as the type, number, and position of stained cells. Virtual IHC staining via VihcGAN is computationally fast, with 1 second per image, and thus can bypass time-consuming and costly IHC procedures. Moreover, VihcGAN generates images with a high resolution of 2048  x 2048, which is much higher than related studies. Experimental results on image quality, metrics, expert grading, and visualization assessment demonstrate the effectiveness of our approach. Source code for VihcGAN and Stain IoU metric are available at https://github.com/coffeeNtv/VihcGAN .",
+    "keywords": [],
+    "mesh_terms": [
+      "Generative Adversarial Networks",
+      "Animals",
+      "*Immunohistochemistry/methods",
+      "Dogs",
+      "*Image Processing, Computer-Assisted/methods",
+      "Lymph Nodes/pathology/metabolism",
+      "Staining and Labeling/methods",
+      "Generative Artificial Intelligence",
+      "CD3 Complex/metabolism",
+      "PAX5 Transcription Factor/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Wei",
+        "Hui, Tik Ho",
+        "Tse, May",
+        "Chen, Zhen",
+        "Manno, Francis A M",
+        "Hill, Fraser",
+        "Lau, Condon",
+        "Li, Xinyue"
+      ],
+      "short_names": [
+        "Zhang W",
+        "Hui TH",
+        "Tse M",
+        "Chen Z",
+        "Manno FAM",
+        "Hill F",
+        "Lau C",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Deparment of Data Science, College of Computing, City Univiersity of Hong Kong, Hong Kong SAR, China.",
+        "Department of Physics, City Univiersity of Hong Kong, Hong Kong SAR, China.",
+        "Veterinary Diagnostic Laboratory Medical Centre, City Univiersity of Hong Kong, Hong Kong SAR, China.",
+        "Centre for Artificial Intelligence and Robotics (CAIR), Hong Kong Institute of Science & Innovation, Chinese Academy of Sciences, Hong Kong SAR, China.",
+        "Department of Physics, City Univiersity of Hong Kong, Hong Kong SAR, China.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA.",
+        "Veterinary Diagnostic Laboratory Medical Centre, City Univiersity of Hong Kong, Hong Kong SAR, China.",
+        "Department of Physics, City Univiersity of Hong Kong, Hong Kong SAR, China.",
+        "Deparment of Data Science, College of Computing, City Univiersity of Hong Kong, Hong Kong SAR, China. xinyueli@cityu.edu.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Deparment of Data Science, College of Computing, City Univiersity of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Hui, Tik Ho",
+        "short_name": "Hui TH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, City Univiersity of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Tse, May",
+        "short_name": "Tse M",
+        "identifiers": [],
+        "affiliations": [
+          "Veterinary Diagnostic Laboratory Medical Centre, City Univiersity of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhen",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Artificial Intelligence and Robotics (CAIR), Hong Kong Institute of Science & Innovation, Chinese Academy of Sciences, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Manno, Francis A M",
+        "short_name": "Manno FAM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, City Univiersity of Hong Kong, Hong Kong SAR, China.",
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Hill, Fraser",
+        "short_name": "Hill F",
+        "identifiers": [],
+        "affiliations": [
+          "Veterinary Diagnostic Laboratory Medical Centre, City Univiersity of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Lau, Condon",
+        "short_name": "Lau C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, City Univiersity of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinyue",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Deparment of Data Science, College of Computing, City Univiersity of Hong Kong, Hong Kong SAR, China. xinyueli@cityu.edu.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 May 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:42",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37654717",
+      "36448447",
+      "35625558",
+      "33784619",
+      "33430240",
+      "33217963",
+      "32411363",
+      "32238879",
+      "31142829",
+      "30728961",
+      "30307746",
+      "25122572",
+      "24129895",
+      "21292594",
+      "20671804",
+      "20212918",
+      "15376593"
+    ],
+    "similar": [
+      "42209541",
+      "41747115",
+      "34362386",
+      "40030860",
+      "39678164",
+      "33784619",
+      "40158294",
+      "41118427",
+      "41182920",
+      "41945805",
+      "38282056",
+      "32432709",
+      "41187597",
+      "41308536",
+      "42209557",
+      "38325211",
+      "41284417",
+      "39147031",
+      "39241330",
+      "38532927",
+      "41032781",
+      "39270248",
+      "37265876",
+      "39024079",
+      "40946794",
+      "40384494",
+      "41336375",
+      "41237448",
+      "40016308",
+      "38648120",
+      "32238879",
+      "41628093",
+      "41250202",
+      "34306174",
+      "41337381",
+      "39283778",
+      "38600621",
+      "40953092",
+      "42039392",
+      "22515559",
+      "39762786",
+      "42311953",
+      "39579455",
+      "30283195",
+      "32362707",
+      "37850170",
+      "41336802",
+      "39094325",
+      "41930704",
+      "40300522",
+      "37040684",
+      "41298143",
+      "42172914",
+      "41033352",
+      "38461438",
+      "38588884",
+      "40712735",
+      "37301181",
+      "39096614",
+      "29742125",
+      "36764189",
+      "31142829",
+      "32803890",
+      "36857953",
+      "37011426",
+      "37860562",
+      "39298886",
+      "36113326",
+      "39007128",
+      "39531922",
+      "37725720",
+      "32407341",
+      "33299110",
+      "41359740",
+      "35810588",
+      "41421266",
+      "41310372",
+      "41616975",
+      "39087085",
+      "34780985",
+      "42009157",
+      "32514884",
+      "41690144",
+      "16790449",
+      "19335461",
+      "26353368",
+      "37223268",
+      "39106763",
+      "37867633",
+      "41691015",
+      "39740473",
+      "42229484",
+      "38598626",
+      "39069201",
+      "42191021",
+      "37890670",
+      "40797618",
+      "39304200",
+      "39653875",
+      "41478227"
+    ],
+    "review": [
+      "42209541",
+      "37890670"
+    ],
+    "pmc": [
+      "13451361"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-32233-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42209541/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

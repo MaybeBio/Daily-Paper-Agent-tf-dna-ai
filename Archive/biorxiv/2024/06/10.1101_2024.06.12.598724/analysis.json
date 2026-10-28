@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.12.598724",
+  "title": "Understanding the heterogeneous performance of variant effect predictors across human protein-coding genes",
+  "authors": "Fawzy M; Marsh JA",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-14",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文评估35种变异效应预测器在人类基因上的性能异质性，聚焦致病性判别而非蛋白质-DNA互作，无AI/物理模拟结合建模，与本课题无关。",
+  "abstract": "Variant effect predictors (VEPs) are computational tools developed to assess the impacts of genetic mutations, often in terms of likely pathogenicity, employing diverse algorithms and training data. Here, we investigate the performance of 35 VEPs in the discrimination between pathogenic and putatively benign missense variants across 963 human protein-coding genes, revealing considerable gene-level heterogeneity as measured by the widely used area under the receiver operating characteristic curve (AUROC) metric. To investigate the origins of this heterogeneity and the extent to which gene-level VEP performance is predictable, we train random forest models to predict the gene-level AUROC for each VEP. We find that performance as measured by AUROC is related to factors such as gene function, protein structure, and evolutionary conservation. Notably, intrinsic disorder in proteins emerged as a significant factor influencing apparent VEP performance, often leading to inflated AUROC values due to their enrichment in weakly conserved putatively benign variants. While our results suggest that gene-level features may be useful for identifying genes where VEP predictions are likely to be more or less reliable, they also highlight the limitations of AUROC for comparing VEP performance across different genes.",
+  "abstract_zh": "变异效应预测器（VEPs）是开发用于评估遗传突变影响的计算工具，通常以可能的致病性为考量，采用多种算法和训练数据。在此，我们研究了35种VEPs在区分963个人类蛋白质编码基因中的致病性和推定良性错义变异方面的性能，揭示了通过广泛使用的接收者操作特征曲线下面积（AUROC）指标衡量的显著基因水平异质性。为探究这种异质性的起源以及基因水平VEP性能的可预测程度，我们训练随机森林模型来预测每种VEP的基因水平AUROC。我们发现，以AUROC衡量的性能与基因功能、蛋白质结构和进化保守性等因素相关。值得注意的是，蛋白质中的内在无序性成为影响VEP表观性能的重要因素，通常由于其在弱保守的推定良性变异中富集而导致AUROC值虚高。尽管我们的结果表明，基因水平特征可能有助于识别VEP预测可靠性较高或较低的基因，但它们也突显了AUROC在比较不同基因间VEP性能时的局限性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.12.598724",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.12.598724",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.12.598724/index.html"
+}

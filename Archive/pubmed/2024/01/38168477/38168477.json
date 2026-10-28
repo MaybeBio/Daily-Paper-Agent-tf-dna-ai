@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "38168477",
+    "doi": "10.1038/s41598-023-50954-z",
+    "title": "Exploring shared therapeutic targets in diabetic cardiomyopathy and diabetic foot ulcers through bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Advanced diabetic cardiomyopathy (DCM) patients are often accompanied by severe peripheral artery disease. For patients with DCM combined with diabetic foot ulcer (DFU), there are currently no good therapeutic targets and drugs. Here, we investigated the underlying network of molecular actions associated with the occurrence of these two complications. The datasets were downloaded from the Gene Expression Omnibus (GEO) database. We performed enrichment and protein-protein interaction analyses, and screened for hub genes. Construct transcription factors (TFs) and microRNAs regulatory networks for validated hub genes. Finally, drug prediction and molecular docking verification were performed. We identified 299 common differentially expressed genes (DEGs), many of which were involved in inflammation and lipid metabolism. 6 DEGs were identified as hub genes (PPARG, JUN, SLC2A1, CD4, SCARB1 and SERPINE1). These 6 hub genes were associated with inflammation and immune response. We identified 31 common TFs and 2 key miRNAs closely related to hub genes. Interestingly, our study suggested that fenofibrate, a lipid-lowering medication, holds promise as a potential treatment for DCM combined with DFU due to its stable binding to the identified hub genes. Here, we revealed a network involves a common target for DCM and DFU. Understanding these networks and hub genes is pivotal for advancing our comprehension of the multifaceted complications of diabetes and facilitating the development of future therapeutic interventions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetic Cardiomyopathies/drug therapy/genetics",
+      "*Diabetic Foot/drug therapy/genetics",
+      "Molecular Docking Simulation",
+      "*MicroRNAs/genetics",
+      "Computational Biology",
+      "Inflammation/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "*Diabetes Mellitus"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Hanlin",
+        "Yang, Zheming",
+        "Wang, Jing",
+        "Bu, Yuxin",
+        "Wang, Yani",
+        "Xu, Kai",
+        "Li, Jing",
+        "Yan, Chenghui",
+        "Liu, Dan",
+        "Han, Yaling"
+      ],
+      "short_names": [
+        "Wu H",
+        "Yang Z",
+        "Wang J",
+        "Bu Y",
+        "Wang Y",
+        "Xu K",
+        "Li J",
+        "Yan C",
+        "Liu D",
+        "Han Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dalian Medical University, Dalian, 116044, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China. ljmuer@sina.com.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China. hanyaling@163.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Hanlin",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Dalian Medical University, Dalian, 116044, Liaoning Province, China.",
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zheming",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Bu, Yuxin",
+        "short_name": "Bu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yani",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Kai",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Chenghui",
+        "short_name": "Yan C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dan",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China. ljmuer@sina.com."
+        ]
+      },
+      {
+        "full_name": "Han, Yaling",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases, Department of Cardiology and Cardiovascular Research Institute, General Hospital of Northern Theater Command, Wenhua Road 83, Shenyang, 110016, Liaoning Province, China. hanyaling@163.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jan 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 01:18",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "40289101",
+      "39696281"
+    ],
+    "refs": [
+      "37884128",
+      "37742032",
+      "37395769",
+      "37156885",
+      "36726122",
+      "36548709",
+      "36300620",
+      "36277768",
+      "36202222",
+      "36167814",
+      "36134579",
+      "36122436",
+      "35587588",
+      "35016990",
+      "34425083",
+      "33975440",
+      "33439236",
+      "33433568",
+      "33152439",
+      "32615612",
+      "32398868",
+      "32213513",
+      "31768033",
+      "31441146",
+      "30973809",
+      "30786741",
+      "30765336",
+      "30395331",
+      "30089861",
+      "30084940",
+      "29377202",
+      "27494688",
+      "27141961",
+      "27078104",
+      "26965621",
+      "26678809",
+      "25982116",
+      "25131348",
+      "23203871",
+      "21942979",
+      "19864250",
+      "18245775",
+      "17210646",
+      "16310551",
+      "16051889",
+      "12618758",
+      "11752295",
+      "10592173",
+      "4263660"
+    ],
+    "similar": [
+      "38168477",
+      "39037979",
+      "36443035",
+      "36726122",
+      "36062083",
+      "37985432",
+      "36046789",
+      "38691241",
+      "35438360",
+      "38961143",
+      "37904457",
+      "39079197",
+      "38287255",
+      "35773742",
+      "35957838",
+      "34844599",
+      "37355664",
+      "37047484",
+      "37740761",
+      "36154667",
+      "38015522",
+      "36819522",
+      "34926700",
+      "36104591",
+      "31987036",
+      "32626989",
+      "36291136",
+      "34218797",
+      "38041124",
+      "37935719",
+      "37250717",
+      "36899621",
+      "35282347",
+      "34513999",
+      "31424269",
+      "35909518",
+      "35757478",
+      "37063926",
+      "35762549",
+      "35909542",
+      "36499614",
+      "38468410",
+      "33902539",
+      "36733486",
+      "37249237",
+      "33083497",
+      "34215202",
+      "33314661",
+      "32705182",
+      "33816621",
+      "38358067",
+      "36755923",
+      "37268658",
+      "38754569",
+      "37909396",
+      "35387435",
+      "34536521",
+      "37288289",
+      "35506308",
+      "31311829",
+      "36049413",
+      "38862997",
+      "30602391",
+      "29921304",
+      "39228680",
+      "35757392",
+      "38434138",
+      "38007751",
+      "35378210",
+      "34983906",
+      "35702326",
+      "30246236",
+      "34899600",
+      "30542696",
+      "35132271",
+      "39044840",
+      "34234459",
+      "31088900",
+      "38469146",
+      "34908186",
+      "38041130",
+      "37686108",
+      "36689408",
+      "37100862",
+      "31180540",
+      "36627660",
+      "36786134",
+      "37986378",
+      "33622336",
+      "34390411",
+      "35562622",
+      "33102604",
+      "36471356",
+      "38166541",
+      "36076300",
+      "34968391",
+      "36635346",
+      "33407587",
+      "34758532",
+      "36700234",
+      "34553293",
+      "35975032",
+      "37773794",
+      "35620387",
+      "31322209",
+      "37936615",
+      "37926487",
+      "38613800",
+      "38774446",
+      "36741233",
+      "39318238",
+      "38883633",
+      "38111702"
+    ],
+    "review": [
+      "38168477"
+    ],
+    "pmc": [
+      "10761883"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabeticfoot.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Foot"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-50954-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38168477/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38168477",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1150",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

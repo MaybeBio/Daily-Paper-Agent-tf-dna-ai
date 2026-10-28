@@ -1,0 +1,159 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.24.513593",
+  "title": "EUGENe: A Python toolkit for predictive analyses of regulatory sequences",
+  "doi": "10.1101/2022.10.24.513593",
+  "abstract": "Deep learning (DL) has become a popular tool to study cis-regulatory element function. Yet efforts to design software for DL analyses in genomics that are Findable, Accessible, Interoperable and Reusable (FAIR) have fallen short of fully meeting these criteria. Here we present EUGENe ( E lucidating the U tility of G enomic E lements with Ne ural Nets), a FAIR toolkit for the analysis of labeled sets of nucleotide sequences with DL. EUGENe consists of a set of modules that empower users to execute the key functionality of a DL workflow: 1) extracting, transforming and loading sequence data from many common file formats, 2) instantiating, initializing and training diverse model architectures, and 3) evaluating and interpreting model behavior. We designed EUGENe to be simple; users can develop workflows on new or existing datasets with two customizable Python objects, annotated sequence data (SeqData) and PyTorch models (BaseModel). The modularity and simplicity of EUGENe also make it highly extensible and we illustrate these principles through application of the toolkit to three predictive modeling tasks. First, we train and compare a set of built-in models along with a custom architecture for the accurate prediction of activities of plant promoters from STARR-seq data. Next, we apply EUGENe to an RNA binding prediction task and showcase how seminal model architectures can be retrained in EUGENe or imported from Kipoi. Finally, we train models to classify transcription factor binding by wrapping functionality from Janngu, which can efficiently extract sequences in BED file format from the human genome. We emphasize that the code used in each use case is simple, readable, and well documented ( https://eugene-tools.readthedocs.io/en/latest/index.html ). We believe that EUGENe represents a springboard toward a collaborative ecosystem for DL applications in genomics research. EUGENe is available for download on GitHub ( https://github.com/cartercompbio/EUGENe ) along with several introductory tutorials and for installation on PyPi ( https://pypi.org/project/eugene-tools/ ).",
+  "authors": [
+    "Klie A",
+    "Stites H",
+    "Jores T",
+    "Solvason JJ",
+    "Farley EK",
+    "Carter H"
+  ],
+  "published_date": "2022-10-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.24.513593",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.24.513593.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR563329",
+    "raw_record": {
+      "id": "PPR563329",
+      "source": "PPR",
+      "doi": "10.1101/2022.10.24.513593",
+      "title": "EUGENe: A Python toolkit for predictive analyses of regulatory sequences",
+      "authorString": "Klie A, Stites H, Jores T, Solvason JJ, Farley EK, Carter H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Klie A",
+            "lastName": "Klie",
+            "firstName": "Adam",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7600-3086"
+            }
+          },
+          {
+            "fullName": "Stites H",
+            "lastName": "Stites",
+            "firstName": "Hayden",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3448-2613"
+            }
+          },
+          {
+            "fullName": "Jores T",
+            "lastName": "Jores",
+            "firstName": "Tobias",
+            "initials": "T"
+          },
+          {
+            "fullName": "Solvason JJ",
+            "lastName": "Solvason",
+            "firstName": "Joe",
+            "initials": "JJ"
+          },
+          {
+            "fullName": "Farley EK",
+            "lastName": "Farley",
+            "firstName": "Emma",
+            "initials": "EK"
+          },
+          {
+            "fullName": "Carter H",
+            "lastName": "Carter",
+            "firstName": "Hannah",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1729-2463"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1729-2463"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3448-2613"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7600-3086"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Deep learning (DL) has become a popular tool to study cis-regulatory element function. Yet efforts to design software for DL analyses in genomics that are Findable, Accessible, Interoperable and Reusable (FAIR) have fallen short of fully meeting these criteria. Here we present EUGENe (  E lucidating the  U tility of  G enomic  E lements with  Ne ural Nets), a FAIR toolkit for the analysis of labeled sets of nucleotide sequences with DL. EUGENe consists of a set of modules that empower users to execute the key functionality of a DL workflow: 1) extracting, transforming and loading sequence data from many common file formats, 2) instantiating, initializing and training diverse model architectures, and 3) evaluating and interpreting model behavior. We designed EUGENe to be simple; users can develop workflows on new or existing datasets with two customizable Python objects, annotated sequence data (SeqData) and PyTorch models (BaseModel). The modularity and simplicity of EUGENe also make it highly extensible and we illustrate these principles through application of the toolkit to three predictive modeling tasks. First, we train and compare a set of built-in models along with a custom architecture for the accurate prediction of activities of plant promoters from STARR-seq data. Next, we apply EUGENe to an RNA binding prediction task and showcase how seminal model architectures can be retrained in EUGENe or imported from Kipoi. Finally, we train models to classify transcription factor binding by wrapping functionality from Janngu, which can efficiently extract sequences in BED file format from the human genome. We emphasize that the code used in each use case is simple, readable, and well documented (  https://eugene-tools.readthedocs.io/en/latest/index.html ). We believe that EUGENe represents a springboard toward a collaborative ecosystem for DL applications in genomics research. EUGENe is available for download on GitHub (  https://github.com/cartercompbio/EUGENe ) along with several introductory tutorials and for installation on PyPi (  https://pypi.org/project/eugene-tools/ ).",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/09/2022.10.24.513593.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.24.513593"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-10-28",
+      "firstPublicationDate": "2022-10-26",
+      "firstIndexDate": "2022-10-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "34635730",
+    "doi": "10.1038/s41598-021-99625-x",
+    "title": "Association of TLR 9 gene polymorphisms with remission in patients with rheumatoid arthritis receiving TNF-alpha inhibitors and development of machine learning models."
+  },
+  "content": {
+    "abstract": "Toll-like receptor (TLR)-4 and TLR9 are known to play important roles in the immune system, and several studies have shown their association with the development of rheumatoid arthritis (RA) and regulation of tumor necrosis factor alpha (TNF-alpha). However, studies that investigate the association between TLR4 or TLR9 gene polymorphisms and remission of the disease in RA patients taking TNF-alpha inhibitors have yet to be conducted. In this context, this study was designed to investigate the effects of polymorphisms in TLR4 and TLR9 on response to TNF-alpha inhibitors and to train various models using machine learning approaches to predict remission. A total of six single nucleotide polymorphisms (SNPs) were investigated. Logistic regression analysis was used to investigate the association between genetic polymorphisms and response to treatment. Various machine learning methods were utilized for prediction of remission. After adjusting for covariates, the rate of remission of T-allele carriers of TLR9 rs352139 was about 5 times that of the CC-genotype carriers (95% confidence interval (CI) 1.325-19.231, p = 0.018). Among machine learning algorithms, multivariate logistic regression and elastic net showed the best prediction with the area under the receiver-operating curve (AUROC) value of 0.71 (95% CI 0.597-0.823 for both models). This study showed an association between a TLR9 polymorphism (rs352139) and treatment response in RA patients receiving TNF-alpha inhibitors. Moreover, this study utilized various machine learning methods for prediction, among which the elastic net provided the best model for remission prediction.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Aged, 80 and over",
+      "Antirheumatic Agents/*therapeutic use",
+      "Arthritis, Rheumatoid/drug therapy/genetics/*pathology",
+      "Female",
+      "Follow-Up Studies",
+      "*Genetic Predisposition to Disease",
+      "Genotype",
+      "Humans",
+      "*Machine Learning",
+      "Male",
+      "Middle Aged",
+      "*Polymorphism, Single Nucleotide",
+      "Prognosis",
+      "Toll-Like Receptor 9/*genetics",
+      "Tumor Necrosis Factor-alpha/*therapeutic use",
+      "Young Adult"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Woorim",
+        "Kim, Tae Hyeok",
+        "Oh, Soo Jin",
+        "Kim, Hyun Jeong",
+        "Kim, Joo Hee",
+        "Kim, Hyoun-Ah",
+        "Jung, Ju-Yang",
+        "Choi, In Ah",
+        "Lee, Kyung Eun"
+      ],
+      "short_names": [
+        "Kim W",
+        "Kim TH",
+        "Oh SJ",
+        "Kim HJ",
+        "Kim JH",
+        "Kim HA",
+        "Jung JY",
+        "Choi IA",
+        "Lee KE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea.",
+        "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea.",
+        "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea.",
+        "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea.",
+        "College of Pharmacy, Ajou University, 164 Worldcup-ro, Yeongtong-gu, Suwon, 16499, Republic of Korea.",
+        "Department of Rheumatology, Ajou University School of Medicine, 164 Worldcup-ro, Yeongtong-gu, Suwon, 16499, Republic of Korea.",
+        "Department of Rheumatology, Ajou University School of Medicine, 164 Worldcup-ro, Yeongtong-gu, Suwon, 16499, Republic of Korea.",
+        "Division of Rheumatology, Department of Internal Medicine, Chungbuk National University Hospital, 776, 1sunhwan-ro, Seowon-gu, Cheongju, 28644, Republic of Korea. iachoi@chungbuk.ac.kr.",
+        "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea. kaylee@cbnu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Woorim",
+        "short_name": "Kim W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Tae Hyeok",
+        "short_name": "Kim TH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Oh, Soo Jin",
+        "short_name": "Oh SJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyun Jeong",
+        "short_name": "Kim HJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Joo Hee",
+        "short_name": "Kim JH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Ajou University, 164 Worldcup-ro, Yeongtong-gu, Suwon, 16499, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyoun-Ah",
+        "short_name": "Kim HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, Ajou University School of Medicine, 164 Worldcup-ro, Yeongtong-gu, Suwon, 16499, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jung, Ju-Yang",
+        "short_name": "Jung JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, Ajou University School of Medicine, 164 Worldcup-ro, Yeongtong-gu, Suwon, 16499, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, In Ah",
+        "short_name": "Choi IA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology, Department of Internal Medicine, Chungbuk National University Hospital, 776, 1sunhwan-ro, Seowon-gu, Cheongju, 28644, Republic of Korea. iachoi@chungbuk.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Lee, Kyung Eun",
+        "short_name": "Lee KE",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chungbuk National University, 660-1 Yeonje-ri, Osong-eup, Heungdeok-gu, Cheongju, 28160, Republic of Korea. kaylee@cbnu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Oct 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/13 06:00",
+    "fetched_at": "2026-09-28 00:48:48"
+  },
+  "links": {
+    "cites": [
+      "41369391",
+      "41219784",
+      "40821978",
+      "40615474",
+      "40495154",
+      "40192881",
+      "38505413",
+      "38481344",
+      "37667233",
+      "37485476",
+      "37139337",
+      "35309296"
+    ],
+    "refs": [
+      "28724396",
+      "27567553",
+      "26759164",
+      "26657631",
+      "25573402",
+      "24820765",
+      "24776844",
+      "23644550",
+      "23234648",
+      "22992668",
+      "22459416",
+      "21984766",
+      "20173386",
+      "19898481",
+      "19835640",
+      "19772831",
+      "19355917",
+      "19035519",
+      "18987647",
+      "18513998",
+      "17599732",
+      "17493863",
+      "17467812",
+      "16507115",
+      "16497588",
+      "16410796",
+      "16339095",
+      "15593217",
+      "15107846",
+      "12049175",
+      "11477402",
+      "11125122"
+    ],
+    "similar": [
+      "34635730",
+      "37119459",
+      "35914450",
+      "28677621",
+      "34320607",
+      "33939072",
+      "25311255",
+      "34177886",
+      "20444755",
+      "20448286",
+      "26453102",
+      "20309874",
+      "25850964",
+      "22480748",
+      "16142857",
+      "31342661",
+      "26440629",
+      "20194454",
+      "26350950",
+      "31886298",
+      "28143790",
+      "23148991",
+      "25182168",
+      "20422193",
+      "26307125",
+      "27698401",
+      "23233654",
+      "21633947",
+      "23292520",
+      "27126784",
+      "27074847",
+      "24040234",
+      "16705046",
+      "36835522",
+      "34627335",
+      "24728031",
+      "17207378",
+      "21813066",
+      "20423481",
+      "33833756",
+      "20805296",
+      "21777909",
+      "16909270",
+      "28107378",
+      "24053111",
+      "34175943",
+      "28607508",
+      "21179534",
+      "26548749",
+      "30287909",
+      "20307689",
+      "30945669",
+      "33640008",
+      "15695296",
+      "31692815",
+      "37395839",
+      "19855253",
+      "15457442",
+      "17611987",
+      "29860675",
+      "26184955",
+      "29404828",
+      "19578646",
+      "19134200",
+      "18930989",
+      "35999028",
+      "22129793",
+      "31278284",
+      "29286214",
+      "26546586",
+      "23294975",
+      "18713756",
+      "23294992",
+      "28340580",
+      "26526676",
+      "23007924",
+      "18427872",
+      "17143972",
+      "25028383",
+      "19926672",
+      "22691414",
+      "16013998",
+      "30916218",
+      "26003199",
+      "28639493",
+      "20235210",
+      "25844529",
+      "35022146",
+      "36750873",
+      "39064094",
+      "24323394",
+      "36262248",
+      "35094058",
+      "39226650",
+      "31602041",
+      "34890271",
+      "22752090",
+      "32214841"
+    ],
+    "review": [
+      "34635730",
+      "25850964",
+      "20194454",
+      "27074847",
+      "24728031",
+      "16909270",
+      "28607508",
+      "30287909",
+      "26184955",
+      "23007924",
+      "17143972",
+      "16013998",
+      "30916218",
+      "20235210",
+      "39226650",
+      "34890271",
+      "22752090"
+    ],
+    "pmc": [
+      "8505487"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-021-99625-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34635730/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34635730",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "identity": {
+    "pmid": "41677071",
+    "doi": "10.1111/pbi.70586",
+    "title": "PlantCTCIP: Chromatin Interaction Prediction Using Convolutional Neural Network and Transformer in Plants."
+  },
+  "content": {
+    "abstract": "Chromatin interactions establish spatial proximity between distant regulatory elements and their target genes, significantly influencing gene expression, and phenotypic traits. In this study, we present a plant chromatin interaction prediction model called PlantCTCIP based on Convolutional Neural Networks and Transformer. PlantCTCIP demonstrated superior performance compared to the conventional models. Specifically, PlantCTCIP improved the average AUC of chromatin interaction predictions by 14.56% across the four species in PPI (proximal promoter interaction) mode. Similarly, PlantCTCIP improved the average AUC of chromatin interaction predictions by 9.6% in the PDI (distal promoter interaction) mode. We constructed genome-wide chromatin interaction maps for four plants (maize, rice, cotton and wheat) through PlantCTCIP, further used the Hi-C experiment to validate correctness of the predicted PPIs and PDIs. Some key motifs that influence chromatin interactions are identified, and they are significantly enriched in expression quantitative trait loci (eQTLs) and open chromatin regions. We also analysed the enrichment and species specificity of the transcription factors (TF) and synergistic network of TFs that affect PPIs and PDIs of four crops. Using cloned genes (ZmRAVL1, ZmRPG, ZmRap2.7 and GaFZ) of maize and cotton as examples, PlantCTCIP can assist in identifying target genes regulated by distal elements and mining functional sites combined with chromatin conformation capture (3C) experiments. This research helps to analyse the regulatory mechanism of gene expression and provides novel perspectives for intelligent design breeding of diverse crops. PlantCTCIP is available at http://www.plantctcip.com.",
+    "keywords": [
+      "TF collaboration",
+      "chromatin interactions",
+      "deep learning",
+      "plants",
+      "regulatory elements"
+    ],
+    "mesh_terms": [
+      "Convolutional Neural Networks",
+      "*Chromatin/metabolism/genetics",
+      "Quantitative Trait Loci/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Triticum/genetics",
+      "Oryza/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Zhenye",
+        "Zhou, Siyu",
+        "Guo, Ze",
+        "Ning, Zilan",
+        "Cai, Jiaqi",
+        "Zhao, Ran",
+        "Xie, Ao",
+        "Li, Quan",
+        "Zhang, Jiangling",
+        "Zhao, Yongsheng",
+        "Li, Peizhang",
+        "Si, Haiping",
+        "Yan, Jianbing",
+        "Peng, Yong",
+        "Liu, Jianxiao"
+      ],
+      "short_names": [
+        "Wang Z",
+        "Zhou S",
+        "Guo Z",
+        "Ning Z",
+        "Cai J",
+        "Zhao R",
+        "Xie A",
+        "Li Q",
+        "Zhang J",
+        "Zhao Y",
+        "Li P",
+        "Si H",
+        "Yan J",
+        "Peng Y",
+        "Liu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8650-7811"
+      ],
+      "affiliations": [
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "College of Information and Management Science, Henan Agricultural University, Zhengzhou, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Plant Science & Technology, Huazhong Agricultural University, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Information and Management Science, Henan Agricultural University, Zhengzhou, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+        "Hubei Hongshan Laboratory, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Zhenye",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "College of Information and Management Science, Henan Agricultural University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Siyu",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, China.",
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Ze",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Zilan",
+        "short_name": "Ning Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Jiaqi",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Plant Science & Technology, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ran",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Ao",
+        "short_name": "Xie A",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, China.",
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Quan",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, China.",
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiangling",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yongsheng",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Peizhang",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Si, Haiping",
+        "short_name": "Si H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Management Science, Henan Agricultural University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Jianbing",
+        "short_name": "Yan J",
+        "identifiers": [
+          "0000-0001-8650-7811"
+        ],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yong",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jianxiao",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, China.",
+          "College of Informatics, Huazhong Agricultural University, Wuhan, China.",
+          "Hubei Hongshan Laboratory, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Plant Biotechnol J"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 12:49",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39536747",
+      "39318505",
+      "38859587",
+      "37071534",
+      "36806841",
+      "36581701",
+      "35729731",
+      "35551305",
+      "35115029",
+      "35086144",
+      "35073966",
+      "34603360",
+      "34416864",
+      "34149757",
+      "34113473",
+      "33796132",
+      "33397451",
+      "33369825",
+      "33188264",
+      "33178242",
+      "33160328",
+      "33046897",
+      "32631406",
+      "32546248",
+      "31701126",
+      "31416957",
+      "31393961",
+      "30920762",
+      "30869141",
+      "30842277",
+      "30423086",
+      "30115782",
+      "29379149",
+      "28848243",
+      "28690629",
+      "28605751",
+      "27924042",
+      "27467249",
+      "27064255",
+      "26619908",
+      "26392354",
+      "25953851",
+      "24398233",
+      "20890278",
+      "20044946",
+      "2029903"
+    ],
+    "similar": [
+      "41677071",
+      "38859587",
+      "31201335",
+      "31201330",
+      "40446043",
+      "30359306",
+      "23275551",
+      "40827700",
+      "35293310",
+      "35073966",
+      "37525156",
+      "37788349",
+      "36352464",
+      "39695844",
+      "38859561",
+      "42475469",
+      "41152421",
+      "39891345",
+      "41984952",
+      "30423062",
+      "41891880",
+      "34864886",
+      "38751121",
+      "35396274",
+      "40127931",
+      "31053165",
+      "30945203",
+      "40102719",
+      "40393811",
+      "39273331",
+      "37572350",
+      "30598689",
+      "32029002",
+      "22456606",
+      "41267404",
+      "40826469",
+      "39318505",
+      "36575796",
+      "33631799",
+      "29329517",
+      "37405386",
+      "35077535",
+      "39977251",
+      "39390531",
+      "34699533",
+      "29229750",
+      "40369872",
+      "41257586",
+      "26291518",
+      "39326643",
+      "24089144",
+      "26611531",
+      "31039743",
+      "35508739",
+      "29879919",
+      "31318408",
+      "29660196",
+      "40165388",
+      "31038680",
+      "35681201",
+      "31500627",
+      "42003104",
+      "41650936",
+      "27008015",
+      "28074633",
+      "28193859",
+      "37474674",
+      "25918418",
+      "39922197",
+      "34038741",
+      "34544366",
+      "35410163",
+      "28957321",
+      "29378629",
+      "21738486",
+      "42635772",
+      "23570689",
+      "39884279",
+      "25228660",
+      "27777270",
+      "30578913",
+      "34570239",
+      "40808255",
+      "40186170",
+      "27336171",
+      "37186341",
+      "24603674",
+      "39003593",
+      "22293038",
+      "38335956",
+      "37021559",
+      "40409268",
+      "31742318",
+      "38464086",
+      "35398245",
+      "39095348",
+      "23935528",
+      "39433267",
+      "40226920",
+      "32184350"
+    ],
+    "review": [
+      "41677071",
+      "35508739"
+    ],
+    "pmc": [
+      "13205616"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41677071/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.70586",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

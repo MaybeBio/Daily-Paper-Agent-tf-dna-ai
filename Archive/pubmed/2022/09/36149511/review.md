@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations and MM/GBSA free energy calculations to rank the DNA binding affinities of five Myc/Max/Omomyc dimers and identify key amino acid residues that dominate or weaken these interactions, with implications for designing Omomyc-like peptide inhibitors.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, error estimates, or structural data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation trajectories, free energy decomposition data, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational ranking of DNA binding affinities for five dimers in the Myc network, which could inform peptide inhibitor design. However, the current evidence base is insufficient to evaluate the technical soundness of the simulations, the statistical robustness of the ranking, or the validity of the residue-level conclusions. The claims are plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying protein-DNA interactions, cancer researchers focused on Myc inhibition, and drug designers interested in peptide-based therapeutics targeting transcription factor networks. The residue-level analysis could guide mutagenesis studies or peptide optimization.
+- **Major strengths** The study addresses a clinically relevant question with a clear comparative design across five dimers. The identification of specific Arg and Lys residues as dominant contributors and Asp residues as repulsive is mechanistically informative and actionable for future design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim a definitive ranking of binding affinities for five dimers to DNA based on MM/GBSA calculations.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on simulation length, force field parameters, system setup, equilibration protocols, or convergence of the MM/GBSA calculations. Without these details, the reliability of the free energy ranking cannot be assessed.
+  - **Why it matters** MM/GBSA results are highly sensitive to simulation protocols and convergence. An unvalidated ranking could mislead subsequent experimental or design efforts.
+  - **Resolution test** Provide full methods, including simulation times, convergence metrics (e.g., RMSD stability, energy convergence), and error bars or standard deviations for the binding energies. If possible, compare with experimental binding data or previous computational studies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness
+  - **Claim pointer** The ranking order (Omomyc-Omomyc > Omomyc-Myc > Max-Max > Omomyc-Max > Myc-Max) is presented as a definitive result.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No statistical measures (e.g., standard deviations, confidence intervals, or replicate analyses) are reported for the binding free energies. The differences between adjacent ranks may be within the noise of the method.
+  - **Why it matters** Without error estimates, the reader cannot determine whether the ranking is meaningful or an artifact of the calculation.
+  - **Resolution test** Report mean and standard deviation for each binding energy, and perform statistical tests (e.g., t-tests or bootstrap) to confirm that adjacent ranks are significantly different.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that five Arg residues and five Lys residues dominate binding, while Asp23 and Asp37 weaken affinities via repulsive interactions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The residue-level conclusions are presented without any quantitative data (e.g., per-residue energy decomposition values) or evidence that these contributions are consistent across all five dimers.
+  - **Why it matters** The residue-level claims are the most actionable part of the study for inhibitor design, but their validity depends on the decomposition method and its accuracy.
+  - **Resolution test** Provide per-residue energy decomposition tables or figures, and clarify whether the identified residues play the same role in all dimers or only in specific ones.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Residue numbering
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The authors state that residues are "numbered by Omomyc" but do not clarify how this numbering maps to Myc or Max sequences, which may confuse readers.
+  - **Required correction** Provide a sequence alignment or a clear statement of the numbering scheme in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that binding efficiencies are "controversial" but does not summarize prior experimental findings or explain how the simulation resolves the controversy.
+  - **Required correction** Add one or two sentences in the abstract summarizing prior conflicting results and how the new ranking addresses them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Binding efficiencies"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "binding efficiencies" is vague; it could refer to binding affinity, kinetics, or specificity.
+  - **Required correction** Use a more precise term such as "binding free energies" or "binding affinities" throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and statistical validation means the core ranking claim is not currently established. R1-M3 is important but non-blocking if the ranking is confirmed.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The application of MM/GBSA to this specific dimer set is not novel in approach, but the comparative ranking and residue-level analysis may offer new insights.  
+  - Scientific importance: Moderate. The Myc network is clinically relevant, and identifying key residues could aid inhibitor design, but the impact depends on the reliability of the computational predictions.  
+  - Interdisciplinary readership: Limited. The abstract is written for a computational biophysics audience and may not be accessible to broader cancer biology or clinical readers without additional context.  
+  - Technical soundness: Not assessable from the abstract. Critical details on simulation and analysis are missing.  
+  - Readability for nonspecialists: The abstract is concise but uses jargon (e.g., bHLHZip, MM/GBSA) without explanation, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient methodological or statistical support for the claims. A full review of the manuscript would be required to assess whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The definitive ranking of five dimer binding affinities is unsupported without error estimates and convergence data.
+- The residue-level dominance of specific Arg and Lys residues and the repulsive role of Asp23 and Asp37 are unsupported without per-residue decomposition data.
+- The claim that the simulation "would provide worthy information" for inhibitor design is speculative and not directly supported by the abstract.

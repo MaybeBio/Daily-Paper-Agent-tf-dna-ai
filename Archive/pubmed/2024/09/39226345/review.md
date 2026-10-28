@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, results, discussion, conclusion) as provided, excluding supplementary information and figures/tables referenced but not included.
+- **Assessment boundary** Assessment is limited to the scientific claims, methodology, and interpretations presented in the provided text. Claims relying on data in the SI Appendix, figures, or tables not included in the provided material are marked as "not assessable from provided material."
+- **Shared manuscript claim summary** The authors use alchemical free energy perturbation (FEP) calculations to compute relative free energies of binding (ΔΔGBinding) and complexation (ΔΔGComplex) for a series of polycyclic aromatic hydrocarbon (PAH)-DNA adducts at the dA6* position of the NRAS codon-61 sequence context, comparing each to the IARC Group 1 carcinogen benzo[a]pyrene (B[a]P). They report that several PAHs classified by IARC as Group 2A, 2B, or 3 exhibit stronger binding and weaker repair (complexation) affinities than B[a]P, and they interpret these differences in terms of van der Waals interactions, intercalation geometry, DNA rigid body parameters, and hydrogen bonding.
+- **Visible evidence base** Main text equations (Eqs. 1-9), Table 1 and Table 2 (referenced, not shown), Fig. 5-9 (referenced, not shown), and qualitative descriptions of simulation results. No raw data, error bars, convergence metrics, or statistical analyses are visible in the provided text.
+- **Missing materials affecting confidence** All figures (Figs. 1-9), all tables (Tables 1-2), the entire SI Appendix (including computational details, force field parameterization, convergence plots, additional structural analyses), and the specific numerical values of ΔΔGBinding and ΔΔGComplex for each PAH. Without these, the quantitative basis of the claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally intensive and potentially valuable approach to ranking PAH genotoxicity via FEP calculations. The thermodynamic cycle formalism is sound, and the connection between binding affinity, repair (complexation) affinity, and genotoxicity is a reasonable hypothesis. However, the provided text is largely qualitative in its presentation of results, with all quantitative data relegated to figures and tables that were not supplied. The central claims, such as the ranking of PAHs by binding affinity and the mechanistic interpretation in terms of van der Waals interactions, cannot be evaluated without these data. Furthermore, the manuscript lacks a critical discussion of the limitations of the FEP approach, particularly regarding force field accuracy for PAH-DNA adducts and the relationship between computed free energies and biological outcomes. The significance statement is somewhat overstated given that the connection between in silico free energies and in vivo genotoxicity is not established.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on DNA damage, repair, and free energy methods would be the primary audience. Researchers in environmental health and toxicology interested in mechanism-based risk assessment of PAHs might also find the approach of interest, provided the computational predictions are validated against experimental data. The work could also appeal to method developers interested in the application of FEP to protein-DNA complexes.
+- **Major strengths** 1. The use of a closed thermodynamic cycle to compute relative free energies avoids the need to compute absolute binding free energies, which is a significant technical advantage. 2. The focus on the NRAS codon-61 mutational hotspot is biologically relevant, as this is a known driver of cancer. 3. The systematic comparison of a panel of PAHs with different ring structures and IARC classifications is a useful framework. 4. The attempt to connect structural features (intercalation geometry, van der Waals contacts) to energetic outcomes is mechanistically informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "several PAHs classified by IARC as Group 2A, 2B, and 3 have greater binding and weaker repair affinities than B[a]P, contributing to their genotoxic potential."
+  - **Evidence pointer** Table 2, Fig. 5, and the Results section "Relative Free Energies of Binding and Complexation" (location not provided for specific values)
+  - **Concern** The central quantitative claim of the paper, namely the ranking of PAHs by ΔΔGBinding and ΔΔGComplex, is presented only in figures and tables that were not included in the provided material. The text provides qualitative categories (e.g., "strongly preferred," "weakly preferred") but no numerical values, error estimates, or statistical comparisons. Without access to the actual data, it is impossible to verify the magnitude of the reported effects, the precision of the FEP calculations, or whether the differences between PAHs are significant relative to the estimated errors.
+  - **Why it matters** The entire conclusion of the paper rests on the relative ordering of free energies. If the differences are within the noise of the FEP calculations (which are often on the order of 1-2 kcal/mol), the ranking may not be robust. The manuscript cannot be evaluated for scientific soundness without these data.
+  - **Resolution test** Provide Table 2 and Fig. 5 with all numerical values, including error bars or standard deviations for each ΔΔGBinding and ΔΔGComplex. Include convergence metrics (e.g., from the SI Appendix) that demonstrate the statistical reliability of the FEP estimates. Show that the differences between categories (e.g., strongly vs. weakly preferred) exceed the estimated uncertainties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that "force field parameters for PAH-DNA adducts were assigned and optimized utilizing quantum mechanical target data" and that the FEP calculations were performed with the CHARMM force field.
+  - **Evidence pointer** Methods section "Computational Parameters" and SI Appendix Sections 1 and 2 (location not provided)
+  - **Concern** The accuracy of FEP calculations is critically dependent on the quality of the force field parameters, particularly for the nonstandard PAH-DNA adducts. The text states that parameters were optimized, but no details are provided on the validation of these parameters. For example, were the partial charges and dihedral parameters benchmarked against experimental data or higher-level quantum mechanical calculations? Were the FEP results compared to any experimental binding or repair data for validation? Without such validation, the computed free energies may be systematically biased.
+  - **Why it matters** If the force field parameters are inaccurate, the relative free energies could be wrong, leading to incorrect conclusions about genotoxicity. The manuscript needs to demonstrate that the computational model is reliable enough to support the claims.
+  - **Resolution test** Provide details of the parameter optimization and validation in the SI Appendix. Ideally, include a comparison of computed free energies (or structural properties) against experimental data for at least one or two PAH-DNA adducts. If no experimental validation is available, state this limitation explicitly and discuss the potential impact on the conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors conclude that the computed relative binding and complexation affinities "contribute to their genotoxic potential" and suggest the findings "better inform risk factor assessments."
+  - **Evidence pointer** Conclusion section and Significance statement
+  - **Concern** The manuscript equates stronger binding and weaker repair (complexation) affinity with higher genotoxicity. While this is a plausible hypothesis, the link is not direct. Genotoxicity depends on many factors beyond the initial binding and repair recognition steps, including metabolic activation, DNA polymerase bypass, mutagenic outcome, and cellular repair pathways other than GG-NER. The manuscript does not discuss these complexities or acknowledge that the computed free energies are only one component of a multi-step process.
+  - **Why it matters** Overstating the biological implications could mislead readers, particularly those in risk assessment, into overinterpreting the computational results. The conclusions should be framed more cautiously.
+  - **Resolution test** Revise the discussion and conclusion to explicitly acknowledge the limitations of using only binding and complexation free energies as proxies for genotoxicity. Discuss the additional factors that determine the biological outcome and suggest how the computational predictions could be tested experimentally (e.g., via in vitro repair assays or mutagenicity studies).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Relative Free Energies of Binding and Complexation"
+  - **Evidence pointer** Text describing the four categories of binding affinity (location not provided)
+  - **Issue** The categories "Strongly Preferred," "Weakly Preferred," "Equally Preferred," and "Nonpreferred" are defined by ranges of ΔΔGBinding values, but the text does not explain the basis for these thresholds. Are they arbitrary or based on statistical significance?
+  - **Required correction** Clarify the criteria for assigning PAHs to each category, ideally linking them to the estimated uncertainty in the FEP calculations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Computational Parameters"
+  - **Evidence pointer** Text describing simulation setup (location not provided)
+  - **Issue** The text mentions that systems were "relaxed with harmonic constraints, and equilibrated for 100ns of MD prior to FEP calculations" but does not specify the number of independent simulations, the random seed, or whether multiple replicas were used to assess sampling variability.
+  - **Required correction** Provide details on the number of replicas and how statistical uncertainties were estimated. If only single simulations were performed, state this and discuss the potential impact on the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion section "Intercalated Conformations"
+  - **Evidence pointer** Text describing the comparison of B[a]P and DB[a,l]P (location not provided)
+  - **Issue** The discussion of structural differences is detailed but would benefit from a direct reference to the relevant figures (e.g., Fig. 6 and Fig. 7) to help the reader visualize the described conformations.
+  - **Required correction** Add explicit references to the figures in the text where the conformations are discussed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data Availability statement
+  - **Evidence pointer** "All study data are included in the article and/or SI Appendix."
+  - **Issue** The statement is vague. It is unclear whether the raw simulation trajectories, input files, and analysis scripts are available or only the processed results.
+  - **Required correction** Specify exactly what data and software are available and where they can be accessed (e.g., a repository link).
+
+## Risk / unsupported claims
+- The claim that "several PAHs classified by IARC as Group 2A, 2B, and 3 have greater binding and weaker repair affinities than B[a]P" is unsupported in the provided text because the numerical data (Table 2, Fig. 5) are not included.
+- The claim that the findings "contribute to their genotoxic potential" is an interpretation that goes beyond the computed free energies and is not directly supported by the data presented.
+- The claim that the force field parameters were "optimized utilizing quantum mechanical target data" is not verifiable without the SI Appendix details.
+- The statement that the approach can "better inform risk factor assessments" is an extrapolation that is not supported by the current study, which does not include any experimental validation or risk assessment modeling.
+- The specific numerical values of ΔΔGBinding and ΔΔGComplex for each PAH, and the associated errors, are not assessable from the provided material.
+- The convergence of the FEP calculations, as claimed in the text, is not verifiable without the convergence plots referenced in the SI Appendix.

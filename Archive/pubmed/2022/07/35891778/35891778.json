@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "35891778",
+    "doi": "10.1016/j.csbj.2022.07.014",
+    "title": "Assessing comparative importance of DNA sequence and epigenetic modifications on gene expression using a deep convolutional neural network."
+  },
+  "content": {
+    "abstract": "Gene expression is regulated at both transcriptional and post-transcriptional levels. DNA sequence and epigenetic modifications are key factors which regulate gene transcription. Understanding their complex interactions and their respective contributions to gene expression regulation remains a challenge in biological studies. We have developed iSEGnet, a framework of deep convolutional neural network to predict mRNA abundance using the information on DNA sequences as well as epigenetic modifications within genes and their cis-regulatory regions. We demonstrate that our framework outperforms other machine learning models in terms of predicting mRNA abundance using transcriptional and epigenetic profiles from six distinct cell lines/types chosen from the ENCODE. The analysis from the learned models also reveals that specific regions around promotors and transcription termination sites are most important for gene expression regulation. Using the method of Integrated Gradients, we identify narrow segments in these regions which are most likely to impact gene expression for a specific epigenetic modification. We further show that these identified segments are enriched in known active regulatory regions by comparing the transcription factor binding sites obtained via ChIP-seq. Moreover, we demonstrate how iSEGnet can uncover potential transcription factors that have regulatory functions in cancer using two cancer multi-omics data.",
+    "keywords": [
+      "DNA sequence",
+      "Deep convolutional neural network",
+      "Deep learning",
+      "Epigenetic modifications",
+      "Integrated gradients",
+      "Multi-omics",
+      "Prediction of gene expression",
+      "Transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Shang",
+        "Rehman, Jalees",
+        "Dai, Yang"
+      ],
+      "short_names": [
+        "Gao S",
+        "Rehman J",
+        "Dai Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Illinois at Chicago, Chicago, IL, USA.",
+        "Department of Medicine, Division of Cardiology, University of Illinois at Chicago, Chicago, IL, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Illinois at Chicago, Chicago, IL, USA.",
+        "Department of Biomedical Engineering, University of Illinois at Chicago, Chicago, IL, USA.",
+        "Department of Medicine, Division of Cardiology, University of Illinois at Chicago, Chicago, IL, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Illinois at Chicago, Chicago, IL, USA.",
+        "University of Illinois Cancer Center, Chicago, IL, USA.",
+        "Department of Biomedical Engineering, University of Illinois at Chicago, Chicago, IL, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Shang",
+        "short_name": "Gao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois at Chicago, Chicago, IL, USA.",
+          "Department of Medicine, Division of Cardiology, University of Illinois at Chicago, Chicago, IL, USA.",
+          "Department of Biochemistry and Molecular Genetics, University of Illinois at Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Rehman, Jalees",
+        "short_name": "Rehman J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois at Chicago, Chicago, IL, USA.",
+          "Department of Medicine, Division of Cardiology, University of Illinois at Chicago, Chicago, IL, USA.",
+          "Department of Biochemistry and Molecular Genetics, University of Illinois at Chicago, Chicago, IL, USA.",
+          "University of Illinois Cancer Center, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Dai, Yang",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois at Chicago, Chicago, IL, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/28 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "42365308",
+      "41288963",
+      "41024142",
+      "39766860",
+      "38715516"
+    ],
+    "refs": [
+      "34962264",
+      "34850907",
+      "34608324",
+      "33780170",
+      "33262328",
+      "33125081",
+      "32699215",
+      "32687525",
+      "32637044",
+      "32560708",
+      "32433972",
+      "31949157",
+      "31829268",
+      "31399642",
+      "31318408",
+      "31164644",
+      "31068683",
+      "30922998",
+      "30423076",
+      "30265280",
+      "30013180",
+      "29883612",
+      "29618526",
+      "29588361",
+      "29527331",
+      "29126249",
+      "28395661",
+      "27587684",
+      "27141961",
+      "27084946",
+      "26467480",
+      "26301843",
+      "25953851",
+      "25693563",
+      "23586463",
+      "22955616",
+      "22950368",
+      "22868264",
+      "22577155",
+      "21324173",
+      "20356413",
+      "20133639",
+      "12209141"
+    ],
+    "similar": [
+      "35891778",
+      "34073774",
+      "27490187",
+      "36510125",
+      "28245811",
+      "30835229",
+      "27587684",
+      "25544807",
+      "38236675",
+      "29855387",
+      "38712066",
+      "35676633",
+      "25521507",
+      "37643374",
+      "35325548",
+      "21342583",
+      "23035652",
+      "33874910",
+      "38292477",
+      "26818008",
+      "31318408",
+      "35263332",
+      "31714956",
+      "33133123",
+      "29244011",
+      "32619460",
+      "32770026",
+      "30016502",
+      "33581335",
+      "34534646",
+      "33039573",
+      "38362268",
+      "36588793",
+      "32433972",
+      "32568326",
+      "29507648",
+      "19505939",
+      "33706810",
+      "33372147",
+      "33334313",
+      "27042856",
+      "31372637",
+      "28592290",
+      "26719268",
+      "30967126",
+      "25598842",
+      "32608476",
+      "34162326",
+      "34291238",
+      "34440291",
+      "34915158",
+      "32022856",
+      "24042128",
+      "29030827",
+      "20653935",
+      "34170473",
+      "21652639",
+      "34571539",
+      "29993783",
+      "20693478",
+      "34188054",
+      "30423076",
+      "24649509",
+      "33413550",
+      "33381816",
+      "21379568",
+      "20161818",
+      "33526657",
+      "35062026",
+      "37131697",
+      "20025521",
+      "36747873",
+      "29069282",
+      "22456606",
+      "24875471",
+      "32398001",
+      "17996093",
+      "34929739",
+      "37275146",
+      "33808317",
+      "25275320",
+      "30905748",
+      "33154517",
+      "34179082",
+      "38594933",
+      "36999047",
+      "35970054",
+      "38807713",
+      "31822622",
+      "39253493",
+      "36619977"
+    ],
+    "review": [
+      "35891778",
+      "31714956",
+      "33039573",
+      "24649509",
+      "34179082"
+    ],
+    "pmc": [
+      "9307602"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(22)00293-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35891778/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35891778",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

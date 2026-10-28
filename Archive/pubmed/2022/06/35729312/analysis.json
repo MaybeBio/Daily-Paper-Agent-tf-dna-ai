@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35729312",
+  "title": "Understanding and predicting the functional consequences of missense mutations in BRCA1 and BRCA2.",
+  "authors": "Aljarf, Raghad; Shen, Mengyuan; Pires, Douglas E V; Ascher, David B",
+  "journal": "Scientific reports",
+  "published_date": "2022-06-22",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习预测BRCA1/BRCA2错义突变的功能后果，但对象是肿瘤抑制基因变异致病性，非蛋白质-DNA互作或TF-DNA结合体系，且无三维互作建模与机制研究，仅边缘相关。",
+  "abstract": "BRCA1 and BRCA2 are tumour suppressor genes that play a critical role in maintaining genomic stability via the DNA repair mechanism. DNA repair defects caused by BRCA1 and BRCA2 missense variants increase the risk of developing breast and ovarian cancers. Accurate identification of these variants becomes clinically relevant, as means to guide personalized patient management and early detection. Next-generation sequencing efforts have significantly increased data availability but also the discovery of variants of uncertain significance that need interpretation. Experimental approaches used to measure the molecular consequences of these variants, however, are usually costly and time-consuming. Therefore, computational tools have emerged as faster alternatives for assisting in the interpretation of the clinical significance of newly discovered variants. To better understand and predict variant pathogenicity in BRCA1 and BRCA2, various machine learning algorithms have been proposed, however presented limited performance. Here we present BRCA1 and BRCA2 gene-specific models and a generic model for quantifying the functional impacts of single-point missense variants in these genes. Across tenfold cross-validation, our final models achieved a Matthew's Correlation Coefficient (MCC) of up to 0.98 and comparable performance of up to 0.89 across independent, non-redundant blind tests, outperforming alternative approaches. We believe our predictive tool will be a valuable resource for providing insights into understanding and interpreting the functional consequences of missense variants in these genes and as a tool for guiding the interpretation of newly discovered variants and prioritizing mutations for experimental validation.",
+  "abstract_zh": "BRCA1和BRCA2是肿瘤抑制基因，通过DNA修复机制在维持基因组稳定性中发挥关键作用。BRCA1和BRCA2错义变异引起的DNA修复缺陷增加了患乳腺癌和卵巢癌的风险。准确识别这些变异在临床上具有重要意义，可作为指导个体化患者管理和早期检测的手段。下一代测序技术显著增加了数据可用性，但也发现了大量需要解读的意义不明确的变异。然而，用于测量这些变异分子后果的实验方法通常成本高昂且耗时。因此，计算工具作为更快速的替代方案应运而生，以协助解读新发现变异的临床意义。为了更好地理解和预测BRCA1和BRCA2中的变异致病性，已提出了多种机器学习算法，但性能有限。在此，我们提出了BRCA1和BRCA2基因特异性模型以及一个通用模型，用于量化这些基因中单点错义变异的功能影响。通过十倍交叉验证，我们的最终模型在马修斯相关系数（MCC）上达到高达0.98，在独立、非冗余的盲测中性能高达0.89，优于其他方法。我们相信，我们的预测工具将成为理解这些基因中错义变异功能后果的宝贵资源，并可作为指导新发现变异解读和优先选择突变进行实验验证的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35729312/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35729312/",
+  "paper_page_path": "papers/pubmed/35729312/index.html"
+}

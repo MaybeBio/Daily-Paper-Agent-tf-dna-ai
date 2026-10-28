@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "42626841",
+    "doi": "10.1093/nar/gkag785",
+    "title": "Insights into the recruitment of the H3K4me3 reader Spp1 by the meiotic double-strand break protein Mer2."
+  },
+  "content": {
+    "abstract": "The formation of DNA double-strand breaks (DSBs) by Spo11 is tied to the loop-axis organization of meiotic chromosomes. Before DSB formation, chromatin loops marked by histone H3K4 trimethylation become tethered to the chromosome axis through interactions between Spp1 and Mer2. Mer2 is an essential partner of Spo11 thought to assemble the DSB machinery via biomolecular condensation, but these molecular assemblies remain poorly characterized. Here, using AlphaFold modeling, biochemical reconstitution, and biophysical validation, we explored the relationship between Mer2, Spp1, and their DNA-bound complexes. The tetrameric coiled-coil domain of Mer2 has four rotationally symmetrical sites that can bind a C-terminal alpha-helix of Spp1. However, Mer2-Spp1 complexes assemble with a 4x2 stoichiometry, perhaps through allosteric modulation or steric hindrance. Mer2 also accommodates multiple DNA duplexes, allowing the assembly of tripartite Mer2-Spp1-DNA complexes with branched DNA substrates and effective recruitment of Spp1 within nucleoprotein condensates. However, because the Spp1- and DNA-binding sites of Mer2 partially overlap, Spp1 recruitment reduces DNA binding by Mer2, which is compensated by positively charged residues within Spp1. Nevertheless, this DNA-binding motif appears to be dispensable for the meiotic function of Spp1. These findings provide insights into the structural organization of Mer2 and Spp1 and their role in the assembly of the meiotic DSB machinery.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA Breaks, Double-Stranded",
+      "Meiosis/genetics",
+      "*Histones/metabolism/chemistry",
+      "*Saccharomyces cerevisiae Proteins/metabolism/chemistry/genetics",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "Models, Molecular",
+      "Protein Binding",
+      "Meiotic Recombination Protein SPO11",
+      "DNA/metabolism/chemistry",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liloku, Pascaline",
+        "Melo, David Alvarez",
+        "Gisbert, Victor G",
+        "Mannaert, Sarah",
+        "Mechleb, Karen",
+        "Derclaye, Sylvie",
+        "Ray, Ankita",
+        "Alsteens, David",
+        "Volkov, Alexander N",
+        "Sterckx, Yann G-J",
+        "Claeys Bouuaert, Corentin"
+      ],
+      "short_names": [
+        "Liloku P",
+        "Melo DA",
+        "Gisbert VG",
+        "Mannaert S",
+        "Mechleb K",
+        "Derclaye S",
+        "Ray A",
+        "Alsteens D",
+        "Volkov AN",
+        "Sterckx YG",
+        "Claeys Bouuaert C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9229-113X",
+        "ORCID: 0000-0001-5801-7313"
+      ],
+      "affiliations": [
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium.",
+        "VIB-VUB Center for Structural Biology, VIB, Pleinlaan 2, Brussels 1050, Belgium.",
+        "Jean Jeener NMR Centre, Vrije Universiteit Brussel (VUB), Pleinlaan 2, Brussels 1050, Belgium.",
+        "Laboratory of Medical Biochemistry (LMB) and the Infla-Med Centre of Excellence, University of Antwerp, Campus Drie Eiken, Universiteitsplein 1, Wilrijk 2610, Belgium.",
+        "Louvain Institute of Biomolecular Science and Technology, Universite catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liloku, Pascaline",
+        "short_name": "Liloku P",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      },
+      {
+        "full_name": "Melo, David Alvarez",
+        "short_name": "Melo DA",
+        "identifiers": [
+          "0000-0001-9229-113X"
+        ],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      },
+      {
+        "full_name": "Gisbert, Victor G",
+        "short_name": "Gisbert VG",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mannaert, Sarah",
+        "short_name": "Mannaert S",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mechleb, Karen",
+        "short_name": "Mechleb K",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      },
+      {
+        "full_name": "Derclaye, Sylvie",
+        "short_name": "Derclaye S",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ray, Ankita",
+        "short_name": "Ray A",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      },
+      {
+        "full_name": "Alsteens, David",
+        "short_name": "Alsteens D",
+        "identifiers": [],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      },
+      {
+        "full_name": "Volkov, Alexander N",
+        "short_name": "Volkov AN",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, VIB, Pleinlaan 2, Brussels 1050, Belgium.",
+          "Jean Jeener NMR Centre, Vrije Universiteit Brussel (VUB), Pleinlaan 2, Brussels 1050, Belgium."
+        ]
+      },
+      {
+        "full_name": "Sterckx, Yann G-J",
+        "short_name": "Sterckx YG",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Medical Biochemistry (LMB) and the Infla-Med Centre of Excellence, University of Antwerp, Campus Drie Eiken, Universiteitsplein 1, Wilrijk 2610, Belgium."
+        ]
+      },
+      {
+        "full_name": "Claeys Bouuaert, Corentin",
+        "short_name": "Claeys Bouuaert C",
+        "identifiers": [
+          "0000-0001-5801-7313"
+        ],
+        "affiliations": [
+          "Louvain Institute of Biomolecular Science and Technology, Université catholique de Louvain, Louvain-La-Neuve 1348, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Aug 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/21 11:39",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41946721",
+      "39972130",
+      "38996018",
+      "38718835",
+      "37788458",
+      "37774136",
+      "37669924",
+      "37442581",
+      "37026471",
+      "37000206",
+      "35544640",
+      "34951404",
+      "34848718",
+      "34530636",
+      "33833657",
+      "33748134",
+      "33731927",
+      "33166471",
+      "32290544",
+      "31253666",
+      "30037925",
+      "29444071",
+      "29377013",
+      "29021737",
+      "27798607",
+      "27630371",
+      "26627841",
+      "26561004",
+      "26167642",
+      "25324213",
+      "24924264",
+      "24797370",
+      "23246437",
+      "23160953",
+      "23028359",
+      "22851644",
+      "22433953",
+      "21816273",
+      "21709022",
+      "21660729",
+      "21376234",
+      "20865123",
+      "20347846",
+      "19799180",
+      "19633430",
+      "19078966",
+      "17142463",
+      "16921172",
+      "16814718",
+      "16168379",
+      "16143104",
+      "15949446",
+      "15071505",
+      "14992724",
+      "12565051",
+      "12526806",
+      "11459833",
+      "9988274",
+      "9398665",
+      "8536989"
+    ],
+    "similar": [
+      "42626841",
+      "32290544",
+      "34951404",
+      "29444071",
+      "23511748",
+      "23160953",
+      "37442581",
+      "41946721",
+      "30037925",
+      "23246437",
+      "33731927",
+      "21816273",
+      "31253666",
+      "24635992",
+      "26245832",
+      "40894057",
+      "17558514",
+      "18245451",
+      "38407383",
+      "18096626",
+      "40672306",
+      "19380488",
+      "16783010",
+      "41248173",
+      "38657614",
+      "30496175",
+      "39972129",
+      "17189430",
+      "11809802",
+      "23825959",
+      "23902647",
+      "35876814",
+      "18076285",
+      "15044957",
+      "23313097",
+      "19078966",
+      "19439448",
+      "37243502",
+      "32494071",
+      "39236418",
+      "38427688",
+      "41850994",
+      "33398171",
+      "22433953",
+      "18081428",
+      "38979911",
+      "15280549",
+      "39126464",
+      "31965061",
+      "27923845",
+      "17674145",
+      "39972130",
+      "18313389",
+      "39126465",
+      "23841450",
+      "30365547",
+      "14992724",
+      "36221195",
+      "23762445",
+      "17264124",
+      "34417612",
+      "33604699",
+      "28820351",
+      "29021238",
+      "22002603",
+      "8536989",
+      "34108684",
+      "35857772",
+      "16816949",
+      "25126790",
+      "28538144",
+      "29145618",
+      "14967146",
+      "19799174",
+      "16107854",
+      "23775120",
+      "28986445",
+      "41596542",
+      "39652586",
+      "30569039",
+      "9799249",
+      "34108687",
+      "12408862",
+      "37968127",
+      "40037704",
+      "18670132",
+      "20551173",
+      "15123624",
+      "18505828",
+      "32630409",
+      "25103240",
+      "26627841",
+      "9039264",
+      "28505149",
+      "29549582",
+      "9435246",
+      "11940665",
+      "30853435",
+      "23382177",
+      "26917764"
+    ],
+    "review": [
+      "42626841",
+      "23511748",
+      "23313097",
+      "41850994",
+      "17674145",
+      "33604699",
+      "19799174",
+      "32630409"
+    ],
+    "pmc": [
+      "13494558"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42626841/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag785",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

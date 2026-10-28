@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.08.575577",
+  "title": "PLAPT: Protein-Ligand Binding Affinity Prediction Using Pretrained Transformers",
+  "authors": "Tyler Rose; Nicolò Monti; Navvye Anand; Tianyu Shen",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-09",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用预训练Transformer预测蛋白质-配体结合亲和力，虽涉及蛋白-配体互作建模，但对象非蛋白质-DNA体系，方法可迁移性有限，仅边缘相关。",
+  "abstract": "A bstract Predicting protein-ligand binding affinity is crucial for drug discovery, as it enables efficient identification of drug candidates. We introduce PLAPT, a novel model utilizing transfer learning from pre-trained transformers like ProtBERT and ChemBERTa to predict binding affinities with high accuracy. Our method processes one-dimensional protein and ligand sequences, leveraging a branching neural network architecture for feature integration and affinity estimation. We demonstrate PLAPT’s superior performance through validation on multiple datasets, achieving state-of-the-art results while requiring significantly less computational resources for training compared to existing models. Our findings indicate that PLAPT offers a highly effective and accessible approach for accelerating drug discovery efforts.",
+  "abstract_zh": "摘要 预测蛋白质-配体结合亲和力对于药物发现至关重要，因为它能够高效识别候选药物。我们引入了PLAPT，一种新颖的模型，利用从预训练变换器（如ProtBERT和ChemBERTa）进行的迁移学习，以高精度预测结合亲和力。我们的方法处理一维蛋白质和配体序列，利用分支神经网络架构进行特征整合和亲和力估计。通过在多个数据集上的验证，我们展示了PLAPT的优越性能，达到了最先进的结果，同时与现有模型相比，训练所需的计算资源显著减少。我们的发现表明，PLAPT为加速药物发现工作提供了一种高效且易获取的方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.08.575577",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.08.575577",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.08.575577/index.html"
+}

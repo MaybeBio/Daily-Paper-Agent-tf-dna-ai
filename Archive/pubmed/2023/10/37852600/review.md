@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a multi-classifier stacked ensemble model (MCSE-enhancer) for enhancer identification in DNA sequences. The model uses physiochemical property-based feature descriptors as input to six baseline classifiers, which are then combined via stacking. The authors report an accuracy of 81.5%, representing a 2-3% improvement over existing models, with gains in accuracy, specificity, sensitivity, and Matthews correlation coefficient.
+- **Visible evidence base** Abstract text only; no quantitative results beyond the reported accuracy figure; no dataset description, benchmark details, or comparison methodology
+- **Missing materials affecting confidence** Full manuscript, dataset specifications, feature descriptor details, baseline classifier identities, cross-validation scheme, statistical significance tests, comparison table with prior models, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological contribution in the area of computational enhancer prediction, but the evidence provided is insufficient to evaluate the validity, generalizability, or significance of the claimed improvements. The reported accuracy gain is modest and lacks supporting statistical or methodological context. The work may be of interest to computational biologists working on regulatory genomics, but the current abstract does not establish the case for a broad-impact publication.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians focused on regulatory element prediction, particularly those developing or benchmarking machine learning models for genomic sequence analysis. The stacking ensemble approach may also interest researchers working on ensemble methods in genomics.
+- **Major strengths** The use of a stacked ensemble with multiple baseline classifiers is a reasonable and potentially robust strategy for improving prediction performance. The focus on physiochemical property-based features is a relevant and established direction in enhancer prediction. The reported improvement, while modest, is consistent with incremental advances in this field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model outperformed previous enhancer classification techniques in terms of accuracy, specificity, sensitivity, and Matthews correlation coefficient, achieving 81.5% accuracy.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports a single accuracy value and claims superiority across four metrics without providing any numerical results for specificity, sensitivity, or Matthews correlation coefficient. No dataset, benchmark, or comparison methodology is described. It is unclear which prior models were compared, under what conditions, and whether the comparison was fair and statistically validated.
+  - **Why it matters** Without detailed performance metrics and a transparent comparison protocol, the claimed improvement cannot be independently assessed. The 2-3% accuracy gain may be within the range of random variation or dataset-specific effects, especially if cross-validation or test sets differ between studies.
+  - **Resolution test** Provide a full results table with all four metrics for the proposed model and each baseline comparator, along with dataset descriptions, cross-validation details, and statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test) to confirm that the improvement is not due to chance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model uses feature descriptors from various physiochemical properties as input for six baseline classifiers and builds a stacked classifier.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which physiochemical properties were used, how the feature descriptors were computed, which six baseline classifiers were selected, or how the stacking meta-learner was trained. This level of detail is essential for reproducibility and for assessing whether the approach is genuinely novel or a straightforward application of existing tools.
+  - **Why it matters** Reproducibility is a core requirement for computational biology publications. Without these details, other researchers cannot implement or benchmark the method, and reviewers cannot judge whether the design choices are justified or optimal.
+  - **Resolution test** Include a methods section that lists all feature descriptors, their sources, the six baseline classifiers with hyperparameters, the stacking architecture, and the training and evaluation protocol. Provide code or a public repository link.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The model achieved an accuracy of 81.5%, representing a 2-3% improvement over existing models.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The reported improvement is modest and may not represent a meaningful advance in the field, especially if prior models already achieve high performance on the same benchmark. The abstract does not discuss the limitations of existing methods or explain why a 2-3% gain is significant for practical applications.
+  - **Why it matters** For a journal with broad readership, the contribution must offer a clear advance over the state of the art. A marginal accuracy improvement without demonstrated biological or practical relevance may not justify publication at this level.
+  - **Resolution test** Provide a discussion of the practical implications of the accuracy gain, such as improved enhancer discovery in specific genomic contexts, and compare against a wider range of recent models to contextualize the improvement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "multi-classifier stacked ensemble" is used without defining what "multi-classifier" adds beyond a standard stacked ensemble, which by definition combines multiple classifiers.
+  - **Required correction** Clarify whether the novelty lies in the specific combination of classifiers, the feature set, or the stacking architecture, and define the term explicitly in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions specificity, sensitivity, and Matthews correlation coefficient but does not report their values.
+  - **Required correction** Include the numerical values for all four metrics in the abstract or state that they are reported in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison baseline
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not name any of the "previous enhancer classification techniques" against which the model was compared.
+  - **Required correction** Name at least one or two representative prior models in the abstract to give readers a reference point for the claimed improvement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of detailed performance metrics, comparison methodology, and reproducibility information means the core claims cannot be verified from the provided material.
+- **Assessment against Nature-style criteria** Originality: The stacked ensemble approach is not novel in itself, and the abstract does not demonstrate a unique methodological contribution. Scientific importance: The reported improvement is incremental and lacks demonstrated biological or practical significance. Interdisciplinary readership: The topic is relevant to computational biology and genomics, but the abstract does not frame the work for a broader audience. Technical soundness: Cannot be assessed due to missing methodological and statistical details. Readability for nonspecialists: The abstract is understandable but uses jargon without sufficient context for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims. A full manuscript with detailed methods, results, and statistical validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of outperforming previous models across four metrics is unsupported because only accuracy is reported and no comparison details are given.
+- The claim of a 2-3% improvement over existing models is unverifiable without a defined benchmark and comparator set.
+- The methodological description is too vague to assess the novelty or validity of the proposed approach.
+- Any statement about the model's generalizability or practical utility is not supported by the abstract.

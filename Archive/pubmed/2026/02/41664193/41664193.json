@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "41664193",
+    "doi": "10.1186/s12967-026-07790-2",
+    "title": "Integrative machine learning identifies a TEAD4-driven endothelial program shaping drug sensitivity and microvascular invasion in HCC."
+  },
+  "content": {
+    "abstract": "AIM: Microvascular invasion (MVI) drives early recurrence and poor survival in hepatocellular carcinoma (HCC). While tumor cell invasiveness has been well explored, the contribution of endothelial cells (ECs) to MVI and treatment response, including mechanisms of drug resistance, remains unclear. This study aimed to characterize endothelial programs linked to MVI and to develop a machine learning model for prognostic and therapeutic prediction. METHODS: We integrated single-cell RNA sequencing and spatial transcriptomics from HCC samples with different MVI status. Endothelial heterogeneity was analyzed using pseudotime trajectories, transcription factor networks, and cell-cell communication. Spatial mapping with cell2location and Spotlight localized endothelial subsets and defined their distribution around tumor nests and invasive fronts. A machine learning prognostic model based on Hippo-YAP pathway regulators was constructed, and drug-response patterns were assessed using CTRP and PRISM datasets. Key regulators were validated through tube formation and proliferation assays. RESULTS: We identified an endothelial subset with strong Hippo-YAP activation that was enriched in MVI(+) tumors and positioned at the peritumoral invasive front. These cells showed stem-like features and marked angiogenic potential. TEAD4 emerged as the dominant downstream transcription factor, driving APLN, ANGPT2, and VEGFA expression. TEAD4 inhibition reduced tube formation and limited tumor cell proliferation. The Hippo-YAP-based prognostic model, generated through integrative machine learning, outperformed clinical variables and existing signatures across multiple cohorts. High-risk scores correlated with immunosuppressive features and heightened sensitivity to microtubule- and cell-cycle-targeting drugs, including paclitaxel, irinotecan, and ispinesib. CONCLUSION: This study reveals a TEAD4-centered endothelial program that promotes angiogenesis and MVI in HCC. The machine learning-based prognostic model provides a robust tool for risk assessment and may help guide future therapeutic strategies targeting endothelial signaling.",
+    "keywords": [
+      "Hippo-YAP signaling pathway",
+      "Machine learning",
+      "Microvascular invasion",
+      "TEAD4",
+      "Therapy sensitivity and resistance"
+    ],
+    "mesh_terms": [
+      "TEA Domain Transcription Factors",
+      "Humans",
+      "*Transcription Factors/metabolism",
+      "*Liver Neoplasms/pathology/blood supply/drug therapy/genetics/metabolism",
+      "*DNA-Binding Proteins/metabolism",
+      "*Machine Learning",
+      "*Carcinoma, Hepatocellular/pathology/blood supply/drug therapy/genetics",
+      "*Endothelial Cells/metabolism/pathology/drug effects",
+      "*Muscle Proteins/metabolism",
+      "Neoplasm Invasiveness",
+      "*Microvessels/pathology",
+      "Prognosis",
+      "Signal Transduction/drug effects",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Drug Resistance, Neoplasm",
+      "Cell Proliferation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Pengcheng",
+        "Song, Hang",
+        "Lin, Shengyou",
+        "Zhu, Yongfu"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Song H",
+        "Lin S",
+        "Zhu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0371-8950",
+        "ORCID: 0000-0002-8158-4102"
+      ],
+      "affiliations": [
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zheiiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310053, China.",
+        "School of Integrated Chinese and Western Medicine, Anhui University of Chinese Medicine, Hefei, 230031, China. hangsong@ahtcm.edu.cn.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zheiiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310053, China. shengyoulin@zcmu.edu.cn.",
+        "The First Department of Oncology, The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China. zyf240@ahtcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Pengcheng",
+        "short_name": "Zhang P",
+        "identifiers": [
+          "0000-0003-0371-8950"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zheiiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310053, China."
+        ]
+      },
+      {
+        "full_name": "Song, Hang",
+        "short_name": "Song H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese and Western Medicine, Anhui University of Chinese Medicine, Hefei, 230031, China. hangsong@ahtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Shengyou",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zheiiang Provincial Hospital of Chinese Medicine), Hangzhou, Zhejiang, 310053, China. shengyoulin@zcmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yongfu",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0000-0002-8158-4102"
+        ],
+        "affiliations": [
+          "The First Department of Oncology, The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China. zyf240@ahtcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Feb 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/10 06:31",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37972953",
+      "37151879",
+      "36647777",
+      "36635265",
+      "36300619",
+      "35837811",
+      "35501392",
+      "35469013",
+      "35119068",
+      "35027729",
+      "34919432",
+      "34793870",
+      "34624411",
+      "34331449",
+      "34285779",
+      "33614496",
+      "33597522",
+      "33579428",
+      "33552076",
+      "33538338",
+      "31819264",
+      "31386861",
+      "31303533",
+      "31052445",
+      "30479382",
+      "30400809",
+      "29366443",
+      "29141660",
+      "29130882",
+      "28991892",
+      "28052254",
+      "27908289",
+      "27765066",
+      "27549193",
+      "27300434",
+      "27124452",
+      "27043002",
+      "26795574",
+      "25822800",
+      "25605792",
+      "25293527",
+      "24113773",
+      "20862199",
+      "20545481",
+      "19847166",
+      "19524573",
+      "18989396",
+      "18030330",
+      "16199517"
+    ],
+    "similar": [
+      "41664193",
+      "33097058",
+      "39176099",
+      "40051627",
+      "38470497",
+      "42139279",
+      "42486346",
+      "28249813",
+      "40055377",
+      "41098715",
+      "41659855",
+      "39434201",
+      "33860124",
+      "42178613",
+      "41993588",
+      "41274476",
+      "41909714",
+      "41168787",
+      "42167509",
+      "41722834",
+      "41388436",
+      "37972953",
+      "41134139",
+      "41705236",
+      "41685312",
+      "41952208",
+      "34911488",
+      "23419361",
+      "39712016",
+      "39774151",
+      "26099525",
+      "41761192",
+      "42065054",
+      "41493679",
+      "41716413",
+      "41771574",
+      "41795151",
+      "41953013",
+      "38742797",
+      "40834828",
+      "41751574",
+      "41371106",
+      "42601689",
+      "41423668",
+      "28583823",
+      "42338358",
+      "41935591",
+      "33846777",
+      "41366455",
+      "40933208",
+      "39503880",
+      "41747656",
+      "35001801",
+      "39506070",
+      "38642400",
+      "40615535",
+      "30794805",
+      "42623896",
+      "32335942",
+      "41036748",
+      "42192326",
+      "41208987",
+      "42475469",
+      "42322592",
+      "33186566",
+      "42413619",
+      "41787322",
+      "40742309",
+      "40439084",
+      "41184244",
+      "39484208",
+      "41558394",
+      "27809333",
+      "42213490",
+      "30219064",
+      "38967794",
+      "40610613",
+      "40855439",
+      "32057900",
+      "40505357",
+      "42382780",
+      "39082336",
+      "38862474",
+      "41268553",
+      "30009820",
+      "40956482",
+      "41014359",
+      "32669125",
+      "40594698",
+      "41200185",
+      "34003522",
+      "41774333",
+      "40317014",
+      "41198556",
+      "42580240",
+      "36131287",
+      "42274554",
+      "42663705",
+      "39079173",
+      "40211257"
+    ],
+    "review": [
+      "41664193"
+    ],
+    "pmc": [
+      "12983702"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-07790-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41664193/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "41688730",
+    "doi": "10.1038/s41598-026-39844-2",
+    "title": "Integrative transcriptomic and machine learning framework reveals candidate genes and potential mechanisms of aflatoxin B1 exposure in breast cancer."
+  },
+  "content": {
+    "abstract": "Aflatoxin B1 (AFB1), a known mycotoxin and environmental hazard, has been linked to breast cancer, yet the exact biological pathways remain poorly characterized. We performed a comprehensive multi-omics assessment to investigate how AFB1 may influence breast tumor biology. This encompassed transcriptomic analysis, co-expression network modeling (WGCNA), immune landscape profiling, transcription factor regulatory mapping, and spatial plus single-cell transcriptomics. Predictive biomarkers were determined through a machine learning pipeline. Twenty-two genes were identified at the intersection of AFB1-predicted targets and disease-associated expression modules. A refined panel of seven biomarkers (EGFR, MIF, MET, PPARG, MME, NQO2, NR3C2) was established through model optimization. A composite classifier using glmBoost and StepGLM achieved high discriminative accuracy (area under the curve = 0.996). SHAP interpretability indicated PPARG may act protectively, while MIF showed risk-promoting characteristics. Expression heterogeneity was observed across cell populations and spatial regions. Our integrated analytical framework offers new insights into the oncogenic potential of AFB1 in breast cancer. The identified gene set may serve as both mechanistic mediators and diagnostic markers, underscoring the value of multi-omics and machine learning approaches in environmental carcinogenesis research.",
+    "keywords": [
+      "Aflatoxin B1",
+      "Biomarker discovery",
+      "Breast cancer",
+      "Immune infiltration",
+      "Machine learning",
+      "Multi-omics integration",
+      "Single-cell transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Aflatoxin B1/toxicity",
+      "Humans",
+      "*Breast Neoplasms/genetics/chemically induced/pathology",
+      "*Machine Learning",
+      "Female",
+      "*Transcriptome",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Biomarkers, Tumor/genetics",
+      "Multiomics",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Wenjing",
+        "Liu, Mengting",
+        "Li, Xiang"
+      ],
+      "short_names": [
+        "Wang W",
+        "Liu M",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Disease Center, General Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, China.",
+        "Department of Breast Disease Center, General Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, China.",
+        "Department of Breast Disease Center, General Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, China. 1559421696@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Wenjing",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Disease Center, General Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mengting",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Disease Center, General Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Disease Center, General Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, 330006, China. 1559421696@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/14 05:30",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41284141",
+      "40949040",
+      "40789982",
+      "40392001",
+      "40071447",
+      "39883710",
+      "39417919",
+      "39417505",
+      "38954907",
+      "38574017",
+      "38462033",
+      "38378361",
+      "38335272",
+      "37585411",
+      "37334066",
+      "36596445",
+      "36284389",
+      "36125688",
+      "35427766",
+      "34396909",
+      "33777113",
+      "33538338",
+      "33530981",
+      "32532746",
+      "32361569",
+      "32019587",
+      "31357935",
+      "30468841",
+      "29980893",
+      "29794965",
+      "29310680",
+      "28965971",
+      "25867923",
+      "25605792",
+      "25588755",
+      "24838242",
+      "23418360",
+      "22257669",
+      "22028643",
+      "19114008",
+      "17901083",
+      "17614185",
+      "10592173",
+      "9705898"
+    ],
+    "similar": [
+      "41688730",
+      "42074514",
+      "41611834",
+      "41424060",
+      "41099090",
+      "42233387",
+      "41388523",
+      "39703515",
+      "40761790",
+      "41436831",
+      "41080564",
+      "42123445",
+      "41601694",
+      "42475469",
+      "41716413",
+      "41789070",
+      "41290867",
+      "42305536",
+      "41207909",
+      "40615664",
+      "41246350",
+      "41371106",
+      "40977710",
+      "42328663",
+      "41601671",
+      "42558367",
+      "41472745",
+      "39870964",
+      "40850114",
+      "40330458",
+      "41300841",
+      "42035196",
+      "41792142",
+      "42457640",
+      "40552285",
+      "41836446",
+      "40097519",
+      "41052072",
+      "42589294",
+      "41423668",
+      "40787466",
+      "42269260",
+      "42139760",
+      "41734447",
+      "42023218",
+      "42317342",
+      "40328901",
+      "41798945",
+      "41265166",
+      "42195052",
+      "40317014",
+      "42291298",
+      "42520291",
+      "41200172",
+      "40597935",
+      "42284987",
+      "42024670",
+      "39524444",
+      "41713386",
+      "42050659",
+      "39441216",
+      "41013556",
+      "39415336",
+      "42120472",
+      "38909399",
+      "41595448",
+      "42123756",
+      "42458112",
+      "41740484",
+      "38863714",
+      "41511815",
+      "41642369",
+      "41601657",
+      "41106766",
+      "40200221",
+      "42142024",
+      "40200832",
+      "41344266",
+      "39441229",
+      "41676158",
+      "41109923",
+      "40880013",
+      "41293156",
+      "41772406",
+      "41272506",
+      "42211756",
+      "41939867",
+      "40603423",
+      "41200169",
+      "42435052",
+      "40473799",
+      "41504052",
+      "41479901",
+      "40642093",
+      "39909246",
+      "40263498",
+      "41731169",
+      "40517210",
+      "40330470",
+      "41415282"
+    ],
+    "review": [
+      "41688730",
+      "42520291"
+    ],
+    "pmc": [
+      "12982753"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-39844-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41688730/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3842",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

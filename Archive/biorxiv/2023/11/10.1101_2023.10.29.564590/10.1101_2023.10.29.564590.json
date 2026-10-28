@@ -1,0 +1,535 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.29.564590",
+  "title": "MethylBERT: A Transformer-based model for read-level DNA methylation pattern identification and tumour deconvolution",
+  "doi": "10.1101/2023.10.29.564590",
+  "abstract": "DNA methylation (DNAm) is a key epigenetic mark that shows profound alterations in cancer. Read-level methylomes enable more in-depth DNAm analysis due to the broad coverage and preservation of rare cell-type signals, compared to array-based data such as 450K/EPIC array. Here, we propose MethylBERT, a novel Transformer-based model for read-level methylation pattern classification. MethylBERT identifies tumour-derived sequence reads based on their methylation patterns and genomic sequence. Using the read classification probability, the method estimates tumour cell fractions within bulk samples and provides an assessment of the model precision. In our evaluation, MethylBERT outperforms existing deconvolution methods and demonstrates high accuracy regardless of methylation pattern complexity, read length and read coverage. Moreover, we show its applicability to cell-type deconvolution as well as its potential for accurate non-invasive early cancer diagnostics using liquid biopsy samples. MethylBERT represents a significant advancement in read-level methylome analysis and enables accurate tumour purity estimation. The broad applicability of MethylBERT will enhance studies on both solid tumour tissues and circulating tumour DNA as well as non-cancerous bulk methylomes.",
+  "authors": [
+    "Yunhee Jeong",
+    "Clarissa Gerhäuser",
+    "Guido Sauter",
+    "Thorsten Schlomm",
+    "Karl Rohr",
+    "Pavlo Lutsik"
+  ],
+  "published_date": "2023-11-01",
+  "updated_date": "2023-11-01T22:20:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.29.564590",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.29.564590.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T21:04:44Z",
+        "timestamp": 1775077484232,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            1
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 47,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2023-11-01T00:00:00Z",
+            "timestamp": 1698796800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>DNA methylation (DNAm) is a key epigenetic mark that shows profound alterations in cancer. Read-level methylomes enable more in-depth DNAm analysis due to the broad coverage and preservation of rare cell-type signals, compared to array-based data such as 450K/EPIC array. Here, we propose MethylBERT, a novel Transformer-based model for read-level methylation pattern classification. MethylBERT identifies tumour-derived sequence reads based on their methylation patterns and genomic sequence. Using the read classification probability, the method estimates tumour cell fractions within bulk samples and provides an assessment of the model precision. In our evaluation, MethylBERT outperforms existing deconvolution methods and demonstrates high accuracy regardless of methylation pattern complexity, read length and read coverage. Moreover, we show its applicability to cell-type deconvolution as well as its potential for accurate non-invasive early cancer diagnostics using liquid biopsy samples. MethylBERT represents a significant advancement in read-level methylome analysis and enables accurate tumour purity estimation. The broad applicability of MethylBERT will enhance studies on both solid tumour tissues and circulating tumour DNA as well as non-cancerous bulk methylomes.</jats:p>",
+      "DOI": "10.1101/2023.10.29.564590",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2023-11-01T22:20:15Z",
+        "timestamp": 1698877215000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "MethylBERT: A Transformer-based model for read-level DNA methylation pattern identification and tumour deconvolution"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1150-7734",
+          "authenticated-orcid": false,
+          "given": "Yunhee",
+          "family": "Jeong",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5792-3901",
+          "authenticated-orcid": false,
+          "given": "Clarissa",
+          "family": "Gerhäuser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9024-4978",
+          "authenticated-orcid": false,
+          "given": "Guido",
+          "family": "Sauter",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Thorsten",
+          "family": "Schlomm",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Karl",
+          "family": "Rohr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9383-8555",
+          "authenticated-orcid": false,
+          "given": "Pavlo",
+          "family": "Lutsik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "23",
+          "DOI": "10.1186/s40364-019-0174-y",
+          "article-title": "Epigenetic heterogeneity in cancer",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "Biomark. Res"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41388-021-01657-0"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13148-021-01210-6"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx303"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08514"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki901"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2217/epi.11.105"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13072-020-00372-6"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.9",
+          "first-page": "639233",
+          "article-title": "Cell-Free DNA: Hope and Potential Application in Cancer. Front",
+          "volume": "9",
+          "year": "2021",
+          "journal-title": "Cell Dev. Biol"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/clinchem/hvac121"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12943-022-01590-0"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1186/s13148-019-0717-y",
+          "article-title": "Systematic evaluation and validation of reference and library selection methods for deconvolution of cord blood DNA methylation data",
+          "volume": "11",
+          "year": "2019",
+          "journal-title": "Clin. Epigenetics"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jeong, Y. , de Andrade E Sousa, L.B. , Thalmeier, D. , Toth, R. , Ganslmeier, M. , Breuer, K. , Plass, C. , and Lutsik, P. (2022). Systematic evaluation of cell-type deconvolution pipelines for sequencing-based bulk DNA methylomes. Brief. Bioinformatics 23.",
+          "DOI": "10.1093/bib/bbac248"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky423"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, J. , Wei, L. , Zhang, X. , Zhang, W. , Wang, H. , Zhong, B. , Xie, Z. , Lv, H. , and Wang, X. (2021). DISMIR: Deep learning-based noninvasive cancer detection by integrating DNA sequence and methylation information of individual cell-free DNA reads. Brief. Bioinformatics 22.",
+          "DOI": "10.1101/2021.01.12.426440"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ygeno.2019.05.007"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.11613/BM.2015.017",
+          "article-title": "Aberrant methylation patterns in cancer: a clinical view",
+          "volume": "25",
+          "year": "2015",
+          "journal-title": "Biochem Med (Zagreb)"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.18",
+          "unstructured": "Devlin, J. , Chang, M.-W. , Lee, K. , and Toutanova, K. (2018). BERT: Pre-training of deep bidirectional transformers for language understanding. arXiv."
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "2112",
+          "DOI": "10.1093/bioinformatics/btab083",
+          "article-title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Clark, K. , Khandelwal, U. , Levy, O. , and Manning, C.D. (2019). What Does BERT Look At? An Analysis of BERT’s Attention. arXiv.",
+          "DOI": "10.18653/v1/W19-4828"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-13-86"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "355",
+          "DOI": "10.1038/s41586-022-05580-6",
+          "article-title": "A DNA methylation atlas of normal human cell types",
+          "volume": "613",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fujita, K. , Okada, K. , and Katahira, K. (2022). The Fisher information matrix: A tutorial for calculation for decision making models.",
+          "DOI": "10.31234/osf.io/hdwut"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)81683-9"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty011"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12967-022-03736-6"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1016/j.gendis.2018.02.003",
+          "article-title": "InfiniumPurify: An R package for estimating and accounting for tumor purity in cancer methylation research",
+          "volume": "5",
+          "year": "2018",
+          "journal-title": "Genes Dis"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-21-1982"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12885-019-6455-x"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0419-x"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "597",
+          "DOI": "10.1038/s41576-020-0236-x",
+          "article-title": "Long-read human genome sequencing and its applications",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "Nat. Rev. Genet"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/EBC20190027"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13643-021-01763-w"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.34",
+          "unstructured": "Koroteev, M.V. (2021). BERT: A Review of Applications in Natural Language Processing and Understanding. arXiv."
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.35",
+          "unstructured": "Vaswani, A. , Shazeer, N. , Parmar, N. , Uszkoreit, J. , Jones, L. , Gomez, A.N. , Kaiser, L. , and Polosukhin, I. (2017). Attention is all you need. arXiv."
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shi, W. , and Demberg, V. (2019). Next Sentence Prediction helps Implicit Discourse Relation Classification within and across Domains. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (Stroudsburg, PA, USA: Association for Computational Linguistics), pp. 5789–5795.",
+          "DOI": "10.18653/v1/D19-1586"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.37",
+          "unstructured": "Loshchilov, I. , and Hutter, F. (2017). Decoupled Weight Decay Regularization. arXiv."
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1189-z"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "153",
+          "DOI": "10.1186/s13059-020-02059-3",
+          "article-title": "Allele-specific DNA methylation is increased in cancers and its dense mapping in normal plus neoplastic cells increases the yield of disease-associated regulatory SNPs",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr167"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.41",
+          "unstructured": "Krueger, F. , James, F. , Ewels, P. , Afyounian, E. , Weinstein, M. , Schuster-Boeckler, B. , Hulselmans, G. , and Sclamons (2023). FelixKrueger/TrimGalore: v0.6.10 - add default decompression path. Zenodo."
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa1048"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aao3791"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3753"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw026"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ccell.2018.10.016"
+        },
+        {
+          "key": "2024083014501665000_2023.10.29.564590v3.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, T.-Y. , Goyal, P. , Girshick, R. , He, K. , and Dollár, P. (2017). Focal Loss for Dense Object Detection. arXiv.",
+          "DOI": "10.1109/ICCV.2017.324"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.29.564590",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:27:34Z",
+        "timestamp": 1768454854000
+      },
+      "score": 73.51582,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.29.564590"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            1
+          ]
+        ]
+      },
+      "references-count": 47,
+      "URL": "https://doi.org/10.1101/2023.10.29.564590",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41467-025-55920-z",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

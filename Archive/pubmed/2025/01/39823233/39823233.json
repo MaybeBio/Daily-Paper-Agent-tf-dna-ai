@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "39823233",
+    "doi": "10.1016/j.xpro.2024.103573",
+    "title": "Protocol to infer off-target effects of drugs on cellular signaling using interactome-based deep learning."
+  },
+  "content": {
+    "abstract": "Drugs that target specific proteins often have off-target effects. We present a protocol using artificial neural networks to model cellular transcriptional responses to drugs, aiming to understand their mechanisms of action. We detail steps for predicting transcriptional activities, inferring drug-target interactions, and explaining the off-target mechanism of action. As a case study, we analyze the off-target effects of lestaurtinib on FOXM1 in the A375 cell line. For complete details on the use and execution of this protocol, please refer to Meimetis et al.(1).",
+    "keywords": [
+      "bioinformatics",
+      "gene expression",
+      "health sciences",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Signal Transduction/drug effects",
+      "Forkhead Box Protein M1/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meimetis, Nikolaos",
+        "Lauffenburger, Douglas A",
+        "Nilsson, Avlant"
+      ],
+      "short_names": [
+        "Meimetis N",
+        "Lauffenburger DA",
+        "Nilsson A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, 171 77 Stockholm, Sweden. Electronic address: avlant.nilsson@ki.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meimetis, Nikolaos",
+        "short_name": "Meimetis N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Lauffenburger, Douglas A",
+        "short_name": "Lauffenburger DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Nilsson, Avlant",
+        "short_name": "Nilsson A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, 171 77 Stockholm, Sweden. Electronic address: avlant.nilsson@ki.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "STAR protocols"
+    ],
+    "journal_abbrev": [
+      "STAR Protoc"
+    ],
+    "pub_date": "2025 Mar 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/17 18:23",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "40826463"
+    ],
+    "refs": [
+      "38591003",
+      "36408920",
+      "35654811",
+      "31340985",
+      "29195078",
+      "28388612",
+      "27898060",
+      "27322546",
+      "16381955",
+      "14597658"
+    ],
+    "similar": [
+      "39823233",
+      "38591003",
+      "28148279",
+      "36525344",
+      "35942344",
+      "27923917",
+      "41385380",
+      "42352984",
+      "30628173",
+      "26876216",
+      "40650899",
+      "39356637",
+      "30365046",
+      "32723329",
+      "35776652",
+      "38180836",
+      "38282144",
+      "30302807",
+      "38001498",
+      "41958314",
+      "41060809",
+      "38953837",
+      "32429421",
+      "26500057",
+      "39705145",
+      "29705704",
+      "41043722",
+      "28225180",
+      "37976368",
+      "39503194",
+      "37537845",
+      "41310714",
+      "31244930",
+      "37733597",
+      "36595907",
+      "28767320",
+      "37782449",
+      "27415661",
+      "26918606",
+      "31122263",
+      "31311575",
+      "36853699",
+      "35990741",
+      "35733606",
+      "33099292",
+      "42024509",
+      "30463534",
+      "35639418",
+      "41118567",
+      "28784180",
+      "36595914",
+      "31364741",
+      "30499104",
+      "39002135",
+      "32858881",
+      "27185371",
+      "38172354",
+      "41276109",
+      "39566523",
+      "41851614",
+      "40198216",
+      "29269868",
+      "38900632",
+      "28850563",
+      "41999606",
+      "41751958",
+      "35252882",
+      "31322278",
+      "37660298",
+      "31072351",
+      "35583996",
+      "41689808",
+      "29953672",
+      "29620242",
+      "27494877",
+      "32319592",
+      "25897210",
+      "40551620",
+      "27351131",
+      "34117362",
+      "38748882",
+      "28862757",
+      "40498401",
+      "41984592",
+      "38857782",
+      "23870513",
+      "30208972",
+      "40544447",
+      "28249813",
+      "35422085",
+      "40796376",
+      "36595928",
+      "30978209",
+      "38104313",
+      "35990739",
+      "37927011",
+      "28899970",
+      "26621583",
+      "30111255",
+      "33087324"
+    ],
+    "review": [
+      "39823233",
+      "42352984",
+      "23870513"
+    ],
+    "pmc": [
+      "11786766"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-1667(24)00738-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39823233/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "39608521",
+    "doi": "10.1016/j.ijbiomac.2024.138124",
+    "title": "Identifying potential active ingredients from pomegranate in treating anemia: CPA3 and SOX4 are key proteins."
+  },
+  "content": {
+    "abstract": "Fanconi anemia is a rare hereditary blood disorder that usually manifests as bone marrow failure, dysplasia, cancer susceptibility and anemia. Pomegranate, as a \"secret\" for people in Xinjiang, China and India, is commonly used for treating different types of anemia. OBJECTIVE: This study aimed to identify potential proteins of FA and to discover potential drugs from pomegranates. METHODS: Firstly, we downloaded gene expression datasets of myeloid cells from FA patients from the GEO database and screened for key differential genes using weighted gene co-expression network analysis and machine learning algorithms. Next, subcellular localization and external validation datasets were used to verify the reliability of genes. Finally, molecular docking and molecular dynamics simulation were used to predict potential drugs for treating FA with pomegranate. RESULTS: After screening by WGCNA and machine learning algorithms and an external validation set, SOX4 and CPA3 were retained and were highly expressed in erythroid cells of the bone marrow. Based on the above two protein structures, coumaric acid 4-O-glucoside (-8.212 Kcal/mol) and kaempferol-3-O-neohesperidoside (-7.128 Kcal/mol) were screened. CONCLUSION: SOX4 and CPA3 can be considered as key proteins of FA, coumaric acid-4-O-glucoside and kaempferol-3-O-neohesperidin have been found to have therapeutic potency for FA.",
+    "keywords": [
+      "Fanconi anemia",
+      "Machine learning",
+      "Molecular dynamics simulation",
+      "Pomegranate",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*SOXC Transcription Factors/genetics/metabolism",
+      "Humans",
+      "*Pomegranate/chemistry",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Anemia/drug therapy/metabolism",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Zhuang",
+        "Wang, Shanshan",
+        "Wen, Yuxin",
+        "Jiang, Qi",
+        "Tang, Yiting",
+        "Duan, Bailu",
+        "Wang, Qiong",
+        "Li, Jinjin",
+        "Han, Lintao",
+        "Huang, Fang",
+        "Huang, Bisheng"
+      ],
+      "short_names": [
+        "Huang Z",
+        "Wang S",
+        "Wen Y",
+        "Jiang Q",
+        "Tang Y",
+        "Duan B",
+        "Wang Q",
+        "Li J",
+        "Han L",
+        "Huang F",
+        "Huang B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China.",
+        "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China.",
+        "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China.",
+        "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China.",
+        "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China.",
+        "Key Laboratory of Traditional Chinese Medicine Resources and Prescription, Ministry of Education, Wuhan, Hubei 430065, China.",
+        "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China. Electronic address: hf_ccp@hbtcm.edu.cn.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China. Electronic address: 18371983344@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Zhuang",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shanshan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Yuxin",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Qi",
+        "short_name": "Jiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiting",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Bailu",
+        "short_name": "Duan B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiong",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jinjin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Han, Lintao",
+        "short_name": "Han L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Traditional Chinese Medicine Resources and Prescription, Ministry of Education, Wuhan, Hubei 430065, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Fang",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China. Electronic address: hf_ccp@hbtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huang, Bisheng",
+        "short_name": "Huang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan, Hubei 430065, China. Electronic address: 18371983344@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/29 05:20",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39608521",
+      "39832077",
+      "38310567",
+      "38144565",
+      "38149868",
+      "39139563",
+      "39993869",
+      "37386410",
+      "37854191",
+      "30738442",
+      "38197809",
+      "40169794",
+      "27608133",
+      "38943117",
+      "38994368",
+      "37340752",
+      "39559355",
+      "38117365",
+      "24036430",
+      "21878674",
+      "40332792",
+      "37948293",
+      "39953444",
+      "34599930",
+      "38344924",
+      "40192032",
+      "39707003",
+      "39427825",
+      "28901467",
+      "37816760",
+      "39310787",
+      "39251712",
+      "39931818",
+      "40070840",
+      "37836625",
+      "40258762",
+      "38755717",
+      "11530803",
+      "38115320",
+      "34785888",
+      "37782162",
+      "30661772",
+      "36369330",
+      "25557621",
+      "37865086",
+      "36532015",
+      "35837376",
+      "34569409",
+      "39014441",
+      "39050860",
+      "40207230",
+      "38954072",
+      "38169205",
+      "39867868",
+      "11750104",
+      "34746316",
+      "38629070",
+      "40328806",
+      "35924788",
+      "38580651",
+      "40082645",
+      "15082718",
+      "38684576",
+      "39346628",
+      "38785951",
+      "34739154",
+      "11110674",
+      "39142001",
+      "30016600",
+      "34927777",
+      "38109076",
+      "14499622",
+      "23649630",
+      "32897138",
+      "36660784",
+      "32355551",
+      "39496786",
+      "35757478",
+      "24435928",
+      "39780215",
+      "40313958",
+      "11297559",
+      "30031030",
+      "36948405",
+      "33407675",
+      "39763654",
+      "28841206",
+      "31858542",
+      "40086050",
+      "25644061",
+      "11063725",
+      "38897129",
+      "39385284",
+      "37539055",
+      "7517716",
+      "37713882",
+      "31167344",
+      "40251588",
+      "11167740",
+      "39044840"
+    ],
+    "review": [
+      "39608521",
+      "11530803",
+      "36660784"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)08935-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3270",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

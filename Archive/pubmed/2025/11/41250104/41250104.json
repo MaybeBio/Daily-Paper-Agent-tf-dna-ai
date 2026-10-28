@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "41250104",
+    "doi": "10.1186/s13059-025-03840-y",
+    "title": "A comparison of computational methods for expression forecasting."
+  },
+  "content": {
+    "abstract": "Diverse machine learning methods promise to forecast gene expression changes in response to novel genetic perturbations. However, these methods' accuracy is not well characterized. We created a benchmarking platform that combines a panel of 11 large-scale perturbation datasets with an expression forecasting software engine that encompasses or interfaces to a wide variety of methods. We used our platform to assess methods, parameters, and sources of auxiliary data, finding that it is uncommon for expression forecasting methods to outperform simple baselines. Our platform will serve as a resource to improve methods and to identify contexts in which expression forecasting can succeed.",
+    "keywords": [
+      "Expression forecasting",
+      "Expression prediction",
+      "Gene regulatory network",
+      "Network inference",
+      "Perturb-seq",
+      "Transcription factor",
+      "Transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Software",
+      "*Computational Biology/methods",
+      "Machine Learning",
+      "Humans",
+      "*Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kernfeld, Eric",
+        "Yang, Yunxiao",
+        "Weinstock, Joshua S",
+        "Battle, Alexis",
+        "Cahan, Patrick"
+      ],
+      "short_names": [
+        "Kernfeld E",
+        "Yang Y",
+        "Weinstock JS",
+        "Battle A",
+        "Cahan P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2310-8191",
+        "ORCID: 0000-0003-3429-3174",
+        "ORCID: 0000-0001-7013-1899",
+        "ORCID: 0000-0002-5287-627X",
+        "ORCID: 0000-0003-3652-2540"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA. ajbattle@jhu.edu.",
+        "Department of Computer Science, Johns Hopkins University, Baltimore, USA. ajbattle@jhu.edu.",
+        "Department of Genetic Medicine, Johns Hopkins Medicine, Baltimore, USA. ajbattle@jhu.edu.",
+        "Malone Center for Engineering and Healthcare, Johns Hopkins University, Baltimore, USA. ajbattle@jhu.edu.",
+        "Data Science and AI Institute, Johns Hopkins University, Baltimore, USA. ajbattle@jhu.edu.",
+        "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA. patrick.cahan@jhmi.edu.",
+        "Institute for Cell Engineering, Johns Hopkins Medicine, Baltimore, USA. patrick.cahan@jhmi.edu.",
+        "Department of Molecular Biology and Genetics, Johns Hopkins University, Baltimore, USA. patrick.cahan@jhmi.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kernfeld, Eric",
+        "short_name": "Kernfeld E",
+        "identifiers": [
+          "0000-0002-2310-8191"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Yunxiao",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0000-0003-3429-3174"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Weinstock, Joshua S",
+        "short_name": "Weinstock JS",
+        "identifiers": [
+          "0000-0001-7013-1899"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Battle, Alexis",
+        "short_name": "Battle A",
+        "identifiers": [
+          "0000-0002-5287-627X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA. ajbattle@jhu.edu.",
+          "Department of Computer Science, Johns Hopkins University, Baltimore, USA. ajbattle@jhu.edu.",
+          "Department of Genetic Medicine, Johns Hopkins Medicine, Baltimore, USA. ajbattle@jhu.edu.",
+          "Malone Center for Engineering and Healthcare, Johns Hopkins University, Baltimore, USA. ajbattle@jhu.edu.",
+          "Data Science and AI Institute, Johns Hopkins University, Baltimore, USA. ajbattle@jhu.edu."
+        ]
+      },
+      {
+        "full_name": "Cahan, Patrick",
+        "short_name": "Cahan P",
+        "identifiers": [
+          "0000-0003-3652-2540"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, 3400 N. Charles Street, Wyman Park Building, Suite 400 West, Baltimore, MD, 21218, USA. patrick.cahan@jhmi.edu.",
+          "Institute for Cell Engineering, Johns Hopkins Medicine, Baltimore, USA. patrick.cahan@jhmi.edu.",
+          "Department of Molecular Biology and Genetics, Johns Hopkins University, Baltimore, USA. patrick.cahan@jhmi.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2025 Nov 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/18 06:27",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [
+      "42067667",
+      "41960454",
+      "41506911",
+      "41478891",
+      "40640612",
+      "38895453"
+    ],
+    "refs": [
+      "40759747",
+      "40407144",
+      "40269681",
+      "40259084",
+      "39781510",
+      "39672099",
+      "39020164",
+      "38632401",
+      "38409223",
+      "37717013",
+      "37602211",
+      "37592036",
+      "37537351",
+      "37387147",
+      "37258680",
+      "36755098",
+      "36608654",
+      "36584685",
+      "35817986",
+      "35688146",
+      "35510185",
+      "35300460",
+      "35108499",
+      "35075189",
+      "34244796",
+      "34139164",
+      "34050150",
+      "34031584",
+      "33780170",
+      "33765992",
+      "33649592",
+      "32433964",
+      "32231336",
+      "32210240",
+      "32181581",
+      "31907445",
+      "31830040",
+      "31395745",
+      "31221194",
+      "30861597",
+      "30598101",
+      "29425488",
+      "29409532",
+      "29195078",
+      "28212749",
+      "28099430",
+      "27984734",
+      "27984733",
+      "27984732",
+      "27572163",
+      "27535533",
+      "27141961",
+      "26950747",
+      "26430702",
+      "26164700",
+      "26121088",
+      "26117541",
+      "25970446",
+      "25915600",
+      "25307932",
+      "25126793",
+      "24766815",
+      "24742092",
+      "24603674",
+      "24097267",
+      "23637855",
+      "23586463",
+      "23284600",
+      "22955619",
+      "22572961",
+      "21041409",
+      "20709693",
+      "19729616",
+      "19377474",
+      "16904174",
+      "11751227",
+      "10380182"
+    ],
+    "similar": [
+      "41250104",
+      "37577640",
+      "42741841",
+      "41452988",
+      "42752548",
+      "31701125",
+      "22456606",
+      "32019417",
+      "40759747",
+      "24888606",
+      "30547400",
+      "41628222",
+      "42681526",
+      "34014778",
+      "36833196",
+      "41288963",
+      "39333790",
+      "19712740",
+      "33371891",
+      "24650281",
+      "42754836",
+      "40966655",
+      "28961802",
+      "14704355",
+      "30208101",
+      "39226889",
+      "32717108",
+      "24586125",
+      "27190234",
+      "42734742",
+      "36192495",
+      "41883144",
+      "34962963",
+      "36626328",
+      "40269681",
+      "30547406",
+      "41518505",
+      "21367870",
+      "34020546",
+      "20726796",
+      "40367047",
+      "16966362",
+      "42482180",
+      "41350457",
+      "29246163",
+      "16817975",
+      "39679439",
+      "17934055",
+      "38627250",
+      "39487083",
+      "41134033",
+      "30547796",
+      "32321967",
+      "34251621",
+      "41028963",
+      "31619158",
+      "28957658",
+      "17851055",
+      "34965197",
+      "30029596",
+      "42378449",
+      "40399884",
+      "34251619",
+      "41596454",
+      "25433465",
+      "19374773",
+      "42636032",
+      "28881981",
+      "18769717",
+      "39441835",
+      "40187352",
+      "23387820",
+      "34039282",
+      "35715748",
+      "20030818",
+      "27924604",
+      "40662821",
+      "17981545",
+      "21103045",
+      "40761790",
+      "16723010",
+      "29545622",
+      "33834216",
+      "19348638",
+      "24146602",
+      "40515392",
+      "17925358",
+      "28579401",
+      "28155637",
+      "31500560",
+      "41662352",
+      "40011560",
+      "19008939",
+      "33087075",
+      "24667244",
+      "39745651",
+      "42673963",
+      "15980557",
+      "20356371",
+      "30102702"
+    ],
+    "review": [
+      "41250104",
+      "42681526",
+      "40966655",
+      "32717108",
+      "30547406",
+      "34020546",
+      "41596454",
+      "17981545"
+    ],
+    "pmc": [
+      "12621394"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03840-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41250104/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

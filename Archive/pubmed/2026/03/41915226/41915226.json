@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "41915226",
+    "doi": "10.1007/s00251-026-01396-0",
+    "title": "Deciphering the genetic control of immune cell function at single-cell resolution: Disease-Specific Cis-eQTLs analysis of COVID-19."
+  },
+  "content": {
+    "abstract": "Integrating whole-genome sequencing with single-cell RNA-seq data enhances the current understanding of how genomic differences across humans contribute to variations in gene activity. eQTL discovery offers a potent method for decoding genomic regulation and identifying population-specific genomic variants associated with gene expression differences. The current development of single-cell sequencing technologies provides a significant opportunity for precise and detailed profiling of both major and minor cell states, facilitating the identification of genomic variants and their effects within specific cellular contexts. Therefore, this study aims to investigate the combined analysis of paired whole-genome and single-cell RNA-seq data from 230,000 peripheral blood mononuclear cells (PBMCs) across 30 individuals. Overall, 1,233,644 cis-eQTLs were identified across 18 cell types in PBMCs. The results were thoroughly evaluated through conservation analysis, revealing that the most statistically significant eQTLs are associated with less conserved genomic regions and are concentrated in the regulatory areas of more divergent genes. Using deep learning-based cis-regulatory models, cis-eQTLs were further investigated to reveal the cell-type-specific context of variant activity. The analysis revealed how eQTLs influence the expression of key immune-related genes (NKG7, HLA, MIF, MS4A1), identifying transcription factors whose binding sites are disrupted by genomic variants. This study integrates genetics, single-cell transcriptomics, and deep learning models to reveal and understand the role of genomic variants in gene expression regulation.",
+    "keywords": [
+      "COVID-19",
+      "Deep learning",
+      "SNP",
+      "Single cell",
+      "eQTL"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19/genetics/immunology/virology",
+      "*Quantitative Trait Loci",
+      "*Single-Cell Analysis/methods",
+      "*Leukocytes, Mononuclear/immunology/metabolism",
+      "*SARS-CoV-2/immunology",
+      "Single-Cell Gene Expression Analysis",
+      "Whole Genome Sequencing",
+      "Polymorphism, Single Nucleotide",
+      "Gene Expression Regulation",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Romanova, E I",
+        "Tychinin, D I",
+        "Shaymardanov, A M",
+        "Akimov, V E",
+        "Korobeinikova, A V",
+        "Shiryagin, V V",
+        "Guskova, N I",
+        "Astafieva, V A",
+        "Shingaliev, A S",
+        "Antonova, O A",
+        "Golubnikova, L A",
+        "Mitrofanov, S I",
+        "Grammatikati, K S",
+        "Yudin, V S",
+        "Yudin, S M",
+        "Makhotenko, A V",
+        "Keskinov, A A",
+        "Kraevoy, S A",
+        "Snigir, E A",
+        "Volchkov, P Yu",
+        "Svetlichnyy, D V",
+        "Skvortsova, V I"
+      ],
+      "short_names": [
+        "Romanova EI",
+        "Tychinin DI",
+        "Shaymardanov AM",
+        "Akimov VE",
+        "Korobeinikova AV",
+        "Shiryagin VV",
+        "Guskova NI",
+        "Astafieva VA",
+        "Shingaliev AS",
+        "Antonova OA",
+        "Golubnikova LA",
+        "Mitrofanov SI",
+        "Grammatikati KS",
+        "Yudin VS",
+        "Yudin SM",
+        "Makhotenko AV",
+        "Keskinov AA",
+        "Kraevoy SA",
+        "Snigir EA",
+        "Volchkov PY",
+        "Svetlichnyy DV",
+        "Skvortsova VI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia.",
+        "Moscow Center for Advanced Studies, Kulakova str. 20, Moscow, 123592, Russia.",
+        "Federal State Budgetary Scientific Institution \"Federal Research Center for innovator and emerging biomedical and pharmaceutical technologies\", Bailtiyslaya str. 8, Moscow, 125315, Russia.",
+        "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia. dvsvetlichny@gmail.com.",
+        "The Federal Medical Biological Agency (FMBA of Russia), Volokolamskoye Shosse, bld. 30, Moscow, 123182, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Romanova, E I",
+        "short_name": "Romanova EI",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Tychinin, D I",
+        "short_name": "Tychinin DI",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Shaymardanov, A M",
+        "short_name": "Shaymardanov AM",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Akimov, V E",
+        "short_name": "Akimov VE",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Korobeinikova, A V",
+        "short_name": "Korobeinikova AV",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Shiryagin, V V",
+        "short_name": "Shiryagin VV",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Guskova, N I",
+        "short_name": "Guskova NI",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Astafieva, V A",
+        "short_name": "Astafieva VA",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Shingaliev, A S",
+        "short_name": "Shingaliev AS",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Antonova, O A",
+        "short_name": "Antonova OA",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Golubnikova, L A",
+        "short_name": "Golubnikova LA",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Mitrofanov, S I",
+        "short_name": "Mitrofanov SI",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Grammatikati, K S",
+        "short_name": "Grammatikati KS",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Yudin, V S",
+        "short_name": "Yudin VS",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Yudin, S M",
+        "short_name": "Yudin SM",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Makhotenko, A V",
+        "short_name": "Makhotenko AV",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Keskinov, A A",
+        "short_name": "Keskinov AA",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Kraevoy, S A",
+        "short_name": "Kraevoy SA",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Snigir, E A",
+        "short_name": "Snigir EA",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia."
+        ]
+      },
+      {
+        "full_name": "Volchkov, P Yu",
+        "short_name": "Volchkov PY",
+        "identifiers": [],
+        "affiliations": [
+          "Moscow Center for Advanced Studies, Kulakova str. 20, Moscow, 123592, Russia.",
+          "Federal State Budgetary Scientific Institution \"Federal Research Center for innovator and emerging biomedical and pharmaceutical technologies\", Bailtiyslaya str. 8, Moscow, 125315, Russia."
+        ]
+      },
+      {
+        "full_name": "Svetlichnyy, D V",
+        "short_name": "Svetlichnyy DV",
+        "identifiers": [],
+        "affiliations": [
+          "Federal State Budgetary Institution \"Centre for Strategic Planning and Management of Biomedical Health Risks\" of the Federal Medical Biological Agency (Centre for Strategic Planning of FMBA of Russia), Pogodinskaya Street, 10, bld. 1, Moscow, 119121, Russia. dvsvetlichny@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Skvortsova, V I",
+        "short_name": "Skvortsova VI",
+        "identifiers": [],
+        "affiliations": [
+          "The Federal Medical Biological Agency (FMBA of Russia), Volokolamskoye Shosse, bld. 30, Moscow, 123182, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Immunogenetics"
+    ],
+    "journal_abbrev": [
+      "Immunogenetics"
+    ],
+    "pub_date": "2026 Mar 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/31 12:32",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38181733",
+      "37953886",
+      "37857933",
+      "37460639",
+      "37284065",
+      "36768914",
+      "36230912",
+      "35915177",
+      "35817977",
+      "35013002",
+      "34911770",
+      "34241898",
+      "33967674",
+      "33488597",
+      "32810438",
+      "31112765",
+      "30923571",
+      "30923381",
+      "30916335",
+      "30858580",
+      "30595452",
+      "30013180",
+      "30013048",
+      "29608179",
+      "29096012",
+      "28973456",
+      "28782753",
+      "27197224",
+      "26668005",
+      "26301843",
+      "26075791",
+      "25635462",
+      "25458997",
+      "23782611",
+      "22492648",
+      "22455463",
+      "20660289",
+      "15899964",
+      "10790365"
+    ],
+    "similar": [
+      "41915226",
+      "39814021",
+      "33734084",
+      "39824189",
+      "30071827",
+      "29610479",
+      "31292129",
+      "37072791",
+      "41096905",
+      "32103259",
+      "29059182",
+      "28177073",
+      "40877473",
+      "27005890",
+      "26482556",
+      "39891345",
+      "33673841",
+      "41064594",
+      "27435189",
+      "25983244",
+      "39054472",
+      "38992576",
+      "40721531",
+      "39876559",
+      "33432064",
+      "26111110",
+      "36424644",
+      "35389779",
+      "29021290",
+      "28792098",
+      "41857317",
+      "40208878",
+      "40653482",
+      "29237423",
+      "39922197",
+      "38012720",
+      "16978413",
+      "23935528",
+      "41009374",
+      "32941478",
+      "40577937",
+      "41218612",
+      "25010687",
+      "41386230",
+      "42353785",
+      "42101938",
+      "35452708",
+      "22144904",
+      "29325110",
+      "42155441",
+      "33930287",
+      "23189034",
+      "41534492",
+      "31373884",
+      "40545078",
+      "38072919",
+      "40591496",
+      "41699549",
+      "32000679",
+      "39443309",
+      "39337460",
+      "40539042",
+      "40555237",
+      "21122937",
+      "23818875",
+      "24973796",
+      "39317738",
+      "40759647",
+      "30057032",
+      "38459946",
+      "39476438",
+      "37516984",
+      "24956270",
+      "39738578",
+      "33094331",
+      "37558883",
+      "27918533",
+      "33907181",
+      "34762851",
+      "21283786",
+      "39933264",
+      "39326643",
+      "37229810",
+      "40154479",
+      "37794117",
+      "27260304",
+      "38689208",
+      "41323105",
+      "38711039",
+      "38254214",
+      "28122634",
+      "35172892",
+      "35545678",
+      "30333196",
+      "35915177",
+      "41896987",
+      "23474282",
+      "30864331",
+      "41394650",
+      "38036787"
+    ],
+    "review": [
+      "41915226",
+      "37072791",
+      "41857317",
+      "39443309",
+      "21122937"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00251-026-01396-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3842",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

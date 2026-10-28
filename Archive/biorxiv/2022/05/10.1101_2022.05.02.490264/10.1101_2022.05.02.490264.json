@@ -1,0 +1,498 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.02.490264",
+  "title": "Interpretable deep learning to uncover the molecular binding patterns determining TCR–epitope interactions",
+  "doi": "10.1101/2022.05.02.490264",
+  "abstract": "The recognition of an epitope by a T-cell receptor (TCR) is crucial for eliminating pathogens and establishing immunological memory. Prediction of the binding of any TCR–epitope pair is still a challenging task, especially for novel epitopes, because the underlying patterns are largely unknown to domain experts and machine learning models. To achieve a deeper understanding of TCR–epitope interactions, we have used interpretable deep learning techniques to gain insights into the performance of TCR–epitope binding machine learning models. We demonstrate how interpretable AI techniques can be linked to the three-dimensional structure of molecules to offer novel insights into the factors that determine TCR affinity on a molecular level. Additionally, our results show the importance of using interpretability techniques to verify the predictions of machine learning models for challenging molecular biology problems where small hard-to-detect problems can accumulate to inaccurate results.",
+  "authors": [
+    "Ceder Dens",
+    "Wout Bittremieux",
+    "Fabio Affaticati",
+    "Kris Laukens",
+    "Pieter Meysman"
+  ],
+  "published_date": "2022-05-02",
+  "updated_date": "2022-05-02T12:15:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.02.490264",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.02.490264.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:10:41Z",
+        "timestamp": 1768500641796,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The recognition of an epitope by a T-cell receptor (TCR) is crucial for eliminating pathogens and establishing immunological memory. Prediction of the binding of any TCR–epitope pair is still a challenging task, especially for novel epitopes, because the underlying patterns are largely unknown to domain experts and machine learning models. To achieve a deeper understanding of TCR–epitope interactions, we have used interpretable deep learning techniques to gain insights into the performance of TCR–epitope binding machine learning models. We demonstrate how interpretable AI techniques can be linked to the three-dimensional structure of molecules to offer novel insights into the factors that determine TCR affinity on a molecular level. Additionally, our results show the importance of using interpretability techniques to verify the predictions of machine learning models for challenging molecular biology problems where small hard-to-detect problems can accumulate to inaccurate results.</jats:p>",
+      "DOI": "10.1101/2022.05.02.490264",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            2
+          ]
+        ],
+        "date-time": "2022-05-02T12:15:14Z",
+        "timestamp": 1651493714000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 5,
+      "title": [
+        "Interpretable deep learning to uncover the molecular binding patterns determining TCR–epitope interactions"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5353-882X",
+          "authenticated-orcid": false,
+          "given": "Ceder",
+          "family": "Dens",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3105-1359",
+          "authenticated-orcid": false,
+          "given": "Wout",
+          "family": "Bittremieux",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3520-1286",
+          "authenticated-orcid": false,
+          "given": "Fabio",
+          "family": "Affaticati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8217-2564",
+          "authenticated-orcid": false,
+          "given": "Kris",
+          "family": "Laukens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5903-633X",
+          "authenticated-orcid": false,
+          "given": "Pieter",
+          "family": "Meysman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.1",
+          "unstructured": "Alberts B. Molecular biology of the cell. Sixth edition. New York, NY: Garland Science, Taylor and Francis Group; 2015."
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ni1173"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/334395a0"
+        },
+        {
+          "issue": "4",
+          "key": "2022100622550493000_2022.05.02.490264v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbaa318",
+          "DOI": "10.1093/bib/bbaa318",
+          "article-title": "Current challenges for unseen-epitope TCR interaction prediction and a new perspective derived from image classification",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Brief Bioinform"
+        },
+        {
+          "issue": "Supplement_1",
+          "key": "2022100622550493000_2022.05.02.490264v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "i237",
+          "DOI": "10.1093/bioinformatics/btab294",
+          "article-title": "TITAN: T-cell receptor specificity prediction with bimodal attention networks",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.6",
+          "first-page": "151273",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "Prediction of Epitope-Associated TCR by Using Network Topological Similarity Based on Deepwalk"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00251-017-1023-5"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22383"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22976"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jokinen E , Huuhtanen J , Mustjoki S , Heinonen M , Lähdesmäki H. Determining epitope specificity of T cell receptors with TCRGP [Internet]. bioRxiv; 2019 [cited 2022 Apr 15]. Available from: https://www.biorxiv.org/content/10.1101/542332v2",
+          "DOI": "10.1101/542332"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "2820",
+          "DOI": "10.3389/fimmu.2019.02820",
+          "article-title": "Detection of Enriched T Cell Epitope Specificity in Full T Cell Receptor Sequence Repertoires",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Front Immunol"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Springer I , Besser H , Tickotsky-Moskovitz N , Dvorkin S , Louzoun Y. Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs. Front Immunol [Internet]. 2020 [cited 2022 Apr 15];11. Available from: https://www.frontiersin.org/article/10.3389/fimmu.2020.01803",
+          "DOI": "10.3389/fimmu.2020.01803"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chronister WD , Crinklaw A , Mahajan S , Vita R , Kosaloglu-Yalçin Z , Yan Z , et al. TCRMatch: Predicting T-Cell Receptor Specificity Based on Sequence Similarity to Previously Characterized Receptors. Front Immunol [Internet]. 2021 [cited 2022 Apr 15];12. Available from: https://www.frontiersin.org/article/10.3389/fimmu.2021.640725",
+          "DOI": "10.1101/2020.12.11.418426"
+        },
+        {
+          "issue": "1",
+          "key": "2022100622550493000_2022.05.02.490264v2.14",
+          "first-page": "1",
+          "article-title": "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.15",
+          "unstructured": "Molnar C. Interpretable Machine Learning: A Guide for Making Black Box Models Explainable [Internet]. 2nd ed. 2022. Available from: https://christophm.github.io/interpretable-ml-book"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.16",
+          "unstructured": "Simonyan K , Vedaldi A , Zisserman A. Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps. ArXiv13126034 Cs [Internet]. 2014 Apr 19 [cited 2022 Mar 31]; Available from: http://arxiv.org/abs/1312.6034"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.17",
+          "unstructured": "Shrikumar A , Greenside P , Kundaje A. Learning Important Features Through Propagating Activation Differences. ArXiv170402685 Cs [Internet]. 2019 Oct 12 [cited 2022 Apr 14]; Available from: http://arxiv.org/abs/1704.02685"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.18",
+          "unstructured": "Sundararajan M , Taly A , Yan Q. Axiomatic attribution for deep networks. In: Proceedings of the 34th International Conference on Machine Learning - Volume 70. Sydney, NSW, Australia: JMLR.org; 2017. p. 3319–28. (ICML’17)."
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.19",
+          "unstructured": "Smilkov D , Thorat N , Kim B , Viégas F , Wattenberg M. SmoothGrad: removing noise by adding noise. ArXiv170603825 Cs Stat [Internet]. 2017 Jun 12 [cited 2022 Mar 31]; Available from: http://arxiv.org/abs/1706.03825"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.20",
+          "unstructured": "Lundberg SM , Lee SI . A Unified Approach to Interpreting Model Predictions. In: Advances in Neural Information Processing Systems [Internet]. Curran Associates, Inc.; 2017 [cited 2022 Mar 30]. Available from: https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzm033"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "24",
+          "key": "2022100622550493000_2022.05.02.490264v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "5323",
+          "DOI": "10.1093/bioinformatics/btz517",
+          "article-title": "TCR3d: The T cell receptor structural repertoire database",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinforma Oxf Engl"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ehrenmann F , Lefranc MP . IMGT/3Dstructure-DB: Querying the IMGT Database for 3D Structures in Immunology and Immunoinformatics (IG or Antibodies, TR, MH, RPI, and FPIA). Cold Spring Harb Protoc. 2011 Jun 1;2011(6):pdb.prot5637.",
+          "DOI": "10.1101/pdb.prot5637"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp946"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh042"
+        },
+        {
+          "issue": "D1",
+          "key": "2022100622550493000_2022.05.02.490264v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "D1057",
+          "DOI": "10.1093/nar/gkz874",
+          "article-title": "VDJdb in 2019: database extension, new analysis infrastructure and a T-cell receptor motif compendium",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.28",
+          "unstructured": "10x Genomics: A New Way of Exploring Immunity Digital [Internet]. [cited 2022 Mar 30]. Available from: https://pages.10xgenomics.com/rs/446-PBO-704/images/10x_AN047_IP_A_New_Way_of_Exploring_Immunity_Digital.pdf"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dines JN , Manley TJ , Svejnoha E , Simmons HM , Taniguchi R , Klinger M , et al. The ImmuneRACE Study: A Prospective Multicohort Study of Immune Response Action to COVID-19 Events with the ImmuneCODETM Open Access Database [Internet]. medRxiv; 2020 [cited 2022 Mar 30]. p. 2020.08.17.20175158. Available from: https://www.medrxiv.org/content/10.1101/2020.08.17.20175158v2",
+          "DOI": "10.1101/2020.08.17.20175158"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.30",
+          "unstructured": "Moris P. Pretrained ImRex model [Internet]. GitHub. [cited 2022 Jun 1]. Available from: https://github.com/pmoris/ImRex/tree/master/models/pretrained/2020-07-24_19-18-39_trbmhcidown-shuffle-padded-b32-lre4-reg001"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.31",
+          "unstructured": "Hinton G. RMSProp [Internet]. 2021. Available from: http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci00062a008"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.33",
+          "unstructured": "Springenberg JT , Dosovitskiy A , Brox T , Riedmiller M. Striving for Simplicity: The All Convolutional Net. ArXiv14126806 Cs [Internet]. 2015 Apr 13 [cited 2022 Mar 31]; Available from: http://arxiv.org/abs/1412.6806"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.34",
+          "unstructured": "Xu S , Venugopalan S , Sundararajan M. Attribution in Scale and Space. ArXiv200403383 Cs [Internet]. 2020 Apr 8 [cited 2022 Mar 31]; Available from: http://arxiv.org/abs/2004.03383"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.35",
+          "unstructured": "Kapishnikov A , Bolukbasi T , Viégas F , Terry M. XRAI: Better Attributions Through Regions. ArXiv190602825 Cs Stat [Internet]. 2019 Aug 20 [cited 2022 Mar 31]; Available from: http://arxiv.org/abs/1906.02825"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.36",
+          "unstructured": "saliency: Framework-agnostic saliency methods [Internet]. [cited 2022 Apr 28]. Available from: https://github.com/pair-code/saliency"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.37",
+          "unstructured": "Schrödinger, LLC. The PyMOL Molecular Graphics System, Version 2.3.0."
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.38",
+          "unstructured": "Dens C. McFAE: Molecular Complex Feature Attribution Extraction [Internet]. 2022. Available from: https://github.com/PigeonMark/McFAE"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dens C , Bittremieux W , Affaticati F , Laukens K , Meysman P. Interpretable deep learning to uncover the molecular binding patterns determining TCR–epitope interactions [Internet]. Zenodo; 2022 [cited 2022 Sep 29]. Available from: https://zenodo.org/record/7115860",
+          "DOI": "10.1101/2022.05.02.490264"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.40",
+          "unstructured": "Van Rossum G , Drake FL . Python 3 Reference Manual. Scotts Valley, CA: CreateSpace; 2009."
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.41",
+          "unstructured": "Paszke A , Gross S , Chintala S , Chanan G , Yang E , DeVito Z , et al. Automatic differentiation in PyTorch. 2017;"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.42",
+          "unstructured": "Martín Abadi , Ashish Agarwal , Paul Barham , Eugene Brevdo , Zhifeng Chen , Craig Citro , et al. TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems [Internet]. 2015. Available from: https://www.tensorflow.org/"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.43",
+          "unstructured": "Chollet F , others. Keras [Internet]. 2015. Available from: https://keras.io"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2649-2"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.45",
+          "unstructured": "pandas-dev/pandas: Pandas [Internet]. Zenodo; 2020. Available from: https://doi.org/10.5281/zenodo.3509134"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McKinney W. Data Structures for Statistical Computing in Python. In: Walt S van der , Millman J , editors. Proceedings of the 9th Python in Science Conference. 2010. p. 56–61.",
+          "DOI": "10.25080/Majora-92bf1922-00a"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCSE.2007.55"
+        },
+        {
+          "issue": "60",
+          "key": "2022100622550493000_2022.05.02.490264v2.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "3021",
+          "DOI": "10.21105/joss.03021",
+          "article-title": "seaborn: statistical data visualization",
+          "volume": "6",
+          "year": "2021",
+          "journal-title": "J Open Source Softw"
+        },
+        {
+          "key": "2022100622550493000_2022.05.02.490264v2.49",
+          "unstructured": "Clark A. Pillow (PIL Fork) Documentation [Internet]. readthedocs; 2015. Available from: https://buildmedia.readthedocs.org/media/pdf/pillow/latest/pillow.pdf"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.05.02.490264",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:59:23Z",
+        "timestamp": 1768445963000
+      },
+      "score": 92.76017,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.05.02.490264"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            2
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2022.05.02.490264",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.immuno.2023.100027",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

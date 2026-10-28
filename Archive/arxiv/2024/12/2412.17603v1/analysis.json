@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2412.17603v1",
+  "title": "EasyTime: Time Series Forecasting Made Easy",
+  "authors": "Xiangfei Qiu; Xiuwen Li; Ruiyang Pang; Zhicheng Pan; Xingjian Wu; Liu Yang; Jilin Hu; Yang Shu; Xuesong Lu; Chengcheng Yang; Chenjuan Guo; Aoying Zhou; Christian S. Jensen; Bin Yang",
+  "journal": "",
+  "published_date": "2024-12-23",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 0,
+  "one_liner_zh": "该文介绍时间序列预测系统EasyTime，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "Time series forecasting has important applications across diverse domains. EasyTime, the system we demonstrate, facilitates easy use of time-series forecasting methods by researchers and practitioners alike. First, EasyTime enables one-click evaluation, enabling researchers to evaluate new forecasting methods using the suite of diverse time series datasets collected in the preexisting time series forecasting benchmark (TFB). This is achieved by leveraging TFB's flexible and consistent evaluation pipeline. Second, when practitioners must perform forecasting on a new dataset, a nontrivial first step is often to find an appropriate forecasting method. EasyTime provides an Automated Ensemble module that combines the promising forecasting methods to yield superior forecasting accuracy compared to individual methods. Third, EasyTime offers a natural language Q&A module leveraging large language models. Given a question like \"Which method is best for long term forecasting on time series with strong seasonality?\", EasyTime converts the question into SQL queries on the database of results obtained by TFB and then returns an answer in natural language and charts. By demonstrating EasyTime, we intend to show how it is possible to simplify the use of time series forecasting and to offer better support for the development of new generations of time series forecasting methods.",
+  "abstract_zh": "时间序列预测在多个领域具有重要应用。我们展示的系统EasyTime，旨在方便研究人员和从业者轻松使用时间序列预测方法。首先，EasyTime支持一键评估，使研究人员能够利用预先存在的时间序列预测基准（TFB）中收集的多样化时间序列数据集来评估新的预测方法。这通过利用TFB灵活且一致的评估流程实现。其次，当从业者必须对新数据集进行预测时，一个重要的初步步骤往往是找到合适的预测方法。EasyTime提供了一个自动化集成模块，该模块结合有前景的预测方法，以产生优于单一方法的预测精度。第三，EasyTime提供了一个利用大型语言模型的自然语言问答模块。对于诸如“哪种方法最适合具有强季节性的时间序列的长期预测？”这样的问题，EasyTime将问题转换为针对TFB结果数据库的SQL查询，然后以自然语言和图表形式返回答案。通过演示EasyTime，我们旨在展示如何简化时间序列预测的使用，并为新一代时间序列预测方法的发展提供更好的支持。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2412.17603v1",
+  "source_url": "https://arxiv.org/abs/2412.17603v1",
+  "paper_page_path": "papers/arxiv/2412.17603v1/index.html"
+}

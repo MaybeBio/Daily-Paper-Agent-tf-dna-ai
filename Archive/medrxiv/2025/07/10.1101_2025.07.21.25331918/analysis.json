@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2025.07.21.25331918",
+  "title": "Polygenic prediction of phenotypes with a neural empirical Bayes approach",
+  "authors": "Weinstock J; Kim A; Battle A",
+  "journal": "medRxiv",
+  "published_date": "2025-07-22",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用神经网络经验贝叶斯方法预测多基因表型，虽涉及转录因子结合注释，但核心是表型预测而非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Polygenic risk scores (PRS) estimate the expected value of a phenotype based on individual genotypes. Although statistical approaches for calculating PRS have advanced considerably in recent years, few methods incorporate recently generated functional genomics atlases to improve SNP weight estimation. Here, we introduce PRS with a Functional Neural Network (PRSFNN) - a novel approach which uses a neural network in an empirical Bayesian framework to learn the links between SNP functional annotations and SNP weights. By learning these links with a neural network, PRSFNN is able to learn complex, non-linear functions of annotations with minimal assumptions. After curating extensive annotations, including ancestry-stratified allele frequencies, chromatin accessibility across hundreds of developmental and adult cell types, transcription factor binding from ENCODE4, quantitative trait loci, and sequence conservation from Zoonomia, we evaluated PRSFNN on 18 continuous complex traits in the UK Biobank. After benchmarking against other leading PRS methods in an out-of-sample test set, we find that PRSFNN outperforms other PRS methods on 17 of 18 traits. Finally, we show that a low-density lipoprotein PRS estimated with PRSFNN outperforms other PRS methods in the prediction of incident cardio-vascular disease. Overall, PRSFNN uses a curated SNP annotation atlas within a neural empirical Bayesian framework to achieve state-of-the-art performance, advancing our ability to predict phenotypic variation from genetic variation.",
+  "abstract_zh": "多基因风险评分（PRS）根据个体基因型估计表型的期望值。尽管近年来计算PRS的统计方法已有显著进展，但很少有方法整合近期生成的功能基因组学图谱来改进SNP权重估计。在此，我们介绍一种基于功能神经网络的多基因风险评分方法（PRSFNN）——一种新颖的方法，它利用神经网络在经验贝叶斯框架中学习SNP功能注释与SNP权重之间的联系。通过神经网络学习这些联系，PRSFNN能够在最小假设下学习注释的复杂非线性函数。在整理广泛的注释后，包括祖先分层等位基因频率、数百种发育和成体细胞类型中的染色质可及性、来自ENCODE4的转录因子结合、数量性状位点以及来自Zoonomia的序列保守性，我们在英国生物银行（UK Biobank）中对18个连续复杂性状评估了PRSFNN。在与样本外测试集中的其他领先PRS方法进行基准比较后，我们发现PRSFNN在18个性状中的17个上优于其他PRS方法。最后，我们展示了使用PRSFNN估计的低密度脂蛋白PRS在预测心血管疾病事件方面优于其他PRS方法。总体而言，PRSFNN利用神经经验贝叶斯框架中的精选SNP注释图谱，实现了最先进的性能，提升了我们从遗传变异预测表型变异的能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2025.07.21.25331918",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2025.07.21.25331918",
+  "paper_page_path": "papers/medrxiv/10.1101_2025.07.21.25331918/index.html"
+}

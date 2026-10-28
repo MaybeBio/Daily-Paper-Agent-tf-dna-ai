@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "38230670",
+    "doi": "10.1021/acs.jctc.3c00971",
+    "title": "Exploring the Role of Globular Domain Locations on an Intrinsically Disordered Region of p53: A Molecular Dynamics Investigation."
+  },
+  "content": {
+    "abstract": "The pre-tetramerization loop (PTL) of the human tumor suppressor protein p53 is an intrinsically disordered region (IDR) necessary for the tetramerization process, and its flexibility contributes to the essential conformational changes needed. Although the IDR can be accurately simulated in the traditional manner of molecular dynamics (MD) with the end-to-end distance (EE(dist)) unhindered, we sought to explore the effects of restraining the EE(dist) to the values predicted by electron microscopy (EM) and other distances. Simulating the PTL trajectory with a restrained EE(dist) , we found an increased agreement of nuclear magnetic resonance (NMR) chemical shifts with experiments. Additionally, we observed a plethora of secondary structures and contacts that only appear when the trajectory is restrained. Our findings expand the understanding of the tetramerization of p53 and provide insight into how mutations could make the protein impotent. In particular, our findings demonstrate the importance of restraining the EE(dist) in studying IDRs and how their conformations change under different conditions. Our results provide a better understanding of the PTL and the conformational dynamics of IDRs in general, which are useful for further studies regarding mutations and their effects on the activity of p53.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "Tumor Suppressor Protein p53/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Structure, Secondary",
+      "Magnetic Resonance Spectroscopy",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bakker, Michael J",
+        "Sorensen, Henrik V",
+        "Skepo, Marie"
+      ],
+      "short_names": [
+        "Bakker MJ",
+        "Sorensen HV",
+        "Skepo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8639-9993"
+      ],
+      "affiliations": [
+        "Faculty of Pharmacy in Hradec Kralove, Charles University, Akademika Heyrovskeho 1203/8, 500 05 Hradec Kralove, Czech Republic.",
+        "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+        "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+        "MAX IV Laboratory, Lund Institute of Advanced Neutron and X-ray Science, Scheelevagen 19, SE-223 770 Lund, Sweden.",
+        "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+        "LINXS - Institute of Advanced Neutron and X-ray Science, Scheelevagen 19, SE-233 70 Lund, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bakker, Michael J",
+        "short_name": "Bakker MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Pharmacy in Hradec Králové, Charles University, Akademika Heyrovského 1203/8, 500 05 Hradec Králové, Czech Republic.",
+          "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sørensen, Henrik V",
+        "short_name": "Sørensen HV",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+          "MAX IV Laboratory, Lund Institute of Advanced Neutron and X-ray Science, Scheelevägen 19, SE-223 770 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Skepö, Marie",
+        "short_name": "Skepö M",
+        "identifiers": [
+          "0000-0002-8639-9993"
+        ],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+          "LINXS - Institute of Advanced Neutron and X-ray Science, Scheelevägen 19, SE-233 70 Lund, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Feb 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/17 12:44",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "41832603",
+      "39888268",
+      "39099394",
+      "39056166",
+      "38973087"
+    ],
+    "refs": [
+      "36387274",
+      "36350030",
+      "35934050",
+      "35789183",
+      "35481640",
+      "34952583",
+      "34639222",
+      "34586808",
+      "34576338",
+      "34524800",
+      "33631672",
+      "33591749",
+      "33382616",
+      "33167839",
+      "32873579",
+      "32367806",
+      "31613621",
+      "30445805",
+      "29382046",
+      "27727496",
+      "27243806",
+      "26620784",
+      "26575776",
+      "26574340",
+      "26488642",
+      "26020564",
+      "25814479",
+      "25380779",
+      "24773235",
+      "24379683",
+      "24212651",
+      "23407358",
+      "23361309",
+      "22999889",
+      "22889332",
+      "22613562",
+      "22505655",
+      "21514144",
+      "21457718",
+      "21178074",
+      "20628786",
+      "20595397",
+      "20516129",
+      "20408171",
+      "19778072",
+      "19286366",
+      "17401424",
+      "15955779",
+      "15264254",
+      "12826609",
+      "11960694",
+      "11791172",
+      "11420672",
+      "11343904",
+      "11262981",
+      "10884347",
+      "10593882",
+      "9823903",
+      "7878469"
+    ],
+    "similar": [
+      "38230670",
+      "31253862",
+      "26742101",
+      "39190324",
+      "25099811",
+      "30855964",
+      "29550429",
+      "31241933",
+      "30840442",
+      "33984364",
+      "28597880",
+      "24589355",
+      "32184088",
+      "33810353",
+      "36987865",
+      "28355271",
+      "32192337",
+      "25897952",
+      "28780862",
+      "34825861",
+      "36131545",
+      "33030249",
+      "30802457",
+      "32824743",
+      "31441158",
+      "36084124",
+      "38973087",
+      "24150971",
+      "35749260",
+      "25207671",
+      "24211251",
+      "33936509",
+      "19933326",
+      "38275091",
+      "31617035",
+      "31999450",
+      "33191750",
+      "32592801",
+      "23606624",
+      "33030907",
+      "34883116",
+      "34152264",
+      "28834051",
+      "32709860",
+      "24037535",
+      "17620598",
+      "26387099",
+      "37108059",
+      "24008243",
+      "32585849",
+      "32074499",
+      "27288992",
+      "28092832",
+      "27807972",
+      "27735058",
+      "22972749",
+      "28554553",
+      "31297688",
+      "27844185",
+      "26030674",
+      "21541066",
+      "31003202",
+      "27037822",
+      "32929427",
+      "36468450",
+      "29719201",
+      "29791766",
+      "32696365",
+      "28111343",
+      "29341926",
+      "35341741",
+      "31756456",
+      "33076213",
+      "22777995",
+      "23794453",
+      "25871264",
+      "33411518",
+      "35962177",
+      "30362715",
+      "25244701",
+      "37231156",
+      "26138206",
+      "32181542",
+      "32579908",
+      "26477317",
+      "24671380",
+      "36659983",
+      "29763584",
+      "21528875",
+      "35446534",
+      "21943426",
+      "26195786",
+      "30708285",
+      "26498066",
+      "27418282",
+      "29157493",
+      "27802394"
+    ],
+    "review": [
+      "38230670",
+      "30840442",
+      "31441158",
+      "31617035",
+      "26387099",
+      "24008243",
+      "28554553",
+      "31003202",
+      "23794453",
+      "36659983",
+      "35446534"
+    ],
+    "pmc": [
+      "10867847"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38230670/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38230670",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c00971",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

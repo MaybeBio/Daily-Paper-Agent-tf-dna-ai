@@ -1,0 +1,535 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.22.733832",
+  "title": "Novel <i>Drosophila cis</i> -regulatory elements can be uncovered by footprinting transcription factor binding sites in ATAC-seq data",
+  "doi": "10.64898/2026.06.22.733832",
+  "abstract": "Developmental processes depend on carefully coordinated gene expression. Expression is modulated by the binding of transcription factors (TFs) to cis-regulatory elements (CREs), like enhancers and promoters. Many computational and experimental approaches have been developed to find CREs, particularly enhancers, in the genome, each with strengths and caveats. Given the increasing availability of ATAC-seq data and methods to find TF binding therein, we hypothesized that we could use TF footprinting tools to find clusters of TF binding events within accessible chromatin that may act as CREs. Using Drosophila anterior-posterior patterning network as a test bed, we used a digital genomic footprinting tool (DGT), TOBIAS, on previously published early embryo ATAC-seq data to characterize the TF footprint landscape of 16 TFs essential for embryonic patterning. Even in this system, with its extensive enhancer annotation, most footprinted TF binding sites lie outside of known enhancers, with intergenic and intronic regions hosting the highest TF footprint count, albeit at low density. To find potential novel enhancers, we identified high-density TF footprint clusters that are highly conserved and overlap with active enhancer histone mark signals. Five high confidence candidates were selected for reporter assay validation and all five were found to drive spatially patterned expression in the embryo. This study shows that even in a highly characterized system, the analysis of footprinted TF binding sites in ATAC-seq data can uncover new regulatory regions and suggests this approach may be helpful in using existing ATAC-seq data to find novel CREs. ARTICLE SUMMARY Given the increasing availability of ATAC-seq datasets, workflows to exploit the data to uncover new cis-regulatory elements (CREs), including enhancers, are valuable. Using early anterior-posterior patterning in the Drosophila embryo as a test case, we find that previously published transcription factor footprinting tools and ATAC-seq data can be analyzed to yield new candidate CREs. Experimental validation confirms the activity of selected candidate CREs, suggesting that existing data can be analyzed to find novel regulatory elements.",
+  "authors": [
+    "Christian Mei",
+    "Jillian Ness",
+    "Katherine Nakai",
+    "Zeba Wunderlich"
+  ],
+  "published_date": "2026-06-25",
+  "updated_date": "2026-06-26T06:15:18Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733832",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733832.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ],
+        "date-time": "2026-06-27T16:46:55Z",
+        "timestamp": 1782578815306,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 57,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                25
+              ]
+            ],
+            "date-time": "2026-06-25T00:00:00Z",
+            "timestamp": 1782345600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Developmental processes depend on carefully coordinated gene expression. Expression is modulated by the binding of transcription factors (TFs) to cis-regulatory elements (CREs), like enhancers and promoters. Many computational and experimental approaches have been developed to find CREs, particularly enhancers, in the genome, each with strengths and caveats. Given the increasing availability of ATAC-seq data and methods to find TF binding therein, we hypothesized that we could use TF footprinting tools to find clusters of TF binding events within accessible chromatin that may act as CREs. Using\n                  <jats:italic>Drosophila</jats:italic>\n                  anterior-posterior patterning network as a test bed, we used a digital genomic footprinting tool (DGT), TOBIAS, on previously published early embryo ATAC-seq data to characterize the TF footprint landscape of 16 TFs essential for embryonic patterning. Even in this system, with its extensive enhancer annotation, most footprinted TF binding sites lie outside of known enhancers, with intergenic and intronic regions hosting the highest TF footprint count, albeit at low density. To find potential novel enhancers, we identified high-density TF footprint clusters that are highly conserved and overlap with active enhancer histone mark signals. Five high confidence candidates were selected for reporter assay validation and all five were found to drive spatially patterned expression in the embryo. This study shows that even in a highly characterized system, the analysis of footprinted TF binding sites in ATAC-seq data can uncover new regulatory regions and suggests this approach may be helpful in using existing ATAC-seq data to find novel CREs.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>ARTICLE SUMMARY</jats:title>\n                  <jats:p>\n                    Given the increasing availability of ATAC-seq datasets, workflows to exploit the data to uncover new cis-regulatory elements (CREs), including enhancers, are valuable. Using early anterior-posterior patterning in the\n                    <jats:italic>Drosophila</jats:italic>\n                    embryo as a test case, we find that previously published transcription factor footprinting tools and ATAC-seq data can be analyzed to yield new candidate CREs. Experimental validation confirms the activity of selected candidate CREs, suggesting that existing data can be analyzed to find novel regulatory elements.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.06.22.733832",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            26
+          ]
+        ],
+        "date-time": "2026-06-26T06:15:18Z",
+        "timestamp": 1782454518000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Novel\n                  <i>Drosophila cis</i>\n                  -regulatory elements can be uncovered by footprinting transcription factor binding sites in ATAC-seq data"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Christian",
+          "family": "Mei",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Boston University, Boston, MA USA 02215"
+            },
+            {
+              "name": "Biological Design Center, Boston University, Boston, MA USA 02215"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jillian",
+          "family": "Ness",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Boston University, Boston, MA USA 02215"
+            },
+            {
+              "name": "Biological Design Center, Boston University, Boston, MA USA 02215"
+            },
+            {
+              "name": "Graduate Program in Molecular Biology, Cell Biology, and Biochemistry, Boston University, Boston, MA 02215"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Katherine",
+          "family": "Nakai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Boston University, Boston, MA USA 02215"
+            },
+            {
+              "name": "Biological Design Center, Boston University, Boston, MA USA 02215"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4491-5715",
+          "authenticated-orcid": false,
+          "given": "Zeba",
+          "family": "Wunderlich",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Boston University, Boston, MA USA 02215"
+            },
+            {
+              "name": "Biological Design Center, Boston University, Boston, MA USA 02215"
+            },
+            {
+              "name": "Graduate Program in Molecular Biology, Cell Biology, and Biochemistry, Boston University, Boston, MA 02215"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-019-0173-8"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1232542"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3009"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/elife.29005"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-18035-1"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.231608898"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.12.014"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.242362.118"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2688"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/17.20.5998"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ntls.20220058"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006484"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcb.25143"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1016071107"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-019-0209-0"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-12-578"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab996"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3242"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1000106"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1313"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-016-1298-9"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2006-7-12-r124"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/insects13070618"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.209486.116"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13395"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0506462102"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.08.003"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0060027"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/elife.03737"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1642-2"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiolchem.2018.03.019"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.09.018"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0030093"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.20285"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0290035"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ohler U , Liao G , Niemann H , Rubin GM . 2002. Computational analysis of core promoters in the Drosophila genome. Genome Biology. 3(12):RESEARCH0087",
+          "DOI": "10.1186/gb-2002-3-12-research0087"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/iyad211"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0803697105"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20209816"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1059"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms24032976"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.192682.115"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3682"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-023-02955-4"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.201400036"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.192542.115"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3766"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2002-3-12-research0088"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.01.006"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2009.08.003"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1161/jaha.119.015487"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-1929-3"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2021.12.015"
+        },
+        {
+          "key": "2026062709101344000_2026.06.22.733832v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq858"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.22.733832",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ],
+        "date-time": "2026-06-27T16:10:23Z",
+        "timestamp": 1782576623000
+      },
+      "score": 99.54203,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.22.733832"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ]
+      },
+      "references-count": 57,
+      "URL": "https://doi.org/10.64898/2026.06.22.733832",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

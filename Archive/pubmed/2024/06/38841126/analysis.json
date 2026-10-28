@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38841126",
+  "title": "Predmoter-cross-species prediction of plant promoter and enhancer regions.",
+  "authors": "Kindel, Felicitas; Triesch, Sebastian; Schluter, Urte; Randarevitch, Laura Alexandra; Reichel-Deland, Vanessa; Weber, Andreas P M; Denton, Alisandra K",
+  "journal": "Bioinformatics advances",
+  "published_date": "2024-06-06",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度神经网络预测植物启动子和增强子区域的ATAC-seq和ChIP-seq覆盖度，虽涉及顺式调控元件和DNA可及性，但未直接建模TF-DNA结合或互作机制，方法可迁移至TF-DNA位点预测。",
+  "abstract": "MOTIVATION: Identifying cis-regulatory elements (CREs) is crucial for analyzing gene regulatory networks. Next generation sequencing methods were developed to identify CREs but represent a considerable expenditure for targeted analysis of few genomic loci. Thus, predicting the outputs of these methods would significantly cut costs and time investment. RESULTS: We present Predmoter, a deep neural network that predicts base-wise Assay for Transposase Accessible Chromatin using sequencing (ATAC-seq) and histone Chromatin immunoprecipitation DNA-sequencing (ChIP-seq) read coverage for plant genomes. Predmoter uses only the DNA sequence as input. We trained our final model on 21 species for 13 of which ATAC-seq data and for 17 of which ChIP-seq data was publicly available. We evaluated our models on Arabidopsis thaliana and Oryza sativa. Our best models showed accurate predictions in peak position and pattern for ATAC- and histone ChIP-seq. Annotating putatively accessible chromatin regions provides valuable input for the identification of CREs. In conjunction with other in silico data, this can significantly reduce the search space for experimentally verifiable DNA-protein interaction pairs. AVAILABILITY AND IMPLEMENTATION: The source code for Predmoter is available at: https://github.com/weberlab-hhu/Predmoter. Predmoter takes a fasta file as input and outputs h5, and optionally bigWig and bedGraph files.",
+  "abstract_zh": "动机：识别顺式调控元件（cis-regulatory elements, CREs）对于分析基因调控网络至关重要。下一代测序方法已被开发用于识别CREs，但对于少数基因组位点的靶向分析而言，这些方法成本较高。因此，预测这些方法的输出将显著降低成本和时间投入。结果：我们提出了Predmoter，一种深度神经网络，用于预测植物基因组中基于测序的转座酶可及染色质分析（ATAC-seq）和组蛋白染色质免疫沉淀DNA测序（ChIP-seq）的碱基级读段覆盖度。Predmoter仅使用DNA序列作为输入。我们在21个物种上训练了最终模型，其中13个物种的ATAC-seq数据和17个物种的ChIP-seq数据是公开可用的。我们在拟南芥（Arabidopsis thaliana）和水稻（Oryza sativa）上评估了我们的模型。我们最好的模型在ATAC-和组蛋白ChIP-seq的峰位置和模式上显示出准确的预测。注释推测的可及染色质区域为识别CREs提供了有价值的输入。结合其他计算机模拟数据，这可以显著减少实验可验证的DNA-蛋白质相互作用对的搜索空间。可用性和实现：Predmoter的源代码可在以下网址获取：https://github.com/weberlab-hhu/Predmoter。Predmoter接受fasta文件作为输入，并输出h5文件，以及可选的bigWig和bedGraph文件。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38841126/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38841126/",
+  "paper_page_path": "papers/pubmed/38841126/index.html"
+}

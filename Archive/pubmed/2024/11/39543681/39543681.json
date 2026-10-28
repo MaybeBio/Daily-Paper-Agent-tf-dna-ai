@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "39543681",
+    "doi": "10.1186/s13059-024-03432-2",
+    "title": "Cohesin distribution alone predicts chromatin organization in yeast via conserved-current loop extrusion."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Inhomogeneous patterns of chromatin-chromatin contacts within 10-100-kb-sized regions of the genome are a generic feature of chromatin spatial organization. These features, termed topologically associating domains (TADs), have led to the loop extrusion factor (LEF) model. Currently, our ability to model TADs relies on the observation that in vertebrates TAD boundaries are correlated with DNA sequences that bind CTCF, which therefore is inferred to block loop extrusion. However, although TADs feature prominently in their Hi-C maps, non-vertebrate eukaryotes either do not express CTCF or show few TAD boundaries that correlate with CTCF sites. In all of these organisms, the counterparts of CTCF remain unknown, frustrating comparisons between Hi-C data and simulations. RESULTS: To extend the LEF model across the tree of life, here, we propose the conserved-current loop extrusion (CCLE) model that interprets loop-extruding cohesin as a nearly conserved probability current. From cohesin ChIP-seq data alone, we derive a position-dependent loop extrusion rate, allowing for a modified paradigm for loop extrusion, that goes beyond solely localized barriers to also include loop extrusion rates that vary continuously. We show that CCLE accurately predicts the TAD-scale Hi-C maps of interphase Schizosaccharomyces pombe, as well as those of meiotic and mitotic Saccharomyces cerevisiae, demonstrating its utility in organisms lacking CTCF. CONCLUSIONS: The success of CCLE in yeasts suggests that loop extrusion by cohesin is indeed the primary mechanism underlying TADs in these systems. CCLE allows us to obtain loop extrusion parameters such as the LEF density and processivity, which compare well to independent estimates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cohesins",
+      "*Chromatin/metabolism",
+      "*Cell Cycle Proteins/metabolism/genetics",
+      "*Saccharomyces cerevisiae/metabolism/genetics",
+      "*Chromosomal Proteins, Non-Histone/metabolism",
+      "Schizosaccharomyces/metabolism/genetics",
+      "CCCTC-Binding Factor/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Tianyu",
+        "Yan, Hao",
+        "Li, Kevin C",
+        "Surovtsev, Ivan",
+        "King, Megan C",
+        "Mochrie, Simon G J"
+      ],
+      "short_names": [
+        "Yuan T",
+        "Yan H",
+        "Li KC",
+        "Surovtsev I",
+        "King MC",
+        "Mochrie SGJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7243-8111"
+      ],
+      "affiliations": [
+        "Integrated Graduate Program in Physical and Engineering Biology, Yale University, New Haven, Connecticut, 06520, USA.",
+        "Department of Physics, Yale University, New Haven, Connecticut, 06520, USA.",
+        "Integrated Graduate Program in Physical and Engineering Biology, Yale University, New Haven, Connecticut, 06520, USA.",
+        "Department of Physics, Yale University, New Haven, Connecticut, 06520, USA.",
+        "Department of Cell Biology, Yale School of Medicine, New Haven, Connecticut, 06520, USA.",
+        "Department of Physics, Yale University, New Haven, Connecticut, 06520, USA.",
+        "Department of Cell Biology, Yale School of Medicine, New Haven, Connecticut, 06520, USA.",
+        "Integrated Graduate Program in Physical and Engineering Biology, Yale University, New Haven, Connecticut, 06520, USA. megan.king@yale.edu.",
+        "Department of Cell Biology, Yale School of Medicine, New Haven, Connecticut, 06520, USA. megan.king@yale.edu.",
+        "Department of Molecular, Cell and Developmental Biology, Yale University, New Haven, Connecticut, 06511, USA. megan.king@yale.edu.",
+        "Integrated Graduate Program in Physical and Engineering Biology, Yale University, New Haven, Connecticut, 06520, USA. simon.mochrie@yale.edu.",
+        "Department of Physics, Yale University, New Haven, Connecticut, 06520, USA. simon.mochrie@yale.edu.",
+        "Department of Applied Physics, Yale University, New Haven, Connecticut, 06520, USA. simon.mochrie@yale.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Tianyu",
+        "short_name": "Yuan T",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Graduate Program in Physical and Engineering Biology, Yale University, New Haven, Connecticut, 06520, USA.",
+          "Department of Physics, Yale University, New Haven, Connecticut, 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Hao",
+        "short_name": "Yan H",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Graduate Program in Physical and Engineering Biology, Yale University, New Haven, Connecticut, 06520, USA.",
+          "Department of Physics, Yale University, New Haven, Connecticut, 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Kevin C",
+        "short_name": "Li KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Yale School of Medicine, New Haven, Connecticut, 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Surovtsev, Ivan",
+        "short_name": "Surovtsev I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Yale University, New Haven, Connecticut, 06520, USA.",
+          "Department of Cell Biology, Yale School of Medicine, New Haven, Connecticut, 06520, USA."
+        ]
+      },
+      {
+        "full_name": "King, Megan C",
+        "short_name": "King MC",
+        "identifiers": [],
+        "affiliations": [
+          "Integrated Graduate Program in Physical and Engineering Biology, Yale University, New Haven, Connecticut, 06520, USA. megan.king@yale.edu.",
+          "Department of Cell Biology, Yale School of Medicine, New Haven, Connecticut, 06520, USA. megan.king@yale.edu.",
+          "Department of Molecular, Cell and Developmental Biology, Yale University, New Haven, Connecticut, 06511, USA. megan.king@yale.edu."
+        ]
+      },
+      {
+        "full_name": "Mochrie, Simon G J",
+        "short_name": "Mochrie SGJ",
+        "identifiers": [
+          "0000-0002-7243-8111"
+        ],
+        "affiliations": [
+          "Integrated Graduate Program in Physical and Engineering Biology, Yale University, New Haven, Connecticut, 06520, USA. simon.mochrie@yale.edu.",
+          "Department of Physics, Yale University, New Haven, Connecticut, 06520, USA. simon.mochrie@yale.edu.",
+          "Department of Applied Physics, Yale University, New Haven, Connecticut, 06520, USA. simon.mochrie@yale.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2024 Nov 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/15 06:25",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "42598857",
+      "42223017",
+      "41819075",
+      "40369871"
+    ],
+    "refs": [
+      "38755928",
+      "38376816",
+      "38291333",
+      "37820734",
+      "37126401",
+      "37076626",
+      "36897969",
+      "35831310",
+      "35710835",
+      "35687682",
+      "35654035",
+      "35508662",
+      "35103590",
+      "34897464",
+      "34309513",
+      "33953379",
+      "33767413",
+      "33579945",
+      "33434270",
+      "33235358",
+      "33170773",
+      "33153481",
+      "32620890",
+      "32534241",
+      "32396063",
+      "32250245",
+      "32032532",
+      "31910870",
+      "31780627",
+      "31753851",
+      "31641121",
+      "31548377",
+      "31416914",
+      "31201089",
+      "30661750",
+      "30344096",
+      "29970489",
+      "29967174",
+      "29920258",
+      "29728444",
+      "29662163",
+      "29660196",
+      "29472443",
+      "29300120",
+      "29217591",
+      "29087948",
+      "28985562",
+      "28825727",
+      "28525758",
+      "28475897",
+      "28468672",
+      "28436944",
+      "28424523",
+      "27799150",
+      "27723753",
+      "27688758",
+      "27405443",
+      "27278645",
+      "27259200",
+      "27224481",
+      "27210764",
+      "27192037",
+      "27060145",
+      "27036497",
+      "26499245",
+      "26348399",
+      "26119342",
+      "26096785",
+      "26074052",
+      "25922992",
+      "25847133",
+      "25435919",
+      "25367294",
+      "25307058",
+      "24813616",
+      "24635992",
+      "24614316",
+      "23101633",
+      "23074191",
+      "22988072",
+      "22495300",
+      "22265598",
+      "20461051",
+      "19815776",
+      "19712444",
+      "19454013",
+      "19056890",
+      "18358811",
+      "15448702",
+      "15309048",
+      "15229615",
+      "11909105",
+      "10882066"
+    ],
+    "similar": [
+      "39543681",
+      "37076620",
+      "41238959",
+      "40063813",
+      "27210764",
+      "29757144",
+      "40374602",
+      "39093600",
+      "35585235",
+      "29217591",
+      "40011778",
+      "36182691",
+      "40210441",
+      "29967174",
+      "32680543",
+      "34197738",
+      "35420890",
+      "39988079",
+      "40628528",
+      "35440598",
+      "27582050",
+      "31264253",
+      "38129077",
+      "32631111",
+      "41102415",
+      "33154377",
+      "28737770",
+      "32065581",
+      "31968256",
+      "31177910",
+      "36897969",
+      "39160275",
+      "38206813",
+      "41145704",
+      "39169755",
+      "40586309",
+      "35180428",
+      "42030945",
+      "41984826",
+      "34309513",
+      "39709822",
+      "31216471",
+      "28475897",
+      "31491387",
+      "37699887",
+      "31205001",
+      "40118039",
+      "41380688",
+      "29217590",
+      "38753513",
+      "41951674",
+      "28467304",
+      "31887284",
+      "38742641",
+      "37146570",
+      "26499245",
+      "32782014",
+      "41840057",
+      "38295804",
+      "29706548",
+      "33545664",
+      "41980771",
+      "29593713",
+      "31204999",
+      "41622199",
+      "29140466",
+      "32250245",
+      "31937660",
+      "31582854",
+      "25307058",
+      "39979259",
+      "38808662",
+      "40436628",
+      "41349519",
+      "31910870",
+      "39827577",
+      "35710842",
+      "28424523",
+      "38295892",
+      "23804403",
+      "37591243",
+      "41111100",
+      "36325618",
+      "39110499",
+      "41983545",
+      "40181539",
+      "36097291",
+      "30875678",
+      "37536339",
+      "34321070",
+      "41381500",
+      "18550811",
+      "29077530",
+      "35676475",
+      "33767413",
+      "33170773",
+      "28985562",
+      "39721581",
+      "38670416",
+      "38217027"
+    ],
+    "review": [
+      "39543681",
+      "31264253",
+      "32631111",
+      "39169755",
+      "39709822",
+      "40118039",
+      "31887284",
+      "33545664",
+      "39827577",
+      "30875678",
+      "29077530"
+    ],
+    "pmc": [
+      "11566905"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03432-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39543681/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

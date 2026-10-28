@@ -1,0 +1,505 @@
+{
+  "identity": {
+    "pmid": "35513774",
+    "doi": "10.1186/s12885-022-09559-4",
+    "title": "Leveraging artificial intelligence to predict ERG gene fusion status in prostate cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: TMPRSS2-ERG gene rearrangement, the most common E26 transformation specific (ETS) gene fusion within prostate cancer, is known to contribute to the pathogenesis of this disease and carries diagnostic annotations for prostate cancer patients clinically. The ERG rearrangement status in prostatic adenocarcinoma currently cannot be reliably identified from histologic features on H&E-stained slides alone and hence requires ancillary studies such as immunohistochemistry (IHC), fluorescent in situ hybridization (FISH) or next generation sequencing (NGS) for identification. METHODS: OBJECTIVE: We accordingly sought to develop a deep learning-based algorithm to identify ERG rearrangement status in prostatic adenocarcinoma based on digitized slides of H&E morphology alone. DESIGN: Setting, and Participants: Whole slide images from 392 in-house and TCGA cases were employed and annotated using QuPath. Image patches of 224 x 224 pixel were exported at 10 x, 20 x, and 40 x for input into a deep learning model based on MobileNetV2 convolutional neural network architecture pre-trained on ImageNet. A separate model was trained for each magnification. Training and test datasets consisted of 261 cases and 131 cases, respectively. The output of the model included a prediction of ERG-positive (ERG rearranged) or ERG-negative (ERG not rearranged) status for each input patch. OUTCOME MEASUREMENTS AND STATISTICAL ANALYSIS: Various accuracy measurements including area under the curve (AUC) of the receiver operating characteristic (ROC) curves were used to evaluate the deep learning model. RESULTS AND LIMITATIONS: All models showed similar ROC curves with AUC results ranging between 0.82 and 0.85. The sensitivity and specificity of these models were 75.0% and 83.1% (20 x model), respectively. CONCLUSIONS: A deep learning-based model can successfully predict ERG rearrangement status in the majority of prostatic adenocarcinomas utilizing only H&E-stained digital slides. Such an artificial intelligence-based model can eliminate the need for using extra tumor tissue to perform ancillary studies in order to assess for ERG gene rearrangement in prostatic adenocarcinoma.",
+    "keywords": [
+      "Adenocarcinoma",
+      "Artificial intelligence",
+      "Deep learning",
+      "ERG",
+      "Gene fusion",
+      "Prostate cancer",
+      "Whole slide imaging"
+    ],
+    "mesh_terms": [
+      "*Adenocarcinoma/diagnosis/genetics/pathology",
+      "Artificial Intelligence",
+      "Gene Fusion",
+      "Humans",
+      "In Situ Hybridization, Fluorescence",
+      "Male",
+      "Oncogene Proteins, Fusion/genetics",
+      "*Prostatic Neoplasms/pathology",
+      "Transcriptional Regulator ERG/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dadhania, Vipulkumar",
+        "Gonzalez, Daniel",
+        "Yousif, Mustafa",
+        "Cheng, Jerome",
+        "Morgan, Todd M",
+        "Spratt, Daniel E",
+        "Reichert, Zachery R",
+        "Mannan, Rahul",
+        "Wang, Xiaoming",
+        "Chinnaiyan, Anya",
+        "Cao, Xuhong",
+        "Dhanasekaran, Saravana M",
+        "Chinnaiyan, Arul M",
+        "Pantanowitz, Liron",
+        "Mehra, Rohit"
+      ],
+      "short_names": [
+        "Dadhania V",
+        "Gonzalez D",
+        "Yousif M",
+        "Cheng J",
+        "Morgan TM",
+        "Spratt DE",
+        "Reichert ZR",
+        "Mannan R",
+        "Wang X",
+        "Chinnaiyan A",
+        "Cao X",
+        "Dhanasekaran SM",
+        "Chinnaiyan AM",
+        "Pantanowitz L",
+        "Mehra R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6955-8884"
+      ],
+      "affiliations": [
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Pathology and Laboratory Medicine, Jackson Memorial Hospital, Miami, FL, USA.",
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Pathology, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Radiation Oncology, University Hospitals Seidman Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH, USA.",
+        "Department of Medical Oncology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, Ann Arbor, MI, USA.",
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, Ann Arbor, MI, USA.",
+        "Rogel Cancer Center, Michigan Medicine, Ann Arbor, MI, USA.",
+        "Howard Hughes Medical Institute, Ann Arbor, MI, USA.",
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Rogel Cancer Center, Michigan Medicine, Ann Arbor, MI, USA.",
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA. mrohit@med.umich.edu.",
+        "Michigan Center for Translational Pathology, Ann Arbor, MI, USA. mrohit@med.umich.edu.",
+        "Rogel Cancer Center, Michigan Medicine, Ann Arbor, MI, USA. mrohit@med.umich.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dadhania, Vipulkumar",
+        "short_name": "Dadhania V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, Daniel",
+        "short_name": "Gonzalez D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Jackson Memorial Hospital, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Yousif, Mustafa",
+        "short_name": "Yousif M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+          "Department of Pathology, Vanderbilt University Medical Center, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jerome",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Morgan, Todd M",
+        "short_name": "Morgan TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Spratt, Daniel E",
+        "short_name": "Spratt DE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, University Hospitals Seidman Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Reichert, Zachery R",
+        "short_name": "Reichert ZR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Mannan, Rahul",
+        "short_name": "Mannan R",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoming",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Chinnaiyan, Anya",
+        "short_name": "Chinnaiyan A",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Xuhong",
+        "short_name": "Cao X",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Dhanasekaran, Saravana M",
+        "short_name": "Dhanasekaran SM",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Chinnaiyan, Arul M",
+        "short_name": "Chinnaiyan AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+          "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+          "Michigan Center for Translational Pathology, Ann Arbor, MI, USA.",
+          "Rogel Cancer Center, Michigan Medicine, Ann Arbor, MI, USA.",
+          "Howard Hughes Medical Institute, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Pantanowitz, Liron",
+        "short_name": "Pantanowitz L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+          "Rogel Cancer Center, Michigan Medicine, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Mehra, Rohit",
+        "short_name": "Mehra R",
+        "identifiers": [
+          "0000-0002-6955-8884"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA. mrohit@med.umich.edu.",
+          "Michigan Center for Translational Pathology, Ann Arbor, MI, USA. mrohit@med.umich.edu.",
+          "Rogel Cancer Center, Michigan Medicine, Ann Arbor, MI, USA. mrohit@med.umich.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2022 May 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/06 06:00",
+    "fetched_at": "2026-09-28 08:05:38"
+  },
+  "links": {
+    "cites": [
+      "42129415",
+      "41808601",
+      "40949469",
+      "40760335",
+      "40629505",
+      "38593808",
+      "38021917",
+      "37627935",
+      "37307876",
+      "37296271",
+      "36428686"
+    ],
+    "refs": [
+      "35122048",
+      "34127777",
+      "34114376",
+      "33941504",
+      "33328045",
+      "32884130",
+      "32711010",
+      "32393768",
+      "32286325",
+      "31624355",
+      "31308507",
+      "31304394",
+      "30224757",
+      "30104757",
+      "29261439",
+      "29203879",
+      "28344039",
+      "28192639",
+      "27212078",
+      "27159573",
+      "26743468",
+      "26736836",
+      "26544944",
+      "25985884",
+      "25594725",
+      "24505269",
+      "21526952",
+      "20562851",
+      "19884074",
+      "19190343",
+      "18694509",
+      "18483239",
+      "17971772",
+      "17804708",
+      "17385188",
+      "17334343",
+      "16254181"
+    ],
+    "similar": [
+      "35513774",
+      "21677539",
+      "21914348",
+      "23850495",
+      "32639612",
+      "26670747",
+      "21499238",
+      "37307876",
+      "19584163",
+      "21773753",
+      "20651988",
+      "27910803",
+      "23701505",
+      "23545904",
+      "19396154",
+      "21937078",
+      "31210145",
+      "18794152",
+      "22849743",
+      "17059688",
+      "17385188",
+      "23352841",
+      "20562851",
+      "22821757",
+      "24517914",
+      "23321466",
+      "23399797",
+      "24195515",
+      "26331372",
+      "19649210",
+      "17527075",
+      "24516518",
+      "24777847",
+      "29127096",
+      "30900303",
+      "21707704",
+      "38284821",
+      "31729338",
+      "21040948",
+      "29949537",
+      "27377958",
+      "27721279",
+      "28612561",
+      "23201468",
+      "26471473",
+      "19029822",
+      "23664537",
+      "18519769",
+      "21802835",
+      "25015038",
+      "18694509",
+      "21394739",
+      "18283340",
+      "19190343",
+      "28845585",
+      "33328045",
+      "20975660",
+      "28849022",
+      "23781502",
+      "36598071",
+      "25780911",
+      "26684029",
+      "26978019",
+      "21584900",
+      "26959281",
+      "16820092",
+      "22081504",
+      "30291535",
+      "17108102",
+      "17401460",
+      "30545222",
+      "22736790",
+      "18483239",
+      "24931216",
+      "17637754",
+      "23244085",
+      "19147579",
+      "25973080",
+      "38331878",
+      "23447416",
+      "28900498",
+      "16951139",
+      "37100542",
+      "35898183",
+      "35278081",
+      "36597019",
+      "38791889",
+      "37939498",
+      "28507619",
+      "33177794",
+      "37293008",
+      "36237543",
+      "36823229",
+      "34017063",
+      "37527779",
+      "34354733",
+      "36561353",
+      "36162012",
+      "34908807",
+      "37627071",
+      "32884130",
+      "36819249",
+      "38381582",
+      "36198869",
+      "39265953",
+      "39422217",
+      "38824500",
+      "33033656",
+      "38382842",
+      "35143898",
+      "39197433",
+      "37482265",
+      "36579559",
+      "38619651",
+      "36359467",
+      "37453366",
+      "35640384",
+      "36135637",
+      "36496513",
+      "39306985",
+      "35644123",
+      "37174035",
+      "36625762",
+      "38185250",
+      "37945099",
+      "32903653",
+      "37793603",
+      "31623293",
+      "32195366",
+      "38148967",
+      "36923447",
+      "35741216",
+      "38241314",
+      "35242446",
+      "35469069",
+      "37562657",
+      "35484552",
+      "34359712",
+      "35705792",
+      "37101624",
+      "36825084",
+      "37030811",
+      "36643248",
+      "39061760",
+      "37549921",
+      "34638322",
+      "37790315",
+      "35884502",
+      "39309216",
+      "35083445",
+      "36345339",
+      "37568673",
+      "34877911",
+      "36187924",
+      "39428324",
+      "38569614"
+    ],
+    "review": [
+      "35513774",
+      "27910803",
+      "31210145",
+      "23399797",
+      "22736790",
+      "38381582",
+      "38619651",
+      "37945099"
+    ],
+    "pmc": [
+      "9069768"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-022-09559-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35513774/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35513774",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the N-terminal basic residues (R2-R5) of the HOXD9 homeodomain drive its diffusion along DNA prior to specific-site recognition, based on all-atom molecular dynamics simulations, kinetic models, site-directed mutagenesis assays, and phylogenetic analyses of 154 HOX proteins. They propose that this target-searching mechanism may generalize to other homeodomain proteins.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, statistical analyses, or experimental data are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, mutagenesis assay details, phylogenetic tree construction methods, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic hypothesis regarding the role of N-terminal basic residues in HOXD9 target-site searching. However, the current evidence base is insufficient to evaluate the robustness of the claims. The central conclusion that R2-R5 drive diffusion is supported only by a brief statement of simulation results, with no quantitative metrics, error estimates, or comparative controls described. The mutagenesis validation is mentioned but not detailed, and the phylogenetic analysis is presented without methodological context. The claim of generalizability to other homeodomain proteins is speculative given the limited evidence shown.
+- **Who would be interested in the results, and why** Researchers studying transcription factor-DNA recognition dynamics, particularly those focused on homeodomain proteins and their role in development and disease. The proposed mechanism could inform understanding of how N-terminal regions contribute to target-site searching, which is relevant to the broader field of protein-DNA interaction dynamics and may have implications for engineering DNA-binding proteins with altered specificity.
+- **Major strengths** The study addresses a relevant question about the molecular mechanism of target-site searching by a transcription factor. The combination of computational simulations with experimental validation and evolutionary analysis is a commendable approach. The focus on the N-terminal arm, which is often underappreciated relative to the helix-3 recognition helix, is a potentially valuable contribution.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "the N-terminal arm is directly involved in driving the HOXD9 diffusion along DNA before targeting to the specific-site" and that "R2-R5 play critical roles in forming direct contacts with DNA, mainly via electrostatic interactions."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative evidence for the diffusion mechanism. There are no diffusion coefficients, residence times, free energy profiles, or comparison to control simulations (e.g., mutants or truncated constructs) that would establish that the N-terminal arm specifically drives diffusion rather than merely participating in non-specific contacts. The claim that R2-R5 are "critical" requires demonstration that their mutation abolishes or significantly alters the diffusion behavior, which is not described in the abstract.  
+  - **Why it matters** Without quantitative metrics and appropriate controls, the central mechanistic claim cannot be distinguished from a descriptive observation of contacts. The term "drives" implies a causal role that requires functional perturbation data to support.  
+  - **Resolution test** Provide diffusion coefficients or mean squared displacement analysis for wild-type versus N-terminal mutants, with statistical significance testing. Show that mutation of R2-R5 leads to a measurable change in sliding dynamics or target-site localization efficiency.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "site-directed mutagenetic assays validated the predicted functional roles of these N-terminal residues."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify what the mutagenesis assays measured, what the outcomes were, or how they relate to the computational predictions. No quantitative results (e.g., binding affinities, dissociation rates, or functional readouts) are provided. The term "validated" is used without supporting data.  
+  - **Why it matters** Experimental validation is a key pillar of the study's claim. Without details on the assay design and results, the reader cannot assess whether the validation is meaningful or whether the mutations had effects consistent with the proposed mechanism.  
+  - **Resolution test** Describe the mutagenesis assay (e.g., electrophoretic mobility shift assay, fluorescence anisotropy, or reporter gene assay), report quantitative results for wild-type and mutant proteins, and show that the observed effects align with the computational predictions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Originality  
+  - **Claim pointer** The authors claim that "the proposed target-searching mechanism for HOXD9 could be generalized to other homeodomain proteins" based on phylogenetic analyses of 154 HOX proteins.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The phylogenetic analysis is described only as indicating "highly conserved structural features in the N-terminus." Sequence conservation does not necessarily imply functional conservation of the specific diffusion mechanism proposed here. The leap from conservation of structural features to generalizability of a dynamic mechanism is not justified without functional data from other homeodomain proteins.  
+  - **Why it matters** The generalizability claim substantially extends the study's scope. If unsupported, it overstates the significance of the findings and could mislead readers about the universality of the mechanism.  
+  - **Resolution test** Either temper the claim to state that the mechanism is "potentially applicable" to other homeodomains, or provide functional evidence (e.g., simulations or experiments) demonstrating that N-terminal residues in other HOX proteins exhibit similar diffusion-driving behavior.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "plug its N-terminus out of the minor-groove" is informal and potentially confusing. The mechanism of N-terminal release from the minor groove during target approach is not clearly described.  
+  - **Required correction** Rephrase to describe the conformational change more precisely, e.g., "the N-terminus dissociates from the minor groove as the protein approaches the specific site."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Simulation system description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states simulations were performed on a "10-bp DNA segment." This is a very short DNA fragment for studying diffusion dynamics, and the authors do not address whether this length is sufficient to observe meaningful sliding behavior or whether periodic boundary artifacts could influence the results.  
+  - **Required correction** Justify the choice of a 10-bp DNA segment or acknowledge its limitations in the abstract, and describe how boundary effects were handled in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interdisciplinary readership  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not define what "target-site searching" means in quantitative terms, nor does it explain the distinction between "diffusion" and "specific recognition" for readers outside the biophysics community.  
+  - **Required correction** Add a brief operational definition of target-site searching and diffusion in the context of protein-DNA interactions.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central mechanistic claim and its experimental validation are not supported by the evidence presented in the abstract. R1-M3 is non-blocking but requires either tempering or additional evidence.  
+- **Assessment against Nature-style criteria**  
+  - Originality: The focus on N-terminal residues in driving diffusion is a potentially novel angle, but the abstract does not clearly differentiate this from prior studies on other homeodomain proteins or transcription factors. The originality claim is therefore not fully established.  
+  - Scientific importance: The question of how transcription factors search for target sites is of broad interest, and HOXD9's role in disease adds translational relevance. However, the importance of the specific N-terminal mechanism is not demonstrated beyond a single protein.  
+  - Interdisciplinary readership: The topic bridges biophysics, molecular biology, and evolutionary biology, which could appeal to a broad audience. However, the abstract is written in a way that assumes familiarity with simulation and DNA-binding terminology, limiting accessibility.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of quantitative results, controls, and methodological details prevents evaluation of the technical rigor.  
+  - Readability for nonspecialists: The abstract is generally clear but contains jargon and informal phrasing that could be improved. The mechanistic narrative is understandable at a high level.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative and experimental detail needed to support the central claims. A revised version with full methodological transparency, quantitative results, and appropriate controls could change this assessment.
+
+## Risk / unsupported claims
+- The claim that R2-R5 "drive" diffusion is unsupported without quantitative diffusion metrics and mutant comparisons.
+- The claim that mutagenesis assays "validated" the computational predictions is unsupported without assay details and results.
+- The claim of generalizability to other homeodomain proteins is unsupported by the evidence described; sequence conservation alone does not establish functional conservation.
+- The statement that the N-terminus "plugs out" of the minor groove is not supported by any structural or dynamic data presented in the abstract.
+- The relevance of simulations on a 10-bp DNA segment to physiological target-site searching is not addressed and cannot be evaluated from the abstract.

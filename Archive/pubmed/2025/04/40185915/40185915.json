@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "40185915",
+    "doi": "10.1038/s42003-025-07534-w",
+    "title": "TransBind allows precise detection of DNA-binding proteins and residues using language models and deep learning."
+  },
+  "content": {
+    "abstract": "Identifying DNA-binding proteins and their binding residues is critical for understanding diverse biological processes, but conventional experimental approaches are slow and costly. Existing machine learning methods, while faster, often lack accuracy and struggle with data imbalance, relying heavily on evolutionary profiles like PSSMs and HMMs derived from multiple sequence alignments (MSAs). These dependencies make them unsuitable for orphan proteins or those that evolve rapidly. To address these challenges, we introduce TransBind, an alignment-free deep learning framework that predicts DNA-binding proteins and residues directly from a single primary sequence, eliminating the need for MSAs. By leveraging features from pre-trained protein language models, TransBind effectively handles the issue of data imbalance and achieves superior performance. Extensive evaluations using diverse experimental datasets and case studies demonstrate that TransBind significantly outperforms state-of-the-art methods in terms of both accuracy and computational efficiency. TransBind is available as a web server at https://trans-bind-web-server-frontend.vercel.app/ .",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "*Software",
+      "*Computational Biology/methods",
+      "Sequence Alignment",
+      "Sequence Analysis, Protein/methods",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tahmid, Md Toki",
+        "Hasan, A K M Mehedi",
+        "Bayzid, Md Shamsuzzoha"
+      ],
+      "short_names": [
+        "Tahmid MT",
+        "Hasan AKMM",
+        "Bayzid MS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5640-0615"
+      ],
+      "affiliations": [
+        "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka, 1205, Bangladesh.",
+        "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka, 1205, Bangladesh.",
+        "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka, 1205, Bangladesh. shams_bayzid@cse.buet.ac.bd."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tahmid, Md Toki",
+        "short_name": "Tahmid MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka, 1205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hasan, A K M Mehedi",
+        "short_name": "Hasan AKMM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka, 1205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Bayzid, Md Shamsuzzoha",
+        "short_name": "Bayzid MS",
+        "identifiers": [
+          "0000-0002-5640-0615"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka, 1205, Bangladesh. shams_bayzid@cse.buet.ac.bd."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2025 Apr 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/05 15:55",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42012716",
+      "41303412"
+    ],
+    "refs": [
+      "39818825",
+      "39316715",
+      "38317052",
+      "38171929",
+      "37824738",
+      "37672551",
+      "36192636",
+      "36192635",
+      "36008947",
+      "35652719",
+      "35637310",
+      "35334314",
+      "35273146",
+      "35150250",
+      "35106547",
+      "34903827",
+      "34743286",
+      "34232869",
+      "34058979",
+      "33876751",
+      "33577689",
+      "32946833",
+      "32437517",
+      "32298689",
+      "31898477",
+      "31881828",
+      "31874622",
+      "31819266",
+      "30598073",
+      "30169574",
+      "29753757",
+      "29182548",
+      "28851273",
+      "28132027",
+      "27740495",
+      "26213851",
+      "25756377",
+      "25708928",
+      "25609700",
+      "25184541",
+      "24475169",
+      "23737141",
+      "23335013",
+      "23087378",
+      "21689482",
+      "19483101",
+      "19160518",
+      "17483510",
+      "17237068",
+      "16998473",
+      "16845003",
+      "16785442",
+      "16568445"
+    ],
+    "similar": [
+      "40185915",
+      "41172803",
+      "37651627",
+      "42099803",
+      "41686649",
+      "26213851",
+      "39214282",
+      "41133269",
+      "19594868",
+      "17237068",
+      "38830995",
+      "40121399",
+      "25708928",
+      "22868682",
+      "40036514",
+      "40209920",
+      "37748220",
+      "39237207",
+      "38016996",
+      "27740495",
+      "38316843",
+      "39775454",
+      "42475469",
+      "39575640",
+      "32142788",
+      "16712732",
+      "38913900",
+      "40957717",
+      "39270885",
+      "28056090",
+      "38608190",
+      "40439671",
+      "42598852",
+      "30032213",
+      "36192636",
+      "37679542",
+      "38871095",
+      "38871100",
+      "40546733",
+      "39657630",
+      "15720719",
+      "41259416",
+      "35943134",
+      "35073170",
+      "39316498",
+      "41257586",
+      "31415569",
+      "42412847",
+      "29097781",
+      "27282833",
+      "39576587",
+      "41284811",
+      "41762162",
+      "41020638",
+      "40359455",
+      "40569190",
+      "40662818",
+      "19439068",
+      "42581579",
+      "39230690",
+      "40133785",
+      "39795988",
+      "42491247",
+      "31267738",
+      "39237735",
+      "39107889",
+      "26527718",
+      "38747369",
+      "34002774",
+      "22661576",
+      "35378437",
+      "29536446",
+      "29790960",
+      "39489606",
+      "29036616",
+      "42636030",
+      "30808287",
+      "34905768",
+      "41611201",
+      "39576574",
+      "22574904",
+      "29949966",
+      "33837387",
+      "35604077",
+      "39499152",
+      "42350672",
+      "34415020",
+      "37356909",
+      "41168713",
+      "41396754",
+      "28093407",
+      "22163274",
+      "30668479",
+      "42398071",
+      "35150250",
+      "42316773",
+      "29947739",
+      "34073705",
+      "36416116",
+      "39833102"
+    ],
+    "review": [
+      "40185915",
+      "40209920",
+      "42491247"
+    ],
+    "pmc": [
+      "11971327"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-025-07534-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40185915/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40185915",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

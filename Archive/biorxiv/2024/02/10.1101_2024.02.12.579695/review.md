@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends (as provided).
+- **Assessment boundary** The scientific claims, methodology, data interpretation, and presentation within the provided manuscript text. No external data or unpublished information was consulted.
+- **Shared manuscript claim summary** The manuscript reports the structural and biophysical characterization of DR2539, a dimeric manganese-sensing transcription regulator from *Deinococcus radiodurans*. The authors present crystal structures of a truncated form (DR2539tr) in the holo state and in complex with a 21-bp DNA fragment from the *dr1709* promoter, identify four manganese-binding sites per monomer (including a novel "tertiary" site), and use SAXS and AlphaFold modeling to propose a compact solution conformation. They conclude that metal binding induces conformational changes required for DNA recognition, with specific residues (e.g., Tyr59, helix α3) playing key roles.
+- **Visible evidence base** Crystal structures (PDB IDs 8PVT, 8PVZ, and a complex structure), anomalous difference maps, EMSA data, ITC data, CD spectroscopy, SAXS data, and AlphaFold2 predictions, as described in the text and referenced figures/tables.
+- **Missing materials affecting confidence** The manuscript text was provided without figures, tables, or supplementary information. This significantly limits the ability to independently assess the quality of the structural data, the details of the EMSA/ITC/CD experiments, and the SAXS fits. Specific numerical values for ITC parameters, SAXS χ² values, and detailed refinement statistics are mentioned but cannot be verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a valuable and largely well-executed structural study of a biologically important metalloregulator. The identification of a novel fourth metal-binding site and the detailed analysis of the protein-DNA interface are significant contributions. However, the current evidence base, as presented in the text alone, has several gaps that prevent full validation of the central claims. The link between the structural observations and the proposed regulatory mechanism, particularly the role of the ancillary domain and the "tertiary" site, requires stronger experimental support. The manuscript would be strengthened by a more critical discussion of the limitations of the truncated construct and the potential artifacts of the crystallization conditions.
+- **Who would be interested in the results, and why** Researchers in the fields of bacterial metal homeostasis, transcriptional regulation, structural biology of DtxR/MntR family regulators, and the radiation resistance mechanisms of *Deinococcus radiodurans*. The study provides new structural insights into how a manganese-specific regulator achieves metal selectivity and DNA binding, which is relevant for understanding similar systems in other bacteria and for potential biotechnological applications.
+- **Major strengths**
+    1.  The study addresses a clear and important gap in understanding DR2539, a key regulator of manganese homeostasis in a model radioresistant organism.
+    2.  The determination of the holo and DNA-bound structures of DR2539tr is a significant technical achievement, providing the first high-resolution views of this specific regulator.
+    3.  The discovery and characterization of a novel, fourth metal-binding site ("tertiary site") is a novel finding that challenges the established paradigm for DtxR family regulators.
+    4.  The combination of X-ray crystallography, SAXS, and AlphaFold modeling provides a multi-pronged approach to understanding the solution behavior and conformational dynamics of the protein.
+    5.  The functional validation of key DNA-binding residues (e.g., Tyr59, helix α3) through EMSA experiments with mutant DNA probes is a strong point.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical Soundness
+        - **Claim pointer** The manuscript claims that the crystal structure of the DR2539tr-*dr1709p* complex contains a 21-bp double-stranded DNA, but the model was refined with a single strand at 50% occupancy due to the quasi-palindromic sequence.
+        - **Evidence pointer** Section "Overall structure of DR2539tr- dr1709p -manganese complex", Figure 2A, Figure S4.
+        - **Concern** The modeling of the DNA as a single strand with 50% occupancy is highly unusual and raises serious questions about the validity of the protein-DNA interface described. The authors acknowledge ambiguity in three base pairs, but the use of a single strand to model a double-helical DNA duplex is a major approximation. It is unclear how the base-specific interactions (e.g., with Thy4, Thy16) are assigned when the complementary strand is not explicitly modeled. This approach could lead to significant errors in interpreting the sequence-specific contacts.
+        - **Why it matters** The central claim of the paper is the mechanism of DNA sequence recognition. If the DNA model is fundamentally ambiguous or incorrect, the detailed atomic-level description of the protein-DNA interface, and the conclusions drawn from it, are not reliable.
+        - **Resolution test** The authors must provide a clear and detailed justification for this modeling strategy. They should present unambiguous evidence (e.g., clear electron density maps for both strands, or a refined model with the double-stranded DNA) that the proposed interface is correct. If the density only supports a single strand, the claims about specific base recognition must be tempered, and the structure should be presented as a lower-confidence model.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical Soundness
+        - **Claim pointer** The manuscript claims that the "tertiary site" is a novel, functionally relevant metal-binding site, based on its presence in the crystal structure and a stoichiometry of ~3.4 Mn²⁺ ions per monomer from ITC.
+        - **Evidence pointer** Section "DR2539 presents 4 manganese binding sites", Figure 4B, Figure 4C.
+        - **Concern** The functional significance of the novel "tertiary site" is not established. The ITC data show a stoichiometry of 3.4 for the full-length protein, which is consistent with the presence of four sites, but this is a bulk measurement. The structural data are from a truncated construct (residues 4-142) that lacks the ancillary domain, which is proposed to contribute to the ancillary site. The role of the tertiary site in DNA binding or regulation is not directly tested. The claim that it is a "peculiarity of DR2539" is based on sequence comparison, but its functional importance remains speculative.
+        - **Why it matters** The novelty of the paper partly rests on this new site. Without a clear demonstration of its functional role (e.g., via mutagenesis of the coordinating residues and testing DNA binding or repression *in vitro*), the claim that it is a key feature of DR2539's regulatory mechanism is not supported.
+        - **Resolution test** The authors should perform site-directed mutagenesis on the residues coordinating the tertiary site (e.g., Glu74, His78, Glu110, Glu113) and assess the impact on metal binding (ITC) and DNA binding (EMSA). This would directly test the functional relevance of this site.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Scientific Importance
+        - **Claim pointer** The manuscript proposes a detailed regulatory mechanism where metal binding to the primary site stabilizes the dimer and induces conformational changes that promote DNA binding, with the ancillary domain modulating this process.
+        - **Evidence pointer** Sections "Discussion", "Full-length DR2539 presents a compact conformation in solution", Figure 5.
+        - **Concern** The proposed mechanism is largely inferred from static structures and SAXS data on the truncated form. The SAXS data for the full-length protein are described as prone to aggregation, and the analysis was only performed on the "as-isolated" form. The claim that the ancillary domain is "likely facing the dimerization domain" is based on a single AlphaFold model and a SAXS fit with a χ² of 2.9, which is not a particularly good fit. The conformational changes upon metal binding are not directly demonstrated for the full-length protein.
+        - **Why it matters** The proposed mechanism is a key conclusion of the paper. If the solution data are of limited quality and the conformational changes are not directly observed, the proposed model remains highly speculative.
+        - **Resolution test** The authors should provide higher-quality SAXS data for the full-length protein, ideally in the presence and absence of manganese, to directly demonstrate the proposed conformational changes. Alternatively, they could use other solution techniques like SEC-MALS or native mass spectrometry to support their model.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Technical Soundness
+        - **Claim pointer** The manuscript claims that the "primary and tertiary sites show higher anomalous differences, pointing to tighter binding compared to the ancillary sites" based on the crystal structure.
+        - **Evidence pointer** Section "DR2539 presents 4 manganese binding sites", Figure 4B.
+        - **Concern** The use of anomalous peak heights to infer relative binding affinities is not a standard or robust method. Peak heights in anomalous difference maps are influenced by occupancy, B-factors, and data quality, and do not directly correlate with solution binding affinities. The ITC data show a single transition, suggesting similar affinities for the sites, which contradicts the structural interpretation.
+        - **Why it matters** This interpretation is used to support the step-wise metal binding mechanism. If the evidence is weak, the proposed mechanism is less convincing.
+        - **Resolution test** The authors should either remove this claim or support it with direct measurements of site-specific affinities, which is challenging. A more cautious interpretation of the anomalous data is needed.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Readability for Nonspecialists
+        - **Affected element** Abstract and Introduction
+        - **Evidence pointer** Abstract, Introduction
+        - **Issue** The abstract and introduction are dense and assume significant prior knowledge of the DtxR family and its nomenclature. The significance of the "ancillary domain" and the difference between "primary" and "tertiary" sites is not immediately clear to a non-expert.
+        - **Required correction** Briefly explain the domain architecture and the functional significance of the different metal sites in the introduction to make the work more accessible.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Technical Soundness
+        - **Affected element** Methods, ITC section
+        - **Evidence pointer** Section "Isothermal Calorimetry"
+        - **Issue** The ITC methods are described very briefly. The buffer conditions, the concentration of the titrant, and the specific model used for fitting are not fully detailed. The stoichiometry of 3.4 is unusual and its error is not reported.
+        - **Required correction** Provide full experimental details for the ITC experiments, including the fitting model and the error on the stoichiometry.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Technical Soundness
+        - **Affected element** Methods, SAXS section
+        - **Evidence pointer** Section "Small-angle X-ray Scattering"
+        - **Issue** The SAXS analysis is described, but the quality of the data (e.g., Guinier plots, Kratky plots) is not shown or discussed. The χ² value of 2.9 for the full-length model fit is mentioned but not contextualized.
+        - **Required correction** Include representative SAXS data quality plots and a more detailed discussion of the model fit quality.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Scientific Importance
+        - **Affected element** Discussion
+        - **Evidence pointer** Section "Discussion"
+        - **Issue** The discussion on the role of the ancillary domain in modulating DNA binding is speculative. The authors note differences in heparin column elution profiles but do not provide a quantitative analysis.
+        - **Required correction** Either provide quantitative data (e.g., from a binding assay) to support this claim or clearly state it as a hypothesis.
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Readability for Nonspecialists
+        - **Affected element** Results, "DR2539 recognizes the dr1709 promotor region"
+        - **Evidence pointer** Figure 2E
+        - **Issue** The description of the EMSA results is confusing. The text states that mutations of Thy4 and Thy16 are disruptive, but then says single mutations of Thy3 and Thy4 showed no shift. This is contradictory and needs clarification.
+        - **Required correction** Re-write this section to clearly describe the results of each mutation tested, perhaps with a table summarizing the effects.
+- **Assessment against Nature-style criteria**
+    - **Originality** The work is original in its specific focus on DR2539 and the discovery of a novel metal-binding site. However, the overall structural fold and regulatory logic are similar to other DtxR family members, so the conceptual novelty is incremental.
+    - **Scientific importance** The study is important for the specialized field of bacterial metal homeostasis and *Deinococcus* biology. The findings have implications for understanding how bacteria balance the need for manganese with its toxicity. However, the broad significance beyond this field is not immediately apparent.
+    - **Interdisciplinary readership** The work is primarily of interest to structural biologists, microbiologists, and biochemists. The use of multiple biophysical techniques (crystallography, SAXS, ITC, CD) may appeal to a slightly wider audience, but the topic is niche.
+    - **Technical soundness** The core crystallographic work appears sound, but the major concerns about the DNA modeling and the functional validation of the novel metal site are significant. The solution studies (SAXS) are of limited quality for the full-length protein. The link between structure and function is not fully established.
+    - **Readability for nonspecialists** The manuscript is written in a technical style that is accessible to specialists but not to a broader scientific audience. The abstract is dense and the significance of the findings is not framed in a way that would capture the interest of a general reader.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable structural dataset, but the central claims regarding the DNA recognition mechanism and the functional role of the novel metal-binding site are not fully supported by the evidence as presented. The authors must address the major concerns, particularly the DNA modeling issue and the lack of functional data for the tertiary site, before the case is established.

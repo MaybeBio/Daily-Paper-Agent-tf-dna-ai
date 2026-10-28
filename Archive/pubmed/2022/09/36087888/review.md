@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a sequence-based machine learning method, multi-view Least Squares Support Vector Machine via Hilbert-Schmidt Independence Criterion (multi-view LSSVM via HSIC), for identifying DNA-binding proteins. The method uses six feature sets as multi-view input, trains single-view LSSVM submodels, and integrates HSIC as a regularization term to reduce inter-view dependence. The final prediction is a weighted combination of submodels. Reported accuracies are 85.5% on independent test set PDB186 and 79.36% on PDB2272, exceeding state-of-the-art methods.
+- **Visible evidence base** Abstract text only; no methodological details, feature descriptions, hyperparameter settings, baseline comparisons, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset descriptions, implementation details, baseline method specifications, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological contribution in applying multi-view learning with an independence criterion to a well-studied bioinformatics classification problem. However, the evidence provided is insufficient to evaluate the technical soundness, the validity of the performance claims, or the novelty relative to existing multi-view and DNA-binding protein prediction methods. The reported accuracies, while promising, cannot be assessed without details on experimental design, baseline comparisons, and statistical significance testing.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing sequence-based predictors for DNA-binding proteins. Researchers in multi-view learning and kernel methods may also find the integration of HSIC with LSSVM of methodological interest.
+- **Major strengths** The problem is of practical importance in genomics and proteomics. The use of sequence information avoids costly structural data. The multi-view framework with an independence-based regularization term is a conceptually reasonable approach to exploit complementary feature representations.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method integrates HSIC into LSSVM as a regular term to reduce dependence between views and explores complementary information of multiple views.
+  - **Evidence pointer** Abstract, methodology description; location not provided
+  - **Concern** The abstract provides no mathematical formulation of how HSIC is incorporated into the LSSVM objective, no details on how the regularization strength is chosen, and no explanation of how the six views are defined or preprocessed. Without these details, the technical validity of the proposed optimization problem and its solvability cannot be assessed.
+  - **Why it matters** The core methodological contribution rests on the correct and well-posed integration of HSIC into LSSVM. If the formulation is flawed or the optimization is not tractable, the entire approach collapses. Reviewers and readers cannot verify the method without the full derivation.
+  - **Resolution test** Provide the complete objective function, the optimization algorithm, convergence guarantees, and a description of how the regularization parameter is selected. Show that the optimization problem is convex or otherwise solvable in practice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** On training set PDB1075, the prediction results of our model were better than those of most existing methods. Independent tests on PDB186 and PDB2272 achieved accuracies of 85.5% and 79.36%, respectively, exceeding current state-of-the-art methods.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract reports only accuracy values without any comparison to specific baseline methods, no confidence intervals, no standard deviations, and no statistical significance tests. The claim of exceeding state-of-the-art methods is unverifiable without knowing which methods were compared, under what conditions, and whether the differences are statistically meaningful.
+  - **Why it matters** In machine learning for bioinformatics, performance claims are only meaningful when benchmarked against established methods on identical datasets with proper statistical validation. Without this context, the reported numbers could reflect favorable data splits, overfitting, or cherry-picked metrics.
+  - **Resolution test** Provide a full comparison table with multiple baseline methods, report multiple evaluation metrics (e.g., sensitivity, specificity, MCC, AUC), include standard deviations or confidence intervals, and perform statistical significance tests (e.g., paired t-test or Wilcoxon test) against the best baselines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The proposed multi-view LSSVM via HSIC is presented as a novel method for DNA-binding protein identification.
+  - **Evidence pointer** Abstract, introduction and method description; location not provided
+  - **Concern** The abstract does not discuss prior multi-view learning approaches for DNA-binding protein prediction, nor does it clarify how the proposed method differs from existing multi-view LSSVM variants or other HSIC-based multi-view methods. The novelty claim cannot be evaluated without a literature comparison.
+  - **Why it matters** The field of DNA-binding protein prediction is saturated with many machine learning methods. A clear statement of novelty relative to existing multi-view and HSIC-based approaches is essential to justify publication in a methods-oriented journal.
+  - **Resolution test** In the full manuscript, provide a thorough literature review of multi-view learning for protein function prediction and explicitly state the novel contributions relative to at least three closely related prior methods.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract, method description
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The phrase "multi-view Least Squares Support Vector Machine via Hilbert-Schmidt Independence Criterion" is long and the abbreviation "multi-view LSSVM via HSIC" is introduced but not consistently used throughout the abstract.
+  - **Required correction** Use the abbreviation consistently after first introduction and consider simplifying the method name in the abstract for readability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, results
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The abstract does not specify the number of submodels, the weighting scheme for combining them, or the feature types used in the six views.
+  - **Required correction** Add one or two sentences in the abstract summarizing the six feature types and the weighting strategy, or clarify that these details are in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract, datasets
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The datasets PDB1075, PDB186, and PDB2272 are mentioned by name but not described in terms of sequence length distribution, class balance, or redundancy reduction.
+  - **Required correction** In the full manuscript, describe dataset construction, including any CD-HIT or similar redundancy filtering, and report class distributions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing mathematical formulation and optimization details) and R1-M2 (lack of baseline comparisons and statistical validation) are blocking. Without these, the technical soundness and the performance claims cannot be verified.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract alone. The combination of HSIC with LSSVM in a multi-view framework may be novel, but prior art is not discussed.
+  - Scientific importance: Moderate. DNA-binding protein prediction is a useful application, but the abstract does not demonstrate a major conceptual advance that would elevate it beyond incremental improvement.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and machine learning researchers in bioinformatics; the abstract does not frame the problem in a way that would attract a broader biological or clinical audience.
+  - Technical soundness: Not established. The core methodological details are missing, and the performance claims lack statistical rigor.
+  - Readability for nonspecialists: The abstract is understandable to a technical audience but uses jargon (e.g., "Hilbert-Schmidt Independence Criterion") without sufficient explanation for a general scientific reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail, baseline comparisons, or statistical validation to support the claims. A revised manuscript with full technical exposition and rigorous benchmarking could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the method "exceeded the current state-of-the-art methods" is unsupported because no specific baselines, comparison conditions, or statistical tests are reported.
+- The claim that the method "can be used as an efficient predictor" is not supported by any runtime, scalability, or efficiency data.
+- The claim that HSIC integration "explores the complementary information of multiple views" is asserted but not demonstrated with any ablation study or analysis of view contributions.
+- The generalizability of the method beyond the three mentioned datasets is not addressed and cannot be assessed.

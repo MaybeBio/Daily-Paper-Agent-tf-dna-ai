@@ -1,0 +1,539 @@
+{
+  "identity": {
+    "pmid": "40607252",
+    "doi": "10.7150/ijbs.113737",
+    "title": "Interferon Regulatory Factor 4 Recruits Immature B Cells to Signal Tertiary Lymphoid Structure Immaturity and Progression of Clear Cell Renal Cell Carcinoma."
+  },
+  "content": {
+    "abstract": "Background: Tertiary lymphoid structures (TLSs), organized clusters of immune cells within non-lymphoid tissues, significantly influence tumor progression and therapeutic response. However, their prognostic relevance and underlying regulatory mechanisms in clear cell renal cell carcinoma (ccRCC) remain insufficiently characterized. Methods: We integrated transcriptomic and clinical data from 928 ccRCC patients to construct a TLS-related prognostic RiskScore using machine learning algorithms. TLS maturation heterogeneity was characterized via immunohistochemistry and multiplex immunofluorescence analyses. The functional role of interferon regulatory factor 4 (IRF4), a key regulator within the TLS gene network, was investigated using in vitro assays. Single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics were employed to dissect the involvement of IRF4 in TLS formation and maturation. Results: The derived TLS-associated signature RiskScore, comprising CCL22, LOXL1, LIPA, ADAM8, and SAA1, effectively stratified patients into distinct prognostic groups and showed robust associations with clinical parameters, tumor microenvironment (TME) features, and predicted immunotherapy responses. Functional assays demonstrated that IRF4 significantly enhanced the malignant phenotype of 786-O and 769-P ccRCC cells. Clinically, elevated IRF4 expression independently predicted worse patient outcomes, characterized by a predominance of immature TLS phenotypes, reduced TLS density, and diminished CD8(+) T cell infiltration. Mechanistically, scRNA-seq analyses revealed that active IRF4 signaling was predominantly confined to immature B cell states and was inversely associated with TLS maturation trajectories. Spatial transcriptomics further confirmed IRF4 enrichment within TLS regions, notably spatially segregated from high endothelial venules (HEVs) and mature TLS compartments. Conclusion: In conclusion, this study establishes a robust TLS-related prognostic signature for ccRCC and elucidates the mechanistic role of IRF4 in promoting TLS immaturity and immune dysfunction. By potentially recruiting immature B cells while impairing their maturation, IRF4 contributes to an ineffective anti-tumor immune landscape, offering a promising target for therapeutic intervention.",
+    "keywords": [
+      "clear cell renal cell carcinoma (ccRCC)",
+      "interferon regulatory factor 4 (IRF4)",
+      "single-cell RNA sequencing (scRNA-seq)",
+      "spatial transcriptomics analysis",
+      "tertiary lymphoid structures (TLSs)",
+      "tumor microenvironment (TME)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Interferon Regulatory Factors/metabolism/genetics",
+      "*Carcinoma, Renal Cell/metabolism/pathology/immunology/genetics",
+      "*Tertiary Lymphoid Structures/metabolism/pathology",
+      "*Kidney Neoplasms/metabolism/pathology/immunology/genetics",
+      "Tumor Microenvironment",
+      "*B-Lymphocytes/metabolism",
+      "Male",
+      "Female",
+      "Prognosis",
+      "Cell Line, Tumor",
+      "Disease Progression",
+      "Interferon Regulatory Factor-4"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Siqi",
+        "Ye, Shiqi",
+        "Chen, Liang",
+        "Ge, Qintao",
+        "Lu, Jiahe",
+        "Anwaier, Aihetaimujiang",
+        "Tian, Xi",
+        "Wang, Zhongyuan",
+        "Zhu, Shuxuan",
+        "Chang, Kun",
+        "Yang, Jianfeng",
+        "Li, Tian",
+        "Zhang, Hailiang",
+        "Ye, Dingwei",
+        "Xiang, Jianfeng",
+        "Xu, Wenhao"
+      ],
+      "short_names": [
+        "Zhou S",
+        "Ye S",
+        "Chen L",
+        "Ge Q",
+        "Lu J",
+        "Anwaier A",
+        "Tian X",
+        "Wang Z",
+        "Zhu S",
+        "Chang K",
+        "Yang J",
+        "Li T",
+        "Zhang H",
+        "Ye D",
+        "Xiang J",
+        "Xu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200025, China.",
+        "Shanghai Jiao Tong University Affiliated Sixth People's Hospital South Campus (Shanghai Fengxian District Central Hospital), Shanghai, 201400, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, China.",
+        "Tianjin Key Laboratory of Acute Abdomen Disease-Associated Organ Injury and ITCWM Repair, Institute of Integrative Medicine of Acute Abdominal Diseases, Tianjin Nankai Hospital, Tianjin Medical University, 8 Changjiang Avenue, Tianjin, 300100, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+        "Department of Interventional Oncology, Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, P.R. China.",
+        "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+        "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Siqi",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Shiqi",
+        "short_name": "Ye S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China.",
+          "Department of Urology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Liang",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Jiao Tong University Affiliated Sixth People's Hospital South Campus (Shanghai Fengxian District Central Hospital), Shanghai, 201400, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Qintao",
+        "short_name": "Ge Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jiahe",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Anwaier, Aihetaimujiang",
+        "short_name": "Anwaier A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Xi",
+        "short_name": "Tian X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhongyuan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Shuxuan",
+        "short_name": "Zhu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Kun",
+        "short_name": "Chang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jianfeng",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tian",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Acute Abdomen Disease-Associated Organ Injury and ITCWM Repair, Institute of Integrative Medicine of Acute Abdominal Diseases, Tianjin Nankai Hospital, Tianjin Medical University, 8 Changjiang Avenue, Tianjin, 300100, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hailiang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Dingwei",
+        "short_name": "Ye D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Jianfeng",
+        "short_name": "Xiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Oncology, Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenhao",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fudan University Shanghai Cancer Center; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, China.",
+          "Shanghai Genitourinary Cancer Institute, Shanghai, 200032, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 12:32",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42594562",
+      "42535370",
+      "42204605",
+      "42144723",
+      "41904774",
+      "41799509",
+      "41111928"
+    ],
+    "refs": [
+      "40246584",
+      "40239808",
+      "40194717",
+      "40185093",
+      "40166933",
+      "40090008",
+      "40016772",
+      "39935427",
+      "39923925",
+      "39850365",
+      "39815996",
+      "39798544",
+      "39788064",
+      "39781472",
+      "39739621",
+      "39732226",
+      "39661055",
+      "39603573",
+      "39434428",
+      "39123188",
+      "39072947",
+      "39036382",
+      "39002694",
+      "38943641",
+      "38928496",
+      "38867070",
+      "38254110",
+      "38222314",
+      "38040418",
+      "37935654",
+      "37762031",
+      "37699391",
+      "37495688",
+      "37298343",
+      "37230755",
+      "37108666",
+      "37085424",
+      "37056778",
+      "36800999",
+      "36797470",
+      "36759015",
+      "36633525",
+      "36607615",
+      "36589951",
+      "36245289",
+      "36159833",
+      "35982911",
+      "35979371",
+      "35552285",
+      "35365796",
+      "35231421",
+      "35216676",
+      "35216088",
+      "35059038",
+      "34990248",
+      "34880871",
+      "34866895",
+      "34099645",
+      "34062119",
+      "33589528",
+      "33371259",
+      "33248905",
+      "33144689",
+      "32934197",
+      "32472114",
+      "32467029",
+      "32125291",
+      "31965091",
+      "31906017",
+      "31792460",
+      "31434282",
+      "31092904",
+      "30992011",
+      "30954475",
+      "30923225",
+      "30723697",
+      "30720925",
+      "30556855",
+      "30127393",
+      "29344893",
+      "29279354",
+      "29246443",
+      "28930660",
+      "28849037",
+      "28114287",
+      "27752258",
+      "27088920",
+      "25656706",
+      "25605792",
+      "25385470",
+      "25359993",
+      "25345597",
+      "24590281",
+      "24366885",
+      "24323359",
+      "24211184",
+      "24113773",
+      "23778140",
+      "23684984",
+      "23323831",
+      "23264915",
+      "22740686",
+      "22455463",
+      "21900403",
+      "21114485",
+      "20723767",
+      "20427518",
+      "17785208"
+    ],
+    "similar": [
+      "40607252",
+      "41540415",
+      "38908856",
+      "38040418",
+      "42058673",
+      "35043231",
+      "41799509",
+      "40642093",
+      "41111928",
+      "40992783",
+      "42358824",
+      "39614426",
+      "42143177",
+      "34795663",
+      "40065365",
+      "40575014",
+      "39932546",
+      "40909272",
+      "41691286",
+      "42183191",
+      "40303328",
+      "41776661",
+      "42502300",
+      "37474942",
+      "40855365",
+      "35314433",
+      "37689589",
+      "40016772",
+      "42085932",
+      "42661891",
+      "41218854",
+      "42609449",
+      "42392347",
+      "39870490",
+      "40634689",
+      "42257998",
+      "40770761",
+      "38970690",
+      "41490727",
+      "37072348",
+      "39301023",
+      "33589528",
+      "41403935",
+      "40596367",
+      "41048011",
+      "41601657",
+      "41843154",
+      "41265130",
+      "42625671",
+      "40912479",
+      "41357761",
+      "41466351",
+      "41272569",
+      "41135953",
+      "40821775",
+      "41376629",
+      "41230160",
+      "41262256",
+      "41739581",
+      "39031800",
+      "41693707",
+      "41019066",
+      "34103353",
+      "41436831",
+      "38951896",
+      "42158467",
+      "42226559",
+      "41716413",
+      "41510151",
+      "39901202",
+      "40963610",
+      "35751038",
+      "38762674",
+      "40382614",
+      "39376565",
+      "42220493",
+      "40865943",
+      "41476960",
+      "37604932",
+      "39871215",
+      "38953023",
+      "33526609",
+      "41044515",
+      "40440077",
+      "41029063",
+      "41836171",
+      "32311223",
+      "41201629",
+      "41052233",
+      "41286149",
+      "36245289",
+      "39973553",
+      "39049036",
+      "41894176",
+      "42287003",
+      "40243888",
+      "35441741",
+      "40375605",
+      "41904774",
+      "40935873"
+    ],
+    "review": [
+      "40607252",
+      "41048011"
+    ],
+    "pmc": [
+      "12210385"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40607252/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3437",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ijbs.com/v21p3827.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

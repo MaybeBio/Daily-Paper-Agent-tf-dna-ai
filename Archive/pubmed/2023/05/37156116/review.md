@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that Butein, a small molecule, reactivates mutant p53 (R175H and R273H) by restoring wild-type-like conformation, DNA-binding ability, thermal stability, and transcriptional activity, while reducing Hsp90 interaction, and propose an allosteric mechanism based on docking studies, positioning Butein as a potential antitumor agent.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, docking methodology and validation, CETSA raw data, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting pharmacological strategy for reactivating mutant p53, but the evidence base is too limited to evaluate the validity of the claims. The mechanistic narrative is plausible but lacks quantitative support and methodological transparency. The study could be of interest to the cancer biology and drug discovery communities, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in cancer therapeutics, particularly those focused on p53 reactivation, mutant protein stabilization, and small-molecule drug discovery. The potential clinical relevance for tumors harboring p53-R175H or R273H mutations would attract translational oncology groups.
+- **Major strengths** The abstract addresses a clinically significant problem, namely mutant p53 reactivation, and proposes a specific small molecule with a dual mechanism involving conformational rescue and Hsp90 modulation. The use of multiple cell lines and CETSA adds some breadth to the claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Butein restored wild-type-like conformation and DNA-binding ability in HT29 and SK-BR-3 cells"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how conformation and DNA-binding ability were measured, nor does it provide quantitative data or statistical comparisons. Without details on assays (e.g., immunoprecipitation, electrophoretic mobility shift assay, reporter assays) and controls, the claim of "wild-type-like" restoration is not verifiable.
+  - **Why it matters** The central premise of the study is that Butein rescues mutant p53 function. If the conformational and DNA-binding assays are not rigorously validated, the entire mechanistic narrative collapses.
+  - **Resolution test** Provide specific assay descriptions, representative data, and statistical analysis showing significant restoration compared to untreated mutant p53 controls, ideally with wild-type p53 as a positive comparator.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "Butein induced thermal stabilization of wild-type p53, mutant p53-R273H and mutant p53-R175H, as determined via CETSA"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** CETSA results are mentioned without any quantitative readouts, such as melting temperatures or shifts, or replicate numbers. The claim of thermal stabilization is thus unsubstantiated.
+  - **Why it matters** Thermal stabilization is a key piece of evidence for direct binding and functional rescue. Without quantitative CETSA data, the claim that Butein stabilizes p53 mutants is not established.
+  - **Resolution test** Show CETSA melting curves, calculated melting temperature shifts, and statistical significance for each p53 variant tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** "From docking study, we further proved that Butein binding to p53 stabilized the DNA-binding loop-sheet-helix motif of mutant p53-R175H and regulated its DNA-binding activity via an allosteric mechanism"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The docking study is described as "proof" but no details on the docking protocol, scoring functions, or validation (e.g., molecular dynamics simulations, binding free energy calculations) are provided. The term "proved" is overclaimed relative to the evidence level typical of docking studies.
+  - **Why it matters** Computational predictions require experimental validation or at least robust methodological rigor. The abstract conflates in silico modeling with experimental proof, which is misleading.
+  - **Resolution test** Provide docking parameters, validation against known p53 structures, and ideally experimental mutagenesis or biophysical binding data to support the proposed allosteric mechanism.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** "Butein enabled the transactivation of p53 target genes and decreased the interactions of Hsp90 with mutant p53-R175H and mutant p53-R273H proteins, while Hsp90 overexpression reversed targeted p53 gene activation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which p53 target genes were examined, the magnitude of transactivation, or the experimental approach for Hsp90 interaction studies. The reversal by Hsp90 overexpression is mentioned but not quantified.
+  - **Why it matters** Functional transactivation is the ultimate readout of p53 reactivation. Without gene identities and expression data, the biological significance is unclear.
+  - **Resolution test** List the target genes, provide expression data (e.g., qPCR or Western blot) with statistical analysis, and show Hsp90 interaction data with appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "rescuing the wild-type thermal stability" in the title is ambiguous, as it could imply that Butein rescues stability of the wild-type protein rather than restoring stability to mutant proteins.
+  - **Required correction** Rephrase to "restoring thermal stability to mutant p53" or similar to avoid misinterpretation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Cell lines and mutation context
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the cell lines are homozygous or heterozygous for the p53 mutations, which could affect interpretation of the results.
+  - **Required correction** Clarify the p53 genotype of HT29 and SK-BR-3 cells.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Loop3 (L3) state"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The significance statement introduces "Loop3 (L3) state" without prior definition or context in the abstract, which may confuse readers.
+  - **Required correction** Define the L3 state earlier or remove it from the significance statement if not essential.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The concept of p53 reactivation is not new, but the specific small molecule and proposed allosteric mechanism may offer some novelty, though this is not fully assessable from the abstract.  
+  - Scientific importance: High if validated, given the prevalence of p53 mutations in cancer.  
+  - Interdisciplinary readership: Potentially broad, spanning cancer biology, structural biology, and drug discovery, but the abstract lacks sufficient detail to engage these groups.  
+  - Technical soundness: Not assessable from the abstract; key methods and data are missing.  
+  - Readability for nonspecialists: The abstract is generally readable but includes jargon (e.g., CETSA, loop-sheet-helix motif) without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative and methodological detail required to support the claims. Supportive if technical concerns are resolved with full experimental data.
+
+## Risk / unsupported claims
+- The claim that Butein "proved" the allosteric mechanism via docking is unsupported, as docking alone cannot provide proof of mechanism.
+- The claim of "wild-type-like" restoration of conformation and DNA-binding is unsubstantiated without quantitative assay data.
+- The claim of thermal stabilization via CETSA is unverifiable without melting curve data or statistical analysis.
+- The functional significance of Hsp90 interaction changes is not established without gene expression and interaction quantification.
+- The general statement that Butein "induces cancer cell death" is not supported by any direct evidence in the abstract.

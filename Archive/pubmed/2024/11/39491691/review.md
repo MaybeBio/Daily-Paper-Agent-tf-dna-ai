@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors used bioinformatic tools and all-atom molecular dynamics simulations to model the HLTF ATPase remodeling domain, propose specific positively charged residues mediating dsDNA binding, describe a translocation mechanism involving persistent N-terminal binding with synergistic-anticorrelated motor lobe action, suggest C-terminal DNA deformation via a wave-model, and propose a large conformational change linked to PARP1 release and HLTF-HIRAN involvement in D-loop and 4-way junction formation
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, validation metrics, or structural coordinates are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation details, force field parameters, convergence criteria, structural models, validation against experimental data, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious computational study with potentially interesting mechanistic hypotheses for HLTF function. However, the evidence base available for review is limited to the abstract, which lacks quantitative details, methodological transparency, and validation against experimental data. The central claims regarding specific residue contributions, translocation mechanics, and the PARP1-linked conformational switch are plausible but currently not verifiable from the supplied material. The work may be of interest to the DNA repair and chromatin remodeling communities, but the case is not established at this stage.
+- **Who would be interested in the results, and why** Researchers studying DNA damage tolerance, helicase-like transcription factors, SWI/SNF family chromatin remodelers, and molecular mechanisms of ATP-dependent DNA translocation. Computational biophysicists interested in all-atom simulations of protein-DNA complexes may also find the methodological approach relevant. The proposed connection between PARP1 release and HLTF conformational changes could interest investigators working on stalled replication fork responses.
+- **Major strengths** The abstract addresses a genuine gap in structural understanding of HLTF. The identification of specific positively charged residues with differential conservation patterns (Arg563 and Lys913 conserved, Arg620 and Lys999 HLTF-specific) provides a testable hypothesis. The proposed wave-model for DNA deformation and the mechanistic distinction between N-terminal persistent binding and C-terminal remodeling activity offer conceptually clear frameworks. The link to cancer-associated mutations adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that in-silico results suggested dsDNA binding is mainly mediated by Arg563, Lys913, Arg620, and Lys999
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented to support the claim that these four residues are the main mediators of dsDNA binding. The abstract does not report binding free energies, per-residue interaction energies, mutation effects, or comparative analyses with other positively charged residues on the protein surface. The term "mainly mediated" implies a dominant contribution that requires quantitative demonstration.
+  - **Why it matters** Without quantitative energetic or mutational evidence, the claim of specific residue dominance cannot be distinguished from a qualitative observation of electrostatic contacts. This distinction is critical because the authors later link these residues to cancer mutations, implying functional significance that must be rigorously established.
+  - **Resolution test** Provide per-residue decomposition of binding free energy, alanine scanning simulation results, or comparative energy analysis showing that these four residues contribute significantly more than other basic residues. Report numerical values with error estimates from replicate simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that during translocation on dsDNA, HLTF remains persistently bound through the N-terminal ATPase subunit, and that DNA advancement occurs only with synergistic-anticorrelated action of both motor lobes
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The mechanistic description of translocation is presented as a definitive conclusion, but no simulation observables are described. The abstract does not report how persistent binding was assessed, what metric defined "synergistic-anticorrelated" motion, how many independent simulations supported this conclusion, or whether the system reached steady-state translocation. The term "only" implies a necessity claim that requires demonstration through perturbation experiments, such as simulations with one lobe inactivated.
+  - **Why it matters** Translocation mechanisms in ATPase motors are typically inferred from detailed free energy landscapes, dwell time analyses, or coordinated domain motion measurements. A necessity claim ("only in the presence of") requires showing that removal or disruption of the proposed coordination abolishes DNA advancement. Without this, the claim is speculative.
+  - **Resolution test** Present time series of DNA displacement, domain-domain distance correlations, and comparative simulations where one motor lobe is functionally disabled. Show that DNA advancement is absent or significantly reduced in control simulations lacking the proposed coordination.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The abstract claims that the large conformational change between the two motor-remodeling subunits might be activated upon the release of PARP1 on stalled fork and be responsible for HLTF-HIRAN intervention in D-loop and 4-way junction formation
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This claim extends beyond the simulation data into a speculative biological model. The abstract provides no evidence connecting PARP1 release to the simulated conformational change, no structural or biochemical data on HLTF-HIRAN interactions with D-loops or 4-way junctions, and no experimental validation. The phrase "might be activated" is appropriately hedged, but the subsequent claim of responsibility for specific DNA structure formation is presented with greater certainty than the evidence likely supports.
+  - **Why it matters** This is the most biologically significant claim in the abstract, linking computational observations to a functional model of DNA damage tolerance. If this connection is not supported by direct evidence, it risks overinterpretation of simulation results and could mislead readers about the established nature of the mechanism.
+  - **Resolution test** Provide experimental or structural evidence for PARP1-HLTF interaction at stalled forks, demonstrate that the proposed conformational change is compatible with HLTF-HIRAN domain accessibility, and show biochemical data supporting HLTF-HIRAN binding to D-loop or 4-way junction substrates. Alternatively, clearly reframe this as a speculative hypothesis requiring future testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "synergic-anticorrelated" is unusual and potentially confusing. It is not a standard descriptor in the motor protein literature and may obscure rather than clarify the proposed coordination mechanism.
+  - **Required correction** Define the term explicitly or replace with more standard language, such as "coordinated but out-of-phase motion" or "negatively correlated displacements with cooperative timing."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation validation
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not mention any validation of the computational model, such as comparison with known experimental structures, cross-validation with biochemical data, or assessment of simulation convergence.
+  - **Required correction** Add a sentence in the abstract or methods indicating how the model was validated, even briefly, such as "simulations were validated against available crystal structures of related SWI/SNF ATPase domains."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conservation claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that Arg563 and Lys913 are "found conserved in HLTF homologs" and Arg620 and Lys999 are "found only in HLTF." The basis for these conservation statements is not described, including the sequence alignment depth and species coverage.
+  - **Required correction** Briefly specify the scope of the conservation analysis, such as the number of species or sequence database used, or move this detail to the main text with appropriate methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for residue-specific binding contributions), R1-M2 (evidence for the translocation mechanism and necessity claim), R1-M3 (support for the PARP1-linked conformational switch and HLTF-HIRAN functional model)
+
+## Risk / unsupported claims
+- The claim that Arg563, Lys913, Arg620, and Lys999 are the main mediators of dsDNA binding is unsupported without quantitative energetic or mutational data
+- The claim that DNA advancement occurs only with synergistic-anticorrelated action of both motor lobes is unsupported without perturbation simulations or control experiments
+- The claim that the large conformational change is activated upon PARP1 release is speculative and not supported by any direct evidence in the abstract
+- The claim that the conformational change is responsible for HLTF-HIRAN intervention in D-loop and 4-way junction formation is unsupported by any structural or biochemical data
+- The overall functional model connecting simulation results to DNA damage tolerance mechanisms is not verifiable from the abstract alone

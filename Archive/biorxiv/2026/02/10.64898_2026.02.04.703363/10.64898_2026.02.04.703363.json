@@ -1,0 +1,219 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.04.703363",
+  "title": "Mapping trans -eQTLs at single-cell resolution using Latent Interaction Variational Inference",
+  "doi": "10.64898/2026.02.04.703363",
+  "abstract": "Single-cell expression quantitative trait loci (eQTL) studies hold promise for linking genetic variants to changes in gene expression in individual cells, thereby offering deeper insights into the genetic basis of human traits and diseases. Existing methods for mapping cis effects rely on predefined cell types, pseudobulk aggregation, or single-gene association tests, and are thus limited in their ability to detect complex trans effects that act across gene networks and cell-type subpopulations. Here, we present L atent I nteraction V ariational I nference ( LIVI ), an interpretable deep learning framework for efficient mapping of trans genetic effects at cellular resolution. LIVI employs a structured sparse variational autoencoder architecture to decompose observed gene expression profiles into cell-state- and donor-specific variation. The model enables efficient donor-level association testing while retaining single-cell resolution and interpretation. Applied to the OneK1K dataset, LIVI discovered a greater number of trans -eQTLs than alternative latent variable methods, yielded trans -eQTLs missed by conventional single-gene testing strategies and revealed the cell types and genes implicated in polygenic risk for autoimmune diseases. All in all, we demonstrate that LIVI is a powerful approach for linking genetics to gene regulation and through to human traits.",
+  "authors": [
+    "Vagiaki D",
+    "Heinen T",
+    "Saraswat M",
+    "Clarke B",
+    "Stegle O"
+  ],
+  "published_date": "2026-02-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703363",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703363.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1224970",
+    "raw_record": {
+      "id": "PPR1224970",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1224970"
+        ]
+      },
+      "doi": "10.64898/2026.02.04.703363",
+      "title": "Mapping  <i>trans</i>  -eQTLs at single-cell resolution using Latent Interaction Variational Inference",
+      "authorString": "Vagiaki D, Heinen T, Saraswat M, Clarke B, Stegle O.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vagiaki D",
+            "lastName": "Vagiaki",
+            "firstName": "Danai",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1674-5141"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heinen T",
+            "lastName": "Heinen",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saraswat M",
+            "lastName": "Saraswat",
+            "firstName": "Manu",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1472-8049"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clarke B",
+            "lastName": "Clarke",
+            "firstName": "Brian",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6695-286X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stegle O",
+            "lastName": "Stegle",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1472-8049"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1674-5141"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6695-286X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Single-cell expression quantitative trait loci (eQTL) studies hold promise for linking genetic variants to changes in gene expression in individual cells, thereby offering deeper insights into the genetic basis of human traits and diseases. Existing methods for mapping  cis effects rely on predefined cell types, pseudobulk aggregation, or single-gene association tests, and are thus limited in their ability to detect complex  trans effects that act across gene networks and cell-type subpopulations. Here, we present  L atent I nteraction V ariational I nference (  LIVI ), an interpretable deep learning framework for efficient mapping of  trans genetic effects at cellular resolution. LIVI employs a structured sparse variational autoencoder architecture to decompose observed gene expression profiles into cell-state- and donor-specific variation. The model enables efficient donor-level association testing while retaining single-cell resolution and interpretation. Applied to the OneK1K dataset, LIVI discovered a greater number of  trans -eQTLs than alternative latent variable methods, yielded  trans -eQTLs missed by conventional single-gene testing strategies and revealed the cell types and genes implicated in polygenic risk for autoimmune diseases. All in all, we demonstrate that LIVI is a powerful approach for linking genetics to gene regulation and through to human traits.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "810296",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.04.703363"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1224970"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1224970&type=FILE&fileName=EMS215790-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215790",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "go",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-06",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

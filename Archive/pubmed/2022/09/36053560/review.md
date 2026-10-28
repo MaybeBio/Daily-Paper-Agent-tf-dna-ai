@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom explicit-solvent molecular dynamics simulations to compare A315E and wild-type TDP-43(288-319) protofilaments in both R-shaped and U-shaped conformations. They report that wild-type protofilaments adopt R-shaped structures but are less stable than A315E counterparts, identify specific inter-residue interactions stabilizing the A315E neck region, and observe that A315E protofilaments spontaneously convert from U-shaped to R-shaped folds while wild-type conversion is slower and yields R-shape-like intermediates. The authors conclude that the A315E mutation enhances both structural stability and U-to-R transition kinetics, providing atomistic insight into mutation-enhanced pathogenicity.
+- **Visible evidence base** Abstract text only; no simulation details, convergence metrics, force field parameters, system setup, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation protocols, force field validation, convergence analysis, free energy calculations, structural comparison metrics, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis-driven simulation study. The central claims are internally consistent and align with prior cryo-EM observations. However, the abstract alone provides no quantitative evidence, no methodological detail, and no validation of simulation convergence or force field suitability. The claim that wild-type protofilaments "also adopt the R-shaped structures" is presented as a simulation outcome but cannot be assessed for robustness without structural metrics or free energy comparisons. The study is potentially valuable for the ALS and protein aggregation community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 proteinopathy, ALS genetics, amyloid fibril structure, and molecular mechanisms of pathogenic mutations. The work also speaks to the broader community interested in how single-point mutations alter fibril stability and conformational transitions, with implications for drug design targeting fibril interfaces.
+- **Major strengths** The study addresses a clinically relevant mutation with known cryo-EM structures, which anchors the simulations in experimental data. The comparison of both R-shaped and U-shaped starting states is a thoughtful design that directly tests the hypothesized U-to-R conversion. The identification of specific inter-residue interactions (R293-E315 salt bridges, N312-F316 hydrophobic contacts, F316-F316 pi-pi stacking) provides testable molecular hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our simulations show that WT protofilaments also adopt the R-shaped structures but are less stable than their A315E counterparts."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of differential stability between A315E and WT R-shaped protofilaments is presented without any quantitative metric, such as root-mean-square deviation, root-mean-square fluctuation, contact lifetimes, or free energy differences. The abstract does not report simulation lengths, number of replicas, or convergence criteria. Without these, the stability comparison cannot be evaluated for statistical significance or sampling adequacy.
+  - **Why it matters** The central conclusion that A315E enhances structural stability rests entirely on this comparison. If the simulations are underconverged or the stability metric is not robust, the conclusion is unsupported.
+  - **Resolution test** Provide quantitative stability metrics with error bars, demonstrate convergence via block averaging or replica analysis, and report simulation lengths and force field parameters. Ideally, include free energy perturbation or umbrella sampling to substantiate relative stability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Simulations starting from U-shaped folds reveal that A315E protofilaments can spontaneously convert to the cryo-EM-derived R-shaped protofilaments, whereas WT protofilaments convert to R-shape-like structures with remodeled neck regions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of spontaneous U-to-R conversion requires evidence that the transition is observed within the simulation timescale and that the final states are structurally equivalent to the cryo-EM R-shaped structure. The abstract does not report transition times, structural similarity scores, or whether multiple independent simulations reproduced the conversion. The "R-shape-like" designation for WT intermediates is vague and needs a quantitative definition.
+  - **Why it matters** The U-to-R transition is a key mechanistic claim linking the mutation to enhanced pathogenicity. If the conversion is a rare event or an artifact of the starting conditions, the conclusion is not robust.
+  - **Resolution test** Report transition timescales, structural alignment metrics to the cryo-EM structure, and replicate simulations. Provide a clear structural criterion for "R-shape-like" and show that the WT intermediate is kinetically trapped rather than an artifact of insufficient sampling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "This study reveals that A315E mutation can not only enhance the structural stability of the R-shaped TDP-43(288-319) protofilaments but also promote the U-to-R transition, which provides atomistic insights into the A315E mutation-enhanced TDP-43 pathogenicity in ALS."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims to provide "atomistic insights" into pathogenicity, but the link between the simulated structural effects and the biological phenotype of enhanced pathogenicity is not established. The abstract does not discuss how increased R-shaped stability or faster U-to-R conversion translates to cellular toxicity, aggregation propensity, or clinical severity.
+  - **Why it matters** The title and conclusion imply a direct connection to disease mechanism. Without a mechanistic bridge from the molecular simulations to pathogenicity, the significance of the findings for ALS is overstated.
+  - **Resolution test** Add a discussion section that contextualizes the simulation results within existing experimental data on A315E toxicity, aggregation kinetics, or patient phenotypes. Alternatively, temper the conclusion to state that the simulations provide a structural hypothesis that requires experimental validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses specialized terminology (e.g., "R-shaped," "U-shaped," "neck region") without defining these terms for readers unfamiliar with TDP-43 fibril structures.
+  - **Required correction** Briefly define the R-shaped and U-shaped protofilament topologies and the location of the neck region in the abstract or provide a schematic figure reference.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not specify the force field, water model, ion concentration, or temperature used in the simulations. These parameters significantly affect the reliability of the results.
+  - **Required correction** Include force field and simulation conditions in the methods summary or state that full details are in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract only
+  - **Issue** The study focuses on a single mutation (A315E) and a single fragment (residues 288-319). The abstract does not discuss whether the findings are likely to generalize to other ALS-associated mutations in the TDP-43 LCD.
+  - **Required correction** Add a sentence in the discussion noting the specificity of the findings and potential implications for other mutations, or explicitly state that generalization is beyond the scope.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of differential stability and spontaneous U-to-R conversion are not quantitatively supported by the abstract. R1-M3 is non-blocking but requires tempering or additional context.
+- **Assessment against Nature-style criteria** Originality: The study is original in applying atomistic simulations to a recently solved cryo-EM structure of the A315E mutant and directly testing the hypothesized U-to-R conversion. Scientific importance: The findings are relevant to ALS research and protein misfolding, but the direct link to pathogenicity is not established. Interdisciplinary readership: The work will appeal to structural biologists, computational chemists, and ALS researchers, but the abstract is too specialized for a broad audience. Technical soundness: Not assessable from the abstract alone; the lack of quantitative metrics and methodological detail is a major limitation. Readability for nonspecialists: The abstract is dense and uses undefined jargon, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, and the design is thoughtful, but the abstract does not provide sufficient quantitative or methodological detail to support the central claims. A revised version with full methods, convergence analysis, and structural metrics could be supportive.
+
+## Risk / unsupported claims
+- The claim that wild-type protofilaments "also adopt the R-shaped structures" is unsupported without structural comparison metrics to the cryo-EM reference.
+- The claim that A315E enhances structural stability is unsupported without quantitative stability measures.
+- The claim of spontaneous U-to-R conversion is unsupported without transition timescales or replicate simulations.
+- The claim that the R-shape-like WT intermediate "could act as intermediate states slowing down the U-to-R transition" is speculative and not substantiated by kinetic or free energy data.
+- The conclusion linking simulation results to "A315E mutation-enhanced TDP-43 pathogenicity" is not supported by any biological or experimental evidence in the abstract.

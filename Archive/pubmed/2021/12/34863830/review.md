@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report isolation of llama nanobodies (VHH) against the p53 C-terminal domain (p53-CTD) using recombinant Twist1 as a competitor during elution, validation of binding and inhibition of Twist1:p53 interaction in vitro, and functional testing of one nanobody (D11) in human cell models showing effects on p53 turnover, phosphorylation at Serine 392, and cell viability, interpreted as proof of principle for intracellular nanobody-mediated disruption of the Twist1:p53 complex.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical data provided
+- **Missing materials affecting confidence** Full methods, experimental details (e.g., library size, selection rounds, binding affinities, cell lines, viability assay specifics), all figures and tables, statistical analyses, and any negative controls or replicate data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to targeting the p53:Twist1 interaction using intracellular nanobodies, with a plausible selection strategy and preliminary functional validation. However, the evidence base is limited to a summary, and several key claims regarding mechanism, specificity, and functional impact cannot be rigorously evaluated without full data. The work may be of interest to researchers in p53 biology and targeted protein-protein interaction modulation, but the current abstract does not establish the case with sufficient detail.
+- **Who would be interested in the results, and why** Researchers studying p53 regulation, Twist1-mediated oncogenesis, and therapeutic strategies for p53 wild-type tumors; also those interested in intracellular antibody (nanobody) applications for disrupting protein-protein interactions. The proof-of-principle nature may appeal to groups developing targeted protein degradation or interaction inhibitors.
+- **Major strengths** The selection strategy using Twist1 as an epitope-specific competitor during elution is a rational and potentially specific approach. The use of llama nanobodies for intracellular expression is a well-established and relevant technology. The inclusion of both in vitro binding inhibition and in cellulo functional assays (p53 turnover, phosphorylation, viability) provides a multi-level validation attempt. The claim of proof of principle is appropriately cautious given the limited functional effect.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that D11 VHH "interfered with p53 turnover, p53 phosphorylation at Serine 392 and affected cell viability" and that this is "similarly to Twist1 knock-down."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not provide quantitative data, effect sizes, or statistical significance for the observed changes in p53 turnover, phosphorylation, or viability. It is unclear whether the effects are robust, dose-dependent, or comparable in magnitude to Twist1 knockdown. The phrase "limited functional effect" in the next sentence appears to contradict the strength of the earlier claim, creating ambiguity about the actual impact.  
+  - **Why it matters** Without quantitative and statistical support, the functional significance of D11 expression cannot be assessed. The comparison to Twist1 knockdown is central to the claim that D11 phenocopies Twist1 loss, but no data are shown to support this equivalence.  
+  - **Resolution test** Provide quantitative data (e.g., mean and SD, p-values) for p53 protein levels, phospho-Ser392 levels, and viability assays, with appropriate controls and replicate numbers. Show a direct comparison between D11 expression and Twist1 knockdown under identical conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity and mechanism  
+  - **Claim pointer** The abstract claims that positive hits "target the p53 C-terminal region (p53-CTD) involved in the interaction with Twist1" and that molecular modeling confirmed "preferential docking" with p53-CTD.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not specify how binding to p53-CTD was experimentally confirmed beyond immunoprecipitation and in vitro inhibition. Molecular modeling is mentioned but not described in terms of methodology or validation. It is unclear whether the nanobodies bind specifically to p53-CTD or also to other p53 regions, and whether the inhibition of Twist1:p53 binding is due to steric competition or allosteric effects.  
+  - **Why it matters** The mechanistic claim that nanobodies disrupt the specific p53:Twist1 interface is central to the therapeutic rationale. If binding is not specific to the CTD or if inhibition occurs via a different mechanism, the conclusions about targeting the complex are weakened.  
+  - **Resolution test** Provide experimental evidence for p53-CTD binding (e.g., peptide mapping, mutagenesis, or competition with a known CTD-binding partner). Describe the molecular modeling approach and provide validation (e.g., docking scores, comparison with experimental data). Show that inhibition of Twist1:p53 binding is specific to the CTD interaction.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and completeness  
+  - **Claim pointer** The abstract states that nanobodies were isolated "from a pre-immune library" using "recombinant Twist1 as an epitope-specific competitor during elution."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No details are provided on the library size, number of selection rounds, enrichment factors, or the number of unique hits identified. The efficiency and specificity of the selection strategy cannot be evaluated. Additionally, the abstract does not state how many nanobodies were validated or how D11 was selected for further study.  
+  - **Why it matters** The robustness of the selection and validation pipeline is critical for assessing the generalizability of the approach and the reliability of the identified nanobodies. Without these details, the reproducibility of the method is uncertain.  
+  - **Resolution test** Provide full details of the library, selection protocol, screening results, and criteria for hit selection. Include data on the number of unique binders and their affinities or potencies.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Translational relevance  
+  - **Claim pointer** The abstract concludes that the results "lay down the grounds for the development of innovative targeted therapeutic approaches."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The functional effects of D11 are described as "limited," and the abstract does not address whether the nanobody can be delivered efficiently to cells in vivo, whether it is stable intracellularly, or whether it has any off-target effects. The therapeutic potential is therefore speculative.  
+  - **Why it matters** The claim of therapeutic relevance is a key motivation for the work, but the abstract provides no evidence that the approach is feasible beyond ectopic expression in cultured cells.  
+  - **Resolution test** Discuss delivery strategies, intracellular stability, and any preliminary toxicity or specificity data. If not available, temper the therapeutic claim to reflect the proof-of-principle nature more explicitly.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The phrase "Twist1 promote the bypass" contains a grammatical error (subject-verb agreement).  
+  - **Required correction** Change to "Twist1 promotes the bypass."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract methods description  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract does not specify the cell lines used for functional validation or the assay conditions for viability.  
+  - **Required correction** Add the cell line names and a brief description of the viability assay (e.g., MTT, ATP-based).  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Abstract conclusion  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The statement "despite the limited functional effect" is vague and could be misinterpreted as a negative result.  
+  - **Required correction** Clarify what "limited" means in quantitative terms (e.g., percentage change) and discuss whether this is expected for a proof-of-principle study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative and statistical support for functional effects), R1-M2 (experimental confirmation of p53-CTD specificity and mechanism), R1-M3 (details on selection and validation pipeline). These are required to establish the core claims of specific targeting and functional impact.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of using nanobodies to disrupt the p53:Twist1 interaction is a novel application, though the general concept of intracellular nanobodies for protein-protein interaction modulation is established. The abstract suggests a creative selection strategy, but the novelty is not fully demonstrated without comparison to existing methods.  
+  - **Scientific importance** The p53:Twist1 axis is relevant to tumor biology, and tools to modulate it could have research and therapeutic value. However, the abstract does not provide evidence that the approach offers a significant advance over existing inhibitors or knockdown strategies.  
+  - **Interdisciplinary readership** The work bridges structural biology, antibody engineering, and cancer biology, which could appeal to a broad audience. The abstract is accessible but lacks technical depth for specialists.  
+  - **Technical soundness** The selection strategy is rational, but the lack of quantitative data and methodological details prevents a full assessment. The functional claims are not supported by statistical evidence.  
+  - **Readability for nonspecialists** The abstract is generally clear, but the use of terms like "VHH" and "p53-CTD" without explanation may limit accessibility. The logical flow from selection to validation to conclusion is coherent.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising proof-of-principle, but the lack of quantitative data, specificity validation, and methodological details means the core claims cannot be rigorously evaluated. Supportive if the technical concerns are resolved with full data.
+
+## Risk / unsupported claims
+- The claim that D11 "interfered with p53 turnover, p53 phosphorylation at Serine 392 and affected cell viability" is unsupported without quantitative data and statistical analysis.
+- The claim that D11 acts "similarly to Twist1 knock-down" is unsupported without a direct comparative experiment.
+- The claim that nanobodies "target the p53 C-terminal region" is only partially supported by immunoprecipitation and modeling; experimental confirmation of specific CTD binding is not provided.
+- The therapeutic potential claim is speculative and not supported by any in vivo or delivery data.
+- The selection strategy's efficiency and specificity cannot be evaluated without details on library size, selection rounds, and hit numbers.

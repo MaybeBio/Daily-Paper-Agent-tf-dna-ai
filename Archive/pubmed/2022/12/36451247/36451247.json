@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "36451247",
+    "doi": "10.1186/s41065-022-00258-5",
+    "title": "Identification of GINS1 as a therapeutic target in the cancer patients infected with COVID-19: a bioinformatics and system biology approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Coronavirus disease 2019 (COVID-19) caused a series of biological changes in cancer patients which have rendered the original treatment ineffective and increased the difficulty of clinical treatment. However, the clinical treatment for cancer patients infected with COVID-19 is currently unavailable. Since bioinformatics is an effective method to understand undiscovered biological functions, pharmacological targets, and therapeutic mechanisms. The aim of this study was to investigate the influence of COVID-19 infection in cancer patients and to search the potential treatments. METHODS: Firstly, we obtained the COVID-19-associated genes from seven databases and analyzed the cancer pathogenic genes from Gene Expression Omnibus (GEO) databases, respectively. The Cancer/COVID-19-associated genes were shown by Venn analyses. Moreover, we demonstrated the signaling pathways and biological functions of pathogenic genes in Cancer/COVID-19. RESULTS: We identified that Go-Ichi-Ni-San complex subunit 1 (GINS1) is the potential therapeutic target in Cancer/COVID-19 by GEPIA. The high expression of GINS1 was not only promoting the development of cancers but also affecting their prognosis. Furthermore, eight potential compounds of Cancer/COVID-19 were identified from CMap and molecular docking analysis. CONCLUSION: We revealed the GINS1 is a potential therapeutic target in cancer patients infected with COVID-19 for the first time, as COVID-19 will be a severe and prolonged pandemic. However, the findings have not been verified actually cancer patients infected with COVID-19, and further studies are needed to demonstrate the functions of GINS1 and the clinical treatment of the compounds.",
+    "keywords": [
+      "Bioinformatics analyses",
+      "COVID-19",
+      "Cancer patients",
+      "GINS1",
+      "Prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Computational Biology",
+      "*COVID-19/genetics",
+      "Molecular Docking Simulation",
+      "*Neoplasms/drug therapy/genetics",
+      "Pandemics",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Changpeng",
+        "Dai, Yue",
+        "Zhou, Huyue",
+        "Zhang, Jing",
+        "Xie, Dandan",
+        "Xu, Rufu",
+        "Yang, Mengmeng",
+        "Zhang, Rong"
+      ],
+      "short_names": [
+        "Hu C",
+        "Dai Y",
+        "Zhou H",
+        "Zhang J",
+        "Xie D",
+        "Xu R",
+        "Yang M",
+        "Zhang R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China. ymengmeng1980@163.com.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China. xqpharmacylab@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Changpeng",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Yue",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huyue",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Dandan",
+        "short_name": "Xie D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Rufu",
+        "short_name": "Xu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Mengmeng",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China. ymengmeng1980@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Rong",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Army Medical University, 83 Xinqiao Road, 400037, Chongqing, China. xqpharmacylab@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2022 Dec 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/02 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "33791600",
+      "33772001",
+      "33755061",
+      "33743212",
+      "33723452",
+      "33657410",
+      "33654293",
+      "33648511",
+      "33538338",
+      "33476567",
+      "33471986",
+      "33442016",
+      "33382968",
+      "33301246",
+      "33289970",
+      "33241658",
+      "33178900",
+      "33169132",
+      "33140889",
+      "33129039",
+      "33082858",
+      "33024307",
+      "33022277",
+      "32910493",
+      "32888456",
+      "32877576",
+      "32876697",
+      "32876689",
+      "32860752",
+      "32703314",
+      "32663742",
+      "32599245",
+      "32581323",
+      "32574109",
+      "32510620",
+      "32473682",
+      "32391593",
+      "32376368",
+      "32345594",
+      "32142651",
+      "32142621",
+      "32007143",
+      "31668929",
+      "30821613",
+      "30207593",
+      "29489749",
+      "29107940",
+      "28894200",
+      "28407145",
+      "28125356",
+      "27918777",
+      "27354468",
+      "26282231",
+      "25606058",
+      "25403418",
+      "25398693",
+      "24255107",
+      "23704573",
+      "23355245",
+      "21930873",
+      "21209112",
+      "20825491",
+      "20103637",
+      "18984863",
+      "17652513",
+      "17545466",
+      "17417653",
+      "17186018",
+      "1570316",
+      "1538753",
+      "1538752"
+    ],
+    "similar": [
+      "36451247",
+      "33169132",
+      "37180662",
+      "33235499",
+      "34712201",
+      "34414190",
+      "34852135",
+      "36065190",
+      "28414293",
+      "30963468",
+      "36389792",
+      "36119022",
+      "36310704",
+      "36059456",
+      "35135448",
+      "36275701",
+      "34394108",
+      "34273999",
+      "35069542",
+      "30633343",
+      "34218797",
+      "34623759",
+      "35178029",
+      "32643448",
+      "35037717",
+      "35386284",
+      "32337286",
+      "34058750",
+      "36414950",
+      "35227178",
+      "32170852",
+      "33192076",
+      "35571107",
+      "33154404",
+      "33437215",
+      "34176789",
+      "33563317",
+      "32805728",
+      "32368784",
+      "34951103",
+      "29559248",
+      "33972684",
+      "32648845",
+      "32767929",
+      "33513419",
+      "34176764",
+      "36060002",
+      "33877681",
+      "32462022",
+      "35813340",
+      "32228827",
+      "35403252",
+      "33691446",
+      "38323674",
+      "33458761",
+      "35958619",
+      "32599375",
+      "34257537",
+      "33839760",
+      "35007526",
+      "36199786",
+      "35142268",
+      "33130972",
+      "32181600",
+      "33455094",
+      "36211429",
+      "35242109",
+      "32741312"
+    ],
+    "review": [
+      "36451247",
+      "36310704",
+      "32648845"
+    ],
+    "pmc": [
+      "9713126"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-022-00258-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36451247/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36451247",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

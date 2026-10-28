@@ -1,0 +1,914 @@
+{
+  "identity": {
+    "pmid": "40061566",
+    "doi": "10.1093/narcan/zcaf007",
+    "title": "Harnessing transcriptional regulation of alternative end-joining to predict cancer treatment."
+  },
+  "content": {
+    "abstract": "Alternative end-joining (alt-EJ) is an error-prone DNA repair pathway that cancer cells deficient in homologous recombination rely on, making them vulnerable to synthetic lethality via inhibition of poly(ADP-ribose) polymerase (PARP). Targeting alt-EJ effector DNA polymerase theta (POLtheta), which synergizes with PARP inhibitors and can overcome resistance, is of significant preclinical and clinical interest. However, the transcriptional regulation of alt-EJ and its interactions with processes driving cancer progression remain poorly understood. Here, we show that alt-EJ is suppressed by hypoxia while positively associated with MYC (myelocytomatosis oncogene) transcriptional activity. Hypoxia reduces PARP1 and POLQ expression, decreases MYC binding at their promoters, and lowers PARylation and alt-EJ-mediated DNA repair in cancer cells. Tumors with HIF1A mutations overexpress the alt-EJ gene signature. Inhibition of hypoxia-inducible factor 1alpha or HIF1A expression depletion, combined with PARP or POLtheta inhibition, synergistically reduces the colony-forming capacity of cancer cells. Deep learning reveals the anticorrelation between alt-EJ and hypoxia across regions in tumor images, and the predictions for these and MYC activity achieve area under the curve values between 0.70 and 0.86. These findings further highlight the critical role of hypoxia in modulating DNA repair and present a strategy for predicting and improving outcomes centered on targeting alt-EJ.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*DNA End-Joining Repair/genetics",
+      "*Gene Expression Regulation, Neoplastic",
+      "Poly(ADP-ribose) Polymerase Inhibitors/pharmacology",
+      "*Neoplasms/genetics/drug therapy/pathology",
+      "Cell Line, Tumor",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/genetics/metabolism",
+      "DNA-Directed DNA Polymerase/genetics/metabolism",
+      "DNA Polymerase theta",
+      "Poly (ADP-Ribose) Polymerase-1/genetics/metabolism/antagonists & inhibitors",
+      "Proto-Oncogene Proteins c-myc/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Espin, Roderic",
+        "Medina-Jover, Ferran",
+        "Siguenza-Andrade, Javier",
+        "Farran-Matas, Sonia",
+        "Mateo, Francesca",
+        "Figueras, Agnes",
+        "Sanz, Rosario T",
+        "Vicent, Guillermo Pablo",
+        "Shabbir, Arzoo",
+        "Ruiz-Auladell, Lara",
+        "Racionero-Andres, Emilio",
+        "Garcia, Irene",
+        "Baiges, Alexandra",
+        "Franco-Luzon, Lidia",
+        "Martinez-Tebar, Adrian",
+        "Pardo-Cea, Miguel Angel",
+        "Martinez-Iniesta, Maria",
+        "Wang, Xieng Chen",
+        "Cuyas, Elisabet",
+        "Menendez, Javier A",
+        "Lopez-Cerda, Marta",
+        "Munoz, Purificacion",
+        "Richaud, Ivonne",
+        "Raya, Angel",
+        "Fabregat, Isabel",
+        "Villanueva, Alberto",
+        "Serrat, Xenia",
+        "Ceron, Julian",
+        "Alemany, Montserrat",
+        "Guix, Ines",
+        "Herencia-Ropero, Andrea",
+        "Serra, Violeta",
+        "Krishnan, Rehna",
+        "Mekhail, Karim",
+        "Hakem, Razqallah",
+        "Bruna, Jordi",
+        "Barcellos-Hoff, Mary Helen",
+        "Vinals, Francesc",
+        "Aytes, Alvaro",
+        "Pujana, Miquel Angel"
+      ],
+      "short_names": [
+        "Espin R",
+        "Medina-Jover F",
+        "Siguenza-Andrade J",
+        "Farran-Matas S",
+        "Mateo F",
+        "Figueras A",
+        "Sanz RT",
+        "Vicent GP",
+        "Shabbir A",
+        "Ruiz-Auladell L",
+        "Racionero-Andres E",
+        "Garcia I",
+        "Baiges A",
+        "Franco-Luzon L",
+        "Martinez-Tebar A",
+        "Pardo-Cea MA",
+        "Martinez-Iniesta M",
+        "Wang XC",
+        "Cuyas E",
+        "Menendez JA",
+        "Lopez-Cerda M",
+        "Munoz P",
+        "Richaud I",
+        "Raya A",
+        "Fabregat I",
+        "Villanueva A",
+        "Serrat X",
+        "Ceron J",
+        "Alemany M",
+        "Guix I",
+        "Herencia-Ropero A",
+        "Serra V",
+        "Krishnan R",
+        "Mekhail K",
+        "Hakem R",
+        "Bruna J",
+        "Barcellos-Hoff MH",
+        "Vinals F",
+        "Aytes A",
+        "Pujana MA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0554-2226",
+        "ORCID: 0000-0003-3222-4044"
+      ],
+      "affiliations": [
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Department of Physiological Sciences, University of Barcelona, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Molecular Biology Institute of Barcelona, Spanish National Research Council (IBMB-CSIC), Barcelona 08028, Spain.",
+        "Molecular Biology Institute of Barcelona, Spanish National Research Council (IBMB-CSIC), Barcelona 08028, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Girona Biomedical Research Institute (IDIBGI), Salt, Girona 17190, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Girona Biomedical Research Institute (IDIBGI), Salt, Girona 17190, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Regenerative Medicine Program and Program for Clinical Translation of Regenerative Medicine in Catalonia-P-CMR[C], Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Biomedical Research Network Centre in Bioengineering, Nanomaterials, and Nanomedicine (CIBER-BBN), Instituto de Salud Carlos III, Madrid 28029, Spain.",
+        "Regenerative Medicine Program and Program for Clinical Translation of Regenerative Medicine in Catalonia-P-CMR[C], Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Biomedical Research Network Centre in Bioengineering, Nanomaterials, and Nanomedicine (CIBER-BBN), Instituto de Salud Carlos III, Madrid 28029, Spain.",
+        "Catalan Institution for Research and Advanced Studies (ICREA), Barcelona 08010, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Biomedical Research Networking Centre in Hepatic and Digestive Diseases (CIBERehd), Instituto de Salud Carlos III, Madrid 28029, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Modeling Human Diseases in C. elegans Group, Genes, Diseases, and Therapies Program, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Modeling Human Diseases in C. elegans Group, Genes, Diseases, and Therapies Program, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Neuro-Oncology Unit, University Hospital of Bellvitge, Catalan Institute of Oncology, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Department of Radiation Oncology and Helen Diller Family Comprehensive Cancer Centre, University of California San Francisco, San Francisco, CA 94115, United States.",
+        "Department of Biochemistry and Molecular Biology, Autonomous University of Barcelona, Barcelona 08193, Spain.",
+        "Experimental Therapeutics Group, Vall d'Hebron Institute of Oncology (VHIO), Vall d'Hebron Barcelona Hospital Campus, Barcelona 08035, Spain.",
+        "Experimental Therapeutics Group, Vall d'Hebron Institute of Oncology (VHIO), Vall d'Hebron Barcelona Hospital Campus, Barcelona 08035, Spain.",
+        "Princess Margaret Cancer Centre, University Health Network, Toronto, ON M5G 2C1, Canada.",
+        "Department of Laboratory Medicine and Pathobiology, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Princess Margaret Cancer Centre, University Health Network, Toronto, ON M5G 2C1, Canada.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Neuro-Oncology Unit, University Hospital of Bellvitge, Catalan Institute of Oncology, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Department of Radiation Oncology and Helen Diller Family Comprehensive Cancer Centre, University of California San Francisco, San Francisco, CA 94115, United States.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Department of Physiological Sciences, University of Barcelona, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+        "Girona Biomedical Research Institute (IDIBGI), Salt, Girona 17190, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Espín, Roderic",
+        "short_name": "Espín R",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Medina-Jover, Ferran",
+        "short_name": "Medina-Jover F",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Department of Physiological Sciences, University of Barcelona, L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Sigüenza-Andrade, Javier",
+        "short_name": "Sigüenza-Andrade J",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Farran-Matas, Sònia",
+        "short_name": "Farran-Matas S",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Mateo, Francesca",
+        "short_name": "Mateo F",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Figueras, Agnes",
+        "short_name": "Figueras A",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Sanz, Rosario T",
+        "short_name": "Sanz RT",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology Institute of Barcelona, Spanish National Research Council (IBMB-CSIC), Barcelona 08028, Spain."
+        ]
+      },
+      {
+        "full_name": "Vicent, Guillermo Pablo",
+        "short_name": "Vicent GP",
+        "identifiers": [
+          "0000-0002-0554-2226"
+        ],
+        "affiliations": [
+          "Molecular Biology Institute of Barcelona, Spanish National Research Council (IBMB-CSIC), Barcelona 08028, Spain."
+        ]
+      },
+      {
+        "full_name": "Shabbir, Arzoo",
+        "short_name": "Shabbir A",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Ruiz-Auladell, Lara",
+        "short_name": "Ruiz-Auladell L",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Racionero-Andrés, Emilio",
+        "short_name": "Racionero-Andrés E",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "García, Irene",
+        "short_name": "García I",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Baiges, Alexandra",
+        "short_name": "Baiges A",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Franco-Luzón, Lídia",
+        "short_name": "Franco-Luzón L",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Martínez-Tebar, Adrián",
+        "short_name": "Martínez-Tebar A",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Pardo-Cea, Miguel Angel",
+        "short_name": "Pardo-Cea MA",
+        "identifiers": [
+          "0000-0003-3222-4044"
+        ],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Martínez-Iniesta, María",
+        "short_name": "Martínez-Iniesta M",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Wang, Xieng Chen",
+        "short_name": "Wang XC",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Cuyàs, Elisabet",
+        "short_name": "Cuyàs E",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Girona Biomedical Research Institute (IDIBGI), Salt, Girona 17190, Spain."
+        ]
+      },
+      {
+        "full_name": "Menendez, Javier A",
+        "short_name": "Menendez JA",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Girona Biomedical Research Institute (IDIBGI), Salt, Girona 17190, Spain."
+        ]
+      },
+      {
+        "full_name": "Lopez-Cerda, Marta",
+        "short_name": "Lopez-Cerda M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Muñoz, Purificacion",
+        "short_name": "Muñoz P",
+        "identifiers": [],
+        "affiliations": [
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Richaud, Ivonne",
+        "short_name": "Richaud I",
+        "identifiers": [],
+        "affiliations": [
+          "Regenerative Medicine Program and Program for Clinical Translation of Regenerative Medicine in Catalonia-P-CMR[C], Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Biomedical Research Network Centre in Bioengineering, Nanomaterials, and Nanomedicine (CIBER-BBN), Instituto de Salud Carlos III, Madrid 28029, Spain."
+        ]
+      },
+      {
+        "full_name": "Raya, Angel",
+        "short_name": "Raya A",
+        "identifiers": [],
+        "affiliations": [
+          "Regenerative Medicine Program and Program for Clinical Translation of Regenerative Medicine in Catalonia-P-CMR[C], Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Biomedical Research Network Centre in Bioengineering, Nanomaterials, and Nanomedicine (CIBER-BBN), Instituto de Salud Carlos III, Madrid 28029, Spain.",
+          "Catalan Institution for Research and Advanced Studies (ICREA), Barcelona 08010, Spain."
+        ]
+      },
+      {
+        "full_name": "Fabregat, Isabel",
+        "short_name": "Fabregat I",
+        "identifiers": [],
+        "affiliations": [
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Biomedical Research Networking Centre in Hepatic and Digestive Diseases (CIBERehd), Instituto de Salud Carlos III, Madrid 28029, Spain."
+        ]
+      },
+      {
+        "full_name": "Villanueva, Alberto",
+        "short_name": "Villanueva A",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Serrat, Xènia",
+        "short_name": "Serrat X",
+        "identifiers": [],
+        "affiliations": [
+          "Modeling Human Diseases in C. elegans Group, Genes, Diseases, and Therapies Program, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Cerón, Julián",
+        "short_name": "Cerón J",
+        "identifiers": [],
+        "affiliations": [
+          "Modeling Human Diseases in C. elegans Group, Genes, Diseases, and Therapies Program, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Alemany, Montserrat",
+        "short_name": "Alemany M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Neuro-Oncology Unit, University Hospital of Bellvitge, Catalan Institute of Oncology, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Guix, Inés",
+        "short_name": "Guix I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology and Helen Diller Family Comprehensive Cancer Centre, University of California San Francisco, San Francisco, CA 94115, United States."
+        ]
+      },
+      {
+        "full_name": "Herencia-Ropero, Andrea",
+        "short_name": "Herencia-Ropero A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Autonomous University of Barcelona, Barcelona 08193, Spain.",
+          "Experimental Therapeutics Group, Vall d'Hebron Institute of Oncology (VHIO), Vall d'Hebron Barcelona Hospital Campus, Barcelona 08035, Spain."
+        ]
+      },
+      {
+        "full_name": "Serra, Violeta",
+        "short_name": "Serra V",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Therapeutics Group, Vall d'Hebron Institute of Oncology (VHIO), Vall d'Hebron Barcelona Hospital Campus, Barcelona 08035, Spain."
+        ]
+      },
+      {
+        "full_name": "Krishnan, Rehna",
+        "short_name": "Krishnan R",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Centre, University Health Network, Toronto, ON M5G 2C1, Canada."
+        ]
+      },
+      {
+        "full_name": "Mekhail, Karim",
+        "short_name": "Mekhail K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Hakem, Razqallah",
+        "short_name": "Hakem R",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Centre, University Health Network, Toronto, ON M5G 2C1, Canada.",
+          "Department of Medical Biophysics, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Bruna, Jordi",
+        "short_name": "Bruna J",
+        "identifiers": [],
+        "affiliations": [
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Neuro-Oncology Unit, University Hospital of Bellvitge, Catalan Institute of Oncology, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Barcellos-Hoff, Mary Helen",
+        "short_name": "Barcellos-Hoff MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology and Helen Diller Family Comprehensive Cancer Centre, University of California San Francisco, San Francisco, CA 94115, United States."
+        ]
+      },
+      {
+        "full_name": "Viñals, Francesc",
+        "short_name": "Viñals F",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Department of Physiological Sciences, University of Barcelona, L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Aytes, Álvaro",
+        "short_name": "Aytes Á",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain."
+        ]
+      },
+      {
+        "full_name": "Pujana, Miquel Angel",
+        "short_name": "Pujana MA",
+        "identifiers": [],
+        "affiliations": [
+          "ProCURE, Catalan Institute of Oncology, L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Oncobell, Bellvitge Institute for Biomedical Research (IDIBELL), L'Hospitalet del Llobregat, Barcelona 08908, Spain.",
+          "Girona Biomedical Research Institute (IDIBGI), Salt, Girona 17190, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR cancer"
+    ],
+    "journal_abbrev": [
+      "NAR Cancer"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 12:32",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [
+      "41070620",
+      "40389543"
+    ],
+    "refs": [
+      "39227745",
+      "39179527",
+      "38987605",
+      "38874005",
+      "38504018",
+      "38030626",
+      "37978141",
+      "37849038",
+      "37665033",
+      "37537841",
+      "37358557",
+      "36227697",
+      "35839778",
+      "35700707",
+      "35681079",
+      "35642641",
+      "35538088",
+      "35325188",
+      "35236825",
+      "35149538",
+      "35022323",
+      "34522048",
+      "34179826",
+      "34140467",
+      "34081848",
+      "33941680",
+      "33654095",
+      "33649564",
+      "33568520",
+      "33251216",
+      "33109489",
+      "33004253",
+      "32790492",
+      "32613204",
+      "32358524",
+      "32343890",
+      "32302896",
+      "32246720",
+      "32079692",
+      "31978347",
+      "31552165",
+      "31266951",
+      "31263220",
+      "31251913",
+      "31097696",
+      "31068700",
+      "30898650",
+      "30880072",
+      "30584090",
+      "30087144",
+      "29788099",
+      "29653955",
+      "29625055",
+      "29545922",
+      "29207201",
+      "29180466",
+      "29097800",
+      "28890946",
+      "28753430",
+      "28566428",
+      "28512351",
+      "28302823",
+      "28114741",
+      "27923913",
+      "27397505",
+      "27153664",
+      "27131361",
+      "27053300",
+      "26957554",
+      "26546619",
+      "26544944",
+      "26520387",
+      "26439531",
+      "26437586",
+      "26347108",
+      "25956861",
+      "25833843",
+      "25828893",
+      "25642963",
+      "25642960",
+      "25629353",
+      "25239453",
+      "24992077",
+      "24902696",
+      "24588669",
+      "24401554",
+      "24097900",
+      "23999440",
+      "23946285",
+      "23323831",
+      "23308051",
+      "23180760",
+      "22941618",
+      "22920291",
+      "22915752",
+      "22915751",
+      "22777348",
+      "22713970",
+      "22641215",
+      "22588877",
+      "22460902",
+      "22452356",
+      "22304911",
+      "22110403",
+      "21720365",
+      "21606941",
+      "20946988",
+      "20700469",
+      "20624954",
+      "20587661",
+      "20087356",
+      "19851314",
+      "19553641",
+      "19372568",
+      "18991631",
+      "18987634",
+      "18923434",
+      "18729192",
+      "18458121",
+      "18273037",
+      "18046334",
+      "17875706",
+      "17692803",
+      "17597761",
+      "17132020",
+      "17090522",
+      "17024177",
+      "16815840",
+      "16199517",
+      "16144689",
+      "16054083",
+      "16026872",
+      "15829967",
+      "15829966",
+      "15780936",
+      "15713751",
+      "15498778",
+      "15084254",
+      "15071503",
+      "15026543",
+      "15016911",
+      "14760071",
+      "12909717",
+      "12379645",
+      "12058064",
+      "12049739",
+      "11846609",
+      "11678207",
+      "11440977",
+      "11226425",
+      "10963602",
+      "10804532",
+      "10548103",
+      "8897823",
+      "8524414",
+      "7545954"
+    ],
+    "similar": [
+      "40061566",
+      "39147034",
+      "39122831",
+      "35927262",
+      "25629353",
+      "30478958",
+      "34573292",
+      "41495903",
+      "29929045",
+      "38944428",
+      "29238067",
+      "41632544",
+      "34140467",
+      "39273083",
+      "41946423",
+      "39562655",
+      "29526801",
+      "25642963",
+      "26520366",
+      "28510338",
+      "25828893",
+      "39174499",
+      "30395643",
+      "38987289",
+      "31266892",
+      "38860782",
+      "33568520",
+      "16740713",
+      "27264184",
+      "32936912",
+      "21447800",
+      "29968072",
+      "32534122",
+      "29180466",
+      "32459988",
+      "22641215",
+      "40308947",
+      "24210699",
+      "32302896",
+      "27657134",
+      "27559053",
+      "38640836",
+      "32427332",
+      "31127567",
+      "40639287",
+      "37358557",
+      "41455274",
+      "25292178",
+      "40773674",
+      "36243940",
+      "28945226",
+      "27373144",
+      "42116764",
+      "34948122",
+      "36361678",
+      "32814472",
+      "28087320",
+      "22983061",
+      "33755161",
+      "41518123",
+      "41243969",
+      "30686551",
+      "41837288",
+      "40118782",
+      "39059591",
+      "26513298",
+      "29874127",
+      "37978141",
+      "40608419",
+      "40234721",
+      "27847302",
+      "29171189",
+      "26294743",
+      "25563294",
+      "29590065",
+      "39844055",
+      "31593615",
+      "39504452",
+      "34215619",
+      "34030964",
+      "28107648",
+      "26520387",
+      "37714792",
+      "30636294",
+      "41115973",
+      "34522048",
+      "29058711",
+      "35714766",
+      "31322269",
+      "28925391",
+      "27131361",
+      "32711558",
+      "41371432",
+      "26916217",
+      "35247877",
+      "29973717",
+      "37240195",
+      "39004561",
+      "25642960",
+      "26779812"
+    ],
+    "review": [
+      "40061566",
+      "39122831",
+      "34573292",
+      "28510338",
+      "29968072",
+      "32459988",
+      "32302896",
+      "27657134",
+      "31127567",
+      "40639287",
+      "41455274",
+      "28087320",
+      "41518123",
+      "39059591",
+      "37978141",
+      "29171189",
+      "34030964",
+      "26520387",
+      "37714792",
+      "34522048"
+    ],
+    "pmc": [
+      "11886861"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40061566/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40061566",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-556",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hdl.handle.net/2445/221358",
+        "provider": "Diposit Digital de la Universitat de Barcelona - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://escholarship.org/uc/item/4p9741pt",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://academic.oup.com/narcancer/article-lookup/doi/10.1093/narcan/zcaf007",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

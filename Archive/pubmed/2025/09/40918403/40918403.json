@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "40918403",
+    "doi": "10.1155/mi/6726771",
+    "title": "Identification of Endoplasmic Reticulum Stress-Related Genes in Osteoporosis Pathogenesis."
+  },
+  "content": {
+    "abstract": "Background: Osteoporosis is a prevalent metabolic bone disorder with complex molecular underpinnings. Emerging evidence implicates endoplasmic reticulum stress (ERS) in its pathogenesis; however, systematic exploration of ERS-related genes (ERSRGs) remains limited. This study aimed to identify ERS-related differentially expressed genes (ERSRDEGs) in osteoporosis, construct a diagnostic model, and elucidate associated molecular mechanisms. Methods: Three osteoporosis datasets (GSE56815, GSE230665, and GSE7429) were integrated after batch effect correction and normalization. ERSRGs were curated from GeneCards, and ERSRDEGs were identified by intersecting co-differentially expressed genes (Co-DEGs) across datasets. Functional enrichment (gene set enrichment analysis [GSEA], gene set variation analysis [GSVA], Gene Ontology [GO], and Kyoto Encyclopedia of Genes and Genomes [KEGG]) and immune infiltration analyses were performed. Diagnostic models were developed using support vector machine (SVM) and least absolute shrinkage and selection operator (LASSO) regression, validated via receiver operating characteristic (ROC) curves, nomograms, and decision curve analysis. Experimental validation included immunohistochemistry and quantitative reverse transcription polymerase chain reaction (qRT-PCR) in ovariectomized (OVX) mice. Regulatory networks (TF-miRNA-RBP-drug) and protein structure predictions were generated using bioinformatic tools. Results: Fifty six ERSRDEGs were identified, enriched in apoptosis, autophagy, and cytokine signaling pathways. A diagnostic model comprising seven genes (CYB5R4, RAB1B, UFSP2, RNF13, SERP1, CES2, and C1QBP) demonstrated high accuracy (area under the curve (AUC) > 0.9) in both training and validation datasets. Immune infiltration analysis revealed distinct patterns of activated B cells, CD8(+) T cells, and macrophages between high- and low-risk groups. Regulatory networks highlighted interactions with 52 transcription factors (TFs), 42 miRNAs, and 27 therapeutic compounds. Experimental validation in OVX mice confirmed upregulated expression of C1QBP, CYB5R4, RAB1B, and UFSP2 at protein/mRNA levels, aligning with bioinformatic predictions. Conclusions: This study establishes ERSRDEGs as critical players in osteoporosis pathogenesis and provides a clinically translatable seven-gene diagnostic model for early osteoporosis detection. The integration of multiomics analyses uncovered key pathways, immune dynamics, and regulatory networks, while experimental validation reinforced the role of specific ERSRGs. These findings provide novel insights into ERS-mediated mechanisms and therapeutic targets for osteoporosis management.",
+    "keywords": [
+      "bioinformatics",
+      "diagnostic model",
+      "endoplasmic reticulum stress",
+      "immune infiltration",
+      "osteoporosis",
+      "regulatory networks"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Osteoporosis/genetics/metabolism",
+      "Mice",
+      "Humans",
+      "*Endoplasmic Reticulum Stress/genetics/physiology",
+      "Female",
+      "Computational Biology",
+      "Gene Regulatory Networks/genetics",
+      "Gene Ontology",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics/metabolism",
+      "Ovariectomy",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yiren",
+        "Yang, Xiu",
+        "Lu, Yunan",
+        "He, Jiayu",
+        "Liu, Bo",
+        "Zhang, Yongfa",
+        "Zhang, Zhengchao"
+      ],
+      "short_names": [
+        "Zhu Y",
+        "Yang X",
+        "Lu Y",
+        "He J",
+        "Liu B",
+        "Zhang Y",
+        "Zhang Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-8661-8048",
+        "ORCID: 0009-0003-3287-6904",
+        "ORCID: 0000-0002-6594-9917",
+        "ORCID: 0009-0007-7312-3131",
+        "ORCID: 0009-0005-2594-6876",
+        "ORCID: 0009-0004-3741-7595",
+        "ORCID: 0000-0003-3291-2947"
+      ],
+      "affiliations": [
+        "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+        "Fuzong Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+        "Department of Paediatric Orthopaedics, Fuzhou Second Hospital, Fuzhou, Fujian Province 350007, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, Fujian, China.",
+        "Department of Emergency Trauma Surgery, Fujian Provincial Hospital, Fuzhou 350001, Fujian, China.",
+        "Fujian Trauma Medicine Center, Fuzhou 350001, Fujian, China.",
+        "Fujian Key Laboratory of Emergency Medicine, Fuzhou 350001, Fujian, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, Fujian, China.",
+        "Department of Emergency Trauma Surgery, Fujian Provincial Hospital, Fuzhou 350001, Fujian, China.",
+        "Fujian Trauma Medicine Center, Fuzhou 350001, Fujian, China.",
+        "Fujian Key Laboratory of Emergency Medicine, Fuzhou 350001, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yiren",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0009-0006-8661-8048"
+        ],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiu",
+        "short_name": "Yang X",
+        "identifiers": [
+          "0009-0003-3287-6904"
+        ],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+          "Fuzong Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yunan",
+        "short_name": "Lu Y",
+        "identifiers": [
+          "0000-0002-6594-9917"
+        ],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+          "Department of Paediatric Orthopaedics, Fuzhou Second Hospital, Fuzhou, Fujian Province 350007, China."
+        ]
+      },
+      {
+        "full_name": "He, Jiayu",
+        "short_name": "He J",
+        "identifiers": [
+          "0009-0007-7312-3131"
+        ],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bo",
+        "short_name": "Liu B",
+        "identifiers": [
+          "0009-0005-2594-6876"
+        ],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongfa",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0004-3741-7595"
+        ],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, Fujian, China.",
+          "Department of Emergency Trauma Surgery, Fujian Provincial Hospital, Fuzhou 350001, Fujian, China.",
+          "Fujian Trauma Medicine Center, Fuzhou 350001, Fujian, China.",
+          "Fujian Key Laboratory of Emergency Medicine, Fuzhou 350001, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhengchao",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0003-3291-2947"
+        ],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fuzhou 350001, Fujian, China.",
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, Fujian, China.",
+          "Department of Emergency Trauma Surgery, Fujian Provincial Hospital, Fuzhou 350001, Fujian, China.",
+          "Fujian Trauma Medicine Center, Fuzhou 350001, Fujian, China.",
+          "Fujian Key Laboratory of Emergency Medicine, Fuzhou 350001, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/08 12:44",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39998474",
+      "38352274",
+      "38183606",
+      "37683138",
+      "37335694",
+      "36808784",
+      "35358093",
+      "35273168",
+      "35244921",
+      "35032187",
+      "34791371",
+      "34458863",
+      "33828270",
+      "33397254",
+      "33384961",
+      "33193098",
+      "32558385",
+      "31781343",
+      "31443682",
+      "30696576",
+      "30453885",
+      "30407594",
+      "30241973",
+      "29330445",
+      "28293453",
+      "28208696",
+      "27924033",
+      "27322403",
+      "25822800",
+      "25605792",
+      "25246789",
+      "24297251",
+      "24120384",
+      "23740750",
+      "23323831",
+      "22455463",
+      "22257669",
+      "21546393",
+      "20936937",
+      "20231569",
+      "18433299",
+      "17496320",
+      "16199517",
+      "12778124",
+      "11735756",
+      "11003602",
+      "9847135"
+    ],
+    "similar": [
+      "40918403",
+      "40241169",
+      "39284931",
+      "38650009",
+      "39789034",
+      "41044520",
+      "41006883",
+      "35757392",
+      "41146237",
+      "39341981",
+      "39142001",
+      "39671358",
+      "39953608",
+      "40263537",
+      "40849369",
+      "39586719",
+      "38274787",
+      "38734758",
+      "41200172",
+      "39556279",
+      "40854963",
+      "40043935",
+      "40245021",
+      "40371728",
+      "36353576",
+      "39010084",
+      "38167084",
+      "41120603",
+      "41078717",
+      "40775242",
+      "41325398",
+      "41277057",
+      "40153017",
+      "40313558",
+      "36060663",
+      "40901831",
+      "38062833",
+      "39230867",
+      "34536521",
+      "40091022",
+      "39403102",
+      "36532015",
+      "40312440",
+      "41239927",
+      "39791175",
+      "41479901",
+      "40171194",
+      "40500570",
+      "37287987",
+      "39351238",
+      "41246341",
+      "41132349",
+      "35110962",
+      "39351239",
+      "35709926",
+      "39466354",
+      "40313958",
+      "37259023",
+      "41388523",
+      "39076097",
+      "40374840",
+      "40967560",
+      "40901474",
+      "39825072",
+      "36311708",
+      "40828304",
+      "39670237",
+      "41110296",
+      "39923360",
+      "40597456",
+      "38941397",
+      "35620387",
+      "39609718",
+      "41357842",
+      "40211501",
+      "40953006",
+      "38549107",
+      "38260098",
+      "39754246",
+      "41444522",
+      "41162503",
+      "38283345",
+      "41291978",
+      "40642528",
+      "40821971",
+      "38718074",
+      "40024299",
+      "39344316",
+      "41196851",
+      "40406620",
+      "40857934",
+      "40628511",
+      "40613560",
+      "41432483",
+      "40238799",
+      "41188339",
+      "40595862",
+      "37361541",
+      "39814777",
+      "37605572"
+    ],
+    "review": [
+      "40918403"
+    ],
+    "pmc": [
+      "12413945"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40918403/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/mi/6726771",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

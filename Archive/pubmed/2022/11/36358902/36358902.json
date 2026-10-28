@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "36358902",
+    "doi": "10.3390/biom12111552",
+    "title": "MARGINAL: An Automatic Classification of Variants in BRCA1 and BRCA2 Genes Using a Machine Learning Model."
+  },
+  "content": {
+    "abstract": "Implementation of next-generation sequencing (NGS) for the genetic analysis of hereditary diseases has resulted in a vast number of genetic variants identified daily, leading to inadequate variant interpretation and, consequently, a lack of useful clinical information for treatment decisions. Herein, we present MARGINAL 1.0.0, a machine learning (ML)-based software for the interpretation of rare BRCA1 and BRCA2 germline variants. MARGINAL software classifies variants into three categories, namely, (likely) pathogenic, of uncertain significance and (likely) benign, implementing the criteria established by the American College of Medical Genetics and Genomics and the Association for Molecular Pathology (ACMG-AMP). We first annotated BRCA1 and BRCA2 variants using various sources. Then, we automatically implemented the ACMG-AMP criteria, and we finally constructed the ML model for variant classification. To maximize accuracy, we compared the performance of eight different ML algorithms in a classification scheme based on a serial combination of two classifiers. The model showed high predictive abilities with maximum accuracy of 92% and 98%, recall of 92% and 98% and specificity of 90% and 98% for the first and second classifiers, respectively. Our results indicate that using a gene and disease-specific ML automated software for clinical variant evaluation can minimize conflicting interpretations.",
+    "keywords": [
+      "ACMG-AMP guidelines",
+      "BRCA1/2 genes",
+      "cancer",
+      "genomics",
+      "germline",
+      "machine learning",
+      "rare variant interpretation",
+      "variant pathogenicity"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "BRCA1 Protein/genetics",
+      "BRCA2 Protein/genetics",
+      "*Breast Neoplasms/genetics",
+      "*Genes, BRCA2",
+      "Genetic Predisposition to Disease",
+      "Genetic Testing",
+      "Genetic Variation",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karalidou, Vasiliki",
+        "Kalfakakou, Despoina",
+        "Papathanasiou, Athanasios",
+        "Fostira, Florentia",
+        "Matsopoulos, George K"
+      ],
+      "short_names": [
+        "Karalidou V",
+        "Kalfakakou D",
+        "Papathanasiou A",
+        "Fostira F",
+        "Matsopoulos GK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3052-3932",
+        "ORCID: 0000-0002-3369-2360",
+        "ORCID: 0000-0001-6520-9751",
+        "ORCID: 0000-0003-2751-2332",
+        "ORCID: 0000-0002-2600-9914"
+      ],
+      "affiliations": [
+        "School of Electrical and Computer Engineering, National Technical University of Athens, 15780 Athens, Greece.",
+        "Molecular Diagnostics Laboratory, INRaSTES, National Center for Scientific Research NCSR Demokritos, 15341 Athens, Greece.",
+        "Molecular Diagnostics Laboratory, INRaSTES, National Center for Scientific Research NCSR Demokritos, 15341 Athens, Greece.",
+        "Molecular Diagnostics Laboratory, INRaSTES, National Center for Scientific Research NCSR Demokritos, 15341 Athens, Greece.",
+        "School of Electrical and Computer Engineering, National Technical University of Athens, 15780 Athens, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karalidou, Vasiliki",
+        "short_name": "Karalidou V",
+        "identifiers": [
+          "0000-0002-3052-3932"
+        ],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, National Technical University of Athens, 15780 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Kalfakakou, Despoina",
+        "short_name": "Kalfakakou D",
+        "identifiers": [
+          "0000-0002-3369-2360"
+        ],
+        "affiliations": [
+          "Molecular Diagnostics Laboratory, INRaSTES, National Center for Scientific Research NCSR Demokritos, 15341 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Papathanasiou, Athanasios",
+        "short_name": "Papathanasiou A",
+        "identifiers": [
+          "0000-0001-6520-9751"
+        ],
+        "affiliations": [
+          "Molecular Diagnostics Laboratory, INRaSTES, National Center for Scientific Research NCSR Demokritos, 15341 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Fostira, Florentia",
+        "short_name": "Fostira F",
+        "identifiers": [
+          "0000-0003-2751-2332"
+        ],
+        "affiliations": [
+          "Molecular Diagnostics Laboratory, INRaSTES, National Center for Scientific Research NCSR Demokritos, 15341 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Matsopoulos, George K",
+        "short_name": "Matsopoulos GK",
+        "identifiers": [
+          "0000-0002-2600-9914"
+        ],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, National Technical University of Athens, 15780 Athens, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2022 Oct 24",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/12 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "42614771",
+      "41781977",
+      "41688871",
+      "41496967",
+      "40847372",
+      "37380723"
+    ],
+    "refs": [
+      "36129964",
+      "35665744",
+      "34174131",
+      "33761318",
+      "33565189",
+      "33261662",
+      "32461654",
+      "32176384",
+      "32022259",
+      "31447071",
+      "30823901",
+      "30787465",
+      "30675030",
+      "30298955",
+      "28632866",
+      "28132688",
+      "27899611",
+      "27493913",
+      "27357818",
+      "27268795",
+      "26582918",
+      "25741868",
+      "25552646",
+      "25416802",
+      "24681721",
+      "24010542",
+      "21857971",
+      "21520341",
+      "21152010",
+      "14681465",
+      "12824425",
+      "12045153",
+      "11832208"
+    ],
+    "similar": [
+      "36358902",
+      "39142283",
+      "35736817",
+      "30725392",
+      "30415210",
+      "38160042",
+      "30971832",
+      "34597585",
+      "31409081",
+      "37076566",
+      "38725546",
+      "36775216",
+      "39096911",
+      "31907386",
+      "31897316",
+      "33278427",
+      "31131967",
+      "29302806",
+      "31331294",
+      "31911673",
+      "31825140",
+      "33428613",
+      "37067535",
+      "27124784",
+      "38417439",
+      "34749799",
+      "32566972",
+      "22684231",
+      "28439188",
+      "37335020",
+      "25556971",
+      "33087888",
+      "33113089",
+      "25085752",
+      "32180084",
+      "31273614",
+      "33078592",
+      "35729312",
+      "24607278",
+      "37731132",
+      "32772980",
+      "28111427",
+      "35918668",
+      "33326660",
+      "19200354",
+      "33476590",
+      "28408614",
+      "34646395",
+      "21769658",
+      "26848529",
+      "34146199",
+      "32862574",
+      "32531196",
+      "31336956",
+      "26295337",
+      "35216584",
+      "28822785",
+      "28477318",
+      "30606148",
+      "35671604",
+      "32980694",
+      "27553368",
+      "31477031",
+      "32486089",
+      "35420638",
+      "29161300",
+      "32295625",
+      "28263838",
+      "29681614",
+      "33576549",
+      "28222693",
+      "30408727",
+      "33609447",
+      "33469799",
+      "31131559",
+      "33507482",
+      "25639900",
+      "37168384",
+      "29801090",
+      "32879886",
+      "31343793",
+      "22507745",
+      "31831881",
+      "28664449",
+      "35245693",
+      "32629901",
+      "27181684",
+      "31464824",
+      "33287145",
+      "33726785",
+      "29884841",
+      "32812259",
+      "33400207",
+      "28392550",
+      "32161019",
+      "36232793",
+      "35191126",
+      "23615697",
+      "29236234",
+      "29300386",
+      "36446827",
+      "38271184",
+      "25741868",
+      "35590234",
+      "39281752",
+      "38509596",
+      "34230634",
+      "36095262",
+      "39317201",
+      "35339094",
+      "38758754",
+      "34510646",
+      "36305854",
+      "37380723",
+      "38854136",
+      "33020566",
+      "38426335",
+      "36916756",
+      "38440907",
+      "32720330",
+      "27884173",
+      "37628650",
+      "36129964",
+      "34428318",
+      "37532488",
+      "36905130",
+      "38840866",
+      "36593954",
+      "28782058",
+      "36496180",
+      "37079061",
+      "33586368",
+      "25556339",
+      "35132179",
+      "29618041",
+      "37968704",
+      "35727495",
+      "38633773",
+      "31144781",
+      "38631437",
+      "36845707",
+      "30474649",
+      "39202055",
+      "36453528",
+      "39427061",
+      "33240524",
+      "38076939",
+      "35570716",
+      "38520562",
+      "38149678",
+      "39227160",
+      "39285047",
+      "36879825"
+    ],
+    "review": [
+      "36358902",
+      "31409081",
+      "31825140",
+      "26848529",
+      "35216584",
+      "28822785",
+      "35671604",
+      "25741868",
+      "37532488",
+      "36496180",
+      "38631437",
+      "30474649"
+    ],
+    "pmc": [
+      "9687470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom12111552",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36358902/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36358902",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

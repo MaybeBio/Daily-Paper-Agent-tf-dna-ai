@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41852002",
+  "title": "In Silico Transcriptomic Analysis for Identification of Potential Diagnostic and Prognostic Biomarkers and Therapeutic Targets in Cervical Cancer using a Hybrid Genetic Algorithm-Support Vector Machine Approach.",
+  "authors": "Nezamabadi Farahani, Leila; Kazemnejad, Anoshirvan; Afrasiabi, Mahlagha; Tapak, Leili",
+  "journal": "Archives of Iranian medicine",
+  "published_date": "2026-03-19",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用GA-SVM对宫颈癌转录组数据做诊断/预后标志物筛选，虽含转录因子分析但无蛋白-DNA互作建模或AI/物理模拟方法，与本课题核心无关。",
+  "abstract": "BACKGROUND: Cervical cancer is the leading malignancy among women worldwide, posing clinical and public health challenges. This in silico study aims to identify potential diagnostic biomarkers, therapeutic targets, and prognostic markers associated with cervical cancer through integrative bioinformatics approaches. METHODS: A hybrid machine learning approach, combining genetic algorithm (GA) and support vector machine (SVM), was applied to high-dimensional gene expression data from publicly available transcriptomic datasets, including the Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA). A total of 72 Geo samples (Affymetrix, Illumina) served as the primary dataset after normalization. RESULTS: The GA-SVM model achieved about 99% accuracy and AUC with 10-fold cross validation, clearly separating cervical cancer from normal tissues. Eight genes (CXCL9, CTGF, ZNF704, ZEB2, SASH1, PTN, KPNA2, SLC5A1) were identified as diagnostic biomarkers. Protein-protein interaction (PPI) and functional enrichment analyses revealed 42 therapeutic targets (e.g. CDK1, BRCA1, CCNB1, and AURKB) linked to regulating cell cycle, DNA repair, and mitotic processes. Survival analysis identified six genes (CXCL1, DNMT1, MMP1, MYBL2, PCNA, and RRM2) as key prognostic markers. Additionally, transcription factor analysis identified E2F1 and TP63 as major regulators of the prognostic genes, elucidating the molecular mechanisms underlying cervical cancer progression. CONCLUSION: The identified gene signatures may serve as candidates for hypothesis generation and provide a computational framework to prioritize biomarkers and therapeutic targets in cervical cancer. However, these findings are based on in silico analyses and require experimental and clinical validation before translation into practice.",
+  "abstract_zh": "背景：宫颈癌是全球女性中最常见的恶性肿瘤，带来了临床和公共卫生挑战。本研究通过整合生物信息学方法，旨在识别与宫颈癌相关的潜在诊断生物标志物、治疗靶点和预后标志物。方法：采用一种混合机器学习方法，结合遗传算法（genetic algorithm, GA）和支持向量机（support vector machine, SVM），应用于来自公开转录组数据集（包括Gene Expression Omnibus (GEO) 和 The Cancer Genome Atlas (TCGA)）的高维基因表达数据。在标准化处理后，共72个GEO样本（Affymetrix, Illumina）作为主要数据集。结果：GA-SVM模型在10折交叉验证中实现了约99%的准确率和AUC，清晰地将宫颈癌与正常组织区分开来。八个基因（CXCL9、CTGF、ZNF704、ZEB2、SASH1、PTN、KPNA2、SLC5A1）被识别为诊断生物标志物。蛋白质-蛋白质相互作用（protein-protein interaction, PPI）和功能富集分析揭示了42个治疗靶点（如CDK1、BRCA1、CCNB1和AURKB），这些靶点与调控细胞周期、DNA修复和有丝分裂过程相关。生存分析识别出六个基因（CXCL1、DNMT1、MMP1、MYBL2、PCNA和RRM2）作为关键预后标志物。此外，转录因子分析确定E2F1和TP63为预后基因的主要调控因子，阐明了宫颈癌进展的分子机制。结论：所识别的基因特征可作为假设生成的候选对象，并提供了一个计算框架，用于优先考虑宫颈癌中的生物标志物和治疗靶点。然而，这些发现基于计算机模拟分析，在转化为实践之前需要实验和临床验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41852002/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41852002/",
+  "paper_page_path": "papers/pubmed/41852002/index.html"
+}

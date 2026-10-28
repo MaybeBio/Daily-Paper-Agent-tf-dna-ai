@@ -1,0 +1,210 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.09.540002",
+  "title": "Robust discovery of causal gene networks via measurement error estimation and correction",
+  "doi": "10.1101/2023.05.09.540002",
+  "abstract": "Discovering causal relations among genes from observational data is a fundamental problem in systems biology, especially in humans where direct gene interventions or perturbations are unethical/infeasible. Furthermore, causality is emerging as an integral factor for building interpretable and generalizable machine-learning models of complex phenotypes. Existing methods can discover causal relations from observed gene expression and matched genetic data using the well-established framework of Mendelian Randomization. But, the prevalence of expression measurement errors can mislead most existing methods into making wrong causal discoveries, especially among genes transcribed at low to moderate levels and using data with large sample size (say thousands as in modern genomic or GWAS studies). In this study, we propose a new framework for causal discovery that is robust against measurement noise by extending an established statistical approach CIT (Causal Inference Test). We specifically developed a two-stage approach called RCD (Robust Causal Discovery), wherein we first estimate measurement error from gene expression data and then incorporate it to get consistent parameter estimates that could be used with appropriately extended statistical tests of correlation or mediation done in the original CIT. By quantifying and accounting for noise in the data, our RCD method is able to significantly outperform the baseline method in recovering ground-truth causal relations among simulated noisy genes and transcription factor to target gene relations among noisy yeast genes using data on 1012 yeast segregants. Encouraged by these results, we applied our RCD to a human setting where perturbations are infeasible and identified several causal relations, including ones involving transcriptional regulators in the skeletal muscle tissue. <h4>Data and Code Availability</h4> The code that implements our two-stage RCD framework is available here: https://github.com/BIRDSgroup/RCD ; code for reproducing the figures/tables in this manuscript is also provided in this link.",
+  "authors": [
+    "Biswas R",
+    "Brintha VP",
+    "Dumrewal A",
+    "Narayanan M"
+  ],
+  "published_date": "2023-05-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.09.540002",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.09.540002.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR657305",
+    "raw_record": {
+      "id": "PPR657305",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR657305"
+        ]
+      },
+      "doi": "10.1101/2023.05.09.540002",
+      "title": "Robust discovery of causal gene networks via measurement error estimation and correction",
+      "authorString": "Biswas R, Brintha VP, Dumrewal A, Narayanan M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Biswas R",
+            "lastName": "Biswas",
+            "firstName": "Rahul",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "The Centre for Integrative Biology and Systems medicinE (IBSE), IIT Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Robert Bosch Center for Data Science and Artificial Intelligence (RBCDSAI), IIT Madras, Chennai, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brintha VP",
+            "lastName": "Brintha",
+            "initials": "VP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "The Centre for Integrative Biology and Systems medicinE (IBSE), IIT Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Robert Bosch Center for Data Science and Artificial Intelligence (RBCDSAI), IIT Madras, Chennai, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dumrewal A",
+            "lastName": "Dumrewal",
+            "firstName": "Amol",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "The Centre for Integrative Biology and Systems medicinE (IBSE), IIT Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Robert Bosch Center for Data Science and Artificial Intelligence (RBCDSAI), IIT Madras, Chennai, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Narayanan M",
+            "lastName": "Narayanan",
+            "firstName": "Manikandan",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8490-4087"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "The Centre for Integrative Biology and Systems medicinE (IBSE), IIT Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Robert Bosch Center for Data Science and Artificial Intelligence (RBCDSAI), IIT Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Multiscale Digital Neuroanatomy (MDN), IIT Madras, Chennai, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8490-4087"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Discovering causal relations among genes from observational data is a fundamental problem in systems biology, especially in humans where direct gene interventions or perturbations are unethical/infeasible. Furthermore, causality is emerging as an integral factor for building interpretable and generalizable machine-learning models of complex phenotypes. Existing methods can discover causal relations from observed gene expression and matched genetic data using the well-established framework of Mendelian Randomization. But, the prevalence of expression measurement errors can mislead most existing methods into making wrong causal discoveries, especially among genes transcribed at low to moderate levels and using data with large sample size (say thousands as in modern genomic or GWAS studies). In this study, we propose a new framework for causal discovery that is robust against measurement noise by extending an established statistical approach CIT (Causal Inference Test). We specifically developed a two-stage approach called RCD (Robust Causal Discovery), wherein we first estimate measurement error from gene expression data and then incorporate it to get consistent parameter estimates that could be used with appropriately extended statistical tests of correlation or mediation done in the original CIT. By quantifying and accounting for noise in the data, our RCD method is able to significantly outperform the baseline method in recovering ground-truth causal relations among simulated noisy genes and transcription factor to target gene relations among noisy yeast genes using data on 1012 yeast segregants. Encouraged by these results, we applied our RCD to a human setting where perturbations are infeasible and identified several causal relations, including ones involving transcriptional regulators in the skeletal muscle tissue. <h4>Data and Code Availability</h4>  The code that implements our two-stage RCD framework is available here:  https://github.com/BIRDSgroup/RCD ; code for reproducing the figures/tables in this manuscript is also provided in this link.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/10/2023.05.09.540002.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.09.540002"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR657305"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR657305&type=FILE&fileName=EMS175588-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS175588",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "dbgap"
+        ]
+      },
+      "dateOfCreation": "2023-05-12",
+      "firstPublicationDate": "2023-05-10",
+      "firstIndexDate": "2023-05-12",
+      "fullTextReceivedDate": "2023-06-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

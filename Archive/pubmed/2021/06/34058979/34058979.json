@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "34058979",
+    "doi": "10.1186/s12859-020-03875-x",
+    "title": "A sequence-based multiple kernel model for identifying DNA-binding proteins."
+  },
+  "content": {
+    "abstract": "BACKGROUND: DNA-Binding Proteins (DBP) plays a pivotal role in biological system. A mounting number of researchers are studying the mechanism and detection methods. To detect DBP, the tradition experimental method is time-consuming and resource-consuming. In recent years, Machine Learning methods have been used to detect DBP. However, it is difficult to adequately describe the information of proteins in predicting DNA-binding proteins. In this study, we extract six features from protein sequence and use Multiple Kernel Learning-based on Centered Kernel Alignment to integrate these features. The integrated feature is fed into Support Vector Machine to build predictive model and detect new DBP. RESULTS: In our work, date sets of PDB1075 and PDB186 are employed to test our method. From the results, our model obtains better results (accuracy) than other existing methods on PDB1075 ([Formula: see text]) and PDB186 ([Formula: see text]), respectively. CONCLUSION: Multiple kernel learning could fuse the complementary information between different features. Compared with existing methods, our method achieves comparable and best results on benchmark data sets.",
+    "keywords": [
+      "Centered kernel alignment",
+      "DNA-binding proteins",
+      "Feature extraction",
+      "Multiple kernel learning",
+      "Support vector machine"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins",
+      "Machine Learning",
+      "*Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qian, Yuqing",
+        "Jiang, Limin",
+        "Ding, Yijie",
+        "Tang, Jijun",
+        "Guo, Fei"
+      ],
+      "short_names": [
+        "Qian Y",
+        "Jiang L",
+        "Ding Y",
+        "Tang J",
+        "Guo F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8346-0798"
+      ],
+      "affiliations": [
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, People's Republic of China.",
+        "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, 1068 Xueyuan Avenue, Shenzhen University Town, Shenzhen, People's Republic of China.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, People's Republic of China. wuxi_dyj@163.com.",
+        "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, 1068 Xueyuan Avenue, Shenzhen University Town, Shenzhen, People's Republic of China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, People's Republic of China. guofeieileen@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qian, Yuqing",
+        "short_name": "Qian Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Limin",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, 1068 Xueyuan Avenue, Shenzhen University Town, Shenzhen, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, People's Republic of China. wuxi_dyj@163.com."
+        ]
+      },
+      {
+        "full_name": "Tang, Jijun",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, 1068 Xueyuan Avenue, Shenzhen University Town, Shenzhen, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Guo, Fei",
+        "short_name": "Guo F",
+        "identifiers": [
+          "0000-0001-8346-0798"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, People's Republic of China. guofeieileen@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2021 May 31",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/02 06:00",
+    "fetched_at": "2026-09-27 18:33:14"
+  },
+  "links": {
+    "cites": [
+      "40185915",
+      "38798699",
+      "35465187"
+    ],
+    "refs": [
+      "32407508",
+      "31751248",
+      "31510919",
+      "31454964",
+      "31369383",
+      "31199265",
+      "31027046",
+      "31022173",
+      "30968771",
+      "30697228",
+      "30619454",
+      "30598109",
+      "30507518",
+      "30452958",
+      "30425123",
+      "30316822",
+      "30239627",
+      "30071697",
+      "29753757",
+      "29490018",
+      "29420699",
+      "29182548",
+      "29125297",
+      "28961273",
+      "28813000",
+      "28594838",
+      "27677692",
+      "27490858",
+      "26482832",
+      "25958395",
+      "25708928",
+      "25474679",
+      "25428375",
+      "25184541",
+      "24475169",
+      "21993538",
+      "21935457",
+      "20855926",
+      "20089514",
+      "19631664",
+      "19385697",
+      "18042272",
+      "17586467",
+      "16284202",
+      "16274699",
+      "15312763",
+      "12758155",
+      "11043931",
+      "9254694"
+    ],
+    "similar": [
+      "34058979",
+      "35731758",
+      "31454964",
+      "37060772",
+      "35334314",
+      "34743286",
+      "28961273",
+      "36087888",
+      "32775434",
+      "38808999",
+      "32144887",
+      "37501482",
+      "30957840",
+      "37852788",
+      "32352006",
+      "28841194",
+      "28254078",
+      "25893896",
+      "28541376",
+      "29753757",
+      "29949993",
+      "30565313",
+      "28293256",
+      "35154264",
+      "25409550",
+      "33476047",
+      "24475169",
+      "31123959",
+      "30598073",
+      "30071697",
+      "30478811",
+      "29097781",
+      "28247893",
+      "28937647",
+      "31137231",
+      "32717179",
+      "27411307",
+      "29297359",
+      "33774670",
+      "32873824",
+      "29264792",
+      "27740495",
+      "29297354",
+      "35933348",
+      "32163111",
+      "24151525",
+      "37335511",
+      "34445663",
+      "35855801",
+      "30032609",
+      "26192325",
+      "30943723",
+      "34912382",
+      "28682387",
+      "30939415",
+      "35922751",
+      "31062114",
+      "34291709",
+      "34178926",
+      "30668479",
+      "31998772",
+      "29504897",
+      "35844227",
+      "26829605",
+      "34372777",
+      "30360705",
+      "27552763",
+      "24459452",
+      "36527769",
+      "29226857",
+      "31147687",
+      "36226242",
+      "26079845",
+      "29685173",
+      "37459792",
+      "35342074",
+      "33810176",
+      "19542571",
+      "27490858",
+      "35242211",
+      "24278248",
+      "34727887",
+      "29223012",
+      "32910169",
+      "33763416",
+      "28646763",
+      "32300371",
+      "31267738",
+      "37437362",
+      "30419784",
+      "35134117",
+      "25036334",
+      "36044786",
+      "34418678",
+      "30239627",
+      "25061837",
+      "30346607",
+      "28982128",
+      "22347783"
+    ],
+    "review": [
+      "34058979",
+      "35154264"
+    ],
+    "pmc": [
+      "8167993"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03875-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34058979/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34058979",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35041641",
+  "title": "Controlling gene expression timing through gene regulatory architecture.",
+  "authors": "Ali, Md Zulfikar; Brewster, Robert C",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-01-19",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过随机模拟研究基因调控架构中结合亲和力与网络大小对表达时序的影响，虽涉及TF-DNA结合亲和力，但缺乏AI或物理模拟方法，且未聚焦三维互作建模，属于广义蛋白-DNA互作相关但深度不足。",
+  "abstract": "Gene networks typically involve the regulatory control of multiple genes with related function. This connectivity enables correlated control of the levels and timing of gene expression. Here we study how gene expression timing in the single-input module motif can be encoded in the regulatory DNA of a gene. Using stochastic simulations, we examine the role of binding affinity, TF regulatory function and network size in controlling the mean first-passage time to reach a fixed fraction of steady-state expression for both an auto-regulated TF gene and a target gene. We also examine how the variability in first-passage time depends on these factors. We find that both network size and binding affinity can dramatically speed up or slow down the response time of network genes, in some cases predicting more than a 100-fold change compared to that for a constitutive gene. Furthermore, these factors can also significantly impact the fidelity of this response. Importantly, these effects do not occur at \"extremes\" of network size or binding affinity, but rather in an intermediate window of either quantity.",
+  "abstract_zh": "基因网络通常涉及对功能相关多个基因的调控控制。这种连接性使得基因表达水平和时序的相关控制成为可能。在此，我们研究单输入模块基序中基因表达时序如何编码在基因的调控DNA中。通过随机模拟，我们考察了结合亲和力、转录因子调控功能及网络大小在控制自调控TF基因和靶基因达到稳态表达固定比例的平均首达时间中的作用。我们还研究了首达时间的变异性如何依赖于这些因素。我们发现，网络大小和结合亲和力都能显著加速或减缓网络基因的响应时间，在某些情况下，与组成型基因相比，预测变化超过100倍。此外，这些因素还能显著影响该响应的保真度。重要的是，这些效应并非发生在网络大小或结合亲和力的“极端”条件下，而是出现在任一数量的中间窗口内。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35041641/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35041641/",
+  "paper_page_path": "papers/pubmed/35041641/index.html"
+}

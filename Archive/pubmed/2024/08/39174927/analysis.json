@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39174927",
+  "title": "TIANA: transcription factors cooperativity inference analysis with neural attention.",
+  "authors": "Li, Rick Z; Han, Claudia Z; Glass, Christopher K",
+  "journal": "BMC bioinformatics",
+  "published_date": "2024-08-23",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用注意力机制深度学习框架从远端序列共现基序推断转录因子协同性，虽涉及TF-DNA基序识别，但未聚焦三维互作建模或结合机制，方法可迁移至TF-DNA互作研究。",
+  "abstract": "BACKGROUND: Growing evidence suggests that distal regulatory elements are essential for cellular function and states. The sequences within these distal elements, especially motifs for transcription factor binding, provide critical information about the underlying regulatory programs. However, cooperativities between transcription factors that recognize these motifs are nonlinear and multiplexed, rendering traditional modeling methods insufficient to capture the underlying mechanisms. Recent development of attention mechanism, which exhibit superior performance in capturing dependencies across input sequences, makes them well-suited to uncover and decipher intricate dependencies between regulatory elements. RESULT: We present Transcription factors cooperativity Inference Analysis with Neural Attention (TIANA), a deep learning framework that focuses on interpretability. In this study, we demonstrated that TIANA could discover biologically relevant insights into co-occurring pairs of transcription factor motifs. Compared with existing tools, TIANA showed superior interpretability and robust performance in identifying putative transcription factor cooperativities from co-occurring motifs. CONCLUSION: Our results suggest that TIANA can be an effective tool to decipher transcription factor cooperativities from distal sequence data. TIANA can be accessed through: https://github.com/rzzli/TIANA .",
+  "abstract_zh": "背景：越来越多的证据表明，远端调控元件对细胞功能和状态至关重要。这些远端元件内的序列，尤其是转录因子结合的基序，提供了关于潜在调控程序的关键信息。然而，识别这些基序的转录因子之间的协同性是非线性和多重的，使得传统建模方法不足以捕捉其潜在机制。近年来，注意力机制的发展在捕捉输入序列间依赖性方面表现出优越性能，使其非常适合揭示和解读调控元件之间的复杂依赖性。结果：我们提出了转录因子协同性推断分析（TIANA），这是一个专注于可解释性的深度学习框架。在本研究中，我们证明了TIANA能够发现共现转录因子基序对的生物学相关见解。与现有工具相比，TIANA在从共现基序中识别推定转录因子协同性方面表现出优越的可解释性和稳健性能。结论：我们的结果表明，TIANA可以成为从远端序列数据中解读转录因子协同性的有效工具。TIANA可通过以下网址访问：https://github.com/rzzli/TIANA。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39174927/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39174927/",
+  "paper_page_path": "papers/pubmed/39174927/index.html"
+}

@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness based solely on the supplied text
+- **Shared manuscript claim summary** The authors identify CsTcS2 as a novel theacrine synthase in tea, demonstrate its catalytic role in converting caffeine to theacrine, and propose a regulatory module involving transcription factors CsTINY and CsWRKY33 that synergistically activate CsTcS2 expression to underpin theacrine biosynthesis.
+- **Visible evidence base** Results sections describing genome-wide screening, heterologous expression, transient silencing/overexpression, promoter analysis, Y1H, DLR, EMSA, Y2H, BiFC, LCA, Co-IP, and expression-trait correlations. Figures referenced include Figures 1–8 and Supplementary Figures S1–S12.
+- **Missing materials affecting confidence** Raw data, statistical outputs, full figure panels, chromatograms, mass spectra, gel images, and detailed experimental replicates are not available. The manuscript text alone does not permit independent verification of quantitative results or quality of biochemical evidence.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in tea specialized metabolism, namely the transcriptional regulation of theacrine biosynthesis. The identification of CsTcS2 as a functional theacrine synthase and the proposed CsTINY-CsWRKY33 regulatory module are potentially significant contributions. However, several technical concerns, particularly regarding the strength of the biochemical evidence, the specificity of the regulatory interactions, and the generalizability of the proposed model, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in plant specialized metabolism, tea biology, transcription factor networks, and metabolic engineering. The work provides a potential target for breeding tea cultivars with enhanced theacrine content, which is of interest to the tea industry and functional food sector.
+- **Major strengths** The study combines multiple complementary approaches, including heterologous expression, transient assays in native and heterologous systems, protein-DNA interaction assays, and protein-protein interaction assays. The identification of a physically anchored theacrine synthase gene with a confirmed chromosomal position is a valuable advance. The proposed synergistic regulatory module is mechanistically plausible and supported by several lines of evidence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of biochemical evidence
+  - **Claim pointer** The claim that CsTcS2 is a functional theacrine synthase capable of converting caffeine to theacrine is central to the manuscript.
+  - **Evidence pointer** Figure 1a–g, Figure 2b–d, Supplementary Figures S2, S3
+  - **Concern** The evidence for the catalytic activity of CsTcS2 relies on HPLC and LC-MS detection of theacrine in transiently expressing tissues. However, the manuscript does not provide quantitative data, such as enzyme kinetic parameters for the conversion of caffeine to theacrine, or a direct comparison of substrate specificity. The reported Kcat and catalytic efficiency values are presented without error estimates or replicate information. Furthermore, the manuscript does not clarify whether the theacrine peak observed in tobacco leaves could arise from endogenous tobacco metabolism or from non-enzymatic conversion.
+  - **Why it matters** The central claim of the manuscript hinges on the unambiguous demonstration that CsTcS2 is a bona fide theacrine synthase. Without rigorous kinetic characterization, including substrate specificity and product identification by tandem mass spectrometry, the possibility of a promiscuous methyltransferase with incidental activity cannot be excluded.
+  - **Resolution test** Provide purified recombinant CsTcS2 protein and perform in vitro enzyme assays with caffeine, 1,3,7-trimethyluric acid, and related purine alkaloids as substrates. Include full kinetic parameters (Km, Kcat, Kcat/Km) with standard errors from at least three independent replicates. Confirm product identity by LC-MS/MS with authentic standards and include chromatograms showing baseline separation of substrates and products.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of transcription factor binding
+  - **Claim pointer** The claim that CsTINY and CsWRKY33 directly bind the CsTcS2 promoter at specific cis-elements (GTCGGC and AACTTTT, respectively) and activate transcription.
+  - **Evidence pointer** Figure 3g–h, Figure 5b–e, Supplementary Figure S9
+  - **Concern** The EMSA experiments demonstrate binding of CsTINY and CsWRKY33 to promoter fragments, but the manuscript does not provide evidence for the functional relevance of the specific motifs. Mutational analysis of the binding sites within the native promoter context is lacking. It is unclear whether mutation of the GTCGGC or AACTTTT motifs abolishes promoter activation in the DLR assay. Additionally, the manuscript does not address whether CsTINY and CsWRKY33 bind the promoter cooperatively or competitively.
+  - **Why it matters** Direct binding alone does not establish functional regulation. The proposed model requires that these specific motifs are necessary and sufficient for promoter activation. Without loss-of-function experiments at the promoter level, the physiological relevance of the observed binding remains correlative.
+  - **Resolution test** Perform DLR assays with promoter reporter constructs carrying point mutations in the GTCGGC and AACTTTT motifs, individually and in combination. Include chromatin immunoprecipitation (ChIP) or a comparable in planta binding assay to demonstrate occupancy of the endogenous CsTcS2 promoter by CsTINY and CsWRKY33. Provide competition EMSA experiments to test whether the two transcription factors bind independently or cooperatively.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal relationship between the regulatory module and theacrine accumulation
+  - **Claim pointer** The claim that the CsTINY-CsWRKY33 module underpins theacrine biosynthesis in tea, implying a causal relationship.
+  - **Evidence pointer** Figure 7a–g, Supplementary Figures S6, S7, S11
+  - **Concern** The manuscript relies on AsODN-mediated silencing and transient overexpression to establish the functional role of CsTINY and CsWRKY33. However, the specificity of AsODN silencing is not demonstrated. Off-target effects are not addressed. The magnitude of silencing and overexpression is not quantified at the protein level. The correlation between CsTINY, CsWRKY33, and CsTcS2 expression with theacrine content is presented, but the manuscript does not establish whether the observed effects are specific to the theacrine pathway or reflect general metabolic perturbations.
+  - **Why it matters** The proposed regulatory module is the main conceptual advance of the manuscript. Establishing causality requires demonstrating that modulation of CsTINY and CsWRKY33 specifically affects theacrine biosynthesis without confounding effects on other pathways. The current evidence is suggestive but not conclusive.
+  - **Resolution test** Provide data on the specificity of AsODN silencing, including assessment of off-target transcript changes by RNA-seq or a targeted panel of related methyltransferases. Quantify protein levels of CsTINY and CsWRKY33 after silencing and overexpression. Include a time-course experiment showing that changes in transcription factor expression precede changes in CsTcS2 transcript and theacrine accumulation. Consider stable genetic manipulation, such as CRISPR-based knockout or overexpression in a suitable tea system, to strengthen the causal claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the regulatory model
+  - **Claim pointer** The claim that the CsTINY-CsWRKY33-CsTcS2 module controls theacrine biosynthesis in tea, with implications for breeding.
+  - **Evidence pointer** Figure 7d–e, Supplementary Figure S11
+  - **Concern** The manuscript focuses on a limited number of cultivars, primarily KC3 and a few others. The correlation between CsTINY, CsWRKY33, and CsTcS2 expression with theacrine content is based on a small sample set. The manuscript does not address whether this regulatory module operates across diverse tea germplasms, including those with varying theacrine levels. The observation that CsWRKY33 expression is relatively high in some non-Kucha cultivars without corresponding theacrine accumulation suggests that the model may not be universally applicable.
+  - **Why it matters** The breeding implications of this work depend on the generalizability of the regulatory mechanism. If the module is cultivar-specific or context-dependent, the utility for marker-assisted selection or genetic improvement is limited.
+  - **Resolution test** Expand the expression and correlation analysis to a larger panel of tea germplasms, including multiple Kucha accessions and non-Kucha cultivars with varying theacrine levels. Include a discussion of the conditions under which the module is active or inactive. If possible, test the effect of environmental or developmental factors on module activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Transient expression in tea plants
+  - **Evidence pointer** Methods section, "Transient Expression in Tea Plant"
+  - **Issue** The description of transient expression in tea plants is brief. It is unclear how the fourth leaf was selected and whether the injection method was optimized for tea leaf tissue, which may have different infiltration properties compared to tobacco.
+  - **Required correction** Provide additional details on the infiltration protocol, including bacterial density, injection volume, incubation conditions, and validation of transformation efficiency. Include a reference to a previously established protocol for tea leaf infiltration if available.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative comparisons
+  - **Evidence pointer** Figures 2, 3, 5, 7
+  - **Issue** The manuscript states that data are presented as mean ± standard deviation and that pairwise comparisons used two-tailed t tests, but the number of biological replicates for each experiment is not consistently reported. The degrees of freedom and exact p-values are not provided.
+  - **Required correction** Clearly state the number of biological and technical replicates for each experiment in the figure legends. Report exact p-values or confidence intervals. For ANOVA, report F-statistics and degrees of freedom.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of correlation data
+  - **Affected element** Figure 2a, Figure 7d–e
+  - **Issue** The correlation between CsTcS2 expression and theacrine content is presented as supporting evidence, but the manuscript does not report the correlation coefficient or the statistical significance of the correlation. The tissue-specific correlation is based on a limited number of tissues.
+  - **Required correction** Report Pearson or Spearman correlation coefficients with p-values. Consider a more comprehensive tissue panel to strengthen the correlation analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative explanations
+  - **Affected element** Discussion section
+  - **Issue** The manuscript does not discuss the possibility that post-transcriptional or post-translational regulation may contribute to the observed differences in theacrine accumulation, despite acknowledging this possibility in the context of the KC2/XH comparison.
+  - **Required correction** Expand the discussion to consider alternative regulatory layers, such as mRNA stability, protein turnover, or allosteric regulation of CsTcS2 activity, and how these might interact with the proposed transcriptional module.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Not applicable
+  - **Issue** The manuscript text references figures but the figures themselves are not provided in the submitted material. It is not possible to assess the quality of the data presentation, the clarity of the chromatograms, or the statistical annotations on the graphs.
+  - **Required correction** Ensure that all figures are provided in a format that allows assessment of data quality. Include scale bars on chromatograms, error bars on all quantitative plots, and clear annotations of statistical significance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (biochemical evidence for CsTcS2 activity), R1-M2 (functional relevance of transcription factor binding sites), R1-M3 (causal relationship between the regulatory module and theacrine accumulation)
+- **Assessment against Nature-style criteria**
+  - **Originality** The identification of a novel theacrine synthase and its upstream transcriptional regulation is a novel contribution. The proposed CsTINY-CsWRKY33 cooperative module is a new concept in tea alkaloid metabolism. However, the general principle of transcription factor regulation of specialized metabolism is well established, and the novelty lies primarily in the specific system.
+  - **Scientific importance** The work has clear importance for understanding theacrine biosynthesis and for potential breeding applications. The regulatory module provides actionable targets for metabolic engineering. The importance is moderate to high within the field of plant specialized metabolism.
+  - **Interdisciplinary readership** The topic is of interest to plant biologists, biochemists, and researchers in tea science. The broader pharmacological and nutritional interest in theacrine may attract readers from those fields. However, the technical nature of the manuscript may limit its accessibility to a very broad interdisciplinary audience.
+  - **Technical soundness** The manuscript uses a wide range of techniques, which is commendable. However, the lack of quantitative enzyme kinetics, the absence of promoter mutation analysis, and the reliance on transient assays without stable genetic manipulation weaken the technical soundness of the central claims.
+  - **Readability for nonspecialists** The manuscript is generally well written and the logic is clear. However, the abstract and introduction assume familiarity with tea alkaloid metabolism and transcription factor terminology. The discussion could be more accessible with a brief explanation of the significance of the regulatory module for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible model, but the current evidence is not sufficient to fully establish the case. The authors should address the major concerns regarding enzyme characterization, promoter element functionality, and causal relationship before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that CsTcS2 exhibits higher catalytic capacity than CkTcS is based on a single comparison without error estimates or replicate information.
+- The claim that CsTINY and CsWRKY33 synergistically regulate CsTcS2 expression is supported by co-expression assays, but the mechanistic basis of the synergy is not explored.
+- The claim that the CsTcS2 promoter does not exhibit major structural variation across cultivars is based on a limited analysis of 129 accessions, but the manuscript does not provide details on the types of variation assessed.
+- The claim that the regulatory module is relevant for breeding tea cultivars with elevated theacrine levels is speculative and not directly tested.
+- The manuscript states that "none of the gene sequences currently available from tea plant genomes share greater than 97% identity with CkTcS," but this claim is based on the specific genomes queried and may not be generalizable to all tea germplasm.

@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "33765992",
+    "doi": "10.1186/s12915-020-00928-8",
+    "title": "The transcriptional trajectories of pluripotency and differentiation comprise genes with antithetical architecture and repetitive-element content."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Extensive molecular differences exist between proliferative and differentiated cells. Here, we conduct a meta-analysis of publicly available transcriptomic datasets from preimplantation and differentiation stages examining the architectural properties and content of genes whose abundance changes significantly across developmental time points. RESULTS: Analysis of preimplantation embryos from human and mouse showed that short genes whose introns are enriched in Alu (human) and B (mouse) elements, respectively, have higher abundance in the blastocyst compared to the zygote. These highly expressed genes encode ribosomal proteins or metabolic enzymes. On the other hand, long genes whose introns are depleted in repetitive elements have lower abundance in the blastocyst and include genes from signaling pathways. Additionally, the sequences of the genes that are differentially expressed between the blastocyst and the zygote contain distinct collections of pyknon motifs that differ between up- and down-regulated genes. Further examination of the genes that participate in the stem cell-specific protein interaction network shows that their introns are short and enriched in Alu (human) and B (mouse) elements. As organogenesis progresses, in both human and mouse, we find that the primarily short and repeat-rich expressed genes make way for primarily longer, repeat-poor genes. With that in mind, we used a machine learning-based approach to identify gene signatures able to classify human adult tissues: we find that the most discriminatory genes comprising these signatures have long introns that are repeat-poor and include transcription factors and signaling-cascade genes. The introns of widely expressed genes across human tissues, on the other hand, are short and repeat-rich, and coincide with those with the highest expression at the blastocyst stage. CONCLUSIONS: Protein-coding genes that are characteristic of each trajectory, i.e., proliferation/pluripotency or differentiation, exhibit antithetical biases in their intronic and exonic lengths and in their repetitive-element content. While the respective human and mouse gene signatures are functionally and evolutionarily conserved, their introns and exons are enriched or depleted in organism-specific repetitive elements. We posit that these organism-specific repetitive sequences found in exons and introns are used to effect the corresponding genes' regulation.",
+    "keywords": [
+      "Embryo development",
+      "Exon",
+      "Gene length",
+      "Genome architecture",
+      "Intron",
+      "Pyknons",
+      "Repetitive elements",
+      "Retrotransposons",
+      "Tissue specificity",
+      "Transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Blastocyst/cytology/metabolism",
+      "Cell Differentiation/*genetics",
+      "Gene Expression Regulation, Developmental",
+      "Humans",
+      "Mice",
+      "*Pluripotent Stem Cells",
+      "Repetitive Sequences, Nucleic Acid"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Telonis, Aristeidis G",
+        "Rigoutsos, Isidore"
+      ],
+      "short_names": [
+        "Telonis AG",
+        "Rigoutsos I"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1529-8631"
+      ],
+      "affiliations": [
+        "Computational Medicine Center, Sidney Kimmel College of Medicine, Thomas Jefferson University, 1020 Locust Street, Suite M81, Philadelphia, PA, 19107, USA. axt5207@med.miami.edu.",
+        "Department of Human Genetics, Miller School of Medicine, University of Miami, Miami, FL, 33136, USA. axt5207@med.miami.edu.",
+        "Computational Medicine Center, Sidney Kimmel College of Medicine, Thomas Jefferson University, 1020 Locust Street, Suite M81, Philadelphia, PA, 19107, USA. Isidore.Rigoutsos@jefferson.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Telonis, Aristeidis G",
+        "short_name": "Telonis AG",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Medicine Center, Sidney Kimmel College of Medicine, Thomas Jefferson University, 1020 Locust Street, Suite M81, Philadelphia, PA, 19107, USA. axt5207@med.miami.edu.",
+          "Department of Human Genetics, Miller School of Medicine, University of Miami, Miami, FL, 33136, USA. axt5207@med.miami.edu."
+        ]
+      },
+      {
+        "full_name": "Rigoutsos, Isidore",
+        "short_name": "Rigoutsos I",
+        "identifiers": [
+          "0000-0003-1529-8631"
+        ],
+        "affiliations": [
+          "Computational Medicine Center, Sidney Kimmel College of Medicine, Thomas Jefferson University, 1020 Locust Street, Suite M81, Philadelphia, PA, 19107, USA. Isidore.Rigoutsos@jefferson.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC biology"
+    ],
+    "journal_abbrev": [
+      "BMC Biol"
+    ],
+    "pub_date": "2021 Mar 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/27 06:00",
+    "fetched_at": "2026-09-27 15:00:49"
+  },
+  "links": {
+    "cites": [
+      "41481703",
+      "41250104",
+      "41077723",
+      "41073419",
+      "39997615",
+      "37311904",
+      "36316347"
+    ],
+    "refs": [
+      "31988194",
+      "31267708",
+      "31243369",
+      "30996049",
+      "30792737",
+      "30476274",
+      "30454069",
+      "30413530",
+      "30194260",
+      "29911069",
+      "29752351",
+      "29628141",
+      "29392473",
+      "29229607",
+      "29155950",
+      "29069589",
+      "28829942",
+      "28673892",
+      "28607484",
+      "28535802",
+      "28497172",
+      "28488700",
+      "28209295",
+      "28206648",
+      "28096211",
+      "27550903",
+      "27424783",
+      "27358863",
+      "27161170",
+      "27062923",
+      "27040497",
+      "26968808",
+      "26771021",
+      "26721685",
+      "26543668",
+      "26216945",
+      "25710723",
+      "25400101",
+      "25215487",
+      "25018785",
+      "25015383",
+      "24519983",
+      "24440719",
+      "24107992",
+      "23810203",
+      "23715323",
+      "23708189",
+      "23181609",
+      "22722858",
+      "22303365",
+      "22204421",
+      "22151910",
+      "21802130",
+      "21673742",
+      "21362639",
+      "21071396",
+      "20526341",
+      "20430792",
+      "20333206",
+      "20219939",
+      "20176473",
+      "20144771",
+      "20022248",
+      "20019790",
+      "19812547",
+      "19684600",
+      "19474294",
+      "19460998",
+      "18806776",
+      "18796579",
+      "18769727",
+      "18724358",
+      "18586348",
+      "18450818",
+      "18404147",
+      "18331713",
+      "17916804",
+      "17070957",
+      "17020921",
+      "16936306",
+      "16751093",
+      "16651366",
+      "16636294",
+      "16461636",
+      "15921050",
+      "15693628",
+      "15186483",
+      "14960456",
+      "12134150",
+      "11309499"
+    ],
+    "similar": [
+      "33765992",
+      "29746690",
+      "15108323",
+      "30576549",
+      "22697119",
+      "12490325",
+      "9049979",
+      "16781737",
+      "7789989",
+      "22288104",
+      "9604772",
+      "1765386",
+      "31450981",
+      "19036803",
+      "27809766",
+      "27241529",
+      "20601166",
+      "1646157",
+      "10555285",
+      "2467843",
+      "9111340",
+      "28347272",
+      "28537488",
+      "33609360",
+      "28621329",
+      "2271707",
+      "28355180",
+      "9704500",
+      "15994318",
+      "12890723",
+      "28859285",
+      "12787505",
+      "12787504",
+      "7723057",
+      "30239859",
+      "22962491",
+      "26293300",
+      "18585410",
+      "2115927",
+      "7959953",
+      "9649510",
+      "25999217",
+      "9110315",
+      "15666350",
+      "16740159",
+      "12706885",
+      "25342174",
+      "18450818",
+      "31151386",
+      "27130208",
+      "25340657",
+      "28231763",
+      "17204093",
+      "27495230",
+      "15736129",
+      "10051401",
+      "17386095",
+      "2541251",
+      "2064215",
+      "16037065",
+      "8188256",
+      "12915492",
+      "15656981",
+      "2160952",
+      "28157483",
+      "7959763",
+      "8392588",
+      "26546670",
+      "19178078",
+      "26208093",
+      "30033902",
+      "8634915",
+      "2271120",
+      "26969983",
+      "15859155",
+      "32527007",
+      "22127252",
+      "17181857",
+      "22317972",
+      "35205330",
+      "21985647",
+      "23717462",
+      "35864085",
+      "18492248",
+      "37652985",
+      "28562614",
+      "36876139"
+    ],
+    "review": [
+      "33765992",
+      "29746690",
+      "28537488",
+      "25999217",
+      "15666350",
+      "17204093",
+      "19178078",
+      "26969983",
+      "15859155"
+    ],
+    "pmc": [
+      "7995781"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-020-00928-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33765992/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33765992",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33765992",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

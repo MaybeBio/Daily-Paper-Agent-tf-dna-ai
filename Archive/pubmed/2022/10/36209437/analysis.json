@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36209437",
+  "title": "DeepLncPro: an interpretable convolutional neural network model for identifying long non-coding RNA promoters.",
+  "authors": "Zhang, Tianyang; Tang, Qiang; Nie, Fulei; Zhao, Qi; Chen, Wei",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-10-10",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 4,
+  "one_liner_zh": "用可解释CNN识别lncRNA启动子并提取转录因子结合基序，虽涉及TF结合基序但核心是启动子识别而非TF-DNA互作建模，方法可借鉴但对象与互作轴偏离。",
+  "abstract": "Long non-coding RNA (lncRNA) plays important roles in a series of biological processes. The transcription of lncRNA is regulated by its promoter. Hence, accurate identification of lncRNA promoter will be helpful to understand its regulatory mechanisms. Since experimental techniques remain time consuming for gnome-wide promoter identification, developing computational tools to identify promoters are necessary. However, only few computational methods have been proposed for lncRNA promoter prediction and their performances still have room to be improved. In the present work, a convolutional neural network based model, called DeepLncPro, was proposed to identify lncRNA promoters in human and mouse. Comparative results demonstrated that DeepLncPro was superior to both state-of-the-art machine learning methods and existing models for identifying lncRNA promoters. Furthermore, DeepLncPro has the ability to extract and analyze transcription factor binding motifs from lncRNAs, which made it become an interpretable model. These results indicate that the DeepLncPro can server as a powerful tool for identifying lncRNA promoters. An open-source tool for DeepLncPro was provided at https://github.com/zhangtian-yang/DeepLncPro.",
+  "abstract_zh": "长链非编码RNA（lncRNA）在一系列生物过程中扮演重要角色。其转录受启动子调控，因此准确识别lncRNA启动子有助于理解其调控机制。由于实验技术在全基因组启动子识别方面仍耗时，开发计算工具来识别启动子十分必要。然而，目前仅有少数计算方法被提出用于lncRNA启动子预测，且其性能仍有提升空间。本研究提出了一种基于卷积神经网络的模型，名为DeepLncPro，用于识别人类和小鼠中的lncRNA启动子。比较结果显示，DeepLncPro在识别lncRNA启动子方面优于最先进的机器学习方法和现有模型。此外，DeepLncPro能够从lncRNA中提取并分析转录因子结合基序，使其成为一个可解释的模型。这些结果表明，DeepLncPro可作为识别lncRNA启动子的有力工具。DeepLncPro的开源工具可在https://github.com/zhangtian-yang/DeepLncPro获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36209437/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36209437/",
+  "paper_page_path": "papers/pubmed/36209437/index.html"
+}

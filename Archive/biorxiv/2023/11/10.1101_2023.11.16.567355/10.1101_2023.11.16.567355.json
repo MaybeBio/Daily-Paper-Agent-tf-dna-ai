@@ -1,0 +1,579 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.16.567355",
+  "title": "PTFSpot: Deep co-learning on transcription factors and their binding regions attains impeccable universality in plants",
+  "doi": "10.1101/2023.11.16.567355",
+  "abstract": "Unlike animals, variability in transcription factors (TF) and their binding regions (TFBR) across the plants species is a major problem which most of the existing TFBR finding software fail to tackle, rendering them hardly of any use. This limitation has resulted into underdevelopment of plant regulatory research and rampant use of Arabidopsis like model species, generating misleading results. Here we report a revolutionary transformers based deep-learning approach, PTFSpot, which learns from TF structures and their binding regions co-variability to bring a universal TF-DNA interaction model to detect TFBR with complete freedom from TF and species specific models’ limitations. During a series of extensive benchmarking studies over multiple experimentally validated data, it not only outperformed the existing software by >30% lead, but also delivered consistently >90% accuracy even for those species and TF families which were never encountered during model building process. PTFSpot makes it possible now to accurately annotate TFBRs across any plant genome even in the total lack of any TF information, completely free from the bottlenecks of species and TF specific models.",
+  "authors": [
+    "Sagar Gupta",
+    "Veerbhan Kesarwani",
+    "Umesh Bhati",
+    "Jyoti",
+    "Ravi Shankar"
+  ],
+  "published_date": "2023-11-20",
+  "updated_date": "2023-11-20T10:35:27Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.16.567355",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.16.567355.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:29:15Z",
+        "timestamp": 1768508955223,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 55,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Unlike animals, variability in transcription factors (TF) and their binding regions (TFBR) across the plants species is a major problem which most of the existing TFBR finding software fail to tackle, rendering them hardly of any use. This limitation has resulted into underdevelopment of plant regulatory research and rampant use of\n                  <jats:italic>Arabidopsis</jats:italic>\n                  like model species, generating misleading results. Here we report a revolutionary transformers based deep-learning approach, PTFSpot, which learns from TF structures and their binding regions co-variability to bring a universal TF-DNA interaction model to detect TFBR with complete freedom from TF and species specific models’ limitations. During a series of extensive benchmarking studies over multiple experimentally validated data, it not only outperformed the existing software by &gt;30% lead, but also delivered consistently &gt;90% accuracy even for those species and TF families which were never encountered during model building process. PTFSpot makes it possible now to accurately annotate TFBRs across any plant genome even in the total lack of any TF information, completely free from the bottlenecks of species and TF specific models.\n                </jats:p>",
+      "DOI": "10.1101/2023.11.16.567355",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2023-11-20T10:35:27Z",
+        "timestamp": 1700476527000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "PTFSpot: Deep co-learning on transcription factors and their binding regions attains impeccable universality in plants"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Sagar",
+          "family": "Gupta",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Veerbhan",
+          "family": "Kesarwani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Umesh",
+          "family": "Bhati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Jyoti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ravi",
+          "family": "Shankar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.1",
+          "first-page": "245",
+          "article-title": "Protein Binding Microarrays (PBMs) for the Rapid, High-Throughput Characterization of the Sequence Specificities of DNA Binding Proteins",
+          "volume": "338",
+          "year": "2006",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.11.013"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1659",
+          "DOI": "10.1038/nprot.2017.055",
+          "article-title": "Mapping genome-wide transcription factor binding sites using DAP-seq",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "Nat Protoc"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbw023"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003711",
+          "DOI": "10.1371/journal.pcbi.1003711",
+          "article-title": "Enhanced Regulatory Sequence Prediction Using Gapped k-mer Features",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12038-014-9437-9"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-018-33321-1"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12870-019-1693-2"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz672"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz339"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "8484",
+          "DOI": "10.1038/s41598-019-44966-x",
+          "article-title": "Modeling in-vivo protein-DNA binding by combining multiple-instance learning with a hybrid deep neural network",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab101",
+          "DOI": "10.1093/bib/bbab101",
+          "article-title": "SAResNet: self-attention residual network for predicting DNA-protein binding",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Brief Bioinform"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1038/s42256-020-00282-y",
+          "article-title": "Deep neural networks identify sequence context features predictive of transcription factor binding",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Nat Mach Intell"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1301",
+          "DOI": "10.1016/j.tplants.2021.06.016",
+          "article-title": "Deep learning-based prediction of TFBSs in plants",
+          "volume": "26",
+          "year": "2021",
+          "journal-title": "Trends in Plant Science"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "260",
+          "DOI": "10.1093/bioinformatics/btaa1100",
+          "article-title": "TSPTFBS: a Docker image for trans-species prediction of transcription factor binding sites in plants",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "2112",
+          "DOI": "10.1093/bioinformatics/btab083",
+          "article-title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1457",
+          "DOI": "10.1093/pcp/pcac095",
+          "article-title": "Exploiting Genomic Features to Improve the Prediction of Transcription Factor-Binding Sites in Plants",
+          "volume": "63",
+          "year": "2022",
+          "journal-title": "Plant Cell Physiol"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbac425",
+          "DOI": "10.1093/bib/bbac425",
+          "article-title": "PlantBind: an attention-based multi-label neural network for predicting plant transcription factor binding sites",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1175837",
+          "DOI": "10.3389/fpls.2023.1175837",
+          "article-title": "TSPTFBS 2.0: trans-species prediction of transcription factor binding sites and identification of their core motifs in plants",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Front Plant Sci"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt437"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.226530.117"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-26819-2"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "540",
+          "DOI": "10.1038/s41467-019-14217-8",
+          "article-title": "Eukaryotic transcription factors can track and control their target genes using DNA antennas",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2020.03.003"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "77",
+          "DOI": "10.1186/s12862-019-1398-z",
+          "article-title": "Expression and regulatory asymmetry of retained Arabidopsis thaliana transcription factor genes derived from whole genome duplication",
+          "volume": "19",
+          "year": "2019",
+          "journal-title": "BMC Evolutionary Biology"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/aob/mci008"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13386-w"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.105.065110"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0411-1"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/j.bbagrm.2016.08.005",
+          "article-title": "Diversity, expansion, and evolutionary novelty of plant DNA-binding transcription factor families",
+          "volume": "1860",
+          "year": "2017",
+          "journal-title": "Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "D1155",
+          "DOI": "10.1093/nar/gky1081",
+          "article-title": "PlantPAN3.0: a new and updated resource for reconstructing transcriptional regulatory networks from ChIP-seq experiments in plants",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.038"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa516"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw982"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "103381",
+          "DOI": "10.1016/j.isci.2021.103381",
+          "article-title": "RBPSpot: Learning on appropriate contextual information for RBP binding sites discovery",
+          "volume": "24",
+          "year": "2021",
+          "journal-title": "iScience"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12038-010-0013-7"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "3413",
+          "DOI": "10.1038/s41467-022-30770-1",
+          "article-title": "ChIP-Hub provides an integrative platform for exploring plant regulome",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa383"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.42",
+          "unstructured": "Vaswani A , Shazeer N , Parmar N , et al. Attention is All you Need. Advances in Neural Information Processing Systems 2017; 30:"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.43",
+          "unstructured": "Kingma DP , Ba J. Adam: A Method for Stochastic Optimization. 2017;"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22002"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang G , Liu Z , van der Maaten L , et al. Densely Connected Convolutional Networks. 2018;",
+          "DOI": "10.1109/CVPR.2017.243"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-019-6413-7"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms13784"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1057"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt448"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1621150114"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.690101"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jyoti, Ritu , Gupta S , Shankar R. Comprehensive evaluation of plant transcription factors binding sites discovery tools. 2023; 2023.11.07.566153",
+          "DOI": "10.1101/2023.11.07.566153"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.275658.121"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms9822"
+        },
+        {
+          "key": "2024062219100564000_2023.11.16.567355v4.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/mp/ssr103"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.16.567355",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:33:21Z",
+        "timestamp": 1768455201000
+      },
+      "score": 101.18744,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.16.567355"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            20
+          ]
+        ]
+      },
+      "references-count": 55,
+      "URL": "https://doi.org/10.1101/2023.11.16.567355",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbae324",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

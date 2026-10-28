@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "40197202",
+    "doi": "10.2174/0109298673352470250312082922",
+    "title": "Development of Potential Pharmacological Targets to Normalize Gene Expression in Islets of Type 2 Diabetic Patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Type 2 diabetes (T2D) is a disease of high prevalence that is expected to continue increasing despite the pharmacological treatments available; in most cases, it is difficult to control. Therefore, more research on experimental drugs is necessary to propose better treatments. OBJECTIVE: This study aimed to identify the molecular alterations of pancreatic islets in type 2 diabetes through multi-omics data integration and possible pharmacological targets using bioinformatics methods. METHODS: In this study, the OmicsNet tool was used to integrate the multi-omics data associated with T2D, and the protein-protein interaction was visualized. Then, gene ontology and KEGG pathways analyses were carried out. Using the DrugRep server, the hub genes obtained underwent a virtual screening with experimental drugs, and twelve experimental drugs were selected to execute the molecular docking by CB-Dock2. Finally, the interactions were displayed in BIOVIA software. RESULTS: Our results showed that the main molecular alterations of pancreatic islets in T2D were enzyme binding, mitochondrial metabolism, transcription factors, etc. They were involved in glucose uptake, receptor insulin signaling, and secretion. The molecular docking showed that SRC, AKT1, CREBBP, and HSP90AA1 were therapeutic targets for DB02729, DB04877, DB07970, DB07789, and DB03373. CONCLUSION: We identified some alterations in the pancreas of patients with T2D, ten hub genes, and five experimental drugs that could potentially correct gene expression abnormalities. However, further studies are required to validate these results.",
+    "keywords": [
+      "Type 2 diabetes",
+      "bioinformatics",
+      "experimental drugs",
+      "multi-omics",
+      "pancreas",
+      "pharmacology"
+    ],
+    "mesh_terms": [
+      "*Diabetes Mellitus, Type 2/drug therapy/metabolism/genetics",
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Islets of Langerhans/metabolism/drug effects",
+      "*Hypoglycemic Agents/chemistry/pharmacology/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Basaldua-Maciel, Viridiana",
+        "Martinez-Esquivias, Fernando",
+        "Guzman-Flores, Juan Manuel"
+      ],
+      "short_names": [
+        "Basaldua-Maciel V",
+        "Martinez-Esquivias F",
+        "Guzman-Flores JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4673-112X"
+      ],
+      "affiliations": [
+        "Doctorado en Biociencias, Centro Universitario de Los Altos, Universidad de Guadalajara, Tepatitlan de Morelos, Jalisco, Mexico.",
+        "Departamento de Ciencias Pecuarias y Agricolas, Centro Universitario de Los Alto, Universidad de Guadalajara, Tepatitlan de Morelos, Jalisco, Mexico.",
+        "Division de Ciencias Biomedicas, Departamento de Ciencias de la Salud, Centro Universitario de los Altos, Universidad de Guadalajara, Tepatitlan de Morelos, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Basaldua-Maciel, Viridiana",
+        "short_name": "Basaldua-Maciel V",
+        "identifiers": [],
+        "affiliations": [
+          "Doctorado en Biociencias, Centro Universitario de Los Altos, Universidad de Guadalajara, Tepatitlán de Morelos, Jalisco, México."
+        ]
+      },
+      {
+        "full_name": "Martinez-Esquivias, Fernando",
+        "short_name": "Martinez-Esquivias F",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencias Pecuarias y Agricolas, Centro Universitario de Los Alto, Universidad de Guadalajara, Tepatitlán de Morelos, Jalisco, México."
+        ]
+      },
+      {
+        "full_name": "Guzman-Flores, Juan Manuel",
+        "short_name": "Guzman-Flores JM",
+        "identifiers": [
+          "0000-0002-4673-112X"
+        ],
+        "affiliations": [
+          "División de Ciencias Biomédicas, Departamento de Ciencias de la Salud, Centro Universitario de los Altos, Universidad de Guadalajara, Tepatitlán de Morelos, México."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Curr Med Chem"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/08 13:55",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "42227537"
+    ],
+    "refs": [
+      "38386876",
+      "38096208",
+      "37933859",
+      "37933855",
+      "37569434",
+      "37152942",
+      "37119971",
+      "36507649",
+      "36382190",
+      "36305812",
+      "36216900",
+      "36198307",
+      "36169237",
+      "35609983",
+      "35432196",
+      "35293603",
+      "35136059",
+      "35066003",
+      "34979329",
+      "34813860",
+      "34491912",
+      "34299638",
+      "33535949",
+      "33457179",
+      "33398164",
+      "33178196",
+      "32789511",
+      "32398822",
+      "32135239",
+      "31930034",
+      "31846372",
+      "31707038",
+      "31680165",
+      "31383865",
+      "31171772",
+      "31142858",
+      "30630689",
+      "30290242",
+      "29878180",
+      "29862292",
+      "29852800",
+      "29622564",
+      "29535016",
+      "29412061",
+      "29274684",
+      "29217654",
+      "28530546",
+      "28507210",
+      "27899610",
+      "27526875",
+      "27042268",
+      "26154585",
+      "25771874",
+      "25682938",
+      "25579745",
+      "23985870",
+      "23023125",
+      "23012647",
+      "22976756",
+      "22424236",
+      "21839765",
+      "20660050",
+      "20580039",
+      "20061534",
+      "19577003",
+      "19336687",
+      "16908541",
+      "16597920",
+      "16273216",
+      "15561905",
+      "12606524",
+      "12502499",
+      "11756323",
+      "9871711",
+      "9790666"
+    ],
+    "similar": [
+      "40197202",
+      "39949090",
+      "40449695",
+      "39949091",
+      "42653779",
+      "39534794",
+      "42202914",
+      "21775499",
+      "25401107",
+      "41630209",
+      "39177139",
+      "36339449",
+      "34688145",
+      "41932194",
+      "37287284",
+      "41125012",
+      "33771638",
+      "36828194",
+      "39195477",
+      "38704482",
+      "41656807",
+      "36049411",
+      "34560213",
+      "39501873",
+      "41492010",
+      "40194640",
+      "41655545",
+      "41150817",
+      "36656641",
+      "35188462",
+      "39374878",
+      "36527108",
+      "41974236",
+      "39300905",
+      "42421348",
+      "33902539",
+      "35151646",
+      "40025145",
+      "41155161",
+      "35802167",
+      "37244150",
+      "41063246",
+      "16324918",
+      "41431016",
+      "42323059",
+      "41533020",
+      "39433858",
+      "18270681",
+      "42109727",
+      "24953961",
+      "33957209",
+      "39539006",
+      "40508014",
+      "38967666",
+      "25408296",
+      "41483318",
+      "40696679",
+      "38648716",
+      "34326021",
+      "36874926",
+      "32500584",
+      "37986298",
+      "39217825",
+      "40728954",
+      "37942992",
+      "38759074",
+      "40873177",
+      "32928080",
+      "35957810",
+      "33071211",
+      "40916281",
+      "39410900",
+      "39176085",
+      "41163273",
+      "38232799",
+      "41326554",
+      "38638040",
+      "40058577",
+      "30088095",
+      "39844653",
+      "24666736",
+      "24559919",
+      "27796421",
+      "38086799",
+      "39118533",
+      "23308243",
+      "30037028",
+      "34753799",
+      "34400887",
+      "39723533",
+      "36248223",
+      "39074420",
+      "38918439",
+      "19065603",
+      "41996611",
+      "29726577",
+      "38326874",
+      "27935966",
+      "20937249",
+      "25379510"
+    ],
+    "review": [
+      "40197202",
+      "32500584"
+    ],
+    "pmc": [
+      "13555843"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40197202/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/240777/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

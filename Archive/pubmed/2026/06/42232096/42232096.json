@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "42232096",
+    "doi": "10.2147/DDDT.S607142",
+    "title": "Astragaloside IV Alleviates Lupus Nephritis by Inhibiting Podocyte Ferroptosis via the PI3K/AKT/Nrf2 Pathway."
+  },
+  "content": {
+    "abstract": "PURPOSE: Lupus nephritis (LN) is an immune complex-mediated glomerulonephritis caused by systemic lupus erythematosus (SLE) involving the kidneys. Astragaloside IV (AS-IV) is the main active ingredient of the traditional Chinese medicine Astragalus membranaceus, belonging to the cycloartane-type triterpenoid saponins, and has anti-inflammatory and antioxidant pharmacological effects. This study mainly explores the therapeutic potential and molecular mechanism of AS-IV for LN. METHODS: Using MRL/lpr mice as an in vivo model, the effects of AS-IV on the histopathology and ultrastructure of renal tissues were evaluated by histopathological staining and transmission electron microscopy (TEM). Immunofluorescence and biochemical kits were used to assess the changes in renal damage indicators. Network pharmacology and molecular docking were employed to reveal the molecular targets of AS-IV in the intervention of lupus nephritis (LN). In vitro, a puromycin aminonucleoside (PAN)-induced ferroptosis model of MPC-5 cells was established to evaluate the effects of AS-IV on ferroptosis and the PI3K/AKT/Nrf2 pathway in MPC-5 cells, and further verification was carried out through rescue experiments. RESULTS: AS-IV can improve the renal histopathology of MRL/lpr mice, reduce the glomerular score, perivascular wall score, foot process fusion rate, and electron-dense deposit density, and decrease the levels of 24hPRO, UTPCR, and UACR, showing a certain protective effect on the kidneys. Meanwhile, AS-IV can upregulate the damage-related proteins in MPC-5 cells, increase the levels of factors related to the PI3K/AKT/Nrf2 pathway, GPX4, SLC7A11, DHODH, FSP1, GSH, and SOD in MPC-5 cells, and reduce the levels of Fe(2+), MDA, and ROS. Rescue experiments showed that knockdown of PI3K can reverse the inhibitory effect of AS-IV on ferroptosis in MPC-5 cells. CONCLUSION: AS-IV can inhibit podocyte ferroptosis by regulating the PI3K/AKT/Nrf2 axis, reduce the degree of kidney damage, and thus relieve LN. This also indicates that AS-IV has certain therapeutic potential in the treatment of LN.",
+    "keywords": [
+      "Astragaloside IV",
+      "ferroptosis",
+      "lupus nephritis",
+      "podocytes",
+      "renal damage"
+    ],
+    "mesh_terms": [
+      "*Lupus Nephritis/drug therapy/metabolism/pathology",
+      "*Triterpenes/pharmacology/administration & dosage/chemistry",
+      "Animals",
+      "*Saponins/pharmacology/administration & dosage/chemistry",
+      "*Ferroptosis/drug effects",
+      "*Podocytes/drug effects/metabolism/pathology",
+      "Proto-Oncogene Proteins c-akt/metabolism/antagonists & inhibitors",
+      "Mice",
+      "NF-E2-Related Factor 2/metabolism/antagonists & inhibitors",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Female",
+      "Mice, Inbred MRL lpr",
+      "Signal Transduction/drug effects",
+      "Cells, Cultured",
+      "Disease Models, Animal",
+      "Molecular Docking Simulation",
+      "Dose-Response Relationship, Drug",
+      "Structure-Activity Relationship",
+      "Molecular Structure"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Zhongfu",
+        "Cheng, Lili",
+        "Li, Ming",
+        "Huang, Chuanbing"
+      ],
+      "short_names": [
+        "Tang Z",
+        "Cheng L",
+        "Li M",
+        "Huang C"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-0890-625X",
+        "ORCID: 0000-0001-8882-6613"
+      ],
+      "affiliations": [
+        "Department of Rheumatology, The First Affiliated Hospital of Anhui University of Traditional Chinese Medicine, Hefei, People's Republic of China.",
+        "Department of Rheumatology, The First Affiliated Hospital of Anhui University of Traditional Chinese Medicine, Hefei, People's Republic of China.",
+        "Department of Rheumatology, The First Affiliated Hospital of Anhui University of Traditional Chinese Medicine, Hefei, People's Republic of China.",
+        "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, People's Republic of China.",
+        "Department of Rheumatology, The First Affiliated Hospital of Anhui University of Traditional Chinese Medicine, Hefei, People's Republic of China.",
+        "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Zhongfu",
+        "short_name": "Tang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, The First Affiliated Hospital of Anhui University of Traditional Chinese Medicine, Hefei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Lili",
+        "short_name": "Cheng L",
+        "identifiers": [
+          "0009-0008-0890-625X"
+        ],
+        "affiliations": [
+          "Department of Rheumatology, The First Affiliated Hospital of Anhui University of Traditional Chinese Medicine, Hefei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Ming",
+        "short_name": "Li M",
+        "identifiers": [
+          "0000-0001-8882-6613"
+        ],
+        "affiliations": [
+          "Department of Rheumatology, The First Affiliated Hospital of Anhui University of Traditional Chinese Medicine, Hefei, People's Republic of China.",
+          "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Chuanbing",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, The First Affiliated Hospital of Anhui University of Traditional Chinese Medicine, Hefei, People's Republic of China.",
+          "Key Laboratory of Xin'an Medicine, Ministry of Education, Anhui University of Chinese Medicine, Hefei, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/03 06:35",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41719441",
+      "41594240",
+      "41428217",
+      "41362412",
+      "41082318",
+      "41058946",
+      "40959280",
+      "40906557",
+      "40222690",
+      "40185533",
+      "40178511",
+      "40147265",
+      "39733792",
+      "39601768",
+      "39521057",
+      "39501302",
+      "39500879",
+      "39247828",
+      "39217653",
+      "39201721",
+      "39082470",
+      "38901196",
+      "38503139",
+      "38449312",
+      "38395890",
+      "38387504",
+      "38359744",
+      "37875838",
+      "37751175",
+      "37630371",
+      "37487609",
+      "37324946",
+      "37295188",
+      "37272058",
+      "36938748",
+      "36652731",
+      "36227575",
+      "36076550",
+      "35370757",
+      "34601771",
+      "33676929",
+      "33313063",
+      "33241887",
+      "32516862",
+      "31680165",
+      "31106366",
+      "30944313",
+      "30445645",
+      "28472422"
+    ],
+    "similar": [
+      "42232096",
+      "40147265",
+      "41058946",
+      "40186900",
+      "40222690",
+      "41690038",
+      "40066086",
+      "38943968",
+      "40543693",
+      "40865655",
+      "41207347",
+      "39427918",
+      "39053932",
+      "41130616",
+      "38085465",
+      "42045029",
+      "40687900",
+      "36076550",
+      "30867343",
+      "38689349",
+      "40412057",
+      "36115280",
+      "40378934",
+      "33039957",
+      "41466499",
+      "40975639",
+      "35091012",
+      "39805761",
+      "41344272",
+      "39041134",
+      "37602503",
+      "41271211",
+      "39500879",
+      "42015268",
+      "39038503",
+      "38186000",
+      "41365194",
+      "33204708",
+      "38798265",
+      "41895092",
+      "41775494",
+      "39608815",
+      "42456909",
+      "41285231",
+      "40917026",
+      "39549229",
+      "40010556",
+      "39938168",
+      "32726508",
+      "39405902",
+      "39241387",
+      "42543339",
+      "39708935",
+      "35051603",
+      "39601768",
+      "29446059",
+      "40565270",
+      "40492666",
+      "42367005",
+      "31023362",
+      "42533461",
+      "34763039",
+      "40522420",
+      "33241887",
+      "41224967",
+      "40170790",
+      "40344847",
+      "42004947",
+      "41126001",
+      "30146016",
+      "40528637",
+      "41325790",
+      "41344517",
+      "38687744",
+      "38858642",
+      "35926779",
+      "42392778",
+      "38972525",
+      "41208960",
+      "40045169",
+      "38270299",
+      "39915557",
+      "30791224",
+      "41243826",
+      "31887543",
+      "40962010",
+      "40414576",
+      "40780476",
+      "38810552",
+      "41042716",
+      "40840732",
+      "26161538",
+      "41619865",
+      "40403934",
+      "38520834",
+      "40395438",
+      "41199365",
+      "38816543",
+      "33476631",
+      "41106096"
+    ],
+    "review": [
+      "42232096",
+      "36115280"
+    ],
+    "pmc": [
+      "13225287"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42232096/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S607142",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

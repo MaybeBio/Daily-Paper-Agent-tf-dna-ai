@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36083825",
+  "title": "Toward Accurate Coarse-Grained Simulations of Disordered Proteins and Their Dynamic Interactions.",
+  "authors": "Zhang, Yumeng; Liu, Xiaorong; Chen, Jianhan",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发粗粒化模型HyRes II模拟无序蛋白及其动态互作，虽涉及p53 TAD与DNA结合域互作，但对象为蛋白-蛋白而非TF-DNA，方法可迁移至蛋白-DNA体系，故给6分。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play crucial roles in cellular regulatory networks and are now recognized to often remain highly dynamic even in specific interactions and assemblies. Accurate description of these dynamic interactions is extremely challenging using atomistic simulations because of the prohibitive computational cost. Efficient coarse-grained approaches could offer an effective solution to overcome this bottleneck if they could provide an accurate description of key local and global properties of IDPs in both unbound and bound states. The recently developed hybrid-resolution (HyRes) protein model has been shown to be capable of providing a semiquantitative description of the secondary structure propensities of IDPs. Here, we show that greatly improved description of global structures and transient interactions can be achieved by introducing a solvent-accessible surface area-based implicit solvent term followed by reoptimization of effective interaction strengths. The new model, termed HyRes II, can semiquantitatively reproduce a wide range of local and global structural properties of a set of IDPs of various lengths and complexities. It can also distinguish the level of compaction between folded proteins and IDPs. In particular, applied to the disordered N-terminal transactivation domain (TAD) of tumor suppressor p53, HyRes II is able to recapitulate various nontrivial structural properties compared to experimental results, some of them to a level of accuracy that is almost comparable to results from atomistic explicit solvent simulations. Furthermore, we demonstrate that HyRes II can be used to simulate the dynamic interactions of TAD with the DNA-binding domain of p53, generating structural ensembles that are highly consistent with existing NMR data. We anticipate that HyRes II will provide an efficient and relatively reliable tool toward accurate coarse-grained simulations of dynamic protein interactions.",
+  "abstract_zh": "固有无序蛋白（IDPs）在细胞调控网络中扮演关键角色，现已认识到即使在特定相互作用和组装中，它们也常保持高度动态性。使用原子级模拟精确描述这些动态相互作用极具挑战性，因为计算成本过高。若能准确描述IDPs在未结合和结合状态下的关键局部及全局特性，高效的粗粒化方法或可成为克服这一瓶颈的有效解决方案。近期开发的混合分辨率（HyRes）蛋白质模型已被证明能够半定量描述IDPs的二级结构倾向性。在此，我们表明通过引入基于溶剂可及表面积的隐式溶剂项并重新优化有效相互作用强度，可大幅改善对全局结构和瞬态相互作用的描述。新模型命名为HyRes II，能够半定量重现一系列不同长度和复杂性的IDPs的多种局部和全局结构特性，并能区分折叠蛋白与IDPs之间的压缩程度。特别地，应用于肿瘤抑制因子p53的无序N端反式激活域（TAD）时，HyRes II能够重现与实验结果相比的各种非平凡结构特性，其中一些的准确性几乎可与原子级显式溶剂模拟结果相媲美。此外，我们证明HyRes II可用于模拟TAD与p53 DNA结合域的动态相互作用，生成与现有NMR数据高度一致的结构集合。我们预期HyRes II将为动态蛋白质相互作用的精确粗粒化模拟提供一种高效且相对可靠的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36083825/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36083825/",
+  "paper_page_path": "papers/pubmed/36083825/index.html"
+}

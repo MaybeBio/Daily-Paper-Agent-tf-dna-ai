@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40624153",
+    "doi": "10.1038/s41598-025-10271-z",
+    "title": "Mechanism of Brucea javanica against multiple myeloma via TNF-NF-kappaB signaling."
+  },
+  "content": {
+    "abstract": "This study aims to explore the pharmacological mechanism of Brucea javanica (BJ) in treating multiple myeloma (MM) through network pharmacology and validate this mechanism via in vitro experiments. Active pharmaceutical ingredients (APIs) of BJ and their potential targets were identified, along with MM-related targets. By plotting protein-protein interaction (PPI) networks, hub genes responsible for BJ in treating MM were identified and subjected to molecular docking. In MM cell lines H929 and U266, regulatory effects of BJ and luteolin (the major compound of BJ) on the behaviors of MM cells were examined. BJ extract exhibited dose-dependent cytotoxicity against MM cells, with IC(50) values of 5.03 microL/mL (48 h) for H929, and 1.06 microL/mL (48 h) for U266. Network pharmacology identified 14 APIs and 11 hub genes, with molecular docking confirming strong binding affinity between luteolin and TNF (-8.001 kcal/mol). 48-hour luteolin treatment suppressed MM cell proliferation (IC(50): 84.73 microM for H929; 46.93 microM for U266), induced apoptosis (up to 53.03% and 9.22% late apoptosis in H929 and U266 at 80 microM), and arrested cell cycle at G0/G1 phase. It downregulated TNF/NF-kappaB pathway components, reducing mRNA levels of TNF, IL-6, and NFKB1, and protein levels of p105, p50, and p65. TNF-alpha secretion decreased in luteolin-treated cells to 10.62% in H929 cells and 67.25% in U266 cells. This study demonstrates that BJ inhibits MM progression primarily via suppression of the TNF/NF-kappaB signaling pathway, with luteolin as a pivotal bioactive compound.",
+    "keywords": [
+      "Brucea javanica",
+      "Luteolin",
+      "Multiple myeloma",
+      "Network pharmacology",
+      "TNF/NF-kappaB signaling pathway",
+      "Traditional Chinese medicine"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Multiple Myeloma/drug therapy/metabolism/pathology",
+      "*Signal Transduction/drug effects",
+      "*NF-kappa B/metabolism",
+      "Cell Line, Tumor",
+      "*Brucea/chemistry",
+      "*Tumor Necrosis Factor-alpha/metabolism",
+      "Molecular Docking Simulation",
+      "Luteolin/pharmacology/chemistry",
+      "*Plant Extracts/pharmacology/chemistry",
+      "Cell Proliferation/drug effects",
+      "Apoptosis/drug effects",
+      "Protein Interaction Maps/drug effects",
+      "Network Pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yuan",
+        "Zhang, Aijia",
+        "Chen, Yang",
+        "Qi, Daoda",
+        "Peng, Chengyi",
+        "Liang, Zihao",
+        "Guo, Jingjing",
+        "Gu, Yan",
+        "Li, Hao"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Zhang A",
+        "Chen Y",
+        "Qi D",
+        "Peng C",
+        "Liang Z",
+        "Guo J",
+        "Gu Y",
+        "Li H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+        "Clinical Research Center, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+        "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+        "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+        "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+        "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+        "Clinical Research Center, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+        "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+        "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China. guyan703@njucm.edu.cn.",
+        "Phase I Clinical Experimental Research Center, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China. mingyuehao@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China.",
+          "Clinical Research Center, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Aijia",
+        "short_name": "Zhang A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Qi, Daoda",
+        "short_name": "Qi D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Peng, Chengyi",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zihao",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Center, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jingjing",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Gu, Yan",
+        "short_name": "Gu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China. guyan703@njucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Phase I Clinical Experimental Research Center, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, PR China. mingyuehao@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/08 00:27",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39417505",
+      "38955185",
+      "38455556",
+      "38019228",
+      "37941061",
+      "37832860",
+      "37691196",
+      "36992138",
+      "36176912",
+      "35841389",
+      "35370639",
+      "35234302",
+      "34749378",
+      "34088671",
+      "34048683",
+      "34017122",
+      "33858739",
+      "33800290",
+      "33602913",
+      "33264402",
+      "32958760",
+      "32920949",
+      "30992708",
+      "30798142",
+      "30501907",
+      "30459612",
+      "29559770",
+      "29089667",
+      "28926924",
+      "28119098",
+      "27434731",
+      "27329331",
+      "26918363",
+      "26600503",
+      "26096576",
+      "25851346",
+      "25510276",
+      "25248883",
+      "23932230",
+      "20032625",
+      "19509250",
+      "12482123",
+      "12200397",
+      "12173037",
+      "10210775",
+      "2792179"
+    ],
+    "similar": [
+      "40624153",
+      "40452077",
+      "37366364",
+      "29636600",
+      "29966986",
+      "29771406",
+      "38032489",
+      "38972211",
+      "38616753",
+      "39523498",
+      "28119098",
+      "39180676",
+      "38965397",
+      "30901719",
+      "40239560",
+      "40133026",
+      "33858739",
+      "41316260",
+      "28232202",
+      "38851471",
+      "38697555",
+      "39093467",
+      "33444723",
+      "38914662",
+      "40330488",
+      "20503476",
+      "39636495",
+      "38823277",
+      "40261593",
+      "40487864",
+      "33441867",
+      "23247593",
+      "31347196",
+      "35427214",
+      "26405764",
+      "38621947",
+      "23668205",
+      "24621786",
+      "41450541",
+      "40593998",
+      "41265260",
+      "17296806",
+      "39374881",
+      "19960011",
+      "24587411",
+      "38696100",
+      "40607420",
+      "39701711",
+      "37807411",
+      "40922365",
+      "39075002",
+      "37741472",
+      "39066538",
+      "34186115",
+      "40907407",
+      "35069542",
+      "41162502",
+      "34595237",
+      "39929664",
+      "38776853",
+      "40499803",
+      "39698583",
+      "38299289",
+      "27468478",
+      "36740793",
+      "41489113",
+      "40682227",
+      "19739098",
+      "39940967",
+      "40035402",
+      "38446216",
+      "25577468",
+      "39120856",
+      "21850367",
+      "39395768",
+      "26011589",
+      "21076936",
+      "41213440",
+      "30644322",
+      "41188309",
+      "23593410",
+      "39617073",
+      "40013962",
+      "23538165",
+      "37024790",
+      "39490433",
+      "40613545",
+      "40220405",
+      "38043386",
+      "39488873",
+      "41189252",
+      "40517918",
+      "40858660",
+      "37100262",
+      "39248061",
+      "28166749",
+      "38579646",
+      "38561549",
+      "37732603",
+      "40197419"
+    ],
+    "review": [
+      "40624153",
+      "33858739"
+    ],
+    "pmc": [
+      "12234659"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-10271-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40624153/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

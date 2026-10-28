@@ -1,0 +1,475 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.20.713120",
+  "title": "MHCBind: A Pan- and Allele-Specific Model for Predicting Class I MHC-Peptide Binding Affinity",
+  "doi": "10.64898/2026.03.20.713120",
+  "abstract": "Major Histocompatibility Complex (MHC) molecules are essential to the immune system because they bind and present peptide antigens to T cells, enabling immune recognition and response. The specificity of MHC-peptide interactions is crucial for understanding immune-related diseases, developing personalized immunotherapies, and designing effective vaccines. Current computational methods, while powerful, often rely on a single type of molecular information, usually sequence, and implicitly model the interaction between the two molecules. To address these limitations, we introduce MHC-Bind, a novel deep learning framework that captures a more comprehensive and biologically relevant view of the binding event. MHCBind’s architecture employs a dual-view feature extraction strategy for both the MHC and the peptide. A Graph Attention Network (GAT) learns topological features from predicted residue contact maps, while a parallel 1D Convolutional Neural Network (CNN) captures multi-scale patterns from sequence embeddings. These four distinct feature sets are then integrated in a cross-fusion module that uses an attention mechanism to model interactions between the two molecules. Finally, a multi-layer perceptron (MLP) regression head maps the fused interaction signature to a precise binding affinity score. In rigorous comparative benchmarks against recent variants, such as NetMHCpan, MHCFlurry, and MHCnuggets, MHCBind demonstrates superior performance, achieving a significantly lower average prediction error (RMSE: 0.1485) and a higher correlation (PCC: 0.7231) in allele-specific contexts. For pan-allele tasks, it excels at correctly ranking peptides with a superior Spearman’s Correlation (SCC: 0.7102), a crucial advantage for practical applications. The framework’s design is inherently flexible, excelling in both allele-specific and pan-allele prediction tasks.",
+  "authors": [
+    "Navyatha Peddi",
+    "Dharani Reddy Bijjula",
+    "Sanjana Gogte",
+    "Vani Kondaparthi"
+  ],
+  "published_date": "2026-03-23",
+  "updated_date": "2026-03-23T23:15:51Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713120",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713120.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            26
+          ]
+        ],
+        "date-time": "2026-03-26T09:00:20Z",
+        "timestamp": 1774515620207,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                23
+              ]
+            ],
+            "date-time": "2026-03-23T00:00:00Z",
+            "timestamp": 1774224000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Major Histocompatibility Complex (MHC) molecules are essential to the immune system because they bind and present peptide antigens to T cells, enabling immune recognition and response. The specificity of MHC-peptide interactions is crucial for understanding immune-related diseases, developing personalized immunotherapies, and designing effective vaccines. Current computational methods, while powerful, often rely on a single type of molecular information, usually sequence, and implicitly model the interaction between the two molecules. To address these limitations, we introduce MHC-Bind, a novel deep learning framework that captures a more comprehensive and biologically relevant view of the binding event. MHCBind’s architecture employs a dual-view feature extraction strategy for both the MHC and the peptide. A Graph Attention Network (GAT) learns topological features from predicted residue contact maps, while a parallel 1D Convolutional Neural Network (CNN) captures multi-scale patterns from sequence embeddings. These four distinct feature sets are then integrated in a cross-fusion module that uses an attention mechanism to model interactions between the two molecules. Finally, a multi-layer perceptron (MLP) regression head maps the fused interaction signature to a precise binding affinity score. In rigorous comparative benchmarks against recent variants, such as NetMHCpan, MHCFlurry, and MHCnuggets, MHCBind demonstrates superior performance, achieving a significantly lower average prediction error (RMSE: 0.1485) and a higher correlation (PCC: 0.7231) in allele-specific contexts. For pan-allele tasks, it excels at correctly ranking peptides with a superior Spearman’s Correlation (SCC: 0.7102), a crucial advantage for practical applications. The framework’s design is inherently flexible, excelling in both allele-specific and pan-allele prediction tasks.</jats:p>",
+      "DOI": "10.64898/2026.03.20.713120",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            23
+          ]
+        ],
+        "date-time": "2026-03-23T23:15:51Z",
+        "timestamp": 1774307751000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "MHCBind: A Pan- and Allele-Specific Model for Predicting Class I MHC-Peptide Binding Affinity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-5763-715X",
+          "authenticated-orcid": false,
+          "given": "Navyatha",
+          "family": "Peddi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science and Engineering, Keshav Memorial Institute of Technology, Hyderabad, Telangana, India - 500029,"
+            },
+            {
+              "name": "Drugparadigm Research Lab, Uppal, Hyderabad, Telangana, India - 500039,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-2163-4603",
+          "authenticated-orcid": false,
+          "given": "Dharani Reddy",
+          "family": "Bijjula",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science and Engineering, Keshav Memorial Institute of Technology, Hyderabad, Telangana, India - 500029,"
+            },
+            {
+              "name": "Drugparadigm Research Lab, Uppal, Hyderabad, Telangana, India - 500039,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-2926-3659",
+          "authenticated-orcid": false,
+          "given": "Sanjana",
+          "family": "Gogte",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drugparadigm Research Lab, Uppal, Hyderabad, Telangana, India - 500039,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-0991-5003",
+          "authenticated-orcid": false,
+          "given": "Vani",
+          "family": "Kondaparthi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drugparadigm Research Lab, Uppal, Hyderabad, Telangana, India - 500039,"
+            },
+            {
+              "name": "Keshav Memorial Engineering College, Uppal, Hyderabad, Telangana, India - 500088"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12964-025-02216-w"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41577-023-00927-0"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/mco2.714"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0232849"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2021.621153"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coi.2021.05.008"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.2300839"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2023.1116906"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coi.2021.04.009"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cells12141882"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00262-021-02984-7"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.12",
+          "unstructured": "Rout P , Caminero F , Iqbal Z , Tadi P. Histology , Cytotoxic T Cells . StatPearls. Treasure Island (FL) ineligible companies. Disclosure: Francheska Caminero declares no relevant financial relationships with ineligible companies. Disclosure: Zahid Iqbal declares no relevant financial relationships with ineligible companies. Disclosure: Prasanna Tadi declares no relevant financial relationships with ineligible companies. 2025."
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cells12020314"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-15-3266-5_21"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2023.1179846"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2019.03151"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biodatasci-021920-100259"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13007-023-01119-6"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2024.11.039"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIP.2018.2890144"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiomed.2020.104203"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0311041"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2023.0102"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01618-2"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-023-05549-w"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s0083-6729(00)58025-x"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms22126393"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.9b00791"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/e23060771"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpc.2022.106781"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac027"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-021-00029-8"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nargab/lqad095"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-025-00725-9"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1092"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1124619"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mcpro.2021.100122"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2020.06.010"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4103/0019-5154.193662"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.1700893"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-023-00694-6"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7717/peerj-cs.623"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0279774"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/14653125221076142"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7759/cureus.11794"
+        },
+        {
+          "key": "2026032600401036000_2026.03.20.713120v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-030722-111729"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.20.713120",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            26
+          ]
+        ],
+        "date-time": "2026-03-26T07:40:20Z",
+        "timestamp": 1774510820000
+      },
+      "score": 85.10927,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.20.713120"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            23
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.64898/2026.03.20.713120",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

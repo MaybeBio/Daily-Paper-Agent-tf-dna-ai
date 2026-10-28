@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors propose DBP2Vec, a method that uses the pre-trained protein language model ESM-1b to generate feature vectors for protein sequences, followed by mutual information-based feature selection and SVM classification, to predict DNA-binding proteins. They claim superior performance over existing state-of-the-art methods on two benchmark datasets (PDB296 and UniSwiss-Tst) and state this is the first application of a pre-trained protein language model to DBP prediction.
+- **Visible evidence base** Two benchmark datasets (PDB296, UniSwiss-Tst), performance comparison tables (Table 1 and Table 2 referenced but not shown), methodological description of ESM-1b and SVM pipeline
+- **Missing materials affecting confidence** Actual tables with numerical results, dataset construction details (e.g., exact filtering criteria, sequence identity thresholds), hyperparameter tuning details, statistical significance tests, code availability verification, and comparison with additional baseline methods
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of pre-trained protein language models to DNA-binding protein prediction. The core idea of using ESM-1b embeddings directly, without prior biological knowledge, is timely and potentially impactful. However, the current manuscript has significant gaps in reporting: the key results tables are not provided, methodological details are incomplete, and the comparison with existing methods lacks statistical rigor. The claim of "first attempt" is also not fully substantiated. While the approach is promising, the evidence as presented is insufficient to fully evaluate the claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those interested in applying deep learning and language models to biological sequence analysis. The work may also appeal to researchers developing predictive tools for DNA-binding proteins and those studying protein-DNA interactions.
+- **Major strengths** The use of a pre-trained protein language model (ESM-1b) to bypass complex feature engineering is a conceptually clean and modern approach. The method is described as simple, which is a practical advantage. The choice of two benchmark datasets (PDB296 and UniSwiss-Tst) is appropriate for comparison with prior work. The public availability of code and data is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that DBP2Vec "significantly outperforms existing state-of-the-art methods" on both benchmark datasets.
+  - **Evidence pointer** Results section, Tables 1 and 2 (not provided in the manuscript)
+  - **Concern** The actual numerical results, including MCC, ACC, SN, SP, PRE, F-score, and AUC values, are not presented in the provided manuscript. The tables are referenced but their content is absent. Without these data, the central performance claim cannot be verified.
+  - **Why it matters** The primary contribution of the paper is the claimed performance improvement. Without the actual results, the scientific case is not established.
+  - **Resolution test** Provide the full tables with all metrics for DBP2Vec and all compared methods, along with confidence intervals or statistical significance tests (e.g., McNemar's test) to support the claim of "significant" improvement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that "the optimal feature set is extracted from the generated feature vector by using a mutual information-based feature selector" and that "the optimal values of C = 2.0, gamma = 0.5 are obtained by grid search."
+  - **Evidence pointer** Materials and Methods, Pre-trained protein language model section
+  - **Concern** The feature selection procedure is described only briefly. It is unclear how many features were selected, whether the selection was performed on the training set only (to avoid data leakage), and how the optimal number of features was determined. Similarly, the grid search for SVM hyperparameters is mentioned but the search range and criterion (MCC) are not fully specified.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Incomplete methodological details prevent other researchers from replicating the experiments and assessing potential overfitting or data leakage.
+  - **Resolution test** Provide a detailed description of the feature selection process, including the number of features retained, the validation procedure, and the exact grid search ranges. Clarify that feature selection and hyperparameter tuning were performed only on the training data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors state, "To our best knowledge, this is the first attempt to introduce pre-trained protein language model to DBPs prediction."
+  - **Evidence pointer** Introduction, last paragraph
+  - **Concern** The claim of novelty is not supported by a literature review. No citations are provided to demonstrate that no prior work has applied pre-trained protein language models to DBP prediction. Given the rapid growth of this field, this claim requires careful verification.
+  - **Why it matters** Novelty is a key criterion for publication. An unsubstantiated novelty claim could mislead readers and undermine the credibility of the work.
+  - **Resolution test** Conduct a thorough literature search and cite relevant prior work, or revise the claim to be more specific (e.g., "to our knowledge, no prior work has used ESM-1b specifically for DBP prediction").
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The authors compare DBP2Vec with TargetDBP, iDNAProt-ES, and DPP-PseAAC on PDB296, and with TargetDBP+, iDNAProt-ES, and DPP-PseAAC on UniSwiss-Tst.
+  - **Evidence pointer** Results sections for PDB296 and UniSwiss-Tst
+  - **Concern** It is unclear whether the comparison methods were re-implemented, run with their original settings, or if the results were taken from the original publications. Differences in experimental setup, such as cross-validation procedures or feature preprocessing, could bias the comparison.
+  - **Why it matters** Fair benchmarking is essential for demonstrating genuine improvement. Inconsistent evaluation protocols can lead to misleading conclusions.
+  - **Resolution test** Clearly state the source of the comparison results and ensure that all methods are evaluated under identical conditions (e.g., same training/test splits, same evaluation metrics).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "play a crucial role in numbers of biological processes" is grammatically awkward and should be revised to "play crucial roles in numerous biological processes."
+  - **Required correction** Revise the sentence for grammatical accuracy and clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section, PDB296 comparison
+  - **Evidence pointer** Results, "Performance comparison on independent testing set PDB296"
+  - **Issue** The text refers to "PDB269" in one instance, which appears to be a typo for "PDB296."
+  - **Required correction** Correct the typo to "PDB296."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, UniSwiss-Tst comparison
+  - **Evidence pointer** Results, "Performance comparison on independent testing set UniSwiss-Tst"
+  - **Issue** The text includes "[ ? ]" after "TargetDBP+", which is an incomplete citation or placeholder.
+  - **Required correction** Provide the appropriate citation or remove the placeholder.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Datasets section
+  - **Evidence pointer** Materials and Methods, Datasets
+  - **Issue** The description of dataset construction is incomplete. For example, the exact criteria for defining a "DNA-binding chain" (e.g., "contains one DNA-binding residue at least") are vague, and the process for selecting negative samples is not fully described.
+  - **Required correction** Provide a more detailed and precise description of the dataset construction, including the exact thresholds and filtering steps.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Acknowledgments
+  - **Evidence pointer** Acknowledgments
+  - **Issue** The acknowledgment "We thank just about everybody" is informal and unprofessional.
+  - **Required correction** Replace with a formal acknowledgment of specific individuals or funding sources, or remove the section.
+- **Technical failings that need to be addressed before the case is established** The absence of the actual results tables (Tables 1 and 2) is a critical failing. Without these data, the central claim of superior performance cannot be assessed. Additionally, the lack of statistical significance testing and incomplete methodological details for feature selection and hyperparameter tuning undermine the reproducibility and rigor of the study.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of a pre-trained protein language model to DBP prediction is a reasonable and timely idea, but the novelty claim is not fully substantiated. The approach is not conceptually groundbreaking but is a sensible application of existing tools.  
+  - **Scientific importance** DNA-binding protein prediction is an important problem in computational biology. A simple, accurate method that avoids complex feature engineering could be valuable to the community. However, the impact depends on the actual performance improvement, which is not verifiable from the provided material.  
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. It may not attract a broad interdisciplinary audience unless the results are exceptionally strong and the method is widely applicable.  
+  - **Technical soundness** The methodological description is incomplete, and the lack of results tables prevents a full assessment of technical soundness. The use of ESM-1b and SVM is reasonable, but the evaluation protocol needs to be more rigorous.  
+  - **Readability for nonspecialists** The manuscript is generally readable, but some sections (e.g., the description of ESM-1b) assume familiarity with deep learning concepts. The abstract is clear, but the methods section could be more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a promising concept, but the missing results tables and incomplete methodological details prevent a full evaluation. The authors should provide the complete results, add statistical significance testing, and clarify the methodological details before the claims can be assessed.
+
+## Risk / unsupported claims
+- The claim that DBP2Vec "significantly outperforms existing state-of-the-art methods" is unsupported because the actual results tables are not provided.
+- The claim that this is "the first attempt to introduce pre-trained protein language model to DBPs prediction" is unsupported by a literature review.
+- The statement that ESM-1b "effectively encode biological properties without any prior knowledge" is a general claim about the model and is not specifically validated in this study.
+- The assertion that the method is "simple" is subjective and not quantitatively supported.

@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "38470946",
+    "doi": "10.1002/cbic.202400020",
+    "title": "Binding Dynamics of a Stapled Peptide Targeting the Transcription Factor NF-Y."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) play a central role in gene regulation, and their malfunction can result in a plethora of severe diseases. TFs are therefore interesting therapeutic targets, but their involvement in protein-protein interaction networks and the frequent lack of well-defined binding pockets render them challenging targets for classical small molecules. As an alternative, peptide-based scaffolds have proven useful, in particular with an alpha-helical active conformation. Peptide-based strategies often require extensive structural optimization efforts, which could benefit from a more detailed understanding of the dynamics in inhibitor/protein interactions. In this study, we investigate how truncated stapled alpha-helical peptides interact with the transcription factor Nuclear Factor-Y (NF-Y). We identified a 13-mer minimal binding core region, for which two crystal structures with an altered C-terminal peptide conformation when bound to NF-Y were obtained. Subsequent molecular dynamics simulations confirmed that the C-terminal part of the stapled peptide is indeed relatively flexible while still showing defined interactions with NF-Y. Our findings highlight the importance of flexibility in the bound state of peptides, which can contribute to overall binding affinity.",
+    "keywords": [
+      "biophysics",
+      "flexibility",
+      "peptidomimetic",
+      "protein crystallography",
+      "protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "*Peptides/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Protein Binding",
+      "*CCAAT-Binding Factor/metabolism/chemistry",
+      "Binding Sites",
+      "Humans",
+      "Crystallography, X-Ray",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Durukan, Canan",
+        "Arbore, Federica",
+        "Klintrot, Rasmus",
+        "Bigiotti, Carlo",
+        "Ilie, Ioana M",
+        "Vreede, Jocelyne",
+        "Grossmann, Tom N",
+        "Hennig, Sven"
+      ],
+      "short_names": [
+        "Durukan C",
+        "Arbore F",
+        "Klintrot R",
+        "Bigiotti C",
+        "Ilie IM",
+        "Vreede J",
+        "Grossmann TN",
+        "Hennig S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1024-2559",
+        "ORCID: 0009-0004-7361-8394",
+        "ORCID: 0000-0002-4499-9173",
+        "ORCID: 0000-0002-3210-7692",
+        "ORCID: 0000-0002-5935-3332",
+        "ORCID: 0000-0002-6977-6603",
+        "ORCID: 0000-0003-0179-4116",
+        "ORCID: 0000-0002-8297-6845"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH, Amsterdam, The Netherlands.",
+        "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, P.O. Box, 94157, 1090 GD, Amsterdam, The Netherlands.",
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH, Amsterdam, The Netherlands.",
+        "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, P.O. Box, 94157, 1090 GD, Amsterdam, The Netherlands.",
+        "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH, Amsterdam, The Netherlands.",
+        "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, P.O. Box, 94157, 1090 GD, Amsterdam, The Netherlands.",
+        "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+        "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Durukan, Canan",
+        "short_name": "Durukan C",
+        "identifiers": [
+          "0000-0003-1024-2559"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+          "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Arbore, Federica",
+        "short_name": "Arbore F",
+        "identifiers": [
+          "0009-0004-7361-8394"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+          "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Klintrot, Rasmus",
+        "short_name": "Klintrot R",
+        "identifiers": [
+          "0000-0002-4499-9173"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+          "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Bigiotti, Carlo",
+        "short_name": "Bigiotti C",
+        "identifiers": [
+          "0000-0002-3210-7692"
+        ],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH, Amsterdam, The Netherlands.",
+          "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, P.O. Box, 94157, 1090 GD, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ilie, Ioana M",
+        "short_name": "Ilie IM",
+        "identifiers": [
+          "0000-0002-5935-3332"
+        ],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH, Amsterdam, The Netherlands.",
+          "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, P.O. Box, 94157, 1090 GD, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vreede, Jocelyne",
+        "short_name": "Vreede J",
+        "identifiers": [
+          "0000-0002-6977-6603"
+        ],
+        "affiliations": [
+          "Van't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH, Amsterdam, The Netherlands.",
+          "Amsterdam Center for Multiscale Modeling (ACMM), University of Amsterdam, P.O. Box, 94157, 1090 GD, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Grossmann, Tom N",
+        "short_name": "Grossmann TN",
+        "identifiers": [
+          "0000-0003-0179-4116"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+          "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hennig, Sven",
+        "short_name": "Hennig S",
+        "identifiers": [
+          "0000-0002-8297-6845"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Pharmaceutical Sciences, VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands.",
+          "Amsterdam Institute of Molecular and Life Sciences (AIMMS), VU University Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chembiochem : a European journal of chemical biology"
+    ],
+    "journal_abbrev": [
+      "Chembiochem"
+    ],
+    "pub_date": "2024 May 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/12 18:42",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "42480222",
+      "40289331",
+      "39451037"
+    ],
+    "refs": [],
+    "similar": [
+      "38470946",
+      "31539186",
+      "25115702",
+      "30776182",
+      "30731167",
+      "33138093",
+      "15150264",
+      "27677949",
+      "38196284",
+      "22803956",
+      "33283479",
+      "23912807",
+      "29137527",
+      "30337366",
+      "21523491",
+      "16105833",
+      "20159464",
+      "33098724",
+      "31112188",
+      "26896797",
+      "26432878",
+      "41493642",
+      "28815832",
+      "12197834",
+      "41833678",
+      "28754059",
+      "31226791",
+      "39754310",
+      "22125611",
+      "11158310",
+      "39714600",
+      "27263470",
+      "31015204",
+      "32912021",
+      "27517874",
+      "21080018",
+      "33051202",
+      "39357335",
+      "24086615",
+      "25825775",
+      "24336354",
+      "23332751",
+      "33683866",
+      "21877153",
+      "28042965",
+      "34458841",
+      "9922142",
+      "27287023",
+      "15454423",
+      "15853652",
+      "12401788",
+      "40662768",
+      "32878986",
+      "23872534",
+      "29276033",
+      "16595692",
+      "21115486",
+      "38958133",
+      "26935067",
+      "7521735",
+      "27425598",
+      "27501758",
+      "12513689",
+      "23595228",
+      "11937504",
+      "29745220",
+      "31586754",
+      "26599366",
+      "21953925",
+      "17434933",
+      "29339518",
+      "22738246",
+      "41531205",
+      "23951139",
+      "21299226",
+      "24041570",
+      "37750576",
+      "11257508",
+      "20338228",
+      "11376946",
+      "38805268",
+      "25979333",
+      "39148280",
+      "39110018",
+      "9351812",
+      "29864683",
+      "10687862",
+      "9153318",
+      "40146735",
+      "17319651",
+      "29980598",
+      "31213550",
+      "21731774",
+      "39730062",
+      "33068756",
+      "19437048",
+      "29237836",
+      "18194566",
+      "15388790",
+      "12805369"
+    ],
+    "review": [
+      "38470946",
+      "27677949",
+      "15853652",
+      "37750576"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/cbic.202400020",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

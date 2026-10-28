@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "39964478",
+    "doi": "10.1093/nar/gkaf092",
+    "title": "Probabilistic and machine-learning methods for predicting local rates of transcription elongation from nascent RNA sequencing data."
+  },
+  "content": {
+    "abstract": "Rates of transcription elongation vary within and across eukaryotic gene bodies. Here, we introduce new methods for predicting elongation rates from nascent RNA sequencing data. First, we devise a probabilistic model that predicts nucleotide-specific elongation rates as a generalized linear function of nearby genomic and epigenomic features. We validate this model with simulations and apply it to public PRO-seq (Precision Run-On Sequencing) and epigenomic data for four cell types, finding that reductions in local elongation rate are associated with cytosine nucleotides, DNA methylation, splice sites, RNA stem-loops, CTCF (CCCTC-binding factor) binding sites, and several histone marks, including H3K36me3 and H4K20me1. By contrast, increases in local elongation rate are associated with thymines, A+T-rich and low-complexity sequences, and H3K79me2 marks. We then introduce a convolutional neural network that improves our local rate predictions. Our analysis is the first to permit genome-wide predictions of relative nucleotide-specific elongation rates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "*Sequence Analysis, RNA/methods",
+      "*Transcription Elongation, Genetic",
+      "Histones/metabolism/genetics",
+      "DNA Methylation",
+      "CCCTC-Binding Factor/metabolism",
+      "Histone Code",
+      "Neural Networks, Computer",
+      "Models, Statistical",
+      "Binding Sites",
+      "Epigenomics/methods",
+      "RNA Splice Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Lingjie",
+        "Zhao, Yixin",
+        "Hassett, Rebecca",
+        "Toneyan, Shushan",
+        "Koo, Peter K",
+        "Siepel, Adam"
+      ],
+      "short_names": [
+        "Liu L",
+        "Zhao Y",
+        "Hassett R",
+        "Toneyan S",
+        "Koo PK",
+        "Siepel A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5765-1213",
+        "ORCID: 0000-0002-7856-2818",
+        "ORCID: 0000-0001-8722-0038",
+        "ORCID: 0000-0002-3557-7219"
+      ],
+      "affiliations": [
+        "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States.",
+        "Graduate Program in Genetics, Stony Brook University, Stony Brook, NY 11794, United States.",
+        "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States.",
+        "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States.",
+        "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States.",
+        "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States.",
+        "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States.",
+        "Graduate Program in Genetics, Stony Brook University, Stony Brook, NY 11794, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Lingjie",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0002-5765-1213"
+        ],
+        "affiliations": [
+          "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States.",
+          "Graduate Program in Genetics, Stony Brook University, Stony Brook, NY 11794, United States."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yixin",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-7856-2818"
+        ],
+        "affiliations": [
+          "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States."
+        ]
+      },
+      {
+        "full_name": "Hassett, Rebecca",
+        "short_name": "Hassett R",
+        "identifiers": [],
+        "affiliations": [
+          "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States."
+        ]
+      },
+      {
+        "full_name": "Toneyan, Shushan",
+        "short_name": "Toneyan S",
+        "identifiers": [],
+        "affiliations": [
+          "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States."
+        ]
+      },
+      {
+        "full_name": "Koo, Peter K",
+        "short_name": "Koo PK",
+        "identifiers": [
+          "0000-0001-8722-0038"
+        ],
+        "affiliations": [
+          "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States."
+        ]
+      },
+      {
+        "full_name": "Siepel, Adam",
+        "short_name": "Siepel A",
+        "identifiers": [
+          "0000-0002-3557-7219"
+        ],
+        "affiliations": [
+          "Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, United States.",
+          "Graduate Program in Genetics, Stony Brook University, Stony Brook, NY 11794, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Feb 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/18 12:26",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "42282755",
+      "41125442",
+      "41114028",
+      "40501897"
+    ],
+    "refs": [
+      "37889042",
+      "36965480",
+      "35705040",
+      "35681023",
+      "35575476",
+      "35357925",
+      "35219383",
+      "34382072",
+      "34254686",
+      "33788942",
+      "33526657",
+      "32857854",
+      "32585128",
+      "31495490",
+      "31462772",
+      "31399571",
+      "31289233",
+      "30589513",
+      "30407521",
+      "30349116",
+      "30349114",
+      "29740129",
+      "29165040",
+      "29036507",
+      "29025894",
+      "28994650",
+      "28363125",
+      "27197224",
+      "26844429",
+      "26822487",
+      "26301843",
+      "26237516",
+      "26213851",
+      "25976475",
+      "25910208",
+      "25815464",
+      "25799441",
+      "25693130",
+      "25383968",
+      "24887486",
+      "24843027",
+      "24789973",
+      "24714810",
+      "24336214",
+      "23523369",
+      "23430654",
+      "22986266",
+      "22955616",
+      "22615360",
+      "21964334",
+      "21738721",
+      "18505835",
+      "17676063",
+      "15020047",
+      "12045153"
+    ],
+    "similar": [
+      "39964478",
+      "38187771",
+      "33526657",
+      "24714810",
+      "25880792",
+      "34769020",
+      "30905748",
+      "39738353",
+      "22682255",
+      "25049226",
+      "38397134",
+      "24590075",
+      "25934638",
+      "30310060",
+      "21825079",
+      "31666072",
+      "40497496",
+      "31547883",
+      "21964334",
+      "39202349",
+      "38783706",
+      "31905774",
+      "37294468",
+      "40806343",
+      "33191916",
+      "39244754",
+      "27391817",
+      "32585128",
+      "33588838",
+      "29593713",
+      "28460001",
+      "32649756",
+      "24339764",
+      "26415965",
+      "29137603",
+      "33626344",
+      "28045091",
+      "39448614",
+      "32240773",
+      "30655336",
+      "23527292",
+      "27490187",
+      "31509087",
+      "32503656",
+      "22025602",
+      "25765133",
+      "29036709",
+      "39903776",
+      "19922652",
+      "31672653",
+      "29483154",
+      "36744959",
+      "22615834",
+      "34019588",
+      "29581440",
+      "28717009",
+      "25861082",
+      "26818008",
+      "29030827",
+      "33046897",
+      "26635396",
+      "33232622",
+      "21860024",
+      "37302762",
+      "31006511",
+      "28460090",
+      "29590048",
+      "33077595",
+      "32924169",
+      "33514745",
+      "34162326",
+      "34379786",
+      "25811895",
+      "32933554",
+      "31081192",
+      "28402433",
+      "28145452",
+      "23102236",
+      "32941995",
+      "35410161",
+      "34326481",
+      "24887486",
+      "28587163",
+      "28193886",
+      "23417056",
+      "34181707",
+      "23033340",
+      "22876190",
+      "33634313",
+      "26515927",
+      "32264931",
+      "33300042",
+      "40764058",
+      "29969988",
+      "18654629",
+      "30294957",
+      "32689977",
+      "26206277",
+      "32386543",
+      "29155928"
+    ],
+    "review": [
+      "39964478",
+      "21825079",
+      "37294468",
+      "32240773",
+      "32941995",
+      "28587163",
+      "34181707"
+    ],
+    "pmc": [
+      "11833694"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39964478/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf092",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "41235254",
+    "doi": "10.3389/fimmu.2025.1675373",
+    "title": "Knockdown of TOP2A reverses cisplatin resistance in ovarian cancer by inhibiting EMT via ferroptosis mediated by the TP53/GPX4/SLC7A11 axis."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Cisplatin resistance is a major challenge in ovarian cancer therapy, particularly for high-grade serous ovarian cancer (HGSOC). DNA topoisomerase IIalpha (TOP2A) relates to cancer drug resistance, yet its role and molecular mechanisms in ovarian cancer cisplatin resistance remain unclear. METHODS: TOP2A expression was detected in HGSOC tissues and cisplatin-resistant cells (SKOV3-DDP, OVCAR3-DDP). Functional assays combined with TOP2A knockdown evaluated cisplatin sensitivity and malignant phenotypes (proliferation, invasion, migration) in resistant cells. RNA-seq and GEO cisplatin resistance dataset (GSE214302) validated TOP2A's role in cisplatin resistance, prognostic value, and associations with TP53, GPX4, SLC7A11. Molecular docking/Co-IP confirmed TOP2A-TP53 interaction. Fer-1 and TP53 knockdown clarified TP53/GPX4/SLC7A11 axis regulation of ferroptosis and EMT, and an in vivo xenograft tumor model validated these findings. RESULTS: TOP2A is highly expressed in HGSOC tissues and cisplatin-resistant cells, with high levels strongly associated with tumor progression (advanced stage, high grade, lymph node metastasis) and poor prognosis. RNA-seq shows TOP2A correlates with TP53, GPX4, SLC7A11.GEO dataset analysis confirms all four associate with cisplatin resistance. SLC7A11 and TOP2A are effective resistance biomarkers, and high TOP2A predicts shorter progression-free survival. Molecular assays verify direct TOP2A-TP53 interaction. Functional experiments reveal TOP2A knockdown enhances cisplatin sensitivity, inhibits malignancy, activates ferroptosis, and suppresses EMT via the TP53/GPX4/SLC7A11 axis. This effect is reversed by Fer-1 or TP53 knockdown, with mechanisms validated in vivo. CONCLUSION: TOP2A represents a potential prognostic biomarker and therapeutic target for cisplatin resistance in ovarian cancer (OC), as it regulates ferroptosis and EMT via the TP53/GPX4/SLC7A11 axis, which is mediated by its direct interaction with TP53. This thus provides a novel direction for treating cisplatin-resistant OC.",
+    "keywords": [
+      "EMT",
+      "TOP2A",
+      "TP53",
+      "cisplatin resistance",
+      "ferroptosis",
+      "ovarian cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Ovarian Neoplasms/drug therapy/genetics/pathology/metabolism",
+      "*Cisplatin/pharmacology/therapeutic use",
+      "*Ferroptosis/genetics/drug effects",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*DNA Topoisomerases, Type II/genetics/metabolism",
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "Animals",
+      "Mice",
+      "*Epithelial-Mesenchymal Transition/drug effects/genetics",
+      "*Amino Acid Transport System y+/metabolism/genetics",
+      "Cell Line, Tumor",
+      "*Phospholipid Hydroperoxide Glutathione Peroxidase/metabolism/genetics",
+      "*Poly-ADP-Ribose Binding Proteins/genetics/metabolism",
+      "Gene Knockdown Techniques",
+      "Xenograft Model Antitumor Assays",
+      "Antineoplastic Agents/pharmacology",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Xinyue",
+        "Wang, Junxia",
+        "Liu, Yangyu",
+        "Han, Yan",
+        "Qin, Zhichao",
+        "Wang, Yu",
+        "Gao, Shanxiang",
+        "Li, Xinghua",
+        "Suo, Yuping"
+      ],
+      "short_names": [
+        "Liu X",
+        "Wang J",
+        "Liu Y",
+        "Han Y",
+        "Qin Z",
+        "Wang Y",
+        "Gao S",
+        "Li X",
+        "Suo Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Gynecology Department of Shanxi Provincial People Hospital, Shanxi Medical University, Taiyuan, China.",
+        "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China.",
+        "The Gynecology Department of Shanxi Provincial People Hospital, Shanxi Medical University, Taiyuan, China.",
+        "The Pathology Department of Shanxi Provincial People Hospital, Shanxi Medical University, Taiyuan, China.",
+        "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China.",
+        "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China.",
+        "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China.",
+        "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China.",
+        "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China.",
+        "The Gynecology Department of Shanxi Provincial People Hospital, Shanxi Medical University, Taiyuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Xinyue",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "The Gynecology Department of Shanxi Provincial People Hospital, Shanxi Medical University, Taiyuan, China.",
+          "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junxia",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Gynecology Department of Shanxi Provincial People Hospital, Shanxi Medical University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yangyu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Pathology Department of Shanxi Provincial People Hospital, Shanxi Medical University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Han, Yan",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Zhichao",
+        "short_name": "Qin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Shanxiang",
+        "short_name": "Gao S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinghua",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Upper Gastrointestinal Tumour Prevention and Treatment, Shanxi Medical University, Changzhi, China."
+        ]
+      },
+      {
+        "full_name": "Suo, Yuping",
+        "short_name": "Suo Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Gynecology Department of Shanxi Provincial People Hospital, Shanxi Medical University, Taiyuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/14 06:28",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [
+      "42465023",
+      "41028361"
+    ],
+    "refs": [
+      "40890129",
+      "40867343",
+      "40539051",
+      "40514428",
+      "40514377",
+      "40427052",
+      "40362252",
+      "40339610",
+      "40275333",
+      "40189013",
+      "40090955",
+      "40088627",
+      "40088576",
+      "40076854",
+      "39993638",
+      "39950325",
+      "39817679",
+      "39727717",
+      "39679136",
+      "39670307",
+      "39151312",
+      "39069366",
+      "38898019",
+      "38835234",
+      "38762066",
+      "38553451",
+      "38451729",
+      "38445610",
+      "38171246",
+      "37726294",
+      "37598126",
+      "37580393",
+      "37248280",
+      "37224754",
+      "37209607",
+      "36600313",
+      "36532745",
+      "36369321",
+      "36322662",
+      "36313710",
+      "36247089",
+      "35338310",
+      "35151318",
+      "35087226",
+      "35069905",
+      "34878954",
+      "34769213",
+      "34583722",
+      "34476738",
+      "34249086",
+      "33887349",
+      "33672555",
+      "33538338",
+      "33414456",
+      "33361736",
+      "32685019",
+      "32503307",
+      "32368301",
+      "32243811",
+      "32201520",
+      "32100402",
+      "31597407",
+      "31409904",
+      "31101865",
+      "30962421",
+      "30760286",
+      "30581146",
+      "30224762",
+      "29064913",
+      "28985560",
+      "28494534",
+      "26794443",
+      "26100858",
+      "22429801",
+      "21475936",
+      "20959117",
+      "16533424",
+      "16287073",
+      "15055586"
+    ],
+    "similar": [
+      "41235254",
+      "40359890",
+      "38703506",
+      "41187650",
+      "41202375",
+      "40456202",
+      "40673298",
+      "38991271",
+      "39805792",
+      "40186304",
+      "40011884",
+      "38837315",
+      "39566382",
+      "41451920",
+      "36617466",
+      "38720175",
+      "40232565",
+      "38853202",
+      "36485069",
+      "33662669",
+      "40696490",
+      "39026029",
+      "32835657",
+      "41502518",
+      "39437660",
+      "41443917",
+      "40460255",
+      "39121977",
+      "40551519",
+      "34798882",
+      "41341590",
+      "33172933",
+      "34787052",
+      "39978746",
+      "33741422",
+      "40907917",
+      "41054261",
+      "38946134",
+      "39788329",
+      "40825957",
+      "39299601",
+      "39961466",
+      "41354015",
+      "40716132",
+      "38636375",
+      "39871338",
+      "40854446",
+      "40513923",
+      "39141012",
+      "40724917",
+      "38438754",
+      "39265497",
+      "39047638",
+      "40362252",
+      "38153663",
+      "38994627",
+      "40876907",
+      "39012393",
+      "40534265",
+      "41061872",
+      "40890129",
+      "38679154",
+      "30119207",
+      "40437575",
+      "41062622",
+      "39722125",
+      "40540898",
+      "38727079",
+      "38652227",
+      "39856185",
+      "39210414",
+      "32901049",
+      "40070026",
+      "31023317",
+      "41324595",
+      "20079182",
+      "41369886",
+      "41493644",
+      "34074015",
+      "39631720",
+      "39345091",
+      "41027154",
+      "41219323",
+      "39354361",
+      "30565428",
+      "27014910",
+      "39276458",
+      "34939898",
+      "41176641",
+      "39447278",
+      "40119400",
+      "40544302",
+      "40772995",
+      "38658567",
+      "40959275",
+      "40902362",
+      "40826028",
+      "35008958",
+      "40887474",
+      "38818906"
+    ],
+    "review": [
+      "41235254"
+    ],
+    "pmc": [
+      "12604993"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41235254/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1675373",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

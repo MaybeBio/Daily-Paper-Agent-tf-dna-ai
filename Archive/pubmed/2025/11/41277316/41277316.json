@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "41277316",
+    "doi": "10.1111/cbdd.70202",
+    "title": "Multi-Omics and Molecular Dynamics Analysis for Biomarker Discovery in Chronic Rhinosinusitis With Nasal Polyps."
+  },
+  "content": {
+    "abstract": "Chronic rhinosinusitis with nasal polyps (CRSwNP) is a multifaceted inflammatory condition that significantly affects patients clinically. It is vital to comprehend the basic molecular mechanisms and to discover new biomarkers. This research combines multi-omics data, molecular docking, and dynamic simulations to investigate gene functions and possible biomarkers related to CRSwNP. Initially, we discovered 555 differentially expressed genes (DEGs) induced by alpha-toxin (Hla) and 8119 DEGs associated with CRSwNP obtained from the Gene Expression Omnibus (GEO) database. Utilizing GO/KEGG enrichment analysis, we identified the NF-kappaB signaling pathway as significant. We identified 16 genes associated with TGF-beta receptor signaling in epithelial-mesenchymal transition (EMT) through PathCards and subsequently intersected these with the differentially expressed genes from two datasets. This analysis revealed the presence of one gene, PRKCZ. Additionally, single-cell sequencing offered deeper insights into cellular diversity, elucidating the expression patterns of PRKCZ across various cell types. Molecular docking and dynamics simulations established that the proteasome inhibitor MG132 can create a stable complex with PRKCZ. In conclusion, qRT-PCR, Western blot, immunohistochemistry, and fluorescence assays validated that Hla stimulation markedly heightened the levels of inflammatory pathway markers in human nasal mucosal epithelial cells. Importantly, the inhibition of PRKCZ by MG132 resulted in a significant reduction of these marker expression levels, offering a foundation for targeted therapeutic interventions. The current research demonstrates that alpha-toxin from Staphylococcus aureus promotes EMT in CRSwNP via the NF-kappaB/TGF-beta signaling axis. A significant gene that may serve as a potential therapeutic target is PRKCZ.",
+    "keywords": [
+      "CRSwNP",
+      "NF-kappaB",
+      "molecular docking",
+      "multi-omics analysis",
+      "single-cell analysis",
+      "therapeutic targets"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Nasal Polyps/metabolism/genetics/complications/pathology",
+      "*Sinusitis/metabolism/genetics/complications/pathology",
+      "Biomarkers/metabolism/analysis",
+      "Molecular Docking Simulation",
+      "Chronic Disease",
+      "*Rhinitis/metabolism/genetics/complications",
+      "*Molecular Dynamics Simulation",
+      "Epithelial-Mesenchymal Transition",
+      "Signal Transduction",
+      "NF-kappa B/metabolism",
+      "Leupeptins/chemistry/pharmacology/metabolism",
+      "Rhinosinusitis",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Qian",
+        "Qiao, Xinjie",
+        "Huang, Shuman",
+        "Wen, Xuelong",
+        "Chen, Zilong",
+        "Dong, Dong",
+        "Zhao, Yulin"
+      ],
+      "short_names": [
+        "Guo Q",
+        "Qiao X",
+        "Huang S",
+        "Wen X",
+        "Chen Z",
+        "Dong D",
+        "Zhao Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-7398-709X",
+        "ORCID: 0000-0002-4389-2163",
+        "ORCID: 0009-0001-2483-6465",
+        "ORCID: 0009-0004-2886-8175"
+      ],
+      "affiliations": [
+        "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Wuxi School of Medicine, Jiangnan University, Wuxi, China.",
+        "Endocrinology and Metabolism Center, The First Affiliated Hospital, and College of Clinical Medicine of Henan University of Science and Technology, Luoyang, China.",
+        "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Qian",
+        "short_name": "Guo Q",
+        "identifiers": [
+          "0009-0009-7398-709X"
+        ],
+        "affiliations": [
+          "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Xinjie",
+        "short_name": "Qiao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Shuman",
+        "short_name": "Huang S",
+        "identifiers": [
+          "0000-0002-4389-2163"
+        ],
+        "affiliations": [
+          "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Xuelong",
+        "short_name": "Wen X",
+        "identifiers": [],
+        "affiliations": [
+          "Wuxi School of Medicine, Jiangnan University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zilong",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrinology and Metabolism Center, The First Affiliated Hospital, and College of Clinical Medicine of Henan University of Science and Technology, Luoyang, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Dong",
+        "short_name": "Dong D",
+        "identifiers": [
+          "0009-0001-2483-6465"
+        ],
+        "affiliations": [
+          "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yulin",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0009-0004-2886-8175"
+        ],
+        "affiliations": [
+          "Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical biology & drug design"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Drug Des"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 06:27",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41277316",
+      "39488921",
+      "40720416",
+      "38280891",
+      "30283454",
+      "40158428",
+      "39756395",
+      "40447198",
+      "40661947",
+      "37385124",
+      "26399381",
+      "26265084",
+      "31839751",
+      "30982052",
+      "32614806",
+      "23157229",
+      "25376946",
+      "39305849",
+      "38557580",
+      "27885166",
+      "30661889",
+      "39535516",
+      "40511559",
+      "40461517",
+      "39954661",
+      "36255469",
+      "35628459",
+      "37338164",
+      "31439685",
+      "30452122",
+      "40774628",
+      "31326962",
+      "40946800",
+      "27502468",
+      "40555487",
+      "29131267",
+      "38639267",
+      "39473384",
+      "35628331",
+      "28858878",
+      "29253858",
+      "30378273",
+      "26575398",
+      "40820301",
+      "28059551",
+      "21493274",
+      "40089249",
+      "27173130",
+      "34229321",
+      "38299637",
+      "39367796",
+      "26266960",
+      "41327642",
+      "40613328",
+      "34666467",
+      "33609628",
+      "41060249",
+      "39985085",
+      "37864409",
+      "25711734",
+      "31693309",
+      "28585128",
+      "33785041",
+      "36982612",
+      "38550710",
+      "35008843",
+      "35021946",
+      "31301373",
+      "39739687",
+      "40678918",
+      "17283572",
+      "30142324",
+      "40691969",
+      "40544669",
+      "27216292",
+      "40712281",
+      "40317745",
+      "26332237",
+      "39870212",
+      "28870448",
+      "25159466",
+      "30118173",
+      "39943732",
+      "39191825",
+      "25056228",
+      "18408407",
+      "23375208",
+      "24092408",
+      "34814741",
+      "29299744",
+      "36190554",
+      "34036391",
+      "39225375",
+      "30259982",
+      "35572732",
+      "40255111",
+      "40195539",
+      "39881554",
+      "30909336",
+      "39347549"
+    ],
+    "review": [
+      "41277316",
+      "35008843",
+      "39943732"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sinusitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sinusitis"
+      },
+      {
+        "url": "https://doi.org/10.1111/cbdd.70202",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

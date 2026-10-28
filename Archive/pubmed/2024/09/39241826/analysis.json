@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39241826",
+  "title": "Histopathologic Differential Diagnosis and Estrogen Receptor/Progesterone Receptor Immunohistochemical Evaluation of Breast Carcinoma Using a Deep Learning-Based Artificial Intelligence Architecture.",
+  "authors": "Han, Zhi; Ding, Shihong; Liu, Baichen; Tang, Yandong; Qiu, Xueshan; Wang, Enhua; Zhao, Huanyu",
+  "journal": "The American journal of pathology",
+  "published_date": "2024-09-07",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习检测乳腺癌组织病理图像中的IDC/DCIS并评估ER/PR免疫组化染色，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "In breast carcinoma, invasive ductal carcinoma (IDC) is the most common histopathologic subtype, and ductal carcinoma in situ (DCIS) is a precursor of IDC. These two often occur concomitantly. The immunohistochemical staining of estrogen receptor (ER)/progesterone receptor (PR) in IDC/DCIS on histopathologic whole slide images (WSIs) can predict the prognosis of patients. Artificial intelligence (AI) technology has the potential to substantially reduce the interobserver variability among pathologists reading WSIs. Herein, IDC/DCIS detection was conducted by a deep learning approach, including faster region-based convolutional neural network (Faster R-CNN), RetinaNet, single-shot multibox detector 300 (SSD300), you only look once (YOLO) v3, YOLOv5, YOLOv7, YOLOv8, and Swin transformer. Their performance was estimated by mean average precision (mAP) values. Cell recognition and counting were performed using AI technology to evaluate the intensity and proportion of ER/PR-immunostained cancer cells in IDC/DCIS. A three-round ring study (RS) was conducted to assess WSIs. A database for modelling the underlying probability distribution of a data set with labels was established. YOLOv8 exhibited the highest detection performance with an mAP at 0.5 of 0.944 and an mAP at 0.5 to 0.95 of 0.790. With the assistance of YOLOv8, the scoring concordance across all pathologists was boosted to excellent in RS3 (0.970) from moderate in RS1 (0.724) and good in RS2 (0.812). Deep learning detection can be applied in the clinicopathologic field. Herein, a novel AI architecture and well-organized data set were developed to facilitate the histopathologic diagnosis of IDC/DCIS and immunostaining scoring of ER/PR.",
+  "abstract_zh": "在乳腺癌中，浸润性导管癌（IDC）是最常见的组织病理学亚型，而导管原位癌（DCIS）是IDC的前驱病变。这两种类型常同时发生。在组织病理学全切片图像（WSIs）上对IDC/DCIS中的雌激素受体（ER）/孕激素受体（PR）进行免疫组织化学染色，可预测患者预后。人工智能（AI）技术有潜力显著减少病理学家阅片WSIs时的观察者间差异。在此，通过深度学习方法进行了IDC/DCIS检测，包括基于区域的更快卷积神经网络（Faster R-CNN）、RetinaNet、单次多框检测器300（SSD300）、你只看一次（YOLO）v3、YOLOv5、YOLOv7、YOLOv8和Swin transformer。其性能通过平均精度均值（mAP）值进行评估。利用AI技术进行细胞识别和计数，以评估IDC/DCIS中ER/PR免疫染色癌细胞的强度和比例。进行了三轮环形研究（RS）以评估WSIs。建立了用于建模带标签数据集潜在概率分布的数据库。YOLOv8表现出最高的检测性能，其mAP在0.5时为0.944，在0.5至0.95时为0.790。借助YOLOv8，所有病理学家的评分一致性从RS1中的中等（0.724）和RS2中的良好（0.812）提升至RS3中的优秀（0.970）。深度学习检测可应用于临床病理领域。在此，开发了一种新颖的AI架构和有序组织的数据集，以促进IDC/DCIS的组织病理学诊断及ER/PR的免疫染色评分。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39241826/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39241826/",
+  "paper_page_path": "papers/pubmed/39241826/index.html"
+}

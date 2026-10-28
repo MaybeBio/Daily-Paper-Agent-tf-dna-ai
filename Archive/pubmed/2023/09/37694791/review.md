@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that Nimbin and its analogs bind to NF-kappaB subunits p50 and p65 based on molecular docking, with dG bind values from -33.23 to -50.49 Kcal/mol, and that molecular dynamics simulation of the NO5-p65 complex shows stable conformation and convergence compared to the NO4-p50 complex. They conclude that NO5 may inhibit p65 and that the Nimbin scaffold warrants further exploration for cancer therapeutics.
+- **Visible evidence base** Abstract text only; no docking scores table, simulation parameters, trajectory analyses, or structural figures are provided
+- **Missing materials affecting confidence** Full methods for docking and simulation, force field parameters, simulation length, convergence metrics, structural validation of complexes, and any statistical analyses; also missing compound structures and analog identities
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible in silico screening workflow but the evidence provided is insufficient to support the stated conclusions. The docking scores are reported without context, the comparison between NO5-p65 and NO4-p50 is not justified, and the claim of potential inhibitory effect is speculative without experimental validation. The work may be of interest to computational cancer researchers, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery and natural product-based cancer therapeutics may find the Nimbin scaffold of interest as a starting point for NF-kappaB inhibition. The study could also appeal to those studying NF-kappaB pathway modulation, though the lack of experimental data limits broader appeal.
+- **Major strengths** The study addresses a relevant target in cancer biology. The use of both docking and molecular dynamics is appropriate for initial screening. The focus on a natural product scaffold is timely.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Nimbin and its analogs may bind to p50 and p65 with dG bind values from -33.23 to -50.49 Kcal/mol.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The dG bind values are presented without any comparator, such as a known inhibitor or a negative control. It is unclear whether these values indicate meaningful binding affinity or are within the range of nonspecific interactions. Additionally, the method used to compute dG bind is not specified, and no error estimates or replicate analyses are reported.
+  - **Why it matters** Without a baseline or statistical context, the reported binding energies cannot be interpreted as evidence of specific inhibition potential. The claim of binding is therefore not established.
+  - **Resolution test** Provide a table of docking scores for all compounds including a positive control and a decoy set, with standard deviations and a statistical test comparing the target complexes to controls. Specify the scoring function and validation of the docking protocol.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that molecular dynamic simulation for the NO5-p65 complex displayed a stable conformation and convergence when compared to the NO4-p50 complex.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The comparison between NO5-p65 and NO4-p50 is not explained. It is unclear why these two complexes were selected for comparison, what metrics were used to assess stability and convergence, and whether the comparison is statistically meaningful. No simulation length, temperature, pressure, or force field details are given.
+  - **Why it matters** The conclusion that NO5 may have a potential inhibitory effect is based on this comparison. If the stability metrics are not defined or the comparison is not controlled, the conclusion is unsupported.
+  - **Resolution test** Report root-mean-square deviation and root-mean-square fluctuation plots for both complexes, define convergence criteria, and justify the choice of NO4-p50 as a comparator. Provide simulation parameters and a clear statement of what constitutes stability in this context.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that NO5 may have a potential inhibitory effect against NF-kappaB subunit p65, which needs to be further validated in in vitro and in vivo systems.
+  - **Evidence pointer** Conclusion section, abstract; location not provided
+  - **Concern** The leap from in silico binding and simulation to a potential inhibitory effect is not supported by the data presented. No functional assay, binding affinity measurement, or cellular context is provided. The phrase "may have" is appropriately cautious, but the conclusion still overreaches relative to the evidence.
+  - **Why it matters** The stated potential inhibitory effect is the central claim of the study. Without experimental validation or at least a stronger computational case, such as free energy perturbation or binding site analysis, the claim remains speculative.
+  - **Resolution test** Either add experimental validation or reframe the conclusion to state that the computational results suggest a candidate for further testing, without implying inhibitory potential.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background section
+  - **Evidence pointer** Background section, abstract; location not provided
+  - **Issue** The role of NF-kappaB is described in general terms, but the abstract does not explain why p50 and p65 are specifically targeted or how inhibition of these subunits would affect the pathway.
+  - **Required correction** Add one sentence clarifying the functional roles of p50 and p65 in NF-kappaB signaling and why their inhibition is relevant to cancer.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** The abstract states that "in silico tools, namely molecular docking and simulation" were used, but no software names, versions, or parameter settings are given.
+  - **Required correction** Specify the docking software, scoring function, simulation package, and force field in the abstract or indicate that full details are in the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Issue** The dG bind values are reported in Kcal/mol, but no conversion to a more intuitive metric, such as estimated Ki, is provided.
+  - **Required correction** Optionally include estimated inhibition constants or a qualitative interpretation of the binding energy range for readers unfamiliar with docking scores.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate, as in silico screening of natural products against NF-kappaB is not novel, though the specific scaffold may be underexplored. Scientific importance is limited by the lack of experimental validation and the absence of a clear mechanistic advance. Interdisciplinary readership is narrow, as the abstract is primarily relevant to computational biologists and medicinal chemists. Technical soundness is not established due to missing methodological details and uncontrolled comparisons. Readability for nonspecialists is acceptable but could be improved with clearer context for the target and the computational methods.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a preliminary computational screen, but the claims of binding and inhibitory potential require substantial additional evidence, including controlled docking analyses, detailed simulation metrics, and ideally experimental validation.
+
+## Risk / unsupported claims
+- The claim that Nimbin and its analogs "may bind" to p50 and p65 is unsupported without comparator data or statistical context.
+- The claim that the NO5-p65 complex shows "stable conformation and convergence" is unsupported without defined metrics or simulation details.
+- The conclusion that NO5 "may have a potential inhibitory effect" is unsupported by the computational evidence alone.
+- The general statement that the results "emphasize and pave the way" for exploring the Nimbin scaffold is speculative and not directly supported by the data presented.

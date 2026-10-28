@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and author contributions.
+- **Assessment boundary** Scientific validity, technical soundness, clarity, and significance of the claims as presented in the provided manuscript. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors train a deep learning model (DanQ) on chromatin accessibility and methylation data from multiple angiosperm species, demonstrating that across-species models perform comparably to within-species models. They further analyze model interpretations to identify important transcription factor motifs and assess performance on cell-type-specific chromatin accessibility data.
+- **Visible evidence base** Main text figures (Figure 1, Figure 2, Figure 3, Figure 4), Supplemental Figures S1–S13, Supplemental Table S14, and methods descriptions. Specific numerical values for performance metrics are partially reported in text.
+- **Missing materials affecting confidence** Full figure legends, exact hyperparameter settings, detailed architecture specifications, and complete numerical results for all comparisons are not fully described in the provided text. The manuscript references a Zenodo repository for code and data, but its contents were not accessible for this review.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a valuable and timely contribution to plant genomics by demonstrating the feasibility of cross-species chromatin state prediction using deep learning. The work is technically sound in its core approach, and the comparative analysis of within-species versus across-species models is informative. However, several aspects of the interpretation analyses and the generalizability claims require further scrutiny and additional validation. The manuscript would benefit from clearer reporting of model details and more rigorous statistical comparisons.
+- **Who would be interested in the results, and why** Plant molecular biologists, computational biologists, and researchers interested in gene regulation and epigenomics. The work provides a practical tool (the a2z model) for predicting chromatin features in unsequenced or understudied angiosperm species, which could accelerate research in crop improvement and evolutionary biology.
+- **Major strengths** The study addresses an important gap in plant genomics by evaluating cross-species deep learning models. The use of multiple species and both chromatin accessibility and methylation data is comprehensive. The interpretation analyses, particularly the positional GIA, offer insights into model behavior and potential biological relevance. The public availability of the models is a significant asset for the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that across-species models have "comparable or even superior performance to a model trained within species" (Abstract, Results).
+  - **Evidence pointer** Figure 1, top middle and top right; Supplemental Figure S2.
+  - **Concern** The performance comparison between within-species and across-species models is presented qualitatively. The text states that across-species models are "comparable, if not superior," but no statistical tests or confidence intervals are provided to support this claim. The variability across the three training runs is mentioned but not quantified in the main text.
+  - **Why it matters** The central premise of the paper rests on this comparison. Without statistical rigor, the reader cannot assess whether the observed differences are meaningful or within the range of stochastic variation. This weakens the primary conclusion.
+  - **Resolution test** Provide a statistical comparison (e.g., paired tests with multiple seeds) of auPR values between within-species and across-species models for each species, including effect sizes and confidence intervals. Report the mean and standard deviation across the three training runs for all key comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model's performance on cell-type-specific ACRs is best for constitutively accessible regions, with diminishing performance as cell-type specificity increases (Abstract, Results).
+  - **Evidence pointer** Figure 2, left and right.
+  - **Concern** The analysis of cell-type-specific performance relies on a threshold-recall curve, but the definition of "cell-type specificity" and the classification of peaks into specificity categories are not clearly described. The text mentions peaks accessible in "five or fewer cell types" but does not explain how this threshold was chosen or whether the results are sensitive to it.
+  - **Why it matters** This is a key biological finding with implications for the utility of the model in different contexts. If the categorization is arbitrary or not robust, the conclusion may not hold.
+  - **Resolution test** Clearly define the metric for cell-type specificity and justify the chosen thresholds. Perform a sensitivity analysis with different thresholds to show that the trend is consistent. Provide a more detailed breakdown of performance across all cell-type specificity levels.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the a2z model can predict the chromatin landscape of "any angiosperm genome" (Abstract, Discussion).
+  - **Evidence pointer** Results section, Discussion.
+  - **Concern** The model is trained on 12 angiosperm species, which represent a limited phylogenetic sampling. The claim of applicability to "any angiosperm" is overly broad and not directly tested. The authors do test on yeast and human, but these are not angiosperms and the performance is low (auPR 0.21 and 0.02, respectively).
+  - **Why it matters** Overstating the model's generalizability could mislead potential users. The claim should be tempered to reflect the tested range of species and the known limitations.
+  - **Resolution test** Rephrase the claim to specify that the model is expected to work for angiosperms similar to those in the training set, and discuss potential limitations for more distantly related species. If possible, include a validation on a species not in the training set but within the angiosperm clade.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the k-mer occlusion method provides "better estimates of sequence-effect size" compared to TF-MoDISco (Results).
+  - **Evidence pointer** Results section, "Interpretation methods reveal important conserved and species-specific motifs".
+  - **Concern** The comparison between TF-MoDISco and k-mer occlusion is qualitative. The text states that TF-MoDISco results "could not be quantitatively compared," but no direct comparison of the two methods is shown. The advantages of k-mer occlusion are asserted but not demonstrated.
+  - **Why it matters** The choice of interpretation method is central to the biological insights derived. Without a clear demonstration of the superiority of k-mer occlusion, the reader cannot judge the validity of the motif rankings.
+  - **Resolution test** Provide a side-by-side comparison of motifs identified by both methods for the same species and chromatin feature, including a quantitative metric of agreement or disagreement. Discuss the specific advantages of k-mer occlusion with concrete examples.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Training and evaluating models"
+  - **Evidence pointer** location not provided
+  - **Issue** The description of the "bag-of-k-mers" model is brief. It is unclear what k-mer length is used and how the model is implemented.
+  - **Required correction** Provide a brief description of the bag-of-k-mers model, including the k-mer length and the classification algorithm used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Leaf-trained models struggle to predict cell-type-specific ACRs"
+  - **Evidence pointer** Figure 2
+  - **Issue** The text refers to "threshold-recall curve" but this is not a standard metric. It is unclear how this curve is generated and what it represents.
+  - **Required correction** Define the threshold-recall curve and explain how it is calculated. Alternatively, use a more standard metric such as auPRC or auROC.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Software environment"
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript states that all code and data are available on Zenodo, but the specific version or DOI is not provided in the text.
+  - **Required correction** Include the DOI or a direct link to the Zenodo repository in the main text or a data availability statement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Interpretation methods reveal important conserved and species-specific motifs"
+  - **Evidence pointer** Table 1
+  - **Issue** The table is mentioned but not described in detail. It is unclear what the columns represent and how the rankings are derived.
+  - **Required correction** Add a legend to Table 1 explaining the columns and the ranking criteria.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of statistical rigor in the primary performance comparison and the unclear definition of cell-type specificity undermine the core claims. These need to be resolved with additional analyses and clearer reporting.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of cross-species deep learning to plant chromatin is relatively novel, though similar approaches exist in animals. The work is original in its plant focus and multi-species scope.
+  - **Scientific importance** The potential to predict chromatin states in unstudied species is significant for plant biology and crop research. However, the overstatement of generalizability and the lack of robust validation reduce the immediate impact.
+  - **Interdisciplinary readership** The work bridges genomics, machine learning, and plant biology. It should appeal to a broad audience, but the methods section may be too technical for some biologists.
+  - **Technical soundness** The core modeling approach is sound, but the statistical analyses and interpretation validations are insufficient. The technical details of the model are not fully reported.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the results and methods sections are dense and assume familiarity with deep learning and genomics. The manuscript could benefit from clearer explanations of key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem and presents a useful resource, but the primary claims require stronger statistical support and more careful framing.
+
+## Risk / unsupported claims
+- The claim that across-species models are "comparable or even superior" to within-species models is not statistically supported.
+- The claim that the model can predict the chromatin landscape of "any angiosperm genome" is overly broad and not tested.
+- The claim that k-mer occlusion provides "better estimates" than TF-MoDISco is not demonstrated with a direct comparison.
+- The biological interpretation of the sawtooth pattern in positional GIA is speculative and not tested with additional controls.

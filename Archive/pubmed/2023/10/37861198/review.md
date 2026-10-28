@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The study characterizes the IRX4 homeodomain structure and its DNA binding mechanisms using sequence analysis, homology modeling, and molecular dynamics simulations. It identifies conserved residues involved in DNA recognition, evaluates the impact of somatic mutations on binding, and predicts a cell-penetrating peptide in the C-terminal region.
+- **Visible evidence base** Abstract text only; no experimental data, simulation parameters, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation trajectories, binding free energy calculations, sequence alignment details, and experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study of IRX4 homeodomain DNA binding, with implications for prostate cancer. However, the claims are largely descriptive and lack quantitative support in the abstract. The absence of methodological details and validation data prevents assessment of technical soundness. The prediction of a cell-penetrating peptide appears tangential to the main focus and is not supported by evidence in the abstract.
+- **Who would be interested in the results, and why** Researchers in transcription factor biology, structural bioinformatics, and prostate cancer genomics may find the characterization of IRX4 DNA binding relevant. Those studying homeodomain protein DNA recognition mechanisms and the functional impact of cancer-associated mutations could also be interested.
+- **Major strengths** The study addresses a gap in structural characterization of IRX4, a transcription factor implicated in prostate cancer. The use of multiple computational approaches (sequence analysis, homology modeling, MD simulations) is appropriate for the research question. The identification of specific conserved residues and their roles in DNA binding provides a focused hypothesis for future experimental work.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The study confirms the specificity of IRX4 homodimer bound to consensus human DNA sequence by molecular dynamics simulations.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that MD simulations "confirmed" binding specificity, but no simulation parameters, force fields, simulation times, or convergence criteria are provided. Without these details, the reliability of the simulation results cannot be evaluated.
+  - **Why it matters** MD simulation outcomes are highly sensitive to setup choices. Claims of binding specificity require demonstration of system equilibration, adequate sampling, and appropriate free energy methods.
+  - **Resolution test** Provide simulation protocol details, including force field, water model, simulation length, temperature and pressure coupling, and convergence metrics. Show that binding free energy calculations are converged and reproducible.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Somatic mutations including R145, R198, and R199 affect DNA binding and destabilize the protein DNA complex.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports effects of mutations on DNA binding but provides no quantitative data such as binding free energy values, confidence intervals, or statistical comparisons between wild type and mutants. The claim that these mutations "elucidate the importance" of residues is not supported by any numerical evidence in the abstract.
+  - **Why it matters** Without quantitative comparisons, the reader cannot assess the magnitude of mutation effects or whether differences are meaningful. The claim of functional importance requires statistical support.
+  - **Resolution test** Report binding free energy differences with associated errors and statistical significance tests for each mutant relative to wild type.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and relevance
+  - **Claim pointer** The C-terminal sequence of the IRX4 homeodomain could act as a potential cell-penetrating peptide.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This prediction appears unrelated to the main focus of DNA binding and is presented without any supporting evidence, such as sequence features known to correlate with cell penetration or experimental validation.
+  - **Why it matters** Including an unsupported tangential claim weakens the focus of the study and may mislead readers about the scope of findings.
+  - **Resolution test** Either remove this claim or provide evidence such as sequence analysis against known CPP databases and, ideally, experimental validation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Gene expression claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states IRX4 expression was found in various tissues and cell lines but does not specify the databases or analysis methods used.
+  - **Required correction** Specify the databases and criteria used for expression analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Residue numbering
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Residue numbers (e.g., R145, A194) are mentioned without reference to the sequence or structure used for numbering.
+  - **Required correction** Clarify the numbering scheme, including the source sequence and any alignment used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Homogeneity of the structure"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "maintaining the homogeneity of the structure" is vague and not a standard structural biology term.
+  - **Required correction** Replace with a specific structural property, such as stability, RMSD, or conformational consistency.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of simulation details and quantitative mutation data prevents evaluation of the core claims. The cell-penetrating peptide prediction (R1-M3) is unsupported and should be removed or substantiated.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The study addresses a previously uncharacterized homeodomain, but the approach is standard computational biology.
+  - Scientific importance: Moderate. IRX4 is relevant to prostate cancer, but the abstract does not establish a direct link between the structural findings and disease mechanisms.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to structural biologists and computational chemists; the cancer relevance is not developed.
+  - Technical soundness: Not assessable from the abstract. Critical methodological details are missing.
+  - Readability for nonspecialists: The abstract is understandable but uses domain-specific terms without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims require substantial additional methodological and quantitative detail. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that MD simulations "confirmed" DNA binding specificity is unsupported without simulation details.
+- The claim that specific mutations affect DNA binding is unsupported without quantitative free energy data.
+- The prediction of a cell-penetrating peptide is unsupported by any evidence in the abstract.
+- The statement that secondary structure and hydrogen bonding analysis showed roles of specific residues is not backed by any data in the abstract.
+- The claim that differences in relative binding free energies "shed light on structural modularity" is not supported by presented numbers or analysis.

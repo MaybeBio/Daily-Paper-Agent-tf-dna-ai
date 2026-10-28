@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "40934008",
+    "doi": "10.3389/fimmu.2025.1626230",
+    "title": "Artemisinin derivatives modulate KEAP1-NRF2-xCT pathway to alleviate Sjogren's disease: insights from scRNA-seq and systems biology."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Sjogren's Disease (SJD) is characterized by salivary gland dysfunction, and ferroptosis in salivary gland epithelial cells (SGECs) contributes to glandular damage. Artesunate (ART) exhibits therapeutic potential in inflammatory diseases, but its effect on SJD via regulating ferroptosis remains unclear. METHODS: Female 8-week-old NOD/Ltj mice were randomized into model (saline) and ART groups (oral gavage). Daily water intake, weekly salivary flow rate, and body weight were monitored. After 8 weeks, spleen and submandibular gland indices were measured. scRNA-seq analyzed SJD patient profiles, and RNA-seq evaluated inflammatory pathway responses to ART. Submandibular glands were histologically examined via HE staining (lymphocytic infiltration scoring). Western blotting and immunofluorescence detected KEAP1, TFRC, xCT, NRF2, GPX4, IgG, and C3 expression in glands and SGECs; ROS and JC-1 levels in SGECs were also assessed. Molecular docking analyzed ART-KEAP1 affinity, and transmission electron microscopy evaluated mitochondrial morphology. RESULTS: scRNA-seq and systems biology showed activated ferroptosis signaling post-ART. ART inhibited KEAP1-mediated ubiquitination/degradation of NRF2, upregulated xCT and GPX4, and downregulated TFRC in vitro and in vivo. This protected SGECs from ferroptosis, reducing glandular damage and preserving function in NOD/Ltj mice. DISCUSSION: ART ameliorates SJD in NOD/Ltj mice by suppressing SGEC ferroptosis through the KEAP1-NRF2 pathway, highlighting its potential as a therapeutic agent for SJD.",
+    "keywords": [
+      "Sjogren's disease",
+      "artesunate",
+      "ferroptosis",
+      "scRNA-seq",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Mice",
+      "Female",
+      "*Sjogren's Syndrome/drug therapy/metabolism/genetics/pathology",
+      "*Artesunate/pharmacology",
+      "Humans",
+      "Signal Transduction/drug effects",
+      "Systems Biology",
+      "Disease Models, Animal",
+      "*Artemisinins/pharmacology",
+      "RNA-Seq",
+      "Mice, Inbred NOD",
+      "Amino Acid Transport System y+/metabolism",
+      "Ferroptosis/drug effects",
+      "Salivary Glands/metabolism/drug effects/pathology",
+      "Molecular Docking Simulation",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Yong",
+        "Zeng, Liuting",
+        "Wang, Yanan",
+        "Yang, Qianyue",
+        "Liu, Chang",
+        "Tang, Xiaojun",
+        "Yao, Genhong",
+        "Sun, Lingyun"
+      ],
+      "short_names": [
+        "Luo Y",
+        "Zeng L",
+        "Wang Y",
+        "Yang Q",
+        "Liu C",
+        "Tang X",
+        "Yao G",
+        "Sun L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Graduate School of Peking Union Medical College, Nanjing, China.",
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, Nanjing University Medical School, Nanjing, China.",
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China.",
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China.",
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China.",
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Yong",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Liuting",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Graduate School of Peking Union Medical College, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qianyue",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, Nanjing University Medical School, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chang",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Xiaojun",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Genhong",
+        "short_name": "Yao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Lingyun",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China.",
+          "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/11 18:29",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "41909652",
+      "41851758",
+      "41663545"
+    ],
+    "refs": [
+      "40495717",
+      "40492693",
+      "40413364",
+      "39880816",
+      "39747819",
+      "39700677",
+      "39623319",
+      "39050857",
+      "38982205",
+      "38965216",
+      "38878633",
+      "38866667",
+      "38574973",
+      "38471652",
+      "38366038",
+      "38110617",
+      "37849447",
+      "37783783",
+      "37673132",
+      "37656227",
+      "37612409",
+      "37446355",
+      "37409392",
+      "37286044",
+      "36914790",
+      "36894028",
+      "36525939",
+      "36031634",
+      "35967307",
+      "34748286",
+      "34556638",
+      "33911236",
+      "33268902",
+      "33086170",
+      "32695097",
+      "29731393",
+      "28565837",
+      "27230555",
+      "22632970",
+      "18495927",
+      "17046835"
+    ],
+    "similar": [
+      "40934008",
+      "39426238",
+      "40413364",
+      "39623319",
+      "41851758",
+      "40882790",
+      "33086170",
+      "41663853",
+      "42548660",
+      "38574973",
+      "40386058",
+      "40466613",
+      "40158745",
+      "42259664",
+      "40582566",
+      "39251858",
+      "38892170",
+      "42243007",
+      "41009370",
+      "9825931",
+      "33062721",
+      "24796746",
+      "37268950",
+      "42080568",
+      "36244973",
+      "40523162",
+      "37286044",
+      "40545318",
+      "25065264",
+      "29927095",
+      "38878633",
+      "42481729",
+      "42092476",
+      "20003451",
+      "38471652",
+      "41448264",
+      "31164166",
+      "38472139",
+      "35749642",
+      "39497829",
+      "41987446",
+      "22044682",
+      "39480504",
+      "41766866",
+      "42056310",
+      "9844759",
+      "41656985",
+      "29981359",
+      "38926825",
+      "33631650",
+      "31491724",
+      "41869322",
+      "18311793",
+      "28012440",
+      "24941846",
+      "24551030",
+      "41063334",
+      "38347480",
+      "40962721",
+      "25248927",
+      "41444632",
+      "42000202",
+      "40565345",
+      "35978516",
+      "42543340",
+      "17675493",
+      "17665453",
+      "42089895",
+      "42074012",
+      "39479800",
+      "39159683",
+      "23116360",
+      "37340676",
+      "40838446",
+      "16802370",
+      "42336003",
+      "35176991",
+      "22174879",
+      "20952683",
+      "22059987",
+      "40951698",
+      "18565216",
+      "38732189",
+      "9307859",
+      "41411773",
+      "33671965",
+      "18419828",
+      "40917063",
+      "41826647",
+      "38880321",
+      "11876766",
+      "42589295",
+      "25635992",
+      "40020881",
+      "42653300",
+      "42169643",
+      "39936155",
+      "26245278",
+      "19222863",
+      "38704914"
+    ],
+    "review": [
+      "40934008",
+      "38732189",
+      "42589295"
+    ],
+    "pmc": [
+      "12418045"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sjogrenssyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sjogren's Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40934008/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2704",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1626230",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

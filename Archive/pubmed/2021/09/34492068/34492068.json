@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "34492068",
+    "doi": "10.1371/journal.pone.0256648",
+    "title": "Random forest-integrated analysis in AD and LATE brain transcriptome-wide data to identify disease-specific gene expression."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease (AD) is a complex neurodegenerative disorder that affects thinking, memory, and behavior. Limbic-predominant age-related TDP-43 encephalopathy (LATE) is a recently identified common neurodegenerative disease that mimics the clinical symptoms of AD. The development of drugs to prevent or treat these neurodegenerative diseases has been slow, partly because the genes associated with these diseases are incompletely understood. A notable hindrance from data analysis perspective is that, usually, the clinical samples for patients and controls are highly imbalanced, thus rendering it challenging to apply most existing machine learning algorithms to directly analyze such datasets. Meeting this data analysis challenge is critical, as more specific disease-associated gene identification may enable new insights into underlying disease-driving mechanisms and help find biomarkers and, in turn, improve prospects for effective treatment strategies. In order to detect disease-associated genes based on imbalanced transcriptome-wide data, we proposed an integrated multiple random forests (IMRF) algorithm. IMRF is effective in differentiating putative genes associated with subjects having LATE and/or AD from controls based on transcriptome-wide data, thereby enabling effective discrimination between these samples. Various forms of validations, such as cross-domain verification of our method over other datasets, improved and competitive classification performance by using identified genes, effectiveness of testing data with a classifier that is completely independent from decision trees and random forests, and relationships with prior AD and LATE studies on the genes linked to neurodegeneration, all testify to the effectiveness of IMRF in identifying genes with altered expression in LATE and/or AD. We conclude that IMRF, as an effective feature selection algorithm for imbalanced data, is promising to facilitate the development of new gene biomarkers as well as targets for effective strategies of disease prevention and treatment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Aged",
+      "Aged, 80 and over",
+      "Algorithms",
+      "Alzheimer Disease/*diagnosis/diagnostic imaging/genetics/pathology",
+      "Biomarkers/metabolism",
+      "Brain/*metabolism/pathology",
+      "Brain Diseases/*diagnosis/diagnostic imaging/genetics/pathology",
+      "Cognitive Dysfunction/*diagnosis/diagnostic imaging/genetics/pathology",
+      "DNA-Binding Proteins/genetics",
+      "Diagnosis, Differential",
+      "Female",
+      "Gene Expression Regulation/genetics",
+      "Humans",
+      "Image Interpretation, Computer-Assisted",
+      "Machine Learning",
+      "Magnetic Resonance Imaging",
+      "Male",
+      "Neurodegenerative Diseases/diagnosis/diagnostic imaging/genetics/pathology",
+      "Transcriptome/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Xinxing",
+        "Peng, Chong",
+        "Nelson, Peter T",
+        "Cheng, Qiang"
+      ],
+      "short_names": [
+        "Wu X",
+        "Peng C",
+        "Nelson PT",
+        "Cheng Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9177-9352",
+        "ORCID: 0000-0003-0003-5126",
+        "ORCID: 0000-0002-3596-2838"
+      ],
+      "affiliations": [
+        "University of Kentucky, Lexington, Kentucky, United States of America.",
+        "Qingdao University, Qingdao, Shandong, China.",
+        "University of Kentucky, Lexington, Kentucky, United States of America.",
+        "University of Kentucky, Lexington, Kentucky, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Xinxing",
+        "short_name": "Wu X",
+        "identifiers": [
+          "0000-0001-9177-9352"
+        ],
+        "affiliations": [
+          "University of Kentucky, Lexington, Kentucky, United States of America."
+        ]
+      },
+      {
+        "full_name": "Peng, Chong",
+        "short_name": "Peng C",
+        "identifiers": [
+          "0000-0003-0003-5126"
+        ],
+        "affiliations": [
+          "Qingdao University, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Nelson, Peter T",
+        "short_name": "Nelson PT",
+        "identifiers": [],
+        "affiliations": [
+          "University of Kentucky, Lexington, Kentucky, United States of America."
+        ]
+      },
+      {
+        "full_name": "Cheng, Qiang",
+        "short_name": "Cheng Q",
+        "identifiers": [
+          "0000-0002-3596-2838"
+        ],
+        "affiliations": [
+          "University of Kentucky, Lexington, Kentucky, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/08 06:00",
+    "fetched_at": "2026-09-27 23:22:47"
+  },
+  "links": {
+    "cites": [
+      "42141120",
+      "40069305",
+      "39116438",
+      "38862878",
+      "36348767",
+      "36189595",
+      "36187051",
+      "35983527"
+    ],
+    "refs": [
+      "33576571",
+      "32830216",
+      "31845964",
+      "31792732",
+      "31448102",
+      "31340147",
+      "31333395",
+      "31039256",
+      "31018141",
+      "30619483",
+      "30386171",
+      "29802200",
+      "29213833",
+      "29196460",
+      "29021354",
+      "28949335",
+      "28930663",
+      "28804758",
+      "28697784",
+      "28668092",
+      "28602351",
+      "28348546",
+      "28253260",
+      "28087828",
+      "26976513",
+      "26578886",
+      "26366463",
+      "26301327",
+      "25891378",
+      "25265527",
+      "25187168",
+      "24067654",
+      "23267172",
+      "23242280",
+      "21832049",
+      "20889584",
+      "20479757",
+      "20064547",
+      "17601350",
+      "17080189",
+      "16801647",
+      "16385451",
+      "15379550",
+      "11559311",
+      "2011243",
+      "1759558"
+    ],
+    "similar": [
+      "34492068",
+      "29242123",
+      "29269320",
+      "34513992",
+      "28260614",
+      "32071013",
+      "32082407",
+      "32208428",
+      "29578038",
+      "34958014",
+      "28666881",
+      "35457705",
+      "29914313",
+      "30654174",
+      "24634832",
+      "30940494",
+      "29793369",
+      "29486213",
+      "26726737",
+      "26318777",
+      "29174020",
+      "33298155",
+      "27046891",
+      "30077576",
+      "36190653",
+      "37833700",
+      "32539856",
+      "36553611",
+      "29966190",
+      "28119818",
+      "33267852",
+      "32558014",
+      "32116253",
+      "26971942",
+      "25624081",
+      "28664032",
+      "21718788",
+      "26476928",
+      "24338729",
+      "25429357",
+      "23737859",
+      "31476152",
+      "34308907",
+      "32345363",
+      "30261928",
+      "23417832",
+      "26599054",
+      "31811079",
+      "23036450",
+      "39072881",
+      "35751201",
+      "26298855",
+      "30012102",
+      "26106620",
+      "28386606",
+      "26363784",
+      "26985771",
+      "27262241",
+      "26560336",
+      "34628897",
+      "33586518",
+      "25702248",
+      "23365920",
+      "29104000",
+      "36948139",
+      "35309200",
+      "30958352",
+      "26401690",
+      "28749356",
+      "38157927",
+      "33154073",
+      "32007958",
+      "30775985",
+      "28116234",
+      "34510292",
+      "29031664",
+      "38325214",
+      "36736612",
+      "31421683",
+      "37365198",
+      "25114071",
+      "24166579",
+      "21236349",
+      "35346696",
+      "34229061",
+      "23278858",
+      "37834458",
+      "28092591",
+      "38141185",
+      "38915415",
+      "38773573",
+      "32660529",
+      "38478169",
+      "38687811",
+      "37934339",
+      "30584014",
+      "34768988",
+      "29596980",
+      "38265551",
+      "39134564",
+      "33282526",
+      "38836671",
+      "37372465",
+      "32654306",
+      "38700745",
+      "38952174",
+      "30915100",
+      "34857756",
+      "38321494",
+      "38779086",
+      "36463283",
+      "38163518",
+      "36348767",
+      "31073522",
+      "39424325",
+      "39309755",
+      "38191721",
+      "35741859"
+    ],
+    "review": [
+      "34492068",
+      "36190653",
+      "32654306",
+      "38952174",
+      "38163518",
+      "31073522"
+    ],
+    "pmc": [
+      "8423259"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braindiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Diseases"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0256648",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34492068/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34492068",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "identity": {
+    "pmid": "39496635",
+    "doi": "10.1038/s41540-024-00455-0",
+    "title": "Multi-bioinformatics revealed potential biomarkers and repurposed drugs for gastric adenocarcinoma-related gastric intestinal metaplasia."
+  },
+  "content": {
+    "abstract": "Biomarkers associated with the progression from gastric intestinal metaplasia (GIM) to gastric adenocarcinoma (GA), i.e., GA-related GIM, could provide valuable insights into identifying patients with increased risk for GA. The aim of this study was to utilize multi-bioinformatics to reveal potential biomarkers for the GA-related GIM and predict potential drug repurposing for GA prevention in patients. The multi-bioinformatics included gene expression matrix (GEM) by microarray gene expression (MGE), ScType (a fully automated and ultra-fast cell-type identification based solely on a given scRNA-seq data), Ingenuity Pathway Analysis, PageRank centrality, GO and MSigDB enrichments, Cytoscape, Human Protein Atlas and molecular docking analysis in combination with immunohistochemistry. To identify GA-related GIM, paired surgical biopsies were collected from 16 GIM-GA patients who underwent gastrectomy, yielding 64 samples (4 biopsies per stomach x 16 patients) for MGE. Co-analysis was performed by including scRNAseq and immunohistochemistry datasets of endoscopic biopsies of 37 patients. The results of the present study showed potential biomarkers for GA-related GIM, including GEM of individual patients, individual genes (such as RBP2 and CD44), signaling pathways, network of molecules, and network of signaling pathways with key topological nodes. Accordingly, potential treatment targets with repurposed drugs were identified including epidermal growth factor receptor, proto-oncogene tyrosine-protein kinase Src, paxillin, transcription factor Jun, breast cancer type 1 susceptibility protein, cellular tumor antigen p53, mouse double minute 2, and CD44.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/pathology/drug therapy/metabolism",
+      "*Computational Biology/methods",
+      "*Metaplasia/genetics",
+      "*Drug Repositioning/methods",
+      "*Adenocarcinoma/genetics/drug therapy/pathology",
+      "Biomarkers, Tumor/metabolism/genetics",
+      "Proto-Oncogene Mas",
+      "Molecular Docking Simulation",
+      "Male",
+      "Female",
+      "Gene Expression Regulation, Neoplastic/drug effects/genetics",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Andersen, Goran Troseth",
+        "Ianevski, Aleksandr",
+        "Resell, Mathilde",
+        "Pojskic, Naris",
+        "Rabben, Hanne-Line",
+        "Geithus, Synne",
+        "Kodama, Yosuke",
+        "Hiroyuki, Tomita",
+        "Kainov, Denis",
+        "Gronbech, Jon Erik",
+        "Hayakawa, Yoku",
+        "Wang, Timothy C",
+        "Zhao, Chun-Mei",
+        "Chen, Duan"
+      ],
+      "short_names": [
+        "Andersen GT",
+        "Ianevski A",
+        "Resell M",
+        "Pojskic N",
+        "Rabben HL",
+        "Geithus S",
+        "Kodama Y",
+        "Hiroyuki T",
+        "Kainov D",
+        "Gronbech JE",
+        "Hayakawa Y",
+        "Wang TC",
+        "Zhao CM",
+        "Chen D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7716-6955",
+        "ORCID: 0009-0001-3559-3884",
+        "ORCID: 0000-0003-3429-4580"
+      ],
+      "affiliations": [
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Department of Surgery, St. Olav's Hospital, Trondheim, Norway.",
+        "Department of Surgery, Namsos Hospital, Namsos, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Laboratory for Bioinformatics and Biostatistics, University of Sarajevo - Institute for Genetic Engineering and Biotechnology, Sarajevo, Bosnia and Herzegovina.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Department of Tumor Pathology, Gifu University Graduate School of Medicine, Gifu, Japan.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Department of Surgery, St. Olav's Hospital, Trondheim, Norway.",
+        "Department of Gastroenterology, Tokyo University Hospital, Tokyo, Japan.",
+        "Department of Digestive and Liver Diseases and Herbert Iring Comprehensive Cancer Center, Columbia University Medical Center, New York, USA.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway. duan.chen@ntnu.no."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Andersen, Gøran Troseth",
+        "short_name": "Andersen GT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+          "Department of Surgery, St. Olav's Hospital, Trondheim, Norway.",
+          "Department of Surgery, Namsos Hospital, Namsos, Norway."
+        ]
+      },
+      {
+        "full_name": "Ianevski, Aleksandr",
+        "short_name": "Ianevski A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Resell, Mathilde",
+        "short_name": "Resell M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Pojskic, Naris",
+        "short_name": "Pojskic N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Bioinformatics and Biostatistics, University of Sarajevo - Institute for Genetic Engineering and Biotechnology, Sarajevo, Bosnia and Herzegovina."
+        ]
+      },
+      {
+        "full_name": "Rabben, Hanne-Line",
+        "short_name": "Rabben HL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Geithus, Synne",
+        "short_name": "Geithus S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Kodama, Yosuke",
+        "short_name": "Kodama Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Hiroyuki, Tomita",
+        "short_name": "Hiroyuki T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tumor Pathology, Gifu University Graduate School of Medicine, Gifu, Japan."
+        ]
+      },
+      {
+        "full_name": "Kainov, Denis",
+        "short_name": "Kainov D",
+        "identifiers": [
+          "0000-0001-7716-6955"
+        ],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Grønbech, Jon Erik",
+        "short_name": "Grønbech JE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway.",
+          "Department of Surgery, St. Olav's Hospital, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Hayakawa, Yoku",
+        "short_name": "Hayakawa Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Tokyo University Hospital, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Wang, Timothy C",
+        "short_name": "Wang TC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive and Liver Diseases and Herbert Iring Comprehensive Cancer Center, Columbia University Medical Center, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chun-Mei",
+        "short_name": "Zhao CM",
+        "identifiers": [
+          "0009-0001-3559-3884"
+        ],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Chen, Duan",
+        "short_name": "Chen D",
+        "identifiers": [
+          "0000-0003-3429-4580"
+        ],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), Trondheim, Norway. duan.chen@ntnu.no."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2024 Nov 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/05 00:21",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "41884204",
+      "41226767",
+      "40520180",
+      "40438554",
+      "40438552",
+      "40310348",
+      "39768557"
+    ],
+    "refs": [
+      "39007268",
+      "38849840",
+      "38740510",
+      "38594745",
+      "38105263",
+      "37876256",
+      "37652306",
+      "37627164",
+      "37105516",
+      "37030704",
+      "36620073",
+      "36579676",
+      "36553019",
+      "36209270",
+      "35632546",
+      "35609365",
+      "35448971",
+      "35363856",
+      "35273156",
+      "35215257",
+      "35087207",
+      "34998795",
+      "34776934",
+      "34576114",
+      "34518209",
+      "34344784",
+      "34331813",
+      "34321199",
+      "34248142",
+      "34129814",
+      "34069715",
+      "33867984",
+      "33598644",
+      "33277589",
+      "33118813",
+      "32209487",
+      "31887261",
+      "31816298",
+      "31315034",
+      "31278206",
+      "31159854",
+      "31067475",
+      "30982749",
+      "30841008",
+      "29707766",
+      "29606921",
+      "29028222",
+      "28953255",
+      "28818916",
+      "28495876",
+      "28393710",
+      "27989802",
+      "27282106",
+      "26995689",
+      "26762229",
+      "26688882",
+      "26635875",
+      "26630310",
+      "25974964",
+      "25613900",
+      "25162518",
+      "25143365",
+      "22422314",
+      "22356776",
+      "21982300",
+      "21804528",
+      "21223968",
+      "21139605",
+      "20823884",
+      "20203636",
+      "19499576",
+      "19415765",
+      "19399780",
+      "18853439",
+      "18669619",
+      "18395075",
+      "18291729",
+      "18242216",
+      "17936555",
+      "17001803",
+      "16900126",
+      "16127175",
+      "10611152",
+      "10592235",
+      "7939396",
+      "4085908",
+      "1955163"
+    ],
+    "similar": [
+      "39496635",
+      "38291086",
+      "35485356",
+      "39169865",
+      "40843941",
+      "33779949",
+      "31705880",
+      "34326374",
+      "26877610",
+      "33437215",
+      "32058995",
+      "31127138",
+      "38462863",
+      "41226409",
+      "32532891",
+      "34356118",
+      "31850717",
+      "41239006",
+      "38860335",
+      "42010673",
+      "25800782",
+      "30975489",
+      "35996248",
+      "39353384",
+      "39348085",
+      "28914394",
+      "40406126",
+      "41828401",
+      "39718517",
+      "35756405",
+      "39048164",
+      "28432618",
+      "39293329",
+      "42206911",
+      "34686186",
+      "39518924",
+      "30569111",
+      "33422657",
+      "41162582",
+      "24569475",
+      "26769141",
+      "33582701",
+      "30795853",
+      "30195659",
+      "33145355",
+      "28374495",
+      "35901340",
+      "25548486",
+      "37287284",
+      "39414226",
+      "38694509",
+      "36383109",
+      "37556419",
+      "41559138",
+      "40205350",
+      "29266838",
+      "28484081",
+      "37469733",
+      "41551463",
+      "33788653",
+      "26506416",
+      "33127342",
+      "38812299",
+      "38979602",
+      "41221763",
+      "41914286",
+      "31311829",
+      "33148208",
+      "37212262",
+      "37243583",
+      "42212140",
+      "41162544",
+      "40065477",
+      "38760813",
+      "41492114",
+      "39434198",
+      "26339382",
+      "29749528",
+      "29568201",
+      "31081222",
+      "32309437",
+      "32025206",
+      "33501609",
+      "30670912",
+      "32598242",
+      "37302442",
+      "25410163",
+      "16509871",
+      "33120861",
+      "39333689",
+      "30952707",
+      "23669186",
+      "42333064",
+      "22735568",
+      "42249833",
+      "28401451",
+      "26460735",
+      "41162922",
+      "38096029",
+      "37786704"
+    ],
+    "review": [
+      "39496635",
+      "39718517",
+      "37212262",
+      "23669186",
+      "22735568"
+    ],
+    "pmc": [
+      "11535201"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41540-024-00455-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39496635/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

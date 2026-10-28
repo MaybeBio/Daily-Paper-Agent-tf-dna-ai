@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table legends.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript content. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors propose that the MCMV tegument protein M35 directly binds to the IFNβ enhancer and other IRF3-driven promoters via IRF3 recognition elements, thereby antagonizing IRF3-mediated gene induction. They support this with in vitro DNA binding assays, a crystal structure of the M35 dimer, reverse genetics, transcriptomic analyses, and infection experiments.
+- **Visible evidence base** Results sections describing EMSA, crystallography, SEC-MALS, co-immunoprecipitation, native PAGE, reporter assays, ChIP, SLAM-seq, and RT-qPCR. Supplementary figures S1–S9 and tables S1–S5 are referenced but not fully provided.
+- **Missing materials affecting confidence** Full supplementary figures and tables, raw sequencing data, detailed statistical outputs, and uncropped immunoblots were not available for review. This limits verification of some quantitative claims and quality controls.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and novel mechanism for MCMV immune evasion, with structural and functional data supporting direct DNA binding by M35. The work is technically rigorous in several areas, particularly the crystallography and EMSA experiments. However, the link between in vitro DNA binding and in vivo transcriptional repression is not fully established, and the transcriptomic analysis is weakened by the failure of SLAM-seq metabolic labeling. The manuscript would benefit from additional experiments to directly demonstrate M35 occupancy at endogenous promoters and to clarify the specificity of its DNA binding.
+- **Who would be interested in the results, and why** Virologists studying herpesvirus immune evasion, innate immunity researchers focused on IRF3 and type I IFN regulation, and structural biologists interested in viral DNA-binding proteins. The findings may also be relevant to those investigating host-pathogen interactions at the chromatin level.
+- **Major strengths** 1. The crystal structure of M35 provides the first high-resolution view of a betaherpesvirus pp85 family member, revealing a dimeric architecture with a potential DNA-binding groove. 2. The combination of EMSA, mutagenesis, and ChIP provides multiple lines of evidence for M35-DNA interaction. 3. The use of SLAM-seq to define IRF3-dependent genes and assess M35's global effects is a sophisticated approach. 4. The inclusion of infection experiments in macrophages adds physiological relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength for direct in vivo mechanism  
+  - **Claim pointer** "M35 binds to the IFNβ enhancer and other IRF3-driven promoters, thereby directly antagonizing IRF3-mediated gene induction."  
+  - **Evidence pointer** Results sections "M35-DNA recognition requires successive core motifs of IRF recognition elements" and "Presence of M35 impairs binding of IRF3 to the host's IFNβ enhancer upon stimulation of PRR signalling"  
+  - **Concern** The manuscript demonstrates M35-DNA binding in vitro and shows reduced IRF3 ChIP at the Ifnb1 promoter in M35-expressing cells. However, it does not provide direct evidence that M35 occupies the endogenous Ifnb1 promoter or other IRF3-driven promoters in cells. The ChIP experiments only measure IRF3 occupancy, not M35 binding.  
+  - **Why it matters** Without direct evidence of M35 binding to endogenous chromatin, the proposed mechanism remains correlative. The in vitro EMSA data, while suggestive, may not reflect the in vivo situation where chromatin structure and other factors could influence binding.  
+  - **Resolution test** Perform ChIP-seq or ChIP-qPCR with an M35-specific antibody in M35-expressing cells or during MCMV infection to demonstrate M35 occupancy at Ifnb1 and other IRF3-dependent promoters. Alternatively, use a DNA-binding-deficient M35 mutant to show loss of transcriptional repression and IRF3 displacement.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical validity of transcriptomic analysis  
+  - **Claim pointer** "Stable expression of M35 broadly influenced the transcriptome in untreated cells and specifically down-regulated basal expression of IRF3-dependent genes."  
+  - **Evidence pointer** Results section "Dissection of the contribution of IRF3- versus type I IFN signalling-mediated induction of antiviral genes in murine fibroblasts"  
+  - **Concern** The SLAM-seq experiment in M35-expressing cells failed to achieve sufficient 4sU incorporation, so the authors analyzed total RNA instead of newly synthesized transcripts. This compromises the temporal resolution and may confound direct transcriptional effects with indirect effects on mRNA stability.  
+  - **Why it matters** The claim that M35 directly modulates transcription of IRF3-dependent genes requires evidence of changes in nascent transcription. Total RNA levels reflect both synthesis and degradation, and the observed differences could be due to post-transcriptional mechanisms.  
+  - **Resolution test** Repeat SLAM-seq with optimized 4sU labeling conditions to achieve adequate incorporation, or use alternative approaches such as PRO-seq or nascent RNA capture to measure transcriptional changes directly.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Specificity of DNA binding  
+  - **Claim pointer** "M35 specifically binds to the regulatory DNA element that governs transcription of Ifnb1."  
+  - **Evidence pointer** Results section "Purified M35 specifically binds to the sequence of the IFNβ enhancer in vitro"  
+  - **Concern** The EMSA experiments show binding to the IFNβ enhancer and competition with unlabeled probes, but the specificity of M35 for IRF3 recognition elements over other DNA sequences is not thoroughly tested. The authors do not demonstrate that M35 fails to bind to unrelated promoters or random DNA sequences with similar GC content.  
+  - **Why it matters** The claim of specificity is central to the proposed mechanism. If M35 binds non-specifically to DNA, its effects on IRF3-dependent genes could be indirect or due to general chromatin disruption.  
+  - **Resolution test** Include EMSA experiments with mutated IRF3 recognition elements, unrelated promoter sequences, and random DNA probes to demonstrate sequence-specific binding. Additionally, perform competition assays with increasing concentrations of unlabeled specific and non-specific competitors to quantify binding specificity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of figure presentation  
+  - **Affected element** Figure 1E  
+  - **Evidence pointer** Results section "Purified M35 specifically binds to the sequence of the IFNβ enhancer in vitro"  
+  - **Issue** The EMSA gel images are not annotated with the concentrations of M35 used for each lane, making it difficult to assess the dose-dependence of binding.  
+  - **Required correction** Add concentration labels to the figure or legend, and include a quantification of the bound fraction for each concentration.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** Figure 7C  
+  - **Evidence pointer** Results section "Presence of M35 impairs binding of IRF3 to the host's IFNβ enhancer upon stimulation of PRR signalling"  
+  - **Issue** The ChIP-qPCR data are presented as bar graphs without individual data points or error bars, and the statistical test used is not specified.  
+  - **Required correction** Show individual replicates, include error bars, and state the statistical test and p-values in the figure legend.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness of methods  
+  - **Affected element** SLAM-seq analysis  
+  - **Evidence pointer** Materials and Methods section "Data evaluation of SLAM-seq experiments"  
+  - **Issue** The description of the bioinformatics pipeline is brief, and key parameters for differential expression analysis (e.g., fold-change thresholds, dispersion estimation) are not provided.  
+  - **Required correction** Expand the methods to include all parameters used in DESeq2 and the lfc package, and provide the code or a link to the analysis scripts.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interpretation of phylogenetic analysis  
+  - **Affected element** Figure 3A  
+  - **Evidence pointer** Results section "Protein folding is conserved between M35 of MCMV and U14 of HHV6B"  
+  - **Issue** The phylogenetic tree is described but not shown in the main text, and the bootstrap support values are not reported.  
+  - **Required correction** Include the tree as a main figure or supplementary figure, and report bootstrap values to support the evolutionary relationships.
+
+## Risk / unsupported claims
+- The claim that M35 directly binds to endogenous promoters in cells is unsupported, as no ChIP experiments for M35 were performed.
+- The claim that M35 specifically down-regulates IRF3-dependent genes is weakened by the failure of SLAM-seq metabolic labeling, and the analysis of total RNA may not accurately reflect transcriptional changes.
+- The functional significance of M35's DNA binding for viral replication in vivo is not directly tested, as the infection experiments only measure gene expression, not viral fitness or pathogenesis.
+- The specificity of M35 for IRF3 recognition elements over other DNA sequences is not fully established, as only a limited set of probes was tested.

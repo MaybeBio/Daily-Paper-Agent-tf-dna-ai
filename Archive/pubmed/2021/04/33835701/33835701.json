@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "33835701",
+    "doi": "10.15252/msb.202010026",
+    "title": "CODEX, a neural network approach to explore signaling dynamics landscapes."
+  },
+  "content": {
+    "abstract": "Current studies of cell signaling dynamics that use live cell fluorescent biosensors routinely yield thousands of single-cell, heterogeneous, multi-dimensional trajectories. Typically, the extraction of relevant information from time series data relies on predefined, human-interpretable features. Without a priori knowledge of the system, the predefined features may fail to cover the entire spectrum of dynamics. Here we present CODEX, a data-driven approach based on convolutional neural networks (CNNs) that identifies patterns in time series. It does not require a priori information about the biological system and the insights into the data are built through explanations of the CNNs' predictions. CODEX provides several views of the data: visualization of all the single-cell trajectories in a low-dimensional space, identification of prototypic trajectories, and extraction of distinctive motifs. We demonstrate how CODEX can provide new insights into ERK and Akt signaling in response to various growth factors, and we recapitulate findings in p53 and TGFbeta-SMAD2 signaling.",
+    "keywords": [
+      "cell signaling",
+      "convolutional neural network",
+      "data exploration",
+      "live biosensor imaging",
+      "time series analysis"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "Animals",
+      "Cell Line",
+      "Databases as Topic",
+      "Dose-Response Relationship, Radiation",
+      "Drosophila/physiology/radiation effects",
+      "Extracellular Signal-Regulated MAP Kinases/metabolism",
+      "Fluorescent Dyes/metabolism",
+      "Humans",
+      "Intercellular Signaling Peptides and Proteins/metabolism",
+      "Light",
+      "Machine Learning",
+      "Movement/radiation effects",
+      "*Neural Networks, Computer",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Radiation, Ionizing",
+      "*Signal Transduction",
+      "Transforming Growth Factor beta/metabolism",
+      "Tumor Suppressor Protein p53/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jacques, Marc-Antoine",
+        "Dobrzynski, Maciej",
+        "Gagliardi, Paolo Armando",
+        "Sznitman, Raphael",
+        "Pertz, Olivier"
+      ],
+      "short_names": [
+        "Jacques MA",
+        "Dobrzynski M",
+        "Gagliardi PA",
+        "Sznitman R",
+        "Pertz O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8224-9285",
+        "ORCID: 0000-0002-0208-7758",
+        "ORCID: 0000-0002-4818-035X",
+        "ORCID: 0000-0001-8579-4919"
+      ],
+      "affiliations": [
+        "Institute of Cell Biology, University of Bern, Bern, Switzerland.",
+        "Institute of Cell Biology, University of Bern, Bern, Switzerland.",
+        "Institute of Cell Biology, University of Bern, Bern, Switzerland.",
+        "ARTORG Center for Biomedical Engineering Research, University of Bern, Bern, Switzerland.",
+        "Institute of Cell Biology, University of Bern, Bern, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jacques, Marc-Antoine",
+        "short_name": "Jacques MA",
+        "identifiers": [
+          "0000-0002-8224-9285"
+        ],
+        "affiliations": [
+          "Institute of Cell Biology, University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Dobrzyński, Maciej",
+        "short_name": "Dobrzyński M",
+        "identifiers": [
+          "0000-0002-0208-7758"
+        ],
+        "affiliations": [
+          "Institute of Cell Biology, University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Gagliardi, Paolo Armando",
+        "short_name": "Gagliardi PA",
+        "identifiers": [
+          "0000-0002-4818-035X"
+        ],
+        "affiliations": [
+          "Institute of Cell Biology, University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sznitman, Raphael",
+        "short_name": "Sznitman R",
+        "identifiers": [],
+        "affiliations": [
+          "ARTORG Center for Biomedical Engineering Research, University of Bern, Bern, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pertz, Olivier",
+        "short_name": "Pertz O",
+        "identifiers": [
+          "0000-0001-8579-4919"
+        ],
+        "affiliations": [
+          "Institute of Cell Biology, University of Bern, Bern, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular systems biology"
+    ],
+    "journal_abbrev": [
+      "Mol Syst Biol"
+    ],
+    "pub_date": "2021 Apr",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/10 06:00",
+    "fetched_at": "2026-09-27 15:42:39"
+  },
+  "links": {
+    "cites": [
+      "42589495",
+      "42296421",
+      "41896452",
+      "41068071",
+      "41064112",
+      "40126098",
+      "39391633",
+      "39337687",
+      "38388694",
+      "38238594",
+      "38038974",
+      "37142678",
+      "35965452",
+      "35694820",
+      "35478994",
+      "35245783",
+      "33964274",
+      "33795377"
+    ],
+    "refs": [
+      "38093482",
+      "34081908",
+      "33617523",
+      "31777174",
+      "31570887",
+      "31510700",
+      "30166458",
+      "29969450",
+      "29886111",
+      "29371237",
+      "29199017",
+      "29112851",
+      "29102608",
+      "28442631",
+      "26613961",
+      "24949979",
+      "23452846",
+      "23219535",
+      "22785351",
+      "21224886",
+      "20581820",
+      "20495582",
+      "18641657",
+      "14730303"
+    ],
+    "similar": [
+      "33835701",
+      "25882870",
+      "22039050",
+      "38834572",
+      "32294432",
+      "31536726",
+      "24655548",
+      "25767119",
+      "18448277",
+      "18505846",
+      "34392440",
+      "25799134",
+      "17570321",
+      "31125414",
+      "24425749",
+      "28412748",
+      "20130271",
+      "24586866",
+      "24069528",
+      "34328199",
+      "38038974",
+      "20726858",
+      "22665040",
+      "33712543",
+      "31701691",
+      "23287991",
+      "34563599",
+      "16251184",
+      "28100485",
+      "32191874",
+      "22130357",
+      "28819643",
+      "31178144",
+      "17107963",
+      "33706810",
+      "19661225",
+      "21380726",
+      "32100006",
+      "17204482",
+      "24789534",
+      "14508103",
+      "16484225",
+      "29886111",
+      "24227918",
+      "27247077",
+      "23571852",
+      "18182859",
+      "22834838",
+      "16527552",
+      "29039535",
+      "17560675",
+      "27624978",
+      "21289294",
+      "29601989",
+      "20562913",
+      "17350964",
+      "27983763",
+      "31289212",
+      "20011526",
+      "24069530",
+      "22001397",
+      "15845847",
+      "23505453",
+      "20890302",
+      "22672900",
+      "20471474",
+      "15546863",
+      "28930658",
+      "31438892",
+      "32680529",
+      "17114344",
+      "29393472",
+      "23180942",
+      "19966853",
+      "26930065",
+      "23404993",
+      "30194936",
+      "12876289",
+      "17699110",
+      "24642271",
+      "22105580",
+      "28326537",
+      "11694525",
+      "19617533",
+      "32161037",
+      "28442631",
+      "27226630",
+      "34809697",
+      "26235239",
+      "27893708",
+      "17525275",
+      "26764203",
+      "16775010",
+      "16152620",
+      "20616313",
+      "16187238",
+      "25776923",
+      "26497550",
+      "18678286",
+      "28968756"
+    ],
+    "review": [
+      "33835701"
+    ],
+    "pmc": [
+      "8034356"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://boris-portal.unibe.ch/handle/20.500.12422/42144",
+        "provider": "Bern Open Repository and Information System",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full text from BORIS Portal"
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=33835701",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.15252/msb.202010026",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33835701/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33835701",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33835701",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

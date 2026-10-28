@@ -1,0 +1,126 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.11.08.467823",
+  "title": "PccGEO: prior constraints conditioned genetic elements optimization",
+  "doi": "10.1101/2021.11.08.467823",
+  "abstract": "Functional genetic elements are one of the most essential units for synthetic biology. However, both knowledge-driven and data-driven methodology can hardly accomplish the complicated task of genetic elements design efficiently due to the lack of explicit regulatory logics and training samples. Here, we proposed a knowledge-constraint deep learning model named PccGEO to automatically design functional genetic elements with high success rate and efficiency. PccGEO utilized a novel “fill-in-the-flank” strategy with a conditional generative adversarial network structure to optimize the flanking regions of known functional sequences derived from the biological prior knowledge, which can efficiently capture the implicit patterns with a reduced searching space. We applied PccGEO in the design of Escherichia coli promoters, and found that the implicit patterns in flanking regions matter to the properties of promoters such as the expression level. The PccGEO-designed constitutive and inducible promoters showed more than 91.6% chance of success by in vivo validation. We further utilized PccGEO by setting a limited frequency of nucleotide modifications and surprisingly found that the expression level of E. coli sigma 70 promoters could show up to a 159.3-fold increase with only 10-bp nucleotide modifications. The results supported that the implicit patterns are important in the design of functional gene elements and validated the strong capacity of our method in the efficient design of functional genetic elements. <h4>Availability</h4> https://github.com/WangLabTHU/PccGEO",
+  "authors": [
+    "Xu H",
+    "Zhang P",
+    "Wang H",
+    "Wei L",
+    "Hu Z",
+    "Wang X"
+  ],
+  "published_date": "2021-11-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.11.08.467823",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.11.08.467823.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR418093",
+    "raw_record": {
+      "id": "PPR418093",
+      "source": "PPR",
+      "doi": "10.1101/2021.11.08.467823",
+      "title": "PccGEO: prior constraints conditioned genetic elements optimization",
+      "authorString": "Xu H, Zhang P, Wang H, Wei L, Hu Z, Wang X.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Xu H",
+            "lastName": "Xu",
+            "firstName": "Hanwen",
+            "initials": "H"
+          },
+          {
+            "fullName": "Zhang P",
+            "lastName": "Zhang",
+            "firstName": "Pengcheng",
+            "initials": "P"
+          },
+          {
+            "fullName": "Wang H",
+            "lastName": "Wang",
+            "firstName": "Haochen",
+            "initials": "H"
+          },
+          {
+            "fullName": "Wei L",
+            "lastName": "Wei",
+            "firstName": "Lei",
+            "initials": "L"
+          },
+          {
+            "fullName": "Hu Z",
+            "lastName": "Hu",
+            "firstName": "Zhirui",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Wang X",
+            "lastName": "Wang",
+            "firstName": "Xiaowo",
+            "initials": "X"
+          }
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Functional genetic elements are one of the most essential units for synthetic biology. However, both knowledge-driven and data-driven methodology can hardly accomplish the complicated task of genetic elements design efficiently due to the lack of explicit regulatory logics and training samples. Here, we proposed a knowledge-constraint deep learning model named PccGEO to automatically design functional genetic elements with high success rate and efficiency. PccGEO utilized a novel “fill-in-the-flank” strategy with a conditional generative adversarial network structure to optimize the flanking regions of known functional sequences derived from the biological prior knowledge, which can efficiently capture the implicit patterns with a reduced searching space. We applied PccGEO in the design of  Escherichia coli promoters, and found that the implicit patterns in flanking regions matter to the properties of promoters such as the expression level. The PccGEO-designed constitutive and inducible promoters showed more than 91.6% chance of success by in vivo validation. We further utilized PccGEO by setting a limited frequency of nucleotide modifications and surprisingly found that the expression level of  E. coli sigma 70 promoters could show up to a 159.3-fold increase with only 10-bp nucleotide modifications. The results supported that the implicit patterns are important in the design of functional gene elements and validated the strong capacity of our method in the efficient design of functional genetic elements.  <h4>Availability</h4>  https://github.com/WangLabTHU/PccGEO",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/11/09/2021.11.08.467823.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.11.08.467823"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-11-11",
+      "firstPublicationDate": "2021-11-09",
+      "firstIndexDate": "2021-11-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40251429",
+  "title": "A random forest-based predictive model for classifying BRCA1 missense variants: a novel approach for evaluating the missense mutations effect.",
+  "authors": "Ka, Hamed; Naghinejad, Maryam; Amirfiroozy, Akbar; Shamsir, Mohd Shahir; Parvizpour, Sepideh; Razmara, Jafar",
+  "journal": "Journal of human genetics",
+  "published_date": "2025-04-19",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用随机森林分类BRCA1错义变体的临床意义，基于序列与理化特征，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "The right classification of variants is the key to pre-symptomatic detection of disease and conducting preventive actions. Since BRCA1 has a high incidence and penetrance in breast and ovarian cancers, a high-performance predictive tool can be employed to classify the clinical significance of its variants. Several tools have previously been developed for this purpose which poorly classify the significance in specific cases. The proposed tools commonly assign a score without providing any interpretation behind it. To reach an accurate predictive tool with interpretation abilities, in this study, we propose BRCA1-Forest which works based on random forest as a well-known machine learning technique for making interpretable decisions with high specificity and sensitivity in variants classification. The method involves narrowing down available options until reaching the final decision. To this end, a set of BRCA1 benign and pathogenic missense variants was collected first, and then, the dataset was prepared based on the effect of each variant on the protein sequence. The dataset was enriched by adding physicochemical changes and the conservation score of the amino acid position as pathogenicity criteria. The proposed model was trained based on the dataset to classify the clinical significance of variants. The performance of BRCA1-Forest was compared to four state-of-the-art methods, SIFT, PolyPhen2, CADD, and DANN, in terms of different evaluation metrics including precision, recall, false positive rate (FPR), the area under the receiver operator curve (AUC ROC), the area under the precision-recall curve (AUC-PR), and Mathew correlation coefficient (MCC). The results reveal that the proposed model outperforms the abovementioned tools in all metrics except for recall. The software of BRCA1-Forest is available at https://github.com/HamedKAAC/BRCA1Forest .",
+  "abstract_zh": "变异的正确分类是疾病症状前检测和采取预防措施的关键。由于BRCA1在乳腺癌和卵巢癌中具有高发病率和外显率，可以采用高性能预测工具对其变异的临床意义进行分类。此前已开发了几种用于此目的的工具，但在特定情况下对变异意义的分类效果不佳。提出的工具通常分配一个分数，而不提供其背后的任何解释。为了达到具有解释能力的准确预测工具，在本研究中，我们提出了BRCA1-Forest，它基于随机森林（random forest）这一著名的机器学习技术，在变异分类中做出具有高特异性和敏感性的可解释决策。该方法涉及缩小可用选项范围，直至达到最终决策。为此，首先收集了一组BRCA1良性及致病性错义变异，然后根据每个变异对蛋白质序列的影响准备数据集。通过添加理化变化和氨基酸位置的保守性评分作为致病性标准，丰富了数据集。所提出的模型基于该数据集进行训练，以对变异的临床意义进行分类。将BRCA1-Forest的性能与四种最先进的方法（SIFT、PolyPhen2、CADD和DANN）在包括精确度、召回率、假阳性率（FPR）、接收者操作特征曲线下面积（AUC ROC）、精确率-召回率曲线下面积（AUC-PR）和马修斯相关系数（MCC）等不同评估指标上进行了比较。结果表明，所提出的模型在所有指标上均优于上述工具，除了召回率。BRCA1-Forest的软件可在https://github.com/HamedKAAC/BRCA1Forest获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40251429/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40251429/",
+  "paper_page_path": "papers/pubmed/40251429/index.html"
+}

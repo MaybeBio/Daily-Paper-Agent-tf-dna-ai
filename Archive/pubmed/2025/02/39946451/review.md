@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors state that combinations of transcription factors govern cell type identity, reflected by genomic enhancer codes. They used deep learning to characterize these codes and devised three metrics to compare telencephalic cell types across amniotes. They generated single-cell multiome and spatially resolved transcriptomics data of the chicken telencephalon. They report high similarity of enhancer codes for orthologous nonneuronal and GABAergic cell types across amniotes, varying similarity for excitatory neurons of the mammalian neocortex and avian pallium, and greatest similarity between avian mesopallial neurons and mammalian deep-layer neurons. They claim the approaches are generally applicable for characterizing and comparing cell types based on genomic regulatory sequences.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, methods description, all figures and tables, supplementary materials, data availability statements, and any statistical or computational validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and technically ambitious approach to cross-species cell type comparison using enhancer codes inferred by deep learning. The central claim, that avian mesopallial neurons resemble mammalian deep-layer neurons, is consistent with some prior comparative studies, but the abstract alone does not provide sufficient detail to evaluate the validity of the three metrics, the quality of the generated data, or the robustness of the comparisons. The work could be of broad interest to evolutionary neuroscientists and computational biologists, but the evidence base provided is too limited to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Evolutionary neuroscientists studying pallial homologies across amniotes would be directly interested, as the findings speak to long-standing debates about the relationship between avian and mammalian brain regions. Computational biologists developing deep learning approaches for regulatory genomics would also be interested in the methodological contribution. Additionally, researchers in comparative genomics and cell type evolution would find the cross-species enhancer code comparison framework relevant.
+- **Major strengths** The use of deep learning to infer enhancer codes and compare cell types across species is a novel and potentially powerful approach. The generation of new single-cell multiome and spatially resolved transcriptomics data for the chicken telencephalon is a valuable resource. The focus on enhancer codes rather than transcriptomes alone offers a distinct regulatory perspective on cell type identity and evolution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "deep learning" was used to characterize enhancer codes and that "three metrics" were devised to compare cell types across amniotes.
+  - **Evidence pointer** Abstract only; methods not provided
+  - **Concern** The abstract provides no description of the deep learning architecture, training data, validation strategy, or the nature of the three metrics. Without this information, it is impossible to assess whether the enhancer codes are accurately inferred or whether the metrics are biologically meaningful and statistically robust.
+  - **Why it matters** The entire conclusion rests on the validity of these computational methods. If the deep learning model is poorly trained or the metrics are not well calibrated, the reported similarities and differences between cell types could be artifacts.
+  - **Resolution test** Provide a detailed methods section describing the model architecture, training and test data, cross-validation, and a formal definition of the three metrics with benchmarks or simulations demonstrating their reliability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "enhancer codes of orthologous nonneuronal and GABAergic cell types show a high degree of similarity across amniotes, whereas excitatory neurons of the mammalian neocortex and avian pallium exhibit varying degrees of similarity."
+  - **Evidence pointer** Abstract only; no figures or tables
+  - **Concern** No quantitative results are presented. The abstract does not report effect sizes, statistical significance, or the number of cell types compared. The phrase "varying degrees of similarity" is vague and does not allow the reader to evaluate the strength or consistency of the pattern.
+  - **Why it matters** The central biological conclusion depends on the magnitude and reliability of the observed similarities. Without numbers or statistical support, the claim is not verifiable from the provided material.
+  - **Resolution test** Include figures or tables showing similarity scores for each cell type comparison, with confidence intervals or significance tests, and specify the number of biological replicates and cell types analyzed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that "enhancer codes of avian mesopallial neurons are most similar to those of mammalian deep-layer neurons."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a specific and strong claim, but the abstract provides no comparative data showing that mesopallial neurons are more similar to deep-layer neurons than to other mammalian neuronal types. It is unclear how many mammalian cell types were compared and whether the difference is substantial or marginal.
+  - **Why it matters** This claim is likely to be the most discussed finding. If it is not robustly supported, it could mislead the field regarding avian-mammalian pallial homologies.
+  - **Resolution test** Provide a direct comparison of mesopallial enhancer codes against multiple mammalian excitatory neuron types, with quantitative similarity scores and statistical assessment of the ranking.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "enhancer codes" is used without definition. It is unclear whether this refers to the set of transcription factor binding motifs, the predicted enhancer activity, or the latent representation learned by the deep learning model.
+  - **Required correction** Define "enhancer code" explicitly in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not state whether the single-cell multiome and spatially resolved transcriptomics data will be publicly deposited.
+  - **Required correction** State data availability in the abstract or ensure it is clearly indicated in the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim of general applicability
+  - **Evidence pointer** Abstract
+  - **Issue** The authors claim the approaches are "generally applicable," but the abstract only demonstrates their use in the telencephalon of amniotes. It is unclear whether the methods would work in other brain regions or species with different regulatory architectures.
+  - **Required correction** Soften the claim or provide a brief justification for general applicability based on the method design.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail, quantitative results, and direct comparative evidence means the central claims cannot be evaluated from the supplied material.
+- **Assessment against Nature-style criteria** Originality is high, as the combination of deep learning with enhancer code comparison across species appears novel. Scientific importance is potentially high for evolutionary neuroscience and regulatory genomics. Interdisciplinary readership is plausible, spanning neuroscience, genomics, and computational biology. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate, though terms like "enhancer codes" and "multiome" may require more context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes promising work, but the lack of methodological and quantitative detail prevents a supportive recommendation. If the full manuscript addresses the concerns above, the work could become a strong candidate for publication.
+
+## Risk / unsupported claims
+- The claim that avian mesopallial neurons are most similar to mammalian deep-layer neurons is unsupported by the abstract alone, as no comparative data are shown.
+- The claim that the approaches are "generally applicable" is unsupported, as only one brain region and one taxonomic group are mentioned.
+- The claim of "high degree of similarity" for nonneuronal and GABAergic cell types is unquantified and cannot be evaluated.
+- The existence and validity of the "three metrics" are not described, making any result based on them unverifiable.

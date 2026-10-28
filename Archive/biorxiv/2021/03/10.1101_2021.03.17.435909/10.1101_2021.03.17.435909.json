@@ -1,0 +1,433 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.17.435909",
+  "title": "High throughput genome-wide single cell protein:DNA binding site mapping by targeted insertion of promoters (TIP-seq)",
+  "doi": "10.1101/2021.03.17.435909",
+  "abstract": "Assessing cell to cell, and importantly, chromosome to chromosome, heterogeneity in cellular phenotypes is a central goal of modern cell biology. However, chromatin profiling in single cells has been extremely challenging, and single chromosome profiling has not been achieved. In cases where single cell methods have shown promise, success has been mainly limited to histone proteins and/or require highly specialized equipment or cell type specific protocols and are relatively low throughput. Here, we have combined the advantages of tagmentation, linear amplification and combinatorial indexing to produce a high throughput single cell DNA binding site mapping method that does not require specialized equipment and is capable of multiplexing several samples/ target proteins in one experiment. Targeted Insertion of Promoters (TIP-seq) uses Tn5 fused to protein A (as with CUT&Tag) to insert a T7 RNA polymerase promoter into sites adjacent to an antibody bound to a chromatin protein of interest, followed by linear amplification of flanking DNA with T7 polymerase, cDNA preparation and PCR indexing. Tip-seq provides ∼10-fold higher unique reads and thus higher coverage per single cell compared to state-of-the-art methods. We apply TIP-seq to map histone modifications, RNA PolII and CTCF binding sites in single human and mouse cells. TIP-seq will also be adaptable for other platforms, such as 10X genomics and ICELL8. In summary, TIP-seq provides a high-throughput, low-cost method for single cell protein mapping, that yields substantially higher coverage per cell and signal to noise than existing methods.",
+  "authors": [
+    "Daniel A. Bartlett",
+    "Vishnu Dileep",
+    "Steve Henikoff",
+    "David M. Gilbert"
+  ],
+  "published_date": "2021-03-19",
+  "updated_date": "2021-03-19T13:00:18Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.17.435909",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.17.435909.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T15:57:05Z",
+        "timestamp": 1768492625646,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            19
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 37,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                19
+              ]
+            ],
+            "date-time": "2021-03-19T00:00:00Z",
+            "timestamp": 1616112000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Assessing cell to cell, and importantly, chromosome to chromosome, heterogeneity in cellular phenotypes is a central goal of modern cell biology. However, chromatin profiling in single cells has been extremely challenging, and single chromosome profiling has not been achieved. In cases where single cell methods have shown promise, success has been mainly limited to histone proteins and/or require highly specialized equipment or cell type specific protocols and are relatively low throughput. Here, we have combined the advantages of tagmentation, linear amplification and combinatorial indexing to produce a high throughput single cell DNA binding site mapping method that does not require specialized equipment and is capable of multiplexing several samples/ target proteins in one experiment. Targeted Insertion of Promoters (TIP-seq) uses Tn5 fused to protein A (as with CUT&amp;Tag) to insert a T7 RNA polymerase promoter into sites adjacent to an antibody bound to a chromatin protein of interest, followed by linear amplification of flanking DNA with T7 polymerase, cDNA preparation and PCR indexing. Tip-seq provides ∼10-fold higher unique reads and thus higher coverage per single cell compared to state-of-the-art methods. We apply TIP-seq to map histone modifications, RNA PolII and CTCF binding sites in single human and mouse cells. TIP-seq will also be adaptable for other platforms, such as 10X genomics and ICELL8. In summary, TIP-seq provides a high-throughput, low-cost method for single cell protein mapping, that yields substantially higher coverage per cell and signal to noise than existing methods.</jats:p>",
+      "DOI": "10.1101/2021.03.17.435909",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2021-03-19T13:00:18Z",
+        "timestamp": 1616158818000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "High throughput genome-wide single cell protein:DNA binding site mapping by targeted insertion of promoters (TIP-seq)"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3197-2438",
+          "authenticated-orcid": false,
+          "given": "Daniel A.",
+          "family": "Bartlett",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vishnu",
+          "family": "Dileep",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Steve",
+          "family": "Henikoff",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David M.",
+          "family": "Gilbert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm891"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Baranello, L. , Kouzine, F. , Sanford, S. , and Levens, D. (2016). ChIP bias as a function of cross-linking time. Chromosom. Res.",
+          "DOI": "10.1007/s10577-015-9509-1"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms7033"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.4",
+          "unstructured": "Cao, J. , Packer, J.S. , Ramani, V. , Cusanovich, D.A. , Huynh, C. , Daza, R. , Qiu, X. , Lee, C. , Furlan, S.N. , Steemers, F.J. , et al. Comprehensive single-cell transcriptional profiling of a multicellular organism."
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cao, Z. , Chen, C. , He, B. , Tan, K. , and Lu, C. (2015). A microfluidic device for epigenomic profiling using 100 cells. Nat. Methods.",
+          "DOI": "10.1038/nmeth.3488"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Carter, B. , Ku, W.L. , Kang, J.Y. , Hu, G. , Perrie, J. , Tang, Q. , and Zhao, K. (2019). Mapping histone modifications in low cell number and single cells using antibody-guided chromatin tagmentation (ACT-seq). Nat. Commun. 10.",
+          "DOI": "10.1038/s41467-019-11559-1"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13889-6"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aak9787"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cusanovich, D.A. , Daza, R. , Adey, A. , Pliner, H.A. , Christiansen, L. , Gunderson, K.L. , Steemers, F.J. , Trapnell, C. , and Shendure, J. (2015). Multiplex single-cell profiling of chromatin accessibility by combinatorial cellular indexing. Science (80-.).",
+          "DOI": "10.1126/science.aab1601"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.7.3010"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.11.003"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0424-9"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1319",
+          "DOI": "10.1016/j.cell.2019.03.014",
+          "article-title": "Profiling of Pluripotency Factors in Single Cells and Early Embryos",
+          "volume": "177",
+          "year": "2019",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Harada, A. , Maehara, K. , Handa, T. , Arimura, Y. , Nogami, J. , Hayashi-Takanaka, Y. , Shirahige, K. , Kurumizaka, H. , Kimura, H. , and Ohkawa, Y. (2019). A chromatin integration labelling method enables epigenomic profiling with lower input. Nat. Cell Biol.",
+          "DOI": "10.1038/s41556-018-0248-3"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2012.08.003"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2011.345"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09982-5"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0361-7"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.4038"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1923"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "916",
+          "DOI": "10.1038/s41587-019-0147-6",
+          "article-title": "Droplet-based combinatorial indexing for massive-scale single-cell chromatin accessibility",
+          "volume": "37",
+          "year": "2019",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "77",
+          "DOI": "10.1093/bfgp/ely012",
+          "article-title": "A decade of ChIP-seq. Brief",
+          "volume": "17",
+          "year": "2018",
+          "journal-title": "Funct. Genomics"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/s41588-019-0429-4",
+          "article-title": "Expanding the single-cell genomics toolkit",
+          "volume": "51",
+          "year": "2019",
+          "journal-title": "Nat. Genet"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mulqueen, R.M. , Pokholok, D. , Norberg, S.J. , Torkenczy, K.A. , Fields, A.J. , Sun, D. , Sinnamon, J.R. , Shendure, J. , Trapnell, C. , O’Roak, B.J. , et al. (2018). Highly scalable generation of DNA methylation profiles in single cells. Nat. Biotechnol.",
+          "DOI": "10.1038/nbt.4112"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ramani, V. , Deng, X. , Qiu, R. , Gunderson, K.L. , Steemers, F.J. , Disteche, C.M. , Noble, W.S. , Duan, Z. , and Shendure, J. (2017). Massively multiplex single-cell Hi-C. Nat. Methods.",
+          "DOI": "10.1101/065052"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.26",
+          "unstructured": "Rooijers, K. , Markodimitraki, C.M. , Rang, F.J. , De Vries, S.S. , Chialastri, A. , De Luca, K.L. , Mooijman, D. , Dey, S.S. , and Kind, J. Simultaneous quantification of protein-DNA contacts and transcriptomes in single cells."
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2018.015"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sos, B.C. , Fung, H.L. , Gao, D.R. , Osothprarop, T.F. , Kia, A. , He, M.M. , and Zhang, K. (2016). Characterization of chromatin accessibility with a transposome hypersensitive sites sequencing (THS-seq) assay. Genome Biol.",
+          "DOI": "10.1186/s13059-016-0882-7"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M508013200"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vitak, S.A. , Torkenczy, K.A. , Rosenkrantz, J.L. , Fields, A.J. , Christiansen, L. , Wong, M.H. , Carbone, L. , Steemers, F.J. , and Adey, A. (2017). Sequencing thousands of single-cell genomes with combinatorial indexing. Nat. Methods.",
+          "DOI": "10.1038/nmeth.4154"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, Q. , Xiong, H. , Ai, S. , Yu, X. , Liu, Y. , Zhang, J. , and He, A. (2019). CoBATCH for High-Throughput Single-Cell Epigenomic Profiling. Mol. Cell.",
+          "DOI": "10.1101/590661"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Weiner, A. , Lara-Astiaso, D. , Krupalnik, V. , Gafni, O. , David, E. , Winter, D.R. , Hanna, J.H. , and Amit, I. (2016). Co-ChIP enables genome-wide mapping of histone mark co-occurrence at single-molecule resolution. Nat. Biotechnol.",
+          "DOI": "10.1038/nbt.3652"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature19361"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, Y. , Liu, T. , Meyer, C.A. , Eeckhoute, J. , Johnson, D.S. , Bernstein, B.E. , Nussbaum, C. , Myers, R.M. , Brown, M. , Li, W. , et al. (2008). Model-based analysis of ChIP-Seq (MACS). Genome Biol. 9.",
+          "DOI": "10.1186/gb-2008-9-9-r137"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, C. , Zhang, Y. , Li, Y.E. , Lucero, J. , Behrens, M.M. , and Ren, B. (2021). Joint profiling of histone modifications and transcriptome in single cells from mouse brain. Nat. Methods 1–10.",
+          "DOI": "10.1038/s41592-021-01060-3"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, S.J. , Furlan, S.N. , Mihalas, A.B. , Kaya-Okur, H. , Feroze, A.H. , Emerson, S.N. , Zheng, Y. , Carson, K. , Cimino, P.J. , Keene, C.D. , Holland, E.C. , Sarthy, J.F. , Gottardo, R. , Ahmad, K. , Henikoff, S. , and Patel, A.P. (2020). Single - cell analysis of chromatin silencing programs in developmental and tumor progression. bioRxiv doi: https://doi.org/10.1101/2020.09.04.282418",
+          "DOI": "10.1101/2020.09.04.282418"
+        },
+        {
+          "key": "2024080516223429000_2021.03.17.435909v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bartosovic, M. , Kabbe, M. , and Castelo-Branco, G. (2020). Single-cell profiling of histone modifications in the mouse brain. bioRxiv doi: https://doi.org/10.1101/2020.09.02.279703",
+          "DOI": "10.1101/2020.09.02.279703"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.17.435909",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:28:04Z",
+        "timestamp": 1768440484000
+      },
+      "score": 95.05167,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.03.17.435909"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            19
+          ]
+        ]
+      },
+      "references-count": 37,
+      "URL": "https://doi.org/10.1101/2021.03.17.435909",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

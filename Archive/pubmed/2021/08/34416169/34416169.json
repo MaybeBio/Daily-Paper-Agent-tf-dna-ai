@@ -1,0 +1,485 @@
+{
+  "identity": {
+    "pmid": "34416169",
+    "doi": "10.1016/j.neuron.2021.07.026",
+    "title": "NPAS4 regulates the transcriptional response of the suprachiasmatic nucleus to light and circadian behavior."
+  },
+  "content": {
+    "abstract": "The suprachiasmatic nucleus (SCN) is the master circadian pacemaker in mammals and is entrained by environmental light. However, the molecular basis of the response of the SCN to light is not fully understood. We used RNA/chromatin immunoprecipitation/single-nucleus sequencing with circadian behavioral assays to identify mouse SCN cell types and explore their responses to light. We identified three peptidergic cell types that responded to light in the SCN: arginine vasopressin (AVP), vasoactive intestinal peptide (VIP), and cholecystokinin (CCK). In each cell type, light-responsive subgroups were enriched for expression of neuronal Per-Arnt-Sim (PAS) domain protein 4 (NPAS4) target genes. Further, mice lacking Npas4 had a longer circadian period under constant conditions, a damped phase response curve to light, and reduced light-induced gene expression in the SCN. Our data indicate that NPAS4 is necessary for normal transcriptional responses to light in the SCN and critical for photic phase-shifting of circadian behavior.",
+    "keywords": [
+      "NPAS4",
+      "light simulation",
+      "single-nucleus RNA sequencing",
+      "suprachiasmatic nucleus"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Arginine Vasopressin/metabolism",
+      "Basic Helix-Loop-Helix Proteins/*genetics/metabolism",
+      "Cholecystokinin/metabolism",
+      "Chromatin Immunoprecipitation",
+      "Circadian Rhythm/*genetics/radiation effects",
+      "Gene Expression Profiling",
+      "*Light",
+      "Mice",
+      "Mice, Knockout",
+      "Neurons/*metabolism/radiation effects",
+      "Sequence Analysis, RNA",
+      "Single-Cell Analysis",
+      "Suprachiasmatic Nucleus/cytology/*metabolism/radiation effects",
+      "Vasoactive Intestinal Peptide/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Pin",
+        "Berto, Stefano",
+        "Kulkarni, Ashwinikumar",
+        "Jeong, Byeongha",
+        "Joseph, Chryshanthi",
+        "Cox, Kimberly H",
+        "Greenberg, Michael E",
+        "Kim, Tae-Kyung",
+        "Konopka, Genevieve",
+        "Takahashi, Joseph S"
+      ],
+      "short_names": [
+        "Xu P",
+        "Berto S",
+        "Kulkarni A",
+        "Jeong B",
+        "Joseph C",
+        "Cox KH",
+        "Greenberg ME",
+        "Kim TK",
+        "Konopka G",
+        "Takahashi JS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neurobiology, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA; Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA. Electronic address: joseph.takahashi@utsouthwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Pin",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Berto, Stefano",
+        "short_name": "Berto S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Kulkarni, Ashwinikumar",
+        "short_name": "Kulkarni A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Jeong, Byeongha",
+        "short_name": "Jeong B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Chryshanthi",
+        "short_name": "Joseph C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Cox, Kimberly H",
+        "short_name": "Cox KH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Greenberg, Michael E",
+        "short_name": "Greenberg ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Tae-Kyung",
+        "short_name": "Kim TK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Konopka, Genevieve",
+        "short_name": "Konopka G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Joseph S",
+        "short_name": "Takahashi JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Peter O'Donnell Jr. Brain Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA; Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX, USA. Electronic address: joseph.takahashi@utsouthwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuron"
+    ],
+    "journal_abbrev": [
+      "Neuron"
+    ],
+    "pub_date": "2021 Oct 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/21 06:00",
+    "fetched_at": "2026-09-27 22:24:28"
+  },
+  "links": {
+    "cites": [
+      "42412749",
+      "42237005",
+      "42175567",
+      "42135507",
+      "41818197",
+      "41680426",
+      "41630973",
+      "41576083",
+      "41486279",
+      "41451198",
+      "41315334",
+      "41142683",
+      "40963403",
+      "40906556",
+      "40651630",
+      "40588680",
+      "40386580",
+      "40199869",
+      "40171808",
+      "40133642",
+      "40064649",
+      "39967311",
+      "39752484",
+      "39719980",
+      "39529231",
+      "39096022",
+      "38958450",
+      "38935503",
+      "38806988",
+      "38590628",
+      "38317846",
+      "38238073",
+      "38195580",
+      "37853054",
+      "37813987",
+      "37643163",
+      "37627020",
+      "37624889",
+      "37196091",
+      "37186824",
+      "37156620",
+      "36877841",
+      "36866044",
+      "36854316",
+      "36835261",
+      "36812309",
+      "36741435",
+      "36343253",
+      "36293208",
+      "36013397",
+      "35401134",
+      "35115019",
+      "35054913",
+      "34789778"
+    ],
+    "refs": [
+      "33686299",
+      "32418612",
+      "32355031",
+      "32066983",
+      "31722213",
+      "31585079",
+      "31263776",
+      "30978643",
+      "30846309",
+      "30630934",
+      "30531897",
+      "30082421",
+      "29934559",
+      "29608179",
+      "29432155",
+      "29230054",
+      "28525301",
+      "28285822",
+      "28246182",
+      "28166221",
+      "28100584",
+      "27990019",
+      "27894927",
+      "27826225",
+      "27568590",
+      "27162356",
+      "26958833",
+      "26494785",
+      "26130804",
+      "25765347",
+      "25525750",
+      "25516281",
+      "25260700",
+      "25155955",
+      "25035422",
+      "24917305",
+      "24855953",
+      "24727982",
+      "24227677",
+      "24201284",
+      "23382592",
+      "23104886",
+      "22936566",
+      "22766204",
+      "22743226",
+      "22194569",
+      "21924978",
+      "21245039",
+      "21106759",
+      "20664079",
+      "20513432",
+      "20393465",
+      "20148688",
+      "20110278",
+      "19912470",
+      "19638298",
+      "19505943",
+      "19465376",
+      "19451168",
+      "19414593",
+      "19029915",
+      "18815592",
+      "18798982",
+      "18432195",
+      "18400165",
+      "18021443",
+      "17462724",
+      "17440214",
+      "17107936",
+      "16754844",
+      "16537451",
+      "12409294",
+      "12045153",
+      "12032351",
+      "11834834",
+      "11668676",
+      "9711509",
+      "9488654",
+      "8847666",
+      "8754249",
+      "8097062",
+      "3561415",
+      "2305266",
+      "2116813",
+      "1658630",
+      "1549784"
+    ],
+    "similar": [
+      "34416169",
+      "16115213",
+      "15135222",
+      "30283813",
+      "12086606",
+      "32768389",
+      "10986351",
+      "15353233",
+      "11982626",
+      "21156164",
+      "19358811",
+      "27626074",
+      "30082421",
+      "12007829",
+      "21788520",
+      "29688088",
+      "17978049",
+      "8041503",
+      "11556891",
+      "26342201",
+      "32536240",
+      "37172583",
+      "16262668",
+      "12542655",
+      "20731710",
+      "38205198",
+      "38663583",
+      "23382588",
+      "21061153",
+      "15703405",
+      "1795892",
+      "17553561",
+      "31059735",
+      "10844580",
+      "33361631",
+      "19805326",
+      "12622830",
+      "24727411",
+      "31327049",
+      "9751499",
+      "11876785",
+      "18801342",
+      "28017605",
+      "21143667",
+      "19732289",
+      "40055943",
+      "33526663",
+      "8813352",
+      "10888741",
+      "25084275",
+      "1421139",
+      "7749749",
+      "30532130",
+      "22080784",
+      "30346078",
+      "16819985",
+      "34856551",
+      "25994103",
+      "16687292",
+      "21039959",
+      "7735300",
+      "15193530",
+      "29383758",
+      "16616428",
+      "22223655",
+      "33472866",
+      "15176082",
+      "22684939",
+      "21907225",
+      "19032592",
+      "11245922",
+      "37132408",
+      "20463182",
+      "17826907",
+      "8180844",
+      "10997577",
+      "17250649",
+      "20881133",
+      "19052319",
+      "34994231",
+      "20074215",
+      "26370467",
+      "11578605",
+      "38590628",
+      "12242487",
+      "9663447",
+      "9685591",
+      "28174180",
+      "18080293",
+      "11754366",
+      "21628547",
+      "19222558",
+      "35992114",
+      "26390912",
+      "15344914",
+      "19926808",
+      "8426236",
+      "34504149",
+      "20180841",
+      "20838260"
+    ],
+    "review": [
+      "34416169",
+      "19358811",
+      "38663583",
+      "33361631",
+      "12622830",
+      "21143667"
+    ],
+    "pmc": [
+      "8542585"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0896-6273(21)00570-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/34416169",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34416169/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34416169",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3931",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse148252",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

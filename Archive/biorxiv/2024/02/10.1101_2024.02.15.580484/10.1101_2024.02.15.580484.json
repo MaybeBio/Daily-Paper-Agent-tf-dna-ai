@@ -1,0 +1,227 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.15.580484",
+  "title": "Predicting cell type-specific epigenomic profiles accounting for distal genetic effects",
+  "doi": "10.1101/2024.02.15.580484",
+  "abstract": "Understanding genetic variants effects on the epigenome is crucial for interpreting genome-wide association studies (GWAS) results, yet profiling these effects across the non-coding genome remains challenging due to the scalability limits of experimental methods. This necessitates accurate computational models. Existing machine learning approaches, while progressively improving, are confined to the cell types they were trained on, limiting their applicability. Here, we propose the development of a deep learning model, Enformer Celltyping, which can both incorporate distal effects of DNA interactions, up to 100,000 base-pairs away, and predict epigenetic signals in a cell type-agnostic fashion. We demonstrate that Enformer Celltypings predictions of the epigenome out-perform the current best-in-class approach, have strong performance in a range of different cell types and biological regions and generalise to cell types assayed independently of the original training set. Finally, we propose an approach to test epigenetic models performance on genetic variant effect predictions using regulatory quantitative trait loci mapping studies, highlighting Enformer Celltypings and other genomic deep learning models limitations for this task. Our work introduces a new, accurate model for cell type-agnostic histone mark predictions and highlights the benefit of transfer learning for more efficient model development for deep learning in genomics. We make our customisable and efficient transfer learning approach for Enformer available to the community.",
+  "authors": [
+    "Murphy AE",
+    "Beardall W",
+    "Rei M",
+    "Phuycharoen M",
+    "Skene NG"
+  ],
+  "published_date": "2024-02-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.15.580484",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.15.580484.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR807503",
+    "raw_record": {
+      "id": "PPR807503",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR807503"
+        ]
+      },
+      "doi": "10.1101/2024.02.15.580484",
+      "title": "Predicting cell type-specific epigenomic profiles accounting for distal genetic effects",
+      "authorString": "Murphy AE, Beardall W, Rei M, Phuycharoen M, Skene NG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Murphy AE",
+            "lastName": "Murphy",
+            "firstName": "Alan",
+            "initials": "AE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2487-8753"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UK Dementia Research Institute at Imperial College London, London W12 0BZ, UK"
+                },
+                {
+                  "affiliation": "Department of Brain Sciences, Imperial College London, London W12 0BZ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beardall W",
+            "lastName": "Beardall",
+            "firstName": "William",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, Imperial College London, London SW7 2AZ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rei M",
+            "lastName": "Rei",
+            "firstName": "Marek",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computing, Imperial College London, London SW7 2RH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Phuycharoen M",
+            "lastName": "Phuycharoen",
+            "firstName": "Mike",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2574-6074"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Informatics, Imaging & Data Sciences, University of Manchester, M13 9PL, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skene NG",
+            "lastName": "Skene",
+            "firstName": "Nathan",
+            "initials": "NG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6807-3180"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UK Dementia Research Institute at Imperial College London, London W12 0BZ, UK"
+                },
+                {
+                  "affiliation": "Department of Brain Sciences, Imperial College London, London W12 0BZ, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2487-8753"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2574-6074"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6807-3180"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Understanding genetic variants effects on the epigenome is crucial for interpreting genome-wide association studies (GWAS) results, yet profiling these effects across the non-coding genome remains challenging due to the scalability limits of experimental methods. This necessitates accurate computational models. Existing machine learning approaches, while progressively improving, are confined to the cell types they were trained on, limiting their applicability. Here, we propose the development of a deep learning model, Enformer Celltyping, which can both incorporate distal effects of DNA interactions, up to 100,000 base-pairs away, and predict epigenetic signals in a cell type-agnostic fashion. We demonstrate that Enformer Celltypings predictions of the epigenome out-perform the current best-in-class approach, have strong performance in a range of different cell types and biological regions and generalise to cell types assayed independently of the original training set. Finally, we propose an approach to test epigenetic models performance on genetic variant effect predictions using regulatory quantitative trait loci mapping studies, highlighting Enformer Celltypings and other genomic deep learning models limitations for this task. Our work introduces a new, accurate model for cell type-agnostic histone mark predictions and highlights the benefit of transfer learning for more efficient model development for deep learning in genomics. We make our customisable and efficient transfer learning approach for Enformer available to the community.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.15.580484"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR807503"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR807503&type=FILE&fileName=EMS194206-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39550354",
+            "reference": "Nature communications. 2024 Nov;15(1):9951",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194206",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "ega",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-02-18",
+      "firstPublicationDate": "2024-02-17",
+      "firstIndexDate": "2024-02-18",
+      "fullTextReceivedDate": "2024-03-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

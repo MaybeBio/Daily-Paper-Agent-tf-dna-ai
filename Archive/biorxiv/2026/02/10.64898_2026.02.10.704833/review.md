@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Acknowledgments) as provided by the author. Figures, supplementary materials, and references were not provided in full.
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretational validity as presented in the provided text. No independent replication or re-analysis of raw data was performed.
+- **Shared manuscript claim summary** The authors report that the isolated bZIP domain of Gcn4 undergoes DNA-induced liquid-liquid phase separation in the absence of its activation domain. Using SAXS, all-atom MD simulations, and EOM, they identify a minor conformational population with a kink at the basic region–leucine zipper junction, and propose that SAXS can quantitatively probe protein conformations within condensates.
+- **Visible evidence base** SAXS data (Figure 1, Table 1), SREFLEX refinement (Figure 2, S4), optical microscopy (Figure 3), EOM analysis (Figure 4, Table 2), MD trajectory analysis (Figure 5, S5), DENSS ab initio reconstructions (Figure 6). Methods descriptions for protein production, SAXS, MD, and EOM are present.
+- **Missing materials affecting confidence** Raw SAXS curves, fit residuals, MD simulation convergence metrics, force field validation details, full EOM pool/selection statistics, microscopy quantification, and supplementary figures were not available for independent assessment. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting observation: that a structured DNA-binding domain can drive phase separation, challenging the prevailing emphasis on disordered activation domains. The combination of SAXS with all-atom MD and EOM is methodologically ambitious. However, the central claims are not fully established from the provided evidence. The phase separation observation is largely qualitative, the assignment of the kinked conformation to a specific phase is speculative, and the quantitative interpretation of SAXS data from a phase-separated sample requires more rigorous treatment. The manuscript would benefit from additional controls, quantitative microscopy, and a more cautious interpretation of the EOM results.
+- **Who would be interested in the results, and why** Researchers in the fields of transcriptional regulation, biomolecular condensates, and phase separation. The work may also interest structural biologists using SAXS to study dynamic or heterogeneous systems, and those studying the biophysics of DNA-protein interactions. The claim that a structured bZIP domain alone can drive phase separation, if substantiated, would be relevant to understanding minimal requirements for condensate formation in transcription factors.
+- **Major strengths** The study addresses a timely and debated question. The use of SAXS to probe a phase-separated sample is innovative. The combination of experimental scattering with all-atom MD and EOM is a sophisticated approach. The identification of a kinked conformational subpopulation is a novel observation that could have functional implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for phase separation claim
+  - **Claim pointer** The authors claim that the isolated bZIP domain undergoes DNA-induced phase separation, and that this is sufficient to drive the transition.
+  - **Evidence pointer** Results, "Interaction between Gcn4 bZIP and ARG-1A leads to phase separation"; Figure 3
+  - **Concern** The evidence for phase separation is limited to visual observation of turbidity and optical microscopy images. No quantitative characterization is provided, such as fluorescence recovery after photobleaching (FRAP), rheology, or concentration-dependent phase diagrams. The claim that the bZIP domain is "sufficient" to drive phase separation requires demonstration that the observed droplets are liquid, not amorphous aggregates, and that the phenomenon is specific to the DNA-protein interaction rather than a general electrostatic effect.
+  - **Why it matters** The central novelty of the paper rests on this claim. Without quantitative evidence of liquid-like behavior and a clear demonstration of the driving forces, the conclusion that DNA binding drives phase separation of the bZIP domain is not established.
+  - **Resolution test** Provide FRAP data showing recovery, demonstrate reversible droplet formation upon dilution or temperature cycling, and construct a phase diagram showing the dependence of droplet formation on protein and DNA concentrations. Include a control with a non-specific DNA sequence or a mutant bZIP to show specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of SAXS data from phase-separated samples
+  - **Claim pointer** The authors claim that SAXS can quantitatively probe the conformational ensemble of the complex within the condensate phase.
+  - **Evidence pointer** Results, "SAXS allows us to probe the complex also in a phase-separated sample"; Figure 1, Table 1
+  - **Concern** The manuscript states that the SAXS curve is "not significantly impacted by phase separation, except at very low q values," but the interpretation of the data as reflecting the average of dilute and droplet phases is not rigorously justified. The contribution of the droplet phase to the scattering signal is not modeled or quantified. The EOM analysis was performed on the entire dataset, which includes contributions from both phases, yet the authors assign the kinked conformation to the dilute phase and the straight conformation to the droplet phase without a clear basis for this deconvolution.
+  - **Why it matters** The claim that SAXS can quantitatively interrogate conformations within condensates is a major methodological assertion. If the contributions of the two phases are not properly separated, the derived conformational populations may be artifacts of the averaging.
+  - **Resolution test** Perform a detailed analysis of the low-q region, model the contribution of the droplet phase to the scattering, and ideally separate the scattering from the two phases using techniques such as size-exclusion chromatography coupled to SAXS or by varying the volume fraction of the droplet phase. Alternatively, temper the claims to state that the data are consistent with, but do not prove, the presence of two conformations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Robustness of the EOM/MD-derived conformational ensemble
+  - **Claim pointer** The authors claim to identify a previously unrecognized minor population with a pronounced kink at the basic region–leucine zipper junction, comprising ~10% of the ensemble.
+  - **Evidence pointer** Results, "Gcn4 bZIP exists in two different conformations"; Figure 4, Table 2
+  - **Concern** The EOM analysis relies on a 100 ns MD simulation to generate the conformational pool. This timescale may be insufficient to sample the full conformational space of a bZIP domain, particularly the kinked state. The manuscript does not report convergence of the MD simulation, nor does it compare the EOM-selected ensemble with the full pool in a way that demonstrates the uniqueness of the solution. The χ² value of 214, described as "excellent," is not placed in context with the number of data points or the expected noise level.
+  - **Why it matters** The identification of a new conformational state is a key finding. If the MD sampling is inadequate or the EOM selection is not robust, the kinked population may be an artifact.
+  - **Resolution test** Extend the MD simulation and demonstrate convergence of relevant order parameters. Perform multiple independent EOM runs to show that the selection is reproducible. Report the χ² per degree of freedom and compare with the expected statistical noise. Validate the kinked conformation with an independent experimental method, such as NMR residual dipolar couplings or double electron-electron resonance (DEER) spectroscopy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Speculative phase-specific assignment
+  - **Claim pointer** The authors suggest that the straight conformation may dominate in the droplet phase and the kinked conformation in the dilute phase.
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Concern** This assignment is presented as a plausible interpretation but is not directly supported by the data. The SAXS measurement averages over both phases, and the EOM analysis does not distinguish between them. The argument based on "conceptual similarity" with the crystal environment is not a substitute for experimental evidence.
+  - **Why it matters** This speculation is presented in the abstract and discussion as a key insight. If it is not supported, it overstates the findings.
+  - **Resolution test** Design an experiment to directly probe the conformation in each phase, for example by using fluorescence lifetime imaging microscopy (FLIM) with a conformation-sensitive dye, or by performing SAXS on a sample where the droplet phase is the dominant scattering species. Alternatively, remove or clearly label this as speculation in the text.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Materials and Methods, "Molecular dynamics Simulations"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the MD simulation setup is incomplete. The force field used for the production run is not explicitly stated (the text mentions AMBER99SB-ildn and parmbsc1, but the earlier mention of ff99SB with parambsc0 is confusing). The length of the production run is stated as 100 ns, but the equilibration protocol is not fully described.
+  - **Required correction** Clarify the exact force field combination used for the production run. Provide details on the number of replicates, if any, and the criteria used to judge convergence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, "SAXS characterization of the two individual components"; Figure 1, Table 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript reports Rg and Dmax values but does not provide error estimates or the number of independent measurements. The Guinier fits are not shown.
+  - **Required correction** Include error bars or confidence intervals for all reported parameters. Show representative Guinier fits in the supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement that "prevailing models attribute condensate formation primarily to intrinsically disordered activation domains" is a simplification. Several studies have shown that structured domains, including DNA-binding domains, can contribute to phase separation.
+  - **Required correction** Provide a more nuanced discussion of the literature, citing examples where structured domains have been shown to drive or contribute to phase separation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "condensate phases" is used, but the manuscript does not clearly define whether this refers to the dense phase of a liquid-liquid phase separation or a more general aggregated state.
+  - **Required correction** Define the term clearly at first use and use consistent terminology throughout.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Gcn4 bZIP exists in two different conformations"; Figure 4
+  - **Evidence pointer** Location not provided
+  - **Issue** The 9:1 ratio of the two conformations is presented as a quantitative result, but no uncertainty estimate is provided. The sensitivity of this ratio to the EOM parameters is not discussed.
+  - **Required correction** Provide an estimate of the uncertainty in the population ratio, for example by running EOM multiple times with different random seeds and reporting the spread.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for phase separation), R1-M2 (rigorous treatment of SAXS data from phase-separated samples), R1-M3 (robustness of the EOM/MD-derived ensemble).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The observation that a structured bZIP domain can drive phase separation is a novel contribution that challenges prevailing assumptions. The use of SAXS to probe conformations in a phase-separated sample is also innovative. However, the originality is tempered by the lack of quantitative validation.
+  - **Scientific importance** If the claims are substantiated, the work would be important for understanding the minimal requirements for phase separation in transcription factors and for the structural biology of condensates. The potential to use SAXS to study conformations within condensates is a significant methodological advance.
+  - **Interdisciplinary readership** The topic bridges structural biology, biophysics, and gene regulation. The findings would be of interest to a broad readership, but the technical nature of the methods may limit accessibility.
+  - **Technical soundness** The combination of SAXS, MD, and EOM is appropriate, but the execution has gaps. The lack of quantitative phase separation characterization, the incomplete treatment of the two-phase SAXS data, and the potential inadequacy of the MD sampling are significant technical weaknesses.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections, particularly the methods, assume familiarity with specialized techniques. The abstract is accessible, but the discussion could be more cautious in distinguishing established findings from speculation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and a promising methodological approach, but the central claims require additional experimental validation and more rigorous data analysis. I would be supportive if the major concerns regarding quantitative phase separation characterization, SAXS data interpretation, and the robustness of the conformational ensemble are addressed.
+
+## Risk / unsupported claims
+- The claim that the bZIP domain is "sufficient" to drive phase separation is not quantitatively supported.
+- The assignment of the straight conformation to the droplet phase and the kinked conformation to the dilute phase is speculative.
+- The claim that SAXS can "quantitatively interrogate protein conformational ensembles within biomolecular condensates" is not fully established, as the contribution of the droplet phase to the scattering was not modeled.
+- The statement that the kinked conformation is "previously unrecognized" is difficult to evaluate without a more thorough literature search, but it is presented as a novel finding.
+- The claim that the observed phase separation is DNA-induced, rather than a general electrostatic effect, is not supported by control experiments with non-specific DNA or mutants.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no figures, tables, methods details, or full-text data were provided
+- **Shared manuscript claim summary** The authors report a biophysical study of berenil binding to two DNA dodecamers, d(CGCGAATTCGCG)2 and d(CGCAAATTTGCG)2, using isothermal titration calorimetry (ITC) and molecular docking. They propose that berenil exhibits a mixed binding behaviour, with a second berenil molecule potentially intercalating, and that the intercalative effect is entropically driven.
+- **Visible evidence base** Abstract text only; no experimental data, thermodynamic parameter values, docking scores, or statistical analyses are visible
+- **Missing materials affecting confidence** Full manuscript, ITC thermograms, fitted Wiseman isotherm parameters, docking protocols and outputs, error estimates, replicate information, and any comparison with prior structural or biophysical data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis regarding mixed binding modes for berenil on AT-rich DNA dodecamers. However, the current abstract provides insufficient quantitative evidence to evaluate the validity of the central claims. The thermodynamic parameters are mentioned but not reported, the docking results are not described, and the basis for assigning a second binding event to intercalation is not explained. The work may be of interest to the nucleic acid biophysics community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying DNA ligand interactions, particularly minor groove binders and their binding mode plasticity; computational chemists using docking to complement calorimetric data; and investigators interested in the mechanism of action of anti-trypanosomal agents such as berenil.
+- **Major strengths** The study addresses a relevant and somewhat contested question about berenil binding modes. The combination of ITC and molecular docking is appropriate for probing binding stoichiometry and thermodynamics. The use of two related dodecamer sequences allows for a comparative analysis of sequence effects.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "more than one berenil molecule can bind to DNA dodecamers double strands" and that "the second molecule may be interacting through intercalation."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that ITC data were analyzed by the Wiseman isotherm and classical thermodynamic equations, but no thermodynamic parameters, stoichiometry values, or binding constants are reported. The claim of a second binding event with an intercalative mode is presented without any supporting quantitative or structural evidence.  
+  - **Why it matters** The central novelty of the work appears to be the mixed binding mode hypothesis. Without reporting the actual ITC-derived parameters (e.g., n, K, ΔH, ΔS) and the docking results that support the intercalation assignment, the claim cannot be evaluated or reproduced.  
+  - **Resolution test** Provide the fitted stoichiometry values, binding constants, enthalpy and entropy changes for both binding events, and docking poses that clearly distinguish minor groove binding from intercalation for the second molecule.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Interpretive validity  
+  - **Claim pointer** The authors claim that "the intercalative effect of the molecule is entropically driven."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not report the entropy and enthalpy contributions for the proposed intercalative event. Without these values, the statement that the effect is entropically driven is unsupported. Moreover, entropic driving forces for intercalation are unusual and would require careful discussion of hydrophobic effects, counterion release, and conformational changes.  
+  - **Why it matters** This is a specific mechanistic conclusion that depends on quantitative thermodynamic data. If the data are not shown, the conclusion is not verifiable.  
+  - **Resolution test** Report ΔH and TΔS values for the second binding event, with uncertainties, and discuss the molecular origins of the entropic contribution.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The authors state that "thermodynamic parameters for complexation between the two DNAs were obtained by ITC experiments and Autodock calculations."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the docking protocol, scoring function, or how docking results were reconciled with ITC data. It is unclear whether docking was used to predict binding modes, estimate affinities, or both.  
+  - **Why it matters** Molecular docking results are highly protocol-dependent. Without details, the reader cannot assess the reliability of the computational contribution to the mixed binding mode hypothesis.  
+  - **Resolution test** Describe the docking methodology, including search parameters, scoring function, and how the top poses were selected and compared with ITC-derived stoichiometries.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "mixed bind behaviour" is grammatically awkward and imprecise.  
+  - **Required correction** Replace with "mixed binding behaviour" or "mixed binding mode."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Sequence rationale  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not explain why these two specific dodecamer sequences were chosen beyond being AT-rich.  
+  - **Required correction** Briefly state the rationale for comparing the two sequences, for example, differences in AT tract length or minor groove width.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Temperature specification  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states ITC was performed at 298 K but does not specify buffer conditions or ionic strength, which are critical for DNA ligand binding.  
+  - **Required correction** Include buffer composition and salt concentration in the methods summary.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of mixed binding and entropic driving force are not supported by any reported data in the abstract. R1-M3 is non-blocking but should be addressed for methodological completeness.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of mixed binding modes for berenil is not entirely new, as the abstract itself notes prior suggestions of intercalative and minor groove binding. The potential contribution is in providing quantitative thermodynamic evidence for a second binding event, but this is not yet demonstrated.  
+  - **Scientific importance** If substantiated, the findings could refine the understanding of berenil's mechanism and inform drug design. However, the importance is moderate and depends on the robustness of the thermodynamic and structural evidence.  
+  - **Interdisciplinary readership** The topic bridges biophysical chemistry, computational chemistry, and medicinal chemistry. The abstract is accessible to these communities, but the lack of quantitative detail limits its broader appeal.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The use of ITC and docking is appropriate, but the absence of reported parameters and protocol details prevents evaluation.  
+  - **Readability for nonspecialists** The abstract is generally readable, but terms such as "Wiseman isotherm" and "dicationic bis-benzamidine" may require background knowledge. The writing is clear but could be improved for precision.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the methods are appropriate, but the abstract does not contain sufficient data to support the central claims. The manuscript could become publishable if the full text provides the missing thermodynamic parameters, docking details, and a rigorous discussion of the mixed binding mode.
+
+## Risk / unsupported claims
+- The claim that more than one berenil molecule binds to the DNA dodecamers is unsupported in the abstract because no stoichiometry values are reported.
+- The claim that the second binding event is intercalative is unsupported because no structural or docking evidence is presented.
+- The claim that the intercalative effect is entropically driven is unsupported because no ΔH and TΔS values are reported.
+- The general statement that berenil shows "mixed bind behaviour" is presented as a conclusion but is not backed by comparative data against known minor groove binders or intercalators.

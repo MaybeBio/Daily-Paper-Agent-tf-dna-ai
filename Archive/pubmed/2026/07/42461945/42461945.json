@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "42461945",
+    "doi": "10.1371/journal.pgen.1012242",
+    "title": "Wiz regulates clustered protocadherin genes by restricting CTCF/cohesin loop extrusion in a genomic-distance biased manner."
+  },
+  "content": {
+    "abstract": "Zinc finger proteins (ZFPs or ZNFs) constitute the largest family of transcription factors in mammals; however, their regulatory mechanism remains largely elusive. Here we propose COP (C2H2-ZFP occupancy predictor), a deep learning-based heuristic screening tool that integrates DNA sequence with protein primary and secondary features to assess ZFP genomic enrichments. Applying COP to the mouse clustered protocadherin (cPcdh) gene locus, we identified dozens of C2H2-ZFPs potentially involved in CTCF-mediated gene regulation with Wiz (widely interspaced zinc finger-containing protein) having the highest number of 12 ZFs. We confirmed Wiz enrichments at all of the CTCF-binding site (CBS) elements across the three Pcdh clusters by Myc-tagging the endogenous Wiz gene. Genetic experiments revealed significant increases of expression levels of the cPcdh genes upon Wiz deletion in both neuronal cells in vitro and in mouse brain in vivo. Finally, integrated ChIP-seq, RNA-seq, and 4C-seq analyses demonstrated that Wiz regulates CTCF/cohesin occupancy and long-range enhancer-promoter contacts in a genomic-distance biased manner. Together, these findings reveal a key role for Wiz in coupling cohesin occupancy to long-range cPcdh regulation and highlight important functions of C2H2-ZFPs in enhancer-promoter interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*CCCTC-Binding Factor/metabolism/genetics",
+      "Mice",
+      "*Cadherins/genetics/metabolism",
+      "Cohesins",
+      "*Chromosomal Proteins, Non-Histone/metabolism/genetics",
+      "*Cell Cycle Proteins/metabolism/genetics",
+      "Binding Sites/genetics",
+      "Gene Expression Regulation",
+      "Promoter Regions, Genetic",
+      "Enhancer Elements, Genetic",
+      "Zinc Fingers/genetics",
+      "Protocadherins",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Tianjie",
+        "Li, Jingwei",
+        "Wang, Leyang",
+        "Huang, Haiyan",
+        "Wu, Qiang"
+      ],
+      "short_names": [
+        "Li T",
+        "Li J",
+        "Wang L",
+        "Huang H",
+        "Wu Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-8131-3173",
+        "ORCID: 0000-0001-5401-8570",
+        "ORCID: 0009-0007-7634-4829",
+        "ORCID: 0009-0008-8326-4533",
+        "ORCID: 0000-0003-3841-3591"
+      ],
+      "affiliations": [
+        "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Tianjie",
+        "short_name": "Li T",
+        "identifiers": [
+          "0009-0006-8131-3173"
+        ],
+        "affiliations": [
+          "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingwei",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0001-5401-8570"
+        ],
+        "affiliations": [
+          "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Leyang",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0009-0007-7634-4829"
+        ],
+        "affiliations": [
+          "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Haiyan",
+        "short_name": "Huang H",
+        "identifiers": [
+          "0009-0008-8326-4533"
+        ],
+        "affiliations": [
+          "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qiang",
+        "short_name": "Wu Q",
+        "identifiers": [
+          "0000-0003-3841-3591"
+        ],
+        "affiliations": [
+          "Center for Comparative Biomedicine, Key Laboratory of Systems Biomedicine (MOE), Institute of Systems Biomedicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Key Laboratory of Gene Editing and Cell-based Immunotherapy for Hematological Diseases, State Key Laboratory of Medical Genomics, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS genetics"
+    ],
+    "journal_abbrev": [
+      "PLoS Genet"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/16 18:46",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40627991",
+      "40437095",
+      "39988079",
+      "39720519",
+      "39552041",
+      "39303722",
+      "39303720",
+      "39270011",
+      "39052779",
+      "38963839",
+      "38961301",
+      "38206813",
+      "38062010",
+      "37933859",
+      "37347873",
+      "36702896",
+      "36477535",
+      "36124796",
+      "35501690",
+      "35020807",
+      "34879283",
+      "34751401",
+      "33849071",
+      "33262685",
+      "32939695",
+      "32679536",
+      "32531247",
+      "32359436",
+      "32294452",
+      "32293525",
+      "31522988",
+      "31522987",
+      "31249361",
+      "30971825",
+      "30955885",
+      "30296392",
+      "30033371",
+      "29911975",
+      "29076501",
+      "28529057",
+      "28450637",
+      "28450636",
+      "28273063",
+      "27852650",
+      "27410475",
+      "26478182",
+      "26338712",
+      "26276636",
+      "26140686",
+      "25789554",
+      "25757625",
+      "25690854",
+      "25171406",
+      "24025402",
+      "23204437",
+      "22842903",
+      "22550178",
+      "22518100",
+      "21765815",
+      "21071423",
+      "20679223",
+      "19274049",
+      "19008249",
+      "17160063",
+      "17026983",
+      "16702210",
+      "15640798",
+      "15136147",
+      "12226707",
+      "12150904",
+      "11230163",
+      "10380929",
+      "9795207"
+    ],
+    "similar": [
+      "42461945",
+      "39988079",
+      "32294452",
+      "32680543",
+      "22550178",
+      "40374602",
+      "36097291",
+      "39173638",
+      "34197738",
+      "25677180",
+      "27410475",
+      "41707607",
+      "29593713",
+      "41308125",
+      "39721581",
+      "22780989",
+      "41980771",
+      "39093600",
+      "41254162",
+      "21606361",
+      "35710842",
+      "23804403",
+      "38206813",
+      "33558242",
+      "31177910",
+      "18235444",
+      "32293525",
+      "41840057",
+      "31666380",
+      "29757144",
+      "33187878",
+      "27582050",
+      "35180428",
+      "23010778",
+      "40210441",
+      "41622199",
+      "28424523",
+      "38742641",
+      "38062010",
+      "42192110",
+      "35440598",
+      "20219941",
+      "39671497",
+      "21454523",
+      "27135601",
+      "35471149",
+      "34040254",
+      "31257199",
+      "31216471",
+      "39210046",
+      "39709822",
+      "40833849",
+      "40282349",
+      "32249388",
+      "37076620",
+      "28737770",
+      "35501690",
+      "18550811",
+      "27103456",
+      "40490791",
+      "39870429",
+      "30955885",
+      "33255744",
+      "33930311",
+      "26276636",
+      "19158269",
+      "36182691",
+      "40063813",
+      "23704192",
+      "41238959",
+      "19369356",
+      "21628529",
+      "40628528",
+      "29363429",
+      "41951674",
+      "25081205",
+      "41013693",
+      "28855971",
+      "29867216",
+      "22740398",
+      "33849071",
+      "21832993",
+      "29076501",
+      "40586309",
+      "25228660",
+      "32698000",
+      "28671686",
+      "25735743",
+      "41102415",
+      "40550689",
+      "40436628",
+      "41381500",
+      "29217591",
+      "39169755",
+      "31358994",
+      "28467304",
+      "33398174",
+      "38810546",
+      "29706548",
+      "40081334"
+    ],
+    "review": [
+      "42461945",
+      "41707607",
+      "33187878",
+      "39709822",
+      "39169755"
+    ],
+    "pmc": [
+      "13395409"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1012242",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42461945/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "34130216",
+    "doi": "10.1016/j.bmc.2021.116246",
+    "title": "Synthetic fluorescent MYC probe: Inhibitor binding site elucidation and development of a high-throughput screening assay."
+  },
+  "content": {
+    "abstract": "We report the discovery of a fluorescent small molecule probe. This probe exhibits an emission increase in the presence of the oncoprotein MYC that can be attenuated by a competing inhibitor. Hydrogen-deuterium exchange mass spectrometry analysis, rationalized by induced-fit docking, suggests it binds to the \"coiled-coil\" region of the leucine zipper domain. Point mutations of this site produced functional MYC constructs resistant to inhibition in an oncogenic transformation assay by compounds that displace the probe. Utilizing this probe, we have developed a high-throughput assay to identify MYC inhibitor scaffolds. Screening of a diversity library (N = 1408, 384-well) and a library of pharmacologically active compounds (N = 1280, 1536-well) yielded molecules with greater drug-like properties than the probe. One lead is a potent inhibitor of oncogenic transformation and is specific for MYC relative to resistant mutants and transformation-inducing oncogenes. This method is simple, inexpensive, and does not require protein modification, DNA binding, or the dimer partner MAX. This assay presents an opportunity for MYC inhibition researchers to discover unique scaffolds.",
+    "keywords": [
+      "Docking",
+      "Fluorescence competition assay",
+      "High-throughput screening",
+      "Hydrogen-deuterium exchange mass spectrometry",
+      "MYC",
+      "Oncoprotein"
+    ],
+    "mesh_terms": [
+      "Binding Sites/drug effects",
+      "Dose-Response Relationship, Drug",
+      "*Drug Development",
+      "Fluorescent Dyes/chemical synthesis/chemistry/*pharmacology",
+      "*High-Throughput Screening Assays",
+      "Humans",
+      "Molecular Structure",
+      "Proto-Oncogene Proteins c-myc/*antagonists & inhibitors/metabolism",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shirey, Ryan J",
+        "Hart, Jonathan R",
+        "Sridharan, BanuPriya",
+        "Novick, Scott J",
+        "Turner, Lewis D",
+        "Zhou, Bin",
+        "Nielsen, Alexander L",
+        "Eubanks, Lisa M",
+        "Ueno, Lynn",
+        "Hixon, Mark S",
+        "Lairson, Luke L",
+        "Spicer, Timothy P",
+        "Scampavia, Louis D",
+        "Griffin, Patrick R",
+        "Vogt, Peter K",
+        "Janda, Kim D"
+      ],
+      "short_names": [
+        "Shirey RJ",
+        "Hart JR",
+        "Sridharan B",
+        "Novick SJ",
+        "Turner LD",
+        "Zhou B",
+        "Nielsen AL",
+        "Eubanks LM",
+        "Ueno L",
+        "Hixon MS",
+        "Lairson LL",
+        "Spicer TP",
+        "Scampavia LD",
+        "Griffin PR",
+        "Vogt PK",
+        "Janda KD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States.",
+        "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States.",
+        "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States.",
+        "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States.",
+        "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA 92037, United States.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States. Electronic address: kdjanda@scripps.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shirey, Ryan J",
+        "short_name": "Shirey RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Hart, Jonathan R",
+        "short_name": "Hart JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Sridharan, BanuPriya",
+        "short_name": "Sridharan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States."
+        ]
+      },
+      {
+        "full_name": "Novick, Scott J",
+        "short_name": "Novick SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States."
+        ]
+      },
+      {
+        "full_name": "Turner, Lewis D",
+        "short_name": "Turner LD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bin",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Nielsen, Alexander L",
+        "short_name": "Nielsen AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Eubanks, Lisa M",
+        "short_name": "Eubanks LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Ueno, Lynn",
+        "short_name": "Ueno L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Hixon, Mark S",
+        "short_name": "Hixon MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Lairson, Luke L",
+        "short_name": "Lairson LL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Spicer, Timothy P",
+        "short_name": "Spicer TP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States."
+        ]
+      },
+      {
+        "full_name": "Scampavia, Louis D",
+        "short_name": "Scampavia LD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States."
+        ]
+      },
+      {
+        "full_name": "Griffin, Patrick R",
+        "short_name": "Griffin PR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, Jupiter, FL 33458, United States."
+        ]
+      },
+      {
+        "full_name": "Vogt, Peter K",
+        "short_name": "Vogt PK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Janda, Kim D",
+        "short_name": "Janda KD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA 92037, United States. Electronic address: kdjanda@scripps.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic & medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Med Chem"
+    ],
+    "pub_date": "2021 Jul 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/16 06:00",
+    "fetched_at": "2026-09-27 19:24:02"
+  },
+  "links": {
+    "cites": [
+      "41055109",
+      "40854433",
+      "40654683"
+    ],
+    "refs": [
+      "31679823",
+      "31392631",
+      "31301019",
+      "30894502",
+      "30880155",
+      "30682260",
+      "30597997",
+      "30037753",
+      "29968736",
+      "29514782",
+      "28976731",
+      "28587062",
+      "28292893",
+      "27653996",
+      "26931396",
+      "26584231",
+      "25824336",
+      "25481641",
+      "25306215",
+      "25130259",
+      "25114221",
+      "24976143",
+      "24927563",
+      "24890832",
+      "24384812",
+      "24098099",
+      "23579614",
+      "23475959",
+      "23106332",
+      "23021216",
+      "23021215",
+      "22815918",
+      "22692830",
+      "22464321",
+      "22039435",
+      "21822287",
+      "21808024",
+      "21799499",
+      "21478273",
+      "20551172",
+      "20485733",
+      "20228816",
+      "19800226",
+      "19773445",
+      "19434839",
+      "19432426",
+      "19022175",
+      "18923074",
+      "17876039",
+      "17381729",
+      "17315254",
+      "17046567",
+      "17034125",
+      "16873022",
+      "16855632",
+      "16478090",
+      "16420040",
+      "16064138",
+      "15143346",
+      "13679853",
+      "12553908",
+      "11891322",
+      "10838414",
+      "10556095",
+      "9843996",
+      "9721238",
+      "9651163",
+      "8390883",
+      "4309068",
+      "2123464",
+      "2006410",
+      "1319065"
+    ],
+    "similar": [
+      "34130216",
+      "34333394",
+      "30326371",
+      "26474287",
+      "19498040",
+      "11891322",
+      "7490766",
+      "27442915",
+      "19432426",
+      "23106332",
+      "34132534",
+      "23177256",
+      "20680803",
+      "31724864",
+      "17876039",
+      "30037753",
+      "24859015",
+      "25326649",
+      "20801893",
+      "25824336",
+      "18465834",
+      "33513388",
+      "19114306",
+      "30597997",
+      "33061303",
+      "23825064",
+      "14980448",
+      "32966806",
+      "16384710",
+      "8417337",
+      "31283877",
+      "23801058",
+      "16873022",
+      "34114895",
+      "8425220",
+      "12553908",
+      "32053209",
+      "26931396",
+      "35409230",
+      "24390461",
+      "19022175",
+      "34146703",
+      "20485733",
+      "8510929",
+      "10891489",
+      "16606833",
+      "8455937",
+      "7669717",
+      "32920366",
+      "7752223",
+      "8294427",
+      "15671156",
+      "1323849",
+      "1935896",
+      "8265351",
+      "28976731",
+      "7630640",
+      "25114221",
+      "29857275",
+      "9162900",
+      "9680483",
+      "26462961",
+      "9696045",
+      "22912844",
+      "28719624",
+      "27926480",
+      "15003254",
+      "11292350",
+      "13679853",
+      "17046567",
+      "9721875",
+      "25143136",
+      "10899308",
+      "32387836",
+      "30139745",
+      "33460833",
+      "20142507",
+      "8649810",
+      "19800226",
+      "32698750",
+      "31501275",
+      "33246106",
+      "1501888",
+      "18288422",
+      "34587841",
+      "8385351",
+      "29574079",
+      "8378081",
+      "26036281",
+      "30320522",
+      "33774493",
+      "39250827",
+      "9178892",
+      "20426839",
+      "39081669",
+      "31774248",
+      "26155738"
+    ],
+    "review": [
+      "34130216",
+      "20680803",
+      "30597997",
+      "33460833"
+    ],
+    "pmc": [
+      "8279689"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0968-0896(21)00254-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34130216/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34130216",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

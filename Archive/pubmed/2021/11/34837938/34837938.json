@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "34837938",
+    "doi": "10.1186/s12859-021-04481-1",
+    "title": "Predictive modeling of gene expression regulation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In-depth analysis of regulation networks of genes aberrantly expressed in cancer is essential for better understanding tumors and identifying key genes that could be therapeutically targeted. RESULTS: We developed a quantitative analysis approach to investigate the main biological relationships among different regulatory elements and target genes; we applied it to Ovarian Serous Cystadenocarcinoma and 177 target genes belonging to three main pathways (DNA REPAIR, STEM CELLS and GLUCOSE METABOLISM) relevant for this tumor. Combining data from ENCODE and TCGA datasets, we built a predictive linear model for the regulation of each target gene, assessing the relationships between its expression, promoter methylation, expression of genes in the same or in the other pathways and of putative transcription factors. We proved the reliability and significance of our approach in a similar tumor type (basal-like Breast cancer) and using a different existing algorithm (ARACNe), and we obtained experimental confirmations on potentially interesting results. CONCLUSIONS: The analysis of the proposed models allowed disclosing the relations between a gene and its related biological processes, the interconnections between the different gene sets, and the evaluation of the relevant regulatory elements at single gene level. This led to the identification of already known regulators and/or gene correlations and to unveil a set of still unknown and potentially interesting biological relationships for their pharmacological and clinical use.",
+    "keywords": [
+      "Cancer",
+      "Gene expression regulation",
+      "Machine learning",
+      "Predictive modeling",
+      "Regulatory network"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Gene Regulatory Networks",
+      "Reproducibility of Results",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Regondi, Chiara",
+        "Fratelli, Maddalena",
+        "Damia, Giovanna",
+        "Guffanti, Federica",
+        "Ganzinelli, Monica",
+        "Matteucci, Matteo",
+        "Masseroli, Marco"
+      ],
+      "short_names": [
+        "Regondi C",
+        "Fratelli M",
+        "Damia G",
+        "Guffanti F",
+        "Ganzinelli M",
+        "Matteucci M",
+        "Masseroli M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9316-8552"
+      ],
+      "affiliations": [
+        "Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano, 20133, Milan, Italy. chiara.regondi@mail.polimi.it.",
+        "Pharmacogenomics Unit, Istituto di Ricerche Farmacologiche Mario Negri, IRCCS, 20156, Milan, Italy.",
+        "Laboratory of Molecular Pharmacology, Istituto di Ricerche Farmacologiche Mario Negri, IRCCS, 20156, Milan, Italy.",
+        "Laboratory of Molecular Pharmacology, Istituto di Ricerche Farmacologiche Mario Negri, IRCCS, 20156, Milan, Italy.",
+        "Laboratory of Molecular Pharmacology, Istituto di Ricerche Farmacologiche Mario Negri, IRCCS, 20156, Milan, Italy.",
+        "Department of Medical Oncology, Fondazione IRCCS Istituto Nazionale dei Tumori, 20133, Milan, Italy.",
+        "Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano, 20133, Milan, Italy.",
+        "Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano, 20133, Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Regondi, Chiara",
+        "short_name": "Regondi C",
+        "identifiers": [
+          "0000-0002-9316-8552"
+        ],
+        "affiliations": [
+          "Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano, 20133, Milan, Italy. chiara.regondi@mail.polimi.it."
+        ]
+      },
+      {
+        "full_name": "Fratelli, Maddalena",
+        "short_name": "Fratelli M",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacogenomics Unit, Istituto di Ricerche Farmacologiche Mario Negri, IRCCS, 20156, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Damia, Giovanna",
+        "short_name": "Damia G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Pharmacology, Istituto di Ricerche Farmacologiche Mario Negri, IRCCS, 20156, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Guffanti, Federica",
+        "short_name": "Guffanti F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Pharmacology, Istituto di Ricerche Farmacologiche Mario Negri, IRCCS, 20156, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ganzinelli, Monica",
+        "short_name": "Ganzinelli M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Pharmacology, Istituto di Ricerche Farmacologiche Mario Negri, IRCCS, 20156, Milan, Italy.",
+          "Department of Medical Oncology, Fondazione IRCCS Istituto Nazionale dei Tumori, 20133, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Matteucci, Matteo",
+        "short_name": "Matteucci M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano, 20133, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Masseroli, Marco",
+        "short_name": "Masseroli M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano, 20133, Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2021 Nov 27",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/29 06:00",
+    "fetched_at": "2026-09-28 02:28:22"
+  },
+  "links": {
+    "cites": [
+      "38370125"
+    ],
+    "refs": [
+      "32461152",
+      "31888467",
+      "31042646",
+      "30669514",
+      "30420244",
+      "30101316",
+      "29872499",
+      "29809280",
+      "29536441",
+      "29049295",
+      "28961555",
+      "28640804",
+      "28379368",
+      "28031535",
+      "27696486",
+      "27662623",
+      "27153652",
+      "26910918",
+      "26056275",
+      "25649616",
+      "25025207",
+      "23825533",
+      "23000897",
+      "22955987",
+      "22955616",
+      "22781841",
+      "22576213",
+      "21941617",
+      "21720365",
+      "20940144",
+      "19151715",
+      "18698031",
+      "17473364",
+      "17370428",
+      "17134965",
+      "16723010",
+      "14735121",
+      "8647649",
+      "8217775"
+    ],
+    "similar": [
+      "34837938",
+      "30547796",
+      "25253512",
+      "23497388",
+      "28545608",
+      "28562334",
+      "29244808",
+      "32054475",
+      "31886586",
+      "25928084",
+      "26611531",
+      "18769717",
+      "20530682",
+      "19008939",
+      "19081792",
+      "19410283",
+      "25559354",
+      "19619308",
+      "21426557",
+      "20025723",
+      "21668997",
+      "32241274",
+      "19476620",
+      "28067383",
+      "31081184",
+      "31974616",
+      "32445696",
+      "21390271",
+      "26928440",
+      "29246163",
+      "22165960",
+      "19594885",
+      "16723010",
+      "30097905",
+      "31046666",
+      "17934055",
+      "27833659",
+      "25928379",
+      "32034170",
+      "25881247",
+      "27035433",
+      "24407294",
+      "30302816",
+      "26362298",
+      "19671526",
+      "19426448",
+      "21214652",
+      "25486910",
+      "32510146",
+      "26099273",
+      "20942926",
+      "32174324",
+      "21483478",
+      "22456606",
+      "18226260",
+      "27137215",
+      "29914350",
+      "16817975",
+      "25365520",
+      "28849565",
+      "23134758",
+      "24888606",
+      "18759473",
+      "31612481",
+      "24564939",
+      "22952919",
+      "28952134",
+      "24073403",
+      "20497491",
+      "20876933",
+      "34033108",
+      "20418949",
+      "20507583",
+      "34215221",
+      "30138363",
+      "32180586",
+      "19366454",
+      "19457258",
+      "25684474",
+      "24042128",
+      "30547400",
+      "28914394",
+      "22734688",
+      "17931418",
+      "32001012",
+      "28464328",
+      "34831362"
+    ],
+    "review": [
+      "34837938",
+      "34831362"
+    ],
+    "pmc": [
+      "8626902"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04481-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34837938/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34837938",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

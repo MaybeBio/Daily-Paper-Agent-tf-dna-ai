@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "42201463",
+    "doi": "10.1186/s12284-026-00924-6",
+    "title": "Rice Annotation Project Database (RAP-DB): Literature-Curated Gene Annotation and Integrated Omics Resources for Rice Functional Genomics and Molecular Breeding."
+  },
+  "content": {
+    "abstract": "High-throughput sequencing technologies have enabled the generation of high-quality reference genomes for numerous rice cultivars. However, inferring gene functions, associated phenotypes, and causal variants from these sequences remains challenging. The Rice Annotation Project Database (RAP-DB; https://rapdb.dna.naro.go.jp ) is a curated genomic resource that provides comprehensive gene annotations for the reference genome of Oryza sativa ssp. japonica cv. 'Nipponbare.' Since its major update in 2013, gene models and functional annotations have been continuously revised through expert manual curation of newly published literature related to rice genes. As of February 2026, a total of 7031 transcripts corresponding to 6747 loci have been curated based on 4904 peer-reviewed publications. These curated genes are functionally characterized and are frequently associated with agronomic traits, including yield components, stress tolerance, and disease resistance. To support molecular breeding, RAP-DB now provides a curated catalogue of 1085 agronomically important loci, including gene symbols, functional descriptions, and associated traits, together with 1129 functionally characterized alleles compiled from the literature. In addition to in-house expert curation, RAP-DB integrates community-curated datasets for major gene families, such as WRKY transcription factors, S-domain receptor-like kinases, and leucine-rich repeat-containing receptors, thereby expanding coverage of key regulatory and defense-related genes. RAP-DB also incorporates reanalyzed RNA sequencing expression profiles alongside microarray-based expression data and co-expression networks, offering gene-centric views of expression patterns across tissues, conditions, and developmental stages. Furthermore, RAP-DB is linked to genome-wide variation datasets from diverse rice varieties through the TASUKE + genome browser, enabling exploration of allelic diversity across varieties. To enhance annotation quality and long-term sustainability, artificial intelligence (AI)-assisted literature screening and a web-based feedback system have been introduced, allowing users to submit corrections to gene models and report newly characterized genes or relevant publications. Together, these developments strengthen RAP-DB as a primary, literature-based gene annotation resource and provide a practical foundation for molecular breeding in rice.",
+    "keywords": [
+      "Agronomically important genes",
+      "Allelic variation",
+      "Artificial intelligence",
+      "Gene annotation",
+      "Genome diversity",
+      "Literature-based manual curation",
+      "Rice",
+      "Transcriptome"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kawahara, Yoshihiro",
+        "Hirozane-Kishikawa, Tomoko",
+        "Hirata, Ryo",
+        "Wang, Xiaohui",
+        "Tamagaki, Yuki",
+        "Teramoto, Yumiko",
+        "Tabei, Norio",
+        "Kumagai, Masahiko",
+        "Sakai, Hiroaki",
+        "Itoh, Takeshi"
+      ],
+      "short_names": [
+        "Kawahara Y",
+        "Hirozane-Kishikawa T",
+        "Hirata R",
+        "Wang X",
+        "Tamagaki Y",
+        "Teramoto Y",
+        "Tabei N",
+        "Kumagai M",
+        "Sakai H",
+        "Itoh T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan. kawahara.yoshihiro177@naro.go.jp.",
+        "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan.",
+        "IMSBIO Co., Ltd., Tokyo, 170-0013, Japan.",
+        "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan.",
+        "Mizuho Research & Technologies, Ltd., Tokyo, 101-8443, Japan.",
+        "IMSBIO Co., Ltd., Tokyo, 170-0013, Japan.",
+        "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan.",
+        "DYNACOM Co., Ltd., Chiba, 261-7125, Japan.",
+        "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan.",
+        "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan.",
+        "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan.",
+        "Master Program in Global Agriculture Technology and Genomic Science, International College, National Taiwan University, Taipei, 10617, Taiwan.",
+        "Center for Computational and Systems Biology, National Taiwan University, Taipei, 10617, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kawahara, Yoshihiro",
+        "short_name": "Kawahara Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan. kawahara.yoshihiro177@naro.go.jp."
+        ]
+      },
+      {
+        "full_name": "Hirozane-Kishikawa, Tomoko",
+        "short_name": "Hirozane-Kishikawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan."
+        ]
+      },
+      {
+        "full_name": "Hirata, Ryo",
+        "short_name": "Hirata R",
+        "identifiers": [],
+        "affiliations": [
+          "IMSBIO Co., Ltd., Tokyo, 170-0013, Japan."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaohui",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan."
+        ]
+      },
+      {
+        "full_name": "Tamagaki, Yuki",
+        "short_name": "Tamagaki Y",
+        "identifiers": [],
+        "affiliations": [
+          "Mizuho Research & Technologies, Ltd., Tokyo, 101-8443, Japan."
+        ]
+      },
+      {
+        "full_name": "Teramoto, Yumiko",
+        "short_name": "Teramoto Y",
+        "identifiers": [],
+        "affiliations": [
+          "IMSBIO Co., Ltd., Tokyo, 170-0013, Japan."
+        ]
+      },
+      {
+        "full_name": "Tabei, Norio",
+        "short_name": "Tabei N",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan.",
+          "DYNACOM Co., Ltd., Chiba, 261-7125, Japan."
+        ]
+      },
+      {
+        "full_name": "Kumagai, Masahiko",
+        "short_name": "Kumagai M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakai, Hiroaki",
+        "short_name": "Sakai H",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan."
+        ]
+      },
+      {
+        "full_name": "Itoh, Takeshi",
+        "short_name": "Itoh T",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Advanced Analysis, National Agriculture and Food Research Organization (NARO), Ibaraki, 305-8602, Japan.",
+          "Master Program in Global Agriculture Technology and Genomic Science, International College, National Taiwan University, Taipei, 10617, Taiwan.",
+          "Center for Computational and Systems Biology, National Taiwan University, Taipei, 10617, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Rice (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Rice (N Y)"
+    ],
+    "pub_date": "2026 May 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 12:36",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [
+      "42633900"
+    ],
+    "refs": [
+      "41146286",
+      "40245413",
+      "40240605",
+      "40223364",
+      "39865189",
+      "39565202",
+      "39558187",
+      "37553831",
+      "36961337",
+      "36866529",
+      "36648593",
+      "35438356",
+      "35396275",
+      "35366102",
+      "34382706",
+      "34320186",
+      "34051138",
+      "33777532",
+      "33539537",
+      "33526925",
+      "33258137",
+      "33095870",
+      "32683045",
+      "32528064",
+      "32101292",
+      "31539030",
+      "31375807",
+      "29695866",
+      "29292376",
+      "28319055",
+      "27234245",
+      "26578693",
+      "25722852",
+      "25690850",
+      "24764503",
+      "24695404",
+      "24451626",
+      "24280374",
+      "23299411",
+      "23180784",
+      "23180765",
+      "22728672",
+      "19648217",
+      "19451168",
+      "16381971",
+      "16100779"
+    ],
+    "similar": [
+      "42201463",
+      "23299411",
+      "18089549",
+      "42475469",
+      "16381971",
+      "42464962",
+      "27499678",
+      "33001599",
+      "34382706",
+      "41331486",
+      "24147765",
+      "23193278",
+      "33777532",
+      "27234245",
+      "17961238",
+      "41703933",
+      "32153645",
+      "23259405",
+      "32683045",
+      "41064763",
+      "39558187",
+      "40214100",
+      "29363422",
+      "29132026",
+      "21450055",
+      "26861020",
+      "19036133",
+      "41107735",
+      "26040787",
+      "29086189",
+      "15608281",
+      "41782340",
+      "27940610",
+      "25505034",
+      "34726489",
+      "36726089",
+      "23879659",
+      "38720284",
+      "24119028",
+      "41421305",
+      "23153247",
+      "37366497",
+      "19278556",
+      "17445272",
+      "42245112",
+      "23110975",
+      "21749710",
+      "37985474",
+      "22953761",
+      "17210932",
+      "15888674",
+      "22074346",
+      "41335101",
+      "40036767",
+      "34388987",
+      "37687282",
+      "41475374",
+      "41566784",
+      "37292880",
+      "24280312",
+      "41705345",
+      "28219347",
+      "36011264",
+      "27118394",
+      "24053558",
+      "41860230",
+      "41187558",
+      "24742282",
+      "20507633",
+      "24280374",
+      "38575927",
+      "40434651",
+      "23295340",
+      "16236172",
+      "33170273",
+      "17640358",
+      "39150724",
+      "36215240",
+      "22138690",
+      "27799469",
+      "31986137",
+      "30963280",
+      "41455888",
+      "37535690",
+      "23193269",
+      "39838314",
+      "23079968",
+      "42343958",
+      "26369665",
+      "38626724",
+      "23251593",
+      "25542617",
+      "27447712",
+      "25237817",
+      "31107941",
+      "31775618",
+      "34686134",
+      "31134103",
+      "31159731",
+      "27118214"
+    ],
+    "review": [
+      "42201463",
+      "42464962",
+      "33001599",
+      "41064763",
+      "41421305",
+      "19278556",
+      "42245112",
+      "41705345",
+      "28219347",
+      "38575927",
+      "40434651",
+      "23295340",
+      "39150724",
+      "23079968",
+      "42343958",
+      "25542617"
+    ],
+    "pmc": [
+      "13396045"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42201463/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s12284-026-00924-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

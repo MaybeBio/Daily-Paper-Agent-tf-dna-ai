@@ -1,0 +1,459 @@
+{
+  "identity": {
+    "pmid": "33932608",
+    "doi": "10.1016/j.phrs.2021.105637",
+    "title": "Novel STAT3 small-molecule inhibitors identified by structure-based virtual ligand screening incorporating SH2 domain flexibility."
+  },
+  "content": {
+    "abstract": "Efforts to develop STAT3 inhibitors have focused on its SH2 domain starting with short phosphotyrosylated peptides based on STAT3 binding motifs, e.g. pY(905)LPQTV within gp130. Despite binding to STAT3 with high affinity, issues regarding stability, bioavailability, and membrane permeability of these peptides, as well as peptidomimetics such as CJ-887, have limited their further clinical development and led to interest in small-molecule inhibitors. Some small molecule STAT3 inhibitors, identified using structure-based virtual ligand screening (SB-VLS); while having favorable drug-like properties, suffer from weak binding affinities, possibly due to the high flexibility of the target domain. We conducted molecular dynamic (MD) simulations of the SH2 domain in complex with CJ-887, and used an averaged structure from this MD trajectory as an \"induced-active site\" receptor model for SB-VLS of 110,000 compounds within the SPEC database. Screening was followed by re-docking and re-scoring of the top 30% of hits, selection for hit compounds that directly interact with pY + 0 binding pocket residues R609 and S613, and testing for STAT3 targeting in vitro, which identified two lead hits with good activity and favorable drug-like properties. Unlike most small-molecule STAT3 inhibitors previously identified, which contain negatively-charged moieties that mediate binding to the pY + 0 binding pocket, these compounds are uncharged and likely will serve as better candidates for anti-STAT3 drug development. IMPLICATIONS: SB-VLS, using an averaged structure from molecular dynamics (MD) simulations of STAT3 SH2 domain in a complex with CJ-887, a known peptidomimetic binder, identify two highly potent, neutral, low-molecular weight STAT3-inhibitors with favorable drug-like properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "Alkylation",
+      "Binding Sites/drug effects",
+      "Blotting, Western",
+      "Cell Line, Tumor/drug effects",
+      "Drug Evaluation, Preclinical/*methods",
+      "Gas Chromatography-Mass Spectrometry",
+      "Humans",
+      "Ligands",
+      "Molecular Docking Simulation",
+      "Protein Structure, Tertiary",
+      "STAT3 Transcription Factor/*antagonists & inhibitors/chemistry/genetics",
+      "Structure-Activity Relationship",
+      "Surface Plasmon Resonance",
+      "*src Homology Domains/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kong, Ren",
+        "Bharadwaj, Uddalak",
+        "Eckols, T Kris",
+        "Kolosov, Mikhail",
+        "Wu, Haoyi",
+        "Cruz-Pavlovich, Francisco J Santa",
+        "Shaw, Alison",
+        "Ifelayo, Oluwatomilona I",
+        "Zhao, Hong",
+        "Kasembeli, Moses M",
+        "Wong, Stephen T C",
+        "Tweardy, David J"
+      ],
+      "short_names": [
+        "Kong R",
+        "Bharadwaj U",
+        "Eckols TK",
+        "Kolosov M",
+        "Wu H",
+        "Cruz-Pavlovich FJS",
+        "Shaw A",
+        "Ifelayo OI",
+        "Zhao H",
+        "Kasembeli MM",
+        "Wong STC",
+        "Tweardy DJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Systems Medicine and Bioengineering, Houston Methodist Cancer Center, Weill Cornell Medicine, Houston, TX, 77030, USA; Institute of Bioinformatics and Medical Engineering, School of Electrical and Information Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, PR China.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Systems Medicine and Bioengineering, Houston Methodist Cancer Center, Weill Cornell Medicine, Houston, TX, 77030, USA.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Systems Medicine and Bioengineering, Houston Methodist Cancer Center, Weill Cornell Medicine, Houston, TX, 77030, USA. Electronic address: stwong@houstonmethodist.org.",
+        "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. Electronic address: djtweardy@mdanderson.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kong, Ren",
+        "short_name": "Kong R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Medicine and Bioengineering, Houston Methodist Cancer Center, Weill Cornell Medicine, Houston, TX, 77030, USA; Institute of Bioinformatics and Medical Engineering, School of Electrical and Information Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, PR China."
+        ]
+      },
+      {
+        "full_name": "Bharadwaj, Uddalak",
+        "short_name": "Bharadwaj U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Eckols, T Kris",
+        "short_name": "Eckols TK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Kolosov, Mikhail",
+        "short_name": "Kolosov M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Haoyi",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Cruz-Pavlovich, Francisco J Santa",
+        "short_name": "Cruz-Pavlovich FJS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Shaw, Alison",
+        "short_name": "Shaw A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Ifelayo, Oluwatomilona I",
+        "short_name": "Ifelayo OI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hong",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Medicine and Bioengineering, Houston Methodist Cancer Center, Weill Cornell Medicine, Houston, TX, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Kasembeli, Moses M",
+        "short_name": "Kasembeli MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Wong, Stephen T C",
+        "short_name": "Wong STC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Medicine and Bioengineering, Houston Methodist Cancer Center, Weill Cornell Medicine, Houston, TX, 77030, USA. Electronic address: stwong@houstonmethodist.org."
+        ]
+      },
+      {
+        "full_name": "Tweardy, David J",
+        "short_name": "Tweardy DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Disease, Infection Control and Employee Health, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. Electronic address: djtweardy@mdanderson.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmacological research"
+    ],
+    "journal_abbrev": [
+      "Pharmacol Res"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/02 06:00",
+    "fetched_at": "2026-09-27 16:37:23"
+  },
+  "links": {
+    "cites": [
+      "42464997",
+      "42445007",
+      "42180089",
+      "41544239",
+      "41304893",
+      "41048810",
+      "41033404",
+      "41009621",
+      "40750993",
+      "39829533",
+      "39786519"
+    ],
+    "refs": [
+      "32198236",
+      "30081609",
+      "28759015",
+      "28643779",
+      "28584133",
+      "27939638",
+      "27027445",
+      "27019635",
+      "26365237",
+      "26283727",
+      "25912076",
+      "25495984",
+      "25268166",
+      "24819685",
+      "24681959",
+      "23810499",
+      "23737504",
+      "23719681",
+      "23382914",
+      "22650325",
+      "21633165",
+      "21447830",
+      "21360612",
+      "20596242",
+      "20574571",
+      "20388852",
+      "19636423",
+      "19589136",
+      "19400944",
+      "19274102",
+      "19273114",
+      "19243938",
+      "18939993",
+      "18154266",
+      "17908954",
+      "17683579",
+      "17463090",
+      "17114005",
+      "16981200",
+      "16503733",
+      "16220982",
+      "16081048",
+      "15937466",
+      "15781862",
+      "15374974",
+      "15116359",
+      "15026546",
+      "14966128",
+      "12639546",
+      "12209125",
+      "11579100",
+      "11259830",
+      "10851045",
+      "10543978",
+      "10468550",
+      "10458605",
+      "10398925",
+      "10213620",
+      "9671298",
+      "9513046",
+      "9419415",
+      "9287210",
+      "8896455",
+      "8670419",
+      "7543024"
+    ],
+    "similar": [
+      "33932608",
+      "21360612",
+      "25710482",
+      "25288792",
+      "19274102",
+      "35831728",
+      "25098340",
+      "20807764",
+      "32752073",
+      "33689932",
+      "22255027",
+      "24211327",
+      "27793003",
+      "21788134",
+      "28588262",
+      "23251591",
+      "32503696",
+      "25160651",
+      "24922077",
+      "18058821",
+      "37120484",
+      "20067773",
+      "27479469",
+      "15214778",
+      "16220982",
+      "23968501",
+      "37978263",
+      "23977103",
+      "18536014",
+      "25777967",
+      "18768317",
+      "19006150",
+      "29842849",
+      "11579100",
+      "37597062",
+      "26774853",
+      "26073084",
+      "26730496",
+      "27816267",
+      "17509878",
+      "24456369",
+      "17463090",
+      "15026546",
+      "28092042",
+      "9888830",
+      "30415122",
+      "39208642",
+      "21486047",
+      "12718560",
+      "33126089",
+      "30557817",
+      "25134459",
+      "23651330",
+      "36542668",
+      "29456240",
+      "15743195",
+      "19285012",
+      "19470402",
+      "28849890",
+      "30047845",
+      "24065300",
+      "15660381",
+      "19594124",
+      "32112605",
+      "31499589",
+      "18034310",
+      "34416096",
+      "26612419",
+      "12591923",
+      "19400306",
+      "23084476",
+      "18006313",
+      "26795501",
+      "26471877",
+      "34089945",
+      "28125678",
+      "21618433",
+      "36170649",
+      "34156395",
+      "32120300",
+      "11408162",
+      "24875451",
+      "19334714",
+      "24661007",
+      "28486912",
+      "17393456",
+      "32603980",
+      "31254923",
+      "30027840",
+      "27727126",
+      "12370048",
+      "29234062",
+      "24964402",
+      "32911607",
+      "8845374",
+      "30366191",
+      "23006820",
+      "20698672",
+      "17646652",
+      "10982829",
+      "10525402",
+      "35712699",
+      "35909285",
+      "36029729",
+      "38023173",
+      "20107641",
+      "35926444",
+      "35986534",
+      "39168826",
+      "37175348",
+      "27500657",
+      "27134117",
+      "32329245",
+      "21243039",
+      "38873063",
+      "37668976",
+      "33715594",
+      "39403785",
+      "37143823",
+      "34559105",
+      "36196170",
+      "36993233",
+      "37182134",
+      "30474874",
+      "36760267",
+      "38712210",
+      "38008341",
+      "27661130"
+    ],
+    "review": [
+      "33932608",
+      "26730496",
+      "30027840",
+      "12370048"
+    ],
+    "pmc": [
+      "8217378"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1043-6618(21)00221-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/33932608.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33932608/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33932608",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33932608",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

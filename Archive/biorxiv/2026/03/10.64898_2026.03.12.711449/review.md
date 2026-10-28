@@ -1,0 +1,123 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) provided as a single block; no separate figure files or supplementary materials were available for direct inspection.
+- **Assessment boundary** The review is limited to the scientific content, logical coherence, methodological transparency, and support for claims as presented in the supplied text. Figures, tables, and supplementary items are referenced but were not independently accessible.
+- **Shared manuscript claim summary** The authors propose that two GA-binding transcription factors, CLAMP and GAF, compete for similar DNA motifs, and that this competition creates X-chromosome-specific chromatin looping patterns that direct dosage compensation complex (DCC) recruitment. They integrate Micro-C and Hi-ChIP to distinguish direct from indirect loop regulation and report that CLAMP mediates short-range loops at active genes, while GAF mediates larger loops at silent insulator regions on the X chromosome.
+- **Visible evidence base** Results sections 1–5, methods descriptions for Micro-C, Hi-ChIP, and computational analyses, and references to figures (Fig. 1–5), supplementary figures (Fig. S1–S5), and tables (Table S1, S2). No raw data, quality metrics, or full figure panels were available for verification.
+- **Missing materials affecting confidence** Figure panels and legends, supplementary tables with loop counts, quality control metrics for Micro-C and Hi-ChIP libraries, details of antibody validation, and the full computational pipelines for TAD calling and differential loop detection. The absence of these materials limits independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in gene regulation: how similar transcription factors achieve context-specific targeting of large complexes through differential chromatin looping. The integration of Micro-C and Hi-ChIP is appropriate and potentially powerful. However, the current text does not fully establish the central claim that CLAMP-GAF competition directly creates an X-specific chromatin environment. Several key analyses are described at a level that prevents assessment of their robustness, and some claims extend beyond what the presented evidence can support. The work is promising but requires substantial revision and additional analysis to meet the standard of a major journal.
+- **Who would be interested in the results, and why** Researchers studying dosage compensation, transcription factor biology, 3D genome organization, and the evolution of regulatory mechanisms. The conceptual framework of competitive TF binding at similar motifs driving distinct looping outcomes is broadly relevant beyond Drosophila, and the methodological approach of combining Micro-C with HiChIP will interest investigators in the chromatin field.
+- **Major strengths**
+  - The question is important and the model system is well justified.
+  - The combination of Micro-C and Hi-Chip is a logical and potentially rigorous strategy to separate direct from indirect effects.
+  - The observation that CLAMP and GAF have distinct loop size distributions and chromatin state preferences is novel and mechanistically interesting.
+  - The authors connect their findings to evolutionary sequence variation, providing a plausible framework for how X-specificity arises.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CLAMP and GAF directly mediate largely mutually exclusive 3D genomic contacts, and that direct loops can be distinguished from indirect loops by integrating Micro-C and Hi-ChIP.
+  - **Evidence pointer** Results section 3, Figure 3B–E; Methods, "Computational Analysis"
+  - **Concern** The criteria for classifying a loop as "direct" versus "indirect" are not fully specified. The text states that downregulated Micro-C loops overlapping Hi-ChIP loops are direct, but the thresholds for overlap, the handling of loops with only one anchored TF peak, and the statistical significance of the overlap are not described. Without this information, the central distinction between direct and indirect regulation is not verifiable.
+  - **Why it matters** The entire mechanistic model rests on this classification. If the overlap criteria are too permissive or too stringent, the conclusions about CLAMP- and GAF-specific looping functions could be substantially altered.
+  - **Resolution test** Provide a detailed description of the overlap criteria, including the exact genomic distance thresholds, the treatment of multi-peak anchors, and a statistical test demonstrating that the observed overlap is greater than expected by chance. Show representative examples of direct and indirect loops with genomic tracks.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report specific numbers of differential loops (e.g., N=34,155 upregulated CLAMP-dependent loops) and percentages of TAD disruption (e.g., 31.62% altered after CLAMP depletion).
+  - **Evidence pointer** Results section 1, Figure 1B, Figure S3
+  - **Concern** No information is provided on the false discovery rate, the effect size thresholds, or the reproducibility of the differential loop and TAD calls across biological replicates. The numbers are presented as definitive, but the underlying statistical power and variability are unknown.
+  - **Why it matters** The quantitative claims are central to the paper's conclusions. If the differential loop calls are noisy or the thresholds are arbitrary, the reported numbers may not be robust.
+  - **Resolution test** Report the number of biological replicates, the FDR thresholds used, and a measure of reproducibility (e.g., overlap of loop calls between replicates). Provide a sensitivity analysis showing how loop numbers change with different significance thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "CLAMP outcompetes GAF at active regions on the X chromosome, but not autosomes, to create an X-chromosome specific chromatin environment for dosage compensation."
+  - **Evidence pointer** Results sections 4 and 5, Figures 4 and 5
+  - **Concern** The evidence for a direct competition mechanism is indirect. The authors show that CLAMP and GAF have different looping patterns, but they do not demonstrate that the presence of CLAMP actively displaces GAF at specific loci. The claim of "outcompetes" implies a mechanistic relationship that is not directly tested.
+  - **Why it matters** The title and abstract emphasize competition as the driving force. If the observed patterns could also be explained by independent recruitment mechanisms or by differential affinities without active competition, the conceptual advance is weakened.
+  - **Resolution test** Perform an experiment where CLAMP is depleted and GAF occupancy is measured at X-linked active genes, or vice versa. Alternatively, use a reporter assay where the single-nucleotide difference between CLAMP- and GAF-favoring motifs is swapped and looping is measured.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use roX2-RDD loops as a proxy for DCC localization and claim that direct CLAMP- and GAF-dependent loops spatially associate with these roX2-associated loops.
+  - **Evidence pointer** Results section 5, Figure 5
+  - **Concern** The roX2-RDD data is from a published study (Tian et al., 2024) and was generated under different conditions. The authors state that they normalized bin sizes, but the compatibility of the two datasets in terms of cell state, fixation, and analysis pipeline is not discussed. The overlap analysis may be confounded by technical differences.
+  - **Why it matters** The association with roX2 loops is used to link the looping patterns to the DCC. If the datasets are not directly comparable, this link is weakened.
+  - **Resolution test** Provide a detailed comparison of the two datasets, including the number of loops, the genomic distribution, and a demonstration that the overlap is not an artifact of the normalization procedure. Ideally, perform roX2-RDD in the same batch of cells used for Micro-C and Hi-ChIP.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The authors state that "the accumulation of binding sites on the X chromosome that favor CLAMP and not GAF near housekeeping genes that need to be dosage compensated promotes an X-specific three-dimensional organizational hub."
+  - **Evidence pointer** Discussion section
+  - **Concern** The evolutionary argument is presented as a conclusion, but the data shown are correlative. The authors do not demonstrate that the sequence variation they describe is causally linked to the looping patterns, nor do they rule out other evolutionary forces.
+  - **Why it matters** The evolutionary framing is likely to attract broad interest, but overstating the causal link could mislead readers from other fields.
+  - **Resolution test** Soften the language to indicate that the data are consistent with an evolutionary model, and discuss alternative explanations. If possible, perform a phylogenetic analysis of the GA-motif sequences across Drosophila species to support the evolutionary claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence is dense and uses jargon ("differential occupancy," "context-specific targeting") without immediate definition.
+  - **Required correction** Consider rephrasing to introduce the core question in more accessible terms before introducing specialized terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Micro-C
+  - **Evidence pointer** Methods, "Micro-C"
+  - **Issue** The text states that 3×10^6 cells were used per replicate, but the rationale for this number and the expected yield of libraries is not given.
+  - **Required correction** Add a sentence explaining the choice of cell number and the resulting library complexity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Hi-ChIP
+  - **Evidence pointer** Methods, "Hi-ChIP"
+  - **Issue** The antibodies for CLAMP and GAF are described only as "Rabbit anti-CLAMP" and "Rabbit anti-GAF" without catalog numbers or validation data.
+  - **Required correction** Provide antibody catalog numbers and a reference to validation data, or state that validation is shown in supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section 1
+  - **Evidence pointer** Results section 1, Figure 1B
+  - **Issue** The four sets of loops are described in the text, but the relationship between "upregulated" and "downregulated" loops and the biological interpretation is not immediately clear.
+  - **Required correction** Add a brief explanation of what "upregulated" and "downregulated" mean in the context of a knockdown experiment.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section 3
+  - **Evidence pointer** Results section 3, Figure 3F
+  - **Issue** The motif analysis is described, but the background model used by HOMER is not specified.
+  - **Required correction** State the background model used for motif discovery (e.g., random genomic background, GC-matched).
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of loop extrusion versus tethering is brief and may not be fully accessible to readers unfamiliar with the recent literature.
+  - **Required correction** Expand slightly to explain the two mechanisms and how the current data distinguish between them.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The direct versus indirect loop classification criteria are not sufficiently detailed.
+  - R1-M2: Statistical thresholds and reproducibility metrics for differential loop and TAD calls are missing.
+  - R1-M3: The claim of "outcompetes" is not directly tested.
+  - R1-M4: The integration of external roX2-RDD data lacks a discussion of dataset compatibility.
+- **Assessment against Nature-style criteria**
+  - Originality: The conceptual framework of competitive TF binding at similar motifs driving distinct looping outcomes is original and extends prior work on CLAMP and GAF. The specific finding that CLAMP and GAF mediate loops of different sizes and at different chromatin states is novel.
+  - Scientific importance: The question of how similar TFs achieve context-specific targeting is of broad importance. The dosage compensation system is a well-established model, and the findings have implications for understanding gene regulation in other contexts. However, the importance is somewhat diminished by the lack of direct mechanistic evidence for competition.
+  - Interdisciplinary readership: The topic will appeal to researchers in chromatin biology, transcription, and dosage compensation. The evolutionary angle may attract a broader audience, but the presentation is currently too specialized for nonspecialists to fully appreciate.
+  - Technical soundness: The combination of Micro-C and Hi-ChIP is appropriate, but the lack of detail on thresholds, replicates, and quality control prevents a full assessment. The statistical framework for distinguishing direct from indirect loops is not described rigorously.
+  - Readability for nonspecialists: The abstract and introduction are dense and use jargon without sufficient explanation. The results are clearly structured, but the discussion assumes familiarity with recent literature on loop extrusion and tethering.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the data are potentially valuable, but the manuscript in its current form does not fully establish the central claims. The authors must provide a more rigorous description of their computational methods, demonstrate the robustness of their loop calls, and either provide direct evidence for competition or temper the language accordingly.
+
+## Risk / unsupported claims
+- The claim that CLAMP "outcompetes" GAF at active regions on the X chromosome is not directly supported by the data presented.
+- The statement that the accumulation of CLAMP-favoring motifs on the X chromosome "promotes" an X-specific 3D hub is presented as causal, but the evidence is correlative.
+- The assertion that roX2-RDD loops "span the X chromosome" and are "essential for dosage compensation" is based on external data and is not fully verified in this study.
+- The claim that GAF regulates loops at "silent insulator regions" on the X chromosome is based on chromatin state annotations, but the functional significance of these loops is not tested.
+- The numbers of differential loops and the percentages of TAD disruption are presented without statistical context, making them difficult to evaluate.

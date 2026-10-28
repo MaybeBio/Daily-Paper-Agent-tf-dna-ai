@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "37023527",
+    "doi": "10.1016/j.phymed.2023.154779",
+    "title": "Gramine protects against pressure overload-induced pathological cardiac hypertrophy through Runx1-TGFBR1 signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gramine, also named 3-(N,N-dimethylaminomethyl) indole, is a indole alkaloid. It is mainly extracted from various natural raw plants. Despite being the simplest 3-aminomethylindole, Gramine has broad pharmaceutical and therapeutic effects, such as vasodilatation, antioxidation, mitochondrial bioenergetics-related effects, and angiogenesis via modulation of TGFbeta signaling. However, there is little information available about Gramine's role in heart disease, especially pathological cardiac hypertrophy. PURPOSE: To investigate Gramine's effect on pathological cardiac hypertrophy and clarify the mechanisms behind its action. METHODS: In the in vitro experiment, Gramine (25 muM or 50 muM) was used to investigate its role in Angiotensin II-induced primary neonatal rat cardiomyocytes (NRCMs) hypertrophy. In the in vivo experiment, Gramine (50 mg/kg or 100 mg/kg) was administrated to investigate its role in transverse aortic constriction (TAC) surgery mice. Additionally, we explored the mechanisms underlying these roles through Western blot, Real-time PCR, genome-wide transcriptomic analysis, chromatin immunoprecipitation and molecular docking studies. RESULTS: The in vitro data demonstrated that Gramine treatment obviously improved primary cardiomyocyte hypertrophy induced by Angiotensin II, but had few effects on the activation of fibroblasts. The in vivo experiments indicated that Gramine significantly mitigated TAC-induced myocardial hypertrophy, interstitial fibrosis and cardiac dysfunction. Mechanistically, RNA sequencing and further bioinformatics analysis demonstrated that transforming growth factor beta (TGFbeta)-related signaling pathway was enriched significantly and preferentially in Gramine-treated mice as opposed to vehicle-treated mice during pathological cardiac hypertrophy. Moreover, this cardio-protection of Gramine was found to mainly involved in TGFbeta receptor 1 (TGFBR1)- TGFbeta activated kinase 1 (TAK1)-p38 MAPK signal cascade. Further exploration showed that Gramine restrained the up-regulation of TGFBR1 by binding to Runt-related transcription factor 1 (Runx1), thereby alleviating pathological cardiac hypertrophy. CONCLUSION: Our findings provided a substantial body of evidence that Gramine possessed a potential druggability in pathological cardiac hypertrophy via suppressing the TGFBR1-TAK1-p38 MAPK signaling axis through interaction with transcription factor Runx1.",
+    "keywords": [
+      "Cardiac hypertrophy",
+      "Gramine",
+      "Runt-related transcription factor 1",
+      "Transforming growth factor beta signaling"
+    ],
+    "mesh_terms": [
+      "Rats",
+      "Mice",
+      "Animals",
+      "Receptor, Transforming Growth Factor-beta Type I/metabolism",
+      "*Angiotensin II/pharmacology",
+      "*Core Binding Factor Alpha 2 Subunit",
+      "Molecular Docking Simulation",
+      "Cardiomegaly/metabolism",
+      "Myocytes, Cardiac",
+      "Signal Transduction",
+      "Indole Alkaloids/pharmacology",
+      "Transforming Growth Factor beta/metabolism",
+      "p38 Mitogen-Activated Protein Kinases/metabolism",
+      "Mice, Inbred C57BL",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Longwei",
+        "Su, Yuanyuan",
+        "Yang, Xiaolin",
+        "Bai, Xueyang",
+        "Wang, Yu",
+        "Zhuo, Chengui",
+        "Meng, Zhe"
+      ],
+      "short_names": [
+        "Xu L",
+        "Su Y",
+        "Yang X",
+        "Bai X",
+        "Wang Y",
+        "Zhuo C",
+        "Meng Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Cardiology, Shanghai Jiao Tong University Affiliated Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine (SJTUSM), Shanghai, China.",
+        "Shanghai Institute for Advanced Immunochemical Studies and School of Life Science and Technology, ShanghaiTech University, Shanghai, 201210, China.",
+        "Department of Cardiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Respiratory and Critical Care Medicine, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. Electronic address: yuwang_westchina@163.com.",
+        "Department of Cardiology, Taizhou Central Hospital (Taizhou University Hospital), Taizhou, China. Electronic address: zhuochengui@163.com.",
+        "Department of Cardiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. Electronic address: mengzhenihao@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Longwei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yuanyuan",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Jiao Tong University Affiliated Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine (SJTUSM), Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaolin",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute for Advanced Immunochemical Studies and School of Life Science and Technology, ShanghaiTech University, Shanghai, 201210, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Xueyang",
+        "short_name": "Bai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. Electronic address: yuwang_westchina@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhuo, Chengui",
+        "short_name": "Zhuo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Taizhou Central Hospital (Taizhou University Hospital), Taizhou, China. Electronic address: zhuochengui@163.com."
+        ]
+      },
+      {
+        "full_name": "Meng, Zhe",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China. Electronic address: mengzhenihao@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/07 06:00",
+    "fetched_at": "2026-09-28 22:39:13"
+  },
+  "links": {
+    "cites": [
+      "41463011",
+      "40356603",
+      "39944624",
+      "37570664"
+    ],
+    "refs": [],
+    "similar": [
+      "37023527",
+      "32209725",
+      "31285424",
+      "33462378",
+      "32798288",
+      "16360132",
+      "34190420",
+      "37269933",
+      "36512326",
+      "28821620",
+      "27956576",
+      "36974751",
+      "26706286",
+      "35696800",
+      "33522247",
+      "35490166",
+      "35851270",
+      "38295663",
+      "28708271",
+      "25684370",
+      "32971071",
+      "26497614",
+      "30466089",
+      "34098726",
+      "35352799",
+      "33200795",
+      "33497927",
+      "25103110",
+      "36370010",
+      "28013046",
+      "27572150",
+      "24378234",
+      "30362822",
+      "32210723",
+      "31885808",
+      "23841699",
+      "30827145",
+      "26170457",
+      "34953026",
+      "34147480",
+      "39261825",
+      "31325434",
+      "21533832",
+      "26891723",
+      "27432858",
+      "28249877",
+      "22072105",
+      "37524688",
+      "25151306",
+      "20585109",
+      "38097716",
+      "20339119",
+      "24396025",
+      "39431010",
+      "30854566",
+      "27379535",
+      "28588076",
+      "37806546",
+      "37395147",
+      "22569796",
+      "35752078",
+      "24067190",
+      "16750184",
+      "28449869",
+      "35730615",
+      "32259602",
+      "32903101",
+      "27698061",
+      "25646292",
+      "29196099",
+      "35126818",
+      "35242278",
+      "28799247",
+      "30689763",
+      "30001530",
+      "37294894",
+      "24448199",
+      "21537080",
+      "25087120",
+      "37952827",
+      "34563985",
+      "27145790",
+      "32862709",
+      "31957467",
+      "32280997",
+      "11560859",
+      "29891648",
+      "38926347",
+      "10750588",
+      "32106379",
+      "16183734",
+      "31409188",
+      "30407523",
+      "32480429",
+      "35657612",
+      "26914935",
+      "24777975",
+      "10994762",
+      "26378790",
+      "31127082",
+      "33402817",
+      "26873969",
+      "24413772",
+      "22053207",
+      "24608673",
+      "36931095",
+      "31489470",
+      "29127073",
+      "33225722",
+      "32087602",
+      "37702061",
+      "37488049",
+      "37833535",
+      "37352916",
+      "37253771",
+      "34934196",
+      "39309432",
+      "38091641",
+      "33995670",
+      "36205817",
+      "30443195",
+      "38158445",
+      "32902612",
+      "36004249",
+      "35217815",
+      "37647427",
+      "37741429",
+      "37302817",
+      "39373232",
+      "37846580",
+      "39351650",
+      "37927796",
+      "37219631",
+      "39419453",
+      "38278820",
+      "38179789",
+      "37498303",
+      "37404738",
+      "33313259",
+      "37762130",
+      "38500692",
+      "37570664",
+      "38020087",
+      "37860696",
+      "38547266",
+      "33117805",
+      "37752535",
+      "38993677",
+      "38509075"
+    ],
+    "review": [
+      "37023527",
+      "10750588",
+      "38179789"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00140-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-853",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41733593",
+  "title": "Screening Biomarkers for Nerve Injury Using Weighted Gene Co-Expression Network Analysis and Machine Learning.",
+  "authors": "Cao, Shuming; Yu, Chengyue; Wang, Nana; Xu, Jianhua; Xu, Weiguo",
+  "journal": "Brain and behavior",
+  "published_date": "2026-02-24",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用WGCNA和机器学习筛选神经损伤生物标志物，聚焦免疫与神经元损伤，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Nerve injury triggers complex molecular responses involving immune activation and neuronal damage, yet the key regulatory genes and their mechanisms remain poorly understood. Here, we integrated multi-transcriptomic datasets and machine learning to identify and validate novel biomarkers of nerve injury and elucidate their functional roles. METHODS: The RNA-seq data and the single-cell transcriptome data of nerve injury and sham-surgery samples were sourced from the Gene Expression Omnibus (GEO) database. Weighted gene co-expression network analysis (WGCNA), differential expression analysis, and three machine learning algorithms were used to identify hub genes associated with nerve injury. The expression patterns and diagnostic value of these hub genes were validated in independent datasets. The correlation between these genes and immune cell infiltration was analyzed using the CIBERSORT algorithm. Finally, single-cell RNA sequencing (scRNA-seq) data were used to investigate the cell-specific expression patterns of the hub genes in neural cells. RESULTS: Seven nerve injury-related genes were identified via WGCNA and three machine learning methods, of which Atf3, Bin2, Fcgr2b, and Ucn exhibited robust diagnostic performance (AUC > 0.7) across validation cohorts. Functional enrichment implicated these genes in neuroinflammation, neuronal fate commitment, and JAK-STAT/NF-kappaB signaling. Immune infiltration analysis correlated their expression with M2 macrophage polarization and CD4+ T cell depletion, while scRNA-seq highlighted cell-specific patterns: Atf3 and Ucn were neuron-enriched, whereas Fcgr2b and Bin2 predominated in macrophages/NK cells. Moreover, Fcgr2b promoted the outgrowth of neurites in PC12 cells. CONCLUSION: Our study unveils Atf3, Bin2, Fcgr2b, and Ucn as critical nerve injury biomarkers with dual roles in neuroimmune crosstalk, offering novel insights into therapeutic targeting for nerve repair. Moreover, Fcgr2b may be involved in neurite outgrowth after nerve injury.",
+  "abstract_zh": "背景：神经损伤会触发涉及免疫激活和神经元损伤的复杂分子反应，然而关键调控基因及其机制仍知之甚少。在此，我们整合了多转录组数据集和机器学习方法，以识别并验证神经损伤的新型生物标志物，并阐明其功能作用。方法：神经损伤和假手术样本的RNA-seq数据及单细胞转录组数据来源于基因表达综合数据库（Gene Expression Omnibus, GEO）。采用加权基因共表达网络分析（WGCNA）、差异表达分析及三种机器学习算法来识别与神经损伤相关的核心基因。这些核心基因的表达模式和诊断价值在独立数据集中得到验证。使用CIBERSORT算法分析这些基因与免疫细胞浸润的相关性。最后，利用单细胞RNA测序（scRNA-seq）数据研究核心基因在神经细胞中的细胞特异性表达模式。结果：通过WGCNA和三种机器学习方法识别出七个神经损伤相关基因，其中Atf3、Bin2、Fcgr2b和Ucn在验证队列中表现出稳健的诊断性能（AUC > 0.7）。功能富集分析表明这些基因参与神经炎症、神经元命运决定以及JAK-STAT/NF-kappaB信号通路。免疫浸润分析将其表达与M2巨噬细胞极化和CD4+ T细胞耗竭相关联，而scRNA-seq则突出了细胞特异性模式：Atf3和Ucn富集于神经元，而Fcgr2b和Bin2主要存在于巨噬细胞/NK细胞中。此外，Fcgr2b促进了PC12细胞中神经突的生长。结论：我们的研究揭示了Atf3、Bin2、Fcgr2b和Ucn作为关键的神经损伤生物标志物，在神经免疫串扰中具有双重作用，为神经修复的治疗靶向提供了新见解。此外，Fcgr2b可能参与神经损伤后的神经突生长。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41733593/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41733593/",
+  "paper_page_path": "papers/pubmed/41733593/index.html"
+}

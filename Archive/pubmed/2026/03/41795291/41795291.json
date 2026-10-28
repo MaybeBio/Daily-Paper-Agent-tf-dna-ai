@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41795291",
+    "doi": "10.1016/j.phymed.2026.158011",
+    "title": "Targeting GRB2 with Polyphyllin H overcomes PIKFYVE inhibitor resistance in bladder cancer by blocking Akt-SREBP1-SCD1 pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Targeting PIKFYVE has emerged as a promising anticancer strategy; however, its efficacy is often limited by adaptive resistance. This study aimed to investigate the efficacy and resistance mechanisms of PIKFYVE inhibitors in bladder cancer, and discover a phytochemical capable of overcoming the adaptive resistance, thereby establishing a potent and safe combination therapy. METHODS: The anti-proliferative effects of PIKFYVE inhibitors and phytochemical polyphyllin H (PPH) were evaluated in a panel of cancer cell lines. Apoptosis was assessed by flow cytometry. Molecular mechanisms were investigated using integrated transcriptomic and proteomic analyses, complemented by functional validation using gene knockdown and pharmacological inhibition. The interaction between GRB2 and PPH was characterized by surface plasmon resonance, cellular thermal shift assays, and molecular dynamics simulations. Gene expression, correlation, and survival data were analyzed using public databases. Therapeutic synergy between PPH and PIKFYVE inhibitors was assessed both in vitro and in vivo. RESULTS: PIKFYVE inhibitors suppressed bladder cancer growth and overcame cisplatin resistance via autophagy blockade, but concurrently triggered a growth factor receptor binding protein 2 (GRB2)-dependent EGFR-Akt-SREBP lipogenic axis as a compensatory adaptive resistance mechanism. We identified PPH as a novel GRB2 inhibitor that binds specifically to the c-SH3/SH2 interface via a steric bottleneck involving key residues (Phe62, Ile65, Phe182). PPH suppressed the Akt-SREBP1-SCD1 cascade, inhibiting lipogenesis and tumor proliferation even under lipid-rich conditions. PPH disrupted this resistance mechanism, leading to strong synergistic antitumor activity without toxicity. CONCLUSION: Our findings reveal a GRB2-mediated adaptive resistance pathway centered on lipid reprogramming and establish PPH as a clinically translatable GRB2 inhibitor that synergizes with PIKFYVE-targeted therapy.",
+    "keywords": [
+      "Drug resistance",
+      "GRB2 inhibitor",
+      "Lipid metabolism",
+      "Natural products",
+      "Stearoyl-CoA desaturase 1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*GRB2 Adaptor Protein/metabolism/antagonists & inhibitors",
+      "*Drug Resistance, Neoplasm/drug effects",
+      "Cell Line, Tumor",
+      "*Urinary Bladder Neoplasms/drug therapy/metabolism/pathology",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Animals",
+      "Sterol Regulatory Element Binding Protein 1/metabolism",
+      "Signal Transduction/drug effects",
+      "*Phosphoinositide-3 Kinase Inhibitors/pharmacology",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Cell Proliferation/drug effects",
+      "Apoptosis/drug effects",
+      "Antineoplastic Agents/pharmacology",
+      "Cisplatin/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Yu-Song",
+        "Liu, Chen-Kai",
+        "Jiang, Wu-Shuang",
+        "Liu, Jue",
+        "Liu, Yue-Xuan",
+        "Yu, Fei-Xue",
+        "Liu, Gao",
+        "Xu, Tian-Rui",
+        "Sang, Jun"
+      ],
+      "short_names": [
+        "Song YS",
+        "Liu CK",
+        "Jiang WS",
+        "Liu J",
+        "Liu YX",
+        "Yu FX",
+        "Liu G",
+        "Xu TR",
+        "Sang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China.",
+        "Yunnan University of Traditional Chinese Medicine, Kunming 650500, China.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China. Electronic address: tianruixu@kust.edu.cn.",
+        "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China. Electronic address: junsang@kust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Yu-Song",
+        "short_name": "Song YS",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chen-Kai",
+        "short_name": "Liu CK",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Wu-Shuang",
+        "short_name": "Jiang WS",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jue",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yue-Xuan",
+        "short_name": "Liu YX",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Fei-Xue",
+        "short_name": "Yu FX",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Gao",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan University of Traditional Chinese Medicine, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Tian-Rui",
+        "short_name": "Xu TR",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China. Electronic address: tianruixu@kust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Sang, Jun",
+        "short_name": "Sang J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Technology, Kunming University of Science and Technology, Kunming, Yunnan, 650500, China. Electronic address: junsang@kust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/08 06:38",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41795291",
+      "40882789",
+      "41232632",
+      "32561477",
+      "41832498",
+      "23019225",
+      "38357946",
+      "30816494",
+      "31574376",
+      "17308080",
+      "41935433",
+      "24879796",
+      "31199678",
+      "41101075",
+      "23705826",
+      "32546957",
+      "42030890",
+      "32325639",
+      "41477979",
+      "39192653",
+      "41581813",
+      "38547624",
+      "39468929",
+      "41366453",
+      "40943298",
+      "42087353",
+      "35057550",
+      "38609654",
+      "22351686",
+      "27580988",
+      "42123865",
+      "40831000",
+      "30098066",
+      "41949384",
+      "26325371",
+      "41865688",
+      "40318719",
+      "39505519",
+      "41038145",
+      "39129292",
+      "39932818",
+      "22338016",
+      "30845932",
+      "37741534",
+      "42059424",
+      "19432987",
+      "29100507",
+      "22895070",
+      "23372675",
+      "29961813",
+      "41344272",
+      "16288045",
+      "30668336",
+      "41593691",
+      "38429897",
+      "41386559",
+      "42067902",
+      "41966583",
+      "32608202",
+      "39047413",
+      "27046225",
+      "33229547",
+      "41858068",
+      "29241458",
+      "36627645",
+      "36681055",
+      "42415939",
+      "38743191",
+      "40942159",
+      "28093061",
+      "28408137",
+      "41775213",
+      "28165387",
+      "23437382",
+      "39792198",
+      "34322786",
+      "26184482",
+      "41610671",
+      "42336026",
+      "33438566",
+      "40277792",
+      "39799420",
+      "21147110",
+      "39126925",
+      "40054176",
+      "41243487",
+      "32826249",
+      "41339379",
+      "38764025",
+      "40582902",
+      "41348302",
+      "31196210",
+      "42191034",
+      "39419785",
+      "41549283",
+      "40415233",
+      "29344640",
+      "26597249",
+      "39644827",
+      "39541924"
+    ],
+    "review": [
+      "41795291"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00248-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-699",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

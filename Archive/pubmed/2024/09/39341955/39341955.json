@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "39341955",
+    "doi": "10.1038/s41598-024-73636-w",
+    "title": "Exploiting the bile acid binding protein as transporter of a Cholic Acid/Mirin bioconjugate for potential applications in liver cancer therapy."
+  },
+  "content": {
+    "abstract": "Bioconjugation is one of the most promising strategies to improve drug delivery, especially in cancer therapy. Biomolecules such as bile acids (BAs) have been intensively explored as carriers, due to their peculiar physicochemical properties and biocompatibility. BAs trafficking is regulated by intracellular lipid-binding proteins and their transport in the liver can be studied using chicken liver Bile Acid-Binding Proteins (cL-BABPs) as a reference model. Therefore, we conceived the idea of developing a BA-conjugate with Mirin, an exonuclease inhibitor of Mre11 endowed with different anticancer activities, to direct its transport to the liver. Following computational analysis of various BAs in complex with cL-BABP, we identified cholic acid (CA) as the most promising candidate as carrier, leading to the synthesis of a novel bioconjugate named CA-M11. As predicted by computational data and confirmed by X-ray crystallographic studies, CA-M11 was able to accommodate into the binding pocket of BABP. Hence, it can enter BAs trafficking in the hepatic compartment and here release Mirin. The effect of CA-M11, evaluated in combination with varying concentrations of Doxorubicin on HepG2 cell line, demonstrated a significant increase in cell mortality compared to the use of the cytotoxic drug or Mirin alone, thus highlighting chemo-sensitizing properties. The promising results regarding plasma stability for CA-M11 validate its potential as a valuable agent or adjuvant for hepatic cancer therapy.",
+    "keywords": [
+      "Anticancer",
+      "BABP",
+      "Bile acids",
+      "Carriers",
+      "DNA damage",
+      "Drug conjugates",
+      "MRN complex",
+      "Molecular dynamic simulation",
+      "X-ray crystallography"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cholic Acid/chemistry",
+      "*Liver Neoplasms/drug therapy/metabolism",
+      "Hep G2 Cells",
+      "Animals",
+      "*Carrier Proteins/metabolism",
+      "Doxorubicin/pharmacology",
+      "Chickens",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Liver/metabolism/drug effects",
+      "DNA-Binding Proteins/metabolism/chemistry",
+      "Membrane Glycoproteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tassone, Giusy",
+        "Maramai, Samuele",
+        "Paolino, Marco",
+        "Lamponi, Stefania",
+        "Poggialini, Federica",
+        "Dreassi, Elena",
+        "Petricci, Elena",
+        "Alcaro, Stefano",
+        "Pozzi, Cecilia",
+        "Romeo, Isabella"
+      ],
+      "short_names": [
+        "Tassone G",
+        "Maramai S",
+        "Paolino M",
+        "Lamponi S",
+        "Poggialini F",
+        "Dreassi E",
+        "Petricci E",
+        "Alcaro S",
+        "Pozzi C",
+        "Romeo I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy. maramai@unisi.it.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy.",
+        "Department of Health Science, Universita \"Magna Graecia\" di Catanzaro, Campus \"S. Venuta\", Viale Europa, 88100, Catanzaro, Italy.",
+        "Net4Science Academic Spin-Off, Universita \"Magna Graecia\" di Catanzaro, Campus \"S. Venuta\", Viale Europa, 88100, Catanzaro, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy. cecilia.pozzi@unisi.it.",
+        "Consorzio Interuniversitario Risonanze Magnetiche di Metallo Proteine (CIRMMP), Via Sacconi 6, 50019, Sesto Fiorentino (FI), Italy. cecilia.pozzi@unisi.it.",
+        "Department of Health Science, Universita \"Magna Graecia\" di Catanzaro, Campus \"S. Venuta\", Viale Europa, 88100, Catanzaro, Italy.",
+        "Net4Science Academic Spin-Off, Universita \"Magna Graecia\" di Catanzaro, Campus \"S. Venuta\", Viale Europa, 88100, Catanzaro, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tassone, Giusy",
+        "short_name": "Tassone G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Maramai, Samuele",
+        "short_name": "Maramai S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy. maramai@unisi.it."
+        ]
+      },
+      {
+        "full_name": "Paolino, Marco",
+        "short_name": "Paolino M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Lamponi, Stefania",
+        "short_name": "Lamponi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Poggialini, Federica",
+        "short_name": "Poggialini F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Dreassi, Elena",
+        "short_name": "Dreassi E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Petricci, Elena",
+        "short_name": "Petricci E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Alcaro, Stefano",
+        "short_name": "Alcaro S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Science, Università \"Magna Graecia\" di Catanzaro, Campus \"S. Venuta\", Viale Europa, 88100, Catanzaro, Italy.",
+          "Net4Science Academic Spin-Off, Università \"Magna Graecia\" di Catanzaro, Campus \"S. Venuta\", Viale Europa, 88100, Catanzaro, Italy."
+        ]
+      },
+      {
+        "full_name": "Pozzi, Cecilia",
+        "short_name": "Pozzi C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, University of Siena, Via Aldo Moro 2, 53100, Siena, Italy. cecilia.pozzi@unisi.it.",
+          "Consorzio Interuniversitario Risonanze Magnetiche di Metallo Proteine (CIRMMP), Via Sacconi 6, 50019, Sesto Fiorentino (FI), Italy. cecilia.pozzi@unisi.it."
+        ]
+      },
+      {
+        "full_name": "Romeo, Isabella",
+        "short_name": "Romeo I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Science, Università \"Magna Graecia\" di Catanzaro, Campus \"S. Venuta\", Viale Europa, 88100, Catanzaro, Italy.",
+          "Net4Science Academic Spin-Off, Università \"Magna Graecia\" di Catanzaro, Campus \"S. Venuta\", Viale Europa, 88100, Catanzaro, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Sep 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/29 00:42",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "39766321"
+    ],
+    "refs": [
+      "38078422",
+      "37994401",
+      "37871557",
+      "37098896",
+      "36989945",
+      "36839775",
+      "36598465",
+      "36557962",
+      "36213114",
+      "35853939",
+      "35036599",
+      "35008930",
+      "34695379",
+      "34181976",
+      "34022282",
+      "33925706",
+      "33582321",
+      "32446036",
+      "32222373",
+      "31767017",
+      "31652668",
+      "31244000",
+      "30467479",
+      "30350163",
+      "30166519",
+      "29523233",
+      "28967905",
+      "28457140",
+      "27102882",
+      "25954303",
+      "25835573",
+      "24316220",
+      "23909664",
+      "22298332",
+      "21460454",
+      "21460446",
+      "21460441",
+      "21117705",
+      "20383002",
+      "20124692",
+      "20057045",
+      "19847258",
+      "19441025",
+      "19219009",
+      "18176557",
+      "17960093",
+      "17641629",
+      "16555310",
+      "16477649",
+      "16369096",
+      "15858005",
+      "15518556",
+      "15309560",
+      "12846568",
+      "12479570",
+      "10488713",
+      "9240929",
+      "9186919",
+      "9054409",
+      "8154375",
+      "5041774",
+      "2193029",
+      "1526993"
+    ],
+    "similar": [
+      "39341955",
+      "33925706",
+      "18654997",
+      "16555310",
+      "17607743",
+      "10514450",
+      "15518556",
+      "18175325",
+      "24183703",
+      "17670743",
+      "31195837",
+      "14529265",
+      "27183708",
+      "25582706",
+      "28280334",
+      "18952094",
+      "19441025",
+      "23909664",
+      "11684682",
+      "27377011",
+      "39135090",
+      "25034404",
+      "17929837",
+      "35008930",
+      "14572640",
+      "38526215",
+      "19603488",
+      "9461519",
+      "28529062",
+      "24114214",
+      "14770367",
+      "29381405",
+      "33438034",
+      "31894354",
+      "24244729",
+      "24845614",
+      "28583875",
+      "28910492",
+      "33341438",
+      "34977519",
+      "19754879",
+      "17498222",
+      "16413764",
+      "19874274",
+      "21800341",
+      "6724529",
+      "27871908",
+      "12479580",
+      "16264196",
+      "28583901",
+      "15853769",
+      "16230354",
+      "39090543",
+      "21516131",
+      "37939855",
+      "30735608",
+      "17705270",
+      "34825156",
+      "27513813",
+      "11943426",
+      "12971955",
+      "28665132",
+      "33193099",
+      "16357057",
+      "21747115",
+      "21346810",
+      "9090705",
+      "24118394",
+      "29058872",
+      "33769482",
+      "37773415",
+      "37957540",
+      "8612808",
+      "15466244",
+      "6329277",
+      "31644410",
+      "19598290",
+      "23523429",
+      "24448653",
+      "37968239",
+      "25055961",
+      "22096226",
+      "37075973",
+      "2318830",
+      "34329998",
+      "26914133",
+      "23747753",
+      "26579439",
+      "24085190",
+      "26984780",
+      "26684275",
+      "33515644",
+      "7096571",
+      "26282547",
+      "18407826",
+      "26520467",
+      "23759384",
+      "39217729",
+      "25468388",
+      "8245717"
+    ],
+    "review": [
+      "39341955",
+      "19441025",
+      "35008930",
+      "14770367",
+      "12479580",
+      "26579439"
+    ],
+    "pmc": [
+      "11439058"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-73636-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39341955/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

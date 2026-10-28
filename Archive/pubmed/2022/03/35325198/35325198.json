@@ -1,0 +1,472 @@
+{
+  "identity": {
+    "pmid": "35325198",
+    "doi": "10.1093/nar/gkac182",
+    "title": "Long promoter sequences form higher-order G-quadruplexes: an integrative structural biology study of c-Myc, k-Ras and c-Kit promoter sequences."
+  },
+  "content": {
+    "abstract": "We report on higher-order G-quadruplex structures adopted by long promoter sequences obtained by an iterative integrated structural biology approach. Our approach uses quantitative biophysical tools (analytical ultracentrifugation, small-angle X-ray scattering, and circular dichroism spectroscopy) combined with modeling and molecular dynamics simulations, to derive self-consistent structural models. The formal resolution of our approach is 18 angstroms, but in some cases structural features of only a few nucleotides can be discerned. We report here five structures of long (34-70 nt) wild-type sequences selected from three cancer-related promoters: c-Myc, c-Kit and k-Ras. Each sequence studied has a unique structure. Three sequences form structures with two contiguous, stacked, G-quadruplex units. One longer sequence from c-Myc forms a structure with three contiguous stacked quadruplexes. A longer c-Kit sequence forms a quadruplex-hairpin structure. Each structure exhibits interfacial regions between stacked quadruplexes or novel loop geometries that are possible druggable targets. We also report methodological advances in our integrated structural biology approach, which now includes quantitative CD for counting stacked G-tetrads, DNaseI cleavage for hairpin detection and SAXS model refinement. Our results suggest that higher-order quadruplex assemblies may be a common feature within the genome, rather than simple single quadruplex structures.",
+    "keywords": [],
+    "mesh_terms": [
+      "Circular Dichroism",
+      "*G-Quadruplexes",
+      "*Promoter Regions, Genetic",
+      "Proto-Oncogene Proteins c-kit/*genetics",
+      "Proto-Oncogene Proteins c-myc/*genetics",
+      "Proto-Oncogene Proteins p21(ras)/*genetics",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Monsen, Robert C",
+        "DeLeeuw, Lynn W",
+        "Dean, William L",
+        "Gray, Robert D",
+        "Chakravarthy, Srinivas",
+        "Hopkins, Jesse B",
+        "Chaires, Jonathan B",
+        "Trent, John O"
+      ],
+      "short_names": [
+        "Monsen RC",
+        "DeLeeuw LW",
+        "Dean WL",
+        "Gray RD",
+        "Chakravarthy S",
+        "Hopkins JB",
+        "Chaires JB",
+        "Trent JO"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6283-3249",
+        "ORCID: 0000-0001-8554-8072",
+        "ORCID: 0000-0001-5477-945X",
+        "ORCID: 0000-0002-7346-4231"
+      ],
+      "affiliations": [
+        "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+        "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+        "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+        "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+        "The Biophysics Collaborative Access Team (BioCAT), Department of Biological, Chemical, and Physical Sciences, Illinois Institute of Technology, Chicago, IL 60616, USA.",
+        "The Biophysics Collaborative Access Team (BioCAT), Department of Biological, Chemical, and Physical Sciences, Illinois Institute of Technology, Chicago, IL 60616, USA.",
+        "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+        "Department of Medicine, University of Louisville, Louisville, KY 40202, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Louisville, Louisville, KY 40202, USA.",
+        "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+        "Department of Medicine, University of Louisville, Louisville, KY 40202, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Louisville, Louisville, KY 40202, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Monsen, Robert C",
+        "short_name": "Monsen RC",
+        "identifiers": [
+          "0000-0002-6283-3249"
+        ],
+        "affiliations": [
+          "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA."
+        ]
+      },
+      {
+        "full_name": "DeLeeuw, Lynn W",
+        "short_name": "DeLeeuw LW",
+        "identifiers": [],
+        "affiliations": [
+          "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA."
+        ]
+      },
+      {
+        "full_name": "Dean, William L",
+        "short_name": "Dean WL",
+        "identifiers": [],
+        "affiliations": [
+          "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA."
+        ]
+      },
+      {
+        "full_name": "Gray, Robert D",
+        "short_name": "Gray RD",
+        "identifiers": [],
+        "affiliations": [
+          "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA."
+        ]
+      },
+      {
+        "full_name": "Chakravarthy, Srinivas",
+        "short_name": "Chakravarthy S",
+        "identifiers": [],
+        "affiliations": [
+          "The Biophysics Collaborative Access Team (BioCAT), Department of Biological, Chemical, and Physical Sciences, Illinois Institute of Technology, Chicago, IL 60616, USA."
+        ]
+      },
+      {
+        "full_name": "Hopkins, Jesse B",
+        "short_name": "Hopkins JB",
+        "identifiers": [
+          "0000-0001-8554-8072"
+        ],
+        "affiliations": [
+          "The Biophysics Collaborative Access Team (BioCAT), Department of Biological, Chemical, and Physical Sciences, Illinois Institute of Technology, Chicago, IL 60616, USA."
+        ]
+      },
+      {
+        "full_name": "Chaires, Jonathan B",
+        "short_name": "Chaires JB",
+        "identifiers": [
+          "0000-0001-5477-945X"
+        ],
+        "affiliations": [
+          "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+          "Department of Medicine, University of Louisville, Louisville, KY 40202, USA.",
+          "Department of Biochemistry and Molecular Genetics, University of Louisville, Louisville, KY 40202, USA."
+        ]
+      },
+      {
+        "full_name": "Trent, John O",
+        "short_name": "Trent JO",
+        "identifiers": [
+          "0000-0002-7346-4231"
+        ],
+        "affiliations": [
+          "UofL Health Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+          "Department of Medicine, University of Louisville, Louisville, KY 40202, USA.",
+          "Department of Biochemistry and Molecular Genetics, University of Louisville, Louisville, KY 40202, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Apr 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/25 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "42457705",
+      "42059277",
+      "41585727",
+      "40966493",
+      "40913569",
+      "40881401",
+      "40060879",
+      "39972241",
+      "39883009",
+      "39766239",
+      "39282441",
+      "38630447",
+      "38477454",
+      "38203216",
+      "37546556",
+      "37351517",
+      "37111301",
+      "37047138",
+      "36838818",
+      "36715343",
+      "36555662",
+      "36416262",
+      "36186582",
+      "36142137",
+      "36116264",
+      "36009419",
+      "35709230"
+    ],
+    "refs": [
+      "34506136",
+      "34450640",
+      "34379785",
+      "34183817",
+      "34162892",
+      "34145655",
+      "33892767",
+      "33469644",
+      "32960213",
+      "32432667",
+      "32416304",
+      "32096311",
+      "32083666",
+      "32035901",
+      "31815451",
+      "31539370",
+      "31450559",
+      "31444749",
+      "31444745",
+      "31325371",
+      "31244182",
+      "31150619",
+      "30842981",
+      "30604962",
+      "30551210",
+      "30201851",
+      "30091430",
+      "30063821",
+      "29966734",
+      "29733879",
+      "29718405",
+      "29589913",
+      "29470465",
+      "29299144",
+      "29076232",
+      "29054971",
+      "29021737",
+      "28973461",
+      "28876235",
+      "28763217",
+      "28330874",
+      "28252181",
+      "28248491",
+      "28150040",
+      "28132898",
+      "28052120",
+      "27917826",
+      "27840683",
+      "27693060",
+      "27630371",
+      "27618450",
+      "27145334",
+      "27060139",
+      "26841249",
+      "26840940",
+      "26412657",
+      "26405692",
+      "26320411",
+      "26284527",
+      "26192317",
+      "25977370",
+      "25945570",
+      "25765781",
+      "25526084",
+      "25495387",
+      "25484842",
+      "24713700",
+      "24699415",
+      "24335081",
+      "24295054",
+      "24005038",
+      "23972848",
+      "23363071",
+      "23241391",
+      "23128087",
+      "23108607",
+      "23019076",
+      "22892119",
+      "22886555",
+      "22760824",
+      "22633887",
+      "21993297",
+      "21928459",
+      "21843480",
+      "21840903",
+      "21795379",
+      "21638270",
+      "21566705",
+      "21540209",
+      "21455236",
+      "21036459",
+      "20849417",
+      "20704263",
+      "20053730",
+      "20012419",
+      "20012418",
+      "19937757",
+      "19723583",
+      "19705869",
+      "19601575",
+      "19434839",
+      "19190094",
+      "19136469",
+      "18718931",
+      "18614607",
+      "18252774",
+      "17984069",
+      "17411046",
+      "17169996",
+      "16901825",
+      "16784237",
+      "16620112",
+      "16331995",
+      "15914667",
+      "15914666",
+      "15908587",
+      "15697230",
+      "15642696",
+      "12824337",
+      "12195017",
+      "10354416",
+      "9482874",
+      "8263919",
+      "1436110"
+    ],
+    "similar": [
+      "35325198",
+      "32083666",
+      "36054116",
+      "36282946",
+      "27021281",
+      "22928025",
+      "27865994",
+      "24012973",
+      "17720713",
+      "21402034",
+      "39032720",
+      "25495750",
+      "20849082",
+      "17718513",
+      "20566478",
+      "25452341",
+      "18688346",
+      "23108607",
+      "16045346",
+      "31244182",
+      "25359695",
+      "19705869",
+      "24813121",
+      "16901825",
+      "24735723",
+      "17362008",
+      "27634752",
+      "23776031",
+      "16784237",
+      "28330874",
+      "36555657",
+      "27551915",
+      "32949676",
+      "21720638",
+      "19601575",
+      "26412657",
+      "28570076",
+      "31234770",
+      "34048082",
+      "26597160",
+      "21795379",
+      "26656490",
+      "19054066",
+      "29733879",
+      "16433524",
+      "30703662",
+      "27226253",
+      "17913750",
+      "38821199",
+      "33469644",
+      "29189986",
+      "33313902",
+      "26245347",
+      "33978746",
+      "19496619",
+      "32267052",
+      "34478543",
+      "17672459",
+      "22405847",
+      "26855080",
+      "22287624",
+      "31590335",
+      "16687659",
+      "29069417",
+      "18536803",
+      "21774525",
+      "34365512",
+      "24394582",
+      "19324889",
+      "19689109",
+      "27565766",
+      "33466280",
+      "19581307",
+      "21967482",
+      "29860170",
+      "11419945",
+      "32008744",
+      "27144522",
+      "25527072",
+      "27722269",
+      "22484007",
+      "34824301",
+      "16408022",
+      "16620112",
+      "25526084",
+      "25084283",
+      "24005038",
+      "33188859",
+      "21540209",
+      "32313953",
+      "29762718",
+      "33801762",
+      "32432667",
+      "20971074",
+      "29474069",
+      "25689673",
+      "23127826",
+      "18355457",
+      "19795057",
+      "26478420",
+      "33396937"
+    ],
+    "review": [
+      "35325198",
+      "16901825",
+      "21720638",
+      "17913750",
+      "26855080"
+    ],
+    "pmc": [
+      "9023277"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35325198/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35325198",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac182",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

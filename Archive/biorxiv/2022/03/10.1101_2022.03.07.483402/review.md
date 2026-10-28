@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material provided
+- **Shared manuscript claim summary** The authors report high-throughput molecular dynamics-based alchemical free energy calculations to predict binding free energy changes for six common spike RBD mutations of SARS-CoV-2 relative to ACE2. They claim the alchemical method consistently predicts free energy changes with accuracy close to ±1.0 kcal/mol against available experimental data, and identify N501Y and L452R as the most stabilizing mutations.
+- **Visible evidence base** Abstract text only; no numerical results, methodological details, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field choices, convergence criteria, error estimates, experimental data sources, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of alchemical free energy calculations to a timely problem, but the provided material is insufficient to evaluate the technical validity, statistical robustness, or reproducibility of the reported findings. The central accuracy claim (±1.0 kcal/mol) and the ranking of mutations are stated without supporting data or methodological context. The work may be of interest to computational biophysicists and virologists, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and medicinal chemists interested in alchemical free energy methods and their predictive limits; virologists and structural biologists studying SARS-CoV-2 evolution and antibody escape; researchers developing high-throughput screening pipelines for protein-protein interaction mutations.
+- **Major strengths** The topic is highly relevant to ongoing pandemic research. The use of alchemical free energy calculations, considered rigorous among binding free energy methods, is appropriate for the stated goal. The comparison with other methods and experimental data, if properly executed, would strengthen the study's utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims the alchemical free energy-based method consistently predicted free-energy changes with accuracy close to ±1.0 kcal/mol compared with available experimental values.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No numerical data, error bars, number of replicates, or statistical analysis are presented to support the ±1.0 kcal/mol accuracy claim. The abstract does not specify which experimental values were used, how many mutations were compared, or whether the accuracy is a mean absolute error, root-mean-square error, or other metric.
+  - **Why it matters** The central quantitative claim of the study is unverifiable without these details. Accuracy claims in free energy calculations are highly sensitive to simulation length, force field, and convergence criteria, and the abstract provides no basis for assessing whether the reported accuracy is robust or coincidental.
+  - **Resolution test** Provide a table or figure comparing predicted and experimental binding free energy changes for all six mutations, including per-mutation errors, mean absolute error, and standard deviation. Specify the experimental data source and the statistical metric used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states the study used high-throughput MD simulations and alchemical free energy calculations, and also used other rigorous and non-rigorous binding free energy prediction methods.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are given for the alchemical protocol (e.g., thermodynamic integration, free energy perturbation, Bennett acceptance ratio), the force field, the water model, the simulation length, the number of lambda windows, or the soft-core parameters. The "other methods" are not named, and their implementation is unspecified.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, other researchers cannot replicate the simulations or assess whether the high-throughput approach introduces systematic biases.
+  - **Resolution test** Include a methods section describing the full simulation protocol, software versions, and analysis pipeline. Name the alternative methods and provide citations or equations for their implementation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract identifies N501Y and L452R as the most significant mutations responsible for stabilizing the spike RBD interactions with human ACE2.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The ranking of mutations is presented as a definitive conclusion, but no quantitative free energy values, confidence intervals, or statistical significance tests are provided. The abstract does not state whether the ranking is based on absolute binding free energy changes, relative changes, or some other metric, nor whether the differences between mutations are within simulation error.
+  - **Why it matters** Overinterpretation of rankings without error analysis can mislead readers, especially given that N501Y and L452R are known to affect antibody binding and infectivity through multiple mechanisms. The claim requires statistical support to be credible.
+  - **Resolution test** Provide per-mutation free energy changes with standard errors and a statistical test (e.g., bootstrap or t-test) demonstrating that N501Y and L452R are significantly more stabilizing than the other four mutations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction of variants
+  - **Evidence pointer** Abstract, first two sentences
+  - **Issue** The abstract lists variant classifications (VOC, VOI, VUM) without defining them or explaining their relevance to the study's focus on RBD mutations.
+  - **Required correction** Briefly define the classification terms or state that the study focuses on mutations from these variants without requiring the reader to know the classification system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of scope
+  - **Affected element** Mutation selection
+  - **Evidence pointer** Abstract, "six commonly observed spike RBD mutations"
+  - **Issue** The abstract does not list the six mutations, making it impossible to assess whether the selection is representative or biased toward known stabilizing mutations.
+  - **Required correction** List the six mutations explicitly in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of comparison
+  - **Affected element** Comparison with experimental data
+  - **Evidence pointer** Abstract, "compared our results with the experimental data if available"
+  - **Issue** The phrase "if available" is vague and does not indicate how many mutations had experimental comparators or whether the comparison was direct or indirect.
+  - **Required correction** Specify the number of mutations with experimental data and the nature of the comparison (e.g., experimental binding affinity changes from surface plasmon resonance or cell-based assays).
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The application of alchemical free energy calculations to SARS-CoV-2 RBD mutations is not novel in itself, but the high-throughput aspect may offer a methodological contribution if properly validated. Scientific importance: The topic is timely and relevant, but the abstract does not demonstrate a new biological or methodological insight beyond what is already known about N501Y and L452R. Interdisciplinary readership: The abstract is accessible to computational biologists but may be too technical for a broad readership without additional context. Technical soundness: Not assessable from the abstract; the accuracy claim and ranking lack supporting data. Readability for nonspecialists: The abstract is generally clear but includes jargon (e.g., "alchemical free energy calculations") without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail or quantitative results to support the central claims. A full manuscript with methods, data, and statistical analysis would be required to assess the study's validity.
+
+## Risk / unsupported claims
+- The ±1.0 kcal/mol accuracy claim is unsupported without numerical data and statistical metrics.
+- The identification of N501Y and L452R as the most stabilizing mutations is unsupported without per-mutation free energy values and error analysis.
+- The claim that the alchemical method "consistently predicted" free-energy changes is unverifiable without specifying the number of mutations compared and the experimental reference.
+- The use of "high-throughput" is not defined, and its impact on accuracy or efficiency is not quantified.
+- The comparison with "other (rigorous and non-rigorous) binding free energy prediction methods" is mentioned but not described, making the comparative claim unassessable.

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2024-02-17)
+- **Assessment boundary** Scientific content, methodology, claims, and reproducibility as presented in the provided text. No supplementary files, figures, or tables were available for inspection beyond those referenced in the text.
+- **Shared manuscript claim summary** The authors present Enformer Celltyping, a deep learning model that predicts cell type-specific histone mark signals from DNA sequence and chromatin accessibility data. The model uses a transfer learning approach on the pre-trained Enformer model, incorporates global and local chromatin accessibility embeddings, and is claimed to outperform existing approaches for cell type-agnostic predictions. The authors also propose a framework for evaluating genetic variant effect predictions using hQTL data and SLDP, and report that the model does not yet adequately predict variant effects.
+- **Visible evidence base** Abstract, Background, Methods (partial), Results (partial), Discussion, Conclusion, Data availability, Code availability. Figures and tables are referenced but not provided. Supplementary figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** All figures and tables, including main figures (Figs. 1-7) and supplementary figures (Figs. S1-S10) and tables (Tables S1). Detailed methods sections referenced but not fully included (e.g., "Enformer Celltyping architecture" details, training data construction). Supplementary analyses and results. The footnote indicates rendering issues throughout the text, which may have removed content.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in computational genomics: predicting cell type-specific epigenomic profiles in previously unseen cell types while accounting for distal genetic effects. The proposed approach, Enformer Celltyping, is technically sound in its use of transfer learning and chromatin accessibility embeddings. However, the central claim of improved performance over existing methods cannot be fully evaluated without the figures and tables. The most significant concern is the reported failure of the model to accurately predict genetic variant effects, which is a stated primary application. The manuscript is honest about this limitation, but this substantially weakens the case for the model's utility in the context of interpreting GWAS results, which is the motivating problem. The work is likely of interest to researchers in regulatory genomics and computational biology, but the current evidence base is insufficient to establish the model as a significant advance over existing approaches.
+- **Who would be interested in the results, and why** Researchers in computational genomics, regulatory genomics, and statistical genetics would be interested. The model's ability to predict in unseen cell types using chromatin accessibility data is relevant for interpreting non-coding variants from GWAS. The transfer learning approach and the proposed evaluation framework for variant effect prediction are also of methodological interest. The honest reporting of limitations in variant effect prediction is valuable for the community.
+- **Major strengths** The problem addressed is important and timely. The use of transfer learning from a large pre-trained model (Enformer) is a sensible and potentially efficient approach. The incorporation of both global and local chromatin accessibility information is a reasonable strategy for cell type-specificity. The proposed evaluation framework using hQTL data and SLDP is a thoughtful contribution. The authors are transparent about the model's limitations in variant effect prediction. The code and model are made available.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that Enformer Celltyping outperforms the current best-in-class approach (Epifactor) for cell type-specific histone mark predictions.
+  - **Evidence pointer** Figure 3a, location not provided
+  - **Concern** The performance comparison against Epifactor is presented in Figure 3a, which is not available for inspection. The text states that Enformer Celltyping "out-performed Epifactor across all cell types and histone mark predictions," but the details of this comparison, including the metrics used, the statistical significance of the differences, and the specific settings for both models, are not described in the text. The comparison is also complicated by differences in output format (classification vs. regression) and bin size, which the authors acknowledge. Without the figure and a detailed description of the benchmarking protocol, this central claim cannot be assessed.
+  - **Why it matters** This is the primary claim of the manuscript. If the performance advantage over existing methods is not robust or is achieved under conditions that are not directly comparable, the contribution of the work is significantly diminished.
+  - **Resolution test** Provide Figure 3a and a detailed description of the benchmarking protocol, including the exact data used, the preprocessing steps, the hyperparameters for both models, and the statistical tests used to compare performance. Clarify how the differences in output format and bin size were handled to ensure a fair comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The claim that Enformer Celltyping can predict epigenetic signals in a cell type-agnostic fashion and generalise to cell types assayed independently of the original training set.
+  - **Evidence pointer** Figures 1d, 2, 5, location not provided
+  - **Concern** The evidence for generalisation to unseen cell types is presented in Figures 1d, 2, and 5, which are not available. The text describes strong performance on held-out immune cell types and on non-ENCODE brain cell types, but the quantitative results are not reported in the text. The claim of "cell type-agnostic" prediction is strong, and the evidence needs to be carefully examined. The use of imputed chromatin accessibility data for most training cell types is a potential confounder, as the model may be learning to predict imputation artifacts rather than true biological signal. The text does not address this possibility.
+  - **Why it matters** The ability to predict in unseen cell types is a key differentiator of this model. If the generalisation is not robust, or if it is partly an artifact of the imputed training data, the model's utility is limited.
+  - **Resolution test** Provide Figures 1d, 2, and 5 with quantitative performance metrics. Describe the imputation method used for chromatin accessibility and discuss its potential impact on model training and evaluation. Provide an analysis of model performance on cell types with experimentally assayed chromatin accessibility data, if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The claim that the proposed approach can be used to predict the effect of genetic variants on the epigenome, and the finding that the model's predictions do not significantly replicate hQTL results.
+  - **Evidence pointer** Figure 6a, Additional file 1: Figure S6, location not provided
+  - **Concern** The manuscript reports that the model's variant effect predictions largely fail to replicate hQTL results, with only one of six matched cell type and histone mark combinations being nominally significant, and none after FDR correction. This is a major negative result that directly undermines the stated primary application of the model. The authors discuss potential reasons, including the model's inability to predict peaks that are absent in the reference sequence and the limitations of the hQTL data. However, the analysis is not fully described, and the figure is not available. The authors also note that filtering out missed peaks did not improve results, which is puzzling and warrants further explanation.
+  - **Why it matters** The ability to predict variant effects is the central motivation for the work. If the model cannot do this, its practical value for interpreting GWAS results is questionable. The negative result is important, but the analysis needs to be thorough and the reasons for the failure need to be clearly identified.
+  - **Resolution test** Provide Figure 6a and a detailed description of the SLDP analysis, including the exact model used, the covariates, and the handling of LD. Provide a more detailed discussion of why the model fails at this task, potentially including analyses of the model's predictions at known causal variants or in comparison to other methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the transfer learning approach is efficient and accessible, and that the model and code are made available.
+  - **Evidence pointer** Methods section "Pre-trained Enformer model", Code availability, Data availability
+  - **Concern** The authors state that they have made a "customisable and efficient transfer learning approach for Enformer available to the community." The code is available on GitHub, and the model weights are on figshare. However, the text does not provide sufficient detail on the computational resources required to reproduce the training, the specific software dependencies, or the exact steps to use the provided code. The description of the transfer learning approach is brief, and the details of the architecture modifications are not fully specified. The figshare links are provided as project home pages, which may not be directly accessible or may not contain the final version of the files.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without clear instructions and stable links, other researchers may not be able to use or build upon this work.
+  - **Resolution test** Provide a detailed description of the software environment, hardware requirements, and step-by-step instructions for reproducing the model training and evaluation. Ensure that the figshare links are stable and point to the final version of the data and model weights.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Calculating Genetic Variant distance from epigenetic effect peak in QTL associations"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the aggregation of SNPs to LD blocks is unclear. The text states that SNPs were aggregated to keep the lowest p-value per LD block, but the rationale for this and the exact method are not fully explained.
+  - **Required correction** Clarify the aggregation procedure and provide a rationale for this choice.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Histone Mark QTL SLDP"
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The text states that the authors "predicted for 867,568 SNPs across the six hQTL datasets for the six cell types, resulting in approximately 125 million predictions." The calculation of this number is not shown, and it is unclear if this includes the multiple predictions per SNP (24 predictions per SNP as described in the Methods).
+  - **Required correction** Show the calculation and clarify whether the 125 million figure includes the multiple predictions per SNP.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The discussion of the model's failure in variant effect prediction is brief. The authors mention potential reasons but do not provide a detailed analysis of the model's behavior at variant sites.
+  - **Required correction** Expand the discussion to include a more detailed analysis of the model's predictions at variant sites, potentially including examples or a comparison with other methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the model can "predict epigenetic signals in a cell type-agnostic fashion." This is a strong claim, and the abstract does not mention the limitations in variant effect prediction, which is a significant finding of the paper.
+  - **Required correction** Consider adding a sentence to the abstract that acknowledges the limitations in variant effect prediction.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Data collection and processing"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The text mentions that the training data was derived from EpiMap and that imputed chromatin accessibility data was used for most cell types. The imputation method is not described.
+  - **Required correction** Provide a description of the imputation method used for chromatin accessibility data.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Global chromatin accessibility signal – cell type-specific motif enrichment"
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The text describes the identification of motifs that are dependent on the global signal, but the details of the analysis are not fully described. The text mentions "top 10% of peaks reliant on the global signal" and "bottom 1% of peaks," but the criteria for these thresholds are not explained.
+  - **Required correction** Clarify the criteria for identifying global-signal-dependent peaks and the rationale for the chosen thresholds.
+
+## Risk / unsupported claims
+- The claim of outperforming Epifactor (Figure 3a) is unsupported without the figure and detailed benchmarking protocol.
+- The claim of strong generalisation to unseen cell types (Figures 1d, 2, 5) is unsupported without the figures and quantitative metrics.
+- The finding that variant effect predictions do not replicate hQTL results (Figure 6a) is unsupported without the figure and detailed analysis description.
+- The claim of "cell type-agnostic" prediction is not fully supported, as the model requires chromatin accessibility data for the target cell type, which may not be available for all cell types of interest.
+- The efficiency of the transfer learning approach is claimed but not quantified in the text.
+- The impact of using imputed chromatin accessibility data on model performance is not assessed.
+- The statement that the model has the "largest receptive field to date of 100,000 base-pairs" is a comparative claim that is not substantiated with a systematic comparison of other models' receptive fields.

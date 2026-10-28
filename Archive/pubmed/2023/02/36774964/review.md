@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No access to figures, supplementary data, or raw experimental data.
+- **Shared manuscript claim summary** The authors propose that negatively charged intrinsically disordered regions (D/E repeats) can accelerate target DNA search by DNA-binding proteins through dynamic autoinhibition, which reduces trapping by non-functional decoy sites. This is supported by kinetic experiments on HMGB1 and engineered Antp homeodomain constructs, coarse-grained molecular dynamics simulations, and a kinetic model.
+- **Visible evidence base** Text descriptions of stopped-flow fluorescence kinetic measurements, fluorescence anisotropy binding assays, NMR chemical shift analyses, CGMD simulations, and kinetic model simulations. Figures are referenced but not directly viewable.
+- **Missing materials affecting confidence** Figures, supplementary data, raw kinetic traces, simulation parameters, NMR spectra, and detailed fitting results are not available. This limits quantitative verification of the claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents an interesting and potentially important concept: that autoinhibition via negatively charged IDRs can paradoxically accelerate target search in the presence of decoys. The combination of experimental kinetics, simulations, and theory is commendable. However, the strength of the conclusions depends critically on quantitative details that cannot be fully assessed from the text alone. The mechanistic interpretation, while plausible, requires careful scrutiny of the simulation and kinetic modeling assumptions. The claim of an "unprecedented role" is somewhat strong given that related concepts exist in the literature on facilitated diffusion and decoy effects.
+- **Who would be interested in the results, and why** Researchers studying DNA-protein interactions, transcription factor kinetics, intrinsically disordered proteins, and facilitated diffusion mechanisms. The work is also relevant to those interested in protein engineering and design of DNA-binding proteins with tunable kinetic properties.
+- **Major strengths** 1) The study addresses a counterintuitive and biologically relevant question with potential implications for understanding how proteins navigate complex genomic environments. 2) The combination of experimental and computational approaches provides complementary perspectives. 3) The use of both a natural system (HMGB1) and engineered constructs strengthens the generality of the proposed mechanism. 4) The kinetic model provides a theoretical framework that can be tested in future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that D/E repeats accelerate target association in the presence of decoys is based on stopped-flow kinetic measurements.
+  - **Evidence pointer** Results section, Figure 2C-D, Figure 3E-F
+  - **Concern** The kinetic experiments are described only qualitatively in the text. The actual rate constants, their concentration dependence, and the statistical significance of the differences between constructs are not presented. Without seeing the raw data and fits, it is impossible to verify that the observed acceleration is robust and not an artifact of a particular fitting procedure or experimental condition.
+  - **Why it matters** The central experimental claim of the paper rests entirely on these kinetic measurements. If the effect is small or variable, the entire premise of the paper is weakened.
+  - **Resolution test** Provide the actual kapp values with error bars for all constructs and conditions, show representative fits with residuals, and demonstrate reproducibility across multiple independent experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** The kinetic model is used to explain the acceleration effect and to derive equation (1) for the acceleration factor.
+  - **Evidence pointer** Results section, Figure 5, Supplementary Data
+  - **Concern** The kinetic model contains many parameters (rate constants, equilibrium constants) whose values are not provided in the text. The conditions for the simulations are described as "chosen to mimic the HMGB1 data" but the actual values and the sensitivity of the conclusions to these choices are not discussed. The model's ability to reproduce the experimental data is claimed but not demonstrated quantitatively.
+  - **Why it matters** The model is a key component of the mechanistic interpretation. If the model is not well-constrained or its predictions are not quantitatively compared to experiments, the mechanistic conclusions are speculative.
+  - **Resolution test** Provide all model parameters, show the model fits to the experimental data, and perform a sensitivity analysis to demonstrate that the conclusions are robust to parameter variations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation interpretation
+  - **Claim pointer** The CGMD simulations show that increasing the negative charge of DERT leads to faster diffusion and a shift from sliding to hopping, and that the transition from autoinhibited to uninhibited complex becomes slower with more charged DERT.
+  - **Evidence pointer** Results section, Figure 4
+  - **Concern** The CGMD simulations use a coarse-grained model with implicit solvent and Debye-Hückel electrostatics. The relationship between the simulation conditions (salt concentration, charge assignments) and the experimental conditions is not clearly established. The claim that the optimal number of charged residues is ~9 is based on the intersection of two curves in Figure 4A, but the statistical uncertainty in this estimate is not provided.
+  - **Why it matters** The simulations are used to provide mechanistic insight and to explain the experimental observations. If the simulation conditions do not match the experiments or the results are not statistically robust, the mechanistic interpretation is weakened.
+  - **Resolution test** Provide details on the simulation conditions, show error bars on the simulation data points, and discuss how the simulation conditions relate to the experimental conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that D/E repeats may serve as a general mechanism for accelerating target search in DNA/RNA-binding proteins, citing the prevalence of such repeats in eukaryotic proteomes.
+  - **Evidence pointer** Discussion section
+  - **Concern** The demonstration is limited to HMGB1 and engineered Antp constructs. The claim of generalizability is speculative and not supported by data from other natural proteins. The conditions required for acceleration (optimal Kai range, efficient induced-fit pathway) may not be met in all systems.
+  - **Why it matters** The broader significance of the work depends on the generality of the mechanism. Without evidence from additional systems, the claim remains a hypothesis.
+  - **Resolution test** Discuss the conditions under which the mechanism would or would not apply, and suggest specific testable predictions for other systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The term "D/E repeats" is defined, but the distinction between consecutive and non-consecutive D/E residues is not always clear. Some proteins may have clusters of D/E residues interspersed with other amino acids.
+  - **Required correction** Clarify the definition of D/E repeats and whether the analysis applies to all negatively charged IDRs or specifically to consecutive D/E stretches.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** NMR experiments
+  - **Evidence pointer** Methods section, NMR experiments
+  - **Issue** The NMR experiments are described for Antp HD-DERT11 and the corresponding protein lacking DERT11 (Antp HD-MID). It is unclear why only the DERT11 construct was used for NMR and not the other constructs.
+  - **Required correction** Justify the choice of DERT11 for NMR studies or explain why NMR was not performed on other constructs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, Figure 3D
+  - **Issue** The Kai value for Antp HD-DERT11 at 100 mM KCl is mentioned but the actual value is not given in the text.
+  - **Required correction** Provide the numerical value of Kai in the text or figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that the mechanism is "radically different" from conventional views of autoinhibition. While the acceleration effect is novel, the concept of autoinhibition reducing decoy trapping is related to existing ideas about kinetic control of DNA binding.
+  - **Required correction** Soften the claim of radical novelty and place the work in better context with existing literature on decoy effects and facilitated diffusion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (kinetic data not quantitatively presented), R1-M2 (model parameters and validation not provided)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of autoinhibition accelerating target search is novel and counterintuitive. However, the underlying principles relate to known phenomena of decoy competition and kinetic control. The originality is moderate to high.
+  - **Scientific importance** The work addresses a fundamental question in DNA-protein interactions and could have implications for understanding gene regulation and protein engineering. The importance is potentially high, but the demonstration is limited to two systems.
+  - **Interdisciplinary readership** The work bridges biophysics, molecular biology, and computational biology. It would appeal to a broad readership in these fields, but the technical nature of the kinetic and simulation analyses may limit accessibility to a wider audience.
+  - **Technical soundness** The experimental and computational approaches are appropriate, but the lack of quantitative data presentation and model validation prevents full assessment of technical soundness.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. However, the kinetic model and simulation details may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is interesting and potentially important, but the current presentation does not provide sufficient quantitative evidence to fully establish the claims. The authors should provide the missing data and model validation to strengthen the case.
+
+## Risk / unsupported claims
+- The claim that D/E repeats of "particular lengths" accelerate target association is supported only qualitatively; the specific lengths and the magnitude of acceleration are not quantified in the text.
+- The claim that the optimal number of charged residues is ~9 is based on simulation data without statistical uncertainty.
+- The generalizability of the mechanism to other DNA/RNA-binding proteins is speculative and not directly supported by experimental evidence.
+- The statement that the acceleration effect is "unprecedented" is not fully justified given related concepts in the literature.
+- The claim that the induced-fit pathway is "efficient" for D/E repeats relies on simulation and model results that are not fully validated against experimental data.

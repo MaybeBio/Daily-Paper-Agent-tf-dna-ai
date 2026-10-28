@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "42565475",
+    "doi": "10.1515/sagmb-2025-0078",
+    "title": "A hybrid deep learning framework for WT or mutant peptide prediction using p53 mutation data."
+  },
+  "content": {
+    "abstract": "p53 is a tumor suppressor protein that maintains genome integrity. Single amino acid variations (SAVs), especially hotspot mutations (such as R175 and R248), are closely associated with oncogenic transformation and weaken DNA-binding and transcriptional regulatory capabilities. To identify deleterious SAVs for understanding disease mechanisms and key cellular processes, including apoptosis, DNA repair, and cell cycle regulation. This study used quantitative biochemical and microbial descriptors of p53 peptide sequences, along with a CNN and a 2-layer bidirectional long short-term memory (Bi-LSTM) network architecture with attention mechanisms and ESM-2-based embeddings, to classify sequences as wild-type or mutant. A systematic analysis of the p53 mutation dataset was performed using molecular weight, instability index, hydrophobicity, motif enrichment, and amino acid substitution patterns to identify mutation-centered peptides. Using stratified 5-fold cross-validation, the proposed model was tested, achieving an accuracy of 0.98, an area under the ROC curve (AUROC) of 0.98, and a precision-recall AUC of 0.99. Furthermore, SHAP-based interpretation identified the key amino acid residues and biochemical factors that contribute to the model's predictive performance. The proposed approach provides insights into the structural, sequential, and biochemical effects of variants, an interpretable, robust framework for evaluating the functional consequences of p53 hotspot and other variants, and a computationally efficient tool for prioritizing high-risk p53 variants.",
+    "keywords": [
+      "P53",
+      "SAV",
+      "deep learning",
+      "mutant peptide",
+      "sequence feature",
+      "wild type"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/genetics/chemistry",
+      "*Deep Learning",
+      "*Mutation",
+      "*Peptides/genetics/chemistry",
+      "Humans",
+      "Prediction Algorithms",
+      "Long Short Term Memory",
+      "Computational Biology/methods",
+      "Convolutional Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patil, Manisha R",
+        "Bihari, Anand"
+      ],
+      "short_names": [
+        "Patil MR",
+        "Bihari A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2651-1613"
+      ],
+      "affiliations": [
+        "School of Computer Science Engineering and Information System, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patil, Manisha R",
+        "short_name": "Patil MR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science Engineering and Information System, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Bihari, Anand",
+        "short_name": "Bihari A",
+        "identifiers": [
+          "0000-0002-2651-1613"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Statistical applications in genetics and molecular biology"
+    ],
+    "journal_abbrev": [
+      "Stat Appl Genet Mol Biol"
+    ],
+    "pub_date": "2026 Jan 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/07 12:39",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42565475",
+      "42475469",
+      "41762162",
+      "41731742",
+      "39576667",
+      "40613943",
+      "40598008",
+      "36555140",
+      "18996393",
+      "41844874",
+      "42119369",
+      "24100332",
+      "41564724",
+      "41577974",
+      "40158838",
+      "40769488",
+      "41820458",
+      "41354216",
+      "39214282",
+      "40183298",
+      "42385452",
+      "42046740",
+      "39528950",
+      "12606942",
+      "41652372",
+      "31216622",
+      "41921197",
+      "40152267",
+      "41441912",
+      "33407098",
+      "42242678",
+      "41745702",
+      "36232325",
+      "40830309",
+      "9990839",
+      "42069934",
+      "41105005",
+      "41913931",
+      "40914877",
+      "42308868",
+      "30160791",
+      "38871095",
+      "42309794",
+      "27258787",
+      "30808373",
+      "41633270",
+      "42356621",
+      "41333850",
+      "42185831",
+      "40302345",
+      "37353532",
+      "42281397",
+      "21857971",
+      "35325031",
+      "41957161",
+      "41948999",
+      "28157690",
+      "28813011",
+      "15103636",
+      "40444411",
+      "35780100",
+      "38402249",
+      "41796297",
+      "34073774",
+      "42228714",
+      "35860402",
+      "35189635",
+      "42309394",
+      "41667617",
+      "42437861",
+      "41588770",
+      "41576119",
+      "42467631",
+      "42345568",
+      "42347131",
+      "42338220",
+      "42236259",
+      "40121399",
+      "41851364",
+      "40753949",
+      "41570613",
+      "41023039",
+      "41748772",
+      "21339981",
+      "39798505",
+      "42304117",
+      "41877008",
+      "41572143",
+      "30238447",
+      "41776259",
+      "41862532",
+      "41589762",
+      "41706767",
+      "41726450",
+      "41865006",
+      "41888391",
+      "1466808",
+      "39264222",
+      "41212592",
+      "39237191"
+    ],
+    "review": [
+      "42565475",
+      "35860402"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.degruyterbrill.com/document/doi/10.1515/sagmb-2025-0078",
+        "provider": "De Gruyter",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

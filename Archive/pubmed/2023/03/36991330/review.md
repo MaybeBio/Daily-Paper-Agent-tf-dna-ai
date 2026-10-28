@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, results, discussion, conclusions, methods, and supplementary file descriptions.
+- **Assessment boundary** Scientific validity of the claims as supported by the presented experimental and computational evidence; methodological rigor; interpretation of results; alignment with the stated conclusions.
+- **Shared manuscript claim summary** The authors investigate a single nucleotide variant (T>A) within the forebrain-exclusive human accelerated enhancer (BE-HAE) hs1210, previously reported to be under positive selection in Homo sapiens. They combine electrophoretic mobility shift assays (EMSA) with molecular docking and molecular dynamics (MD) simulations to compare SOX2 binding to the derived (human) versus ancestral (archaic hominin) allele. They report that SOX2 binds both alleles in vitro, but computational analyses indicate stronger, more stable, and energetically more favorable binding to the derived allele, suggesting functional consequences for forebrain evolution.
+- **Visible evidence base** EMSA gel images (Fig. 1C, Additional file 3); HADDOCK docking scores and interaction tables (Tables 1–3, Figs. 2–3); MD simulation analyses including RMSD, RMSF, radius of gyration, hydrogen bonding, and MM/GBSA free energy calculations (Figs. 4–6, Tables 4–5); sequence conservation analysis (Additional file 4); methods descriptions.
+- **Missing materials affecting confidence** Raw EMSA quantification data (e.g., densitometry) are not provided; no replicates or statistical analysis of EMSA results are shown; MD simulation convergence criteria and force field validation details are incomplete; no information on the number of independent simulation replicates; no experimental validation of transcriptional output; no chromatin context or endogenous locus information; no data on whether the identified SOX2 binding site is occupied in vivo.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely question regarding the functional relevance of human-specific nucleotide variants in accelerated regulatory regions. The combination of in vitro binding assays with computational structural biology is a reasonable approach. However, the evidence presented is insufficient to support the strong conclusions drawn. The EMSA data are qualitative and lack quantification and replication. The computational results, while suggestive, are based on a single docking protocol and a single MD simulation per complex, without adequate validation or error analysis. The leap from in vitro binding affinity differences to claims about forebrain evolution and human-specific traits is not justified by the data. The manuscript would benefit from a more cautious interpretation and additional experimental evidence, such as transcriptional reporter assays or chromatin analyses.
+- **Who would be interested in the results, and why** Researchers studying human-specific evolution, regulatory genomics, transcription factor binding, and the functional interpretation of non-coding variants. The work may also be of interest to those using computational methods to predict the functional impact of single nucleotide variants in enhancer regions. The specific focus on SOX2 and forebrain development could attract developmental biologists, though the lack of functional validation limits the broader impact.
+- **Major strengths** The study addresses a relevant and under-explored question about the functional consequences of human-specific variants in accelerated enhancers. The use of both in vitro (EMSA) and computational (docking, MD) approaches provides complementary perspectives. The focus on a specific, well-characterized enhancer with forebrain activity is a strength. The authors are appropriately cautious in some parts of the discussion, acknowledging the need for further studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that EMSA demonstrates SOX2 binds to both derived and ancestral alleles, and that the derived allele enhances binding.
+  - **Evidence pointer** Fig. 1C, Additional file 3, Methods section "Electrophoretic mobility shift assay"
+  - **Concern** The EMSA data are presented as a single representative image without quantification, replicates, or statistical analysis. The claim of "enhanced binding" to the derived allele is not supported by any quantitative measure. The figure legend does not describe the experimental conditions (e.g., protein concentration, probe concentration, incubation time) in sufficient detail to assess the robustness of the result. Without densitometry or at least multiple independent replicates, the conclusion that the derived allele binds more strongly is not established.
+  - **Why it matters** The central claim of the paper rests on the differential binding affinity between the two alleles. If this is not rigorously demonstrated, the entire premise of the study is weakened. Qualitative gel images are insufficient to support quantitative claims about binding affinity differences.
+  - **Resolution test** Provide quantitative EMSA data (e.g., densitometry from at least three independent experiments) with appropriate statistical analysis (e.g., t-test or ANOVA). Include a titration series of protein or probe concentrations to demonstrate that the observed difference is consistent across conditions. Alternatively, use a more quantitative binding assay such as fluorescence anisotropy or surface plasmon resonance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational methodology
+  - **Claim pointer** The authors claim that molecular docking and MD simulations reveal "highly favourable binding" and "more stable" interactions for the derived allele.
+  - **Evidence pointer** Tables 1–5, Figs. 2–6, Methods sections "DNA–protein docking and refinement", "Molecular dynamics simulation", "Binding free energy estimation"
+  - **Concern** The computational results are based on a single docking run and a single 100 ns MD simulation per complex. No replicates, no error bars, and no convergence analysis are provided. The HADDOCK scores and MM/GBSA energies are presented as single values without standard deviations. The difference in binding energy between the two complexes (approximately 40 kcal/mol) is large, but without error estimates it is impossible to assess whether this difference is significant. Furthermore, the choice of force fields (FF19SB for protein, OL15 for DNA) is appropriate, but the lack of simulation replicates undermines confidence in the results. The authors also do not discuss potential limitations of the rigid docking approach or the sensitivity of the results to the starting conformations.
+  - **Why it matters** Computational predictions of binding affinity differences are highly sensitive to methodology. Without replicates and error analysis, the reported energy differences cannot be considered reliable. The claim of "enhanced affinity" based on these calculations is therefore not robustly supported.
+  - **Resolution test** Perform at least three independent MD simulations for each complex with different initial velocities. Report mean and standard deviation for all calculated properties (RMSD, RMSF, Rg, binding energies). Show convergence of the simulations (e.g., RMSD vs time plots with clear equilibration). Consider using multiple docking poses or ensemble docking to assess the robustness of the predicted binding modes. If possible, validate the computational predictions with an orthogonal experimental method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation and overreach
+  - **Claim pointer** The authors conclude that the increased SOX2 binding affinity "might have been instrumental in evolving differences in brain physiology and anatomy between Homo sapiens lineage and archaic hominins."
+  - **Evidence pointer** Discussion section, Conclusions section
+  - **Concern** The leap from in vitro binding and computational predictions to evolutionary claims about brain evolution is not supported by the data. The authors have not demonstrated that the binding affinity difference translates into differential gene expression, nor have they shown any phenotypic consequence. The enhancer activity in transgenic mice (cited from previous work) does not establish that the human-specific variant alters expression in a way relevant to brain evolution. The discussion speculates beyond the evidence.
+  - **Why it matters** Overinterpretation of correlative or in vitro data as evidence for evolutionary causation is a common pitfall. The authors' conclusions should be tempered to reflect what the data actually show: that a single nucleotide change alters SOX2 binding affinity in silico and in vitro, but the functional consequences remain unknown.
+  - **Resolution test** Revise the discussion and conclusions to clearly state the limitations of the study. Avoid claims about brain evolution and instead frame the results as a hypothesis-generating finding that requires functional validation. If possible, include a reporter assay in a relevant cell type or in vivo model to test whether the variant affects transcriptional output.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Missing controls and validation
+  - **Claim pointer** The authors state that the SOX2 binding site is within a functionally confirmed forebrain enhancer, and that the variant is human-specific.
+  - **Evidence pointer** Background section, Fig. 1A–B, Discussion section
+  - **Concern** The authors rely on previously published data for the enhancer activity and the human-specific nature of the variant. While this is acceptable, the manuscript does not include any new validation of these claims. For example, no chromatin immunoprecipitation (ChIP) data are shown to demonstrate SOX2 occupancy at this locus in relevant cell types. The authors also do not discuss whether the variant affects other potential regulatory features, such as chromatin accessibility or histone modifications.
+  - **Why it matters** The functional relevance of the variant depends on it being within an active enhancer in the relevant cell type. Without direct evidence of SOX2 binding in vivo or enhancer activity in human cells, the significance of the in vitro findings is unclear.
+  - **Resolution test** Include ChIP-seq or ChIP-qPCR data for SOX2 at the hs1210 locus in a relevant cell type (e.g., neural progenitor cells). Alternatively, perform a luciferase reporter assay comparing the derived and ancestral alleles in a cell line that expresses SOX2. Discuss the chromatin state of the locus using publicly available data (e.g., ENCODE).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods section "Electrophoretic mobility shift assay"
+  - **Evidence pointer** Methods section, Fig. 1C
+  - **Issue** The methods for EMSA are described briefly, and the figure legend does not specify the amount of protein used, the concentration of the probes, or the specificity of the binding (e.g., competition with unlabeled probe). The description of the "supershift" assay is also incomplete.
+  - **Required correction** Provide a more detailed description of the EMSA protocol, including protein concentrations, probe concentrations, binding buffer composition, and incubation conditions. Include a competition assay with unlabeled probe to demonstrate binding specificity. Clarify the supershift conditions and the antibody used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Tables 1, 3, 4, 5
+  - **Evidence pointer** Tables 1, 3, 4, 5
+  - **Issue** The tables report energies and interaction distances without any indication of variability or statistical significance. For example, Table 1 reports HADDOCK scores with standard deviations, but Table 5 reports MM/GBSA energies as single values.
+  - **Required correction** Report mean and standard deviation for all computed quantities, especially those derived from MD simulations. Indicate the number of replicates used for each calculation. If only single values are available, state this explicitly and discuss the limitations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figs. 2–6
+  - **Evidence pointer** Figs. 2–6
+  - **Issue** The figures are described in the text but are not included in the provided manuscript text. The figure legends are present, but the actual figures are missing from the submission. This makes it impossible to assess the quality of the structural models, RMSD/RMSF plots, and other visual data.
+  - **Required correction** Ensure that all figures are included in the submission and are of sufficient resolution. The figures should clearly show the structural alignments, interaction networks, and simulation trajectories described in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Abstract, Background, Discussion
+  - **Issue** There are several grammatical errors and awkward phrasings throughout the manuscript. For example, in the Abstract, the sentence "These results suggest that adoptive changes in TF affinity within BE-HAE hs1210 and other HAR enhancers in the evolutionary history of Homo sapiens might." is incomplete and grammatically incorrect. Similar issues appear in the Discussion.
+  - **Required correction** The manuscript should be carefully edited for grammar and clarity. The incomplete sentence in the Abstract should be corrected. Consider having a native English speaker review the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reference to previous work
+  - **Affected element** Background section, Fig. 1B
+  - **Evidence pointer** Background section, Fig. 1B
+  - **Issue** The authors cite previous work for the enhancer activity of hs1210 in transgenic mice, but the figure legend for Fig. 1B states "Whole mount and cross section data of mouse is obtained from [19]." This is appropriate, but the authors should ensure that permission for reuse of the figure is obtained if the figure is reproduced from a published source.
+  - **Required correction** Confirm that permission has been obtained for any reproduced figures or data from previous publications. If the figure is original, clarify this in the legend.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative EMSA data), R1-M2 (lack of simulation replicates and error analysis), R1-M3 (overinterpretation of results). These are the primary technical issues that prevent the manuscript from establishing its central claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The question of whether human-specific variants in accelerated enhancers alter transcription factor binding is not entirely new, but the specific focus on SO2 and the combination of methods is somewhat original. However, the approach is largely computational and in vitro, which limits the novelty.
+  - **Scientific importance** The topic is of interest to the evolutionary genomics and regulatory biology communities. However, the lack of functional validation means the importance is currently more speculative than demonstrated.
+  - **Interdisciplinary readership** The work could appeal to evolutionary biologists, computational biologists, and developmental neuroscientists. However, the technical nature of the methods and the lack of clear biological validation may limit broader appeal.
+  - **Technical soundness** The computational methods are generally appropriate, but the lack of replicates and error analysis is a significant weakness. The EMSA experiments are not quantitatively rigorous. The overall technical soundness is currently insufficient to support the conclusions.
+  - **Readability for nonspecialists** The manuscript is written in a way that is accessible to specialists in the field, but the incomplete sentences and grammatical errors detract from readability. The concepts are explained reasonably well, but the lack of clear figures (not provided) would hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question, but the experimental and computational evidence is insufficient to support the strong claims made. The authors need to provide quantitative EMSA data, robust computational analyses with replicates and error estimates, and temper their conclusions. If these issues are addressed, the manuscript could be suitable for publication in a specialized journal, though it is unlikely to meet the broad-impact criteria of Nature.
+
+## Risk / unsupported claims
+- The claim that the derived allele "enhances" SOX2 binding is not quantitatively supported by the EMSA data (no replicates, no densitometry).
+- The claim that the derived allele forms a "more stable" complex based on MD simulations is not supported by error analysis or replicate simulations.
+- The claim that the binding affinity difference "might have been instrumental in evolving differences in brain physiology and anatomy" is speculative and not supported by any functional data.
+- The claim that the variant is "positively selected" is based on previous work and is not re-evaluated here; the authors should clarify that this is an assumption from prior studies.
+- The statement in the Abstract that "adoptive changes in TF affinity... might." is incomplete and does not constitute a coherent claim.

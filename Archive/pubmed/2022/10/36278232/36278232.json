@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "36278232",
+    "doi": "10.3389/fphar.2022.1014160",
+    "title": "Network analysis and experimental pharmacology study explore the protective effects of Isoliquiritigenin on 5-fluorouracil-Induced intestinal mucositis."
+  },
+  "content": {
+    "abstract": "5-fluorouracil (5-FU) is one of the most widely used chemotherapy drugs for malignant tumors. However, intestinal mucositis caused by 5-FU is a severe dose-limiting toxic effect and even leads to treatment interruption. Isoliquiritigenin (ISL) is one of the main active compounds of licorice, which is a traditional Chinese herbal medicine commonly used in inflammation and gastrointestinal diseases. It is speculated that ISL have protective effects on intestinal mucositis. However, no such studies have been reported. Therefore, to investigate the impact of ISL on 5-Fu-induced intestinal mucositis, a strategy based on network prediction and pharmacological experimental validation was proposed in this study. Firstly, the targets and mechanism of ISL in alleviating 5-Fu-induced gastrointestinal toxicity were predicted by network analysis. And the results were further confirmed by molecular docking. Then, a mouse model of intestinal mucositis was established by intraperitoneal injection of 5-FU (384 mumol/kg) to verify the prediction of network analysis. The network analysis results suggested that PTGS2 (Prostaglandin G/H synthase 2) and NOS2 (Nitric oxide synthase, inducible) might be the critical targets of ISL for reducing the intestinal toxicity of 5-FU. In addition, KEGG and GO enrichment analysis revealed that the HIF-1, TNF, MAPK, IL-17, PI3K-Akt, Ras, NF-kappa B signaling pathway, and biological processes of the inflammatory response, apoptosis regulation, NO production and NF-kappa B transcription factor activity might be involved in the mechanism of ISL against intestinal mucositis. Subsequent animal experiments showed that ISL could reduce the weight loss, leukopenia and mucosal damage caused by 5-FU. Compared with the intestinal mucositis model, the protein expressions of PTGS2, NOS2, TNFalpha (Tumor necrosis factor-alpha) and NF-kappaB p65 (nuclear factor kappa-B P65) were decreased after ISL treatment. In conclusion, this study is the fist time to find that ISL can attenuate 5-FU-induced intestinal mucositis in mice. Its anti-mucositis effect may be through regulating TNF/NF-kappaB pathway and inhibiting inflammatory mediators PTGS2 and NOS2. It will provide a potential candidate for the prevention and treatment of chemotherapy-induced intestinal mucositis.",
+    "keywords": [
+      "5-fluorouracil",
+      "Isoliquiritigenin",
+      "inflammatory mediator",
+      "intestinal mucositis",
+      "network analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liao, Yi-Fan",
+        "Luo, Feng-Lin",
+        "Tang, Shan-Shan",
+        "Huang, Jing-Wei",
+        "Yang, Ying",
+        "Wang, Shuang",
+        "Jiang, Tang-Yu",
+        "Man, Qiong",
+        "Liu, Sha",
+        "Wu, Yi-Ying"
+      ],
+      "short_names": [
+        "Liao YF",
+        "Luo FL",
+        "Tang SS",
+        "Huang JW",
+        "Yang Y",
+        "Wang S",
+        "Jiang TY",
+        "Man Q",
+        "Liu S",
+        "Wu YY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Key Laboratory of Coarse Cereal Processing, Ministry of Agriculture and Rural Affairs, Sichuan Engineering & Technology Research Center of Coarse Cereal Industralization, Chengdu University, Chengdu, Sichuan, China.",
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+        "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liao, Yi-Fan",
+        "short_name": "Liao YF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Feng-Lin",
+        "short_name": "Luo FL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Shan-Shan",
+        "short_name": "Tang SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jing-Wei",
+        "short_name": "Huang JW",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Coarse Cereal Processing, Ministry of Agriculture and Rural Affairs, Sichuan Engineering & Technology Research Center of Coarse Cereal Industralization, Chengdu University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ying",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuang",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Tang-Yu",
+        "short_name": "Jiang TY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Man, Qiong",
+        "short_name": "Man Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sha",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yi-Ying",
+        "short_name": "Wu YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chengdu Medical College, Chengdu, Sichuan, China.",
+          "Department of Pharmacy, Study on the Structure-Specific Small Molecule Drug in Sichuan Province College Key Laboratory, Chengdu Medical College, Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/25 06:00",
+    "fetched_at": "2026-09-28 15:21:55"
+  },
+  "links": {
+    "cites": [
+      "42072073",
+      "41573719",
+      "41551535",
+      "40244381",
+      "39991674",
+      "38256877",
+      "38067451"
+    ],
+    "refs": [
+      "36029643",
+      "35783659",
+      "35677366",
+      "35585561",
+      "35433831",
+      "34853351",
+      "34054546",
+      "33945799",
+      "33842373",
+      "33401375",
+      "32958760",
+      "32512011",
+      "32341639",
+      "31639401",
+      "31506573",
+      "31401369",
+      "31325706",
+      "30810625",
+      "30662657",
+      "30529194",
+      "30417769",
+      "30339814",
+      "29857294",
+      "29599844",
+      "29059216",
+      "27924018",
+      "27869741",
+      "27863401",
+      "27762135",
+      "27708238",
+      "27650551",
+      "27353132",
+      "26406888",
+      "25907962",
+      "25663861",
+      "25565296",
+      "25428349",
+      "25380796",
+      "25026504",
+      "23107827",
+      "23085193",
+      "22435545",
+      "22412841",
+      "21772278",
+      "21243012",
+      "20457564",
+      "20163717",
+      "20066092",
+      "19499576",
+      "19336900",
+      "18295200",
+      "11506818"
+    ],
+    "similar": [
+      "36278232",
+      "35589023",
+      "36157934",
+      "33567307",
+      "26801985",
+      "22412841",
+      "34665902",
+      "31883475",
+      "31401369",
+      "25565296",
+      "34794379",
+      "29756138",
+      "31325706",
+      "36341441",
+      "27240747",
+      "25747976",
+      "20844880",
+      "29039445",
+      "32341639",
+      "32247004",
+      "38428657",
+      "34400527",
+      "26383911",
+      "32726604",
+      "36442759",
+      "39357681",
+      "35986317",
+      "25380796",
+      "32004938",
+      "31639401",
+      "29943151",
+      "34747284",
+      "30396718",
+      "27682716",
+      "29124041",
+      "28012970",
+      "25337561",
+      "34310611",
+      "23072534",
+      "34853351",
+      "34800883",
+      "30379218",
+      "35567942",
+      "30662657",
+      "26666645",
+      "28193209",
+      "22524518",
+      "28667794",
+      "37338137",
+      "28590519",
+      "21153821",
+      "36029643",
+      "33441867",
+      "28456772",
+      "28374966",
+      "30274314",
+      "27427511",
+      "31410209",
+      "38256877",
+      "39046671",
+      "34607083",
+      "35677366",
+      "34420176",
+      "38671893",
+      "24503021",
+      "31664952",
+      "39114045",
+      "30698296",
+      "27729739",
+      "34337082",
+      "30679569",
+      "39400011",
+      "35517984",
+      "29864944",
+      "35836884",
+      "35448938",
+      "32647090",
+      "35985613",
+      "27539609",
+      "35026619",
+      "34922485",
+      "28353366",
+      "33910826",
+      "25572363",
+      "36204230",
+      "35221674",
+      "35430483",
+      "32141447",
+      "26315837",
+      "22521613",
+      "23107827",
+      "35788942",
+      "31506573",
+      "35151644",
+      "34968927",
+      "26947453",
+      "36313368",
+      "33082858",
+      "32625099",
+      "22797601",
+      "38711347",
+      "35405270",
+      "33642990",
+      "22403796",
+      "30150027",
+      "31846964",
+      "19765544",
+      "27865009",
+      "36895947",
+      "37604329",
+      "35980046",
+      "37572505",
+      "30008943",
+      "39129158",
+      "37513823",
+      "24648594",
+      "37800952",
+      "39323643",
+      "36422542",
+      "38543083",
+      "37498338",
+      "37138633",
+      "35114453",
+      "34955828",
+      "32918133",
+      "28962429",
+      "29170638",
+      "36290656",
+      "39427549",
+      "37719850",
+      "38018585",
+      "37522134",
+      "33401375",
+      "36466417",
+      "34211552",
+      "37936460",
+      "36518414",
+      "35883840",
+      "39411581",
+      "38675434",
+      "36644439"
+    ],
+    "review": [
+      "36278232",
+      "37604329",
+      "33401375"
+    ],
+    "pmc": [
+      "9582754"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36278232/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36278232",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2022.1014160",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "37178203",
+    "doi": "10.1007/s00330-023-09628-7",
+    "title": "Role of MRI radiomics for the prediction of MYCN amplification in neuroblastomas."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: We evaluate MR radiomics and develop machine learning-based classifiers to predict MYCN amplification in neuroblastomas. METHODS: A total of 120 patients with neuroblastomas and baseline MR imaging examination available were identified of whom 74 (mean age +/- standard deviation [SD] of 6 years and 2 months +/- 4 years and 9 months; 43 females and 31 males, 14 MYCN amplified) underwent imaging at our institution. This was therefore used to develop radiomics models. The model was tested in a cohort of children with the same diagnosis but imaged elsewhere (n = 46, mean age +/- SD: 5 years 11 months +/- 3 years 9 months, 26 females and 14 MYCN amplified). Whole tumour volumes of interest were adopted to extract first-order histogram and second-order radiomics features. Interclass correlation coefficient and maximum relevance and minimum redundancy algorithm were applied for feature selection. Logistic regression, support vector machine, and random forest were employed as the classifiers. Receiver operating characteristic (ROC) analysis was performed to evaluate the diagnostic accuracy of the classifiers on the external test set. RESULTS: The logistic regression model and the random forest both showed an AUC of 0.75. The support vector machine classifier obtained an AUC of 0.78 on the test set with a sensitivity of 64% and a specificity of 72%. CONCLUSION: The study provides preliminary retrospective evidence demonstrating the feasibility of MRI radiomics in predicting MYCN amplification in neuroblastomas. Future studies are needed to explore the correlation between other imaging features and genetic markers and to develop multiclass predictive models. KEY POINTS: * MYCN amplification in neuroblastomas is an important determinant of disease prognosis. * Radiomics analysis of pre-treatment MR examinations can be used to predict MYCN amplification in neuroblastomas. * Radiomics machine learning models showed good generalisability to external test set, demonstrating reproducibility of the computational models.",
+    "keywords": [
+      "Machine learning",
+      "Magnetic resonance imaging",
+      "N-MYC proto-oncogene protein",
+      "Neuroblastoma"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Female",
+      "Child",
+      "Humans",
+      "N-Myc Proto-Oncogene Protein/genetics",
+      "Retrospective Studies",
+      "Reproducibility of Results",
+      "*Magnetic Resonance Imaging/methods",
+      "*Neuroblastoma/diagnostic imaging/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ghosh, Adarsh",
+        "Yekeler, Ensar",
+        "Teixeira, Sara Reis",
+        "Dalal, Deepa",
+        "States, Lisa"
+      ],
+      "short_names": [
+        "Ghosh A",
+        "Yekeler E",
+        "Teixeira SR",
+        "Dalal D",
+        "States L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9325-2762"
+      ],
+      "affiliations": [
+        "Department of Radiology, Cincinnati Children's Hospital and Medical Centre, Cincinnati, OH, USA. adarsh11g11@icloud.com.",
+        "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA. adarsh11g11@icloud.com.",
+        "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Department of Radiology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ghosh, Adarsh",
+        "short_name": "Ghosh A",
+        "identifiers": [
+          "0000-0002-9325-2762"
+        ],
+        "affiliations": [
+          "Department of Radiology, Cincinnati Children's Hospital and Medical Centre, Cincinnati, OH, USA. adarsh11g11@icloud.com.",
+          "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA. adarsh11g11@icloud.com."
+        ]
+      },
+      {
+        "full_name": "Yekeler, Ensar",
+        "short_name": "Yekeler E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Teixeira, Sara Reis",
+        "short_name": "Teixeira SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Dalal, Deepa",
+        "short_name": "Dalal D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "States, Lisa",
+        "short_name": "States L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+          "Department of Radiology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European radiology"
+    ],
+    "journal_abbrev": [
+      "Eur Radiol"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/14 01:07",
+    "fetched_at": "2026-09-29 00:14:05"
+  },
+  "links": {
+    "cites": [
+      "42696227",
+      "42575955",
+      "41040910",
+      "40619885",
+      "39838983",
+      "39440370",
+      "37945937"
+    ],
+    "refs": [
+      "36571275",
+      "35643445",
+      "35633866",
+      "35460355",
+      "35437614",
+      "35237892",
+      "35204353",
+      "34597235",
+      "34244594",
+      "33597610",
+      "33118047",
+      "32968131",
+      "32754723",
+      "29378002",
+      "29305654",
+      "28358317",
+      "23868167",
+      "19401703",
+      "19276282",
+      "19047291",
+      "19047290",
+      "18519450",
+      "16116153",
+      "10784285"
+    ],
+    "similar": [
+      "37178203",
+      "35437614",
+      "37707410",
+      "34109133",
+      "35460355",
+      "34003574",
+      "38001240",
+      "33118047",
+      "33936969",
+      "36355199",
+      "34751044",
+      "38653568",
+      "34819043",
+      "34075559",
+      "32492633",
+      "33979466",
+      "31828414",
+      "31695155",
+      "32222795",
+      "16258518",
+      "18851746",
+      "36086471",
+      "31439255",
+      "33970516",
+      "37210510",
+      "19012235",
+      "29626238",
+      "21288077",
+      "27876123",
+      "35044510",
+      "29784674",
+      "35414524",
+      "31942672",
+      "31834910",
+      "2250296",
+      "16954472",
+      "34052741",
+      "27510381",
+      "34233259",
+      "18682419",
+      "29426276",
+      "12670915",
+      "37568874",
+      "32947090",
+      "33553421",
+      "34604968",
+      "30660472",
+      "35439946",
+      "32112598",
+      "31464116",
+      "37460944",
+      "27465929",
+      "15668898",
+      "17336185",
+      "27599694",
+      "29797634",
+      "26035700",
+      "32595135",
+      "15549714",
+      "27224546",
+      "36991347",
+      "35092642",
+      "29284669",
+      "38864742",
+      "31685267",
+      "33128598",
+      "31348535",
+      "35237892",
+      "37371390",
+      "37214402",
+      "31685009",
+      "35024015",
+      "17189403",
+      "30866850",
+      "34868905",
+      "30498643",
+      "17020972",
+      "34088831",
+      "33172452",
+      "30711405",
+      "32061014",
+      "34422095",
+      "25880909",
+      "32112116",
+      "36212455",
+      "29202477",
+      "34236572",
+      "37373909",
+      "12097268",
+      "36656410",
+      "31365300",
+      "32725335",
+      "35814362",
+      "33486606",
+      "35820898",
+      "32896084",
+      "33826360",
+      "29466962",
+      "32593299",
+      "37987834",
+      "37592273",
+      "30877107",
+      "37234462",
+      "37945937",
+      "38508090"
+    ],
+    "review": [
+      "37178203",
+      "37945937"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00330-023-09628-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

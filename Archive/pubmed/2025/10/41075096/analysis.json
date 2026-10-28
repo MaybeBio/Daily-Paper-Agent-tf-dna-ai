@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41075096",
+  "title": "Targeting CDK9 with Molegro Virtual Docker.",
+  "authors": "de Azevedo, Walter Filgueira Jr",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-10-11",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用MVD对接和机器学习回归预测CDK9小分子抑制剂的结合亲和力，属于蛋白-配体体系，非蛋白质-DNA互作，且无TF-DNA相关建模，仅方法上可部分借鉴。",
+  "abstract": "Machine learning methods build regression models to predict binding affinity with superior predictive performance compared with classical scoring functions in protein-ligand docking programs. This study focuses on a workflow to construct a neural network model to calculate the inhibition of cyclin-dependent kinase 9 (CDK9). It combines Jupyter Notebooks, Molegro Virtual Docker (MVD), and Molegro Data Modeller (MDM). MVD performs docking simulations and determines energy terms, ligand descriptors, and scoring function values based on pose coordinates. MDM builds regression models taking the features determined with MVD. The choice of CDK9 is due to its potential as a target for anticancer drugs. This approach integrates MVD-MDM with Jupyter Notebooks, allowing an integrated exploration of the scoring function space to find an adequate regression model. The necessary inputs are binding affinity data available in BindingDB and the atomic coordinates of the target found in the protein data bank. All CDK9 datasets and Jupyter Notebooks discussed in this work are available at GitHub: https://github.com/azevedolab/docking#readme .",
+  "abstract_zh": "机器学习方法构建回归模型以预测结合亲和力，与蛋白质-配体对接程序中的经典评分函数相比，具有更优越的预测性能。本研究聚焦于一个工作流程，用于构建神经网络模型以计算细胞周期蛋白依赖性激酶9（CDK9）的抑制作用。该流程结合了Jupyter Notebooks、Molegro Virtual Docker（MVD）和Molegro Data Modeller（MDM）。MVD执行对接模拟，并根据姿态坐标确定能量项、配体描述符和评分函数值。MDM利用MVD确定的特征构建回归模型。选择CDK9是因为其作为抗癌药物靶点的潜力。该方法将MVD-MDM与Jupyter Notebooks集成，允许对评分函数空间进行综合探索，以找到合适的回归模型。所需输入包括BindingDB中可用的结合亲和力数据以及蛋白质数据银行中靶标的原子坐标。本工作中讨论的所有CDK9数据集和Jupyter Notebooks可在GitHub上获取：https://github.com/azevedolab/docking#readme。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41075096/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41075096/",
+  "paper_page_path": "papers/pubmed/41075096/index.html"
+}

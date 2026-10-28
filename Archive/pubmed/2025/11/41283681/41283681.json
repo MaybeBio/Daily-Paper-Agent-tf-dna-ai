@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "41283681",
+    "doi": "10.1128/msystems.00950-25",
+    "title": "Unveiling the landscape of prokaryotic global regulators through deep protein language models."
+  },
+  "content": {
+    "abstract": "Global regulators (GRs) are key transcription factors that orchestrate the expression of multiple genes, playing essential roles in stress responses, virulence, secondary metabolism, and antibiotic resistance-traits that make them powerful tools for synthetic biology applications. However, conventional approaches often fail to detect remote homologs and novel GR types, limiting our understanding of their regulatory diversity and evolutionary dynamics across prokaryotes. Here, we present a large-scale, protein language model-driven framework to systematically chart the global regulatory landscape across 14,800 bacterial and archaeal type strain genomes-the most taxonomically diverse prokaryotic data set analyzed to date. Using a deep learning-based GR identification model trained on 74,872 curated GR sequences, we systematically identified over 270,000 GR-like proteins, including 173,256 homologs of 214 experimentally validated GR types, 52 putative GR types, and 76,113 proteins of unknown function. This model demonstrated high sensitivity and generalization capability, enabling the discovery of remote homologs and cryptic regulators beyond the reach of similarity- or domain-based methods. This expanded GR catalog revealed lineage-specific distribution patterns, functionally diverse regulons with both conserved and niche-specific targets, and hierarchical cross-regulatory networks with shared and phylum-enriched hubs. By unveiling the hidden diversity and evolutionary structure of prokaryotic global regulators, this landscape of GRs provides foundational insights into microbial gene regulation and offers a powerful toolkit for the rational design of tunable, modular, and orthogonal genetic circuits in synthetic biology.IMPORTANCEGRs are master transcriptional regulators critical for microbial adaptation, stress tolerance, and metabolic control, and they serve as valuable components for synthetic biology. However, a comprehensive understanding of GR diversity and function across the prokaryotic domain has remained elusive due to the limitations of traditional detection methods. In this study, we developed a deep learning-based identification framework and applied it to 14,800 bacterial and archaeal type strain genomes, resulting in the discovery of over 270,000 GR-like proteins, including dozens of novel types. This work provides a comprehensive landscape of prokaryotic global regulators, revealing lineage-specific distribution patterns, both conserved and specialized regulons, and modular cross-regulatory network architectures. These insights not only deepen our understanding of transcriptional regulation in microbial evolution and ecology but also provide a scalable resource for the rational design of regulatory systems in synthetic biology.",
+    "keywords": [
+      "deep learning",
+      "global regulators",
+      "prokaryotic genomes",
+      "protein language models",
+      "regulatory networks",
+      "synthetic biology",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "*Bacteria/genetics/metabolism",
+      "*Bacterial Proteins/genetics/metabolism",
+      "*Archaea/genetics/metabolism",
+      "*Deep Learning",
+      "Gene Expression Regulation, Bacterial",
+      "Genome, Bacterial",
+      "*Archaeal Proteins/genetics/metabolism",
+      "Regulon"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Geng, Jianing",
+        "Wu, Jiang",
+        "Luo, Sainan",
+        "Liu, Dongmei",
+        "Nie, Jingyi",
+        "Fan, Guomei",
+        "Sun, Qinglan",
+        "Hu, Songnian",
+        "Wu, Linhuan"
+      ],
+      "short_names": [
+        "Geng J",
+        "Wu J",
+        "Luo S",
+        "Liu D",
+        "Nie J",
+        "Fan G",
+        "Sun Q",
+        "Hu S",
+        "Wu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2063-4767",
+        "ORCID: 0000-0002-2997-1279",
+        "ORCID: 0000-0002-8451-760X",
+        "ORCID: 0000-0003-3966-3111",
+        "ORCID: 0000-0002-5255-1846"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Microbial Diversity and Innovative Utilization, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China. RINGGOLD: 85387. ROR: https://ror.org/00yd0p282",
+        "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China. ROR: https://ror.org/034t30j35",
+        "State Key Laboratory of Microbial Diversity and Innovative Utilization, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China. RINGGOLD: 85387. ROR: https://ror.org/00yd0p282",
+        "University of Chinese Academy of Sciences, Beijing, China. ROR: https://ror.org/05qbk4x57",
+        "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China. ROR: https://ror.org/034t30j35",
+        "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China. ROR: https://ror.org/034t30j35",
+        "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China. ROR: https://ror.org/034t30j35",
+        "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China. ROR: https://ror.org/034t30j35",
+        "State Key Laboratory of Microbial Diversity and Innovative Utilization, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China. RINGGOLD: 85387. ROR: https://ror.org/00yd0p282",
+        "University of Chinese Academy of Sciences, Beijing, China. ROR: https://ror.org/05qbk4x57",
+        "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China. ROR: https://ror.org/034t30j35"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Geng, Jianing",
+        "short_name": "Geng J",
+        "identifiers": [
+          "0000-0003-2063-4767"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Diversity and Innovative Utilization, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiang",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Sainan",
+        "short_name": "Luo S",
+        "identifiers": [
+          "0000-0002-2997-1279"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Diversity and Innovative Utilization, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dongmei",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Jingyi",
+        "short_name": "Nie J",
+        "identifiers": [],
+        "affiliations": [
+          "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Guomei",
+        "short_name": "Fan G",
+        "identifiers": [],
+        "affiliations": [
+          "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Qinglan",
+        "short_name": "Sun Q",
+        "identifiers": [
+          "0000-0002-8451-760X"
+        ],
+        "affiliations": [
+          "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Songnian",
+        "short_name": "Hu S",
+        "identifiers": [
+          "0000-0003-3966-3111"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Diversity and Innovative Utilization, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Linhuan",
+        "short_name": "Wu L",
+        "identifiers": [
+          "0000-0002-5255-1846"
+        ],
+        "affiliations": [
+          "China National Microbiology Data Center (NMDC), Chinese Academy of Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mSystems"
+    ],
+    "journal_abbrev": [
+      "mSystems"
+    ],
+    "pub_date": "2025 Dec 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 12:38",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42514098"
+    ],
+    "refs": [
+      "39868540",
+      "39244557",
+      "39123050",
+      "38461208",
+      "38427710",
+      "38322110",
+      "37691767",
+      "37607352",
+      "37071026",
+      "36927031",
+      "36702895",
+      "36427141",
+      "36192636",
+      "35887256",
+      "35271945",
+      "35135629",
+      "34329707",
+      "33681170",
+      "33119759",
+      "32792485",
+      "31373795",
+      "29792173",
+      "29570353",
+      "29454348",
+      "28972184",
+      "26204448",
+      "24874799",
+      "24860636",
+      "23642041",
+      "23547897",
+      "22354680",
+      "21673794",
+      "21593126",
+      "21539625",
+      "20211899",
+      "18792679",
+      "17768236",
+      "17003135",
+      "16381970",
+      "16085817",
+      "15550941",
+      "15150239",
+      "14572541",
+      "10700142",
+      "8649995",
+      "2231712"
+    ],
+    "similar": [
+      "41283681",
+      "29263101",
+      "32822422",
+      "27920295",
+      "12675791",
+      "41158063",
+      "28777072",
+      "15808743",
+      "25939834",
+      "30191942",
+      "21810205",
+      "15166024",
+      "29614096",
+      "27242034",
+      "34151666",
+      "29178818",
+      "29914986",
+      "11523004",
+      "41330375",
+      "24175918",
+      "33001599",
+      "15187186",
+      "41081387",
+      "29208747",
+      "28487430",
+      "41117958",
+      "20661434",
+      "10960111",
+      "23094327",
+      "34606606",
+      "31991161",
+      "28073944",
+      "19900966",
+      "35604119",
+      "9379893",
+      "16539733",
+      "37635411",
+      "23504016",
+      "23209028",
+      "30201779",
+      "38700364",
+      "22919687",
+      "16212260",
+      "22554235",
+      "31195017",
+      "40704792",
+      "41036842",
+      "23547897",
+      "25841437",
+      "16769689",
+      "18276643",
+      "29408557",
+      "33077635",
+      "25116054",
+      "10637320",
+      "10585970",
+      "40558093",
+      "18632554",
+      "34214112",
+      "41339358",
+      "25638258",
+      "23185476",
+      "29680123",
+      "28348857",
+      "17350932",
+      "20491930",
+      "35545619",
+      "40767619",
+      "12624192",
+      "25317564",
+      "23086211",
+      "31947717",
+      "31064832",
+      "40960301",
+      "41370558",
+      "15916593",
+      "16484188",
+      "18948295",
+      "32179628",
+      "22851658",
+      "34748388",
+      "9533881",
+      "30563906",
+      "21918370",
+      "11483577",
+      "25879764",
+      "19047729",
+      "26456193",
+      "18753785",
+      "30105504",
+      "16469103",
+      "16840530",
+      "26408318",
+      "40407371",
+      "30670614",
+      "11734060",
+      "11230160",
+      "22700702",
+      "28341406",
+      "24625193"
+    ],
+    "review": [
+      "41283681",
+      "12675791",
+      "15808743",
+      "34151666",
+      "29178818",
+      "33001599",
+      "15187186",
+      "23094327",
+      "37635411",
+      "22919687",
+      "16212260",
+      "31195017",
+      "25116054",
+      "10585970",
+      "20491930",
+      "12624192",
+      "15916593",
+      "18948295",
+      "19047729",
+      "18753785"
+    ],
+    "pmc": [
+      "12710356"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/msystems.00950-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41283681/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "40623734",
+    "doi": "10.1021/acs.jcim.5c00473",
+    "title": "TRIM21-Driven Degradation of BRD4: Development of Heterobifunctional Degraders and Investigation of Recruitment and Selectivity Mechanisms."
+  },
+  "content": {
+    "abstract": "TRIM21 is a highly efficient and versatile E3 ubiquitin ligase that plays a crucial role in targeted protein degradation through its specific binding capabilities. To investigate its role in chemically mediated degradation, we utilized two high-affinity binders identified from a DNA-encoded compound library (DEL) to design and synthesize several TrimTACs (TRIM21-based degraders) targeting BRD4. Degradation assays revealed that TrimTACs incorporating distinct TRIM21-binding moieties produced markedly different levels of BRD4 degradation. Further, to elucidate mechanisms underlying ternary complex formation and selective degradation, we employed precise ternary complex modeling combined with Gaussian accelerated molecular dynamics (GaMD) simulations. These computational analyses demonstrated that the diversity of TRIM21-binding moieties significantly affects the stability and conformation of the complex. Structurally stable complexes efficiently induce BRD4 degradation, and the binding orientation of BRD4 directly affects ubiquitin transfer and degradation efficiency. Moreover, key residues critical for complex formation were identified, shedding light on the cooperative interactions driving TRIM21-mediated degradation. Building on these findings, we conducted degradation experiments to validate novel TrimTAC designs derived from our ternary complex-based free energy perturbation (FEP) calculations. The results confirmed the reliability and accuracy of the ternary complex model, providing key insights for the rational design and optimization of TrimTACs, thereby advancing the development of targeted protein degraders.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/chemistry",
+      "*Cell Cycle Proteins/metabolism",
+      "Humans",
+      "*Proteolysis/drug effects",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Bromodomain Containing Proteins",
+      "Ribonucleoproteins",
+      "SS-A Antigen"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Liyun",
+        "Wang, Qingyang",
+        "Li, Xiaomei",
+        "Cheng, Xuemin",
+        "Cai, Longying",
+        "Guo, Anping",
+        "Zhang, Lanjun",
+        "Hu, Hong",
+        "Wu, Mei",
+        "Li, Xianyang",
+        "Li, Huilin",
+        "Meng, Xiaoyun",
+        "Qiu, Yaping",
+        "Tu, Guiping",
+        "Zhang, Lifang",
+        "Dong, Xiaofei",
+        "Liang, Yu",
+        "Wang, Yushuang",
+        "Li, Jin",
+        "Dou, Dengfeng",
+        "Pu, Xuemei"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Wang Q",
+        "Li X",
+        "Cheng X",
+        "Cai L",
+        "Guo A",
+        "Zhang L",
+        "Hu H",
+        "Wu M",
+        "Li X",
+        "Li H",
+        "Meng X",
+        "Qiu Y",
+        "Tu G",
+        "Zhang L",
+        "Dong X",
+        "Liang Y",
+        "Wang Y",
+        "Li J",
+        "Dou D",
+        "Pu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2964-7759",
+        "ORCID: 0000-0002-5519-4258"
+      ],
+      "affiliations": [
+        "HitGen Inc., Chengdu 610200, China.",
+        "College of Chemistry, Sichuan University, Chengdu 610064, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "HitGen Inc., Chengdu 610200, China.",
+        "College of Chemistry, Sichuan University, Chengdu 610064, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Liyun",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China.",
+          "College of Chemistry, Sichuan University, Chengdu 610064, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qingyang",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaomei",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xuemin",
+        "short_name": "Cheng X",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Longying",
+        "short_name": "Cai L",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Anping",
+        "short_name": "Guo A",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lanjun",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Hong",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Mei",
+        "short_name": "Wu M",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xianyang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huilin",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Xiaoyun",
+        "short_name": "Meng X",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yaping",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Guiping",
+        "short_name": "Tu G",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lifang",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xiaofei",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yu",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yushuang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Dengfeng",
+        "short_name": "Dou D",
+        "identifiers": [
+          "0000-0003-2964-7759"
+        ],
+        "affiliations": [
+          "HitGen Inc., Chengdu 610200, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Xuemei",
+        "short_name": "Pu X",
+        "identifiers": [
+          "0000-0002-5519-4258"
+        ],
+        "affiliations": [
+          "College of Chemistry, Sichuan University, Chengdu 610064, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Jul 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/08 00:27",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [
+      "42012360",
+      "41290659"
+    ],
+    "refs": [],
+    "similar": [
+      "40623734",
+      "40014381",
+      "28288108",
+      "40204658",
+      "38383787",
+      "40788235",
+      "41194767",
+      "40626960",
+      "36606710",
+      "40670348",
+      "34582690",
+      "40295770",
+      "39488207",
+      "39341093",
+      "39219068",
+      "38907538",
+      "40967051",
+      "31059647",
+      "39688565",
+      "39392888",
+      "40506832",
+      "31587361",
+      "41045927",
+      "40244695",
+      "40247740",
+      "36262390",
+      "40792622",
+      "38768083",
+      "30721025",
+      "31553577",
+      "40380932",
+      "40277358",
+      "40340429",
+      "40516451",
+      "35084845",
+      "40659131",
+      "39396041",
+      "40665123",
+      "40067013",
+      "32080280",
+      "39773125",
+      "39075252",
+      "32968148",
+      "38675678",
+      "31708096",
+      "38425011",
+      "40343767",
+      "32245233",
+      "39475482",
+      "34105560",
+      "40937862",
+      "37866632",
+      "40012705",
+      "41290659",
+      "40522120",
+      "40223615",
+      "40202531",
+      "36841551",
+      "37443112",
+      "36773087",
+      "38721770",
+      "38513086",
+      "37873358",
+      "38746111",
+      "32338867",
+      "33596073",
+      "30369550",
+      "37570684",
+      "29892083",
+      "29511085",
+      "37656159",
+      "40317844",
+      "33792163",
+      "37101604",
+      "38317535",
+      "34097931",
+      "39274873",
+      "38702792",
+      "38956052",
+      "35649410",
+      "34710811",
+      "32496901",
+      "35623698",
+      "41187371",
+      "38932241",
+      "34390970",
+      "40700052",
+      "36563515",
+      "30260047",
+      "32156781",
+      "36907648",
+      "31767403",
+      "32361153",
+      "26035625",
+      "40815823",
+      "41184243",
+      "41125627",
+      "30411639",
+      "38284532",
+      "40566838"
+    ],
+    "review": [
+      "40623734",
+      "39219068"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00473",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

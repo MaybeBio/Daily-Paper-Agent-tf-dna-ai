@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "41300794",
+    "doi": "10.3390/genes16111342",
+    "title": "Integrating Transcriptomics and Machine Learning to Uncover the FLI1-PARP14-Immune Axis in Ulcerative Colitis Activity and Pathogenesis."
+  },
+  "content": {
+    "abstract": "Background: Ulcerative colitis (UC) is a chronic inflammatory bowel disease whose molecular mechanisms of action remain incompletely characterized. This study was designed to develop potential diagnostic biomarkers and unravel the pathogenic causes of UC activity through the integration of transcriptome analysis with machine learning and genetic causal inference. Methods: Gene expression datasets (GSE75214, GSE53306, GSE179285) from the GEO database were evaluated. Weighted gene co-expression network analysis (WGCNA) and differentially expressed gene (DEG) analysis were applied to discover activity-associated genes. Protein-protein interaction networks and ensemble machine learning methods were utilized to refine the potential list. Furthermore, summary-data-based Mendelian Randomization (SMR) analysis and immune infiltration research were conducted. Results: Eight characteristic genes were identified, with CXCL11, PARP14, and IFITM1 emerging as hub genes. These hub genes exhibited strong diagnostic accuracy, with consistent area under the curve (AUC) values exceeding 0.83 across 3 independent cohorts. SMR analysis demonstrated a probable causal connection between higher PARP14 and UC susceptibility. The hub genes were strongly correlated with immune cells, including M1 macrophages and NK cells. FLI1 was discovered as a critical upstream transcription factor regulating this network. Conclusions: The findings outline a FLI1-PARP14-immune axis central to UC activity, providing unique insights into its pathophysiology and highlighting PARP14 as a promising diagnostic biomarker and potential therapeutic target.",
+    "keywords": [
+      "PARP14",
+      "diagnostic biomarkers",
+      "immune infiltration",
+      "machine learning",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colitis, Ulcerative/genetics/immunology/pathology/metabolism",
+      "*Machine Learning",
+      "*Proto-Oncogene Protein c-fli-1/genetics/metabolism",
+      "*Transcriptome",
+      "Protein Interaction Maps/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling/methods",
+      "*Poly(ADP-ribose) Polymerases/genetics/metabolism",
+      "Biomarkers",
+      "Antigens, Differentiation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Zhizhong",
+        "Zhang, Yayu",
+        "Gao, Zhixing",
+        "Chen, Houyu",
+        "Song, Gang"
+      ],
+      "short_names": [
+        "Zheng Z",
+        "Zhang Y",
+        "Gao Z",
+        "Chen H",
+        "Song G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2507-5853"
+      ],
+      "affiliations": [
+        "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China.",
+        "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China.",
+        "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China.",
+        "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China.",
+        "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Zhizhong",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yayu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zhixing",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Houyu",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China."
+        ]
+      },
+      {
+        "full_name": "Song, Gang",
+        "short_name": "Song G",
+        "identifiers": [
+          "0000-0003-2507-5853"
+        ],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiamen University, Xiamen 361102, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2025 Nov 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 06:27",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40855449",
+      "40855234",
+      "40845157",
+      "40842457",
+      "40841786",
+      "40837005",
+      "40829505",
+      "40239060",
+      "39707393",
+      "39675441",
+      "39413455",
+      "39062464",
+      "38866218",
+      "38729051",
+      "38059894",
+      "37573077",
+      "37539055",
+      "36311726",
+      "35145098",
+      "35101421",
+      "34902790",
+      "34639191",
+      "34561227",
+      "34475573",
+      "34252316",
+      "33148393",
+      "33121686",
+      "32399194",
+      "31945371",
+      "31406511",
+      "31361991",
+      "31272578",
+      "30947569",
+      "29358877",
+      "28885228",
+      "27914657",
+      "27019110",
+      "26034135",
+      "25822800",
+      "19114008",
+      "18609676",
+      "12689998"
+    ],
+    "similar": [
+      "41300794",
+      "40021664",
+      "39975557",
+      "41029776",
+      "40948782",
+      "41009970",
+      "41094572",
+      "37957905",
+      "39647286",
+      "41300749",
+      "38117365",
+      "34480882",
+      "38951638",
+      "41368500",
+      "38656456",
+      "33941565",
+      "40304766",
+      "40597456",
+      "38849409",
+      "36419192",
+      "39673621",
+      "40611294",
+      "41424060",
+      "39170615",
+      "38880160",
+      "39986196",
+      "41481752",
+      "39273699",
+      "40175429",
+      "40963602",
+      "41052072",
+      "38987612",
+      "40155679",
+      "39026683",
+      "39182484",
+      "41479901",
+      "41459538",
+      "39548254",
+      "40433374",
+      "40406126",
+      "40821793",
+      "35392084",
+      "41406086",
+      "41080154",
+      "39738583",
+      "40361222",
+      "40936930",
+      "39953769",
+      "40977549",
+      "37530128",
+      "39139563",
+      "41242266",
+      "39512836",
+      "33462173",
+      "40636118",
+      "40421012",
+      "37782162",
+      "40997906",
+      "38269750",
+      "40791849",
+      "40362669",
+      "41432483",
+      "39346628",
+      "40901026",
+      "39766817",
+      "40317733",
+      "32950577",
+      "39717623",
+      "40275274",
+      "40115777",
+      "38070204",
+      "36742304",
+      "41438107",
+      "39414957",
+      "40661186",
+      "40620701",
+      "36860851",
+      "39341952",
+      "39875572",
+      "40147738",
+      "38815767",
+      "41316541",
+      "33323040",
+      "34717557",
+      "39707393",
+      "37904419",
+      "40443529",
+      "38863714",
+      "41358199",
+      "41136639",
+      "38664443",
+      "37322958",
+      "37529244",
+      "40328901",
+      "37481583",
+      "39695788",
+      "40595862",
+      "36845139",
+      "41013556",
+      "38510272"
+    ],
+    "review": [
+      "41300794"
+    ],
+    "pmc": [
+      "12652888"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes16111342",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41300794/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

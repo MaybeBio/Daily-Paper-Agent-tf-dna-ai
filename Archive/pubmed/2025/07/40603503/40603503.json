@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "40603503",
+    "doi": "10.1038/s41598-025-07579-1",
+    "title": "Deep learning deciphers the related role of master regulators and G-quadruplexes in tissue specification."
+  },
+  "content": {
+    "abstract": "G-quadruplexes (GQs) are non-canonical DNA structures encoded by G-flipons with potential roles in gene regulation and chromatin structure. Here, we explore the role of G-flipons in tissue specification. We present a deep learning-based framework for the genome-wide G-flipon predictions across 14 human tissue types. The model was trained using high-confidence experimental maps of GQ-forming sequences and ATAC-seq peaks, conjoined with the location of RNA polymerase, histone marks, and transcription factor binding sites. The training dataset for the DeepGQ model was derived from EndoQuad level 4-6 GQs. Model predictions were subsequently validated against the comprehensive EndoQuad dataset (levels 1-6) to optimize the whole-genome prediction threshold. To identify tissue-specific regulatory patterns, we classified GQ promoter predictions as either 'core' or 'tissue-specific'. We identified a notable overlap between predicted unique tissue-specific GQ sites and master regulatory genes (MRGs), tissue-specific DNase-hypersensitivity sites, and proteins that modulate R-loop formation. Collectively, the findings highlight the transactions between MRG and G-flipons intermediated by RNA: DNA hybrids associated with tissue specification.",
+    "keywords": [
+      "Chromatin",
+      "Deep learning",
+      "Flipons",
+      "G-quadruplex",
+      "R-loops",
+      "Tissue differentiation"
+    ],
+    "mesh_terms": [
+      "*G-Quadruplexes",
+      "*Deep Learning",
+      "Humans",
+      "Promoter Regions, Genetic",
+      "Gene Expression Regulation",
+      "Organ Specificity/genetics",
+      "Genome, Human",
+      "DNA/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bashkatov, Artem",
+        "Andreasyan, Andrey",
+        "Konovalov, Dmitry",
+        "Herbert, Alan",
+        "Poptsova, Maria"
+      ],
+      "short_names": [
+        "Bashkatov A",
+        "Andreasyan A",
+        "Konovalov D",
+        "Herbert A",
+        "Poptsova M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "International Laboratory of Bioinformatics, HSE University, Moscow, Russia.",
+        "International Laboratory of Bioinformatics, HSE University, Moscow, Russia.",
+        "International Laboratory of Bioinformatics, HSE University, Moscow, Russia.",
+        "International Laboratory of Bioinformatics, HSE University, Moscow, Russia. alan.herbert@insideoutbio.com.",
+        "InsideOutBio, Charlestown, MA, USA. alan.herbert@insideoutbio.com.",
+        "International Laboratory of Bioinformatics, HSE University, Moscow, Russia. mpoptsova@hse.ru."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bashkatov, Artem",
+        "short_name": "Bashkatov A",
+        "identifiers": [],
+        "affiliations": [
+          "International Laboratory of Bioinformatics, HSE University, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Andreasyan, Andrey",
+        "short_name": "Andreasyan A",
+        "identifiers": [],
+        "affiliations": [
+          "International Laboratory of Bioinformatics, HSE University, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Konovalov, Dmitry",
+        "short_name": "Konovalov D",
+        "identifiers": [],
+        "affiliations": [
+          "International Laboratory of Bioinformatics, HSE University, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Herbert, Alan",
+        "short_name": "Herbert A",
+        "identifiers": [],
+        "affiliations": [
+          "International Laboratory of Bioinformatics, HSE University, Moscow, Russia. alan.herbert@insideoutbio.com.",
+          "InsideOutBio, Charlestown, MA, USA. alan.herbert@insideoutbio.com."
+        ]
+      },
+      {
+        "full_name": "Poptsova, Maria",
+        "short_name": "Poptsova M",
+        "identifiers": [],
+        "affiliations": [
+          "International Laboratory of Bioinformatics, HSE University, Moscow, Russia. mpoptsova@hse.ru."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 00:27",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39460617",
+      "39392462",
+      "39090226",
+      "38914786",
+      "38749504",
+      "37904589",
+      "37735199",
+      "37544644",
+      "36039999",
+      "35325188",
+      "35325185",
+      "35264768",
+      "35013616",
+      "34792172",
+      "34667120",
+      "33892767",
+      "33872156",
+      "33712600",
+      "33353982",
+      "33193663",
+      "33154517",
+      "32913098",
+      "32728217",
+      "32636376",
+      "30346488",
+      "29470465",
+      "29109402",
+      "28662445",
+      "28237796",
+      "28069994",
+      "27618450",
+      "26192317",
+      "26028540",
+      "25613900",
+      "23463311",
+      "22955617",
+      "12734009"
+    ],
+    "similar": [
+      "40603503",
+      "41099696",
+      "29945198",
+      "42475469",
+      "39408629",
+      "31177910",
+      "39555660",
+      "41119994",
+      "41516148",
+      "39090226",
+      "31575660",
+      "19958507",
+      "36054116",
+      "42763390",
+      "28447783",
+      "33892767",
+      "25268620",
+      "40141064",
+      "41318386",
+      "37094040",
+      "23326389",
+      "42194040",
+      "33313902",
+      "18355457",
+      "31053165",
+      "32307997",
+      "31077166",
+      "33347280",
+      "16239639",
+      "34001600",
+      "42271430",
+      "17169996",
+      "36282946",
+      "37904589",
+      "37544644",
+      "16687659",
+      "36897885",
+      "39762034",
+      "31514263",
+      "32610184",
+      "28330874",
+      "23653208",
+      "22955983",
+      "34040612",
+      "29796650",
+      "24829453",
+      "21729868",
+      "31114922",
+      "24005038",
+      "37528048",
+      "22021377",
+      "40646558",
+      "27551915",
+      "35446122",
+      "32478505",
+      "30265731",
+      "32810236",
+      "26727593",
+      "39389670",
+      "40397186",
+      "37660977",
+      "37552993",
+      "38914786",
+      "37855085",
+      "37878583",
+      "27871228",
+      "31444741",
+      "42376815",
+      "37952768",
+      "25563930",
+      "29709633",
+      "34792144",
+      "26192317",
+      "28927343",
+      "32742689",
+      "19745055",
+      "32289341",
+      "36980918",
+      "34494544",
+      "42068378",
+      "32404420",
+      "37301913",
+      "39436355",
+      "38417105",
+      "31807754",
+      "21593130",
+      "19478012",
+      "42201978",
+      "32972365",
+      "34162892",
+      "22028663",
+      "40985766",
+      "32029221",
+      "28702665",
+      "34990028",
+      "39183303",
+      "24735378",
+      "27490187",
+      "27587203",
+      "17718513"
+    ],
+    "review": [
+      "40603503",
+      "39408629",
+      "25268620",
+      "40141064",
+      "18355457",
+      "37544644",
+      "39762034",
+      "31514263",
+      "40397186",
+      "38914786",
+      "37855085",
+      "32742689",
+      "27587203"
+    ],
+    "pmc": [
+      "12222854"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-07579-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40603503/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

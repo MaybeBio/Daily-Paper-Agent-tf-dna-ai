@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "39387972",
+    "doi": "10.1007/s00894-024-06165-y",
+    "title": "Ursolic acid interaction with transcription factors BRAF, V600E, and V600K: a computational approach towards new potential melanoma treatments."
+  },
+  "content": {
+    "abstract": "CONTEXT: Melanoma is one of the cancers with the highest mortality rate for its ability to metastasize. Several targets have undergone investigation for the development of drugs against this pathology. One of the main targets is the kinase BRAF (RAF, rapidly accelerated fibrosarcoma). The most common mutation in melanoma is BRAFV600E and has been reported in 50-90% of patients with melanoma. Due to the relevance of the BRAFV600E mutation, inhibitors to this kinase have been developed, vemurafenib-OMe and dabrafenib. Ursolic acid (UA) is a pentacyclic triterpene with a privileged structure, the pentacycle scaffold, which allows to have a broad variety of biological activity; the most studied is its anticancer capacity. In this work, we reported the interaction profile of vemurafenib-OMe, dabrafenib, and UA, to define whether UA has binding capacity to BRAFWT, BRAFV600E, and BRAFV600K. Homology modeling of BRAFWT, V600E, and V600K; molecular docking; and molecular dynamics simulations were carried out and interactions and residues relevant to the binding of the inhibitors were obtained. We found that UA, like the inhibitors, presents hydrogen bond interactions, and hydrophobic interactions of van der Waals, and pi-stacking with I463, Q530, C532, and F583. The DeltaG of ursolic acid in complex with BRAFV600K (- 63.31 kcal/mol) is comparable to the DeltaG of the selective inhibitor dabrafenib (- 63.32 kcal/mol) in complex to BRAFV600K and presents a DeltaG like vemurafenib-OMe with BRAFWT and V600E. With this information, ursolic acid could be considered as a lead compound for design cycles and to optimize the binding profile and the selectivity towards mutations for the development of new selective inhibitors for BRAFV600E and V600K to new potential melanoma treatments. METHODS: The homology modeling calculations were executed on the public servers I-TASSER and ROBETTA, followed by molecular docking calculations using AutoGrid 4.2.6, AutoDockGPU 1.5.3, and AutoDockTools 1.5.6. Molecular dynamics and metadynamics simulations were performed in the Desmond module of the academic version of the Schrodinger-Maestro 2020-4 program, utilizing the OPLS-2005 force field. Ligand-protein interactions were evaluated using Schrodinger-Maestro program, LigPlot + , and PLIP (protein-ligand interaction profiler). Finally, all of the protein figures presented in this article were made in the PyMOL program.",
+    "keywords": [
+      "BRAFV600E",
+      "BRAFV600K",
+      "BRAFWT",
+      "Melanoma",
+      "Molecular dynamics simulation",
+      "Ursolic acid"
+    ],
+    "mesh_terms": [
+      "*Ursolic Acid",
+      "*Triterpenes/chemistry/pharmacology",
+      "*Proto-Oncogene Proteins B-raf/chemistry/antagonists & inhibitors/metabolism/genetics",
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Melanoma/drug therapy/genetics",
+      "*Molecular Dynamics Simulation",
+      "Imidazoles/chemistry/pharmacology",
+      "Protein Binding",
+      "Vemurafenib/pharmacology/chemistry",
+      "Oximes/chemistry/pharmacology",
+      "Mutation",
+      "Antineoplastic Agents/chemistry/pharmacology/therapeutic use",
+      "Protein Kinase Inhibitors/chemistry/pharmacology",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aguilera-Duran, Giovanny",
+        "Hernandez-Castro, Stephanie",
+        "Loera-Garcia, Brenda V",
+        "Rivera-Vargas, Alex",
+        "Alvarez-Baltazar, J M",
+        "Cuevas-Flores, Ma Del Refugio",
+        "Romo-Mancillas, Antonio"
+      ],
+      "short_names": [
+        "Aguilera-Duran G",
+        "Hernandez-Castro S",
+        "Loera-Garcia BV",
+        "Rivera-Vargas A",
+        "Alvarez-Baltazar JM",
+        "Cuevas-Flores MDR",
+        "Romo-Mancillas A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratorio de Quimica Cuantica y Modelado Molecular, Unidad Academica de Ciencias Quimicas, Universidad Autonoma de Zacatecas, 98160, Zacatecas, Mexico. giovanny.aguilerad@uaz.edu.mx.",
+        "Grupo de Diseno Asistido Por Computadora y Sintesis de Farmacos, Facultad de Quimica, Universidad Autonoma de Queretaro, Centro Universitario, 76010, Queretaro, Mexico. giovanny.aguilerad@uaz.edu.mx.",
+        "Posgrado en Ciencias Quimico Biologicas, Facultad de Quimica, Universidad Autonoma de Queretaro, Cerro de Las Campanas S/N, 76010, Queretaro, Mexico.",
+        "Grupo de Diseno Asistido Por Computadora y Sintesis de Farmacos, Facultad de Quimica, Universidad Autonoma de Queretaro, Centro Universitario, 76010, Queretaro, Mexico.",
+        "Facultad de Ciencias Quimicas, Universidad Autonoma de San Luis Potosi, Zona Universitaria, 78210, San Luis Potosi, Mexico.",
+        "Posgrado en Ciencias Quimico Biologicas, Facultad de Quimica, Universidad Autonoma de Queretaro, Cerro de Las Campanas S/N, 76010, Queretaro, Mexico.",
+        "Grupo de Diseno Asistido Por Computadora y Sintesis de Farmacos, Facultad de Quimica, Universidad Autonoma de Queretaro, Centro Universitario, 76010, Queretaro, Mexico.",
+        "Posgrado en Ciencias Quimico Biologicas, Facultad de Quimica, Universidad Autonoma de Queretaro, Cerro de Las Campanas S/N, 76010, Queretaro, Mexico.",
+        "Grupo de Diseno Asistido Por Computadora y Sintesis de Farmacos, Facultad de Quimica, Universidad Autonoma de Queretaro, Centro Universitario, 76010, Queretaro, Mexico.",
+        "Laboratorio de Quimica Cuantica y Modelado Molecular, Unidad Academica de Ciencias Quimicas, Universidad Autonoma de Zacatecas, 98160, Zacatecas, Mexico.",
+        "Posgrado en Ciencias Quimico Biologicas, Facultad de Quimica, Universidad Autonoma de Queretaro, Cerro de Las Campanas S/N, 76010, Queretaro, Mexico. ruben.romo@uaq.mx.",
+        "Grupo de Diseno Asistido Por Computadora y Sintesis de Farmacos, Facultad de Quimica, Universidad Autonoma de Queretaro, Centro Universitario, 76010, Queretaro, Mexico. ruben.romo@uaq.mx."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aguilera-Durán, Giovanny",
+        "short_name": "Aguilera-Durán G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Química Cuántica y Modelado Molecular, Unidad Académica de Ciencias Químicas, Universidad Autónoma de Zacatecas, 98160, Zacatecas, Mexico. giovanny.aguilerad@uaz.edu.mx.",
+          "Grupo de Diseño Asistido Por Computadora y Síntesis de Fármacos, Facultad de Química, Universidad Autónoma de Querétaro, Centro Universitario, 76010, Querétaro, Mexico. giovanny.aguilerad@uaz.edu.mx."
+        ]
+      },
+      {
+        "full_name": "Hernández-Castro, Stephanie",
+        "short_name": "Hernández-Castro S",
+        "identifiers": [],
+        "affiliations": [
+          "Posgrado en Ciencias Químico Biológicas, Facultad de Química, Universidad Autónoma de Querétaro, Cerro de Las Campanas S/N, 76010, Querétaro, Mexico.",
+          "Grupo de Diseño Asistido Por Computadora y Síntesis de Fármacos, Facultad de Química, Universidad Autónoma de Querétaro, Centro Universitario, 76010, Querétaro, Mexico."
+        ]
+      },
+      {
+        "full_name": "Loera-García, Brenda V",
+        "short_name": "Loera-García BV",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Ciencias Químicas, Universidad Autónoma de San Luis Potosí, Zona Universitaria, 78210, San Luis Potosí, Mexico."
+        ]
+      },
+      {
+        "full_name": "Rivera-Vargas, Alex",
+        "short_name": "Rivera-Vargas A",
+        "identifiers": [],
+        "affiliations": [
+          "Posgrado en Ciencias Químico Biológicas, Facultad de Química, Universidad Autónoma de Querétaro, Cerro de Las Campanas S/N, 76010, Querétaro, Mexico.",
+          "Grupo de Diseño Asistido Por Computadora y Síntesis de Fármacos, Facultad de Química, Universidad Autónoma de Querétaro, Centro Universitario, 76010, Querétaro, Mexico."
+        ]
+      },
+      {
+        "full_name": "Alvarez-Baltazar, J M",
+        "short_name": "Alvarez-Baltazar JM",
+        "identifiers": [],
+        "affiliations": [
+          "Posgrado en Ciencias Químico Biológicas, Facultad de Química, Universidad Autónoma de Querétaro, Cerro de Las Campanas S/N, 76010, Querétaro, Mexico.",
+          "Grupo de Diseño Asistido Por Computadora y Síntesis de Fármacos, Facultad de Química, Universidad Autónoma de Querétaro, Centro Universitario, 76010, Querétaro, Mexico."
+        ]
+      },
+      {
+        "full_name": "Cuevas-Flores, Ma Del Refugio",
+        "short_name": "Cuevas-Flores MDR",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Química Cuántica y Modelado Molecular, Unidad Académica de Ciencias Químicas, Universidad Autónoma de Zacatecas, 98160, Zacatecas, Mexico."
+        ]
+      },
+      {
+        "full_name": "Romo-Mancillas, Antonio",
+        "short_name": "Romo-Mancillas A",
+        "identifiers": [],
+        "affiliations": [
+          "Posgrado en Ciencias Químico Biológicas, Facultad de Química, Universidad Autónoma de Querétaro, Cerro de Las Campanas S/N, 76010, Querétaro, Mexico. ruben.romo@uaq.mx.",
+          "Grupo de Diseño Asistido Por Computadora y Síntesis de Fármacos, Facultad de Química, Universidad Autónoma de Querétaro, Centro Universitario, 76010, Querétaro, Mexico. ruben.romo@uaq.mx."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular modeling"
+    ],
+    "journal_abbrev": [
+      "J Mol Model"
+    ],
+    "pub_date": "2024 Oct 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/11 10:17",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "42043592",
+      "41644789"
+    ],
+    "refs": [
+      "38370458",
+      "38295889",
+      "37893218",
+      "37576670",
+      "37516774",
+      "37504268",
+      "36950455",
+      "36875340",
+      "36305812",
+      "36157497",
+      "35682764",
+      "34282049",
+      "33950214",
+      "33920834",
+      "33671368",
+      "33403848",
+      "33199152",
+      "29518541",
+      "29067766",
+      "27571413",
+      "26916115",
+      "25883148",
+      "25873628",
+      "25647735",
+      "25496113",
+      "24881958",
+      "23539007",
+      "22548344",
+      "21919503",
+      "19399780"
+    ],
+    "similar": [
+      "39387972",
+      "28414204",
+      "30225883",
+      "32962435",
+      "38977937",
+      "37424193",
+      "29481571",
+      "23251089",
+      "34621046",
+      "28536078",
+      "33229534",
+      "23807941",
+      "25686114",
+      "25073704",
+      "24422853",
+      "24259661",
+      "32273491",
+      "29491057",
+      "31211467",
+      "30928620",
+      "25960652",
+      "32873393",
+      "23714462",
+      "26135342",
+      "25399551",
+      "28539463",
+      "22554099",
+      "23237741",
+      "34958586",
+      "25583765",
+      "23249624",
+      "34853302",
+      "25787767",
+      "24583796",
+      "24508103",
+      "23881668",
+      "27255157",
+      "22389471",
+      "23621583",
+      "31401373",
+      "30994353",
+      "24766074",
+      "31672130",
+      "24756795",
+      "26790143",
+      "25411185",
+      "38778340",
+      "23460959",
+      "38941889",
+      "27246822",
+      "26433819",
+      "35022913",
+      "30036146",
+      "33601311",
+      "27438814",
+      "32470760",
+      "21338122",
+      "31152574",
+      "30144031",
+      "25265970",
+      "23362240",
+      "38965534",
+      "30118796",
+      "25265492",
+      "36963492",
+      "33280830",
+      "29112787",
+      "25643238",
+      "25906420",
+      "24901049",
+      "21803746",
+      "37569660",
+      "38909731",
+      "32801082",
+      "20630094",
+      "28472910",
+      "23918947",
+      "33107403",
+      "23403819",
+      "31784187",
+      "32877599",
+      "37446932",
+      "35505173",
+      "29076950",
+      "38936891",
+      "37629086",
+      "22113612",
+      "29356790",
+      "24885690",
+      "22742884",
+      "29145034",
+      "26056325",
+      "29565994",
+      "35752358",
+      "30429474",
+      "24670642",
+      "22588879",
+      "24398428",
+      "26810733",
+      "28500236"
+    ],
+    "review": [
+      "39387972",
+      "23251089",
+      "23807941",
+      "25686114",
+      "24259661",
+      "32273491",
+      "23714462",
+      "23621583",
+      "24766074",
+      "24756795",
+      "23460959",
+      "27246822",
+      "30118796",
+      "25906420"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00894-024-06165-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BRAF-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1335",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

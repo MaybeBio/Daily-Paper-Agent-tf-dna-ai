@@ -1,0 +1,152 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.03.07.25323578",
+  "title": "Integration of Deep Learning Annotations with Functional Genomics Improves Identification of Causal Alzheimer's Disease Variants",
+  "doi": "10.1101/2025.03.07.25323578",
+  "abstract": "Genetic variants associated with Alzheimer's disease (AD) through genome-wide association studies (GWAS) are challenging to interpret because most lie in non-coding regions of the genome. Here, a method was developed that integrates deep learning variant effect prediction (DL-VEP) scores from Enformer, DeepSea, and ChromBPNet models with cell-type specific regulatory annotations to improve fine-mapping of causal AD variants. Using stratified linkage disequilibrium score regression, the largest proportion of heritability among brain cell types was found in microglia and the integration of Enformer microglia-based transcription factor DL-VEP scores and microglia ChromBPNet models further localizes the AD polygenic signal allowing for improved fine-mapping of causal AD variants. Functionally-informed fine-mapping using these annotations discovers 101 AD risk variants compared to 87 identified by statistical fine-mapping alone. Importantly, polygenic risk scores derived from these fine-mapped variants show improved cross-ancestry performance in both African American (AUC=0.532 vs. 0.521 for SUSIE) and Hispanic (AUC=0.552 vs. 0.535 for SUSIE) populations, while maintaining strong performance in European populations (AUC=0.620 vs. 0.615 for SUSIE). Through detailed analysis of the PICALM/EED locus, we demonstrate how our approach disentangles causal variants in regions of high linkage disequilibrium and predicts specific molecular mechanisms, such as disruption of PU.1 transcription factor binding, with the posterior inclusion probability of this variant increasing from 0.55 using SUSIE to 0.90 with our method. Our results provide a framework for leveraging deep learning annotations to improve identification of causal disease variants and enhance polygenic risk prediction across diverse populations.",
+  "authors": [
+    "Lakhani CM",
+    "Lin JT",
+    "Das A",
+    "Naito T",
+    "Raj T",
+    "Knowles DA"
+  ],
+  "published_date": "2025-03-10",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.03.07.25323578",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.03.07.25323578.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR987900",
+    "raw_record": {
+      "id": "PPR987900",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.07.25323578",
+      "title": "Integration of Deep Learning Annotations with Functional Genomics Improves Identification of Causal Alzheimer's Disease Variants",
+      "authorString": "Lakhani CM, Lin JT, Das A, Naito T, Raj T, Knowles DA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lakhani CM",
+            "lastName": "Lakhani",
+            "firstName": "Chirag",
+            "initials": "CM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8431-3690"
+            }
+          },
+          {
+            "fullName": "Lin JT",
+            "lastName": "Lin",
+            "firstName": "Jui-Shan",
+            "initials": "JT"
+          },
+          {
+            "fullName": "Das A",
+            "lastName": "Das",
+            "firstName": "Anjali",
+            "initials": "A"
+          },
+          {
+            "fullName": "Naito T",
+            "lastName": "Naito",
+            "firstName": "Tatsuhiko",
+            "initials": "T"
+          },
+          {
+            "fullName": "Raj T",
+            "lastName": "Raj",
+            "firstName": "Towfique",
+            "initials": "T"
+          },
+          {
+            "fullName": "Knowles DA",
+            "lastName": "Knowles",
+            "firstName": "David",
+            "initials": "DA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7408-146X"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7408-146X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8431-3690"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Genetic variants associated with Alzheimer's disease (AD) through genome-wide association studies (GWAS) are challenging to interpret because most lie in non-coding regions of the genome. Here, a method was developed that integrates deep learning variant effect prediction (DL-VEP) scores from Enformer, DeepSea, and ChromBPNet models with cell-type specific regulatory annotations to improve fine-mapping of causal AD variants. Using stratified linkage disequilibrium score regression, the largest proportion of heritability among brain cell types was found in microglia and the integration of Enformer microglia-based transcription factor DL-VEP scores and microglia ChromBPNet models further localizes the AD polygenic signal allowing for improved fine-mapping of causal AD variants. Functionally-informed fine-mapping using these annotations discovers 101 AD risk variants compared to 87 identified by statistical fine-mapping alone. Importantly, polygenic risk scores derived from these fine-mapped variants show improved cross-ancestry performance in both African American (AUC=0.532 vs. 0.521 for SUSIE) and Hispanic (AUC=0.552 vs. 0.535 for SUSIE) populations, while maintaining strong performance in European populations (AUC=0.620 vs. 0.615 for SUSIE). Through detailed analysis of the PICALM/EED locus, we demonstrate how our approach disentangles causal variants in regions of high linkage disequilibrium and predicts specific molecular mechanisms, such as disruption of PU.1 transcription factor binding, with the posterior inclusion probability of this variant increasing from 0.55 using SUSIE to 0.90 with our method. Our results provide a framework for leveraging deep learning annotations to improve identification of causal disease variants and enhance polygenic risk prediction across diverse populations.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.03.07.25323578"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.07.25323578"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-14",
+      "firstPublicationDate": "2025-03-10",
+      "firstIndexDate": "2025-03-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

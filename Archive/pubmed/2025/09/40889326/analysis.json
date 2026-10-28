@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40889326",
+  "title": "A Novel Dual-Attention Deep Neural Network With Multi-Scale Fusion Feature Processing for Predicting Transcription Factor Binding Sites.",
+  "authors": "Dai, Yuechuan; Shen, Xianjun; Zhao, Weizhong; Hu, Xiaohua",
+  "journal": "IEEE journal of biomedical and health informatics",
+  "published_date": "2025-09-01",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出双注意力多尺度融合深度网络DeepCTMS，融合DNA序列与三维形状特征预测转录因子结合位点，核心聚焦TF-DNA互作且方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Transcription functions as a pivotal biological process in cell biology, which is required to complete the binding of transcription factors (TFs) to transcription factor binding sites (TFBSs) on the DNA. Accurate prediction of TFBSs can provide great potential to regulate the expression of interested genes, which can facilitate exploration of new drugs and treatment for diseases. Although many deep learning-based models have been proposed for predicting TFBSs, existing models still have problems, including the use of convolutional processing of DNA sequences that loses information about the DNA double helix structure and fails to adequately account for the stereoscopic structure of DNA shape data in three dimensions. In this paper, we propose a novel model called DeepCTMS, in which both sequence features and shape features of DNA slices are effectively fused to derive high-quality representations for the task of TFBS prediction. A sequence feature processing module is first used to extract the DNA double helix structure features of DNA slices. The three-dimensional features of DNA shape data are extracted by employing a convolutional triple attention (CTA) module for the shape data of a DNA slice. Finally, a multi-scale fusion feature processing (MSFFP) module is used to fuse sequence features and shape features to obtain representations with significantly aligned semantics of both features. Ablation experiments, t-SNE visual analysis, and cross-cell line validation results demonstrate that DeepCTMS consistently outperforms benchmark models on prediction performance and generalization ability on 165 ChIP-seq datasets.",
+  "abstract_zh": "转录在细胞生物学中扮演着关键生物过程，其完成需要转录因子（TFs）与DNA上的转录因子结合位点（TFBSs）结合。准确预测TFBSs可为调控感兴趣基因的表达提供巨大潜力，从而促进新药研发和疾病治疗探索。尽管已提出许多基于深度学习的模型用于预测TFBSs，但现有模型仍存在问题，包括对DNA序列进行卷积处理时丢失DNA双螺旋结构信息，且未能充分考虑到DNA形状数据在三维空间中的立体结构。本文提出了一种名为DeepCTMS的新模型，该模型有效融合DNA片段的序列特征和形状特征，以生成高质量表示用于TFBS预测任务。首先使用序列特征处理模块提取DNA片段的DNA双螺旋结构特征。通过采用卷积三重注意力（CTA）模块对DNA片段的形状数据进行处理，提取DNA形状数据的三维特征。最后，使用多尺度融合特征处理（MSFFP）模块融合序列特征和形状特征，以获得两种特征语义显著对齐的表示。消融实验、t-SNE可视化分析和跨细胞系验证结果表明，DeepCTMS在165个ChIP-seq数据集上的预测性能和泛化能力始终优于基准模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40889326/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40889326/",
+  "paper_page_path": "papers/pubmed/40889326/index.html"
+}

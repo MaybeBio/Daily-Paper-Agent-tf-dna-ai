@@ -1,0 +1,171 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.29.547124",
+  "title": "XPA tumor variants lead to defects in NER that sensitize cells to cisplatin",
+  "doi": "10.1101/2023.06.29.547124",
+  "abstract": "Nucleotide excision repair (NER) neutralizes treatment with platinum (Pt)-based chemotherapy by removing Pt lesions from DNA. Previous study has identified that missense mutation or loss of either of the NER genes Excision Repair Cross Complementation Group 1 and 2 ( ERCC1 and ERCC2 ) leads to improved patient outcomes after treatment with Pt-based chemotherapies. Although most NER gene alterations found in patient tumors are missense mutations, the impact of such mutations in the remaining nearly 20 NER genes is unknown. Towards this goal, we previously developed a machine learning strategy to predict genetic variants in an essential NER scaffold protein, Xeroderma Pigmentosum Complementation Group A (XPA), that disrupt repair activity on a UV-damaged substrate. In this study, we report in-depth analyses of a subset of the predicted NER-deficient XPA variants, including in vitro analyses of purified recombinant protein and cell-based assays to test Pt agent sensitivity in cells and determine mechanisms of NER dysfunction. The most NER deficient variant Y148D had reduced protein stability, weaker DNA binding, disrupted recruitment to damage, and degradation resulting from tumor missense mutation. Our findings demonstrate that tumor mutations in XPA impact cell survival after cisplatin treatment and provide valuable mechanistic insights to further improve variant effect prediction efforts. More broadly, these findings suggest XPA tumor variants should be considered when predicting patient response to Pt-based chemotherapy. <h4>Significance</h4> A destabilized, readily degraded tumor variant identified in the NER scaffold protein XPA sensitizes cells to cisplatin, suggesting that XPA variants can be used to predict response to chemotherapy.",
+  "authors": [
+    "Blee AM",
+    "Gallagher KS",
+    "Kim H",
+    "Kim M",
+    "Troll CR",
+    "D’Souza A",
+    "Park J",
+    "Neufer PD",
+    "Schärer OD",
+    "Chazin WJ"
+  ],
+  "published_date": "2023-07-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.29.547124",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.29.547124.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR684980",
+    "raw_record": {
+      "id": "PPR684980",
+      "source": "PPR",
+      "doi": "10.1101/2023.06.29.547124",
+      "title": "XPA tumor variants lead to defects in NER that sensitize cells to cisplatin",
+      "authorString": "Blee AM, Gallagher KS, Kim H, Kim M, Troll CR, D’Souza A, Park J, Neufer PD, Schärer OD, Chazin WJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Blee AM",
+            "lastName": "Blee",
+            "firstName": "Alexandra",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4959-5466"
+            }
+          },
+          {
+            "fullName": "Gallagher KS",
+            "lastName": "Gallagher",
+            "firstName": "Kaitlyn",
+            "initials": "KS"
+          },
+          {
+            "fullName": "Kim H",
+            "lastName": "Kim",
+            "firstName": "Hyun-Suk",
+            "initials": "H"
+          },
+          {
+            "fullName": "Kim M",
+            "lastName": "Kim",
+            "firstName": "Mihyun",
+            "initials": "M"
+          },
+          {
+            "fullName": "Troll CR",
+            "lastName": "Troll",
+            "firstName": "Christina",
+            "initials": "CR"
+          },
+          {
+            "fullName": "D’Souza A",
+            "lastName": "D’Souza",
+            "firstName": "Areetha",
+            "initials": "A"
+          },
+          {
+            "fullName": "Park J",
+            "lastName": "Park",
+            "firstName": "Jiyoung",
+            "initials": "J"
+          },
+          {
+            "fullName": "Neufer PD",
+            "lastName": "Neufer",
+            "firstName": "Drew",
+            "initials": "PD"
+          },
+          {
+            "fullName": "Schärer OD",
+            "lastName": "Schärer",
+            "firstName": "Orlando",
+            "initials": "OD"
+          },
+          {
+            "fullName": "Chazin WJ",
+            "lastName": "Chazin",
+            "firstName": "Walter",
+            "initials": "WJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4959-5466"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Nucleotide excision repair (NER) neutralizes treatment with platinum (Pt)-based chemotherapy by removing Pt lesions from DNA. Previous study has identified that missense mutation or loss of either of the NER genes Excision Repair Cross Complementation Group 1 and 2 (  ERCC1 and  ERCC2 ) leads to improved patient outcomes after treatment with Pt-based chemotherapies. Although most NER gene alterations found in patient tumors are missense mutations, the impact of such mutations in the remaining nearly 20 NER genes is unknown. Towards this goal, we previously developed a machine learning strategy to predict genetic variants in an essential NER scaffold protein, Xeroderma Pigmentosum Complementation Group A (XPA), that disrupt repair activity on a UV-damaged substrate. In this study, we report in-depth analyses of a subset of the predicted NER-deficient XPA variants, including  in vitro analyses of purified recombinant protein and cell-based assays to test Pt agent sensitivity in cells and determine mechanisms of NER dysfunction. The most NER deficient variant Y148D had reduced protein stability, weaker DNA binding, disrupted recruitment to damage, and degradation resulting from tumor missense mutation. Our findings demonstrate that tumor mutations in XPA impact cell survival after cisplatin treatment and provide valuable mechanistic insights to further improve variant effect prediction efforts. More broadly, these findings suggest XPA tumor variants should be considered when predicting patient response to Pt-based chemotherapy.  <h4>Significance</h4>  A destabilized, readily degraded tumor variant identified in the NER scaffold protein XPA sensitizes cells to cisplatin, suggesting that XPA variants can be used to predict response to chemotherapy.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.29.547124"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38500596",
+            "reference": "NAR cancer. 2024 Mar;6(1):zcae013",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-07-03",
+      "firstPublicationDate": "2023-07-01",
+      "firstIndexDate": "2023-07-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

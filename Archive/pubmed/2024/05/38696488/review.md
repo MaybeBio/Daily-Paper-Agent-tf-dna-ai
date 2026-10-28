@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a click chemistry-based single-molecule force spectroscopy method to quantify the binding between phosphorylated HMGB1 and cisplatin-modified DNA (CP-DNA). They claim a rupture force of approximately 130 pN, sequence-dependent variability, identification of Ser14 as the key phosphorylation site enhancing kinetic stability by 35-fold, and a mechanistic explanation involving additional hydrogen bonding from molecular dynamics simulations. They further suggest that phosphorylated HMGB1 may improve cisplatin therapeutic efficacy.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, control experiments, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary information, raw force spectroscopy data, MD simulation details, and statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically ambitious and potentially valuable application of click chemistry-based force spectroscopy to a clinically relevant protein-DNA interaction. The reported magnitude of the rupture force and the 35-fold kinetic stabilization are striking and, if robustly supported, would constitute a meaningful advance. However, the abstract alone provides insufficient evidence to evaluate the validity of the central claims. Key methodological controls, quantitative reproducibility, and the mechanistic link between phosphorylation and enhanced binding are asserted rather than demonstrated. The therapeutic implication is speculative and not supported by the data described.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, DNA repair mechanisms, and cancer pharmacology would find these results relevant. The methodological innovation in click chemistry-based immobilization for force spectroscopy could interest developers of single-molecule assays. The potential link between HMGB1 phosphorylation and cisplatin efficacy would attract investigators studying chemotherapy resistance and nuclear protein post-translational modifications.
+- **Major strengths** The methodological approach is creative, combining click chemistry with enzymatic ligation for controlled DNA-protein immobilization, which addresses a known limitation in single-molecule interaction studies. The reported rupture force of approximately 130 pN is notably high and, if reproducible, suggests a biologically significant interaction. The identification of a specific phosphorylation site with a quantified kinetic effect provides a concrete molecular handle. The use of MD simulations to propose a mechanistic basis is a reasonable complement to experimental measurements.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves high-precision quantification of the interaction between phosphorylated HMGB1 and CP-DNA
+  - **Evidence pointer** Abstract, methods description not provided
+  - **Concern** The abstract claims high-precision quantification but provides no information on measurement reproducibility, sample size, error analysis, or validation against an established method. The rupture force of approximately 130 pN is presented as a single value without a distribution, uncertainty, or comparison to a negative control (e.g., non-phosphorylated HMGB1 under identical conditions).
+  - **Why it matters** Without demonstrated reproducibility and controls, the central quantitative claim cannot be distinguished from an artifact of the immobilization chemistry or measurement conditions. The click chemistry approach, while innovative, introduces new variables that must be rigorously controlled.
+  - **Resolution test** Provide force spectroscopy histograms with sample sizes, statistical comparisons between phosphorylated and non-phosphorylated HMGB1, and control experiments with non-specific proteins or DNA lacking cisplatin adducts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** Ser14 is the key phosphorylation site, enhancing the interaction's kinetic stability by 35-fold
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The 35-fold enhancement is a strong quantitative claim, but the abstract provides no experimental data showing how this value was derived. It is unclear whether this reflects a change in dissociation rate, association rate, or both. No information is given on how Ser14 was identified (e.g., mutagenesis, phosphomimetic variants, or phospho-specific antibodies) or whether other phosphorylation sites were tested and excluded.
+  - **Why it matters** The identification of a specific residue as the key site is central to the mechanistic narrative. If the 35-fold value is based on a single condition or a limited set of measurements, it may not be generalizable. The claim also implies a specificity that requires exclusion of alternative sites.
+  - **Resolution test** Show mutagenesis data for Ser14 and at least one other candidate site, present kinetic parameters (k_on, k_off) with confidence intervals, and demonstrate that the 35-fold effect is reproducible across independent experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The increase in stability is attributed to additional hydrogen bonding suggested by molecular dynamics simulations
+  - **Evidence pointer** Abstract, MD simulation details not provided
+  - **Concern** The abstract states that MD simulations "suggest" additional hydrogen bonding, but no simulation parameters, force field, simulation length, or convergence criteria are given. It is unclear whether the simulations were performed on the phosphorylated and non-phosphorylated states under comparable conditions, or whether the hydrogen bonding pattern was stable across the trajectory.
+  - **Why it matters** The mechanistic explanation is plausible but currently unsupported. If the MD evidence is preliminary or based on a single trajectory, the claim of additional hydrogen bonding as the cause of enhanced stability is speculative. This weakens the overall mechanistic narrative.
+  - **Resolution test** Provide simulation details, including system setup, equilibration protocol, trajectory length, and analysis of hydrogen bond occupancy. Show that the proposed hydrogen bonds are persistent and specific to the phosphorylated state.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of claim
+  - **Claim pointer** Phosphorylated HMGB1 may improve cisplatin's therapeutic efficacy
+  - **Evidence pointer** Abstract, no in vivo or cellular data provided
+  - **Concern** The abstract extends the biophysical findings to a therapeutic implication without presenting any cellular or in vivo evidence. The claim that enhanced binding protects CP-DNA from repair and thus improves efficacy is a logical inference, but it is not tested here.
+  - **Why it matters** This statement may overreach beyond the data presented. While it is framed as a possibility, it could be misinterpreted as a demonstrated outcome. The connection between in vitro binding kinetics and therapeutic response involves many intervening factors.
+  - **Resolution test** Either remove the therapeutic implication or clearly label it as a hypothesis requiring future testing. If retained, provide a brief rationale for how the biophysical data might translate, without implying direct evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract, methods description not provided
+  - **Issue** The phrase "click chemistry-based single-molecule force spectroscopy" is used without explaining what specific click reaction was employed or how it improves upon existing immobilization strategies.
+  - **Required correction** Specify the click chemistry pair (e.g., azide-alkyne) and briefly state the advantage over conventional approaches in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Rupture force value
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The rupture force is reported as "approximately 130 pN" without a standard deviation or range. The phrase "varying across different DNA sequences" is vague and does not indicate the magnitude of variation.
+  - **Required correction** Report the mean with standard deviation or confidence interval, and provide the range or specific values for the different sequences tested.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Kinetic stability"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "kinetic stability" is used without defining whether it refers to the lifetime of the bound state, the dissociation rate constant, or another kinetic parameter.
+  - **Required correction** Define the term explicitly and state which kinetic parameter was measured to derive the 35-fold enhancement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract, no references provided
+  - **Issue** The abstract states that "quantitative approaches for understanding their molecular mechanism remain limited" but does not cite or briefly describe what existing methods have achieved.
+  - **Required correction** Add one or two references to prior single-molecule or quantitative methods for protein-DNA interactions to contextualize the novelty claim.
+
+## Risk / unsupported claims
+- The claim of "high-precision quantification" is unsupported without reproducibility and error analysis data.
+- The 35-fold enhancement in kinetic stability is unsupported without kinetic parameters and statistical validation.
+- The attribution of enhanced stability to additional hydrogen bonding is unsupported without MD simulation details.
+- The therapeutic implication regarding cisplatin efficacy is unsupported by any cellular or in vivo data.
+- The statement that HMGB1 binds CP-DNA with a rupture force of approximately 130 pN is unverifiable without the underlying force distribution data.
+- The claim that binding strength "varies across different DNA sequences" is unquantified and cannot be evaluated.

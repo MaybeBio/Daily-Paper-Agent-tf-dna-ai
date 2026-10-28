@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40315131",
+  "title": "In silico identification of archaeal DNA-binding proteins.",
+  "authors": "Donvil, Linus; Housmans, Joelle A J; Peeters, Eveline; Vranken, Wim; Orlando, Gabriele",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2025-05-02",
+  "window": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发神经网络工具Xenusia，用于古菌蛋白质组中DNA结合蛋白的识别与预测，属于广义蛋白-DNA互作对象，方法为AI分类预测，但未聚焦TF-DNA特异性结合机制，故评6分。",
+  "abstract": "MOTIVATION: The rapid advancement of next-generation sequencing technologies has generated an immense volume of genetic data. However, these data are unevenly distributed, with well-studied organisms being disproportionately represented, while other organisms, such as from archaea, remain significantly underexplored. The study of archaea is particularly challenging due to the extreme environments they inhabit and the difficulties associated with culturing them in the laboratory. Despite these challenges, archaea likely represent a crucial evolutionary link between eukaryotic and prokaryotic organisms, and their investigation could shed light on the early stages of life on Earth. Yet, a significant portion of archaeal proteins are annotated with limited or inaccurate information. Among the various classes of archaeal proteins, DNA-binding proteins are of particular importance. While they represent a large portion of every known proteome, their identification in archaea is complicated by the substantial evolutionary divergence between archaeal and the other better studied organisms. RESULTS: To address the challenges of identifying DNA-binding proteins in archaea, we developed Xenusia, a neural network-based tool capable of screening entire archaeal proteomes to identify DNA-binding proteins. Xenusia has proven effective across diverse datasets, including metagenomics data, successfully identifying novel DNA-binding proteins, with experimental validation of its predictions. AVAILABILITY AND IMPLEMENTATION: Xenusia is available as a PyPI package, with source code accessible at https://github.com/grogdrinker/xenusia, and as a Google Colab web server application at xenusia.ipynb.",
+  "abstract_zh": "动机：下一代测序技术的迅猛发展产生了海量的遗传数据。然而，这些数据分布不均，研究充分的生物体占比过高，而其他生物体，如古菌（archaea），则仍显著未被充分探索。古菌的研究因其栖息的极端环境及实验室培养的困难而尤为具有挑战性。尽管存在这些挑战，古菌可能代表了真核生物与原核生物之间的关键进化联系，对其研究或能揭示地球生命早期阶段。然而，大部分古菌蛋白的注释信息有限或不准确。在各类古菌蛋白中，DNA结合蛋白（DNA-binding proteins）尤为重要。尽管它们占每个已知蛋白质组的很大一部分，但在古菌中识别这些蛋白因古菌与其他研究更充分的生物体之间的显著进化分歧而变得复杂。结果：为应对识别古菌中DNA结合蛋白的挑战，我们开发了Xenusia，一种基于神经网络的工具，能够筛选整个古菌蛋白质组以识别DNA结合蛋白。Xenusia已在包括宏基因组学数据在内的多种数据集中证明有效，成功识别出新型DNA结合蛋白，并对其预测进行了实验验证。可用性与实现：Xenusia可作为PyPI包获取，源代码可在https://github.com/grogdrinker/xenusia访问，也可作为Google Colab网页服务器应用在xenusia.ipynb中使用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40315131/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40315131/",
+  "paper_page_path": "papers/pubmed/40315131/index.html"
+}

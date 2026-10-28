@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "41280085",
+    "doi": "10.1101/2025.10.27.684862",
+    "title": "Natural variation in regulatory code revealed through Bayesian analysis of plant pan-genomes and pan-transcriptomes."
+  },
+  "content": {
+    "abstract": "Understanding the genetic code of cis-regulatory elements (CREs) is essential for engineering gene expression and modulating agronomic traits in crops. In plants, CREs underlying rapid evolution of gene expression often overlap with structural variation in promoters, making them undetectable using single-reference genomes. Here, we develop K-PROB (K-mer-based in silico PROmoter Bashing), a computational tool that learns from intraspecies promoter sequence and gene expression variation in pan-genomes and pan-transcriptomes to identify CREs controlling gene expression. K-PROB deploys a k-mer-based Bayesian variable selection framework to prioritize causal variable identification. We demonstrate the effectiveness of our approach in maize and soybean, two staple crops species. Applying K-PROB to genes with the most highly variable promoter sequences and the most diverse patterns of expression, such as nucleotide-binding leucine-rich repeat receptors, we identified k-mers enriched for bona fide transcription factor binding sequences, and overlapping with open chromatin regions and DAP-seq binding sites. Notably, multiple significant k-mers are located within presence/absence structural variants, highlighting structural variation in promoters as key drivers of transcriptional diversity of highly variable genes. We further validated the regulatory effects of identified k-mers on gene expression using luciferase reporter assays. Our results showcase a high-throughput and pangenomic approach for probing natural intraspecies cis-regulatory diversity, discovering new causative cis-elements, and facilitating future expression engineering across plant species.",
+    "keywords": [
+      "Biophysics and Computational Biology",
+      "Plant Biology",
+      "k-mer",
+      "machine learning",
+      "natural variation",
+      "pangenomics",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Wei",
+        "Wu, Xing",
+        "Sutherland, Chandler A",
+        "Lin, Yuting",
+        "Lunde, China",
+        "Exposito-Alonso, Moises",
+        "Krasileva, Ksenia"
+      ],
+      "short_names": [
+        "Wei W",
+        "Wu X",
+        "Sutherland CA",
+        "Lin Y",
+        "Lunde C",
+        "Exposito-Alonso M",
+        "Krasileva K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1337-5253",
+        "ORCID: 0000-0002-8579-7025",
+        "ORCID: 0000-0001-5840-7661",
+        "ORCID: 0000-0003-0513-9709",
+        "ORCID: 0000-0001-5711-0700",
+        "ORCID: 0000-0002-1679-0700"
+      ],
+      "affiliations": [
+        "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Integrative Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Howard Hughes Medical Institute, University of California Berkeley, Berkeley, CA, 94720, USA.",
+        "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Integrative Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Howard Hughes Medical Institute, University of California Berkeley, Berkeley, CA, 94720, USA.",
+        "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Wei",
+        "short_name": "Wei W",
+        "identifiers": [
+          "0000-0002-1337-5253"
+        ],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Xing",
+        "short_name": "Wu X",
+        "identifiers": [
+          "0000-0002-8579-7025"
+        ],
+        "affiliations": [
+          "Department of Integrative Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+          "Howard Hughes Medical Institute, University of California Berkeley, Berkeley, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Sutherland, Chandler A",
+        "short_name": "Sutherland CA",
+        "identifiers": [
+          "0000-0001-5840-7661"
+        ],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Yuting",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Lunde, China",
+        "short_name": "Lunde C",
+        "identifiers": [
+          "0000-0003-0513-9709"
+        ],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Exposito-Alonso, Moises",
+        "short_name": "Exposito-Alonso M",
+        "identifiers": [
+          "0000-0001-5711-0700"
+        ],
+        "affiliations": [
+          "Department of Integrative Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+          "Howard Hughes Medical Institute, University of California Berkeley, Berkeley, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Krasileva, Ksenia",
+        "short_name": "Krasileva K",
+        "identifiers": [
+          "0000-0002-1679-0700"
+        ],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+          "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Oct 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 18:21",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40538067",
+      "40506505",
+      "40408265",
+      "39901014",
+      "39722458",
+      "39300560",
+      "39013614",
+      "38889146",
+      "38796709",
+      "38664394",
+      "38577974",
+      "38479835",
+      "38412459",
+      "38203611",
+      "37883539",
+      "36843251",
+      "36658660",
+      "36583694",
+      "36251695",
+      "35951698",
+      "34918159",
+      "34599589",
+      "34353948",
+      "34045362",
+      "33964211",
+      "33667348",
+      "33290694",
+      "33037196",
+      "32631406",
+      "32553274",
+      "32284578",
+      "31937681",
+      "30992449",
+      "29539638",
+      "29229750",
+      "29074555",
+      "28472349",
+      "28359978",
+      "27226169",
+      "27203113",
+      "26566917",
+      "26431182",
+      "26357925",
+      "25474422",
+      "25033408",
+      "24946828",
+      "24695404",
+      "24174544",
+      "23847101",
+      "23408905",
+      "23104886",
+      "23060610",
+      "21875935",
+      "21816040",
+      "21364738",
+      "21252258",
+      "20110278",
+      "18430961",
+      "17028338",
+      "16782394",
+      "16492471",
+      "16380716",
+      "9847076",
+      "8467221"
+    ],
+    "similar": [
+      "41280085",
+      "25303887",
+      "40065399",
+      "41518494",
+      "42475469",
+      "40421528",
+      "30876396",
+      "41768065",
+      "27161480",
+      "39833673",
+      "38358392",
+      "37805453",
+      "16412085",
+      "24170743",
+      "26860869",
+      "23530833",
+      "33964211",
+      "18257930",
+      "41801512",
+      "28347275",
+      "16817975",
+      "38187729",
+      "29041960",
+      "40369872",
+      "40827700",
+      "36853054",
+      "42175697",
+      "28119334",
+      "16362910",
+      "42210061",
+      "40767619",
+      "17535887",
+      "24467902",
+      "33179598",
+      "41673553",
+      "25442502",
+      "20454681",
+      "32850739",
+      "18976482",
+      "26082173",
+      "28855262",
+      "42333035",
+      "29229750",
+      "40983924",
+      "41247408",
+      "19036138",
+      "41934637",
+      "36121513",
+      "32043966",
+      "37596724",
+      "26221068",
+      "34149757",
+      "39462454",
+      "24042128",
+      "27557758",
+      "41204375",
+      "42720865",
+      "41544987",
+      "41066618",
+      "41981036",
+      "33671852",
+      "32014062",
+      "42549057",
+      "37211599",
+      "41898404",
+      "40205616",
+      "39606674",
+      "37294468",
+      "37292820",
+      "36529716",
+      "38986010",
+      "26772747",
+      "42708417",
+      "38001525",
+      "30016497",
+      "40140332",
+      "39326643",
+      "23756196",
+      "26063739",
+      "39397345",
+      "38253712",
+      "22683808",
+      "27193099",
+      "35435921",
+      "39127768",
+      "18441229",
+      "32690893",
+      "32819422",
+      "42140663",
+      "22388917",
+      "41552871",
+      "41906094",
+      "17291162",
+      "33193733",
+      "34219317",
+      "41871881",
+      "41300738",
+      "40111256",
+      "19258451",
+      "22184637"
+    ],
+    "review": [
+      "41280085",
+      "41768065",
+      "24467902",
+      "37294468",
+      "42708417",
+      "40140332",
+      "32690893",
+      "33193733"
+    ],
+    "pmc": [
+      "12636352"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41280085/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.10.27.684862",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

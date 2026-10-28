@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use alchemical free energy simulations (approximately 53 microseconds of sampling) based on a precatalytic SpCas9:sgRNA:dsDNA X-ray structure to compute per-mutation changes in PAM binding affinity (DeltaDeltaG) for seven mutations in Cas9-NG. They report that the R1335V mutation destabilizes DNA binding, while four mutations (E1219F, D1135V, L1111R, T1337R) compensate via nonbase-specific and electrostatic interactions, with hydrophobic substitutions excluding solvent and enhancing electrostatic stabilization by approximately 2 to 5 kcal/mol. They further claim that G1218R and A1322R do not effectively promote DNA interactions, and that mutation-induced desolvation enables broader PAM recognition.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data beyond the stated DeltaDeltaG range and sampling time
+- **Missing materials affecting confidence** Full methods (alchemical protocol, force field, convergence criteria, error estimates), all numerical DeltaDeltaG values, structural figures, comparison with experimental cleavage data, and any statistical or uncertainty analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially valuable computational study addressing a relevant question in CRISPR engineering. However, the evidence provided in the abstract is insufficient to evaluate the rigor of the alchemical simulations, the accuracy of the DeltaDeltaG estimates, or the strength of the correlation with experimental cleavage data. The central claims are qualitatively coherent but quantitatively under-supported in the current form.
+- **Who would be interested in the results, and why** Researchers in CRISPR biology and genome editing, computational biophysicists studying protein-DNA interactions, and protein engineers interested in rational design of Cas variants. The proposed desolvation-based mechanism for PAM broadening could inform future engineering efforts.
+- **Major strengths** The study addresses a mechanistically important and unresolved question. The use of alchemical free energy simulations is an appropriate and rigorous approach for computing binding affinity changes. The proposed dual mechanism (new nonbase-specific contacts plus electrostatic enhancement in a desolvated pocket) is physically reasonable and potentially generalizable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that computed DeltaDeltaG values "account for" experimentally observed differences in DNA cleavage activity between SpCas9 and Cas9-NG across various DNA substrates.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative comparison between computed DeltaDeltaG values and experimental activity data is presented. The abstract states that the thermodynamics "accounts for" the experimental differences, but no correlation coefficients, error bars, or per-substrate values are given.
+  - **Why it matters** Without quantitative agreement metrics, the claim of accounting for experimental observations is not verifiable. The reader cannot assess whether the agreement is qualitative, semi-quantitative, or quantitative, nor whether the uncertainty in the simulations is small enough to support the conclusion.
+  - **Resolution test** Provide a table or figure comparing computed DeltaDeltaG values with experimental activity measurements for each PAM sequence, including statistical uncertainties and a correlation or error metric.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that hydrophobic substitutions (E1219F and D1135V) stabilize noncognate PAM complexes by approximately 2 to 5 kcal/mol.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The stated range of 2 to 5 kcal/mol is presented without per-mutation values, error estimates, or convergence information. Alchemical free energy calculations of this magnitude require careful assessment of sampling convergence, force field accuracy, and system preparation.
+  - **Why it matters** The magnitude of the reported stabilization is central to the mechanistic conclusion. Without uncertainty quantification, the reader cannot determine whether the 2 to 5 kcal/mol range is statistically distinguishable from zero or from other mutations.
+  - **Resolution test** Report per-mutation DeltaDeltaG values with standard errors, convergence plots, and a description of the alchemical protocol (e.g., number of intermediates, soft-core parameters, equilibration time).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality and significance
+  - **Claim pointer** The authors claim that "mutation-induced desolvation can improve the recognition of noncognate PAMs, paving the way for the rational and innovative design of SpCas9 mutants."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide evidence that the proposed desolvation mechanism is generalizable beyond the specific mutations studied, nor does it discuss whether the mechanism is consistent with existing experimental or computational data on other Cas9 variants.
+  - **Why it matters** The claim of paving the way for rational design implies broader applicability. Without discussion of generality or comparison to prior engineering efforts, the significance of the mechanism remains speculative.
+  - **Resolution test** Add a discussion section in the full manuscript that contextualizes the desolvation mechanism within existing Cas9 engineering literature and identifies testable predictions for future mutants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses specialized terminology (e.g., "alchemical simulations," "nonbase-specific interactions") without brief definitions or context for readers outside computational biophysics.
+  - **Required correction** Add one sentence defining alchemical simulations and clarifying what "nonbase-specific" means in the context of PAM recognition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state the force field used, the number of independent simulations, or the total simulation time per mutation, making it difficult to assess the computational cost and robustness.
+  - **Required correction** Include the force field and the number of replicates or independent runs in the abstract or methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of causal claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "the location of mutations is crucial in shaping these interaction energetics" is vague and could be interpreted as a tautology.
+  - **Required correction** Specify which locations are favorable or unfavorable and provide a structural rationale for the positional dependence.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central quantitative claims (agreement with experiment and the 2 to 5 kcal/mol stabilization range) are not supported by the evidence provided in the abstract. Without these, the mechanistic conclusions are not established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed desolvation-based mechanism for PAM broadening is a novel contribution, though its generality is not yet demonstrated.  
+  - Scientific importance: The question of how Cas9-NG achieves expanded PAM recognition is of high relevance to CRISPR biology and engineering.  
+  - Interdisciplinary readership: The topic bridges computational chemistry, structural biology, and genome editing, with potential appeal across these communities.  
+  - Technical soundness: The use of alchemical simulations is appropriate, but the abstract lacks the quantitative detail and uncertainty analysis needed to assess rigor.  
+  - Readability for nonspecialists: The abstract is accessible to a specialized audience but would benefit from brief definitions of key computational terms.
+- **Recommendation posture** Supportive if technical concerns are resolved. The mechanistic hypothesis is interesting and the methodological approach is appropriate, but the current abstract does not provide sufficient quantitative evidence to establish the central claims.
+
+## Risk / unsupported claims
+- The claim that computed DeltaDeltaG values "account for" experimental cleavage differences is unsupported without quantitative comparison data.
+- The reported 2 to 5 kcal/mol stabilization range for hydrophobic mutations is unverifiable without per-mutation values and error estimates.
+- The claim that G1218R and A1322R "do not effectively promote interactions" is presented without numerical support.
+- The generalizability of the desolvation mechanism to other Cas9 variants is not assessable from the abstract.

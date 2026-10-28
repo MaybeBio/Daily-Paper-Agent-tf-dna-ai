@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "40923710",
+    "doi": "10.1111/acel.70214",
+    "title": "STN1 Shields CTC1 From TRIM32-Mediated Ubiquitination to Prevent Cellular Aging."
+  },
+  "content": {
+    "abstract": "The CST (CTC1-STN1-TEN1) complex, a single-stranded DNA (ssDNA) binding complex, is essential for telomere maintenance and genome stability. Depletion of either CTC1 or STN1 results in cellular senescence, while mutations in these components are associated with severe hereditary disorders. In this study, we demonstrate that the direct STN1-CTC1 interaction stabilizes CTC1 by preventing its degradation via TRIM32 mediated ubiquitination. Functional assays indicate that TRIM32 and the CTC1/STN1 complex exert opposing effects on cellular proliferation. Additionally, transcriptomic analysis of large-scale RNA sequencing data from the Genotype-Tissue Expression (GTEx) reveals inverse expression patterns of TRIM32 and CTC1/STN1 during somatic cell aging. Structural modeling using AlphaFold3 predicts that the TRIM32-CTC1 interaction occurs at the OB-G domain of CTC1, with the binding interface positioned near the STN1-interacting region, termed the \"cleft\" motif. Mechanistically, STN1 likely associates with the OB-G domain of CTC1, competing with TRIM32 for binding sites and thereby interfering with TRIM32-mediated ubiquitination of CTC1. Collectively, our findings identify STN1 as a critical regulator of CST complex integrity and cellular aging by safeguarding CTC1 from TRIM32-driven ubiquitin-proteasome degradation.",
+    "keywords": [
+      "CST",
+      "CTC1",
+      "STN1",
+      "TRIM32",
+      "cell senescence",
+      "ubiquitin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ubiquitination",
+      "*Cellular Senescence/genetics",
+      "*Tripartite Motif Proteins/metabolism/genetics",
+      "*Ubiquitin-Protein Ligases/metabolism/genetics",
+      "*Telomere-Binding Proteins/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lan, Yina",
+        "Liang, Xiaole",
+        "Kuang, Guotao",
+        "Ma, Tengfei",
+        "Zhang, Fangyingnan",
+        "Huang, Zaoli",
+        "Wang, Huan",
+        "Luo, Zhenhua",
+        "Feng, Xuyang"
+      ],
+      "short_names": [
+        "Lan Y",
+        "Liang X",
+        "Kuang G",
+        "Ma T",
+        "Zhang F",
+        "Huang Z",
+        "Wang H",
+        "Luo Z",
+        "Feng X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0411-4473",
+        "ORCID: 0000-0002-4247-8243"
+      ],
+      "affiliations": [
+        "Department of Pediatrics, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lan, Yina",
+        "short_name": "Lan Y",
+        "identifiers": [
+          "0000-0002-0411-4473"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China.",
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Xiaole",
+        "short_name": "Liang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Kuang, Guotao",
+        "short_name": "Kuang G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Tengfei",
+        "short_name": "Ma T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fangyingnan",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zaoli",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Huan",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zhenhua",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Xuyang",
+        "short_name": "Feng X",
+        "identifiers": [
+          "0000-0002-4247-8243"
+        ],
+        "affiliations": [
+          "Institute of Precision Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging cell"
+    ],
+    "journal_abbrev": [
+      "Aging Cell"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/09 12:32",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42694389",
+      "42239136",
+      "42148867"
+    ],
+    "refs": [
+      "40021897",
+      "39786474",
+      "39747658",
+      "39470721",
+      "39227718",
+      "38546191",
+      "38418884",
+      "38036565",
+      "37493024",
+      "37021555",
+      "36599349",
+      "36151328",
+      "35831508",
+      "35027730",
+      "34349292",
+      "33564154",
+      "33361389",
+      "33210317",
+      "32499435",
+      "32283785",
+      "30979824",
+      "30976812",
+      "30609792",
+      "30026550",
+      "29774655",
+      "29481669",
+      "29040642",
+      "28726394",
+      "28334750",
+      "27487043",
+      "25146927",
+      "24818779",
+      "24366029",
+      "24164896",
+      "24115768",
+      "23826127",
+      "23715323",
+      "22964711",
+      "22863775",
+      "22763445",
+      "22652771",
+      "22531781",
+      "21743457",
+      "19854130",
+      "19419691",
+      "19359360",
+      "19119139",
+      "18193018",
+      "17108359",
+      "16136653",
+      "9054505",
+      "3413114",
+      "2342578"
+    ],
+    "similar": [
+      "40923710",
+      "24025336",
+      "30026550",
+      "29774655",
+      "29774234",
+      "37021555",
+      "35368664",
+      "34681076",
+      "29228254",
+      "25329641",
+      "23869908",
+      "23142664",
+      "22357613",
+      "33269665",
+      "25684230",
+      "24115768",
+      "25483097",
+      "22863775",
+      "41036624",
+      "28366536",
+      "22531781",
+      "19854130",
+      "28934486",
+      "40793792",
+      "35134616",
+      "23300477",
+      "19854131",
+      "32499435",
+      "29481669",
+      "28334750",
+      "39747658",
+      "17715303",
+      "24925530",
+      "40497960",
+      "27690379",
+      "34110109",
+      "39897031",
+      "34888944",
+      "28180297",
+      "33986331",
+      "39404369",
+      "22964711",
+      "29899379",
+      "19349376",
+      "40403056",
+      "41125973",
+      "20008938",
+      "30976812",
+      "25146927",
+      "29293451",
+      "31914402",
+      "37163605",
+      "24835988",
+      "28650257",
+      "40178294",
+      "37978541",
+      "34520548",
+      "41237160",
+      "41611995",
+      "31685529",
+      "41157608",
+      "40215293",
+      "32145086",
+      "33780718",
+      "31504727",
+      "16816390",
+      "37493024",
+      "28465353",
+      "39527628",
+      "37640002",
+      "30823891",
+      "20157006",
+      "36629261",
+      "40245101",
+      "23826127",
+      "31396577",
+      "27487043",
+      "28726394",
+      "38686350",
+      "23851344",
+      "34339741",
+      "37245465",
+      "39841234",
+      "26057645",
+      "21628460",
+      "23732052",
+      "25503194",
+      "23572541",
+      "38540683",
+      "38908783",
+      "37543647",
+      "35831498",
+      "22745133",
+      "23444366",
+      "33210317",
+      "30378152",
+      "38348929",
+      "26884348",
+      "38717113",
+      "33731801"
+    ],
+    "review": [
+      "40923710",
+      "29293451",
+      "33780718",
+      "37245465",
+      "23732052"
+    ],
+    "pmc": [
+      "12608094"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40923710/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.70214",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1473",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "41843120",
+    "doi": "10.1007/s00011-026-02197-7",
+    "title": "A novel small molecule KMU-11361 attenuates rheumatoid arthritis by mechanistic inhibition of the TAK1-NF-kappaB-NLRP3 axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is characterized by chronic inflammation and joint destructioncaused by dysregulated immune signaling. Despite the development of various protein kinaseinhibitors to treat inflammatory diseases such as RA, the results achieved are still notsatisfactory. PURPOSE: This study aimed to investigate the therapeutic potential and biological mechanisms of KMU-11361, an innovative multi-protein kinase inhibitor which modulates the inflammatorypathways involved in the pathophysiology of RA, using both in vitro and in vivo models ofarthritis. METHODS: We investigated the effects of KMU-11361 on lipopolysaccharide (LPS)-inducedinflammation, receptor activator of NF-kappaB ligand (RANKL)-induced osteoclast differentiation,and osteoblast differentiation, using various assays in human rheumatoid arthritis (RA)-fibroblast-like synoviocytes (RA-FLS), THP-1 cells, RAW264.7 cells, T cells, and MC-3T3-E1 cells. Furthermore, we evaluated the toxicity and efficacy of KMU-11361 in a zebrafishmodel and a K/BxN serum transfer-induced arthritis mouse model. In addition, we performedkinase profiling and conducted molecular docking simulations to examine whether KMU-11361 interacts with MAPK1 and TAK1 involved in TLR4 signaling. RESULTS: Kinase profiling and molecular docking analyses revealed that KMU-11361 interacts with MAPK1 and TAK1, key regulators of TLR4 signaling. KMU-11361 markedly suppressedTLR4-mediated inflammatory signaling by reducing LPS-induced pro-inflammatory cytokineproduction, phosphorylation of TAK1 and MAPKs, NF-kappaB activation, and NLRP3 expressionin RA-FLS and THP-1 cells. Additionally, KMU-11361 inhibited RANKL-inducedosteoclastogenesis in RAW264.7 cells and attenuated T-cell activation-associated signalingpathways. Notably, KMU-11361 promoted osteoblastic differentiation in MC3T3-E1 cells. Inthe K/BxN serum transfer-induced arthritis mouse model, KMU-11361 significantly reducedankle swelling and IL-6 levels. CONCLUSION: KMU-11361 exhibits potent anti-inflammatory and bone-protective properties by targeting keykinases involved in TLR4-mediated signaling and osteoclast differentiation. These findingsprovide mechanistic insight into its biological activity and highlight its therapeutic potential inboth in vitro and in vivo models of arthritis.",
+    "keywords": [
+      "Anti-inflammation",
+      "K/BxN serum transfer mouse",
+      "Osteoclast differentiation",
+      "Rheumatoid arthritis",
+      "TAK1/MAPKs",
+      "Zebrafish"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*MAP Kinase Kinase Kinases/antagonists & inhibitors/metabolism",
+      "Humans",
+      "NF-kappa B/antagonists & inhibitors/metabolism",
+      "*Arthritis, Rheumatoid/drug therapy/metabolism",
+      "Zebrafish",
+      "*NLR Family, Pyrin Domain-Containing 3 Protein/metabolism/antagonists & inhibitors",
+      "Mice",
+      "MAP Kinase Kinase Kinase 7",
+      "Osteoclasts/drug effects",
+      "Lipopolysaccharides",
+      "Synoviocytes/drug effects",
+      "Signal Transduction/drug effects",
+      "RANK Ligand",
+      "*Anti-Inflammatory Agents/pharmacology/therapeutic use",
+      "RAW 264.7 Cells",
+      "*Protein Kinase Inhibitors/pharmacology/therapeutic use",
+      "Mice, Inbred C57BL",
+      "Arthritis, Experimental/drug therapy",
+      "Cell Differentiation/drug effects",
+      "Male",
+      "Cell Line",
+      "Cytokines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Baek, Hye Suk",
+        "Yoon, Deokhyeon",
+        "Hong, Victor Sukbong",
+        "Lee, Sang-Jin",
+        "Lee, Sang-Il",
+        "Lee, Jin-Young",
+        "Lee, Hye Won",
+        "Jeong, Seungik",
+        "Jung, Hyunho",
+        "Kang, Hyunju",
+        "Kim, Sang Hyon",
+        "Son, Chang-Nam",
+        "Lee, Hyunsu",
+        "Lee, Jinho",
+        "Kim, Shin"
+      ],
+      "short_names": [
+        "Baek HS",
+        "Yoon D",
+        "Hong VS",
+        "Lee SJ",
+        "Lee SI",
+        "Lee JY",
+        "Lee HW",
+        "Jeong S",
+        "Jung H",
+        "Kang H",
+        "Kim SH",
+        "Son CN",
+        "Lee H",
+        "Lee J",
+        "Kim S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Immunology, School of Medicine, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea.",
+        "Department of Physiology, School of Medicine, Pusan National University, Yangsan, 50612, Republic of Korea.",
+        "Department of Chemistry, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea.",
+        "Department of Biological Sciences, Keimyung University, Daegu, 42601, Republic of Korea.",
+        "Department of Internal Medicine, Institute of Health Science, College of Medicine, Gyeongsang National University and Hospital, Jinju, 52727, Republic of Korea.",
+        "Department of Biological Sciences, Keimyung University, Daegu, 42601, Republic of Korea.",
+        "Department of Pathology, Keimyung University Dongsan Hospital, Daegu, 42601, Republic of Korea.",
+        "Institute for Cancer Research, Keimyung University Dongsan Medical center, Daegu, Republic of Korea.",
+        "New Drug Development Center, Daegu-Gyeongbuk Medical Innovation Foundation, Daegu, 41061, Republic of Korea.",
+        "Department of Chemistry, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea.",
+        "Department of Food and Nutrition, Keimyung University, Daegu, 42601, Republic of Korea.",
+        "Division of Rheumatology, Department of Internal Medicine, School of Medicine, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea.",
+        "Department of Rheumatology, Uijeongbu Eulji Medical Center, Eulji University School of Medicine, 712, Dongil-ro, Uijeongbu-si, Gyeonggi-do, 11759, Republic of Korea.",
+        "Department of Physiology, School of Medicine, Pusan National University, Yangsan, 50612, Republic of Korea. hyunsu.lee@pusan.ac.kr.",
+        "Research Institute for Convergence of Biomedical Science and Technology, Pusan National University Yangsan Hospital, Yangsan, Republic of Korea. hyunsu.lee@pusan.ac.kr.",
+        "Department of Chemistry, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea. jinho@kmu.ac.kr.",
+        "Department of Immunology, School of Medicine, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea. god98005@dsmc.or.kr.",
+        "Institute of Medical Science, Keimyung University Dongsan Medical center, Daegu, Republic of Korea. god98005@dsmc.or.kr.",
+        "Institute for Cancer Research, Keimyung University Dongsan Medical center, Daegu, Republic of Korea. god98005@dsmc.or.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Baek, Hye Suk",
+        "short_name": "Baek HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoon, Deokhyeon",
+        "short_name": "Yoon D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, School of Medicine, Pusan National University, Yangsan, 50612, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hong, Victor Sukbong",
+        "short_name": "Hong VS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sang-Jin",
+        "short_name": "Lee SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Keimyung University, Daegu, 42601, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sang-Il",
+        "short_name": "Lee SI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Institute of Health Science, College of Medicine, Gyeongsang National University and Hospital, Jinju, 52727, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jin-Young",
+        "short_name": "Lee JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Keimyung University, Daegu, 42601, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hye Won",
+        "short_name": "Lee HW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Keimyung University Dongsan Hospital, Daegu, 42601, Republic of Korea.",
+          "Institute for Cancer Research, Keimyung University Dongsan Medical center, Daegu, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Seungik",
+        "short_name": "Jeong S",
+        "identifiers": [],
+        "affiliations": [
+          "New Drug Development Center, Daegu-Gyeongbuk Medical Innovation Foundation, Daegu, 41061, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jung, Hyunho",
+        "short_name": "Jung H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Hyunju",
+        "short_name": "Kang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food and Nutrition, Keimyung University, Daegu, 42601, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Sang Hyon",
+        "short_name": "Kim SH",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology, Department of Internal Medicine, School of Medicine, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Son, Chang-Nam",
+        "short_name": "Son CN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, Uijeongbu Eulji Medical Center, Eulji University School of Medicine, 712, Dongil-ro, Uijeongbu-si, Gyeonggi-do, 11759, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hyunsu",
+        "short_name": "Lee H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, School of Medicine, Pusan National University, Yangsan, 50612, Republic of Korea. hyunsu.lee@pusan.ac.kr.",
+          "Research Institute for Convergence of Biomedical Science and Technology, Pusan National University Yangsan Hospital, Yangsan, Republic of Korea. hyunsu.lee@pusan.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Lee, Jinho",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea. jinho@kmu.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Kim, Shin",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Keimyung University, 1095 Dalgubeol-daero, Daegu, 42601, Republic of Korea. god98005@dsmc.or.kr.",
+          "Institute of Medical Science, Keimyung University Dongsan Medical center, Daegu, Republic of Korea. god98005@dsmc.or.kr.",
+          "Institute for Cancer Research, Keimyung University Dongsan Medical center, Daegu, Republic of Korea. god98005@dsmc.or.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation research : official journal of the European Histamine Research Society ... [et al.]"
+    ],
+    "journal_abbrev": [
+      "Inflamm Res"
+    ],
+    "pub_date": "2026 Mar 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/17 14:25",
+    "fetched_at": "2026-10-01 16:35:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40157227",
+      "40120382",
+      "39560902",
+      "38879731",
+      "38417608",
+      "38358129",
+      "37941854",
+      "37533866",
+      "37309864",
+      "37188939",
+      "36797236",
+      "36786425",
+      "36213670",
+      "36068354",
+      "35775145",
+      "35705856",
+      "35126351",
+      "35101282",
+      "34987201",
+      "34722513",
+      "34117457",
+      "33774802",
+      "33224668",
+      "32176395",
+      "31148565",
+      "30429089",
+      "30360733",
+      "30277570",
+      "29736302",
+      "29629118",
+      "28477234",
+      "27864565",
+      "27313578",
+      "27170508",
+      "26385789",
+      "25774937",
+      "25489571",
+      "25309543",
+      "25261610",
+      "24556663",
+      "23797672",
+      "23746807",
+      "23630962",
+      "23324173",
+      "22795313",
+      "21982300",
+      "21684737",
+      "19307177",
+      "18068683",
+      "16410801",
+      "16289117",
+      "16061676",
+      "14730626",
+      "12748652",
+      "11140470",
+      "10592235",
+      "10229188",
+      "9388734"
+    ],
+    "similar": [
+      "41843120",
+      "38879731",
+      "33530480",
+      "41389887",
+      "32698512",
+      "30851708",
+      "40830133",
+      "27620503",
+      "39244174",
+      "40955790",
+      "31847895",
+      "34600080",
+      "30319603",
+      "23536866",
+      "40397030",
+      "39709906",
+      "20039418",
+      "31818460",
+      "41319563",
+      "40815950",
+      "41644791",
+      "38734936",
+      "42389538",
+      "32795901",
+      "30794925",
+      "20201075",
+      "36966850",
+      "40388860",
+      "24135236",
+      "35030388",
+      "31514188",
+      "39520962",
+      "40571230",
+      "41508268",
+      "39052062",
+      "39447411",
+      "40974635",
+      "41989522",
+      "41297429",
+      "30954617",
+      "40215775",
+      "27041460",
+      "35750385",
+      "41045622",
+      "39961907",
+      "19877043",
+      "41456526",
+      "42208328",
+      "39083495",
+      "39103024",
+      "42074103",
+      "39662728",
+      "40815986",
+      "34147915",
+      "42190416",
+      "42054737",
+      "41967782",
+      "41588174",
+      "23406906",
+      "23711830",
+      "37063906",
+      "33453429",
+      "32321638",
+      "37075579",
+      "40338445",
+      "41988197",
+      "16142755",
+      "42033182",
+      "23735482",
+      "40081428",
+      "24095938",
+      "31831038",
+      "26083531",
+      "21501144",
+      "38874810",
+      "39284735",
+      "39490433",
+      "33080316",
+      "39427859",
+      "41864012",
+      "39907970",
+      "19900478",
+      "35259711",
+      "26473505",
+      "29367090",
+      "39110281",
+      "33307512",
+      "30632647",
+      "30978650",
+      "33460751",
+      "23431370",
+      "42177887",
+      "28550307",
+      "23810444",
+      "41865455",
+      "31773672",
+      "30152847",
+      "31634789",
+      "41616419",
+      "22985747"
+    ],
+    "review": [
+      "41843120"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00011-026-02197-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-870",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

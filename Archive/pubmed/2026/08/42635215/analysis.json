@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42635215",
+  "title": "Universal differential equations for quantifying NF-kappaB-p53 signaling crosstalk.",
+  "authors": "Kaya, Umur Can; Kodragjini, Xhemal; Zambrano, Samuel; Baum, Katharina",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-08-24",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用通用微分方程量化NF-kappaB与p53信号通路串扰，虽涉及DNA损伤响应，但核心是信号通路动态建模，非蛋白质-DNA互作或TF-DNA结合机制，且方法为UDE与符号回归，非AI/物理模拟的互作建模。",
+  "abstract": "SUMMARY: Universal differential equations (UDEs) have emerged as a powerful tool for scientific discovery, uniting differential equations and deep learning. Yet, their application to the noisy and complex data of systems biology remains limited. Here, we demonstrate that UDEs, paired with symbolic regression, can quantify the crosstalk between NF-kappaB and p53 signaling pathways based on experimental data exhibiting complex, oscillatory dynamics. We validate the framework on synthetic benchmarks, showing that crosstalk recovery is robust to measurement noise and improves markedly with the number of available time series. We then apply the framework to 106 simultaneously measured single-cell p53 and NF-kappaB time series following DNA damage and NF-kappaB activation, constituting the largest-scale UDE application in systems biology so far. UDEs with both a detailed and a minimal mechanistic p53 model consistently identify a monotonically increasing crosstalk function in which elevated NF-kappaB levels enhance p53 synthesis. Symbolic regression distills the learned neural network output into a compact, interpretable closed-form expression, providing a quantitative, time-resolved characterization of NF-kappaB-driven amplification of p53 at the single-cell level. Our work thus delivers a dual contribution: methodologically, it establishes UDEs as a viable tool for gaining quantitative insights in complex, noisy biological systems at scale; biologically, it provides a data-driven characterization of NF-kappaB-p53 pathway crosstalk from single-cell dynamics. AVAILABILITY AND IMPLEMENTATION: Source code is available at: https://github.com/DILiS-lab/ude-crosstalk-discovery.",
+  "abstract_zh": "摘要：通用微分方程（UDEs）已成为科学发现的有力工具，将微分方程与深度学习相结合。然而，其在系统生物学中噪声大且复杂的数据上的应用仍然有限。在此，我们证明，UDEs结合符号回归，能够基于表现出复杂振荡动态的实验数据，量化NF-kappaB与p53信号通路之间的串扰。我们在合成基准上验证了该框架，表明串扰恢复对测量噪声具有鲁棒性，并随着可用时间序列数量的增加而显著改善。随后，我们将该框架应用于DNA损伤和NF-kappaB激活后同时测量的106个单细胞p53和NF-kappaB时间序列，这是迄今为止系统生物学中规模最大的UDE应用。使用详细和最小机制性p53模型的UDEs一致识别出一个单调递增的串扰函数，其中升高的NF-kappaB水平增强p53合成。符号回归将学习到的神经网络输出提炼为紧凑、可解释的闭式表达式，在单细胞水平上提供了NF-kappaB驱动p53扩增的定量、时间分辨特征。因此，我们的工作具有双重贡献：在方法上，确立了UDEs作为在复杂、噪声生物系统中大规模获取定量见解的可行工具；在生物学上，从单细胞动态中提供了NF-kappaB-p53通路串扰的数据驱动特征。可用性与实现：源代码可在以下网址获取：https://github.com/DILiS-lab/ude-crosstalk-discovery。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42635215/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42635215/",
+  "paper_page_path": "papers/pubmed/42635215/index.html"
+}

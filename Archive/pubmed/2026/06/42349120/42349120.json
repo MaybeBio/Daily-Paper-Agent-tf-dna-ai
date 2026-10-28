@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "42349120",
+    "doi": "10.1016/j.bbrc.2026.154124",
+    "title": "A three-gene signature (ABCE1, ATAD5, FUT4) for colorectal cancer prognosis: integrative analysis of transcriptomic, single-cell, and machine learning data."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC) remains a leading cause of cancer-related death, highlighting an unmet need for robust, mechanistically grounded prognostic biomarkers. Through an integrative multi-omics approach, we identified and validated a novel three-gene signature for CRC. Utilizing paired tumor and adjacent tissues from 15 patients, public datasets (TCGA, GSE231559), and machine learning (LASSO, SVM-RFE), we derived a signature comprising ABCE1, ATAD5, and FUT4. These genes were consistently upregulated in tumors, as confirmed by qPCR, and are functionally linked to core oncogenic pathways: ABCE1 (protein synthesis/immune modulation), ATAD5 (DNA replication stress response), and FUT4 (cell adhesion/immune evasion). The signature demonstrated high diagnostic accuracy (AUC 0.85) and significant prognostic value, stratifying patients into distinct risk groups with divergent survival outcomes. Single-cell RNA-seq analysis localized expression to specific cellular compartments, while immune deconvolution revealed a correlated macrophage-dominated microenvironment. A clinically interpretable nomogram was developed with excellent calibration. This study establishes a compact, biologically coherent three-gene signature as a promising tissue-based molecular classifier for CRC, offering novel insights into the intertwined mechanisms of metabolism, genomic instability, and immune suppression, and presenting potential targets for therapeutic development.",
+    "keywords": [
+      "Colorectal cancer",
+      "Gene signature",
+      "Machine learning",
+      "Prognostic biomarkers",
+      "Single-cell rna sequencing",
+      "Transcriptomic analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "Prognosis",
+      "*Colorectal Neoplasms/genetics/diagnosis/pathology",
+      "*DNA-Binding Proteins/genetics",
+      "Biomarkers, Tumor/genetics",
+      "*ATPases Associated with Diverse Cellular Activities/genetics",
+      "Transcriptome",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Single-Cell Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yong",
+        "Wang, Tianbing",
+        "He, Jian",
+        "Zhang, Tao",
+        "Jin, Rong",
+        "Chen, Dalong",
+        "Hu, Zhiqi",
+        "Pang, Qing",
+        "Liu, Huichun"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Wang T",
+        "He J",
+        "Zhang T",
+        "Jin R",
+        "Chen D",
+        "Hu Z",
+        "Pang Q",
+        "Liu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Clinical College, Anhui Medical University, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China; Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China.",
+        "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China.",
+        "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China.",
+        "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China.",
+        "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China.",
+        "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China.",
+        "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China.",
+        "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China. Electronic address: portxiu2@126.com.",
+        "The Clinical College, Anhui Medical University, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China; Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China. Electronic address: liuhcdoctor@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical College, Anhui Medical University, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China; Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tianbing",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China."
+        ]
+      },
+      {
+        "full_name": "He, Jian",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tao",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Rong",
+        "short_name": "Jin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Dalong",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhiqi",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Qing",
+        "short_name": "Pang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China. Electronic address: portxiu2@126.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Huichun",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical College, Anhui Medical University, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China; Department of General Surgery, Anhui No.2 Provincial People's Hospital, Hefei, Anhui, 230041, China. Electronic address: liuhcdoctor@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2026 Sep 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 00:46",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [
+      "42463454"
+    ],
+    "refs": [],
+    "similar": [
+      "42349120",
+      "41436831",
+      "39859524",
+      "40438100",
+      "41743703",
+      "40740776",
+      "42035196",
+      "41485251",
+      "41601657",
+      "41208987",
+      "42093974",
+      "40963600",
+      "40266079",
+      "41772406",
+      "41341805",
+      "41235474",
+      "40330458",
+      "40330470",
+      "41286470",
+      "40438115",
+      "42317343",
+      "41099090",
+      "41425595",
+      "40607411",
+      "40839324",
+      "41049291",
+      "40475762",
+      "34364366",
+      "41656832",
+      "41663460",
+      "42023218",
+      "42220482",
+      "39076986",
+      "41947260",
+      "40681784",
+      "36319976",
+      "41716413",
+      "41293172",
+      "39396837",
+      "40200221",
+      "40821828",
+      "41342434",
+      "42271539",
+      "41559659",
+      "41179292",
+      "41567198",
+      "41207909",
+      "42359574",
+      "41219406",
+      "40055390",
+      "38774759",
+      "40068177",
+      "40909272",
+      "39199281",
+      "41486187",
+      "41164195",
+      "41309865",
+      "42050659",
+      "40047469",
+      "40936758",
+      "39441216",
+      "41642369",
+      "41559128",
+      "41715136",
+      "39516442",
+      "40898185",
+      "39703515",
+      "40308576",
+      "40485623",
+      "39120743",
+      "38616208",
+      "41019083",
+      "40328901",
+      "42079608",
+      "40804688",
+      "41208974",
+      "40642093",
+      "40419032",
+      "41388523",
+      "39966486",
+      "42120472",
+      "39875913",
+      "41731861",
+      "40332226",
+      "41290867",
+      "40933995",
+      "42106773",
+      "40496857",
+      "40362431",
+      "41562081",
+      "41685329",
+      "41798945",
+      "41208601",
+      "41233664",
+      "36330513",
+      "40771813",
+      "38802881",
+      "41472745",
+      "41405668",
+      "41194017"
+    ],
+    "review": [
+      "42349120",
+      "41219406"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)00888-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

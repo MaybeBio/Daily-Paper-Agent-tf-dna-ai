@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "40085291",
+    "doi": "10.1007/s12024-025-00985-x",
+    "title": "A new robust AI/ML based model for accurate forensic age estimation using DNA methylation markers."
+  },
+  "content": {
+    "abstract": "CpG sites are regions of DNA where a cytosine nucleotide is followed by a guanine nucleotide in the 5' --> 3' direction. Epigenetic markers based on methylation values at CpG sites are valuable for accurate age prediction and have become essential in forensic science, supporting criminal investigations and human identification. The present study identified 12 CpG sites from a collection of 476,366 CpG sites based on the following criteria: (a) CpG sites were retained if the Pearson correlation coefficient between the methylation values and the chronological age of the individual is greater than 0.85, and (b) if the mutual correlation coefficient between a pair of selected CpG sites is greater than 0.15, only one of them is retained. The identified CpG sites are associated with genes FHL2, ELOVL2, TRIM59, PCDHB1, KLF14, C1orf132, ACSS3, and CCDC102B. To ensure that the predictive accuracy is intrinsic to the selected CpG sites and not model dependent, the identified CpG sites were passed to three different Neural network models. All models achieved comparable accuracy across diverse populations, genders, and health conditions. The model's accuracy and reliability were validated through age predictions on independent datasets. By utilizing a minimal set of CpG sites, this approach offers a robust and efficient solution for forensic age estimation, significantly enhancing the precision and reliability of forensic investigations.",
+    "keywords": [
+      "Artificial neural network (ANN)",
+      "Attention network",
+      "Convolutional neural network (CNN)",
+      "DNA methylation",
+      "Forensic age",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation",
+      "*CpG Islands",
+      "Genetic Markers",
+      "Male",
+      "Female",
+      "*Aging/genetics",
+      "Adult",
+      "*Neural Networks, Computer",
+      "Forensic Genetics/methods",
+      "Middle Aged",
+      "Fatty Acid Elongases/genetics",
+      "Young Adult",
+      "Reproducibility of Results",
+      "Aged",
+      "LIM-Homeodomain Proteins/genetics",
+      "Kruppel-Like Transcription Factors/genetics",
+      "Adolescent",
+      "Tripartite Motif Proteins/genetics",
+      "Muscle Proteins/genetics",
+      "Child",
+      "Transcription Factors",
+      "Intracellular Signaling Peptides and Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mathew, Jinsu Ann",
+        "Paul, Geetha",
+        "Jacob, Joe",
+        "Kumar, Janesh",
+        "Dubey, Neelima",
+        "Philip, Ninan Sajeeth"
+      ],
+      "short_names": [
+        "Mathew JA",
+        "Paul G",
+        "Jacob J",
+        "Kumar J",
+        "Dubey N",
+        "Philip NS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Newman College (Affiliated to Mahatma Gandhi University), Thodupuzha, Kerala, India.",
+        "Artificial Intelligence Research and Intelligent Systems (airis4D), Thelliyoor, Kerala, India.",
+        "Artificial Intelligence Research and Intelligent Systems (airis4D), Thelliyoor, Kerala, India.",
+        "Department of Physics, Newman College (Affiliated to Mahatma Gandhi University), Thodupuzha, Kerala, India.",
+        "Membrane Protein Biology Group, CSIR - Centre for Cellular & Molecular Biology, Uppal Road Habsiguda, Hyderabad, Telangana, 500007, India.",
+        "Center for Innovation in Molecular and Pharmaceutical Sciences, Dr. Reddy's Institute of Life Sciences (DRILS), University of Hyderabad Campus, Hyderabad, Telangana, 500046, India. NeelimaD@drils.org.",
+        "Artificial Intelligence Research and Intelligent Systems (airis4D), Thelliyoor, Kerala, India. nsp@airis4d.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mathew, Jinsu Ann",
+        "short_name": "Mathew JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Newman College (Affiliated to Mahatma Gandhi University), Thodupuzha, Kerala, India.",
+          "Artificial Intelligence Research and Intelligent Systems (airis4D), Thelliyoor, Kerala, India."
+        ]
+      },
+      {
+        "full_name": "Paul, Geetha",
+        "short_name": "Paul G",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence Research and Intelligent Systems (airis4D), Thelliyoor, Kerala, India."
+        ]
+      },
+      {
+        "full_name": "Jacob, Joe",
+        "short_name": "Jacob J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Newman College (Affiliated to Mahatma Gandhi University), Thodupuzha, Kerala, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Janesh",
+        "short_name": "Kumar J",
+        "identifiers": [],
+        "affiliations": [
+          "Membrane Protein Biology Group, CSIR - Centre for Cellular & Molecular Biology, Uppal Road Habsiguda, Hyderabad, Telangana, 500007, India."
+        ]
+      },
+      {
+        "full_name": "Dubey, Neelima",
+        "short_name": "Dubey N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Innovation in Molecular and Pharmaceutical Sciences, Dr. Reddy's Institute of Life Sciences (DRILS), University of Hyderabad Campus, Hyderabad, Telangana, 500046, India. NeelimaD@drils.org."
+        ]
+      },
+      {
+        "full_name": "Philip, Ninan Sajeeth",
+        "short_name": "Philip NS",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence Research and Intelligent Systems (airis4D), Thelliyoor, Kerala, India. nsp@airis4d.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Forensic science, medicine, and pathology"
+    ],
+    "journal_abbrev": [
+      "Forensic Sci Med Pathol"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/14 18:28",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38674360",
+      "36982454",
+      "36811674",
+      "36759656",
+      "36610523",
+      "36510703",
+      "35975813",
+      "35456983",
+      "35131731",
+      "34980881",
+      "34534244",
+      "34038548",
+      "32548128",
+      "32339093",
+      "32211026",
+      "32087494",
+      "31767039",
+      "31138013",
+      "30669119",
+      "30519653",
+      "30404835",
+      "30300865",
+      "30094041",
+      "30048243",
+      "29790996",
+      "29676998",
+      "29632379",
+      "28854399",
+      "28725932",
+      "28545252",
+      "28533441",
+      "28511095",
+      "28352958",
+      "28254385",
+      "27886173",
+      "27602173",
+      "27572077",
+      "27518561",
+      "27511193",
+      "27017110",
+      "25979242",
+      "25913071",
+      "25853392",
+      "24490752",
+      "24138928",
+      "24135035",
+      "23826282",
+      "23746838",
+      "23334450",
+      "23177740",
+      "23098078",
+      "23034122",
+      "22781841",
+      "22532803",
+      "21118553",
+      "20461105",
+      "20219944",
+      "18940857",
+      "18430161",
+      "16507447",
+      "16449502",
+      "16389449"
+    ],
+    "similar": [
+      "40085291",
+      "39983295",
+      "32325350",
+      "28725932",
+      "30300865",
+      "32574993",
+      "28511095",
+      "32453457",
+      "39266801",
+      "38308398",
+      "39763091",
+      "41289662",
+      "32087494",
+      "34245337",
+      "31490551",
+      "35819508",
+      "40799162",
+      "32721866",
+      "33978960",
+      "33978258",
+      "37454509",
+      "37598451",
+      "33279766",
+      "37783021",
+      "28254385",
+      "38160598",
+      "33933877",
+      "40382887",
+      "28691915",
+      "26026729",
+      "36811674",
+      "39693839",
+      "33707346",
+      "31648151",
+      "28841467",
+      "29631189",
+      "35777225",
+      "39402823",
+      "27017110",
+      "29933125",
+      "36379153",
+      "27337627",
+      "32006895",
+      "33629357",
+      "38301433",
+      "28854399",
+      "40099741",
+      "31897670",
+      "40730045",
+      "32055939",
+      "30031222",
+      "36057238",
+      "38256009",
+      "39162072",
+      "28419903",
+      "23061750",
+      "25979242",
+      "41147563",
+      "35131731",
+      "40857784",
+      "31546163",
+      "25450787",
+      "38275209",
+      "29172065",
+      "28499412",
+      "36768576",
+      "33462351",
+      "30336352",
+      "38703560",
+      "36867979",
+      "39256256",
+      "27672102",
+      "39752798",
+      "26280308",
+      "36108573",
+      "32661599",
+      "36982454",
+      "28533441",
+      "33281149",
+      "38228480",
+      "34126371",
+      "38488745",
+      "22740462",
+      "32973211",
+      "40665390",
+      "40145379",
+      "35168115",
+      "34204075",
+      "37038859",
+      "27497326",
+      "34852982",
+      "35810521",
+      "39633164",
+      "39729807",
+      "24727429",
+      "32659707",
+      "29393215",
+      "29968770",
+      "41297061",
+      "41086638"
+    ],
+    "review": [
+      "40085291",
+      "28691915",
+      "36768576",
+      "32661599",
+      "38228480",
+      "37038859"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12024-025-00985-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

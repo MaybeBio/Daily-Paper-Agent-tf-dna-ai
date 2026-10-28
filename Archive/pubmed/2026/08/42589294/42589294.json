@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "42589294",
+    "doi": "10.3390/ijms27156635",
+    "title": "Integrative Bioinformatics and Machine Learning Analysis Identifies Novel Molecular Biomarkers in Prostate Adenocarcinoma."
+  },
+  "content": {
+    "abstract": "Prostate adenocarcinoma is characterized by substantial inter-patient heterogeneity, limiting the clinical reliability of conventional diagnostic tools, including prostate-specific antigen testing. This limitation underscores the need for robust molecular biomarkers that may complement conventional diagnostic tools, highlighting the urgent need for biomarkers capable of enhancing diagnostic accuracy and enabling more precise risk stratification. In the present study, transcriptomic data from The Cancer Genome Atlas (TCGA) were analyzed using an integrative bioinformatics and machine learning pipeline., The proposed workflow was designed as a stepwise and reproducible biomarker prioritization framework in which differential expression analysis, functional enrichment, protein-protein interaction (PPI) based network interpretation, graph-convolutional feature selection, and hybrid ensemble machine learning were sequentially integrated. Differential gene expression analysis was combined with pathway enrichment (Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and Reactome), protein-protein interaction network construction, and graph-convolutional feature selection. Multiple machine learning algorithms, including Random Forest, Gradient Boosting Machine, Support Vector Classifier, Artificial Neural Network, and AdaBoost, were systematically evaluated. A hybrid ensemble model integrating Gradient Boosting Machine and Random Forest (GBM+RF) was subsequently developed. Model performance was assessed using accuracy, sensitivity, specificity, and area under the Receiver Operating Characteristic (ROC) and externally validated using the independent GSE14206 dataset. The analysis revealed a coordinated molecular pattern characterized by dysregulated cell cycle activity and enhanced interferon-mediated immune signaling. Protein-protein interaction analysis identified STAT1 and PLK1 as highly connected network hub genes within immune-related and cell-cycle-associated modules. Among the evaluated models, the hybrid GBM+RF framework achieved the highest predictive performance on the TCGA dataset, with AUC: 0.9526; Accuracy: 97.49%. External validation using the GSE14206 dataset confirmed the robustness of this model (AUC: 0.9156; Accuracy: 91.53%). These findings support a broader multi-gene candidate signature in prostate adenocarcinoma, in which machine learning prioritized genes such as XAF1, APP, RPA3, IFIH1, UBE2D2, RSAD2, KIF2C, and PLK1, while STAT1 and PLK1 provided complementary network-level biological relevance. The proposed framework provides a robust and transferable strategy for biomarker discovery and precision oncology.",
+    "keywords": [
+      "bioinformatics",
+      "biomarker discovery",
+      "hybrid GBM+RF",
+      "machine learning",
+      "prostate adenocarcinoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Prostatic Neoplasms/genetics/metabolism/pathology",
+      "Male",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Adenocarcinoma/genetics/metabolism/pathology",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "Protein Interaction Maps",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Boosting Machine Learning Algorithms",
+      "STAT1 Transcription Factor/genetics/metabolism",
+      "Random Forest",
+      "Gene Ontology",
+      "Polo-Like Kinase 1",
+      "Protein Serine-Threonine Kinases/genetics",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kurt, Hasan Anil",
+        "Kilicarslan, Sabire",
+        "Cicekliyurt, Meliha Merve",
+        "Kilicarslan, Serhat"
+      ],
+      "short_names": [
+        "Kurt HA",
+        "Kilicarslan S",
+        "Cicekliyurt MM",
+        "Kilicarslan S"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-9299-7141",
+        "ORCID: 0000-0003-4303-9717",
+        "ORCID: 0000-0001-9483-4425"
+      ],
+      "affiliations": [
+        "Department of Urology, Faculty of Medicine, Canakkale Onsekiz Mart University, 17020 Canakkale, Turkey.",
+        "Department of Medical System Biology, Graduate School of Sciences, Canakkale Onsekiz Mart University, 17020 Canakkale, Turkey.",
+        "Department of Medical Biology, Faculty of Medicine, Canakkale Onsekiz Mart University, 17020 Canakkale, Turkey.",
+        "Department of Software Engineering, Faculty of Engineering, Bandirma Onyedi Eylul University, 10200 Balikesir, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kurt, Hasan Anıl",
+        "short_name": "Kurt HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Faculty of Medicine, Çanakkale Onsekiz Mart University, 17020 Çanakkale, Turkey."
+        ]
+      },
+      {
+        "full_name": "Kılıçarslan, Sabire",
+        "short_name": "Kılıçarslan S",
+        "identifiers": [
+          "0009-0007-9299-7141"
+        ],
+        "affiliations": [
+          "Department of Medical System Biology, Graduate School of Sciences, Çanakkale Onsekiz Mart University, 17020 Çanakkale, Turkey."
+        ]
+      },
+      {
+        "full_name": "Çiçekliyurt, Meliha Merve",
+        "short_name": "Çiçekliyurt MM",
+        "identifiers": [
+          "0000-0003-4303-9717"
+        ],
+        "affiliations": [
+          "Department of Medical Biology, Faculty of Medicine, Çanakkale Onsekiz Mart University, 17020 Çanakkale, Turkey."
+        ]
+      },
+      {
+        "full_name": "Kılıçarslan, Serhat",
+        "short_name": "Kılıçarslan S",
+        "identifiers": [
+          "0000-0001-9483-4425"
+        ],
+        "affiliations": [
+          "Department of Software Engineering, Faculty of Engineering, Bandirma Onyedi Eylül University, 10200 Balıkesir, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jul 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 05:35",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42122046",
+      "41721923",
+      "41449174",
+      "41006377",
+      "40857024",
+      "40731358",
+      "40558578",
+      "40293712",
+      "40264196",
+      "40081210",
+      "39973042",
+      "39440372",
+      "39400774",
+      "38874922",
+      "38614820",
+      "36899018",
+      "36633525",
+      "35422101",
+      "34746227",
+      "33834023",
+      "33431808",
+      "31085757",
+      "30984182",
+      "29441069",
+      "29156772",
+      "28836909",
+      "24207135",
+      "24071849",
+      "23787356"
+    ],
+    "similar": [
+      "42589294",
+      "40419032",
+      "42249833",
+      "41044520",
+      "41415264",
+      "41104127",
+      "40313958",
+      "40328901",
+      "41345436",
+      "41872824",
+      "34814332",
+      "40997906",
+      "41188996",
+      "42509823",
+      "42122046",
+      "40500570",
+      "34555052",
+      "41390349",
+      "41436831",
+      "40360670",
+      "41656803",
+      "42247642",
+      "40362669",
+      "41132349",
+      "40836320",
+      "41716396",
+      "39853851",
+      "41671946",
+      "35996248",
+      "41760060",
+      "39586719",
+      "39738398",
+      "39433800",
+      "41233664",
+      "41200172",
+      "32243390",
+      "42568355",
+      "42328119",
+      "40830558",
+      "41388523",
+      "40860289",
+      "41511815",
+      "41033661",
+      "42327749",
+      "42058211",
+      "39071134",
+      "41006883",
+      "41169155",
+      "41514121",
+      "42123756",
+      "41716413",
+      "39609718",
+      "41822495",
+      "42475469",
+      "40374840",
+      "41432807",
+      "42024670",
+      "39375405",
+      "42326009",
+      "41665627",
+      "41316541",
+      "39400774",
+      "41595533",
+      "34384424",
+      "41137290",
+      "41643488",
+      "41132671",
+      "39415336",
+      "42164373",
+      "41508240",
+      "41424060",
+      "41703488",
+      "41162922",
+      "42336904",
+      "42558367",
+      "41146237",
+      "41721923",
+      "42175497",
+      "39142001",
+      "41548166",
+      "41879435",
+      "39263286",
+      "42192326",
+      "41189173",
+      "40406126",
+      "42520089",
+      "29997385",
+      "40312440",
+      "41099090",
+      "40901474",
+      "41595448",
+      "42291298",
+      "41656832",
+      "38863714",
+      "42260550",
+      "42397093",
+      "39139563",
+      "39888730",
+      "40406620",
+      "40320470"
+    ],
+    "review": [
+      "42589294",
+      "41665627"
+    ],
+    "pmc": [
+      "13465500"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27156635",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42589294/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KIF2C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

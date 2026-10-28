@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "38245886",
+    "doi": "10.1007/s10528-023-10625-0",
+    "title": "Machine Learning Developed a MYC Expression Feature-Based Signature for Predicting Prognosis and Chemoresistance in Pancreatic Adenocarcinoma."
+  },
+  "content": {
+    "abstract": "MYC has been identified to profoundly influence a wide range of pathologic processes in cancers. However, the prognostic value of MYC-related genes in pancreatic adenocarcinoma (PAAD) remains unclarified. Gene expression data and clinical information of PAAD patients were obtained from The Cancer Genome Atlas (TCGA) database (training set). Validation sets included GSE57495, GSE62452, and ICGC-PACA databases. LASSO regression analysis was used to develop a risk signature for survival prediction. Single-cell sequencing data from GSE154778 and CRA001160 datasets were analyzed. Functional studies were conducted using siRNA targeting RHOF and ITGB6 in PANC-1 cells. High MYC expression was found to be significantly associated with a poor prognosis in patients with PAAD. Additionally, we identified seven genes (ADGRG6, LINC00941, RHOF, SERPINB5, INSYN2B, ITGB6, and DEPDC1) that exhibited a strong correlation with both MYC expression and patient survival. They were then utilized to establish a risk model (MYCsig), which showed robust predictive ability. Furthermore, MYCsig demonstrated a positive correlation with the expression of HLA genes and immune checkpoints, as well as the chemotherapy response of PAAD. RHOF and ITGB6, expressed mainly in malignant cells, were identified as key oncogenes regulating chemosensitivity through EMT. Downregulation of RHOF and ITGB6 reduced cell proliferation and invasion in PANC-1 cells. The developed MYCsig demonstrates its potential in enhancing the management of patients with PAAD by facilitating risk assessment and predicting response to adjuvant chemotherapy. Additionally, our study identifies RHOF and ITGB6 as novel oncogenes linked to EMT and chemoresistance in PAAD.",
+    "keywords": [
+      "Chemotherapy response",
+      "EMT",
+      "ITGB6",
+      "MYC",
+      "Pancreatic adenocarcinoma",
+      "Prognosis",
+      "RHOF"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/genetics/drug therapy/pathology/metabolism",
+      "*Drug Resistance, Neoplasm/genetics",
+      "Prognosis",
+      "*Adenocarcinoma/genetics/drug therapy/pathology",
+      "*Machine Learning",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Proto-Oncogene Proteins c-myc/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Biao",
+        "Zhang, Yueshan",
+        "Gao, Han",
+        "Liu, Jia",
+        "Li, Jiankun"
+      ],
+      "short_names": [
+        "Dong B",
+        "Zhang Y",
+        "Gao H",
+        "Liu J",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary Surgery, Fourth Hospital of Hebei Medical University, No. 12 Jiankang Road, Shijiazhuang, 050000, Hebei, China.",
+        "Department of Hepatobiliary Surgery, Fourth Hospital of Hebei Medical University, No. 12 Jiankang Road, Shijiazhuang, 050000, Hebei, China.",
+        "Department of Hepatobiliary Surgery, Fourth Hospital of Hebei Medical University, No. 12 Jiankang Road, Shijiazhuang, 050000, Hebei, China.",
+        "Department of Precision Medicine, Accb Biotech. Ltd, Beijing, China.",
+        "Department of Hepatobiliary Surgery, Fourth Hospital of Hebei Medical University, No. 12 Jiankang Road, Shijiazhuang, 050000, Hebei, China. lijiankun_FHHMU@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Biao",
+        "short_name": "Dong B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Fourth Hospital of Hebei Medical University, No. 12 Jiankang Road, Shijiazhuang, 050000, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yueshan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Fourth Hospital of Hebei Medical University, No. 12 Jiankang Road, Shijiazhuang, 050000, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Han",
+        "short_name": "Gao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Fourth Hospital of Hebei Medical University, No. 12 Jiankang Road, Shijiazhuang, 050000, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jia",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, Accb Biotech. Ltd, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiankun",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Fourth Hospital of Hebei Medical University, No. 12 Jiankang Road, Shijiazhuang, 050000, Hebei, China. lijiankun_FHHMU@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical genetics"
+    ],
+    "journal_abbrev": [
+      "Biochem Genet"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/21 18:41",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "40141294"
+    ],
+    "refs": [
+      "37719017",
+      "36535506",
+      "36476366",
+      "35699794",
+      "35655709",
+      "35274290",
+      "34809653",
+      "34551968",
+      "34249078",
+      "34141458",
+      "34051351",
+      "33660796",
+      "33629464",
+      "33414429",
+      "33403047",
+      "33073486",
+      "33069197",
+      "32871244",
+      "32593337",
+      "32005945",
+      "31514451",
+      "31382924",
+      "30808674",
+      "30588262",
+      "30575490",
+      "30537992",
+      "30105283",
+      "29625841",
+      "29616439",
+      "29196965",
+      "29170413",
+      "29048402",
+      "28870260",
+      "28795609",
+      "28477742",
+      "27158978",
+      "26909576",
+      "26119937",
+      "25855536",
+      "25844823",
+      "25822800",
+      "25719666",
+      "24086065",
+      "22235994",
+      "21561347",
+      "20823433",
+      "15051286",
+      "15028824",
+      "10378696"
+    ],
+    "similar": [
+      "38245886",
+      "39209222",
+      "35322324",
+      "36199146",
+      "39332020",
+      "38538250",
+      "34290570",
+      "32181755",
+      "33465729",
+      "39152432",
+      "34898275",
+      "37024802",
+      "38088494",
+      "35048799",
+      "34976806",
+      "34233576",
+      "38817665",
+      "38124367",
+      "33648511",
+      "35154122",
+      "33775699",
+      "33000197",
+      "34993253",
+      "36311789",
+      "39127164",
+      "34175402",
+      "33437202",
+      "39026679",
+      "34840598",
+      "35935823",
+      "39208654",
+      "37563820",
+      "35831362",
+      "34471186",
+      "37540295",
+      "39342295",
+      "35488119",
+      "36451085",
+      "31612115",
+      "34134622",
+      "34143198",
+      "36401386",
+      "36600208",
+      "38956290",
+      "33507917",
+      "34332578",
+      "38007403",
+      "35077391",
+      "35083488",
+      "34777634",
+      "33169793",
+      "38333724",
+      "38012210",
+      "38788819",
+      "35000541",
+      "38996145",
+      "34517516",
+      "37710166",
+      "36660936",
+      "36882663",
+      "37291514",
+      "33845841",
+      "36975441",
+      "38955307",
+      "39310930",
+      "33691542",
+      "34804059",
+      "36894917",
+      "34791637",
+      "38502348",
+      "39376555",
+      "34468015",
+      "33831427",
+      "37861515",
+      "38303549",
+      "35720314",
+      "38783033",
+      "31692063",
+      "36142142",
+      "34534538",
+      "35677632",
+      "35800432",
+      "38428843",
+      "31297864",
+      "35958614",
+      "33316381",
+      "38290407",
+      "33660796",
+      "37957639",
+      "32596278",
+      "38914714",
+      "31731384",
+      "31821092",
+      "37020128",
+      "38944166",
+      "33129696",
+      "32702921",
+      "35033072",
+      "36292798",
+      "34956177"
+    ],
+    "review": [
+      "38245886",
+      "35083488"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10528-023-10625-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-DRA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3685",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

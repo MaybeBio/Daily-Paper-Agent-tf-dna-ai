@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "39135784",
+    "doi": "10.3389/fphar.2024.1395160",
+    "title": "Potential mechanism of Luoshi Neiyi prescription in endometriosis based on serum pharmacochemistry and network pharmacology."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Endometriosis (EMs) is characterized by ectopic growth of active endometrial tissue outside the uterus. The Luoshi Neiyi prescription (LSNYP) has been extensively used for treating EMs in China. However, data on the active chemical components of LSNYP are insufficient, and its pharmacological mechanism in EMs treatment remains unclear. This study aimed to explore the potential mechanism of LSNYP for EMs through network pharmacology based on the components absorbed into the blood. METHODS: Ultra-high performance liquid chromatography-quadrupole time-of-flight mass spectrometry was used to analyze blood components, and a series of network pharmacology strategies were utilized to predict targets of these components and EMs. Protein-protein interaction (PPI) network analysis, component-target-disease network construction, gene ontology (GO) functional enrichment analysis, and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis were performed. Additionally, molecular docking, molecular dynamics simulations, and in vitro and in vivo experiments were conducted to validate the HIF1A/EZH2/ANTXR2 pathway associated with hypoxic pathology in EMs. RESULTS: Thirty-four absorbed components suitable for network pharmacology analysis were identified, and core targets, such as interleukin 6, EGFR, HIF1A, and EZH2, were founded. Enrichment results indicated that treatment of EMs with LSNYP may involve the regulation of hypoxia and inflammatory-related signaling pathways and response to oxidative stress and transcription factor activity. Experimental results demonstrated that LSNYP could decrease the expression of HIF1A, ANTXR2, YAP1, CD44, and beta-catenin, and increased EZH2 expression in ectopic endometrial stromal cells and endometriotic tissues. Molecular docking and molecular dynamics simulations manifested that there was stable combinatorial activity between core components and key targets of the HIF1A/EZH2/ANTXR2 pathway. CONCLUSION: LSNYP may exert pharmacological effects on EMs via the HIF1A/EZH2/ANTXR2 pathway; hence, it is a natural herb-related therapy for EMs.",
+    "keywords": [
+      "HIF1A/EZH2/ANTXR2 pathway",
+      "Luoshi Neiyi prescription",
+      "endometriosis",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "network pharmacology",
+      "traditional Chinese medicine"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Lizheng",
+        "Lin, Shuhong",
+        "Hu, Yongjun",
+        "Jing, Shangwen",
+        "Sun, Bowen",
+        "Chen, Xiaoxin",
+        "Jia, Jinjin",
+        "Zeng, Cheng",
+        "Pei, Fangli"
+      ],
+      "short_names": [
+        "Wu L",
+        "Lin S",
+        "Hu Y",
+        "Jing S",
+        "Sun B",
+        "Chen X",
+        "Jia J",
+        "Zeng C",
+        "Pei F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Department of Gynecology, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Department of Gynecology, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Lizheng",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Shuhong",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yongjun",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Shangwen",
+        "short_name": "Jing S",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Bowen",
+        "short_name": "Sun B",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaoxin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Jinjin",
+        "short_name": "Jia J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Cheng",
+        "short_name": "Zeng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Fangli",
+        "short_name": "Pei F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/13 06:42",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "42367786",
+      "41549304",
+      "40704280"
+    ],
+    "refs": [
+      "37409688",
+      "37392674",
+      "36915057",
+      "36835006",
+      "36451451",
+      "36427994",
+      "36110515",
+      "36046450",
+      "36042609",
+      "35792827",
+      "34601771",
+      "34449536",
+      "34445738",
+      "34278794",
+      "33893803",
+      "33659730",
+      "33590617",
+      "33387724",
+      "33345684",
+      "33243703",
+      "33237311",
+      "32291076",
+      "32119078",
+      "31488032",
+      "31106366",
+      "31103739",
+      "30941682",
+      "30911653",
+      "30809297",
+      "30618168",
+      "30581987",
+      "30450911",
+      "30298952",
+      "30017581",
+      "29558202",
+      "29449535",
+      "29304094",
+      "29052384",
+      "28608501",
+      "28546110",
+      "27774312",
+      "27322403",
+      "26977530",
+      "26898675",
+      "26888969",
+      "26169039",
+      "26169036",
+      "25035432",
+      "24519205",
+      "22270643",
+      "21903722",
+      "20537326",
+      "20133323",
+      "19407222",
+      "19200980",
+      "17357067",
+      "17287757",
+      "16211538",
+      "15550066",
+      "12574206",
+      "11259830"
+    ],
+    "similar": [
+      "39135784",
+      "39098622",
+      "37653805",
+      "37598188",
+      "36817586",
+      "35850846",
+      "33866197",
+      "37608369",
+      "37800602",
+      "33859874",
+      "38322942",
+      "35280377",
+      "36535207",
+      "37879505",
+      "35130311",
+      "38316218",
+      "37282883",
+      "36247281",
+      "38403323",
+      "37802815",
+      "32505843",
+      "35616676",
+      "37287284",
+      "35970314",
+      "36188543",
+      "37832514",
+      "38840248",
+      "38701256",
+      "37391801",
+      "35430443",
+      "38216101",
+      "36123943",
+      "38114126",
+      "37080367",
+      "37469733",
+      "37382018",
+      "38582151",
+      "34464700",
+      "36372090",
+      "38050247",
+      "36576506",
+      "35850844",
+      "34515002",
+      "37499457",
+      "36200258",
+      "38571354",
+      "36389420",
+      "36401375",
+      "38590639",
+      "35101570",
+      "37957901",
+      "35069454",
+      "38619514",
+      "37807411",
+      "38765004",
+      "37023836",
+      "33645014",
+      "36725269",
+      "38379588",
+      "35933455",
+      "37770919",
+      "36280016",
+      "38964628",
+      "37802827",
+      "35718498",
+      "36272491",
+      "37827295",
+      "37799727",
+      "36865745",
+      "38517816",
+      "36911881",
+      "36634726",
+      "36472042",
+      "35178959",
+      "38042385",
+      "38759074",
+      "36258089",
+      "37843333",
+      "34217946",
+      "35734366",
+      "34785888",
+      "37833363",
+      "36590763",
+      "36472041",
+      "38747108",
+      "36803762",
+      "38213248",
+      "38608086",
+      "38812235",
+      "36386135",
+      "34873575",
+      "37143282",
+      "35837376",
+      "34058439",
+      "39072163",
+      "38532341",
+      "38820836",
+      "38775721",
+      "38187253"
+    ],
+    "review": [
+      "39135784"
+    ],
+    "pmc": [
+      "11317381"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39135784/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2024.1395160",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

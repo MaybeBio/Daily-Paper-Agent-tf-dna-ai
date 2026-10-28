@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "38427563",
+    "doi": "10.1016/j.celrep.2024.113855",
+    "title": "SWI/SNF-dependent genes are defined by their chromatin landscape."
+  },
+  "content": {
+    "abstract": "SWI/SNF complexes are evolutionarily conserved, ATP-dependent chromatin remodeling machines. Here, we characterize the features of SWI/SNF-dependent genes using BRM014, an inhibitor of the ATPase activity of the complexes. We find that SWI/SNF activity is required to maintain chromatin accessibility and nucleosome occupancy for most enhancers but not for most promoters. SWI/SNF activity is needed for expression of genes with low to medium levels of expression that have promoters with (1) low chromatin accessibility, (2) low levels of active histone marks, (3) high H3K4me1/H3K4me3 ratio, (4) low nucleosomal phasing, and (5) enrichment in TATA-box motifs. These promoters are mostly occupied by the canonical Brahma-related gene 1/Brahma-associated factor (BAF) complex. These genes are surrounded by SWI/SNF-dependent enhancers and mainly encode signal transduction, developmental, and cell identity genes (with almost no housekeeping genes). Machine-learning models trained with different chromatin characteristics of promoters and their surrounding regulatory regions indicate that the chromatin landscape is a determinant for establishing SWI/SNF dependency.",
+    "keywords": [
+      "BRG1/SMARCA4",
+      "BRM/SMARCA2",
+      "CP: Molecular biology",
+      "PBAF",
+      "alternative TSS",
+      "alternative splicing",
+      "antisense transcription",
+      "cBAF",
+      "chromatin remodeling",
+      "nucleosome occupancy"
+    ],
+    "mesh_terms": [
+      "*Chromatin/genetics",
+      "*Transcription Factors/metabolism",
+      "Nucleosomes/genetics",
+      "Chromatin Assembly and Disassembly"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Basurto-Cayuela, Laura",
+        "Guerrero-Martinez, Jose A",
+        "Gomez-Marin, Elena",
+        "Sanchez-Escabias, Elena",
+        "Escano-Maestre, Maria",
+        "Ceballos-Chavez, Maria",
+        "Reyes, Jose C"
+      ],
+      "short_names": [
+        "Basurto-Cayuela L",
+        "Guerrero-Martinez JA",
+        "Gomez-Marin E",
+        "Sanchez-Escabias E",
+        "Escano-Maestre M",
+        "Ceballos-Chavez M",
+        "Reyes JC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Genome Biology Department, Centro Andaluz de Biologia Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Cientificas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain.",
+        "Genome Biology Department, Centro Andaluz de Biologia Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Cientificas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain.",
+        "Genome Biology Department, Centro Andaluz de Biologia Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Cientificas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain.",
+        "Genome Biology Department, Centro Andaluz de Biologia Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Cientificas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain.",
+        "Genome Biology Department, Centro Andaluz de Biologia Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Cientificas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain.",
+        "Genome Biology Department, Centro Andaluz de Biologia Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Cientificas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain.",
+        "Genome Biology Department, Centro Andaluz de Biologia Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Cientificas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain. Electronic address: jose.reyes@cabimer.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Basurto-Cayuela, Laura",
+        "short_name": "Basurto-Cayuela L",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Department, Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Guerrero-Martínez, José A",
+        "short_name": "Guerrero-Martínez JA",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Department, Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Gómez-Marín, Elena",
+        "short_name": "Gómez-Marín E",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Department, Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Sánchez-Escabias, Elena",
+        "short_name": "Sánchez-Escabias E",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Department, Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Escaño-Maestre, María",
+        "short_name": "Escaño-Maestre M",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Department, Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Ceballos-Chávez, María",
+        "short_name": "Ceballos-Chávez M",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Department, Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Reyes, José C",
+        "short_name": "Reyes JC",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Department, Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Av. Americo Vespucio, 41092 Seville, Spain. Electronic address: jose.reyes@cabimer.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2024 Mar 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/01 18:44",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "42525774",
+      "42490037",
+      "42353056",
+      "42271426",
+      "42033229",
+      "42010258",
+      "41728948",
+      "41694361",
+      "41254269",
+      "41123510",
+      "40846763",
+      "40795153",
+      "40631661",
+      "40514538",
+      "40252649",
+      "39563460",
+      "39243141",
+      "39229151",
+      "38826327"
+    ],
+    "refs": [],
+    "similar": [
+      "38427563",
+      "38113003",
+      "24727477",
+      "31142665",
+      "23536800",
+      "40065228",
+      "28082674",
+      "30343899",
+      "29374542",
+      "19349301",
+      "37062961",
+      "33771698",
+      "31722744",
+      "38296999",
+      "37922899",
+      "37993417",
+      "38843835",
+      "16982689",
+      "31906887",
+      "38016477",
+      "33986538",
+      "34289068",
+      "30914409",
+      "28262751",
+      "25904594",
+      "17235287",
+      "30858614",
+      "16648630",
+      "29374058",
+      "31979421",
+      "24421395",
+      "28089519",
+      "35187582",
+      "22140357",
+      "39209535",
+      "34799403",
+      "36153585",
+      "29273066",
+      "35385731",
+      "10757790",
+      "15013794",
+      "30339381",
+      "24145903",
+      "26920655",
+      "39751934",
+      "35379786",
+      "30414852",
+      "35793348",
+      "37790495",
+      "40252649",
+      "39043178",
+      "16518397",
+      "35217218",
+      "17589511",
+      "24335282",
+      "19650111",
+      "24972368",
+      "29776334",
+      "34454103",
+      "11018012",
+      "19424417",
+      "32747760",
+      "22467207",
+      "23149935",
+      "28961249",
+      "36113480",
+      "34696885",
+      "39747144",
+      "37031881",
+      "39732119",
+      "28249160",
+      "35182012",
+      "37542049",
+      "23897427",
+      "26356327",
+      "19342595",
+      "36902382",
+      "36471048",
+      "21835776",
+      "10029546",
+      "21749977",
+      "20164218",
+      "19800126",
+      "30237141",
+      "17272279",
+      "17713577",
+      "23129809",
+      "39471843",
+      "10733587",
+      "20513433",
+      "37317642",
+      "23723349",
+      "38572912",
+      "22298509",
+      "17387179",
+      "37500730",
+      "38910326",
+      "11290320",
+      "18339542",
+      "27994035"
+    ],
+    "review": [
+      "38427563",
+      "40065228",
+      "29374542",
+      "31722744",
+      "38016477",
+      "24145903",
+      "26920655",
+      "39751934",
+      "34696885",
+      "37031881",
+      "17713577",
+      "39471843",
+      "37317642",
+      "38572912",
+      "38910326"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(24)00183-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse226944",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

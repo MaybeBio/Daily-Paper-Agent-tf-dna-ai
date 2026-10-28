@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose DeepMotifSyn, a deep learning tool that synthesizes heterodimeric DNA motifs from monomeric motif pairs, using a U-Net-based generator and a machine-learning-based evaluator, and claim it outperforms current state-of-the-art predictors on CAP-SELEX data while supporting multiple orientation and spacing settings
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, dataset details, or implementation specifics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, code repository contents, and detailed methodology descriptions are not available for assessment
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational approach to a relevant problem in gene regulation, namely the synthesis of heterodimeric TF binding motifs. However, the claims of superior performance and practical reliability are not supported by any quantitative evidence in the provided material. The methodological novelty relative to existing predictors is unclear, and the described architecture raises questions about how the generator and evaluator interact and how the synthesis task is formally defined. The abstract is insufficient to establish the case for the tool's effectiveness or its advantage over prior work.
+- **Who would be interested in the results, and why** Researchers in computational biology and gene regulation, particularly those studying transcription factor cooperativity, motif discovery, and deep learning applications to regulatory genomics. The tool could be of interest to experimentalists using CAP-SELEX or similar assays who need to prioritize TF pairs for validation, and to method developers seeking generative models for sequence motifs.
+- **Major strengths** The problem addressed is timely and practically important, given the gap between the number of known cooperative TF pairs and the cost of experimental validation. The proposed capability to generate motifs with varying orientation and spacing settings is a potentially useful feature that addresses a known limitation in some prior models. The availability of open-source software is a positive aspect for reproducibility and community use.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "Systematic evaluations on CAP-SELEX data illustrates that DeepMotifSyn significantly outperforms the current state-of-the-art predictors"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, no comparison baselines, no statistical significance tests, and no description of the evaluation protocol. The claim of significant outperformance is therefore unverifiable from the supplied material.
+  - **Why it matters** The central claim of the work is that the tool is superior to existing methods. Without any numerical evidence, the reader cannot assess whether this claim is justified, and the scientific contribution cannot be evaluated.
+  - **Resolution test** Provide the full evaluation section with performance tables or figures, including metrics such as accuracy, precision, recall, or motif similarity scores, and a clear description of the comparison methods and statistical tests used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract states that "DeepMotifSyn is composed of heterodimeric motif generator and evaluator. The generator is a U-Net-based neural network that can synthesize heterodimeric motifs from aligned motif pairs. The evaluator is a machine-learning-based model that can score the generated heterodimeric motif candidates based on the motif sequence features"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The description of the method is too vague to understand how the system works. It is unclear what the input and output representations are, how the U-Net is applied to sequence data, what "aligned motif pairs" means in practice, how the evaluator is trained, and how the generator and evaluator are integrated into a single pipeline. The term "synthesize" is not defined operationally.
+  - **Why it matters** A deep learning tool's contribution depends on the specifics of its architecture and training procedure. Without this information, the method cannot be reproduced, compared, or critically assessed, and the novelty relative to existing approaches cannot be determined.
+  - **Resolution test** Provide a detailed methods section describing the model architecture, input and output formats, training data and procedure, loss functions, and the integration of generator and evaluator. Include a schematic figure if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract claims that "DeepMotifSyn can synthesize multiple heterodimeric motifs with different orientation and spacing settings. Such a feature can address the shortcomings of previous models"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** No evidence is provided to support the claim that the tool can generate motifs with varying orientation and spacing, nor is there any demonstration that this feature addresses specific shortcomings of previous models. The claim is presented as a statement of fact without supporting results.
+  - **Why it matters** This feature is presented as a key advantage over prior work. Without demonstration, the reader cannot verify that the tool actually achieves this capability or that it is a meaningful improvement.
+  - **Resolution test** Provide examples of generated motifs with different orientation and spacing configurations, and a comparison with prior models showing where they fail and how DeepMotifSyn succeeds.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Motivation section
+  - **Evidence pointer** Abstract, Motivation section; location not provided
+  - **Issue** The statement "there are over 25,000 inferentially effective heterodimeric TFs in human cell" is vague. The basis for this number is not explained, and the term "inferentially effective" is not defined.
+  - **Required correction** Clarify the source and definition of this number, or remove it if it is not essential to the motivation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The tool is referred to as "DeepMotifSyn" in the title and first mention, but later in the abstract it appears as "Deep-MotifSyn" and "DeepMotif-Syn". This inconsistency in naming is confusing.
+  - **Required correction** Use a single consistent name throughout the abstract and the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract, Availability and implementation section
+  - **Evidence pointer** Abstract, Availability and implementation section; location not provided
+  - **Issue** The software availability statement provides a GitHub link but no version information, license, or documentation details. It is unclear whether the code is functional and maintained.
+  - **Required correction** Provide version information, a license, and a brief description of the repository contents and usage instructions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking. The absence of quantitative evaluation, the lack of methodological detail, and the unsupported claim about orientation and spacing capabilities collectively mean that the core claims of the work cannot be assessed from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not provide enough detail to assess whether the approach is genuinely novel. The use of a U-Net for motif synthesis is not contextualized against existing generative models in the field, so originality cannot be established from the supplied material.
+  - Scientific importance: The problem of synthesizing heterodimeric motifs is relevant and potentially important for understanding TF cooperativity and prioritizing experimental validation. However, the importance of the specific contribution depends on the demonstrated performance, which is not provided.
+  - Interdisciplinary readership: The topic sits at the intersection of computational biology, machine learning, and gene regulation. The abstract is written in a way that is accessible to a broad biological audience, but the lack of technical detail limits its usefulness for method-oriented readers.
+  - Technical soundness: Cannot be assessed. The architecture is described only at a high level, and no validation results are presented. The technical soundness of the approach is therefore unverifiable.
+  - Readability for nonspecialists: The abstract is generally readable, with clear motivation and a logical structure. However, terms such as "heterodimeric motifs" and "CAP-SELEX" are used without explanation, which may hinder nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible idea, but the absence of quantitative results, methodological detail, and demonstration of the claimed capabilities means that the case for the tool's effectiveness and novelty is not made. A revised submission with full methods and evaluation would be needed to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that DeepMotifSyn "significantly outperforms the current state-of-the-art predictors" is unsupported due to the absence of any quantitative comparison.
+- The claim that the tool "can synthesize multiple heterodimeric motifs with different orientation and spacing settings" is unsupported, as no examples or validation are provided.
+- The claim that this feature "can address the shortcomings of previous models" is unsupported, as no specific shortcomings or comparisons are described.
+- The statement that "there are over 25,000 inferentially effective heterodimeric TFs in human cell" is unverifiable without a source or definition.
+- The overall assertion that DeepMotifSyn is "a more practical and reliable model than current predictors" is not assessable from the supplied material.

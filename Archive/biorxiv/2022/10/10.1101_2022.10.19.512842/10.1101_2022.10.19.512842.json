@@ -1,0 +1,843 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.19.512842",
+  "title": "High-resolution promoter interaction analysis implicates genes involved in the activation of Type 3 Innate Lymphoid Cells in autoimmune disease risk",
+  "doi": "10.1101/2022.10.19.512842",
+  "abstract": "Innate lymphoid cells (ILCs) are rare, tissue-resident innate lymphocytes that functionally mirror CD4+ T helper cell lineages but lack antigen receptors. Type 3 ILCs (ILC3s) are enriched in the gut, airways, and mucosal lymphoid tissues, where they regulate inflammation and promote barrier integrity. To define the regulatory architecture of primary human ILC3s, we map promoter-anchored chromosomal contacts using high-resolution, low-input Promoter Capture Hi-C (PCHi-C) in these cells alongside CD4+ T cells. By combining statistical detection with a PCHi-C-adapted Activity-by-Contact approach, we link promoters to distal regulatory elements, identifying hundreds of ILC3-specific contacts. We use these maps to connect genome-wide association study (GWAS) risk variants for Crohn’s disease to target genes using multiCOGS, a Bayesian framework that integrates PCHi-C with summary-statistic imputation and multivariate fine-mapping. This analysis highlights both known and unanticipated candidates, including CLN3 , a causal gene for the neurodevelopmental Batten disease. Using a mouse ILC3-like cell line, we show that Cln3 is downregulated upon cytokine stimulation, and Cln3 overexpression alters stimulation-induced transcriptional programmes and cytokine secretion. Extending this approach, we generate a catalogue of ILC3-linked risk genes for five additional autoimmune conditions and show that they are enriched for regulators of the ILC3 inflammatory response identified in a CRISPR interference screen. Together, these findings illuminate long-range gene control in ILC3s and prioritise known and newly implicated autoimmune risk genes with potential roles in this clinically important cell type.",
+  "authors": [
+    "Malysheva V",
+    "Ray-Jones H",
+    "Lakes N",
+    "Brown RA",
+    "Cazares TA",
+    "Clay O",
+    "Ohayon DE",
+    "Artemov P",
+    "Wayman JA",
+    "Yang ZF",
+    "Della Rosa M",
+    "Della Rosa M",
+    "Petitjean C",
+    "Booth C",
+    "Ellaway JI",
+    "Barnes JR",
+    "Dangel AW",
+    "Saini A",
+    "Orchard WR",
+    "Chen X",
+    "Parameswaran S",
+    "Burden F",
+    "Frontini M",
+    "Nagano T",
+    "Fraser P",
+    "Schoenfelder S",
+    "Weirauch MT",
+    "Kottyan LC",
+    "Smith DF",
+    "Powell N",
+    "Weimer JM",
+    "Oltz EM",
+    "Wallace C",
+    "Miraldi ER",
+    "Waggoner S",
+    "Spivakov M"
+  ],
+  "published_date": "2022-10-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.19.512842",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.19.512842.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR562474",
+    "raw_record": {
+      "id": "PPR562474",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR562474"
+        ]
+      },
+      "doi": "10.1101/2022.10.19.512842",
+      "title": "High-resolution promoter interaction analysis implicates genes involved in the activation of Type 3 Innate Lymphoid Cells in autoimmune disease risk",
+      "authorString": "Malysheva V, Ray-Jones H, Lakes N, Brown RA, Cazares TA, Clay O, Ohayon DE, Artemov P, Wayman JA, Yang ZF, Della Rosa M, Della Rosa M, Petitjean C, Booth C, Ellaway JI, Barnes JR, Dangel AW, Saini A, Orchard WR, Chen X, Parameswaran S, Burden F, Frontini M, Nagano T, Fraser P, Schoenfelder S, Weirauch MT, Kottyan LC, Smith DF, Powell N, Weimer JM, Oltz EM, Wallace C, Miraldi ER, Waggoner S, Spivakov M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Malysheva V",
+            "lastName": "Malysheva",
+            "firstName": "Valeriya",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                },
+                {
+                  "affiliation": ", Center for Molecular Neurology, , ,"
+                },
+                {
+                  "affiliation": "Faculty of Pharmaceutical, Biomedical and Veterinary Sciences, , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Trinity Hall, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ray-Jones H",
+            "lastName": "Ray-Jones",
+            "firstName": "Helen",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8884-6865"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                },
+                {
+                  "affiliation": ", Center for Molecular Neurology, , ,"
+                },
+                {
+                  "affiliation": "Department of Internal Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lakes N",
+            "lastName": "Lakes",
+            "firstName": "Nora",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4624-6156"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Immunology Graduate Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Medical Scientist Training Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brown RA",
+            "lastName": "Brown",
+            "firstName": "Rachel",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbial Infection and Immunity, , , , ,"
+                },
+                {
+                  "affiliation": "Pelotonia Institute for Immuno-Oncology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cazares TA",
+            "lastName": "Cazares",
+            "firstName": "Tareian",
+            "initials": "TA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Immunology Graduate Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Immunobiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clay O",
+            "lastName": "Clay",
+            "firstName": "Owen",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                },
+                {
+                  "affiliation": "Division of Rheumatology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ohayon DE",
+            "lastName": "Ohayon",
+            "firstName": "David",
+            "initials": "DE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Artemov P",
+            "lastName": "Artemov",
+            "firstName": "Pavel",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wayman JA",
+            "lastName": "Wayman",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Immunobiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang ZF",
+            "lastName": "Yang",
+            "firstName": "Zi",
+            "initials": "ZF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Immunobiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Della Rosa M",
+            "lastName": "Della Rosa",
+            "firstName": "Monica",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0626-4598"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Della Rosa M",
+            "lastName": "Della Rosa",
+            "firstName": "Monica",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6670-5391"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Petitjean C",
+            "lastName": "Petitjean",
+            "firstName": "Carmen",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Booth C",
+            "lastName": "Booth",
+            "firstName": "Clarissa",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genetics and Rare Diseases, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ellaway JI",
+            "lastName": "Ellaway",
+            "firstName": "Joseph I.J.",
+            "initials": "JI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barnes JR",
+            "lastName": "Barnes",
+            "firstName": "Jenna",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Scientist Training Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dangel AW",
+            "lastName": "Dangel",
+            "firstName": "Andrew",
+            "initials": "AW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbial Infection and Immunity, , , , ,"
+                },
+                {
+                  "affiliation": "Pelotonia Institute for Immuno-Oncology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saini A",
+            "lastName": "Saini",
+            "firstName": "Ankita",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbial Infection and Immunity, , , , ,"
+                },
+                {
+                  "affiliation": "Pelotonia Institute for Immuno-Oncology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Orchard WR",
+            "lastName": "Orchard",
+            "firstName": "William",
+            "initials": "WR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen X",
+            "lastName": "Chen",
+            "firstName": "Xiaoting",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parameswaran S",
+            "lastName": "Parameswaran",
+            "firstName": "Sreeja",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burden F",
+            "lastName": "Burden",
+            "firstName": "Frances",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3231-6950"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Haematology, , Cambridge Biomedical Campus, ,"
+                },
+                {
+                  "affiliation": ", Cambridge Biomedical Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frontini M",
+            "lastName": "Frontini",
+            "firstName": "Mattia",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Haematology, , Cambridge Biomedical Campus, ,"
+                },
+                {
+                  "affiliation": ", Cambridge Biomedical Campus, ,"
+                },
+                {
+                  "affiliation": "Department of Clinical and Biomedical Sciences, Faculty of Health and Life Sciences, Medical School, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nagano T",
+            "lastName": "Nagano",
+            "firstName": "Takashi",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fraser P",
+            "lastName": "Fraser",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Florida State University, Department of Biological Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schoenfelder S",
+            "lastName": "Schoenfelder",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weirauch MT",
+            "lastName": "Weirauch",
+            "firstName": "Matthew",
+            "initials": "MT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0383-3943"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Immunology Graduate Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Medical Scientist Training Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Developmental Biology, , , , ,"
+                },
+                {
+                  "affiliation": "Division of Biomedical Informatics, , , ,"
+                },
+                {
+                  "affiliation": "Division of Allergy and Immunology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kottyan LC",
+            "lastName": "Kottyan",
+            "firstName": "Leah",
+            "initials": "LC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Immunology Graduate Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Medical Scientist Training Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Allergy and Immunology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith DF",
+            "lastName": "Smith",
+            "firstName": "David",
+            "initials": "DF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Department of Otolaryngology, Head and Neck Surgery, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Divisions of Pediatric Otolaryngology and Pulmonary & Sleep Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Powell N",
+            "lastName": "Powell",
+            "firstName": "Nick",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weimer JM",
+            "lastName": "Weimer",
+            "firstName": "Jill",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genetics and Rare Diseases, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oltz EM",
+            "lastName": "Oltz",
+            "firstName": "Eugene",
+            "initials": "EM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbial Infection and Immunity, , , , ,"
+                },
+                {
+                  "affiliation": "Pelotonia Institute for Immuno-Oncology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wallace C",
+            "lastName": "Wallace",
+            "firstName": "Chris",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Biomedical Campus, Cambridge Institute of Public Health, Forvie Site, Robinson Way , ,"
+                },
+                {
+                  "affiliation": "Cambridge Institute of Therapeutic Immunology & Infectious Disease (CITIID), Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miraldi ER",
+            "lastName": "Miraldi",
+            "firstName": "Emily",
+            "initials": "ER",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Immunology Graduate Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Medical Scientist Training Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Immunobiology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Biomedical Informatics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waggoner S",
+            "lastName": "Waggoner",
+            "firstName": "Stephen",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Immunology Graduate Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Medical Scientist Training Program, College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Division of Human Genetics and Center for Autoimmune Genomics and Etiology (CAGE), , , ,"
+                },
+                {
+                  "affiliation": "Division of Rheumatology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, College of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spivakov M",
+            "lastName": "Spivakov",
+            "firstName": "Mikhail",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London W12 0HS, UK"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0383-3943"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0626-4598"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6670-5391"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8884-6865"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3231-6950"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4624-6156"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Innate lymphoid cells (ILCs) are rare, tissue-resident innate lymphocytes that functionally mirror CD4+ T helper cell lineages but lack antigen receptors. Type 3 ILCs (ILC3s) are enriched in the gut, airways, and mucosal lymphoid tissues, where they regulate inflammation and promote barrier integrity. To define the regulatory architecture of primary human ILC3s, we map promoter-anchored chromosomal contacts using high-resolution, low-input Promoter Capture Hi-C (PCHi-C) in these cells alongside CD4+ T cells. By combining statistical detection with a PCHi-C-adapted Activity-by-Contact approach, we link promoters to distal regulatory elements, identifying hundreds of ILC3-specific contacts. We use these maps to connect genome-wide association study (GWAS) risk variants for Crohn’s disease to target genes using multiCOGS, a Bayesian framework that integrates PCHi-C with summary-statistic imputation and multivariate fine-mapping. This analysis highlights both known and unanticipated candidates, including  CLN3 , a causal gene for the neurodevelopmental Batten disease. Using a mouse ILC3-like cell line, we show that  Cln3 is downregulated upon cytokine stimulation, and  Cln3 overexpression alters stimulation-induced transcriptional programmes and cytokine secretion. Extending this approach, we generate a catalogue of ILC3-linked risk genes for five additional autoimmune conditions and show that they are enriched for regulators of the ILC3 inflammatory response identified in a CRISPR interference screen. Together, these findings illuminate long-range gene control in ILC3s and prioritise known and newly implicated autoimmune risk genes with potential roles in this clinically important cell type.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "FS/18/53/33863",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT220788",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RE/18/1/34212",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/08/2022.10.19.512842.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.19.512842"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR562474"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR562474&type=FILE&fileName=EMS212054-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS212054",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "gwas",
+          "ensembl",
+          "refseq",
+          "efo",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-10-27",
+      "firstPublicationDate": "2022-10-21",
+      "firstIndexDate": "2022-10-27",
+      "fullTextReceivedDate": "2026-01-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

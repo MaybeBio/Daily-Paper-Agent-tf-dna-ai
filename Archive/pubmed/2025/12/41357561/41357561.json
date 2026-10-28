@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "41357561",
+    "doi": "10.1002/smmd.70023",
+    "title": "Integrating Single-Cell and Spatial Transcriptomics Reveals NK Cell Subpopulations Associated With Immunotherapy for Melanoma."
+  },
+  "content": {
+    "abstract": "Immune checkpoint inhibitors (ICI) have demonstrated prolonged efficacy in certain melanoma patients, yet a significant portion of patients do not experience clinical improvement, with the mechanisms underlying this resistance still not fully understood. Using established cell markers, we partitioned the single-cell transcriptome into clusters, finding a notable link between NK cells and patient response to immunotherapy. We further identified four distinct subpopulations of NK cells, profiling marker gene sets and unique biological functions associated with each subpopulation. This analysis provides insights into the trajectory of NK cell development and differentiation, along with identifying the transcription factors driving these processes. The study pinpointed NK cluster 01 as pivotal in influencing patient sensitivity and prognosis during immunotherapy. Single-cell transcriptome and spatial transcriptomics (ST) analysis revealed the proximity of NK cluster 01 cells to melanoma cells, hinting at a potential regulation of cell-cell interaction via the IFN-II signaling pathway network. ST analysis revealed the spatial arrangement and interaction of NK cluster 01 cells with melanoma cells. This study explores the feasibility of targeting NK cluster 01 cells with small molecule drugs via molecular docking, offering a promising approach to bolster the clinical utility of NK cell therapy. We comprehensively analyze the heterogeneity of NK cells within melanoma, elucidate the potential regulatory interactions between NK cells and other microenvironmental components, and establish a basis for the future clinical utilization of distinct NK cell subsets as therapeutic targets.",
+    "keywords": [
+      "NK cells",
+      "biomarker",
+      "immunotherapy",
+      "single-cell sequencing",
+      "spatial transcriptome sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Zhicheng",
+        "Chen, Yongfei",
+        "Yang, Hao",
+        "Pan, Qiuming",
+        "Li, Hongrui",
+        "Li, Shuting",
+        "Wang, Junxi",
+        "Huang, Yudi",
+        "Huang, Guanglong",
+        "Qu, Shanqiang"
+      ],
+      "short_names": [
+        "Hu Z",
+        "Chen Y",
+        "Yang H",
+        "Pan Q",
+        "Li H",
+        "Li S",
+        "Wang J",
+        "Huang Y",
+        "Huang G",
+        "Qu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0026-0676",
+        "ORCID: 0000-0002-5388-5039",
+        "ORCID: 0009-0001-6629-3657",
+        "ORCID: 0000-0002-1589-9202",
+        "ORCID: 0000-0002-2709-0101"
+      ],
+      "affiliations": [
+        "Department of Burn Surgery The First Affiliated Hospital of Sun Yat-sen University Guangzhou China.",
+        "Department of Burn Surgery The First Affiliated Hospital of Sun Yat-sen University Guangzhou China.",
+        "Department of Burn Surgery The First Affiliated Hospital of Sun Yat-sen University Guangzhou China.",
+        "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "Department of Burn Surgery The First Affiliated Hospital of Sun Yat-sen University Guangzhou China.",
+        "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+        "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Zhicheng",
+        "short_name": "Hu Z",
+        "identifiers": [
+          "0000-0002-0026-0676"
+        ],
+        "affiliations": [
+          "Department of Burn Surgery The First Affiliated Hospital of Sun Yat-sen University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yongfei",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery The First Affiliated Hospital of Sun Yat-sen University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hao",
+        "short_name": "Yang H",
+        "identifiers": [
+          "0000-0002-5388-5039"
+        ],
+        "affiliations": [
+          "Department of Burn Surgery The First Affiliated Hospital of Sun Yat-sen University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Pan, Qiuming",
+        "short_name": "Pan Q",
+        "identifiers": [
+          "0009-0001-6629-3657"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+          "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongrui",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+          "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Li, Shuting",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery The First Affiliated Hospital of Sun Yat-sen University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junxi",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+          "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yudi",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+          "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guanglong",
+        "short_name": "Huang G",
+        "identifiers": [
+          "0000-0002-1589-9202"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+          "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China."
+        ]
+      },
+      {
+        "full_name": "Qu, Shanqiang",
+        "short_name": "Qu S",
+        "identifiers": [
+          "0000-0002-2709-0101"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China.",
+          "The Laboratory for Precision Neurosurgery Nanfang Hospital Southern Medical University Guangzhou China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Smart medicine"
+    ],
+    "journal_abbrev": [
+      "Smart Med"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/08 13:20",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42553497"
+    ],
+    "refs": [
+      "38605363",
+      "38595331",
+      "38591641",
+      "38582617",
+      "38558927",
+      "38545115",
+      "38539232",
+      "38538718",
+      "38431724",
+      "37746666",
+      "37724132",
+      "37607536",
+      "37605008",
+      "36733396",
+      "36336787",
+      "36301149",
+      "36208623",
+      "36144740",
+      "35513054",
+      "35352511",
+      "34503715",
+      "33597522",
+      "33575475",
+      "33546704",
+      "33544846",
+      "33087703",
+      "32939320",
+      "32050313",
+      "31792460",
+      "31781102",
+      "31562797",
+      "31396241",
+      "30753825",
+      "30326165",
+      "29682534",
+      "29658845",
+      "29033130",
+      "28991892",
+      "28967485",
+      "28734759",
+      "28636851",
+      "27986455",
+      "27718847",
+      "27651457",
+      "26997480",
+      "26359337",
+      "24657498",
+      "24548868",
+      "23633021",
+      "21931117",
+      "21705455",
+      "21569912",
+      "21546393",
+      "21080806",
+      "20427518",
+      "19915147",
+      "19735459",
+      "18650461",
+      "17719728",
+      "17100877",
+      "14687712",
+      "8639878"
+    ],
+    "similar": [
+      "41357561",
+      "42475469",
+      "41656832",
+      "41711658",
+      "42140356",
+      "40932376",
+      "42089585",
+      "39215354",
+      "41840725",
+      "41436831",
+      "42169880",
+      "42315253",
+      "38530049",
+      "41979818",
+      "41159025",
+      "40607411",
+      "39739311",
+      "38098487",
+      "40534868",
+      "40436260",
+      "40616092",
+      "40764361",
+      "41540405",
+      "40375605",
+      "39960194",
+      "38795156",
+      "40102789",
+      "42642766",
+      "40688093",
+      "37580402",
+      "39507529",
+      "39759522",
+      "41208987",
+      "39026661",
+      "41500176",
+      "41913413",
+      "38566201",
+      "38955423",
+      "39583114",
+      "41613147",
+      "40364843",
+      "38808504",
+      "41342434",
+      "40094420",
+      "36685583",
+      "39712016",
+      "42023218",
+      "40382612",
+      "37205468",
+      "42136962",
+      "41192724",
+      "42358991",
+      "39031800",
+      "42429963",
+      "42524819",
+      "40068177",
+      "40563673",
+      "42174623",
+      "40081939",
+      "41716413",
+      "42469985",
+      "41992249",
+      "36147664",
+      "41283998",
+      "41603185",
+      "42007493",
+      "42212140",
+      "37657247",
+      "32111241",
+      "38331327",
+      "41035636",
+      "42310652",
+      "40416605",
+      "41383633",
+      "42196432",
+      "41132964",
+      "40200221",
+      "40259256",
+      "37880655",
+      "41722834",
+      "39744570",
+      "41824220",
+      "39635521",
+      "42745838",
+      "40102930",
+      "38896289",
+      "42024995",
+      "42090950",
+      "39896800",
+      "41972591",
+      "41305714",
+      "39799269",
+      "42040898",
+      "42510857",
+      "40950184",
+      "38604154",
+      "41310117",
+      "41344266",
+      "41444619",
+      "39224598"
+    ],
+    "review": [
+      "41357561",
+      "41711658",
+      "39026661"
+    ],
+    "pmc": [
+      "12677594"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41357561.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41357561/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/smmd.70023",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

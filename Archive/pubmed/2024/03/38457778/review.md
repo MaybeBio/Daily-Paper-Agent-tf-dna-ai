@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report using artificial intelligence-based structure prediction to obtain the full-length human aryl hydrocarbon receptor (AhR) structure, followed by well-tempered metadynamics (WTE-metaD) simulations to explore conformational states. They claim atomic-level resolution of closed and open states of helix alpha1 in the bHLH domain, prediction of an inactive AhR form, and identification of Arginine 42 as a key residue regulating conformational switching in response to existing AhR modulators. They state that computational results agree excellently with previous experimental findings.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, validation data, or comparative experimental datasets are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation setup and parameters, force field details, metadynamics bias settings, convergence assessments, structural validation metrics, experimental comparison data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious computational study targeting a biologically important receptor, with potentially interesting conformational insights. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The identification of Arginine 42 as a conformational switch and the prediction of an inactive AhR form are potentially significant findings, but their validity depends on methodological rigor that cannot be assessed from the supplied material. The claim of "excellent agreement" with experimental findings is not substantiated with specific comparisons.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying ligand-dependent transcription factors, particularly those investigating conformational dynamics of nuclear receptors and bHLH-PAS family proteins. Researchers developing targeted therapies for AhR-associated conditions, including cancer and immune disorders, would also be interested in the mechanistic insights into agonist and antagonist action. The methodological approach combining AI-based structure prediction with enhanced sampling simulations may interest method developers in the molecular dynamics community.
+- **Major strengths** The study addresses a biologically significant question regarding conformational mechanisms underlying AhR ligand selectivity. The use of well-tempered metadynamics is appropriate for exploring conformational landscapes and free energy surfaces. The focus on a full-length receptor structure, rather than isolated domains, represents a more physiologically relevant approach. The identification of a specific residue as a conformational switch provides a testable hypothesis for experimental validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that WTE-metaD simulations reveal closed and open states of helix alpha1 in the bHLH domain at the atomic level, and that computational results are in excellent agreement with previous experimental findings.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on simulation length, convergence criteria, free energy surface convergence, or the specific experimental data used for comparison. Without these details, the claim of "excellent agreement" cannot be evaluated. The assertion of atomic-level resolution of conformational states requires demonstration that the metadynamics simulations have adequately sampled the relevant conformational space.
+  - **Why it matters** Enhanced sampling methods are only reliable when convergence is demonstrated. If the simulations are not converged, the identified conformational states and the proposed role of Arginine 42 may be artifacts of insufficient sampling rather than genuine features of the AhR energy landscape. The agreement claim is central to the paper's credibility and requires explicit quantitative comparison with experimental structures or biochemical data.
+  - **Resolution test** Provide convergence metrics for the metadynamics simulations, including free energy differences between states as a function of simulation time, and present explicit comparisons with experimental structures or mutagenesis data, including quantitative measures such as root-mean-square deviation or interaction energy calculations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the 3-dimensional structure of the entire human AhR is obtained using an artificial intelligence tool, and that this structure serves as the basis for subsequent simulations.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which AI tool was used, the confidence scores of the prediction, or whether the predicted structure was validated against experimental data. Full-length AhR contains multiple domains, including bHLH, PAS-A, PAS-B, and a Q-rich region, and AI-based prediction of such multi-domain proteins often yields uncertain interdomain orientations. The reliability of the starting structure directly affects all downstream simulation results.
+  - **Why it matters** If the predicted structure is inaccurate, particularly in the interdomain arrangement or the bHLH region, then the conformational states identified in simulations may not correspond to physiologically relevant states. The identification of Arginine 42 as a key residue depends on the accuracy of the local structural environment around that residue.
+  - **Resolution test** Specify the AI tool and version used, report model confidence metrics such as predicted local distance difference test scores, and provide validation of the predicted structure against known experimental structures of AhR domains or homologous proteins, including superposition analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim to predict the inactive form of AhR and identify Arginine 42 as a key residue that regulates switching between closed and open conformations in existing AhR modulators.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not define what constitutes the "inactive form" in structural terms, nor does it explain how the inactive state was distinguished from other conformational states. The claim that Arginine 42 regulates switching in "existing AhR modulators" implies a mechanism that should be supported by simulations with multiple ligands or by mutational analysis, neither of which is described in the abstract.
+  - **Why it matters** The identification of a specific residue as a conformational switch is a strong mechanistic claim with potential therapeutic implications. If the evidence is based on a single simulation or limited ligand set, the generality of the claim is not established. The distinction between agonist and antagonist mechanisms is central to the paper's title and requires demonstration that the identified switch operates differentially for different ligand classes.
+  - **Resolution test** Provide free energy profiles for simulations with representative agonists and antagonists, show that Arginine 42 mutations alter the conformational equilibrium in the predicted direction, and define the structural criteria used to classify the inactive state.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background description
+  - **Evidence pointer** Abstract, first two sentences
+  - **Issue** The description of AhR function is general and does not clearly explain why the conformational switch between agonist and antagonist states is mechanistically important for the reader.
+  - **Required correction** Add one sentence explaining how the conformational states relate to differential gene transcription or partner protein recruitment, which would clarify the biological significance for a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not specify the force field, water model, or simulation temperature used in the molecular dynamics simulations, which are standard details expected in computational studies.
+  - **Required correction** Include the force field and simulation conditions in the abstract or indicate that these details are provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Claim of agreement with experiments
+  - **Evidence pointer** Abstract, final statement
+  - **Issue** The phrase "excellent agreement with previous experimental findings" is vague without specifying which experimental findings are referenced.
+  - **Required correction** Name the specific experimental studies or types of data (for example, mutagenesis, hydrogen-deuterium exchange, or cryo-electron microscopy structures) that support the computational results.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail to assess convergence of the enhanced sampling simulations, the reliability of the AI-predicted starting structure, or the evidence supporting the identification of the inactive form and the role of Arginine 42.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of WTE-metaD to a full-length AI-predicted AhR structure is potentially novel, but the abstract does not clearly differentiate this work from prior computational studies of AhR or related bHLH-PAS proteins.
+  - Scientific importance: The biological question is important, and the identification of a conformational switch residue could have therapeutic relevance. However, the significance is not fully established from the abstract alone, as the mechanistic claims require validation.
+  - Interdisciplinary readership: The topic bridges computational chemistry, structural biology, and pharmacology, which could attract a broad audience. The abstract is written in a way that is accessible to computational biologists but may be less clear to experimental pharmacologists.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of convergence data, force field details, and validation of the predicted structure prevents evaluation of the technical quality.
+  - Readability for nonspecialists: The abstract is generally readable but could benefit from clearer explanation of the biological relevance of the conformational switch.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting claims, but the lack of methodological detail and validation data prevents assessment of whether the central conclusions are supported. A decision would require access to the full manuscript, including simulation parameters, convergence analyses, and experimental comparisons.
+
+## Risk / unsupported claims
+- The claim of "excellent agreement with previous experimental findings" is unsupported because no specific experimental data or quantitative comparisons are provided in the abstract.
+- The prediction of the "inactive form of AhR" is not defined structurally and cannot be evaluated without criteria for classification.
+- The identification of Arginine 42 as a key residue regulating conformational switching is not supported by mutational or ligand-specific simulation data in the abstract.
+- The reliability of the AI-predicted full-length AhR structure is not assessable without confidence metrics or validation against experimental structures.

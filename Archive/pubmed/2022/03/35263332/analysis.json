@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35263332",
+  "title": "Base-resolution prediction of transcription factor binding signals by a deep learning framework.",
+  "authors": "Zhang, Qinhu; He, Ying; Wang, Siguo; Chen, Zhanheng; Guo, Zhenhao; Cui, Zhen; Liu, Qi; Huang, De-Shuang",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-03-10",
+  "window": {
+    "start": "2022-03-07",
+    "end": "2022-03-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全卷积神经网络在碱基分辨率上预测TF-DNA结合信号，涵盖结合位点定位、基序预测及SNP关联分析，核心聚焦TF-DNA互作且方法为深度学习，高度匹配本课题。",
+  "abstract": "Transcription factors (TFs) play an important role in regulating gene expression, thus the identification of the sites bound by them has become a fundamental step for molecular and cellular biology. In this paper, we developed a deep learning framework leveraging existing fully convolutional neural networks (FCN) to predict TF-DNA binding signals at the base-resolution level (named as FCNsignal). The proposed FCNsignal can simultaneously achieve the following tasks: (i) modeling the base-resolution signals of binding regions; (ii) discriminating binding or non-binding regions; (iii) locating TF-DNA binding regions; (iv) predicting binding motifs. Besides, FCNsignal can also be used to predict opening regions across the whole genome. The experimental results on 53 TF ChIP-seq datasets and 6 chromatin accessibility ATAC-seq datasets show that our proposed framework outperforms some existing state-of-the-art methods. In addition, we explored to use the trained FCNsignal to locate all potential TF-DNA binding regions on a whole chromosome and predict DNA sequences of arbitrary length, and the results show that our framework can find most of the known binding regions and accept sequences of arbitrary length. Furthermore, we demonstrated the potential ability of our framework in discovering causal disease-associated single-nucleotide polymorphisms (SNPs) through a series of experiments.",
+  "abstract_zh": "转录因子（TFs）在调控基因表达中扮演重要角色，因此识别其结合位点已成为分子与细胞生物学的基础步骤。本文中，我们开发了一种深度学习框架，利用现有的全卷积神经网络（FCN）在碱基分辨率水平上预测TF-DNA结合信号（命名为FCNsignal）。所提出的FCNsignal能够同时实现以下任务：（i）建模结合区域的碱基分辨率信号；（ii）区分结合与非结合区域；（iii）定位TF-DNA结合区域；（iv）预测结合基序。此外，FCNsignal还可用于预测全基因组范围内的开放区域。在53个TF ChIP-seq数据集和6个染色质可及性ATAC-seq数据集上的实验结果表明，我们提出的框架优于一些现有的最先进方法。另外，我们探索了使用训练好的FCNsignal来定位整条染色体上所有潜在的TF-DNA结合区域，并预测任意长度的DNA序列，结果显示我们的框架能够找到大部分已知结合区域，并接受任意长度的序列。进一步地，通过一系列实验，我们展示了该框架在发现与疾病相关的单核苷酸多态性（SNPs）方面的潜在能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35263332/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35263332/",
+  "paper_page_path": "papers/pubmed/35263332/index.html"
+}

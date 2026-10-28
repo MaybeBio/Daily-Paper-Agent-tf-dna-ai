@@ -1,0 +1,365 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.13.548811",
+  "title": "Peptriever: A Bi-Encoder approach for large-scale protein-peptide binding search",
+  "doi": "10.1101/2023.07.13.548811",
+  "abstract": "Motivation In peptide therapeutics, the successful interaction between a designed peptide and a specific receptor is crucial, while minimizing interactions with other receptors is equally essential. Current computational methods excel at estimating the probability of the former but estimating the latter requires excessive computational resources, making it challenging. Results In this study, we propose transformers-based protein embeddings that can quickly identify and rank millions of interacting proteins. Furthermore, the proposed approach outperforms existing sequence- and structure-based methods, with a mean AUC-ROC and AUC-PR of 0.73. Availability Training data, scripts, and fine-tuned parameters are available at https://github.com/RoniGurvich/Peptriever . A live demonstration of the application can be found at https://peptriever.app/ . Contact tomermrsn@gmail.com and zia.rehman@helsinki.fi",
+  "authors": [
+    "Roni Gurvich",
+    "Gal Markel",
+    "Ziaurrehman Tanoli",
+    "Tomer Meirson"
+  ],
+  "published_date": "2023-07-13",
+  "updated_date": "2023-07-13T22:20:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.13.548811",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.13.548811.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:06:11Z",
+        "timestamp": 1768507571819,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 20,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>In peptide therapeutics, the successful interaction between a designed peptide and a specific receptor is crucial, while minimizing interactions with other receptors is equally essential. Current computational methods excel at estimating the probability of the former but estimating the latter requires excessive computational resources, making it challenging.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In this study, we propose transformers-based protein embeddings that can quickly identify and rank millions of interacting proteins. Furthermore, the proposed approach outperforms existing sequence- and structure-based methods, with a mean AUC-ROC and AUC-PR of 0.73.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    Training data, scripts, and fine-tuned parameters are available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/RoniGurvich/Peptriever\">https://github.com/RoniGurvich/Peptriever</jats:ext-link>\n                    . A live demonstration of the application can be found at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://peptriever.app/\">https://peptriever.app/</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>tomermrsn@gmail.com</jats:email>\n                    and\n                    <jats:email>zia.rehman@helsinki.fi</jats:email>\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.07.13.548811",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ],
+        "date-time": "2023-07-13T22:20:11Z",
+        "timestamp": 1689286811000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Peptriever: A Bi-Encoder approach for large-scale protein-peptide binding search"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-9942-6775",
+          "authenticated-orcid": false,
+          "given": "Roni",
+          "family": "Gurvich",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gal",
+          "family": "Markel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ziaurrehman",
+          "family": "Tanoli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5011-5477",
+          "authenticated-orcid": false,
+          "given": "Tomer",
+          "family": "Meirson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "12",
+          "key": "2023071803550698000_2023.07.13.548811v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005905",
+          "DOI": "10.1371/journal.pcbi.1005905",
+          "article-title": "High-Resolution Global Pep-tide-Protein Docking Using Fragments-Based PIPER-FlexPepDock",
+          "volume": "13/",
+          "year": "2017",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "issue": "1",
+          "key": "2023071803550698000_2023.07.13.548811v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "50",
+          "DOI": "10.1111/cbdd.12076",
+          "article-title": "Advances in the Prediction of Protein–Peptide Binding Affinities: Implications for Peptide-based Drug Discovery",
+          "volume": "81/",
+          "year": "2013",
+          "journal-title": "Chemical Biology & Drug Design"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "8",
+          "key": "2023071803550698000_2023.07.13.548811v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2102",
+          "DOI": "10.1093/bioinformatics/btac020",
+          "article-title": "ProteinBERT: A Universal Deep-Learning Model of Protein Sequence and Function",
+          "volume": "38/",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "5",
+          "key": "2023071803550698000_2023.07.13.548811v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1219",
+          "DOI": "10.3390/molecules26051219",
+          "article-title": "Peptide–Protein Interactions: From Drug Design to Supramolecular Biomaterials",
+          "volume": "26/",
+          "year": "2021",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.6",
+          "unstructured": "Devlin, Jacob , Chang, Ming-Wei , Lee, Kenton , and Toutanova, Kristina , ‘Bert: Pre-Training of Deep Bidirectional Transformers for Language Understanding’, ArXiv Preprint ArXiv:1810.04805, 2018"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Evans, Richard , O’Neill, Michael , Pritzel, Alexander , Antropova, Natasha , Senior, Andrew , Green, Tim , et al., ‘Protein Complex Prediction with AlphaFold-Multimer’, BioRxiv, 2021, 2010–21",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "issue": "8",
+          "key": "2023071803550698000_2023.07.13.548811v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "2458",
+          "DOI": "10.1093/bioinformatics/btaa005",
+          "article-title": "InterPep2: Global Peptide–Protein Docking Using Interaction Surface Templates",
+          "volume": "36/",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2023071803550698000_2023.07.13.548811v1.9",
+          "first-page": "1",
+          "article-title": "Predicting Protein-Peptide Interaction Sites Using Distant Protein Complexes as Structural Templates",
+          "volume": "9/",
+          "year": "2019",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.10",
+          "first-page": "85",
+          "article-title": "Improving Peptide-Protein Docking with AlphaFold-Multimer Using Forced Sampling",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Frontiers in Bioinformatics"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jung, Euna , Choi, Jaekeol , and Rhee, Wonjong , ‘Semi-Siamese Bi-Encoder Neural Ranking Model Using Lightweight Fine-Tuning’, in Proceedings of the ACM Web Conference 2022, 2022, 502–11",
+          "DOI": "10.1145/3485447.3511978"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ko, Junsu , and Lee, Juyong , ‘Can AlphaFold2 Predict Protein-Peptide Complex Structures Accurately?’, BioRxiv, 2021, 2021–27",
+          "DOI": "10.1101/2021.07.27.453972"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv456"
+        },
+        {
+          "issue": "1",
+          "key": "2023071803550698000_2023.07.13.548811v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "5465",
+          "DOI": "10.1038/s41467-021-25772-4",
+          "article-title": "A Deep-Learning Framework for Multi-Level Pep-tide–Protein Interaction Prediction",
+          "volume": "12/",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-021-04034-6"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "578382",
+          "DOI": "10.3389/fphar.2020.578382",
+          "article-title": "Perspectives in Peptide-Based Vaccination Strategies for Syndrome Coronavirus 2 Pandemic",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Frontiers in Pharmacology"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Park, Joon-Sang , ‘YAPP-CD: Yet Another Protein-Peptide Complex Database’, BioRxiv, 2021, 2021–26",
+          "DOI": "10.1101/2021.06.16.448765"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.18",
+          "unstructured": "Radford, Alec , Kim, Jong Wook , Hallacy, Chris , Ramesh, Aditya , Goh, Gabriel , Agarwal, Sandhini , et al., ‘Learning Transferable Visual Models from Natural Language Supervision’, in International Conference on Machine Learning (2021), 8748–63"
+        },
+        {
+          "key": "2023071803550698000_2023.07.13.548811v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sennrich, Rico , Haddow, Barry , and Birch, Alexandra , ‘Neural Machine Translation of Rare Words with Subword Units’, ArXiv Preprint ArXiv:1508.07909, 2015",
+          "DOI": "10.18653/v1/P16-1162"
+        },
+        {
+          "issue": "1",
+          "key": "2023071803550698000_2023.07.13.548811v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1093/bioinformatics/bty579",
+          "article-title": "PepBDB: A Comprehensive Structural Database of Biological Peptide–Protein Interactions",
+          "volume": "35/",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.13.548811",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:55:28Z",
+        "timestamp": 1768452928000
+      },
+      "score": 98.258095,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.13.548811"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ]
+      },
+      "references-count": 20,
+      "URL": "https://doi.org/10.1101/2023.07.13.548811",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btae303",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "identity": {
+    "pmid": "40914877",
+    "doi": "10.1021/acs.jcim.5c01054",
+    "title": "Multiview Deep Learning Framework for Precise Prediction of Transcription Factor Binding Sites."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are essential proteins that regulate gene expression by specifically binding to transcription factor binding sites (TFBSs) within DNA sequences. Their ability to precisely control the transcription process is crucial for understanding gene regulatory networks, uncovering disease mechanisms, and designing synthetic biology tools. Accurate TFBS prediction, therefore, holds significant importance in advancing these areas of research. While machine learning methods, particularly deep learning approaches, have achieved notable progress in TFBS prediction in recent years, several challenges persist. These include modeling the intricate structural features of the DNA double helix, capturing long-range dependencies within sequences and integrating diverse biological data sources. To address these issues, we propose an innovative solution known as multiview deep learning for Transcription Factor Binding Prediction (MDNet-TFP), which leverages multiple views of DNA sequences horizontal line including different representational forms and diverse processing strategies horizontal line to enhance prediction capabilities. Specifically, our framework introduces a bidirectional reverse complement module (BiRC-Mamba) that effectively accounts for the bidirectional and reverse complement properties characteristic of DNA sequences. Furthermore, we developed a multiscale convolutional recurrent attention network (MCRAN) that extracts both structural and functional DNA features across multiple dimensions while integrating information from various biological data sets. These advancements allow our model to outperform existing methods across 165 ChIP-seq data sets, achieving an average ACC of 88.13% (+/-0.47), an ROC-AUC of 93.72% (+/-0.15), and a PR-AUC of 93.40% (+/-0.21). The model not only excels with this specific data set but also maintains its high performance across a wider array of 690 ChIP-seq data sets. To further validate the model's effectiveness, we employ motif visualization techniques. This approach reveals that the regions receiving high attention from our model align with known transcription factor binding motifs, offering valuable biological insights. Additionally, this correspondence substantiates the model's ability to generalize and interpret complex genomic data effectively. By addressing critical limitations in the field, MDNet-TFP offers a promising new avenue for advancing research in transcriptional regulation and biomedical applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Transcription Factors/metabolism",
+      "Binding Sites",
+      "DNA/metabolism/chemistry",
+      "*Computational Biology/methods",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Yiben",
+        "Luo, Huiliang",
+        "Yan, Liang",
+        "Wang, Changmiao",
+        "Li, Yao",
+        "Ge, Ruiquan"
+      ],
+      "short_names": [
+        "Lin Y",
+        "Luo H",
+        "Yan L",
+        "Wang C",
+        "Li Y",
+        "Ge R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5713-5588"
+      ],
+      "affiliations": [
+        "Key Laboratory of Micro-nano Sensing and IoT of Wenzhou, Wenzhou Institute of Hangzhou Dianzi University, Wenzhou 325038, China.",
+        "School of Computer Science, Hangzhou Dianzi University, Hangzhou 310018, China.",
+        "School of Computer Science, Hangzhou Dianzi University, Hangzhou 310018, China.",
+        "Department of Spine Surgery, Honghui Hospital, Xi'an Jiaotong University, Xi'an 710054, China.",
+        "Medical Big Data Laboratory, Shenzhen Research Institute of Big Data, Shenzhen 518172, China.",
+        "Department of Pathology, Honghui Hospital, Xi'an Jiaotong University, Xi'an 710054, China.",
+        "Key Laboratory of Micro-nano Sensing and IoT of Wenzhou, Wenzhou Institute of Hangzhou Dianzi University, Wenzhou 325038, China.",
+        "School of Computer Science, Hangzhou Dianzi University, Hangzhou 310018, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Yiben",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Micro-nano Sensing and IoT of Wenzhou, Wenzhou Institute of Hangzhou Dianzi University, Wenzhou 325038, China.",
+          "School of Computer Science, Hangzhou Dianzi University, Hangzhou 310018, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Huiliang",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Hangzhou Dianzi University, Hangzhou 310018, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Liang",
+        "short_name": "Yan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Honghui Hospital, Xi'an Jiaotong University, Xi'an 710054, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Changmiao",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Big Data Laboratory, Shenzhen Research Institute of Big Data, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yao",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Honghui Hospital, Xi'an Jiaotong University, Xi'an 710054, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Ruiquan",
+        "short_name": "Ge R",
+        "identifiers": [
+          "0000-0001-5713-5588"
+        ],
+        "affiliations": [
+          "Key Laboratory of Micro-nano Sensing and IoT of Wenzhou, Wenzhou Institute of Hangzhou Dianzi University, Wenzhou 325038, China.",
+          "School of Computer Science, Hangzhou Dianzi University, Hangzhou 310018, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Sep 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/07 13:19",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40914877",
+      "38701417",
+      "40702706",
+      "34272562",
+      "38733561",
+      "39701486",
+      "31372637",
+      "40102719",
+      "39107889",
+      "21059262",
+      "39350338",
+      "20360861",
+      "27567672",
+      "40598008",
+      "24927817",
+      "40613943",
+      "40411397",
+      "36057196",
+      "39541188",
+      "33522898",
+      "19586888",
+      "40914361",
+      "40334196",
+      "40302345",
+      "34073774",
+      "38732207",
+      "32770026",
+      "39214282",
+      "40889326",
+      "37328639",
+      "40158838",
+      "35652477",
+      "28245811",
+      "28753602",
+      "20158869",
+      "39623329",
+      "24039567",
+      "41359543",
+      "38798191",
+      "36094959",
+      "41212592",
+      "36155619",
+      "41294241",
+      "31336830",
+      "30835229",
+      "39695955",
+      "34929739",
+      "26552868",
+      "24564277",
+      "36748992",
+      "35719916",
+      "40772277",
+      "27896980",
+      "38643066",
+      "33837387",
+      "28334268",
+      "40730627",
+      "25179504",
+      "28750606",
+      "33372147",
+      "27503086",
+      "35263332",
+      "27871221",
+      "28849563",
+      "27106869",
+      "41035197",
+      "30447332",
+      "29993783",
+      "23272209",
+      "18627598",
+      "39121059",
+      "39304807",
+      "34664074",
+      "39145253",
+      "41042660",
+      "41257600",
+      "39922842",
+      "23282203",
+      "19091030",
+      "39125714",
+      "34613923",
+      "29617876",
+      "20838582",
+      "41037779",
+      "32960766",
+      "40646689",
+      "17914226",
+      "27045826",
+      "33975951",
+      "34174819",
+      "22334039",
+      "37723425",
+      "39227799",
+      "30380113",
+      "24386279",
+      "19956545",
+      "38865861",
+      "23427986",
+      "40378554",
+      "27209209"
+    ],
+    "review": [
+      "40914877",
+      "36057196",
+      "19586888",
+      "35652477",
+      "28334268"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01054",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

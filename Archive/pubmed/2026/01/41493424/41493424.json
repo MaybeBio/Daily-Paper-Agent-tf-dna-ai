@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "41493424",
+    "doi": "10.1021/acs.jcim.5c02558",
+    "title": "Intercellular Communication Guides the Prediction of Intracellular Gene Regulatory Relationships."
+  },
+  "content": {
+    "abstract": "Cellular communication via ligand-receptor signaling regulates downstream gene expression networks, playing a vital role in maintaining cellular functions and driving disease progression. However, the current methods do not account for the synergistic interactions between cellular communication and downstream gene regulatory networks. Moreover, existing approaches cannot construct complete cellular communication networks, thereby limiting biological significance and interpretability. To address these gaps, we propose a computational framework that predicts intracellular gene regulatory relationships by constructing comprehensive cellular communication networks. The framework introduces two key innovations: (1) end-to-end modeling from extracellular signals to gene expression by integrating ligand-receptor interactions, signaling pathway activation, and transcription factor regulatory networks and (2) accurate modeling of receptor-mediated regulatory relationships using deep learning to reveal intracellular mechanisms driven by cellular communication. Experimental results and case studies show that the framework efficiently predicts receptor-mediated target gene regulatory relationships across diverse spatial transcriptomic data sets and provides a valuable tool for uncovering biological processes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cell Communication/genetics",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Intracellular Space/metabolism",
+      "*Computational Biology/methods",
+      "Signal Transduction",
+      "Deep Learning",
+      "Gene Expression Regulation",
+      "Ligands",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Zhecheng",
+        "Li, Zhen",
+        "Xie, Yunfei",
+        "Zhuo, Linlin",
+        "Wang, Rui",
+        "Yao, Xiaojun",
+        "Hu, Haiyang",
+        "Fu, Xiangzheng"
+      ],
+      "short_names": [
+        "Zhou Z",
+        "Li Z",
+        "Xie Y",
+        "Zhuo L",
+        "Wang R",
+        "Yao X",
+        "Hu H",
+        "Fu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6586-0533",
+        "ORCID: 0009-0001-1318-5038",
+        "ORCID: 0000-0001-9958-8438"
+      ],
+      "affiliations": [
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China.",
+        "Center for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Science, Macao Polytechnic University, 999078 Macao, China.",
+        "School of Artificial Intelligence, Shenzhen University of Information Technology, Shenzhen 518172, China.",
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China.",
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China.",
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China.",
+        "Center for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Science, Macao Polytechnic University, 999078 Macao, China.",
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China.",
+        "College of Computer Science and Electronic Engineering, Hunan University, Changsha 410012, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Zhecheng",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China.",
+          "Center for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Science, Macao Polytechnic University, 999078 Macao, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhen",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Shenzhen University of Information Technology, Shenzhen 518172, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yunfei",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhuo, Linlin",
+        "short_name": "Zhuo L",
+        "identifiers": [
+          "0000-0002-6586-0533"
+        ],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Rui",
+        "short_name": "Wang R",
+        "identifiers": [
+          "0009-0001-1318-5038"
+        ],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Xiaojun",
+        "short_name": "Yao X",
+        "identifiers": [
+          "0000-0001-9958-8438"
+        ],
+        "affiliations": [
+          "Center for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Science, Macao Polytechnic University, 999078 Macao, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Haiyang",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Technology, 325027 Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xiangzheng",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Electronic Engineering, Hunan University, Changsha 410012, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Jan 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/06 19:17",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [
+      "42632029"
+    ],
+    "refs": [],
+    "similar": [
+      "41493424",
+      "40149878",
+      "41451540",
+      "39679439",
+      "41125721",
+      "38980373",
+      "38950180",
+      "38706319",
+      "40914877",
+      "41288963",
+      "41159728",
+      "40251476",
+      "41300707",
+      "40444832",
+      "24146602",
+      "34331449",
+      "40098114",
+      "38678387",
+      "36575445",
+      "40708222",
+      "40095604",
+      "30598101",
+      "34887443",
+      "39082651",
+      "40725477",
+      "20924352",
+      "23497388",
+      "25707768",
+      "40062616",
+      "22734688",
+      "17504165",
+      "35016036",
+      "39062464",
+      "23499820",
+      "27390891",
+      "40333631",
+      "33597522",
+      "30953525",
+      "38906738",
+      "38858414",
+      "27064982",
+      "24389658",
+      "32054475",
+      "40633682",
+      "31819264",
+      "25115405",
+      "18426580",
+      "34244796",
+      "37364528",
+      "20230615",
+      "39939849",
+      "39276328",
+      "41521668",
+      "41397026",
+      "22456606",
+      "39062480",
+      "41206950",
+      "34962260",
+      "28254369",
+      "19594885",
+      "32770026",
+      "41405964",
+      "30547796",
+      "40247122",
+      "38342857",
+      "39289562",
+      "40702704",
+      "21232126",
+      "29940845",
+      "23387820",
+      "40577399",
+      "40553343",
+      "40240358",
+      "31985403",
+      "40593827",
+      "41175863",
+      "39602828",
+      "41043336",
+      "25788622",
+      "40538029",
+      "38498762",
+      "29051499",
+      "41319043",
+      "39605181",
+      "39376034",
+      "35062026",
+      "36064320",
+      "22829753",
+      "36695505",
+      "26897165",
+      "41006883",
+      "28137748",
+      "22482944",
+      "37803123",
+      "41408299",
+      "23016513",
+      "40811169",
+      "39800874",
+      "41503157",
+      "38653489"
+    ],
+    "review": [
+      "41493424",
+      "17504165",
+      "35016036",
+      "38906738",
+      "38498762",
+      "36695505",
+      "28137748"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02558",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

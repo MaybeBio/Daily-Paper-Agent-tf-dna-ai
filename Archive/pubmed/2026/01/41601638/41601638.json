@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "41601638",
+    "doi": "10.3389/fimmu.2025.1700998",
+    "title": "Revealing the role of regulatory microglial IRF7-NLRP3 interactions in optic nerve damage of normal-tension glaucoma based on single-cell RNA sequencing."
+  },
+  "content": {
+    "abstract": "Normal-tension glaucoma (NTG) is a subtype of primary open-angle glaucoma (POAG). Patients with NTG still experience significant optic nerve damage despite maintaining normal intraocular pressures. The mechanism of optic nerve damage in glaucoma with normal pressure is still unclear. Research has shown that OPTN (E50K) mutations exacerbate the inflammatory response of retinal microglia. However, there is still a lack of evidence on how OPTN (E50K) mutations directly regulate their inflammatory pathways through key molecules. This study explores the role of microglial inflammation caused by the interaction between IRF7 and NLRP3 molecules in NTG optic nerve injury. Single-cell RNA sequencing (scRNA-seq) was employed to analyze retinal microglial cells from both wild-type (WT) and OPTN (E50K) mutant mice. The analysis revealed significant enrichment of inflammatory pathways and a critical role of IRF7 in modulating NLRP3 activation. Techniques such as Western blot (WB), qPCR, immunofluorescence (IF), and molecular docking were utilized to confirm the interactions between IRF7 and NLRP3. The findings demonstrate that the OPTN (E50K) mutation reduces the suppressive effect of IRF7 on NLRP3, leading to a pro-inflammatory microglial phenotype and exacerbating the optic nerve damage of NTG. This study provides a new therapeutic target for the treatment of NTG optic nerve damage.",
+    "keywords": [
+      "IRF7",
+      "NLRP3",
+      "OPTN (E50K) mutation",
+      "microglia",
+      "normal-tension glaucoma",
+      "optic nerve damage",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NLR Family, Pyrin Domain-Containing 3 Protein/metabolism/genetics",
+      "*Low Tension Glaucoma/metabolism/genetics/pathology",
+      "*Microglia/metabolism",
+      "Mice",
+      "*Interferon Regulatory Factor-7/metabolism/genetics",
+      "*Optic Nerve/pathology/metabolism",
+      "Single-Cell Analysis",
+      "Cell Cycle Proteins/genetics/metabolism",
+      "Membrane Transport Proteins/genetics/metabolism",
+      "Mutation",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qiu, Leyi",
+        "Guo, Fengyi",
+        "Liu, Xinna",
+        "Zhang, Di",
+        "Wang, Qi",
+        "Du, Mengxian",
+        "Yuan, Qianmei",
+        "Zhang, Shiqi",
+        "Song, Wulian",
+        "Yuan, Huiping"
+      ],
+      "short_names": [
+        "Qiu L",
+        "Guo F",
+        "Liu X",
+        "Zhang D",
+        "Wang Q",
+        "Du M",
+        "Yuan Q",
+        "Zhang S",
+        "Song W",
+        "Yuan H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Harbin Medical University Key Laboratory of Myocardial Ischemia Ministry of Education, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Harbin Medical University Key Laboratory of Myocardial Ischemia Ministry of Education, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qiu, Leyi",
+        "short_name": "Qiu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "Harbin Medical University Key Laboratory of Myocardial Ischemia Ministry of Education, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Fengyi",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinna",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Di",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "Harbin Medical University Key Laboratory of Myocardial Ischemia Ministry of Education, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qi",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Du, Mengxian",
+        "short_name": "Du M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Qianmei",
+        "short_name": "Yuan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "Future Medical Laboratory, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shiqi",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Song, Wulian",
+        "short_name": "Song W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Huiping",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:47",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [
+      "42365203"
+    ],
+    "refs": [
+      "39578308",
+      "39313544",
+      "39015474",
+      "37930487",
+      "37793503",
+      "37144630",
+      "36792584",
+      "36574951",
+      "36339594",
+      "36288697",
+      "36056148",
+      "35958608",
+      "35436991",
+      "34439904",
+      "34400876",
+      "34234510",
+      "34127652",
+      "33856034",
+      "33723228",
+      "33525754",
+      "33275949",
+      "33152351",
+      "33085226",
+      "32929691",
+      "32360241",
+      "32147113",
+      "32069977",
+      "32023447",
+      "31892541",
+      "31748742",
+      "31653841",
+      "31445901",
+      "31189953",
+      "30760929",
+      "30741672",
+      "30502599",
+      "30352196",
+      "30206328",
+      "30100066",
+      "29789522",
+      "28223208",
+      "27654856",
+      "27630687",
+      "25873768",
+      "25642965",
+      "25385836",
+      "24412599",
+      "24360280",
+      "22699511",
+      "21349431",
+      "21048113",
+      "19969084",
+      "16979567",
+      "11834836"
+    ],
+    "similar": [
+      "41601638",
+      "39578308",
+      "41455767",
+      "34127652",
+      "33856034",
+      "20388642",
+      "40919680",
+      "30424795",
+      "39208752",
+      "40921658",
+      "25854109",
+      "41102382",
+      "23669351",
+      "35436991",
+      "39979261",
+      "41275898",
+      "37353142",
+      "39448868",
+      "38389252",
+      "40402516",
+      "40795095",
+      "37402504",
+      "33628368",
+      "32652081",
+      "40876618",
+      "32266645",
+      "29847634",
+      "16043855",
+      "41941036",
+      "39568070",
+      "15840340",
+      "32531194",
+      "40916305",
+      "29869390",
+      "40522023",
+      "35743157",
+      "27693724",
+      "24373007",
+      "22568103",
+      "39446353",
+      "33141050",
+      "35692100",
+      "22903819",
+      "25425302",
+      "22575566",
+      "41725008",
+      "30440153",
+      "26652244",
+      "12811537",
+      "37972470",
+      "31445901",
+      "31198474",
+      "37059934",
+      "40408096",
+      "38671352",
+      "40244608",
+      "26893104",
+      "34023378",
+      "37144630",
+      "40059065",
+      "22361049",
+      "30971286",
+      "16885925",
+      "26996257",
+      "30571313",
+      "35461293",
+      "41504059",
+      "35714595",
+      "41954702",
+      "34740080",
+      "39654367",
+      "23074414",
+      "40691997",
+      "18385061",
+      "32375810",
+      "33176797",
+      "41914305",
+      "21850191",
+      "22160505",
+      "30440151",
+      "38619671",
+      "36754245",
+      "39899477",
+      "1485570",
+      "16148883",
+      "32295623",
+      "23607243",
+      "20489729",
+      "41667433",
+      "36251842",
+      "40313107",
+      "27149261",
+      "21701394",
+      "36067653",
+      "31563827",
+      "40252702",
+      "37056720",
+      "37029500",
+      "22521085",
+      "38394727"
+    ],
+    "review": [
+      "41601638",
+      "25854109",
+      "37353142",
+      "38389252",
+      "27693724"
+    ],
+    "pmc": [
+      "12832388"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41601638/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1700998",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

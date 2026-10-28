@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "40785506",
+    "doi": "10.1111/cas.70170",
+    "title": "Machine Learning-Based Predictive Modeling Maximizes the Efficacy of mTOR/p53 Co-Targeting Therapy Against AML."
+  },
+  "content": {
+    "abstract": "Although mTOR signaling plays a key role in acute myeloid leukemia (AML), mTOR inhibitors have shown limited efficacy against AML in clinical trials. In this study, we found that the anti-leukemic effect of mTOR inhibition was mediated in part through the TP53 pathway. mTOR inhibition by rapamycin and TP53 activation by DS-5272 collaboratively induced the downregulation of MYC and MCL1 partly through miR-34a, thereby inducing cell cycle arrest and apoptosis in AML cells. Joint non-negative matrix factorization (JNMF) and statistical regression analysis using public AML databases revealed that monocytic AMLs with distinctive gene expression profiles were highly sensitive to mTOR inhibition, leading to the generation of an 11-gene score (Rapa-11) to predict the rapamycin sensitivity of each monocytic AML. Consistent with our in silico prediction, mouse AML cells expressing MLL-AF9, the monocytic AML with a low Rapa-11 score, were highly sensitive to rapamycin, whereas those expressing RUNX1-ETO or SETBP1/ASXL1 mutations were not. Co-treatment with rapamycin and DS-5272 had a dramatic in vivo effect on MLL-AF9-driven AML, curing 85% of the leukemic mice. Thus, machine learning-based predictive approaches identified monocytic AML with wild-type TP53 and low Rapa-11 score as a rapamycin-sensitive AML subtype and an ideal target for mTOR/p53 co-targeting therapy.",
+    "keywords": [
+      "TP53",
+      "acute myeloid leukemia",
+      "joint non-negative matrix factorization",
+      "mTOR",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Leukemia, Myeloid, Acute/drug therapy/genetics/metabolism/pathology",
+      "Humans",
+      "*TOR Serine-Threonine Kinases/antagonists & inhibitors/metabolism",
+      "Animals",
+      "*Tumor Suppressor Protein p53/metabolism/antagonists & inhibitors/genetics",
+      "Mice",
+      "*Machine Learning",
+      "Sirolimus/pharmacology",
+      "*MTOR Inhibitors/pharmacology",
+      "Cell Line, Tumor",
+      "Apoptosis/drug effects",
+      "Signal Transduction/drug effects",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jingmei",
+        "Sugimoto, Emi",
+        "Yamamoto, Keita",
+        "Dai, Yutong",
+        "Zhang, Wenyu",
+        "Chang, Yu-Hsuan",
+        "Nakahara, Jakushin",
+        "Yabushita, Tomohiro",
+        "Kitamura, Toshio",
+        "Park, Sung-Joon",
+        "Nakai, Kenta",
+        "Goyama, Susumu"
+      ],
+      "short_names": [
+        "Li J",
+        "Sugimoto E",
+        "Yamamoto K",
+        "Dai Y",
+        "Zhang W",
+        "Chang YH",
+        "Nakahara J",
+        "Yabushita T",
+        "Kitamura T",
+        "Park SJ",
+        "Nakai K",
+        "Goyama S"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-3078-5770",
+        "ORCID: 0000-0003-2705-655X",
+        "ORCID: 0000-0002-9339-1826"
+      ],
+      "affiliations": [
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "International Research Center for Medical Sciences, Kumamoto University, Kumamoto, Japan.",
+        "Institute of Biomedical Research and Innovation, Foundation for Biomedical Research and Innovation at Kobe, Kobe, Hyogo, Japan.",
+        "Human Genome Center, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Human Genome Center, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jingmei",
+        "short_name": "Li J",
+        "identifiers": [
+          "0009-0009-3078-5770"
+        ],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugimoto, Emi",
+        "short_name": "Sugimoto E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamamoto, Keita",
+        "short_name": "Yamamoto K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Dai, Yutong",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenyu",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Chang, Yu-Hsuan",
+        "short_name": "Chang YH",
+        "identifiers": [
+          "0000-0003-2705-655X"
+        ],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakahara, Jakushin",
+        "short_name": "Nakahara J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yabushita, Tomohiro",
+        "short_name": "Yabushita T",
+        "identifiers": [],
+        "affiliations": [
+          "International Research Center for Medical Sciences, Kumamoto University, Kumamoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Kitamura, Toshio",
+        "short_name": "Kitamura T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Research and Innovation, Foundation for Biomedical Research and Innovation at Kobe, Kobe, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Park, Sung-Joon",
+        "short_name": "Park SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genome Center, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakai, Kenta",
+        "short_name": "Nakai K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan.",
+          "Human Genome Center, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Goyama, Susumu",
+        "short_name": "Goyama S",
+        "identifiers": [
+          "0000-0002-9339-1826"
+        ],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer science"
+    ],
+    "journal_abbrev": [
+      "Cancer Sci"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/11 06:27",
+    "fetched_at": "2026-09-30 23:47:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39096901",
+      "38974382",
+      "38702444",
+      "38129572",
+      "37068505",
+      "36995706",
+      "36707729",
+      "36652560",
+      "36594187",
+      "36508699",
+      "36453131",
+      "36259537",
+      "36167836",
+      "35868306",
+      "35732831",
+      "35168327",
+      "34869377",
+      "34783292",
+      "33431855",
+      "32932888",
+      "32326335",
+      "31974170",
+      "31937935",
+      "31653912",
+      "30367089",
+      "25882531",
+      "25306901",
+      "22460905",
+      "22235332",
+      "20068163",
+      "19342893",
+      "18664580",
+      "18621930",
+      "18548104",
+      "18548093",
+      "16892037",
+      "16199517",
+      "188440"
+    ],
+    "similar": [
+      "40785506",
+      "25322685",
+      "27071307",
+      "24504419",
+      "39528073",
+      "23271044",
+      "41254013",
+      "23640975",
+      "28537457",
+      "28703806",
+      "22826565",
+      "28082200",
+      "28456658",
+      "26473447",
+      "30146162",
+      "20811722",
+      "23919981",
+      "24383842",
+      "23415012",
+      "18548093",
+      "26999641",
+      "40754657",
+      "20382200",
+      "29883944",
+      "27391151",
+      "20671809",
+      "24008673",
+      "40424983",
+      "38530586",
+      "40010131",
+      "33378012",
+      "29490944",
+      "31160638",
+      "40327322",
+      "40608889",
+      "32738450",
+      "32901886",
+      "40604062",
+      "21415215",
+      "15550488",
+      "30099447",
+      "19584709",
+      "25758096",
+      "28184925",
+      "25801978",
+      "34673129",
+      "38728095",
+      "25482947",
+      "41344512",
+      "26892465",
+      "25650089",
+      "26674543",
+      "41086579",
+      "39732045",
+      "17691943",
+      "23535559",
+      "24739393",
+      "40275490",
+      "40317800",
+      "21897118",
+      "35012554",
+      "24885082",
+      "34304249",
+      "17179228",
+      "24014241",
+      "33254022",
+      "16150937",
+      "26206331",
+      "27845732",
+      "22559167",
+      "40539509",
+      "30587525",
+      "41151299",
+      "26792718",
+      "29889583",
+      "25823922",
+      "40427634",
+      "25971265",
+      "20423286",
+      "24112092",
+      "41261300",
+      "20371718",
+      "27054578",
+      "40230093",
+      "27512117",
+      "22497230",
+      "22285225",
+      "34700229",
+      "39423314",
+      "28607134",
+      "21336564",
+      "27353420",
+      "26937175",
+      "22167413",
+      "36437247",
+      "29276026",
+      "27616194",
+      "37339579",
+      "19320940",
+      "32369692"
+    ],
+    "review": [
+      "40785506",
+      "28537457",
+      "20671809",
+      "25801978",
+      "17691943",
+      "27845732",
+      "25971265",
+      "28607134"
+    ],
+    "pmc": [
+      "12580873"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://www.ovid.com/40785506.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40785506/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/cas.70170",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

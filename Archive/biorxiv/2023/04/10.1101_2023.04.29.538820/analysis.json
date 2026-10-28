@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.29.538820",
+  "title": "Exploring The Ability Of Machine Learning-Based Virtual Screening Models To Identify The Functional Groups Responsible For Binding",
+  "authors": "Thomas E. Hadfield; Jack Scantlebury; Charlotte M. Deane",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-30",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用合成数据评估机器学习虚拟筛选模型识别配体功能基团的能力，虽涉及蛋白-配体结合，但非蛋白质-DNA互作体系，方法可迁移至TF-DNA结合位点归因分析。",
+  "abstract": "Many recently proposed structure-based virtual screening models appear to be able to accurately distinguish high affinity binders from non-binders. However, several recent studies have shown that they often do so by exploiting ligand-specific biases in the dataset, rather than identifying favourable intermolecular interactions in the input protein-ligand complex. In this work we propose a novel approach for assessing the extent to which machine learningbased virtual screening models are able to identify the functional groups responsible for binding. To sidestep the difficulty in establishing the ground truth importance of each atom of a large scale set of protein-ligand complexes, we propose a protocol for generating synthetic data where the label of an example is assigned by a 3-dimensional deterministic binding rule. This allows us to precisely quantify the ground truth importance of each atom and compare it to the model generated attributions. Using our generated datasets, we demonstrate that a recently proposed deep learning-based virtual screening model, PointVS, identified the most important functional groups with 39% more efficiency than a fingerprint-based random forest, suggesting that it would generalise more effectively to new examples. In addition, we found that ligand-specific biases, such as those present in widely used virtual screening datasets, substantially impaired the ability of all ML models to identify the most important functional groups. We have made our synthetic data generation framework available to facilitate the benchmarking of new virtual screening models. Code is available at https://github.com/tomhadfield95/synthVS .",
+  "abstract_zh": "许多近期提出的基于结构的虚拟筛选模型似乎能够准确区分高亲和力结合物与非结合物。然而，几项近期研究表明，它们往往通过利用数据集中配体特异性偏差来实现这一点，而非识别输入蛋白质-配体复合物中有利的分子间相互作用。在本工作中，我们提出了一种新方法，用于评估基于机器学习的虚拟筛选模型识别负责结合的功能基团的能力。为规避在建立大规模蛋白质-配体复合物中每个原子真实重要性基准时的困难，我们提出了一种生成合成数据的协议，其中样本标签由三维确定性结合规则分配。这使我们能够精确量化每个原子的真实重要性，并将其与模型生成的归因进行比较。利用我们生成的数据集，我们证明了一种近期提出的基于深度学习的虚拟筛选模型PointVS，在识别最重要功能基团方面的效率比基于指纹的随机森林高出39%，表明其在新示例上的泛化能力更有效。此外，我们发现配体特异性偏差，例如广泛使用的虚拟筛选数据集中存在的偏差，显著损害了所有机器学习模型识别最重要功能基团的能力。我们已公开我们的合成数据生成框架，以促进新虚拟筛选模型的基准测试。代码可在 https://github.com/tomhadfield95/synthVS 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.29.538820",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.29.538820",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.29.538820/index.html"
+}

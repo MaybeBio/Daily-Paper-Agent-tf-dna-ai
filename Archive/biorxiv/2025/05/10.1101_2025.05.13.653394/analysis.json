@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.13.653394",
+  "title": "Leveraging Large Language Models for Literature-Driven Prioritization of Protein Binding Pockets",
+  "authors": "Roman Stratiichuk; Mykola Melnychenko; Ihor Koleiev; Taras Voitsitskyi; Vladyslav Husak; Nazar Shevchuk; Zakhar Osrovsky; Volodymyr Bdzhola; Semen Yesylevskyy; Serhii Starosyla; Alan Nafiiev",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-15",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合几何口袋检测与LLM从文献中提取实验结合位点信息，用于小分子结合口袋的优先排序，虽非TF-DNA体系，但蛋白质-配体结合位点识别与文献挖掘方法可迁移至TF-DNA互作研究。",
+  "abstract": "We present a novel approach for the identification and prioritization of protein binding pockets for small molecules by combining geometric pocket detection with Large Language Models (LLMs). Our method leverages Fpocket to generate candidate pockets, which are then validated against published experimental data extracted from research articles using LLM with a series of prompts fine-tuned to identify and extract residue-level information associated with experimentally confirmed binding sites. We developed a curated benchmark dataset of diverse proteins and associated literature to train and evaluate the LLM’s performance in paper relevance assessment and pocket extraction. The extracted information is then mapped onto protein structures and used to filter and merge the geometry-based predictions, generating a refined volumetric representation of biologically relevant pockets. This hybrid pipeline offers an efficient, accurate and automated method for identifying functional binding pockets, addressing a significant bottleneck in the high-throughput drug discovery workflows. The developed benchmark dataset and methodology are freely available at https://github.com/MelnychenkoM/LLM-benchmark-dataset .",
+  "abstract_zh": "我们提出了一种新颖的方法，用于识别和优先排序小分子的蛋白质结合口袋，通过结合几何口袋检测与大型语言模型（LLMs）。我们的方法利用Fpocket生成候选口袋，然后使用经过微调的一系列提示（prompts）的LLM，从研究文章中提取的实验数据中进行验证，这些提示专门用于识别和提取与实验确认结合位点相关的残基级信息。我们开发了一个包含多样化蛋白质及相关文献的精选基准数据集，用于训练和评估LLM在论文相关性评估和口袋提取方面的性能。提取的信息随后映射到蛋白质结构上，用于过滤和合并基于几何的预测，生成生物学相关口袋的精细体积表示。这种混合流程提供了一种高效、准确且自动化的方法来识别功能性结合口袋，解决了高通量药物发现工作流程中的一个重大瓶颈。我们开发的基准数据集和方法可免费获取，网址为 https://github.com/MelnychenkoM/LLM-benchmark-dataset 。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653394",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653394",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.13.653394/index.html"
+}

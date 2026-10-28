@@ -1,0 +1,548 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.10.737806",
+  "title": "FUSED: A Functional Representation for Joint Structural and Elemental Analysis of Protein Ligand Binding Sites",
+  "doi": "10.64898/2026.07.10.737806",
+  "abstract": "Ligand binding site representations are central to the analysis of protein–ligand interactions, with applications in functional characterization, binding-site comparison, and ligand recognition. Many descriptor-based approaches characterize ligand binding sites using a fixed distance threshold from the ligand, despite substantial variability in how such thresholds are defined and the possibility that relevant structural and compositional information changes across spatial scales. We propose Functional Unification of Structural and Elemental Descriptors (FUSED), a multivariate functional representation that jointly models structural and elemental compositional information of ligand binding sites as functions of distance from the ligand. Structural information is captured through covariance-based descriptors derived from the CDPA framework, while chemical composition is represented through isometric log-ratio coordinates to account appropriately for compositional geometry. Treating distance from the ligand as a functional domain allows structural and compositional characteristics to be examined across distance thresholds rather than at a single prespecified value. The resulting representation can be used directly or combined with dimension-reduction, statistical-learning, and/or machine-learning procedures, with the distance interval tailored to the dataset, analytical task, and procedure. We evaluate FUSED on three benchmark datasets spanning complementary ligand binding-site analysis tasks: the Extended Kahraman dataset for multiclass ligand discrimination, TOUGH-C1 for binary binding-site classification, and TOUGH-M1 for pairwise matching of pockets associated with drug-like ligands. FUSED supports strong discrimination in the EK and TOUGH-C1 tasks using standard statistical-learning procedures, while a supervised Siamese neural network applied to the full FUSED representation achieves a mean ROC-AUC of 0.9375 on TOUGH-M1 under repeated sequence-cluster-disjoint evaluation, approaching the strongest reported benchmark performance. These results demonstrate that FUSED provides a flexible, alignment-free representation that supports both direct examination of threshold-dependent binding-site characteristics and competitive downstream classification and pocket matching while remaining computationally practical.",
+  "authors": [
+    "T.M. Sajith Priyankara",
+    "Leif Ellingson"
+  ],
+  "published_date": "2026-07-16",
+  "updated_date": "2026-07-16T15:25:31Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.10.737806",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.10.737806.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            11
+          ]
+        ],
+        "date-time": "2026-09-11T12:32:22Z",
+        "timestamp": 1789129942691,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 55,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                16
+              ]
+            ],
+            "date-time": "2026-07-16T00:00:00Z",
+            "timestamp": 1784160000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            9
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Ligand binding site representations are central to the analysis of protein–ligand interactions, with applications in functional characterization, binding-site comparison, and ligand recognition. Many descriptor-based approaches characterize ligand binding sites using a fixed distance threshold from the ligand, despite substantial variability in how such thresholds are defined and the possibility that relevant structural and compositional information changes across spatial scales.</jats:p>\n                <jats:p>We propose Functional Unification of Structural and Elemental Descriptors (FUSED), a multivariate functional representation that jointly models structural and elemental compositional information of ligand binding sites as functions of distance from the ligand. Structural information is captured through covariance-based descriptors derived from the CDPA framework, while chemical composition is represented through isometric log-ratio coordinates to account appropriately for compositional geometry. Treating distance from the ligand as a functional domain allows structural and compositional characteristics to be examined across distance thresholds rather than at a single prespecified value. The resulting representation can be used directly or combined with dimension-reduction, statistical-learning, and/or machine-learning procedures, with the distance interval tailored to the dataset, analytical task, and procedure.</jats:p>\n                <jats:p>We evaluate FUSED on three benchmark datasets spanning complementary ligand binding-site analysis tasks: the Extended Kahraman dataset for multiclass ligand discrimination, TOUGH-C1 for binary binding-site classification, and TOUGH-M1 for pairwise matching of pockets associated with drug-like ligands. FUSED supports strong discrimination in the EK and TOUGH-C1 tasks using standard statistical-learning procedures, while a supervised Siamese neural network applied to the full FUSED representation achieves a mean ROC-AUC of 0.9375 on TOUGH-M1 under repeated sequence-cluster-disjoint evaluation, approaching the strongest reported benchmark performance. These results demonstrate that FUSED provides a flexible, alignment-free representation that supports both direct examination of threshold-dependent binding-site characteristics and competitive downstream classification and pocket matching while remaining computationally practical.</jats:p>",
+      "DOI": "10.64898/2026.07.10.737806",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            16
+          ]
+        ],
+        "date-time": "2026-07-16T15:25:31Z",
+        "timestamp": 1784215531000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "FUSED: A Functional Representation for Joint Structural and Elemental Analysis of Protein Ligand Binding Sites"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5230-4039",
+          "authenticated-orcid": false,
+          "given": "T.M. Sajith",
+          "family": "Priyankara",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Mathematics and Statistics, Texas Tech University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Leif",
+          "family": "Ellingson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mathematics and Statistics, Texas Tech University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "4",
+          "key": "2026091105001083000_2026.07.10.737806v2.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "622",
+          "DOI": "10.1002/pro.5560040404",
+          "article-title": "Characterizing the microenvironment surrounding protein sites",
+          "volume": "4",
+          "year": "1995",
+          "journal-title": "Protein Science"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1010933404324"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jane Bromley , Isabelle Guyon , Yann LeCun , Eduard Säckinger , and Roopak Shah . Signature verification using a” siamese” time delay neural network. Advances in neural information processing systems, 6, 1993.",
+          "DOI": "10.1142/9789812797926_0003"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Michal Brylinski . Local alignment of ligand binding sites in proteins for polypharmacology and drug repositioning. Protein Function Prediction: Methods and Protocols, pages 109–122, 2017.",
+          "DOI": "10.1007/978-1-4939-7015-5_9"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jeng-Min Chiou , Yu-Ting Chen , and Ya-Fang Yang . Multivariate functional principal component analysis: A normalization approach. Statistica Sinica, pages 1571–1596, 2014.",
+          "DOI": "10.5705/ss.2013.305"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci900317x"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl124"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1023818214614"
+        },
+        {
+          "issue": "7",
+          "key": "2026091105001083000_2026.07.10.737806v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e40540",
+          "DOI": "10.1371/journal.pone.0040540",
+          "article-title": "Protein surface matching by combining local and global geometric information",
+          "volume": "7",
+          "year": "2012",
+          "journal-title": "PLOS one"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1834279100"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btad718"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.13",
+          "first-page": "1",
+          "article-title": "Regularization paths for generalized linear models via coordinate descent",
+          "volume": "33",
+          "year": "2010",
+          "journal-title": "Journal of statistical software"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.14",
+          "unstructured": "Bowen Gao , Yinjun Jia , Yuanle Mo , Yuyan Ni , Weiying Ma , Zhiming Ma , and Yanyan Lan . Profsa: Self-supervised pocket pretraining via protein fragment-surroundings align. 2023."
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt024"
+        },
+        {
+          "issue": "1",
+          "key": "2026091105001083000_2026.07.10.737806v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1186/s12859-018-2109-2",
+          "article-title": "Comparative assessment of strategies to identify similar ligand-binding pockets in proteins",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.17",
+          "first-page": "1735",
+          "volume-title": "In 2006 IEEE computer society conference on computer vision and pattern recognition (CVPR’06)",
+          "volume": "2",
+          "year": "2006"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1148/radiology.143.1.7063747"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty573"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.20",
+          "unstructured": "Trevor Hastie , Junyang Qian , and Kenneth Tay . An introduction to glmnet. https://glmnet.stanford.edu/articles/glmnet.html, May 2025. Accessed: 2025-10-25."
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(98)01253-5"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-1"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10683-023-09799-6"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-024-05699-5"
+        },
+        {
+          "issue": "8",
+          "key": "2026091105001083000_2026.07.10.737806v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0308425",
+          "DOI": "10.1371/journal.pone.0308425",
+          "article-title": "Protein ligand binding site prediction using graph transformer neural network",
+          "volume": "19",
+          "year": "2024",
+          "journal-title": "Plos one"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx350"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2007.01.086"
+        },
+        {
+          "issue": "1",
+          "key": "2026091105001083000_2026.07.10.737806v2.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "7624",
+          "DOI": "10.1038/s41598-022-10418-2",
+          "article-title": "Decoding the protein–ligand interactions using parallel graph neural networks",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.5b00586"
+        },
+        {
+          "issue": "1",
+          "key": "2026091105001083000_2026.07.10.737806v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.1186/s13321-018-0285-8",
+          "article-title": "P2rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti315"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300178e"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci4003602"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.5560070905"
+        },
+        {
+          "issue": "12",
+          "key": "2026091105001083000_2026.07.10.737806v2.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1002326",
+          "DOI": "10.1371/journal.pcbi.1002326",
+          "article-title": "Using multiple microenvironments to find similar ligand-binding sites: application to kinase inhibitor binding",
+          "volume": "7",
+          "year": "2011",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.36",
+          "article-title": "Decoupled weight decay regularization",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c01497"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn147"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.88.23.10495"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules27165114"
+        },
+        {
+          "issue": "4",
+          "key": "2026091105001083000_2026.07.10.737806v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0244905",
+          "DOI": "10.1371/journal.pone.0244905",
+          "article-title": "A mathematical representation of protein binding sites using structural dispersion of atoms from principal axes for classification of binding ligands",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "Plos one"
+        },
+        {
+          "issue": "2",
+          "key": "2026091105001083000_2026.07.10.737806v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006718",
+          "DOI": "10.1371/journal.pcbi.1006718",
+          "article-title": "Deepdrug3d: classification of ligand-binding pockets in proteins with a convolutional neural network",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.43",
+          "article-title": "Sentence-bert: Sentence embeddings using siamese bert-networks",
+          "year": "2019",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00832"
+        },
+        {
+          "issue": "10",
+          "key": "2026091105001083000_2026.07.10.737806v2.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "3077",
+          "DOI": "10.1093/bioinformatics/btaa094",
+          "article-title": "Bionoinet: ligand-binding site classification with off-the-shelf deep neural network",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki482"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00554"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btae745"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anuj Srivastava and Eric P Klassen . Functional and shape data analysis, volume 1. Springer, 2016.",
+          "DOI": "10.1007/978-1-4939-4020-2_1"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2009.0029"
+        },
+        {
+          "issue": "11",
+          "key": "2026091105001083000_2026.07.10.737806v2.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "2308",
+          "DOI": "10.1002/pro.5560061104",
+          "article-title": "Tess: a geometric hashing algorithm for deriving 3d coordinate templates for searching structural databases. application to enzyme active sites",
+          "volume": "6",
+          "year": "1997",
+          "journal-title": "Protein science"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt447"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-543"
+        },
+        {
+          "key": "2026091105001083000_2026.07.10.737806v2.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gengmo Zhou , Zhifeng Gao , Qiankun Ding , Hang Zheng , Hongteng Xu , Zhewei Wei , Linfeng Zhang , and Guolin Ke . Uni-mol: A universal 3d molecular representation learning framework. In The eleventh international conference on learning representations, 2023.",
+          "DOI": "10.26434/chemrxiv-2022-jjm0j-v4"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.10.737806",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            11
+          ]
+        ],
+        "date-time": "2026-09-11T12:00:23Z",
+        "timestamp": 1789128023000
+      },
+      "score": 98.278046,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737806"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            16
+          ]
+        ]
+      },
+      "references-count": 55,
+      "URL": "https://doi.org/10.64898/2026.07.10.737806",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

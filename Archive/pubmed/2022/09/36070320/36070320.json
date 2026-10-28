@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "36070320",
+    "doi": "10.1371/journal.pcbi.1010074",
+    "title": "Copper binding leads to increased dynamics in the regulatory N-terminal domain of full-length human copper transporter ATP7B."
+  },
+  "content": {
+    "abstract": "ATP7B is a human copper-transporting P1B-type ATPase that is involved in copper homeostasis and resistance to platinum drugs in cancer cells. ATP7B consists of a copper-transporting core and a regulatory N-terminal tail that contains six metal-binding domains (MBD1-6) connected by linker regions. The MBDs can bind copper, which changes the dynamics of the regulatory domain and activates the protein, but the underlying mechanism remains unknown. To identify possible copper-specific structural dynamics involved in transport regulation, we constructed a model of ATP7B spanning the N-terminal tail and core catalytic domains and performed molecular dynamics (MD) simulations with (holo) and without (apo) copper ions bound to the MBDs. In the holo protein, MBD2, MBD3 and MBD5 showed enhanced mobilities, which resulted in a more extended N-terminal regulatory region. The observed separation of MBD2 and MBD3 from the core protein supports a mechanism where copper binding activates the ATP7B protein by reducing interactions among MBD1-3 and between MBD1-3 and the core protein. We also observed an increased interaction between MBD5 and the core protein that brought the copper-binding site of MBD5 closer to the high-affinity internal copper-binding site in the core protein. The simulation results assign specific, mechanistic roles to the metal-binding domains involved in ATP7B regulation that are testable in experimental settings.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Copper",
+      "*Copper-Transporting ATPases/chemistry/metabolism",
+      "DNA-Binding Proteins/metabolism",
+      "Humans",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oradd, Fredrik",
+        "Steffen, Jonas Hyld",
+        "Gourdon, Pontus",
+        "Andersson, Magnus"
+      ],
+      "short_names": [
+        "Oradd F",
+        "Steffen JH",
+        "Gourdon P",
+        "Andersson M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0706-7414",
+        "ORCID: 0000-0003-2930-0122",
+        "ORCID: 0000-0002-8631-3539",
+        "ORCID: 0000-0002-3364-6647"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Umea University, Umea, Sweden.",
+        "Department of Biomedical Sciences, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Biomedical Sciences, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Experimental Medical Science, Lund University, Lund, Sweden.",
+        "Department of Chemistry, Umea University, Umea, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Orädd, Fredrik",
+        "short_name": "Orädd F",
+        "identifiers": [
+          "0000-0002-0706-7414"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Umeå University, Umeå, Sweden."
+        ]
+      },
+      {
+        "full_name": "Steffen, Jonas Hyld",
+        "short_name": "Steffen JH",
+        "identifiers": [
+          "0000-0003-2930-0122"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Gourdon, Pontus",
+        "short_name": "Gourdon P",
+        "identifiers": [
+          "0000-0002-8631-3539"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Copenhagen, Copenhagen, Denmark.",
+          "Department of Experimental Medical Science, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Andersson, Magnus",
+        "short_name": "Andersson M",
+        "identifiers": [
+          "0000-0002-3364-6647"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Umeå University, Umeå, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/08 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "42579157",
+      "41847123",
+      "38693584",
+      "38538615",
+      "38014334",
+      "36208051"
+    ],
+    "refs": [
+      "35245129",
+      "34791371",
+      "34368623",
+      "34265844",
+      "34172751",
+      "32748830",
+      "31321400",
+      "31243363",
+      "31187846",
+      "31176065",
+      "30304492",
+      "29394468",
+      "29330485",
+      "29063292",
+      "28900031",
+      "28842499",
+      "28271598",
+      "27926843",
+      "27819658",
+      "27131374",
+      "26797276",
+      "26619985",
+      "26132333",
+      "25956886",
+      "25755520",
+      "25253690",
+      "25130509",
+      "24782522",
+      "24317491",
+      "23751120",
+      "23500486",
+      "23029640",
+      "22692182",
+      "22075424",
+      "21820315",
+      "21716286",
+      "21406592",
+      "20496934",
+      "20078131",
+      "20032459",
+      "19898464",
+      "19851794",
+      "19645496",
+      "19580743",
+      "19449859",
+      "19151095",
+      "19033537",
+      "18979168",
+      "18558714",
+      "18547529",
+      "18417453",
+      "18351591",
+      "17616150",
+      "17615395",
+      "17531189",
+      "17388422",
+      "16571664",
+      "16567646",
+      "15994426",
+      "15071553",
+      "14754885",
+      "12821289",
+      "12794172",
+      "12763867",
+      "11053407",
+      "10677240",
+      "10212214",
+      "9895674",
+      "9654149",
+      "8744570"
+    ],
+    "similar": [
+      "36070320",
+      "31321400",
+      "28900031",
+      "29330485",
+      "29063292",
+      "20032459",
+      "28653724",
+      "34461106",
+      "32748830",
+      "19405516",
+      "28842499",
+      "28271598",
+      "33094790",
+      "23075277",
+      "27744583",
+      "38538615",
+      "25253690",
+      "30173886",
+      "21455266",
+      "12426114",
+      "34831341",
+      "31187846",
+      "19449859",
+      "26797276",
+      "16939419",
+      "20078131",
+      "20799727",
+      "14732483",
+      "11527979",
+      "15134922",
+      "25666620",
+      "23751120",
+      "10212214",
+      "16567646",
+      "18203200",
+      "17919502",
+      "14998371",
+      "35245129",
+      "19141620",
+      "25899340",
+      "16554302",
+      "21258844",
+      "10491137",
+      "22459168",
+      "31751595",
+      "19090784",
+      "12539961",
+      "23803742",
+      "30087448",
+      "10830865",
+      "12029094",
+      "17268820",
+      "19173677",
+      "12820478",
+      "19520855",
+      "29473088",
+      "31596515",
+      "31070637",
+      "31790150",
+      "31515276",
+      "30643139",
+      "12551905",
+      "35053335",
+      "30706949",
+      "24706876",
+      "9837819",
+      "22692182",
+      "18558714",
+      "18222167",
+      "21189263",
+      "15634671",
+      "30452922",
+      "9407118",
+      "9785470",
+      "15205462",
+      "17229731",
+      "22578168",
+      "30980273",
+      "24813262",
+      "26988911",
+      "23029640",
+      "32139726",
+      "12539960",
+      "30723317",
+      "29732486",
+      "19470734",
+      "19033537",
+      "22130675",
+      "18000748",
+      "21454443",
+      "19364131",
+      "30341172",
+      "30120852",
+      "11802810",
+      "15963506"
+    ],
+    "review": [
+      "36070320",
+      "29063292",
+      "28271598",
+      "21455266",
+      "12426114",
+      "12539961",
+      "17268820",
+      "29473088",
+      "9785470",
+      "12539960"
+    ],
+    "pmc": [
+      "9484656"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010074",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36070320/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36070320",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MBD1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3551",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36070320",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

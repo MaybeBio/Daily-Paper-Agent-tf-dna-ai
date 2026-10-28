@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42694440",
+  "title": "Network-based integrative analysis of multi-level regulatory mechanisms associated with glyphosate exposure.",
+  "authors": "Consuegra-Mayor, Claudia; Arroyo-Salgado, Barbara; Olivero-Verbel, Jesus",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2026-09-04",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文整合多源数据与AI检索分析草甘膦暴露相关基因网络，虽含上游转录因子调控推断，但核心是基因表达与PPI网络，缺乏TF-DNA结合位点预测或三维互作建模，方法上无AI/物理模拟的互作机制研究，仅边缘相关。",
+  "abstract": "Understanding the molecular effects associated with glyphosate exposure remains challenging due to the fragmentation of available evidence across heterogeneous data sources. This study aimed to integrate heterogeneous molecular evidence related to glyphosate exposure through a reproducible systems biology workflow in order to prioritize human genes, regulatory networks, and biological processes associated with glyphosate. Multiple platforms, including the Comparative Toxicogenomics Database (CTD), GeneShot, and GeneCards, were queried and complemented with artificial intelligence-assisted information retrieval. Genes present in at least two independent sources were selected, and additional candidates were obtained from transcriptomic datasets using GEO2R. Gene identifiers were standardized according to the HUGO Gene Nomenclature Committee (HGNC). Functional enrichment and protein-protein interaction (PPI) network analyses were performed using STRING and Cytoscape, and hub genes were identified using the cytoHubba plugin. In addition, upstream transcription factor analysis was conducted to identify potential regulatory drivers of the gene network. The resulting consensus dataset was subsequently analyzed using protein-protein interaction networks, functional enrichment, and upstream regulatory inference. The integrative workflow prioritized a core set of 50 genes was identified, with key hub genes including TP53, BCL2, IL6, CASP3, ALB, and TNF. Enrichment analyses revealed a consistent overrepresentation of pathways related to cellular stress response, apoptosis, endocrine signaling, and cancer, along with a specific epigenetic signal associated with DNA methylation. Upstream regulatory analysis identified key transcription factors linked to hormonal signaling, cellular stress response, and transcriptional control, further supporting the hierarchical organization of the gene network. Gene-disease and phenotype associations further highlighted links with hepatobiliary disorders, neoplastic processes, and endocrine alterations. Overall, this integrative systems biology framework provides a comprehensive view of the molecular architecture associated with glyphosate exposure, prioritizing candidate genes, regulatory networks, and biological processes for hypothesis generation and future experimental and epidemiological validation.",
+  "abstract_zh": "由于现有证据分散于异质性数据源中，理解草甘膦暴露相关的分子效应仍具挑战性。本研究旨在通过可重复的系统生物学工作流程，整合与草甘膦暴露相关的异质性分子证据，以优先排序与草甘膦相关的人类基因、调控网络和生物过程。查询了多个平台，包括比较毒物基因组学数据库 (Comparative Toxicogenomics Database, CTD)、GeneShot 和 GeneCards，并辅以人工智能辅助信息检索。选取至少出现在两个独立来源中的基因，并使用GEO2R从转录组数据集中获得额外候选基因。基因标识符根据人类基因命名委员会 (HUGO Gene Nomenclature Committee, HGNC) 进行标准化。使用STRING和Cytoscape进行功能富集和蛋白质-蛋白质相互作用 (protein-protein interaction, PPI) 网络分析，并使用cytoHubba插件识别枢纽基因。此外，进行了上游转录因子分析，以识别基因网络的潜在调控驱动因子。随后，使用蛋白质-蛋白质相互作用网络、功能富集和上游调控推断分析所得共识数据集。该整合工作流程优先排序了一个核心的50个基因集，关键枢纽基因包括TP53、BCL2、IL6、CASP3、ALB和TNF。富集分析揭示，与细胞应激反应、凋亡、内分泌信号传导和癌症相关的通路持续过度表达，并伴有与DNA甲基化相关的特定表观遗传信号。上游调控分析识别了与激素信号传导、细胞应激反应和转录控制相关的关键转录因子，进一步支持了基因网络的层级组织。基因-疾病和表型关联进一步突出了与肝胆疾病、肿瘤过程和内分泌改变的关联。总体而言，该整合系统生物学框架提供了与草甘膦暴露相关分子架构的全面视图，优先排序了候选基因、调控网络和生物过程，以用于假设生成及未来的实验和流行病学验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42694440/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42694440/",
+  "paper_page_path": "papers/pubmed/42694440/index.html"
+}

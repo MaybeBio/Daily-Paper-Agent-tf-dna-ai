@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "34208139",
+    "doi": "10.3390/ijms22126289",
+    "title": "PML Differentially Regulates Growth and Invasion in Brain Cancer."
+  },
+  "content": {
+    "abstract": "Glioblastoma is the most malignant brain tumor among adults. Despite multimodality treatment, it remains incurable, mainly because of its extensive heterogeneity and infiltration in the brain parenchyma. Recent evidence indicates dysregulation of the expression of the Promyelocytic Leukemia Protein (PML) in primary Glioblastoma samples. PML is implicated in various ways in cancer biology. In the brain, PML participates in the physiological migration of the neural progenitor cells, which have been hypothesized to serve as the cell of origin of Glioblastoma. The role of PML in Glioblastoma progression has recently gained attention due to its controversial effects in overall Glioblastoma evolution. In this work, we studied the role of PML in Glioblastoma pathophysiology using the U87MG cell line. We genetically modified the cells to conditionally overexpress the PML isoform IV and we focused on its dual role in tumor growth and invasive capacity. Furthermore, we targeted a PML action mediator, the Enhancer of Zeste Homolog 2 (EZH2), via the inhibitory drug DZNeP. We present a combined in vitro-in silico approach, that utilizes both 2D and 3D cultures and cancer-predictive computational algorithms, in order to differentiate and interpret the observed biological results. Our overall findings indicate that PML regulates growth and invasion through distinct cellular mechanisms. In particular, PML overexpression suppresses cell proliferation, while it maintains the invasive capacity of the U87MG Glioblastoma cells and, upon inhibition of the PML-EZH2 pathway, the invasion is drastically eliminated. Our in silico simulations suggest that the underlying mechanism of PML-driven Glioblastoma physiology regulates invasion by differential modulation of the cell-to-cell adhesive and diffusive capacity of the cells. Elucidating further the role of PML in Glioblastoma biology could set PML as a potential molecular biomarker of the tumor progression and its mediated pathway as a therapeutic target, aiming at inhibiting cell growth and potentially clonal evolution regarding their proliferative and/or invasive phenotype within the heterogeneous tumor mass.",
+    "keywords": [
+      "Glioblastoma",
+      "PML",
+      "brain",
+      "cancer",
+      "in silico modeling",
+      "in vitro imaging"
+    ],
+    "mesh_terms": [
+      "Brain Neoplasms/*metabolism/*pathology",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Computer Simulation",
+      "Humans",
+      "Models, Biological",
+      "Neoplasm Invasiveness",
+      "Promyelocytic Leukemia Protein/*metabolism",
+      "Spheroids, Cellular/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tampakaki, Maria",
+        "Oraiopoulou, Mariam-Eleni",
+        "Tzamali, Eleftheria",
+        "Tzedakis, Giorgos",
+        "Makatounakis, Takis",
+        "Zacharakis, Giannis",
+        "Papamatheakis, Joseph",
+        "Sakkalis, Vangelis"
+      ],
+      "short_names": [
+        "Tampakaki M",
+        "Oraiopoulou ME",
+        "Tzamali E",
+        "Tzedakis G",
+        "Makatounakis T",
+        "Zacharakis G",
+        "Papamatheakis J",
+        "Sakkalis V"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6897-769X",
+        "ORCID: 0000-0002-0545-9860",
+        "ORCID: 0000-0003-4701-850X"
+      ],
+      "affiliations": [
+        "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+        "School of Medicine, University of Crete, 71003 Heraklion, Greece.",
+        "Institute of Electronic Structure and Laser, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+        "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+        "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+        "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+        "Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+        "Institute of Electronic Structure and Laser, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+        "Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+        "Department of Biology, University of Crete, 70013 Heraklion, Greece.",
+        "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tampakaki, Maria",
+        "short_name": "Tampakaki M",
+        "identifiers": [
+          "0000-0002-6897-769X"
+        ],
+        "affiliations": [
+          "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+          "School of Medicine, University of Crete, 71003 Heraklion, Greece.",
+          "Institute of Electronic Structure and Laser, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Oraiopoulou, Mariam-Eleni",
+        "short_name": "Oraiopoulou ME",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Tzamali, Eleftheria",
+        "short_name": "Tzamali E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Tzedakis, Giorgos",
+        "short_name": "Tzedakis G",
+        "identifiers": [
+          "0000-0002-0545-9860"
+        ],
+        "affiliations": [
+          "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Makatounakis, Takis",
+        "short_name": "Makatounakis T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Zacharakis, Giannis",
+        "short_name": "Zacharakis G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Electronic Structure and Laser, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Papamatheakis, Joseph",
+        "short_name": "Papamatheakis J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece.",
+          "Department of Biology, University of Crete, 70013 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Sakkalis, Vangelis",
+        "short_name": "Sakkalis V",
+        "identifiers": [
+          "0000-0003-4701-850X"
+        ],
+        "affiliations": [
+          "Institute of Computer Science, Foundation for Research and Technology-Hellas, 70013 Heraklion, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Jun 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/03 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "40424933",
+      "38730056",
+      "36765396",
+      "35803926"
+    ],
+    "refs": [
+      "33042800",
+      "32737377",
+      "32101537",
+      "31383287",
+      "30927552",
+      "30385804",
+      "29416846",
+      "29226151",
+      "29118112",
+      "28700942",
+      "27553708",
+      "27157931",
+      "26866479",
+      "26578773",
+      "26456685",
+      "26218124",
+      "25635044",
+      "24946761",
+      "24698714",
+      "23951083",
+      "23847764",
+      "23734343",
+      "23440206",
+      "21587162",
+      "21248841",
+      "20670830",
+      "19964265",
+      "19655272",
+      "19136970",
+      "18852721",
+      "18806826",
+      "17928811",
+      "16713073",
+      "16709036",
+      "16452218",
+      "15781426",
+      "14970276",
+      "11704850"
+    ],
+    "similar": [
+      "34208139",
+      "28700942",
+      "30385804",
+      "26510911",
+      "30376874",
+      "28691927",
+      "32231148",
+      "28610554",
+      "27454178",
+      "22542810",
+      "24878287",
+      "17786368",
+      "28571041",
+      "28239645",
+      "28069038",
+      "27176481",
+      "27049916",
+      "24712441",
+      "25626081",
+      "29782850",
+      "29132376",
+      "27911279",
+      "30357839",
+      "8971836",
+      "18212741",
+      "26320116",
+      "29240260",
+      "32659303",
+      "23968587",
+      "37335907",
+      "29378533",
+      "29345889",
+      "17040992",
+      "29059154",
+      "16712401",
+      "29226151",
+      "30967592",
+      "25850884",
+      "19344303",
+      "11713578",
+      "32791096",
+      "18070450",
+      "28849046",
+      "26354425",
+      "31186379",
+      "31383287",
+      "27655131",
+      "30015879",
+      "31432186",
+      "32506247",
+      "28607172",
+      "17676121",
+      "18812519",
+      "10576656",
+      "14631378",
+      "25586062",
+      "25504636",
+      "28412969",
+      "33581134",
+      "30305602",
+      "25303017",
+      "27419830",
+      "27705947",
+      "29864158",
+      "22719241",
+      "29948550",
+      "17629503",
+      "39135528",
+      "19366801",
+      "35914528",
+      "32101537",
+      "37203371",
+      "15887530",
+      "34189581",
+      "35053605",
+      "39097525",
+      "36757917",
+      "25099885",
+      "35377875",
+      "21465465",
+      "30627438",
+      "22679124",
+      "37055469",
+      "21301063",
+      "34615941",
+      "33299973",
+      "35960012",
+      "34200693"
+    ],
+    "review": [
+      "34208139",
+      "17629503",
+      "35053605",
+      "21465465",
+      "22679124"
+    ],
+    "pmc": [
+      "8230868"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22126289",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34208139/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34208139",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34208139",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

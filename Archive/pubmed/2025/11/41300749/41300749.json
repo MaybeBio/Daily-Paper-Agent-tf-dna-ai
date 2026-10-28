@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "41300749",
+    "doi": "10.3390/genes16111296",
+    "title": "Integrative Bioinformatics Analysis Reveals Key Regulatory Genes and Therapeutic Targets in Ulcerative Colitis Pathogenesis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ulcerative colitis (UC), a chronic and relapsing form of inflammatory bowel disease (IBD), arises from a multifactorial interplay of genetic predisposition, immune dysregulation, and environmental triggers. Despite advances in understanding UC pathogenesis, the identification of reliable biomarkers and key regulatory genes remains essential for unraveling disease mechanisms. Such insights are crucial for improving diagnostic precision and developing personalized therapeutic strategies. METHODS: In this study, gene expression profiles from publicly available microarray and RNA-sequencing datasets were systematically analyzed using advanced bioinformatics tools. Differentially expressed genes (DEGs) were identified through statistical comparisons, and functional enrichment analyses were performed to explore their biological relevance. A total of 141 overlapping DEGs were extracted from three GEO datasets, and 20 key DEGs were further prioritized via protein-protein interaction (PPI) network construction. Hub genes, relevant signaling pathways, associated transcription factors (TFs), and microRNAs (miRNAs) linked to disease progression were identified. Potential therapeutic compounds were also predicted through computational drug-gene interaction analysis. RESULTS: The analysis revealed a panel of novel biomarkers-TLR2, IFNG, CD163, CXCL9, CCL4, PRF1, TLR8, ARG1, LILRB2, FPR2, and PPARG-that function as key hub genes implicated in ulcerative colitis (UC) pathogenesis. These genes were associated with critical biological processes including signal transduction, inflammatory and immune responses, proteolysis, lipid transport, and cholesterol/triglyceride homeostasis. Furthermore, transcription factors (FOXC1, GABPA, GATA2, SUPT5H) and microRNAs (hsa-miR-34a-5p, hsa-miR-335-5p, hsa-miR-24-3p, hsa-miR-23a-5p, hsa-miR-26a-5p) revealed key regulatory networks influencing post-transcriptional gene regulation. Molecular docking analysis predicted Apremilast and Golotimod as promising therapeutic candidates for UC intervention. CONCLUSIONS: In conclusion, this study enhances our understanding of ulcerative colitis pathogenesis by identifying key biomarkers and therapeutic targets, paving the way for future advancements in personalized diagnosis and treatment strategies.",
+    "keywords": [
+      "bioinformatics",
+      "biomarkers",
+      "diagnosis",
+      "drug candidates",
+      "hub genes",
+      "immune response",
+      "molecular docking",
+      "network analysis",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "*Colitis, Ulcerative/genetics/drug therapy/pathology",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Gene Regulatory Networks",
+      "Protein Interaction Maps/genetics",
+      "MicroRNAs/genetics",
+      "Biomarkers/metabolism",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Gene Expression Regulation",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rahman, Sheikh Atikur",
+        "Khatun, Mst Tania",
+        "Singh, Mahendra",
+        "Biswas, Viplov Kumar",
+        "Hoque, Forkanul",
+        "Zaman, Nurun Nesa",
+        "Parvin, Anzana",
+        "Uddin, Mohammad Khaja Mafij",
+        "Sheikh, Md Mominul Islam",
+        "Begum, Most Morium",
+        "Arya, Rakesh",
+        "Faruquee, Hossain Md"
+      ],
+      "short_names": [
+        "Rahman SA",
+        "Khatun MT",
+        "Singh M",
+        "Biswas VK",
+        "Hoque F",
+        "Zaman NN",
+        "Parvin A",
+        "Uddin MKM",
+        "Sheikh MMI",
+        "Begum MM",
+        "Arya R",
+        "Faruquee HM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3030-0242",
+        "ORCID: 0009-0004-6290-5064",
+        "ORCID: 0000-0003-2089-0891",
+        "ORCID: 0000-0002-7596-8441"
+      ],
+      "affiliations": [
+        "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh.",
+        "Department of Pharmacy, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh.",
+        "Department of Biotechnology, Yeungnam University, Gyeongsan 38541, Republic of Korea.",
+        "Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Whitehead Biomedical Research, 615 Michael Street, Atlanta, GA 30322, USA.",
+        "Department of Pharmacy, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh.",
+        "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Dhaka 1212, Bangladesh.",
+        "Nano Project Group, Research & Development Institute, Moorim P&P Co., Ltd., Ulju-gun, Ulsan 45011, Republic of Korea.",
+        "Department of Agriculture, Rabindra Maitree University, Kushtia 7000, Bangladesh.",
+        "Department of Biotechnology, Yeungnam University, Gyeongsan 38541, Republic of Korea.",
+        "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rahman, Sheikh Atikur",
+        "short_name": "Rahman SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Khatun, Mst Tania",
+        "short_name": "Khatun MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Singh, Mahendra",
+        "short_name": "Singh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Yeungnam University, Gyeongsan 38541, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Biswas, Viplov Kumar",
+        "short_name": "Biswas VK",
+        "identifiers": [
+          "0000-0003-3030-0242"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Whitehead Biomedical Research, 615 Michael Street, Atlanta, GA 30322, USA."
+        ]
+      },
+      {
+        "full_name": "Hoque, Forkanul",
+        "short_name": "Hoque F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Zaman, Nurun Nesa",
+        "short_name": "Zaman NN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Parvin, Anzana",
+        "short_name": "Parvin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Uddin, Mohammad Khaja Mafij",
+        "short_name": "Uddin MKM",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Dhaka 1212, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sheikh, Md Mominul Islam",
+        "short_name": "Sheikh MMI",
+        "identifiers": [
+          "0009-0004-6290-5064"
+        ],
+        "affiliations": [
+          "Nano Project Group, Research & Development Institute, Moorim P&P Co., Ltd., Ulju-gun, Ulsan 45011, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Begum, Most Morium",
+        "short_name": "Begum MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agriculture, Rabindra Maitree University, Kushtia 7000, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Arya, Rakesh",
+        "short_name": "Arya R",
+        "identifiers": [
+          "0000-0003-2089-0891"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Yeungnam University, Gyeongsan 38541, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Faruquee, Hossain Md",
+        "short_name": "Faruquee HM",
+        "identifiers": [
+          "0000-0002-7596-8441"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 06:28",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40012095",
+      "39994449",
+      "39680254",
+      "39448682",
+      "39384730",
+      "39111872",
+      "38865850",
+      "38709823",
+      "38446584",
+      "38065859",
+      "37240465",
+      "36741232",
+      "36375793",
+      "36092245",
+      "35950375",
+      "35914128",
+      "35452485",
+      "35325185",
+      "35185813",
+      "35173617",
+      "35054093",
+      "34011981",
+      "33839742",
+      "33144895",
+      "32410383",
+      "32184815",
+      "31680165",
+      "31678629",
+      "31667468",
+      "31648574",
+      "31347003",
+      "31110304",
+      "30931480",
+      "30483593",
+      "30146762",
+      "30063466",
+      "30060941",
+      "29856726",
+      "29794965",
+      "29126136",
+      "28700533",
+      "28625817",
+      "28529100",
+      "28256516",
+      "27580687",
+      "27243595",
+      "27135604",
+      "25860834",
+      "25521941",
+      "25469007",
+      "24424198",
+      "23941831",
+      "23334784",
+      "22900885",
+      "22262713",
+      "17156150",
+      "12963322",
+      "11905821",
+      "11854180",
+      "11483584",
+      "10802651"
+    ],
+    "similar": [
+      "41300749",
+      "33941565",
+      "38839916",
+      "33407587",
+      "38891888",
+      "39028999",
+      "39673621",
+      "40729322",
+      "40155679",
+      "41094572",
+      "35392084",
+      "32299382",
+      "41481752",
+      "39238649",
+      "40597456",
+      "40068024",
+      "36104591",
+      "39153206",
+      "40826767",
+      "39766348",
+      "39080630",
+      "35719390",
+      "41009970",
+      "38268224",
+      "40834023",
+      "28944823",
+      "41192647",
+      "41052072",
+      "40748585",
+      "40701122",
+      "33462173",
+      "41193860",
+      "35390032",
+      "40574839",
+      "41196851",
+      "39116715",
+      "38717954",
+      "33132321",
+      "34536521",
+      "40021664",
+      "32041280",
+      "41465132",
+      "40595862",
+      "36991484",
+      "36291136",
+      "33347387",
+      "34190177",
+      "31377428",
+      "31311829",
+      "28952134",
+      "37776011",
+      "39273699",
+      "39342024",
+      "33144895",
+      "32190668",
+      "39766817",
+      "32435051",
+      "40818967",
+      "34600545",
+      "34313877",
+      "39973855",
+      "38393632",
+      "40287845",
+      "36647068",
+      "34734085",
+      "37494129",
+      "38308210",
+      "39037979",
+      "40859509",
+      "41291892",
+      "34777635",
+      "39080525",
+      "35716513",
+      "37335372",
+      "30865617",
+      "40406126",
+      "34041839",
+      "25189652",
+      "38873601",
+      "36420648",
+      "39367003",
+      "37063926",
+      "39118438",
+      "40347801",
+      "34390411",
+      "38987612",
+      "41439195",
+      "39512836",
+      "36536067",
+      "32597160",
+      "29032608",
+      "39955676",
+      "39820173",
+      "36076300",
+      "36854781",
+      "40119934",
+      "38549107",
+      "34861820",
+      "31703725",
+      "34218797"
+    ],
+    "review": [
+      "41300749",
+      "40748585"
+    ],
+    "pmc": [
+      "12652001"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes16111296",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41300749/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CXCL9-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3893",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

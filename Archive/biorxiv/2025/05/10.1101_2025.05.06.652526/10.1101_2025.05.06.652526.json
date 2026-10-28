@@ -1,0 +1,441 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.06.652526",
+  "title": "Transcription Factor (TF) validation using Dam-IT simultaneously captures genome-wide TF-DNA binding, direct gene regulation, and chromatin accessibility in plant cells",
+  "doi": "10.1101/2025.05.06.652526",
+  "abstract": "Transcription Factors (TFs) govern vast networks of gene regulation. However, TF-DNA binding and TF-gene regulation datasets are typically measured separately due to experimental constraints, making it challenging to disentangle true biological relationships from batch effects. To fill this gap, we developed Dam ID-seq I ncorporating T ranscriptomics (Dam-IT), which simultaneously captures TF-DNA binding, direct TF-gene regulation, and chromatin accessibility in the same batch of cells. Dam-IT uses a transient cell-based TF-target validation system that is scalable and flexible to many experimental designs. As proof of concept, we used Dam-IT to reveal that bZIP1 directly regulates genes by binding to DNA regions of relatively low chromatin accessibility, supporting a “Hit-and-Run” mechanism of transcription.",
+  "authors": [
+    "Will E. Hinckley",
+    "Austen Jack",
+    "Aurelia Li",
+    "Samantha Frangos",
+    "Angelo Pasquino",
+    "Shao-shan Carol Huang",
+    "Gloria M. Coruzzi"
+  ],
+  "published_date": "2025-05-11",
+  "updated_date": "2025-05-11T17:10:11Z",
+  "journal": "bioRxiv",
+  "category": "Systems Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.06.652526",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.06.652526.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Systems Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Systems Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T04:47:45Z",
+        "timestamp": 1775969265972,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            11
+          ]
+        ]
+      },
+      "group-title": "Systems Biology",
+      "reference-count": 22,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                11
+              ]
+            ],
+            "date-time": "2025-05-11T00:00:00Z",
+            "timestamp": 1746921600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "NIH",
+          "award": [
+            "R35GM138143"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM138143"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "1 R01 GM121753"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1 R01 GM121753"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "1T32GM132037-01"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1T32GM132037-01"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Transcription Factors (TFs) govern vast networks of gene regulation. However, TF-DNA binding and TF-gene regulation datasets are typically measured separately due to experimental constraints, making it challenging to disentangle true biological relationships from batch effects. To fill this gap, we developed\n                  <jats:underline>Dam</jats:underline>\n                  ID-seq\n                  <jats:underline>I</jats:underline>\n                  ncorporating\n                  <jats:underline>T</jats:underline>\n                  ranscriptomics (Dam-IT), which simultaneously captures TF-DNA binding, direct TF-gene regulation, and chromatin accessibility in the same batch of cells. Dam-IT uses a transient cell-based TF-target validation system that is scalable and flexible to many experimental designs. As proof of concept, we used Dam-IT to reveal that bZIP1 directly regulates genes by binding to DNA regions of relatively low chromatin accessibility, supporting a “Hit-and-Run” mechanism of transcription.\n                </jats:p>",
+      "DOI": "10.1101/2025.05.06.652526",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            11
+          ]
+        ],
+        "date-time": "2025-05-11T17:10:11Z",
+        "timestamp": 1746983411000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Transcription Factor (TF) validation using Dam-IT simultaneously captures genome-wide TF-DNA binding, direct gene regulation, and chromatin accessibility in plant cells"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9197-4972",
+          "authenticated-orcid": false,
+          "given": "Will E.",
+          "family": "Hinckley",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Austen",
+          "family": "Jack",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aurelia",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-1359-276X",
+          "authenticated-orcid": false,
+          "given": "Samantha",
+          "family": "Frangos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1715-0892",
+          "authenticated-orcid": false,
+          "given": "Angelo",
+          "family": "Pasquino",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7811-0398",
+          "authenticated-orcid": false,
+          "given": "Shao-shan Carol",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2608-2166",
+          "authenticated-orcid": false,
+          "given": "Gloria M.",
+          "family": "Coruzzi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.038"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aag1550"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/pbi.14029"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/74487"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.139261"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0150-y"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.32341"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-14979-6"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13072-019-0273-x"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-3354-0_7"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/mp/sst010"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09522-1"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1404657111"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molp.2021.01.001"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-08916-0"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms2650"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp335"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-016-2410-2"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/336427a0"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1752-0509-4-111"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.201400186"
+        },
+        {
+          "key": "2026041121255346000_2025.05.06.652526v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.201400205"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.06.652526",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T04:25:56Z",
+        "timestamp": 1775967956000
+      },
+      "score": 141.97658,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.06.652526"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            11
+          ]
+        ]
+      },
+      "references-count": 22,
+      "URL": "https://doi.org/10.1101/2025.05.06.652526",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

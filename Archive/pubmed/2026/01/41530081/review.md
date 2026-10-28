@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the provided text; figure/table contents are referenced but not directly inspectable
+- **Shared manuscript claim summary** The authors use biased all-atom MD simulations with the RBB-NA algorithm to construct two-dimensional free energy landscapes for six DNA dodecamers as a function of roll and twist. They report sequence-dependent kinkability, asymmetric free energy surfaces for positive vs negative roll, two distinct kink types (twist-bend and pure-bend), and substantial deviations from harmonic models at large deformations.
+- **Visible evidence base** Text descriptions of free energy landscapes, model fits, and comparisons to crystallographic data; references to Figures 1–5, Tables 1–2, and Supporting Information Figures S1–S4, S8
+- **Missing materials affecting confidence** All figures, tables, and supplementary material; simulation convergence metrics; error bars or statistical uncertainties on free energy estimates; force field validation details; sequence selection rationale
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in DNA mechanics: how does DNA behave under extreme bending, beyond the harmonic regime? The use of RBB-NA to systematically probe roll-twist space is methodologically appropriate and represents a useful advance. The central claims, however, rest on evidence that cannot be fully evaluated from the text alone. The reported asymmetry between positive and negative roll, the identification of two kink types, and the quantitative free energy comparisons all depend on figures and tables not provided. The manuscript is well written and the conceptual framing is clear, but the evidentiary base as presented is insufficient to fully establish the core conclusions.
+- **Who would be interested in the results, and why** Researchers in DNA biophysics, computational chemistry, and structural biology would find these results relevant. The work speaks directly to ongoing efforts to parameterize coarse-grained DNA models beyond quadratic approximations, and to understand sequence-dependent DNA mechanics in protein-DNA recognition, supercoiling, and chromatin organization. The methodological demonstration of RBB-NA for systematic kink exploration will interest practitioners of enhanced sampling simulations.
+- **Major strengths** The manuscript addresses a significant gap in understanding DNA mechanics at extreme deformations. The RBB-NA approach is well suited to the problem, and the comparison between cgDNA+ and all-atom results provides a useful cross-validation. The distinction between twist-bend and pure-bend kinks is conceptually valuable and connects to existing literature on protein-DNA complexes and minicircle simulations. The discussion of force field limitations is thoughtful and appropriately cautious.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that free energy landscapes reveal sequence-dependent kinkability and two distinct kink types (twist-bend and pure-bend), with quantitative differences between sequences.
+  - **Evidence pointer** Figures 3, 4, 5; Table 2; location not provided for specific values
+  - **Concern** The central quantitative claims are presented through figures and tables that are not available for inspection. The text describes trends and differences, but without the actual free energy surfaces, fitted parameters, or uncertainty estimates, the reader cannot assess the magnitude of reported effects, the quality of the fits, or whether the claimed distinctions between sequences and kink types are statistically robust.
+  - **Why it matters** The core contribution is the characterization of free energy landscapes. If the underlying data are not inspectable, the claims cannot be verified or reproduced. The distinction between twist-bend and pure-bend kinks, and the claim that some sequences show inflection points while others do not, requires direct visual or numerical evidence.
+  - **Resolution test** Provide the figures and tables with clear axis labels, contour levels, and uncertainty estimates. Include fitted parameters with confidence intervals and statistical tests for differences between sequences and between positive/negative roll regions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that RBB-NA simulations with K = 100 kJ/mol and 1 ns runs per window provide converged free energy estimates, and that 5 ns runs give overlapping results (Figure S4).
+  - **Evidence pointer** Materials and Methods, "Biasing All-Atom Simulations" section; Figure S4; location not provided
+  - **Concern** Convergence of free energy estimates from umbrella sampling is critical. The text mentions that 1 ns and 5 ns runs give overlapping free energies, but no quantitative convergence metrics are provided. The choice of K = 100 kJ/mol is justified only by reference to overlapping histograms, without showing histogram overlap or autocorrelation times. The number of windows (implied by the grid of ρ̅ and γ values) is not stated explicitly.
+  - **Why it matters** If the simulations are not fully converged, the reported free energy landscapes could be biased, and the claimed anharmonic features (inflections, asymmetries) could be artifacts. The methodological soundness of the central approach depends on demonstrated convergence.
+  - **Resolution test** Provide histogram overlap plots, autocorrelation times for ρ and Ω, block-averaged uncertainty estimates for free energies, and a systematic comparison of free energy surfaces from 1 ns vs 5 ns runs with quantitative differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors propose that twist-bend kinks (positive roll, undertwisting) are favored in negatively supercoiled DNA in vivo, while pure-bend kinks (negative roll) occur in torsionally constrained DNA such as minicircles.
+  - **Evidence pointer** Discussion, "Twist-Bend Kinks vs Pure-Bend Kinks"; Figure 5; location not provided
+  - **Concern** The extrapolation from free energy landscapes of isolated dodecamers to in vivo contexts involving supercoiling and protein binding is speculative. The authors acknowledge that protein binding perturbs DNA, but the claim about negative supercoiling favoring twist-bend kinks is not directly supported by the presented simulations, which do not include supercoiling or protein interactions.
+  - **Why it matters** These claims extend beyond the direct evidence and could be misinterpreted as established biological conclusions. The distinction between the two kink types is interesting, but the biological implications require additional supporting evidence or should be framed more cautiously as hypotheses.
+  - **Resolution test** Either temper the language to clearly indicate speculation, or provide additional simulations or analysis that directly address supercoiling or protein-binding contexts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Sequences Used" section
+  - **Evidence pointer** Table 1; location not provided
+  - **Issue** The rationale for choosing these six specific sequences is not fully explained. The text states that sequences 1 and 2 bind IHF and sequence 3 binds Hbb, but the choice of sequences 4–6 and the specific mutations (CC and GC replacing TT and AT) could be better justified.
+  - **Required correction** Add a brief explanation of the sequence selection strategy, including why these particular dodecamers were chosen and what comparisons they enable.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, "All-Atom System Preparation" section
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that 63 Na+ and 41 Cl– ions are present, but does not specify the final salt concentration after neutralization or the ionic strength used in the simulations. This affects the electrostatic environment and could influence the free energy landscapes.
+  - **Required correction** Report the final salt concentration and ionic conditions explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "All-Atom Model Free Energies" section
+  - **Evidence pointer** Figure 3; location not provided
+  - **Issue** The text mentions that broken base-pair conformations are excluded from the free energy calculation, but does not specify the criteria used to identify such conformations or the fraction of data excluded.
+  - **Required correction** Define the structural criteria for "broken" base pairs and report the fraction of excluded data per window or sequence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Sequence-Dependent Effects" section
+  - **Evidence pointer** Table 2; location not provided
+  - **Issue** The comparison between crystallographic kink values and simulation-derived inflection points is presented without quantitative uncertainty on the simulation values.
+  - **Required correction** Provide confidence intervals or standard errors for the identified inflection points and free energy differences.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures and tables), R1-M2 (insufficient convergence evidence). These are blocking because the core claims cannot be evaluated without the primary data and without demonstrated convergence of the free energy estimates.
+- **Assessment against Nature-style criteria** Originality: The work is original in its systematic application of RBB-NA to probe roll-twist space and in the identification of two kink types. The conceptual distinction between twist-bend and pure-bend kinks is a useful contribution. Scientific importance: The question of DNA kinkability under extreme deformation is important for understanding DNA mechanics in biological contexts, and the results could inform coarse-grained model development. The importance is moderate to high, though the biological implications are not directly demonstrated. Interdisciplinary readership: The work will appeal primarily to computational biophysicists and physical chemists; the broader biological readership may find the implications interesting but the technical content is specialized. Technical soundness: The methodological approach is appropriate, but the lack of convergence metrics and the unavailability of primary data prevent full assessment. Readability for nonspecialists: The manuscript is clearly written and the conceptual framing is accessible, though the methods section assumes familiarity with enhanced sampling techniques and DNA coordinate conventions.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a significant question with an appropriate method, and the conceptual contributions are valuable. However, the blocking concerns regarding missing primary data and insufficient convergence evidence must be addressed before the claims can be fully evaluated.
+
+## Risk / unsupported claims
+- The claim that twist-bend kinks are favored in negatively supercoiled DNA in vivo is speculative and not directly supported by the presented simulations.
+- The claim that pure-bend kinks occur in torsionally constrained DNA such as minicircles relies on prior simulation literature, but the connection to the present free energy landscapes is not quantitatively established.
+- The statement that "DNA is much more deformable than what was predicted from the quadratic approximation" is presented without quantitative comparison of free energy values between harmonic and anharmonic models.
+- The identification of inflection points as "tentative kinks" is not supported by a clear operational definition or statistical criterion.
+- The claim that cgDNA+ free energies are "always larger" than RBB-NA free energies is stated without quantitative values or uncertainty estimates.

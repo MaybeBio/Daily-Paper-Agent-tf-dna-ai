@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36140725",
+  "title": "Application of Feature Selection and Deep Learning for Cancer Prediction Using DNA Methylation Markers.",
+  "authors": "Gomes, Rahul; Paul, Nijhum; He, Nichol; Huber, Aaron Francis; Jansen, Rick J",
+  "journal": "Genes",
+  "published_date": "2022-09-24",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用特征选择与深度学习基于DNA甲基化标记预测癌症，对象为表观遗传标记而非蛋白质-DNA互作，无结合建模或机制研究，与本课题关联微弱。",
+  "abstract": "DNA methylation is a process that can affect gene accessibility and therefore gene expression. In this study, a machine learning pipeline is proposed for the prediction of breast cancer and the identification of significant genes that contribute to the prediction. The current study utilized breast cancer methylation data from The Cancer Genome Atlas (TCGA), specifically the TCGA-BRCA dataset. Feature engineering techniques have been utilized to reduce data volume and make deep learning scalable. A comparative analysis of the proposed approach on Illumina 27K and 450K methylation data reveals that deep learning methodologies for cancer prediction can be coupled with feature selection models to enhance prediction accuracy. Prediction using 450K methylation markers can be accomplished in less than 13 s with an accuracy of 98.75%. Of the list of 685 genes in the feature selected 27K dataset, 578 were mapped to Ensemble Gene IDs. This reduced set was significantly (FDR < 0.05) enriched in five biological processes and one molecular function. Of the list of 1572 genes in the feature selected 450K data set, 1290 were mapped to Ensemble Gene IDs. This reduced set was significantly (FDR < 0.05) enriched in 95 biological processes and 17 molecular functions. Seven oncogene/tumor suppressor genes were common between the 27K and 450K feature selected gene sets. These genes were RTN4IP1, MYO18B, ANP32A, BRF1, SETBP1, NTRK1, and IGF2R. Our bioinformatics deep learning workflow, incorporating imputation and data balancing methods, is able to identify important methylation markers related to functionally important genes in breast cancer with high accuracy compared to deep learning or statistical models alone.",
+  "abstract_zh": "DNA甲基化是一个能够影响基因可及性从而影响基因表达的过程。在本研究中，提出了一种机器学习流程，用于预测乳腺癌并识别对预测有贡献的重要基因。当前研究利用了来自癌症基因组图谱（The Cancer Genome Atlas, TCGA）的乳腺癌甲基化数据，具体为TCGA-BRCA数据集。已采用特征工程技术来减少数据量，并使深度学习具有可扩展性。对所提方法在Illumina 27K和450K甲基化数据上的比较分析表明，用于癌症预测的深度学习方法可以与特征选择模型相结合，以提高预测准确性。使用450K甲基化标记的预测可在不到13秒内完成，准确率达到98.75%。在特征选择的27K数据集的685个基因列表中，578个被映射到Ensemble基因ID。这个缩减后的基因集在五个生物过程和一个分子功能中显著富集（FDR < 0.05）。在特征选择的450K数据集的1572个基因列表中，1290个被映射到Ensemble基因ID。这个缩减后的基因集在95个生物过程和17个分子功能中显著富集（FDR < 0.05）。在27K和450K特征选择的基因集之间，有七个癌基因/肿瘤抑制基因是共同的。这些基因是RTN4IP1、MYO18B、ANP32A、BRF1、SETBP1、NTRK1和IGF2R。我们的生物信息学深度学习工作流程，结合了插补和数据平衡方法，能够以比单独使用深度学习或统计模型更高的准确性，识别与乳腺癌中功能重要基因相关的关键甲基化标记。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36140725/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36140725/",
+  "paper_page_path": "papers/pubmed/36140725/index.html"
+}

@@ -1,0 +1,320 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.19.545523",
+  "title": "KaScape: A sequencing-based method for global characterization of protein-DNA binding affinity",
+  "doi": "10.1101/2023.06.19.545523",
+  "abstract": "It is difficult to exhaustively screen all possible DNA binding sequences for a given transcription factor (TF). Here, we develop a method named “KaScape”, by which, TFs bind to all possible DNA sequences in the same DNA pool where the DNA sequences are prepared by randomized oligo synthesis and the random length can be adjusted to, e.g., 4, 5, 6, or 7, etc. After separating the bound from unbound double-strand DNA, their sequences are determined by next-generation sequencing. To demonstrate the relative binding affinities of all possible DNA sequences determined by KaScape, we develop a three-dimensional KaScape viewing software based on a K-mer graph. We apply KaScape to 12 plant TF family At WRKY proteins and find that all At WRKY proteins bind to the core sequence GAC with similar profiles. KaScape not only can detect binding sequences that are consistent with the consensus W-box “TTGAC(C/T)”, but also other sequences with weak affinity. KaScape provides a high-throughput, easy-to-operate, sensitive, and exhaustive method to quantitatively characterize the relative binding strength of a TF to all possible binding sequences, allowing us to comprehensively characterize the specificity and affinity landscape of transcription factors, particularly for moderate and low affinity binding sites. Highlights A general method, KaScape, using NGS (next-generation sequencing) with a series of random dsDNA for exhaustive characterization of protein-DNA binding. A K-mer-based analysis and display software tool KGViewer developed to analyze the relative affinity landscape of KaScape results.",
+  "authors": [
+    "Hong Chen",
+    "Yongping Xu",
+    "Jianshi Jin",
+    "Xiao-dong Su"
+  ],
+  "published_date": "2023-06-19",
+  "updated_date": "2023-06-20T02:40:10Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.19.545523",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.19.545523.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:01:24Z",
+        "timestamp": 1768507284016,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            19
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 22,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  It is difficult to exhaustively screen all possible DNA binding sequences for a given transcription factor (TF). Here, we develop a method named “KaScape”, by which, TFs bind to all possible DNA sequences in the same DNA pool where the DNA sequences are prepared by randomized oligo synthesis and the random length can be adjusted to, e.g., 4, 5, 6, or 7, etc. After separating the bound from unbound double-strand DNA, their sequences are determined by next-generation sequencing. To demonstrate the relative binding affinities of all possible DNA sequences determined by KaScape, we develop a three-dimensional KaScape viewing software based on a K-mer graph. We apply KaScape to 12 plant TF family\n                  <jats:italic>At</jats:italic>\n                  WRKY proteins and find that all\n                  <jats:italic>At</jats:italic>\n                  WRKY proteins bind to the core sequence GAC with similar profiles. KaScape not only can detect binding sequences that are consistent with the consensus W-box “TTGAC(C/T)”, but also other sequences with weak affinity. KaScape provides a high-throughput, easy-to-operate, sensitive, and exhaustive method to quantitatively characterize the relative binding strength of a TF to all possible binding sequences, allowing us to comprehensively characterize the specificity and affinity landscape of transcription factors, particularly for moderate and low affinity binding sites.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Highlights</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>A general method, KaScape, using NGS (next-generation sequencing) with a series of random dsDNA for exhaustive characterization of protein-DNA binding.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>A K-mer-based analysis and display software tool KGViewer developed to analyze the relative affinity landscape of KaScape results.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+      "DOI": "10.1101/2023.06.19.545523",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2023-06-20T02:40:10Z",
+        "timestamp": 1687228810000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "KaScape: A sequencing-based method for global characterization of protein-DNA binding affinity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5712-857X",
+          "authenticated-orcid": false,
+          "given": "Hong",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yongping",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4697-8760",
+          "authenticated-orcid": false,
+          "given": "Jianshi",
+          "family": "Jin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6948-2317",
+          "authenticated-orcid": false,
+          "given": "Xiao-dong",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.73.3.804"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2014.04.002"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2013.0018"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2014.07.002"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2011.01.001"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2017.02.007"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100552.109"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0365-3"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1811431115"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13238-019-00670-0"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0097-8493(92)90067-6"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TETCI.2018.2876528"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-0779(98)00182-9"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep30170"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCSE.2011.35"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1715888115"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.279844"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt732"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.plantsci.2017.04.016"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2011-12-7-r70"
+        },
+        {
+          "key": "2023062203251201000_2023.06.19.545523v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.5113606"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.19.545523",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:48:30Z",
+        "timestamp": 1768452510000
+      },
+      "score": 152.43541,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.19.545523"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            19
+          ]
+        ]
+      },
+      "references-count": 22,
+      "URL": "https://doi.org/10.1101/2023.06.19.545523",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41598-023-43426-x",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

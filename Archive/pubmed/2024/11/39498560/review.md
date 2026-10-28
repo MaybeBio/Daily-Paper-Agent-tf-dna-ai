@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and internal consistency of the reported findings
+- **Shared manuscript claim summary** The authors report that clinically reported deleterious variants in RAF1 and RAP1A, specifically V60F and P34Q, increase the binding affinity of the RAF1–RAP1A complex, and that this increased binding is associated with enhanced stability, altered conformational dynamics, and potentially contributes to cancer pathogenesis via the MAPK/ERK pathway.
+- **Visible evidence base** Text descriptions of survival analyses, mutation screening results, molecular dynamics simulation metrics (RMSD, Rg, RMSF, hydrogen bonding), PCA, FEL, and MM/GBSA binding free energy calculations. Tables 1–5 and Figures 1–11 are referenced but not visible in the provided material.
+- **Missing materials affecting confidence** All figures and tables are referenced but not provided. Simulation parameters (force field details, simulation length, number of replicas, equilibration protocol) are only partially described. No structural validation metrics (e.g., Ramachandran plots, clash scores) for the modeled mutants are reported. Statistical details for survival analyses are not provided. The MM/GBSA methodology lacks specification of entropy calculations and dielectric constants.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question regarding the impact of specific mutations on the RAF1–RAP1A interaction, which is important for understanding MAPK/ERK pathway dysregulation in cancer. The computational workflow is logical and integrates multiple established methods. However, the evidence presented is insufficient to fully support the central claims. Key concerns include the lack of visible figures and tables, incomplete methodological details for the simulations, potential overinterpretation of binding free energy differences, and inconsistencies between the stated aims and the actual scope of the work. The claim that these mutations "can therefore be targeted for cancer therapy" is not supported by the data presented, which are purely computational and predictive.
+- **Who would be interested in the results, and why** Computational biologists and structural bioinformaticians working on protein–protein interactions and mutation impact prediction would find the methodological workflow of interest. Cancer researchers focused on RAF/RAP signaling and the MAPK/ERK pathway may be interested in the specific mutations identified as potentially enhancing complex formation. However, the lack of experimental validation limits the direct utility for translational researchers or clinicians.
+- **Major strengths** The study addresses a clinically relevant problem with a clear rationale. The integration of multiple computational approaches (mutation screening, docking, MD simulation, PCA, FEL, MM/GBSA) is comprehensive and follows a logical pipeline. The identification of specific mutations with predicted functional impact provides a focused set of candidates for future experimental validation. The authors acknowledge the limitations of single-structure-based predictions and appropriately recommend MD-based validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that V60F and P34Q mutations "increase the binding affinity" of RAF1 to RAP1A based on MM/GBSA calculations and hydrogen bonding analysis.
+  - **Evidence pointer** Results section "BFE Calculation", Table 5, Figures 6–8
+  - **Concern** The binding free energy values are reported as total ΔGbind values, but the manuscript does not provide a decomposition of energy terms (van der Waals, electrostatic, polar solvation, non-polar solvation) for each complex. The claim of increased binding affinity relies on differences of approximately 14–24 kcal/mol between wild-type and mutants, which is substantial, but without error estimates or replicate simulations, it is impossible to assess whether these differences are statistically meaningful. Additionally, the MM/GBSA method is known to be sensitive to the choice of dielectric constant, entropy estimation, and the number of frames used. The manuscript does not report these parameters. The hydrogen bonding analysis is based on "equilibrated structures" but the criteria for equilibration and the specific frames used are not defined.
+  - **Why it matters** The central conclusion of the manuscript, that specific mutations enhance RAF1–RAP1A binding, rests entirely on these calculations. Without proper error analysis, methodological transparency, and validation, the claim is not established.
+  - **Resolution test** Provide per-residue energy decomposition, standard deviations from multiple independent simulations or bootstrap analysis, specify all MM/GBSA parameters (dielectric constant, entropy method, frame selection), and show that the binding free energy differences are robust to parameter variation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "molecular simulations" were performed with AMBER23 using the ff19SB force field, with 300 ns for RAP1A alone and 500 ns for complexes.
+  - **Evidence pointer** Methods section "Molecular Dynamics Simulation"
+  - **Concern** The simulation protocol is incompletely described. The manuscript does not report the number of replicate simulations, the temperature coupling algorithm details beyond "Langevin thermostat," the pressure coupling approach, the integration time step, the equilibration phases, or the criteria for convergence. The statement "We executed a 50 ns equilibrium for each complex" is ambiguous; it is unclear whether this is part of the production run or a separate equilibration phase. Without these details, the simulations cannot be reproduced or independently assessed. Furthermore, the choice of 500 ns for complexes and 300 ns for the single protein is not justified.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The lack of methodological detail prevents other researchers from replicating the work and undermines confidence in the reported results.
+  - **Resolution test** Provide a complete simulation protocol including all parameters, the number of replicates, convergence criteria (e.g., block averaging of RMSD), and justification for simulation lengths.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope consistency
+  - **Claim pointer** The introduction states that the study will use "molecular docking, protein–protein, and all-atoms simulations" and that "functional experiments" will be performed. The abstract claims the findings "can therefore be targeted for cancer therapy."
+  - **Evidence pointer** Introduction, Abstract, Conclusions
+  - **Concern** The manuscript does not report any experimental validation, despite the introduction mentioning "functional experiments." The conclusion that these mutations "can be targeted for cancer therapy" is a significant overreach given that the study is entirely computational and predictive. No experimental evidence is provided to support therapeutic targeting. The scope of the work is descriptive and computational, which is valuable, but the claims exceed what the evidence can support.
+  - **Why it matters** Overstated conclusions can mislead readers and potentially influence future research directions. The therapeutic claim is not supported by the data.
+  - **Resolution test** Either remove the therapeutic claim or add a clearly stated limitation section acknowledging that experimental validation is required. If functional experiments were performed, they must be described and their results reported.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The survival analysis claims "a strong association between RAF1 and RAP1A expression levels and diminished survival rates in cancer patients across different cancer types."
+  - **Evidence pointer** Results section "Survival and Expression Analysis", Figure 2
+  - **Concern** The manuscript does not report hazard ratios, confidence intervals, p-values, or the number of patients per cancer type. The claim of "strong association" cannot be evaluated without these statistics. Additionally, the methods for survival analysis are not described; it is unclear which specific cancer types were analyzed, how multiple testing was handled, and whether covariates were adjusted for.
+  - **Why it matters** Survival analysis is a key component of the clinical relevance claim. Without proper statistical reporting, the association cannot be verified.
+  - **Resolution test** Report hazard ratios with confidence intervals and p-values for each cancer type, describe the statistical methods, and address multiple testing corrections.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract contains a typographical error: "RAP1P" appears twice where "RAP1A" is intended.
+  - **Required correction** Correct "RAP1P" to "RAP1A" in both instances.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Mutation screening
+  - **Evidence pointer** Methods section "Mapping the Structurally and Functionally Significant nsSNPs"
+  - **Issue** The manuscript states that 134 mutations were reported for the two proteins, with 13 and 35 classified as deleterious for RAF1 and RAP1A, respectively. However, the total number of mutations retrieved per protein is not clearly stated. The text mentions "62 clinical variants of RAF1" but the number for RAP1A is not given.
+  - **Required correction** State the total number of RAP1A variants retrieved and clarify the filtering criteria used to select the final set for simulation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 3–5
+  - **Evidence pointer** Results section "Dynamics-Based Stability Investigation", "Structural Compactness Analysis", "Residues Flexibility Analysis"
+  - **Issue** The manuscript describes RMSD, Rg, and RMSF results but does not report the error bars or standard deviations for these metrics. Without these, it is unclear whether the differences between wild-type and mutants are within simulation noise.
+  - **Required correction** Add standard deviations or confidence intervals to the reported RMSD, Rg, and RMSF values, or state that these are representative single-trajectory results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "Hydrogen Bonding Analysis"
+  - **Evidence pointer** Results section "Hydrogen Bonding Analysis"
+  - **Issue** The manuscript reports "90 non-bonded contacts" for the wild-type, "117" for V60F, and "119" for P34Q. The definition of "non-bonded contacts" is not provided, and it is unclear whether these are distinct from hydrogen bonds and salt bridges.
+  - **Required correction** Define the criteria for non-bonded contacts and clarify whether these are additional to the reported hydrogen bonds and salt bridges.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The statement says "any simulation data would be provided on demand" but does not specify how to request the data or provide a repository link. This is insufficient for a modern computational study.
+  - **Required correction** Deposit simulation inputs, trajectories, and analysis scripts in a public repository (e.g., Zenodo, Figshare) and provide the accession link.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding free energy robustness), R1-M2 (simulation reproducibility), R1-M4 (survival analysis statistics). These are the primary technical issues that must be resolved before the central claims can be considered established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of a multi-method computational pipeline to specific RAF1 and RAP1A mutations is not entirely novel, as similar approaches have been used for other protein complexes. The specific mutations studied may be new, but the methodological approach is standard.
+  - **Scientific importance** Moderate. The RAF1–RAP1A interaction is relevant to cancer biology, and identifying mutations that affect this interaction could have clinical implications. However, the purely computational nature of the study limits its immediate impact.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational structural biologists and bioinformaticians. The clinical relevance claims are not supported by experimental data, which limits appeal to a broader cancer research audience.
+  - **Technical soundness** The individual methods are established and appropriate, but the lack of methodological detail, error analysis, and validation undermines the technical soundness of the overall study.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with molecular dynamics and bioinformatics terminology. The abstract is accessible, but the methods and results sections would be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a logical structure and addresses a relevant question, but the central claims regarding increased binding affinity and therapeutic potential are not sufficiently supported. The missing figures and tables, incomplete methodological details, and lack of statistical rigor prevent a positive recommendation. The authors should be encouraged to resubmit after addressing the major concerns, particularly the binding free energy analysis, simulation reproducibility, and survival analysis statistics.
+
+## Risk / unsupported claims
+- The claim that V60F and P34Q mutations "increase the binding affinity" of RAF1 to RAP1A is not established due to lack of error analysis and methodological transparency in the MM/GBSA calculations.
+- The claim that these mutations "can therefore be targeted for cancer therapy" is unsupported by any experimental or clinical evidence.
+- The claim of a "strong association" between RAF1/RAP1A expression and survival is not verifiable without reported hazard ratios, confidence intervals, and p-values.
+- The statement that "one mutation in RAF1 reported elevated levels of binding" and "7 mutations in RAP1A were reported to increase the binding affinity" is based on predictive algorithms (mCSM-PPI2) without experimental validation.
+- The conclusion that "these findings confirm the effect of these variants on increasing the binding affinity" is an overstatement, as the results are computational predictions, not confirmations.
+- The claim that the study is "the first to conduct a wide-ranging computer simulation of these complexes" is difficult to verify and is not essential to the scientific contribution.

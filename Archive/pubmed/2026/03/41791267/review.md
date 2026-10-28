@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose HGCTBind, a hybrid architecture combining GCNII and Transformer to predict protein-DNA binding sites. The model fuses structural and sequence information, integrates handcrafted features with protein language model embeddings via a contextual adaptive feature fusion module, and uses weighted focal loss to address class imbalance. The authors claim consistent outperformance over baseline methods on multiple DNA datasets, improved feature representation quality from the fusion module, robustness across nine architectures and six ProtTrans embeddings, and competitive or superior performance on six additional ligand binding site prediction tasks.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline specifications, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset details, baseline definitions, hyperparameter settings, ablation study details, and statistical significance tests
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically plausible hybrid architecture for protein-DNA binding site prediction, with a reasonable motivation rooted in the limitations of single-modality methods. The proposed components, including GCNII, Transformer, contextual adaptive feature fusion, and weighted focal loss, are individually well-established in the literature. However, the abstract provides no quantitative evidence to support the central claims of outperformance, robustness, or generalizability. The claims are broad and sweeping, yet the visible evidence base is entirely qualitative. The manuscript cannot be evaluated for technical soundness or scientific impact from the supplied material alone. The work may be of interest to the computational biology community, but the case is not currently established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-nucleic acid interaction prediction, particularly those developing deep learning methods for binding site annotation. Researchers interested in feature fusion strategies for biological sequence and structure data, and those working on protein language model applications, would also find the work relevant. The claimed generalizability to multiple ligand binding site prediction tasks could attract a broader audience in structural bioinformatics.
+- **Major strengths** The motivation is clear and addresses a recognized gap in the field, namely the limited integration of sequence and structure information. The proposed architecture combines established components in a novel configuration, which is a reasonable design choice. The inclusion of interpretability analysis and robustness testing across multiple architectures and embeddings suggests a thorough experimental plan, if the claims are substantiated in the full manuscript.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that HGCTBind consistently outperforms all baseline sequence- or structure-based methods on multiple DNA datasets.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative results, such as performance metrics, dataset names, or baseline comparisons. The claim of consistent outperformance is stated without any supporting numbers, error bars, or statistical tests.
+  - **Why it matters** The central contribution of the paper is the claimed performance advantage. Without quantitative evidence, the claim is unverifiable and the scientific case for the method is not established.
+  - **Resolution test** Provide performance metrics (e.g., AUC, F1, MCC) for HGCTBind and all baselines on each dataset, with standard deviations and statistical significance tests (e.g., paired t-test or Wilcoxon test).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the contextual adaptive feature fusion module substantially enhances feature representation quality, thereby improving binding site prediction.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The interpretability analysis is described only qualitatively. No specific findings, visualizations, or quantitative measures of feature representation quality are provided.
+  - **Why it matters** The fusion module is a key novelty of the proposed architecture. Without evidence that it contributes meaningfully to performance, its value cannot be assessed.
+  - **Resolution test** Include ablation results comparing the full model with and without the fusion module, and provide interpretability outputs (e.g., attention maps, feature importance scores) with quantitative evaluation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the feature fusion strategy demonstrates consistent and robust performance when applied to nine architectures and six other ProtTrans model embeddings.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on which architectures, which ProtTrans embeddings, or what performance criteria were used to define robustness. The claim is broad and unquantified.
+  - **Why it matters** Generalizability claims require explicit experimental conditions and results. Without them, the robustness claim is not assessable.
+  - **Resolution test** Provide a table or figure showing performance across all nine architectures and six embeddings, with clear definitions of the fusion strategy applied in each case.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that HGCTBind achieved competitive or superior performance across all six additional ligand binding site prediction tasks.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which ligand types, which datasets, or which baselines were used for these additional tasks. No results are reported.
+  - **Why it matters** The claim of versatility is a significant extension of the work. Without evidence, it cannot be evaluated and may overstate the method's general applicability.
+  - **Resolution test** Provide task descriptions, dataset details, baseline comparisons, and performance metrics for all six additional tasks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that GCNII and Transformer are combined to extract structural and sequence information, but it is unclear which modality is processed by which component and how the outputs are integrated.
+  - **Required correction** Clarify the role of each component in the architecture, including the flow of sequence and structure data through the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions multiple DNA datasets but does not name them or describe their size, composition, or source.
+  - **Required correction** List the datasets used and provide basic characteristics, such as number of proteins, binding site ratios, and origin.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Training details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The weighted focal loss is mentioned, but the weighting scheme and focal loss parameters are not described.
+  - **Required correction** Specify the class weights and focal loss hyperparameters, and justify their selection.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Interpretability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term interpretable in the title and abstract is used without defining what interpretability means in this context or how it is measured.
+  - **Required correction** Define the interpretability analysis approach and specify what insights were derived from it.
+
+## Risk / unsupported claims
+- The claim of consistent outperformance over all baselines is unsupported by any quantitative data in the abstract.
+- The claim that the fusion module substantially enhances feature representation quality is unsupported by specific interpretability findings or ablation results.
+- The claim of robust performance across nine architectures and six ProtTrans embeddings is unsupported by experimental details or results.
+- The claim of competitive or superior performance on six additional ligand binding site prediction tasks is unsupported by task descriptions or results.
+- The overall generalizability and versatility claims cannot be assessed from the abstract alone.

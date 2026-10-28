@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.09.05.459013",
+  "title": "ScanNet: An interpretable geometric deep learning model for structure-based protein binding site prediction",
+  "authors": "Jérôme Tubiana; Dina Schneidman-Duhovny; Haim J. Wolfson",
+  "journal": "bioRxiv",
+  "published_date": "2021-09-06",
+  "window": {
+    "start": "2021-09-06",
+    "end": "2021-09-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用几何深度学习预测蛋白质结合位点，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作界面预测，对课题有借鉴价值。",
+  "abstract": "Predicting the functional sites of a protein from its structure, such as the binding sites of small molecules, other proteins or antibodies sheds light on its function in vivo . Currently, two classes of methods prevail: Machine Learning (ML) models built on top of handcrafted features and comparative modeling. They are respectively limited by the expressivity of the handcrafted features and the availability of similar proteins. Here, we introduce ScanNet, an end-to-end, interpretable geometric deep learning model that learns features directly from 3D structures. ScanNet builds representations of atoms and amino acids based on the spatio-chemical arrangement of their neighbors. We train ScanNet for detecting protein-protein and protein-antibody binding sites, demonstrate its accuracy - including for unseen protein folds - and interpret the filters learned. Finally, we predict epitopes of the SARS-CoV-2 spike protein, validating known antigenic regions and predicting previously uncharacterized ones. Overall, ScanNet is a versatile, powerful, and interpretable model suitable for functional site prediction tasks. A webserver for ScanNet is available from http://bioinfo3d.cs.tau.ac.il/ScanNet/",
+  "abstract_zh": "从蛋白质结构预测其功能位点，如小分子、其他蛋白质或抗体的结合位点，能揭示其在体内的功能。目前，主要有两类方法占主导：基于手工设计特征的机器学习（ML）模型和比较建模。它们分别受限于手工特征的表达能力以及相似蛋白质的可用性。在此，我们介绍ScanNet，一种端到端、可解释的几何深度学习模型，直接从三维结构中学习特征。ScanNet基于原子和氨基酸周围邻居的空间化学排列来构建其表示。我们训练ScanNet用于检测蛋白质-蛋白质和蛋白质-抗体结合位点，展示其准确性——包括对未见过的蛋白质折叠——并解释学习到的过滤器。最后，我们预测SARS-CoV-2刺突蛋白的表位，验证已知的抗原区域并预测先前未表征的区域。总体而言，ScanNet是一种多功能、强大且可解释的模型，适用于功能位点预测任务。ScanNet的网络服务器可从http://bioinfo3d.cs.tau.ac.il/ScanNet/访问。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.09.05.459013",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.09.05.459013",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.09.05.459013/index.html"
+}

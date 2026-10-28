@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that the BRCA2 missense variant Arg2502Cys, located in the DNA binding region, perturbs the structural integrity and conformational dynamics of the hBRCA2 functional domain (residues 2350-2545), based on circular dichroism, fluorescence spectroscopy, and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no quantitative data, spectra, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods, experimental spectra, simulation trajectories, analysis parameters, statistical details, and any validation or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible multimodal investigation of a clinically relevant BRCA2 variant, but the evidence as summarized is insufficient to establish the central claim that Arg2502Cys perturbs structural integrity and conformational dynamics. The qualitative descriptions of experimental and computational results lack quantitative support, and the absence of methodological details precludes assessment of technical rigor. The work may be of interest to the cancer genetics and structural biology communities, but the case is not currently established from the provided material.
+- **Who would be interested in the results, and why** Researchers in hereditary cancer genetics, particularly those studying BRCA2 variant classification and functional impact, would be interested. Structural biologists studying protein conformational dynamics and the biophysical characterization of disease-associated missense variants would also find relevance. Clinicians and genetic counselors involved in variant interpretation may value the data if it contributes to reclassification of Arg2502Cys.
+- **Major strengths** The study addresses a clinically important problem, namely the functional characterization of a variant of uncertain significance in BRCA2. The use of multiple complementary approaches, including experimental biophysics and computational simulation, is appropriate for probing structural and dynamic effects. The focus on a specific functional domain with known interaction partners adds biological relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the Arg2502Cys mutation decreases alpha-helical/beta-sheet propensity and perturbs tertiary structure conformation based on circular dichroism and fluorescence spectroscopy.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, such as molar ellipticity values, secondary structure percentages, fluorescence intensity changes, or spectral shifts. Without these numbers, the reader cannot evaluate the magnitude or statistical significance of the reported differences between wild-type and mutant proteins.
+  - **Why it matters** The central experimental claim rests on the interpretation of spectroscopic changes. Qualitative statements such as "decreases" and "perturb" are insufficient to establish that the observed effects are real, reproducible, and biologically meaningful rather than artifacts of experimental conditions or analysis choices.
+  - **Resolution test** Provide quantitative spectroscopic parameters with appropriate statistical comparisons, including replicates, error estimates, and significance testing, for both wild-type and mutant proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that molecular dynamics simulations revealed alterations in intramolecular H-bonds, compactness, and hydrophobic core stability in the mutant protein.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No simulation details are given, including force field, water model, simulation length, temperature, pressure coupling, number of replicates, or convergence criteria. The absence of these parameters makes it impossible to assess whether the simulations were adequately sampled and whether the reported differences are statistically robust or within thermal fluctuation.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup and analysis protocols. Without evidence of convergence and replicate analysis, the reported differences in H-bonding and compactness could be artifacts of insufficient sampling or methodological choices.
+  - **Resolution test** Report full simulation parameters, demonstrate convergence through root-mean-square deviation and other metrics, include multiple independent replicates, and provide statistical analysis of the differences between wild-type and mutant trajectories.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract concludes that the Arg2502Cys mutant perturbed the structural integrity and conformational dynamics of BRCA2.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The conclusion is broader than the evidence described. The abstract reports changes in secondary structure propensity, tertiary structure, and simulation-derived properties, but does not establish a direct link between these biophysical changes and functional consequences, such as altered FANCD2 binding or DNA repair activity. The term "structural integrity" implies a functional impact that is not demonstrated.
+  - **Why it matters** The clinical relevance of the variant depends on whether the observed structural perturbations translate into functional deficits. Without functional assays or binding studies, the conclusion overreaches the presented evidence.
+  - **Resolution test** Include functional validation, such as binding affinity measurements with FANCD2 or DNA, or cellular assays of homologous recombination repair, to connect structural changes to functional outcomes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "multi-disciplinary in-silico, in-vitro and biophysical approaches" is redundant, as in-silico and biophysical methods are not distinct disciplines in this context. The abstract also does not clearly specify which methods fall into which category.
+  - **Required correction** Revise to "computational and biophysical approaches" or list the specific methods used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Variant context
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states the variant was identified from a case-control study but does not provide any information about the frequency of the variant in cases versus controls, or its population frequency. This context is important for assessing potential pathogenicity.
+  - **Required correction** Add a brief statement on variant frequency or refer to the case-control study data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Principle component analysis
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The correct term is "principal component analysis," not "principle component analysis."
+  - **Required correction** Correct the terminology.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative experimental data, simulation details, and functional validation collectively prevent the establishment of the central claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of a multimodal approach to a specific BRCA2 variant is not conceptually novel, but the combination of methods may offer incremental insight. The abstract does not demonstrate a new methodological or conceptual advance.
+  - Scientific importance: The topic is important for cancer genetics and variant classification, but the abstract does not show that the findings materially change understanding of BRCA2 function or variant pathogenicity.
+  - Interdisciplinary readership: The work bridges structural biology, biophysics, and cancer genetics, which could appeal to a broad audience. However, the abstract is too brief to engage nonspecialists effectively.
+  - Technical soundness: Not assessable from the abstract due to missing methodological and quantitative details.
+  - Readability for nonspecialists: The abstract is generally readable but uses domain-specific terms without sufficient explanation, and the logical flow from methods to conclusion is compressed.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should provide full quantitative data, simulation details, and functional validation to support the claims. If these are available in the full manuscript, the case may become persuasive.
+
+## Risk / unsupported claims
+- The claim that Arg2502Cys decreases alpha-helical/beta-sheet propensity is unsupported without quantitative spectroscopic data.
+- The claim that the mutation perturbs tertiary structure conformation is unsupported without specific fluorescence parameters.
+- The claim that molecular dynamics revealed altered H-bonds, compactness, and hydrophobic core stability is unsupported without simulation details and statistical analysis.
+- The conclusion that the mutant perturbs structural integrity and conformational dynamics is not established without functional validation linking structural changes to biological outcomes.
+- The clinical relevance implied by the variant's origin in a case-control study is not assessable without frequency or association data.

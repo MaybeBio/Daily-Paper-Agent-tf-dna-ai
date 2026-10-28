@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "39920313",
+    "doi": "10.1038/s41598-025-88658-1",
+    "title": "FoxA1 knockdown promotes BMSC osteogenesis in part by activating the ERK1/2 signaling pathway and preventing ovariectomy-induced bone loss."
+  },
+  "content": {
+    "abstract": "The influence of deep learning in the medical and molecular biology sectors is swiftly growing and holds the potential to improve numerous crucial domains. Osteoporosis is a significant global health issue, and the current treatment options are highly restricted. Transplanting genetically engineered MSCs has been acknowledged as a highly promising therapy for osteoporosis. We utilized a random walk-based technique to discern genes associated with ossification. The osteogenic value of these genes was assessed on the basis of information found in published scientific literature. GO enrichment analysis of these genes was performed to determine if they were enriched in any certain function. Immunohistochemical and western blot techniques were used to identify and measure protein expression. The expression of genes involved in osteogenic differentiation was examined via qRT‒PCR. Lentiviral transfection was utilized to suppress the expression of the FOXA1 gene in hBMSCs. An in vivo mouse model of ovariectomy was created, and radiographic examination was conducted to confirm the impact of FOXA1 knockdown on osteoporosis. The osteogenic score of each gene was calculated by assessing its similarity to osteo-specific genes. The majority of the genes with the highest rankings were linked with osteogenic differentiation, indicating that our approach is useful for identifying genes associated with ossification. GO enrichment analysis revealed that these pathways are enriched primarily in bone-related processes. FOXA1 is a crucial transcription factor that controls the process of osteogenic differentiation, as indicated by similarity analysis. FOXA1 was significantly increased in those with osteoporosis. Downregulation of FOXA1 markedly augmented the expression of osteoblast-specific genes and proteins, activated the ERK1/2 signaling pathway, intensified ALP activity, and promoted mineral deposition. In addition, excessive expression of FOXA1 significantly reduced ALP activity and mineral deposits. Using a mouse model in which the ovaries were surgically removed, researchers reported that suppressing the FOXA1 gene in bone marrow stem cells (BMSCs) prevented the loss of bone density caused by ovariectomy. This finding was confirmed by analyzing the bone structure via micro-CT. Furthermore, our approach can distinguish genes that exhibit osteogenic differentiation characteristics. This ability can aid in the identification of novel genes associated with osteogenic differentiation, which can be utilized in the treatment of osteoporosis. Computational and laboratory evidence indicates that reducing the expression of FOXA1 enhances the process of bone formation in bone marrow-derived mesenchymal stem cells (BMSCs) and may serve as a promising approach to prevent osteoporosis.",
+    "keywords": [
+      "FOXA1",
+      "Human PPI network",
+      "Machine learning",
+      "Osteogenic differentiation",
+      "Osteoporosis",
+      "hBMSCs",
+      "mBMSCs"
+    ],
+    "mesh_terms": [
+      "*Hepatocyte Nuclear Factor 3-alpha/genetics/metabolism",
+      "Animals",
+      "*Ovariectomy/adverse effects",
+      "*Osteogenesis/genetics",
+      "*MAP Kinase Signaling System",
+      "Female",
+      "Mice",
+      "*Osteoporosis/metabolism/genetics/etiology/prevention & control",
+      "Cell Differentiation/genetics",
+      "*Mesenchymal Stem Cells/metabolism/cytology",
+      "Gene Knockdown Techniques",
+      "Humans",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Lijun",
+        "Lin, Renjin",
+        "Xu, Yang",
+        "Li, Lingdi",
+        "Pan, Zhijun",
+        "Huang, Jian"
+      ],
+      "short_names": [
+        "Li L",
+        "Lin R",
+        "Xu Y",
+        "Li L",
+        "Pan Z",
+        "Huang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedic Surgery, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, 310016, Zhejiang, China.",
+        "Zhejiang Key Laboratory of Mechanism Research and Precision Repair of Orthopaedic Trauma and Aging Diseases, Hangzhou, 310016, Zhejiang, China.",
+        "Orthopedics Research Institute of Zhejiang University, Hangzhou, China.",
+        "Key Laboratory of Motor System Disease Research and Precision Therapy of Zhejiang Province, Hangzhou, China.",
+        "Department of Orthopedics Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hang Zhou, China.",
+        "Thoracic Surgery Department of Zhejiang Cancer Hospital, Hangzhou, China.",
+        "Department of Medical Oncology, Hangzhou Cancer Hospital, Hangzhou, Zhejiang, China. lilingdi2002413@126.com.",
+        "Orthopedics Research Institute of Zhejiang University, Hangzhou, China. zrpzj@zju.edu.cn.",
+        "Key Laboratory of Motor System Disease Research and Precision Therapy of Zhejiang Province, Hangzhou, China. zrpzj@zju.edu.cn.",
+        "Department of Orthopedics Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hang Zhou, China. zrpzj@zju.edu.cn.",
+        "Department of Ultrasound, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China. huangjian@srrsh.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Lijun",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, 310016, Zhejiang, China.",
+          "Zhejiang Key Laboratory of Mechanism Research and Precision Repair of Orthopaedic Trauma and Aging Diseases, Hangzhou, 310016, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Renjin",
+        "short_name": "Lin R",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics Research Institute of Zhejiang University, Hangzhou, China.",
+          "Key Laboratory of Motor System Disease Research and Precision Therapy of Zhejiang Province, Hangzhou, China.",
+          "Department of Orthopedics Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hang Zhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yang",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Thoracic Surgery Department of Zhejiang Cancer Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lingdi",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Hangzhou Cancer Hospital, Hangzhou, Zhejiang, China. lilingdi2002413@126.com."
+        ]
+      },
+      {
+        "full_name": "Pan, Zhijun",
+        "short_name": "Pan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics Research Institute of Zhejiang University, Hangzhou, China. zrpzj@zju.edu.cn.",
+          "Key Laboratory of Motor System Disease Research and Precision Therapy of Zhejiang Province, Hangzhou, China. zrpzj@zju.edu.cn.",
+          "Department of Orthopedics Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hang Zhou, China. zrpzj@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huang, Jian",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China. huangjian@srrsh.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Feb 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/08 00:31",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42582789",
+      "42422433"
+    ],
+    "refs": [
+      "39308804",
+      "38189225",
+      "37198232",
+      "36064451",
+      "35153742",
+      "34877560",
+      "34104392",
+      "34064134",
+      "33408418",
+      "33210341",
+      "32888433",
+      "32463168",
+      "31948061",
+      "31781240",
+      "31418071",
+      "31382554",
+      "31243372",
+      "31243370",
+      "31013682",
+      "30187197",
+      "30156494",
+      "30020411",
+      "29770568",
+      "29467401",
+      "29242275",
+      "29087512",
+      "28880264",
+      "28834263",
+      "28698817",
+      "28536615",
+      "28344004",
+      "28319070",
+      "27924014",
+      "27731505",
+      "27058788",
+      "26882451",
+      "26599722",
+      "26137208",
+      "26017442",
+      "25605792",
+      "25246945",
+      "25138551",
+      "25093266",
+      "24512546",
+      "24407712",
+      "24113838",
+      "22669553",
+      "22577344",
+      "21494559",
+      "20731071",
+      "20460816",
+      "19857615",
+      "19603006",
+      "19274050",
+      "19237447",
+      "18775204",
+      "18201971",
+      "17958162",
+      "16909212",
+      "16723010",
+      "16314053",
+      "15866164",
+      "15180950",
+      "12778327",
+      "11359943"
+    ],
+    "similar": [
+      "39920313",
+      "36064451",
+      "39308804",
+      "31981979",
+      "41213356",
+      "32652777",
+      "41184110",
+      "40301985",
+      "39814826",
+      "40219549",
+      "38500202",
+      "29973283",
+      "38936225",
+      "38753365",
+      "41731527",
+      "38735373",
+      "39542634",
+      "41291922",
+      "30982407",
+      "41317432",
+      "31210287",
+      "37344864",
+      "40264197",
+      "37904187",
+      "33410908",
+      "40378431",
+      "32732881",
+      "39623394",
+      "40317963",
+      "30007964",
+      "31486477",
+      "31674048",
+      "27337099",
+      "38996954",
+      "31539110",
+      "38019761",
+      "41581571",
+      "40504801",
+      "40486125",
+      "39653105",
+      "33137853",
+      "39082354",
+      "30396165",
+      "36805201",
+      "38748896",
+      "39497150",
+      "33097082",
+      "33582177",
+      "34620242",
+      "30657543",
+      "36958710",
+      "28595186",
+      "41043430",
+      "32374006",
+      "41205030",
+      "39856500",
+      "33632317",
+      "41264994",
+      "34967263",
+      "33085064",
+      "41501229",
+      "39154827",
+      "31238979",
+      "41482017",
+      "26478571",
+      "31539109",
+      "40274995",
+      "33712069",
+      "34118593",
+      "36973789",
+      "36169884",
+      "35030971",
+      "27574032",
+      "38608598",
+      "21810479",
+      "31364143",
+      "39461772",
+      "34266353",
+      "40421821",
+      "41830716",
+      "37739048",
+      "31148202",
+      "39152444",
+      "40358879",
+      "33902663",
+      "37890873",
+      "34058434",
+      "31799688",
+      "34962086",
+      "41001808",
+      "35038807",
+      "39285416",
+      "40515831",
+      "38813717",
+      "42126726",
+      "38258549",
+      "40609267",
+      "41253466",
+      "31957858",
+      "30670092"
+    ],
+    "review": [
+      "39920313"
+    ],
+    "pmc": [
+      "11806018"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-88658-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39920313/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

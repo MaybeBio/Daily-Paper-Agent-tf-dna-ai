@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42180427",
+  "title": "Modeling strategies for in vivo transcription factor binding predictions.",
+  "authors": "Aksu, Ekin Deniz; Vingron, Martin",
+  "journal": "Bioinformatics advances",
+  "published_date": "2026-05-25",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用DNA可及性、TF表达和基序特征，结合跨TF迁移学习与DNA语言模型嵌入预测体内TF结合位点，虽未涉及三维结构或物理模拟，但聚焦TF-DNA结合预测且方法可迁移，与课题高度相关。",
+  "abstract": "Identification of in vivo transcription factor (TF) binding sites is crucial to understand gene regulation, but the lack of scalability in their experimental identification directs researchers towards computational models. These models are often specific for a given TF, which hinders their generalizability to held-out TFs. In this work, we analyse different modeling strategies to predict in vivo TF binding sites using DNA accessibility, TF RNA expression and binding motif features. We present and test a cross-TF transfer learning scheme that allows learning from the entire training set. We show that model ensembling and DNA language model embeddings increase model performance. We provide an analysis of feature importance and show that ground truth ChIP-seq data quality is an important determinant of model performance. We also test our models in an independent dataset of held-out TFs, and report a mean AUPR of 0.36 in a very challenging cross-TF, cross-cell-type and cross-chromosomal setting, providing estimates of binding for TFs without available ChIP-seq experiments.",
+  "abstract_zh": "体内转录因子（TF）结合位点的识别对于理解基因调控至关重要，但其实验识别缺乏可扩展性，促使研究者转向计算模型。这些模型通常针对特定TF，这阻碍了它们对未见过TF的泛化能力。在本研究中，我们分析了不同建模策略，利用DNA可及性、TF RNA表达和结合基序特征来预测体内TF结合位点。我们提出并测试了一种跨TF迁移学习方案，该方案允许从整个训练集中学习。我们表明，模型集成和DNA语言模型嵌入能提升模型性能。我们提供了特征重要性分析，并显示真实ChIP-seq数据质量是模型性能的重要决定因素。我们还在一个独立的未见过TF数据集上测试了我们的模型，在极具挑战性的跨TF、跨细胞类型和跨染色体设置中报告了平均AUPR为0.36，为缺乏ChIP-seq实验的TF提供了结合估计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42180427/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42180427/",
+  "paper_page_path": "papers/pubmed/42180427/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36142321",
+  "title": "Identifying Drug Targets of Oral Squamous Cell Carcinoma through a Systems Biology Method and Genome-Wide Microarray Data for Drug Discovery by Deep Learning and Drug Design Specifications.",
+  "authors": "Lin, Yi-Chung; Chen, Bor-Sen",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-09-24",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用系统生物学和DNN药物-靶点互作模型筛选口腔鳞癌药物靶点，虽涉及转录因子（TCF、SP1等）但未聚焦TF-DNA结合机制，且无AI/物理模拟的蛋白-DNA互作建模，仅边缘相关。",
+  "abstract": "In this study, we provide a systems biology method to investigate the carcinogenic mechanism of oral squamous cell carcinoma (OSCC) in order to identify some important biomarkers as drug targets. Further, a systematic drug discovery method with a deep neural network (DNN)-based drug-target interaction (DTI) model and drug design specifications is proposed to design a potential multiple-molecule drug for the medical treatment of OSCC before clinical trials. First, we use big database mining to construct the candidate genome-wide genetic and epigenetic network (GWGEN) including a protein-protein interaction network (PPIN) and a gene regulatory network (GRN) for OSCC and non-OSCC. In the next step, real GWGENs are identified for OSCC and non-OSCC by system identification and system order detection methods based on the OSCC and non-OSCC microarray data, respectively. Then, the principal network projection (PNP) method was used to extract core GWGENs of OSCC and non-OSCC from real GWGENs of OSCC and non-OSCC, respectively. Afterward, core signaling pathways were constructed through the annotation of KEGG pathways, and then the carcinogenic mechanism of OSCC was investigated by comparing the core signal pathways and their downstream abnormal cellular functions of OSCC and non-OSCC. Consequently, HES1, TCF, NF-kappaB and SP1 are identified as significant biomarkers of OSCC. In order to discover multiple molecular drugs for these significant biomarkers (drug targets) of the carcinogenic mechanism of OSCC, we trained a DNN-based drug-target interaction (DTI) model by DTI databases to predict candidate drugs for these significant biomarkers. Finally, drug design specifications such as adequate drug regulation ability, low toxicity and high sensitivity are employed to filter out the appropriate molecular drugs metformin, gefitinib and gallic-acid to combine as a potential multiple-molecule drug for the therapeutic treatment of OSCC.",
+  "abstract_zh": "在本研究中，我们采用系统生物学方法探究口腔鳞状细胞癌（OSCC）的致癌机制，以识别一些重要的生物标志物作为药物靶点。进一步，提出了一种基于深度神经网络（DNN）的药物-靶点相互作用（DTI）模型及药物设计规范的系统药物发现方法，旨在临床试验前设计一种潜在的多分子药物用于OSCC的医学治疗。首先，我们利用大型数据库挖掘构建候选的全基因组遗传和表观遗传网络（GWGEN），包括蛋白质-蛋白质相互作用网络（PPIN）和基因调控网络（GRN），分别针对OSCC和非OSCC。接下来，基于OSCC和非OSCC的微阵列数据，通过系统辨识和系统阶次检测方法，分别识别出OSCC和非OSCC的真实GWGEN。然后，采用主网络投影（PNP）方法，从OSCC和非OSCC的真实GWGEN中分别提取核心GWGEN。随后，通过KEGG通路注释构建核心信号通路，并通过比较OSCC和非OSCC的核心信号通路及其下游异常细胞功能，探究OSCC的致癌机制。最终，HES1、TCF、NF-kappaB和SP1被识别为OSCC的重要生物标志物。为了针对OSCC致癌机制中的这些重要生物标志物（药物靶点）发现多种分子药物，我们利用DTI数据库训练了基于DNN的药物-靶点相互作用（DTI）模型，以预测针对这些重要生物标志物的候选药物。最后，采用充分的药物调控能力、低毒性和高敏感性等药物设计规范，筛选出合适的分子药物二甲双胍、吉非替尼和没食子酸，组合成一种潜在的多分子药物，用于OSCC的治疗。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36142321/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36142321/",
+  "paper_page_path": "papers/pubmed/36142321/index.html"
+}

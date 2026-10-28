@@ -1,0 +1,1062 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.11.619379",
+  "title": "Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors",
+  "doi": "10.1101/2024.11.11.619379",
+  "abstract": "A DNA sequence pattern, or “motif”, is an essential representation of DNA-binding specificity of a transcription factor (TF). Any particular motif model has potential flaws due to shortcomings of the underlying experimental data and computational motif discovery algorithm. As a part of the Codebook/GRECO-BIT initiative, here we evaluated at large scale the cross-platform recognition performance of positional weight matrices (PWMs), which remain popular motif models in many practical applications. We applied ten different DNA motif discovery tools to generate PWMs from the “Codebook” data comprised of 4,237 experiments from five different platforms profiling the DNA-binding specificity of 394 human proteins, focusing on understudied transcription factors of different structural families. For many of the proteins, there was no prior knowledge of a genuine motif. By benchmarking-supported human curation, we constructed an approved subset of experiments comprising about 30% of all experiments and 50% of tested TFs which displayed consistent motifs across platforms and replicates. We present the Codebook Motif Explorer ( https://mex.autosome.org ), a detailed online catalog of DNA motifs, including the top-ranked PWMs, and the underlying source and benchmarking data. We demonstrate that in the case of high-quality experimental data, most of the popular motif discovery tools detect valid motifs and generate PWMs, which perform well both on genomic and synthetic data. Yet, for each of the algorithms, there were problematic combinations of proteins and platforms, and the basic motif properties such as nucleotide composition and information content offered little help in detecting such pitfalls. By combining multiple PMWs in decision trees, we demonstrate how our setup can be readily adapted to train and test binding specificity models more complex than PWMs. Overall, our study provides a rich motif catalog as a solid baseline for advanced models and highlights the power of the multi-platform multi-tool approach for reliable mapping of DNA binding specificities. Abstract Figure Graphical Abstract",
+  "authors": [
+    "Ilya E. Vorontsov",
+    "Ivan Kozin",
+    "Sergey Abramov",
+    "Alexandr Boytsov",
+    "Arttu Jolma",
+    "Mihai Albu",
+    "Giovanna Ambrosini",
+    "Katerina Faltejskova",
+    "Antoni J. Gralak",
+    "Nikita Gryzunov",
+    "Sachi Inukai",
+    "Semyon Kolmykov",
+    "Pavel Kravchenko",
+    "Judith F. Kribelbauer-Swietek",
+    "Kaitlin U. Laverty",
+    "Vladimir Nozdrin",
+    "Zain M. Patel",
+    "Dmitry Penzar",
+    "Marie-Luise Plescher",
+    "Sara E. Pour",
+    "Rozita Razavi",
+    "Ally W.H. Yang",
+    "Ivan Yevshin",
+    "Arsenii Zinkevich",
+    "Matthew T. Weirauch",
+    "Philipp Bucher",
+    "Bart Deplancke",
+    "Oriol Fornes",
+    "Jan Grau",
+    "Ivo Grosse",
+    "Fedor A. Kolpakov",
+    "The Codebook/GRECO-BIT Consortium",
+    "Vsevolod J. Makeev",
+    "Timothy R. Hughes",
+    "Ivan V. Kulakovskiy"
+  ],
+  "published_date": "2024-11-12",
+  "updated_date": "2024-11-12T19:55:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.619379",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.619379.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T14:29:04Z",
+        "timestamp": 1768487344981,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 73,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                12
+              ]
+            ],
+            "date-time": "2024-11-12T00:00:00Z",
+            "timestamp": 1731369600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  A DNA sequence pattern, or “motif”, is an essential representation of DNA-binding specificity of a transcription factor (TF). Any particular motif model has potential flaws due to shortcomings of the underlying experimental data and computational motif discovery algorithm. As a part of the Codebook/GRECO-BIT initiative, here we evaluated at large scale the cross-platform recognition performance of positional weight matrices (PWMs), which remain popular motif models in many practical applications. We applied ten different DNA motif discovery tools to generate PWMs from the “Codebook” data comprised of 4,237 experiments from five different platforms profiling the DNA-binding specificity of 394 human proteins, focusing on understudied transcription factors of different structural families. For many of the proteins, there was no prior knowledge of a genuine motif. By benchmarking-supported human curation, we constructed an approved subset of experiments comprising about 30% of all experiments and 50% of tested TFs which displayed consistent motifs across platforms and replicates. We present the Codebook Motif Explorer (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://mex.autosome.org\">https://mex.autosome.org</jats:ext-link>\n                  ), a detailed online catalog of DNA motifs, including the top-ranked PWMs, and the underlying source and benchmarking data. We demonstrate that in the case of high-quality experimental data, most of the popular motif discovery tools detect valid motifs and generate PWMs, which perform well both on genomic and synthetic data. Yet, for each of the algorithms, there were problematic combinations of proteins and platforms, and the basic motif properties such as nucleotide composition and information content offered little help in detecting such pitfalls. By combining multiple PMWs in decision trees, we demonstrate how our setup can be readily adapted to train and test binding specificity models more complex than PWMs. Overall, our study provides a rich motif catalog as a solid baseline for advanced models and highlights the power of the multi-platform multi-tool approach for reliable mapping of DNA binding specificities.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Abstract Figure</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" orientation=\"portrait\" fig-type=\"figure\">\n                    <jats:label>Graphical Abstract</jats:label>\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"619379v2_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.1101/2024.11.11.619379",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2024-11-12T19:55:15Z",
+        "timestamp": 1731441315000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8888-0804",
+          "authenticated-orcid": false,
+          "given": "Ilya E.",
+          "family": "Vorontsov",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-4603-8550",
+          "authenticated-orcid": false,
+          "given": "Ivan",
+          "family": "Kozin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3334-5334",
+          "authenticated-orcid": false,
+          "given": "Sergey",
+          "family": "Abramov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2712-8368",
+          "authenticated-orcid": false,
+          "given": "Alexandr",
+          "family": "Boytsov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2543-7490",
+          "authenticated-orcid": false,
+          "given": "Arttu",
+          "family": "Jolma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mihai",
+          "family": "Albu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Giovanna",
+          "family": "Ambrosini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7390-8077",
+          "authenticated-orcid": false,
+          "given": "Katerina",
+          "family": "Faltejskova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-1086-6165",
+          "authenticated-orcid": false,
+          "given": "Antoni J.",
+          "family": "Gralak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-0782-8650",
+          "authenticated-orcid": false,
+          "given": "Nikita",
+          "family": "Gryzunov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6404-1384",
+          "authenticated-orcid": false,
+          "given": "Sachi",
+          "family": "Inukai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9259-0495",
+          "authenticated-orcid": false,
+          "given": "Semyon",
+          "family": "Kolmykov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5751-7129",
+          "authenticated-orcid": false,
+          "given": "Pavel",
+          "family": "Kravchenko",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8072-7773",
+          "authenticated-orcid": false,
+          "given": "Judith F.",
+          "family": "Kribelbauer-Swietek",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-4341-4665",
+          "authenticated-orcid": false,
+          "given": "Kaitlin U.",
+          "family": "Laverty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vladimir",
+          "family": "Nozdrin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zain M.",
+          "family": "Patel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7960-9385",
+          "authenticated-orcid": false,
+          "given": "Dmitry",
+          "family": "Penzar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Marie-Luise",
+          "family": "Plescher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sara E.",
+          "family": "Pour",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-5466-6519",
+          "authenticated-orcid": false,
+          "given": "Rozita",
+          "family": "Razavi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8678-0946",
+          "authenticated-orcid": false,
+          "given": "Ally W.H.",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7687-8002",
+          "authenticated-orcid": false,
+          "given": "Ivan",
+          "family": "Yevshin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9450-4629",
+          "authenticated-orcid": false,
+          "given": "Arsenii",
+          "family": "Zinkevich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7977-9122",
+          "authenticated-orcid": false,
+          "given": "Matthew T.",
+          "family": "Weirauch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4824-885X",
+          "authenticated-orcid": false,
+          "given": "Philipp",
+          "family": "Bucher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9935-843X",
+          "authenticated-orcid": false,
+          "given": "Bart",
+          "family": "Deplancke",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5969-3054",
+          "authenticated-orcid": false,
+          "given": "Oriol",
+          "family": "Fornes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2081-6405",
+          "authenticated-orcid": false,
+          "given": "Jan",
+          "family": "Grau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5318-4825",
+          "authenticated-orcid": false,
+          "given": "Ivo",
+          "family": "Grosse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0396-0256",
+          "authenticated-orcid": false,
+          "given": "Fedor A.",
+          "family": "Kolpakov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "The Codebook/GRECO-BIT Consortium",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9405-9748",
+          "authenticated-orcid": false,
+          "given": "Vsevolod J.",
+          "family": "Makeev",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8721-4719",
+          "authenticated-orcid": false,
+          "given": "Timothy R.",
+          "family": "Hughes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6554-8128",
+          "authenticated-orcid": false,
+          "given": "Ivan V.",
+          "family": "Kulakovskiy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.12.032"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-023-00599-5"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1315"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.4",
+          "first-page": "1002",
+          "article-title": "Methods for Functional Characterization of Genetic Polymorphisms of Non-Coding Regulatory Regions of the Human Genome",
+          "volume": "89",
+          "year": "2024",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Talukder, A. , Barham, C. , Li, X. & Hu, H . Interpretation of deep learning in genomics and epigenomics. Brief. Bioinform. 22, (2021).",
+          "DOI": "10.1093/bib/bbaa177"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tognon, M. , Giugno, R. & Pinello, L . A survey on algorithms to characterize transcription factor binding sites. Brief. Bioinform. 24, (2023).",
+          "DOI": "10.1093/bib/bbad156"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1113"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1077"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.09.045"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rhee, H. S. & Pugh, B. F . ChIP-exo method for identifying genomic location of DNA-binding proteins with near-single-nucleotide accuracy. Curr. Protoc. Mol. Biol. Chapter 21, Unit 21.24 (2012).",
+          "DOI": "10.1002/0471142727.mb2124s100"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Skene, P. J. & Henikoff, S . An efficient targeted nuclease strategy for high-resolution mapping of DNA binding sites. Elife 6, (2017).",
+          "DOI": "10.7554/eLife.21856"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-genet-110711-155437"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100552.109"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku117"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-01996-3"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1053"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2486"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Castellana, S. et al. A comparative benchmark of classic DNA motif discovery tools on synthetic data. Brief. Bioinform. 22, (2021).",
+          "DOI": "10.1093/bib/bbab303"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kibet, C. K. & Machanick, P . Transcription factor motif quality assessment requires systematic comparative analysis. F1000Res. 4, (2015).",
+          "DOI": "10.12688/f1000research.7408.1"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2021.194768"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.11.622097"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.11.622123"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.11.618478"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.11.619598"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq488"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.04837"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab203%J"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt831"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-023-02985-y"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv284"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw203"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1106"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks433"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4143"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/ZENODO.8327372"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/ZENODO.8327477"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/ZENODO.8327970"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.43",
+          "first-page": "7",
+          "article-title": "Application of alternative de novo motif recognition models for analysis of structural heterogeneity of transcription factor binding sites: a case study of FOXA2 binding sites",
+          "volume": "25",
+          "year": "2021",
+          "journal-title": "Vavilovskii Zhurnal Genet Selektsii"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Morgunova, E. et al. Two distinct DNA sequences recognized by transcription factors represent enthalpy and entropy optima. Elife 7, (2018).",
+          "DOI": "10.7554/eLife.32963"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac694"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0024210"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcb.20012"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rodríguez-Martínez, J. A. , Reinke, A. W. , Bhimsaria, D. , Keating, A. E. & Ansari, A. Z . Combinatorial bZIP dimers display complex DNA-binding specificity landscapes. Elife 6, (2017).",
+          "DOI": "10.7554/eLife.19272"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.12688/f1000research.75471.3",
+          "article-title": "Positional weight matrices have sufficient prediction power for analysis of noncoding variants",
+          "volume": "11",
+          "year": "2022",
+          "journal-title": "F1000Res."
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagrm.2021.194765"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz322"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw951"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.53",
+          "first-page": "1967",
+          "article-title": "Jstacs: A Java framework for statistical analysis and classification of biological sequences",
+          "volume": "13",
+          "year": "2012",
+          "journal-title": "J. Mach. Learn. Res"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1089"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1748-7188-8-23"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0219720013400040"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2008.195"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "lqab026",
+          "DOI": "10.1093/nargab/lqab026",
+          "article-title": "Bayesian Markov models improve the prediction of binding motifs beyond first order",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "NAR Genom Bioinform"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.59",
+          "unstructured": "Pedregosa, F. et al. Scikit-learn: Machine Learning in Python. J. Mach. Learn. Res. abs/1201.0490, (2011)."
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa789"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa928"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.1412.6980"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2009.07896"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-2-r24"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3331"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn268"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2014.083"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3128"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl223"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-019-45839-z"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1249"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv153"
+        },
+        {
+          "key": "2024111721451612000_2024.11.11.619379v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/ZENODO.10515307"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.11.619379",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:25:27Z",
+        "timestamp": 1768461927000
+      },
+      "score": 69.534775,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.11.619379"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "references-count": 73,
+      "URL": "https://doi.org/10.1101/2024.11.11.619379",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

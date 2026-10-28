@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42404897",
+  "title": "Identification and validation of platelet activation-related signatures in ulcerative colitis: a study based on machine learning and single-cell transcriptomic analysis.",
+  "authors": "Zhao, Lu; Liu, Yang; Wang, Shuqing; Cai, Yujie; Zhi, Jing; Zhao, Luqing; Zhang, Shengsheng",
+  "journal": "Frontiers in immunology",
+  "published_date": "2026-07-06",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究基于机器学习和单细胞转录组识别溃疡性结肠炎中血小板活化相关基因，虽涉及转录因子预测但核心为疾病生物标志物挖掘，缺乏蛋白质-DNA互作建模与机制研究。",
+  "abstract": "BACKGROUND: Platelet activation (PA) acts as a molecular bridge connecting thrombosis and inflammation. This study aimed to identify key PA-related genes (PARGs) in ulcerative colitis (UC), and explore their transcriptional associations with immune-stromal dysregulation. METHODS: Transcriptomic data of UC patients were obtained from the GEO database, and PARGs were retrieved from the MSigDB database. Differential expression analysis, WGCNA, LASSO, SVM-RFE, and random forest algorithms were applied to the GSE87466 dataset to identify key genes. Functional enrichment and immune infiltration analyses were performed to characterize their biological features. Additionally, single-cell RNA sequencing (scRNA-seq) analysis of the GSE214695 dataset was conducted to clarify their expression and localization. Findings were validated using independent GEO cohorts (GSE47908, GSE38713, and GSE36807) and qRT-PCR in a dextran sodium sulfate (DSS)-induced colitis mouse model. RESULTS: We identified 22 PARGs in UC, which were associated with extracellular matrix (ECM) remodeling, platelet activation, and immune cell recruitment. Machine learning algorithms refined these to three key genes: SPARC, TIMP1, and SERPINA1. ROC analysis demonstrated robust diagnostic performance (AUC > 0.8) across the training and external validation cohorts. Crucially, single-cell analysis revealed that these genes were predominantly expressed in intestinal fibroblasts. Their expression levels strongly correlated with the infiltration of pathogenic immune cells (e.g., M1 macrophages, neutrophils). Additionally, an upstream regulatory network predicted transcription factors such as NFKB1 and SP1 as potential regulators. Finally, qRT-PCR confirmed the significant upregulation of these three genes in the DSS-induced colitis model. CONCLUSION: This study highlights the role of platelet activation in UC; identifies SPARC, TIMP1, and SERPINA1 as potential biomarkers; and provides important insights for the diagnosis and development of therapies for UC.",
+  "abstract_zh": "背景：血小板活化（platelet activation, PA）是连接血栓形成与炎症的分子桥梁。本研究旨在识别溃疡性结肠炎（ulcerative colitis, UC）中的关键PA相关基因（PA-related genes, PARGs），并探讨其与免疫-基质失调的转录关联。方法：从GEO数据库获取UC患者的转录组数据，并从MSigDB数据库检索PARGs。对GSE87466数据集应用差异表达分析、WGCNA、LASSO、SVM-RFE和随机森林算法以识别关键基因。进行功能富集和免疫浸润分析以表征其生物学特征。此外，对GSE214695数据集进行单细胞RNA测序（single-cell RNA sequencing, scRNA-seq）分析，以阐明其表达和定位。使用独立GEO队列（GSE47908、GSE38713和GSE36807）及葡聚糖硫酸钠（dextran sodium sulfate, DSS）诱导的结肠炎小鼠模型中的qRT-PCR验证发现。结果：我们在UC中识别出22个PARGs，这些基因与细胞外基质（extracellular matrix, ECM）重塑、血小板活化和免疫细胞募集相关。机器学习算法将其精炼为三个关键基因：SPARC、TIMP1和SERPINA1。ROC分析显示，在训练集和外部验证队列中均具有稳健的诊断性能（AUC > 0.8）。关键的是，单细胞分析揭示这些基因主要在肠道成纤维细胞中表达。其表达水平与致病性免疫细胞（如M1巨噬细胞、中性粒细胞）的浸润密切相关。此外，上游调控网络预测转录因子如NFKB1和SP1为潜在调控因子。最后，qRT-PCR证实这三个基因在DSS诱导的结肠炎模型中显著上调。结论：本研究强调了血小板活化在UC中的作用；识别SPARC、TIMP1和SERPINA1为潜在生物标志物；并为UC的诊断和治疗开发提供了重要见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42404897/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42404897/",
+  "paper_page_path": "papers/pubmed/42404897/index.html"
+}

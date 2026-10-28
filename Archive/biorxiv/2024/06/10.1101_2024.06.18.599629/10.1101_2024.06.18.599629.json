@@ -1,0 +1,397 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.18.599629",
+  "title": "PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model",
+  "doi": "10.1101/2024.06.18.599629",
+  "abstract": "Pathogen identification is pivotal in diagnosing, treating, and preventing diseases, crucial for controlling infections and safeguarding public health. Traditional alignment-based methods, though widely used, are computationally intense and reliant on extensive reference databases, often failing to detect novel pathogens due to their low sensitivity and specificity. Similarly, conventional machine learning techniques, while promising, require large annotated datasets and extensive feature engineering and are prone to overfitting. Addressing these challenges, we introduce PathoLM, a cutting-edge pathogen language model optimized for the identification of pathogenicity in bacterial and viral sequences. Leveraging the strengths of pre-trained DNA models such as the Nucleotide Transformer, PathoLM requires minimal data for fine-tuning, thereby enhancing pathogen detection capabilities. It effectively captures a broader genomic context, significantly improving the identification of novel and divergent pathogens. We developed a comprehensive data set comprising approximately 30 species of viruses and bacteria, including ESKAPEE pathogens, seven notably virulent bacterial strains resistant to antibiotics. Additionally, we curated a species classification dataset centered specifically on the ESKAPEE group. In comparative assessments, PathoLM dramatically outperforms existing models like DciPatho, demonstrating robust zero-shot and few-shot capabilities. Furthermore, we expanded PathoLM-Sp for ESKAPEE species classification, where it showed superior performance compared to other advanced deep learning methods, despite the complexities of the task.",
+  "authors": [
+    "Sajib Acharjee Dip",
+    "Uddip Acharjee Shuvo",
+    "Tran Chau",
+    "Haoqiu Song",
+    "Petra Choi",
+    "Xuan Wang",
+    "Liqing Zhang"
+  ],
+  "published_date": "2024-06-22",
+  "updated_date": "2024-06-23T00:35:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.18.599629",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.18.599629.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2026-09-05T03:00:08Z",
+        "timestamp": 1788577208873,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 20,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Pathogen identification is pivotal in diagnosing, treating, and preventing diseases, crucial for controlling infections and safeguarding public health. Traditional alignment-based methods, though widely used, are computationally intense and reliant on extensive reference databases, often failing to detect novel pathogens due to their low sensitivity and specificity. Similarly, conventional machine learning techniques, while promising, require large annotated datasets and extensive feature engineering and are prone to overfitting. Addressing these challenges, we introduce PathoLM, a cutting-edge pathogen language model optimized for the identification of pathogenicity in bacterial and viral sequences. Leveraging the strengths of pre-trained DNA models such as the Nucleotide Transformer, PathoLM requires minimal data for fine-tuning, thereby enhancing pathogen detection capabilities. It effectively captures a broader genomic context, significantly improving the identification of novel and divergent pathogens. We developed a comprehensive data set comprising approximately 30 species of viruses and bacteria, including ESKAPEE pathogens, seven notably virulent bacterial strains resistant to antibiotics. Additionally, we curated a species classification dataset centered specifically on the ESKAPEE group. In comparative assessments, PathoLM dramatically outperforms existing models like DciPatho, demonstrating robust zero-shot and few-shot capabilities. Furthermore, we expanded PathoLM-Sp for ESKAPEE species classification, where it showed superior performance compared to other advanced deep learning methods, despite the complexities of the task.</jats:p>",
+      "DOI": "10.1101/2024.06.18.599629",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            23
+          ]
+        ],
+        "date-time": "2024-06-23T00:35:14Z",
+        "timestamp": 1719102914000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "title": [
+        "PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-0959-2638",
+          "authenticated-orcid": false,
+          "given": "Sajib Acharjee",
+          "family": "Dip",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Uddip Acharjee",
+          "family": "Shuvo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tran",
+          "family": "Chau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haoqiu",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Petra",
+          "family": "Choi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liqing",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "12",
+          "key": "2024062422351387000_2024.06.18.599629v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2001",
+          "DOI": "10.1093/bioinformatics/bty928",
+          "article-title": "Bacpacs—bacterial pathogenicity classification via sparse-svm",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz541"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.3",
+          "article-title": "Ai for biomedicine in the era of large language models",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.4",
+          "unstructured": "Centers for Disease Control and Prevention. Influenza virus. https://search.cdc.gov/search/?query=influenza%20virus&dpage=1, 2024. Accessed: 2024-05-07."
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dalla-Torre, H. , Gonzalez, L. , Mendoza-Revilla, J. , Carranza, N. L. , Grzywaczewski, A. H. , Oteri, F. , Dallago, C. , Trop, E. , de Almeida, B. P. , Sirelkhatim, H. , et al. The nucleotide transformer: Building and evaluating robust foundation models for human genomics. bioRxiv, pp. 2023–01, 2023.",
+          "DOI": "10.1101/2023.01.11.523679"
+        },
+        {
+          "issue": "1",
+          "key": "2024062422351387000_2024.06.18.599629v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "39194",
+          "DOI": "10.1038/srep39194",
+          "article-title": "Paprbag: A machine learning approach for the detection of novel pathogens from ngs data",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0378-1135(92)90059-3"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/IAI.00207-11"
+        },
+        {
+          "issue": "6",
+          "key": "2024062422351387000_2024.06.18.599629v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1259",
+          "DOI": "10.1038/s41385-019-0199-4",
+          "article-title": "Norovirus encounters in the gut: multifaceted interactions and disease outcomes",
+          "volume": "12",
+          "year": "2019",
+          "journal-title": "Mucosal immunology"
+        },
+        {
+          "issue": "4",
+          "key": "2024062422351387000_2024.06.18.599629v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbad194",
+          "DOI": "10.1093/bib/bbad194",
+          "article-title": "Dcipatho: deep cross-fusion networks for genome scale identification of pathogens",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "issue": "22",
+          "key": "2024062422351387000_2024.06.18.599629v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "e129",
+          "DOI": "10.1093/nar/gkab829",
+          "article-title": "Bioseq-blm: a platform for analyzing dna, rna and protein sequences based on biological language models",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "issue": "1",
+          "key": "2024062422351387000_2024.06.18.599629v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1186/s12859-023-05144-z",
+          "article-title": "Pathogen detection in rna-seq data with pathonoia",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-1935-5"
+        },
+        {
+          "issue": "10",
+          "key": "2024062422351387000_2024.06.18.599629v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "2306724",
+          "DOI": "10.1002/advs.202306724",
+          "article-title": "Bioinspiredllm: Conversational large language model for the mechanics of biological and bio-inspired materials",
+          "volume": "11",
+          "year": "2024",
+          "journal-title": "Advanced Science"
+        },
+        {
+          "issue": "1",
+          "key": "2024062422351387000_2024.06.18.599629v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "695",
+          "DOI": "10.1186/s12879-022-07678-8",
+          "article-title": "Molecular characterization of multidrug-resistant eskapee pathogens from clinical samples in chonburi, thailand (2017–2018)",
+          "volume": "22",
+          "year": "2022",
+          "journal-title": "BMC infectious diseases"
+        },
+        {
+          "issue": "12",
+          "key": "2024062422351387000_2024.06.18.599629v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1549",
+          "DOI": "10.3390/pathogens10121549",
+          "article-title": "Non-sars non-mers human coronaviruses: clinical characteristics and outcome",
+          "volume": "10",
+          "year": "2021",
+          "journal-title": "Pathogens"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "issue": "11",
+          "key": "2024062422351387000_2024.06.18.599629v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006863",
+          "DOI": "10.1371/journal.pcbi.1006863",
+          "article-title": "Identification and quantitation of clinically relevant microbes in patient samples: Comparison of three k-mer based classifiers for speed, accuracy, and sensitivity",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.19",
+          "article-title": "Dnabert-2: Efficient foundation model and benchmark for multi-species genome",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024062422351387000_2024.06.18.599629v1.20",
+          "unstructured": "Zhou, Z. , Wu, W. , Ho, H. , Wang, J. , Shi, L. , Davuluri, R. V. , Wang, Z. , and Liu, H. Dnabert-s: Learning species-aware dna embedding with genome foundation models. ArXiv, 2024."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.18.599629",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:36:07Z",
+        "timestamp": 1768458967000
+      },
+      "score": 72.26915,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.18.599629"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      },
+      "references-count": 20,
+      "URL": "https://doi.org/10.1101/2024.06.18.599629",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

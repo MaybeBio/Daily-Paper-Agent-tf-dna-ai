@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material provided
+- **Shared manuscript claim summary** The authors introduce a structure-based learning approach to predict transcription factor (TF) DNA-binding preferences and to model TF regulatory complexes, including cooperativity via co-localization and protein-protein interaction modeling. They claim superiority over nearest-neighbor prediction in remote homology regimes and demonstrate utility on two case examples (interferon-β enhanceosome and OCT4/SOX2/SOX11-nucleosome complex) with comparison to experimental structures.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, or structural comparisons are reported
+- **Missing materials affecting confidence** Full manuscript, methods description, figures, tables, supplementary data, validation details, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable computational framework for predicting TF binding motifs and modeling higher-order regulatory complexes. The motivation is clear and the scope is ambitious. However, the abstract provides insufficient technical detail and no quantitative evidence to evaluate the method's performance, novelty relative to existing tools, or the validity of the case-study comparisons. The claims of advantage over state-of-the-art methods and successful modeling of known complexes cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists, structural biologists, and researchers studying gene regulation and transcription factor networks. The approach could be of interest to those seeking to fill gaps in TF binding specificity data and to model cooperative regulatory complexes, which are relevant to understanding enhancer function and developmental gene regulation.
+- **Major strengths** The problem addressed is important and timely, given the large fraction of human TFs with unknown binding preferences. The proposed integration of structure-based prediction with modeling of cooperative complexes is conceptually appealing and could offer a unified framework. The choice of well-characterized case examples (enhanceosome and pioneer complex) provides a clear test of biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We show the advantage of using our approach over the state-of-art nearest-neighbor prediction in the limits of remote homology."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims superiority over nearest-neighbor prediction but provides no quantitative data, benchmarks, or statistical measures to support this claim. No performance metrics (e.g., AUC, correlation, motif recovery rates) are reported, and the specific conditions of "remote homology" are not defined.
+  - **Why it matters** Without quantitative comparison, the claimed advantage cannot be verified, and the reader cannot judge whether the method offers a meaningful improvement over existing approaches.
+  - **Resolution test** Provide benchmark results with clear metrics, error bars, and statistical significance tests comparing the proposed method to nearest-neighbor and other state-of-the-art predictors on defined remote-homology test sets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "As case examples, we apply our approach to automatically model the interferon-β enhanceosome and the pioneering complex of OCT4, SOX2 and SOX11 with a nucleosome, which are compared with the experimentally known structures."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that modeled complexes are compared with experimental structures but provides no details on the comparison method, quantitative agreement (e.g., RMSD, interface overlap), or whether the models were generated fully automatically without manual intervention.
+  - **Why it matters** The validity of the modeling approach hinges on demonstrating that the predicted complexes are structurally accurate. Without quantitative comparison, the claim of successful modeling is unsupported.
+  - **Resolution test** Report structural similarity metrics (e.g., RMSD, interface residue contacts) for each case example, and clarify the level of automation in the modeling pipeline.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** "We introduce a structure-based learning approach to predict the binding preferences of TFs and the automated modelling of TF regulatory complexes."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify what is novel about the learning approach relative to existing structure-based methods (e.g., DeepBind, DeepSEA, or other motif predictors) or how the modeling of cooperativity differs from prior work on TF complex prediction.
+  - **Why it matters** Without a clear statement of novelty, the contribution cannot be distinguished from existing literature, and the scientific advance is unclear.
+  - **Resolution test** In the full manuscript, explicitly compare the method to prior structure-based predictors and discuss the specific innovations in the learning architecture and cooperativity modeling.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "structure-based learning" is not defined, and the abstract does not clarify whether the method uses experimentally determined structures, predicted structures, or both.
+  - **Required correction** Define "structure-based learning" and specify the input structure types (experimental or predicted) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "co-localization of TFs" as a component of cooperativity modeling but does not explain how co-localization is determined or scored.
+  - **Required correction** Briefly describe the co-localization criterion or refer to a methods section in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of code availability, data availability, or web server access, which is important for a computational method.
+  - **Required correction** State where the software and data will be made available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of integrating structure-based motif prediction with cooperative complex modeling is potentially original, but the abstract does not provide enough detail to establish novelty over existing methods.  
+  - Scientific importance: The problem is important, and a reliable method could have broad utility, but the significance is not demonstrated with quantitative results.  
+  - Interdisciplinary readership: The topic bridges structural biology, genomics, and computational biology, which could attract a broad audience, but the abstract is too technical and lacks context for nonspecialists.  
+  - Technical soundness: Not assessable from the abstract; no methods or validation data are provided.  
+  - Readability for nonspecialists: The abstract is dense and uses jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising framework, but the core claims of predictive advantage and successful complex modeling require quantitative validation and methodological detail that are not present in the supplied material. A full manuscript with benchmarks and structural comparisons would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim of advantage over nearest-neighbor prediction in remote homology is unsupported due to lack of quantitative data.
+- The claim of successful modeling of the enhanceosome and pioneer complex is unsupported without structural comparison metrics.
+- The claim of introducing a novel "structure-based learning approach" is unverifiable without details on the method and its differentiation from existing tools.
+- The general applicability of the method to all TFs, implied by the abstract, is not supported by evidence.

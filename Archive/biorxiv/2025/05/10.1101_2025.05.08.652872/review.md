@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding, author contributions, competing interests, acknowledgements) as provided in the submission.
+- **Assessment boundary** Scientific content, technical soundness, and support for claims as presented in the provided text. No external validation of data, code, or deposited materials was performed.
+- **Shared manuscript claim summary** The manuscript reports the structural and functional characterization of HLp, a tetrameric histone-fold protein from the bacterium Leptospira perolatii. The authors present crystal structures of free HLp and two HLp-DNA complexes, biophysical data (SEC-MALS, MST, EMSA, CD), molecular dynamics simulations, and in vivo expression studies in Escherichia coli. They conclude that HLp wraps approximately 60 bp of DNA around its tetrameric core, representing the first example of DNA wrapping by a bacterial histone, and that this mode of interaction compacts DNA and alters its topology.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (partial), Results (all subsections), Discussion, Data availability, Funding, Author contributions, Competing interests, Acknowledgements. Figures and tables are referenced but not directly viewable; supplementary materials are referenced but not provided.
+- **Missing materials affecting confidence** Figures, tables, and supplementary figures/tables (e.g., Fig. 1-7, Fig. S1-S15, Tables S1-S4) are not viewable. Electron density maps, crystallographic validation reports, MD trajectory details, and raw biophysical data are not accessible. The full Materials and Methods section is incomplete in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant advance in the understanding of bacterial histone diversity and function. The identification and characterization of a tetrameric bacterial histone that wraps DNA, in contrast to the dimeric HBp, extends the known repertoire of histone-DNA interactions in bacteria. The combination of crystallography, biophysics, simulations, and in vivo experiments is commendable and appropriate for the claims made. However, several technical concerns and missing details temper my enthusiasm. The crystallographic evidence for the wrapping mode, the interpretation of the SEC-MALS stoichiometry, the robustness of the MD simulations, and the physiological relevance of the in vivo observations require careful scrutiny. The manuscript is well-written and accessible, but the current evidence does not fully establish the central claim of DNA wrapping as the predominant mode of interaction under physiological conditions.
+- **Who would be interested in the results, and why** Researchers in the fields of chromatin biology, prokaryotic genome organization, molecular evolution, and structural biology would find these results of interest. The work provides a new example of a bacterial histone with a distinct oligomeric state and DNA-binding mode, which has implications for understanding the diversity and evolution of histone-based genome packaging. The structural data and biophysical characterization will be valuable for comparative studies of histone-fold proteins across the tree of life.
+- **Major strengths**
+  - The study addresses a significant and timely question regarding the functional diversity of bacterial histones.
+  - The combination of multiple complementary techniques (crystallography, SEC-MALS, MST, EMSA, CD, MD, in vivo imaging) provides a multi-faceted view of HLp function.
+  - The identification of a tetrameric bacterial histone that wraps DNA is a novel finding that challenges the current understanding of bacterial histone mechanisms.
+  - The manuscript is clearly written and logically structured, making it accessible to a broad audience.
+  - The deposition of structures, MD data, and TPM data is commendable for transparency and reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural interpretation
+  - **Claim pointer** The manuscript claims that HLp wraps approximately 60 bp of DNA around its tetrameric core, based on crystal structures and MD simulations.
+  - **Evidence pointer** Results section "Crystal structures of HLp bound to DNA"; Figures 4 and 5; Table S3
+  - **Concern** The crystallographic evidence for the wrapping mode is not fully convincing from the text alone. The two crystal forms (HLp-DNA_1 and HLp-DNA_2) show DNA fragments that "appear to form continuous double helices winding throughout the crystal lattice," with only 16 bp of dsDNA and 15 nt of ssDNA resolved in the respective asymmetric units. The claim of wrapping is inferred from the arrangement of these fragments and the location of binding motifs, but the actual path of a continuous 60 bp DNA around a single tetramer is not directly observed in a single crystal structure. The authors rely on MD simulations to construct and validate the full wrapping model, but the starting model is built from the crystal structures, which may bias the outcome. The text does not provide sufficient detail on how the 67-bp DNA was modeled onto the tetramer, nor how the wrapping model was validated against the crystallographic data.
+  - **Why it matters** The central claim of the manuscript is that HLp wraps DNA. If the crystallographic data do not directly show a wrapped DNA molecule, the evidence for this mode is indirect and dependent on modeling and simulation. This weakens the novelty and significance of the finding.
+  - **Resolution test** The authors should provide a more detailed description of how the wrapping model was constructed from the crystal structures, including any fitting or refinement against the experimental data. They should also present clear evidence, such as omit maps or difference density, that the DNA path in the crystal is consistent with a continuous wrapped molecule. Alternatively, they could present a higher-resolution structure of a complete HLp-DNA complex that directly shows the wrapping.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of biophysical interpretation
+  - **Claim pointer** The manuscript claims that SEC-MALS data are consistent with a complex consisting of an HLp tetramer bound to two 30-bp DNA duplexes.
+  - **Evidence pointer** Results section "HLp binds non-specifically to DNA in vitro"; Figure 3D
+  - **Concern** The SEC-MALS experiment reports a single molecular weight of 69.2 ± 5.7 kDa for the complex. The theoretical molecular weight of an HLp tetramer (4 x 7.1 kDa = 28.4 kDa) plus two 30-bp DNA duplexes (2 x ~18.6 kDa = 37.2 kDa) is approximately 65.6 kDa, which is within the reported error. However, the text does not discuss alternative stoichiometries, such as a tetramer bound to one DNA duplex (theoretical ~47 kDa) or a dimer bound to one duplex (~25.7 kDa). The reported molecular weight alone cannot distinguish between these possibilities, especially given the error range. The authors should provide additional evidence, such as a titration series or a more precise mass measurement, to support the 1:2 (tetramer:DNA) stoichiometry.
+  - **Why it matters** The stoichiometry of the HLp-DNA complex is critical for understanding the wrapping mechanism. If the complex contains only one DNA duplex per tetramer, the wrapping model would need to be revised. The current data are insufficient to support the claimed stoichiometry.
+  - **Resolution test** The authors should perform a titration experiment with varying HLp:DNA ratios and monitor complex formation by SEC-MALS or a complementary technique (e.g., AUC, native MS). They should also report the molecular weights of the individual components and the complex with more precision, and discuss alternative models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for in vivo claims
+  - **Claim pointer** The manuscript claims that HLp expression in E. coli reorganizes nucleoid morphology, consistent with a role in chromatin organization.
+  - **Evidence pointer** Results section "HLp binds to genomic DNA in vivo"; Figure 7
+  - **Concern** The in vivo experiments rely on heterologous expression in E. coli and fluorescence microscopy. The text states that HLp expression leads to "clear elongation and a substantial increase in nucleoid volume" and that the nucleoid appears "decondensed." However, the quantification of these phenotypes is not described in the provided text. It is unclear how nucleoid volume was measured, how many cells were analyzed, and whether the differences are statistically significant. The authors also note that expression levels varied significantly between constructs, and it is unclear how this variability was controlled for in the analysis.
+  - **Why it matters** The in vivo data are used to support the physiological relevance of HLp's DNA-binding activity. Without proper quantification and statistical analysis, the observed phenotypes could be due to non-specific effects of protein overexpression or differences in expression levels.
+  - **Resolution test** The authors should provide a detailed description of the image analysis pipeline, including how nucleoid volume was quantified, the number of cells analyzed per condition, and the statistical tests used. They should also include a control where a DNA-binding-deficient mutant of HLp is expressed to demonstrate that the phenotype is specific to DNA binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for evolutionary claims
+  - **Claim pointer** The manuscript claims that the distribution of bacterial and archaeal FtF histones suggests an ancestral origin in LUCA or multiple horizontal gene transfer events.
+  - **Evidence pointer** Results section "Bioinformatic analysis"; Figure 1
+  - **Concern** The bioinformatic analysis is described briefly, and the text does not provide details on the methods used for clustering, the number of sequences analyzed, or the statistical support for the observed clustering patterns. The claim that bacterial and archaeal FtF histones form "separate, well-defined clusters" is based on a visual inspection of a CLANS plot, which is not shown. The evolutionary scenarios proposed (LUCA ancestry vs. HGT) are speculative and not tested with phylogenetic methods.
+  - **Why it matters** The evolutionary interpretation is a key part of the discussion and adds to the significance of the work. However, the current evidence is insufficient to support the strong claims made about the origins and distribution of FtF histones.
+  - **Resolution test** The authors should provide a more detailed description of the bioinformatic methods, including the number of sequences, the clustering parameters, and the statistical support for the clusters. They should also perform a phylogenetic analysis to test the proposed evolutionary scenarios.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that HLp "wraps ∼60 base pairs of DNA around its tetrameric core." This is a strong claim that is not fully supported by the data presented in the text, as discussed in R1-M1. The abstract should be more cautious, e.g., "is consistent with a wrapping mode" or "suggests a wrapping mechanism."
+  - **Required correction** Revise the abstract to reflect the indirect nature of the evidence for wrapping.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The Materials and Methods section is incomplete in the provided text. Details on the EMSA, MST, CD, and light microscopy protocols are missing. This makes it difficult to assess the quality and reproducibility of the experiments.
+  - **Required correction** Provide a complete Materials and Methods section, including buffer compositions, instrument settings, and data analysis procedures for all experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results, in vivo experiments
+  - **Evidence pointer** Results section "HLp binds to genomic DNA in vivo"
+  - **Issue** The text does not report the number of biological replicates or the statistical significance of the observed differences in nucleoid morphology.
+  - **Required correction** Add statistical analysis, including the number of cells analyzed, the number of independent experiments, and the p-values for the comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 4 and 5
+  - **Evidence pointer** Results section "Crystal structures of HLp bound to DNA" and "Molecular dynamics (MD) simulation"
+  - **Issue** The text refers to "Fig. 4A and B" and "Fig. 5A" but does not describe the contents of these figures in sufficient detail. It is unclear what is shown in each panel.
+  - **Required correction** Add a detailed figure legend for each panel, describing the contents and the key features.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability section
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement mentions deposits for structures, MD data, and TPM data, but does not mention the raw data for EMSA, MST, CD, or the bioinformatic analysis.
+  - **Required correction** Consider depositing all raw data, including gel images, MST traces, CD spectra, and sequence alignments, to ensure full reproducibility.
+
+## Risk / unsupported claims
+- The claim that HLp wraps approximately 60 bp of DNA is not directly supported by the crystallographic data, which show only short DNA fragments in the asymmetric unit. The wrapping model is inferred from the arrangement of these fragments and supported by MD simulations, but the evidence is indirect.
+- The claim that the HLp-DNA complex has a 1:2 (tetramer:DNA) stoichiometry is not uniquely determined by the SEC-MALS data, as alternative stoichiometries could also fit the reported molecular weight.
+- The claim that HLp expression in E. coli leads to nucleoid reorganization is based on qualitative observations that are not quantified or statistically analyzed in the provided text.
+- The evolutionary scenarios proposed in the discussion (LUCA ancestry vs. HGT) are speculative and not tested with phylogenetic methods.
+- The claim that HLp is the "first example of DNA wrapping by a bacterial histone" is a strong statement that depends on the definition of "wrapping" and the completeness of the literature review.

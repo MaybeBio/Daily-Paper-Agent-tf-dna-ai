@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "39085784",
+    "doi": "10.1186/s12885-024-12688-7",
+    "title": "Single-cell transcriptome analysis revealed heterogeneity in glycolysis and identified IGF2 as a therapeutic target for ovarian cancer subtypes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: As the most malignant tumor of the female reproductive system, ovarian cancer (OC) has garnered increasing attention. The Warburg effect, driven by glycolysis, accounts for tumor cell proliferation under aerobic conditions. However, the metabolic heterogeneity linked to glycolysis in OC remains elusive. METHODS: We integrated single-cell data with OC to score glycolysis level in tumor cell subclusters. This led to the identification of a subcluster predominantly characterized by glycolysis, with a strong correlation to patient prognosis. Core transcription factors were pinpointed using hdWGCNA and metaVIPER. A specific transcription factor regulatory network was then constructed. A glycolysis-related prognostic model was developed and tested for estimating OC prognosis with a total of 85 machine-learning combinations, focusing on specific upregulated genes of two subtypes. We identified IGF2 as a key within the prognostic model and investigated its impact on OC progression and drug resistance through in vitro experiments, including the transwell assay, lactate production detection, and the CCK-8 assay. RESULTS: Analysis showed that the Malignant 7 subcluster was primarily related to glycolysis. Two OC molecular subtypes, CS1 and CS2, were identified with distinct clinical, biological, and microenvironmental traits. A prognostic model was built, and IGF2 emerged as a key gene linked to prognosis. Experiments have proven that IGF2 can promote the glycolysis pathway and the malignant biological progression of OC cells. CONCLUSIONS: We developed two novel OC subtypes based on glycolysis score, established a stable prognostic model, and identified IGF2 as the marker gene. These insights provided a new avenue for exploring OC's molecular mechanisms and personalized treatment approaches.",
+    "keywords": [
+      "IGF2",
+      "Glycolysis",
+      "Machine learning",
+      "Molecular subtype",
+      "Ovarian cancer",
+      "Single-cell transcriptomics"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Drug Resistance, Neoplasm/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Glycolysis/genetics",
+      "*Insulin-Like Growth Factor II/genetics/metabolism",
+      "*Ovarian Neoplasms/genetics/metabolism/pathology/drug therapy",
+      "Prognosis",
+      "Single-Cell Gene Expression Analysis",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Jinting",
+        "Bi, Fangfang",
+        "Zhang, Xiaocui",
+        "Zhang, Zhiming",
+        "Xie, Yichi",
+        "Yang, Qing"
+      ],
+      "short_names": [
+        "Ji J",
+        "Bi F",
+        "Zhang X",
+        "Zhang Z",
+        "Xie Y",
+        "Yang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China.",
+        "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China.",
+        "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China.",
+        "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China.",
+        "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China.",
+        "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China. yangqing_sj@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Jinting",
+        "short_name": "Ji J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Fangfang",
+        "short_name": "Bi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaocui",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhiming",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yichi",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qing",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China. yangqing_sj@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2024 Jul 31",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/01 00:42",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42234733",
+      "41286949",
+      "41007637",
+      "40692714",
+      "40497941",
+      "40309242",
+      "39441459"
+    ],
+    "refs": [
+      "38725484",
+      "38701422",
+      "38543226",
+      "38396692",
+      "38286802",
+      "38097143",
+      "38022625",
+      "38017371",
+      "38016970",
+      "37845213",
+      "37828561",
+      "37672022",
+      "37662958",
+      "37371750",
+      "37156885",
+      "37061430",
+      "37059310",
+      "36936948",
+      "36906534",
+      "36864611",
+      "36768924",
+      "36672737",
+      "36671544",
+      "36521737",
+      "36426751",
+      "36284306",
+      "36282174",
+      "36169175",
+      "36081904",
+      "36075393",
+      "36057597",
+      "36007522",
+      "35970919",
+      "35969151",
+      "35969103",
+      "35922812",
+      "35863742",
+      "35741015",
+      "35675036",
+      "35453348",
+      "35331296",
+      "35246504",
+      "35234370",
+      "35228898",
+      "35167319",
+      "35045986",
+      "35031546",
+      "35008569",
+      "34987057",
+      "34739872",
+      "34671086",
+      "34523782",
+      "34496868",
+      "34459128",
+      "34360868",
+      "33347611",
+      "33091446",
+      "33037194",
+      "32547317",
+      "32326107",
+      "32302573",
+      "32033443",
+      "31480557",
+      "31213009",
+      "29988129",
+      "29325558",
+      "25670080",
+      "23319492",
+      "8398117"
+    ],
+    "similar": [
+      "39085784",
+      "31922228",
+      "32115849",
+      "34510316",
+      "38018207",
+      "24932685",
+      "26063585",
+      "33317572",
+      "20404007",
+      "31691157",
+      "34288231",
+      "34470661",
+      "39363015",
+      "31182053",
+      "38734828",
+      "39159682",
+      "34560889",
+      "39155781",
+      "32030795",
+      "34338995",
+      "38778348",
+      "34745121",
+      "33737494",
+      "33180631",
+      "33285422",
+      "31987036",
+      "31639424",
+      "32985220",
+      "37919068",
+      "37046345",
+      "32743678",
+      "38714290",
+      "35227296",
+      "26733163",
+      "39011678",
+      "31114986",
+      "34798882",
+      "30487062",
+      "38615083",
+      "39134101",
+      "34238352",
+      "38365849",
+      "33675171",
+      "38723327",
+      "36708070",
+      "39178946",
+      "38752261",
+      "39103807",
+      "31703725",
+      "28482906",
+      "33564363",
+      "35001804",
+      "38720298",
+      "36245227",
+      "32901049",
+      "35918500",
+      "37807062",
+      "30633343",
+      "35420332",
+      "29041931",
+      "34440660",
+      "33928819",
+      "35946537",
+      "38365611",
+      "38944891",
+      "33576437",
+      "31904484",
+      "34614446",
+      "28521298",
+      "34633990",
+      "34523782",
+      "26750614",
+      "31746426",
+      "35568893",
+      "38461331",
+      "38739992",
+      "35496047",
+      "37023314",
+      "33655494",
+      "32945505",
+      "35262876",
+      "39118022",
+      "31655274",
+      "34163033",
+      "38685095",
+      "37158446",
+      "28653604",
+      "38182548",
+      "38970067",
+      "32629664",
+      "34923485",
+      "30556850",
+      "32319633",
+      "30829010",
+      "35770296",
+      "38143770",
+      "38115063",
+      "30335894",
+      "38488992",
+      "35057848",
+      "38963981",
+      "36016468",
+      "39385288",
+      "39362905",
+      "39393173"
+    ],
+    "review": [
+      "39085784",
+      "34470661",
+      "38723327",
+      "31904484"
+    ],
+    "pmc": [
+      "11292870"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-024-12688-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39085784/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1763",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

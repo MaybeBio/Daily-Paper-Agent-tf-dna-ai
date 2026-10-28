@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "42576455",
+    "doi": "10.1155/jimr/6032689",
+    "title": "Integrated Molecular Docking and Dynamic Simulations Reveal Glycyrrhizic Acid Alleviates Allergic Rhinitis in Rats by Inhibiting the TLR4/NF-kappaB/IL-1beta Pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Allergic rhinitis (AR) is a prevalent chronic inflammatory nasal disorder with suboptimal current therapies. Glycyrrhizic acid (GA), a bioactive triterpenoid from Glycyrrhiza uralensis, exerts well-documented antiinflammatory effects, and preliminary evidence indicates its efficacy in alleviating airway inflammation in AR models. However, two critical knowledge gaps remain unaddressed: whether GA directly binds to core proteins of the toll-like receptor 4 (TLR4)/nuclear factor-kappa B (NF-kappaB)/IL-1beta inflammatory pathway, and whether this binding mediates GA's therapeutic effects in AR have not been systematically verified by integrated computational and in vivo experiments. METHODS: An ovalbumin (OVA)-induced AR rat model was established. GA was administered intranasally for seven consecutive days. Behavioral observations, histopathological examination, and serum cytokine detection were performed to evaluate AR-related symptoms and immune imbalance. Molecular docking was employed to assess the binding affinity between GA and four key proteins in the TLR4 pathway (TLR4, myeloid differentiation primary response 88 [MyD88], NF-kappaB, and IL-1beta). About 100 ns molecular dynamics (MD) simulations were further conducted to validate the stability of the GA-protein complexes. Immunohistochemistry and RT-qPCR were used to verify the expression of pathway-related proteins and cytokines in nasal mucosal tissues. RESULTS: GA significantly reduced sneezing, rhinorrhea, and nasal mucosal pathological damage in AR rats. It restored the T helper 1 (Th1)/Th2 immune balance by suppressing Th2 cytokines (IL-4 and IL-13) and enhancing Th1 cytokines (interferon-gamma [IFN-gamma] and IL-2). Molecular docking results showed that GA bound strongly to all four target proteins, with the highest affinity for IL-1beta (-9.3 kcal/mol) and TLR4 (-7.6 kcal/mol). MD simulations confirmed the stable conformational dynamics of the GA-IL-1beta and GA-TLR4 complexes. In vivo experiments further demonstrated that GA significantly downregulated the expression of TLR4, MyD88, NF-kappaB, and IL-1beta in nasal mucosa and reduced the levels of downstream proinflammatory cytokines (TNF-alpha and IL-6). CONCLUSIONS: GA alleviates AR symptoms by directly binding to core proteins of the TLR4/NF-kappaB/IL-1beta pathway, inhibiting pathway activation, restoring Th1/Th2 immune balance, and suppressing inflammatory responses. This study provides structural and functional evidence supporting GA as a promising targeted therapeutic candidate for AR.",
+    "keywords": [
+      "TLR4/NF-kappaB/IL-1beta pathway",
+      "allergic rhinitis",
+      "glycyrrhizic acid",
+      "molecular docking",
+      "molecular dynamics simulation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Glycyrrhizic Acid/pharmacology/therapeutic use/chemistry",
+      "Molecular Docking Simulation",
+      "*Toll-Like Receptor 4/metabolism/chemistry",
+      "Rats",
+      "NF-kappa B/metabolism",
+      "*Rhinitis, Allergic/drug therapy/immunology/metabolism",
+      "Signal Transduction/drug effects",
+      "Molecular Dynamics Simulation",
+      "Disease Models, Animal",
+      "Interleukin-1beta/metabolism",
+      "Ovalbumin/immunology",
+      "Male",
+      "Cytokines/metabolism",
+      "Myeloid Differentiation Factor 88/metabolism",
+      "Nasal Mucosa/pathology/immunology/drug effects",
+      "Humans",
+      "Rats, Sprague-Dawley",
+      "*Anti-Inflammatory Agents/pharmacology/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Jianquan",
+        "Ren, Xinyue",
+        "Chen, Xiaojin",
+        "Zheng, Xiang"
+      ],
+      "short_names": [
+        "Huang J",
+        "Ren X",
+        "Chen X",
+        "Zheng X"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-5451-7602",
+        "ORCID: 0000-0003-3632-7155",
+        "ORCID: 0009-0006-0219-9617",
+        "ORCID: 0000-0001-7675-7278"
+      ],
+      "affiliations": [
+        "Department of Pharmacy, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org.",
+        "Department of Pharmacy, Hangzhou Maternity and Child Health Care Hospital, Hangzhou 310008, Zhejiang, China.",
+        "Pediatric Research Institute, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org.",
+        "Pediatric Research Institute, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org.",
+        "Department of Pharmacy, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org.",
+        "Pediatric Research Institute, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Jianquan",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0009-0007-5451-7602"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org.",
+          "Department of Pharmacy, Hangzhou Maternity and Child Health Care Hospital, Hangzhou 310008, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Xinyue",
+        "short_name": "Ren X",
+        "identifiers": [
+          "0000-0003-3632-7155"
+        ],
+        "affiliations": [
+          "Pediatric Research Institute, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaojin",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0009-0006-0219-9617"
+        ],
+        "affiliations": [
+          "Pediatric Research Institute, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xiang",
+        "short_name": "Zheng X",
+        "identifiers": [
+          "0000-0001-7675-7278"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org.",
+          "Pediatric Research Institute, Hangzhou Children's Hospital, Hangzhou 310014, Zhejiang, China, hzch.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of immunology research"
+    ],
+    "journal_abbrev": [
+      "J Immunol Res"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/11 06:35",
+    "fetched_at": "2026-10-02 03:35:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41105344",
+      "40921365",
+      "40672946",
+      "40611246",
+      "40069715",
+      "39892170",
+      "39870013",
+      "39840272",
+      "39755645",
+      "39403140",
+      "39125368",
+      "39053712",
+      "38835658",
+      "38675586",
+      "38570070",
+      "38435751",
+      "38388914",
+      "38185229",
+      "38176667",
+      "38102584",
+      "37831419",
+      "37373516",
+      "36949402",
+      "36938614",
+      "36878860",
+      "36764832",
+      "36551192",
+      "36152989",
+      "35401188",
+      "35157693",
+      "34734506",
+      "34708566",
+      "33273461",
+      "33068299",
+      "32707227",
+      "32585604",
+      "30845812",
+      "30003405",
+      "29452068",
+      "28685526",
+      "27454129",
+      "26574453",
+      "25644617",
+      "22555057",
+      "22241467"
+    ],
+    "similar": [
+      "42576455",
+      "38764116",
+      "36350155",
+      "42167662",
+      "40010305",
+      "38388914",
+      "42349815",
+      "41038330",
+      "31669322",
+      "40967489",
+      "41508081",
+      "41265260",
+      "37186201",
+      "42236769",
+      "32585604",
+      "41786057",
+      "39450979",
+      "41814794",
+      "33900898",
+      "38621908",
+      "34092750",
+      "38181931",
+      "42102788",
+      "38239137",
+      "42482579",
+      "41296034",
+      "30884431",
+      "38604509",
+      "41361467",
+      "33383282",
+      "41724289",
+      "39053712",
+      "41274524",
+      "42015637",
+      "37515333",
+      "42437318",
+      "29894863",
+      "40886869",
+      "36601662",
+      "42543266",
+      "37186199",
+      "28886581",
+      "24842692",
+      "39617708",
+      "40449268",
+      "41880679",
+      "25239813",
+      "39951973",
+      "40972333",
+      "39757930",
+      "31683033",
+      "31361168",
+      "41389887",
+      "40684492",
+      "38500425",
+      "41311552",
+      "35285093",
+      "40120702",
+      "38621907",
+      "41455386",
+      "38213245",
+      "37308226",
+      "42044574",
+      "32202708",
+      "41508268",
+      "41668756",
+      "28738820",
+      "29990871",
+      "39278848",
+      "37742576",
+      "41864553",
+      "39421735",
+      "36144628",
+      "25760938",
+      "38972239",
+      "29193143",
+      "31622746",
+      "41881321",
+      "39971016",
+      "39318313",
+      "34650664",
+      "41376215",
+      "41866004",
+      "29326885",
+      "38273754",
+      "41924773",
+      "40484254",
+      "37178572",
+      "32869573",
+      "38294580",
+      "41131758",
+      "27266354",
+      "31440938",
+      "42284764",
+      "38636398",
+      "41175588",
+      "32408566",
+      "40222359",
+      "40384385",
+      "42294648"
+    ],
+    "review": [
+      "42576455"
+    ],
+    "pmc": [
+      "13458278"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42576455/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/jimr/6032689",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

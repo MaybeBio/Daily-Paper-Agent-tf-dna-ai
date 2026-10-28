@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "36140725",
+    "doi": "10.3390/genes13091557",
+    "title": "Application of Feature Selection and Deep Learning for Cancer Prediction Using DNA Methylation Markers."
+  },
+  "content": {
+    "abstract": "DNA methylation is a process that can affect gene accessibility and therefore gene expression. In this study, a machine learning pipeline is proposed for the prediction of breast cancer and the identification of significant genes that contribute to the prediction. The current study utilized breast cancer methylation data from The Cancer Genome Atlas (TCGA), specifically the TCGA-BRCA dataset. Feature engineering techniques have been utilized to reduce data volume and make deep learning scalable. A comparative analysis of the proposed approach on Illumina 27K and 450K methylation data reveals that deep learning methodologies for cancer prediction can be coupled with feature selection models to enhance prediction accuracy. Prediction using 450K methylation markers can be accomplished in less than 13 s with an accuracy of 98.75%. Of the list of 685 genes in the feature selected 27K dataset, 578 were mapped to Ensemble Gene IDs. This reduced set was significantly (FDR < 0.05) enriched in five biological processes and one molecular function. Of the list of 1572 genes in the feature selected 450K data set, 1290 were mapped to Ensemble Gene IDs. This reduced set was significantly (FDR < 0.05) enriched in 95 biological processes and 17 molecular functions. Seven oncogene/tumor suppressor genes were common between the 27K and 450K feature selected gene sets. These genes were RTN4IP1, MYO18B, ANP32A, BRF1, SETBP1, NTRK1, and IGF2R. Our bioinformatics deep learning workflow, incorporating imputation and data balancing methods, is able to identify important methylation markers related to functionally important genes in breast cancer with high accuracy compared to deep learning or statistical models alone.",
+    "keywords": [
+      "DNA methylation",
+      "TCGA",
+      "breast cancer",
+      "deep learning"
+    ],
+    "mesh_terms": [
+      "*Breast Neoplasms/diagnosis/genetics/metabolism",
+      "Carrier Proteins/genetics",
+      "DNA Methylation/genetics",
+      "*Deep Learning",
+      "Female",
+      "Genetic Markers",
+      "Humans",
+      "Machine Learning",
+      "Mitochondrial Proteins/genetics",
+      "Nuclear Proteins/genetics",
+      "RNA-Binding Proteins/genetics",
+      "*TATA-Binding Protein Associated Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gomes, Rahul",
+        "Paul, Nijhum",
+        "He, Nichol",
+        "Huber, Aaron Francis",
+        "Jansen, Rick J"
+      ],
+      "short_names": [
+        "Gomes R",
+        "Paul N",
+        "He N",
+        "Huber AF",
+        "Jansen RJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5377-8196",
+        "ORCID: 0000-0001-5683-2584"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of Wisconsin-Eau Claire, 133 Phillips Science Hall, 101 Roosevelt Ave, Eau Claire, WI 54701, USA.",
+        "Department of Public Health, North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA.",
+        "Department of Computer Science, University of Wisconsin-Eau Claire, 133 Phillips Science Hall, 101 Roosevelt Ave, Eau Claire, WI 54701, USA.",
+        "Department of Computer Science, University of Wisconsin-Eau Claire, 133 Phillips Science Hall, 101 Roosevelt Ave, Eau Claire, WI 54701, USA.",
+        "Department of Public Health, North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA.",
+        "Genomics, Phenomics, and Bioinformatics Program, North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA.",
+        "Center for Immunization Research and Education (CIRE), North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA.",
+        "Center for Diagnostic and Therapeutic Strategies in Pancreatic Cancer, North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gomes, Rahul",
+        "short_name": "Gomes R",
+        "identifiers": [
+          "0000-0002-5377-8196"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Wisconsin-Eau Claire, 133 Phillips Science Hall, 101 Roosevelt Ave, Eau Claire, WI 54701, USA."
+        ]
+      },
+      {
+        "full_name": "Paul, Nijhum",
+        "short_name": "Paul N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA."
+        ]
+      },
+      {
+        "full_name": "He, Nichol",
+        "short_name": "He N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Wisconsin-Eau Claire, 133 Phillips Science Hall, 101 Roosevelt Ave, Eau Claire, WI 54701, USA."
+        ]
+      },
+      {
+        "full_name": "Huber, Aaron Francis",
+        "short_name": "Huber AF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Wisconsin-Eau Claire, 133 Phillips Science Hall, 101 Roosevelt Ave, Eau Claire, WI 54701, USA."
+        ]
+      },
+      {
+        "full_name": "Jansen, Rick J",
+        "short_name": "Jansen RJ",
+        "identifiers": [
+          "0000-0001-5683-2584"
+        ],
+        "affiliations": [
+          "Department of Public Health, North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA.",
+          "Genomics, Phenomics, and Bioinformatics Program, North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA.",
+          "Center for Immunization Research and Education (CIRE), North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA.",
+          "Center for Diagnostic and Therapeutic Strategies in Pancreatic Cancer, North Dakota State University, 640S Aldevron Tower, 1455 14th Ave N, Fargo, ND 58102, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Aug 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/24 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "41989963",
+      "41928241",
+      "41491226",
+      "41342168",
+      "40972407",
+      "40565547",
+      "40269936",
+      "38929750",
+      "38845821",
+      "37985455",
+      "37508462",
+      "36292164"
+    ],
+    "refs": [
+      "34773240",
+      "33619384",
+      "33125081",
+      "31882993",
+      "31590287",
+      "31189412",
+      "30994904",
+      "30967120",
+      "30961553",
+      "30835723",
+      "30796811",
+      "30017583",
+      "28395661",
+      "28232861",
+      "28184262",
+      "26902283",
+      "26797014",
+      "26704973",
+      "26590405",
+      "26573593",
+      "25042786",
+      "23740750",
+      "23066107",
+      "21839163",
+      "20711195",
+      "16421597",
+      "15308542",
+      "12673207",
+      "11395428",
+      "3656447"
+    ],
+    "similar": [
+      "36140725",
+      "37530887",
+      "35818034",
+      "32806782",
+      "31590287",
+      "38658129",
+      "33250148",
+      "26872146",
+      "20525369",
+      "34290286",
+      "29157442",
+      "33550016",
+      "35132081",
+      "23578854",
+      "33461604",
+      "32412047",
+      "22524302",
+      "28179314",
+      "31640538",
+      "37037781",
+      "28652331",
+      "26884818",
+      "33933781",
+      "26282201",
+      "34001208",
+      "31290690",
+      "34956313",
+      "22546179",
+      "24160266",
+      "31216310",
+      "30891794",
+      "20005686",
+      "32822302",
+      "32933515",
+      "31615113",
+      "29940789",
+      "38247911",
+      "32362304",
+      "32309439",
+      "35428183",
+      "30415723",
+      "32005275",
+      "22126295",
+      "35045866",
+      "29721079",
+      "26727311",
+      "38052593",
+      "28756535",
+      "34051729",
+      "29642861",
+      "38657466",
+      "25089541",
+      "36183055",
+      "27207652",
+      "25861082",
+      "27070496",
+      "37127563",
+      "25175708",
+      "38082253",
+      "31081184",
+      "31395792",
+      "31120387",
+      "37780374",
+      "27496870",
+      "22810491",
+      "35342080",
+      "28981624",
+      "31490960",
+      "32185457",
+      "25468711",
+      "30258192",
+      "24658971",
+      "35395721",
+      "29328377",
+      "28841467",
+      "30125947",
+      "32120302",
+      "31341364",
+      "27899048",
+      "36084090",
+      "38943996",
+      "31959227",
+      "20830311",
+      "34260616",
+      "30821641",
+      "33086649",
+      "31533842",
+      "21364760",
+      "33831996",
+      "31002714",
+      "20011240",
+      "34397436",
+      "34404441",
+      "33092459",
+      "32578842",
+      "30218172",
+      "38382385",
+      "27993161",
+      "22492641",
+      "39009577",
+      "39292320",
+      "37985455",
+      "32406380",
+      "35739223",
+      "33918195",
+      "35328380",
+      "38044381",
+      "38820401",
+      "30134623",
+      "38923006",
+      "38586474",
+      "37117277",
+      "38053026",
+      "36892770",
+      "36952569",
+      "34429856",
+      "37671040",
+      "36896538",
+      "37603212",
+      "37761960",
+      "36008532",
+      "39095659",
+      "34277640",
+      "32604779",
+      "38477028",
+      "37380946",
+      "38108720",
+      "36723810",
+      "30662451",
+      "37579795",
+      "38627848",
+      "30462144",
+      "38036705",
+      "37193558"
+    ],
+    "review": [
+      "36140725",
+      "32005275",
+      "30258192",
+      "39009577"
+    ],
+    "pmc": [
+      "9498757"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13091557",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36140725/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36140725",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2601",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

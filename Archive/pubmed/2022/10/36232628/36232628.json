@@ -1,0 +1,595 @@
+{
+  "identity": {
+    "pmid": "36232628",
+    "doi": "10.3390/ijms231911326",
+    "title": "Deep-Learning to Predict BRCA Mutation and Survival from Digital H&E Slides of Epithelial Ovarian Cancer."
+  },
+  "content": {
+    "abstract": "BRCA 1/2 genes mutation status can already determine the therapeutic algorithm of high grade serous ovarian cancer patients. Nevertheless, its assessment is not sufficient to identify all patients with genomic instability, since BRCA 1/2 mutations are only the most well-known mechanisms of homologous recombination deficiency (HR-d) pathway, and patients displaying HR-d behave similarly to BRCA mutated patients. HRd assessment can be challenging and is progressively overcoming BRCA testing not only for prognostic information but more importantly for drugs prescriptions. However, HR testing is not already integrated in clinical practice, it is quite expensive and it is not refundable in many countries. Selecting patients who are more likely to benefit from this assessment (BRCA 1/2 WT patients) at an early stage of the diagnostic process, would allow an optimization of genomic profiling resources. In this study, we sought to explore whether somatic BRCA1/2 genes status can be predicted using computational pathology from standard hematoxylin and eosin histology. In detail, we adopted a publicly available, deep-learning-based weakly supervised method that uses attention-based learning to automatically identify sub regions of high diagnostic value to accurately classify the whole slide (CLAM). The same model was also tested for progression free survival (PFS) prediction. The model was tested on a cohort of 664 (training set: n = 464, testing set: n = 132) ovarian cancer patients, of whom 233 (35.1%) had a somatic BRCA 1/2 mutation. An area under the curve of 0.7 and 0.55 was achieved in the training and testing set respectively. The model was then further refined by manually identifying areas of interest in half of the cases. 198 images were used for training (126/72) and 87 images for validation (55/32). The model reached a zero classification error on the training set, but the performance was 0.59 in terms of validation ROC AUC, with a 0.57 validation accuracy. Finally, when applied to predict PFS, the model achieved an AUC of 0.71, with a negative predictive value of 0.69, and a positive predictive value of 0.75. Based on these analyses, we have planned further steps of development such as proving a reference classification performance, exploring the hyperparameters space for training optimization, eventually tweaking the learning algorithms and the neural networks architecture for better suiting this specific task. These actions may allow the model to improve performances for all the considered outcomes.",
+    "keywords": [
+      "artificial intelligence",
+      "digital pathology",
+      "machine learning",
+      "ovarian cancer",
+      "somatic BRCA mutational status"
+    ],
+    "mesh_terms": [
+      "BRCA1 Protein/genetics",
+      "Carcinoma, Ovarian Epithelial/genetics",
+      "*Deep Learning",
+      "Eosine Yellowish-(YS)/therapeutic use",
+      "Female",
+      "Germ-Line Mutation",
+      "Hematoxylin/therapeutic use",
+      "Humans",
+      "Mutation",
+      "*Ovarian Neoplasms/diagnosis/drug therapy/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nero, Camilla",
+        "Boldrini, Luca",
+        "Lenkowicz, Jacopo",
+        "Giudice, Maria Teresa",
+        "Piermattei, Alessia",
+        "Inzani, Frediano",
+        "Pasciuto, Tina",
+        "Minucci, Angelo",
+        "Fagotti, Anna",
+        "Zannoni, Gianfranco",
+        "Valentini, Vincenzo",
+        "Scambia, Giovanni"
+      ],
+      "short_names": [
+        "Nero C",
+        "Boldrini L",
+        "Lenkowicz J",
+        "Giudice MT",
+        "Piermattei A",
+        "Inzani F",
+        "Pasciuto T",
+        "Minucci A",
+        "Fagotti A",
+        "Zannoni G",
+        "Valentini V",
+        "Scambia G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4442-4046",
+        "ORCID: 0000-0002-5631-1575",
+        "ORCID: 0000-0002-9061-6989",
+        "ORCID: 0000-0003-2959-8571",
+        "ORCID: 0000-0002-0833-4334"
+      ],
+      "affiliations": [
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Gynecology and Obstetrics, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Radiomics Core Facility, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Radiomics Core Facility, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Gynecology and Obstetrics, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Pathology, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Pathology, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Data Collection Core Facility, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Genomics Core Facility, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Gynecology and Obstetrics, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Pathology, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Radiation Oncology, 00168 Rome, Italy.",
+        "Fondazione Policlinico Agostino Gemelli, IRCCS, Gynecology and Obstetrics, 00168 Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nero, Camilla",
+        "short_name": "Nero C",
+        "identifiers": [
+          "0000-0002-4442-4046"
+        ],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Gynecology and Obstetrics, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Boldrini, Luca",
+        "short_name": "Boldrini L",
+        "identifiers": [
+          "0000-0002-5631-1575"
+        ],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Radiomics Core Facility, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Lenkowicz, Jacopo",
+        "short_name": "Lenkowicz J",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Radiomics Core Facility, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Giudice, Maria Teresa",
+        "short_name": "Giudice MT",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Gynecology and Obstetrics, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Piermattei, Alessia",
+        "short_name": "Piermattei A",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Pathology, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Inzani, Frediano",
+        "short_name": "Inzani F",
+        "identifiers": [
+          "0000-0002-9061-6989"
+        ],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Pathology, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Pasciuto, Tina",
+        "short_name": "Pasciuto T",
+        "identifiers": [
+          "0000-0003-2959-8571"
+        ],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Data Collection Core Facility, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Minucci, Angelo",
+        "short_name": "Minucci A",
+        "identifiers": [
+          "0000-0002-0833-4334"
+        ],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Genomics Core Facility, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Fagotti, Anna",
+        "short_name": "Fagotti A",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Gynecology and Obstetrics, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Zannoni, Gianfranco",
+        "short_name": "Zannoni G",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Pathology, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Valentini, Vincenzo",
+        "short_name": "Valentini V",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Radiation Oncology, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Scambia, Giovanni",
+        "short_name": "Scambia G",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Policlinico Agostino Gemelli, IRCCS, Gynecology and Obstetrics, 00168 Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Sep 26",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/15 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "42120533",
+      "41520012",
+      "41226862",
+      "40696940",
+      "40507270",
+      "40439693",
+      "40103563",
+      "40038690",
+      "39845327",
+      "39554029",
+      "39258876",
+      "39088070",
+      "38510535",
+      "38240090",
+      "38052873",
+      "37653025",
+      "37570213"
+    ],
+    "refs": [
+      "35122049",
+      "35065323",
+      "34649117",
+      "34354733",
+      "33997679",
+      "33803592",
+      "33763651",
+      "33649564",
+      "33177794",
+      "32881682",
+      "32553590",
+      "32330851",
+      "31926806",
+      "31926805",
+      "31907460",
+      "31852890",
+      "31561183",
+      "31499320",
+      "31406351",
+      "31399699",
+      "31308507",
+      "31304394",
+      "31283474",
+      "31160815",
+      "31133758",
+      "31044723",
+      "30767396",
+      "30254278",
+      "30224757",
+      "29899995",
+      "29617659",
+      "29531073",
+      "29458049",
+      "29234806",
+      "29100075",
+      "28783155",
+      "28549976",
+      "27103179",
+      "26939876",
+      "26463832",
+      "26210778",
+      "25676555",
+      "23988776",
+      "23100629",
+      "22711857",
+      "22193042",
+      "22072638",
+      "20606085",
+      "18571764",
+      "17385188",
+      "16791447",
+      "16284991"
+    ],
+    "similar": [
+      "36232628",
+      "37580018",
+      "31227342",
+      "39083703",
+      "23232854",
+      "30691488",
+      "28549976",
+      "38871058",
+      "39258876",
+      "31629204",
+      "32718143",
+      "27065456",
+      "33712278",
+      "34657357",
+      "38341130",
+      "27037296",
+      "24788697",
+      "22406760",
+      "33055011",
+      "31263023",
+      "31064392",
+      "35698734",
+      "36191979",
+      "21990299",
+      "26833043",
+      "32553590",
+      "37445679",
+      "28541631",
+      "36496303",
+      "31883735",
+      "32900500",
+      "31079832",
+      "35063276",
+      "24882434",
+      "30948273",
+      "30940100",
+      "22711857",
+      "33888336",
+      "21276604",
+      "35343191",
+      "32953248",
+      "32796232",
+      "36254756",
+      "31113680",
+      "28863070",
+      "34400666",
+      "31577534",
+      "30683677",
+      "28258387",
+      "33415992",
+      "32131779",
+      "31300207",
+      "31101686",
+      "34256977",
+      "32721133",
+      "28454659",
+      "28190312",
+      "36065012",
+      "36131239",
+      "22139894",
+      "28657222",
+      "27958297",
+      "37741509",
+      "35752000",
+      "31699802",
+      "35681720",
+      "27821315",
+      "34293664",
+      "34836507",
+      "20973257",
+      "25481791",
+      "34045513",
+      "29867226",
+      "36201776",
+      "26181259",
+      "36191839",
+      "21084428",
+      "29361470",
+      "26931795",
+      "30876489",
+      "26745875",
+      "33295974",
+      "31865042",
+      "36137114",
+      "29724815",
+      "37515411",
+      "35897700",
+      "27690218",
+      "33629534",
+      "33610319",
+      "38525421",
+      "35752712",
+      "34354733",
+      "39379982",
+      "38756053",
+      "33715892",
+      "37527779",
+      "32663285",
+      "36536772",
+      "36516847",
+      "30677016",
+      "36691923",
+      "37580019",
+      "37627071",
+      "38241820",
+      "37356573",
+      "36945540",
+      "38996199",
+      "33020566",
+      "36346688",
+      "37198691",
+      "37863557",
+      "33177794",
+      "37577691",
+      "29467373",
+      "37370808",
+      "35532797",
+      "32007170",
+      "38404843",
+      "35443570",
+      "38287342",
+      "37669090",
+      "39422217",
+      "36242564",
+      "39019345",
+      "35667953",
+      "38194735",
+      "35136676",
+      "34908807",
+      "36124675",
+      "36162012",
+      "35939913",
+      "38493926",
+      "36114214",
+      "36561353",
+      "36803381",
+      "38114366",
+      "37832751",
+      "34306174",
+      "37741820",
+      "38883738",
+      "38791889",
+      "36251776",
+      "35944502",
+      "37107679",
+      "36577348",
+      "37322978",
+      "38580633",
+      "33997679",
+      "36739752",
+      "38660159",
+      "36195956",
+      "36825084",
+      "36691055",
+      "37982756",
+      "37999766",
+      "35177797",
+      "37526343",
+      "37420249",
+      "37068638",
+      "38594278",
+      "39185700",
+      "37117277",
+      "39306030",
+      "39398198",
+      "37540590",
+      "36890029",
+      "36376239",
+      "37173511",
+      "38690169",
+      "33897774",
+      "39309850",
+      "38250956",
+      "35406422",
+      "36579549",
+      "37730567",
+      "37295389",
+      "39265953",
+      "35454952",
+      "38903738",
+      "37101624",
+      "33993261",
+      "38523785",
+      "38898127",
+      "38132269",
+      "38413598",
+      "36685892",
+      "35693123",
+      "37627935",
+      "38341402",
+      "33822729",
+      "34336652",
+      "35901354",
+      "38077136",
+      "38764572",
+      "38016985",
+      "34996510",
+      "36556243",
+      "36505880",
+      "31570774",
+      "35965569",
+      "38491101",
+      "35116056",
+      "37860768",
+      "33196039",
+      "33918195",
+      "39260034",
+      "38768142",
+      "37582371",
+      "37105446",
+      "36543118",
+      "25125969",
+      "34845230",
+      "35919991",
+      "35570228",
+      "38222355",
+      "36503953",
+      "36965820",
+      "38961276",
+      "34368439",
+      "36551716",
+      "36959234",
+      "34000621",
+      "37218522",
+      "37790315",
+      "39268202",
+      "35544644",
+      "38108720",
+      "38186746",
+      "39229200",
+      "37370967",
+      "36812609",
+      "36639829",
+      "37568673",
+      "39428324"
+    ],
+    "review": [
+      "36232628",
+      "30691488",
+      "31629204",
+      "27065456",
+      "27037296",
+      "24788697",
+      "33055011",
+      "35698734",
+      "35343191",
+      "32796232",
+      "31577534",
+      "27958297",
+      "27821315",
+      "20973257",
+      "29867226",
+      "26931795",
+      "35897700",
+      "27690218",
+      "38525421",
+      "37863557",
+      "35443570",
+      "36124675",
+      "37832751",
+      "36890029",
+      "37627935",
+      "36556243",
+      "35965569",
+      "36965820",
+      "36551716"
+    ],
+    "pmc": [
+      "9570450"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms231911326",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36232628/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36232628",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

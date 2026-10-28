@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "40311681",
+    "doi": "10.1016/j.jbc.2025.108559",
+    "title": "Microbial metabolite ammonia disrupts TGF-beta signaling to promote colon cancer."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC) is rising alarmingly in younger populations, potentially arising from factors, such as obesity, proinflammatory gut microbiome, and the accumulation of toxic metabolites. However, how metabolites such as ammonia impact key signaling pathways to promote CRC remains unclear. Our study investigates a critical link between gut microbiome alterations, ammonia, and their toxic effects on the transforming growth factor beta (TGF-beta) signaling pathway, driving CRC progression. We observed altered microbial populations in an obesity-induced mouse model of cancer, where ammonia promotes caspase-3-mediated cleavage of the SMAD3 adaptor betaII-spectrin (SPTBN1). Cleaved SPTBN1 fragments form adducts with ammonia that induce proinflammatory cytokine expression and disrupt TGF-beta signaling. Extending from AlphaFold docking simulations, we identified that ammonia interacts with N-terminal SPTBN1 potentially through residues D81, Y556, S663, Y666, N986, and D1177 to form hydrogen bonds that disrupt downstream SMAD3 signaling, altering TGF-beta signaling to a protumorigenic phenotype. Blocking SPTBN1, through an SPTBN1-specific siRNA, blocks ammonia toxicity and restores normal SMAD3/TGF-beta signaling by reducing the abundance of SPTBN1-cleaved fragments in SW480 and Caco-2 (CRC) cell lines. In addition, our research establishes crosstalk between TGF-beta signaling and a microbial sensor, carcinoembryonic antigen-related cell adhesion molecule 1 (CEACAM1), which is significantly overexpressed in CRC patients. We identified CEACAM1-SPTBN1 interactions at specific residues (E517 and Y520) within the immunoreceptor tyrosine-based inhibitory motif of CEACAM1 cytoplasmic domain, identifying a potential axis that is harnessed by the altered microbiome. Our study identifies mechanistic insights into how microbial metabolites target TGF-beta as a major signaling pathway to promote CRC.",
+    "keywords": [
+      "CEACAM1",
+      "Colorectal cancer",
+      "SMAD3",
+      "TGF-beta signaling",
+      "ammonia",
+      "microbiome",
+      "betaII-spectrin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Signal Transduction",
+      "Mice",
+      "Smad3 Protein/metabolism/genetics",
+      "*Ammonia/metabolism",
+      "*Gastrointestinal Microbiome",
+      "*Transforming Growth Factor beta/metabolism",
+      "*Colonic Neoplasms/metabolism/pathology/microbiology",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhowmick, Krishanu",
+        "Yang, Xiaochun",
+        "Mohammad, Taj",
+        "Xiang, Xiyan",
+        "Molmenti, Christine L",
+        "Mishra, Bibhuti",
+        "Dasarathy, Srinivasan",
+        "Krainer, Adrian R",
+        "Hassan, Md Imtaiyaz",
+        "Crandall, Keith A",
+        "Mishra, Lopa"
+      ],
+      "short_names": [
+        "Bhowmick K",
+        "Yang X",
+        "Mohammad T",
+        "Xiang X",
+        "Molmenti CL",
+        "Mishra B",
+        "Dasarathy S",
+        "Krainer AR",
+        "Hassan MI",
+        "Crandall KA",
+        "Mishra L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Divisions of Gastroenterology and Hepatology, Department of Medicine, Northwell Health, Manhasset, New York, USA; Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA. Electronic address: bhowmick.krishanu@gmail.com.",
+        "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Divisions of Gastroenterology and Hepatology, Department of Medicine, Northwell Health, Manhasset, New York, USA; Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Nagar, New Delhi, India.",
+        "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Divisions of Gastroenterology and Hepatology, Department of Medicine, Northwell Health, Manhasset, New York, USA; Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA.",
+        "Department of Occupational Medicine, Epidemiology and Prevention, Zucker School of Medicine at Hofstra/Northwell, Hempstead, New York, USA; Feinstein Institutes for Medical Research, Institute of Cancer Research, Manhasset, New York, USA; Department of Surgery, Northwell Health, Manhasset, New York, USA.",
+        "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Donald and Barbara Zucker School of Medicine at Hofstra/Northwell Health, Department of Neurology, Hempstead, New York, USA.",
+        "Division of Gastroenterology and Hepatology, Cleveland Clinic, Cleveland, Ohio, USA.",
+        "Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Nagar, New Delhi, India.",
+        "Computational Biology Institute and Department of Biostatistics and Bioinformatics, Milken Institute School of Public Health, George Washington University, Washington DC, USA.",
+        "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Divisions of Gastroenterology and Hepatology, Department of Medicine, Northwell Health, Manhasset, New York, USA; Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA; Department of Surgery, George Washington University, Washington DC, USA. Electronic address: lopamishra2@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhowmick, Krishanu",
+        "short_name": "Bhowmick K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Divisions of Gastroenterology and Hepatology, Department of Medicine, Northwell Health, Manhasset, New York, USA; Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA. Electronic address: bhowmick.krishanu@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaochun",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Divisions of Gastroenterology and Hepatology, Department of Medicine, Northwell Health, Manhasset, New York, USA; Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Mohammad, Taj",
+        "short_name": "Mohammad T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Nagar, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Xiang, Xiyan",
+        "short_name": "Xiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Divisions of Gastroenterology and Hepatology, Department of Medicine, Northwell Health, Manhasset, New York, USA; Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Molmenti, Christine L",
+        "short_name": "Molmenti CL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Medicine, Epidemiology and Prevention, Zucker School of Medicine at Hofstra/Northwell, Hempstead, New York, USA; Feinstein Institutes for Medical Research, Institute of Cancer Research, Manhasset, New York, USA; Department of Surgery, Northwell Health, Manhasset, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Mishra, Bibhuti",
+        "short_name": "Mishra B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Donald and Barbara Zucker School of Medicine at Hofstra/Northwell Health, Department of Neurology, Hempstead, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Dasarathy, Srinivasan",
+        "short_name": "Dasarathy S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Gastroenterology and Hepatology, Cleveland Clinic, Cleveland, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Krainer, Adrian R",
+        "short_name": "Krainer AR",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Hassan, Md Imtaiyaz",
+        "short_name": "Hassan MI",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Nagar, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Crandall, Keith A",
+        "short_name": "Crandall KA",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Institute and Department of Biostatistics and Bioinformatics, Milken Institute School of Public Health, George Washington University, Washington DC, USA."
+        ]
+      },
+      {
+        "full_name": "Mishra, Lopa",
+        "short_name": "Mishra L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Bioelectronic Medicine, Feinstein Institutes for Medical Research, Manhasset, New York, USA; Divisions of Gastroenterology and Hepatology, Department of Medicine, Northwell Health, Manhasset, New York, USA; Cancer Center, Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, USA; Department of Surgery, George Washington University, Washington DC, USA. Electronic address: lopamishra2@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/02 00:27",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42223795",
+      "41168796"
+    ],
+    "refs": [
+      "39217614",
+      "39079993",
+      "38662827",
+      "38509359",
+      "37414899",
+      "37202560",
+      "37130518",
+      "37130517",
+      "37080973",
+      "36927206",
+      "36927016",
+      "36856579",
+      "36741860",
+      "36546659",
+      "36528023",
+      "35534729",
+      "34910547",
+      "34624222",
+      "34597422",
+      "34336716",
+      "34293799",
+      "34256014",
+      "34082069",
+      "33940008",
+      "33264544",
+      "32792462",
+      "32019805",
+      "31585122",
+      "31272808",
+      "30744974",
+      "30268436",
+      "29967450",
+      "29170280",
+      "28655144",
+      "28247965",
+      "26784546",
+      "24390710",
+      "23985870",
+      "23328391",
+      "22885178",
+      "20121088",
+      "18497748",
+      "18424730",
+      "18263735",
+      "16424015",
+      "15256431",
+      "12438215",
+      "9867848"
+    ],
+    "similar": [
+      "40311681",
+      "39217614",
+      "31585122",
+      "34082069",
+      "27776350",
+      "26784546",
+      "35506565",
+      "41422035",
+      "40412277",
+      "41157851",
+      "16357132",
+      "25307947",
+      "16528675",
+      "28918914",
+      "38350902",
+      "27856637",
+      "38861185",
+      "15711891",
+      "17653079",
+      "22039050",
+      "24382352",
+      "17340614",
+      "23996929",
+      "24390710",
+      "23604118",
+      "19531654",
+      "16828225",
+      "16424015",
+      "18497983",
+      "36708753",
+      "23328844",
+      "29695252",
+      "20602465",
+      "11536370",
+      "40081967",
+      "41443916",
+      "36739740",
+      "40749423",
+      "20093492",
+      "27688095",
+      "22073128",
+      "22232600",
+      "22278155",
+      "33617803",
+      "41083582",
+      "21356196",
+      "19265200",
+      "20010874",
+      "30931081",
+      "38521502",
+      "39373847",
+      "18263591",
+      "27224286",
+      "35197539",
+      "34959098",
+      "18616786",
+      "22615489",
+      "28432277",
+      "19582775",
+      "16210645",
+      "26370086",
+      "40889156",
+      "23056222",
+      "24427302",
+      "23761672",
+      "41486854",
+      "41038145",
+      "27790711",
+      "26884715",
+      "21454444",
+      "38141763",
+      "29519942",
+      "25010983",
+      "22778267",
+      "31206681",
+      "24500985",
+      "16632996",
+      "39925133",
+      "21986102",
+      "29215776",
+      "21784902",
+      "30589983",
+      "25766320",
+      "33754058",
+      "39373248",
+      "18172167",
+      "21068203",
+      "22310290",
+      "33676893",
+      "31102891",
+      "26833052",
+      "17804483",
+      "31035577",
+      "24485922",
+      "39461664",
+      "25786122",
+      "32029901",
+      "31211499",
+      "16355269",
+      "26012475"
+    ],
+    "review": [
+      "40311681",
+      "16528675",
+      "17340614",
+      "31206681"
+    ],
+    "pmc": [
+      "12155590"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(25)00408-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40311681/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1179",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

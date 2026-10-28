@@ -1,0 +1,447 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.20.608828",
+  "title": "CryptoBench: Cryptic protein-ligand binding sites dataset and benchmark",
+  "doi": "10.1101/2024.08.20.608828",
+  "abstract": "Structure-based methods for detecting protein-ligand binding sites play a crucial role in various domains, from fundamental research to biomedical applications. However, current prediction methodologies often rely on holo (ligand-bound) protein conformations for training and evaluation, overlooking the significance of the apo (ligand-free) states. This oversight is particularly problematic in the case of cryptic binding sites (CBSs) where holo-based assessment yields unrealistic performance expectations. To advance the development in this domain, we introduce CryptoBench, a benchmark dataset tailored for training and evaluating novel CBS prediction methodologies. CryptoBench is constructed upon a large collection of apo-holo protein pairs, grouped by UniProtID, clustered by sequence identity, and filtered to contain only structures with substantial structural change in the binding site. CryptoBench comprises 1,107 structures with predefined cross-validation splits, making it the most extensive CBS dataset to date. To establish a performance baseline, we measured the predictive power of sequence- and structure-based CBS residue prediction methods using the benchmark. We selected PocketMiner as the state-of-the-art representative of the structure-based methods for CBS detection, and P2Rank, a widely-used structure-based method for general binding site prediction that is not specifically tailored for cryptic sites. For sequence-based approaches, we trained a neural network to classify binding residues using protein language model embeddings. Our sequence-based approach outperformed PocketMiner and P2Rank across key metrics, including AUC, AUPRC, MCC, and F1 scores. These results provide baseline benchmark results for future CBS and potentially also non-CBS prediction endeavors, leveraging CryptoBench as the foundational platform for further advancements in the field.",
+  "authors": [
+    "Vít Škrhák",
+    "Marian Novotný",
+    "Christos P. Feidakis",
+    "Radoslav Krivák",
+    "David Hoksza"
+  ],
+  "published_date": "2024-08-21",
+  "updated_date": "2024-08-26T05:10:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.20.608828",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.20.608828.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T22:12:39Z",
+        "timestamp": 1768515159833,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            21
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 31,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2024-08-21T00:00:00Z",
+            "timestamp": 1724198400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Structure-based methods for detecting protein-ligand binding sites play a crucial role in various domains, from fundamental research to biomedical applications. However, current prediction methodologies often rely on holo (ligand-bound) protein conformations for training and evaluation, overlooking the significance of the apo (ligand-free) states. This oversight is particularly problematic in the case of cryptic binding sites (CBSs) where holo-based assessment yields unrealistic performance expectations. To advance the development in this domain, we introduce CryptoBench, a benchmark dataset tailored for training and evaluating novel CBS prediction methodologies. CryptoBench is constructed upon a large collection of apo-holo protein pairs, grouped by UniProtID, clustered by sequence identity, and filtered to contain only structures with substantial structural change in the binding site. CryptoBench comprises 1,107 structures with predefined cross-validation splits, making it the most extensive CBS dataset to date. To establish a performance baseline, we measured the predictive power of sequence- and structure-based CBS residue prediction methods using the benchmark. We selected PocketMiner as the state-of-the-art representative of the structure-based methods for CBS detection, and P2Rank, a widely-used structure-based method for general binding site prediction that is not specifically tailored for cryptic sites. For sequence-based approaches, we trained a neural network to classify binding residues using protein language model embeddings. Our sequence-based approach outperformed PocketMiner and P2Rank across key metrics, including AUC, AUPRC, MCC, and F1 scores. These results provide baseline benchmark results for future CBS and potentially also non-CBS prediction endeavors, leveraging CryptoBench as the foundational platform for further advancements in the field.</jats:p>",
+      "DOI": "10.1101/2024.08.20.608828",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            26
+          ]
+        ],
+        "date-time": "2024-08-26T05:10:16Z",
+        "timestamp": 1724649016000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "CryptoBench: Cryptic protein-ligand binding sites dataset and benchmark"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-0712-0661",
+          "authenticated-orcid": false,
+          "given": "Vít",
+          "family": "Škrhák",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8788-3202",
+          "authenticated-orcid": false,
+          "given": "Marian",
+          "family": "Novotný",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7987-6045",
+          "authenticated-orcid": false,
+          "given": "Christos P.",
+          "family": "Feidakis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7521-0844",
+          "authenticated-orcid": false,
+          "given": "Radoslav",
+          "family": "Krivák",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4679-0557",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Hoksza",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sandor Vajda , Dmitri Beglov , Amanda E. Wakefield , Megan Egbert , and Adrian Whitty . Cryptic binding sites on proteins: definition, detection, and druggability, 6 2018.",
+          "DOI": "10.1016/j.cbpa.2018.05.003"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1016/j.csbj.2020.02.008",
+          "article-title": "Exploring the computational methods for protein-ligand binding site prediction",
+          "volume": "18",
+          "year": "2020",
+          "journal-title": "Computational and structural biotechnology journal"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.1186/s13321-018-0285-8",
+          "article-title": "P2rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.4",
+          "unstructured": "Christiane Ehrt . Protein binding site comparison. Phd thesis, Technische Universität Dortmund, 2019."
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "V. Škrhák , K. Riedlova , M. Novotny , and D. Hoksza . Cryptic binding site prediction with protein language models. In 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pages 2883– 2888, Los Alamitos, CA, USA, ec 2023. IEEE Computer Society.",
+          "DOI": "10.1109/BIBM58861.2023.10385497"
+        },
+        {
+          "issue": "4",
+          "key": "2024082602100971000_2024.08.20.608828v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "416",
+          "DOI": "10.1002/prot.26027",
+          "article-title": "Predicting cryptic ligand binding sites based on normal modes guided conformational sampling",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "3",
+          "key": "2024082602100971000_2024.08.20.608828v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1021/acs.accounts.9b00613",
+          "article-title": "Investigating cryptic binding sites by molecular dynamics simulations",
+          "volume": "53",
+          "year": "2020",
+          "journal-title": "Accounts of Chemical Research"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01002"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b01209"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2022.167587"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Artur Meller , Michael Ward , Jonathan Borowsky , Meghana Kshirsagar , Jeffrey Lotthammer , Felipe Oviedo , Juan Lavista Ferres , and Gregory Bowman . Predicting locations of cryptic pockets from single protein structures using the pocketminer graph neural network. Nature Communications, 14, 03 2023.",
+          "DOI": "10.1038/s41467-023-36699-3"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2016.01.029"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.13",
+          "first-page": "201711490",
+          "article-title": "Exploring the structural origins of cryptic sites on proteins",
+          "volume": "115",
+          "year": "2018",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "issue": "D1",
+          "key": "2024082602100971000_2024.08.20.608828v1.14",
+          "first-page": "D520",
+          "article-title": "Protein Data Bank: the single global archive for 3D macromolecular structure data",
+          "volume": "47",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "102396",
+          "DOI": "10.1016/j.sbi.2022.102396",
+          "article-title": "Mapping the binding sites of challenging drug targets",
+          "volume": "75",
+          "year": "2022",
+          "journal-title": "Current opinion in structural biology"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Christos Feidakis , Radoslav Krivák , David Hoksza , and Marian Novotný . Ahoj db: A pdb-wide assignment of apo holo relationships based on individual protein-ligand interactions, 01 2024.",
+          "DOI": "10.2139/ssrn.4713280"
+        },
+        {
+          "issue": "24",
+          "key": "2024082602100971000_2024.08.20.608828v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "5452",
+          "DOI": "10.1093/bioinformatics/btac701",
+          "article-title": "Ahoj: rapid, tailored search and retrieval of apo and holo protein structures for user-defined ligands",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "D1",
+          "key": "2024082602100971000_2024.08.20.608828v1.18",
+          "first-page": "D404",
+          "article-title": "BioLiP2: an updated structure database for biologically relevant ligand–protein interactions",
+          "volume": "52",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(71)90324-X"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.bb.06.060177.001055"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ryan Smith , Arvin Dar , and Avner Schlessinger . Pyvol: a pymol plugin for visualization, comparison, and volume calculation of drug-binding sites, 10 2019.",
+          "DOI": "10.1101/816702"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq066"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.23",
+          "unstructured": "Josh Abramson , Jonas Adler , Jack Dunger , Richard Evans , Tim Green , Alexander Pritzel , Olaf Ronneberger , Lindsay Willmore , Andrew Ballard , Joshua Bambrick , Sebastian Bodenstein , David Evans , Chia-Chun Hung , Michael O’Neill , David Reiman , Kathryn Tunyasuvunakool , Cervantes Wu , Akvilė Žemgulytė, Eirini Arvaniti , and John Jumper . Accurate structure prediction of biomolecular interactions with alphafold 3. Nature, 630, 05 2024."
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Martin Steinegger and Johannes Söding . Mmseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nature Biotechnology, 35, 10 2017.",
+          "DOI": "10.1101/079681"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Petr Škoda and David Hoksza . Benchmarking platform for ligand-based virtual screening. In 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pages 1220–1227, 2016.",
+          "DOI": "10.1109/BIBM.2016.7822693"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mohammed Alquraishi . Proteinnet: a standardized data set for machine learning of protein structure, 02 2019.",
+          "DOI": "10.1186/s12859-019-2932-0"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.28",
+          "unstructured": "Zeming Lin , Halil Akin , Roshan Rao , Brian Hie , Zhongkai Zhu , Wenting Lu , Allan Costa , Maryam Fazel-Zarandi , Tom Sercu , Sal Candido , and Alexander Rives . Language models of protein sequences at the scale of evolution enable accurate structure prediction, 07 2022."
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.29",
+          "unstructured": "Tom O’Malley , Elie Bursztein , James Long , François Chollet , Haifeng Jin , Luca Invernizzi , et al. Kerastuner. https://github.com/keras-team/keras-tuner, 2019."
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd3410"
+        },
+        {
+          "key": "2024082602100971000_2024.08.20.608828v1.31",
+          "unstructured": "Vít Škrhák and David Hoksza . Cryptobench, Aug 2024."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.08.20.608828",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:54:42Z",
+        "timestamp": 1768460082000
+      },
+      "score": 98.089714,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.08.20.608828"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            21
+          ]
+        ]
+      },
+      "references-count": 31,
+      "URL": "https://doi.org/10.1101/2024.08.20.608828",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btae745",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

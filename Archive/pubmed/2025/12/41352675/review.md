@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an in silico investigation of DNA binding by mono- and tetra-acetylated derivatives of quinalizarin using DFT, molecular docking, and molecular dynamics simulations. They claim that tetra-acetylated quinalizarin binds DNA better than the mono-acetylated form, that the increased binding arises from groove binding rather than intercalation, and that acetylation of all hydroxyl groups is biologically significant. ADMET profiles were also computed.
+- **Visible evidence base** Abstract text only; no quantitative data, methodological details, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational methods, force field parameters, simulation lengths, convergence criteria, docking scores, binding free energies, ADMET results, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible rationale for investigating acetylated quinalizarin derivatives as potential anthracycline alternatives, but the claims are supported by no visible quantitative evidence. The central conclusion that tetra-acetylation improves DNA binding via groove binding cannot be evaluated from the abstract alone. The work may be of interest to computational chemists and drug discovery researchers, but the current evidence base is insufficient to establish the stated conclusions.
+- **Who would be interested in the results, and why** Computational chemists and medicinal chemists working on anthracycline alternatives, DNA-binding small molecules, and structure-based drug design would be interested. The comparison of acetylation patterns and the use of multiple DNA models (intercalation vs. groove binding) could inform future design of simpler anthracycline analogues.
+- **Major strengths** The study addresses a chemically meaningful question, namely whether acetylation of a specific hydroxyl group can overcome electrostatic repulsion without introducing excessive steric bulk. The use of multiple DNA models to distinguish intercalation from groove binding is a sound conceptual approach. The inclusion of ADMET profiling adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Analysis reveals tetra-acetylated quinalizarin was better than the mono-acetylated form; increase due to groove binding, rather than by intercalation being the correct manifestation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as docking scores, binding free energies, or simulation-derived metrics, to support the comparative claim that tetra-acetylated quinalizarin binds better than the mono-acetylated form. No numerical values or statistical measures are presented.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the magnitude of the reported difference, its statistical significance, or whether the difference is biologically meaningful. The claim that groove binding is the "correct manifestation" requires comparative data across the three DNA models, which are absent.
+  - **Resolution test** Provide docking scores, binding free energies (e.g., MM-PBSA or MM-GBSA), and simulation-derived metrics for all three quinalizarin forms and doxorubicin across the three DNA models, with appropriate error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "This in silico DNA binding investigation aims to realize what would be the outcome if one exclusively acetylates the -OH responsible for mono-anion formation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which hydroxyl group was acetylated in the mono-acetylated derivative, how this was determined, or whether DFT calculations were used to identify the most acidic proton. The level of theory, basis set, and functional used for DFT are not stated.
+  - **Why it matters** The entire premise of the study rests on the identification of the specific hydroxyl group responsible for mono-anion formation. Without this information, the chemical rationale cannot be verified, and the choice of the mono-acetylated derivative is not reproducible.
+  - **Resolution test** Specify the acetylated position, the DFT method (functional, basis set, solvation model), and the criteria used to identify the relevant hydroxyl group.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Information from in silico analysis suggest simpler analogues of anthracyclines are economical and acetylation of all -OH groups of quinalizarin is biologically significant."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of biological significance is not supported by any experimental or in vivo data. The abstract explicitly states that no experimental binding information exists for mono-acetylated species, and the ADMET results are not summarized. The term "biologically significant" is used without definition or supporting evidence.
+  - **Why it matters** This claim extends beyond the computational scope and implies a biological conclusion that cannot be drawn from in silico data alone. Overstatement of implications may mislead readers about the translational readiness of the findings.
+  - **Resolution test** Either temper the claim to reflect computational predictions only, or provide experimental validation (e.g., binding assays, cellular studies) to support biological significance.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Background rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "a doubt had remained as to whether it was a true manifestation of acetylation" but does not clearly explain how the current study resolves this doubt beyond comparing two derivatives.
+  - **Required correction** Clarify the specific hypothesis being tested and how the comparison of mono- and tetra-acetylated forms addresses the steric bulk concern.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** ADMET results
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** ADMET profiles are mentioned but no results are summarized, leaving the reader unable to assess drug-like properties.
+  - **Required correction** Provide a brief summary of key ADMET parameters (e.g., solubility, permeability, toxicity) for the studied compounds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No details on molecular dynamics simulation length, force field, water model, or equilibration protocol are provided.
+  - **Required correction** Include these parameters in the abstract or refer to a methods section with full details.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative binding data, unspecified DFT methodology, and unsupported biological significance claims collectively prevent the case from being established.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The question of selective acetylation to avoid anion repulsion is somewhat novel, but the approach (DFT, docking, MD) is standard.
+  - Scientific importance: Limited at this stage. The findings are computational predictions without experimental validation, and the biological significance claim is overstated.
+  - Interdisciplinary readership: The topic bridges computational chemistry and medicinal chemistry, but the abstract lacks sufficient detail to engage a broad audience.
+  - Technical soundness: Cannot be assessed from the abstract. No methodological details or quantitative results are provided.
+  - Readability for nonspecialists: The abstract is understandable but uses jargon (e.g., "mono-anion formation," "groove binding") without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable hypothesis and approach, but the lack of quantitative data and methodological transparency means the conclusions cannot be evaluated. Supportive if the full manuscript provides the missing evidence and the claims are appropriately tempered.
+
+## Risk / unsupported claims
+- The claim that tetra-acetylated quinalizarin binds DNA better than the mono-acetylated form is unsupported by any visible quantitative data.
+- The claim that groove binding is the "correct manifestation" of increased binding is unsupported without comparative data across the three DNA models.
+- The claim that acetylation of all hydroxyl groups is "biologically significant" is unsupported by experimental or in vivo evidence.
+- The assertion that "simpler analogues of anthracyclines are economical" is an economic claim not substantiated by any cost analysis.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35799371",
+  "title": "Exploiting Genomic Features to Improve the Prediction of Transcription Factor-Binding Sites in Plants.",
+  "authors": "Riviere, Quentin; Corso, Massimiliano; Ciortan, Madalina; Noel, Gregoire; Verbruggen, Nathalie; Defrance, Matthieu",
+  "journal": "Plant & cell physiology",
+  "published_date": "2022-07-09",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用监督机器学习整合基因组特征预测植物转录因子结合位点，虽聚焦TF-DNA但偏重序列与染色质特征，缺乏三维互作建模，方法可迁移但深度有限。",
+  "abstract": "The identification of transcription factor (TF) target genes is central in biology. A popular approach is based on the location by pattern matching of potential cis-regulatory elements (CREs). During the last few years, tools integrating next-generation sequencing data have been developed to improve the performance of pattern matching. However, such tools have not yet been comprehensively evaluated in plants. Hence, we developed a new streamlined method aiming at predicting CREs and target genes of plant TFs in specific organs or conditions. Our approach implements a supervised machine learning strategy, which allows decision rule models to be learnt using TF ChIP-chip/seq experimental data. Different layers of genomic features were integrated in predictive models: the position on the gene, the DNA sequence conservation, the chromatin state and various CRE footprints. Among the tested features, the chromatin features were crucial for improving the accuracy of the method. Furthermore, we evaluated the transferability of predictive models across TFs, organs and species. Finally, we validated our method by correctly inferring the target genes of key TFs controlling metabolite biosynthesis at the organ level in Arabidopsis. We developed a tool-Wimtrap-to reproduce our approach in plant species and conditions/organs for which ChIP-chip/seq data are available. Wimtrap is a user-friendly R package that supports an R Shiny web interface and is provided with pre-built models that can be used to quickly get predictions of CREs and TF gene targets in different organs or conditions in Arabidopsis thaliana, Solanum lycopersicum, Oryza sativa and Zea mays.",
+  "abstract_zh": "转录因子（TF）靶基因的鉴定是生物学中的核心问题。一种常用方法基于通过模式匹配定位潜在的顺式调控元件（CREs）。近年来，已开发出整合下一代测序数据的工具，以提高模式匹配的性能。然而，这些工具在植物中尚未得到全面评估。因此，我们开发了一种新的简化方法，旨在预测植物TF在特定器官或条件下的CREs和靶基因。我们的方法采用监督式机器学习策略，允许利用TF ChIP-chip/seq实验数据学习决策规则模型。预测模型中整合了多层基因组特征：基因上的位置、DNA序列保守性、染色质状态及各种CRE足迹。在测试的特征中，染色质特征对提高方法准确性至关重要。此外，我们评估了预测模型在TF、器官和物种间的可转移性。最后，我们通过正确推断拟南芥中控制代谢物生物合成的关键TF在器官水平的靶基因，验证了我们的方法。我们开发了一个工具——Wimtrap——以在具有ChIP-chip/seq数据的植物物种和条件/器官中重现我们的方法。Wimtrap是一个用户友好的R包，支持R Shiny网页界面，并提供预构建模型，可用于快速获取拟南芥、番茄、水稻和玉米不同器官或条件下CREs和TF基因靶标的预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35799371/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35799371/",
+  "paper_page_path": "papers/pubmed/35799371/index.html"
+}

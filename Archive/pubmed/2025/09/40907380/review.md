@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report identification of pyrazolo-piperidinone derivatives as disruptors of the YAP:TEAD interaction via Interface 3, supported by virtual screening, molecular dynamics, computational ADME-T prediction, synthetic chemistry, fluorescence anisotropy binding assays, cellular antiproliferative assays, and mass spectrometry-based proteomics. Compound 6a is presented as the initial lead in a 20-compound library, with binding affinities (Kd) between 0.6 and 10 µM toward TEAD4 Interface 3. Selected compounds show activity against HCT116 and A2780 cancer cells, including activity against IAG933-resistant colorectal cancer cells, and inhibit TEAD4 target gene expression. Proteomics data on HCT116 cells treated with verteporfin and 6a analogs reveal downregulation of CTGF and TGF-beta1, and bioinformatic pathway analysis differentiates the mechanism of 6a analogs from verteporfin.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond Kd range, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, compound characterization data, raw proteomics data, statistical details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting medicinal chemistry campaign targeting the YAP:TEAD interaction, a relevant oncology target. The workflow is multidisciplinary and the inclusion of a resistant cell line model and proteomics-based mechanistic assessment is commendable. However, the abstract alone provides insufficient detail to evaluate the rigor of the binding assays, the selectivity of the compounds, the robustness of the cellular data, or the strength of the proteomics-based mechanistic conclusions. Several claims, particularly regarding mechanism of action differentiation from verteporfin and the establishment of the compound class as Y:T disruptors, require substantially more evidence than is visible here.
+- **Who would be interested in the results, and why** Medicinal chemists and chemical biologists working on the Hippo pathway, YAP:TEAD inhibitors, or protein-protein interaction disruptors in oncology. Researchers focused on colorectal and ovarian cancer therapeutics, particularly those studying resistance mechanisms to clinical candidates such as IAG933, would also find the results relevant. The proteomics-based approach to mechanism-of-action elucidation may interest researchers in target deconvolution and chemoproteomics.
+- **Major strengths** The study integrates multiple complementary approaches, from computational screening to synthetic chemistry to cellular and proteomic validation. The inclusion of a KRAS-dependent clinical candidate-resistant cell line adds translational relevance. The use of mass spectrometry-based proteomics to assess downstream pathway effects is a strength, as it moves beyond simple binding and viability data toward mechanistic insight. The reported Kd range of 0.6 to 10 µM is plausible for a hit-to-lead stage protein-protein interaction inhibitor.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding data
+  - **Claim pointer** The abstract claims binding affinities (Kd) between 0.6 and 10 µM toward TEAD4 Interface 3 based on a fluorescence anisotropy assay.
+  - **Evidence pointer** Abstract, binding affinity statement; location not provided
+  - **Concern** The abstract provides no information on the assay design, including the fluorescent probe used, competition format, protein construct, buffer conditions, or number of replicates. Without these details, it is impossible to assess whether the reported Kd values reflect true competitive binding at Interface 3 or could be influenced by assay artifacts such as aggregation, nonspecific binding, or fluorescence interference from the compounds.
+  - **Why it matters** The Kd values are the foundational quantitative claim of the study. If the binding assay is not rigorously validated, all downstream claims about these compounds acting as Y:T disruptors are weakened. Protein-protein interaction inhibitors are notoriously prone to false positives in biochemical assays, and the abstract does not demonstrate that the observed binding is specific to Interface 3.
+  - **Resolution test** Provide full assay details, including probe identity and Kd, competition validation, protein purity and construct boundaries, replicate numbers, and demonstration that compounds do not interfere with the assay readout. Ideally, include a known positive and negative control compound.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Selectivity and specificity of compounds
+  - **Claim pointer** The abstract implies that the identified compounds target TEAD4 Interface 3 specifically, and that the mechanism of action is through Y:T disruption.
+  - **Evidence pointer** Abstract, overall claims; location not provided
+  - **Concern** No selectivity data are presented. The abstract does not indicate whether the compounds were tested against other TEAD isoforms (TEAD1, TEAD2, TEAD3), other Interface surfaces (1, 2, or 4), or unrelated proteins. Without selectivity data, the claim that these compounds act specifically through TEAD4 Interface 3 is not established. Additionally, the abstract does not clarify whether the antiproliferative effects are on-target or could arise from off-target cytotoxicity.
+  - **Why it matters** The therapeutic rationale for targeting YAP:TEAD depends on disrupting the specific interaction without broad off-target effects. If the compounds are promiscuous binders or cytotoxic through unrelated mechanisms, the conclusions about their value as Y:T disruptors are not supported.
+  - **Resolution test** Provide selectivity profiling against TEAD isoforms and other interfaces, as well as counter-screens against unrelated targets. Include cellular experiments with TEAD4 knockdown or knockout to demonstrate on-target dependence of the antiproliferative effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic conclusion from proteomics
+  - **Claim pointer** The abstract claims that mass spectrometry-based proteomics revealed a proteome modulation consistent with an anti-TEAD mechanism, including downregulation of CTGF and TGF-beta1, and that bioinformatic pathway analysis differentiated the mechanism of 6a analogs from verteporfin.
+  - **Evidence pointer** Abstract, proteomics and bioinformatics statements; location not provided
+  - **Concern** The abstract provides no quantitative details on the proteomics experiment, including the number of biological replicates, fold-change thresholds, statistical significance criteria, or the number of proteins identified and quantified. The claim that CTGF and TGF-beta1 are downregulated is presented without any magnitude or significance information. Furthermore, the statement that pathway analysis "differentiated" the mechanism from verteporfin is vague; it is unclear whether this means the compounds have a distinct mechanism, a shared mechanism with different secondary effects, or a different potency profile.
+  - **Why it matters** The proteomics data are used to support the mechanistic conclusion that these compounds act through an anti-TEAD mechanism. If the proteomics analysis is underpowered or the pathway differentiation is based on weak statistical evidence, the conclusion is not robust. The comparison to verteporfin, a known indirect modulator, is central to the claim of mechanistic novelty, but the abstract does not specify what the differentiation actually consists of.
+  - **Resolution test** Provide full proteomics methodology, including replicates, statistical thresholds, and the complete list of differentially expressed proteins. Show the specific pathway analysis results and the criteria used to conclude differentiation from verteporfin. Ideally, include orthogonal validation of CTGF and TGF-beta1 downregulation by qPCR or Western blot.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cellular activity and resistance claim
+  - **Claim pointer** The abstract claims that selected compounds demonstrated effective and well-characterized cellular antiproliferative activity against HCT116 and A2780 cells, and efficacy against colorectal cancer cells resistant to IAG933.
+  - **Evidence pointer** Abstract, cellular activity statements; location not provided
+  - **Concern** The abstract does not provide any quantitative cellular data, such as IC50 values, selectivity indices, or the degree of resistance in the IAG933-resistant line. The phrase "well-characterized" is not supported by any visible evidence. It is also unclear whether the activity in resistant cells is comparable to, better than, or worse than the parental line, and whether the mechanism of resistance is known.
+  - **Why it matters** The cellular efficacy is a key translational claim. Without quantitative data and a clear demonstration that the compounds retain activity in resistant cells, the significance of this finding cannot be evaluated. The resistance claim is particularly important given the clinical relevance of IAG933, but the abstract does not provide enough context.
+  - **Resolution test** Provide IC50 values for all tested compounds in both sensitive and resistant lines, with appropriate controls. Describe the resistance mechanism of the IAG933-resistant line and show that the compounds overcome this specific mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of compound library description
+  - **Affected element** Compound 6a and library size
+  - **Evidence pointer** Abstract, compound description; location not provided
+  - **Issue** The abstract states that 6a is the initial lead for a library of 20 compounds, but it is unclear whether all 20 compounds were synthesized and tested, or whether 6a was used as a template for a virtual library with only a subset synthesized.
+  - **Required correction** Clarify how many compounds were actually synthesized, tested in binding assays, and evaluated in cellular assays.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Abstract, all numerical statements; location not provided
+  - **Issue** No statistical parameters, error estimates, or replicate numbers are provided for any of the reported data, including Kd values and cellular activities.
+  - **Required correction** Include measures of variability and replicate numbers for all quantitative claims in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** TEAD4 target gene validation
+  - **Affected element** Inhibition of TEAD4 target gene expression
+  - **Evidence pointer** Abstract, gene expression statement; location not provided
+  - **Issue** The abstract states that compounds inhibit TEAD4 target gene expression but does not specify which genes were examined beyond CTGF and TGF-beta1 in the proteomics context, or whether this was confirmed at the mRNA level.
+  - **Required correction** List the specific target genes examined and the method of measurement (e.g., qPCR, RNA-seq) in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Computational predictions validation
+  - **Affected element** Virtual screening and molecular dynamics
+  - **Evidence pointer** Abstract, computational methods; location not provided
+  - **Issue** The abstract mentions virtual screening and molecular dynamics but does not describe the screening library size, scoring functions, or simulation timescales, making it impossible to assess the computational approach.
+  - **Required correction** Provide details on the virtual screening workflow, including library source, docking software, and MD simulation parameters in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the pyrazolo-piperidinone class is established as novel Y:T disruptors is not supported by the abstract alone, given the absence of selectivity data and rigorous binding validation.
+- The claim that proteomics revealed a mechanism "consistent with an anti-TEAD mechanism" is not evaluable without quantitative proteomics data and statistical thresholds.
+- The claim that bioinformatic pathway analysis "differentiated" the mechanism of 6a analogs from verteporfin is vague and unsupported without specific pathway results.
+- The claim of efficacy against IAG933-resistant cells is not evaluable without quantitative data and characterization of the resistance mechanism.
+- The Kd range of 0.6 to 10 µM is presented without assay validation details, making the reliability of these values unassessable.

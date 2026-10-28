@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that arbutin (ATN) binds calf-thymus DNA (CT-DNA) through an external binding mode, with moderate affinity, stabilised by hydrogen bonding and van der Waals interactions, and that the glucopyranoside moiety rather than the hydroquinone moiety is the DNA-binding unit, as supported by spectroscopic, electrochemical, and computational methods.
+- **Visible evidence base** Abstract text only; no figures, tables, spectra, or computational details provided
+- **Missing materials affecting confidence** Full methods, UV-Vis and fluorescence spectra, CD spectra, voltammograms, viscosity data, salt-dependent fluorescence data, docking poses, metadynamics trajectories, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and methodologically broad study of arbutin binding to CT-DNA, with a coherent narrative across multiple techniques. However, the evidence base available for review is limited to the abstract, and several claims are either under-specified or internally inconsistent as presented. The core conclusion that ATN binds externally via the glucopyranoside moiety is interesting but not fully established from the supplied material. The work may be of interest to researchers in drug-DNA interactions, but the current abstract does not provide sufficient detail to assess technical soundness rigorously.
+- **Who would be interested in the results, and why** Researchers in nucleic acid chemistry, drug design, and biophysical chemistry would be interested in the characterisation of a natural compound's DNA-binding mode and the identification of a specific sugar moiety as the binding unit, which could inform the design of DNA-targeted therapeutics. The combination of experimental and computational approaches may also appeal to those studying ligand-DNA interactions.
+- **Major strengths** The study employs a multi-technique approach, including UV-Vis, fluorescence, CD, viscosity, voltammetry, and computational methods, which is commendable for cross-validation. The identification of the glucopyranoside moiety as the binding unit is a novel and potentially significant finding. The use of competitive dye displacement and salt-dependent fluorescence to exclude intercalation and groove binding is a logical experimental strategy.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Internal consistency  
+  - **Claim pointer** The abstract states that the competitive dye displacement assay "strongly excluded the plausibility of classical intercalation and conventional groove binding mode," yet also states that viscosity studies "provided clues regarding the external binding mode."  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** The abstract does not explain how the dye displacement assay distinguishes between external binding and groove binding, nor how viscosity data support external binding when the dye displacement result is described as excluding groove binding. The logical relationship between these two techniques is unclear.  
+  - **Why it matters** The binding mode is a central claim of the study. If the evidence for excluding groove binding is not clearly articulated, the conclusion that ATN binds externally is not robustly supported.  
+  - **Resolution test** Provide explicit details of the dye displacement assay (e.g., which dye, displacement percentage, and comparison with known groove binders) and viscosity data (e.g., relative viscosity changes) to demonstrate how these results collectively support external binding over groove binding.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Quantitative consistency  
+  - **Claim pointer** The binding constant from UV-Vis is reported as 8.029 x 10^3 M^-1, while the formation constant from voltammetric titration is 2.57 x 10^4 M^-1.  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** The abstract reports two different affinity constants without discussing the discrepancy. A four-fold difference may reflect different binding models or experimental conditions, but this is not addressed.  
+  - **Why it matters** The magnitude of the binding affinity is a key quantitative claim. Inconsistent values across methods undermine confidence in the reported affinity and the interpretation of binding mode.  
+  - **Resolution test** Explain the origin of the difference, such as different ionic strengths, temperature, or binding models, and provide a reconciled interpretation of the affinity.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The voltammetric titration results "labelled the glucopyranoside moiety of ATN as a DNA binding unit... rather than the hydroquinone moiety."  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** The abstract does not describe how voltammetric titration can localise the binding to a specific moiety of the molecule. No details on the electrochemical behaviour of ATN or its fragments are provided.  
+  - **Why it matters** This is a novel and specific claim that goes beyond typical binding studies. Without mechanistic or comparative evidence, the assignment of the binding unit is not substantiated.  
+  - **Resolution test** Provide voltammetric data for ATN and relevant analogues or fragments, and explain how the electrochemical response is attributed to the glucopyranoside moiety.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Computational support  
+  - **Claim pointer** Molecular docking and metadynamics simulations "served as pictorial evidence of experimental results" and revealed "the predominant contribution of hydrogen bonding interactions."  
+  - **Evidence pointer** Abstract, computational studies; location not provided  
+  - **Concern** The abstract does not specify the docking software, scoring functions, simulation parameters, or the structural model of DNA used. The claim that simulations serve as "pictorial evidence" is vague and does not constitute quantitative validation.  
+  - **Why it matters** Computational results are only meaningful if the methods are reproducible and the results are quantitatively compared with experimental data.  
+  - **Resolution test** Provide detailed methods for docking and metadynamics, including force fields, simulation times, and free energy estimates, and show how these correlate with experimental binding constants.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretation of salt-dependent fluorescence  
+  - **Claim pointer** The "appreciable enhancement resulted in the fluorescence emission of the ATN/CT-DNA complex upon increasing NaCl concentration, which certified ATN as an external binder."  
+  - **Evidence pointer** Abstract, fluorescence studies; location not provided  
+  - **Concern** The abstract does not explain the mechanistic basis for why increased salt concentration enhances fluorescence and how this specifically certifies external binding. Typically, increased ionic strength weakens electrostatic interactions, which would be expected to reduce binding for a cationic ligand, but ATN is neutral.  
+  - **Why it matters** The interpretation of salt-dependent fluorescence is not self-evident and requires a clear mechanistic rationale to support the binding mode conclusion.  
+  - **Resolution test** Provide a detailed explanation of the fluorescence changes with salt concentration, including control experiments, and relate this to the proposed external binding model.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Binding constant notation  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Issue** The binding constant is written as "8.029 x 10(3) M(-1)" which is an unusual notation.  
+  - **Required correction** Use standard scientific notation, e.g., 8.029 x 10^3 M^-1.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** CD spectral results  
+  - **Evidence pointer** Abstract, CD spectral results; location not provided  
+  - **Issue** The abstract states that CD results exposed "moderate conformational alterations" but does not specify the nature of these alterations (e.g., changes in B-form DNA characteristics).  
+  - **Required correction** Briefly describe the CD spectral changes observed, such as shifts in molar ellipticity or wavelength maxima.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Spontaneous ground state complex formation"  
+  - **Evidence pointer** Abstract, fluorescence studies; location not provided  
+  - **Issue** The term "spontaneous ground state complex formation" is ambiguous and not standard in the field.  
+  - **Required correction** Clarify whether this refers to static quenching or ground-state association, and define the term explicitly.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Computational methods  
+  - **Evidence pointer** Abstract, computational studies; location not provided  
+  - **Issue** No software names or version numbers are provided for docking or metadynamics.  
+  - **Required correction** Specify the software and versions used for all computational work.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The internal inconsistency between dye displacement and viscosity interpretations, the unexplained discrepancy in binding constants, the unsupported assignment of the glucopyranoside moiety, the lack of computational detail, and the unclear salt-dependent fluorescence mechanism collectively prevent the case from being established from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The identification of a sugar moiety as the DNA-binding unit is potentially original, but the abstract does not provide enough context to assess novelty relative to prior work on arbutin or similar glycosides.  
+  - Scientific importance: The study addresses a relevant topic in drug-DNA interactions, but the moderate binding affinity and external binding mode limit the perceived significance for therapeutic design.  
+  - Interdisciplinary readership: The combination of spectroscopy, electrochemistry, and computation may appeal to a broad readership, but the abstract is too technical and under-specified for nonspecialists to follow the logic.  
+  - Technical soundness: The multi-technique approach is sound in principle, but the inconsistencies and lack of methodological detail prevent a rigorous assessment.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with multiple techniques; the logical flow is disrupted by the inconsistencies noted above.
+
+## Risk / unsupported claims
+- The claim that the glucopyranoside moiety is the DNA-binding unit is unsupported by the abstract, as no comparative or mechanistic evidence is provided.
+- The claim that salt-dependent fluorescence enhancement "certified" external binding is not mechanistically justified.
+- The claim that computational simulations serve as "pictorial evidence" is vague and does not constitute quantitative support.
+- The binding constants from UV-Vis and voltammetry are reported without reconciliation, making the quantitative affinity claim unreliable.
+- The exclusion of groove binding via dye displacement is not explained, leaving the binding mode conclusion partially unsupported.

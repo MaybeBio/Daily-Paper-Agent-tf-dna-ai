@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors integrate genomic maps of p53 response elements (p53-REs), p53 occupancy, candidate cis-Regulatory Elements (cCREs), and whole genome sequencing from 38,377 individuals to propose that p53-REs within cCREs are more likely to be functional, show differential natural selection between pro-survival and anti-survival target genes, and that rare germline mutations in these cCRE p53-REs phenocopy Li-Fraumeni Syndrome traits
+- **Visible evidence base** Abstract text only; no methodological details, statistical analyses, or data visualizations are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, variant calling and filtering details, selection analysis methodology, and clinical trait definitions
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important hypothesis that integrating regulatory genomic annotations with p53 binding data can refine the identification of functional p53 enhancers and link germline variants in these regions to cancer predisposition. However, the evidence base provided is insufficient to evaluate the validity of the core claims. The abstract lacks quantitative results, effect sizes, statistical significance, and methodological transparency. The claim regarding Li-Fraumeni-like traits in carriers of cCRE p53-RE mutations is particularly under-supported without clinical phenotype definitions and comparison cohorts. The work is of interest to cancer genetics and regulatory genomics communities, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Cancer geneticists and clinicians involved in hereditary cancer risk assessment would be interested in the potential expansion of Li-Fraumeni Syndrome screening to non-coding regulatory regions. Regulatory genomics researchers studying transcription factor binding site functionality and evolutionary constraints would value the integration of cCRE annotations with p53 binding data. Clinical genomics laboratories developing variant interpretation frameworks for non-coding regions would find the proposed approach relevant.
+- **Major strengths** The integration of multiple orthogonal data types (p53-RE maps, occupancy, cCREs, and population-scale WGS) is a conceptually strong approach. The focus on non-coding regulatory regions for cancer predisposition addresses a recognized gap in clinical variant interpretation. The use of natural selection signals to distinguish functional from non-functional p53-REs is a thoughtful analytical strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "p53-REs are more likely to be closer to the consensus binding site, to be evolutionarily conserved and to be occupied by p53 in cellulo, when they reside in regions of the genome that have been noted to have accessible DNA and a regulatory epigenomic mark in at least one human cell even without obvious p53 activation signals (cCRE p53-REs)"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract states that cCRE p53-REs are "more likely" to have certain features, but no quantitative measures are provided. There is no indication of the magnitude of enrichment, the statistical test used, or the correction for multiple comparisons. The definition of "closer to the consensus binding site" is ambiguous without a distance threshold or background model.
+  - **Why it matters** Without effect sizes and statistical rigor, the reader cannot assess whether the enrichment is biologically meaningful or a trivial consequence of genomic annotation biases. The claim is central to the paper's premise that cCRE status identifies functional p53-REs.
+  - **Resolution test** Provide enrichment odds ratios or fold changes with confidence intervals, specify the statistical tests and multiple testing corrections, and define the genomic background model used for comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "it is only in cCRE p53-REs, where multiple signs of differential natural selection between pro-survival and anti-survival target genes can be noted"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The claim of "differential natural selection" is presented without any description of the selection metrics used, the comparison groups, or the statistical significance of the differences. The phrase "multiple signs" is vague and does not specify which evolutionary signatures were examined, such as dN/dS ratios, conservation scores, or population genetic statistics.
+  - **Why it matters** This is a key distinguishing claim that separates cCRE p53-REs from non-cCRE p53-REs. Without defined selection metrics and significance thresholds, the claim is not testable or interpretable.
+  - **Resolution test** Specify the selection statistics used, provide quantitative comparisons between cCRE and non-cCRE p53-REs for pro-survival versus anti-survival target genes, and report p-values or confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance and clinical validity
+  - **Claim pointer** "carriers of rare germline mutations in cCRE p53-REs can have similar traits to carriers of rare p53 coding mutations that cause the Li-Fraumeni cancer predisposition syndrome"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** This is the most clinically consequential claim, yet the abstract provides no details on how "similar traits" were defined, which Li-Fraumeni features were compared, how carriers were ascertained, or what the comparison cohort comprised. The number of carriers, the specific mutations, and the statistical evidence for phenotypic similarity are entirely absent.
+  - **Why it matters** If true, this finding could change clinical screening guidelines. However, the claim as stated is too vague to evaluate and could be misleading if the phenotypic overlap is based on weak or non-specific criteria. The clinical implications demand rigorous evidence.
+  - **Resolution test** Provide the number of carriers, the specific cCRE p53-RE mutations identified, the phenotypic features compared, the statistical method for assessing similarity to Li-Fraumeni carriers, and a clear statement of the comparison group and its size.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background section
+  - **Evidence pointer** Abstract, Background; location not provided
+  - **Issue** The background states that "Fifty percent of cancers mutate TP53" which is imprecise. It should clarify that TP53 is mutated in approximately 50% of cancers, not that 50% of cancers mutate TP53 as an active process.
+  - **Required correction** Rephrase to "TP53 is mutated in approximately 50% of cancers" for clarity and accuracy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Abstract, Methods; location not provided
+  - **Issue** The abstract mentions "recently defined candidate cis-Regulatory Elements (cCREs)" but does not specify the source or version of the cCRE annotation, which is essential for reproducibility.
+  - **Required correction** Cite the specific cCRE resource and version used, such as ENCODE or SCREEN, in the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Conclusions section
+  - **Evidence pointer** Abstract, Conclusions; location not provided
+  - **Issue** The conclusion that germline mutations in cCRE p53-REs "have the potential to improve current cancer risk management and screening strategies" is speculative without evidence of clinical utility, such as penetrance estimates or risk stratification performance.
+  - **Required correction** Soften the language to indicate that the findings warrant further clinical validation, or provide preliminary risk estimates if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking. The abstract does not provide sufficient quantitative or methodological detail to assess the validity of the enrichment, selection, or clinical similarity claims. Without these, the central thesis is not established.
+- **Assessment against Nature-style criteria** Originality: The integration of cCRE annotations with p53-RE mapping and population-scale WGS is a novel combination, though the individual components are established. Scientific importance: The potential to identify non-coding variants contributing to cancer predisposition is of high importance, but the clinical claim is not yet supported. Interdisciplinary readership: The work bridges regulatory genomics, cancer biology, and clinical genetics, which would appeal to a broad audience if the evidence were robust. Technical soundness: Cannot be assessed from the abstract alone; the lack of statistical detail is a major deficiency. Readability for nonspecialists: The abstract is generally clear but uses jargon such as "cCRE" and "in cellulo" without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the absence of quantitative results and methodological transparency prevents evaluation of the core claims. A revised version with full methods, effect sizes, and clinical validation details would be required to assess suitability for a high-impact venue.
+
+## Risk / unsupported claims
+- The claim that cCRE p53-REs show "multiple signs of differential natural selection" is unsupported without defined metrics or statistical evidence.
+- The claim that carriers of rare germline mutations in cCRE p53-REs have "similar traits" to Li-Fraumeni carriers is unsupported without phenotype definitions, carrier counts, or comparison data.
+- The statement that "functional p53 enhancers are enriched in cCREs" is a reasonable inference but is not quantitatively supported in the abstract.
+- The conclusion that findings could "improve current cancer risk management and screening strategies" is speculative and not supported by the evidence presented.

@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "38752891",
+    "doi": "10.1089/cmb.2023.0174",
+    "title": "A Bayesian Change Point Model for Dynamic Alternative Transcription Start Site Usage During Cellular Differentiation."
+  },
+  "content": {
+    "abstract": "ABSTRACT An alternative transcription start site (ATSS) is a major driving force for increasing the complexity of transcripts in human tissues. As a transcriptional regulatory mechanism, ATSS has biological significance. Many studies have confirmed that ATSS plays an important role in diseases and cell development and differentiation. However, exploration of its dynamic mechanisms remains insufficient. Identifying ATSS change points during cell differentiation is critical for elucidating potential dynamic mechanisms. For relative ATSS usage as percentage data, the existing methods lack sensitivity to detect the change point for ATSS longitudinal data. In addition, some methods have strict requirements for data distribution and cannot be applied to deal with this problem. In this study, the Bayesian change point detection model was first constructed using reparameterization techniques for two parameters of a beta distribution for the percentage data type, and the posterior distributions of parameters and change points were obtained using Markov Chain Monte Carlo (MCMC) sampling. With comprehensive simulation studies, the performance of the Bayesian change point detection model is found to be consistently powerful and robust across most scenarios with different sample sizes and beta distributions. Second, differential ATSS events in the real data, whose change points were identified using our method, were clustered according to their change points. Last, for each change point, pathway and transcription factor motif analyses were performed on its differential ATSS events. The results of our analyses demonstrated the effectiveness of the Bayesian change point detection model and provided biological insights into cell differentiation.",
+    "keywords": [
+      "Bayesian change point detection model",
+      "alternative transcription start site",
+      "cell differentiation",
+      "dynamic mechanisms",
+      "percentage data type"
+    ],
+    "mesh_terms": [
+      "*Bayes Theorem",
+      "*Cell Differentiation/genetics",
+      "Humans",
+      "*Transcription Initiation Site",
+      "Markov Chains",
+      "Monte Carlo Method",
+      "Models, Genetic",
+      "Algorithms",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xia, Juan",
+        "Li, Yuxia",
+        "Zhu, Haotian",
+        "Xue, Feiyang",
+        "Shi, Feng",
+        "Li, Nana"
+      ],
+      "short_names": [
+        "Xia J",
+        "Li Y",
+        "Zhu H",
+        "Xue F",
+        "Shi F",
+        "Li N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4463-7225"
+      ],
+      "affiliations": [
+        "Department of Mathematics, College of Informatics, Huazhong Agricultural University, Wuhan, P.R. China.",
+        "Department of Mathematics, College of Informatics, Huazhong Agricultural University, Wuhan, P.R. China.",
+        "College of Informatics, Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, P.R. China.",
+        "College of Informatics, Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, P.R. China.",
+        "Department of Mathematics, College of Informatics, Huazhong Agricultural University, Wuhan, P.R. China.",
+        "Department of Mathematics, College of Informatics, Huazhong Agricultural University, Wuhan, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xia, Juan",
+        "short_name": "Xia J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, College of Informatics, Huazhong Agricultural University, Wuhan, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuxia",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, College of Informatics, Huazhong Agricultural University, Wuhan, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Haotian",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xue, Feiyang",
+        "short_name": "Xue F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, Wuhan, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Shi, Feng",
+        "short_name": "Shi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, College of Informatics, Huazhong Agricultural University, Wuhan, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Nana",
+        "short_name": "Li N",
+        "identifiers": [
+          "0000-0003-4463-7225"
+        ],
+        "affiliations": [
+          "Department of Mathematics, College of Informatics, Huazhong Agricultural University, Wuhan, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of computational biology : a journal of computational molecular cell biology"
+    ],
+    "journal_abbrev": [
+      "J Comput Biol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/16 12:44",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38752891",
+      "37355560",
+      "26968853",
+      "32103466",
+      "37249065",
+      "25551820",
+      "30741379",
+      "26399857",
+      "15493516",
+      "17238840",
+      "37163496",
+      "16015676",
+      "23829652",
+      "23009363",
+      "31301707",
+      "17300961",
+      "21906114",
+      "28960369",
+      "35274335",
+      "31500704",
+      "22364499",
+      "24086320",
+      "11926369",
+      "11333831",
+      "31298610",
+      "22025415",
+      "16135029",
+      "23646991",
+      "30596668",
+      "18709138",
+      "27343475",
+      "12396589",
+      "22805656",
+      "21828081",
+      "23281790",
+      "22893450",
+      "22642986",
+      "32086957",
+      "21905065",
+      "24218600",
+      "26932466",
+      "23277599",
+      "37807852",
+      "10421527",
+      "18806256",
+      "30170768",
+      "16195459",
+      "25265910",
+      "12652522",
+      "27978814",
+      "21175553",
+      "12644553",
+      "36378773",
+      "27342738",
+      "28087773",
+      "23569196",
+      "17911915",
+      "22624568",
+      "23929872",
+      "16857650",
+      "11929622",
+      "35693888",
+      "23887981",
+      "20014356",
+      "37498209",
+      "25117152",
+      "32598188",
+      "21512189",
+      "25631319",
+      "22306561",
+      "16488893",
+      "35000097",
+      "22306565",
+      "8889541",
+      "22618804",
+      "12598693",
+      "31279286",
+      "32947985",
+      "20457785",
+      "35294313",
+      "28646868",
+      "16201915",
+      "14965900",
+      "23311599",
+      "35699121",
+      "12583454",
+      "24262383",
+      "29172612",
+      "9004377",
+      "17312993",
+      "21937350",
+      "31343979",
+      "15964341",
+      "20600158",
+      "29191177",
+      "10597524",
+      "33515248",
+      "17849492",
+      "36294609",
+      "39308934"
+    ],
+    "review": [
+      "38752891",
+      "16201915"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1089/cmb.2023.0174?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

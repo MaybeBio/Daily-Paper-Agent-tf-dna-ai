@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "34478435",
+    "doi": "10.1371/journal.pcbi.1008882",
+    "title": "The N-terminal domain of RfaH plays an active role in protein fold-switching."
+  },
+  "content": {
+    "abstract": "The bacterial elongation factor RfaH promotes the expression of virulence factors by specifically binding to RNA polymerases (RNAP) paused at a DNA signal. This behavior is unlike that of its paralog NusG, the major representative of the protein family to which RfaH belongs. Both proteins have an N-terminal domain (NTD) bearing an RNAP binding site, yet NusG C-terminal domain (CTD) is folded as a beta-barrel while RfaH CTD is forming an alpha-hairpin blocking such site. Upon recognition of the specific DNA exposed by RNAP, RfaH is activated via interdomain dissociation and complete CTD structural rearrangement into a beta-barrel structurally identical to NusG CTD. Although RfaH transformation has been extensively characterized computationally, little attention has been given to the role of the NTD in the fold-switching process, as its structure remains unchanged. Here, we used Associative Water-mediated Structure and Energy Model (AWSEM) molecular dynamics to characterize the transformation of RfaH, spotlighting the sequence-dependent effects of NTD on CTD fold stabilization. Umbrella sampling simulations guided by native contacts recapitulate the thermodynamic equilibrium experimentally observed for RfaH and its isolated CTD. Temperature refolding simulations of full-length RfaH show a high success towards alpha-folded CTD, whereas the NTD interferes with betaCTD folding, becoming trapped in a beta-barrel intermediate. Meanwhile, NusG CTD refolding is unaffected by the presence of RfaH NTD, showing that these NTD-CTD interactions are encoded in RfaH sequence. Altogether, these results suggest that the NTD of RfaH favors the alpha-folded RfaH by specifically orienting the alphaCTD upon interdomain binding and by favoring beta-barrel rupture into an intermediate from which fold-switching proceeds.",
+    "keywords": [],
+    "mesh_terms": [
+      "Escherichia coli/chemistry",
+      "Escherichia coli Proteins/*chemistry",
+      "Molecular Dynamics Simulation",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Peptide Elongation Factors/*chemistry",
+      "Protein Domains",
+      "*Protein Folding",
+      "Trans-Activators/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Galaz-Davison, Pablo",
+        "Roman, Ernesto A",
+        "Ramirez-Sarmiento, Cesar A"
+      ],
+      "short_names": [
+        "Galaz-Davison P",
+        "Roman EA",
+        "Ramirez-Sarmiento CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5856-3071",
+        "ORCID: 0000-0001-9840-4115",
+        "ORCID: 0000-0003-4647-903X"
+      ],
+      "affiliations": [
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Santiago, Chile.",
+        "ANID-Millennium Science Initiative Program-Millennium Institute for Integrative Biology (iBio), Santiago, Chile.",
+        "Instituto de Quimica y Fisicoquimica Biologicas (UBA-CONICET), Ciudad Autonoma de Buenos Aires, Argentina.",
+        "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Ciudad Autonoma de Buenos Aires, Argentina.",
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Santiago, Chile.",
+        "ANID-Millennium Science Initiative Program-Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Galaz-Davison, Pablo",
+        "short_name": "Galaz-Davison P",
+        "identifiers": [
+          "0000-0002-5856-3071"
+        ],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile.",
+          "ANID-Millennium Science Initiative Program-Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Román, Ernesto A",
+        "short_name": "Román EA",
+        "identifiers": [
+          "0000-0001-9840-4115"
+        ],
+        "affiliations": [
+          "Instituto de Química y Fisicoquímica Biológicas (UBA-CONICET), Ciudad Autónoma de Buenos Aires, Argentina.",
+          "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Ramírez-Sarmiento, César A",
+        "short_name": "Ramírez-Sarmiento CA",
+        "identifiers": [
+          "0000-0003-4647-903X"
+        ],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile.",
+          "ANID-Millennium Science Initiative Program-Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/04 06:00",
+    "fetched_at": "2026-09-27 23:03:16"
+  },
+  "links": {
+    "cites": [
+      "41889830",
+      "41603697",
+      "41252592",
+      "40709301",
+      "39324667",
+      "38959899",
+      "38589445",
+      "38537533",
+      "37689829",
+      "37681096",
+      "36382197",
+      "35634768"
+    ],
+    "refs": [
+      "33574233",
+      "33521926",
+      "33109766",
+      "32996201",
+      "32820061",
+      "32726726",
+      "31810657",
+      "30808693",
+      "30742024",
+      "30537824",
+      "29887376",
+      "29741479",
+      "29323497",
+      "29241326",
+      "29183131",
+      "28799172",
+      "27698130",
+      "27555285",
+      "27300314",
+      "27131359",
+      "26963394",
+      "26580748",
+      "26374226",
+      "26230837",
+      "26183799",
+      "25483894",
+      "23990324",
+      "23129648",
+      "22817892",
+      "22545654",
+      "21345171",
+      "21187417",
+      "20525782",
+      "20132437",
+      "19500594",
+      "19096362",
+      "17434131",
+      "15264254",
+      "12007406",
+      "9426123",
+      "8961360",
+      "8749853",
+      "8744570"
+    ],
+    "similar": [
+      "34478435",
+      "22817892",
+      "26230837",
+      "23990324",
+      "25483894",
+      "29323497",
+      "24758259",
+      "26374226",
+      "30742024",
+      "31810657",
+      "35438983",
+      "30537824",
+      "32996201",
+      "27555285",
+      "39400465",
+      "26033324",
+      "36255050",
+      "17434131",
+      "28605514",
+      "29887376",
+      "33521926",
+      "21777814",
+      "23415559",
+      "37991741",
+      "39088556",
+      "38589445",
+      "35670666",
+      "33109766",
+      "27899597",
+      "36264101",
+      "35634768",
+      "28559482",
+      "19096362",
+      "29741479",
+      "23131843",
+      "17711918",
+      "30069925",
+      "39324667",
+      "19500594",
+      "24275665",
+      "20132437",
+      "35258322",
+      "17012804",
+      "25368414",
+      "39117885",
+      "27174929",
+      "37986937",
+      "21040729",
+      "24632072",
+      "33176159",
+      "29757477",
+      "8951819",
+      "26560741",
+      "15987884",
+      "12117951",
+      "36382197",
+      "9512710",
+      "20413501",
+      "15090525",
+      "9604894",
+      "10820031",
+      "28597880",
+      "15285720",
+      "12007406",
+      "10660066",
+      "20639538",
+      "22263615",
+      "16452414",
+      "15503145",
+      "24163336",
+      "15890417",
+      "25990722",
+      "9171395",
+      "18284209",
+      "27956639",
+      "23769674",
+      "15458404",
+      "12622819",
+      "26580748",
+      "22753782",
+      "25931133",
+      "15727837",
+      "22965132",
+      "25640595",
+      "12480883",
+      "28320882",
+      "34119489",
+      "23504015",
+      "12628255",
+      "9220007",
+      "11073923",
+      "24491998",
+      "32820061",
+      "26742846",
+      "33744958",
+      "22995754",
+      "15162485",
+      "34734665",
+      "9426123",
+      "18366439",
+      "30517842",
+      "11682190",
+      "14563853",
+      "19948254",
+      "30739200",
+      "11983161",
+      "15504040",
+      "27591855",
+      "31137816",
+      "10196160",
+      "34197736",
+      "33488562",
+      "38263337",
+      "35503209",
+      "37681096",
+      "32726726",
+      "36845554",
+      "35671319",
+      "39071276",
+      "37725050",
+      "39180270",
+      "35816183",
+      "39111466",
+      "35653309"
+    ],
+    "review": [
+      "34478435",
+      "24632072",
+      "33176159",
+      "36382197",
+      "25640595",
+      "9426123",
+      "30739200",
+      "11983161",
+      "31137816",
+      "33488562"
+    ],
+    "pmc": [
+      "8454952"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1008882",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34478435/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34478435",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

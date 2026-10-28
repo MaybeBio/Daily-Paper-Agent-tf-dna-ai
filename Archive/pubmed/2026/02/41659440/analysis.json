@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41659440",
+  "title": "TPCAV: Interpreting deep learning genomics models via concept attribution.",
+  "authors": "Yang, Jianyu; Mahony, Shaun",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-02-09",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出TPCAV方法用于解释基因组深度学习模型，可评估染色质状态等概念对TF结合预测的影响，虽非直接建模TF-DNA互作，但方法可迁移至TF-DNA结合位点预测模型的解释。",
+  "abstract": "Interpreting genomics deep learning models remains challenging. Existing feature attribution methods are largely restricted to one-hot DNA inputs and therefore cannot assess the influence of more general genomic features such as chromatin states or genomic repeats. Concept attribution methods offer an input-agnostic global interpretation framework, yet they have not been systematically applied to interpret neural network applications in genomics. We present the first application of concept attribution to interpret genomics deep learning models by adapting the Testing with Concept Activation Vectors (TCAV) method. We improve upon the original TCAV method by incorporating a PCA-based decorrelation transformation to address correlated and redundant embedding features commonly observed in genomics deep learning models, resulting in the Testing with PCA-projected Concept Activation Vectors (TPCAV) approach. We also introduce a strategy for extracting concept-specific input attribution maps. We evaluate our approach by interpreting influential biological concepts across a diverse set of genomics models spanning multiple input representations and prediction tasks. We demonstrate that TPCAV provides comparable motif feature interpretation to TF-MoDISco on one-hot encoded DNA-based transcription factor binding prediction models. TPCAV also enables robust interpretive analysis of how more general biological concepts such as repetitive elements and chromatin state annotations contribute towards predictions. TPCAV uniquely generalizes to interpret features learned by tokenized foundation models as well as models incorporating chromatin signals as inputs. We further show that TPCAV can identify representative regions associated with specific concepts, motivating downstream investigation of distinct regulatory mechanisms. TPCAV provides a flexible and robust complement to existing model interpretation techniques.",
+  "abstract_zh": "解读基因组学深度学习模型仍然具有挑战性。现有的特征归因方法大多局限于单热编码的DNA输入，因此无法评估更一般的基因组特征（如染色质状态或基因组重复序列）的影响。概念归因方法提供了一种与输入无关的全局解释框架，但尚未被系统地应用于解释基因组学中的神经网络应用。我们首次将概念归因应用于解读基因组学深度学习模型，通过改编概念激活向量测试（TCAV）方法实现。我们在原始TCAV方法的基础上进行了改进，引入基于PCA的去相关变换，以处理基因组学深度学习模型中常见的相关性和冗余嵌入特征，从而形成了基于PCA投影概念激活向量测试（TPCAV）方法。我们还提出了一种提取概念特异性输入归因图的策略。我们通过跨多种输入表示和预测任务的多样化基因组学模型，评估了我们的方法在解释重要生物学概念方面的效果。我们证明，TPCAV在基于单热编码DNA的转录因子结合预测模型上，提供了与TF-MoDISco相当的基序特征解释。TPCAV还支持对更一般的生物学概念（如重复元件和染色质状态注释）如何影响预测进行稳健的解释性分析。TPCAV独特地推广到解释由标记化基础模型以及整合染色质信号作为输入的模型所学习的特征。我们进一步表明，TPCAV可以识别与特定概念相关的代表性区域，从而促进对独特调控机制的后续研究。TPCAV为现有模型解释技术提供了一种灵活且稳健的补充。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41659440/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41659440/",
+  "paper_page_path": "papers/pubmed/41659440/index.html"
+}

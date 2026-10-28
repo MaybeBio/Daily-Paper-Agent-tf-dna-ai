@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors report that Borrelia burgdorferi PlzA, a PilZ domain-containing protein, is a cyclic-di-GMP (c-di-GMP) dependent DNA and RNA binding protein. They demonstrate binding to a specific region of the glpFKD promoter/5' UTR, show that binding affinity increases with c-di-GMP concentration, identify the N-terminal domain as the nucleic acid binding domain, and propose a model where c-di-GMP levels modulate PlzA function during the enzootic life cycle.
+- **Visible evidence base** Results sections describing EMSA experiments with wild-type and mutant PlzA, densitometry-based K_D(app) calculations, LC-MS/MS detection of co-purified c-di-GMP, circular dichroism spectroscopy, and computational docking analyses. Figures 1-12 and Table 1 are referenced.
+- **Missing materials affecting confidence** Raw EMSA gel images, full statistical analysis details, exact sample sizes for each experiment, and the complete computational docking output parameters. The manuscript states "data not shown" for some optimization experiments. Figure legends are not fully provided, limiting assessment of data presentation quality.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic biochemical characterization of PlzA as a c-di-GMP dependent nucleic acid binding protein. The work addresses a significant gap in understanding how PlzA, the sole c-di-GMP effector in B. burgdorferi, exerts its regulatory functions. The experimental approach is logical and the data largely support the main conclusions. However, several technical concerns regarding the quantitative analyses and the interpretation of binding specificity need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying c-di-GMP signaling in bacteria, particularly those focused on PilZ domain proteins and their effector mechanisms. The Lyme disease research community will be interested given PlzA's established role in the enzootic life cycle of B. burgdorferi. The broader field of bacterial gene regulation will also find relevance, as the study provides a novel example of a c-di-GMP dependent nucleic acid binding protein with dual DNA/RNA affinity.
+- **Major strengths** The study fills a critical knowledge gap by providing the first direct biochemical evidence for PlzA's nucleic acid binding function. The use of multiple complementary approaches (EMSA, mutagenesis, LC-MS/MS, CD spectroscopy, computational docking) strengthens the conclusions. The identification of the N-terminal domain as the nucleic acid binding region is a significant advance. The proposed model linking c-di-GMP levels to PlzA function across the enzootic cycle is conceptually appealing and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of quantitative binding analyses
+  - **Claim pointer** The authors report apparent K_D(app) values for PlzA binding to DNA and RNA under various c-di-GMP concentrations, with values ranging from 1.09 to 8.74 µM.
+  - **Evidence pointer** Results section "c-di-GMP levels modulate PlzA DNA binding affinity", Figure 4, Table 1
+  - **Concern** The K_D(app) calculations assume a 1:1 binding stoichiometry, but the authors themselves note that the observed progressive super-shifting of complexes suggests higher-order stoichiometry or non-specific aggregation. The progressive decrease in band mobility with increasing protein concentration is more consistent with multiple binding events or protein oligomerization on the nucleic acid, which would invalidate the single-site binding model used for K_D(app) determination. The authors acknowledge this possibility but do not address it in their calculations.
+  - **Why it matters** The quantitative K_D(app) values are central to the claim that c-di-GMP modulates binding affinity. If the binding stoichiometry is not 1:1, the reported values are not true dissociation constants and the fold-changes in affinity with c-di-GMP may be inaccurate. This affects the strength of the conclusion that c-di-GMP enhances binding affinity.
+  - **Resolution test** The authors should either (a) demonstrate 1:1 stoichiometry through alternative methods (e.g., stoichiometric titration, analytical ultracentrifugation, or fluorescence anisotropy), (b) use a binding model that accounts for multiple binding sites or cooperativity, or (c) present the K_D(app) values as apparent parameters with explicit caveats about the stoichiometry assumption and provide evidence that the relative differences between conditions are robust to the model choice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of nucleic acid binding
+  - **Claim pointer** The authors state that PlzA preferentially bound the glpFKD-derived sequences based on competition experiments with vector-derived DNA.
+  - **Evidence pointer** Results section "PlzA binds glpFKD DNA and the interaction is c-di-GMP dependent", Figure S1
+  - **Concern** The competition experiments only tested competition with empty vector DNA and unlabeled specific competitor. This does not establish sequence-specific binding. The observation that poly-dI-dC did not compete away binding suggests some specificity, but the authors have not tested whether PlzA binds other B. burgdorferi promoter regions or random DNA sequences with similar affinity. The conclusion that PlzA binds "predominantly with the major groove of DNA" is based on a single competition assay with methyl green and actinomycin D, which are not highly specific groove binders.
+  - **Why it matters** The physiological relevance of PlzA as a transcriptional regulator depends on its ability to bind specific target sequences. If PlzA binds DNA non-specifically, the proposed regulatory model is weakened. The groove binding data are preliminary and need validation with more definitive methods.
+  - **Resolution test** The authors should perform EMSA or another binding assay with (a) multiple unrelated B. burgdorferi DNA sequences, (b) a random DNA library, or (c) a defined sequence specificity assay (e.g., SELEX or Bind-n-Seq). For groove binding, they should use more specific minor groove binders (e.g., distamycin, netropsin) and major groove binders (e.g., Hoechst 33258 at appropriate concentrations) or perform methylation interference assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of N-terminal domain binding
+  - **Claim pointer** The authors conclude that the N-terminal domain of PlzA is the nucleic acid binding domain based on EMSA experiments with truncated proteins.
+  - **Evidence pointer** Results section "Dissection of PlzA reveals the nucleic acid binding domain", Figure 10
+  - **Concern** The N-terminal domain (PlzA NTD) bound nucleic acids independently of c-di-GMP, while the full-length protein required c-di-GMP for binding. This is an interesting finding, but the authors do not fully explore the implications. The NTD binding produced smeared shifts, suggesting unstable complexes. The authors attribute this to lack of stabilization by the C-terminal domain, but alternative explanations (e.g., non-specific binding due to exposed hydrophobic surfaces or partial unfolding of the isolated domain) are not excluded. The CD spectroscopy data show the truncated proteins are folded, but the comparison to the full-length protein is limited.
+  - **Why it matters** The conclusion that the NTD is the nucleic acid binding domain is important for understanding PlzA's mechanism of action. However, the differences in binding behavior between the isolated NTD and full-length protein suggest that the NTD alone may not faithfully represent the binding mode of the holo-protein. This could lead to incorrect conclusions about the residues involved in binding.
+  - **Resolution test** The authors should (a) perform binding assays with the NTD in the presence of the C-terminal domain (in trans) to test whether the CTD can stabilize NTD-nucleic acid complexes, (b) test whether the NTD binds to the same DNA sequence as the full-length protein with similar specificity, and (c) consider whether the smearing observed with NTD reflects a different binding mode that may not be physiologically relevant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental details
+  - **Affected element** Methods section "Electrophoretic mobility shift assays (EMSA)"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods describe EMSA conditions but do not specify the exact concentrations of protein used in each experiment, the incubation times, or the buffer conditions for each figure. The range of protein concentrations tested is not clearly stated for all experiments.
+  - **Required correction** Provide a table or detailed figure legends listing the exact protein concentrations, c-di-GMP concentrations, and incubation conditions for each EMSA experiment shown.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results section "c-di-GMP levels modulate PlzA DNA binding affinity"
+  - **Evidence pointer** Figure 4D
+  - **Issue** The statistical analysis (Welch's ANOVA with Dunnett's T3) is mentioned, but the exact p-values, F-statistics, and degrees of freedom are not reported. The number of independent replicates for each condition is not stated.
+  - **Required correction** Report full statistical details in the figure legends or methods, including the number of independent experiments, exact p-values, and test statistics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of RNA binding
+  - **Affected element** Results section "PlzA binds glp-derived single-stranded nucleic acids"
+  - **Evidence pointer** Figure 8
+  - **Issue** The authors demonstrate RNA binding but do not discuss the potential physiological significance of RNA binding in the context of the glpFKD operon. The RNA probe corresponds to the 5' UTR, but the functional relevance of PlzA-RNA interactions is not explored.
+  - **Required correction** Add a brief discussion of the potential role of RNA binding in the context of glpFKD regulation, or explicitly state that the functional significance of RNA binding is currently unknown and will be addressed in future studies.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Comparison with published work
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The authors compare their results with the Van Gundy et al. study, but the comparison is brief. A more detailed discussion of the methodological differences that might explain the discrepancies would strengthen the manuscript.
+  - **Required correction** Expand the discussion of the Van Gundy et al. study, specifically addressing the differences in experimental conditions (e.g., c-di-GMP concentrations, protein purification methods, binding assays) that might explain the different conclusions regarding c-di-GMP dependence.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (K_D(app) calculation assumptions) and R1-M2 (binding specificity) are the primary technical issues that need to be resolved. The quantitative binding data and the specificity claims are central to the manuscript's conclusions. Without addressing these, the case for PlzA as a specific, c-di-GMP-dependent nucleic acid binding protein is not fully established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The finding that a PilZ domain protein can bind both DNA and RNA in a c-di-GMP dependent manner is novel and extends the known functional repertoire of c-di-GMP effectors. The identification of the NTD as the nucleic acid binding domain is a new contribution.
+  - Scientific importance: The study addresses a fundamental question in B. burgdorferi biology, namely how the sole c-di-GMP effector mediates its regulatory functions. The results have implications for understanding the enzootic life cycle of this pathogen and for the broader field of c-di-GMP signaling.
+  - Interdisciplinary readership: The work will appeal to microbiologists, biochemists, and researchers in bacterial gene regulation. The topic is specific to B. burgdorferi, which may limit broader interdisciplinary appeal, but the general principles of c-di-GMP effector function are of wider interest.
+  - Technical soundness: The experimental approaches are generally appropriate, but the quantitative binding analyses have limitations (see R1-M1). The specificity claims need additional support (see R1-M2). The computational docking is preliminary and should be validated experimentally.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible. The introduction provides sufficient background, and the results are presented logically. Some sections, particularly the docking analysis, may be challenging for nonspecialists but are adequately explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding that PlzA is a c-di-GMP dependent nucleic acid binding protein is likely correct and important. However, the quantitative binding parameters and the specificity claims need to be strengthened. The authors should address the stoichiometry issue in their K_D(app) calculations and provide more definitive evidence for sequence-specific binding. Once these issues are resolved, the manuscript would be suitable for publication in a high-quality specialty journal.
+
+## Risk / unsupported claims
+- The claim that PlzA binds "predominantly with the major groove of DNA" is based on a single competition assay with methyl green and actinomycin D, which are not highly specific groove binders. This claim is not fully supported.
+- The K_D(app) values are calculated assuming 1:1 stoichiometry, which is not established and is contradicted by the observed super-shifting. These values should be treated as apparent parameters with caveats.
+- The statement that "PlzA likely exhibits preferential affinity to certain sequences" is speculative, as the data only show preferential binding to glpFKD over vector DNA and poly-dI-dC. This does not establish sequence specificity.
+- The proposed model in Figure 13, while plausible, extends beyond the data presented. The differential binding of PlzA to DNA versus RNA at different c-di-GMP concentrations is not directly tested.
+- The claim that the N-terminal domain is the nucleic acid binding domain is supported by the EMSA data, but the differences in binding behavior between NTD and full-length protein suggest that the isolated domain may not fully recapitulate the binding mode of the holo-protein.

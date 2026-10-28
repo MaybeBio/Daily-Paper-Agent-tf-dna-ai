@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36087888",
+  "title": "Identification of DNA-binding proteins via Multi-view LSSVM with independence criterion.",
+  "authors": "Zhao, Shulin; Zhang, Yu; Ding, Yijie; Zou, Quan; Tang, Lijia; Liu, Qing; Zhang, Ying",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2022-09-11",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多视图LSSVM与HSIC正则项基于序列信息预测DNA结合蛋白，属广义蛋白-DNA互作识别，但无TF-DNA特异性结合或三维互作建模，方法可迁移但深度有限。",
+  "abstract": "DNA-binding proteins actively participate in life activities such as DNA replication, recombination, gene expression and regulation and play a prominent role in these processes. As DNA-binding proteins continue to be discovered and increase, it is imperative to design an efficient and accurate identification tool. Considering the time-consuming and expensive traditional experimental technology and the insufficient number of samples in the biological computing method based on structural information, we proposed a machine learning algorithm based on sequence information to identify DNA binding proteins, named multi-view Least Squares Support Vector Machine via Hilbert-Schmidt Independence Criterion (multi-view LSSVM via HSIC). This method took 6 feature sets as multi-view input and trains a single view through the LSSVM algorithm. Then, we integrated HSIC into LSSVM as a regular term to reduce the dependence between views and explored the complementary information of multiple views. Subsequently, we trained and coordinated the submodels and finally combined the submodels in the form of weights to obtain the final prediction model. On training set PDB1075, the prediction results of our model were better than those of most existing methods. Independent tests are conducted on the datasets PDB186 and PDB2272. The accuracy of the prediction results was 85.5% and 79.36%, respectively. This result exceeded the current state-of-the-art methods, which showed that the multi-view LSSVM via HSIC can be used as an efficient predictor.",
+  "abstract_zh": "DNA结合蛋白积极参与DNA复制、重组、基因表达与调控等生命活动，并在这些过程中发挥突出作用。随着DNA结合蛋白的不断发现和增多，设计一种高效准确的识别工具势在必行。考虑到传统实验技术耗时且昂贵，以及基于结构信息的生物计算方法中样本数量不足的问题，我们提出了一种基于序列信息的机器学习算法来识别DNA结合蛋白，命名为多视图最小二乘支持向量机结合希尔伯特-施密特独立性准则（multi-view LSSVM via HSIC）。该方法将6个特征集作为多视图输入，并通过LSSVM算法训练单个视图。然后，我们将HSIC作为正则项集成到LSSVM中，以减少视图之间的依赖性，并探索多视图的互补信息。随后，我们训练并协调子模型，最终以权重形式组合子模型，获得最终预测模型。在训练集PDB1075上，我们模型的预测结果优于大多数现有方法。在数据集PDB186和PDB2272上进行了独立测试，预测结果的准确率分别为85.5%和79.36%。这一结果超过了当前最先进的方法，表明多视图LSSVM结合HSIC可以作为高效的预测工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36087888/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36087888/",
+  "paper_page_path": "papers/pubmed/36087888/index.html"
+}

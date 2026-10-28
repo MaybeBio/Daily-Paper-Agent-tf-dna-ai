@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "41326808",
+    "doi": "10.1038/s41401-025-01688-3",
+    "title": "Graph-based deep learning approach for high-throughput protein-DNA interaction scoring."
+  },
+  "content": {
+    "abstract": "Accurately quantifying protein-DNA interactions (PDIs) is critical for understanding biological processes and facilitating drug design. However, the inherent flexibility of nucleic acids limits the availability of experimentally determined structures of PDI complexes, posing a significant challenge for training reliable scoring functions (SFs). To address this, we developed PDIScore, a novel deep learning-based SF for PDI prediction. PDIScore utilizes a comprehensive graph representation to capture nucleotide flexibility, employs a scalable GraphGPS architecture with BigBird linear global attention to handle large interaction interfaces, and leverages Mixture Density Networks (MDNs) to model residue-nucleotide distance distributions. PDIScore was trained on a self-collected dataset of ~7000 protein-nucleic acid complex structures and validated on three rigorous test sets for evaluating its screening, docking, and ranking capabilities. The results illustrated that PDIScore significantly outperformed existing methods: it achieved the best screening power on the screening set (e.g., EF(1%) = 14.13, AUROC = 0.82 using AlphaFold3 structures), the highest docking success rate on the docking set (48.94% top1), and superior ranking capability on the ranking set (PCC = 0.50). Case studies demonstrated PDIScore's ability to elucidate biological mechanisms (e.g., adenovirus transcription, SOCS1 regulation) and its interpretability at the nucleotide level for identifying key interaction sites. PDIScore represents a robust, generalizable tool with significant potential for advancing PDI-related research and therapeutic design.",
+    "keywords": [
+      "deep learning",
+      "machine learning",
+      "molecular docking",
+      "protein-DNA interactions",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*DNA/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "Protein Binding",
+      "High-Throughput Screening Assays",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yi-Hao",
+        "Wang, Ying",
+        "Shen, Chao",
+        "Jiang, De-Jun",
+        "Gu, Shu-Kai",
+        "Zhao, Hui-Feng",
+        "You, Zi-Yi",
+        "Hou, Ting-Jun",
+        "Kang, Yu"
+      ],
+      "short_names": [
+        "Zhao YH",
+        "Wang Y",
+        "Shen C",
+        "Jiang DJ",
+        "Gu SK",
+        "Zhao HF",
+        "You ZY",
+        "Hou TJ",
+        "Kang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Department of Clinical Pharmacy, the First Affiliated Hospital of Zhejiang University School of Medicine, Hangzhou, 310003, China.",
+        "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha, 410004, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China. tingjunhou@zju.edu.cn.",
+        "Zhejiang Provincial Key Laboratory for Intelligent Drug Discovery and Development, Jinhua, 321016, China. tingjunhou@zju.edu.cn.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China. yukang@zju.edu.cn.",
+        "Zhejiang Provincial Key Laboratory for Intelligent Drug Discovery and Development, Jinhua, 321016, China. yukang@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yi-Hao",
+        "short_name": "Zhao YH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Chao",
+        "short_name": "Shen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, the First Affiliated Hospital of Zhejiang University School of Medicine, Hangzhou, 310003, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, De-Jun",
+        "short_name": "Jiang DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Xiangya School of Pharmaceutical Sciences, Central South University, Changsha, 410004, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Shu-Kai",
+        "short_name": "Gu SK",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hui-Feng",
+        "short_name": "Zhao HF",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "You, Zi-Yi",
+        "short_name": "You ZY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Ting-Jun",
+        "short_name": "Hou TJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China. tingjunhou@zju.edu.cn.",
+          "Zhejiang Provincial Key Laboratory for Intelligent Drug Discovery and Development, Jinhua, 321016, China. tingjunhou@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Kang, Yu",
+        "short_name": "Kang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China. yukang@zju.edu.cn.",
+          "Zhejiang Provincial Key Laboratory for Intelligent Drug Discovery and Development, Jinhua, 321016, China. yukang@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta pharmacologica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Pharmacol Sin"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 01:00",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [
+      "42601453",
+      "41559687",
+      "41559658"
+    ],
+    "refs": [
+      "38718835",
+      "38415248",
+      "38281252",
+      "37783727",
+      "37538816",
+      "37106095",
+      "36693636",
+      "36275623",
+      "35922630",
+      "35917397",
+      "34895068",
+      "34446608",
+      "34395534",
+      "34265844",
+      "33927185",
+      "33087930",
+      "32350457",
+      "32024849",
+      "31992738",
+      "31748530",
+      "31244000",
+      "30874800",
+      "29035372",
+      "28521030",
+      "26410586",
+      "25258363",
+      "23705874",
+      "23563318",
+      "23035121",
+      "21782316",
+      "21500218",
+      "21496208",
+      "21187238",
+      "21164525",
+      "20675356",
+      "20539292",
+      "20061306",
+      "18583363",
+      "18582039",
+      "17703195",
+      "17290817",
+      "16216584",
+      "15980494",
+      "15545275",
+      "15264254",
+      "15163179",
+      "12930962",
+      "11048951",
+      "10592235",
+      "7675079",
+      "6305988"
+    ],
+    "similar": [
+      "41326808",
+      "32144844",
+      "33758923",
+      "36154119",
+      "29495922",
+      "41034399",
+      "29190087",
+      "38148272",
+      "36916514",
+      "25724101",
+      "41429653",
+      "38063012",
+      "35917397",
+      "31257871",
+      "40914361",
+      "37882338",
+      "41548135",
+      "33693482",
+      "39214282",
+      "38577892",
+      "36430841",
+      "35943134",
+      "39441796",
+      "25207678",
+      "39482913",
+      "32496540",
+      "39823352",
+      "39660955",
+      "41673049",
+      "40118849",
+      "40882035",
+      "39037942",
+      "32077698",
+      "39848362",
+      "38581420",
+      "37319418",
+      "40062613",
+      "40914877",
+      "37822259",
+      "39497201",
+      "40209920",
+      "25916860",
+      "37005531",
+      "39550439",
+      "31199455",
+      "38457109",
+      "35878751",
+      "38695120",
+      "39488202",
+      "24854898",
+      "37538816",
+      "34905768",
+      "35901959",
+      "40966105",
+      "22411892",
+      "37166179",
+      "36502369",
+      "24708446",
+      "36671507",
+      "38958413",
+      "40932245",
+      "34878785",
+      "35200015",
+      "34109796",
+      "38940179",
+      "39618061",
+      "39206846",
+      "39178096",
+      "39587070",
+      "24171431",
+      "35301752",
+      "40900115",
+      "29538331",
+      "39981784",
+      "34439785",
+      "31729618",
+      "32352294",
+      "25977296",
+      "35314897",
+      "41632595",
+      "38927052",
+      "29608705",
+      "28541224",
+      "38706316",
+      "41540516",
+      "38177786",
+      "35579568",
+      "39563077",
+      "37433009",
+      "41088767",
+      "35889440",
+      "39173285",
+      "26846813",
+      "40952529",
+      "41051642",
+      "17316627",
+      "38975896",
+      "39695955",
+      "34081851",
+      "34731475"
+    ],
+    "review": [
+      "41326808",
+      "38577892",
+      "39482913",
+      "40209920",
+      "40900115",
+      "35579568"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41401-025-01688-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TOP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

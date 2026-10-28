@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "35250546",
+    "doi": "10.3389/fnagi.2022.830494",
+    "title": "Is Immune Suppression Involved in the Ischemic Stroke? A Study Based on Computational Biology."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To identify the genetic mechanisms of immunosuppression-related genes implicated in ischemic stroke. BACKGROUND: A better understanding of immune-related genes (IGs) involved in the pathophysiology of ischemic stroke may help identify drug targets beneficial for immunomodulatory approaches and reducing stroke-induced immunosuppression complications. METHODS: Two datasets related to ischemic stroke were downloaded from the GEO database. Immunosuppression-associated genes were obtained from three databases (i.e., DisGeNET, HisgAtlas, and Drugbank). The CIBERSORT algorithm was used to calculate the mean proportions of 22 immune-infiltrating cells in the stroke samples. Differential gene expression analysis was performed to identify the differentially expressed genes (DEGs) involved in stroke. Immunosuppression-related crosstalk genes were identified as the overlapping genes between ischemic stroke-DEGs and IGs. Feature selection was performed using the Boruta algorithm and a classifier model was constructed to evaluate the prediction accuracy of the obtained immunosuppression-related crosstalk genes. Functional enrichment analysis, gene-transcriptional factor and gene-drug interaction networks were constructed. RESULTS: Twenty two immune cell subsets were identified in stroke, where resting CD4 T memory cells were significantly downregulated while M0 macrophages were significantly upregulated. By overlapping the 54 crosstalk genes obtained by feature selection with ischemic stroke-related genes obtained from the DisGenet database, 17 potentially most valuable immunosuppression-related crosstalk genes were obtained, ARG1, CD36, FCN1, GRN, IL7R, JAK2, MAFB, MMP9, PTEN, STAT3, STAT5A, THBS1, TLR2, TLR4, TLR7, TNFSF10, and VASP. Regulatory transcriptional factors targeting key immunosuppression-related crosstalk genes in stroke included STAT3, SPI1, CEPBD, SP1, TP53, NFIL3, STAT1, HIF1A, and JUN. In addition, signaling pathways enriched by the crosstalk genes, including PD-L1 expression and PD-1 checkpoint pathway, NF-kappa B signaling, IL-17 signaling, TNF signaling, and NOD-like receptor signaling, were also identified. CONCLUSION: Putative crosstalk genes that link immunosuppression and ischemic stroke were identified using bioinformatics analysis and machine learning approaches. These may be regarded as potential therapeutic targets for ischemic stroke.",
+    "keywords": [
+      "bioinformatics",
+      "genes",
+      "immunosuppression",
+      "ischemic stroke",
+      "transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xin",
+        "Wang, Qian",
+        "Wang, Kun",
+        "Ni, Qingbin",
+        "Li, Hu",
+        "Su, Zhiqiang",
+        "Xu, Yuzhen"
+      ],
+      "short_names": [
+        "Wang X",
+        "Wang Q",
+        "Wang K",
+        "Ni Q",
+        "Li H",
+        "Su Z",
+        "Xu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Postdoctoral Workstation, Taian City Central Hospital, Taian, China.",
+        "Postdoctoral Workstation, Taian City Central Hospital, Taian, China.",
+        "Postdoctoral Workstation, Taian City Central Hospital, Taian, China.",
+        "Department of Rehabilitation, The Second Affiliated Hospital of Shandong First Medical University, Taian, China.",
+        "Department of Neurology, First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Department of Rehabilitation, The Second Affiliated Hospital of Shandong First Medical University, Taian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qian",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Postdoctoral Workstation, Taian City Central Hospital, Taian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kun",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Postdoctoral Workstation, Taian City Central Hospital, Taian, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Qingbin",
+        "short_name": "Ni Q",
+        "identifiers": [],
+        "affiliations": [
+          "Postdoctoral Workstation, Taian City Central Hospital, Taian, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hu",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation, The Second Affiliated Hospital of Shandong First Medical University, Taian, China."
+        ]
+      },
+      {
+        "full_name": "Su, Zhiqiang",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yuzhen",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation, The Second Affiliated Hospital of Shandong First Medical University, Taian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in aging neuroscience"
+    ],
+    "journal_abbrev": [
+      "Front Aging Neurosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/08 06:00",
+    "fetched_at": "2026-09-28 06:03:24"
+  },
+  "links": {
+    "cites": [
+      "42445457",
+      "42064980",
+      "41444657",
+      "41214317",
+      "40307317",
+      "40076879",
+      "40016488",
+      "39927762",
+      "39341981",
+      "39286806",
+      "39262408",
+      "38637126",
+      "38384585",
+      "38243958",
+      "38112574",
+      "37954339",
+      "37899404",
+      "37891634",
+      "37415546",
+      "36788184",
+      "36674674",
+      "36399471",
+      "36105086",
+      "35957686",
+      "35502338"
+    ],
+    "refs": [
+      "34418331",
+      "34182129",
+      "33778069",
+      "33275615",
+      "32945445",
+      "32605923",
+      "32391806",
+      "32151226",
+      "31819800",
+      "31173230",
+      "31061481",
+      "30585358",
+      "30026864",
+      "29791947",
+      "29687302",
+      "29600006",
+      "29434737",
+      "29393445",
+      "29104284",
+      "28314594",
+      "27814740",
+      "26842916",
+      "26742037",
+      "26657075",
+      "26303850",
+      "25822800",
+      "25720756",
+      "24842488",
+      "24410865",
+      "23722910",
+      "23619532",
+      "23555048",
+      "23343134",
+      "23219909",
+      "23050647",
+      "22968321",
+      "22933588",
+      "22726253",
+      "22455463",
+      "22453632",
+      "22110762",
+      "21921158",
+      "21738161",
+      "21521784",
+      "21357744",
+      "20978518",
+      "20837969",
+      "19943344",
+      "19648929",
+      "19319148",
+      "19265055",
+      "18189318",
+      "17363695",
+      "16923154",
+      "16814769",
+      "16636173",
+      "12528179",
+      "11486101",
+      "10884481",
+      "10458595",
+      "8996811"
+    ],
+    "similar": [
+      "35250546",
+      "33777111",
+      "33354565",
+      "33869630",
+      "35990678",
+      "35928610",
+      "35378210",
+      "36387855",
+      "33982485",
+      "31673979",
+      "37891634",
+      "35401659",
+      "25514975",
+      "32626985",
+      "34566862",
+      "34233597",
+      "36034287",
+      "34553293",
+      "34313877",
+      "32746852",
+      "32044658",
+      "34722158",
+      "36565484",
+      "36506580",
+      "37386280",
+      "34931168",
+      "28834871",
+      "31183363",
+      "36545026",
+      "28791394",
+      "34746300",
+      "31387440",
+      "26592822",
+      "29845250",
+      "35463752",
+      "31746348",
+      "25409614",
+      "24817293",
+      "37954339",
+      "30132538",
+      "33397492",
+      "31988808",
+      "32938406",
+      "31899762",
+      "34925639",
+      "35097126",
+      "33155176",
+      "30519576",
+      "31348992",
+      "37180174",
+      "28316065",
+      "35388303",
+      "36582228",
+      "32945465",
+      "37268894",
+      "32337286",
+      "32906114",
+      "32744319",
+      "32493063",
+      "25050631",
+      "33462173",
+      "33437215",
+      "34311758",
+      "34514752",
+      "33564304",
+      "34271942",
+      "34046056",
+      "34545294",
+      "33598484",
+      "31424269",
+      "33407587",
+      "37435058",
+      "32041280",
+      "33927789",
+      "32714405",
+      "34163213",
+      "35059509",
+      "29257295",
+      "33636320",
+      "31169017",
+      "33333372",
+      "34589304",
+      "29257335",
+      "30916045",
+      "33565505",
+      "28952134",
+      "28944843",
+      "34262334",
+      "31772617",
+      "26459744",
+      "33777260",
+      "34584445",
+      "29588600",
+      "36969251",
+      "37229425",
+      "36720935",
+      "36172047",
+      "35957686",
+      "35722467",
+      "38932932",
+      "36105086",
+      "37337154",
+      "37736540",
+      "38481631"
+    ],
+    "review": [
+      "35250546",
+      "38932932"
+    ],
+    "pmc": [
+      "8896355"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35250546/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35250546",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fnagi.2022.830494",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

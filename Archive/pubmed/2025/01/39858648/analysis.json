@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39858648",
+  "title": "Further Development of SAMPDI-3D: A Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA.",
+  "authors": "Rimal, Prawin; Paul, Shamrat Kumar; Panday, Shailesh Kumar; Alexov, Emil",
+  "journal": "Genes",
+  "published_date": "2025-01-25",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发机器学习方法SAMPDI-3Dv2，预测蛋白-DNA复合物中蛋白或DNA突变引起的结合自由能变化，核心聚焦蛋白-DNA互作界面突变效应，方法为AI预测，高度匹配TF-DNA结合机制建模课题。",
+  "abstract": "BACKGROUND/OBJECTIVES: Predicting the effects of protein and DNA mutations on the binding free energy of protein-DNA complexes is crucial for understanding how DNA variants impact wild-type cellular function. As many cellular interactions involve protein-DNA binding, accurately predicting changes in binding free energy (DeltaDeltaG) is valuable for distinguishing pathogenic mutations from benign ones. METHODS: This study describes the development and optimization of the SAMPDI-3Dv2 machine learning method, which is trained on an expanded database of experimentally measured DeltaDeltaGs. This enhanced model incorporates new features, including the 3D structure of the mutant protein, features of the mutant structure, and a position-specific scoring matrix (PSSM). Benchmarking was conducted using 5-fold cross-validation. RESULTS: The updated SAMPDI-3D model (SAMPDI-3Dv2) achieved Pearson correlation coefficients (PCCs) of 0.68 for protein and 0.80 for DNA mutations. These results represent significant improvements over existing tools. Additionally, the method's rapid execution time enables genome-scale predictions. CONCLUSIONS: The improved SAMPDI-3Dv2 shows enhanced predictive performance for analyzing mutations in protein-DNA complexes. By leveraging structural information and an expanded training dataset, SAMPDI-3Dv2 provides researchers with a more accurate and efficient tool for mutation analysis, contributing to identifying pathogenic variants and improving our understanding of cellular function.",
+  "abstract_zh": "背景/目标：预测蛋白质和DNA突变对蛋白质-DNA复合物结合自由能的影响，对于理解DNA变异如何影响野生型细胞功能至关重要。由于许多细胞相互作用涉及蛋白质-DNA结合，准确预测结合自由能变化（DeltaDeltaG）对于区分致病突变与良性突变具有重要价值。方法：本研究描述了SAMPDI-3Dv2机器学习方法的开发和优化，该方法基于一个扩展的实验测量DeltaDeltaG数据库进行训练。这一增强模型融入了新特征，包括突变蛋白的3D结构、突变结构的特征以及位置特异性评分矩阵（PSSM）。基准测试采用5折交叉验证进行。结果：更新后的SAMPDI-3D模型（SAMPDI-3Dv2）在蛋白质突变和DNA突变方面分别实现了0.68和0.80的皮尔逊相关系数（PCCs）。这些结果相较于现有工具表现出显著改进。此外，该方法的快速执行时间使其能够进行基因组规模的预测。结论：改进后的SAMPDI-3Dv2在分析蛋白质-DNA复合物突变方面显示出增强的预测性能。通过利用结构信息和扩展的训练数据集，SAMPDI-3Dv2为研究人员提供了一个更准确、更高效的突变分析工具，有助于识别致病变异并增进我们对细胞功能的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39858648/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39858648/",
+  "paper_page_path": "papers/pubmed/39858648/index.html"
+}

@@ -1,0 +1,204 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.04.742607",
+  "title": "In vitro and in silico characterization of competitive inhibition and repression of DUX4 target gene activation as a therapeutic approach for facioscapulohumeral muscular dystrophy (FSHD)",
+  "doi": "10.64898/2026.08.04.742607",
+  "abstract": "<h4>ABSTRACT</h4> Facioscapulohumeral muscular dystrophy (FSHD) is a rare neuromuscular disease caused by aberrant re-expression of the embryonic transcription factor DUX4 in skeletal muscle, which activates a toxic transcriptional program that drives progressive muscle wasting. No approved disease-modifying therapies currently exist. Prior work in mammalian and zebrafish models has shown that a truncated form of DUX4 retaining only its DNA-binding domain (DBD) lacks transactivation capacity and can suppress DUX4-FL-driven pathology; separately, dCas9/KRAB-based epigenetic repressors have demonstrated efficacy in silencing DUX4 expression, though CRISPR-based strategies face challenges from the repetitive nature of the D4Z4 locus, the immunogenicity associated with bacterial Cas proteins, and the payload limitations of gene delivery vehicles. Building on these findings, we corroborate that the DUX4 DBD, comprising both homeodomains, acts as a non-toxic competitive inhibitor of full-length DUX4 (DUX4-FL) at its genomic target sites, and extend this strategy by fusing the DBD to a human KRAB(ZNF10) domain, converting DUX4 from a transcriptional activator into a fully humanized epigenetic silencer of its own targets. Using a fluorescent DUX4-responsive reporter, we show that DBD alone produces dose-dependent repression of DUX4-FL transcriptional activity in HEK293T cells (200-fold at the highest inducible dose tested), while a constitutively expressed DBD-KRAB fusion produces significantly greater repression than DBD alone (949-fold versus 17-fold at a 25x molar ratio), with a similar trend observed in C2C12 myoblasts (47-fold versus 3.3-fold knockdown). To contextualize these findings and explore dosing considerations, we developed three complementary computational models – a transcription factor competitive binding model, a myotube diffusion model, and an ordinary differential equation (ODE) compartmental model – that illustrate how DBD concentration, intracellular diffusion, and population-level cell state transitions may relate to therapeutic efficacy. Together, these results corroborate and extend existing approaches into a single, fully humanized construct that may help circumvent the immunogenicity and delivery limitations of Cas-based systems.",
+  "authors": [
+    "Hoffmann HM",
+    "Finkelstein A",
+    "Geremew A",
+    "Xu K",
+    "Chiprez Meza V",
+    "Mohanty A",
+    "Velásquez MF",
+    "Liu M",
+    "Engel A",
+    "Kyriakakis P"
+  ],
+  "published_date": "2026-08-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742607",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742607.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1291917",
+    "raw_record": {
+      "id": "PPR1291917",
+      "source": "PPR",
+      "doi": "10.64898/2026.08.04.742607",
+      "title": "<i>In vitro</i>  and  <i>in silico</i>  characterization of competitive inhibition and repression of DUX4 target gene activation as a therapeutic approach for facioscapulohumeral muscular dystrophy (FSHD)",
+      "authorString": "Hoffmann HM, Finkelstein A, Geremew A, Xu K, Chiprez Meza V, Mohanty A, Velásquez MF, Liu M, Engel A, Kyriakakis P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hoffmann HM",
+            "lastName": "Hoffmann",
+            "firstName": "Heloise",
+            "initials": "HM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2466-5173"
+            }
+          },
+          {
+            "fullName": "Finkelstein A",
+            "lastName": "Finkelstein",
+            "firstName": "Alice",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-4046-7657"
+            }
+          },
+          {
+            "fullName": "Geremew A",
+            "lastName": "Geremew",
+            "firstName": "Amanuel",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-9979-2151"
+            }
+          },
+          {
+            "fullName": "Xu K",
+            "lastName": "Xu",
+            "firstName": "Katherine",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-2985-6431"
+            }
+          },
+          {
+            "fullName": "Chiprez Meza V",
+            "lastName": "Chiprez Meza",
+            "firstName": "Vanessa",
+            "initials": "V"
+          },
+          {
+            "fullName": "Mohanty A",
+            "lastName": "Mohanty",
+            "firstName": "Ayushi",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-8503-5175"
+            }
+          },
+          {
+            "fullName": "Velásquez MF",
+            "lastName": "Velásquez",
+            "firstName": "Maria Fernanda",
+            "initials": "MF"
+          },
+          {
+            "fullName": "Liu M",
+            "lastName": "Liu",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-4622-7254"
+            }
+          },
+          {
+            "fullName": "Engel A",
+            "lastName": "Engel",
+            "firstName": "Alex",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kyriakakis P",
+            "lastName": "Kyriakakis",
+            "firstName": "Phillip",
+            "initials": "P"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2466-5173"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-4622-7254"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-8503-5175"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-4046-7657"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-2985-6431"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-7208-4497"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-9979-2151"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>ABSTRACT</h4>  Facioscapulohumeral muscular dystrophy (FSHD) is a rare neuromuscular disease caused by aberrant re-expression of the embryonic transcription factor DUX4 in skeletal muscle, which activates a toxic transcriptional program that drives progressive muscle wasting. No approved disease-modifying therapies currently exist. Prior work in mammalian and zebrafish models has shown that a truncated form of DUX4 retaining only its DNA-binding domain (DBD) lacks transactivation capacity and can suppress DUX4-FL-driven pathology; separately, dCas9/KRAB-based epigenetic repressors have demonstrated efficacy in silencing DUX4 expression, though CRISPR-based strategies face challenges from the repetitive nature of the D4Z4 locus, the immunogenicity associated with bacterial Cas proteins, and the payload limitations of gene delivery vehicles. Building on these findings, we corroborate that the DUX4 DBD, comprising both homeodomains, acts as a non-toxic competitive inhibitor of full-length DUX4 (DUX4-FL) at its genomic target sites, and extend this strategy by fusing the DBD to a human KRAB(ZNF10) domain, converting DUX4 from a transcriptional activator into a fully humanized epigenetic silencer of its own targets. Using a fluorescent DUX4-responsive reporter, we show that DBD alone produces dose-dependent repression of DUX4-FL transcriptional activity in HEK293T cells (200-fold at the highest inducible dose tested), while a constitutively expressed DBD-KRAB fusion produces significantly greater repression than DBD alone (949-fold versus 17-fold at a 25x molar ratio), with a similar trend observed in C2C12 myoblasts (47-fold versus 3.3-fold knockdown). To contextualize these findings and explore dosing considerations, we developed three complementary computational models – a transcription factor competitive binding model, a myotube diffusion model, and an ordinary differential equation (ODE) compartmental model – that illustrate how DBD concentration, intracellular diffusion, and population-level cell state transitions may relate to therapeutic efficacy. Together, these results corroborate and extend existing approaches into a single, fully humanized construct that may help circumvent the immunogenicity and delivery limitations of Cas-based systems.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.08.04.742607"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-08-06",
+      "firstPublicationDate": "2026-08-05",
+      "firstIndexDate": "2026-08-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

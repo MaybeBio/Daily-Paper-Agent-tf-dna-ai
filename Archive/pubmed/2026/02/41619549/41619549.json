@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "41619549",
+    "doi": "10.1016/j.phymed.2026.157884",
+    "title": "Celastrol induces ferroptosis in ccRCC through TEF-Driven ACOX2 upregulation and metabolic reprogramming."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Celastrol, a bioactive triterpenoid from Tripterygium wilfordii, exhibits antitumor properties across multiple malignancies, while the molecular mechanisms linking it to metabolic regulation and ferroptosis in clear cell renal cell carcinoma (ccRCC) remain insufficiently defined. PURPOSE: This study aimed to identify the key molecular mediator through which celastrol induces ferroptosis in ccRCC and to evaluate its clinical and prognostic relevance. METHODS: Transcriptomics, bioinformatics, and functional assays were combined with clinical validation in ccRCC tissues (n=278) and TCGA datasets. Mechanistic analyses included chromatin immunoprecipitation, luciferase reporter assays, cellular thermal shift, molecular docking, and ubiquitination assays, with ferroptosis evaluated in vitro and in xenograft models. RESULTS: ACOX2 was identified as a celastrol-responsive lipid metabolic enzyme with reduced expression in ccRCC. ACOX2 showed prognostic value for overall survival prediction (AUC = 0.8019), with low expression corresponding to unfavorable outcomes in both univariable (HR = 0.169, CI 0.064-0.440) and multivariable analyses (HR = 0.186, CI 0.067-0.517). Functionally, ACOX2 enhanced lipid peroxidation and ferroptotic sensitivity while restraining malignant phenotypes. Celastrol stabilized the transcription factor TEF by inhibiting its ubiquitination and proteasomal degradation, thereby promoting transcriptional activation of ACOX2. ChIP-qPCR demonstrated increased TEF occupancy at the ACOX2 promoter, with TEF/Input rising from 4.72 +/- 1.23 to 8.08 +/- 0.94 and TEF/IgG increasing from 4.71 +/- 1.24 to 7.94 +/- 2.02, indicating a  approximately 1.70-fold enhancement. In vivo, celastrol suppressed tumor growth and induced ferroptosis in an ACOX2-dependent manner without systemic toxicity. CONCLUSION: A TEF-ACOX2 regulatory axis is defined through which celastrol induces ferroptosis in ccRCC, linking peroxisomal lipid metabolism to tumor suppression. These findings identify ACOX2 as both a mechanistic mediator and a prognostic biomarker and support celastrol as a phytochemical candidate for ccRCC therapy.",
+    "keywords": [
+      "ACOX2",
+      "Celastrol",
+      "Clear cell renal cell carcinoma (ccRCC)",
+      "Ferroptosis",
+      "Lipid peroxidation",
+      "TEF"
+    ],
+    "mesh_terms": [
+      "*Pentacyclic Triterpenes/pharmacology",
+      "*Ferroptosis/drug effects",
+      "Humans",
+      "*Carcinoma, Renal Cell/drug therapy/metabolism/pathology",
+      "*Kidney Neoplasms/drug therapy/metabolism/pathology",
+      "Animals",
+      "Up-Regulation/drug effects",
+      "Cell Line, Tumor",
+      "Metabolic Reprogramming/drug effects",
+      "Mice",
+      "Mice, Nude",
+      "Antineoplastic Agents, Phytogenic/pharmacology",
+      "Female",
+      "Tripterygium/chemistry",
+      "Prognosis",
+      "Triterpenes/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tian, Yijun",
+        "Ren, Changjie",
+        "Wang, Hongru",
+        "Yang, Wei",
+        "Ye, Jianqing",
+        "Cai, Banglan",
+        "Yang, Kuo",
+        "Chi, Yongbin",
+        "Zhang, Denghai",
+        "Pan, Xiuwu",
+        "Zhang, Xue",
+        "Wu, Denglong"
+      ],
+      "short_names": [
+        "Tian Y",
+        "Ren C",
+        "Wang H",
+        "Yang W",
+        "Ye J",
+        "Cai B",
+        "Yang K",
+        "Chi Y",
+        "Zhang D",
+        "Pan X",
+        "Zhang X",
+        "Wu D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China; Department of Urology, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China; Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China.",
+        "Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China; School of Gongli Hospital Medical Technology, University of Shanghai for Science and Technology, Shanghai 200093 China.",
+        "Department of Urology, Center for Oncology Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Yiwu, China, 322000.",
+        "Department of Urology, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Urology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China; Department of Urology, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Blood Transfusion, Laboratory Medicine Center, the Second Affiliated Hospital, Army Medical University, Chongqing, 400037, China.",
+        "Division of Urology, Department of Surgery, The University of Hong Kong -Shenzhen Hospital, Shenzhen, China.",
+        "Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China.",
+        "Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China.",
+        "Department of Urology, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: panxiuwu@126.com.",
+        "Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China. Electronic address: xue0221@139.com.",
+        "Department of Urology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China. Electronic address: wudenglong2009@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tian, Yijun",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China; Department of Urology, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China; Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Changjie",
+        "short_name": "Ren C",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China; School of Gongli Hospital Medical Technology, University of Shanghai for Science and Technology, Shanghai 200093 China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongru",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Center for Oncology Medicine, the Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Yiwu, China, 322000."
+        ]
+      },
+      {
+        "full_name": "Yang, Wei",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Jianqing",
+        "short_name": "Ye J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China; Department of Urology, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Banglan",
+        "short_name": "Cai B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Blood Transfusion, Laboratory Medicine Center, the Second Affiliated Hospital, Army Medical University, Chongqing, 400037, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Kuo",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Urology, Department of Surgery, The University of Hong Kong -Shenzhen Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chi, Yongbin",
+        "short_name": "Chi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Denghai",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Xiuwu",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. Electronic address: panxiuwu@126.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Health Commission Key Lab of Artificial Intelligence (AI)-Based Management of Inflammation and Chronic Diseases, Sino-French Cooperative Central Lab, Shanghai Pudong Gongli Hospital, Shanghai 200135, China. Electronic address: xue0221@139.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Denglong",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tongji Hospital, School of Medicine, Tongji University, Shanghai 200065, China. Electronic address: wudenglong2009@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/01 00:43",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [
+      "42334666"
+    ],
+    "refs": [],
+    "similar": [
+      "41619549",
+      "42166976",
+      "38584553",
+      "40360020",
+      "41054261",
+      "42205867",
+      "33303989",
+      "41706270",
+      "41121283",
+      "41832498",
+      "42334666",
+      "38553613",
+      "41888110",
+      "41946263",
+      "40220129",
+      "38768682",
+      "42333228",
+      "38692078",
+      "39425205",
+      "42105605",
+      "39818256",
+      "41171368",
+      "41872817",
+      "41135953",
+      "34522206",
+      "41101075",
+      "41039452",
+      "26433571",
+      "42253948",
+      "42196217",
+      "41057666",
+      "39489850",
+      "39299601",
+      "39071814",
+      "39815239",
+      "40790482",
+      "33675143",
+      "41050079",
+      "41061872",
+      "41559745",
+      "41135615",
+      "39831843",
+      "40992469",
+      "41175584",
+      "35422048",
+      "38417134",
+      "41039547",
+      "40049103",
+      "42174657",
+      "41088271",
+      "32802186",
+      "41371563",
+      "39923427",
+      "40374372",
+      "41106314",
+      "42331208",
+      "39789627",
+      "39039052",
+      "41593693",
+      "40341677",
+      "40684174",
+      "32051393",
+      "41863623",
+      "33973730",
+      "40343452",
+      "37626050",
+      "31747963",
+      "40770345",
+      "42167395",
+      "34002799",
+      "35065165",
+      "40770761",
+      "41399267",
+      "33859753",
+      "40842169",
+      "41365162",
+      "28656647",
+      "38640229",
+      "42263887",
+      "32794610",
+      "38906969",
+      "40819642",
+      "29901172",
+      "33242535",
+      "41763141",
+      "39919344",
+      "41956427",
+      "40522863",
+      "39748364",
+      "40222167",
+      "40504084",
+      "39901144",
+      "40982309",
+      "35656025",
+      "38480904",
+      "42392347",
+      "39614428",
+      "32513235",
+      "42352939",
+      "41344272"
+    ],
+    "review": [
+      "41619549",
+      "41039547"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00123-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

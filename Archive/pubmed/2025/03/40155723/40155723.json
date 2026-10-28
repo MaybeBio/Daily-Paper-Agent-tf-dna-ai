@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "40155723",
+    "doi": "10.1038/s41592-025-02626-1",
+    "title": "Atomic context-conditioned protein sequence design using LigandMPNN."
+  },
+  "content": {
+    "abstract": "Protein sequence design in the context of small molecules, nucleotides and metals is critical to enzyme and small-molecule binder and sensor design, but current state-of-the-art deep-learning-based sequence design methods are unable to model nonprotein atoms and molecules. Here we describe a deep-learning-based protein sequence design method called LigandMPNN that explicitly models all nonprotein components of biomolecular systems. LigandMPNN significantly outperforms Rosetta and ProteinMPNN on native backbone sequence recovery for residues interacting with small molecules (63.3% versus 50.4% and 50.5%), nucleotides (50.5% versus 35.2% and 34.0%) and metals (77.5% versus 36.0% and 40.6%). LigandMPNN generates not only sequences but also sidechain conformations to allow detailed evaluation of binding interactions. LigandMPNN has been used to design over 100 experimentally validated small-molecule and DNA-binding proteins with high affinity and high structural accuracy (as indicated by four X-ray crystal structures), and redesign of Rosetta small-molecule binder designs has increased binding affinity by as much as 100-fold. We anticipate that LigandMPNN will be widely useful for designing new binding proteins, sensors and enzymes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Ligands",
+      "*Proteins/chemistry",
+      "*Deep Learning",
+      "Models, Molecular",
+      "Protein Conformation",
+      "Protein Binding",
+      "Crystallography, X-Ray",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dauparas, Justas",
+        "Lee, Gyu Rie",
+        "Pecoraro, Robert",
+        "An, Linna",
+        "Anishchenko, Ivan",
+        "Glasscock, Cameron",
+        "Baker, David"
+      ],
+      "short_names": [
+        "Dauparas J",
+        "Lee GR",
+        "Pecoraro R",
+        "An L",
+        "Anishchenko I",
+        "Glasscock C",
+        "Baker D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0030-144X",
+        "ORCID: 0000-0002-9119-5303",
+        "ORCID: 0000-0001-7896-6217"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Physics, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+        "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA. dabaker@uw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dauparas, Justas",
+        "short_name": "Dauparas J",
+        "identifiers": [
+          "0000-0002-0030-144X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Gyu Rie",
+        "short_name": "Lee GR",
+        "identifiers": [
+          "0000-0002-9119-5303"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Pecoraro, Robert",
+        "short_name": "Pecoraro R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+          "Department of Physics, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "An, Linna",
+        "short_name": "An L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Anishchenko, Ivan",
+        "short_name": "Anishchenko I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Glasscock, Cameron",
+        "short_name": "Glasscock C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, David",
+        "short_name": "Baker D",
+        "identifiers": [
+          "0000-0001-7896-6217"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA. dabaker@uw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature methods"
+    ],
+    "journal_abbrev": [
+      "Nat Methods"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/29 16:12",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "42693796",
+      "42644833",
+      "42546051",
+      "42538903",
+      "42531048",
+      "42515682",
+      "42462008",
+      "42453397",
+      "42441251",
+      "42429023",
+      "42395444",
+      "42359048",
+      "42343133",
+      "42297966",
+      "42295740",
+      "42277055",
+      "42267140",
+      "42233743",
+      "42207717",
+      "42198370",
+      "42178779",
+      "42164335",
+      "42146566",
+      "42145264",
+      "42144870",
+      "42123499",
+      "42104019",
+      "42089695",
+      "42082787",
+      "42068230",
+      "42056544",
+      "42052042",
+      "42039485",
+      "42038708",
+      "42038007",
+      "42018576",
+      "41986695",
+      "41982388",
+      "41980520",
+      "41883853",
+      "41851984",
+      "41836299",
+      "41833943",
+      "41814061",
+      "41805121",
+      "41765949",
+      "41726754",
+      "41712694",
+      "41674557",
+      "41653111",
+      "41639692",
+      "41622943",
+      "41620420",
+      "41562285",
+      "41530646",
+      "41501077",
+      "41451541",
+      "41446439",
+      "41394589",
+      "41376388",
+      "41339749",
+      "41339547",
+      "41339546",
+      "41337470",
+      "41311942",
+      "41261139",
+      "41254310",
+      "41236386",
+      "41226596",
+      "41187076",
+      "41142335",
+      "41136793",
+      "41125887",
+      "41074781",
+      "41047202",
+      "41007412",
+      "40969159",
+      "40950233",
+      "40940539",
+      "40832246",
+      "40816276",
+      "40807559",
+      "40766444",
+      "40740484",
+      "40738113",
+      "40672287",
+      "40667161",
+      "40654887",
+      "40631110",
+      "40542165",
+      "40462994",
+      "40417169",
+      "40388352",
+      "40339022",
+      "40290414",
+      "39982408",
+      "39975260",
+      "39946508",
+      "39868321",
+      "39605685",
+      "39386615",
+      "39257749",
+      "38464121"
+    ],
+    "refs": [
+      "39024436",
+      "38452047",
+      "38306980",
+      "37968394",
+      "37590357",
+      "37433327",
+      "36927031",
+      "36813896",
+      "36564857",
+      "36544476",
+      "36108050",
+      "36108048",
+      "35862514",
+      "35332283",
+      "35136054",
+      "34547592",
+      "34282049",
+      "34265844",
+      "33577321",
+      "33249652",
+      "32971019",
+      "32483333",
+      "32126171",
+      "31942072",
+      "31896580",
+      "31867753",
+      "31699898",
+      "30626941",
+      "30209393",
+      "29035372",
+      "28430426",
+      "23422428",
+      "21073878"
+    ],
+    "similar": [
+      "40155723",
+      "36108050",
+      "39295564",
+      "41081718",
+      "38502697",
+      "24005320",
+      "38452047",
+      "40054795",
+      "41187076",
+      "25670500",
+      "39965912",
+      "40399308",
+      "20460129",
+      "26397464",
+      "32152330",
+      "37149653",
+      "22446381",
+      "37429578",
+      "39024436",
+      "31344278",
+      "18689810",
+      "9390292",
+      "30018322",
+      "9390296",
+      "39054322",
+      "26506617",
+      "23962892",
+      "27914062",
+      "33834190",
+      "35416807",
+      "38718835",
+      "39266056",
+      "40671257",
+      "38830995",
+      "41284362",
+      "36309961",
+      "22932902",
+      "40375059",
+      "24392845",
+      "19422060",
+      "38352434",
+      "39484820",
+      "21073878",
+      "20235548",
+      "28291759",
+      "41307002",
+      "33637700",
+      "37789284",
+      "15562988",
+      "979339",
+      "27358168",
+      "35136054",
+      "37253017",
+      "17971437",
+      "28980354",
+      "29641249",
+      "19593374",
+      "40920534",
+      "16472746",
+      "41392472",
+      "14631033",
+      "25451037",
+      "41256639",
+      "21789164",
+      "28573591",
+      "10080896",
+      "36641210",
+      "22632833",
+      "12473451",
+      "38501498",
+      "34445537",
+      "37498491",
+      "36634348",
+      "15313624",
+      "41519838",
+      "11394737",
+      "9568900",
+      "11273705",
+      "23662606",
+      "39348412",
+      "29702641",
+      "19081056",
+      "19435349",
+      "36897987",
+      "35762713",
+      "40600339",
+      "9822371",
+      "40721411",
+      "14695820",
+      "40794942",
+      "29097708",
+      "15103629",
+      "32599651",
+      "30808287",
+      "38177863",
+      "36377772",
+      "9917407",
+      "15504402",
+      "22821798",
+      "31240299"
+    ],
+    "review": [
+      "40155723",
+      "20235548"
+    ],
+    "pmc": [
+      "11978504"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41592-025-02626-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40155723/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40155723",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

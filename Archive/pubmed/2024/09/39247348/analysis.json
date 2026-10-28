@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39247348",
+  "title": "Development of a diagnostic model based on glycolysis-related genes and immune infiltration in intervertebral disc degeneration.",
+  "authors": "Gao, Jian; He, Liming; Zhang, Jianguo; Xi, Leimin; Feng, Haoyu",
+  "journal": "Heliyon",
+  "published_date": "2024-09-09",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于糖酵解基因构建椎间盘退变诊断模型并分析免疫浸润，虽含mRNA-TF互作网络但非蛋白质-DNA结合机制研究，且无AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: The glycolytic pathway and immune response play pivotal roles in the intervertebral disc degeneration (IDD) progression. This study aimed to develop a glycolysis-related diagnostic model and analyze its relationship with the immune response to IDD. METHODS: GSE70362, GSE23130, and GSE15227 datasets were collected and merged from the Gene Expression Omnibus, and differential expression analysis was performed. Glycolysis-related differentially expressed genes (GLRDEGs) were identified, and a machine learning-based diagnostic model was constructed and validated, followed by Gene Set Enrichment Analysis (GSEA). Gene Ontology functional enrichment and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyses were performed, and mRNA-miRNA and mRNA-transcription factor (TF) interaction networks were constructed. Immune infiltration was analyzed using single-sample GSEA (ssGSEA) and cell-type identification by estimating relative subsets of RNA transcripts (CIBERSORT) algorithm between high- and low-risk groups. RESULTS: In the combined dataset, samples from 31 patients with IDD and 55 normal controls were analyzed, revealing differential expression of 16 GLRDEGs between the two groups. Using advanced machine learning techniques (LASSO, support vector machine, and random forest algorithms), we identified eight common GLRDEGs (PXK, EIF3D, WSB1, ZNF185, IGFBP3, CKAP4, RPL15, and, SSR1) and developed a diagnostic model, which demonstrated high accuracy in distinguishing IDD from control samples (area under the curve, 0.935). We identified 42 mRNA-miRNA and 33 mRNA-TF interaction pairs. Using the RiskScore from the diagnostic model, the combined dataset was stratified into high- and low-risk groups. SsGSEA revealed significant differences in the infiltration abundances of the four immune cell types between the groups. The CIBERSORT algorithm revealed the strongest correlation between resting natural killer (NK) cells and ZNF185 in the low-risk group and between CD8(+) T cells and SSR1 in the high-risk group. CONCLUSIONS: Our study reveals a potential interplay between glycolysis-associated genes and immune infiltration in IDD pathogenesis. These findings contribute to our understanding of IDD and may guide development of novel diagnostic markers and therapeutic interventions.",
+  "abstract_zh": "背景：糖酵解通路和免疫反应在椎间盘退变（IDD）进展中发挥关键作用。本研究旨在开发一个糖酵解相关诊断模型，并分析其与IDD免疫反应的关系。方法：从基因表达综合数据库收集并合并GSE70362、GSE23130和GSE15227数据集，并进行差异表达分析。鉴定糖酵解相关差异表达基因（GLRDEGs），构建并验证基于机器学习的诊断模型，随后进行基因集富集分析（GSEA）。进行基因本体功能富集和京都基因与基因组百科全书通路富集分析，并构建mRNA-miRNA和mRNA-转录因子（TF）相互作用网络。使用单样本GSEA（ssGSEA）和通过估计RNA转录本相对子集进行细胞类型鉴定（CIBERSORT）算法分析高、低风险组之间的免疫浸润。结果：在合并数据集中，分析了31例IDD患者和55例正常对照的样本，揭示两组间16个GLRDEGs的差异表达。利用先进机器学习技术（LASSO、支持向量机和随机森林算法），我们鉴定出八个共同的GLRDEGs（PXK、EIF3D、WSB1、ZNF185、IGFBP3、CKAP4、RPL15和SSR1），并开发了一个诊断模型，该模型在区分IDD与对照样本方面表现出高准确性（曲线下面积，0.935）。我们鉴定出42个mRNA-miRNA和33个mRNA-TF相互作用对。使用诊断模型的风险评分，将合并数据集分层为高、低风险组。ssGSEA揭示两组间四种免疫细胞类型的浸润丰度存在显著差异。CIBERSORT算法显示，低风险组中静息自然杀伤（NK）细胞与ZNF185之间、高风险组中CD8(+) T细胞与SSR1之间的相关性最强。结论：我们的研究揭示了糖酵解相关基因与免疫浸润在IDD发病机制中的潜在相互作用。这些发现有助于我们理解IDD，并可能指导新型诊断标志物和治疗干预措施的开发。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39247348/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39247348/",
+  "paper_page_path": "papers/pubmed/39247348/index.html"
+}

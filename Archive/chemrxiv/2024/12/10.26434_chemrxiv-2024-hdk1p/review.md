@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supporting data were provided
+- **Shared manuscript claim summary** The authors study how solvation thermodynamics fluctuate as proteins adopt different conformations, comparing binding cavity solvation in conformations with mobile side chains versus those restrained about the cognate bound structure. They report identifying structural motifs that present significant costs to sampling cognate ligand bound structures, and conclude that side chain reorganization significantly affects binding site solvation structure and thermodynamics. They discuss implications for discovering alternative binding pockets, estimating water displacement contributions to binding affinity, and assessing cryptic pocket bindability.
+- **Visible evidence base** Abstract text only; no methods, results, figures, tables, or supplementary materials
+- **Missing materials affecting confidence** Full manuscript, methods description, simulation details, system definitions, quantitative results, figures, tables, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking protein conformational flexibility to solvation thermodynamics in binding site formation. However, the provided material is insufficient to evaluate the technical soundness of the work, the validity of the claims, or the significance of the findings. The core assertions regarding structural motifs, thermodynamic costs, and the effects of side chain reorganization are stated without supporting evidence. The manuscript cannot be assessed for publication readiness from the abstract alone.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on structure-based drug design, solvation thermodynamics, and cryptic pocket prediction would likely be interested. The potential connection between conformational sampling and water thermodynamics in binding sites is relevant to understanding binding affinity and pocket druggability.
+- **Major strengths** The research direction addresses a gap in the field, namely the limited integration of solvation thermodynamics with protein conformational sampling. The focus on comparing mobile versus restrained side chain conformations is a clear and potentially informative design. The stated implications for cryptic pocket bindability and water displacement contributions are of practical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "side chain reorganization has a significant effect on the structure and thermodynamics of binding site solvation."
+  - **Evidence pointer** Location not provided
+  - **Concern** No quantitative data, statistical measures, or methodological details are provided to support this claim. The abstract does not describe how solvation thermodynamics were computed, which systems were studied, how significance was determined, or what magnitude of effects was observed.
+  - **Why it matters** Without evidence, the central conclusion of the manuscript cannot be evaluated. The claim of significance requires statistical support and comparison against appropriate controls.
+  - **Resolution test** Provide quantitative results with error estimates and statistical tests comparing mobile versus restrained conformations across multiple protein systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state they "identify structural motifs that present significant costs to the sampling of cognate ligand bound structures."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not specify which structural motifs were identified, how they were defined, or how the "costs" were quantified. No methodological information is given regarding the simulation protocols, force fields, or analysis techniques.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without details on systems, methods, and analysis, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Describe the specific structural motifs, the computational methods used, and the quantitative definition of thermodynamic cost in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of conclusions
+  - **Claim pointer** The authors state that understanding the interplay between solvation thermodynamics and protein structural fluctuations is "crucial for both discovering alternative binding pockets, estimating the contribution to binding affinity of displacing water upon ligand binding, and assessing revealed cryptic pocket bindability."
+  - **Evidence pointer** Location not provided
+  - **Concern** These implications are presented as conclusions but no results are shown that directly connect the findings to any of these three applications. The abstract does not demonstrate that the approach improves pocket discovery, affinity estimation, or bindability assessment.
+  - **Why it matters** Overstating implications without direct evidence can mislead readers about the practical utility of the method.
+  - **Resolution test** Provide case studies or validation results demonstrating the utility of the approach for at least one of the stated applications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title "Solvation Thermodynamic Costs of forming Cognate Binding Site Formation" contains a grammatical redundancy with "forming" and "Formation" and is awkwardly phrased.
+  - **Required correction** Revise the title for grammatical correctness and clarity, for example "Solvation Thermodynamic Costs of Cognate Binding Site Formation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract
+  - **Issue** The term "cognate ligand bound structures" is used without definition. It is unclear whether this refers to experimentally determined bound conformations or computationally generated ones.
+  - **Required correction** Define the term clearly in the abstract or introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not state how many protein systems were studied or whether the findings are general or system-specific.
+  - **Required correction** Include the number and diversity of systems studied in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail, quantitative results, and direct evidence linking findings to stated applications means the central claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: The integration of solvation thermodynamics with conformational sampling is a potentially original angle, but the abstract does not demonstrate novelty relative to existing literature. Scientific importance: The topic is relevant to drug discovery, but the importance cannot be assessed without results. Interdisciplinary readership: The work could appeal to both biophysicists and medicinal chemists, but the abstract is too brief to establish broad accessibility. Technical soundness: Cannot be evaluated from the abstract alone. Readability for nonspecialists: The abstract is concise but uses specialized terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting research direction, but the absence of methods and results prevents any assessment of validity or significance. A full manuscript review would be required to determine whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim that structural motifs present significant costs to sampling cognate bound structures is unsupported.
+- The claim that side chain reorganization significantly affects binding site solvation is unsupported.
+- The stated implications for pocket discovery, water displacement estimation, and cryptic pocket bindability are not evidenced.
+- The generalizability of the findings across protein systems is not assessable.

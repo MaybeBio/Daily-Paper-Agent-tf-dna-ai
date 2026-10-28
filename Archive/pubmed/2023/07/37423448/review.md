@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations, alanine scanning, and interaction entropy methods to quantify how DNA modifications (mC, hmC, fC, caC) and MeCP2 MBD mutations affect MBD-DNA binding. They report a binding affinity order (mC > caC > hmC > fC > unmodified C), propose structural mechanisms involving DNA bending and loop movements, and suggest implications for Rett syndrome therapeutics.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, error estimates, or methodological details are provided
+- **Missing materials affecting confidence** Full methods, simulation setup and force field parameters, convergence criteria, alanine scanning details, interaction entropy calculations, error bars, structural figures, mutation list, and any validation or control simulations
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing an important question in epigenetic recognition. However, the claims are stated without quantitative support, and the methodological basis for the binding free energy ranking and structural interpretations cannot be assessed from the supplied material. The therapeutic implication for Rett syndrome is speculative and not supported by the evidence described.
+- **Who would be interested in the results, and why** Researchers in epigenetic regulation, molecular recognition, and computational biophysics would be interested in the mechanistic insights into how DNA modifications modulate protein-DNA binding. Those working on Rett syndrome and related methyl-CpG binding proteins may also find the mutation analysis relevant, though the therapeutic claim requires substantial additional evidence.
+- **Major strengths** The study addresses a biologically important question with potential clinical relevance. The combination of molecular dynamics, alanine scanning, and interaction entropy is a reasonable approach for estimating binding free energy contributions. The proposed structural mechanisms (DNA bending, loop proximity changes) offer testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims a definitive binding affinity order: MBD has the strongest binding ability for mCDNA, followed by caC, hmC, and fCDNA, with the weakest binding ability observed for CDNA.
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Concern** The binding free energy ranking is presented as a definitive result, but no numerical values, statistical uncertainties, or convergence assessments are provided. The interaction entropy method is known to be sensitive to simulation length and sampling quality, and without these details the ranking cannot be evaluated.
+  - **Why it matters** The central conclusion of the paper rests on this ranking. If the differences between modifications are within statistical error, the ordering may not be meaningful. The abstract provides no basis for judging the robustness of this result.
+  - **Resolution test** Provide binding free energy values with standard errors, show convergence plots, and demonstrate that the ranking is stable across independent simulations or alternative analysis methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that mC modification induces DNA bending, causing residues R91 and R162 to move closer to DNA, and that caC/hmC and fC modifications bring two loop regions (near K112 and K130) closer to DNA.
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Concern** The structural mechanisms are stated as findings, but no quantitative measures (e.g., bending angles, distance changes, contact frequencies) or statistical comparisons are provided. It is unclear whether these observations are consistent across simulation replicates or represent single trajectory events.
+  - **Why it matters** The proposed mechanisms are the main explanatory contribution of the study. Without quantitative support and error analysis, these claims are anecdotal rather than established.
+  - **Resolution test** Provide quantitative structural metrics with uncertainties, show representative and averaged structures, and demonstrate statistical significance of the observed differences between modification states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract concludes that the study emphasizes the necessity for research and development of targeted Rett compounds that induce conformational compatibility between MBD and DNA.
+  - **Evidence pointer** Abstract conclusion; location not provided
+  - **Concern** The therapeutic implication is presented as a direct outcome of the study, but the abstract provides no evidence that the identified mechanisms can be targeted pharmacologically, nor any data on compound design, screening, or functional validation.
+  - **Why it matters** This claim extends beyond the computational findings and could mislead readers about the translational readiness of the work. It is not supported by the evidence described.
+  - **Resolution test** Either remove the therapeutic claim or provide additional data (e.g., virtual screening, mutagenesis validation, cellular assays) that directly supports the proposed translational direction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract first sentence; location not provided
+  - **Issue** The phrase "has gained attention for the significance of three oxidative modifications" is grammatically awkward and unclear. It is not immediately obvious what "significance" refers to.
+  - **Required correction** Rephrase to clarify that the oxidative derivatives of 5-methylcytosine are biologically significant and have attracted research attention.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract methods
+  - **Evidence pointer** Abstract methods description; location not provided
+  - **Issue** The abstract states that alanine scanning was used to evaluate binding free energy, but it does not specify which residues were mutated or how many mutations were tested. This limits the interpretability of the mutation-related claims.
+  - **Required correction** Specify the number and identity of mutations studied, or state that full details are in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract final sentence; location not provided
+  - **Issue** The phrase "induce conformational compatibility" is vague and not operationally defined. It is unclear what specific conformational feature would be targeted.
+  - **Required correction** Define the proposed conformational compatibility in structural terms or soften the claim to reflect the speculative nature of the suggestion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central quantitative and mechanistic claims cannot be evaluated without additional data. R1-M3 is also blocking because the therapeutic implication is unsupported and could be misleading.
+- **Assessment against Nature-style criteria** Originality: The question of how oxidative DNA modifications affect MeCP2 MBD binding is timely and of interest, though prior computational studies exist on related systems. Scientific importance: The topic is relevant to epigenetic regulation and Rett syndrome, but the abstract does not establish a sufficiently novel or generalizable insight. Interdisciplinary readership: The work could appeal to biophysicists, epigeneticists, and clinical researchers, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Not assessable from the abstract; the absence of quantitative data and methodological details prevents evaluation. Readability for nonspecialists: The abstract is dense and assumes familiarity with simulation methods and MeCP2 biology; the therapeutic claim adds rhetorical weight without supporting evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The study may have merit, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A revised version with full data, error analysis, and tempered conclusions could be reconsidered.
+
+## Risk / unsupported claims
+- The binding affinity ranking (mC > caC > hmC > fC > CDNA) is unsupported without numerical values and error estimates.
+- The structural mechanisms involving DNA bending and loop proximity changes are unsupported without quantitative metrics and statistical analysis.
+- The claim that DNA modifications promote stable hydrogen bond networks is stated without supporting data.
+- The claim that MBD mutations significantly reduce binding free energy is stated without specifying which mutations or providing values.
+- The therapeutic implication for Rett syndrome compound development is speculative and not supported by the described evidence.

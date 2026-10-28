@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2409.02588v2",
+  "title": "Multiview Random Vector Functional Link Network for Predicting DNA-Binding Proteins",
+  "doi": "",
+  "abstract": "The identification of DNA-binding proteins (DBPs) is essential due to their significant impact on various biological activities. Understanding the mechanisms underlying protein-DNA interactions is essential for elucidating various life activities. In recent years, machine learning-based models have been prominently utilized for DBP prediction. In this paper, to predict DBPs, we propose a novel framework termed a multiview random vector functional link (MvRVFL) network, which fuses neural network architecture with multiview learning. The MvRVFL model integrates both late and early fusion advantages, enabling separate regularization parameters for each view, while utilizing a closed-form solution for efficiently determining unknown parameters. The primal objective function incorporates a coupling term aimed at minimizing a composite of errors stemming from all views. From each of the three protein views of the DBP datasets, we extract five features. These features are then fused together by incorporating a hidden feature during the model training process. The performance of the proposed MvRVFL model on the DBP dataset surpasses that of baseline models, demonstrating its superior effectiveness. We further validate the practicality of the proposed model across diverse benchmark datasets, and both theoretical analysis and empirical results consistently demonstrate its superior generalization performance over baseline models.",
+  "authors": [
+    "A. Quadir",
+    "M. Sajid",
+    "M. Tanveer"
+  ],
+  "published_date": "2024-09-04T10:14:17Z",
+  "updated_date": "2026-01-26T06:22:52Z",
+  "journal": "",
+  "category": "cs.LG, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2409.02588v2",
+  "pdf_url": "https://arxiv.org/pdf/2409.02588v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "cs.LG",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2409.02588v2",
+    "raw_categories": [
+      "cs.LG",
+      "q-bio.BM"
+    ],
+    "journal_ref": ""
+  }
+}

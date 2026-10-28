@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35994925",
+  "title": "A deep learning method for predicting molecular properties and compound-protein interactions.",
+  "authors": "Ma, Jun; Zhang, Ruisheng; Li, Tongfeng; Jiang, Jing; Zhao, Zhili; Liu, Yunwu; Ma, Jun",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2022-08-23",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测分子性质与化合物-蛋白质互作，对象为小分子-蛋白而非TF-DNA，方法可迁移但非本课题核心。",
+  "abstract": "Predicting molecular properties and compound-protein interactions (CPIs) are two important areas of drug design and discovery. They are also an essential way to discover lead compounds in virtual screening. Recently, in silico methods based on deep learning have demonstrated excellent performance in various challenges. It is imperative to develop efficient computational methods to predict accurately both molecular properties and CPIs in drug research using deep learning techniques. In this paper, we propose a deep learning method applicable to both molecular property prediction and CPI prediction based on the idea that both are generally influenced by chemical structure and sequence information of compounds and proteins. Molecular properties are inferred by integrating the molecular structure and sequence information of compounds, and CPIs are predicted by integrating protein sequence and compound structure. The method combines topological structure and sequence fingerprint information of molecules, extracts adequately raw data features, and generates highly representative features for prediction. Molecular property prediction experiments were conducted on BACE, P53 and hERG datasets, and CPI prediction experiments were conducted on Human, C. elegans and KIBA datasets. MG-S achieves outperformance in molecular property prediction on P53, the differences in AUC, Precision and MCC are 0.030, 0.050 and 0.100, respectively, over the suboptimal baseline model, and provides consistently good results on BACE and hERG.The model also achieves impressive performance in CPI prediction, the differences in AUC, Precision and MCC on KIBA are 0.141, 0.138, 0.090 and 0.082, respectively, compared with the state-of-the-art models. The comprehensive results show that the MG-S model has higher performance, better classification ability, and faster convergence. MG-S will serve as a useful method to predict compound properties and CPIs in the early stages of drug design and discovery.Our code and datasets are available at: https://github.com/happay-ending/cpi_cpp.",
+  "abstract_zh": "预测分子性质与化合物-蛋白质相互作用（CPIs）是药物设计与发现中的两个重要领域，也是虚拟筛选中发现先导化合物的关键途径。近年来，基于深度学习的计算机模拟方法在各种挑战中展现出卓越性能。因此，开发高效的计算方法，利用深度学习技术在药物研究中准确预测分子性质和CPIs至关重要。本文基于分子性质和CPIs均受化合物及蛋白质的化学结构与序列信息共同影响的思想，提出了一种适用于分子性质预测和CPI预测的深度学习方法。该方法通过整合化合物的分子结构与序列信息推断分子性质，并通过整合蛋白质序列与化合物结构预测CPIs。该方法结合了分子的拓扑结构与序列指纹信息，充分提取原始数据特征，生成高代表性的预测特征。分子性质预测实验在BACE、P53和hERG数据集上进行，CPI预测实验在Human、C. elegans和KIBA数据集上进行。MG-S在P53上的分子性质预测中表现优异，与次优基线模型相比，AUC、Precision和MCC的差异分别为0.030、0.050和0.100，并在BACE和hERG上提供了一致良好的结果。该模型在CPI预测中也取得了显著性能，与最先进模型相比，在KIBA上的AUC、Precision和MCC差异分别为0.141、0.138、0.090和0.082。综合结果表明，MG-S模型具有更高的性能、更好的分类能力和更快的收敛速度。MG-S将在药物设计与发现的早期阶段作为预测化合物性质和CPIs的有用方法。我们的代码和数据集可在以下网址获取：https://github.com/happay-ending/cpi_cpp。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35994925/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35994925/",
+  "paper_page_path": "papers/pubmed/35994925/index.html"
+}

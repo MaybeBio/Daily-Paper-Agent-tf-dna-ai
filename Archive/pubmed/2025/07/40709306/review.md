@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, background, methodology, results, explainability, conclusion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, results, and interpretability analysis as presented in the provided text
+- **Shared manuscript claim summary** The authors propose a Mixture of Experts (MoE) model integrating three pre-trained CNN experts for TFBS prediction, and a novel attribution method (ShiftSmooth) for improved explainability. They claim competitive or superior performance of the MoE model on in-distribution and out-of-distribution datasets, with statistical significance confirmed by ANOVA, and superior attribution quality of ShiftSmooth over Vanilla Gradient.
+- **Visible evidence base** Text descriptions of methods, results, and figures (Figures 1-19 referenced but not provided); no actual data tables, numerical results, or figure images are included in the supplied material
+- **Missing materials affecting confidence** All figures (including ROC curves, bar plots, confidence intervals, and attribution maps) are referenced but not provided; no numerical AUC values, p-values, dataset sizes, hyperparameter details, or code are included; the full experimental results are therefore not directly verifiable from the supplied text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational genomics and proposes a reasonable architectural idea (MoE with pre-trained CNN experts) and a novel explainability method (ShiftSmooth). However, the provided text is largely descriptive and lacks the quantitative evidence needed to evaluate the central claims. The statistical analysis is mentioned but not reported in detail, and the explainability results are described qualitatively without supporting figures or metrics. The manuscript is not yet established from the supplied evidence.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on TFBS prediction, gene regulation, and model interpretability for genomic sequences. The MoE approach and ShiftSmooth method could be of interest to those seeking more generalizable and interpretable models for regulatory genomics.
+- **Major strengths** The problem is well-motivated and relevant. The MoE architecture is a sensible approach to combine specialized models for diverse TFBS patterns. The ShiftSmooth method addresses a real limitation of existing attribution methods for genomic sequences (handling shifts in the viewing window). The use of ANOVA for statistical comparison is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that the MoE model achieves "competitive or superior performance" and "particularly excels in OOD scenarios," with statistical significance confirmed by ANOVA.
+  - **Evidence pointer** Section IV (Performance Evaluation Results), Figures 4-9; location not provided for numerical values
+  - **Concern** The central performance claims are not supported by any reported numerical results in the provided text. No AUC values, standard deviations, p-values, or confidence interval bounds are given. The figures that would contain this information are not included in the supplied material.
+  - **Why it matters** Without quantitative results, the reader cannot assess the magnitude of the claimed improvements, whether they are practically meaningful, or whether the ANOVA results are correctly interpreted. The core contribution of the paper depends on these numbers.
+  - **Resolution test** Provide a table or in-text reporting of mean AUC and standard deviation for all models across all datasets (in-distribution and OOD), along with ANOVA F-statistics and p-values. The figures should be included or the data summarized numerically.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that ShiftSmooth provides "superior attribution for motif discovery and localization" compared to Vanilla Gradient.
+  - **Evidence pointer** Section V (Model Explainability), Figures 10-19; location not provided
+  - **Concern** The explainability results are described only qualitatively. No quantitative metrics (e.g., motif discovery accuracy, localization error, faithfulness scores) are reported. The figures that would demonstrate the claimed superiority are not provided.
+  - **Why it matters** The claim of superiority for ShiftSmooth is a key novel contribution. Without quantitative evaluation or at least clear visual evidence, the claim is unsubstantiated. Qualitative descriptions of "more plausible" attributions are subjective and insufficient.
+  - **Resolution test** Include quantitative evaluation of attribution quality (e.g., comparison to known motif positions, faithfulness metrics, or ROC-based motif discovery benchmarks) and provide the attribution maps as figures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes the MoE architecture and training procedure but lacks sufficient detail for replication.
+  - **Evidence pointer** Section III (Methodology); location not provided
+  - **Concern** The description of the MoE architecture is incomplete. The number of experts is stated as three, but the specific CNN architectures, the gating network structure, the training data sources, the sequence preprocessing, and the hyperparameter search space are not described in sufficient detail. The ShiftSmooth method is described conceptually but the range of shifts (N) and the handling of edge cases are not specified.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific contribution. Without these details, other researchers cannot implement or validate the proposed methods.
+  - **Resolution test** Provide a complete description of the model architectures, training data, hyperparameters, and the ShiftSmooth algorithm (including the choice of N and the bit-shift implementation).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Section I, paragraph 1; location not provided
+  - **Issue** The introduction states that "DNA serves as the blueprint for the development and functionality of the human body" and describes transcription in general terms. This is overly broad and could be condensed to focus more directly on TFBS prediction.
+  - **Required correction** Shorten the introductory biological background and move directly to the problem of TFBS prediction and its challenges.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section II-B3 (ShiftSmooth Gradient)
+  - **Evidence pointer** Section II-B3; location not provided
+  - **Issue** The description of ShiftSmooth uses bit-shift operations (right and left shifts) on sequence data. It is unclear how this is implemented for categorical sequence data (nucleotides) and whether the shift operation is circular as stated. The notation in Equation 15 and 16 is ambiguous.
+  - **Required correction** Clarify the implementation of the shift operation for sequence data, including how the circular shift is performed and how the gradients are aligned.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section V (Model Explainability)
+  - **Evidence pointer** Section V; location not provided
+  - **Issue** The explainability section is dense and relies heavily on figure references without providing context for readers who cannot see the figures. The discussion of negative attribution scores is brief and could be expanded.
+  - **Required correction** Provide more textual description of what the figures show and explain the interpretation of negative attribution scores more clearly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results), R1-M2 (unsubstantiated explainability claims), R1-M3 (insufficient methodological detail)
+- **Assessment against Nature-style criteria** Originality: The MoE approach for TFBS prediction and the ShiftSmooth method are novel ideas, though the individual components (CNN experts, gradient-based attribution) are established. Scientific importance: The problem is important, but the contribution is incremental unless the performance and explainability gains are clearly demonstrated. Interdisciplinary readership: The work bridges machine learning and genomics, which is of broad interest, but the presentation is currently too technical and lacks accessible summaries of the biological implications. Technical soundness: The methodology is plausible but not fully verifiable from the supplied text; the statistical analysis is mentioned but not reported. Readability for nonspecialists: The manuscript is written for a computational audience and would benefit from clearer explanations of the biological context and the significance of the results.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims require quantitative support and additional methodological detail before the case is made.
+
+## Risk / unsupported claims
+- The claim that the MoE model achieves "competitive or superior performance" and "particularly excels in OOD scenarios" is unsupported without reported AUC values or figures.
+- The claim that ANOVA confirms the significance of performance differences is unsupported without F-statistics and p-values.
+- The claim that ShiftSmooth provides "superior attribution for motif discovery and localization" is unsupported without quantitative evaluation or provided figures.
+- The claim that the MoE model "mitigates performance fluctuations" is unsupported without numerical evidence.
+- The claim that ShiftSmooth offers "the explainability benefits of a robust model" is speculative and not empirically demonstrated.

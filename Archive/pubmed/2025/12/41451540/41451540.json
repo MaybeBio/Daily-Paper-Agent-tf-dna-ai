@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "41451540",
+    "doi": "10.1093/bib/bbaf693",
+    "title": "CELLetter: leveraging large language model and dual-stream network to identify context-specific ligand-receptor interactions for cell-cell communication analysis."
+  },
+  "content": {
+    "abstract": "Cell-to-cell communication (CCC) facilitates the coordination of various cellular behaviors in multicellular organisms. Many computational methods neglect downstream intracellular signaling and are limited by static and predefined ligand-receptor (L-R) databases. To address these limitations, we present CELLetter, a deep learning framework to identify potential L-R interactions through a novel feature learning model and decipher cellular signaling by integrating L-R co-expression with downstream transcription factor (TF) activity inferred from gene regulatory network. CELLetter begins by leveraging the protein large language model, ProstT5, for feature embedding. It then employs a dual-stream architecture for feature extraction and dimensionality reduction, a gate mechanism with dynamic weight adjustment for feature fusion, absolute difference, and element-wise product for feature interaction. After that, CELLetter combines interacting L-R pairs, single-cell RNA sequencing (scRNA-seq) data, and downstream TF activity to quantify communication strength. We comprehensively evaluated CELLetter using 11 evaluation metrics, benchmarking it against 4 state-of-the-art L-R classification models, 6 L-R validation tools, 10 CCC inference methods. CELLetter demonstrated superior L-R classification performance. Notably, we introduced a novel multi-faceted validation strategy employing colocalization distance, co-expression ratio, and co-detection probability on spatial transcriptomics data from human heart and distal lung epithelial tissues. CELLetter's predicted L-R pairs exhibited significant spatial relevance compared with other baselines. When applied to human head and neck squamous cell carcinoma (HNSCC) data, CELLetter produced CCC inferences broadly consistent with established methods. More importantly, ligand macrophage migration inhibitory factor (MIF) and receptor CD44 were predicted as a central signaling axis within HNSCC tumor microenvironment, suggesting their potentials as therapeutic targets . CELLetter is freely available at https://github.com/plhhnu/CELLetter.",
+    "keywords": [
+      "cell-cell communication",
+      "dual-stream architecture",
+      "feature interaction",
+      "ligand-receptor interaction",
+      "mixture of expert",
+      "protein large language model"
+    ],
+    "mesh_terms": [
+      "*Cell Communication",
+      "Humans",
+      "Ligands",
+      "*Computational Biology/methods",
+      "*Gene Regulatory Networks",
+      "*Deep Learning",
+      "*Software",
+      "Signal Transduction",
+      "Transcription Factors/metabolism/genetics",
+      "Large Language Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Wei",
+        "Huang, Junfeng",
+        "Jiang, Yan",
+        "Nie, Libo",
+        "Peng, Lihong"
+      ],
+      "short_names": [
+        "Wu W",
+        "Huang J",
+        "Jiang Y",
+        "Nie L",
+        "Peng L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4228-5441",
+        "ORCID: 0000-0002-2321-3901"
+      ],
+      "affiliations": [
+        "School of Biological Science and Medical Engineering, Hunan University of Technology, Hunan, Zhuzhou 412007, China.",
+        "School of Biological Science and Medical Engineering, Hunan University of Technology, Hunan, Zhuzhou 412007, China.",
+        "School of Information Engineering, Changsha Medical University, Hunan, Changsha 410219, China.",
+        "School of Biological Science and Medical Engineering, Hunan University of Technology, Hunan, Zhuzhou 412007, China.",
+        "School of Biological Science and Medical Engineering, Hunan University of Technology, Hunan, Zhuzhou 412007, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Wei",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Science and Medical Engineering, Hunan University of Technology, Hunan, Zhuzhou 412007, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Junfeng",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Science and Medical Engineering, Hunan University of Technology, Hunan, Zhuzhou 412007, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yan",
+        "short_name": "Jiang Y",
+        "identifiers": [
+          "0000-0002-4228-5441"
+        ],
+        "affiliations": [
+          "School of Information Engineering, Changsha Medical University, Hunan, Changsha 410219, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Libo",
+        "short_name": "Nie L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Science and Medical Engineering, Hunan University of Technology, Hunan, Zhuzhou 412007, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Lihong",
+        "short_name": "Peng L",
+        "identifiers": [
+          "0000-0002-2321-3901"
+        ],
+        "affiliations": [
+          "School of Biological Science and Medical Engineering, Hunan University of Technology, Hunan, Zhuzhou 412007, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/26 07:40",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [
+      "42704267",
+      "42549940",
+      "42261305"
+    ],
+    "refs": [
+      "41086069",
+      "40858876",
+      "40841363",
+      "40768465",
+      "40536817",
+      "40444832",
+      "40353076",
+      "40338445",
+      "40074845",
+      "39891284",
+      "39831891",
+      "39800874",
+      "39780232",
+      "39694816",
+      "39633723",
+      "39409886",
+      "39252099",
+      "39155292",
+      "39107318",
+      "39089152",
+      "39075536",
+      "38718835",
+      "38650924",
+      "38625586",
+      "38367445",
+      "38238518",
+      "38230766",
+      "38178132",
+      "37976192",
+      "37953328",
+      "37936079",
+      "37827697",
+      "37767186",
+      "37364528",
+      "37216267",
+      "37055382",
+      "36545790",
+      "36460803",
+      "36291863",
+      "35760817",
+      "35753695",
+      "35680885",
+      "35355018",
+      "35264704",
+      "33853780",
+      "33749993",
+      "33597528",
+      "33597522",
+      "33538338",
+      "33471060",
+      "33436555",
+      "33168968",
+      "33147626",
+      "33070389",
+      "33024107",
+      "32466724",
+      "32315971",
+      "32196115",
+      "32184726",
+      "32103204",
+      "31924475",
+      "31819264",
+      "31647099",
+      "31551601",
+      "31178118",
+      "31141872",
+      "30642385",
+      "30550791",
+      "30207593",
+      "29346760",
+      "29198524",
+      "28991892",
+      "26198319",
+      "24686166",
+      "24663824",
+      "24532726",
+      "23193258",
+      "21514878",
+      "19923890",
+      "19484147",
+      "19446722",
+      "19047106",
+      "18823568",
+      "17681537",
+      "17210054",
+      "14629561",
+      "14582706"
+    ],
+    "similar": [
+      "41451540",
+      "40444832",
+      "38747737",
+      "41288963",
+      "37364528",
+      "38367445",
+      "40149878",
+      "38980373",
+      "37216267",
+      "39800874",
+      "41159728",
+      "40333631",
+      "41386265",
+      "38678387",
+      "39062480",
+      "40095604",
+      "34331449",
+      "39276328",
+      "38950180",
+      "41125721",
+      "37827697",
+      "39060167",
+      "40328901",
+      "36253792",
+      "41092369",
+      "32549766",
+      "35043939",
+      "37213285",
+      "38706319",
+      "40196610",
+      "38653489",
+      "36147664",
+      "40677242",
+      "41206398",
+      "36230879",
+      "39289562",
+      "39960893",
+      "40593827",
+      "40062614",
+      "39376034",
+      "38978014",
+      "40062616",
+      "41231930",
+      "39417321",
+      "39701486",
+      "33371891",
+      "40889117",
+      "40662821",
+      "40471991",
+      "41031145",
+      "40608008",
+      "40536815",
+      "38940155",
+      "40814232",
+      "37976192",
+      "41329984",
+      "40366019",
+      "40704686",
+      "30953525",
+      "39679439",
+      "33625677",
+      "40057293",
+      "35842742",
+      "39487083",
+      "39369061",
+      "40068952",
+      "40522999",
+      "35255944",
+      "39831891",
+      "40197174",
+      "39402696",
+      "39708840",
+      "39508444",
+      "40711603",
+      "38810116",
+      "39673490",
+      "34898376",
+      "40662784",
+      "39581873",
+      "39900285",
+      "38858414",
+      "36941114",
+      "38892162",
+      "31068142",
+      "31422208",
+      "38631346",
+      "40806243",
+      "41330999",
+      "40725477",
+      "35191953",
+      "40654959",
+      "40983951",
+      "39234254",
+      "41438766",
+      "39715685",
+      "40396179",
+      "40577399",
+      "39082647",
+      "41006377",
+      "39694816"
+    ],
+    "review": [
+      "41451540",
+      "36147664",
+      "40536815"
+    ],
+    "pmc": [
+      "12741564"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41451540.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41451540/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf693",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

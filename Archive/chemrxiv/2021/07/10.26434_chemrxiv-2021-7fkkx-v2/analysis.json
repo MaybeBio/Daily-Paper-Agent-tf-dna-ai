@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2021-7fkkx-v2",
+  "title": "DeepPocket: Ligand Binding Site Detection and Segmentation using 3D Convolutional Neural Networks",
+  "authors": "Rishal Aggarwal; Akash Gupta; Vineeth Chelur; C. V. Jawahar; U. Deva Priyakumar",
+  "journal": "ChemRxiv",
+  "published_date": "2021-07-15",
+  "window": {
+    "start": "2021-07-12",
+    "end": "2021-07-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用3D卷积神经网络检测和分割蛋白质配体结合位点，虽非TF-DNA体系，但蛋白-配体结合位点检测方法可迁移至TF-DNA互作界面预测，具有一定借鉴价值。",
+  "abstract": "A structure-based drug design pipeline involves the development of potential drug molecules or ligands that form stable complexes with a given receptor at its binding site. A prerequisite to this is finding druggable and functionally relevant binding sites on the 3D structure of the protein. Although several methods for detecting binding sites have been developed beforehand, a majority of them surprisingly fail in the identification and ranking of binding sites accurately. The rapid adoption and success of deep learning algorithms in various sections of structural biology beckons the usage of such algorithms for accurate binding site detection. As a combination of geometry based software and deep learning, we report a novel framework, DeepPocket that utilises 3D convolutional neural networks for the rescoring of pockets identified by Fpocket and further segments these identified cavities on the protein surface. Apart from this, we also propose another dataset SC6K containing protein structures submitted in the Protein Data Bank (PDB) from January 2018 till February 2020 for ligand binding site (LBS) detection. DeepPocket's results on various binding site datasets and SC6K highlights its better performance over current state-of-the-art methods and good generalization ability over novel structures.",
+  "abstract_zh": "基于结构的药物设计流程涉及开发潜在药物分子或配体，这些分子或配体能在其结合位点与给定受体形成稳定复合物。这一过程的前提是在蛋白质的三维结构上找到可成药且功能相关的结合位点。尽管此前已开发出多种检测结合位点的方法，但大多数方法在准确识别和排序结合位点方面却出人意料地失败。深度学习算法在结构生物学各领域的迅速采用和成功，促使我们利用此类算法进行准确的结合位点检测。结合基于几何的软件与深度学习，我们报告了一个新颖框架DeepPocket，它利用三维卷积神经网络对Fpocket识别的口袋进行重新评分，并进一步分割这些在蛋白质表面识别出的腔体。此外，我们还提出了另一个数据集SC6K，其中包含从2018年1月至2020年2月提交至蛋白质数据银行（PDB）的蛋白质结构，用于配体结合位点（LBS）检测。DeepPocket在各种结合位点数据集及SC6K上的结果，凸显了其相较于当前最先进方法的更优性能，以及对新结构良好的泛化能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2021-7fkkx-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2021-7fkkx-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2021-7fkkx-v2/index.html"
+}

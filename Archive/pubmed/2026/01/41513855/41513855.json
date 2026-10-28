@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "41513855",
+    "doi": "10.1038/s41589-025-02126-5",
+    "title": "Unique gluing effect of ASXL1 K351 monoubiquitination stimulates the PR-DUB activity."
+  },
+  "content": {
+    "abstract": "Protein ubiquitination critically regulates biological processes through both proteolytic and nonproteolytic mechanisms. While classically known for protein degradation, ubiquitination also modulates enzymatic activity. However, current mechanisms of ubiquitination-mediated enzymatic modulation are spatially constrained near enzyme-substrate interfaces. Here, we report a unique ubiquitination-mediated regulatory paradigm that activates the Polycomb repressive deubiquitinase (PR-DUB) complex from a site distal to the enzyme-substrate interface. We found that ASXL1 K351 monoubiquitination promotes nucleosomal H2AK119Ub deubiquitination by stabilizing the PR-DUB catalytic pocket, thereby increasing catalytic velocity (V(max)) without affecting substrate affinity (K(m)). Structurally, ubiquitin at ASXL1 K351 bridges the BAP1 and ASXL1 subunits, functioning as a cross-bracing 'glue' that constrains their conformational dynamics without altering the nucleosome-binding interface. Molecular dynamics and hydrogen-deuterium exchange mass spectrometry revealed that this modification locks PR-DUB in a catalytic state poised for substrate cleavage. This study reveals a unique ubiquitin function of intersubunit fastening through a molecular glue effect and clarifies the mechanism of PR-DUB activation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Ubiquitination",
+      "*Repressor Proteins/metabolism/chemistry/genetics",
+      "*Ubiquitin Thiolesterase/metabolism/chemistry/genetics",
+      "Humans",
+      "*Tumor Suppressor Proteins/metabolism/chemistry/genetics",
+      "Ubiquitin/metabolism",
+      "Molecular Dynamics Simulation",
+      "Nucleosomes/metabolism",
+      "Catalytic Domain",
+      "Histones/metabolism",
+      "Protein Conformation",
+      "*Deubiquitinating Enzymes/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Tianyi",
+        "Zheng, Jiqing",
+        "Tong, Zebing",
+        "Deng, Zhiheng",
+        "He, Zaozhen",
+        "Wu, Xiangwei",
+        "Wang, Miao",
+        "Du, Yunxiang",
+        "Xu, Ziyu",
+        "Tao, Shixian",
+        "Wan, Shizhang",
+        "Tian, Xiaolin",
+        "Deng, Haiteng",
+        "Pan, Man",
+        "Ai, Huasong",
+        "Liu, Lei"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Zheng J",
+        "Tong Z",
+        "Deng Z",
+        "He Z",
+        "Wu X",
+        "Wang M",
+        "Du Y",
+        "Xu Z",
+        "Tao S",
+        "Wan S",
+        "Tian X",
+        "Deng H",
+        "Pan M",
+        "Ai H",
+        "Liu L"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-8459-0262",
+        "ORCID: 0009-0003-9743-4330",
+        "ORCID: 0000-0002-2062-7105",
+        "ORCID: 0009-0008-4922-5207",
+        "ORCID: 0009-0002-9367-8306",
+        "ORCID: 0000-0001-9496-1280",
+        "ORCID: 0000-0001-7216-8193",
+        "ORCID: 0000-0002-3378-5874",
+        "ORCID: 0000-0001-6290-8602"
+      ],
+      "affiliations": [
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Shanghai Key Laboratory for Antibody-Drug Conjugates with Innovative Target, Research Center for Chemical Biology of Post-Translational Modifications, Shanghai Frontiers Science Center of Drug Target Identification and Delivery, Shanghai Jiao Tong University, Shanghai, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Institute of Translational Medicine, Shanghai Key Laboratory for Antibody-Drug Conjugates with Innovative Target, National Center for Translational Medicine (Shanghai), Shanghai Jiao Tong University, Shanghai, China. panman@sjtu.edu.cn.",
+        "The International Peace Maternity and Child Health Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China. panman@sjtu.edu.cn.",
+        "School of Pharmaceutical Sciences, Shanghai Key Laboratory for Antibody-Drug Conjugates with Innovative Target, Research Center for Chemical Biology of Post-Translational Modifications, Shanghai Frontiers Science Center of Drug Target Identification and Delivery, Shanghai Jiao Tong University, Shanghai, China. huasongai@sjtu.edu.cn.",
+        "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China. lliu@mail.tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Tianyi",
+        "short_name": "Zhang T",
+        "identifiers": [
+          "0009-0003-8459-0262"
+        ],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China.",
+          "School of Pharmaceutical Sciences, Shanghai Key Laboratory for Antibody-Drug Conjugates with Innovative Target, Research Center for Chemical Biology of Post-Translational Modifications, Shanghai Frontiers Science Center of Drug Target Identification and Delivery, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jiqing",
+        "short_name": "Zheng J",
+        "identifiers": [
+          "0009-0003-9743-4330"
+        ],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Zebing",
+        "short_name": "Tong Z",
+        "identifiers": [
+          "0000-0002-2062-7105"
+        ],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Zhiheng",
+        "short_name": "Deng Z",
+        "identifiers": [
+          "0009-0008-4922-5207"
+        ],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "He, Zaozhen",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiangwei",
+        "short_name": "Wu X",
+        "identifiers": [
+          "0009-0002-9367-8306"
+        ],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Miao",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yunxiang",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ziyu",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Shixian",
+        "short_name": "Tao S",
+        "identifiers": [],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Shizhang",
+        "short_name": "Wan S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Xiaolin",
+        "short_name": "Tian X",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Haiteng",
+        "short_name": "Deng H",
+        "identifiers": [
+          "0000-0001-9496-1280"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Man",
+        "short_name": "Pan M",
+        "identifiers": [
+          "0000-0001-7216-8193"
+        ],
+        "affiliations": [
+          "Institute of Translational Medicine, Shanghai Key Laboratory for Antibody-Drug Conjugates with Innovative Target, National Center for Translational Medicine (Shanghai), Shanghai Jiao Tong University, Shanghai, China. panman@sjtu.edu.cn.",
+          "The International Peace Maternity and Child Health Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China. panman@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ai, Huasong",
+        "short_name": "Ai H",
+        "identifiers": [
+          "0000-0002-3378-5874"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Shanghai Key Laboratory for Antibody-Drug Conjugates with Innovative Target, Research Center for Chemical Biology of Post-Translational Modifications, Shanghai Frontiers Science Center of Drug Target Identification and Delivery, Shanghai Jiao Tong University, Shanghai, China. huasongai@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Lei",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0001-6290-8602"
+        ],
+        "affiliations": [
+          "New Cornerstone Science Laboratory, Tsinghua-Peking Joint Center for Life Sciences, Ministry of Education Key Laboratory of Bioorganic Phosphorus Chemistry and Chemical Biology, Center for Synthetic and Systems Biology, Department of Chemistry, Tsinghua University, Beijing, China. lliu@mail.tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature chemical biology"
+    ],
+    "journal_abbrev": [
+      "Nat Chem Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 00:34",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [
+      "42499709"
+    ],
+    "refs": [
+      "39996778",
+      "39394267",
+      "39220697",
+      "38366227",
+      "38341401",
+      "37556531",
+      "36991118",
+      "36357125",
+      "36323865",
+      "36284179",
+      "36166692",
+      "35739357",
+      "35136173",
+      "35122023",
+      "34186021",
+      "34096718",
+      "33888563",
+      "33479123",
+      "32884836",
+      "32346954",
+      "32269332",
+      "32066963",
+      "30765112",
+      "30664650",
+      "30639226",
+      "30412051",
+      "30349006",
+      "30192049",
+      "30110556",
+      "30013160",
+      "29967540",
+      "28928488",
+      "28246399",
+      "27892467",
+      "26739236",
+      "26416890",
+      "26095772",
+      "24196443",
+      "23749302",
+      "23579614",
+      "23550303",
+      "22897849",
+      "22524316",
+      "21906983",
+      "21051595",
+      "20436459",
+      "20383002",
+      "20124702",
+      "19773779",
+      "18449190",
+      "17980597",
+      "16064137",
+      "12152067",
+      "7615550",
+      "2538923"
+    ],
+    "similar": [
+      "41513855",
+      "36991118",
+      "37556531",
+      "20436459",
+      "26416890",
+      "38918638",
+      "30639226",
+      "33105797",
+      "29284740",
+      "36865140",
+      "32747411",
+      "26739236",
+      "30349006",
+      "41240886",
+      "33731362",
+      "23850490",
+      "30258054",
+      "30686098",
+      "31403616",
+      "38849395",
+      "34186160",
+      "27292798",
+      "39752521",
+      "41071870",
+      "32378586",
+      "30013160",
+      "42000631",
+      "22645167",
+      "32150874",
+      "15386022",
+      "34170818",
+      "39109527",
+      "30664650",
+      "20805357",
+      "21480003",
+      "32201366",
+      "34186021",
+      "35317997",
+      "41484776",
+      "21772249",
+      "35176625",
+      "32683582",
+      "28498721",
+      "26095772",
+      "24748658",
+      "30850059",
+      "37794081",
+      "41851118",
+      "29288197",
+      "36350539",
+      "41443041",
+      "34529927",
+      "38891087",
+      "24151880",
+      "35764170",
+      "26437366",
+      "25451922",
+      "39919325",
+      "38806474",
+      "40513740",
+      "33589814",
+      "27732584",
+      "19440361",
+      "33230107",
+      "40058876",
+      "33912157",
+      "17259170",
+      "24703950",
+      "30446597",
+      "27312108",
+      "26419610",
+      "39149911",
+      "34591877",
+      "39151323",
+      "34321665",
+      "26647312",
+      "29345617",
+      "22565157",
+      "38528151",
+      "23617878",
+      "34549978",
+      "40729547",
+      "35122023",
+      "30681413",
+      "38818749",
+      "36357125",
+      "31732457",
+      "33462414",
+      "42262137",
+      "38529289",
+      "27452404",
+      "41024711",
+      "25702870",
+      "29274341",
+      "39537923",
+      "32275137",
+      "36738766",
+      "33658435",
+      "25894431",
+      "36180891"
+    ],
+    "review": [
+      "41513855",
+      "33105797",
+      "21480003",
+      "32201366",
+      "28498721",
+      "35764170",
+      "40513740",
+      "33230107",
+      "40058876",
+      "33462414",
+      "36738766"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41589-025-02126-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

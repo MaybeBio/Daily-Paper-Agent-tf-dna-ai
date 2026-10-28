@@ -1,0 +1,1 @@
+We have designed and synthesized a new PKC ligand with a novel skeleton based on alotaketals through in silico screening, docking analysis, and molecular dynamics simulation. We found that the new ligand has a higher affinity for PKCα-C1A than for PKCδ-C1B. This compound is expected to serve as the basis for developing PKC ligands with isozyme selectivity.

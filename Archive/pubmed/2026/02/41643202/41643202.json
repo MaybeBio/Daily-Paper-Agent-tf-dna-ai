@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41643202",
+    "doi": "10.1093/bib/bbaf664",
+    "title": "Deciphering hierarchical regulatory network of cell fate via an epigenetics-informed heterogeneous graph transformer on single-cell multi-omics data."
+  },
+  "content": {
+    "abstract": "The precise control of cell fate is driven by a hierarchical regulatory network (HRNet) where transcription factors (TFs) and cis-regulatory elements (CREs) orchestrate the expression of target genes (TGs) through complex causal actions. While single-cell multi-omics technologies provide multi-dimensional data to resolve regulatory networks, existing methods often fail to capture their hierarchical and causal properties. We propose SMOGT (Single-cell Multi-Omics Graph Transformer), a graph representation learning method to decipher HRNet. SMOGT embeds epigenetic mechanism into Heterogeneous Graph Transformer (HGT) by structuring information flow along a hierarchical-guided meta-path (TF-TF --> TF-CRE --> CRE-CRE --> CRE-TG), and employs a semi-supervised strategy to ensure network accuracy. Validated against ChIP-seq and HiC-seq benchmarked datasets, SMOGT showed significantly higher accuracy in predicting transcriptional regulation (TF-CRE) and long-range chromatin conformation (CRE-CRE). The HRNet scaffolds downstream modules that mechanistically link network architecture to cell fate. The multi-layer random walk (MRWR) module identifies driver regulators and their TGs. The BioStreamNet module predicts shifts in cell fate trajectories following in silico perturbations within gene-specific HRNet formed by extracting regulatory weights during TG expression prediction. In hematopoietic stem cell differentiation, SMOGT elucidated the hierarchical causal cascade from driver TFs that governs lineage commitment. In melanoma epithelial-to-mesenchymal transition (EMT), it revealed a critical therapeutic window for reversing the process, and in Acute Myeloid Leukemia (AML), it uncovered hub-CREs with significant prognostic value. By accurately modeling hierarchical causality, SMOGT provides a robust tool to dissect and predict cell fate dynamics in both development and disease.",
+    "keywords": [
+      "in silico perturbations",
+      "driver regulators",
+      "heterogeneous graph transformer",
+      "hierarchical regulatory network",
+      "single-cell multi-omics"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Single-Cell Analysis/methods",
+      "Multiomics",
+      "Humans",
+      "*Epigenesis, Genetic",
+      "Transcription Factors/metabolism/genetics",
+      "Cell Differentiation/genetics",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Yuhong",
+        "Liu, Chao",
+        "Yang, Zhiling",
+        "Liu, Bo",
+        "Zhai, Xiao",
+        "Zheng, Jiajin",
+        "Xiao, Jing",
+        "Song, Tao"
+      ],
+      "short_names": [
+        "Huang Y",
+        "Liu C",
+        "Yang Z",
+        "Liu B",
+        "Zhai X",
+        "Zheng J",
+        "Xiao J",
+        "Song T"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-0019-1291"
+      ],
+      "affiliations": [
+        "Department of Oral Pathology, School of Stomatology, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China.",
+        "Department of Oral Pathology, School of Stomatology, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China.",
+        "Department of Biomedical Engineering, College of Basic Medical Sciences, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China.",
+        "Institute for Genome Engineered Animal Models of Human Diseases, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China.",
+        "Department of System Technology, Library, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China.",
+        "Department of Biomedical Engineering, College of Basic Medical Sciences, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China.",
+        "Department of Oral Pathology, School of Stomatology, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China.",
+        "Department of Biomedical Engineering, College of Basic Medical Sciences, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Yuhong",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Pathology, School of Stomatology, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chao",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Pathology, School of Stomatology, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhiling",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, College of Basic Medical Sciences, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bo",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genome Engineered Animal Models of Human Diseases, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Xiao",
+        "short_name": "Zhai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of System Technology, Library, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jiajin",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, College of Basic Medical Sciences, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Jing",
+        "short_name": "Xiao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Pathology, School of Stomatology, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+        ]
+      },
+      {
+        "full_name": "Song, Tao",
+        "short_name": "Song T",
+        "identifiers": [
+          "0009-0006-0019-1291"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, College of Basic Medical Sciences, Dalian Medical University, No. 9, Western Section of Lushun South Road, Dalian, Liaoning 116044, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/05 19:05",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [
+      "42536274",
+      "42157306",
+      "42020672",
+      "41947042",
+      "41857437",
+      "41526721",
+      "40751775"
+    ],
+    "refs": [
+      "41083898",
+      "40037709",
+      "39900922",
+      "39817516",
+      "39672099",
+      "39584702",
+      "39207727",
+      "39169113",
+      "39143982",
+      "39082647",
+      "38940174",
+      "38940155",
+      "38844628",
+      "38609714",
+      "38509385",
+      "38460192",
+      "38123534",
+      "37974651",
+      "37857632",
+      "37595278",
+      "37443338",
+      "37386189",
+      "37365273",
+      "37244909",
+      "37231264",
+      "37231261",
+      "37015414",
+      "36973557",
+      "36880207",
+      "36810839",
+      "36755098",
+      "36394263",
+      "36370105",
+      "36204155",
+      "36192604",
+      "36055233",
+      "35536062",
+      "35043143",
+      "34230647",
+      "33589839",
+      "32393329",
+      "32231336",
+      "30899105",
+      "29625054",
+      "26200345"
+    ],
+    "similar": [
+      "41643202",
+      "40633682",
+      "41183107",
+      "39376034",
+      "39904740",
+      "38940155",
+      "41554051",
+      "41067887",
+      "41498638",
+      "38123534",
+      "38653489",
+      "39934680",
+      "40251476",
+      "42074532",
+      "38342857",
+      "41093852",
+      "27580035",
+      "41580083",
+      "34374760",
+      "40707940",
+      "42059479",
+      "40210438",
+      "39833103",
+      "39800872",
+      "40725473",
+      "41300707",
+      "41057364",
+      "41801512",
+      "25887857",
+      "40116659",
+      "41666407",
+      "34292930",
+      "40369872",
+      "41805524",
+      "25442502",
+      "41518505",
+      "40887856",
+      "41206950",
+      "41588477",
+      "39207727",
+      "32054475",
+      "41288963",
+      "41120274",
+      "38460192",
+      "40716043",
+      "39570626",
+      "41465557",
+      "37244909",
+      "41555486",
+      "23497388",
+      "35961023",
+      "40340740",
+      "40116657",
+      "41744270",
+      "37365273",
+      "42119563",
+      "39426693",
+      "37956172",
+      "33218352",
+      "38254021",
+      "40472028",
+      "41544912",
+      "40707954",
+      "40662821",
+      "39535258",
+      "40781032",
+      "32174324",
+      "40510370",
+      "40306096",
+      "41801789",
+      "34244796",
+      "41665764",
+      "42100854",
+      "38754366",
+      "35849618",
+      "41972011",
+      "31428455",
+      "39082647",
+      "41883144",
+      "37985457",
+      "41588648",
+      "39742806",
+      "32135093",
+      "41469543",
+      "25416748",
+      "38956662",
+      "38580401",
+      "40037709",
+      "41385419",
+      "40598278",
+      "39789329",
+      "37889053",
+      "40240358",
+      "34954425",
+      "40029523",
+      "38670157",
+      "24875471",
+      "42050935",
+      "41554048",
+      "41643671"
+    ],
+    "review": [
+      "41643202",
+      "42074532",
+      "39207727"
+    ],
+    "pmc": [
+      "12875533"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41643202/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf664",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

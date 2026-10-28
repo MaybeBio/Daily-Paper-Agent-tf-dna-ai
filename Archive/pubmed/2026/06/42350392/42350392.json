@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "42350392",
+    "doi": "10.1038/s41467-026-74464-4",
+    "title": "SMURF: soft-segmentation for single-cell reconstruction and topological analysis of spatial transcriptomic data."
+  },
+  "content": {
+    "abstract": "High-resolution spatial transcriptomics requires computational methods to accurately assign transcripts to individual cells. We present SMURF (Segmentation and Manifold UnRolling Framework), a cross-platform soft-segmentation algorithm that uses deep learning to map mRNAs from capture spots to nearby nuclei. SMURF also unrolls complex tissue architectures by projecting cells onto Cartesian coordinates, enabling analyses of cell-type organization and gene expression gradients. We show that SMURF assigns mRNAs to single cells more accurately than existing approaches and robustly unrolls complex tissues to reveal zonated transcriptional programs and cell-type organization across multiple tissues and spatial transcriptomic technologies. To showcase the biological insights enabled by SMURF, we segment over 400,000 cells from the mouse ileum using Visium HD data. We identify zonated gene expression programs along the maturing intestinal villus and the transcription factors that regulate them. Importantly, we show that gene expression gradients along the proximal-distal axis of the intestine accumulate in the upper villus and that upper villus gene expression is reprogrammed by environmental signals in the lumen, suggesting that environmental inputs are major determinants of regional transcriptional identity. Together, these results establish SMURF as a powerful framework for analyzing gene expression of cells within native tissue contexts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Spatial Transcriptomics",
+      "*Single-Cell Analysis/methods",
+      "Algorithms",
+      "RNA, Messenger/metabolism/genetics",
+      "Intestinal Mucosa/metabolism/cytology",
+      "Ileum/metabolism/cytology",
+      "*Transcriptome",
+      "Gene Expression Profiling/methods",
+      "Transcription Factors/metabolism",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Juanru",
+        "Sarafinovska, Simona",
+        "Hagenson, Ryan A",
+        "Valentine, Mark C",
+        "Chen, David Y",
+        "McCoy Iv, William H",
+        "Dougherty, Joseph D",
+        "Mitra, Robi D",
+        "Muegge, Brian D"
+      ],
+      "short_names": [
+        "Guo J",
+        "Sarafinovska S",
+        "Hagenson RA",
+        "Valentine MC",
+        "Chen DY",
+        "McCoy Iv WH",
+        "Dougherty JD",
+        "Mitra RD",
+        "Muegge BD"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1456-7556",
+        "ORCID: 0000-0001-9750-1925",
+        "ORCID: 0000-0003-3253-267X",
+        "ORCID: 0000-0002-3681-6576",
+        "ORCID: 0000-0001-5115-3793",
+        "ORCID: 0000-0002-6385-3997",
+        "ORCID: 0000-0002-2680-4264",
+        "ORCID: 0000-0002-0044-3704"
+      ],
+      "affiliations": [
+        "Department of Genetics, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Department of Genetics, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Department of Psychiatry, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Department of Medicine, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Department of Obstetrics and Gynecology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Division of Dermatology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Division of Dermatology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+        "Department of Genetics, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. jdougherty@wustl.edu.",
+        "Department of Psychiatry, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. jdougherty@wustl.edu.",
+        "Intellectual and Developmental Disabilities Research Center, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. jdougherty@wustl.edu.",
+        "Department of Genetics, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. rmitra@wustl.edu.",
+        "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. rmitra@wustl.edu.",
+        "McDonnell Genome Institute, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. rmitra@wustl.edu.",
+        "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. mueggeb@wustl.edu.",
+        "Department of Medicine, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. mueggeb@wustl.edu.",
+        "Department of Medicine, VA Medical Center, Saint Louis, MO, USA. mueggeb@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Juanru",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+          "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Sarafinovska, Simona",
+        "short_name": "Sarafinovska S",
+        "identifiers": [
+          "0000-0002-1456-7556"
+        ],
+        "affiliations": [
+          "Department of Genetics, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+          "Department of Psychiatry, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Hagenson, Ryan A",
+        "short_name": "Hagenson RA",
+        "identifiers": [
+          "0000-0001-9750-1925"
+        ],
+        "affiliations": [
+          "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+          "Department of Medicine, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Valentine, Mark C",
+        "short_name": "Valentine MC",
+        "identifiers": [
+          "0000-0003-3253-267X"
+        ],
+        "affiliations": [
+          "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA.",
+          "Department of Obstetrics and Gynecology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, David Y",
+        "short_name": "Chen DY",
+        "identifiers": [
+          "0000-0002-3681-6576"
+        ],
+        "affiliations": [
+          "Division of Dermatology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "McCoy Iv, William H",
+        "short_name": "McCoy Iv WH",
+        "identifiers": [
+          "0000-0001-5115-3793"
+        ],
+        "affiliations": [
+          "Division of Dermatology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Dougherty, Joseph D",
+        "short_name": "Dougherty JD",
+        "identifiers": [
+          "0000-0002-6385-3997"
+        ],
+        "affiliations": [
+          "Department of Genetics, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. jdougherty@wustl.edu.",
+          "Department of Psychiatry, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. jdougherty@wustl.edu.",
+          "Intellectual and Developmental Disabilities Research Center, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. jdougherty@wustl.edu."
+        ]
+      },
+      {
+        "full_name": "Mitra, Robi D",
+        "short_name": "Mitra RD",
+        "identifiers": [
+          "0000-0002-2680-4264"
+        ],
+        "affiliations": [
+          "Department of Genetics, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. rmitra@wustl.edu.",
+          "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. rmitra@wustl.edu.",
+          "McDonnell Genome Institute, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. rmitra@wustl.edu."
+        ]
+      },
+      {
+        "full_name": "Muegge, Brian D",
+        "short_name": "Muegge BD",
+        "identifiers": [
+          "0000-0002-0044-3704"
+        ],
+        "affiliations": [
+          "Edison Family Center for Genome Sciences and Systems Biology, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. mueggeb@wustl.edu.",
+          "Department of Medicine, Washington University in St. Louis School of Medicine, Saint Louis, MO, USA. mueggeb@wustl.edu.",
+          "Department of Medicine, VA Medical Center, Saint Louis, MO, USA. mueggeb@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jun 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 00:43",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41720094",
+      "41210663",
+      "41094143",
+      "40695798",
+      "39939718",
+      "39934102",
+      "39849132",
+      "39729995",
+      "39567686",
+      "39482362",
+      "39358509",
+      "39250728",
+      "39112711",
+      "38355308",
+      "38321203",
+      "38092916",
+      "38007580",
+      "37776854",
+      "37582959",
+      "37429992",
+      "37257775",
+      "37002403",
+      "36943334",
+      "36368323",
+      "36203011",
+      "35512705",
+      "35235783",
+      "35149721",
+      "35102346",
+      "34931081",
+      "34711970",
+      "34115981",
+      "34031373",
+      "34009042",
+      "33318659",
+      "33288904",
+      "33188776",
+      "32888429",
+      "32571970",
+      "32321913",
+      "31195149",
+      "31178118",
+      "31066453",
+      "30923225",
+      "30914743",
+      "30890159",
+      "30712869",
+      "30531897",
+      "30270040",
+      "30200227",
+      "30055169",
+      "30038251",
+      "29887373",
+      "29409532",
+      "29339095",
+      "29144463",
+      "28991892",
+      "26847546",
+      "26727548",
+      "26002886",
+      "24914678",
+      "24874735",
+      "24496776",
+      "21802415",
+      "21088235",
+      "19763105",
+      "18599538",
+      "17934449",
+      "17353267",
+      "16107730",
+      "11125150",
+      "7803848",
+      "7211718",
+      "4663624",
+      "4440635",
+      "4390734",
+      "1696730",
+      "525623"
+    ],
+    "similar": [
+      "42350392",
+      "40502153",
+      "41885893",
+      "42151140",
+      "41248160",
+      "42391613",
+      "42328843",
+      "41556263",
+      "38678389",
+      "42531062",
+      "36147664",
+      "42162410",
+      "42525855",
+      "41667720",
+      "41760664",
+      "42285802",
+      "42353763",
+      "40797190",
+      "41996577",
+      "41955028",
+      "41701097",
+      "39179527",
+      "39970279",
+      "42184831",
+      "42345533",
+      "31501331",
+      "39763408",
+      "41859105",
+      "42642366",
+      "38971915",
+      "40841173",
+      "41261170",
+      "18457593",
+      "41527855",
+      "42243114",
+      "40662777",
+      "42371963",
+      "42476546",
+      "42619824",
+      "34031373",
+      "37120608",
+      "42426365",
+      "40015701",
+      "41505103",
+      "40457183",
+      "39715685",
+      "39871658",
+      "42074484",
+      "41456279",
+      "41249066",
+      "34057817",
+      "41972009",
+      "39266749",
+      "41596454",
+      "41353326",
+      "41896336",
+      "41694378",
+      "1527171",
+      "42062686",
+      "15882471",
+      "41481687",
+      "41495261",
+      "39482362",
+      "39804726",
+      "37862237",
+      "36857617",
+      "40892650",
+      "41023784",
+      "40185158",
+      "42306947",
+      "39326411",
+      "42243667",
+      "36624346",
+      "41645434",
+      "40681510",
+      "39373051",
+      "42218405",
+      "40896262",
+      "42490201",
+      "38092916",
+      "38950180",
+      "41241818",
+      "40504785",
+      "38965443",
+      "41421360",
+      "39799000",
+      "42475469",
+      "39508444",
+      "39533496",
+      "40690004",
+      "42341466",
+      "35168703",
+      "34931081",
+      "39751646",
+      "39542071",
+      "39648853",
+      "38755322",
+      "42109251",
+      "41038164",
+      "38279647"
+    ],
+    "review": [
+      "42350392",
+      "42391613",
+      "36147664",
+      "42353763",
+      "41596454",
+      "41353326",
+      "41481687",
+      "39482362",
+      "40185158",
+      "35168703"
+    ],
+    "pmc": [
+      "13447825"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-74464-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42350392/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

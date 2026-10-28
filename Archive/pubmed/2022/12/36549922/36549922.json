@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "36549922",
+    "doi": "10.1093/bib/bbac541",
+    "title": "Learning single-cell chromatin accessibility profiles using meta-analytic marker genes."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Single-cell assay for transposase accessible chromatin using sequencing (scATAC-seq) is a valuable resource to learn cis-regulatory elements such as cell-type specific enhancers and transcription factor binding sites. However, cell-type identification of scATAC-seq data is known to be challenging due to the heterogeneity derived from different protocols and the high dropout rate. RESULTS: In this study, we perform a systematic comparison of seven scATAC-seq datasets of mouse brain to benchmark the efficacy of neuronal cell-type annotation from gene sets. We find that redundant marker genes give a dramatic improvement for a sparse scATAC-seq annotation across the data collected from different studies. Interestingly, simple aggregation of such marker genes achieves performance comparable or higher than that of machine-learning classifiers, suggesting its potential for downstream applications. Based on our results, we reannotated all scATAC-seq data for detailed cell types using robust marker genes. Their meta scATAC-seq profiles are publicly available at https://gillisweb.cshl.edu/Meta_scATAC. Furthermore, we trained a deep neural network to predict chromatin accessibility from only DNA sequence and identified key motifs enriched for each neuronal subtype. Those predicted profiles are visualized together in our database as a valuable resource to explore cell-type specific epigenetic regulation in a sequence-dependent and -independent manner.",
+    "keywords": [
+      "benchmark",
+      "cell typing",
+      "deep learning",
+      "marker genes",
+      "meta analysis",
+      "motif analysis",
+      "scATAC-seq"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Chromatin/genetics",
+      "*Epigenesis, Genetic",
+      "Regulatory Sequences, Nucleic Acid",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kawaguchi, Risa Karakida",
+        "Tang, Ziqi",
+        "Fischer, Stephan",
+        "Rajesh, Chandana",
+        "Tripathy, Rohit",
+        "Koo, Peter K",
+        "Gillis, Jesse"
+      ],
+      "short_names": [
+        "Kawaguchi RK",
+        "Tang Z",
+        "Fischer S",
+        "Rajesh C",
+        "Tripathy R",
+        "Koo PK",
+        "Gillis J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA.",
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA.",
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA.",
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA.",
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA.",
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA.",
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA.",
+        "Department of Physiology and Donnelly Centre for Cellular & Biomolecular Research Department, University of Toronto, Ontario M5S 3E1, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kawaguchi, Risa Karakida",
+        "short_name": "Kawaguchi RK",
+        "identifiers": [],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Ziqi",
+        "short_name": "Tang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA."
+        ]
+      },
+      {
+        "full_name": "Fischer, Stephan",
+        "short_name": "Fischer S",
+        "identifiers": [],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA."
+        ]
+      },
+      {
+        "full_name": "Rajesh, Chandana",
+        "short_name": "Rajesh C",
+        "identifiers": [],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA."
+        ]
+      },
+      {
+        "full_name": "Tripathy, Rohit",
+        "short_name": "Tripathy R",
+        "identifiers": [],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA."
+        ]
+      },
+      {
+        "full_name": "Koo, Peter K",
+        "short_name": "Koo PK",
+        "identifiers": [],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA."
+        ]
+      },
+      {
+        "full_name": "Gillis, Jesse",
+        "short_name": "Gillis J",
+        "identifiers": [],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, Cold Spring Harbor 11724, USA.",
+          "Department of Physiology and Donnelly Centre for Cellular & Biomolecular Research Department, University of Toronto, Ontario M5S 3E1, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Jan 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/23 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [
+      "38887194"
+    ],
+    "refs": [
+      "37324054",
+      "34949812",
+      "34765918",
+      "34616075",
+      "34616066",
+      "34322657",
+      "33789096",
+      "33637727",
+      "33352111",
+      "33086071",
+      "32978299",
+      "32905524",
+      "31821414",
+      "31739806",
+      "31695190",
+      "31611697",
+      "31435019",
+      "31400197",
+      "31375813",
+      "31235917",
+      "31110271",
+      "30686579",
+      "30382198",
+      "30361341",
+      "30078704",
+      "29945882",
+      "29608179",
+      "29434377",
+      "29409532",
+      "28166220",
+      "28118844",
+      "27197224",
+      "27084946",
+      "26727548",
+      "26523646",
+      "26301843",
+      "26213851",
+      "24097267",
+      "17324271",
+      "16369481",
+      "14681366"
+    ],
+    "similar": [
+      "36549922",
+      "36902216",
+      "38338756",
+      "37897340",
+      "39049508",
+      "33717140",
+      "33889181",
+      "35941239",
+      "35883430",
+      "36583014",
+      "38493346",
+      "35475224",
+      "37537502",
+      "36131234",
+      "35584295",
+      "38872103",
+      "38600256",
+      "36313930",
+      "37685859",
+      "38664790",
+      "34718405",
+      "37146053",
+      "37584660",
+      "30821321",
+      "39050785",
+      "36495874",
+      "35195064",
+      "36325073",
+      "31739806",
+      "33191916",
+      "33926839",
+      "32392348",
+      "37546906",
+      "32637041",
+      "33663563",
+      "31375813",
+      "38330939",
+      "38084919",
+      "38581422",
+      "34509499",
+      "37980428",
+      "33693880",
+      "36495457",
+      "34252968",
+      "37012226",
+      "36161934",
+      "36855961",
+      "26083756",
+      "35906531",
+      "38493338",
+      "37244909",
+      "33827925",
+      "37333088",
+      "38741085",
+      "39062661",
+      "37908367",
+      "29069282",
+      "39380946",
+      "39018178",
+      "37003566",
+      "38643512",
+      "29558892",
+      "34737275",
+      "31594952",
+      "33581335",
+      "34084162",
+      "34686316",
+      "33564857",
+      "38515040",
+      "36789086",
+      "36546093",
+      "34761274",
+      "32312293",
+      "38974799",
+      "35732129",
+      "36238687",
+      "37096870",
+      "37682480",
+      "33028202",
+      "36607615",
+      "38514783",
+      "39090688",
+      "36943152",
+      "36672856",
+      "39122670",
+      "37897733",
+      "33581341",
+      "32767996",
+      "31428792",
+      "32620137",
+      "36383176",
+      "34547403",
+      "32595951",
+      "35796437",
+      "38233398",
+      "38036964",
+      "36719906",
+      "38513339",
+      "38948758",
+      "36881507",
+      "37827693",
+      "37237005",
+      "35263570",
+      "38948875",
+      "39256582",
+      "38092917",
+      "36204155",
+      "39315707",
+      "39345504",
+      "39026761",
+      "37996959"
+    ],
+    "review": [
+      "36549922",
+      "38338756",
+      "36313930",
+      "32637041"
+    ],
+    "pmc": [
+      "9851328"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36549922.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36549922/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36549922",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac541",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

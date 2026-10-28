@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.28.587201",
+  "title": "Exploring protein-mediated compaction of DNA by coarse-grained simulations and unsupervised learning",
+  "authors": "Marjolein de Jager; Pauline J. Kolbeck; Willem Vanderlinden; Jan Lipfert; Laura Filion",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-30",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化模拟结合无监督学习研究蛋白质介导的DNA压缩，虽非典型TF-DNA体系，但蛋白质-DNA互作建模与机器学习分类方法可迁移至TF-DNA结合机制研究。",
+  "abstract": "Protein-DNA interactions and protein-mediated DNA compaction play key roles in a range of biological processes. The length scales typically involved in DNA bending, bridging, looping, and compaction (≥1 kbp) are challenging to address experimentally or by all-atom molecular dynamics simulations, making coarse-grained simulations a natural approach. Here we present a simple and generic coarse-grained model for the DNA-protein and protein-protein interactions, and investigate the role of the latter in the protein-induced compaction of DNA. Our approach models the DNA as a discrete worm-like chain. The proteins are treated in the grand-canonical ensemble and the protein-DNA binding strength is taken from experimental measurements. Protein-DNA interactions are modeled as an isotropic binding potential with an imposed binding valency, without specific assumptions about the binding geometry. To systematically and quantitatively classify DNA-protein complexes, we present an unsupervised machine learning pipeline that receives a large set of structural order parameters as input, reduces the dimensionality via principal component analysis, and groups the results using a Gaussian mixture model. We apply our method to recent data on the compaction of viral genome-length DNA by HIV integrase and we find that protein-protein interactions are critical to the formation of looped intermediate structures seen experimentally. Our methodology is broadly applicable to DNA-binding proteins and to protein-induced DNA compaction and provides a systematic and quantitative approach for analyzing their mesoscale complexes. SIGNIFICANCE DNA is central to the storage and transmission of genetic information and is frequently compacted and condensed by interactions with proteins. Their size and dynamic nature make the resulting complexes difficult to probe experimentally and by all-atom simulations. We present a simple coarse-grained model to explore ∼kbp DNA interacting with proteins of defined valency and concentration. Our analysis uses unsupervised learning to define conformational states of the DNA-protein complexes and pathways between them. We apply our simulations and analysis to the compaction of viral genome-length DNA by HIV integrase. We find that protein-protein interactions are critical to account for the experimentally observed intermediates and our simulated complexes are in good agreement with experimental observations.",
+  "abstract_zh": "蛋白质-DNA相互作用及蛋白质介导的DNA压缩在多种生物过程中发挥关键作用。通常涉及的DNA弯曲、桥接、环化及压缩（≥1 kbp）等长度尺度，难以通过实验或全原子分子动力学模拟来研究，这使得粗粒化模拟成为一种自然选择。在此，我们提出一个简单且通用的粗粒化模型，用于描述DNA-蛋白质及蛋白质-蛋白质相互作用，并探讨后者在蛋白质诱导的DNA压缩中的作用。我们的方法将DNA建模为离散的蠕虫链。蛋白质在巨正则系综中处理，蛋白质-DNA结合强度取自实验测量值。蛋白质-DNA相互作用被建模为具有强制结合价数的各向同性结合势，不涉及对结合几何形状的具体假设。为了系统且定量地分类DNA-蛋白质复合物，我们提出了一种无监督机器学习流程，该流程接收大量结构序参数作为输入，通过主成分分析降低维度，并使用高斯混合模型对结果进行分组。我们将此方法应用于近期关于HIV整合酶压缩病毒基因组长度DNA的数据，发现蛋白质-蛋白质相互作用对实验中观察到的环状中间结构的形成至关重要。我们的方法广泛适用于DNA结合蛋白及蛋白质诱导的DNA压缩，并为分析其介观复合物提供了一种系统且定量的途径。意义 DNA是遗传信息存储和传递的核心，常通过与蛋白质的相互作用而被压缩和凝聚。其尺寸和动态特性使得所得复合物难以通过实验和全原子模拟进行探测。我们提出了一个简单的粗粒化模型，用于探索约千碱基对DNA与具有确定价数和浓度的蛋白质的相互作用。我们的分析采用无监督学习来定义DNA-蛋白质复合物的构象状态及其间的转变路径。我们将模拟和分析应用于HIV整合酶对病毒基因组长度DNA的压缩。我们发现，蛋白质-蛋白质相互作用对于解释实验观察到的中间体至关重要，且我们的模拟复合物与实验观察结果高度一致。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.28.587201",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.28.587201",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.28.587201/index.html"
+}

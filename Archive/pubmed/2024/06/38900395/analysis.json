@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38900395",
+  "title": "The roles of IRF8 in nonspecific orbital inflammation: an integrated analysis by bioinformatics and machine learning.",
+  "authors": "Wu, Zixuan; Xu, Jinfeng; Hu, Yi; Peng, Xin; Zhang, Zheyuan; Yao, Xiaolei; Peng, Qinghua",
+  "journal": "Journal of ophthalmic inflammation and infection",
+  "published_date": "2024-06-20",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学和机器学习分析IRF8在非特异性眼眶炎症中的表达及免疫浸润关联，虽涉及转录因子但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题核心无关。",
+  "abstract": "BACKGROUND: Nonspecific Orbital Inflammation (NSOI) represents a persistent and idiopathic proliferative inflammatory disorder, characterized by polymorphous lymphoid infiltration within the orbit. The transcription factor Interferon Regulatory Factor 8 (IRF8), integral to the IRF protein family, was initially identified as a pivotal element for the commitment and differentiation of myeloid cell lineage. Serving as a central regulator of innate immune receptor signaling, IRF8 orchestrates a myriad of functions in hematopoietic cell development. However, the intricate mechanisms underlying IRF8 production remain to be elucidated, and its potential role as a biomarker for NSOI is yet to be resolved. METHODS: IRF8 was extracted from the intersection analysis of common DEGs of GSE58331 and GSE105149 from the GEO and immune- related gene lists in the ImmPort database using The Lasso regression and SVM-RFE analysis. We performed GSEA and GSVA with gene sets coexpressed with IRF8, and observed that gene sets positively related to IRF8 were enriched in immune-related pathways. To further explore the correlation between IRF8 and immune-related biological process, the CIBERSORT algorithm and ESTIMATE method were employed to evaluate TME characteristics of each sample and confirmed that high IRF8 expression might give rise to high immune cell infiltration. Finally, the GSE58331 was utilized to confirm the levels of expression of IRF8. RESULTS: Among the 314 differentially expressed genes (DEGs), some DEGs were found to be significantly different. With LASSO and SVM-RFE algorithms, we obtained 15 hub genes. For biological function analysis in IRF8, leukocyte mediated immunity, leukocyte cell-cell adhesion, negative regulation of immune system process were emphasized. B cells naive, Macrophages M0, Macrophages M1, T cells CD4 memory activated, T cells CD4 memory resting, T cells CD4 naive, and T cells gamma delta were shown to be positively associated with IRF8. While, Mast cells resting, Monocytes, NK cells activated, Plasma cells, T cells CD8, and T cells regulatory (Tregs) were shown to be negatively linked with IRF8. The diagnostic ability of the IRF8 in differentiating NSOI exhibited a good value. CONCLUSIONS: This study discovered IRF8 that are linked to NSOI. IRF8 shed light on potential new biomarkers for NSOI and tracking its progression.",
+  "abstract_zh": "背景：非特异性眼眶炎症（NSOI）代表一种持续性和特发性的增生性炎症性疾病，其特征为眼眶内多形性淋巴样浸润。转录因子干扰素调节因子8（IRF8）属于IRF蛋白家族，最初被鉴定为髓系细胞谱系定向和分化的关键元件。作为先天免疫受体信号传导的核心调节因子，IRF8在造血细胞发育中协调多种功能。然而，IRF8产生的复杂机制仍有待阐明，其作为NSOI生物标志物的潜在作用也尚未解决。方法：通过GEO中GSE58331和GSE105149的常见差异表达基因（DEGs）与ImmPort数据库中免疫相关基因列表的交集分析，使用Lasso回归和SVM-RFE分析提取IRF8。我们使用与IRF8共表达的基因集进行GSEA和GSVA，并观察到与IRF8正相关的基因集富集于免疫相关通路。为进一步探讨IRF8与免疫相关生物学过程的相关性，采用CIBERSORT算法和ESTIMATE方法评估每个样本的肿瘤微环境（TME）特征，并确认高IRF8表达可能导致高免疫细胞浸润。最后，利用GSE58331验证IRF8的表达水平。结果：在314个差异表达基因（DEGs）中，发现一些DEGs存在显著差异。通过LASSO和SVM-RFE算法，我们获得15个枢纽基因。在IRF8的生物学功能分析中，强调了白细胞介导免疫、白细胞细胞间粘附、免疫系统过程的负调控。初始B细胞、M0巨噬细胞、M1巨噬细胞、活化CD4记忆T细胞、静息CD4记忆T细胞、初始CD4 T细胞和γδ T细胞显示与IRF8正相关。而静息肥大细胞、单核细胞、活化NK细胞、浆细胞、CD8 T细胞和调节性T细胞（Tregs）显示与IRF8负相关。IRF8在区分NSOI方面的诊断能力显示出良好价值。结论：本研究发现了与NSOI相关的IRF8。IRF8为NSOI的潜在新生物标志物及其进展追踪提供了启示。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38900395/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38900395/",
+  "paper_page_path": "papers/pubmed/38900395/index.html"
+}

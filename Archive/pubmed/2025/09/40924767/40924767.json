@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "40924767",
+    "doi": "10.1371/journal.pone.0331230",
+    "title": "Intracellular lymphocyte protein biomarkers for early radiological triage in the human population."
+  },
+  "content": {
+    "abstract": "In the event of a large-scale radiological or nuclear emergency, a rapid, high-throughput screening tool will be essential for efficient triage of potentially exposed individuals, optimizing scarce medical resources and ensuring timely care. The objective of this work was to characterize the effects of age and sex on two intracellular lymphocyte protein biomarkers, BAX and p53, for early radiation exposure classification in the human population, using an imaging flow cytometry-based platform for rapid biomarker quantification in whole blood samples. Peripheral blood samples from male and female donors, across three adult age groups (young adult, middle-aged, senior) and a juvenile cohort, were X-irradiated (0-5 Gy), and biomarker expression was quantified at two- and three-days post-exposure. Mixed-effects modeling and ensemble machine learning approaches were employed to evaluate the influence of Age and Sex on biomarker expression and develop predictive models for radiation exposure classification. Although some Age and Sex effects on biomarker expression levels were observed when the data was stratified by targeted conditions of biomarker, day, age group, and sex, these variables were ultimately not retained as significant predictors of exposure classification. A single ensemble model successfully classified radiation exposure across all tested cohorts, with ROC AUC values ranging from 0.85 to 0.95 at the 1 Gy threshold and 0.81 to 0.87 at the 2 Gy threshold, high sensitivity values (91-96%) and low false-negative rates across all classifications. These findings support the use of BAX and p53 biomarkers in a blood test for efficient triage in large-scale emergencies, excluding individuals below exposure thresholds from unnecessary medical care with minimal risk of denying care to those truly exposed.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Male",
+      "*Triage/methods",
+      "*Biomarkers/blood/metabolism",
+      "Adult",
+      "Middle Aged",
+      "Young Adult",
+      "*Tumor Suppressor Protein p53/blood/metabolism",
+      "*Lymphocytes/metabolism/radiation effects",
+      "*bcl-2-Associated X Protein/blood/metabolism",
+      "Adolescent",
+      "Aged",
+      "*Radiation Exposure"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nemzow, Leah",
+        "Aljian, Alec",
+        "Boehringer, Thomas",
+        "Phillippi, Michelle A",
+        "Taveras, Maria",
+        "Wang, Eric",
+        "Shuryak, Igor",
+        "Polikoff, Lee A",
+        "Turner, Helen C"
+      ],
+      "short_names": [
+        "Nemzow L",
+        "Aljian A",
+        "Boehringer T",
+        "Phillippi MA",
+        "Taveras M",
+        "Wang E",
+        "Shuryak I",
+        "Polikoff LA",
+        "Turner HC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3561-0920",
+        "ORCID: 0000-0002-5963-1670"
+      ],
+      "affiliations": [
+        "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America.",
+        "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America.",
+        "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America.",
+        "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America.",
+        "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America.",
+        "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America.",
+        "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America.",
+        "Pediatric Critical Care Medicine, Warren Alpert School of Medicine, Brown University, Providence, Rhode Island, United States of America.",
+        "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nemzow, Leah",
+        "short_name": "Nemzow L",
+        "identifiers": [
+          "0000-0002-3561-0920"
+        ],
+        "affiliations": [
+          "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Aljian, Alec",
+        "short_name": "Aljian A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Boehringer, Thomas",
+        "short_name": "Boehringer T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Phillippi, Michelle A",
+        "short_name": "Phillippi MA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Taveras, Maria",
+        "short_name": "Taveras M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wang, Eric",
+        "short_name": "Wang E",
+        "identifiers": [
+          "0000-0002-5963-1670"
+        ],
+        "affiliations": [
+          "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Shuryak, Igor",
+        "short_name": "Shuryak I",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Polikoff, Lee A",
+        "short_name": "Polikoff LA",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Critical Care Medicine, Warren Alpert School of Medicine, Brown University, Providence, Rhode Island, United States of America."
+        ]
+      },
+      {
+        "full_name": "Turner, Helen C",
+        "short_name": "Turner HC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Columbia University Irving Medical Center, New York, New York, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/09 18:28",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42460032",
+      "41484408"
+    ],
+    "refs": [
+      "39396080",
+      "39034036",
+      "38684463",
+      "38683751",
+      "38318389",
+      "37561730",
+      "37414809",
+      "36928338",
+      "36798890",
+      "36656560",
+      "36653416",
+      "36473912",
+      "35487913",
+      "35113982",
+      "34879151",
+      "34439129",
+      "33181854",
+      "32796693",
+      "32728041",
+      "31991224",
+      "31373872",
+      "31130979",
+      "30850493",
+      "30730283",
+      "30681425",
+      "30478243",
+      "30433842",
+      "30202043",
+      "29923790",
+      "29373091",
+      "29193982",
+      "28968347",
+      "28825479",
+      "28755482",
+      "27845360",
+      "27590469",
+      "27245205",
+      "26987471",
+      "25645467",
+      "25014894",
+      "24673254",
+      "24376971",
+      "24275177",
+      "24162058",
+      "22923252",
+      "22675673",
+      "22408587",
+      "21402815",
+      "21402810",
+      "21402809",
+      "21402803",
+      "21388269",
+      "20975037",
+      "20620164",
+      "20478395",
+      "20065680",
+      "19242712",
+      "18823940",
+      "18603118",
+      "18508093",
+      "17434907",
+      "17247799",
+      "16781272",
+      "15522198",
+      "15273813",
+      "14712210",
+      "14118062",
+      "13666873",
+      "11012342",
+      "10876616",
+      "9630558",
+      "9467065",
+      "8552390"
+    ],
+    "similar": [
+      "40924767",
+      "39396080",
+      "38683751",
+      "31211643",
+      "39164366",
+      "37561730",
+      "39034036",
+      "32728041",
+      "30605362",
+      "26520382",
+      "26657465",
+      "26312422",
+      "15698498",
+      "27262315",
+      "21894749",
+      "33985694",
+      "21124906",
+      "40675164",
+      "15555453",
+      "41152983",
+      "30299338",
+      "33854097",
+      "35073400",
+      "37057982",
+      "36802459",
+      "25353241",
+      "28118115",
+      "28560572",
+      "38227479",
+      "27907140",
+      "35320288",
+      "30202043",
+      "30779694",
+      "33085409",
+      "24687842",
+      "29911522",
+      "26114330",
+      "41310253",
+      "33289997",
+      "26511878",
+      "33200940",
+      "38471523",
+      "25084613",
+      "28225098",
+      "27287768",
+      "19054536",
+      "30478774",
+      "24162058",
+      "38684463",
+      "35487913",
+      "36321557",
+      "36106702",
+      "31326035",
+      "32341393",
+      "39136547",
+      "33425838",
+      "31829904",
+      "40489113",
+      "39222930",
+      "38206673",
+      "20065689",
+      "29474504",
+      "26305808",
+      "41595477",
+      "40498359",
+      "15124936",
+      "39453904",
+      "29787436",
+      "24219325",
+      "28177169",
+      "39018880",
+      "37310880",
+      "27286230",
+      "40937453",
+      "30941978",
+      "31137037",
+      "37573770",
+      "28590841",
+      "35196651",
+      "17094914",
+      "32282289",
+      "36653416",
+      "30394814",
+      "17957444",
+      "31699339",
+      "25290447",
+      "26011498",
+      "27272602",
+      "21966430",
+      "30678830",
+      "25274532",
+      "32175928",
+      "24743767",
+      "18240345",
+      "28257309",
+      "39150388",
+      "19861731",
+      "39849342",
+      "26634771",
+      "27686523"
+    ],
+    "review": [
+      "40924767",
+      "41152983",
+      "36321557",
+      "36106702",
+      "25274532",
+      "32175928"
+    ],
+    "pmc": [
+      "12419610"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0331230",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40924767/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

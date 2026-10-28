@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37114659",
+  "title": "Quantitative model for genome-wide cyclic AMP receptor protein binding site identification and characteristic analysis.",
+  "authors": "Chen, Yigang; Lin, Yang-Chi-Dung; Luo, Yijun; Cai, Xiaoxuan; Qiu, Peng; Cui, Shidong; Wang, Zhe; Huang, Hsi-Yuan; Huang, Hsien-Da",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-04-28",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发CRPBSFinder模型，结合隐马尔可夫模型、PWM和基于结构的结合亲和力矩阵预测CRP转录因子结合位点，属于TF-DNA互作预测，但方法偏传统统计建模，AI/物理模拟深度有限。",
+  "abstract": "Cyclic AMP receptor proteins (CRPs) are important transcription regulators in many species. The prediction of CRP-binding sites was mainly based on position-weighted matrixes (PWMs). Traditional prediction methods only considered known binding motifs, and their ability to discover inflexible binding patterns was limited. Thus, a novel CRP-binding site prediction model called CRPBSFinder was developed in this research, which combined the hidden Markov model, knowledge-based PWMs and structure-based binding affinity matrixes. We trained this model using validated CRP-binding data from Escherichia coli and evaluated it with computational and experimental methods. The result shows that the model not only can provide higher prediction performance than a classic method but also quantitatively indicates the binding affinity of transcription factor binding sites by prediction scores. The prediction result included not only the most knowns regulated genes but also 1089 novel CRP-regulated genes. The major regulatory roles of CRPs were divided into four classes: carbohydrate metabolism, organic acid metabolism, nitrogen compound metabolism and cellular transport. Several novel functions were also discovered, including heterocycle metabolic and response to stimulus. Based on the functional similarity of homologous CRPs, we applied the model to 35 other species. The prediction tool and the prediction results are online and are available at: https://awi.cuhk.edu.cn/ approximately CRPBSFinder.",
+  "abstract_zh": "环腺苷酸受体蛋白（CRPs）是许多物种中重要的转录调控因子。CRP结合位点的预测主要基于位置权重矩阵（PWMs）。传统预测方法仅考虑已知的结合基序，其发现非灵活结合模式的能力有限。因此，本研究开发了一种新型CRP结合位点预测模型，称为CRPBSFinder，该模型结合了隐马尔可夫模型、基于知识的PWMs和基于结构的结合亲和力矩阵。我们使用来自大肠杆菌的已验证CRP结合数据训练该模型，并通过计算和实验方法对其进行评估。结果表明，该模型不仅能够提供比经典方法更高的预测性能，还能通过预测分数定量指示转录因子结合位点的结合亲和力。预测结果不仅包括大多数已知的调控基因，还包含1089个新型CRP调控基因。CRPs的主要调控角色被分为四类：碳水化合物代谢、有机酸代谢、氮化合物代谢和细胞运输。此外，还发现了若干新功能，包括杂环代谢和对刺激的响应。基于同源CRPs的功能相似性，我们将该模型应用于其他35个物种。预测工具和预测结果在线可用，网址为：https://awi.cuhk.edu.cn/ approximately CRPBSFinder。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37114659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37114659/",
+  "paper_page_path": "papers/pubmed/37114659/index.html"
+}

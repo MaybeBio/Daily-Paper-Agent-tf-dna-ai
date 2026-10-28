@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, methods, and data availability sections
+- **Assessment boundary** Scientific claims, methodological rigor, structural biology evidence, biochemical validation, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors report nine cryo-EM structures of human MutSβ in various nucleotide- and DNA-bound states, including a DNA-free open form, two heteroduplex DNA-bound open forms, a canonical mismatch-bound form, two sliding clamp forms on homoduplex DNA, and DNA-unbound ATP- or ATPγS-bound forms. They propose a model in which ADP-bound MutSβ adopts an open conformation for DNA scanning, binds heteroduplex DNA with low affinity via MSH3, transitions to a high-affinity state, and upon ATP binding forms a sliding clamp that can diffuse along DNA. The work is framed as providing a foundation for structure-guided drug discovery targeting MSH3 for Huntington's disease.
+- **Visible evidence base** Cryo-EM maps and models (EMDB and PDB accessions listed), SEC-MALS, ATPase activity assay, SPR binding data, FRET assays, MST data (referenced but not shown in text)
+- **Missing materials affecting confidence** Figures and Extended Data figures are referenced but not provided in the text; no quantitative validation metrics (FSC curves, model statistics, map-model correlation) are shown; no coordinates or maps were inspected; FRET and MST data are described but not presented numerically; no negative controls or replicate statistics are described for biochemical assays
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial body of cryo-EM work on human MutSβ, a protein of considerable biomedical interest given its genetic link to Huntington's disease onset and progression. The nine structures described represent a significant expansion over previously available crystal structures, particularly in capturing DNA-free and sliding clamp states that have been elusive for eukaryotic MutS homologs. The proposed mechanistic model, while plausible and consistent with prior work on bacterial MutS and human MutSα, is not fully established by the evidence presented. The biochemical validation is described but not shown in sufficient detail to assess rigor. The manuscript would benefit from clearer presentation of validation metrics, quantitative comparisons between states, and a more cautious interpretation of the conformational assignments given the resolution limitations acknowledged for some maps.
+- **Who would be interested in the results, and why** Structural biologists studying DNA repair machines, particularly the MutS family, will find the conformational landscape informative. Researchers in the Huntington's disease field, especially those focused on somatic instability mechanisms and therapeutic targeting of MMR components, will be interested in the structural basis for MSH3 function and the potential for drug discovery. The work may also appeal to those studying ATP-dependent molecular switches and protein-DNA recognition mechanisms more broadly.
+- **Major strengths** The study provides the most comprehensive set of MutSβ structures to date, including states not previously captured for any eukaryotic MutS protein. The observation of two distinct heteroduplex DNA-bound open forms and the sliding clamp conformations adds meaningful new information. The combination of cryo-EM with biochemical assays (SPR, FRET, ATPase) is appropriate for the questions asked. The proposed model connecting nucleotide state to DNA binding affinity is mechanistically coherent and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim nine high-resolution cryo-EM structures, but the resolution range and quality metrics for each map are not presented in the text. The lowest resolution map (plasmid-bound sliding clamp at 7.08 Å) is used to draw conclusions about domain positioning and DNA path, which is concerning.
+  - **Evidence pointer** Results section, first subsection; Methods, Cryo-EM data processing; Table 1 (referenced but not shown)
+  - **Concern** The manuscript does not provide per-structure resolution estimates, local resolution maps, or model validation statistics (MolProbity scores, Ramachandran outliers, map-model CC). Without these, the reader cannot assess whether the conformational differences described are meaningful or within noise. The 7.08 Å map for the plasmid-bound form is used to model DNA path and domain rearrangements, which is ambitious at that resolution.
+  - **Why it matters** The central claims of the paper rest on the distinctness of multiple conformational states. If the maps are not of sufficient quality to support the interpretations, the mechanistic model collapses. Nature-style papers require rigorous validation of structural models.
+  - **Resolution test** Provide a supplementary table with resolution (gold-standard FSC), particle numbers, map sharpening parameters, model refinement statistics, and local resolution figures for each of the nine maps. For the 7.08 Å map, either improve the reconstruction or temper the claims to what can be reliably inferred at that resolution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that FRET and MST assays validate the conformational changes and nucleotide-dependent release of MutSβ from DNA, but the data are not shown or described quantitatively.
+  - **Evidence pointer** Results, fourth subsection; Methods, FRET assay; Extended Data Fig. 7 (referenced but not shown)
+  - **Concern** The FRET experiments are described as showing increased FRET upon MutSβ binding to heteroduplex DNA and decreased FRET upon ATP addition, but no FRET efficiencies, error bars, replicate numbers, or statistical tests are reported. The MST data are mentioned only in passing. Without these data, the biochemical validation of the structural model is unverifiable.
+  - **Why it matters** The structural snapshots alone do not establish the dynamic transitions proposed. The biochemical data are essential to support the claim that ATP binding releases MutSβ from the mismatch and that the open forms represent low-affinity states. If these data are not robust, the mechanistic conclusions are unsupported.
+  - **Resolution test** Show the FRET data with quantitative values, replicates, and statistics. Provide MST binding curves and fitted dissociation constants. If space is limited, move to Extended Data but ensure the data are fully visible and interpretable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors propose that the two open heteroduplex DNA-bound forms represent low-affinity states preceding the canonical high-affinity mismatch-bound state, and that ATP binding drives sliding clamp formation.
+  - **Evidence pointer** Results, second and third subsections; Discussion, first and second paragraphs
+  - **Concern** The temporal ordering of the observed states is inferred from static structures. The authors do not provide kinetic data (e.g., stopped-flow, single-molecule) to support the claim that the open forms are on-pathway intermediates rather than off-pathway conformations or crystallization artifacts. The relationship between the open forms and the canonical state is correlative, not causal.
+  - **Why it matters** The proposed model has implications for how MutSβ initiates MMR and how ATP hydrolysis is coupled to DNA release. If the open forms are not true intermediates, the model may be incorrect. The authors should either provide kinetic evidence or soften the language to indicate that the ordering is hypothetical.
+  - **Resolution test** Add a paragraph in the Discussion explicitly stating that the temporal ordering is a hypothesis based on static structures and prior biochemical data, and suggest experiments (e.g., pre-steady-state kinetics, smFRET) that could test it. Alternatively, provide such data if available.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** The authors state that the structures provide a foundation for structure-guided drug discovery targeting MSH3.
+  - **Evidence pointer** Abstract; Discussion, final paragraph
+  - **Concern** No docking, virtual screening, or identification of druggable pockets is presented. The statement is aspirational rather than evidence-based. While this is common in structural papers, the claim should be framed as potential rather than as an accomplished foundation.
+  - **Why it matters** Overstating therapeutic relevance can mislead readers and is not consistent with the evidence presented. The paper is a structural biology study, and its value stands on that basis.
+  - **Resolution test** Revise the claim to state that the structures may inform future drug discovery efforts, without implying that such efforts have been initiated or validated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "multiple high-resolution states" but does not specify the number or the resolution range. This is vague and does not convey the scope of the work.
+  - **Required correction** Specify the number of states (nine) and the resolution range (e.g., 3.0-3.5 Å for most, with one lower-resolution map) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, ATPase activity assay
+  - **Evidence pointer** Methods, ATPase activity assay
+  - **Issue** The ATPase assay is described but no results are shown in the text or figures. The Extended Data Fig. 1d is referenced but not visible.
+  - **Required correction** Either show the ATPase data or state in the text that the assay confirmed activity and provide the key parameters (Km, kcat) in the results or supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, third paragraph
+  - **Evidence pointer** Discussion, third paragraph
+  - **Issue** The comparison to MutSα V63E is interesting but speculative. The authors suggest that the MSH2 V63E variant of MutSβ may alter DNA binding, but no experimental data on this variant are presented.
+  - **Required correction** Clearly label this as a hypothesis and suggest future experiments to test it, or remove the speculation if it is not central to the paper.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, first subsection
+  - **Evidence pointer** Results, first subsection
+  - **Issue** The description of the nine structures is dense and difficult to follow without figures. The text lists states without a clear organizing framework.
+  - **Required correction** Consider a summary table or schematic figure that organizes the nine states by nucleotide state, DNA presence, and conformational features. This would help readers navigate the results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, Cryo-EM data processing
+  - **Evidence pointer** Methods, Cryo-EM data processing
+  - **Issue** The methods state that data were collected on a 200 keV Glacios microscope. This is unusual for high-resolution cryo-EM, which typically uses 300 keV instruments. The authors should justify this choice or acknowledge its limitations.
+  - **Required correction** Add a sentence explaining why 200 keV was sufficient for the reported resolutions, or discuss any limitations this imposes on the interpretable features.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing validation metrics for cryo-EM maps and models) and R1-M2 (unverifiable biochemical data) are the primary technical failings. Without these, the structural assignments and the mechanistic model cannot be properly evaluated.
+- **Assessment against Nature-style criteria** Originality: The work is original in providing the first comprehensive set of MutSβ structures spanning multiple functional states, including DNA-free and sliding clamp forms not previously observed for a eukaryotic MutS protein. Scientific importance: The link to Huntington's disease genetics and the potential for therapeutic targeting of MSH3 give the work broad significance beyond structural biology. Interdisciplinary readership: The paper will appeal to structural biologists, DNA repair researchers, and neurogeneticists, but the dense structural detail may limit accessibility. Technical soundness: The cryo-EM work appears technically competent, but the lack of validation metrics and the reliance on a 200 keV microscope for high-resolution claims are concerns. Readability for nonspecialists: The abstract and introduction are accessible, but the results section assumes deep familiarity with MutS domain architecture and cryo-EM methodology. The paper would benefit from a schematic model figure early in the results to orient readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data are potentially valuable and the model is plausible, but the manuscript in its current form does not provide sufficient evidence to fully support the claims. The authors must provide validation metrics for all maps and models, show the biochemical data quantitatively, and temper the mechanistic interpretation where the evidence is indirect.

@@ -1,0 +1,63 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors report a crystal structure of a BRCA2-DMC1 complex, revealing a conserved interaction mode by which BRCA2 PhePP motifs bind RAD51 and DMC1 recombinases, enhance nucleoprotein filament stability, and protect filaments from BRC-mediated disruption, thereby supporting essential roles in mitotic and meiotic recombination.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, structural coordinates, experimental methods, biochemical and biophysical data, functional assays, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant structural and mechanistic finding regarding BRCA2-mediated stabilisation of RAD51 and DMC1 nucleoprotein filaments. The claim of a conserved interaction mode and the functional distinction between PhePP motifs and BRC repeats are of considerable interest to the DNA repair and recombination fields. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, the robustness of the structural interpretation, or the strength of the functional conclusions. The case is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in homologous recombination, DNA repair, meiosis, and genome stability would be interested. Structural biologists studying protein-nucleic acid complexes and those investigating BRCA2 function in cancer predisposition and fertility would also find the results relevant. The conserved interaction mode may inform therapeutic strategies targeting RAD51 or DMC1 activity.
+- **Major strengths** The study addresses a previously unresolved mechanism, namely how BRCA2 PhePP motifs stabilise recombinase filaments. The use of a crystal structure to define the interaction mode provides a strong foundation for mechanistic interpretation. The claim of conservation across RAD51 and DMC1, with selective binding to two distinct PhePP motifs, adds functional specificity and broadens the relevance to both mitotic and meiotic recombination.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The crystal structure of a BRCA2-DMC1 complex reveals how PhePP motifs bind to recombinases.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that a crystal structure was determined, but no details are provided regarding resolution, construct design, crystallisation conditions, or whether the structure represents a physiologically relevant complex. Without these details, the structural interpretation cannot be assessed.
+  - **Why it matters** The central claim of the study rests on the validity and quality of the structural data. If the structure is of insufficient resolution or the complex is not representative of the native interaction, the proposed interaction mode may be artefactual.
+  - **Resolution test** Provide crystallographic statistics, electron density quality, and validation of the complex interface. Demonstrate that the observed binding mode is consistent with mutagenesis or solution binding data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** BRCA2 PhePP motifs enhance the stability of nucleoprotein filaments and protect them from BRC-mediated disruption.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims functional stabilisation and protection from BRC-mediated disruption, but no experimental data are described. It is unclear whether these conclusions derive from biochemical assays, single-molecule experiments, or cellular studies, and what controls were used.
+  - **Why it matters** The functional claims are essential to the biological significance of the structural findings. Without quantitative data and appropriate controls, the stabilisation and protection effects cannot be evaluated.
+  - **Resolution test** Describe the assays used, include dose-response or time-course data, and show that the effects are specific to PhePP binding and not due to non-specific interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** The interaction mode is conserved for RAD51 and DMC1, which selectively bind to BRCA2’s two distinct PhePP motifs.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts conservation and selectivity, but no comparative data are shown. It is not clear whether both PhePP motifs were tested against both recombinases, or whether the selectivity is based on structural or biochemical evidence.
+  - **Why it matters** The claim of conservation and selectivity is central to the generalisability of the findings. If the selectivity is not rigorously demonstrated, the conclusion that this mode is conserved may be overstated.
+  - **Resolution test** Provide binding data for both PhePP motifs against RAD51 and DMC1, including affinity measurements and mutagenesis of the interface residues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "novel mode of interaction" is used without comparison to previously known recombinase interaction modes. It is unclear what makes this mode novel relative to BRC repeat binding or other known interfaces.
+  - **Required correction** Clarify the distinguishing features of this interaction mode relative to known recombinase-binding interfaces.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Functional relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the stabilisation is "for their essential roles in mitotic and meiotic recombination," but no functional data in cells or organisms are described.
+  - **Required correction** Either include functional validation or temper the claim to reflect that the roles are inferred from biochemical and structural data.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The structural quality, functional evidence, and conservation claims are all currently unsupported by the abstract alone.
+- **Assessment against Nature-style criteria** Originality is high, as the mechanism of PhePP-mediated stabilisation has been previously unknown. Scientific importance is substantial given the central role of BRCA2 in genome stability and cancer. Interdisciplinary readership is plausible, spanning structural biology, DNA repair, and meiosis. Technical soundness cannot be assessed from the abstract. Readability for nonspecialists is adequate, though some terms such as "PhePP motifs" and "nucleoprotein filaments" may require brief definition for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The findings are potentially significant, and the abstract is promising, but the structural and functional claims require full manuscript evaluation. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The crystal structure of a BRCA2-DMC1 complex is reported, but no structural details are provided to support the interpretation.
+- The claim that PhePP motifs enhance nucleoprotein filament stability and protect from BRC-mediated disruption is not supported by any described experimental data.
+- The claim of a conserved interaction mode and selective binding to two distinct PhePP motifs is not supported by comparative data.
+- The statement that this stabilisation is essential for mitotic and meiotic recombination is inferred and not directly demonstrated.

@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "41720839",
+    "doi": "10.1038/s41598-026-38490-y",
+    "title": "Targeted HDAC8 inhibition with non-hydroxamate [1,2,4]triazolo[4,3-a] quinoline compounds."
+  },
+  "content": {
+    "abstract": "Histone deacetylase 8 (HDAC8) is a key enzyme involved in regulating gene expression and tumor development, positioning it as an attractive target for neuroblastoma. In this work, we designed and synthesized a novel series of substituted [1,2,4]Triazolo[4,3-a]quinoline derivatives to investigate their potential as HDAC8 inhibitors. Structural insights into their inhibitory activity were gained through molecular docking studies, highlighting critical interactions within the HDAC8 active site. To assess the stability of these interactions, molecular dynamics simulations were performed, confirming that the compounds maintained strong and stable binding within the HDAC8 enzyme. The most promising inhibitors 9h and 9m demonstrated significant efficacy in IMR-32 neuroblastoma cells, but had much weaker effects on the HCT116 and MCF7 cancer cell lines, as well as on the normal control cell line, HEK293. Further biological evaluations, including colony formation and cell migration assays, revealed their potential to inhibit the growth and spread of neuroblastoma tumor cells. Additional studies on cell cycle progression, apoptosis induction, and SMC3 acetylation indicated increased acetylation levels without altering total SMC3 protein levels, suggesting effective HDAC8 target engagement. In summary, comprehensive molecular modelling and biological assessments have demonstrated the strong potential of these non-hydroxamate-based HDAC8 inhibitors for treating neuroblastoma.",
+    "keywords": [
+      "1,2,4-Triazolo[4,3-a] quinoline",
+      "Histone deacetylase",
+      "Inhibitors",
+      "alpha-Amino amides hydroxamate"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Histone Deacetylase Inhibitors/pharmacology/chemistry/chemical synthesis",
+      "*Quinolines/pharmacology/chemistry/chemical synthesis",
+      "*Histone Deacetylases/metabolism/chemistry",
+      "*Repressor Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "Apoptosis/drug effects",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Cell Proliferation/drug effects",
+      "Molecular Dynamics Simulation",
+      "*Triazoles/pharmacology/chemistry",
+      "HEK293 Cells",
+      "Cell Movement/drug effects",
+      "Neuroblastoma/drug therapy/pathology",
+      "MCF-7 Cells",
+      "HCT116 Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bandaru, N V M Rao",
+        "Fathima, Ashna",
+        "Sengar, Suryansh",
+        "Schweipert, Markus",
+        "Chaitanya, Kosana Sai",
+        "Mohammed, Muzaffar-Ur-Rehman",
+        "Gore, Suraj T",
+        "Jamma, Trinath",
+        "Sharma, Vivek",
+        "Abbineni, Chandrasekhar",
+        "Meyer-Almes, Franz-Josef",
+        "Sekhar, Kondapalli Venkata Gowri Chandra"
+      ],
+      "short_names": [
+        "Bandaru NVMR",
+        "Fathima A",
+        "Sengar S",
+        "Schweipert M",
+        "Chaitanya KS",
+        "Mohammed MU",
+        "Gore ST",
+        "Jamma T",
+        "Sharma V",
+        "Abbineni C",
+        "Meyer-Almes FJ",
+        "Sekhar KVGC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India.",
+        "Aurigene Oncology Limited, 39-40 KIADB Industrial Area Electronic City Phase II, Hosur Road, Bangalore, 560 100, India.",
+        "Department of Biological Sciences, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India.",
+        "Department of Biological Sciences, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India.",
+        "Department of Chemical Engineering and Biotechnology, University of Applied Sciences Darmstadt, Haardtring 100, 64295, Darmstadt, Germany.",
+        "European University of Technology, European Union, Darmstadt, Germany.",
+        "Department of Chemistry, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India.",
+        "Department of Pharmacy, Birla Institute of Technology and Science, Pilani Campus, Pilani, Rajasthan, 333031, India.",
+        "Aurigene Oncology Limited, 39-40 KIADB Industrial Area Electronic City Phase II, Hosur Road, Bangalore, 560 100, India.",
+        "Department of Biological Sciences, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India.",
+        "Department of Biological Sciences, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India.",
+        "Aurigene Oncology Limited, 39-40 KIADB Industrial Area Electronic City Phase II, Hosur Road, Bangalore, 560 100, India.",
+        "Department of Chemical Engineering and Biotechnology, University of Applied Sciences Darmstadt, Haardtring 100, 64295, Darmstadt, Germany. franz-josef.meyer-almes@h-da.de.",
+        "European University of Technology, European Union, Darmstadt, Germany. franz-josef.meyer-almes@h-da.de.",
+        "Department of Chemistry, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India. kvgc@hyderabad.bits-pilani.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bandaru, N V M Rao",
+        "short_name": "Bandaru NVMR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India.",
+          "Aurigene Oncology Limited, 39-40 KIADB Industrial Area Electronic City Phase II, Hosur Road, Bangalore, 560 100, India."
+        ]
+      },
+      {
+        "full_name": "Fathima, Ashna",
+        "short_name": "Fathima A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India."
+        ]
+      },
+      {
+        "full_name": "Sengar, Suryansh",
+        "short_name": "Sengar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India."
+        ]
+      },
+      {
+        "full_name": "Schweipert, Markus",
+        "short_name": "Schweipert M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Applied Sciences Darmstadt, Haardtring 100, 64295, Darmstadt, Germany.",
+          "European University of Technology, European Union, Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Chaitanya, Kosana Sai",
+        "short_name": "Chaitanya KS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India."
+        ]
+      },
+      {
+        "full_name": "Mohammed, Muzaffar-Ur-Rehman",
+        "short_name": "Mohammed MU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Birla Institute of Technology and Science, Pilani Campus, Pilani, Rajasthan, 333031, India."
+        ]
+      },
+      {
+        "full_name": "Gore, Suraj T",
+        "short_name": "Gore ST",
+        "identifiers": [],
+        "affiliations": [
+          "Aurigene Oncology Limited, 39-40 KIADB Industrial Area Electronic City Phase II, Hosur Road, Bangalore, 560 100, India."
+        ]
+      },
+      {
+        "full_name": "Jamma, Trinath",
+        "short_name": "Jamma T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Vivek",
+        "short_name": "Sharma V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India."
+        ]
+      },
+      {
+        "full_name": "Abbineni, Chandrasekhar",
+        "short_name": "Abbineni C",
+        "identifiers": [],
+        "affiliations": [
+          "Aurigene Oncology Limited, 39-40 KIADB Industrial Area Electronic City Phase II, Hosur Road, Bangalore, 560 100, India."
+        ]
+      },
+      {
+        "full_name": "Meyer-Almes, Franz-Josef",
+        "short_name": "Meyer-Almes FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Applied Sciences Darmstadt, Haardtring 100, 64295, Darmstadt, Germany. franz-josef.meyer-almes@h-da.de.",
+          "European University of Technology, European Union, Darmstadt, Germany. franz-josef.meyer-almes@h-da.de."
+        ]
+      },
+      {
+        "full_name": "Sekhar, Kondapalli Venkata Gowri Chandra",
+        "short_name": "Sekhar KVGC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Birla Institute of Technology and Science, Pilani, Hyderabad Campus, Jawahar Nagar, Hyderabad, Telangana, 500 078, India. kvgc@hyderabad.bits-pilani.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/21 00:40",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [
+      "42614841"
+    ],
+    "refs": [
+      "39406110",
+      "38113354",
+      "37776270",
+      "37455831",
+      "37276138",
+      "37079967",
+      "36449385",
+      "36200209",
+      "35223453",
+      "35042977",
+      "34775332",
+      "33971031",
+      "33015043",
+      "32978618",
+      "32734663",
+      "32608981",
+      "31952961",
+      "31639165",
+      "30837475",
+      "30743180",
+      "30405794",
+      "29190092",
+      "29141538",
+      "28371677",
+      "27774131",
+      "27572818",
+      "27556043",
+      "27283490",
+      "27072133",
+      "26933971",
+      "26387755",
+      "26013035",
+      "25695609",
+      "25321483",
+      "25131830",
+      "24077923",
+      "23116147",
+      "22902970",
+      "22885700",
+      "21748595",
+      "21723733",
+      "21151613",
+      "20832721",
+      "20832720",
+      "19070599",
+      "18827828",
+      "18824292",
+      "18568166",
+      "18422307",
+      "18397827",
+      "18256683",
+      "17962618",
+      "17786334",
+      "17694074",
+      "16940322",
+      "16397526",
+      "16211539",
+      "15477595",
+      "15242608",
+      "15027866",
+      "15027865",
+      "12429021",
+      "10922473",
+      "10748112"
+    ],
+    "similar": [
+      "41720839",
+      "29190092",
+      "24403121",
+      "31421254",
+      "41785528",
+      "29533873",
+      "39357770",
+      "35886887",
+      "41730815",
+      "32591593",
+      "27774878",
+      "30836926",
+      "41997004",
+      "42446689",
+      "39604351",
+      "27072133",
+      "39608552",
+      "31748509",
+      "42468084",
+      "33848944",
+      "23526814",
+      "27860422",
+      "30611847",
+      "42107269",
+      "25874326",
+      "23116147",
+      "32151834",
+      "31901516",
+      "42406494",
+      "40893045",
+      "25763653",
+      "22272142",
+      "38871969",
+      "28840369",
+      "41271065",
+      "33668008",
+      "41878673",
+      "39039678",
+      "29515255",
+      "27665180",
+      "29514055",
+      "41001797",
+      "40491377",
+      "38949959",
+      "28371677",
+      "29947893",
+      "40845548",
+      "41219568",
+      "41421683",
+      "38889633",
+      "26299825",
+      "39717958",
+      "32046013",
+      "31019142",
+      "22907916",
+      "31630054",
+      "30347148",
+      "19118036",
+      "25605725",
+      "28390197",
+      "40165669",
+      "28632421",
+      "27374062",
+      "39089850",
+      "30092367",
+      "38835122",
+      "10748112",
+      "41006293",
+      "26845132",
+      "31271961",
+      "40319810",
+      "31952961",
+      "25953722",
+      "29651967",
+      "41977209",
+      "24888409",
+      "32446120",
+      "39010083",
+      "31267876",
+      "29807520",
+      "32497960",
+      "34598088",
+      "40054131",
+      "22932316",
+      "27344487",
+      "39427514",
+      "41109068",
+      "15477595",
+      "32563146",
+      "30632447",
+      "23672185",
+      "37366008",
+      "41046623",
+      "30369061",
+      "25011684",
+      "38683491",
+      "29202397",
+      "40628818",
+      "39110628",
+      "33686739"
+    ],
+    "review": [
+      "41720839",
+      "39039678",
+      "29514055",
+      "41001797",
+      "39427514"
+    ],
+    "pmc": [
+      "12929686"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-38490-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41720839/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1006",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

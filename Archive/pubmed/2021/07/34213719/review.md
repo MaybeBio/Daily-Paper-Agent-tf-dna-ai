@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors investigate the cytotoxic effects of triptolide in drug-sensitive and drug-resistant cancer cell lines, use bioinformatics approaches (COMPARE, hierarchical clustering, transcription factor binding motif analysis, molecular docking, Ingenuity Pathway Analysis) to identify potential molecular mechanisms, and experimentally test effects on NF-κB and GATA1 activity.
+- **Visible evidence base** Cell viability assays (Fig. 1), COMPARE analysis results (Table 2), hierarchical clustering (Fig. 2, Table 3), transcription factor binding motif analysis (Figs. 3, 4), molecular docking results (Table 4), IPA results (Figs. 5, 6), NF-κB reporter assay (Fig. 7), EMSA results (Fig. 8)
+- **Missing materials affecting confidence** Raw microarray data, statistical analysis details for COMPARE analysis, docking methodology parameters, IPA input data and threshold criteria, full figure legends, supplementary data, and details on replicate numbers for experimental assays
+
+## Reviewer
+- **Overall assessment** The manuscript presents a descriptive bioinformatics-driven investigation of triptolide's potential mechanisms of action, with some experimental validation. The work is a reasonable exploratory study but is largely confirmatory of previously reported NF-κB inhibition by triptolide. The novel claim regarding GATA1 is explicitly contradicted by the authors' own experimental data, which weakens the central narrative. The bioinformatics analyses lack methodological depth and statistical rigor, and the connection between the computational predictions and experimental validation is incomplete.
+- **Who would be interested in the results, and why** Researchers in natural product pharmacology, cancer biology, and transcription factor-targeted therapy might find the bioinformatics approach of interest. The confirmation of NF-κB as a target of triptolide and the negative result for GATA1 could inform future drug development efforts, though the novelty is limited.
+- **Major strengths** The study combines multiple computational approaches with experimental validation, which is a commendable integrative strategy. The use of the NCI-60 cell line panel provides a well-established resource for pharmacogenomic analysis. The negative result for GATA1, while contradicting the initial hypothesis, is honestly reported and adds to the understanding of triptolide's specificity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and data interpretation
+  - **Claim pointer** The authors claim that "triptolide showed promising inhibitory effect toward NF-κB" based on docking and reporter assay results, and that this supports NF-κB as a key target.
+  - **Evidence pointer** Table 4, Fig. 7, Discussion section
+  - **Concern** The NF-κB reporter assay uses a single cell line (HEK293) with a stably transfected reporter construct. The concentrations tested (0 to 50 µM) are far above the IC50 values reported for the cancer cell lines (nanomolar range). The physiological relevance of the reporter assay at these concentrations is questionable. Additionally, the docking results are presented without clear validation of the docking protocol, and the binding energies reported are modest. The claim that triptolide "strongly bound" to the pharmacophores is not well supported by the data presented.
+  - **Why it matters** The central conclusion of the manuscript rests on the NF-κB inhibitory activity of triptolide. If the experimental conditions are not physiologically relevant or the docking results are not robust, the main claim is not established.
+  - **Resolution test** Provide dose-response data for the reporter assay at concentrations closer to the IC50 values observed in cancer cell lines. Include positive and negative controls for the docking study, and validate the docking protocol against known inhibitors. Show that the observed NF-κB inhibition is specific and not due to general cytotoxicity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and data interpretation
+  - **Claim pointer** The authors state that "the binding motifs of NF-κB (Rel) and of GATA1 proteins were significantly enriched in regions of 25 kb upstream promoter of all genes."
+  - **Evidence pointer** Figs. 3, 4, Results section
+  - **Concern** The statistical significance of the motif enrichment is not clearly explained. The authors report log p-values and Z-scores but do not describe the background model used for comparison, the multiple testing correction applied, or the number of promoter regions analyzed. The Z-scores reported are negative, which typically indicates depletion rather than enrichment, yet the authors interpret them as evidence of enrichment. This is a critical statistical error that undermines the interpretation.
+  - **Why it matters** The identification of NF-κB and GATA1 as potential regulators is a key step in the bioinformatics pipeline. If the statistical interpretation is incorrect, the subsequent experimental work is not justified by the computational findings.
+  - **Resolution test** Clarify the statistical methods used for motif enrichment analysis, including the background model, multiple testing correction, and the direction of the Z-score. Provide a clear explanation of why negative Z-scores are interpreted as enrichment. Re-run the analysis with appropriate statistical methods and report corrected p-values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical consistency of claims
+  - **Claim pointer** The authors state in the abstract that they "investigated the effect of triptolide towards NF-ĸB and GATA1" and conclude that triptolide "did not show significant effect towards GATA1."
+  - **Evidence pointer** Fig. 8, Results section, Discussion section
+  - **Concern** The EMSA results clearly show that triptolide does not inhibit GATA1 binding to its DNA motif. However, the authors present this as a novel finding while simultaneously acknowledging that a previous study reported no effect of triptolide on Gata1 expression. The negative result is not framed as a hypothesis test but rather as a standalone observation. The disconnect between the bioinformatics prediction (GATA1 as a potential target) and the experimental result (no effect) is not adequately discussed. The authors do not address why the computational prediction failed or what this means for the validity of their bioinformatics approach.
+  - **Why it matters** The manuscript's title and abstract emphasize transcription factor binding, yet the only direct test of this hypothesis (GATA1 EMSA) yields a negative result. This inconsistency needs to be addressed to provide a coherent narrative.
+  - **Resolution test** Provide a more nuanced discussion of the discrepancy between the computational prediction and experimental result. Consider whether the bioinformatics approach is suitable for identifying direct drug targets versus downstream effects. If the approach has limitations, acknowledge them explicitly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "molecular docking was performed" and report binding energies for triptolide with various NF-κB pathway proteins.
+  - **Evidence pointer** Table 4, Materials and methods section
+  - **Concern** The docking methodology is described only by reference to a previous publication. Key parameters such as the grid box dimensions, the search algorithm settings, the number of runs, and the criteria for selecting the best pose are not provided. The protein structures used are listed, but the preparation steps (e.g., addition of hydrogens, charge assignment, removal of water) are not described. The reported binding energies are not compared to any known inhibitors or validated against experimental binding data.
+  - **Why it matters** Docking results are highly dependent on the protocol used. Without sufficient methodological detail, the results cannot be reproduced or evaluated for reliability.
+  - **Resolution test** Provide a detailed description of the docking protocol, including all parameters and preparation steps. Validate the docking approach by docking known inhibitors and comparing the predicted binding energies with experimental values. Discuss the limitations of the docking approach in predicting actual drug-target interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Fig. 1
+  - **Evidence pointer** Fig. 1
+  - **Issue** The figure legend is incomplete. It does not describe the statistical analysis used, the number of replicates, or the error bars. The y-axis label is not visible in the description.
+  - **Required correction** Provide a complete figure legend including statistical details, replicate numbers, and clear axis labels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The table lists 40 genes but only 20 positive and 20 negative correlations are shown. The criteria for selecting these genes are not stated. The correlation coefficients are given but no p-values or confidence intervals are provided.
+  - **Required correction** State the selection criteria for the top 40 genes. Provide p-values or confidence intervals for the correlation coefficients.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "pharmacophores" is used in the context of docking results, but this is not standard terminology for describing protein binding sites. The authors likely mean "binding sites" or "active sites."
+  - **Required correction** Replace "pharmacophores" with "binding sites" or "active sites" for clarity and accuracy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript does not discuss the known mechanisms of triptolide's action beyond NF-κB, such as its well-documented inhibition of RNA polymerase II via XPB/ERCC3, which is mentioned only briefly in the introduction. A more comprehensive discussion of existing literature would strengthen the context.
+  - **Required correction** Expand the discussion to include a more thorough comparison with existing literature on triptolide's mechanisms, particularly the XPB/ERCC3 pathway.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The cell viability assay description does not specify the number of independent experiments, the statistical test used, or how IC50 values were calculated beyond "linear regression using Microsoft Excel."
+  - **Required correction** Provide details on the number of replicates, statistical tests, and the method for IC50 calculation.
+- **Technical failings that need to be addressed before the case is established** The statistical interpretation of the motif enrichment analysis (R1-M2) is a critical technical failing that undermines the bioinformatics foundation of the study. The lack of methodological detail for the docking study (R1-M4) also prevents evaluation of the reliability of the computational predictions. The disconnect between the computational prediction and experimental result for GATA1 (R1-M3) needs to be addressed to provide a coherent narrative.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Limited. The finding that triptolide inhibits NF-κB is well established in the literature. The application of COMPARE and clustering analyses to triptolide is somewhat novel but does not provide fundamentally new insights.
+  - **Scientific importance** Moderate. The study confirms known mechanisms and provides a negative result for GATA1, which is of limited interest to a broad audience.
+  - **Interdisciplinary readership** The work bridges pharmacology, bioinformatics, and cancer biology, but the limited novelty and methodological issues reduce its appeal across disciplines.
+  - **Technical soundness** The experimental assays are standard, but the bioinformatics analyses lack statistical rigor and methodological transparency. The interpretation of the motif enrichment results is questionable.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the bioinformatics sections assume familiarity with the tools and methods used. The logical flow from computational prediction to experimental validation is not always clear.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has significant methodological and interpretive issues that need to be addressed before the claims can be considered supported. The central narrative is weakened by the negative GATA1 result, which is not adequately reconciled with the computational predictions. The statistical interpretation of the motif enrichment analysis is a critical flaw that undermines the bioinformatics foundation of the study.
+
+## Risk / unsupported claims
+- The claim that NF-κB and GATA1 binding motifs were "significantly enriched" in promoter regions is not supported due to unclear and potentially incorrect statistical interpretation (negative Z-scores interpreted as enrichment).
+- The claim that triptolide "strongly bound" to the pharmacophores of IκB kinase β and NF-κB is not well supported without validation of the docking protocol or comparison to known inhibitors.
+- The claim that triptolide shows "promising inhibitory effect toward NF-κB" is based on a reporter assay using concentrations far above the IC50 values observed in cancer cell lines, making the physiological relevance uncertain.
+- The statement that the effect on GATA1 is described "for the first time" is misleading given that the authors cite a previous study reporting no effect of triptolide on Gata1 expression.
+- The claim that the bioinformatics approach can predict cellular drug response and be applied to personalized medicine is speculative and not supported by the data presented.

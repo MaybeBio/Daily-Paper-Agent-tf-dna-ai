@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "41044679",
+    "doi": "10.1186/s13148-025-01953-6",
+    "title": "Identification of methylation-related genes and the potential regulatory mechanism of SLAMF6 in CMS4 colorectal cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUNDS: Consensus molecular subtype 4 (CMS4) of colorectal cancer (CRC) is characterized by TGF-beta activation, and generally accompanied with metastasis and recurrence. Nevertheless, molecular biomarkers and regulatory mechanisms underlying CMS4 CRC remain elusive. This study investigated methylation sites in CMS4 CRC and explored the mechanistic role of SLAMF6 in CRC. METHODS: Random forest and LASSO regression identified significant methylation sites, and Kaplan Meier analysis pinpointed prognosis-related sites. The mRNA and protein expression levels of SLAMF6 were identified by qPCR, western blot, immunohistochemistry and public database. Bisulfite sequencing PCR and methylation specific PCR were employed to validate SLAMF6 promoter methylation. Western blot was applied to study the specific mechanism underlying TGF-beta regulating SLAMF6 methylation. Chromatin immunoprecipitation and electrophoretic mobility shift assay were conducted to evaluate the relationship between SMAD3 and DNMT1. The anti-tumor effect of methyltransferase inhibitor (5-Aza) and PD-L1 antibody was assessed in tumor bearing mice. RESULTS: We detected 726 differentially methylated sites between CMS4 and CMS1-3 subtypes (p < 0.05), with CMS4 showing prominently elevated methylation. Machine learning approaches refined to 43 methylation sites and 8 methylation sites were involved with significant prognostic value. The methylation level of SLAMF6 in CMS4 was much higher than other subtypes. Diminished SLAMF6 expression was firstly authenticated in CRC compared with normal colon tissues. It was more emphatic in CRC with metastasis and related with worse prognosis. Mechanically, p-SMAD2/3 and DNMT1 were acknowledged as the downstream effector of TGF-beta activation. Next, p-SMAD3 was demonstrated to bound to DNMT1 promoter inducing SLAMF6 hypermethylation. Most interestingly, SLAMF6 was positively correlated with multiple immune cells and the combination of 5-Aza and PD-L1 antibody impeded tumor growth and upregulated CD8(+) T cells and CD4(+) T cells. CONCLUSIONS: Together, our study illustrated a novel epigenetic mechanism mediated by TGF-beta/SMAD3/DNMT1, and suggested a potential target for CRC prognosis and immunotherapy.",
+    "keywords": [
+      "CMS4",
+      "CpG",
+      "DNA methylation",
+      "SLAMF6",
+      "TGF-beta"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/genetics",
+      "*DNA Methylation",
+      "Mice",
+      "Animals",
+      "Gene Expression Regulation, Neoplastic",
+      "Female",
+      "*Signaling Lymphocytic Activation Molecule Family/genetics/metabolism",
+      "Male",
+      "Prognosis",
+      "Cell Line, Tumor",
+      "Promoter Regions, Genetic",
+      "Biomarkers, Tumor/genetics",
+      "Transforming Growth Factor beta/metabolism/genetics",
+      "Middle Aged",
+      "DNA (Cytosine-5-)-Methyltransferase 1/genetics",
+      "Smad3 Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Huimin",
+        "Yang, Jiyuan",
+        "Zhao, Chunmei",
+        "Wang, Guihua",
+        "Lu, Renfei",
+        "Wang, Xudong"
+      ],
+      "short_names": [
+        "Liu H",
+        "Yang J",
+        "Zhao C",
+        "Wang G",
+        "Lu R",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Laboratory Medicine, Affiliated Hospital of Nantong University, Medical School of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Laboratory Medicine, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Laboratory Medicine, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Clinical Laboratory, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Laboratory Medicine, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China. wangxudong816@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Huimin",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiyuan",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Affiliated Hospital of Nantong University, Medical School of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chunmei",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guihua",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Renfei",
+        "short_name": "Lu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xudong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China. wangxudong816@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2025 Oct 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/04 06:31",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "41436831"
+    ],
+    "refs": [
+      "37189103",
+      "37072414",
+      "36309209",
+      "35895826",
+      "35054365",
+      "34534439",
+      "33538338",
+      "32918845",
+      "32737443",
+      "32517735",
+      "32448163",
+      "32122464",
+      "31388127",
+      "31351433",
+      "31315913",
+      "31296961",
+      "30995507",
+      "30718832",
+      "30540937",
+      "29339738",
+      "29305520",
+      "29234012",
+      "27405758",
+      "27256564",
+      "27157610",
+      "27141051",
+      "26994146",
+      "26457759",
+      "24455281",
+      "23208076",
+      "22714591",
+      "22641018",
+      "21980391",
+      "21659424",
+      "21565830",
+      "21030067",
+      "20028768",
+      "19855013",
+      "14988414"
+    ],
+    "similar": [
+      "41044679",
+      "32698743",
+      "32918845",
+      "31665047",
+      "41335176",
+      "33083477",
+      "40370966",
+      "28058013",
+      "40412277",
+      "38062276",
+      "24282031",
+      "30081950",
+      "30672027",
+      "20423473",
+      "39858498",
+      "41194282",
+      "40869118",
+      "21665895",
+      "30918427",
+      "29796120",
+      "30379684",
+      "41460614",
+      "30662328",
+      "25968618",
+      "28537885",
+      "15526363",
+      "33389821",
+      "30510376",
+      "30956730",
+      "34920321",
+      "25472652",
+      "19639167",
+      "23517143",
+      "26238425",
+      "27157610",
+      "39415304",
+      "31186036",
+      "35660018",
+      "26980709",
+      "33892791",
+      "35795731",
+      "24441198",
+      "22904674",
+      "32929656",
+      "30931802",
+      "22278155",
+      "31083646",
+      "25110434",
+      "39199281",
+      "38802858",
+      "33826760",
+      "21862595",
+      "38730335",
+      "30081852",
+      "39061061",
+      "31784734",
+      "32122464",
+      "21151932",
+      "24485021",
+      "31315913",
+      "39159808",
+      "40314887",
+      "24861485",
+      "39755821",
+      "28397458",
+      "40545483",
+      "30999858",
+      "23530769",
+      "41345190",
+      "39864590",
+      "30362530",
+      "38861185",
+      "32552762",
+      "32236621",
+      "30305607",
+      "21298349",
+      "34856162",
+      "27271927",
+      "27190263",
+      "31988582",
+      "28491151",
+      "27301432",
+      "31868905",
+      "32398064",
+      "24149323",
+      "39037563",
+      "38874740",
+      "20364105",
+      "28835422",
+      "32241049",
+      "30348132",
+      "32574963",
+      "28051879",
+      "32334542",
+      "29530990",
+      "26482433",
+      "29374692",
+      "34108011",
+      "33930608",
+      "31678770"
+    ],
+    "review": [
+      "41044679"
+    ],
+    "pmc": [
+      "12495820"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-025-01953-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41044679/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37537196",
+  "title": "Functional annotation of proteins for signaling network inference in non-model species.",
+  "authors": "Van den Broeck, Lisa; Bhosale, Dinesh Kiran; Song, Kuncheng; Fonseca de Lima, Cassio Flavio; Ashley, Michael; Zhu, Tingting; Zhu, Shanshuo; Van De Cotte, Brigitte; Neyt, Pia; Ortiz, Anna C; Sikes, Tiffany R; Aper, Jonas; Lootens, Peter; Locke, Anna M; De Smet, Ive; Sozzani, Rosangela",
+  "journal": "Nature communications",
+  "published_date": "2023-08-04",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用神经网络注释非模式物种激酶/磷酸酶功能并推断磷酸化信号级联，虽涉及蛋白序列与互作推断，但核心是蛋白-蛋白磷酸化信号网络，非蛋白质-DNA互作或TF-DNA结合体系，且无AI/物理模拟的DNA结合建模，与本课题关联微弱。",
+  "abstract": "Molecular biology aims to understand cellular responses and regulatory dynamics in complex biological systems. However, these studies remain challenging in non-model species due to poor functional annotation of regulatory proteins. To overcome this limitation, we develop a multi-layer neural network that determines protein functionality directly from the protein sequence. We annotate kinases and phosphatases in Glycine max. We use the functional annotations from our neural network, Bayesian inference principles, and high resolution phosphoproteomics to infer phosphorylation signaling cascades in soybean exposed to cold, and identify Glyma.10G173000 (TOI5) and Glyma.19G007300 (TOT3) as key temperature regulators. Importantly, the signaling cascade inference does not rely upon known kinase motifs or interaction data, enabling de novo identification of kinase-substrate interactions. Conclusively, our neural network shows generalization and scalability, as such we extend our predictions to Oryza sativa, Zea mays, Sorghum bicolor, and Triticum aestivum. Taken together, we develop a signaling inference approach for non-model species leveraging our predicted kinases and phosphatases.",
+  "abstract_zh": "分子生物学旨在理解复杂生物系统中的细胞反应和调控动态。然而，由于调控蛋白功能注释不足，这些研究在非模式物种中仍具挑战性。为克服此限制，我们开发了一种多层神经网络，可直接从蛋白质序列确定蛋白质功能。我们对大豆（Glycine max）中的激酶和磷酸酶进行了注释。我们利用神经网路的功能注释、贝叶斯推断原理和高分辨率磷酸化蛋白质组学，推断暴露于寒冷条件下大豆中的磷酸化信号级联，并鉴定出Glyma.10G173000（TOI5）和Glyma.19G007300（TOT3）为关键温度调控因子。重要的是，信号级联推断不依赖于已知激酶基序或相互作用数据，从而能够从头识别激酶-底物相互作用。总之，我们的神经网络显示出泛化性和可扩展性，因此我们将预测扩展至水稻（Oryza sativa）、玉米（Zea mays）、高粱（Sorghum bicolor）和小麦（Triticum aestivum）。综合来看，我们开发了一种利用预测激酶和磷酸酶的非模式物种信号推断方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37537196/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37537196/",
+  "paper_page_path": "papers/pubmed/37537196/index.html"
+}

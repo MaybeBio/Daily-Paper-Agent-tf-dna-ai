@@ -1,0 +1,588 @@
+{
+  "identity": {
+    "pmid": "39572533",
+    "doi": "10.1038/s41467-024-54138-9",
+    "title": "Integrated molecular and functional characterization of the intrinsic apoptotic machinery identifies therapeutic vulnerabilities in glioma."
+  },
+  "content": {
+    "abstract": "Genomic profiling often fails to predict therapeutic outcomes in cancer. This failure is, in part, due to a myriad of genetic alterations and the plasticity of cancer signaling networks. Functional profiling, which ascertains signaling dynamics, is an alternative method to anticipate drug responses. It is unclear whether integrating genomic and functional features of solid tumours can provide unique insight into therapeutic vulnerabilities. We perform combined molecular and functional characterization, via BH3 profiling of the intrinsic apoptotic machinery, in glioma patient samples and derivative models. We identify that standard-of-care therapy rapidly rewires apoptotic signaling in a genotype-specific manner, revealing targetable apoptotic vulnerabilities in gliomas containing specific molecular features (e.g., TP53 WT). However, integration of BH3 profiling reveals high mitochondrial priming is also required to induce glioma apoptosis. Accordingly, a machine-learning approach identifies a composite molecular and functional signature that best predicts responses of diverse intracranial glioma models to standard-of-care therapies combined with ABBV-155, a clinical drug targeting intrinsic apoptosis. This work demonstrates how complementary functional and molecular data can robustly predict therapy-induced cell death.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Glioma/genetics/metabolism/pathology/drug therapy",
+      "Humans",
+      "*Apoptosis/drug effects/genetics",
+      "Cell Line, Tumor",
+      "Brain Neoplasms/genetics/pathology/metabolism/drug therapy",
+      "Animals",
+      "Signal Transduction",
+      "Mice",
+      "Machine Learning",
+      "Mitochondria/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Tumor Suppressor Protein p53/metabolism/genetics",
+      "Antineoplastic Agents/pharmacology/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fernandez, Elizabeth G",
+        "Mai, Wilson X",
+        "Song, Kai",
+        "Bayley, Nicholas A",
+        "Kim, Jiyoon",
+        "Zhu, Henan",
+        "Pioso, Marissa",
+        "Young, Pauline",
+        "Andrasz, Cassidy L",
+        "Cadet, Dimitri",
+        "Liau, Linda M",
+        "Li, Gang",
+        "Yong, William H",
+        "Rodriguez, Fausto J",
+        "Dixon, Scott J",
+        "Souers, Andrew J",
+        "Li, Jingyi Jessica",
+        "Graeber, Thomas G",
+        "Cloughesy, Timothy F",
+        "Nathanson, David A"
+      ],
+      "short_names": [
+        "Fernandez EG",
+        "Mai WX",
+        "Song K",
+        "Bayley NA",
+        "Kim J",
+        "Zhu H",
+        "Pioso M",
+        "Young P",
+        "Andrasz CL",
+        "Cadet D",
+        "Liau LM",
+        "Li G",
+        "Yong WH",
+        "Rodriguez FJ",
+        "Dixon SJ",
+        "Souers AJ",
+        "Li JJ",
+        "Graeber TG",
+        "Cloughesy TF",
+        "Nathanson DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2977-5673",
+        "ORCID: 0000-0003-0489-0592",
+        "ORCID: 0000-0003-3518-608X",
+        "ORCID: 0000-0002-4053-0052",
+        "ORCID: 0000-0001-6230-8199",
+        "ORCID: 0009-0002-5965-0633",
+        "ORCID: 0000-0002-9288-5648",
+        "ORCID: 0000-0001-8574-9181",
+        "ORCID: 0000-0002-8656-7483",
+        "ORCID: 0000-0002-4919-9159"
+      ],
+      "affiliations": [
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Bioengineering, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Biostatistics, Jonathan and Karin Fielding School of Public Health, Los Angeles, California, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Human Genetics, University of California, Los Angeles, CA, 90095-7088, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Neurosurgery, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Biostatistics, Jonathan and Karin Fielding School of Public Health, Los Angeles, California, USA.",
+        "Department of Pathology, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Pathology, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Biology, Stanford University, Stanford, CA, 94305, USA.",
+        "AbbVie, Inc., 1 North Waukegan Road, North Chicago, IL, 60064, USA.",
+        "Department of Biostatistics, Jonathan and Karin Fielding School of Public Health, Los Angeles, California, USA.",
+        "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Human Genetics, University of California, Los Angeles, CA, 90095-7088, USA.",
+        "Department of Computational Medicine, University of California, Los Angeles, CA, 90095-1766, USA.",
+        "Department of Statistics and Data Science, University of California, Los Angeles, CA, 90095-1554, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "UCLA Metabolomics Center, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Crump Institute for Molecular Imaging, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+        "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Neurology, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA. dnathanson@mednet.ucla.edu.",
+        "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA. dnathanson@mednet.ucla.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fernandez, Elizabeth G",
+        "short_name": "Fernandez EG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Mai, Wilson X",
+        "short_name": "Mai WX",
+        "identifiers": [
+          "0000-0002-2977-5673"
+        ],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Kai",
+        "short_name": "Song K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bayley, Nicholas A",
+        "short_name": "Bayley NA",
+        "identifiers": [
+          "0000-0003-0489-0592"
+        ],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Jiyoon",
+        "short_name": "Kim J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Jonathan and Karin Fielding School of Public Health, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Henan",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Pioso, Marissa",
+        "short_name": "Pioso M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Young, Pauline",
+        "short_name": "Young P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Andrasz, Cassidy L",
+        "short_name": "Andrasz CL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Department of Human Genetics, University of California, Los Angeles, CA, 90095-7088, USA."
+        ]
+      },
+      {
+        "full_name": "Cadet, Dimitri",
+        "short_name": "Cadet D",
+        "identifiers": [
+          "0000-0003-3518-608X"
+        ],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Liau, Linda M",
+        "short_name": "Liau LM",
+        "identifiers": [
+          "0000-0002-4053-0052"
+        ],
+        "affiliations": [
+          "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA.",
+          "Department of Neurosurgery, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Gang",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Jonathan and Karin Fielding School of Public Health, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Yong, William H",
+        "short_name": "Yong WH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rodriguez, Fausto J",
+        "short_name": "Rodriguez FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Dixon, Scott J",
+        "short_name": "Dixon SJ",
+        "identifiers": [
+          "0000-0001-6230-8199"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Souers, Andrew J",
+        "short_name": "Souers AJ",
+        "identifiers": [
+          "0009-0002-5965-0633"
+        ],
+        "affiliations": [
+          "AbbVie, Inc., 1 North Waukegan Road, North Chicago, IL, 60064, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyi Jessica",
+        "short_name": "Li JJ",
+        "identifiers": [
+          "0000-0002-9288-5648"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Jonathan and Karin Fielding School of Public Health, Los Angeles, California, USA.",
+          "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA.",
+          "Department of Human Genetics, University of California, Los Angeles, CA, 90095-7088, USA.",
+          "Department of Computational Medicine, University of California, Los Angeles, CA, 90095-1766, USA.",
+          "Department of Statistics and Data Science, University of California, Los Angeles, CA, 90095-1554, USA."
+        ]
+      },
+      {
+        "full_name": "Graeber, Thomas G",
+        "short_name": "Graeber TG",
+        "identifiers": [
+          "0000-0001-8574-9181"
+        ],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA.",
+          "UCLA Metabolomics Center, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Crump Institute for Molecular Imaging, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+        ]
+      },
+      {
+        "full_name": "Cloughesy, Timothy F",
+        "short_name": "Cloughesy TF",
+        "identifiers": [
+          "0000-0002-8656-7483"
+        ],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA.",
+          "Department of Neurology, David Geffen School of Medicine, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nathanson, David A",
+        "short_name": "Nathanson DA",
+        "identifiers": [
+          "0000-0002-4919-9159"
+        ],
+        "affiliations": [
+          "Department of Molecular and Medical Pharmacology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA. dnathanson@mednet.ucla.edu.",
+          "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, Los Angeles, CA, USA. dnathanson@mednet.ucla.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Nov 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/22 00:22",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [
+      "42618642",
+      "42510900",
+      "42277023",
+      "42242868",
+      "42192798",
+      "41212301",
+      "41185045",
+      "40852729",
+      "40806492"
+    ],
+    "refs": [
+      "39365864",
+      "38605166",
+      "37236196",
+      "35941372",
+      "35580060",
+      "35473984",
+      "35332309",
+      "35191501",
+      "34738048",
+      "34635570",
+      "32669708",
+      "32546544",
+      "32444850",
+      "31887631",
+      "31466914",
+      "30670634",
+      "30371878",
+      "30333627",
+      "30158527",
+      "30089904",
+      "29371590",
+      "29232553",
+      "29149100",
+      "29101162",
+      "29077093",
+      "29057925",
+      "29035366",
+      "28890946",
+      "28886003",
+      "28818916",
+      "28753430",
+      "28675164",
+      "28398314",
+      "27557938",
+      "27100738",
+      "26846818",
+      "26844698",
+      "26342236",
+      "26060313",
+      "25723171",
+      "25691825",
+      "24664307",
+      "24120142",
+      "23937436",
+      "23715323",
+      "23539594",
+      "23328811",
+      "23104886",
+      "23063124",
+      "22579283",
+      "22300766",
+      "22285168",
+      "22230093",
+      "22033517",
+      "21816040",
+      "21743824",
+      "21365007",
+      "21282543",
+      "20808728",
+      "20371695",
+      "20150378",
+      "20129251",
+      "19451168",
+      "19373229",
+      "19147747",
+      "18094376",
+      "17692808",
+      "17322918",
+      "17205078",
+      "16782027",
+      "16697959",
+      "16697956",
+      "15758009",
+      "12563309",
+      "10807576"
+    ],
+    "similar": [
+      "39572533",
+      "18202704",
+      "25523932",
+      "27696406",
+      "38634120",
+      "27907160",
+      "41013216",
+      "33378970",
+      "26261488",
+      "29207176",
+      "39846250",
+      "40294493",
+      "39674237",
+      "22075712",
+      "33509942",
+      "19357962",
+      "21654317",
+      "16087277",
+      "27764809",
+      "40019588",
+      "25268354",
+      "28858735",
+      "39419964",
+      "20406898",
+      "19208740",
+      "16357521",
+      "30367915",
+      "24810048",
+      "14655759",
+      "41756290",
+      "10328543",
+      "20308316",
+      "27080741",
+      "26470725",
+      "26238593",
+      "19289490",
+      "12589031",
+      "11870542",
+      "16819506",
+      "27713119",
+      "26046466",
+      "19451193",
+      "23339114",
+      "30333031",
+      "17594054",
+      "11307620",
+      "28233371",
+      "27941351",
+      "40493991",
+      "33635875",
+      "39277057",
+      "38381309",
+      "23248157",
+      "32896567",
+      "11861384",
+      "20514462",
+      "40280112",
+      "29344634",
+      "39468312",
+      "26473373",
+      "26791479",
+      "38363352",
+      "27255231",
+      "9647183",
+      "31202081",
+      "26669487",
+      "28759011",
+      "28418907",
+      "31796105",
+      "10554029",
+      "29575026",
+      "32305494",
+      "39719558",
+      "23794295",
+      "15674481",
+      "21947203",
+      "12449730",
+      "41273844",
+      "39258423",
+      "34686327",
+      "34628166",
+      "22120608",
+      "16675563",
+      "31907037",
+      "33476649",
+      "25961548",
+      "32446712",
+      "40056292",
+      "28743999",
+      "17530176",
+      "27307601",
+      "41751862",
+      "31436247",
+      "40804095",
+      "38960964",
+      "21594580",
+      "30225541",
+      "27733185",
+      "40848317",
+      "25246577"
+    ],
+    "review": [
+      "39572533",
+      "26791479",
+      "31202081",
+      "32305494",
+      "15674481",
+      "41273844",
+      "25961548"
+    ],
+    "pmc": [
+      "11582606"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-54138-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39572533/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt2s86f706",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

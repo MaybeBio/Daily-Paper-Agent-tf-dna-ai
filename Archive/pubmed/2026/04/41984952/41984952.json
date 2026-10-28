@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "41984952",
+    "doi": "10.1126/sciadv.ady9169",
+    "title": "Cross-species prediction reveals chromatin regions with increased accessibility in humans."
+  },
+  "content": {
+    "abstract": "Human-specific genetic variations have shaped unique traits by influencing gene expression. Open chromatin regions (OCRs) are critical regulatory elements associated with gene expression, so investigating the changes in chromatin accessibility is essential for understanding human evolution. Because of the limited availability of epigenetic data from great apes, we developed a convolutional neural network-based approach for cross-species prediction to identify regions of increased chromatin accessibility in humans, which we term \"human predicted increased chromatin accessibility regions\" (hPICAs). Leveraging the limited available assay for transposase-accessible chromatin sequencing (ATAC-seq) data, we demonstrated that models trained exclusively on human chromatin accessibility data can achieve accurate predictions in other primates. We constructed prediction models based on chromatin accessibility data from 111 human cell types and developed a framework to systematically identify hPICAs. We showed that variants within hPICAs are more likely to affect chromatin accessibility by altering transcription factor binding sites. Last, hPICAs are enriched in regions associated with human-specific traits, offering a previously unexplored perspective for investigating human evolution.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/genetics/metabolism",
+      "Animals",
+      "Species Specificity",
+      "Binding Sites",
+      "Transcription Factors/metabolism",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Convolutional Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Linxiao",
+        "Li, Yurun",
+        "Han, Dongmei",
+        "Wang, Zhen"
+      ],
+      "short_names": [
+        "Wang L",
+        "Li Y",
+        "Han D",
+        "Wang Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0362-4561",
+        "ORCID: 0000-0001-8108-627X"
+      ],
+      "affiliations": [
+        "Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China.",
+        "Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China.",
+        "Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China.",
+        "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China.",
+        "Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China.",
+        "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Linxiao",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0009-0004-0362-4561"
+        ],
+        "affiliations": [
+          "Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yurun",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Han, Dongmei",
+        "short_name": "Han D",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China.",
+          "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0001-8108-627X"
+        ],
+        "affiliations": [
+          "Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China.",
+          "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2026 Apr 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/15 18:31",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39530240",
+      "38987555",
+      "38422184",
+      "38030727",
+      "37962376",
+      "37468639",
+      "37104615",
+      "37104612",
+      "37104599",
+      "36737647",
+      "36640767",
+      "36423581",
+      "36379955",
+      "36055201",
+      "36040971",
+      "35941239",
+      "35817977",
+      "35511713",
+      "35102263",
+      "35049498",
+      "35042722",
+      "35027568",
+      "34850907",
+      "34774128",
+      "34728600",
+      "34616062",
+      "34608324",
+      "34554789",
+      "34478631",
+      "34341555",
+      "34266978",
+      "34035253",
+      "33603233",
+      "33590861",
+      "33536621",
+      "33300042",
+      "33246961",
+      "33231642",
+      "32728249",
+      "32687525",
+      "32554627",
+      "32220312",
+      "31949148",
+      "31619793",
+      "31249361",
+      "30971806",
+      "30286077",
+      "30013180",
+      "29880660",
+      "29856955",
+      "29588361",
+      "29084517",
+      "28708995",
+      "28580430",
+      "27584858",
+      "27401230",
+      "27259153",
+      "27221120",
+      "27197224",
+      "26301843",
+      "26213851",
+      "26104583",
+      "26034269",
+      "25745175",
+      "25722852",
+      "25681384",
+      "25635462",
+      "25516281",
+      "25428352",
+      "25409826",
+      "24590227",
+      "24097267",
+      "23803849",
+      "22955828",
+      "22936215",
+      "22908213",
+      "22661579",
+      "22388286",
+      "22012392",
+      "21572512",
+      "21390129",
+      "21330290",
+      "21030649",
+      "20436461",
+      "20110278",
+      "19858363",
+      "19304878",
+      "18772437",
+      "18550803",
+      "18516046",
+      "17540862",
+      "17324271",
+      "17040131",
+      "16915236",
+      "16024819",
+      "15164055",
+      "14671302",
+      "14660683",
+      "11778049",
+      "10973072",
+      "9796811"
+    ],
+    "similar": [
+      "41984952",
+      "35858748",
+      "42123704",
+      "39326643",
+      "33923056",
+      "34488759",
+      "31053165",
+      "35293310",
+      "36719906",
+      "37211599",
+      "39501301",
+      "40029523",
+      "38969365",
+      "37107573",
+      "30598689",
+      "39901471",
+      "33191916",
+      "38643066",
+      "41721429",
+      "35695574",
+      "41544130",
+      "32312702",
+      "34870838",
+      "41716379",
+      "29558892",
+      "40141276",
+      "36149297",
+      "36232500",
+      "42475469",
+      "41518497",
+      "35037783",
+      "35614386",
+      "37100469",
+      "28335009",
+      "32543102",
+      "42114111",
+      "41923161",
+      "30016465",
+      "33028202",
+      "40167783",
+      "36738683",
+      "32293531",
+      "42235720",
+      "35195064",
+      "29945882",
+      "33044128",
+      "34699533",
+      "36317479",
+      "32610082",
+      "39848509",
+      "36078081",
+      "29720659",
+      "41516329",
+      "34686316",
+      "41512915",
+      "31110271",
+      "32576878",
+      "26683334",
+      "34016988",
+      "33662624",
+      "35359328",
+      "39127768",
+      "37569400",
+      "32316525",
+      "38330939",
+      "29229750",
+      "29982337",
+      "30477572",
+      "31629814",
+      "34382199",
+      "40127931",
+      "41235466",
+      "35576187",
+      "29259032",
+      "36173566",
+      "32376693",
+      "34547403",
+      "35362202",
+      "31136738",
+      "36902216",
+      "39987573",
+      "33775205",
+      "40432571",
+      "32143622",
+      "41677071",
+      "34548076",
+      "33438010",
+      "41650936",
+      "25957350",
+      "38358392",
+      "30375457",
+      "29513366",
+      "31123324",
+      "30795793",
+      "35895229",
+      "38194039",
+      "26977395",
+      "41831316",
+      "27899623",
+      "41318386"
+    ],
+    "review": [
+      "41984952",
+      "39901471",
+      "32312702"
+    ],
+    "pmc": [
+      "13082337"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.ady9169?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41984952/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

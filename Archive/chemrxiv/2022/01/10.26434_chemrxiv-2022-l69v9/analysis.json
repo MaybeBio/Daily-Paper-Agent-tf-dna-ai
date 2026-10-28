@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2022-l69v9",
+  "title": "Comparing the performance of different AMBER protein forcefields, partial charge assignments, and water models for absolute binding free energy calculations",
+  "authors": "David Huggins",
+  "journal": "ChemRxiv",
+  "published_date": "2022-01-31",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 3,
+  "one_liner_zh": "该文比较AMBER力场和电荷分配对绝对结合自由能计算的影响，聚焦小分子-蛋白体系，非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法参数评估，与本课题关联较弱。",
+  "abstract": "Identifying chemical starting points is a vital first step in small molecule drug discovery and can take significant time and money. For this reason, computational approaches to virtual screening are of great interest as they can lower cost and shorten timeframes. However, simple approaches such as molecular docking and pharmacophore screening are of limited accuracy and provide a low probability of success. Alchemical binding free energies represent a promising approach for virtual screening as they naturally incorporate the key effects of water molecules, protein flexibility, and binding entropy. However, the calculations are technically very challenging, with performance depending on the specific forcefield used. For this reason, it is important that the community has access to benchmark test sets to assess prediction accuracy. In this paper we present an approach to alchemical binding free energies using OpenMM. We identify effective simulation parameters using an existing BRD4(1) test set and present two new benchmark sets (cMET and PDE2A) that can be used in the community for validation purposes. Our findings also highlight the effectiveness of some AMBER forcefields, in particular AMBER ff15ipq.",
+  "abstract_zh": "识别化学起始点是小分子药物发现中的关键第一步，可能耗费大量时间和资金。因此，虚拟筛选的计算方法因其能降低成本并缩短时间周期而备受关注。然而，分子对接 (molecular docking) 和药效团筛选 (pharmacophore screening) 等简单方法精度有限，成功概率较低。炼金结合自由能 (alchemical binding free energies) 作为虚拟筛选的一种有前景的方法，因其自然纳入水分子、蛋白质柔性和结合熵的关键效应而受到青睐。然而，这些计算在技术上极具挑战性，其性能取决于所使用的特定力场。因此，社区能够获得基准测试集以评估预测准确性至关重要。本文中，我们提出了一种使用OpenMM进行炼金结合自由能计算的方法。我们利用现有的BRD4(1)测试集确定了有效的模拟参数，并提出了两个新的基准测试集（cMET和PDE2A），可供社区用于验证目的。我们的发现还强调了某些AMBER力场的有效性，特别是AMBER ff15ipq。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2022-l69v9",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2022-l69v9",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2022-l69v9/index.html"
+}

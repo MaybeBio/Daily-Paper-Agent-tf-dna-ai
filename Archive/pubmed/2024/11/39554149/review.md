@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that MEF2C controls segment-specific gene regulatory networks in the developing heart tube, based on single-nucleus RNA- and ATAC-sequencing time courses in wild-type and Mef2c-null embryos. They identify a posteriorized cardiac gene signature and chromatin landscape, construct developmental trajectories for outflow tract, ventricular, and inflow tract segments using a deep learning-based integration, predict segment-specific MEF2C-dependent enhancers validated in zebrafish, and propose that increased NR2F2 activity partially drives the Mef2c-null heart malformations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** All primary data, computational methods, statistical details, enhancer validation results, and GRN inference procedures are absent. The abstract alone does not permit independent verification of any reported finding.
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and ambitious framework for dissecting lineage-specific gene regulatory networks in early heart development. The combination of multiomics profiling, deep learning-based trajectory modeling, enhancer prediction with cross-species validation, and GRN inference is potentially impactful. However, the abstract-level evidence is insufficient to evaluate the technical rigor, statistical robustness, or biological validity of the claims. Several conclusions, particularly the NR2F2-mediated mechanism and the posteriorized phenotype, require detailed supporting data to be credible.
+- **Who would be interested in the results, and why** Developmental biologists studying cardiac morphogenesis and congenital heart defects would be directly interested. Researchers working on transcription factor networks, enhancer biology, and single-cell multiomics would also find the methodological framework relevant. The cross-species enhancer validation and the proposed NR2F2 link may attract investigators focused on nuclear receptor signaling in development and disease.
+- **Major strengths** The study addresses an important gap by defining segment-specific GRNs in the early heart tube. The use of paired snRNA-seq and snATAC-seq across a developmental time course in both wild-type and mutant embryos is a rigorous design. The integration of multiomics data into a deep learning model for trajectory reconstruction is innovative. The computational prediction of enhancers followed by zebrafish validation provides a functional dimension. The identification of NR2F2 as a downstream effector offers a concrete mechanistic hypothesis.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that a deep learning-based integration of multiomics data allowed construction of developmental trajectories for outflow tract, ventricular, and inflow tract segments, and that these trajectories are altered in Mef2c-null embryos.  
+  - **Evidence pointer** Abstract, no methods or figures provided  
+  - **Concern** The abstract provides no details on the deep learning architecture, training data, validation strategy, or metrics used to assess trajectory accuracy. Without this information, it is impossible to judge whether the trajectories are biologically meaningful or an artifact of the model.  
+  - **Why it matters** The trajectory reconstruction is a central pillar of the study. If the model is not properly validated or if the input data are not adequately processed, all downstream claims about segment-specific networks and their alterations would be compromised.  
+  - **Resolution test** Provide a detailed methods section describing the model architecture, training and test splits, performance metrics, and independent validation of predicted trajectories against known cardiac developmental markers.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that increased activity of the nuclear hormone receptor NR2F2 partly drives Mef2c-null heart malformations, based on inferred GRNs.  
+  - **Evidence pointer** Abstract, no figures or methods provided  
+  - **Concern** The inference of GRNs and the subsequent conclusion that NR2F2 activity is increased and functionally relevant are presented without any supporting data. No information is given on the GRN inference algorithm, the criteria for identifying NR2F2 as a key node, or any experimental perturbation of NR2F2 to test causality.  
+  - **Why it matters** This is the most mechanistically specific claim in the abstract. Without evidence of NR2F2 upregulation, altered activity, or functional requirement, the claim remains speculative. The word "partly" also implies a quantitative contribution that is not defined.  
+  - **Resolution test** Show data on NR2F2 expression and activity in wild-type versus Mef2c-null embryos, and provide loss- or gain-of-function experiments in relevant model systems to demonstrate that NR2F2 modulation affects the reported malformations.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim identification of a posteriorized cardiac gene signature and chromatin landscape in the absence of MEF2C.  
+  - **Evidence pointer** Abstract, no figures or methods provided  
+  - **Concern** The term "posteriorized" implies a directional shift in segment identity, but the abstract does not define the reference axes, the genes used to define the signature, or the statistical approach used to establish this pattern. No data are shown to support the claim that the chromatin landscape is globally posteriorized.  
+  - **Why it matters** This claim underpins the entire conceptual framework of segment-specific regulation. If the posteriorization is not rigorously defined and quantified, the interpretation of all downstream analyses could be misleading.  
+  - **Resolution test** Provide a clear definition of the posterior gene signature, show differential expression and chromatin accessibility analyses with appropriate statistics, and demonstrate that the posteriorized pattern is specific to MEF2C loss rather than a general developmental delay.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and rigor  
+  - **Claim pointer** The authors claim that computationally identified segment-specific MEF2C-dependent enhancers show activity in the developing zebrafish heart.  
+  - **Evidence pointer** Abstract, no figures or methods provided  
+  - **Concern** The abstract does not specify how many enhancers were tested, the criteria for selecting them, the number of zebrafish embryos analyzed, or the consistency of the observed activity. The term "activity" is vague and could refer to reporter expression, endogenous locus activation, or other readouts.  
+  - **Why it matters** Cross-species enhancer validation is a key translational aspect of the study. Without quantitative and reproducible data, the claim of functional conservation is not established.  
+  - **Resolution test** Provide details on enhancer selection, reporter constructs, number of biological replicates, and quantification of reporter activity, along with representative images and statistical analysis.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "posteriorized" cardiac gene signature  
+  - **Issue** The term "posteriorized" is used without a clear definition of the anterior-posterior axis in the context of the heart tube or the specific genes that define this signature.  
+  - **Required correction** Define the axis and provide examples of marker genes used to establish the posteriorized signature.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Deep learning model description  
+  - **Evidence pointer** Abstract, "deep learning-based model"  
+  - **Issue** The abstract does not name the model type or indicate whether the code and trained models will be made publicly available.  
+  - **Required correction** Specify the model architecture and state data and code availability in the abstract or methods.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical rigor  
+  - **Affected element** NR2F2 claim  
+  - **Evidence pointer** Abstract, "increased activity of the nuclear hormone receptor NR2F2"  
+  - **Issue** The abstract does not indicate whether the increased NR2F2 activity was observed at the RNA, protein, or chromatin level, or whether this was a consistent finding across biological replicates.  
+  - **Required correction** Specify the molecular level at which NR2F2 activity was assessed and provide a measure of variability.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the central claims of trajectory reconstruction, NR2F2-mediated mechanism, and posteriorized phenotype cannot be evaluated from the abstract alone. R1-M4 is non-blocking but requires additional detail for full validation.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach of combining snRNA-seq and snATAC-seq with deep learning-based trajectory modeling and GRN inference to define segment-specific networks is novel and potentially original.  
+  - Scientific importance: The study addresses a fundamental question in cardiac development and may have implications for congenital heart defects, making it scientifically important if the claims hold.  
+  - Interdisciplinary readership: The work bridges developmental biology, computational biology, and genomics, and would appeal to a broad readership.  
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methodological detail and supporting data prevents evaluation of the technical rigor.  
+  - Readability for nonspecialists: The abstract is well-written and accessible, though some terms such as "posteriorized" and "GRN" may require context for a general audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the absence of all supporting data and methods means that the core claims cannot be verified. A full manuscript with detailed methods, figures, and statistical analyses would be required to assess whether the conclusions are justified.
+
+## Risk / unsupported claims
+- The claim of a posteriorized cardiac gene signature and chromatin landscape is unsupported without defined markers and statistical evidence.
+- The claim that deep learning-based trajectory reconstruction accurately captures segment-specific developmental paths is unsupported without model details and validation.
+- The claim that NR2F2 increased activity partly drives Mef2c-null heart malformations is unsupported without expression data and functional perturbation experiments.
+- The claim of segment-specific MEF2C-dependent enhancers with activity in zebrafish is unsupported without details on enhancer selection, reporter assays, and quantification.
+- The generalizability of the framework to other developmental processes is asserted but not demonstrated.

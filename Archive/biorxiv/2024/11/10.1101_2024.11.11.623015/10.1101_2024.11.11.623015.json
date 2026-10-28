@@ -1,0 +1,272 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.11.623015",
+  "title": "A Genomic Language Model for Zero-Shot Prediction of Promoter Variant Effects",
+  "doi": "10.1101/2024.11.11.623015",
+  "abstract": "Disease-associated genetic variants occur extensively in noncoding regions like promoters, but current methods focus primarily on single nucleotide variants (SNVs) that typically have small regulatory effect sizes. Expanding beyond single nucleotide events is essential with insertions and deletions (indels) representing the logical next step as they are readily identifiable in population data and more likely to disrupt regulatory elements. However, existing methods struggle with indel prediction, and clinical interpretation often requires assessing complete promoter haplotypes rather than individual variants. We present LOL-EVE (Language Of Life for Evolutionary Variant Effects), a conditional autoregressive transformer trained on 13.6 million mammalian promoter sequences that enables both zero-shot indel prediction and complete promoter sequence scoring. We introduce three benchmarks for promoter indel prediction: ultra rare variant prioritization, causal eQTL identification, and transcription factor binding site disruption analysis. LOL-EVE’s superior performance demonstrates that evolutionary patterns learned from indels enable accurate assessment of broader promoter function. Application to Genomics England clinical data shows that LOL-EVE can prioritize promoter haplotypes in known developmental disorder genes, suggesting potential utility for clinical variant assessment. LOL-EVE bridges individual variant prediction with haplotype-level analysis, demonstrating how evolution-based genomic language models may assist in evaluating regulatory variants in complex genetic cases.",
+  "authors": [
+    "Shearer CA",
+    "Orenbuch R",
+    "Teufel F",
+    "Steinmetz CJ",
+    "Ritter D",
+    "Xie E",
+    "Gazizov A",
+    "Spinner A",
+    "Frazer J",
+    "Frazer J",
+    "Dias M",
+    "Dias M",
+    "Notin P",
+    "Marks DS"
+  ],
+  "published_date": "2024-11-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.623015",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.623015.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR938797",
+    "raw_record": {
+      "id": "PPR938797",
+      "source": "PPR",
+      "doi": "10.1101/2024.11.11.623015",
+      "title": "A Genomic Language Model for Zero-Shot Prediction of Promoter Variant Effects",
+      "authorString": "Shearer CA, Orenbuch R, Teufel F, Steinmetz CJ, Ritter D, Xie E, Gazizov A, Spinner A, Frazer J, Frazer J, Dias M, Dias M, Notin P, Marks DS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shearer CA",
+            "lastName": "Shearer",
+            "firstName": "Courtney",
+            "initials": "CA"
+          },
+          {
+            "fullName": "Orenbuch R",
+            "lastName": "Orenbuch",
+            "firstName": "Rose",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4678-0837"
+            }
+          },
+          {
+            "fullName": "Teufel F",
+            "lastName": "Teufel",
+            "firstName": "Felix",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1275-8065"
+            }
+          },
+          {
+            "fullName": "Steinmetz CJ",
+            "lastName": "Steinmetz",
+            "firstName": "Christian",
+            "initials": "CJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-3266-9917"
+            }
+          },
+          {
+            "fullName": "Ritter D",
+            "lastName": "Ritter",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Xie E",
+            "lastName": "Xie",
+            "firstName": "Erik",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6970-3922"
+            }
+          },
+          {
+            "fullName": "Gazizov A",
+            "lastName": "Gazizov",
+            "firstName": "Artem",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-9627-3769"
+            }
+          },
+          {
+            "fullName": "Spinner A",
+            "lastName": "Spinner",
+            "firstName": "Aviv",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9845-0787"
+            }
+          },
+          {
+            "fullName": "Frazer J",
+            "lastName": "Frazer",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6900-6484"
+            }
+          },
+          {
+            "fullName": "Frazer J",
+            "lastName": "Frazer",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1877-8983"
+            }
+          },
+          {
+            "fullName": "Dias M",
+            "lastName": "Dias",
+            "firstName": "Mafalda",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1804-8542"
+            }
+          },
+          {
+            "fullName": "Dias M",
+            "lastName": "Dias",
+            "firstName": "Mafalda",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9388-2281"
+            }
+          },
+          {
+            "fullName": "Notin P",
+            "lastName": "Notin",
+            "firstName": "Pascal",
+            "initials": "P"
+          },
+          {
+            "fullName": "Marks DS",
+            "lastName": "Marks",
+            "firstName": "Debora",
+            "initials": "DS"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6900-6484"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9388-2281"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9845-0787"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1804-8542"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1877-8983"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4678-0837"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6970-3922"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1275-8065"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-9627-3769"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-3266-9917"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Disease-associated genetic variants occur extensively in noncoding regions like promoters, but current methods focus primarily on single nucleotide variants (SNVs) that typically have small regulatory effect sizes. Expanding beyond single nucleotide events is essential with insertions and deletions (indels) representing the logical next step as they are readily identifiable in population data and more likely to disrupt regulatory elements. However, existing methods struggle with indel prediction, and clinical interpretation often requires assessing complete promoter haplotypes rather than individual variants. We present LOL-EVE (Language Of Life for Evolutionary Variant Effects), a conditional autoregressive transformer trained on 13.6 million mammalian promoter sequences that enables both zero-shot indel prediction and complete promoter sequence scoring. We introduce three benchmarks for promoter indel prediction: ultra rare variant prioritization, causal eQTL identification, and transcription factor binding site disruption analysis. LOL-EVE’s superior performance demonstrates that evolutionary patterns learned from indels enable accurate assessment of broader promoter function. Application to Genomics England clinical data shows that LOL-EVE can prioritize promoter haplotypes in known developmental disorder genes, suggesting potential utility for clinical variant assessment. LOL-EVE bridges individual variant prediction with haplotype-level analysis, demonstrating how evolution-based genomic language models may assist in evaluating regulatory variants in complex genetic cases.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.11.623015"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.11.623015"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-11-14",
+      "firstPublicationDate": "2024-11-12",
+      "firstIndexDate": "2024-11-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "41673874",
+    "doi": "10.1186/s12967-026-07835-6",
+    "title": "TCF21-WNT5A axis drives metastasis of colorectal cancer via stromal-tumor cell communication."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: The third most prevalent form of cancer, colorectal cancer (CRC), is associated with a high mortality rate due to colorectal liver metastases (CRLM). However, the molecular mechanisms underlying CRLM remain poorly understood. METHODS: ScRNA-seq data and Bulk RNA-seq data were collected from GEO database. First, we screened genes that showed differentially expression in three groups of colorectal tissues (normal vs. primary tumor vs. metastases). We then performed machine learning to identify signature genes involved in colorectal cancer. We further investigated the expression patterns of these core genes at the single-cell level. Through the integration of single-cell and bulk RNA-seq data, we have identified pivotal genes linked to CRC liver metastasis. Furthermore, we revealed that TCF21 is overexpressed in colorectal tumor tissues with metastases using clinical samples and HCT116 cells. RESULTS: We have identified 12 pivotal genes linked to CRC liver metastasis, which aims to dissect the molecular underpinnings of colorectal cancer and pave the way for novel therapeutic targets in clinical practice. Using scRNA-seq analysis, our findings revealed unique cellular communication features in CRC metastasis. Besides, TCF21(high) stromal cells were mainly enriched in metastatic tissues and TCF21 RNA level is associated with CRC metastasis, indicating vital role of TCF21 in CRC. Mechanistically, TCF21 regulates the expression of WNT5A and overexpression of WNT5A could reverse the effect of TCF21 deficiency in CRC. CONCLUSIONS: We identified 12 signature hub genes associated with CRLM by using both scRNA-seq and bulk RNA-seq analysis. Further, we revealed the vital role of TCF21, which promotes CRLM by regulating WNT5A in CRC metastasis. The revelations have illuminated the pivotal function of the TCF21-WNT5A pathway in the development of colorectal cancer, indicating possible avenues for therapeutic intervention aimed at preventing and managing the spread of CRC.",
+    "keywords": [
+      "Colorectal cancer",
+      "Immunity",
+      "Metastasis",
+      "TCF21",
+      "WNT5A"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/pathology/genetics/metabolism",
+      "*Wnt-5a Protein/metabolism/genetics",
+      "*Basic Helix-Loop-Helix Proteins/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Stromal Cells/pathology/metabolism",
+      "*Cell Communication/genetics",
+      "Neoplasm Metastasis",
+      "Liver Neoplasms/secondary/genetics",
+      "HCT116 Cells",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Qingxing",
+        "Ren, Aigang",
+        "Cui, Xiaolong",
+        "Tian, Dianfeng",
+        "Liu, Hui",
+        "Wang, Liwei",
+        "Cao, Aihong"
+      ],
+      "short_names": [
+        "Huang Q",
+        "Ren A",
+        "Cui X",
+        "Tian D",
+        "Liu H",
+        "Wang L",
+        "Cao A"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-7454-6627"
+      ],
+      "affiliations": [
+        "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Intensive Care Unit, Shanxi Provincial Cancer Hospital, Taiyuan, 030013, China. caoaihong999@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Qingxing",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Aigang",
+        "short_name": "Ren A",
+        "identifiers": [],
+        "affiliations": [
+          "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Xiaolong",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Dianfeng",
+        "short_name": "Tian D",
+        "identifiers": [],
+        "affiliations": [
+          "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hui",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liwei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Colorectal Surgery Department, First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Aihong",
+        "short_name": "Cao A",
+        "identifiers": [
+          "0009-0008-7454-6627"
+        ],
+        "affiliations": [
+          "Intensive Care Unit, Shanxi Provincial Cancer Hospital, Taiyuan, 030013, China. caoaihong999@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 06:54",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39047413",
+      "39040931",
+      "38572751",
+      "38555278",
+      "38253219",
+      "38197316",
+      "38050068",
+      "37875418",
+      "37495091",
+      "37001616",
+      "36805487",
+      "36568117",
+      "36309489",
+      "36089446",
+      "35688610",
+      "35246503",
+      "33538338",
+      "33456563",
+      "33200074",
+      "33133385",
+      "32542449",
+      "32451460",
+      "32169167",
+      "30404000",
+      "29950858",
+      "29395269",
+      "28358093",
+      "28117416",
+      "26759232",
+      "26261008",
+      "24487033",
+      "24023955",
+      "23764752",
+      "20162577",
+      "16230369"
+    ],
+    "similar": [
+      "41673874",
+      "41436831",
+      "36805487",
+      "39382748",
+      "42260568",
+      "42456992",
+      "39806334",
+      "41627602",
+      "33300054",
+      "40474298",
+      "42009994",
+      "41482854",
+      "41958675",
+      "42082451",
+      "41342434",
+      "28600110",
+      "34874125",
+      "41380489",
+      "29426364",
+      "40134019",
+      "41642808",
+      "29517105",
+      "28525976",
+      "40050872",
+      "41062962",
+      "31665047",
+      "41361466",
+      "37691929",
+      "32140070",
+      "39979806",
+      "30542696",
+      "40032993",
+      "30365932",
+      "34158864",
+      "26619963",
+      "38430268",
+      "40406545",
+      "28927426",
+      "40804742",
+      "39587606",
+      "41807965",
+      "31629952",
+      "40891683",
+      "28859077",
+      "40089671",
+      "41782869",
+      "31610266",
+      "41776586",
+      "28427243",
+      "37161577",
+      "40225580",
+      "33637680",
+      "41194017",
+      "37024866",
+      "24616020",
+      "27912775",
+      "41213461",
+      "28051879",
+      "41894110",
+      "40766310",
+      "39061061",
+      "42510872",
+      "40765051",
+      "39020380",
+      "41286944",
+      "41260514",
+      "34781990",
+      "18590575",
+      "38947396",
+      "41303528",
+      "39716892",
+      "27461012",
+      "30409905",
+      "41632505",
+      "35414780",
+      "17640062",
+      "42009727",
+      "41235257",
+      "34175688",
+      "42616187",
+      "35802997",
+      "41601652",
+      "40928719",
+      "38594466",
+      "30037330",
+      "39164758",
+      "33990203",
+      "38802881",
+      "41559659",
+      "32228612",
+      "42509406",
+      "40475762",
+      "26156959",
+      "34335633",
+      "40097546",
+      "41250108",
+      "41491503",
+      "27492458",
+      "34062216",
+      "34145399"
+    ],
+    "review": [
+      "41673874"
+    ],
+    "pmc": [
+      "12997998"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-07835-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41673874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

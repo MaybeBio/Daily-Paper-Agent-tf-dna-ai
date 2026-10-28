@@ -1,0 +1,496 @@
+{
+  "identity": {
+    "pmid": "38443662",
+    "doi": "10.1038/s43018-024-00740-1",
+    "title": "A deep learning model of tumor cell architecture elucidates response and resistance to CDK4/6 inhibitors."
+  },
+  "content": {
+    "abstract": "Cyclin-dependent kinase 4 and 6 inhibitors (CDK4/6is) have revolutionized breast cancer therapy. However, <50% of patients have an objective response, and nearly all patients develop resistance during therapy. To elucidate the underlying mechanisms, we constructed an interpretable deep learning model of the response to palbociclib, a CDK4/6i, based on a reference map of multiprotein assemblies in cancer. The model identifies eight core assemblies that integrate rare and common alterations across 90 genes to stratify palbociclib-sensitive versus palbociclib-resistant cell lines. Predictions translate to patients and patient-derived xenografts, whereas single-gene biomarkers do not. Most predictive assemblies can be shown by CRISPR-Cas9 genetic disruption to regulate the CDK4/6i response. Validated assemblies relate to cell-cycle control, growth factor signaling and a histone regulatory complex that we show promotes S-phase entry through the activation of the histone modifiers KAT6A and TBL1XR1 and the transcription factor RUNX1. This study enables an integrated assessment of how a tumor's genetic profile modulates CDK4/6i resistance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Cyclin-Dependent Kinase 4/antagonists & inhibitors",
+      "*Cyclin-Dependent Kinase 6/antagonists & inhibitors",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Deep Learning",
+      "Animals",
+      "*Protein Kinase Inhibitors/pharmacology/therapeutic use",
+      "*Pyridines/pharmacology/therapeutic use",
+      "Female",
+      "*Piperazines/pharmacology/therapeutic use",
+      "Mice",
+      "Cell Line, Tumor",
+      "Breast Neoplasms/drug therapy/genetics/pathology",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Sungjoon",
+        "Silva, Erica",
+        "Singhal, Akshat",
+        "Kelly, Marcus R",
+        "Licon, Kate",
+        "Panagiotou, Isabella",
+        "Fogg, Catalina",
+        "Fong, Samson",
+        "Lee, John J Y",
+        "Zhao, Xiaoyu",
+        "Bachelder, Robin",
+        "Parker, Barbara A",
+        "Yeung, Kay T",
+        "Ideker, Trey"
+      ],
+      "short_names": [
+        "Park S",
+        "Silva E",
+        "Singhal A",
+        "Kelly MR",
+        "Licon K",
+        "Panagiotou I",
+        "Fogg C",
+        "Fong S",
+        "Lee JJY",
+        "Zhao X",
+        "Bachelder R",
+        "Parker BA",
+        "Yeung KT",
+        "Ideker T"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-9965-7068",
+        "ORCID: 0000-0001-5371-526X",
+        "ORCID: 0000-0001-7502-2907",
+        "ORCID: 0000-0002-1708-8454"
+      ],
+      "affiliations": [
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Program in Biomedical Sciences, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Moores Cancer Center, University of California, San Diego, San Diego, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Moores Cancer Center, University of California, San Diego, San Diego, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+        "Moores Cancer Center, University of California, San Diego, San Diego, CA, USA.",
+        "Department of Medicine, University of California, San Diego, La Jolla, CA, USA. tideker@health.ucsd.edu.",
+        "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA, USA. tideker@health.ucsd.edu.",
+        "Moores Cancer Center, University of California, San Diego, San Diego, CA, USA. tideker@health.ucsd.edu.",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA. tideker@health.ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Sungjoon",
+        "short_name": "Park S",
+        "identifiers": [
+          "0009-0004-9965-7068"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Silva, Erica",
+        "short_name": "Silva E",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Biomedical Sciences, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Singhal, Akshat",
+        "short_name": "Singhal A",
+        "identifiers": [
+          "0000-0001-5371-526X"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kelly, Marcus R",
+        "short_name": "Kelly MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+          "Moores Cancer Center, University of California, San Diego, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Licon, Kate",
+        "short_name": "Licon K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Panagiotou, Isabella",
+        "short_name": "Panagiotou I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fogg, Catalina",
+        "short_name": "Fogg C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fong, Samson",
+        "short_name": "Fong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, John J Y",
+        "short_name": "Lee JJY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaoyu",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bachelder, Robin",
+        "short_name": "Bachelder R",
+        "identifiers": [
+          "0000-0001-7502-2907"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Parker, Barbara A",
+        "short_name": "Parker BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+          "Moores Cancer Center, University of California, San Diego, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Yeung, Kay T",
+        "short_name": "Yeung KT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA.",
+          "Moores Cancer Center, University of California, San Diego, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ideker, Trey",
+        "short_name": "Ideker T",
+        "identifiers": [
+          "0000-0002-1708-8454"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of California, San Diego, La Jolla, CA, USA. tideker@health.ucsd.edu.",
+          "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA, USA. tideker@health.ucsd.edu.",
+          "Moores Cancer Center, University of California, San Diego, San Diego, CA, USA. tideker@health.ucsd.edu.",
+          "Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA. tideker@health.ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature cancer"
+    ],
+    "journal_abbrev": [
+      "Nat Cancer"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/06 00:42",
+    "fetched_at": "2026-09-29 16:31:10"
+  },
+  "links": {
+    "cites": [
+      "42680988",
+      "42605287",
+      "42493559",
+      "42368786",
+      "42188872",
+      "42153322",
+      "42065041",
+      "42051297",
+      "42014628",
+      "41896222",
+      "41512871",
+      "41495240",
+      "41484464",
+      "41381442",
+      "41292768",
+      "41247642",
+      "41200279",
+      "41194255",
+      "41168799",
+      "40696167",
+      "40593549",
+      "40451913",
+      "40269930",
+      "40055572",
+      "40040372",
+      "39981497",
+      "39897604",
+      "39760657",
+      "39677367",
+      "39456615",
+      "39386568"
+    ],
+    "refs": [
+      "36426870",
+      "35304604",
+      "35248122",
+      "35184131",
+      "35025636",
+      "34985783",
+      "34930405",
+      "34819669",
+      "34788843",
+      "34729476",
+      "34626770",
+      "34591613",
+      "34562854",
+      "34552244",
+      "34377366",
+      "34342985",
+      "34079125",
+      "33434350",
+      "33342707",
+      "33130515",
+      "33096023",
+      "33089107",
+      "33048129",
+      "32934206",
+      "32723837",
+      "32566759",
+      "32504067",
+      "32416067",
+      "32307447",
+      "32118427",
+      "31924700",
+      "31859246",
+      "31792070",
+      "31396487",
+      "31040929",
+      "30872077",
+      "30745839",
+      "30642884",
+      "30537512",
+      "30096302",
+      "30069049",
+      "29906441",
+      "29505029",
+      "28753430",
+      "27397505",
+      "26482930",
+      "26479923",
+      "26069883",
+      "25524798",
+      "25501126",
+      "25075903",
+      "25024921",
+      "24142049",
+      "23993102",
+      "23540688",
+      "23431171",
+      "22460905",
+      "22460902",
+      "21036740",
+      "20808728",
+      "18374649",
+      "16199517",
+      "15060155",
+      "11742995",
+      "10802651",
+      "10647931",
+      "8782817"
+    ],
+    "similar": [
+      "38443662",
+      "39937190",
+      "39352623",
+      "39449657",
+      "31852484",
+      "39603379",
+      "40141282",
+      "39875975",
+      "32245900",
+      "39992682",
+      "40764324",
+      "32860163",
+      "41920074",
+      "40826108",
+      "41571637",
+      "39667501",
+      "33323381",
+      "38961064",
+      "33536276",
+      "38781103",
+      "40864686",
+      "32393270",
+      "31424939",
+      "38954773",
+      "40444791",
+      "29243224",
+      "41056429",
+      "38381406",
+      "30537512",
+      "41535871",
+      "40714513",
+      "41406241",
+      "39136283",
+      "39267478",
+      "28418845",
+      "31823286",
+      "38886784",
+      "29162134",
+      "40578027",
+      "32506263",
+      "42500578",
+      "32787886",
+      "39499997",
+      "41650543",
+      "31331377",
+      "36042494",
+      "34544752",
+      "22302033",
+      "31878959",
+      "39614985",
+      "38588311",
+      "38788968",
+      "31369120",
+      "31346846",
+      "39500869",
+      "30914635",
+      "40186268",
+      "29739788",
+      "28619757",
+      "38943828",
+      "33990344",
+      "29729292",
+      "34508104",
+      "30143968",
+      "38513188",
+      "34230123",
+      "40896879",
+      "25991817",
+      "28249908",
+      "41594633",
+      "42415939",
+      "41957359",
+      "39244005",
+      "27020857",
+      "27564114",
+      "41459763",
+      "32795346",
+      "40794455",
+      "27571378",
+      "28606920",
+      "40522623",
+      "30135075",
+      "39754249",
+      "31439820",
+      "30692100",
+      "30699064",
+      "26149830",
+      "27167191",
+      "28620137",
+      "41449800",
+      "33495311",
+      "28706010",
+      "32307447",
+      "40940685",
+      "27634906",
+      "33419772",
+      "41950642",
+      "30677445",
+      "39955556",
+      "42095602"
+    ],
+    "review": [
+      "38443662",
+      "39614985",
+      "31369120",
+      "38943828",
+      "30143968"
+    ],
+    "pmc": [
+      "11286358"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicaltrials.gov/search?term=AREA%5BReferencePMID%5D38443662",
+        "provider": "ClinicalTrials.gov",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s43018-024-00740-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38443662/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38443662",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt33s217kn",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

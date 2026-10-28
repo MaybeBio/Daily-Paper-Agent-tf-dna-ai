@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "35835745",
+    "doi": "10.1038/s41467-022-31678-6",
+    "title": "A monomeric mycobacteriophage immunity repressor utilizes two domains to recognize an asymmetric DNA sequence."
+  },
+  "content": {
+    "abstract": "Regulation of bacteriophage gene expression involves repressor proteins that bind and downregulate early lytic promoters. A large group of mycobacteriophages code for repressors that are unusual in also terminating transcription elongation at numerous binding sites (stoperators) distributed across the phage genome. Here we provide the X-ray crystal structure of a mycobacteriophage immunity repressor bound to DNA, which reveals the binding of a monomer to an asymmetric DNA sequence using two independent DNA binding domains. The structure is supported by small-angle X-ray scattering, DNA binding, molecular dynamics, and in vivo immunity assays. We propose a model for how dual DNA binding domains facilitate regulation of both transcription initiation and elongation, while enabling evolution of other superinfection immune specificities.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Bacteriophages/genetics",
+      "Base Sequence",
+      "DNA/metabolism",
+      "*Mycobacteriophages/genetics/metabolism",
+      "Promoter Regions, Genetic/genetics",
+      "Viral Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "McGinnis, Reliza J",
+        "Brambley, Chad A",
+        "Stamey, Brandon",
+        "Green, William C",
+        "Gragg, Kimberly N",
+        "Cafferty, Erin R",
+        "Terwilliger, Thomas C",
+        "Hammel, Michal",
+        "Hollis, Thomas J",
+        "Miller, Justin M",
+        "Gainey, Maria D",
+        "Wallen, Jamie R"
+      ],
+      "short_names": [
+        "McGinnis RJ",
+        "Brambley CA",
+        "Stamey B",
+        "Green WC",
+        "Gragg KN",
+        "Cafferty ER",
+        "Terwilliger TC",
+        "Hammel M",
+        "Hollis TJ",
+        "Miller JM",
+        "Gainey MD",
+        "Wallen JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2508-5050",
+        "ORCID: 0000-0001-9429-2048",
+        "ORCID: 0000-0001-8771-5241",
+        "ORCID: 0000-0001-6384-0320",
+        "ORCID: 0000-0002-5610-9289",
+        "ORCID: 0000-0002-4996-6346",
+        "ORCID: 0000-0002-4744-5192",
+        "ORCID: 0000-0001-8853-2092",
+        "ORCID: 0000-0003-3325-9177"
+      ],
+      "affiliations": [
+        "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA.",
+        "Department of Biomedical Engineering, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Middle Tennessee State University, Department of Chemistry, 1301 East Main Street, Murfreesboro, TN, 37132, USA.",
+        "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA.",
+        "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA.",
+        "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA.",
+        "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA.",
+        "Department of Human Genetics, University of Utah School of Medicine, Salt Lake City, UT, 84112, USA.",
+        "New Mexico Consortium, Los Alamos, NM, 87544, USA.",
+        "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA.",
+        "Department of Biochemistry, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC, 27157, USA.",
+        "Middle Tennessee State University, Department of Chemistry, 1301 East Main Street, Murfreesboro, TN, 37132, USA.",
+        "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA. mdgainey@email.wcu.edu.",
+        "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA. jamiewallen@email.wcu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "McGinnis, Reliza J",
+        "short_name": "McGinnis RJ",
+        "identifiers": [
+          "0000-0002-2508-5050"
+        ],
+        "affiliations": [
+          "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA.",
+          "Department of Biomedical Engineering, University of Michigan, Ann Arbor, MI, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Brambley, Chad A",
+        "short_name": "Brambley CA",
+        "identifiers": [
+          "0000-0001-9429-2048"
+        ],
+        "affiliations": [
+          "Middle Tennessee State University, Department of Chemistry, 1301 East Main Street, Murfreesboro, TN, 37132, USA."
+        ]
+      },
+      {
+        "full_name": "Stamey, Brandon",
+        "short_name": "Stamey B",
+        "identifiers": [],
+        "affiliations": [
+          "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA."
+        ]
+      },
+      {
+        "full_name": "Green, William C",
+        "short_name": "Green WC",
+        "identifiers": [],
+        "affiliations": [
+          "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA."
+        ]
+      },
+      {
+        "full_name": "Gragg, Kimberly N",
+        "short_name": "Gragg KN",
+        "identifiers": [],
+        "affiliations": [
+          "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA."
+        ]
+      },
+      {
+        "full_name": "Cafferty, Erin R",
+        "short_name": "Cafferty ER",
+        "identifiers": [
+          "0000-0001-8771-5241"
+        ],
+        "affiliations": [
+          "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA.",
+          "Department of Human Genetics, University of Utah School of Medicine, Salt Lake City, UT, 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Terwilliger, Thomas C",
+        "short_name": "Terwilliger TC",
+        "identifiers": [
+          "0000-0001-6384-0320"
+        ],
+        "affiliations": [
+          "New Mexico Consortium, Los Alamos, NM, 87544, USA."
+        ]
+      },
+      {
+        "full_name": "Hammel, Michal",
+        "short_name": "Hammel M",
+        "identifiers": [
+          "0000-0002-5610-9289"
+        ],
+        "affiliations": [
+          "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Hollis, Thomas J",
+        "short_name": "Hollis TJ",
+        "identifiers": [
+          "0000-0002-4996-6346"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Wake Forest University School of Medicine, Medical Center Boulevard, Winston-Salem, NC, 27157, USA."
+        ]
+      },
+      {
+        "full_name": "Miller, Justin M",
+        "short_name": "Miller JM",
+        "identifiers": [
+          "0000-0002-4744-5192"
+        ],
+        "affiliations": [
+          "Middle Tennessee State University, Department of Chemistry, 1301 East Main Street, Murfreesboro, TN, 37132, USA."
+        ]
+      },
+      {
+        "full_name": "Gainey, Maria D",
+        "short_name": "Gainey MD",
+        "identifiers": [
+          "0000-0001-8853-2092"
+        ],
+        "affiliations": [
+          "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA. mdgainey@email.wcu.edu."
+        ]
+      },
+      {
+        "full_name": "Wallen, Jamie R",
+        "short_name": "Wallen JR",
+        "identifiers": [
+          "0000-0003-3325-9177"
+        ],
+        "affiliations": [
+          "Western Carolina University, Department of Chemistry and Physics, 111 Memorial Drive, Cullowhee, NC, 28723, USA. jamiewallen@email.wcu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jul 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/15 06:00",
+    "fetched_at": "2026-09-28 10:54:38"
+  },
+  "links": {
+    "cites": [
+      "41467810",
+      "39000573",
+      "38718835",
+      "37943040",
+      "37333386",
+      "37185764"
+    ],
+    "refs": [
+      "35637307",
+      "34343015",
+      "34265844",
+      "34016711",
+      "32734663",
+      "31164468",
+      "31068712",
+      "29134591",
+      "28703128",
+      "28291233",
+      "27008630",
+      "26464018",
+      "26332854",
+      "26018169",
+      "25919952",
+      "25075342",
+      "24889800",
+      "24496795",
+      "23972848",
+      "23832629",
+      "23822324",
+      "23396808",
+      "22420855",
+      "21460454",
+      "20528690",
+      "20507903",
+      "20174627",
+      "20124692",
+      "19714202",
+      "19592714",
+      "19465773",
+      "19458158",
+      "18432246",
+      "18094468",
+      "18078545",
+      "17681537",
+      "17598887",
+      "16940322",
+      "16855301",
+      "16785435",
+      "16355416",
+      "16211538",
+      "15808743",
+      "15458625",
+      "15264254",
+      "14731393",
+      "11123672",
+      "9895674",
+      "9312049",
+      "9048379",
+      "8744570",
+      "8578593",
+      "8459767",
+      "8254673",
+      "8108382",
+      "6461657",
+      "1901654"
+    ],
+    "similar": [
+      "35835745",
+      "9312049",
+      "26332854",
+      "11123672",
+      "36748635",
+      "20377203",
+      "8594325",
+      "30024363",
+      "40671521",
+      "23560716",
+      "24047404",
+      "19470244",
+      "15607030",
+      "39000573",
+      "41334652",
+      "25986902",
+      "25092027",
+      "18667563",
+      "27527206",
+      "10645443",
+      "14659078",
+      "9636706",
+      "23246436",
+      "18191944",
+      "17073724",
+      "8714205",
+      "17598887",
+      "20545868",
+      "8459767",
+      "31164468",
+      "26066798",
+      "12003945",
+      "8459766",
+      "15469704",
+      "11397081",
+      "12832212",
+      "10438592",
+      "30053203",
+      "27316672",
+      "3187531",
+      "29197343",
+      "11123671",
+      "12426341",
+      "14757050",
+      "9882658",
+      "27703073",
+      "37713616",
+      "21298013",
+      "10873751",
+      "17485481",
+      "30948168",
+      "1991733",
+      "8824611",
+      "19028888",
+      "12867446",
+      "16719562",
+      "9096211",
+      "9268158",
+      "10559293",
+      "37545854",
+      "3119860",
+      "10196287",
+      "31545538",
+      "9599081",
+      "29544082",
+      "1325451",
+      "37329881",
+      "9931474",
+      "38994875",
+      "31091188",
+      "22053209",
+      "22357284",
+      "25701596",
+      "32887931",
+      "21636995",
+      "23874930",
+      "32457340",
+      "9642205",
+      "2647997",
+      "2993999",
+      "12680780",
+      "3097957",
+      "8626285",
+      "36921817",
+      "17379577",
+      "16789831",
+      "14636570",
+      "28811342",
+      "2760929",
+      "12147520",
+      "23777341",
+      "36916948",
+      "17412387",
+      "1465093",
+      "8744840",
+      "22560719",
+      "8075070",
+      "29165680",
+      "21764920",
+      "11229902"
+    ],
+    "review": [
+      "35835745"
+    ],
+    "pmc": [
+      "9283540"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-31678-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35835745/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35835745",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt7ct187h2",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

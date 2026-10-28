@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "36168811",
+    "doi": "10.1093/bib/bbac424",
+    "title": "dynDeepDRIM: a dynamic deep learning model to infer direct regulatory interactions using time-course single-cell gene expression data."
+  },
+  "content": {
+    "abstract": "Time-course single-cell RNA sequencing (scRNA-seq) data have been widely used to explore dynamic changes in gene expression of transcription factors (TFs) and their target genes. This information is useful to reconstruct cell-type-specific gene regulatory networks (GRNs). However, the existing tools are commonly designed to analyze either time-course bulk gene expression data or static scRNA-seq data via pseudo-time cell ordering. A few methods successfully utilize the information from multiple time points while also considering the characteristics of scRNA-seq data. We proposed dynDeepDRIM, a novel deep learning model to reconstruct GRNs using time-course scRNA-seq data. It represents the joint expression of a gene pair as an image and utilizes the image of the target TF-gene pair and the ones of the potential neighbors to reconstruct GRNs from time-course scRNA-seq data. dynDeepDRIM can effectively remove the transitive TF-gene interactions by considering neighborhood context and model the gene expression dynamics using high-dimensional tensors. We compared dynDeepDRIM with six GRN reconstruction methods on both simulation and four real time-course scRNA-seq data. dynDeepDRIM achieved substantially better performance than the other methods in inferring TF-gene interactions and eliminated the false positives effectively. We also applied dynDeepDRIM to annotate gene functions and found it achieved evidently better performance than the other tools due to considering the neighbor genes.",
+    "keywords": [
+      "gene functional annotation",
+      "gene regulatory network",
+      "time-course single-cell RNA sequencing",
+      "transitive interactions"
+    ],
+    "mesh_terms": [
+      "Sequence Analysis, RNA/methods",
+      "*Single-Cell Analysis/methods",
+      "Gene Expression Profiling/methods",
+      "*Deep Learning",
+      "Gene Expression"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Yu",
+        "Chen, Jiaxing",
+        "Lyu, Aiping",
+        "Cheung, William K",
+        "Zhang, Lu"
+      ],
+      "short_names": [
+        "Xu Y",
+        "Chen J",
+        "Lyu A",
+        "Cheung WK",
+        "Zhang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Hong Kong Baptist University, Kowloon Tong, Hong Kong.",
+        "Computer Science and Technology, Division of Science and Technology, BNU-HKBU United International College, Jintong Road, 519087, Zhuhai, China.",
+        "School of Chinese Medicine, Hong Kong Baptist University, Kowloon Tong, Hong Kong.",
+        "Department of Computer Science, Hong Kong Baptist University, Kowloon Tong, Hong Kong.",
+        "Department of Computer Science, Hong Kong Baptist University, Kowloon Tong, Hong Kong."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Yu",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Hong Kong Baptist University, Kowloon Tong, Hong Kong."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiaxing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Technology, Division of Science and Technology, BNU-HKBU United International College, Jintong Road, 519087, Zhuhai, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Aiping",
+        "short_name": "Lyu A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Hong Kong Baptist University, Kowloon Tong, Hong Kong."
+        ]
+      },
+      {
+        "full_name": "Cheung, William K",
+        "short_name": "Cheung WK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Hong Kong Baptist University, Kowloon Tong, Hong Kong."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lu",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Hong Kong Baptist University, Kowloon Tong, Hong Kong."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Nov 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/29 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "42093817",
+      "40983951",
+      "40708222",
+      "40586321",
+      "40415678",
+      "40062616",
+      "39605181",
+      "39062480",
+      "38653489",
+      "38261340",
+      "37079737",
+      "37004161"
+    ],
+    "refs": [],
+    "similar": [
+      "36168811",
+      "34424948",
+      "38980373",
+      "38950180",
+      "39062480",
+      "35961023",
+      "37686146",
+      "37985457",
+      "36733262",
+      "37004161",
+      "39417321",
+      "33876191",
+      "37105115",
+      "37085776",
+      "36528240",
+      "39101690",
+      "35184277",
+      "38653489",
+      "38810116",
+      "31405383",
+      "30547796",
+      "34035047",
+      "34849562",
+      "36814845",
+      "36877552",
+      "32051003",
+      "34623390",
+      "33026066",
+      "36585783",
+      "35302164",
+      "35692809",
+      "35831808",
+      "34011578",
+      "31243426",
+      "35255944",
+      "36608843",
+      "38261340",
+      "35572582",
+      "34251625",
+      "37950331",
+      "31068142",
+      "29950006",
+      "36047285",
+      "35715748",
+      "34553763",
+      "35901457",
+      "39348410",
+      "31960377",
+      "35474868",
+      "32716923",
+      "35569337",
+      "29630593",
+      "36303726",
+      "36198490",
+      "37994351",
+      "35606383",
+      "28981748",
+      "38459442",
+      "29536451",
+      "37244909",
+      "36528803",
+      "35172334",
+      "38217125",
+      "32825786",
+      "38744843",
+      "37897702",
+      "35050715",
+      "30820578",
+      "39376034",
+      "33674364",
+      "35102309",
+      "27556924",
+      "38243313",
+      "34962260",
+      "36124658",
+      "35213533",
+      "34864918",
+      "36192479",
+      "35136933",
+      "35409258",
+      "38111007",
+      "33975628",
+      "32527285",
+      "33033579",
+      "38032470",
+      "36009024",
+      "38770716",
+      "30367575",
+      "34095314",
+      "33170214",
+      "29949988",
+      "37147723",
+      "37012448",
+      "37191792",
+      "35575729",
+      "36291748",
+      "33835452",
+      "28977434",
+      "28535748",
+      "35524568",
+      "35788983",
+      "38622747",
+      "35419595",
+      "31121116",
+      "35452708",
+      "33822877",
+      "33661921",
+      "34500471",
+      "30758827",
+      "33098418",
+      "36495456",
+      "29897414",
+      "38890415",
+      "35136924",
+      "38510148",
+      "29342231",
+      "37738895",
+      "38672453",
+      "37949861",
+      "38896510",
+      "36204155",
+      "31527870",
+      "36095011",
+      "37192164",
+      "36418514",
+      "37715282",
+      "34030626",
+      "37544659",
+      "38278505",
+      "34999771",
+      "38580401",
+      "37889053",
+      "33151298",
+      "37952704",
+      "36510124",
+      "37813843",
+      "34017350",
+      "36788139",
+      "31682596",
+      "35469013",
+      "38349062",
+      "37756593",
+      "37434694",
+      "36804477",
+      "38732491",
+      "37577525",
+      "38008383",
+      "38811747",
+      "37426065",
+      "38014297",
+      "38260386",
+      "38360714",
+      "35510185",
+      "35513850",
+      "36641532",
+      "37113980",
+      "38274364",
+      "38495440",
+      "38294926",
+      "34193535",
+      "36879897",
+      "34858473",
+      "39143494",
+      "36561173",
+      "36747724",
+      "34630946",
+      "33215611",
+      "34282418",
+      "38609714",
+      "32082359",
+      "36110897",
+      "36879901",
+      "38500834",
+      "39257806",
+      "39237300",
+      "37131803",
+      "33336197",
+      "39413794",
+      "36977959"
+    ],
+    "review": [
+      "36168811",
+      "36528240",
+      "31243426",
+      "35572582",
+      "35102309",
+      "33975628",
+      "38032470",
+      "29342231",
+      "34017350",
+      "38008383"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36168811.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac424",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

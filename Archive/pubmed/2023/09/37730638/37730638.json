@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "37730638",
+    "doi": "10.1186/s13059-023-03049-x",
+    "title": "DISCERN: deep single-cell expression reconstruction for improved cell clustering and cell subtype and state detection."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Single-cell sequencing provides detailed insights into biological processes including cell differentiation and identity. While providing deep cell-specific information, the method suffers from technical constraints, most notably a limited number of expressed genes per cell, which leads to suboptimal clustering and cell type identification. RESULTS: Here, we present DISCERN, a novel deep generative network that precisely reconstructs missing single-cell gene expression using a reference dataset. DISCERN outperforms competing algorithms in expression inference resulting in greatly improved cell clustering, cell type and activity detection, and insights into the cellular regulation of disease. We show that DISCERN is robust against differences between batches and is able to keep biological differences between batches, which is a common problem for imputation and batch correction algorithms. We use DISCERN to detect two unseen COVID-19-associated T cell types, cytotoxic CD4(+) and CD8(+) Tc2 T helper cells, with a potential role in adverse disease outcome. We utilize T cell fraction information of patient blood to classify mild or severe COVID-19 with an AUROC of 80% that can serve as a biomarker of disease stage. DISCERN can be easily integrated into existing single-cell sequencing workflow. CONCLUSIONS: Thus, DISCERN is a flexible tool for reconstructing missing single-cell gene expression using a reference dataset and can easily be applied to a variety of data sets yielding novel insights, e.g., into disease mechanisms.",
+    "keywords": [
+      "Auto encoder",
+      "Batch effect correction",
+      "COVID-19",
+      "Cell clustering",
+      "Cell type identification",
+      "Deep Learning",
+      "Expression reconstruction",
+      "Imputation",
+      "Machine Learning",
+      "Probabilistic modeling",
+      "RNA sequencing",
+      "Reference atlas mapping",
+      "Single-cell RNA-seq",
+      "T helper cell",
+      "Transcription factor analysis",
+      "Transfer learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19/genetics",
+      "Algorithms",
+      "Cell Cycle",
+      "Cell Differentiation",
+      "Cluster Analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hausmann, Fabian",
+        "Ergen, Can",
+        "Khatri, Robin",
+        "Marouf, Matteo",
+        "Hanzelmann, Sonja",
+        "Gagliani, Nicola",
+        "Huber, Samuel",
+        "Machart, Pierre",
+        "Bonn, Stefan"
+      ],
+      "short_names": [
+        "Hausmann F",
+        "Ergen C",
+        "Khatri R",
+        "Marouf M",
+        "Hanzelmann S",
+        "Gagliani N",
+        "Huber S",
+        "Machart P",
+        "Bonn S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4366-5662"
+      ],
+      "affiliations": [
+        "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "III. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Hamburg Center for Translational Immunology (HCTI), I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Department of General, Visceral and Thoracic Surgery, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Section of Molecular Immunology und Gastroenterology, I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Hamburg Center for Translational Immunology (HCTI), I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany.",
+        "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany. sbonn@uke.de.",
+        "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany. sbonn@uke.de.",
+        "Hamburg Center for Translational Immunology (HCTI), I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistrasse 52, 20246, Hamburg, Germany. sbonn@uke.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hausmann, Fabian",
+        "short_name": "Hausmann F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Ergen, Can",
+        "short_name": "Ergen C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Khatri, Robin",
+        "short_name": "Khatri R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Marouf, Matteo",
+        "short_name": "Marouf M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hänzelmann, Sonja",
+        "short_name": "Hänzelmann S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "III. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gagliani, Nicola",
+        "short_name": "Gagliani N",
+        "identifiers": [],
+        "affiliations": [
+          "I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Hamburg Center for Translational Immunology (HCTI), I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Department of General, Visceral and Thoracic Surgery, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Section of Molecular Immunology und Gastroenterology, I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Huber, Samuel",
+        "short_name": "Huber S",
+        "identifiers": [],
+        "affiliations": [
+          "I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Hamburg Center for Translational Immunology (HCTI), I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Machart, Pierre",
+        "short_name": "Machart P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany.",
+          "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bonn, Stefan",
+        "short_name": "Bonn S",
+        "identifiers": [
+          "0000-0003-4366-5662"
+        ],
+        "affiliations": [
+          "Institute of Medical Systems Biology, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany. sbonn@uke.de.",
+          "Center for Biomedical AI, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany. sbonn@uke.de.",
+          "Hamburg Center for Translational Immunology (HCTI), I. Department of Medicine, University Medical Center Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg, Germany. sbonn@uke.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2023 Sep 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/21 00:42",
+    "fetched_at": "2026-09-29 07:17:46"
+  },
+  "links": {
+    "cites": [
+      "42509242",
+      "42184107",
+      "41803090",
+      "41660561",
+      "40720279",
+      "40696440",
+      "39523623",
+      "38729109",
+      "38689377"
+    ],
+    "refs": [
+      "36511385",
+      "35474868",
+      "35132262",
+      "35063006",
+      "35017482",
+      "34988441",
+      "34980144",
+      "34949812",
+      "34712062",
+      "34462589",
+      "34396514",
+      "34282327",
+      "34125286",
+      "34035047",
+      "34017124",
+      "34011519",
+      "33930287",
+      "33879890",
+      "33751111",
+      "33662621",
+      "33622974",
+      "33491336",
+      "33381839",
+      "33311473",
+      "33221703",
+      "33096020",
+      "33064842",
+      "33029585",
+      "32926425",
+      "32854757",
+      "32762710",
+      "32702400",
+      "32632085",
+      "32518404",
+      "32341560",
+      "32226427",
+      "32117317",
+      "32033589",
+      "31971583",
+      "31919373",
+      "31780648",
+      "31745340",
+      "31627739",
+      "31363220",
+      "31278120",
+      "31243349",
+      "31217225",
+      "31178118",
+      "31060596",
+      "30951143",
+      "30914743",
+      "30906525",
+      "30742040",
+      "30726743",
+      "30674886",
+      "30620397",
+      "30555473",
+      "30555458",
+      "30536524",
+      "29961576",
+      "29914354",
+      "29577371",
+      "29520097",
+      "29409532",
+      "29348443",
+      "28991892",
+      "28759029",
+      "28515365",
+      "28507030",
+      "28091601",
+      "27932286",
+      "27864352",
+      "27693023",
+      "27667667",
+      "27667365",
+      "27346359",
+      "27345837",
+      "27012367",
+      "26845249",
+      "26637539",
+      "26474968",
+      "26405587",
+      "25446972",
+      "24919153",
+      "24575371",
+      "24559918",
+      "24524124",
+      "24258910",
+      "23586463",
+      "22974359",
+      "22539793",
+      "22132193",
+      "21829468",
+      "21763119",
+      "21632975",
+      "21511185",
+      "20624644",
+      "20307208",
+      "19380817",
+      "18191595",
+      "18164222",
+      "16199517",
+      "16143398",
+      "15210650",
+      "12588667"
+    ],
+    "similar": [
+      "37730638",
+      "39461162",
+      "38776196",
+      "33098418",
+      "37991248",
+      "35302164",
+      "36321557",
+      "38168839",
+      "40811249",
+      "36631401",
+      "37313714",
+      "37898127",
+      "35821114",
+      "32532794",
+      "41257571",
+      "37948464",
+      "35836114",
+      "32393754",
+      "40152244",
+      "40728858",
+      "34424948",
+      "37208992",
+      "31405383",
+      "33927748",
+      "40838782",
+      "36047285",
+      "38386700",
+      "34035047",
+      "39373051",
+      "40826008",
+      "36734596",
+      "31889137",
+      "34929734",
+      "37738898",
+      "33430769",
+      "40841610",
+      "32649756",
+      "34472585",
+      "38801694",
+      "32674393",
+      "33535230",
+      "38758925",
+      "38123569",
+      "37903416",
+      "37428794",
+      "38426327",
+      "32591778",
+      "35591853",
+      "34999761",
+      "39134412",
+      "37122068",
+      "39900656",
+      "39957720",
+      "35901457",
+      "39881248",
+      "39561511",
+      "36825817",
+      "41191468",
+      "39487083",
+      "38600665",
+      "38778573",
+      "38866896",
+      "36089561",
+      "40811173",
+      "38689234",
+      "38230824",
+      "35697529",
+      "40660409",
+      "40499345",
+      "35419595",
+      "41043336",
+      "37769630",
+      "41462067",
+      "35404970",
+      "33388506",
+      "41409156",
+      "38380499",
+      "40579791",
+      "29244011",
+      "40713495",
+      "38960404",
+      "39804726",
+      "39591807",
+      "38684178",
+      "35914950",
+      "33307360",
+      "37660567",
+      "39715686",
+      "31262249",
+      "35575729",
+      "35443717",
+      "31286861",
+      "40429912",
+      "40511990",
+      "38248911",
+      "31566233",
+      "35172892",
+      "36982574",
+      "33822877",
+      "39264790"
+    ],
+    "review": [
+      "37730638",
+      "36321557"
+    ],
+    "pmc": [
+      "10510283"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03049-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37730638/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37730638",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

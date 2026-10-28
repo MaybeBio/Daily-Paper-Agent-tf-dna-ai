@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "40716784",
+    "doi": "10.1080/0886022X.2025.2532856",
+    "title": "CCR2 and TLR3: noninvasive macrophage-associated biomarkers of acute renal transplant rejection."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The study aims to investigate the role and significance of macrophage-related genes in peripheral blood during acute renal transplant rejection. METHODS: Based on the dataset GSE15296, differential genes (DEGs) were intersected with macrophage-associated genes (MAGs), which defined as macrophage-associated genes (DEMAGs). Subsequently, GO and KEGG enrichment analyses were performed on DEMAGs. The PPI protein interaction network and machine learning were applied to identify Hub genes, which were also validated by GSE46474, an external validation set. We constructed a rat model of acute rejection of kidney transplantation and sequenced the transcriptome of the serum, and using the sequencing results, we analyzed the expression levels of the Hub gene. Then, a correlation analysis was carried out based on the Hub genes and different immune cell infiltration levels. Finally, GRNdb, miRDB, and GeneCards databases were applied to study the transcription factors, miRNAs, and regulatory drugs of Hub genes, respectively. RESULTS: The results of the Cibersort analysis revealed that M2-type macrophages were expressed higher in the Normal group. In addition, the results of the correlation analysis suggested that the expressions of Hub genes were negatively correlated with M1-type macrophages and positively correlated with M2-type macrophages. CONCLUSION: A diagnostic model of the macrophage-associated acute renal transplant rejection in peripheral blood was constructed based on CCR2 and TLR3, which can accurately diagnose the biological alterations of acute kidney transplant rejection. Meanwhile, these two Hub genes may become potential therapeutic targets in acute rejection of kidney transplantation.",
+    "keywords": [
+      "Renal transplantation",
+      "acute rejection",
+      "immune infiltration",
+      "macrophages",
+      "noninvasive"
+    ],
+    "mesh_terms": [
+      "*Graft Rejection/genetics/blood/immunology/diagnosis",
+      "*Kidney Transplantation/adverse effects",
+      "Animals",
+      "Rats",
+      "*Macrophages/metabolism/immunology",
+      "Biomarkers/blood",
+      "*Receptors, CCR2/genetics/metabolism",
+      "*Toll-Like Receptor 3/genetics/metabolism",
+      "Male",
+      "Disease Models, Animal",
+      "Protein Interaction Maps",
+      "Gene Expression Profiling",
+      "Humans",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Shili",
+        "Pan, Xingyu",
+        "Peng, Jinpu",
+        "Wu, Moudong",
+        "Zhan, Xiong",
+        "Wang, Wei",
+        "Zhu, Guohua",
+        "An, Nini",
+        "Pei, Jun"
+      ],
+      "short_names": [
+        "Wang S",
+        "Pan X",
+        "Peng J",
+        "Wu M",
+        "Zhan X",
+        "Wang W",
+        "Zhu G",
+        "An N",
+        "Pei J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China.",
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China.",
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China.",
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China.",
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China.",
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China.",
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China.",
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China.",
+        "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+        "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Shili",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Xingyu",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Jinpu",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Moudong",
+        "short_name": "Wu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Xiong",
+        "short_name": "Zhan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Guohua",
+        "short_name": "Zhu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "An, Nini",
+        "short_name": "An N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Jun",
+        "short_name": "Pei J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Urology, Guizhou Branch of Shanghai Children's Medical Center Shanghai Jiaotong University School of Medicine, Guiyang, China.",
+          "Department of Pediatric surgrey, Guizhou Provincial People's Hospital, Guiyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Renal failure"
+    ],
+    "journal_abbrev": [
+      "Ren Fail"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 04:06",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38868713",
+      "38564938",
+      "38032300",
+      "36419829",
+      "36087984",
+      "35788820",
+      "35676565",
+      "35614941",
+      "35432371",
+      "35418973",
+      "35371047",
+      "35303998",
+      "34922989",
+      "34856328",
+      "34414698",
+      "34320366",
+      "33676929",
+      "33523298",
+      "33151298",
+      "33151290",
+      "32234529",
+      "32066593",
+      "31781108",
+      "31530089",
+      "31504780",
+      "30981567",
+      "30671435",
+      "30602462",
+      "30582448",
+      "30165385",
+      "29512515",
+      "29425488",
+      "29425089",
+      "29319160",
+      "27771140",
+      "27285579",
+      "25287052",
+      "16226499"
+    ],
+    "similar": [
+      "40716784",
+      "38957433",
+      "38815767",
+      "39096939",
+      "40624201",
+      "38564938",
+      "34368360",
+      "35432371",
+      "34975915",
+      "37033969",
+      "40147738",
+      "36776400",
+      "39002808",
+      "32791489",
+      "41217598",
+      "39433868",
+      "39181167",
+      "41198554",
+      "39756163",
+      "41044520",
+      "35016690",
+      "23602870",
+      "33230903",
+      "40895573",
+      "34321013",
+      "40300424",
+      "35058922",
+      "41200203",
+      "40977739",
+      "39069636",
+      "39375405",
+      "38955248",
+      "39632251",
+      "31278196",
+      "39079197",
+      "41112266",
+      "39923303",
+      "40808944",
+      "39914590",
+      "40055592",
+      "30396694",
+      "40591166",
+      "38867262",
+      "41145553",
+      "34663380",
+      "36969159",
+      "35713363",
+      "40973872",
+      "38440722",
+      "40561071",
+      "39549926",
+      "39870856",
+      "41033459",
+      "28849286",
+      "41107929",
+      "38863714",
+      "38538559",
+      "38499050",
+      "36238494",
+      "39442187",
+      "39884182",
+      "40681545",
+      "33148975",
+      "39953769",
+      "34620649",
+      "39308866",
+      "39622393",
+      "40858849",
+      "39173977",
+      "11981428",
+      "39080525",
+      "29977931",
+      "39715172",
+      "38987688",
+      "39735537",
+      "40821971",
+      "39395380",
+      "38774257",
+      "41350331",
+      "38319987",
+      "40174368",
+      "40091022",
+      "40759993",
+      "40596704",
+      "39284931",
+      "36125921",
+      "41122706",
+      "40263537",
+      "40086342",
+      "38552291",
+      "41101233",
+      "38885209",
+      "24056626",
+      "33015198",
+      "32799786",
+      "41142786",
+      "31373158",
+      "39351239",
+      "40491449",
+      "41146237"
+    ],
+    "review": [
+      "40716784"
+    ],
+    "pmc": [
+      "12302474"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/0886022X.2025.2532856?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneytransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Transplantation"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40716784/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

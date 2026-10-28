@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "35115618",
+    "doi": "10.1038/s41598-022-05995-1",
+    "title": "Molecular insights into the interaction of HPV-16 E6 variants against MAGI-1 PDZ1 domain."
+  },
+  "content": {
+    "abstract": "Oncogenic protein E6 from Human Papilloma Virus 16 (HPV-16) mediates the degradation of Membrane-associated guanylate kinase with inverted domain structure-1 (MAGI-1), throughout the interaction of its protein binding motif (PBM) with the Discs-large homologous regions 1 (PDZ1) domain of MAG1-1. Generic variation in the E6 gene that translates to changes in the protein's amino acidic sequence modifies the interaction of E6 with the cellular protein MAGI-1. MAGI-1 is a scaffolding protein found at tight junctions of epithelial cells, where it interacts with a variety of proteins regulating signaling pathways. MAGI-1 is a multidomain protein containing two WW (rsp-domain-9), one guanylate kinase-like, and six PDZ domains. PDZ domains played an important role in the function of MAGI-1 and served as targets for several viral proteins including the HPV-16 E6. The aim of this work was to evaluate, with an in silico approach, employing molecular dynamics simulation and protein-protein docking, the interaction of the intragenic variants E-G350 (L83V), E-C188/G350 (E29Q/L83V), E-A176/G350 (D25N/L83V), E6-AAa (Q14H/H78Y/83V) y E6-AAc (Q14H/I27RH78Y/L83V) and E6-reference of HPV-16 with MAGI-1. We found that variants E-G350, E-C188/G350, E-A176/G350, AAa and AAc increase their affinity to our two models of MAGI-1 compared to E6-reference.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adaptor Proteins, Signal Transducing/genetics/*metabolism",
+      "Cell Adhesion Molecules/genetics/*metabolism",
+      "Enzyme Stability",
+      "Guanylate Kinases/genetics/*metabolism",
+      "Human papillomavirus 16/genetics/*metabolism",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*Molecular Dynamics Simulation",
+      "Oncogene Proteins, Viral/genetics/*metabolism",
+      "PDZ Domains",
+      "Point Mutation",
+      "Protein Binding",
+      "Proteolysis",
+      "Repressor Proteins/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Araujo-Arcos, Lilian Esmeralda",
+        "Montano, Sarita",
+        "Bello-Rios, Ciresthel",
+        "Garibay-Cerdenares, Olga Lilia",
+        "Leyva-Vazquez, Marco Antonio",
+        "Illades-Aguiar, Berenice"
+      ],
+      "short_names": [
+        "Araujo-Arcos LE",
+        "Montano S",
+        "Bello-Rios C",
+        "Garibay-Cerdenares OL",
+        "Leyva-Vazquez MA",
+        "Illades-Aguiar B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Quimico-Biologicas, Universidad Autonoma de Guerrero, 39090, Chilpancingo, CP, Mexico.",
+        "Laboratorio de Bioinformatica y Simulacion Molecular, Facultad de Ciencias Quimico Biologicas, Universidad Autonoma de Sinaloa, 80030, Culiacan Sinaloa, CP, Mexico. mmontano@uas.edu.mx.",
+        "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Quimico-Biologicas, Universidad Autonoma de Guerrero, 39090, Chilpancingo, CP, Mexico.",
+        "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Quimico-Biologicas, Universidad Autonoma de Guerrero, 39090, Chilpancingo, CP, Mexico.",
+        "CONACyT-Universidad Autonoma de Guerrero, 39087, Chilpancingo, CP, Mexico.",
+        "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Quimico-Biologicas, Universidad Autonoma de Guerrero, 39090, Chilpancingo, CP, Mexico.",
+        "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Quimico-Biologicas, Universidad Autonoma de Guerrero, 39090, Chilpancingo, CP, Mexico. b.illadesaguiar@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Araujo-Arcos, Lilian Esmeralda",
+        "short_name": "Araujo-Arcos LE",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Químico-Biológicas, Universidad Autonóma de Guerrero, 39090, Chilpancingo, CP, México."
+        ]
+      },
+      {
+        "full_name": "Montaño, Sarita",
+        "short_name": "Montaño S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Bioinformática y Simulación Molecular, Facultad de Ciencias Químico Biológicas, Universidad Autónoma de Sinaloa, 80030, Culiacán Sinaloa, CP, México. mmontano@uas.edu.mx."
+        ]
+      },
+      {
+        "full_name": "Bello-Rios, Ciresthel",
+        "short_name": "Bello-Rios C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Químico-Biológicas, Universidad Autonóma de Guerrero, 39090, Chilpancingo, CP, México."
+        ]
+      },
+      {
+        "full_name": "Garibay-Cerdenares, Olga Lilia",
+        "short_name": "Garibay-Cerdenares OL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Químico-Biológicas, Universidad Autonóma de Guerrero, 39090, Chilpancingo, CP, México.",
+          "CONACyT-Universidad Autónoma de Guerrero, 39087, Chilpancingo, CP, México."
+        ]
+      },
+      {
+        "full_name": "Leyva-Vázquez, Marco Antonio",
+        "short_name": "Leyva-Vázquez MA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Químico-Biológicas, Universidad Autonóma de Guerrero, 39090, Chilpancingo, CP, México."
+        ]
+      },
+      {
+        "full_name": "Illades-Aguiar, Berenice",
+        "short_name": "Illades-Aguiar B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biomedicina Molecular, Facultad de Ciencias Químico-Biológicas, Universidad Autonóma de Guerrero, 39090, Chilpancingo, CP, México. b.illadesaguiar@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2022 Feb 3",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/05 06:00",
+    "fetched_at": "2026-09-28 04:46:35"
+  },
+  "links": {
+    "cites": [
+      "42654731",
+      "42347638",
+      "41546816",
+      "41144400",
+      "40873032",
+      "39464070",
+      "39170128",
+      "38927930",
+      "38748774",
+      "38334822",
+      "38020382",
+      "36016346",
+      "35955700",
+      "35620479"
+    ],
+    "refs": [
+      "33573298",
+      "33237286",
+      "33211854",
+      "31426742",
+      "28440909",
+      "28079879",
+      "28035815",
+      "27936493",
+      "27819658",
+      "27483446",
+      "27465494",
+      "26789255",
+      "26626512",
+      "26147797",
+      "25883148",
+      "25752814",
+      "25590897",
+      "24159629",
+      "24010712",
+      "22951839",
+      "21527576",
+      "21238461",
+      "21059217",
+      "20842623",
+      "20509869",
+      "20383192",
+      "20354192",
+      "19444816",
+      "19244625",
+      "18986660",
+      "18618698",
+      "18467125",
+      "18424796",
+      "17854024",
+      "17405118",
+      "17308103",
+      "17287269",
+      "17267502",
+      "17209544",
+      "17166906",
+      "17121805",
+      "16933296",
+      "16878151",
+      "16519914",
+      "16350414",
+      "16222654",
+      "15821164",
+      "15767424",
+      "15492812",
+      "15448342",
+      "15140991",
+      "12444549",
+      "12140759",
+      "11571640",
+      "11391022",
+      "11077444",
+      "11027293",
+      "11000240",
+      "10493868",
+      "9931001",
+      "9895674",
+      "9433130",
+      "9396791",
+      "9395497",
+      "8744570",
+      "7644498"
+    ],
+    "similar": [
+      "35115618",
+      "24696483",
+      "21123374",
+      "20842623",
+      "17267502",
+      "31597772",
+      "21489588",
+      "33893080",
+      "30810519",
+      "29346075",
+      "11571640",
+      "12444549",
+      "18986660",
+      "12140759",
+      "11077444",
+      "18518978",
+      "33762416",
+      "22623796",
+      "25797137",
+      "31426742",
+      "31092861",
+      "25889023",
+      "12768014",
+      "24093094",
+      "17713926",
+      "23638119",
+      "28835500",
+      "21238461",
+      "18467125",
+      "21680517",
+      "26655236",
+      "15383320",
+      "15378012",
+      "33486056",
+      "24293186",
+      "23404471",
+      "16519914",
+      "18452965",
+      "22911767",
+      "26789255",
+      "22553330",
+      "29848585",
+      "17166906",
+      "38874360",
+      "22160870",
+      "23175360",
+      "34371146",
+      "26014966",
+      "14625386",
+      "21113079",
+      "16155592",
+      "26318249",
+      "11127819",
+      "36609831",
+      "17934525",
+      "19358280",
+      "16870733",
+      "15507623",
+      "11168587",
+      "24610458",
+      "24503077",
+      "27537218",
+      "33984442",
+      "17854024",
+      "28440909",
+      "11526121",
+      "31002735",
+      "22718816",
+      "17287269",
+      "38958925",
+      "19640984",
+      "31693922",
+      "25590897",
+      "30230542",
+      "23804647",
+      "23279616",
+      "27465494",
+      "35089587",
+      "20298433",
+      "30875378",
+      "25355882",
+      "28786561",
+      "14698292",
+      "21980285",
+      "17311337",
+      "28636914",
+      "24352452",
+      "25691589",
+      "25622559",
+      "24099556",
+      "23769981",
+      "25540819",
+      "21130481",
+      "10760291",
+      "15448342",
+      "31609195",
+      "27483446",
+      "23393263",
+      "18971469",
+      "28061478",
+      "31552532",
+      "11969287",
+      "27649450",
+      "36326272",
+      "16699010",
+      "39060289",
+      "17267478",
+      "35389514",
+      "14645510",
+      "37163606",
+      "36775199",
+      "37200868",
+      "34503076",
+      "36834839",
+      "38352565",
+      "26124567",
+      "36699383"
+    ],
+    "review": [
+      "35115618",
+      "38958925",
+      "35389514"
+    ],
+    "pmc": [
+      "8814009"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-022-05995-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35115618/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35115618",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

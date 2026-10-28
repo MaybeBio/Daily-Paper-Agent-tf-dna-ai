@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34882561",
+  "title": "Predicting In-Vitro DNA-Protein Binding With a Spatially Aligned Fusion of Sequence and Shape.",
+  "authors": "Zhang, Qinhu; Zhang, Yindong; Wang, Siguo; Chen, Zhan-Heng; Gribova, Valeriya; Filaretov, Vladimir Fedorovich; Huang, De-Shuang",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2021-12-10",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出融合DNA序列与形状特征的空间对齐深度学习模型hybridShape eDeepCNN，用于预测TF-DNA结合位点，核心聚焦TF-DNA互作且方法为AI建模，高度匹配课题。",
+  "abstract": "Discovery of transcription factor binding sites (TFBSs) is of primary importance for understanding the underlying binding mechanic and gene regulation process. Growing evidence indicates that apart from the primary DNA sequences, DNA shape landscape has a significant influence on transcription factor binding preference. To effectively model the co-influence of sequence and shape features, we emphasize the importance of position information of sequence motif and shape pattern. In this paper, we propose a novel deep learning-based architecture, named hybridShape eDeepCNN, for TFBS prediction which integrates DNA sequence and shape information in a spatially aligned manner. Our model utilizes the power of the multi-layer convolutional neural network and constructs an independent subnetwork to adapt for the distinct data distribution of heterogeneous features. Besides, we explore the usage of continuous embedding vectors as the representation of DNA sequences. Based on the experiments on 20 in-vitro datasets derived from universal protein binding microarrays (uPBMs), we demonstrate the superiority of our proposed method and validate the underlying design logic.",
+  "abstract_zh": "转录因子结合位点（TFBSs）的发现对于理解潜在的结合机制和基因调控过程至关重要。越来越多的证据表明，除了初级DNA序列外，DNA形状景观对转录因子结合偏好有显著影响。为了有效模拟序列和形状特征的共同影响，我们强调序列基序和形状模式位置信息的重要性。本文提出了一种新颖的基于深度学习的架构，名为hybridShape eDeepCNN，用于TFBS预测，该架构以空间对齐的方式整合DNA序列和形状信息。我们的模型利用多层卷积神经网络的能力，并构建独立的子网络以适应异质特征的不同数据分布。此外，我们探索了使用连续嵌入向量作为DNA序列表示的方法。基于从通用蛋白结合微阵列（uPBMs）衍生的20个体外数据集的实验，我们证明了所提方法的优越性，并验证了其底层设计逻辑。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34882561/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34882561/",
+  "paper_page_path": "papers/pubmed/34882561/index.html"
+}

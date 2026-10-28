@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "34428697",
+    "doi": "10.1016/j.dnarep.2021.103194",
+    "title": "Impact of DNA sequences on DNA 'opening' by the Rad4/XPC nucleotide excision repair complex."
+  },
+  "content": {
+    "abstract": "Rad4/XPC recognizes diverse DNA lesions to initiate nucleotide excision repair (NER). However, NER propensities among lesions vary widely and repair-resistant lesions are persistent and thus highly mutagenic. Rad4 recognizes repair-proficient lesions by unwinding ('opening') the damaged DNA site. Such 'opening' is also observed on a normal DNA sequence containing consecutive C/G's (CCC/GGG) when tethered to Rad4 to prevent protein diffusion. However, it was unknown if such tethering-facilitated DNA 'opening' could occur on any DNA or if certain structures/sequences would resist being 'opened'. Here, we report that DNA containing alternating C/G's (CGC/GCG) failed to be opened even when tethered; instead, Rad4 bound in a 180 degrees -reversed manner, capping the DNA end. Fluorescence lifetime studies of DNA conformations in solution showed that CCC/GGG exhibits local pre-melting that is absent in CGC/GCG. In MD simulations, CGC/GCG failed to engage Rad4 to promote 'opening' contrary to CCC/GGG. Altogether, our study illustrates how local sequences can impact DNA recognition by Rad4/XPC and how certain DNA sites resist being 'opened' even with Rad4 held at that site indefinitely. The contrast between CCC/GGG and CGC/GCG sequences in Rad4-DNA recognition may help decipher a lesion's mutagenicity in various genomic sequence contexts to explain lesion-determined mutational hot and cold spots.",
+    "keywords": [
+      "DNA damage recognition",
+      "Fluorescence lifetime",
+      "Forster resonance energy transfer",
+      "Molecular dynamics simulation",
+      "Nucleotide excision repair",
+      "Protein-DNA interaction",
+      "Rad4",
+      "Sequence impact",
+      "Time-resolved fluorescence",
+      "XPC",
+      "Xeroderma pigmentosum",
+      "x-ray crystallography"
+    ],
+    "mesh_terms": [
+      "Base Sequence",
+      "DNA/metabolism/chemistry",
+      "DNA Damage",
+      "*DNA Repair",
+      "DNA-Binding Proteins/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Nucleic Acid Conformation",
+      "Protein Binding",
+      "Saccharomyces cerevisiae/metabolism/genetics",
+      "*Saccharomyces cerevisiae Proteins/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Paul, Debamita",
+        "Mu, Hong",
+        "Tavakoli, Amirrasoul",
+        "Dai, Qing",
+        "Chakraborty, Sagnik",
+        "He, Chuan",
+        "Ansari, Anjum",
+        "Broyde, Suse",
+        "Min, Jung-Hyun"
+      ],
+      "short_names": [
+        "Paul D",
+        "Mu H",
+        "Tavakoli A",
+        "Dai Q",
+        "Chakraborty S",
+        "He C",
+        "Ansari A",
+        "Broyde S",
+        "Min JH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, Baylor University, Waco, TX, 76798, USA.",
+        "Department of Biology, New York University, New York, NY, 10003, USA.",
+        "Department of Chemistry and Biochemistry, Baylor University, Waco, TX, 76798, USA.",
+        "Department of Chemistry, The University of Chicago, Chicago, IL, 60637, USA.",
+        "Department of Physics, University of Illinois at Chicago, Chicago, IL, 60607, USA.",
+        "Department of Chemistry, The University of Chicago, Chicago, IL, 60637, USA; Department of Biochemistry and Molecular Biology, Howard Hughes Medical Institute, The University of Chicago, Chicago, IL, 60637, USA.",
+        "Department of Physics, University of Illinois at Chicago, Chicago, IL, 60607, USA.",
+        "Department of Biology, New York University, New York, NY, 10003, USA. Electronic address: broyde@nyu.edu.",
+        "Department of Chemistry and Biochemistry, Baylor University, Waco, TX, 76798, USA. Electronic address: JungHyun_Min@baylor.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Paul, Debamita",
+        "short_name": "Paul D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Baylor University, Waco, TX, 76798, USA."
+        ]
+      },
+      {
+        "full_name": "Mu, Hong",
+        "short_name": "Mu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, New York University, New York, NY, 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Tavakoli, Amirrasoul",
+        "short_name": "Tavakoli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Baylor University, Waco, TX, 76798, USA."
+        ]
+      },
+      {
+        "full_name": "Dai, Qing",
+        "short_name": "Dai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of Chicago, Chicago, IL, 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Sagnik",
+        "short_name": "Chakraborty S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Illinois at Chicago, Chicago, IL, 60607, USA."
+        ]
+      },
+      {
+        "full_name": "He, Chuan",
+        "short_name": "He C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of Chicago, Chicago, IL, 60637, USA; Department of Biochemistry and Molecular Biology, Howard Hughes Medical Institute, The University of Chicago, Chicago, IL, 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Ansari, Anjum",
+        "short_name": "Ansari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Illinois at Chicago, Chicago, IL, 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Broyde, Suse",
+        "short_name": "Broyde S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, New York University, New York, NY, 10003, USA. Electronic address: broyde@nyu.edu."
+        ]
+      },
+      {
+        "full_name": "Min, Jung-Hyun",
+        "short_name": "Min JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Baylor University, Waco, TX, 76798, USA. Electronic address: JungHyun_Min@baylor.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "DNA repair"
+    ],
+    "journal_abbrev": [
+      "DNA Repair (Amst)"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/25 06:00",
+    "fetched_at": "2026-09-27 22:42:54"
+  },
+  "links": {
+    "cites": [
+      "39797732",
+      "39239360",
+      "36890638",
+      "35451661",
+      "33035795"
+    ],
+    "refs": [
+      "34041491",
+      "33771559",
+      "33119737",
+      "33010169",
+      "32170071",
+      "31588918",
+      "31558824",
+      "31374202",
+      "31372632",
+      "31253769",
+      "31142837",
+      "31106376",
+      "30982602",
+      "30659176",
+      "30284444",
+      "29973595",
+      "29581276",
+      "29267981",
+      "28750166",
+      "28673677",
+      "28607059",
+      "28512237",
+      "28334906",
+      "27754618",
+      "27720644",
+      "27716995",
+      "27688757",
+      "27457959",
+      "27327897",
+      "27294439",
+      "27071131",
+      "27035942",
+      "26921407",
+      "26627236",
+      "26481112",
+      "26225450",
+      "26150418",
+      "26100901",
+      "25934506",
+      "25901318",
+      "25628365",
+      "25562780",
+      "25260586",
+      "24784728",
+      "24760829",
+      "24086042",
+      "23570232",
+      "22977181",
+      "22904073",
+      "22822215",
+      "22730295",
+      "22504734",
+      "22242833",
+      "22135299",
+      "21962512",
+      "21741328",
+      "21491902",
+      "21460441",
+      "20871811",
+      "20864419",
+      "20798892",
+      "20399214",
+      "20385089",
+      "20383002",
+      "20016485",
+      "19850719",
+      "19208636",
+      "19162041",
+      "19111649",
+      "18948114",
+      "18854319",
+      "18574675",
+      "17962020",
+      "17942115",
+      "17882165",
+      "17276014",
+      "17154534",
+      "16464005",
+      "16460043",
+      "16125103",
+      "16061937",
+      "15268405",
+      "14634210",
+      "12930962",
+      "12547395",
+      "12505994",
+      "12456887",
+      "12228925",
+      "12022861",
+      "11916879",
+      "11267833",
+      "11238373",
+      "10978547",
+      "10873465",
+      "10766171",
+      "9753551",
+      "9736707",
+      "9685504",
+      "8810263",
+      "8752675",
+      "8702634",
+      "8530394",
+      "7897660",
+      "7737185",
+      "7638271",
+      "3028790",
+      "1924370"
+    ],
+    "similar": [
+      "34428697",
+      "33119737",
+      "29267981",
+      "32047903",
+      "30284444",
+      "27035942",
+      "31106376",
+      "28460163",
+      "25562780",
+      "17882165",
+      "27720644",
+      "29474070",
+      "34099686",
+      "23443653",
+      "33035795",
+      "15545636",
+      "35451661",
+      "18387345",
+      "26270861",
+      "34041491",
+      "26422135",
+      "15916602",
+      "37757853",
+      "31372632",
+      "20876584",
+      "23295669",
+      "17912259",
+      "30174301",
+      "9837874",
+      "17964258",
+      "24051049",
+      "16595192",
+      "15601997",
+      "3073107",
+      "24277610",
+      "21968059",
+      "37076618",
+      "18160718",
+      "9734359",
+      "27327897",
+      "29283431",
+      "15964821",
+      "12509299",
+      "28760956",
+      "31627884",
+      "10946233",
+      "12486030",
+      "26278177",
+      "24784728",
+      "38634797",
+      "12509233",
+      "26100901",
+      "32075883",
+      "14981083",
+      "27264556",
+      "23758590",
+      "15226437",
+      "17013386",
+      "15914671",
+      "1920546",
+      "20028083",
+      "19889839",
+      "29631253",
+      "9813069",
+      "24084170",
+      "36890638",
+      "19941824",
+      "11238373",
+      "12420141",
+      "17682058",
+      "19953607",
+      "9685610",
+      "37655890",
+      "25118285",
+      "9001217",
+      "16105547",
+      "8065346",
+      "12949838",
+      "16675952",
+      "26042670",
+      "10873465",
+      "29103991",
+      "32018112",
+      "11259578",
+      "21135142",
+      "2649477",
+      "11267833",
+      "10454632",
+      "12022861",
+      "18809580",
+      "18774935",
+      "19609301",
+      "12713809",
+      "12771027",
+      "27223336",
+      "22813594",
+      "20649465",
+      "30840920",
+      "30466592",
+      "8196602"
+    ],
+    "review": [
+      "34428697",
+      "26422135",
+      "30174301",
+      "31627884",
+      "10946233",
+      "27264556"
+    ],
+    "pmc": [
+      "8934541"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1568-7864(21)00150-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34428697/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34428697",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

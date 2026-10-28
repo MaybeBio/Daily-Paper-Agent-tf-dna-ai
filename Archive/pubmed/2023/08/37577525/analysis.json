@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37577525",
+  "title": "Continuous lifelong learning for modeling of gene regulation from single cell multiome data by leveraging atlas-scale external data.",
+  "authors": "Yuan, Qiuyue; Duren, Zhana",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-08-14",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出深度学习方法LINGER，从单细胞多组学数据推断基因调控网络，利用TF基序匹配与染色质可及性建模TF-DNA调控关系，属于广义蛋白-DNA互作建模，方法可迁移至TF-DNA结合预测，但非直接聚焦三维互作机制。",
+  "abstract": "Accurate context-specific Gene Regulatory Networks (GRNs) inference from genomics data is a crucial task in computational biology. However, existing methods face limitations, such as reliance on gene expression data alone, lower resolution from bulk data, and data scarcity for specific cellular systems. Despite recent technological advancements, including single-cell sequencing and the integration of ATAC-seq and RNA-seq data, learning such complex mechanisms from limited independent data points still presents a daunting challenge, impeding GRN inference accuracy. To overcome this challenge, we present LINGER (LIfelong neural Network for GEne Regulation), a novel deep learning-based method to infer GRNs from single-cell multiome data with paired gene expression and chromatin accessibility data from the same cell. LINGER incorporates both 1) atlas-scale external bulk data across diverse cellular contexts and 2) the knowledge of transcription factor (TF) motif matching to cis-regulatory elements as a manifold regularization to address the challenge of limited data and extensive parameter space in GRN inference. Our results demonstrate that LINGER achieves 2-3 fold higher accuracy over existing methods. LINGER reveals a complex regulatory landscape of genome-wide association studies, enabling enhanced interpretation of disease-associated variants and genes. Additionally, following the GRN inference from a reference sc-multiome data, LINGER allows for the estimation of TF activity solely from bulk or single-cell gene expression data, leveraging the abundance of available gene expression data to identify driver regulators from case-control studies. Overall, LINGER provides a comprehensive tool for robust gene regulation inference from genomics data, empowering deeper insights into cellular mechanisms.",
+  "abstract_zh": "从基因组数据中准确推断特定情境下的基因调控网络（Gene Regulatory Networks, GRNs）是计算生物学中的一项关键任务。然而，现有方法面临诸多限制，例如仅依赖基因表达数据、批量数据分辨率较低，以及特定细胞系统的数据稀缺。尽管近期技术有所进步，包括单细胞测序以及ATAC-seq和RNA-seq数据的整合，但从有限的独立数据点中学习如此复杂的机制仍构成严峻挑战，阻碍了GRN推断的准确性。为克服这一挑战，我们提出了LINGER（LIfelong neural Network for GEne Regulation），一种基于深度学习的新方法，用于从同一细胞中配对基因表达和染色质可及性数据的单细胞多组学数据中推断GRNs。LINGER整合了1）跨多种细胞情境的大规模外部批量数据，以及2）转录因子（transcription factor, TF）基序匹配至顺式调控元件的知识，作为流形正则化，以应对GRN推断中数据有限和参数空间庞大的挑战。我们的结果表明，LINGER在准确性上比现有方法提高了2-3倍。LINGER揭示了全基因组关联研究的复杂调控景观，增强了对疾病相关变异和基因的解读能力。此外，在从参考单细胞多组学数据推断GRN后，LINGER允许仅基于批量或单细胞基因表达数据估计TF活性，利用丰富的可用基因表达数据来识别病例对照研究中的驱动调控因子。总体而言，LINGER为从基因组数据中进行稳健的基因调控推断提供了一个全面工具，助力更深入地洞察细胞机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37577525/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37577525/",
+  "paper_page_path": "papers/pubmed/37577525/index.html"
+}

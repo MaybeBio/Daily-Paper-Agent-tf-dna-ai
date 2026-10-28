@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41035687",
+  "title": "Efficient inference, training, and fine-tuning of protein language models.",
+  "authors": "Celik, Muhammed Hasan; Xie, Xiaohui",
+  "journal": "iScience",
+  "published_date": "2025-10-02",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文优化蛋白质语言模型ESM的计算效率，并展示其在转录因子识别等蛋白功能预测上的应用，虽涉及TF识别但非TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "Protein language models (PLMs) have shown great promise in protein structure and function predictions, but their adoption is limited by computational cost. We address this challenge by enhancing the efficiency of evolutionary scale modeling (ESM). Using FlashAttention and sequence packing, we achieve 4-9x faster inference and 3-14x lower memory usage. Four-bit quantization of billion-parameter models further reduces memory by 2-3x while preserving accuracy for missense variant effect prediction. Training is also optimized, cutting runtime 6-fold with methods, such as activation checkpointing and DeepSpeed zero-offload. Parameter-efficient fine-tuning of a few adapter weights yields state-of-the-art performance at protein property and function predictions, resulting in 70% Spearman's correlation for melting point and 87% AU-PRC for transcription factor identification. Our efficient ESM (ESME) implementation significantly lowers the barrier to using these powerful models, making them accessible to academic laboratories with limited computational resources. The code is available on GitHub.",
+  "abstract_zh": "蛋白质语言模型（PLMs）在蛋白质结构和功能预测方面展现出巨大潜力，但其应用受限于计算成本。我们通过提升进化尺度建模（ESM）的效率来应对这一挑战。利用FlashAttention和序列打包技术，我们实现了4-9倍的推理加速和3-14倍的内存占用降低。对十亿参数模型进行四比特量化，进一步将内存需求减少2-3倍，同时保持错义变异效应预测的准确性。训练过程也得到优化，通过激活检查点和DeepSpeed零卸载等方法，运行时间缩短了6倍。对少量适配器权重进行参数高效微调，在蛋白质性质和功能预测中达到了最先进的性能，熔点的Spearman相关系数达到70%，转录因子识别的AU-PRC达到87%。我们高效的ESM（ESME）实现显著降低了使用这些强大模型的门槛，使计算资源有限的学术实验室也能轻松访问。代码已在GitHub上公开。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41035687/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41035687/",
+  "paper_page_path": "papers/pubmed/41035687/index.html"
+}

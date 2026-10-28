@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results and discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence
+- **Shared manuscript claim summary** The authors report that the generation of amine-terminated PAMAM dendrimers (G3–G7) and the composition of nucleic acid nanoparticles (DNA vs. RNA cubes) jointly govern cellular uptake and immune recognition. They combine molecular dynamics simulations, 2D and 3D cell culture models, and reporter cell lines to support this claim.
+- **Visible evidence base** MD simulation analyses (surface coverage, hydrogen bonding, electrostatic interactions, binding free energies, RMSD), EMSA binding assays, monolayer uptake and viability data, spheroid uptake and viability data, OrganoPlate Caco-2 uptake and TEER data, and reporter cell line activation data (HEK-Lucia RIG-I, THP1-Dual)
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; exact numerical data for many reported effects; statistical analysis details; experimental replicates for some assays; detailed protocols for cell culture and transfection; raw MD trajectory data
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in nucleic acid nanomedicine, namely how delivery vehicle generation and NANP composition jointly influence uptake and immune activation. The combination of computational and experimental approaches is commendable. However, the evidence as presented is incomplete in several critical respects. Key quantitative data are not shown, statistical treatment is not described, and some conclusions appear to extend beyond what the described experiments can support. The manuscript has potential but requires substantial revision and additional data before the central claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in nucleic acid nanomedicine, drug delivery, and immunology would be interested. The work addresses practical questions about how delivery vehicle properties affect NANP-based therapeutic outcomes, which is directly relevant to the design of adjuvants and nucleic acid therapeutics. The comparative analysis of dendrimer generations and the inclusion of 3D models may also interest those working on translational aspects of nanomedicine.
+- **Major strengths** The study addresses a timely and important question about how delivery vehicle properties affect NANP function. The use of multiple complementary approaches (MD simulations, 2D and 3D cell models, reporter cell lines) is a strength. The inclusion of 3D spheroid and OrganoPlate models adds translational relevance. The comparison of DNA vs. RNA NANPs of identical sequence is a well-designed control.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that dendrimer generation and NANP composition influence cellular uptake and immune responses, with specific patterns such as G6 showing highest uptake in monolayers and G7 in OrganoPlates.
+  - **Evidence pointer** Results and Discussion sections on monolayer uptake, spheroid uptake, and OrganoPlate experiments; Figures 4, 5, 6 (referenced but not provided)
+  - **Concern** The central quantitative data supporting the uptake claims are not visible in the provided material. Figures are referenced but not included, and no numerical values, error bars, or statistical comparisons are presented in the text. The reader cannot assess the magnitude of the reported effects, the variability between replicates, or whether differences between dendrimer generations are statistically significant.
+  - **Why it matters** The core conclusion that dendrimer generation governs uptake depends entirely on these data. Without visible quantitative results and appropriate statistical analysis, the claim is not verifiable.
+  - **Resolution test** Provide all uptake data with measures of central tendency and dispersion, statistical tests with p-values or confidence intervals, and clear figure legends. State the number of independent experiments and replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript states that "no significant IRF activation is observed" for dendrimer-complexed RNA cubes in HEK-Lucia RIG-I cells, yet also states there is a "slight increase in activation (more than 2-fold above the baseline for G6)."
+  - **Evidence pointer** Results and Discussion, Immune Reporter Cell Lines section; Figure 7 (referenced but not provided)
+  - **Concern** These two statements are in tension. A 2-fold increase above baseline may or may not be significant depending on variability, but the text does not report whether this was tested statistically. The interpretation that dendrimers "may not be as effective as L2F" is presented without direct comparison data. The claim that higher-generation dendrimers "may promote uptake and cytosolic appearance" is speculative and not directly tested.
+  - **Why it matters** The immune activation results are central to the manuscript's stated aim of understanding immune recognition. Ambiguous or contradictory reporting undermines confidence in the conclusions.
+  - **Resolution test** Report exact values, standard deviations, and statistical comparisons for all treatments. Clarify whether the G6 effect was statistically significant. If not significant, remove the speculation about threshold effects. If significant, reconcile with the statement that no significant activation was observed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript claims that MD simulations "demonstrated that dendrimer size and N/P ratio critically influenced nucleic acid binding."
+  - **Evidence pointer** Results and Discussion, MD Simulations section; Figures 2, 3; Supplementary Figures S1–S3; Supplementary Table S2
+  - **Concern** The MD methods are described for the dendrimer and nucleic acid systems separately, but the complexation protocol is only briefly described. Key details are missing: how were the initial complexes constructed, what was the exact salt concentration, how many independent simulations were run, what were the convergence criteria, and how were binding free energies validated? The statement that G7 was excluded from full analysis due to size is mentioned but the implications for the conclusions are not discussed.
+  - **Why it matters** The computational results are used to support mechanistic interpretations about binding modes and structural deformation. Without adequate methodological detail, these results cannot be evaluated or reproduced.
+  - **Resolution test** Provide complete simulation parameters, system construction details, convergence assessments, and a discussion of the limitations of excluding G7 from quantitative analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency
+  - **Claim pointer** The manuscript states that "no significant cytotoxicity" was observed in HEK-293FT cells, contrasting with earlier reports on uncomplexed dendrimers.
+  - **Evidence pointer** Results and Discussion, Monolayer Cell Uptake and Cell Viability Assessment section; Figure S5 (referenced but not provided)
+  - **Concern** The viability data are not shown in the provided material. The claim that complexation mitigates dendrimer-associated cytotoxicity is presented as a conclusion but the data supporting it are not visible. Additionally, the comparison to "earlier reports" is made without specific citations in the provided text.
+  - **Why it matters** The safety profile of delivery vehicles is a key consideration for therapeutic applications. This claim needs direct support from the data.
+  - **Resolution test** Provide the viability data with statistical analysis and cite the specific earlier reports being contrasted.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "well-established structural properties and distinct structure–activity relationship" is vague. It is unclear what "well-established" refers to and what the "distinct" relationship is.
+  - **Required correction** Specify which structural properties and which structure–activity relationships are meant, with brief context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The term "new generation of rationally designed nucleic acids" is used without defining what makes them "rationally designed" in this context.
+  - **Required correction** Provide a brief definition or example of rational design as applied to NANPs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Methods, MD Simulations
+  - **Evidence pointer** Materials and Methods, Molecular Dynamics Simulations
+  - **Issue** The text states "the most recent AMBER GAFF was applied" without specifying the version. This is not reproducible.
+  - **Required correction** Specify the exact GAFF version and any modifications.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results and Discussion, OrganoPlates
+  - **Evidence pointer** Results and Discussion, OrganoPlates section
+  - **Issue** The text states that "there was no loss of fluorescent signal after fixation of the OrganoPlate" but does not explain why this is relevant or what it indicates.
+  - **Required correction** Clarify the significance of this observation or remove it.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The conclusion states that "dendrimer generation influenced NANP characterization" but the term "characterization" is ambiguous. It is unclear whether this refers to physicochemical characterization, cellular uptake, or immune response.
+  - **Required correction** Use a more specific term such as "cellular uptake" or "immune recognition" as appropriate.
+- **Technical failings that need to be addressed before the case is established** The absence of visible quantitative data for the key uptake and immune activation experiments (R1-M1, R1-M2) is the primary technical failing. The MD simulation methodology lacks sufficient detail for reproducibility (R1-M3). The viability data supporting the cytotoxicity claim are not shown (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The question of how dendrimer generation and NANP composition jointly affect delivery and immune recognition is a reasonable extension of prior work, but the conceptual advance is incremental rather than transformative. Scientific importance: The findings could inform the design of NANP-based adjuvants, but the significance is moderate and largely confined to the nanomedicine community. Interdisciplinary readership: The work bridges computational chemistry, materials science, and immunology, which could attract a broad readership if the data are presented accessibly. Technical soundness: The experimental design is generally reasonable, but the lack of visible quantitative data and statistical analysis prevents assessment of technical rigor. Readability for nonspecialists: The manuscript is written in a style accessible to those familiar with nanomedicine, but some terms and concepts may be challenging for a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and the experimental approach is sound in principle. However, the central claims cannot be evaluated from the provided material due to missing quantitative data and incomplete methodological detail. Substantial revision with full data presentation and statistical analysis is required before the conclusions can be considered established.
+
+## Risk / unsupported claims
+- The claim that dendrimer generation and NANP composition "govern" delivery and immune recognition is not fully supported by the visible evidence, as the key quantitative data are not provided.
+- The statement that G6 and G7 dendrimers enhance IRF activation in THP1-Dual cells is presented without visible data or statistical support.
+- The claim that complexation with NANPs mitigates dendrimer-associated cytotoxicity is not supported by visible data.
+- The mechanistic interpretation that G7 dendrimers deliver nucleic acids with reduced structural deformation is based on MD simulations that are not fully described and for which G7 was excluded from quantitative analysis.
+- The comparison of dendrimer performance to L2K is made without visible quantitative comparison data.

@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "34991467",
+    "doi": "10.1186/s12864-021-08159-z",
+    "title": "Predicting the targets of IRF8 and NFATc1 during osteoclast differentiation using the machine learning method framework cTAP."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Interferon regulatory factor-8 (IRF8) and nuclear factor-activated T cells c1 (NFATc1) are two transcription factors that have an important role in osteoclast differentiation. Thanks to ChIP-seq technology, scientists can now estimate potential genome-wide target genes of IRF8 and NFATc1. However, finding target genes that are consistently up-regulated or down-regulated across different studies is hard because it requires analysis of a large number of high-throughput expression studies from a comparable context. METHOD: We have developed a machine learning based method, called, Cohort-based TF target prediction system (cTAP) to overcome this problem. This method assumes that the pathway involving the transcription factors of interest is featured with multiple \"functional groups\" of marker genes pertaining to the concerned biological process. It uses two notions, Gene-Present Sufficiently (GP) and Gene-Absent Insufficiently (GA), in addition to log2 fold changes of differentially expressed genes for the prediction. Target prediction is made by applying multiple machine-learning models, which learn the patterns of GP and GA from log2 fold changes and four types of Z scores from the normalized cohort's gene expression data. The learned patterns are then associated with the putative transcription factor targets to identify genes that consistently exhibit Up/Down gene regulation patterns within the cohort. We applied this method to 11 publicly available GEO data sets related to osteoclastgenesis. RESULT: Our experiment identified a small number of Up/Down IRF8 and NFATc1 target genes as relevant to osteoclast differentiation. The machine learning models using GP and GA produced NFATc1 and IRF8 target genes different than simply using a log2 fold change alone. Our literature survey revealed that all predicted target genes have known roles in bone remodeling, specifically related to the immune system and osteoclast formation and functions, suggesting confidence and validity in our method. CONCLUSION: cTAP was motivated by recognizing that biologists tend to use Z score values present in data sets for the analysis. However, using cTAP effectively presupposes assembling a sizable cohort of gene expression data sets within a comparable context. As public gene expression data repositories grow, the need to use cohort-based analysis method like cTAP will become increasingly important.",
+    "keywords": [
+      "IRF8",
+      "Machine learning",
+      "NFATc1",
+      "Osteoclast differentiation",
+      "Target prediction"
+    ],
+    "mesh_terms": [
+      "Cell Differentiation",
+      "Humans",
+      "Interferon Regulatory Factors/genetics/metabolism",
+      "Machine Learning",
+      "NFATC Transcription Factors/genetics/metabolism",
+      "*Osteoclasts/metabolism",
+      "*RANK Ligand/metabolism",
+      "T-Lymphocytes/metabolism",
+      "Interferon Regulatory Factor-8"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Honglin",
+        "Joshi, Pujan",
+        "Hong, Seung-Hyun",
+        "Maye, Peter F",
+        "Rowe, David W",
+        "Shin, Dong-Guk"
+      ],
+      "short_names": [
+        "Wang H",
+        "Joshi P",
+        "Hong SH",
+        "Maye PF",
+        "Rowe DW",
+        "Shin DG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computer Science and Engineering Department, University of Connecticut, Storrs, USA. honglin.wang@uconn.edu.",
+        "Computer Science and Engineering Department, University of Connecticut, Storrs, USA.",
+        "Computer Science and Engineering Department, University of Connecticut, Storrs, USA.",
+        "Department of Reconstructive Sciences, University of Connecticut Health Center, Farmington, USA.",
+        "Center for Regenerative Medicine and Skeletal Development, University of Connecticut Health Center, Farmington, USA.",
+        "Computer Science and Engineering Department, University of Connecticut, Storrs, USA. dong.shin@uconn.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Honglin",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Engineering Department, University of Connecticut, Storrs, USA. honglin.wang@uconn.edu."
+        ]
+      },
+      {
+        "full_name": "Joshi, Pujan",
+        "short_name": "Joshi P",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Engineering Department, University of Connecticut, Storrs, USA."
+        ]
+      },
+      {
+        "full_name": "Hong, Seung-Hyun",
+        "short_name": "Hong SH",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Engineering Department, University of Connecticut, Storrs, USA."
+        ]
+      },
+      {
+        "full_name": "Maye, Peter F",
+        "short_name": "Maye PF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Reconstructive Sciences, University of Connecticut Health Center, Farmington, USA."
+        ]
+      },
+      {
+        "full_name": "Rowe, David W",
+        "short_name": "Rowe DW",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Regenerative Medicine and Skeletal Development, University of Connecticut Health Center, Farmington, USA."
+        ]
+      },
+      {
+        "full_name": "Shin, Dong-Guk",
+        "short_name": "Shin DG",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Engineering Department, University of Connecticut, Storrs, USA. dong.shin@uconn.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2022 Jan 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/08 06:00",
+    "fetched_at": "2026-09-28 03:45:08"
+  },
+  "links": {
+    "cites": [
+      "36034907"
+    ],
+    "refs": [
+      "34226917",
+      "34099702",
+      "33975333",
+      "33927194",
+      "32910169",
+      "32730332",
+      "32686739",
+      "32385413",
+      "32265273",
+      "32079267",
+      "31541023",
+      "31227749",
+      "31127629",
+      "30598549",
+      "29762983",
+      "29508144",
+      "29275361",
+      "29234465",
+      "28436434",
+      "27574032",
+      "27485735",
+      "27374120",
+      "26744418",
+      "25489571",
+      "25149083",
+      "25023277",
+      "24743548",
+      "24526256",
+      "24475169",
+      "23519781",
+      "22842221",
+      "22383865",
+      "20385836",
+      "20368579",
+      "20031589",
+      "19718038",
+      "19307287",
+      "18990722",
+      "18846253",
+      "18464930",
+      "18156632",
+      "17540680",
+      "17312183",
+      "16978421",
+      "16761367",
+      "16199517",
+      "15574417",
+      "14962934",
+      "10592173"
+    ],
+    "similar": [
+      "34991467",
+      "30721543",
+      "38343385",
+      "32526404",
+      "20133620",
+      "38310228",
+      "32804442",
+      "37914750",
+      "26205967",
+      "28515152",
+      "27829167",
+      "20466061",
+      "30105896",
+      "32079267",
+      "17084841",
+      "22985540",
+      "23990468",
+      "35525407",
+      "30387123",
+      "19576893",
+      "27523282",
+      "24465763",
+      "16109714",
+      "18063694",
+      "24039733",
+      "23246654",
+      "26483549",
+      "17403683",
+      "28335757",
+      "29463002",
+      "31793068",
+      "25601046",
+      "29083488",
+      "21423731",
+      "25123438",
+      "27897222",
+      "32048762",
+      "35955685",
+      "23867221",
+      "21413932",
+      "20112358",
+      "31462535",
+      "25795135",
+      "25023277",
+      "22131333",
+      "27179783",
+      "24526256",
+      "36235607",
+      "22198385",
+      "30827151",
+      "35266012",
+      "17485464",
+      "23928189",
+      "16280328",
+      "30840779",
+      "26287732",
+      "22416138",
+      "31991837",
+      "23629863",
+      "17885208",
+      "22711011",
+      "23178987",
+      "22202439",
+      "26103094",
+      "25887803",
+      "29657104",
+      "32741026",
+      "16513293",
+      "29246953",
+      "32222639",
+      "20547767",
+      "18823786",
+      "27077737",
+      "20035895",
+      "23985829",
+      "30837587",
+      "30668419",
+      "34729812",
+      "36906288",
+      "20368579",
+      "16819284",
+      "26208638",
+      "34571873",
+      "24869857",
+      "22893614",
+      "18288635",
+      "36082821",
+      "34488926",
+      "30387921",
+      "24927843",
+      "19449179",
+      "30341897",
+      "23221330",
+      "27441652",
+      "27129246",
+      "25152440",
+      "30285722",
+      "27038546",
+      "31730830",
+      "28520214",
+      "38778538",
+      "38886134",
+      "39364554",
+      "39253493",
+      "37711605",
+      "38004767"
+    ],
+    "review": [
+      "34991467",
+      "32526404",
+      "38310228"
+    ],
+    "pmc": [
+      "8740472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-08159-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34991467/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34991467",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "40246113",
+    "doi": "10.1016/j.ijbiomac.2025.143196",
+    "title": "Molecular mechanisms of MAPK9, BAX, and TFEB proteins: Genetic correlations between oxidative stress and autophagy pathways in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease (AD) is a complex neurodegenerative disease whose pathological mechanisms involve dysregulation of oxidative stress and autophagy pathways. MAPK9, BAX and TFEB were used as key proteins. Wayne analysis was used to identify genes associated with autophagy and oxidative stress, and protein-protein interaction (PPI) networks were constructed to study the associations between key genes. The key genes were mined by machine learning algorithm and prognostic marker models were constructed. The immune characteristics of AD were investigated by gene collection enrichment analysis (GSEA) and immunoresponse pathway enrichment analysis, and the clinical application potential was evaluated by drug prediction and molecular docking analysis. Finally, Mendelian randomization (MR) analysis was used to verify the causal relationship between key genes and AD. The results showed that we successfully identified several genes associated with Alzheimer's disease, including MAPK9, BAX, and TFEB. GSEA analysis showed their active involvement in the immune response, indicating the importance of immune function in AD. Drug prediction models reveal potential therapeutic targets for these key genes.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Autophagy pathway",
+      "BAX",
+      "Genetic correlation",
+      "MAPK9",
+      "Oxidative stress",
+      "Protein molecular mechanism of action",
+      "TFEB"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics/metabolism/pathology",
+      "Humans",
+      "*Oxidative Stress/genetics",
+      "*Autophagy/genetics",
+      "*bcl-2-Associated X Protein/genetics/metabolism/chemistry",
+      "*Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/genetics/metabolism/chemistry",
+      "Protein Interaction Maps",
+      "Molecular Docking Simulation",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Retracted Publication"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Xiaorui",
+        "Wang, Jie",
+        "Zhao, Xiaoyue",
+        "Sooranna, Suren Rao",
+        "Liao, Bao",
+        "Jian, Chongdong",
+        "Shang, Jingwei",
+        "Li, Xuebin"
+      ],
+      "short_names": [
+        "Huang X",
+        "Wang J",
+        "Zhao X",
+        "Sooranna SR",
+        "Liao B",
+        "Jian C",
+        "Shang J",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Clinical Medical College of Jinan University, Guangzhou, Guangdong, China; Department of Neurology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Nephrology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Nephrology, Baise People's Hospital, Baise, Guangxi, China.",
+        "Department of Metabolism, Digestion and Reproduction, Imperial College London, London SW10 9NH, United Kingdom.",
+        "Department of Neurology, Baise People's Hospital, Baise, Guangxi, China.",
+        "Department of Neurology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China; Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases in Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, China. Electronic address: jianchongdong@163.com.",
+        "Department of Neurology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China; Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases in Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, China. Electronic address: shangjw1979@yahoo.co.jp.",
+        "The First Clinical Medical College of Jinan University, Guangzhou, Guangdong, China; Department of Neurology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China; Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases in Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, China. Electronic address: 13217761266@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Xiaorui",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Jinan University, Guangzhou, Guangdong, China; Department of Neurology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaoyue",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Baise People's Hospital, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Sooranna, Suren Rao",
+        "short_name": "Sooranna SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Metabolism, Digestion and Reproduction, Imperial College London, London SW10 9NH, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Liao, Bao",
+        "short_name": "Liao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Baise People's Hospital, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Jian, Chongdong",
+        "short_name": "Jian C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China; Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases in Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, China. Electronic address: jianchongdong@163.com."
+        ]
+      },
+      {
+        "full_name": "Shang, Jingwei",
+        "short_name": "Shang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China; Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases in Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, China. Electronic address: shangjw1979@yahoo.co.jp."
+        ]
+      },
+      {
+        "full_name": "Li, Xuebin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Jinan University, Guangzhou, Guangdong, China; Department of Neurology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China; Key Laboratory of Research on Clinical Molecular Diagnosis for High Incidence Diseases in Western Guangxi of Guangxi Higher Education Institutions, Baise, Guangxi, China. Electronic address: 13217761266@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Retracted Publication"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/18 00:25",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42635815",
+      "42183388",
+      "42079190",
+      "41942618"
+    ],
+    "refs": [],
+    "similar": [
+      "40246113",
+      "39202387",
+      "36031168",
+      "41630303",
+      "40642087",
+      "39210294",
+      "26368054",
+      "32389853",
+      "42794715",
+      "40589337",
+      "37864249",
+      "39507054",
+      "40832968",
+      "41673711",
+      "41009659",
+      "42509698",
+      "40671224",
+      "39454957",
+      "39392030",
+      "38008888",
+      "40653482",
+      "39694170",
+      "38225393",
+      "38608086",
+      "39969345",
+      "40192506",
+      "41364313",
+      "28945989",
+      "41448363",
+      "36918839",
+      "41413866",
+      "42474555",
+      "29852219",
+      "31858697",
+      "42089894",
+      "41611033",
+      "42406869",
+      "42392749",
+      "37100862",
+      "36809694",
+      "31346329",
+      "39933468",
+      "41317176",
+      "41731906",
+      "27252382",
+      "42299666",
+      "41347325",
+      "30335591",
+      "38167125",
+      "40600526",
+      "36732771",
+      "42458727",
+      "40406126",
+      "39578795",
+      "23827971",
+      "39755304",
+      "39576427",
+      "36635346",
+      "39832686",
+      "32071296",
+      "30706760",
+      "40411685",
+      "41854441",
+      "39996839",
+      "41105597",
+      "38329682",
+      "40976895",
+      "39910202",
+      "39556154",
+      "42481337",
+      "40332288",
+      "35948663",
+      "35253615",
+      "22576015",
+      "35616676",
+      "42585344",
+      "28446202",
+      "40329774",
+      "27060963",
+      "30653408",
+      "25069841",
+      "41498558",
+      "33747352",
+      "40108056",
+      "42796281",
+      "42511539",
+      "41138838",
+      "40231534",
+      "38802701",
+      "32450873",
+      "27195074",
+      "39992588",
+      "35867714",
+      "39796199",
+      "41290101",
+      "40634788",
+      "36719671",
+      "30142454",
+      "33417226",
+      "41081092"
+    ],
+    "review": [
+      "40246113",
+      "36031168",
+      "29852219",
+      "27252382",
+      "23827971"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)03748-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAX-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-893",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

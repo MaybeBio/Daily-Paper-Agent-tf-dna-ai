@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors extended a coarse-grained chromatin model at single-nucleosome resolution with potentials for CTCF and cohesin, performed replica-exchange Monte Carlo simulations with regular and experimental nucleosome positions, and report that cohesin-CTCF mediated loop extrusion increases intraloop contacts, that contact number and type depend on nucleosome distribution and loop size, that microloops form from thermal fluctuations, and that nucleosome positions affect spatial structure and contact probability within loops with presumed transcriptional consequences
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, validation data, or comparison metrics are available
+- **Missing materials affecting confidence** Full methods, simulation protocol details, force field parameters, nucleosome positioning datasets, contact map definitions, statistical analyses, and all figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational extension of an existing chromatin model to study the influence of nucleosome positions on cohesin-CTCF mediated loop contacts. The conceptual link between nucleosome positioning and intraloop contact patterns is interesting and potentially relevant to genome organization research. However, the abstract provides no quantitative results, no validation of the model against experimental data, and no statistical measures. The core claims are therefore not assessable from the supplied material. The work may have merit, but the evidence base is insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers in chromatin biophysics, computational genomics, and genome architecture would be interested because the study addresses how nucleosome positioning modulates loop contacts, which is relevant to understanding transcriptional regulation and topologically associating domain formation. The modeling approach could also appeal to those developing coarse-grained simulations of chromosome organization.
+- **Major strengths** The study addresses a specific and mechanistically relevant question, namely the role of nucleosome positions in loop contact patterns. The use of both regular and experimentally determined nucleosome positions is a sensible design choice. The observation of microloops from thermal fluctuations is a potentially novel finding that could inform understanding of loop dynamics.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that in fully extruded loops caused by cohesin and CTCF, the number of contacts within the formed loops was increased, and that the number and types of these contacts were impacted by nucleosome distribution and loop size
+  - **Evidence pointer** Abstract, results section not provided
+  - **Concern** The abstract states these outcomes but provides no numerical data, no comparison to control conditions, and no statistical significance measures. Without quantitative support, the claim of increased contacts and the dependence on nucleosome distribution and loop size cannot be evaluated.
+  - **Why it matters** The central conclusion of the paper rests on these contact frequency differences. If the effect sizes are small or not robust across conditions, the biological relevance would be questionable. The abstract must report at least representative values, error estimates, and statistical tests.
+  - **Resolution test** Provide quantitative contact counts or probabilities for loop versus control conditions, with standard deviations and p-values or confidence intervals, and show how these vary across at least two nucleosome distributions and loop sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The abstract claims that the extended model with CTCF and cohesin potentials produces fully extruded loops and that microloops arise from thermal fluctuations
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** No validation of the model against experimental data, such as Hi-C contact maps or known loop structures, is described. The claim that the model produces realistic loops is unsupported. Additionally, the assertion that microloops are due solely to thermal fluctuations requires a control analysis excluding other factors, which is not described.
+  - **Why it matters** Without validation, the model may produce artifacts that do not reflect biological reality. The microloop claim is mechanistic and requires evidence that thermal fluctuations are the sole cause, not an artifact of the simulation setup.
+  - **Resolution test** Show that the model reproduces known loop contact patterns from experimental data, and provide a control simulation without thermal fluctuations or with altered parameters to demonstrate that microloop formation is specifically thermal in origin.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract claims that replica-exchange Monte Carlo simulations were performed with regularly spaced nucleosomes and experimentally determined nucleosome positions
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** No simulation parameters are given, such as system size, number of replicas, temperature range, equilibration time, or number of independent runs. The source of experimentally determined nucleosome positions is not identified. Without these details, the simulations cannot be reproduced or assessed for convergence and sampling quality.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Inadequate sampling or poorly chosen parameters could invalidate the conclusions. The abstract must reference a methods section with full details, but none is visible here.
+  - **Resolution test** Provide a complete methods description including all simulation parameters, convergence checks, and the specific experimental nucleosome positioning dataset used, with appropriate citations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence of results
+  - **Issue** The phrase "the number of contacts within the formed loops was increased" is vague because it does not specify the baseline or the magnitude of increase.
+  - **Required correction** Specify the comparison condition, such as "increased relative to cohesin-depleted controls" and provide a representative fold change or percentage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, microloop definition
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The term "microloops" is introduced without a quantitative definition, such as a size range or contact distance threshold.
+  - **Required correction** Define microloops operationally, for example by a specific number of nucleosomes or a genomic distance range.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract, concluding claim
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that nucleosome positions have "presumed consequences for transcriptional activity" is speculative and not supported by any functional data in the abstract.
+  - **Required correction** Soften the claim to state that the findings "may have implications for transcriptional regulation" or remove the speculation if not addressed in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of linking nucleosome positioning to loop contact patterns is moderately original, but similar modeling studies exist, so the novelty is incremental rather than transformative.
+  - Scientific importance: The question is relevant to genome organization, but the abstract does not demonstrate a major conceptual advance or broad biological impact.
+  - Interdisciplinary readership: The topic bridges biophysics and genomics, which could attract a cross-disciplinary audience, but the abstract is too technical and lacks accessible framing for nonspecialists.
+  - Technical soundness: Not assessable from the abstract alone; no methods, validation, or statistical details are provided.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon such as "replica-exchange Monte Carlo" and "cohesin-CTCF" without sufficient context for a general scientific reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the absence of quantitative results, model validation, and methodological details means the core claims cannot be assessed. I would be supportive if the full manuscript provides the missing evidence and addresses the major concerns.
+
+## Risk / unsupported claims
+- The claim that cohesin and CTCF increase intraloop contacts is unsupported without quantitative data.
+- The claim that nucleosome distribution and loop size impact contact number and type is unsupported without comparative results.
+- The claim that microloops arise from thermal fluctuations is unsupported without a control analysis.
+- The claim that nucleosome positions affect spatial structure and contact probability is unsupported without structural metrics.
+- The claim of "presumed consequences for transcriptional activity" is speculative and not backed by any functional evidence.
+- The overall validity of the model is unassessable due to missing validation against experimental data.

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report the 1.3 Å crystal structure of PF1765, a UPF0235 family protein from *Pyrococcus furiosus*, describe its unique alpha+beta fold and pseudo beta-barrel topology, show structural conservation across domains of life via AlphaFold3 models, demonstrate monomeric and thermostable behavior, and provide biochemical evidence for nucleic acid binding to dsDNA, ssDNA, and RNA.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, crystallographic data and refinement statistics, AlphaFold3 model details and alignment methods, EMSA and fluorescence polarization raw data, protein construct and purity information, sequence alignment details, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting first structural characterization of a conserved but uncharacterized protein family. The combination of high-resolution crystallography, biophysical stability measurements, and nucleic acid binding assays is appropriate for the stated goals. However, the abstract alone does not provide sufficient detail to evaluate the rigor of the structural determination, the validity of the DALI and AlphaFold3 comparisons, or the quantitative basis for the nucleic acid binding conclusions. The claim of "unique topology" and the functional significance of the binding activity require careful scrutiny against the full evidence base.
+- **Who would be interested in the results, and why** Structural biologists studying conserved protein families of unknown function, researchers interested in archaeal proteins and thermostability, and investigators studying nucleic acid protein interactions, particularly those involving non-canonical binding domains. The evolutionary conservation aspect may also appeal to those studying protein structure evolution across domains of life.
+- **Major strengths** The 1.3 Å resolution is excellent and suggests high-quality crystallographic data. The combination of experimental structure determination with AlphaFold3-based comparative analysis across domains of life is a modern and potentially powerful approach. The use of two orthogonal biochemical methods (EMSA and fluorescence polarization) to substantiate nucleic acid binding is methodologically sound. The thermal stability data up to 95 degrees C is consistent with the hyperthermophilic origin and adds a clear biophysical characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that DALI structural comparisons revealed "no significant similarity to known functional proteins, indicating PF1765's unique topology."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not report the DALI Z-scores, the number of structural neighbors considered, or the threshold used to define "significant similarity." Without these quantitative details, the claim of unique topology cannot be independently assessed. A Z-score threshold is critical because DALI results are highly dependent on the search parameters and the significance cutoff applied.
+  - **Why it matters** The claim of structural uniqueness is a central element of the paper's novelty. If the DALI search was performed with overly stringent thresholds or against a limited database, the conclusion could be misleading. Conversely, if the Z-scores are genuinely low against a comprehensive database, the claim is strengthened. The reader cannot evaluate this without the specific numbers.
+  - **Resolution test** Provide DALI Z-scores for the top hits, the database version used, and the significance threshold. If the top Z-score is below the generally accepted significance level (typically around 2.0 to 3.0), the claim is supported. Alternatively, show that the fold is not represented in CATH or SCOP classifications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that AlphaFold3 models of PF1765 homologs exhibit high structural conservation (RMSD less than 1.63 Å) across all domains of life.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify how many homologs were modeled, how they were selected, how the RMSD was calculated (global versus local, which atoms were included), or whether the RMSD values were pairwise or against a reference structure. The sequence identity range of 20 to 35 percent is reported, but the relationship between sequence identity and the RMSD values is not described. Additionally, AlphaFold3 models are predictions, not experimental structures, and their use as evidence for evolutionary conservation requires validation of model confidence (e.g., pLDDT scores).
+  - **Why it matters** The evolutionary conservation claim is used to argue for strong selective pressure on the three-dimensional structure. If the RMSD calculations are not rigorously defined or if the models are of low confidence, the conclusion is weakened. The reader needs to know the model quality metrics and the alignment methodology to trust this result.
+  - **Resolution test** Report the number of homologs analyzed, their source organisms, the AlphaFold3 confidence scores (pLDDT), the RMSD calculation method (e.g., C-alpha atoms, global superposition), and whether the RMSD values are pairwise or against a single reference. Show that the models have high confidence in the core structural regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that PF1765 "binds variably to dsDNA, ssDNA, and RNA, despite lacking canonical nucleic acid binding domains."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide any quantitative binding parameters such as dissociation constants (Kd), binding stoichiometry, or specificity controls. The term "variably" is vague and does not convey the relative affinities or the biological relevance of the observed binding. Without competition assays with non-specific nucleic acids or mutants, the specificity of the interaction cannot be evaluated. The absence of canonical nucleic acid binding domains raises the question of what surface or structural feature mediates the interaction, which is not addressed.
+  - **Why it matters** The nucleic acid binding activity is a major functional claim of the paper. If the binding is weak, non-specific, or an artifact of the assay conditions, the conclusion that PF1765 is a nucleic acid binding protein is not established. The reader needs quantitative data and appropriate controls to assess the significance of this finding.
+  - **Resolution test** Provide Kd values for each nucleic acid substrate, show that binding is saturable and specific (e.g., competition with unlabeled nucleic acids), and identify the putative binding surface on the structure through mutagenesis or structural analysis. If the binding is weak (e.g., micromolar range), discuss the potential biological relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The description of the fold as "beta(4)-alpha-beta(2)-alpha topology, forming a pseudo beta-barrel comprising predominantly antiparallel six beta-strands encasing two alpha-helices" is dense and may be difficult for non-structural biologists to visualize.
+  - **Required correction** Consider adding a brief explanatory phrase, such as "a barrel-like arrangement of six beta-strands surrounding two central helices," to improve accessibility without oversimplifying.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Biophysical characterization
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that PF1765 is "monomeric" and "thermostable up to 95 degrees C" but does not specify the methods used (e.g., size exclusion chromatography, multi-angle light scattering, circular dichroism, differential scanning calorimetry) or the buffer conditions.
+  - **Required correction** Briefly mention the methods used for these determinations in the abstract or ensure they are clearly described in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Functional significance
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not discuss the potential biological role of nucleic acid binding by PF1765 or how this activity might relate to the protein's function in *Pyrococcus furiosus* or other organisms.
+  - **Required correction** Add a sentence in the discussion or conclusion that contextualizes the binding activity within a possible cellular function, even if speculative, to enhance the paper's impact.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (DALI significance), R1-M2 (AlphaFold3 RMSD methodology), R1-M3 (quantitative binding data and specificity controls)
+- **Assessment against Nature-style criteria** 
+  - Originality: The first structural characterization of a UPF0235 family member is original and addresses a genuine gap in knowledge. However, the abstract does not demonstrate that the fold is truly novel beyond the DALI claim, which requires quantitative support.
+  - Scientific importance: The importance is moderate. A conserved protein of unknown function with a unique fold and nucleic acid binding activity is of interest, but the abstract does not establish a clear biological role or broader implications beyond the structural characterization.
+  - Interdisciplinary readership: The work bridges structural biology, biophysics, and molecular evolution, which could attract readers from multiple fields. However, the abstract is written primarily for structural biologists and may not fully engage other communities.
+  - Technical soundness: The 1.3 Å resolution is a strong point, but the DALI and AlphaFold3 analyses lack methodological detail, and the binding data are not quantified. These gaps prevent full assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is generally clear but includes structural jargon that may hinder accessibility. The functional claims are stated without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising study with high-resolution structural data and a plausible functional hypothesis, but the key claims of structural uniqueness, evolutionary conservation, and nucleic acid binding specificity cannot be verified without the full methods and quantitative results. The manuscript may become publishable after the technical concerns are addressed, but the case is not made from the abstract alone.
+
+## Risk / unsupported claims
+- The claim of "unique topology" is unsupported without DALI Z-scores and search parameters.
+- The claim of high structural conservation across domains of life is unsupported without details on AlphaFold3 model confidence and RMSD calculation methodology.
+- The claim that PF1765 "binds variably" to nucleic acids is unsupported without quantitative binding data and specificity controls.
+- The statement that PF1765 lacks canonical nucleic acid binding domains is plausible but not verifiable from the abstract alone.
+- The thermal stability claim up to 95 degrees C is plausible but the method and conditions are not specified.
+- The monomeric state claim is not verifiable without the method used for determination.

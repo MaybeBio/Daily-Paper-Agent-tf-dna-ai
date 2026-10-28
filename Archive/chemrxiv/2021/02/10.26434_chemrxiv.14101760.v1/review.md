@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that HDX-MS and molecular dynamics simulation reveal the structural basis of PC4 binding to a trans-PtTz crosslinked 15-mer double-stranded oligodeoxynucleotide. They claim a 1:1 binding stoichiometry, involvement of the N-terminal loop and β3–β5 sheet, minor groove binding with strong H-bonds, minor groove widening, and a dominant role for Arg86, verified by EMSA.
+- **Visible evidence base** Abstract text only; no experimental details, figures, tables, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, HDX-MS experimental parameters, MD simulation setup and validation, EMSA data, sequence information for PC4 and dsODN, and any statistical or reproducibility analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of HDX-MS combined with MD simulation to a biologically relevant DNA repair protein interacting with a platinum-damaged DNA substrate. However, the evidence base is limited to the abstract, and several key claims are not verifiable without the full manuscript. The central mechanistic conclusions, particularly the dominant role of Arg86 and the minor groove binding mode, require detailed experimental and computational validation that is not visible here. The work may be of interest to specialists in DNA repair, platinum-based anticancer mechanisms, and structural mass spectrometry, but the current abstract does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers in DNA damage recognition and repair, particularly those studying platinum-based anticancer drug mechanisms, would be interested in the proposed interaction interface. Structural biologists using HDX-MS and MD simulation as complementary tools would also find the methodological combination relevant. The work could inform future studies on how nuclear proteins recognize platinum-induced DNA lesions.
+- **Major strengths** The combination of HDX-MS and MD simulation is a powerful and increasingly used approach for mapping protein–DNA interfaces. The abstract clearly identifies a specific biological question and proposes a mechanistic model. The use of EMSA to verify a computational prediction is a reasonable validation strategy.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that Arg86 dominates the recognition and interaction between PC4 and trans-PtTz-dsODN, and that this was verified by EMSA.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The claim that Arg86 dominates the interaction is presented as a definitive conclusion, but the abstract provides no quantitative data from EMSA, no mutagenesis controls, and no details on how "dominance" was assessed. Without showing that mutation of Arg86 abolishes or significantly reduces binding, and without comparing to other residues, the claim is not established.
+  - **Why it matters** A single-residue dominance claim has strong mechanistic implications. If not rigorously supported by mutagenesis and binding assays, the conclusion could be overstated and mislead future studies.
+  - **Resolution test** Provide EMSA data with wild-type and Arg86 mutant PC4, including binding curves and quantitative dissociation constants, and show that other basic residues in the proposed interface do not have equivalent effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract claims that HDX-MS local deuterium uptake revealed the flexible N-terminal loop and β3–β5 sheet play key roles in recognition and interaction.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** No information is given on HDX-MS experimental conditions, such as labeling times, temperature, pH, back-exchange correction, or the resolution of the proteolytic digestion. Without these details, the reliability of the local uptake data cannot be assessed. Additionally, the abstract does not state whether the deuterium uptake differences were statistically significant or how the regions were assigned to the N-terminal loop and β3–β5 sheet.
+  - **Why it matters** HDX-MS results are highly dependent on experimental design and data processing. If the methodology is not described, the reader cannot judge whether the observed differences are real or artifacts.
+  - **Resolution test** Include full HDX-MS methods, a differential uptake plot with confidence limits, and a structural mapping of the identified regions onto the PC4 structure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The abstract claims that MD simulation demonstrated PC4 binds to the minor groove via strong H-bonds with nucleobases of the complementary strand, and that the minor groove width was broadened.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The MD simulation is described only in a single sentence. No force field, simulation length, equilibration protocol, or convergence criteria are given. The claim of "strong H-bonds" is not quantified, and the minor groove widening is not supported by any numerical data or comparison to a control simulation without PC4.
+  - **Why it matters** MD simulations can produce artifacts if not properly validated. Without details on simulation setup and analysis, the structural conclusions are not reproducible or verifiable.
+  - **Resolution test** Provide full MD methods, a time series of H-bond distances and occupancies, a plot of minor groove width over time for bound and free DNA, and a comparison to experimental structures or known DNA geometries.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Stoichiometry claim
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract states "Global deuterium uptake suggested a 1:1 binding stoichiometry." This is an indirect method for stoichiometry determination and is not standard practice.
+  - **Required correction** Clarify how stoichiometry was derived from global uptake, or use a more direct method such as size exclusion chromatography or native mass spectrometry.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Strong H-bonds"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "strong H-bonds" is vague and not a standard quantitative descriptor in structural biology.
+  - **Required correction** Replace with specific interaction distances and occupancy values from the MD trajectory.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** EMSA verification
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not specify what was verified by EMSA, such as whether Arg86 mutation reduced binding affinity or altered the binding mode.
+  - **Required correction** State the specific EMSA result, including the effect of the Arg86 mutation on binding.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of HDX-MS and MD simulation for a platinum-damaged DNA substrate is not entirely new, but the specific application to PC4 is novel. However, the abstract does not demonstrate a conceptual advance beyond existing protein–DNA interaction studies.
+  - Scientific importance: The work addresses a relevant question in DNA damage recognition, but the significance is not fully established without showing broader implications for cellular responses or therapeutic mechanisms.
+  - Interdisciplinary readership: The topic bridges structural biology, mass spectrometry, and computational chemistry, which could attract a broad audience, but the abstract is too technical and lacks context for nonspecialists.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail prevents evaluation of the reliability of the HDX-MS and MD results.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with HDX-MS, MD simulation, and platinum crosslinking chemistry. It would benefit from a clearer statement of the biological problem and the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the key mechanistic claims are not verifiable without full methodological and quantitative details. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that Arg86 dominates the interaction is unsupported without mutagenesis and quantitative binding data.
+- The claim that the N-terminal loop and β3–β5 sheet play key roles is unsupported without HDX-MS statistical details and structural mapping.
+- The claim of minor groove binding and widening is unsupported without MD simulation parameters and quantitative analysis.
+- The 1:1 stoichiometry derived from global HDX uptake is not a standard method and is not verifiable from the abstract.
+- The statement that the combination of HDX-MS and MD provides a "new paradigm" is an overreach not supported by the evidence presented.

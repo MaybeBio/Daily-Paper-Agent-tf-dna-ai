@@ -1,0 +1,458 @@
+{
+  "identity": {
+    "pmid": "36932058",
+    "doi": "10.1038/s41467-023-37042-6",
+    "title": "The architecture of transmembrane and cytoplasmic juxtamembrane regions of Toll-like receptors."
+  },
+  "content": {
+    "abstract": "Toll-like receptors (TLRs) are the important participants of the innate immune response. Their spatial organization is well studied for the ligand-binding domains, while a lot of questions remain unanswered for the membrane and cytoplasmic regions of the proteins. Here we use solution NMR spectroscopy and computer simulations to investigate the spatial structures of transmembrane and cytoplasmic juxtamembrane regions of TLR2, TLR3, TLR5, and TLR9. According to our data, all the proteins reveal the presence of a previously unreported structural element, the cytoplasmic hydrophobic juxtamembrane alpha-helix. As indicated by the functional tests in living cells and bioinformatic analysis, this helix is important for receptor activation and plays a role, more complicated than a linker, connecting the transmembrane and cytoplasmic parts of the proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Cell Membrane/metabolism",
+      "Cytoplasm/metabolism",
+      "Immunity, Innate",
+      "Toll-Like Receptor 5/metabolism",
+      "Toll-Like Receptor 9/metabolism",
+      "*Toll-Like Receptors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kornilov, F D",
+        "Shabalkina, A V",
+        "Lin, Cong",
+        "Volynsky, P E",
+        "Kot, E F",
+        "Kayushin, A L",
+        "Lushpa, V A",
+        "Goncharuk, M V",
+        "Arseniev, A S",
+        "Goncharuk, S A",
+        "Wang, Xiaohui",
+        "Mineev, K S"
+      ],
+      "short_names": [
+        "Kornilov FD",
+        "Shabalkina AV",
+        "Lin C",
+        "Volynsky PE",
+        "Kot EF",
+        "Kayushin AL",
+        "Lushpa VA",
+        "Goncharuk MV",
+        "Arseniev AS",
+        "Goncharuk SA",
+        "Wang X",
+        "Mineev KS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3752-5612",
+        "ORCID: 0000-0003-4163-8273",
+        "ORCID: 0000-0002-1788-1153",
+        "ORCID: 0000-0002-0263-6462",
+        "ORCID: 0000-0002-3415-5612",
+        "ORCID: 0000-0002-2418-9421"
+      ],
+      "affiliations": [
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+        "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+        "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia.",
+        "Laboratory of Chemical Biology, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, 130022, Changchun, Jilin, China.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+        "Institute of Cytology of Russian Academy of Sciences, Tikhoretsky 4, 194064, Saint Petersburg, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+        "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+        "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia. ms.goncharuk@gmail.com.",
+        "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia. ms.goncharuk@gmail.com.",
+        "Laboratory of Chemical Biology, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, 130022, Changchun, Jilin, China. xiaohui.wang@ciac.ac.cn.",
+        "School of Applied Chemistry and Engineering, University of Science and Technology of China, 230026, Hefei, Anhui, China. xiaohui.wang@ciac.ac.cn.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia. mineev@nmr.ru.",
+        "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia. mineev@nmr.ru."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kornilov, F D",
+        "short_name": "Kornilov FD",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+          "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia."
+        ]
+      },
+      {
+        "full_name": "Shabalkina, A V",
+        "short_name": "Shabalkina AV",
+        "identifiers": [
+          "0000-0003-3752-5612"
+        ],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+          "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia."
+        ]
+      },
+      {
+        "full_name": "Lin, Cong",
+        "short_name": "Lin C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Biology, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, 130022, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Volynsky, P E",
+        "short_name": "Volynsky PE",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+          "Institute of Cytology of Russian Academy of Sciences, Tikhoretsky 4, 194064, Saint Petersburg, Russia."
+        ]
+      },
+      {
+        "full_name": "Kot, E F",
+        "short_name": "Kot EF",
+        "identifiers": [
+          "0000-0003-4163-8273"
+        ],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+          "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia."
+        ]
+      },
+      {
+        "full_name": "Kayushin, A L",
+        "short_name": "Kayushin AL",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia."
+        ]
+      },
+      {
+        "full_name": "Lushpa, V A",
+        "short_name": "Lushpa VA",
+        "identifiers": [
+          "0000-0002-1788-1153"
+        ],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia.",
+          "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia."
+        ]
+      },
+      {
+        "full_name": "Goncharuk, M V",
+        "short_name": "Goncharuk MV",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia."
+        ]
+      },
+      {
+        "full_name": "Arseniev, A S",
+        "short_name": "Arseniev AS",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia."
+        ]
+      },
+      {
+        "full_name": "Goncharuk, S A",
+        "short_name": "Goncharuk SA",
+        "identifiers": [
+          "0000-0002-0263-6462"
+        ],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia. ms.goncharuk@gmail.com.",
+          "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia. ms.goncharuk@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaohui",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0002-3415-5612"
+        ],
+        "affiliations": [
+          "Laboratory of Chemical Biology, Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, 130022, Changchun, Jilin, China. xiaohui.wang@ciac.ac.cn.",
+          "School of Applied Chemistry and Engineering, University of Science and Technology of China, 230026, Hefei, Anhui, China. xiaohui.wang@ciac.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Mineev, K S",
+        "short_name": "Mineev KS",
+        "identifiers": [
+          "0000-0002-2418-9421"
+        ],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia. mineev@nmr.ru.",
+          "Moscow Institute of Physics and Technology, Dolgoprudny, 141701, Russia. mineev@nmr.ru."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Mar 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/19 06:00",
+    "fetched_at": "2026-09-28 21:34:16"
+  },
+  "links": {
+    "cites": [
+      "42535487",
+      "40664669",
+      "40430422",
+      "40421030",
+      "40243814",
+      "40026237",
+      "40005856",
+      "39520076",
+      "39472452",
+      "39076973",
+      "38968257",
+      "38903515",
+      "38756232",
+      "38533384",
+      "38443815",
+      "37834312",
+      "37285179"
+    ],
+    "refs": [
+      "34429510",
+      "33432245",
+      "30279150",
+      "29924628",
+      "29898648",
+      "29590394",
+      "29488756",
+      "29486112",
+      "29028369",
+      "28761155",
+      "27742543",
+      "27285636",
+      "27166375",
+      "26895312",
+      "26592132",
+      "26574453",
+      "25801209",
+      "25797518",
+      "25694428",
+      "25686612",
+      "25502373",
+      "25371237",
+      "25217833",
+      "25088687",
+      "24975496",
+      "24529375",
+      "24480409",
+      "23962882",
+      "23520111",
+      "23508769",
+      "23155421",
+      "22649697",
+      "22344444",
+      "22173220",
+      "21481769",
+      "21190063",
+      "19931471",
+      "19697137",
+      "19474110",
+      "19252480",
+      "18498162",
+      "18420935",
+      "18332149",
+      "17889651",
+      "17595679",
+      "17237975",
+      "17013683",
+      "16482509",
+      "16460678",
+      "16043704",
+      "15226270",
+      "15201400",
+      "12437972",
+      "11905821",
+      "11095740",
+      "11081518",
+      "10648145",
+      "9897167",
+      "9571116",
+      "8871554",
+      "8836100",
+      "8744573",
+      "8400833"
+    ],
+    "similar": [
+      "36932058",
+      "14976215",
+      "30743105",
+      "17054926",
+      "22185629",
+      "18219369",
+      "28761155",
+      "31238894",
+      "17011049",
+      "31789409",
+      "30502908",
+      "26836127",
+      "20100199",
+      "19747534",
+      "17068485",
+      "18837796",
+      "11680785",
+      "19758322",
+      "26295267",
+      "11909637",
+      "11607792",
+      "35536778",
+      "19076341",
+      "12875990",
+      "29912993",
+      "15588425",
+      "16421230",
+      "15603202",
+      "18378636",
+      "24976336",
+      "23207548",
+      "16412017",
+      "25817729",
+      "28209121",
+      "25092440",
+      "36377984",
+      "16990271",
+      "17535220",
+      "23593431",
+      "21308757",
+      "33597952",
+      "12752123",
+      "25217833",
+      "15196211",
+      "19651780",
+      "11518816",
+      "18834270",
+      "15147355",
+      "12776992",
+      "16917510",
+      "29500040",
+      "11862002",
+      "21527067",
+      "26144017",
+      "23352460",
+      "24184955",
+      "19429012",
+      "28223111",
+      "30266463",
+      "23407387",
+      "24651829",
+      "23585677",
+      "28259778",
+      "11083826",
+      "22662179",
+      "21915309",
+      "16554027",
+      "23372731",
+      "16239509",
+      "23467704",
+      "20819670",
+      "15356140",
+      "24778236",
+      "18592153",
+      "18931679",
+      "29945253",
+      "17493681",
+      "11044375",
+      "30450099",
+      "26888964",
+      "35641301",
+      "12734363",
+      "22499581",
+      "33862097",
+      "21054549",
+      "11786410",
+      "12447442",
+      "16504163",
+      "19740627",
+      "24588688",
+      "28246611",
+      "34595581",
+      "23151948",
+      "15890966",
+      "30078581",
+      "12527213",
+      "25667264"
+    ],
+    "review": [
+      "36932058",
+      "11680785",
+      "26295267",
+      "11909637",
+      "19076341",
+      "33597952",
+      "11518816",
+      "12776992",
+      "16917510",
+      "11862002",
+      "24184955",
+      "11044375",
+      "35641301",
+      "34595581"
+    ],
+    "pmc": [
+      "10023784"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-37042-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36932058/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36932058",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36932058",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

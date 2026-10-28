@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "38728993",
+    "doi": "10.1016/j.compbiomed.2024.108562",
+    "title": "Unveiling HOXB7 as a novel diagnostic and prognostic biomarker through pan-cancer computer screening."
+  },
+  "content": {
+    "abstract": "We attempted to investigate the role of HOXB7 in tumor progression and evolution by means of an extensive computer screening analysis of various cancer types. We performed univariate Cox regression and Kaplan-Meier survival analyses to assess the impact of HOXB7 on overall survival (OS), disease-specific survival (DSS), and progression-free interval (PFI) in different types of cancer. Furthermore, we examined the relationship between HOXB7 and several clinical features: tumor microenvironment, immune regulatory genes, immune checkpoints, tumor mutational burden (TMB), and microsatellite instability (MSI). We performed gene set enrichment analysis to gain deeper insights into the potential molecular mechanisms of HOXB7, and validated our findings through functional assays in cells, including methyl thiazolyl tetrazolium cytotoxicity and Transwell invasion assays. HOXB7 expression was associated with different clinical characteristics in numerous malignancies. Higher HOXB7 expression was associated with worse OS, DSS, and PFI in some cancer types. In particular, HOXB7 expression was favorably associated with immune cell infiltration, immune regulatory genes, immunological checkpoints, TMB, and MSI in malignancies. Furthermore, we identified a strong link between copper death-associated gene expression and HOXB7 expression. According to the findings of this study, HOXB7 might serve as an appealing focus for tumor diagnosis and immunotherapy and a prospective indicator of prognosis.",
+    "keywords": [
+      "Biomarker",
+      "Computer aided applications",
+      "HOXB7",
+      "Immune infiltrates",
+      "Machine learning",
+      "Pan-cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Homeodomain Proteins/genetics/metabolism",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Neoplasms/genetics/metabolism",
+      "Prognosis",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Cong",
+        "Mao, Xulong",
+        "Song, Lanlan",
+        "Sheng, Jueqi",
+        "Yang, Lehe",
+        "Huang, Xiaoying",
+        "Wang, Liangxing"
+      ],
+      "short_names": [
+        "Li C",
+        "Mao X",
+        "Song L",
+        "Sheng J",
+        "Yang L",
+        "Huang X",
+        "Wang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China.",
+        "Department of Cardiology, First School of Clinical Medicine College, Yangtze University, Jingzhou, 434000, China.",
+        "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China.",
+        "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China.",
+        "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China. Electronic address: yanglehe@wmu.edu.cn.",
+        "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China. Electronic address: huangxiaoying@wzhospital.cn.",
+        "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China. Electronic address: wangliangxing@wzhospital.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Cong",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Xulong",
+        "short_name": "Mao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First School of Clinical Medicine College, Yangtze University, Jingzhou, 434000, China."
+        ]
+      },
+      {
+        "full_name": "Song, Lanlan",
+        "short_name": "Song L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Jueqi",
+        "short_name": "Sheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lehe",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China. Electronic address: yanglehe@wmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaoying",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China. Electronic address: huangxiaoying@wzhospital.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Liangxing",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary Medicine, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Key Laboratory of Interdiscipline and Translational Medicine, Wenzhou Key Laboratory of Heart and Lung, Wenzhou, Zhejiang, 325000, China. Electronic address: wangliangxing@wzhospital.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/11 08:43",
+    "fetched_at": "2026-09-29 19:53:25"
+  },
+  "links": {
+    "cites": [
+      "41239456",
+      "40722605",
+      "40657360",
+      "40392454"
+    ],
+    "refs": [],
+    "similar": [
+      "38728993",
+      "40295550",
+      "39181686",
+      "39737177",
+      "33069926",
+      "39037571",
+      "35252444",
+      "39747410",
+      "30317675",
+      "40004479",
+      "39405927",
+      "22914903",
+      "37772558",
+      "28454092",
+      "39702250",
+      "34762107",
+      "27272787",
+      "36830695",
+      "35060516",
+      "37275857",
+      "39624012",
+      "27901487",
+      "33679809",
+      "39960919",
+      "35989423",
+      "28749115",
+      "38814950",
+      "39527939",
+      "36148220",
+      "38642258",
+      "38486392",
+      "39087856",
+      "35782736",
+      "39154046",
+      "39863609",
+      "36061144",
+      "39614426",
+      "36255654",
+      "38296907",
+      "30964174",
+      "39810215",
+      "35756681",
+      "28646927",
+      "39018675",
+      "39956899",
+      "22911672",
+      "39123194",
+      "40264098",
+      "34531868",
+      "35832625",
+      "34472711",
+      "38367702",
+      "39879834",
+      "37157205",
+      "38886133",
+      "26135503",
+      "34795387",
+      "37340746",
+      "38369265",
+      "38581717",
+      "37501187",
+      "39086142",
+      "35720327",
+      "38688977",
+      "26991799",
+      "35155565",
+      "33390791",
+      "35552266",
+      "32714316",
+      "37170221",
+      "35069601",
+      "24853421",
+      "39333254",
+      "37039902",
+      "39317050",
+      "36030492",
+      "38021043",
+      "33782039",
+      "39926600",
+      "40214853",
+      "38584561",
+      "39031404",
+      "35187070",
+      "33173439",
+      "36989393",
+      "35733852",
+      "34346294",
+      "38898693",
+      "38217545",
+      "37388242",
+      "39586790",
+      "35910232",
+      "40191190",
+      "37306257",
+      "21690342",
+      "39268079",
+      "36205192",
+      "39934677",
+      "33968987",
+      "39695482"
+    ],
+    "review": [
+      "38728993",
+      "35060516"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(24)00646-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(24)00646-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

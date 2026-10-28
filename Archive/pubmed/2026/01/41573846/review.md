@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors combine coarse-grained Brownian dynamics simulations and Flory–Huggins polymer theory to describe how Dps:DNA interactions and concentrations control condensate morphology, dynamics, and phase behavior, proposing a unified microscopic and thermodynamic framework for protein–nucleic-acid condensation.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, or theoretical derivations are provided
+- **Missing materials affecting confidence** Full text, all figures and tables, simulation methodology details, parameter values, theoretical derivations, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable computational and theoretical study of Dps:DNA condensate formation. The combination of Brownian dynamics simulations with Flory–Huggins theory is a sensible approach to bridge molecular interactions and mesoscale phase behavior. However, the abstract provides only qualitative claims without quantitative support, and the absence of any methodological detail or results prevents assessment of technical soundness or the robustness of the conclusions. The work may interest researchers in biomolecular condensation and soft matter physics, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, particularly those focused on protein–nucleic-acid phase separation, bacterial chromatin organization, and stress responses. The general principles of condensation in soft matter systems would also appeal to physicists and physical chemists working on polymer theory and colloidal assembly. The potential link to bacterial survival mechanisms could attract microbiologists, though this is not developed in the abstract.
+- **Major strengths** The abstract identifies a clear gap in understanding the physical mechanisms of Dps:DNA compaction. The dual approach of simulations and theory is well suited to address this gap. The predicted transition from network-like to globular morphologies with increasing interaction strength and concentration is a testable and conceptually interesting outcome. The framing of the work as bridging molecular interactions and emergent mesoscale structures is appropriate for a broad readership.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The simulations reveal that weak Dps:DNA attraction and low Dps concentrations produce extended, network-like morphologies, whereas stronger interactions and higher Dps concentrations drive compaction into dense globular condensates with suppressed DNA mobility and sub-diffusive dynamics.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract reports qualitative outcomes of the simulations but provides no quantitative measures, such as order parameters, diffusion coefficients, or phase boundaries. Without numerical results or a description of how these outcomes were quantified, the claims cannot be evaluated.  
+  - **Why it matters** The central findings of the study rest on the simulation results. If the morphological and dynamic transitions are not rigorously quantified, the conclusions may be subjective or dependent on unstated parameter choices.  
+  - **Resolution test** Provide quantitative definitions of morphology (e.g., radius of gyration, cluster size distribution) and dynamics (e.g., mean squared displacement exponents), and report these values across the parameter range studied.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The simulations, in which DNA is represented as bead–spring polymers and Dps as spherical particles, reveal...  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No simulation parameters are given, including bead size, spring constants, interaction potentials, Dps particle size, concentration ranges, or time scales. The Flory–Huggins analysis is mentioned but no model details, such as interaction parameters or lattice definitions, are provided.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without parameter values and model definitions, other groups cannot replicate or extend the work, and reviewers cannot assess whether the chosen parameters are physically reasonable.  
+  - **Resolution test** Include a full methods section with all model parameters, interaction potentials, and simulation protocols, and provide the Flory–Huggins model equations and parameter definitions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** Complementary Flory–Huggins analysis identifies the corresponding thermodynamic regimes and shows how Dps:DNA affinity, DNA:DNA and Dps:Dps repulsion, and solvent quality determine the boundaries between homogeneous and phase-separated states.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract claims that the Flory–Huggins analysis identifies thermodynamic regimes and phase boundaries, but no phase diagrams, critical points, or quantitative comparisons between theory and simulation are presented. The claim that the two approaches provide a unified picture is not supported by any demonstrated agreement.  
+  - **Why it matters** The stated novelty is the unification of microscopic simulations and thermodynamic theory. Without evidence that the two approaches yield consistent predictions, the claim of a unified picture is unsubstantiated.  
+  - **Resolution test** Present a phase diagram from the Flory–Huggins model and overlay simulation results to show quantitative or qualitative agreement across the parameter space.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** These results advance understanding of protein–nucleic-acid phase behavior and illustrate general principles governing biomolecular condensation in soft matter systems.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not discuss how the findings for Dps:DNA might generalize to other protein–nucleic-acid systems. The claim of general principles is made without comparative analysis or discussion of system-specific features.  
+  - **Why it matters** The broader significance of the work depends on its relevance beyond the specific Dps:DNA system. Without a discussion of generality, the claim may overreach.  
+  - **Resolution test** Add a discussion section that contextualizes the findings with respect to other protein–nucleic-acid condensates and identifies which parameters are likely system-specific versus universal.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "emergent morphologies" is used in the title and abstract but is not defined. It is unclear whether this refers to self-assembled structures arising from local interactions or something more specific.  
+  - **Required correction** Define "emergent morphologies" in the abstract or introduction to clarify the intended meaning.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not mention any experimental context or validation. If the simulations are purely computational, this should be stated explicitly. If experimental data exist, their absence from the abstract is a missed opportunity.  
+  - **Required correction** State clearly whether the study is purely computational or includes experimental components, and if applicable, mention any validation in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract terminology  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "sub-diffusive dynamics" is used without specifying the time scale or the exponent range. This is a technical term that may be unclear to nonspecialist readers.  
+  - **Required correction** Provide a brief explanation or a quantitative range for the sub-diffusive exponent in the abstract or main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, model parameters, and demonstrated agreement between simulation and theory means the central claims are not verifiable from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of Brownian dynamics and Flory–Huggins theory for Dps:DNA is potentially original, but the abstract does not clearly differentiate this work from prior studies on protein–DNA condensates. The originality claim is weak without a literature context.  
+  - **Scientific importance** The topic is important for understanding bacterial chromatin organization and biomolecular condensation. However, the abstract does not articulate why the specific findings are significant beyond general interest.  
+  - **Interdisciplinary readership** The work bridges biology, physics, and soft matter science, which is well suited for a broad audience. The abstract is written in accessible language, though some terms require definition.  
+  - **Technical soundness** Not assessable from the abstract. No methodological details or quantitative results are provided.  
+  - **Readability for nonspecialists** The abstract is generally readable, but terms like "Flory–Huggins polymer theory" and "sub-diffusive dynamics" may be challenging for a general scientific audience. The logical flow is clear.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the lack of quantitative results, methodological detail, and demonstrated theory–simulation agreement prevents assessment of the claims. A full manuscript with rigorous methods and results would be required to evaluate the work.
+
+## Risk / unsupported claims
+- The claim that simulations reveal specific morphological and dynamic transitions is unsupported because no quantitative results are provided.
+- The claim that Flory–Huggins analysis identifies thermodynamic regimes and phase boundaries is unsupported without a phase diagram or model details.
+- The claim that the two approaches provide a unified picture is unsupported without demonstrated agreement between simulation and theory.
+- The claim of general principles for biomolecular condensation is unsupported without comparative discussion or evidence of broader applicability.

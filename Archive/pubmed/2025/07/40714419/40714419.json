@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "40714419",
+    "doi": "10.1016/j.phymed.2025.157061",
+    "title": "Nrf2/STAT3-mediated activation of SLC6A3 underlies the neuroprotective effect of quercetin in ischemic stroke."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemic stroke (IS) is a leading cause of mortality and long-term disability, yet effective neuroprotective strategies remain limited. Oxidative stress and dopaminergic dysfunction are key contributors to neuronal injury following cerebral ischemia. Quercetin, a natural flavonoid with antioxidant properties, has shown promise in preclinical models; however, its precise mechanisms of action remain incompletely understood. METHODS: We employed a combination of network pharmacology, in vivo middle cerebral artery occlusion (MCAO) models, and in vitro oxygen-glucose deprivation/reperfusion (OGD/R) assays. Bioinformatics analyses identified potential therapeutic targets of quercetin, which were validated through Western blotting, immunofluorescence, qRT-PCR, CRISPR-Cas9, and co-immunoprecipitation. Functional outcomes were evaluated via behavioral tests, TUNEL staining, and oxidative stress marker assays. RESULTS: Quercetin significantly reduced cerebral edema, improved neurological function, and inhibited neuronal apoptosis following MCAO. Mechanistically, quercetin activated the Nrf2/STAT3 signaling pathway, promoting nuclear translocation of Nrf2 and transcriptional upregulation of the dopamine transporter gene SLC6A3. This regulatory axis was critical for mitigating oxidative DNA damage and preserving neuronal integrity. Network pharmacology and molecular docking identified Nrf2, STAT3, and SLC6A3 as core targets of quercetin. Inhibition of Nrf2 or STAT3 abrogated the protective effects of quercetin in both in vitro and in vivo models. CONCLUSIONS: Our findings identify the Nrf2/STAT3/SLC6A3 axis as a key mediator of quercetin's neuroprotective effects in ischemic stroke. To our knowledge, this is the first study to identify the Nrf2/STAT3/SLC6A3 axis as a key regulatory pathway underlying the neuroprotective action of quercetin.",
+    "keywords": [
+      "Dopamine transporter (SLC6A3)",
+      "Ischemic stroke",
+      "Neuroprotection",
+      "Nrf2/STAT3 signaling pathway",
+      "Quercetin"
+    ],
+    "mesh_terms": [
+      "*Quercetin/pharmacology",
+      "Animals",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Neuroprotective Agents/pharmacology",
+      "*STAT3 Transcription Factor/metabolism",
+      "*Ischemic Stroke/drug therapy/metabolism",
+      "Male",
+      "*Dopamine Plasma Membrane Transport Proteins/metabolism",
+      "Apoptosis/drug effects",
+      "Signal Transduction/drug effects",
+      "Infarction, Middle Cerebral Artery/drug therapy",
+      "Oxidative Stress/drug effects",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Huabao",
+        "Zhao, Meng-Yu",
+        "Wang, Cun-Zhi",
+        "Wang, Jin-Ni",
+        "Tang, Wen-Ping",
+        "Mao, Wen-Bao",
+        "Feng, Shi",
+        "Ding, Fang-Fang",
+        "Ke, Jing",
+        "Shi, Ting-Ting",
+        "Wang, Yuan",
+        "Yu, Tian-Hang",
+        "Xu, Wan-Yan",
+        "Wang, Li-Na",
+        "Chen, Juan",
+        "Gong, Ying-Jie",
+        "Zhang, Song",
+        "Xu, Jia-Feng",
+        "Chen, Guan-Jun",
+        "Qian, Yu",
+        "Ding, Yan-Yu"
+      ],
+      "short_names": [
+        "Cai H",
+        "Zhao MY",
+        "Wang CZ",
+        "Wang JN",
+        "Tang WP",
+        "Mao WB",
+        "Feng S",
+        "Ding FF",
+        "Ke J",
+        "Shi TT",
+        "Wang Y",
+        "Yu TH",
+        "Xu WY",
+        "Wang LN",
+        "Chen J",
+        "Gong YJ",
+        "Zhang S",
+        "Xu JF",
+        "Chen GJ",
+        "Qian Y",
+        "Ding YY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China; Institute of Health and Medicine, Hefei Comprehensive National Science Center, 4090 Susong Rd, Hefei, Hefei Economic and Technological Development Zone, Hefei, Anhui 230601, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Department of Nephrology, Chengdu Fifth People's Hospital, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Center for Scientific Research of Anhui Medical University, Anhui Medical University, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China. Electronic address: flyheart_001@163.com.",
+        "Department of Immunology, School of Basic Medical Sciences, Center for Big Data and Population Health of IHM, Anhui Medical University, Hefei, 230032, China; Institute of Health and Medicine, Hefei Comprehensive National Science Center, 4090 Susong Rd, Hefei, Hefei Economic and Technological Development Zone, Hefei, Anhui 230601, China. Electronic address: yanyuding@ihm.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Huabao",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China; Institute of Health and Medicine, Hefei Comprehensive National Science Center, 4090 Susong Rd, Hefei, Hefei Economic and Technological Development Zone, Hefei, Anhui 230601, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Meng-Yu",
+        "short_name": "Zhao MY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Cun-Zhi",
+        "short_name": "Wang CZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin-Ni",
+        "short_name": "Wang JN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Chengdu Fifth People's Hospital, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Wen-Ping",
+        "short_name": "Tang WP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Wen-Bao",
+        "short_name": "Mao WB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Shi",
+        "short_name": "Feng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Fang-Fang",
+        "short_name": "Ding FF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Ke, Jing",
+        "short_name": "Ke J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Ting-Ting",
+        "short_name": "Shi TT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Tian-Hang",
+        "short_name": "Yu TH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wan-Yan",
+        "short_name": "Xu WY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li-Na",
+        "short_name": "Wang LN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Juan",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Ying-Jie",
+        "short_name": "Gong YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Song",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jia-Feng",
+        "short_name": "Xu JF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China; Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guan-Jun",
+        "short_name": "Chen GJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Scientific Research of Anhui Medical University, Anhui Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Yu",
+        "short_name": "Qian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, China. Electronic address: flyheart_001@163.com."
+        ]
+      },
+      {
+        "full_name": "Ding, Yan-Yu",
+        "short_name": "Ding YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Center for Big Data and Population Health of IHM, Anhui Medical University, Hefei, 230032, China; Institute of Health and Medicine, Hefei Comprehensive National Science Center, 4090 Susong Rd, Hefei, Hefei Economic and Technological Development Zone, Hefei, Anhui 230601, China. Electronic address: yanyuding@ihm.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 08:45",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [
+      "42653995",
+      "42367305",
+      "42310196",
+      "41943069",
+      "41868129",
+      "41788687",
+      "41710581"
+    ],
+    "refs": [],
+    "similar": [
+      "40714419",
+      "37714424",
+      "29454613",
+      "41014668",
+      "34712383",
+      "38579641",
+      "40170790",
+      "40378509",
+      "39454290",
+      "35550220",
+      "39957706",
+      "40139577",
+      "39725365",
+      "38520834",
+      "36878093",
+      "40035314",
+      "40403934",
+      "30753053",
+      "41022671",
+      "39702961",
+      "39190389",
+      "39657348",
+      "38574838",
+      "38679216",
+      "41314046",
+      "40682985",
+      "40929882",
+      "29521586",
+      "41273058",
+      "40464507",
+      "39052059",
+      "34522084",
+      "27724964",
+      "35222793",
+      "37950788",
+      "31812555",
+      "39894416",
+      "40972263",
+      "41172920",
+      "38823597",
+      "33443681",
+      "34083500",
+      "39029135",
+      "39182268",
+      "41254929",
+      "28042007",
+      "38909494",
+      "40839286",
+      "37742604",
+      "38493721",
+      "39765034",
+      "27812888",
+      "40914225",
+      "39233848",
+      "41285231",
+      "40480024",
+      "39299652",
+      "38246696",
+      "34367186",
+      "41433220",
+      "30119223",
+      "41167534",
+      "26686249",
+      "28992629",
+      "41005470",
+      "39393507",
+      "31767824",
+      "40355807",
+      "30426907",
+      "30372823",
+      "31935431",
+      "40432445",
+      "26780453",
+      "25452227",
+      "24017972",
+      "31185237",
+      "36567616",
+      "40347924",
+      "40020881",
+      "39639187",
+      "40618146",
+      "33263567",
+      "36049159",
+      "40961540",
+      "35505050",
+      "37833536",
+      "30235876",
+      "38214838",
+      "39612000",
+      "33411101",
+      "39241893",
+      "32212827",
+      "39731833",
+      "30815818",
+      "38755191",
+      "40202562",
+      "25393425",
+      "40222690",
+      "38733762",
+      "36166825"
+    ],
+    "review": [
+      "40714419"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00700-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose iEnhancer-SKNN, a two-layer stacking ensemble method using KNN base models and logistic regression meta-model, with a fusion of four sequence features (Kmer, PseDNC, PCPseDNC, Z-Curve9), for enhancer identification and classification into strong versus weak enhancers. They report accuracy of 81.75% for identification and 80.50% for classification on an independent test set, with improvements over other predictors, and claim identification of key transcription factor binding site motifs and biological function exploration.
+- **Visible evidence base** Abstract text only; no performance tables, benchmark comparisons, dataset descriptions, or motif analysis details
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods for feature fusion and stacking architecture, dataset composition and split procedures, baseline predictor specifications, statistical significance tests, motif identification methodology, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach for enhancer prediction, but the evidence provided is insufficient to evaluate the technical soundness, reproducibility, or the validity of the claimed improvements. The reported accuracy gains are not contextualized with error bars, statistical tests, or detailed benchmark settings. The motif and functional analysis claims are entirely unsupported in the abstract. The work may be of interest to the bioinformatics community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational genomics and regulatory element prediction, particularly those developing machine learning methods for cis-regulatory element annotation. The stacking ensemble approach and feature fusion strategy may appeal to method developers seeking to improve enhancer classification performance. Biologists studying enhancer function could be interested if the motif and functional analyses are rigorously validated.
+- **Major strengths** The use of a stacking ensemble with multiple KNN base models is a reasonable and potentially robust design choice. The two-layer architecture addressing both identification and classification in a unified framework is a practical contribution. The inclusion of multiple sequence-derived features is consistent with established practice in the field. The provision of source code and data is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves accuracy of 81.75% for enhancer identification and 80.50% for classification, with improvements of 1.35% to 8.75% and 5.5% to 25.5% respectively compared with other predictors.
+  - **Evidence pointer** Abstract, performance results section; location not provided
+  - **Concern** The abstract reports accuracy values and improvement ranges without any indication of variance, statistical significance, or the specific predictors used for comparison. It is unclear whether the improvements are consistent across multiple runs, whether the test set is balanced, and whether the baseline methods were optimized fairly.
+  - **Why it matters** Without statistical rigor, the claimed improvements could be due to random variation, dataset-specific artifacts, or suboptimal baseline implementations. The reported ranges are wide, particularly for classification, which raises questions about the stability and generalizability of the method.
+  - **Resolution test** Provide standard deviations or confidence intervals for all metrics, perform statistical significance tests (e.g., McNemar's test) against each baseline, and specify the exact versions and hyperparameters of all compared predictors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method uses a fusion of Kmer, PseDNC, PCPseDNC, and Z-Curve9 features, five KNN models with different parameters, and logistic regression as the meta-model.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract does not specify the parameter values for the five KNN models, the feature vector dimensions, the fusion strategy (concatenation, weighting, or other), or the hyperparameter tuning procedure. The code repository is mentioned but its contents are not described.
+  - **Why it matters** Reproducibility is a core requirement for computational method papers. Without precise parameter and feature specifications, other researchers cannot replicate the method or assess whether the design choices are optimal or arbitrary.
+  - **Resolution test** Provide a complete methods section with all hyperparameters, feature dimensions, fusion details, and a description of the code repository structure and dependencies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for biological claims
+  - **Claim pointer** The authors identify key transcription factor binding site motifs in the enhancer regions and further explore the biological functions of the enhancers and these key motifs.
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Concern** No details are given on the motif discovery method, the transcription factor databases used, the statistical significance of motif enrichment, or the functional analysis approach. The biological relevance of the identified motifs is not demonstrated.
+  - **Why it matters** These claims extend beyond computational prediction into biological interpretation. Without rigorous validation, they are unsupported and could mislead readers about the functional significance of the predicted enhancers.
+  - **Resolution test** Provide detailed methods for motif discovery and enrichment analysis, list the identified motifs with their associated transcription factors and p-values, and describe the functional enrichment analysis with appropriate multiple testing correction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, dataset description
+  - **Evidence pointer** Abstract, evaluation section; location not provided
+  - **Issue** The abstract does not specify the source, size, or species of the training and independent test datasets.
+  - **Required correction** State the dataset origin, number of sequences, and species in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Metric selection
+  - **Affected element** Abstract, performance reporting
+  - **Evidence pointer** Abstract, performance results; location not provided
+  - **Issue** Only accuracy is reported. For imbalanced datasets, accuracy can be misleading.
+  - **Required correction** Report additional metrics such as sensitivity, specificity, Matthews correlation coefficient, and area under the ROC curve.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison fairness
+  - **Affected element** Abstract, baseline comparisons
+  - **Evidence pointer** Abstract, performance results; location not provided
+  - **Issue** The abstract does not state whether the compared predictors were retrained on the same data or used with their default settings.
+  - **Required correction** Clarify the comparison protocol, including whether baselines were retrained and tuned under identical conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of performance claims), R1-M2 (reproducibility of method parameters), R1-M3 (unsupported biological claims)
+- **Assessment against Nature-style criteria** Originality: The stacking ensemble with KNN base models is a modest variation on existing ensemble methods; the novelty is not clearly established from the abstract. Scientific importance: Enhancer prediction is a relevant problem, but the incremental accuracy gains do not demonstrate a major advance. Interdisciplinary readership: The abstract is accessible to computational biologists but the biological claims are not substantiated, limiting appeal to experimentalists. Technical soundness: Cannot be assessed due to missing methodological details and lack of statistical validation. Readability for nonspecialists: The abstract is clear and concise, but the lack of context for the performance metrics reduces its accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient detail to verify the technical claims or the biological interpretations. A full manuscript with rigorous statistical analysis, complete methodological specifications, and validated biological findings would be required to support the conclusions.
+
+## Risk / unsupported claims
+- The claimed accuracy improvements over other predictors are unsupported without statistical tests and detailed baseline specifications.
+- The identification of key transcription factor binding site motifs and the exploration of biological functions are entirely unsupported in the abstract.
+- The generalizability of the method to other species or genomic contexts is not addressed and cannot be evaluated.
+- The claim that the method has "better performance" is not substantiated with error metrics or cross-validation results.

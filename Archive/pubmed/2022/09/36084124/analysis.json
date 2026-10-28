@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36084124",
+  "title": "Quantitative prediction of ensemble dynamics, shapes and contact propensities of intrinsically disordered proteins.",
+  "authors": "Yu, Lei; Bruschweiler, Rafael",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD模拟预测p53TAD等固有无序蛋白的构象系综与接触倾向，虽涉及蛋白-DNA互作相关蛋白p53TAD，但未聚焦TF-DNA结合机制，方法可迁移至本课题。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are highly dynamic systems that play an important role in cell signaling processes and their misfunction often causes human disease. Proper understanding of IDP function not only requires the realistic characterization of their three-dimensional conformational ensembles at atomic-level resolution but also of the time scales of interconversion between their conformational substates. Large sets of experimental data are often used in combination with molecular modeling to restrain or bias models to improve agreement with experiment. It is shown here for the N-terminal transactivation domain of p53 (p53TAD) and Pup, which are two IDPs that fold upon binding to their targets, how the latest advancements in molecular dynamics (MD) simulations methodology produces native conformational ensembles by combining replica exchange with series of microsecond MD simulations. They closely reproduce experimental data at the global conformational ensemble level, in terms of the distribution properties of the radius of gyration tensor, and at the local level, in terms of NMR properties including 15N spin relaxation, without the need for reweighting. Further inspection revealed that 10-20% of the individual MD trajectories display the formation of secondary structures not observed in the experimental NMR data. The IDP ensembles were analyzed by graph theory to identify dominant inter-residue contact clusters and characteristic amino-acid contact propensities. These findings indicate that modern MD force fields with residue-specific backbone potentials can produce highly realistic IDP ensembles sampling a hierarchy of nano- and picosecond time scales providing new insights into their biological function.",
+  "abstract_zh": "固有无序蛋白质（IDPs）是高度动态的系统，在细胞信号传导过程中发挥重要作用，其功能失常常导致人类疾病。正确理解IDP功能不仅需要以原子级分辨率对其三维构象集合进行现实表征，还需了解其构象亚态间相互转换的时间尺度。大量实验数据常与分子建模结合使用，以约束或偏向模型，从而提高与实验的一致性。本文以p53的N端反式激活域（p53TAD）和Pup为例，这两种IDP在与靶标结合时发生折叠，展示了分子动力学（MD）模拟方法的最新进展如何通过结合副本交换与一系列微秒级MD模拟，生成天然构象集合。这些集合在全局构象层面（如回旋半径张量的分布特性）和局部层面（如包括15N自旋弛豫在内的NMR特性）均紧密再现实验数据，无需重新加权。进一步检查发现，10-20%的单个MD轨迹显示出实验NMR数据中未观察到的二级结构形成。通过图论分析IDP集合，以识别主导的残基间接触簇和特征性氨基酸接触倾向。这些发现表明，具有残基特异性骨架势的现代MD力场能够生成高度真实的IDP集合，采样纳秒和皮秒时间尺度的层次结构，为其生物学功能提供新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36084124/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36084124/",
+  "paper_page_path": "papers/pubmed/36084124/index.html"
+}

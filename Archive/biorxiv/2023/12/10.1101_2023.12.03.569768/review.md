@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific and technical soundness of the claims as presented in the provided text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors present DeePNAP, a deep learning model that predicts protein-nucleic acid binding affinity (KD) and free energy changes upon mutation (ΔΔG) using only sequence information. The model is trained on a large, heterogeneous dataset derived from the ProNAB database and is claimed to achieve high predictive accuracy, generalizability, and performance comparable to or better than existing structure-based tools.
+- **Visible evidence base** Text descriptions of dataset statistics (Figure 1, Figure S1), model architecture (Figure 2, Figure S2, Figure S3), performance metrics (Figures 3, 4, S5), and comparative results (Table 1, text). Web interface and GitHub links are provided.
+- **Missing materials affecting confidence** The actual figures, tables, and supplementary files are not provided. Specific hyperparameters, training details, and the exact definition of the loss function are not fully described. The code is not reviewed. The web interface was not tested.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem: predicting protein-nucleic acid binding affinity from sequence alone. The use of a large dataset and a deep learning approach is a reasonable strategy. However, the current manuscript has significant gaps in methodological detail, evaluation rigor, and clarity of reporting that prevent a full assessment of the claims. The performance metrics reported are inconsistent across sections, and the comparison with existing tools is not sufficiently detailed or controlled. The core claim of generalizability is not convincingly established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-nucleic acid interactions, protein engineering, and variant effect prediction. Researchers interested in sequence-based predictors for functional genomics. The tool could be of practical use for prioritizing mutations or predicting binding affinity in the absence of structural data.
+- **Major strengths**
+    - Addresses a significant bottleneck: the reliance of existing tools on 3D structures, which are scarce.
+    - Utilizes a large dataset (14,401 entries) from a public database, which is a strength compared to many existing tools.
+    - The model aims to predict both KD and ΔΔG, making it potentially more versatile.
+    - The work includes a web interface and open-source code, which is valuable for the community.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical soundness and reproducibility
+        - **Claim pointer** The model architecture and training procedure are described, but critical details are missing.
+        - **Evidence pointer** Section "Model architecture", "Model optimization", "Descriptors and Encoding"
+        - **Concern** The description of the model architecture is insufficient for reproduction. The text mentions "convolution layers and pooling layers" and "feed-forward neural network" but does not specify the number of layers, filter sizes, activation functions, optimizer, learning rate, batch size, or the exact composition of the loss function. The "combination-based encoding algorithm" is described vaguely; the exact mapping from amino acid/nucleobase to the 6-element vector is not provided. The statement "Since the embedding is performed randomly" is confusing and raises questions about the determinism and biological relevance of the encoding.
+        - **Why it matters** Without these details, the work is not reproducible, which is a fundamental requirement for a methodological contribution. The random embedding is a particularly concerning point that needs clarification.
+        - **Resolution test** The authors must provide a complete, unambiguous description of the model architecture, training hyperparameters, and the exact encoding scheme. The code should be made available and be executable.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Validity of claims and evaluation rigor
+        - **Claim pointer** The manuscript reports inconsistent performance metrics for the model.
+        - **Evidence pointer** Section "DeePNAP performance", "Results and Discussion", "Conclusion"
+        - **Concern** The reported performance metrics are inconsistent. In the "DeePNAP performance" section, the average R for validation is 0.86, but in the "Conclusion", it is stated as 0.86 for wild-type and 0.85 for mutant proteins. The RMSE values also differ (0.83 in one section, 0.90 and 0.81 in the conclusion). The R for the best model is reported as 0.92, but the ensemble model's R is not clearly stated for the full dataset. It is unclear which numbers represent the final, definitive performance of the proposed model.
+        - **Why it matters** Inconsistent reporting makes it impossible to evaluate the true performance of the model and undermines the credibility of the claims.
+        - **Resolution test** The authors must provide a single, clear, and consistent set of performance metrics for the final model (or ensemble) on a defined test set, with clear definitions of what each metric represents.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Validity of comparative claims
+        - **Claim pointer** The comparison with existing tools (mmCSM-NA, mCSM-NA, SAMPDI-3D, PremPDI) is presented as evidence of DeePNAP's utility.
+        - **Evidence pointer** Section "DeePNAP performance comparison with existing prediction methods"
+        - **Concern** The comparison is not a fair or controlled benchmark. The authors state that DeePNAP was trained on a dataset that has only 25 entries in common with the PremPDI dataset, while the other tools were evaluated on the same dataset they were trained on or a subset of it. This is not a "blind" test for the other tools. The comparison is also limited to ΔΔG, where the authors admit DeePNAP is expected to have lower accuracy. The comparison with PreDBA is also confusing, as it mentions a correlation of 0.73 for DeePNAP on the PreDBA dataset, but it is unclear if this is a direct comparison or a separate evaluation.
+        - **Why it matters** A fair comparison is essential to support the claim that DeePNAP is "on par" with or better than existing tools. The current comparison is biased and does not support the stated conclusions.
+        - **Resolution test** The authors must perform a rigorous, controlled benchmark. This should involve retraining existing tools (where possible) on the same training data, or at least evaluating all tools on a common, independent test set that none of them were trained on. The comparison should include both KD and ΔΔG predictions.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Generalizability and biological significance
+        - **Claim pointer** The authors claim the model is generalizable due to the large and diverse dataset.
+        - **Evidence pointer** Section "Database refinement", "DeePNAP performance"
+        - **Concern** While the dataset is large, the analysis of its diversity is superficial. The authors report sequence identity percentages but do not analyze the diversity of protein families, nucleic acid types (DNA vs. RNA), or the range of binding affinities in the training and test sets. The claim of generalizability is based on random splits, which do not test the model's ability to predict binding for novel protein folds or nucleic acid structures. The high proportion of highly destabilizing mutations (60%) in the dataset may bias the model.
+        - **Why it matters** A model that performs well on random splits may fail on truly novel sequences. The claim of generalizability is a key selling point and needs to be supported by more robust evaluation, such as split-by-protein or split-by-family.
+        - **Resolution test** The authors should perform additional validation experiments, such as training on one set of protein families and testing on another, or evaluating performance on a completely independent, external dataset.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity and readability
+        - **Affected element** Abstract and Introduction
+        - **Evidence pointer** Abstract, Introduction
+        - **Issue** The abstract and introduction contain some redundant statements and could be more concise. The phrase "rendering a model less versatile for usage" is awkward.
+        - **Required correction** Revise for clarity and conciseness.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Technical correctness
+        - **Affected element** Section "DeePNAP performance comparison with existing prediction methods"
+        - **Evidence pointer** Section "DeePNAP performance comparison with existing prediction methods"
+        - **Issue** The sentence "DeePNAP performance is on par with these tools, which are specifically trained to predict KD values of PNA complexes" is logically confusing. The tools mentioned (mmCSM-NA, etc.) are for ΔΔG prediction, not KD. This appears to be a typo or a logical error.
+        - **Required correction** Correct the sentence to accurately reflect which tools predict which quantity.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Completeness of reporting
+        - **Affected element** Section "Model optimization"
+        - **Evidence pointer** Section "Model optimization"
+        - **Issue** The description of the "two parallel neural networks" for wild-type and mutant proteins is unclear. It is not specified if these are separate models or a single model with two heads.
+        - **Required correction** Clarify the architecture of the parallel networks.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Statistical rigor
+        - **Affected element** Section "DeePNAP performance"
+        - **Evidence pointer** Section "DeePNAP performance"
+        - **Issue** The manuscript reports average R, RMSE, and MAE over 100 runs but does not report the standard deviation or confidence intervals for these metrics.
+        - **Required correction** Report the standard deviation or confidence intervals for the performance metrics.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1 (Reproducibility of the model)
+    - R1-M2 (Inconsistent performance reporting)
+    - R1-M3 (Unfair comparative analysis)
+- **Assessment against Nature-style criteria**
+    - **Originality** The idea of using a large sequence-only dataset for a generalizable predictor is not entirely new, but the specific combination of predicting both KD and ΔΔG on this scale is a useful contribution. However, the methodological novelty is limited, as the architecture is a standard CNN/FFN combination.
+    - **Scientific importance** The problem is important, and a reliable sequence-based predictor would be valuable. However, the current evidence does not convincingly demonstrate that DeePNAP is a significant advance over existing tools, given the flawed comparison.
+    - **Interdisciplinary readership** The topic is of interest to structural biologists, computational biologists, and molecular biologists. The writing is generally accessible but could be improved for a broader audience.
+    - **Technical soundness** The technical soundness is currently questionable due to the lack of detail in the methods, inconsistent reporting, and the biased comparison. The model's performance on truly novel sequences is not established.
+    - **Readability for nonspecialists** The abstract and introduction are understandable, but the methods and results sections are dense and would be challenging for a nonspecialist to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and has a reasonable premise, but the technical details are insufficient for reproduction, the performance claims are inconsistent, and the comparative analysis is not rigorous. Major revisions are required to address these fundamental issues before the work can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that DeePNAP is "one of the accurate and robust sequence-based PNAI parameter prediction tools" is not supported by the provided evidence due to the flawed comparison and inconsistent metrics.
+- The claim of "high generalizability" is not supported by the evaluation methodology (random splits).
+- The statement that the model "can help to narrow down to potential binding partners" is speculative and not demonstrated.
+- The performance of the web interface and the usability of the code are not assessed.
+- The specific performance numbers for the ensemble model on the full dataset are not clearly and consistently reported.

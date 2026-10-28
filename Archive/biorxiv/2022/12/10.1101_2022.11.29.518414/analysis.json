@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.29.518414",
+  "title": "Machine learning assisted ligand binding energy prediction for <i>in silico</i> generated glycosyl hydrolase enzyme combinatorial mutant library",
+  "authors": "Igor Guranovic; Mohit Kumar; Chandra K. Bandi; Shishir P. S. Chundawat",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-02",
+  "window": {
+    "start": "2022-11-28",
+    "end": "2022-12-04"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习预测糖苷水解酶突变体与底物的对接结合能，对象为酶-小分子底物而非蛋白质-DNA互作，方法可迁移性有限，与TF-DNA课题关联弱。",
+  "abstract": "Molecular docking is a computational method used to predict the preferred binding orientation of one molecule to another when bound to each other to form an energetically stable complex. This approach has been widely used for early-stage small-molecule drug design as well as identifying suitable protein-based macromolecule residues for mutagenesis. Estimating binding free energy, based on docking interactions of protein to its ligand based on an appropriate scoring function is often critical for protein mutagenesis studies to improve the activity or alter the specificity of targeted enzymes. However, calculating docking free energy for a large number of protein mutants is computationally challenging and time-consuming. Here, we showcase an end-to-end computational workflow for predicting the binding energy of pNP-Xylose substrate docked within the substrate binding site for a large library of combinatorial mutants of an alpha-L-fucosidase ( Tm Afc, PDB ID-2ZWY) belonging to Thermotoga maritima glycosyl hydrolase (GH) family 29. Briefly, in silico combinatorial mutagenesis was performed for the top conserved residues in Tm Afc as determined by running multiple sequence alignment against all GH29 family enzyme sequences downloaded from an in-house developed Carbohydrate-Active enZyme (CAZy) database retriever program. The binding energy was calculated through Autodock Vina with pNP-Xylose ligand docking with energy minimized Tm Afc mutants, and the data was then used to train a neural network model which was also validated for model predictions using data from Autodock Vina. The current workflow can be adopted for any family of CAZymes to rapidly identify the effect of different mutations within the active site on substrate binding free energy to identify suitable targets for mutagenesis. We anticipate that this workflow could also serve as the starting point for performing more sophisticated and computationally intensive binding free energy calculations to identify targets for mutagenesis and hence optimize use of wet lab resources.",
+  "abstract_zh": "分子对接是一种计算方法，用于预测一个分子与另一个分子结合形成能量稳定复合物时的优选结合方向。该方法已广泛应用于早期小分子药物设计以及识别适合进行突变研究的蛋白质大分子残基。基于蛋白质与其配体对接相互作用，通过适当的评分函数估算结合自由能，通常对于蛋白质突变研究以提高目标酶的活性或改变其特异性至关重要。然而，对大量蛋白质突变体计算对接自由能在计算上具有挑战性且耗时。在此，我们展示了一个端到端的计算工作流程，用于预测pNP-Xylose底物在属于Thermotoga maritima糖苷水解酶（GH）家族29的α-L-岩藻糖苷酶（Tm Afc，PDB ID-2ZWY）底物结合位点内对接的结合能量。简而言之，通过对从内部开发的碳水化合物活性酶（CAZy）数据库检索程序下载的所有GH29家族酶序列进行多序列比对，确定了Tm Afc中高度保守的残基，并对其进行了计算机模拟组合突变。结合能量通过Autodock Vina计算，使用pNP-Xylose配体与能量最小化的Tm Afc突变体进行对接，随后这些数据用于训练神经网络模型，并使用Autodock Vina的数据对模型预测进行了验证。当前工作流程可适用于任何CAZy家族，以快速识别活性位点内不同突变对底物结合自由能的影响，从而确定适合突变的靶点。我们预期该工作流程也可作为进行更复杂且计算密集型的结合自由能计算的起点，以识别突变靶点，从而优化湿实验室资源的利用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.29.518414",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.29.518414",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.29.518414/index.html"
+}

@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "40292334",
+    "doi": "10.1016/j.jceh.2025.102552",
+    "title": "Multiomics Analysis and Machine Learning-based Identification of Molecular Signatures for Diagnostic Classification in Liver Disease Types Along the Microbiota-gut-liver Axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Liver disease, responsible for around two million deaths annually, remains a pressing global health challenge. Microbial interactions within the microbiota-gut-liver axis play a substantial role in the pathogenesis of various liver conditions, including early chronic liver disease (eCLD), chronic liver disease (CLD), acute liver failure (ALF), acute-on-chronic liver failure (ACLF), non-alcoholic fatty liver disease (NAFLD), steatohepatitis, and cirrhosis. This study aimed to identify key molecular signatures involved in liver disease progression by analyzing transcriptomic and gut microbiome data, and to evaluate their diagnostic utility using machine learning models. METHODS: Transcriptomic analysis identified differentially expressed genes (DEGs) that, when integrated with regulatory elements microRNAs, transcription factors, receptors, and the gut microbiome highlight disease-specific molecular interactions. To assess the diagnostic potential of these molecular signatures, a two-step analysis involving principal component analysis (PCA) and Random Forest classification was conducted, achieving accuracies of 75% for ALF and 89% for NAFLD. Additionally, machine learning algorithms, including K-neighbors, multi-layer perceptron (MLP), decision tree, Random Forest, logistic regression, gradient boosting, CatBoost, Extreme Gradient Boosting (XGB), and Light Gradient Boosting Machine (LGBM), were applied to gene expression data for ALF and NAFLD. RESULTS: Key genes including CLDN14, EGFR, GSK3B, MYC, and TJP2, alongside regulatory miRNAs let-7a-5p, miR-124-3p, and miR-195-5p and transcription factors NFKB1 and SP1 may be suggested as critical to liver disease progression. Additionally, gut microbiota members, Dictyostelium discoideum and Eikenella might be novel candidates associated with liver disease, highlighting the importance of the gut-liver axis. The Random Forest model reached 75% accuracy and 83% area under the curve for ALF, while NAFLD classification achieved 100% accuracy, precision, recall, and area under the curve underscoring robust diagnostic potential. CONCLUSION: This study establishes a solid foundation for further research and therapeutic advancement by identifying key biomolecules and pathways critical to liver disease. Additional experimental validation is needed to confirm clinical applicability.",
+    "keywords": [
+      "liver diseases",
+      "machine learning",
+      "molecular signatures",
+      "network biology",
+      "omics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Comertpay, Betul",
+        "Gov, Esra"
+      ],
+      "short_names": [
+        "Comertpay B",
+        "Gov E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioengineering, Faculty of Engineering, Adana Alparslan Turkes Science and Technology University, Adana, Turkey.",
+        "Department of Bioengineering, Faculty of Engineering, Adana Alparslan Turkes Science and Technology University, Adana, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Comertpay, Betul",
+        "short_name": "Comertpay B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Faculty of Engineering, Adana Alparslan Türkeş Science and Technology University, Adana, Turkey."
+        ]
+      },
+      {
+        "full_name": "Gov, Esra",
+        "short_name": "Gov E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Faculty of Engineering, Adana Alparslan Türkeş Science and Technology University, Adana, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of clinical and experimental hepatology"
+    ],
+    "journal_abbrev": [
+      "J Clin Exp Hepatol"
+    ],
+    "pub_date": "2025 Sep-Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/28 17:03",
+    "fetched_at": "2026-09-30 16:53:16"
+  },
+  "links": {
+    "cites": [
+      "42215825",
+      "41993162",
+      "41517088"
+    ],
+    "refs": [
+      "38191517",
+      "37209562",
+      "37171232",
+      "37069607",
+      "36990226",
+      "36675217",
+      "35540106",
+      "35166723",
+      "35046459",
+      "34785325",
+      "34552111",
+      "34500458",
+      "34036255",
+      "33927635",
+      "33613548",
+      "33317250",
+      "33106666",
+      "32941879",
+      "32733451",
+      "32459924",
+      "32013628",
+      "31647101",
+      "31352173",
+      "31312985",
+      "31038390",
+      "30778201",
+      "30735525",
+      "29087512",
+      "27322403",
+      "25993042",
+      "25516281",
+      "24497316",
+      "23193258",
+      "23143270",
+      "23071592",
+      "22179217",
+      "21149340",
+      "19486012",
+      "14960456"
+    ],
+    "similar": [
+      "40292334",
+      "41545932",
+      "42351186",
+      "42475469",
+      "41265166",
+      "39939537",
+      "40308807",
+      "40740938",
+      "41806697",
+      "41765506",
+      "42051460",
+      "41939867",
+      "40751069",
+      "42269260",
+      "40360670",
+      "41378206",
+      "39722081",
+      "38537674",
+      "39563409",
+      "42387451",
+      "40202676",
+      "42015036",
+      "40418571",
+      "40596896",
+      "41933745",
+      "42088521",
+      "41078519",
+      "38997279",
+      "41634314",
+      "41533724",
+      "32282466",
+      "39888730",
+      "39512836",
+      "41611834",
+      "40830558",
+      "39622968",
+      "42205493",
+      "41844384",
+      "41074150",
+      "41019533",
+      "40916281",
+      "42558367",
+      "42233387",
+      "39850379",
+      "41731169",
+      "35540106",
+      "42591968",
+      "39351239",
+      "41094697",
+      "39462099",
+      "38941818",
+      "39496918",
+      "42404879",
+      "40446607",
+      "41471397",
+      "37256426",
+      "35072021",
+      "38476236",
+      "38927836",
+      "38454425",
+      "42120650",
+      "41640874",
+      "40097519",
+      "42616816",
+      "42609119",
+      "41731716",
+      "41716413",
+      "41722245",
+      "42056921",
+      "42009979",
+      "42269031",
+      "41291881",
+      "39568749",
+      "40340817",
+      "40717804",
+      "40019680",
+      "41345436",
+      "41351083",
+      "40374866",
+      "39294603",
+      "37993474",
+      "37698911",
+      "41501788",
+      "39256656",
+      "37724402",
+      "40725732",
+      "39256536",
+      "42576494",
+      "41957161",
+      "42123756",
+      "41053192",
+      "36119721",
+      "40792105",
+      "42043682",
+      "41772529",
+      "40539070",
+      "40606926",
+      "41669529",
+      "42625750",
+      "42450082"
+    ],
+    "review": [
+      "40292334",
+      "40202676",
+      "40606926"
+    ],
+    "pmc": [
+      "12019836"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0973-6883(25)00052-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40292334/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-804",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy?issn=0973-6883&vol=15&issue=5&pgfirst=102552",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

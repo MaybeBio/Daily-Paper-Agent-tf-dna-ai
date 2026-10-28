@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (including main text, figures, tables, and supplementary information description)
+- **Assessment boundary** Technical soundness, methodological clarity, reproducibility, and validity of claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors present Sensbio, an open-source web server and Python toolbox for biosensor design. The tool integrates a database of 451 chemical compounds and 3507 transcription factor (TF) sequences, offering molecular similarity search (Tanimoto score via Morgan fingerprints), sequence similarity search (BLAST+), and a machine learning-based predictive model for TF-ligand interaction discovery. The authors claim the tool simplifies biosensor design by collating data from multiple sources and providing similarity scores, a feature lacking in previous tools.
+- **Visible evidence base** Main text, Figures 1–11, Tables 1–3, supplementary file description
+- **Missing materials affecting confidence** The manuscript does not provide the actual web server URL (only a bit.ly link in conclusions), no detailed dataset schema, no code repository contents beyond URLs, no detailed hyperparameter optimization results, no cross-validation fold details, and no external validation of the ML model on independent data. The supplementary file is described but not provided in the review material.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a useful and potentially valuable resource for the synthetic biology community, combining database curation with two search tools and a machine learning model. The molecular and sequence similarity tools are straightforward and appear functional based on the examples provided. However, the machine learning component is insufficiently validated, with unclear methodology, potential data leakage issues, and a critical typo in the reported accuracy (96,048% instead of 96.048%). The database construction process lacks detail on quality control and redundancy removal. The claims of novelty are partially overstated, as the authors themselves acknowledge existing tools like Sensipath and DeepTFactor. Overall, the resource has merit, but the current manuscript does not fully establish the reliability and utility of the ML model, and several technical details require clarification.
+- **Who would be interested in the results, and why** Synthetic biologists designing transcription factor-based biosensors, metabolic engineers seeking detectable compounds for pathway monitoring, and researchers in bioremediation or diagnostics who need to identify potential TF-ligand pairs. The database and similarity search tools would be of practical use to these groups, as they consolidate scattered data and provide a user-friendly interface.
+- **Major strengths** (1) The resource addresses a real bottleneck in biosensor design, namely the limited number of known TF-ligand pairs. (2) The combination of molecular and sequence similarity search in one platform is practical and user-friendly. (3) The use of SMILES-based searching removes ambiguity from compound naming. (4) The database collates data from multiple established sources, providing a useful starting point for researchers. (5) The open-source nature of the toolbox promotes community use and further development.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The ML model achieves 96.048% accuracy on test data, with F1-scores close to 0.9 for both positive and negative classes, and outperforms SVM, Random Forest, and Naive Bayes classifiers.
+  - **Evidence pointer** Results section, "Predictive model performance", Table 3, Figures 9–11
+  - **Concern** The reported test accuracy of "96,048%" is clearly a typographical error (likely 96.048%), which undermines confidence in the precision of the reported results. More critically, the methodology for generating negative training examples is described as "a molecule that does not resemble the molecule associated with a given TF based on their Tanimoto index was randomly selected for each sequence." This approach is problematic: if negative examples are selected based on dissimilarity to the positive ligand, the model may learn to discriminate based on molecular dissimilarity rather than genuine TF-ligand compatibility. This could lead to artificially inflated performance metrics. Additionally, the clustering strategy for cross-validation is described only vaguely ("Clustering was used to group the data"), with no details on how clusters were formed, how many folds were used, or how the train/validation/test splits were constructed. The risk of data leakage between training and test sets is not adequately addressed.
+  - **Why it matters** The ML model is presented as a key contribution of the paper. If the negative sampling strategy introduces bias, the reported performance metrics are not reliable indicators of real-world predictive performance. Without proper validation methodology, users cannot trust the model's recommendations for novel TF-ligand pairs.
+  - **Resolution test** The authors should clarify the exact negative sampling procedure, provide details on the clustering and cross-validation scheme, correct the typo, and ideally validate the model on an independent external dataset of experimentally confirmed TF-ligand interactions not used in training.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The Sensbio database contains 451 unique molecules and 3507 protein sequences, producing 5387 unique TF-ligand pairs, collected from Koch et al. and six additional databases.
+  - **Evidence pointer** Material and methods, "Databases, packages and tools used in this study"; Results, "Database analysis"
+  - **Concern** The database construction process is described at a high level, but critical details are missing. Specifically: (1) How were duplicate entries handled across different source databases? (2) What criteria were used to determine that two entries refer to the same TF or the same ligand? (3) How were conflicting annotations (e.g., different ligands reported for the same TF) resolved? (4) What quality control measures were applied to ensure sequence integrity and correct compound identifiers? (5) The exact version or date of each database dump is not specified, which affects reproducibility. Without these details, the reliability of the database cannot be fully assessed.
+  - **Why it matters** The database is the foundation of the entire tool. If the curation process is not transparent and reproducible, users cannot assess the quality of the underlying data, and the tool's outputs may be based on erroneous or redundant entries.
+  - **Resolution test** The authors should provide a detailed description of the data curation pipeline, including deduplication criteria, conflict resolution rules, and quality control steps. Ideally, the database should be made available for download with clear versioning and documentation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Compared to other tools and databases, Sensbio collates the information from the available databases simplifying the research task for the users. It also provides a molecular-string (SMILES) based searching algorithm, thus removing the confusion often found using the molecule's common name making the search of similar compounds unambiguous. Finally, the result of the molecular tool provides a similarity score. Previous databases/tools lacked this feature."
+  - **Evidence pointer** Introduction, final paragraph
+  - **Concern** The novelty claims are not fully substantiated. The authors state that previous tools lacked similarity scores, but they do not provide a systematic comparison with existing tools such as Sensipath, DeepTFactor, or other biosensor design resources (e.g., the BioBrick registry, SynBioHub, or the Kegg-based tools). A more thorough literature review and feature comparison table would strengthen the novelty claim. Additionally, the claim that SMILES-based searching is a unique feature is questionable, as many cheminformatics tools already use SMILES.
+  - **Why it matters** For a resource paper, clearly establishing the novelty and added value relative to existing tools is essential for justifying the contribution to the field.
+  - **Resolution test** The authors should provide a comparative table or detailed discussion of existing tools and clearly articulate what Sensbio adds beyond them. This would help readers understand the specific niche Sensbio fills.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, "Predictive model performance"
+  - **Evidence pointer** "96,048% of accuracy"
+  - **Issue** Typographical error in the reported accuracy value.
+  - **Required correction** Correct to "96.048%".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Material and methods, "Predictive model"
+  - **Evidence pointer** "The hyperparameters were optimized using Bayesian optimization. These parameters were the learning rate, the batch size, and the number or epochs."
+  - **Issue** The hyperparameter ranges and the final chosen values are not reported. Additionally, the number of cross-validation folds is not specified.
+  - **Required correction** Provide the hyperparameter search space, final values, and the number of folds used in cross-validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Material and methods, "Databases, packages and tools used in this study"
+  - **Evidence pointer** "A local BLAST+ installation allowed the scoring and ranking of the protein sequences."
+  - **Issue** The BLAST+ version and the specific parameters used (e.g., E-value threshold, matrix) are not specified.
+  - **Required correction** Specify the BLAST+ version and parameters used for sequence similarity searches.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Conclusions section
+  - **Evidence pointer** "The tool is available at https://bit.ly/3OF4msH."
+  - **Issue** The use of a bit.ly shortened URL is not ideal for a published resource. It is unclear whether this link resolves to the GitHub repository or the web server.
+  - **Required correction** Provide the full, permanent URL for the web server and the GitHub repository.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, "Database analysis"
+  - **Evidence pointer** "87.7% of the 3507 unique sequences have been associated to a single molecular ontology. The rest are 'promiscuous' TFs and are triggered by more than one molecular category."
+  - **Issue** The definition of "promiscuous" is based on molecular ontology categories, which are broad (e.g., "Hydrocarbon derivatives"). A TF might be associated with two different compounds within the same ontology category and would not be classified as promiscuous, even if it binds structurally distinct ligands. This could underestimate promiscuity.
+  - **Required correction** Clarify the definition of promiscuity and consider using compound-level rather than ontology-level analysis for this claim.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 2
+  - **Evidence pointer** "Network architecture diagram"
+  - **Issue** The figure is not described in sufficient detail in the text. The input dimensions, layer sizes, and output layer details are not specified.
+  - **Required correction** Add a detailed description of the network architecture in the text or figure legend, including layer sizes and activation functions.
+- **Technical failings that need to be addressed before the case is established** (1) The ML model's negative sampling strategy may introduce bias, and the validation methodology is insufficiently described (R1-M1). (2) The database curation process lacks transparency and reproducibility (R1-M2). (3) The reported accuracy contains a typographical error that must be corrected (R1-m1). (4) Hyperparameter details and cross-validation setup are missing (R1-m2).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The combination of molecular and sequence similarity search with a ML model in a single platform is somewhat novel, but the individual components are established techniques. The database curation is a useful contribution but not methodologically novel.
+  - **Scientific importance** Moderate. The resource addresses a real need in biosensor design, but the impact is limited by the lack of experimental validation of the ML model's predictions. The database itself is a useful community resource.
+  - **Interdisciplinary readership** Moderate. The tool is relevant to synthetic biology, metabolic engineering, and cheminformatics, but the manuscript is written primarily for a bioinformatics audience. The ML component may be of interest to computational biologists.
+  - **Technical soundness** Weak. The ML model validation is not adequately described, and the negative sampling strategy raises concerns about biased performance estimates. The database curation lacks detail.
+  - **Readability for nonspecialists** Adequate. The manuscript is generally clear, but the ML section assumes familiarity with deep learning concepts. The figures are helpful, though Figure 2 could be better annotated.
+- **Recommendation posture** Supportive if technical concerns are resolved. The resource has clear utility, and the similarity search tools appear functional. However, the ML model's reliability is not established from the provided evidence, and the database curation process needs more transparency. The authors should address the major concerns regarding validation methodology and data curation before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the ML model achieves 96.048% accuracy and F1-scores close to 0.9 is not supported due to the unclear negative sampling strategy and validation methodology.
+- The claim that "Previous databases/tools lacked this feature" (similarity scores) is not substantiated with a systematic comparison.
+- The claim that the database contains "451 unique molecules and 3507 protein sequences" cannot be independently verified without access to the database or a detailed curation description.
+- The claim that the model "performs reasonably well as a classifier" is based on a single ROC curve and AUC value, with no confidence intervals or statistical significance testing.
+- The claim that the tool "can be used to find extra TF-ligand interactions through a predictive system" is not validated with any experimental or literature-based confirmation of novel predictions.

@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "42235483",
+    "doi": "10.1016/j.drup.2026.101421",
+    "title": "PRKCA and ABCB1 dual-enriched exosomes are key drivers of drug resistance in chronic myeloid leukemia."
+  },
+  "content": {
+    "abstract": "AIMS: Drug resistance frequently results in treatment failure for leukemia and leads to the progression of chronic myeloid leukemia (CML) into an accelerated or blast phase. An increasing number of CML cases exhibit reduced responsiveness or are refractory to tyrosine kinase inhibitors and chemotherapeutic drugs. Exosomes, as intercellular communication carriers, have been shown to participate in various forms of tumor drug resistance, but their role and mechanisms in CML drug resistance have not yet been fully investigated. METHODS: Exosomes were isolated from the cell culture medium or plasma using ultracentrifugation. RNA sequencing, LC-MS proteomics, Western blot, molecular docking, co-immunoprecipitation, cell viability assay, and flow cytometry analysis were carried out to examine the mechanisms of exosomes in CML drug resistance. Cell line-derived and patient-derived xenografts were estimated to verify the mechanisms of exosomes in CML drug resistance in vivo. Clinical samples from CML patients were used to analyze the predictive potential of exosomes in CML drug resistance. RESULTS: Drug-resistant CML cell-derived exosomes promote multifaceted resistance to imatinib and doxorubicin by directly disseminating the ATP-binding cassette subfamily B member 1 (ABCB1) efflux pump to initially sensitive cells and indirectly upregulating ABCB1 expression, enhancing drug expulsion and resistance. The specific binding regions between ABCB1 with protein kinase C-alpha (PRKCA) that is required for dual-enriched exosomal packaging and ABCB1-mediated resistance. We identified myristoylated alanine-rich C kinase substrate (MARCKS) regulation of PRKCA is an essential prerequisite to PRKCA-ABCB1 interaction, forming a tri-protein complex in drug-resistant CML cells that selectively enriches PRKCA and ABCB1 into exosomes. Mechanistically, exosomes enriched with both PRKCA and ABCB1 enhance fatty acid metabolism through PRKCA, activate the AGE-RAGE signaling pathway, and subsequently upregulate the transcription factors ETS1 and FOXA1. This process leads to increased expression of PRKCA and ABCB1 in drug-sensitive cells, which further contribute to drug efflux and drug resistance in CML cells. Clinically, plasma exosomal PRKCA and ABCB1 together accurately predict drug resistance in CML patients. CONCLUSIONS: PRKCA and ABCB1 dual-enriched exosomes are key drivers of drug resistance in CML patients, and exosomal PRKCA and ABCB1 may serve as diagnostic and therapeutic targets for CML.",
+    "keywords": [
+      "ABCB1",
+      "Chronic myeloid leukemia",
+      "Drug resistance",
+      "Exosomes",
+      "PRKCA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Exosomes/metabolism/genetics",
+      "*Leukemia, Myelogenous, Chronic, BCR-ABL Positive/drug therapy/pathology/genetics/metabolism",
+      "*Drug Resistance, Neoplasm/genetics/drug effects",
+      "ATP Binding Cassette Transporter, Subfamily B/metabolism/genetics",
+      "Animals",
+      "*Protein Kinase C-alpha/metabolism/genetics",
+      "Imatinib Mesylate/pharmacology",
+      "Mice",
+      "Doxorubicin/pharmacology",
+      "Antineoplastic Agents/pharmacology",
+      "Cell Line, Tumor",
+      "Protein Kinase Inhibitors/pharmacology",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Fei",
+        "Lin, Jin-Fei",
+        "Tian, Peng",
+        "Chen, Haisheng",
+        "Yang, Qian",
+        "Guo, Qiqi",
+        "Wang, Jiasheng",
+        "He, Yue",
+        "Chen, Junru",
+        "Hu, Xiaojian",
+        "Li, Chunmou",
+        "Mai, Weitong",
+        "Duan, Menghan",
+        "Peng, Michael",
+        "Rousseau, Zackary",
+        "Chen, Chun",
+        "Ni, Heyu",
+        "Zhang, Qing"
+      ],
+      "short_names": [
+        "Li F",
+        "Lin JF",
+        "Tian P",
+        "Chen H",
+        "Yang Q",
+        "Guo Q",
+        "Wang J",
+        "He Y",
+        "Chen J",
+        "Hu X",
+        "Li C",
+        "Mai W",
+        "Duan M",
+        "Peng M",
+        "Rousseau Z",
+        "Chen C",
+        "Ni H",
+        "Zhang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "Department of Clinical Laboratory, Sun Yat-Sen University Cancer Center, Guangzhou 510060, China.",
+        "Department of Otolaryngology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital of Sun Yat-Sen University, Shenzhen 518107, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China.",
+        "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON M5S 1A1, Canada; Department of Laboratory Medicine, LKSKI-Keenan Research Centre for Biomedical Science, St. Michael's Hospital, Toronto, ON M5B 1T8, Canada; Toronto Platelet Immunobiology Group, Toronto, ON M5B 1T8, Canada.",
+        "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON M5S 1A1, Canada; Department of Laboratory Medicine, LKSKI-Keenan Research Centre for Biomedical Science, St. Michael's Hospital, Toronto, ON M5B 1T8, Canada; Toronto Platelet Immunobiology Group, Toronto, ON M5B 1T8, Canada.",
+        "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital of Sun Yat-Sen University, Shenzhen 518107, China. Electronic address: chenchun@mail.sysu.edu.cn.",
+        "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON M5S 1A1, Canada; Department of Laboratory Medicine, LKSKI-Keenan Research Centre for Biomedical Science, St. Michael's Hospital, Toronto, ON M5B 1T8, Canada; Toronto Platelet Immunobiology Group, Toronto, ON M5B 1T8, Canada; Canadian Blood Services Centre for Innovation, Toronto, ON M5B 1T8, Canada; Department of Medicine, University of Toronto, Toronto, ON M5S 3H2, Canada; Department of Physiology, University of Toronto, Toronto, ON M5S 1A8, Canada. Electronic address: Heyu.Ni@unityhealth.to.",
+        "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China; Research Institute of Sun Yat-sen University in Shenzhen, Shenzhen 518057, China. Electronic address: lsszq@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Fei",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jin-Fei",
+        "short_name": "Lin JF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Sun Yat-Sen University Cancer Center, Guangzhou 510060, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Peng",
+        "short_name": "Tian P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Haisheng",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qian",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Qiqi",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiasheng",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "He, Yue",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junru",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiaojian",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chunmou",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital of Sun Yat-Sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Mai, Weitong",
+        "short_name": "Mai W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Menghan",
+        "short_name": "Duan M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Michael",
+        "short_name": "Peng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON M5S 1A1, Canada; Department of Laboratory Medicine, LKSKI-Keenan Research Centre for Biomedical Science, St. Michael's Hospital, Toronto, ON M5B 1T8, Canada; Toronto Platelet Immunobiology Group, Toronto, ON M5B 1T8, Canada."
+        ]
+      },
+      {
+        "full_name": "Rousseau, Zackary",
+        "short_name": "Rousseau Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON M5S 1A1, Canada; Department of Laboratory Medicine, LKSKI-Keenan Research Centre for Biomedical Science, St. Michael's Hospital, Toronto, ON M5B 1T8, Canada; Toronto Platelet Immunobiology Group, Toronto, ON M5B 1T8, Canada."
+        ]
+      },
+      {
+        "full_name": "Chen, Chun",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital of Sun Yat-Sen University, Shenzhen 518107, China. Electronic address: chenchun@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ni, Heyu",
+        "short_name": "Ni H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON M5S 1A1, Canada; Department of Laboratory Medicine, LKSKI-Keenan Research Centre for Biomedical Science, St. Michael's Hospital, Toronto, ON M5B 1T8, Canada; Toronto Platelet Immunobiology Group, Toronto, ON M5B 1T8, Canada; Canadian Blood Services Centre for Innovation, Toronto, ON M5B 1T8, Canada; Department of Medicine, University of Toronto, Toronto, ON M5S 3H2, Canada; Department of Physiology, University of Toronto, Toronto, ON M5S 1A8, Canada. Electronic address: Heyu.Ni@unityhealth.to."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qing",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China; Research Institute of Sun Yat-sen University in Shenzhen, Shenzhen 518057, China. Electronic address: lsszq@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy"
+    ],
+    "journal_abbrev": [
+      "Drug Resist Updat"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/04 00:42",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [
+      "42360416"
+    ],
+    "refs": [],
+    "similar": [
+      "42235483",
+      "35887063",
+      "21718141",
+      "32830792",
+      "30929559",
+      "25089713",
+      "41502514",
+      "25701353",
+      "33491750",
+      "29223442",
+      "29808796",
+      "32112424",
+      "29165716",
+      "37329755",
+      "24969884",
+      "28719608",
+      "20482842",
+      "40880391",
+      "29742496",
+      "26919095",
+      "41274252",
+      "33581133",
+      "22879938",
+      "27444277",
+      "25501124",
+      "24747972",
+      "35241148",
+      "40229844",
+      "25802333",
+      "32563150",
+      "33129240",
+      "40671124",
+      "34843676",
+      "22823957",
+      "24334603",
+      "32619722",
+      "33515349",
+      "18577747",
+      "32598170",
+      "41865468",
+      "27884201",
+      "34673425",
+      "26373734",
+      "36535407",
+      "29733872",
+      "38031192",
+      "32430012",
+      "30618318",
+      "26874514",
+      "31235520",
+      "31272418",
+      "37932786",
+      "22971013",
+      "28682311",
+      "29724897",
+      "25644060",
+      "27557509",
+      "31054182",
+      "32179085",
+      "41423144",
+      "33369447",
+      "29554925",
+      "27536777",
+      "25186176",
+      "20228846",
+      "34146540",
+      "27720778",
+      "31034603",
+      "29559564",
+      "34723728",
+      "27875938",
+      "32164732",
+      "39342174",
+      "34957936",
+      "23125079",
+      "24629639",
+      "42033509",
+      "27070592",
+      "34007045",
+      "37924446",
+      "19710702",
+      "41850237",
+      "28321124",
+      "41147744",
+      "24091144",
+      "25301112",
+      "30290167",
+      "27416909",
+      "29485707",
+      "25483100",
+      "23229016",
+      "21474579",
+      "29486476",
+      "16388976",
+      "30504658",
+      "33587348",
+      "29945498",
+      "39412615",
+      "29511345",
+      "28410239"
+    ],
+    "review": [
+      "42235483",
+      "30504658"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1368-7646(26)00072-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/chronicmyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chronic Myeloid Leukemia"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1615",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1368-7646(26)00072-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

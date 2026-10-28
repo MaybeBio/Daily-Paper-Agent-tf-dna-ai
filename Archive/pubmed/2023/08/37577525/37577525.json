@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "37577525",
+    "doi": "10.1101/2023.08.01.551575",
+    "title": "Continuous lifelong learning for modeling of gene regulation from single cell multiome data by leveraging atlas-scale external data."
+  },
+  "content": {
+    "abstract": "Accurate context-specific Gene Regulatory Networks (GRNs) inference from genomics data is a crucial task in computational biology. However, existing methods face limitations, such as reliance on gene expression data alone, lower resolution from bulk data, and data scarcity for specific cellular systems. Despite recent technological advancements, including single-cell sequencing and the integration of ATAC-seq and RNA-seq data, learning such complex mechanisms from limited independent data points still presents a daunting challenge, impeding GRN inference accuracy. To overcome this challenge, we present LINGER (LIfelong neural Network for GEne Regulation), a novel deep learning-based method to infer GRNs from single-cell multiome data with paired gene expression and chromatin accessibility data from the same cell. LINGER incorporates both 1) atlas-scale external bulk data across diverse cellular contexts and 2) the knowledge of transcription factor (TF) motif matching to cis-regulatory elements as a manifold regularization to address the challenge of limited data and extensive parameter space in GRN inference. Our results demonstrate that LINGER achieves 2-3 fold higher accuracy over existing methods. LINGER reveals a complex regulatory landscape of genome-wide association studies, enabling enhanced interpretation of disease-associated variants and genes. Additionally, following the GRN inference from a reference sc-multiome data, LINGER allows for the estimation of TF activity solely from bulk or single-cell gene expression data, leveraging the abundance of available gene expression data to identify driver regulators from case-control studies. Overall, LINGER provides a comprehensive tool for robust gene regulation inference from genomics data, empowering deeper insights into cellular mechanisms.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Qiuyue",
+        "Duren, Zhana"
+      ],
+      "short_names": [
+        "Yuan Q",
+        "Duren Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Human Genetics, Department of Genetics and Biochemistry, Clemson University, Greenwood, SC 29646, USA.",
+        "Center for Human Genetics, Department of Genetics and Biochemistry, Clemson University, Greenwood, SC 29646, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Qiuyue",
+        "short_name": "Yuan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Human Genetics, Department of Genetics and Biochemistry, Clemson University, Greenwood, SC 29646, USA."
+        ]
+      },
+      {
+        "full_name": "Duren, Zhana",
+        "short_name": "Duren Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Human Genetics, Department of Genetics and Biochemistry, Clemson University, Greenwood, SC 29646, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Aug 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/14 06:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37577525",
+      "38609714",
+      "37788349",
+      "38948854",
+      "39207727",
+      "35961023",
+      "38896510",
+      "30547796",
+      "35578363",
+      "30696696",
+      "36902216",
+      "36204155",
+      "38510148",
+      "36451086",
+      "36070863",
+      "30051742",
+      "34251625",
+      "36768917",
+      "35195064",
+      "36155797",
+      "37085776",
+      "35976093",
+      "36778259",
+      "38032470",
+      "37365273",
+      "19594874",
+      "39401117",
+      "37434694",
+      "35172134",
+      "36585783",
+      "35941239",
+      "38217125",
+      "30948003",
+      "37292801",
+      "35695574",
+      "24228871",
+      "25152886",
+      "32019417",
+      "36778447",
+      "37131596",
+      "35062026",
+      "29879919",
+      "37537351",
+      "36450117",
+      "25162401",
+      "24564496",
+      "38238840",
+      "34986805",
+      "22456606",
+      "38260386",
+      "36303726",
+      "25521243",
+      "36568360",
+      "33054712",
+      "31571287",
+      "37686146",
+      "28066488",
+      "35050715",
+      "30445315",
+      "36168811",
+      "37715282",
+      "39024032",
+      "25971253",
+      "30555503",
+      "33817013",
+      "37607190",
+      "32054475",
+      "36873935",
+      "33151298",
+      "39137088",
+      "28294630",
+      "34390642",
+      "36130957",
+      "38014297",
+      "37016281",
+      "36307979",
+      "31527870",
+      "33989333",
+      "36943152",
+      "38190633",
+      "34673384",
+      "29769331",
+      "36833196",
+      "37803123",
+      "27876826",
+      "28602483",
+      "33026066",
+      "23525069",
+      "37387180",
+      "33828122",
+      "20946602",
+      "25369032",
+      "39387266",
+      "38778003",
+      "35705328",
+      "38826297",
+      "38294926",
+      "36993284",
+      "39257745",
+      "39296931",
+      "39149326",
+      "37790516",
+      "39091800",
+      "37034577",
+      "32774787",
+      "37521901",
+      "35648859",
+      "38826240",
+      "37974651",
+      "38014002",
+      "37205561",
+      "38094309",
+      "38352499",
+      "37693629",
+      "37131616",
+      "37353848",
+      "37902368",
+      "33225112",
+      "39005360",
+      "39211069",
+      "38895220",
+      "37398022",
+      "38370122",
+      "39196051"
+    ],
+    "review": [
+      "37577525",
+      "39207727",
+      "38032470",
+      "37365273",
+      "30948003",
+      "25152886",
+      "30445315",
+      "30555503",
+      "39137088"
+    ],
+    "pmc": [
+      "10418251"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37577525/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37577525",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.08.01.551575",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

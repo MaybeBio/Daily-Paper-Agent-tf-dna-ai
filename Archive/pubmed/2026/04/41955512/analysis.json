@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41955512",
+  "title": "Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.",
+  "authors": "Chen, Huiying; Zhao, Yang; Hu, Boqiang; Wang, Wuke; Song, Minfang; Zhao, Annabeth Xinyu; Li, Xiangyang; Wang, Gefei; Wang, Yanfen; Zheng, Weiyan; Zhang, Xinpeng; Lin, Xia; Yin, Yanbin; Huang, Xingxu; Zheng, Jinfang; Liang, Tingbo",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-04-09",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白语言模型微调预测TP53等癌症基因的错义变异致病性，虽涉及蛋白序列与功能，但核心是变异效应预测而非TF-DNA结合互作建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "Accurate prediction of variant functional impact is crucial for understanding human diseases, particularly for cancer-related genes such as TP53. Advances in high-throughput mutational assays have enhanced variant effect prediction (VEP), but missense classification remains challenging due to the limitations of broad, non-gene-specific models. Here we present CaVepP53, a TP53-specific predictor fine-tuned on perturbation-based experimental variants. The model not only classifies mutations but also quantifies their pathogenicity by calculating Euclidean distances between the wild-type and mutant embeddings and deriving confidence scores through logistic transformation. Benchmarking demonstrates that CaVepP53 significantly outperforms general-purpose models, such as AlphaMissense (AM) and PrimateAI-3D, achieving higher accuracy, precision, and F1-score in predicting pathogenic mutations. Competitive growth assay validation of 22 mutations further confirms CaVepP53's robustness, including 7 functional novel variants absent in the ClinVar database. Thus, by integrating protein language models with experimentally validated functional data, our approach enables accurate, interpretable VEP for TP53, overcoming limitations of predictors trained solely on evolutionary or clinical associations. We further extended this framework to five additional cancer-related genes (VHL, ATM, BRCA1, RAD51C, and BAP1), establishing a generalizable framework for gene-specific VEP with potential applications in precision medicine.",
+  "abstract_zh": "准确预测变异功能影响对于理解人类疾病至关重要，尤其是对于像TP53这样的癌症相关基因。高通量突变检测技术的进步增强了变异效应预测（VEP），但由于广泛、非基因特异性模型的局限性，错义突变分类仍具挑战性。在此，我们提出CaVepP53，一种基于扰动实验变异微调的TP53特异性预测器。该模型不仅对突变进行分类，还通过计算野生型与突变型嵌入之间的欧几里得距离，并利用逻辑变换推导置信度得分，来量化其致病性。基准测试表明，CaVepP53显著优于通用模型，如AlphaMissense（AM）和PrimateAI-3D，在预测致病突变方面实现了更高的准确率、精确度和F1分数。对22个突变的竞争性生长实验验证进一步证实了CaVepP53的稳健性，其中包括7个在ClinVar数据库中缺失的功能性新变异。因此，通过将蛋白质语言模型与实验验证的功能数据相结合，我们的方法能够实现TP53的准确、可解释的VEP，克服了仅基于进化或临床关联训练的预测器的局限性。我们进一步将该框架扩展到五个额外的癌症相关基因（VHL、ATM、BRCA1、RAD51C和BAP1），建立了一个可推广的基因特异性VEP框架，在精准医学中具有潜在应用价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41955512/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41955512/",
+  "paper_page_path": "papers/pubmed/41955512/index.html"
+}

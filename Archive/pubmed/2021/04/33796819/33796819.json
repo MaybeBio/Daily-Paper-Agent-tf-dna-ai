@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "33796819",
+    "doi": "10.1038/s42256-020-00282-y",
+    "title": "Deep neural networks identify sequence context features predictive of transcription factor binding."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) bind DNA by recognizing specific sequence motifs, typically of length 6-12bp. A motif can occur many thousands of times in the human genome, but only a subset of those sites are actually bound. Here we present a machine learning framework leveraging existing convolutional neural network architectures and model interpretation techniques to identify and interpret sequence context features most important for predicting whether a particular motif instance will be bound. We apply our framework to predict binding at motifs for 38 TFs in a lymphoblastoid cell line, score the importance of context sequences at base-pair resolution, and characterize context features most predictive of binding. We find that the choice of training data heavily influences classification accuracy and the relative importance of features such as open chromatin. Overall, our framework enables novel insights into features predictive of TF binding and is likely to inform future deep learning applications to interpret non-coding genetic variants.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, An",
+        "Lamkin, Michael",
+        "Zhao, Hanqing",
+        "Wu, Cynthia",
+        "Su, Hao",
+        "Gymrek, Melissa"
+      ],
+      "short_names": [
+        "Zheng A",
+        "Lamkin M",
+        "Zhao H",
+        "Wu C",
+        "Su H",
+        "Gymrek M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA USA.",
+        "Department of Bioengineering, University of California San Diego, La Jolla, CA USA.",
+        "Department of Biology, University of California San Diego, La Jolla, CA, USA.",
+        "Bioinformatics and Systems Biology Program, University of California San Diego, La Jolla, CA USA.",
+        "Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA USA.",
+        "Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA USA.",
+        "Department of Medicine, University of California San Diego, La Jolla, CA USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, An",
+        "short_name": "Zheng A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA USA."
+        ]
+      },
+      {
+        "full_name": "Lamkin, Michael",
+        "short_name": "Lamkin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, La Jolla, CA USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hanqing",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Cynthia",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, University of California San Diego, La Jolla, CA USA."
+        ]
+      },
+      {
+        "full_name": "Su, Hao",
+        "short_name": "Su H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA USA."
+        ]
+      },
+      {
+        "full_name": "Gymrek, Melissa",
+        "short_name": "Gymrek M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA USA.",
+          "Department of Medicine, University of California San Diego, La Jolla, CA USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature machine intelligence"
+    ],
+    "journal_abbrev": [
+      "Nat Mach Intell"
+    ],
+    "pub_date": "2021 Feb",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/03 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "42342250",
+      "42168187",
+      "41799016",
+      "41627694",
+      "41041544",
+      "40950158",
+      "40709306",
+      "40495055",
+      "40382355",
+      "39938795",
+      "39922842",
+      "39735654",
+      "39640721",
+      "39402535",
+      "39350338",
+      "39193069",
+      "39174574",
+      "39076052",
+      "39013383",
+      "38987807",
+      "38807713",
+      "38715516",
+      "38701417",
+      "38538340",
+      "38375921",
+      "38326607",
+      "38293962",
+      "37963869",
+      "37926287",
+      "37886986",
+      "37845681",
+      "37324054",
+      "37173718",
+      "37007588",
+      "36726730",
+      "36698417",
+      "36323312",
+      "35997560",
+      "35883430",
+      "35551305",
+      "35444686",
+      "35410161",
+      "35399953",
+      "35263332",
+      "35183061",
+      "34579793",
+      "34208629",
+      "34134993"
+    ],
+    "refs": [
+      "32461654",
+      "32015543",
+      "31488508",
+      "31324140",
+      "31138913",
+      "31006511",
+      "30922998",
+      "29654070",
+      "29588361",
+      "29425488",
+      "29140473",
+      "29140464",
+      "28626239",
+      "28349863",
+      "28224684",
+      "27896980",
+      "27535533",
+      "27259153",
+      "27197224",
+      "27084946",
+      "27066173",
+      "26896797",
+      "26826681",
+      "26476779",
+      "26301843",
+      "26213851",
+      "26075791",
+      "25775564",
+      "25693563",
+      "24755709",
+      "24244184",
+      "22992523",
+      "22955990",
+      "22955616",
+      "21330290",
+      "20513432",
+      "20363979",
+      "19014636",
+      "16862119",
+      "11402340",
+      "11125122",
+      "10393239"
+    ],
+    "similar": [
+      "33796819",
+      "37100167",
+      "35263332",
+      "37214836",
+      "26291518",
+      "26818008",
+      "37873361",
+      "34272562",
+      "34486522",
+      "30423062",
+      "31372637",
+      "16267080",
+      "35293310",
+      "29617928",
+      "33372147",
+      "31206543",
+      "35410161",
+      "32770026",
+      "31742324",
+      "30922998",
+      "27896980",
+      "22534400",
+      "28245811",
+      "19956545",
+      "34534646",
+      "36043696",
+      "38517697",
+      "33603233",
+      "22456606",
+      "31362726",
+      "31324140",
+      "35652477",
+      "31191597",
+      "20923783",
+      "29069282",
+      "26160164",
+      "22955990",
+      "16873497",
+      "18371204",
+      "34465294",
+      "33413545",
+      "27307608",
+      "36723807",
+      "22955984",
+      "33232622",
+      "29219068",
+      "28750606",
+      "31723409",
+      "34524404",
+      "22300769",
+      "33571101",
+      "36322688",
+      "35291940",
+      "37805453",
+      "29993783",
+      "20870645",
+      "37919990",
+      "36155619",
+      "38853998",
+      "27492288",
+      "22863112",
+      "23805837",
+      "36057196",
+      "27197224",
+      "28957321",
+      "26971251",
+      "26550823",
+      "31510640",
+      "34073774",
+      "38354497",
+      "35997560",
+      "35666736",
+      "32905524",
+      "30808287",
+      "18426580",
+      "34383754",
+      "20838582",
+      "28472398",
+      "30323198",
+      "17381235",
+      "29084280",
+      "35275822",
+      "34962264",
+      "30359306",
+      "25428352",
+      "25433490",
+      "30548162",
+      "30835229",
+      "24927817",
+      "35997565"
+    ],
+    "review": [
+      "33796819",
+      "31742324",
+      "35652477"
+    ],
+    "pmc": [
+      "8009085"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42256-020-00282-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33796819/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33796819",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/5v61d9jv",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://scite.ai/reports/33796819",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

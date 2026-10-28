@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Methodological description and illustrative application as reported in the abstract
+- **Shared manuscript claim summary** The authors describe a computational methodology using the Pepspec application of Rosetta to predict amino acid preferences of peptide-binding domains, and illustrate it on the IRF5 interaction, reporting preferences consistent with prior knowledge.
+- **Visible evidence base** Abstract text only; no figures, tables, protocols, or validation data provided
+- **Missing materials affecting confidence** Full protocol steps, parameter settings, docking scores, statistical analyses, comparison to experimental data, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational workflow for predicting peptide-binding preferences, with a plausible illustrative case. However, the evidence provided is insufficient to evaluate the technical soundness, reproducibility, or generalizability of the methodology. The claim of consistency with prior knowledge is stated without supporting data or statistical metrics.
+- **Who would be interested in the results, and why** Researchers in protein engineering, peptide design, and cell signaling who need computational tools to predict binding specificity of peptide-binding domains, particularly those studying multispecific interactions in signaling pathways.
+- **Major strengths** The methodology addresses a relevant problem in PPI mediator design. The use of Rosetta Pepspec is a well-established tool, and the illustrative case of IRF5 is biologically meaningful given its known multispecificity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The methodology is described as enabling prediction of amino acid preferences, with the IRF5 case yielding preferences consistent with prior knowledge.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative results, such as predicted scores, enrichment values, or statistical comparisons, to support the claim of consistency with prior knowledge. The statement about aspartate and glutamate enrichment at phosphorylatable serine positions is qualitative and lacks any numerical backing.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the methodology produces meaningful predictions or whether the observed preferences are statistically significant or merely anecdotal.
+  - **Resolution test** Provide numerical data, such as position-specific enrichment scores, confidence intervals, or comparison to experimental binding data, to substantiate the consistency claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The methodology starts with a well-characterized anchor, extends it by random amino acid addition, and evaluates binding via flexible-backbone docking.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract omits critical protocol details, including the number of peptides generated, docking parameters, scoring function used, convergence criteria, and computational cost. These details are essential for reproducibility.
+  - **Why it matters** A methods paper in JoVE is expected to provide a complete protocol. The absence of these details prevents independent replication and undermines the practical utility of the described approach.
+  - **Resolution test** Include a full step-by-step protocol with all parameters, input file examples, and runtime estimates in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The methodology is useful when the receptor structure and peptide ligand nature are known or can be inferred.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not discuss limitations, such as dependence on structural quality, applicability to disordered regions, or performance on domains with weak binding preferences. The single illustrative case is insufficient to establish generalizability.
+  - **Why it matters** Overstating applicability without addressing boundary conditions could mislead potential users into applying the method in unsuitable contexts.
+  - **Resolution test** Add a discussion of known limitations and, ideally, test the methodology on additional peptide-binding domains with diverse characteristics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methodology description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "randomly adding amino acid residues" is ambiguous regarding whether the addition is fully random or biased by anchor context.
+  - **Required correction** Clarify the randomization strategy, including any constraints or biases applied during peptide extension.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Position-weight matrix
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "position-weight matrix" is used without defining the background model or normalization method.
+  - **Required correction** Specify how the PWM is computed, including background frequencies and any pseudocounts.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological interpretation
+  - **Affected element** IRF5 example
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The explanation for aspartate and glutamate enrichment at phosphoserine positions is plausible but not tested against alternative hypotheses, such as structural constraints.
+  - **Required correction** Provide additional analysis or discussion to rule out alternative explanations for the observed preferences.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the current abstract does not provide sufficient quantitative or procedural evidence to validate the methodology or enable replication.
+- **Assessment against Nature-style criteria** Originality: moderate, as the approach combines existing tools in a new workflow. Scientific importance: relevant but not demonstrated with novel biological insight. Interdisciplinary readership: limited, as the abstract is method-focused without broader implications. Technical soundness: not assessable from the abstract alone. Readability for nonspecialists: adequate but lacks context on the significance of the IRF5 example.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if the full manuscript provides quantitative validation, complete protocol details, and a discussion of limitations.
+
+## Risk / unsupported claims
+- The claim that amino acid preferences are "consistent with previous knowledge" is unsupported without numerical data.
+- The assertion that the methodology is "useful" for PPI mediator design is not substantiated by any demonstrated application outcome.
+- The general applicability of the methodology to all peptide-binding domains is not assessable from the single illustrative case.

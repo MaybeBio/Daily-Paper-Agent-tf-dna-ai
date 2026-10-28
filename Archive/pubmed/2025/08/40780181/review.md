@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, methods, and supplemental information descriptions
+- **Assessment boundary** Scientific content, technical soundness, conceptual novelty, and evidentiary support as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that a "chromatin-dependent motif syntax" governs the genomic binding specificity of two bHLH transcription factors, NGN2 and MyoD1, which recognize similar E-box motifs yet drive distinct differentiation programs. They integrate preexisting chromatin accessibility with a CNN-based interpretable machine learning approach to identify sequence features, including motif variants, spacing, and flanking nucleotides, that predict binding and chromatin-opening activity. They validate predictions with in vitro DAP-seq, reporter assays, and knockdown experiments, and demonstrate transferability to other cell types and TFs.
+- **Visible evidence base** ChIP-seq, ATAC-seq, RNA-seq, DAP-seq, mass spectrometry, reporter assays, siRNA knockdown, AlphaFold3 structural modeling, and CNN model predictions, as described in the text and methods
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; numerical data, statistical details, and model performance metrics are not fully visible; specific experimental replicates and controls are described but not shown
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in gene regulation: how transcription factors with similar DNA-binding motifs achieve distinct genomic targeting and functional outcomes. The authors present a conceptually appealing framework that integrates sequence syntax with chromatin state, and they support it with a multi-pronged experimental approach. The finding that motif variants and flanking sequences differentially influence binding versus chromatin-opening potential is interesting and potentially impactful. However, the current text does not provide sufficient quantitative detail to fully evaluate the robustness of the CNN models, the statistical significance of key comparisons, or the generalizability claims. The conceptual advance is real but incremental, and the evidence, while suggestive, requires stronger validation to fully establish the proposed "motif syntax" as a generalizable principle.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, chromatin biology, and computational genomics would be the primary audience. The work is also relevant to those studying cell fate determination and reprogramming, as it provides a framework for predicting TF binding and activity based on sequence and chromatin features. The methodological approach, combining CNN interpretability with experimental validation, will interest computational biologists developing predictive models of gene regulation.
+- **Major strengths** The study uses a well-controlled inducible system in mESCs, allowing time-resolved analysis of TF binding from a similar starting state. The integration of machine learning with multiple orthogonal experimental validations (DAP-seq, reporters, knockdowns) is rigorous. The observation that binding strength and chromatin-opening potential can be decoupled at the level of individual motif variants is a notable finding. The transferability test to C2C12 cells and the application to other bHLH TFs strengthen the generalizability claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of CNN model and interpretability
+  - **Claim pointer** The authors claim that the CNN model "predicts the degree of binding remarkably well, with the correlation between prediction and experimental data being comparable to that between experimental replicates."
+  - **Evidence pointer** Figure 3A, S3A, S3B; STAR Methods "CNN training and model interpretation"
+  - **Concern** The manuscript states that the CNN model achieves prediction accuracy comparable to experimental replicate correlation, but no specific correlation coefficients, confidence intervals, or comparison metrics are provided in the text. The model architecture is described, but the training procedure, hyperparameter selection, and evaluation on held-out chromosomes are not detailed sufficiently to assess overfitting or generalizability. The interpretability analysis using DeepLIFT and TF-MoDISco is described, but the statistical significance of the identified motifs and their contribution scores is not quantified.
+  - **Why it matters** The central claim of the paper rests on the predictive power and interpretability of the CNN model. Without quantitative performance metrics and rigorous evaluation, the reader cannot assess whether the model genuinely captures biologically meaningful sequence syntax or merely memorizes training data. The claim that the model is "comparable to experimental replicates" is a strong statement that requires direct numerical support.
+  - **Resolution test** Provide Pearson correlation coefficients (with confidence intervals) between predicted and observed ChIP-seq enrichment on the held-out test set, and compare these to the correlation between experimental replicates. Report precision-recall AUC values. Detail the training procedure, including data splitting, hyperparameter tuning, and early stopping criteria. Quantify the significance of motif contributions, for example by comparing to shuffled sequence controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical support for differential motif variant effects
+  - **Claim pointer** The authors claim that "single base-pair differences in their motifs" and flanking nucleotides differentially affect binding and chromatin-opening potential, and that these effects are validated by reporter assays.
+  - **Evidence pointer** Figures 4C–4F, S4A–S4H; STAR Methods "Oligonucleotide affinity-purification mass spectrometry" and "Stably inserted transcription reporters"
+  - **Concern** The reporter assay results are presented as a heatmap of expression differences, but no statistical analysis is described. It is unclear how many biological replicates were performed, whether the observed differences between motif variants are statistically significant, and whether the effects are consistent across genomic contexts. The comparison between binding potential (from CNN predictions) and chromatin-opening potential (from ATAC-seq changes) is qualitative; no formal statistical test is applied to demonstrate that the ranking of motif variants differs significantly between these two measures.
+  - **Why it matters** The decoupling of binding strength from chromatin-opening activity is a key conceptual contribution. If this claim is not supported by rigorous statistics, the conclusion that different motif variants recruit distinct functional outcomes is weakened. The reporter assay is the primary direct experimental test of this idea, and its statistical foundation must be solid.
+  - **Resolution test** Report the number of biological replicates for each reporter construct, apply appropriate statistical tests (e.g., ANOVA with multiple testing correction) to compare expression across motif variants, and provide effect sizes. Formally test whether the rank order of motif variants differs between binding and opening potential using, for example, a permutation test or a mixed-effects model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and transferability claims
+  - **Claim pointer** The authors claim that the "chromatin-dependent motif syntax" is "transferable to other models" and "can be more broadly applied to other TFs of this family," citing results in C2C12 cells and for Ascl1 and NGN3.
+  - **Evidence pointer** Figures 7A–7D, S7A–S7F, S8A–S8G
+  - **Concern** The transferability analysis in C2C12 cells shows that the model trained in mESCs predicts MyoD1 binding with reasonable accuracy, but the overlap of binding sites between the two systems is only 12.5%. The authors interpret this as evidence that the model captures general rules, but it could also indicate that the model is capturing cell-type-specific features that happen to correlate. The application to Ascl1 and NGN3 is described briefly, but the quantitative performance of the model for these TFs is not reported. The claim that the syntax is "generalizable" requires a more systematic demonstration across multiple TFs and cell types.
+  - **Why it matters** The generalizability claim elevates the study from a descriptive analysis of two TFs to a broader principle of TF targeting. If the model only works well in the training context, the conceptual impact is substantially reduced. The low overlap between mESC and C2C12 binding sites raises questions about what exactly is being transferred.
+  - **Resolution test** Report quantitative model performance (correlation, AUC) for Ascl1 and NGN3 predictions. For the C2C12 transfer, analyze whether the model's predictions are significantly better than a sequence-only model that ignores chromatin state, to demonstrate that the transferred knowledge is specifically about motif syntax. Consider testing the model in a more distantly related cell type or TF family to strengthen the generalizability claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal evidence for pioneer activity
+  - **Claim pointer** The authors state that NGN2 and MyoD1 act as pioneer factors at closed chromatin sites, and that this activity is influenced by motif variants and interaction partners.
+  - **Evidence pointer** Figures 4A, 5A, S5A–S5M
+  - **Concern** The term "pioneer factor" implies the ability to engage nucleosomal DNA and initiate chromatin opening. The evidence presented includes chromatin opening at initially closed sites and identification of interaction partners, but direct evidence of nucleosome binding is not shown. The AlphaFold3 model is used to support a structural argument for dimerization, but this is a prediction, not an experimental validation. The causal link between specific interaction partners and chromatin opening is inferred from knockdown experiments, but the text does not describe the magnitude of the effect or whether the effect is specific to closed chromatin sites.
+  - **Why it matters** The pioneer factor concept is central to the proposed model of differentiation trajectories. Overstating the evidence for pioneer activity could mislead readers about the mechanism. The distinction between binding to closed chromatin and actively remodeling it is important.
+  - **Resolution test** Provide direct biochemical evidence of nucleosome binding, such as in vitro nucleosome mobility assays or structural data. Quantify the effect of TF knockdown on chromatin opening at closed sites, and demonstrate that the effect is dependent on the specific motif variant present. Clarify whether the AlphaFold3 predictions are validated by any experimental data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** CNN training details
+  - **Evidence pointer** STAR Methods "CNN training and model interpretation"
+  - **Issue** The description of the CNN architecture and training is brief. The number of training epochs, learning rate, batch size, and data augmentation strategies are not fully specified. The method for combining sequence and DNase I signal as input is described, but the preprocessing steps for the DNase I data are not detailed.
+  - **Required correction** Provide a complete description of the training procedure, including all hyperparameters, optimization settings, and data preprocessing steps. Consider including a supplementary figure showing the model architecture and training curves.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Differential motif enrichment analysis
+  - **Evidence pointer** STAR Methods "Differential motif enrichment on changing TF binding patterns"
+  - **Issue** The text mentions that motif enrichment analysis was performed with the monaLisa package, but the statistical thresholds, multiple testing corrections, and the number of motifs tested are not reported. The criteria for "enriched" motifs are not clearly defined.
+  - **Required correction** Specify the statistical test used, the multiple testing correction method, and the thresholds for significance. Report the number of motifs tested and the number found to be significantly enriched.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of AlphaFold3 models
+  - **Affected element** Figure 3I
+  - **Evidence pointer** STAR Methods "Structure modeling with AlphaFold3"
+  - **Issue** The AlphaFold3 predictions are used to support the argument for dimerization at specific motif spacings, but the confidence of these predictions is not discussed. AlphaFold3 is a prediction tool, and its accuracy for protein-DNA complexes may vary.
+  - **Required correction** Include confidence metrics for the AlphaFold3 predictions, such as predicted local distance difference test (pLDDT) scores or predicted aligned error (PAE) values. Discuss the limitations of the structural predictions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and code availability section
+  - **Evidence pointer** "Data and code availability"
+  - **Issue** The statement that "any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request" is vague. It is unclear whether the underlying code for the CNN models and the analysis pipelines will be made publicly available in a version-controlled repository.
+  - **Required correction** Specify the exact code repositories, version numbers, and access conditions. Consider depositing the analysis code in a public repository such as GitHub or Zenodo with a persistent DOI.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Motif syntax"
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The term "motif syntax" is used frequently but is not explicitly defined. It appears to encompass motif variants, spacing, flanking sequences, and their relationship to chromatin state, but a formal definition would help readers.
+  - **Required correction** Provide a clear definition of "motif syntax" early in the manuscript, perhaps in the introduction or results section, and use the term consistently throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (CNN model performance metrics), R1-M2 (statistical support for motif variant effects)
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a "chromatin-dependent motif syntax" that integrates sequence features with chromatin state to explain TF specificity is a valuable conceptual contribution. The decoupling of binding strength from chromatin-opening potential at the level of individual motif variants is a novel observation. However, the individual components (motif analysis, chromatin accessibility, pioneer factors) are well-established, and the novelty lies primarily in their integration.
+  - **Scientific importance** The question of how TFs with similar motifs achieve distinct targeting is fundamental to understanding cell fate determination. A predictive framework that can explain and anticipate TF binding across cell types would be of broad interest. The potential application to interpreting disease-associated variants adds translational relevance.
+  - **Interdisciplinary readership** The study bridges genomics, chromatin biology, and machine learning. The findings will be of interest to researchers in all three fields, as well as to those studying development and differentiation. The clear writing and logical structure make the work accessible to a broad audience.
+  - **Technical soundness** The experimental design is generally sound, with appropriate controls and orthogonal validation. However, the lack of quantitative metrics for the CNN model performance and the absence of statistical details for key comparisons are significant weaknesses that must be addressed. The transferability claims require stronger evidence.
+  - **Readability for nonspecialists** The manuscript is well-written and logically organized. The use of figures to illustrate the conceptual model is helpful. However, the methods section is dense and may be challenging for readers without a computational background. A brief summary of the CNN approach in the main text would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is interesting and the experimental approach is comprehensive, but the current manuscript does not provide sufficient quantitative evidence to fully establish the claims. The authors should address the concerns regarding CNN model performance metrics, statistical support for motif variant effects, and the strength of the generalizability claims before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that CNN prediction accuracy is "comparable to that between experimental replicates" is unsupported without specific correlation coefficients and comparison metrics.
+- The claim that "factor-specific binding in closed chromatin involves NGN2 and MyoD1 acting as pioneer factors" is not fully supported by direct evidence of nucleosome binding.
+- The claim that the motif syntax is "transferable to other models" is not quantitatively demonstrated for Ascl1 and NGN3.
+- The claim that the model can predict the regulatory potential of disease-associated variants is based on a single example and requires broader validation.
+- The statement that "none of the histone marks contributed additional predictive information beyond DHA" is presented without showing the comparative analysis.

@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "40533454",
+    "doi": "10.1038/s41467-025-59244-w",
+    "title": "Divergence in a eukaryotic transcription factor's co-TF dependence involves multiple intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "Combinatorial control by transcription factors (TFs) is central to eukaryotic gene regulation, yet its mechanism, evolution, and regulatory impact are not well understood. Here we use natural variation in the yeast phosphate starvation (PHO) response to examine the genetic basis and species variation in TF interdependence. In Saccharomyces cerevisiae, the main TF Pho4 relies on the co-TF Pho2 to regulate ~28 genes, whereas in the related pathogen Candida glabrata, Pho4 has reduced Pho2 dependence and regulates ~70 genes. We found C. glabrata Pho4 (CgPho4) binds the same motif with 3-4 fold higher affinity. Machine learning and yeast one-hybrid assay identify two intrinsically disordered regions (IDRs) in CgPho4 that boost its activation domain's activity. In ScPho4, an IDR next to the DNA binding domain both allows for enhanced activity with Pho2 and inhibits activity without Pho2. This study reveals how IDR divergence drives TF interdependence evolution by influencing activation potential and autoinhibition.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae/genetics/metabolism",
+      "*Saccharomyces cerevisiae Proteins/metabolism/genetics/chemistry",
+      "*Transcription Factors/metabolism/genetics/chemistry",
+      "*Candida glabrata/genetics/metabolism",
+      "Gene Expression Regulation, Fungal",
+      "*Intrinsically Disordered Proteins/metabolism/genetics/chemistry",
+      "Protein Binding",
+      "Phosphates/metabolism",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Snyder, Lindsey F",
+        "O'Brien, Emily M",
+        "Zhao, Jia",
+        "Liang, Jinye",
+        "Bruce, Baylee J",
+        "Zhang, Yuning",
+        "Zhu, Wei",
+        "Cassier, Thomas H",
+        "Schnicker, Nicholas J",
+        "Zhou, Xu",
+        "Gordan, Raluca",
+        "He, Bin Z"
+      ],
+      "short_names": [
+        "Snyder LF",
+        "O'Brien EM",
+        "Zhao J",
+        "Liang J",
+        "Bruce BJ",
+        "Zhang Y",
+        "Zhu W",
+        "Cassier TH",
+        "Schnicker NJ",
+        "Zhou X",
+        "Gordan R",
+        "He BZ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4161-9307",
+        "ORCID: 0000-0002-5189-4943",
+        "ORCID: 0000-0002-1692-6823",
+        "ORCID: 0000-0002-3072-6238"
+      ],
+      "affiliations": [
+        "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+        "Laboratory of Immunophysiology, The Ragon Institute of Mass General, MIT, and Harvard; Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+        "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA.",
+        "Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.",
+        "Department of Genetics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Department of Molecular Genetics & Microbiology, Duke University, Durham, NC, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+        "Protein and Crystallography Facility, University of Iowa, Iowa City, IA, USA.",
+        "Department of Molecular Physiology and Biophysics, University of Iowa, Iowa City, IA, USA.",
+        "Department of Pediatrics, Division of Gastroenterology, Hepatology and Nutrition, Boston Children's Hospital and Harvard Medical School, Boston, MA, USA.",
+        "Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.",
+        "Department of Molecular Genetics & Microbiology, Duke University, Durham, NC, USA.",
+        "Department of Computer Science, Duke University, Durham, NC, USA.",
+        "Department of Cell Biology, Duke University, Durham, NC, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA.",
+        "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA. bin-he@uiowa.edu.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA. bin-he@uiowa.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Snyder, Lindsey F",
+        "short_name": "Snyder LF",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "O'Brien, Emily M",
+        "short_name": "O'Brien EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jia",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+          "Laboratory of Immunophysiology, The Ragon Institute of Mass General, MIT, and Harvard; Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Liang, Jinye",
+        "short_name": "Liang J",
+        "identifiers": [
+          "0000-0002-4161-9307"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Bruce, Baylee J",
+        "short_name": "Bruce BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuning",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.",
+          "Department of Genetics, Washington University School of Medicine, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Wei",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics & Microbiology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Cassier, Thomas H",
+        "short_name": "Cassier TH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Schnicker, Nicholas J",
+        "short_name": "Schnicker NJ",
+        "identifiers": [
+          "0000-0002-5189-4943"
+        ],
+        "affiliations": [
+          "Protein and Crystallography Facility, University of Iowa, Iowa City, IA, USA.",
+          "Department of Molecular Physiology and Biophysics, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xu",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0000-0002-1692-6823"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Division of Gastroenterology, Hepatology and Nutrition, Boston Children's Hospital and Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gordân, Raluca",
+        "short_name": "Gordân R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.",
+          "Department of Molecular Genetics & Microbiology, Duke University, Durham, NC, USA.",
+          "Department of Computer Science, Duke University, Durham, NC, USA.",
+          "Department of Cell Biology, Duke University, Durham, NC, USA.",
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "He, Bin Z",
+        "short_name": "He BZ",
+        "identifiers": [
+          "0000-0002-3072-6238"
+        ],
+        "affiliations": [
+          "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA. bin-he@uiowa.edu.",
+          "Department of Biology, University of Iowa, Iowa City, IA, USA. bin-he@uiowa.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jun 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/19 00:25",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [
+      "42653062",
+      "41838698",
+      "41365655",
+      "41302101",
+      "39888268"
+    ],
+    "refs": [
+      "38159566",
+      "38109289",
+      "38101414",
+      "36996811",
+      "36608289",
+      "36265487",
+      "34506483",
+      "33975875",
+      "33904398",
+      "33876751",
+      "33603233",
+      "32553192",
+      "31943488",
+      "31896718",
+      "31399572",
+      "31251384",
+      "30420502",
+      "29627365",
+      "29390042",
+      "28485712",
+      "27984724",
+      "27242683",
+      "26657905",
+      "24774859",
+      "23562153",
+      "23021217",
+      "22887818",
+      "22156162",
+      "22153072",
+      "22080951",
+      "21700227",
+      "20212107",
+      "19332882",
+      "19265799",
+      "19151095",
+      "18585359",
+      "18418379",
+      "18303948",
+      "17671641",
+      "17467953",
+      "17401334",
+      "17218526",
+      "17006507",
+      "16888363",
+      "16734424",
+      "16670683",
+      "15687296",
+      "15175650",
+      "12145299",
+      "11303087",
+      "10320381",
+      "9742099",
+      "9566882",
+      "9354395",
+      "9303313",
+      "8978031",
+      "8676879",
+      "8539622",
+      "8187772",
+      "8108735",
+      "7957107",
+      "2183025"
+    ],
+    "similar": [
+      "40533454",
+      "39253425",
+      "28485712",
+      "19332882",
+      "22938599",
+      "32553192",
+      "38908024",
+      "38109289",
+      "19108609",
+      "40738115",
+      "9566882",
+      "39984675",
+      "8948638",
+      "18547390",
+      "10884387",
+      "37285346",
+      "21700227",
+      "26886795",
+      "10590460",
+      "10320381",
+      "35829973",
+      "18385723",
+      "40997106",
+      "29363861",
+      "24206186",
+      "37175754",
+      "36938874",
+      "8676879",
+      "23229483",
+      "30878482",
+      "2664469",
+      "39469753",
+      "27795405",
+      "31099777",
+      "12145299",
+      "1398064",
+      "27015653",
+      "22189060",
+      "8108735",
+      "35290420",
+      "19589384",
+      "14624238",
+      "2505053",
+      "19025642",
+      "34303077",
+      "39353735",
+      "19596791",
+      "32054475",
+      "37871123",
+      "31807700",
+      "34935446",
+      "28877665",
+      "40315826",
+      "39617253",
+      "31745747",
+      "14622417",
+      "39482307",
+      "40677213",
+      "41025958",
+      "18408055",
+      "15470243",
+      "36648282",
+      "38870936",
+      "18385733",
+      "39548754",
+      "9732266",
+      "25266663",
+      "39888268",
+      "24867980",
+      "37380138",
+      "18769540",
+      "40405832",
+      "39271725",
+      "40240607",
+      "27815348",
+      "24094854",
+      "26179227",
+      "8539622",
+      "39920309",
+      "2671650",
+      "39347738",
+      "7957107",
+      "30056490",
+      "40467883",
+      "27743455",
+      "27404361",
+      "19158363",
+      "39531032",
+      "40100159",
+      "22349222",
+      "23636944",
+      "22146299",
+      "22238267",
+      "31756183",
+      "15287978",
+      "15926040",
+      "40716115",
+      "33727357",
+      "29759983",
+      "40650976"
+    ],
+    "review": [
+      "40533454",
+      "39984675",
+      "34303077",
+      "36648282",
+      "39888268"
+    ],
+    "pmc": [
+      "12177071"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-59244-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40533454/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40533454",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

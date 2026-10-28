@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusions, materials and methods, and supplementary material description
+- **Assessment boundary** Scientific validity of the computational findings, methodological rigor, and the strength of the claims relative to the presented evidence. No assessment of experimental wet-lab validation, as none is presented.
+- **Shared manuscript claim summary** The authors use extensive MD simulations (30 µs total) and Markov state models to characterize the conformational dynamics of the CD36 extracellular domain in unphosphorylated and dual-phosphorylated (Thr92 and Ser237) states. They report that phosphorylation induces a closed-to-open motion in a loop (residues 121-131), creates a cryptic surface pocket that redirects TSP-1-derived peptide binding away from the canonical CLESH domain, and increases helicity in a region (residues 296-331) that narrows an entrance to the internal hydrophobic cavity and reduces its volume. These changes are proposed as molecular mechanisms for experimentally observed reductions in TSP-1 binding and fatty acid uptake.
+- **Visible evidence base** Main text figures (Figures 1-9), supplementary figures (S1-S23), supplementary tables (S1-S7), and methods descriptions. No experimental structural or functional data are presented.
+- **Missing materials affecting confidence** The supplementary figures and tables are described but not provided in the submitted material. Quantitative data supporting pocket formation frequency is stated as "not shown" (Figure 4, Supplemental Video 1). The docking scores and detailed binding poses for the peptide ligands are not presented in the main text. The force field parameters for phosphorylated residues are referenced to Table S6 but not visible. The Zenodo data repository link is provided but not accessible for verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and methodologically sophisticated study of CD36 phosphorylation effects on conformational dynamics. The use of 30 µs of MD simulation with MSM analysis is commendable and represents a significant computational investment. The identification of a phosphorylation-induced cryptic pocket and the proposed shift in TSP-1 binding site are potentially interesting findings. However, the manuscript has several critical weaknesses. The central claims regarding TSP-1 binding site shift and reduced cavity volume are based on indirect computational evidence (docking to a limited set of conformations, geometric calculations) without experimental validation. The claim of a "high affinity binding site" is not supported by any free energy calculations or quantitative binding affinity estimates. The relationship between the simulated dual-phosphorylated state and the experimental systems (which examined single phosphorylation events) is not adequately addressed. The presentation is dense and at times difficult to follow, with key quantitative data relegated to inaccessible supplementary materials. The manuscript would benefit from clearer articulation of the limitations of the computational approach and a more cautious interpretation of the results in the context of the experimental literature.
+- **Who would be interested in the results, and why** Researchers in the fields of membrane protein dynamics, post-translational modification effects on protein structure, and computational drug discovery targeting CD36. The findings may also be of interest to those studying angiogenesis, fatty acid metabolism, and the development of CD36 modulators for therapeutic applications. The methodological approach (MSM-based analysis of phosphorylation effects) could be of interest to computational biophysicists.
+- **Major strengths** 1) Extensive sampling (30 µs total) with multiple replicates, which is a significant strength for studying conformational dynamics. 2) The use of MSMs to identify metastable states and quantify transitions is methodologically appropriate and rigorous. 3) The identification of a phosphorylation-induced cryptic pocket is a novel and potentially important finding. 4) The study addresses a significant gap in understanding the molecular mechanisms of CD36 phosphorylation. 5) The docking validation using a known TSP-1 binding mode for the unphosphorylated state adds credibility to the docking protocol.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "We present, to our knowledge, the first evidence of a cryptic pocket on CD36 surface that is formed by phosphorylation. This cryptic surface pocket and a loop spanning residues 121-131 form a high affinity binding site for TSP-1 derived ligands, shifting their binding away from the canonical site."
+  - **Evidence pointer** Results section, Figure 4, Figure 6, Table S3, Table S5
+  - **Concern** The claim of a "high affinity binding site" is not supported by any quantitative binding affinity calculation. The evidence presented is based on docking poses (Surflex-dock) and pocket detection (MDpocket), which do not provide binding free energies or affinity estimates. The docking scores are not reported in the main text. Furthermore, the claim that this pocket "shifts" binding away from the canonical site is based on docking to a limited set of 20 conformations per system, which may not adequately sample the conformational ensemble relevant for binding. The functional significance of this shift is inferred but not directly demonstrated.
+  - **Why it matters** The central mechanistic claim of the paper rests on the existence and functional relevance of this cryptic pocket. Without quantitative binding affinity data or experimental validation, the claim of "high affinity" is an overstatement. The proposed mechanism for disruption of antiangiogenic signaling depends on this shift in binding site, so the strength of this claim directly impacts the overall significance of the study.
+  - **Resolution test** Provide quantitative binding free energy calculations (e.g., MM-PBSA, FEP, or similar) for the peptide ligands to both the phosphorylated and unphosphorylated CD36 states. Alternatively, perform alchemical free energy perturbation calculations to estimate relative binding affinities. If such calculations are not feasible, temper the language from "high affinity" to "potential binding site" and clearly state the limitations of the docking approach.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental context and validation
+  - **Claim pointer** "Our findings provide structural insights that may inform the future design of CD36 modulators and emphasize the importance of targeting phosphorylation induced CD36 conformations in angiogenic and metabolic diseases."
+  - **Evidence pointer** Discussion section, Conclusions section
+  - **Concern** The manuscript presents purely computational findings with no experimental validation. While computational studies can be valuable, the claims regarding therapeutic implications and the proposed mechanisms for experimentally observed phenomena (reduced TSP-1 binding, reduced fatty acid uptake) are presented with a level of certainty that is not warranted by the evidence. The experimental studies cited (Chu and Silverstein 2012; Guthmann et al. 2002) examined single phosphorylation events (Thr92 or Ser237), whereas this study models dual phosphorylation. The authors do not adequately address how the dual phosphorylation state relates to the experimental conditions, nor do they discuss whether the effects of dual phosphorylation are additive, synergistic, or distinct from single phosphorylation events.
+  - **Why it matters** The translational relevance of the findings depends on the validity of the proposed mechanisms. Without experimental validation or at least a clear discussion of the limitations of the computational approach, the claims of therapeutic relevance are premature. The mismatch between the simulated dual phosphorylation and the experimental single phosphorylation conditions could undermine the direct applicability of the proposed mechanisms.
+  - **Resolution test** Either provide experimental validation (e.g., mutagenesis studies, binding assays) or substantially temper the claims. Discuss explicitly how the dual phosphorylation state relates to the experimental systems, and acknowledge that the effects of single versus dual phosphorylation may differ. If experimental validation is not possible, frame the findings as hypothesis-generating rather than mechanistic conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** "An iterative dimensional reduction protocol identified two regions within CD36 comprising residues 121-131 and residues 296-331, which display slow motions upon phosphorylation."
+  - **Evidence pointer** Materials and Methods, Results section, Figure 2, Table S1, Table S7
+  - **Concern** The iterative feature selection protocol is described in general terms but lacks sufficient detail for reproducibility. The specific criteria for removing features (variance thresholds, correlation cutoffs) are mentioned, but the rationale for these specific values is not provided. The convergence of the iterative procedure is not demonstrated. Additionally, the choice of 20 conformations for docking (10 per system per ligand set) is stated but the rationale for this number is not given. The manuscript states that "quantitative data not shown" for pocket formation frequency (Figure 4), which is a significant omission for a key finding.
+  - **Why it matters** Reproducibility is a cornerstone of scientific validity. The lack of detailed methodological information and the omission of quantitative data for key findings prevent other researchers from replicating or building upon this work. The "data not shown" statement for a central claim (pocket formation frequency) is particularly problematic.
+  - **Resolution test** Provide complete details of the iterative feature selection protocol, including convergence criteria and the specific values used at each step. Include the quantitative data for pocket formation frequency in the main text or supplementary materials. Justify the choice of 20 conformations for docking and demonstrate that this number is sufficient for convergence of docking results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of cavity volume changes
+  - **Claim pointer** "Our data indicate that, phosphorylation increases helicity and compaction within the helix-loop region spanning residues 296–331, narrowing one of the entrances to the internal cavity and reducing its overall volume."
+  - **Evidence pointer** Results section, Figure 7, Figure 8, Figure 9, Figure S16
+  - **Concern** The causal link between increased helicity, compaction, and reduced cavity volume is not clearly established. The manuscript reports correlations between these observations but does not demonstrate a mechanistic connection. The reduction in cavity volume (from 5.81 nm³ to 4.89 nm³) is presented as a mean value, but the distribution and statistical significance of this difference are not reported. The relationship between the simulated volume change and the functional effect on fatty acid transport is speculative, as the simulation does not include fatty acid molecules or a transport assay.
+  - **Why it matters** The proposed mechanism for reduced fatty acid uptake depends on this causal chain. Without establishing the mechanistic link and statistical significance, the conclusion that phosphorylation reduces fatty acid uptake through cavity volume reduction is not supported.
+  - **Resolution test** Perform correlation analysis between helicity, compaction, and cavity volume across the conformational ensemble. Report the distribution of cavity volumes with appropriate statistical tests. If possible, simulate fatty acid binding or transport to directly test the functional consequence of the volume change. Alternatively, temper the claims to reflect the correlational nature of the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction are dense and use specialized terminology without adequate context for a general scientific audience. The significance of the cryptic pocket and the proposed mechanisms could be explained more clearly.
+  - **Required correction** Provide a brief explanation of the biological significance of CD36 phosphorylation and the functional relevance of the cryptic pocket in the abstract. Consider adding a schematic figure or simplified model to aid understanding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, Figure 9
+  - **Evidence pointer** Figure 9
+  - **Issue** The statistical significance of the cavity volume difference between phosphorylated and unphosphorylated states is not reported. The manuscript states mean values but does not provide error bars, confidence intervals, or p-values.
+  - **Required correction** Add appropriate statistical analysis (e.g., bootstrap confidence intervals, permutation tests) and report the results in the figure and text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Force field parameter validation
+  - **Affected element** Materials and Methods, Table S6
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The parameters for phosphorylated residues were "assigned by analogy" (Table S6), but no validation of these parameters is presented. The accuracy of the simulation results depends on the quality of these parameters.
+  - **Required correction** Provide details of the parameter assignment and any validation performed. If no validation was performed, acknowledge this limitation and discuss the potential impact on the results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Docking methodology
+  - **Affected element** Materials and Methods, Figure 6
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The docking protocol uses Surflex-dock with a protomol generated from residues 92-131. The manuscript does not report docking scores or provide a comparison with docking to the full protein surface, which would help assess the specificity of the predicted binding site.
+  - **Required correction** Report docking scores for all ligands and systems. Consider performing a control docking to the full protein surface to demonstrate that the predicted binding site is specific.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Supplementary material accessibility
+  - **Affected element** Supplementary figures and tables
+  - **Evidence pointer** Supplementary Material Description
+  - **Issue** The supplementary figures and tables are described but not provided in the submitted material. Key quantitative data (e.g., Table S5 docking interface residues, Table S7 feature selection details) are only available in the supplementary materials.
+  - **Required correction** Ensure that all supplementary materials are provided with the manuscript submission. If the manuscript is under review, make the supplementary materials available to reviewers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative binding affinity data for the "high affinity" claim), R1-M2 (lack of experimental validation and inadequate discussion of single vs. dual phosphorylation), R1-M3 (insufficient methodological detail and missing quantitative data for key findings), R1-M4 (unestablished causal link between helicity, compaction, and cavity volume).
+- **Assessment against Nature-style criteria** Originality: The study addresses a significant gap in understanding CD36 phosphorylation effects and the identification of a phosphorylation-induced cryptic pocket is novel. However, the originality is somewhat tempered by the lack of experimental validation. Scientific importance: The findings have potential implications for understanding CD36 function in angiogenesis and metabolism, but the importance is diminished by the indirect nature of the evidence. Interdisciplinary readership: The study bridges computational biophysics, structural biology, and cell biology, which could appeal to a broad audience. However, the dense presentation may limit accessibility. Technical soundness: The MD simulation and MSM methodology is generally sound, but the lack of quantitative binding affinity calculations and the "data not shown" for key findings weaken the technical rigor. Readability for nonspecialists: The manuscript is written for a specialized audience and would benefit from clearer explanations of the significance and implications of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a computationally rigorous study with potentially interesting findings, but the central claims regarding the "high affinity" cryptic pocket and the mechanistic explanations for reduced TSP-1 binding and fatty acid uptake are not sufficiently supported by the evidence presented. The lack of quantitative binding affinity data, the absence of experimental validation, and the inadequate discussion of the relationship between the simulated dual phosphorylation and the experimental single phosphorylation conditions are significant weaknesses. The manuscript would require substantial revision, including additional analyses and a more cautious interpretation of the findings, before the case is established.
+
+## Risk / unsupported claims
+- The claim of a "high affinity binding site" for TSP-1 derived ligands at the cryptic pocket is unsupported by quantitative binding affinity calculations.
+- The claim that phosphorylation "shifts" TSP-1 binding away from the canonical CLESH domain is based on docking to a limited set of conformations and lacks experimental validation.
+- The proposed mechanism for reduced fatty acid uptake (cavity volume reduction) is speculative and not directly tested.
+- The statement that the cryptic pocket is "formed by phosphorylation" implies a causal relationship that is not directly demonstrated.
+- The relationship between the simulated dual phosphorylation state and the experimental systems that examined single phosphorylation events is not adequately addressed.
+- The quantitative data for pocket formation frequency is stated as "not shown" and is therefore not verifiable.
+- The force field parameters for phosphorylated residues were "assigned by analogy" without validation, which could affect the reliability of the simulation results.

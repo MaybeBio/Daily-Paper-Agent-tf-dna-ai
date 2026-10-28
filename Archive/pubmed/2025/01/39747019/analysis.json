@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39747019",
+  "title": "ChromatinHD connects single-cell DNA accessibility and conformation to gene expression through scale-adaptive machine learning.",
+  "authors": "Saelens, Wouter; Pushkarev, Olga; Deplancke, Bart",
+  "journal": "Nature communications",
+  "published_date": "2025-01-03",
+  "window": {
+    "start": "2024-12-30",
+    "end": "2025-01-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了尺度自适应机器学习模型ChromatinHD，利用单细胞ATAC-seq原始数据关联染色质可及性与基因表达，并识别转录因子密集结合，虽涉及TF-DNA结合特征但非直接建模TF-DNA互作机制，方法可迁移至本课题。",
+  "abstract": "Gene regulation is inherently multiscale, but scale-adaptive machine learning methods that fully exploit this property in single-nucleus accessibility data are still lacking. Here, we develop ChromatinHD, a pair of scale-adaptive models that uses the raw accessibility data, without peak-calling or windows, to link regions to gene expression and determine differentially accessible chromatin. We show how ChromatinHD consistently outperforms existing peak and window-based approaches and find that this is due to a large number of uniquely captured, functional accessibility changes within and outside of putative cis-regulatory regions. Furthermore, ChromatinHD can delineate collaborating regulatory regions, including their preferential genomic conformations, that drive gene expression. Finally, our models also use changes in ATAC-seq fragment lengths to identify dense binding of transcription factors, a feature not captured by footprinting methods. Altogether, ChromatinHD, available at https://chromatinhd.org , is a suite of computational tools that enables a data-driven understanding of chromatin accessibility at various scales and how it relates to gene expression.",
+  "abstract_zh": "基因调控本质上是多尺度的，但能够充分利用单核可及性数据中这一特性的尺度自适应机器学习方法仍然缺乏。在此，我们开发了ChromatinHD，一对尺度自适应模型，利用原始可及性数据，无需峰值调用或窗口，将区域与基因表达联系起来，并确定差异可及的染色质。我们展示了ChromatinHD如何持续优于现有的基于峰值和窗口的方法，并发现这归因于大量独特捕获的、在推定顺式调控区域内外具有功能性的可及性变化。此外，ChromatinHD能够描绘协作调控区域，包括其优先的基因组构象，这些区域驱动基因表达。最后，我们的模型还利用ATAC-seq片段长度的变化来识别转录因子的密集结合，这是足迹法未捕获的特征。总之，ChromatinHD，可在 https://chromatinhd.org 获取，是一套计算工具，能够实现对不同尺度下染色质可及性及其与基因表达关系的数据驱动理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39747019/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39747019/",
+  "paper_page_path": "papers/pubmed/39747019/index.html"
+}

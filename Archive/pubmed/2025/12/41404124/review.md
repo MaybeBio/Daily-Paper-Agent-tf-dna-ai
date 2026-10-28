@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary figure/table legends as embedded in the text.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to the evidence presented, and alignment with Nature-style criteria. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors integrate WHO-catalogued drug resistance mutations in Mycobacterium tuberculosis with novel mutations predicted by their previously developed explainable AI tool (TB-AMRpred). They map coding mutations onto 3D structures of five drug targets, assess proximity to bound drugs, evaluate protein stability effects using mCSM, analyse functional domains of accessory and novel proteins, and map non-coding mutations to transcription factor binding sites. A web resource (MutMapTB) is presented.
+- **Visible evidence base** Abstract, full introduction, methods summaries, results narrative, Tables 1–4, Figures 1–10 (as described in text), and references to Supplementary Files 1–4 and Supplementary Tables S1–S4. No raw data, supplementary files, or actual figure images were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary Files 2 and 3 (genomic datasets, domain mapping, stability analyses), Supplementary Methods, Supplementary Tables S1–S4, and the actual figure images. The MutMapTB database URL was not accessed. These omissions limit independent verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially useful integrative framework for interpreting drug resistance mutations in M. tuberculosis through structural and regulatory mapping. The combination of WHO-catalogued mutations with XAI-predicted novel mutations is a reasonable approach, and the development of a public web resource is commendable. However, the study is largely descriptive and hypothesis-generating. The central claims regarding novel resistance mechanisms rest on computational predictions that are not experimentally validated, and several analyses lack the statistical rigour needed to support strong conclusions. The manuscript would benefit from clearer articulation of what is genuinely novel versus confirmatory, and from a more critical treatment of the limitations of the computational tools employed.
+- **Who would be interested in the results, and why** Researchers in tuberculosis genomics and antimicrobial resistance surveillance would find the consolidated mutation mapping and the MutMapTB resource useful for prioritising mutations for functional studies. Computational biologists working on structural interpretation of resistance mutations and those developing AI-based resistance prediction tools may also be interested. Clinicians and public health scientists using genotypic resistance prediction could benefit from the expanded mutation catalogue, though they would need experimental confirmation before clinical application.
+- **Major strengths** The integration of multiple data types (WHO catalogue, XAI predictions, structural data, regulatory data) into a single analytical framework is a strength. The focus on non-coding mutations, which are often overlooked, is timely. The development of a publicly accessible database with interactive visualisation is a practical contribution. The case study on RpoB F433dup, including docking analysis, provides a concrete example of the analytical pipeline.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that mutations in ribosomal proteins RpsN1 and RpsN2 and the transporter PstB "may introduce new resistance mechanisms, such as altered drug interactions or increased drug efflux."
+  - **Evidence pointer** Results section "Mapping coding mutations in accessory and novel drug resistance associated proteins"; Figure 8; Supplementary File 3
+  - **Concern** The claim that RpsN1, RpsN2, and PstB mutations introduce new resistance mechanisms is speculative. For RpsN1 and RpsN2, the evidence presented is that they are homologous to RpsL, a known resistance protein, and that mutations occur in functional domains. No structural analysis, docking study, or functional assay is provided to support altered drug interactions. For PstB, the only evidence is a stabilising ΔΔG value and prior literature on efflux pumps. The manuscript does not demonstrate that these mutations alter protein function, drug binding, or efflux activity. The co-occurrence data for Rv0893c and bkdC with gidB mutations is correlative and does not establish a compensatory mechanism.
+  - **Why it matters** The abstract and discussion present these as key findings of the study. If the evidence is only computational inference without functional validation, the claims overstate what is known. This could mislead readers into treating these mutations as established resistance determinants.
+  - **Resolution test** The authors should either (a) provide direct experimental evidence (e.g., efflux assays, ribosome binding assays, growth assays under drug pressure) for at least one of these proposed mechanisms, or (b) substantially soften the language to clearly indicate these are hypotheses requiring validation. The distinction between "may introduce" and "introduce" must be maintained throughout.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "almost half of the mutations, 26 out of 53 mutations on drug targets were present in the binding pockets of drugs" and uses this to suggest direct impact on drug binding.
+  - **Evidence pointer** Results section "Mapping of resistance associated mutations onto 3D structures of drug targets"; Figure 3; Supplementary Table S2
+  - **Concern** The 5 Å cutoff for defining binding pocket residues is arbitrary and not justified. More critically, the analysis uses static crystal structures and does not account for conformational flexibility, alternative binding modes, or the fact that some drugs (e.g., isoniazid after activation) form covalent adducts. The distance measurement from a single crystal structure conformation may not reflect the true dynamic relationship between residue and ligand. Additionally, the manuscript does not report whether the distance calculations were validated against known resistance mechanisms or whether any false positives/negatives were assessed.
+  - **Why it matters** The proximity analysis is a central methodological pillar of the study. If the cutoff and structural interpretation are not robust, the classification of mutations as "binding pocket" versus "distal" is unreliable, undermining subsequent interpretations about direct versus allosteric effects.
+  - **Resolution test** The authors should justify the 5 Å cutoff with reference to established literature or sensitivity analysis. They should also discuss how conformational dynamics might affect their classifications and ideally perform molecular dynamics simulations or use ensemble structures for at least a subset of mutations to test robustness.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigour
+  - **Claim pointer** The abundance analysis claims to show that certain mutations are "predominantly present in drug-resistant isolates" and that co-occurrence of Rv0893c and bkdC mutations with gidB mutations "suggests that their combination may enhance the moderate levels of resistance."
+  - **Evidence pointer** Results section "Mutation abundance analysis and correlation with spatial distance with corresponding drugs"; Figure 6; Supplementary File 3
+  - **Concern** The abundance analysis is purely descriptive. No statistical tests are reported to determine whether the observed frequencies differ significantly between resistant and susceptible populations, or whether co-occurrence is greater than expected by chance. The numbers presented (e.g., 1458 out of 2650 samples) are not accompanied by confidence intervals, odds ratios, or p-values. The claim of "correlation" in the section title is not supported by any correlation coefficient or regression analysis.
+  - **Why it matters** Without statistical testing, the observed patterns could be due to chance, population structure, or sampling bias. The claim that co-occurrence "enhances" resistance implies a synergistic effect that cannot be established from frequency data alone.
+  - **Resolution test** The authors should perform appropriate statistical tests (e.g., Fisher's exact test for co-occurrence, chi-square or logistic regression for abundance comparisons) and report effect sizes with confidence intervals. If the sample sizes are insufficient for robust testing, this should be stated explicitly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and completeness
+  - **Claim pointer** The manuscript states that the analysis covers "all known mutations linked to drug resistance" and that the MutMapTB database provides "comprehensive" structural information.
+  - **Evidence pointer** Introduction; Results section "Implementation of the MutMapTB web server"; Table 1
+  - **Concern** The analysis is restricted to 10 drugs and 5 drug targets with available crystal structures. The authors acknowledge this in the methods, but the framing in the introduction and discussion implies broader coverage. More importantly, the analysis of non-coding mutations is limited to 67 mutations, and the regulatory analysis relies on only 50 transcription factors from the TB Genome Database. This is a small fraction of the regulatory network. The claim of comprehensiveness is therefore overstated.
+  - **Why it matters** Readers may assume the database and analysis cover the full landscape of resistance mutations, when in fact it is a curated subset. This could lead to over-reliance on the resource for clinical or research decisions.
+  - **Resolution test** The authors should clearly state the limitations of coverage in the abstract and discussion, and frame the resource as a starting point rather than a comprehensive catalogue. The title of the database and its description should reflect this scope.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes the use of AlphaFold3 for structure prediction and mCSM for stability analysis, and reports specific ΔΔG values.
+  - **Evidence pointer** Methods section "Assessing structural stability impacts of XAI predicted drug resistance mutations in accessory and novel proteins using 3D structures"; Figure 9
+  - **Concern** The methods for AlphaFold3 structure prediction are not described in sufficient detail. Key parameters such as version, confidence thresholds, and how models were selected are not provided. For mCSM, the manuscript does not specify which version or parameters were used, nor how the ΔΔG values were interpreted (e.g., what threshold defines "destabilising"). The statement that "almost all 35 proteins had high-quality structures with pLDDT scores greater than 70" is inconsistent with Figure 9, which appears to show a distribution with some structures below this threshold.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without detailed methods, other researchers cannot replicate the analysis or assess the reliability of the predictions.
+  - **Resolution test** The authors should provide a detailed methods section (either in the main text or supplementary) specifying software versions, parameters, thresholds, and quality control procedures. They should also reconcile the text description with the data shown in Figure 9.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract states the study provides "valuable insights for the design of experiments" but does not specify what types of experiments would be most informative or which predictions are highest priority for testing.
+  - **Required correction** Add one sentence indicating which categories of predictions (e.g., binding pocket mutations, destabilising mutations in novel genes, regulatory mutations) are most amenable to experimental validation and what assays would be appropriate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The text contains a duplicated phrase: "Nonetheless, several limitations must be acknowledged. Nonetheless, several limitations should be noted." This appears to be an editing error.
+  - **Required correction** Remove the duplicate sentence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple locations
+  - **Issue** The term "first-line drugs" is used inconsistently. In the discussion, the authors refer to "the first four-line drugs," which is unclear. The standard terminology is "first-line" and "second-line" drugs.
+  - **Required correction** Correct the phrase to "first-line drugs" and ensure consistent usage throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figure 9
+  - **Evidence pointer** Figure 9 legend and text
+  - **Issue** The text states "almost all 35 proteins had high-quality structures with pLDDT scores greater than 70," but the figure appears to show a different distribution. The figure legend does not specify the number of proteins in each bin.
+  - **Required correction** Clarify the figure to show the exact distribution and reconcile the text description with the data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Docking of a duplicated (dup) phenylalanine (phe) at position 433 of the RpoB protein"
+  - **Issue** The docking methods are described briefly. Key details such as the search space, exhaustiveness parameter, and how the binding site was defined for docking are not provided.
+  - **Required correction** Provide sufficient methodological detail to allow replication of the docking study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unsupported mechanistic claims), R1-M2 (arbitrary cutoff without sensitivity analysis), R1-M3 (absence of statistical testing), R1-M5 (insufficient methodological detail for reproducibility).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The integration of XAI-predicted mutations with structural mapping is somewhat novel, but the individual components (structural mapping of resistance mutations, stability prediction, regulatory mapping) are established approaches. The non-coding mutation analysis adds a dimension not always considered.
+  - **Scientific importance** Moderate. The work could help prioritise mutations for functional studies and expand the known resistance landscape, but the lack of experimental validation limits immediate impact. The clinical relevance is indirect at this stage.
+  - **Interdisciplinary readership** The work bridges genomics, structural biology, and machine learning, which could appeal to a broad audience. However, the depth in any single area is limited, and the computational focus may reduce accessibility for experimentally oriented readers.
+  - **Technical soundness** The computational pipeline is reasonable but has notable weaknesses: arbitrary cutoffs, lack of statistical rigour, and insufficient methodological detail. The reliance on predicted structures and stability calculations without experimental corroboration weakens the technical foundation.
+  - **Readability for nonspecialists** The manuscript is generally well-organised and the figures are described clearly. However, the methods are dense and assume familiarity with structural biology and machine learning concepts. The abstract is accessible, but the body would be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a useful resource and a reasonable analytical framework, but the current evidence does not fully support the mechanistic claims made. The authors should address the statistical and methodological issues, temper the language around novel resistance mechanisms, and provide clearer guidance on what requires experimental validation. If these revisions are made, the work could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that RpsN1, RpsN2, and PstB mutations "may introduce new resistance mechanisms" is unsupported by direct evidence and should be reframed as a hypothesis.
+- The statement that "almost half of the mutations... were present in the binding pockets" implies functional significance that is not established without experimental or dynamic structural data.
+- The claim that co-occurrence of Rv0893c and bkdC mutations with gidB mutations "may enhance" resistance is speculative and not supported by statistical analysis.
+- The assertion that the MutMapTB database provides "comprehensive" structural information is overstated given the limited number of drugs, targets, and transcription factors covered.
+- The interpretation of non-coding mutations as affecting transcription factor binding is inferred from overlap with ChIP-seq peaks, but no functional validation or expression analysis is provided.

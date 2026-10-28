@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The authors use AlphaFold2 and AlphaFold2 multimer models to analyze the structural features of the E. coli ArcB sensor kinase, including its dimerization, interaction with anaerobic metabolites (via CB-Dock docking), and activation of the ArcA response regulator. They claim the models are consistent with existing biochemical and genetic data and propose putative binding sites for anaerobic metabolites in the PAS and catalytic domains.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusions, figure legends referenced in text, supplemental figure descriptions
+- **Missing materials affecting confidence** Actual figures and supplemental files (Fig. S1-S13, Supplemental Zip File) were not provided; only textual descriptions of figures and tables were available. Table 1 and Table 2 contents were referenced but not fully visible in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational analysis of the ArcB/ArcA two-component system using AlphaFold2 models, with the goal of providing structural insights into dimerization, metabolite binding, and phosphotransfer mechanisms. The work is largely descriptive and hypothesis-generating, relying on predictive models without experimental validation. While the authors appropriately acknowledge the need for experimental confirmation, the manuscript lacks a clear, testable central hypothesis and does not provide quantitative or comparative analyses that would strengthen the claims. The docking results are presented without rigorous statistical validation, and the interpretation of model features as functionally relevant is often speculative. The manuscript may be of interest to researchers in bacterial signaling, but its current form does not establish a strong case for the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying two-component signal transduction systems, particularly the ArcA/ArcB system in E. coli, may find the structural models useful as a starting point for designing mutagenesis experiments. Those interested in the application of AlphaFold2 for membrane-associated signaling proteins and the prediction of metabolite binding sites may also find the methodological approach relevant. However, the lack of experimental validation limits the broader impact.
+- **Major strengths** The manuscript leverages state-of-the-art structure prediction tools (AlphaFold2) to address a biologically important system with limited structural data. The authors make an effort to correlate their models with extensive prior biochemical and genetic data, which is commendable. The identification of putative binding cavities for anaerobic metabolites provides specific, testable hypotheses for future experimental work. The comparison of ArcB homologs with and without PAS domains raises interesting evolutionary questions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CB-Dock analysis identified two putative regulatory cavities for binding anaerobic metabolites, and that D-lactate binds with high probability to the ATP-binding domain and the PAS domain.
+  - **Evidence pointer** Results section, Table 1, Figures 5 and 6
+  - **Concern** The docking analysis is presented as a central finding, but the methodology lacks critical validation. The authors do not report docking controls, such as decoy ligands or known non-binders, nor do they assess the statistical significance of the predicted binding poses. The Vina scores are presented without context (e.g., comparison to known binders or a threshold for significance). Additionally, the authors do not discuss the limitations of using a static AlphaFold2 model for docking, particularly the lack of conformational flexibility that may be essential for ligand binding.
+  - **Why it matters** Without proper validation, the docking predictions are not reliable enough to support the claim that specific cavities are likely binding sites for anaerobic metabolites. This weakens the central hypothesis of the manuscript and could mislead future experimental efforts.
+  - **Resolution test** The authors should provide a more rigorous docking analysis, including: (1) redocking of known ligands to their cognate proteins as a positive control, (2) docking of decoy molecules to assess specificity, (3) reporting of multiple docking runs and associated errors, and (4) discussion of the limitations of the rigid receptor approximation. Alternatively, they could temper their claims and present the docking as purely speculative.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the AlphaFold2 dimer model of ArcB is consistent with a rotational on/off mechanism and that the model is in the "off" state but orientated in the regulatable form of the kinase.
+  - **Evidence pointer** Results section, Figure 4
+  - **Concern** The interpretation of the model as representing a specific functional state (off, regulatable) is not justified. AlphaFold2 predicts a static, likely lowest-energy conformation, which may not correspond to any functional state in the dynamic cycle of the kinase. The authors infer functional significance from the relative orientation of Cys180 residues and the distance between them, but they do not provide any dynamic simulations or experimental data to support this interpretation. The claim that the model is in the "off" state is speculative and not testable from the static model alone.
+  - **Why it matters** Overinterpreting static models as representing specific functional states can lead to incorrect mechanistic conclusions. The rotational on/off mechanism is an established hypothesis, but this manuscript does not provide new evidence to support it beyond what is already known from biochemical studies.
+  - **Resolution test** The authors should either (1) perform molecular dynamics simulations to explore the conformational landscape of the dimer and assess the stability of the proposed states, or (2) clearly reframe their statements as hypotheses that require experimental testing, avoiding definitive claims about the functional state of the model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the AlphaFold2 model of the ArcB PAS domain is highly accurate and that the structural comparison with other PAS domains shows a conserved core.
+  - **Evidence pointer** Results section, Figure 3
+  - **Concern** The authors report a TM-score of 0.99119 for the comparison between the AlphaFold2 model and the experimentally determined PAS domain structure. However, they do not provide the RMSD value for this comparison, which is a more sensitive measure of structural similarity for small domains. Additionally, the alignment with eight other PAS domains is described qualitatively, without quantitative metrics (e.g., TM-scores or RMSDs) that would allow the reader to assess the significance of the conservation.
+  - **Why it matters** The claim of high accuracy and conservation is central to the validity of using the model for downstream analyses. Without quantitative metrics, the reader cannot evaluate the strength of this claim.
+  - **Resolution test** The authors should provide RMSD values for the PAS domain comparison and a table of TM-scores or RMSDs for the alignments with the eight other PAS domains. This would allow a more rigorous assessment of structural conservation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript aims to provide insights into the ArcB/ArcA system for a broad audience, including those interested in bacterial physiology and metabolic engineering.
+  - **Evidence pointer** Throughout the manuscript
+  - **Concern** The manuscript assumes significant prior knowledge of two-component system signaling and structural biology. Terms such as "phosphorelay," "Hpt domain," "PAS domain," and "pLDDT" are used without adequate explanation for nonspecialist readers. The significance of the findings is not clearly articulated in the context of the broader understanding of bacterial adaptation to oxygen availability.
+  - **Why it matters** The journal aims to reach a broad interdisciplinary audience. If the manuscript is not accessible to nonspecialists, its impact will be limited.
+  - **Resolution test** The authors should add a brief primer on two-component systems and key structural domains, and explicitly state the broader implications of their findings for understanding bacterial physiology and potential applications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The sentence "Overall, ArcB is a kinase with features that need further testing, especially in determining its crystal structure under different conditions" is vague and does not summarize the key findings of the study.
+  - **Required correction** Revise the concluding sentence to highlight the specific novel insights from the models, such as the putative binding sites or the structural basis for the rotational mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, ArcB docking section
+  - **Issue** The authors state that CB-Dock achieves a ~70% success rate but do not provide a citation for this claim. Additionally, the version of CB-Dock used is not specified.
+  - **Required correction** Provide a citation for the success rate and specify the software version used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "The binding of anaerobic metabolites" section
+  - **Issue** The text states "the results are inverted" when comparing D-lactate and L-lactate binding in the PAS domain, but the meaning is unclear. It is not specified what is inverted (e.g., binding affinity, cavity size).
+  - **Required correction** Clarify what is inverted and provide the specific values from Table 1 to support the statement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "The value of protein modeling" section
+  - **Issue** The authors suggest that the PAS domain may be involved in binding anaerobic metabolites, but they do not discuss alternative mechanisms, such as the role of the transmembrane domain or the possibility of indirect effects via the quinone pool.
+  - **Required correction** Add a brief discussion of alternative hypotheses and how the proposed binding sites could be distinguished experimentally.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions, first sentence
+  - **Issue** The sentence "ArcB/A TCS has been the center for many studies regarding its function and role in cell physiology" is grammatically awkward and could be rephrased for clarity.
+  - **Required correction** Rephrase to "The ArcB/ArcA TCS has been the focus of many studies regarding its function and role in cell physiology."
+- **Technical failings that need to be addressed before the case is established** The docking analysis lacks validation and statistical rigor (R1-M1). The interpretation of the static model as representing a specific functional state is not justified (R1-M2). Quantitative metrics for structural comparisons are missing (R1-M3).
+- **Assessment against Nature-style criteria** Originality: The application of AlphaFold2 to the ArcB/ArcA system is novel, but the findings are largely confirmatory of existing biochemical data and do not provide fundamentally new insights. Scientific importance: The ArcB/ArcA system is important for understanding bacterial adaptation, but the manuscript does not advance the field significantly beyond what is already known. Interdisciplinary readership: The topic is of interest to microbiologists and structural biologists, but the presentation is not accessible to a broader audience. Technical soundness: The use of AlphaFold2 is appropriate, but the docking analysis and structural interpretations lack rigor. Readability for nonspecialists: The manuscript assumes significant background knowledge and would benefit from clearer explanations of key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents interesting hypotheses but does not provide sufficient validation to support the central claims. Major revisions are required to address the technical concerns, particularly the docking analysis and the interpretation of the static model. If these issues are resolved, the manuscript could be suitable for publication in a specialized journal, but it is unlikely to meet the standards of a high-impact general journal.
+
+## Risk / unsupported claims
+- The claim that CB-Dock identified two putative regulatory cavities for anaerobic metabolites is unsupported due to lack of validation and statistical analysis.
+- The claim that the AlphaFold2 dimer model represents the "off" state of the kinase is unsupported and speculative.
+- The claim that the PAS domain is a likely binding site for anaerobic metabolites is presented as a finding but is based solely on docking predictions without experimental evidence.
+- The statement that "the models are consistent with the extensive biochemical and genetic data" is not systematically demonstrated; the authors cite specific examples but do not provide a comprehensive comparison.
+- The claim that "the predicted structure of the dimeric form of ArcB is consistent with the rotational on/off mechanism" is not testable from the static model alone.

@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "38282038",
+    "doi": "10.1038/s41598-024-52819-5",
+    "title": "Optimized network based natural language processing approach to reveal disease comorbidities in COVID-19."
+  },
+  "content": {
+    "abstract": "A novel virus emerged from Wuhan, China, at the end of 2019 and quickly evolved into a pandemic, significantly impacting various industries, especially healthcare. One critical lesson from COVID-19 is the importance of understanding and predicting underlying comorbidities to better prioritize care and pharmacological therapies. Factors like age, race, and comorbidity history are crucial in determining disease mortality. While clinical data from hospitals and cohorts have led to the identification of these comorbidities, traditional approaches often lack a mechanistic understanding of the connections between them. In response, we utilized a deep learning approach to integrate COVID-19 data with data from other diseases, aiming to detect comorbidities with mechanistic insights. Our modified algorithm in the mpDisNet package, based on word-embedding deep learning techniques, incorporates miRNA expression profiles from SARS-CoV-2 infected cell lines and their target transcription factors. This approach is aligned with the emerging field of network medicine, which seeks to define diseases based on distinct pathomechanisms rather than just phenotypes. The main aim is discovery of possible unknown comorbidities by connecting the diseases by their miRNA mediated regulatory interactions. The algorithm can predict the majority of COVID-19's known comorbidities, as well as several diseases that have yet to be discovered to be comorbid with COVID-19. These potentially comorbid diseases should be investigated further to raise awareness and prevention, as well as informing the comorbidity research for the next possible outbreak.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19/epidemiology",
+      "SARS-CoV-2",
+      "Natural Language Processing",
+      "Comorbidity",
+      "*MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duman, Emre Taylan",
+        "Tuna, Gizem",
+        "Ak, Enes",
+        "Avsar, Gulben",
+        "Pir, Pinar"
+      ],
+      "short_names": [
+        "Duman ET",
+        "Tuna G",
+        "Ak E",
+        "Avsar G",
+        "Pir P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioengineering, Gebze Technical University, Kocaeli, Turkey. emretaylanduman@gmail.com.",
+        "NGS-Core Unit for Integrative Genomics, Institute of Pathology, University Medical Center Gottingen, Gottingen, Germany. emretaylanduman@gmail.com.",
+        "Department of Molecular Biology, Gebze Technical University, Kocaeli, Turkey.",
+        "Department of Bioengineering, Gebze Technical University, Kocaeli, Turkey.",
+        "Department of Bioengineering, Gebze Technical University, Kocaeli, Turkey.",
+        "Department of Bioengineering, Gebze Technical University, Kocaeli, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duman, Emre Taylan",
+        "short_name": "Duman ET",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Gebze Technical University, Kocaeli, Turkey. emretaylanduman@gmail.com.",
+          "NGS-Core Unit for Integrative Genomics, Institute of Pathology, University Medical Center Göttingen, Göttingen, Germany. emretaylanduman@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Tuna, Gizem",
+        "short_name": "Tuna G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Gebze Technical University, Kocaeli, Turkey."
+        ]
+      },
+      {
+        "full_name": "Ak, Enes",
+        "short_name": "Ak E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Gebze Technical University, Kocaeli, Turkey."
+        ]
+      },
+      {
+        "full_name": "Avsar, Gülben",
+        "short_name": "Avsar G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Gebze Technical University, Kocaeli, Turkey."
+        ]
+      },
+      {
+        "full_name": "Pir, Pinar",
+        "short_name": "Pir P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Gebze Technical University, Kocaeli, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jan 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/29 00:42",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "41437993",
+      "39688780",
+      "39125612"
+    ],
+    "refs": [
+      "36966134",
+      "34860005",
+      "33585804",
+      "32917884",
+      "32146445",
+      "31754458",
+      "30488094",
+      "28053046",
+      "27991583",
+      "27467265",
+      "27374120",
+      "26950747",
+      "24194601",
+      "23948386",
+      "22211138",
+      "22067443",
+      "19360091",
+      "18988627",
+      "18927107",
+      "18599447",
+      "15608251",
+      "14681455"
+    ],
+    "similar": [
+      "38282038",
+      "36059456",
+      "34675303",
+      "31754458",
+      "33563817",
+      "38640424",
+      "39160798",
+      "34152577",
+      "33624299",
+      "35137367",
+      "34718258",
+      "32598450",
+      "32783802",
+      "38670740",
+      "33419461",
+      "33371840",
+      "35142636",
+      "34535131",
+      "34975885",
+      "38943093",
+      "33411264",
+      "36406478",
+      "32788073",
+      "32986795",
+      "34993740",
+      "35579324",
+      "32549334",
+      "35388055",
+      "32975574",
+      "32659414",
+      "39287877",
+      "33063089",
+      "35037799",
+      "37777104",
+      "34635140",
+      "36626821",
+      "39023121",
+      "35755851",
+      "32903476",
+      "37336921",
+      "32421292",
+      "33092539",
+      "33600673",
+      "37927854",
+      "32512929",
+      "34158099",
+      "33974614",
+      "32540837",
+      "32813220",
+      "34325747",
+      "33692570",
+      "33475497",
+      "34363789",
+      "30598089",
+      "33388969",
+      "35716951",
+      "33534724",
+      "32584464",
+      "34106048",
+      "33711981",
+      "34858116",
+      "38925508",
+      "33993223",
+      "38747913",
+      "39150053",
+      "32778874",
+      "37629683",
+      "32409230",
+      "35787998",
+      "32914200",
+      "33156843",
+      "33861198",
+      "33502003",
+      "33012053",
+      "34713782",
+      "35059378",
+      "36480433",
+      "33761654",
+      "35367669",
+      "33829916",
+      "33090964",
+      "33610778",
+      "33124044",
+      "38796034",
+      "38932780",
+      "32449766",
+      "33472167",
+      "33728332",
+      "38726471",
+      "34610047",
+      "35713866",
+      "33108306",
+      "33284779",
+      "34048161",
+      "34359932",
+      "32255382",
+      "34604574",
+      "39176883",
+      "33257774",
+      "33186186"
+    ],
+    "review": [
+      "38282038",
+      "33563817",
+      "33624299",
+      "35137367",
+      "34718258",
+      "33371840",
+      "36406478",
+      "32788073",
+      "32549334",
+      "32659414",
+      "39287877",
+      "33063089",
+      "32903476",
+      "33600673",
+      "33974614",
+      "32813220",
+      "33692570",
+      "33388969",
+      "32584464",
+      "38925508",
+      "37629683",
+      "32409230",
+      "35787998",
+      "32914200",
+      "33861198",
+      "33502003",
+      "33012053",
+      "33761654",
+      "33610778",
+      "33284779",
+      "34048161",
+      "34604574",
+      "33186186"
+    ],
+    "pmc": [
+      "10822845"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-52819-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38282038/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38282038",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

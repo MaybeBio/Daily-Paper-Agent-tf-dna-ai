@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "39908143",
+    "doi": "10.1016/j.celrep.2025.115272",
+    "title": "KMT2C/KMT2D-dependent H3K4me1 mediates changes in DNA replication timing and origin activity during a cell fate transition."
+  },
+  "content": {
+    "abstract": "Mammalian genomes replicate in a cell-type-specific order during the S phase, correlated to transcriptional activity, histone modifications, and chromatin structure. The causal relationships between these features and DNA replication timing (RT), especially during cell fate changes, are largely unknown. Using machine learning, we quantify 21 chromatin features predicting local RT and RT changes during differentiation in embryonic stem cells (ESCs). About one-third of the genome shows RT changes during differentiation. Chromatin features accurately predict both steady-state RT and RT changes. Histone H3 lysine 4 monomethylation (H3K4me1), catalyzed by KMT2C and KMT2D (KMT2C/D), emerges as a top predictor. Loss of KMT2C/D or their enzymatic activities impairs RT changes during differentiation. This correlates with local H3K4me1 loss and reduced replication origin firing, while transcription remains largely unaffected. Our findings reveal KMT2C/D-dependent H3K4me1 as a key regulator of RT and replication initiation, a role that likely impacts diseases associated with KMT2C/D mutations.",
+    "keywords": [
+      "CP: Molecular biology",
+      "DNA replication domains",
+      "H3K4 monomethylation",
+      "KMT2C",
+      "KMT2D",
+      "MLL3",
+      "MLL4",
+      "cell cycle",
+      "cell fate",
+      "chromatin features",
+      "epiblast-like cells",
+      "epigenetics",
+      "formative",
+      "genomics",
+      "histone modifications",
+      "initiation zones",
+      "machine learning",
+      "naive",
+      "pluripotency",
+      "predictive modeling",
+      "replication origins",
+      "replication timing",
+      "transcription"
+    ],
+    "mesh_terms": [
+      "*Histones/metabolism",
+      "Cell Differentiation",
+      "Animals",
+      "Mice",
+      "*DNA Replication Timing",
+      "Chromatin/metabolism",
+      "*DNA Replication",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "*Replication Origin",
+      "*Histone-Lysine N-Methyltransferase/metabolism",
+      "Humans",
+      "Methylation",
+      "Cell Lineage",
+      "Embryonic Stem Cells/metabolism/cytology",
+      "Lysine",
+      "Myeloid-Lymphoid Leukemia Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gokbuget, Deniz",
+        "Goehring, Liana",
+        "Boileau, Ryan M",
+        "Lenshoek, Kayla",
+        "Huang, Tony T",
+        "Blelloch, Robert"
+      ],
+      "short_names": [
+        "Gokbuget D",
+        "Goehring L",
+        "Boileau RM",
+        "Lenshoek K",
+        "Huang TT",
+        "Blelloch R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, Center for Reproductive Sciences, University of California, San Francisco, San Francisco, CA, USA; Department of Urology, University of California, San Francisco, San Francisco, CA, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA. Electronic address: deniz.goekbuget@ucsf.edu.",
+        "Department of Biochemistry & Molecular Pharmacology, New York University School of Medicine, New York, NY, USA.",
+        "The Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, Center for Reproductive Sciences, University of California, San Francisco, San Francisco, CA, USA; Department of Urology, University of California, San Francisco, San Francisco, CA, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA.",
+        "The Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, Center for Reproductive Sciences, University of California, San Francisco, San Francisco, CA, USA; Department of Urology, University of California, San Francisco, San Francisco, CA, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Biochemistry & Molecular Pharmacology, New York University School of Medicine, New York, NY, USA.",
+        "The Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, Center for Reproductive Sciences, University of California, San Francisco, San Francisco, CA, USA; Department of Urology, University of California, San Francisco, San Francisco, CA, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA. Electronic address: robert.blelloch@ucsf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gökbuget, Deniz",
+        "short_name": "Gökbuget D",
+        "identifiers": [],
+        "affiliations": [
+          "The Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, Center for Reproductive Sciences, University of California, San Francisco, San Francisco, CA, USA; Department of Urology, University of California, San Francisco, San Francisco, CA, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA. Electronic address: deniz.goekbuget@ucsf.edu."
+        ]
+      },
+      {
+        "full_name": "Goehring, Liana",
+        "short_name": "Goehring L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Pharmacology, New York University School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Boileau, Ryan M",
+        "short_name": "Boileau RM",
+        "identifiers": [],
+        "affiliations": [
+          "The Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, Center for Reproductive Sciences, University of California, San Francisco, San Francisco, CA, USA; Department of Urology, University of California, San Francisco, San Francisco, CA, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lenshoek, Kayla",
+        "short_name": "Lenshoek K",
+        "identifiers": [],
+        "affiliations": [
+          "The Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, Center for Reproductive Sciences, University of California, San Francisco, San Francisco, CA, USA; Department of Urology, University of California, San Francisco, San Francisco, CA, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Tony T",
+        "short_name": "Huang TT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Pharmacology, New York University School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Blelloch, Robert",
+        "short_name": "Blelloch R",
+        "identifiers": [],
+        "affiliations": [
+          "The Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, Center for Reproductive Sciences, University of California, San Francisco, San Francisco, CA, USA; Department of Urology, University of California, San Francisco, San Francisco, CA, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA. Electronic address: robert.blelloch@ucsf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2025 Feb 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/05 18:20",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42268949",
+      "42032161",
+      "41970232",
+      "40161744",
+      "40154613"
+    ],
+    "refs": [
+      "39460617",
+      "38898078",
+      "37500731",
+      "37012455",
+      "36869380",
+      "36118849",
+      "36108018",
+      "35676475",
+      "35381196",
+      "34645806",
+      "34108027",
+      "33888635",
+      "33828297",
+      "33683199",
+      "33442052",
+      "32499403",
+      "32439762",
+      "32055031",
+      "31875854",
+      "31784727",
+      "31477886",
+      "31406346",
+      "31300027",
+      "31231024",
+      "31078527",
+      "31036827",
+      "30970245",
+      "30598550",
+      "30595451",
+      "30115746",
+      "30017589",
+      "29599440",
+      "29313530",
+      "29255264",
+      "28967912",
+      "28709003",
+      "28703188",
+      "28487406",
+      "28483418",
+      "28355183",
+      "28143843",
+      "27698142",
+      "27542827",
+      "27207943",
+      "27079975",
+      "26751768",
+      "26748757",
+      "26725008",
+      "26560631",
+      "26394866",
+      "26365379",
+      "26083756",
+      "25497547",
+      "25409831",
+      "25409824",
+      "24630794",
+      "24550110",
+      "24489365",
+      "24368734",
+      "24227677",
+      "24081332",
+      "23473601",
+      "23166019",
+      "22879376",
+      "22850674",
+      "22850673",
+      "22388286",
+      "21177973",
+      "20808728",
+      "20639541",
+      "20617169",
+      "20430782",
+      "20110278",
+      "20064463",
+      "19952138",
+      "18842067",
+      "18443145",
+      "17549064",
+      "16540515",
+      "15601823",
+      "15591350",
+      "15475419",
+      "14645202",
+      "12355067",
+      "11687631",
+      "10783166",
+      "9743599",
+      "9412456",
+      "9398665",
+      "7699008",
+      "6719109",
+      "1740468"
+    ],
+    "similar": [
+      "39908143",
+      "38106216",
+      "38513661",
+      "36869380",
+      "27698142",
+      "29313530",
+      "24368734",
+      "28483418",
+      "27131378",
+      "28013028",
+      "37012455",
+      "28967912",
+      "42031562",
+      "24081332",
+      "24656132",
+      "38926506",
+      "38453563",
+      "23754963",
+      "42032161",
+      "28732206",
+      "29954944",
+      "33823156",
+      "28669924",
+      "38967349",
+      "28410996",
+      "31128216",
+      "24235145",
+      "40611890",
+      "41890106",
+      "41540072",
+      "28939616",
+      "21335234",
+      "34610305",
+      "31231024",
+      "19585526",
+      "24316986",
+      "42292428",
+      "24913280",
+      "28375985",
+      "32471474",
+      "24240169",
+      "31875854",
+      "39165358",
+      "24686120",
+      "22772991",
+      "28778956",
+      "19462008",
+      "32867667",
+      "39806204",
+      "40286267",
+      "29404406",
+      "22028635",
+      "25607372",
+      "23239880",
+      "41157092",
+      "42048911",
+      "23166019",
+      "20818375",
+      "31221981",
+      "33979575",
+      "33888635",
+      "39501105",
+      "31485071",
+      "38297077",
+      "31434679",
+      "27341472",
+      "25712104",
+      "42454496",
+      "31465303",
+      "36741385",
+      "16371653",
+      "26644406",
+      "24163099",
+      "31813957",
+      "22589736",
+      "22851644",
+      "32209126",
+      "22398447",
+      "30232013",
+      "17705870",
+      "25658386",
+      "42118696",
+      "19952138",
+      "40240143",
+      "18372346",
+      "26070559",
+      "19703992",
+      "29496997",
+      "28759003",
+      "15788566",
+      "34174709",
+      "21160473",
+      "36701236",
+      "19521516",
+      "36513698",
+      "25519907",
+      "34156443",
+      "19026780",
+      "40869273",
+      "27154821"
+    ],
+    "review": [
+      "39908143",
+      "38453563",
+      "42032161",
+      "28669924",
+      "31128216",
+      "42292428",
+      "28375985",
+      "39165358",
+      "24686120",
+      "41157092",
+      "42048911",
+      "31221981"
+    ],
+    "pmc": [
+      "12140508"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(25)00043-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39908143/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse216475",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41020638",
+    "doi": "10.1093/bib/bbaf509",
+    "title": "INAB: identify nucleic acid binding domain via cross-modal protein language models and multiscale computation."
+  },
+  "content": {
+    "abstract": "Protein-nucleic acid interactions play a crucial role in biological processes, including gene regulation and editing. Accurately identifying nucleic acid-binding domains in proteins is essential to unravel these interactions, yet traditional experimental methods like X-ray crystallography remain costly and time-intensive. Computational approaches have thus emerged as indispensable tools to complement wet-lab techniques. Here, we introduce a framework for nucleic acid-binding domain prediction by integrating cross-modal protein language models with a multiscale computational architecture. The proposed method leverages a structurally annotated benchmark dataset, which quantifies binding likelihood through hierarchical, proximity-based labels derived from experimental complexes. Evaluations demonstrate that the approach achieves state-of-the-art performance, providing a new insight into the design of multimodal learning systems in protein-nucleic acid interaction analysis and an open resource to accelerate discoveries in functional genomics and drug design.",
+    "keywords": [
+      "multiscale computation",
+      "nucleic acid binding domain",
+      "protein language model"
+    ],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "Protein Binding",
+      "*Nucleic Acids/metabolism/chemistry",
+      "Binding Sites",
+      "Humans",
+      "Protein Domains",
+      "*Software",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jun",
+        "Zeng, Hao",
+        "Chen, Junjie",
+        "Zhu, Zexuan"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Zeng H",
+        "Chen J",
+        "Zhu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0484-0966",
+        "ORCID: 0000-0002-0483-303X",
+        "ORCID: 0000-0001-8479-6904"
+      ],
+      "affiliations": [
+        "School of Artificial Intelligence, Shenzhen University, Shenzhen 518060, China.",
+        "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen 518060, China.",
+        "School of Artificial Intelligence, Shenzhen University, Shenzhen 518060, China.",
+        "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen 518060, China.",
+        "School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, Shenzhen 518060, China.",
+        "School of Artificial Intelligence, Shenzhen University, Shenzhen 518060, China.",
+        "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen 518060, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0003-0484-0966"
+        ],
+        "affiliations": [
+          "School of Artificial Intelligence, Shenzhen University, Shenzhen 518060, China.",
+          "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Hao",
+        "short_name": "Zeng H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Shenzhen University, Shenzhen 518060, China.",
+          "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junjie",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-0483-303X"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zexuan",
+        "short_name": "Zhu Z",
+        "identifiers": [
+          "0000-0001-8479-6904"
+        ],
+        "affiliations": [
+          "School of Artificial Intelligence, Shenzhen University, Shenzhen 518060, China.",
+          "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen 518060, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Aug 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/29 13:20",
+    "fetched_at": "2026-10-01 03:11:40"
+  },
+  "links": {
+    "cites": [
+      "42667149",
+      "42247461",
+      "41875143"
+    ],
+    "refs": [
+      "38738636",
+      "38718835",
+      "38281252",
+      "38015872",
+      "37915276",
+      "37672551",
+      "37156916",
+      "37070217",
+      "36927031",
+      "36008947",
+      "34265844",
+      "33577689",
+      "33454744",
+      "30169574",
+      "28575181",
+      "28132027",
+      "26213851",
+      "25935161",
+      "25269475",
+      "23332764",
+      "23060610",
+      "22198341",
+      "15215342",
+      "6667333"
+    ],
+    "similar": [
+      "41020638",
+      "39576589",
+      "38830995",
+      "41045511",
+      "40914361",
+      "40919912",
+      "39202449",
+      "39833102",
+      "33291838",
+      "39818834",
+      "21787304",
+      "40544633",
+      "31746287",
+      "40505261",
+      "28315749",
+      "14681388",
+      "40601256",
+      "40209920",
+      "39985437",
+      "34196610",
+      "18452716",
+      "41061560",
+      "34905768",
+      "29753757",
+      "11724731",
+      "39520544",
+      "39357703",
+      "39484977",
+      "33406224",
+      "40185915",
+      "17977883",
+      "40957717",
+      "40944448",
+      "26681179",
+      "39616716",
+      "35753699",
+      "10450093",
+      "33454744",
+      "40932245",
+      "39214282",
+      "40030699",
+      "40987097",
+      "26948825",
+      "39244557",
+      "40750568",
+      "30535108",
+      "29253082",
+      "39693053",
+      "32920048",
+      "39848362",
+      "25209748",
+      "22538125",
+      "23912807",
+      "26927815",
+      "40719555",
+      "21992011",
+      "34415020",
+      "29608705",
+      "17935268",
+      "40684093",
+      "41133269",
+      "25474259",
+      "26527718",
+      "38975896",
+      "38739759",
+      "28334258",
+      "38718835",
+      "25940624",
+      "19208164",
+      "39961524",
+      "21689482",
+      "40552661",
+      "40601265",
+      "19487258",
+      "41168713",
+      "25708928",
+      "40662818",
+      "19091029",
+      "18667362",
+      "12645088",
+      "33577689",
+      "18262782",
+      "36416116",
+      "38281252",
+      "39270885",
+      "23788679",
+      "32946833",
+      "27384774",
+      "30372611",
+      "15340913",
+      "25935161",
+      "28383703",
+      "39032884",
+      "15099834",
+      "9145285",
+      "28132027",
+      "39602339",
+      "36044786",
+      "29028926",
+      "18281210"
+    ],
+    "review": [
+      "41020638",
+      "39202449",
+      "39833102",
+      "33291838",
+      "40544633",
+      "31746287",
+      "40505261",
+      "28315749",
+      "40209920",
+      "18452716",
+      "41061560",
+      "39616716",
+      "40987097",
+      "29253082",
+      "25209748",
+      "22538125",
+      "17935268",
+      "38739759",
+      "28334258",
+      "12645088",
+      "25935161",
+      "9145285"
+    ],
+    "pmc": [
+      "12477684"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41020638.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41020638/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf509",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

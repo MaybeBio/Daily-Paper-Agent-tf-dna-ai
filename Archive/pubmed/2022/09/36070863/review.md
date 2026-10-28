@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose GRN-transformer, a weakly supervised learning framework based on an axial transformer, to reconstruct cell-type-specific gene regulatory networks (GRNs) from single-cell RNA sequencing data, leveraging generic GRNs derived from bulk-cell transcriptomic data. They claim state-of-the-art prediction accuracy compared to existing supervised and unsupervised approaches, and demonstrate utility in identifying transcription factors and potential regulations for Alzheimer's disease risk genes.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or experimental descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, code repository contents, dataset descriptions, and benchmark details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable idea, namely the integration of bulk-cell transcriptomic data to improve single-cell GRN reconstruction. However, the evidence provided in the abstract is insufficient to evaluate the validity of the core claims. No quantitative performance metrics, benchmark specifications, or statistical analyses are described. The methodological novelty relative to existing transformer-based approaches is unclear. The biological application to Alzheimer's disease is mentioned but not substantiated with any results. The claims of state-of-the-art performance and biological utility cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell genomics, and deep learning applications in genomics would be interested. The potential to leverage abundant bulk-cell data to improve single-cell GRN predictions addresses a practical need in the field. Researchers studying Alzheimer's disease genetics might also find the application relevant, though this is not yet established.
+- **Major strengths** The central hypothesis, that bulk-cell transcriptomic data can assist single-cell GRN reconstruction, is well-motivated and practically relevant. The use of a weakly supervised learning framework based on an axial transformer is a reasonable technical direction. The availability statement indicates that the implementation is publicly accessible, which supports reproducibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that GRN-transformer achieves state-of-the-art prediction accuracy in comparison to existing supervised and unsupervised approaches.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative results, no comparison metrics, no benchmark datasets, and no statistical significance measures to support the state-of-the-art claim. Without specific performance numbers, baseline descriptions, or evaluation protocols, this claim is unverifiable.
+  - **Why it matters** A state-of-the-art claim is a central contribution of the work. If the evidence is not presented, the claim cannot be assessed, and the scientific contribution remains unsubstantiated.
+  - **Resolution test** Provide in the full manuscript a clear comparison table with performance metrics (e.g., AUROC, AUPRC, F1) on multiple benchmark datasets, including statistical tests for significance, and describe the evaluation protocol in sufficient detail for replication.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The authors state that they infer cell-type-specific GRNs from both single-cell RNA sequencing data and generic GRNs derived from bulk cells by constructing a weakly supervised learning framework based on the axial transformer.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not explain how the weakly supervised learning is formulated, what the training signals are, how the axial transformer is adapted to GRN inference, or how cell-type specificity is achieved. The methodological description is too vague to evaluate novelty or technical soundness.
+  - **Why it matters** Without a clear description of the method, reviewers and readers cannot determine whether the approach is technically sound, reproducible, or distinct from existing transformer-based methods in genomics.
+  - **Resolution test** In the full manuscript, provide a detailed method section with formal problem formulation, model architecture, training procedure, loss functions, and handling of weak supervision. Include a diagram of the framework.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological claim support
+  - **Claim pointer** The authors claim that their method can identify important transcription factors and potential regulations for Alzheimer's disease risk genes using the predicted GRN.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No results are presented to support this biological application. It is unclear which transcription factors were identified, how they were validated, what Alzheimer's disease risk genes were considered, or whether the findings are novel or consistent with known biology.
+  - **Why it matters** The biological application is presented as a demonstration of utility. Without evidence, this claim is unsupported and cannot be evaluated for significance or validity.
+  - **Resolution test** In the full manuscript, present specific results for the Alzheimer's disease analysis, including lists of identified transcription factors, validation against known databases or literature, and a clear description of the risk gene set used.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability statement
+  - **Evidence pointer** Abstract, availability statement
+  - **Issue** The abstract states that the implementation is available at a GitHub URL, but no version, license, or dependency information is provided.
+  - **Required correction** In the full manuscript, include a detailed README, software version, and a statement on data availability for the datasets used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "weakly supervised learning"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "weakly supervised" is used without clarification of what constitutes weak labels in this context. This could be ambiguous to readers.
+  - **Required correction** Define the weak supervision signals explicitly in the methods section, such as whether labels are noisy, incomplete, or derived from bulk-cell GRNs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison scope
+  - **Affected element** Claim of comparison to "existing supervised and unsupervised approaches"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify which existing methods were compared, nor the number of baselines.
+  - **Required correction** List the baseline methods in the full manuscript and justify their selection.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of state-of-the-art performance, methodological soundness, and biological utility are not supported by the abstract alone. The full manuscript must provide quantitative results, detailed methodology, and validated biological findings.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of using bulk-cell data to assist single-cell GRN reconstruction is not entirely new, but the specific combination with a weakly supervised axial transformer may offer a novel angle. However, the abstract does not clearly differentiate this from prior work.
+  - Scientific importance: If validated, the approach could have practical value for the community, given the abundance of bulk-cell data. However, the importance is not yet demonstrated.
+  - Interdisciplinary readership: The topic sits at the intersection of machine learning and genomics, which has broad appeal. The abstract is accessible to a general computational biology audience.
+  - Technical soundness: Cannot be assessed from the abstract. The methodological description is insufficient.
+  - Readability for nonspecialists: The abstract is reasonably clear in its high-level claims, but technical terms such as "axial transformer" and "weakly supervised learning" are not explained for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the central claims. A supportive posture would require the full manuscript to address the major concerns, particularly providing quantitative performance data, a detailed method description, and validated biological results.
+
+## Risk / unsupported claims
+- The claim of state-of-the-art prediction accuracy is unsupported by any quantitative evidence in the abstract.
+- The claim that bulk-cell transcriptomic data improve single-cell GRN prediction is asserted but not demonstrated with results.
+- The claim of identifying important transcription factors and potential regulations for Alzheimer's disease risk genes is unsupported by any presented findings.
+- The methodological description of the weakly supervised learning framework and axial transformer is too vague to evaluate.

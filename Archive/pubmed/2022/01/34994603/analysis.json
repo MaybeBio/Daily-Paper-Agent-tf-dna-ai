@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34994603",
+  "title": "Training, Validation, and Test of Deep Learning Models for Classification of Receptor Expressions in Breast Cancers From Mammograms.",
+  "authors": "Ueda, Daiju; Yamamoto, Akira; Takashima, Tsutomu; Onoda, Naoyoshi; Noda, Satoru; Kashiwagi, Shinichiro; Morisaki, Tamami; Honjo, Takashi; Shimazaki, Akitoshi; Miki, Yukio",
+  "journal": "JCO precision oncology",
+  "published_date": "2022-01-08",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习从乳腺X光图像分类乳腺癌受体表达，属于医学影像分类，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "PURPOSE: The molecular subtype of breast cancer is an important component of establishing the appropriate treatment strategy. In clinical practice, molecular subtypes are determined by receptor expressions. In this study, we developed a model using deep learning to determine receptor expressions from mammograms. METHODS: A developing data set and a test data set were generated from mammograms from the affected side of patients who were pathologically diagnosed with breast cancer from January 2006 through December 2016 and from January 2017 through December 2017, respectively. The developing data sets were used to train and validate the DL-based model with five-fold cross-validation for classifying expression of estrogen receptor (ER), progesterone receptor (PgR), and human epidermal growth factor receptor 2-neu (HER2). The area under the curves (AUCs) for each receptor were evaluated with the independent test data set. RESULTS: The developing data set and the test data set included 1,448 images (997 ER-positive and 386 ER-negative, 641 PgR-positive and 695 PgR-negative, and 220 HER2-enriched and 1,109 non-HER2-enriched) and 225 images (176 ER-positive and 40 ER-negative, 101 PgR-positive and 117 PgR-negative, and 53 HER2-enriched and 165 non-HER2-enriched), respectively. The AUC of ER-positive or -negative in the test data set was 0.67 (0.58-0.76), the AUC of PgR-positive or -negative was 0.61 (0.53-0.68), and the AUC of HER2-enriched or non-HER2-enriched was 0.75 (0.68-0.82). CONCLUSION: The DL-based model effectively classified the receptor expressions from the mammograms. Applying the DL-based model to predict breast cancer classification with a noninvasive approach would have additive value to patients.",
+  "abstract_zh": "目的：乳腺癌的分子亚型是制定适当治疗策略的重要组成部分。在临床实践中，分子亚型通过受体表达来确定。在本研究中，我们开发了一种基于深度学习（deep learning）的模型，用于从乳腺X线摄影（mammograms）中确定受体表达。方法：开发数据集和测试数据集分别来自2006年1月至2016年12月及2017年1月至2017年12月期间经病理诊断为乳腺癌的患者患侧乳腺X线摄影图像。开发数据集用于训练和验证基于深度学习的模型，采用五折交叉验证（five-fold cross-validation）来分类雌激素受体（estrogen receptor, ER）、孕激素受体（progesterone receptor, PgR）和人表皮生长因子受体2-neu（human epidermal growth factor receptor 2-neu, HER2）的表达。每个受体的曲线下面积（area under the curves, AUCs）使用独立测试数据集进行评估。结果：开发数据集和测试数据集分别包含1,448张图像（997张ER阳性、386张ER阴性，641张PgR阳性、695张PgR阴性，以及220张HER2富集型、1,109张非HER2富集型）和225张图像（176张ER阳性、40张ER阴性，101张PgR阳性、117张PgR阴性，以及53张HER2富集型、165张非HER2富集型）。测试数据集中ER阳性或阴性的AUC为0.67（0.58-0.76），PgR阳性或阴性的AUC为0.61（0.53-0.68），HER2富集型或非HER2富集型的AUC为0.75（0.68-0.82）。结论：基于深度学习的模型有效分类了乳腺X线摄影中的受体表达。将该模型应用于非侵入性方法预测乳腺癌分类，对患者具有附加价值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34994603/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34994603/",
+  "paper_page_path": "papers/pubmed/34994603/index.html"
+}

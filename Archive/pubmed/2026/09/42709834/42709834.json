@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "42709834",
+    "doi": "10.1371/journal.pgen.1012297",
+    "title": "Fission yeast RPA-TERT-Tpz1TPP1 complex promotes telomere extension and suppresses telomere recombination."
+  },
+  "content": {
+    "abstract": "Telomerase maintains chromosome ends by extending telomeric DNA, yet how recruited telomerase becomes productively engaged remains poorly understood. Recent studies found that Replication Protein A (RPA) contributes to telomerase stimulation through interaction with TERT in humans and with the TPP1 ortholog Est3 in budding yeast, suggesting a direct role in telomerase activation. Here, we provide genetic and structural modeling evidence for a RPA-Trt1TERT-Tpz1TPP1 ternary complex that promotes telomere extension while suppressing recombination in fission yeast. Guided by results from genetic screen, followed by AlphaFold3 modeling and systematic mutagenesis of RPA, Trt1, and Tpz1, we identify four key interfaces supporting telomerase function: Ssb1RPA1-Trt1, Ssb2RPA2-Trt1, Ssb2RPA2-Tpz1, and the TEL-patch-mediated Trt1-Tpz1 interaction. Notably, Tpz1-R81, previously assigned as the TEL patch, instead contacts Ssb2 in the complex. Epistasis and suppressor analyses indicate that the newly identified RPA-Trt1 and RPA-Tpz1 interfaces collaborate with the Trt1-Tpz1 interface to allow telomerase activation after recruitment. Furthermore, comparative analyses using AlphaFold3 suggest that these interactions are likely conserved in budding yeast and humans. Collectively, these findings support a model in which RPA serves as an essential component of the active telomerase complex, coordinating TERT and TPP1-like factors to enable productive telomerase engagement.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Schizosaccharomyces pombe Proteins/genetics/metabolism/chemistry",
+      "*Telomerase/genetics/metabolism/chemistry",
+      "*Schizosaccharomyces/genetics/metabolism",
+      "*Replication Protein A/genetics/metabolism/chemistry",
+      "*Telomere/genetics/metabolism",
+      "*Telomere-Binding Proteins/genetics/metabolism",
+      "*Recombination, Genetic",
+      "Shelterin Complex",
+      "Telomere Homeostasis/genetics",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moser, Bettina A",
+        "Points, Madeline",
+        "Agrawal, Sourav",
+        "Didier, Adam C",
+        "Mennie, Amanda K",
+        "Lim, Ci Ji",
+        "Xu, Yong-Jie",
+        "Nakamura, Toru M"
+      ],
+      "short_names": [
+        "Moser BA",
+        "Points M",
+        "Agrawal S",
+        "Didier AC",
+        "Mennie AK",
+        "Lim CJ",
+        "Xu YJ",
+        "Nakamura TM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1101-9757",
+        "ORCID: 0000-0001-9841-5279",
+        "ORCID: 0000-0003-1005-0573",
+        "ORCID: 0000-0003-3327-1926",
+        "ORCID: 0000-0002-5091-5247",
+        "ORCID: 0000-0001-5752-0814"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America.",
+        "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America.",
+        "Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America.",
+        "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America.",
+        "Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.",
+        "Department of Pharmacology and Toxicology, Boonshoft School of Medicine, Wright State University, Dayton, Ohio, United States of America.",
+        "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moser, Bettina A",
+        "short_name": "Moser BA",
+        "identifiers": [
+          "0000-0002-1101-9757"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America."
+        ]
+      },
+      {
+        "full_name": "Points, Madeline",
+        "short_name": "Points M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America."
+        ]
+      },
+      {
+        "full_name": "Agrawal, Sourav",
+        "short_name": "Agrawal S",
+        "identifiers": [
+          "0000-0001-9841-5279"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Didier, Adam C",
+        "short_name": "Didier AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mennie, Amanda K",
+        "short_name": "Mennie AK",
+        "identifiers": [
+          "0000-0003-1005-0573"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America."
+        ]
+      },
+      {
+        "full_name": "Lim, Ci Ji",
+        "short_name": "Lim CJ",
+        "identifiers": [
+          "0000-0003-3327-1926"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."
+        ]
+      },
+      {
+        "full_name": "Xu, Yong-Jie",
+        "short_name": "Xu YJ",
+        "identifiers": [
+          "0000-0002-5091-5247"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, Boonshoft School of Medicine, Wright State University, Dayton, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Nakamura, Toru M",
+        "short_name": "Nakamura TM",
+        "identifiers": [
+          "0000-0001-5752-0814"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, College of Medicine, University of Illinois Chicago, Chicago, Illinois, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS genetics"
+    ],
+    "journal_abbrev": [
+      "PLoS Genet"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/08 17:36",
+    "fetched_at": "2026-10-02 05:17:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42709834",
+      "42539071",
+      "25330395",
+      "25131669",
+      "24244195",
+      "24925530",
+      "26354422",
+      "35849625",
+      "24013504",
+      "27253066",
+      "41166495",
+      "26365187",
+      "24711392",
+      "20040595",
+      "31396577",
+      "17429064",
+      "29774234",
+      "18160711",
+      "39913192",
+      "31405990",
+      "19714219",
+      "29216371",
+      "18535244",
+      "26063574",
+      "29149597",
+      "26041456",
+      "28807855",
+      "29160296",
+      "18157152",
+      "36330920",
+      "23288360",
+      "22215813",
+      "23103865",
+      "27154402",
+      "27895115",
+      "9774280",
+      "19141478",
+      "37243596",
+      "22354040",
+      "25623306",
+      "12697806",
+      "36963832",
+      "25128433",
+      "16598261",
+      "29386102",
+      "41296594",
+      "29663033",
+      "42470513",
+      "31728577",
+      "19898524",
+      "37953281",
+      "26305931",
+      "34282008",
+      "20832719",
+      "17715303",
+      "29422664",
+      "38176734",
+      "15591066",
+      "25271372",
+      "34255844",
+      "29997179",
+      "22893708",
+      "36059259",
+      "22863003",
+      "31454352",
+      "35418675",
+      "26990647",
+      "14654689",
+      "35201900",
+      "19214192",
+      "23299958",
+      "12018857",
+      "27245259",
+      "12676088",
+      "17237767",
+      "14702040",
+      "20709788",
+      "22101932",
+      "38657142",
+      "24780581",
+      "42049898",
+      "23685356",
+      "25172512",
+      "22244753",
+      "25303777",
+      "28180297",
+      "21399625",
+      "30796050",
+      "17237768",
+      "23312805",
+      "27396482",
+      "38321948",
+      "39231615",
+      "26503784",
+      "40973456",
+      "33981033",
+      "22633956",
+      "18574244",
+      "14625676",
+      "12952894"
+    ],
+    "review": [
+      "42709834",
+      "29663033",
+      "31728577",
+      "19898524",
+      "20832719",
+      "23299958",
+      "27245259",
+      "24780581",
+      "22244753"
+    ],
+    "pmc": [
+      "13577582"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1012297",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42709834/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,69 +1,86 @@
 ## Review setup
-- **Input scope** Full manuscript (abstract only provided)
-- **Assessment boundary** Abstract only; no figures, tables, methods, or supplementary materials were supplied.
-- **Shared manuscript claim summary** The authors claim to have integrated multi-omics approaches (transcriptomics, proteomics, allele-specific analysis) to construct a regulatory network (SeedWatermelonNet, SWN) that explains the molecular architecture governing seed vigor in watermelon under controlled deterioration and priming. They identify specific biomarkers, hub genes, and transcription factors (DOF/ERF) mediating transcriptional reprogramming, and propose that maternal alleles dominate stored mRNA regulation.
-- **Visible evidence base** Abstract text only.
-- **Missing materials affecting confidence** Full manuscript, including all figures, tables, methods, supplementary data, and any experimental validation details (e.g., molecular docking, yeast one-hybrid, machine-learning models, network construction). Without these, the claims cannot be independently evaluated.
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a multi-omics framework integrating transcriptomics, proteomics, and allele-specific analyses to characterize seed vigor loss under controlled deterioration and its restoration by priming in watermelon. They report identification of two biomarkers, construction of a regulatory network (SeedWatermelonNet), and experimental validation of hub genes and transcription factor interactions, with implications for breeding and storage.
+- **Visible evidence base** Abstract text only; no experimental details, statistical parameters, sample sizes, or data visualizations
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, statistical analyses, and raw data availability
 
 ## Reviewer
-- **Overall assessment** The abstract presents an ambitious and potentially impactful multi-omics study on seed vigor in watermelon, a crop of agricultural significance. The integration of transcriptomic, proteomic, and allele-specific analyses to construct a regulatory network is conceptually strong. However, the abstract alone provides insufficient detail to assess the rigor of the experimental design, the validity of the computational models, or the strength of the experimental validation. Several claims appear to be based on correlative or indirect evidence, and the leap from network construction to functional validation is not clearly supported by the abstract.
-- **Who would be interested in the results, and why** Plant biologists, seed scientists, and agricultural researchers interested in seed longevity, priming mechanisms, and crop resilience. The identification of biomarkers and hub genes could have practical applications in seed quality assessment and breeding for climate-resilient crops.
-- **Major strengths** 1. Multi-omics integration (transcriptomics, proteomics, allele-specific analysis) is a comprehensive approach to dissect a complex trait. 2. The identification of specific biomarkers (cytochrome c oxidase, ribosomal protein) and hub genes (e.g., OHCU_decarbox, HSPs) provides testable hypotheses. 3. The focus on maternal allele dominance and promoter SNPs adds a novel layer of regulatory insight.
+- **Overall assessment** The abstract presents a broad and ambitious integrative study with potentially valuable translational outputs, including biomarkers and a regulatory network. However, the compressed format leaves many key claims underspecified and unverifiable. The causal chain from multi-omics correlation to experimental validation is asserted rather than demonstrated, and several statements lack quantitative or methodological support. The work is of interest to seed biology and crop science communities, but the current evidence base is insufficient to fully assess technical soundness or the strength of the central conclusions.
+- **Who would be interested in the results, and why** Seed biologists, plant physiologists, and crop improvement researchers would be interested in the mechanistic insights into seed vigor regulation and the proposed biomarkers for seed quality assessment. Breeders and seed technologists may find the priming-related resilience strategy and the regulatory network useful for precision breeding and storage optimization. The allele-specific and maternal bias findings could attract researchers studying genomic imprinting and transcriptional regulation in plants.
+- **Major strengths** The study integrates multiple omics layers, which is a powerful approach for dissecting complex traits. The identification of quantitative biomarkers and a regulatory network with experimental validation suggests translational potential. The focus on both deterioration and priming provides a dynamic view of seed vigor regulation. The inclusion of allele-specific transcriptional analysis adds a novel dimension to the study.
 - **Major Concerns**
-    - **Concern ID** R1-M1
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Experimental validation
-    - **Claim pointer** "Experimental validation confirmed the regulatory roles of these candidates, including physical interactions mediating seed-vigor transduction cascades and their predicted function as direct regulators of seed vigor via SWN."
-    - **Evidence pointer** Abstract; location not provided
-    - **Concern** The abstract states that experimental validation confirmed the regulatory roles of hub genes, but no details are provided on the nature of these experiments (e.g., knockout/knockdown, overexpression, or biochemical assays). The phrase "physical interactions mediating seed-vigor transduction cascades" suggests protein-protein or protein-DNA interactions, but the abstract does not specify which interactions were tested or how they were validated.
-    - **Why it matters** Without clear evidence of functional validation (e.g., mutant phenotypes, complementation, or direct binding assays), the claim that these genes are "direct regulators" of seed vigor remains speculative. The SWN model's predictive power is unsubstantiated if not tested experimentally.
-    - **Resolution test** Provide a detailed description of the validation experiments, including the specific genes tested, the methods used (e.g., CRISPR, RNAi, yeast two-hybrid, EMSA), and the quantitative results (e.g., germination rates, gene expression changes). Show that perturbation of these genes alters seed vigor in a predictable manner.
-    - **Concern ID** R1-M2
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Computational model validation
-    - **Claim pointer** "Machine-learning-based proteomic models and a regulatory network, SeedWatermelonNet (SWN), were constructed."
-    - **Evidence pointer** Abstract; location not provided
-    - **Concern** The abstract does not describe the machine-learning approach (e.g., algorithm, training/validation datasets, feature selection) or the network construction methodology (e.g., inference algorithm, confidence thresholds). No metrics of model performance (e.g., accuracy, precision, recall, cross-validation results) are provided.
-    - **Why it matters** Without these details, the reliability and generalizability of the SWN model cannot be assessed. Overfitting or biased training data could lead to false positive hub gene predictions.
-    - **Resolution test** Provide a clear description of the machine-learning pipeline, including data splitting, hyperparameter tuning, and performance metrics on held-out test data. For the network, report the number of nodes/edges, the inference method, and any validation against known interactions (e.g., from literature or databases).
-    - **Concern ID** R1-M3
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Causal inference
-    - **Claim pointer** "Maternal alleles dominated transcriptional regulation of stored mRNAs, with ageing reducing maternal-specific gene expression. Promoter SNPs in these genes implicated BPC and DOF transcription factors in maternal bias."
-    - **Evidence pointer** Abstract; location not provided
-    - **Concern** The abstract claims a causal link between promoter SNPs, transcription factor binding, and maternal bias in gene expression, but no evidence is presented for the functional impact of these SNPs (e.g., allele-specific expression assays, EMSA, or reporter assays). The implication of BPC and DOF factors is based on correlation or motif prediction, not direct validation.
-    - **Why it matters** Maternal bias in seed vigor is a novel and potentially important finding, but the mechanistic link to specific SNPs and transcription factors is weak without functional data. Overinterpretation of correlative data could mislead the field.
-    - **Resolution test** Provide allele-specific expression data (e.g., RNA-seq from reciprocal crosses) showing that SNPs in promoter regions correlate with differential expression. Include experimental validation (e.g., EMSA, ChIP-qPCR, or reporter assays) demonstrating that BPC and DOF factors bind these SNPs and affect transcription.
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Transcriptome analyses revealed that ageing upregulated oxidative-stress genes (e.g., cytochrome c oxidase) and suppressed translation machinery."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any statistical metrics, effect sizes, or thresholds used to define upregulation or suppression. It is unclear how many genes were differentially expressed, what fold-change and significance cutoffs were applied, and whether these changes were consistent across biological replicates.
+  - **Why it matters** Without these details, the reader cannot assess the robustness of the transcriptomic findings or determine whether the observed changes are biologically meaningful or within the range of technical noise.
+  - **Resolution test** Provide differential expression statistics, including adjusted p-values, fold-change thresholds, and validation of key gene expression changes by independent methods such as qRT-PCR.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "Molecular docking and yeast one-hybrid assays confirmed this interaction" and "Experimental validation confirmed the regulatory roles of these candidates, including physical interactions mediating seed-vigor transduction cascades."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that interactions were confirmed and regulatory roles validated, but no details are given on which specific candidates were tested, what controls were used, or what functional assays were performed. The phrase "physical interactions mediating seed-vigor transduction cascades" is vague and does not specify the nature of the interaction or the downstream phenotypic readout.
+  - **Why it matters** The claim of experimental validation is central to establishing causality beyond correlation. Without methodological detail, the reader cannot judge whether the validation is convincing or whether alternative explanations were excluded.
+  - **Resolution test** Describe the experimental design for each validation step, including constructs, controls, assay conditions, and quantitative results linking the candidate genes to seed vigor phenotypes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** "Machine-learning-based proteomic models and a regulatory network, SeedWatermelonNet (SWN), were constructed."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the machine-learning approach, the training and test datasets, the performance metrics, or the criteria for network construction. It is unclear whether the network is predictive, descriptive, or both, and whether it has been validated on independent data.
+  - **Why it matters** Machine-learning models and networks are only useful if their construction is transparent and their performance is quantified. Without this information, the claims of predictive power and network utility cannot be evaluated.
+  - **Resolution test** Provide details on the model architecture, feature selection, cross-validation strategy, performance metrics (e.g., accuracy, precision, recall), and network validation against independent datasets or experimental perturbations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support for biomarkers
+  - **Claim pointer** "Two biomarkers, Cla97C04G070560 (cytochrome c oxidase) and Cla97C03G062270 (ribosomal protein), were identified as quantitative predictors of germination decline."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims these genes are quantitative predictors, but no correlation coefficients, predictive accuracy values, or validation in independent cohorts are provided. It is unclear how robust the prediction is across different genetic backgrounds or environmental conditions.
+  - **Why it matters** Biomarker claims require quantitative evidence of predictive performance. Without such evidence, the practical utility of these biomarkers for seed quality assessment is not established.
+  - **Resolution test** Report correlation statistics between biomarker expression and germination parameters, cross-validation results, and testing in independent seed lots or varieties.
 - **Minor Comments**
-    - **Concern ID** R1-m1
-    - **Severity** Minor
-    - **Axis** Clarity
-    - **Affected element** Biomarker identification
-    - **Evidence pointer** Abstract; location not provided
-    - **Issue** The abstract states that two biomarkers (Cla97C04G070560 and Cla97C03G062270) were identified as "quantitative predictors of germination decline," but it is unclear whether these are predictive across all conditions (CD and priming) or only under specific treatments.
-    - **Required correction** Clarify the predictive range of these biomarkers (e.g., are they specific to ageing, or do they also predict priming recovery?). Provide the statistical model used (e.g., linear regression, ROC curve) and its performance.
-    - **Concern ID** R1-m2
-    - **Severity** Minor
-    - **Axis** Terminology
-    - **Affected element** "SeedWatermelonNet (SWN)"
-    - **Evidence pointer** Abstract; location not provided
-    - **Issue** The name "SeedWatermelonNet" is descriptive but may be confused with other network tools or databases. The abstract does not specify whether this is a static network or a dynamic model.
-    - **Required correction** Define the network type (e.g., co-expression, protein-protein interaction, or regulatory) and state whether it is condition-specific (e.g., ageing vs. priming) or a consensus network.
-    - **Concern ID** R1-m3
-    - **Severity** Minor
-    - **Axis** Reproducibility
-    - **Affected element** Machine-learning models
-    - **Evidence pointer** Abstract; location not provided
-    - **Issue** The abstract mentions "machine-learning-based proteomic models" but does not specify the software, code availability, or data repository.
-    - **Required correction** State whether the code and data (e.g., raw proteomics, transcriptomics) are publicly available (e.g., via GitHub, GEO, or PRIDE) to ensure reproducibility.
-- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental validation of hub genes), R1-M2 (computational model validation), R1-M3 (causal link between SNPs and maternal bias). These are blocking concerns because the core claims of the manuscript—direct regulators of seed vigor, a predictive network, and a mechanistic basis for maternal bias—are not supported by the abstract alone.
-- **Assessment against Nature-style criteria** 
-    - **Originality**: The multi-omics integration and focus on maternal allele dominance in seed vigor are novel, but the abstract does not clearly distinguish this work from existing seed vigor studies in other crops (e.g., Arabidopsis, rice). 
-    - **Scientific importance**: Seed vigor is a critical trait for agriculture, and the identification of biomarkers and regulatory hubs could have practical impact. However, the importance is diminished if the validation is weak.
-    - **Interdisciplinary readership**: The study bridges plant biology, computational biology, and agricultural science, which is appropriate for a broad audience. 
-    - **Technical soundness**: Cannot be assessed from the abstract alone. The lack of detail on experimental validation, model construction, and statistical methods raises concerns.
-    - **Readability for nonspecialists**: The abstract is well-written and accessible, with clear definitions of key terms (e.g., CD, priming, t50, AUC). However, the dense list of hub genes (e.g., OHCU_decarbox, RPL32) may be confusing without context.
-- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing framework, but the lack of supporting data for the core claims (functional validation, model performance, causal SNP effects) prevents a positive assessment. A full manuscript review is necessary, but based on the abstract alone, the case is not yet made.
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "seed-vigor transduction cascades" is not standard and is not defined in the abstract.
+  - **Required correction** Define the term or replace it with more standard language, such as "signaling pathways regulating seed vigor."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Maternal allele claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The statement "Maternal alleles dominated transcriptional regulation of stored mRNAs" lacks context on how this was determined and what proportion of genes showed maternal bias.
+  - **Required correction** Provide the proportion of genes with maternal bias, the statistical test used, and whether this bias was consistent across time points or treatments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** SNP and transcription factor claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The link between promoter SNPs and BPC/DOF transcription factors is stated without specifying how many SNPs were analyzed or whether the association was statistically significant.
+  - **Required correction** Report the number of SNPs, the significance threshold, and the functional evidence linking these SNPs to transcription factor binding.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to missing statistical detail, insufficient experimental validation description, and lack of model transparency, respectively. Without addressing these, the central claims of the study cannot be fully evaluated.
+- **Assessment against Nature-style criteria**  
+  Originality: The integrative multi-omics approach and the focus on both deterioration and priming are not entirely novel, but the allele-specific analysis and the specific regulatory network may offer new angles. The originality is moderate and cannot be fully assessed from the abstract.  
+  Scientific importance: Seed vigor is a relevant agricultural trait, and biomarkers for seed quality have practical value. The importance is potentially high, but the strength of the contribution depends on the robustness of the validation.  
+  Interdisciplinary readership: The work bridges plant molecular biology, genomics, and applied seed science, which could attract a broad readership. However, the abstract is written in a way that assumes familiarity with multiple omics techniques.  
+  Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and statistical reporting is a major limitation.  
+  Readability for nonspecialists: The abstract is dense and uses specialized terminology without sufficient context, which may limit accessibility for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the lack of methodological detail, statistical support, and transparent validation prevents a definitive assessment. The authors should provide the full manuscript and supplementary materials to allow a thorough evaluation.
+
+## Risk / unsupported claims
+- The claim that priming "restored" seed vigor under ageing conditions is not supported by quantitative germination data in the abstract.
+- The statement that DOF/ERF transcription factors mediate priming effects via cis-element recognition is asserted without showing the binding data or functional validation.
+- The claim that the identified hub genes "coordinate" multiple metabolic pathways is not supported by network statistics or functional enrichment analyses in the abstract.
+- The assertion that maternal alleles "dominated" transcriptional regulation is not quantified.
+- The claim that promoter SNPs "implicated" BPC and DOF transcription factors in maternal bias is not supported by statistical or functional evidence in the abstract.
+- The translational claim that the findings "advance precision breeding and storage practices" is speculative and not directly supported by the data presented.

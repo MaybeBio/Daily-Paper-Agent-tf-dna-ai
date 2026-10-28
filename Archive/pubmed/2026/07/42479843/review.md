@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that ZNF263, a KRAB domain-containing transcriptional repressor, silences MHC-I antigen presentation in prostate cancer by recruiting the NuRD complex to the STAT1 promoter. They further claim that hypoxia enhances this repression via phosphorylation-driven phase separation and O-GlcNAcylation at S662, that O-GlcNAcylation promotes PRKDC interaction to amplify phosphorylation, that ZNF263 loss augments IFN-gamma-induced MHC-I induction, that the drug Viroptic disrupts ZNF263-NuRD interaction and potentiates IFN-gamma antitumor immunity in vivo, and that high ZNF263 expression correlates with low MHC-I, scarce CD8+ T cells, and poor survival.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or data presentation are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, methods descriptions, statistical reporting, and any raw or processed data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism linking ZNF263, hypoxia, and MHC-I suppression in prostate cancer, with a translational angle via drug repurposing. However, the evidence base is entirely inaccessible from the abstract alone. Several claims are mechanistically complex and would require substantial experimental support to be convincing. The clinical correlation claim is broad and would need careful validation. At this stage, the case is not established from the provided material.
+- **Who would be interested in the results, and why** Tumor immunologists studying MHC-I regulation and immune evasion; prostate cancer researchers focused on immunotherapy resistance; investigators interested in KRAB domain proteins and transcriptional repression; drug repurposing groups targeting epigenetic or transcriptional regulators in cancer.
+- **Major strengths** The proposed mechanism is novel in linking ZNF263 to MHC-I regulation via STAT1. The integration of hypoxia, post-translational modifications, and phase separation adds mechanistic depth. The identification of a potential small molecule binder with in vivo activity provides a translational hook. The clinical correlation, if robust, would strengthen relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** ZNF263 silences MHC-I by recruiting NuRD to the STAT1 promoter, reducing STAT1 and MHC-I expression
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this as a finding but provides no experimental detail. It is unclear whether the recruitment of NuRD to the STAT1 promoter was demonstrated by chromatin immunoprecipitation, whether the reduction in STAT1 and MHC-I was shown at both RNA and protein levels, and whether the effect is direct or indirect.
+  - **Why it matters** This is the foundational claim of the entire manuscript. Without direct evidence of ZNF263 binding to the STAT1 promoter, NuRD recruitment, and functional consequences on STAT1 and MHC-I expression, the mechanistic model cannot be evaluated.
+  - **Resolution test** Provide chromatin immunoprecipitation sequencing or quantitative chromatin immunoprecipitation data for ZNF263 and NuRD subunits at the STAT1 promoter, with and without ZNF263 perturbation. Show messenger RNA and protein levels of STAT1 and MHC-I in ZNF263-depleted and overexpressing cells.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Hypoxia enhances repression through phosphorylation-driven phase separation and O-GlcNAcylation at S662
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims two distinct hypoxia-induced modifications with separate functional consequences. No data are shown for the phosphorylation site, the phase separation assay, the O-GlcNAcylation site mapping, or the effect of S662 mutation on promoter binding.
+  - **Why it matters** This is a central mechanistic layer that distinguishes the study from simpler repressor models. Without rigorous identification of the phosphorylation site, demonstration of phase separation in cells, and mutagenesis of S662, the claim is unsupported.
+  - **Resolution test** Identify the phosphorylation site by mass spectrometry, show phase separation by fluorescence recovery after photobleaching or similar assays under hypoxia, and demonstrate that S662 mutation abolishes O-GlcNAcylation and STAT1 promoter binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** O-GlcNAcylation promotes interaction with PRKDC, amplifying phosphorylation
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that O-GlcNAcylation promotes PRKDC interaction and that PRKDC amplifies phosphorylation, but the directionality and the specific phosphorylation target are unclear. It is not stated whether PRKDC phosphorylates ZNF263 or another substrate, nor whether this amplification is required for the hypoxia effect.
+  - **Why it matters** This adds another layer of complexity to the model. Without clarity on the substrate and the functional requirement, the claim cannot be assessed.
+  - **Resolution test** Show co-immunoprecipitation of ZNF263 and PRKDC dependent on O-GlcNAcylation, identify the phosphorylation site(s) affected by PRKDC, and demonstrate that PRKDC inhibition or knockdown blocks hypoxia-enhanced repression.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Viroptic disrupts ZNF263-NuRD, derepresses STAT1, and potentiates IFN-gamma antitumor immunity in vivo
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions in silico docking and in vivo activity but provides no details on the docking methodology, the binding affinity, the specificity of Viroptic for ZNF263, or the in vivo model used. The term "Kruppel-associated box (KRAB) pocket binder" is vague.
+  - **Why it matters** This is the translational claim with potential clinical relevance. Without evidence of specific binding, on-target activity, and a well-controlled in vivo experiment, the claim is premature.
+  - **Resolution test** Provide docking scores and validation by surface plasmon resonance or cellular thermal shift assay. Show that Viroptic treatment phenocopies ZNF263 loss in vitro and in vivo, with appropriate controls for off-target effects.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** High ZNF263 correlates with low MHC-I, scarce CD8+ T cells, and poor survival
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states a correlation but does not specify the cohort, the number of patients, the statistical method, or whether the correlation is adjusted for confounders such as tumor stage or grade.
+  - **Why it matters** Clinical correlations are often overinterpreted. Without details on cohort composition and statistical rigor, the claim cannot be evaluated.
+  - **Resolution test** Provide the cohort description, sample size, hazard ratios with confidence intervals, and multivariable analysis. Show representative immunohistochemistry images and quantitation for MHC-I and CD8.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Mechanistic model
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The relationship between phosphorylation, phase separation, and NuRD interaction is described in a single sentence, making it difficult to follow the sequence of events.
+  - **Required correction** Clarify the order of events and whether phase separation is a cause or consequence of NuRD interaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Drug description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "KRAB pocket binder" is not standard and may confuse readers.
+  - **Required correction** Define the binding site more precisely or use standard terminology for small molecule binding to KRAB domains.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** IFN-gamma efficacy
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that ZNF263 loss augments IFN-gamma-induced MHC-I induction but does not specify the experimental system or the magnitude of the effect.
+  - **Required correction** Provide the cell lines and the fold change in MHC-I expression upon IFN-gamma treatment with and without ZNF263 loss.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. All major claims require direct experimental evidence that is not visible in the abstract.
+- **Assessment against Nature-style criteria** Originality appears high, as the link between ZNF263 and MHC-I regulation is not widely reported. Scientific importance is potentially significant for prostate cancer immunotherapy. Interdisciplinary readership could include immunologists, cancer biologists, and epigeneticists. Technical soundness cannot be assessed from the abstract. Readability for nonspecialists is moderate, but the abstract is dense with mechanistic detail that may be challenging for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the experimental detail required to evaluate the claims. A full manuscript with rigorous data would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that ZNF263 recruits NuRD to the STAT1 promoter is unsupported without chromatin immunoprecipitation data.
+- The claim that hypoxia enhances repression via phosphorylation-driven phase separation is unsupported without phase separation assays and phosphorylation site identification.
+- The claim that O-GlcNAcylation at S662 aids STAT1 promoter binding is unsupported without mutagenesis and binding data.
+- The claim that O-GlcNAcylation promotes PRKDC interaction and amplifies phosphorylation is unsupported without co-immunoprecipitation and kinase assays.
+- The claim that Viroptic disrupts ZNF263-NuRD and potentiates IFN-gamma antitumor immunity in vivo is unsupported without binding validation and in vivo experimental details.
+- The clinical correlation claim is unsupported without cohort description and statistical analysis.

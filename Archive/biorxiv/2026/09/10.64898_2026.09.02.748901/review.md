@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods sections as provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided text. Figures and supplemental materials referenced but not fully available for independent verification.
+- **Shared manuscript claim summary** The authors generated a SOX2 DNA-binding mutant, SOX2(G76P), and demonstrated that despite impaired in vitro DNA binding, it retains biological activity, remodels the transcriptome differently from wild-type SOX2, associates with chromatin at non-SOX motifs (including AP-1 motifs), and fails to increase chromatin accessibility. They conclude that SOX2 target selection is not solely determined by its DNA-binding domain and that SOX2 can associate with chromatin indirectly via other chromatin-bound proteins.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative form), Discussion, Materials and Methods (partial), figure legends referenced but figures not provided, supplemental figure/table references
+- **Missing materials affecting confidence** Figures 1-8 and Supplemental Figures S1-S9 not provided; Supplemental Tables S1-S2 not provided; RNA-seq, ChIP-seq, ATAC-seq, and CUT&RUN raw data not accessible; detailed bioinformatics analysis parameters not fully described; statistical methods and thresholds not specified
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in transcription factor biology: whether SOX2 target specificity is determined solely by its DNA-binding domain. The authors present a compelling narrative using a well-designed DNA-binding mutant and multiple complementary genomic approaches. The central claim that SOX2 can associate with chromatin indirectly via a "piggyback" mechanism is plausible and potentially significant. However, the manuscript as provided has several critical gaps that prevent full evaluation. The absence of figures, detailed statistical analyses, and key methodological parameters makes it impossible to verify the robustness of the conclusions. The interpretation of ChIP-seq and CUT&RUN discrepancies, in particular, requires careful scrutiny. The claim that SOX2 itself associates indirectly with chromatin at non-SOX motifs is intriguing but requires stronger evidence to exclude alternative explanations, such as antibody cross-reactivity or indirect detection artifacts.
+- **Who would be interested in the results, and why** Researchers studying transcription factor biology, particularly SOX family factors, chromatin regulation, and gene regulatory mechanisms. The findings have implications for understanding how transcription factors achieve target specificity beyond their DNA-binding domains, which is relevant to developmental biology, stem cell biology, and cancer research. The potential "piggyback" mechanism for SOX2 chromatin association could inform therapeutic strategies targeting SOX2 in cancers where it is highly expressed.
+- **Major strengths** 1) The study addresses a fundamental and timely question about transcription factor target specificity. 2) The use of a subtle point mutation (G76P) rather than a large deletion is a thoughtful approach to disrupt DNA binding while preserving other protein regions. 3) The combination of transcriptomic (RNA-seq), chromatin occupancy (ChIP-seq), and chromatin accessibility (ATAC-seq) data provides a multi-dimensional view. 4) The inclusion of CUT&RUN as an orthogonal method to ChIP-seq is commendable. 5) The identification of AP-1 motif enrichment in SOX2(G76P)-associated regions is a specific and testable finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SOX2(G76P) associates with chromatin indirectly by a 'piggyback' mechanism through its association with other chromatin-associated proteins, including AP-1 complexes."
+  - **Evidence pointer** Results section "Association of SOX2 and SOX2(G76P) genome-wide"; Figures 2, 5, 6; Supplemental Figures S3, S7
+  - **Concern** The central conclusion that SOX2(G76P) associates with chromatin indirectly is inferred primarily from ChIP-seq data showing enrichment at non-SOX motifs and overlap with FRA1 peaks. However, the manuscript does not provide direct biochemical evidence for a physical interaction between SOX2(G76P) and AP-1 proteins or other chromatin-bound factors. The overlap with FRA1 ChIP-seq peaks from different cell lines (HCT116, MDA-MB-231) is suggestive but not definitive, as these are not matched cell lines and FRA1 occupancy may differ across cell types. The authors also do not rule out the possibility that SOX2(G76P) binds to DNA with altered sequence specificity or reduced affinity that is not captured by in vitro EMSA. The CUT&RUN results showing minimal enrichment for SOX2(G76P) are interpreted as evidence for indirect association, but this could also reflect technical limitations of CUT&RUN for detecting proteins that are part of large complexes or that crosslink inefficiently.
+  - **Why it matters** The "piggyback" mechanism is the central novel claim of the manuscript. If the evidence is not definitive, the conclusion is overstated. The distinction between direct DNA binding at non-SOX motifs and indirect association via protein-protein interactions has fundamental implications for understanding SOX2 function and for interpreting the large body of SOX2 ChIP-seq data in the literature.
+  - **Resolution test** Provide direct evidence for SOX2(G76P) interaction with AP-1 proteins (e.g., co-immunoprecipitation, proximity ligation assay, or in vitro pull-down). Alternatively, perform an in vitro DNA-binding assay with a broader range of DNA sequences to rule out altered sequence specificity. Additionally, perform CUT&RUN with a different antibody or with a tagged SOX2(G76P) construct to confirm the lack of direct DNA binding. If possible, perform ChIP-seq for FRA1 in the same ONS76 cell line to confirm co-occupancy in matched samples.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** "ChIP-seq analysis demonstrates that SOX2 and SOX2(G76P) associate primarily with different genomic loci."
+  - **Evidence pointer** Results section "Association of SOX2 and SOX2(G76P) genome-wide"; Figure 2; Supplemental Figure S3
+  - **Concern** The manuscript does not provide details on ChIP-seq quality control metrics, such as the number of peaks called, peak calling thresholds, reproducibility between replicates, or the fraction of reads in peaks (FRiP scores). The comparison between SOX2 and SOX2(G76P) occupancy relies on the assumption that the ChIP efficiency is comparable between the two proteins, but the G76P mutation could affect antibody recognition or chromatin extraction efficiency. The authors also do not report whether the SOX2 antibody used for ChIP-seq recognizes SOX2(G76P) with equal affinity. Without these controls, the differential occupancy patterns could reflect technical artifacts rather than biological differences.
+  - **Why it matters** The differential genomic localization of SOX2 versus SOX2(G76P) is foundational to the manuscript's conclusions. If the ChIP-seq comparison is not properly controlled, all downstream interpretations are compromised.
+  - **Resolution test** Provide detailed ChIP-seq quality metrics, including peak numbers, FRiP scores, and replicate concordance. Include a control experiment demonstrating equal antibody recognition of SOX2 and SOX2(G76P) (e.g., western blot with the ChIP antibody). Consider performing spike-in normalization to account for differences in total chromatin occupancy. Show that the differential peak calling is robust to different thresholds and analysis parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** "ATAC-seq analysis indicates that SOX2 substantially increases chromatin accessibility, but SOX2(G76P) does not."
+  - **Evidence pointer** Results section "Differential effects of SOX2 and SOX2(G76P) on chromatin accessibility"; Figure 3; Supplemental Figure S4
+  - **Concern** The ATAC-seq data are presented as supporting the conclusion that SOX2, but not SOX2(G76P), increases chromatin accessibility. However, the manuscript does not provide details on the number of ATAC-seq peaks, the magnitude of changes, statistical significance thresholds, or whether the observed differences are specific to SOX2-bound regions or reflect global changes. The comparison between SOX2 and SOX2(G76P) effects on accessibility is complicated by the different expression levels of the two proteins (the authors note different Dox concentrations were used). Without normalization for protein expression levels, the differential effects on accessibility could be due to different protein amounts rather than intrinsic functional differences.
+  - **Why it matters** The differential effect on chromatin accessibility is used to support the model that direct DNA binding is required for SOX2's pioneering activity. If this conclusion is based on an unfair comparison, the interpretation is weakened.
+  - **Resolution test** Provide detailed ATAC-seq statistics, including peak numbers, differential accessibility analysis, and effect sizes. Include a control experiment where SOX2 and SOX2(G76P) are expressed at comparable levels (e.g., by adjusting Dox concentration or using different induction times). Show that the accessibility changes are specific to regions bound by SOX2 and not a general effect of protein overexpression. Consider performing ATAC-seq at multiple time points to assess the kinetics of accessibility changes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigor
+  - **Claim pointer** "SOX2 not only associates with chromatin directly by binding to SOX motifs but can also associate with a subset of gene loci indirectly through its association with other chromatin-associated proteins."
+  - **Evidence pointer** Results section "SOX2 and SOX2(G76P) associate with a small subset of the same gene loci"; Figure 7; Supplemental Figure S7
+  - **Concern** The claim that wild-type SOX2 can associate indirectly with chromatin at non-SOX motifs is based on the observation that SOX2 and SOX2(G76P) share some genomic loci lacking SOX motifs. However, the authors do not provide a quantitative estimate of how many such loci exist, what fraction of total SOX2 occupancy they represent, or whether these loci are functionally relevant. The overlap with FRA1 peaks from other cell lines is suggestive but does not establish that SOX2 is physically associated with FRA1 at these loci. The authors also do not address the possibility that SOX2 might bind to degenerate SOX motifs that are not detected by their motif analysis.
+  - **Why it matters** This claim extends the "piggyback" mechanism to wild-type SOX2, which has broader implications for understanding SOX2 function. If the evidence is weak, the claim should be tempered.
+  - **Resolution test** Provide a quantitative analysis of the overlap between SOX2 and SOX2(G76P) peaks, including the number and proportion of shared loci lacking SOX motifs. Perform motif analysis with more permissive thresholds to rule out degenerate SOX motifs. Validate co-occupancy at specific loci using an independent method (e.g., ChIP-reChIP or sequential ChIP). Assess the functional relevance of these shared loci by examining expression changes of nearby genes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "It is widely assumed that SOX2 regulates gene expression and facilitates the opening of chromatin by binding directly at SOX motifs." This is presented as a straw man, as most researchers in the field would acknowledge that transcription factors can have both direct and indirect effects. The framing could be more nuanced.
+  - **Required correction** Revise to acknowledge the existing literature on indirect transcription factor effects while clarifying the specific gap this study addresses.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, "Site-directed Mutagenesis and Plasmid Production"
+  - **Evidence pointer** Methods section, first paragraph
+  - **Issue** The description of the site-directed mutagenesis is incomplete. The authors state a "modification of the QuikChange method" was used but do not specify the modification. The primer sequence is provided, but the PCR conditions, template amount, and cycling parameters are not described.
+  - **Required correction** Provide complete details of the mutagenesis protocol, including PCR conditions, template concentration, and verification of the mutation beyond sequencing (e.g., restriction digest to confirm the introduced PstI site).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Differential Effects of SOX2 and SOX2(G76P) on the transcriptome"
+  - **Evidence pointer** Results section, paragraph 2; Figure 1C
+  - **Issue** The authors report "over 2,700 genes were upregulated and over 2,300 genes were downregulated" by SOX2(G76P), but do not provide the corresponding numbers for SOX2 in this section. The comparison is incomplete without both datasets.
+  - **Required correction** Provide the number of differentially expressed genes for both SOX2 and SOX2(G76P) in the same section, along with the statistical thresholds used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "Association of SOX2 and SOX2(G76P) genome-wide"
+  - **Evidence pointer** Results section, paragraph 3; Figure 2
+  - **Issue** The manuscript does not report adjusted p-values or false discovery rates for the motif enrichment analysis. The statement that motifs are "statistically significant" is not supported by specific values.
+  - **Required correction** Report the statistical significance thresholds and adjusted p-values for motif enrichment analyses.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 3
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The authors state that "the differential effects on the expression of multiple genes illustrate that significant differences between SOX2 and SOX2(G76P) are not only evident at the genome level, but also at the single gene level." This is somewhat circular, as single-gene differences are the basis for genome-level differences.
+  - **Required correction** Rephrase to emphasize that the single-gene examples provide mechanistic insight into the genome-level differences, rather than presenting them as separate findings.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The introduction cites several references for SOX2's role in cancer and development but does not discuss the existing evidence for SOX2's indirect chromatin association or its interaction with AP-1 proteins. This context would strengthen the novelty claim.
+  - **Required correction** Add a brief discussion of prior work on SOX2 protein-protein interactions and any evidence for indirect chromatin association.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods, "CUT&RUN"
+  - **Evidence pointer** Methods section, CUT&RUN paragraph
+  - **Issue** The CUT&RUN protocol is described only by reference to previous work. Key parameters such as cell number, antibody concentration, digestion time, and library preparation method are not provided.
+  - **Required correction** Provide sufficient detail for the CUT&RUN protocol to be reproduced, or include a detailed protocol in the Supplemental Materials.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Results section "SOX2 and SOX2(G76P) behave differently in CUT&RUN"
+  - **Evidence pointer** Results section, paragraph 5; Figure 8
+  - **Issue** The authors interpret the lack of CUT&RUN enrichment for SOX2(G76P) as evidence for indirect chromatin association. However, CUT&RUN can fail to detect proteins that are part of large complexes due to steric hindrance of the MNase fusion protein. This alternative explanation is not discussed.
+  - **Required correction** Acknowledge the limitations of CUT&RUN for detecting proteins in large complexes and discuss how the ChIP-seq results mitigate this concern.
+
+## Risk / unsupported claims
+- The claim that SOX2(G76P) associates with chromatin "primarily, if not exclusively" indirectly is not fully supported by the provided evidence. The authors do not rule out direct binding at non-SOX motifs with altered specificity.
+- The claim that wild-type SOX2 associates indirectly with a subset of gene loci is based on indirect evidence (overlap with FRA1 peaks from other cell lines) and requires direct validation.
+- The statement that "the vast majority, if not all, of SOX2(G76P)-chromatin associations occur indirectly" is an overstatement given the lack of direct biochemical evidence for protein-protein interactions.
+- The differential effects of SOX2 and SOX2(G76P) on chromatin accessibility are presented without normalization for protein expression levels, making the comparison potentially confounded.
+- The biological significance of the shared SOX2/SOX2(G76P) loci lacking SOX motifs is not established, as no functional validation is provided.
+- The claim that SOX2's indirect association with chromatin has "not been previously recognized" is difficult to evaluate without a more thorough literature review in the manuscript.
+- The manuscript does not provide evidence that the G76P mutation specifically disrupts DNA binding without affecting other SOX2 functions, such as protein-protein interactions.

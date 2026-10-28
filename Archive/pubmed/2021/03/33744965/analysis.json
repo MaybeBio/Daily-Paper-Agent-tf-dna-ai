@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33744965",
+  "title": "Bound2Learn: a machine learning approach for classification of DNA-bound proteins from single-molecule tracking experiments.",
+  "authors": "Kapadia, Nitin; El-Hajj, Ziad W; Reyes-Lamothe, Rodrigo",
+  "journal": "Nucleic acids research",
+  "published_date": "2021-03-22",
+  "window": {
+    "start": "2021-03-22",
+    "end": "2021-03-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习对单分子追踪数据分类DNA结合蛋白，虽涉及蛋白-DNA互作动力学，但聚焦于实验轨迹分类而非TF-DNA结合位点预测或三维互作建模，方法可迁移但深度有限。",
+  "abstract": "DNA-bound proteins are essential elements for the maintenance, regulation, and use of the genome. The time they spend bound to DNA provides useful information on their stability within protein complexes and insight into the understanding of biological processes. Single-particle tracking allows for direct visualization of protein-DNA kinetics, however, identifying whether a molecule is bound to DNA can be non-trivial. Further complications arise when tracking molecules for extended durations in processes with slow kinetics. We developed a machine learning approach, termed Bound2Learn, using output from a widely used tracking software, to robustly classify tracks in order to accurately estimate residence times. We validated our approach in silico, and in live-cell data from Escherichia coli and Saccharomyces cerevisiae. Our method has the potential for broad utility and is applicable to other organisms.",
+  "abstract_zh": "DNA结合蛋白是基因组维持、调控和利用的关键要素。它们与DNA结合的时间提供了关于其在蛋白质复合物内稳定性的有用信息，并有助于理解生物过程。单粒子追踪能够直接可视化蛋白质-DNA动力学，然而，判断一个分子是否与DNA结合可能并非易事。在涉及缓慢动力学的过程中，长时间追踪分子会带来进一步复杂性。我们开发了一种名为Bound2Learn的机器学习方法，利用广泛使用的追踪软件的输出，对轨迹进行稳健分类，以准确估计停留时间。我们在计算机模拟以及来自大肠杆菌（Escherichia coli）和酿酒酵母（Saccharomyces cerevisiae）的活细胞数据中验证了我们的方法。我们的方法具有广泛适用性的潜力，并可应用于其他生物体。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33744965/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33744965/",
+  "paper_page_path": "papers/pubmed/33744965/index.html"
+}

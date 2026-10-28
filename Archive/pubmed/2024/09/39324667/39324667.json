@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "39324667",
+    "doi": "10.1002/pro.5182",
+    "title": "A contact-based analysis of local energetic frustration dynamics identifies key residues enabling RfaH fold-switch."
+  },
+  "content": {
+    "abstract": "Fold-switching enables metamorphic proteins to reversibly interconvert between two highly dissimilar native states to regulate their protein functions. While about 100 proteins have been identified to undergo fold-switching, unveiling the key residues behind this mechanism for each protein remains challenging. Reasoning that fold-switching in proteins is driven by dynamic changes in local energetic frustration, we combined fold-switching simulations generated using simplified structure-based models with frustration analysis to identify key residues involved in this process based on the change in the density of minimally frustrated contacts during refolding. Using this approach to analyze the fold-switch of the bacterial transcription factor RfaH, we identified 20 residues that significantly change their frustration during its fold-switch, some of which have been experimentally and computationally reported in previous works. Our approach, which we developed as an additional module for the FrustratometeR package, highlights the role of local frustration dynamics in protein fold-switching and offers a robust tool to enhance our understanding of other proteins with significant conformational shifts.",
+    "keywords": [
+      "local frustration",
+      "metamorphic proteins",
+      "molecular dynamics",
+      "protein folding"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli Proteins/chemistry/metabolism",
+      "*Protein Folding",
+      "Trans-Activators/chemistry/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "Peptide Elongation Factors/chemistry/metabolism",
+      "Models, Molecular",
+      "Protein Conformation",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gonzalez-Higueras, Jorge",
+        "Freiberger, Maria Ines",
+        "Galaz-Davison, Pablo",
+        "Parra, R Gonzalo",
+        "Ramirez-Sarmiento, Cesar A"
+      ],
+      "short_names": [
+        "Gonzalez-Higueras J",
+        "Freiberger MI",
+        "Galaz-Davison P",
+        "Parra RG",
+        "Ramirez-Sarmiento CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5634-1897",
+        "ORCID: 0000-0002-5856-3071",
+        "ORCID: 0000-0003-2446-016X",
+        "ORCID: 0000-0003-4647-903X"
+      ],
+      "affiliations": [
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Santiago, Chile.",
+        "ANID-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile.",
+        "Protein Physiology Laboratory, Departamento de Quimica Biologica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina.",
+        "Laboratoire de Biologie Computationnelle et Quantitative (LCQB), Sorbonne Universite, CNRS, IBPS, Paris, France.",
+        "Center for Bioinformatics, Simulation and Modeling (CBSM), Faculty of Engineering, Universidad de Talca, Talca, Chile.",
+        "Barcelona Supercomputing Center, Barcelona, Spain.",
+        "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Catolica de Chile, Santiago, Chile.",
+        "ANID-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "González-Higueras, Jorge",
+        "short_name": "González-Higueras J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile.",
+          "ANID-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Freiberger, María Inés",
+        "short_name": "Freiberger MI",
+        "identifiers": [
+          "0000-0002-5634-1897"
+        ],
+        "affiliations": [
+          "Protein Physiology Laboratory, Departamento de Química Biológica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina.",
+          "Laboratoire de Biologie Computationnelle et Quantitative (LCQB), Sorbonne Université, CNRS, IBPS, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Galaz-Davison, Pablo",
+        "short_name": "Galaz-Davison P",
+        "identifiers": [
+          "0000-0002-5856-3071"
+        ],
+        "affiliations": [
+          "Center for Bioinformatics, Simulation and Modeling (CBSM), Faculty of Engineering, Universidad de Talca, Talca, Chile."
+        ]
+      },
+      {
+        "full_name": "Parra, R Gonzalo",
+        "short_name": "Parra RG",
+        "identifiers": [
+          "0000-0003-2446-016X"
+        ],
+        "affiliations": [
+          "Barcelona Supercomputing Center, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Ramírez-Sarmiento, César A",
+        "short_name": "Ramírez-Sarmiento CA",
+        "identifiers": [
+          "0000-0003-4647-903X"
+        ],
+        "affiliations": [
+          "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile.",
+          "ANID-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/26 12:44",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "41889830",
+      "40522227",
+      "40273505",
+      "39975445",
+      "39801626",
+      "39756261"
+    ],
+    "refs": [
+      "39088556",
+      "38991035",
+      "38589445",
+      "38587198",
+      "38537533",
+      "38447049",
+      "38104123",
+      "37681096",
+      "37673981",
+      "37291449",
+      "36382197",
+      "35634782",
+      "35561475",
+      "35151633",
+      "34478435",
+      "33720293",
+      "33521926",
+      "32434931",
+      "31810657",
+      "30765513",
+      "30742024",
+      "29784778",
+      "29741479",
+      "29614221",
+      "29101782",
+      "28605514",
+      "27322406",
+      "27131359",
+      "27098223",
+      "26963394",
+      "26699500",
+      "26691182",
+      "26620784",
+      "26374226",
+      "26230837",
+      "26033324",
+      "25225856",
+      "25082896",
+      "23990324",
+      "23102260",
+      "22817892",
+      "22790780",
+      "22583310",
+      "22536820",
+      "22274922",
+      "20408171",
+      "20059117",
+      "19626713",
+      "18837035",
+      "18077414",
+      "17434131",
+      "17217965",
+      "15024386",
+      "12007406"
+    ],
+    "similar": [
+      "39324667",
+      "39400465",
+      "40522227",
+      "31810657",
+      "32996201",
+      "29323497",
+      "34478435",
+      "33176159",
+      "25483894",
+      "26230837",
+      "35634768",
+      "28605514",
+      "36255050",
+      "33521926",
+      "37681096",
+      "37991741",
+      "23990324",
+      "40366684",
+      "39088556",
+      "30537824",
+      "22817892",
+      "35438983",
+      "30742024",
+      "26033324",
+      "24758259",
+      "26374226",
+      "41483876",
+      "42567392",
+      "23131843",
+      "28945962",
+      "41074798",
+      "42120955",
+      "27555285",
+      "29741479",
+      "21777814",
+      "17012804",
+      "34197736",
+      "36382197",
+      "23609962",
+      "29066625",
+      "38587198",
+      "20226790",
+      "42310953",
+      "27131359",
+      "17434131",
+      "29887376",
+      "18077415",
+      "40911678",
+      "24123274",
+      "20143816",
+      "22019474",
+      "16292745",
+      "39875045",
+      "19096362",
+      "20132437",
+      "40990820",
+      "33720293",
+      "34845622",
+      "38537533",
+      "18671365",
+      "39117885",
+      "18708465",
+      "35230837",
+      "23638618",
+      "35670666",
+      "33550810",
+      "30765513",
+      "12622819",
+      "35029261",
+      "42149955",
+      "23095672",
+      "17711918",
+      "24163336",
+      "16469330",
+      "32931278",
+      "30277396",
+      "32434931",
+      "31498638",
+      "21273505",
+      "9080196",
+      "22645321",
+      "21341875",
+      "35561475",
+      "23912807",
+      "35163572",
+      "24089720",
+      "28559482",
+      "30069925",
+      "22093234",
+      "27556733",
+      "38776371",
+      "26158498",
+      "19926206",
+      "10660066",
+      "33109766",
+      "24275665",
+      "24498176",
+      "25159620",
+      "15268157",
+      "15503145"
+    ],
+    "review": [
+      "39324667",
+      "33176159",
+      "37681096",
+      "41483876",
+      "42567392",
+      "36382197",
+      "20143816",
+      "38537533",
+      "23638618",
+      "33550810",
+      "42149955"
+    ],
+    "pmc": [
+      "11425668"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG10839",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "rfaH"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39324667/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.5182",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.20.665785",
+  "title": "An NLP-inherited motif confers broad DNA-binding specificity to NIN in root nodule symbiosis",
+  "doi": "10.1101/2025.07.20.665785",
+  "abstract": "Nitrogen-fixing root nodule symbiosis (RNS) occurs in some eudicots, including legumes, and is regulated by the transcription factor NODULE INCEPTION (NIN), derived from the NIN-LIKE PROTEIN (NLP) family. However, how the NIN protein acquired RNS-specific functions remains unclear. We identify a previously undescribed motif in Lotus japonicus NIN, located downstream of the RWP-RK domain, which we term the FR. This motif broadens the DNA-binding specificity of NIN by stabilizing the RWP-RK dimer interface. nin mutants lacking the FR motif show defective nodulation and impaired nitrogen fixation. Arabidopsis NLP2 carries a NIN-type FR and shares key features with NIN. Furthermore, the NIN-type FR likely originated as early as gymnosperms, suggesting that the molecular feature of NIN for RNS regulation was inherited from ancestral NLPs before RNS emerged.",
+  "authors": [
+    "Shohei Nosaki",
+    "Momona Noda",
+    "Hiroki Onoda",
+    "Momoyo Ito",
+    "Takuya Suzaki"
+  ],
+  "published_date": "2025-07-23",
+  "updated_date": "2025-07-24T05:55:12Z",
+  "journal": "bioRxiv",
+  "category": "Plant Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.20.665785",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.20.665785.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Plant Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Plant Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T00:28:01Z",
+        "timestamp": 1768523281045,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            23
+          ]
+        ]
+      },
+      "group-title": "Plant Biology",
+      "reference-count": 67,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                23
+              ]
+            ],
+            "date-time": "2025-07-23T00:00:00Z",
+            "timestamp": 1753228800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001691",
+          "name": "Japan Society for the Promotion of Science",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JP22K14824"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP22K14824"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001691",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001691",
+          "name": "Japan Society for the Promotion of Science",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JP24K01677"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP24K01677"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001691",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001691",
+          "name": "Japan Society for the Promotion of Science",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JP20H05908"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP20H05908"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001691",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001691",
+          "name": "Japan Society for the Promotion of Science",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JP23K27188"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP23K27188"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001691",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001691",
+          "name": "Japan Society for the Promotion of Science",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JP25H01345"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP25H01345"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001691",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002241",
+          "name": "Japan Science and Technology Agency",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JPMJMI20E4"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JPMJMI20E4"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002241",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002241",
+          "name": "Japan Science and Technology Agency",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JPMJAX21BL"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JPMJAX21BL"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002241",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002241",
+          "name": "Japan Science and Technology Agency",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JPMJSP2124"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JPMJSP2124"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002241",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002241",
+          "name": "Japan Science and Technology Agency",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "JPMJAN23D2"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JPMJAN23D2"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002241",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Nitrogen-fixing root nodule symbiosis (RNS) occurs in some eudicots, including legumes, and is regulated by the transcription factor NODULE INCEPTION (NIN), derived from the NIN-LIKE PROTEIN (NLP) family. However, how the NIN protein acquired RNS-specific functions remains unclear. We identify a previously undescribed motif in\n                  <jats:italic>Lotus japonicus</jats:italic>\n                  NIN, located downstream of the RWP-RK domain, which we term the FR. This motif broadens the DNA-binding specificity of NIN by stabilizing the RWP-RK dimer interface.\n                  <jats:italic>nin</jats:italic>\n                  mutants lacking the FR motif show defective nodulation and impaired nitrogen fixation.\n                  <jats:italic>Arabidopsis</jats:italic>\n                  NLP2 carries a NIN-type FR and shares key features with NIN. Furthermore, the NIN-type FR likely originated as early as gymnosperms, suggesting that the molecular feature of NIN for RNS regulation was inherited from ancestral NLPs before RNS emerged.\n                </jats:p>",
+      "DOI": "10.1101/2025.07.20.665785",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2025-07-24T05:55:12Z",
+        "timestamp": 1753336512000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "An NLP-inherited motif confers broad DNA-binding specificity to NIN in root nodule symbiosis"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8493-1299",
+          "authenticated-orcid": false,
+          "given": "Shohei",
+          "family": "Nosaki",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-6498-1145",
+          "authenticated-orcid": false,
+          "given": "Momona",
+          "family": "Noda",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5031-4919",
+          "authenticated-orcid": false,
+          "given": "Hiroki",
+          "family": "Onoda",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2704-9034",
+          "authenticated-orcid": false,
+          "given": "Momoyo",
+          "family": "Ito",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9646-0279",
+          "authenticated-orcid": false,
+          "given": "Takuya",
+          "family": "Suzaki",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1360-1385(02)02356-7"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.19.00279"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/46058"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1003352"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Kawaharada , M. W. Nielsen , S. Kelly , E. K. James , K. R. Andersen , S. R. Rasmussen , et al., Differential regulation of the Epr3 receptor coordinates membrane-restricted rhizobial colonization of root nodule primordia. Nat. Commun. 8, 14534 (2017).",
+          "DOI": "10.1038/ncomms14534"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1010621"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.7",
+          "unstructured": "M. Griesmann , Y. Chang , X. Liu , Y. Song , G. Haberer , M. B. Crook , B., et al., Phylogenomics reveals multiple losses of nitrogen-fixing root nodule symbiosis. Science 361, eaat1743 (2018)."
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1721395115"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abg2804"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00239-004-0144-2"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "777",
+          "DOI": "10.3390/genes11070777",
+          "article-title": "Evolution of NIN and NIN-like genes in relation to nodule symbiosis",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Genes"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add1104"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/psb.25975"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/plcell/koab103"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/nph.16386"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/nph.13506"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.19.00509"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.084079"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abg5945"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/nph.17215"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.106.093021"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04862"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1094/MPMI-05-11-0142"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.113.233379"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Nishida , S. Tanaka , Y. Handa , M. Ito , Y. Sakamoto , S. Matsunaga , et al., A NIN-LIKE PROTEIN mediates nitrate-induced control of root nodule symbiosis in Lotus japonicus . Nat. Commun. 9, 499 (2018).",
+          "DOI": "10.1038/s41467-018-02831-x"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms2650"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/plcell/koad025"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Konishi , S. Yanagisawa , The role of protein-protein interactions mediated by the PB1 domain of NLP transcription factors in nitrate-inducible gene expression. BMC Plant Biol. 19, 90 (2019).",
+          "DOI": "10.1186/s12870-019-1692-3"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chom.2014.01.011"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.18.00478"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.03.28.486070"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1412716111"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-019-03164-8"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "100671",
+          "DOI": "10.1016/j.xplc.2023.100671",
+          "article-title": "Comparative phylogenomics and phylotranscriptomics provide insights into the genetic complexity of nitrogen-fixing root-nodule symbiosis",
+          "volume": "5",
+          "year": "2024",
+          "journal-title": "Plant Commun"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msy096"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/MOLBEV/MSZ312"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/oxfordjournals.molbev.a040454"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2408678"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "E. Zuckerkandl , L. Pauling , “Evolutionary divergence and convergence in proteins.” In Evolving Genes and Proteins, (Academic Press, 1965), pp. 97–166.",
+          "DOI": "10.1016/B978-1-4832-2734-4.50017-6"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/MOLBEV/MSAB120"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msaa015"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.42",
+          "first-page": "3.13.11",
+          "article-title": "Clustal Omega",
+          "volume": "48",
+          "year": "2014",
+          "journal-title": "Curr. Protoc. Bioinform"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/15.4.305"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1844",
+          "DOI": "10.1093/plcell/koac046",
+          "article-title": "Nitrate transport via NRT2.1 mediates NIN-LIKE PROTEIN-dependent suppression of root nodulation in Lotus japonicus",
+          "volume": "34",
+          "year": "2022",
+          "journal-title": "Plant Cell"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41592-022-01488-1"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.48",
+          "unstructured": "L. Schrodinger , The pymol molecular graphics system, version 2.5. (2015)."
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.50",
+          "unstructured": "K. J. Bowers , D. E. Chow , H. Xu , R. O. Dror , M. P. Eastwood , B. A. Gregersen , et al. , in SC’06: Proceedings of the 2006 ACM/IEEE Conference on Supercomputing . (IEEE, 2006), pp. 43–43."
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct200133y"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1142824"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja9621760"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0021-9991(77)90098-5"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.463940"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.57",
+          "first-page": "1117",
+          "article-title": "Explicit reversible integrators for extended systems dynamics. Molec",
+          "volume": "87",
+          "year": "1996",
+          "journal-title": "Phys"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.463137"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/PL00013961"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/bj1251075"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Ito , Y. Tajima , M. Ogawa-Ohnishi , H. Nishida , S. Nosaki , M. Noda , N., et al., IMA peptides regulate root nodulation and nitrogen homeostasis by providing iron according to internal nitrogen status. Nat. Commun. 15, 733 (2024).",
+          "DOI": "10.1038/s41467-024-44865-4"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molp.2017.01.003"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "5192",
+          "DOI": "10.1038/s41467-020-19037-9",
+          "article-title": "MIR2111-5 locus and shoot-accumulated mature miR2111 systemically enhance nodulation depending on HAR1 in Lotus japonicus",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.64",
+          "first-page": "e795",
+          "article-title": "Hairy root transformation",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Lotus japonicus. Bio-protoc"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0201-4"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3122"
+        },
+        {
+          "key": "2025072518051278000_2025.07.20.665785v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp616"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.20.665785",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:11:11Z",
+        "timestamp": 1768468271000
+      },
+      "score": 123.42098,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.20.665785"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            23
+          ]
+        ]
+      },
+      "references-count": 67,
+      "URL": "https://doi.org/10.1101/2025.07.20.665785",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

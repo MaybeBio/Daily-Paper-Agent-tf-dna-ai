@@ -1,0 +1,204 @@
+{
+  "identity": {
+    "pmid": "38236675",
+    "doi": "10.1109/JBHI.2024.3355758",
+    "title": "TBCA: Prediction of transcription factor binding sites using a deep neural network with lightweight attention mechanism."
+  },
+  "content": {
+    "abstract": "The identification of transcription factor binding sites (TFBSs) is crucial for understanding the regulatory mechanisms of gene expression, which contributes to unraveling cellular functions and disease development. Currently, the most common approach involves the use of deep learning techniques to predict TFBSs by combining sequence and shape features. Although significant progress has been made with these methods, the integration of local features extracted from DNA sequences and shapes with global features has not yet reached a sufficient level, and there is still significant room for improvement in the accuracy of prediction results. In this paper, we propose a novel framework based on convolution and attention mechanisms, referred to as TBCA, which combines DNA sequence information and shape information for predicting transcription factor binding sites. In this work, we employ a two-layer convolutional neural network (CNNs) and self-attention mechanism to extract complex sequence features from DNA. What's more, we utilize a Fourier-transform-enhanced multi-head attention along with channel attention to extract high-order shape features of DNA. Finally, these high-order sequence and shape features are integrated into the channel dimension to achieve accurate TFBSs prediction. Our research results demonstrate that TBCA exhibits superior predictive performance in 165 validated ChIP-seq datasets. Furthermore, the employed attention mechanisms can automatically learn important features at different positions and scales, enhancing the accuracy and robustness of feature representation. We also conduct an in-depth analysis of the contributions of five different shapes to site prediction, revealing that shape features can enhance the prediction of transcription factor DNA binding.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xun",
+        "Qiao, Lian",
+        "Qu, Peng",
+        "Yang, Qing"
+      ],
+      "short_names": [
+        "Wang X",
+        "Qiao L",
+        "Qu P",
+        "Yang Q"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xun",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Qiao, Lian",
+        "short_name": "Qiao L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Qu, Peng",
+        "short_name": "Qu P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yang, Qing",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of biomedical and health informatics"
+    ],
+    "journal_abbrev": [
+      "IEEE J Biomed Health Inform"
+    ],
+    "pub_date": "2024 Jan 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/18 18:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "41799016",
+      "40265190"
+    ],
+    "refs": [],
+    "similar": [
+      "38236675",
+      "37328639",
+      "34929739",
+      "36748992",
+      "39350338",
+      "34752400",
+      "34664074",
+      "33767912",
+      "36155619",
+      "34073774",
+      "31634140",
+      "38733561",
+      "36049552",
+      "34272562",
+      "34882561",
+      "38873109",
+      "29081688",
+      "33837387",
+      "33522898",
+      "36935548",
+      "30835229",
+      "34571539",
+      "31714956",
+      "35471889",
+      "29970003",
+      "28245811",
+      "37723425",
+      "35872410",
+      "36860882",
+      "31208331",
+      "36374878",
+      "35671654",
+      "37919990",
+      "37598467",
+      "30705340",
+      "35676633",
+      "34613923",
+      "36303466",
+      "29722865",
+      "37633938",
+      "37920059",
+      "31058812",
+      "35494849",
+      "36849908",
+      "36094959",
+      "34320631",
+      "36804213",
+      "32608476",
+      "33588019",
+      "33522829",
+      "37238553",
+      "37807013",
+      "38903752",
+      "38362268",
+      "35891778",
+      "32778871",
+      "36403092",
+      "35685005",
+      "37922717",
+      "36088549",
+      "31513916",
+      "35768792",
+      "35190950",
+      "37690317",
+      "35066812",
+      "30419785",
+      "22334039",
+      "36719781",
+      "37679116",
+      "35144197",
+      "37782584",
+      "37815964",
+      "37021890",
+      "30808287",
+      "36360220",
+      "37215722",
+      "36166165",
+      "31130990",
+      "38293094",
+      "36791547",
+      "36067103",
+      "32373597",
+      "32432096",
+      "28952940",
+      "37190414",
+      "37254080",
+      "23771139",
+      "38303422",
+      "36495750",
+      "36236431",
+      "32770026",
+      "35421793",
+      "32980530",
+      "19403457",
+      "27546793",
+      "35719916",
+      "38596312",
+      "38691895",
+      "38182076",
+      "39245319",
+      "37030842",
+      "32905524",
+      "32551184"
+    ],
+    "review": [
+      "38236675",
+      "29081688"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1109/JBHI.2024.3355758",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

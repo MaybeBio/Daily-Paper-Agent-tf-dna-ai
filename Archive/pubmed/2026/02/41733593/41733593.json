@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "41733593",
+    "doi": "10.1002/brb3.71279",
+    "title": "Screening Biomarkers for Nerve Injury Using Weighted Gene Co-Expression Network Analysis and Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Nerve injury triggers complex molecular responses involving immune activation and neuronal damage, yet the key regulatory genes and their mechanisms remain poorly understood. Here, we integrated multi-transcriptomic datasets and machine learning to identify and validate novel biomarkers of nerve injury and elucidate their functional roles. METHODS: The RNA-seq data and the single-cell transcriptome data of nerve injury and sham-surgery samples were sourced from the Gene Expression Omnibus (GEO) database. Weighted gene co-expression network analysis (WGCNA), differential expression analysis, and three machine learning algorithms were used to identify hub genes associated with nerve injury. The expression patterns and diagnostic value of these hub genes were validated in independent datasets. The correlation between these genes and immune cell infiltration was analyzed using the CIBERSORT algorithm. Finally, single-cell RNA sequencing (scRNA-seq) data were used to investigate the cell-specific expression patterns of the hub genes in neural cells. RESULTS: Seven nerve injury-related genes were identified via WGCNA and three machine learning methods, of which Atf3, Bin2, Fcgr2b, and Ucn exhibited robust diagnostic performance (AUC > 0.7) across validation cohorts. Functional enrichment implicated these genes in neuroinflammation, neuronal fate commitment, and JAK-STAT/NF-kappaB signaling. Immune infiltration analysis correlated their expression with M2 macrophage polarization and CD4+ T cell depletion, while scRNA-seq highlighted cell-specific patterns: Atf3 and Ucn were neuron-enriched, whereas Fcgr2b and Bin2 predominated in macrophages/NK cells. Moreover, Fcgr2b promoted the outgrowth of neurites in PC12 cells. CONCLUSION: Our study unveils Atf3, Bin2, Fcgr2b, and Ucn as critical nerve injury biomarkers with dual roles in neuroimmune crosstalk, offering novel insights into therapeutic targeting for nerve repair. Moreover, Fcgr2b may be involved in neurite outgrowth after nerve injury.",
+    "keywords": [
+      "biomarker",
+      "immune infiltration",
+      "nerve injury",
+      "nerve regeneration",
+      "neuroinflammation",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Animals",
+      "Biomarkers/metabolism",
+      "*Peripheral Nerve Injuries/genetics/metabolism/diagnosis",
+      "*Gene Regulatory Networks",
+      "Receptors, IgG/genetics/metabolism",
+      "Activating Transcription Factor 3/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Single-Cell Gene Expression Analysis",
+      "Humans",
+      "Tumor Suppressor Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Shuming",
+        "Yu, Chengyue",
+        "Wang, Nana",
+        "Xu, Jianhua",
+        "Xu, Weiguo"
+      ],
+      "short_names": [
+        "Cao S",
+        "Yu C",
+        "Wang N",
+        "Xu J",
+        "Xu W"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-9986-6754",
+        "ORCID: 0000-0003-0386-7753"
+      ],
+      "affiliations": [
+        "Clinical School/College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+        "Department of Hand Surgery, Tianjin Hospital, Tianjin, China.",
+        "Tianjin University Tianjin Hospital, Tianjin, China.",
+        "Department of General Internal Medicine, Tianjin Hospital, Tianjin, China.",
+        "Department of Hand Surgery, Tianjin Hospital, Tianjin, China.",
+        "Clinical School/College of Orthopedics, Tianjin Medical University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Shuming",
+        "short_name": "Cao S",
+        "identifiers": [
+          "0009-0002-9986-6754"
+        ],
+        "affiliations": [
+          "Clinical School/College of Orthopedics, Tianjin Medical University, Tianjin, China.",
+          "Department of Hand Surgery, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chengyue",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Nana",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Internal Medicine, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jianhua",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hand Surgery, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Weiguo",
+        "short_name": "Xu W",
+        "identifiers": [
+          "0000-0003-0386-7753"
+        ],
+        "affiliations": [
+          "Clinical School/College of Orthopedics, Tianjin Medical University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain and behavior"
+    ],
+    "journal_abbrev": [
+      "Brain Behav"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/24 18:46",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [
+      "42418064",
+      "42193417"
+    ],
+    "refs": [
+      "40309875",
+      "40247394",
+      "40217653",
+      "40164438",
+      "40075143",
+      "39939792",
+      "39820760",
+      "39811315",
+      "39528810",
+      "39383132",
+      "39232158",
+      "39152163",
+      "38831698",
+      "38803647",
+      "38790310",
+      "38595290",
+      "37713871",
+      "37162617",
+      "36856750",
+      "36849720",
+      "36289253",
+      "36070242",
+      "35563354",
+      "35440489",
+      "35350379",
+      "35259827",
+      "35055104",
+      "34843075",
+      "33820818",
+      "33136445",
+      "33066029",
+      "32123299",
+      "31894346",
+      "31892850",
+      "31535635",
+      "31528058",
+      "31249636",
+      "30967837",
+      "25822800",
+      "25605792",
+      "25415508",
+      "23613214",
+      "22455463",
+      "21878125",
+      "20414206",
+      "19321792",
+      "19261857",
+      "19114008"
+    ],
+    "similar": [
+      "41733593",
+      "41388523",
+      "42123445",
+      "41107929",
+      "42292364",
+      "41052072",
+      "42158856",
+      "41436831",
+      "42024670",
+      "39923303",
+      "40350654",
+      "41601671",
+      "42305536",
+      "42391245",
+      "41432483",
+      "40503237",
+      "39478056",
+      "42154423",
+      "42233387",
+      "41703488",
+      "41878449",
+      "41840566",
+      "39799354",
+      "42195052",
+      "41013556",
+      "41479901",
+      "40612944",
+      "41756296",
+      "40766309",
+      "40742465",
+      "42327749",
+      "42074521",
+      "42059276",
+      "41080564",
+      "40532306",
+      "42265520",
+      "41459671",
+      "41810912",
+      "42569390",
+      "41826854",
+      "42123756",
+      "41009952",
+      "41816342",
+      "41200169",
+      "41291841",
+      "42236612",
+      "42015036",
+      "41665627",
+      "41789070",
+      "38690269",
+      "40097519",
+      "40207230",
+      "39697326",
+      "41924281",
+      "41013727",
+      "40892227",
+      "38711508",
+      "41591671",
+      "42404897",
+      "39026663",
+      "38873611",
+      "40328901",
+      "41601657",
+      "41221285",
+      "41100952",
+      "41716396",
+      "40948769",
+      "42194960",
+      "40967560",
+      "40751069",
+      "39512836",
+      "39142001",
+      "41424060",
+      "40406620",
+      "41656832",
+      "42266688",
+      "42309401",
+      "42536689",
+      "42120472",
+      "38863714",
+      "40276515",
+      "42088521",
+      "39893187",
+      "40124361",
+      "40836320",
+      "39139563",
+      "40914702",
+      "41299729",
+      "39067546",
+      "40406126",
+      "41913032",
+      "40421012",
+      "40147738",
+      "40977739",
+      "42074514",
+      "41570454",
+      "40973872",
+      "40677720",
+      "42040898",
+      "40405297"
+    ],
+    "review": [
+      "41733593",
+      "41665627"
+    ],
+    "pmc": [
+      "12931491"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/peripheralnervedisorders.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Peripheral Nerve Disorders"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41733593/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/brb3.71279",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1183",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

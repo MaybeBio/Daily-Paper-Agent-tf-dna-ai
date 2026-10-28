@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific validity, technical soundness, and support for claims based solely on the provided manuscript text. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors identify a direct, conserved interaction between the meiotic helicase Mer3 (HFM1 in humans) and replication protein A (RPA), map the interface to a C-terminal helix of Mer3 and the N-OB domain of Rfa1, and demonstrate that this interaction stimulates Mer3 helicase processivity under low DNA tension, which is required for normal crossover formation in budding yeast meiosis.
+- **Visible evidence base** Co-immunoprecipitation, yeast two-hybrid, pulldown assays, cross-linking mass spectrometry, AlphaFold2 structural modelling, isothermal titration calorimetry, single-molecule magnetic tweezers, spore viability assays, genetic recombination assays, ChIP-seq and ChIP-qPCR.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (e.g., Supplementary Figs. 1-12, Supplementary Tables 1-5) were not provided. Source data files were not available. Statistical details for several experiments (e.g., exact p-values, replicates for ChIP-seq) are incomplete in the text. Full methods for magnetic tweezers data analysis and ChIP-seq spike-in normalization are only partially described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-integrated set of findings that identify a novel direct interaction between Mer3 and RPA, with mechanistic and functional implications for meiotic crossover control. The combination of structural prediction, biochemical validation, single-molecule biophysics, and in vivo genetics is impressive and generally supports the central claims. However, several technical concerns and missing details temper full confidence, particularly regarding the quantitative affinity measurements, the interpretation of the single-molecule processivity data, and the mechanistic link between reduced processivity and the observed crossover defects.
+- **Who would be interested in the results, and why** Researchers in meiosis and recombination, DNA repair, helicase enzymology, and single-molecule biophysics. The conserved interaction with human HFM1 also makes this relevant to clinicians studying premature ovarian insufficiency and azoospermia, and to cancer biologists given the reported HFM1 mis-expression in tumors.
+- **Major strengths** 1) Identification of a previously unknown direct Mer3-RPA interaction with strong orthogonal validation (Y2H, pulldown, XL-MS, ITC, mutagenesis). 2) The single-molecule magnetic tweezers approach provides direct mechanistic insight into processivity modulation, a significant advance over bulk assays. 3) The in vivo phenotypic analysis links the biochemical defect to meiotic outcomes, including reduced spore viability, altered crossover frequency, and accumulation of joint molecules. 4) The conservation of the interaction across species, including human HFM1, broadens the significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of quantitative binding data
+  - **Claim pointer** The authors claim a specific, high-affinity interaction between the Mer3 C-terminal helix and the Rfa1 N-OB domain, supported by ITC with a Kd of 17.4 ± 4.35 µM for the wild-type peptide and no detectable binding for the 8A mutant.
+  - **Evidence pointer** Figure 2h, Methods (ITC section)
+  - **Concern** The ITC data are presented as a single representative experiment with a Kd in the micromolar range. This affinity is relatively weak for a specific protein-protein interaction and raises questions about its physiological relevance, especially given that the full-length Mer3-RPA interaction may involve multiple contacts. The lack of replicate ITC runs, error analysis beyond the fit, and a clear demonstration that the peptide is folded and monomeric under the experimental conditions weakens the quantitative claim. Furthermore, the pulldown data (Fig. 2f, g) show only a ~2-fold loss of binding for the 8A mutant, which is inconsistent with the complete loss of binding observed by ITC for the isolated peptide. This discrepancy needs reconciliation.
+  - **Why it matters** The Kd value and the magnitude of the mutant effect are central to the claim that this specific interface is the primary mediator of the Mer3-RPA interaction. If the affinity is as weak as measured, the physiological relevance of this interaction under competitive cellular conditions is questionable. The inconsistency between ITC and pulldown data undermines confidence in the quantitative model.
+  - **Resolution test** Provide replicate ITC experiments with full thermodynamic parameters, demonstrate peptide purity and monodispersity, and directly compare binding affinities of full-length Mer3 and Mer3-8A for RPA using a solution-based method (e.g., MST or SPR). Address the discrepancy between the ~2-fold effect in pulldowns and the complete loss in ITC.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of single-molecule processivity data
+  - **Claim pointer** The authors claim that RPA directly stimulates Mer3 processivity under low DNA tension, and that this is dependent on the Mer3-RPA interaction, as the Mer3-8A mutant does not benefit from RPA.
+  - **Evidence pointer** Figure 3f, Figure 4d, Methods (Magnetic tweezers assay)
+  - **Concern** The processivity data show a significant difference between Mer3-WT and Mer3-8A only at 10 pN, with no significant differences at other forces tested. The bimodal distribution at 10 pN is intriguing but the biological basis for this bimodality is not explained. More critically, the claim that RPA stimulates processivity "under conditions of low DNA tension" is based on a narrow force window. The authors need to more thoroughly characterize the force-dependence of the RPA effect and demonstrate that the effect is specific to the Mer3-RPA interaction rather than a general effect of RPA on DNA structure or stability. The increased pausing events in the presence of RPA (Fig. 4a, b) are mentioned but not quantified; this could indicate a different mechanism, such as RPA-induced stalling rather than processivity enhancement.
+  - **Why it matters** The single-molecule data are the primary evidence for the mechanistic claim that RPA enhances processivity. If the effect is only observed at a single force and is not robustly linked to the specific interaction, the central conclusion is weakened. The lack of a clear mechanistic explanation for the bimodal distribution and the unquantified pausing behavior leaves alternative interpretations open.
+  - **Resolution test** Expand the force range to more thoroughly map the processivity-force relationship. Quantify pausing frequency and duration. Perform control experiments with an RPA mutant that cannot bind DNA, or with a Mer3 mutant that cannot hydrolyze ATP, to confirm specificity. Provide a model that explains the bimodal distribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between processivity and crossover defects
+  - **Claim pointer** The authors claim that the reduced processivity of Mer3-8A leads to weakened recruitment to DSB sites, accumulation of joint molecules, and reduced crossover formation.
+  - **Evidence pointer** Figures 5, 6, 7
+  - **Concern** The manuscript establishes a correlation between the Mer3-8A mutation and meiotic defects, but the causal chain is not fully established. The ChIP-seq data show reduced Mer3-8A at DSB sites, but this could be due to reduced protein stability, altered chromatin association, or indirect effects on DSB formation, rather than a direct consequence of reduced processivity. The accumulation of joint molecules could reflect a defect in resolution rather than processivity per se. The authors do not directly demonstrate that the processivity defect is the cause of the reduced crossover frequency; other functions of the C-terminal region (e.g., protein stability, localization) could be responsible.
+  - **Why it matters** The title and abstract claim that RPA-stimulated processivity "ensures normal crossover formation." If the causal link is not firmly established, the central thesis of the paper is overstated. The distinction between processivity and other potential functions of the Mer3 C-terminal region is critical.
+  - **Resolution test** Perform complementation experiments with a Mer3 variant that separates the RPA-binding function from other C-terminal functions. Measure Mer3-8A protein stability in vivo. Use a helicase-dead Mer3 to determine if the joint molecule accumulation is due to helicase activity or the RPA interaction. Directly test whether the reduced processivity leads to shorter D-loop extension in vivo.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1c
+  - **Evidence pointer** Figure 1c
+  - **Issue** The co-IP experiment is described as representative of triplicates, but the loading controls and the quantification are not shown. The difference between the presence and absence of anti-RPA antibodies is not clearly explained in the legend.
+  - **Required correction** Provide a clear description of the experimental design, including the negative control, and show quantification of the co-IP across replicates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 3e, 3f, 4c, 4d
+  - **Evidence pointer** Figure legends
+  - **Issue** The statistical tests used are mentioned (Mann-Whitney), but the exact p-values are not always reported in the text or figures. The number of biological replicates for the in vivo experiments (Figures 5, 6) is not always clear.
+  - **Required correction** Report exact p-values for all statistical comparisons and clearly state the number of biological and technical replicates for each experiment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The authors speculate about the role of the Mer3-RPA interaction in human disease and cancer, but do not discuss the limitations of their model system or the potential differences between yeast and human systems.
+  - **Required correction** Add a paragraph discussing the limitations of the study, including the use of a yeast model, the in vitro nature of the single-molecule assays, and the need for future studies in human cells.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods, Data availability
+  - **Evidence pointer** Not specified
+  - **Issue** The manuscript mentions "Source data" files but does not provide a clear data availability statement for the ChIP-seq data (e.g., GEO accession number).
+  - **Required correction** Provide a data availability statement with accession numbers for the ChIP-seq data and any other large-scale datasets.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative binding discrepancy), R1-M2 (narrow force window and alternative interpretations of single-molecule data), R1-M3 (causal link not fully established).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The identification of a direct Mer3-RPA interaction and its role in processivity is novel and provides a new mechanistic link between RPA and crossover formation.
+  - **Scientific importance** High. Meiotic crossover formation is a fundamental process, and understanding how helicase processivity is regulated has broad implications for genome stability and fertility.
+  - **Interdisciplinary readership** Moderate to high. The work bridges biochemistry, biophysics, and genetics, and will appeal to researchers in DNA repair, meiosis, and single-molecule biology.
+  - **Technical soundness** Moderate. The experimental design is generally rigorous, but the concerns outlined above regarding quantitative binding, single-molecule interpretation, and causal inference need to be addressed.
+  - **Readability for nonspecialists** Good. The manuscript is clearly written, with helpful figures and a logical flow from discovery to mechanism to in vivo relevance.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is novel and significant, but the quantitative discrepancies and the incomplete causal chain need to be addressed before the claims are fully established.

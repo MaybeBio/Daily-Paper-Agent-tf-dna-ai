@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.17.683050",
+  "title": "Enhanced Sampling Enables Binding Site Water Reorganization in Polarizable Absolute Binding Free Energy Calculations",
+  "authors": "Marharyta Blazhynska; Narjes Ansari; Louis Lagardère; Jean-Philip Piquemal",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-17",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用增强采样和极化力场计算蛋白-配体绝对结合自由能，虽非TF-DNA体系，但水介导结合界面和自由能方法可迁移至蛋白-DNA互作建模。",
+  "abstract": "Water molecules play a critical role in mediating protein–ligand interactions by forming hydrogen-bonding networks and contributing to ligand solvation. However, their behavior—ranging from rapid solvent exchange to persistent occupancy of buried sites—makes accurate binding free-energy estimation with molecular dynamics challenging. Inadequate sampling of water reorganization can bias computed affinities and obscure key interactions by preventing representative hydration states during calculations. To address this, we employ the polarizable AMOEBA force field together with Lambda-ABF-OPES, an integrated enhanced-sampling framework combining lambda-dynamics, multiple-walker adaptive biasing force, and on-the-fly probability enhanced sampling. AMOEBA provides a polarizable description of protein–ligand, ligand–water, and protein–water interactions, while the dynamic alchemical coordinate and adaptive biasing facilitate exploration of coupled ligand–pocket–solvent configurations during ligand decoupling. This construction allows water exchange, binding-site rehydration and solvent reorganization to emerge along the alchemical pathway without explicitly biasing water-based collective variables. Applied to five protein–ligand complexes spanning buried and semi-buried environments, the approach yields binding affinities in good agreement with experiment and captures relevant water-mediated reorganization to provide reproducible absolute binding free energies.",
+  "abstract_zh": "水分子通过形成氢键网络并参与配体溶剂化，在介导蛋白质-配体相互作用中发挥关键作用。然而，它们的行为——从快速溶剂交换到埋藏位点的持续占据——使得利用分子动力学 (molecular dynamics) 准确估算结合自由能变得具有挑战性。水重组的不充分采样可能使计算亲和力产生偏差，并通过阻止计算过程中代表性水合状态的呈现而掩盖关键相互作用。为解决此问题，我们采用可极化AMOEBA力场，并结合Lambda-ABF-OPES，这是一种集成增强采样框架，融合了lambda动力学、多行走器自适应偏置力 (multiple-walker adaptive biasing force) 和实时概率增强采样 (on-the-fly probability enhanced sampling)。AMOEBA提供蛋白质-配体、配体-水和蛋白质-水相互作用的可极化描述，而动态炼金坐标和自适应偏置则促进配体去耦过程中耦合的配体-口袋-溶剂构象的探索。这种构造允许水交换、结合位点再水化和溶剂重组沿炼金路径自然发生，而无需显式偏置基于水的集体变量。应用于五个跨越埋藏和半埋藏环境的蛋白质-配体复合物，该方法所得结合亲和力与实验良好一致，并捕获相关的水介导重组，以提供可重现的绝对结合自由能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.17.683050",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.17.683050",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.17.683050/index.html"
+}

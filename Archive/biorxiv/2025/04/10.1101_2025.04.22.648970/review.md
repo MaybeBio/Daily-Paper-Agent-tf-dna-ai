@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that a single valine to leucine substitution at position 2163 in the AP2-G transcription factor of *Plasmodium falciparum* abolishes sexual differentiation by disrupting DNA binding to the consensus motif GnGTAC and abrogating AP2-G-dependent transcription, including autoregulation. Using this mutant as a tool, they provide evidence that GDV1 is critical for initial activation of the silent *ap2-g* locus during the trophozoite to schizont transition. They also report that AP2-G.V is required for MSRP1 expression, which distinguishes early and late sexually committed schizonts. The authors propose that the generated reporter lines enable further study of signaling pathways and screening of factors regulating sexual commitment.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were supplied
+- **Missing materials affecting confidence** Full manuscript, experimental methods, all figures and tables, statistical analyses, strain and editing validation details, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important finding regarding the molecular basis of sexual commitment in *P. falciparum*, specifically identifying a single amino acid residue critical for AP2-G DNA binding and function. The use of the mutant as a tool to dissect GDV1's role in *ap2-g* activation is conceptually valuable. However, the abstract alone does not provide sufficient detail to assess the rigor of the genetic editing, binding assays, transcriptional analyses, or the specificity of the GDV1 and MSRP1 claims. The conclusions are plausible but currently not fully verifiable from the supplied material.
+- **Who would be interested in the results, and why** Malaria researchers studying transmission biology, particularly those focused on sexual commitment and gametocytogenesis. Also relevant to molecular parasitologists interested in transcription factor structure-function relationships and epigenetic regulation of gene expression. The reporter lines described could be of interest to drug discovery groups targeting transmission-blocking interventions.
+- **Major strengths** The identification of a single point mutation that abolishes AP2-G function provides a clear structure-function insight. The use of the mutant as a tool to separate initial activation from autoregulation is a clever experimental strategy. The potential to distinguish early and late sexually committed schizonts via MSRP1 expression has practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the V2163L mutation abrogates sexual differentiation and that this was confirmed by forward and reverse mutation editing.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that the mutation was confirmed by forward and reverse editing, but no details are given on the editing methods, the number of independent clones, off-target analysis, or phenotypic assays used to confirm abrogation of sexual differentiation. Without these details, the robustness of the genetic evidence cannot be evaluated.
+  - **Why it matters** Genetic editing in *P. falciparum* can be technically challenging, and off-target effects or incomplete editing could confound phenotypic conclusions. The central claim of the paper rests on the reliability of this editing.
+  - **Resolution test** Provide details on the editing strategy, validation of the intended mutation, assessment of off-target edits, and the specific assays and criteria used to define abrogation of sexual differentiation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that AP2-G.L2163 does not bind the consensus motif GnGTAC or stimulate AP2-G-dependent transcription.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports a loss of DNA binding and transcriptional activity but does not describe the assays used, such as electrophoretic mobility shift assays, chromatin immunoprecipitation, or reporter assays. The specificity of the binding defect and whether the mutant protein is expressed at comparable levels to wild type are not addressed.
+  - **Why it matters** A failure to bind DNA could be due to protein instability, misfolding, or reduced expression rather than a specific defect in DNA recognition. The mechanistic interpretation depends on distinguishing these possibilities.
+  - **Resolution test** Show that the mutant protein is expressed at similar levels and is stable, and provide direct binding data with appropriate controls, including a positive control for the wild-type protein and a negative control for nonspecific binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for causal inference
+  - **Claim pointer** The claim that GDV1 is critical for the initial activation of the silent *ap2-g* locus during the trophozoite to schizont transition in the absence of functional AP2-G.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that the mutant lines were used to demonstrate GDV1's role, but the nature of the evidence is not described. It is unclear whether this involves GDV1 knockdown, overexpression, or genetic interaction studies, and how the timing of activation was measured.
+  - **Why it matters** The temporal and causal relationship between GDV1 activity and *ap2-g* activation is a key conclusion. Without details on the experimental manipulation and the readout for activation, the strength of the causal claim cannot be assessed.
+  - **Resolution test** Describe the GDV1 perturbation used, the time course of *ap2-g* expression measured, and the controls demonstrating that the effect is specific to GDV1 and not an indirect consequence of the AP2-G mutation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The claim that MSRP1 expression can be used to distinguish early and late sexually committed schizonts.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that AP2-G.V is required for MSRP1 expression and that this can distinguish early and late committed schizonts, but the basis for this distinction is not explained. It is unclear whether this is a binary marker or a graded expression pattern, and how it relates to the timing of commitment.
+  - **Why it matters** The utility of MSRP1 as a marker depends on a clear and validated relationship between its expression and the stage of sexual commitment. Without this, the claim is not actionable.
+  - **Resolution test** Provide data showing the expression dynamics of MSRP1 relative to known commitment markers and demonstrate that the distinction is robust across biological replicates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses several abbreviations and terms without definition, such as AP2, GDV1, MSRP1, and GnGTAC, which may be unfamiliar to readers outside the malaria field.
+  - **Required correction** Define all abbreviations at first use and briefly explain the functional context of each factor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state the parasite strain background or the stage at which the mutation was introduced, which is relevant for reproducibility.
+  - **Required correction** Include the strain background and the developmental stage targeted for editing.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** No statistical measures or sample sizes are mentioned for any of the reported differences, such as loss of binding or transcriptional activity.
+  - **Required correction** Add brief statistical details or refer to figures where these are provided.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The genetic validation, binding and transcriptional assays, and the GDV1 causal evidence are all essential to the central conclusions and cannot be assessed from the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The identification of a specific residue critical for AP2-G function is a novel contribution, though the broader role of AP2-G in sexual commitment is established.
+  - Scientific importance: The findings have clear relevance for understanding transmission biology and could inform transmission-blocking strategies, which is of high importance in malaria research.
+  - Interdisciplinary readership: The work is primarily of interest to parasitologists and molecular biologists; broader appeal is limited unless the mechanistic insights are framed in a more general context of transcription factor function.
+  - Technical soundness: Cannot be fully assessed from the abstract; the described methods are not detailed enough to evaluate rigor.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with the field; improvements in defining terms would help.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and potential utility of the tools are promising, but the evidence base provided in the abstract is insufficient to establish the claims. A full review of the manuscript with methods and figures is required to determine whether the conclusions are robust.
+
+## Risk / unsupported claims
+- The claim that V2163L abrogates sexual differentiation is unsupported without details on the phenotypic assays and editing validation.
+- The claim that AP2-G.L2163 does not bind DNA or stimulate transcription is unsupported without assay details and protein expression controls.
+- The claim that GDV1 is critical for initial *ap2-g* activation is unsupported without description of the perturbation and measurement approach.
+- The claim that MSRP1 distinguishes early and late committed schizonts is unsupported without expression data and validation.
+- The general statement that the reporter lines allow further study of signaling pathways or screening of factors is plausible but not substantiated in the abstract.

@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "41088987",
+    "doi": "10.2174/0109298673371220250809113736",
+    "title": "Investigating the Mechanisms of Mitochondrial Dysfunction in Ischemic Stroke and Predicting Therapeutics Through Machine Learning and Integrated Bioinformatics."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Ischemic Stroke (IS) represents the most prevalent subtype of cerebrovascular disease, characterized by complex pathophysiological mechanisms that remain inadequately characterized, particularly concerning mitochondrial dysfunctions. These mitochondrial impairments are increasingly recognized as contributory factors in IS pathogenesis, emphasizing the need for further investigation into the underlying molecular mechanisms involved. METHODS: In this study, we integrated transcriptomic datasets from the Gene Expression Omnibus (GEO) with the comprehensive MitoCarta3.0 mitochondrial proteome inventory to elucidate the role of dysregulated Mitochondrial-Related Genes (MRGs) in IS. We employed an advanced bioinformatics and machine learning pipeline, incorporating differential expression profiling alongside network-based prioritization using CytoHubba. Rigorous feature selection was conducted through LASSO regression, Support Vector Machine (SVM), and Random Forest (RF) algorithms to derive a robust core MRG signature. Our methodology included training and validation cohorts to construct diagnostic models, which were critically evaluated via Receiver Operating Characteristic (ROC) curves, nomograms, and calibration analyses. RESULTS: Our analysis identified a seven-gene signature comprising DNAJA3, ACSL1, HSDL2, ECHDC2, ECHDC3, ALDH2, and PDK4, which demonstrated significant correlation with activated CD8(+) T-cell and natural killer cell infiltration. Furthermore, integrative network analyses revealed intricate regulatory interactions among MRGs, microRNAs, and transcription factors. Notably, drug-target predictions indicated Bezafibrate as a promising therapeutic agent for modulating mitochondrial homeostasis in the context of IS. DISCUSSION: These findings offer a novel framework for ischemic stroke diagnosis and therapy, yet their computational derivation underscores the need for thorough experimental validation of MRGs and drug candidates, along with the integration of diverse clinical data to confirm their real-world applicability. CONCLUSION: Our findings underscore mitochondrial dysfunction not only as a critical factor in IS pathogenesis but also as a viable therapeutic target. The identified MRG signature presents potential for clinical application in diagnostic and pharmacological strategies aimed at ameliorating ischemic injury. This study highlights the translational significance of systems biology approaches within cerebrovascular medicine, warranting further mechanistic exploration of mitochondrial-immune interactions in stroke pathology.",
+    "keywords": [
+      "GEO",
+      "Ischemic stroke",
+      "homeostasis",
+      "machine learning",
+      "mitochondrial dysfunction",
+      "translational approach"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ischemic Stroke/drug therapy/metabolism/genetics",
+      "*Mitochondria/metabolism/genetics/pathology/drug effects",
+      "*Computational Biology",
+      "*Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qi, Chao",
+        "Dong, Feng",
+        "Yang, Kai",
+        "Lv, Yanfei"
+      ],
+      "short_names": [
+        "Qi C",
+        "Dong F",
+        "Yang K",
+        "Lv Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Emergency and Critical Care Medicine Department, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, 250014, Jinan, Shandong, P.R., China.",
+        "Department of General Medicine, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, 250014, Jinan, Shandong, P.R., China.",
+        "Cardiology Department, Guang'anmen Hospital, China Academy of Chinese Medical Sciences, 100053, Beijing, P.R., China.",
+        "Department of Rehabilitation Medicine, Shandong Provincial Hospital Affiliated to Shandong First Medical University, 250021, Jinan, Shandong, P.R., China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qi, Chao",
+        "short_name": "Qi C",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency and Critical Care Medicine Department, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, 250014, Jinan, Shandong, P.R., China."
+        ]
+      },
+      {
+        "full_name": "Dong, Feng",
+        "short_name": "Dong F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, 250014, Jinan, Shandong, P.R., China."
+        ]
+      },
+      {
+        "full_name": "Yang, Kai",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, Guang'anmen Hospital, China Academy of Chinese Medical Sciences, 100053, Beijing, P.R., China."
+        ]
+      },
+      {
+        "full_name": "Lv, Yanfei",
+        "short_name": "Lv Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, Shandong Provincial Hospital Affiliated to Shandong First Medical University, 250021, Jinan, Shandong, P.R., China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Curr Med Chem"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/15 06:29",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39757625",
+      "38783263",
+      "38702721",
+      "38702399",
+      "38323746",
+      "37903887",
+      "37844121",
+      "37606960",
+      "37558011",
+      "37435058",
+      "37116597",
+      "37094034",
+      "37023088",
+      "36939783",
+      "36809929",
+      "36726122",
+      "36599349",
+      "36142720",
+      "36031228",
+      "35751589",
+      "35733147",
+      "35420919",
+      "35387495",
+      "35309888",
+      "34911748",
+      "34884906",
+      "34379589",
+      "34118948",
+      "34105078",
+      "33839742",
+      "33780170",
+      "33572080",
+      "33470530",
+      "33424757",
+      "33298971",
+      "33174596",
+      "33152322",
+      "32967533",
+      "32899616",
+      "32071438",
+      "31704373",
+      "31612315",
+      "31336903",
+      "31296369",
+      "31010960",
+      "30607811",
+      "30476243",
+      "30416050",
+      "30271667",
+      "29549824",
+      "29254215",
+      "28762187",
+      "28077713",
+      "28040265",
+      "27730544",
+      "27166859",
+      "27141961",
+      "26931482",
+      "26420220",
+      "25990557",
+      "25605792",
+      "25036109",
+      "24875290",
+      "24550298",
+      "24440703",
+      "24307685",
+      "23193258",
+      "23061754",
+      "22455463",
+      "22257669",
+      "21816445",
+      "21149340",
+      "20837969",
+      "19499576",
+      "18425107",
+      "16443152",
+      "15489916",
+      "14960456",
+      "12939340",
+      "11739302",
+      "11690571"
+    ],
+    "similar": [
+      "41088987",
+      "42475469",
+      "39757625",
+      "40360670",
+      "41703488",
+      "39507054",
+      "39142001",
+      "41305834",
+      "38291374",
+      "39862324",
+      "42175497",
+      "37891634",
+      "38044432",
+      "41415264",
+      "41013727",
+      "41044520",
+      "40588645",
+      "41214111",
+      "41388523",
+      "41200172",
+      "41052072",
+      "40207230",
+      "40830558",
+      "42068475",
+      "41055763",
+      "42024670",
+      "39509434",
+      "39263286",
+      "41626625",
+      "42589294",
+      "42083957",
+      "40274954",
+      "41479901",
+      "40340571",
+      "39278970",
+      "39743646",
+      "40441253",
+      "41563994",
+      "40997906",
+      "41508240",
+      "41013556",
+      "40374866",
+      "42292668",
+      "41988483",
+      "39609718",
+      "41436831",
+      "41629866",
+      "40313958",
+      "40261608",
+      "40918403",
+      "42327749",
+      "38650649",
+      "38690269",
+      "40374840",
+      "38371524",
+      "42302029",
+      "41988156",
+      "41169155",
+      "41678948",
+      "40119397",
+      "41716396",
+      "41322408",
+      "40129981",
+      "40913866",
+      "42098401",
+      "41611834",
+      "41305746",
+      "41665627",
+      "41909133",
+      "39396400",
+      "42436416",
+      "41570698",
+      "42631563",
+      "41663970",
+      "41192648",
+      "41642369",
+      "40948769",
+      "40916281",
+      "42259201",
+      "40087350",
+      "41751274",
+      "42338983",
+      "41136974",
+      "41656832",
+      "39475897",
+      "41146237",
+      "41874798",
+      "41265166",
+      "42217414",
+      "41422136",
+      "40312440",
+      "41792398",
+      "39139563",
+      "41334450",
+      "42233387",
+      "38867322",
+      "40207815",
+      "42064079",
+      "41006883",
+      "42562173"
+    ],
+    "review": [
+      "41088987",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-12",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/245984/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

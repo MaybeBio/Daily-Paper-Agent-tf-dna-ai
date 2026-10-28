@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.07.647656",
+  "title": "Shift augmentation improves DNA convolutional neural network indel effect predictions",
+  "authors": "Anya Korsakova; Divyanshi Srivastava; David R Kelley",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-11",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过数据增强策略改进DNA卷积神经网络对插入缺失变异效应的预测，虽聚焦于调控序列变异效应而非TF-DNA结合机制，但涉及蛋白-DNA互作相关的基因调控预测，且方法可迁移至TF-DNA结合位点建模。",
+  "abstract": "Determining genetic variant effects on molecular phenotypes like gene expression is a task of paramount importance to medical genetics. DNA convolutional neural networks (CNNs) attain state-of-the-art performance at predicting variant effects on gene regulation. However, most applications of such models focus on single nucleotide polymorphisms (SNPs), as technical challenges limit their application to insertions and deletions (indels). Sequence shifts from indels introduce technical variance in deep CNNs through misalignment of pooling blocks and output boundaries, creating artificially inflated variant effect scores compared to SNPs and confounding their interpretation. In this work, we demonstrate this technical variance in model predictions and present two strategies based on data augmentation with sequence shifts that reduce it. Applied to the state-of-the-art Borzoi model, our stitching approach improves indel eQTL classification accuracy across GTEx tissues. Furthermore, we demonstrate these techniques and observe compelling eQTL concordance for larger structural variants and tandem repeats. We additionally introduce in silico deletion (ISD) as an interpretation technique and validate it using MPRA data, demonstrating concordance between predicted and experimental measurements for deletion effects. Our strategies expand the utility of regulatory sequence machine learning for studying the full spectrum of noncoding genetic variation in human development and disease.",
+  "abstract_zh": "确定遗传变异对分子表型（如基因表达）的影响是医学遗传学中一项至关重要的任务。DNA卷积神经网络（CNNs）在预测变异对基因调控的影响方面达到了最先进的性能。然而，此类模型的大多数应用集中于单核苷酸多态性（SNPs），因为技术挑战限制了其对插入和缺失（indels）的应用。由indels引起的序列移位通过池化块和输出边界的错位在深度CNN中引入技术方差，与SNPs相比，人为地膨胀了变异效应评分，并混淆了其解释。在本工作中，我们展示了模型预测中的这种技术方差，并提出了两种基于序列移位数据增强的策略以减少该方差。应用于最先进的Borzoi模型，我们的拼接方法提高了跨GTEx组织的indel eQTL分类准确性。此外，我们展示了这些技术，并观察到较大结构变异和串联重复序列的令人信服的eQTL一致性。我们还引入了计算机模拟缺失（ISD）作为一种解释技术，并使用MPRA数据对其进行了验证，展示了缺失效应的预测与实验测量之间的一致性。我们的策略扩展了调控序列机器学习在研究人类发育和疾病中非编码遗传变异全谱方面的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.07.647656",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.07.647656",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.07.647656/index.html"
+}

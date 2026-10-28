@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supporting data were provided
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to propose that the R249S mutation in the p53 core domain drives dominant-negative effects in a heterotetramer through multiple allosteric pathways, and that wild-type subunits form more stable interactions with mutant subunits than with wild-type subunits as an adaptive response
+- **Visible evidence base** Abstract text only; no simulation details, statistical analyses, or structural data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, convergence criteria, replicate information, error estimates, and all figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a biologically important question regarding the molecular basis of dominant-negative effects in p53 heterotetramers, a topic with direct relevance to cancer biology. The proposed mechanism involving allosteric pathways is plausible and potentially interesting. However, the abstract provides insufficient technical detail to evaluate the rigor of the simulation approach, the statistical significance of the findings, or the robustness of the conclusions. The central claim that wild-type subunits form more stable interactions with mutant subunits is presented without quantitative support, and the absence of methodological information prevents assessment of whether the simulations were adequately sampled or converged. The work may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and structural biology studying protein allostery and protein-protein interactions would find the proposed allosteric mechanism of interest. Cancer biologists investigating p53 mutation effects and therapeutic strategies targeting mutant p53 would also be interested, as the dominant-negative mechanism has direct implications for tumor development and treatment design. The work could also appeal to method developers in molecular dynamics simulation who focus on multi-subunit protein complexes.
+- **Major strengths** The biological question is significant and timely, as understanding dominant-negative effects in p53 is clinically relevant. The focus on heterotetrameric assemblies rather than isolated monomers or dimers reflects the physiological context of p53 function. The concept of multiple allosteric pathways mediating mutation effects is a sophisticated framework that could provide mechanistic insight beyond simple structural perturbation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that all-atom molecular dynamics simulations show the R249S mutation drives reorganization of interfacial interactions through multiple allosteric pathways  
+  - **Evidence pointer** Abstract only; methods and simulation details not provided  
+  - **Concern** No information is provided about simulation length, number of replicates, force field parameters, system setup, equilibration protocol, or convergence assessment. Without these details, it is impossible to determine whether the observed reorganization of interfacial interactions is a genuine physical effect or an artifact of insufficient sampling or simulation artifacts.  
+  - **Why it matters** Molecular dynamics simulations of tetrameric protein complexes are computationally demanding, and sampling limitations are a common source of unreliable conclusions. The claim of "multiple allosteric pathways" requires robust statistical evidence that the pathways are reproducible and not stochastic fluctuations.  
+  - **Resolution test** Provide simulation details including total simulation time per replicate, number of independent replicates, force field and water model used, system size, and convergence metrics such as root-mean-square deviation stabilization and block error analysis. Demonstrate that the identified allosteric pathways are consistent across replicates and robust to simulation length.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength  
+  - **Claim pointer** The abstract claims that wild-type subunits form more stable interactions with mutant subunits than with wild-type subunits  
+  - **Evidence pointer** Abstract only; no quantitative data provided  
+  - **Concern** This is the central mechanistic claim of the work, yet no quantitative measure of interaction stability is presented. It is unclear what metric was used to define "more stable interactions" (for example, contact persistence, hydrogen bond occupancy, interaction energy, or free energy estimates) and whether the difference is statistically significant.  
+  - **Why it matters** The claim is counterintuitive and forms the basis for the proposed adaptive mechanism. If the difference is small or within statistical noise, the conclusion would not be supported. Quantitative comparison with error bars or confidence intervals is essential.  
+  - **Resolution test** Report the specific interaction metric used, the numerical values for wild-type-mutant versus wild-type-wild-type interfaces, and statistical tests demonstrating significance. Provide representative structural snapshots or contact maps to illustrate the difference.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Experimental validation  
+  - **Claim pointer** The abstract states that experimental studies confirm the R249S mutant exerts a dominant-negative effect, and the simulations aim to explain the underlying mechanism  
+  - **Evidence pointer** Abstract only; no experimental comparison provided  
+  - **Concern** The abstract does not indicate whether any simulation predictions were compared with experimental data beyond the initial observation of the dominant-negative effect. Without validation against known experimental structures, binding affinities, or functional assays, the mechanistic conclusions remain purely computational.  
+  - **Why it matters** Computational predictions of allosteric mechanisms are strengthened substantially when they are consistent with available experimental data. The absence of any such comparison limits confidence in the biological relevance of the proposed pathways.  
+  - **Resolution test** Compare simulation-derived interaction patterns or predicted structural changes with available experimental structures of p53 mutants or with biochemical data on heterotetramer stability. If direct comparison is not possible, state this limitation explicitly and discuss how the predictions could be tested experimentally.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, sentence describing "multiple allosteric pathways"  
+  - **Issue** The term "multiple allosteric pathways" is vague and could refer to distinct structural routes, distinct timescales, or distinct residue networks. The abstract does not clarify what distinguishes these pathways.  
+  - **Required correction** Define what constitutes a distinct allosteric pathway in this context, for example, by specifying the residue networks or communication routes involved.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The abstract concludes with the adaptive interaction claim but does not state the functional consequence of this adaptation. It is unclear whether this stabilization is proposed to enhance or suppress the dominant-negative effect.  
+  - **Required correction** Clarify the functional implication of the observed stabilization for the dominant-negative mechanism, for example, whether it contributes to loss of DNA binding or to a compensatory protective effect.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation protocol  
+  - **Evidence pointer** Abstract only  
+  - **Issue** No mention of the specific p53 core domain construct used, including residue ranges, any stabilizing mutations, or the DNA binding state of the tetramer. These details affect the interpretation of the results.  
+  - **Required correction** Specify the construct details in the abstract or indicate that they are provided in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The absence of simulation methodology and quantitative interaction data means the central claims cannot be evaluated. R1-M3 is non-blocking but important for establishing biological relevance.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of allosteric pathway analysis to a p53 heterotetramer with a clinically relevant mutation is somewhat novel, though allosteric effects in p53 have been studied previously. The specific claim of adaptive stabilization of mutant interactions is potentially original but requires verification.  
+  - Scientific importance: The topic is important for cancer biology and p53 research, but the abstract does not demonstrate that the findings substantially advance current understanding beyond what is already known about dominant-negative effects.  
+  - Interdisciplinary readership: The work could appeal to computational biophysicists and cancer biologists, but the abstract is written in a way that is accessible to a broad scientific audience. The significance for a general readership is not clearly articulated.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail is a critical deficiency.  
+  - Readability for nonspecialists: The abstract is clearly written and avoids excessive jargon, making the main concepts accessible. However, the mechanistic claims would benefit from more explicit explanation of what "allosteric pathways" means in practical terms.
+- **Recommendation posture** Currently not established from the provided evidence. The biological question is worthwhile and the proposed mechanism is plausible, but the abstract lacks the technical detail and quantitative support needed to evaluate the validity of the claims. The manuscript could become publishable if the full paper provides rigorous simulation methodology, statistical analysis, and ideally some comparison with experimental data. I would be supportive if these technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the R249S mutation drives reorganization of interfacial interactions through multiple allosteric pathways is unsupported without simulation details and pathway identification methodology.
+- The claim that wild-type subunits form more stable interactions with mutant subunits is unsupported without quantitative interaction metrics and statistical analysis.
+- The implication that the observed interaction stabilization represents an adaptive response is speculative and not supported by the abstract.
+- The overall mechanistic model of how allosteric inhibition mediates the dominant-negative effect is not assessable from the abstract alone.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.20.700394",
+  "title": "A Systematic Evaluation of Protein Phase Separation Predictors Across Diverse Protein Landscapes",
+  "authors": "Gilroy KE; Barr JN",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-22",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文系统评估蛋白质相分离预测器性能，虽涉及结构建模与序列预测，但核心对象为蛋白质相分离而非蛋白质-DNA互作，且无TF-DNA结合或互作机制建模，与本课题关联微弱。",
+  "abstract": "<h4>Background</h4> Liquid–liquid phase separation (LLPS) plays a central role in cellular regulation, with its dysregulation linked to numerous disease outcomes. LLPS has also being increasingly implicated as critical in various biological contexts, with a key example being virus replication. These findings have driven the development of numerous computational predictors to screen and identify phase-separating proteins from sequence and/or structural models. Despite the growing need for these tools, their comparative performance across diverse biological contexts remains incompletely understood, complicating tool selection and result interpretation. <h4>Results</h4> A systematic comparative analysis of nine LLPS prediction algorithms was conducted using multiple curated datasets comprising both LLPS-positive (LLPS+) and -negative (LLPS-) proteins. The datasets span a range of biologically relevant scenarios, including intrinsically disordered proteins, folded proteins, proteins with LLPS-abolishing variants, benchmark datasets, and viral proteins. Substantial variability in predictive performance was observed across algorithms when assessing proteins of different structural classes. Numerous showed reduced accuracy in distinguishing LLPS+ and LLPS- folded proteins. Sensitivity to the impact of small LLPS-abolishing mutations also varied markedly between predictors, with structure-informed algorithms generally outperforming most sequence-based predictors. Similar decreases in predictive capability were also observed across several algorithms when analysing viral proteins, which are often-under-represented in predictor training datasets. <h4>Conclusions</h4> These results demonstrate that LLPS predictor performance is strongly context dependent, leading to different predictors being optimal for different biological questions. For overall protein assessment, DeePhase and Molphase provided the most consistently accurate predictions, being the least impacted by structural bias. For assessing the impact of small mutations on LLPS propensity, PSPHunter, a built-for-purpose algorithm, reliably predicts mutation impacts with structure-informed algorithms PSPire and PICNIC also providing strong insight. Across all evaluated datasets, the findings highlight the need for well-benchmarked training and testing data that encompasses a broad and diverse range of protein classes.",
+  "abstract_zh": "<h4>背景</h4> 液-液相分离（LLPS）在细胞调控中发挥核心作用，其失调与多种疾病结局相关。LLPS 也日益被证实在多种生物学情境中至关重要，其中一个关键例子是病毒复制。这些发现推动了众多计算预测工具的开发，以从序列和/或结构模型中筛选和识别相分离蛋白。尽管对这些工具的需求不断增长，但它们在多样生物学情境中的比较性能仍未完全明了，这使工具选择和结果解读变得复杂。<h4>结果</h4> 使用多个包含LLPS阳性（LLPS+）和阴性（LLPS-）蛋白的精选数据集，对九种LLPS预测算法进行了系统性比较分析。这些数据集涵盖了一系列生物学相关场景，包括固有无序蛋白、折叠蛋白、具有LLPS消除变体的蛋白、基准数据集以及病毒蛋白。在评估不同结构类别的蛋白时，各算法间的预测性能表现出显著差异。许多算法在区分LLPS+和LLPS-折叠蛋白时准确性降低。对小型LLPS消除突变影响的敏感性在不同预测器间也差异显著，其中基于结构的算法通常优于大多数基于序列的预测器。在分析病毒蛋白时，几种算法的预测能力也出现类似下降，而病毒蛋白在预测器训练数据集中往往代表性不足。<h4>结论</h4> 这些结果表明，LLPS预测器的性能强烈依赖于情境，导致不同预测器在不同生物学问题中表现最优。对于整体蛋白评估，DeePhase和Molphase提供了最一致准确的预测，受结构偏差影响最小。对于评估小型突变对LLPS倾向性的影响，专为特定目的设计的算法PSPHunter能可靠预测突变影响，而基于结构的算法PSPire和PICNIC也提供了强有力的见解。在所有评估的数据集中，这些发现强调了需要包含广泛且多样蛋白类别的充分基准测试和训练数据。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.20.700394",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.20.700394",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.20.700394/index.html"
+}

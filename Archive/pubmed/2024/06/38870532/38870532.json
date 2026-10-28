@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "38870532",
+    "doi": "10.1093/bioinformatics/btae367",
+    "title": "Supervised learning of enhancer-promoter specificity based on genome-wide perturbation studies highlights areas for improvement in learning."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Understanding the rules that govern enhancer-driven transcription remains a central unsolved problem in genomics. Now with multiple massively parallel enhancer perturbation assays published, there are enough data that we can utilize to learn to predict enhancer-promoter (EP) relationships in a data-driven manner. RESULTS: We applied machine learning to one of the largest enhancer perturbation studies integrated with transcription factor (TF) and histone modification ChIP-seq. The results uncovered a discrepancy in the prediction of genome-wide data compared to data from targeted experiments. Relative strength of contact was important for prediction, confirming the basic principle of EP regulation. Novel features such as the density of the enhancers/promoters in the genomic region was found to be important, highlighting our lack of understanding on how other elements in the region contribute to the regulation. Several TF peaks were identified that improved the prediction by identifying the negatives and reducing False Positives. In summary, integrating genomic assays with enhancer perturbation studies increased the accuracy of the model, and provided novel insights into the understanding of enhancer-driven transcription. AVAILABILITY AND IMPLEMENTATION: The trained models, data, and the source code are available at http://doi.org/10.5281/zenodo.11290386 and https://github.com/HanLabUNLV/sleps.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Enhancer Elements, Genetic",
+      "*Promoter Regions, Genetic",
+      "*Supervised Machine Learning",
+      "Humans",
+      "Transcription Factors/metabolism/genetics",
+      "Genomics/methods",
+      "Chromatin Immunoprecipitation Sequencing/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barth, Dylan",
+        "Van, Richard",
+        "Cardwell, Jonathan",
+        "Han, Mira V"
+      ],
+      "short_names": [
+        "Barth D",
+        "Van R",
+        "Cardwell J",
+        "Han MV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0488-1170"
+      ],
+      "affiliations": [
+        "School of Life Sciences, University of Nevada, Las Vegas, NV 89154, United States.",
+        "Nevada Institute of Personalized Medicine, University of Nevada, Las Vegas, NV 89154, United States.",
+        "School of Life Sciences, University of Nevada, Las Vegas, NV 89154, United States.",
+        "Nevada Institute of Personalized Medicine, University of Nevada, Las Vegas, NV 89154, United States.",
+        "Department of Medicine, University of Colorado School of Medicine, Denver, CO 80045, United States.",
+        "School of Life Sciences, University of Nevada, Las Vegas, NV 89154, United States.",
+        "Nevada Institute of Personalized Medicine, University of Nevada, Las Vegas, NV 89154, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barth, Dylan",
+        "short_name": "Barth D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Nevada, Las Vegas, NV 89154, United States.",
+          "Nevada Institute of Personalized Medicine, University of Nevada, Las Vegas, NV 89154, United States."
+        ]
+      },
+      {
+        "full_name": "Van, Richard",
+        "short_name": "Van R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Nevada, Las Vegas, NV 89154, United States.",
+          "Nevada Institute of Personalized Medicine, University of Nevada, Las Vegas, NV 89154, United States."
+        ]
+      },
+      {
+        "full_name": "Cardwell, Jonathan",
+        "short_name": "Cardwell J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of Colorado School of Medicine, Denver, CO 80045, United States."
+        ]
+      },
+      {
+        "full_name": "Han, Mira V",
+        "short_name": "Han MV",
+        "identifiers": [
+          "0000-0002-0488-1170"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Nevada, Las Vegas, NV 89154, United States.",
+          "Nevada Institute of Personalized Medicine, University of Nevada, Las Vegas, NV 89154, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2024 Jun 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/13 18:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36708003",
+      "36044844",
+      "35594906",
+      "35594855",
+      "34837041",
+      "34055801",
+      "33674350",
+      "32483332",
+      "31980751",
+      "31784727",
+      "31618627",
+      "31514731",
+      "31202576",
+      "31124784",
+      "30612741",
+      "30562350",
+      "28890333",
+      "28869592",
+      "28334114",
+      "28179280",
+      "27064255",
+      "26340335",
+      "24967590",
+      "24119843",
+      "21063390",
+      "14651845",
+      "14517543",
+      "12670868",
+      "12504019"
+    ],
+    "similar": [
+      "38870532",
+      "32689977",
+      "22537144",
+      "30917778",
+      "22897152",
+      "27490187",
+      "35100401",
+      "38485768",
+      "34292930",
+      "28881991",
+      "36030022",
+      "32133533",
+      "31228310",
+      "37830459",
+      "31318408",
+      "33509077",
+      "30709337",
+      "34635154",
+      "30696717",
+      "37021559",
+      "37982748",
+      "36715222",
+      "28589862",
+      "26072433",
+      "27797775",
+      "35049498",
+      "29137603",
+      "31603498",
+      "36018818",
+      "32611439",
+      "28334114",
+      "21724591",
+      "24821768",
+      "20122241",
+      "26091399",
+      "32197056",
+      "32033573",
+      "37294799",
+      "38343388",
+      "29855387",
+      "32029002",
+      "32321991",
+      "38940155",
+      "33044128",
+      "39082647",
+      "33516170",
+      "26338778",
+      "37312570",
+      "37387536",
+      "32961076",
+      "19094206",
+      "33872375",
+      "32616518",
+      "28137873",
+      "34252972",
+      "26313521",
+      "27321818",
+      "33184104",
+      "20096096",
+      "35594855",
+      "32249388",
+      "24967590",
+      "25957350",
+      "29602043",
+      "33298918",
+      "38922969",
+      "25378307",
+      "32431014",
+      "32039697",
+      "35130376",
+      "34244796",
+      "30905748",
+      "23980024",
+      "25887857",
+      "30753279",
+      "27799341",
+      "34273410",
+      "33975951",
+      "25228660",
+      "31201999",
+      "29070071",
+      "27256877",
+      "35062021",
+      "30578913",
+      "9012660",
+      "33425492",
+      "35691341",
+      "37694817",
+      "32568326",
+      "36705030",
+      "29151363",
+      "34252960",
+      "36173570",
+      "33537074",
+      "27899590",
+      "32264931",
+      "36582986",
+      "36394233",
+      "35887306",
+      "36043696",
+      "36708003",
+      "38588559"
+    ],
+    "review": [
+      "38870532",
+      "37830459",
+      "26072433",
+      "36018818",
+      "32197056",
+      "37312570",
+      "32961076",
+      "27321818",
+      "29602043",
+      "38922969"
+    ],
+    "pmc": [
+      "11211214"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38870532.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38870532/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38870532",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btae367",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "identity": {
+    "pmid": "39671497",
+    "doi": "10.1126/sciadv.adq0987",
+    "title": "Transcription processes compete with loop extrusion to homogenize promoter and enhancer dynamics."
+  },
+  "content": {
+    "abstract": "The spatiotemporal configuration of genes with distal regulatory elements is believed to be crucial for transcriptional control, but full mechanistic understanding is lacking. We combine simultaneous live tracking of pairs of genomic loci and nascent transcripts with molecular dynamics simulations to assess the Sox2 gene and its enhancer. We find that both loci exhibit more constrained mobility than control sequences due to stalled cohesin at CCCTC-binding factor sites. Strikingly, enhancer mobility becomes constrained on transcriptional firing, homogenizing its dynamics with the gene promoter, suggestive of their cotranscriptional sharing of a nuclear microenvironment. Furthermore, we find transcription and loop extrusion to be antagonistic processes constraining regulatory loci. These findings indicate that modulating chromatin mobility can be an additional, underestimated means for effective gene regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Enhancer Elements, Genetic",
+      "*Promoter Regions, Genetic",
+      "*Transcription, Genetic",
+      "Chromatin/genetics/metabolism",
+      "Cohesins",
+      "SOXB1 Transcription Factors/genetics/metabolism",
+      "Humans",
+      "Gene Expression Regulation",
+      "Molecular Dynamics Simulation",
+      "Cell Cycle Proteins/genetics/metabolism",
+      "Chromosomal Proteins, Non-Histone/genetics/metabolism",
+      "CCCTC-Binding Factor/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Platania, Angeliki",
+        "Erb, Cathie",
+        "Barbieri, Mariano",
+        "Molcrette, Bastien",
+        "Grandgirard, Erwan",
+        "de Kort, Marit A C",
+        "Pomp, Wim",
+        "Meaburn, Karen",
+        "Taylor, Tiegh",
+        "Shchuka, Virlana M",
+        "Kocanova, Silvia",
+        "Nazarova, Mariia",
+        "Oliveira, Guilherme Monteiro",
+        "Mitchell, Jennifer A",
+        "Soutoglou, Evi",
+        "Lenstra, Tineke L",
+        "Molina, Nacho",
+        "Papantonis, Argyris",
+        "Bystricky, Kerstin",
+        "Sexton, Tom"
+      ],
+      "short_names": [
+        "Platania A",
+        "Erb C",
+        "Barbieri M",
+        "Molcrette B",
+        "Grandgirard E",
+        "de Kort MAC",
+        "Pomp W",
+        "Meaburn K",
+        "Taylor T",
+        "Shchuka VM",
+        "Kocanova S",
+        "Nazarova M",
+        "Oliveira GM",
+        "Mitchell JA",
+        "Soutoglou E",
+        "Lenstra TL",
+        "Molina N",
+        "Papantonis A",
+        "Bystricky K",
+        "Sexton T"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-4721-8771",
+        "ORCID: 0000-0001-8972-9831",
+        "ORCID: 0000-0002-9080-631X",
+        "ORCID: 0000-0002-5995-5376",
+        "ORCID: 0000-0002-5263-2144",
+        "ORCID: 0000-0002-7623-2073",
+        "ORCID: 0000-0003-1083-4888",
+        "ORCID: 0000-0001-5293-4161",
+        "ORCID: 0000-0002-1945-0517",
+        "ORCID: 0000-0002-7147-4604",
+        "ORCID: 0000-0002-4440-9962",
+        "ORCID: 0000-0003-0233-3055",
+        "ORCID: 0000-0001-7551-1073",
+        "ORCID: 0000-0002-7824-1846"
+      ],
+      "affiliations": [
+        "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Sante et de la Recherche Medicale, University of Strasbourg, 6704 Illkirch, France.",
+        "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Sante et de la Recherche Medicale, University of Strasbourg, 6704 Illkirch, France.",
+        "Translational Epigenetics Group, Institute of Pathology, University Medical Centre Gottingen, Gottingen, Germany.",
+        "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Sante et de la Recherche Medicale, University of Strasbourg, 6704 Illkirch, France.",
+        "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Sante et de la Recherche Medicale, University of Strasbourg, 6704 Illkirch, France.",
+        "Division of Gene Regulation, the Netherlands Cancer Institute, Oncode Institute, 1066CX Amsterdam, Netherlands.",
+        "Division of Gene Regulation, the Netherlands Cancer Institute, Oncode Institute, 1066CX Amsterdam, Netherlands.",
+        "Genome Damage and Stability Centre, School of Life Sciences, University of Sussex, Brighton, UK.",
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada.",
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada.",
+        "Molecular Cellular and Developmental Biology Unit (MCD), Centre de Biologie Integrative (CBI), University of Toulouse Paul Sabatier, CNRS, 31062 Toulouse, France.",
+        "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Sante et de la Recherche Medicale, University of Strasbourg, 6704 Illkirch, France.",
+        "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Sante et de la Recherche Medicale, University of Strasbourg, 6704 Illkirch, France.",
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada.",
+        "Genome Damage and Stability Centre, School of Life Sciences, University of Sussex, Brighton, UK.",
+        "Division of Gene Regulation, the Netherlands Cancer Institute, Oncode Institute, 1066CX Amsterdam, Netherlands.",
+        "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Sante et de la Recherche Medicale, University of Strasbourg, 6704 Illkirch, France.",
+        "Translational Epigenetics Group, Institute of Pathology, University Medical Centre Gottingen, Gottingen, Germany.",
+        "Molecular Cellular and Developmental Biology Unit (MCD), Centre de Biologie Integrative (CBI), University of Toulouse Paul Sabatier, CNRS, 31062 Toulouse, France.",
+        "Institut Universitaire de France (IUF), 75005 Paris, France.",
+        "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Sante et de la Recherche Medicale, University of Strasbourg, 6704 Illkirch, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Platania, Angeliki",
+        "short_name": "Platania A",
+        "identifiers": [
+          "0009-0002-4721-8771"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Erb, Cathie",
+        "short_name": "Erb C",
+        "identifiers": [
+          "0000-0001-8972-9831"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Barbieri, Mariano",
+        "short_name": "Barbieri M",
+        "identifiers": [
+          "0000-0002-9080-631X"
+        ],
+        "affiliations": [
+          "Translational Epigenetics Group, Institute of Pathology, University Medical Centre Göttingen, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Molcrette, Bastien",
+        "short_name": "Molcrette B",
+        "identifiers": [
+          "0000-0002-5995-5376"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Grandgirard, Erwan",
+        "short_name": "Grandgirard E",
+        "identifiers": [
+          "0000-0002-5263-2144"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "de Kort, Marit A C",
+        "short_name": "de Kort MAC",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Gene Regulation, the Netherlands Cancer Institute, Oncode Institute, 1066CX Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Pomp, Wim",
+        "short_name": "Pomp W",
+        "identifiers": [
+          "0000-0002-7623-2073"
+        ],
+        "affiliations": [
+          "Division of Gene Regulation, the Netherlands Cancer Institute, Oncode Institute, 1066CX Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Meaburn, Karen",
+        "short_name": "Meaburn K",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Damage and Stability Centre, School of Life Sciences, University of Sussex, Brighton, UK."
+        ]
+      },
+      {
+        "full_name": "Taylor, Tiegh",
+        "short_name": "Taylor T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada."
+        ]
+      },
+      {
+        "full_name": "Shchuka, Virlana M",
+        "short_name": "Shchuka VM",
+        "identifiers": [
+          "0000-0003-1083-4888"
+        ],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada."
+        ]
+      },
+      {
+        "full_name": "Kocanova, Silvia",
+        "short_name": "Kocanova S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cellular and Developmental Biology Unit (MCD), Centre de Biologie Integrative (CBI), University of Toulouse Paul Sabatier, CNRS, 31062 Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Nazarova, Mariia",
+        "short_name": "Nazarova M",
+        "identifiers": [
+          "0000-0001-5293-4161"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Guilherme Monteiro",
+        "short_name": "Oliveira GM",
+        "identifiers": [
+          "0000-0002-1945-0517"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Mitchell, Jennifer A",
+        "short_name": "Mitchell JA",
+        "identifiers": [
+          "0000-0002-7147-4604"
+        ],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, Ontario M55 3G5, Canada."
+        ]
+      },
+      {
+        "full_name": "Soutoglou, Evi",
+        "short_name": "Soutoglou E",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Damage and Stability Centre, School of Life Sciences, University of Sussex, Brighton, UK."
+        ]
+      },
+      {
+        "full_name": "Lenstra, Tineke L",
+        "short_name": "Lenstra TL",
+        "identifiers": [
+          "0000-0002-4440-9962"
+        ],
+        "affiliations": [
+          "Division of Gene Regulation, the Netherlands Cancer Institute, Oncode Institute, 1066CX Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Molina, Nacho",
+        "short_name": "Molina N",
+        "identifiers": [
+          "0000-0003-0233-3055"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Papantonis, Argyris",
+        "short_name": "Papantonis A",
+        "identifiers": [
+          "0000-0001-7551-1073"
+        ],
+        "affiliations": [
+          "Translational Epigenetics Group, Institute of Pathology, University Medical Centre Göttingen, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Bystricky, Kerstin",
+        "short_name": "Bystricky K",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cellular and Developmental Biology Unit (MCD), Centre de Biologie Integrative (CBI), University of Toulouse Paul Sabatier, CNRS, 31062 Toulouse, France.",
+          "Institut Universitaire de France (IUF), 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sexton, Tom",
+        "short_name": "Sexton T",
+        "identifiers": [
+          "0000-0002-7824-1846"
+        ],
+        "affiliations": [
+          "Department of Functional Genomics and Cancer, Institute of Genetics and Molecular and Cellular Biology (IGBMC), UMR7104, Centre National de la Recherche Scientifique, U1258, Institut National de la Santé et de la Recherche Médicale, University of Strasbourg, 6704 Illkirch, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2024 Dec 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/13 20:06",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42481807",
+      "42449150",
+      "42380620",
+      "42367879",
+      "42192110",
+      "42187732",
+      "42082828",
+      "41983545",
+      "41980771",
+      "41896269",
+      "41446082",
+      "41359380",
+      "41308125",
+      "41284191",
+      "40966347",
+      "40909699",
+      "40588418",
+      "40360814",
+      "40080917",
+      "39976773",
+      "39975433",
+      "39935886",
+      "39849901",
+      "38412314"
+    ],
+    "refs": [
+      "38194964",
+      "38048351",
+      "37012454",
+      "36897969",
+      "36717694",
+      "36471076",
+      "36471071",
+      "36261017",
+      "36097291",
+      "35710842",
+      "35710138",
+      "35420890",
+      "34702821",
+      "34661296",
+      "34002095",
+      "33767413",
+      "33422933",
+      "33398174",
+      "33334380",
+      "33202367",
+      "32958948",
+      "32304901",
+      "32038719",
+      "31905366",
+      "31494034",
+      "31124784",
+      "31086298",
+      "30824489",
+      "30554876",
+      "30344096",
+      "29800273",
+      "29501423",
+      "29371426",
+      "29131164",
+      "29094699",
+      "29053968",
+      "28985562",
+      "28978433",
+      "28712725",
+      "28436944",
+      "27405443",
+      "27078492",
+      "26527277",
+      "26092696",
+      "25768903",
+      "25605792",
+      "25271374",
+      "25270877",
+      "24625580",
+      "24446482",
+      "24077391",
+      "23828889",
+      "22743774",
+      "22495300",
+      "22265598",
+      "19261174",
+      "18195100",
+      "17522680"
+    ],
+    "similar": [
+      "39671497",
+      "41308125",
+      "40374602",
+      "39210046",
+      "34197738",
+      "38810546",
+      "39721581",
+      "39093600",
+      "36097291",
+      "35710842",
+      "39988079",
+      "37645793",
+      "37162887",
+      "40063813",
+      "41622199",
+      "41238959",
+      "33247104",
+      "39709822",
+      "35440598",
+      "36182691",
+      "41254162",
+      "31216471",
+      "41102415",
+      "33431820",
+      "40490791",
+      "41260212",
+      "35180428",
+      "31177910",
+      "39579740",
+      "32680543",
+      "34108683",
+      "39870429",
+      "24136358",
+      "25228660",
+      "29706548",
+      "29593713",
+      "34040254",
+      "40436628",
+      "39827577",
+      "23010778",
+      "20720539",
+      "33930311",
+      "40804526",
+      "38206813",
+      "40833849",
+      "36732474",
+      "38670416",
+      "40081334",
+      "32698000",
+      "39979259",
+      "29757144",
+      "25677180",
+      "21454523",
+      "30527662",
+      "31147463",
+      "41512858",
+      "39392751",
+      "41331087",
+      "40189615",
+      "39169755",
+      "40586309",
+      "24550742",
+      "23704192",
+      "29867216",
+      "18235444",
+      "30940740",
+      "23650640",
+      "37076620",
+      "29507293",
+      "31204999",
+      "41138076",
+      "36449519",
+      "22740398",
+      "33091336",
+      "25851587",
+      "31130395",
+      "39741350",
+      "33187878",
+      "28737770",
+      "40282349",
+      "39543681",
+      "28424523",
+      "40628528",
+      "41009406",
+      "38742641",
+      "40010352",
+      "37451823",
+      "36482254",
+      "31666380",
+      "30875678",
+      "39521361",
+      "24002784",
+      "41381500",
+      "39487368",
+      "31266948",
+      "35471149",
+      "28467304",
+      "33318687",
+      "37264934",
+      "32251373"
+    ],
+    "review": [
+      "39671497",
+      "38810546",
+      "39709822",
+      "39579740",
+      "39827577",
+      "39169755",
+      "30940740",
+      "23650640",
+      "31130395",
+      "33187878"
+    ],
+    "pmc": [
+      "11641109"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adq0987?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/39671497.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39671497/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse230243",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "39620895",
+    "doi": "10.1111/jcmm.70181",
+    "title": "Exploration of the biological mechanisms of CENPA as an oncogene in glioma: Screening based on cancer functional status."
+  },
+  "content": {
+    "abstract": "Glioma is the most common primary tumour in central nervous system, characterized by high invasiveness, a high recurrence rate and extremely poor prognosis. Machine learning based on cancer functional state helps to combine multi-omics methods to screen for key gene, such as CENPA, that influences the phenotype of glioma and patients' prognosis. Based on 14 CFS, glioma was divided into three subtypes. Bioinformatics and machine learning methods were utilized to develop an enhanced prognostic prediction signature based on three subtypes. We selected CENPA as a hub biomarker and conducted in vitro experiments such as IHC, western blot, Coip, transwell, cck8, flow cytometry, scratch assay, qPCR, AlphaFold, MOE and in vivo experiments. We identified three subtypes of glioma based on the 14 CFS. The C subtype exhibits poor clinical outcomes, increased carbohydrate and nucleotide metabolism, high infiltration of immune cells, high CNV and tumour mutation burden (p < 0.05). The differential expression of gene between three subtypes were used to construct a novel signature with improved performance in prognostic prediction via machine learning. CENPA was selected as the hub gene, in vitro experiments such as ihc, western blot and qPCR showed that CENPA had high expression in tissues and cell lines (p < 0.05). The scratch assay, edu, cck8, flow cytometry and transwell after CENPA knockdown or overexpression had significant effects on the functions of glioma. Meanwhile, CENPA was regulated by EZH2 and influenced downstream wnt pathway, affecting phosphorylation of two sites, Ser675 and Ser552, on beta-catenin. The effect of CENPA knockdown was reversed by drug CHIR-99021. Animal experiments indicated that the tumour volume of control and overexpression group increased faster, especially the overexpression group, which was significantly faster (p < 0.001). Machine learning based on CFS is beneficial for the selection of key genes and disease assessment. In glioma, CENPA is positively correlated with WHO grading at both the gene and protein levels, and high CENPA affects patients' poor prognosis. Regulating CENPA can affect functions of glioma, and these phenomena may act through the EZH2/CENPA/beta-catenin signalling axis. CENPA knockdown can be reversed by the drug CHIR-99021. CENPA may become one of the therapeutic targets in glioma.",
+    "keywords": [
+      "cancer functional states",
+      "experiments in vitro",
+      "glioma",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Glioma/genetics/pathology/metabolism",
+      "Humans",
+      "*Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "Cell Line, Tumor",
+      "Animals",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Oncogenes/genetics",
+      "Mice",
+      "Chromosomal Proteins, Non-Histone/genetics/metabolism",
+      "Cell Proliferation/genetics",
+      "Brain Neoplasms/genetics/pathology/metabolism",
+      "Wnt Signaling Pathway/genetics",
+      "Computational Biology/methods",
+      "Enhancer of Zeste Homolog 2 Protein/metabolism/genetics",
+      "beta Catenin/metabolism/genetics",
+      "Machine Learning",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ling, Yuanguo",
+        "Teng, Wei",
+        "Long, Niya",
+        "Qiu, Wenjin",
+        "Wei, Ruting",
+        "Hou, Yunan",
+        "Jiang, Lishi",
+        "Liu, Jian",
+        "Zhou, Xingwang",
+        "Chu, Liangzhao"
+      ],
+      "short_names": [
+        "Ling Y",
+        "Teng W",
+        "Long N",
+        "Qiu W",
+        "Wei R",
+        "Hou Y",
+        "Jiang L",
+        "Liu J",
+        "Zhou X",
+        "Chu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9765-5115"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, Guizhou Provincial People's Hospital, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+        "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ling, Yuanguo",
+        "short_name": "Ling Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Wei",
+        "short_name": "Teng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Long, Niya",
+        "short_name": "Long N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Wenjin",
+        "short_name": "Qiu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Ruting",
+        "short_name": "Wei R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yunan",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lishi",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jian",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Guizhou Provincial People's Hospital, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xingwang",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Liangzhao",
+        "short_name": "Chu L",
+        "identifiers": [
+          "0000-0001-9765-5115"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, The Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, China.",
+          "Department of Clinical Medicine, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/02 12:33",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "42238602",
+      "40973792"
+    ],
+    "refs": [
+      "38212546",
+      "37928273",
+      "37747420",
+      "37652019",
+      "37269912",
+      "36929849",
+      "36831610",
+      "36744604",
+      "36282174",
+      "35934766",
+      "35816352",
+      "35762580",
+      "35721491",
+      "35656554",
+      "35569264",
+      "35434563",
+      "35361964",
+      "35218102",
+      "35116705",
+      "34757056",
+      "34518686",
+      "33777677",
+      "33593822",
+      "33558264",
+      "33508126",
+      "33332283",
+      "33104794",
+      "32371391",
+      "31602691",
+      "31385398",
+      "30329142",
+      "29261360",
+      "27752293",
+      "27157931",
+      "26845405",
+      "25497280",
+      "24781640",
+      "24367927",
+      "19074867",
+      "15930286"
+    ],
+    "similar": [
+      "39620895",
+      "34926132",
+      "30691485",
+      "31502042",
+      "41504052",
+      "40019588",
+      "31842978",
+      "38048186",
+      "38686653",
+      "42619240",
+      "38886655",
+      "42310501",
+      "33571591",
+      "39390437",
+      "32909117",
+      "38964117",
+      "24311645",
+      "41351424",
+      "40286967",
+      "41436831",
+      "36529430",
+      "41050075",
+      "39707194",
+      "28160566",
+      "34657141",
+      "31173296",
+      "41475670",
+      "41979998",
+      "40197379",
+      "41747848",
+      "30305602",
+      "27092879",
+      "42603632",
+      "32416168",
+      "34981299",
+      "42002825",
+      "30425057",
+      "31419987",
+      "23416699",
+      "42192326",
+      "30078018",
+      "41849028",
+      "39127414",
+      "32252802",
+      "39629744",
+      "30208924",
+      "27783990",
+      "40205485",
+      "41578162",
+      "39352539",
+      "29602127",
+      "40589077",
+      "30150059",
+      "41866488",
+      "29110682",
+      "30964174",
+      "41756290",
+      "42674822",
+      "31171769",
+      "38719174",
+      "39707188",
+      "32268875",
+      "34173716",
+      "38884661",
+      "29426364",
+      "31669648",
+      "42271032",
+      "35580699",
+      "28714009",
+      "38977800",
+      "36479622",
+      "41935591",
+      "36158256",
+      "41168860",
+      "38677505",
+      "39237674",
+      "36319130",
+      "42477639",
+      "38716545",
+      "40692252",
+      "31747856",
+      "32009256",
+      "40108613",
+      "28666210",
+      "42373257",
+      "31858558",
+      "38637831",
+      "41716413",
+      "30498093",
+      "32894165",
+      "39344330",
+      "38193984",
+      "34080022",
+      "41050079",
+      "41184253",
+      "40270974",
+      "42260484",
+      "38212546",
+      "41208601",
+      "40830197"
+    ],
+    "review": [
+      "39620895"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39620895/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.70181",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.06.592622",
+  "title": "Explainable models using transcription factor binding and epigenome patterns at promoters reveal disease-associated genes and their regulators in the context of cell-types",
+  "authors": "Omkar Chandra; Durjay Pramanik; Srishti Gautam; Madhu Sharma; Niharika Dubey; Biswarup Mahato; Yuriy L Orlov; Vibhor Kumar",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-08",
+  "window": {
+    "start": "2024-05-06",
+    "end": "2024-05-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用TF结合与表观遗传特征构建机器学习模型关联疾病基因，虽涉及TF-DNA结合模式，但侧重疾病关联预测而非结合机制建模，方法为传统ML，深度有限。",
+  "abstract": "Understanding genome-wide epigenetic regulation of diseases is important in establishing pathogenic factors and could aid in disease diagnosis, prognosis, and therapeutics. In this study, we have utilized transcription factors (TFs) and co-factor profiles (n=823) as features in machine learning models to link them to various diseases. Further, along with TFs and co-factor profiles, histone modifications ChIP-seq (n = 621), cap analysis gene expression (CAGE) tags (n = 255), and DNase hypersensitivity profiles (n = 255) as features allowed for the modeling of association of coding and non-coding genes to diseases. Such predicted associations could be independently validated using genome-wide association data and survival analysis. However, the unique aspect of our approach is that it highlights the link between TF binding patterns and diseases in the context of cell types. Besides highlighting relevant TF-binding in known cell-types associated with diseases, it also provided their surprising link with TFs expressed in immune cells and other seemingly non-related cells. Further investigation revealed such links to be genuine and potentially useful for prognosis, further revealing the need to deconvolve a set of known genes associated with diseases.",
+  "abstract_zh": "理解疾病的全基因组表观遗传调控对于确立致病因素至关重要，并可能有助于疾病的诊断、预后及治疗。在本研究中，我们利用转录因子（TFs）及共因子谱（n=823）作为机器学习模型的特征，将其与多种疾病关联起来。此外，结合TFs和共因子谱，组蛋白修饰ChIP-seq（n=621）、帽分析基因表达（CAGE）标签（n=255）及DNase超敏性谱（n=255）作为特征，使得编码和非编码基因与疾病的关联建模成为可能。这些预测的关联可通过全基因组关联数据和生存分析进行独立验证。然而，我们方法的独特之处在于，它突出了在细胞类型背景下TF结合模式与疾病之间的联系。除了在已知与疾病相关的细胞类型中突出相关TF结合外，它还揭示了这些结合与免疫细胞及其他看似无关细胞中表达的TF之间的意外关联。进一步调查表明，这些关联是真实的，并可能对预后有用，进一步揭示了需要对一组已知与疾病相关的基因进行去卷积分析的必要性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.06.592622",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.06.592622",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.06.592622/index.html"
+}

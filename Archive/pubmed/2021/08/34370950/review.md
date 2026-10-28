@@ -1,0 +1,60 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to study adsorption of HMGB1 on hydroxylated and nonhydroxylated rutile (110) TiO2 surfaces. They report that HMGB1 adsorbs directly onto both surfaces, with greater affinity on the hydroxylated surface; that water layers on the nonhydroxylated surface block direct protein and ion contact; and that increasing ionic strength increases ion adsorption while decreasing direct protein adsorption. They propose that these findings inform surface strategies for titanium implants to modulate HMGB1 interactions.
+- **Visible evidence base** Abstract text only; no simulation details, force field parameters, system sizes, simulation times, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation setup and validation, force field choice, system composition, ion concentrations, trajectory analyses, error estimates, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational study addressing a relevant biomedical interface problem. However, the evidence provided is insufficient to evaluate the technical soundness of the simulations or the robustness of the reported trends. The central claims about adsorption affinity, water layer effects, and ionic strength dependence are stated without quantitative support or methodological detail. The work may be of interest to the biomaterials and molecular simulation communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biomaterials, implant surface engineering, and protein-surface interactions would be interested because the study addresses molecular mechanisms underlying titanium implant osseointegration and inflammation. Computational biophysicists studying protein adsorption and ion effects at inorganic interfaces may also find the simulation approach relevant.
+- **Major strengths** The topic is clinically relevant and timely, connecting a key damage-associated molecular pattern (HMGB1) to implant surface chemistry. The comparison between hydroxylated and nonhydroxylated TiO2 surfaces is a sensible design. The consideration of ionic strength as a modulating factor adds practical relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that HMGB1 is "most likely to be adsorbed directly onto the surface regardless of surface hydroxylation" and that the hydroxylated surface shows "greater affinity" for HMGB1.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data, simulation parameters, or analysis methods are presented to support these affinity and adsorption mode claims. Without details on force field, water model, simulation length, system size, sampling, and free energy or contact analysis, the reliability of these conclusions cannot be assessed.
+  - **Why it matters** Adsorption affinity and direct contact are central conclusions. If the simulations are underconverged, use inappropriate force fields, or lack sufficient sampling, the reported trends could be artifacts.
+  - **Resolution test** Provide simulation details, convergence checks, and quantitative measures (e.g., contact probabilities, free energy profiles, or density distributions) that support the stated adsorption modes and affinity differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "the water layer on the nonhydroxylated TiO2 surface prevents ions and the protein from directly contacting the surface" and that "if the ionic strength increases, the total number of ions adsorbed on the two surfaces increases and the protein's direct adsorption ability decreases."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** These claims are presented as definitive findings, but no ion concentrations, simulation conditions, or quantitative results (e.g., ion density profiles, protein-surface distance distributions) are given. The relationship between ionic strength and protein adsorption is stated without error bars or statistical analysis.
+  - **Why it matters** The proposed surface strategy relies on modulating ionic strength to control protein adsorption. If the ionic strength range is narrow or the effect is not statistically robust, the practical implications are weakened.
+  - **Resolution test** Report the ionic strength values tested, the number of independent simulations, and quantitative measures of ion and protein adsorption with uncertainties.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "most likely to be adsorbed directly onto the surface" is vague and could be misinterpreted as a probabilistic statement without statistical backing.
+  - **Required correction** Replace with a precise description of the observed adsorption mode, e.g., "in all simulations, HMGB1 formed direct contacts with the surface" or provide a quantitative probability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that findings "will help to understand" and "development of different surface strategies" is speculative and not directly supported by the simulation results presented.
+  - **Required correction** Soften the language to indicate that the results "may inform" future experimental studies, and avoid overstating translational relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims about adsorption affinity, water layer effects, and ionic strength dependence are not supported by any quantitative or methodological evidence in the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is not entirely novel, as protein adsorption on TiO2 has been studied, but the specific focus on HMGB1 and ion effects may offer a new angle. However, originality cannot be fully assessed from the abstract.
+  - Scientific importance: The potential clinical relevance is high, but the abstract does not demonstrate that the findings advance fundamental understanding beyond existing knowledge.
+  - Interdisciplinary readership: The work bridges biomaterials, immunology, and computational chemistry, which could appeal to a broad audience, but the abstract is too technical in places and lacks context for nonspecialists.
+  - Technical soundness: Not assessable from the abstract; no methods or validation are provided.
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon (e.g., DAMP, rutile) without sufficient explanation, and the key findings are stated without quantitative context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting study, but the lack of methodological and quantitative detail prevents a supportive recommendation. The authors should provide full simulation details and robust evidence for the central claims.
+
+## Risk / unsupported claims
+- The claim that HMGB1 adsorbs directly onto both surfaces is unsupported without contact analysis or trajectory data.
+- The claim that the hydroxylated surface has greater affinity is unsupported without free energy or quantitative affinity measures.
+- The claim that water layers prevent ion and protein contact on the nonhydroxylated surface is unsupported without density profiles or distance distributions.
+- The claim that increasing ionic strength decreases direct protein adsorption is unsupported without specific ion concentration data and statistical analysis.
+- The translational claim about developing surface strategies is speculative and not directly supported by the simulation results.

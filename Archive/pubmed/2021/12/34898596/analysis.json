@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34898596",
+  "title": "CoRE-ATAC: A deep learning model for the functional classification of regulatory elements from single cell and bulk ATAC-seq data.",
+  "authors": "Thibodeau, Asa; Khetan, Shubham; Eroglu, Alper; Tewhey, Ryan; Stitzel, Michael L; Ucar, Duygu",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-12-14",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习模型CoRE-ATAC对ATAC-seq数据中的顺式调控元件进行功能分类，虽涉及转录因子结合调控，但主要聚焦于调控元件功能预测而非TF-DNA结合位点或互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Cis-Regulatory elements (cis-REs) include promoters, enhancers, and insulators that regulate gene expression programs via binding of transcription factors. ATAC-seq technology effectively identifies active cis-REs in a given cell type (including from single cells) by mapping accessible chromatin at base-pair resolution. However, these maps are not immediately useful for inferring specific functions of cis-REs. For this purpose, we developed a deep learning framework (CoRE-ATAC) with novel data encoders that integrate DNA sequence (reference or personal genotypes) with ATAC-seq cut sites and read pileups. CoRE-ATAC was trained on 4 cell types (n = 6 samples/replicates) and accurately predicted known cis-RE functions from 7 cell types (n = 40 samples) that were not used in model training (mean average precision = 0.80, mean F1 score = 0.70). CoRE-ATAC enhancer predictions from 19 human islet samples coincided with genetically modulated gain/loss of enhancer activity, which was confirmed by massively parallel reporter assays (MPRAs). Finally, CoRE-ATAC effectively inferred cis-RE function from aggregate single nucleus ATAC-seq (snATAC) data from human blood-derived immune cells that overlapped with known functional annotations in sorted immune cells, which established the efficacy of these models to study cis-RE functions of rare cells without the need for cell sorting. ATAC-seq maps from primary human cells reveal individual- and cell-specific variation in cis-RE activity. CoRE-ATAC increases the functional resolution of these maps, a critical step for studying regulatory disruptions behind diseases.",
+  "abstract_zh": "顺式调控元件（cis-REs）包括启动子、增强子和绝缘子，它们通过转录因子的结合调控基因表达程序。ATAC-seq技术通过以碱基对分辨率绘制可及染色质图谱，有效识别特定细胞类型（包括单细胞）中的活性顺式调控元件。然而，这些图谱并不能直接用于推断顺式调控元件的具体功能。为此，我们开发了一个深度学习框架（CoRE-ATAC），其采用新颖的数据编码器，将DNA序列（参考或个体基因型）与ATAC-seq切割位点及读取堆积整合。CoRE-ATAC在4种细胞类型（n=6个样本/重复）上训练，并准确预测了未用于模型训练的7种细胞类型（n=40个样本）中已知的顺式调控元件功能（平均平均精度=0.80，平均F1分数=0.70）。CoRE-ATAC对19个人类胰岛样本的增强子预测与遗传调控的增强子活性增益/丧失相吻合，并通过大规模平行报告基因分析（MPRAs）得到证实。最后，CoRE-ATAC有效推断出人类血液来源免疫细胞中聚合单核ATAC-seq（snATAC）数据的顺式调控元件功能，这些功能与分选免疫细胞中的已知功能注释重叠，从而确立了这些模型在研究稀有细胞顺式调控元件功能方面的有效性，无需进行细胞分选。来自原代人类细胞的ATAC-seq图谱揭示了顺式调控元件活性中的个体和细胞特异性变异。CoRE-ATAC提高了这些图谱的功能分辨率，这是研究疾病背后调控紊乱的关键步骤。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34898596/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34898596/",
+  "paper_page_path": "papers/pubmed/34898596/index.html"
+}

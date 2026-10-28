@@ -1,0 +1,123 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without figures, tables, or supplementary materials.
+- **Assessment boundary** Evaluation of the methodological novelty, technical soundness, and validity of claims based solely on the provided text. Figures, tables, and supplementary notes referenced but not provided are outside the direct evidence base.
+- **Shared manuscript claim summary** The authors present MultiSC, a deep learning pipeline for analyzing multiomics single-cell data, specifically NEAT-seq, which profiles gene expression, chromatin accessibility, and intranuclear protein expression of transcription factors. The pipeline integrates three components: a single-cell hierarchical constraint autoencoder (scHCAE) for clustering, a matrix factorization model (scMF) for predicting TF-to-gene regulatory networks, and multivariate linear regression (MLR) models for exploring TF-target gene relationships. Additional functionalities include differential expression, mediation analysis, and causal inference. The authors claim superior performance over existing methods (Seurat, Cobolt, MOFA) based on clustering metrics and demonstrate utility through case studies.
+- **Visible evidence base** Main text methods and results sections. Referenced figures (Figs 1–8), tables, and supplementary notes (S1–S13) are not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary notes. Quantitative results (e.g., clustering metrics, p-values, effect sizes) are referenced but not shown. Details of model architecture, hyperparameters, and training procedures are incomplete. Benchmarking protocols and statistical test specifics are not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in the analysis of three-modality single-cell data, and the proposed pipeline integrates several reasonable computational components. However, the current text provides insufficient technical detail and quantitative evidence to fully evaluate the novelty, robustness, and generalizability of the methods. The claims of superior performance are not substantiated without the referenced figures and tables. The manuscript has potential but requires substantial revision and additional evidence to establish its case.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on single-cell multiomics integration, gene regulatory network inference, and deep learning applications in genomics. The pipeline could be of interest to experimentalists using NEAT-seq or similar technologies who need tools for integrated analysis.
+- **Major strengths**
+  - Addresses a clear and timely need for tools that integrate three modalities of single-cell data.
+  - Combines multiple established techniques (autoencoders, matrix factorization, regression) into a unified pipeline.
+  - Includes a range of downstream analyses, increasing practical utility.
+  - Provides code and data availability, supporting reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that scHCAE outperforms Seurat, Cobolt, and MOFA in clustering accuracy and consistency.
+  - **Evidence pointer** Results section, Figures 3 and 4 (not provided).
+  - **Concern** The quantitative results supporting the superior clustering performance are not visible in the provided text. The metrics (Hopkins statistics, Silhouette coefficients) are described, but the actual values, statistical significance, and comparison details are absent. Without these data, the claim cannot be evaluated.
+  - **Why it matters** The central claim of the manuscript is the improved performance of the proposed method. Without the supporting quantitative evidence, the scientific contribution is not established.
+  - **Resolution test** Provide the referenced figures and tables with clear statistical comparisons (e.g., mean ± SD, p-values) across multiple datasets and benchmarking scenarios.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The description of the scHCAE model architecture and training procedure.
+  - **Evidence pointer** Methods section, "Denoising hierarchical constraint multimodal autoencoder" and "Total loss of single-cell hierarchical constraint autoencoder".
+  - **Concern** The model architecture is described only at a high level. Key details are missing: the number of layers and neurons, the dimension of the latent space, the specific implementation of the ZINB loss, the optimization algorithm, learning rate, batch size, number of epochs, and early stopping criteria. The equations for the loss functions are referenced but not shown in the text.
+  - **Why it matters** Reproducibility is a cornerstone of computational method papers. Without these details, other researchers cannot implement or validate the method.
+  - **Resolution test** Provide a complete description of the network architecture, training hyperparameters, and the full loss function equations in the main text or a detailed supplementary note.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The scMF model for predicting TF-to-gene regulatory networks.
+  - **Evidence pointer** Methods section, "scMF for predicting transcription factor to gene regulatory network".
+  - **Concern** The description of the matrix factorization model is very brief. The objective function, regularization terms, optimization procedure, and how the learned matrix W is interpreted as a regulatory network are not specified. The validation of the predicted networks (e.g., against known regulatory interactions) is not described in the text.
+  - **Why it matters** The validity of the predicted regulatory networks is a key output of the pipeline. Without a clear model definition and validation strategy, the reliability of these predictions is unknown.
+  - **Resolution test** Provide a formal definition of the matrix factorization objective, the optimization algorithm, and a validation analysis against known TF-target gene databases or experimental data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The MLR models for exploring TF-target gene relationships and TF-TF coregulation.
+  - **Evidence pointer** Methods section, "Multivariate linear regression analysis to explore the interaction between antibody-derived tag and ATAC for regulating the target genes" and "Multivariate linear regression analysis to explore the interaction between two transcription factors and their effects on the common target genes".
+  - **Concern** The MLR models are described conceptually, but the exact model equations, covariates included, multiple testing corrections, and how significance is determined are not provided. The interpretation of the interaction term is not fully explained.
+  - **Why it matters** The statistical validity of the regression analyses is critical for the biological conclusions drawn. Incomplete statistical details prevent assessment of the robustness of the findings.
+  - **Resolution test** Provide the full model specifications, including all terms, error distributions, and multiple testing correction methods. Show the distribution of p-values and effect sizes for the reported analyses.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The claim that "there is currently no existing method or pipeline that effectively integrates the information from all three omics data types."
+  - **Evidence pointer** Introduction section.
+  - **Concern** The literature review is limited. While the authors mention several existing tools, a comprehensive comparison with recent multiomics integration methods (e.g., MOFA+, totalVI, WNN) is not provided. The novelty of the specific combination of techniques in MultiSC is not clearly articulated against the state of the art.
+  - **Why it matters** The scientific contribution depends on a clear demonstration of novelty. Without a thorough comparison, the incremental value of MultiSC is unclear.
+  - **Resolution test** Expand the introduction and discussion to include a systematic comparison with existing methods, highlighting specific advantages and novel contributions of MultiSC.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical jargon without sufficient context for a general reader.
+  - **Required correction** Briefly explain key terms (e.g., "multimodal constraint autoencoder") and state the main biological or clinical motivation more clearly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Count data preprocessing"
+  - **Evidence pointer** Methods section
+  - **Issue** The preprocessing steps are described briefly. The specific parameters for filtering, normalization, and scaling are not given.
+  - **Required correction** Provide the exact parameters used for quality control, normalization, and scaling, or refer to a specific supplementary note with these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Constraints in autoencoder from antibody-derived tag"
+  - **Evidence pointer** Methods section
+  - **Issue** The method for defining high, medium, and low abundance of ADT is not specified. The thresholds for creating must-links and cannot-links are unclear.
+  - **Required correction** Define the criteria for categorizing ADT levels and the rules for generating constraints.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Target gene prediction"
+  - **Evidence pointer** Results section
+  - **Issue** The text refers to "Figure 3f" and "Figure 3d" in the context of target gene results, but earlier text refers to "Figure 5" for the same analysis. This inconsistency is confusing.
+  - **Required correction** Ensure all figure references are correct and consistent throughout the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Transcription factor-based differential expression"
+  - **Evidence pointer** Results section
+  - **Issue** The description of the DE analysis is brief. The statistical test used (Wilcoxon test) is mentioned, but the multiple testing correction method is not stated.
+  - **Required correction** Specify the multiple testing correction method (e.g., Benjamini-Hochberg) and the significance threshold used.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of limitations is brief and does not address potential issues with the model's interpretability, scalability to larger datasets, or sensitivity to the choice of constraints.
+  - **Required correction** Expand the limitations section to discuss these aspects and potential solutions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Missing quantitative results for clustering performance.
+  - R1-M2: Incomplete model architecture and training details.
+  - R1-M3: Undefined matrix factorization model and validation.
+  - R1-M4: Incomplete statistical details for MLR models.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of existing techniques is somewhat novel, but the individual components are well-established. The specific application to three-modality NEAT-seq data is a contribution, but the novelty is not clearly differentiated from existing multiomics methods.
+  - **Scientific importance** Moderate to high. The ability to integrate and analyze three modalities of single-cell data is important for understanding gene regulation. The pipeline could be a useful resource for the community.
+  - **Interdisciplinary readership** Moderate. The work is primarily of interest to computational biologists and bioinformaticians. The biological insights are limited in the provided text, reducing appeal to a broader biological audience.
+  - **Technical soundness** Currently not established. The lack of quantitative results and incomplete methodological details prevent a full assessment of the technical validity.
+  - **Readability for nonspecialists** Fair. The abstract and introduction are somewhat accessible, but the methods and results sections are dense and assume significant prior knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem and presents a plausible pipeline. However, the current evidence base is insufficient to support the claims of superior performance and utility. Major revisions are required to provide the missing quantitative data, complete methodological details, and a clearer demonstration of novelty.
+
+## Risk / unsupported claims
+- The claim of superior clustering performance over Seurat, Cobolt, and MOFA is unsupported without the referenced figures and tables.
+- The claim that scMF accurately predicts TF-target gene networks is unsupported without a defined model and validation results.
+- The biological insights (e.g., GATA3 target genes, TF coregulation) are presented as findings but lack statistical details and context.
+- The generalizability of the pipeline to other multiomics single-cell technologies is claimed but not demonstrated.
+- The statement that "there is currently no existing method or pipeline" for three-modality integration is a strong claim that is not fully supported by the provided literature review.

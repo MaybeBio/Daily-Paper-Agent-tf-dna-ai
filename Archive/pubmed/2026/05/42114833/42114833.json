@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "42114833",
+    "doi": "10.1021/acs.est.6c02059",
+    "title": "Combination of Chromatographic and Machine Learning-Driven Virtual Fractionation Identifies Aryl Hydrocarbon Receptor Agonists in Sediments."
+  },
+  "content": {
+    "abstract": "Complex organic chemical mixtures in aquatic ecosystems may cause adverse effects on aquatic and sediment-dwelling organisms. Identified chemicals typically explain less than 10% of the observed in vitro bioactivities of such complex mixtures extracted from sediments. In a proof-of-concept study, we combined high-resolution fractionation with machine-learning-driven virtual fractionation to identify aryl hydrocarbon receptor (AhR) agonists in sediment from the Elbe River, Germany. Reporter gene assay showed that only apolar fractions activated the AhR but without specificity among them, necessitating additional virtual fractionation after analysis by gas chromatography coupled with high-resolution mass spectrometry (GC-HRMS). Activity and potency predictions by machine learning models for deconvoluted GC-HRMS features from mass spectral reference library matching allowed the identification of 145 AhR-active HRMS features, with 26 chemicals bioanalytically and chemically confirmed, most of which were polycyclic aromatic hydrocarbons (PAHs). With semiquantified concentrations and estimated potency for the tentatively identified chemicals, the mixture effects of the identified agonists accounted for 14% to 47% of AhR activation in sediments, doubling the contribution of known US EPA priority PAHs. This study provides an effective tool for early screening of AhR agonists, serving as a blueprint to identify causative chemicals for other environmentally relevant modes of toxic action.",
+    "keywords": [
+      "effect-directed analysis (EDA)",
+      "environmental monitoring",
+      "high-resolution mass spectrometry",
+      "in vitro bioassay",
+      "new approach methodologies (NAMs)",
+      "suspect screening analysis"
+    ],
+    "mesh_terms": [
+      "*Receptors, Aryl Hydrocarbon/agonists",
+      "*Machine Learning",
+      "*Geologic Sediments/chemistry",
+      "Water Pollutants, Chemical",
+      "Polycyclic Aromatic Hydrocarbons",
+      "Gas Chromatography-Mass Spectrometry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Haotian",
+        "Braun, Georg",
+        "Kamjunke, Norbert",
+        "Krauss, Martin",
+        "Jiang, Guibin",
+        "Escher, Beate I"
+      ],
+      "short_names": [
+        "Wang H",
+        "Braun G",
+        "Kamjunke N",
+        "Krauss M",
+        "Jiang G",
+        "Escher BI"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8178-8095",
+        "ORCID: 0000-0002-2513-9039",
+        "ORCID: 0000-0002-0362-4244",
+        "ORCID: 0000-0002-6335-3917",
+        "ORCID: 0000-0002-5304-706X"
+      ],
+      "affiliations": [
+        "Department of Cell Toxicology, Helmholtz Centre for Environmental Research-UFZ, Leipzig 04318, Germany.",
+        "State Key Laboratory of Environmental Chemistry and Toxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+        "Department of Cell Toxicology, Helmholtz Centre for Environmental Research-UFZ, Leipzig 04318, Germany.",
+        "Department of River Ecology, Helmholtz Centre for Environmental Research-UFZ, Magdeburg 39114, Germany.",
+        "Department of Exposure Science, Helmholtz Centre for Environmental Research-UFZ, Leipzig 04318, Germany.",
+        "State Key Laboratory of Environmental Chemistry and Toxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China.",
+        "Department of Cell Toxicology, Helmholtz Centre for Environmental Research-UFZ, Leipzig 04318, Germany.",
+        "Environmental Toxicology, Department of Geosciences, Eberhard Karls University Tubingen, Tubingen 72076, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Haotian",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0001-8178-8095"
+        ],
+        "affiliations": [
+          "Department of Cell Toxicology, Helmholtz Centre for Environmental Research-UFZ, Leipzig 04318, Germany.",
+          "State Key Laboratory of Environmental Chemistry and Toxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China."
+        ]
+      },
+      {
+        "full_name": "Braun, Georg",
+        "short_name": "Braun G",
+        "identifiers": [
+          "0000-0002-2513-9039"
+        ],
+        "affiliations": [
+          "Department of Cell Toxicology, Helmholtz Centre for Environmental Research-UFZ, Leipzig 04318, Germany."
+        ]
+      },
+      {
+        "full_name": "Kamjunke, Norbert",
+        "short_name": "Kamjunke N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of River Ecology, Helmholtz Centre for Environmental Research-UFZ, Magdeburg 39114, Germany."
+        ]
+      },
+      {
+        "full_name": "Krauss, Martin",
+        "short_name": "Krauss M",
+        "identifiers": [
+          "0000-0002-0362-4244"
+        ],
+        "affiliations": [
+          "Department of Exposure Science, Helmholtz Centre for Environmental Research-UFZ, Leipzig 04318, Germany."
+        ]
+      },
+      {
+        "full_name": "Jiang, Guibin",
+        "short_name": "Jiang G",
+        "identifiers": [
+          "0000-0002-6335-3917"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Toxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China."
+        ]
+      },
+      {
+        "full_name": "Escher, Beate I",
+        "short_name": "Escher BI",
+        "identifiers": [
+          "0000-0002-5304-706X"
+        ],
+        "affiliations": [
+          "Department of Cell Toxicology, Helmholtz Centre for Environmental Research-UFZ, Leipzig 04318, Germany.",
+          "Environmental Toxicology, Department of Geosciences, Eberhard Karls University Tübingen, Tübingen 72076, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental science & technology"
+    ],
+    "journal_abbrev": [
+      "Environ Sci Technol"
+    ],
+    "pub_date": "2026 May 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/12 00:33",
+    "fetched_at": "2026-10-01 20:31:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41165586",
+      "41026104",
+      "40687504",
+      "40314361",
+      "40247142",
+      "39933915",
+      "39900897",
+      "39779692",
+      "39631442",
+      "38992177",
+      "38945088",
+      "38820315",
+      "38696305",
+      "37704971",
+      "37319372",
+      "36827403",
+      "36483216",
+      "36266304",
+      "35148085",
+      "35050604",
+      "34739213",
+      "34142809",
+      "33140634",
+      "32960593",
+      "32897547",
+      "32700975",
+      "31974245",
+      "31974244",
+      "31974243",
+      "31852180",
+      "31584268",
+      "31503459",
+      "31328511",
+      "31274283",
+      "31096846",
+      "30548063",
+      "30346461",
+      "29846006",
+      "29547277",
+      "29411163",
+      "29101429",
+      "28877430",
+      "28695261",
+      "28550780",
+      "28190338",
+      "27640527",
+      "27367298",
+      "26706770",
+      "26366531",
+      "25108069",
+      "24979762",
+      "24146763",
+      "23987121",
+      "21908767",
+      "21330491",
+      "18546721",
+      "16864780",
+      "16829543",
+      "16568750",
+      "14691206",
+      "11979591",
+      "2992927"
+    ],
+    "similar": [
+      "42114833",
+      "31675573",
+      "18936997",
+      "35738515",
+      "24411837",
+      "40626791",
+      "24548649",
+      "24146763",
+      "39566688",
+      "22257214",
+      "34481160",
+      "34030261",
+      "27993371",
+      "39393239",
+      "35500338",
+      "41846135",
+      "27043777",
+      "31328511",
+      "26706770",
+      "25645060",
+      "27640527",
+      "34426193",
+      "29573714",
+      "35077967",
+      "35738365",
+      "27810545",
+      "21391090",
+      "32960593",
+      "21590714",
+      "17938895",
+      "19296140",
+      "38657698",
+      "26408977",
+      "24213842",
+      "17993219",
+      "40577923",
+      "27146477",
+      "26298852",
+      "11525907",
+      "28711771",
+      "23932260",
+      "38696305",
+      "25196082",
+      "25111307",
+      "22818911",
+      "42173338",
+      "22447245",
+      "24408822",
+      "11764156",
+      "17326446",
+      "35307388",
+      "41124814",
+      "16910124",
+      "12206418",
+      "38000551",
+      "29655065",
+      "42234849",
+      "29355773",
+      "15884378",
+      "21348526",
+      "24497304",
+      "21762708",
+      "11764160",
+      "15504500",
+      "23925657",
+      "10788565",
+      "18350874",
+      "32167753",
+      "39933915",
+      "27083484",
+      "15579409",
+      "14999315",
+      "30611761",
+      "35066031",
+      "10556367",
+      "19344927",
+      "16758706",
+      "27692884",
+      "17492086",
+      "30648756",
+      "11434290",
+      "25532870",
+      "39631442",
+      "24363052",
+      "37116726",
+      "37769908",
+      "18800538",
+      "35739584",
+      "24003986",
+      "16225999",
+      "22538776",
+      "28710019",
+      "26444225",
+      "30576387",
+      "33213151",
+      "18497156",
+      "33647203",
+      "12842597",
+      "34029822",
+      "37259878"
+    ],
+    "review": [
+      "42114833"
+    ],
+    "pmc": [
+      "13217564"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42114833/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/esthag/article-lookup/doi/10.1021/acs.est.6c02059",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

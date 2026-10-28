@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2023.12.21.23300370",
+  "title": "Using computational approaches to enhance the interpretation of missense variants in the PAX6 gene",
+  "authors": "Andhika NS; Biswas S; Hardcastle C; Green D; Ramsden SC; Birney E; Black GC; Sergouniotis PI",
+  "journal": "medRxiv",
+  "published_date": "2023-12-26",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该文评估并优化计算工具对PAX6转录因子错义变异的致病性预测，虽涉及TF-DNA相关蛋白，但核心是变异致病性分类而非蛋白-DNA互作建模，方法为工具评估而非AI/物理模拟创新。",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Purpose</h4> The PAX6 gene encodes a highly-conserved transcription factor involved in eye development. Heterozygous loss-of-function variants in PAX6 can cause a range of ophthalmic disorders including aniridia. A key molecular diagnostic challenge is that many PAX6 missense changes are presently classified as variants of uncertain significance. While computational tools can be used to assess the effect of genetic alterations, the accuracy of their predictions varies. Here, we evaluated and optimised the performance of computational prediction tools in relation to PAX6 missense variants. <h4>Methods</h4> Through inspection of publicly available resources (including HGMD, ClinVar, LOVD and gnomAD), we identified 241 PAX6 missense variants that were used for model training and evaluation. The performance of ten commonly-used computational tools was assessed and a threshold optimization approach was utilized to determine optimal cut-off values. Validation studies were subsequently undertaken using PAX6 variants from a local database. <h4>Results</h4> AlphaMissense, SIFT4G and REVEL emerged as the best-performing predictors; the optimized thresholds of these tools were 0.967, 0.025, and 0.772, respectively. Combining the prediction from these top-three tools resulted in lower performance compared to using AlphaMissense alone. <h4>Conclusion</h4> Tailoring the use of computational tools by employing optimized thresholds specific to PAX6 can enhance algorithmic performance. Our findings have implications for PAX6 variant interpretation in clinical settings.",
+  "abstract_zh": "<h4>摘要</h4> <h4>目的</h4> PAX6基因编码一种高度保守的转录因子，参与眼睛发育。PAX6中的杂合功能丧失型变异可导致一系列眼科疾病，包括无虹膜症。一个关键的分子诊断挑战是，目前许多PAX6错义变异被归类为意义不确定的变异。虽然计算工具可用于评估遗传改变的影响，但其预测的准确性各不相同。在此，我们评估并优化了计算预测工具在PAX6错义变异方面的性能。<h4>方法</h4> 通过检查公开可用的资源（包括HGMD、ClinVar、LOVD和gnomAD），我们识别出241个PAX6错义变异，用于模型训练和评估。评估了十种常用计算工具的性能，并采用阈值优化方法来确定最佳截断值。随后，使用本地数据库中的PAX6变异进行了验证研究。<h4>结果</h4> AlphaMissense、SIFT4G和REVEL成为表现最佳的预测工具；这些工具的优化阈值分别为0.967、0.025和0.772。将这三个顶级工具的预测结果相结合，其性能低于单独使用AlphaMissense。<h4>结论</h4> 通过采用针对PAX6特异的优化阈值来定制计算工具的使用，可以增强算法性能。我们的发现对临床环境中的PAX6变异解读具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2023.12.21.23300370",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2023.12.21.23300370",
+  "paper_page_path": "papers/medrxiv/10.1101_2023.12.21.23300370/index.html"
+}

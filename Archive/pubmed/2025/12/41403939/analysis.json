@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41403939",
+  "title": "Altered lipid profiles in the prefrontal cortex are associated with neuroinflammation after severe burn injury.",
+  "authors": "O'Leary, Sean; Prasai, Anesh; Robledo, Ariadna; Thang, Christopher; Wang, Ye; Deshpande, Rahul R; Russell, William K; Murton, Andrew J; Wolf, Steven E; El Ayadi, Amina",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-12-17",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究探讨严重烧伤后前额叶皮层脂质谱改变与神经炎症的关系，使用XGBoost分析脂质数据，但完全不涉及蛋白质-DNA互作、转录因子结合或相关建模方法，与本课题无关。",
+  "abstract": "BACKGROUND: Severe burn injuries can cause long-term cognitive impairments, potentially driven by lipid-mediated neuroinflammation in the central nervous system (CNS). The disruption of lipid homeostasis may contribute to neuroinflammatory responses, exacerbating neuronal damage. This study investigates whether acipimox, an anti-lipolytic agent, modulates lipid accumulation and neuroinflammation in the prefrontal cortex following severe burns. METHODS: Sprague Dawley rats were randomized into four groups: sham vehicle, sham acipimox, burn vehicle, and burn acipimox. A scald injury covering 40-60% of total body surface area was induced, and rats were treated with acipimox (50 mg/kg/day, intraperitoneally) or vehicle for seven days. Lipidomic analysis assessed alterations in lipid profiles, while machine learning (XGBoost) identified key lipid drivers of burn-induced neuroinflammation. Additionally, mRNA expression of inflammatory markers, including interleukin-1beta (IL-1beta), nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kappaB), and toll-like receptor 4 (TLR4), was quantified to evaluate neuroinflammatory responses. Cytokine-lipid correlations were also examined using Spearman analysis. RESULTS: Lipidomic analysis identified significant alterations in a subset of the 21 lipid classes analyzed, particularly long-chain and very-long-chain fatty acids, including lysophosphatidylethanolamines, lysophosphatidylcholines, phosphatidylglycerols, phosphatidylethanolamines, and triacylglycerols (p < 0.05). Machine learning (XGBoost) identified these lipids as significantly modulated with burn injury (AUC > 0.80). Acipimox treatment reduced lipid accumulation, restoring levels to sham values. Furthermore, mRNA analysis showed group differences in IL-1beta (overall ANOVA p = 0.030), with significant pairwise difference observed for burn-vehicle vs sham-acipimox. Acipimox also modulated NF-kappaB and TLR4 expression, indicating attenuation of inflammatory signaling. IL-1beta and LPL positively correlated with lipid classes elevated by burn and reversed by acipimox, while IL-6, TNF-alpha, NF-kappaB, and TLR4 showed predominantly negative associations. DISCUSSION: These findings suggest that severe burns induce significant lipid dysregulation in the CNS, contributing to neuroinflammation and potential cognitive impairment. By targeting lipolysis, acipimox mitigates lipid accumulation, suppresses inflammatory pathways, and normalizes lipid levels, highlighting a potential therapeutic mechanism. CONCLUSION: This study establishes a mechanistic link between elevated lipolysis and CNS inflammation following severe burns. Acipimox effectively modulates lipid profiles and reduces neuroinflammation, underscoring its potential for managing burn-induced neurological complications. Further studies are needed to validate these findings and explore clinical applications.",
+  "abstract_zh": "背景：严重烧伤可导致长期认知功能障碍，其潜在机制可能涉及中枢神经系统（CNS）中脂质介导的神经炎症。脂质稳态的破坏可能促进神经炎症反应，加剧神经元损伤。本研究探讨抗脂解药物阿昔莫司（acipimox）是否调节严重烧伤后前额叶皮层中的脂质积累和神经炎症。方法：将Sprague Dawley大鼠随机分为四组：假手术对照组（sham vehicle）、假手术阿昔莫司组（sham acipimox）、烧伤对照组（burn vehicle）和烧伤阿昔莫司组（burn acipimox）。诱导覆盖总体表面积40-60%的烫伤损伤，并用阿昔莫司（50 mg/kg/天，腹腔注射）或对照溶剂处理七天。脂质组学分析评估脂质谱的变化，同时机器学习（XGBoost）识别烧伤诱导神经炎症的关键脂质驱动因子。此外，定量检测炎症标志物的mRNA表达，包括白细胞介素-1β（IL-1β）、核因子κB（NF-κB）和Toll样受体4（TLR4），以评估神经炎症反应。还使用Spearman分析检查细胞因子-脂质相关性。结果：脂质组学分析识别出所分析的21个脂质类别中一部分的显著变化，特别是长链和极长链脂肪酸，包括溶血磷脂酰乙醇胺、溶血磷脂酰胆碱、磷脂酰甘油、磷脂酰乙醇胺和三酰甘油（p < 0.05）。机器学习（XGBoost）将这些脂质识别为与烧伤损伤显著相关（AUC > 0.80）。阿昔莫司治疗减少了脂质积累，将其水平恢复至假手术组值。此外，mRNA分析显示IL-1β存在组间差异（总体ANOVA p = 0.030），烧伤对照组与假手术阿昔莫司组之间观察到显著的配对差异。阿昔莫司还调节了NF-κB和TLR4的表达，表明炎症信号传导减弱。IL-1β和LPL与烧伤升高且阿昔莫司逆转的脂质类别呈正相关，而IL-6、TNF-α、NF-κB和TLR4主要呈负相关。讨论：这些发现表明，严重烧伤诱导中枢神经系统中显著的脂质失调，促进神经炎症和潜在的认知障碍。通过靶向脂解作用，阿昔莫司减轻脂质积累、抑制炎症通路并使脂质水平正常化，突显了潜在的治疗机制。结论：本研究建立了严重烧伤后脂解增强与中枢神经系统炎症之间的机制联系。阿昔莫司有效调节脂质谱并减少神经炎症，强调了其在管理烧伤诱导的神经系统并发症方面的潜力。需要进一步研究以验证这些发现并探索临床应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41403939/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41403939/",
+  "paper_page_path": "papers/pubmed/41403939/index.html"
+}

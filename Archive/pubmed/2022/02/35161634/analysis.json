@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35161634",
+  "title": "MAFF-Net: Multi-Attention Guided Feature Fusion Network for Change Detection in Remote Sensing Images.",
+  "authors": "Ma, Jinming; Shi, Gang; Li, Yanxiang; Zhao, Ziyu",
+  "journal": "Sensors (Basel, Switzerland)",
+  "published_date": "2022-02-16",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究遥感图像变化检测的注意力特征融合网络，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "One of the most important tasks in remote sensing image analysis is remote sensing image Change Detection (CD), and CD is the key to helping people obtain more accurate information about changes on the Earth's surface. A Multi-Attention Guided Feature Fusion Network (MAFF-Net) for CD tasks has been designed. The network enhances feature extraction and feature fusion by building different blocks. First, a Feature Enhancement Module (FEM) is proposed. The FEM introduces Coordinate Attention (CA). The CA block embeds the position information into the channel attention to obtain the accurate position information and channel relationships of the remote sensing images. An updated feature map is obtained by using an element-wise summation of the input of the FEM and the output of the CA. The FEM enhances the feature representation in the network. Then, an attention-based Feature Fusion Module (FFM) is designed. It changes the previous idea of layer-by-layer fusion and chooses cross-layer aggregation. The FFM is to compensate for some semantic information missing as the number of layers increases. FFM plays an important role in the communication of feature maps at different scales. To further refine the feature representation, a Refinement Residual Block (RRB) is proposed. The RRB changes the number of channels of the aggregated features and uses convolutional blocks to further refine the feature representation. Compared with all compared methods, MAFF-Net improves the F1-Score scores by 4.9%, 3.2%, and 1.7% on three publicly available benchmark datasets, the CDD, LEVIR-CD, and WHU-CD datasets, respectively. The experimental results show that MAFF-Net achieves state-of-the-art (SOTA) CD performance on these three challenging datasets.",
+  "abstract_zh": "遥感图像分析中最重要的任务之一是遥感图像变化检测（Change Detection, CD），而CD是帮助人们获取更准确的地表变化信息的关键。针对CD任务，设计了一种多注意力引导的特征融合网络（Multi-Attention Guided Feature Fusion Network, MAFF-Net）。该网络通过构建不同的模块来增强特征提取和特征融合。首先，提出了特征增强模块（Feature Enhancement Module, FEM）。FEM引入了坐标注意力（Coordinate Attention, CA）。CA块将位置信息嵌入到通道注意力中，以获得遥感图像的准确位置信息和通道关系。通过将FEM的输入与CA的输出进行逐元素求和，得到更新后的特征图。FEM增强了网络中的特征表示。然后，设计了一种基于注意力的特征融合模块（Feature Fusion Module, FFM）。它改变了以往逐层融合的思路，选择跨层聚合。FFM旨在补偿随着层数增加而丢失的部分语义信息。FFM在不同尺度的特征图通信中起着重要作用。为了进一步细化特征表示，提出了细化残差块（Refinement Residual Block, RRB）。RRB改变聚合特征的信道数，并使用卷积块进一步细化特征表示。与所有对比方法相比，MAFF-Net在三个公开基准数据集CDD、LEVIR-CD和WHU-CD上，F1分数分别提高了4.9%、3.2%和1.7%。实验结果表明，MAFF-Net在这三个具有挑战性的数据集上达到了最先进的（state-of-the-art, SOTA）CD性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35161634/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35161634/",
+  "paper_page_path": "papers/pubmed/35161634/index.html"
+}

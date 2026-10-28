@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.10.687555",
+  "title": "AstraBIND: Graph Attention Network for Predicting Ligand Binding Sites",
+  "authors": "Aniruddh Goteti; Alexandra Vasilyeva; Çağlar Bozkurt",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-11",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图注意力网络预测配体结合位点，涵盖核苷酸等蛋白-DNA相关配体，但非聚焦TF-DNA互作机制，方法可迁移至本课题。",
+  "abstract": "Predicting ligand binding sites is central to computational biology and drug discovery. Existing machine learning approaches either use protein sequence, structure, or both. While structure-based deep learning models typically outperform sequence-based methods, they often require high computational cost or ligand-specific data, forcing a trade-off between accuracy and scalability. We present AstraBIND, a lightweight graph neural network that bridges this gap by integrating protein sequence, structure (experimental or predicted), and homology information to predict ligand classes and binding residues within minutes. The model employs a GATv2 architecture with 0.9 M parameters, trained on ¿250 000 curated protein–ligand complexes across 16 ligand categories. By encoding residue-level features and spatial geometry through graph attention, AstraBIND identifies binding residues and ligand types while maintaining structural consistency. In benchmarking, AstraBIND achieved a weighted macro-F1 of 0.47 across all ligand classes, with top performance for nucleotides (F1 = 0.79), porphyrins (0.74), and cofactors (0.73). Case studies, including p53 and CRFR1, demonstrate robust pocket localization for diverse proteins. Combined with its minimal inference time and broad ligand coverage, AstraBIND enables rapid in-silico screening and integration into laboratory workflows. Together with other Astra ML models (1; 2), it represents a step toward real-time protein design and validation pipelines. Astra models are available at https://www.orbion.life .",
+  "abstract_zh": "预测配体结合位点是计算生物学和药物发现的核心问题。现有的机器学习方法要么使用蛋白质序列、结构，或两者兼用。尽管基于结构的深度学习模型通常优于基于序列的方法，但它们往往需要高昂的计算成本或配体特异性数据，从而在准确性和可扩展性之间被迫做出权衡。我们提出了AstraBIND，一种轻量级图神经网络，通过整合蛋白质序列、结构（实验或预测）及同源信息，在数分钟内预测配体类别和结合残基，从而弥合了这一差距。该模型采用GATv2架构，包含0.9百万参数，在涵盖16个配体类别的约250,000个精选蛋白质-配体复合物上进行了训练。通过图注意力编码残基级特征和空间几何结构，AstraBIND在保持结构一致性的同时识别结合残基和配体类型。在基准测试中，AstraBIND在所有配体类别上实现了加权宏F1分数0.47，其中核苷酸（F1 = 0.79）、卟啉（0.74）和辅因子（0.73）表现最佳。案例研究，包括p53和CRFR1，展示了针对多样化蛋白质的稳健口袋定位能力。结合其极短的推理时间和广泛的配体覆盖范围，AstraBIND能够实现快速计算机模拟筛选，并整合到实验室工作流程中。与其他Astra ML模型（1；2）一起，它代表了向实时蛋白质设计和验证流程迈出的一步。Astra模型可在https://www.orbion.life获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687555",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687555",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.10.687555/index.html"
+}

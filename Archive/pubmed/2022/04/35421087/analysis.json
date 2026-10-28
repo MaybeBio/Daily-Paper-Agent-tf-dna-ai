@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35421087",
+  "title": "A general framework for predicting the transcriptomic consequences of non-coding variation and small molecules.",
+  "authors": "Abdalla, Moustafa; Abdalla, Mohamed",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-04-15",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用CNN框架预测非编码变异和药物对转录组的影响，虽涉及等位基因特异性转录因子结合，但核心是转录组预测而非TF-DNA互作机制建模，方法可迁移但对象和互作深度有限。",
+  "abstract": "Genome wide association studies (GWASs) for complex traits have implicated thousands of genetic loci. Most GWAS-nominated variants lie in noncoding regions, complicating the systematic translation of these findings into functional understanding. Here, we leverage convolutional neural networks to assist in this challenge. Our computational framework, peaBrain, models the transcriptional machinery of a tissue as a two-stage process: first, predicting the mean tissue specific abundance of all genes and second, incorporating the transcriptomic consequences of genotype variation to predict individual abundance on a subject-by-subject basis. We demonstrate that peaBrain accounts for the majority (>50%) of variance observed in mean transcript abundance across most tissues and outperforms regularized linear models in predicting the consequences of individual genotype variation. We highlight the validity of the peaBrain model by calculating non-coding impact scores that correlate with nucleotide evolutionary constraint that are also predictive of disease-associated variation and allele-specific transcription factor binding. We further show how these tissue-specific peaBrain scores can be leveraged to pinpoint functional tissues underlying complex traits, outperforming methods that depend on colocalization of eQTL and GWAS signals. We subsequently: (a) derive continuous dense embeddings of genes for downstream applications; (b) highlight the utility of the model in predicting transcriptomic impact of small molecules and shRNA (on par with in vitro experimental replication of external test sets); (c) explore how peaBrain can be used to model difficult-to-study processes (such as neural induction); and (d) identify putatively functional eQTLs that are missed by high-throughput experimental approaches.",
+  "abstract_zh": "复杂性状的全基因组关联研究（GWASs）已涉及数千个遗传位点。大多数GWAS提名的变异位于非编码区域，这使将这些发现系统性地转化为功能理解变得复杂。在此，我们利用卷积神经网络来应对这一挑战。我们的计算框架peaBrain将组织的转录机制建模为两阶段过程：首先，预测所有基因的平均组织特异性丰度；其次，结合基因型变异的转录组后果，以个体为基础预测个体丰度。我们证明，peaBrain解释了大多数组织（>50%）中观察到的平均转录本丰度方差，并在预测个体基因型变异的后果方面优于正则化线性模型。我们通过计算与核苷酸进化约束相关的非编码影响评分来强调peaBrain模型的有效性，这些评分也能预测疾病相关变异和等位基因特异性转录因子结合。我们进一步展示了如何利用这些组织特异性的peaBrain评分来精确定位复杂性状背后的功能性组织，优于依赖eQTL和GWAS信号共定位的方法。随后，我们：（a）为下游应用推导基因的连续密集嵌入；（b）强调模型在预测小分子和shRNA转录组影响方面的实用性（与外部测试集的体外实验复现相当）；（c）探索如何使用peaBrain模拟难以研究的过程（如神经诱导）；（d）识别高通量实验方法遗漏的推定功能性eQTL。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35421087/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35421087/",
+  "paper_page_path": "papers/pubmed/35421087/index.html"
+}

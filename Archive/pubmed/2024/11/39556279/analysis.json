@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39556279",
+  "title": "Identification and Validation of Oxidative Stress-Related Hub Genes in Parkinson's Disease.",
+  "authors": "Zhu, Lina; Chen, Deng; Wang, Xiangxiu; He, Chengqi",
+  "journal": "Molecular neurobiology",
+  "published_date": "2024-11-18",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过转录组数据识别帕金森病氧化应激相关枢纽基因并构建诊断模型，虽涉及转录因子调控网络预测，但核心是疾病生物标志物而非蛋白质-DNA互作机制建模，且无AI或物理模拟方法。",
+  "abstract": "Accumulating evidence suggests that oxidative stress plays a crucial role in the pathogenesis of Parkinson's disease (PD). The aims of this study were to identify oxidative stress-related hub genes, validate them through the construction of a diagnostic model, explore their interactions with miRNAs and transcription factors (TFs) and predict potential drug targets. Differentially expressed genes (DEGs) in the substantia nigra of PD patients were identified by analyzing a combination of datasets selected from the GEO database, including GSE7621, GSE20141, GSE49036, and GSE20163. The candidate genes associated with oxidative stress were screened by determining the overlap among the DEGs, oxidative stress-related genes (OSGs) and genes in key modules with the highest cor values identified via weighted gene coexpression network analysis (WGCNA). The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) databases were used to perform functional enrichment analysis of these candidate genes. The hub genes were identified via protein-protein interaction (PPI) analysis, and receiver operating characteristic (ROC) curves were constructed to assess the diagnostic value of each hub gene. Then, a diagnostic model was constructed via least absolute shrinkage and selection operator (LASSO) regression with the hub genes identified above, and the model was further validated in external validation datasets (GSE20292 and GSE20164). Gene-miRNA and gene-TF regulatory networks were predicted via the miRNet database, whereas candidate drugs were predicted via the Drug-Gene Interaction database. After analysis of the intersection of the 7975 DEGs, 434 OSGs, and 3582 genes identified through WGCNA, 76 candidate genes were identified. A total of 9 hub genes (JUN, KEAP1, SRC, GPX5, MMP9, TXN, MAPK3, GPX2, and IL1A) were identified via PPI and ROC curve analyses. A diagnostic model with the ability to reliably predict PD on the basis of the identified hub genes (AUC = 0.925) was constructed. Further analysis of these 9 genes revealed 64 targeted miRNAs, 35 TFs in regulatory networks and 86 potential therapeutic agents. Nine hub genes related to oxidative stress in the pathogenesis of PD were identified. These genes show strong diagnostic performance and could serve as therapeutic targets. These findings might facilitate the development of promising candidate biomarkers and potential disease-modifying therapies for PD.",
+  "abstract_zh": "越来越多的证据表明，氧化应激在帕金森病（Parkinson's disease, PD）的发病机制中起着关键作用。本研究旨在识别与氧化应激相关的核心基因，通过构建诊断模型进行验证，探索它们与miRNA和转录因子（TFs）的相互作用，并预测潜在的药物靶点。通过分析从GEO数据库选定的数据集组合（包括GSE7621、GSE20141、GSE49036和GSE20163），识别了PD患者黑质中的差异表达基因（DEGs）。通过确定DEGs、氧化应激相关基因（OSGs）以及通过加权基因共表达网络分析（WGCNA）识别出的具有最高相关值的关键模块基因之间的重叠，筛选出与氧化应激相关的候选基因。利用Gene Ontology（GO）和Kyoto Encyclopedia of Genes and Genomes（KEGG）数据库对这些候选基因进行功能富集分析。通过蛋白质-蛋白质相互作用（PPI）分析识别核心基因，并构建受试者工作特征（ROC）曲线以评估每个核心基因的诊断价值。随后，利用上述核心基因通过最小绝对收缩和选择算子（LASSO）回归构建诊断模型，并在外部验证数据集（GSE20292和GSE20164）中进一步验证该模型。通过miRNet数据库预测基因-miRNA和基因-TF调控网络，而候选药物则通过Drug-Gene Interaction数据库预测。在分析7975个DEGs、434个OSGs和通过WGCNA识别出的3582个基因的交集后，共识别出76个候选基因。通过PPI和ROC曲线分析，共识别出9个核心基因（JUN、KEAP1、SRC、GPX5、MMP9、TXN、MAPK3、GPX2和IL1A）。构建了一个基于所识别核心基因可靠预测PD的诊断模型（AUC = 0.925）。对这9个基因的进一步分析揭示了64个靶向miRNA、调控网络中的35个TFs以及86种潜在治疗药物。本研究识别出PD发病机制中与氧化应激相关的9个核心基因。这些基因表现出较强的诊断性能，并可作为治疗靶点。这些发现可能有助于开发有前景的候选生物标志物和潜在的疾病修饰疗法，用于PD的治疗。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39556279/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39556279/",
+  "paper_page_path": "papers/pubmed/39556279/index.html"
+}

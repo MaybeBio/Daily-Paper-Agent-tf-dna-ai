@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract claims that CP-31398 inhibits pathological aggregation of the R175H p53 mutant, restores its DNA interaction and functional droplet formation, modulates but does not restore functional condensates for R248W p53, and stabilizes the zinc-binding domain and 251-258 segment of R175H p53 based on molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no experimental or simulation data, no statistical details, no methodological descriptions
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that a small molecule can modulate the phase behavior of a p53 mutant and restore functional condensates. However, the evidence base is limited to a summary without quantitative results, methodological detail, or control descriptions. The mechanistic claim regarding zinc-binding domain and 251-258 segment stabilization is plausible but cannot be evaluated without simulation data. The differential effect between R175H and R248W is intriguing but lacks mechanistic explanation. The abstract is written clearly but the scientific case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those studying p53 mutations and their role in tumor suppression; investigators working on liquid-liquid phase separation in disease contexts; and scientists interested in small molecule therapeutics targeting mutant p53. The work could also appeal to computational biologists studying protein stability and drug binding.
+- **Major strengths** The study addresses a clinically relevant problem, namely rescuing mutant p53 function. The comparison between two different p53 mutants provides a useful contrast. The combination of experimental phase behavior assays with molecular dynamics simulations is a reasonable approach. The abstract is concise and clearly written.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that CP-31398 "inhibited the pathological aggregation of R175H p53, restored the interaction between R175H p53 and specific DNA, and promoted the formation of functional droplets."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, no statistical significance values, and no description of the assays used to measure aggregation, DNA interaction, or droplet formation. Without these details, the strength and reliability of the reported effects cannot be assessed.
+  - **Why it matters** The central claim of the paper rests on these experimental observations. If the effects are small, non-reproducible, or measured with inappropriate methods, the conclusion that CP-31398 restores functional condensates would be unsupported.
+  - **Resolution test** Provide quantitative results with appropriate statistical tests, describe the experimental methods in sufficient detail, and show representative images or traces for aggregation, DNA binding, and droplet formation assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract claims that "molecular dynamics simulations showed that CP-31398 enhanced the structural stability of R175H p53 by stabilizing the zinc-binding domain and 251-258 segment."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation details are provided, including force field, simulation length, system setup, or analysis methods. The claim that the zinc-binding domain and 251-258 segment are stabilized is presented without quantitative measures such as root-mean-square deviation, root-mean-square fluctuation, or binding free energy calculations.
+  - **Why it matters** The mechanistic explanation is a key contribution of the study. Without proper simulation methodology and quantitative analysis, the claim that these specific regions are stabilized by CP-31398 is not verifiable.
+  - **Resolution test** Provide simulation parameters, convergence checks, and quantitative stability metrics for the zinc-binding domain and 251-258 segment in the presence and absence of CP-31398.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of conclusion
+  - **Claim pointer** The abstract states that "these findings provided new insights into the molecular basis that CP-31398 restored the liquid-liquid phase separation of p53 mutant, and could offer the novel therapeutic strategy for cancers with p53 mutant."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports a differential effect for R248W p53, where CP-31398 "could regulate the phase behavior but not restore the formation of functional condensates." The therapeutic claim is broad and does not account for this differential response or for the many other p53 mutants found in cancer.
+  - **Why it matters** Overgeneralizing from two mutants to a broad therapeutic strategy may mislead readers about the potential clinical applicability. The differential response to R248W suggests that the approach may not be universally applicable.
+  - **Resolution test** Clarify the scope of the therapeutic claim, discuss the implications of the R248W result, and indicate whether the approach is expected to work for other p53 mutants or only for specific ones.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "droplets with the solidification tendency" is vague. It is unclear whether this refers to a known biophysical property of p53 condensates or a novel observation.
+  - **Required correction** Define the term or rephrase to describe the observed behavior more precisely, such as "p53 formed liquid droplets that exhibited time-dependent hardening" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not specify the experimental system, such as whether the studies were performed in vitro with purified proteins, in cell lysates, or in living cells.
+  - **Required correction** State the experimental system in the abstract or ensure it is clearly described in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Functional significance
+  - **Evidence pointer** Abstract, claim about DNA interaction
+  - **Issue** The abstract states that CP-31398 "restored the interaction between R175H p53 and specific DNA" but does not specify which DNA sequence or promoter was used, nor whether this interaction is functionally relevant in a cellular context.
+  - **Required correction** Specify the DNA target and, if possible, connect the interaction to a functional outcome such as transcriptional activation of p53 target genes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central experimental and mechanistic claims cannot be evaluated from the abstract alone. The lack of quantitative data and simulation details prevents verification of the main conclusions.
+- **Assessment against Nature-style criteria** Originality: the idea of using a small molecule to restore phase separation of mutant p53 is moderately original, though small molecule rescue of p53 mutants is not new. Scientific importance: the topic is important given the high frequency of p53 mutations in cancer, but the abstract does not demonstrate broad applicability. Interdisciplinary readership: the work bridges biophysics, cancer biology, and computational chemistry, which could appeal to a broad audience. Technical soundness: cannot be assessed from the abstract; no methods or data are provided. Readability for nonspecialists: the abstract is generally clear but uses specialized terms such as "liquid-liquid phase separation" and "condensates" without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of quantitative data, methodological detail, and simulation parameters means the claims cannot be verified. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that CP-31398 "restored the formation of functional droplets" is unsupported without evidence that the droplets are functional in a biological sense, such as transcriptional activity or downstream target gene expression.
+- The claim that CP-31398 "could offer the novel therapeutic strategy for cancers with p53 mutant" is unsupported given the differential response observed for R248W and the lack of in vivo or cellular efficacy data.
+- The mechanistic claim regarding stabilization of the zinc-binding domain and 251-258 segment is unverifiable without simulation details and quantitative stability metrics.
+- The statement that p53 mutations "could accelerate the aggregation of droplets" is presented as background but no citation or data is provided in the abstract.

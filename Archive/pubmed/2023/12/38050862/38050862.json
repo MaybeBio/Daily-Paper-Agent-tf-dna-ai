@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "38050862",
+    "doi": "10.1021/acschemneuro.3c00582",
+    "title": "Computationally Designed Molecules Modulate ALS-Related Amyloidogenic TDP-43(307-319) Aggregation."
+  },
+  "content": {
+    "abstract": "Abnormal cytosolic aggregation of TAR DNA-binding protein of 43 kDa (TDP-43) is observed in multiple diseases, including amyotrophic lateral sclerosis (ALS), frontotemporal lobar degeneration, and Alzheimer's disease. Previous studies have shown that TDP-43(307-319) located at the C-terminal of TDP-43 can form higher-order oligomers and fibrils. Of particular interest are the hexamers that adopt a cylindrin structure that has been strongly correlated to neurotoxicity. In this study, we use the joint pharmacophore space (JPS) model to identify and generate potential TDP-43 inhibitors. Five JPS-designed molecules are evaluated using both experimental and computational methods: ion mobility mass spectrometry, thioflavin T fluorescence assay, circular dichroism spectroscopy, atomic force microscopy, and molecular dynamics simulations. We found that all five molecules can prevent the amyloid fibril formation of TDP-43(307-319), but their efficacy varies significantly. Furthermore, among the five molecules, [AC0101] is the most efficient in preventing the formation of higher-order oligomers and dissociating preformed higher-order oligomers. Molecular dynamics simulations show that [AC0101] both is the most flexible and forms the most hydrogen bonds with the TDP-43(307-319) monomer. The JPS-designed molecules can insert themselves between the beta-strands in the hexameric cylindrin structure of TDP-43(307-319) and can open its structure. Possible mechanisms for JPS-designed molecules to inhibit and dissociate TDP-43(307-319) oligomers on an atomistic scale are proposed.",
+    "keywords": [
+      "ALS",
+      "TDP-43",
+      "amyloid oligomers",
+      "ion mobility mass spectrometry",
+      "small molecule inhibitors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Amyotrophic Lateral Sclerosis/drug therapy/metabolism",
+      "*Frontotemporal Dementia",
+      "*Frontotemporal Lobar Degeneration",
+      "*Alzheimer Disease",
+      "DNA-Binding Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Xikun",
+        "Duan, Shuya",
+        "Jin, Yingying",
+        "Walker, Ethan",
+        "Tsao, Michelle",
+        "Jang, Joshua H",
+        "Chen, Ziying",
+        "Singh, Ambuj K",
+        "Cantrell, Kristi Lazar",
+        "Ingolfsson, Helgi I",
+        "Buratto, Steven K",
+        "Bowers, Michael T"
+      ],
+      "short_names": [
+        "Liu X",
+        "Duan S",
+        "Jin Y",
+        "Walker E",
+        "Tsao M",
+        "Jang JH",
+        "Chen Z",
+        "Singh AK",
+        "Cantrell KL",
+        "Ingolfsson HI",
+        "Buratto SK",
+        "Bowers MT"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0934-6166",
+        "ORCID: 0000-0002-8264-1391",
+        "ORCID: 0000-0001-8417-4179",
+        "ORCID: 0000-0002-0260-7178"
+      ],
+      "affiliations": [
+        "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry, Westmont College, Santa Barbara, California 93108, United States.",
+        "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry, Westmont College, Santa Barbara, California 93108, United States.",
+        "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Computer Science, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry, Westmont College, Santa Barbara, California 93108, United States.",
+        "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, California 94550, United States.",
+        "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Xikun",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0000-0003-0934-6166"
+        ],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Duan, Shuya",
+        "short_name": "Duan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Jin, Yingying",
+        "short_name": "Jin Y",
+        "identifiers": [
+          "0000-0002-8264-1391"
+        ],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Walker, Ethan",
+        "short_name": "Walker E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Westmont College, Santa Barbara, California 93108, United States."
+        ]
+      },
+      {
+        "full_name": "Tsao, Michelle",
+        "short_name": "Tsao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Jang, Joshua H",
+        "short_name": "Jang JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Westmont College, Santa Barbara, California 93108, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Ziying",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Singh, Ambuj K",
+        "short_name": "Singh AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Cantrell, Kristi Lazar",
+        "short_name": "Cantrell KL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Westmont College, Santa Barbara, California 93108, United States."
+        ]
+      },
+      {
+        "full_name": "Ingolfsson, Helgi I",
+        "short_name": "Ingolfsson HI",
+        "identifiers": [],
+        "affiliations": [
+          "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, California 94550, United States."
+        ]
+      },
+      {
+        "full_name": "Buratto, Steven K",
+        "short_name": "Buratto SK",
+        "identifiers": [
+          "0000-0001-8417-4179"
+        ],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Bowers, Michael T",
+        "short_name": "Bowers MT",
+        "identifiers": [
+          "0000-0002-0260-7178"
+        ],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2023 Dec 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/05 17:44",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [
+      "40532196",
+      "39987392",
+      "39896485"
+    ],
+    "refs": [],
+    "similar": [
+      "38050862",
+      "31846303",
+      "31430111",
+      "33621087",
+      "33065281",
+      "28960544",
+      "23124365",
+      "26735904",
+      "38615537",
+      "36293362",
+      "23558684",
+      "35274674",
+      "38212334",
+      "30824544",
+      "22993125",
+      "23041957",
+      "34880495",
+      "21777387",
+      "32157757",
+      "34930382",
+      "37150879",
+      "25921485",
+      "36633448",
+      "32628315",
+      "29078806",
+      "25788357",
+      "37177801",
+      "27015757",
+      "36809847",
+      "33917673",
+      "37101169",
+      "33026249",
+      "37248338",
+      "20102522",
+      "28566288",
+      "33115537",
+      "25503365",
+      "29916022",
+      "35229461",
+      "20102519",
+      "28859339",
+      "36007056",
+      "22133678",
+      "25215604",
+      "24378564",
+      "32778941",
+      "20133711",
+      "20472655",
+      "19496940",
+      "28663553",
+      "23196514",
+      "36310222",
+      "34339840",
+      "37431963",
+      "33929499",
+      "29460270",
+      "33577819",
+      "33479441",
+      "23372158",
+      "35320398",
+      "29751083",
+      "26723245",
+      "21787329",
+      "38466778",
+      "34032984",
+      "28334913",
+      "18535185",
+      "19333444",
+      "36253101",
+      "18546284",
+      "22563080",
+      "29279008",
+      "33300249",
+      "24256250",
+      "19938686",
+      "21921519",
+      "20864052",
+      "37442126",
+      "18989115",
+      "21666678",
+      "36495262",
+      "38374041",
+      "38366598",
+      "30540446",
+      "23704877",
+      "34360544",
+      "28000730",
+      "23634771",
+      "27445339",
+      "19833869",
+      "19112176",
+      "35231559",
+      "36804599",
+      "23300771",
+      "28100023",
+      "38116987",
+      "39292611"
+    ],
+    "review": [
+      "38050862",
+      "28960544",
+      "36293362",
+      "23041957",
+      "21777387",
+      "32157757",
+      "34930382",
+      "27015757",
+      "33917673",
+      "20102522",
+      "29916022",
+      "35229461",
+      "20102519",
+      "29460270",
+      "35320398",
+      "21787329",
+      "19333444",
+      "36253101",
+      "24256250",
+      "19938686",
+      "21921519",
+      "20864052",
+      "18989115",
+      "34360544"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.3c00582",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

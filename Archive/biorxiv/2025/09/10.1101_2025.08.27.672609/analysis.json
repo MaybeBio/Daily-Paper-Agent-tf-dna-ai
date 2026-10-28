@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.27.672609",
+  "title": "PlantCAD2: a DNA foundation model for interpreting genomes across flowering plants",
+  "authors": "Jingjing Zhai; Aaron Gokaslan; Sheng-Kai Hsu; Szu-Ping Chen; Zong-Yan Liu; Edgar Marroquin; Eric Czech; Betsy Cannon; Ana Berthel; M. Cinta Romay; Matt Pennell; Volodymyr Kuleshov; Edward S. Buckler",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-01",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍植物DNA基础模型PlantCAD2，用于基因组功能注释和染色质可及性预测，虽涉及DNA序列编码功能与调控，但未聚焦蛋白质-DNA互作或TF-DNA结合机制，方法上属AI大模型，可迁移至TF-DNA结合位点预测，故评6分。",
+  "abstract": "Understanding how DNA sequence encodes biological function remains a fundamental challenge in biology. Flowering plants (angiosperms), the dominant terrestrial clade, exhibit maximal biochemical complexity, extraordinary species diversity (over 100,000 species), relatively recent origins (∼160 million years), ∼200-fold variation in genome size and relative compact coding regions compared with other eukaryotes. These features present both a unique challenge and opportunity for pre-training DNA language models to understand plant-specific evolutionary conservation, regulatory architectures and genomic functions. Here, we introduce PlantCAD2, an extended context, plant-specific DNA language model with single-nucleotide resolution, pre-trained on 65 angiosperm genomes, together with a series of public benchmarks for evaluation. Comprehensive zero-shot testing shows that PlantCAD2 (676 million parameters) efficiently captures evolutionary conservation, surpassing the 7-billion-parameter Evo2 model in 10 of 12 tasks. With parameter-efficient fine-tuning, PlantCAD2 also outperforms the 1-billion-parameter AgroNT across seven cross-species tasks including chromatin accessible region, gene expression and protein translation. Moreover, its 8,192bp context window substantially improves accessible chromatin prediction in large genomes such as maize (AUPRC increasing from 0.587 to 0.711), underscoring the importance of long-range context for modeling distal regulation. Together, these results establish PlantCAD2 as a powerful, efficient, and versatile foundation model for plant genomics, enabling accurate genome annotation across diverse species.",
+  "abstract_zh": "理解DNA序列如何编码生物功能仍是生物学中的一项基本挑战。开花植物（被子植物）作为陆地生物中的优势分支，展现出最大的生化复杂性、非凡的物种多样性（超过10万种）、相对较近的起源（约1.6亿年）、基因组大小约200倍的变异，以及与其他真核生物相比相对紧凑的编码区域。这些特征为预训练DNA语言模型以理解植物特异的进化保守性、调控架构和基因组功能，既带来了独特挑战，也提供了机遇。在此，我们介绍了PlantCAD2，一种具有单核苷酸分辨率的扩展上下文、植物特异的DNA语言模型，在65个被子植物基因组上进行了预训练，并配套了一系列公开基准用于评估。全面的零样本测试表明，PlantCAD2（6.76亿参数）能高效捕获进化保守性，在12项任务中的10项上超越了70亿参数的Evo2模型。通过参数高效微调，PlantCAD2还在包括染色质可及区域、基因表达和蛋白质翻译在内的七项跨物种任务中优于10亿参数的AgroNT。此外，其8,192碱基对的上下文窗口显著改善了大基因组（如玉米）中可及染色质的预测（AUPRC从0.587提升至0.711），凸显了长程上下文对建模远端调控的重要性。综合这些结果，PlantCAD2被确立为植物基因组学中一个强大、高效且多功能的基座模型，能够实现跨多样物种的准确基因组注释。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.27.672609",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.27.672609",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.27.672609/index.html"
+}

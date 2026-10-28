@@ -1,0 +1,528 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.11.622872",
+  "title": "AlphaBind, a Domain-Specific Model to Predict and Optimize Antibody-Antigen Binding Affinity",
+  "doi": "10.1101/2024.11.11.622872",
+  "abstract": "Antibodies are versatile therapeutic molecules that utilize combinatorial sequence diversity to cover a vast fitness landscape. However, designing optimal antibody sequences remains a major challenge. Recent advances in deep learning provide opportunities to address this challenge by learning sequence-function relationships to accurately predict fitness landscapes. These models enable efficient in silico prescreening and optimization of antibody candidates. By focusing experimental efforts on the most promising candidates guided by deep learning predictions, antibodies with optimal properties can be designed more quickly and effectively. Here we present AlphaBind, a domain-specific model that utilizes protein language model embeddings and pre-training on millions of quantitative laboratory measurements of antibody-antigen binding strength to achieve state-of-the-art performance for guided affinity optimization of parental antibodies. We demonstrate that an AlphaBind-powered antibody optimization pipeline can deliver candidates with substantially improved binding affinity across four parental antibodies (some of which were already affinity-matured) and using two different types of training data. Resulting candidates, ranging up to 11 mutations from parental sequence, yield a sequence diversity that allows for optimization of other biophysical characteristics, all while using only a single round of data generation for each parental antibody. AlphaBind weights and code are publicly available at: https://github.com/A-Alpha-Bio/alphabind .",
+  "authors": [
+    "Aditya A. Agarwal",
+    "James Harrang",
+    "David Noble",
+    "Kerry L. McGowan",
+    "Adrian W. Lange",
+    "Emily Engelhart",
+    "Miranda C. Lahman",
+    "Jeffrey Adamo",
+    "Xin Yu",
+    "Oliver Serang",
+    "Kyle J. Minch",
+    "Kimberly Y. Wellman",
+    "David A. Younger",
+    "Randolph M. Lopez",
+    "Ryan O. Emerson"
+  ],
+  "published_date": "2024-11-11",
+  "updated_date": "2024-11-11T22:05:13Z",
+  "journal": "bioRxiv",
+  "category": "Synthetic Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622872",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622872.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Synthetic Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Synthetic Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            14
+          ]
+        ],
+        "date-time": "2026-02-14T13:24:23Z",
+        "timestamp": 1771075463733,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "group-title": "Synthetic Biology",
+      "reference-count": 33,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                11
+              ]
+            ],
+            "date-time": "2024-11-11T00:00:00Z",
+            "timestamp": 1731283200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Antibodies are versatile therapeutic molecules that utilize combinatorial sequence diversity to cover a vast fitness landscape. However, designing optimal antibody sequences remains a major challenge. Recent advances in deep learning provide opportunities to address this challenge by learning sequence-function relationships to accurately predict fitness landscapes. These models enable efficient\n                  <jats:italic>in silico</jats:italic>\n                  prescreening and optimization of antibody candidates. By focusing experimental efforts on the most promising candidates guided by deep learning predictions, antibodies with optimal properties can be designed more quickly and effectively.\n                </jats:p>\n                <jats:p>\n                  Here we present AlphaBind, a domain-specific model that utilizes protein language model embeddings and pre-training on millions of quantitative laboratory measurements of antibody-antigen binding strength to achieve state-of-the-art performance for guided affinity optimization of parental antibodies. We demonstrate that an AlphaBind-powered antibody optimization pipeline can deliver candidates with substantially improved binding affinity across four parental antibodies (some of which were already affinity-matured) and using two different types of training data. Resulting candidates, ranging up to 11 mutations from parental sequence, yield a sequence diversity that allows for optimization of other biophysical characteristics, all while using only a single round of data generation for each parental antibody. AlphaBind weights and code are publicly available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/A-Alpha-Bio/alphabind\">https://github.com/A-Alpha-Bio/alphabind</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2024.11.11.622872",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2024-11-11T22:05:13Z",
+        "timestamp": 1731362713000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "AlphaBind, a Domain-Specific Model to Predict and Optimize Antibody-Antigen Binding Affinity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Aditya A.",
+          "family": "Agarwal",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "James",
+          "family": "Harrang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Noble",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kerry L.",
+          "family": "McGowan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Adrian W.",
+          "family": "Lange",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Emily",
+          "family": "Engelhart",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Miranda C.",
+          "family": "Lahman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jeffrey",
+          "family": "Adamo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Oliver",
+          "family": "Serang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kyle J.",
+          "family": "Minch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kimberly Y.",
+          "family": "Wellman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David A.",
+          "family": "Younger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Randolph M.",
+          "family": "Lopez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ryan O.",
+          "family": "Emerson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12929-019-0592-z"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12929-019-0592-z"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-024-06561-3"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1705867114"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-1450-1_5"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1810576116"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1084/jem.176.3.855"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.03.14.585103"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tips.2022.12.005"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2023.04.009"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.11",
+          "year": "2023",
+          "journal-title": "Best practices for machine learning in antibody discovery and development"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.09.23.614603"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.15",
+          "year": "2023",
+          "journal-title": "Protein Discovery with Discrete Walk-Jump Sampling"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.16",
+          "year": "2023",
+          "journal-title": "Protein Design with Guided Discrete Diffusion"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adk8946"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.12.01.569227"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-39022-2"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41551-021-00699-9"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1705867114"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41597-022-01779-4"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s43556-022-00100-4"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1056/NEJMoa1305133"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.04.031"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.1354"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv552"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.28",
+          "unstructured": "NaturalAntibody. NaturalAntibody Research App, <https://abstudio.naturalantibody.com> (2024)."
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.10.4285"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.30",
+          "year": "2023",
+          "journal-title": "AbDiffuser: Full-Atom Generation of in vitro Functioning Antibodies"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.09.13.557505"
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.32",
+          "unstructured": "Nvidia. BioNeMo Framework: For building and adapting AI models in drug discovery at scale, <https://github.com/NVIDIA/bionemo-framework> (2024)."
+        },
+        {
+          "key": "2024111408151156000_2024.11.11.622872v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/19420862.2023.2291209"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.11.622872",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:26:23Z",
+        "timestamp": 1768461983000
+      },
+      "score": 61.854786,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.11.622872"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "references-count": 33,
+      "URL": "https://doi.org/10.1101/2024.11.11.622872",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1080/19420862.2025.2534626",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

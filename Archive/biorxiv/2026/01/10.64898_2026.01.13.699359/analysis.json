@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.13.699359",
+  "title": "LoopBin – a VaDE-based neural network for chromatin loop classification",
+  "authors": "Zhu Y; Papantonis A; Barbieri M",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-14",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用VaDE神经网络对染色质环进行无监督分类，虽涉及转录因子结合数据但核心是3D基因组结构分类，非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "<h4>ABSTRACT</h4> Classifying chromatin loops from 3D genomics data according to their epigenetic and structural attributes is important for inferring their functional roles. Currently, such classification typically relies on the manual intersection of epigenomic signal peaks and loop anchor locations. To automate this, remove peak-calling biases and include information inherent to 3D genomics signal structure, we developed LoopBin, a framework based on a variational deep embedding (VaDE) neural network. We applied LoopBin to kilobase-resolution Micro-C data and segmented tens of thousands of loops into clusters with distinct features using minimal histone modification and transcription factor-binding data. These features were indicative of apparently distinct biological function by each subgroup of loops. Therefore, LoopBin can provide insights into the dynamic shifts in loop classification that can occur upon perturbation of cell homeostasis or signaling.",
+  "abstract_zh": "<h4>摘要</h4> 根据表观遗传和结构属性对三维基因组学数据中的染色质环进行分类，对于推断其功能作用具有重要意义。目前，此类分类通常依赖于表观基因组信号峰与环锚定位点的手动交集。为实现自动化、消除峰调用偏差并纳入三维基因组学信号结构固有的信息，我们开发了LoopBin，这是一个基于变分深度嵌入（VaDE）神经网络的框架。我们将LoopBin应用于千碱基分辨率的Micro-C数据，并利用最少的组蛋白修饰和转录因子结合数据，将数万个环分割成具有不同特征的簇。这些特征表明，每个环亚组具有明显不同的生物学功能。因此，LoopBin能够提供对细胞稳态或信号传导扰动时可能发生的环分类动态变化的洞察。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699359",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699359",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.13.699359/index.html"
+}

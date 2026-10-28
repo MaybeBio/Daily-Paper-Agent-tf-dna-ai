@@ -1,0 +1,202 @@
+{
+  "identity": {
+    "pmid": "38178349",
+    "doi": "10.59958/hsf.6809",
+    "title": "Identification of Anesthetic-Induced Cardiovascular Biomarkers in Off-Pump Coronary Artery Bypass Grafting Surgery Using Weighted Gene Co-Expression Network Analysis and Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study aimed to select anesthesia-induced zinc finger protein-related gene biomarkers that predict cardiovascular function during off-pump coronary artery bypass grafting (OPCABG). METHODS: Gene expression data from GSE4386 included 20 post-anesthesia and 20 pre-anesthesia atrial tissue samples. Zinc finger protein-related genes (ZFPRGs) were searched in the UniProt database and anesthesia-induced differentially expressed genes (DEGs) were identified Weighted gene co-expression network analysis (WGCNA) was used to screen hub genes, and three machine learning algorithms were used to further screen for cardiovascular biomarkers. Diagnostic accuracy was evaluated using a nomogram model. Gene set enrichment analysis was used to analyze the pathways enriched by the biomarkers. A microRNA (miRNA)-mRNA-transcription factor (TF) regulatory network was established to explore the potential regulatory mechanisms of these biomarkers. Disease-related drugs were predicted using the Comparative Toxicogenomics Database (CTD). RESULTS: A total of 1102 cardioprotection-related DEGs were selected between the pre- and post-anesthesia groups. Additionally, 1095 hub genes were obtained based on WGCNA, and 2274 ZFPRGs were downloaded from the UniProt database. After Venn analysis and machine learning, ZNF420, RNF135, and BNC2 were selected as cardioprotection-related zinc finger biomarkers during OPCABG. Receiver operating characteristic (ROC) curves and nomogram models confirmed the diagnostic value and accuracy of the three cardioprotective biomarkers. Pathway enrichment analysis revealed that ZNF420 is involved in the cell cycle and the tricarboxylic acid cycle. RNF135 and BNC2 were enriched in the oxidative phosphorylation pathway. In the constructed miRNA-mRNA-TF network, miR-182-5p and miR-16-5p simultaneously regulated three cardioprotective biomarkers. CONCLUSION: Three cardioprotection-related zinc finger protein biomarkers (ZNF420, RNF135, and BNC2) were identified using OPCABG samples.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Anesthetics",
+      "*MicroRNAs",
+      "Biomarkers",
+      "*Coronary Artery Bypass, Off-Pump/adverse effects",
+      "Machine Learning",
+      "RNA, Messenger",
+      "Ubiquitin-Protein Ligases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hou, Jinxiu",
+        "Li, Jing"
+      ],
+      "short_names": [
+        "Hou J",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Anesthesiology, Weifang Medical University, 261053 Weifang, Shandong, China. JinxiuHo@163.com.",
+        "Department of Gastroenterology, Weifang People's Hospital, 261041 Weifang, Shandong, China. ljing1101@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hou, Jinxiu",
+        "short_name": "Hou J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Anesthesiology, Weifang Medical University, 261053 Weifang, Shandong, China. JinxiuHo@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Weifang People's Hospital, 261041 Weifang, Shandong, China. ljing1101@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The heart surgery forum"
+    ],
+    "journal_abbrev": [
+      "Heart Surg Forum"
+    ],
+    "pub_date": "2023 Dec 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/05 06:43",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "40868317"
+    ],
+    "refs": [],
+    "similar": [
+      "38178349",
+      "38054380",
+      "36291136",
+      "36341343",
+      "38274270",
+      "32695821",
+      "36823662",
+      "37528851",
+      "34530741",
+      "36226692",
+      "36034449",
+      "37740761",
+      "37092838",
+      "35757392",
+      "26998004",
+      "36523600",
+      "38629070",
+      "31930065",
+      "38277517",
+      "37697288",
+      "36968495",
+      "37179305",
+      "37821907",
+      "35620387",
+      "34536521",
+      "35154510",
+      "36457754",
+      "36193326",
+      "35651940",
+      "35958412",
+      "37008314",
+      "17325502",
+      "35313857",
+      "32685450",
+      "32879635",
+      "36699262",
+      "34844599",
+      "35909518",
+      "36125921",
+      "36777638",
+      "33451334",
+      "33104965",
+      "35713363",
+      "35840955",
+      "36829193",
+      "36049413",
+      "33407587",
+      "35783271",
+      "37063926",
+      "36419192",
+      "37359526",
+      "33439992",
+      "36222281",
+      "35865542",
+      "36437453",
+      "34968391",
+      "36470144",
+      "37138862",
+      "36325528",
+      "35757478",
+      "34777635",
+      "37250717",
+      "37854191",
+      "19330750",
+      "31801399",
+      "37357608",
+      "34789641",
+      "34218797",
+      "35498402",
+      "37100862",
+      "35132271",
+      "37153000",
+      "37684281",
+      "35625787",
+      "33541173",
+      "35764238",
+      "35047008",
+      "25323983",
+      "33635256",
+      "34107850",
+      "35315700",
+      "37075605",
+      "35558576",
+      "31788082",
+      "36879254",
+      "37605572",
+      "35949853",
+      "34555052",
+      "36923221",
+      "35034029",
+      "34754623",
+      "36948405",
+      "32662828",
+      "36600215",
+      "39281570",
+      "31881747",
+      "39225907",
+      "38456992",
+      "38726127",
+      "38397416",
+      "39156756",
+      "39364870"
+    ],
+    "review": [
+      "38178349",
+      "34530741"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

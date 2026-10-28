@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "35457243",
+    "doi": "10.3390/ijms23084426",
+    "title": "Roles of Physicochemical and Structural Properties of RNA-Binding Proteins in Predicting the Activities of Trans-Acting Splicing Factors with Machine Learning."
+  },
+  "content": {
+    "abstract": "Trans-acting splicing factors play a pivotal role in modulating alternative splicing by specifically binding to cis-elements in pre-mRNAs. There are approximately 1500 RNA-binding proteins (RBPs) in the human genome, but the activities of these RBPs in alternative splicing are unknown. Since determining RBP activities through experimental methods is expensive and time consuming, the development of an efficient computational method for predicting the activities of RBPs in alternative splicing from their sequences is of great practical importance. Recently, a machine learning model for predicting the activities of splicing factors was built based on features of single and dual amino acid compositions. Here, we explored the role of physicochemical and structural properties in predicting their activities in alternative splicing using machine learning approaches and found that the prediction performance is significantly improved by including these properties. By combining the minimum redundancy-maximum relevance (mRMR) method and forward feature searching strategy, a promising feature subset with 24 features was obtained to predict the activities of RBPs. The feature subset consists of 16 dual amino acid compositions, 5 physicochemical features, and 3 structural features. The physicochemical and structural properties were as important as the sequence composition features for an accurate prediction of the activities of splicing factors. The hydrophobicity and distribution of coil are suggested to be the key physicochemical and structural features, respectively.",
+    "keywords": [
+      "amino acid compositions",
+      "forward searching strategy",
+      "hydrophobicity",
+      "machine learning",
+      "minimum redundancy-maximum relevance",
+      "partial least square regression",
+      "secondary structure"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Amino Acids",
+      "*Computational Biology/methods",
+      "Humans",
+      "Machine Learning",
+      "RNA Splicing Factors",
+      "RNA-Binding Proteins/chemistry/genetics",
+      "*Trans-Activators"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Lin",
+        "Li, Wenjin"
+      ],
+      "short_names": [
+        "Zhu L",
+        "Li W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3702-6314"
+      ],
+      "affiliations": [
+        "Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Lin",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenjin",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0002-3702-6314"
+        ],
+        "affiliations": [
+          "Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Apr 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/24 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "40814288"
+    ],
+    "refs": [
+      "34814826",
+      "34282049",
+      "34265844",
+      "34104972",
+      "34099697",
+      "33526657",
+      "33462199",
+      "32580562",
+      "32470818",
+      "31661923",
+      "31603244",
+      "31213635",
+      "30661751",
+      "30535134",
+      "30414922",
+      "29842947",
+      "29186295",
+      "28811565",
+      "28488700",
+      "28476023",
+      "28292249",
+      "27266344",
+      "27015110",
+      "26970777",
+      "26748145",
+      "26593421",
+      "26531099",
+      "26496609",
+      "26482832",
+      "26442281",
+      "25883322",
+      "25838543",
+      "25525159",
+      "25474679",
+      "25365966",
+      "25112293",
+      "24452469",
+      "23603789",
+      "23241926",
+      "22998874",
+      "22496748",
+      "22454538",
+      "22178444",
+      "20823312",
+      "20431145",
+      "19801992",
+      "19783671",
+      "19339519",
+      "19075228",
+      "18953662",
+      "18831793",
+      "18488986",
+      "18039369",
+      "17998252",
+      "17979824",
+      "17828612",
+      "17730601",
+      "17520325",
+      "16955490",
+      "16248794",
+      "16119262",
+      "12114529",
+      "11753382",
+      "11309760",
+      "10745993",
+      "10592278",
+      "10382667",
+      "9278062",
+      "8836100",
+      "8811101",
+      "7568000",
+      "7407231",
+      "6048539"
+    ],
+    "similar": [
+      "35457243",
+      "30414922",
+      "26543860",
+      "37158175",
+      "33685590",
+      "26540053",
+      "20677174",
+      "30323214",
+      "19594881",
+      "19816781",
+      "38538560",
+      "27411307",
+      "27040827",
+      "35649392",
+      "32808039",
+      "32920048",
+      "37254800",
+      "21342579",
+      "30923827",
+      "29643205",
+      "34571539",
+      "32191896",
+      "35451938",
+      "30533006",
+      "29219069",
+      "28000567",
+      "34030700",
+      "22110674",
+      "28292249",
+      "29219070",
+      "28575488",
+      "31215361",
+      "22574904",
+      "34932484",
+      "29334889",
+      "35051187",
+      "31513916",
+      "36044786",
+      "27155042",
+      "29934510",
+      "36949389",
+      "21536049",
+      "27787829",
+      "26940649",
+      "24448651",
+      "38224504",
+      "18953662",
+      "34410342",
+      "27993780",
+      "36246558",
+      "31483777",
+      "25846271",
+      "35071593",
+      "28913654",
+      "35768792",
+      "20617199",
+      "22937126",
+      "24209914",
+      "22931491",
+      "38295475",
+      "22373313",
+      "24658593",
+      "38229106",
+      "33780344",
+      "29596863",
+      "38524500",
+      "19508202",
+      "25205502",
+      "21143803",
+      "29848272",
+      "28245811",
+      "30132996",
+      "21268114",
+      "19995336",
+      "21271978",
+      "28155640",
+      "31323206",
+      "27720642",
+      "34884927",
+      "34445498",
+      "20973568",
+      "20483814",
+      "16314263",
+      "31603244",
+      "35696075",
+      "25201114",
+      "30875752",
+      "21459850",
+      "31123959",
+      "33272122",
+      "24390396",
+      "27907159",
+      "26068750",
+      "8752089",
+      "20300450",
+      "20041294",
+      "33842944",
+      "35773617",
+      "38987475",
+      "22829872",
+      "38460515",
+      "36124753",
+      "38260450",
+      "35860409",
+      "37604248",
+      "38250538",
+      "34732806",
+      "37732752",
+      "31976163",
+      "37035551"
+    ],
+    "review": [
+      "35457243",
+      "26540053",
+      "31215361",
+      "31603244",
+      "25201114",
+      "33842944",
+      "35860409"
+    ],
+    "pmc": [
+      "9030803"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23084426",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35457243/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35457243",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, theoretical sections, model descriptions, results, and discussion.
+- **Assessment boundary** Scientific validity, technical soundness, clarity of presentation, and support for claims based solely on the provided manuscript content.
+- **Shared manuscript claim summary** The authors propose SemanticCAP, a computational method for predicting chromatin accessibility that integrates features from a DNA language model with a chromatin accessibility model. They claim improved performance over existing methods on public benchmarks and introduce novel feature fusion techniques (SFA and SFC) to address issues of feature disappearance and gradient instability.
+- **Visible evidence base** Tables 1-4, Figures 1-8, and descriptive text within the manuscript. No external datasets, code, or supplementary materials were provided for verification.
+- **Missing materials affecting confidence** The manuscript lacks detailed experimental setup, hyperparameter values, training/validation/test split specifics, baseline implementation details, statistical significance tests, and access to the code repository. These omissions limit the ability to fully assess reproducibility and robustness.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of language models to chromatin accessibility prediction, with a reasonable motivation and a clear architectural description. However, the theoretical contributions are weakly connected to the empirical results, and the evaluation is insufficient to support the strong claims of superiority. The lack of rigorous benchmarking, statistical analysis, and ablation studies undermines confidence in the reported improvements. The writing is often unclear, and several technical details are missing or inconsistent.
+- **Who would be interested in the results, and why** Researchers in computational genomics and regulatory genomics, particularly those working on chromatin accessibility prediction, DNA sequence modeling, and the application of natural language processing techniques to biological sequences. The potential for drug design applications may also interest pharmaceutical and biomedical researchers.
+- **Major strengths** The idea of using a language model to capture contextual information in DNA sequences is timely and relevant. The proposed feature fusion methods (SFA and SFC) are theoretically motivated and could be of general interest. The use of character-level input avoids the information loss associated with k-mer tokenization. The manuscript includes a reasonable amount of architectural detail and some analysis of model components.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SemanticCAP outperforms existing methods on public benchmarks, with improvements in auROC and auPRC.
+  - **Evidence pointer** Table 2, Section 4.1
+  - **Concern** The reported performance improvements are marginal (e.g., 0.02% auROC and 0.1% auPRC on average over the best baseline) and are presented without any statistical significance testing. It is unclear whether these differences are meaningful or within the range of random variation. Additionally, the baseline methods are described as using "default parameters," which may not be optimal, and the comparison is not sufficiently detailed to ensure fairness.
+  - **Why it matters** The central claim of the paper is that SemanticCAP provides better performance. Without rigorous statistical validation and a fair, well-documented comparison, this claim is not established. The small effect sizes raise concerns about the practical significance of the proposed method.
+  - **Resolution test** The authors should provide confidence intervals or p-values for the performance differences, use multiple random seeds, and ensure that baselines are properly tuned. A more comprehensive benchmark with additional state-of-the-art methods would also strengthen the comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The theoretical results (Theorems 1-4 and Corollaries 1-2) are presented as foundational justifications for the proposed SFA and SFC methods.
+  - **Evidence pointer** Section 2, Figures 1, 7, 8
+  - **Concern** The theoretical statements are not rigorously proven. For example, Theorem 1 claims that the concatenation of two standardized distributions is standardized, which is generally false unless the distributions are independent and have zero covariance. The proofs are sketched or omitted, and the connection between these theorems and the actual behavior of the proposed methods is not clearly demonstrated. The empirical analysis in Section 4.4 is qualitative and does not directly validate the theoretical claims.
+  - **Why it matters** The theoretical framework is a key part of the paper's contribution. If the theorems are incorrect or irrelevant, the foundation of the proposed methods is weakened. The claims about feature disappearance and gradient stability need to be substantiated with rigorous analysis or direct empirical evidence.
+  - **Resolution test** The authors should provide complete and correct proofs for all theorems, or clearly state the assumptions under which they hold. They should also design experiments that directly test the theoretical predictions, such as measuring feature magnitudes and gradient norms during training.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes the model architecture and training process, but omits many critical details.
+  - **Evidence pointer** Sections 3.1, 3.2, Tables 1-4
+  - **Concern** The manuscript does not provide sufficient details for replication. Key hyperparameters (e.g., learning rate, batch size, number of epochs, optimizer, warmup steps) are not specified. The data preprocessing steps, including how negative samples are generated and how the context length is chosen, are described only vaguely. The code repository is mentioned but not accessible for review.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific contributions. Without these details, other researchers cannot build upon or verify the proposed method.
+  - **Resolution test** The authors should provide a complete description of all hyperparameters, data processing steps, and training procedures. The code should be made available and documented to allow for direct replication.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their method has implications for drug design and understanding drug resistance.
+  - **Evidence pointer** Introduction, Section 4.1, Conclusion
+  - **Concern** The connection between chromatin accessibility prediction and drug design is mentioned in the introduction and conclusion, but no experiments or analyses are presented to support this claim. The examples given (CYMC and HNF4A mutations) are anecdotal and not systematically evaluated.
+  - **Why it matters** The stated motivation for the work is the relevance to drug design. Without any demonstration of this relevance, the broader impact of the method is overstated.
+  - **Resolution test** The authors should either provide case studies or analyses that directly link their predictions to drug response or resistance, or temper the claims about drug design implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract and introduction contain grammatical errors and awkward phrasing (e.g., "A large number of inorganic and organic compounds are able to bind DNA and form complexes, among which drug-related molecules are important"). The motivation could be stated more clearly and concisely.
+  - **Required correction** The text should be carefully edited for grammar and clarity. The motivation should be streamlined to focus on the computational challenge and the proposed solution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.1
+  - **Evidence pointer** Table 2
+  - **Issue** The table does not include standard deviations or any measure of variance for the reported metrics. It is impossible to assess the stability of the results.
+  - **Required correction** Report mean and standard deviation across multiple runs or use cross-validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.1.1
+  - **Evidence pointer** Section 3.1.1
+  - **Issue** The description of the data augmentation techniques is vague. It is unclear what "symmetric sequences" means and how they are constructed.
+  - **Required correction** Provide a clear and detailed description of the data augmentation strategies, including examples.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Tables 3 and 4
+  - **Issue** The tables are not self-explanatory. The abbreviations (e.g., "mconv", "SFA", "SFC") are defined in the text but not in the table captions, making it difficult for readers to interpret the results quickly.
+  - **Required correction** Expand abbreviations in table captions or add a footnote defining all terms.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Figure 6
+  - **Issue** The t-SNE plot is mentioned as evidence of the [CLS] token's effectiveness, but no quantitative measure of separability (e.g., silhouette score) is provided.
+  - **Required correction** Add a quantitative metric to support the visual observation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical validation), R1-M2 (incorrect or incomplete theoretical proofs), R1-M3 (insufficient reproducibility details).
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of a language model to chromatin accessibility prediction is not entirely novel, as similar approaches have been explored in other genomic contexts. The proposed SFA and SFC methods are somewhat original but are not sufficiently distinguished from existing feature fusion techniques.  
+  - **Scientific importance** Chromatin accessibility is an important problem, and improved prediction methods could be valuable. However, the demonstrated improvements are marginal, and the claimed implications for drug design are not substantiated.  
+  - **Interdisciplinary readership** The topic is of interest to computational biologists and genomicists, but the presentation is too technical and lacks sufficient biological context to appeal to a broader audience.  
+  - **Technical soundness** The technical soundness is questionable due to the theoretical issues and the lack of rigorous evaluation.  
+  - **Readability for nonspecialists** The manuscript is not easily accessible to nonspecialists due to unclear writing, undefined terms, and a heavy focus on architectural details without sufficient biological motivation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the theoretical foundations need to be corrected, the evaluation needs to be significantly strengthened, and the presentation needs to be improved before the claims can be supported.
+
+## Risk / unsupported claims
+- The claim that SemanticCAP outperforms existing methods is unsupported due to lack of statistical testing and potentially unfair baseline comparisons.
+- The theoretical results (Theorems 1-4) are either incorrect as stated or not rigorously proven, and their relevance to the proposed methods is not demonstrated.
+- The claim that the method is relevant to drug design is not supported by any experimental evidence.
+- The assertion that SFA and SFC prevent feature disappearance and gradient instability is not directly validated by experiments.
+- The statement that the model "proved to have better performance" is an overstatement given the marginal and unvalidated improvements.

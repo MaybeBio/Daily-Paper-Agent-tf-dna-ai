@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that the yeast chromatin remodeler SWR1 performs one-dimensional (1D) diffusion on DNA, that ATP binding (not hydrolysis) promotes this diffusion, that the Swc2 subunit retains similar but faster scanning properties in isolation, that ATP-bound SWR1 slides until encountering a protein roadblock, and that the measured diffusion coefficient would support rapid encounter of NDR-flanking nucleosomes at cellular length scales.
+- **Visible evidence base** Single and dual color single particle tracking on DNA stretched with optical tweezers; kinetic binding preference assays for NDR-length versus gene-body linker DNA; roadblock experiments with dCas9 and nucleosomes; median diffusion coefficient of 0.024 μm²/sec in the helical sliding regime.
+- **Missing materials affecting confidence** Full methods, experimental replicates, statistical analyses, representative tracking trajectories, control experiments, and any quantitative comparison between SWR1 and Swc2 diffusion properties. Without these, the robustness of the reported measurements and the strength of the mechanistic conclusions cannot be fully evaluated.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting contribution to the understanding of chromatin remodeler target search mechanisms, specifically by extending 1D diffusion paradigms to SWR1 and linking ATP binding to enhanced mobility. The use of single particle tracking on DNA stretched with optical tweezers is a technically appropriate approach for this question. However, the abstract alone provides insufficient detail to assess the rigor of the measurements, the controls performed, or the statistical basis for the key claims. The mechanistic distinction between ATP binding and hydrolysis is intriguing but requires careful experimental support that is not visible here. The claim regarding physiological relevance, while plausible, is extrapolated from a single diffusion coefficient and would benefit from explicit modeling assumptions.
+- **Who would be interested in the results, and why** Researchers studying chromatin remodeler mechanisms, DNA target search processes, single molecule biophysics, and the role of ATP in protein-DNA interactions. The work could also interest those investigating promoter architecture and nucleosome dynamics, as SWR1 acts on +1 nucleosomes adjacent to nucleosome depleted regions.
+- **Major strengths** The study addresses a relatively underexplored area, namely 1D scanning by chromatin remodelers, and uses a direct single molecule approach to observe diffusion. The finding that ATP binding rather than hydrolysis promotes diffusion is a mechanistically interesting distinction. The inclusion of a roadblock assay with both dCas9 and nucleosomes adds functional relevance to the diffusion measurements.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ATP binding promotes diffusion through nucleotide binding rather than ATP hydrolysis.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that ATP promotes diffusion through nucleotide binding rather than hydrolysis, but no experimental details are provided to support this distinction. It is unclear whether the authors used non-hydrolyzable ATP analogs, mutant ATPase variants, or a combination of approaches to separate binding from hydrolysis. Without this information, the mechanistic conclusion cannot be evaluated.
+  - **Why it matters** This is a central mechanistic claim of the study. If the distinction between binding and hydrolysis is not rigorously established, the interpretation of the diffusion behavior could be confounded by other factors such as conformational changes or protein stability.
+  - **Resolution test** Provide explicit experimental conditions, including the use of ATPγS or other non-hydrolyzable analogs, and show that the observed diffusion enhancement is reproduced under these conditions. Include appropriate controls for nucleotide state and protein integrity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SWR1 has a kinetic binding preference for DNA of NDR length as opposed to gene-body linker length DNA.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a kinetic binding preference but does not specify the assay used, the range of DNA lengths tested, or the quantitative magnitude of the preference. It is unclear whether this preference is statistically significant and whether it is specific to SWR1 or could reflect general DNA length effects.
+  - **Why it matters** This preference is used to contextualize the physiological relevance of the diffusion measurements. If the binding preference is weak or not well controlled, the link between 1D diffusion and NDR targeting is weakened.
+  - **Resolution test** Describe the binding assay, include a titration of DNA lengths, and report the fold difference and statistical significance. Show that the preference is not due to non-specific DNA end effects or differences in DNA flexibility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and statistics
+  - **Claim pointer** The authors report a median diffusion coefficient of 0.024 μm²/sec in the regime of helical sliding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides a single median value without reporting the number of molecules tracked, the distribution of diffusion coefficients, or the uncertainty in the measurement. It is also unclear how the helical sliding regime was defined and distinguished from other diffusion modes.
+  - **Why it matters** Diffusion coefficients are highly sensitive to experimental conditions and analysis methods. Without a measure of variability and a clear definition of the analyzed regime, the reported value cannot be compared to other systems or used to support the physiological relevance claim.
+  - **Resolution test** Report the number of independent measurements, the interquartile range or standard deviation, and the criteria used to classify trajectories into the helical sliding regime. Provide a comparison with other diffusion modes if observed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Claim that Swc2 in isolation retains similar but faster scanning properties
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that Swc2 retains similar but faster scanning properties, but the magnitude of the difference and the number of comparisons are not reported.
+  - **Required correction** Specify the fold difference in diffusion coefficient or other scanning parameters and indicate whether the difference is statistically significant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Roadblock experiments with dCas9 and nucleosomes
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that ATP-bound SWR1 slides until it encounters a protein roadblock, but does not describe the outcome of the encounter, such as whether SWR1 remains bound, dissociates, or pauses.
+  - **Required correction** Briefly describe the behavior of SWR1 upon roadblock encounter, as this is relevant to the functional interpretation of the diffusion process.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Physiological relevance claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the measured diffusion coefficient would mediate rapid encounter of NDR-flanking nucleosomes at cellular length scales is presented without explicit modeling or assumptions about chromatin structure and accessibility.
+  - **Required correction** State the assumptions used for the extrapolation, such as the effective 1D search length and the time window considered, or refer to a modeling section in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic and contextual claims cannot be evaluated from the abstract alone. R1-M3, while not blocking, requires additional statistical detail to support the reported diffusion coefficient.
+- **Assessment against Nature-style criteria** Originality: The application of 1D diffusion analysis to a chromatin remodeler and the focus on ATP binding versus hydrolysis is a novel angle, though the general phenomenon of 1D diffusion is well established. Scientific importance: The work could inform how SWR1 locates its nucleosomal substrate, which is relevant to promoter chromatin dynamics, but the significance depends on the robustness of the measurements. Interdisciplinary readership: The topic bridges biophysics and chromatin biology, and the single molecule approach would appeal to a broad audience if the methods are clearly presented. Technical soundness: The use of optical tweezers and single particle tracking is appropriate, but the abstract does not provide enough detail to assess the quality of the data or the controls. Readability for nonspecialists: The abstract is concise and accessible, though some terms such as helical sliding may require definition for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the experimental approach is suitable, but the abstract alone does not provide sufficient evidence to establish the mechanistic claims. Full evaluation of the manuscript would be required to determine whether the conclusions are supported.
+
+## Risk / unsupported claims
+- The claim that ATP binding rather than hydrolysis promotes diffusion is unsupported without experimental details on nucleotide analogs or mutant constructs.
+- The kinetic binding preference for NDR-length DNA is reported without quantitative data or statistical context.
+- The median diffusion coefficient is presented without measures of variability or the number of observations.
+- The physiological relevance extrapolation is not supported by explicit modeling or assumptions.
+- The behavior of SWR1 upon encountering a roadblock is not described, leaving the functional outcome of the sliding process unclear.

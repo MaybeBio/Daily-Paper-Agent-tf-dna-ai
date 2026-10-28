@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36591215",
+  "title": "A transient receptor potential channel-related model based on machine learning for evaluating tumor microenvironment and immunotherapeutic strategies in acute myeloid leukemia.",
+  "authors": "Hua, Jingsheng; Ding, Tianling; Shao, Yanping",
+  "journal": "Frontiers in immunology",
+  "published_date": "2023-01-03",
+  "window": {
+    "start": "2023-01-02",
+    "end": "2023-01-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究基于机器学习构建TRP通道相关模型评估急性髓系白血病预后和免疫治疗，未涉及蛋白质-DNA互作或TF-DNA结合机制，与本课题无关。",
+  "abstract": "BACKGROUND: Acute myeloid leukemia (AML) is an aggressive hematopoietic malignancy. Transient receptor potential (TRP) channels in AML still need to be further explored. A TRP channel-related model based on machine learning was established in this study. METHODS: The data were downloaded from TCGA-LAML and Genome-Tissue Expression (GTEx). TRP-related genes (TRGs) were extracted from previous literature. With the use of Single-Sample Gene Set Enrichment Analysis (ssGSEA), TRP enrichment scores (TESs) were calculated. The limma package was used to identify differentially expressed genes (DEGs), and univariate Cox regression analysis was performed to identify prognostic DEGs. The above prognostic DEGs were analyzed by Random Survival Forest and least absolute shrinkage and selection operator (Lasso) analysis to create the TRP signature. The Kaplan-Meier and receiver operating characteristic (ROC) curves were plotted to investigate the efficiency and accuracy of prognostic prediction. Moreover, genomic mutation analysis was based on GISTIC analysis. Based on ESTIMATE, TIMER, MCPcounter, and ssGSEA, the tumor microenvironment and immunological characteristics were expressly evaluated to explore immunotherapeutic strategies. Enrichment analysis for TRP signature was based on the Kyoto Encyclopedia of Genes Genomes (KEGG), Gene Ontology (GO), over-representation analysis (ORA), and Gene Set Enrichment Analysis (GSEA). Genomics of Drug Sensitivity in Cancer (GDSC) and pRRophetic were used to carry out drug sensitivity analysis. Conclusively, SCHIP1 was randomly selected to perform in vitro cyto-functional experiments. RESULTS: The worse clinical outcomes of patients with higher TESs were observed. There were 107 differentially expressed TRGs identified. Our data revealed 57 prognostic TRGs. Eight TRGs were obtained to establish the prognostic TRP signature, and the worse clinical outcomes of patients with higher TRP scores were found. The efficiency and accuracy of TRP signature in predicting prognosis were confirmed by ROC curves and five external validation datasets. Our data revealed that the mutation rates of DNMT3A, IDH2, MUC16, and TTN were relatively high. The level of infiltrating immune cell populations, stromal, immune, and ESTIMATE scores increased as the TRP scores increased. Nevertheless, AML patients with lower TRP scores exhibited more tumor purity. The TRP scores were found to be correlated with immunomodulators and immune checkpoints, thus revealing immune characteristics and immunotherapeutic strategies. The IC50 values of six chemotherapeutics were lower in the high TRP score (HTS) group. Finally, it was found that SCHIP1 may be the oncogenic gene. CONCLUSION: The results of this study will help in understanding the role of TRP and SCHIP1 in the prognosis and development of AML.",
+  "abstract_zh": "背景：急性髓系白血病（AML）是一种侵袭性造血系统恶性肿瘤。AML中瞬时受体电位（TRP）通道仍需进一步探索。本研究基于机器学习建立了一个TRP通道相关模型。方法：数据下载自TCGA-LAML和基因组织表达（GTEx）数据库。TRP相关基因（TRGs）从既往文献中提取。利用单样本基因集富集分析（ssGSEA）计算TRP富集分数（TESs）。使用limma包识别差异表达基因（DEGs），并进行单变量Cox回归分析以识别预后相关DEGs。上述预后相关DEGs通过随机生存森林和最小绝对收缩与选择算子（Lasso）分析构建TRP特征。绘制Kaplan-Meier和受试者工作特征（ROC）曲线以评估预后预测的效率和准确性。此外，基因组突变分析基于GISTIC分析。基于ESTIMATE、TIMER、MCPcounter和ssGSEA，明确评估肿瘤微环境和免疫特征以探索免疫治疗策略。TRP特征的富集分析基于京都基因与基因组百科全书（KEGG）、基因本体论（GO）、过表达分析（ORA）和基因集富集分析（GSEA）。使用癌症药物敏感性基因组学（GDSC）和pRRophetic进行药物敏感性分析。最后，随机选择SCHIP1进行体外细胞功能实验。结果：观察到TESs较高的患者临床结局较差。共鉴定出107个差异表达TRGs。数据显示有57个预后相关TRGs。获得8个TRGs以建立预后TRP特征，并发现TRP评分较高的患者临床结局较差。ROC曲线和五个外部验证数据集确认了TRP特征在预测预后方面的效率和准确性。数据显示DNMT3A、IDH2、MUC16和TTN的突变率相对较高。浸润免疫细胞群水平、基质评分、免疫评分和ESTIMATE评分随TRP评分增加而升高。然而，TRP评分较低的AML患者表现出更高的肿瘤纯度。发现TRP评分与免疫调节剂和免疫检查点相关，从而揭示免疫特征和免疫治疗策略。高TRP评分（HTS）组中六种化疗药物的IC50值较低。最后，发现SCHIP1可能是致癌基因。结论：本研究结果将有助于理解TRP和SCHIP1在AML预后和发展中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36591215/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36591215/",
+  "paper_page_path": "papers/pubmed/36591215/index.html"
+}

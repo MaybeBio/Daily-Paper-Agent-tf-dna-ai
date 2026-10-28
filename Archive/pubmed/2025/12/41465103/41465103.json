@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "41465103",
+    "doi": "10.3390/genes16121430",
+    "title": "Generation of a Compendium of Transcription Factor Cascades and Identification of Potential Therapeutic Targets Using Graph Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Transcription factors (TFs) are critical regulators of gene expression, and their dysregulation is implicated in diseases like cancer. This study aims to create a comprehensive resource of TF cascades to identify potential therapeutic targets. METHODS: We extracted TF interactions from the STRING database, constructed a knowledge graph using graph machine learning, and performed pathway enrichment analysis with Enrichr. Network analysis and PageRank identified influential TFs. RESULTS: We generated 81,488 unique TF cascades, with the longest containing 62 TFs. Key TFs (e.g., MYC, TP53, STAT3) were identified, and enriched pathways included cancer-related processes. A knowledge graph and dataset were made publicly available. CONCLUSIONS: This compendium of TF cascades provides a valuable resource for understanding TF interactions and identifying novel drug targets for precision therapeutics.",
+    "keywords": [
+      "TF cascades",
+      "cancer",
+      "graph machine learning",
+      "knowledge graph",
+      "pathway enrichment",
+      "therapeutic targets",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "*Transcription Factors/genetics/metabolism",
+      "*Gene Regulatory Networks",
+      "*Neoplasms/genetics/drug therapy",
+      "Databases, Genetic",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sivarajkumar, Sonish",
+        "Roy, Romy",
+        "Tandale, Pratyush",
+        "Bhardwaj, Ankit",
+        "Johnson, Kipp W",
+        "Titus, Anoop",
+        "Glicksberg, Benjamin S",
+        "Khader, Shameer",
+        "Yadav, Kamlesh K",
+        "Subramanian, Lakshminarayanan"
+      ],
+      "short_names": [
+        "Sivarajkumar S",
+        "Roy R",
+        "Tandale P",
+        "Bhardwaj A",
+        "Johnson KW",
+        "Titus A",
+        "Glicksberg BS",
+        "Khader S",
+        "Yadav KK",
+        "Subramanian L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4173-1988",
+        "ORCID: 0000-0003-4515-8090"
+      ],
+      "affiliations": [
+        "Molecular Robotics, Kochi 682022, Kerala, India.",
+        "School of Computing and Information, University of Pittsburgh, Pennsylvania, PA 15213, USA.",
+        "Type 3 Civilization Technologies Pvt Ltd., Thiruvananthapuram 695013, Kerala, India.",
+        "Health Informatics & Data Science, Georgetown University, Washington, DC 20007, USA.",
+        "Department of Computer Science, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012, USA.",
+        "Institute for Next Generation Healthcare, Mount Sinai Health System, New York, NY 10065, USA.",
+        "Department of Medicine, Brown University, Providence, RI 02912, USA.",
+        "Hasso Plattner Institute for Digital Health, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Faculty of Medicine, Imperial College London, London SW7 2AZ, UK.",
+        "Department of Biomedical Sciences, College of Osteopathic Medicine, University of Northern Colorado, Greeley, CO 80639, USA.",
+        "Department of Computer Science, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sivarajkumar, Sonish",
+        "short_name": "Sivarajkumar S",
+        "identifiers": [
+          "0000-0003-4173-1988"
+        ],
+        "affiliations": [
+          "Molecular Robotics, Kochi 682022, Kerala, India.",
+          "School of Computing and Information, University of Pittsburgh, Pennsylvania, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Roy, Romy",
+        "short_name": "Roy R",
+        "identifiers": [],
+        "affiliations": [
+          "Type 3 Civilization Technologies Pvt Ltd., Thiruvananthapuram 695013, Kerala, India."
+        ]
+      },
+      {
+        "full_name": "Tandale, Pratyush",
+        "short_name": "Tandale P",
+        "identifiers": [],
+        "affiliations": [
+          "Health Informatics & Data Science, Georgetown University, Washington, DC 20007, USA."
+        ]
+      },
+      {
+        "full_name": "Bhardwaj, Ankit",
+        "short_name": "Bhardwaj A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Kipp W",
+        "short_name": "Johnson KW",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Next Generation Healthcare, Mount Sinai Health System, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Titus, Anoop",
+        "short_name": "Titus A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Brown University, Providence, RI 02912, USA."
+        ]
+      },
+      {
+        "full_name": "Glicksberg, Benjamin S",
+        "short_name": "Glicksberg BS",
+        "identifiers": [
+          "0000-0003-4515-8090"
+        ],
+        "affiliations": [
+          "Hasso Plattner Institute for Digital Health, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Khader, Shameer",
+        "short_name": "Khader S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Imperial College London, London SW7 2AZ, UK."
+        ]
+      },
+      {
+        "full_name": "Yadav, Kamlesh K",
+        "short_name": "Yadav KK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Osteopathic Medicine, University of Northern Colorado, Greeley, CO 80639, USA."
+        ]
+      },
+      {
+        "full_name": "Subramanian, Lakshminarayanan",
+        "short_name": "Subramanian L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2025 Nov 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/30 07:41",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36693157",
+      "36173075",
+      "35337852",
+      "35306525",
+      "34868979",
+      "34013350",
+      "33757410",
+      "33619373",
+      "33424607",
+      "32824207",
+      "31972154",
+      "31753034",
+      "31266772",
+      "31125640",
+      "30761370",
+      "30395287",
+      "30356768",
+      "29617745",
+      "29425488",
+      "29186331",
+      "28741499",
+      "28036280",
+      "27924014",
+      "27853626",
+      "27822457",
+      "27322546",
+      "27307606",
+      "27141961",
+      "26883003",
+      "26876889",
+      "26013997",
+      "25579574",
+      "24462001",
+      "24401325",
+      "24379683",
+      "23609410",
+      "23498934",
+      "23314754",
+      "22588877",
+      "22482508",
+      "21823042",
+      "20959618",
+      "19401399",
+      "18388306",
+      "16102021",
+      "15988017"
+    ],
+    "similar": [
+      "41465103",
+      "38451769",
+      "35757392",
+      "41006883",
+      "21172055",
+      "38062833",
+      "30844478",
+      "34445498",
+      "32054475",
+      "24228871",
+      "39953122",
+      "41050338",
+      "38863714",
+      "27857060",
+      "38354497",
+      "38886500",
+      "29187152",
+      "33510225",
+      "25514975",
+      "39013578",
+      "21375730",
+      "39142001",
+      "30985693",
+      "20704747",
+      "22829753",
+      "18713790",
+      "33941565",
+      "31114921",
+      "32559715",
+      "19786497",
+      "39992204",
+      "25932650",
+      "29325558",
+      "32845706",
+      "39789329",
+      "39037979",
+      "26679776",
+      "39236711",
+      "37878219",
+      "36049413",
+      "34986601",
+      "40196107",
+      "24612742",
+      "18426580",
+      "26611531",
+      "40210438",
+      "40216929",
+      "33003522",
+      "35397550",
+      "24200043",
+      "35749386",
+      "24565025",
+      "24009496",
+      "41288963",
+      "37632659",
+      "29178828",
+      "40596265",
+      "41012596",
+      "40332792",
+      "25867756",
+      "33517372",
+      "35322335",
+      "32858223",
+      "33631799",
+      "28101583",
+      "20085649",
+      "24565265",
+      "22824421",
+      "40365911",
+      "30709337",
+      "20942926",
+      "40599778",
+      "22952919",
+      "39419187",
+      "22165960",
+      "31424269",
+      "41155287",
+      "31340985",
+      "31037767",
+      "40832173",
+      "27035433",
+      "31598675",
+      "39509434",
+      "28849562",
+      "39943780",
+      "38764052",
+      "27082628",
+      "38715516",
+      "21729923",
+      "41432483",
+      "33037196",
+      "39602828",
+      "27924042",
+      "30704473",
+      "40895573",
+      "20840729",
+      "21496241",
+      "30395277",
+      "39512836",
+      "39804102"
+    ],
+    "review": [
+      "41465103",
+      "38715516",
+      "20840729"
+    ],
+    "pmc": [
+      "12733007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes16121430",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41465103/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

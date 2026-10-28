@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37813854",
+  "title": "Deep flanking sequence engineering for efficient promoter design using DeepSEED.",
+  "authors": "Zhang, Pengcheng; Wang, Haochen; Xu, Hanwen; Wei, Lei; Liu, Liyang; Hu, Zhirui; Wang, Xiaowo",
+  "journal": "Nature communications",
+  "published_date": "2023-10-10",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AI框架DeepSEED优化启动子侧翼序列设计，虽涉及TFBS和DNA形状特征，但核心是启动子工程而非TF-DNA结合机制建模，方法可迁移但深度有限。",
+  "abstract": "Designing promoters with desirable properties is essential in synthetic biology. Human experts are skilled at identifying strong explicit patterns in small samples, while deep learning models excel at detecting implicit weak patterns in large datasets. Biologists have described the sequence patterns of promoters via transcription factor binding sites (TFBSs). However, the flanking sequences of cis-regulatory elements, have long been overlooked and often arbitrarily decided in promoter design. To address this limitation, we introduce DeepSEED, an AI-aided framework that efficiently designs synthetic promoters by combining expert knowledge with deep learning techniques. DeepSEED has demonstrated success in improving the properties of Escherichia coli constitutive, IPTG-inducible, and mammalian cell doxycycline (Dox)-inducible promoters. Furthermore, our results show that DeepSEED captures the implicit features in flanking sequences, such as k-mer frequencies and DNA shape features, which are crucial for determining promoter properties.",
+  "abstract_zh": "设计具有理想特性的启动子在合成生物学中至关重要。人类专家擅长在小样本中识别强的显性模式，而深度学习模型则擅长在大数据集中检测弱的隐性模式。生物学家已通过转录因子结合位点（TFBSs）描述了启动子的序列模式。然而，顺式调控元件的侧翼序列在启动子设计中长期被忽视，且往往被随意决定。为解决这一局限，我们引入了DeepSEED，一个结合专家知识与深度学习技术的AI辅助框架，能够高效设计合成启动子。DeepSEED已在改善大肠杆菌组成型、IPTG诱导型及哺乳动物细胞多西环素（Dox）诱导型启动子的特性方面展现出成功。此外，我们的结果表明，DeepSEED捕捉了侧翼序列中的隐性特征，如k-mer频率和DNA形状特征，这些特征对决定启动子特性至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37813854/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37813854/",
+  "paper_page_path": "papers/pubmed/37813854/index.html"
+}

@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, supplementary data descriptions, and methods.
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of claims as presented in the provided manuscript. No external data or literature verification performed.
+- **Shared manuscript claim summary** The authors present a pipeline combining Transformer-based machine learning (REnformer) with Micro Capture-C (MCC) and POINT-seq to resolve causal variants, target genes, and effect direction for coronary artery disease (CAD) GWAS loci, with a focus on endothelial cells and pathways involving fluid shear stress and TGF-β signaling.
+- **Visible evidence base** Results sections describing ML predictions, MCC interaction mapping, gene ontology enrichment, allelic skew analysis, and POINT-seq data. Methods sections for variant selection, cell culture, ML, MCC, long-read sequencing, POINT-seq, and allelic skew detection. Supplementary table descriptions and URLs for data repositories.
+- **Missing materials affecting confidence** No figures, supplementary tables, or raw data files were provided for direct inspection. Statistical details (e.g., effect sizes, confidence intervals, multiple testing corrections) are not fully reported. Validation metrics for ML predictions beyond the single example are not shown. Details on MCC peak calling thresholds and reproducibility are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript describes an ambitious and potentially valuable integrative pipeline for resolving non-coding GWAS signals. The combination of ML prioritization, high-resolution chromatin conformation capture, and allele-specific expression analysis is conceptually strong and addresses a critical bottleneck in the field. However, the current presentation lacks sufficient quantitative detail and validation to fully establish the robustness and generalizability of the approach. Several claims, particularly regarding scalability and the breadth of pathway discovery, are not fully supported by the evidence provided. The work is of interest to the cardiovascular genetics and functional genomics communities, but requires substantial revision to meet the standards of a high-impact journal.
+- **Who would be interested in the results, and why** Researchers in cardiovascular genetics, functional genomics, and computational biology would find this work relevant. Those studying gene regulation, enhancer-promoter interactions, and the interpretation of GWAS variants would benefit from the described pipeline. The focus on endothelial biology and shear stress pathways may also attract vascular biologists. The methodological integration could serve as a template for similar studies in other complex diseases.
+- **Major strengths** 1. The integration of multiple state-of-the-art techniques (ML, MCC, long-read sequencing, POINT-seq) into a single pipeline is novel and addresses all four challenges of GWAS interpretation outlined in the introduction. 2. The use of allele-specific analysis within the same cell population is a powerful approach to demonstrate causality and direction of effect, reducing confounding from inter-individual variation. 3. The focus on endothelial cells and the identification of shear stress and TGF-β pathways provides biologically plausible and potentially actionable insights into CAD pathogenesis. 4. The authors provide public access to raw data and analysis code, which is commendable for transparency and reproducibility.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The ML model (REnformer) is claimed to accurately predict causal variants and identify disrupted transcription factor binding motifs, with a single example (rs1879454) used for validation.  
+    - **Evidence pointer** Results section "Machine Learning predicts causal SNPs in enhancers", Figure 1C-E, Supplementary Table 2.  
+    - **Concern** The validation of the ML model is limited to one previously characterized variant. No systematic evaluation of prediction accuracy (e.g., precision-recall curves, comparison to experimental validation across multiple loci) is provided. The claim that the model can "simultaneously resolve causal variants and effector cell type" is not supported by quantitative performance metrics.  
+    - **Why it matters** Without robust validation, the reliability of the prioritization step, which is the foundation for all downstream analyses, is uncertain. Overstated claims of accuracy could mislead other researchers using this tool.  
+    - **Resolution test** Provide a comprehensive benchmarking analysis, including cross-validation within the training data, independent validation on a set of experimentally confirmed regulatory variants, and comparison to other state-of-the-art predictors. Report metrics such as AUROC, AUPRC, and calibration.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence quality  
+    - **Claim pointer** MCC links 94 prioritized enhancer SNPs to 98 target genes, and gene ontology analysis reveals enrichment for shear stress and TGF-β signaling.  
+    - **Evidence pointer** Results sections "Micro Capture-C links enhancer variants to output genes" and "MCC interaction map highlights key endothelial functions", Figures 3-4, Supplementary Tables 3 and 5.  
+    - **Concern** The criteria for defining a "significant" enhancer-promoter interaction are not described. The number of interactions per enhancer, the reproducibility across biological replicates, and the statistical significance thresholds are not reported. The gene ontology analysis appears to be based on a small set of genes (98), and the enrichment statistics (e.g., p-values, FDR) are not provided.  
+    - **Why it matters** The core biological findings depend entirely on the quality and interpretation of the MCC interaction data. Without clear statistical rigor, the pathway enrichment claims are not verifiable and could be driven by noise or bias.  
+    - **Resolution test** Detail the MCC peak calling algorithm, including thresholds for significance and reproducibility. Provide the full list of interactions with statistical scores. For gene ontology, report enrichment p-values, FDR-corrected values, and the background gene set used.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** Allelic skew analysis in MCC and POINT-seq demonstrates variant causality and effect direction for several loci, including MMP2.  
+    - **Evidence pointer** Results sections "Allelic skew shows causality of SNPs" and "POINTseq measures allele specific gene output", Figures 5-6, Supplementary Table 4.  
+    - **Concern** The statistical model for detecting allelic skew is mentioned but not described in sufficient detail. The number of loci tested, the multiple testing correction applied, and the effect sizes are not reported. For POINT-seq, the criteria for calling significant skew and the handling of technical noise are unclear.  
+    - **Why it matters** The claim of demonstrating causality and direction of effect is a key differentiator of this pipeline. If the statistical approach is not robust, these conclusions are unsupported.  
+    - **Resolution test** Provide a detailed description of the beta-binomial model, including priors and assumptions. Report the number of tests performed, the correction method, and the threshold for significance. Include effect sizes and confidence intervals for all significant skew events.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Reproducibility  
+    - **Claim pointer** The pipeline is described as "highly scalable" and a "blueprint" for future studies.  
+    - **Evidence pointer** Discussion section.  
+    - **Concern** Scalability is claimed but not demonstrated. The manuscript does not report the computational resources required, the time for ML training and inference, or the throughput of MCC and POINT-seq. The generalizability to other cell types and tissues is asserted but not tested.  
+    - **Why it matters** For other groups to adopt this pipeline, practical considerations of cost, time, and technical expertise are critical. Overstating scalability without evidence could hinder adoption or lead to unrealistic expectations.  
+    - **Resolution test** Provide benchmarks for computational performance (e.g., GPU hours for training, inference time per variant) and experimental throughput (e.g., number of loci processed per experiment). Discuss potential limitations and required expertise for implementation in other laboratories.
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Methods section "Machine Learning"  
+    - **Evidence pointer** Location not provided.  
+    - **Issue** The description of the REnformer fine-tuning process is brief. Details on hyperparameters, training epochs, and data splitting are missing.  
+    - **Required correction** Provide a more detailed description of the training procedure, including hyperparameter choices, early stopping criteria, and how overfitting was avoided.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Data presentation  
+    - **Affected element** Results section "MCC interaction map highlights key endothelial functions"  
+    - **Evidence pointer** Figure 4.  
+    - **Issue** The STRING network visualization is mentioned, but the underlying data (e.g., list of genes, interaction scores) is not provided in the text.  
+    - **Required correction** Include the full list of genes in the network and the criteria for inclusion in the STRING analysis.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Statistical reporting  
+    - **Affected element** Results section "Allelic skew shows causality of SNPs"  
+    - **Evidence pointer** Figure 5.  
+    - **Issue** The example of MMP2 is described qualitatively. No quantitative data on the magnitude of skew or statistical significance is given.  
+    - **Required correction** Provide the effect size and p-value for the MMP2 example to support the claim.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Methods section "Variant selection"  
+    - **Evidence pointer** Location not provided.  
+    - **Issue** The FGWAS analysis uses specific chromatin datasets, but the rationale for choosing these datasets and the parameters used are not fully explained.  
+    - **Required correction** Clarify the selection criteria for the chromatin datasets and provide the FGWAS parameters (e.g., window size, significance thresholds).  
+  - **R1-m5**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Discussion section  
+    - **Evidence pointer** Location not provided.  
+    - **Issue** The discussion of limitations is brief and does not address potential biases in the ML model or the specificity of MCC interactions.  
+    - **Required correction** Expand the limitations section to discuss potential sources of bias, false positives/negatives, and the generalizability of findings to other cell types or disease contexts.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of quantitative validation for the ML model predictions. 2. Insufficient statistical detail for MCC interaction calling and gene ontology enrichment. 3. Incomplete description of the allelic skew detection model and its application to POINT-seq data. 4. No demonstration of scalability or generalizability beyond the presented context.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The integration of ML, MCC, and POINT-seq into a single pipeline is original and represents a methodological advance. The use of allele-specific analysis in this context is particularly novel.  
+  - **Scientific importance** The work addresses a fundamental problem in human genetics: translating GWAS associations into mechanistic understanding. The focus on CAD, a major global health burden, enhances its importance.  
+  - **Interdisciplinary readership** The findings are relevant to geneticists, computational biologists, vascular biologists, and clinicians. The methodological framework could be applied to other complex diseases, broadening its appeal.  
+  - **Technical soundness** The technical approach is sophisticated, but the current evidence is insufficient to fully assess its robustness. Key statistical and validation details are missing, which undermines confidence in the conclusions.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the methods section assumes familiarity with advanced genomic and computational techniques. A brief primer on MCC and POINT-seq for non-experts would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and preliminary results are promising, but the manuscript requires substantial revision to provide the necessary quantitative evidence and methodological clarity. The authors should address the major concerns regarding validation, statistical rigor, and scalability before the claims can be fully established.
+
+## Risk / unsupported claims
+- The claim that the pipeline can "simultaneously resolve causal variants, cell-type of action, output gene, and direction of effect" is not fully supported by the evidence provided, as validation is limited to a single example.
+- The assertion that the pipeline is "highly scalable" is not demonstrated with any performance metrics or practical considerations.
+- The gene ontology enrichment for shear stress and TGF-β signaling is presented without statistical support, making the significance of these findings unclear.
+- The claim that allelic skew analysis demonstrates causality for multiple loci is not substantiated with quantitative data or statistical tests.

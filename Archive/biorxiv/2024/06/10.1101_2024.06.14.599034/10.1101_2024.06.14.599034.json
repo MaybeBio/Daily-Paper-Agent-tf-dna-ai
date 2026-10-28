@@ -1,0 +1,858 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.14.599034",
+  "title": "Membrane binding properties of the cytoskeletal protein bactofilin",
+  "doi": "10.1101/2024.06.14.599034",
+  "abstract": "Bactofilins are a widespread family of cytoskeletal proteins with important roles in bacterial morpho-genesis, chromosome organization and motility. They polymerize in a nucleotide-independent manner, forming non-polar filaments that are typically associated with the cytoplasmic membrane. Membrane binding was suggested to be mediated by a short N-terminal peptide, but the underlying mechanism and the conservation of this interaction determinant among bacteria remain unclear. Here, we use the bacto-filin homolog BacA of the stalked bacterium Caulobacter crescentus as a model to analyze the membrane-binding behavior of bactofilins. Based on site-directed mutagenesis of the N-terminal region, we identify the full membrane-targeting sequence of BacA (MFSKQAKS) and pinpoint amino acid residues that are critical for its function in vivo and in vitro . Molecular dynamics simulations then provide detailed insight into the molecular mechanism underlying the membrane affinity of this peptide. Collectively, these analyses reveal a delicate interplay between the water exclusion of hydrophobic N-terminal residues, the arrangement of the peptide within the membrane and the electrostatic attraction between positively charged groups in the peptide and negative charges in the phospholipid molecules. A comprehensive bio-informatic analysis shows that the composition and properties of the membrane-targeting sequence of BacA are conserved in numerous bactofilin homologs from diverse bacterial phyla. Importantly, our findings reveal cooperative effects between the membrane-binding and polymerization activities of BacA. Moreover, they demonstrate that both of these activities critically contribute to the recruitment of the BacA client protein PbpC, a membrane-bound cell wall synthase that uses a conserved peptide in its N-terminal cytoplasmic tail to interact with BacA assemblies. Finally, we show that PbpC can functionally replace the endogenous membrane-targeting sequence of BacA when provided at elevated levels in trans , indicating that client proteins can make a significant contribution to the membrane association of bacto-filin polymers. Together, these results unravel the mechanistic underpinnings of membrane binding by bactofilin homologs, thereby illuminating a previously obscure but important aspect in the biology of this cytoskeletal protein family.",
+  "authors": [
+    "Ying Liu",
+    "Rajani Karmakar",
+    "Maria Billini",
+    "Wieland Steinchen",
+    "Saumyak Mukherjee",
+    "Rogelio Hernández-Tamayo",
+    "Thomas Heimerl",
+    "Gert Bange",
+    "Lars V. Schäfer",
+    "Martin Thanbichler"
+  ],
+  "published_date": "2024-06-14",
+  "updated_date": "2024-06-15T00:25:26Z",
+  "journal": "bioRxiv",
+  "category": "Microbiology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.14.599034",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.14.599034.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Microbiology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Microbiology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:17:09Z",
+        "timestamp": 1785417429335,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            14
+          ]
+        ]
+      },
+      "group-title": "Microbiology",
+      "reference-count": 81,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                14
+              ]
+            ],
+            "date-time": "2024-06-14T00:00:00Z",
+            "timestamp": 1718323200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001659",
+          "name": "Deutsche Forschungsgemeinschaft",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "450420164 – TH 885/3-1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "450420164 – TH 885/3-1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001659",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001659",
+          "name": "Deutsche Forschungsgemeinschaft",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "324652314"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "324652314"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001659",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001659",
+          "name": "Deutsche Forschungsgemeinschaft",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "260989694"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "260989694"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001659",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001659",
+          "name": "Deutsche Forschungsgemeinschaft",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "EXC 2033 – 390677874 – RESOLV"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EXC 2033 – 390677874 – RESOLV"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001659",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "award": [
+            "Marie Sk&#322;odowska-Curie grant agreement No 801459 – FP-RESOMUS"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Marie Sk&#322;odowska-Curie grant agreement No 801459 – FP-RESOMUS"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/019w4f821",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "Max Planck Society",
+          "award": [
+            "Postdoctoral research grant from the Microcosm Earth Center (Marburg)"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Postdoctoral research grant from the Microcosm Earth Center (Marburg)"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Bactofilins are a widespread family of cytoskeletal proteins with important roles in bacterial morpho-genesis, chromosome organization and motility. They polymerize in a nucleotide-independent manner, forming non-polar filaments that are typically associated with the cytoplasmic membrane. Membrane binding was suggested to be mediated by a short N-terminal peptide, but the underlying mechanism and the conservation of this interaction determinant among bacteria remain unclear. Here, we use the bacto-filin homolog BacA of the stalked bacterium\n                  <jats:italic>Caulobacter crescentus</jats:italic>\n                  as a model to analyze the membrane-binding behavior of bactofilins. Based on site-directed mutagenesis of the N-terminal region, we identify the full membrane-targeting sequence of BacA (MFSKQAKS) and pinpoint amino acid residues that are critical for its function\n                  <jats:italic>in vivo</jats:italic>\n                  and\n                  <jats:italic>in vitro</jats:italic>\n                  . Molecular dynamics simulations then provide detailed insight into the molecular mechanism underlying the membrane affinity of this peptide. Collectively, these analyses reveal a delicate interplay between the water exclusion of hydrophobic N-terminal residues, the arrangement of the peptide within the membrane and the electrostatic attraction between positively charged groups in the peptide and negative charges in the phospholipid molecules. A comprehensive bio-informatic analysis shows that the composition and properties of the membrane-targeting sequence of BacA are conserved in numerous bactofilin homologs from diverse bacterial phyla. Importantly, our findings reveal cooperative effects between the membrane-binding and polymerization activities of BacA. Moreover, they demonstrate that both of these activities critically contribute to the recruitment of the BacA client protein PbpC, a membrane-bound cell wall synthase that uses a conserved peptide in its N-terminal cytoplasmic tail to interact with BacA assemblies. Finally, we show that PbpC can functionally replace the endogenous membrane-targeting sequence of BacA when provided at elevated levels\n                  <jats:italic>in trans</jats:italic>\n                  , indicating that client proteins can make a significant contribution to the membrane association of bacto-filin polymers. Together, these results unravel the mechanistic underpinnings of membrane binding by bactofilin homologs, thereby illuminating a previously obscure but important aspect in the biology of this cytoskeletal protein family.\n                </jats:p>",
+      "DOI": "10.1101/2024.06.14.599034",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            15
+          ]
+        ],
+        "date-time": "2024-06-15T00:25:26Z",
+        "timestamp": 1718411126000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Membrane binding properties of the cytoskeletal protein bactofilin"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Ying",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rajani",
+          "family": "Karmakar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maria",
+          "family": "Billini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wieland",
+          "family": "Steinchen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2196-3423",
+          "authenticated-orcid": false,
+          "given": "Saumyak",
+          "family": "Mukherjee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4666-3929",
+          "authenticated-orcid": false,
+          "given": "Rogelio",
+          "family": "Hernández-Tamayo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Heimerl",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gert",
+          "family": "Bange",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8498-3061",
+          "authenticated-orcid": false,
+          "given": "Lars V.",
+          "family": "Schäfer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Martin",
+          "family": "Thanbichler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Abraham, MJ , Murtola, T , Schulz, R , Páll, S , Smith, JC , Hess, B , Lindahl, E (2015). GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers. SoftwareX 1–2:19-25.",
+          "DOI": "10.1016/j.softx.2015.06.001"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.14583"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(03)00935-8"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.4",
+          "first-page": "28",
+          "article-title": "Fitting a mixture model by expectation maximization to discover motifs in biopolymers",
+          "volume": "2",
+          "year": "1994",
+          "journal-title": "Proc Int Conf Intell Syst Mol Biol"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2008.264"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.448118"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1007897"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/IAI.00203-21"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2408420"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-genet-102108-134845"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2020.07.063"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/00221287-83-2-369"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.135.3.1130-1136.1978"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.143.3.1215-1222.1980"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41564-019-0544-0"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002195"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh340"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0141546"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0076-6879(91)04019-K"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.132.1.294-301.1977"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2023.1162806"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.177.14.4121-4130.1995"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.14501"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.181.7.2008-2016.1999"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.86.21.8247"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0218474"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.12422"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCSE.2007.55"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-39783-w"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.13917"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.12.16.628611"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1237"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20945"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2009.04.013"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(01)00287-2"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2016.04.039"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2011.07629.x"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c0cs00113a"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2009.358"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00935"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.00092-23"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-02015-z"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2309984121"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/34472"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.051812706"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-121219-081703"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.178.3.675-682.1996"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.90.3.1053"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab696%"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2013.06.003"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.53",
+          "first-page": "D418",
+          "article-title": "InterPro in 2022",
+          "volume": "51",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2005.04522.x"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/b907837a"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pöhl, S , Osorio-Valeriano, M , Cserti, E , Harberding, J , Hernandez-Tamayo, R , Biboy, J , Sobetzko, P , Vollmer, W , Graumann, PL , Thanbichler, M (2024). A dynamic bactofilin cytoskeleton cooperates with an M23 endopeptidase to control bacterial morphogenesis. Elife 12:RP86577.",
+          "DOI": "10.7554/eLife.86577.3"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/BR.28.3.231-295.1964"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1010788"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-micro-020518-120056"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.07.008"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-7-255"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2019"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/00221287-53-3-291"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.1501087"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.80111"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mBio.00107-19"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.01194-13"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2010.03.046"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm818"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.05.038"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1052"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35092500"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1418450112"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro.2017.153"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ac8008862"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21105/joss.03021"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp033"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00507a030"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.23702"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.00600-13"
+        },
+        {
+          "key": "2025070420350492000_2024.06.14.599034v4.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0121074"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.14.599034",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:34:22Z",
+        "timestamp": 1768458862000
+      },
+      "score": 85.69816,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.14.599034"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            14
+          ]
+        ]
+      },
+      "references-count": 81,
+      "URL": "https://doi.org/10.1101/2024.06.14.599034",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.100749",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.100749.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.100749.1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.100749.2",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

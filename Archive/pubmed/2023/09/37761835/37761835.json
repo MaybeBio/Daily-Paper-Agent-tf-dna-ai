@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "37761835",
+    "doi": "10.3390/genes14091695",
+    "title": "Identification of Potential Sex-Specific Biomarkers in Pigs with Low and High Intramuscular Fat Content Using Integrated Bioinformatics and Machine Learning."
+  },
+  "content": {
+    "abstract": "Intramuscular fat (IMF) content is a key determinant of pork quality. Controlling the genetic and physiological factors of IMF and the expression patterns of various genes is important for regulating the IMF content and improving meat quality in pig breeding. Growing evidence has suggested the role of genetic factors and breeds in IMF deposition; however, research on the sex factors of IMF deposition is still lacking. The present study aimed to identify potential sex-specific biomarkers strongly associated with IMF deposition in low- and high-IMF pig populations. The GSE144780 expression dataset of IMF deposition-related genes were obtained from the Gene Expression Omnibus. Initially, differentially expressed genes (DEGs) were detected in male and female low-IMF (162 DEGs, including 64 up- and 98 down-regulated genes) and high-IMF pigs (202 DEGs, including 147 up- and 55 down-regulated genes). Moreover, hub genes were screened via PPI network construction. Furthermore, hub genes were screened for potential sex-specific biomarkers using the least absolute shrinkage and selection operator machine learning algorithm, and sex-specific biomarkers in low-IMF (troponin I (TNNI1), myosin light chain 9(MYL9), and serpin family C member 1(SERPINC1)) and high-IMF pigs (CD4 molecule (CD4), CD2 molecule (CD2), and amine oxidase copper-containing 2(AOC2)) were identified, and then verified by quantitative real-time PCR (qRT-PCR) in semimembranosus muscles. Additionally, the gene set enrichment analysis and single-sample gene set enrichment analysis of hallmark gene sets were collectively performed on the identified biomarkers. Finally, the transcription factor-biomarker and lncRNA-miRNA-mRNA (biomarker) networks were predicted. The identified potential sex-specific biomarkers may provide new insights into the molecular mechanisms of IMF deposition and the beneficial foundation for improving meat quality in pig breeding.",
+    "keywords": [
+      "integrated bioinformatics",
+      "intramuscular fat content",
+      "machine learning",
+      "pig",
+      "sex-specific biomarker"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Male",
+      "Animals",
+      "Swine",
+      "*Algorithms",
+      "Biomarkers",
+      "*Computational Biology",
+      "Machine Learning",
+      "Meat"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yongli",
+        "Wang, Xiaoyi",
+        "Wang, Shuyan",
+        "Chen, Qiang",
+        "Li, Mingli",
+        "Lu, Shaoxiong"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Wang X",
+        "Wang S",
+        "Chen Q",
+        "Li M",
+        "Lu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4077-0216"
+      ],
+      "affiliations": [
+        "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China.",
+        "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China.",
+        "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China.",
+        "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China.",
+        "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China.",
+        "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yongli",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoyi",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuyan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qiang",
+        "short_name": "Chen Q",
+        "identifiers": [
+          "0000-0002-4077-0216"
+        ],
+        "affiliations": [
+          "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mingli",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shaoxiong",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Animal Science and Technology, Yunnan Agricultural University, Kunming 650201, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2023 Aug 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/28 06:42",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "40365640",
+      "40282015",
+      "38865489",
+      "38231679",
+      "38136787"
+    ],
+    "refs": [
+      "35995385",
+      "35538407",
+      "35011225",
+      "34792645",
+      "34234807",
+      "33834191",
+      "33817781",
+      "33673460",
+      "33519920",
+      "32533609",
+      "32358797",
+      "32326415",
+      "31925461",
+      "31881351",
+      "31486291",
+      "31215398",
+      "30564273",
+      "30423578",
+      "30181511",
+      "30146083",
+      "30111385",
+      "29662503",
+      "29658965",
+      "29026539",
+      "28836077",
+      "28054344",
+      "27928823",
+      "26771021",
+      "26721678",
+      "26581328",
+      "26458558",
+      "26267216",
+      "26150313",
+      "25635834",
+      "25605792",
+      "25521941",
+      "25179839",
+      "24961663",
+      "24894005",
+      "24506540",
+      "24301769",
+      "24068518",
+      "23893995",
+      "23688799",
+      "23611731",
+      "23504601",
+      "23473035",
+      "23275256",
+      "23192618",
+      "23074262",
+      "23034802",
+      "22064192",
+      "22063984",
+      "22063781",
+      "22062461",
+      "22061021",
+      "22059664",
+      "21802130",
+      "20376701",
+      "20145300",
+      "19158402",
+      "19025115",
+      "18618017",
+      "18391018",
+      "17664351",
+      "17400359",
+      "16100060",
+      "16026420",
+      "15502875",
+      "14611635",
+      "14597658",
+      "12755418",
+      "12525261",
+      "12369898",
+      "12021248",
+      "1353913"
+    ],
+    "similar": [
+      "37761835",
+      "38807889",
+      "36276837",
+      "38832038",
+      "36672909",
+      "29892843",
+      "29025412",
+      "32428048",
+      "33527326",
+      "36930061",
+      "33894376",
+      "34289582",
+      "31881348",
+      "35324170",
+      "32849841",
+      "36914311",
+      "22646994",
+      "36622203",
+      "37628600",
+      "18677600",
+      "39162499",
+      "37107661",
+      "37689861",
+      "36866648",
+      "28669724",
+      "35181733",
+      "34827944",
+      "38395145",
+      "29617344",
+      "25403201",
+      "37672836",
+      "27928823",
+      "32381004",
+      "32138348",
+      "37847170",
+      "29742492",
+      "30939765",
+      "36195955",
+      "36714570",
+      "36085018",
+      "32845331",
+      "19119313",
+      "38200898",
+      "29338766",
+      "33522899",
+      "28727003",
+      "27652074",
+      "35204660",
+      "24757673",
+      "30381738",
+      "34536521",
+      "21779802",
+      "34971942",
+      "16100060",
+      "31018763",
+      "31615399",
+      "30564273",
+      "35865542",
+      "32630492",
+      "36470144",
+      "27421023",
+      "31080594",
+      "35958412",
+      "27236338",
+      "34792645",
+      "36823662",
+      "31480195",
+      "24535863",
+      "34749647",
+      "36011260",
+      "36341343",
+      "36137229",
+      "32400010",
+      "37239410",
+      "20653527",
+      "29662503",
+      "36253734",
+      "36139132",
+      "24778332",
+      "33468065",
+      "36671424",
+      "33526009",
+      "30423578",
+      "38413888",
+      "25716824",
+      "35967801",
+      "32248866",
+      "38290559",
+      "39290671",
+      "23829541",
+      "22266990",
+      "38737521",
+      "33148167",
+      "37627391",
+      "28727022",
+      "36506045",
+      "31316554",
+      "36341378",
+      "30843090",
+      "36305366",
+      "35713363",
+      "16800382",
+      "17296780",
+      "17878274",
+      "38411755",
+      "32927662",
+      "38865489",
+      "38998104",
+      "35967999",
+      "37915947",
+      "37987700",
+      "37919760",
+      "38387707",
+      "38474200",
+      "35546408",
+      "38137019",
+      "38812494",
+      "34084904",
+      "32326415",
+      "38415055",
+      "33117416",
+      "38026203",
+      "39428631",
+      "39061540",
+      "38783810"
+    ],
+    "review": [
+      "37761835",
+      "20653527",
+      "39290671",
+      "28727022",
+      "38387707",
+      "38137019",
+      "38812494"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes14091695",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37761835/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37761835",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1070",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

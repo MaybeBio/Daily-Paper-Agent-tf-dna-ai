@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "39192218",
+    "doi": "10.1186/s12885-024-12807-4",
+    "title": "Identification of RCAN1's role in hepatocellular carcinoma using single-cell analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The regulator of calcineurin 1 (RCAN1) is expressed in multiple organs, including the heart, liver, brain, and kidney, and is closely linked to the pathogenesis of cardiovascular diseases, Down syndrome, and Alzheimer's disease. It is also implicated in the development of various organ tumors; however, its potential role in hepatocellular carcinoma (HCC) remains poorly understood. Therefore, the objective of this study was to investigate the potential mechanisms of RCAN1 in HCC through bioinformatics analysis. METHODS: We conducted a joint analysis based on the NCBI and TCGA databases, integrating both bulk transcriptome and single-cell analyses to examine the principal biological functions of RCAN1 in HCC, as well as its roles related to phenotype, metabolism, and cell communication. Subsequently, an RCAN1-overexpressing cell line was established, and the effects of RCAN1 on tumor cells were validated through in vitro experiments. Moreover, we endeavored to identify potential related drugs using molecular docking and molecular dynamics simulations. RESULTS: The expression of RCAN1 was found to be downregulated in 19 types of cancer tissues and upregulated in 11 types of cancer tissues. Higher levels of RCAN1 expression were associated with improved patient survival. RCAN1 was predominantly expressed in hepatocytes, macrophages, endothelial cells, and monocytes, and its high expression not only closely correlated with the distribution of cells related to the HCC phenotype but also with the distribution of HCC cells themselves. Additionally, Rcan1 may directly or indirectly participate in metabolic pathways such as alanine, aspartate, and glutamate metabolism, as well as butanoate metabolism, thereby influencing tumor cell proliferation and migration. In vitro experiments confirmed that RCAN1 overexpression promoted apoptosis while inhibiting proliferation and invasion of HCC cells. Through molecular docking of 1615 drugs, we screened brompheniramine as a potential target drug and verified our results by molecular dynamics. CONCLUSION: In this study, we revealed the relationship between RCAN1 and HCC through bioinformatics methods, verified that RCAN1 can affect the progress of the disease through experiments, and finally identified potential therapeutic drugs through drug molecular docking and molecular dynamics.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Hepatocellular carcinoma (HCC)",
+      "RCAN1",
+      "Single-cell analysis"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/pathology/metabolism/genetics",
+      "Humans",
+      "*Liver Neoplasms/pathology/metabolism/genetics",
+      "*Single-Cell Analysis",
+      "*Muscle Proteins/metabolism/genetics",
+      "*Intracellular Signaling Peptides and Proteins/metabolism/genetics",
+      "Molecular Docking Simulation",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Proliferation",
+      "Computational Biology/methods",
+      "Apoptosis",
+      "Molecular Dynamics Simulation",
+      "Cell Movement"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Ziqi",
+        "Deng, Xiwei",
+        "Wen, Didi",
+        "Sun, Lijun",
+        "An, Rui",
+        "Xu, Jian"
+      ],
+      "short_names": [
+        "Yang Z",
+        "Deng X",
+        "Wen D",
+        "Sun L",
+        "An R",
+        "Xu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Oncology, Bethune International Peace Hospital, Shijiazhuang, Hebei, China.",
+        "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+        "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China. atczln@163.com.",
+        "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China. atczln@163.com.",
+        "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China. xujian771939@163.com.",
+        "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China. xujian771939@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Ziqi",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+          "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xiwei",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+          "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+          "Department of Oncology, Bethune International Peace Hospital, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Didi",
+        "short_name": "Wen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Lijun",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China.",
+          "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "An, Rui",
+        "short_name": "An R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China. atczln@163.com.",
+          "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China. atczln@163.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Jian",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China. xujian771939@163.com.",
+          "Department of Interventional Surgery Center, Xijing Hospital, Fourth Military Medical University, Xi'an, Shaanxi, China. xujian771939@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2024 Aug 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/28 02:56",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "41216224"
+    ],
+    "refs": [
+      "38105215",
+      "38057662",
+      "37576400",
+      "36729264",
+      "36633525",
+      "36084663",
+      "35717152",
+      "35610565",
+      "35292771",
+      "35044851",
+      "34764492",
+      "34707090",
+      "34417225",
+      "34339582",
+      "34336566",
+      "34278794",
+      "34265844",
+      "34062119",
+      "33959160",
+      "33602934",
+      "33597522",
+      "33579421",
+      "33550204",
+      "33462507",
+      "33267791",
+      "33118813",
+      "33009518",
+      "32782275",
+      "32771023",
+      "32122140",
+      "32004570",
+      "31740819",
+      "30944124",
+      "30267660",
+      "28583823",
+      "28575181",
+      "28289712",
+      "28061453",
+      "26629955",
+      "26492364",
+      "26284591",
+      "26102033",
+      "24813605",
+      "23038757",
+      "22566045",
+      "19458618",
+      "17910944",
+      "17010640",
+      "16211538",
+      "11368354",
+      "11015619",
+      "10200555"
+    ],
+    "similar": [
+      "39192218",
+      "28583823",
+      "30317540",
+      "39082336",
+      "39215210",
+      "39023830",
+      "30876939",
+      "32795316",
+      "22028922",
+      "28241806",
+      "32771023",
+      "33280519",
+      "38501918",
+      "36273122",
+      "38724606",
+      "31703591",
+      "33318318",
+      "38940025",
+      "33000250",
+      "38662158",
+      "30782188",
+      "30542714",
+      "26538215",
+      "28284560",
+      "38842135",
+      "33824473",
+      "39118438",
+      "29506567",
+      "28609841",
+      "34738187",
+      "32547318",
+      "27811373",
+      "35001801",
+      "30267660",
+      "34001107",
+      "25609232",
+      "27492460",
+      "33106914",
+      "32037603",
+      "38816744",
+      "33121524",
+      "34239351",
+      "31243545",
+      "30915743",
+      "28972178",
+      "26821084",
+      "33812045",
+      "34983307",
+      "30268144",
+      "29768256",
+      "34784846",
+      "38742797",
+      "19306109",
+      "25446815",
+      "38901205",
+      "38742112",
+      "27928873",
+      "31625123",
+      "33000222",
+      "38310567",
+      "33037180",
+      "27614046",
+      "30238408",
+      "30450735",
+      "32064636",
+      "31637871",
+      "31976317",
+      "31955177",
+      "25391428",
+      "26975630",
+      "34130659",
+      "33078826",
+      "38747231",
+      "29898761",
+      "39048162",
+      "31111552",
+      "30556279",
+      "33596983",
+      "34299096",
+      "25377251",
+      "31203308",
+      "27193094",
+      "30468466",
+      "32557341",
+      "33012505",
+      "28631570",
+      "31228948",
+      "30704479",
+      "36737507",
+      "37861044",
+      "38660302",
+      "31901862",
+      "33990536",
+      "30070317",
+      "34056002",
+      "39098231",
+      "31545279",
+      "33862123",
+      "39222064"
+    ],
+    "review": [
+      "39192218",
+      "29975928"
+    ],
+    "pmc": [
+      "11348566"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-024-12807-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/39192218/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39192218/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

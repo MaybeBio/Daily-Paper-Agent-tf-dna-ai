@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "38633778",
+    "doi": "10.1101/2024.04.05.24305380",
+    "title": "An atlas of causal and mechanistic drivers of interpatient heterogeneity in glioma."
+  },
+  "content": {
+    "abstract": "Grade IV glioma, formerly known as glioblastoma multiforme (GBM) is the most aggressive and lethal type of brain tumor, and its treatment remains challenging in part due to extensive interpatient heterogeneity in disease driving mechanisms and lack of prognostic and predictive biomarkers. Using mechanistic inference of node-edge relationship (MINER), we have analyzed multiomics profiles from 516 patients and constructed an atlas of causal and mechanistic drivers of interpatient heterogeneity in GBM (gbmMINER). The atlas has delineated how 30 driver mutations act in a combinatorial scheme to causally influence a network of regulators (306 transcription factors and 73 miRNAs) of 179 transcriptional \"programs\", influencing disease progression in patients across 23 disease states. Through extensive testing on independent patient cohorts, we share evidence that a machine learning model trained on activity profiles of programs within gbmMINER significantly augments risk stratification, identifying patients who are super-responders to standard of care and those that would benefit from 2 (nd) line treatments. In addition to providing mechanistic hypotheses regarding disease prognosis, the activity of programs containing targets of 2 (nd) line treatments accurately predicted efficacy of 28 drugs in killing glioma stem-like cells from 43 patients. Our findings demonstrate that interpatient heterogeneity manifests from differential activities of transcriptional programs, providing actionable strategies for mechanistically characterizing GBM from a systems perspective and developing better prognostic and predictive biomarkers for personalized medicine.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Turkarslan, Serdar",
+        "He, Yu",
+        "Hothi, Parvinder",
+        "Murie, Carl",
+        "Nicolas, Abran",
+        "Kannan, Kavya",
+        "Park, James H",
+        "Pan, Min",
+        "Awawda, Alaa",
+        "Cole, Zachariah D",
+        "Shapiro, Mark A",
+        "Stuhlmiller, Timothy J",
+        "Lee, Hwahyung",
+        "Patel, Anoop P",
+        "Cobbs, Charles",
+        "Baliga, Nitin S"
+      ],
+      "short_names": [
+        "Turkarslan S",
+        "He Y",
+        "Hothi P",
+        "Murie C",
+        "Nicolas A",
+        "Kannan K",
+        "Park JH",
+        "Pan M",
+        "Awawda A",
+        "Cole ZD",
+        "Shapiro MA",
+        "Stuhlmiller TJ",
+        "Lee H",
+        "Patel AP",
+        "Cobbs C",
+        "Baliga NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1679-6405",
+        "ORCID: 0000-0003-3661-1404",
+        "ORCID: 0009-0003-0977-0562",
+        "ORCID: 0009-0007-2565-0615",
+        "ORCID: 0009-0005-0946-2257",
+        "ORCID: 0000-0001-7078-9535",
+        "ORCID: 0000-0001-7688-4293"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Turkarslan, Serdar",
+        "short_name": "Turkarslan S",
+        "identifiers": [
+          "0000-0003-1679-6405"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "He, Yu",
+        "short_name": "He Y",
+        "identifiers": [
+          "0000-0003-3661-1404"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hothi, Parvinder",
+        "short_name": "Hothi P",
+        "identifiers": [
+          "0009-0003-0977-0562"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Murie, Carl",
+        "short_name": "Murie C",
+        "identifiers": [
+          "0009-0007-2565-0615"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nicolas, Abran",
+        "short_name": "Nicolas A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kannan, Kavya",
+        "short_name": "Kannan K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Park, James H",
+        "short_name": "Park JH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pan, Min",
+        "short_name": "Pan M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Awawda, Alaa",
+        "short_name": "Awawda A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cole, Zachariah D",
+        "short_name": "Cole ZD",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shapiro, Mark A",
+        "short_name": "Shapiro MA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Stuhlmiller, Timothy J",
+        "short_name": "Stuhlmiller TJ",
+        "identifiers": [
+          "0009-0005-0946-2257"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lee, Hwahyung",
+        "short_name": "Lee H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Patel, Anoop P",
+        "short_name": "Patel AP",
+        "identifiers": [
+          "0000-0001-7078-9535"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cobbs, Charles",
+        "short_name": "Cobbs C",
+        "identifiers": [
+          "0000-0001-7688-4293"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Baliga, Nitin S",
+        "short_name": "Baliga NS",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2024 Apr 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/18 06:44",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42430385"
+    ],
+    "refs": [],
+    "similar": [
+      "38633778",
+      "27419830",
+      "37432454",
+      "35414102",
+      "38339384",
+      "37640198",
+      "35155681",
+      "36825022",
+      "35441887",
+      "38229014",
+      "36834486",
+      "37650991",
+      "32075484",
+      "30946477",
+      "25085363",
+      "37491836",
+      "33762019",
+      "30311408",
+      "34841881",
+      "36819551",
+      "38766170",
+      "38826227",
+      "38439715",
+      "37735434",
+      "32296458",
+      "34118380",
+      "37587203",
+      "37969372",
+      "26320189",
+      "32383980",
+      "29669750",
+      "34596120",
+      "35678909",
+      "38007705",
+      "34919784",
+      "33832517",
+      "30894197",
+      "36596853",
+      "27426982",
+      "33429364",
+      "23302469",
+      "37400829",
+      "36305410",
+      "24927040",
+      "33693962",
+      "34238116",
+      "34014534",
+      "35509325",
+      "36798872",
+      "26967788",
+      "31923345",
+      "23468990",
+      "33000268",
+      "36989893",
+      "36493392",
+      "33553434",
+      "32918970",
+      "32025832",
+      "25283629",
+      "29198335",
+      "36936439",
+      "33009892",
+      "33790946",
+      "27476114",
+      "32616845",
+      "34657158",
+      "35938932",
+      "31785437",
+      "33804433",
+      "36034290",
+      "32638092",
+      "37004060",
+      "32197147",
+      "25552286",
+      "34350832",
+      "31616629",
+      "34812552",
+      "25722938",
+      "36963368",
+      "25242542",
+      "35677045",
+      "35328072",
+      "25791797",
+      "32821246",
+      "28759011",
+      "37283447",
+      "37149563",
+      "33618763",
+      "31187466",
+      "32500034",
+      "24278465",
+      "33240428"
+    ],
+    "review": [
+      "38633778",
+      "33762019",
+      "29198335",
+      "35938932",
+      "32638092",
+      "25242542"
+    ],
+    "pmc": [
+      "11023657"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38633778/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.04.05.24305380",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

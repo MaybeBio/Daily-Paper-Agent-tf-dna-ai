@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "36087060",
+    "doi": "10.1021/acs.est.2c05178",
+    "title": "Promotion of Bladder Cancer Cell Metastasis by 2-Mercaptobenzothiazole via Its Activation of Aryl Hydrocarbon Receptor Transcription: Molecular Dynamics Simulations, Cell-Based Assays, and Machine Learning-Driven Prediction."
+  },
+  "content": {
+    "abstract": "2-Mercaptobenzothiazole (MBT) is an industrial chemical widely used for rubber products, corrosion inhibitors, and polymer materials with multiple environmental and exposure pathways. A growing body of evidence suggests its potential bladder cancer (BC) risk as a public health concern; however, the molecular mechanism remains poorly understood. Herein, we demonstrate the activation of the aryl hydrocarbon receptor (AhR) by MBT and reveal key events in carcinogenesis associated with BC. MBT alters conformational changes of AhR ligand binding domain (LBD) as revealed by 500 ns molecular dynamics simulations and activates AhR transcription with upregulation of AhR-target genes CYP1A1 and CYP1B1 to approximately 1.5-fold. MBT upregulates the expression of MMP1, the cancer cell metastasis biomarker, to 3.2-fold and promotes BC cell invasion through an AhR-mediated manner. MBT is further revealed to induce differentially expressed genes (DEGs) most enriched in cancer pathways by transcriptome profiling. The exposure of MBT at environmentally relevant concentrations induces BC risk via AhR signaling disruption, transcriptome aberration, and malignant cell metastasis. A machine learning-based model with an AUC value of 0.881 is constructed to successfully predict 31 MBT analogues. Overall, we provide molecular insight into the BC risk of MBT and develop an effective tool for rapid screening of AhR agonists.",
+    "keywords": [
+      "aryl hydrocarbon receptor",
+      "cell metastasis",
+      "machine learning",
+      "molecular modeling",
+      "transcriptome aberration"
+    ],
+    "mesh_terms": [
+      "Benzothiazoles",
+      "Biomarkers",
+      "Cytochrome P-450 CYP1A1/genetics/metabolism",
+      "Humans",
+      "Ligands",
+      "Machine Learning",
+      "Matrix Metalloproteinase 1/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Receptors, Aryl Hydrocarbon/metabolism",
+      "Rubber",
+      "*Urinary Bladder Neoplasms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jiachen",
+        "Cui, Shixuan",
+        "Shen, Lilai",
+        "Gao, Yuchen",
+        "Liu, Weiping",
+        "Zhang, Chunlong",
+        "Zhuang, Shulin"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Cui S",
+        "Shen L",
+        "Gao Y",
+        "Liu W",
+        "Zhang C",
+        "Zhuang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1173-892X",
+        "ORCID: 0000-0002-7774-7239"
+      ],
+      "affiliations": [
+        "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "Women's Reproductive Health Key Laboratory of Zhejiang Province, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou 310006, China.",
+        "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "Department of Environmental Sciences, University of Houston-Clear Lake, 2700 Bay Area Boulevard, Houston, Texas 77058, United States.",
+        "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "Women's Reproductive Health Key Laboratory of Zhejiang Province, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou 310006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jiachen",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China.",
+          "Women's Reproductive Health Key Laboratory of Zhejiang Province, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou 310006, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Shixuan",
+        "short_name": "Cui S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Lilai",
+        "short_name": "Shen L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yuchen",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Weiping",
+        "short_name": "Liu W",
+        "identifiers": [
+          "0000-0002-1173-892X"
+        ],
+        "affiliations": [
+          "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chunlong",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Sciences, University of Houston-Clear Lake, 2700 Bay Area Boulevard, Houston, Texas 77058, United States."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Shulin",
+        "short_name": "Zhuang S",
+        "identifiers": [
+          "0000-0002-7774-7239"
+        ],
+        "affiliations": [
+          "Key Laboratory of Environment Remediation and Ecological Health, Ministry of Education, College of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China.",
+          "Women's Reproductive Health Key Laboratory of Zhejiang Province, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou 310006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental science & technology"
+    ],
+    "journal_abbrev": [
+      "Environ Sci Technol"
+    ],
+    "pub_date": "2022 Sep 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/11 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "42255135",
+      "42211786",
+      "41587949",
+      "39534282",
+      "38721132",
+      "37737576"
+    ],
+    "refs": [],
+    "similar": [
+      "36087060",
+      "19755661",
+      "32907554",
+      "17511620",
+      "9706865",
+      "25523818",
+      "24355420",
+      "23026235",
+      "19470599",
+      "24091107",
+      "28103884",
+      "28171546",
+      "10359656",
+      "32799115",
+      "31176714",
+      "18755850",
+      "24161567",
+      "27474938",
+      "12727795",
+      "24265133",
+      "18059014",
+      "17327465",
+      "23614742",
+      "12520072",
+      "32316498",
+      "32132031",
+      "28710019",
+      "30293151",
+      "27519288",
+      "11097088",
+      "20132803",
+      "29164305",
+      "21602191",
+      "15210858",
+      "30836878",
+      "19371443",
+      "10581206",
+      "27286660",
+      "9395520",
+      "26441083",
+      "21666223",
+      "21498875",
+      "12139968",
+      "35739584",
+      "25110054",
+      "24885022",
+      "16111922",
+      "32526934",
+      "21703235",
+      "34782204",
+      "10357772",
+      "11809858",
+      "22533375",
+      "36191995",
+      "17715397",
+      "19038280",
+      "28192119",
+      "25082669",
+      "19365803",
+      "27032495",
+      "37863327",
+      "23288144",
+      "11752201",
+      "19880377",
+      "20829355",
+      "9496914",
+      "11805098",
+      "18619640",
+      "23999541",
+      "25668756",
+      "19265716",
+      "20106948",
+      "17720764",
+      "14560034",
+      "21883026",
+      "15537747",
+      "9022676",
+      "35149128",
+      "26514676",
+      "10558919",
+      "30458266",
+      "17433523",
+      "27041069",
+      "20846786",
+      "23454571",
+      "23859880",
+      "30381393",
+      "33302042",
+      "17200336",
+      "32947700",
+      "35710704"
+    ],
+    "review": [
+      "36087060",
+      "37863327"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/esthag/article-lookup/doi/10.1021/acs.est.2c05178",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

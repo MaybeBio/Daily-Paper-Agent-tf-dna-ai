@@ -1,0 +1,392 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.11.548358",
+  "title": "Oncogene EVI1 Drives Acute Myeloid Leukemia Via a Targetable Interaction with CTBP2",
+  "doi": "10.1101/2023.07.11.548358",
+  "abstract": "Acute myeloid leukemia (AML) driven by the activation of EVI1 due to chromosome 3q26/MECOM rearrangements is incurable. Since transcription factors like EVI1 are notoriously hard to target, insight into the mechanism by which EVI1 drives myeloid transformation could provide alternative avenues for therapy. Applying protein folding predictions combined with proteomics technologies, we demonstrate that interaction with CTBP1 and CTBP2 via a single PLDLS motif in EVI1 is indispensable for leukemic transformation. Furthermore, we show that a 4x PLDLS repeat construct outcompetes binding of EVI1 to CTBP1 and CTBP2 and thereby inhibits proliferation of 3q26/MECOM rearranged AML both in in vitro and in xenotransplant models. This proof-of-concept study opens the possibility to therapeutically target one of the most incurable forms of AML with specific EVI1-CTBP inhibitors. This has important implications for other tumour types with aberrant expression of EVI1 as well as for cancers transformed by distinct CTBP-dependent oncogenic transcription factors.",
+  "authors": [
+    "Pastoors D",
+    "Havermans M",
+    "Mulet-Lazaro R",
+    "Brian D",
+    "Noort W",
+    "Grasel J",
+    "Hoogenboezem R",
+    "Smeenk L",
+    "Demmers JA",
+    "Milsom MD",
+    "Enver T",
+    "Groen RW",
+    "Bindels E",
+    "Delwel R"
+  ],
+  "published_date": "2023-07-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.11.548358",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.11.548358.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR689914",
+    "raw_record": {
+      "id": "PPR689914",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR689914"
+        ]
+      },
+      "doi": "10.1101/2023.07.11.548358",
+      "title": "Oncogene EVI1 Drives Acute Myeloid Leukemia Via a Targetable Interaction with CTBP2",
+      "authorString": "Pastoors D, Havermans M, Mulet-Lazaro R, Brian D, Noort W, Grasel J, Hoogenboezem R, Smeenk L, Demmers JA, Milsom MD, Enver T, Groen RW, Bindels E, Delwel R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pastoors D",
+            "lastName": "Pastoors",
+            "firstName": "Dorien",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5322-1961"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands"
+                },
+                {
+                  "affiliation": "Oncode Institute, Utrecht, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Havermans M",
+            "lastName": "Havermans",
+            "firstName": "Marije",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands"
+                },
+                {
+                  "affiliation": "Oncode Institute, Utrecht, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mulet-Lazaro R",
+            "lastName": "Mulet-Lazaro",
+            "firstName": "Roger",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0298-7948"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands"
+                },
+                {
+                  "affiliation": "Oncode Institute, Utrecht, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brian D",
+            "lastName": "Brian",
+            "firstName": "Duncan",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Stem Cell Group, UCL Cancer Institute, University College London, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Noort W",
+            "lastName": "Noort",
+            "firstName": "Willy",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Amsterdam UMC location VUMc, Amsterdam, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grasel J",
+            "lastName": "Grasel",
+            "firstName": "Julius",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heidelberg Institute for Stem Cell Technology and Experimental Medicine (HI-STEM gGmbH), 59120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": "Division of Experimental Hematology, German Cancer Research Center, DKFZ, 59120 Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoogenboezem R",
+            "lastName": "Hoogenboezem",
+            "firstName": "Remco",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smeenk L",
+            "lastName": "Smeenk",
+            "firstName": "Leonie",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7025-8515"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands"
+                },
+                {
+                  "affiliation": "Oncode Institute, Utrecht, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Demmers JA",
+            "lastName": "Demmers",
+            "firstName": "Jeroen A.A.",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8757-9611"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Proteomics Center, Erasmus MC, Rotterdam, Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milsom MD",
+            "lastName": "Milsom",
+            "firstName": "Michael",
+            "initials": "MD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heidelberg Institute for Stem Cell Technology and Experimental Medicine (HI-STEM gGmbH), 59120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": "Division of Experimental Hematology, German Cancer Research Center, DKFZ, 59120 Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Enver T",
+            "lastName": "Enver",
+            "firstName": "Tariq",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0866-6443"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Stem Cell Group, UCL Cancer Institute, University College London, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Groen RW",
+            "lastName": "Groen",
+            "firstName": "Richard WJ",
+            "initials": "RW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Amsterdam UMC location VUMc, Amsterdam, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bindels E",
+            "lastName": "Bindels",
+            "firstName": "Eric",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Delwel R",
+            "lastName": "Delwel",
+            "firstName": "Ruud",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, The Netherlands"
+                },
+                {
+                  "affiliation": "Oncode Institute, Utrecht, The Netherlands"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7025-8515"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0866-6443"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5322-1961"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8757-9611"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0298-7948"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Acute myeloid leukemia (AML) driven by the activation of EVI1 due to chromosome 3q26/MECOM rearrangements is incurable. Since transcription factors like EVI1 are notoriously hard to target, insight into the mechanism by which EVI1 drives myeloid transformation could provide alternative avenues for therapy. Applying protein folding predictions combined with proteomics technologies, we demonstrate that interaction with CTBP1 and CTBP2 via a single PLDLS motif in EVI1 is indispensable for leukemic transformation. Furthermore, we show that a 4x PLDLS repeat construct outcompetes binding of EVI1 to CTBP1 and CTBP2 and thereby inhibits proliferation of 3q26/MECOM rearranged AML both in in vitro and in xenotransplant models. This proof-of-concept study opens the possibility to therapeutically target one of the most incurable forms of AML with specific EVI1-CTBP inhibitors. This has important implications for other tumour types with aberrant expression of EVI1 as well as for cancers transformed by distinct CTBP-dependent oncogenic transcription factors.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/12/2023.07.11.548358.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.11.548358"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR689914"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR689914&type=FILE&fileName=EMS179590-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38748792",
+            "reference": "Science advances. 2024 May;10(20):eadk9076",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS179590",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "pxd",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-07-14",
+      "firstPublicationDate": "2023-07-12",
+      "firstIndexDate": "2023-07-14",
+      "fullTextReceivedDate": "2024-01-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

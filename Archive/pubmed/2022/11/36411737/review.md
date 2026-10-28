@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report molecular modelling and MD-simulation studies of a human RXRalpha-THRbeta heterodimer complexed with DNA, identifying conserved or semiconserved water molecules at the protein-DNA interface and proposing a gating role for Met313 in the THRbeta LBD based on conformational flexibility in holo versus apo states.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, structural models, validation data, trajectory analyses, and all figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible hypothesis regarding the role of conserved water molecules in RXRalpha-THRbeta heterodimer-DNA recognition and a potential gating function for Met313. However, the evidence base is entirely descriptive and lacks quantitative or methodological support. The claims are not verifiable from the supplied material, and several statements are ambiguous or potentially overstated. The work may be of interest to specialists in nuclear receptor structural biology, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying nuclear receptor heterodimerization, DNA recognition mechanisms, and the structural role of water in protein-DNA interfaces. The proposed gating mechanism for Met313 could interest those investigating ligand-dependent conformational dynamics in thyroid hormone receptors. Computational biophysicists focused on MD simulations of protein-DNA complexes may also find the approach relevant.
+- **Major strengths** The study addresses a biologically important heterodimer system with relevance to development and physiology. The systematic categorization of water molecules into W1-W17 groups by interface region provides a clear organizational framework. The connection to prior work on homodimeric THRbeta offers continuity and a comparative basis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that MD simulations on aquated complexes of modelled RXRalpha-THRbeta heterodimer with DNA-duplex indicated the role of conserved or semiconserved water molecules in the complexation process.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No methodological details are provided regarding the modelling approach, force field, simulation length, equilibration protocol, water model, or criteria used to define conserved or semiconserved water molecules. The term "conserved" implies evolutionary or comparative analysis, but no alignment or reference set is described.
+  - **Why it matters** Without these details, the reliability of the simulation results and the validity of the water conservation assignment cannot be assessed. The central claim of the study depends entirely on the quality and interpretation of the MD simulations.
+  - **Resolution test** Provide a methods section with simulation parameters, water identification criteria, and conservation analysis. Show convergence metrics and reproducibility of water occupancy across independent simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that W1-W4 water centers mediate interaction between A-chain DBD residues and the consensus sequence C-chain of DNA, and similar specific roles are assigned to W5-W17.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The functional assignment of each water group is stated as a definitive result, but no quantitative data such as occupancy fractions, hydrogen bond persistence, or interaction energies are presented. The distinction between "mediate" and merely "present at the interface" is not established.
+  - **Why it matters** The specific functional roles attributed to each water group constitute the core finding. Without quantitative evidence, these assignments remain speculative and could be artifacts of the specific simulation setup.
+  - **Resolution test** Present occupancy analysis, hydrogen bond lifetime distributions, and interaction energy calculations for each water group. Show that the assigned roles are statistically robust and not dependent on initial conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract proposes that Met313 conformational flexibility from open to close form in the presence or absence of T3 may act as a gate restricting solvent entry into the hydrophobic T3-binding pocket.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The gating hypothesis is presented as a plausible rational, but no data on Met313 side chain dihedral transitions, solvent accessible surface area of the pocket, or water entry events are provided. The connection between the open-close conformational change and functional gating is not demonstrated.
+  - **Why it matters** This is a mechanistically significant claim that extends beyond the water analysis. Without direct evidence of solvent exclusion correlated with Met313 conformation, the hypothesis remains unsupported.
+  - **Resolution test** Show time series of Met313 conformation, pocket solvent accessibility, and water entry events in holo versus apo simulations. Demonstrate a statistical correlation between the closed conformation and reduced solvent penetration.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The terms "conserved" and "semiconserved" are used without definition or context. It is unclear whether conservation refers to sequence alignment across species, structural equivalence across simulations, or something else.
+  - **Required correction** Define the criteria for conserved and semiconserved water molecules explicitly in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Statement on physiological function
+  - **Evidence pointer** Abstract text
+  - **Issue** The opening sentence states the heterodimer plays an important role in growth and development, which is a broad generalization without specific citation or scope.
+  - **Required correction** Specify the developmental processes or target genes involved, or cite relevant literature to support the claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract text
+  - **Issue** The reference to a previous study on homodimeric THRbeta identifying fifteen conserved water molecules is mentioned but not contextualized. It is unclear how the current findings compare or contrast with that prior work.
+  - **Required correction** Briefly state whether the water positions overlap, differ, or provide new insights relative to the homodimeric system.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Grammar and phrasing
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "may provide a plausible rational" should be "rationale." Additionally, the sentence structure in the latter half of the abstract is convoluted.
+  - **Required correction** Correct the typo and rephrase for clarity, for example, "may provide a plausible rationale for the role of this residue as a gate."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The specific focus on conserved water molecules in RXRalpha-THRbeta heterodimer-DNA recognition is a niche contribution, but the concept of water-mediated protein-DNA interactions is not novel. Scientific importance: The biological relevance of the heterodimer is clear, but the abstract does not demonstrate how the findings advance fundamental understanding or therapeutic development. Interdisciplinary readership: The work is likely to appeal primarily to computational structural biologists and nuclear receptor specialists, with limited broader appeal. Technical soundness: Not assessable from the abstract alone; the absence of methodological detail precludes evaluation. Readability for nonspecialists: The abstract is dense and assumes familiarity with domain abbreviations and simulation terminology, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses but lacks the quantitative and methodological support required to validate the claims. A full manuscript with detailed methods and results would be necessary to assess the work properly.
+
+## Risk / unsupported claims
+- The functional roles assigned to W1-W17 water groups are unsupported by quantitative data in the abstract.
+- The gating mechanism for Met313 is presented as a hypothesis but not demonstrated with simulation evidence.
+- The term "conserved" for water molecules is used without defining the conservation criterion or providing comparative analysis.
+- The claim that the heterodimer plays an important role in growth and development is stated without citation or specific context.
+- The comparison to the prior homodimeric THRbeta study is mentioned but not substantiated with comparative data.

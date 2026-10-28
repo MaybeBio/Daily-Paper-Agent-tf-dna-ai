@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "41488645",
+    "doi": "10.3389/fimmu.2025.1729989",
+    "title": "Serum CHI3L1 levels correlate with disease activity in rheumatoid arthritis and reveal potential molecular mechanisms."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study aims to elucidate the molecular regulatory mechanisms of Chitinase-3-like protein 1 (CHI3L1) in rheumatoid arthritis (RA) and its association with disease activity, focusing on its translational potential in RA diagnosis, dynamic monitoring, and precision therapy. METHODS: Transcriptomic datasets (GSE77298, GSE89408) and single-cell RNA-seq data (GSE200815) were obtained from Gene Expression Omnibus (GEO). CHI3L1 expression was analyzed by Wilcoxon test, and diagnostic accuracy by Receiver Operating Characteristic (ROC) curve. Single-cell analysis defined cell type-specific expression of CHI3L1. Differential analysis combined with weighted gene co-expression network analysis (WGCNA) identified CHI3L1-related genes, followed by protein-protein interaction (PPI) and enrichment analyses. Immune infiltration was estimated with CIBERSORT, and competing endogenous RNA (ceRNA)/transcription factor networks were constructed to explore upstream regulation. Drug databases and molecular docking were integrated to predict therapeutic candidates. Clinically, serum CHI3L1 was measured by chemiluminescence immunoassay (CLIA) in RA patients (n=102) and controls (n=79), stratified by 28-joint Disease Activity Score with erythrocyte sedimentation rate (DAS28-ESR), and correlated with C-reactive protein (CRP), rheumatoid factor (RF), anti-cyclic citrullinated peptide antibody (CCP), and ESR. RESULTS: CHI3L1 expression was significantly higher in RA across datasets (P<0.01) with strong diagnostic performance (AUC>0.8). Single-cell analysis revealed predominant fibroblast expression. Integrated analysis identified 51 candidate genes, enriched in chemokine signaling and mineral absorption pathways. PPI analysis highlighted TIMP1 and AQP9 as key genes, both strongly correlated with CHI3L1 (r>0, P<0.001). Immune infiltration showed increased M0 macrophages and plasma cells, reduced regulatory T cells, and significant correlations with CHI3L1. The ceRNA network indicated involvement of multiple miRNAs and lncRNAs. Drug prediction identified glibenclamide with the lowest binding energy (-9.386 kcal/mol). Clinically, serum CHI3L1 was markedly elevated in RA (P<0.001) with excellent diagnostic accuracy (AUC = 0.907). Higher CHI3L1 levels were observed in high-activity patients (P<0.01). CHI3L1 correlated with CRP (r=0.40, P<0.001), ESR (r=0.35, P<0.001), and moderately with CCP (r=0.21, P<0.05). CONCLUSION: This exploratory study suggests that CHI3L1 is a fibroblast-enriched molecule closely associated with immune dysregulation and RA activity, showing promise as a diagnostic and monitoring biomarker and a potential therapeutic target, though further validation through functional experiments and prospective studies is warranted.",
+    "keywords": [
+      "CHI3L1",
+      "WGCNA",
+      "immune infiltration",
+      "molecular docking",
+      "rheumatoid arthritis",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Arthritis, Rheumatoid/blood/diagnosis/genetics/immunology",
+      "*Chitinase-3-Like Protein 1/blood/genetics",
+      "Female",
+      "Male",
+      "Biomarkers/blood",
+      "Middle Aged",
+      "Protein Interaction Maps",
+      "Adult",
+      "Gene Regulatory Networks",
+      "Aged",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deng, Yi",
+        "Wang, Dan",
+        "Wang, Chao",
+        "Guo, Kaiyun",
+        "Lei, Ming",
+        "Huang, Yanzhao",
+        "Tang, Langui",
+        "Ding, Ya",
+        "Gao, Yan"
+      ],
+      "short_names": [
+        "Deng Y",
+        "Wang D",
+        "Wang C",
+        "Guo K",
+        "Lei M",
+        "Huang Y",
+        "Tang L",
+        "Ding Y",
+        "Gao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China.",
+        "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China.",
+        "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China.",
+        "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China.",
+        "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China.",
+        "Hengyang Medical College, University of South China, Hengyang, China.",
+        "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China.",
+        "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China.",
+        "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deng, Yi",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chao",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Kaiyun",
+        "short_name": "Guo K",
+        "identifiers": [],
+        "affiliations": [
+          "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Ming",
+        "short_name": "Lei M",
+        "identifiers": [],
+        "affiliations": [
+          "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanzhao",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hengyang Medical College, University of South China, Hengyang, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Langui",
+        "short_name": "Tang L",
+        "identifiers": [],
+        "affiliations": [
+          "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ya",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yan",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Changde Hospital, Xiangya School of Medicion, Central South University (The First People's Hospital of Changde City), Changde, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/05 06:46",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [
+      "42388799",
+      "41766874"
+    ],
+    "refs": [
+      "40561673",
+      "40260255",
+      "40118129",
+      "40013912",
+      "39953769",
+      "39769202",
+      "39768177",
+      "39556634",
+      "39544938",
+      "39122458",
+      "39051053",
+      "38667293",
+      "38543093",
+      "38240831",
+      "38075846",
+      "38039967",
+      "37979448",
+      "37756391",
+      "37662936",
+      "37101376",
+      "37006170",
+      "36860872",
+      "36370105",
+      "36276655",
+      "35990693",
+      "35883453",
+      "35701153",
+      "35325185",
+      "35315883",
+      "34539410",
+      "34484236",
+      "34480694",
+      "34062119",
+      "33175207",
+      "32929074",
+      "32211348",
+      "31061481",
+      "30476243",
+      "29179491",
+      "28740332",
+      "28384116",
+      "27141961",
+      "26226356",
+      "25605792",
+      "24920662",
+      "21959042",
+      "20699241",
+      "20347285",
+      "19114008",
+      "19003601",
+      "18512708",
+      "14597658",
+      "11300743",
+      "10802651"
+    ],
+    "similar": [
+      "41488645",
+      "39139563",
+      "39067546",
+      "40402318",
+      "39953769",
+      "41066424",
+      "35545408",
+      "16295525",
+      "40260255",
+      "39466354",
+      "41314196",
+      "33407587",
+      "40592131",
+      "37662936",
+      "39433011",
+      "39170004",
+      "40969769",
+      "34136020",
+      "40462241",
+      "41368929",
+      "39509434",
+      "39326197",
+      "40943151",
+      "41131762",
+      "36699262",
+      "26199263",
+      "39221753",
+      "31249576",
+      "40500570",
+      "38656728",
+      "38711508",
+      "41388523",
+      "38771826",
+      "41102516",
+      "41481752",
+      "40082645",
+      "34160468",
+      "40801343",
+      "40797437",
+      "40294937",
+      "38179730",
+      "39041572",
+      "40279008",
+      "34380068",
+      "39602044",
+      "41459480",
+      "30896663",
+      "29540200",
+      "38941374",
+      "39736250",
+      "39845946",
+      "39830504",
+      "30814078",
+      "32293530",
+      "19847085",
+      "39104909",
+      "39987090",
+      "33397492",
+      "28164544",
+      "39350019",
+      "34184082",
+      "33460311",
+      "18418600",
+      "38704780",
+      "30659089",
+      "40288069",
+      "41021591",
+      "40475761",
+      "39969652",
+      "36238290",
+      "41116042",
+      "36940554",
+      "20049501",
+      "40739375",
+      "24252038",
+      "36110846",
+      "30843355",
+      "40596265",
+      "24659118",
+      "40696582",
+      "40153321",
+      "31549885",
+      "41287769",
+      "39575601",
+      "36374432",
+      "38194746",
+      "39840076",
+      "34691030",
+      "34113405",
+      "31176730",
+      "39891356",
+      "40681713",
+      "34767108",
+      "29382355",
+      "23176102",
+      "30420853",
+      "28502142",
+      "24426223",
+      "37667923",
+      "28440025"
+    ],
+    "review": [
+      "41488645"
+    ],
+    "pmc": [
+      "12756385"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41488645/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-680",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1729989",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

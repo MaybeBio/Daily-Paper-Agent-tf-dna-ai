@@ -1,0 +1,547 @@
+{
+  "identity": {
+    "pmid": "37745718",
+    "doi": "10.3389/fendo.2023.1206154",
+    "title": "Identification of endoplasmic reticulum stress-related biomarkers of diabetes nephropathy based on bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUNDS: Diabetes nephropathy (DN) is a growing public health concern worldwide. Renal dysfunction impairment in DN is intimately linked to ER stress and its related signaling pathways. Nonetheless, the underlying mechanism and biomarkers for this function of ER stress in the DN remain unknown. METHODS: Microarray datasets were retrieved from the Gene Expression Omnibus (GEO) database, and ER stress-related genes (ERSRGs) were downloaded from the MSigDB and GeneCards database. We identified hub ERSRGs for DN progression by intersecting ERSRGs with differentially expressed genes and significant genes in WGCNA, followed by a functional analysis. After analyzing hub ERSRGs with three machine learning techniques and taking the intersection, we did external validation as well as developed a DN diagnostic model based on the characteristic genes. Immune infiltration was performed using CIBERSORT. Moreover, patients with DN were then categorized using a consensus clustering approach. Eventually, the candidate ERSRGs-specific small-molecule compounds were defined by CMap. RESULTS: Several biological pathways driving pathological injury of DN and disordered levels of immune infiltration were revealed in the DN microarray datasets and strongly related to deregulated ERSRGs by bioinformatics multi-chip integration. Moreover, CDKN1B, EGR1, FKBP5, GDF15, and MARCKS were identified as ER stress signature genes associated with DN by machine learning algorithms, demonstrating their potential as DN biomarkers. CONCLUSIONS: Our research sheds fresh light on the function of ER stress in DN pathophysiology and the development of early diagnostic and ER stress-related treatment targets in patients with DN.",
+    "keywords": [
+      "WGCNA (weighted gene co-expression network analysis)",
+      "diabetic nephropathy",
+      "endoplasmic reticulum stress",
+      "immune cell infiltration",
+      "machine learning",
+      "molecular subtypes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Receptors, Estrogen",
+      "*Diabetic Nephropathies/diagnosis/genetics",
+      "Biomarkers",
+      "Computational Biology",
+      "Endoplasmic Reticulum Stress/genetics",
+      "Machine Learning",
+      "*Diabetes Mellitus"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Jiaming",
+        "Peng, Jing",
+        "Wang, Lin",
+        "Xie, Huidi",
+        "Zhou, Ying",
+        "Chen, Haimin",
+        "Shi, Yang",
+        "Guo, Yan",
+        "Zheng, Yicheng",
+        "Guo, Yuxin",
+        "Dong, Zhaoxi",
+        "Zhang, Xianhui",
+        "Liu, Hongfang"
+      ],
+      "short_names": [
+        "Su J",
+        "Peng J",
+        "Wang L",
+        "Xie H",
+        "Zhou Y",
+        "Chen H",
+        "Shi Y",
+        "Guo Y",
+        "Zheng Y",
+        "Guo Y",
+        "Dong Z",
+        "Zhang X",
+        "Liu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China.",
+        "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Jiaming",
+        "short_name": "Su J",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Jing",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lin",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Huidi",
+        "short_name": "Xie H",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ying",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Haimin",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yang",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yan",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yicheng",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yuxin",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Zhaoxi",
+        "short_name": "Dong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xianhui",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongfang",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Renal Research Institution of Beijing University of Chinese Medicine, Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/25 06:42",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "42461218",
+      "41612488",
+      "41136446",
+      "41094692",
+      "40779572",
+      "40775242",
+      "40385066",
+      "40238820",
+      "40074956",
+      "40014586",
+      "39959271",
+      "39676815",
+      "39612444",
+      "39553470",
+      "39347483",
+      "38774257",
+      "38403669",
+      "38027201"
+    ],
+    "refs": [
+      "36220875",
+      "36193416",
+      "35990622",
+      "35918533",
+      "35552540",
+      "35290443",
+      "35262539",
+      "35126159",
+      "34879977",
+      "34858345",
+      "34363037",
+      "33853474",
+      "33847920",
+      "33797560",
+      "33465051",
+      "33398021",
+      "33337559",
+      "33307037",
+      "33161510",
+      "32691413",
+      "32439965",
+      "32061315",
+      "32057966",
+      "31633153",
+      "31430543",
+      "30878214",
+      "30815865",
+      "30673886",
+      "30181826",
+      "29940170",
+      "29500363",
+      "29195078",
+      "29097767",
+      "29062142",
+      "28717886",
+      "28341782",
+      "28271468",
+      "28159780",
+      "27686049",
+      "26791723",
+      "26001596",
+      "25737480",
+      "25656104",
+      "25605792",
+      "25581827",
+      "25318062",
+      "24503896",
+      "24186862",
+      "23986522",
+      "23977286",
+      "23787157",
+      "23624402",
+      "23323831",
+      "22508704",
+      "22387231",
+      "21414208",
+      "21172926",
+      "20689021",
+      "20668104",
+      "20624000",
+      "20427518",
+      "18776125",
+      "17565364",
+      "16199517",
+      "15897808",
+      "12595521",
+      "12595506",
+      "12202830"
+    ],
+    "similar": [
+      "37745718",
+      "38951833",
+      "39265357",
+      "38942324",
+      "36329882",
+      "36911691",
+      "36203606",
+      "36482994",
+      "36627452",
+      "39010084",
+      "37554330",
+      "38851464",
+      "35663304",
+      "36919187",
+      "35713142",
+      "37287987",
+      "36969169",
+      "37737517",
+      "38394492",
+      "39187837",
+      "37250717",
+      "37656997",
+      "39319258",
+      "37312900",
+      "35909518",
+      "38476236",
+      "35651615",
+      "36445321",
+      "36400857",
+      "37622120",
+      "36154667",
+      "37480090",
+      "36823662",
+      "34424825",
+      "38390317",
+      "37760894",
+      "36891052",
+      "36064366",
+      "36568106",
+      "35845512",
+      "36059957",
+      "38789967",
+      "38968594",
+      "35923621",
+      "35937822",
+      "34215202",
+      "34124269",
+      "33887734",
+      "38549776",
+      "38028597",
+      "35119030",
+      "39280014",
+      "37396184",
+      "39340293",
+      "38244370",
+      "36280016",
+      "36092962",
+      "36755923",
+      "36618403",
+      "38020922",
+      "35637650",
+      "27664441",
+      "36743936",
+      "28271468",
+      "35834115",
+      "27224243",
+      "38429902",
+      "37113991",
+      "39224660",
+      "32954999",
+      "39028495",
+      "36960398",
+      "36470144",
+      "38375694",
+      "36671424",
+      "38027201",
+      "36387855",
+      "36341378",
+      "36738224",
+      "37492198",
+      "39290792",
+      "30224065",
+      "38445624",
+      "39096939",
+      "37454542",
+      "39370621",
+      "30485525",
+      "35713363",
+      "37139330",
+      "38043109",
+      "38287255",
+      "37383398",
+      "36072904",
+      "36341343",
+      "35991124",
+      "38238919",
+      "38604455",
+      "36304455",
+      "37264340",
+      "37038746",
+      "38332898",
+      "34767108",
+      "38390397",
+      "36896170",
+      "36923221",
+      "37964514",
+      "36699262",
+      "37011874",
+      "37503333",
+      "30320493",
+      "34967303",
+      "35958412",
+      "30898648",
+      "37649561",
+      "33581581",
+      "37075605",
+      "38637751",
+      "37346041",
+      "37386410",
+      "31277135",
+      "31298342",
+      "36401196",
+      "25958041",
+      "36765416",
+      "32691413",
+      "35865542",
+      "36639674",
+      "36248807",
+      "35660966",
+      "38371978",
+      "37287620",
+      "38395835",
+      "37359526",
+      "33588742",
+      "39378654",
+      "37063851",
+      "38107383",
+      "38379386",
+      "39085362",
+      "38292407",
+      "37744379",
+      "38428406",
+      "38469146",
+      "38712372",
+      "36360783",
+      "37475857",
+      "38809515",
+      "38304805",
+      "38199392",
+      "38533476",
+      "38420127",
+      "38423139",
+      "38978780",
+      "37338009",
+      "38746045",
+      "39245097",
+      "38497748",
+      "38413872",
+      "38229693",
+      "37245869",
+      "37679655",
+      "37988198",
+      "39426956",
+      "38521829",
+      "37480086",
+      "37311930",
+      "38303703",
+      "37710308",
+      "37860112",
+      "39430538",
+      "38334110",
+      "39351493",
+      "39265844",
+      "33329726",
+      "25364744"
+    ],
+    "review": [
+      "37745718",
+      "38394492",
+      "35119030",
+      "36618403",
+      "28271468",
+      "37383398"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37745718/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37745718",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1237",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2023.1206154",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

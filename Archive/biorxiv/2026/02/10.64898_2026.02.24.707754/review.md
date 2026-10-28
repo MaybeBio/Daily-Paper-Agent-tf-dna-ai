@@ -1,0 +1,127 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods description, results, discussion, and conclusion sections as provided)
+- **Assessment boundary** Scientific validity, methodological soundness, evidence quality, and clarity of claims based solely on the supplied text
+- **Shared manuscript claim summary** The authors apply a streamlined geometric formalism, combining geometric route PMF calculations with Gaussian accelerated molecular dynamics (GaWTM-eABF), to compute absolute binding free energies (ABFE) for three protein-DNA complexes (CFP1-CpG, MC1-DNA, SopB-DNA). They report ABFE values within 0.6 kcal/mol of experimental references, claim chemical accuracy (defined as difference less than k_b T), and characterize molecular interactions in the binding interfaces.
+- **Visible evidence base** Abstract, introduction, methods description (partial), results for three complexes, interaction analysis summary, and conclusion. References to Table 1, Table 2, Figure 1, and Supporting Information tables (S2-S4) are mentioned but not provided.
+- **Missing materials affecting confidence** Full methods section, all figures and tables, Supporting Information, experimental reference values and their sources, simulation parameters, convergence criteria, error analysis details, and complete interaction analysis data.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable application of an established geometric route formalism to protein-DNA systems, a domain where absolute binding free energy calculations remain challenging. The reported agreement with experimental values is encouraging. However, the provided text lacks sufficient methodological detail, quantitative results, and validation evidence to fully assess the claims. The interaction analysis is largely descriptive and lacks quantitative support. The manuscript would benefit from clearer presentation of the formalism, complete results, and more rigorous error analysis.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on binding free energy methods, researchers studying protein-DNA recognition and gene regulation, and developers of molecular simulation tools. The work demonstrates a potentially cost-effective approach for estimating absolute binding affinities in nucleic acid-protein systems, which could be of interest to those seeking alternatives to alchemical methods.
+- **Major strengths** 1) Addresses a relevant problem: absolute binding free energy calculation for protein-DNA complexes, which is methodologically challenging. 2) The streamlined formalism reduces the number of required simulations from 14 to 6, potentially improving computational efficiency. 3) Application to three distinct protein-DNA systems with different binding modes (major groove, minor groove, and centromere-binding) provides some breadth. 4) The reported agreement with experimental values within 0.6 kcal/mol is notable if reproducible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The authors claim that the streamlined geometric formalism yields chemically accurate ABFE values for protein-DNA complexes, with differences from experimental values less than 0.6 kcal/mol.
+  - **Evidence pointer** Table 2 (not provided), methods description in text, Supporting Information Tables S2-S4 (not provided)
+  - **Concern** The manuscript text does not provide the actual computed ABFE values for MC1-DNA and SopB-DNA complexes in the results section, only stating they differ by 0.3 and 0.4 kcal/mol from experimental values. The experimental reference values and their sources are not cited. The definition of chemical accuracy (difference less than k_b T) is unusual, as k_b T at 300 K is approximately 0.6 kcal/mol, which is a relatively loose criterion compared to the commonly used 1 kcal/mol. The error bars reported (±1.4 kcal/mol for CFP1-CpG) exceed this threshold, raising questions about whether the results truly meet the stated chemical accuracy criterion.
+  - **Why it matters** The central claim of the manuscript rests on the accuracy of the computed ABFE values. Without the actual values, experimental references, and a clear statistical comparison, the claim cannot be evaluated. The error bar exceeding the chemical accuracy threshold undermines the stated conclusion.
+  - **Resolution test** Provide the complete Table 2 with computed and experimental ABFE values for all three complexes, including standard errors, the source of experimental values, and a clear statement of how chemical accuracy is defined and met.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The authors state that the streamlined geometric formalism involves a series of PMF calculations with specific restraints and collective variables, and that the combination with GaWTM-eABF reduces the number of simulations to six.
+  - **Evidence pointer** Methods description in text, Table 1 (not provided), Figure 1 (not provided)
+  - **Concern** The methods description is incomplete. The equations for ABFE computation are referenced but not shown. The specific parameters for the PMF calculations (e.g., force constants, simulation lengths, number of replicas, convergence criteria) are not provided. The description of the six steps in Table 1 is referenced but the table is not included. The choice of collective variables and the rationale for their selection are not fully explained. The handling of long-range electrostatics, solvation, and counterions is not described.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without complete methodological details, other researchers cannot implement or validate the approach. The claim of reduced computational cost cannot be assessed without knowing the simulation lengths and system sizes.
+  - **Resolution test** Provide the full methods section including all equations, simulation parameters, system preparation details, force field parameters, and convergence criteria. Include Table 1 and Figure 1 with appropriate legends.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality for interaction analysis
+  - **Claim pointer** The authors claim that molecular interaction analysis of MD trajectories revealed hydrogen bonds, electrostatic, van der Waals, hydrophobic, and Pi-cation interactions in all three complexes, with specific residue-nucleotide contacts listed.
+  - **Evidence pointer** Results sections for CFP1-CpG, MC1-DNA, and SopB-DNA complexes, ProLIF analysis (reference 26)
+  - **Concern** The interaction analysis is presented as a list of observed contacts without quantitative metrics such as occupancy percentages, interaction energies, or statistical significance. The analysis is based on 5 independent replicas of 200 ns each, but the convergence of interaction patterns across replicas is not discussed. The statement "Figure S ADD FIGURE" indicates an incomplete figure reference. The biological relevance of the identified interactions is not discussed in the context of known protein-DNA recognition mechanisms.
+  - **Why it matters** The interaction analysis is presented as a key result, but without quantitative support, it remains descriptive and does not add strong evidence for the binding mechanism. The lack of comparison with experimental structures or known interaction patterns limits the interpretation.
+  - **Resolution test** Provide quantitative interaction analysis with occupancy percentages, standard deviations across replicas, and comparison with experimental structures or known binding data. Complete the figure reference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** The authors claim that the formalism can be used to obtain chemically accurate ABFE for protein-DNA complexes in general, and suggest applications to multi-binding-site proteins and protein-RNA complexes.
+  - **Evidence pointer** Conclusion section, results for three complexes
+  - **Concern** The study validates the approach on only three complexes, all of which are relatively small and involve primarily positively charged protein surfaces binding to negatively charged DNA. The diversity of protein-DNA binding modes, including indirect readout, water-mediated contacts, and conformational changes upon binding, is not addressed. The claim of general applicability is not supported by the limited test set.
+  - **Why it matters** Overgeneralization from a small test set can mislead readers about the method's robustness. The protein-DNA binding free energy landscape is complex, and the method's performance on more challenging systems (e.g., those with significant conformational changes or involving intrinsically disordered regions) remains unknown.
+  - **Resolution test** Acknowledge the limited scope of validation and discuss potential limitations. If possible, include additional test systems with diverse binding characteristics or clearly state the conditions under which the method is expected to perform well.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract states that "streamlined geometric formalism for computing the absolute binding free energy was used to obtain chemical accurate in silico estimation" but does not mention the three specific complexes or the range of error. The phrase "chemical accurate" is used without definition.
+  - **Required correction** Specify the three complexes and the range of deviation from experimental values in the abstract. Define "chemical accuracy" or use a more standard term.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Introduction, reference to previous work
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The sentence "One of the well know example exhibiting the importance of Protein-DNA complex can be seen in the case of p53 tumor suppressor protein p53" contains a redundancy ("p53" repeated) and a grammatical error ("well know" should be "well-known").
+  - **Required correction** Revise to "One well-known example exhibiting the importance of protein-DNA complexes can be seen in the case of the p53 tumor suppressor protein."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, CFP1-CpG Complex section
+  - **Evidence pointer** "Figure S ADD FIGURE"
+  - **Issue** The figure reference is incomplete and appears to be a placeholder.
+  - **Required correction** Provide the correct figure number and ensure the figure is included in the Supporting Information.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Results, MC1-DNA Complex section
+  - **Evidence pointer** "between between bases DC14 and DA15"
+  - **Issue** The word "between" is duplicated.
+  - **Required correction** Remove the duplicate "between".
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, SopB-DNA Complex section
+  - **Evidence pointer** "ILe179"
+  - **Issue** The residue name "ILe179" has inconsistent capitalization.
+  - **Required correction** Change to "Ile179".
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Results, SopB-DNA Complex section
+  - **Evidence pointer** "phophate groups"
+  - **Issue** The word "phophate" is misspelled; it should be "phosphate".
+  - **Required correction** Correct the spelling to "phosphate".
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** "Data Availability Statement" section
+  - **Issue** The Data Availability Statement is empty.
+  - **Required correction** Provide a statement on data availability, including where simulation inputs, trajectories, and analysis scripts can be accessed.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusion
+  - **Evidence pointer** "The protocol described here can be improvement through the application of telescopic solvation solvation scheme"
+  - **Issue** The phrase "can be improvement" is grammatically incorrect, and "solvation solvation" is duplicated.
+  - **Required correction** Revise to "The protocol described here can be improved through the application of a telescopic solvation scheme."
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Conclusion
+  - **Evidence pointer** "using Equation 4"
+  - **Issue** Equation 4 is referenced but not shown in the text.
+  - **Required correction** Ensure all referenced equations are displayed in the manuscript.
+  - **Concern ID** R1-m10
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** References
+  - **Evidence pointer** Reference list
+  - **Issue** The reference list is incomplete; only references 1-27 are cited in text but the full list is not provided in the supplied material.
+  - **Required correction** Ensure the complete reference list is included in the manuscript.
+
+## Risk / unsupported claims
+- The claim of "chemical accuracy" for all three complexes is not fully supported because the error bar for CFP1-CpG (±1.4 kcal/mol) exceeds the stated criterion (difference less than k_b T, approximately 0.6 kcal/mol at 300 K).
+- The claim that the formalism is "reproducible" based on "comparable values for the complex's independent replicas" is not supported by quantitative data, as the actual values and their spread are not provided.
+- The claim that the primary interactions involve "electrostatic, hydrogen bonds, hydrophobic, vdW contacts and Pi-cation interactions" is not quantitatively supported; occupancy percentages or interaction energies are not reported.
+- The general applicability of the method to "a protein with multiple DNA binding sites" and to "protein-RNA complexes" is speculative and not supported by the presented results.
+- The statement that the method provides "chemical accurate" results "with remarkable accuracy and modest computational cost" is not fully quantifiable without details on computational resources and wall-clock times.
+- The interaction analysis results for specific residues (e.g., Arg171, Arg204 for CFP1; Arg4, Lys22 for MC1; Arg163, Arg190 for SopB) are presented without statistical validation or comparison to experimental structures, making them difficult to assess.

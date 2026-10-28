@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "37864031",
+    "doi": "10.1038/s41388-023-02866-5",
+    "title": "Dual network analysis of transcriptome data for discovery of new therapeutic targets in non-small cell lung cancer."
+  },
+  "content": {
+    "abstract": "The drug therapy for non-small cell lung cancer (NSCLC) have always been issues of poisonous side effect, acquired drug resistance and narrow applicable population. In this study, we built a novel network analysis method (difference- correlation- enrichment- causality- node), which was based on the difference analysis, Spearman correlation network analysis, biological function analysis and Bayesian causality network analysis to discover new therapeutic target of NSCLC in the sequencing data of BEAS-2B and 7 NSCLC cell lines. Our results showed that, as a proteasome subunit coding gene in the central of cell cycle network, PSMD2 was associated with prognosis and was an independent prognostic factor for NSCLC patients. Knockout of PSMD2 inhibited the proliferation of NSCLC cells by inducing cell cycle arrest, and exhibited marked increase of cell cycle blocking protein p21, p27 and decrease of cell cycle driven protein CDK4, CDK6, CCND1 and CCNE1. IPA and molecular docking suggested bortezomib has stronger affinity to PSMD2 compared with reported targets PSMB1 and PSMB5. In vitro and In vivo experiments demonstrated the inhibitory effect of bortezomib in NSCLC with different driven mutations or with tyrosine kinase inhibitors resistance. Taken together, bortezomib could target PSMD2, PSMB1 and PSMB5 to inhibit the proteasome degradation of cell cycle check points, to block cell proliferation of NSCLC, which was potential optional drug for NSCLC patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/genetics",
+      "Bortezomib/pharmacology/therapeutic use",
+      "Proteasome Endopeptidase Complex/genetics/metabolism",
+      "*Lung Neoplasms/drug therapy/genetics/metabolism",
+      "Transcriptome",
+      "Molecular Docking Simulation",
+      "Bayes Theorem",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bai, Yuquan",
+        "Zhou, Lu",
+        "Zhang, Chuanfen",
+        "Guo, Minzhang",
+        "Xia, Liang",
+        "Tang, Zhenying",
+        "Liu, Yi",
+        "Deng, Senyi"
+      ],
+      "short_names": [
+        "Bai Y",
+        "Zhou L",
+        "Zhang C",
+        "Guo M",
+        "Xia L",
+        "Tang Z",
+        "Liu Y",
+        "Deng S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3278-3375"
+      ],
+      "affiliations": [
+        "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "College of Computer Science, Sichuan University, Chengdu, 610041, China.",
+        "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China. senyi_deng@scu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bai, Yuquan",
+        "short_name": "Bai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Lu",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chuanfen",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Minzhang",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Liang",
+        "short_name": "Xia L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Zhenying",
+        "short_name": "Tang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yi",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Senyi",
+        "short_name": "Deng S",
+        "identifiers": [
+          "0000-0002-3278-3375"
+        ],
+        "affiliations": [
+          "Institute of Thoracic Oncology and Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, 610041, China. senyi_deng@scu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Oncogene"
+    ],
+    "journal_abbrev": [
+      "Oncogene"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/21 05:41",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [
+      "42177737",
+      "41925746",
+      "41898298",
+      "41378006",
+      "41377278",
+      "40506490",
+      "40299923",
+      "40128277"
+    ],
+    "refs": [
+      "36498916",
+      "35874760",
+      "34568832",
+      "33950214",
+      "33668021",
+      "33538338",
+      "33300617",
+      "33211854",
+      "33151290",
+      "32677256",
+      "32024854",
+      "31751012",
+      "31715289",
+      "31603772",
+      "31455252",
+      "30659432",
+      "29777785",
+      "29364287",
+      "29209525",
+      "29151950",
+      "29151359",
+      "28854088",
+      "28653677",
+      "28031159",
+      "27818847",
+      "27388699",
+      "27217383",
+      "27096326",
+      "26643167",
+      "26618344",
+      "26536825",
+      "26125594",
+      "26064257",
+      "25897154",
+      "25858804",
+      "25671265",
+      "25605792",
+      "25572314",
+      "25501392",
+      "25344359",
+      "25101824",
+      "24981256",
+      "24802416",
+      "24488081",
+      "24328613",
+      "23589550",
+      "23203871",
+      "23193258",
+      "23088964",
+      "22954507",
+      "22455463",
+      "22130882",
+      "21465578",
+      "21247388",
+      "21063955",
+      "20627072",
+      "20122237",
+      "19499576",
+      "18452692",
+      "18006823",
+      "17947584",
+      "17671158",
+      "17644558",
+      "17075122",
+      "16936776",
+      "16844710",
+      "15846363",
+      "15613699",
+      "15498874",
+      "15118125",
+      "12559756"
+    ],
+    "similar": [
+      "37864031",
+      "35042223",
+      "22027222",
+      "29777785",
+      "38670393",
+      "40499802",
+      "40311163",
+      "21465578",
+      "39288634",
+      "40259252",
+      "34087401",
+      "36674871",
+      "37474991",
+      "24281003",
+      "33804833",
+      "40185258",
+      "27822577",
+      "31323446",
+      "40442126",
+      "36932175",
+      "38403323",
+      "41442003",
+      "39533773",
+      "22925699",
+      "38941043",
+      "40450982",
+      "39340992",
+      "26820570",
+      "23869760",
+      "39244973",
+      "40373635",
+      "31465829",
+      "25408199",
+      "32580819",
+      "38049779",
+      "30806032",
+      "35740881",
+      "15638966",
+      "33166766",
+      "34500594",
+      "33310890",
+      "34643254",
+      "32561477",
+      "39931532",
+      "37218137",
+      "39331210",
+      "31387256",
+      "40216870",
+      "24040035",
+      "15052205",
+      "33276757",
+      "36401358",
+      "24627483",
+      "15464472",
+      "34856993",
+      "24485799",
+      "18502982",
+      "26840083",
+      "25122774",
+      "32896579",
+      "39722328",
+      "34390710",
+      "41254650",
+      "30954557",
+      "40029169",
+      "36172919",
+      "39888361",
+      "15197486",
+      "41394854",
+      "39680676",
+      "38943969",
+      "34342374",
+      "32767026",
+      "38967229",
+      "24595136",
+      "35655775",
+      "41325789",
+      "29935356",
+      "39258670",
+      "35710591",
+      "38009004",
+      "26744345",
+      "40973399",
+      "36271541",
+      "34275172",
+      "36596057",
+      "24898067",
+      "38180753",
+      "32228656",
+      "32232513",
+      "30309221",
+      "34830169",
+      "19383850",
+      "17456787",
+      "29455644",
+      "40355237",
+      "40210476",
+      "37081781",
+      "35896610",
+      "36040812"
+    ],
+    "review": [
+      "37864031",
+      "15638966",
+      "31387256"
+    ],
+    "pmc": [
+      "10691970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41388-023-02866-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37864031/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37864031",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-261",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

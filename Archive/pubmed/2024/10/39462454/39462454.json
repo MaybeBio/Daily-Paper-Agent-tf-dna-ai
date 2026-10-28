@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "39462454",
+    "doi": "10.1111/tpj.17093",
+    "title": "Identification of lineage-specific cis-trans regulatory networks related to kiwifruit ripening initiation."
+  },
+  "content": {
+    "abstract": "Previous research on the ripening process of many fruit crop varieties typically involved analyses of the conserved genetic factors among species. However, even for seemingly identical ripening processes, the associated gene expression networks often evolved independently, as reflected by the diversity in the interactions between transcription factors (TFs) and the targeted cis-regulatory elements (CREs). In this study, explainable deep learning (DL) frameworks were used to predict expression patterns on the basis of CREs in promoter sequences. We initially screened potential lineage-specific CRE-TF interactions influencing the kiwifruit ripening process, which is triggered by ethylene, similar to the corresponding processes in other climacteric fruit crops. Some novel regulatory relationships affecting ethylene-induced fruit ripening were identified. Specifically, ABI5-like bZIP, G2-like, and MYB81-like TFs were revealed as trans-factors modulating the expression of representative ethylene signaling/biosynthesis-related genes (e.g., ACS1, ERT2, and ERF143). Transient reporter assays and DNA affinity purification sequencing (DAP-Seq) analyses validated these CRE-TF interactions and their regulatory relationships. A comparative analysis with co-expression networking suggested that this DL-based screening can identify regulatory networks independently of co-expression patterns. Our results highlight the utility of an explainable DL approach for identifying novel CRE-TF interactions. These  imply that fruit crop species may have evolved lineage-specific fruit ripening-related cis-trans regulatory networks.",
+    "keywords": [
+      "cis-regulatory elements",
+      "deep learning",
+      "ethylene",
+      "ripening"
+    ],
+    "mesh_terms": [
+      "*Actinidia/genetics/growth & development/metabolism",
+      "*Gene Expression Regulation, Plant",
+      "*Fruit/genetics/growth & development/metabolism",
+      "*Gene Regulatory Networks",
+      "*Ethylenes/metabolism",
+      "*Plant Proteins/genetics/metabolism",
+      "*Transcription Factors/genetics/metabolism",
+      "Promoter Regions, Genetic/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kuwada, Eriko",
+        "Takeshita, Kouki",
+        "Kawakatsu, Taiji",
+        "Uchida, Seiichi",
+        "Akagi, Takashi"
+      ],
+      "short_names": [
+        "Kuwada E",
+        "Takeshita K",
+        "Kawakatsu T",
+        "Uchida S",
+        "Akagi T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5814-3085"
+      ],
+      "affiliations": [
+        "Graduate School of Environmental and Life Science, Okayama University, Okayama, 700-8530, Japan.",
+        "Department of Advanced Information Technology, Kyushu University, Fukuoka, 819-0395, Japan.",
+        "Institute of Agrobiological Sciences, National Agriculture and Food Research Organization, Tsukuba, 305-8602, Ibaraki, Japan.",
+        "Department of Advanced Information Technology, Kyushu University, Fukuoka, 819-0395, Japan.",
+        "Graduate School of Environmental and Life Science, Okayama University, Okayama, 700-8530, Japan.",
+        "Japan Science and Technology Agency, PRESTO, Kawaguchi, 332-0012, Saitama, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kuwada, Eriko",
+        "short_name": "Kuwada E",
+        "identifiers": [
+          "0000-0002-5814-3085"
+        ],
+        "affiliations": [
+          "Graduate School of Environmental and Life Science, Okayama University, Okayama, 700-8530, Japan."
+        ]
+      },
+      {
+        "full_name": "Takeshita, Kouki",
+        "short_name": "Takeshita K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Information Technology, Kyushu University, Fukuoka, 819-0395, Japan."
+        ]
+      },
+      {
+        "full_name": "Kawakatsu, Taiji",
+        "short_name": "Kawakatsu T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agrobiological Sciences, National Agriculture and Food Research Organization, Tsukuba, 305-8602, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Uchida, Seiichi",
+        "short_name": "Uchida S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Information Technology, Kyushu University, Fukuoka, 819-0395, Japan."
+        ]
+      },
+      {
+        "full_name": "Akagi, Takashi",
+        "short_name": "Akagi T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Environmental and Life Science, Okayama University, Okayama, 700-8530, Japan.",
+          "Japan Science and Technology Agency, PRESTO, Kawaguchi, 332-0012, Saitama, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Plant journal : for cell and molecular biology"
+    ],
+    "journal_abbrev": [
+      "Plant J"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/27 18:21",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "41949280"
+    ],
+    "refs": [
+      "35258588",
+      "34791491",
+      "34608324",
+      "34496770",
+      "34137052",
+      "33658387",
+      "33639842",
+      "33048422",
+      "32845307",
+      "32553272",
+      "32338291",
+      "31986354",
+      "31052513",
+      "30876396",
+      "30842277",
+      "30250279",
+      "30104148",
+      "29666265",
+      "29661190",
+      "29562897",
+      "29371663",
+      "29163582",
+      "29085071",
+      "29078332",
+      "28726847",
+      "28167700",
+      "28018412",
+      "27587684",
+      "27203113",
+      "26161953",
+      "25577424",
+      "25516281",
+      "24510723",
+      "22974547",
+      "22745430",
+      "22660326",
+      "22058408",
+      "21562332",
+      "21511911",
+      "21443626",
+      "21117868",
+      "20674465",
+      "20457803",
+      "19451168",
+      "19151225",
+      "17697981",
+      "16646834",
+      "15517996",
+      "15143274",
+      "1925603"
+    ],
+    "similar": [
+      "39462454",
+      "34496770",
+      "34134847",
+      "32138665",
+      "38661291",
+      "26714876",
+      "39977254",
+      "34580960",
+      "25649633",
+      "20457803",
+      "29562897",
+      "35258588",
+      "35264115",
+      "30135096",
+      "39673719",
+      "30558543",
+      "40064260",
+      "21511911",
+      "25516062",
+      "39706437",
+      "33462344",
+      "33639842",
+      "42049244",
+      "37992120",
+      "23644363",
+      "34649525",
+      "31083658",
+      "42406911",
+      "38900073",
+      "28044313",
+      "33451304",
+      "42479191",
+      "40908642",
+      "33634368",
+      "21398570",
+      "39185667",
+      "18535296",
+      "39080567",
+      "39226760",
+      "25097074",
+      "39587476",
+      "22888129",
+      "20973957",
+      "41217971",
+      "23386264",
+      "26159933",
+      "40051338",
+      "38614360",
+      "25956879",
+      "32920977",
+      "22212279",
+      "30348324",
+      "26739234",
+      "24265273",
+      "38190939",
+      "30065188",
+      "29192231",
+      "41937552",
+      "41032665",
+      "24364881",
+      "40413254",
+      "40175919",
+      "38458276",
+      "32936614",
+      "41482219",
+      "34763857",
+      "30328615",
+      "24903607",
+      "36471914",
+      "41572632",
+      "32101430",
+      "31574168",
+      "40963426",
+      "38649857",
+      "18034875",
+      "41887271",
+      "39873675",
+      "42060978",
+      "26852223",
+      "17032731",
+      "32325835",
+      "21276270",
+      "40051263",
+      "42475469",
+      "34255862",
+      "41380896",
+      "39422253",
+      "42043289",
+      "19891701",
+      "28224919",
+      "39928866",
+      "30288754",
+      "22884412",
+      "39226395",
+      "25491370",
+      "21115665",
+      "23599278",
+      "18830708",
+      "29704245",
+      "38561990"
+    ],
+    "review": [
+      "39462454",
+      "33634368"
+    ],
+    "pmc": [
+      "11629749"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39462454.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39462454/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/tpj.17093",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

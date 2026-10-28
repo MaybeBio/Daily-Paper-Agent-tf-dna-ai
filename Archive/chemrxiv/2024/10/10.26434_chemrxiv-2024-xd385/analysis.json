@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-xd385",
+  "title": "Enabling Open Machine Learning of DNA Encoded Library Selections to Accelerate the Discovery of Small Molecule Protein Binders",
+  "authors": "James Wellnitz; Shabbir Ahmad; Nabin Begale; Jermiah Joseph; Hong Zeng; Albina Bolotokova; Aiping Dong; Shaghayegh Reza; Pegah Ghiabi; Gibson Elisa; Xuemin Cheng; Guiping Tu; Xianyang Li; Jian Liu; Dengfeng Dou; Jin Li; Rachel J. Harding; Aled M. Edwards; Benjamin Haibe-Kains; Levon Halabelian; Alexander Tropsha; Rafael Couñago",
+  "journal": "ChemRxiv",
+  "published_date": "2024-10-17",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用DEL筛选数据训练ML模型进行小分子蛋白结合剂虚拟筛选，虽涉及蛋白-配体结合，但非蛋白质-DNA互作体系，且无TF-DNA结合建模，仅方法上对AI虚拟筛选有间接借鉴。",
+  "abstract": "Recent advances in DNA-encoded library (DEL) screening have created bioactivity datasets containing billions of molecules, unlocking new opportunities for machine learning (ML) in drug discovery. However, most ultra-large DEL libraries are proprietary, limiting the advancement of ML tools for big chemical data analytics and hindering the democratization of DEL-ML technology. We address this gap by developing an open, end-to-end DEL-ML framework using public datasets, where enriched binders are represented by common chemical fingerprints, ensuring proprietary data protection. We demonstrate that ML models can be built and validated on fingerprinted DEL data and then applied to virtual screening (VS) of billion-sized, publicly accessible chemical libraries. As a proof-of-concept, we screened the human protein WDR91 using the HitGen OpenDEL library (3 billion molecules) and trained ML models, which were used to screen the Enamine REAL Space library (37 billion molecules). Fifty potential binders were identified, 48 of which were tested, and seven were confirmed as novel binders with dissociation constants (KD) from 2.7 to 21 μM that were successfully co-crystalized with WDR91. This fully automated, open-source workflow demonstrates the potential of DEL-ML models in discovering novel binders and promotes the use of open chemical bioactivity datasets and ML to accelerate drug discovery.",
+  "abstract_zh": "DNA编码化合物库（DEL）筛选的最新进展已生成包含数十亿分子的生物活性数据集，为机器学习（ML）在药物发现中的应用开辟了新机遇。然而，大多数超大型DEL库均为专有资源，限制了用于大数据化学分析的ML工具发展，并阻碍了DEL-ML技术的普及。我们通过开发一个基于公共数据集的开放、端到端DEL-ML框架来解决这一差距，其中富集结合物以常见化学指纹表示，确保专有数据保护。我们证明，ML模型可以在指纹化DEL数据上构建和验证，随后应用于对数十亿规模、可公开访问的化学库进行虚拟筛选（VS）。作为概念验证，我们使用HitGen OpenDEL库（30亿分子）筛选人类蛋白WDR91，并训练ML模型，这些模型随后用于筛选Enamine REAL Space库（370亿分子）。共鉴定出50个潜在结合物，其中48个经过测试，7个被确认为新型结合物，其解离常数（KD）范围为2.7至21 μM，并成功与WDR91共结晶。这一全自动、开源工作流程展示了DEL-ML模型在发现新型结合物方面的潜力，并促进了开放化学生物活性数据集和ML在加速药物发现中的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-xd385",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-xd385",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-xd385/index.html"
+}

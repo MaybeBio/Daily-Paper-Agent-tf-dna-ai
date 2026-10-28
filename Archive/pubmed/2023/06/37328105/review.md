@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, experimental procedures, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript content
+- **Shared manuscript claim summary** SAMHD1 suppresses type I interferon induction during viral infection by interacting with MAVS, inhibiting MAVS aggregation, disrupting IKKε recruitment to MAVS, and binding to the IRF7 inhibitory domain to prevent IRF7 activation, with implications for HIV-1 infection.
+- **Visible evidence base** Figures 1–10 with legends, experimental procedures, statistical methods, and data availability statement
+- **Missing materials affecting confidence** Raw immunoblot images, uncropped gels, full statistical output, exact sample sizes for all experiments, and validation data for computational predictions are not provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a mechanistic investigation into how SAMHD1 negatively regulates type I interferon induction, identifying interactions with MAVS, IKKε, and IRF7. The study combines cell-based assays, biochemical approaches, and computational modeling to propose a multi-level inhibitory mechanism. While the work addresses an important question and provides several novel findings, the evidence for some key claims is incomplete or indirect. The computational predictions lack experimental validation beyond mutagenesis, and the physiological relevance of the proposed mechanism during HIV-1 infection requires stronger support. The manuscript is technically sound in many aspects but would benefit from additional experiments to solidify the mechanistic model.
+- **Who would be interested in the results, and why** Researchers studying innate antiviral immunity, particularly the regulation of RLR signaling pathways and type I interferon responses. The work also holds relevance for those investigating SAMHD1 biology beyond its canonical dNTPase function, and for HIV-1 researchers interested in host factors that modulate viral replication and immune evasion. The proposed mechanism may inform therapeutic strategies targeting innate immune checkpoints.
+- **Major strengths** The study addresses a significant gap in understanding how SAMHD1 regulates interferon induction beyond its known dNTPase activity. The identification of specific interaction domains (MAVS CARD, IKKε kinase domain, IRF7 inhibitory domain) provides molecular detail. The combination of biochemical, cell-based, and computational approaches is commendable. The use of CRISPR-generated knockout cells and multiple assay systems strengthens the conclusions. The computational docking and MD simulations offer testable predictions that are partially validated by mutagenesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for direct interaction
+  - **Claim pointer** "SAMHD1 interacted with MAVS and suppressed MAVS aggregation in response to Sendai virus infection"
+  - **Evidence pointer** Figures 1B, 1D, 2A, 2E
+  - **Concern** The claim of a direct interaction between SAMHD1 and MAVS is supported by co-immunoprecipitation and in vitro pull-down experiments, but the pull-down uses MAVS lacking the transmembrane domain. The physiological relevance of this interaction is unclear since endogenous MAVS is membrane-anchored. Additionally, the co-IP experiments do not demonstrate that the interaction is direct rather than mediated by other proteins in the complex. The claim that SAMHD1 suppresses MAVS aggregation is based on SDD-AGE analysis, but the quantification and statistical analysis of aggregation levels are not clearly presented.
+  - **Why it matters** The interaction between SAMHD1 and MAVS is central to the proposed mechanism. If the interaction is indirect or requires additional factors, the model would need revision. The aggregation data are critical for establishing that SAMHD1 acts at the level of MAVS activation.
+  - **Resolution test** Provide evidence for direct interaction using purified proteins in a defined system (e.g., surface plasmon resonance or isothermal titration calorimetry). Include quantification of MAVS aggregation from multiple independent SDD-AGE experiments with statistical analysis. Consider testing the interaction in the presence of the MAVS transmembrane domain or in mitochondrial fractions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance of IRF7 residues
+  - **Claim pointer** "Individual substitution of F411, E416, or V460 in IRF7-ID significantly reduced IRF7 transactivation activity and SAMHD1 binding"
+  - **Evidence pointer** Figure 7A–C
+  - **Concern** The mutagenesis experiments show that mutations in IRF7-ID reduce both transactivation activity and SAMHD1 binding, but the interpretation is confounded. The mutations may disrupt IRF7 folding or stability rather than specifically affecting SAMHD1 interaction. The authors do not assess IRF7 protein expression levels or stability for the mutants. Furthermore, the reduction in transactivation activity could be due to impaired IRF7 dimerization or DNA binding, not directly to loss of SAMHD1 interaction.
+  - **Why it matters** The claim that specific residues mediate SAMHD1 binding and are functionally important requires demonstrating that the mutations specifically disrupt the SAMHD1 interaction without globally affecting IRF7 function. Without this, the mechanistic link between SAMHD1 binding and suppression of IRF7 activity is weakened.
+  - **Resolution test** Assess IRF7 mutant protein stability and expression. Test whether the mutants retain the ability to dimerize and bind DNA. Perform a competition experiment where SAMHD1 binding is disrupted without affecting IRF7 activity, or vice versa, to establish causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of HIV-1 findings
+  - **Claim pointer** "THP-1 cells lacking IRF7 expression had reduced HIV-1 infection and viral transcription compared to control cells, indicating a positive role of IRF7 in HIV-1 infection"
+  - **Evidence pointer** Figure 9B–F
+  - **Concern** The HIV-1 experiments use a single-cycle pseudotyped virus, which does not fully recapitulate the dynamics of replication-competent HIV-1 infection. The observation that IRF7 promotes HIV-1 infection is counterintuitive given IRF7's role in antiviral immunity, and the authors do not provide a mechanistic explanation for this positive role. The connection between SAMHD1-mediated suppression of IRF7 and HIV-1 infection is not directly tested.
+  - **Why it matters** The HIV-1 findings are presented as a significant implication of the study, but the experimental system is limited and the mechanistic link to SAMHD1 is not established. Overinterpreting these results could mislead readers about the physiological relevance.
+  - **Resolution test** Use replication-competent HIV-1 in primary macrophages or monocyte-derived cells. Test whether SAMHD1 expression levels correlate with IRF7 activity and HIV-1 infection in a more physiologically relevant system. Provide a mechanistic explanation for how IRF7 promotes HIV-1 infection.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational model validation
+  - **Claim pointer** "Computational docking and molecular dynamics simulations revealed possible binding sites between IRF7-ID and full-length SAMHD1"
+  - **Evidence pointer** Figure 6B–E
+  - **Concern** The computational predictions are based on a single docking protocol and limited MD simulations. The authors do not provide experimental validation of the predicted binding interface beyond the three point mutations. The functional significance of the predicted interactions is not fully explored, and alternative binding modes are not ruled out.
+  - **Why it matters** The computational model provides the structural basis for the proposed mechanism. Without robust validation, the specific interactions predicted may not reflect the true binding mode, undermining the mechanistic conclusions.
+  - **Resolution test** Validate the predicted interface using additional experimental approaches such as hydrogen-deuterium exchange, cross-linking mass spectrometry, or NMR. Test additional mutations predicted to affect binding. Perform mutagenesis on the SAMHD1 side of the interface to confirm the interaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures 1A, 3A, 7A, 8B–C, 9B–F
+  - **Issue** The figure legends state that error bars represent mean ± SD and that statistical tests were performed, but exact p-values, sample sizes (n), and the number of independent experiments for each specific panel are not consistently reported. Some legends mention "representative data from three independent experiments" without specifying whether the quantification includes all experiments or just one representative.
+  - **Required correction** Provide exact p-values, sample sizes, and clarify whether quantifications are from pooled data or representative experiments. Include this information in each figure legend or in a supplementary statistical table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** CRISPR knockout generation
+  - **Evidence pointer** Experimental procedures, "CRISPR/Cas9-mediated gene editing"
+  - **Issue** The description of IRF7 knockout generation lacks details on the guide RNA validation, off-target analysis, and the number of clones screened. The efficiency of knockout and potential compensatory effects are not discussed.
+  - **Required correction** Provide details on guide RNA design and validation, off-target prediction, and the number of clones isolated and characterized. Discuss potential compensatory mechanisms in IRF7 knockout cells.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 6E table
+  - **Evidence pointer** Figure 6E
+  - **Issue** The table in Figure 6E lists interactions but does not provide quantitative measures of stability or occupancy. The criteria for classifying interactions as "stable" are not defined.
+  - **Required correction** Define the criteria for stable interactions and provide quantitative measures such as occupancy or interaction energy for each listed contact.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion does not address potential limitations of the study, such as the use of overexpression systems, the artificial nature of the reporter assays, or the lack of in vivo validation.
+  - **Required correction** Add a paragraph discussing the limitations of the experimental approaches and the need for future studies to validate the findings in more physiologically relevant systems.
+- **Technical failings that need to be addressed before the case is established** The direct interaction between SAMHD1 and MAVS requires validation with purified proteins in a defined system. The mutagenesis data on IRF7 residues need to be complemented with experiments showing that the mutations do not globally disrupt IRF7 function. The HIV-1 experiments should be repeated with replication-competent virus to establish physiological relevance. The computational model requires additional experimental validation.
+- **Assessment against Nature-style criteria** Originality: The study provides novel mechanistic insights into SAMHD1 function beyond its canonical dNTPase activity, identifying a multi-level inhibitory mechanism on the MAVS-IKKε-IRF7 axis. This is a fresh perspective on SAMHD1 biology. Scientific importance: The regulation of type I interferon responses is a fundamental aspect of antiviral immunity, and understanding negative regulators is important for therapeutic development. The potential link to HIV-1 infection adds translational relevance. Interdisciplinary readership: The work bridges virology, innate immunology, and structural biology, which could attract readers from multiple disciplines. Technical soundness: The experimental approaches are generally appropriate, but several key claims lack robust support as detailed in the major concerns. The computational modeling is a strength but requires more validation. Readability for nonspecialists: The manuscript is clearly written and the figures are well-organized, though some sections assume familiarity with the signaling pathways involved. Overall, the study has potential for broad interest but requires additional experimental support to fully establish the proposed mechanism.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the direct interaction claims, the functional relevance of specific residues, and the HIV-1 implications need stronger experimental support. The computational model requires additional validation. If these concerns are addressed, the manuscript would make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that SAMHD1 directly interacts with MAVS is not fully supported as the pull-down uses a truncated MAVS and the co-IP does not rule out indirect interactions.
+- The statement that SAMHD1 binding to IRF7-ID is "required" for suppression of IRF7-mediated IFN-I induction is not fully established, as the experiments show correlation but not causation.
+- The computational prediction of the SAMHD1-IRF7 complex structure is presented without sufficient validation to be considered definitive.
+- The positive role of IRF7 in HIV-1 infection is reported without a mechanistic explanation and is based on a single-cycle pseudotyped virus system.
+- The claim that SAMHD1 disrupts IKKε recruitment to MAVS is based on co-IP experiments that do not directly measure recruitment in a physiological context.

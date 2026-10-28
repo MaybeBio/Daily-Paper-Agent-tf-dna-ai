@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, significance, introduction, materials and methods, results, discussion, conclusion, data availability, author contributions, supporting material description, acknowledgments)
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors use all-atom MD simulations of AlphaFold2-modeled Exd-Scr–DNA complexes to show that the protonation state of His-12 in the Scr linker region modulates DNA minor groove width, binding free energy, and specificity, and that this effect differs between Scr- and Ubx-preferred target sites and across flanking sequences of varying affinity.
+- **Visible evidence base** Main text figures (Figs. 1–6), supplementary figure references (Figs. S1–S13), supplementary table reference (Table S1), methods descriptions, and supporting material section references. No actual supplementary files, figure data, or simulation trajectories were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary figures and table (Figs. S1–S13, Table S1), supporting material sections S-I through S-X, Figshare repository contents, simulation input files, raw trajectory data, pKa calculation outputs, and MM/PBSA energy component tables. These are referenced but not available for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and underexplored question in TF-DNA recognition, namely the role of histidine protonation state at a protein-DNA interface. The authors combine established structural data, AlphaFold2 modeling, MD simulations, and SELEX-seq-derived sequences to probe functional consequences of protonation state. The central claims are plausible and the work has potential interest for the biophysics and gene regulation communities. However, the evidence as presented in the main text is largely qualitative, with key quantitative data relegated to supplementary materials that were not available for review. Several claims regarding binding free energy, specificity, and long-range conformational effects require stronger quantitative support and clearer statistical treatment. The manuscript would benefit from more explicit validation of the simulation models and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers studying TF-DNA recognition mechanisms, particularly those interested in Hox protein specificity, DNA shape readout, and the role of protonation states in biomolecular interactions. The methodological approach combining MD simulations with SELEX-seq data may also interest computational biophysicists developing protocols for studying protein-DNA complexes.
+- **Major strengths** The study addresses a specific and mechanistically important question that has received limited attention. The use of multiple complementary approaches (pKa prediction, MD simulations, mutation analysis, SELEX-seq-derived sequences) is commendable. The protonation-switch simulations provide a direct test of causality. The connection between structural observations and functional affinity data is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that protonated His-12 enhances binding affinity and stabilizes minor groove narrowing is central to the paper.
+  - **Evidence pointer** Figures 1, 3, 5, S3–S6, S8, S12; supporting material sections S-IV, S-VI, S-X
+  - **Concern** The quantitative support for the central claim is not visible in the main text. The MGW differences are described qualitatively (e.g., "pronounced narrowing," "≈1 Å reduction"), but no statistical analysis (means, standard errors, confidence intervals, significance tests) is presented in the main figures or text. The MM/PBSA binding free energy results are only referenced via supplementary figures, and the magnitude of the reported differences and their uncertainties cannot be assessed. Without these quantitative details, the strength of the central claim cannot be evaluated.
+  - **Why it matters** The central conclusion that protonation state significantly affects binding affinity and stability rests on quantitative comparisons. If the reported differences are within simulation noise or are not reproducible across replicas, the conclusion would be substantially weakened.
+  - **Resolution test** Provide the quantitative data in the main text or clearly accessible supplementary material, including mean values, standard deviations or standard errors across replicas, and appropriate statistical tests (e.g., bootstrap or block averaging) for MGW differences and binding free energy comparisons. Show that the observed differences are robust across replicas and exceed the estimated uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The use of AlphaFold2-modeled complexes as starting structures for MD simulations is a key methodological choice.
+  - **Evidence pointer** Materials and methods, "Simulation protocol" section; RMSD values reported in text
+  - **Concern** The manuscript reports RMSD values of 2.53 Å and 3.22 Å for the modeled complexes relative to the co-crystal structures. These values are relatively high for a "validation" of the model, yet the authors proceed with the modeled structures without discussing whether these deviations could affect the conclusions. The linker region containing His-12 is likely flexible and may be poorly predicted by AlphaFold2. No comparison is made between simulations started from the crystal structure versus the AlphaFold2 model to assess whether the observed behavior is an artifact of the model.
+  - **Why it matters** If the AlphaFold2 model introduces structural distortions in the linker region or the DNA-binding interface, the observed protonation-dependent effects could be model artifacts rather than genuine biophysical properties.
+  - **Resolution test** Provide a direct comparison of simulations initiated from the crystal structure (where possible) versus the AlphaFold2 model. Alternatively, demonstrate that the key structural features (e.g., His-12 positioning, linker conformation) are consistent between the model and the crystal structure, and that the observed protonation effects are robust to the choice of starting structure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The claim that protonation of His-12 increases binding affinity but can lower specificity, and that this explains preferences for different target sites.
+  - **Evidence pointer** Figures 5, 6, S13; supporting material sections S-X, S-XI
+  - **Concern** The relationship between binding affinity and specificity is inferred from hydrogen bonding patterns and MGW profiles, but no direct measurement or calculation of specificity is presented. The authors equate a reduction in specific hydrogen bonds with reduced specificity, but specificity is a thermodynamic quantity that depends on the difference in binding free energy between cognate and non-cognate sites. The simulations do not appear to include non-cognate or alternative-site comparisons that would allow a specificity calculation. The claim that protonation lowers specificity is therefore not directly supported by the data presented.
+  - **Why it matters** The affinity-specificity trade-off is a central conceptual claim of the paper. If the evidence does not directly support this claim, the broader implications for Hox target selection are weakened.
+  - **Resolution test** Either (a) perform simulations or calculations that directly compare binding to cognate versus non-cognate sites under both protonation states to estimate specificity, or (b) temper the claim to state that protonation reduces the number of specific hydrogen bonds, which may correlate with reduced specificity, without asserting a direct causal link.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The pKa predictions are used to justify simulating both protonation states and to argue that His-12 is predominantly neutral in the protein-only system but protonated upon DNA binding.
+  - **Evidence pointer** Materials and methods, "His-12 protonation state prediction" section; results reported only in supplementary tables
+  - **Concern** The pKa prediction results are not presented in the main text or in accessible supplementary material. The three methods (PROPKA 3, H++, DelPhiPKa) give different values, and the spread is not discussed. The claim that DNA binding induces proton uptake is based on these calculations, but the magnitude of the shift and the agreement between methods cannot be assessed. Furthermore, the pKa calculations appear to be performed on static structures, not ensembles, which may not capture the relevant protonation behavior.
+  - **Why it matters** The choice to simulate both protonation states is justified by the pKa predictions. If the predictions are unreliable or method-dependent, the rationale for the central simulation design is weakened.
+  - **Resolution test** Present the pKa values for all three methods in the main text or a clearly accessible table, including the calculated shift upon DNA binding. Discuss the spread between methods and the limitations of static pKa calculations. If possible, perform constant-pH MD or other ensemble-based approaches to validate the protonation state predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1C description
+  - **Evidence pointer** Figure 1C and its caption
+  - **Issue** The description of the protonation switch simulations in the Figure 1 caption is unclear. It is not obvious what "switch" means operationally (i.e., when in the trajectory the protonation state is changed, how the system is re-equilibrated, and how the comparison is made).
+  - **Required correction** Clarify the switch protocol in the caption or methods, including the time point of the switch, the re-equilibration procedure, and how the "before" and "after" MGW profiles are averaged.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All MGW profile figures
+  - **Evidence pointer** Figures 1B, 3, 4, 5B–E
+  - **Issue** The MGW profiles appear to show averaged values, but no error bars or shaded confidence intervals are displayed. It is unclear whether the three replicas produce similar results or whether there is substantial variability.
+  - **Required correction** Add error bars or shaded regions representing the standard deviation or standard error across replicas to all MGW profile plots.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Hydrogen bond analysis
+  - **Evidence pointer** Figure 6C–D
+  - **Issue** The hydrogen bond counts are presented as box plots, but the number of data points (frames or time blocks) is not stated. The statistical significance of differences between conditions is not reported.
+  - **Required correction** State the number of independent samples used for the box plots and report the results of appropriate statistical tests for differences between conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "specificity" is used in multiple places without a precise definition. It is not clear whether the authors mean sequence specificity, binding specificity, or something else.
+  - **Required correction** Define "specificity" explicitly when first used, and ensure consistent usage throughout.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation parameters
+  - **Evidence pointer** Materials and methods, "Simulation protocol" section
+  - **Issue** The methods state that simulations were run for 300 ns with three replicas, but details on how replicas were generated (different initial velocities? different seeds?) are not provided. The convergence criterion (clustering after ~150 ns) is mentioned but not shown.
+  - **Required correction** Specify how replicas were generated and provide the convergence analysis (e.g., Fig. S2) in a form that can be inspected.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for central claim), R1-M2 (model validation), R1-M3 (affinity-specificity claim), R1-M4 (pKa prediction transparency)
+- **Assessment against Nature-style criteria** Originality: The question of histidine protonation state effects in TF-DNA recognition is relatively underexplored, and the specific focus on His-12 in the Exd-Scr system is novel. However, the conceptual framework (protonation state affects binding) is not entirely new. Scientific importance: The work has potential importance for understanding Hox specificity and the role of protonation in protein-DNA interactions, but the significance is somewhat limited by the focus on a single residue in one system. Interdisciplinary readership: The work bridges structural biology, biophysics, and gene regulation, and could appeal to readers across these fields. Technical soundness: The simulation protocol is generally sound, but the lack of quantitative reporting and model validation in the main text weakens the technical case. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methodological details are dense. Overall, the work has potential but does not currently meet the standard of evidence required for a high-impact general journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central question is interesting and the approach is appropriate, but the evidence as presented is insufficient to fully establish the claims. The authors should provide quantitative data with statistical analysis, validate the AlphaFold2-based models, and temper or directly support the affinity-specificity claim.
+
+## Risk / unsupported claims
+- The claim that protonated His-12 increases binding affinity is not quantitatively supported in the main text (only referenced to supplementary figures).
+- The claim that protonation lowers specificity is not directly supported by the data, as no specificity calculation is presented.
+- The claim that long-range conformational changes (Arg5, Lys61) affect protein-protein interactions with chromatin-modifying enzymes is speculative and not tested.
+- The pKa predictions are not presented in accessible form, making the claim of proton uptake upon DNA binding unverifiable from the provided materials.
+- The convergence of simulations is asserted but not demonstrated in the main text.

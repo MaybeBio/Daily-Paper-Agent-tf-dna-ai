@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2605.24034v2",
+  "title": "WTKO-CNN: Deep Learning Reveals Sequence Motifs Distinguishing Wild-Type and Knockout ATAC-seq Peaks",
+  "authors": "Lopamudra Dey",
+  "journal": "",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用带注意力的CNN对WT/KO ATAC-seq峰序列分类并提取基序，虽涉及TF结合位点发现，但核心是染色质可及性序列分类而非TF-DNA三维互作建模，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Chromatin regulators can alter transcriptional programs by modifying the accessibility of regulatory DNA elements. Understanding how regulatory sequences differ between wild-type (WT) and knockout (KO) conditions is crucial for deciphering transcriptional control. Here, we applied a convolutional neural network, \\textbf{WTKO-CNN} with an attention mechanism to classify DNA sequences as WT or KO, achieving high predictive performance. To interpret the model, we generated saliency maps to identify nucleotide positions most influential for the classification decision. From these high-saliency regions, we extracted and clustered k-mers, enabling de novo motif discovery. Sequence logos and consensus motifs derived from the CNN filters revealed biologically meaningful patterns, which are further validated using MEME, TOMTOM, and HOMER against known transcription factor binding sites. Our analysis identified motifs associated with transcription factor families that discriminate WT from KO sequences, demonstrating that CNN-guided saliency mapping is a powerful approach for uncovering functional sequence features.",
+  "abstract_zh": "染色质调控因子可以通过修饰调控性DNA元件的可及性来改变转录程序。理解调控序列在野生型（WT）和敲除（KO）条件之间的差异，对于解析转录调控至关重要。在此，我们应用了一种带有注意力机制的卷积神经网络 \\textbf{WTKO-CNN}，将DNA序列分类为WT或KO，并实现了高预测性能。为了解释模型，我们生成了显著性图，以识别对分类决策影响最大的核苷酸位置。从这些高显著性区域中，我们提取并聚类了k-mer，从而实现了从头基序发现。从CNN滤波器导出的序列标识和共有基序揭示了具有生物学意义的模式，并进一步使用MEME、TOMTOM和HOMER与已知转录因子结合位点进行验证。我们的分析识别出与转录因子家族相关的基序，这些基序能够区分WT与KO序列，表明CNN引导的显著性映射是揭示功能性序列特征的有力方法。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2605.24034v2",
+  "source_url": "https://arxiv.org/abs/2605.24034v2",
+  "paper_page_path": "papers/arxiv/2605.24034v2/index.html"
+}

@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "38693737",
+    "doi": "10.2174/0109298665305131240404072542",
+    "title": "Peptidic Compound as DNA Binding Agent: In Silico Fragment-based Design, Machine Learning, Molecular Modeling, Synthesis, and DNA Binding Evaluation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cancer remains a global burden, with increasing mortality rates. Current cancer treatments involve controlling the transcription of malignant DNA genes, either directly or indirectly. DNA exhibits various structural forms, including the G-quadruplex (G4), a secondary structure in guanine-rich regions. G4 plays a crucial role in cellular processes by regulating gene expression and telomerase function. Researchers have recently identified G4-stabilizing binding agents as promising anti-cancer compounds. Additionally, peptides have emerged as effective anticancer pharmaceuticals due to their ability to form multiple hydrogen bonds, electrostatic interactions, and van der Waals forces. These properties enable peptides to bind to specific areas of DNA chains selectively. However, despite these advancements, designing G4-binding peptides remains challenging due to a lack of comprehensive information. OBJECTIVE: In our present study, we employed an in silico fragment-based approach to design G4- binding peptides. This innovative method combines machine learning classification, molecular docking, and dynamics simulation. METHODS: AutoDock Vina and Gromacs performed molecular docking and MD simulation, respectively. The machine learning algorithm was implemented by Scikit-learn. Peptide synthesis was performed using the SPPS method. The DNA binding affinity was measured by applying spectrophotometric titration. RESULTS: As a result of this approach, we identified a high-scoring peptide (p10; sequence: YWRWR). The association constant (K(a)) between p10 and the ctDNA double helix chain was 4.45 x 10(5) M(-1). Molecular modeling studies revealed that p10 could form a stable complex with the G4 surface. CONCLUSION: The obtained Ka value of 4.45 x 10(5) M(-1) indicates favorable interactions. Our findings highlight the role of machine learning and molecular modeling approaches in designing new G4-binding peptides. Further research in this field could lead to targeted treatments that exploit the unique properties of G4 structures.",
+    "keywords": [
+      "Cancer",
+      "ct-DNA",
+      "fragment-based design",
+      "machine learning",
+      "molecular modeling.",
+      "peptide"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Molecular Docking Simulation",
+      "*DNA/chemistry/metabolism",
+      "*Peptides/chemistry",
+      "*G-Quadruplexes",
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Drug Design",
+      "Humans",
+      "Antineoplastic Agents/chemistry/pharmacology/chemical synthesis",
+      "Computer Simulation",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dastan, Dara",
+        "Soleymanekhtiari, Shabnam",
+        "Ebadi, Ahmad"
+      ],
+      "short_names": [
+        "Dastan D",
+        "Soleymanekhtiari S",
+        "Ebadi A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacognosy, School of Pharmacy, Medicinal Plants and Natural Products Research Center, Hamadan University of Medical Sciences, Hamadan, Iran.",
+        "Department of Medicinal Chemistry, School of Pharmacy, Medicinal Plants and Natural Products Research Center, Hamadan University of Medical Sciences, Hamadan, Iran.",
+        "Department of Medicinal Chemistry, School of Pharmacy, Medicinal Plants and Natural Products Research Center, Hamadan University of Medical Sciences, Hamadan, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dastan, Dara",
+        "short_name": "Dastan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, School of Pharmacy, Medicinal Plants and Natural Products Research Center, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      },
+      {
+        "full_name": "Soleymanekhtiari, Shabnam",
+        "short_name": "Soleymanekhtiari S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, School of Pharmacy, Medicinal Plants and Natural Products Research Center, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      },
+      {
+        "full_name": "Ebadi, Ahmad",
+        "short_name": "Ebadi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, School of Pharmacy, Medicinal Plants and Natural Products Research Center, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein and peptide letters"
+    ],
+    "journal_abbrev": [
+      "Protein Pept Lett"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/02 06:42",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42577738",
+      "42534622",
+      "42065051",
+      "41770311",
+      "41655168",
+      "41584329",
+      "41392192"
+    ],
+    "refs": [
+      "36651944",
+      "33538338",
+      "33068814",
+      "32638724",
+      "31375699",
+      "30517002",
+      "30015476",
+      "29899445",
+      "28650023",
+      "28472272",
+      "26862491",
+      "26195789",
+      "25270878",
+      "22408567",
+      "21945565",
+      "20614923",
+      "19499576",
+      "19399780",
+      "18726565",
+      "18236491",
+      "17290284",
+      "17212484",
+      "16946453",
+      "16211538",
+      "11878947",
+      "11309493",
+      "10999471",
+      "10498189",
+      "10411488",
+      "9216827"
+    ],
+    "similar": [
+      "38693737",
+      "28650023",
+      "23960016",
+      "23244447",
+      "29806548",
+      "33213893",
+      "27836755",
+      "28025082",
+      "34639142",
+      "28728523",
+      "34736054",
+      "36282946",
+      "28524659",
+      "35470777",
+      "23368106",
+      "31202994",
+      "31010072",
+      "29611599",
+      "31539370",
+      "34213273",
+      "32279036",
+      "29953891",
+      "31894867",
+      "20957717",
+      "31087710",
+      "32267689",
+      "31162877",
+      "37286380",
+      "27491376",
+      "31940851",
+      "29109402",
+      "28232513",
+      "27900730",
+      "36637711",
+      "28425525",
+      "22074555",
+      "27838395",
+      "32454109",
+      "33607110",
+      "37154782",
+      "28007578",
+      "35156574",
+      "30794082",
+      "30245350",
+      "28234935",
+      "28025083",
+      "29607778",
+      "37006172",
+      "30529810",
+      "37349936",
+      "29301210",
+      "28130159",
+      "33502401",
+      "35566347",
+      "28459507",
+      "28235605",
+      "34199659",
+      "21377506",
+      "29603472",
+      "33199912",
+      "25935290",
+      "33355454",
+      "35670351",
+      "34029082",
+      "30529547",
+      "36054116",
+      "30517002",
+      "23796247",
+      "27865994",
+      "33089692",
+      "22376105",
+      "35717172",
+      "34383754",
+      "37855085",
+      "31912160",
+      "21750831",
+      "24256368",
+      "32621230",
+      "27670694",
+      "31446246",
+      "22280460",
+      "32302880",
+      "25679041",
+      "25109710",
+      "28102286",
+      "30736345",
+      "31685331",
+      "34824301",
+      "20135671",
+      "34328300",
+      "35997141",
+      "28759825",
+      "38203794",
+      "24753420",
+      "36636928",
+      "26164556",
+      "27567126",
+      "35625576",
+      "9730808",
+      "33140570",
+      "28476011",
+      "35248982",
+      "39333310",
+      "38900052",
+      "36071074",
+      "39105536",
+      "39014259",
+      "38409702",
+      "37883810",
+      "36730443",
+      "39205589",
+      "38383543",
+      "38173298",
+      "37372372",
+      "36266275",
+      "37377636",
+      "39308247",
+      "39180507",
+      "35559171",
+      "32287404",
+      "39091799",
+      "39152280",
+      "37873110",
+      "36587424",
+      "38293168"
+    ],
+    "review": [
+      "38693737",
+      "23368106",
+      "22074555",
+      "27838395",
+      "35156574",
+      "28025083",
+      "33355454",
+      "35670351",
+      "37855085",
+      "25109710",
+      "30736345",
+      "36636928",
+      "35625576",
+      "39105536",
+      "37883810",
+      "38173298",
+      "37372372",
+      "39180507"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=31&issue=4&spage=332&aulast=Dastan",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/229543/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

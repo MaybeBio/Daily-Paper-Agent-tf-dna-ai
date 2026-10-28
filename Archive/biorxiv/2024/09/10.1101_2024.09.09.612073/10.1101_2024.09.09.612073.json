@@ -1,0 +1,592 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.09.612073",
+  "title": "Barcode activity in a recurrent network model of the hippocampus enables efficient memory binding",
+  "doi": "10.1101/2024.09.09.612073",
+  "abstract": "Forming an episodic memory requires binding together disparate elements that co-occur in a single experience. One model of this process is that neurons representing different components of a memory bind to an “index” — a subset of neurons unique to that memory. Evidence for this model has recently been found in chickadees, which use hippocampal memory to store and recall locations of cached food. Chickadee hippocampus produces sparse, high-dimensional patterns (“barcodes”) that uniquely specify each caching event. Unexpectedly, the same neurons that participate in barcodes also exhibit conventional place tuning. It is unknown how barcode activity is generated, and what role it plays in memory formation and retrieval. It is also unclear how a memory index (e.g. barcodes) could function in the same neural population that represents memory content (e.g. place). Here, we design a biologically plausible model that generates barcodes and uses them to bind experiential content. Our model generates barcodes from place inputs through the chaotic dynamics of a recurrent neural network and uses Hebbian plasticity to store barcodes as attractor states. The model matches experimental observations that memory indices (barcodes) and content signals (place tuning) are randomly intermixed in the activity of single neurons. We demonstrate that barcodes reduce memory interference between correlated experiences. We also show that place tuning plays a complementary role to barcodes, enabling flexible, contextually-appropriate memory retrieval. Finally, our model is compatible with previous models of the hippocampus as generating a predictive map. Distinct predictive and indexing functions of the network are achieved via an adjustment of global recurrent gain. Our results suggest how the hippocampus may use barcodes to resolve fundamental tensions between memory specificity (pattern separation) and flexible recall (pattern completion) in general memory systems.",
+  "authors": [
+    "Ching Fang",
+    "Jack Lindsey",
+    "L.F. Abbott",
+    "Dmitriy Aronov",
+    "Selmaan Chettih"
+  ],
+  "published_date": "2024-09-13",
+  "updated_date": "2024-09-13T12:51:56Z",
+  "journal": "bioRxiv",
+  "category": "Neuroscience",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.09.612073",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.09.612073.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Neuroscience"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Neuroscience",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:55:29Z",
+        "timestamp": 1782280529633,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            13
+          ]
+        ]
+      },
+      "group-title": "Neuroscience",
+      "reference-count": 59,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                13
+              ]
+            ],
+            "date-time": "2024-09-13T00:00:00Z",
+            "timestamp": 1726185600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Forming an episodic memory requires binding together disparate elements that co-occur in a single experience. One model of this process is that neurons representing different components of a memory bind to an “index” — a subset of neurons unique to that memory. Evidence for this model has recently been found in chickadees, which use hippocampal memory to store and recall locations of cached food. Chickadee hippocampus produces sparse, high-dimensional patterns (“barcodes”) that uniquely specify each caching event. Unexpectedly, the same neurons that participate in barcodes also exhibit conventional place tuning. It is unknown how barcode activity is generated, and what role it plays in memory formation and retrieval. It is also unclear how a memory index (e.g. barcodes) could function in the same neural population that represents memory content (e.g. place). Here, we design a biologically plausible model that generates barcodes and uses them to bind experiential content. Our model generates barcodes from place inputs through the chaotic dynamics of a recurrent neural network and uses Hebbian plasticity to store barcodes as attractor states. The model matches experimental observations that memory indices (barcodes) and content signals (place tuning) are randomly intermixed in the activity of single neurons. We demonstrate that barcodes reduce memory interference between correlated experiences. We also show that place tuning plays a complementary role to barcodes, enabling flexible, contextually-appropriate memory retrieval. Finally, our model is compatible with previous models of the hippocampus as generating a predictive map. Distinct predictive and indexing functions of the network are achieved via an adjustment of global recurrent gain. Our results suggest how the hippocampus may use barcodes to resolve fundamental tensions between memory specificity (pattern separation) and flexible recall (pattern completion) in general memory systems.</jats:p>",
+      "DOI": "10.1101/2024.09.09.612073",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            13
+          ]
+        ],
+        "date-time": "2024-09-13T12:51:56Z",
+        "timestamp": 1726231916000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Barcode activity in a recurrent network model of the hippocampus enables efficient memory binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3653-0057",
+          "authenticated-orcid": false,
+          "given": "Ching",
+          "family": "Fang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jack",
+          "family": "Lindsey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "L.F.",
+          "family": "Abbott",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dmitriy",
+          "family": "Aronov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2045-3747",
+          "authenticated-orcid": false,
+          "given": "Selmaan",
+          "family": "Chettih",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.91.15.7041"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.70600"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2023.05.031"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2014.07.035"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.5",
+          "article-title": "Memo: A deep network for flexible combination of episodic memories",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pneurobio.2020.101821"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/neco.1996.8.1.85"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.8",
+          "first-page": "15301",
+          "article-title": "Attention approximates sparse distributed memory",
+          "volume": "34",
+          "year": "2021",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2024.02.032"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/26216"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tics.2020.12.008"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.80680"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02331346"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rspb.1976.0084"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.15",
+          "article-title": "Key-value memory in the brain",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.16",
+          "article-title": "Neural turing machines",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature20101"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1364-6613(99)01365-0"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.conb.2006.09.002"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.79.8.2554"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/0033-295X.112.1.75"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmps.2001.1388"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.23",
+          "first-page": "107",
+          "article-title": "Computational models of memory search",
+          "volume": "71",
+          "year": "1984",
+          "journal-title": "Annual Review of Psychology"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3758/BF03197276"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.25",
+          "unstructured": "Kanerva, P. (1988). Sparse distributed memory. MIT press."
+        },
+        {
+          "issue": "34",
+          "key": "2025092212051338000_2024.09.09.612073v4.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2219150120",
+          "DOI": "10.1073/pnas.2219150120",
+          "article-title": "Building transformers from neurons and astrocytes",
+          "volume": "120",
+          "year": "2023",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.27",
+          "article-title": "Large associative memory problem in neurobiology and machine learning",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.28",
+          "unstructured": "Krotov, D. and J. J. Hopfield (2016). Dense associative memory for pattern recognition. Advances in neural information processing systems 29."
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.29",
+          "article-title": "Neural stored-program memory",
+          "year": "2019",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2008.0316"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1247485"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Marr, D. , D. Willshaw , and B. McNaughton (1991). Simple memory: a theory for archicortex. In From the Retina to the Neocortex, pp. 59–128. Springer.",
+          "DOI": "10.1007/978-1-4684-6775-8_5"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0166-2236(87)90011-7"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.94.16.8918"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0896-6273(00)81072-7"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.09-12-04101.1989"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41593-023-01403-7"
+        },
+        {
+          "issue": "1",
+          "key": "2025092212051338000_2024.09.09.612073v4.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "018101",
+          "DOI": "10.1103/PhysRevLett.124.018101",
+          "article-title": "Fundamental law of memory recall",
+          "volume": "124",
+          "year": "2020",
+          "journal-title": "Physical Reveiw Letters"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/381607a0"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abg2009"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.41",
+          "article-title": "Hopfield networks is all you need",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.1016/j.neunet.2023.09.005",
+          "article-title": "Competitive learning to generate sparse representations for associative memory",
+          "volume": "168",
+          "year": "2023",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2016.0049"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/a0013396"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0003-3472(84)80281-X"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.61.259"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stachenfeld, K. , M. Botvinick , and S. Gershman (2017). The hippocampus as a predictive map. Nature Neuroscience.",
+          "DOI": "10.1101/097170"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.48",
+          "unstructured": "Sukhbaatar, S. , J. Weston , R. Fergus , et al. (2015). End-to-end memory networks. Advances in neural information processing systems 28."
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3758/BF03195864"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/0735-7044.100.2.147"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/hipo.20350"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1098-1063(1999)9:4<481::AID-HIPO14>3.0.CO;2-S"
+        },
+        {
+          "issue": "381-403",
+          "key": "2025092212051338000_2024.09.09.612073v4.53",
+          "first-page": "1",
+          "article-title": "Episodic and semantic memory",
+          "volume": "1",
+          "year": "1972",
+          "journal-title": "Organization of memory"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.54",
+          "first-page": "22247",
+          "article-title": "Biological learning in key-value memory networks",
+          "volume": "34",
+          "year": "2021",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.10.024"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.56",
+          "article-title": "Relating transformers to models and neural representations of the hippocampal formation",
+          "year": "2021",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.8351520"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.281.5379.985"
+        },
+        {
+          "key": "2025092212051338000_2024.09.09.612073v4.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "e82914",
+          "DOI": "10.7554/eLife.82914",
+          "article-title": "Task-dependent optimal representations for cerebellar learning",
+          "volume": "12",
+          "year": "2023",
+          "journal-title": "Elife"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.09.612073",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:03:22Z",
+        "timestamp": 1782277402000
+      },
+      "score": 101.16314,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.09.612073"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            13
+          ]
+        ]
+      },
+      "references-count": 59,
+      "URL": "https://doi.org/10.1101/2024.09.09.612073",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.103512",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.103512.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.103512.2",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.103512.1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

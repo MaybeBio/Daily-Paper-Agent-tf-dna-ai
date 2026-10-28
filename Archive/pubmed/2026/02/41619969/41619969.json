@@ -1,0 +1,537 @@
+{
+  "identity": {
+    "pmid": "41619969",
+    "doi": "10.1016/j.jcmgh.2026.101742",
+    "title": "Protocadherin 20 Is a POU Class 2 Homeobox 3 Target Gene Required for Proper Tuft Cell Microvillus Organization."
+  },
+  "content": {
+    "abstract": "BACKGROUND & AIMS: Tuft cells play protective roles in infection, inflammation, and tumorigenesis through the secretion of cytokines and eicosanoids. Tuft cells are known for their tall, blunt microvilli, thought to be analogous to mechanosensory hair cell stereocilia; however, a functional role for the microvillar apparatus has not been identified. POU Class 2 Homeobox 3 (POU2F3) is the master regulator transcription factor for tuft cells, yet how POU2F3 drives formation of this unique structure is unknown. Here, we aimed to identify POU2F3 target genes and commonalities between tuft and hair cells to better understand this unique structure. METHODS: POU2F3 chromatin immunoprecipitation sequencing was performed on tuft cells and compared with the hair cell transcriptome. Tuft cell RNA sequencing datasets were interrogated for hair cell structural and mechanosensory genes; expression was validated. Intestinal and gallbladder tuft cells were examined using multiple light and electron microscopy modalities. Protocadherin 20 (PCDH20) was knocked down in mouse models, and ultrastructural analyses were performed. The tuft cell cytoskeleton was modeled using AlphaFold3 prediction. RESULTS: Genes encoding structural and mechanosensory proteins common to both tuft and hair cells, including Pcdh20, were identified. Imaging localized PCDH20 to tuft cell microvilli and hair cell stereocilia. Genetic ablation of Pcdh20 in mice resulted in structural defects in tuft cell microvilli, including loss of rigidity and organization. Molecular modeling suggests PCDH20 homodimers link adjacent microvilli. CONCLUSIONS: Pcdh20 is a POU2F3 target gene in tuft cells, critical to maintain the rigid microvillar apparatus. These findings, together with the shared expression of mechanosensory components like transmembrane channel-like protein 1, support the hypothesis that tuft cells could have mechanosensory capabilities analogous to cochlear hair cells.",
+    "keywords": [
+      "ChIP-seq",
+      "Hair Cells",
+      "Mechanotransduction",
+      "Stereocilia"
+    ],
+    "mesh_terms": [
+      "*Tuft Cells/metabolism/ultrastructure",
+      "Animals",
+      "*Microvilli/metabolism/ultrastructure",
+      "*Cadherins/genetics/metabolism",
+      "Mice",
+      "*Octamer Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ankenbauer, Katherine E",
+        "Yang, Yilin",
+        "Chung, Chi-Yeh",
+        "Andrade, Leonardo R",
+        "Novak, Sammy Weiser",
+        "Jarvis, Brenda",
+        "Ali Hanel, Wahida H",
+        "Liu, Jiayue",
+        "Sarkisian, Victoria",
+        "Dani, Neil",
+        "Krystofiak, Evan",
+        "Hu, Gaizun",
+        "Ebrahim, Seham",
+        "Kachar, Bechara",
+        "Gong, Qizhi",
+        "Wahl, Geoffrey M",
+        "Lau, Ken S",
+        "Brown, Jeffrey W",
+        "Manor, Uri",
+        "DelGiorno, Kathleen E"
+      ],
+      "short_names": [
+        "Ankenbauer KE",
+        "Yang Y",
+        "Chung CY",
+        "Andrade LR",
+        "Novak SW",
+        "Jarvis B",
+        "Ali Hanel WH",
+        "Liu J",
+        "Sarkisian V",
+        "Dani N",
+        "Krystofiak E",
+        "Hu G",
+        "Ebrahim S",
+        "Kachar B",
+        "Gong Q",
+        "Wahl GM",
+        "Lau KS",
+        "Brown JW",
+        "Manor U",
+        "DelGiorno KE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee; Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, Tennessee.",
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee; Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, Tennessee; Center for Computational Systems Biology, Vanderbilt University, Nashville, Tennessee.",
+        "Gene Expression Laboratory, The Salk Institute for Biological Studies, La Jolla, California.",
+        "Laboratory of Genetics and Center for Chemical Biology and Proteomics, The Salk Institute for Biological Studies, La Jolla, California.",
+        "Waitt Advanced Biophotonics Center, Salk Institute for Biological Studies, La Jolla, California.",
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee.",
+        "Gene Expression Laboratory, The Salk Institute for Biological Studies, La Jolla, California; Biological and Physical Sciences Department, Columbus State Community College, Columbus, Ohio.",
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee.",
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee.",
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee.",
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee.",
+        "Department of Molecular Physiology and Biological Physics, Center for Membrane and Cell Physiology, University of Virginia School of Medicine, Charlottesville, Virginia.",
+        "Department of Molecular Physiology and Biological Physics, Center for Membrane and Cell Physiology, University of Virginia School of Medicine, Charlottesville, Virginia.",
+        "Laboratory of Cell Structure and Dynamics, National Institute on Deafness and Other Communication Disorders, National Institutes of Health, Bethesda, Maryland.",
+        "Department of Cell Biology and Human Anatomy, School of Medicine, University of California, Davis, California.",
+        "Gene Expression Laboratory, The Salk Institute for Biological Studies, La Jolla, California.",
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee; Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, Tennessee; Center for Computational Systems Biology, Vanderbilt University, Nashville, Tennessee; Chemical and Physical Biology Program, Vanderbilt University, Nashville, Tennessee; Department of Surgery, Vanderbilt University Medical Center, Nashville, Tennessee; Vanderbilt Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee; Vanderbilt Digestive Disease Research Center, Vanderbilt University Medical Center, Nashville, Tennessee.",
+        "Division of Gastroenterology, Department of Medicine, Washington University in St. Louis, Missouri.",
+        "Department of Cell and Developmental Biology, University of California, San Diego, California.",
+        "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee; Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, Tennessee; Center for Computational Systems Biology, Vanderbilt University, Nashville, Tennessee; Department of Surgery, Vanderbilt University Medical Center, Nashville, Tennessee; Vanderbilt Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee; Vanderbilt Digestive Disease Research Center, Vanderbilt University Medical Center, Nashville, Tennessee. Electronic address: kathleen.delgiorno@vanderbilt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ankenbauer, Katherine E",
+        "short_name": "Ankenbauer KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee; Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Yang, Yilin",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee; Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, Tennessee; Center for Computational Systems Biology, Vanderbilt University, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Chung, Chi-Yeh",
+        "short_name": "Chung CY",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Expression Laboratory, The Salk Institute for Biological Studies, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Andrade, Leonardo R",
+        "short_name": "Andrade LR",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Genetics and Center for Chemical Biology and Proteomics, The Salk Institute for Biological Studies, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Novak, Sammy Weiser",
+        "short_name": "Novak SW",
+        "identifiers": [],
+        "affiliations": [
+          "Waitt Advanced Biophotonics Center, Salk Institute for Biological Studies, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Jarvis, Brenda",
+        "short_name": "Jarvis B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Ali Hanel, Wahida H",
+        "short_name": "Ali Hanel WH",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Expression Laboratory, The Salk Institute for Biological Studies, La Jolla, California; Biological and Physical Sciences Department, Columbus State Community College, Columbus, Ohio."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiayue",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Sarkisian, Victoria",
+        "short_name": "Sarkisian V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Dani, Neil",
+        "short_name": "Dani N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Krystofiak, Evan",
+        "short_name": "Krystofiak E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Hu, Gaizun",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology and Biological Physics, Center for Membrane and Cell Physiology, University of Virginia School of Medicine, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Ebrahim, Seham",
+        "short_name": "Ebrahim S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology and Biological Physics, Center for Membrane and Cell Physiology, University of Virginia School of Medicine, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Kachar, Bechara",
+        "short_name": "Kachar B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cell Structure and Dynamics, National Institute on Deafness and Other Communication Disorders, National Institutes of Health, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Gong, Qizhi",
+        "short_name": "Gong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Human Anatomy, School of Medicine, University of California, Davis, California."
+        ]
+      },
+      {
+        "full_name": "Wahl, Geoffrey M",
+        "short_name": "Wahl GM",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Expression Laboratory, The Salk Institute for Biological Studies, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Lau, Ken S",
+        "short_name": "Lau KS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee; Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, Tennessee; Center for Computational Systems Biology, Vanderbilt University, Nashville, Tennessee; Chemical and Physical Biology Program, Vanderbilt University, Nashville, Tennessee; Department of Surgery, Vanderbilt University Medical Center, Nashville, Tennessee; Vanderbilt Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee; Vanderbilt Digestive Disease Research Center, Vanderbilt University Medical Center, Nashville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Brown, Jeffrey W",
+        "short_name": "Brown JW",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Gastroenterology, Department of Medicine, Washington University in St. Louis, Missouri."
+        ]
+      },
+      {
+        "full_name": "Manor, Uri",
+        "short_name": "Manor U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, University of California, San Diego, California."
+        ]
+      },
+      {
+        "full_name": "DelGiorno, Kathleen E",
+        "short_name": "DelGiorno KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University, Nashville, Tennessee; Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, Tennessee; Center for Computational Systems Biology, Vanderbilt University, Nashville, Tennessee; Department of Surgery, Vanderbilt University Medical Center, Nashville, Tennessee; Vanderbilt Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee; Vanderbilt Digestive Disease Research Center, Vanderbilt University Medical Center, Nashville, Tennessee. Electronic address: kathleen.delgiorno@vanderbilt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular and molecular gastroenterology and hepatology"
+    ],
+    "journal_abbrev": [
+      "Cell Mol Gastroenterol Hepatol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/01 00:44",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39889697",
+      "39721583",
+      "39360911",
+      "39352498",
+      "39327439",
+      "39292922",
+      "39092422",
+      "38729450",
+      "38718835",
+      "38420512",
+      "38170579",
+      "37863104",
+      "37774136",
+      "37691494",
+      "37339214",
+      "37231261",
+      "36034774",
+      "35576971",
+      "35574446",
+      "35468541",
+      "35245090",
+      "35245089",
+      "35235570",
+      "35218890",
+      "34964715",
+      "34871294",
+      "34695382",
+      "32881101",
+      "32717220",
+      "32694982",
+      "32617896",
+      "32185015",
+      "32116793",
+      "31980480",
+      "31953256",
+      "31925335",
+      "31527509",
+      "30403560",
+      "30082452",
+      "30070639",
+      "30055169",
+      "30021144",
+      "29358376",
+      "29216297",
+      "28710774",
+      "27811163",
+      "27565685",
+      "27346354",
+      "27322406",
+      "26847546",
+      "26762460",
+      "26675736",
+      "26280331",
+      "26188009",
+      "26067675",
+      "24799436",
+      "24781754",
+      "24725409",
+      "24515109",
+      "24428937",
+      "24096675",
+      "23999170",
+      "22743772",
+      "22523574",
+      "21572433",
+      "21427143",
+      "21383077",
+      "21236676",
+      "21173574",
+      "20888799",
+      "20513432",
+      "20436461",
+      "20195380",
+      "19736561",
+      "19270079",
+      "19261174",
+      "19158791",
+      "18798982",
+      "18095321",
+      "18062147",
+      "18028448",
+      "17122034",
+      "17021174",
+      "15264254",
+      "15190118",
+      "13372265",
+      "12833159",
+      "10975527",
+      "10704189",
+      "10459016",
+      "9330348",
+      "8254673",
+      "7517927",
+      "6823301",
+      "4165523",
+      "512319"
+    ],
+    "similar": [
+      "41619969",
+      "40166352",
+      "29945888",
+      "32717220",
+      "35576971",
+      "36197978",
+      "39037943",
+      "40301757",
+      "29069081",
+      "39360911",
+      "33009420",
+      "41739157",
+      "33609752",
+      "36253891",
+      "35993302",
+      "37179317",
+      "34853057",
+      "16507588",
+      "34939935",
+      "16807332",
+      "41260223",
+      "39319626",
+      "35668088",
+      "24239741",
+      "31182574",
+      "40888895",
+      "23329832",
+      "22787034",
+      "19008224",
+      "39609081",
+      "23776407",
+      "32617896",
+      "29216297",
+      "37925434",
+      "18339676",
+      "42147139",
+      "29604293",
+      "32828819",
+      "40682850",
+      "35685361",
+      "41573550",
+      "40911150",
+      "35999270",
+      "42512007",
+      "22105175",
+      "18085631",
+      "30055169",
+      "22558334",
+      "42211052",
+      "22948144",
+      "41621641",
+      "41288617",
+      "42202079",
+      "34880874",
+      "25114259",
+      "22279587",
+      "26762460",
+      "24428937",
+      "41557732",
+      "42353590",
+      "41972672",
+      "3688463",
+      "16481439",
+      "39589317",
+      "26754646",
+      "24725409",
+      "42116766",
+      "37386128",
+      "39613231",
+      "36400760",
+      "34988657",
+      "16909209",
+      "15057246",
+      "38061015",
+      "41684050",
+      "21427143",
+      "36402755",
+      "22202456",
+      "27269051",
+      "28209736",
+      "16651412",
+      "41727498",
+      "37011103",
+      "20505086",
+      "31893322",
+      "40365278",
+      "38562898",
+      "33086657",
+      "40802839",
+      "19320974",
+      "40885035",
+      "27581460",
+      "39777322",
+      "31450490",
+      "42242519",
+      "42707066",
+      "18619539",
+      "40408246",
+      "25736877",
+      "27413529"
+    ],
+    "review": [
+      "41619969",
+      "24239741",
+      "42211052",
+      "41288617",
+      "16909209"
+    ],
+    "pmc": [
+      "13051935"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352-345X(26)00020-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/41619969",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41619969/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2352-345X(26)00020-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "39602828",
+    "doi": "10.1093/bib/bbae623",
+    "title": "FunlncModel: integrating multi-omic features from upstream and downstream regulatory networks into a machine learning framework to identify functional lncRNAs."
+  },
+  "content": {
+    "abstract": "Accumulating evidence indicates that long noncoding RNAs (lncRNAs) play important roles in molecular and cellular biology. Although many algorithms have been developed to reveal their associations with complex diseases by using downstream targets, the upstream (epi)genetic regulatory information has not been sufficiently leveraged to predict the function of lncRNAs in various biological processes. Therefore, we present FunlncModel, a machine learning-based interpretable computational framework, which aims to screen out functional lncRNAs by integrating a large number of (epi)genetic features and functional genomic features from their upstream/downstream multi-omic regulatory networks. We adopted the random forest method to mine nearly 60 features in three categories from >2000 datasets across 11 data types, including transcription factors (TFs), histone modifications, typical enhancers, super-enhancers, methylation sites, and mRNAs. FunlncModel outperformed alternative methods for classification performance in human embryonic stem cell (hESC) (0.95 Area Under Curve (AUROC) and 0.97 Area Under the Precision-Recall Curve (AUPRC)). It could not only infer the most known lncRNAs that influence the states of stem cells, but also discover novel high-confidence functional lncRNAs. We extensively validated FunlncModel's efficacy by up to 27 cancer-related functional prediction tasks, which involved multiple cancer cell growth processes and cancer hallmarks. Meanwhile, we have also found that (epi)genetic regulatory features, such as TFs and histone modifications, serve as strong predictors for revealing the function of lncRNAs. Overall, FunlncModel is a strong and stable prediction model for identifying functional lncRNAs in specific cellular contexts. FunlncModel is available as a web server at https://bio.liclab.net/FunlncModel/.",
+    "keywords": [
+      "functional lncRNA",
+      "machine learning algorithm",
+      "multi-omics analysis",
+      "systems biology",
+      "upstream/downstream regulatory network analysis"
+    ],
+    "mesh_terms": [
+      "*RNA, Long Noncoding/genetics/metabolism",
+      "*Machine Learning",
+      "Humans",
+      "*Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "Transcription Factors/metabolism/genetics",
+      "Algorithms",
+      "Software",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yan-Yu",
+        "Qian, Feng-Cui",
+        "Zhang, Guo-Rui",
+        "Li, Xue-Cang",
+        "Zhou, Li-Wei",
+        "Yu, Zheng-Min",
+        "Liu, Wei",
+        "Wang, Qiu-Yu",
+        "Li, Chun-Quan"
+      ],
+      "short_names": [
+        "Li YY",
+        "Qian FC",
+        "Zhang GR",
+        "Li XC",
+        "Zhou LW",
+        "Yu ZM",
+        "Liu W",
+        "Wang QY",
+        "Li CQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5496-3641",
+        "ORCID: 0000-0002-4700-5496"
+      ],
+      "affiliations": [
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics and Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+        "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics and Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+        "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China.",
+        "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China.",
+        "School of Medical Informatics, Daqing Campus, Harbin Medical University, Daqing, 163000, China.",
+        "State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, 100101, China.",
+        "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+        "College of Science, Heilongjiang Institute of Technology, Harbin, Heilongjiang, 150000, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics and Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+        "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics and Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "Key Laboratory of Rare Pediatric Diseases, Ministry of Education, University of South China, Hengyang, Hunan, 421001, China.",
+        "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+        "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yan-Yu",
+        "short_name": "Li YY",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics and Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+          "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Feng-Cui",
+        "short_name": "Qian FC",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics and Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+          "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guo-Rui",
+        "short_name": "Zhang GR",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xue-Cang",
+        "short_name": "Li XC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Informatics, Daqing Campus, Harbin Medical University, Daqing, 163000, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Li-Wei",
+        "short_name": "Zhou LW",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, 100101, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zheng-Min",
+        "short_name": "Yu ZM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [
+          "0000-0002-5496-3641"
+        ],
+        "affiliations": [
+          "College of Science, Heilongjiang Institute of Technology, Harbin, Heilongjiang, 150000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiu-Yu",
+        "short_name": "Wang QY",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics and Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+          "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chun-Quan",
+        "short_name": "Li CQ",
+        "identifiers": [
+          "0000-0002-4700-5496"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics and Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "Key Laboratory of Rare Pediatric Diseases, Ministry of Education, University of South China, Hengyang, Hunan, 421001, China.",
+          "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+          "Institute of Biochemistry and Molecular Biology, Hengyang Medical College, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Nov 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/27 18:25",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "41823837",
+      "40399983"
+    ],
+    "refs": [],
+    "similar": [
+      "39602828",
+      "30598114",
+      "31787106",
+      "34134612",
+      "31893451",
+      "38838009",
+      "33980144",
+      "33045741",
+      "30875752",
+      "29955818",
+      "40282384",
+      "38696317",
+      "32216744",
+      "30732558",
+      "31815689",
+      "38996755",
+      "34971620",
+      "30767760",
+      "32086216",
+      "36305456",
+      "32468035",
+      "35180094",
+      "36573492",
+      "32248123",
+      "39702720",
+      "28489543",
+      "28449042",
+      "31323239",
+      "36646775",
+      "28379566",
+      "29536445",
+      "38523267",
+      "30444862",
+      "31322548",
+      "27992375",
+      "28172495",
+      "36088549",
+      "35757995",
+      "32444875",
+      "37529914",
+      "29897412",
+      "24392133",
+      "33326076",
+      "29194536",
+      "32387314",
+      "28051121",
+      "32047897",
+      "30247501",
+      "36530425",
+      "26485761",
+      "35108355",
+      "31617466",
+      "30401954",
+      "28913654",
+      "34836494",
+      "38419051",
+      "39789329",
+      "35590258",
+      "32845706",
+      "30138363",
+      "33779949",
+      "29401217",
+      "38354497",
+      "28152521",
+      "39696629",
+      "34898376",
+      "31510011",
+      "34550779",
+      "30635899",
+      "26305674",
+      "33267800",
+      "29573966",
+      "32460441",
+      "38787831",
+      "33760334",
+      "27580177",
+      "33002344",
+      "37604142",
+      "31760932",
+      "28865451",
+      "37584517",
+      "25354589",
+      "30478836",
+      "30782113",
+      "38902760",
+      "35006529",
+      "31032362",
+      "25889429",
+      "30453964",
+      "33326066",
+      "38472694",
+      "35711564",
+      "31783794",
+      "31827539",
+      "35672672",
+      "33219685",
+      "27345524",
+      "36064320",
+      "31311593",
+      "30231249"
+    ],
+    "review": [
+      "39602828",
+      "28449042",
+      "30247501",
+      "36530425",
+      "29401217",
+      "33760334"
+    ],
+    "pmc": [
+      "11601888"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39602828.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39602828/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae623",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

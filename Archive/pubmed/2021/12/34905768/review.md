@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present DeepDISOBind, a deep multi-task neural network that predicts DNA-, RNA-, and protein-binding intrinsically disordered residues from protein sequences. They claim that the multi-task architecture yields statistically significant improvements over single-task designs and existing predictors, and that proteome-level propensity scores derived from predictions accurately identify DNA/RNA-binding proteins and protein hubs.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods, training and test datasets, benchmark comparisons, statistical significance tests, proteome-scale analysis details, and software implementation specifics
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable contribution to the prediction of nucleic acid- and protein-binding disordered regions, addressing a recognized gap in available tools. The multi-task architecture with progressive specialization is conceptually appealing. However, the abstract provides no quantitative evidence, no benchmark details, and no statistical validation, making the central claims of improved accuracy and proteome-level utility impossible to assess from the supplied material. The work may be of interest to the computational biology community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in intrinsically disordered protein function, computational predictors of protein-nucleic acid interactions, and developers of deep learning methods for biological sequence analysis. The availability of a new predictor for nucleic acid-binding IDRs would be practically useful, and the multi-task learning design may inform future method development.
+- **Major strengths** The problem is well motivated, as the authors note the scarcity of tools for nucleic acid-binding IDR prediction and the modest accuracy of existing methods. The proposed architecture, with layers progressively specialized for partner type discrimination, is a thoughtful design that could offer genuine advantages over single-task approaches. The inclusion of proteome-level analysis suggests an effort to demonstrate biological utility beyond residue-level benchmarks.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that DeepDISOBind "accurately predicts" DNA-, RNA-, and protein-binding IDRs and that the multi-task design provides "statistically significant gains in predictive quality" over single-task and existing methods.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided
+  - **Concern** The abstract contains no numerical results, no performance metrics, no benchmark dataset descriptions, and no statistical test outcomes. The claim of statistical significance is stated without any supporting data.
+  - **Why it matters** Without quantitative evidence, the reader cannot evaluate whether the claimed improvements are meaningful, whether the method outperforms existing tools in practice, or whether the multi-task design is genuinely beneficial. The central contribution of the paper rests on these unverified claims.
+  - **Resolution test** Provide performance metrics (e.g., AUC, MCC, F1) for DeepDISOBind and comparator methods on defined benchmark datasets, along with statistical significance tests (e.g., paired tests with reported p-values) and dataset descriptions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that DeepDISOBind relies on an "information-rich sequence profile" processed by a "multi-task deep neural network" with a specific layer architecture.
+  - **Evidence pointer** Abstract only; no methods section or architecture details provided
+  - **Concern** The abstract does not specify the sequence profile features, the network architecture dimensions, the training procedure, or the hyperparameters. The description is too vague to allow replication or independent assessment.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without detailed methodological information, the community cannot implement, test, or build upon the approach, and reviewers cannot verify the soundness of the design.
+  - **Resolution test** Include a full methods section describing input features, network architecture, training data, optimization, and hyperparameter choices, and make the code and trained models publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The abstract claims that proteome-level propensities derived from DeepDISOBind predictions "accurately predict DNA- and RNA-binding proteins and protein hubs."
+  - **Evidence pointer** Abstract only; no proteome analysis details or results provided
+  - **Concern** The abstract asserts accurate prediction of protein-level properties but provides no information on the datasets, evaluation metrics, or comparison baselines for this analysis. The term "accurately" is unsupported.
+  - **Why it matters** This claim extends the utility of the method beyond residue-level prediction to protein-level functional annotation. If overstated, it could mislead users into relying on the tool for applications it does not support.
+  - **Resolution test** Provide details of the proteome-scale analysis, including the human proteome dataset, the propensity calculation method, the evaluation criteria, and comparison with existing protein-level predictors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Proteins with intrinsically disordered regions (IDRs) are common among eukaryotes" is a general statement that does not specify the prevalence or relevance to the method.
+  - **Required correction** Consider providing a more specific motivation, such as the fraction of eukaryotic proteins with IDRs or the functional importance of IDR-mediated interactions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The availability statement provides a URL but does not mention whether the source code, trained models, and benchmark datasets are included.
+  - **Required correction** Specify what is available at the URL, such as a web server, standalone software, and training data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison scope
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, claim of comparison with "a representative selection of the existing methods"
+  - **Issue** The abstract does not specify which existing methods were compared or how they were selected, which limits the interpretability of the claimed improvements.
+  - **Required correction** List the comparator methods and the rationale for their selection in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological detail prevents any assessment of the core claims. R1-M3 is non-blocking but requires clarification to support the proteome-level claims.
+- **Assessment against Nature-style criteria** Originality: The multi-task architecture with progressive specialization for partner type is a novel design, though the abstract does not fully establish its distinctiveness from prior multi-task approaches. Scientific importance: The problem of predicting nucleic acid-binding IDRs is relevant and under-served, so the work addresses a genuine need. Interdisciplinary readership: The topic is of interest to computational biologists and experimentalists studying disordered proteins, but the abstract does not convey broader appeal. Technical soundness: Cannot be assessed from the abstract; no methodological or validation details are provided. Readability for nonspecialists: The abstract is generally clear, but the lack of context on multi-task learning and the significance of the results limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach, but the absence of quantitative results and methodological detail precludes a supportive recommendation. The case would be strengthened by including performance metrics, benchmark descriptions, statistical tests, and full methodological details.
+
+## Risk / unsupported claims
+- The claim of "statistically significant gains in predictive quality" is unsupported, as no statistical data are provided.
+- The claim of "accurate" prediction of DNA-, RNA-, and protein-binding IDRs is unsupported without performance metrics.
+- The claim that proteome-level propensities "accurately predict DNA- and RNA-binding proteins and protein hubs" is unsupported without details of the analysis.
+- The assertion that the multi-task design provides advantages over single-task and existing methods is unverifiable from the abstract alone.

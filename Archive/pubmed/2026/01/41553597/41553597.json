@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "41553597",
+    "doi": "10.1007/s12031-025-02463-z",
+    "title": "Decoding Non-Neuronal Mechanisms and Therapeutic Targets in Huntington's Disease Through Integrative Transcriptomics and Machine Learning."
+  },
+  "content": {
+    "abstract": "Huntington's disease (HD) is a rare, inherited neurodegenerative disorder caused by the expanded CAG repeats in the huntingtin gene. The HD domain still lacks detailed knowledge of validated drug targets, limiting the effectiveness of classical methods. To address this gap, we have applied an integrated computational approach, combining machine learning (ML) with transcriptomic analysis, to identify novel therapeutic targets. Differential expression analysis was performed on eight publicly available datasets, comprising 209 healthy control and 193 Huntington's disease patient samples, followed by ML-based screening of differentially expressed genes (DEGs). Feature selection using mRMR and RFE, in combination with four classifiers (Linear SVC, Stochastic Gradient Descent, Logistic regression, and Ridge regression), yielded 138 DEG candidates. Subsequent literature curation, drug target analysis, and gene regulatory network (GRN) construction highlighted several key genes, including TXNIP, TNIP3, HTR1D, ADRB1, and FOXP1, which may play pivotal roles in disease progression. Furthermore, our findings highlight the contribution of non-neuronal mechanisms, such as endothelial dysfunction, vascular neurodegeneration, thermoregulation, metabolic imbalance, and impaired phagocytosis, providing a broader perspective into HD pathophysiology. This comprehensive strategy advances our HD knowledge regarding therapeutic targets, molecular pathways, transcription factors (TFs), and complex gene interactions beyond classical HD processes. In summary, the study successfully identifies a promising set of novel drug targets, indicating potential implications in HD therapy.",
+    "keywords": [
+      "Gene regulatory network",
+      "Huntington's disease",
+      "Machine learning",
+      "Non-neuronal process",
+      "Therapeutic targets",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Huntington Disease/genetics/metabolism/drug therapy",
+      "Humans",
+      "*Machine Learning",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Himanshi",
+        "Singh, Samvedna",
+        "Kaushik, Aman Chandra",
+        "Awasthi, Amit K",
+        "Sahi, Shakti"
+      ],
+      "short_names": [
+        "Gupta H",
+        "Singh S",
+        "Kaushik AC",
+        "Awasthi AK",
+        "Sahi S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4803-2565",
+        "ORCID: 0000-0001-5487-1184",
+        "ORCID: 0000-0001-7346-0970",
+        "ORCID: 0000-0002-5500-0361",
+        "ORCID: 0000-0002-9931-7993"
+      ],
+      "affiliations": [
+        "School of Biotechnology, Gautam Buddha University, Greater Noida, Uttar Pradesh, 201312, India.",
+        "School of Biotechnology, Gautam Buddha University, Greater Noida, Uttar Pradesh, 201312, India.",
+        "Department of Technology, Dissemination and Computational Biology Division, CSIR-Central Institute of Medicinal and Aromatic Plants, CIMAP, Kukrail Road, Lucknow, 226015, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh, 201002, India.",
+        "Department of Applied Mathematics, School of Vocational Studies and Applied Sciences, Gautam Buddha University, Greater Noida, Uttar Pradesh, 201312, India. awasthi.amitk@gmail.com.",
+        "School of Biotechnology, Gautam Buddha University, Greater Noida, Uttar Pradesh, 201312, India. shaktis@gbu.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Himanshi",
+        "short_name": "Gupta H",
+        "identifiers": [
+          "0000-0003-4803-2565"
+        ],
+        "affiliations": [
+          "School of Biotechnology, Gautam Buddha University, Greater Noida, Uttar Pradesh, 201312, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Samvedna",
+        "short_name": "Singh S",
+        "identifiers": [
+          "0000-0001-5487-1184"
+        ],
+        "affiliations": [
+          "School of Biotechnology, Gautam Buddha University, Greater Noida, Uttar Pradesh, 201312, India."
+        ]
+      },
+      {
+        "full_name": "Kaushik, Aman Chandra",
+        "short_name": "Kaushik AC",
+        "identifiers": [
+          "0000-0001-7346-0970"
+        ],
+        "affiliations": [
+          "Department of Technology, Dissemination and Computational Biology Division, CSIR-Central Institute of Medicinal and Aromatic Plants, CIMAP, Kukrail Road, Lucknow, 226015, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh, 201002, India."
+        ]
+      },
+      {
+        "full_name": "Awasthi, Amit K",
+        "short_name": "Awasthi AK",
+        "identifiers": [
+          "0000-0002-5500-0361"
+        ],
+        "affiliations": [
+          "Department of Applied Mathematics, School of Vocational Studies and Applied Sciences, Gautam Buddha University, Greater Noida, Uttar Pradesh, 201312, India. awasthi.amitk@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Sahi, Shakti",
+        "short_name": "Sahi S",
+        "identifiers": [
+          "0000-0002-9931-7993"
+        ],
+        "affiliations": [
+          "School of Biotechnology, Gautam Buddha University, Greater Noida, Uttar Pradesh, 201312, India. shaktis@gbu.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular neuroscience : MN"
+    ],
+    "journal_abbrev": [
+      "J Mol Neurosci"
+    ],
+    "pub_date": "2026 Jan 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/19 12:51",
+    "fetched_at": "2026-10-05 05:16:26"
+  },
+  "links": {
+    "cites": [
+      "42288682"
+    ],
+    "refs": [
+      "40059764",
+      "40003898",
+      "40001897",
+      "39862324",
+      "39589160",
+      "39428482",
+      "39306013",
+      "39019974",
+      "38852503",
+      "38764004",
+      "38654124",
+      "38510977",
+      "38478169",
+      "38459557",
+      "38291334",
+      "38188146",
+      "38038795",
+      "37993517",
+      "37740761",
+      "37653030",
+      "37629202",
+      "37394581",
+      "36921996",
+      "36902304",
+      "36769234",
+      "36532634",
+      "36358532",
+      "36303071",
+      "36267740",
+      "36126501",
+      "36049413",
+      "35740453",
+      "35253772",
+      "35219323",
+      "35047114",
+      "34721539",
+      "34250577",
+      "34212304",
+      "34111223",
+      "33874957",
+      "33794304",
+      "33655829",
+      "33302545",
+      "32995988",
+      "32732871",
+      "32628586",
+      "32498555",
+      "31931694",
+      "31619230",
+      "31143184",
+      "30554964",
+      "30397387",
+      "28746336",
+      "28550168",
+      "28049413",
+      "27657697",
+      "27378699",
+      "26636579",
+      "25516281",
+      "25058159",
+      "24662036",
+      "23372043",
+      "22728333",
+      "22659115",
+      "22492998",
+      "22455463",
+      "20739295",
+      "19630576",
+      "19124532",
+      "19008301",
+      "17727827",
+      "17724341",
+      "17055784"
+    ],
+    "similar": [
+      "41553597",
+      "39153206",
+      "36902304",
+      "29328442",
+      "40643497",
+      "33049985",
+      "33871358",
+      "40059764",
+      "27390852",
+      "28499347",
+      "38459557",
+      "34433483",
+      "30015953",
+      "39367331",
+      "41200172",
+      "26581643",
+      "40874597",
+      "29581148",
+      "33378838",
+      "33228685",
+      "40711513",
+      "39507054",
+      "39854819",
+      "21501423",
+      "41611834",
+      "40002561",
+      "25358814",
+      "27476530",
+      "37587097",
+      "35929619",
+      "40406126",
+      "40328901",
+      "31040226",
+      "28642124",
+      "31619230",
+      "42210302",
+      "28701700",
+      "37761940",
+      "42181874",
+      "18625318",
+      "41449193",
+      "40377895",
+      "28550168",
+      "39789061",
+      "41052072",
+      "33054835",
+      "26636336",
+      "28523552",
+      "41388523",
+      "40336225",
+      "35219323",
+      "41252373",
+      "26428929",
+      "40801953",
+      "42158856",
+      "37042034",
+      "34870344",
+      "35154571",
+      "37501188",
+      "34111223",
+      "22741533",
+      "42217109",
+      "20708032",
+      "37298337",
+      "38485497",
+      "24006238",
+      "40332792",
+      "26651603",
+      "29652574",
+      "42327749",
+      "41080564",
+      "41424060",
+      "31304621",
+      "19909260",
+      "41006883",
+      "40362669",
+      "34031910",
+      "40003898",
+      "40859407",
+      "42228255",
+      "26756592",
+      "40905034",
+      "42123756",
+      "37055181",
+      "31286142",
+      "33579286",
+      "19458943",
+      "29254102",
+      "39096606",
+      "28322270",
+      "41595448",
+      "41703488",
+      "24459107",
+      "25889241",
+      "16083335",
+      "40090627",
+      "41505352",
+      "25062733",
+      "36963694",
+      "38863261"
+    ],
+    "review": [
+      "41553597",
+      "40874597",
+      "40711513",
+      "39854819",
+      "21501423",
+      "42181874",
+      "40377895",
+      "28523552",
+      "41252373",
+      "37042034",
+      "34111223",
+      "42217109",
+      "20708032",
+      "38485497",
+      "24006238",
+      "31304621",
+      "19909260",
+      "34031910",
+      "40003898",
+      "29254102",
+      "16083335",
+      "41505352"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/huntingtonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Huntington's Disease"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12031-025-02463-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

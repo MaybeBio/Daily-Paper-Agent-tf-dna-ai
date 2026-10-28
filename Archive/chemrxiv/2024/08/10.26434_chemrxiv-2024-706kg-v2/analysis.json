@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-706kg-v2",
+  "title": "Accurate physics-based prediction of binding affinities of RNA and DNA targeting ligands",
+  "authors": "Ara M. Abramyan; Anna Bochicchio; Chuanjie Wu; Wolfgang Damm; David R. Langley; Devleena Shivakumar; Dmitry Lupyan; Lingle Wang; Edward Harder; Eliud O. Oloo",
+  "journal": "ChemRxiv",
+  "published_date": "2024-08-26",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用FEP+和OPLS4力场预测小分子配体与DNA/RNA的结合亲和力，虽非TF-DNA体系，但属蛋白-DNA互作可迁移的物理模拟方法，对TF-DNA结合自由能计算有借鉴价值。",
+  "abstract": "Accurate prediction of the affinity of ligand binding to nucleic acids represents a significant challenge for current computational approaches. This limitation has hindered the use of computational methods to develop small molecule drugs that modulate the activity of nucleic acids, including those associated with anticancer, antiviral and antibacterial effects. In recent years, significant scientific and technological advances as well as easier access to compute resources have contributed to free-energy perturbation (FEP) becoming one of the most consistently reliable approaches for predicting relative binding affinities of ligands to proteins. Nevertheless, FEP’s applicability to nucleic-acid targeting ligands has remained largely undetermined. In this work, we present a systematic assessment of the accuracy of FEP, as implemented in the FEP+ software and facilitated by improvements in the OPLS4 force field, in predicting relative binding free energies of congeneric series of ligands interacting with a variety of DNA/RNA systems. The study encompassed more than 100 ligands exhibiting diverse binding modes, some partially exposed and others deeply buried. Using a consistent simulation protocol, more than half of the predictions are within 1 kcal/mol of the experimentally measured values. Across the dataset, we report a combined average pairwise root-mean-square-error (RMSE) of 1.39 kcal/mol, which falls within one log unit of the experimentally measured dissociation constants. These results suggest that FEP+ has sufficient accuracy to guide the optimization of lead series in drug discovery programs targeting RNA and DNA.",
+  "abstract_zh": "准确预测配体与核酸结合的亲和力对当前计算方法而言是一项重大挑战。这一局限性阻碍了计算方法用于开发调节核酸活性的小分子药物，包括那些与抗癌、抗病毒和抗菌作用相关的药物。近年来，显著的科学和技术进步以及计算资源获取的便利化，促使自由能微扰 (free-energy perturbation, FEP) 成为预测配体与蛋白质相对结合亲和力最稳定可靠的方法之一。然而，FEP 对靶向核酸配体的适用性在很大程度上仍未确定。在本工作中，我们对 FEP 的准确性进行了系统评估，该评估基于 FEP+ 软件中的实现，并借助 OPLS4 力场的改进，用于预测与多种 DNA/RNA 系统相互作用的同源系列配体的相对结合自由能。研究涵盖了超过 100 个配体，表现出多样的结合模式，其中一些部分暴露，另一些则深埋。使用一致的模拟协议，超过一半的预测结果与实验测量值的偏差在 1 kcal/mol 以内。在整个数据集中，我们报告了综合平均成对均方根误差 (root-mean-square-error, RMSE) 为 1.39 kcal/mol，这落在实验测量解离常数的一个对数单位内。这些结果表明，FEP+ 具有足够的准确性，可用于指导靶向 RNA 和 DNA 的药物发现项目中先导系列的优化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-706kg-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-706kg-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-706kg-v2/index.html"
+}

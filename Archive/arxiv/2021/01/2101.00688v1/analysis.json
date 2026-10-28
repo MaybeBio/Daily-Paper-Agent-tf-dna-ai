@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2101.00688v1",
+  "title": "Segmentation and genome annotation algorithms",
+  "authors": "Maxwell W Libbrecht; Rachel CW Chan; Michael M Hoffman",
+  "journal": "PLoS Comput Biol 17 (2021) e1009423",
+  "published_date": "2021-01-03",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 4,
+  "one_liner_zh": "综述基因组分割与注释算法，虽涉及转录因子结合数据，但核心是表观基因组聚类分割，缺乏蛋白质-DNA互作建模与AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Segmentation and genome annotation (SAGA) algorithms are widely used to understand genome activity and gene regulation. These algorithms take as input epigenomic datasets, such as chromatin immunoprecipitation-sequencing (ChIP-seq) measurements of histone modifications or transcription factor binding. They partition the genome and assign a label to each segment such that positions with the same label exhibit similar patterns of input data. SAGA algorithms discover categories of activity such as promoters, enhancers, or parts of genes without prior knowledge of known genomic elements. In this sense, they generally act in an unsupervised fashion like clustering algorithms, but with the additional simultaneous function of segmenting the genome. Here, we review the common methodological framework that underlies these methods, review variants of and improvements upon this basic framework, catalogue existing large-scale reference annotations, and discuss the outlook for future work.",
+  "abstract_zh": "分割与基因组注释（SAGA）算法被广泛用于理解基因组活性和基因调控。这些算法以表观基因组数据集为输入，例如组蛋白修饰或转录因子结合的染色质免疫沉淀测序（ChIP-seq）测量。它们将基因组分割，并为每个片段分配一个标签，使得具有相同标签的位置展现出相似的输入数据模式。SAGA算法无需已知基因组元件的先验知识，即可发现诸如启动子、增强子或基因部分等活性类别。在此意义上，它们通常以无监督方式运作，类似于聚类算法，但额外同时具备基因组分割的功能。在此，我们回顾了这些方法所依据的通用方法论框架，探讨了该基本框架的变体及其改进，整理了现有的大规模参考注释，并讨论了未来工作的前景。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2101.00688v1",
+  "source_url": "https://arxiv.org/abs/2101.00688v1",
+  "paper_page_path": "papers/arxiv/2101.00688v1/index.html"
+}

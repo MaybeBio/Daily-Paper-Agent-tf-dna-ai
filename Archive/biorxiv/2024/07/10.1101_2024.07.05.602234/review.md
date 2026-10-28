@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supplementary information description)
+- **Assessment boundary** Scientific validity of the claims as presented in the provided text; no external data or figures were available for independent verification
+- **Shared manuscript claim summary** The authors report the first structural characterization of the Myb domain (residues 550–732) of mouse Transcription Termination Factor 1 (TTF1), combining in silico modelling (AlphaFold, SWISS-MODEL, Robetta, I-TASSER), 200 ns triplicate MD simulations, and experimental validation via CD and Raman spectroscopy, concluding the domain is predominantly alpha-helical and capable of DNA binding on its own.
+- **Visible evidence base** Text descriptions of methods and results; tables and figures referenced but not provided; supplementary material referenced but not provided
+- **Missing materials affecting confidence** All figures, tables, supplementary files, raw spectra, MD trajectory data, EMSA gel images, DLS data, and sequence alignment files are referenced but not included in the supplied material
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap, namely the absence of structural information for the TTF1 Myb domain, and the combination of computational and experimental approaches is appropriate in principle. However, the evidence as presented is insufficient to support the central claims. Key data are referenced but not shown, quantitative validation metrics are incomplete, and the experimental sections lack critical controls and statistical detail. The conclusion that the domain is "predominantly alpha-helical" and "able to bind DNA" may be correct, but the current manuscript does not establish this from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying RNA polymerase I transcription termination, DNA-binding proteins with Myb/SANT domains, and structural biologists interested in the TTF1 family. The work could also be of interest to groups working on computational and biophysical validation of protein models, as it presents a workflow combining ab initio modelling, MD simulation, and spectroscopic validation.
+- **Major strengths** The study addresses a clear gap in the field, as no structure of the TTF1 Myb domain exists. The use of multiple modelling approaches and two independent spectroscopic techniques is a reasonable strategy. The authors are transparent about the failure to purify full-length TTF1 and justify their focus on the isolated domain. The MD simulation design, including triplicate runs and explicit solvent, is methodologically sound in principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that the Robetta model was selected for further analysis based on superior quality, and that the model is validated by MD simulation and spectroscopic data.
+  - **Evidence pointer** Results sections 2 and 3; Table 2; Figures 3, 4, 5, 6; location not provided
+  - **Concern** The manuscript states that the Robetta model was selected for further analysis, but the comparative quality assessment across all four models is not presented in the text. Table 2 is referenced but not provided, so the reader cannot evaluate the Ramachandran statistics, ERRAT scores, or VERIFY3D results. The claim that Robetta is superior to AlphaFold, SWISS-MODEL, and I-TASSER is therefore not verifiable from the supplied material.
+  - **Why it matters** The selection of the Robetta model is a pivotal decision that underpins all subsequent MD and spectroscopic validation. Without transparent comparative metrics, the reader cannot assess whether this choice is justified or whether the conclusions are model-dependent.
+  - **Resolution test** Provide Table 2 and Figure 3 in full, including all validation metrics for each model, and explicitly state the criteria used to select the Robetta model over the others.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that CD and Raman spectroscopy confirm the domain is predominantly alpha-helical, with approximately 65% alpha helices and 35% random coils.
+  - **Evidence pointer** Results sections 6 and 7; Figures 10, 11, 12; location not provided
+  - **Concern** The CD and Raman spectra are described but not shown. The deconvolution method for the CD data is not specified, and the fitting procedure for the Raman amide I band is described only qualitatively. No error bars, standard deviations, or replicate information are provided for the reported percentages. The claim of 65% alpha helix is presented as a single value without uncertainty.
+  - **Why it matters** The central conclusion of the paper, that the domain is predominantly alpha-helical, rests entirely on these spectroscopic measurements. Without the raw spectra, fitting details, and statistical treatment, the claim cannot be independently assessed.
+  - **Resolution test** Provide the raw CD and Raman spectra, specify the deconvolution software and algorithm used, report the fit quality and residuals, and include replicate measurements with standard deviations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The authors claim that the Myb domain alone is sufficient for DNA binding, based on the EMSA results.
+  - **Evidence pointer** Results section 5; Figure 9; location not provided
+  - **Concern** The EMSA is described in a single sentence, and the gel image is not provided. No negative controls (e.g., a non-DNA-binding protein or a mutated Myb domain) are described. The stoichiometry of the binding is not quantified, and no dissociation constant or binding affinity is reported. The claim that the domain "alone is sufficient" requires a demonstration of specific, saturable binding.
+  - **Why it matters** The functional claim is a key part of the paper's significance. Without a shown gel, controls, and quantitative binding data, the claim that the isolated domain retains DNA-binding activity is not established.
+  - **Resolution test** Provide the EMSA gel image, include negative and competition controls, and report quantitative binding data such as a dissociation constant or at least a clear concentration-dependent shift.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** MD simulation analysis
+  - **Claim pointer** The authors claim that MD simulation demonstrates the stability of the Robetta model over 200 ns in triplicate.
+  - **Evidence pointer** Results section 3; Figures 5, 6, 7; Supplementary Figure S2; location not provided
+  - **Concern** The RMSD, RMSF, SASA, and RoG values are reported as ranges, but the figures are not provided. The free energy landscape analysis is described, but the convergence of the three runs is not quantitatively assessed. The third run shows deviations in RMSF, RoG, and contact maps, yet the authors conclude the structure is stable "with high accuracy." This discrepancy is not adequately explained.
+  - **Why it matters** The MD simulation is the primary evidence for the dynamic stability of the model. If the third run deviates significantly, the conclusion of stability is weakened, and the authors need to address whether this reflects genuine conformational flexibility or insufficient sampling.
+  - **Resolution test** Provide the MD figures, quantify the convergence between runs (e.g., RMSD between runs, block averaging), and discuss the implications of the third run's deviations for the stability conclusion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "no physical structure available to date" but does not clarify whether this refers to the full-length protein or the Myb domain specifically. The introduction later clarifies this, but the abstract is ambiguous.
+  - **Required correction** Specify in the abstract that no structure is available for the Myb domain or the full-length protein, as appropriate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methods section 2
+  - **Evidence pointer** Methods section 2, location not provided
+  - **Issue** The template search using BLASTp reports 27% sequence identity, which is described as within the "twilight zone." However, the authors do not state which template was used for SWISS-MODEL beyond mentioning Reb1 (PDB ID 5EYB). The alignment coverage and the specific residues modelled are not described.
+  - **Required correction** Provide the template details, alignment coverage, and the residue range modelled for each server.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section 4
+  - **Evidence pointer** Results section 4; Figure 8; location not provided
+  - **Issue** The purification section states that protein purity was confirmed by SDS-PAGE and homogeneity by DLS, but the DLS data are described as "not shown here." This is a key quality metric for a biophysical study.
+  - **Required correction** Include the DLS data or remove the claim of monodispersity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion mentions that the Myb domain shows homology to Reb1 and c-Myb, but does not compare the predicted structure to the known structures of these homologues beyond a single RMSD value. A more detailed structural comparison would strengthen the paper.
+  - **Required correction** Add a structural comparison of the predicted model with the known Reb1 or c-Myb DNA-binding domains, including a discussion of conserved and divergent features.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section 3
+  - **Evidence pointer** Results section 3, location not provided
+  - **Issue** The term "free energy landscape" is used, but the authors do not specify the collective variables used to construct it. This makes the analysis difficult to interpret.
+  - **Required correction** Specify the reaction coordinates or collective variables used for the free energy landscape construction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model selection criteria not shown), R1-M2 (spectroscopic data not shown, no statistical treatment), R1-M3 (EMSA data not shown, no controls or quantification), R1-M4 (MD convergence not quantitatively assessed)
+- **Assessment against Nature-style criteria** Originality: The work addresses a gap, but the claim of being "first" is not placed in sufficient context. Scientific importance: Moderate, as the structure of a DNA-binding domain of an essential protein is of interest, but the impact is limited by the lack of atomic resolution data. Interdisciplinary readership: The work could appeal to structural biologists, biochemists, and computational biologists, but the presentation is not sufficiently accessible to nonspecialists. Technical soundness: Not established from the provided evidence, as key data are missing and methods are incompletely described. Readability for nonspecialists: The manuscript is generally readable, but the results section relies heavily on referenced figures and tables that are not provided, making it difficult to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims cannot be verified without the missing figures, tables, and methodological details. The authors should be invited to resubmit with complete data and a revised presentation.
+
+## Risk / unsupported claims
+- The claim that the Robetta model is superior to other models is unsupported without Table 2 and Figure 3.
+- The claim that the domain is approximately 65% alpha-helical is unsupported without raw CD and Raman spectra and deconvolution details.
+- The claim that the Myb domain alone is sufficient for DNA binding is unsupported without the EMSA gel and controls.
+- The claim that the MD simulation demonstrates stability "with high accuracy" is weakened by the deviations in the third run and the lack of convergence analysis.
+- The claim of being the "first ever study" to report a complete in silico model of the Myb domain is not verifiable from the provided text, as no literature search or comparative statement is presented.

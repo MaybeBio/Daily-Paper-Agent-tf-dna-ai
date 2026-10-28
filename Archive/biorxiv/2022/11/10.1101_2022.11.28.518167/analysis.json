@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.28.518167",
+  "title": "T-cell receptor specific protein language model for prediction and interpretation of epitope binding (ProtLM.TCR)",
+  "authors": "Ahmed Essaghir; Nanda Kumar Sathiyamoorthy; Paul Smyth; Adrian Postelnicu; Stefan Ghiviriga; Alexandru Ghita; Anjana Singh; Shruti Kapil; Sanjay Phogat; Gurpreet Singh",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-29",
+  "window": {
+    "start": "2022-11-28",
+    "end": "2022-12-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用TCR蛋白语言模型预测TCR-表位结合，对象为蛋白-肽互作而非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法上语言模型可迁移，故评分低。",
+  "abstract": "The cellular adaptive immune response relies on epitope recognition by T-cell receptors (TCRs). We used a language model for TCRs (ProtLM.TCR) to predict TCR-epitope binding. This model was pre-trained on a large set of TCR sequences (~62.10 6 ) before being fine-tuned to predict TCR-epitope bindings across multiple human leukocyte antigen (HLA) of class-I types. We then tested ProtLM.TCR on a balanced set of binders and non-binders for each epitope, avoiding model shortcuts like HLA categories. We compared pan-HLA versus HLA-specific models, and our results show that while computational prediction of novel TCR-epitope binding probability is feasible, more epitopes and diverse training datasets are required to achieve a better generalized performances in de novo epitope binding prediction tasks. We also show that ProtLM.TCR embeddings outperform BLOSUM scores and hand-crafted embeddings. Finally, we have used the LIME framework to examine the interpretability of these predictions.",
+  "abstract_zh": "细胞适应性免疫应答依赖于T细胞受体（TCRs）对表位的识别。我们利用一种针对TCR的语言模型（ProtLM.TCR）来预测TCR-表位结合。该模型在大量TCR序列（约62.10^6）上进行了预训练，随后针对多个I类人类白细胞抗原（HLA）类型进行了微调，以预测TCR-表位结合。接着，我们在每个表位的平衡结合子与非结合子集合上测试了ProtLM.TCR，避免了如HLA类别等模型捷径。我们比较了泛HLA与HLA特异性模型，结果表明，尽管计算预测新型TCR-表位结合概率是可行的，但需要更多的表位和多样化的训练数据集，以在从头表位结合预测任务中实现更好的泛化性能。我们还展示了ProtLM.TCR嵌入优于BLOSUM评分和手工制作的嵌入。最后，我们利用LIME框架检验了这些预测的可解释性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.28.518167",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.28.518167",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.28.518167/index.html"
+}

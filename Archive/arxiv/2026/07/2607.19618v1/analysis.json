@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2607.19618v1",
+  "title": "Causal dictionary learning reveals and validates transcription-factor binding features in genomic language models",
+  "authors": "Sarwan Ali",
+  "journal": "",
+  "published_date": "2026-07-21",
+  "window": {
+    "start": "2026-07-20",
+    "end": "2026-07-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用稀疏字典学习与因果干预解析基因组语言模型中转录因子结合特征，聚焦TF-DNA结合位点表征与验证，方法为AI可解释性，高度契合本课题。",
+  "abstract": "Genomic language models achieve strong performance across regulatory-genomics tasks, yet what these models internally represent remains opaque, and the field lacks a principled procedure for verifying that an apparent ``concept'' inside a model is real rather than an artifact of sequence composition. We introduce a framework that combines sparse dictionary learning with causal intervention to extract, validate, and causally test interpretable features in genomic foundation models. Training top-$k$ sparse autoencoders on the hidden activations of two architecturally distinct models, Nucleotide Transformer ($6$-mer tokenization) and DNABERT-2 (byte-pair encoding), we recover thousands of monosemantic features that map to transcription-factor (TF) sequence motifs. We show that the naive validation of such features against position weight matrices is severely confounded by GC composition and repetitive elements, producing hundreds of spurious ``TF features'', and we develop a composition-matched, binding-resolved protocol that removes these confounds. Critically, we move beyond correlation: by ablating individual dictionary directions during the model's forward pass and measuring the induced shift in the model's own predictive distribution, we establish that specific features are \\emph{causally} used to represent cell-type-specific TF binding, not merely motif presence. Across three transcription factors (CTCF, GATA1, REST) and both architectures, causally validated binding features emerge reproducibly ($7$--$14$ of $15$ tested features per condition), while two classes of negative control, scrambled binding labels and randomly selected features, yield no detectable signal. The framework is purely computational, uses only public data, and provides a reusable standard for interpretability claims in genomic deep learning.",
+  "abstract_zh": "基因组语言模型在调控基因组学任务中表现出色，然而这些模型内部所表征的内容仍不透明，且该领域缺乏一种原则性程序来验证模型内看似存在的“概念”是真实的，而非序列组成的伪影。我们引入了一个框架，将稀疏字典学习与因果干预相结合，以提取、验证并对基因组基础模型中的可解释特征进行因果测试。在两种架构不同的模型——Nucleotide Transformer（6-mer分词）和DNABERT-2（字节对编码）——的隐藏激活上训练top-$k$稀疏自编码器，我们恢复了数千个映射到转录因子（TF）序列基序的单语义特征。我们表明，针对位置权重矩阵对这些特征的朴素验证严重受GC组成和重复元件混淆，产生数百个虚假的“TF特征”，并开发了一种组成匹配、结合位点解析的协议来消除这些混淆。关键的是，我们超越了相关性：通过在模型前向传播过程中消融单个字典方向，并测量模型自身预测分布中引起的偏移，我们确定特定特征被\\emph{因果地}用于表征细胞类型特异性的TF结合，而不仅仅是基序存在性。在三种转录因子（CTCF、GATA1、REST）及两种架构中，因果验证的结合特征可重复出现（每种条件下15个测试特征中有7至14个），而两类阴性对照——打乱的结合标签和随机选择的特征——未产生可检测信号。该框架纯计算性，仅使用公共数据，并为基因组深度学习中的可解释性声明提供了可复用的标准。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2607.19618v1",
+  "source_url": "https://arxiv.org/abs/2607.19618v1",
+  "paper_page_path": "papers/arxiv/2607.19618v1/index.html"
+}

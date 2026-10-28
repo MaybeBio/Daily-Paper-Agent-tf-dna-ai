@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37401370",
+  "title": "An interpretable block-attention network for identifying regulatory feature interactions.",
+  "authors": "Prakash, Anil; Banerjee, Moinak",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-07-04",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出可解释的块自注意力网络ISANREG，通过注意力归因分数预测转录因子结合基序实例和DNA介导的TF-TF互作，核心聚焦TF-DNA结合位点识别与互作建模，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "The importance of regulatory features in health and disease is increasing, making it crucial to identify the hallmarks of these features. Self-attention networks (SAN) have given rise to numerous models for the prediction of complex phenomena. But the potential of SANs in biological models was limited because of high memory requirement proportional to input token length and lack of interpretability of self-attention scores. To overcome these constraints, we propose a deep learning model named Interpretable Self-Attention Network for REGulatory interactions (ISANREG) that combines both block self-attention and attention-attribution mechanisms. This model predicts transcription factor-bound motif instances and DNA-mediated TF-TF interactions using self-attention attribution scores derived from the network, overcoming the limitations of previous deep learning models. ISANREG will serve as a framework for other biological models in interpreting the contribution of the input with single-nucleotide resolution.",
+  "abstract_zh": "调控特征在健康和疾病中的重要性日益增加，因此识别这些特征的关键标志变得至关重要。自注意力网络（SAN）催生了许多用于预测复杂现象的模型。然而，由于自注意力网络对输入标记长度的内存需求高且自注意力分数缺乏可解释性，其在生物模型中的潜力受到限制。为克服这些限制，我们提出了一种名为可解释自注意力网络用于调控相互作用（ISANREG）的深度学习模型，该模型结合了块自注意力和注意力归因机制。该模型利用从网络中获得的自注意力归因分数预测转录因子结合基序实例及DNA介导的TF-TF相互作用，从而克服了以往深度学习模型的局限性。ISANREG将作为其他生物模型的框架，以单核苷酸分辨率解释输入的贡献。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37401370/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37401370/",
+  "paper_page_path": "papers/pubmed/37401370/index.html"
+}

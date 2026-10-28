@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39909391",
+  "title": "ZFP-CanPred: Predicting the effect of mutations in zinc-finger proteins in cancers using protein language models.",
+  "authors": "Phogat, Amit; Krishnan, Sowmya Ramaswamy; Pandey, Medha; Gromiha, M Michael",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2025-02-06",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用蛋白语言模型预测锌指转录因子突变对癌症驱动性的影响，聚焦TF-DNA互作相关突变效应，方法可迁移至TF-DNA结合位点预测与互作建模。",
+  "abstract": "Zinc-finger proteins (ZNFs) constitute the largest family of transcription factors and play crucial roles in various cellular processes. Missense mutations in ZNFs significantly alter protein-DNA interactions, potentially leading to the development of various types of cancers. This study presents ZFP-CanPred, a novel deep learning-based model for predicting cancer-associated driver mutations in ZNFs. The representations derived from protein language models (PLMs) from the structural neighbourhood of mutated sites were utilized to train ZFP-CanPred for differentiating between cancer-causing and neutral mutations. ZFP-CanPred, achieved a superior performance with an accuracy of 0.72, F1-score of 0.79, and area under the Receiver Operating Characteristics (ROC) Curve (AUC) of 0.74, on an independent test set. In a comparative analysis against 11 existing prediction tools using a curated dataset of 331 mutations, ZFP-CanPred demonstrated the highest AU-ROC of 0.74, outperforming both generic and cancer-specific methods. The model's balanced performance across specificity and sensitivity addresses a significant limitation of current methodologies. The source code and other related files are available on GitHub at https://github.com/amitphogat/ZFP-CanPred.git. We envisage that the present study contributes to understand the oncogenic processes and developing targeted therapeutic strategies.",
+  "abstract_zh": "锌指蛋白（ZNFs）构成最大的转录因子家族，并在多种细胞过程中发挥关键作用。ZNFs中的错义突变显著改变蛋白质-DNA相互作用，可能促进多种类型癌症的发展。本研究提出了ZFP-CanPred，一种基于深度学习的新型模型，用于预测ZNFs中与癌症相关的驱动突变。利用从突变位点结构邻域提取的蛋白质语言模型（PLMs）表示来训练ZFP-CanPred，以区分致癌突变和中性突变。在独立测试集上，ZFP-CanPred表现出优越性能，准确率为0.72，F1分数为0.79，受试者工作特征曲线下面积（AUC）为0.74。在与11种现有预测工具使用包含331个突变的精选数据集进行的比较分析中，ZFP-CanPred展示了最高的AU-ROC值0.74，优于通用和癌症特异性方法。该模型在特异性和敏感性之间的平衡性能解决了当前方法的一个显著局限性。源代码及其他相关文件可在GitHub上获取，网址为https://github.com/amitphogat/ZFP-CanPred.git。我们预期本研究有助于理解致癌过程并开发靶向治疗策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39909391/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39909391/",
+  "paper_page_path": "papers/pubmed/39909391/index.html"
+}

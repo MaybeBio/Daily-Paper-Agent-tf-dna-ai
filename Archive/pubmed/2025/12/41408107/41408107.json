@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "41408107",
+    "doi": "10.1038/s41598-025-33001-x",
+    "title": "Celastrol suppresses bone destruction in rheumatoid arthritis by inhibiting ALOX5 expression in macrophages via the NF-kappaB pathway."
+  },
+  "content": {
+    "abstract": "Rheumatoid arthritis (RA) is a complex and highly disabling chronic autoimmune disease. As the disease progresses, patients often develop complications such as joint destruction and cardiovascular diseases, posing significant threats to human health. Celastrol, a major bioactive compound extracted from the traditional Chinese herb Tripterygium wilfordii Hook. f., exhibits potent immunomodulatory and anti-inflammatory properties. However, the specific mechanisms underlying its protective effects against bone destruction in RA remain poorly understood. To elucidate its potential therapeutic mechanisms, this study retrieved three gene expression datasets-GSE55235, GSE93777, and GSE200815-from the Gene Expression Omnibus (GEO) database. The primary molecular targets of celastrol were obtained from the HERB and TCMSP platforms. Functional mechanisms associated with these targets were explored using gene set variation analysis (GSVA) and weighted gene co-expression network analysis (WGCNA). Furthermore, molecular docking, immune infiltration analysis, and single-cell RNA sequencing analysis were employed to investigate the role of key target genes. In this study, thirteen potential target genes of celastrol in RA have been identified, including ADAMTS5, AGTR1, ALOX5, CTSB, MMP3, MMP9, MYC, TNF, ITGA4, ITGB7, MMP1, MMP13, and PPARG. Among these, ALOX5 was found to significantly promote MMP3 protein expression, based on which a regulatory model with high predictive power was constructed. GSVA analysis revealed that the TNF-NFkappaB pathway was significantly activated in RA and exhibited a strong positive correlation with ALOX5 expression. Further experimental analysis demonstrated that knockdown of ALOX5 and its shared transcription factor with MMP2 resulted in a significant downregulation of both genes and inhibition of TNF-NFkappaB pathway activity. Single-cell transcriptomic analysis showed that ALOX5 was predominantly expressed in macrophages, and the AddModuleScore of celastrol-targeted genes in this cell type was significantly higher than in other cell types, suggesting that macrophages may serve as key effector cells in celastrol-mediated treatment of RA. Celastrol might attenuate RA bone destruction by inhibiting the expression of the ALOX5 gene in macrophages, thereby suppressing the activation of the NF-kappaB pathway and subsequently reducing the production of matrix metalloproteinases.",
+    "keywords": [
+      "ALOX5",
+      "Bone destruction",
+      "Celastrol",
+      "NFkappaB",
+      "Rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "Pentacyclic Triterpenes/pharmacology",
+      "*Arthritis, Rheumatoid/drug therapy/pathology/metabolism/genetics",
+      "Humans",
+      "*NF-kappa B/metabolism",
+      "*Macrophages/metabolism/drug effects",
+      "*Arachidonate 5-Lipoxygenase/genetics/metabolism",
+      "Signal Transduction/drug effects",
+      "*Triterpenes/pharmacology",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation/drug effects",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, YiQing",
+        "Wang, Zihan",
+        "Chen, YanYu",
+        "Liu, XiaoJing",
+        "Liu, LongXiao",
+        "Tu, ZhiKun",
+        "Tao, Qingwen",
+        "Xu, Yuan"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Wang Z",
+        "Chen Y",
+        "Liu X",
+        "Liu L",
+        "Tu Z",
+        "Tao Q",
+        "Xu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China.",
+        "Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China.",
+        "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China.",
+        "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China.",
+        "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China.",
+        "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China.",
+        "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China. taoqg1@sina.com.",
+        "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China. xuyuan2004020@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, YiQing",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China.",
+          "Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zihan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, YanYu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, XiaoJing",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, LongXiao",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tu, ZhiKun",
+        "short_name": "Tu Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tao, Qingwen",
+        "short_name": "Tao Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China. taoqg1@sina.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Yuan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Integrative Medicine, Department of TCM Rheumatism, China-Japan Friendship Hospital, No. 2 Yinghua East Street, Chaoyang District, Beijing, People's Republic of China. xuyuan2004020@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Dec 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/18 01:31",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "42396440"
+    ],
+    "refs": [
+      "40266533",
+      "39862265",
+      "39470721",
+      "39417505",
+      "36416261",
+      "35969896",
+      "35705856",
+      "35396510",
+      "35055087",
+      "35008577",
+      "34912337",
+      "34147915",
+      "33340772",
+      "33330566",
+      "33175207",
+      "33130232",
+      "32965124",
+      "32864627",
+      "32801134",
+      "32402948",
+      "31530089",
+      "31441146",
+      "29958625",
+      "29326938",
+      "29158945",
+      "28494214",
+      "28228278",
+      "28052254",
+      "26476454",
+      "26025971",
+      "26008608",
+      "25822800",
+      "25529994",
+      "24217582",
+      "22150039",
+      "21402700",
+      "20457564",
+      "20080387",
+      "20066092",
+      "19687490",
+      "19046922",
+      "17645785",
+      "17570481",
+      "16936264",
+      "10592173",
+      "8717528"
+    ],
+    "similar": [
+      "41408107",
+      "23861949",
+      "40815986",
+      "40840618",
+      "39490433",
+      "38238321",
+      "34147915",
+      "38834626",
+      "36116150",
+      "38874810",
+      "31124139",
+      "40133025",
+      "25529994",
+      "17110449",
+      "40955790",
+      "26658436",
+      "34732120",
+      "32323812",
+      "23711145",
+      "40842169",
+      "40794372",
+      "22954486",
+      "40830133",
+      "40397030",
+      "40745443",
+      "32726313",
+      "39520962",
+      "40269643",
+      "40779825",
+      "39537223",
+      "40466361",
+      "34428765",
+      "30319603",
+      "39736250",
+      "39862265",
+      "32920591",
+      "27405485",
+      "22664142",
+      "28458159",
+      "38412254",
+      "23431370",
+      "40616946",
+      "34510370",
+      "30268831",
+      "39560902",
+      "38413973",
+      "35135448",
+      "24664372",
+      "26116162",
+      "24144813",
+      "31276975",
+      "39486110",
+      "39244174",
+      "38771826",
+      "31322192",
+      "41014672",
+      "39805785",
+      "35259711",
+      "30851708",
+      "30395883",
+      "31010320",
+      "22549786",
+      "36907478",
+      "32712089",
+      "39071814",
+      "24157922",
+      "23799016",
+      "30553912",
+      "35717785",
+      "38477771",
+      "40640294",
+      "38503010",
+      "38621927",
+      "37196541",
+      "23973526",
+      "38712874",
+      "26655743",
+      "41488645",
+      "40015541",
+      "37976692",
+      "32965124",
+      "39388897",
+      "41067324",
+      "31401534",
+      "38734936",
+      "20039418",
+      "18160842",
+      "40349405",
+      "41389887",
+      "29040966",
+      "37390648",
+      "32317187",
+      "40699912",
+      "39838477",
+      "38107658",
+      "39617708",
+      "40383172",
+      "38656728",
+      "33812006",
+      "40405278"
+    ],
+    "review": [
+      "41408107",
+      "32323812",
+      "40794372",
+      "40745443",
+      "39862265",
+      "27405485",
+      "39560902",
+      "37196541",
+      "40015541",
+      "41067324"
+    ],
+    "pmc": [
+      "12830925"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-33001-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41408107/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

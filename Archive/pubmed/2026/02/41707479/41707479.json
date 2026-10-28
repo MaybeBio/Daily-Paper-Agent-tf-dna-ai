@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "41707479",
+    "doi": "10.1016/j.breast.2026.104738",
+    "title": "Late distant recurrence prediction model in premenopausal women with ER-positive/HER 2-negative breast cancer: A multicenter retrospective study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Late distant recurrence (DR) remains a significant challenge in estrogen receptor (ER)-positive/Human Epidermal Growth Factor Receptor 2 (HER2)-negative breast cancer, especially in premenopausal patients. This study aimed to develop a machine-learning model predicting late DR risk in premenopausal patients and to assess the clinical benefit of extended endocrine therapy (ET) according to risk stratification. METHODS: This retrospective multicenter study included patients aged </=45 years with ER-positive/HER2-negative breast cancer who underwent surgery between January 2000 and December 2011. This study was designed as a landmark analysis, with the effective baseline set at 5 years after surgery. Eligible patients had five to 10 years of follow-up and received adjuvant ET for at least two years. The primary outcome was late DR, defined as distant metastasis occurring between five and 10 years after surgery. RESULTS: Among 1701 included patients (median age, 41 years), late DR occurred in 108 patients (6.3%). A machine-learning model using eight clinicopathologic variables demonstrated strong predictive performance (AUC = 0.78). Patients classified as high-risk by the model exhibited significantly worse late DMFS compared to low-risk patients (HR,7.36; 95% CI,4.43-12.20; P<0.001). Among high-risk patients, those who received extended ET had significantly improved late DMFS compared to those who did not (HR,0.32; 95% CI,0.18-0.55; P < 0.001). In low-risk patients, extended ET was not associated with a statistically significant benefit (HR,0.45; 95% CI,0.16-1.22; P = 0.081). CONCLUSION: The machine-learning model effectively stratified patients into distinct DR risk groups and highlighted the benefit of extended ET in high-risk patients. This model supports tailored decision-making regarding extended ET in premenopausal patients with ER-positive/HER2-negative breast cancer.",
+    "keywords": [
+      "Breast cancer",
+      "Extended endocrine therapy",
+      "Late distant recurrence",
+      "Machine-learning prediction model",
+      "Premenopausal"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Retrospective Studies",
+      "Premenopause",
+      "*Breast Neoplasms/pathology/drug therapy/therapy/metabolism/chemistry",
+      "Adult",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Receptors, Estrogen/metabolism",
+      "Predictive Learning Models",
+      "*Neoplasm Recurrence, Local",
+      "Risk Assessment/methods",
+      "*Antineoplastic Agents, Hormonal/therapeutic use",
+      "Machine Learning",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shin, Dong Seung",
+        "Lee, Janghee",
+        "Kang, Eunhye",
+        "Noh, Dasom",
+        "Cheun, Jong-Ho",
+        "Lee, Jun-Hee",
+        "Son, Yeongyeong",
+        "Bae, Soong June",
+        "Kwon, Sunyoung",
+        "Lee, Han-Byoel",
+        "Ryu, Jai Min",
+        "Ahn, Sung Gwe"
+      ],
+      "short_names": [
+        "Shin DS",
+        "Lee J",
+        "Kang E",
+        "Noh D",
+        "Cheun JH",
+        "Lee JH",
+        "Son Y",
+        "Bae SJ",
+        "Kwon S",
+        "Lee HB",
+        "Ryu JM",
+        "Ahn SG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Breast Surgery, Department of Surgery, Samsung Medical Center, Sungkyunkwan University of Medicine, Seoul, Republic of Korea.",
+        "Department of Surgery, Ewha Womans University Mokdong Hospital, Ewha Womans University College of Medicine, Seoul, Republic of Korea.",
+        "Department of Surgery, Seoul National University Hospital, Seoul National University College of Medicine, Seoul, Republic of Korea.",
+        "Department of Information Convergence Engineering, College of Information and Biomedical Engineering, Pusan National University, Busan, Republic of Korea.",
+        "Department of Surgery, Seoul Metropolitan Government-Seoul National University Boramae Medical Center, Seoul, Republic of Korea.",
+        "Department of Surgery, Soonchunhyang University College of Medicine, Soonchunhyang University Hospital, Seoul, Republic of Korea.",
+        "Department of Information Convergence Engineering, College of Information and Biomedical Engineering, Pusan National University, Busan, Republic of Korea.",
+        "Department of Surgery, Gangnam Severance Hospital, Yonsei University College of Medicine, Seoul, Republic of Korea.",
+        "Department of Information Convergence Engineering, College of Information and Biomedical Engineering, Pusan National University, Busan, Republic of Korea; School of Biomedical Convergence Engineering, College of Information and Biomedical Engineering, Pusan National University, Yangsan, Republic of Korea; Center for Artificial Intelligence Research, Pusan National University, Busan, Republic of Korea.",
+        "Department of Surgery, Seoul National University Hospital, Seoul National University College of Medicine, Seoul, Republic of Korea; Cancer Research Institute, Seoul National University, Seoul, Republic of Korea; Biomedical Research Institute, Seoul National University Hospital, Seoul, Republic of Korea. Electronic address: hblee.md@snu.ac.kr.",
+        "Division of Breast Surgery, Department of Surgery, Samsung Medical Center, Sungkyunkwan University of Medicine, Seoul, Republic of Korea. Electronic address: jaimin.ryu@samsung.com.",
+        "Department of Surgery, Gangnam Severance Hospital, Yonsei University College of Medicine, Seoul, Republic of Korea; Institute for Breast Cancer Precision Medicine, Gangnam Severance Hospital, Yonsei University College of Medicine, Seoul, Republic of Korea. Electronic address: asg2004@yuhs.ac."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shin, Dong Seung",
+        "short_name": "Shin DS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Breast Surgery, Department of Surgery, Samsung Medical Center, Sungkyunkwan University of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Janghee",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Ewha Womans University Mokdong Hospital, Ewha Womans University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Eunhye",
+        "short_name": "Kang E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Seoul National University Hospital, Seoul National University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Noh, Dasom",
+        "short_name": "Noh D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Convergence Engineering, College of Information and Biomedical Engineering, Pusan National University, Busan, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cheun, Jong-Ho",
+        "short_name": "Cheun JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Seoul Metropolitan Government-Seoul National University Boramae Medical Center, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jun-Hee",
+        "short_name": "Lee JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Soonchunhyang University College of Medicine, Soonchunhyang University Hospital, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Son, Yeongyeong",
+        "short_name": "Son Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Convergence Engineering, College of Information and Biomedical Engineering, Pusan National University, Busan, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Bae, Soong June",
+        "short_name": "Bae SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Gangnam Severance Hospital, Yonsei University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Sunyoung",
+        "short_name": "Kwon S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Convergence Engineering, College of Information and Biomedical Engineering, Pusan National University, Busan, Republic of Korea; School of Biomedical Convergence Engineering, College of Information and Biomedical Engineering, Pusan National University, Yangsan, Republic of Korea; Center for Artificial Intelligence Research, Pusan National University, Busan, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Han-Byoel",
+        "short_name": "Lee HB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Seoul National University Hospital, Seoul National University College of Medicine, Seoul, Republic of Korea; Cancer Research Institute, Seoul National University, Seoul, Republic of Korea; Biomedical Research Institute, Seoul National University Hospital, Seoul, Republic of Korea. Electronic address: hblee.md@snu.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Ryu, Jai Min",
+        "short_name": "Ryu JM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Breast Surgery, Department of Surgery, Samsung Medical Center, Sungkyunkwan University of Medicine, Seoul, Republic of Korea. Electronic address: jaimin.ryu@samsung.com."
+        ]
+      },
+      {
+        "full_name": "Ahn, Sung Gwe",
+        "short_name": "Ahn SG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Gangnam Severance Hospital, Yonsei University College of Medicine, Seoul, Republic of Korea; Institute for Breast Cancer Precision Medicine, Gangnam Severance Hospital, Yonsei University College of Medicine, Seoul, Republic of Korea. Electronic address: asg2004@yuhs.ac."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast (Edinburgh, Scotland)"
+    ],
+    "journal_abbrev": [
+      "Breast"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/19 01:35",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40783288",
+      "40043224",
+      "38131531",
+      "37533837",
+      "35294484",
+      "34239805",
+      "33222093",
+      "33109739",
+      "33033359",
+      "32703705",
+      "32361569",
+      "31504126",
+      "30559169",
+      "30367449",
+      "30088179",
+      "29863451",
+      "29676944",
+      "29117498",
+      "27480155",
+      "26686960",
+      "26467036",
+      "26092816",
+      "25422485",
+      "24157828",
+      "23897954",
+      "23690409",
+      "23219286",
+      "21790896",
+      "21555693",
+      "19574486",
+      "12351603"
+    ],
+    "similar": [
+      "41707479",
+      "38131531",
+      "41576515",
+      "32601800",
+      "39509133",
+      "39417907",
+      "41637793",
+      "41493657",
+      "24035531",
+      "42467849",
+      "41942928",
+      "42173037",
+      "41632146",
+      "38895891",
+      "40845255",
+      "41999978",
+      "41466313",
+      "41895875",
+      "33939116",
+      "37688665",
+      "38000091",
+      "26467036",
+      "42081244",
+      "39145953",
+      "39978378",
+      "41637791",
+      "32703705",
+      "40148997",
+      "24725534",
+      "33222093",
+      "24233999",
+      "42251269",
+      "33033359",
+      "41538747",
+      "41965577",
+      "22548922",
+      "30769227",
+      "29676944",
+      "32141074",
+      "41137194",
+      "31307414",
+      "40215443",
+      "31618131",
+      "26238437",
+      "42174618",
+      "41944956",
+      "41110701",
+      "31041683",
+      "30694768",
+      "41963835",
+      "41213110",
+      "41387082",
+      "41106018",
+      "26493064",
+      "40247248",
+      "40017004",
+      "41851603",
+      "42144406",
+      "29239836",
+      "41061345",
+      "39487260",
+      "29369732",
+      "29902286",
+      "31504126",
+      "32652112",
+      "31157962",
+      "41831466",
+      "42185928",
+      "41761166",
+      "42366088",
+      "32372329",
+      "39656627",
+      "31064782",
+      "42253110",
+      "33357231",
+      "23074401",
+      "39602456",
+      "39681104",
+      "42190396",
+      "34914339",
+      "42431160",
+      "23757354",
+      "40288025",
+      "27044936",
+      "42431147",
+      "28939745",
+      "23812955",
+      "41787605",
+      "37507257",
+      "27368476",
+      "38770648",
+      "41709333",
+      "34190995",
+      "33048129",
+      "16505417",
+      "38971641",
+      "40184873",
+      "41380230",
+      "29450494",
+      "40157276"
+    ],
+    "review": [
+      "41707479",
+      "32141074",
+      "42174618"
+    ],
+    "pmc": [
+      "12926605"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960-9776(26)00048-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41707479/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0960-9776(26)00048-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

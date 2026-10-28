@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "39310787",
+    "doi": "10.3389/fcimb.2024.1453529",
+    "title": "Combining network pharmacology, machine learning, molecular docking and molecular dynamic to explore the mechanism of Chufeng Qingpi decoction in treating schistosomiasis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although the Chufeng Qingpi Decoction (CQD) has demonstrated clinical effectiveness in the treatment of schistosomiasis, the precise active components and the underlying mechanisms of its therapeutic action remain elusive. To achieve a profound comprehension, we incorporate network pharmacology, bioinformatics analysis, molecular docking, and molecular dynamics simulations as investigative methodologies within our research framework. METHOD: Utilizing TCMSP and UniProt, we identified formula components and targets. Cytoscape 3.10.0 was used to construct an herb-target interaction network. Genecards, DisGeNET, and OMIM databases were examined for disease-related objectives. A Venn diagram identified the intersection of compound and disease targets. Using Draw Venn, overlapping targets populated STRING for PPI network. CytoNCA identified schistosomiasis treatment targets. GO & KEGG enrichment analysis followed High-scoring genes in PPI were analyzed by LASSO, RF, SVM-RFE. Molecular docking & simulations investigated target-compound interactions. RESULT: The component's target network encompassed 379 nodes, 1629 edges, highlighting compounds such as wogonin, kaempferol, luteolin, and quercetin. Amongst the proteins within the PPI network, PTGS2, TNF, TGFB1, BCL2, TP53, IL10, JUN, MMP2, IL1B, and MYC stood out as the most prevalent entities. GO and KEGG revealed that mainly involved the responses to UV, positive regulation of cell migration and motility. The signal pathways encompassed Pathways in cancer, Lipid and atherosclerosis, Fluid shear stress and atherosclerosis, as well as the AGE-RAGE. Bioinformatics analysis indicated TP53 was the core gene. Ultimately, the molecular docking revealed that wogonin, kaempferol, luteolin, and quercetin each exhibited significant affinity in their respective interactions with TP53. Notably, kaempferol exhibited the lowest binding energy, indicating a highly stable interaction with TP53. Lastly, we validated the stability of the binding interaction between the four small molecules and the TP53 through molecular dynamics simulations. The molecular dynamics simulation further validated the strongest binding between TP53 and kaempferol. In essence, our research groundbreaking in its nature elucidates for the first time the underlying molecular mechanism of CQD in the therapeutic management of schistosomiasis, thereby providing valuable insights and guidance for the treatment of this disease. CONCLUSION: This study uncovered the efficacious components and underlying molecular mechanisms of the Chufeng Qingpi Decoction in the management of schistosomiasis, thereby offering valuable insights for future fundamental research endeavors.",
+    "keywords": [
+      "Chufeng Qingpi decoction",
+      "machine learning",
+      "molecular docking",
+      "molecular dynamic simulation",
+      "network pharmacology",
+      "schistosomiasis"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Schistosomiasis/drug therapy",
+      "Humans",
+      "*Network Pharmacology",
+      "*Machine Learning",
+      "Computational Biology/methods",
+      "Protein Interaction Maps",
+      "Tumor Suppressor Protein p53/genetics/metabolism",
+      "Kaempferols/pharmacology",
+      "Quercetin/pharmacology",
+      "Flavanones"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Minglu",
+        "Wang, Yuxin",
+        "Deng, Wen",
+        "Xie, Jiahao",
+        "He, Yanyao",
+        "Wang, Liang",
+        "Zhang, Jianbin",
+        "Cui, Ming"
+      ],
+      "short_names": [
+        "Liu M",
+        "Wang Y",
+        "Deng W",
+        "Xie J",
+        "He Y",
+        "Wang L",
+        "Zhang J",
+        "Cui M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Emergency Department, The Second Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Research and Teaching Department of Comparative Medicine, Dalian Medical University, Dalian, Liaoning, China.",
+        "College of Pharmacy, Dalian Medical University, Dalian, Liaoning, China.",
+        "Emergency Department, The Second Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Research and Teaching Department of Comparative Medicine, Dalian Medical University, Dalian, Liaoning, China.",
+        "Research and Teaching Department of Comparative Medicine, Dalian Medical University, Dalian, Liaoning, China.",
+        "College of Pharmacy, Dalian Medical University, Dalian, Liaoning, China.",
+        "Emergency Department, The Second Hospital of Dalian Medical University, Dalian, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Minglu",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, The Second Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuxin",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Teaching Department of Comparative Medicine, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Wen",
+        "short_name": "Deng W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Jiahao",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, The Second Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "He, Yanyao",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Teaching Department of Comparative Medicine, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Teaching Department of Comparative Medicine, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianbin",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Ming",
+        "short_name": "Cui M",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, The Second Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cellular and infection microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Infect Microbiol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/23 12:46",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "42614515",
+      "42603281",
+      "42535626",
+      "42194035",
+      "42121872",
+      "42116642",
+      "42076289",
+      "42075901",
+      "41971081",
+      "41970029",
+      "41828365",
+      "41304898",
+      "41138691",
+      "40965058",
+      "40630680",
+      "40619665",
+      "40557290",
+      "40555906",
+      "40159570",
+      "40143189"
+    ],
+    "refs": [
+      "37943830",
+      "37904220",
+      "36706698",
+      "35911143",
+      "35898498",
+      "35654701",
+      "34958915",
+      "34586825",
+      "33790908",
+      "33626860",
+      "33361772",
+      "32924851",
+      "31680165",
+      "31487867",
+      "31477170",
+      "31297759",
+      "30781686",
+      "30023502",
+      "28654725",
+      "27924014",
+      "27899662",
+      "27899567",
+      "27322403",
+      "26620784",
+      "25434138",
+      "24955523",
+      "24698483",
+      "23407358",
+      "22140110",
+      "20582150",
+      "18856071",
+      "17113242",
+      "16862918",
+      "16308474",
+      "14631816",
+      "14597658",
+      "12471596"
+    ],
+    "similar": [
+      "39310787",
+      "35837376",
+      "37799727",
+      "37340752",
+      "39004032",
+      "33645094",
+      "34660782",
+      "35960089",
+      "37807411",
+      "39015338",
+      "38167125",
+      "37391801",
+      "35430443",
+      "34997010",
+      "38916485",
+      "39259113",
+      "37883761",
+      "38759074",
+      "35303581",
+      "39061044",
+      "39259129",
+      "34746316",
+      "39151530",
+      "37084637",
+      "36740793",
+      "36288951",
+      "37233418",
+      "37682164",
+      "38050220",
+      "37287284",
+      "39075002",
+      "38363936",
+      "37957903",
+      "37190808",
+      "36213575",
+      "37556042",
+      "35730236",
+      "38001230",
+      "37833363",
+      "35616676",
+      "39125368",
+      "38951468",
+      "36157206",
+      "34746302",
+      "37986389",
+      "35130311",
+      "38183673",
+      "33350196",
+      "36735641",
+      "38310567",
+      "37317908",
+      "34159207",
+      "38215128",
+      "38178684",
+      "37009506",
+      "38109076",
+      "38415453",
+      "38814227",
+      "33645093",
+      "35285205",
+      "35528155",
+      "33134394",
+      "36637916",
+      "39041101",
+      "38619514",
+      "38206683",
+      "33376732",
+      "37986321",
+      "33496116",
+      "35757473",
+      "34986125",
+      "39251712",
+      "38704482",
+      "35822313",
+      "37575231",
+      "35590353",
+      "37793334",
+      "39076092",
+      "35781817",
+      "33299870",
+      "38013344",
+      "36803762",
+      "34733451",
+      "36619785",
+      "34738438",
+      "39205203",
+      "35990823",
+      "36550856",
+      "38982082",
+      "37478256",
+      "36452059",
+      "39287271",
+      "34994141",
+      "34618179",
+      "37962044",
+      "36440359",
+      "37960775",
+      "38761877",
+      "38024534",
+      "36246566",
+      "33634308",
+      "38050247",
+      "38775721",
+      "39311772",
+      "39346898",
+      "38561549",
+      "37078344",
+      "39213234",
+      "39312335",
+      "37855353",
+      "37732603",
+      "39213214",
+      "39364246",
+      "39336138",
+      "39354431",
+      "38990083",
+      "39136516",
+      "38879763",
+      "39333622",
+      "38430176",
+      "39421869",
+      "39342122",
+      "38864249",
+      "39318778",
+      "39380772",
+      "39297880",
+      "39385284",
+      "39260206",
+      "38246999",
+      "38178669",
+      "37747012",
+      "39329977",
+      "39427127",
+      "37497415",
+      "39409084",
+      "39336159",
+      "39375410",
+      "38954070",
+      "39383544",
+      "39244135",
+      "39360308",
+      "39068565",
+      "39019365",
+      "39337647",
+      "39379677",
+      "39351010",
+      "39398618",
+      "39425858",
+      "39338358",
+      "39283177",
+      "39207263",
+      "37893129"
+    ],
+    "review": [
+      "39310787",
+      "35303581",
+      "38050220",
+      "38363936",
+      "36735641",
+      "38013344",
+      "39287271",
+      "37747012"
+    ],
+    "pmc": [
+      "11413488"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39310787/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcimb.2024.1453529",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

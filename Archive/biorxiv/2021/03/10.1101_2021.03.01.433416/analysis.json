@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.01.433416",
+  "title": "Polymer physics and machine learning reveal a combinatorial code linking chromatin 3D architecture to 1D epigenetics",
+  "authors": "Esposito A; Bianco S; Chiariello AM; Abraham A; Fiorillo L; Conte M; Campanile R; Nicodemi M",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-01",
+  "window": {
+    "start": "2021-03-01",
+    "end": "2021-03-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合机器学习与聚合物物理，从Hi-C数据推断染色质3D结构相关的DNA结合位点，虽涉及转录因子介导的DNA接触，但核心是染色质架构而非TF-DNA特异性结合机制，方法可迁移至TF-DNA互作建模。",
+  "abstract": "<h4>ABSTRACT</h4> The mammalian genome has a complex 3D organization, serving vital functional purposes, yet it remains largely unknown how the multitude of specific DNA contacts, e.g., between transcribed and regulatory regions, is orchestrated by chromatin organizers, such as Transcription Factors. Here, we implement a method combining machine learning and polymer physics to infer from only Hi-C data the genomic 1D arrangement of the minimal set of binding sites sufficient to recapitulate, through only physics, 3D contact patterns genome-wide in human and mouse cells. The inferred binding sites are validated by their predictions on how chromatin refolds in a set of duplications at the Sox9 locus against available independent cHi-C data, showing that their different phenotypes originate from distinct enhancer hijackings in their 3D structure. Albeit derived from only Hi-C, our binding sites fall in epigenetic classes that well match chromatin states from epigenetic segmentation studies, such as active, poised and repressed states. However, the inferred binding domains have an overlapping, combinatorial organization along chromosomes, missing in epigenetic segmentations, which is required to explain Hi-C contact specificity with high accuracy. In a reverse approach, the epigenetic profile of binding domains provides a code to derive from only epigenetic marks the DNA binding sites and, hence, the 3D architecture, as validated by successful predictions of Hi-C matrices in an independent set of chromosomes. Overall, our results shed light on how complex 3D architectural information is encrypted in 1D epigenetics via the related, combinatorial arrangement of specific binding sites along the genome.",
+  "abstract_zh": "<h4>摘要</h4> 哺乳动物基因组具有复杂的三维（3D）组织，承担着重要的功能作用，然而，大量特异性DNA接触（例如转录区域与调控区域之间的接触）如何由染色质组织者（如转录因子）协调，目前仍 largely 未知。在此，我们实现了一种结合机器学习和聚合物物理学的方法，仅从Hi-C数据推断基因组一维（1D）排列中最小结合位点集合，这些位点足以仅通过物理作用重现人类和小鼠细胞中全基因组的3D接触模式。推断出的结合位点通过其对Sox9位点一系列重复中染色质重折叠的预测得到验证，并与独立的cHi-C数据对比，显示不同表型源于其3D结构中不同的增强子劫持。尽管仅源自Hi-C数据，我们的结合位点落入的表观遗传类别与表观遗传分割研究中的染色质状态（如活跃、待定和抑制状态）高度匹配。然而，推断出的结合域沿染色体具有重叠、组合性组织，这在表观遗传分割中缺失，而这种组织对于高精度解释Hi-C接触特异性是必需的。在反向方法中，结合域的表观遗传谱提供了一种代码，仅从表观遗传标记即可推导DNA结合位点，进而推导3D结构，这通过独立染色体组中Hi-C矩阵的成功预测得到验证。总体而言，我们的结果揭示了复杂的3D结构信息如何通过基因组上特定结合位点的相关组合排列，加密于1D表观遗传中。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.01.433416",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.01.433416",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.01.433416/index.html"
+}

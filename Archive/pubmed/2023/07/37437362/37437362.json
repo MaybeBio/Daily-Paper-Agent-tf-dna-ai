@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "37437362",
+    "doi": "10.1016/j.compbiomed.2023.107241",
+    "title": "BiCaps-DBP: Predicting DNA-binding proteins from protein sequences using Bi-LSTM and a 1D-capsule network."
+  },
+  "content": {
+    "abstract": "Predicting DNA-binding proteins (DBPs) based solely on primary sequences is one of the most challenging problems in genome annotation. DBPs play a crucial role in various biological processes, including DNA replication, transcription, repair, and splicing. Some DBPs are essential in pharmaceutical research on various human cancers and autoimmune diseases. Existing experimental methods for identifying DBPs are time-consuming and costly. Therefore, developing a rapid and accurate computational technique is necessary to address the issue. This study introduces BiCaps-DBP, a deep learning-based method that improves DBP prediction performance by combining bidirectional long short-term memory with a 1D-capsule network. This study uses three training and independent datasets to evaluate the proposed model's generalizability and robustness. Based on three independent datasets, BiCaps-DBP achieved 1.05%, 5.79% and 0.40% higher accuracies than an existing predictor for PDB2272, PDB186 and PDB20000, respectively. These outcomes indicate that the proposed method is a promising DBP predictor.",
+    "keywords": [
+      "Bi-LSTM",
+      "Capsule network",
+      "DNA-Binding proteins",
+      "One-hot encoding"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Amino Acid Sequence",
+      "*Genome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mursalim, Muhammad K N",
+        "Mengko, Tati L E R",
+        "Hertadi, Rukman",
+        "Purwarianti, Ayu",
+        "Susanty, Meredita"
+      ],
+      "short_names": [
+        "Mursalim MKN",
+        "Mengko TLER",
+        "Hertadi R",
+        "Purwarianti A",
+        "Susanty M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Electrical Engineering and Informatics, Bandung Institute of Technology, Bandung, 40132, Indonesia; Department of Informatics Engineering, Universal University, Batam, Indonesia.",
+        "School of Electrical Engineering and Informatics, Bandung Institute of Technology, Bandung, 40132, Indonesia. Electronic address: tati.latifa.e.rajab@gmail.com.",
+        "Faculty of Mathematics and Natural Sciences, Bandung Institute of Technology, Bandung, 40132, Indonesia.",
+        "School of Electrical Engineering and Informatics, Bandung Institute of Technology, Bandung, 40132, Indonesia; Center for Artificial Intelligence (U-CoE AI-VLB), Bandung Institute of Technology, Bandung, 40132, Indonesia.",
+        "School of Electrical Engineering and Informatics, Bandung Institute of Technology, Bandung, 40132, Indonesia; Department of Computer Science, Pertamina University, Jakarta, Indonesia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mursalim, Muhammad K N",
+        "short_name": "Mursalim MKN",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering and Informatics, Bandung Institute of Technology, Bandung, 40132, Indonesia; Department of Informatics Engineering, Universal University, Batam, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Mengko, Tati L E R",
+        "short_name": "Mengko TLER",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering and Informatics, Bandung Institute of Technology, Bandung, 40132, Indonesia. Electronic address: tati.latifa.e.rajab@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Hertadi, Rukman",
+        "short_name": "Hertadi R",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Mathematics and Natural Sciences, Bandung Institute of Technology, Bandung, 40132, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Purwarianti, Ayu",
+        "short_name": "Purwarianti A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering and Informatics, Bandung Institute of Technology, Bandung, 40132, Indonesia; Center for Artificial Intelligence (U-CoE AI-VLB), Bandung Institute of Technology, Bandung, 40132, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Susanty, Meredita",
+        "short_name": "Susanty M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering and Informatics, Bandung Institute of Technology, Bandung, 40132, Indonesia; Department of Computer Science, Pertamina University, Jakarta, Indonesia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/12 19:07",
+    "fetched_at": "2026-09-29 03:45:28"
+  },
+  "links": {
+    "cites": [
+      "41184947",
+      "40448683",
+      "39977395"
+    ],
+    "refs": [],
+    "similar": [
+      "37437362",
+      "35378437",
+      "36719781",
+      "31722485",
+      "38856168",
+      "33986992",
+      "38986796",
+      "34073774",
+      "38903752",
+      "38316843",
+      "34291709",
+      "32920048",
+      "32689927",
+      "32352006",
+      "31123959",
+      "35389869",
+      "35334314",
+      "30032213",
+      "34832994",
+      "35521556",
+      "29186632",
+      "36416116",
+      "27565741",
+      "35731758",
+      "35154264",
+      "33780341",
+      "30040656",
+      "32300371",
+      "39270885",
+      "34932484",
+      "31267738",
+      "36299898",
+      "35985223",
+      "35447463",
+      "29287069",
+      "36211019",
+      "31725778",
+      "36560938",
+      "30071670",
+      "37430865",
+      "35693256",
+      "35801442",
+      "1831456",
+      "34118670",
+      "36044786",
+      "35248805",
+      "33980138",
+      "38349057",
+      "32501689",
+      "2296078",
+      "34058979",
+      "35148267",
+      "36552906",
+      "33238837",
+      "3279700",
+      "35883552",
+      "33410688",
+      "37060772",
+      "27461729",
+      "35465187",
+      "34283153",
+      "35303216",
+      "34176069",
+      "36910218",
+      "34743286",
+      "30021530",
+      "28841194",
+      "31228283",
+      "28011771",
+      "35676633",
+      "36403092",
+      "34601431",
+      "27740495",
+      "36087888",
+      "2644280",
+      "34812044",
+      "36099675",
+      "32608476",
+      "37790440",
+      "35477057",
+      "37328639",
+      "34445760",
+      "35652477",
+      "9525636",
+      "33988840",
+      "33143605",
+      "36650801",
+      "32960766",
+      "35254132",
+      "33983382",
+      "36860882",
+      "36399979",
+      "2318838"
+    ],
+    "review": [
+      "37437362",
+      "35154264"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(23)00706-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(23)00706-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, funding) as provided in the submission.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors present ECHO, a graph-based deep learning model that integrates 200-bp Micro-C contact maps with DNA sequence information to predict 2,583 chromatin features (TF binding, histone modifications, DNase hypersensitivity). They report improved prediction accuracy over sequence-only baselines, characterize the influence of contact distance on prediction, and use gradient-based attribution to identify TF motifs, collaborative TF binding, and important sequence patterns in 3D genomic neighborhoods.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only, no figures or tables included), Discussion, Methods (model description, training, attribution), Data availability, Funding.
+- **Missing materials affecting confidence** All figures (Figure 1-6), supplementary figures (S1-S7), supplementary tables (S1-S3), and the website with attribution results were not provided. These are essential for verifying quantitative claims, statistical tests, and biological interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important gap in computational genomics by incorporating 3D chromatin organization into deep learning models for chromatin feature prediction. The core idea is timely and the reported improvements are potentially significant. However, the absence of all figures, tables, and supplementary materials prevents verification of the central claims. The methodological description is incomplete in key areas, particularly regarding the graph construction, sampling strategy, and attribution validation. The biological interpretations, while plausible, rely on examples that cannot be examined. The manuscript is not yet suitable for publication without access to the full evidence base and resolution of several technical concerns.
+- **Who would be interested in the results, and why** Computational biologists developing deep learning models for regulatory genomics; experimentalists studying transcription factor cooperativity and 3D genome organization; researchers interested in interpretable AI for biological sequence analysis. The model's ability to leverage chromatin contacts for improved prediction and to recover known TF interactions would be of broad interest to the gene regulation community.
+- **Major strengths** 1) The problem is well-motivated: sequence-only models ignore the known importance of 3D chromatin structure in gene regulation. 2) The use of high-resolution Micro-C data (200-bp) is a significant advance over coarser Hi-C based approaches. 3) The attribution framework that jointly considers sequence and contact contributions is a thoughtful approach to model interpretability. 4) The finding that contact distance differentially affects prediction across chromatin feature types is a novel and potentially important observation. 5) The model architecture, using graph-to-grid transformation for convolution, is a reasonable and potentially scalable design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims ECHO predicts 2,583 chromatin features with average AUROC 0.921 and AUPR 0.378, significantly higher than baselines (DeepCNN, DeepSEA, DanQ).
+  - **Evidence pointer** Results section, Figure 1b, Figure 1c, Figure S1, Table S2, Table S3, Figure S2
+  - **Concern** The central quantitative claims of the paper cannot be verified because Figure 1, Figure S1, Table S2, Table S3, and Figure S2 are not provided. The reported p-values (e.g., 6.73E-97) and effect sizes cannot be checked. Additionally, the comparison methodology is not fully described: it is unclear whether the same train/validation/test splits were used for all models, how hyperparameters were selected for baselines, and whether statistical significance was computed with appropriate multiple testing corrections across 2,583 features.
+  - **Why it matters** The primary contribution of the paper is the claimed improvement in prediction accuracy. Without the actual performance curves, distributions, and statistical details, the reader cannot assess whether the improvement is real, consistent, or practically meaningful. This is the foundation upon which all subsequent analyses rest.
+  - **Resolution test** Provide all performance figures and tables. Describe the exact evaluation protocol, including data splits, hyperparameter tuning, and statistical testing. Show per-category and per-feature performance distributions, not just averages.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The Methods state that ECHO samples a fixed number of neighbors based on contact strength, and that the graph is transformed to a grid for convolution. The model uses 50 spatial and 10 sequential neighbors per sequence.
+  - **Evidence pointer** Methods, Model Description, Algorithm 1, Figure 1a
+  - **Concern** The description of the graph construction and sampling is incomplete. It is not specified how the contact threshold τ is chosen, how the "top" neighbors are selected (by raw contact count, normalized count, or other), and whether the sampling is deterministic or stochastic. The handling of nodes with fewer than the required number of neighbors (dummy sequences) is mentioned but the potential bias introduced by this padding is not discussed. The architecture of the graph layers (number of layers, kernel sizes, activation functions) is not fully specified. Algorithm 1 is referenced but not provided.
+  - **Why it matters** Reproducibility is a core requirement for computational papers. Without a complete specification of the model architecture and training procedure, other researchers cannot implement or build upon ECHO. The choice of sampling strategy directly affects what information the model sees and thus the validity of the attribution analyses.
+  - **Resolution test** Provide a complete description of the model architecture, including all hyperparameters, layer dimensions, and the exact sampling algorithm. Include Algorithm 1 in the main text or supplement. Discuss the choice of τ and the number of neighbors, and analyze the sensitivity of results to these choices.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of interpretability
+  - **Claim pointer** The paper claims that attribution scores on sequences identify known TF motifs, recover collaborative TF binding, and reveal important sequence patterns in neighborhoods. Specific examples include CTCF, SMAD5, FOS:JUN, ZBTB3, and NFYA.
+  - **Evidence pointer** Results sections on attribution, Figure 4, Figure 5, Figure 6, Figure S5, Figure S6, Figure S7
+  - **Concern** The validation of the attribution method is not described in sufficient detail. For the claim that high-attribution regions match known motifs, it is unclear how the comparison was performed (e.g., motif scanning tool, significance threshold, background model). The claim that ECHO recovers collaborative TF binding is based on a single example (CTCF-CTCF interactions) and a candidate enhancer-promoter interaction, but no systematic evaluation is presented. The identification of ZBTB3, a TF not in the training labels, is interesting but presented as a single anecdote. The comparison with DeepCNN attributions is mentioned but not shown.
+  - **Why it matters** Interpretability is a major selling point of the paper. If the attribution method is not rigorously validated, the biological conclusions drawn from it are not trustworthy. The claim that ECHO can discover novel TF interactions (e.g., ZBTB3) is potentially exciting but requires systematic evidence, not just a single example.
+  - **Resolution test** Provide a systematic evaluation of attribution accuracy, e.g., by comparing discovered motifs against a comprehensive database with statistical significance measures. Show that the attribution method outperforms or matches simpler baselines (e.g., sequence-only attribution). Provide multiple examples of recovered collaborative interactions with statistical support. Quantify the improvement for TFs without known motifs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The paper states that short-range Micro-C contacts (0-5 kb) improve prediction of promoter/enhancer-associated marks (H3K4me3, H3K4me1, H3K27ac) and that long-range contacts (>20 kb) improve prediction of structural proteins (CTCF, RAD21, SMC3). It also claims that 1-20 kb contacts improve prediction of elongation and repressive marks.
+  - **Evidence pointer** Results section on contact distance, Figure 2, Figure S4
+  - **Concern** The biological interpretation of the contact distance results is plausible but the analysis is not described in enough detail. It is unclear how the four distance groups were defined relative to the 200-bp bin size, how the "improvement" was quantified for each group (e.g., compared to which baseline), and whether the observed patterns are statistically robust across cell types and feature types. The claim that these patterns "validate" the assumption of complex regulatory mechanisms is an overstatement; they are consistent with it but do not validate it.
+  - **Why it matters** The distance-dependent analysis is a unique contribution of the paper. If the patterns are robust, they provide insight into how 3D structure informs different regulatory processes. However, the current description does not allow the reader to assess the strength of the evidence.
+  - **Resolution test** Provide a detailed description of the distance group analysis, including the number of contacts in each group, the statistical tests used, and the variability across cell types. Show that the patterns are consistent across multiple cell lines and are not an artifact of the sampling procedure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "ECHO predicts 2, 583 chromatin features" with a space after the comma. This is a typographical error.
+  - **Required correction** Correct to "2,583".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Model Description
+  - **Evidence pointer** Methods, Model Description
+  - **Issue** The Methods section contains incomplete sentences with missing symbols, e.g., "our model ECHO extracts both sequential features along the DNA sequence and spatial features from , which explicitly describes high-resolution 3D chromatin organization." The graph notation is also incomplete.
+  - **Required correction** Complete all sentences and define all mathematical symbols used in the graph representation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, comparison with ChromeGCN
+  - **Evidence pointer** Results section, Table S3, Figure S2
+  - **Issue** The comparison with ChromeGCN is described but the details of the ChromeGCN implementation (e.g., hyperparameters, training procedure) are not provided. It is also unclear whether the comparison was performed on the same data splits and with the same evaluation metrics.
+  - **Required correction** Provide details of the ChromeGCN implementation and ensure the comparison is fair and fully described.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, p-values
+  - **Evidence pointer** Results section, Figure 2a
+  - **Issue** The p-values reported for the distance group comparisons are extremely small (e.g., 1.95E-29). It is not stated whether these are corrected for multiple testing across the 2,583 features or across the four distance groups.
+  - **Required correction** State the multiple testing correction method used and report adjusted p-values or effect sizes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Website
+  - **Evidence pointer** Data availability, website URL
+  - **Issue** The website is mentioned as a resource for exploring attribution results, but it is not described in the manuscript. It is unclear what data is available, how to navigate it, or whether it is functional.
+  - **Required correction** Add a brief description of the website contents and functionality in the Data availability section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing performance evidence), R1-M2 (incomplete model description), R1-M3 (unvalidated attribution claims). These are blocking because the core claims of improved prediction and biological interpretability cannot be assessed without the missing materials and methodological details.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The idea of integrating high-resolution 3D chromatin contact maps into a deep learning framework for chromatin feature prediction is novel. The use of Micro-C data at 200-bp resolution and the graph-to-grid transformation are creative contributions. However, the originality cannot be fully assessed without seeing the implementation details and results.
+  - **Scientific importance** If the claims hold, the work would be important for the field of regulatory genomics. It addresses a known limitation of sequence-only models and offers a framework for incorporating structural information. The potential to discover novel TF interactions is significant. However, the importance is contingent on the validity of the results.
+  - **Interdisciplinary readership** The work bridges computational biology, genomics, and machine learning. It would appeal to researchers in all three areas. The writing is generally accessible, though some parts of the Methods are technical.
+  - **Technical soundness** The technical soundness cannot be evaluated from the provided text alone. The model architecture is plausible, but the incomplete description and missing validation data prevent a full assessment. The attribution method is standard (gradient x input), but its application to graph-structured data needs more explanation.
+  - **Readability for nonspecialists** The Introduction and Discussion are well-written and accessible. The Results section is dense but understandable. The Methods section is too incomplete to be useful for a specialist, let alone a nonspecialist.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the absence of all figures, tables, and supplementary materials, combined with incomplete methodological descriptions, prevents verification of the central claims. The authors should be invited to resubmit with the full evidence base and addressed concerns.
+
+## Risk / unsupported claims
+- The claim that ECHO significantly outperforms sequence-only baselines (average AUROC 0.921 vs 0.885) is unsupported without Figure 1b and the associated statistical details.
+- The claim that contact distance differentially affects prediction of different chromatin feature types is unsupported without Figure 2 and the associated analysis.
+- The claim that attribution on sequences identifies known TF motifs is unsupported without Figure S6 and the motif comparison methodology.
+- The claim that ECHO recovers collaborative TF binding (e.g., CTCF-CTCF, SMAD5-FOS:JUN) is unsupported without Figure 5, Figure 6, and systematic validation.
+- The claim that ECHO outperforms ChromeGCN is unsupported without Table S3 and Figure S2.
+- The claim that high-resolution Micro-C data is critical for the improvement is unsupported without the comparison to Hi-C data shown in Figure 3.
+- The biological interpretations regarding elongation marks, repressive marks, and structural proteins are plausible but not verifiable without the underlying data.

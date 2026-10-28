@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38986578",
+  "title": "Accurate allocation of multimapped reads enables regulatory element analysis at repeats.",
+  "authors": "Morrissey, Alexis; Shi, Jeffrey; James, Daniela Q; Mahony, Shaun",
+  "journal": "Genome research",
+  "published_date": "2024-07-11",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发Allo方法，利用CNN分配多比对读段以分析重复区转录因子结合位点，虽涉及TF-DNA互作但聚焦测序数据处理，缺乏三维互作建模或物理模拟，方法可迁移但深度有限。",
+  "abstract": "Transposable elements (TEs) and other repetitive regions have been shown to contain gene regulatory elements, including transcription factor binding sites. However, regulatory elements harbored by repeats have proven difficult to characterize using short-read sequencing assays such as ChIP-seq or ATAC-seq. Most regulatory genomics analysis pipelines discard \"multimapped\" reads that align equally well to multiple genomic locations. Because multimapped reads arise predominantly from repeats, current analysis pipelines fail to detect a substantial portion of regulatory events that occur in repetitive regions. To address this shortcoming, we developed Allo, a new approach to allocate multimapped reads in an efficient, accurate, and user-friendly manner. Allo combines probabilistic mapping of multimapped reads with a convolutional neural network that recognizes the read distribution features of potential peaks, offering enhanced accuracy in multimapping read assignment. Allo also provides read-level output in the form of a corrected alignment file, making it compatible with existing regulatory genomics analysis pipelines and downstream peak-finders. In a demonstration application on CTCF ChIP-seq data, we show that Allo results in the discovery of thousands of new CTCF peaks. Many of these peaks contain the expected cognate motif and/or serve as TAD boundaries. We additionally apply Allo to a diverse collection of ENCODE ChIP-seq data sets, resulting in multiple previously unidentified interactions between transcription factors and repetitive element families. Finally, we show that Allo may be particularly beneficial in identifying ChIP-seq peaks at centromeres, near segmentally duplicated genes, and in younger TEs, enabling new regulatory analyses in these regions.",
+  "abstract_zh": "转座元件（TEs）及其他重复区域已被证明含有基因调控元件，包括转录因子结合位点。然而，重复序列所携带的调控元件在使用短读长测序方法（如ChIP-seq或ATAC-seq）时难以表征。大多数调控基因组学分析流程会丢弃“多映射”读段，这些读段能同样良好地比对到多个基因组位置。由于多映射读段主要来源于重复序列，当前的分析流程无法检测到重复区域中发生的相当一部分调控事件。为解决这一缺陷，我们开发了Allo，一种高效、准确且用户友好的多映射读段分配新方法。Allo将多映射读段的概率映射与卷积神经网络相结合，该网络能识别潜在峰值的读段分布特征，从而在多映射读段分配中提供增强的准确性。Allo还以校正比对文件的形式提供读段级别的输出，使其与现有的调控基因组学分析流程及下游峰值检测工具兼容。在CTCF ChIP-seq数据的示范应用中，我们展示了Allo能够发现数千个新的CTCF峰值。其中许多峰值包含预期的同源基序和/或作为TAD边界。我们还将Allo应用于多样化的ENCODE ChIP-seq数据集集合，结果发现了转录因子与重复元件家族之间多个先前未识别的相互作用。最后，我们表明Allo在识别着丝粒、节段性重复基因附近以及较年轻TEs中的ChIP-seq峰值方面可能特别有益，从而在这些区域实现新的调控分析。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38986578/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38986578/",
+  "paper_page_path": "papers/pubmed/38986578/index.html"
+}

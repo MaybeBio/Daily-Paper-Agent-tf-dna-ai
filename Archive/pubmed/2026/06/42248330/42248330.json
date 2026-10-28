@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "42248330",
+    "doi": "10.1016/j.mvr.2026.104966",
+    "title": "VAV3 is associated with atherosclerosis and ox-LDL-induced endothelial dysfunctional remodeling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Atherosclerosis is a major cause of ischemic stroke and is characterized by complex immune-metabolic dysregulation. VAV3, a Rho guanine nucleotide exchange factor, regulates multiple cellular processes, but its role in vascular pathology remains unclear. This study aimed to explore the function and mechanism of VAV3 in atherosclerosis. METHODS: Transcriptomic datasets (GSE43292 and GSE28829) were analyzed to identify differentially expressed genes and disease-associated co-expression modules using weighted gene co-expression network analysis (WGCNA). The Boruta and LASSO algorithms were applied to screen for disease-associated signatures. Functional validation was performed in ox-LDL-stimulated HUVECs using VAV3 gain- and loss-of-function approaches. Assessments included cell proliferation, apoptosis, intracellular calcium accumulation, migration, lipid deposition, inflammatory factor secretion, and NF-kappaB pathway activation. In vivo validation was conducted in high-fat diet-fed APOE(-/-) mice. RESULTS: Integrated transcriptomic analysis revealed concurrent immune activation and metabolic reprogramming in carotid plaques. WGCNA identified the MEgreen module as highly associated with atherosclerosis, and machine learning analyses selected CCR1 and VAV3 as public-dataset-derived candidate molecular signatures. In APOE(-/-) mice, atherosclerotic lesions showed increased lipid deposition, elevated inflammatory mediators, and enhanced VAV3 expression. In ox-LDL-treated HUVECs, VAV3 overexpression further enhanced cell viability, proliferation, and migration, reduced apoptosis, and increased intracellular calcium accumulation and lipid deposition, indicating a shift toward an abnormal proliferative and apoptosis-resistant endothelial phenotype. In contrast, VAV3 knockdown attenuated these ox-LDL-induced abnormal changes and partially restored the cellular phenotype toward the control state. VAV3 modulation also altered GRB2 expression and p65 phosphorylation, accompanied by changes in IL-6, TNF-alpha, CRP, and Lp-PLA2 secretion. Co-IP further suggested an association between GRB2 and p-P65. These findings indicate that VAV3 may be associated with maladaptive endothelial remodeling and NF-kappaB-related inflammatory activation under ox-LDL stimulation. CONCLUSION: VAV3 is upregulated in atherosclerotic lesions and may contribute to ox-LDL-induced maladaptive endothelial remodeling, characterized by abnormal proliferation, apoptosis resistance, calcium accumulation, lipid deposition, and inflammatory activation. However, its clinical diagnostic value, therapeutic feasibility, and causal role in vivo require further validation.",
+    "keywords": [
+      "Atherosclerosis",
+      "Endothelial dysfunction",
+      "NF-kappaB signaling",
+      "VAV3"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Proto-Oncogene Proteins c-vav/metabolism/genetics",
+      "*Atherosclerosis/metabolism/pathology/genetics",
+      "*Lipoproteins, LDL/toxicity",
+      "Signal Transduction",
+      "Apoptosis",
+      "Cell Proliferation",
+      "Mice, Knockout, ApoE",
+      "*Human Umbilical Vein Endothelial Cells/pathology/metabolism/drug effects",
+      "Disease Models, Animal",
+      "Cells, Cultured",
+      "*Vascular Remodeling/drug effects",
+      "Inflammation Mediators/metabolism",
+      "Plaque, Atherosclerotic",
+      "NF-kappa B/metabolism",
+      "*Carotid Artery Diseases/pathology/genetics/metabolism",
+      "Cell Movement",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Gene Regulatory Networks",
+      "Databases, Genetic",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Guorong",
+        "Pu, Chen",
+        "Li, Qing",
+        "Liu, Qiang",
+        "Wan, Xiaobin",
+        "Deng, Jun",
+        "Dai, Min",
+        "Xie, Bin",
+        "Huang, Lianghui",
+        "Zhao, YanPing"
+      ],
+      "short_names": [
+        "Wang G",
+        "Pu C",
+        "Li Q",
+        "Liu Q",
+        "Wan X",
+        "Deng J",
+        "Dai M",
+        "Xie B",
+        "Huang L",
+        "Zhao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Electrocardiography, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China.",
+        "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China. Electronic address: ndyfy03741@ncu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Guorong",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Chen",
+        "short_name": "Pu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qing",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrocardiography, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qiang",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Xiaobin",
+        "short_name": "Wan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Jun",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Min",
+        "short_name": "Dai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Bin",
+        "short_name": "Xie B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Lianghui",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, YanPing",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The First Affiliated Hospital, Nanchang University, Nanchang, 330006, Jiangxi, China. Electronic address: ndyfy03741@ncu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microvascular research"
+    ],
+    "journal_abbrev": [
+      "Microvasc Res"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/06 00:35",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42248330",
+      "41881247",
+      "41914296",
+      "38807081",
+      "34269702",
+      "42143937",
+      "33221374",
+      "34627697",
+      "27591127",
+      "39549462",
+      "38657333",
+      "32833899",
+      "30799593",
+      "25849952",
+      "41895505",
+      "29268138",
+      "40090082",
+      "40679551",
+      "40836352",
+      "41663970",
+      "37572566",
+      "32267831",
+      "34905418",
+      "41936840",
+      "41902331",
+      "41280941",
+      "33222501",
+      "41183695",
+      "42173415",
+      "28535426",
+      "33818551",
+      "29449334",
+      "32655542",
+      "26617700",
+      "33756273",
+      "20530739",
+      "23415688",
+      "41795807",
+      "39726311",
+      "27821816",
+      "40185315",
+      "38679696",
+      "34313533",
+      "33298736",
+      "33892646",
+      "39744686",
+      "39856662",
+      "38082058",
+      "28500865",
+      "41719299",
+      "32007256",
+      "38743320",
+      "41543766",
+      "37271284",
+      "31960147",
+      "30949676",
+      "37688783",
+      "33932991",
+      "31332791",
+      "39742020",
+      "21862018",
+      "39419008",
+      "41654946",
+      "29420219",
+      "28411243",
+      "39305980",
+      "42435432",
+      "33278458",
+      "42450001",
+      "30917686",
+      "38270835",
+      "37769890",
+      "29567472",
+      "41865455",
+      "41748756",
+      "41536146",
+      "40834970",
+      "36585554",
+      "33992512",
+      "23872072",
+      "39835780",
+      "31386895",
+      "41166996",
+      "34369900",
+      "35904173",
+      "40569501",
+      "31449974",
+      "40598260",
+      "40795589",
+      "41036559",
+      "34606042",
+      "31632389",
+      "41078885",
+      "41851623",
+      "30354234",
+      "41689678",
+      "39346078",
+      "29269512",
+      "31666189",
+      "29407890"
+    ],
+    "review": [
+      "42248330"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0026-2862(26)00066-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/carotidarterydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Carotid Artery Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GRB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-699",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

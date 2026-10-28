@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "37853316",
+    "doi": "10.1186/s12864-023-09714-6",
+    "title": "Cellular clarity: a logistic regression approach to identify root epidermal regulators of iron deficiency response."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Plants respond to stress through highly tuned regulatory networks. While prior works identified master regulators of iron deficiency responses in A. thaliana from whole-root data, identifying regulators that act at the cellular level is critical to a more comprehensive understanding of iron homeostasis. Within the root epidermis complex molecular mechanisms that facilitate iron reduction and uptake from the rhizosphere are known to be regulated by bHLH transcriptional regulators. However, many questions remain about the regulatory mechanisms that control these responses, and how they may integrate with developmental processes within the epidermis. Here, we use transcriptional profiling to gain insight into root epidermis-specific regulatory processes. RESULTS: Set comparisons of differentially expressed genes (DEGs) between whole root and epidermis transcript measurements identified differences in magnitude and timing of organ-level vs. epidermis-specific responses. Utilizing a unique sampling method combined with a mutual information metric across time-lagged and non-time-lagged windows, we identified relationships between clusters of functionally relevant differentially expressed genes suggesting that developmental regulatory processes may act upstream of well-known Fe-specific responses. By integrating static data (DNA motif information) with time-series transcriptomic data and employing machine learning approaches, specifically logistic regression models with LASSO, we also identified putative motifs that served as crucial features for predicting differentially expressed genes. Twenty-eight transcription factors (TFs) known to bind to these motifs were not differentially expressed, indicating that these TFs may be regulated post-transcriptionally or post-translationally. Notably, many of these TFs also play a role in root development and general stress response. CONCLUSIONS: This work uncovered key differences in -Fe response identified using whole root data vs. cell-specific root epidermal data. Machine learning approaches combined with additional static data identified putative regulators of -Fe response that would not have been identified solely through transcriptomic profiles and reveal how developmental and general stress responses within the epidermis may act upstream of more specialized -Fe responses for Fe uptake.",
+    "keywords": [
+      "Arabidopsis",
+      "Epidermis",
+      "Gene regulatory network",
+      "Iron deficiency",
+      "Logistic regression",
+      "RNA-seq"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics",
+      "Logistic Models",
+      "Plant Roots/metabolism",
+      "*Iron Deficiencies",
+      "Iron/metabolism",
+      "Epidermis/metabolism",
+      "Gene Expression Regulation, Plant",
+      "*Arabidopsis Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schmittling, Selene R",
+        "Muhammad, DurreShahwar",
+        "Haque, Samiul",
+        "Long, Terri A",
+        "Williams, Cranos M"
+      ],
+      "short_names": [
+        "Schmittling SR",
+        "Muhammad D",
+        "Haque S",
+        "Long TA",
+        "Williams CM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical & Computer Engineering, North Carolina State University, Raleigh, USA.",
+        "Department of Biosciences, Rice University, Houston, USA.",
+        "Life Sciences Customer Advisory, SAS Institute Inc, Cary, USA.",
+        "Department of Plant & Microbial Biology, North Carolina State University, Raleigh, USA.",
+        "Department of Electrical & Computer Engineering, North Carolina State University, Raleigh, USA. cmwilli5@ncsu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schmittling, Selene R",
+        "short_name": "Schmittling SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, North Carolina State University, Raleigh, USA."
+        ]
+      },
+      {
+        "full_name": "Muhammad, DurreShahwar",
+        "short_name": "Muhammad D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Rice University, Houston, USA."
+        ]
+      },
+      {
+        "full_name": "Haque, Samiul",
+        "short_name": "Haque S",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences Customer Advisory, SAS Institute Inc, Cary, USA."
+        ]
+      },
+      {
+        "full_name": "Long, Terri A",
+        "short_name": "Long TA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant & Microbial Biology, North Carolina State University, Raleigh, USA."
+        ]
+      },
+      {
+        "full_name": "Williams, Cranos M",
+        "short_name": "Williams CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, North Carolina State University, Raleigh, USA. cmwilli5@ncsu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2023 Oct 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/19 00:44",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36304753",
+      "35561747",
+      "34436520",
+      "33190307",
+      "33023472",
+      "32873629",
+      "31993645",
+      "31937681",
+      "31922570",
+      "31879716",
+      "31796961",
+      "31732703",
+      "31551359",
+      "30823472",
+      "30783653",
+      "29926790",
+      "29337990",
+      "29233944",
+      "28827319",
+      "28711729",
+      "28686269",
+      "28373393",
+      "27359166",
+      "27203113",
+      "27093087",
+      "26681689",
+      "26317202",
+      "25572919",
+      "25452667",
+      "25149683",
+      "24919188",
+      "23935008",
+      "23898029",
+      "23759101",
+      "23682113",
+      "23618408",
+      "23104829",
+      "22984573",
+      "22383036",
+      "22253603",
+      "22140109",
+      "22014526",
+      "21972265",
+      "21849619",
+      "21586684",
+      "21242310",
+      "20803230",
+      "20675571",
+      "19910308",
+      "19742130",
+      "19549134",
+      "19482877",
+      "19478073",
+      "19348669",
+      "19289445",
+      "19252923",
+      "19167129",
+      "18977764",
+      "18722804",
+      "18436742",
+      "18268542",
+      "18263631",
+      "17485078",
+      "17351051",
+      "16663891",
+      "16601727",
+      "16333293",
+      "15539473",
+      "15491914",
+      "15202996",
+      "14671301",
+      "12481097",
+      "12454644",
+      "12232127",
+      "12084823",
+      "11389458",
+      "10759506",
+      "10589676",
+      "10067892",
+      "8643627"
+    ],
+    "similar": [
+      "37853316",
+      "31937681",
+      "35388430",
+      "23144187",
+      "18154662",
+      "21592396",
+      "20113438",
+      "33449088",
+      "22253603",
+      "18397377",
+      "22039296",
+      "31922570",
+      "21411332",
+      "29960107",
+      "29882068",
+      "27093087",
+      "21173025",
+      "28744713",
+      "35445268",
+      "17031393",
+      "21426424",
+      "26459023",
+      "33274450",
+      "26556796",
+      "22962679",
+      "27655366",
+      "22984573",
+      "36920240",
+      "34839543",
+      "34299231",
+      "30417276",
+      "35297168",
+      "35920794",
+      "22374396",
+      "33159788",
+      "30460953",
+      "26253232",
+      "30420567",
+      "31962167",
+      "17516080",
+      "15539473",
+      "27121119",
+      "27716045",
+      "19348669",
+      "21219335",
+      "23735510",
+      "14648120",
+      "29520929",
+      "32817691",
+      "20699001",
+      "26990640",
+      "17408486",
+      "30773647",
+      "38054209",
+      "36702178",
+      "27105423",
+      "31115467",
+      "31776249",
+      "35755670",
+      "33464620",
+      "30665365",
+      "21972265",
+      "34419841",
+      "35534803",
+      "24225185",
+      "29546482",
+      "24192296",
+      "34310779",
+      "25794933",
+      "21383540",
+      "25124848",
+      "33047775",
+      "37166592",
+      "35067184",
+      "24015802",
+      "25499025",
+      "19252923",
+      "25951126",
+      "25360591",
+      "30514218",
+      "30032190",
+      "29304736",
+      "33206982",
+      "35914714",
+      "12428001",
+      "25624148",
+      "18467463",
+      "34502184",
+      "16813577",
+      "30804973",
+      "28193158",
+      "33405355",
+      "31655948",
+      "31551359",
+      "37528982",
+      "35173758",
+      "36711841",
+      "38712066",
+      "38798726",
+      "39430103",
+      "34442429",
+      "38234833",
+      "38746289",
+      "38267264"
+    ],
+    "review": [
+      "37853316",
+      "33449088",
+      "31922570"
+    ],
+    "pmc": [
+      "10583470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-023-09714-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37853316/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37853316",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse228011",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

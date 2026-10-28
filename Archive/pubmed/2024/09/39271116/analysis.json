@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39271116",
+  "title": "DNA breathing integration with deep learning foundational model advances genome-wide binding prediction of human transcription factors.",
+  "authors": "Kabir, Anowarul; Bhattarai, Manish; Peterson, Selma; Najman-Licht, Yonatan; Rasmussen, Kim O; Shehu, Amarda; Bishop, Alan R; Alexandrov, Boian; Usheva, Anny",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-09-14",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 9,
+  "one_liner_zh": "该文将DNA呼吸动力学特征与DNABERT-2基础模型结合，通过多模态深度学习显著提升人类转录因子全基因组结合位点预测，核心聚焦TF-DNA互作且方法创新性强。",
+  "abstract": "It was previously shown that DNA breathing, thermodynamic stability, as well as transcriptional activity and transcription factor (TF) bindings are functionally correlated. To ascertain the precise relationship between TF binding and DNA breathing, we developed the multi-modal deep learning model EPBDxDNABERT-2, which is based on the Extended Peyrard-Bishop-Dauxois (EPBD) nonlinear DNA dynamics model. To train our EPBDxDNABERT-2, we used chromatin immunoprecipitation sequencing (ChIP-Seq) data comprising 690 ChIP-seq experimental results encompassing 161 distinct TFs and 91 human cell types. EPBDxDNABERT-2 significantly improves the prediction of over 660 TF-DNA, with an increase in the area under the receiver operating characteristic (AUROC) metric of up to 9.6% when compared to the baseline model that does not leverage DNA biophysical properties. We expanded our analysis to in vitro high-throughput Systematic Evolution of Ligands by Exponential enrichment (HT-SELEX) dataset of 215 TFs from 27 families, comparing EPBD with established frameworks. The integration of the DNA breathing features with DNABERT-2 foundational model, greatly enhanced TF-binding predictions. Notably, EPBDxDNABERT-2, trained on a large-scale multi-species genomes, with a cross-attention mechanism, improved predictive power shedding light on the mechanisms underlying disease-related non-coding variants discovered in genome-wide association studies.",
+  "abstract_zh": "先前研究表明，DNA呼吸、热力学稳定性以及转录活性和转录因子（TF）结合在功能上相互关联。为明确TF结合与DNA呼吸之间的精确关系，我们开发了基于扩展Peyrard-Bishop-Dauxois（EPBD）非线性DNA动力学模型的多模态深度学习模型EPBDxDNABERT-2。为训练EPBDxDNABERT-2，我们使用了染色质免疫沉淀测序（ChIP-Seq）数据，涵盖690项ChIP-seq实验结果，涉及161种不同的TF和91种人类细胞类型。EPBDxDNABERT-2显著提升了对超过660种TF-DNA的预测性能，与未利用DNA生物物理特性的基线模型相比，接收者操作特征曲线下面积（AUROC）指标最高提升了9.6%。我们将分析扩展至体外高通量配体系统进化富集（HT-SELEX）数据集，该数据集包含来自27个家族的215种TF，并将EPBD与既有框架进行了比较。将DNA呼吸特征与DNABERT-2基础模型整合，大幅增强了TF结合预测能力。值得注意的是，EPBDxDNABERT-2在大型多物种基因组上训练，并采用交叉注意力机制，其预测能力得到提升，为全基因组关联研究中发现的疾病相关非编码变异机制提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39271116/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39271116/",
+  "paper_page_path": "papers/pubmed/39271116/index.html"
+}

@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, experimental section, and supplementary material descriptions.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and alignment with claims. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report that N,N′-disubstituted tetrandrine derivatives, including three newly synthesized compounds (DQT, DAcT, DeBT), exhibit markedly enhanced antibacterial activity compared to natural tetrandrine, particularly against Gram-positive bacteria. They also report low cytotoxicity, moderate antioxidant activity, dsDNA-binding ability, and in silico docking results that correlate with experimental antibacterial data.
+- **Visible evidence base** Abstract, full text of introduction, results and discussion, experimental section, and references to supplementary figures and tables. No raw data, spectra, or supplementary files were provided for independent verification.
+- **Missing materials affecting confidence** Supplementary Information (Figures S1–S13, Tables S1–S2), raw NMR/MS spectra, elemental analysis data, full MIC/IC50 tables, docking pose figures, and statistical analysis details were not available for review.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a logical extension of prior work on tetrandrine derivatization, with the synthesis of three new bis-quaternary derivatives and a broad biological evaluation. The antibacterial results, particularly against S. aureus, are potentially interesting. However, several methodological concerns and reporting gaps limit the strength of the conclusions. The claim of "enhanced antibacterial activity" is supported by the data presented, but the magnitude of the effect, the reproducibility, and the mechanistic interpretation require further validation. The manuscript would benefit from additional experimental detail, particularly regarding the antibacterial assay methodology, the statistical treatment of data, and the interpretation of the docking results.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry, natural product derivatization, and antibacterial drug discovery would be interested. The work addresses the ongoing need for new antibacterial scaffolds, particularly against Gram-positive pathogens. The strategy of double quaternization of a natural alkaloid is a rational approach that could be applied to other scaffolds. The low cytotoxicity and DNA-binding data are relevant to those studying the mechanism of action of cationic amphiphiles.
+- **Major strengths** The synthetic work is clearly described and the characterization data, as summarized, appear consistent with the proposed structures. The biological evaluation is broad, covering antibacterial, antioxidant, cytotoxic, and DNA-binding properties. The inclusion of docking studies provides a mechanistic hypothesis that is testable. The comparison with previously reported derivatives and the inclusion of reference antibiotics contextualizes the results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental methodology and data interpretation
+  - **Claim pointer** The manuscript claims that derivatives exhibit "markedly enhanced antibacterial potency" with MIC values as low as 0.04 μg/mL, comparing favorably to reference antibiotics.
+  - **Evidence pointer** Section "Antibacterial Activity", Tables 1 and S1, location not provided
+  - **Concern** The antibacterial assay methodology is insufficiently detailed. The final compound concentrations are stated to range from 6.25 to 200 μg/mL, yet MIC values of 0.04, 0.11, and 0.14 μg/mL are reported for DAcT, DQT, and DNT, respectively. These values are below the stated lower limit of the tested concentration range. The authors acknowledge this in the text ("MIC values below the lowest concentration tested"), but the reporting of such values as definitive MICs is problematic. It is unclear how these values were calculated or extrapolated. The Probit analysis used to estimate MIC and IC50 values is not described in sufficient detail, and the reliability of extrapolating below the tested range is questionable.
+  - **Why it matters** The central claim of the paper rests on the accuracy of these MIC values. If the true MICs are not accurately determined, the comparison to reference antibiotics and the conclusion of "markedly enhanced" activity are not reliable. The reported values may be an artifact of the statistical model rather than a true biological measurement.
+  - **Resolution test** The authors should provide a detailed description of the assay protocol, including the exact concentration range tested, the number of replicates, and the method used to determine MIC. They should either (a) test lower concentrations to determine true MIC values, or (b) report the results as "MIC ≤ 0.20 μg/mL" (or the lowest tested concentration) and avoid extrapolating specific values. The Probit analysis methodology should be described in detail, and the raw data should be made available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and mechanistic claims
+  - **Claim pointer** The manuscript states that "molecular modeling and docking studies... showed good agreement with the experimental antibacterial results" and that interactions with targets such as PBP2a "may contribute to the pronounced antistaphylococcal activity."
+  - **Evidence pointer** Section "Molecular Modeling and Docking Studies", Table 2, Figures 3 and S12–S13, location not provided
+  - **Concern** The docking studies are presented as supporting the antibacterial mechanism, but the correlation between docking scores and MIC values is not quantitatively demonstrated. The text describes favorable binding energies for certain derivatives, but no statistical correlation is shown. Furthermore, the selection of targets (TEM-1, AmpC, PBP4, PBP2a, CAT III) is not justified. The manuscript does not explain why these specific targets were chosen, nor does it discuss whether the compounds are expected to reach these targets in the bacterial cell. The claim of "good agreement" is subjective without a formal analysis.
+  - **Why it matters** The mechanistic interpretation is a key part of the paper's significance. If the docking results are not rigorously correlated with the biological data, the claim that the compounds act via these specific targets is speculative. This weakens the overall impact of the study.
+  - **Resolution test** The authors should provide a quantitative comparison between docking scores (or predicted binding affinities) and experimental MIC values, including a statistical analysis (e.g., correlation coefficient). They should also justify the choice of targets and discuss the potential for off-target effects or alternative mechanisms. If a correlation is not found, the text should be revised to reflect the speculative nature of the docking results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data completeness and reproducibility
+  - **Claim pointer** The manuscript claims that the new derivatives show "low cytotoxicity" and a "favorable selectivity profile."
+  - **Evidence pointer** Section "Cytotoxicity Evaluation and Biological Selectivity", Table 3, location not provided
+  - **Concern** The cytotoxicity data are presented as IC50 values > 50 μg/mL for the new derivatives. However, the manuscript does not provide the full dose-response curves or the range of concentrations tested. It is unclear whether the IC50 values were calculated or whether the compounds simply did not reach 50% inhibition at the highest concentration tested. The selectivity index (SI), defined as the ratio of cytotoxicity to antibacterial activity, is not calculated. For the most active antibacterial compounds (e.g., DAcT with MIC = 0.04 μg/mL), an SI of >1250 would be impressive, but this is not explicitly stated.
+  - **Why it matters** The selectivity profile is a critical factor in assessing the therapeutic potential of the compounds. Without a clear calculation of the SI, the claim of a "favorable selectivity profile" is not fully supported.
+  - **Resolution test** The authors should provide the full cytotoxicity data, including the concentration range tested and the method of IC50 calculation. They should calculate and report the selectivity index for the most active compounds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of experimental details
+  - **Affected element** Section "Antibacterial Activity"
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript states that the assay was performed "in triplicate" but does not specify whether this refers to technical or biological replicates. The number of independent experiments is not stated.
+  - **Required correction** Clarify the number of independent biological replicates and the number of technical replicates per experiment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section "Antioxidant Activity", Table 2
+  - **Evidence pointer** location not provided
+  - **Issue** The antioxidant data are presented as percentage inhibition at a single concentration (30 μg/mL) for the DPPH assay. The ABTS assay is described as using concentrations of 1–30 μg/mL, but the results are not presented as a dose-response curve. Only one derivative (DeBT) had an IC50 value determined.
+  - **Required correction** Present the ABTS data as a dose-response curve or at least report the percentage inhibition at multiple concentrations. If only one concentration was tested, state this clearly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Section "Molecular Modeling and Docking Studies"
+  - **Evidence pointer** location not provided
+  - **Issue** The text contains a sentence in Spanish: "Por favor, reemplácelo con: Las estructuras cristalinas de las proteínas objetivo..." This appears to be an editing artifact and must be corrected.
+  - **Required correction** Replace the Spanish text with the intended English description of the protein structure retrieval.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Section "dsDNA-Binding Studies"
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript reports Ksv values for the new derivatives but does not provide the corresponding binding constants (Kb) or the number of binding sites. The Stern-Volmer constant is a measure of quenching efficiency, not necessarily binding affinity.
+  - **Required correction** Clarify the interpretation of Ksv and, if possible, provide additional analysis (e.g., Scatchard plot) to estimate binding constants.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction
+  - **Evidence pointer** location not provided
+  - **Issue** The introduction cites several references but does not provide a comprehensive overview of the current state of the art in tetrandrine derivatization for antibacterial applications.
+  - **Required correction** Consider adding a brief discussion of recent related work to better contextualize the novelty of the present study.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the reporting of MIC values below the tested concentration range (R1-M1). This must be resolved before the central claim of enhanced antibacterial activity can be accepted. The lack of a quantitative correlation between docking and experimental data (R1-M2) is a secondary issue that weakens the mechanistic interpretation.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is a logical extension of the authors' prior research. The synthesis of three new derivatives is incremental, but the systematic evaluation of the series is a useful contribution. The originality is moderate.
+  - **Scientific importance** The need for new antibacterial agents is well established. However, the compounds are derivatives of a known scaffold, and the improvement over existing compounds is not clearly demonstrated beyond the reported MIC values. The importance is moderate.
+  - **Interdisciplinary readership** The work is primarily of interest to medicinal chemists and microbiologists. The docking studies may attract computational chemists, but the overall appeal is limited to a specialized audience.
+  - **Technical soundness** The synthetic chemistry appears sound. The biological assays are standard, but the methodological issues described above (R1-M1) undermine the technical soundness of the antibacterial data. The docking studies are preliminary and require further validation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The abstract and introduction are clear. However, the results section is dense and would benefit from a more concise presentation of the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is sound, and the data are potentially interesting. However, the issues with MIC determination and the lack of a rigorous correlation between docking and experimental data must be addressed before the conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The specific MIC values of 0.04, 0.11, and 0.14 μg/mL for DAcT, DQT, and DNT are not supported by the described methodology, as they fall below the lowest tested concentration of 6.25 μg/mL.
+- The claim of "good agreement" between docking results and experimental antibacterial activity is not quantitatively supported.
+- The claim of a "favorable selectivity profile" is not fully supported without a calculated selectivity index.
+- The statement that the compounds interact with DNA in a "nondisruptive manner" is speculative and not directly tested.
+- The claim that the antibacterial activity "may arise from more selective interactions with bacterial targets" is a hypothesis that is not directly tested.

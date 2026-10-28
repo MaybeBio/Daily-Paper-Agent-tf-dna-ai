@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "39038503",
+    "doi": "10.1016/j.jep.2024.118595",
+    "title": "Exploration of the mechanism of Qinglongyi-Buguzhi drug pair in treating vitiligo based on network pharmacology, molecular docking and experimental verification."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: The Qinglongyi-Buguzhi herbal pair (QB) is one of commonly used herbal combinations for treating vitiligo in traditional Chinese medicine, consisting of the exocarp of the immature fruit of Juglans regia L. or Juglans mandshurica Maxim., and dried, mature fruit of Psoralea corylifolia L. However, the active components and potential mechanisms of QB in the treatment of vitiligo are still unclear. AIM OF THE STUDY: The purpose of this study is to clarify the effects and mechanisms of QB on vitiligo treatment through integration of network pharmacology and empirical examinations. MATERIALS AND METHODS: The active components and targets of QB as well as the targets linked to vitiligo were obtained from network databases. Visualization networks were constructed with Cytoscape 3.9.1. GO and KEGG enrichment analysis were conducted to investigate the possible mechanism. Molecular docking was employed to evaluate the binding affinities between the primary active ingredients of QB and essential targets of the PI3K/Akt/Nrf2 pathway. In vivo and in vitro experiments were carried out to confirm the results of network pharmacology. RESULTS: We evaluated 44 active compounds and 602 genes from QB, and 107 of these genes linked to vitiligo. GO analysis suggested QB might lessen vitiligo by regulating oxidative stress. KEGG pathway analysis indicated the PI3K/Akt pathway may be crucial for treating vitiligo. Molecular docking results demonstrated the key active ingredients of QB had good binding activity with the major targets in the PI3K/Akt/Nrf2 pathway. In vivo, QB significantly ameliorated vitiligo model mouse's skin pathologies by reducing ROS, elevating CAT and SOD levels. Western blot showed that QB increased the phosphorylation of PI3K and Akt and the expressions of Nrf2 and HO-1 in the skin. In vitro, QB reversed H(2)O(2)-induced oxidative injury of melanocytes, enhanced cell survival rate, reduced ROS level, upregulated SOD and CAT activities, and raised the content of melanin. Moreover, QB upregulated the expression levels of Akt, Nrf2, HO-1 mRNA, Akt phosphorylation, HO-1, and nuclear Nrf2 proteins, and also encouraged the nuclear translocation of Nrf2. However, LY294002 treatment significantly reversed the regulatory effect of QB on oxidative damage of melanocytes. CONCLUSIONS: This study revealed that the therapeutic effect of QB on vitiligo was achieved through multiple components, targets and pathways. Experimental investigation demonstrated that QB could improve vitiligo via reducing oxidative stress, which was probably accomplished by activating the PI3K/Akt/Nrf2 signaling pathway.",
+    "keywords": [
+      "Experimental validation",
+      "Mechanism",
+      "Network pharmacology",
+      "Qinglongyi-Buguzhi drug pair",
+      "Vitiligo"
+    ],
+    "mesh_terms": [
+      "*Vitiligo/drug therapy",
+      "*Molecular Docking Simulation",
+      "Animals",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry/therapeutic use",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Network Pharmacology",
+      "Mice",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Male",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Oxidative Stress/drug effects",
+      "Signal Transduction/drug effects",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Lele",
+        "Chen, Shuguang",
+        "Li, Pengze",
+        "Zhao, Xiangfeng",
+        "Sun, Peng",
+        "Liu, Xinyue",
+        "Wei, Hong",
+        "Jiang, Xiaolong",
+        "Zhan, Zhaoshuang",
+        "Wang, Jiafeng"
+      ],
+      "short_names": [
+        "Chen L",
+        "Chen S",
+        "Li P",
+        "Zhao X",
+        "Sun P",
+        "Liu X",
+        "Wei H",
+        "Jiang X",
+        "Zhan Z",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China.",
+        "Binzhou Hospital of Traditional Chinese Medicine, China.",
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China.",
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China.",
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China.",
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China.",
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China.",
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China.",
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China. Electronic address: zzshuang2000@126.com.",
+        "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China. Electronic address: wjfeng2000@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Lele",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuguang",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Binzhou Hospital of Traditional Chinese Medicine, China."
+        ]
+      },
+      {
+        "full_name": "Li, Pengze",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiangfeng",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Peng",
+        "short_name": "Sun P",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinyue",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Hong",
+        "short_name": "Wei H",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xiaolong",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Zhaoshuang",
+        "short_name": "Zhan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China. Electronic address: zzshuang2000@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiafeng",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong University of Traditional Chinese Medicine, No. 4655 Daxue Road, Jinan, 250355, Shandong Province, China. Electronic address: wjfeng2000@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/23 00:42",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "41930487",
+      "41035845",
+      "40910032"
+    ],
+    "refs": [],
+    "similar": [
+      "39038503",
+      "36403742",
+      "35970314",
+      "37080367",
+      "38342157",
+      "37879505",
+      "35926779",
+      "34246740",
+      "37437794",
+      "39399124",
+      "39307810",
+      "38387682",
+      "39066538",
+      "34306252",
+      "35605918",
+      "37247682",
+      "38042385",
+      "38755191",
+      "34558653",
+      "37295575",
+      "38432577",
+      "37833363",
+      "38301984",
+      "35525528",
+      "34994139",
+      "35442463",
+      "37480968",
+      "38582151",
+      "30342186",
+      "38393691",
+      "35837376",
+      "30779558",
+      "38110130",
+      "36343798",
+      "38104882",
+      "33771638",
+      "35734366",
+      "28122344",
+      "38742934",
+      "36280016",
+      "39041101",
+      "37575231",
+      "39140079",
+      "37201662",
+      "38190954",
+      "38759074",
+      "38428659",
+      "34349502",
+      "39051076",
+      "37777029",
+      "38750475",
+      "37799727",
+      "38845538",
+      "35580771",
+      "35872979",
+      "35487038",
+      "39029135",
+      "35590353",
+      "37267857",
+      "38889577",
+      "37741472",
+      "33444721",
+      "38115259",
+      "36157920",
+      "35644437",
+      "36604893",
+      "29496179",
+      "33045867",
+      "37369336",
+      "37282910",
+      "35101570",
+      "37005850",
+      "38114126",
+      "36355983",
+      "36044117",
+      "39025160",
+      "35405254",
+      "35777015",
+      "39002062",
+      "38364259",
+      "38104871",
+      "38580999",
+      "38437889",
+      "35429380",
+      "37257328",
+      "37863399",
+      "29559323",
+      "38163558",
+      "38159819",
+      "38376772",
+      "38547625",
+      "34522084",
+      "34692849",
+      "38104880",
+      "39053247",
+      "38814209",
+      "38460276",
+      "35667260",
+      "39089660",
+      "37690812",
+      "37056062",
+      "38114219",
+      "39307799",
+      "38851758",
+      "35616676",
+      "35702063",
+      "39280256",
+      "39380230",
+      "39244670",
+      "37087582",
+      "38986753",
+      "39029542",
+      "39135759",
+      "37173696",
+      "38102686",
+      "39382555",
+      "39331625",
+      "38835123",
+      "39197805",
+      "39374878",
+      "39326136",
+      "37861043",
+      "38996878",
+      "39199428",
+      "39173028",
+      "39143459",
+      "36299706",
+      "39009828",
+      "39252269",
+      "37855354",
+      "38867532",
+      "39059092",
+      "39383141",
+      "39177661",
+      "34582494",
+      "39219692",
+      "39180042",
+      "39053245",
+      "38178685",
+      "39273257",
+      "38992402",
+      "38713950",
+      "39301903",
+      "39403481",
+      "39129180",
+      "37855353",
+      "37486473",
+      "39419306",
+      "38851102",
+      "39419302",
+      "39222242",
+      "39030833",
+      "36091821",
+      "39032805",
+      "39410151",
+      "39302422",
+      "38253629",
+      "37643025",
+      "39299362",
+      "35432729",
+      "38990646",
+      "39306207",
+      "39321855",
+      "39326811",
+      "39155506",
+      "39129158",
+      "39216773",
+      "39253263",
+      "36582537",
+      "34262454",
+      "39192652",
+      "39332540",
+      "36969872",
+      "39295929",
+      "39245240",
+      "39326894",
+      "34124490",
+      "39135783",
+      "39198228",
+      "39422237",
+      "39382736",
+      "37310405"
+    ],
+    "review": [
+      "39038503"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(24)00894-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/vitiligo.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Vitiligo"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-472",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

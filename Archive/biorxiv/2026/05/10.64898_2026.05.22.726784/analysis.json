@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.22.726784",
+  "title": "Evolutionary constraints improve protein large language model predictions for protein stability, binding regions and epistasis",
+  "authors": "Konstantina Tzavella; Catharina Olsen; Wim Vranken",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-26",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出D2D方法，结合蛋白质语言模型与进化信息预测突变对蛋白稳定性和结合区域的影响，虽非直接聚焦TF-DNA互作，但其结合区域预测和突变效应建模方法可迁移至转录因子-DNA结合界面研究。",
+  "abstract": "Our understanding of protein function and evolution is largely based on the relationship between amino acid sequence and overall fold, now effectively captured by computational models. Yet predicting how mutations—shaped by epistasis—alter protein behavior, especially in dynamic or structurally ambiguous regions, remains difficult. Here we present D2D, which combines a self-supervised protein language model with protein-specific evolutionary information to predict mutational effects using little to no task-specific labeled data. D2D captures long-range epistatic interactions, accurately predicts single and higher-order mutation effects on protein thermostability and binding, without being trained on the task. When fine-tuned, D2D outperforms state-of-the-art methods on latent driver cancer mutations and co-occurring proliferation-enhancing mutations across independent experimental studies. Unlike most existing approaches, D2D avoids biases linked to solvent accessibility or to multiple sequence alignment depth and quality, making it particularly effective for disordered or surface binding regions where structure-based predictors typically falter. Overall, D2D provides a general framework for modeling mutational effects in proteins with limited experimental or structural information.",
+  "abstract_zh": "我们对蛋白质功能和进化的理解主要基于氨基酸序列与整体折叠之间的关系，这一关系现已通过计算模型有效捕捉。然而，预测由上位性（epistasis）塑造的突变如何改变蛋白质行为，尤其是在动态或结构模糊区域，仍然困难重重。在此，我们提出D2D，它结合了自监督蛋白质语言模型与蛋白质特异性进化信息，以利用极少甚至无需任务特定标记数据来预测突变效应。D2D捕捉长程上位性相互作用，准确预测单突变及高阶突变对蛋白质热稳定性和结合的影响，而无需针对任务进行训练。经过微调后，D2D在独立实验研究中，对潜在驱动癌症突变和共现增殖增强突变的预测性能优于现有最先进方法。与大多数现有方法不同，D2D避免了与溶剂可及性或多重序列比对深度和质量相关的偏差，使其在结构预测方法通常失效的无序区域或表面结合区域尤为有效。总体而言，D2D为在实验或结构信息有限的情况下建模蛋白质突变效应提供了一个通用框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.22.726784",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.22.726784",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.22.726784/index.html"
+}

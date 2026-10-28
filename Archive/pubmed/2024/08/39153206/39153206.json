@@ -1,0 +1,450 @@
+{
+  "identity": {
+    "pmid": "39153206",
+    "doi": "10.1111/jcmm.18588",
+    "title": "Identification of molecular targets and small drug candidates for Huntington's disease via bioinformatics and a network-based screening approach."
+  },
+  "content": {
+    "abstract": "Huntington's disease (HD) is a gradually severe neurodegenerative ailment characterised by an increase of a specific trinucleotide repeat sequence (cytosine-adenine-guanine, CAG). It is passed down as a dominant characteristic that worsens over time, creating a significant risk. Despite being monogenetic, the underlying mechanisms as well as biomarkers remain poorly understood. Furthermore, early detection of HD is challenging, and the available diagnostic procedures have low precision and accuracy. The research was conducted to provide knowledge of the biomarkers, pathways and therapeutic targets involved in the molecular processes of HD using informatic based analysis and applying network-based systems biology approaches. The gene expression profile datasets GSE97100 and GSE74201 relevant to HD were studied. As a consequence, 46 differentially expressed genes (DEGs) were identified. 10 hub genes (TPM1, EIF2S3, CCN2, ACTN1, ACTG2, CCN1, CSRP1, EIF1AX, BEX2 and TCEAL5) were further differentiated in the protein-protein interaction (PPI) network. These hub genes were typically down-regulated. Additionally, DEGs-transcription factors (TFs) connections (e.g. GATA2, YY1 and FOXC1), DEG-microRNA (miRNA) interactions (e.g. hsa-miR-124-3p and has-miR-26b-5p) were also comprehensively forecast. Additionally, related gene ontology concepts (e.g. sequence-specific DNA binding and TF activity) connected to DEGs in HD were identified using gene set enrichment analysis (GSEA). Finally, in silico drug design was employed to find candidate drugs for the treatment HD, and while the possible modest therapeutic compounds (e.g. cortistatin A, 13,16-Epoxy-25-hydroxy-17-cheilanthen-19,25-olide, Hecogenin) against HD were expected. Consequently, the results from this study may give researchers useful resources for the experimental validation of Huntington's diagnosis and therapeutic approaches.",
+    "keywords": [
+      "CAG (cytosine-adenine-guanine)",
+      "Huntington's disease",
+      "degenerative",
+      "gene set enrichment analysis (GSEA)"
+    ],
+    "mesh_terms": [
+      "*Huntington Disease/genetics/drug therapy/metabolism",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Gene Regulatory Networks",
+      "*Protein Interaction Maps/genetics/drug effects",
+      "Gene Expression Profiling",
+      "Biomarkers/metabolism",
+      "Gene Expression Regulation/drug effects",
+      "Molecular Targeted Therapy",
+      "Transcriptome/genetics",
+      "Gene Ontology",
+      "MicroRNAs/genetics",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hossain, Md Ridoy",
+        "Tareq, Md Mohaimenul Islam",
+        "Biswas, Partha",
+        "Tauhida, Sadia Jannat",
+        "Bibi, Shabana",
+        "Zilani, Md Nazmul Hasan",
+        "Albadrani, Ghadeer M",
+        "Al-Ghadi, Muath Q",
+        "Abdel-Daim, Mohamed M",
+        "Hasan, Md Nazmul"
+      ],
+      "short_names": [
+        "Hossain MR",
+        "Tareq MMI",
+        "Biswas P",
+        "Tauhida SJ",
+        "Bibi S",
+        "Zilani MNH",
+        "Albadrani GM",
+        "Al-Ghadi MQ",
+        "Abdel-Daim MM",
+        "Hasan MN"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4322-9312",
+        "ORCID: 0000-0002-9766-756X"
+      ],
+      "affiliations": [
+        "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh.",
+        "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh.",
+        "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh.",
+        "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh.",
+        "Department of Biosciences, Shifa Tameer-e-Millat University, Islamabad, Pakistan.",
+        "Department of Health Sciences, Novel Global Community Educational Foundation, Hebersham, New South Wales, Australia.",
+        "Department of Pharmacy, Jashore University of Science and Technology, Jessore, Bangladesh.",
+        "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia.",
+        "Department of Zoology, College of Science, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Pharmaceutical Sciences, Pharmacy Program, Batterjee Medical College, Jeddah, Saudi Arabia.",
+        "Pharmacology Department, Faculty of Veterinary Medicine, Suez Canal University, Ismailia, Egypt.",
+        "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hossain, Md Ridoy",
+        "short_name": "Hossain MR",
+        "identifiers": [
+          "0009-0004-4322-9312"
+        ],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Tareq, Md Mohaimenul Islam",
+        "short_name": "Tareq MMI",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Biswas, Partha",
+        "short_name": "Biswas P",
+        "identifiers": [
+          "0000-0002-9766-756X"
+        ],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Tauhida, Sadia Jannat",
+        "short_name": "Tauhida SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Bibi, Shabana",
+        "short_name": "Bibi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Shifa Tameer-e-Millat University, Islamabad, Pakistan.",
+          "Department of Health Sciences, Novel Global Community Educational Foundation, Hebersham, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Zilani, Md Nazmul Hasan",
+        "short_name": "Zilani MNH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Jashore University of Science and Technology, Jessore, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Albadrani, Ghadeer M",
+        "short_name": "Albadrani GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al-Ghadi, Muath Q",
+        "short_name": "Al-Ghadi MQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, College of Science, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abdel-Daim, Mohamed M",
+        "short_name": "Abdel-Daim MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Pharmacy Program, Batterjee Medical College, Jeddah, Saudi Arabia.",
+          "Pharmacology Department, Faculty of Veterinary Medicine, Suez Canal University, Ismailia, Egypt."
+        ]
+      },
+      {
+        "full_name": "Hasan, Md Nazmul",
+        "short_name": "Hasan MN",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pharmaceutical Biotechnology and Bioinformatics, Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jessore, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/18 04:42",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "41828900",
+      "41796161",
+      "41187208",
+      "41095675",
+      "40279084",
+      "40136424",
+      "40134679"
+    ],
+    "refs": [
+      "38090733",
+      "38033382",
+      "37534476",
+      "37441076",
+      "36582393",
+      "36443542",
+      "36410412",
+      "36368327",
+      "35812791",
+      "35451959",
+      "35339428",
+      "35127174",
+      "34840500",
+      "33956862",
+      "33925208",
+      "33771089",
+      "33412388",
+      "33406222",
+      "33378838",
+      "33054835",
+      "32799315",
+      "32461153",
+      "31926115",
+      "31638189",
+      "31377428",
+      "31325182",
+      "30989723",
+      "30931480",
+      "30878599",
+      "30768902",
+      "30715880",
+      "30606694",
+      "30158895",
+      "30015953",
+      "29718510",
+      "29545118",
+      "29427096",
+      "29328442",
+      "29303405",
+      "29235562",
+      "29218782",
+      "29213415",
+      "29198280",
+      "28817209",
+      "28683268",
+      "28642124",
+      "28499347",
+      "28367255",
+      "28256516",
+      "28229396",
+      "28055140",
+      "27507223",
+      "27412874",
+      "27333055",
+      "27141961",
+      "27059089",
+      "26824438",
+      "26586200",
+      "26583973",
+      "26522374",
+      "26138615",
+      "25976670",
+      "25950236",
+      "25948268",
+      "25860834",
+      "25693563",
+      "25626709",
+      "25618350",
+      "25379140",
+      "25358814",
+      "24816251",
+      "24678666",
+      "24459107",
+      "23768628",
+      "23758478",
+      "23556141",
+      "23063529",
+      "22906125",
+      "22848262",
+      "22825594",
+      "22465017",
+      "22433174",
+      "22008259",
+      "21907093",
+      "21861097",
+      "21496570",
+      "21496568",
+      "21149340",
+      "20070435",
+      "19465387",
+      "19001476",
+      "18940857",
+      "18560563",
+      "18300303",
+      "18082412",
+      "17467140",
+      "16839197",
+      "16575999",
+      "14723997",
+      "14681407",
+      "14597658",
+      "13217921",
+      "12853464",
+      "11259830",
+      "7693298",
+      "7630882",
+      "3159849",
+      "1535611",
+      "1481844"
+    ],
+    "similar": [
+      "39153206",
+      "36902304",
+      "33049985",
+      "38033382",
+      "29328442",
+      "41300749",
+      "33378838",
+      "40059764",
+      "41533020",
+      "36104591",
+      "33054835",
+      "28952134",
+      "41553597",
+      "35929619",
+      "31377428",
+      "31987036",
+      "32041280",
+      "40068024",
+      "38062833",
+      "41196851",
+      "37776011",
+      "25889241",
+      "40665411",
+      "40406126",
+      "42599937",
+      "40826767",
+      "41044520",
+      "42180604",
+      "41009499",
+      "32093341",
+      "35390032",
+      "40574839",
+      "38549107",
+      "38839916",
+      "37063926",
+      "33407587",
+      "39636560",
+      "39028999",
+      "42006143",
+      "39080630",
+      "40628511",
+      "34218797",
+      "41511918",
+      "41052072",
+      "29581148",
+      "41465132",
+      "34248836",
+      "31875420",
+      "32481304",
+      "40834023",
+      "34734085",
+      "42278407",
+      "39037979",
+      "41006883",
+      "39556279",
+      "30015953",
+      "39176085",
+      "31989994",
+      "31311829",
+      "36991484",
+      "37013480",
+      "39973855",
+      "32299382",
+      "28578378",
+      "39953122",
+      "27155059",
+      "31912694",
+      "41120603",
+      "40024299",
+      "38717954",
+      "39673621",
+      "40790764",
+      "39342024",
+      "37632659",
+      "41316541",
+      "33439992",
+      "39080525",
+      "33622336",
+      "30107230",
+      "35773742",
+      "33579286",
+      "25358814",
+      "34536521",
+      "42706545",
+      "34600545",
+      "39433267",
+      "40821971",
+      "38073349",
+      "37179305",
+      "36076300",
+      "29063236",
+      "34160465",
+      "39820173",
+      "35757392",
+      "38601162",
+      "33871358",
+      "28499347",
+      "38268224",
+      "28302149",
+      "40898538"
+    ],
+    "review": [
+      "39153206",
+      "40665411"
+    ],
+    "pmc": [
+      "11330274"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/huntingtonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Huntington's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39153206/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.18588",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4028",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

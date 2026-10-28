@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "37915003",
+    "doi": "10.1186/s12920-023-01705-6",
+    "title": "Machine learning algorithm predicts fibrosis-related blood diagnosis markers of intervertebral disc degeneration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Intervertebral disc cell fibrosis has been established as a contributing factor to intervertebral disc degeneration (IDD). This study aimed to identify fibrosis-related diagnostic genes for patients with IDD. METHODS: RNA-sequencing data was downloaded from Gene Expression Omnibus (GEO) database. The diagnostic genes was identified using Random forest based on the differentially expressed fibrosis-related genes (DE-FIGs) between IDD and control samples. The immune infiltration states in IDD and the regulatory network as well as potential drugs targeted diagnostic genes were investigated. Quantitative Real-Time PCR was conducted for gene expression valifation. RESULTS: CEP120 and SPDL1 merged as diagnostic genes. Substantial variations were observed in the proportions of natural killer cells, neutrophils, and myeloid-derived suppressor cells between IDD and control samples. Further experiments indicated that AC144548.1 could regulate the expressions of SPDL1 and CEP120 by combininghsa-miR-5195-3p and hsa-miR-455-3p, respectively. Additionally, transcription factors FOXM1, PPARG, and ATF3 were identified as regulators of SPDL1 and CEP120 transcription. Notably, 56 drugs were predicted to target these genes. The down-regulation of SPDL1 and CEP120 was also validated. CONCLUSION: This study identified two diagnostic genes associated with fibrosis in patients with IDD. Additionally, we elucidated their potential regulatory networks and identified target drugs, which offer a theoretical basis and reference for further study into fibrosis-related genes involved in IDD.",
+    "keywords": [
+      "Diagnostic genes",
+      "Fibrosis",
+      "GSEA",
+      "Immune Infiltration",
+      "Intervertebral disc degeneration",
+      "Regulatory network"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intervertebral Disc Degeneration/diagnosis/genetics/metabolism",
+      "*MicroRNAs/genetics",
+      "Down-Regulation",
+      "Base Sequence",
+      "Algorithms",
+      "Fibrosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Wei",
+        "Wei, Jinzheng",
+        "Ji, Xinghua",
+        "Jia, Erlong",
+        "Li, Jinhu",
+        "Huo, Jianzhong"
+      ],
+      "short_names": [
+        "Zhao W",
+        "Wei J",
+        "Ji X",
+        "Jia E",
+        "Li J",
+        "Huo J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "First Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China.",
+        "Shanxi Medical University, Taiyuan, Shanxi Province, PR China.",
+        "Shanxi Medical University, Taiyuan, Shanxi Province, PR China.",
+        "Tongji Shanxi Hospital, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China. xiaofuzigo@163.com.",
+        "Taiyuan Central Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China. huojianzhong@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Wei",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China.",
+          "Shanxi Medical University, Taiyuan, Shanxi Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Wei, Jinzheng",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Medical University, Taiyuan, Shanxi Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Ji, Xinghua",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Tongji Shanxi Hospital, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Jia, Erlong",
+        "short_name": "Jia E",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Jinhu",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China. xiaofuzigo@163.com."
+        ]
+      },
+      {
+        "full_name": "Huo, Jianzhong",
+        "short_name": "Huo J",
+        "identifiers": [],
+        "affiliations": [
+          "Taiyuan Central Hospital of Shanxi Medical University, Taiyuan, Shanxi Province, PR China. huojianzhong@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Med Genomics"
+    ],
+    "pub_date": "2023 Nov 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/02 06:43",
+    "fetched_at": "2026-09-29 09:40:32"
+  },
+  "links": {
+    "cites": [
+      "42253998",
+      "41511606",
+      "40688090",
+      "40303407"
+    ],
+    "refs": [
+      "36303427",
+      "36300620",
+      "36213280",
+      "35486489",
+      "35426287",
+      "35379119",
+      "35175176",
+      "34929784",
+      "34670455",
+      "34489937",
+      "33959508",
+      "33634362",
+      "33562338",
+      "33108686",
+      "33084203",
+      "33025106",
+      "32853910",
+      "32363112",
+      "32265028",
+      "32244936",
+      "32211588",
+      "32125276",
+      "32082013",
+      "32035370",
+      "31947643",
+      "31729316",
+      "31441146",
+      "31393166",
+      "30659889",
+      "30564891",
+      "30156708",
+      "29908161",
+      "29398280",
+      "29366663",
+      "29191284",
+      "29179441",
+      "29108860",
+      "29031872",
+      "28376367",
+      "28350945",
+      "28218665",
+      "27617275",
+      "27211863",
+      "27192096",
+      "27141350",
+      "26495812",
+      "26463451",
+      "26337541",
+      "25251415",
+      "25224255",
+      "24685814",
+      "24665116",
+      "24535573",
+      "24345469",
+      "23857771",
+      "23810536",
+      "22455463",
+      "21784712",
+      "20956381",
+      "20808728",
+      "20222111",
+      "20077401",
+      "19540815",
+      "17920017",
+      "17688691",
+      "16911562",
+      "16682276",
+      "16646809",
+      "16135983",
+      "15987475",
+      "15289453",
+      "15192702",
+      "15149599",
+      "15048560",
+      "11568697",
+      "11064518",
+      "10733583",
+      "10592173",
+      "9431603"
+    ],
+    "similar": [
+      "37915003",
+      "38104954",
+      "33904383",
+      "33764282",
+      "35840955",
+      "37325630",
+      "36111773",
+      "32031354",
+      "35069789",
+      "29901136",
+      "36175893",
+      "30378116",
+      "26134418",
+      "34858418",
+      "33676464",
+      "36841375",
+      "35578687",
+      "29554650",
+      "36193061",
+      "34402383",
+      "38819022",
+      "38044363",
+      "39050860",
+      "28514734",
+      "34939437",
+      "39247348",
+      "35960109",
+      "33486545",
+      "30953590",
+      "30089772",
+      "34872452",
+      "36911415",
+      "34350836",
+      "36689155",
+      "35401932",
+      "29039500",
+      "34531509",
+      "37026912",
+      "37122729",
+      "35711934",
+      "33482178",
+      "36972403",
+      "28990083",
+      "26583473",
+      "35767190",
+      "36081453",
+      "36068615",
+      "37520321",
+      "31056633",
+      "34395625",
+      "34650661",
+      "33349112",
+      "30945295",
+      "31432173",
+      "37267294",
+      "36819777",
+      "35937989",
+      "36211818",
+      "34238741",
+      "32453232",
+      "29038477",
+      "38222802",
+      "24173697",
+      "34015968",
+      "39349110",
+      "36423859",
+      "32686499",
+      "36690077",
+      "30984546",
+      "37340393",
+      "35613904",
+      "34307661",
+      "28161709",
+      "38159257",
+      "37091041",
+      "32538749",
+      "33446250",
+      "33978382",
+      "36059551",
+      "35279164",
+      "32659941",
+      "28559201",
+      "36334875",
+      "26587789",
+      "35784175",
+      "30737621",
+      "38764497",
+      "30904808",
+      "31508816",
+      "34879291",
+      "33691773",
+      "35814268",
+      "36531954",
+      "28081468",
+      "37009470",
+      "26656045",
+      "34122424",
+      "35196590",
+      "36746221",
+      "28793234",
+      "25736871",
+      "30130742",
+      "33083145",
+      "33159017",
+      "32143617",
+      "38187091",
+      "39296040",
+      "38883390",
+      "39268471",
+      "38095643",
+      "39351146",
+      "39332686"
+    ],
+    "review": [
+      "37915003",
+      "30953590",
+      "30904808"
+    ],
+    "pmc": [
+      "10619283"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-023-01705-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37915003/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37915003",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

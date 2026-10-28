@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41637793",
+  "title": "Predicting progression-free survival in hormone-receptor positive (HR+/HER2-) metastatic breast cancer (MBC) treated with CDK4/6 inhibitors: A machine learning approach.",
+  "authors": "Pannunzio, Sergio; Mastrantoni, Luca; Maliziola, Noemi; Pontolillo, Letizia; Garufi, Giovanna; Di Monte, Elena; Emiliani, Alessandra; Sgambato, Margherita; Cardillo, Anna; Palazzo, Antonella; Orlandi, Armando; Tortora, Giampaolo; Bria, Emilio",
+  "journal": "Breast (Edinburgh, Scotland)",
+  "published_date": "2026-02-04",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用机器学习预测HR+/HER2-转移性乳腺癌的生存期，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "BACKGROUND: In HR+/HER2- metastatic breast cancer (MBC), CDK4/6 inhibitors combined with endocrine therapy (ET) significantly improve progression-free survival (PFS). Machine learning (ML) approaches may improve individualized progression risk estimation. METHODS: We retrospectively analysed HR+/HER2- MBC patients treated with first-line CDK4/6i plus ET to develop CoxNet regression and Gradient Boosting Machine (GBM) models from baseline clinicopathological features. The primary endpoint was PFS prediction. The dataset was split into a 70/30 train/validation set. Performance was assessed by Harrell's C-index (1000 bootstrap replicates). Risk stratification was performed using Gaussian Mixture Modeling (GMM) to define high- and low-risk groups. Cox regression estimated the corresponding hazard ratios (HR). Early progression at 6 months (EP) prediction was evaluated using the area under the receiver operating characteristic curve (AUROC). RESULTS: 459 patients were included, with a median follow-up of 43.7 months (95% CI 39.6-48.3). Median PFS was 29.3 months (95% CI 24.0-33.7). Both ML models achieved strong predictive performance, with a Harrell's C-index of 0.74 (95% CI 0.67-0.80) in the validation set. The main predictors were liver metastases, Ki67 expression, and primary endocrine resistance. Stratification defined two risk groups with significantly different PFS in the validation set (HR 2.58, 95% CI 1.65-4.03, p = 3.3 x 10(-5)). Median PFS was 34.8 (95%CI 24.0-52.4) in the low-risk and 10.6 (95%CI 7.7-14.6) in the high-risk group. For EP prediction, the model achieved an AUROC of 0.77 (95% CI 0.61-0.89). CONCLUSIONS: This study supports the clinical applicability ML models using baseline clinicopathological variables for individualized risk stratification in HR+/HER2- MBC.",
+  "abstract_zh": "背景：在HR+/HER2-转移性乳腺癌（MBC）中，CDK4/6抑制剂联合内分泌治疗（ET）显著改善无进展生存期（PFS）。机器学习（ML）方法可能改善个体化进展风险评估。方法：我们回顾性分析了接受一线CDK4/6i联合ET治疗的HR+/HER2- MBC患者，基于基线临床病理特征开发CoxNet回归和梯度提升机（GBM）模型。主要终点为PFS预测。数据集按70/30比例分为训练/验证集。性能通过Harrell's C-index（1000次bootstrap重采样）评估。使用高斯混合模型（GMM）进行风险分层，以定义高风险和低风险组。Cox回归估计相应的风险比（HR）。6个月早期进展（EP）预测通过受试者工作特征曲线下面积（AUROC）评估。结果：共纳入459例患者，中位随访时间为43.7个月（95% CI 39.6-48.3）。中位PFS为29.3个月（95% CI 24.0-33.7）。两种ML模型均达到强预测性能，验证集中Harrell's C-index为0.74（95% CI 0.67-0.80）。主要预测因子为肝转移、Ki67表达和原发性内分泌耐药。分层定义了验证集中PFS显著不同的两个风险组（HR 2.58，95% CI 1.65-4.03，p = 3.3 x 10(-5)）。低风险组中位PFS为34.8个月（95%CI 24.0-52.4），高风险组为10.6个月（95%CI 7.7-14.6）。对于EP预测，模型达到AUROC为0.77（95% CI 0.61-0.89）。结论：本研究支持使用基线临床病理变量的ML模型在HR+/HER2- MBC中进行个体化风险分层的临床适用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41637793/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41637793/",
+  "paper_page_path": "papers/pubmed/41637793/index.html"
+}

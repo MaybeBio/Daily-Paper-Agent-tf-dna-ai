@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "41253052",
+    "doi": "10.1016/j.bbrc.2025.152973",
+    "title": "Identification and validation of key covalent inhibitors targeting lung cancer proteins through integrated In Silico analysis."
+  },
+  "content": {
+    "abstract": "Lung cancer remains the leading cause of cancer-related mortality worldwide, underscoring the urgent need for new and more effective therapeutics. In this study, an integrated in silico workflow was employed to identify and evaluate covalent inhibitors targeting three proteins implicated in lung cancer progression: Transcription Factor Dp-1 (TFDP1), Lipocalin 2 (LCN2), and Poly(rC)-Binding Protein 1 (PCBP1). An initial virtual screening of 369 covalent inhibitors resulted in 366 compounds meeting Lipinski's Rule of Five, indicating excellent drug-like properties for the majority of the library. Structure-based molecular docking using CovDock was conducted for each target, revealing several inhibitors with high binding affinity (up to -10.5 kcal/mol for TFDP1) and low RMSD values, ensuring favorable and stable interactions within the active sites. Detailed interaction analysis highlighted persistent hydrogen bonding, pi-stacking, and van der Waals contacts with key amino acid residues critical for target inhibition.The top five inhibitors for each protein were further subjected to comprehensive molecular dynamics (MD) simulations using GROMACS to evaluate the stability of the protein-ligand complexes under physiological conditions. The MD simulations demonstrated that the backbone RMSD values stabilized within the 2.0-3.0 A range and secondary structure elements were preserved throughout the simulation, indicating robust conformational stability. Protein-ligand contact profiles and ligand torsion angle analyses confirmed the persistence of crucial interactions and minimal conformational drift over the course of 250 ns. Overall, the workflow identified several promising covalent inhibitors with strong binding affinities, favorable drug-likeness, and stable dynamic behavior, providing a valuable foundation for further experimental validation and the development of novel lung cancer therapeutics.",
+    "keywords": [
+      "Covalent inhibitors",
+      "Drug discovery",
+      "Lung cancer",
+      "Molecular docking",
+      "Molecular dynamics simulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Antineoplastic Agents/chemistry/pharmacology",
+      "*DNA-Binding Proteins/antagonists & inhibitors/chemistry",
+      "*Lipocalin-2/antagonists & inhibitors/chemistry",
+      "*Lung Neoplasms/metabolism",
+      "Molecular Docking Simulation",
+      "Protein Binding",
+      "Protein Conformation/drug effects",
+      "*RNA-Binding Proteins/antagonists & inhibitors/chemistry",
+      "Structure-Activity Relationship",
+      "*Transcription Factor DP1/antagonists & inhibitors/chemistry",
+      "Ligands",
+      "Hydrogen Bonding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fatima, Israr",
+        "Safhi, Awaji Y",
+        "Alsalhi, Abdullah",
+        "Hanbashi, Ali",
+        "Jali, Abdulmajeed",
+        "Alsabei, Hanan M",
+        "Alshabrmi, Fahad M",
+        "Sabei, Fahad Y"
+      ],
+      "short_names": [
+        "Fatima I",
+        "Safhi AY",
+        "Alsalhi A",
+        "Hanbashi A",
+        "Jali A",
+        "Alsabei HM",
+        "Alshabrmi FM",
+        "Sabei FY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, China.",
+        "Department of Pharmaceutics, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia.",
+        "Department of Pharmaceutics, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia.",
+        "Department of Pharmacology and Toxicology, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia.",
+        "Department of Pharmaceutics, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah, 51452, Saudi Arabia.",
+        "Department of Pharmaceutics, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia. Electronic address: fsabei@jazanu.edu.sa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fatima, Israr",
+        "short_name": "Fatima I",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Bioinformatics, College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Safhi, Awaji Y",
+        "short_name": "Safhi AY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alsalhi, Abdullah",
+        "short_name": "Alsalhi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hanbashi, Ali",
+        "short_name": "Hanbashi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Jali, Abdulmajeed",
+        "short_name": "Jali A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alsabei, Hanan M",
+        "short_name": "Alsabei HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alshabrmi, Fahad M",
+        "short_name": "Alshabrmi FM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah, 51452, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Sabei, Fahad Y",
+        "short_name": "Sabei FY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, College of Pharmacy, Jazan University, Jazan, 45142, Saudi Arabia. Electronic address: fsabei@jazanu.edu.sa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2025 Dec 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 00:26",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41253052",
+      "41337159",
+      "41045314",
+      "41286755",
+      "41497266",
+      "40239487",
+      "39110299",
+      "40126740",
+      "40806603",
+      "41244930",
+      "40070330",
+      "40816411",
+      "40790332",
+      "41240885",
+      "41384349",
+      "40632195",
+      "39535182",
+      "40738921",
+      "41621295",
+      "40117728",
+      "39948258",
+      "39115579",
+      "39368576",
+      "32120300",
+      "41544341",
+      "29842849",
+      "41552640",
+      "41506199",
+      "39135338",
+      "40973684",
+      "37646177",
+      "40737296",
+      "39275052",
+      "41066396",
+      "37120484",
+      "34962586",
+      "40743310",
+      "41056674",
+      "39861069",
+      "40308267",
+      "40726304",
+      "39777139",
+      "41226144",
+      "41084624",
+      "40098751",
+      "40239488",
+      "41609378",
+      "41734712",
+      "36841551",
+      "39377533",
+      "37525917",
+      "31355691",
+      "39812068",
+      "33164832",
+      "36892124",
+      "41469454",
+      "41761798",
+      "41467166",
+      "40252254",
+      "41505486",
+      "38470555",
+      "30557817",
+      "40013562",
+      "41704643",
+      "37975405",
+      "37578056",
+      "34727985",
+      "37676262",
+      "40101436",
+      "40289350",
+      "40932598",
+      "40509957",
+      "39639531",
+      "38149858",
+      "32471245",
+      "39868843",
+      "37338041",
+      "39039616",
+      "38444393",
+      "27250644",
+      "34286666",
+      "37565730",
+      "41140705",
+      "31038021",
+      "41320730",
+      "40549449",
+      "37904331",
+      "35268740",
+      "41111131",
+      "34169390",
+      "40906369",
+      "41237543",
+      "40412223",
+      "39101505",
+      "38281913",
+      "41192116",
+      "39890175",
+      "40616975",
+      "41065364",
+      "39501412"
+    ],
+    "review": [
+      "41253052"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(25)01689-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "40597706",
+    "doi": "10.1186/s12876-025-04045-0",
+    "title": "Development and clinical validation of deep learning-based immunohistochemistry prediction models for subtyping and staging of gastrointestinal cancers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Immunohistochemistry (IHC) is a critical tool for tumor diagnosis and treatment, but it is time and tissue consuming, and highly dependent on skilled laboratory technicians. Recently, deep learning-based IHC biomarker prediction models have been widely developed, but few investigations have explored their clinical application effectiveness. METHODS: In this study, we aimed to create an automatic pipeline for the construction of deep learning models to generate AI-IHC (Artificial Intelligence) output using H&E whole slide images (WSIs) and compared the pathology reports by pathologists on AI-IHC versus conventional IHC. We obtained 134 WSIs including H&E and IHC pairs, and automatically extracted 415,463 tiles from H&E slides for model construction based on the annotation transfer from IHC slides. Five IHC biomarker prediction models (P40, Pan-CK, Desmin, P53, Ki-67) were developed to support a range of clinically relevant diagnostic applications across various gastrointestinal cancer subtypes, including esophageal, gastric, and colorectal cancers. The Ki-67 proliferation index was quantitatively assessed using digital image analysis. RESULTS: The AUCs of five IHC biomarker models ranged from 0.90 to 0.96 and the accuracies were between 83.04 and 90.81%. Additional 150 WSIs from 30 patients were collected to assess the effectiveness of AI-IHC through the multi-reader multi-case (MRMC) study. Each case was read by three pathologists, once on AI-IHC and once on conventional IHC with a minimum 2-week washout period. The results indicate that the consistency rates of pathologists in AI and conventional IHC cases were high in Desmin, Pan-CK and P40 (96.67-100%) while moderate in the P53 (70.00%). We also evaluated the T-stage through the staining of these IHC biomarkers and the consistency rate was 86.36%. Furthermore, the Ki-67 proliferation index, as reported by AI-IHC, showed a variability ranging from 17.35% +/-16.2% compared to conventional IHC, with ICC of 0.415 (P = 0.015) between these two groups. CONCLUSIONS: Here, we leveraged automatic tile-level annotations from H&E slides to efficiently develop deep learning-based IHC biomarker models, achieving AUCs between 0.90 and 0.96. AI generated IHC showed substantial concordance with conventional IHC across most markers, supporting its potential as an assistive tool in routine diagnostics.",
+    "keywords": [
+      "Deep learning",
+      "Gastrointestinal cancers",
+      "Immunohistochemistry",
+      "Pathology",
+      "Whole-slide image"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Immunohistochemistry/methods",
+      "*Gastrointestinal Neoplasms/pathology/classification",
+      "*Biomarkers, Tumor/analysis",
+      "Ki-67 Antigen/analysis",
+      "Neoplasm Staging",
+      "Tumor Suppressor Protein p53/analysis",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Junxiao",
+        "Zhang, Shiying",
+        "Li, Jia",
+        "Deng, Mei",
+        "Zeng, Zhi",
+        "Dong, Zehua",
+        "Chen, Fangfang",
+        "Liu, Wen",
+        "Wu, Lianlian",
+        "Yu, Honggang"
+      ],
+      "short_names": [
+        "Wang J",
+        "Zhang S",
+        "Li J",
+        "Deng M",
+        "Zeng Z",
+        "Dong Z",
+        "Chen F",
+        "Liu W",
+        "Wu L",
+        "Yu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Pathology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Pathology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Pathology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Pathology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Renmin Hospital of Wuhan University, Wuhan, China. wu_leanne@whu.edu.cn.",
+        "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China. wu_leanne@whu.edu.cn.",
+        "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China. wu_leanne@whu.edu.cn.",
+        "Department of Gastroenterology, Renmin Hospital of Wuhan University, 99 Zhangzhidong Road, Wuhan, Hubei Province, 430060, China. wu_leanne@whu.edu.cn.",
+        "Renmin Hospital of Wuhan University, Wuhan, China. yuhonggang1968@163.com.",
+        "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China. yuhonggang1968@163.com.",
+        "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China. yuhonggang1968@163.com.",
+        "Department of Gastroenterology, Renmin Hospital of Wuhan University, 99 Zhangzhidong Road, Wuhan, Hubei Province, 430060, China. yuhonggang1968@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Junxiao",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shiying",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Department of Pathology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jia",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Mei",
+        "short_name": "Deng M",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zhi",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Department of Pathology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Zehua",
+        "short_name": "Dong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Fangfang",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Department of Pathology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wen",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China.",
+          "Department of Pathology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lianlian",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China. wu_leanne@whu.edu.cn.",
+          "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China. wu_leanne@whu.edu.cn.",
+          "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China. wu_leanne@whu.edu.cn.",
+          "Department of Gastroenterology, Renmin Hospital of Wuhan University, 99 Zhangzhidong Road, Wuhan, Hubei Province, 430060, China. wu_leanne@whu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yu, Honggang",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Renmin Hospital of Wuhan University, Wuhan, China. yuhonggang1968@163.com.",
+          "Key Laboratory of Hubei Province for Digestive System Disease, Renmin Hospital of Wuhan University, Wuhan, China. yuhonggang1968@163.com.",
+          "Hubei Provincial Clinical Research Center for Digestive Disease Minimally Invasive Incision, Renmin Hospital of Wuhan University, Wuhan, China. yuhonggang1968@163.com.",
+          "Department of Gastroenterology, Renmin Hospital of Wuhan University, 99 Zhangzhidong Road, Wuhan, Hubei Province, 430060, China. yuhonggang1968@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC gastroenterology"
+    ],
+    "journal_abbrev": [
+      "BMC Gastroenterol"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:29",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "42589623",
+      "42411162",
+      "41884142",
+      "41515500"
+    ],
+    "refs": [
+      "38866050",
+      "38572751",
+      "38433288",
+      "38381582",
+      "37879443",
+      "37654717",
+      "37633534",
+      "37471633",
+      "37105494",
+      "36821107",
+      "36347854",
+      "36109635",
+      "35935788",
+      "35927490",
+      "35785212",
+      "35472844",
+      "35278081",
+      "35236916",
+      "35143898",
+      "35094693",
+      "34740486",
+      "34493825",
+      "34417147",
+      "34288586",
+      "33723864",
+      "33649564",
+      "33430240",
+      "33042271",
+      "32562722",
+      "32301585",
+      "32277744",
+      "31632973",
+      "31399699",
+      "31160815",
+      "30307746",
+      "30234501",
+      "28094848",
+      "25384676",
+      "24203987",
+      "22662150",
+      "16216029",
+      "2103495"
+    ],
+    "similar": [
+      "40597706",
+      "28805805",
+      "41250202",
+      "41013460",
+      "41043642",
+      "32723384",
+      "40143808",
+      "31398111",
+      "34279719",
+      "39516292",
+      "37890902",
+      "40946794",
+      "41207998",
+      "38409878",
+      "41083966",
+      "41410015",
+      "32632119",
+      "36816095",
+      "35140318",
+      "40842992",
+      "32471471",
+      "39979837",
+      "30081241",
+      "41094148",
+      "36931740",
+      "40528232",
+      "25421113",
+      "33840132",
+      "39306985",
+      "40036728",
+      "39720418",
+      "32592447",
+      "40168636",
+      "38201594",
+      "33527136",
+      "39892778",
+      "40251691",
+      "36506813",
+      "38132269",
+      "40762226",
+      "33177794",
+      "39478421",
+      "28193205",
+      "41097760",
+      "35065344",
+      "39393036",
+      "40638258",
+      "33775248",
+      "37478528",
+      "38101298",
+      "37996339",
+      "38065702",
+      "34017063",
+      "34323051",
+      "38395930",
+      "35494021",
+      "39350085",
+      "40516608",
+      "38747491",
+      "39238597",
+      "37186490",
+      "33387492",
+      "25616744",
+      "38083181",
+      "40654002",
+      "35802259",
+      "9428494",
+      "39714770",
+      "37515411",
+      "38519745",
+      "40645910",
+      "34391053",
+      "40898302",
+      "38477366",
+      "28607456",
+      "41188199",
+      "38545828",
+      "33328045",
+      "38433072",
+      "38148967",
+      "41331485",
+      "40841351",
+      "39724961",
+      "38043788",
+      "41321933",
+      "31348505",
+      "38677590",
+      "37540590",
+      "33752648",
+      "39745077",
+      "39241826",
+      "39087085",
+      "39584096",
+      "36251776",
+      "37716506",
+      "40205603",
+      "32903653",
+      "31846096",
+      "39360579",
+      "39952611"
+    ],
+    "review": [
+      "40597706",
+      "34391053"
+    ],
+    "pmc": [
+      "12211442"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-025-04045-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40597706/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

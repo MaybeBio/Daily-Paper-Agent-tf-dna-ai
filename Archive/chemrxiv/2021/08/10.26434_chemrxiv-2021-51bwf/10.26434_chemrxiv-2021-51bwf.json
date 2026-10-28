@@ -1,0 +1,264 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2021-51bwf",
+  "title": "Binding Free Energy of Protein/Ligand Complexes Calculated using Dissociation Parallel Cascade Selection Molecular Dynamics and Markov State Model",
+  "doi": "10.26434/chemrxiv-2021-51bwf",
+  "abstract": "We recently proposed a computational procedure to simulate the dissociation of protein/ligand complexes using the dissociation Parallel Cascade Selection Molecular Dynamics simulation (dPaCS-MD) method and to analyze the generated trajectories using the Markov state model (MSM). This procedure, called dPaCS-MD/MSM, enables calculation of the dissociation free energy profile and the standard binding free energy. To examine whether this method can reproduce experimentally determined binding free energies for a variety of systems, we used it to investigate the dissociation of three protein/ligand complexes: trypsin/benzamine, FKBP/FK506, and adenosine A2A receptor/T4E. First, dPaCS-MD generated multiple dissociation pathways within a reasonable computational time for all the complexes, although the complexes differed significantly in the size of the molecules and in intermolecular interactions. Subsequent MSM analyses produced free energy profiles for the dissociations, which provided insights into how each ligand dissociates from the protein. The standard binding free energies obtained by dPaCS-MD/MSM are in good agreement with experimental values for all the complexes. We conclude that dPaCS-MD/MSM can accurately calculate the binding free energies of these complexes.",
+  "authors": [
+    "Hiroaki Hata",
+    "Duy Tran",
+    "Mohamed Marzouk",
+    "Akio Kitao"
+  ],
+  "published_date": "2021-08-19",
+  "updated_date": "2022-02-01T07:57:53Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2021-51bwf",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-51bwf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:16:40Z",
+        "timestamp": 1785421000075,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            19
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                19
+              ]
+            ],
+            "date-time": "2021-08-19T00:00:00Z",
+            "timestamp": 1629331200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>We recently proposed a computational procedure to simulate the dissociation of protein/ligand complexes using the dissociation Parallel Cascade Selection Molecular Dynamics simulation (dPaCS-MD) method and to analyze the generated trajectories using the Markov state model (MSM). This procedure, called dPaCS-MD/MSM, enables calculation of the dissociation free energy profile and the standard binding free energy. To examine whether this method can reproduce experimentally determined binding free energies for a variety of systems, we used it to investigate the dissociation of three protein/ligand complexes: trypsin/benzamine, FKBP/FK506, and adenosine A2A receptor/T4E. First, dPaCS-MD generated multiple dissociation pathways within a reasonable computational time for all the complexes, although the complexes differed significantly in the size of the molecules and in intermolecular interactions. Subsequent MSM analyses produced free energy profiles for the dissociations, which provided insights into how each ligand dissociates from the protein. The standard binding free energies obtained by dPaCS-MD/MSM are in good agreement with experimental values for all the complexes. We conclude that dPaCS-MD/MSM can accurately calculate the binding free energies of these complexes.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2021-51bwf",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2022-02-01T07:57:53Z",
+        "timestamp": 1643702273000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Binding Free Energy of Protein/Ligand Complexes Calculated using Dissociation Parallel Cascade Selection Molecular Dynamics and Markov State Model"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Hiroaki",
+          "family": "Hata",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0112mx960",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tokyo Institute of Technology",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Duy",
+          "family": "Tran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0112mx960",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tokyo Institute of Technology",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohamed",
+          "family": "Marzouk",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0112mx960",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tokyo Institute of Technology",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5221-0806",
+          "authenticated-orcid": false,
+          "given": "Akio",
+          "family": "Kitao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0112mx960",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tokyo Institute of Technology",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-51bwf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:42:00Z",
+        "timestamp": 1778751720000
+      },
+      "score": 113.605125,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2021-51bwf"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            19
+          ]
+        ]
+      },
+      "references-count": 0,
+      "aliases": [
+        "10.33774/chemrxiv-2021-51bwf"
+      ],
+      "URL": "https://doi.org/10.26434/chemrxiv-2021-51bwf",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.2142/biophysico.bppb-v18.037",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

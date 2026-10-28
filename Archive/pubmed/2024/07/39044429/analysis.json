@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39044429",
+  "title": "Exploring protein-mediated compaction of DNA by coarse-grained simulations and unsupervised learning.",
+  "authors": "de Jager, Marjolein; Kolbeck, Pauline J; Vanderlinden, Willem; Lipfert, Jan; Filion, Laura",
+  "journal": "Biophysical journal",
+  "published_date": "2024-07-24",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化模拟结合无监督学习研究蛋白质介导的DNA压缩，虽非典型TF-DNA体系，但蛋白-DNA互作建模与机器学习分类方法可迁移至TF-DNA研究。",
+  "abstract": "Protein-DNA interactions and protein-mediated DNA compaction play key roles in a range of biological processes. The length scales typically involved in DNA bending, bridging, looping, and compaction (>/=1 kbp) are challenging to address experimentally or by all-atom molecular dynamics simulations, making coarse-grained simulations a natural approach. Here, we present a simple and generic coarse-grained model for DNA-protein and protein-protein interactions and investigate the role of the latter in the protein-induced compaction of DNA. Our approach models the DNA as a discrete worm-like chain. The proteins are treated in the grand canonical ensemble, and the protein-DNA binding strength is taken from experimental measurements. Protein-DNA interactions are modeled as an isotropic binding potential with an imposed binding valency without specific assumptions about the binding geometry. To systematically and quantitatively classify DNA-protein complexes, we present an unsupervised machine learning pipeline that receives a large set of structural order parameters as input, reduces the dimensionality via principal-component analysis, and groups the results using a Gaussian mixture model. We apply our method to recent data on the compaction of viral genome-length DNA by HIV integrase and find that protein-protein interactions are critical to the formation of looped intermediate structures seen experimentally. Our methodology is broadly applicable to DNA-binding proteins and protein-induced DNA compaction and provides a systematic and semi-quantitative approach for analyzing their mesoscale complexes.",
+  "abstract_zh": "蛋白质-DNA相互作用及蛋白质介导的DNA压缩在多种生物过程中发挥关键作用。通常涉及的DNA弯曲、桥接、环化及压缩（≥1 kbp）等长度尺度，难以通过实验或全原子分子动力学模拟来研究，这使得粗粒化模拟成为一种自然选择。在此，我们提出一个简单且通用的粗粒化模型，用于描述DNA-蛋白质及蛋白质-蛋白质相互作用，并探讨后者在蛋白质诱导的DNA压缩中的作用。我们的方法将DNA建模为离散的蠕虫链。蛋白质在巨正则系综中处理，蛋白质-DNA结合强度取自实验测量值。蛋白质-DNA相互作用被建模为具有强制结合价数的各向同性结合势，而不对结合几何结构作特定假设。为了系统且定量地分类DNA-蛋白质复合物，我们提出了一种无监督机器学习流程，该流程接收大量结构序参数作为输入，通过主成分分析降低维度，并使用高斯混合模型对结果进行分组。我们将此方法应用于近期关于HIV整合酶压缩病毒基因组长度DNA的数据，发现蛋白质-蛋白质相互作用对实验中观察到的环状中间结构的形成至关重要。我们的方法广泛适用于DNA结合蛋白及蛋白质诱导的DNA压缩，并为分析其介观尺度复合物提供了一种系统且半定量的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39044429/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39044429/",
+  "paper_page_path": "papers/pubmed/39044429/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41861881",
+  "title": "EPI-CAT: Prediction of enhancer-promoter interactions based on cross-attention transformer.",
+  "authors": "Liu, Chenyang; Huang, Xiaohui; Zhang, Zheng; Qi, Yechen; Liu, Li",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-03-21",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用跨注意力Transformer预测增强子-启动子互作，虽非直接TF-DNA结合建模，但显式利用TF结合谱并解析TF协同调控，方法可迁移至TF-DNA互作研究。",
+  "abstract": "BACKGROUND: Enhancer-promoter interactions (EPIs) play a central role in transcriptional regulation, yet it remains an open challenge to identify which enhancers regulate which target genes. Although deep learning methods based on DNA sequences or genomic epigenetic modification information have made progress in EPIs prediction, they often fail to utilize the positional information of transcription factor (TF) binding, and lack in-depth modeling of regulatory mechanisms. The classic loop model suggests that TFs physically bridge the communication between enhancers and distant promoters. Motivated by this, we proposed EPI-CAT (Cross-Attention Transformer for EPI), a transformer-based prediction model with a cross-attention mechanism. EPI-CAT explicitly incorporates TF binding profiles to capture the cooperative regulatory relationships between enhancers and promoters. RESULTS: We constructed TF sequence representations by encoding ChIP-seq signals from 26 TFs shared between the K562 and GM12878 cell lines. To model regulatory interactions, we designed a dual-channel convolution-cross-attention structure to align upstream-downstream features across regions. The results show that EPI-CAT outperforms state-of-the-art methods on both AUROC and AUPRC metrics. In addition, attention heatmaps and interaction network analyses indicate that the model has the ability to parse TF regulatory grammar. CONCLUSIONS: In summary, our study verified the efficacy of a TF sequence-based prediction framework augmented with attention mechanisms for enhancer-promoter interaction modeling. Through the cross-attention structure, EPI-CAT can automatically focus on key TF-TF combinations, discover critical TF interaction pairs and cooperative regulatory modules, thereby providing new insights into the study of EPI.",
+  "abstract_zh": "背景：增强子-启动子相互作用（enhancer-promoter interactions, EPIs）在转录调控中发挥核心作用，然而识别哪些增强子调控哪些靶基因仍是一个开放挑战。尽管基于DNA序列或基因组表观遗传修饰信息的深度学习方法在EPIs预测方面取得了进展，但它们往往未能利用转录因子（transcription factor, TF）结合的位置信息，并且缺乏对调控机制的深入建模。经典环状模型表明，TF在物理上桥接增强子与远距离启动子之间的通信。受此启发，我们提出了EPI-CAT（用于EPI的交叉注意力Transformer），一种具有交叉注意力机制的基于Transformer的预测模型。EPI-CAT明确整合TF结合谱，以捕捉增强子与启动子之间的协同调控关系。结果：我们通过编码K562和GM12878细胞系中共享的26个TF的ChIP-seq信号，构建了TF序列表示。为了建模调控相互作用，我们设计了一种双通道卷积-交叉注意力结构，以对齐跨区域的上游-下游特征。结果表明，EPI-CAT在AUROC和AUPRC指标上均优于最先进的方法。此外，注意力热图和相互作用网络分析表明，该模型具有解析TF调控语法的能力。结论：总之，我们的研究验证了基于TF序列的预测框架结合注意力机制在增强子-启动子相互作用建模中的有效性。通过交叉注意力结构，EPI-CAT能够自动聚焦于关键的TF-TF组合，发现关键的TF相互作用对和协同调控模块，从而为EPI研究提供新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41861881/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41861881/",
+  "paper_page_path": "papers/pubmed/41861881/index.html"
+}

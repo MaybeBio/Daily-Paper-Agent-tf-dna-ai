@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The assessment is limited to the claims and evidence presented in the abstract. No full text, figures, tables, or supplementary materials were provided.
+- **Shared manuscript claim summary** The authors report that screening 353 CHD patients and 350 healthy children identified two TBX20 mutations (I121F and T262T), that bioinformatics and molecular dynamics predicted reduced protein stability, that in vitro experiments showed effects on mRNA expression and ANF promoter activity, and that a meta-analysis of five studies yielded a pooled OR of 5.73 (95% CI 2.54, 12.91) for CHD risk. They conclude that TBX20 mutations contribute to CHD pathogenesis.
+- **Visible evidence base** Abstract text only. No numerical data beyond the pooled OR and CI, no mutation frequencies, no experimental details, no meta-analysis study list, no figures or tables.
+- **Missing materials affecting confidence** Full text, all figures and tables, detailed methods for sequencing, homology modeling, molecular dynamics, in vitro assays, meta-analysis search strategy, study inclusion criteria, quality assessment results, sensitivity analysis details, and publication bias metrics.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible but incompletely supported case that TBX20 mutations contribute to CHD risk. The combination of genetic screening, structural modeling, functional assays, and meta-analysis is ambitious and potentially informative. However, the abstract lacks critical quantitative details, and the meta-analysis appears to be based on a very small number of studies. The claim that the synonymous mutation T262T affects protein stability is mechanistically questionable and requires explicit justification. The evidence as presented is insufficient to fully establish the central conclusions.
+- **Who would be interested in the results, and why** Clinical geneticists and cardiologists studying the genetic architecture of congenital heart disease would be interested. Researchers working on TBX20 function in cardiac development and on transcription factor mutations in developmental disorders would also find the results relevant. The meta-analytic component may interest those seeking quantitative summaries of genetic association data.
+- **Major strengths** The study combines multiple complementary approaches, which is a strength if the methods are rigorous. The inclusion of a meta-analysis adds a quantitative dimension beyond a single cohort. The identification of both a missense and a synonymous mutation in a well-known cardiac transcription factor gene is clinically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the meta-analysis, including five studies, indicates that TBX20 gene mutations significantly increase CHD risk with a pooled OR of 5.73.
+  - **Evidence pointer** Abstract, Results section
+  - **Concern** The meta-analysis is based on only five studies, and no information is provided on study heterogeneity, study design, population ancestry, or the specific mutations included. A pooled OR of 5.73 with a wide CI (2.54, 12.91) suggests substantial uncertainty. The abstract states that sensitivity analysis and publication bias assessment confirmed robustness, but no metrics are given.
+  - **Why it matters** A meta-analysis with a small number of studies is highly susceptible to selection bias, small-study effects, and heterogeneity. Without details on the included studies and heterogeneity statistics, the pooled estimate cannot be critically evaluated. The claim of robustness is unverifiable from the abstract.
+  - **Resolution test** Provide the full meta-analysis methods, a table of included studies with their design and mutation data, heterogeneity statistics (e.g., I-squared), and the results of sensitivity analyses and publication bias tests (e.g., Egger's test or funnel plot).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic plausibility
+  - **Claim pointer** The abstract states that the synonymous mutation T262T, along with the missense mutation I121F, was identified and that bioinformatics predictions and molecular modeling revealed potential decreases in protein structural stability.
+  - **Evidence pointer** Abstract, Results section
+  - **Concern** Synonymous mutations do not alter the amino acid sequence, and their effect on protein structural stability is not mechanistically obvious. The abstract does not explain how T262T could affect protein stability, nor does it provide any data distinguishing the effects of I121F from T262T.
+  - **Why it matters** If the claim is that both mutations reduce protein stability, the mechanism for the synonymous mutation must be clarified, for example through effects on mRNA splicing, mRNA stability, or translation efficiency. Without this, the structural modeling claim for T262T is unsupported and potentially misleading.
+  - **Resolution test** Provide explicit evidence for the functional impact of T262T, such as splicing assays, mRNA stability measurements, or structural modeling that accounts for potential effects on mRNA structure or splicing regulatory elements. Clearly separate the effects of the two mutations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The abstract states that the influence of mutant TBX20 on its mRNA expression levels and downstream target gene ANF promoter activity further supported the finding.
+  - **Evidence pointer** Abstract, Results section
+  - **Concern** No quantitative data are provided for the in vitro experiments. The direction and magnitude of the effects on mRNA expression and ANF promoter activity are not stated, nor is the cell type used or the experimental design.
+  - **Why it matters** Without effect sizes, statistical significance, and experimental details, the functional relevance of the mutations cannot be assessed. The claim that these experiments "further supported" the association is vague and unverifiable.
+  - **Resolution test** Provide the full experimental methods, including cell lines, transfection conditions, assay types, and quantitative results with statistical analysis. State whether both mutations were tested individually and whether the effects were consistent.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** Mutation frequencies
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The abstract does not report the frequency of the identified mutations in CHD patients versus controls.
+  - **Required correction** Report the number of carriers for each mutation in both groups, with statistical comparison.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Genetic screening method
+  - **Evidence pointer** Abstract, Methods section
+  - **Issue** The abstract states that high-throughput sequencing was used but does not specify the sequencing platform, coverage, or variant calling criteria.
+  - **Required correction** Provide details on the sequencing approach and variant validation methods in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Meta-analysis scope
+  - **Affected element** Study inclusion
+  - **Evidence pointer** Abstract, Methods section
+  - **Issue** The abstract does not state the search period, databases used, or inclusion and exclusion criteria for the meta-analysis.
+  - **Required correction** Describe the literature search strategy and study selection criteria in the full text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Causal language
+  - **Evidence pointer** Abstract, Conclusion section
+  - **Issue** The conclusion states that TBX20 mutations "play a significant role in the pathogenesis of CHD," which implies causality. The study design, including a meta-analysis of association studies, supports association rather than causation.
+  - **Required correction** Soften the language to reflect association and functional evidence, for example "contribute to CHD risk" or "are associated with CHD."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The meta-analysis lacks critical details, the mechanistic claim for the synonymous mutation is unsupported, and the in vitro data are not quantitatively reported.
+- **Assessment against Nature-style criteria** Originality: The combination of screening, structural modeling, functional assays, and meta-analysis in a single study is somewhat original, but the individual components are not novel. Scientific importance: TBX20 in CHD is a relevant topic, but the incremental advance is unclear without full data. Interdisciplinary readership: The study spans genetics, structural biology, and clinical cardiology, which could attract a broad audience if the evidence is strong. Technical soundness: Cannot be fully assessed from the abstract; the meta-analysis and functional data are insufficiently detailed. Readability for nonspecialists: The abstract is generally readable, but the mechanistic claim for the synonymous mutation would confuse nonspecialists without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially valuable study, but the missing quantitative details and the unsupported mechanistic claim for the synonymous mutation prevent a positive recommendation. A revised manuscript with full methods and results could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the synonymous mutation T262T reduces protein structural stability is unsupported and mechanistically unexplained.
+- The claim that the meta-analysis results are robust is unverifiable without sensitivity analysis details and publication bias metrics.
+- The claim that in vitro experiments "further supported" the association is unsupported without quantitative data.
+- The conclusion that TBX20 mutations "play a significant role in the pathogenesis of CHD" overstates the evidence, which supports association rather than causation.

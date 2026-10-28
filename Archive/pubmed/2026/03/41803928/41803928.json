@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41803928",
+    "doi": "10.1186/s41065-026-00660-3",
+    "title": "Cardamonin ameliorates neuroinflammation in Parkinson's disease by regulating NF-kappaB signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Neuroinflammation can accelerate neurodegeneration in Parkinson's disease (PD). This study aims to identify biomarkers related to PD inflammation and investigate the function of cardamonin (CD) on microglia and neurons. METHODS: The differentially expressed genes (DEGs) in PD were screened out. Inflammation-related genes (IRGs) were obtained from the GSEA and GeneCards databases. The protein-protein interaction network was constructed, and three machine learning algorithms, least absolute shrinkage and selection operator (LASSO) regression analysis, random forest (RF) and support vector machine (SVM) were used to screen the core IRGs in PD pathogenesis. Potential drugs for core genes were screened through the ITCM and HERB databases, and the binding activity between the core targets and the drugs was verified by molecular docking. BV2 cells were induced with MPP + to construct a PD model. CCK-8 assay, flow cytometry, enzyme-linked immunosorbent assays, qPCR and western blotting were conducted to explore the function of CD on the activation of microglia and injury of neurons.. RESULTS: One thousand one hundred eighty-three DEGs and 518 IRGs were obtained, and 31 genes were in the intersection, among which v-rel reticuloendotheliosis viral oncogene homolog A (RELA, p65), a crucial component in NF-kappaB signaling, was upregulated in the PD samples and demonstrated good diagnostic efficacy. CD had good binding ability with RELA. CD significantly improved the viability, repressed apoptosis, reduced the production of pro-inflammatory factors (TNF-alpha, IL-6 and IL-1beta) of BV2 cells, which were induced by MPP+. In addition, CD significantly inhibited the activation of the NF-kappaB signaling pathway and the nuclear translocation of RELA. CONCLUSION: CD inhibits the inflammatory response of PD induced by microglia by targeting RELA and regulating the activation of NF-kappaB signaling.",
+    "keywords": [
+      "NF-kappaB",
+      "Parkinson's disease",
+      "cardamonin",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Signal Transduction/drug effects",
+      "*NF-kappa B/metabolism",
+      "*Parkinson Disease/genetics/drug therapy",
+      "Animals",
+      "Microglia/drug effects/metabolism",
+      "*Chalcones/pharmacology",
+      "Humans",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Neurons/drug effects",
+      "*Neuroinflammatory Diseases/drug therapy/genetics",
+      "Protein Interaction Maps",
+      "*Inflammation/genetics/drug therapy",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xia, Yezi",
+        "Zhang, Yinwei",
+        "Li, Ying",
+        "Li, Xiaojing",
+        "Wu, Yaling",
+        "Yao, Qi"
+      ],
+      "short_names": [
+        "Xia Y",
+        "Zhang Y",
+        "Li Y",
+        "Li X",
+        "Wu Y",
+        "Yao Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China.",
+        "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China.",
+        "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China.",
+        "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China.",
+        "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China.",
+        "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China. qiyao2025@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xia, Yezi",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yinwei",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Ying",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaojing",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yaling",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yao, Qi",
+        "short_name": "Yao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First Affiliated Hospital of Ningbo University, Zhejiang Province, Ningbo, 315000, P.R. China. qiyao2025@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2026 Mar 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/10 07:00",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42568402"
+    ],
+    "refs": [
+      "41517313",
+      "41512596",
+      "41502481",
+      "41389810",
+      "41355908",
+      "41035823",
+      "40930705",
+      "40141149",
+      "40071188",
+      "39345907",
+      "39242879",
+      "38866017",
+      "38489197",
+      "38212557",
+      "38036102",
+      "37801503",
+      "37646396",
+      "37549558",
+      "37446045",
+      "37311878",
+      "37304865",
+      "37048085",
+      "36716191",
+      "36672126",
+      "35912090",
+      "35812178",
+      "35663564",
+      "35325185",
+      "35142404",
+      "35013369",
+      "34691027",
+      "33947113",
+      "33704423",
+      "33555429",
+      "33237524",
+      "33182554",
+      "33086122",
+      "32973221",
+      "32313102",
+      "32286313",
+      "32279133",
+      "31733690",
+      "31455352",
+      "30195017",
+      "29883380",
+      "29765479",
+      "29245070",
+      "28636593",
+      "26646004",
+      "23259851",
+      "20696699",
+      "16632515"
+    ],
+    "similar": [
+      "41803928",
+      "41121478",
+      "41051619",
+      "40449268",
+      "40913726",
+      "34780806",
+      "30563578",
+      "34364303",
+      "41302385",
+      "28060896",
+      "39579278",
+      "39798476",
+      "38394727",
+      "39276055",
+      "39218334",
+      "40324640",
+      "35149130",
+      "40320219",
+      "39902475",
+      "37917301",
+      "31732449",
+      "39236458",
+      "40245967",
+      "34107997",
+      "41694373",
+      "40074095",
+      "39071817",
+      "41073487",
+      "29136779",
+      "41269993",
+      "38477420",
+      "42197115",
+      "41261257",
+      "40059454",
+      "41187887",
+      "42406171",
+      "42372809",
+      "27156691",
+      "38629493",
+      "29678169",
+      "41655547",
+      "41419122",
+      "36634417",
+      "40902363",
+      "33992596",
+      "39971016",
+      "34427876",
+      "41981193",
+      "41746595",
+      "22382990",
+      "34865329",
+      "41508081",
+      "37676534",
+      "36991440",
+      "28937602",
+      "37334594",
+      "42093362",
+      "38797312",
+      "33639593",
+      "33444723",
+      "38910274",
+      "39488873",
+      "39878812",
+      "42241031",
+      "31590042",
+      "37561259",
+      "39636495",
+      "41489113",
+      "30944203",
+      "31986466",
+      "41814794",
+      "34517275",
+      "29776446",
+      "29698747",
+      "41690371",
+      "38636801",
+      "31351366",
+      "42011591",
+      "37072793",
+      "42004947",
+      "38527567",
+      "40445975",
+      "40382939",
+      "36893901",
+      "30421460",
+      "33325083",
+      "42045663",
+      "39924948",
+      "41724286",
+      "42418294",
+      "41814772",
+      "42486828",
+      "39245241",
+      "29329581",
+      "36054693",
+      "26607631",
+      "38664198",
+      "41839579",
+      "40338445",
+      "29267220"
+    ],
+    "review": [
+      "41803928"
+    ],
+    "pmc": [
+      "13085287"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-026-00660-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41803928/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

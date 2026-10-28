@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and conclusions.
+- **Assessment boundary** Scientific validity of the central claim that Dps forms a trimer in the DNA-Dps crystal, based on the evidence presented. The assessment is limited to the provided manuscript text and does not include access to supplementary data, raw experimental files, or external validation.
+- **Shared manuscript claim summary** The authors propose that during formation of intracellular DNA-Dps crystals in starved E. coli, the Dps protein transitions from a dodecameric (90 Å) to a trimeric (~70 × 70 × 44 Å) oligomeric form. This claim is supported by TEM, SAXS, and molecular dynamics simulations, and the resulting crystal model is said to match experimental data.
+- **Visible evidence base** TEM images of intracellular crystals (Figure 1), SAXS data from 2-day-old cells (Figure 2), TEM of in vitro crystals (Figure 3), molecular dynamics models of trimers (Figure 4), model-to-TEM superimposition (Figure 5), simulated vs. experimental SAXS (Figure 6), and final electron density fit (Figure 7). Methods sections describe sample preparation, TEM, SAXS, and MD protocols.
+- **Missing materials affecting confidence** Raw SAXS data and fitting residuals, detailed electron density maps, validation metrics for the crystal model (e.g., R-factors, cross-correlation coefficients), PDB accession for the trimer model, and any negative controls or alternative oligomeric models tested. The manuscript does not provide quantitative agreement metrics between model and experimental data.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a long-standing puzzle regarding the reduced lattice dimensions of DNA-Dps crystals and proposes a novel trimeric form of Dps. The combination of in vivo, in vitro, and in silico approaches is commendable. However, the central claim rests on indirect evidence and a model that is not rigorously validated against alternative possibilities. The trimer model is derived from a single dodecamer structure, and the fitting into electron density is described qualitatively. The SAXS comparison is visual rather than quantitative. While the hypothesis is interesting, the evidence as presented is insufficient to establish that Dps functions as a trimer in the intracellular crystal.
+- **Who would be interested in the results, and why** Researchers studying prokaryotic stress responses, DNA-binding proteins, and ferritin-like protein families would find this work relevant. The proposed oligomeric switch could have implications for understanding bacterial dormancy and for biotechnological applications of Dps as a drug delivery vehicle. The methodological combination of TEM, SAXS, and MD may also interest structural biologists.
+- **Major strengths** The manuscript tackles a significant unresolved question in the field. The use of multiple complementary techniques (in vivo TEM, in vitro TEM, SAXS, MD) is a strength. The authors acknowledge prior observations of the size discrepancy and provide a plausible mechanistic explanation. The discussion of potential regulatory mechanisms and practical applications is thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that Dps exists as a trimer in the DNA-Dps crystal is the central thesis.
+  - **Evidence pointer** Sections 2.2, 2.3, Figures 3-7
+  - **Concern** The trimer model is constructed by "cutting out" three monomers from the dodecamer, but no evidence is provided that this trimer is a stable, biologically relevant species. The MD simulations are used to relax the trimer, but the free energy calculations compare only two trimer types, not the trimer against the dodecamer. The fitting of the trimer into the electron density is described as "manual" and then optimized, but no quantitative fit metrics (e.g., correlation coefficients, cross-validation) are provided. The SAXS comparison in Figure 6 is visual, with no stated residuals or goodness-of-fit parameters. Without these, the model cannot be distinguished from other possible arrangements.
+  - **Why it matters** The central claim requires robust evidence that the trimer is the actual oligomeric form in the crystal. If the fit is not quantitatively validated, the conclusion is not established.
+  - **Resolution test** Provide quantitative metrics for the electron density fit (e.g., cross-correlation, real-space R-factor) and for the SAXS fit (e.g., chi-squared, residuals). Compare the trimer model against the dodecamer model and other oligomeric states in the same fitting procedure. Show that the trimer is thermodynamically favored over the dodecamer under relevant conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Alternative explanations
+  - **Claim pointer** The authors attribute the reduced lattice dimensions to a change in Dps oligomeric state, dismissing shrinkage artifacts.
+  - **Evidence pointer** Section 2.1, Figure 1
+  - **Concern** The manuscript does not adequately rule out the possibility that the observed 69-75 Å spacing results from sample preparation artifacts, such as dehydration or staining, which could alter protein dimensions. The authors mention Minsky's "20% shrinkage" explanation but do not provide controls or independent verification that the lattice dimensions are not affected by such artifacts. The in vitro crystals are formed under different conditions than in vivo, and the comparison may not be direct.
+  - **Why it matters** If the size reduction is an artifact, the trimer hypothesis is unnecessary. The claim of a novel oligomeric state requires exclusion of trivial explanations.
+  - **Resolution test** Include control experiments with different fixation or embedding protocols to show lattice dimensions are consistent. Provide independent evidence (e.g., cryo-EM or cryo-ET) of the trimer in intact cells or in vitrified samples.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The MD simulations and free energy calculations are used to support the stability of the trimer.
+  - **Evidence pointer** Sections 2.3.1, 4.7-4.9
+  - **Concern** The MD protocol is described briefly, but key parameters are missing. The force field, water model, and simulation length are stated, but the equilibration procedure, temperature coupling, and pressure coupling details are incomplete. The free energy calculations use a "slow-growth" method with 72 lambda points, but the convergence and error estimates are not reported. The manuscript states the trimer from the ferritin-like pore is more stable, but the difference (185 vs 115 kJ/mol) is not discussed in terms of statistical significance or experimental relevance.
+  - **Why it matters** The computational results are used to select the trimer type, so their reliability is critical. Without error bars or convergence checks, the conclusion is not robust.
+  - **Resolution test** Provide error estimates for the free energy values, show convergence of the slow-growth simulations, and include a sensitivity analysis of the results to simulation parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, text describing crystal dimensions
+  - **Evidence pointer** "location not provided"
+  - **Issue** The text states the crystal consists of "toroidal particles with a diameter of 7 nm and a thickness of 4.4 nm," but the units are inconsistent with earlier statements using Å. The manuscript should use consistent units throughout.
+  - **Required correction** Use Å or nm consistently, and define all units at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.6, DNA sequence
+  - **Evidence pointer** "location not provided"
+  - **Issue** The DNA sequence is given as 5'-GTACTATATATTATTATGGGGGGTGATGGATGGATGGATA-3' in Section 2.3.3 but as 5'-GTACTATATATTATGGGGTGATGGATA-3' in Section 4.6. The sequences differ in length and content.
+  - **Required correction** Ensure the DNA sequence is identical in both sections, or explain the discrepancy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.1.1, statistics
+  - **Evidence pointer** "location not provided"
+  - **Issue** The percentages of cells with crystals (18 ± 4% and 82 ± 5%) are reported without specifying the number of cells counted or the statistical method used.
+  - **Required correction** Provide the sample size and statistical test used to determine these percentages.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative validation for the trimer model and the failure to rule out artifacts undermine the central claim. R1-M3, while not blocking, weakens the computational support.
+- **Assessment against Nature-style criteria** Originality: The proposal of a trimeric Dps form is novel and challenges the established dodecameric paradigm. Scientific importance: If confirmed, the finding would have broad implications for understanding bacterial stress responses and Dps function. Interdisciplinary readership: The work bridges microbiology, structural biology, and computational biophysics, which could attract a wide audience. Technical soundness: The experimental and computational methods are appropriate in principle, but the lack of quantitative validation and controls is a significant weakness. Readability for nonspecialists: The manuscript is generally clear, but the methods section is dense and the units inconsistency may confuse readers.
+- **Recommendation posture** Not currently established from the provided evidence. The hypothesis is intriguing, but the evidence is insufficient to support the strong claim that Dps functions as a trimer in the intracellular crystal. The authors must provide quantitative validation of the model and rule out alternative explanations.
+
+## Risk / unsupported claims
+- The claim that Dps transitions from dodecamer to trimer in the intracellular crystal is unsupported without quantitative model validation.
+- The assertion that the trimer is the "typical situation" for bacterial cells is based on anecdotal observations and lacks systematic evidence.
+- The statement that the trimer model "explains all the anomalous periodic values" is not backed by quantitative comparisons.
+- The free energy difference between trimer types is presented without error estimates, making the conclusion unreliable.
+- The claim that the oligomeric switch is regulated by intracellular metabolites is speculative and not directly tested.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41993275",
+  "title": "SCOPE: Localizing fate-decision states and their regulatory drivers in single-cell differentiation.",
+  "authors": "Zhao, Yimin; Finkbeiner, Connor; Setty, Manu; Lin, Kevin Z",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-04-17",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用半监督共形预测分析单细胞分化中的命运决定状态与表观遗传预编程，虽涉及转录因子驱动识别，但核心是单细胞转录组/染色质数据的统计推断，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Identifying the precise transcriptomic states at which cells commit to a lineage (branchpoints) and the temporal lag in which chromatin accessibility foreshadows gene expression (epigenetic priming) remain fundamental challenges in developmental biology. While current methods for single-cell sequencing data effectively capture developmental flow, they often lack a principled mechanism for delineating the discrete boundaries, a crucial aspect required to map the molecular logic of lineage commitment. We present SCOPE (Semi-supervised Conformal Prediction), a framework that transforms high-dimensional single-cell measurements into rigorous, discrete prediction sets of all plausible future fates. By formalizing fate uncertainty via conformal inference, SCOPE localizes the precise biological windows during which multipotent progenitors specify their fate. In multi-omic data, SCOPE uncovers epigenetic priming and identifies its driving transcription factors by detecting regimes where chromatin-derived prediction sets resolve toward terminal fates significantly before their transcriptomic counterparts. We apply SCOPE across simulations, lineage-traced mouse hematopoiesis, multiple human hematopoietic datasets, and human retinogenesis to demonstrate its broad applicability and ability to recapitulate known fate specification drivers. Ultimately, SCOPE provides a statistically grounded foundation for localizing fate decisions across biological replicates and modalities, offering a robust tool for identifying the onset of lineage specification in complex developmental systems.",
+  "abstract_zh": "识别细胞在谱系定型（分支点）时精确的转录组状态，以及染色质可及性预示基因表达的时间滞后（表观遗传预启动），仍是发育生物学中的基本挑战。尽管当前用于单细胞测序数据的方法能有效捕获发育流，但它们往往缺乏一种原则性机制来描绘离散边界，而这是绘制谱系定型分子逻辑所需的关键方面。我们提出了SCOPE（半监督共形预测），一个将高维单细胞测量转化为所有可能未来命运的严格、离散预测集的框架。通过共形推断形式化命运不确定性，SCOPE定位了多能祖细胞指定其命运的确切生物学窗口。在多组学数据中，SCOPE通过检测染色质衍生的预测集显著早于其转录组对应物向终末命运解析的机制，揭示了表观遗传预启动并识别其驱动转录因子。我们将SCOPE应用于模拟、谱系追踪的小鼠造血、多个人类造血数据集以及人类视网膜发生，以展示其广泛适用性和重现已知命运定型驱动因子的能力。最终，SCOPE为跨生物学重复和模态定位命运决策提供了统计学基础，为识别复杂发育系统中谱系定型起始提供了稳健工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41993275/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41993275/",
+  "paper_page_path": "papers/pubmed/41993275/index.html"
+}

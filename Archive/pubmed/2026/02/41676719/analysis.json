@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41676719",
+  "title": "Short-Context Regulatory DNA Language Models with Motif-Discovery Regularization.",
+  "authors": "Patel, Aman; Kundaje, Anshul",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-02-12",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出短上下文调控DNA语言模型ARSENAL，通过基序发现正则化提升转录因子基序恢复和调控变异效应预测，虽未直接建模TF-DNA三维互作，但方法高度可迁移至TF结合位点预测与调控序列设计。",
+  "abstract": "Self-supervised DNA language models (DNALMs) are typically trained at massive scale on whole genomes and long contexts. However, regulatory sequence features are sparse, heterogeneous, and dominated by poorly conserved flexible syntax of short motifs, which can be difficult to learn from genome-wide self-supervision. As a result, annotation agnostic, long-context DNALMs struggle to learn regulatory syntax and can underperform simpler baseline models on key regulatory tasks. We therefore introduce ARSENAL, a short-context masked DNA language model trained on a functionally enriched regulatory corpus and augmented with a novel regularizer than that encourages motif discovery. ARSENAL improves recovery of diverse transcription factor motifs de novo and prediction of regulatory variant effects in the zero-shot setting compared to other DNALMs. Incorporating ARSENAL embeddings also improves supervised chromatin accessibility prediction over strong ab-initio baselines across multiple cell types and yields improved regulatory variant scoring. Finally, ARSENAL serves as a practical generative prior, enabling targeted regulatory sequence design under downstream functional constraints. All code can be found at https://github.com/kundajelab/regulatory_lm, and models and data can be found at https://sageb.io/4ZpEnk.",
+  "abstract_zh": "自监督DNA语言模型（DNALMs）通常在全基因组和长上下文上以大规模方式进行训练。然而，调控序列特征稀疏、异质，且主要由保守性差的短基序灵活语法主导，这从全基因组自监督中学习可能较为困难。因此，注释无关的长上下文DNALMs难以学习调控语法，并可能在关键调控任务上表现不如更简单的基线模型。为此，我们引入了ARSENAL，一种在功能富集的调控语料库上训练的短上下文掩码DNA语言模型，并增强了一种新颖的正则化器，以促进基序发现。与其他DNALMs相比，ARSENAL在零样本设置下提高了从头恢复多样转录因子基序的能力，并改善了调控变异效应的预测。将ARSENAL嵌入整合到监督染色质可及性预测中，在多种细胞类型上优于强从头基线，并产生改进的调控变异评分。最后，ARSENAL作为实用的生成先验，能够在下游功能约束下实现靶向调控序列设计。所有代码可在https://github.com/kundajelab/regulatory_lm获取，模型和数据可在https://sageb.io/4ZpEnk获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41676719/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41676719/",
+  "paper_page_path": "papers/pubmed/41676719/index.html"
+}

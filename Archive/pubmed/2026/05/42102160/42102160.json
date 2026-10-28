@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "42102160",
+    "doi": "10.1371/journal.ppat.1014195",
+    "title": "SPRY domains encode ubiquitin ligase specificity for ZAP and RIG-I."
+  },
+  "content": {
+    "abstract": "Innate immune sensors rely on ubiquitin ligases to calibrate antiviral responses, yet the rules governing substrate recognition by SPRY-containing ligases remain poorly defined. Here, we establish a large-scale structure-based screening pipeline using AlphaFold to systematically predict interactions between human nucleic acid sensors and SPRY-containing proteins. Our approach uncovered novel transient or degradation-sensitive interactions that are typically missed by proteomic methods, including a labile TRIM58-OAS1 complex. We show that SPRY domains dictate substrate specificity: TRIM25 preferentially engages ZAP, whereas Riplet favors RIG-I. Domain-swapping experiments demonstrated that SPRY domains are sufficient to reprogram ligase specificity and antiviral activity. Phylogenetic and structural analyses revealed that TRIM25 and Riplet evolved from a common ancestor but diverged in coiled-coil architecture and oligomeric state, while retaining conserved substrate preferences. Residue-level modeling identified hypervariable SPRY loops as critical determinants of recognition, a prediction validated by targeted mutagenesis of the TRIM25-ZAP interface. Finally, we show that distinct SPRY-containing ligases surveil self-amplifying RNA (saRNA) vaccines: Riplet-RIG-I primarily responds when RNA is delivered by lipofection, whereas TRIM25-ZAP is engaged upon lipid nanoparticle delivery, with functional consequences for vaccine expression. Together, these findings demonstrate that SPRY domains encode recognition logic for ubiquitin ligases, that AlphaFold enables discovery of otherwise hidden interactions and that these principles have direct implications for RNA-based therapeutics.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Ubiquitin-Protein Ligases/metabolism/genetics/chemistry",
+      "Humans",
+      "*Tripartite Motif Proteins/metabolism/genetics/chemistry",
+      "*DEAD Box Protein 58/metabolism/genetics/chemistry",
+      "Receptors, Immunologic",
+      "Substrate Specificity",
+      "Transcription Factors/metabolism/genetics/chemistry",
+      "*B30.2-SPRY Domain",
+      "*RNA-Binding Proteins/metabolism/genetics/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Syed, Ibrahim",
+        "Chen, Sheng",
+        "Peeler, David J",
+        "McKay, Paul F",
+        "Briones-Orta, Marco A",
+        "Bohn, Jennifer A",
+        "Shattock, Robin J",
+        "Goncalves-Carneiro, Daniel"
+      ],
+      "short_names": [
+        "Syed I",
+        "Chen S",
+        "Peeler DJ",
+        "McKay PF",
+        "Briones-Orta MA",
+        "Bohn JA",
+        "Shattock RJ",
+        "Goncalves-Carneiro D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9333-1540"
+      ],
+      "affiliations": [
+        "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom.",
+        "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom.",
+        "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom.",
+        "Department of Physiology, Anatomy and Genetics, Department of Engineering Science, Kavli Institute for Nanoscience Discovery, University of Oxford, Oxford, United Kingdom.",
+        "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom.",
+        "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom.",
+        "RockEDU Science Outreach, The Rockefeller University, New York, New York, United States of America.",
+        "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom.",
+        "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Syed, Ibrahim",
+        "short_name": "Syed I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Chen, Sheng",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Peeler, David J",
+        "short_name": "Peeler DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom.",
+          "Department of Physiology, Anatomy and Genetics, Department of Engineering Science, Kavli Institute for Nanoscience Discovery, University of Oxford, Oxford, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "McKay, Paul F",
+        "short_name": "McKay PF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Briones-Orta, Marco A",
+        "short_name": "Briones-Orta MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bohn, Jennifer A",
+        "short_name": "Bohn JA",
+        "identifiers": [],
+        "affiliations": [
+          "RockEDU Science Outreach, The Rockefeller University, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Shattock, Robin J",
+        "short_name": "Shattock RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Gonçalves-Carneiro, Daniel",
+        "short_name": "Gonçalves-Carneiro D",
+        "identifiers": [
+          "0000-0002-9333-1540"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases, Faculty of Medicine, Imperial College London, London, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS pathogens"
+    ],
+    "journal_abbrev": [
+      "PLoS Pathog"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/08 18:33",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42054207",
+      "40186353",
+      "40179174",
+      "40146858",
+      "39984050",
+      "39899719",
+      "39759876",
+      "39749186",
+      "39738020",
+      "39693345",
+      "39504361",
+      "39459187",
+      "39353916",
+      "39142355",
+      "38718835",
+      "38714850",
+      "38141632",
+      "37951994",
+      "37497756",
+      "37232246",
+      "37146066",
+      "36644609",
+      "36413069",
+      "36113429",
+      "36075961",
+      "35913217",
+      "35533151",
+      "34882187",
+      "34695163",
+      "34671122",
+      "34434284",
+      "34418521",
+      "34290407",
+      "34265844",
+      "33901262",
+      "33740397",
+      "33373584",
+      "32647131",
+      "32203325",
+      "32011700",
+      "31740798",
+      "31719195",
+      "31383741",
+      "31335993",
+      "31284899",
+      "31054776",
+      "31006531",
+      "30342007",
+      "30016363",
+      "29117565",
+      "28953888",
+      "28836442",
+      "28514442",
+      "28495876",
+      "28375744",
+      "28202764",
+      "28202672",
+      "28060952",
+      "27617744",
+      "27425606",
+      "27211859",
+      "26878752",
+      "26550947",
+      "25907537",
+      "24550273",
+      "24466302",
+      "22894540",
+      "21292167",
+      "21147464",
+      "20226086",
+      "19454348",
+      "18948594",
+      "18836477",
+      "17400754",
+      "17392790",
+      "17038589",
+      "15208624",
+      "12215647",
+      "9294150",
+      "6199147"
+    ],
+    "similar": [
+      "42102160",
+      "29117863",
+      "30342007",
+      "40024477",
+      "28060952",
+      "23950712",
+      "35913217",
+      "27425606",
+      "33373584",
+      "29321315",
+      "39738020",
+      "31335993",
+      "33849980",
+      "30558248",
+      "29259080",
+      "33092958",
+      "32471869",
+      "17392790",
+      "36045682",
+      "19454348",
+      "27807226",
+      "40431746",
+      "29263274",
+      "23209422",
+      "24466302",
+      "32513696",
+      "28202764",
+      "40651151",
+      "34170466",
+      "32670286",
+      "34452305",
+      "24399297",
+      "34313226",
+      "29357390",
+      "36975005",
+      "27154206",
+      "24015671",
+      "30100205",
+      "35800389",
+      "29739942",
+      "31843969",
+      "30884854",
+      "21890623",
+      "32295922",
+      "41919938",
+      "19017631",
+      "31990130",
+      "42165681",
+      "29107643",
+      "28594325",
+      "40719442",
+      "33901262",
+      "31710640",
+      "32886716",
+      "33989636",
+      "39353916",
+      "38630167",
+      "28148787",
+      "33519812",
+      "30713027",
+      "21292167",
+      "36611995",
+      "38432077",
+      "41754607",
+      "39798334",
+      "22607805",
+      "38750080",
+      "34445801",
+      "20406818",
+      "28940253",
+      "27995135",
+      "18948594",
+      "31065957",
+      "40006954",
+      "31284899",
+      "42171628",
+      "41070967",
+      "30775439",
+      "35736141",
+      "40609779",
+      "39480084",
+      "16313355",
+      "31158386",
+      "42424143",
+      "31006531",
+      "38483900",
+      "39675716",
+      "40709172",
+      "31036902",
+      "27276113",
+      "16306043",
+      "26996158",
+      "27528750",
+      "27122586",
+      "28202672",
+      "23264040",
+      "31534039",
+      "34177899",
+      "38815532",
+      "40912423"
+    ],
+    "review": [
+      "42102160",
+      "33092958",
+      "40431746",
+      "32670286",
+      "21890623",
+      "31990130",
+      "16313355",
+      "27528750"
+    ],
+    "pmc": [
+      "13175477"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.ppat.1014195",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42102160/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

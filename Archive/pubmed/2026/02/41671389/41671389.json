@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "41671389",
+    "doi": "10.1002/advs.202520890",
+    "title": "Machine Learning-Guided Engineering of Protein Phase Separation Properties in Immune Regulation."
+  },
+  "content": {
+    "abstract": "Phase separation (PS) underpins compartmentalization in living cells, facilitating the formation of membraneless organelles and the regulation of cellular processes. Despite the increasingly pivotal role of engineering protein PS properties in the study and regulation of cellular physiological processes, manipulating PS ability through single amino acid alterations remains a challenge. Here, we develop phase separation scalpel (PScalpel), a machine learning-based tool identifying and recommends protein engineering strategies for directed changes in PS ability. Based on our biological experimental data, we apply transfer learning to achieve the feedback-driven optimization of specific protein prediction accuracy--markedly enhancing the predictive performance for TDP43, a neurodegenerative disease-associated protein. Furthermore, by engineering the crucial nucleic acid sensor cGAS as a model application, we successfully modulate its PS ability in the anticipated direction by altering a single amino acid, which subsequently optimizes its immune function and impacts the activity of engineered macrophages. Transcriptomic analysis of these cGAS-engineered macrophages further demonstrated that the immune function of macrophages can be altered by the manipulation of cGAS PS ability. In summary, PScalpel is an effective tool for guiding PS ability engineering, enabling targeted molecular and cellular modifications and providing nuanced methods for precise biomolecular engineering in future research.",
+    "keywords": [
+      "cGAS",
+      "contractive learning",
+      "innate immunity",
+      "machine learning",
+      "protein phase separation"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Phase Separation",
+      "*Protein Engineering/methods",
+      "*Macrophages/immunology/metabolism",
+      "Animals",
+      "Humans",
+      "*DNA-Binding Proteins/genetics/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Chenqiu",
+        "Wang, Jia",
+        "Wang, Zhe",
+        "Zhu, Liyan",
+        "Cai, Sihui",
+        "Zhan, Luzhi",
+        "Liang, Haorui",
+        "Wu, Yaoxing",
+        "Li, Jianqiang",
+        "Cui, Jun"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Wang J",
+        "Wang Z",
+        "Zhu L",
+        "Cai S",
+        "Zhan L",
+        "Liang H",
+        "Wu Y",
+        "Li J",
+        "Cui J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8000-3708"
+      ],
+      "affiliations": [
+        "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Critical Care Medicine, Institute of Precision Medicine, The First Affiliated Hospital of Sun Yat-sen University, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "School of Artificial Intelligence, National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen, Guangdong, China.",
+        "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Chenqiu",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jia",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhe",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Liyan",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Sihui",
+        "short_name": "Cai S",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Luzhi",
+        "short_name": "Zhan L",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Haorui",
+        "short_name": "Liang H",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yaoxing",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, Institute of Precision Medicine, The First Affiliated Hospital of Sun Yat-sen University, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianqiang",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Jun",
+        "short_name": "Cui J",
+        "identifiers": [
+          "0000-0002-8000-3708"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Gene Function and Regulation, Guangdong Province Key Laboratory of Pharmaceutical Functional Genes, State Key Laboratory of Biocontrol, Innovation Center of the Sixth Affiliated Hospital, Center of Evolutionary Synthetic Biology, School of Life Sciences, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/11 18:59",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [
+      "42204980"
+    ],
+    "refs": [
+      "39661689",
+      "39609126",
+      "38961291",
+      "38531854",
+      "38189543",
+      "37783727",
+      "37532932",
+      "37258680",
+      "37188808",
+      "37100798",
+      "37095396",
+      "36905356",
+      "36440949",
+      "36423279",
+      "36400991",
+      "36108633",
+      "35803926",
+      "35771920",
+      "35687670",
+      "35654068",
+      "35562330",
+      "35477005",
+      "35351518",
+      "35168563",
+      "35075293",
+      "35061901",
+      "34911929",
+      "34678144",
+      "34380047",
+      "34350630",
+      "33827920",
+      "33693482",
+      "33610793",
+      "33535034",
+      "33357399",
+      "33227578",
+      "33169001",
+      "32761142",
+      "32649883",
+      "32456195",
+      "32132204",
+      "31906602",
+      "31582840",
+      "31070716",
+      "30682370",
+      "30007416",
+      "29976794",
+      "29972754",
+      "29650702",
+      "29472250",
+      "29424691",
+      "29202785",
+      "28902841",
+      "28225081",
+      "28041848",
+      "27560171",
+      "27320918",
+      "26366626",
+      "26317470",
+      "25747659",
+      "25636800",
+      "24462292",
+      "22579282",
+      "22398450",
+      "19131956",
+      "10592235"
+    ],
+    "similar": [
+      "41671389",
+      "42475469",
+      "39645211",
+      "41716413",
+      "33535034",
+      "31308553",
+      "35687670",
+      "40315433",
+      "40618698",
+      "35413604",
+      "41405960",
+      "39271032",
+      "41815043",
+      "40854386",
+      "41073405",
+      "42359840",
+      "40421658",
+      "36950761",
+      "39937084",
+      "35168563",
+      "39628476",
+      "39592156",
+      "41979049",
+      "40935816",
+      "34896756",
+      "39522017",
+      "41656832",
+      "38446061",
+      "41310253",
+      "32896285",
+      "42246097",
+      "40286852",
+      "38048895",
+      "40131954",
+      "38451939",
+      "40175538",
+      "35727454",
+      "40675979",
+      "39407556",
+      "42150704",
+      "41311232",
+      "37906339",
+      "36528388",
+      "42225537",
+      "38194961",
+      "38531854",
+      "38456992",
+      "42018649",
+      "42443100",
+      "36009025",
+      "31653829",
+      "23912807",
+      "42363518",
+      "41716459",
+      "39719062",
+      "17386103",
+      "30061688",
+      "41587927",
+      "33827920",
+      "41608769",
+      "38029350",
+      "41372235",
+      "40830558",
+      "37464880",
+      "38254672",
+      "38063081",
+      "34260225",
+      "41436831",
+      "34352244",
+      "38003686",
+      "41443357",
+      "39732954",
+      "42558367",
+      "42184109",
+      "42158856",
+      "41966742",
+      "39979996",
+      "40925422",
+      "42181964",
+      "42153320",
+      "41340272",
+      "41307542",
+      "34499920",
+      "42079609",
+      "41457624",
+      "39352539",
+      "38956008",
+      "34439914",
+      "38927021",
+      "41416523",
+      "41836418",
+      "42322777",
+      "42420726",
+      "41530089",
+      "42323525",
+      "41107929",
+      "39826709",
+      "31199001",
+      "39111490",
+      "37041126"
+    ],
+    "review": [
+      "41671389",
+      "39645211",
+      "31308553",
+      "35413604",
+      "39271032",
+      "41815043",
+      "42359840",
+      "39592156",
+      "41979049",
+      "34896756",
+      "32896285",
+      "40286852",
+      "35727454",
+      "39407556",
+      "41311232",
+      "37906339",
+      "42225537",
+      "42018649",
+      "41587927",
+      "41608769",
+      "37464880",
+      "38254672",
+      "41443357",
+      "42184109",
+      "41307542",
+      "41457624",
+      "38956008",
+      "34439914",
+      "42322777",
+      "41530089",
+      "42323525"
+    ],
+    "pmc": [
+      "13088347"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41671389/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "33744965",
+    "doi": "10.1093/nar/gkab186",
+    "title": "Bound2Learn: a machine learning approach for classification of DNA-bound proteins from single-molecule tracking experiments."
+  },
+  "content": {
+    "abstract": "DNA-bound proteins are essential elements for the maintenance, regulation, and use of the genome. The time they spend bound to DNA provides useful information on their stability within protein complexes and insight into the understanding of biological processes. Single-particle tracking allows for direct visualization of protein-DNA kinetics, however, identifying whether a molecule is bound to DNA can be non-trivial. Further complications arise when tracking molecules for extended durations in processes with slow kinetics. We developed a machine learning approach, termed Bound2Learn, using output from a widely used tracking software, to robustly classify tracks in order to accurately estimate residence times. We validated our approach in silico, and in live-cell data from Escherichia coli and Saccharomyces cerevisiae. Our method has the potential for broad utility and is applicable to other organisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Computational Biology/*methods",
+      "Computer Simulation",
+      "DNA/genetics/metabolism",
+      "DNA-Binding Proteins/classification/genetics/*metabolism",
+      "Escherichia coli/genetics/metabolism",
+      "Kinetics",
+      "*Machine Learning",
+      "Protein Binding",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "Single Molecule Imaging/*methods",
+      "Time-Lapse Imaging/*methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kapadia, Nitin",
+        "El-Hajj, Ziad W",
+        "Reyes-Lamothe, Rodrigo"
+      ],
+      "short_names": [
+        "Kapadia N",
+        "El-Hajj ZW",
+        "Reyes-Lamothe R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5330-3481"
+      ],
+      "affiliations": [
+        "Department of Biology, McGill University, 3649 Sir William Osler, Montreal, QC H3G 0B1 Canada.",
+        "Department of Biology, McGill University, 3649 Sir William Osler, Montreal, QC H3G 0B1 Canada.",
+        "Department of Biology, McGill University, 3649 Sir William Osler, Montreal, QC H3G 0B1 Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kapadia, Nitin",
+        "short_name": "Kapadia N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, McGill University, 3649 Sir William Osler, Montreal, QC H3G 0B1 Canada."
+        ]
+      },
+      {
+        "full_name": "El-Hajj, Ziad W",
+        "short_name": "El-Hajj ZW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, McGill University, 3649 Sir William Osler, Montreal, QC H3G 0B1 Canada."
+        ]
+      },
+      {
+        "full_name": "Reyes-Lamothe, Rodrigo",
+        "short_name": "Reyes-Lamothe R",
+        "identifiers": [
+          "0000-0002-5330-3481"
+        ],
+        "affiliations": [
+          "Department of Biology, McGill University, 3649 Sir William Osler, Montreal, QC H3G 0B1 Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Aug 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/22 06:00",
+    "fetched_at": "2026-09-27 15:00:49"
+  },
+  "links": {
+    "cites": [
+      "42222567",
+      "41757090",
+      "39082280",
+      "38548891",
+      "36595957",
+      "36555532",
+      "36098381",
+      "35337845",
+      "34153108"
+    ],
+    "refs": [],
+    "similar": [
+      "33744965",
+      "27283312",
+      "30356068",
+      "35635706",
+      "34563548",
+      "11448879",
+      "30598073",
+      "27566148",
+      "32324946",
+      "31777933",
+      "12101404",
+      "34526657",
+      "29536446",
+      "31554957",
+      "27283298",
+      "30489640",
+      "30897079",
+      "29769736",
+      "31300695",
+      "32132705",
+      "30256971",
+      "39201346",
+      "33621478",
+      "30318444",
+      "20347988",
+      "32404423",
+      "32054475",
+      "10871405",
+      "9450742",
+      "29458770",
+      "29225079",
+      "27720644",
+      "39028508",
+      "28924664",
+      "32282792",
+      "33847954",
+      "31509386",
+      "34321355",
+      "10793143",
+      "33086040",
+      "16375763",
+      "30742999",
+      "29326044",
+      "36595957",
+      "26278177",
+      "26537300",
+      "26564975",
+      "26176413",
+      "32249245",
+      "38879921",
+      "27185951",
+      "32142788",
+      "29444234",
+      "27224489",
+      "29300163",
+      "28088356",
+      "28923950",
+      "28827358",
+      "31046040",
+      "10572299",
+      "29608705",
+      "21923481",
+      "9707563",
+      "32916094",
+      "29723137",
+      "2663063",
+      "26743001",
+      "16339724",
+      "24069454",
+      "26485569",
+      "3907859",
+      "15155821",
+      "30155812",
+      "28423569",
+      "8147849",
+      "9813115",
+      "26125187",
+      "27283314",
+      "34825219",
+      "14680970",
+      "25724101",
+      "29420814",
+      "34290254",
+      "26220077",
+      "15748298",
+      "30149870",
+      "37468504",
+      "35171646",
+      "36427148",
+      "34827616",
+      "36798603",
+      "34593878",
+      "37421134",
+      "39389671",
+      "38225387",
+      "30397207",
+      "37802292",
+      "35032142",
+      "32401664",
+      "36880553",
+      "34153108",
+      "38461367",
+      "34653388",
+      "33965058"
+    ],
+    "review": [
+      "33744965",
+      "39201346",
+      "38879921",
+      "10572299",
+      "21923481",
+      "8147849",
+      "34827616"
+    ],
+    "pmc": [
+      "8373171"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33744965/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/33744965",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33744965",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_bound2learn",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33744965",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab186",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

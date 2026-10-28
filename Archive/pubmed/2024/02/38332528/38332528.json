@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "38332528",
+    "doi": "10.1111/tpj.16663",
+    "title": "Deep learning-based quantification and transcriptomic profiling reveal a methyl jasmonate-mediated glandular trichome formation pathway in Cannabis sativa."
+  },
+  "content": {
+    "abstract": "Cannabis glandular trichomes (GTs) are economically and biotechnologically important structures that have a remarkable morphology and capacity to produce, store, and secrete diverse classes of secondary metabolites. However, our understanding of the developmental changes and the underlying molecular processes involved in cannabis GT development is limited. In this study, we developed Cannabis Glandular Trichome Detection Model (CGTDM), a deep learning-based model capable of differentiating and quantifying three types of cannabis GTs with a high degree of efficiency and accuracy. By profiling at eight different time points, we captured dynamic changes in gene expression, phenotypes, and metabolic processes associated with GT development. By integrating weighted gene co-expression network analysis with CGTDM measurements, we established correlations between phenotypic variations in GT traits and the global transcriptome profiles across the developmental gradient. Notably, we identified a module containing methyl jasmonate (MeJA)-responsive genes that significantly correlated with stalked GT density and cannabinoid content during development, suggesting the existence of a MeJA-mediated GT formation pathway. Our findings were further supported by the successful promotion of GT development in cannabis through exogenous MeJA treatment. Importantly, we have identified CsMYC4 as a key transcription factor that positively regulates GT formation via MeJA signaling in cannabis. These findings provide novel tools for GT detection and counting, as well as valuable information for understanding the molecular regulatory mechanism of GT formation, which has the potential to facilitate the molecular breeding, targeted engineering, informed harvest timing, and manipulation of cannabinoid production.",
+    "keywords": [
+      "MeJA signaling",
+      "cannabis",
+      "deep learning",
+      "glandular trichomes",
+      "transcription factor",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Oxylipins/pharmacology/metabolism",
+      "*Cyclopentanes/pharmacology/metabolism",
+      "*Cannabis/genetics/growth & development/metabolism",
+      "*Acetates/pharmacology",
+      "*Trichomes/genetics/metabolism/growth & development",
+      "*Gene Expression Regulation, Plant",
+      "*Deep Learning",
+      "*Gene Expression Profiling/methods",
+      "Transcriptome",
+      "Plant Growth Regulators/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Xiaoqin",
+        "Chen, Wei",
+        "Zhao, Yuqing",
+        "Chen, Jingjing",
+        "Ouyang, Yuzeng",
+        "Li, Minxuan",
+        "Gu, Yu",
+        "Wu, Qinqin",
+        "Cai, Sen",
+        "Guo, Foqin",
+        "Zhu, Panpan",
+        "Ao, Deyong",
+        "You, Shijun",
+        "Vasseur, Liette",
+        "Liu, Yuanyuan"
+      ],
+      "short_names": [
+        "Huang X",
+        "Chen W",
+        "Zhao Y",
+        "Chen J",
+        "Ouyang Y",
+        "Li M",
+        "Gu Y",
+        "Wu Q",
+        "Cai S",
+        "Guo F",
+        "Zhu P",
+        "Ao D",
+        "You S",
+        "Vasseur L",
+        "Liu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8107-9731"
+      ],
+      "affiliations": [
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Department of Biological Sciences, Brock University, St. Catharines, Ontario, L2S 3A1, Canada.",
+        "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Xiaoqin",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wei",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuqing",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jingjing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Yuzeng",
+        "short_name": "Ouyang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Li, Minxuan",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Yu",
+        "short_name": "Gu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qinqin",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Sen",
+        "short_name": "Cai S",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Foqin",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Panpan",
+        "short_name": "Zhu P",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Ao, Deyong",
+        "short_name": "Ao D",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "You, Shijun",
+        "short_name": "You S",
+        "identifiers": [],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Vasseur, Liette",
+        "short_name": "Vasseur L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Brock University, St. Catharines, Ontario, L2S 3A1, Canada."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuanyuan",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0001-8107-9731"
+        ],
+        "affiliations": [
+          "Haixia Institute of Science and Technology, State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, College of Life Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Plant journal : for cell and molecular biology"
+    ],
+    "journal_abbrev": [
+      "Plant J"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/09 06:42",
+    "fetched_at": "2026-09-29 14:54:48"
+  },
+  "links": {
+    "cites": [
+      "42666450",
+      "42394717",
+      "41994336",
+      "41926629",
+      "41515113",
+      "41470734",
+      "40725255",
+      "40343123",
+      "40094644"
+    ],
+    "refs": [],
+    "similar": [
+      "38332528",
+      "40834644",
+      "41849781",
+      "34647139",
+      "40122824",
+      "41070730",
+      "39538149",
+      "26342927",
+      "41839465",
+      "39409045",
+      "25536164",
+      "40157193",
+      "28861810",
+      "23646152",
+      "35151272",
+      "39806251",
+      "22552638",
+      "31469934",
+      "40590302",
+      "31965448",
+      "18216250",
+      "38872084",
+      "22748077",
+      "39373827",
+      "35737688",
+      "31226508",
+      "38892337",
+      "32842960",
+      "25311705",
+      "36617228",
+      "26656917",
+      "32227258",
+      "27724902",
+      "35285962",
+      "31163341",
+      "37016398",
+      "39378644",
+      "26420557",
+      "40086795",
+      "23771036",
+      "38373903",
+      "30865659",
+      "27851826",
+      "38649807",
+      "32570736",
+      "30903398",
+      "40457742",
+      "26642186",
+      "40597608",
+      "39228009",
+      "20874804",
+      "22377322",
+      "42065271",
+      "39409050",
+      "40472446",
+      "40891499",
+      "30321253",
+      "31719627",
+      "27659595",
+      "38745476",
+      "24660670",
+      "38490054",
+      "30871196",
+      "32338508",
+      "41513157",
+      "39722017",
+      "41549910",
+      "40011457",
+      "41665302",
+      "33788892",
+      "40428421",
+      "22639841",
+      "37834075",
+      "35171294",
+      "37099480",
+      "37390920",
+      "35649290",
+      "39902906",
+      "33372995",
+      "39275794",
+      "23187733",
+      "31374948",
+      "41388739",
+      "32680457",
+      "41092617",
+      "37239820",
+      "33986344",
+      "37246866",
+      "28527333",
+      "28827376",
+      "27115051",
+      "39941066",
+      "40976184",
+      "32727365",
+      "23835361",
+      "30368230",
+      "42143586",
+      "34392368",
+      "24683181",
+      "21401746"
+    ],
+    "review": [
+      "38332528"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38332528.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/tpj.16663",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-290",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

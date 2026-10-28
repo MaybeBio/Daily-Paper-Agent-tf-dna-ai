@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37456892",
+  "title": "Identification of key biomarkers based on the proliferation of secondary hyperparathyroidism by bioinformatics analysis and machine learning.",
+  "authors": "Shen, Aiwen; Shi, Jialin; Wang, Yu; Zhang, Qian; Chen, Jing",
+  "journal": "PeerJ",
+  "published_date": "2023-07-17",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过生物信息学与机器学习筛选继发性甲旁亢增殖相关生物标志物，虽涉及转录因子预测，但核心是基因表达与免疫浸润分析，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与课题关联较弱。",
+  "abstract": "OBJECTIVE: Secondary hyperparathyroidism (SHPT) is a frequent complication of chronic kidney disease (CKD) associated with morbidity and mortality. This study aims to identify potential biomarkers that may be used to predict the progression of SHPT and to elucidate the molecular mechanisms of SHPT pathogenesis at the transcriptome level. METHODS: We analyzed differentially expressed genes (DEGs) between diffuse and nodular parathyroid hyperplasia of SHPT patients from the GSE75886 dataset, and then verified DEG levels with the GSE83421 data file of primary hyperparathyroidism (PHPT) patients. Candidate gene sets were selected by machine learning screens of differential genes and immune cell infiltration was explored with the CIBERSORT algorithm. RcisTarget was used to predict transcription factors, and Cytoscape was used to construct a lncRNA-miRNA-mRNA network to identify possible molecular mechanisms. Immunohistochemistry (IHC) staining and quantitative real-time polymerase chain reaction (qRT-PCR) were used to verify the expression of screened genes in parathyroid tissues of SHPT patients and animal models. RESULTS: A total of 614 DEGs in GSE75886 were obtained as candidate gene sets for further analysis. Five key genes (USP12, CIDEA, PCOLCE2, CAPZA1, and ACCN2) had significant expression differences between groups and were screened with the best ranking in the machine learning process. These genes were shown to be closely related to immune cell infiltration levels and play important roles in the immune microenvironment. Transcription factor ZBTB6 was identified as the master regulator, alongside multiple other transcription factors. Combined with qPCR and IHC assay of hyperplastic parathyroid tissues from SHPT patients and rats confirm differential expression of USP12, CIDEA, PCOLCE2, CAPZA1, and ACCN2, suggesting that they may play important roles in the proliferation and progression of SHPT. CONCLUSION: USP12, CIDEA, PCOLCE2, CAPZA1, and ACCN2 have great potential both as biomarkers and as therapeutic targets in the proliferation of SHPT. These findings suggest novel potential targets and future directions for SHPT research.",
+  "abstract_zh": "目的：继发性甲状旁腺功能亢进症（SHPT）是慢性肾脏病（CKD）的常见并发症，与发病率和死亡率相关。本研究旨在识别可能用于预测SHPT进展的潜在生物标志物，并在转录组水平阐明SHPT发病的分子机制。方法：我们分析了来自GSE75886数据集的SHPT患者弥漫性与结节性甲状旁腺增生之间的差异表达基因（DEGs），随后使用原发性甲状旁腺功能亢进症（PHPT）患者的GSE83421数据文件验证DEG水平。通过机器学习筛选差异基因选择候选基因集，并利用CIBERSORT算法探索免疫细胞浸润。使用RcisTarget预测转录因子，并使用Cytoscape构建lncRNA-miRNA-mRNA网络以识别可能的分子机制。采用免疫组织化学（IHC）染色和实时定量聚合酶链反应（qRT-PCR）验证筛选基因在SHPT患者及动物模型甲状旁腺组织中的表达。结果：在GSE75886中共获得614个DEGs作为候选基因集用于进一步分析。五个关键基因（USP12、CIDEA、PCOLCE2、CAPZA1和ACCN2）在组间表达差异显著，并在机器学习过程中排名最佳。这些基因被证明与免疫细胞浸润水平密切相关，并在免疫微环境中发挥重要作用。转录因子ZBTB6被确定为主要调控因子，同时还有其他多个转录因子。结合SHPT患者和大鼠增生甲状旁腺组织的qPCR和IHC检测，确认USP12、CIDEA、PCOLCE2、CAPZA1和ACCN2的差异表达，表明它们可能在SHPT的增殖和进展中发挥重要作用。结论：USP12、CIDEA、PCOLCE2、CAPZA1和ACCN2在SHPT增殖中具有作为生物标志物和治疗靶点的巨大潜力。这些发现为SHPT研究提供了新的潜在靶点和未来方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37456892/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37456892/",
+  "paper_page_path": "papers/pubmed/37456892/index.html"
+}

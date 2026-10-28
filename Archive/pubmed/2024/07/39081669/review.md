@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplemental material references.
+- **Assessment boundary** Scientific validity, methodological rigor, and support of claims based solely on the provided manuscript content. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that the FDA-approved tyrosine kinase inhibitor nilotinib can disrupt the MYC-MAX heterocomplex by binding to a druggable site on the c-MYC protein, as identified through structure-based and activity-based virtual screening, and stabilized via molecular dynamics simulations. They further suggest that nilotinib's gene expression effects in CML cells overlap with MYC-responsive genes, implying a potential MYC-inhibitory mechanism.
+- **Visible evidence base** Methods and results sections describing virtual screening (AutoDock Vina, Glide), QSAR modeling, MD simulations (NAMD, Desmond), and differential gene expression analysis of a public microarray dataset (GSE19567). Figures and tables referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figures, tables, supplemental files (S1, S2, S3), movies (S1, S2), and detailed QSAR model statistics are referenced but not provided. This limits independent verification of docking poses, QSAR performance, MD trajectory stability, and gene expression overlap analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational drug repurposing study with a clear hypothesis and a multi-method in silico approach. However, the evidence provided is insufficient to establish the central claim that nilotinib disrupts the MYC-MAX interaction. Key methodological details are missing, validation against experimental data is absent, and the gene expression analysis is only weakly linked to direct MYC inhibition. The work is exploratory and may be of interest to the computational drug discovery community, but it does not currently meet the standards for a high-impact general journal.
+- **Who would be interested in the results, and why** Researchers in computational drug repurposing, cancer biology, and MYC-targeted therapy development may find the approach and preliminary findings relevant. The identification of a known drug as a potential MYC-MAX disruptor could inform future experimental studies, particularly in cancers with MYC overexpression.
+- **Major strengths**  
+  1. The study addresses a challenging and clinically relevant target (MYC-MAX interaction) using a rational drug repurposing strategy.  
+  2. The combination of structure-based and activity-based screening methods is a reasonable approach to narrow down candidates from a large library.  
+  3. The use of two independent MD simulation packages to assess binding stability adds some robustness to the computational predictions.  
+  4. The focus on a FDA-approved drug (nilotinib) with known safety profiles enhances translational potential.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The manuscript claims that nilotinib "possesses remarkable inhibitory properties toward the MYC-MAX dimer" and that it "disrupts the MYC-MAX heterocomplex."  
+    - **Evidence pointer** Results sections on docking, QSAR, and MD simulations; Figures 1-3; Tables 1-2.  
+    - **Concern** The central claim of MYC-MAX disruption is based solely on computational predictions. No experimental validation (e.g., co-immunoprecipitation, fluorescence polarization, or cellular assays) is provided to demonstrate that nilotinib actually inhibits the interaction in vitro or in vivo.  
+    - **Why it matters** Computational docking and MD simulations can suggest binding, but they do not prove functional inhibition. Without experimental confirmation, the claim of "inhibitory properties" is unsupported and potentially misleading.  
+    - **Resolution test** Provide experimental data showing direct disruption of MYC-MAX binding by nilotinib, such as biochemical assays or cell-based reporter systems.  
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Methodological transparency  
+    - **Claim pointer** The authors state that a "potential druggable site" was identified on the c-MYC protein and used for virtual screening.  
+    - **Evidence pointer** Methods section "Target protein retrieval and preparation"; Figure 1A.  
+    - **Concern** The identification of the druggable site is described only briefly. Details on the SiteMap scoring criteria, the specific residues defining the site, and how the site was validated as functionally relevant for MYC-MAX disruption are not provided.  
+    - **Why it matters** The choice of binding site is critical for the validity of the docking results. If the site is not biologically relevant or is not involved in the MYC-MAX interface, the entire screening approach may be flawed.  
+    - **Resolution test** Clearly describe the druggable site, including its location relative to the MYC-MAX interface, and provide evidence (e.g., known mutagenesis data or structural analysis) that targeting this site could disrupt the interaction.  
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Data interpretation  
+    - **Claim pointer** The authors claim that "nilotinib, uniquely among the tested TKIs, induced a gene expression program in which half of the genes were known to be responsive to c-MYC."  
+    - **Evidence pointer** Results section "Nilotinib-driven gene expression program and MYC responsive gene signature"; Figure 4.  
+    - **Concern** The gene expression analysis is based on a public dataset (GSE19567) and compares nilotinib and imatinib treatments. However, the analysis does not directly link the observed gene expression changes to MYC inhibition. The overlap with MYC-responsive genes is correlative and could be due to off-target effects or indirect pathways.  
+    - **Why it matters** The claim of a MYC-specific effect is central to the paper's hypothesis. Without a direct demonstration that the gene expression changes are caused by MYC-MAX disruption (e.g., by comparing with known MYC inhibitors or using MYC knockdown), the interpretation is speculative.  
+    - **Resolution test** Perform additional analyses, such as gene set enrichment analysis for MYC targets, or compare the nilotinib-induced expression signature with that of established MYC inhibitors.  
+  - **Concern ID** R1-M4  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The authors state that MD simulations showed "stable interaction between MYC and nilotinib" and that the complex was "stable throughout the 100 nanoseconds."  
+    - **Evidence pointer** Results section "Analysis of receptor-ligand interaction through MD simulation"; Figure 3A-B.  
+    - **Concern** The MD simulation results are presented with limited quantitative detail. The RMSD plots show initial fluctuations, but the criteria for "stability" are not defined. Additionally, only one trajectory per system appears to have been run, which is insufficient to assess reproducibility.  
+    - **Why it matters** MD simulations are stochastic and can be sensitive to initial conditions. A single trajectory does not provide robust evidence of stable binding.  
+    - **Resolution test** Provide multiple independent MD runs, report average RMSD and RMSF values with standard deviations, and define a clear threshold for stability.  
+  - **Concern ID** R1-M5  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Comparative analysis  
+    - **Claim pointer** The authors claim that nilotinib was "on the top of list in both docking methods when compared with known interactors of c-MYC."  
+    - **Evidence pointer** Results section "Molecular docking-based screening through AutoDock Vina"; Table 1.  
+    - **Concern** The comparison with "known interactors" is not described in detail. It is unclear which known inhibitors were used as comparators, how their docking scores were obtained, and whether the comparison was statistically meaningful.  
+    - **Why it matters** The claim of superiority over known interactors is important for justifying nilotinib as a lead candidate. Without a clear comparative framework, this claim is not verifiable.  
+    - **Resolution test** Provide a table listing known MYC-MAX inhibitors, their docking scores, and the statistical significance of the differences with nilotinib.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract, last sentence.  
+    - **Issue** The phrase "comparable better predicted activity" is grammatically awkward and unclear.  
+    - **Required correction** Rephrase to "comparable or better predicted activity" or similar.  
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Methods, QSAR section  
+    - **Evidence pointer** Methods section "Quantitative structure-activity relationship".  
+    - **Issue** The number of PLS factors used in the QSAR models is not stated.  
+    - **Required correction** Specify the number of PLS factors and the validation method (e.g., cross-validation) used.  
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Data presentation  
+    - **Affected element** Results, gene expression analysis  
+    - **Evidence pointer** Results section "Nilotinib-driven gene expression program and MYC responsive gene signature".  
+    - **Issue** The text mentions "397 and 85 genes" but then states "we focused on the 397 genes" without explaining why the 85 imatinib-specific genes were excluded from further analysis.  
+    - **Required correction** Clarify the rationale for focusing only on nilotinib-specific genes.  
+  - **Concern ID** R1-m4  
+    - **Severity** Minor  
+    - **Axis** Referencing  
+    - **Affected element** Discussion  
+    - **Evidence pointer** Discussion, paragraph on nilotinib's off-target effects.  
+    - **Issue** The claim that nilotinib exerts anti-tumor activity in cancers without BCR-ABL1 is supported by references 46-48, but the specific mechanisms are not discussed.  
+    - **Required correction** Briefly describe the proposed mechanisms from these references to strengthen the argument.  
+  - **Concern ID** R1-m5  
+    - **Severity** Minor  
+    - **Axis** Technical detail  
+    - **Affected element** Methods, MD simulation  
+    - **Evidence pointer** Methods section "Molecular dynamics simulation".  
+    - **Issue** The temperature for the Desmond simulation is stated as 310 K, while the NAMD simulation is at 300 K. This inconsistency is not explained.  
+    - **Required correction** Justify the different temperatures or use a consistent temperature for both simulations.
+
+## Risk / unsupported claims
+- The claim that nilotinib "disrupts the MYC-MAX heterocomplex" is unsupported by direct experimental evidence; it is inferred solely from computational predictions.
+- The claim that nilotinib "uniquely" induces a MYC-responsive gene expression program is not adequately supported, as the analysis does not compare with other TKIs beyond imatinib and does not establish a causal link to MYC inhibition.
+- The identification of a "druggable site" on c-MYC is not validated against known functional data, and its relevance to MYC-MAX disruption is speculative.
+- The MD simulation results are presented without sufficient statistical rigor (e.g., multiple replicates, error bars) to support the claim of stable binding.
+- The comparative claim that nilotinib outperforms "known interactors" of c-MYC is not verifiable due to lack of detail on the comparators and scoring methodology.

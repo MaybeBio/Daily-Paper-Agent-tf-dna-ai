@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "42145197",
+    "doi": "10.16288/j.yczz.25-184",
+    "title": "Prediction method for transcription factor binding sites integrating channel and spatial attention mechanisms."
+  },
+  "content": {
+    "abstract": "Accurate identification of transcription factor binding sites (TFBSs) at single-nucleotide resolution remains a central challenge in deciphering gene expression regulatory networks. To improve the performance of existing computational models for predicting TFBSs across different cell types, we presented a deep learning model integrating channel and spatial attention mechanisms. In this study, we trained and tested the model using a comprehensive dataset that included ChIP-seq data from 51 groups, involving 10 core transcription factors (e.g., CTCF, EGR1, FOXA1) across 13 human cell lines (e.g., A549, GM12878, H1-hESC), and DNase-seq data from 13 datasets. The results demonstrated that this model exhibited superior performance across 23 TF-cell type combinations, achieving a mean area under the receiver operating characteristic curve (AUROC) of 0.986, with 91% of samples yielding an AUROC above 0.970. Additionally, the mean area under the precision-recall curve (AUPRC) reached 0.169, over 1,000-fold higher than the random baseline 0.000156. When compared to state-of-the-art models in the field, such as FactorNet, Leopard, and DeepGRN, our model outperformed them in terms of AUROC on nine shared TF-cell type datasets. Visualization analyses further confirmed that our model enabled accurate identification of cell-type-specific TFBSs. This study provides an efficient computational framework for precise cross-cell-type TFBS prediction, thereby facilitating in-depth investigations into gene expression regulatory mechanisms and the molecular pathogenesis of related diseases.",
+    "keywords": [
+      "attention mechanism",
+      "cross- cell prediction",
+      "deep learning",
+      "single-nucleotide resolution",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Binding Sites",
+      "*Transcription Factors/metabolism/genetics",
+      "*Computational Biology/methods",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Ji-Hua",
+        "Chen, Zhong-Xing",
+        "Kang, Qi-Lin",
+        "Li, Long-Fei",
+        "Yang, Jia-Hui",
+        "Zhang, Yu-Ting"
+      ],
+      "short_names": [
+        "Feng JH",
+        "Chen ZX",
+        "Kang QL",
+        "Li LF",
+        "Yang JH",
+        "Zhang YT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+        "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China.",
+        "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+        "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China.",
+        "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+        "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China.",
+        "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+        "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China.",
+        "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+        "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China.",
+        "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+        "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Ji-Hua",
+        "short_name": "Feng JH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+          "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhong-Xing",
+        "short_name": "Chen ZX",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+          "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Qi-Lin",
+        "short_name": "Kang QL",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+          "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China."
+        ]
+      },
+      {
+        "full_name": "Li, Long-Fei",
+        "short_name": "Li LF",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+          "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jia-Hui",
+        "short_name": "Yang JH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+          "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu-Ting",
+        "short_name": "Zhang YT",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Information Engineering, Yunnan Minzu University, Kunming 650504, China.",
+          "Yunnan Key Laboratory of Unmanned Autonomous System, Kunming 650504, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Yi chuan = Hereditas"
+    ],
+    "journal_abbrev": [
+      "Yi Chuan"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 06:31",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42145197",
+      "33741685",
+      "40914877",
+      "38701417",
+      "38732207",
+      "40411397",
+      "41634097",
+      "40702706",
+      "39701486",
+      "42099803",
+      "33522898",
+      "34272562",
+      "39350338",
+      "39107889",
+      "41861881",
+      "40646689",
+      "27567672",
+      "41527854",
+      "31336830",
+      "41022541",
+      "40102719",
+      "31372637",
+      "30922998",
+      "38733561",
+      "41883144",
+      "24927817",
+      "34929739",
+      "37598467",
+      "41601205",
+      "27503086",
+      "27209209",
+      "38798191",
+      "25957350",
+      "40889326",
+      "28750606",
+      "36155619",
+      "30835229",
+      "22955984",
+      "37805453",
+      "34664074",
+      "24386279",
+      "31714956",
+      "32770026",
+      "35719916",
+      "35997560",
+      "23282203",
+      "39062480",
+      "36484687",
+      "40334196",
+      "39227799",
+      "41288963",
+      "38354497",
+      "30709337",
+      "34864886",
+      "39271116",
+      "24472686",
+      "17914226",
+      "39076052",
+      "41035197",
+      "40654959",
+      "37328639",
+      "20158869",
+      "29757349",
+      "33137083",
+      "35263332",
+      "40662821",
+      "28718849",
+      "39623329",
+      "37140548",
+      "37651627",
+      "39602828",
+      "30380113",
+      "22941648",
+      "31161194",
+      "19586888",
+      "24042128",
+      "40302345",
+      "19403457",
+      "24926895",
+      "34073774",
+      "20360861",
+      "40251476",
+      "41978381",
+      "28234893",
+      "41518506",
+      "24039567",
+      "31001412",
+      "34607350",
+      "41643219",
+      "40065237",
+      "29363433",
+      "41208840",
+      "15799782",
+      "37919990",
+      "38293094",
+      "23244338",
+      "39922842",
+      "38980373",
+      "30447332",
+      "36555143"
+    ],
+    "review": [
+      "42145197",
+      "31714956",
+      "19586888",
+      "30447332"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

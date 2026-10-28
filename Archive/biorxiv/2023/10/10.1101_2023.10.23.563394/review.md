@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided, excluding supplementary figures and tables referenced but not included.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the supplied text. No assessment of formatting, grammar, or editorial style beyond readability for nonspecialists.
+- **Shared manuscript claim summary** The authors propose a mechanistic explanation for why the CHT7_CXC domain of the CHT7 protein in Chlamydomonas reinhardtii is dispensable for transcriptional regulation during quiescence, despite possessing sequence-specific DNA binding ability. They argue that molecular crowding within CHT7 multiprotein complexes imposes steric constraints that allosterically inactivate the CXC domain, preventing it from engaging in transcriptional activities.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only, with references to Figures 1-4, Tables 1-3, and Supplementary Figures S1-S12), Discussion, Materials and Methods (brief summaries only), Acknowledgments.
+- **Missing materials affecting confidence** All figures, tables, supplementary information, detailed experimental protocols, raw data, statistical analyses, and computational parameters are not provided. These are essential for verifying the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question in algal biology: how a transcription factor with a functional DNA binding domain avoids using it during quiescence regulation. The hypothesis that steric/allosteric effects within multiprotein complexes inactivate the CXC domain is plausible and mechanistically appealing. However, the current manuscript, as presented, is largely a narrative summary of results without the underlying data. The evidence base is insufficient to evaluate the technical soundness of the experiments, the robustness of the computational analyses, or the validity of the conclusions. The claims are intriguing but not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying quiescence regulation in microalgae, particularly those focused on triacylglycerol accumulation for biofuel applications. Also, investigators interested in the regulation of DNA binding domains in transcription factors, the role of intrinsically disordered regions or linker domains in protein function, and the biophysical basis of protein-DNA recognition under crowded conditions. The proposed allosteric switching mechanism could have broader relevance to transcriptional regulation in other organisms.
+- **Major strengths** The question is well-motivated and biologically significant. The authors integrate experimental (FPA, EMSA) and computational (homology modeling, MD simulations, MSM) approaches, which is a commendable strategy. The hypothesis is novel and provides a testable framework for understanding CXC domain regulation. The discussion of asymmetric subdomain function and its potential role in DNA search mechanisms is thoughtful and connects to a broader literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that CHT7_CXC possesses sequence-specific DNA recognition ability, supported by a K D of 873.38±133.17 nM for a 27mer containing TTTGAA.
+  - **Evidence pointer** Figure 1A, 1C; Table 1; location not provided for raw data.
+  - **Concern** The K D value is reported, but no experimental details are given. The FPA and EMSA data are referenced but not shown. The specificity of binding is based on a single sequence variant (CCTGCC) and a shorter 13mer. It is unclear how many replicates were performed, how the K D was calculated, and whether the binding is truly specific or merely preferential. The claim of "highly selective" is not supported by the limited evidence described.
+  - **Why it matters** The entire premise of the paper rests on the idea that CHT7_CXC can bind DNA specifically. If this binding is weak or non-specific, the subsequent arguments about why it is restrained become less compelling. The K D of ~873 nM is relatively weak, and the authors do not discuss whether this is physiologically relevant.
+  - **Resolution test** Provide the full FPA and EMSA data, including titration curves, replicates, and statistical analysis. Show binding to a range of DNA sequences, including negative controls with scrambled or unrelated sequences. Demonstrate that the binding is specific and not just due to non-electrostatic interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational methods
+  - **Claim pointer** The claim that MD simulations and MSM analyses reveal distinct metastable states for the four DNA complexes, with TTTGAA showing predominantly single occupancy and CCTGAA showing two states, while CCTGCC and TTTGCC show multiple states.
+  - **Evidence pointer** Figures 2, 3; Table 2; location not provided for simulation parameters.
+  - **Concern** The computational methods are described only in the briefest terms. No details are given on the force field, simulation length (beyond 500 ns), temperature, pressure, solvation model, or convergence criteria. The MSM construction is not described, including how states were defined, how the lag time was chosen, or how the model was validated. The claim that the metastable states "support" the experimental observations is not verifiable without these details.
+  - **Why it matters** The computational results are used to explain the experimental binding differences and to support the allosteric hypothesis. If the simulations are not robust or well-validated, the conclusions drawn from them are unreliable. The lack of methodological detail prevents any assessment of the technical quality.
+  - **Resolution test** Provide a full description of the computational methods, including all parameters, software versions, and validation steps. Show convergence of the simulations, error bars on the MSM states, and a comparison of the simulated binding free energies with the experimental K D values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the central hypothesis
+  - **Claim pointer** The claim that steric forces, modeled by the AsLOV2-CXC fusion, can allosterically inactivate the CXC domain and prevent DNA binding.
+  - **Evidence pointer** Figure 4B; Table 3; location not provided for the fusion construct details.
+  - **Concern** The AsLOV2 system is a clever approach, but the manuscript does not provide any experimental validation of the fusion constructs. It is unclear whether the fusion proteins were expressed, purified, and tested for DNA binding in vitro. The binding enthalpies in Table 3 are reported, but the methods for measuring them are not described. The claim that the dark state (folded Jα helix) imposes steric restrictions is based on simulations only, with no experimental confirmation.
+  - **Why it matters** The central hypothesis is that molecular crowding in the CHT7 complex inactivates the CXC domain. The AsLOV2 fusion is the only evidence for this, and it is purely computational. Without experimental support, the hypothesis remains speculative. The authors do not discuss alternative explanations, such as post-translational modifications or subcellular localization.
+  - **Resolution test** Provide experimental data on the AsLOV2-CXC fusion proteins, including expression, purification, and DNA binding assays in both dark and light states. Show that the dark state reduces DNA binding affinity compared to the light state. Ideally, perform mutagenesis to disrupt the steric interaction and rescue DNA binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The claim that the availability of TTYRAA sites in promoters of genes misregulated in the cht7 mutant suggests a potential role for CXC binding.
+  - **Evidence pointer** Figure S3; location not provided for the promoter analysis.
+  - **Concern** The authors identify TTYRAA sites in some promoters, but they do not show whether these sites are actually bound by CHT7_CXC in vivo. The connection between in vitro binding and in vivo function is not established. The authors do not discuss whether the identified genes are direct targets of CHT7 or whether the CXC domain is even accessible to chromatin in the native context.
+  - **Why it matters** The paper aims to explain why the CXC domain is restrained from participating in transcriptional regulation. If the CXC domain never encounters its binding sites in vivo, the question becomes less relevant. The authors need to demonstrate that the CXC domain has the potential to bind these promoters and that this binding would be detrimental if not prevented.
+  - **Resolution test** Perform ChIP-seq or ChIP-qPCR to show whether CHT7_CXC binds to the identified promoters in vivo. Alternatively, use a reporter assay to test whether CXC binding affects gene expression. Discuss the chromatin accessibility of these regions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Compromised Hydrolysis of Triacylglycerol 7 (CHT7) restrains the involvement of it’s DNA binding CXC domain from quiescence repression" is grammatically awkward and unclear. The title also contains a similar issue.
+  - **Required correction** Rephrase for clarity, e.g., "A possible mechanistic insight into how CHT7 prevents its DNA binding CXC domain from participating in quiescence repression."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The methods section is extremely brief and refers to "SI" for all details. This is not acceptable for a standalone manuscript.
+  - **Required correction** Provide at least a summary of the key methods, including protein expression and purification, FPA and EMSA protocols, and computational parameters. The SI should be supplementary, not essential.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on asymmetric subdomains
+  - **Evidence pointer** Discussion, "This differential binding ability..."
+  - **Issue** The authors suggest that asymmetric subdomains facilitate a "monkey bar" search mechanism, but this is speculative and not directly tested. The connection to the observed data is weak.
+  - **Required correction** Either provide additional evidence for this mechanism or soften the language to indicate it is a hypothesis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, section on subdomain binding
+  - **Evidence pointer** Results, "Differential binding abilities..."
+  - **Issue** The text states that CXC_C shows no binding in isolation, but the full CXC binds CCTGAA. The explanation for this is not fully clear. The authors should clarify whether CXC_C has any intrinsic DNA binding ability or if it only binds when CXC_N is anchored.
+  - **Required correction** Clarify the role of CXC_C in the binding mechanism, perhaps with a schematic or a more explicit statement.
+- **Technical failings that need to be addressed before the case is established** The lack of primary data (figures, tables, and supplementary information) is a critical failing. The manuscript is essentially an extended abstract. The computational methods are not described in sufficient detail to be reproducible. The AsLOV2 fusion experiments are not validated experimentally. The in vivo relevance of the findings is not demonstrated.
+- **Assessment against Nature-style criteria** Originality: The hypothesis is original and addresses a gap in understanding of CHT7 function. Scientific importance: The work has potential importance for algal biotechnology and for understanding transcription factor regulation, but the importance is not fully realized without in vivo validation. Interdisciplinary readership: The topic is of interest to cell biologists, biochemists, and computational biologists, but the presentation is too specialized and lacks context for a broad audience. Technical soundness: Cannot be assessed due to missing data and methods. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with the field; the abstract is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the claims are not supported by the data presented. The authors must provide the full dataset, detailed methods, and experimental validation of the central hypothesis before the case can be made.
+
+## Risk / unsupported claims
+- The claim that CHT7_CXC is "highly selective" for TTTGAA is unsupported without full binding data.
+- The claim that the AsLOV2 dark state imposes steric restrictions on CXC is unsupported without experimental validation.
+- The claim that molecular crowding within CHT7 complexes is the mechanism for CXC inactivation is speculative and not directly tested.
+- The claim that the identified TTYRAA sites in promoters are relevant to CHT7 function is unsupported without in vivo data.
+- The claim that the loop length affects binding stability is based on limited computational analysis and requires further validation.

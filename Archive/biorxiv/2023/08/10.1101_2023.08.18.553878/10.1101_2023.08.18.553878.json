@@ -1,0 +1,303 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.18.553878",
+  "title": "Dynamics of chromatin accessibility during human first-trimester neurodevelopment",
+  "doi": "10.1101/2023.08.18.553878",
+  "abstract": "The human brain is capable of highly complex functions that develops through a tightly organized cascade of patterning events, expressed transcription factors and changes in chromatin accessibility. While extensive datasets exist describing gene expression across the developing brain with single-cell resolution, similar atlases of chromatin accessibility have been primarily focused on the forebrain. Here, we focus on the chromatin landscape and paired gene expression across the developing human brain to provide a comprehensive single cell atlas during the first trimester (6 - 13 post-conceptional weeks). We identified 135 clusters across half a million nuclei and using the multiomic measurements linked candidate cis- regulatory elements (cCREs) to gene expression. We found an increase in the number of accessible regions driven both by age and neuronal differentiation. Using a convolutional neural network we identified putative functional TF-binding sites in enhancers characterizing neuronal subtypes and we applied this model to cCREs upstream of ESRRB to elucidate its activation mechanism. Finally, by linking disease-associated SNPs to cCREs we validated putative pathogenic mechanisms in several diseases and identified midbrain-derived GABAergic neurons as being the most vulnerable to major depressive disorder related mutations. Together, our findings provide a higher degree of detail to some key gene regulatory mechanisms underlying the emergence of cell types during the first trimester. We anticipate this resource to be a valuable reference for future studies related to human neurodevelopment, such as identifying cell type specific enhancers that can be used for highly specific targeting in in vitro models.",
+  "authors": [
+    "Mannens CC",
+    "Hu L",
+    "Lönnerberg P",
+    "Schipper M",
+    "Reagor C",
+    "Li X",
+    "He X",
+    "Barker RA",
+    "Sundström E",
+    "Posthuma D",
+    "Linnarsson S"
+  ],
+  "published_date": "2023-08-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.18.553878",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.18.553878.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR705102",
+    "raw_record": {
+      "id": "PPR705102",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR705102"
+        ]
+      },
+      "doi": "10.1101/2023.08.18.553878",
+      "title": "Dynamics of chromatin accessibility during human first-trimester neurodevelopment",
+      "authorString": "Mannens CC, Hu L, Lönnerberg P, Schipper M, Reagor C, Li X, He X, Barker RA, Sundström E, Posthuma D, Linnarsson S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mannens CC",
+            "lastName": "Mannens",
+            "firstName": "Camiel C.A.",
+            "initials": "CC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1318-2603"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hu L",
+            "lastName": "Hu",
+            "firstName": "Lijuan",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lönnerberg P",
+            "lastName": "Lönnerberg",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schipper M",
+            "lastName": "Schipper",
+            "firstName": "Marijn",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5170-2796"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Complex Trait Genetics, Center for Neurogenomics and Cognitive Research, Vrije Universiteit Amsterdam, Amsterdam, Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reagor C",
+            "lastName": "Reagor",
+            "firstName": "Caleb",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, The Rockefeller University, New York, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li X",
+            "lastName": "Li",
+            "firstName": "Xiaofei",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Neurodegeneration, Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "He X",
+            "lastName": "He",
+            "firstName": "Xiaoling",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "John van Geest Centre for Brain Repair, Department of Clinical Neurosciences, Wellcome-MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barker RA",
+            "lastName": "Barker",
+            "firstName": "Roger",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "John van Geest Centre for Brain Repair, Department of Clinical Neurosciences, Wellcome-MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sundström E",
+            "lastName": "Sundström",
+            "firstName": "Erik",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Neurodegeneration, Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Posthuma D",
+            "lastName": "Posthuma",
+            "firstName": "Danielle",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7582-2365"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Complex Trait Genetics, Center for Neurogenomics and Cognitive Research, Vrije Universiteit Amsterdam, Amsterdam, Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Linnarsson S",
+            "lastName": "Linnarsson",
+            "firstName": "Sten",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular Neurobiology, Department of Medical Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7582-2365"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1318-2603"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5170-2796"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2931-8015"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The human brain is capable of highly complex functions that develops through a tightly organized cascade of patterning events, expressed transcription factors and changes in chromatin accessibility. While extensive datasets exist describing gene expression across the developing brain with single-cell resolution, similar atlases of chromatin accessibility have been primarily focused on the forebrain. Here, we focus on the chromatin landscape and paired gene expression across the developing human brain to provide a comprehensive single cell atlas during the first trimester (6 - 13 post-conceptional weeks). We identified 135 clusters across half a million nuclei and using the multiomic measurements linked candidate  cis- regulatory elements (cCREs) to gene expression. We found an increase in the number of accessible regions driven both by age and neuronal differentiation. Using a convolutional neural network we identified putative functional TF-binding sites in enhancers characterizing neuronal subtypes and we applied this model to cCREs upstream of  ESRRB to elucidate its activation mechanism. Finally, by linking disease-associated SNPs to cCREs we validated putative pathogenic mechanisms in several diseases and identified midbrain-derived GABAergic neurons as being the most vulnerable to major depressive disorder related mutations. Together, our findings provide a higher degree of detail to some key gene regulatory mechanisms underlying the emergence of cell types during the first trimester. We anticipate this resource to be a valuable reference for future studies related to human neurodevelopment, such as identifying cell type specific enhancers that can be used for highly specific targeting in  in vitro models.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/21/2023.08.18.553878.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.18.553878"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR705102"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR705102&type=FILE&fileName=EMS186657-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 6,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186657",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-20",
+      "firstIndexDate": "2023-08-29",
+      "fullTextReceivedDate": "2023-11-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

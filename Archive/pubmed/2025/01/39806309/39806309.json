@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "39806309",
+    "doi": "10.1186/s12868-024-00921-9",
+    "title": "Identification of key genes associated with oxidative stress in ischemic stroke via bioinformatics integrated analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemic stroke (IS) is a common cerebrovascular disease. Although the formation of atherosclerosis, which is closely related to oxidative stress (OS), is associated with stroke-related deaths. However, the role of OS in IS is unknown. METHODS: OS-related key genes were obtianed by overlapping the differentially expressed genes (DEGs) between IS and normal control (NC) specimens, IS-related genes, and OS-related genes. Then, we investigated the mechanism of action of key genes. Subsequently, protein-protein interaction (PPI) network and machine learning algorithms were utilized to excavate feature genes. In addition, the network between feature genes and microRNAs (miRNAs) was established to investigate the regulatory mechanism of feature genes. Finally, quantitative PCR (qPCR) was utilized to validate the expression of feature genes with blood specimens. RESULTS: A total of 42 key genes related to OS were acquired. Enrichment analysis indicated that the key genes were associated with oxidative stress, reactive oxygen species, lipid and atherosclerosis, and cell migration-related pathways. Then, 6 feature genes (HSPA8, NCF2, FOS, KLF4, THBS1, and HSPA1A) related to OS were identified for IS. Besides, 6 feature genes and 255 miRNAs were utilized to establish a feature genes-miRNA network which contained 261 nodes and 277 edges. At last, qPCR results revealed that there was a trend for higher expression of FOS, KLF4, and HSPA1A in IS specimens than in NC specimens. Additionally, HSPA8 expression was significantly decreased in the IS specimens, which was consistent with the findings of the GEO database analysis. CONCLUSION: In conclusion, 6 feature genes (HSPA8, NCF2, FOS, KLF4, THBS1, and HSPA1A) related to OS were mined by bioinformatics analysis, which might provide a new insights into the evaluation and treatment of IS. CLINICAL TRIAL NUMBER: Not applicable.",
+    "keywords": [
+      "Ischemic stroke",
+      "Machine learning algorithm",
+      "Oxidative stress",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Kruppel-Like Factor 4",
+      "*Oxidative Stress/genetics",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Ischemic Stroke/genetics/metabolism",
+      "Protein Interaction Maps/genetics",
+      "Gene Regulatory Networks",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Gaiyan",
+        "Cheng, Yu",
+        "Ding, Shanshan",
+        "Zheng, Qianyun",
+        "Kuang, Lanqiong",
+        "Zhang, Ying",
+        "Zhou, Ying"
+      ],
+      "short_names": [
+        "Li G",
+        "Cheng Y",
+        "Ding S",
+        "Zheng Q",
+        "Kuang L",
+        "Zhang Y",
+        "Zhou Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Rehabilitation, Shanghai Xuhui Central Hospital, Shanghai, China.",
+        "Department of Image, Shanghai Xuhui Central Hospital, Shanghai, China.",
+        "Department of Rehabilitation, Shanghai Xuhui Central Hospital, Shanghai, China.",
+        "Department of Rehabilitation, Shanghai Xuhui Central Hospital, Shanghai, China.",
+        "Department of Image, Shanghai Xuhui Central Hospital, Shanghai, China.",
+        "Department of Rehabilitation, Shanghai Xuhui Central Hospital, Shanghai, China. zhangying032317@163.com.",
+        "Department of General Practice, Shanghai Xuhui Central Hospital, Shanghai, China. yingzhouwu@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Gaiyan",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation, Shanghai Xuhui Central Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yu",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Image, Shanghai Xuhui Central Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Shanshan",
+        "short_name": "Ding S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation, Shanghai Xuhui Central Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Qianyun",
+        "short_name": "Zheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation, Shanghai Xuhui Central Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Kuang, Lanqiong",
+        "short_name": "Kuang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Image, Shanghai Xuhui Central Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation, Shanghai Xuhui Central Hospital, Shanghai, China. zhangying032317@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ying",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Shanghai Xuhui Central Hospital, Shanghai, China. yingzhouwu@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC neuroscience"
+    ],
+    "journal_abbrev": [
+      "BMC Neurosci"
+    ],
+    "pub_date": "2025 Jan 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/14 00:20",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "42602890",
+      "41838306",
+      "41518395",
+      "41487007",
+      "40189611"
+    ],
+    "refs": [
+      "38972743",
+      "37572455",
+      "37238736",
+      "37039403",
+      "37002530",
+      "36435949",
+      "35810757",
+      "35688114",
+      "35513168",
+      "35171385",
+      "34878154",
+      "34513301",
+      "33558567",
+      "33226625",
+      "33181148",
+      "33178387",
+      "32585190",
+      "32264912",
+      "31658904",
+      "31182467",
+      "30582459",
+      "29557747",
+      "29317985",
+      "28899199",
+      "28637952",
+      "28619102",
+      "28552342",
+      "26563614",
+      "26120888",
+      "25814786",
+      "25605792",
+      "25588755",
+      "25257172",
+      "22618244",
+      "22455463",
+      "20808728",
+      "19114008",
+      "15715955",
+      "14597658"
+    ],
+    "similar": [
+      "39806309",
+      "39172048",
+      "40804350",
+      "39636560",
+      "41214111",
+      "40091022",
+      "38701300",
+      "39743646",
+      "40696650",
+      "32626985",
+      "39636891",
+      "40161396",
+      "39657721",
+      "37449753",
+      "40379713",
+      "39206894",
+      "35877019",
+      "40124382",
+      "40261608",
+      "39519172",
+      "38863714",
+      "40320842",
+      "39556279",
+      "39182249",
+      "40087350",
+      "37605572",
+      "41444657",
+      "38073349",
+      "40574839",
+      "34313877",
+      "39165204",
+      "41094572",
+      "41508240",
+      "40859027",
+      "40588645",
+      "34722763",
+      "36035208",
+      "40340571",
+      "34734085",
+      "37322932",
+      "41760035",
+      "40297585",
+      "39142001",
+      "40628511",
+      "41444522",
+      "39695788",
+      "32059076",
+      "40442227",
+      "39086489",
+      "29620143",
+      "32744319",
+      "41291978",
+      "38062833",
+      "31277149",
+      "32908877",
+      "40294937",
+      "39350059",
+      "39028999",
+      "35620387",
+      "39704112",
+      "31987036",
+      "40594252",
+      "41544137",
+      "40263690",
+      "39862324",
+      "39292413",
+      "32945445",
+      "39945271",
+      "39442645",
+      "40694561",
+      "40855175",
+      "40597456",
+      "30542696",
+      "29693181",
+      "38296899",
+      "40442788",
+      "38899746",
+      "38968466",
+      "41201666",
+      "40216809",
+      "39829117",
+      "25717061",
+      "33437215",
+      "38360841",
+      "41354822",
+      "39118438",
+      "41006883",
+      "39496786",
+      "40595862",
+      "28302149",
+      "39306912",
+      "38691241",
+      "39375405",
+      "38649659",
+      "40505773",
+      "33622336",
+      "40540223",
+      "38873601",
+      "39188714",
+      "32178422"
+    ],
+    "review": [
+      "39806309"
+    ],
+    "pmc": [
+      "11727628"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-024-00921-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39806309/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1162",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

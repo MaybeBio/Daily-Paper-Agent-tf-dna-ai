@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "35065417",
+    "doi": "10.1016/j.compbiolchem.2022.107623",
+    "title": "PPred-PCKSM: A multi-layer predictor for identifying promoter and its variants using position based features."
+  },
+  "content": {
+    "abstract": "Promoter is a small region of DNA where a protein called RNA polymerase binds thus resulting in initiation of transcription of a specific gene. In bacteria with prokaryotic cell type, the sigma subunit that combines with RNA polymerase helps in identifying promoters. In Escherichia coli (E.coli), the promoters are identified by different sigma factors consisting of different functionalities. There have been various methods used for prediction of different class of promoters. However, these methods need to be improved for better identification and classification of promoters. In this work, we propose a new multi-layer predictor named PPred-PCKSM that uses position-correlation based k-mer scoring matrix (PCKSM), a new feature extraction strategy and an artificial neural network (ANN) for predicting promoters and its six types, namely sigma(70), sigma(24), sigma(28), sigma(32), sigma(38) and sigma(54) in E.coli bacteria. We employ PCKSM technique to extract feature sets from different k-mers. The feature sets obtained from trimers and tetramers are concatenated and then passed through ANN for final prediction. The resultant feature set contained effective features that contributed towards achieving an accuracy of 98.02% and Matthews correlation coefficient (MCC) of 96.04% for promoter prediction task. Our model used 5-fold cross validation on the benchmark dataset and outperformed all the current state-of-art-methods used for prediction of promoters and its different types in E.coli bacteria.",
+    "keywords": [
+      "Artificial neural network",
+      "Gene regulation",
+      "Machine learning",
+      "Position-correlation based k-mer scoring matrix (PCKSM)",
+      "Promoters",
+      "Sigma factors"
+    ],
+    "mesh_terms": [
+      "*DNA-Directed RNA Polymerases/genetics/metabolism",
+      "Escherichia coli/genetics/metabolism",
+      "Promoter Regions, Genetic/genetics",
+      "*Sigma Factor/genetics/metabolism",
+      "Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhukya, Raju",
+        "Kumari, Archana",
+        "Amilpur, Santhosh",
+        "Dasari, Chandra Mohan"
+      ],
+      "short_names": [
+        "Bhukya R",
+        "Kumari A",
+        "Amilpur S",
+        "Dasari CM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Institute of Technology, Warangal, Telangana 506004, India.",
+        "National Institute of Technology, Warangal, Telangana 506004, India. Electronic address: kumari_cs19132@student.nitw.ac.in.",
+        "National Institute of Technology, Warangal, Telangana 506004, India. Electronic address: santosh0511@student.nitw.ac.in.",
+        "VIT-AP University, Amaravati, Andhra Pradesh 522237, India. Electronic address: chandu.nitw44@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhukya, Raju",
+        "short_name": "Bhukya R",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Technology, Warangal, Telangana 506004, India."
+        ]
+      },
+      {
+        "full_name": "Kumari, Archana",
+        "short_name": "Kumari A",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Technology, Warangal, Telangana 506004, India. Electronic address: kumari_cs19132@student.nitw.ac.in."
+        ]
+      },
+      {
+        "full_name": "Amilpur, Santhosh",
+        "short_name": "Amilpur S",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Technology, Warangal, Telangana 506004, India. Electronic address: santosh0511@student.nitw.ac.in."
+        ]
+      },
+      {
+        "full_name": "Dasari, Chandra Mohan",
+        "short_name": "Dasari CM",
+        "identifiers": [],
+        "affiliations": [
+          "VIT-AP University, Amaravati, Andhra Pradesh 522237, India. Electronic address: chandu.nitw44@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2022 Apr",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/23 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "41675661",
+      "39266973",
+      "38931080",
+      "38918692"
+    ],
+    "refs": [],
+    "similar": [
+      "35065417",
+      "21195716",
+      "32976109",
+      "2644197",
+      "36980170",
+      "11397080",
+      "20595001",
+      "10524235",
+      "30458580",
+      "22465792",
+      "18312277",
+      "25803493",
+      "15465042",
+      "11311395",
+      "22605342",
+      "8475100",
+      "12750380",
+      "11823642",
+      "9786190",
+      "35885909",
+      "8345519",
+      "14529615",
+      "33573428",
+      "12424241",
+      "17268549",
+      "8866483",
+      "10439406",
+      "10860740",
+      "10049384",
+      "21316374",
+      "11274153",
+      "10873447",
+      "21382107",
+      "28251873",
+      "9582376",
+      "17089148",
+      "21911499",
+      "27694198",
+      "16690607",
+      "2482069",
+      "10648550",
+      "27452766",
+      "11532138",
+      "15761057",
+      "21396442",
+      "8218173",
+      "7751267",
+      "21451247",
+      "35727448",
+      "8423142",
+      "12455702",
+      "18287032",
+      "26365052",
+      "10406809",
+      "9512707",
+      "19076234",
+      "38176073",
+      "11703665",
+      "20952386",
+      "7494477",
+      "19538447",
+      "12477716",
+      "2661827",
+      "7473719",
+      "1391041",
+      "8244932",
+      "10734058",
+      "9636696",
+      "29745856",
+      "16629675",
+      "19854830",
+      "9927430",
+      "15262935",
+      "2203540",
+      "31228934",
+      "9601026",
+      "18333883",
+      "7601844",
+      "9048558",
+      "12527294",
+      "24172230",
+      "2693736",
+      "20133665",
+      "22156164",
+      "35043622",
+      "21398630",
+      "7563072",
+      "11251833",
+      "9890989",
+      "8594193",
+      "9054361",
+      "9544701",
+      "11591686",
+      "15465046",
+      "9045842",
+      "22098235",
+      "8289270",
+      "8631665",
+      "18281402",
+      "11525730",
+      "15882415",
+      "36056029",
+      "36099980",
+      "33199691",
+      "37291763",
+      "37327560",
+      "34842418",
+      "35533969",
+      "35264081",
+      "35641900",
+      "38510021",
+      "35488998",
+      "37423595",
+      "35867364",
+      "30649179",
+      "37250059",
+      "36937275",
+      "36099675",
+      "38468090",
+      "38816885",
+      "38701419",
+      "35279747",
+      "39110340",
+      "36406389",
+      "34998983",
+      "18795109",
+      "24955394",
+      "36452927",
+      "38099247",
+      "31750297",
+      "37476664"
+    ],
+    "review": [
+      "35065417",
+      "12455702"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(22)00003-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, methods, supplemental figure legends, and author contributions.
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims presented. This review does not assess editorial fit or language polishing beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The manuscript claims that the two DNA binding domains of BRCA2, the OB-DBD and the CTRB-DBD, have distinct and non-redundant roles: the OB-DBD is essential for both homologous recombination (HR) and replication fork protection, while the CTRB-DBD is primarily important for replication fork protection and plays a lesser role in HR and DNA damage repair.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion (narrative), Methods, Supplemental Figure Legends, Author Contributions. No primary figures, tables, or raw data are included in the provided material.
+- **Missing materials affecting confidence** All primary data figures (Figures 1-6), supplemental figures (Figure S1-S4), and tables (Tables 1-3) are referenced but not provided. This severely limits the ability to evaluate the quantitative results, statistical analyses, and experimental quality.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in genome stability research by dissecting the functional contributions of two distinct DNA binding domains in BRCA2. The combination of biochemical, cellular, and genetic approaches is appropriate and potentially powerful. However, the provided material lacks all primary data, making it impossible to verify the quantitative claims, the rigor of the statistical analyses, or the quality of the experimental replicates. The narrative is clear and logically structured, but the central conclusions rest on data that are not visible in this submission. The claim of distinct roles is plausible and interesting, but its strength cannot be assessed without the figures and tables.
+- **Who would be interested in the results, and why** Researchers in DNA repair, homologous recombination, genome stability, and cancer biology, particularly those studying BRCA2 function, RAD51 loading, and replication fork dynamics. The findings could also be relevant to clinicians and geneticists interested in the functional consequences of BRCA2 mutations, as they may inform the interpretation of patient variants in the OB-DBD and CTRB-DBD regions.
+- **Major strengths** The study uses a multi-pronged approach, combining in vitro biochemistry with cell-based assays, which is a robust strategy for dissecting domain-specific functions. The use of separation-of-function mutations is a logical and powerful design. The manuscript clearly distinguishes the roles of the two domains, providing a potentially important conceptual advance. The writing is clear and the logic is easy to follow.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence completeness
+    - **Claim pointer** The manuscript claims that the OB-DBD is indispensable for HR and replication fork protection, and that the CTRB-DBD is particularly important for replication fork preservation.
+    - **Evidence pointer** Figures 2, 3, 4, 5, 6; location not provided
+    - **Concern** The central conclusions of the manuscript are based on quantitative data (e.g., EMSA binding affinities, DNA strand exchange efficiencies, cell survival curves, fork degradation ratios) that are presented only in figures and tables that are not included in the provided material. Without these data, it is impossible to assess the magnitude of the reported effects, the reproducibility of the experiments, or the appropriateness of the statistical tests used.
+    - **Why it matters** The claim of distinct roles hinges on the relative severity of the phenotypes observed for the OB-DBD and CTRB-DBD mutants. For example, the statement that the CTRB-DBD mutant is "modestly affected" for HR but "strongly defective" in fork protection requires quantitative comparison. Without the primary data, the strength of this differential phenotype cannot be evaluated, and the core conclusion of the paper is unverifiable.
+    - **Resolution test** Provide the primary data for all figures and tables, including representative gels, quantification with error bars and statistical significance, and raw data for cell survival and DNA fiber assays. The data must clearly show the magnitude and reproducibility of the differences between wild-type and mutant constructs.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical rigor
+    - **Claim pointer** The manuscript claims that the OB-DBD and CTRB-DBD confer ssDNA and dsDNA binding capabilities, respectively, and that mutations in either domain impair RAD51 loading onto ssDNA pre-occupied by RPA.
+    - **Evidence pointer** Figures 2, 3, 4; location not provided
+    - **Concern** The biochemical assays (EMSA, strand exchange, RAD51 nucleation) are described in the methods, but the results are not shown. It is unclear whether the experiments were performed with appropriate controls (e.g., protein titration, competition assays, verification of protein integrity) and whether the reported effects are specific to the mutations or could be due to protein misfolding or aggregation. The lack of data also prevents an assessment of whether the observed defects are due to loss of DNA binding or to allosteric effects on other parts of the protein.
+    - **Why it matters** The mechanistic conclusions of the paper depend on the interpretation of these biochemical assays. If the mutations cause global protein instability or misfolding, the observed phenotypes may not be specifically attributable to the loss of DNA binding. The manuscript needs to demonstrate that the mutant proteins are properly folded and that the observed defects are directly due to the loss of the specific DNA binding activity.
+    - **Resolution test** Show the primary data for all biochemical assays, including protein purity and integrity checks (e.g., size-exclusion chromatography, circular dichroism, or limited proteolysis), and include appropriate controls such as a DNA binding-deficient mutant that is known to be properly folded. The data should demonstrate a clear correlation between the loss of DNA binding and the observed functional defects.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Cell biology validation
+    - **Claim pointer** The manuscript claims that the OB-DBD 9A mutation eliminates RAD51 foci formation and HR, while the CTRB-DBD 4A mutation has a mild effect.
+    - **Evidence pointer** Figures 5, S4; location not provided
+    - **Concern** The cell-based assays (clonogenic survival, RAD51 foci, DNA fiber) are described, but the data are not shown. It is unclear whether the expression levels of the mutant BRCA2 proteins are equivalent to wild-type, whether the proteins are properly localized to the nucleus, and whether the observed phenotypes are due to the specific mutations or to clonal variation. The statement that the double mutant shows "severe growth defects" is interesting but is not quantified.
+    - **Why it matters** The cellular phenotypes are crucial for translating the biochemical findings into biological relevance. If the mutant proteins are not expressed at equivalent levels or are not properly localized, the observed phenotypes may be misleading. The manuscript needs to demonstrate that the observed effects are due to the specific loss of DNA binding and not to other factors.
+    - **Resolution test** Provide western blots showing equivalent expression of wild-type and mutant BRCA2 proteins, immunofluorescence images showing proper nuclear localization, and quantification of cell growth, survival, and fork degradation with appropriate statistical analysis. The data should show that the phenotypes are consistent across multiple independent clones.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract; location not provided
+    - **Issue** The abstract states that the OB-DBD and CTRB-DBD confer ssDNA and dsDNA binding, respectively. However, the results section suggests that the OB-DBD also has some dsDNA binding activity, albeit weak. This could be clarified to avoid oversimplification.
+    - **Required correction** Rephrase the abstract to state that the OB-DBD is the primary ssDNA binding domain, while the CTRB-DBD is the primary dsDNA binding domain, acknowledging the residual activities.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Methods
+    - **Evidence pointer** Methods; location not provided
+    - **Issue** The methods section describes the expression and purification of BRCA2-derived polypeptides but does not provide details on the verification of protein identity and purity (e.g., mass spectrometry, N-terminal sequencing).
+    - **Required correction** Add a brief statement on the methods used to verify protein identity and purity, such as mass spectrometry or N-terminal sequencing.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Statistical rigor
+    - **Affected element** Results and Discussion
+    - **Evidence pointer** Figures 5, 6; location not provided
+    - **Issue** The text mentions statistical tests (e.g., Kruskal-Wallis test for DNA fiber data) but does not specify the number of biological replicates or the criteria for significance in the text.
+    - **Required correction** Include the number of independent experiments and the statistical test used for each figure in the figure legends or the main text.
+- **Technical failings that need to be addressed before the case is established** The primary data for all figures and tables are missing. This is a fundamental issue that prevents any assessment of the technical quality of the experiments. The manuscript must be re-reviewed with the full set of figures and tables to evaluate the rigor of the biochemical and cellular assays.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The concept of dissecting the distinct roles of the two BRCA2 DNA binding domains is not entirely new, as prior work has implicated the CTRB in fork protection. However, the systematic comparison of OB-DBD and CTRB-DBD mutations using a combined biochemical and cellular approach has the potential to be a significant advance. The claim of non-redundant functions is interesting and could be original if well-supported.
+    - **Scientific importance** The findings are potentially important for understanding BRCA2 function in genome maintenance and for interpreting the impact of patient-derived mutations. If the distinct roles are clearly established, this could have implications for cancer risk assessment and therapy response.
+    - **Interdisciplinary readership** The topic is of interest to a broad audience in DNA repair, cancer biology, and genome stability. The findings could also be relevant to researchers studying replication stress and therapeutic resistance.
+    - **Technical soundness** Cannot be assessed due to the lack of primary data. The described methods are standard, but the quality of the data and the rigor of the analysis are unknown.
+    - **Readability for nonspecialists** The manuscript is well-written and the logic is clear. The abstract and introduction are accessible to a general scientific audience. The results section is more specialized but still understandable.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a significant question and the experimental design is promising, but the absence of all primary data makes it impossible to evaluate the validity of the claims. A re-review with the complete figures and tables is required.
+
+## Risk / unsupported claims
+- The claim that the OB-DBD is indispensable for HR and replication fork protection is unsupported without the primary data from Figures 5 and 6.
+- The claim that the CTRB-DBD is particularly important for replication fork preservation is unsupported without the primary data from Figure 6.
+- The claim that the OB-DBD and CTRB-DBD are non-redundant is unsupported without a quantitative comparison of the phenotypes.
+- The claim that the double mutant is incompatible with cell viability is unsupported without the growth data from Figure S4B.
+- The mechanistic model presented in Figure 6B is speculative and cannot be evaluated without the supporting data.

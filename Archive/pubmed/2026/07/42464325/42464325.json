@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "42464325",
+    "doi": "10.1186/s13019-026-04545-4",
+    "title": "Bioinformatics identification of candidate biomarkers associated with T cell proliferation in atherosclerosis via WGCNA and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Atherosclerosis (AS) is a complex chronic disease caused by the development of atherosclerotic plaques. T cell proliferation exerts a vital influence on development of the AS. This research aimed to conduct a comprehensive analysis to computationally screen candidate T cell proliferation-related biomarkers in AS and to explore their potential molecular mechanisms. METHODS: The transcriptional datasets of AS patients were obtained from the Gene Expression Omnibus (GEO) repository. To identify differentially expressed-T cell proliferation-related genes (DE-TPRGs), we integrated differential gene expression analysis with weighted gene co-expression network analysis (WGCNA), taking the intersection of DEGs and WGCNA-derived T cell proliferation-related module genes (TRMGs). Biomarkers were selected and validated through machine learning algorithms and expression levels. Moreover, a nomogram for predicting AS risk was developed based on the biomarkers. Enrichment analysis was employed to examine relevant pathways, while immune cell infiltration analysis was conducted to investigate the connection between immune cells and biomarkers. Finally, the construction of molecular regulatory and compound prediction networks, as well as molecular docking and molecular dynamic simulations, further validated the key regulatory roles of biomarkers in AS. RESULTS: Overall, two candidate genes (CLU and GUCY1B3) were determined to be potentially associated with the progression of AS. The nomogram constructed from these biomarkers showed good performance in predicting AS risk. Reactome rRNA processing and reactome translation were notably enriched in the pathways related to two biomarkers. CLU and GUCY1B3 showed positive computational corrections with activated dendritic cells, suggesting a possible involvement of these immune processes in AS. Moreover, 50 miRNAs (like hsa-miR-4504) and 68 transcription factors (TFs) (like MYB and TAL1) were found to have relationships with biomarkers. Importantly, the results and molecular dynamics simulation analyses predicted potential binding interactions between these candidate genes and bisphenol A, with GUCY1B3 demonstrating relatively greater binding stability. CONCLUSIONS: The bioinformatics findings suggested that CLU and GUCY1B3 may serve as candidate biomarkers warranting further experimental investigation in AS associated with T cell proliferation.",
+    "keywords": [
+      "Atherosclerosis",
+      "Biomarkers",
+      "Machine learning",
+      "T cell proliferation",
+      "WGCNA"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiong, Wen",
+        "Long, Xiang",
+        "Lu, Feng",
+        "Lin, Kun",
+        "Zhu, Zhigang"
+      ],
+      "short_names": [
+        "Xiong W",
+        "Long X",
+        "Lu F",
+        "Lin K",
+        "Zhu Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-4906-3406"
+      ],
+      "affiliations": [
+        "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China.",
+        "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China.",
+        "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China.",
+        "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China.",
+        "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China. zhuzhig1989@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiong, Wen",
+        "short_name": "Xiong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Long, Xiang",
+        "short_name": "Long X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, Feng",
+        "short_name": "Lu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lin, Kun",
+        "short_name": "Lin K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zhigang",
+        "short_name": "Zhu Z",
+        "identifiers": [
+          "0009-0000-4906-3406"
+        ],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, the Second Affiliated Hospital of Nanchang University, No. 566, Xuefu Avenue, Nanchang, 330036, Jiangxi, People's Republic of China. zhuzhig1989@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cardiothoracic surgery"
+    ],
+    "journal_abbrev": [
+      "J Cardiothorac Surg"
+    ],
+    "pub_date": "2026 Jul 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 06:44",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42464325",
+      "41052072",
+      "41895505",
+      "39142001",
+      "35842645",
+      "41703488",
+      "40532306",
+      "41479901",
+      "39139563",
+      "36823662",
+      "42292668",
+      "42236612",
+      "40151199",
+      "40216809",
+      "40374866",
+      "41220037",
+      "42123445",
+      "39263286",
+      "40997906",
+      "42107160",
+      "40078458",
+      "41316541",
+      "41436831",
+      "40332792",
+      "40836320",
+      "41288681",
+      "40808946",
+      "38863714",
+      "40884580",
+      "39396400",
+      "41214111",
+      "38544384",
+      "37264340",
+      "41393259",
+      "42267557",
+      "38899746",
+      "41371106",
+      "41291841",
+      "39069636",
+      "38371524",
+      "40948782",
+      "39559355",
+      "41432483",
+      "41731716",
+      "39034722",
+      "40406126",
+      "40374840",
+      "41239638",
+      "42024670",
+      "42243611",
+      "41591671",
+      "40916281",
+      "41424060",
+      "42074514",
+      "40406620",
+      "39072329",
+      "42083957",
+      "41013556",
+      "41146237",
+      "41992052",
+      "42183235",
+      "41255601",
+      "42004467",
+      "41957428",
+      "41947915",
+      "39512836",
+      "42327749",
+      "39346628",
+      "36470144",
+      "40885831",
+      "41822387",
+      "40809841",
+      "39507054",
+      "42158856",
+      "40842856",
+      "35911963",
+      "41716396",
+      "36325528",
+      "40967560",
+      "40483519",
+      "41858783",
+      "42377012",
+      "38987624",
+      "39375405",
+      "38571624",
+      "40313958",
+      "35278479",
+      "42306043",
+      "39188323",
+      "38716195",
+      "42326009",
+      "40225293",
+      "35865542",
+      "41723200",
+      "40070840",
+      "39403102",
+      "38755717",
+      "40340571",
+      "37740761",
+      "42313235"
+    ],
+    "review": [
+      "42464325"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cardiothoracicsurgery.biomedcentral.com/articles/10.1186/s13019-026-04545-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CLU-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-478",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

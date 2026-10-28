@@ -1,0 +1,390 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.14.632908",
+  "title": "Decoding MASLD Progression: A Molecular Trajectory-Based Framework for Modelling Disease Dynamics",
+  "doi": "10.1101/2025.01.14.632908",
+  "abstract": "Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) has emerged as a silent pandemic, affecting nearly one-third of the global population. MASLD encompasses a spectrum of liver disorders, ranging from simple steatosis to Metabolic Dysfunction-Associated Steatohepatitis (MASH), characterised by lipotoxicity, hepatocellular injury, inflammation, and fibrosis, which can eventually progress to cirrhosis and hepatocellular carcinoma. Despite the progressive nature of MASLD/MASH, current research and clinical practice primarily rely on static, histopathology-defined stages that fail to capture the continuous nature of disease progression. Here, we present an integrative framework that combines patient pseudo-temporal ordering, network analysis, and cell-type deconvolution to reconstruct the continuous MASLD/MASH trajectory. By analysing patient liver transcriptomic profiles, we position patients along this data-driven trajectory, moving beyond conventional stage-based classifications. This approach reveals the sequence of critical molecular events underlying MASLD/MASH progression, providing mechanistic insights into the disease’s pathophysiology. By integrating these findings with plasma proteomics data, we identify novel trajectory-specific plasma biomarkers that predict disease stage (and trajectory position) independently of histology. Together, these findings demonstrate the value of trajectory-based frameworks for understanding MASLD pathophysiology and highlight new opportunities for precision diagnosis and therapeutic target prioritisation across the disease spectrum.",
+  "authors": [
+    "Kamzolas I",
+    "Koutsandreas T",
+    "Barker CG",
+    "Vathrakokoili Pournara A",
+    "Weston H",
+    "Fujiwara N",
+    "Hoshida Y",
+    "Anstee QM",
+    "Vacca M",
+    "Papatheodorou I",
+    "Vidal-Puig A",
+    "Petsalaki E"
+  ],
+  "published_date": "2025-01-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.14.632908",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.14.632908.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR968092",
+    "raw_record": {
+      "id": "PPR968092",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR968092"
+        ]
+      },
+      "doi": "10.1101/2025.01.14.632908",
+      "title": "Decoding MASLD Progression: A Molecular Trajectory-Based Framework for Modelling Disease Dynamics",
+      "authorString": "Kamzolas I, Koutsandreas T, Barker CG, Vathrakokoili Pournara A, Weston H, Fujiwara N, Hoshida Y, Anstee QM, Vacca M, Papatheodorou I, Vidal-Puig A, Petsalaki E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kamzolas I",
+            "lastName": "Kamzolas",
+            "firstName": "Ioannis",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7408-5284"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory - , Wellcome Genome Campus , , ,"
+                },
+                {
+                  "affiliation": ", Metabolic Research Laboratories, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koutsandreas T",
+            "lastName": "Koutsandreas",
+            "firstName": "Thodoris",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0659-7245"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory - , Wellcome Genome Campus , , ,"
+                },
+                {
+                  "affiliation": ", Wellcome Genome Campus , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barker CG",
+            "lastName": "Barker",
+            "firstName": "Charlie George",
+            "initials": "CG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5223-6838"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory - , Wellcome Genome Campus , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vathrakokoili Pournara A",
+            "lastName": "Vathrakokoili Pournara",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2701-1987"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory - , Wellcome Genome Campus , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weston H",
+            "lastName": "Weston",
+            "firstName": "Harry",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4063-6041"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory - , Wellcome Genome Campus , , ,"
+                },
+                {
+                  "affiliation": ", Metabolic Research Laboratories, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fujiwara N",
+            "lastName": "Fujiwara",
+            "firstName": "Naoto",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1973-224X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Gastroenterology and Hepatology, , 2-174 Edobashi , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoshida Y",
+            "lastName": "Hoshida",
+            "firstName": "Yujin",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7270-5470"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Digestive and Liver Diseases, Department of Internal Medicine, Simmons Comprehensive Cancer Center, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Anstee QM",
+            "lastName": "Anstee",
+            "firstName": "Quentin",
+            "initials": "QM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4220-9577"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Translational & Clinical Research Institute, Faculty of Medical Sciences, , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vacca M",
+            "lastName": "Vacca",
+            "firstName": "Michele",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8294-2995"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Metabolic Research Laboratories, , ,"
+                },
+                {
+                  "affiliation": "Clinica Medica “Cesare Frugoni”, Interdisciplinary Department of Medicine, , , ; Roger Williams Institute of Liver Studies, School of Immunology & Microbial Sciences, Faculty of Life Sciences and Medicine, , and , , ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Papatheodorou I",
+            "lastName": "Papatheodorou",
+            "firstName": "Irene",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory - , Wellcome Genome Campus , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vidal-Puig A",
+            "lastName": "Vidal-Puig",
+            "firstName": "Antonio",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Metabolic Research Laboratories, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Petsalaki E",
+            "lastName": "Petsalaki",
+            "firstName": "Evangelia",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory - , Wellcome Genome Campus , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7270-5470"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0659-7245"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1973-224X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2701-1987"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4063-6041"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5223-6838"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7408-5284"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8294-2995"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4220-9577"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) has emerged as a silent pandemic, affecting nearly one-third of the global population. MASLD encompasses a spectrum of liver disorders, ranging from simple steatosis to Metabolic Dysfunction-Associated Steatohepatitis (MASH), characterised by lipotoxicity, hepatocellular injury, inflammation, and fibrosis, which can eventually progress to cirrhosis and hepatocellular carcinoma. Despite the progressive nature of MASLD/MASH, current research and clinical practice primarily rely on static, histopathology-defined stages that fail to capture the continuous nature of disease progression. Here, we present an integrative framework that combines patient pseudo-temporal ordering, network analysis, and cell-type deconvolution to reconstruct the continuous MASLD/MASH trajectory. By analysing patient liver transcriptomic profiles, we position patients along this data-driven trajectory, moving beyond conventional stage-based classifications. This approach reveals the sequence of critical molecular events underlying MASLD/MASH progression, providing mechanistic insights into the disease’s pathophysiology. By integrating these findings with plasma proteomics data, we identify novel trajectory-specific plasma biomarkers that predict disease stage (and trajectory position) independently of histology. Together, these findings demonstrate the value of trajectory-based frameworks for understanding MASLD pathophysiology and highlight new opportunities for precision diagnosis and therapeutic target prioritisation across the disease spectrum.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203312",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.14.632908"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.14.632908"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR968092"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR968092&type=FILE&fileName=EMS202754-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202754",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "reactome",
+          "arrayexpress",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-01-20",
+      "firstPublicationDate": "2025-01-18",
+      "firstIndexDate": "2025-01-20",
+      "fullTextReceivedDate": "2026-01-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

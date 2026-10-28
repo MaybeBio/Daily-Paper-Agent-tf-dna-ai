@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "41239582",
+    "doi": "10.1097/MD.0000000000045921",
+    "title": "Multi-omics evidence supports PROC as a potential predictor of VTE risk: A Mendelian randomization study."
+  },
+  "content": {
+    "abstract": "Venous thromboembolism (VTE) is a common cardiovascular condition whose etiology is closely linked to a range of factors, including trauma, immobilization, and environmental influences. The application of multi-omics Mendelian randomization may prove to be a valuable approach in clarifying the fundamental pathogenic mechanisms associated with VTE. Based on multi-omics data of mQTL, eQTL and pQTL, our study identifies core drug targets and pharmacological associations of VTE. Summary-level data from multi-omics exposure were obtained from studies focusing on quantitative trait loci (QTL) across 3 dimensions: gene methylation, gene expression, and protein levels. Genetic association data pertaining to VTE outcomes were subsequently sourced from the FinnGen database for discovery purposes and the UK Biobank for replication. Subsequently, summary-data-based Mendelian randomization (SMR) and co-localization analyses were conducted to evaluate the causal relationships between the 3 QTL levels and the risk of VTE. Through the application of xQTL and xQTL SMR analyses, we have identified 1 gene with a high causal impact, PROC, alongside 2 genes with lower causal significance, DPY19L1P1 and MAF BZIP transcription factor F (MAFF). Our results indicate that, at both the mQTL and eQTL levels, an increased risk of VTE is correlated with elevated levels of DPY19L1P1, while the causal effect associated with MAFF is inversely related. Furthermore, our analysis revealed an inverse causal relationship between gene methylation and VTE for PROC (cg06038358), with an odds ratio of 1.06 (95% CI = 1.04-1.09). Notably, PROC was identified as a protective factor against the disease at the pQTL level, with an odds ratio of 0.7 (95% CI = 0.6-0.82). Comprehensive phenotype scanning demonstrated a causal relationship between the target gene PROC and 12 distinct phenotypes. Finally, drug prediction and molecular docking identified 3 pharmacokinetic associations of drug target genes for VTE. In summary, the current research clarified the causal connections among DPY19L1P1, MAFF, and PROC in relation to VTE at the levels of methylation, expression, and protein. In addition, phenome-wide association analysis and molecular docking confirmed the functional role associations of the target genes.",
+    "keywords": [
+      "Mendelian randomization",
+      "PROC",
+      "co-localization",
+      "multi-omics",
+      "venous thromboembolism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Mendelian Randomization Analysis",
+      "Quantitative Trait Loci",
+      "*Venous Thromboembolism/genetics",
+      "Risk Factors",
+      "Genome-Wide Association Study",
+      "Genetic Predisposition to Disease",
+      "DNA Methylation",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wan, Binbin",
+        "Zhang, Chenwei",
+        "Yu, Zepeng",
+        "Zhang, Yukai",
+        "Liu, Yanjie",
+        "Luo, Shuying",
+        "Liu, Gang"
+      ],
+      "short_names": [
+        "Wan B",
+        "Zhang C",
+        "Yu Z",
+        "Zhang Y",
+        "Liu Y",
+        "Luo S",
+        "Liu G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2492-4833"
+      ],
+      "affiliations": [
+        "Division of Planned Immunization, Yiwu Center for Disease Prevention and Control, Yiwu, Zhejiang Province, China.",
+        "First School of Clinical Medicine, Shanxi Medical University, Shanxi University, Taiyuan, China.",
+        "Division of Planned Immunization, Yiwu Center for Disease Prevention and Control, Yiwu, Zhejiang Province, China.",
+        "First School of Clinical Medicine, Shanxi Medical University, Shanxi University, Taiyuan, China.",
+        "First School of Clinical Medicine, Shanxi Medical University, Shanxi University, Taiyuan, China.",
+        "Division of Planned Immunization, Yiwu Center for Disease Prevention and Control, Yiwu, Zhejiang Province, China.",
+        "Department of Infection Control, The Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Yiwu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wan, Binbin",
+        "short_name": "Wan B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Planned Immunization, Yiwu Center for Disease Prevention and Control, Yiwu, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chenwei",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine, Shanxi Medical University, Shanxi University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zepeng",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Planned Immunization, Yiwu Center for Disease Prevention and Control, Yiwu, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yukai",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine, Shanxi Medical University, Shanxi University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yanjie",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine, Shanxi Medical University, Shanxi University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Shuying",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Planned Immunization, Yiwu Center for Disease Prevention and Control, Yiwu, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Gang",
+        "short_name": "Liu G",
+        "identifiers": [
+          "0000-0003-2492-4833"
+        ],
+        "affiliations": [
+          "Department of Infection Control, The Fourth Affiliated Hospital of School of Medicine, and International School of Medicine, International Institutes of Medicine, Zhejiang University, Yiwu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Nov 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/15 06:29",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36805566",
+      "36658437",
+      "36653562",
+      "36635277",
+      "36154123",
+      "36094096",
+      "35953132",
+      "35474380",
+      "35264566",
+      "35177631",
+      "34872952",
+      "34857953",
+      "34589181",
+      "34262028",
+      "33626882",
+      "33067632",
+      "33007077",
+      "32895551",
+      "31420334",
+      "30861319",
+      "30767376",
+      "30649175",
+      "30514905",
+      "29942083",
+      "29860175",
+      "29313708",
+      "29074563",
+      "29022597",
+      "28514442",
+      "27696765",
+      "27486138",
+      "27189130",
+      "27126645",
+      "27019110",
+      "26076949",
+      "24813864",
+      "24309898",
+      "23846575",
+      "22781841",
+      "22251481",
+      "21116184",
+      "20230415",
+      "19812666",
+      "12970121",
+      "12814980",
+      "10409670",
+      "8083377",
+      "6688122"
+    ],
+    "similar": [
+      "41239582",
+      "40045304",
+      "38933282",
+      "40988222",
+      "39844246",
+      "39707330",
+      "40958306",
+      "40770693",
+      "40544884",
+      "39359474",
+      "40514687",
+      "41314550",
+      "40444654",
+      "40588408",
+      "40311696",
+      "41126804",
+      "40285955",
+      "39680155",
+      "39401154",
+      "41254692",
+      "39467451",
+      "40842128",
+      "41162548",
+      "38103512",
+      "41072314",
+      "39039470",
+      "41376378",
+      "39051921",
+      "41261704",
+      "41351645",
+      "40148470",
+      "41378860",
+      "41248854",
+      "40513964",
+      "39280009",
+      "40657364",
+      "40878475",
+      "41106624",
+      "39434152",
+      "40091050",
+      "40128726",
+      "40865488",
+      "37170220",
+      "39259428",
+      "39671389",
+      "41212630",
+      "40286918",
+      "40592928",
+      "39054435",
+      "28373160",
+      "40157505",
+      "41006511",
+      "39563277",
+      "39933430",
+      "41398864",
+      "39560352",
+      "41196107",
+      "41289788",
+      "39538342",
+      "40768106",
+      "41424108",
+      "40833086",
+      "40274126",
+      "41287581",
+      "40797476",
+      "40160216",
+      "40108295",
+      "41063246",
+      "39857814",
+      "38660492",
+      "39472885",
+      "40026415",
+      "39734218",
+      "37414665",
+      "39403374",
+      "38877387",
+      "40943610",
+      "40269081",
+      "41076317",
+      "40489873",
+      "41250910",
+      "34043151",
+      "39199149",
+      "41129298",
+      "40653482",
+      "40074369",
+      "37742034",
+      "40062439",
+      "39920705",
+      "40280189",
+      "36031541",
+      "41220585",
+      "39966747",
+      "41270966",
+      "36582224",
+      "39449364",
+      "41422660",
+      "36595107",
+      "40321038",
+      "34461811"
+    ],
+    "review": [
+      "41239582",
+      "41378860",
+      "37170220",
+      "39933430",
+      "39538342",
+      "41287581",
+      "34043151",
+      "36031541"
+    ],
+    "pmc": [
+      "12622633"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=104&issue=46&spage=e45921&aulast=Wan",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/41239582.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41239582/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000045921",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

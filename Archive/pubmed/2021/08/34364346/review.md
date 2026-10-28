@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or numerical data were provided for verification
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations with effective crowder interactions to study the compaction of a heterogeneous ring polymer inspired by the Escherichia coli chromosome. They report a two-step compaction transition driven by clustering of big monomers, enhanced by cylindrical confinement, and interpret the results as supporting clustering of active transcription units into transcription factories.
+- **Visible evidence base** Abstract text only; no figures, tables, methods section, or supplementary material were supplied
+- **Missing materials affecting confidence** Full manuscript, simulation details, parameter values, quantitative results, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting simulation study on crowding-induced compaction of a heterogeneous ring polymer. The two-step transition mechanism and the role of confinement are conceptually appealing. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the conclusions, or the strength of the link to biological transcription factories. The claims are qualitatively stated without quantitative support, and several key aspects of the model and analysis are not assessable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in polymer physics, biophysics, and computational biology would be interested. The work addresses fundamental questions about entropic crowding effects on chromosome organization, which is relevant to understanding transcription factory formation and genome architecture in bacteria. The methodological approach using effective interactions may also appeal to those developing coarse-grained models of chromatin.
+- **Major strengths** The study addresses a timely and biologically relevant question about chromosome compaction in crowded environments. The use of a heterogeneous polymer with big monomers to mimic RNA polymerase binding is a creative modeling choice. The two-step compaction mechanism is a clear and testable prediction. The consideration of confinement effects adds practical relevance to cellular conditions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the compaction transition is a two-step process and that cylindrical confinement makes the initial transition more effective, with about 60% reduction in chain size for representative parameter choices.
+  - **Evidence pointer** Location not provided; no figures or quantitative data are available in the abstract
+  - **Concern** The abstract provides no details on the simulation methodology, including the form of the effective crowder interactions, the range of crowder concentrations, the system size, equilibration protocols, or the number of independent runs. Without this information, the reliability and statistical significance of the reported two-step transition and the 60% reduction figure cannot be assessed.
+  - **Why it matters** The central claims depend entirely on the quality and appropriateness of the simulations. If the effective interactions are not properly calibrated or if the sampling is insufficient, the observed two-step behavior could be an artifact. The 60% reduction is presented as a key quantitative result but cannot be verified without error bars or context.
+  - **Resolution test** Provide a detailed methods section including the interaction potentials, simulation parameters, equilibration and production times, and error analysis. Show that the two-step transition is robust across multiple independent simulations and a range of crowder concentrations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract states that the simulation results support the view that crowding promotes clustering of active transcription units into transcription factories.
+  - **Evidence pointer** Location not provided; no direct comparison to experimental data or biological observations is described
+  - **Concern** The link between the simulated model and biological transcription factories is asserted but not demonstrated. The model uses big monomers to mimic RNA polymerase binding, but the abstract does not explain how the clustering of these monomers corresponds to functional transcription units or how the simulation results are validated against experimental observations of transcription factories.
+  - **Why it matters** The biological interpretation is a major selling point of the work. Without a clear mapping between model parameters and biological quantities, or a comparison to experimental data, the claim that crowding promotes transcription factory formation remains speculative.
+  - **Resolution test** Provide a more explicit connection between the model and biology, such as comparing simulated clustering statistics to experimental measurements of transcription unit distribution, or discussing how the model parameters relate to known cellular conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims that the compaction transition is a two-step process, implying this is a general feature of heterogeneous polymers in crowded media.
+  - **Evidence pointer** Location not provided; only one set of parameter choices inspired by E. coli is mentioned
+  - **Concern** The two-step transition is reported for a specific parameter set inspired by E. coli. It is unclear whether this behavior is robust across different monomer size ratios, crowder concentrations, or chain lengths. The abstract does not indicate whether the authors explored a range of conditions to establish the generality of the two-step mechanism.
+  - **Why it matters** If the two-step transition only occurs for a narrow range of parameters, the claim would be overstated. A general mechanism should be demonstrated across a reasonable parameter space.
+  - **Resolution test** Show that the two-step transition persists across variations in key parameters such as crowder concentration, monomer size ratio, and chain length, or clearly state the conditions under which the mechanism holds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "big monomers"
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that big monomers mimic the binding of RNA polymerases but does not specify the size ratio between big and small monomers or the fraction of big monomers along the backbone.
+  - **Required correction** Provide the specific size ratio and fraction of big monomers used in the simulations, either in the abstract or by referencing a figure or table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to free space
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions compaction in "free or confined space" but only reports results for cylindrical confinement. The behavior in free space is not described.
+  - **Required correction** Briefly state the free-space results for comparison, or clarify that the free-space case is used as a baseline and describe the key difference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "entropically compacted"
+  - **Evidence pointer** Abstract text
+  - **Issue** The opening sentence states that long chain molecules can be entropically compacted in a crowded medium, but the abstract does not explain the entropic mechanism or how it is captured in the effective interactions.
+  - **Required correction** Add a brief explanation of the entropic origin of compaction in the model, or refer to a methods section where this is described.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The simulation methodology must be fully described and the biological interpretation must be better supported before the central claims can be accepted.
+- **Assessment against Nature-style criteria** Originality: The two-step compaction mechanism and the use of heterogeneous ring polymers with RNA polymerase mimics are original contributions, though the general topic of crowding-induced compaction is well studied. Scientific importance: The work has potential importance for understanding chromosome organization and transcription factory formation, but the current evidence does not establish this importance beyond a qualitative suggestion. Interdisciplinary readership: The topic bridges polymer physics and molecular biology, which could attract a broad audience, but the abstract is too technical and lacks biological context for nonspecialists. Technical soundness: Not assessable from the abstract alone; the lack of methodological detail is a major concern. Readability for nonspecialists: The abstract is concise but assumes familiarity with polymer physics and transcription factories; a brief explanation of key concepts would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary results, but the lack of methodological detail and the weak link to biological observations prevent a supportive recommendation. The authors should provide the full manuscript with detailed methods and quantitative results, and strengthen the biological interpretation, before the case can be properly evaluated.
+
+## Risk / unsupported claims
+- The two-step compaction transition is reported without quantitative data or error analysis, making it unsupported from the abstract alone.
+- The claim that cylindrical confinement makes the initial transition more effective, with a 60% reduction in chain size, is presented without context or verification.
+- The assertion that the results support clustering of active transcription units into transcription factories is speculative and not supported by direct evidence or comparison to experimental data.
+- The generality of the two-step mechanism across different conditions is not established.
+- The entropic mechanism of compaction is mentioned but not explained or demonstrated.

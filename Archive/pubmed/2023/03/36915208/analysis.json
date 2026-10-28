@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36915208",
+  "title": "Pharmacogenomic profiling reveals molecular features of chemotherapy resistance in IDH wild-type primary glioblastoma.",
+  "authors": "Nam, Yoonhee; Koo, Harim; Yang, Yingxi; Shin, Sang; Zhu, Zhihan; Kim, Donggeon; Cho, Hee Jin; Mu, Quanhua; Choi, Seung Won; Sa, Jason K; Seo, Yun Jee; Kim, Yejin; Lee, Kyoungmin; Oh, Jeong-Woo; Kwon, Yong-Jun; Park, Woong-Yang; Kong, Doo-Sik; Seol, Ho Jun; Lee, Jung-Il; Park, Chul-Kee; Lee, Hye Won; Yoon, Yeup; Wang, Jiguang",
+  "journal": "Genome medicine",
+  "published_date": "2023-03-15",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究聚焦胶质母细胞瘤化疗耐药性的药物基因组学特征与机器学习预测，不涉及蛋白质-DNA互作或TF-DNA结合机制，与本课题无关。",
+  "abstract": "BACKGROUND: Although temozolomide (TMZ) has been used as a standard adjuvant chemotherapeutic agent for primary glioblastoma (GBM), treating isocitrate dehydrogenase wild-type (IDH-wt) cases remains challenging due to intrinsic and acquired drug resistance. Therefore, elucidation of the molecular mechanisms of TMZ resistance is critical for its precision application. METHODS: We stratified 69 primary IDH-wt GBM patients into TMZ-resistant (n = 29) and sensitive (n = 40) groups, using TMZ screening of the corresponding patient-derived glioma stem-like cells (GSCs). Genomic and transcriptomic features were then examined to identify TMZ-associated molecular alterations. Subsequently, we developed a machine learning (ML) model to predict TMZ response from combined signatures. Moreover, TMZ response in multisector samples (52 tumor sectors from 18 cases) was evaluated to validate findings and investigate the impact of intra-tumoral heterogeneity on TMZ efficacy. RESULTS: In vitro TMZ sensitivity of patient-derived GSCs classified patients into groups with different survival outcomes (P = 1.12e-4 for progression-free survival (PFS) and 3.63e-4 for overall survival (OS)). Moreover, we found that elevated gene expression of EGR4, PAPPA, LRRC3, and ANXA3 was associated to intrinsic TMZ resistance. In addition, other features such as 5-aminolevulinic acid negative, mesenchymal/proneural expression subtypes, and hypermutation phenomena were prone to promote TMZ resistance. In contrast, concurrent copy-number-alteration in PTEN, EGFR, and CDKN2A/B was more frequent in TMZ-sensitive samples (Fisher's exact P = 0.0102), subsequently consolidated by multi-sector sequencing analyses. Integrating all features, we trained a ML tool to segregate TMZ-resistant and sensitive groups. Notably, our method segregated IDH-wt GBM patients from The Cancer Genome Atlas (TCGA) into two groups with divergent survival outcomes (P = 4.58e-4 for PFS and 3.66e-4 for OS). Furthermore, we showed a highly heterogeneous TMZ-response pattern within each GBM patient using in vitro TMZ screening and genomic characterization of multisector GSCs. Lastly, the prediction model that evaluates the TMZ efficacy for primary IDH-wt GBMs was developed into a webserver for public usage ( http://www.wang-lab-hkust.com:3838/TMZEP ). CONCLUSIONS: We identified molecular characteristics associated to TMZ sensitivity, and illustrate the potential clinical value of a ML model trained from pharmacogenomic profiling of patient-derived GSC against IDH-wt GBMs.",
+  "abstract_zh": "背景：尽管替莫唑胺（TMZ）已被用作原发性胶质母细胞瘤（GBM）的标准辅助化疗药物，但治疗异柠檬酸脱氢酶野生型（IDH-wt）病例仍因内在和获得性耐药而面临挑战。因此，阐明TMZ耐药的分子机制对其精准应用至关重要。方法：我们利用相应患者来源的胶质瘤干细胞样细胞（GSCs）进行TMZ筛选，将69例原发性IDH-wt GBM患者分为TMZ耐药组（n = 29）和敏感组（n = 40）。随后检查基因组和转录组特征，以识别与TMZ相关的分子改变。接着，我们开发了一种机器学习（ML）模型，基于组合特征预测TMZ反应。此外，评估了多区域样本（来自18例病例的52个肿瘤区域）中的TMZ反应，以验证发现并研究肿瘤内异质性对TMZ疗效的影响。结果：患者来源GSCs的体外TMZ敏感性将患者分为生存结局不同的组别（无进展生存期（PFS）P = 1.12e-4，总生存期（OS）P = 3.63e-4）。此外，我们发现EGR4、PAPPA、LRRC3和ANXA3基因表达升高与内在TMZ耐药相关。另外，其他特征如5-氨基乙酰丙酸阴性、间充质/前神经表达亚型及超突变现象倾向于促进TMZ耐药。相反，PTEN、EGFR和CDKN2A/B的并发拷贝数改变在TMZ敏感样本中更为频繁（Fisher精确检验P = 0.0102），随后通过多区域测序分析得到进一步证实。整合所有特征，我们训练了一种ML工具来区分TMZ耐药组和敏感组。值得注意的是，我们的方法将来自癌症基因组图谱（TCGA）的IDH-wt GBM患者分为生存结局不同的两组（PFS P = 4.58e-4，OS P = 3.66e-4）。此外，我们通过体外TMZ筛选和多区域GSCs的基因组表征，展示了每个GBM患者内高度异质的TMZ反应模式。最后，用于评估原发性IDH-wt GBM TMZ疗效的预测模型被开发为公共使用的网络服务器（ http://www.wang-lab-hkust.com:3838/TMZEP ）。结论：我们识别了与TMZ敏感性相关的分子特征，并展示了基于患者来源GSC药物基因组学谱训练的ML模型对抗IDH-wt GBM的潜在临床价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36915208/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36915208/",
+  "paper_page_path": "papers/pubmed/36915208/index.html"
+}

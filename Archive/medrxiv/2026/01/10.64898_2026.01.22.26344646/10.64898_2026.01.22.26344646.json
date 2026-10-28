@@ -1,0 +1,180 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.64898/2026.01.22.26344646",
+  "title": "Machine learning and burden analyses highlight novel candidate genes in Parkinson’s disease",
+  "doi": "10.64898/2026.01.22.26344646",
+  "abstract": "Genome-wide association studies (GWAS) have identified numerous risk loci for Parkinson’s disease, yet identifying specific causal genes remains a major challenge due to non-coding associations and complex linkage disequilibrium. Here, we present a systematic framework integrating machine learning-based gene prioritization with high-resolution rare variant burden analysis. Using an XGBoost machine-learning model trained on 285 multi-omic features, including brain-specific eQTLs and single-cell expression, we prioritized 406 out of 3,105 genes across 147 risk loci. The list of prioritized genes underwent gene- and domain-level rare variant burden analysis via optimal sequenced kernel association test (SKAT-O) across the Accelerating Medicines Partnership for Parkinson’s Disease and UK Biobank cohorts (N case = 6,435, N proxy = 13,889, N control = 343,160). Meta-analysis of rare variants at the gene and domain levels replicated established associations ( GBA1 , LRRK2 ) and identified six novel potential risk genes ANKRD27 driven by p.Arg21Cys, UBXN2A , FAM171A1 , ERCC8 , BNC2 , and ADNP . Domain-level analysis uniquely uncovered a significant association in the zinc-finger domain of ADNP , which was masked in gene-level tests. Additionally, at cohort-level, one novel gene was nominated: LRRC45 driven by p.Met607ArgfsTer57. Collectively, our results indicate that integrating machine-learning prioritization with gene- and domain-level burden testing identifies novel genes potentially involved in Parkinson’s disease, with further validation needed to elucidate causality and mechanisms.",
+  "authors": [
+    "Parlar SC",
+    "Yu E",
+    "Kanagasingam S",
+    "Zhang Z",
+    "Liu L",
+    "Shahkhali MG",
+    "Chantereault C",
+    "Karpilovsky N",
+    "Worrall D",
+    "Thomas RA",
+    "Senkevich K",
+    "Fon EA",
+    "Gan-Or Z"
+  ],
+  "published_date": "2026-01-23",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.64898/2026.01.22.26344646",
+  "pdf_url": "https://www.medrxiv.org/content/10.64898/2026.01.22.26344646.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1268836",
+    "raw_record": {
+      "id": "PPR1268836",
+      "source": "PPR",
+      "doi": "10.64898/2026.01.22.26344646",
+      "title": "Machine learning and burden analyses highlight novel candidate genes in Parkinson’s disease",
+      "authorString": "Parlar SC, Yu E, Kanagasingam S, Zhang Z, Liu L, Shahkhali MG, Chantereault C, Karpilovsky N, Worrall D, Thomas RA, Senkevich K, Fon EA, Gan-Or Z.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Parlar SC",
+            "lastName": "Parlar",
+            "firstName": "Sitki Cem",
+            "initials": "SC"
+          },
+          {
+            "fullName": "Yu E",
+            "lastName": "Yu",
+            "firstName": "Eric",
+            "initials": "E"
+          },
+          {
+            "fullName": "Kanagasingam S",
+            "lastName": "Kanagasingam",
+            "firstName": "Sajanth",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-1841-1419"
+            }
+          },
+          {
+            "fullName": "Zhang Z",
+            "lastName": "Zhang",
+            "firstName": "Zhao",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Liu L",
+            "lastName": "Liu",
+            "firstName": "Lang",
+            "initials": "L"
+          },
+          {
+            "fullName": "Shahkhali MG",
+            "lastName": "Shahkhali",
+            "firstName": "Morvarid Ghamgosar",
+            "initials": "MG"
+          },
+          {
+            "fullName": "Chantereault C",
+            "lastName": "Chantereault",
+            "firstName": "Cloe",
+            "initials": "C"
+          },
+          {
+            "fullName": "Karpilovsky N",
+            "lastName": "Karpilovsky",
+            "firstName": "Nathan",
+            "initials": "N"
+          },
+          {
+            "fullName": "Worrall D",
+            "lastName": "Worrall",
+            "firstName": "Donovan",
+            "initials": "D"
+          },
+          {
+            "fullName": "Thomas RA",
+            "lastName": "Thomas",
+            "firstName": "Rhalena",
+            "initials": "RA"
+          },
+          {
+            "fullName": "Senkevich K",
+            "lastName": "Senkevich",
+            "firstName": "Konstantin",
+            "initials": "K"
+          },
+          {
+            "fullName": "Fon EA",
+            "lastName": "Fon",
+            "firstName": "Edward",
+            "initials": "EA"
+          },
+          {
+            "fullName": "Gan-Or Z",
+            "lastName": "Gan-Or",
+            "firstName": "Ziv",
+            "initials": "Z"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0009-0005-1841-1419"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Genome-wide association studies (GWAS) have identified numerous risk loci for Parkinson’s disease, yet identifying specific causal genes remains a major challenge due to non-coding associations and complex linkage disequilibrium. Here, we present a systematic framework integrating machine learning-based gene prioritization with high-resolution rare variant burden analysis. Using an XGBoost machine-learning model trained on 285 multi-omic features, including brain-specific eQTLs and single-cell expression, we prioritized 406 out of 3,105 genes across 147 risk loci. The list of prioritized genes underwent gene- and domain-level rare variant burden analysis via optimal sequenced kernel association test (SKAT-O) across the Accelerating Medicines Partnership for Parkinson’s Disease and UK Biobank cohorts (N case = 6,435, N proxy = 13,889, N control = 343,160). Meta-analysis of rare variants at the gene and domain levels replicated established associations (  GBA1 ,  LRRK2 ) and identified six novel potential risk genes  ANKRD27 driven by p.Arg21Cys,  UBXN2A ,  FAM171A1 ,  ERCC8 ,  BNC2 , and  ADNP . Domain-level analysis uniquely uncovered a significant association in the zinc-finger domain of  ADNP , which was masked in gene-level tests. Additionally, at cohort-level, one novel gene was nominated:  LRRC45 driven by p.Met607ArgfsTer57. Collectively, our results indicate that integrating machine-learning prioritization with gene- and domain-level burden testing identifies novel genes potentially involved in Parkinson’s disease, with further validation needed to elucidate causality and mechanisms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.22.26344646"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-07-03",
+      "firstPublicationDate": "2026-01-23",
+      "firstIndexDate": "2026-07-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

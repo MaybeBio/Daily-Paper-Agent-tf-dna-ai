@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends
+- **Assessment boundary** Structural biology, biochemistry, and functional validation of the bacterial effector SAP05 in ubiquitin-independent targeted protein degradation
+- **Shared manuscript claim summary** The authors report crystal structures of SAP05 in complex with the ZnF domain of SPL5 and the vWA domain of Rpn10, revealing a bimodular architecture with two distinct binding surfaces. They propose that SAP05 acts as a molecular bridge linking SPL and GATA transcription factors to the 26S proteasome, enabling ubiquitin-independent targeted protein degradation, and suggest this knowledge could inform new TPD technologies.
+- **Visible evidence base** Crystal structures at 2.20 Å and 2.17 Å resolution, ITC binding data, structure-guided mutagenesis with in planta degradation assays, yeast two-hybrid interaction assays, AlphaFold-Multimer modeling, and structural superposition onto the spinach 26S proteasome cryo-EM structure
+- **Missing materials affecting confidence** Supplementary figures referenced but not provided in the submitted text, including Supplementary Figs 1-12; Table 1 with crystallographic statistics not included; full experimental details for AlphaFold-Multimer confidence metrics; raw ITC data and fitting parameters; western blot images for degradation assays; sequence alignments for conservation analyses
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally detailed and mechanistically informative study of how a bacterial effector protein SAP05 achieves ubiquitin-independent targeted protein degradation. The crystal structures are of good resolution and the bimodular architecture is clearly described. The functional validation through mutagenesis and in planta degradation assays strengthens the central claims. However, several concerns regarding the robustness of the degradation data, the generalizability of the proposed mechanism, and the interpretation of the structural superposition onto the 26S proteasome need to be addressed. The work is of interest to the structural biology and plant-microbe interaction communities, and has potential translational relevance for TPD technologies, but the current evidence base does not fully establish all mechanistic conclusions.
+- **Who would be interested in the results, and why** Structural biologists studying effector proteins and protein-protein interactions; plant pathologists investigating phytoplasma virulence mechanisms; researchers in the targeted protein degradation field, particularly those developing ubiquitin-independent degradation platforms; and synthetic biologists interested in repurposing bacterial effectors for biotechnology applications.
+- **Major strengths** The crystal structures are determined at good resolution and reveal a clear bimodular architecture. The combination of structural, biophysical, and functional data provides multiple lines of evidence. The mutagenesis strategy is structure-guided and the functional assays are appropriate. The evolutionary and conservation analyses add context. The potential for engineering SAP05 into a TPD tool is an important translational angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The authors claim that specific SAP05 residues (D66, N77, D106) are required for interaction with SPL transcription factors and that D66 is also required for GATA binding, based on degradation assays in N. benthamiana leaves.
+  - **Evidence pointer** Results section "The SAP05 'loop surface' forms electrostatic interactions with the ZnF domain", Figure 2D-F, location not provided
+  - **Concern** The degradation assays are described qualitatively. The text states that certain mutants "failed to degrade" or "did not mediate degradation" but no quantitative data, replicates, or statistical analysis are presented. The western blot images are not provided in the submitted material. Additionally, the G76W mutant was not detected in leaves, which complicates interpretation of its loss of function. The distinction between loss of binding and loss of protein stability is not clearly resolved for several mutants.
+  - **Why it matters** The functional validation is central to the claim that the identified interface residues are biologically relevant. Without quantitative and reproducible evidence, the structure-function relationship is not firmly established.
+  - **Resolution test** Provide representative western blots with loading controls, quantification from at least three independent biological replicates, and statistical analysis. Include stability assays for SAP05 mutants to distinguish between loss of interaction and protein instability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose that the steric clash between ZnF_SPL5 and the Rpt4/Rpt5 coiled-coil domains of the 26S proteasome may instigate the switch of the proteasome to the active stage, leading to degradation of the transcription factor.
+  - **Evidence pointer** Results section "Positioning of SAP05 complex on the 26S proteasome points to a TPD mechanism", Figure 5, Supplementary Fig 12, location not provided
+  - **Concern** The structural superposition onto the spinach 26S proteasome is used to infer a mechanistic model, but this is a static model. The authors do not provide experimental evidence that the proposed clash actually occurs in the context of the assembled proteasome, nor do they test whether mutations that relieve the clash affect degradation. The model is plausible but speculative.
+  - **Why it matters** The proposed mechanism is a key conceptual advance of the paper. If the mechanism is not experimentally supported, the significance of the work is reduced to a structural description.
+  - **Resolution test** Provide experimental evidence, such as mutations in the ZnF domain that reduce the clash and show reduced degradation, or crosslinking/mass spectrometry data supporting the proximity of ZnF to Rpt4/Rpt5 in the context of the proteasome.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that SAP05 binding to vWA is more stable due to the necessity of multiple mutations to break the interaction, and that this is consistent with the bimodular architecture.
+  - **Evidence pointer** Results section "The SAP05 'sheet surface' forms polar interactions with vWA_Rpn10", Figure 3, location not provided
+  - **Concern** The claim that the SAP05-vWA interaction is "more stable" is based on the observation that single mutations do not disrupt binding, while multiple mutations are required. However, no quantitative binding data for the vWA interaction are provided. The ITC experiments were only performed for the SAP05-ZnF interaction. The comparison of interaction stability between the two interfaces is therefore not directly supported by the data.
+  - **Why it matters** The differential stability of the two interfaces is used to support the bimodular architecture concept and the robustness of the vWA interaction. Without quantitative comparison, this claim is not established.
+  - **Resolution test** Provide ITC or surface plasmon resonance data for the SAP05-vWA interaction, including for the single and double mutants, to quantitatively compare binding affinities.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conservation analysis
+  - **Claim pointer** The authors claim that conservation analyses of SAP05 residues involved in SAP05-ZnF and SAP05-vWA interactions reveal dynamic evolutionary patterns, and that L4 contributes to binding specificity for SPLs versus GATAs.
+  - **Evidence pointer** Results section "Conservation analyses of SAP05 residues involved in SAP05-ZnF, SAP05-vWA interaction reveal dynamic evolutionary patterns", Supplementary Figs 7-8, location not provided
+  - **Concern** The conservation analysis is described but the actual alignments and the specific sequence differences are not shown in the submitted material. The domain-swapping experiments are described but the data are not presented. The conclusion that L4 determines specificity is based on these experiments, but the evidence is not visible.
+  - **Why it matters** The specificity determinants are important for understanding how SAP05 recognizes different transcription factor families and for engineering purposes. Without visible data, this claim cannot be evaluated.
+  - **Resolution test** Provide the sequence alignments, the domain-swapping constructs, and the binding/degradation data for the chimeric SAP05 proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that SAP05 forms a ternary complex via interactions with the vWA domain of Rpn10 and the ZnF domains of SPL and GATA transcription factors, but the term "ternary complex" is used without defining the three components clearly. It is implied that SAP05, Rpn10, and the transcription factor form the complex, but this could be stated more explicitly.
+  - **Required correction** Clarify the ternary complex composition in the abstract, for example by stating "SAP05 forms a ternary complex with the vWA domain of Rpn10 and the ZnF domain of transcription factors."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, "Protein production and purification", location not provided
+  - **Issue** The methods describe purification of the SAP05-ZnF_SPL5 complex by mixing purified proteins, but do not specify the buffer conditions for the final complex purification step or the concentration method. The description of the second gel filtration step is brief.
+  - **Required correction** Provide buffer composition for the final gel filtration step and specify the concentration method used to reach 15 mg/mL.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, ITC data
+  - **Evidence pointer** Results section "The SAP05 'loop surface' forms electrostatic interactions with the ZnF domain", Figure 2C, location not provided
+  - **Issue** The ITC data are presented as a single Kd value with error. It would be helpful to show the raw ITC thermogram and the fitted binding isotherm in the main figure or supplementary material.
+  - **Required correction** Include the ITC thermogram and fitted isotherm as a supplementary figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout the manuscript, location not provided
+  - **Issue** The authors use "ZnF_SPL5" and "vWA_Rpn10" as domain designations. This is clear but could be defined at first use in the abstract and introduction for readers unfamiliar with the domain nomenclature.
+  - **Required correction** Define ZnF and vWA at first use in the abstract and introduction.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of therapeutic applications is somewhat speculative and could be tempered. The statement that SAP05 "emerges as a prime candidate for engineering a new type of degraders" is strong given that no engineering data are presented.
+  - **Required correction** Soften the language regarding therapeutic potential and note that this is a future possibility requiring further investigation.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative degradation data with replicates and statistics (R1-M1) is the most significant technical failing. The absence of quantitative binding data for the SAP05-vWA interaction (R1-M3) also needs to be addressed. The invisibility of the conservation and domain-swapping data (R1-M4) prevents evaluation of the specificity claims.
+- **Assessment against Nature-style criteria** Originality: The bimodular architecture of SAP05 is novel and the structural data are original. The concept of a bacterial effector using two distinct surfaces to bridge a proteasome receptor and transcription factors is a new contribution. Scientific importance: The work has implications for understanding phytoplasma virulence and for TPD technology development. However, the mechanistic model for how the ternary complex leads to degradation is not fully tested, which limits the current importance. Interdisciplinary readership: The work will appeal to structural biologists, plant pathologists, and researchers in protein degradation. The potential for TPD applications broadens the appeal. Technical soundness: The crystallographic work appears sound based on the described methods and statistics, but the functional data lack quantitative rigor. Readability for nonspecialists: The manuscript is generally well written and the concepts are explained clearly, though some domain-specific terminology could be better defined.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural findings are valuable and the bimodular architecture is a significant contribution. However, the functional validation needs to be strengthened with quantitative data, and the mechanistic model for degradation needs experimental support. The conservation and specificity data need to be made visible for evaluation.
+
+## Risk / unsupported claims
+- The claim that the steric clash between ZnF_SPL5 and Rpt4/Rpt5 coiled-coil domains instigates proteasome activation is speculative and not experimentally tested.
+- The claim that the SAP05-vWA interaction is "more stable" than the SAP05-ZnF interaction is not supported by quantitative binding data.
+- The claim that L4 determines binding specificity for SPLs versus GATAs is based on domain-swapping experiments that are not shown in the submitted material.
+- The statement that SAP05 is a "prime candidate" for engineering new degraders is an extrapolation not directly supported by the data presented.
+- The claim that SAP05 has "minimal disadvantageous effects on Rpn10 interactions with the 19S RP" is based on structural superposition alone and lacks functional validation.

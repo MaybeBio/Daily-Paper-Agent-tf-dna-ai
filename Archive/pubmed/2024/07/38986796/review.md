@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose PreDBP-PLMs, a predictor that fuses ProtT5 protein language model embeddings with evolutionary features derived from position-specific scoring matrices, and feeds the optimal feature combination into a convolutional neural network for DNA-binding protein prediction. Performance is evaluated using 5-fold cross-validation, leave-one-out cross-validation, and an independent set test, with reported accuracy improvements of 0.5% and 5.2% over existing state-of-the-art predictors on the PDB186 and PDB2272 datasets, respectively.
+- **Visible evidence base** Abstract text only; no quantitative performance tables, dataset descriptions, feature selection details, or comparison methodology are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction details, hyperparameter settings, baseline predictor specifications, statistical significance tests, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach for DNA-binding protein prediction, combining a pre-trained protein language model with evolutionary features and a convolutional neural network. The reported accuracy improvements are modest, particularly the 0.5% gain on PDB186, and the abstract lacks sufficient methodological detail to assess the robustness of the claims. The work is within a well-established field with many existing predictors, and the incremental nature of the reported improvement raises questions about the novelty and practical impact. The abstract does not provide enough evidence to evaluate the technical soundness of the feature fusion strategy, the appropriateness of the benchmark comparisons, or the statistical significance of the reported differences.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing machine learning methods for DNA-binding protein identification. Researchers interested in applying pre-trained protein language models to downstream prediction tasks may also find the approach relevant. The modest accuracy gains may limit interest from experimental biologists seeking high-confidence prediction tools.
+- **Major strengths** The combination of a modern pre-trained protein language model with established evolutionary features is a reasonable and current methodological direction. The use of multiple evaluation schemes, including cross-validation and independent testing, suggests an awareness of the need for rigorous performance assessment. The reported improvement on the larger PDB2272 dataset is more substantial and could indicate a meaningful advantage in certain settings.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the optimal feature combination was selected and input to the CNN classifier, and that PreDBP-PLMs exhibits accuracy improvements of 0.5% and 5.2% on PDB186 and PDB2272, respectively.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how the optimal feature combination was selected, what feature combinations were tested, or whether the selection was performed on the training data or the test data. If feature selection was conducted using the test sets, the reported performance could be optimistically biased.  
+  - **Why it matters** Without clarity on the feature selection protocol, the reported accuracy improvements cannot be interpreted as unbiased estimates of generalization performance. This is a fundamental issue for any machine learning study claiming predictive performance.  
+  - **Resolution test** The full manuscript must clearly state that feature selection was performed only on training data, or provide a nested cross-validation or separate validation set procedure. If feature selection involved the test sets, the reported results would not be valid.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** The abstract claims accuracy improvements of 0.5% and 5.2% over existing state-of-the-art predictors.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No statistical significance testing is reported. A 0.5% accuracy difference on PDB186, which is a small dataset, could easily arise from random variation. The abstract does not indicate whether the improvements are consistent across cross-validation folds or whether confidence intervals or p-values were computed.  
+  - **Why it matters** Without statistical significance assessment, the claim of improvement over state-of-the-art predictors is not established. The 0.5% difference is particularly concerning and may not be meaningful in practice.  
+  - **Resolution test** The full manuscript should report standard deviations across cross-validation folds, confidence intervals, or a statistical test such as a paired t-test or Wilcoxon signed-rank test comparing PreDBP-PLMs with baseline predictors.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract states that ProtT5 embedding was combined with different evolutionary features derived from PSSM to represent protein sequences.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify which evolutionary features were used, how they were derived from PSSM, how the fusion with ProtT5 embeddings was performed, or what the dimensionality of the final feature representation was.  
+  - **Why it matters** Reproducibility is a core requirement for computational method papers. Without these details, other researchers cannot implement or fairly compare against PreDBP-PLMs.  
+  - **Resolution test** The full manuscript must provide a complete description of the feature extraction and fusion process, including any normalization steps, dimensionality reduction, and the exact architecture of the CNN.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Benchmark validity  
+  - **Claim pointer** The abstract claims that PreDBP-PLMs was evaluated on benchmark datasets PDB186 and PDB2272 and compared with existing state-of-the-art predictors.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify which existing predictors were used for comparison, whether the same training and test splits were used for all methods, or whether the baseline predictors were retrained under identical conditions.  
+  - **Why it matters** Fair comparison is essential for establishing that the reported improvements are due to the proposed method rather than differences in evaluation protocols.  
+  - **Resolution test** The full manuscript should list all baseline predictors, describe the exact evaluation protocol, and confirm that all methods were evaluated on identical data splits with the same performance metrics.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "the crucial step to understanding their roles" is grammatically awkward and could be rephrased for clarity.  
+  - **Required correction** Revise to "a crucial step in understanding their roles" or similar.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The abstract does not mention any limitations of the proposed method or potential directions for future work.  
+  - **Required correction** Add a brief statement on limitations or future improvements, such as testing on more diverse datasets or incorporating other feature types.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Accessibility  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, methods description  
+  - **Issue** The abstract assumes familiarity with ProtT5 and PSSM without explaining what these are or why they are relevant.  
+  - **Required correction** Provide a brief explanation of ProtT5 as a pre-trained protein language model and PSSM as a position-specific scoring matrix in the abstract or introduction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (feature selection protocol), R1-M2 (statistical significance), R1-M3 (reproducibility details), R1-M4 (benchmark comparison validity)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of ProtT5 embeddings with PSSM-derived features for DBP prediction is a reasonable incremental contribution, but the field already has numerous deep learning and language model based predictors. The abstract does not demonstrate a conceptually new approach.  
+  - **Scientific importance** DNA-binding protein prediction is a relevant problem, but the reported improvements are modest and the abstract does not articulate a broader biological or methodological insight that would elevate the importance beyond incremental accuracy gains.  
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The abstract does not frame the results in a way that would attract a broader biological or clinical audience.  
+  - **Technical soundness** The abstract provides insufficient detail to assess technical soundness. The feature selection and comparison methodology concerns are significant and must be resolved.  
+  - **Readability for nonspecialists** The abstract is reasonably readable but assumes background knowledge of protein language models and PSSM. The significance of the results is not made accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail or statistical rigor to support the claims of improved prediction accuracy. The authors should be invited to address the major concerns, particularly the feature selection protocol, statistical significance testing, and benchmark comparison methodology, before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of accuracy improvement over state-of-the-art predictors is unsupported without statistical significance testing and details of the comparison protocol.
+- The claim that the optimal feature combination was selected is unverifiable without a description of the selection procedure and whether it was independent of the test data.
+- The general statement that the method "could serve as a useful tool" is not supported by evidence of practical usability, such as runtime, ease of implementation, or availability of a web server or code.
+- Any performance numbers beyond the two accuracy values mentioned in the abstract are not provided and cannot be assessed.

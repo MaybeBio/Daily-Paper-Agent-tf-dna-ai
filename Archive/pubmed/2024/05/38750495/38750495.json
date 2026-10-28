@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "38750495",
+    "doi": "10.1186/s13148-024-01674-2",
+    "title": "Machine learning unveils an immune-related DNA methylation profile in germline DNA from breast cancer patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: There is an unmet need for precise biomarkers for early non-invasive breast cancer detection. Here, we aimed to identify blood-based DNA methylation biomarkers that are associated with breast cancer. METHODS: DNA methylation profiling was performed for 524 Asian Chinese individuals, comprising 256 breast cancer patients and 268 age-matched healthy controls, using the Infinium MethylationEPIC array. Feature selection was applied to 649,688 CpG sites in the training set. Predictive models were built by training three machine learning models, with performance evaluated on an independent test set. Enrichment analysis to identify transcription factors binding to regions associated with the selected CpG sites and pathway analysis for genes located nearby were conducted. RESULTS: A methylation profile comprising 51 CpGs was identified that effectively distinguishes breast cancer patients from healthy controls achieving an AUC of 0.823 on an independent test set. Notably, it outperformed all four previously reported breast cancer-associated methylation profiles. Enrichment analysis revealed enrichment of genomic loci associated with the binding of immune modulating AP-1 transcription factors, while pathway analysis of nearby genes showed an overrepresentation of immune-related pathways. CONCLUSION: This study has identified a breast cancer-associated methylation profile that is immune-related to potential for early cancer detection.",
+    "keywords": [
+      "Biomarker",
+      "Breast cancer",
+      "DNA methylation",
+      "Early detection",
+      "Liquid biopsy",
+      "Machine learning",
+      "Peripheral blood"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Female",
+      "Humans",
+      "Middle Aged",
+      "Biomarkers, Tumor/genetics",
+      "*Breast Neoplasms/genetics",
+      "Case-Control Studies",
+      "*CpG Islands",
+      "*DNA Methylation",
+      "Epigenesis, Genetic",
+      "*Machine Learning",
+      "East Asian People/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Ning Yuan",
+        "Hum, Melissa",
+        "Tan, Guek Peng",
+        "Seah, Ai Choo",
+        "Ong, Pei-Yi",
+        "Kin, Patricia T",
+        "Lim, Chia Wei",
+        "Samol, Jens",
+        "Tan, Ngiap Chuan",
+        "Law, Hai-Yang",
+        "Tan, Min-Han",
+        "Lee, Soo-Chin",
+        "Ang, Peter",
+        "Lee, Ann S G"
+      ],
+      "short_names": [
+        "Lee NY",
+        "Hum M",
+        "Tan GP",
+        "Seah AC",
+        "Ong PY",
+        "Kin PT",
+        "Lim CW",
+        "Samol J",
+        "Tan NC",
+        "Law HY",
+        "Tan MH",
+        "Lee SC",
+        "Ang P",
+        "Lee ASG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Cellular and Molecular Research, National Cancer Centre Singapore, 30 Hospital Boulevard, Singapore, 168583, Republic of Singapore.",
+        "Division of Cellular and Molecular Research, National Cancer Centre Singapore, 30 Hospital Boulevard, Singapore, 168583, Republic of Singapore.",
+        "DNA Diagnostic and Research Laboratory, KK Women's and Children's Hospital, 100 Bukit Timah Rd, Singapore, 229899, Singapore.",
+        "SingHealth Polyclinics, 167 Jalan Bukit Merah Connection One (Tower 5), Singapore, 150167, Singapore.",
+        "Department of Hematology-Oncology, National University Cancer Institute, Singapore (NCIS), National University Health System, 5 Lower Kent Ridge Road, Singapore, 119074, Singapore.",
+        "SingHealth Polyclinics, 167 Jalan Bukit Merah Connection One (Tower 5), Singapore, 150167, Singapore.",
+        "Department of Personalised Medicine, Tan Tock Seng Hospital, 11 Jalan Tan Tock Seng, Singapore, 308433, Singapore.",
+        "Medical Oncology Department, Tan Tock Seng Hospital, 11 Jalan Tan Tock Seng, Singapore, 308433, Singapore.",
+        "Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "SingHealth Polyclinics, 167 Jalan Bukit Merah Connection One (Tower 5), Singapore, 150167, Singapore.",
+        "SingHealth Duke-NUS Family Medicine Academic Clinical Programme, Duke-NUS Medical School, 8 College Road, Singapore, 169857, Singapore.",
+        "DNA Diagnostic and Research Laboratory, KK Women's and Children's Hospital, 100 Bukit Timah Rd, Singapore, 229899, Singapore.",
+        "Lucence Diagnostics Pte Ltd, 211 Henderson Road, Singapore, 159552, Singapore.",
+        "Department of Hematology-Oncology, National University Cancer Institute, Singapore (NCIS), National University Health System, 5 Lower Kent Ridge Road, Singapore, 119074, Singapore.",
+        "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, 10 Medical Dr, Singapore, 117597, Singapore.",
+        "Cancer Science Institute, Singapore (CSI), National University of Singapore, 14 Medical Dr, Singapore, 117599, Singapore.",
+        "Oncocare Cancer Centre, Gleneagles Medical Centre, 6 Napier Road, Singapore, 258499, Singapore.",
+        "Division of Cellular and Molecular Research, National Cancer Centre Singapore, 30 Hospital Boulevard, Singapore, 168583, Republic of Singapore. gmslimsg@nus.edu.sg.",
+        "SingHealth Duke-NUS Oncology Academic Clinical Programme (ONCO ACP), Duke-NUS Graduate Medical School, 8 College Road, Singapore, 169857, Singapore. gmslimsg@nus.edu.sg.",
+        "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, 2 Medical Drive, Singapore, 117593, Singapore. gmslimsg@nus.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Ning Yuan",
+        "short_name": "Lee NY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cellular and Molecular Research, National Cancer Centre Singapore, 30 Hospital Boulevard, Singapore, 168583, Republic of Singapore."
+        ]
+      },
+      {
+        "full_name": "Hum, Melissa",
+        "short_name": "Hum M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cellular and Molecular Research, National Cancer Centre Singapore, 30 Hospital Boulevard, Singapore, 168583, Republic of Singapore."
+        ]
+      },
+      {
+        "full_name": "Tan, Guek Peng",
+        "short_name": "Tan GP",
+        "identifiers": [],
+        "affiliations": [
+          "DNA Diagnostic and Research Laboratory, KK Women's and Children's Hospital, 100 Bukit Timah Rd, Singapore, 229899, Singapore."
+        ]
+      },
+      {
+        "full_name": "Seah, Ai Choo",
+        "short_name": "Seah AC",
+        "identifiers": [],
+        "affiliations": [
+          "SingHealth Polyclinics, 167 Jalan Bukit Merah Connection One (Tower 5), Singapore, 150167, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ong, Pei-Yi",
+        "short_name": "Ong PY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology-Oncology, National University Cancer Institute, Singapore (NCIS), National University Health System, 5 Lower Kent Ridge Road, Singapore, 119074, Singapore."
+        ]
+      },
+      {
+        "full_name": "Kin, Patricia T",
+        "short_name": "Kin PT",
+        "identifiers": [],
+        "affiliations": [
+          "SingHealth Polyclinics, 167 Jalan Bukit Merah Connection One (Tower 5), Singapore, 150167, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lim, Chia Wei",
+        "short_name": "Lim CW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Personalised Medicine, Tan Tock Seng Hospital, 11 Jalan Tan Tock Seng, Singapore, 308433, Singapore."
+        ]
+      },
+      {
+        "full_name": "Samol, Jens",
+        "short_name": "Samol J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology Department, Tan Tock Seng Hospital, 11 Jalan Tan Tock Seng, Singapore, 308433, Singapore.",
+          "Johns Hopkins University, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Ngiap Chuan",
+        "short_name": "Tan NC",
+        "identifiers": [],
+        "affiliations": [
+          "SingHealth Polyclinics, 167 Jalan Bukit Merah Connection One (Tower 5), Singapore, 150167, Singapore.",
+          "SingHealth Duke-NUS Family Medicine Academic Clinical Programme, Duke-NUS Medical School, 8 College Road, Singapore, 169857, Singapore."
+        ]
+      },
+      {
+        "full_name": "Law, Hai-Yang",
+        "short_name": "Law HY",
+        "identifiers": [],
+        "affiliations": [
+          "DNA Diagnostic and Research Laboratory, KK Women's and Children's Hospital, 100 Bukit Timah Rd, Singapore, 229899, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tan, Min-Han",
+        "short_name": "Tan MH",
+        "identifiers": [],
+        "affiliations": [
+          "Lucence Diagnostics Pte Ltd, 211 Henderson Road, Singapore, 159552, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lee, Soo-Chin",
+        "short_name": "Lee SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology-Oncology, National University Cancer Institute, Singapore (NCIS), National University Health System, 5 Lower Kent Ridge Road, Singapore, 119074, Singapore.",
+          "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, 10 Medical Dr, Singapore, 117597, Singapore.",
+          "Cancer Science Institute, Singapore (CSI), National University of Singapore, 14 Medical Dr, Singapore, 117599, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ang, Peter",
+        "short_name": "Ang P",
+        "identifiers": [],
+        "affiliations": [
+          "Oncocare Cancer Centre, Gleneagles Medical Centre, 6 Napier Road, Singapore, 258499, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lee, Ann S G",
+        "short_name": "Lee ASG",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cellular and Molecular Research, National Cancer Centre Singapore, 30 Hospital Boulevard, Singapore, 168583, Republic of Singapore. gmslimsg@nus.edu.sg.",
+          "SingHealth Duke-NUS Oncology Academic Clinical Programme (ONCO ACP), Duke-NUS Graduate Medical School, 8 College Road, Singapore, 169857, Singapore. gmslimsg@nus.edu.sg.",
+          "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, 2 Medical Drive, Singapore, 117593, Singapore. gmslimsg@nus.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2024 May 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/16 00:43",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [
+      "41345091",
+      "41322389",
+      "40772765",
+      "40269936",
+      "40234807"
+    ],
+    "refs": [
+      "35619715",
+      "35488087",
+      "34411412",
+      "34174819",
+      "32525743",
+      "31803237",
+      "31506096",
+      "31340499",
+      "31175093",
+      "31143935",
+      "30989176",
+      "30941641",
+      "30487132",
+      "29650040",
+      "29491469",
+      "29070650",
+      "26442924",
+      "26424855",
+      "25988180",
+      "25847639",
+      "25605792",
+      "24478339",
+      "24138928",
+      "23631413",
+      "22568884",
+      "22381621",
+      "22129206",
+      "19386801",
+      "18005035",
+      "17884812",
+      "17339271",
+      "12370276",
+      "10854941",
+      "9545356"
+    ],
+    "similar": [
+      "38750495",
+      "40500734",
+      "27577081",
+      "29270239",
+      "29686738",
+      "31143935",
+      "30989176",
+      "29682089",
+      "30999858",
+      "38776382",
+      "40382585",
+      "41125735",
+      "30545403",
+      "25089541",
+      "19250546",
+      "41331845",
+      "29659014",
+      "39819319",
+      "25809865",
+      "40923924",
+      "27449045",
+      "31590287",
+      "36542473",
+      "31101124",
+      "40269936",
+      "28693600",
+      "32255732",
+      "39456830",
+      "32390948",
+      "28637314",
+      "40069712",
+      "26680018",
+      "25213452",
+      "39962544",
+      "34034702",
+      "27993161",
+      "29491469",
+      "32412047",
+      "22581028",
+      "36585691",
+      "25407397",
+      "30846004",
+      "27773939",
+      "28679371",
+      "30866861",
+      "31508907",
+      "32519815",
+      "36305646",
+      "31520283",
+      "41146333",
+      "29776342",
+      "41034874",
+      "25986046",
+      "32684154",
+      "34366718",
+      "24490656",
+      "28569220",
+      "24233782",
+      "28058013",
+      "39988770",
+      "40302267",
+      "31502352",
+      "41155454",
+      "36171645",
+      "39633164",
+      "31038805",
+      "28415743",
+      "38971778",
+      "28404884",
+      "31727158",
+      "40441683",
+      "21120523",
+      "30816620",
+      "20525369",
+      "31675993",
+      "39844292",
+      "27998789",
+      "40059124",
+      "17194187",
+      "34116608",
+      "24479488",
+      "34751044",
+      "30258192",
+      "27229911",
+      "25175708",
+      "36959629",
+      "39825380",
+      "24196486",
+      "40050897",
+      "34944472",
+      "22524805",
+      "36155971",
+      "34608548",
+      "38414068",
+      "30696380",
+      "39600120",
+      "31039828",
+      "20490964",
+      "30157950",
+      "20920229"
+    ],
+    "review": [
+      "38750495",
+      "31101124",
+      "40269936",
+      "36305646",
+      "30258192"
+    ],
+    "pmc": [
+      "11094860"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-024-01674-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38750495/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38750495",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse243529",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

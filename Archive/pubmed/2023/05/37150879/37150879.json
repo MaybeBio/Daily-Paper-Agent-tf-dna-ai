@@ -1,0 +1,530 @@
+{
+  "identity": {
+    "pmid": "37150879",
+    "doi": "10.1093/brain/awad145",
+    "title": "Data-driven neuropathological staging and subtyping of TDP-43 proteinopathies."
+  },
+  "content": {
+    "abstract": "TAR DNA-binding protein-43 (TDP-43) accumulation is the primary pathology underlying several neurodegenerative diseases. Charting the progression and heterogeneity of TDP-43 accumulation is necessary to better characterize TDP-43 proteinopathies, but current TDP-43 staging systems are heuristic and assume each syndrome is homogeneous. Here, we use data-driven disease progression modelling to derive a fine-grained empirical staging system for the classification and differentiation of frontotemporal lobar degeneration due to TDP-43 (FTLD-TDP, n = 126), amyotrophic lateral sclerosis (ALS, n = 141) and limbic-predominant age-related TDP-43 encephalopathy neuropathologic change (LATE-NC) with and without Alzheimer's disease (n = 304). The data-driven staging of ALS and FTLD-TDP complement and extend previously described human-defined staging schema for ALS and behavioural variant frontotemporal dementia. In LATE-NC individuals, progression along data-driven stages was positively associated with age, but negatively associated with age in individuals with FTLD-TDP. Using only regional TDP-43 severity, our data driven model distinguished individuals diagnosed with ALS, FTLD-TDP or LATE-NC with a cross-validated accuracy of 85.9%, with misclassifications associated with mixed pathological diagnosis, age and genetic mutations. Adding age and SuStaIn stage to this model increased accuracy to 92.3%. Our model differentiates LATE-NC from FTLD-TDP, though some overlap was observed between late-stage LATE-NC and early-stage FTLD-TDP. We further tested for the presence of subtypes with distinct regional TDP-43 progression patterns within each diagnostic group, identifying two distinct cortical-predominant and brainstem-predominant subtypes within FTLD-TDP and a further two subcortical-predominant and corticolimbic-predominant subtypes within ALS. The FTLD-TDP subtypes exhibited differing proportions of TDP-43 type, while there was a trend for age differing between ALS subtypes. Interestingly, a negative relationship between age and SuStaIn stage was seen in the brainstem/subcortical-predominant subtype of each proteinopathy. No subtypes were observed for the LATE-NC group, despite aggregating individuals with and without Alzheimer's disease and a larger sample size for this group. Overall, we provide an empirical pathological TDP-43 staging system for ALS, FTLD-TDP and LATE-NC, which yielded accurate classification. We further demonstrate that there is substantial heterogeneity amongst ALS and FTLD-TDP progression patterns that warrants further investigation in larger cross-cohort studies.",
+    "keywords": [
+      "amyotrophic lateral sclerosis",
+      "frontotemporal lobar degeneration",
+      "limbic-predominant age-related TDP-43 encephalopathy",
+      "machine learning",
+      "neuropathological staging"
+    ],
+    "mesh_terms": [
+      "*Frontotemporal Dementia/pathology",
+      "*TDP-43 Proteinopathies/pathology",
+      "*Alzheimer Disease/pathology",
+      "*Amyotrophic Lateral Sclerosis/genetics",
+      "Dementia",
+      "*Frontotemporal Lobar Degeneration/pathology",
+      "Humans",
+      "DNA-Binding Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Young, Alexandra L",
+        "Vogel, Jacob W",
+        "Robinson, John L",
+        "McMillan, Corey T",
+        "Ossenkoppele, Rik",
+        "Wolk, David A",
+        "Irwin, David J",
+        "Elman, Lauren",
+        "Grossman, Murray",
+        "Lee, Virginia M Y",
+        "Lee, Edward B",
+        "Hansson, Oskar"
+      ],
+      "short_names": [
+        "Young AL",
+        "Vogel JW",
+        "Robinson JL",
+        "McMillan CT",
+        "Ossenkoppele R",
+        "Wolk DA",
+        "Irwin DJ",
+        "Elman L",
+        "Grossman M",
+        "Lee VMY",
+        "Lee EB",
+        "Hansson O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7772-781X",
+        "ORCID: 0000-0001-6394-9940",
+        "ORCID: 0000-0002-5599-5098",
+        "ORCID: 0000-0002-4589-1180",
+        "ORCID: 0000-0001-8467-7286"
+      ],
+      "affiliations": [
+        "Department of Neuroimaging, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, SE5 8AF, UK.",
+        "Centre for Medical Image Computing, Department of Computer Science, University College London, London, WC1V 6LJ, UK.",
+        "Department of Clinical Sciences, SciLifeLab, Lund University, SE-222 42 Lund, Sweden.",
+        "Clinical Memory Research Unit, Lund University, SE-222 42 Lund, Sweden.",
+        "Penn Center for Neurodegenerative Disease Research, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Penn Frontotemporal Degeneration Center, Department of Neurology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Clinical Memory Research Unit, Lund University, SE-222 42 Lund, Sweden.",
+        "Alzheimer Center Amsterdam, Neurology, Vrije Universiteit Amsterdam, Amsterdam UMC location VUmc, 1081 HZ Amsterdam, The Netherlands.",
+        "Amsterdam Neuroscience, Neurodegeneration, 1081 HV Amsterdam, The Netherlands.",
+        "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Penn Frontotemporal Degeneration Center, Department of Neurology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Digital Neuropathology Laboratory, Department of Neurology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Penn Frontotemporal Degeneration Center, Department of Neurology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Penn Center for Neurodegenerative Disease Research, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Penn Center for Neurodegenerative Disease Research, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+        "Clinical Memory Research Unit, Lund University, SE-222 42 Lund, Sweden.",
+        "Memory Clinic, Skane University Hospital, SE-205 02 Malmo, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Young, Alexandra L",
+        "short_name": "Young AL",
+        "identifiers": [
+          "0000-0002-7772-781X"
+        ],
+        "affiliations": [
+          "Department of Neuroimaging, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, SE5 8AF, UK.",
+          "Centre for Medical Image Computing, Department of Computer Science, University College London, London, WC1V 6LJ, UK."
+        ]
+      },
+      {
+        "full_name": "Vogel, Jacob W",
+        "short_name": "Vogel JW",
+        "identifiers": [
+          "0000-0001-6394-9940"
+        ],
+        "affiliations": [
+          "Department of Clinical Sciences, SciLifeLab, Lund University, SE-222 42 Lund, Sweden.",
+          "Clinical Memory Research Unit, Lund University, SE-222 42 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Robinson, John L",
+        "short_name": "Robinson JL",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Center for Neurodegenerative Disease Research, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "McMillan, Corey T",
+        "short_name": "McMillan CT",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Frontotemporal Degeneration Center, Department of Neurology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+          "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Ossenkoppele, Rik",
+        "short_name": "Ossenkoppele R",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Memory Research Unit, Lund University, SE-222 42 Lund, Sweden.",
+          "Alzheimer Center Amsterdam, Neurology, Vrije Universiteit Amsterdam, Amsterdam UMC location VUmc, 1081 HZ Amsterdam, The Netherlands.",
+          "Amsterdam Neuroscience, Neurodegeneration, 1081 HV Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Wolk, David A",
+        "short_name": "Wolk DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Irwin, David J",
+        "short_name": "Irwin DJ",
+        "identifiers": [
+          "0000-0002-5599-5098"
+        ],
+        "affiliations": [
+          "Penn Frontotemporal Degeneration Center, Department of Neurology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+          "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+          "Digital Neuropathology Laboratory, Department of Neurology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Elman, Lauren",
+        "short_name": "Elman L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Grossman, Murray",
+        "short_name": "Grossman M",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Frontotemporal Degeneration Center, Department of Neurology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+          "Department of Neurology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Virginia M Y",
+        "short_name": "Lee VMY",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Center for Neurodegenerative Disease Research, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Edward B",
+        "short_name": "Lee EB",
+        "identifiers": [
+          "0000-0002-4589-1180"
+        ],
+        "affiliations": [
+          "Penn Center for Neurodegenerative Disease Research, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA.",
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Hansson, Oskar",
+        "short_name": "Hansson O",
+        "identifiers": [
+          "0000-0001-8467-7286"
+        ],
+        "affiliations": [
+          "Clinical Memory Research Unit, Lund University, SE-222 42 Lund, Sweden.",
+          "Memory Clinic, Skåne University Hospital, SE-205 02 Malmö, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain : a journal of neurology"
+    ],
+    "journal_abbrev": [
+      "Brain"
+    ],
+    "pub_date": "2023 Jul 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/08 06:41",
+    "fetched_at": "2026-09-29 00:14:05"
+  },
+  "links": {
+    "cites": [
+      "42669933",
+      "42568211",
+      "42392339",
+      "42388895",
+      "42334639",
+      "42253609",
+      "42115692",
+      "41585467",
+      "41509710",
+      "41497595",
+      "41399037",
+      "41332529",
+      "41204877",
+      "41185066",
+      "41157967",
+      "41136425",
+      "40990258",
+      "40985163",
+      "40492394",
+      "40404832",
+      "40293530",
+      "40252666",
+      "40234992",
+      "40207209",
+      "40082617",
+      "40012679",
+      "39954963",
+      "39934841",
+      "39728026",
+      "39441698",
+      "39417393",
+      "39363348",
+      "39352226",
+      "39313512",
+      "39193664",
+      "39131911",
+      "39021510",
+      "38938199",
+      "38879548",
+      "38613823",
+      "38494708",
+      "38283093",
+      "38253209",
+      "38229831",
+      "38227807",
+      "38191721",
+      "38062485",
+      "38045300",
+      "38025276",
+      "37966908",
+      "37957721",
+      "37922093",
+      "37834094",
+      "37433038",
+      "37245084",
+      "37224516"
+    ],
+    "refs": [
+      "36512061",
+      "35366087",
+      "35253557",
+      "34926780",
+      "34458723",
+      "34158384",
+      "33927414",
+      "33824310",
+      "32830216",
+      "32633852",
+      "32535770",
+      "31501924",
+      "31359030",
+      "31039256",
+      "30511086",
+      "30323170",
+      "29538647",
+      "28552366",
+      "28130640",
+      "28087828",
+      "28054827",
+      "28003278",
+      "27338935",
+      "25549971",
+      "24407427",
+      "24240737",
+      "23978324",
+      "23920254",
+      "23686809",
+      "23379621",
+      "23079557",
+      "22101365",
+      "21944779",
+      "21944778",
+      "21644037",
+      "21402743",
+      "21172843",
+      "20971753",
+      "19738176",
+      "19455346",
+      "18923836",
+      "18481073",
+      "17341768",
+      "17021754",
+      "17003490"
+    ],
+    "similar": [
+      "37150879",
+      "36778217",
+      "38896163",
+      "40293530",
+      "38896345",
+      "31039256",
+      "32830216",
+      "36512061",
+      "21921552",
+      "34558120",
+      "29053860",
+      "24378564",
+      "35320398",
+      "38062485",
+      "39069095",
+      "26231953",
+      "33622418",
+      "28100023",
+      "32797255",
+      "37415197",
+      "35318284",
+      "34371283",
+      "23900071",
+      "33074248",
+      "24113586",
+      "33969528",
+      "22083254",
+      "37957721",
+      "34597386",
+      "21921519",
+      "29078806",
+      "34952351",
+      "34563269",
+      "22993125",
+      "27543771",
+      "20102519",
+      "32778941",
+      "36215050",
+      "33576076",
+      "23634771",
+      "37793659",
+      "39352226",
+      "18684309",
+      "37532939",
+      "33946763",
+      "30133939",
+      "19333444",
+      "33314436",
+      "24011641",
+      "20133711",
+      "28960544",
+      "34997851",
+      "36001801",
+      "23117491",
+      "32770214",
+      "31555895",
+      "35168140",
+      "38227807",
+      "33479441",
+      "37609205",
+      "35121671",
+      "25756586",
+      "24323933",
+      "34823271",
+      "34152475",
+      "20012109",
+      "33115537",
+      "35325815",
+      "32949047",
+      "29916022",
+      "35136978",
+      "28988390",
+      "23475817",
+      "21172843",
+      "37533060",
+      "21815469",
+      "38613823",
+      "29216908",
+      "27015757",
+      "29031901",
+      "21118398",
+      "33078279",
+      "36633448",
+      "22101323",
+      "38591790",
+      "36293362",
+      "21326809",
+      "22426854",
+      "30355151",
+      "21360076",
+      "22702520",
+      "22804696",
+      "21921518",
+      "19271105",
+      "25787090",
+      "31791419",
+      "38520489",
+      "19833869",
+      "20810131",
+      "36355566"
+    ],
+    "review": [
+      "37150879",
+      "31039256",
+      "21921552",
+      "34558120",
+      "35320398",
+      "39069095",
+      "28100023",
+      "23900071",
+      "24113586",
+      "21921519",
+      "20102519",
+      "37793659",
+      "18684309",
+      "33946763",
+      "19333444",
+      "24011641",
+      "28960544",
+      "31555895",
+      "24323933",
+      "29916022",
+      "21815469",
+      "38613823",
+      "27015757",
+      "36293362",
+      "21326809",
+      "30355151",
+      "19271105"
+    ],
+    "pmc": [
+      "10317181"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://www.ovid.com/37150879.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37150879/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37150879",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37150879",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/brain/article-lookup/doi/10.1093/brain/awad145",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

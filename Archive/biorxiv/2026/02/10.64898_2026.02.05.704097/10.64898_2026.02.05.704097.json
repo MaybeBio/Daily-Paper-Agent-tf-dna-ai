@@ -1,0 +1,925 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.05.704097",
+  "title": "DNA binding by ATPase-adjacent domains stimulates SMCHD1 ATPase activity",
+  "doi": "10.64898/2026.02.05.704097",
+  "abstract": "SMCHD1 is an epigenetic regulator in which heterozygous variants are reported in facioscapulohumeral muscular dystrophy (FSHD), as well as Bosma arhinia microphthalmia syndrome (BAMS). While we have previously shown that SMCHD1 is able to interact with nucleic acids via its hinge domain, we have now identified a second DNA-binding site that is located C-terminal to the ATPase domain and formed by two domains: the Bromo-adjacent homology (BAH) and immunoglobulin-like 1 (IGL-1) domains. Here, we report their mode of DNA-interaction and we present the first high-resolution structure of the wild-type human SMCHD1 ATPase using site-directed mutagenesis and structural analysis via cryo-EM. We also reveal that DNA-binding at the BAH-IGL-1 domains stimulates the ATPase activity of full-length SMCHD1 in vitro , and demonstrate in a mouse model that ATP hydrolysis is essential for SMCHD1 function in vivo . Together, these findings establish bidentate DNA binding and DNA-stimulated ATP hydrolysis as central features of SMCHD1 function, providing new mechanistic insight into how SMCHD1 regulates gene silencing. GRAPHICAL ABSTRACT",
+  "authors": [
+    "Alexandra D. Gurzau",
+    "Richard W. Birkinshaw",
+    "Andrew Leis",
+    "Tamara Cameron",
+    "Megan Iminitoff",
+    "Kelsey Breslin",
+    "Iromi Wickramasinghe",
+    "Samantha Eccles",
+    "Hannah K. Vanyai",
+    "Quentin A. Gouil",
+    "Peter E. Czabotar",
+    "James M. Murphy",
+    "Marnie E. Blewitt"
+  ],
+  "published_date": "2026-02-05",
+  "updated_date": "2026-02-06T05:10:15Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.05.704097",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.05.704097.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T05:05:54Z",
+        "timestamp": 1790226354166,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                5
+              ]
+            ],
+            "date-time": "2026-02-05T00:00:00Z",
+            "timestamp": 1770249600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "5059384059"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "5059384059"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/03tqsvs90",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100012698",
+          "name": "Jack Brockhoff Foundation",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/100012698",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001061",
+          "name": "Rebecca L. Cooper Medical Research Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "F20221078"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "F20221078"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001061",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000925",
+          "name": "National Health and Medical Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2007996"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2007996"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000925",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000925",
+          "name": "National Health and Medical Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2016894"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2016894"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000925",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000925",
+          "name": "National Health and Medical Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2009062"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2009062"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000925",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000925",
+          "name": "National Health and Medical Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "1172929"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1172929"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000925",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000925",
+          "name": "National Health and Medical Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2034104"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2034104"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000925",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000925",
+          "name": "National Health and Medical Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "1194345"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1194345"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000925",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/02xvc5r05",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  SMCHD1 is an epigenetic regulator in which heterozygous variants are reported in facioscapulohumeral muscular dystrophy (FSHD), as well as Bosma arhinia microphthalmia syndrome (BAMS). While we have previously shown that SMCHD1 is able to interact with nucleic acids via its hinge domain, we have now identified a second DNA-binding site that is located C-terminal to the ATPase domain and formed by two domains: the Bromo-adjacent homology (BAH) and immunoglobulin-like 1 (IGL-1) domains. Here, we report their mode of DNA-interaction and we present the first high-resolution structure of the wild-type human SMCHD1 ATPase using site-directed mutagenesis and structural analysis via cryo-EM. We also reveal that DNA-binding at the BAH-IGL-1 domains stimulates the ATPase activity of full-length SMCHD1\n                  <jats:italic>in vitro</jats:italic>\n                  , and demonstrate in a mouse model that ATP hydrolysis is essential for SMCHD1 function\n                  <jats:italic>in vivo</jats:italic>\n                  . Together, these findings establish bidentate DNA binding and DNA-stimulated ATP hydrolysis as central features of SMCHD1 function, providing new mechanistic insight into how SMCHD1 regulates gene silencing.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>GRAPHICAL ABSTRACT</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"704097v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.64898/2026.02.05.704097",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            6
+          ]
+        ],
+        "date-time": "2026-02-06T05:10:15Z",
+        "timestamp": 1770354615000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "DNA binding by ATPase-adjacent domains stimulates SMCHD1 ATPase activity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8664-0698",
+          "authenticated-orcid": false,
+          "given": "Alexandra D.",
+          "family": "Gurzau",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1825-0182",
+          "authenticated-orcid": false,
+          "given": "Richard W.",
+          "family": "Birkinshaw",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4905-9401",
+          "authenticated-orcid": false,
+          "given": "Andrew",
+          "family": "Leis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tamara",
+          "family": "Cameron",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-0513-3392",
+          "authenticated-orcid": false,
+          "given": "Megan",
+          "family": "Iminitoff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4616-8215",
+          "authenticated-orcid": false,
+          "given": "Kelsey",
+          "family": "Breslin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Iromi",
+          "family": "Wickramasinghe",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4446-083X",
+          "authenticated-orcid": false,
+          "given": "Samantha",
+          "family": "Eccles",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7761-0606",
+          "authenticated-orcid": false,
+          "given": "Hannah K.",
+          "family": "Vanyai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5142-7886",
+          "authenticated-orcid": false,
+          "given": "Quentin A.",
+          "family": "Gouil",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            },
+            {
+              "name": "Olivia Newton-John Cancer Research Institute, Heidelberg, VIC 3084, Australia"
+            },
+            {
+              "name": "School of Cancer Medicine, La Trobe University, Bundoora, VIC 3086, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2594-496X",
+          "authenticated-orcid": false,
+          "given": "Peter E.",
+          "family": "Czabotar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0195-3949",
+          "authenticated-orcid": false,
+          "given": "James M.",
+          "family": "Murphy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2984-1474",
+          "authenticated-orcid": false,
+          "given": "Marnie E.",
+          "family": "Blewitt",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Melbourne, VIC 3052, Australia"
+            },
+            {
+              "name": "Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2017.01.007"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1751",
+          "DOI": "10.1042/BST20200242",
+          "article-title": "Relating SMCHD1 structure to its function in epigenetic silencing",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Biochem Soc Trans"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2454"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3765"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA118.003104"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00432-15"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BCJ20160189"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1038/s42003-019-0499-y",
+          "article-title": "A ubiquitin-like domain is required for stabilizing the N-terminal ATPase module of human SMCHD1",
+          "volume": "2",
+          "year": "2019",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BJ20151049"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, K. , Birkinshaw, R.W. , Gurzau, A.D. , Wanigasuriya, I. , Wang, R. , Iminitoff, M. , Sandow, J.J. , Young, S.N. , Hennessy, P.J. , Willson, T.A. et al. (2020) Crystal structure of the hinge domain of Smchd1 reveals its dimerization mode and nucleic acid-binding residues. Sci Signal, 13.",
+          "DOI": "10.1126/scisignal.aaz5599"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1504232112"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Constantinescu, F. , Szczurek, A.T. , Nesterova, T.B. , Wei, G. , Pustygina, V. , Uphoff, S. , Cawte, A.D. and Brockdorff, N. (2025) Selective interaction of the protein SMCHD1 with specific chromatin regions is governed by the loading factor LRIF1 and SMCHD1 ATPase activity. bioRxiv, 2025.2006.2013.659515.",
+          "DOI": "10.1101/2025.06.13.659515"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2018.10.044"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cdd.2017.122"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.1877"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "766",
+          "DOI": "10.1038/s41594-018-0111-z",
+          "article-title": "Smchd1 regulates long-range chromatin interactions on the inactive X chromosome and at Hox clusters",
+          "volume": "25",
+          "year": "2018",
+          "journal-title": "Nat Struct Mol Biol"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3317"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt656"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKZ114"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp616"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks042"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2010-11-3-r25"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2346101"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx094"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wickham, H. (2016) ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, https://ggplot2.tidyverse.org.",
+          "DOI": "10.1007/978-3-319-24277-4_9"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.26",
+          "unstructured": "Wilke, C.O. (2019a), https://cran.r-project.org/package=cowplot."
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.27",
+          "unstructured": "Clarke, E. and Sherrill-Mix, S. (2017), https://CRAN.R-project.org/package=ggbeeswarm."
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.28",
+          "unstructured": "Slowikowski, K. (2019), https://cran.r-project.org/web/packages/ggrepel/index.html"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wanigasuriya, I. , Gouil, Q. , Kinkel, S.A. , Tapia Del Fierro, A. , Beck, T. , Roper, E.A. , Breslin, K. , Stringer, J. , Hutt, K. , Lee, H.J. et al. (2020) Smchd1 is a maternal effect gene required for genomic imprinting. Elife, 9.",
+          "DOI": "10.7554/eLife.55529"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.30",
+          "unstructured": "Breiman, L. , Friedman, J. , Olshen, R.A. , & Stone, C.J. (1984) Classification and Regression Trees (1st ed.). Chapman and Hall/CRC."
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.31",
+          "unstructured": "Lesnoff, M. , Lancelot, R. (2012), https://cran.r-project.org/package=aod."
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "2055",
+          "DOI": "10.12688/f1000research.13196.1",
+          "article-title": "Differential methylation analysis of reduced representation bisulfite sequencing experiments using edgeR",
+          "volume": "6",
+          "year": "2017",
+          "journal-title": "F1000Res"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.mie.2022.03.029"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4169"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq038"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-59745-406-3_18"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "442",
+          "DOI": "10.1016/j.celrep.2019.03.048",
+          "article-title": "Loss of p53 Causes Stochastic Aberrant X-Chromosome Inactivation and Female-Specific Neural Tube Defects",
+          "volume": "27",
+          "year": "2019",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.142"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-12-3019"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz005"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt662"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2007.12.004"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/386414a0"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(99)01503-0"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/cdg008"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13395-018-0172-z"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-40992-6"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-07907-2"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.05.007"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ng, J. , Zhao, X. , Liu, X. , Soman, A. , Nordenskiöld, L. , Yan, J. and Xue, S. (2025) SMCHD1 compacts DNA directly in an ATP-regulated manner. bioRxiv, 2025.2007.2008.663435.",
+          "DOI": "10.1101/2025.07.08.663435"
+        },
+        {
+          "key": "2026020923151406000_2026.02.05.704097v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-10755-3"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.05.704097",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            10
+          ]
+        ],
+        "date-time": "2026-02-10T07:15:33Z",
+        "timestamp": 1770707733000
+      },
+      "score": 102.11138,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.02.05.704097"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.64898/2026.02.05.704097",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

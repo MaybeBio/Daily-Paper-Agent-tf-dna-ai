@@ -1,0 +1,661 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.23.594371",
+  "title": "Predictive Biophysical Neural Network Modeling of a Compendium of <i>in vivo</i> Transcription Factor DNA Binding Profiles for <i>Escherichia coli</i>",
+  "doi": "10.1101/2024.05.23.594371",
+  "abstract": "The DNA binding of most Escherichia coli Transcription Factors (TFs) has not been comprehensively mapped, and few have models that can quantitatively predict binding affinity. We report the global mapping of in vivo DNA binding for 139 E. coli TFs using ChIP-Seq. We used these data to train BoltzNet, a novel neural network that predicts TF binding energy from DNA sequence. BoltzNet mirrors a quantitative biophysical model and provides directly interpretable predictions genome-wide at nucleotide resolution. We used BoltzNet to quantitatively design novel binding sites, which we validated with biophysical experiments on purified protein. We have generated models for 125 TFs that provide insight into global features of TF binding, including clustering of sites, the role of accessory bases, the relevance of weak sites, and the background affinity of the genome. Our paper provides new paradigms for studying TF-DNA binding and for the development of biophysically motivated neural networks.",
+  "authors": [
+    "Patrick Lally",
+    "Laura Gómez-Romero",
+    "Víctor H. Tierrafría",
+    "Patricia Aquino",
+    "Claire Rioualen",
+    "Xiaoman Zhang",
+    "Sunyoung Kim",
+    "Gabriele Baniulyte",
+    "Jonathan Plitnick",
+    "Carol Smith",
+    "Mohan Babu",
+    "Julio Collado-Vides",
+    "Joseph T. Wade",
+    "James E. Galagan"
+  ],
+  "published_date": "2024-05-24",
+  "updated_date": "2024-05-24T12:45:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.23.594371",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.23.594371.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T13:20:19Z",
+        "timestamp": 1778764819586,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            24
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 62,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The DNA binding of most\n                  <jats:italic>Escherichia coli</jats:italic>\n                  Transcription Factors (TFs) has not been comprehensively mapped, and few have models that can quantitatively predict binding affinity. We report the global mapping of\n                  <jats:italic>in vivo</jats:italic>\n                  DNA binding for 139\n                  <jats:italic>E. coli</jats:italic>\n                  TFs using ChIP-Seq. We used these data to train BoltzNet, a novel neural network that predicts TF binding energy from DNA sequence. BoltzNet mirrors a quantitative biophysical model and provides directly interpretable predictions genome-wide at nucleotide resolution. We used BoltzNet to quantitatively design novel binding sites, which we validated with biophysical experiments on purified protein. We have generated models for 125 TFs that provide insight into global features of TF binding, including clustering of sites, the role of accessory bases, the relevance of weak sites, and the background affinity of the genome. Our paper provides new paradigms for studying TF-DNA binding and for the development of biophysically motivated neural networks.\n                </jats:p>",
+      "DOI": "10.1101/2024.05.23.594371",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            24
+          ]
+        ],
+        "date-time": "2024-05-24T12:45:12Z",
+        "timestamp": 1716554712000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Predictive Biophysical Neural Network Modeling of a Compendium of\n                  <i>in vivo</i>\n                  Transcription Factor DNA Binding Profiles for\n                  <i>Escherichia coli</i>"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6320-9501",
+          "authenticated-orcid": false,
+          "given": "Patrick",
+          "family": "Lally",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9685-6492",
+          "authenticated-orcid": false,
+          "given": "Laura",
+          "family": "Gómez-Romero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3506-8657",
+          "authenticated-orcid": false,
+          "given": "Víctor H.",
+          "family": "Tierrafría",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Patricia",
+          "family": "Aquino",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7684-8679",
+          "authenticated-orcid": false,
+          "given": "Claire",
+          "family": "Rioualen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoman",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sunyoung",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gabriele",
+          "family": "Baniulyte",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Plitnick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Carol",
+          "family": "Smith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mohan",
+          "family": "Babu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8780-7664",
+          "authenticated-orcid": false,
+          "given": "Julio",
+          "family": "Collado-Vides",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9779-3160",
+          "authenticated-orcid": false,
+          "given": "Joseph T.",
+          "family": "Wade",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0542-3291",
+          "authenticated-orcid": false,
+          "given": "James E.",
+          "family": "Galagan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1077"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1027"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-020-0254-8"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2023.09.003"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12918-016-0376-y"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.6",
+          "unstructured": "Jaini, S. et al./person-group>. in Molecular Genetics of Mycobacteria, 2nd Edition (eds G Hatfull & W. R. Jacobs, Jr .) (ASM Press, 2014)."
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12337"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms6829"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.5113606"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100617-062719"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "5273",
+          "DOI": "10.1038/s41467-022-32971-0",
+          "article-title": "Systematic analysis of low-affinity transcription factor binding site clusters in vitro and in vivo establishes their functional relevance",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2019.03.020"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-021-00782-6"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.15",
+          "first-page": "480",
+          "volume": "29",
+          "year": "2016",
+          "journal-title": "in Nature biotechnology"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2005.02.007"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006226"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002811"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1004290107"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2005.02.006"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01307-0"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.161711.113"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1072"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09038-8"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-08746-5"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(02)00994-4"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.86.2.439"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1893"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2009-10-12-r142"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0893-6080(89)90020-8"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.200535.115"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.01.016"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.mie.2018.10.019"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1015616108"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0606717104"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E22-08-0325"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.71.12.4808"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.74.10.4228"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.83.6.1608"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2011.10.012"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-08417-5"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.141.3.1279-1283.1980"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1478-3975/12/5/055002"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00527a028"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1302950110"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/82_2012_257"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/microbiolspec.MGM2-0035-2013"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.48",
+          "unstructured": "Eldan, R. & Shamir, O. in Conference on learning theory. 907–940 (PMLR)."
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00365-021-09532-7"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "607",
+          "DOI": "10.1090/S0025-5718-1994-1240656-2",
+          "article-title": "Neural networks for localized approximation",
+          "volume": "63",
+          "year": "1994",
+          "journal-title": "mathematics of computation"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.51",
+          "unstructured": "Telgarsky, M. in Conference on learning theory. 1517–1539 (PMLR)."
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tan, H. H. & Lim, K. H. in 2019 7th International Conference on Smart Computing & Communications (ICSCC). 1–4.",
+          "DOI": "10.1109/ICSCC.2019.8843652"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, K. , Cao, Z. & Wu, J. in 2020 IEEE International Conference on Image Processing (ICIP). 1676–1680.",
+          "DOI": "10.1109/ICIP40778.2020.9191303"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.54",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.55",
+          "unstructured": "Ioffe, S. & Szegedy, C. 448–456 (pmlr)."
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.56",
+          "article-title": "Improving neural networks by preventing co-adaptation of feature detectors",
+          "year": "2012",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz921"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/mic.0.2008/020016-0"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms5115"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acssensors.2c00133"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-14942-5"
+        },
+        {
+          "key": "2024052703450616000_2024.05.23.594371v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.1995.tb02265.x"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.05.23.594371",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:28:19Z",
+        "timestamp": 1768458499000
+      },
+      "score": 138.11494,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.05.23.594371"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            24
+          ]
+        ]
+      },
+      "references-count": 62,
+      "URL": "https://doi.org/10.1101/2024.05.23.594371",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

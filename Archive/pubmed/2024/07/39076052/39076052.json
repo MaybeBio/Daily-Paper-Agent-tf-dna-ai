@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "39076052",
+    "doi": "10.1002/advs.202405685",
+    "title": "Cross-Species Prediction of Transcription Factor Binding by Adversarial Training of a Novel Nucleotide-Level Deep Neural Network."
+  },
+  "content": {
+    "abstract": "Cross-species prediction of TF binding remains a major challenge due to the rapid evolutionary turnover of individual TF binding sites, resulting in cross-species predictive performance being consistently worse than within-species performance. In this study, a novel Nucleotide-Level Deep Neural Network (NLDNN) is first proposed to predict TF binding within or across species. NLDNN regards the task of TF binding prediction as a nucleotide-level regression task, which takes DNA sequences as input and directly predicts experimental coverage values. Beyond predictive performance, it also assesses model performance by locating potential TF binding regions, discriminating TF-specific single-nucleotide polymorphisms (SNPs), and identifying causal disease-associated SNPs. The experimental results show that NLDNN outperforms the competing methods in these tasks. Then, a dual-path framework is designed for adversarial training of NLDNN to further improve the cross-species prediction performance by pulling the domain space of human and mouse species closer. Through comparison and analysis, it finds that adversarial training not only can improve the cross-species prediction performance between humans and mice but also enhance the ability to locate TF binding regions and discriminate TF-specific SNPs. By visualizing the predictions, it is figured out that the framework corrects some mispredictions by amplifying the coverage values of incorrectly predicted peaks.",
+    "keywords": [
+      "adversarial training",
+      "cross-species transcription factor binding prediction",
+      "nucleotide-level models",
+      "sequence-level models"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "Animals",
+      "Mice",
+      "Humans",
+      "*Transcription Factors/metabolism/genetics",
+      "*Polymorphism, Single Nucleotide/genetics",
+      "Binding Sites/genetics",
+      "Nucleotides/metabolism/genetics",
+      "Deep Learning",
+      "Computational Biology/methods",
+      "Species Specificity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qinhu",
+        "Wang, Siguo",
+        "Li, Zhipeng",
+        "Pan, Yijie",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "Wang S",
+        "Li Z",
+        "Pan Y",
+        "Huang DS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4232-7736"
+      ],
+      "affiliations": [
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China.",
+        "Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230021, China.",
+        "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning, 530007, China.",
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China.",
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China.",
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China.",
+        "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China.",
+        "Institute for Regenerative Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200092, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0002-4232-7736"
+        ],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China.",
+          "Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230021, China.",
+          "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning, 530007, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhipeng",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Yijie",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China."
+        ]
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, 315201, China.",
+          "Institute for Regenerative Medicine, Shanghai East Hospital, Tongji University, Shanghai, 200092, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/30 06:42",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42045261",
+      "41714925",
+      "41556344",
+      "41514301",
+      "40099956"
+    ],
+    "refs": [
+      "37324054",
+      "36484687",
+      "35263332",
+      "35042722",
+      "34914593",
+      "34751401",
+      "34608324",
+      "33796819",
+      "33741685",
+      "33603233",
+      "33498086",
+      "33367499",
+      "33005921",
+      "32943643",
+      "32732264",
+      "32687525",
+      "31336830",
+      "30967126",
+      "30286077",
+      "29588361",
+      "29140464",
+      "27882933",
+      "27799070",
+      "27524613",
+      "27197224",
+      "27153584",
+      "27084946",
+      "26301843",
+      "26213851",
+      "23715323",
+      "21808000",
+      "21330290",
+      "20378774",
+      "19443739",
+      "19167516",
+      "17324271",
+      "11988762",
+      "11967554",
+      "11125122"
+    ],
+    "similar": [
+      "39076052",
+      "35042722",
+      "31336830",
+      "34613923",
+      "35263332",
+      "32770026",
+      "40102719",
+      "37919990",
+      "30922998",
+      "34073774",
+      "40411397",
+      "34534646",
+      "33498086",
+      "40334196",
+      "41294241",
+      "29617928",
+      "38517697",
+      "34272562",
+      "39701486",
+      "33137083",
+      "38848239",
+      "40889326",
+      "33372147",
+      "26291518",
+      "40065237",
+      "25775564",
+      "36057196",
+      "39096613",
+      "38940155",
+      "30629513",
+      "31372637",
+      "35202389",
+      "33741685",
+      "41450215",
+      "41042660",
+      "40848288",
+      "37805453",
+      "25722376",
+      "33522898",
+      "20838582",
+      "31114870",
+      "36155619",
+      "38733561",
+      "21124945",
+      "22863112",
+      "34752400",
+      "41527854",
+      "41257586",
+      "33603233",
+      "38701417",
+      "23382538",
+      "26901046",
+      "30423062",
+      "18184687",
+      "41022541",
+      "40133785",
+      "30517703",
+      "28234893",
+      "22534400",
+      "40501927",
+      "41325984",
+      "41035197",
+      "30709337",
+      "31595288",
+      "28849563",
+      "19956545",
+      "27492288",
+      "41634097",
+      "31340985",
+      "25957350",
+      "35997560",
+      "15146456",
+      "33413545",
+      "19439068",
+      "30323198",
+      "17094254",
+      "40121399",
+      "22369687",
+      "24039567",
+      "40335485",
+      "38644393",
+      "25158938",
+      "16733547",
+      "19036135",
+      "39013383",
+      "27899579",
+      "16761919",
+      "27896980",
+      "25041923",
+      "35410161",
+      "39786868",
+      "38918413",
+      "12325018",
+      "16286651",
+      "41406298",
+      "27845669",
+      "28750606",
+      "35471887",
+      "25144359",
+      "31723409"
+    ],
+    "review": [
+      "39076052",
+      "36057196"
+    ],
+    "pmc": [
+      "11423150"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39076052/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "41727502",
+    "doi": "10.3389/fimmu.2026.1762492",
+    "title": "Xiaoyao San alleviates emotional distress - induced TNBC growth through augmenting intratumoral CD8(+)T cell infiltration mediated by Rela/NF-kB-Cxcl9 axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Emotional distress (ED) is closely associated with the progression of triple-negative breast cancer (TNBC). Xiaoyao San (XYS), a classical Chinese herbal prescription traditionally used for mood regulation, has demonstrated potential therapeutic efficacy in emotion-related breast cancer. However, the molecular mechanisms through which XYS mitigates ED-induced TNBC (ED-TNBC) remain insufficiently characterized. This study aimed to investigate the therapeutic effects of XYS on ED-TNBC and elucidate its underlying molecular mechanisms. METHODS: A TNBC mouse model subjected to chronic unpredictable mild stress (CUMS) was developed to simulate ED-TNBC conditions. The therapeutic efficacy of XYS at varying doses was evaluated through behavioral assessments and tumor growth analyses. Multi-omics analyses integrating network pharmacology, bioinformatics, and molecular dynamics simulations were employed to identify principal active constituents and key molecular targets of XYS. Transcriptomic profiling, in vivo and in vitro functional assays, and molecular biology experiments were conducted to delineate the molecular mechanisms underlying XYS-mediated regulation. RESULTS: High-dose XYS markedly alleviated depression-like behaviors and suppressed ED-TNBC tumor progression, with no evident adverse effects observed. Transcriptomic and molecular analyses revealed that XYS enhanced CD8(+) T cell infiltration and cytotoxic activity through activation of Cxcl9. The active constituents of XYS were found to bind directly to the transcription factor Rela. Subsequent experiments verified that Cxcl9 secretion from TNBC cells depends on Rela activity. In addition, XYS upregulated Rela expression and promoted its nuclear translocation. CONCLUSION: XYS directly targets and activates the intratumoral Rela/NF-kappaB-Cxcl9 axis, promoting CD8(+)T cell infiltration and activation, thereby inhibiting the growth of ED-TNBS.",
+    "keywords": [
+      "CD8+T cell",
+      "Cxcl9",
+      "Xiaoyao San",
+      "emotional distress",
+      "triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "*Transcription Factor RelA/metabolism",
+      "*Triple Negative Breast Neoplasms/drug therapy/immunology/psychology/pathology/metabolism",
+      "Female",
+      "Mice",
+      "*Lymphocytes, Tumor-Infiltrating/immunology/drug effects/metabolism",
+      "Humans",
+      "*Chemokine CXCL9/metabolism",
+      "*CD8-Positive T-Lymphocytes/immunology/drug effects/metabolism",
+      "*NF-kappa B/metabolism",
+      "*Stress, Psychological/complications/drug therapy/immunology",
+      "Cell Line, Tumor",
+      "Signal Transduction/drug effects",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Yuqi",
+        "Wu, Yingchao",
+        "Chen, Jieting",
+        "Shi, Huan",
+        "Li, Zhuang",
+        "Zeng, Juexiao",
+        "Huang, Junfeng",
+        "Zuo, Qian",
+        "Ye, Lingling",
+        "Song, Xue",
+        "Dai, Yan",
+        "Bai, Yunlong",
+        "Chen, Qianjun"
+      ],
+      "short_names": [
+        "Liang Y",
+        "Wu Y",
+        "Chen J",
+        "Shi H",
+        "Li Z",
+        "Zeng J",
+        "Huang J",
+        "Zuo Q",
+        "Ye L",
+        "Song X",
+        "Dai Y",
+        "Bai Y",
+        "Chen Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Key Laboratory of Chinese Medicinal Resource from Lingnan, Ministry of Education, School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+        "Key Laboratory of Chinese Medicinal Resource from Lingnan, Ministry of Education, School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Key Laboratory of Chinese Medicinal Resource from Lingnan, Ministry of Education, School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+        "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Yuqi",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+          "Key Laboratory of Chinese Medicinal Resource from Lingnan, Ministry of Education, School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yingchao",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jieting",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Huan",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhuang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Juexiao",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Junfeng",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Qian",
+        "short_name": "Zuo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Lingling",
+        "short_name": "Ye L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xue",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Yan",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China.",
+          "Key Laboratory of Chinese Medicinal Resource from Lingnan, Ministry of Education, School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Yunlong",
+        "short_name": "Bai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Medicinal Resource from Lingnan, Ministry of Education, School of Pharmaceutical Sciences, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qianjun",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, The Second Clinical College of Guangzhou University of Chinese Medicine, State Key Laboratory of Traditional Chinese Medicine Syndrome, Guangzhou, Guangdong, China.",
+          "Chinese Medicine Guangdong Laboratory, Hengqin, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/23 13:05",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41011980",
+      "40945251",
+      "40929245",
+      "40912487",
+      "40783744",
+      "40780479",
+      "40696434",
+      "40694169",
+      "40659129",
+      "40616690",
+      "40524302",
+      "40492378",
+      "40482645",
+      "40375342",
+      "40341563",
+      "40324582",
+      "40221743",
+      "39848017",
+      "39702756",
+      "39630109",
+      "38928021",
+      "38572751",
+      "38513380",
+      "38335844",
+      "38169627",
+      "37937817",
+      "37789028",
+      "37669562",
+      "37210553",
+      "37035186",
+      "36911664",
+      "36712945",
+      "36642843",
+      "36370105",
+      "35999610",
+      "34850907",
+      "34512367",
+      "34240910",
+      "33637602",
+      "33076281",
+      "32820237",
+      "31547382",
+      "31434627",
+      "31185212",
+      "30853353",
+      "29351761",
+      "29094413",
+      "28779979",
+      "27862047",
+      "27819658",
+      "27726306",
+      "25099012",
+      "22824207",
+      "22685488"
+    ],
+    "similar": [
+      "41727502",
+      "40780479",
+      "40586931",
+      "40998134",
+      "40550295",
+      "41029481",
+      "42172981",
+      "42032729",
+      "41789073",
+      "41650505",
+      "39615216",
+      "40912487",
+      "40469627",
+      "39741917",
+      "39121924",
+      "39033271",
+      "41932527",
+      "40140444",
+      "40199407",
+      "41610967",
+      "41759266",
+      "40945251",
+      "31015319",
+      "40783744",
+      "42580208",
+      "42170979",
+      "39506852",
+      "40659139",
+      "41016300",
+      "41819510",
+      "36099982",
+      "41866005",
+      "31913856",
+      "42442599",
+      "41488652",
+      "41571298",
+      "39780177",
+      "42013357",
+      "29158255",
+      "40712726",
+      "41061289",
+      "40846041",
+      "40517736",
+      "33593880",
+      "42238595",
+      "39303510",
+      "42250059",
+      "42057180",
+      "41038145",
+      "33709190",
+      "39864604",
+      "26431276",
+      "39327614",
+      "35180863",
+      "32892748",
+      "40330488",
+      "41798904",
+      "32926492",
+      "41703443",
+      "39400783",
+      "41854522",
+      "41033421",
+      "34219129",
+      "40887997",
+      "39695149",
+      "41955452",
+      "40119517",
+      "39341128",
+      "41736431",
+      "38043386",
+      "40109332",
+      "29217494",
+      "41991647",
+      "41819508",
+      "42320087",
+      "39848017",
+      "41925800",
+      "39556022",
+      "24529079",
+      "38763012",
+      "31790818",
+      "40976049",
+      "39741338",
+      "41209020",
+      "40849803",
+      "42550313",
+      "41866545",
+      "33320840",
+      "41905731",
+      "39260826",
+      "38516703",
+      "41795298",
+      "40825766",
+      "37393829",
+      "42242864",
+      "29845474",
+      "39579248",
+      "27836733",
+      "40045365",
+      "41253271"
+    ],
+    "review": [
+      "41727502"
+    ],
+    "pmc": [
+      "12916637"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stress.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stress"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41727502/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1762492",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "39206620",
+    "doi": "10.1002/cam4.70153",
+    "title": "Screening of gastric cancer diagnostic biomarkers in the homologous recombination signaling pathway and assessment of their clinical and radiomic correlations."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Homologous recombination plays a vital role in the occurrence and drug resistance of gastric cancer. This study aimed to screen new gastric cancer diagnostic biomarkers in the homologous recombination pathway and then used radiomic features to construct a prediction model of biomarker expression to guide the selection of chemotherapy regimens. METHODS: Gastric cancer transcriptome data were downloaded from The Cancer Genome Atlas database. Machine learning methods were used to screen for diagnostic biomarkers of gastric cancer and validate them experimentally. Computed Tomography image data of gastric cancer patients and corresponding clinical data were downloaded from The Cancer Imaging Archive and our imaging centre, and then the Computed Tomography images were subjected to feature extraction, and biomarker expression prediction models were constructed to analyze the correlation between the biomarker radiomics scores and clinicopathological features. RESULTS: We screened RAD51D and XRCC2 in the homologous recombination pathway as biomarkers for gastric cancer diagnosis by machine learning, and the expression of RAD51D and XRCC2 was significantly positively correlated with pathological T stage, N stage, and TNM stage. Homologous recombination pathway blockade inhibits gastric cancer cell proliferation, promotes apoptosis, and reduces the sensitivity of gastric cancer cells to chemotherapeutic drugs. Our predictive RAD51D and XRCC2 expression models were constructed using radiomics features, and all the models had high accuracy. In the external validation cohort, the predictive models still had decent accuracy. Moreover, the radiomics scores of RAD51D and XRCC2 were also significantly positively correlated with the pathologic T, N, and TNM stages. CONCLUSIONS: The gastric cancer diagnostic biomarkers RAD51D and XRCC2 that we screened can, to a certain extent, reflect the expression status of genes through radiomic characteristics, which is of certain significance in guiding the selection of chemotherapy regimens for gastric cancer patients.",
+    "keywords": [
+      "RAD51D",
+      "XRCC2",
+      "gastric cancer",
+      "homologous recombination",
+      "radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/drug therapy/diagnostic imaging/pathology/metabolism/diagnosis",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Male",
+      "*Machine Learning",
+      "Female",
+      "*Homologous Recombination",
+      "*Signal Transduction",
+      "Middle Aged",
+      "Tomography, X-Ray Computed/methods",
+      "Neoplasm Staging",
+      "Aged",
+      "Gene Expression Regulation, Neoplastic",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Ahao",
+        "Hu, Tengcheng",
+        "Lai, Chao",
+        "Zeng, Qingwen",
+        "Luo, Lianghua",
+        "Shu, Xufeng",
+        "Huang, Pan",
+        "Wang, Zhonghao",
+        "Feng, Zongfeng",
+        "Zhu, Yanyan",
+        "Cao, Yi",
+        "Li, Zhengrong"
+      ],
+      "short_names": [
+        "Wu A",
+        "Hu T",
+        "Lai C",
+        "Zeng Q",
+        "Luo L",
+        "Shu X",
+        "Huang P",
+        "Wang Z",
+        "Feng Z",
+        "Zhu Y",
+        "Cao Y",
+        "Li Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5078-8412",
+        "ORCID: 0000-0001-9949-372X"
+      ],
+      "affiliations": [
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Medical Innovation Centre, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Radiology, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Digestive Surgery, Digestive Disease Hospital, The Third Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Ahao",
+        "short_name": "Wu A",
+        "identifiers": [
+          "0000-0001-5078-8412"
+        ],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+          "Medical Innovation Centre, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Tengcheng",
+        "short_name": "Hu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Chao",
+        "short_name": "Lai C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Qingwen",
+        "short_name": "Zeng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Lianghua",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Xufeng",
+        "short_name": "Shu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Pan",
+        "short_name": "Huang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhonghao",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Zongfeng",
+        "short_name": "Feng Z",
+        "identifiers": [
+          "0000-0001-9949-372X"
+        ],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yanyan",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yi",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhengrong",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Digestive Surgery, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+          "Department of Digestive Surgery, Digestive Disease Hospital, The Third Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer medicine"
+    ],
+    "journal_abbrev": [
+      "Cancer Med"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/31 09:44",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "41832372",
+      "41626148",
+      "41583907",
+      "40766065",
+      "40446793",
+      "40056529"
+    ],
+    "refs": [
+      "38572751",
+      "38395893",
+      "38350919",
+      "38279111",
+      "38170790",
+      "38085080",
+      "37672074",
+      "37557177",
+      "37318648",
+      "37231100",
+      "37132183",
+      "36988593",
+      "36960625",
+      "36825238",
+      "36806557",
+      "36777507",
+      "36511812",
+      "36316527",
+      "36307149",
+      "35902562",
+      "35502895",
+      "35340629",
+      "35292076",
+      "35046937",
+      "34963055",
+      "34923718",
+      "34838195",
+      "34497808",
+      "34469533",
+      "34390014",
+      "33486805",
+      "33299649",
+      "33156452",
+      "33149131",
+      "32694053",
+      "32531334",
+      "32107557",
+      "31995688",
+      "30042208",
+      "26354865",
+      "22797858",
+      "22490572",
+      "21821141"
+    ],
+    "similar": [
+      "39206620",
+      "41233664",
+      "39382960",
+      "40704685",
+      "40075494",
+      "40128827",
+      "42507312",
+      "40121898",
+      "40350424",
+      "40329193",
+      "41803712",
+      "41818775",
+      "30120041",
+      "40285792",
+      "41656813",
+      "34233259",
+      "42490033",
+      "39181686",
+      "41120931",
+      "41798945",
+      "40636126",
+      "39080806",
+      "42372561",
+      "40374970",
+      "30224313",
+      "39110344",
+      "39003337",
+      "40982147",
+      "40792413",
+      "38206403",
+      "38519974",
+      "41117752",
+      "30010108",
+      "42406147",
+      "42564746",
+      "30836272",
+      "39256086",
+      "23569343",
+      "41067858",
+      "37993745",
+      "35391567",
+      "30929999",
+      "25418835",
+      "39812042",
+      "30519931",
+      "39900688",
+      "40167935",
+      "42253227",
+      "40135319",
+      "39718015",
+      "37274479",
+      "39753481",
+      "40165301",
+      "39947156",
+      "40629575",
+      "40328540",
+      "40450287",
+      "41382212",
+      "40413149",
+      "30613271",
+      "33228815",
+      "32592224",
+      "40884974",
+      "31385045",
+      "40960514",
+      "39347666",
+      "41291636",
+      "39956084",
+      "41530793",
+      "42260809",
+      "41851003",
+      "38467894",
+      "42285781",
+      "40264789",
+      "42185841",
+      "39794732",
+      "41585811",
+      "40842207",
+      "40231067",
+      "40719786",
+      "38376584",
+      "39477296",
+      "41656416",
+      "39618212",
+      "40717595",
+      "39930340",
+      "39553728",
+      "39520622",
+      "41372786",
+      "38824087",
+      "34051735",
+      "40021977",
+      "38525272",
+      "39443817",
+      "39503776",
+      "38886288",
+      "36314190",
+      "31577560",
+      "34045003",
+      "39810215"
+    ],
+    "review": [
+      "39206620",
+      "38824087"
+    ],
+    "pmc": [
+      "11358765"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/39206620.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39206620/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cam4.70153",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

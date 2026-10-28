@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2505.20578v1",
+  "title": "Ctrl-DNA: Controllable Cell-Type-Specific Regulatory DNA Design via Constrained RL",
+  "authors": "Xingyu Chen; Shihao Ma; Runsheng Lin; Jiecong Lin; Bo Wang",
+  "journal": "",
+  "published_date": "2025-05-26",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用约束强化学习优化基因组语言模型，设计细胞类型特异性的调控DNA序列，虽聚焦调控序列生成而非TF-DNA结合机制建模，但涉及TFBS识别且方法可迁移至TF-DNA互作研究。",
+  "abstract": "Designing regulatory DNA sequences that achieve precise cell-type-specific gene expression is crucial for advancements in synthetic biology, gene therapy and precision medicine. Although transformer-based language models (LMs) can effectively capture patterns in regulatory DNA, their generative approaches often struggle to produce novel sequences with reliable cell-specific activity. Here, we introduce Ctrl-DNA, a novel constrained reinforcement learning (RL) framework tailored for designing regulatory DNA sequences with controllable cell-type specificity. By formulating regulatory sequence design as a biologically informed constrained optimization problem, we apply RL to autoregressive genomic LMs, enabling the models to iteratively refine sequences that maximize regulatory activity in targeted cell types while constraining off-target effects. Our evaluation on human promoters and enhancers demonstrates that Ctrl-DNA consistently outperforms existing generative and RL-based approaches, generating high-fitness regulatory sequences and achieving state-of-the-art cell-type specificity. Moreover, Ctrl-DNA-generated sequences capture key cell-type-specific transcription factor binding sites (TFBS), short DNA motifs recognized by regulatory proteins that control gene expression, demonstrating the biological plausibility of the generated sequences.",
+  "abstract_zh": "设计能够实现精确细胞类型特异性基因表达的调控DNA序列，对于合成生物学、基因治疗和精准医学的进展至关重要。尽管基于Transformer的语言模型（LMs）能有效捕捉调控DNA中的模式，但其生成方法往往难以产生具有可靠细胞特异性活性的新序列。在此，我们引入Ctrl-DNA，一种新颖的约束强化学习（RL）框架，专门用于设计具有可控细胞类型特异性的调控DNA序列。通过将调控序列设计表述为一个生物学信息约束的优化问题，我们将RL应用于自回归基因组LMs，使模型能够迭代优化序列，在目标细胞类型中最大化调控活性，同时限制脱靶效应。我们在人类启动子和增强子上的评估表明，Ctrl-DNA始终优于现有的生成式和基于RL的方法，生成高适应性的调控序列，并达到最先进的细胞类型特异性。此外，Ctrl-DNA生成的序列捕获了关键的细胞类型特异性转录因子结合位点（TFBS），这些是调控蛋白识别以控制基因表达的短DNA基序，证明了生成序列的生物学合理性。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2505.20578v1",
+  "source_url": "https://arxiv.org/abs/2505.20578v1",
+  "paper_page_path": "papers/arxiv/2505.20578v1/index.html"
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report synthesis and characterization of Ru(III), Zn(II), and VO(II) complexes of a phenolic Schiff base ligand (MHNP), with proposed coordination geometries, DNA-binding properties, redox behavior, and potential antimicrobial, anticancer, and antioxidant applications, supported by DFT calculations
+- **Visible evidence base** Abstract text only; no experimental data, spectra, computational details, or biological assay results are visible
+- **Missing materials affecting confidence** Full manuscript, experimental procedures, characterization data, DFT methodology and outputs, DNA-binding assay details, redox measurements, and any biological activity data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting study on metal-based Schiff base complexes with a clear focus on structure, DNA interaction, and therapeutic potential. However, the evidence base available for review is limited to the abstract, which contains no quantitative data, no methodological detail, and no direct experimental results. The core claims regarding coordination geometries, DNA-binding modes, and biological applications are stated without supporting numbers or statistical measures. The study may be of interest to the bioinorganic and medicinal chemistry community, but the current evidence is insufficient to establish the stated conclusions.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, medicinal inorganic chemistry, and drug design would be interested in the structure-activity relationships of metal-based Schiff base complexes, particularly regarding DNA targeting and potential therapeutic applications. Computational chemists working on DFT-based prediction of coordination geometries may also find relevance.
+- **Major strengths** The study combines experimental synthesis and characterization with DFT calculations, which is a useful approach for correlating electronic structure with biological behavior. The focus on multiple metal centers (Ru, Zn, VO) allows comparative analysis of metal-dependent properties. The stated aim of linking coordination geometry, DNA binding, and redox activity to therapeutic potential is coherent and timely.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the MHNP ligand coordinates through NOO donor atoms, forming octahedral geometry with Ru(III), tetrahedral geometry with Zn(II), and square pyramidal geometry with VO(II) complexes
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The coordination geometries are stated as definitive results, but no supporting data such as spectroscopic assignments, magnetic moments, or DFT-optimized structural parameters are provided in the abstract. Without these, the geometries cannot be verified.
+  - **Why it matters** Coordination geometry is central to the structure-activity relationships claimed in the study. If the geometries are incorrect, the subsequent DNA-binding and redox interpretations would be compromised.
+  - **Resolution test** Provide experimental characterization data (e.g., IR, UV-Vis, ESR, magnetic susceptibility) and DFT-optimized coordinates or bond parameters that support the proposed geometries.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims enhanced DNA-binding upon metal coordination, with the Ru(III) complex exhibiting stronger interactions suggesting groove-binding or intercalative behavior, while Zn(II) and VO(II) complexes show moderate but stable binding profiles
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative binding data (e.g., binding constants, Gibbs free energy, or comparative values) are provided. The terms "stronger," "moderate," and "stable" are qualitative and cannot be assessed without numerical context or statistical analysis.
+  - **Why it matters** The central claim of the study is that these complexes have DNA-targeting potential. Without quantitative binding parameters, the relative efficacy of the complexes and the proposed binding modes remain unsupported.
+  - **Resolution test** Include binding constants (e.g., Kb) from spectroscopic or calorimetric titrations, with error margins and statistical comparisons across complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that redox properties of Ru(III) and VO(II), along with the redox-modulating nature of Zn(II), suggest potential antioxidant activity through regulation of reactive oxygen species
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No electrochemical data (e.g., cyclic voltammetry potentials) or antioxidant assay results are presented. The claim is purely inferential and lacks direct experimental support.
+  - **Why it matters** The proposed antioxidant activity is a key part of the multifunctional therapeutic claim. Without redox potentials or ROS-scavenging data, this claim is speculative.
+  - **Resolution test** Provide cyclic voltammetry data and antioxidant assay results (e.g., DPPH, ABTS, or cellular ROS measurements) with appropriate controls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that MHNP-based metal complexes are promising multifunctional candidates for antimicrobial, anticancer, and antioxidant applications
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No biological activity data (e.g., IC50 values, MIC values, or cell viability results) are presented. The term "promising" is not supported by any experimental outcome.
+  - **Why it matters** The stated applications are the ultimate justification for the study. Without any biological assay data, the translational relevance cannot be evaluated.
+  - **Resolution test** Include antimicrobial susceptibility data, anticancer cytotoxicity assays, and antioxidant activity measurements with appropriate positive and negative controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Abstract title
+  - **Issue** The title states "a molecular biology-oriented supported by computational study," which is grammatically awkward and unclear. The intended meaning appears to be that the study is oriented toward molecular biology and supported by computational methods.
+  - **Required correction** Revise the title for grammatical clarity, for example, "DNA-targeting potential and biomedical applications of selected phenolic Schiff base metal complexes: a molecular biology-oriented study supported by computational analysis."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Stability evaluation
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states that stability was evaluated to assess suitability for biological applications, but no stability data or conditions (e.g., solution stability, time frame, pH) are mentioned.
+  - **Required correction** Specify the stability assessment method and provide a brief summary of results, such as half-life or degradation profiles under physiological conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** DNA-binding modes
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states that binding modes depend on the metal center, but the specific modes for Zn(II) and VO(II) are not described beyond "moderate but stable binding profiles."
+  - **Required correction** Clarify the proposed binding modes for each complex, or state that the modes were not fully resolved.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Redox-modulating nature of Zn(II)"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** Zn(II) is typically redox-inert under physiological conditions. The phrase "redox-modulating nature" is vague and may be misleading without further explanation.
+  - **Required correction** Clarify the mechanism by which Zn(II) modulates redox activity, or rephrase to avoid implying direct redox activity.
+
+## Risk / unsupported claims
+- Coordination geometries (octahedral, tetrahedral, square pyramidal) are stated without supporting data
+- Enhanced DNA-binding upon metal coordination is claimed without quantitative binding constants
+- Specific DNA-binding modes (groove-binding or intercalative for Ru(III)) are proposed without experimental evidence
+- Potential antioxidant activity is inferred from redox properties without electrochemical or assay data
+- Antimicrobial, anticancer, and antioxidant applications are claimed without any biological activity data
+- DFT calculations are mentioned but no computational details or results are provided
+- Stability evaluation is referenced but no stability data are presented

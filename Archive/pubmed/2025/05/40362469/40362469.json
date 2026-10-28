@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "40362469",
+    "doi": "10.3390/ijms26094234",
+    "title": "TFProtBert: Detection of Transcription Factors Binding to Methylated DNA Using ProtBert Latent Space Representation."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are fundamental regulators of gene expression and perform diverse functions in cellular processes. The management of 3-dimensional (3D) genome conformation and gene expression relies primarily on TFs. TFs are crucial regulators of gene expression, performing various roles in biological processes. They attract transcriptional machinery to the enhancers or promoters of specific genes, thereby activating or inhibiting transcription. Identifying these TFs is a significant step towards understanding cellular gene expression mechanisms. Due to the time-consuming and labor-intensive nature of experimental methods, the development of computational models is essential. In this work, we introduced a two-layer prediction framework based on a support vector machine (SVM) using the latent space representation of a protein language model, ProtBert. The first layer of the method reliably predicts and identifies transcription factors (TFs), and in the second layer, the proposed method predicts and identifies transcription factors that prefer binding to methylated deoxyribonucleic acid (TFPMs). In addition, we also tested the proposed method on an imbalanced database. In detecting TFs and TFPMs, the proposed model consistently outperformed state-of-the-art approaches, as demonstrated by performance comparisons via empirical cross-validation analysis and independent tests.",
+    "keywords": [
+      "bidirectional encoder representations from transformers",
+      "machine learning",
+      "methylated deoxyribonucleic acid",
+      "non-methylated deoxyribonucleic acid",
+      "protein language model",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "Support Vector Machine",
+      "*DNA Methylation",
+      "*Computational Biology/methods",
+      "*DNA/metabolism",
+      "Protein Binding",
+      "Algorithms",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gaffar, Saima",
+        "Chong, Kil To",
+        "Tayara, Hilal"
+      ],
+      "short_names": [
+        "Gaffar S",
+        "Chong KT",
+        "Tayara H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1952-0001",
+        "ORCID: 0000-0001-5678-3479"
+      ],
+      "affiliations": [
+        "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+        "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+        "Advances Electronics and Information Research Centre, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+        "School of International Engineering and Science, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gaffar, Saima",
+        "short_name": "Gaffar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Chong, Kil To",
+        "short_name": "Chong KT",
+        "identifiers": [
+          "0000-0002-1952-0001"
+        ],
+        "affiliations": [
+          "Department of Electronics and Information Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea.",
+          "Advances Electronics and Information Research Centre, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Tayara, Hilal",
+        "short_name": "Tayara H",
+        "identifiers": [
+          "0000-0001-5678-3479"
+        ],
+        "affiliations": [
+          "School of International Engineering and Science, Jeonbuk National University, Jeonju 54896, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Apr 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/14 11:41",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40076956",
+      "40076709",
+      "39527436",
+      "39438319",
+      "38954849",
+      "38913862",
+      "38879934",
+      "38619593",
+      "38613893",
+      "38460309",
+      "38458346",
+      "38420582",
+      "38292268",
+      "37989075",
+      "37454743",
+      "37060772",
+      "36560938",
+      "36119976",
+      "35595541",
+      "34962264",
+      "34103528",
+      "33963832",
+      "33294291",
+      "32858223",
+      "32399547",
+      "31780648",
+      "31511663",
+      "31400111",
+      "31164644",
+      "31067315",
+      "31015515",
+      "30633912",
+      "30239587",
+      "29528364",
+      "29145608",
+      "29019671",
+      "28473536",
+      "27708417",
+      "25215497",
+      "24015356",
+      "23590861",
+      "21938622",
+      "20053844",
+      "17392330",
+      "17286856",
+      "16381970",
+      "16112549",
+      "15308540",
+      "15039428",
+      "12101405",
+      "8594589",
+      "7731802",
+      "7568000"
+    ],
+    "similar": [
+      "40362469",
+      "40359430",
+      "36119976",
+      "34962264",
+      "24349230",
+      "25722376",
+      "25775564",
+      "31406384",
+      "18426580",
+      "33372147",
+      "39541188",
+      "29145608",
+      "28363453",
+      "31074373",
+      "30709337",
+      "22369687",
+      "25708928",
+      "38701417",
+      "33294291",
+      "34272562",
+      "22574904",
+      "38490467",
+      "36560938",
+      "39367138",
+      "39451156",
+      "28750606",
+      "32770026",
+      "35142952",
+      "31483836",
+      "35799193",
+      "22369666",
+      "30577740",
+      "30943723",
+      "27654939",
+      "34226917",
+      "30447332",
+      "33481715",
+      "26679776",
+      "21152420",
+      "27131787",
+      "24564277",
+      "22165960",
+      "28472398",
+      "26912062",
+      "23282098",
+      "23244338",
+      "19956545",
+      "29325176",
+      "29221486",
+      "24743548",
+      "23209563",
+      "23272209",
+      "25760736",
+      "29244011",
+      "28849563",
+      "25129887",
+      "20838582",
+      "40188358",
+      "37095510",
+      "29272447",
+      "28240320",
+      "33780341",
+      "28716409",
+      "39572876",
+      "24918633",
+      "31372637",
+      "39244557",
+      "39051143",
+      "36155619",
+      "21172055",
+      "17598888",
+      "29753757",
+      "33708244",
+      "22923524",
+      "12054769",
+      "18554421",
+      "30598073",
+      "39753646",
+      "32399547",
+      "21415370",
+      "35652477",
+      "36333382",
+      "39602828",
+      "22824421",
+      "19158363",
+      "27052996",
+      "39142001",
+      "38114937",
+      "21496241",
+      "30183639",
+      "39402535",
+      "25605483",
+      "36890579",
+      "21690103",
+      "31511570",
+      "39650552",
+      "40121399",
+      "27662487",
+      "26627005",
+      "21124945"
+    ],
+    "review": [
+      "40362469",
+      "30447332",
+      "25129887",
+      "28716409"
+    ],
+    "pmc": [
+      "12071566"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26094234",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40362469/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

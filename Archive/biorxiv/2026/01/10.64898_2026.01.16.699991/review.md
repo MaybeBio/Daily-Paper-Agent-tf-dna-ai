@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. Figures, tables, and supplementary data referenced but not provided in full cannot be independently verified.
+- **Shared manuscript claim summary** The authors investigate dimerization of the S. cerevisiae Spo11 core complex (Spo11-Ski8-Rec102-Rec104). They report that the complex dimerizes transiently on DNA, forming unstable complexes with duplex and branched substrates. Using AlphaFold modeling, they identify mutations that reduce dimerization in vitro, yet find that most have minimal impact on DSB formation in vivo, suggesting additional factors stabilize dimers in cells. They identify Rec102 as an essential DNA-binding component and describe a trans interaction between Rec102 and Ski8 that contributes to dimer assembly. A forward genetic screen yielded a Spo11-A236V mutation that abolishes DSB formation by sterically occluding the active site across the dimer interface.
+- **Visible evidence base** Abstract, Introduction, Results (narrative form), Discussion, Materials and Methods, Author Contributions, Acknowledgments. Supplementary figure and table legends are listed but their contents are not described in detail.
+- **Missing materials affecting confidence** Actual figures and data panels (Figures 1-8, Supplementary Figures 1-12), quantitative values for binding affinities and DSB levels, statistical analyses, AlphaFold model coordinates and confidence metrics, full results of the genetic screen, and detailed experimental protocols for several assays.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in meiotic recombination: how the Spo11 core complex achieves the transient dimerization required for DNA cleavage. The work combines biochemical, genetic, and computational approaches to dissect the dimer interface and partner contributions. The finding that the dimer interface is highly tolerant to mutation in vivo, despite clear in vitro effects, is interesting and suggests regulatory complexity that is not yet fully resolved. The identification of Rec102 as an essential DNA-binding factor and the description of a Rec102-Ski8 trans interaction are valuable contributions. However, the manuscript as presented has several limitations. The transient nature of the dimer and the rapid subunit exchange are inferred from electrophoretic mobility shift assays, but the evidence for the proposed mechanism is indirect. The in vitro-in vivo disconnect for dimer interface mutants is acknowledged but not mechanistically explained. The genetic screen is described only briefly, and the full context of the Spo11-A236V mutation is deferred to future publication. The manuscript would benefit from additional quantitative analyses and a more complete presentation of the supporting data.
+- **Who would be interested in the results, and why** Researchers studying meiotic recombination, DNA double-strand break formation, topoisomerase mechanisms, and the evolution of protein complexes involved in chromosome biology. The work also has relevance for those interested in the application of AlphaFold to model transient protein-DNA assemblies and for understanding how weak protein-protein interactions can be regulated in vivo.
+- **Major strengths** The study addresses a fundamental mechanistic question with a combination of approaches. The use of AlphaFold to generate testable hypotheses about the pre-cleavage complex is forward-looking. The identification of Rec102 as a DNA-binding subunit with an essential role is a clear advance. The genetic screen provides an independent route to functionally important residues. The in vitro-in vivo comparison is honest and highlights the complexity of the system.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for transient dimerization claim
+  - **Claim pointer** The authors claim that the Spo11 core complex "dimerizes transiently on DNA, forming unstable dimeric complexes" and that Complex 2 "experiences rapid subunit exchange during electrophoresis."
+  - **Evidence pointer** Results section, Figure 2, location not provided
+  - **Concern** The evidence for transient dimerization and subunit exchange is based on electrophoretic mobility shift assays with mixed heavy and light protein complexes. The observation of an intermediate band in mixed samples is interpreted as evidence for heterodimer formation, but the absence of homodimer bands in the mixed sample is not explained. The authors propose that complexes undergo repeated dissociation and reassociation during electrophoresis, but this is a post-hoc interpretation. Alternative explanations, such as differential stability of the heterodimer or artifacts of the gel system, are not excluded. The claim of "rapid subunit exchange" requires direct kinetic measurements, such as fluorescence recovery after photobleaching or stopped-flow analysis, which are not provided.
+  - **Why it matters** The transient nature of the dimer is a central claim of the manuscript and is used to rationalize the in vivo resilience of the dimer interface. If the evidence for subunit exchange is not robust, the interpretation of the in vitro data and the conclusions about in vivo mechanisms are weakened.
+  - **Resolution test** Provide direct kinetic evidence for subunit exchange, such as time-resolved measurements of complex dissociation and reassociation. Alternatively, demonstrate that the intermediate band in mixed samples is specifically due to heterodimer formation by using a different detection method, such as single-molecule imaging or cross-linking followed by mass spectrometry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic explanation for in vitro-in vivo disconnect
+  - **Claim pointer** The authors state that "DSB formation is resilient to mutagenesis of the Spo11 dimer interface, implying that additional factors promote dimerization in vivo."
+  - **Evidence pointer** Results section, Figures 3-4, location not provided
+  - **Concern** The manuscript reports that mutations reducing dimerization in vitro have little effect on DSB formation in vivo, but does not provide a mechanistic explanation for this resilience. The suggestion that "additional factors" stabilize dimers is speculative and not tested. The authors mention Rec114 and Mre11 as candidate factors but do not provide any experimental evidence for their involvement. The in vivo phenotypes of the dimer interface mutants are described as "subtle" or "redistributed," but the quantitative extent of these effects is not clear from the text.
+  - **Why it matters** The central paradox of the manuscript is the discrepancy between the in vitro importance of the dimer interface and its apparent dispensability in vivo. Without a mechanistic explanation, the significance of the in vitro findings for understanding in vivo DSB formation is unclear.
+  - **Resolution test** Test the hypothesis that Rec114 or Mre11 stabilize Spo11 dimers in vivo by combining dimer interface mutations with mutations in these factors and assessing DSB formation. Alternatively, identify the specific in vivo conditions that compensate for reduced dimerization, such as increased local concentration of Spo11 at recombination hotspots.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of genetic screen description
+  - **Claim pointer** The authors describe a forward genetic screen that identified the Spo11-A236V mutation, which abolishes DSB formation.
+  - **Evidence pointer** Results section, Figure 5, location not provided
+  - **Concern** The genetic screen is described only briefly, with the full details deferred to a future publication. The number of mutants screened, the frequency of Spo11 alleles identified, and the criteria for selecting A236V for further study are not provided. The statement that the screen identified five alleles "likely to be severe loss-of-function mutants" is not supported by any data. The reader cannot assess the completeness of the screen or the significance of the A236V allele in the context of other mutations.
+  - **Why it matters** The A236V mutation is used to support the model of close collaboration between Spo11 subunits during catalysis. Without a full description of the screen, the reader cannot evaluate whether this mutation is representative of the types of mutations that abolish DSB formation or an outlier.
+  - **Resolution test** Provide a complete description of the genetic screen, including the number of mutants screened, the mutation frequency, and the full list of Spo11 alleles identified. If the full screen is to be published elsewhere, provide sufficient detail in this manuscript to allow the reader to evaluate the significance of the A236V mutation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support for Rec102 DNA-binding claim
+  - **Claim pointer** The authors state that Rec102 exerts "an essential DNA-binding function" and that the Rec102-R245E mutation causes a "20-50-fold reduced DNA-binding activity."
+  - **Evidence pointer** Results section, Figures 6-7, location not provided
+  - **Concern** The claim that Rec102 is essential for DNA binding is based on mutagenesis of positively charged residues. However, the manuscript does not provide a systematic analysis of the DNA-binding surface of Rec102, and the quantitative effects of the mutations are only described for R245E. The relationship between the in vitro DNA-binding defect and the in vivo DSB defect is not fully explored. The authors do not address whether the reduced DNA binding is due to a direct effect on DNA contact or an indirect effect on complex stability.
+  - **Why it matters** The identification of Rec102 as an essential DNA-binding subunit is a key finding. Without a more complete analysis, the reader cannot determine whether the DNA-binding function is specific to Rec102 or a general property of the complex, and whether the in vitro effects translate directly to in vivo function.
+  - **Resolution test** Provide a more complete mutagenesis analysis of the Rec102 DNA-binding surface, including alanine scanning of the positively charged patch. Correlate the in vitro DNA-binding affinities with in vivo DSB levels for a series of mutants to establish a quantitative relationship.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "core complex" and "dimer"
+  - **Evidence pointer** Throughout, location not provided
+  - **Issue** The manuscript uses "core complex" to refer to the Spo11-Ski8-Rec102-Rec104 heterotetramer and "dimer" to refer to the assembly of two core complexes. This terminology is clear but could be confusing given that the core complex itself contains two Spo11 molecules. The authors should clarify this distinction early in the manuscript.
+  - **Required correction** Define "core complex" and "dimer" explicitly in the introduction or results section to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Incomplete data presentation
+  - **Affected element** Figure 2 binding curves
+  - **Evidence pointer** Results section, Figure 2B, location not provided
+  - **Issue** The manuscript reports apparent binding affinities of 1.2 nM and 1.3 nM for dsDNA and HJ substrates, respectively, but does not provide the binding curves or the error estimates. The reader cannot assess the quality of the fits or the variability between experiments.
+  - **Required correction** Provide representative binding curves and the standard errors for the reported affinities.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** In vivo DSB measurements
+  - **Evidence pointer** Results section, Figures 3, 5, 6, location not provided
+  - **Issue** The manuscript reports differences in DSB levels and distribution between wild-type and mutant strains but does not provide statistical analysis for these comparisons. The number of biological replicates is not stated for most experiments.
+  - **Required correction** Provide statistical analysis for all in vivo comparisons and state the number of replicates for each experiment.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** AlphaFold model validation
+  - **Affected element** Figure 1E and Supplementary Figures 1-6
+  - **Evidence pointer** Results section, location not provided
+  - **Concern** The manuscript relies heavily on AlphaFold modeling to generate hypotheses, but the validation of the model is limited to comparisons with the cryo-EM structure of the post-cleavage complex. The authors do not provide metrics for the confidence of the dimer interface prediction or discuss the limitations of the model for the pre-cleavage state.
+  - **Required correction** Provide the AlphaFold confidence metrics for the dimer interface and discuss the limitations of the model, particularly for the regions that differ between pre- and post-cleavage states.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of whether the core complex captures two duplexes is interesting but does not fully consider alternative models, such as the possibility that dimerization occurs prior to DNA binding or that the complex can cleave DNA without capturing two duplexes.
+  - **Required correction** Expand the discussion to consider alternative models and the evidence for and against each.
+- **Technical failings that need to be addressed before the case is established** The evidence for transient dimerization and subunit exchange (R1-M1) is indirect and requires direct kinetic measurements. The mechanistic basis for the in vivo resilience of the dimer interface (R1-M2) is not established. The genetic screen (R1-M3) is incompletely described. The quantitative relationship between Rec102 DNA-binding and DSB formation (R1-M4) is not fully established.
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of AlphaFold to model a pre-cleavage Spo11 complex and in its identification of Rec102 as a DNA-binding subunit. The finding that the dimer interface is resilient to mutation in vivo is novel and challenges simple models of Spo11 regulation. Scientific importance: The mechanism of Spo11 dimerization is central to understanding meiotic recombination initiation, and the work has implications for the evolution of topoisomerase-based systems. The in vitro-in vivo disconnect is important and will stimulate further work. Interdisciplinary readership: The work will appeal to biochemists, geneticists, and structural biologists. The use of AlphaFold may attract computational biologists. Technical soundness: The biochemical and genetic approaches are generally sound, but the evidence for transient dimerization is not fully convincing, and the lack of quantitative data in several places weakens the manuscript. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow. The figures are referenced appropriately, but the reader must trust the authors' descriptions without seeing the actual data.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and contains valuable findings, but the evidence for the central claim of transient dimerization needs to be strengthened, and the in vivo significance of the dimer interface mutations needs to be more fully explored.
+
+## Risk / unsupported claims
+- The claim that the Spo11 core complex "dimerizes transiently on DNA" and undergoes "rapid subunit exchange" is not fully supported by the presented evidence. The interpretation of the gel shift data is plausible but not definitive.
+- The claim that "additional factors promote dimerization in vivo" is speculative and not tested experimentally.
+- The statement that the Spo11-A236V mutation "pokes within the active site across the dimer interface" is based on modeling and is not directly validated by biochemical or structural data.
+- The claim that Rec102 exerts "an essential DNA-binding function" is supported by mutagenesis, but the quantitative relationship between DNA-binding affinity and DSB formation is not fully established.
+- The evolutionary analysis of the dimer interface is described only briefly, and the conclusion that the interface is under selective pressure is not supported by statistical tests.

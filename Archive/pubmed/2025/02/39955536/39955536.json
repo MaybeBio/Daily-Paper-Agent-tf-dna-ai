@@ -1,0 +1,449 @@
+{
+  "identity": {
+    "pmid": "39955536",
+    "doi": "10.1186/s12885-025-13658-3",
+    "title": "Machine learning-based bulk RNA analysis reveals a prognostic signature of 13 cell death patterns and potential therapeutic target of SMAD3 in acute myeloid leukemia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Dysregulation or abnormality of the programmed cell death (PCD) pathway is closely related to the occurrence and development of many tumors, including acute myeloid leukemia (AML). Studying the abnormal characteristics of PCD pathway-related molecular markers can provide a basis for prognosis prediction and targeted drug design in AML patients. METHODS: A total of 1394 genes representing 13 different PCD pathways were examined in AML patients and healthy donors. The upregulated genes were analyzed for their ability to predict overall survival (OS) individually, and these prognostic genes were subsequently combined to construct a PCD-related prognostic signature via an integrated approach consisting of 101 models based on ten machine learning algorithms. RNA transcriptome and clinical data from multiple AML cohorts (TCGA-AML, GSE106291, GSE146173 and Beat AML) were obtained to develop and validate the AML prognostic model. RESULTS: A total of 214 upregulated PCD-related genes were identified in AML patients, 39 of which were proven to be prognostic genes in the training cohort. On the basis of the average C-index and number of model genes identified from the machine learning combinations, a PCD index was developed and validated for predicting AML OS. A prognostic nomogram was then generated and validated on the basis of the PCD index, age and ELN risk stratification in the Beat AML cohort and the GSE146173 cohort, revealing satisfactory predictive power (AUC values >/= 0.7). With different mutation patterns, a higher PCD index was associated with a worse OS. The PCD index was significantly related to higher scores for immunosuppressive cells and mature leukemia cell subtypes. As the gene most closely related to the PCD index, the expression of SMAD3 was further validated in vitro. AML cells harboring KMT2A rearrangements were more sensitive to the SMAD3 inhibitor SIS3, and the expression of the autophagy-related molecular marker LC3 was increased in KMT2A-rearranged cell lines after SIS3 monotherapy and combined treatment. CONCLUSION: The PCD index and SMAD3 gene expression levels have potential prognostic value and can be used in targeted therapy for AML, and these findings can lead to the development of effective strategies for the combined treatment of high-risk AML patients.",
+    "keywords": [
+      "SMAD3",
+      "AML",
+      "Drug sensitivity",
+      "Machine learning",
+      "Programmed cell death"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Leukemia, Myeloid, Acute/genetics/mortality/pathology/drug therapy",
+      "*Machine Learning",
+      "Prognosis",
+      "*Smad3 Protein/genetics/antagonists & inhibitors/metabolism",
+      "Male",
+      "Female",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Expression Profiling",
+      "Middle Aged",
+      "Apoptosis/genetics",
+      "Transcriptome",
+      "Nomograms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bao, Xiebing",
+        "Chen, Yao",
+        "Chang, Jie",
+        "Du, Jiahui",
+        "Yang, Chen",
+        "Wu, Yijie",
+        "Sha, Yu",
+        "Li, Ming",
+        "Chen, Suning",
+        "Yang, Minfeng",
+        "Liu, Song-Bai"
+      ],
+      "short_names": [
+        "Bao X",
+        "Chen Y",
+        "Chang J",
+        "Du J",
+        "Yang C",
+        "Wu Y",
+        "Sha Y",
+        "Li M",
+        "Chen S",
+        "Yang M",
+        "Liu SB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China.",
+        "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China.",
+        "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China.",
+        "School of Public Health, Medical College of Soochow University, Suzhou, 215123, China.",
+        "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China.",
+        "College of Life Science, North China University of Science and Technology, Tangshan, 063210, China.",
+        "College of Life Science, North China University of Science and Technology, Tangshan, 063210, China.",
+        "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China.",
+        "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China.",
+        "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China. chensuning@suda.edu.cn.",
+        "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China. chensuning@suda.edu.cn.",
+        "School of Public Health, Nantong University, No. 9, Seyuan Road, Nantong, 226019, China. minfeng.yang@connect.polyu.hk.",
+        "Department of Health Technology and Informatics, The Hong Kong Polytechnic University, Kowloon, Hong Kong SAR, China. minfeng.yang@connect.polyu.hk.",
+        "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China. liusongbai@126.com.",
+        "College of Life Science, North China University of Science and Technology, Tangshan, 063210, China. liusongbai@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bao, Xiebing",
+        "short_name": "Bao X",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China.",
+          "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Jie",
+        "short_name": "Chang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Medical College of Soochow University, Suzhou, 215123, China."
+        ]
+      },
+      {
+        "full_name": "Du, Jiahui",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chen",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, North China University of Science and Technology, Tangshan, 063210, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yijie",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, North China University of Science and Technology, Tangshan, 063210, China."
+        ]
+      },
+      {
+        "full_name": "Sha, Yu",
+        "short_name": "Sha Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ming",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Suning",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Hematologic Diseases, Jiangsu Institute of Hematology, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China. chensuning@suda.edu.cn.",
+          "Institute of Blood and Marrow Transplantation, Collaborative Innovation Center of Hematology, Soochow University, Suzhou, China. chensuning@suda.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Minfeng",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Nantong University, No. 9, Seyuan Road, Nantong, 226019, China. minfeng.yang@connect.polyu.hk.",
+          "Department of Health Technology and Informatics, The Hong Kong Polytechnic University, Kowloon, Hong Kong SAR, China. minfeng.yang@connect.polyu.hk."
+        ]
+      },
+      {
+        "full_name": "Liu, Song-Bai",
+        "short_name": "Liu SB",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Engineering Research Center of Molecular Target Therapy and Companion Diagnostics in Oncology, Suzhou Vocational Health College, 28 Kehua Road, Suzhou, 215009, China. liusongbai@126.com.",
+          "College of Life Science, North China University of Science and Technology, Tangshan, 063210, China. liusongbai@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Feb 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/16 01:33",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42007253",
+      "41774209",
+      "41071380",
+      "40869935",
+      "40494872"
+    ],
+    "refs": [
+      "37683650",
+      "37426643",
+      "37352727",
+      "36509196",
+      "36341760",
+      "35868306",
+      "35145098",
+      "35085106",
+      "34686673",
+      "34510961",
+      "34489945",
+      "34402883",
+      "34396044",
+      "34207482",
+      "34112534",
+      "34059009",
+      "33875644",
+      "33809750",
+      "33425112",
+      "33338804",
+      "33285227",
+      "33043774",
+      "32817791",
+      "32786187",
+      "32601974",
+      "32534056",
+      "32416059",
+      "32303673",
+      "32014868",
+      "31986893",
+      "31922095",
+      "31841594",
+      "31710896",
+      "31699964",
+      "31681582",
+      "31216460",
+      "31014360",
+      "30967620",
+      "30926085",
+      "30827681",
+      "30736352",
+      "30701575",
+      "30651634",
+      "30651532",
+      "30651276",
+      "30535026",
+      "30472087",
+      "30429158",
+      "30333627",
+      "30131301",
+      "30078459",
+      "29967349",
+      "29940753",
+      "29812960",
+      "29559471",
+      "29455673",
+      "29375387",
+      "29362479",
+      "29232553",
+      "29168399",
+      "29146569",
+      "29059168",
+      "29044514",
+      "28805788",
+      "28780935",
+      "28763891",
+      "28451648",
+      "28399410",
+      "28367255",
+      "28069811",
+      "27411587",
+      "27276561",
+      "26701804",
+      "26314963",
+      "25997737",
+      "25723170",
+      "25595426",
+      "25355637",
+      "25006128",
+      "24662836",
+      "24639110",
+      "24308972",
+      "23634996",
+      "23550210",
+      "23202731",
+      "23179147",
+      "23108047",
+      "22655027",
+      "22632970",
+      "22366061",
+      "21908496",
+      "21467298",
+      "21398578",
+      "20498639",
+      "19685283",
+      "18664580",
+      "18256828",
+      "17762044",
+      "17717517",
+      "17483348",
+      "17420723",
+      "16408008",
+      "15494428",
+      "15104092",
+      "14765125",
+      "11029688",
+      "10971784",
+      "10508919",
+      "9446661",
+      "7684624"
+    ],
+    "similar": [
+      "39955536",
+      "39090256",
+      "40066454",
+      "39015570",
+      "39773329",
+      "38966636",
+      "37378675",
+      "38799454",
+      "39868611",
+      "39528670",
+      "40332226",
+      "32783661",
+      "34212178",
+      "34135913",
+      "38654239",
+      "38682187",
+      "40313394",
+      "40225861",
+      "38299230",
+      "30954792",
+      "36046688",
+      "40000874",
+      "34411647",
+      "32883226",
+      "39650664",
+      "38767825",
+      "38163849",
+      "39823827",
+      "37258721",
+      "39159071",
+      "37596371",
+      "39737198",
+      "33784904",
+      "39604595",
+      "39806277",
+      "26436590",
+      "31171000",
+      "27916548",
+      "39300580",
+      "37596597",
+      "40032894",
+      "39354528",
+      "30662003",
+      "30177817",
+      "40263559",
+      "36405735",
+      "39380994",
+      "40255396",
+      "39726602",
+      "39998680",
+      "32150667",
+      "39191856",
+      "35854240",
+      "38064272",
+      "37367950",
+      "40254646",
+      "36737692",
+      "38494848",
+      "29901168",
+      "38903927",
+      "40095473",
+      "39112614",
+      "36591215",
+      "32436945",
+      "34789078",
+      "30922328",
+      "38799437",
+      "39259061",
+      "36708053",
+      "39346926",
+      "39638778",
+      "38744924",
+      "38044747",
+      "40200221",
+      "35770858",
+      "35833755",
+      "32653835",
+      "39956382",
+      "38254953",
+      "30089916",
+      "38195768",
+      "38847472",
+      "31739140",
+      "38879648",
+      "35569433",
+      "39955305",
+      "34579730",
+      "38615305",
+      "39346927",
+      "29506270",
+      "39611741",
+      "39738722",
+      "36685828",
+      "39107713",
+      "38755433",
+      "36553549",
+      "39774789",
+      "32568101",
+      "39135956",
+      "31724217"
+    ],
+    "review": [
+      "39955536",
+      "36405735"
+    ],
+    "pmc": [
+      "11830216"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-13658-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39955536/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

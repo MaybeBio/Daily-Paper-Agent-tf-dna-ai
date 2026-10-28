@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "33784978",
+    "doi": "10.1186/s12859-021-04093-9",
+    "title": "Machine learning predicts nucleosome binding modes of transcription factors."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Most transcription factors (TFs) compete with nucleosomes to gain access to their cognate binding sites. Recent studies have identified several TF-nucleosome interaction modes including end binding (EB), oriented binding, periodic binding, dyad binding, groove binding, and gyre spanning. However, there are substantial experimental challenges in measuring nucleosome binding modes for thousands of TFs in different species. RESULTS: We present a computational prediction of the binding modes based on TF protein sequences. With a nested cross-validation procedure, our model outperforms several fine-tuned off-the-shelf machine learning (ML) methods in the multi-label classification task. Our binary classifier for the EB mode performs better than these ML methods with the area under precision-recall curve achieving 75%. The end preference of most TFs is consistent with low nucleosome occupancy around their binding site in GM12878 cells. The nucleosome occupancy data is used as an alternative dataset to confirm the superiority of our EB classifier. CONCLUSIONS: We develop the first ML-based approach for efficient and comprehensive analysis of nucleosome binding modes of TFs.",
+    "keywords": [
+      "Machine learning",
+      "Nucleosome binding modes",
+      "Transcription factors"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Binding Sites",
+      "*Machine Learning",
+      "*Nucleosomes",
+      "Protein Binding",
+      "*Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kishan, K C",
+        "Subramanya, Sridevi K",
+        "Li, Rui",
+        "Cui, Feng"
+      ],
+      "short_names": [
+        "Kishan KC",
+        "Subramanya SK",
+        "Li R",
+        "Cui F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, 20 Lomb Memorial Drive, Rochester, NY, 14623, USA.",
+        "Thomas H. Gosnell School of Life Sciences, Rochester Institute of Technology, 1 Lomb Memorial Drive, Rochester, NY, 14623, USA.",
+        "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, 20 Lomb Memorial Drive, Rochester, NY, 14623, USA.",
+        "Thomas H. Gosnell School of Life Sciences, Rochester Institute of Technology, 1 Lomb Memorial Drive, Rochester, NY, 14623, USA. fxcsbi@rit.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kishan, K C",
+        "short_name": "Kishan KC",
+        "identifiers": [],
+        "affiliations": [
+          "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, 20 Lomb Memorial Drive, Rochester, NY, 14623, USA."
+        ]
+      },
+      {
+        "full_name": "Subramanya, Sridevi K",
+        "short_name": "Subramanya SK",
+        "identifiers": [],
+        "affiliations": [
+          "Thomas H. Gosnell School of Life Sciences, Rochester Institute of Technology, 1 Lomb Memorial Drive, Rochester, NY, 14623, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Rui",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, 20 Lomb Memorial Drive, Rochester, NY, 14623, USA."
+        ]
+      },
+      {
+        "full_name": "Cui, Feng",
+        "short_name": "Cui F",
+        "identifiers": [],
+        "affiliations": [
+          "Thomas H. Gosnell School of Life Sciences, Rochester Institute of Technology, 1 Lomb Memorial Drive, Rochester, NY, 14623, USA. fxcsbi@rit.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2021 Mar 30",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/01 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "38293962"
+    ],
+    "refs": [
+      "32770210",
+      "32678275",
+      "32350470",
+      "31159833",
+      "30250250",
+      "30204897",
+      "29126249",
+      "27194046",
+      "27130520",
+      "26555596",
+      "25512556",
+      "24153113",
+      "23463311",
+      "23012262",
+      "22955990",
+      "22189060",
+      "21606339",
+      "21332355",
+      "19887449",
+      "19505943",
+      "18485363",
+      "18234090",
+      "17688688",
+      "16061939",
+      "12857954",
+      "12045153",
+      "11964398",
+      "8822915",
+      "7623832",
+      "7550322",
+      "1465613"
+    ],
+    "similar": [
+      "33784978",
+      "24942981",
+      "20098497",
+      "25559499",
+      "29874603",
+      "20003404",
+      "26818008",
+      "23990766",
+      "30017582",
+      "25081206",
+      "39162225",
+      "22098745",
+      "26772197",
+      "26285121",
+      "24813947",
+      "21627806",
+      "31303471",
+      "24185839",
+      "23805837",
+      "17997593",
+      "36688297",
+      "30250250",
+      "22841002",
+      "20172488",
+      "31965991",
+      "21821044",
+      "24353316",
+      "37125729",
+      "21149679",
+      "32574834",
+      "26047462",
+      "19092803",
+      "26291518",
+      "25762553",
+      "28750606",
+      "30409772",
+      "15345046",
+      "32778600",
+      "20161746",
+      "19720867",
+      "23523656",
+      "22185505",
+      "28212748",
+      "18989395",
+      "24277842",
+      "21853138",
+      "22737086",
+      "36602094",
+      "22965129",
+      "23958656",
+      "9488435",
+      "22955990",
+      "21075748",
+      "19208132",
+      "23657885",
+      "16862119",
+      "30888317",
+      "27458208",
+      "37527481",
+      "27124577",
+      "20808881",
+      "23846748",
+      "19108605",
+      "19652015",
+      "34579793",
+      "22908247",
+      "30811994",
+      "32027821",
+      "10077607",
+      "27362329",
+      "38352517",
+      "24586611",
+      "9826764",
+      "8550551",
+      "25992972",
+      "17996059",
+      "32399547",
+      "26063739",
+      "29988149",
+      "26305225",
+      "32770026",
+      "26335633",
+      "26843321",
+      "28212747",
+      "26212454",
+      "30055231",
+      "17959145",
+      "8264586",
+      "26678747",
+      "24256300",
+      "19956545",
+      "26648124",
+      "28413449",
+      "22354995",
+      "31406384",
+      "31541672",
+      "35997560",
+      "38291225",
+      "39210256"
+    ],
+    "review": [
+      "33784978",
+      "31965991"
+    ],
+    "pmc": [
+      "8008688"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04093-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33784978/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33784978",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33784978",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

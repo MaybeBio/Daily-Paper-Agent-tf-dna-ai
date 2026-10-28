@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2504.04453v2",
+  "title": "Prot42: a Novel Family of Protein Language Models for Target-aware Protein Binder Generation",
+  "authors": "Mohammad Amaan Sayeed; Engin Tekin; Maryam Nadeem; Nancy A. ElNaker; Aahan Singh; Natalia Vassilieva; Boulbaba Ben Amor",
+  "journal": "",
+  "published_date": "2025-04-06",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于蛋白质语言模型的Prot42，用于靶向蛋白结合物生成，并展示其可生成序列特异性DNA结合蛋白，虽非直接聚焦TF-DNA互作机制，但方法可迁移至TF-DNA结合位点预测与互作建模。",
+  "abstract": "Unlocking the next generation of biotechnology and therapeutic innovation demands overcoming the inherent complexity and resource-intensity of conventional protein engineering methods. Recent GenAI-powered computational techniques often rely on the availability of the target protein's 3D structures and specific binding sites to generate high-affinity binders, constraints exhibited by models such as AlphaProteo and RFdiffusion. In this work, we explore the use of Protein Language Models (pLMs) for high-affinity binder generation. We introduce Prot42, a novel family of Protein Language Models (pLMs) pretrained on vast amounts of unlabeled protein sequences. By capturing deep evolutionary, structural, and functional insights through an advanced auto-regressive, decoder-only architecture inspired by breakthroughs in natural language processing, Prot42 dramatically expands the capabilities of computational protein design based on language only. Remarkably, our models handle sequences up to 8,192 amino acids, significantly surpassing standard limitations and enabling precise modeling of large proteins and complex multi-domain sequences. Demonstrating powerful practical applications, Prot42 excels in generating high-affinity protein binders and sequence-specific DNA-binding proteins. Our innovative models are publicly available, offering the scientific community an efficient and precise computational toolkit for rapid protein engineering.",
+  "abstract_zh": "解锁下一代生物技术和治疗创新的关键在于克服传统蛋白质工程方法固有的复杂性和资源密集性。近年来，基于GenAI的计算技术通常依赖目标蛋白质的3D结构和特定结合位点的可用性来生成高亲和力结合物，这一限制在AlphaProteo和RFdiffusion等模型中有所体现。在本研究中，我们探索使用蛋白质语言模型 (Protein Language Models, pLMs) 进行高亲和力结合物的生成。我们引入Prot42，这是一个新颖的蛋白质语言模型 (pLMs) 家族，在大量未标记的蛋白质序列上进行了预训练。通过借鉴自然语言处理领域的突破，采用先进的仅解码器自回归架构，捕捉深层的进化、结构和功能洞察，Prot42显著扩展了仅基于语言的计算机蛋白质设计能力。值得注意的是，我们的模型能处理长达8,192个氨基酸的序列，大幅超越标准限制，实现对大型蛋白质和复杂多域序列的精确建模。在展示强大实际应用方面，Prot42在生成高亲和力蛋白质结合物和序列特异性DNA结合蛋白方面表现出色。我们的创新模型已公开可用，为科学界提供了一套高效且精确的计算工具，用于快速蛋白质工程。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2504.04453v2",
+  "source_url": "https://arxiv.org/abs/2504.04453v2",
+  "paper_page_path": "papers/arxiv/2504.04453v2/index.html"
+}

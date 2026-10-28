@@ -1,0 +1,291 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.01.17.476677",
+  "title": "Prediction and validation of host cleavage targets of SARS-CoV-2 3C-like protease",
+  "doi": "10.1101/2022.01.17.476677",
+  "abstract": "How SARS-CoV-2 causes the observed range of clinical manifestations and disease severity remains poorly understood. SARS-CoV-2 encodes for two proteases (3CLPro and PLPro), vital for viral production, but also promiscuous with respect to host protein targets, likely contributing to the range of disease. Pharmacological inhibition of the 3C-like3 protease has revealed remarkable reduction in hospitalization and death in phase 2/3 clinical studies. However, the mechanisms responsible for the pathology mediated by those proteases are still unclear. In this study, we develop a bioinformatic algorithm, leveraging experimental data from SARS-CoV, to predict host cleavage targets of the SARS-CoV-2 3C-like protease, or 3CLPro. We capture targets of the 3CL protease described previously for SARS-CoV, and we identify hundreds of new putative targets. We experimentally validate a number of these predicted targets, including the giant sarcomeric protein Obscurin, and show that expression of 3CL protease alone recapitulates the sarcomeric disorganization seen by SARS-CoV-2 infection of hiPSC-derived cardiomyocytes. Our data provide a resource to identify putative host cleavage targets of 3CL protease that contribute to mechanisms and heterogeneity of disease in COVID-19 and future coronavirus outbreaks.",
+  "authors": [
+    "Yucel N",
+    "Marchiano S",
+    "Tchelepi E",
+    "Paterlini G",
+    "McAfee Q",
+    "Nimmagadda N",
+    "Ren A",
+    "Shi S",
+    "Murry C",
+    "Arany Z"
+  ],
+  "published_date": "2022-01-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.01.17.476677",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.01.17.476677.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR444664",
+    "raw_record": {
+      "id": "PPR444664",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR444664"
+        ]
+      },
+      "doi": "10.1101/2022.01.17.476677",
+      "title": "Prediction and validation of host cleavage targets of SARS-CoV-2 3C-like protease",
+      "authorString": "Yucel N, Marchiano S, Tchelepi E, Paterlini G, McAfee Q, Nimmagadda N, Ren A, Shi S, Murry C, Arany Z.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yucel N",
+            "lastName": "Yucel",
+            "firstName": "Nora",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia PA 19104"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marchiano S",
+            "lastName": "Marchiano",
+            "firstName": "Silvia",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6198-518X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Stem Cell and Regenerative Medicine, University of Washington, 850 Republican Street, Brotman Building Room 453, Seattle, WA 98109, USA"
+                },
+                {
+                  "affiliation": "Center for Cardiovascular Biology, University of Washington, Seattle, WA 98109, USA"
+                },
+                {
+                  "affiliation": "Department of Laboratory Medicine & Pathology, University of Washington, Seattle, WA 98195, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tchelepi E",
+            "lastName": "Tchelepi",
+            "firstName": "Evan",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "NetQuest Corporation, 523 Fellowship Rd Suite 205, Mt Laurel Township, NJ 08054"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Paterlini G",
+            "lastName": "Paterlini",
+            "firstName": "Germana",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Certusoft, 8500 Normandale Blvd, #980, Bloomington, MN, 55437"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McAfee Q",
+            "lastName": "McAfee",
+            "firstName": "Quentin",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia PA 19104"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nimmagadda N",
+            "lastName": "Nimmagadda",
+            "firstName": "Nehaar",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia PA 19104"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ren A",
+            "lastName": "Ren",
+            "firstName": "Andy",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia PA 19104"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shi S",
+            "lastName": "Shi",
+            "firstName": "Sam",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia PA 19104"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murry C",
+            "lastName": "Murry",
+            "firstName": "Charles",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Stem Cell and Regenerative Medicine, University of Washington, 850 Republican Street, Brotman Building Room 453, Seattle, WA 98109, USA"
+                },
+                {
+                  "affiliation": "Center for Cardiovascular Biology, University of Washington, Seattle, WA 98109, USA"
+                },
+                {
+                  "affiliation": "Department of Laboratory Medicine & Pathology, University of Washington, Seattle, WA 98195, USA"
+                },
+                {
+                  "affiliation": "Division of Cardiology, Department of Medicine, University of Washington, Seattle, WA 98195, USA"
+                },
+                {
+                  "affiliation": "Sana Biotechnology, Seattle, WA 98102, USA"
+                },
+                {
+                  "affiliation": "Department of Bioengineering, University of Washington, Seattle, WA 98195, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arany Z",
+            "lastName": "Arany",
+            "firstName": "Zoltan",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia PA 19104"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6198-518X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "How SARS-CoV-2 causes the observed range of clinical manifestations and disease severity remains poorly understood. SARS-CoV-2 encodes for two proteases (3CLPro and PLPro), vital for viral production, but also promiscuous with respect to host protein targets, likely contributing to the range of disease. Pharmacological inhibition of the 3C-like3 protease has revealed remarkable reduction in hospitalization and death in phase 2/3 clinical studies. However, the mechanisms responsible for the pathology mediated by those proteases are still unclear. In this study, we develop a bioinformatic algorithm, leveraging experimental data from SARS-CoV, to predict host cleavage targets of the SARS-CoV-2 3C-like protease, or 3CLPro. We capture targets of the 3CL protease described previously for SARS-CoV, and we identify hundreds of new putative targets. We experimentally validate a number of these predicted targets, including the giant sarcomeric protein Obscurin, and show that expression of 3CL protease alone recapitulates the sarcomeric disorganization seen by SARS-CoV-2 infection of hiPSC-derived cardiomyocytes. Our data provide a resource to identify putative host cleavage targets of 3CL protease that contribute to mechanisms and heterogeneity of disease in COVID-19 and future coronavirus outbreaks.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/01/19/2022.01.17.476677.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.01.17.476677"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR444664"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.01.17.476677"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161105",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "hpa"
+        ]
+      },
+      "dateOfCreation": "2022-01-21",
+      "firstPublicationDate": "2022-01-19",
+      "firstIndexDate": "2022-01-24",
+      "fullTextReceivedDate": "2023-01-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

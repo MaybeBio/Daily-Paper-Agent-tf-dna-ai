@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors present an improved DAP-seq protocol combined with machine learning (DAP-seq-ML) to identify genome-wide binding sites and direct target genes for five R2R3-MYB transcription factors in Eucalyptus. They report that predicted targets of EgrMYB1, EgrMYB2, and EgrMYB137 are enriched for secondary cell wall processes, and that EgrMYB137 promotes xylem lignification in planta based on transgenic overexpression and dominant repression experiments.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods for DAP-seq-ML, random forest classifier training and validation details, peak calling statistics, transgenic construct descriptions, phenotypic quantification, statistical analyses, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract describes a technically ambitious approach that combines an improved DAP-seq protocol with machine learning to assign transcription factor binding peaks to target genes, applied to five R2R3-MYB transcription factors in Eucalyptus. The central claim that DAP-seq-ML identifies biologically relevant targets is supported by enrichment analyses and by functional validation of EgrMYB137 in planta. However, the abstract alone does not provide sufficient detail to assess the robustness of the machine learning approach, the quality of the DAP-seq data, or the strength of the transgenic phenotypes. The work is potentially of interest to the plant secondary cell wall and transcriptional regulation communities, but the evidence base visible here is too limited to establish the case fully.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation of secondary cell wall formation in woody plants, particularly those working on R2R3-MYB transcription factors, Eucalyptus genomics, and comparative regulatory networks across angiosperms. The methodological advance in DAP-seq-ML may also interest scientists developing machine learning approaches for genomic data integration.
+- **Major strengths** The study addresses a significant question about lineage-specific versus conserved transcriptional network architecture in wood formation. The combination of DAP-seq with machine learning for target assignment is a novel methodological contribution. The inclusion of five transcription factors with varying degrees of prior characterization allows comparative analysis. The functional validation of EgrMYB137 in multiple transgenic systems (Eucalyptus hairy roots, Arabidopsis, Populus) provides cross-species evidence.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The random forest classifier developed from Arabidopsis data demonstrated significantly higher precision and recall to the baseline method of assigning genes to proximal peaks.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that a random forest classifier was trained on Arabidopsis DAP-seq, RNA-seq, chromatin, and conserved noncoding sequence data, and that it outperformed the baseline proximal peak assignment method. However, no details are provided on the training and test set construction, feature selection, cross-validation strategy, or whether the classifier was validated on independent Eucalyptus data. Transferability of a classifier trained on Arabidopsis to Eucalyptus is a major assumption that requires explicit demonstration.  
+  - **Why it matters** The entire DAP-seq-ML approach rests on the validity of the machine learning model for target gene assignment. If the classifier does not generalize across species, the predicted target gene sets for the five Eucalyptus transcription factors could be systematically biased, undermining all downstream enrichment and functional conclusions.  
+  - **Resolution test** Provide details on classifier training and validation, including cross-species performance metrics on Eucalyptus data, and demonstrate that predicted targets are robust to alternative model specifications or thresholds.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** Each DAP-seq TF peak set (average 12,613 peaks) was enriched for canonical R2R3-MYB binding motifs.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports an average of 12,613 peaks per transcription factor but provides no information on peak calling thresholds, reproducibility across biological replicates, or whether peaks were filtered for quality. Enrichment for canonical motifs is stated but no enrichment statistics or background models are described. Without these details, the quality and specificity of the DAP-seq data cannot be assessed.  
+  - **Why it matters** Peak quality directly affects the reliability of target gene assignment and all downstream biological interpretations. If peaks are noisy or non-specific, the motif enrichment and target gene predictions may be artifacts.  
+  - **Resolution test** Provide peak calling parameters, replicate concordance metrics, motif enrichment statistics with appropriate background models, and demonstrate that peaks are reproducible and specific.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength  
+  - **Claim pointer** EgrMYB137 overexpression in transgenic Eucalyptus hairy roots increased xylem lignification, while its dominant repression in transgenic Arabidopsis and Populus reduced xylem lignification, stunted growth, and caused downregulation of SCW genes.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports phenotypic effects of EgrMYB137 manipulation but provides no quantitative data, statistical tests, or effect sizes. The number of independent transgenic lines, the magnitude of changes in lignification, and the specificity of the phenotypes are not described. The claim that EgrMYB137 promotes SCW lignification in planta is central to the paper, yet the evidence presented in the abstract is insufficient to evaluate its robustness.  
+  - **Why it matters** Functional validation is the key evidence that the DAP-seq-ML predictions are biologically meaningful. Without quantitative phenotypic data and statistical support, the central conclusion cannot be verified.  
+  - **Resolution test** Provide quantitative measurements of lignification (e.g., phloroglucinol staining intensity, lignin content assays), growth parameters, and SCW gene expression changes with appropriate statistical analyses and information on biological replicates and independent lines.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** EgrMYB137 targets overlapped significantly with those of EgrMYB2, suggesting partial functional redundancy.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that target sets of EgrMYB137 and EgrMYB2 overlap significantly, but no overlap statistics, significance thresholds, or biological interpretation are provided. The claim of partial functional redundancy is plausible but not substantiated by the visible evidence.  
+  - **Why it matters** The redundancy claim has implications for understanding the regulatory network architecture, but without quantitative overlap analysis and functional confirmation, it remains speculative.  
+  - **Resolution test** Provide overlap statistics with appropriate significance testing and, ideally, genetic or biochemical evidence of redundancy.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract background  
+  - **Evidence pointer** Abstract first sentence  
+  - **Issue** The opening sentence introduces "multi-tiered transcriptional network" and "conserved and lineage-specific SCW network architecture" without defining these concepts for readers outside the immediate field.  
+  - **Required correction** Briefly define or contextualize these terms to make the abstract accessible to a broader plant biology audience.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Machine learning description  
+  - **Evidence pointer** Abstract methods description  
+  - **Issue** The abstract states the random forest classifier was developed from "Arabidopsis DAP-seq, RNA-seq, chromatin, and conserved noncoding sequence data" but does not specify how these heterogeneous data types were integrated or what the features were.  
+  - **Required correction** Provide a brief description of the feature types and integration strategy, or refer to a methods section where this is detailed.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Transcription factor selection rationale  
+  - **Evidence pointer** Abstract transcription factor list  
+  - **Issue** The abstract describes EgrMYB135 and EgrMYB122 as having "unclear roles in SCW regulation" but does not explain why these particular transcription factors were selected for study.  
+  - **Required correction** Add a sentence justifying the selection of these transcription factors, such as expression patterns or phylogenetic relationships.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (classifier validation and cross-species transferability), R1-M2 (DAP-seq peak quality and reproducibility), R1-M3 (quantitative phenotypic evidence for EgrMYB137 function)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of DAP-seq with machine learning for target gene assignment is a novel methodological contribution, and the application to five transcription factors in Eucalyptus addresses a relatively understudied system. However, the conceptual framework of conserved and lineage-specific SCW networks is not new.  
+  - **Scientific importance** The work has potential importance for understanding wood formation and transcriptional regulation in a commercially significant genus, but the abstract does not yet demonstrate a major conceptual advance beyond existing knowledge of SCW regulation.  
+  - **Interdisciplinary readership** The study bridges genomics, machine learning, and plant development, which could attract readers from multiple communities, but the abstract is written primarily for specialists in plant transcriptional regulation.  
+  - **Technical soundness** The technical approach is ambitious, but the abstract provides insufficient detail to assess the rigor of the machine learning model, the DAP-seq data quality, or the statistical support for functional claims.  
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with transcription factor biology, DAP-seq, and SCW terminology, limiting accessibility to a broader scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach and preliminary validation, but the lack of methodological detail and quantitative phenotypic data prevents assessment of whether the central claims are robust. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the random forest classifier demonstrated "significantly higher precision and recall" is unsupported without details on the evaluation metrics, statistical tests, and validation datasets.
+- The claim that EgrMYB137 promotes SCW lignification in planta is not quantitatively supported by the abstract; no effect sizes, statistical analyses, or replicate information are provided.
+- The claim of "partial functional redundancy" between EgrMYB137 and EgrMYB2 is unsupported without overlap statistics and significance testing.
+- The general claim that DAP-seq-ML identified "biologically relevant" targets is only weakly supported by the abstract; enrichment for SCW processes is stated but not quantified, and the functional validation is limited to one transcription factor.

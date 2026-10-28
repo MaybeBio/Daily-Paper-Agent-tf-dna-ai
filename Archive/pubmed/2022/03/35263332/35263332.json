@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "35263332",
+    "doi": "10.1371/journal.pcbi.1009941",
+    "title": "Base-resolution prediction of transcription factor binding signals by a deep learning framework."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) play an important role in regulating gene expression, thus the identification of the sites bound by them has become a fundamental step for molecular and cellular biology. In this paper, we developed a deep learning framework leveraging existing fully convolutional neural networks (FCN) to predict TF-DNA binding signals at the base-resolution level (named as FCNsignal). The proposed FCNsignal can simultaneously achieve the following tasks: (i) modeling the base-resolution signals of binding regions; (ii) discriminating binding or non-binding regions; (iii) locating TF-DNA binding regions; (iv) predicting binding motifs. Besides, FCNsignal can also be used to predict opening regions across the whole genome. The experimental results on 53 TF ChIP-seq datasets and 6 chromatin accessibility ATAC-seq datasets show that our proposed framework outperforms some existing state-of-the-art methods. In addition, we explored to use the trained FCNsignal to locate all potential TF-DNA binding regions on a whole chromosome and predict DNA sequences of arbitrary length, and the results show that our framework can find most of the known binding regions and accept sequences of arbitrary length. Furthermore, we demonstrated the potential ability of our framework in discovering causal disease-associated single-nucleotide polymorphisms (SNPs) through a series of experiments.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Chromatin Immunoprecipitation Sequencing",
+      "*Deep Learning",
+      "Protein Binding",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qinhu",
+        "He, Ying",
+        "Wang, Siguo",
+        "Chen, Zhanheng",
+        "Guo, Zhenhao",
+        "Cui, Zhen",
+        "Liu, Qi",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "He Y",
+        "Wang S",
+        "Chen Z",
+        "Guo Z",
+        "Cui Z",
+        "Liu Q",
+        "Huang DS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4232-7736",
+        "ORCID: 0000-0002-9592-7727",
+        "ORCID: 0000-0002-3244-3629",
+        "ORCID: 0000-0001-5522-6750",
+        "ORCID: 0000-0002-6759-2691"
+      ],
+      "affiliations": [
+        "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0002-4232-7736"
+        ],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai, China.",
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "He, Ying",
+        "short_name": "He Y",
+        "identifiers": [
+          "0000-0002-9592-7727"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0002-3244-3629"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhanheng",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhenhao",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhen",
+        "short_name": "Cui Z",
+        "identifiers": [
+          "0000-0001-5522-6750"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qi",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [
+          "0000-0002-6759-2691"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+          "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Mar",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/10 06:00",
+    "fetched_at": "2026-09-28 06:03:24"
+  },
+  "links": {
+    "cites": [
+      "41627694",
+      "41601205",
+      "41580658",
+      "41294241",
+      "40360798",
+      "39640721",
+      "39541188",
+      "39402535",
+      "39076052",
+      "38517697",
+      "36484687",
+      "36206320",
+      "35962324"
+    ],
+    "refs": [
+      "34272562",
+      "33796819",
+      "33760053",
+      "33603233",
+      "33498086",
+      "33005921",
+      "32551184",
+      "31665499",
+      "31634140",
+      "31510640",
+      "31372637",
+      "30323198",
+      "30106688",
+      "29993783",
+      "29617928",
+      "29140473",
+      "29140464",
+      "29069282",
+      "28881969",
+      "28419194",
+      "28234893",
+      "28092692",
+      "27882933",
+      "27799070",
+      "27524613",
+      "27473064",
+      "27153639",
+      "27153584",
+      "27084946",
+      "26301843",
+      "26213851",
+      "26075791",
+      "26017442",
+      "25033408",
+      "24097267",
+      "23354101",
+      "23090257",
+      "23001124",
+      "22610855",
+      "21808000",
+      "21330290",
+      "19458158",
+      "19443739",
+      "17324271",
+      "16998473",
+      "16845028",
+      "16601727",
+      "15499007",
+      "2667136"
+    ],
+    "similar": [
+      "35263332",
+      "33498086",
+      "34272562",
+      "35681170",
+      "36902216",
+      "36094959",
+      "32976105",
+      "32770026",
+      "30835229",
+      "39076052",
+      "37919990",
+      "35293310",
+      "31372637",
+      "34073774",
+      "38643066",
+      "33372147",
+      "34613923",
+      "38654130",
+      "34383745",
+      "39402535",
+      "19956545",
+      "28750606",
+      "37598467",
+      "28718849",
+      "25957350",
+      "24581441",
+      "32960766",
+      "27104615",
+      "31653198",
+      "34292930",
+      "26291518",
+      "28234893",
+      "31742324",
+      "25070602",
+      "20158869",
+      "22784574",
+      "34488759",
+      "35471887",
+      "22955990",
+      "32848148",
+      "34534646",
+      "37100167",
+      "17951829",
+      "32574834",
+      "26285121",
+      "24927817",
+      "34382199",
+      "33975951",
+      "21486936",
+      "31138617",
+      "39350338",
+      "30517703",
+      "32858223",
+      "22955984",
+      "34579793",
+      "35240993",
+      "35410161",
+      "31723409",
+      "34929739",
+      "33796819",
+      "29993783",
+      "31093693",
+      "38831039",
+      "25722376",
+      "26016777",
+      "38517697",
+      "33355120",
+      "28245811",
+      "35997560",
+      "24564277",
+      "33137083",
+      "38733561",
+      "23272209",
+      "38732207",
+      "32946398",
+      "36374878",
+      "23748563",
+      "35652477",
+      "30967126",
+      "26818008",
+      "31942977",
+      "34285090",
+      "33522898",
+      "35462009",
+      "30922998",
+      "26971251",
+      "30696696",
+      "28849563",
+      "35609992",
+      "25213249",
+      "37328639",
+      "32660981",
+      "28957321",
+      "27993786",
+      "39107889",
+      "36702751",
+      "34664074",
+      "23758851",
+      "22954627",
+      "25442502",
+      "38798191",
+      "24146601",
+      "22955979",
+      "30395277",
+      "35666736",
+      "34255822",
+      "36484687",
+      "35042722",
+      "31974574",
+      "36155619",
+      "37214836",
+      "31324140",
+      "34996354",
+      "37140548",
+      "36360189",
+      "33124660",
+      "38644393",
+      "39013383",
+      "37569400",
+      "35891778",
+      "34370721",
+      "35719916",
+      "35924336",
+      "38291225",
+      "38826350",
+      "38848239",
+      "37224527",
+      "32551184",
+      "36999047",
+      "36993652"
+    ],
+    "review": [
+      "35263332",
+      "31742324",
+      "31093693"
+    ],
+    "pmc": [
+      "8982852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009941",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35263332/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35263332",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35263332",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

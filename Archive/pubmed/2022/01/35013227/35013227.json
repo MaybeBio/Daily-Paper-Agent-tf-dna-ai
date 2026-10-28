@@ -1,0 +1,532 @@
+{
+  "identity": {
+    "pmid": "35013227",
+    "doi": "10.1038/s41467-021-27667-w",
+    "title": "Topographic mapping of the glioblastoma proteome reveals a triple-axis model of intra-tumoral heterogeneity."
+  },
+  "content": {
+    "abstract": "Glioblastoma is an aggressive form of brain cancer with well-established patterns of intra-tumoral heterogeneity implicated in treatment resistance and progression. While regional and single cell transcriptomic variations of glioblastoma have been recently resolved, downstream phenotype-level proteomic programs have yet to be assigned across glioblastoma's hallmark histomorphologic niches. Here, we leverage mass spectrometry to spatially align abundance levels of 4,794 proteins to distinct histologic patterns across 20 patients and propose diverse molecular programs operational within these regional tumor compartments. Using machine learning, we overlay concordant transcriptional information, and define two distinct proteogenomic programs, MYC- and KRAS-axis hereon, that cooperate with hypoxia to produce a tri-dimensional model of intra-tumoral heterogeneity. Moreover, we highlight differential drug sensitivities and relative chemoresistance in glioblastoma cell lines with enhanced KRAS programs. Importantly, these pharmacological differences are less pronounced in transcriptional glioblastoma subgroups suggesting that this model may provide insights for targeting heterogeneity and overcoming therapy resistance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Antineoplastic Agents/therapeutic use",
+      "Brain Neoplasms/diagnosis/drug therapy/*genetics/mortality",
+      "Cell Line, Tumor",
+      "Cohort Studies",
+      "Disease Progression",
+      "Drug Resistance, Neoplasm/genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "*Genetic Heterogeneity",
+      "Glioblastoma/diagnosis/drug therapy/*genetics/mortality",
+      "Humans",
+      "Hypoxia/diagnosis/drug therapy/*genetics/mortality",
+      "Laser Capture Microdissection",
+      "Machine Learning",
+      "Models, Genetic",
+      "Neoplasm Proteins/classification/*genetics/metabolism",
+      "Proteomics/methods",
+      "Proto-Oncogene Proteins c-myc/*genetics/metabolism",
+      "Proto-Oncogene Proteins p21(ras)/*genetics/metabolism",
+      "Survival Analysis",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lam, K H Brian",
+        "Leon, Alberto J",
+        "Hui, Weili",
+        "Lee, Sandy Che-Eun",
+        "Batruch, Ihor",
+        "Faust, Kevin",
+        "Klekner, Almos",
+        "Hutoczki, Gabor",
+        "Koritzinsky, Marianne",
+        "Richer, Maxime",
+        "Djuric, Ugljesa",
+        "Diamandis, Phedias"
+      ],
+      "short_names": [
+        "Lam KHB",
+        "Leon AJ",
+        "Hui W",
+        "Lee SC",
+        "Batruch I",
+        "Faust K",
+        "Klekner A",
+        "Hutoczki G",
+        "Koritzinsky M",
+        "Richer M",
+        "Djuric U",
+        "Diamandis P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6125-3656",
+        "ORCID: 0000-0002-7691-8104",
+        "ORCID: 0000-0002-8006-5044",
+        "ORCID: 0000-0001-5291-9068"
+      ],
+      "affiliations": [
+        "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, M5S 1A8, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+        "Institute of Medical Science, University of Toronto, Toronto, Ontario, #2374-1 King's College Circle, M5S 1A8, Canada.",
+        "Department of Pathology and Laboratory Medicine, Mount Sinai Hospital, Toronto, Ontario, M5G 1x5, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+        "Department of Computer Science, University of Toronto, 40 St.George Street, Toronto, Ontario, M5S 2E4, Canada.",
+        "Department of Neurosurgery, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary.",
+        "Department of Neurosurgery, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+        "Institute of Medical Science, University of Toronto, Toronto, Ontario, #2374-1 King's College Circle, M5S 1A8, Canada.",
+        "Department of Radiation Oncology, University of Toronto, Toronto, Ontario, #504-149 College Street, M5T1P5, Canada.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, M5S 1A8, Canada.",
+        "Department of Pathology, Centre Hospitalier Universitaire de Sherbrooke, 3001, 12e avenue Nord, Sherbrooke, QC, J1H 5N4, Canada.",
+        "Axe neurosciences du Centre de recherche du Centre hospitalier universitaire (CHU) de Quebec-Universite Laval et Departement de biologie moleculaire, biochimie et pathologie de l'Universite Laval, Quebec, QC, G1V 4G2, Canada.",
+        "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, M5S 1A8, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+        "Laboratory Medicine Program, University Health Network, 200 Elizabeth Street, Toronto, ON, Toronto, Ontario, M5G 2C4, Canada.",
+        "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, M5S 1A8, Canada. p.diamandis@mail.utoronto.ca.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada. p.diamandis@mail.utoronto.ca.",
+        "Institute of Medical Science, University of Toronto, Toronto, Ontario, #2374-1 King's College Circle, M5S 1A8, Canada. p.diamandis@mail.utoronto.ca.",
+        "Laboratory Medicine Program, University Health Network, 200 Elizabeth Street, Toronto, ON, Toronto, Ontario, M5G 2C4, Canada. p.diamandis@mail.utoronto.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lam, K H Brian",
+        "short_name": "Lam KHB",
+        "identifiers": [
+          "0000-0002-6125-3656"
+        ],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Leon, Alberto J",
+        "short_name": "Leon AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada."
+        ]
+      },
+      {
+        "full_name": "Hui, Weili",
+        "short_name": "Hui W",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada."
+        ]
+      },
+      {
+        "full_name": "Lee, Sandy Che-Eun",
+        "short_name": "Lee SC",
+        "identifiers": [
+          "0000-0002-7691-8104"
+        ],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+          "Institute of Medical Science, University of Toronto, Toronto, Ontario, #2374-1 King's College Circle, M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Batruch, Ihor",
+        "short_name": "Batruch I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Mount Sinai Hospital, Toronto, Ontario, M5G 1×5, Canada."
+        ]
+      },
+      {
+        "full_name": "Faust, Kevin",
+        "short_name": "Faust K",
+        "identifiers": [
+          "0000-0002-8006-5044"
+        ],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+          "Department of Computer Science, University of Toronto, 40 St.George Street, Toronto, Ontario, M5S 2E4, Canada."
+        ]
+      },
+      {
+        "full_name": "Klekner, Almos",
+        "short_name": "Klekner A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary."
+        ]
+      },
+      {
+        "full_name": "Hutóczki, Gábor",
+        "short_name": "Hutóczki G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Faculty of Medicine, University of Debrecen, 4032, Debrecen, Hungary."
+        ]
+      },
+      {
+        "full_name": "Koritzinsky, Marianne",
+        "short_name": "Koritzinsky M",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+          "Institute of Medical Science, University of Toronto, Toronto, Ontario, #2374-1 King's College Circle, M5S 1A8, Canada.",
+          "Department of Radiation Oncology, University of Toronto, Toronto, Ontario, #504-149 College Street, M5T1P5, Canada.",
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Richer, Maxime",
+        "short_name": "Richer M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Centre Hospitalier Universitaire de Sherbrooke, 3001, 12e avenue Nord, Sherbrooke, QC, J1H 5N4, Canada.",
+          "Axe neurosciences du Centre de recherche du Centre hospitalier universitaire (CHU) de Québec-Université Laval et Département de biologie moléculaire, biochimie et pathologie de l'Université Laval, Québec, QC, G1V 4G2, Canada."
+        ]
+      },
+      {
+        "full_name": "Djuric, Ugljesa",
+        "short_name": "Djuric U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, M5S 1A8, Canada.",
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada.",
+          "Laboratory Medicine Program, University Health Network, 200 Elizabeth Street, Toronto, ON, Toronto, Ontario, M5G 2C4, Canada."
+        ]
+      },
+      {
+        "full_name": "Diamandis, Phedias",
+        "short_name": "Diamandis P",
+        "identifiers": [
+          "0000-0001-5291-9068"
+        ],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, M5S 1A8, Canada. p.diamandis@mail.utoronto.ca.",
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, 610 University Avenue, M5G 2C1, Canada. p.diamandis@mail.utoronto.ca.",
+          "Institute of Medical Science, University of Toronto, Toronto, Ontario, #2374-1 King's College Circle, M5S 1A8, Canada. p.diamandis@mail.utoronto.ca.",
+          "Laboratory Medicine Program, University Health Network, 200 Elizabeth Street, Toronto, ON, Toronto, Ontario, M5G 2C4, Canada. p.diamandis@mail.utoronto.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jan 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/12 06:00",
+    "fetched_at": "2026-09-28 04:00:31"
+  },
+  "links": {
+    "cites": [
+      "42503464",
+      "42271438",
+      "41828436",
+      "41815837",
+      "41595739",
+      "41540445",
+      "41443437",
+      "41386224",
+      "41219608",
+      "41096631",
+      "40842868",
+      "40783350",
+      "40677008",
+      "40518661",
+      "40408475",
+      "40389678",
+      "40295505",
+      "40161803",
+      "40130618",
+      "40064869",
+      "40002166",
+      "39982223",
+      "39972144",
+      "39846632",
+      "39820318",
+      "39773984",
+      "39684754",
+      "39609830",
+      "39418072",
+      "39153092",
+      "39148139",
+      "39130371",
+      "38862482",
+      "38758780",
+      "38747088",
+      "38612892",
+      "38380496",
+      "38367046",
+      "38363834",
+      "38291400",
+      "37774029",
+      "37637066",
+      "37625928",
+      "37489388",
+      "37427111",
+      "37206147",
+      "37205910",
+      "37120445",
+      "36991000",
+      "36768342",
+      "36707424",
+      "36613792",
+      "36595192",
+      "36505856",
+      "36333286",
+      "36182941",
+      "36010563"
+    ],
+    "refs": [
+      "35122077",
+      "34534465",
+      "33577785",
+      "33429995",
+      "33212506",
+      "33005895",
+      "32470397",
+      "32449056",
+      "32322066",
+      "32253265",
+      "32205867",
+      "31901251",
+      "31836713",
+      "31353322",
+      "31327527",
+      "31231613",
+      "30719107",
+      "30655315",
+      "30395289",
+      "30299157",
+      "29946076",
+      "29748285",
+      "29643471",
+      "28959975",
+      "28823557",
+      "28818916",
+      "28813675",
+      "28717188",
+      "28678782",
+      "28569747",
+      "28399408",
+      "28360267",
+      "27372738",
+      "27264189",
+      "27251275",
+      "27088132",
+      "26771021",
+      "26061751",
+      "25792458",
+      "25043054",
+      "23412337",
+      "23323831",
+      "22615450",
+      "22045118",
+      "20129251",
+      "19269895",
+      "19208739",
+      "18772890",
+      "17222791",
+      "17051156",
+      "12925852"
+    ],
+    "similar": [
+      "35013227",
+      "36182941",
+      "33657365",
+      "32962858",
+      "25871397",
+      "38582394",
+      "30569180",
+      "27119353",
+      "27807831",
+      "33396284",
+      "28152508",
+      "30779712",
+      "33839757",
+      "30401645",
+      "27456940",
+      "30059495",
+      "26295306",
+      "33406529",
+      "30176243",
+      "29556339",
+      "28571041",
+      "8099529",
+      "32528036",
+      "25848915",
+      "27713134",
+      "33170151",
+      "30425242",
+      "31882480",
+      "34646273",
+      "33859738",
+      "28625833",
+      "25605243",
+      "34354698",
+      "31053733",
+      "31178471",
+      "31249064",
+      "26466313",
+      "25869098",
+      "27916952",
+      "26900075",
+      "23715499",
+      "20885358",
+      "28427212",
+      "32682409",
+      "27607580",
+      "28751441",
+      "18946672",
+      "32729241",
+      "27035264",
+      "30952620",
+      "27483433",
+      "30814573",
+      "33469841",
+      "31758030",
+      "28264064",
+      "30992437",
+      "26887050",
+      "28923369",
+      "29202181",
+      "32991787",
+      "29330292",
+      "22472177",
+      "26510911",
+      "26940435",
+      "32488994",
+      "18687982",
+      "26151775",
+      "21059509",
+      "30323224",
+      "25019393",
+      "31087038",
+      "26450587",
+      "28710010",
+      "27409345",
+      "34245265",
+      "28778805",
+      "25370472",
+      "25821160",
+      "27837553",
+      "22583806",
+      "15720813",
+      "24925914",
+      "17401009",
+      "36239995",
+      "27412232",
+      "30414187",
+      "12655603",
+      "33082482",
+      "32101725",
+      "21345069",
+      "25561528",
+      "37488996",
+      "36333286",
+      "32729189",
+      "31637999",
+      "32669109",
+      "37857607",
+      "32729254",
+      "25226230",
+      "36505856",
+      "33261657",
+      "37541243",
+      "37067005",
+      "39299968",
+      "38071219",
+      "38750322",
+      "39304781",
+      "38630194"
+    ],
+    "review": [
+      "35013227",
+      "27807831",
+      "33396284",
+      "31178471",
+      "26900075",
+      "28923369",
+      "26151775",
+      "27837553",
+      "32101725",
+      "32729189",
+      "37857607",
+      "32729254",
+      "36505856",
+      "33261657"
+    ],
+    "pmc": [
+      "8748638"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-27667-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35013227/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35013227",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35013227",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd019381",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

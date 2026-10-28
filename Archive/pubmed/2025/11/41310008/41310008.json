@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "41310008",
+    "doi": "10.1038/s41598-025-29541-x",
+    "title": "Potential glutamine metabolism-related biomarkers were identified in osteoarthritis by bioinformatics."
+  },
+  "content": {
+    "abstract": "Osteoarthritis (OA) is a prevalent joint disorder. It is of great importance to identify efficacious therapeutic targets and biomarkers for the treatment of inflammatory joint diseases and the effective management of their condition. Glutamine metabolism is pivotal in regulating chondrocyte function, maintaining bone homeostasis and modulating the inflammatory response. This study aimed to identify glutamine metabolism-related genes that may serve as potential biomarkers for OA. The OA transcriptome dataset and the glutamine metabolism-related genes were obtained. Subsequently, consistency clustering was employed to differentiate between different disease types for the glutamine metabolism-related genes in the OA transcriptome dataset. Furthermore, differential expression analysis was conducted, and functional enrichment analysis was employed to elucidate the underlying mechanisms. A protein-protein interaction (PPI) network was constructed and candidate key genes were identified through Cytoscape's 7 algorithms. Valuation of the diagnostic ability of OA and prediction of transcription factors (TFs), microRNAs (miRNAs), and long non-coding RNAs (lncRNAs) that were related. Subsequently, drug prediction and molecular docking were conducted. An OA mice model and cell model were established using the DMM and IL-1beta methods, respectively, were employed to verify the expression. 1018 differentially expressed genes (DEGs1) were obtained in the OA transcriptome dataset. Subsequently, based on glutamine metabolism-related genes, the transcriptome dataset genes between two subtypes were further 385 differentially expressed genes (DEGs2) were obtained. An intersection of the DEGs1 and the DEGs2 revealed 102 intersecting genes, which were considered candidate genes. LRRFIP1 and MFSD11 as the key genes according to Cytoscape's 7 algorithms and expression levels verification, and with a better OA diagnostic ability. Subsequently, the OA mice model and cell model were established successfully, LRRFIP1 and MFSD11 both had a lower expression level. Glutamine metabolism-related genes LRRFIP1 and MFSD11 may be potential biomarkers for diagnosing and treating OA.",
+    "keywords": [
+      "Glutamine metabolism",
+      "LRRFIP1",
+      "MFSD11",
+      "Osteoarthritis (OA)",
+      "Transcriptome"
+    ],
+    "mesh_terms": [
+      "*Osteoarthritis/metabolism/genetics",
+      "*Glutamine/metabolism",
+      "Animals",
+      "*Computational Biology/methods",
+      "*Biomarkers/metabolism",
+      "Mice",
+      "Protein Interaction Maps",
+      "Humans",
+      "Transcriptome",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Molecular Docking Simulation",
+      "Disease Models, Animal",
+      "RNA, Long Noncoding/genetics/metabolism",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Dongyun",
+        "Wang, Chen",
+        "Qing, Yuelei",
+        "Bao, Xitong",
+        "Xu, Jingxiao",
+        "Wang, Xinyu",
+        "Bao, Wenping",
+        "Wang, Xiaoying"
+      ],
+      "short_names": [
+        "Li D",
+        "Wang C",
+        "Qing Y",
+        "Bao X",
+        "Xu J",
+        "Wang X",
+        "Bao W",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China.",
+        "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China.",
+        "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China.",
+        "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China.",
+        "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China.",
+        "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China.",
+        "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China.",
+        "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China. 54236449@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Dongyun",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chen",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Qing, Yuelei",
+        "short_name": "Qing Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Xitong",
+        "short_name": "Bao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jingxiao",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Wenping",
+        "short_name": "Bao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoying",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology and Rheumatology, Third Affiliated Hospital of Yunnan University of Traditional Chinese Medicine, No.2628 Xiangyuan Rd, Kunming, 650599, Yunnan Province, China. 54236449@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/28 00:26",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39417505",
+      "37488513",
+      "37265860",
+      "37049476",
+      "36685506",
+      "36572886",
+      "36568190",
+      "36285520",
+      "36089087",
+      "35966099",
+      "35916374",
+      "35837069",
+      "35343831",
+      "35003085",
+      "34864868",
+      "34583778",
+      "34557778",
+      "34217320",
+      "34122106",
+      "33560326",
+      "33522210",
+      "32764573",
+      "32470321",
+      "31764439",
+      "31611919",
+      "31441146",
+      "31206541",
+      "30773468",
+      "30709060",
+      "30395331",
+      "29631251",
+      "28892196",
+      "28671190",
+      "28189884",
+      "27347486",
+      "27272503",
+      "26927500",
+      "26767374",
+      "26476454",
+      "26045471",
+      "25605792",
+      "25352553",
+      "24876674",
+      "24792942",
+      "24467960",
+      "23203864",
+      "22761304",
+      "21414208",
+      "20401516",
+      "19399780",
+      "19233337",
+      "17470400",
+      "16480901",
+      "16199883",
+      "14597658"
+    ],
+    "similar": [
+      "41310008",
+      "40216809",
+      "39176085",
+      "42274933",
+      "40724902",
+      "42565562",
+      "38771826",
+      "40628511",
+      "41316378",
+      "41327360",
+      "41638276",
+      "39086489",
+      "39919076",
+      "36575422",
+      "39639239",
+      "40726988",
+      "38509535",
+      "31960487",
+      "41635814",
+      "38741149",
+      "39026663",
+      "37382793",
+      "30551734",
+      "42397093",
+      "38997894",
+      "40828304",
+      "39438957",
+      "38767974",
+      "42051521",
+      "40592131",
+      "40196107",
+      "32342805",
+      "39640258",
+      "42025819",
+      "41677890",
+      "40420260",
+      "42471019",
+      "30365099",
+      "40589764",
+      "42233387",
+      "39779817",
+      "41533020",
+      "41300749",
+      "41196851",
+      "41562054",
+      "40335993",
+      "41936647",
+      "40093012",
+      "41220037",
+      "41502501",
+      "32135469",
+      "40442788",
+      "40919665",
+      "40406126",
+      "29247798",
+      "41398629",
+      "34113405",
+      "40532306",
+      "41316541",
+      "29514675",
+      "41504784",
+      "42389985",
+      "39118036",
+      "41031145",
+      "41261566",
+      "42381080",
+      "40593053",
+      "42286465",
+      "42015036",
+      "40574839",
+      "40196125",
+      "41511918",
+      "39585570",
+      "42338208",
+      "40475761",
+      "41258630",
+      "37063926",
+      "41688931",
+      "30820958",
+      "40294966",
+      "39292413",
+      "40711603",
+      "38734758",
+      "35860189",
+      "33325525",
+      "41628840",
+      "33468167",
+      "34218797",
+      "39738612",
+      "29344651",
+      "41703488",
+      "38062833",
+      "42302029",
+      "26832188",
+      "42584803",
+      "41146237",
+      "42530267",
+      "42295138",
+      "36700234",
+      "40804350"
+    ],
+    "review": [
+      "41310008",
+      "29514675"
+    ],
+    "pmc": [
+      "12748631"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-29541-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41310008/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

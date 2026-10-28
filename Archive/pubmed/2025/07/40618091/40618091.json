@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "40618091",
+    "doi": "10.1186/s40478-025-02062-4",
+    "title": "Early transcriptional responses reveal cell type-specific vulnerability and neuroprotective mechanisms in the neonatal ischemic hippocampus."
+  },
+  "content": {
+    "abstract": "Neonatal hypoxic-ischemic (H-I) brain injury, a leading cause of neurodevelopmental disabilities, severely affects the metabolically active and neurogenic hippocampus. To investigate its acute effects and identify drug targets for early therapeutic windows, we applied single-nucleus RNA sequencing on postnatal day 8 (P8) mouse hippocampi under sham, hypoxic, and hypoxic-ischemic conditions. We constructed a comprehensive hippocampal cell atlas and developed a machine-learning classifier for precise cell type identification. Our analysis reveals early vulnerabilities in mature neurons and notable resilience in immature DG, GABAergic, and Cajal-Retzius cells following H-I. Gene regulatory network analysis identified key transcription factors associated with neuronal vulnerability, along with upregulated ribosome biogenesis and dysregulated calcium homeostasis pathways. We observed rapid activation of astrocytes and microglia, with Runx1 identified as a potential key transcription factor associated with early microglia immune responses. Endothelial cells displayed complex transcriptional changes and predicted intercellular signaling patterns that may influence vascular repair and recovery. Our study advances the understanding of immediate cellular and transcriptional responses to neonatal H-I injury, providing new insights into hippocampal cell heterogeneity and pathophysiology. The integrated hippocampal atlas, post-H-I atlas, and machine learning classifier are available at https://hippo-seq.org .",
+    "keywords": [
+      "Gene regulatory network",
+      "Hippocampal cell atlas",
+      "Machine learning",
+      "Neonatal hypoxia ischemia",
+      "Neural vulnerability",
+      "Single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Hippocampus/metabolism/pathology",
+      "Mice",
+      "Animals, Newborn",
+      "*Hypoxia-Ischemia, Brain/metabolism/pathology/genetics",
+      "*Neurons/metabolism/pathology",
+      "Microglia/metabolism",
+      "Mice, Inbred C57BL",
+      "*Neuroprotection/physiology",
+      "Gene Regulatory Networks",
+      "Male",
+      "Astrocytes/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ianevski, Aleksandr",
+        "Camara-Quilez, Maria",
+        "Wang, Wei",
+        "Suganthan, Rajikala",
+        "Hildrestrand, Gunn",
+        "Grini, Jonas Viken",
+        "Doskeland, Dagny Sanden",
+        "Ye, Jing",
+        "Bjoras, Magnar"
+      ],
+      "short_names": [
+        "Ianevski A",
+        "Camara-Quilez M",
+        "Wang W",
+        "Suganthan R",
+        "Hildrestrand G",
+        "Grini JV",
+        "Doskeland DS",
+        "Ye J",
+        "Bjoras M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway. aleksandr.ianevski@ntnu.no.",
+        "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway.",
+        "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway.",
+        "Department of Microbiology, Oslo University Hospital, University of Oslo, 0424, Oslo, Norway.",
+        "Centre for Embryology and Healthy Development, University of Oslo, 0373, Oslo, Norway.",
+        "Department of Microbiology, Oslo University Hospital, University of Oslo, 0424, Oslo, Norway.",
+        "Centre for Embryology and Healthy Development, University of Oslo, 0373, Oslo, Norway.",
+        "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway.",
+        "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway.",
+        "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway. jing.ye@ntnu.no.",
+        "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway. magnar.bjoras@ntnu.no.",
+        "Department of Microbiology, Oslo University Hospital, University of Oslo, 0424, Oslo, Norway. magnar.bjoras@ntnu.no.",
+        "Centre for Embryology and Healthy Development, University of Oslo, 0373, Oslo, Norway. magnar.bjoras@ntnu.no."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ianevski, Aleksandr",
+        "short_name": "Ianevski A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway. aleksandr.ianevski@ntnu.no."
+        ]
+      },
+      {
+        "full_name": "Cámara-Quílez, María",
+        "short_name": "Cámara-Quílez M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Suganthan, Rajikala",
+        "short_name": "Suganthan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, University of Oslo, 0424, Oslo, Norway.",
+          "Centre for Embryology and Healthy Development, University of Oslo, 0373, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Hildrestrand, Gunn",
+        "short_name": "Hildrestrand G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, University of Oslo, 0424, Oslo, Norway.",
+          "Centre for Embryology and Healthy Development, University of Oslo, 0373, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Grini, Jonas Viken",
+        "short_name": "Grini JV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Døskeland, Dagny Sanden",
+        "short_name": "Døskeland DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Ye, Jing",
+        "short_name": "Ye J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway. jing.ye@ntnu.no."
+        ]
+      },
+      {
+        "full_name": "Bjørås, Magnar",
+        "short_name": "Bjørås M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology (NTNU), 7491, Trondheim, Norway. magnar.bjoras@ntnu.no.",
+          "Department of Microbiology, Oslo University Hospital, University of Oslo, 0424, Oslo, Norway. magnar.bjoras@ntnu.no.",
+          "Centre for Embryology and Healthy Development, University of Oslo, 0373, Oslo, Norway. magnar.bjoras@ntnu.no."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta neuropathologica communications"
+    ],
+    "journal_abbrev": [
+      "Acta Neuropathol Commun"
+    ],
+    "pub_date": "2025 Jul 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/06 06:18",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42351668",
+      "41966282",
+      "41596072",
+      "41463011",
+      "41462297"
+    ],
+    "refs": [
+      "39290696",
+      "39043661",
+      "39028813",
+      "38522610",
+      "38324639",
+      "38177281",
+      "38093010",
+      "38092916",
+      "37841285",
+      "37657442",
+      "37307473",
+      "37231261",
+      "37226416",
+      "36732642",
+      "36617563",
+      "36354219",
+      "36353512",
+      "35942676",
+      "35794479",
+      "35766181",
+      "35609367",
+      "35273156",
+      "34988395",
+      "34867201",
+      "34820702",
+      "34584091",
+      "34557778",
+      "34504417",
+      "34004146",
+      "33491336",
+      "33288904",
+      "33262692",
+      "33159039",
+      "32889009",
+      "32561888",
+      "32405060",
+      "32323760",
+      "32174916",
+      "31907463",
+      "31500660",
+      "31348891",
+      "30827681",
+      "30586455",
+      "30504886",
+      "30267379",
+      "30096299",
+      "30025833",
+      "29545511",
+      "29439330",
+      "29409532",
+      "28991892",
+      "28729663",
+      "28534246",
+      "28252642",
+      "27471252",
+      "27468695",
+      "27453576",
+      "27099785",
+      "27047695",
+      "27003583",
+      "26383255",
+      "25605792",
+      "25024921",
+      "23555640",
+      "22964590",
+      "22951441",
+      "22065741",
+      "22034350",
+      "22017466",
+      "21808241",
+      "20554402",
+      "19943345",
+      "18815396",
+      "18760364",
+      "18582850",
+      "17903945",
+      "17556841",
+      "17315033",
+      "16046840",
+      "15525724",
+      "11483016",
+      "11059815",
+      "10759146",
+      "10669514",
+      "10635000",
+      "10209158",
+      "9521242",
+      "1871130",
+      "1558174"
+    ],
+    "similar": [
+      "40618091",
+      "22907804",
+      "25554688",
+      "40799188",
+      "39724278",
+      "34376208",
+      "31442443",
+      "25746456",
+      "41677619",
+      "18446826",
+      "41369351",
+      "16938277",
+      "39831776",
+      "33158962",
+      "29873394",
+      "18420181",
+      "18030677",
+      "39496476",
+      "33271328",
+      "32880098",
+      "23737250",
+      "39929157",
+      "32464635",
+      "33402183",
+      "11890901",
+      "34983246",
+      "41331484",
+      "41365065",
+      "39329733",
+      "37753942",
+      "40528218",
+      "40159309",
+      "26354916",
+      "29402808",
+      "39082286",
+      "40801634",
+      "15743533",
+      "34762231",
+      "19672073",
+      "30909283",
+      "31059032",
+      "28069924",
+      "40396339",
+      "29608930",
+      "39506138",
+      "32579902",
+      "41756274",
+      "20882700",
+      "31185248",
+      "34772426",
+      "20712402",
+      "30586599",
+      "40522382",
+      "38760862",
+      "41223896",
+      "32568774",
+      "34224102",
+      "31751562",
+      "41390137",
+      "28668375",
+      "39444090",
+      "28495306",
+      "26341542",
+      "26927081",
+      "41550935",
+      "30458277",
+      "21300037",
+      "23069675",
+      "11255033",
+      "24285580",
+      "23571161",
+      "15350969",
+      "24376636",
+      "39962155",
+      "26179283",
+      "39834143",
+      "30127782",
+      "41074638",
+      "38178264",
+      "33428879",
+      "39486775",
+      "17936538",
+      "41534673",
+      "34764335",
+      "31300734",
+      "16719058",
+      "41558195",
+      "15773920",
+      "38566248",
+      "40585969",
+      "34343528",
+      "41030458",
+      "41469822",
+      "19520991",
+      "32430797",
+      "26669927",
+      "37830170",
+      "39443594",
+      "26279061",
+      "29501420"
+    ],
+    "review": [
+      "40618091",
+      "40396339"
+    ],
+    "pmc": [
+      "12228329"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-025-02062-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40618091/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

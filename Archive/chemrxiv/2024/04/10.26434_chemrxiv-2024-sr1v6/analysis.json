@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-sr1v6",
+  "title": "Optimal Molecular Design: Generative Active Learning Combining REINVENT with Absolute Binding Free Energy Simulations",
+  "authors": "Hannes Loeffler; Shunzhou Wan; Marco Klähn; Agastya Bhati; Peter Coveney",
+  "journal": "ChemRxiv",
+  "published_date": "2024-04-26",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合生成式AI与绝对结合自由能模拟进行主动学习，面向蛋白质-配体（小分子）结合优化，虽非TF-DNA体系，但其AI+物理模拟的互作建模与批量采样策略可迁移至蛋白质-DNA互作研究。",
+  "abstract": "Active learning (AL) is a specific instance of sequential experimental design and uses machine learning to intelligently choose the next data point or batch of molecular structures to be evaluated. In this sense it closely mimics the iterative design-make-test-analysis cycle of laboratory experiments to find optimized compounds for a given design task. Here we describe an AL protocol which combines generative molecular AI, using REINVENT, and physics-based absolute binding free energy molecular dynamics simulation, using ESMACS, to discover new ligands for two different target proteins, 3CLpro and TNKS2. We have deployed our generative active learning (GAL) protocol on Frontier, the world’s only exa-scale machine. We show that the protocol can find better binders compared to baseline, a surrogate ML docking model for 3CLpro and compounds with experimentally determined binding affinities for TNKS2. The ligands found are also chemically diverse and occupy a different chemical space than the baseline. We vary the batch sizes that are put forward for free energy assessment in each GAL cycle to assess the impact on their efficiency on the GAL protocol and recommend their optimal values in different scenarios. Overall, we demonstrate a powerful capability of the combination of physics-based and AI methods which yields effective chemical space sampling at an unprecedented scale, of immediate and direct relevance for modern, data-driven drug discovery.",
+  "abstract_zh": "主动学习（Active learning, AL）是序贯实验设计的一个特定实例，利用机器学习智能地选择下一个待评估的数据点或分子结构批次。在此意义上，它紧密模拟了实验室实验中迭代的设计-制造-测试-分析循环，以针对给定设计任务找到优化化合物。在此，我们描述了一种AL协议，该协议结合了使用REINVENT的生成式分子AI，以及使用ESMACS的基于物理的绝对结合自由能分子动力学模拟，以发现针对两种不同靶蛋白3CLpro和TNKS2的新配体。我们已在Frontier（全球唯一的百亿亿次级机器）上部署了我们的生成式主动学习（GAL）协议。我们表明，该协议相比基线（一种用于3CLpro的替代机器学习对接模型，以及具有实验测定结合亲和力的TNKS2化合物）能够找到更好的结合剂。所发现的配体在化学上也具有多样性，并占据与基线不同的化学空间。我们在每个GAL周期中改变用于自由能评估的批次大小，以评估其对GAL协议效率的影响，并在不同场景下推荐其最优值。总体而言，我们展示了基于物理与AI方法结合的强大能力，能够在空前规模下实现有效的化学空间采样，这对现代数据驱动的药物发现具有直接且即时的相关性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-sr1v6",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-sr1v6",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-sr1v6/index.html"
+}

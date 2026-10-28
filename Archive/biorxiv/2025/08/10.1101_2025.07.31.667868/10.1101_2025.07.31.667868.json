@@ -1,0 +1,187 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.31.667868",
+  "title": "Why variant effect predictors and multiplexed assays agree and disagree",
+  "doi": "10.1101/2025.07.31.667868",
+  "abstract": "Computational variant effect predictors (VEPs) and multiplexed assays of variant effect (MAVEs) are two key tools for assessing the functional consequences of genetic variants. While their outputs are often concordant, there are also many differences. Here, we analyse missense MAVE data from 37 different human proteins, comparing them to five state-of-the-art VEPs in order to quantify and explain their points of agreement and disagreement. We find that discordance is not random but reflects fundamental differences in how each method infers functional impact. VEPs, which rely heavily on sequence conservation and basic structural features, tend to overcall pathogenicity at buried and hydrophobic residues, while underestimating impact in disordered regions and on charged surface residues. MAVEs, by contrast, capture context-specific mechanisms more accurately, but can miss pathogenic variants when the assay fails to reflect disease biology, or be subject to high levels of experimental noise. By comparing both global patterns and specific clinically relevant variants, we show how protein features, assay design, and variant type shape predictive discordance. Our findings provide a framework for interpreting when and why VEPs and MAVEs diverge and point toward strategies for improving variant interpretation through integrated, mechanism-aware approaches.",
+  "authors": [
+    "Livesey BJ",
+    "Marsh JA"
+  ],
+  "published_date": "2025-08-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667868",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667868.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1059866",
+    "raw_record": {
+      "id": "PPR1059866",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1059866"
+        ]
+      },
+      "doi": "10.1101/2025.07.31.667868",
+      "title": "Why variant effect predictors and multiplexed assays agree and disagree",
+      "authorString": "Livesey BJ, Marsh JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Livesey BJ",
+            "lastName": "Livesey",
+            "firstName": "Benjamin",
+            "initials": "BJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6866-1452"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6866-1452"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Computational variant effect predictors (VEPs) and multiplexed assays of variant effect (MAVEs) are two key tools for assessing the functional consequences of genetic variants. While their outputs are often concordant, there are also many differences. Here, we analyse missense MAVE data from 37 different human proteins, comparing them to five state-of-the-art VEPs in order to quantify and explain their points of agreement and disagreement. We find that discordance is not random but reflects fundamental differences in how each method infers functional impact. VEPs, which rely heavily on sequence conservation and basic structural features, tend to overcall pathogenicity at buried and hydrophobic residues, while underestimating impact in disordered regions and on charged surface residues. MAVEs, by contrast, capture context-specific mechanisms more accurately, but can miss pathogenic variants when the assay fails to reflect disease biology, or be subject to high levels of experimental noise. By comparing both global patterns and specific clinically relevant variants, we show how protein features, assay design, and variant type shape predictive discordance. Our findings provide a framework for interpreting when and why VEPs and MAVEs diverge and point toward strategies for improving variant interpretation through integrated, mechanism-aware approaches.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Medical Research Council",
+            "acronym": "MRC_",
+            "grantId": "MC_UU_00035/9",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/08/01/2025.07.31.667868.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.31.667868"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1059866"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1059866&type=FILE&fileName=EMS207861-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42805995",
+            "reference": "Nature communications. \n    2026 Aug;17(1):10295",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207861",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-08-03",
+      "firstPublicationDate": "2025-08-01",
+      "firstIndexDate": "2025-08-04",
+      "fullTextReceivedDate": "2025-08-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

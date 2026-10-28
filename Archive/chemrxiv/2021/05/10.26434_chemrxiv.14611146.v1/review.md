@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose DeepPocket, a framework combining Fpocket with 3D convolutional neural networks for rescoring and segmenting predicted ligand binding sites. They also introduce a new dataset, SC6K, derived from PDB structures deposited between January 2018 and February 2020. They claim superior performance over state-of-the-art methods and good generalization on novel structures.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset statistics, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset description, baseline comparisons, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to structure-based drug design, combining geometric pocket detection with deep learning. However, the evidence provided is insufficient to evaluate the validity of the performance claims. The lack of quantitative results, dataset details, and methodological specifics prevents a rigorous assessment. The work may be of interest to computational chemists and structural biologists, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational drug discovery researchers, structural biologists, and machine learning practitioners working on protein-ligand interactions. The proposed method and dataset could be useful for improving binding site prediction, which is a bottleneck in structure-based drug design.
+- **Major strengths** The combination of a geometric algorithm with deep learning is a sensible approach. The introduction of a new dataset, SC6K, addresses the need for up-to-date benchmarks. The claim of generalization to novel structures is relevant for practical applications.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "better performance over current state-of-the-art methods" for DeepPocket.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative metrics provided
+  - **Concern** The performance claim is made without any numerical results, such as accuracy, ranking metrics, or comparison tables. No baseline methods are named, and no statistical significance is reported.
+  - **Why it matters** Without quantitative evidence, the central claim of superiority cannot be verified. Readers cannot assess whether the improvement is meaningful or within noise.
+  - **Resolution test** Provide a comparison table with metrics (e.g., DCC, success rate, ROC-AUC) against at least two established methods, with error bars or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset validity
+  - **Claim pointer** The abstract introduces SC6K as a dataset for ligand binding site detection, implying it is suitable for benchmarking.
+  - **Evidence pointer** Abstract only; no dataset description provided
+  - **Concern** No details are given on how SC6K was constructed, including selection criteria, redundancy removal, ligand definition, or data split. The temporal range (January 2018 to February 2020) is stated, but the curation process is unclear.
+  - **Why it matters** A poorly curated dataset can bias results and limit comparability with existing benchmarks. Without clarity, the dataset's utility and the validity of generalization claims are questionable.
+  - **Resolution test** Describe the dataset construction pipeline, including PDB filtering, sequence identity thresholds, and train/test splits. Provide statistics on the number of proteins, binding sites, and ligand types.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract states DeepPocket uses "3D convolutional neural networks for the rescoring of pockets identified by Fpocket and further segments these identified cavities."
+  - **Evidence pointer** Abstract only; no architectural or training details provided
+  - **Concern** The method description is too brief. Key details such as input representation, network architecture, training data, loss functions, and segmentation approach are absent. The term "rescoring" is ambiguous regarding whether it is a classification or regression task.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without methodological specifics, the work cannot be replicated or critically evaluated.
+  - **Resolution test** Provide a full methods section with architecture diagrams, hyperparameters, training procedures, and code availability.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "development of potential drug molecules or ligands that form stable complexes" is redundant, as ligands are the molecules being developed.
+  - **Required correction** Simplify to "development of potential drug molecules that form stable complexes with a given receptor."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "segments these identified cavities"
+  - **Evidence pointer** Abstract, method description
+  - **Issue** The term "segments" is vague. It is unclear whether this refers to voxel-level labeling, surface patch identification, or something else.
+  - **Required correction** Clarify the segmentation output, e.g., "produces per-atom or per-voxel labels for pocket regions."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset naming
+  - **Evidence pointer** Abstract, SC6K introduction
+  - **Issue** The name SC6K is not explained. The "6K" likely refers to a count, but this is not stated.
+  - **Required correction** Define the name, e.g., "SC6K (containing approximately 6,000 structures)."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, dataset details, and methodological specifics means the core claims are unsupported.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. Combining Fpocket with deep learning is not entirely novel, but the specific application to rescoring and segmentation may offer a new angle. The dataset is a potential contribution.
+  - Scientific importance: Potentially high for drug discovery, but the abstract does not demonstrate a significant advance over existing methods.
+  - Interdisciplinary readership: The topic bridges structural biology and machine learning, which could attract a broad audience, but the abstract is too technical for nonspecialists without context.
+  - Technical soundness: Not assessable from the abstract. No evidence of validation, robustness, or comparison.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with pocket detection and deep learning. Terms like "rescoring" and "segmentation" are not explained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support the performance and generalization claims. A full manuscript with quantitative results and methodological details is required for a fair evaluation.
+
+## Risk / unsupported claims
+- "Better performance over current state-of-the-art methods" is unsupported due to lack of quantitative data.
+- "Good generalization ability over novel structures" is unsupported without details on test sets and evaluation protocols.
+- The utility and quality of the SC6K dataset are not assessable without curation details.
+- The methodological description of DeepPocket is insufficient to evaluate its technical validity.

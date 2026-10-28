@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.09.632105",
+  "title": "TFBSFootprinter: a multiomics tool for prediction of transcription factor binding sites in vertebrate species",
+  "authors": "Harlan R. Barker; Seppo Parkkila; Martti E.E. Tolvanen",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-12",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了TFBSFootprinter多组学工具，整合序列保守性、染色质可及性等特征预测124个脊椎动物物种的TF结合位点，虽非基于AI或物理模拟方法，但聚焦TF-DNA结合位点预测，对课题有参考价值。",
+  "abstract": "Background Transcription factor (TF) proteins play a critical role in the regulation of eukaryotic gene expression via sequence-specific binding to genomic locations known as transcription factor binding sites (TFBSs). Accurate prediction of TFBSs is essential for understanding gene regulation, disease mechanisms, and drug discovery. These studies are therefore relevant not only in humans but also in model organisms and domesticated and wild animals. However, current tools for the automatic analysis of TFBSs in gene promoter regions are limited in their usability across multiple species. To our knowledge, no tools currently exist that allow for automatic analysis of TFBSs in gene promoter regions for many species. Methodology and Findings The TFBSFootprinter tool combines multiomic transcription-relevant data for more accurate prediction of functional TFBSs in 124 vertebrate species. In humans, this includes vertebrate sequence conservation (GERP), proximity to transcription start sites (FANTOM5), correlation of expression between target genes and TFs predicted to bind promoters (FANTOM5), overlap with ChIP-Seq TF metaclusters (GTRD), overlap with ATAC-Seq peaks (ENCODE), eQTLs (GTEx), and the observed/expected CpG ratio (Ensembl). TFBSFootprinter analyses are based on the Ensembl transcript ID for simplicity of use and require minimal setup steps. Benchmarking of the TFBSFootprinter on a manually curated and experimentally verified dataset of TFBSs produced superior results when using all multiomic data (average area under the receiver operating characteristic curve, 0.881), compared with DeepBind (0.798), FIMO (0.817) and traditional PWM (0.854). The results were further improved by selecting the best overall combination of multiomic data (0.910). Additionally, we determined combinations of multiomic data that provide the best model of binding for each TF. TFBSFootprinter is available as Conda and Python packages.",
+  "abstract_zh": "背景 转录因子（TF）蛋白通过序列特异性结合至基因组上称为转录因子结合位点（TFBSs）的位置，在真核基因表达调控中发挥关键作用。准确预测TFBSs对于理解基因调控、疾病机制和药物发现至关重要。因此，这些研究不仅与人类相关，也适用于模式生物以及家养和野生动物。然而，目前用于基因启动子区域TFBSs自动分析的工具在多物种间的可用性有限。据我们所知，目前尚无工具能够对多种物种的基因启动子区域TFBSs进行自动分析。方法与发现 TFBSFootprinter工具结合多组学转录相关数据，可在124种脊椎动物中更准确地预测功能性TFBSs。在人类中，这些数据包括脊椎动物序列保守性（GERP）、与转录起始位点的邻近性（FANTOM5）、靶基因与预测结合启动子的TF之间表达相关性（FANTOM5）、与ChIP-Seq TF元簇的重叠（GTRD）、与ATAC-Seq峰的重叠（ENCODE）、eQTLs（GTEx）以及观察/期望CpG比率（Ensembl）。TFBSFootprinter分析基于Ensembl转录本ID，便于使用且设置步骤最少。在手动整理并经实验验证的TFBSs数据集上对TFBSFootprinter进行基准测试，使用所有多组学数据时结果优于DeepBind（0.798）、FIMO（0.817）和传统PWM（0.854），平均受试者工作特征曲线下面积为0.881。通过选择最佳的多组学数据组合，结果进一步改善至0.910。此外，我们确定了为每个TF提供最佳结合模型的多组学数据组合。TFBSFootprinter以Conda和Python包形式提供。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.09.632105",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.09.632105",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.09.632105/index.html"
+}

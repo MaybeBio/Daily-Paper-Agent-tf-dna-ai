@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42104208",
+  "title": "Feed-Forward Deep Neural Networks Predict Substrate-Specific Effects of Transporter Variants to Explain Drug Response Variability.",
+  "authors": "Park, Yoomi; Zhou, Yitian; Xiao, Ming; Nies, Anne T; Lauschke, Volker M",
+  "journal": "Clinical and translational science",
+  "published_date": "2026-05-09",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用前馈神经网络预测药物转运体变体的底物特异性效应，对象为转运蛋白-小分子而非蛋白质-DNA互作，且无结合位点或互作机制建模，仅边缘相关。",
+  "abstract": "Genetic variants in drug transporter genes shape the interindividual variability in drug response. However, their functional interpretation has remained limited due to the substrate dependence of variant effects. Existing predictors are substrate-agnostic and cannot capture how a single amino acid change differentially affects transport across drugs. Here, we present the substrate-specific effect predictor (SSEP), the first model to predict transporter variant effects in a substrate-dependent manner. SSEP integrates curated in vitro uptake assays with deep mutational scanning data, leveraging multiscale features extracted from modeled variant-substrate complexes. Based on a feed-forward deep neural network architecture, SSEP provides quantitative, substrate-specific activity scores that correlate with experimental uptake data (Spearman's rho = 0.64) across multiple transporter families (OCT1, MATE, CNT, and OATP) and substrate classes (biguanides, tetraethylammonium, selective serotonin agonists, sympathomimetics and opiates). In benchmarking analyses, SSEP showed higher concordance (Kruskal-Wallis p = 1.11 x 10(-41)) with experimental uptake than commonly used substrate-agnostic predictors. Application of SSEP on UK Biobank data revealed that OCT1 (SLC22A1) variant burden weighted by metformin-specific SSEP scores was significantly associated with maintenance dose (beta = 30 mg/day per unit increase in predicted functional burden; p = 0.033), whereas substrate-agnostic weights showed no association (p = 0.78). Together, these results show that SSEP enables quantitative, drug-specific prediction of transporter variant effects, thereby improving the identification of clinically relevant transporter variants in population-scale data.",
+  "abstract_zh": "药物转运体基因中的遗传变异决定了药物反应的个体间差异。然而，由于变异效应的底物依赖性，其功能解读一直受限。现有预测因子与底物无关，无法捕捉单个氨基酸变化如何差异性地影响不同药物的转运。在此，我们提出了底物特异性效应预测因子（SSEP），这是首个以底物依赖性方式预测转运体变异效应的模型。SSEP整合了精选的体外摄取实验与深度突变扫描数据，利用从模拟的变异-底物复合物中提取的多尺度特征。基于前馈深度神经网络架构，SSEP提供定量的、底物特异性的活性评分，这些评分与实验摄取数据（Spearman's rho = 0.64）在多个转运体家族（OCT1、MATE、CNT和OATP）及底物类别（双胍类、四乙铵、选择性血清素激动剂、拟交感神经药和阿片类）中相关。在基准分析中，SSEP与实验摄取的一致性（Kruskal-Wallis p = 1.11 x 10(-41)）高于常用的底物无关预测因子。将SSEP应用于英国生物银行数据揭示，以二甲双胍特异性SSEP评分加权的OCT1（SLC22A1）变异负担与维持剂量显著相关（预测功能负担每增加一个单位，β = 30 mg/天；p = 0.033），而底物无关权重则无关联（p = 0.78）。综合来看，这些结果表明SSEP能够实现转运体变异效应的定量、药物特异性预测，从而在人群规模数据中提高临床相关转运体变异的识别能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42104208/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42104208/",
+  "paper_page_path": "papers/pubmed/42104208/index.html"
+}

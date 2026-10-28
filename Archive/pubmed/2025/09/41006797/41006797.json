@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "41006797",
+    "doi": "10.1038/s41598-025-18547-0",
+    "title": "In silico approaches unveil the mechanism of action of Eclipta prostrata against acute myeloid leukemia."
+  },
+  "content": {
+    "abstract": "Acute myeloid leukemia (AML) is an aggressive hematological malignancy with a poor prognosis. While the medicinal plant Eclipta prostrata has shown promising anticancer properties against AML, its underlying mechanisms against AML remain largely unexplored. Hence, this study aimed to unveil the molecular mechanisms of E. prostrata, identify therapeutic targets, detect regulatory elements, and discover potential biomarkers for AML using comprehensive in-silico analyses. We implemented an integrated computational approach combining network pharmacology, molecular docking, molecular dynamics simulations, 3D-QSAR modeling, gene regulatory network, gene expression, patient survival, and cancer hallmarks analysis to investigate the mechanism of action of E. prostrata against AML. Our computational approaches identified 12 potential anti-cancer compounds from E. prostrata. Molecular docking revealed strong binding affinities of Kaempferol (-8.931 kcal/mol) and Apigenin (-8.752 kcal/mol) to FLT3, compared to control Pacritinib (-5.403 kcal/mol). Tricetin (-8.634 kcal/mol) and Diosmetin (-7.780 kcal/mol) showed strong binding to PIM1 compared to control SEL24 (-6.385 kcal/mol). Post-molecular dynamics simulation MM-GBSA analysis further confirmed these interactions, with binding free energies for FLT3: Kaempferol (-73.75 kcal/mol), Apigenin (-68.76 kcal/mol), Pacritinib (-51.27 kcal/mol); and for PIM1: Tricetin (-64.28 kcal/mol), Diosmetin (-52.2 kcal/mol), SEL24 (-53.38 kcal/mol). Predicted IC(50) values showed promising results for PIM1 inhibition by Tricetin (406.44 nM) and Diosmetin (523.60 nM), and for FLT3 inhibition by Kaempferol (493.17 nM) and Apigenin (588.84 nM). The developed 3D-QSAR models showed robust predictive power (PIM1: R(2) = 0.96, Q(2) = 0.93; FLT3: R(2) = 0.95, Q(2) = 0.85). Key regulatory elements were identified, including microRNAs (hsa-mir-335-5p, hsa-mir-150-5p, has-mir-1324) and transcription factors (ABL1, RUNX1, SP1, PML) regulating the target genes. FLT3 and MPO were identified as specific diagnostic and prognostic biomarkers for AML. This comprehensive in-silico analysis revealed promising therapeutic compounds from E. prostrata targeting FLT3 and PIM1, along with novel biomarker potentials of FLT3 and MPO for improved AML diagnosis and prognosis, subject to further experimental validation.",
+    "keywords": [
+      "Eclipta prostrata",
+      "3D-QSAR",
+      "Acute myeloid leukemia (AML)",
+      "Biomarkers",
+      "Mechanism of action",
+      "Molecular dynamics simulation",
+      "Therapeutic targets"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Leukemia, Myeloid, Acute/drug therapy/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "*Eclipta/chemistry",
+      "Molecular Dynamics Simulation",
+      "Quantitative Structure-Activity Relationship",
+      "Gene Regulatory Networks/drug effects",
+      "Computer Simulation",
+      "*Plant Extracts/pharmacology/chemistry",
+      "*Antineoplastic Agents, Phytogenic/pharmacology/chemistry",
+      "fms-Like Tyrosine Kinase 3/metabolism/chemistry/antagonists & inhibitors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Islam, K M Tanjida",
+        "Islam, Md Muzahidul",
+        "Habib, Jisan Bin",
+        "Sarker, Susen",
+        "Ahmed, Azrin",
+        "Sohel, Md",
+        "Tabassum, Fahmida",
+        "Sarker, Saborni",
+        "Al Ashik, Sheikh Abdullah",
+        "Khanam, Roksana",
+        "Mahmud, Shahin"
+      ],
+      "short_names": [
+        "Islam KMT",
+        "Islam MM",
+        "Habib JB",
+        "Sarker S",
+        "Ahmed A",
+        "Sohel M",
+        "Tabassum F",
+        "Sarker S",
+        "Al Ashik SA",
+        "Khanam R",
+        "Mahmud S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, Jagannath University, Dhaka, 1100, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh.",
+        "Department of Biochemistry and Molecular Biology, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh.",
+        "Department of Biotechnology, Faculty of Agriculture, Bangladesh Agricultural University, Mymensingh, 2202, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh. shahin018mbstu@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Islam, K M Tanjida",
+        "short_name": "Islam KMT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Muzahidul",
+        "short_name": "Islam MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Habib, Jisan Bin",
+        "short_name": "Habib JB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sarker, Susen",
+        "short_name": "Sarker S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Jagannath University, Dhaka, 1100, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Azrin",
+        "short_name": "Ahmed A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sohel, Md",
+        "short_name": "Sohel M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Tabassum, Fahmida",
+        "short_name": "Tabassum F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sarker, Saborni",
+        "short_name": "Sarker S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Agriculture, Bangladesh Agricultural University, Mymensingh, 2202, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Al Ashik, Sheikh Abdullah",
+        "short_name": "Al Ashik SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Khanam, Roksana",
+        "short_name": "Khanam R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mahmud, Shahin",
+        "short_name": "Mahmud S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail-1902, Bangladesh. shahin018mbstu@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Sep 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 06:33",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "42656942",
+      "42466468",
+      "42090396",
+      "41920244",
+      "41839676",
+      "41439000",
+      "41386881"
+    ],
+    "refs": [
+      "40496069",
+      "39417505",
+      "39065740",
+      "38722032",
+      "38694404",
+      "38507850",
+      "38489072",
+      "38287075",
+      "38164076",
+      "37986224",
+      "37953279",
+      "37943830",
+      "37943175",
+      "37920974",
+      "37713619",
+      "36910986",
+      "36850007",
+      "36694243",
+      "36594187",
+      "36430729",
+      "36370105",
+      "36144783",
+      "35325185",
+      "35167862",
+      "34970579",
+      "34903783",
+      "34885716",
+      "34726823",
+      "34716354",
+      "34615640",
+      "33839742",
+      "33548266",
+      "33402709",
+      "33237593",
+      "33122849",
+      "33085945",
+      "32968059",
+      "32866514",
+      "32734663",
+      "31882993",
+      "31691821",
+      "31680165",
+      "31441146",
+      "31167359",
+      "31114875",
+      "31106366",
+      "31073071",
+      "30931480",
+      "30914796",
+      "30808672",
+      "30678221",
+      "30371825",
+      "29962088",
+      "29034071",
+      "28940711",
+      "28886628",
+      "28782607",
+      "28758971",
+      "28256516",
+      "28041801",
+      "27899662",
+      "27899610",
+      "27860196",
+      "26481362",
+      "26376137",
+      "26113989",
+      "25994840",
+      "25860834",
+      "25855013",
+      "25633781",
+      "25618350",
+      "25521941",
+      "24792161",
+      "24578792",
+      "23613521",
+      "23532439",
+      "23132118",
+      "22927351",
+      "22902823",
+      "22732129",
+      "22489715",
+      "21118915",
+      "20648493",
+      "19880497",
+      "19644473",
+      "18610749",
+      "17947979",
+      "17724726",
+      "17692029",
+      "16737614",
+      "16053712",
+      "15027865",
+      "11752352",
+      "10502596",
+      "9129038"
+    ],
+    "similar": [
+      "41006797",
+      "41082569",
+      "39602994",
+      "39251712",
+      "36995071",
+      "34830393",
+      "39392050",
+      "34299222",
+      "40346763",
+      "32547322",
+      "23497456",
+      "21802138",
+      "35895695",
+      "40361130",
+      "26055960",
+      "34486940",
+      "37948293",
+      "31462456",
+      "40202412",
+      "41126239",
+      "39733588",
+      "31217189",
+      "39885312",
+      "39648426",
+      "32272419",
+      "33213500",
+      "37926079",
+      "39113090",
+      "24708856",
+      "32315388",
+      "33393294",
+      "40779824",
+      "35033885",
+      "38507850",
+      "36809943",
+      "31102119",
+      "40738921",
+      "33831397",
+      "29187377",
+      "31207462",
+      "41003845",
+      "38542393",
+      "37959773",
+      "32314599",
+      "28576946",
+      "32393312",
+      "27773927",
+      "35364561",
+      "40007185",
+      "41380441",
+      "28450419",
+      "30703688",
+      "40080290",
+      "28421420",
+      "39636243",
+      "33797247",
+      "31533545",
+      "31103903",
+      "38978049",
+      "24582753",
+      "31919040",
+      "34853270",
+      "39400022",
+      "31088841",
+      "39236794",
+      "24619500",
+      "39698883",
+      "28516360",
+      "33691697",
+      "29743719",
+      "39331039",
+      "29059168",
+      "27266526",
+      "28673394",
+      "29463558",
+      "41261300",
+      "24408321",
+      "39094274",
+      "38871487",
+      "25677073",
+      "23613268",
+      "41044331",
+      "25976987",
+      "21417961",
+      "33391463",
+      "31548092",
+      "38641704",
+      "32283751",
+      "34479037",
+      "31395303",
+      "38109128",
+      "32589720",
+      "39459257",
+      "22902823",
+      "36403191",
+      "30568173",
+      "27748173",
+      "40446548",
+      "28799432",
+      "40033499"
+    ],
+    "review": [
+      "41006797",
+      "41126239",
+      "39733588",
+      "33213500",
+      "31207462",
+      "32314599",
+      "28576946",
+      "28421420",
+      "31533545",
+      "28673394",
+      "39094274",
+      "23613268",
+      "21417961",
+      "31395303",
+      "27748173",
+      "28799432"
+    ],
+    "pmc": [
+      "12474914"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-18547-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41006797/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MPO-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3375",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

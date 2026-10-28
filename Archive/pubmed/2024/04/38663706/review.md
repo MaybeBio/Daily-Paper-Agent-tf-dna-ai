@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that Cu(II) and V(V) complexes of N-p-tolylbenzohydroxamic acid bind DNA via groove binding, supported by UV absorption, fluorescence displacement assays, viscometry, molecular docking, and molecular dynamics simulations. They further report in vitro cytotoxicity against MCF-7 breast cancer cells with 71% and 74% inhibition for the Cu and V complexes, respectively.
+- **Visible evidence base** Abstract text only; no numerical data, spectra, docking scores, simulation trajectories, or experimental protocols are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, compound characterization data, and raw computational outputs
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible but incompletely supported case for groove binding and cytotoxic activity of two metal complexes. The core claims are directionally consistent with the stated techniques, but the absence of quantitative data, statistical treatment, and methodological detail prevents verification of the conclusions. The work may be of interest to bioinorganic chemists, but the evidence base as presented is insufficient to establish the claims with confidence.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, metal-based drug design, and DNA-targeting anticancer agents would find the results relevant. The combination of experimental and computational approaches for DNA binding and cytotoxicity screening aligns with ongoing efforts to develop non-platinum metal complexes as therapeutic candidates.
+- **Major strengths** The abstract integrates multiple complementary techniques for DNA binding assessment, which strengthens the internal consistency of the groove binding claim. The inclusion of molecular dynamics simulations adds a time-resolved dimension that is often absent in similar studies. The use of a clinically relevant breast cancer cell line enhances translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The abstract claims that both complexes are "strong groove binders" and that "potential cytotoxic activities" were observed with 71% and 74% inhibition.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative binding constants, IC50 values, or dose-response data are reported. The inhibition percentages are presented without corresponding concentrations, replicates, or statistical error. The term "strong" is not supported by any numerical threshold or comparative reference.
+  - **Why it matters** Without quantitative parameters, the strength of DNA binding and the cytotoxic efficacy cannot be evaluated against established standards or compared with other compounds. The claim of "strong" binding and "potential" activity is therefore not verifiable.
+  - **Resolution test** Provide binding constants (e.g., Kb from UV titration), IC50 values with confidence intervals, and full dose-response curves with statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The abstract states that molecular docking revealed L2Cu binds in the minor groove and L2VOCl in the major groove, and that molecular dynamics simulation showed stable interaction over 20 ns.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No docking scores, binding energies, or simulation stability metrics (e.g., RMSD, RMSF, binding free energy) are reported. The claim that "bonding features were intrinsically preserved" is not supported by any quantitative trajectory analysis.
+  - **Why it matters** Computational results are only meaningful when accompanied by scoring functions, convergence criteria, and stability measures. Without these, the docking and simulation claims cannot be assessed for validity or reproducibility.
+  - **Resolution test** Report docking scores for both complexes, RMSD and RMSF plots from simulations, and binding free energy calculations (e.g., MM-PBSA) to substantiate the stability claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor
+  - **Claim pointer** The abstract claims that UV absorption, fluorescence displacement, and viscometry all support groove binding.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify the DNA sequence used, buffer conditions, or concentration ranges. The fluorescence displacement assay is described only qualitatively, and no Stern-Volmer constants or binding site sizes are given. Viscometric data are mentioned without any quantitative values.
+  - **Why it matters** Groove binding versus intercalation is a nuanced distinction that requires careful control experiments and quantitative analysis. The absence of experimental details prevents the reader from evaluating whether the techniques were applied correctly and whether alternative binding modes were excluded.
+  - **Resolution test** Provide full experimental conditions, quantitative parameters from each assay, and appropriate positive and negative controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** IC50 statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "IC(50) values of showing 71 % and 74 % of inhibition" is grammatically unclear and conflates IC50 with percent inhibition.
+  - **Required correction** Rewrite to state the actual IC50 values and the corresponding inhibition percentages at a specified concentration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Cytotoxicity context
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** No comparison with a positive control (e.g., cisplatin) or untreated cells is mentioned, and the selectivity of the complexes for cancer cells over normal cells is not addressed.
+  - **Required correction** Include positive control data and, if available, selectivity indices or normal cell viability results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Strong groove binders"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "strong" is subjective and not defined by any quantitative criterion in the abstract.
+  - **Required correction** Replace with a quantitative descriptor or cite a comparative standard.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative binding data, computational scoring metrics, and experimental details collectively prevents verification of the central claims.
+- **Assessment against Nature-style criteria** Originality: The combination of Cu and V complexes with a hydroxamic acid ligand for DNA binding and anticancer activity is not clearly novel, as similar metal-hydroxamate systems have been explored. Scientific importance: The potential for non-platinum metal-based anticancer agents is relevant, but the abstract does not demonstrate a significant advance over existing knowledge. Interdisciplinary readership: The work bridges coordination chemistry, biophysics, and cancer biology, which could appeal to a broad audience if fully substantiated. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative data is a major limitation. Readability for nonspecialists: The abstract is generally accessible but uses technical terms without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but require substantial additional quantitative data and methodological detail to be verified. A supportive posture would be contingent on the full manuscript addressing the major concerns identified.
+
+## Risk / unsupported claims
+- The claim that both complexes are "strong groove binders" is unsupported without quantitative binding constants or comparative data.
+- The claim of "potential cytotoxic activities" with 71% and 74% inhibition is unverifiable without dose-response data, IC50 values, and statistical analysis.
+- The molecular docking claim of specific groove selectivity (minor versus major) is unsupported without docking scores or binding poses.
+- The molecular dynamics claim of stable interaction over 20 ns is unsupported without trajectory analysis metrics.
+- The overall conclusion that the complexes are promising anticancer candidates is not established from the abstract-level evidence.

@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "41254784",
+    "doi": "10.1186/s12967-025-07297-2",
+    "title": "YBX1 regulation of alveolar type II epithelial cells in idiopathic pulmonary fibrosis: mechanistic insights and small-molecule drug screening."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study aims to systematically elucidate the molecular mechanisms underlying idiopathic pulmonary fibrosis (IPF), with a specific focus on the regulatory role of the nucleic acid-binding protein Y-box binding protein 1 (YBX1) in alveolar type II epithelial cells (AT2) and its association with disease progression. Additionally, the study integrates virtual screening and molecular dynamics (MD) simulations to identify small-molecule compounds targeting YBX1, thereby providing both mechanistic insights and therapeutic candidates for IPF. METHODS: We employed integrative multi-omics analysis and bioinformatics approaches to identify IPF-associated signature genes, construct a diagnostic model and risk scoring system, and establish YBX1 as a central regulatory node. Single-cell RNA sequencing (scRNA-seq) data were used to characterize AT2 cell heterogeneity and developmental trajectories, highlighting the dynamic expression pattern of YBX1 during cell fate transitions. Cell-cell communication analysis elucidated YBX1's potential involvement in immunomodulatory signaling, particularly between AT2 cells and M2 macrophages. Mendelian randomization was applied to infer the causal relationship between YBX1 expression and lung function indices. The expression and functional role of YBX1 were further validated using independent clinical cohorts and in vitro cell models. Structure-based virtual screening was performed to identify candidate compounds targeting YBX1, followed by MD simulations to assess binding stability and infer potential mechanisms of action. RESULTS: YBX1 emerged as a key molecular signature of IPF with strong diagnostic potential and a prominent role in modulating immune cell infiltration. scRNA-seq revealed significant AT2 cell subtype diversity, with YBX1 dynamically expressed along differentiation trajectories. Intercellular communication analysis suggested that YBX1 may mediate indirect signaling between AT2 cells and M2 macrophages, potentially influencing the immune microenvironment and fibrotic progression. Mendelian randomization supported a significant positive causal relationship between YBX1 expression and pulmonary function, suggesting a protective role. Both clinical samples and cell-based assays confirmed YBX1 downregulation in fibrotic lung tissue, and its restoration improved mitochondrial function and enhanced antioxidant capacity. Virtual screening identified several small molecules with high binding affinity to functional domains of YBX1. MD simulations further supported the structural stability of YBX1-ligand complexes and suggested conformational regulation as a potential mechanism of action. CONCLUSION: This study delineates the pivotal role of YBX1 in the pathogenesis of IPF, highlighting its function in maintaining alveolar epithelial cell homeostasis and regulating disease progression. The identification of YBX1-targeting compounds through virtual screening and MD simulations offers a rational framework for the development of targeted therapies, advancing the translational potential of YBX1 as a diagnostic and therapeutic target in IPF.",
+    "keywords": [
+      "Alveolar type II epithelial cells",
+      "Idiopathic pulmonary fibrosis",
+      "Immune microenvironment",
+      "Molecular dynamics simulation",
+      "Virtual screening",
+      "YBX1"
+    ],
+    "mesh_terms": [
+      "*Idiopathic Pulmonary Fibrosis/drug therapy/genetics/immunology/pathology",
+      "*Alveolar Epithelial Cells/immunology/metabolism/pathology",
+      "Disease Progression",
+      "Molecular Dynamics Simulation",
+      "Multiomics",
+      "Computational Biology/methods",
+      "*Y-Box-Binding Protein 1/antagonists & inhibitors/chemistry/genetics/metabolism",
+      "Single-Cell Gene Expression Analysis",
+      "RNA-Seq",
+      "Gene Expression Regulation",
+      "Cell Communication/genetics/immunology",
+      "Macrophages/immunology",
+      "Mendelian Randomization Analysis",
+      "Cell Line",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Small Molecule Libraries/chemistry/pharmacology",
+      "Datasets as Topic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Yijie",
+        "Li, Jin",
+        "Xie, Yibo",
+        "Wu, Yaming",
+        "Wang, Li",
+        "Ren, Jungang",
+        "Zhang, Zhiqiang",
+        "Yu, Tong",
+        "Jiang, Shuxia",
+        "Shan, Hongli",
+        "Wu, Yun",
+        "Zhou, Yuhong"
+      ],
+      "short_names": [
+        "He Y",
+        "Li J",
+        "Xie Y",
+        "Wu Y",
+        "Wang L",
+        "Ren J",
+        "Zhang Z",
+        "Yu T",
+        "Jiang S",
+        "Shan H",
+        "Wu Y",
+        "Zhou Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+        "Department of Basic Medicine, Institute of Respiratory Research, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+        "Department of Neurology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, P. R. China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+        "Department of Basic Medicine, Institute of Respiratory Research, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+        "Department of Neurology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, P. R. China.",
+        "Department of Neurology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, P. R. China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+        "Department of Pharmacy, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+        "Department of Pharmacy, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+        "Department of Pharmacy, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+        "Shanghai Frontiers Science Research Center for Druggability of Cardiovascular Noncoding RNA, Institute for Frontier Medical Technology, Shanghai University of Engineering Science, Shanghai, 201620, P. R. China.",
+        "Shanghai Frontiers Science Research Center for Druggability of Cardiovascular Noncoding RNA, Institute for Frontier Medical Technology, Shanghai University of Engineering Science, Shanghai, 201620, P. R. China.",
+        "Shanghai Frontiers Science Research Center for Druggability of Cardiovascular Noncoding RNA, Institute for Frontier Medical Technology, Shanghai University of Engineering Science, Shanghai, 201620, P. R. China.",
+        "Department of Neurology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, P. R. China. wuyun7770@163.com.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China. zyh2023@xmmc.edu.cn.",
+        "Department of Basic Medicine, Institute of Respiratory Research, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China. zyh2023@xmmc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Yijie",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+          "Department of Basic Medicine, Institute of Respiratory Research, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+          "Department of Neurology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Jin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+          "Department of Basic Medicine, Institute of Respiratory Research, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China.",
+          "Department of Neurology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yibo",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yaming",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Ren, Jungang",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhiqiang",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yu, Tong",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Research Center for Druggability of Cardiovascular Noncoding RNA, Institute for Frontier Medical Technology, Shanghai University of Engineering Science, Shanghai, 201620, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Shuxia",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Research Center for Druggability of Cardiovascular Noncoding RNA, Institute for Frontier Medical Technology, Shanghai University of Engineering Science, Shanghai, 201620, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Shan, Hongli",
+        "short_name": "Shan H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Research Center for Druggability of Cardiovascular Noncoding RNA, Institute for Frontier Medical Technology, Shanghai University of Engineering Science, Shanghai, 201620, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yun",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, P. R. China. wuyun7770@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuhong",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China. zyh2023@xmmc.edu.cn.",
+          "Department of Basic Medicine, Institute of Respiratory Research, Xiamen Medical College, Xiamen, Fujian, 361023, P. R. China. zyh2023@xmmc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Nov 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 06:32",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [
+      "42620461"
+    ],
+    "refs": [
+      "40287490",
+      "40222273",
+      "39788632",
+      "39740399",
+      "39727969",
+      "39433746",
+      "39265192",
+      "39013860",
+      "38956023",
+      "38783236",
+      "38683564",
+      "38491375",
+      "38272714",
+      "38255791",
+      "38177310",
+      "38167627",
+      "37474714",
+      "37290675",
+      "36512307",
+      "36506471",
+      "36238561",
+      "36034129",
+      "35908503",
+      "35609983",
+      "35126134",
+      "35039756",
+      "34976785",
+      "34625532",
+      "34545085",
+      "34459391",
+      "34282755",
+      "34278794",
+      "33597522",
+      "33321570",
+      "33068037",
+      "32764479",
+      "32712053",
+      "32710623",
+      "32692579",
+      "32596346",
+      "32561888",
+      "32317643",
+      "32288960",
+      "32076369",
+      "31740819",
+      "31504423",
+      "31284687",
+      "31118567",
+      "30899105",
+      "30890159",
+      "30560893",
+      "30257675",
+      "30171860",
+      "30168753",
+      "30013972",
+      "29914354",
+      "29409532",
+      "28821630",
+      "28694385",
+      "28679163",
+      "28476144",
+      "27575817",
+      "26982353",
+      "26545398",
+      "26238484",
+      "26050253",
+      "25822800",
+      "25605792",
+      "25159953",
+      "25043054",
+      "24682828",
+      "24362405",
+      "23297332",
+      "22455463",
+      "21471066",
+      "20837696",
+      "20427518",
+      "19850947",
+      "16478745",
+      "11686863"
+    ],
+    "similar": [
+      "41254784",
+      "41939867",
+      "42475469",
+      "41632363",
+      "42024670",
+      "34132117",
+      "42001075",
+      "41088915",
+      "42096940",
+      "39062997",
+      "41438766",
+      "37559532",
+      "40380180",
+      "42400038",
+      "40665394",
+      "41408564",
+      "39991151",
+      "41764494",
+      "39896814",
+      "42074286",
+      "41731859",
+      "40091050",
+      "41716413",
+      "40782923",
+      "41532065",
+      "41562054",
+      "41738207",
+      "40767540",
+      "42292364",
+      "38625722",
+      "39547519",
+      "41955235",
+      "42486346",
+      "40502982",
+      "42245670",
+      "40749611",
+      "41191606",
+      "42112343",
+      "41699549",
+      "42362788",
+      "40916281",
+      "34873597",
+      "41776090",
+      "42087896",
+      "39012710",
+      "39695952",
+      "42051490",
+      "38759312",
+      "39519222",
+      "40187620",
+      "38887981",
+      "41237696",
+      "39874886",
+      "40308576",
+      "39261509",
+      "41771338",
+      "39838395",
+      "41940976",
+      "42263871",
+      "28986417",
+      "42465776",
+      "42096291",
+      "42085259",
+      "40557159",
+      "39896800",
+      "41387860",
+      "42158856",
+      "41369928",
+      "32991815",
+      "39606797",
+      "42317364",
+      "40294812",
+      "42236612",
+      "40764361",
+      "40692979",
+      "37771586",
+      "41792712",
+      "41685577",
+      "35410432",
+      "31738079",
+      "37985153",
+      "41186507",
+      "39026356",
+      "41436831",
+      "40532220",
+      "30154568",
+      "42444906",
+      "32297676",
+      "41987290",
+      "41740689",
+      "39704195",
+      "41007698",
+      "40369105",
+      "41244106",
+      "42464643",
+      "41665823",
+      "37275887",
+      "40273141",
+      "42154661",
+      "27942595"
+    ],
+    "review": [
+      "41254784",
+      "42464643"
+    ],
+    "pmc": [
+      "12625311"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07297-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41254784/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

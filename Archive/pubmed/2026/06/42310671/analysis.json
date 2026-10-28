@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42310671",
+  "title": "Thermodynamic variations at the HPV E1-E2 interface correlate with clinical risk groups: an in-silico analysis.",
+  "authors": "Fletcher, Sean; Biswas-Fiss, Esther E; Biswas, Subhasis B",
+  "journal": "Virology journal",
+  "published_date": "2026-06-18",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AlphaFold3建模与热力学计算分析HPV E1-E2蛋白复合物界面，虽非典型TF-DNA体系，但涉及蛋白-DNA结合域（E1 DBD）与蛋白-蛋白互作界面，方法可迁移至TF-DNA互作建模，故给6分。",
+  "abstract": "BACKGROUND: Human Papillomavirus (HPV) infection is a leading cause of human cancers, including nearly all cases of cervical cancer. The viral life cycle and its associated oncogenic potential are critically dependent on the replication of the viral genome, a process driven by the viral E1 protein. Its central role and high degree of sequence conservation within the enzymatic core provide a structural rationale for targeted therapies. METHODS: A comprehensive in silico analysis was conducted to investigate the structural and functional roles of the HPV E1 protein using a multi-scale computational workflow. E1 sequences from the Papillomavirus Episteme database underwent multiple sequence alignment to delineate evolutionary relationships and identify conserved residues. Structural modeling using AlphaFold3 generated high-resolution models of E1 in complex with E2 and as hexameric assemblies. These models were subjected to thermodynamic profiling to calculate predicted binding energies (DeltaG) and interface geometry and solvation. Finally, a logistic regression framework evaluated the predictive power of these parameters in distinguishing oncogenic risk. RESULTS: The C-terminal helicase was identified as the most highly conserved region, with near-universal invariance in key catalytic motifs essential for ATP binding and hydrolysis. In contrast, the N-terminal regulatory region exhibited greater sequence divergence. Structural mapping onto the E1 DNA-binding domain (DBD) and the hexameric helicase assembly revealed that conserved residues cluster near DNA-recognition surfaces of the DBD and the interaction surface for the E2 regulatory protein. Thermodynamic analysis revealed an energetic distinction between High-Risk (HR) and Low-Risk (LR) types. LR E1-E2 complexes exhibited higher predicted stability (DeltaG =  - 25.65 kcal/mol) compared to HR complexes (DeltaG =  - 20.95 kcal/mol; P < 0.001). Receiver Operating Characteristic analysis demonstrated that E1-E2 binding energy has strong discriminative ability within this dataset (AUC = 0.875). CONCLUSIONS: The extensive conservation of E1's core enzymatic machinery highlights its indispensable function. However, thermodynamic variations at the E1-E2 interface correlate with distinct clinical risk groups. These in silico findings provide a framework for understanding functional sites in the E1-E2 complex and identify the recruitment interface as thermodynamically distinct between classes of pathogenicity. These results motivate future experimental validation of E1-E2 binding kinetics.",
+  "abstract_zh": "背景：人乳头瘤病毒（HPV）感染是人类癌症的主要诱因，包括几乎所有宫颈癌病例。病毒生命周期及其相关致癌潜力关键依赖于病毒基因组的复制，这一过程由病毒E1蛋白驱动。其核心作用及酶促核心内的高度序列保守性为靶向治疗提供了结构基础。方法：采用多尺度计算工作流程，进行了全面的计算机模拟分析，以研究HPV E1蛋白的结构和功能角色。从乳头瘤病毒Episteme数据库中获取的E1序列经过多重序列比对，以描绘进化关系并识别保守残基。使用AlphaFold3进行的结构建模生成了E1与E2复合物及六聚体组装的高分辨率模型。这些模型经过热力学分析，以计算预测结合能（DeltaG）、界面几何和溶剂化。最后，采用逻辑回归框架评估这些参数在区分致癌风险中的预测能力。结果：C端解旋酶被确定为最保守区域，关键催化基序在ATP结合和水解中几乎普遍不变。相比之下，N端调控区域表现出更大的序列差异。结构映射到E1 DNA结合域（DBD）和六聚体解旋酶组装上，显示保守残基聚集在DBD的DNA识别表面和E2调控蛋白相互作用表面附近。热力学分析揭示了高风险（HR）和低风险（LR）类型之间的能量差异。LR E1-E2复合物表现出更高的预测稳定性（DeltaG = -25.65 kcal/mol），而HR复合物为（DeltaG = -20.95 kcal/mol；P < 0.001）。受试者工作特征分析表明，E1-E2结合能在此数据集内具有强区分能力（AUC = 0.875）。结论：E1核心酶促机制的广泛保守性突显了其不可或缺的功能。然而，E1-E2界面处的热力学变异与不同临床风险组相关。这些计算机模拟发现为理解E1-E2复合物中的功能位点提供了框架，并识别出招募界面在致病性类别间具有热力学差异。这些结果激励了未来对E1-E2结合动力学的实验验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42310671/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42310671/",
+  "paper_page_path": "papers/pubmed/42310671/index.html"
+}

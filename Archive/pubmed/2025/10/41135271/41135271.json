@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "41135271",
+    "doi": "10.1016/j.phymed.2025.157413",
+    "title": "Dihydroartemisinin alleviates sepsis-associated encephalopathy by reducing microglial iron accumulation and mitochondrial dysfunction via HIF1A/HMOX1 pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis-associated encephalopathy (SAE) refers to acute brain dysfunction caused by sepsis without direct central nervous system infection, in which microglia plays a pivotal role. Microglial ferroptosis is one of the key drivers of SAE. Dihydroartemisinin (DHA) is a natural product with anti-inflammatory effects and associated with ferroptosis. However, no current studies indicating that DHA plays a role in SAE or microglial ferroptosis, and further exploration is needed. OBJECTIVE: To investigate therapeutic effects of DHA on SAE induced by caecal ligation and puncture (CLP), and its regulation of microglial ferroptosis. METHODS: Network pharmacology, transcriptome sequencing, and bioinformatics were used to identify potential pathways and core DHA targets for SAE treatment. Molecular docking, molecular dynamics simulations (MDS) and Surface plasmon resonance (SPR) were performed to validate these targets. Models were created in vitro and in vivo utilizing lipopolysaccharide (LPS)-stimulated BV2 cells and CLP, respectively, to assess the therapeutic benefits of DHA. The in vivo therapeutic effectiveness of DHA was assessed using behavioral tests, survival analysis, and hematoxylin and eosin and Nissl staining. To validate important pathways and targets, RT-qPCR, immunofluorescence, Western blotting, ELISA, and flow cytometry were used. RESULTS: Network pharmacology identified 70 key therapeutic targets for AAL-SAE. After transcriptome sequencing analysis, 10 potential core targets of DHA for SAE treatment were identified. Molecular docking, MDS and SPR indicated DHA exhibited strong binding energy with HIF1A and formed a stable complex. Liquid chromatography-mass spectrometry (LC/MS) indicated DHA pass through the blood-brain barrier (BBB) to hippocampus and exert its effects. Animal experiments demonstrated that DHA improved the survival rate and alleviated sepsis scores, cognitive dysfunction, and neuroinflammation in SAE mice. DHA suppressed increased HIF1A and HMOX1 expression and reduced that of SLC7A11 and GPX4 in SAE mice hippocampus. Cell experiments revealed that DHA inhibited pro-inflammatory cytokine secretion and reduced migration in BV2 cells. Furthermore, DHA inhibited LPS-induced ferroptosis (evidenced by lipid peroxidation, Fe(2)(+), and ROS levels) and mitochondrial dysfunction (evidenced by TMRE and mtDNA content). Additionally, DHA suppressed LPS-induced HIF1A and HMOX1 upregulation while promoting SLC7A11 and GPX4 downregulation in microglia. CONCLUSION: DHA alleviates cognitive dysfunction in SAE mice by reducing iron accumulation and mitochondrial dysfunction in hippocampal microglia through HIF1A/HMOX1 downregulation pathway and upregulation of SLC7A11/GPX4 pathway.",
+    "keywords": [
+      "Dihydroartemisinin",
+      "HIF1A",
+      "HMOX1",
+      "Iron accumulation",
+      "Mitochondrial dysfunction",
+      "Sepsis-associated encephalopathy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Artemisinins/pharmacology",
+      "*Microglia/drug effects/metabolism",
+      "Mice",
+      "Mitochondria/drug effects/metabolism",
+      "*Sepsis-Associated Encephalopathy/drug therapy/metabolism",
+      "Male",
+      "Ferroptosis/drug effects",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Iron/metabolism",
+      "Molecular Docking Simulation",
+      "Mice, Inbred C57BL",
+      "Cell Line",
+      "Membrane Proteins/metabolism",
+      "Signal Transduction/drug effects",
+      "Disease Models, Animal",
+      "Sepsis/complications",
+      "Heme Oxygenase-1"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gong, Hailong",
+        "Liu, Huifan",
+        "Yuan, Min",
+        "Jing, Guoqing",
+        "Xia, Yun",
+        "Zuo, Jing",
+        "Zhou, Huimin",
+        "Wu, Die",
+        "Yang, Cheng",
+        "Wang, Xing",
+        "Aidebaike, Delida",
+        "Du, Xueke",
+        "Song, Xuemin",
+        "Wu, Xiaojing"
+      ],
+      "short_names": [
+        "Gong H",
+        "Liu H",
+        "Yuan M",
+        "Jing G",
+        "Xia Y",
+        "Zuo J",
+        "Zhou H",
+        "Wu D",
+        "Yang C",
+        "Wang X",
+        "Aidebaike D",
+        "Du X",
+        "Song X",
+        "Wu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China; Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Department of Anesthesiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Province 530007, China. Electronic address: duxueke@gxmu.edu.cn.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China. Electronic address: xueminsong@whu.edu.cn.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China. Electronic address: rm000851@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gong, Hailong",
+        "short_name": "Gong H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China; Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Huifan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Min",
+        "short_name": "Yuan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Guoqing",
+        "short_name": "Jing G",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Yun",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Jing",
+        "short_name": "Zuo J",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huimin",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Die",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Cheng",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xing",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Aidebaike, Delida",
+        "short_name": "Aidebaike D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Du, Xueke",
+        "short_name": "Du X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi Province 530007, China. Electronic address: duxueke@gxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Xuemin",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China. Electronic address: xueminsong@whu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaojing",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China. Electronic address: rm000851@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/25 00:30",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "42614594",
+      "42602308",
+      "42511677",
+      "42444025",
+      "41908943",
+      "41496909"
+    ],
+    "refs": [],
+    "similar": [
+      "41135271",
+      "39362015",
+      "38685023",
+      "38484667",
+      "39216299",
+      "39400418",
+      "41241125",
+      "39396427",
+      "40350824",
+      "41109045",
+      "41167535",
+      "31898571",
+      "37796401",
+      "36214461",
+      "35660523",
+      "39236454",
+      "41072780",
+      "38822984",
+      "39326131",
+      "41038286",
+      "38640713",
+      "40500776",
+      "40903700",
+      "38735091",
+      "40885235",
+      "38650148",
+      "36963264",
+      "40970326",
+      "40102948",
+      "41254325",
+      "39985040",
+      "39749958",
+      "40779707",
+      "41451920",
+      "36401983",
+      "41024113",
+      "36608000",
+      "39187743",
+      "40115159",
+      "39151100",
+      "38976956",
+      "34711216",
+      "35103290",
+      "40016173",
+      "39791542",
+      "31075263",
+      "36435787",
+      "37926114",
+      "38952086",
+      "35367313",
+      "39547500",
+      "37475042",
+      "31686986",
+      "39538358",
+      "38212494",
+      "41187650",
+      "39508266",
+      "39106713",
+      "36171629",
+      "35131015",
+      "40461202",
+      "40663499",
+      "40010556",
+      "38320682",
+      "40359890",
+      "33992722",
+      "40102346",
+      "33867332",
+      "40784585",
+      "40325331",
+      "40812513",
+      "32517686",
+      "38729511",
+      "37801894",
+      "31519193",
+      "40581164",
+      "38395217",
+      "36906561",
+      "40819945",
+      "40865405",
+      "33862114",
+      "39959930",
+      "41307757",
+      "37648002",
+      "39642461",
+      "26924896",
+      "36812790",
+      "32350570",
+      "40834508",
+      "38037161",
+      "40795617",
+      "37009158",
+      "39581576",
+      "39082291",
+      "38287311",
+      "39190359",
+      "35460837",
+      "33773206",
+      "41152139",
+      "39800242"
+    ],
+    "review": [
+      "41135271"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)01028-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/iron.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Iron"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

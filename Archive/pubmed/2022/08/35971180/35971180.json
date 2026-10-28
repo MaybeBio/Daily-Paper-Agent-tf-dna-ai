@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "35971180",
+    "doi": "10.1186/s13059-022-02723-w",
+    "title": "BindVAE: Dirichlet variational autoencoders for de novo motif discovery from accessible chromatin."
+  },
+  "content": {
+    "abstract": "We present a novel unsupervised deep learning approach called BindVAE, based on Dirichlet variational autoencoders, for jointly decoding multiple TF binding signals from open chromatin regions. BindVAE can disentangle an input DNA sequence into distinct latent factors that encode cell-type specific in vivo binding signals for individual TFs, composite patterns for TFs involved in cooperative binding, and genomic context surrounding the binding sites. On the task of retrieving the motifs of expressed TFs in a given cell type, BindVAE is competitive with existing motif discovery approaches.",
+    "keywords": [
+      "ATAC-seq",
+      "Dirichlet",
+      "Motifs",
+      "Transcription factor",
+      "VAE",
+      "Variational autoencoders",
+      "k-mers"
+    ],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Chromatin",
+      "Chromatin Immunoprecipitation",
+      "Nucleotide Motifs",
+      "Protein Binding/genetics",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kshirsagar, Meghana",
+        "Yuan, Han",
+        "Ferres, Juan Lavista",
+        "Leslie, Christina"
+      ],
+      "short_names": [
+        "Kshirsagar M",
+        "Yuan H",
+        "Ferres JL",
+        "Leslie C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4673-614X",
+        "ORCID: 0000-0002-9636-9376",
+        "ORCID: 0000-0002-4571-5910"
+      ],
+      "affiliations": [
+        "Microsoft, AI for Good Research Lab, Redmond, WA, USA. meghana.kshirsagar@microsoft.com.",
+        "Calico Life Sciences, South San Francisco, CA, USA.",
+        "Microsoft, AI for Good Research Lab, Redmond, WA, USA.",
+        "Memorial Sloan Kettering Cancer Center, New York, NY, USA. cleslie@cbio.mskcc.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kshirsagar, Meghana",
+        "short_name": "Kshirsagar M",
+        "identifiers": [
+          "0000-0002-4673-614X"
+        ],
+        "affiliations": [
+          "Microsoft, AI for Good Research Lab, Redmond, WA, USA. meghana.kshirsagar@microsoft.com."
+        ]
+      },
+      {
+        "full_name": "Yuan, Han",
+        "short_name": "Yuan H",
+        "identifiers": [
+          "0000-0002-9636-9376"
+        ],
+        "affiliations": [
+          "Calico Life Sciences, South San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ferres, Juan Lavista",
+        "short_name": "Ferres JL",
+        "identifiers": [],
+        "affiliations": [
+          "Microsoft, AI for Good Research Lab, Redmond, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Leslie, Christina",
+        "short_name": "Leslie C",
+        "identifiers": [
+          "0000-0002-4571-5910"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, NY, USA. cleslie@cbio.mskcc.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2022 Aug 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/16 06:00",
+    "fetched_at": "2026-09-28 12:22:24"
+  },
+  "links": {
+    "cites": [
+      "40210440",
+      "39829741",
+      "39207727",
+      "38913893",
+      "38654130",
+      "37962376",
+      "37582793"
+    ],
+    "refs": [
+      "33603233",
+      "33538820",
+      "31510661",
+      "31406384",
+      "30531897",
+      "29588361",
+      "28186491",
+      "28167566",
+      "28061806",
+      "27197224",
+      "27084946",
+      "26550823",
+      "26301843",
+      "26083756",
+      "26016777",
+      "25215497",
+      "25033408",
+      "24097267",
+      "23332764",
+      "22992523",
+      "22955984",
+      "21988835",
+      "21330290",
+      "20513432",
+      "19193149",
+      "17324271",
+      "11928508",
+      "9862982",
+      "9719638",
+      "9520501",
+      "7584402"
+    ],
+    "similar": [
+      "35971180",
+      "38654130",
+      "37805453",
+      "22955984",
+      "22955990",
+      "26016777",
+      "31742324",
+      "27993786",
+      "32424069",
+      "34285090",
+      "29654070",
+      "28334916",
+      "22534400",
+      "35681170",
+      "31053165",
+      "38214231",
+      "31723409",
+      "39796242",
+      "39402535",
+      "38643066",
+      "29325176",
+      "38966997",
+      "24335146",
+      "26291518",
+      "25433490",
+      "35240993",
+      "23748563",
+      "20870645",
+      "23203885",
+      "22863112",
+      "39326643",
+      "28718849",
+      "21486936",
+      "30133315",
+      "26971251",
+      "37486787",
+      "30726880",
+      "22189060",
+      "25927199",
+      "34465294",
+      "28240320",
+      "28957653",
+      "24564528",
+      "26552868",
+      "26490019",
+      "33975951",
+      "38940155",
+      "34272562",
+      "35858748",
+      "34488759",
+      "39695228",
+      "19158363",
+      "29748466",
+      "23461573",
+      "40754687",
+      "23790213",
+      "40848288",
+      "22955979",
+      "37650641",
+      "24853928",
+      "28472398",
+      "25215497",
+      "26818008",
+      "30696696",
+      "34524404",
+      "38987807",
+      "25361952",
+      "25957350",
+      "32660981",
+      "25199791",
+      "30380113",
+      "24441470",
+      "24927817",
+      "23805837",
+      "28750606",
+      "30598689",
+      "24322294",
+      "19956545",
+      "29267972",
+      "40795153",
+      "31138617",
+      "36094959",
+      "34607350",
+      "25179504",
+      "33603233",
+      "28538187",
+      "39944799",
+      "25428352",
+      "25108460",
+      "32825662",
+      "26160164",
+      "34544361",
+      "25486472",
+      "30660610",
+      "29281953",
+      "39413205",
+      "31093693",
+      "29621972",
+      "26411866",
+      "19652015"
+    ],
+    "review": [
+      "35971180",
+      "31742324",
+      "23790213",
+      "25486472"
+    ],
+    "pmc": [
+      "9380350"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02723-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35971180/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35971180",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

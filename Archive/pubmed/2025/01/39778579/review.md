@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, STAR Methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no external data or supplementary figures were available for inspection
+- **Shared manuscript claim summary** The authors present an active learning framework that iteratively trains classifiers to distinguish enhancers, silencers, and inactive sequences bound by the photoreceptor transcription factor CRX in the developing mouse retina. They report that active learning more than doubles model performance relative to training on genomic data alone, and that the resulting model learns sequence context features that discriminate between identical CRX motifs with opposite regulatory functions.
+- **Visible evidence base** Main text figures referenced (Figures 1-5, S1-S5), STAR Methods descriptions, and in-text quantitative statements; no actual figure panels, data tables, or supplementary files were available
+- **Missing materials affecting confidence** All figure panels, supplementary tables (Table S1, S2), data files (Data S1, S2), and the Transparent Peer Review record; without these, quantitative claims cannot be independently verified
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant problem in regulatory genomics: why identical transcription factor binding sites can have opposite effects on gene expression. The active learning approach is conceptually novel and well-motivated, and the iterative coupling of uncertainty sampling with synthetic MPRA libraries represents a thoughtful experimental design. The reported performance gains are substantial, and the model's ability to discover a functionally important NR1-family motif that was missed by conventional enrichment analysis is a compelling demonstration of the method's utility. However, the provided text alone does not permit full verification of the quantitative claims, and several methodological details require clarification. The claims of "catastrophic forgetting" and the generalizability of the approach beyond CRX would benefit from stronger evidence. Overall, the work is potentially important and of broad interest, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and gene regulation would be the primary audience. The work is also relevant to those studying photoreceptor biology and retinal development, as well as method developers interested in active learning applications in genomics. The demonstration that active learning can overcome the limitations of genomic training data has implications for any cis-regulatory modeling effort, and the finding that models can learn context-dependent TF effects addresses a long-standing challenge in the field.
+- **Major strengths** (1) The problem is well-defined and important: distinguishing enhancers from silencers with identical TF motifs is a fundamental challenge. (2) The active learning framework is a principled and innovative solution that directly addresses the data limitation problem. (3) The comparison between uncertainty sampling and random sampling provides a rigorous test of the active learning hypothesis. (4) The model's ability to identify a novel NR1-family motif that was not found by standard enrichment analysis is a strong, concrete validation. (5) The experimental confirmation of model predictions through targeted perturbations strengthens the claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "After two rounds of active learning, the performance of the SVM nearly doubled" and "performance increased by 53% relative to the Round 3 dataset" for the CNN
+  - **Evidence pointer** Figure 1B, 1D; location not provided
+  - **Concern** The quantitative performance claims are presented without the actual values, error bars, or statistical significance tests. The text states performance "nearly doubled" and "increased by 53%" but does not report the baseline values, the confidence intervals, or the number of replicates. Without these details, the magnitude and reliability of the improvement cannot be assessed.
+  - **Why it matters** The central claim of the paper is that active learning improves model performance. If the performance gains are not robustly quantified and statistically validated, the entire premise of the method is weakened.
+  - **Resolution test** Provide the actual performance metrics (e.g., F1 scores, accuracy) for each round and each model, with error bars and statistical tests (e.g., paired t-tests or bootstrap confidence intervals) comparing active learning to random sampling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We then used uncertainty sampling to generate additional rounds of informative training data" and the description of the active learning loop
+  - **Evidence pointer** Figure 1A, STAR Methods "Active learning"; location not provided
+  - **Concern** The description of the active learning loop is incomplete. The text states that candidate sequences are generated by in silico perturbation and filtered by a k-mer SVM for photoreceptor open chromatin, but the details of how the uncertainty sampling interacts with the classifier's probability outputs are not fully specified. Specifically, it is unclear how the "uncertainty" is calculated for the four-class classifier (e.g., entropy across all four classes vs. margin between top two), and how the trade-off between exploration and exploitation is managed across rounds.
+  - **Why it matters** The reproducibility of the method depends on a complete specification of the active learning algorithm. Without this, other researchers cannot implement or evaluate the approach.
+  - **Resolution test** Provide a detailed pseudocode or algorithmic description of the active learning loop, including the exact uncertainty metric, the sampling strategy, and the criteria for selecting sequences for synthesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability
+  - **Claim pointer** "The model learned to distinguish CRX motifs with different effects" and "the model learned the effects of other TF motifs enriched in photoreceptor CREs"
+  - **Evidence pointer** Figures 2, 3; location not provided
+  - **Concern** The interpretation of the model's learned features relies on importance scores and in silico perturbation analyses, but the text does not describe how these scores are validated against ground truth. For example, the claim that the model "correctly predicted" the repressive effect of homotypic CRX clusters is based on comparison to previous experiments, but the quantitative agreement (e.g., effect sizes, correlation coefficients) is not reported. Similarly, the discovery of the NR1-family motif is compelling, but the text does not state how many other motifs were tested or how the significance threshold was set.
+  - **Why it matters** The biological insights derived from the model are a key contribution. If the interpretation methods are not rigorously validated, the biological claims may be overstated.
+  - **Resolution test** Provide quantitative comparisons between model predictions and experimental measurements (e.g., correlation coefficients, effect sizes) for the key findings in Figures 2 and 3. Describe the statistical framework for identifying significant importance scores.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Active learning is a broadly applicable and effective strategy for learning the impact of sequence context on TF binding sites"
+  - **Evidence pointer** Discussion; location not provided
+  - **Concern** The generalizability claim is based on a single TF (CRX) in a single tissue (retina). The text does not discuss potential limitations of the approach for other TFs, other cell types, or other assay systems. For example, the reliance on a k-mer SVM filter for photoreceptor open chromatin may not transfer to other contexts, and the four-class discretization of activity may not be appropriate for all regulatory elements.
+  - **Why it matters** The broader impact of the work depends on its applicability beyond the specific system studied. Overstating generalizability without evidence could mislead readers.
+  - **Resolution test** Discuss the potential limitations and requirements for applying the method to other systems, or provide preliminary evidence from a second TF or cell type.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** STAR Methods, "CNN classifiers of MPRA activity"
+  - **Evidence pointer** STAR Methods; location not provided
+  - **Issue** The sentence "We fit the model for 500 epochs using the default learning rate scheduler in Selene and kept the model with the lowest loss on a held-out validation set" contains a typographical error: "for We fit the model" should read "We fit the model."
+  - **Required correction** Remove the extraneous "for" at the beginning of the sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** STAR Methods, "Analysis of MPRA data from K562 cells"
+  - **Evidence pointer** STAR Methods; location not provided
+  - **Issue** The text states "The folds are:" but does not list the folds or describe how they were constructed beyond "based on chromosomal origin." This is insufficient for reproducibility.
+  - **Required correction** Provide the actual fold assignments or a detailed description of how chromosomes were partitioned into folds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Model performance more than doubles with active learning"
+  - **Evidence pointer** Figure 1C; location not provided
+  - **Issue** The comparison between uncertainty sampling and random sampling is described qualitatively ("outperformed"), but no statistical test is reported. Given the stochastic nature of both the sampling and the model training, it is important to know whether the difference is significant.
+  - **Required correction** Report the statistical significance of the difference between uncertainty and random sampling, or provide confidence intervals for the performance metrics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "The model identifies discriminative features between CREs with similar TF binding sites"
+  - **Evidence pointer** Figure 4; location not provided
+  - **Issue** The text describes the analysis of two active/inactive sequence pairs but does not state how these pairs were selected. Were they chosen randomly, or were they selected to be representative? This could introduce selection bias.
+  - **Required correction** Describe the criteria for selecting the sequence pairs and discuss any potential selection bias.
+- **Technical failings that need to be addressed before the case is established** (1) The quantitative performance metrics (F1 scores, PCC values) are reported without confidence intervals or statistical tests, making it impossible to assess the reliability of the reported improvements. (2) The active learning algorithm is not fully specified, preventing reproduction. (3) The validation of the model's biological interpretations (importance scores, motif predictions) lacks quantitative comparison to experimental data. (4) The K562 benchmarking analysis is described but the results are not presented in the text, making it impossible to evaluate the generalizability claims.
+- **Assessment against Nature-style criteria** Originality: High. The application of active learning to cis-regulatory element modeling is novel and addresses a recognized limitation of current approaches. Scientific importance: High. The ability to distinguish enhancers from silencers with identical TF motifs is a fundamental problem in regulatory genomics, and the approach could be broadly applicable. Interdisciplinary readership: Moderate to high. The work bridges computational biology, genomics, and developmental biology, and the findings on photoreceptor gene regulation are relevant to vision research. Technical soundness: Moderate. The experimental design is thoughtful, but the incomplete specification of the active learning algorithm and the lack of statistical rigor in the performance comparisons weaken the technical case. Readability for nonspecialists: Good. The text is generally clear and well-organized, with appropriate context for the biological problem. However, some methodological details (e.g., the k-mer SVM filter, the uncertainty sampling calculations) may be challenging for readers without a computational background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is innovative and the preliminary results are promising, but the current manuscript does not provide sufficient quantitative evidence to fully establish the claims. The authors should provide complete performance metrics with statistical tests, a detailed specification of the active learning algorithm, and quantitative validation of the biological interpretations.
+
+## Risk / unsupported claims
+- The claim that active learning "more than doubled" model performance cannot be verified without the actual F1 scores and statistical tests.
+- The claim that the model "correctly predicted" the repressive effect of homotypic CRX clusters is not quantitatively supported in the text.
+- The claim that the NR1-family motif is "necessary and sufficient" for enhancer activity is based on a small number of experimental perturbations and may not be generalizable.
+- The claim that active learning is "broadly applicable" is not supported by evidence from other TFs or cell types.
+- The K562 benchmarking results are mentioned but not presented, making the generalizability claims unverifiable.
+- The statement that "uncertainty sampling oversamples active training examples" is presented as a finding, but the mechanism and implications are not fully explored.

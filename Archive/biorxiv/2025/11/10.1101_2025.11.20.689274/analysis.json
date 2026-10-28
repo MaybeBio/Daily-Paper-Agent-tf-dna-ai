@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.20.689274",
+  "title": "Dissecting sequence determinants of DNA methylation and in silico perturbation",
+  "authors": "Chen F; Zhang Q; Zhu S; Liang J; Zhong S; Zhang Z; Su J; Guo Y; Fan X; Zhang Y; Yu F",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-20",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型MethylAI从DNA序列预测CpG甲基化状态，并通过归因分析揭示转录因子基序对甲基化的调控，虽非直接建模TF-DNA结合，但涉及TF基序与DNA序列的调控关系，方法可迁移至TF-DNA互作研究。",
+  "abstract": "DNA methylation shapes cellular identity and genome function, yet the sequence logic that governs its establishment remains largely unresolved. Here we present MethylAI, a cross-species–pretrained and human-specialized deep learning framework that predicts single-CpG methylation states directly from genomic sequence with high fidelity. Through quantitative attribution, MethylAI uncovers intrinsic cis-regulatory principles embedded in DNA, revealing conserved transcription factor (TF) motifs whose influence extends beyond CpG composition. Activated motifs demarcate gene-body CpG islands, encode lineage-defining methylation states, and align with TF occupancy and diverse histone modifications, thereby linking sequence syntax to local chromatin regulation. CTCF perturbation experiments validated MethylAI-predicted methylation shifts at activated motifs, showing strong concordance with in silico perturbations. Mapping genetic variants onto methylation-linked active motifs further uncovered widespread connections to zinc-finger TF families, providing mechanistic insight into how noncoding variation contributes to human traits and diseases. By transforming DNA sequence into interpretable methylation grammar, MethylAI establishes a generalizable framework for decoding the regulatory architecture of the human epigenome.",
+  "abstract_zh": "DNA甲基化塑造细胞身份和基因组功能，然而调控其建立的序列逻辑在很大程度上仍未解决。在此，我们提出MethylAI，一个跨物种预训练且人类特化的深度学习框架，能够直接从基因组序列高保真地预测单CpG甲基化状态。通过定量归因，MethylAI揭示了嵌入DNA中的内在顺式调控原则，发现保守的转录因子（TF）基序，其影响超越CpG组成。激活的基序界定基因体CpG岛，编码谱系定义的甲基化状态，并与TF占据及多种组蛋白修饰对齐，从而将序列语法与局部染色质调控联系起来。CTCF扰动实验验证了MethylAI在激活基序处预测的甲基化变化，与计算机模拟扰动表现出高度一致性。将遗传变异映射到甲基化关联的激活基序上，进一步揭示了与锌指TF家族的广泛联系，为非编码变异如何促成人类性状和疾病提供了机制性见解。通过将DNA序列转化为可解释的甲基化语法，MethylAI建立了一个用于解码人类表观基因组调控架构的通用框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689274",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689274",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.20.689274/index.html"
+}

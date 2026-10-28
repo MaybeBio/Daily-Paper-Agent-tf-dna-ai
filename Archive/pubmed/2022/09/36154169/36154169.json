@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "36154169",
+    "doi": "10.1021/acs.jcim.2c00374",
+    "title": "Molecular Screening and Toxicity Estimation of 260,000 Perfluoroalkyl and Polyfluoroalkyl Substances (PFASs) through Machine Learning."
+  },
+  "content": {
+    "abstract": "Perfluoroalkyl and polyfluoroalkyl substances (PFASs) are a class of chemicals widely used in industrial applications due to their exceptional properties and stability. However, they do not readily degrade in the environment and are linked to contamination and adverse health effects in humans and wildlife. To find alternatives for the most commonly used PFAS molecules that maintain their desirable chemical properties but are not adverse to biological lifeforms, a novel approach based upon machine learning is utilized. The machine learning model is trained on an existing set of PFAS molecules to generate over 260,000 novel PFAS molecules, which we dub PFAS-AI-Gen. Using molecular descriptors with known relationships to toxicity and industrial suitability followed by molecular docking and molecular dynamics simulations, this set of molecules is screened. In this manner, increasingly complex calculations are performed only for candidate molecules that are most likely to yield the desired properties of low binding affinity toward two selected protein receptors, the human pregnane x receptor (hPXR) and peroxisome proliferator-activated receptor gamma (PPAR-gamma), and high industrial suitability, defined by critical micelle concentration (CMC). The selection criteria of low binding affinity and high industrial suitability are relative to the popular PFAS alternative GenX. hPXR and PPAR-gamma are selected as they are PFAS targets and facilitate a variety of functions, such as drug metabolism and glucose regulation, respectively. Through this approach, 22 promising new PFAS substitutes that may warrant experimental investigation are identified. This integrated approach of molecular screening and toxicity estimation may be applicable to other chemical classes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Fluorocarbons/chemistry/toxicity",
+      "Glucose",
+      "Humans",
+      "Machine Learning",
+      "Micelles",
+      "Molecular Docking Simulation",
+      "PPAR gamma",
+      "Pregnane X Receptor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lai, Thanh T",
+        "Kuntz, David",
+        "Wilson, Angela K"
+      ],
+      "short_names": [
+        "Lai TT",
+        "Kuntz D",
+        "Wilson AK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9500-1628"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Michigan State University, East Lansing, Michigan 48823, United States.",
+        "Department of Chemistry, Michigan State University, East Lansing, Michigan 48823, United States.",
+        "Department of Chemistry, Michigan State University, East Lansing, Michigan 48823, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lai, Thanh T",
+        "short_name": "Lai TT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Michigan State University, East Lansing, Michigan 48823, United States."
+        ]
+      },
+      {
+        "full_name": "Kuntz, David",
+        "short_name": "Kuntz D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Michigan State University, East Lansing, Michigan 48823, United States."
+        ]
+      },
+      {
+        "full_name": "Wilson, Angela K",
+        "short_name": "Wilson AK",
+        "identifiers": [
+          "0000-0001-9500-1628"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Michigan State University, East Lansing, Michigan 48823, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Oct 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/27 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "42637957",
+      "42145585",
+      "40625561",
+      "40066943",
+      "40050647",
+      "39879214",
+      "39453156",
+      "38860110",
+      "37235245"
+    ],
+    "refs": [],
+    "similar": [
+      "36154169",
+      "33228354",
+      "38134352",
+      "32795691",
+      "33887376",
+      "37513249",
+      "39125814",
+      "31661253",
+      "34873727",
+      "30632786",
+      "37219003",
+      "38394616",
+      "38781329",
+      "34905348",
+      "36677537",
+      "37990410",
+      "37947020",
+      "37186812",
+      "33498193",
+      "32540561",
+      "38518100",
+      "34480479",
+      "35643010",
+      "37126916",
+      "36282672",
+      "38591134",
+      "32251969",
+      "31219125",
+      "39245376",
+      "34624590",
+      "24924660",
+      "31877453",
+      "31733970",
+      "25812627",
+      "32812200",
+      "36178797",
+      "39298512",
+      "34662613",
+      "38402985",
+      "32271623",
+      "34695511",
+      "38936709",
+      "25467694",
+      "32717635",
+      "36207486",
+      "35356147",
+      "36345062",
+      "31280095",
+      "29807261",
+      "33542707",
+      "31146223",
+      "34142548",
+      "31332417",
+      "32891021",
+      "32443272",
+      "25528239",
+      "29958117",
+      "34763303",
+      "35364415",
+      "34018735",
+      "34364217",
+      "35569538",
+      "35662637",
+      "28038421",
+      "33858085",
+      "28857218",
+      "31679856",
+      "38014292",
+      "32717490",
+      "31099564",
+      "36274547",
+      "28864880",
+      "27988902",
+      "38776814",
+      "24216232",
+      "32807188",
+      "35843426",
+      "34756980",
+      "32717646",
+      "26925752",
+      "30711792",
+      "33249833",
+      "26980285",
+      "29897239",
+      "32013415",
+      "34854167",
+      "32062968",
+      "34090141",
+      "29916808",
+      "33369775",
+      "33652875",
+      "34307722",
+      "38025956",
+      "37523843",
+      "38473932",
+      "36850973",
+      "35850385",
+      "35869846",
+      "36826506",
+      "38343928",
+      "37714648",
+      "33462239",
+      "36642648"
+    ],
+    "review": [
+      "36154169",
+      "34873727",
+      "33498193",
+      "34480479",
+      "35643010",
+      "37126916",
+      "24924660",
+      "32812200",
+      "36178797",
+      "38936709",
+      "35356147",
+      "31280095",
+      "33542707",
+      "34142548",
+      "35569538",
+      "24216232",
+      "34756980"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c00374",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

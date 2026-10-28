@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "36299898",
+    "doi": "10.3389/fphar.2022.1031759",
+    "title": "Hybrid_DBP: Prediction of DNA-binding proteins using hybrid features and convolutional neural networks."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBP) play an essential role in the genetics and evolution of organisms. A particular DNA sequence could provide underlying therapeutic benefits for hereditary diseases and cancers. Studying these proteins can timely and effectively understand their mechanistic analysis and play a particular function in disease prevention and treatment. The limitation of identifying DNA-binding protein members from the sequence database is time-consuming, costly, and ineffective. Therefore, efficient methods for improving DBP classification are crucial to disease research. In this paper, we developed a novel predictor Hybrid _DBP, which identified potential DBP by using hybrid features and convolutional neural networks. The method combines two feature selection methods, MonoDiKGap and Kmer, and then used MRMD2.0 to remove redundant features. According to the results, 94% of DBP were correctly recognized, and the accuracy of the independent test set reached 91.2%. This means Hybrid_ DBP can become a useful prediction tool for predicting DBP.",
+    "keywords": [
+      "CC-PSSM",
+      "DNA-binding proteins",
+      "MRMD2.0",
+      "convolutional neural network",
+      "kmer",
+      "monoDiKGap"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Shaoyou",
+        "Peng, Dejun",
+        "Zhu, Wen",
+        "Liao, Bo",
+        "Wang, Peng",
+        "Yang, Dongxuan",
+        "Wu, Fangxiang"
+      ],
+      "short_names": [
+        "Yu S",
+        "Peng D",
+        "Zhu W",
+        "Liao B",
+        "Wang P",
+        "Yang D",
+        "Wu F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+        "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+        "School of Mathematics and Statistics, Hainan Normal University, Haikou, China.",
+        "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+        "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+        "School of Mathematics and Statistics, Hainan Normal University, Haikou, China.",
+        "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+        "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+        "School of Mathematics and Statistics, Hainan Normal University, Haikou, China.",
+        "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+        "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+        "School of Mathematics and Statistics, Hainan Normal University, Haikou, China.",
+        "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+        "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+        "School of Mathematics and Statistics, Hainan Normal University, Haikou, China.",
+        "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+        "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+        "School of Mathematics and Statistics, Hainan Normal University, Haikou, China.",
+        "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+        "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+        "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Shaoyou",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+          "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+          "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Dejun",
+        "short_name": "Peng D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+          "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+          "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Wen",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+          "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+          "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Bo",
+        "short_name": "Liao B",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+          "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+          "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Peng",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+          "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+          "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Dongxuan",
+        "short_name": "Yang D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+          "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+          "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Fangxiang",
+        "short_name": "Wu F",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Computational Science and Application of Hainan Province, Haikou, China.",
+          "Key Laboratory of Data Science and Intelligence Education, Hainan Normal University, Ministry of Education, Haikou, China.",
+          "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/28 06:00",
+    "fetched_at": "2026-09-28 15:21:55"
+  },
+  "links": {
+    "cites": [
+      "40596835",
+      "38867522"
+    ],
+    "refs": [
+      "33986992",
+      "33746373",
+      "33227813",
+      "32827670",
+      "32775434",
+      "32723847",
+      "31344547",
+      "31319963",
+      "31116390",
+      "30850831",
+      "29908156",
+      "29522900",
+      "28643394",
+      "28113908",
+      "27894771",
+      "26482832",
+      "26209431",
+      "25958395",
+      "25184541",
+      "24475169",
+      "21935457",
+      "19911048",
+      "19385697",
+      "18515839",
+      "18390576",
+      "18042272",
+      "16551468",
+      "15943476",
+      "11104519",
+      "9254694",
+      "9160492"
+    ],
+    "similar": [
+      "36299898",
+      "34916947",
+      "35378437",
+      "31228283",
+      "37437362",
+      "32920048",
+      "33238837",
+      "31513916",
+      "34912382",
+      "30866736",
+      "33410688",
+      "35768792",
+      "35066812",
+      "35246878",
+      "34000983",
+      "31208331",
+      "36049552",
+      "30419785",
+      "34033879",
+      "36211019",
+      "31722485",
+      "34176069",
+      "33993559",
+      "35325031",
+      "34836494",
+      "36166351",
+      "21342579",
+      "33767912",
+      "33639834",
+      "32298689",
+      "35652477",
+      "32599617",
+      "28245811",
+      "15720719",
+      "34854319",
+      "17275170",
+      "27565741",
+      "35799660",
+      "35768759",
+      "33617347",
+      "34208262",
+      "31288752",
+      "31418627",
+      "30808287",
+      "34198392",
+      "34770528",
+      "33670112",
+      "35018928",
+      "19439068",
+      "33636312",
+      "30452385",
+      "33581335",
+      "19091029",
+      "35310582",
+      "27907159",
+      "30321541",
+      "35366041",
+      "34291709",
+      "33477866",
+      "33380334",
+      "32535960",
+      "31323206",
+      "35676617",
+      "27475771",
+      "31132373",
+      "35242211",
+      "32899242",
+      "28222011",
+      "31725778",
+      "36100415",
+      "34814256",
+      "27245069",
+      "33334313",
+      "22574904",
+      "15686526",
+      "31267738",
+      "33535061",
+      "28961273",
+      "31394773",
+      "34915158",
+      "33801894",
+      "31409473",
+      "37226687"
+    ],
+    "review": [
+      "36299898",
+      "34916947"
+    ],
+    "pmc": [
+      "9589247"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36299898/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36299898",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2022.1031759",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

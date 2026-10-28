@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of 36 AT-hook motif nuclear localized (AHL) genes in apple, their phylogenetic classification into two clades, expression profiling showing preferential expression in flowers and leaves, and functional characterization of MdAHL6 as a negative regulator of flowering. They propose a mechanistic module in which MdAHL6 binds AT-rich regions to repress MdFT expression, with the class II knotted-like transcription factor MdKNOX19 enhancing this repression through physical interaction.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, accession numbers, and supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a comprehensive gene family analysis combined with functional characterization of a candidate flowering regulator in apple. The work addresses a relevant question in perennial fruit tree biology and proposes a novel regulatory module. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental evidence, the statistical robustness of the expression data, or the functional significance of the proposed MdKNOX19-MdAHL6-MdFT module. Several claims require verification against the full dataset.
+- **Who would be interested in the results, and why** Researchers studying flowering time regulation in perennial plants, particularly those working on apple and other Rosaceae species. The identification of a new regulatory module involving AHL and KNOX transcription factors may also interest plant developmental biologists studying conserved flowering pathways. The gene family analysis will be useful for comparative genomics studies of AHL genes across plant species.
+- **Major strengths** The study combines genome-wide identification with functional validation, providing both breadth and depth. The proposed mechanism integrates transcriptional repression with protein-protein interaction, offering a more complete regulatory model. The use of multiple complementary assays (Y1H, EMSA, GUS, molecular docking, Y2H, pull-down, BiFC) strengthens the evidence for direct binding and interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Overexpression of MdAHL6 resulted in shortened hypocotyls and delayed flowering by regulating hypocotyl- and floral-related genes."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that MdAHL6 overexpression causes delayed flowering, but provides no quantitative data on the extent of delay, the experimental system used (transgenic apple, heterologous system such as Arabidopsis, or transient assays), or the statistical significance of the phenotype. The claim that flowering is delayed "by regulating hypocotyl- and floral-related genes" implies a causal link that requires demonstration of specific gene expression changes and their functional relevance.
+  - **Why it matters** The phenotypic consequence of MdAHL6 overexpression is a central claim of the study. Without details on the experimental system, the magnitude of the effect, and the statistical support, the reader cannot assess whether the observed phenotype is robust or biologically meaningful. The causal relationship between gene regulation and phenotype must be clearly established.
+  - **Resolution test** Provide details on the overexpression system, quantitative phenotypic data with statistical analysis, and expression data for the proposed target genes in the overexpression lines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "MdAHL6 directly binds to AT-rich regions, inhibiting the expression of FLOWERING LOCUS T (MdFT)."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports that Y1H, EMSA, GUS activity, and molecular docking assays demonstrate direct binding of MdAHL6 to AT-rich regions and inhibition of MdFT expression. However, no information is provided on the specific binding sites identified, the affinity of binding, the promoter region of MdFT examined, or whether the GUS reporter assays were performed in a relevant physiological context. Molecular docking is a computational method and its results should be clearly distinguished from experimental binding data.
+  - **Why it matters** The direct repression of MdFT by MdAHL6 is the core mechanistic claim. The strength of this claim depends on the quality and consistency of the binding and reporter assays. If the binding sites are not well-defined or the reporter assays lack appropriate controls, the conclusion may be overstated.
+  - **Resolution test** Specify the MdFT promoter region used, the identified binding motifs, binding affinities from EMSA, and include appropriate controls for the GUS assays. Clarify the role of molecular docking as supporting rather than confirmatory evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interaction significance
+  - **Claim pointer** "MdKNOX19... significantly enhances the inhibitory effect of MdAHL6 on MdFT expression."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the physical interaction between MdAHL6 and MdKNOX19 enhances the inhibitory effect on MdFT expression, but provides no quantitative measure of this enhancement. The functional consequence of the interaction is asserted without presenting data on how the interaction changes MdFT expression levels, whether the effect is additive or synergistic, or whether the interaction affects DNA binding, protein stability, or transcriptional activity.
+  - **Why it matters** The proposed MdKNOX19-MdAHL6-MdFT module depends on the functional significance of the protein-protein interaction. Without quantitative data demonstrating enhanced repression, the biological relevance of the interaction remains speculative.
+  - **Resolution test** Provide quantitative expression data for MdFT in the presence of MdAHL6 alone, MdKNOX19 alone, and both together, with appropriate statistical analysis. Include mechanistic experiments to explain how the interaction enhances repression.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Gene family classification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that 36 MdAHL genes were grouped into "two distinct clades" but does not specify the basis for this classification or how it compares to AHL gene phylogenies in other species.
+  - **Required correction** Briefly describe the phylogenetic method and the criteria for clade assignment, and note whether the two-clade structure is consistent with AHL gene families in other plants.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Comprehensive analysis"
+  - **Evidence pointer** Title and abstract
+  - **Issue** The title claims a "comprehensive analysis" but the abstract does not indicate whether the analysis includes all known AHL domains, alternative splicing variants, or non-coding AHL-related sequences.
+  - **Required correction** Clarify the scope of the gene family analysis or adjust the title to reflect the actual coverage.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Functional significance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not discuss how the proposed MdKNOX19-MdAHL6-MdFT module relates to known flowering pathways in apple or other species, such as the role of MdFT in apple flowering or the conservation of AHL-KNOX interactions.
+  - **Required correction** Add a brief statement placing the findings in the context of existing knowledge of flowering regulation in apple and other perennials.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological detail to establish the phenotypic effect of MdAHL6 overexpression, the direct binding and repression of MdFT, or the functional significance of the MdAHL6-MdKNOX19 interaction.
+- **Assessment against Nature-style criteria** Originality: The proposed MdKNOX19-MdAHL6-MdFT module appears novel, but the abstract does not provide enough context to assess how this advances beyond existing AHL gene studies in other species. Scientific importance: Flowering time regulation in apple is of practical and fundamental interest, but the significance of the proposed module for apple breeding or for understanding perennial flowering remains unclear from the abstract. Interdisciplinary readership: The work will primarily interest plant molecular biologists and horticultural researchers; broader appeal is not evident from the abstract. Technical soundness: The use of multiple assays is commendable, but the abstract lacks the detail needed to evaluate the quality and controls of these experiments. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient explanation for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible mechanism, but the lack of quantitative data, methodological detail, and experimental context prevents assessment of whether the claims are fully supported. A full review of the manuscript would be required to determine if the evidence meets the standards for publication.
+
+## Risk / unsupported claims
+- The claim that MdAHL6 overexpression causes delayed flowering is unsupported without details on the experimental system and quantitative phenotype data.
+- The claim that MdAHL6 directly binds to AT-rich regions and inhibits MdFT expression requires verification of the binding assays and reporter experiments.
+- The claim that MdKNOX19 significantly enhances the inhibitory effect of MdAHL6 on MdFT expression is unsupported without quantitative data.
+- The statement that the study "lays a theoretical foundation for future functional exploration" is an interpretive claim that cannot be evaluated from the abstract alone.
+- The classification of 36 MdAHL genes into two clades and the expression analysis are reported without statistical or methodological detail, making these claims unverifiable from the provided material.

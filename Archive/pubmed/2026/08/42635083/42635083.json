@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "42635083",
+    "doi": "10.1155/ancp/6756766",
+    "title": "Deciphering HPV-Associated Immune Evasion in Cervical Cancer Through Multi-Omics Profiling and Computational Screening."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Human papillomavirus (HPV) infection is a major contributor to cervical cancer (CC), yet the molecular mechanisms driving HPV-associated immune evasion remain largely undefined. METHODS: Bulk RNA-seq (The Cancer Genome Atlas [TCGA]-CESC) and single-cell RNA-seq datasets (GSE171894, GSE197461) were analyzed to elucidate transcriptional and immune landscape differences between HPV-positive and HPV-negative cervical tumors. Differentially expressed genes (DEGs) were identified using DESeq2. Functional enrichment analyses were conducted through gene set enrichment analysis (GSEA), gene ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) methodologies. Immune evasion feature genes were selected employing LASSO, Random Forest, and SVM-RFE techniques. Regulatory networks for transcription factors and miRNAs were constructed. Immune infiltration was evaluated using CIBERSORT and ssGSEA. Validation of key signature genes was performed in CC cell lines (HeLa, SiHa, C33A, and W12) via real-time quantitative polymerase chain reaction (RT-qPCR) and Western blot. The functional roles of IFNGR1 were examined through siRNA-mediated knockdown, complemented by CCK-8, colony formation, Transwell migration/invasion, and flow cytometry apoptosis assays. RESULTS: A total of 6266 DEGs effectively differentiated HPV-positive from HPV-negative tumors. HPV-positive tumors exhibited enrichment in viral infection and immune response pathways, while HPV-negative tumors demonstrated activation of oncogenic signaling. Machine learning algorithms identified IFNGR1, TRADD, and PSMB9 as immune evasion feature genes associated with HPV. Regulatory network analysis emphasized IRF1/IRF2 and several miRNAs as critical modulators. Immune infiltration analysis indicated increased infiltration of Dendritic and Plasma cells in HPV-positive tumors, correlating with TRADD expression. Kaplan-Meier analysis further showed a trend toward worse overall survival among HPV-positive patients with high IFNGR1 expression (hazard ratio [HR] = 1.78, 95% confidence interval [CI]: 0.86-3.68; log-rank p = 0.113). Notably, IFNGR1 was significantly upregulated in HPV-positive CC cell lines at both mRNA and protein levels. IFNGR1 knockdown markedly inhibited proliferation, colony formation, migration, and invasion, while enhancing apoptosis in HeLa and SiHa cells, thereby confirming its essential role in the progression of HPV-associated CC. CONCLUSION: This study identified IFNGR1 as a key immune evasion-related gene in HPV-positive CC, elucidating its regulatory network and functional contributions, while positioning it as a potential therapeutic target for HPV-associated tumors.",
+    "keywords": [
+      "IFNGR1",
+      "cervical neoplasms",
+      "human papillomavirus infections",
+      "immune evasion",
+      "single-cell analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Uterine Cervical Neoplasms/virology/genetics/immunology/pathology",
+      "*Immune Evasion/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Computational Biology/methods",
+      "*Human Papillomavirus Viruses/immunology",
+      "Multiomics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "*Papillomavirus Infections/immunology/virology/genetics",
+      "MicroRNAs/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Cell Movement/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Rui",
+        "He, Wenting",
+        "Liu, Xia",
+        "Zhang, Na"
+      ],
+      "short_names": [
+        "Guo R",
+        "He W",
+        "Liu X",
+        "Zhang N"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-5609-2698"
+      ],
+      "affiliations": [
+        "Department of Dermatology, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China, nxmu.edu.cn.",
+        "Health Management Center, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China, nxmu.edu.cn.",
+        "Department of Dermatology, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China, nxmu.edu.cn.",
+        "Department of Obstetrics and Gynecology, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China, nxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Rui",
+        "short_name": "Guo R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China, nxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "He, Wenting",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "Health Management Center, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China, nxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Xia",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China, nxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Na",
+        "short_name": "Zhang N",
+        "identifiers": [
+          "0009-0006-5609-2698"
+        ],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, People's Hospital of Ningxia Hui Autonomous Region, Ningxia Medical University, Yinchuan, China, nxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical cellular pathology (Amsterdam)"
+    ],
+    "journal_abbrev": [
+      "Anal Cell Pathol (Amst)"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/24 11:37",
+    "fetched_at": "2026-10-02 04:26:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41208994",
+      "41009776",
+      "40808954",
+      "40781691",
+      "40589959",
+      "40542775",
+      "40130877",
+      "40125348",
+      "39019974",
+      "38903179",
+      "38898085",
+      "38480859",
+      "37686451",
+      "37568665",
+      "36815093",
+      "36387876",
+      "35725012",
+      "35381343",
+      "35280818",
+      "34957212",
+      "34931021",
+      "34498424",
+      "34373557",
+      "34152564",
+      "34124058",
+      "33781867",
+      "33540543",
+      "33344262",
+      "32968282",
+      "31896065",
+      "31792435",
+      "30431097",
+      "29991676",
+      "29608177",
+      "28112728",
+      "28088763",
+      "27909575",
+      "27650455",
+      "26933818",
+      "26351338",
+      "25937813",
+      "25663851",
+      "25265013",
+      "25045656",
+      "24690414",
+      "23323831",
+      "23193258",
+      "20808728",
+      "20473864",
+      "19808652"
+    ],
+    "similar": [
+      "42635083",
+      "41465546",
+      "41035636",
+      "41716413",
+      "41612311",
+      "41291892",
+      "38863714",
+      "36195847",
+      "39181686",
+      "41945968",
+      "30504727",
+      "41106766",
+      "42477639",
+      "32307200",
+      "40313958",
+      "39346086",
+      "41436831",
+      "28160779",
+      "39206965",
+      "37099974",
+      "38949075",
+      "40616092",
+      "40947786",
+      "41146237",
+      "41132349",
+      "39965835",
+      "42216653",
+      "42415251",
+      "42565562",
+      "41413822",
+      "33760214",
+      "41559659",
+      "25675046",
+      "29572030",
+      "40312440",
+      "41388523",
+      "40458391",
+      "27363024",
+      "41102315",
+      "41504052",
+      "38809379",
+      "41814682",
+      "42260337",
+      "39411320",
+      "40898098",
+      "41025546",
+      "42180604",
+      "40124621",
+      "40465781",
+      "42353827",
+      "42107160",
+      "39806429",
+      "42642681",
+      "40764361",
+      "41200172",
+      "32411801",
+      "41456831",
+      "41234865",
+      "41660555",
+      "39733409",
+      "41507992",
+      "42079608",
+      "30964163",
+      "41876199",
+      "41548166",
+      "41872824",
+      "42440646",
+      "34526665",
+      "39108112",
+      "41822488",
+      "40817807",
+      "39586719",
+      "40752830",
+      "41182523",
+      "42123445",
+      "42539625",
+      "40860289",
+      "40918403",
+      "34278492",
+      "41455917",
+      "41351424",
+      "39026663",
+      "40374866",
+      "40898185",
+      "39068529",
+      "40775425",
+      "41006883",
+      "31605132",
+      "42183235",
+      "42143313",
+      "31477279",
+      "39182484",
+      "40613114",
+      "39466354",
+      "42104495",
+      "32046405",
+      "40936758",
+      "42195052",
+      "27044426",
+      "40836320"
+    ],
+    "review": [
+      "42635083",
+      "42216653"
+    ],
+    "pmc": [
+      "13501396"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42635083/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/ancp/6756766",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IFNGR1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

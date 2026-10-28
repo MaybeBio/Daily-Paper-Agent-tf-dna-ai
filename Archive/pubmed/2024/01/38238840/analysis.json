@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38238840",
+  "title": "Structure-primed embedding on the transcription factor manifold enables transparent model architectures for gene regulatory network and latent activity inference.",
+  "authors": "Tjarnberg, Andreas; Beheler-Amass, Maggie; Jackson, Christopher A; Christiaen, Lionel A; Gresham, David; Bonneau, Richard",
+  "journal": "Genome biology",
+  "published_date": "2024-01-19",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于转录因子结构嵌入的自编码器框架SupirFactor，用于基因调控网络推断和转录因子活性估计，虽涉及TF-DNA调控关系但未聚焦三维互作建模，方法可迁移至TF-DNA结合预测。",
+  "abstract": "BACKGROUND: Modeling of gene regulatory networks (GRNs) is limited due to a lack of direct measurements of genome-wide transcription factor activity (TFA) making it difficult to separate covariance and regulatory interactions. Inference of regulatory interactions and TFA requires aggregation of complementary evidence. Estimating TFA explicitly is problematic as it disconnects GRN inference and TFA estimation and is unable to account for, for example, contextual transcription factor-transcription factor interactions, and other higher order features. Deep-learning offers a potential solution, as it can model complex interactions and higher-order latent features, although does not provide interpretable models and latent features. RESULTS: We propose a novel autoencoder-based framework, StrUcture Primed Inference of Regulation using latent Factor ACTivity (SupirFactor) for modeling, and a metric, explained relative variance (ERV), for interpretation of GRNs. We evaluate SupirFactor with ERV in a wide set of contexts. Compared to current state-of-the-art GRN inference methods, SupirFactor performs favorably. We evaluate latent feature activity as an estimate of TFA and biological function in S. cerevisiae as well as in peripheral blood mononuclear cells (PBMC). CONCLUSION: Here we present a framework for structure-primed inference and interpretation of GRNs, SupirFactor, demonstrating interpretability using ERV in multiple biological and experimental settings. SupirFactor enables TFA estimation and pathway analysis using latent factor activity, demonstrated here on two large-scale single-cell datasets, modeling S. cerevisiae and PBMC. We find that the SupirFactor model facilitates biological analysis acquiring novel functional and regulatory insight.",
+  "abstract_zh": "背景：由于缺乏全基因组转录因子活性（TFA）的直接测量，基因调控网络（GRN）的建模受到限制，这使得难以区分协方差与调控相互作用。调控相互作用和TFA的推断需要聚合互补证据。显式估计TFA存在问题，因为它将GRN推断与TFA估计脱节，并且无法考虑例如上下文相关的转录因子-转录因子相互作用及其他高阶特征。深度学习提供了一种潜在解决方案，因为它能够建模复杂相互作用和高阶潜在特征，尽管它不提供可解释的模型和潜在特征。结果：我们提出了一种新颖的基于自编码器的框架，即利用潜在因子活性进行结构启动的调控推断（SupirFactor），用于建模，以及一种度量，即解释相对方差（ERV），用于GRN的解释。我们在广泛的情境中评估了带有ERV的SupirFactor。与当前最先进的GRN推断方法相比，SupirFactor表现良好。我们评估了潜在因子活性作为TFA和生物学功能的估计，在酿酒酵母（S. cerevisiae）以及外周血单核细胞（PBMC）中进行了验证。结论：在此，我们提出了一个用于结构启动的GRN推断和解释的框架SupirFactor，展示了在多种生物学和实验设置中使用ERV的可解释性。SupirFactor利用潜在因子活性实现了TFA估计和通路分析，这在此处通过两个大规模单细胞数据集（建模酿酒酵母和PBMC）得到了验证。我们发现SupirFactor模型促进了生物学分析，获得了新的功能和调控见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38238840/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38238840/",
+  "paper_page_path": "papers/pubmed/38238840/index.html"
+}

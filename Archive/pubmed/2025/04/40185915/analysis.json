@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40185915",
+  "title": "TransBind allows precise detection of DNA-binding proteins and residues using language models and deep learning.",
+  "authors": "Tahmid, Md Toki; Hasan, A K M Mehedi; Bayzid, Md Shamsuzzoha",
+  "journal": "Communications biology",
+  "published_date": "2025-04-05",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 7,
+  "one_liner_zh": "TransBind利用预训练蛋白语言模型和深度学习直接从单序列预测DNA结合蛋白及结合残基，虽非聚焦TF-DNA特异性体系，但属于蛋白-DNA互作结合位点预测且方法可迁移至TF-DNA研究。",
+  "abstract": "Identifying DNA-binding proteins and their binding residues is critical for understanding diverse biological processes, but conventional experimental approaches are slow and costly. Existing machine learning methods, while faster, often lack accuracy and struggle with data imbalance, relying heavily on evolutionary profiles like PSSMs and HMMs derived from multiple sequence alignments (MSAs). These dependencies make them unsuitable for orphan proteins or those that evolve rapidly. To address these challenges, we introduce TransBind, an alignment-free deep learning framework that predicts DNA-binding proteins and residues directly from a single primary sequence, eliminating the need for MSAs. By leveraging features from pre-trained protein language models, TransBind effectively handles the issue of data imbalance and achieves superior performance. Extensive evaluations using diverse experimental datasets and case studies demonstrate that TransBind significantly outperforms state-of-the-art methods in terms of both accuracy and computational efficiency. TransBind is available as a web server at https://trans-bind-web-server-frontend.vercel.app/ .",
+  "abstract_zh": "识别DNA结合蛋白及其结合残基对于理解多种生物过程至关重要，但传统的实验方法既缓慢又昂贵。现有的机器学习方法虽然速度较快，但往往缺乏准确性，并且难以应对数据不平衡问题，严重依赖从多序列比对（MSAs）中衍生的进化特征，如PSSMs和HMMs。这些依赖性使它们不适用于孤儿蛋白或快速进化的蛋白。为解决这些挑战，我们引入了TransBind，一种无比对（alignment-free）的深度学习框架，可直接从单一初级序列预测DNA结合蛋白和残基，无需MSAs。通过利用预训练蛋白质语言模型的特征，TransBind有效处理了数据不平衡问题，并实现了优越的性能。使用多种实验数据集和案例研究的广泛评估表明，TransBind在准确性和计算效率方面均显著优于最先进的方法。TransBind可作为网络服务器访问，网址为 https://trans-bind-web-server-frontend.vercel.app/ 。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40185915/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40185915/",
+  "paper_page_path": "papers/pubmed/40185915/index.html"
+}

@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "40964370",
+    "doi": "10.1101/2025.09.07.670677",
+    "title": "Illuminating the Druggable Human Proteome with an AI Protein Profiling Platform."
+  },
+  "content": {
+    "abstract": "Creating a ligandable atlas for the proteome would transform our understanding of protein functions and accelerate therapeutic discovery; however, proteomic approaches are constrained by insufficient proteome coverage and data heterogeneity, while existing machine learning (ML) models have limited oiwer due to structural dependencies and heterogeneous experimental labels. Here we developed AiPP, a multimodal AI platform that predicts and characterizes ligand interaction sites directly from protein sequence. AiPP is powered by the evolutionary-scale protein large language models (LLMs) and leverages two harmonized ML training sets derived from the new databases comprising cysteine ligandability from activity-based protein profiling (ABPP) studies and reversible binding evidenced from co-crystal structures. We developed a LLM representation based clustering framework to interrogate, reconcile, and augment experimental labels in both databases. Two complementary protocols were implemented to iteratively expand the training data while improving model performance. Although trained exclusively on ABPP data, AiPP recovers 80% (Top-1) of cysteine liganding events from co-crystal structures, with 84% AUPRC and 89% AUROC. AiPP recapitulates consistently and heterogeneously liganded cysteines across cancer cell lines and reliably identifies dynamic, ligandable pockets in \"undruggable\" transcription factors. Remarkably, AiPP accurately predicts active-site and allosteric cysteines in protein tyrosine phosphatases that were undetected by ABPP. Finally, we applied AiPP to the entire human proteome, identifying ligandable sites in proteins that were undetected or unliganded by ABPP, including an allosteric site in MC3R, which is a therapeutic target for treatment of eating disorder and obesity. This proteomewide covalent ligandability atlas (version 1.0) is anticipated to guide future development of chemical probes and pharmaceutical modulators, particularly for understudied proteins and currently undruggable targets. The LLM-based approach to interrogate large-scale heterogeneous data is broadly applicable to protein research and development of proteomics-derived ML models for diverse applications.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dayhoff, Guy W 2nd",
+        "Kortzak, Daniel",
+        "Liu, Ruibin",
+        "Shen, Mingzhe",
+        "Zhang, Zhong-Yin",
+        "Shen, Jana"
+      ],
+      "short_names": [
+        "Dayhoff GW 2nd",
+        "Kortzak D",
+        "Liu R",
+        "Shen M",
+        "Zhang ZY",
+        "Shen J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4271-7125",
+        "ORCID: 0000-0001-9098-3466",
+        "ORCID: 0000-0001-8395-9353",
+        "ORCID: 0000-0001-7461-3764",
+        "ORCID: 0000-0001-5527-7910",
+        "ORCID: 0000-0002-3234-0769"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A.",
+        "Borch Department of Medicinal Chemistry and Molecular Pharmacology, Purdue University, West Lafayette, IN 47907, U.S.A.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dayhoff, Guy W",
+        "short_name": "Dayhoff GW",
+        "identifiers": [
+          "0000-0003-4271-7125"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Kortzak, Daniel",
+        "short_name": "Kortzak D",
+        "identifiers": [
+          "0000-0001-9098-3466"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Liu, Ruibin",
+        "short_name": "Liu R",
+        "identifiers": [
+          "0000-0001-8395-9353"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Shen, Mingzhe",
+        "short_name": "Shen M",
+        "identifiers": [
+          "0000-0001-7461-3764"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhong-Yin",
+        "short_name": "Zhang ZY",
+        "identifiers": [
+          "0000-0001-5527-7910"
+        ],
+        "affiliations": [
+          "Borch Department of Medicinal Chemistry and Molecular Pharmacology, Purdue University, West Lafayette, IN 47907, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Shen, Jana",
+        "short_name": "Shen J",
+        "identifiers": [
+          "0000-0002-3234-0769"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, U.S.A."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/18 06:32",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40583194",
+      "40419519",
+      "40348330",
+      "39956805",
+      "39882632",
+      "39818825",
+      "39780548",
+      "39746958",
+      "39413792",
+      "39138346",
+      "38718835",
+      "38665640",
+      "38653237",
+      "38600184",
+      "38155636",
+      "37738129",
+      "37522378",
+      "37517560",
+      "37451266",
+      "37322008",
+      "37119813",
+      "37072397",
+      "36927031",
+      "36453831",
+      "36334049",
+      "36170674",
+      "35228727",
+      "35224496",
+      "34986311",
+      "34581813",
+      "34265844",
+      "34145245",
+      "34143170",
+      "33470097",
+      "33442901",
+      "33398154",
+      "32730809",
+      "30945531",
+      "30789342",
+      "29443976",
+      "29126136",
+      "28965760",
+      "28648380",
+      "28510428",
+      "28186401",
+      "27977138",
+      "27309814",
+      "26481362",
+      "25461720",
+      "24292485",
+      "23438854",
+      "23060610",
+      "21139605",
+      "21085121",
+      "18781746",
+      "17545978",
+      "15909985",
+      "11700061",
+      "11048948",
+      "10611275"
+    ],
+    "similar": [
+      "40964370",
+      "41255992",
+      "36633073",
+      "33733731",
+      "42475469",
+      "40348330",
+      "38293178",
+      "39746958",
+      "42246097",
+      "37662346",
+      "41482574",
+      "37783940",
+      "39138346",
+      "30105421",
+      "35958111",
+      "42229348",
+      "28445029",
+      "38665640",
+      "40404146",
+      "36484997",
+      "37460812",
+      "40515999",
+      "41463355",
+      "34986311",
+      "41542461",
+      "26854760",
+      "38213795",
+      "42163392",
+      "38118439",
+      "41450654",
+      "36652496",
+      "17545978",
+      "27309814",
+      "40515985",
+      "37285454",
+      "42679164",
+      "42212494",
+      "42239143",
+      "42146579",
+      "37175454",
+      "39780548",
+      "29168484",
+      "34504315",
+      "41478280",
+      "23912807",
+      "42619774",
+      "28355876",
+      "38022804",
+      "20356358",
+      "36321557",
+      "38260327",
+      "37024076",
+      "24111988",
+      "41568722",
+      "37084731",
+      "39294320",
+      "37451266",
+      "33398154",
+      "29686618",
+      "42471645",
+      "40954985",
+      "32109778",
+      "40419519",
+      "39543955",
+      "40578074",
+      "28570708",
+      "39826875",
+      "39052621",
+      "34728376",
+      "17240921",
+      "41567635",
+      "42352887",
+      "40662785",
+      "42734525",
+      "41757055",
+      "25600173",
+      "42093179",
+      "39975019",
+      "30633551",
+      "27598117",
+      "42248851",
+      "42508035",
+      "42594421",
+      "32881211",
+      "30897495",
+      "39480992",
+      "40143108",
+      "35895291",
+      "38337153",
+      "42321189",
+      "32768892",
+      "41051642",
+      "41596767",
+      "38251652",
+      "42159598",
+      "34062128",
+      "41918763",
+      "34251175",
+      "42321836",
+      "37961514"
+    ],
+    "review": [
+      "40964370",
+      "36633073",
+      "33733731",
+      "30105421",
+      "42229348",
+      "40404146",
+      "41463355",
+      "41450654",
+      "37175454",
+      "36321557",
+      "37451266",
+      "29686618",
+      "40954985",
+      "32109778",
+      "40578074",
+      "34728376",
+      "17240921",
+      "42734525",
+      "30633551",
+      "32881211",
+      "30897495",
+      "32768892"
+    ],
+    "pmc": [
+      "12439984"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40964370/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TOP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.07.670677",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

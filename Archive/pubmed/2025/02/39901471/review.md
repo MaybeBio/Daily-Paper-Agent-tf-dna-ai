@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (review article)
+- **Assessment boundary** Scientific content, structure, and claims as presented in the provided manuscript text; no external verification of cited literature was performed
+- **Shared manuscript claim summary** The manuscript is a narrative review arguing that chromatin accessibility is a critical regulator of gene expression in domestic animals, that it has been understudied relative to human and murine models, and that recent advances in assays such as ATAC-seq have enabled progress in understanding development, immunity, and economically important traits across cattle, pigs, chickens, dogs, horses, and goats. The authors further claim that comparative epigenomic approaches and emerging technologies such as single-cell analysis and deep learning are advancing the field, but that more comprehensive datasets and cross-species tools are needed.
+- **Visible evidence base** The manuscript text includes an abstract, introduction, methods description, observations organized by species, and a discussion. It references 88 cited works and includes three figures and one table, though none of the figures or the table are viewable in the provided material.
+- **Missing materials affecting confidence** Figures 1, 2, and 3 and Table 1 are referenced but not provided. The reference list is not included. No supplementary materials were supplied. The absence of these components limits verification of the visual summaries, the completeness of the literature coverage, and the accuracy of specific citations.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a broad, organized overview of chromatin accessibility research in domestic animals, a topic that is relevant and timely given the growth of functional genomics in agricultural species. The authors have assembled a substantial body of literature and structured it logically by species and theme. However, the review is largely descriptive and lacks critical synthesis. It does not clearly articulate what has been learned mechanistically, how findings across species converge or diverge in ways that inform biology, or what specific gaps are most important to fill. The claims in the abstract and discussion are general and sometimes exceed what the presented evidence can support. The manuscript would benefit from a more analytical framework, clearer criteria for literature selection, and a more explicit statement of the review's unique contribution relative to existing reviews.
+- **Who would be interested in the results, and why** Researchers in livestock genomics, animal breeding, veterinary science, and comparative epigenomics would find this review useful as an entry point to the literature. Those working on FAANG-related projects or on regulatory element annotation in non-model species may appreciate the compilation of studies across species. The review may also be of interest to scientists studying chromatin biology in the context of development, immunity, and production traits, as well as to those considering ATAC-seq or related methods in domestic animals.
+- **Major strengths** The manuscript covers a wide range of species and topics, providing a useful survey of the field. The organization by species is clear and accessible. The inclusion of recent studies, including those using single-cell approaches and deep learning, reflects an up-to-date awareness of methodological trends. The authors appropriately note the relative lack of data in domestic animals compared to humans and mice, and they highlight the value of comparative approaches.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for central claim
+  - **Claim pointer** The abstract states that "chromatin accessibility is vital for gene regulation" and that investigating it in domestic animals is "crucial for improving traits such as productivity, disease resistance, and environmental adaptation."
+  - **Evidence pointer** Abstract; Discussion; location not provided
+  - **Concern** The central claim that chromatin accessibility research has direct implications for improving productivity, disease resistance, and environmental adaptation is asserted but not substantiated with specific examples where such improvements have been achieved or where a causal link has been demonstrated. The reviewed studies largely describe correlations between accessibility and gene expression or identify regulatory elements, but the manuscript does not provide evidence that these findings have led to trait improvement or that they have been validated in functional studies.
+  - **Why it matters** The stated relevance of the field rests on this claim. If the link between chromatin accessibility and trait improvement is speculative or aspirational, the review should say so explicitly. Overstating the applied impact weakens the scientific credibility of the manuscript.
+  - **Resolution test** The authors should either provide concrete examples from the cited literature where chromatin accessibility data have been used to alter breeding decisions, improve disease resistance, or enhance adaptation, or they should temper the claim to reflect that these are potential, not established, applications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Critical synthesis
+  - **Claim pointer** The manuscript claims to provide "a comprehensive review" and "insights into regulatory mechanisms that can enhance breeding strategies and animal management."
+  - **Evidence pointer** Abstract; Observations; Discussion; location not provided
+  - **Concern** The review is largely a summary of individual studies with little comparative or critical analysis. For example, the cattle section lists multiple studies on muscle development, immune response, and embryogenesis, but does not synthesize what these findings collectively reveal about the regulatory logic of the bovine genome. Similarly, the pig section describes many studies without explaining how they relate to each other or what unresolved questions remain. The discussion repeats the observations rather than offering new insights.
+  - **Why it matters** A review should do more than catalog findings. Without synthesis, the manuscript does not provide added value beyond the individual papers it summarizes, and it does not help readers understand the state of the field or its key open questions.
+  - **Resolution test** The authors should add a comparative analysis section that identifies common themes, discrepancies, and gaps across species and studies. They should also articulate what is known mechanistically and what remains unknown, and propose specific hypotheses or priorities for future research.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology transparency
+  - **Claim pointer** The Methods section states that "a literature search across electronic databases, including PubMed, Web of Science, and Google Scholar, was conducted" with specified inclusion criteria.
+  - **Evidence pointer** Methods; location not provided
+  - **Concern** The methods description is minimal. It does not specify the search dates, the exact search strings, the number of articles retrieved, the screening process, or how many articles were ultimately included. The inclusion criteria are listed but not operationalized. This makes the review's coverage difficult to assess and potentially non-reproducible.
+  - **Why it matters** For a review to be credible, the literature search should be transparent and reproducible. The current description is too vague to allow readers to understand the scope of the review or to update it in the future.
+  - **Resolution test** The authors should provide a more detailed methods section, including search dates, databases, search terms, inclusion and exclusion criteria, and a flow diagram or table summarizing the screening process and the number of studies included at each stage.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and positioning
+  - **Claim pointer** The introduction states that "no comprehensive review has summarized chromatin accessibility in animals, particularly in domestic species."
+  - **Evidence pointer** Introduction; location not provided
+  - **Concern** The claim of being the first comprehensive review is strong and may be difficult to verify. There are existing reviews on epigenetics in livestock and on ATAC-seq applications in agricultural species. The authors do not discuss how their review differs from or builds upon these prior works.
+  - **Why it matters** If the novelty claim is inaccurate, the manuscript's contribution is overstated. Even if it is accurate, the authors should position their work relative to existing reviews to clarify what new perspective or coverage they provide.
+  - **Resolution test** The authors should cite and discuss prior reviews on related topics and explicitly state what their review adds, whether in scope, depth, or analytical approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses the phrase "reflecting environmental changes" without explaining the mechanism or providing context. This is vague and may confuse readers.
+  - **Required correction** Clarify the sentence to specify that chromatin accessibility is dynamic and can be influenced by environmental factors, and that this is one reason it is of interest in domestic animals.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction; location not provided
+  - **Issue** The term "compartment permeability" is used without definition. It is not a standard term in the chromatin accessibility literature and may be unclear to readers.
+  - **Required correction** Define the term or replace it with more standard terminology, such as "compartmental organization" or "nuclear compartmentalization."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Observations, species sections
+  - **Evidence pointer** Observations; location not provided
+  - **Issue** The depth of coverage varies considerably across species. The cattle and pig sections are detailed, while the horse and goat sections are brief. This imbalance is not explained.
+  - **Required correction** Either expand the horse and goat sections to match the depth of the others, or add a note explaining that the available literature is more limited for these species.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure integration
+  - **Affected element** Figures 1, 2, 3
+  - **Evidence pointer** Figures 1, 2, 3; location not provided
+  - **Issue** The figures are referenced in the text but not described in sufficient detail. It is unclear what information they convey and how they support the narrative.
+  - **Required correction** Add figure legends that clearly describe the content of each figure and how it relates to the text. Ensure each figure is explicitly discussed in the body of the review.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript contains some awkward phrasing and grammatical errors, such as "On the other hand" used repeatedly and sentences that are overly long.
+  - **Required correction** Perform a thorough language edit to improve readability and flow. Consider using "however" or "in contrast" instead of "on the other hand" where appropriate.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Citation accuracy
+  - **Affected element** Reference list
+  - **Evidence pointer** location not provided
+  - **Issue** The reference list is not provided, so it is not possible to verify the accuracy or completeness of the citations. Some in-text citations appear in clusters (e.g., [234], [567], [910]) without clear attribution.
+  - **Required correction** Ensure that each citation is correctly formatted and that the reference list is complete and accurate. Consider using individual citation numbers rather than clusters where possible.
+- **Technical failings that need to be addressed before the case is established** The manuscript does not provide a reproducible literature search methodology, which undermines the claim of being comprehensive. The central claim that chromatin accessibility research has direct implications for trait improvement is not supported by specific examples. The review lacks critical synthesis and does not clearly articulate what is known versus what is speculative. The figures and table are not available for assessment, and the reference list is not provided, limiting verification of the cited literature.
+- **Assessment against Nature-style criteria**  
+  *Originality*: The topic is relevant, but the review does not offer a novel framework or new insights. It is primarily a summary of existing literature, and the claim of being the first comprehensive review is not adequately positioned against prior work.  
+  *Scientific importance*: Chromatin accessibility in domestic animals is an important and growing area, but the manuscript does not make a compelling case for why this specific review advances the field. The potential applications to breeding and health are mentioned but not developed.  
+  *Interdisciplinary readership*: The review could appeal to researchers in animal science, genomics, and veterinary medicine, but the lack of mechanistic depth and critical analysis limits its broader appeal.  
+  *Technical soundness*: The methods are described too vaguely to be assessed for rigor. The absence of figures, table, and references prevents full evaluation.  
+  *Readability for nonspecialists*: The text is generally accessible, but some terms are undefined and the organization could be improved. The abstract is clear but the body of the review is dense and would benefit from clearer signposting.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential as a useful survey, but it requires substantial revision to provide critical synthesis, a transparent methodology, and support for its central claims. I would be supportive if these concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that chromatin accessibility research is "crucial for improving traits such as productivity, disease resistance, and environmental adaptation" is not supported by specific examples in the text.
+- The claim that this is the first comprehensive review of chromatin accessibility in domestic animals is not verifiable without a discussion of prior reviews.
+- The statement that "chromatin accessibility reflects the degree to which the DNA allows DNA-binding proteins to access genomic regions" is presented as a definition but is oversimplified and does not account for the dynamic and context-dependent nature of chromatin structure.
+- The assertion that "comparative analyses further showed that the conservation of regulatory elements correlates with evolutionary distance" is presented as a general finding but is based on a single cited study and may not be broadly generalizable.
+- The claim that "deep learning has facilitated the construction of enhancer models for diseases (e.g., melanoma), enabling the prediction of mutation impacts on enhancer accessibility across multiple species" is not explained in sufficient detail to assess its relevance to domestic animals.
+- The statement that "the chromatin states of dogs had more significant similarities to humans than mice" is presented without context or discussion of its implications.
+- The review does not provide a clear definition of "domestic animals" and includes only a subset of possible species, which may limit the comprehensiveness of the review.

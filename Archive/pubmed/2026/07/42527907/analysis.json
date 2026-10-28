@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42527907",
+  "title": "Residual-stream geometry of single-cell foundation models carries incremental gene-regulatory signal across tissues.",
+  "authors": "Kendiukhov, Ihor",
+  "journal": "BMC bioinformatics",
+  "published_date": "2026-07-30",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用单细胞基础模型（scGPT/Geneformer）的残差流几何特征预测转录因子-靶基因调控边，虽聚焦TF-DNA调控关系且含AI方法，但基于表达数据统计推断而非三维互作建模，缺乏结构/动态机制，故为中档匹配。",
+  "abstract": "BACKGROUND: Single-cell foundation models such as scGPT and Geneformer learn rich representations of gene expression programs, but whether these representations encode gene regulatory relationships beyond expression-level confounds remains unclear. Attention patterns in these models have been shown to capture co-expression rather than direct regulation, leaving open the question of whether deeper representations-particularly the residual stream-contain genuine regulatory information. RESULTS: We systematically investigated residual-stream geometry in scGPT and Geneformer across four tissue contexts from the Tabula Sapiens atlas, evaluating whether geometric proximity between gene vectors provides incremental predictive value for curated TRRUST transcription factor-target edges beyond expression confounds. Under repeated stratified cross-validation, geometric features provided significant incremental signal in kidney and immune settings, validated by label-permutation and geometry-shuffle null controls; centered-cosine similarity, PCA projection and multi-layer bundling recovered comparable signal in lung tissues, and the multi-layer bundle improved every domain (kidney DeltaAUROC = + 0.122, immune + 0.042, lung + 0.028, external lung + 0.027; geometry-augmented AUROC 0.60-0.69). The effect was fully robust to leave-TF-out and leave-target-out cross-validation and to harder degree- and expression-matched negative edges, but under the stricter leave-both-out split-no transcription factor and no target shared between folds-it collapsed to near-zero (DeltaAUROC at most + 0.003, and not statistically significant in kidney or immune), marking the ceiling of out-of-entity generalization. With a comparable per-layer residual-stream extraction applied to both models, the apparent Geneformer advantage mostly disappeared (small residual gaps remained in three of four domains), indicating it largely reflected representation-construction choices rather than a substantial architectural difference. Asymmetric geometric features predicted regulatory edge orientation (AUROC 0.80-0.90), and the geometric signal added incremental value on top of expression-based gene regulatory network (GRN) inference (GENIE3, co-expression). CONCLUSION: Foundation model residual streams carry incremental, regulatory-relevant geometric signal that is distributed across layers and that complements expression-based GRN inference for retrospective edge prioritization. The signal is statistical enrichment rather than a stand-alone regulatory classifier: absolute performance is modest and out-of-entity generalization is limited, so its practical role is as an orthogonal evidence channel for edge re-ranking and hypothesis prioritization in multi-evidence frameworks.",
+  "abstract_zh": "背景：单细胞基础模型（如scGPT和Geneformer）学习基因表达程序的丰富表征，但这些表征是否编码超越表达水平混杂因素的基因调控关系仍不清楚。这些模型中的注意力模式已被证明能捕获共表达而非直接调控，这留下了更深层表征——特别是残差流——是否包含真实调控信息的问题。结果：我们系统研究了scGPT和Geneformer在Tabula Sapiens图谱四个组织背景中的残差流几何结构，评估基因向量之间的几何邻近性是否在表达混杂因素之外，为精选的TRRUST转录因子-靶标边提供增量预测价值。在重复分层交叉验证下，几何特征在肾脏和免疫环境中提供了显著的增量信号，并通过标签置换和几何打乱零模型验证；中心化余弦相似度、PCA投影和多层捆绑在肺组织中恢复了可比信号，且多层捆绑改善了每个领域（肾脏DeltaAUROC = + 0.122，免疫 + 0.042，肺 + 0.028，外部肺 + 0.027；几何增强AUROC 0.60-0.69）。该效应在留出转录因子和留出靶标交叉验证中完全稳健，并在更难的度匹配和表达匹配负边上也稳健，但在更严格的留出两者分割下——折叠间无共享转录因子和靶标——其崩溃至接近零（DeltaAUROC最多 + 0.003，且在肾脏或免疫中无统计学显著性），标志着实体外泛化的上限。对两个模型应用可比的逐层残差流提取后，明显的Geneformer优势大多消失（四个领域中三个领域仍有小残差差距），表明其很大程度上反映了表征构建选择而非实质性架构差异。非对称几何特征预测了调控边方向（AUROC 0.80-0.90），且几何信号在基于表达的基因调控网络（GRN）推断（GENIE3、共表达）之上增加了增量价值。结论：基础模型残差流携带增量、调控相关的几何信号，该信号分布在各层中，并补充基于表达的GRN推断用于回顾性边优先级排序。该信号是统计富集而非独立调控分类器：绝对性能适中且实体外泛化有限，因此其实际作用是在多证据框架中作为边重排序和假设优先级排序的正交证据通道。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42527907/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42527907/",
+  "paper_page_path": "papers/pubmed/42527907/index.html"
+}

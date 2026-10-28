@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use in silico methods (docking, molecular dynamics simulations, molecular mechanics Poisson-Boltzmann surface area, topological, and tunnel analysis) to propose that TRIB1, TRIB2, and TRIB3 pseudokinases bind to the COP1 E3 ligase WD40 domain via a conserved V-P sequence motif, and that this motif competes with the beta-catenin phosphodegron (DSGXXS) for a common binding site on COP1, thereby regulating WNT/beta-catenin signaling.
+- **Visible evidence base** Abstract text only; no methodological details, numerical results, structural coordinates, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, force field details, convergence criteria, binding free energy values, statistical error estimates, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational hypothesis regarding COP1 binding to TRIB pseudokinases and beta-catenin, with potential relevance to WNT signaling and cancer therapeutics. However, the evidence base visible in the abstract is insufficient to evaluate the technical soundness of the simulations, the statistical robustness of the results, or the strength of the proposed competitive binding model. The claim that TRIB motifs compete with beta-catenin phosphodegron for a common COP1 site is interesting but currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in ubiquitin signaling, pseudokinase biology, WNT/beta-catenin pathway regulation, and structural bioinformatics would find these results relevant. The potential therapeutic implications for liver and colorectal cancers may also attract translational oncology researchers, though the computational nature of the study limits immediate experimental applicability.
+- **Major strengths** The study addresses a previously uncharacterized interaction mechanism between COP1 and beta-catenin, filling a gap in the literature. The use of multiple complementary in silico approaches (docking, MD, MMPBSA, topological, and tunnel analysis) suggests a comprehensive computational strategy. The identification of a conserved V-P motif across TRIB homologs provides a testable hypothesis for future experimental work.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that docking, molecular dynamics simulations, MMPBSA, topological, and tunnel analysis revealed that both beta-catenin phosphodegron and TRIB motifs occupy a common COP1 binding site.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are presented to support this claim. There are no binding free energy values, RMSD or RMSF data, convergence metrics, or statistical comparisons between the beta-catenin and TRIB binding modes. The abstract does not specify simulation lengths, force fields, water models, or system preparation protocols, which are essential for assessing the reliability of MD-based conclusions.
+  - **Why it matters** Without these details, the reader cannot determine whether the simulations were adequately converged, whether the docking poses were physically plausible, or whether the observed common binding site is statistically significant rather than an artifact of the chosen parameters. The central claim of competitive binding rests entirely on the quality of these computational results.
+  - **Resolution test** Provide in the full manuscript explicit binding free energy values with error estimates, simulation convergence metrics, and a comparison of the binding poses of beta-catenin phosphodegron and TRIB motifs at the COP1 WD40 domain. Include a clear description of the simulation setup and validation of the docking protocol against known structures if available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that the current study suggests a structural paradigm of TRIB homologs bearing a conserved motif that may compete with beta-catenin phosphodegron signature for binding to the WD40 domain of COP1.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The competitive binding model is presented as a suggestion, but the abstract does not provide any experimental or structural validation to support the competition hypothesis. The claim that TRIB motifs compete with beta-catenin for COP1 binding is inferred solely from computational docking and simulation, which cannot establish competitive displacement in a cellular context.
+  - **Why it matters** The proposed paradigm has direct implications for understanding TRIB-mediated regulation of WNT signaling and for therapeutic targeting. If the competition model is not experimentally validated, the biological relevance of the computational findings remains speculative, and the translational claims for liver and colorectal cancer treatment are premature.
+  - **Resolution test** Include experimental validation such as pull-down assays, isothermal titration calorimetry, or mutagenesis studies that demonstrate competitive binding between TRIB peptides and beta-catenin phosphodegron for COP1. Alternatively, clearly state in the abstract that the competition model is a hypothesis requiring experimental testing, and temper the therapeutic implications accordingly.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses several technical terms (e.g., "molecular mechanics Poisson-Boltzmann surface area," "topological, and tunnel analysis") without explaining their relevance to the reader. The acronym "MMPBSA" is not defined in the abstract, which may hinder comprehension for readers outside computational biophysics.
+  - **Required correction** Define MMPBSA at first use and provide a one-sentence explanation of what topological and tunnel analysis contribute to the study. Consider simplifying the methods description to focus on the biological insight rather than the technical details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract statement on beta-catenin interaction
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "the interaction mechanism between COP1 E3 ligase and beta-catenin has not been addressed to date," but then claims to analyze this interaction. The novelty claim is clear, but the abstract does not specify whether the beta-catenin phosphodegron was modeled as a peptide or as part of the full-length protein, which affects the interpretation of the binding mode.
+  - **Required correction** Specify the construct used for beta-catenin in the simulations (e.g., phosphodegron peptide versus full-length protein) and clarify whether the phosphorylation state of the DSGXXS motif was explicitly modeled.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Sequence motif definition
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The TRIB motifs are listed as TRIB1 (355-DQIVPEY-361), TRIB2 (326-DQLVPDV-332), and TRIB3 (333-AQVVPDG-339), and the abstract states that these accommodate a "V-P sequence motif." However, the third residue in TRIB1 is I, not V, and the motif is described as "D/E/AQXVPD/E" later, which is not fully consistent with the listed sequences.
+  - **Required correction** Clarify the consensus motif definition and ensure consistency between the listed sequences and the proposed motif. If the V-P motif is not strictly conserved, explain the structural basis for why these variations still permit binding.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative simulation data and experimental validation means the central claims of common binding site occupancy and competitive binding are not established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a novel interaction between COP1 and beta-catenin, which has not been previously characterized. The focus on TRIB pseudokinases as potential competitors adds an original angle. However, the originality is computational in nature and requires experimental confirmation to be fully realized.
+  - Scientific importance: The potential role of TRIB-COP1 interactions in WNT signaling and cancer is significant, but the current evidence is insufficient to demonstrate biological importance. The importance is plausible but not yet demonstrated.
+  - Interdisciplinary readership: The topic bridges structural biology, ubiquitin signaling, and cancer biology, which could attract a broad readership. However, the abstract is heavily method-oriented and may not effectively engage nonspecialists.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of the computational rigor.
+  - Readability for nonspecialists: The abstract is moderately readable but uses technical jargon without sufficient explanation. The biological significance is stated but not well contextualized for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The computational hypothesis is interesting and worth pursuing, but the abstract does not provide sufficient technical detail or validation to support the claims. A revised manuscript with full methodological transparency, quantitative results, and ideally experimental validation would be needed to establish the case.
+
+## Risk / unsupported claims
+- The claim that TRIB motifs and beta-catenin phosphodegron occupy a common COP1 binding site is unsupported by quantitative data in the abstract.
+- The claim that TRIB motifs may compete with beta-catenin for COP1 binding is speculative and not validated experimentally.
+- The therapeutic implications for liver and colorectal cancers are overstated given the purely computational nature of the study.
+- The statement that the interaction mechanism between COP1 and beta-catenin has not been addressed to date is a strong novelty claim that cannot be verified from the abstract alone.

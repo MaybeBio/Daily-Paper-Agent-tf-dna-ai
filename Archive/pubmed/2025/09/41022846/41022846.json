@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "41022846",
+    "doi": "10.1038/s41467-025-63713-7",
+    "title": "Frustration in the protein-protein interface plays a central role in the cooperativity of PROTAC ternary complexes."
+  },
+  "content": {
+    "abstract": "Targeted protein degradation using proteolysis-targeting chimeras (PROTACs) offers a promising strategy to eliminate previously undruggable proteins. PROTACs are bifunctional molecules that link a target protein with an E3 ubiquitin ligase, enabling the formation of a ternary complex that promotes ubiquitination and subsequent proteasomal degradation. Although many ternary complex structures are available, understanding how structural features relate to PROTAC function remains challenging due to the dynamic nature of these complexes. Here we show that the interface between the target protein SMARCA2 and the E3 ligase VHL is conformationally flexible and stabilized by interactions involving disordered loops. Using molecular dynamics simulations and X-ray crystallography of SMARCA2-VHL complexes bound to five different PROTACs, we find that interfacial residues often adopt energetically suboptimal, or 'frustrated,' configurations. We further show that the degree of frustration correlates with experimentally measured cooperativity for a set of 11 PROTACs. These findings suggest that quantifying interface frustration provides a rational, structure-based approach to guiding PROTAC design.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Von Hippel-Lindau Tumor Suppressor Protein/metabolism/chemistry/genetics",
+      "Humans",
+      "Crystallography, X-Ray",
+      "*Proteolysis",
+      "Protein Binding",
+      "*Transcription Factors/metabolism/chemistry/genetics",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Ubiquitination",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Ning",
+        "Bhattacharya, Supriyo",
+        "Muk, Sanychen",
+        "Jandova, Zuzana",
+        "Schmalhorst, Philipp S",
+        "Ghosh, Soumadwip",
+        "Le, Keith",
+        "Diers, Emelyne",
+        "Trainor, Nicole",
+        "Farnaby, William",
+        "Roy, Michael J",
+        "Kofink, Christiane",
+        "Greb, Peter",
+        "Weinstabl, Harald",
+        "Ciulli, Alessio",
+        "Bader, Gerd",
+        "Sankar, Kyra",
+        "Bergner, Andreas",
+        "Vaidehi, Nagarajan"
+      ],
+      "short_names": [
+        "Ma N",
+        "Bhattacharya S",
+        "Muk S",
+        "Jandova Z",
+        "Schmalhorst PS",
+        "Ghosh S",
+        "Le K",
+        "Diers E",
+        "Trainor N",
+        "Farnaby W",
+        "Roy MJ",
+        "Kofink C",
+        "Greb P",
+        "Weinstabl H",
+        "Ciulli A",
+        "Bader G",
+        "Sankar K",
+        "Bergner A",
+        "Vaidehi N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4653-7797",
+        "ORCID: 0000-0003-0483-2149",
+        "ORCID: 0000-0002-5795-0133",
+        "ORCID: 0000-0002-3758-9969",
+        "ORCID: 0000-0001-8610-932X",
+        "ORCID: 0000-0003-0198-9108",
+        "ORCID: 0000-0003-2515-8843",
+        "ORCID: 0000-0002-6757-4370",
+        "ORCID: 0000-0003-1308-2730",
+        "ORCID: 0000-0002-8654-1670",
+        "ORCID: 0000-0002-8410-3415",
+        "ORCID: 0000-0002-5843-4325",
+        "ORCID: 0000-0001-8100-8132"
+      ],
+      "affiliations": [
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA. NMa@coh.org.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK.",
+        "Respiratory & Immunology (R&I), Research and Early Development, BioPharmaceuticals R&D, AstraZeneca, Molndal, Sweden.",
+        "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK.",
+        "Australian Centre for Targeted Therapeutics, Walter and Eliza Hall Institute, Bundoora, VIC, Australia.",
+        "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK.",
+        "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK.",
+        "ACRF Chemical Biology Division, Walter and Eliza Hall Institute, Parkville, VIC, Australia.",
+        "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria.",
+        "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK.",
+        "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria. andreas.bergner@boehringer-ingelheim.com.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA. nvaidehi@coh.org.",
+        "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA. nvaidehi@coh.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Ning",
+        "short_name": "Ma N",
+        "identifiers": [
+          "0000-0003-4653-7797"
+        ],
+        "affiliations": [
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA. NMa@coh.org."
+        ]
+      },
+      {
+        "full_name": "Bhattacharya, Supriyo",
+        "short_name": "Bhattacharya S",
+        "identifiers": [
+          "0000-0003-0483-2149"
+        ],
+        "affiliations": [
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Muk, Sanychen",
+        "short_name": "Muk S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Jandova, Zuzana",
+        "short_name": "Jandova Z",
+        "identifiers": [],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Schmalhorst, Philipp S",
+        "short_name": "Schmalhorst PS",
+        "identifiers": [
+          "0000-0002-5795-0133"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Soumadwip",
+        "short_name": "Ghosh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Le, Keith",
+        "short_name": "Le K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Diers, Emelyne",
+        "short_name": "Diers E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK.",
+          "Respiratory & Immunology (R&I), Research and Early Development, BioPharmaceuticals R&D, AstraZeneca, Mölndal, Sweden."
+        ]
+      },
+      {
+        "full_name": "Trainor, Nicole",
+        "short_name": "Trainor N",
+        "identifiers": [
+          "0000-0002-3758-9969"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK.",
+          "Australian Centre for Targeted Therapeutics, Walter and Eliza Hall Institute, Bundoora, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Farnaby, William",
+        "short_name": "Farnaby W",
+        "identifiers": [
+          "0000-0001-8610-932X"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK."
+        ]
+      },
+      {
+        "full_name": "Roy, Michael J",
+        "short_name": "Roy MJ",
+        "identifiers": [
+          "0000-0003-0198-9108"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK.",
+          "ACRF Chemical Biology Division, Walter and Eliza Hall Institute, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Kofink, Christiane",
+        "short_name": "Kofink C",
+        "identifiers": [
+          "0000-0003-2515-8843"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Greb, Peter",
+        "short_name": "Greb P",
+        "identifiers": [
+          "0000-0002-6757-4370"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Weinstabl, Harald",
+        "short_name": "Weinstabl H",
+        "identifiers": [
+          "0000-0003-1308-2730"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Ciulli, Alessio",
+        "short_name": "Ciulli A",
+        "identifiers": [
+          "0000-0002-8654-1670"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee, Dundee, UK."
+        ]
+      },
+      {
+        "full_name": "Bader, Gerd",
+        "short_name": "Bader G",
+        "identifiers": [
+          "0000-0002-8410-3415"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Sankar, Kyra",
+        "short_name": "Sankar K",
+        "identifiers": [],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Bergner, Andreas",
+        "short_name": "Bergner A",
+        "identifiers": [
+          "0000-0002-5843-4325"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co KG, Vienna, Austria. andreas.bergner@boehringer-ingelheim.com."
+        ]
+      },
+      {
+        "full_name": "Vaidehi, Nagarajan",
+        "short_name": "Vaidehi N",
+        "identifiers": [
+          "0000-0001-8100-8132"
+        ],
+        "affiliations": [
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA. nvaidehi@coh.org.",
+          "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA. nvaidehi@coh.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Sep 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/30 05:17",
+    "fetched_at": "2026-10-01 03:11:40"
+  },
+  "links": {
+    "cites": [
+      "42635221",
+      "42509556",
+      "42457586",
+      "42304961",
+      "42250277",
+      "42244865",
+      "42212069",
+      "42123600",
+      "41993887",
+      "41959354",
+      "41743503",
+      "41416887",
+      "41279703",
+      "40667224"
+    ],
+    "refs": [
+      "40012705",
+      "39298590",
+      "39140051",
+      "39087481",
+      "37443112",
+      "37101604",
+      "36216795",
+      "36202813",
+      "36044985",
+      "35042991",
+      "35018781",
+      "34291038",
+      "33667107",
+      "33550810",
+      "33230150",
+      "32976709",
+      "32969649",
+      "32848159",
+      "32709715",
+      "32112804",
+      "31746102",
+      "31178587",
+      "31004963",
+      "30721025",
+      "30631068",
+      "29477337",
+      "29129718",
+      "29101782",
+      "28853884",
+      "28516008",
+      "28288108",
+      "27131359",
+      "26966660",
+      "26583988",
+      "25225856",
+      "24421312",
+      "23579614",
+      "22989858",
+      "22545654",
+      "21460447",
+      "20383002",
+      "19461840",
+      "16200636",
+      "15048827",
+      "14631816",
+      "12096912"
+    ],
+    "similar": [
+      "41022846",
+      "40223615",
+      "28288108",
+      "41184304",
+      "40014381",
+      "39864384",
+      "38284361",
+      "30631068",
+      "30721025",
+      "37443112",
+      "40208910",
+      "41194767",
+      "30826187",
+      "38199162",
+      "33143537",
+      "29018234",
+      "34432243",
+      "35983982",
+      "30540463",
+      "35101445",
+      "34432240",
+      "39140051",
+      "39087481",
+      "39606859",
+      "40665123",
+      "36961978",
+      "40254254",
+      "36764760",
+      "34824248",
+      "28378579",
+      "30672516",
+      "39374557",
+      "32697072",
+      "39361611",
+      "38377822",
+      "39783892",
+      "29129718",
+      "38626385",
+      "36216795",
+      "39641357",
+      "40550492",
+      "40516451",
+      "39483225",
+      "38942127",
+      "33792163",
+      "34675414",
+      "40317844",
+      "40295770",
+      "36606710",
+      "32976709",
+      "40205025",
+      "30040896",
+      "35948047",
+      "31064868",
+      "39953061",
+      "27473774",
+      "38746111",
+      "37388700",
+      "34291038",
+      "41045927",
+      "37183204",
+      "35344835",
+      "36300631",
+      "36749883",
+      "37224698",
+      "31879210",
+      "39610271",
+      "41420600",
+      "39580491",
+      "35500825",
+      "34081921",
+      "35393989",
+      "36448571",
+      "34432242",
+      "36075213",
+      "33625214",
+      "35410300",
+      "32987061",
+      "38655701",
+      "37354907",
+      "30012605",
+      "33271439",
+      "40343767",
+      "38478885",
+      "39881207",
+      "40994151",
+      "34397373",
+      "38284532",
+      "40883309",
+      "39791901",
+      "32331546",
+      "39932098",
+      "29473971",
+      "40555806",
+      "38383787",
+      "39392888",
+      "35175763",
+      "34041938",
+      "37942685",
+      "38609561"
+    ],
+    "review": [
+      "41022846",
+      "38199162",
+      "33143537",
+      "35983982",
+      "39374557",
+      "34291038",
+      "37224698",
+      "35500825",
+      "35393989",
+      "35410300",
+      "33271439",
+      "39791901"
+    ],
+    "pmc": [
+      "12480974"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-63713-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41022846/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

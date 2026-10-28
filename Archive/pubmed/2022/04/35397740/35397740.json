@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "35397740",
+    "doi": "10.1245/s10434-022-11684-0",
+    "title": "Epigenetic Signatures Predict Pathologic Nodal Stage in Breast Cancer Patients with Estrogen Receptor-Positive, Clinically Node-Positive Disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer patients with clinically positive nodes who undergo upfront surgery are often recommended for axillary lymph node dissection (ALND), yet more than half are found to have limited nodal disease (</= 3 positive nodes, pN1) at surgery. In this study, we examined the efficiency of molecular classifiers in stratifying patients with clinically positive nodes to pN1 versus > pN1 disease. METHODS: We evaluated the clinical and epigenetic data of patients in The Cancer Genome Atlas with estrogen receptor-positive, human epidermal growth factor receptor 2-negative invasive ductal carcinoma who underwent ALND for node-positive disease. Patients were divided into control (pN1, </= 3 positive nodes) and case (> pN1, > 3 positive nodes) groups. Machine learning algorithms were trained on 50% of the cohort and validated on the remaining 50% to identify DNA methylation signatures that predict > pN1 disease. Clinical variables and epigenetic signatures were compared. RESULTS: Controls (n = 34) and case (n = 24) cohorts showed similar mean age (56.4 +/- 12.2 vs. 57.6 +/- 16.7 years; p = 0.77), number of nodes removed (16.1 +/- 7.3 vs. 17.5 +/- 6.2; p = 0.45), tumor grade (p = 0.76), presence of lymphovascular invasion (p = 0.18), extranodal extension (p = 0.17), tumor laterality (p = 0.89), and tumor location (p = 0.42). The mean number of positive nodes was significantly different (1.76 +/- 0.82, pN1; 8.83 +/- 5.36, > pN1; p < 0.001). Three epigenetic signatures (EpiSig14, EpiSig13, EpiSig10) based on DNA methylation patterns of the primary tumors demonstrated high accuracy in predicting > pN1 disease (area under the curve 0.98). CONCLUSIONS: Epigenetic signatures have an excellent diagnostic accuracy for stratifying nodal disease in patients with clinically positive nodes. Validation of this tool is warranted and may provide an accurate and cost-effective method of identifying patients with predicted low nodal burden who could be spared the morbidity of ALND.",
+    "keywords": [],
+    "mesh_terms": [
+      "Axilla/pathology",
+      "*Breast Neoplasms/genetics/metabolism/surgery",
+      "Epigenesis, Genetic",
+      "Female",
+      "Humans",
+      "Lymph Node Excision",
+      "Lymph Nodes/pathology",
+      "Lymphatic Metastasis/pathology",
+      "Receptors, Estrogen/metabolism",
+      "Sentinel Lymph Node Biopsy/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ensenyat-Mendez, Miquel",
+        "Runger, Dennis",
+        "Orozco, Javier I J",
+        "Le, Julie",
+        "Baker, Jennifer L",
+        "Weidhaas, Joanne",
+        "Marzese, Diego M",
+        "DiNome, Maggie L"
+      ],
+      "short_names": [
+        "Ensenyat-Mendez M",
+        "Runger D",
+        "Orozco JIJ",
+        "Le J",
+        "Baker JL",
+        "Weidhaas J",
+        "Marzese DM",
+        "DiNome ML"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1926-292X"
+      ],
+      "affiliations": [
+        "Cancer Epigenetics Laboratory at the Cancer Cell Biology Group, Institut d'Investigacio Sanitaria Illes Balears (IdISBa), Palma, Spain.",
+        "Statistics Core, Department of Medicine, David Geffen School of Medicine at UCLA, Los Angeles, CA, USA.",
+        "Saint John's Cancer Institute, Providence Saint John's Health Center, Santa Monica, CA, USA.",
+        "Department of Surgery, David Geffen School of Medicine at UCLA, Los Angeles, CA, USA.",
+        "Department of Surgery, David Geffen School of Medicine at UCLA, Los Angeles, CA, USA.",
+        "Department of Radiation Oncology, David Geffen School of Medicine at UCLA, Los Angeles, CA, USA.",
+        "Cancer Epigenetics Laboratory at the Cancer Cell Biology Group, Institut d'Investigacio Sanitaria Illes Balears (IdISBa), Palma, Spain. diego.marzese@ssib.es.",
+        "Department of Surgery, Duke University School of Medicine, Durham, NC, USA. Maggie.dinome@duke.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ensenyat-Mendez, Miquel",
+        "short_name": "Ensenyat-Mendez M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Epigenetics Laboratory at the Cancer Cell Biology Group, Institut d'Investigació Sanitària Illes Balears (IdISBa), Palma, Spain."
+        ]
+      },
+      {
+        "full_name": "Rünger, Dennis",
+        "short_name": "Rünger D",
+        "identifiers": [],
+        "affiliations": [
+          "Statistics Core, Department of Medicine, David Geffen School of Medicine at UCLA, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Orozco, Javier I J",
+        "short_name": "Orozco JIJ",
+        "identifiers": [],
+        "affiliations": [
+          "Saint John's Cancer Institute, Providence Saint John's Health Center, Santa Monica, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Le, Julie",
+        "short_name": "Le J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, David Geffen School of Medicine at UCLA, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, Jennifer L",
+        "short_name": "Baker JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, David Geffen School of Medicine at UCLA, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Weidhaas, Joanne",
+        "short_name": "Weidhaas J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, David Geffen School of Medicine at UCLA, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Marzese, Diego M",
+        "short_name": "Marzese DM",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Epigenetics Laboratory at the Cancer Cell Biology Group, Institut d'Investigació Sanitària Illes Balears (IdISBa), Palma, Spain. diego.marzese@ssib.es."
+        ]
+      },
+      {
+        "full_name": "DiNome, Maggie L",
+        "short_name": "DiNome ML",
+        "identifiers": [
+          "0000-0002-1926-292X"
+        ],
+        "affiliations": [
+          "Department of Surgery, Duke University School of Medicine, Durham, NC, USA. Maggie.dinome@duke.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of surgical oncology"
+    ],
+    "journal_abbrev": [
+      "Ann Surg Oncol"
+    ],
+    "pub_date": "2022 Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/11 06:00",
+    "fetched_at": "2026-09-28 07:22:03"
+  },
+  "links": {
+    "cites": [
+      "37430006",
+      "37108589",
+      "36915822",
+      "35415817"
+    ],
+    "refs": [
+      "34820327",
+      "34341718",
+      "20043065",
+      "14654469"
+    ],
+    "similar": [
+      "35397740",
+      "35842534",
+      "33084993",
+      "35389189",
+      "32148141",
+      "25227789",
+      "31226956",
+      "31448500",
+      "32328848",
+      "35241059",
+      "27169771",
+      "32172574",
+      "32537791",
+      "22759850",
+      "32592357",
+      "28991362",
+      "25838248",
+      "20853057",
+      "24292111",
+      "32869154",
+      "33342782",
+      "28089784",
+      "31342364",
+      "26925789",
+      "29705286",
+      "30343457",
+      "26474908",
+      "29599329",
+      "19364968",
+      "32823167",
+      "14616942",
+      "27633450",
+      "18019642",
+      "26123412",
+      "29368152",
+      "12752622",
+      "29868976",
+      "25648466",
+      "22588780",
+      "24101169",
+      "31238899",
+      "31957192",
+      "28718896",
+      "29031423",
+      "10486611",
+      "32646416",
+      "23948301",
+      "24684810",
+      "28975889",
+      "8092905",
+      "22386798",
+      "16378156",
+      "12741893",
+      "11735167",
+      "22167004",
+      "28139362",
+      "23587229",
+      "28439713",
+      "27160528",
+      "30322228",
+      "26700202",
+      "27769634",
+      "33953240",
+      "31741179",
+      "32444317",
+      "10924982",
+      "19448065",
+      "21908107",
+      "25986854",
+      "29956095",
+      "23558360",
+      "14991881",
+      "34762971",
+      "30909179",
+      "27216742",
+      "30666563",
+      "32488512",
+      "20853176",
+      "32482174",
+      "12511150",
+      "22972506",
+      "24095611",
+      "34614216",
+      "20066412",
+      "12533260",
+      "27469123",
+      "26553439",
+      "20151427",
+      "32183080",
+      "31562601",
+      "17244989",
+      "11387010",
+      "29392828",
+      "31938938",
+      "32462230",
+      "32522481",
+      "29968029",
+      "23942073",
+      "35876927",
+      "36935856",
+      "11562467",
+      "36131242"
+    ],
+    "review": [
+      "35397740",
+      "22759850",
+      "14991881",
+      "34614216",
+      "12533260"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1245/s10434-022-11684-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3982",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

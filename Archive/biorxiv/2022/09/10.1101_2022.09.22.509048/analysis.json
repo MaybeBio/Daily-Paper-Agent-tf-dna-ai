@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.22.509048",
+  "title": "Motif2Site: a Bioconductor package to detect accurate transcription factor binding sites from ChIP-seq",
+  "authors": "Peyman Zarrineh; Zoulfia Darieva; Nicoletta Bobola",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-23",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发Motif2Site包，利用ChIP-seq信号峰顶位置优化TF结合位点检测，虽涉及TF-DNA结合位点预测，但方法基于序列信号而非AI或物理模拟，深度有限。",
+  "abstract": "A bstract Transcription factors (TFs) binding are in the core of the Regulatory networks studies. ChIP-seq experiments are available for many TFs in various species. As TFs co-bind in cis-regulatory elements regions to control gene expression, studying the existing relation among co-binding TFs such as distance of binding sites or co-occupancy are highly important to understand the regulatory mechanisms. Currently, to detect binding sites of each TF in cis-regulatory elements, first binding regions of each TF are detected by standard peak calling methods, and at the second step the best candidate binding sites are prioritized by motif detection methods in binding regions. However, it is well-known that the best prioritized candidate motifs are not necessarily the actual binding sites of TFs. Furthermore, motif prioritizing methods that consider more genomic features complexities of TFs bindings are usually computationally expensive methods. Here, we tend to improve the TF binding sites accuracy detection by using the original ChIP-seq signal. The motifs which are located closer to the summits of binding region peaks are more likely to be the actual binding sites. Therefore, We developed a novel post-processing Bioconductor package called Motif2Site to detect TFs binding sites from user provided motif sets and recenter them across experiments. We applied Motif2Site method to detect TF binding sites for major mouse embryonic stem cell (mESC) as well as mouse fetal and birth time (P0) heart TFs. Motif2Site could detect binding regions with comparable accuracy to the existing state-of-the-art while it substantially increased the accuracy of the detected binding sites. Motif2Site could future improve the accuracy of binding sites prediction by recentering binding sites across developmental conditions (fetal/P0 heart) and across homologous TFs (ex. GATA4/GATA6 and MEF2A/MEF2C). Purifying high-confidence binding sites in mouse fetal heart, enabled us to study the co-binding properties of TFs in cis-regulatory elements. We could also traced TFs footprints in selected heart-specific VISTA enhancers chromatin accessible regions.",
+  "abstract_zh": "摘要 转录因子（TFs）结合是调控网络研究的核心。ChIP-seq实验已可用于多种物种中的许多转录因子。由于转录因子在顺式调控元件区域协同结合以控制基因表达，研究共结合转录因子之间的现有关系（如结合位点距离或共占用性）对于理解调控机制至关重要。目前，为了检测每个转录因子在顺式调控元件中的结合位点，首先通过标准峰值调用方法检测每个转录因子的结合区域，其次在结合区域中通过基序检测方法优先筛选最佳候选结合位点。然而，众所周知，优先筛选出的候选基序并不一定是转录因子的实际结合位点。此外，考虑更多转录因子结合基因组特征复杂性的基序优先化方法通常计算成本高昂。在此，我们倾向于通过利用原始ChIP-seq信号来提高转录因子结合位点检测的准确性。位于结合区域峰值峰顶附近的基序更可能是实际结合位点。因此，我们开发了一种新颖的后处理Bioconductor包，名为Motif2Site，用于从用户提供的基序集中检测转录因子结合位点，并跨实验重新定位这些位点。我们将Motif2Site方法应用于检测主要小鼠胚胎干细胞（mESC）以及小鼠胎儿和出生时（P0）心脏转录因子的结合位点。Motif2Site能够以与现有最先进方法相当的准确性检测结合区域，同时显著提高了检测结合位点的准确性。Motif2Site通过跨发育条件（胎儿/P0心脏）和跨同源转录因子（例如GATA4/GATA6和MEF2A/MEF2C）重新定位结合位点，可进一步改善结合位点预测的准确性。纯化小鼠胎儿心脏中的高置信度结合位点，使我们能够研究转录因子在顺式调控元件中的共结合特性。我们还能在选定的心脏特异性VISTA增强子染色质可及区域中追踪转录因子足迹。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.22.509048",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.22.509048",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.22.509048/index.html"
+}

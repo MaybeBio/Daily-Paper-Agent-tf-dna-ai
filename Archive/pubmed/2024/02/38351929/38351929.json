@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38351929",
+    "doi": "",
+    "title": "Deciphering regulatory architectures from synthetic single-cell expression patterns."
+  },
+  "content": {
+    "abstract": "For the vast majority of genes in sequenced genomes, there is limited understanding of how they are regulated. Without such knowledge, it is not possible to perform a quantitative theory-experiment dialogue on how such genes give rise to physiological and evolutionary adaptation. One category of high-throughput experiments used to understand the sequence-phenotype relationship of the transcriptome is massively parallel reporter assays (MPRAs). However, to improve the versatility and scalability of MPRA pipelines, we need a \"theory of the experiment\" to help us better understand the impact of various biological and experimental parameters on the interpretation of experimental data. These parameters include binding site copy number, where a large number of specific binding sites may titrate away transcription factors, as well as the presence of overlapping binding sites, which may affect analysis of the degree of mutual dependence between mutations in the regulatory region and expression levels. To that end, in this paper we create tens of thousands of synthetic single-cell gene expression outputs using both equilibrium and out-of-equilibrium models. These models make it possible to imitate the summary statistics (information footprints and expression shift matrices) used to characterize the output of MPRAs and from this summary statistic to infer the underlying regulatory architecture. Specifically, we use a more refined implementation of the so-called thermodynamic models in which the binding energies of each sequence variant are derived from energy matrices. Our simulations reveal important effects of the parameters on MPRA data and we demonstrate our ability to optimize MPRA experimental designs with the goal of generating thermodynamic models of the transcriptome with base-pair specificity. Further, this approach makes it possible to carefully examine the mapping between mutations in binding sites and their corresponding expression profiles, a tool useful not only for better designing MPRAs, but also for exploring regulatory evolution.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Rosalind Wenshan",
+        "Roschinger, Tom",
+        "Faizi, Kian",
+        "Garcia, Hernan",
+        "Phillips, Rob"
+      ],
+      "short_names": [
+        "Pan RW",
+        "Roschinger T",
+        "Faizi K",
+        "Garcia H",
+        "Phillips R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA.",
+        "Biophysics Graduate Group, University of California, Berkeley, CA.",
+        "Department of Physics, University of California, Berkeley, CA.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, CA.",
+        "Institute for Quantitative Biosciences-QB3, University of California, Berkeley, CA.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA.",
+        "Department of Physics, California Institute of Technology, Pasadena, CA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Rosalind Wenshan",
+        "short_name": "Pan RW",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA."
+        ]
+      },
+      {
+        "full_name": "Röschinger, Tom",
+        "short_name": "Röschinger T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA."
+        ]
+      },
+      {
+        "full_name": "Faizi, Kian",
+        "short_name": "Faizi K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA."
+        ]
+      },
+      {
+        "full_name": "Garcia, Hernan",
+        "short_name": "Garcia H",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics Graduate Group, University of California, Berkeley, CA.",
+          "Department of Physics, University of California, Berkeley, CA.",
+          "Department of Molecular and Cell Biology, University of California, Berkeley, CA.",
+          "Institute for Quantitative Biosciences-QB3, University of California, Berkeley, CA."
+        ]
+      },
+      {
+        "full_name": "Phillips, Rob",
+        "short_name": "Phillips R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA.",
+          "Department of Physics, California Institute of Technology, Pasadena, CA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ArXiv"
+    ],
+    "journal_abbrev": [
+      "ArXiv"
+    ],
+    "pub_date": "2024 Jun 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/14 06:43",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39499638",
+      "38981487",
+      "38587185",
+      "37820729",
+      "37717013",
+      "37103023",
+      "36480614",
+      "34428301",
+      "34394059",
+      "34214468",
+      "33074101",
+      "33046894",
+      "32955440",
+      "32572269",
+      "31792407",
+      "31091417",
+      "31084583",
+      "30716072",
+      "30538179",
+      "30502946",
+      "29728462",
+      "29574055",
+      "29388765",
+      "28726847",
+      "27875323",
+      "27857550",
+      "26675057",
+      "26641532",
+      "26072434",
+      "25486472",
+      "24612990",
+      "24562187",
+      "23271961",
+      "22840405",
+      "22624875",
+      "22606254",
+      "22505627",
+      "21730194",
+      "20439748",
+      "19372434",
+      "18692469",
+      "18687900",
+      "18514222",
+      "17991990",
+      "17376875",
+      "16818878",
+      "16742267",
+      "16587956",
+      "16446460",
+      "16179466",
+      "15797195",
+      "15797194",
+      "14709165",
+      "14343300",
+      "12927535",
+      "12826616",
+      "12702751",
+      "12183631",
+      "11861919",
+      "6461856",
+      "4416620",
+      "3157005"
+    ],
+    "similar": [
+      "38351929",
+      "38352569",
+      "39724021",
+      "31206543",
+      "31131957",
+      "37403796",
+      "28204611",
+      "39948460",
+      "29028988",
+      "38296821",
+      "39763851",
+      "23912807",
+      "36227538",
+      "32043966",
+      "37808807",
+      "36350674",
+      "36423637",
+      "40262894",
+      "34285053",
+      "37084251",
+      "38045264",
+      "33879525",
+      "31477158",
+      "33046894",
+      "32603702",
+      "38979263",
+      "27701403",
+      "38712228",
+      "36321557",
+      "27605100",
+      "34486522",
+      "40270544",
+      "40103141",
+      "38915503",
+      "37851522",
+      "27058315",
+      "32641802",
+      "28531296",
+      "23512712",
+      "37103023",
+      "36085003",
+      "30052913",
+      "37868037",
+      "34895465",
+      "22371084",
+      "36788564",
+      "37872110",
+      "34046055",
+      "39362779",
+      "37645832",
+      "34132193",
+      "25177895",
+      "25536998",
+      "33036834",
+      "24097306",
+      "30866806",
+      "38365907",
+      "26072433",
+      "36214449",
+      "32681690",
+      "31106481",
+      "38873396",
+      "37087538",
+      "33515242",
+      "19583839",
+      "33074101",
+      "31291895",
+      "35251128",
+      "30079747",
+      "23892608",
+      "32843144",
+      "33606245",
+      "1840583",
+      "34605404",
+      "12181488",
+      "37965371",
+      "35858748",
+      "12801640",
+      "39644900",
+      "34904892",
+      "37873175",
+      "26072432",
+      "19958507",
+      "38724816",
+      "38222110",
+      "17377845",
+      "20338053",
+      "32426415",
+      "15754855",
+      "36043696",
+      "40273430",
+      "3612791",
+      "37292699",
+      "40172958",
+      "31084583",
+      "32955440",
+      "34898596",
+      "31871587",
+      "26576614",
+      "31359027"
+    ],
+    "review": [
+      "38351929",
+      "31131957",
+      "36321557",
+      "27058315",
+      "37103023",
+      "36085003",
+      "36788564",
+      "37872110",
+      "39362779",
+      "26072433",
+      "38873396",
+      "32843144",
+      "26072432"
+    ],
+    "pmc": [
+      "10862939"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38351929/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38351929",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.25.550565",
+  "title": "Graph Attention Site Prediction (GrASP): Identifying Druggable Binding Sites Using Graph Neural Networks with Attention",
+  "authors": "Zachary Smith; Michael Strobel; Bodhi P. Vani; Pratyush Tiwary",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-28",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图注意力网络预测蛋白质可成药结合位点，虽涉及蛋白结合位点预测，但对象为小分子配体而非蛋白质-DNA互作，方法可迁移性有限，与TF-DNA课题关联较弱。",
+  "abstract": "Identifying and discovering druggable protein binding sites is an important early step in computer-aided drug discovery but remains a difficult task where most campaigns rely on a priori knowledge of binding sites from experiments. Here we present a novel binding site prediction method called Graph Attention Site Prediction (GrASP) and re-evaluate assumptions in nearly every step in the site prediction workflow from dataset preparation to model evaluation. GrASP is able to achieve state-of-the-art performance at recovering binding sites in PDB structures while maintaining a high degree of precision which will minimize wasted computation in downstream tasks such as docking and free energy perturbation.",
+  "abstract_zh": "识别和发现可成药蛋白结合位点是计算机辅助药物发现中的一个重要早期步骤，但这一任务仍然困难重重，大多数研究活动依赖于实验中对结合位点的先验知识。在此，我们提出了一种新颖的结合位点预测方法，称为图注意力位点预测（Graph Attention Site Prediction, GrASP），并重新评估了从数据集准备到模型评估的位点预测流程中几乎每一步的假设。GrASP能够在PDB结构中恢复结合位点方面达到最先进的性能，同时保持高精度，这将最小化在下游任务（如对接和自由能扰动）中的计算浪费。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550565",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550565",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.25.550565/index.html"
+}

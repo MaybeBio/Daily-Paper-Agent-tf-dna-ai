@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, data availability, author contributions, competing interests, supplementary table descriptions, acknowledgements)
+- **Assessment boundary** Technical and scientific evaluation of the described method (TIP-seq and sciTIP-seq), claims of performance relative to existing methods, and evidence provided in the supplied text. Figures, tables, and supplementary materials referenced but not provided are outside the visible evidence base.
+- **Shared manuscript claim summary** The authors present TIP-seq, a single-cell protein:DNA binding site mapping method combining CUT&Tag-style tagmentation with T7 promoter insertion and linear amplification via in vitro transcription. They claim approximately 10-fold higher unique reads per cell compared to state-of-the-art methods, high signal-to-noise ratios, applicability to histones and transcription factors, scalability via combinatorial indexing (sciTIP-seq), and demonstration of single-chromosome mapping in a hybrid mouse cell line.
+- **Visible evidence base** Abstract, introduction, results narrative (no figures or tables included), discussion, data availability statement, author contributions, competing interests, supplementary table descriptions, acknowledgements
+- **Missing materials affecting confidence** All figures (Figures 1-5), all supplementary tables, raw data, analysis scripts, detailed protocols, and any statistical analyses. The results section is narrative only, with no quantitative data presented in the text beyond selected fold-changes and read counts mentioned in the discussion.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially valuable methodological advance in single-cell chromatin profiling, combining established CUT&Tag chemistry with T7-based linear amplification to improve per-cell library complexity. The conceptual rationale is sound and the reported performance metrics, if accurately represented by the figures, would represent a meaningful improvement over existing methods. However, the supplied text alone does not provide sufficient evidence to evaluate the technical soundness of the claims. Key quantitative data, quality control metrics, reproducibility assessments, and comparisons to existing methods are referenced but not visible. The single-chromosome mapping claim is particularly under-supported in the text, as no statistical framework for allele-specific calling is described. The manuscript would benefit from clearer presentation of experimental design, replication, and validation against orthogonal methods.
+- **Who would be interested in the results, and why** Researchers in epigenomics, single-cell biology, and chromatin structure would be interested. The method addresses a known limitation in single-cell protein:DNA binding profiling, namely sparse coverage, and offers a potentially accessible, high-throughput alternative to droplet-based platforms. Those studying allele-specific regulation, developmental epigenetics, and cellular heterogeneity would find the single-chromosome mapping capability particularly relevant if validated.
+- **Major strengths** The methodological rationale is clear and builds logically on existing techniques. The combination of linear amplification with combinatorial indexing is a sensible approach to address coverage and throughput limitations. The authors explicitly compare their results to multiple published methods, which is useful for contextualizing performance. The potential for adaptation to other platforms and multi-omic readouts is a forward-looking strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "TIP-seq provides ∼10-fold higher unique reads and thus higher coverage per single cell compared to state-of-the-art methods" and "sciTIP-seq yields approximately 10-fold more unique reads/cell" compared to CoBATCH and Paired-Tag.
+  - **Evidence pointer** Results section, Figures 2C and 4A-D (not provided); Discussion section, Table I (not provided)
+  - **Concern** The central quantitative claim of 10-fold improvement in unique reads per cell is not verifiable from the supplied text. The figures and Table I that would support this comparison are not included. Additionally, the comparison to other methods relies on published datasets that may have been generated under different conditions, cell types, or sequencing depths. Without seeing the underlying distributions, normalization approaches, and statistical tests, the claim of a consistent 10-fold improvement cannot be assessed.
+  - **Why it matters** This is the primary selling point of the method. If the improvement is not robust across cell types, antibodies, or sequencing depths, the advantage over existing methods may be overstated. The claim also underpins the feasibility of single-chromosome mapping, which requires high per-cell coverage.
+  - **Resolution test** Provide the actual read count distributions for TIP-seq and comparator methods, with appropriate statistical comparisons (e.g., Wilcoxon rank-sum test). Show that the improvement holds across multiple biological replicates and antibody targets. Include sequencing depth normalization details.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and validation
+  - **Claim pointer** "Three of the five single cells yielded ample DNA to be pooled for sequencing" and "those three cells delivered profiles remarkably resembling those of bulk samples"
+  - **Evidence pointer** Results section, Figure 1E (not provided)
+  - **Concern** The single-cell demonstration is based on only three cells, with no indication of replication across independent experiments. The criteria for "ample DNA" and "remarkably resembling" are not defined. No quantitative metrics (e.g., correlation coefficients, fraction of reads in peaks) are provided in the text. This is a very small sample size for a method that is intended to profile single cells at scale.
+  - **Why it matters** Single-cell methods are inherently noisy, and a demonstration on three cells does not establish reproducibility. If the method is to be adopted, users need to know the expected success rate, failure modes, and variability across cells.
+  - **Resolution test** Provide data from multiple independent experiments, with a defined pass/fail criterion for single-cell libraries. Show representative single-cell profiles with quantitative similarity metrics to bulk data. Report the proportion of cells that pass quality filters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Single-chromosome mapping enabled by high coverage sciTIP data" and "sites with substantial differences in occupancy between the Cas and 129 alleles were easily identified by visual inspection"
+  - **Evidence pointer** Results section, Figure 5 (not provided)
+  - **Concern** The claim of single-chromosome mapping is based on visual inspection of allele-specific reads, with no statistical framework described. The text does not explain how allele assignment was performed, how read depth at informative SNPs was modeled, or how false positives were controlled. The density of one SNP per 150 bp is mentioned, but the expected number of informative reads per locus is not discussed.
+  - **Why it matters** Allele-specific analysis is prone to technical artifacts, including mapping bias and differential PCR amplification. Without a rigorous statistical approach, the reported differences in occupancy between alleles could be noise. This is a strong claim that requires robust evidence.
+  - **Resolution test** Describe the allele assignment pipeline in detail, including how mapping bias was addressed. Provide a statistical model for detecting allele-specific occupancy, with false discovery rate control. Validate a subset of allele-specific sites by an orthogonal method (e.g., allele-specific ChIP or CUT&Tag in the same cell line).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and validation
+  - **Claim pointer** "TIP-seq will also be adaptable for other platforms, such as 10X genomics and ICELL8"
+  - **Evidence pointer** Discussion section
+  - **Concern** This is presented as a future possibility without any preliminary data. The adaptation to droplet-based platforms is not trivial, as the T7 linear amplification step may not be compatible with the reagents or workflows of commercial platforms. No evidence is provided that the method can be transferred.
+  - **Why it matters** The claim of adaptability is used to position the method as broadly useful. If this is speculative, it should be clearly labeled as such. Overstating potential applications can mislead readers about the current state of the method.
+  - **Resolution test** Either remove the claim or provide proof-of-principle data showing TIP-seq compatibility with at least one alternative platform.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method name and abbreviation
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The method is introduced as "TIP-seq" in the title and abstract, but the introduction states "T argeted I nserton of P romoters (Tip-seq)" with inconsistent capitalization. The abbreviation "sciTIP-seq" is used later without a clear definition at first use.
+  - **Required correction** Standardize the naming convention throughout the manuscript and define "sciTIP-seq" at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability
+  - **Evidence pointer** Data Availability section
+  - **Issue** The GEO accession is listed as "XXXXXXXXX (pending)" and the GitHub repository is provided. The manuscript would benefit from a statement about when the data will be publicly available, especially if the authors intend to submit for publication.
+  - **Required correction** Provide a timeline for data release or state that data will be available upon publication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Protocol description
+  - **Evidence pointer** Results section, TIP-seq design
+  - **Issue** The text mentions "see supplementary data for custom oligos" but does not describe the design of the T7-MEDS transposons in sufficient detail. The optimization of the T7 promoter sequence is referenced but not explained.
+  - **Required correction** Include a brief description of the T7-MEDS design and any optimization steps in the main text or refer to a specific supplementary section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Comparison to existing methods
+  - **Evidence pointer** Discussion section
+  - **Issue** The comparisons to other methods (e.g., "87-fold 10x Genomics scCnT; 25-fold ACT-seq; ∼10-fold CoBATCH and Paired-Tag") are presented as single numbers without confidence intervals or consideration of batch effects. The methods being compared may have been run in different laboratories with different protocols.
+  - **Required correction** Provide a more nuanced comparison, acknowledging potential confounders and presenting the range of values observed across replicates.
+- **Technical failings that need to be addressed before the case is established** The manuscript does not provide sufficient evidence to establish the central claims. The lack of visible figures and tables means that the quantitative performance metrics cannot be verified. The single-cell demonstration is based on an extremely small sample size. The single-chromosome mapping claim lacks a statistical framework. The comparison to existing methods is presented without appropriate statistical rigor. These issues must be addressed before the case for the method's superiority is established.
+- **Assessment against Nature-style criteria** Originality: The combination of T7-based linear amplification with CUT&Tag chemistry is a novel adaptation, though it builds on existing concepts. Scientific importance: If validated, the method could address a real need for higher coverage in single-cell protein:DNA mapping. Interdisciplinary readership: The method would appeal to epigenomics, single-cell biology, and genomics communities. Technical soundness: Not assessable from the supplied text due to missing figures and quantitative data. Readability for nonspecialists: The introduction and discussion are generally clear, but the results section assumes familiarity with the methods and lacks sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the visible text does not contain enough quantitative data to support the claims. The authors should be encouraged to resubmit with full figures, tables, and statistical analyses.
+
+## Risk / unsupported claims
+- The claim of "∼10-fold higher unique reads" per cell compared to state-of-the-art methods is unsupported in the visible text.
+- The claim of "high signal-to-noise" based on median FRiP scores of 75% is not verifiable without the underlying data.
+- The claim of "single-chromosome mapping" is unsupported without a statistical framework for allele-specific analysis.
+- The claim of adaptability to 10X Genomics and ICELL8 platforms is speculative and unsupported.
+- The claim that TIP-seq libraries were "not even sequenced to saturation" is an inference that cannot be evaluated without sequencing depth information.
+- The comparison to other methods (87-fold, 25-fold, 10-fold improvements) is presented without statistical context or confidence intervals.

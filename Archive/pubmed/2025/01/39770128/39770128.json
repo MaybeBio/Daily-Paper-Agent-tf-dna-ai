@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "39770128",
+    "doi": "10.3390/molecules29246040",
+    "title": "In Silico Design of Dual Estrogen Receptor and Hsp90 Inhibitors for ER-Positive Breast Cancer Through a Mixed Ligand/Structure-Based Approach."
+  },
+  "content": {
+    "abstract": "Breast cancer remains one of the most prevalent and lethal malignancies in women, particularly the estrogen receptor-positive (ER+) subtype, which accounts for approximately 70% of cases. Traditional endocrine therapies, including aromatase inhibitors, selective estrogen receptor degraders/antagonists (SERDs), and selective estrogen receptor modulators (SERMs), have improved outcomes for metastatic ER+ breast cancer. However, resistance to these agents presents a significant challenge. This study explores a novel therapeutic strategy involving the simultaneous inhibition of the estrogen receptor (ER) and the chaperone protein Hsp90, which is crucial for the stabilization of various oncoproteins, including ER itself. We employed a hybrid, hierarchical in silico virtual screening approach to identify new dual ER/Hsp90 inhibitors, utilizing the Biotarget Predictor Tool (BPT) for efficient multitarget screening of a large compound library. Subsequent structure-based studies, including molecular docking analyses, were conducted to further evaluate the interaction of the top candidates with both ER and Hsp90. Supporting this, molecular dynamics simulations demonstrate the high stability of the multitarget inhibitor 755435 in complex with ER and Hsp90. Our findings suggest that several small molecules, particularly compound 755435, exhibit promising potential as dual inhibitors, representing a new avenue to overcome resistance in ER+ breast cancer.",
+    "keywords": [
+      "DRUDIT",
+      "Hsp90 inhibition",
+      "NCI database",
+      "breast cancer",
+      "endocrine resistance",
+      "estrogen receptor (ER)",
+      "multitarget drug design"
+    ],
+    "mesh_terms": [
+      "*HSP90 Heat-Shock Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "Humans",
+      "*Breast Neoplasms/drug therapy/metabolism/pathology",
+      "Female",
+      "*Molecular Docking Simulation",
+      "*Receptors, Estrogen/metabolism/antagonists & inhibitors",
+      "Ligands",
+      "*Drug Design",
+      "Computer Simulation",
+      "Molecular Dynamics Simulation",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "La Monica, Gabriele",
+        "Alamia, Federica",
+        "Bono, Alessia",
+        "Mingoia, Francesco",
+        "Martorana, Annamaria",
+        "Lauria, Antonino"
+      ],
+      "short_names": [
+        "La Monica G",
+        "Alamia F",
+        "Bono A",
+        "Mingoia F",
+        "Martorana A",
+        "Lauria A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6510-1943",
+        "ORCID: 0009-0004-8281-3511",
+        "ORCID: 0000-0002-9283-4920",
+        "ORCID: 0000-0002-9106-4602",
+        "ORCID: 0000-0002-9560-1882",
+        "ORCID: 0000-0002-5116-6815"
+      ],
+      "affiliations": [
+        "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy.",
+        "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy.",
+        "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy.",
+        "Istituto per lo Studio dei Materiali Nanostrutturati, Consiglio Nazionale delle Ricerche (CNR), 90128 Palermo, Italy.",
+        "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy.",
+        "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy.",
+        "NBFC-National Biodiversity Future Center, Piazza Marina 61, 90133 Palermo, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "La Monica, Gabriele",
+        "short_name": "La Monica G",
+        "identifiers": [
+          "0000-0001-6510-1943"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Alamia, Federica",
+        "short_name": "Alamia F",
+        "identifiers": [
+          "0009-0004-8281-3511"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Bono, Alessia",
+        "short_name": "Bono A",
+        "identifiers": [
+          "0000-0002-9283-4920"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Mingoia, Francesco",
+        "short_name": "Mingoia F",
+        "identifiers": [
+          "0000-0002-9106-4602"
+        ],
+        "affiliations": [
+          "Istituto per lo Studio dei Materiali Nanostrutturati, Consiglio Nazionale delle Ricerche (CNR), 90128 Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Martorana, Annamaria",
+        "short_name": "Martorana A",
+        "identifiers": [
+          "0000-0002-9560-1882"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Lauria, Antonino",
+        "short_name": "Lauria A",
+        "identifiers": [
+          "0000-0002-5116-6815"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze e Tecnologie Biologiche Chimiche e Farmaceutiche \"STEBICEF\", University of Palermo, Viale delle Scienze, Ed. 17, 90128 Palermo, Italy.",
+          "NBFC-National Biodiversity Future Center, Piazza Marina 61, 90133 Palermo, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2024 Dec 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/08 06:20",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "42233169",
+      "40430266"
+    ],
+    "refs": [
+      "39126794",
+      "38809993",
+      "38788968",
+      "38632167",
+      "37762072",
+      "37584263",
+      "37176082",
+      "37019913",
+      "36933095",
+      "36901954",
+      "36791960",
+      "35887137",
+      "35575456",
+      "35115765",
+      "34569020",
+      "33451133",
+      "32722574",
+      "32352777",
+      "32330493",
+      "32289273",
+      "32183020",
+      "31793427",
+      "31605102",
+      "31548545",
+      "30745292",
+      "29289555",
+      "28831912",
+      "28256516",
+      "27865536",
+      "27457520",
+      "26271713",
+      "25471040",
+      "25262379",
+      "23579614",
+      "23219286",
+      "22652777",
+      "22062686",
+      "22033063",
+      "20148675",
+      "18673171",
+      "18400751",
+      "17145705",
+      "16884307",
+      "16492153",
+      "16420040",
+      "16211539",
+      "14971899",
+      "14529388",
+      "10592235",
+      "9875847"
+    ],
+    "similar": [
+      "39770128",
+      "29289555",
+      "36142451",
+      "34623477",
+      "36395883",
+      "30939353",
+      "14581371",
+      "26277488",
+      "20926342",
+      "35839531",
+      "38870830",
+      "37037140",
+      "33138369",
+      "34923243",
+      "31463793",
+      "31493740",
+      "26622167",
+      "39353239",
+      "32738983",
+      "34957309",
+      "15862952",
+      "32088420",
+      "37163948",
+      "34364162",
+      "39593108",
+      "33278557",
+      "37241915",
+      "25579569",
+      "21875802",
+      "32527460",
+      "29698859",
+      "36838758",
+      "39601982",
+      "34044120",
+      "38997071",
+      "31995002",
+      "23860250",
+      "38567308",
+      "38642015",
+      "30822713",
+      "36229710",
+      "27376491",
+      "37019030",
+      "32962253",
+      "14687597",
+      "34328178",
+      "28641528",
+      "28396978",
+      "31757413",
+      "39036940",
+      "36374739",
+      "38971048",
+      "17699868",
+      "39543364",
+      "29307843",
+      "36201273",
+      "23844554",
+      "18430202",
+      "21362200",
+      "33563187",
+      "21129614",
+      "28666484",
+      "11162936",
+      "19685544",
+      "34360578",
+      "31129450",
+      "26277097",
+      "29141657",
+      "21144839",
+      "25879485",
+      "37377342",
+      "30017966",
+      "25429654",
+      "37762072",
+      "33610801",
+      "27804852",
+      "31878959",
+      "15231664",
+      "15269596",
+      "29321504",
+      "40275985",
+      "11448926",
+      "37409735",
+      "38006310",
+      "27783977",
+      "31717777",
+      "38788300",
+      "10731120",
+      "21715568",
+      "24018284",
+      "16789891",
+      "22706627",
+      "29189179",
+      "33610655",
+      "34844036",
+      "23707773",
+      "32130619",
+      "34392831",
+      "30451119",
+      "34022716"
+    ],
+    "review": [
+      "39770128",
+      "29289555",
+      "34623477",
+      "20926342",
+      "35839531",
+      "37163948",
+      "38997071",
+      "38567308",
+      "38642015",
+      "36229710",
+      "14687597",
+      "36374739",
+      "36201273",
+      "21129614",
+      "11162936",
+      "19685544",
+      "34360578",
+      "31129450",
+      "26277097",
+      "37377342",
+      "25429654",
+      "33610801",
+      "15269596",
+      "40275985",
+      "10731120",
+      "22706627",
+      "34392831"
+    ],
+    "pmc": [
+      "11676166"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules29246040",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39770128/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

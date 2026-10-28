@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, availability, supplementary methods) as provided.
+- **Assessment boundary** Scientific and technical soundness of the claims made in the manuscript, based solely on the provided text. No external verification of data, code, or datasets was performed.
+- **Shared manuscript claim summary** The authors present DeepRank-GNN-esm, a graph neural network that incorporates ESM-2 protein language model embeddings as features for scoring protein-protein interaction models. They claim that ESM-2 embeddings can replace PSSM features without performance loss, and that combining both features improves performance. They also report a significant computational speedup in feature generation and demonstrate applicability to a second task: distinguishing biological from crystallographic interfaces.
+- **Visible evidence base** Abstract, Introduction, Section 2 (Materials and methods, including datasets, graph generation, model training), Section 3 (Results, including cross-validation, independent test sets, CAPRI comparison, crystal artifact classification), Section 4 (Conclusions), Section 5 (Availability), Supplementary Methods 1 and 2, references to Supplementary Figures S1-S6 and Tables S1-S2.
+- **Missing materials affecting confidence** Full details of model architecture (layer sizes, number of parameters, regularization), hyperparameter tuning procedure, exact definitions of evaluation metrics beyond those in Supplementary Method 2, the actual values of all metrics for all models on all test sets (only partial values are reported in text), statistical significance testing, details of the crystal artifact classification task (e.g., class balance, training procedure), and the content of all supplementary figures and tables.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a practical and timely problem: replacing computationally expensive PSSM features with protein language model embeddings in a graph neural network for protein-protein model scoring. The core claim, that ESM-2 embeddings can substitute PSSMs without performance loss, is plausible and supported by the reported results, though the evidence base is incomplete in several important respects. The computational speedup claim is compelling and well-quantified. However, the manuscript has several technical weaknesses that need to be addressed before the case is fully established, including incomplete reporting of results, lack of statistical rigor, and some ambiguity in the description of the methods and comparisons.
+- **Who would be interested in the results, and why** Researchers in structural bioinformatics, specifically those working on protein-protein docking, model scoring, and deep learning approaches for structural biology. The work is also relevant to the broader community interested in applying protein language models to downstream tasks. The practical benefit of removing the PSSM dependency will be of interest to practitioners who find PSSM generation a bottleneck.
+- **Major strengths** The problem addressed is relevant and the proposed solution is practical. The use of ESM-2 embeddings is well-motivated and the comparison against PSSM-based features is a sensible and important experiment. The reported computational speedup is substantial and clearly quantified. The application to a second, distinct task (crystal artifact detection) strengthens the generalizability claim. The software is made freely available, which is a positive contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DeepRank-GNN-esm-pssm outperforms the original DeepRank-GNN model, with specific increases in F1 (7.78%) and MCC (8.40%), and a higher R2 (0.916 vs 0.826).
+  - **Evidence pointer** Section 3.1, Table 2, Supplementary Figure S5
+  - **Concern** The reported improvements are based on a single training run of the final model. No information is provided about the variance of these metrics across multiple training runs or seeds. Given the known sensitivity of deep learning models to initialization and the relatively small dataset size, it is unclear whether these differences are statistically significant. The cross-validation results (average AUC 0.639±0.054) show substantial variance, which raises questions about the stability of the reported improvements.
+  - **Why it matters** Without an estimate of variance or statistical testing, the reader cannot assess whether the claimed improvements are robust or simply due to chance. This is critical for the central claim of the paper.
+  - **Resolution test** Provide metrics (mean and standard deviation) for all models across multiple training runs (e.g., at least 5 different seeds). Perform a statistical test (e.g., paired t-test or Wilcoxon signed-rank test) comparing the performance of DeepRank-GNN-esm-pssm and DeepRank-GNN on the independent test set. Report the results of these tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DeepRank-GNN-esm, which excludes PSSM features, demonstrates superiority over the original DeepRank-GNN model, with a 7.43% increase in recall and a 7.04% increase in MCC.
+  - **Evidence pointer** Section 3.2, Table 2
+  - **Concern** The same issue as R1-M1 applies here. Additionally, the text states that DeepRank-GNN-esm "demonstrated superiority" but only two metrics are mentioned (recall and MCC). It is unclear what the values of the other metrics (precision, F1, R2, Pearson correlation) are for this model. The absence of a full comparison makes it difficult to assess the overall performance profile of the model.
+  - **Why it matters** The claim of "no performance loss" when substituting PSSM with ESM embeddings is a key finding. A partial reporting of metrics weakens this claim. The reader needs to see the full set of metrics to judge whether the substitution is truly lossless across all relevant dimensions.
+  - **Resolution test** Report the full set of metrics (precision, recall, F1, MCC, R2, Pearson correlation) for DeepRank-GNN-esm, DeepRank-GNN-esm-pssm, and DeepRank-GNN on the independent test set, with variance estimates across multiple runs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The description of the model training procedure, including the architecture and hyperparameters.
+  - **Evidence pointer** Section 2.3, Table 1
+  - **Concern** The manuscript states that the model architecture was "adapted" from DeepRank-GNN but does not provide sufficient detail on the specific changes made. The number of layers, hidden dimensions, dropout rates, and other architectural details are not specified. The hyperparameter tuning procedure is not described. This makes it difficult for others to reproduce the results or understand the contribution of the ESM embeddings independent of other architectural changes.
+  - **Why it matters** Reproducibility is a cornerstone of scientific publication. Without a complete description of the model and training procedure, the work cannot be independently verified or built upon.
+  - **Resolution test** Provide a complete description of the model architecture (e.g., in a table or figure), including all hyperparameters and the training procedure. State clearly what was changed compared to the original DeepRank-GNN.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "there is no significant increase in model inference time associated with the use of protein language model features."
+  - **Evidence pointer** Section 3.3, Supplementary Table S2
+  - **Concern** The text mentions this claim but does not provide the actual inference time measurements in the main text. The reader is referred to Supplementary Table S2, the content of which is not available in the provided material. Without the actual numbers, this claim cannot be evaluated.
+  - **Why it matters** Inference time is a practical consideration for users. The claim is made but not substantiated in the visible text.
+  - **Resolution test** Report the actual inference time measurements in the main text or in a table that is fully described.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "EMS-2 model" (typo)
+  - **Issue** The abstract contains a typo: "EMS-2 model" should be "ESM-2 model".
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, "Supplementary Figure 5"
+  - **Issue** The text refers to "Supplementary Figure 5" but elsewhere uses the format "Supplementary Figure S5". Inconsistent numbering format.
+  - **Required correction** Use a consistent format for supplementary figure references.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, "In the CAPRI score set, the DeepRank-GNN-esm model exhibits the highest predictive performance (69.2% top50), in par with iScore and GNN-Dove"
+  - **Issue** The phrase "in par with" should be "on par with".
+  - **Required correction** Correct the grammatical error.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, "The training results show that the DeepRank-GNN-esm-pssm model, which combines PSSMs and ESM embeddings, outperformed the original DeepRank-GNN model with a 7.78% increase in F1 and an 8.40% increase in MCC"
+  - **Issue** The text says "The training results show" but the metrics are presumably from the evaluation on the independent test set, not the training set. This is ambiguous.
+  - **Required correction** Clarify whether these metrics are from the training set, validation set, or independent test set.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, "Combining the DeepRank-GNN-esm model with iScore predictions could potentially yield even better predictions."
+  - **Issue** This statement is speculative and not supported by any data presented in the manuscript. It reads as an afterthought.
+  - **Required correction** Either remove the statement or provide a brief justification for why this combination might be beneficial.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 (lack of statistical rigor and incomplete reporting of results) are the primary technical failings. R1-M3 (incomplete model description) is also important for reproducibility. R1-M4 (unsubstantiated inference time claim) needs to be addressed.
+
+## Risk / unsupported claims
+- The claim that ESM-2 embeddings can substitute PSSM features "at no cost in-, or even better performance" is only partially supported by the reported metrics. The full set of metrics for the DeepRank-GNN-esm model is not reported, and no statistical significance testing is provided.
+- The claim that combining PSSMs and ESM embeddings "does lead to an improvement in overall scoring performance" is based on a single comparison of the final model, without variance estimates.
+- The claim of "no significant increase in model inference time" is not substantiated with actual measurements in the visible text.
+- The statement that "DeepRank-GNN-esm is the first method to apply protein language models in graph neural networks for protein-protein models evaluation tasks" is a strong claim that is not supported by a comprehensive literature review in the provided text.
+- The claim that the improved performance is due to "more features (1328) and additional information" is speculative and not directly tested (e.g., by an ablation study that adds features of similar dimensionality without ESM content).

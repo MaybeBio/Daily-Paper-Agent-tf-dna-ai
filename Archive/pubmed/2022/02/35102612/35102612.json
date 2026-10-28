@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "35102612",
+    "doi": "10.1111/iju.14795",
+    "title": "Supervised machine learning algorithm identified KRT20, BATF and TP63 as biologically relevant biomarkers for bladder biopsy specimens from interstitial cystitis/bladder pain syndrome patients."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: This study was carried out to identify biomarkers that distinguish Hunner-type interstitial cystitis from non-Hunner-type interstitial cystitis patients. METHODS: Total ribonucleic acid was purified from 212 punch biopsy specimens of 89 individuals who were diagnosed as interstitial cystitis/bladder pain syndrome. To examine the expression profile of patients' bladder specimens, 68 urothelial master transcription factors and nine known markers (E-cadherin, cytokeratins, uroplakins and sonic hedgehog) were selected. To classify the biopsy samples, principal component analysis was carried out. A decision tree algorithm was adopted to identify critical determinants, in which 102 and 116 bladder specimens were used for learning and validation, respectively. RESULTS: Principal component analysis segregated tissues from Hunner-type and non-Hunner-type interstitial cystitis specimens in principal component axes 2 and 4. Principal components 2 and 4 contained urothelial stem/progenitor transcription factors and cytokeratins, respectively. A decision tree identified KRT20, BATF and TP63 to classify non-Hunner-type and Hunner-type interstitial cystitis specimens. KRT20 was lower in tissues from Hunner-type compared with non-Hunner-type interstitial cystitis specimens (P < 0.001). TP63 was lower in Hunner's lesions compared with adjacent mucosa from Hunner-type interstitial cystitis patients (P < 0.001). Blinded validation using additional biopsy specimens verified that the decision tree showed fairly precise concordance with cystoscopic diagnosis. CONCLUSION: KRT20, BATF and TP63 were identified as biologically relevant biomarkers to classify tissues from interstitial cystitis/bladder pain syndrome specimens. The biologically explainable determinants could contribute to defining the elusive interstitial cystitis/bladder pain syndrome pathogenesis.",
+    "keywords": [
+      "BATF",
+      "KRT20",
+      "TP63",
+      "Hunner type",
+      "bladder pain syndrome",
+      "decision tree",
+      "interstitial cystitis",
+      "principal component analysis",
+      "supervised machine learning"
+    ],
+    "mesh_terms": [
+      "Basic-Leucine Zipper Transcription Factors/metabolism",
+      "Biomarkers/metabolism",
+      "Biopsy",
+      "*Cystitis, Interstitial/pathology",
+      "Female",
+      "Hedgehog Proteins/metabolism",
+      "Humans",
+      "Keratin-20",
+      "Male",
+      "Supervised Machine Learning",
+      "Transcription Factors/metabolism",
+      "Tumor Suppressor Proteins/metabolism",
+      "Urinary Bladder/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamasako, Tomohiko",
+        "Kaga, Kanya",
+        "Inoue, Ken-Ichi",
+        "Hariyama, Masanori",
+        "Yamanishi, Tomonori"
+      ],
+      "short_names": [
+        "Kamasako T",
+        "Kaga K",
+        "Inoue KI",
+        "Hariyama M",
+        "Yamanishi T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3183-5428",
+        "ORCID: 0000-0001-9532-1867",
+        "ORCID: 0000-0003-2040-7812"
+      ],
+      "affiliations": [
+        "Department of Urology, Continence Center, Dokkyo Medical University, Tochigi, Japan.",
+        "Department of Urology, Continence Center, Dokkyo Medical University, Tochigi, Japan.",
+        "Comprehensive Research Facilities for Advanced Medical Science, Research Center for Advanced Medical Science, Dokkyo Medical University, Tochigi, Japan.",
+        "Graduate School of Information Sciences, Tohoku University, Sendai, Japan.",
+        "Department of Urology, Continence Center, Dokkyo Medical University, Tochigi, Japan.",
+        "Department of Urology, Graduate School of Medicine, Chiba University, Chiba, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamasako, Tomohiko",
+        "short_name": "Kamasako T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Continence Center, Dokkyo Medical University, Tochigi, Japan."
+        ]
+      },
+      {
+        "full_name": "Kaga, Kanya",
+        "short_name": "Kaga K",
+        "identifiers": [
+          "0000-0002-3183-5428"
+        ],
+        "affiliations": [
+          "Department of Urology, Continence Center, Dokkyo Medical University, Tochigi, Japan."
+        ]
+      },
+      {
+        "full_name": "Inoue, Ken-Ichi",
+        "short_name": "Inoue KI",
+        "identifiers": [
+          "0000-0001-9532-1867"
+        ],
+        "affiliations": [
+          "Comprehensive Research Facilities for Advanced Medical Science, Research Center for Advanced Medical Science, Dokkyo Medical University, Tochigi, Japan."
+        ]
+      },
+      {
+        "full_name": "Hariyama, Masanori",
+        "short_name": "Hariyama M",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Information Sciences, Tohoku University, Sendai, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamanishi, Tomonori",
+        "short_name": "Yamanishi T",
+        "identifiers": [
+          "0000-0003-2040-7812"
+        ],
+        "affiliations": [
+          "Department of Urology, Continence Center, Dokkyo Medical University, Tochigi, Japan.",
+          "Department of Urology, Graduate School of Medicine, Chiba University, Chiba, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of urology : official journal of the Japanese Urological Association"
+    ],
+    "journal_abbrev": [
+      "Int J Urol"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/02 06:00",
+    "fetched_at": "2026-09-28 04:46:35"
+  },
+  "links": {
+    "cites": [
+      "36982676"
+    ],
+    "refs": [],
+    "similar": [
+      "35102612",
+      "35124850",
+      "28626955",
+      "27575016",
+      "31144750",
+      "32223699",
+      "31144757",
+      "33966299",
+      "24807505",
+      "25596361",
+      "28394416",
+      "27117441",
+      "22177197",
+      "31144756",
+      "29225061",
+      "32291805",
+      "27378135",
+      "30865573",
+      "33160333",
+      "29653163",
+      "31144731",
+      "26587589",
+      "29955137",
+      "30010251",
+      "31144759",
+      "25595860",
+      "23670165",
+      "17991529",
+      "24807507",
+      "34929761",
+      "32902893",
+      "34774029",
+      "34694138",
+      "32246572",
+      "29315774",
+      "37688290",
+      "34876093",
+      "35896088",
+      "27218442",
+      "34399738",
+      "32856961",
+      "31258947",
+      "37750459",
+      "30187950",
+      "9123682",
+      "35307976",
+      "38551071",
+      "29065222",
+      "34446784",
+      "36874607",
+      "29580781",
+      "36233356",
+      "35342305",
+      "32830459",
+      "23083651",
+      "26208131",
+      "34218637",
+      "11378053",
+      "34943475",
+      "32217920",
+      "29764932",
+      "30015351",
+      "39267358",
+      "24807500",
+      "24807503",
+      "38255860",
+      "35512665",
+      "31959549",
+      "35054241",
+      "33308017",
+      "22775390",
+      "32619597",
+      "29048741",
+      "24840534",
+      "38842512",
+      "22901569",
+      "28595240",
+      "38867432",
+      "25794095",
+      "34143561",
+      "36498919",
+      "18353383",
+      "30916629",
+      "33942362",
+      "35333929",
+      "11061878",
+      "24698414",
+      "35368185",
+      "27339056",
+      "35704106",
+      "23937072",
+      "18707698",
+      "30945347",
+      "32107957",
+      "37866931",
+      "21883848",
+      "29385787",
+      "28202356",
+      "32869495",
+      "31254048"
+    ],
+    "review": [
+      "35102612",
+      "32223699",
+      "31144757",
+      "31144756",
+      "31144731",
+      "32246572",
+      "37750459",
+      "34943475",
+      "30015351",
+      "39267358",
+      "35512665",
+      "35054241",
+      "38867432",
+      "36498919"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/interstitialcystitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Interstitial Cystitis"
+      },
+      {
+        "url": "https://www.ovid.com/35102612.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/iju.14795",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35809062",
+  "title": "DiffChIPL: a differential peak analysis method for high-throughput sequencing data with biological replicates based on limma.",
+  "authors": "Chen, Yang; Chen, Shue; Lei, Elissa P",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-07-10",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于limma的ChIP-seq差异峰分析方法，虽涉及蛋白-DNA互作检测，但聚焦于统计差异分析而非结合位点预测或互作机制建模，且方法为统计模型而非AI或物理模拟，与课题核心匹配度较低。",
+  "abstract": "MOTIVATION: ChIP-seq detects protein-DNA interactions within chromatin, such as that of chromatin structural components and transcription machinery. ChIP-seq profiles are often noisy and variable across replicates, posing a challenge to the development of effective algorithms to accurately detect differential peaks. Methods have recently been designed for this purpose but sometimes yield conflicting results that are inconsistent with the underlying biology. Most existing algorithms perform well on limited datasets. To improve differential analysis of ChIP-seq, we present a novel Differential analysis method for ChIP-seq based on Limma (DiffChIPL). RESULTS: DiffChIPL is adaptive to asymmetrical or symmetrical data and can accurately report global differences. We used simulated and real datasets for transcription factors (TFs) and histone modification marks to validate and benchmark our algorithm. DiffChIPL shows superior performance in sensitivity and false positive rate in different simulations and control datasets. DiffChIPL also performs well on real ChIP-seq, CUT&RUN, CUT&Tag and ATAC-seq datasets. DiffChIPL is an accurate and robust method, exhibiting better performance in differential analysis for a variety of applications including TF binding, histone modifications and chromatin accessibility. AVAILABILITY AND IMPLEMENTATION: https://github.com/yancychy/DiffChIPL. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：ChIP-seq技术可检测染色质内的蛋白质-DNA相互作用，例如染色质结构组分和转录机制之间的相互作用。ChIP-seq图谱通常噪声较大，且在不同重复样本间存在变异性，这对开发有效算法以准确检测差异峰构成了挑战。近期已有方法为此目的而设计，但有时会产生与潜在生物学不一致的冲突结果。大多数现有算法在有限数据集上表现良好。为了改进ChIP-seq的差异分析，我们提出了一种基于Limma的新型ChIP-seq差异分析方法（DiffChIPL）。结果：DiffChIPL适应于不对称或对称数据，并能准确报告全局差异。我们使用模拟和真实数据集，针对转录因子（TFs）和组蛋白修饰标记，验证并基准测试了我们的算法。DiffChIPL在不同模拟和对照数据集中，在敏感性和假阳性率方面表现出优越性能。DiffChIPL在真实ChIP-seq、CUT&RUN、CUT&Tag和ATAC-seq数据集上也表现良好。DiffChIPL是一种准确且稳健的方法，在包括转录因子结合、组蛋白修饰和染色质可及性等多种应用的差异分析中展现出更好的性能。可用性与实现：https://github.com/yancychy/DiffChIPL。补充信息：补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35809062/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35809062/",
+  "paper_page_path": "papers/pubmed/35809062/index.html"
+}

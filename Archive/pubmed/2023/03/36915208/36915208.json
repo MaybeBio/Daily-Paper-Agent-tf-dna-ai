@@ -1,0 +1,574 @@
+{
+  "identity": {
+    "pmid": "36915208",
+    "doi": "10.1186/s13073-023-01165-8",
+    "title": "Pharmacogenomic profiling reveals molecular features of chemotherapy resistance in IDH wild-type primary glioblastoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although temozolomide (TMZ) has been used as a standard adjuvant chemotherapeutic agent for primary glioblastoma (GBM), treating isocitrate dehydrogenase wild-type (IDH-wt) cases remains challenging due to intrinsic and acquired drug resistance. Therefore, elucidation of the molecular mechanisms of TMZ resistance is critical for its precision application. METHODS: We stratified 69 primary IDH-wt GBM patients into TMZ-resistant (n = 29) and sensitive (n = 40) groups, using TMZ screening of the corresponding patient-derived glioma stem-like cells (GSCs). Genomic and transcriptomic features were then examined to identify TMZ-associated molecular alterations. Subsequently, we developed a machine learning (ML) model to predict TMZ response from combined signatures. Moreover, TMZ response in multisector samples (52 tumor sectors from 18 cases) was evaluated to validate findings and investigate the impact of intra-tumoral heterogeneity on TMZ efficacy. RESULTS: In vitro TMZ sensitivity of patient-derived GSCs classified patients into groups with different survival outcomes (P = 1.12e-4 for progression-free survival (PFS) and 3.63e-4 for overall survival (OS)). Moreover, we found that elevated gene expression of EGR4, PAPPA, LRRC3, and ANXA3 was associated to intrinsic TMZ resistance. In addition, other features such as 5-aminolevulinic acid negative, mesenchymal/proneural expression subtypes, and hypermutation phenomena were prone to promote TMZ resistance. In contrast, concurrent copy-number-alteration in PTEN, EGFR, and CDKN2A/B was more frequent in TMZ-sensitive samples (Fisher's exact P = 0.0102), subsequently consolidated by multi-sector sequencing analyses. Integrating all features, we trained a ML tool to segregate TMZ-resistant and sensitive groups. Notably, our method segregated IDH-wt GBM patients from The Cancer Genome Atlas (TCGA) into two groups with divergent survival outcomes (P = 4.58e-4 for PFS and 3.66e-4 for OS). Furthermore, we showed a highly heterogeneous TMZ-response pattern within each GBM patient using in vitro TMZ screening and genomic characterization of multisector GSCs. Lastly, the prediction model that evaluates the TMZ efficacy for primary IDH-wt GBMs was developed into a webserver for public usage ( http://www.wang-lab-hkust.com:3838/TMZEP ). CONCLUSIONS: We identified molecular characteristics associated to TMZ sensitivity, and illustrate the potential clinical value of a ML model trained from pharmacogenomic profiling of patient-derived GSC against IDH-wt GBMs.",
+    "keywords": [
+      "Cancer genomics",
+      "Glioblastoma",
+      "Intra-tumoral heterogeneity",
+      "Machine learning",
+      "Pharmacogenomics",
+      "Temozolomide"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioblastoma/drug therapy/genetics/metabolism",
+      "Pharmacogenetics",
+      "*Brain Neoplasms/drug therapy/genetics/metabolism",
+      "Temozolomide/pharmacology/therapeutic use",
+      "*Glioma/genetics",
+      "Drug Resistance, Neoplasm/genetics",
+      "Early Growth Response Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nam, Yoonhee",
+        "Koo, Harim",
+        "Yang, Yingxi",
+        "Shin, Sang",
+        "Zhu, Zhihan",
+        "Kim, Donggeon",
+        "Cho, Hee Jin",
+        "Mu, Quanhua",
+        "Choi, Seung Won",
+        "Sa, Jason K",
+        "Seo, Yun Jee",
+        "Kim, Yejin",
+        "Lee, Kyoungmin",
+        "Oh, Jeong-Woo",
+        "Kwon, Yong-Jun",
+        "Park, Woong-Yang",
+        "Kong, Doo-Sik",
+        "Seol, Ho Jun",
+        "Lee, Jung-Il",
+        "Park, Chul-Kee",
+        "Lee, Hye Won",
+        "Yoon, Yeup",
+        "Wang, Jiguang"
+      ],
+      "short_names": [
+        "Nam Y",
+        "Koo H",
+        "Yang Y",
+        "Shin S",
+        "Zhu Z",
+        "Kim D",
+        "Cho HJ",
+        "Mu Q",
+        "Choi SW",
+        "Sa JK",
+        "Seo YJ",
+        "Kim Y",
+        "Lee K",
+        "Oh JW",
+        "Kwon YJ",
+        "Park WY",
+        "Kong DS",
+        "Seol HJ",
+        "Lee JI",
+        "Park CK",
+        "Lee HW",
+        "Yoon Y",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6923-4097"
+      ],
+      "affiliations": [
+        "Division of Life Science and State Key Laboratory of Molecular Neuroscience, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+        "Department of Biomedical Sciences, Korea University College of Medicine, Seoul, South Korea.",
+        "Department of Cancer Biomedical Science, Graduate School of Cancer Science and Policy, National Cancer Center, Goyang, South Korea.",
+        "Department of Clinical Research, Research Institute and Hospital, National Cancer Center, Goyang, South Korea.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+        "Department of Biomedical Convergence Science and Technology, School of Convergence, Kyungpook National University, Daegu, South Korea.",
+        "Cell and Matrix Research Institute, Kyungpook National University, Daegu, South Korea.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China.",
+        "Program for Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Department of Biomedical Sciences, Korea University College of Medicine, Seoul, South Korea.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+        "Department of Health Sciences and Technology, Samsung Advanced Institute for Health Sciences and Technology, Sungkyunkwan University, Seoul, South Korea.",
+        "Samsung Genome Institute, Samsung Medical Center, Seoul, South Korea.",
+        "Department of Neurosurgery, Samsung Medical Center and Sungkyunkwan University School of Medicine, Seoul, South Korea.",
+        "Department of Neurosurgery, Samsung Medical Center and Sungkyunkwan University School of Medicine, Seoul, South Korea.",
+        "Department of Neurosurgery, Samsung Medical Center and Sungkyunkwan University School of Medicine, Seoul, South Korea.",
+        "Department of Neurosurgery, College of Medicine, Seoul National University and Seoul National University Hospital, Seoul, South Korea.",
+        "Department of Urology, Center for Urologic Cancer, National Cancer Center, Goyang, South Korea. nsproper@naver.com.",
+        "Department of Urology, Samsung Medical Center, Seoul, South Korea. nsproper@naver.com.",
+        "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea. benedict.yoon@samsung.com.",
+        "Department of Health Sciences and Technology, Samsung Advanced Institute for Health Sciences and Technology, Sungkyunkwan University, Seoul, South Korea. benedict.yoon@samsung.com.",
+        "Department of Biopharmaceutical Convergence, Sungkyunkwan University, Seoul, South Korea. benedict.yoon@samsung.com.",
+        "Division of Life Science and State Key Laboratory of Molecular Neuroscience, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China. jgwang@ust.hk.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China. jgwang@ust.hk.",
+        "Hong Kong Center for Neurodegenerative Diseases, InnoHK, Hong Kong SAR, China. jgwang@ust.hk.",
+        "HKUST Shenzhen-Hong Kong Collaborative Innovation Research Institute, Futian, Shenzhen, China. jgwang@ust.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nam, Yoonhee",
+        "short_name": "Nam Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Science and State Key Laboratory of Molecular Neuroscience, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Koo, Harim",
+        "short_name": "Koo H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea.",
+          "Department of Biomedical Sciences, Korea University College of Medicine, Seoul, South Korea.",
+          "Department of Cancer Biomedical Science, Graduate School of Cancer Science and Policy, National Cancer Center, Goyang, South Korea.",
+          "Department of Clinical Research, Research Institute and Hospital, National Cancer Center, Goyang, South Korea."
+        ]
+      },
+      {
+        "full_name": "Yang, Yingxi",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Shin, Sang",
+        "short_name": "Shin S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zhihan",
+        "short_name": "Zhu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Kim, Donggeon",
+        "short_name": "Kim D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Hee Jin",
+        "short_name": "Cho HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Convergence Science and Technology, School of Convergence, Kyungpook National University, Daegu, South Korea.",
+          "Cell and Matrix Research Institute, Kyungpook National University, Daegu, South Korea."
+        ]
+      },
+      {
+        "full_name": "Mu, Quanhua",
+        "short_name": "Mu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Choi, Seung Won",
+        "short_name": "Choi SW",
+        "identifiers": [],
+        "affiliations": [
+          "Program for Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Sa, Jason K",
+        "short_name": "Sa JK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, Korea University College of Medicine, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Seo, Yun Jee",
+        "short_name": "Seo YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Yejin",
+        "short_name": "Kim Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Kyoungmin",
+        "short_name": "Lee K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Oh, Jeong-Woo",
+        "short_name": "Oh JW",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Yong-Jun",
+        "short_name": "Kwon YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Woong-Yang",
+        "short_name": "Park WY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Sciences and Technology, Samsung Advanced Institute for Health Sciences and Technology, Sungkyunkwan University, Seoul, South Korea.",
+          "Samsung Genome Institute, Samsung Medical Center, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kong, Doo-Sik",
+        "short_name": "Kong DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Samsung Medical Center and Sungkyunkwan University School of Medicine, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Seol, Ho Jun",
+        "short_name": "Seol HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Samsung Medical Center and Sungkyunkwan University School of Medicine, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jung-Il",
+        "short_name": "Lee JI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Samsung Medical Center and Sungkyunkwan University School of Medicine, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Chul-Kee",
+        "short_name": "Park CK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, College of Medicine, Seoul National University and Seoul National University Hospital, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hye Won",
+        "short_name": "Lee HW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Center for Urologic Cancer, National Cancer Center, Goyang, South Korea. nsproper@naver.com.",
+          "Department of Urology, Samsung Medical Center, Seoul, South Korea. nsproper@naver.com."
+        ]
+      },
+      {
+        "full_name": "Yoon, Yeup",
+        "short_name": "Yoon Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Refractory Cancer Research, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea. benedict.yoon@samsung.com.",
+          "Department of Health Sciences and Technology, Samsung Advanced Institute for Health Sciences and Technology, Sungkyunkwan University, Seoul, South Korea. benedict.yoon@samsung.com.",
+          "Department of Biopharmaceutical Convergence, Sungkyunkwan University, Seoul, South Korea. benedict.yoon@samsung.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiguang",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-6923-4097"
+        ],
+        "affiliations": [
+          "Division of Life Science and State Key Laboratory of Molecular Neuroscience, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China. jgwang@ust.hk.",
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China. jgwang@ust.hk.",
+          "Hong Kong Center for Neurodegenerative Diseases, InnoHK, Hong Kong SAR, China. jgwang@ust.hk.",
+          "HKUST Shenzhen-Hong Kong Collaborative Innovation Research Institute, Futian, Shenzhen, China. jgwang@ust.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome medicine"
+    ],
+    "journal_abbrev": [
+      "Genome Med"
+    ],
+    "pub_date": "2023 Mar 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/15 06:00",
+    "fetched_at": "2026-09-28 21:34:16"
+  },
+  "links": {
+    "cites": [
+      "42104024",
+      "41828436",
+      "41037141",
+      "40698144",
+      "40478501",
+      "40225293",
+      "40222970",
+      "40129459",
+      "40002166",
+      "39727987",
+      "39286478",
+      "39123083",
+      "38444223",
+      "38201516",
+      "37593069"
+    ],
+    "refs": [
+      "35695190",
+      "34667950",
+      "34185076",
+      "32753598",
+      "32528873",
+      "32070411",
+      "31771620",
+      "31581092",
+      "30742119",
+      "30262818",
+      "30054476",
+      "29065900",
+      "28697342",
+      "28263318",
+      "27270107",
+      "27135972",
+      "26885285",
+      "26824661",
+      "26373279",
+      "26138051",
+      "26095609",
+      "25516281",
+      "24925914",
+      "24316756",
+      "24227677",
+      "23412777",
+      "23412337",
+      "23136223",
+      "23104886",
+      "23072665",
+      "22617325",
+      "22588877",
+      "22472960",
+      "22249269",
+      "22017800",
+      "21988793",
+      "20428759",
+      "19505943",
+      "19451168",
+      "18952979",
+      "17164975",
+      "16899408",
+      "16648043",
+      "15758010",
+      "15758009",
+      "15173079",
+      "11395428"
+    ],
+    "similar": [
+      "36915208",
+      "35836243",
+      "38710703",
+      "31398406",
+      "36499683",
+      "33400009",
+      "30771200",
+      "30102952",
+      "37620410",
+      "38773970",
+      "31462285",
+      "29016925",
+      "29991446",
+      "31088577",
+      "37894860",
+      "37175412",
+      "35008590",
+      "34625658",
+      "30431207",
+      "31614149",
+      "32036239",
+      "27739940",
+      "25886314",
+      "29897522",
+      "30917935",
+      "31236818",
+      "31540977",
+      "32296580",
+      "26683773",
+      "37895074",
+      "31215502",
+      "30980849",
+      "26566863",
+      "31363754",
+      "38296645",
+      "38332576",
+      "33408780",
+      "31542863",
+      "30336060",
+      "35673568",
+      "29740146",
+      "35380741",
+      "33028081",
+      "35895752",
+      "34586728",
+      "38448392",
+      "34278448",
+      "39090107",
+      "38477507",
+      "33057597",
+      "33765907",
+      "34536314",
+      "36517590",
+      "31045274",
+      "34638586",
+      "36652263",
+      "36980923",
+      "31053733",
+      "33417456",
+      "30529153",
+      "35267171",
+      "33628600",
+      "35730472",
+      "38992489",
+      "37377608",
+      "35850753",
+      "31370819",
+      "32317280",
+      "30867410",
+      "24593254",
+      "34895074",
+      "26091668",
+      "32528036",
+      "35163465",
+      "36202175",
+      "32194873",
+      "38368287",
+      "38092144",
+      "27791206",
+      "38762464",
+      "31296906",
+      "31756732",
+      "30249919",
+      "31916238",
+      "36521657",
+      "31048057",
+      "37298208",
+      "38956588",
+      "32901889",
+      "20443131",
+      "37240419",
+      "33631540",
+      "37283490",
+      "35872860",
+      "34245877",
+      "35262365",
+      "35187626",
+      "30425242",
+      "29099956",
+      "35731869",
+      "38259614",
+      "37434262",
+      "34715662",
+      "38138986",
+      "39386580",
+      "39323013",
+      "39397801",
+      "31443071"
+    ],
+    "review": [
+      "36915208",
+      "30249919",
+      "38956588"
+    ],
+    "pmc": [
+      "10010007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-023-01165-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36915208/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36915208",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-333",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

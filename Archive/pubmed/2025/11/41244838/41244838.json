@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41244838",
+    "doi": "10.3389/fphar.2025.1719897",
+    "title": "1-stearoyl-2-arachidonoyl-driven B Cell metabolic dysregulation in chronic rhinosinusitis with nasal polyps: insights from Mendelian randomization and single-cell RNA sequencing."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chronic rhinosinusitis with nasal polyps (CRSwNP), an inflammatory condition of unclear etiology, may involve immune dysregulation and metabolic alterations. METHODS: Utilizing Mendelian randomization, we investigated causal links between CRSwNP and profiles of 731 immune cell types and 1,400 metabolites. Single-cell RNA sequencing (scRNA-seq) was employed for cell type identification and transcription factor analysis. Metabolic profiling characterized cellular subpopulations, while Gene Set Enrichment Analysis (GSEA) and machine learning pinpointed key genes functionally linked to immune and inflammatory pathways (categorized via WGCNA and Metascape). RESULTS: We identified expression of HLA-DR on CD33- HLA-DR + B cells and the lipid metabolite 1-stearoyl-2-arachidonoyl as risk factors for CRSwNP. scRNA-seq further revealed these specific B cell subpopulations exhibit metabolic levels linked to immune responses. Bulk RNA analysis confirmed upregulation of genes CD27 and DERL3, while machine learning identified a signature of ten key genes showing positive correlation with B cell regulatory functions. CONCLUSION: This integrated study advances understanding of immune-metabolic crosstalk in CRSwNP pathogenesis, highlighting the role of metabolite-influenced B cell subsets in shaping the immune microenvironment, thereby suggesting novel therapeutic targets.",
+    "keywords": [
+      "B-cell",
+      "CRSwNP",
+      "Mendelian randomization",
+      "immunity",
+      "metabolism",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Jian",
+        "Sun, Yifang",
+        "Wang, Shuyue",
+        "Zhang, Qian",
+        "Lin, Ying",
+        "Liu, Caipeng",
+        "Ai, Maomao",
+        "Yu, Feng",
+        "Cao, Lei"
+      ],
+      "short_names": [
+        "Wu J",
+        "Sun Y",
+        "Wang S",
+        "Zhang Q",
+        "Lin Y",
+        "Liu C",
+        "Ai M",
+        "Yu F",
+        "Cao L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China.",
+        "Department of Ophthalmology, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China.",
+        "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China.",
+        "Department of Otorhinolaryngology, The Forth People's Hospital of Guiyang, Guiyang, Guizhou, China.",
+        "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China.",
+        "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China.",
+        "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China.",
+        "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China.",
+        "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Jian",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yifang",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuyue",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qian",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology, The Forth People's Hospital of Guiyang, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Ying",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Caipeng",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ai, Maomao",
+        "short_name": "Ai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Feng",
+        "short_name": "Yu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Lei",
+        "short_name": "Cao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology-Head and Neck Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/17 17:29",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38133212",
+      "37744372",
+      "37295737",
+      "37118062",
+      "37017326",
+      "36848269",
+      "36635386",
+      "36508329",
+      "36481267",
+      "36466903",
+      "36300620",
+      "35431654",
+      "35418991",
+      "35253284",
+      "34783368",
+      "34668665",
+      "34331449",
+      "33603409",
+      "33338738",
+      "33065369",
+      "32929287",
+      "32866644",
+      "31908763",
+      "31862624",
+      "31801366",
+      "31402319",
+      "31332978",
+      "31178118",
+      "30944313",
+      "30769033",
+      "30667533",
+      "30102935",
+      "29950010",
+      "29731101",
+      "29336281",
+      "29335400",
+      "28091601",
+      "28000955",
+      "27959637",
+      "26474728",
+      "26067893",
+      "25822800",
+      "25605792",
+      "24114802",
+      "23473835",
+      "23088438",
+      "20625511",
+      "20582150",
+      "20427518",
+      "19541359",
+      "19114008",
+      "15886117",
+      "14634097"
+    ],
+    "similar": [
+      "41244838",
+      "40158428",
+      "41496791",
+      "41327642",
+      "38229690",
+      "38280891",
+      "41451821",
+      "40461517",
+      "40909263",
+      "38965846",
+      "41030501",
+      "40720416",
+      "40613328",
+      "38797240",
+      "38022594",
+      "39541897",
+      "39871287",
+      "41340073",
+      "39173401",
+      "40458850",
+      "40435823",
+      "37904989",
+      "39644500",
+      "41155287",
+      "40225314",
+      "39993547",
+      "41202080",
+      "37769787",
+      "41083787",
+      "40545078",
+      "36915741",
+      "39464338",
+      "40894073",
+      "39108261",
+      "35628459",
+      "39522652",
+      "39328210",
+      "40745068",
+      "37629071",
+      "37852603",
+      "40350654",
+      "41287581",
+      "38787375",
+      "39583038",
+      "40021385",
+      "41192724",
+      "35572732",
+      "24342548",
+      "39191825",
+      "31326962",
+      "35385217",
+      "40600933",
+      "41486826",
+      "41498570",
+      "31439685",
+      "41368350",
+      "40877393",
+      "40195539",
+      "32047813",
+      "33611865",
+      "40702735",
+      "40692979",
+      "35697826",
+      "40089249",
+      "38962008",
+      "40774628",
+      "41277316",
+      "41009952",
+      "38452440",
+      "40927774",
+      "39936431",
+      "41305697",
+      "41401564",
+      "39378160",
+      "39762897",
+      "40166594",
+      "41486495",
+      "39874886",
+      "36439178",
+      "39893187",
+      "39462363",
+      "27216292",
+      "41246346",
+      "40131544",
+      "40613570",
+      "39926598",
+      "36973787",
+      "38965845",
+      "41139200",
+      "41395113",
+      "40296690",
+      "39647286",
+      "38029733",
+      "32637070",
+      "35720287",
+      "41060249",
+      "39364414",
+      "41486802",
+      "41341599",
+      "39512689"
+    ],
+    "review": [
+      "41244838",
+      "41451821",
+      "41287581",
+      "38452440"
+    ],
+    "pmc": [
+      "12611945"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41244838/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2025.1719897",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

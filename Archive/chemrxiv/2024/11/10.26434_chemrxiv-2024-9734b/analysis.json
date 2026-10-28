@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-9734b",
+  "title": "Multi-Fidelity Transfer Learning for Quantum Chemical Data Using A Robust Density Functional Tight Binding Baseline",
+  "authors": "Mengnan Cui; Karsten Reuter; Johannes T. Margraf",
+  "journal": "ChemRxiv",
+  "published_date": "2024-11-22",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究量子化学数据的多保真迁移学习与DFTB基线，不涉及蛋白质-DNA互作体系，与本课题无关。",
+  "abstract": "Machine learning has revolutionized the development of interatomic potentials over the past decade, offering unparalleled computational speed without compromising accuracy. However, the performance of these models is highly dependent on the quality and amount of training data. Consequently, the current scarcity of high-fidelity datasets (i.e. beyond semilocal density functional theory) represents a significant challenge for further improvement. To address this, this study investigates the performance of transfer learning (TL) across multiple fidelities for both molecules and materials. Crucially, we disentangle the effects of multiple fidelities and different configuration/chemical spaces for pre-training and fine-tuning, in order to gain a deeper understanding of TL for chemical applications. This reveals that negative transfer, driven by noise from low-fidelity methods such as a Density Functional Tight Binding (DFTB) baseline, can significantly impact fine-tuned models. Despite this, the multi-fidelity approach demonstrates superior performance compared to single-fidelity learning. Interestingly, it even outperforms TL based on foundation models in some cases, by leveraging an optimal overlap of pre-training and fine-tuning chemical spaces.",
+  "abstract_zh": "机器学习在过去十年中彻底改变了原子间势函数的发展，提供了无与伦比的计算速度，同时不牺牲精度。然而，这些模型的性能高度依赖于训练数据的质量和数量。因此，当前高保真数据集（即超越半局域密度泛函理论）的稀缺性，对进一步改进构成了重大挑战。为解决这一问题，本研究探讨了跨多保真度迁移学习（TL）在分子和材料中的表现。关键在于，我们分离了多保真度以及预训练和微调中不同构型/化学空间的影响，以深入理解TL在化学应用中的作用。这揭示了由低保真方法（如密度泛函紧束缚（DFTB）基线）中的噪声驱动的负迁移，可能显著影响微调后的模型。尽管如此，多保真度方法相比单保真度学习展现出更优性能。有趣的是，在某些情况下，它甚至通过利用预训练和微调化学空间的最优重叠，超越了基于基础模型的TL。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-9734b",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-9734b",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-9734b/index.html"
+}

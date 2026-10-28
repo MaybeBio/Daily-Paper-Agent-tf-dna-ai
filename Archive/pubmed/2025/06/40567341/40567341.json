@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "pmid": "40567341",
+    "doi": "10.1093/bioadv/vbaf130",
+    "title": "Predicting gene expression using millions of yeast promoters reveals cis-regulatory logic."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Gene regulation involves complex interactions between transcription factors. While early attempts to predict gene expression were trained using naturally occurring promoters, gigantic parallel reporter assays have vastly expanded potential training data. Despite this, it is still unclear how to best use deep learning to study gene regulation. Here, we investigate the association between promoters and expression using Camformer, a residual convolutional neural network that ranked fourth in the Random Promoter DREAM Challenge 2022. We present the original model trained on 6.7 million sequences and investigate 270 alternative models to find determinants of model performance. Finally, we use explainable AI to uncover regulatory signals. RESULTS: Camformer accurately decodes the association between promoters and gene expression ( r2 = 0.914 +/- 0.003 , rho = 0.962 +/- 0.002 ) and provides a substantial improvement over previous state of the art. Using Grad-CAM and in silico mutagenesis, we demonstrate that our model learns both individual motifs and their hierarchy. For example, while an IME1 motif on its own increases gene expression, a co-occurring UME6 motif instead strongly reduces gene expression. Thus, deep learning models such as Camformer can provide detailed insights into cis-regulatory logic. AVAILABILITY AND IMPLEMENTATION: Data and code are available at: https://github.com/Bornelov-lab/Camformer.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dash, Tirtharaj",
+        "Bornelov, Susanne"
+      ],
+      "short_names": [
+        "Dash T",
+        "Bornelov S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5965-8286",
+        "ORCID: 0000-0001-9276-9981"
+      ],
+      "affiliations": [
+        "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge CB2 0RE, United Kingdom.",
+        "Department of Biochemistry, University of Cambridge, Cambridge CB2 1GA, United Kingdom.",
+        "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge CB2 0RE, United Kingdom.",
+        "Department of Biochemistry, University of Cambridge, Cambridge CB2 1GA, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dash, Tirtharaj",
+        "short_name": "Dash T",
+        "identifiers": [
+          "0000-0001-5965-8286"
+        ],
+        "affiliations": [
+          "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge CB2 0RE, United Kingdom.",
+          "Department of Biochemistry, University of Cambridge, Cambridge CB2 1GA, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bornelöv, Susanne",
+        "short_name": "Bornelöv S",
+        "identifiers": [
+          "0000-0001-9276-9981"
+        ],
+        "affiliations": [
+          "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge CB2 0RE, United Kingdom.",
+          "Department of Biochemistry, University of Cambridge, Cambridge CB2 1GA, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/26 06:27",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39394483",
+      "38378442",
+      "37490428",
+      "37431893",
+      "36999047",
+      "35264797",
+      "34608324",
+      "34265844",
+      "34139170",
+      "33603233",
+      "33262328",
+      "32778871",
+      "31792407",
+      "27084946",
+      "26301843",
+      "22955619",
+      "22912568",
+      "19410542"
+    ],
+    "similar": [
+      "40567341",
+      "31318408",
+      "37490428",
+      "38853896",
+      "31792407",
+      "38940172",
+      "30649185",
+      "30423062",
+      "40105319",
+      "35462346",
+      "39131276",
+      "41083998",
+      "38244571",
+      "39096613",
+      "17662143",
+      "40036975",
+      "38405704",
+      "36502693",
+      "40394112",
+      "23144830",
+      "30423072",
+      "33962556",
+      "39522049",
+      "18446205",
+      "35633468",
+      "35238376",
+      "30816925",
+      "38940155",
+      "28158264",
+      "36999047",
+      "35929807",
+      "20739709",
+      "34849591",
+      "23497159",
+      "15166027",
+      "30423078",
+      "36321557",
+      "38337861",
+      "39832275",
+      "40119908",
+      "19543377",
+      "8628320",
+      "22683808",
+      "31588505",
+      "29069282",
+      "32819422",
+      "31077303",
+      "29722865",
+      "36192696",
+      "24098147",
+      "36909524",
+      "41129591",
+      "37889080",
+      "40360798",
+      "39975017",
+      "40791531",
+      "39193566",
+      "34073774",
+      "32657407",
+      "40102719",
+      "33538820",
+      "28881991",
+      "36495179",
+      "33711543",
+      "36084008",
+      "36335397",
+      "33581335",
+      "36510125",
+      "35891778",
+      "36973806",
+      "31206543",
+      "36742369",
+      "39214282",
+      "37862225",
+      "19843335",
+      "38250147",
+      "40501927",
+      "41109958",
+      "31178116",
+      "38982357",
+      "35134816",
+      "35191481",
+      "38343388",
+      "36209437",
+      "36790055",
+      "39110340",
+      "40662825",
+      "38048895",
+      "25429295",
+      "29931128",
+      "39629569",
+      "36699381",
+      "39284975",
+      "32357166",
+      "40503683",
+      "30500881",
+      "31737053",
+      "37431893",
+      "39227799",
+      "39804669"
+    ],
+    "review": [
+      "40567341",
+      "36321557"
+    ],
+    "pmc": [
+      "12188188"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40567341/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbaf130",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-rq1vl/v9",
+  "title": "Large-Scale Virtual Screening Prioritizes Candidate Allosteric Modulators of TIMP2: Computational Identification and Structural Characterization of a Cryptic Binding Site",
+  "doi": "10.26434/chemrxiv-2025-rq1vl/v9",
+  "abstract": "Background : Tissue Inhibitor of Metalloproteinase-2 (TIMP2) has emerged as a critical regulator of synaptic plasticity and cognitive function through its role in extracellular matrix (ECM) remodeling. Recent evidence suggests that enhancing TIMP2 function, rather than inhibiting it, may offer therapeutic benefits for cognitive enhancement and neuroplasticity. However, TIMP2 has historically been considered \"undruggable\" due to its protein-protein interaction mechanism and lack of traditional binding pockets. Methods : We performed a large-scale virtual screening campaign using a CNS-filtered subset of the ZINC20 database. Starting from ~1 billion molecules, we applied strict CNS drug-likeness filters (MW: 250-430 Da, TPSA ≤70 Å², HBD ≤1, cLogP: 2.0-3.5), resulting in 13.6 million candidates distributed across 136 chunks. Using AutoDock Vina with an adaptive parallelization strategy, we screened six strategically selected representative chunks totaling ~600,000 molecules against TIMP2 (PDB: 1BR9), targeting both canonical and potential cryptic binding sites. Results : Virtual screening of six completed chunks (~600,000 molecules) identified a cryptic allosteric site involving residues Val6, Leu100, and Phe103 in TIMP2's N-terminal domain. From ~11,500 compounds meeting initial CNS and PAINS criteria, comprehensive ADMET profiling using ADMET-AI v2.1 revealed only 178 compounds (1.5%) achieving Tier 1 safety classification. Orthogonal toxicity validation using ProTox-III further refined this set to 154 highest-confidence candidates (Tier 1A, 86.5%), with 22 compounds (12.4%) requiring enhanced monitoring due to borderline acute toxicity (Tier 1B) and 2 compounds (1.1%) deprioritized due to extreme LD50 predictions (Tier 1C). Chunk-level survival rates varied dramatically from 0.3% (strict_0055) to 9.3% (strict_0028), with strict_0028 yielding the majority (52%) of all Tier 1 compounds. Notably, while halogenation is common (41.6% of Tier 1 compounds), it is not universal, with strict_0028 demonstrating that non-halogenated compounds can also achieve favorable ADMET profiles. The best overall compound (ZINC000870248439_1, -9.0 kcal/mol from strict_0120) and the largest chemical family (93 compounds from strict_0028, including both chlorinated and non-halogenated scaffolds) demonstrated excellent CNS penetration (BBB >0.9) and clean safety profiles. Conclusions : This work represents the first systematic computational prioritization of candidate small molecule TIMP2 modulators, revealing a previously uncharacterized cryptic binding site that can accommodate diverse chemical scaffolds. Integration of ADMET-AI and ProTox-III predictions enabled refined risk stratification, yielding 154 highest-confidence candidates validated across orthogonal computational toxicology platforms. The dramatic variation in ADMET survival rates across chunks (0.3-9.3%) highlights the importance of broad chemical space sampling. While halogenation enhances certain drug-like properties, our results demonstrate that both halogenated and non-halogenated compounds can achieve the demanding intersection of high affinity, CNS penetration, and drug safety. Structural validation using the AlphaFold v6 predicted structure confirmed the cryptic allosteric pocket with sub-angstrom accuracy (mean Cα deviation = 0.30 Å, triad pLDDT > 96), and cross-species conservation analysis revealed 100% pocket identity in mouse TIMP2, the primary translational model. Molecular dynamics simulation (100 ns apo) confirmed pocket stability under physiological conditions with 94% area preservation, sub-angstrom per-residue fluctuations (triad RMSF = 0.84 Å), and convergence of triad distances to within 0.14-0.43 Å of crystallographic values. Ligand-bound MD of three representative compounds revealed compound-specific binding stability, with residence times ranging from <7 ns to approximately 20 ns, demonstrating that the pocket supports transient small molecule binding but that chemical optimization beyond initial docking predictions will be required for stable occupancy. These findings support TIMP2 as a potentially tractable drug target and provide 154 computationally validated chemical starting points across diverse scaffolds for experimental follow-up.",
+  "authors": [
+    "Joshua Curry"
+  ],
+  "published_date": "2026-05-21",
+  "updated_date": "2026-05-21T07:26:18Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-rq1vl/v9",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-rq1vl/v9",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "9",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T08:07:15Z",
+        "timestamp": 1779350835221,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>\n                  <jats:bold>Background</jats:bold>\n                  : Tissue Inhibitor of Metalloproteinase-2 (TIMP2) has emerged as a critical regulator of synaptic plasticity and cognitive function through its role in extracellular matrix (ECM) remodeling. Recent evidence suggests that enhancing TIMP2 function, rather than inhibiting it, may offer therapeutic benefits for cognitive enhancement and neuroplasticity. However, TIMP2 has historically been considered \"undruggable\" due to its protein-protein interaction mechanism and lack of traditional binding pockets.\n                </jats:p>\n                <jats:p>\n                  <jats:bold>Methods</jats:bold>\n                  : We performed a large-scale virtual screening campaign using a CNS-filtered subset of the ZINC20 database. Starting from ~1 billion molecules, we applied strict CNS drug-likeness filters (MW: 250-430 Da, TPSA ≤70 Å², HBD ≤1, cLogP: 2.0-3.5), resulting in 13.6 million candidates distributed across 136 chunks. Using AutoDock Vina with an adaptive parallelization strategy, we screened six strategically selected representative chunks totaling ~600,000 molecules against TIMP2 (PDB: 1BR9), targeting both canonical and potential cryptic binding sites.\n                </jats:p>\n                <jats:p>\n                  <jats:bold>Results</jats:bold>\n                  : Virtual screening of six completed chunks (~600,000 molecules) identified a cryptic allosteric site involving residues Val6, Leu100, and Phe103 in TIMP2's N-terminal domain. From ~11,500 compounds meeting initial CNS and PAINS criteria, comprehensive ADMET profiling using ADMET-AI v2.1 revealed only 178 compounds (1.5%) achieving Tier 1 safety classification. Orthogonal toxicity validation using ProTox-III further refined this set to 154 highest-confidence candidates (Tier 1A, 86.5%), with 22 compounds (12.4%) requiring enhanced monitoring due to borderline acute toxicity (Tier 1B) and 2 compounds (1.1%) deprioritized due to extreme LD50 predictions (Tier 1C). Chunk-level survival rates varied dramatically from 0.3% (strict_0055) to 9.3% (strict_0028), with strict_0028 yielding the majority (52%) of all Tier 1 compounds. Notably, while halogenation is common (41.6% of Tier 1 compounds), it is not universal, with strict_0028 demonstrating that non-halogenated compounds can also achieve favorable ADMET profiles. The best overall compound (ZINC000870248439_1, -9.0 kcal/mol from strict_0120) and the largest chemical family (93 compounds from strict_0028, including both chlorinated and non-halogenated scaffolds) demonstrated excellent CNS penetration (BBB &gt;0.9) and clean safety profiles.\n                </jats:p>\n                <jats:p>\n                  <jats:bold>Conclusions</jats:bold>\n                  : This work represents the first systematic computational prioritization of candidate small molecule TIMP2 modulators, revealing a previously uncharacterized cryptic binding site that can accommodate diverse chemical scaffolds. Integration of ADMET-AI and ProTox-III predictions enabled refined risk stratification, yielding 154 highest-confidence candidates validated across orthogonal computational toxicology platforms. The dramatic variation in ADMET survival rates across chunks (0.3-9.3%) highlights the importance of broad chemical space sampling. While halogenation enhances certain drug-like properties, our results demonstrate that both halogenated and non-halogenated compounds can achieve the demanding intersection of high affinity, CNS penetration, and drug safety. Structural validation using the AlphaFold v6 predicted structure confirmed the cryptic allosteric pocket with sub-angstrom accuracy (mean Cα deviation = 0.30 Å, triad pLDDT &gt; 96), and cross-species conservation analysis revealed 100% pocket identity in mouse TIMP2, the primary translational model. Molecular dynamics simulation (100 ns apo) confirmed pocket stability under physiological conditions with 94% area preservation, sub-angstrom per-residue fluctuations (triad RMSF = 0.84 Å), and convergence of triad distances to within 0.14-0.43 Å of crystallographic values. Ligand-bound MD of three representative compounds revealed compound-specific binding stability, with residence times ranging from &lt;7 ns to approximately 20 ns, demonstrating that the pocket supports transient small molecule binding but that chemical optimization beyond initial docking predictions will be required for stable occupancy. These findings support TIMP2 as a potentially tractable drug target and provide 154 computationally validated chemical starting points across diverse scaffolds for experimental follow-up.\n                </jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-rq1vl/v9",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T07:26:18Z",
+        "timestamp": 1779348378000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Large-Scale Virtual Screening Prioritizes Candidate Allosteric Modulators of TIMP2: Computational Identification and Structural Characterization of a Cryptic Binding Site"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-5096-4424",
+          "authenticated-orcid": false,
+          "given": "Joshua",
+          "family": "Curry",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Pierce College",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-rq1vl/v9",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T07:26:18Z",
+        "timestamp": 1779348378000
+      },
+      "score": 103.002,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-rq1vl/v9"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-rq1vl/v9",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

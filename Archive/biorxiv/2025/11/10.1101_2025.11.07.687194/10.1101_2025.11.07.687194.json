@@ -1,0 +1,131 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.07.687194",
+  "title": "Improving DNA Modeling with WaveDNA: Enhancing Speed, Generalizability, and Interpretability through Wavelet Transformation",
+  "doi": "10.1101/2025.11.07.687194",
+  "abstract": "Transcription factors (TFs) regulate gene expression by binding to short, specific DNA sequences, known as transcription factor binding sites (TFBSs). Accurate identification of TFBSs is fundamental for znderstanding transcriptional regulation. By leveraging their ability to capture complex non-linear patterns and hierarchical dependencies underlying TF-DNA binding deep learning (DL) has emerged as the state-of-the-art approach for modeling and identifying TFBSs. However, current models often require extensive pretraining, involve large parameter sets, and offer limited interpretability. To address these limitations, we introduce WaveDNA, a lightweight and interpretable DL framework that encode DNA sequences into two- dimensional representations using wavelet transforms. This approach enables the use of convolutional neural networks pretrained on images, facilitating efficient transfer learning without requiring large-scale genomic data pretraining. Across diverse ENCODE ChIP-seq datasets spanning different TFs, WaveDNA achieves predictive accuracy comparable to state-of-the-art DL models while using approximately fivefold fewer parameters and substantially less computational resources. Moreover, representing DNA sequences as images allows the direct application of established computer vision interpretability techniques to visualize the learned binding patterns. Together, these results demonstrate that WaveDNA offers",
+  "authors": [
+    "Ruggeri L",
+    "Tognon M",
+    "Giugno R"
+  ],
+  "published_date": "2025-11-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687194",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687194.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1116339",
+    "raw_record": {
+      "id": "PPR1116339",
+      "source": "PPR",
+      "doi": "10.1101/2025.11.07.687194",
+      "title": "Improving DNA Modeling with WaveDNA: Enhancing Speed, Generalizability, and Interpretability through Wavelet Transformation",
+      "authorString": "Ruggeri L, Tognon M, Giugno R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ruggeri L",
+            "lastName": "Ruggeri",
+            "firstName": "Lorenzo",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-2516-1175"
+            }
+          },
+          {
+            "fullName": "Tognon M",
+            "lastName": "Tognon",
+            "firstName": "Manuel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6707-2071"
+            }
+          },
+          {
+            "fullName": "Giugno R",
+            "lastName": "Giugno",
+            "firstName": "Rosalba",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9843-7638"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9843-7638"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6707-2071"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-2516-1175"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Transcription factors (TFs) regulate gene expression by binding to short, specific DNA sequences, known as transcription factor binding sites (TFBSs). Accurate identification of TFBSs is fundamental for znderstanding transcriptional regulation. By leveraging their ability to capture complex non-linear patterns and hierarchical dependencies underlying TF-DNA binding deep learning (DL) has emerged as the state-of-the-art approach for modeling and identifying TFBSs. However, current models often require extensive pretraining, involve large parameter sets, and offer limited interpretability. To address these limitations, we introduce WaveDNA, a lightweight and interpretable DL framework that encode DNA sequences into two- dimensional representations using wavelet transforms. This approach enables the use of convolutional neural networks pretrained on images, facilitating efficient transfer learning without requiring large-scale genomic data pretraining. Across diverse ENCODE ChIP-seq datasets spanning different TFs, WaveDNA achieves predictive accuracy comparable to state-of-the-art DL models while using approximately fivefold fewer parameters and substantially less computational resources. Moreover, representing DNA sequences as images allows the direct application of established computer vision interpretability techniques to visualize the learned binding patterns. Together, these results demonstrate that WaveDNA offers",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.07.687194"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-11-11",
+      "firstPublicationDate": "2025-11-10",
+      "firstIndexDate": "2025-11-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

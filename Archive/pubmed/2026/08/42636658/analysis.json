@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42636658",
+  "title": "Single-cell and bulk transcriptomic profiling of M2-like tumor-associated macrophages reveals a prognostic signature and an inflammation-metabolism crosstalk program in multiple myeloma.",
+  "authors": "Zhao, Hui; Kang, Jing; Ouyang, Huiling; Lv, Xiaye; Huang, Ziying; Zhao, Bingni; Wang, Kai",
+  "journal": "Translational oncology",
+  "published_date": "2026-08-24",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用单细胞和批量转录组分析多发性骨髓瘤中M2样肿瘤相关巨噬细胞的异质性并构建预后模型，未涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: M2-like tumor-associated macrophages (TAMs) contribute to multiple myeloma (MM) progression and treatment resistance, yet their internal heterogeneity remains poorly understood. We used single-cell RNA sequencing (scRNA-seq) with bulk transcriptomic cohorts to resolve MM-specific M2-TAM subpopulations and develop a prognostic signature. METHODS: scRNA-seq data from MM and normal bone marrow (GSE124310, GSE278230) were processed after quality filtering and Harmony batch correction. M2 macrophages were sub-clustered; MM-restricted subclusters (MM-M2) were identified by Ro/e analysis and SCENIC. Intercellular signaling was characterized via CellChat and CellCall; trajectories were reconstructed with Monocle 2. hdWGCNA co-expression modules were intersected with differentially expressed genes (GSE6477), and candidates were evaluated across 101 configurations of ten machine learning algorithms to build a consensus prognostic model (MRGs). GSE9782 served as training; GSE57317 as validation. Immune infiltration was estimated with ESTIMATE and six deconvolution tools; drug sensitivity via CTRP and PRISM. RESULTS: Seven M2 subclusters were nearly absent in normal marrow but enriched in MM (MM-M2), each with a distinct transcription factor profile. Ligand-receptor signaling involving MM-M2 cells, plasma cells, and stromal cells was markedly stronger in MM. MRGs stratified patients by survival in both cohorts: high-risk patients showed an immune-depleted microenvironment; low-risk patients had greater immune infiltration. Drug sensitivity also differed between risk groups. MM-M2 macrophages showed a hypoxia-associated transcriptional pattern, with higher hypoxia scores and lower oxidative-phosphorylation scores, that correlated with inflammatory pathway scores at both the single-cell and patient levels. CONCLUSION: This study identified a previously unrecognized MM-specific M2-TAM subpopulation and derived a prognostic signature (MRGs) predicting survival, reflecting immune microenvironment composition, and nominating candidate therapeutic compounds for more precise MM risk stratification.",
+  "abstract_zh": "背景：M2样肿瘤相关巨噬细胞（tumor-associated macrophages, TAMs）促进多发性骨髓瘤（multiple myeloma, MM）的进展和治疗耐药，但其内部异质性仍知之甚少。我们利用单细胞RNA测序（single-cell RNA sequencing, scRNA-seq）结合批量转录组队列，解析了MM特异性M2-TAM亚群，并开发了一种预后特征。方法：对来自MM和正常骨髓的scRNA-seq数据（GSE124310, GSE278230）进行质量过滤和Harmony批次校正后处理。对M2巨噬细胞进行亚聚类；通过Ro/e分析和SCENIC鉴定MM限制性亚群（MM-M2）。通过CellChat和CellCall表征细胞间信号传导；使用Monocle 2重建轨迹。将hdWGCNA共表达模块与差异表达基因（GSE6477）取交集，并在十种机器学习算法的101种配置中评估候选基因，以构建共识预后模型（MRGs）。GSE9782作为训练集；GSE57317作为验证集。使用ESTIMATE和六种去卷积工具估计免疫浸润；通过CTRP和PRISM评估药物敏感性。结果：七个M2亚群在正常骨髓中几乎缺失，但在MM中富集（MM-M2），每个亚群具有独特的转录因子谱。涉及MM-M2细胞、浆细胞和基质细胞的配体-受体信号在MM中显著增强。MRGs在两个队列中均按生存期对患者进行分层：高风险患者表现出免疫耗竭的微环境；低风险患者具有更高的免疫浸润。药物敏感性在风险组之间也存在差异。MM-M2巨噬细胞表现出缺氧相关的转录模式，具有更高的缺氧评分和更低的氧化磷酸化评分，这与单细胞和患者水平上的炎症通路评分相关。结论：本研究识别了一个先前未被认识的MM特异性M2-TAM亚群，并推导出一种预后特征（MRGs），可预测生存、反映免疫微环境组成，并提名候选治疗化合物，以实现更精确的MM风险分层。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42636658/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42636658/",
+  "paper_page_path": "papers/pubmed/42636658/index.html"
+}

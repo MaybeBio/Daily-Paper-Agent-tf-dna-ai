@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37711605",
+  "title": "TGPred: efficient methods for predicting target genes of a transcription factor by integrating statistics, machine learning and optimization.",
+  "authors": "Cao, Xuewei; Zhang, Ling; Islam, Md Khairul; Zhao, Mingxia; He, Cheng; Zhang, Kui; Liu, Sanzhen; Sha, Qiuying; Wei, Hairong",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2023-09-15",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发基于统计回归和优化算法的转录因子靶基因预测方法，虽涉及TF-DNA调控关系，但主要基于表达数据推断基因调控网络，缺乏三维结构互作建模，方法为传统机器学习与优化，非AI或物理模拟，故为中档匹配。",
+  "abstract": "Four statistical selection methods for inferring transcription factor (TF)-target gene (TG) pairs were developed by coupling mean squared error (MSE) or Huber loss function, with elastic net (ENET) or least absolute shrinkage and selection operator (Lasso) penalty. Two methods were also developed for inferring pathway gene regulatory networks (GRNs) by combining Huber or MSE loss function with a network (Net)-based penalty. To solve these regressions, we ameliorated an accelerated proximal gradient descent (APGD) algorithm to optimize parameter selection processes, resulting in an equally effective but much faster algorithm than the commonly used convex optimization solver. The synthetic data generated in a general setting was used to test four TF-TG identification methods, ENET-based methods performed better than Lasso-based methods. Synthetic data generated from two network settings was used to test Huber-Net and MSE-Net, which outperformed all other methods. The TF-TG identification methods were also tested with SND1 and gl3 overexpression transcriptomic data, Huber-ENET and MSE-ENET outperformed all other methods when genome-wide predictions were performed. The TF-TG identification methods fill the gap of lacking a method for genome-wide TG prediction of a TF, and potential for validating ChIP/DAP-seq results, while the two Net-based methods are instrumental for predicting pathway GRNs.",
+  "abstract_zh": "通过耦合均方误差（MSE）或Huber损失函数与弹性网络（ENET）或最小绝对收缩和选择算子（Lasso）惩罚，开发了四种用于推断转录因子（TF）-靶基因（TG）对的统计选择方法。还开发了两种方法，通过结合Huber或MSE损失函数与基于网络（Net）的惩罚来推断通路基因调控网络（GRNs）。为解决这些回归问题，我们改进了一种加速近端梯度下降（APGD）算法以优化参数选择过程，从而产生了一种与常用凸优化求解器效果相当但速度更快的算法。在一般设置下生成的合成数据用于测试四种TF-TG识别方法，基于ENET的方法表现优于基于Lasso的方法。从两种网络设置生成的合成数据用于测试Huber-Net和MSE-Net，这两种方法优于所有其他方法。TF-TG识别方法还使用SND1和gl3过表达转录组数据进行了测试，在进行全基因组预测时，Huber-ENET和MSE-ENET优于所有其他方法。TF-TG识别方法填补了缺乏用于TF全基因组TG预测方法的空白，并具有验证ChIP/DAP-seq结果的潜力，而两种基于Net的方法则有助于预测通路GRNs。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37711605/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37711605/",
+  "paper_page_path": "papers/pubmed/37711605/index.html"
+}

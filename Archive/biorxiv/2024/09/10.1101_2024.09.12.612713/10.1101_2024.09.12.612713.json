@@ -1,0 +1,772 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.12.612713",
+  "title": "Gene identification for ocular congenital cranial motor neuron disorders using human sequencing, zebrafish screening, and protein binding microarrays",
+  "doi": "10.1101/2024.09.12.612713",
+  "abstract": "Purpose To functionally evaluate novel human sequence-derived candidate genes and variants for unsolved ocular congenital cranial dysinnervation disorders (oCCDDs). Methods Through exome and genome sequencing of a genetically unsolved human oCCDD cohort, we previously identified variants in 80 strong candidate genes. Here, we further prioritized a subset of these (43 human genes, 57 zebrafish genes) using a G0 CRISPR/Cas9-based knockout assay in zebrafish and generated F2 germline mutants for seventeen. We tested the functionality of variants of uncertain significance in known and novel candidate transcription factor-encoding genes through protein binding microarrays. Results We first demonstrated the feasibility of the G0 screen by targeting known oCCDD genes phox2a and mafba . 70-90% of gene-targeted G0 zebrafish embryos recapitulated germline homozygous null-equivalent phenotypes. Using this approach, we then identified three novel candidate oCCDD genes ( SEMA3F , OLIG2, and FRMD4B ) with putative contributions to human and zebrafish cranial motor development. In addition, protein binding microarrays demonstrated reduced or abolished DNA binding of human variants of uncertain significance in known and novel sequence-derived transcription factors PHOX2A (p.(Trp137Cys)), MAFB (p.(Glu223Lys)), and OLIG2 (p.(Arg156Leu)). Conclusions This study nominates three strong novel candidate oCCDD genes ( SEMA3F , OLIG2, and FRMD4B ) and supports the functionality and putative pathogenicity of transcription factor candidate variants PHOX2A p.(Trp137Cys), MAFB p.(Glu223Lys), and OLIG2 p.(Arg156Leu). Our findings support that G0 loss-of-function screening in zebrafish can be coupled with human sequence analysis and protein binding microarrays to aid in prioritizing oCCDD candidate genes/variants.",
+  "authors": [
+    "Julie A. Jurgens",
+    "Paola M. Matos Ruiz",
+    "Jessica King",
+    "Emma E. Foster",
+    "Lindsay Berube",
+    "Wai-Man Chan",
+    "Brenda J. Barry",
+    "Raehoon Jeong",
+    "Elisabeth Rothman",
+    "Mary C. Whitman",
+    "Sarah MacKinnon",
+    "Cristina Rivera-Quiles",
+    "Brandon M. Pratt",
+    "Teresa Easterbrooks",
+    "Fiona M. Mensching",
+    "Silvio Alessandro Di Gioia",
+    "Lynn Pais",
+    "Eleina M. England",
+    "Teresa de Berardinis",
+    "Adriano Magli",
+    "Feray Koc",
+    "Kazuhide Asakawa",
+    "Koichi Kawakami",
+    "Anne O’Donnell-Luria",
+    "David G. Hunter",
+    "Caroline D. Robson",
+    "Martha L. Bulyk",
+    "Elizabeth C. Engle"
+  ],
+  "published_date": "2024-09-15",
+  "updated_date": "2024-09-16T01:38:37Z",
+  "journal": "bioRxiv",
+  "category": "Neuroscience",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.12.612713",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.12.612713.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Neuroscience"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Neuroscience",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            28
+          ]
+        ],
+        "date-time": "2026-07-28T13:02:57Z",
+        "timestamp": 1785243777274,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            15
+          ]
+        ]
+      },
+      "group-title": "Neuroscience",
+      "reference-count": 39,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                15
+              ]
+            ],
+            "date-time": "2024-09-15T00:00:00Z",
+            "timestamp": 1726358400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Purpose</jats:title>\n                  <jats:p>To functionally evaluate novel human sequence-derived candidate genes and variants for unsolved ocular congenital cranial dysinnervation disorders (oCCDDs).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Through exome and genome sequencing of a genetically unsolved human oCCDD cohort, we previously identified variants in 80 strong candidate genes. Here, we further prioritized a subset of these (43 human genes, 57 zebrafish genes) using a G0 CRISPR/Cas9-based knockout assay in zebrafish and generated F2 germline mutants for seventeen. We tested the functionality of variants of uncertain significance in known and novel candidate transcription factor-encoding genes through protein binding microarrays.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    We first demonstrated the feasibility of the G0 screen by targeting known oCCDD genes\n                    <jats:italic>phox2a</jats:italic>\n                    and\n                    <jats:italic>mafba</jats:italic>\n                    . 70-90% of gene-targeted G0 zebrafish embryos recapitulated germline homozygous null-equivalent phenotypes. Using this approach, we then identified three novel candidate oCCDD genes (\n                    <jats:italic>SEMA3F</jats:italic>\n                    ,\n                    <jats:italic>OLIG2,</jats:italic>\n                    and\n                    <jats:italic>FRMD4B</jats:italic>\n                    ) with putative contributions to human and zebrafish cranial motor development. In addition, protein binding microarrays demonstrated reduced or abolished DNA binding of human variants of uncertain significance in known and novel sequence-derived transcription factors\n                    <jats:italic>PHOX2A</jats:italic>\n                    (p.(Trp137Cys)),\n                    <jats:italic>MAFB</jats:italic>\n                    (p.(Glu223Lys)), and\n                    <jats:italic>OLIG2</jats:italic>\n                    (p.(Arg156Leu)).\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>\n                    This study nominates three strong novel candidate oCCDD genes (\n                    <jats:italic>SEMA3F</jats:italic>\n                    ,\n                    <jats:italic>OLIG2,</jats:italic>\n                    and\n                    <jats:italic>FRMD4B</jats:italic>\n                    ) and supports the functionality and putative pathogenicity of transcription factor candidate variants\n                    <jats:italic>PHOX2A</jats:italic>\n                    p.(Trp137Cys),\n                    <jats:italic>MAFB</jats:italic>\n                    p.(Glu223Lys), and\n                    <jats:italic>OLIG2</jats:italic>\n                    p.(Arg156Leu). Our findings support that G0 loss-of-function screening in zebrafish can be coupled with human sequence analysis and protein binding microarrays to aid in prioritizing oCCDD candidate genes/variants.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2024.09.12.612713",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2024-09-16T01:38:37Z",
+        "timestamp": 1726450717000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Gene identification for ocular congenital cranial motor neuron disorders using human sequencing, zebrafish screening, and protein binding microarrays"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4822-9384",
+          "authenticated-orcid": false,
+          "given": "Julie A.",
+          "family": "Jurgens",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paola M. Matos",
+          "family": "Ruiz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jessica",
+          "family": "King",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emma E.",
+          "family": "Foster",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lindsay",
+          "family": "Berube",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wai-Man",
+          "family": "Chan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brenda J.",
+          "family": "Barry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Raehoon",
+          "family": "Jeong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elisabeth",
+          "family": "Rothman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mary C.",
+          "family": "Whitman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sarah",
+          "family": "MacKinnon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cristina",
+          "family": "Rivera-Quiles",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brandon M.",
+          "family": "Pratt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Teresa",
+          "family": "Easterbrooks",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fiona M.",
+          "family": "Mensching",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Silvio Alessandro",
+          "family": "Di Gioia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lynn",
+          "family": "Pais",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eleina M.",
+          "family": "England",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Teresa",
+          "family": "de Berardinis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adriano",
+          "family": "Magli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Feray",
+          "family": "Koc",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0628-1176",
+          "authenticated-orcid": false,
+          "given": "Kazuhide",
+          "family": "Asakawa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Koichi",
+          "family": "Kawakami",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6418-9592",
+          "authenticated-orcid": false,
+          "given": "Anne",
+          "family": "O’Donnell-Luria",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4587-4794",
+          "authenticated-orcid": false,
+          "given": "David G.",
+          "family": "Hunter",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Caroline D.",
+          "family": "Robson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Martha L.",
+          "family": "Bulyk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elizabeth C.",
+          "family": "Engle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/brain/awl161"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2016.03.023"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gim.2024.101216"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2008.195"
+        },
+        {
+          "issue": "1",
+          "key": "2024091814151757000_2024.09.12.612713v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "3110",
+          "DOI": "10.1038/s41467-024-47396-0",
+          "article-title": "DNA binding analysis of rare variants in homeodomains reveals homeodomain specificity-determining residues",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.preteyeres.2007.08.002"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1151"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12111"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.1869-13.2013"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.20-01-00206.2000"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/dvdy.22781"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.124.20.4065"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng744"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.01.25.577261"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2018.07.024"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "4221",
+          "DOI": "10.1038/ncomms5221",
+          "article-title": "Development of oculomotor circuitry independent of hox3 genes",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "issue": "3",
+          "key": "2024091814151757000_2024.09.12.612713v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "381",
+          "DOI": "10.1242/dev.125.3.381",
+          "article-title": "Equivalence in the genetic control of hindbrain segmentation in fish and mouse",
+          "volume": "125",
+          "year": "1998",
+          "journal-title": "Development"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3360"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shankaran SS , Dahlem TJ , Bisgrove BW , Yost HJ , Tristani-Firouzi M . CRISPR/Cas9-Directed Gene Editing for the Generation of Loss-of-Function Mutants in High-Throughput Zebrafish F Screens. Curr Protoc Mol Biol. 2017;119:31.9.1–31.9.22.",
+          "DOI": "10.1002/cpmb.42"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2018.06.003"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1308335110"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aad2257"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC993"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddx168"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.26",
+          "unstructured": "Barry BJ , Whitman MC , Hunter DG , Engle EC. Duane Syndrome. In: Adam MP , Feldman J , Mirzaa GM , et al., eds. GeneReviews. University of Washington, Seattle; 2007."
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddz137"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0002-9394(03)00891-2"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.kint.2018.02.025"
+        },
+        {
+          "issue": "4",
+          "key": "2024091814151757000_2024.09.12.612713v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "445",
+          "DOI": "10.1159/000516248",
+          "article-title": "Cyclosporine A Treatment of Proteinuria in a New Case of MAFB-Associated Glomerulopathy without Extrarenal Involvement: A Case Report",
+          "volume": "145",
+          "year": "2021",
+          "journal-title": "Nephron"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.31",
+          "first-page": "e63580",
+          "article-title": "Clinical and molecular cytogenetic studies of five new patients with 20q11q12 deletion and review of the literature: Proposition of two critical regions",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Am J Med Genet A. Published online March"
+        },
+        {
+          "issue": "3",
+          "key": "2024091814151757000_2024.09.12.612713v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "377",
+          "DOI": "10.1111/cge.14101",
+          "article-title": "Duane retraction syndrome characterized by inner ear agenesis and neurodevelopmental phenotype in an Italian family with a variant in MAFB",
+          "volume": "101",
+          "year": "2022",
+          "journal-title": "Clin Genet"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.23-17-06671.2003"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-00595-4"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1153"
+        },
+        {
+          "issue": "6",
+          "key": "2024091814151757000_2024.09.12.612713v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1008",
+          "DOI": "10.1038/s41436-020-01087-5",
+          "article-title": "Loss-of-function variants in SEMA3F and PLXNA3 encoding semaphorin-3F and its receptor plexin-A3 respectively cause idiopathic hypogonadotropic hypogonadism",
+          "volume": "23",
+          "year": "2021",
+          "journal-title": "Genet Med"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.3755-08.2009"
+        },
+        {
+          "key": "2024091814151757000_2024.09.12.612713v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.06.09.21258643"
+        },
+        {
+          "issue": "19",
+          "key": "2024091814151757000_2024.09.12.612713v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "3340",
+          "DOI": "10.1093/hmg/ddy238",
+          "article-title": "An FRMD4B variant suppresses dysplastic photoreceptor lesions in models of enhanced S-cone syndrome and of Nrl deficiency",
+          "volume": "27",
+          "year": "2018",
+          "journal-title": "Hum Mol Genet"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.12.612713",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:03:16Z",
+        "timestamp": 1768460596000
+      },
+      "score": 50.67043,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.12.612713"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            15
+          ]
+        ]
+      },
+      "references-count": 39,
+      "URL": "https://doi.org/10.1101/2024.09.12.612713",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

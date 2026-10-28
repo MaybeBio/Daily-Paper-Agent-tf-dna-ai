@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "37264049",
+    "doi": "10.1038/s41467-023-38519-0",
+    "title": "Identification of a covert evolutionary pathway between two protein folds."
+  },
+  "content": {
+    "abstract": "Although homologous protein sequences are expected to adopt similar structures, some amino acid substitutions can interconvert alpha-helices and beta-sheets. Such fold switching may have occurred over evolutionary history, but supporting evidence has been limited by the: (1) abundance and diversity of sequenced genes, (2) quantity of experimentally determined protein structures, and (3) assumptions underlying the statistical methods used to infer homology. Here, we overcome these barriers by applying multiple statistical methods to a family of ~600,000 bacterial response regulator proteins. We find that their homologous DNA-binding subunits assume divergent structures: helix-turn-helix versus alpha-helix + beta-sheet (winged helix). Phylogenetic analyses, ancestral sequence reconstruction, and AlphaFold2 models indicate that amino acid substitutions facilitated a switch from helix-turn-helix into winged helix. This structural transformation likely expanded DNA-binding specificity. Our approach uncovers an evolutionary pathway between two protein folds and provides a methodology to identify secondary structure switching in other protein families.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/metabolism",
+      "Phylogeny",
+      "Sequence Alignment",
+      "Sequence Homology, Amino Acid",
+      "*Bacterial Proteins/metabolism",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chakravarty, Devlina",
+        "Sreenivasan, Shwetha",
+        "Swint-Kruse, Liskin",
+        "Porter, Lauren L"
+      ],
+      "short_names": [
+        "Chakravarty D",
+        "Sreenivasan S",
+        "Swint-Kruse L",
+        "Porter LL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5925-9741",
+        "ORCID: 0000-0003-2031-8326"
+      ],
+      "affiliations": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20894, USA.",
+        "Department of Biochemistry and Molecular Biology, The University of Kansas Medical Center, Kansas City, KS, 66160, USA.",
+        "Department of Biochemistry and Molecular Biology, The University of Kansas Medical Center, Kansas City, KS, 66160, USA.",
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20894, USA. lauren.porter@nih.gov.",
+        "Biochemistry and Biophysics Center, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, 20892, USA. lauren.porter@nih.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chakravarty, Devlina",
+        "short_name": "Chakravarty D",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20894, USA."
+        ]
+      },
+      {
+        "full_name": "Sreenivasan, Shwetha",
+        "short_name": "Sreenivasan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The University of Kansas Medical Center, Kansas City, KS, 66160, USA."
+        ]
+      },
+      {
+        "full_name": "Swint-Kruse, Liskin",
+        "short_name": "Swint-Kruse L",
+        "identifiers": [
+          "0000-0002-5925-9741"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The University of Kansas Medical Center, Kansas City, KS, 66160, USA."
+        ]
+      },
+      {
+        "full_name": "Porter, Lauren L",
+        "short_name": "Porter LL",
+        "identifiers": [
+          "0000-0003-2031-8326"
+        ],
+        "affiliations": [
+          "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20894, USA. lauren.porter@nih.gov.",
+          "Biochemistry and Biophysics Center, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, 20892, USA. lauren.porter@nih.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Jun 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/02 01:07",
+    "fetched_at": "2026-09-29 01:30:34"
+  },
+  "links": {
+    "cites": [
+      "41824490",
+      "41252592",
+      "40839423",
+      "40709301",
+      "40662823",
+      "40542537",
+      "40427706",
+      "40124498",
+      "39801626",
+      "39756261",
+      "39720130",
+      "39606714",
+      "39605533",
+      "39409138",
+      "39092141",
+      "39025855",
+      "38073129",
+      "37953705",
+      "37786684",
+      "37673981",
+      "37431685",
+      "37270322",
+      "36782353"
+    ],
+    "refs": [
+      "36782353",
+      "36702827",
+      "36669114",
+      "36534803",
+      "36192636",
+      "36040261",
+      "35778397",
+      "35637307",
+      "35634782",
+      "34849909",
+      "34791371",
+      "34437092",
+      "34387349",
+      "34383917",
+      "34282049",
+      "34265844",
+      "33502503",
+      "33462801",
+      "33384377",
+      "33125078",
+      "33109766",
+      "33048928",
+      "32434931",
+      "30598070",
+      "30051937",
+      "29787234",
+      "29784778",
+      "29636388",
+      "29477338",
+      "29078314",
+      "29077904",
+      "29035372",
+      "28573592",
+      "28481363",
+      "28104891",
+      "27253392",
+      "27166375",
+      "26653858",
+      "26553804",
+      "26503808",
+      "26113641",
+      "25970262",
+      "25564862",
+      "25474468",
+      "25371430",
+      "25165599",
+      "25038785",
+      "24930765",
+      "24386217",
+      "23650349",
+      "23263379",
+      "23060610",
+      "22927372",
+      "22528593",
+      "22325777",
+      "22198341",
+      "21988835",
+      "21304918",
+      "20368465",
+      "20226724",
+      "20224823",
+      "20180275",
+      "20064877",
+      "19923431",
+      "19377059",
+      "19304878",
+      "18364395",
+      "18227506",
+      "18000004",
+      "17609385",
+      "17434131",
+      "17433693",
+      "17267437",
+      "17135200",
+      "16740923",
+      "15914544",
+      "15808743",
+      "15353795",
+      "15201400",
+      "15062080",
+      "15034147",
+      "14681378",
+      "12647390",
+      "12079646",
+      "12037327",
+      "11798428",
+      "11673238",
+      "11110912",
+      "11101895",
+      "10195898",
+      "10195279",
+      "9789096",
+      "9254694",
+      "8820481",
+      "8703073",
+      "8614471",
+      "8601501",
+      "7920636",
+      "6667333",
+      "4124164",
+      "2645526",
+      "2509717",
+      "1931967",
+      "1633570"
+    ],
+    "similar": [
+      "37264049",
+      "18052041",
+      "9562558",
+      "9016718",
+      "17720190",
+      "8139574",
+      "16376935",
+      "10653699",
+      "7699720",
+      "8916905",
+      "8598195",
+      "16939206",
+      "12837783",
+      "8692686",
+      "18005985",
+      "8870673",
+      "11684888",
+      "11929537",
+      "11756427",
+      "15608123",
+      "33727356",
+      "35778397",
+      "8444906",
+      "16443380",
+      "10473770",
+      "8234232",
+      "8590003",
+      "9571051",
+      "8780507",
+      "7947760",
+      "9714164",
+      "8831795",
+      "10339551",
+      "8720133",
+      "11418558",
+      "7885226",
+      "12956532",
+      "9083114",
+      "7739897",
+      "14966247",
+      "1409566",
+      "11934608",
+      "8602247",
+      "10545119",
+      "20302877",
+      "10228561",
+      "8543068",
+      "11743881",
+      "9172641",
+      "16672238",
+      "33462801",
+      "37990674",
+      "18784751",
+      "15062080",
+      "16982615",
+      "15170177",
+      "36715571",
+      "10512705",
+      "11419938",
+      "17242520",
+      "20141168",
+      "22772065",
+      "16213649",
+      "35408816",
+      "19014591",
+      "13679366",
+      "9341214",
+      "20061473",
+      "8745408",
+      "9070906",
+      "11976954",
+      "8075070",
+      "22984442",
+      "26744254",
+      "19788170",
+      "9207039",
+      "7756978",
+      "8284672",
+      "9989946",
+      "20534443",
+      "10656784",
+      "9724717",
+      "11243786",
+      "9199401",
+      "9857196",
+      "7577913",
+      "9466913",
+      "18227506",
+      "9449341",
+      "16488888",
+      "14568530",
+      "11700308",
+      "12595552",
+      "10683251",
+      "30017563",
+      "18029424",
+      "1946369",
+      "20919752",
+      "12837797",
+      "9334747"
+    ],
+    "review": [
+      "37264049",
+      "8831795",
+      "11934608",
+      "8543068"
+    ],
+    "pmc": [
+      "10235069"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-38519-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37264049/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37264049",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

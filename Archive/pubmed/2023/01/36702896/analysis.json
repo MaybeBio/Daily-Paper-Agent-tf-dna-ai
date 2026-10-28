@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36702896",
+  "title": "A universal deep-learning model for zinc finger design enables transcription factor reprogramming.",
+  "authors": "Ichikawa, David M; Abdin, Osama; Alerasool, Nader; Kogenaru, Manjunatha; Mueller, April L; Wen, Han; Giganti, David O; Goldberg, Gregory W; Adams, Samantha; Spencer, Jeffrey M; Razavi, Rozita; Nim, Satra; Zheng, Hong; Gionco, Courtney; Clark, Finnegan T; Strokach, Alexey; Hughes, Timothy R; Lionnet, Timothee; Taipale, Mikko; Kim, Philip M; Noyes, Marcus B",
+  "journal": "Nature biotechnology",
+  "published_date": "2023-01-27",
+  "window": {
+    "start": "2023-01-23",
+    "end": "2023-01-29"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发了深度学习模型ZFDesign，基于490亿蛋白-DNA互作数据设计锌指结构域并实现转录因子重编程，核心聚焦TF-DNA结合识别与设计，方法为AI建模，高度匹配本课题。",
+  "abstract": "Cys(2)His(2) zinc finger (ZF) domains engineered to bind specific target sequences in the genome provide an effective strategy for programmable regulation of gene expression, with many potential therapeutic applications. However, the structurally intricate engagement of ZF domains with DNA has made their design challenging. Here we describe the screening of 49 billion protein-DNA interactions and the development of a deep-learning model, ZFDesign, that solves ZF design for any genomic target. ZFDesign is a modern machine learning method that models global and target-specific differences induced by a range of library environments and specifically takes into account compatibility of neighboring fingers using a novel hierarchical transformer architecture. We demonstrate the versatility of designed ZFs as nucleases as well as activators and repressors by seamless reprogramming of human transcription factors. These factors could be used to upregulate an allele of haploinsufficiency, downregulate a gain-of-function mutation or test the consequence of regulation of a single gene as opposed to the many genes that a transcription factor would normally influence.",
+  "abstract_zh": "Cys(2)His(2)锌指（ZF）结构域经工程化设计，可结合基因组中的特定靶序列，为基因表达的可编程调控提供了一种有效策略，并具有许多潜在的治疗应用。然而，ZF结构域与DNA在结构上的复杂结合方式使其设计颇具挑战。在此，我们描述了490亿次蛋白质-DNA相互作用的筛选，以及一种深度学习模型ZFDesign的开发，该模型解决了针对任何基因组靶标的ZF设计问题。ZFDesign是一种现代机器学习方法，能够模拟由多种文库环境引起的全局及靶标特异性差异，并通过一种新颖的层级Transformer架构，特别考虑了相邻锌指之间的兼容性。我们通过无缝重编程人类转录因子，展示了所设计ZF作为核酸酶以及激活子和抑制子的多功能性。这些因子可用于上调单倍剂量不足的等位基因、下调功能获得性突变，或测试单个基因调控的后果，而非转录因子通常影响的众多基因。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36702896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36702896/",
+  "paper_page_path": "papers/pubmed/36702896/index.html"
+}

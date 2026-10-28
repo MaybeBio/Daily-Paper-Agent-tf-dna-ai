@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that 17 suspected metabolism-disrupting chemicals (MDCs) activate steroid hormone receptors (SHRs) at picomolar-to-low micromolar concentrations, induce distinct SHR-coregulator recruitment patterns, and that these effects are driven by diverse molecular interactions, as assessed by reporter gene assays, MARCoNI technology, RNA-seq, public protein interaction data, and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological validations are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, supplementary data, statistical reporting, validation metrics for reporter gene assays, MARCoNI experimental conditions, RNA-seq analysis details, molecular dynamics simulation parameters, and any negative or control results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable screening approach for MDC effects on SHRs, combining in vitro and in silico methods. However, the claims of receptor activation and coregulator recruitment are stated without quantitative support, and the abstract does not provide sufficient detail to assess technical rigor, reproducibility, or the strength of the conclusions. The work may interest the endocrine toxicology community, but the case for broad mechanistic insight is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in endocrine toxicology, environmental health, and chemical risk assessment would be interested in the identification of MDCs that activate SHRs and the proposed test battery. Those studying nuclear receptor signaling and coregulator interactions may also find the MARCoNI-based approach relevant, though the abstract does not yet demonstrate a novel mechanistic advance.
+- **Major strengths** The abstract describes a multi-method approach that integrates cellular assays, protein interaction profiling, and computational modeling, which could provide a more comprehensive assessment of MDC activity than single-assay screens. The inclusion of 17 diverse MDCs spanning multiple chemical classes is a practical strength for screening purposes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MDCs are capable of SHR activation at picomolar-to-low micromolar concentrations.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states activation concentrations but provides no dose-response data, replicate numbers, statistical comparisons, or positive/negative controls. The range "picomolar-to-low micromolar" spans five orders of magnitude, which is unusually broad and may reflect differential potency across receptors or chemicals, but this is not explained.
+  - **Why it matters** Without quantitative evidence, the claim of activation is not verifiable. The broad concentration range could indicate weak or inconsistent effects, and the absence of statistical context prevents assessment of whether these activations are biologically meaningful or within the range of environmental exposure.
+  - **Resolution test** Provide dose-response curves for each SHR and MDC combination, with EC50 values, confidence intervals, and statistical comparisons to vehicle controls. Clarify whether picomolar effects are observed for specific chemicals or are aggregated across the panel.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors state that reporter gene assays were "established and pre-validated" in HepG2 cells.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe the validation criteria, such as sensitivity, specificity, or reproducibility of the assays. HepG2 cells may have variable expression of steroid receptors and coregulators, which could affect assay performance. No information is given on how receptor expression was confirmed or whether endogenous receptor activity was controlled.
+  - **Why it matters** Reporter gene assays are prone to artifacts from cell line background, ligand-independent activation, and assay-specific interference. Without validation details, the reliability of the activation data is uncertain, and the claim that the assays are suitable for MDC screening is not supported.
+  - **Resolution test** Describe validation experiments, including positive controls (e.g., known agonists), negative controls (e.g., vehicle and receptor-negative cells), and measures of assay window and reproducibility. Provide data on receptor expression levels in HepG2 cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors claim that MDCs induced "distinct SHR-coregulator binding patterns involving multiple coactivators, corepressors and other modulatory proteins."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which coregulators were tested, how many showed MDC-dependent interactions, or whether the patterns were statistically distinct across chemicals or receptors. The use of "distinct" implies a comparative analysis, but no criteria for distinctness are given.
+  - **Why it matters** Coregulator recruitment patterns are central to the claim of diverse molecular interactions. Without a defined set of coregulators and a quantitative comparison, the conclusion that MDCs produce distinct patterns is not testable. The biological significance of these patterns, such as whether they predict agonist or antagonist outcomes, is also unclear.
+  - **Resolution test** List the coregulator panel, provide interaction data with statistical thresholds for significance, and show whether patterns cluster by chemical class or receptor type. Relate the patterns to functional outcomes, such as transcriptional activation or repression.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological integration
+  - **Claim pointer** The authors state that RNA-seq and public protein interaction data were used to identify relevant SHR-interacting coregulators expressed in hepatic cells.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not explain how RNA-seq data were analyzed, which public datasets were used, or how the integration with MARCoNI was performed. The selection of "relevant" coregulators is not defined, and it is unclear whether the RNA-seq data were generated in this study or obtained from external sources.
+  - **Why it matters** The integration of transcriptomic and protein interaction data is a key step in linking MDC exposure to coregulator recruitment. Without methodological clarity, the reproducibility of this approach is limited, and the relevance of the selected coregulators to hepatic SHR signaling is not established.
+  - **Resolution test** Describe the RNA-seq analysis pipeline, including differential expression criteria, and specify the public datasets and filtering criteria used to define the coregulator panel. Show that the selected coregulators are expressed in HepG2 cells under the assay conditions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational validation
+  - **Claim pointer** The authors claim to have examined MDC binding to ER and GR using molecular dynamics simulations.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no details on simulation parameters, force fields, binding free energy calculations, or how binding predictions were validated against experimental data. It is unclear whether the simulations support the observed activation or are merely descriptive.
+  - **Why it matters** Molecular dynamics results are only meaningful if they are tied to experimental observations, such as binding affinities or functional outcomes. Without this link, the computational component adds limited value to the mechanistic claims.
+  - **Resolution test** Provide simulation details, including system setup, simulation length, and analysis methods. Show correlation between predicted binding and experimental activation or coregulator recruitment data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Chemical panel description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract lists chemical classes but does not name the 17 MDCs or indicate which are parent compounds versus metabolites.
+  - **Required correction** Provide a list of the tested chemicals in the abstract or refer to a table, and clarify the relationship between parent compounds and metabolites.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "pre-validated"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "pre-validated" is ambiguous and does not indicate the extent of validation performed.
+  - **Required correction** Replace with a specific description of the validation steps, such as "validated against known agonists and antagonists" or "confirmed for reproducibility across three independent experiments."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Concentration range
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The range "picomolar-to-low micromolar" is presented without specifying which receptors or chemicals fall at each end of the range.
+  - **Required correction** Specify the concentration range for each receptor or provide a summary table in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (activation concentrations without quantitative data), R1-M2 (assay validation not described), R1-M3 (coregulator patterns not quantitatively defined), R1-M4 (integration of RNA-seq and protein interaction data not detailed), R1-M5 (molecular dynamics not linked to experimental results)
+- **Assessment against Nature-style criteria** Originality: The combination of reporter assays, MARCoNI, and molecular dynamics for MDC screening is somewhat novel, but the abstract does not demonstrate a conceptual advance beyond existing endocrine disruptor testing. Scientific importance: The topic is relevant to environmental health, but the abstract does not establish a new mechanism or a broadly applicable finding. Interdisciplinary readership: The work may appeal to toxicologists and nuclear receptor biologists, but the abstract is too technical and lacks context for a general scientific audience. Technical soundness: Not assessable from the abstract; key validation and statistical details are missing. Readability for nonspecialists: The abstract is dense and assumes familiarity with multiple assay technologies, limiting accessibility.
+
+## Risk / unsupported claims
+- The claim that MDCs activate SHRs at picomolar-to-low micromolar concentrations is unsupported without dose-response data and statistical analysis.
+- The claim of "distinct" SHR-coregulator binding patterns is unsupported without a defined coregulator panel and comparative statistics.
+- The claim that the test battery is "broadened" is not substantiated, as no comparison to existing methods is provided.
+- The relevance of the identified coregulators to hepatic SHR signaling is not assessable from the abstract.
+- The molecular dynamics findings are not linked to experimental outcomes, making their contribution to the conclusions unverifiable.

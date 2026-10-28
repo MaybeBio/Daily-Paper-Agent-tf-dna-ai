@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41244204",
+  "title": "TSCytoPred: a deep learning framework for inferring cytokine expression trajectories from irregular longitudinal gene expression data to enhance multi-omics analyses.",
+  "authors": "Choi, Joung Min; Chae, Heejoon",
+  "journal": "PeerJ",
+  "published_date": "2025-11-17",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习从时序基因表达推断细胞因子表达轨迹，虽涉及转录因子互作但非TF-DNA结合建模核心，方法可迁移性有限。",
+  "abstract": "Cytokines play a crucial role in immune system regulation, mediating responses from pathogen defense to tissue-damaging inflammation. Excessive cytokine production is implicated in severe conditions such as cancer progression, hemophagocytic lymphohistiocytosis, and severe cases of Coronavirus disease-2019 (COVID-19). Studies have shown that cytokine expression profiles serve as biomarkers for disease severity and mortality prediction, with machine learning (ML) methods increasingly employed for predictive analysis. To improve patient outcome predictions, treatment adaptation, and survival rates, longitudinal analysis of cytokine profiles is essential. Time-series cytokine profiling has been linked to tumor response, overall survival in various cancers, and acute encephalopathy. Similarly, COVID-19 severity and patient outcomes correlate with cytokine expression dynamics over time. However, challenges remain due to the limited availability of time-series cytokine data, restricting broader experimental applications and robust predictive modeling. Recent advancements indicate that cytokine expression can be computationally inferred using gene expression data and transcription factor interactions. Inferring cytokine levels from existing gene expression datasets could enhance early disease detection and treatment response predictions while reducing profiling costs. This work proposes TSCytoPred, a deep learning-based model trained on time-series gene expression data to infer cytokine expression trajectories. TSCytoPred identifies genes relevant for predicting target cytokines through interaction relationships and high correlation. These identified genes are subsequently utilized in a neural network incorporating an interpolation block to estimate cytokine expression trajectories between observed time points. Performance evaluations using a COVID-19 dataset demonstrate that TSCytoPred significantly outperforms baseline regression methods, achieving the highest coefficient of determinataion (R(2)) and the lowest mean absolute error (MAE). Furthermore, cytokine data inferred by TSCytoPred enhances COVID-19 patient severity risk predictions, demonstrating the model's clinical utility. TSCytoPred can be effectively applied to datasets with limited time points and accommodates longitudinal datasets containing irregular temporal gaps, thereby enhancing disease outcome analysis such as in COVID-19 cases and expanding the applicability of multi-omics datasets in rare disease contexts with missing multi-omics samples. TSCytoPred is publicly available at https://github.com/joungmin-choi/TSCytoPred.",
+  "abstract_zh": "细胞因子在免疫系统调控中发挥关键作用，介导从病原体防御到组织损伤性炎症的反应。细胞因子过度产生与严重疾病相关，如癌症进展、噬血细胞性淋巴组织细胞增生症以及严重的新型冠状病毒病-2019 (COVID-19)。研究表明，细胞因子表达谱可作为疾病严重程度和死亡率预测的生物标志物，机器学习 (machine learning, ML) 方法越来越多地用于预测分析。为了改善患者结局预测、治疗调整和生存率，细胞因子谱的纵向分析至关重要。时间序列细胞因子谱分析已与肿瘤反应、多种癌症的总生存期以及急性脑病相关联。同样，COVID-19严重程度和患者结局与细胞因子表达随时间的变化动态相关。然而，由于时间序列细胞因子数据的有限可用性，挑战依然存在，这限制了更广泛的实验应用和稳健的预测建模。近期进展表明，细胞因子表达可通过基因表达数据和转录因子相互作用进行计算推断。从现有基因表达数据集中推断细胞因子水平，可增强早期疾病检测和治疗反应预测，同时降低分析成本。本研究提出TSCytoPred，一种基于深度学习、训练于时间序列基因表达数据以推断细胞因子表达轨迹的模型。TSCytoPred通过相互作用关系和高相关性识别与预测目标细胞因子相关的基因。这些识别出的基因随后被用于包含插值块的神经网络中，以估计观测时间点之间的细胞因子表达轨迹。使用COVID-19数据集的性能评估表明，TSCytoPred显著优于基线回归方法，实现了最高的决定系数 (R(2)) 和最低的平均绝对误差 (mean absolute error, MAE)。此外，由TSCytoPred推断的细胞因子数据增强了COVID-19患者严重程度风险预测，展示了该模型的临床实用性。TSCytoPred可有效应用于时间点有限的数据集，并适应包含不规则时间间隔的纵向数据集，从而增强疾病结局分析（如COVID-19病例），并扩展多组学数据集在罕见病背景下缺失多组学样本时的适用性。TSCytoPred公开可用，网址为 https://github.com/joungmin-choi/TSCytoPred。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41244204/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41244204/",
+  "paper_page_path": "papers/pubmed/41244204/index.html"
+}

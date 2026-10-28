@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "39904740",
+    "doi": "10.1111/gtc.70000",
+    "title": "An Attention-Based Deep Neural Network Model to Detect Cis-Regulatory Elements at the Single-Cell Level From Multi-Omics Data."
+  },
+  "content": {
+    "abstract": "Cis-regulatory elements (cREs) play a crucial role in regulating gene expression and determining cell differentiation and state transitions. To capture the heterogeneous transitions of cell states associated with these processes, detecting cRE activity at the single-cell level is essential. However, current analytical methods can only capture the average behavior of cREs in cell populations, thereby obscuring cell-specific variations. To address this limitation, we proposed an attention-based deep neural network framework that integrates DNA sequences, genomic distances, and single-cell multi-omics data to detect cREs and their activities in individual cells. Our model shows higher accuracy in identifying cREs within single-cell multi-omics data from healthy human peripheral blood mononuclear cells than other existing methods. Furthermore, it clusters cells more precisely based on predicted cRE activities, enabling a finer differentiation of cell states. When applied to publicly available single-cell data from patients with glioma, the model successfully identified tumor-specific SOX2 activity. Additionally, it revealed the heterogeneous activation of the ZEB1 transcription factor, a regulator of epithelial-to-mesenchymal transition-related genes, which conventional methods struggle to detect. Overall, our model is a powerful tool for detecting cRE regulation at the single-cell level, which may contribute to revealing drug resistance mechanisms in cell sub-populations.",
+    "keywords": [
+      "attention-based neural network",
+      "cis-regulatory elements",
+      "deep learning",
+      "enhancers",
+      "explainable artificial intelligence",
+      "gene regulation",
+      "intra-tumor heterogeneity",
+      "single-cell ATAC-seq",
+      "single-cell analysis",
+      "single-cell multiome"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Single-Cell Analysis/methods",
+      "*Neural Networks, Computer",
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "SOXB1 Transcription Factors/genetics/metabolism",
+      "Leukocytes, Mononuclear/metabolism",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "Glioma/genetics",
+      "Zinc Finger E-box-Binding Homeobox 1/genetics/metabolism",
+      "Genomics/methods",
+      "*Regulatory Elements, Transcriptional",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Murakami, Ken",
+        "Iida, Keita",
+        "Okada, Mariko"
+      ],
+      "short_names": [
+        "Murakami K",
+        "Iida K",
+        "Okada M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6210-8223"
+      ],
+      "affiliations": [
+        "Laboratory for Cell Systems, Institute for Protein Research, Osaka University, Suita, Japan.",
+        "Integrated Frontier Research for Medical Science Division, Institute for Open and Transdisciplinary Research Initiatives (OTRI), Osaka University, Suita, Japan.",
+        "Laboratory for Cell Systems, Institute for Protein Research, Osaka University, Suita, Japan.",
+        "Laboratory for Cell Systems, Institute for Protein Research, Osaka University, Suita, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Murakami, Ken",
+        "short_name": "Murakami K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Cell Systems, Institute for Protein Research, Osaka University, Suita, Japan.",
+          "Integrated Frontier Research for Medical Science Division, Institute for Open and Transdisciplinary Research Initiatives (OTRI), Osaka University, Suita, Japan."
+        ]
+      },
+      {
+        "full_name": "Iida, Keita",
+        "short_name": "Iida K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Cell Systems, Institute for Protein Research, Osaka University, Suita, Japan."
+        ]
+      },
+      {
+        "full_name": "Okada, Mariko",
+        "short_name": "Okada M",
+        "identifiers": [
+          "0000-0002-6210-8223"
+        ],
+        "affiliations": [
+          "Laboratory for Cell Systems, Institute for Protein Research, Osaka University, Suita, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes to cells : devoted to molecular & cellular mechanisms"
+    ],
+    "journal_abbrev": [
+      "Genes Cells"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/05 00:19",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "41734268"
+    ],
+    "refs": [
+      "38594305",
+      "38413840",
+      "38086418",
+      "37962376",
+      "37697111",
+      "37443338",
+      "37386189",
+      "36471070",
+      "35941239",
+      "35921410",
+      "35761403",
+      "35648859",
+      "35594906",
+      "35551305",
+      "34608324",
+      "34062119",
+      "33903158",
+      "33858480",
+      "33633365",
+      "33603233",
+      "32913098",
+      "32728249",
+      "32289271",
+      "31337028",
+      "30407557",
+      "30078726",
+      "29588361",
+      "29409532",
+      "29115304",
+      "27863249",
+      "27822457",
+      "26771021",
+      "26083756",
+      "25953851",
+      "25726916",
+      "25635462",
+      "25607528",
+      "25517091",
+      "24522528",
+      "23775082",
+      "22955617",
+      "22868264",
+      "22718975",
+      "20644163",
+      "20129251",
+      "20110278",
+      "19418463",
+      "18356083",
+      "16381938",
+      "16199517",
+      "16082012",
+      "3313057",
+      "1425339",
+      "1391942"
+    ],
+    "similar": [
+      "39904740",
+      "39127768",
+      "32620137",
+      "25442502",
+      "34898596",
+      "39326643",
+      "38426141",
+      "38213995",
+      "31533978",
+      "39800872",
+      "38940155",
+      "39843737",
+      "33964211",
+      "40049167",
+      "25303887",
+      "39256881",
+      "39814021",
+      "28122245",
+      "29855387",
+      "38944814",
+      "29733395",
+      "39376034",
+      "38519642",
+      "35648859",
+      "34650237",
+      "36600199",
+      "38383453",
+      "40037709",
+      "31037155",
+      "35521974",
+      "28412966",
+      "39506564",
+      "35303433",
+      "37076857",
+      "39443793",
+      "39905485",
+      "27041571",
+      "40211981",
+      "28886531",
+      "39742806",
+      "33760173",
+      "38986578",
+      "38724692",
+      "37740295",
+      "31275609",
+      "30794031",
+      "38631728",
+      "34149757",
+      "38653489",
+      "22215325",
+      "34830485",
+      "34390932",
+      "33421513",
+      "29271397",
+      "29706544",
+      "29329360",
+      "29324315",
+      "30692544",
+      "36321557",
+      "31915147",
+      "28945795",
+      "40155814",
+      "39284975",
+      "39199333",
+      "27434882",
+      "38232730",
+      "27589728",
+      "31558707",
+      "39965391",
+      "21791114",
+      "35258588",
+      "29903919",
+      "40205616",
+      "26499213",
+      "27705917",
+      "34884559",
+      "31786786",
+      "38777607",
+      "39183303",
+      "29298348",
+      "39888834",
+      "30829316",
+      "30917930",
+      "36366781",
+      "34550965",
+      "36552758",
+      "37147619",
+      "37309871",
+      "32139122",
+      "37101124",
+      "38670157",
+      "29294030",
+      "39900922",
+      "35866592",
+      "39893194",
+      "30729665",
+      "30962623",
+      "35475224",
+      "35334158",
+      "28855262"
+    ],
+    "review": [
+      "39904740",
+      "34390932",
+      "36321557",
+      "39199333",
+      "26499213"
+    ],
+    "pmc": [
+      "11794194"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39904740.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39904740/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/gtc.70000",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

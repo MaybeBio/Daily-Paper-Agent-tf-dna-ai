@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, and evidence presented in the provided text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors introduce ARSENAL, a short-context (350 bp) masked DNA language model pretrained on ENCODE cCREs with a Fourier-domain regularizer that biases masked reconstruction toward motif-scale features. They claim improved de novo motif recovery, zero-shot variant effect prediction, supervised chromatin accessibility prediction, and targeted regulatory sequence design relative to existing DNALMs.
+- **Visible evidence base** Abstract, Introduction, Results (5 sections), Discussion, Methods (6 subsections); Figures 1–6 and Table 1 referenced but not provided; no supplementary materials
+- **Missing materials affecting confidence** Figures and tables (all referenced data visualizations), model hyperparameters beyond those stated, training curves, full evaluation details for DART-EVAL comparisons, baseline model configurations, code repository contents, and any statistical significance testing
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and timely contribution: a compact, functionally targeted DNALM with a novel regularization strategy. The motivation is well articulated, and the results, if fully supported by the missing figures and tables, would be of broad interest to the regulatory genomics and machine learning communities. However, the current text alone does not provide sufficient quantitative evidence to fully assess the strength of the claims. Several methodological details and evaluation protocols require clarification. The work is promising but not yet fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and machine learning applied to genomics. The work addresses a known limitation of large DNALMs (poor regulatory motif learning) and proposes a practical, resource-efficient alternative. The sequence generation framework with cell-type-specific objectives is also relevant to synthetic biology and genome engineering applications.
+- **Major strengths** 
+  - Clear and well-motivated problem statement: regulatory syntax is sparse and poorly captured by genome-wide pretraining.
+  - Novel adaptation of a Fourier-domain regularizer from supervised attribution to self-supervised masked LM, a creative and biologically grounded idea.
+  - Comprehensive evaluation across multiple tasks (motif discovery, variant effect, supervised prediction, generation), demonstrating breadth.
+  - Practical framing: short context and targeted pretraining offer computational efficiency advantages over genome-scale models.
+  - Discussion of limitations is honest and forward-looking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "ARSENAL improves recovery of diverse transcription factor motifs de novo" (Abstract; Results section "ARSENAL improves zero-shot motif discovery")
+  - **Evidence pointer** Figures 2 and 3; location not provided
+  - **Concern** The claim of improved motif recovery is central to the paper's thesis, but the quantitative results (Fig. 3A) are not visible. The text states ARSENAL "substantially outperforms" other DNALMs, but no numerical values, statistical tests, or effect sizes are reported. The qualitative case studies (Fig. 2) are described but not shown.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the magnitude of improvement or whether it is biologically meaningful. The claim is the foundation for subsequent variant effect and generation results.
+  - **Resolution test** Provide the DART-EVAL motif identification results with exact scores, confidence intervals, and statistical comparisons to baselines. Show representative motif recovery examples with clear annotations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "ARSENAL substantially improves zero-shot regulatory variant effect prediction relative to prior single-sequence DNALMs" (Results section "ARSENAL improves zero-shot variant effect prediction in regulatory QTL benchmarks")
+  - **Evidence pointer** Figure 4; location not provided
+  - **Concern** The variant effect prediction results are described qualitatively ("substantially higher correlation"), but the actual correlation values, comparison baselines, and statistical significance are not reported in the text. The ablation result (ARSENAL No Prior) is mentioned but not quantified.
+  - **Why it matters** Variant effect prediction is a key practical application. The claim of improvement needs to be supported by specific numbers and error bars to be credible and reproducible.
+  - **Resolution test** Report Spearman or Pearson correlations for ARSENAL and all baselines on both dsQTL and caQTL datasets, with confidence intervals and p-values. Include the No Prior ablation with exact values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "ARSENAL embeddings improve supervised chromatin accessibility prediction over strong ab-initio baselines" (Results section "ARSENAL embeddings improve supervised sequence models of chromatin accessibility")
+  - **Evidence pointer** Figure 5, Table 1; location not provided
+  - **Concern** The supervised evaluation uses a modified ChromBPNet with ARSENAL embeddings. The text states "keeping the overall architecture and task unchanged," but the embedding concatenation strategy (chunking 2,114 bp into 350 bp segments) is a significant architectural modification. The impact of this chunking on performance is not discussed. Also, the comparison to "strong ab-initio baselines" is not detailed.
+  - **Why it matters** The supervised improvement could be due to the embedding strategy rather than the pretraining itself. A fair comparison requires a baseline with the same chunking and concatenation applied to one-hot encodings or other embeddings.
+  - **Resolution test** Describe the exact embedding pipeline and include a control experiment with one-hot chunking. Report performance metrics (e.g., Pearson correlation) for all models and cell lines.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "ARSENAL serves as a practical generative prior, enabling targeted regulatory sequence design under downstream functional constraints" (Results section "ARSENAL can be used for targeted regulatory sequence generation and design")
+  - **Evidence pointer** Figure 6; location not provided
+  - **Concern** The generation results are described qualitatively. The text mentions "clear progression in predicted coverage" and "clear separation" but does not provide quantitative metrics for design success, diversity, or comparison to random or baseline generation. The beam search procedure is described but its convergence and robustness are not evaluated.
+  - **Why it matters** The claim of practical utility for sequence design requires evidence that the generated sequences are both functional (per the oracle) and diverse, and that the optimization is stable.
+  - **Resolution test** Provide quantitative metrics for generation success (e.g., fraction of sequences meeting target thresholds), diversity measures, and comparison to a random mutation or unregularized baseline.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "A Biologically Informed Objective Function"
+  - **Evidence pointer** location not provided
+  - **Issue** The equation for the Fourier regularizer is incomplete. The text states "a=FFTfθ(x)1" but the subscript "1" is ambiguous (likely L1 norm). The weighting function wi is described but the smoothing factor s is not defined in terms of its range or typical value.
+  - **Required correction** Clarify the notation and provide the full mathematical formulation, including the definition of s and its chosen value.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Architecture and Pretraining"
+  - **Evidence pointer** location not provided
+  - **Issue** The text states "we did not update any weights based on predictions within contiguous repeat stretches of at least 30bp" but does not specify how these stretches were identified beyond "lowercase letters in the reference genome." The repeat masking strategy for the No Prior ablation is also unclear.
+  - **Required correction** Specify the repeat-masking procedure in detail and state whether the same masking was applied to the No Prior model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "ARSENAL improves zero-shot variant effect prediction in regulatory QTL benchmarks"
+  - **Evidence pointer** location not provided
+  - **Concern** The text mentions "the original DART-EVAL evaluation uses substantially longer windows (2,114 bp)" but does not explain why ARSENAL's 350 bp window is sufficient or whether longer context would further improve performance.
+  - **Required correction** Add a brief discussion of the context-length trade-off and any experiments with longer windows.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "ARSENAL improves zero-shot motif discovery"
+  - **Evidence pointer** location not provided
+  - **Concern** The nucleotide dependency analysis is described as following a prior method, but the interpretation of the "weaker off-diagonal blocks linking distinct motifs" is speculative without supporting examples or quantification.
+  - **Required correction** Provide a concrete example or statistical summary of the off-diagonal blocks to support the claim of motif co-occurrence learning.
+- **Technical failings that need to be addressed before the case is established** 
+  - R1-M1 and R1-M2 are blocking because the central quantitative claims are not verifiable from the text alone. The figures and tables must be provided with full statistical details.
+  - The supervised evaluation (R1-M3) requires a fairer baseline to isolate the contribution of ARSENAL embeddings.
+  - The generation results (R1-M4) need quantitative validation.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The idea of applying a Fourier-domain regularizer to self-supervised masked LM is novel and distinct from prior work on attribution regularization.
+  - **Scientific importance** Potentially high. If the claims hold, ARSENAL offers a resource-efficient alternative to large DNALMs for regulatory tasks, with implications for variant interpretation and sequence design.
+  - **Interdisciplinary readership** Moderate to high. The work bridges machine learning and regulatory genomics, and the generation framework could interest synthetic biologists.
+  - **Technical soundness** Currently not fully assessable. The methodology is plausible, but key evaluation details and statistical rigor are missing from the text.
+  - **Readability for nonspecialists** Good. The writing is clear and accessible, with appropriate context for the biological motivation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the evaluation plan is comprehensive, but the current manuscript does not provide sufficient quantitative evidence to fully establish the claims. The authors should provide the missing figures, tables, and statistical details, and address the methodological clarifications outlined above.
+
+## Risk / unsupported claims
+- The claim of "substantially outperforms" in motif recovery (Fig. 3A) is unsupported without numerical data.
+- The claim of "substantially higher correlation" in variant effect prediction (Fig. 4) is unsupported without specific values.
+- The claim of "improved supervised chromatin accessibility prediction" (Fig. 5) is unsupported without metrics.
+- The claim of "practical generative prior" (Fig. 6) is unsupported without quantitative design success metrics.
+- The statement that ARSENAL "recovers a variety of known binding motifs at high confidence" (Fig. 2) is based on qualitative visualization and cannot be fully evaluated.
+- The claim that the Fourier regularizer "provides a substantial benefit beyond regulatory-region targeting alone" is based on the No Prior ablation, but the quantitative difference is not reported.

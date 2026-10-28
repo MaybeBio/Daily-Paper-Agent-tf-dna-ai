@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion) provided; supporting information referenced but not supplied.
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The manuscript reports that (±)-trans-δ-viniferin, a dimeric stilbenoid derived from trans-resveratrol, binds to DNA duplex and G-quadruplex structures via groove binding and end-stacking, respectively, with higher affinity than its monomeric counterpart. Methoxylated analogues show similar binding behavior. All compounds exhibit cytotoxic activity and DNA damage in cancer cell lines.
+- **Visible evidence base** NMR spectroscopy (1H, 31P, 2D-NOESY, TOCSY, ROESY), circular dichroism (including melting experiments), fluorescence spectroscopy titration, molecular docking, MTS cell proliferation assay, Western blot for γ-H2AX.
+- **Missing materials affecting confidence** Supporting information (Figures S1-S31, Tables S1-S4) not provided; experimental details for synthesis, NMR assignment tables, fluorescence fitting procedures, and docking parameters not fully described in the main text; raw data and statistical analysis for biological replicates not shown.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic biophysical and biological characterization of stilbenoid-DNA interactions, with a logical progression from monomeric to dimeric compounds. The combination of multiple spectroscopic techniques and docking provides a reasonably coherent picture of binding modes. However, several quantitative claims, particularly regarding binding affinities and the comparison between monomer and dimer, rest on data with large uncertainties that are not adequately discussed. The biological data, while supportive, are preliminary and do not establish a direct mechanistic link between DNA binding and observed cytotoxicity. The work is of interest to the nucleic acid recognition and natural product communities, but the strength of the conclusions is limited by the analytical approach and missing experimental details.
+- **Who would be interested in the results, and why** Researchers in nucleic acid structure and ligand design, particularly those focused on G-quadruplex targeting; natural product chemists studying stilbenoid bioactivities; and investigators exploring DNA damage mechanisms of polyphenolic compounds. The comparative monomer-dimer analysis may inform structure-activity relationship studies.
+- **Major strengths** 1) Comprehensive use of orthogonal biophysical techniques (NMR, CD, fluorescence, docking) to characterize binding. 2) Clear exclusion of intercalation as a binding mode for the dimer. 3) Direct comparison of monomeric and dimeric stilbenoids under identical conditions. 4) Inclusion of enantiopure compounds to probe stereoselectivity. 5) Integration of biophysical data with cellular assays.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim reliability
+  - **Claim pointer** "Apparent binding constants of (6.1±6.0) ×10^6, (1.1±1.9) ×10^7 or (1.3±0.9)×10^7 M^-1 were found for the complexes between (±)-trans-δ-viniferin and ds6 and ds10 duplexes or Pu22T14T23 G-quadruplex."
+  - **Evidence pointer** Table 4, Figures S25-S28 (location not provided in main text)
+  - **Concern** The reported binding constants carry extremely large relative errors, in some cases exceeding 100% of the mean value (e.g., 1.1±1.9 ×10^7 M^-1). This indicates that the fitting model does not adequately constrain the parameters, and the stated values may not be statistically distinguishable from each other or from those of other compounds. The manuscript does not discuss the origin of these uncertainties or whether the model assumptions (independent equivalent sites) are valid for the multi-site binding implied by the stoichiometries.
+  - **Why it matters** The central claim that the dimer has higher affinity than the monomer rests on these constants. If the uncertainties are as large as reported, the comparison may not be meaningful, undermining a key conclusion of the study.
+  - **Resolution test** Provide binding constants with confidence intervals from global fitting of multiple replicates; perform a formal statistical comparison (e.g., extra sum-of-squares F test) between monomer and dimer binding curves; report the goodness-of-fit and residuals for the chosen model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural evidence completeness
+  - **Claim pointer** "The binding of (±)-trans-δ-viniferin at the 3'-end occurred by stacking on G9, G13, G18 and G22 accompanied by a rearrangement of T23, A24 and A25."
+  - **Evidence pointer** Section "1H NMR experiments of (±)-trans-δ-viniferin with a G-quadruplex model", Figures 4-5, S5-S9 (location not provided)
+  - **Concern** The structural model for the G-quadruplex complex relies on chemical shift perturbations and a limited number of intermolecular NOEs. The manuscript states that overlap prevented unambiguous assignment of ligand protons, yet a detailed binding model is presented. The number and quality of NOE restraints used to position the ligand at the 3'-end quartet are not specified, and no structure calculation or refinement is described.
+  - **Why it matters** The proposed binding mode is a central finding. Without sufficient experimental restraints, the model remains speculative, and alternative binding orientations or multiple binding sites cannot be excluded.
+  - **Resolution test** Provide a table of unambiguous intermolecular NOEs used for the model; state the number of restraints per residue; if possible, perform a restrained docking or molecular dynamics refinement to validate the proposed pose; discuss how the model distinguishes between alternative binding orientations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** "All tested compounds were cytotoxic at μM concentration on several cancer cell lines, showing DNA damaging activity consistent with their ability to tightly interact with duplex and G-quadruplex structures."
+  - **Evidence pointer** Section "Antiproliferative activity evaluation", Table 5, Figure 9
+  - **Concern** The connection between DNA binding affinity and cytotoxicity is asserted but not mechanistically demonstrated. The manuscript acknowledges the lack of linear correlation between IC50 values and DNA damage, and notes that multiple factors can intervene. However, no experiments are presented to test whether DNA binding is necessary or sufficient for the observed effects, such as using a non-DNA-binding control compound or measuring cellular uptake.
+  - **Why it matters** The claim of a consistent mechanism linking biophysical binding to biological activity is not supported by the data. Without this link, the relevance of the detailed biophysical characterization to the anticancer activity remains unclear.
+  - **Resolution test** Include a control compound with similar physicochemical properties but no DNA binding; measure intracellular concentrations of the compounds; assess DNA damage in a cell-free system or in cells with compromised DNA repair to establish causality.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative analysis
+  - **Claim pointer** "Additionally, the methoxylated derivatives of (±)-trans-δ-viniferin and trans-resveratrol, i.e. (±)-pterostilbene-trans-dihydrodimer and trans-pterostilbene, respectively, were evaluated, revealing similar binding modes, affinities and stoichiometries with the DNA targets as their parent analogues."
+  - **Evidence pointer** Section "Fluorescence spectroscopy experiments", Table 4
+  - **Concern** The claim of "similar" binding properties is based on visual inspection of constants that overlap within their large error bars. No statistical test is applied to establish equivalence or to detect differences. The manuscript does not discuss whether the methoxy groups alter the electronic properties or hydrogen-bonding capacity in ways that might be expected to affect binding.
+  - **Why it matters** The conclusion that methylation does not affect DNA binding is used to suggest that the phenolic hydroxyls are not critical for the interaction. This is a structure-activity claim that requires quantitative support.
+  - **Resolution test** Perform a formal equivalence test or report effect sizes with confidence intervals for the comparison between parent and methoxylated compounds; consider whether the assay is sufficiently sensitive to detect meaningful differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** NMR titration methodology
+  - **Evidence pointer** Section "NMR studies"
+  - **Issue** The manuscript does not specify the concentration range of ligand used in NMR titrations, the solvent conditions (e.g., presence of cosolvent for ligand solubility), or how the ligand stock solutions were prepared. These details are essential for reproducibility.
+  - **Required correction** Add a paragraph in the Experimental Section (or Supporting Information) describing NMR sample preparation, ligand stock concentrations, and the range of R values explored.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fluorescence binding stoichiometry
+  - **Evidence pointer** Section "Fluorescence spectroscopy experiments", Table 4
+  - **Issue** The stoichiometries are reported as ratios (1:2, 1:3) but the method used to determine them (e.g., Job plot, mole-ratio method) is not described. The manuscript states that data were fitted with an independent equivalent-sites model, but the relationship between the fitted stoichiometry and the reported ratios is unclear.
+  - **Required correction** Describe the method used to determine stoichiometry and clarify how the stoichiometry parameter was extracted from the fitting.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological data analysis
+  - **Affected element** IC50 determination
+  - **Evidence pointer** Section "Antiproliferative activity evaluation", Table 5
+  - **Issue** The number of independent experiments and the error associated with each IC50 value are not reported. The manuscript states that IC50 values were determined but does not indicate whether these are means of replicates or single determinations.
+  - **Required correction** Report IC50 values as mean ± SD or SEM from at least three independent experiments, and specify the number of replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Docking methodology
+  - **Affected element** Molecular docking protocol
+  - **Evidence pointer** Section "Molecular docking studies" (referenced in abstract and results)
+  - **Issue** The docking software, scoring function, and treatment of ligand and receptor flexibility are not described in the main text. The manuscript states that docking was performed but provides no methodological detail.
+  - **Required correction** Provide a description of the docking protocol in the Experimental Section or cite a previous publication with full details.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Apparent binding constants"
+  - **Evidence pointer** Section "Fluorescence spectroscopy experiments"
+  - **Issue** The term "apparent" is used but not defined. It is unclear whether this refers to the use of a simplified model, the presence of multiple binding events, or other factors.
+  - **Required correction** Define what is meant by "apparent" in this context and discuss the limitations of the reported constants.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding constant reliability) is the primary technical failing. The large uncertainties in the reported constants undermine the quantitative comparison between compounds. R1-M2 (structural model restraint quality) also needs attention, as the proposed binding mode for the G-quadruplex complex is not sufficiently supported by the described NOE data.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of a multi-technique approach to a specific stilbenoid dimer is novel, but the general finding that polyphenolic compounds bind DNA grooves and G-quadruplex ends is not unprecedented. Scientific importance: Moderate. The work provides useful comparative data on monomer versus dimer binding, but the biological significance is not firmly established. Interdisciplinary readership: The work bridges natural product chemistry, nucleic acid biophysics, and cancer biology, which could attract readers across these fields. Technical soundness: The combination of techniques is appropriate, but the quantitative analysis has weaknesses as noted. Readability for nonspecialists: The manuscript is generally well-organized and clearly written, though some sections assume familiarity with NMR and docking terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially valuable, but the quantitative claims require strengthening through improved data analysis and reporting. The structural model for the G-quadruplex complex needs additional experimental support. The link between DNA binding and biological activity should be addressed with additional experiments or more cautious interpretation.
+
+## Risk / unsupported claims
+- The claim that (±)-trans-δ-viniferin has "higher affinity" for DNA targets than trans-resveratrol is not reliably supported given the large uncertainties in the binding constants.
+- The proposed structural model for the G-quadruplex complex, including specific stacking interactions and residue rearrangements, is not fully supported by the described NOE data.
+- The statement that DNA damage is "consistent with" the ability to bind DNA is an interpretation, not a demonstrated causal relationship.
+- The claim of "similar" binding properties for methoxylated analogues is not quantitatively established.
+- The biological relevance of the observed binding affinities to the cytotoxic effects is not demonstrated.

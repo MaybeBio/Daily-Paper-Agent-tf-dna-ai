@@ -1,0 +1,812 @@
+{
+  "identity": {
+    "pmid": "37377903",
+    "doi": "10.1158/2767-9764.CRC-22-0402",
+    "title": "Multiple Germline Events Contribute to Cancer Development in Patients with Li-Fraumeni Syndrome."
+  },
+  "content": {
+    "abstract": "Li-Fraumeni syndrome (LFS) is an autosomal dominant cancer-predisposition disorder. Approximately 70% of individuals who fit the clinical definition of LFS harbor a pathogenic germline variant in the TP53 tumor suppressor gene. However, the remaining 30% of patients lack a TP53 variant and even among variant TP53 carriers, approximately 20% remain cancer-free. Understanding the variable cancer penetrance and phenotypic variability in LFS is critical to developing rational approaches to accurate, early tumor detection and risk-reduction strategies. We leveraged family-based whole-genome sequencing and DNA methylation to evaluate the germline genomes of a large, multi-institutional cohort of patients with LFS (n = 396) with variant (n = 374) or wildtype TP53 (n = 22). We identified alternative cancer-associated genetic aberrations in 8/14 wildtype TP53 carriers who developed cancer. Among variant TP53 carriers, 19/49 who developed cancer harbored a pathogenic variant in another cancer gene. Modifier variants in the WNT signaling pathway were associated with decreased cancer incidence. Furthermore, we leveraged the noncoding genome and methylome to identify inherited epimutations in genes including ASXL1, ETV6, and LEF1 that confer increased cancer risk. Using these epimutations, we built a machine learning model that can predict cancer risk in patients with LFS with an area under the receiver operator characteristic curve (AUROC) of 0.725 (0.633-0.810). SIGNIFICANCE: Our study clarifies the genomic basis for the phenotypic variability in LFS and highlights the immense benefits of expanding genetic and epigenetic testing of patients with LFS beyond TP53. More broadly, it necessitates the dissociation of hereditary cancer syndromes as single gene disorders and emphasizes the importance of understanding these diseases in a holistic manner as opposed to through the lens of a single gene.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Li-Fraumeni Syndrome/genetics",
+      "Tumor Suppressor Protein p53/genetics",
+      "Genetic Predisposition to Disease/genetics",
+      "Genes, p53",
+      "Germ-Line Mutation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Subasri, Vallijah",
+        "Light, Nicholas",
+        "Kanwar, Nisha",
+        "Brzezinski, Jack",
+        "Luo, Ping",
+        "Hansford, Jordan R",
+        "Cairney, Elizabeth",
+        "Portwine, Carol",
+        "Elser, Christine",
+        "Finlay, Jonathan L",
+        "Nichols, Kim E",
+        "Alon, Noa",
+        "Brunga, Ledia",
+        "Anson, Jo",
+        "Kohlmann, Wendy",
+        "de Andrade, Kelvin C",
+        "Khincha, Payal P",
+        "Savage, Sharon A",
+        "Schiffman, Joshua D",
+        "Weksberg, Rosanna",
+        "Pugh, Trevor J",
+        "Villani, Anita",
+        "Shlien, Adam",
+        "Goldenberg, Anna",
+        "Malkin, David"
+      ],
+      "short_names": [
+        "Subasri V",
+        "Light N",
+        "Kanwar N",
+        "Brzezinski J",
+        "Luo P",
+        "Hansford JR",
+        "Cairney E",
+        "Portwine C",
+        "Elser C",
+        "Finlay JL",
+        "Nichols KE",
+        "Alon N",
+        "Brunga L",
+        "Anson J",
+        "Kohlmann W",
+        "de Andrade KC",
+        "Khincha PP",
+        "Savage SA",
+        "Schiffman JD",
+        "Weksberg R",
+        "Pugh TJ",
+        "Villani A",
+        "Shlien A",
+        "Goldenberg A",
+        "Malkin D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6584-877X",
+        "ORCID: 0000-0003-2021-3938",
+        "ORCID: 0000-0003-2829-7566",
+        "ORCID: 0000-0002-9475-0077",
+        "ORCID: 0000-0002-0039-747X",
+        "ORCID: 0000-0001-7733-383X",
+        "ORCID: 0000-0003-1569-8838",
+        "ORCID: 0000-0002-1314-8691",
+        "ORCID: 0000-0003-0003-713X",
+        "ORCID: 0000-0002-8312-6586",
+        "ORCID: 0000-0002-5581-6555",
+        "ORCID: 0000-0001-9483-1785",
+        "ORCID: 0000-0003-0343-937X",
+        "ORCID: 0000-0002-6847-6529",
+        "ORCID: 0000-0002-9134-9640",
+        "ORCID: 0000-0003-4651-996X",
+        "ORCID: 0000-0003-2473-7800",
+        "ORCID: 0000-0001-6006-0740",
+        "ORCID: 0000-0002-6968-7694",
+        "ORCID: 0000-0002-6501-4150",
+        "ORCID: 0000-0002-8073-5888",
+        "ORCID: 0000-0003-3283-2197",
+        "ORCID: 0000-0002-0368-5370",
+        "ORCID: 0000-0002-2416-833X",
+        "ORCID: 0000-0001-5752-9763"
+      ],
+      "affiliations": [
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Vector Institute, Toronto, Ontario, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Institute of Medical Science, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Paediatric Laboratory Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Division of Haematology/Oncology, The Hospital for Sick Children, Department of Paediatrics, University of Toronto, Toronto, Ontario, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+        "Children's Cancer Centre, Royal Children's Hospital, Melbourne, Victoria, Australia.",
+        "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+        "Department of Pediatrics, University of Melbourne, Melbourne, Australia.",
+        "Michael Rice Cancer Centre, Women's and Children's Hospital, North Adelaide, South Australia, Australia.",
+        "South Australia Health and Medical Research Institute, Adelaide, South Australia, Australia.",
+        "South Australia Immunogenomics Cancer Institute, University of Adelaide, Adelaide, Australia.",
+        "Department of Paediatrics, London Health Sciences Centre and Western University, London, Ontario, Canada.",
+        "Department of Paediatrics, McMaster University, Hamilton, Ontario, Canada.",
+        "Department of Medical Oncology, Princess Margaret Hospital and Mount Sinai Hospital, Toronto, Ontario, Canada.",
+        "Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada.",
+        "Neuro-Oncology Program, Nationwide Children's Hospital and The Ohio State University, Columbus, Ohio.",
+        "Department of Oncology, St Jude Children's Research Hospital, Memphis, Tennessee.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah.",
+        "Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, NCI, Bethesda, Maryland.",
+        "Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, NCI, Bethesda, Maryland.",
+        "Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, NCI, Bethesda, Maryland.",
+        "Department of Pediatrics, University of Utah, Salt Lake City, Utah.",
+        "PEEL Therapeutics, Inc., Salt Lake City, Utah.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+        "Ontario Institute for Cancer Research, Toronto, Ontario, Canada.",
+        "Division of Haematology/Oncology, The Hospital for Sick Children, Department of Paediatrics, University of Toronto, Toronto, Ontario, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Department of Paediatric Laboratory Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Vector Institute, Toronto, Ontario, Canada.",
+        "CIFAR: Child and Brain Development, Toronto, Ontario, Canada.",
+        "Department of Computer Science, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+        "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Division of Haematology/Oncology, The Hospital for Sick Children, Department of Paediatrics, University of Toronto, Toronto, Ontario, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Subasri, Vallijah",
+        "short_name": "Subasri V",
+        "identifiers": [
+          "0000-0002-6584-877X"
+        ],
+        "affiliations": [
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+          "Vector Institute, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Light, Nicholas",
+        "short_name": "Light N",
+        "identifiers": [
+          "0000-0003-2021-3938"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+          "Institute of Medical Science, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Kanwar, Nisha",
+        "short_name": "Kanwar N",
+        "identifiers": [
+          "0000-0003-2829-7566"
+        ],
+        "affiliations": [
+          "Department of Paediatric Laboratory Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Brzezinski, Jack",
+        "short_name": "Brzezinski J",
+        "identifiers": [
+          "0000-0002-9475-0077"
+        ],
+        "affiliations": [
+          "Division of Haematology/Oncology, The Hospital for Sick Children, Department of Paediatrics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Luo, Ping",
+        "short_name": "Luo P",
+        "identifiers": [
+          "0000-0002-0039-747X"
+        ],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Hansford, Jordan R",
+        "short_name": "Hansford JR",
+        "identifiers": [
+          "0000-0001-7733-383X"
+        ],
+        "affiliations": [
+          "Children's Cancer Centre, Royal Children's Hospital, Melbourne, Victoria, Australia.",
+          "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+          "Department of Pediatrics, University of Melbourne, Melbourne, Australia.",
+          "Michael Rice Cancer Centre, Women's and Children's Hospital, North Adelaide, South Australia, Australia.",
+          "South Australia Health and Medical Research Institute, Adelaide, South Australia, Australia.",
+          "South Australia Immunogenomics Cancer Institute, University of Adelaide, Adelaide, Australia."
+        ]
+      },
+      {
+        "full_name": "Cairney, Elizabeth",
+        "short_name": "Cairney E",
+        "identifiers": [
+          "0000-0003-1569-8838"
+        ],
+        "affiliations": [
+          "Department of Paediatrics, London Health Sciences Centre and Western University, London, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Portwine, Carol",
+        "short_name": "Portwine C",
+        "identifiers": [
+          "0000-0002-1314-8691"
+        ],
+        "affiliations": [
+          "Department of Paediatrics, McMaster University, Hamilton, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Elser, Christine",
+        "short_name": "Elser C",
+        "identifiers": [
+          "0000-0003-0003-713X"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, Princess Margaret Hospital and Mount Sinai Hospital, Toronto, Ontario, Canada.",
+          "Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Finlay, Jonathan L",
+        "short_name": "Finlay JL",
+        "identifiers": [
+          "0000-0002-8312-6586"
+        ],
+        "affiliations": [
+          "Neuro-Oncology Program, Nationwide Children's Hospital and The Ohio State University, Columbus, Ohio."
+        ]
+      },
+      {
+        "full_name": "Nichols, Kim E",
+        "short_name": "Nichols KE",
+        "identifiers": [
+          "0000-0002-5581-6555"
+        ],
+        "affiliations": [
+          "Department of Oncology, St Jude Children's Research Hospital, Memphis, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Alon, Noa",
+        "short_name": "Alon N",
+        "identifiers": [
+          "0000-0001-9483-1785"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Brunga, Ledia",
+        "short_name": "Brunga L",
+        "identifiers": [
+          "0000-0003-0343-937X"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Anson, Jo",
+        "short_name": "Anson J",
+        "identifiers": [
+          "0000-0002-6847-6529"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah."
+        ]
+      },
+      {
+        "full_name": "Kohlmann, Wendy",
+        "short_name": "Kohlmann W",
+        "identifiers": [
+          "0000-0002-9134-9640"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah."
+        ]
+      },
+      {
+        "full_name": "de Andrade, Kelvin C",
+        "short_name": "de Andrade KC",
+        "identifiers": [
+          "0000-0003-4651-996X"
+        ],
+        "affiliations": [
+          "Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, NCI, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Khincha, Payal P",
+        "short_name": "Khincha PP",
+        "identifiers": [
+          "0000-0003-2473-7800"
+        ],
+        "affiliations": [
+          "Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, NCI, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Savage, Sharon A",
+        "short_name": "Savage SA",
+        "identifiers": [
+          "0000-0001-6006-0740"
+        ],
+        "affiliations": [
+          "Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, NCI, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Schiffman, Joshua D",
+        "short_name": "Schiffman JD",
+        "identifiers": [
+          "0000-0002-6968-7694"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, University of Utah, Salt Lake City, Utah.",
+          "PEEL Therapeutics, Inc., Salt Lake City, Utah."
+        ]
+      },
+      {
+        "full_name": "Weksberg, Rosanna",
+        "short_name": "Weksberg R",
+        "identifiers": [
+          "0000-0002-6501-4150"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Pugh, Trevor J",
+        "short_name": "Pugh TJ",
+        "identifiers": [
+          "0000-0002-8073-5888"
+        ],
+        "affiliations": [
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+          "Ontario Institute for Cancer Research, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Villani, Anita",
+        "short_name": "Villani A",
+        "identifiers": [
+          "0000-0003-3283-2197"
+        ],
+        "affiliations": [
+          "Division of Haematology/Oncology, The Hospital for Sick Children, Department of Paediatrics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Shlien, Adam",
+        "short_name": "Shlien A",
+        "identifiers": [
+          "0000-0002-0368-5370"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+          "Department of Paediatric Laboratory Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Goldenberg, Anna",
+        "short_name": "Goldenberg A",
+        "identifiers": [
+          "0000-0002-2416-833X"
+        ],
+        "affiliations": [
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+          "Vector Institute, Toronto, Ontario, Canada.",
+          "CIFAR: Child and Brain Development, Toronto, Ontario, Canada.",
+          "Department of Computer Science, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Malkin, David",
+        "short_name": "Malkin D",
+        "identifiers": [
+          "0000-0001-5752-9763"
+        ],
+        "affiliations": [
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+          "Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+          "Division of Haematology/Oncology, The Hospital for Sick Children, Department of Paediatrics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer research communications"
+    ],
+    "journal_abbrev": [
+      "Cancer Res Commun"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/28 13:08",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "42615430",
+      "41618953",
+      "41049353",
+      "41022739",
+      "40940982",
+      "40858599",
+      "40501034",
+      "39634561",
+      "39627375",
+      "38139220"
+    ],
+    "refs": [
+      "36585449",
+      "34780712",
+      "34240179",
+      "33892787",
+      "33020650",
+      "33012783",
+      "32461654",
+      "32025007",
+      "31623618",
+      "31591588",
+      "31537805",
+      "31409384",
+      "31296250",
+      "30867049",
+      "30783251",
+      "30305723",
+      "30086788",
+      "30001694",
+      "29737433",
+      "29669011",
+      "29491469",
+      "29304372",
+      "29076966",
+      "28911001",
+      "28649789",
+      "28572266",
+      "28035024",
+      "27714481",
+      "27551116",
+      "27496084",
+      "27453436",
+      "27442652",
+      "27153395",
+      "26950096",
+      "26892651",
+      "26818906",
+      "26647377",
+      "26580448",
+      "26432245",
+      "26403419",
+      "26383139",
+      "26368860",
+      "25821117",
+      "25741868",
+      "25683625",
+      "25355519",
+      "25336695",
+      "25313051",
+      "25134821",
+      "24703846",
+      "24630777",
+      "23667851",
+      "23001124",
+      "22962449",
+      "22939633",
+      "22691290",
+      "22343431",
+      "22300766",
+      "21779515",
+      "21324876",
+      "20644199",
+      "20601685",
+      "20595513",
+      "20535201",
+      "20479774",
+      "19542078",
+      "18987709",
+      "18852205",
+      "18178637",
+      "17308077",
+      "16258005",
+      "16199517",
+      "16136652",
+      "15322516",
+      "11370630",
+      "10735497",
+      "10617473",
+      "9218725",
+      "8075648",
+      "5360287",
+      "2841597",
+      "1978757",
+      "1565144"
+    ],
+    "similar": [
+      "37377903",
+      "34633580",
+      "34709361",
+      "24775443",
+      "30086788",
+      "34198491",
+      "30240537",
+      "34240179",
+      "24122735",
+      "35033608",
+      "34529667",
+      "24706533",
+      "27297285",
+      "35246108",
+      "22507745",
+      "28270529",
+      "27496084",
+      "19602465",
+      "25313051",
+      "26956143",
+      "28973705",
+      "34863587",
+      "20522432",
+      "28573494",
+      "18685109",
+      "32998877",
+      "37159554",
+      "26823150",
+      "29076966",
+      "31296311",
+      "21305319",
+      "25945745",
+      "27714481",
+      "34270331",
+      "38070788",
+      "36604421",
+      "34478609",
+      "15298965",
+      "25683625",
+      "37536919",
+      "31778928",
+      "28137790",
+      "28509937",
+      "29392648",
+      "31533767",
+      "38410872",
+      "34780712",
+      "25981898",
+      "30974190",
+      "38412388",
+      "32557628",
+      "30709381",
+      "27516001",
+      "21484931",
+      "37653074",
+      "34961499",
+      "37777824",
+      "31081129",
+      "26086041",
+      "31719099",
+      "36553570",
+      "28861920",
+      "20586629",
+      "31748977",
+      "33245408",
+      "38316675",
+      "37801337",
+      "32675277",
+      "32457520",
+      "27984644",
+      "29070607",
+      "39017822",
+      "28902083",
+      "29581140",
+      "33051812",
+      "35306447",
+      "15951970",
+      "32817165",
+      "19542078",
+      "10660104",
+      "25226867",
+      "30886117",
+      "35974385",
+      "29313943",
+      "37344881",
+      "23355100",
+      "30607672",
+      "39060302",
+      "32958587",
+      "16494995",
+      "27501770",
+      "28756477",
+      "31321604",
+      "28114597",
+      "26248253",
+      "37874259",
+      "23259501",
+      "29529297",
+      "39062707",
+      "28279309",
+      "19468865",
+      "26014290",
+      "28369373",
+      "31105275",
+      "35981147",
+      "35625568",
+      "33637564",
+      "17003841",
+      "36286726",
+      "19952748",
+      "39191772",
+      "23580068",
+      "28911001",
+      "38206485",
+      "38702830",
+      "29955864",
+      "22939227",
+      "38308321",
+      "33932062",
+      "37714395",
+      "38230850",
+      "31719169",
+      "32969947",
+      "38677009",
+      "37715966",
+      "36609372",
+      "33300245",
+      "21311097",
+      "37133731",
+      "29237527",
+      "36219266",
+      "37379234",
+      "34994652",
+      "37508646",
+      "37441266",
+      "39235550",
+      "34805717",
+      "38309330",
+      "35367908",
+      "35654360",
+      "27551116",
+      "36627407",
+      "37894716",
+      "38030599",
+      "38743206",
+      "36749725",
+      "30840781",
+      "33633026",
+      "30191952",
+      "39185882",
+      "38692744",
+      "39261343",
+      "39021431",
+      "39075300",
+      "38745079",
+      "38238849",
+      "34670806",
+      "37425585",
+      "38617260",
+      "38346271",
+      "39072610",
+      "30335319",
+      "32156722",
+      "39133963",
+      "21779515",
+      "38765733",
+      "39404911",
+      "31970404",
+      "39091538",
+      "35664418",
+      "38991177",
+      "39317017",
+      "39100628",
+      "39286379",
+      "33971750",
+      "38188481",
+      "37076289",
+      "37352403",
+      "38532453",
+      "39387369",
+      "39258234",
+      "38798617",
+      "37194615",
+      "34618014",
+      "29909594",
+      "37667764",
+      "38050059",
+      "33022533",
+      "39040185",
+      "39415918",
+      "33257846",
+      "38002884",
+      "37568169",
+      "37424880",
+      "30335276",
+      "33987182",
+      "37645796",
+      "37693464",
+      "37304756",
+      "30976288"
+    ],
+    "review": [
+      "37377903",
+      "30240537",
+      "24706533",
+      "28270529",
+      "29076966",
+      "34478609",
+      "31533767",
+      "31748977",
+      "38316675",
+      "27984644",
+      "29581140",
+      "23355100",
+      "26248253",
+      "19952748",
+      "36609372",
+      "37133731",
+      "29237527",
+      "39235550",
+      "30191952",
+      "38692744",
+      "39075300",
+      "34670806",
+      "39404911",
+      "37352403",
+      "38532453",
+      "33022533"
+    ],
+    "pmc": [
+      "10150777"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37377903/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37377903",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/cancerrescommun/article-lookup/doi/10.1158/2767-9764.CRC-22-0402",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "40297177",
+    "doi": "10.3389/fendo.2025.1568665",
+    "title": "TET2 gene mutation status associated with poor prognosis of transition zone prostate cancer: a retrospective cohort study based on whole exome sequencing and machine learning models."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Prostate cancer (PCa) in the transition zone (TZ) is uncommon and often poses challenges for early diagnosis, but its genomic determinants and therapeutic vulnerabilities remain poorly characterized. METHODS: Tumor mutational landscape was characterized in nine patients with TZ PCa, identifying somatic variants through whole-exome sequencing (WES). Novel candidate variants relevant to driver gene were selected using rare-variant burden analysis. Kaplan-Meier curves with log-rank testing and Cox regression models were applied to evaluate the prognostic significance of selected mutant driver gene and clinicopathological characteristics in a cohort of 132 patients with TZ PCa. Significant prognostic determinants were integrated into a validated nomogram for individualized prediction of 3-, 4-, and 5-year biochemical recurrence-free survival (BRFS) and overall survival (OS) probabilities. Eight machine learning algorithms were employed to develop BRFS and OS prediction models in a cohort. RESULTS: A total of 5,036 somatic single nucleotide variants (SNVs) and 587 somatic insertion and deletion (INDELs) were discovered. Among eight driver gene mutations which were verified through Sanger sequencing, TET2 gene, with high mutation frequency and potential targeted drug relevance (bromodomain inhibitors and DOT1L inhibitors) was selected for further validation. Retrospective cohort study demonstrated that TET2 mutant status was significantly associated with Gleason score (p = 0.004) and distant metastasis (p = 0.002). Furthermore, TET2 mutant status was significantly correlated with inferior BRFS and OS and served as an independent predictor. Comparative evaluation of eight algorithms revealed the GBM model achieved superior discriminative ability for BRFS (AUC for 3-year: 0.752, 4-year: 0.786, 5-year: 0.796). The predictive model based on the GBM machine learning algorithm achieved the best predictive performance for OS (AUC for 3-year: 0.838, 4-year: 0.915, 5-year: 0.868). The constructed predictive nomogram provided evidence that TET2 mutant status integration conferred statistically significant improvements in model accuracy and clinical predictive value. CONCLUSION: Our study elucidated the distinct genetic basis of prostate cancer in the transition zone and identified TET2 mutation as an independent prognostic determinant in TZ PCa. However, the limited sample size of this study necessitates cautious interpretation of these findings, and further validation in larger cohorts is warranted to confirm their generalizability.",
+    "keywords": [
+      "TET2 mutation",
+      "driver genes",
+      "machine learning models",
+      "medication prediction",
+      "prostate cancer",
+      "transition zone",
+      "whole-exome sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Prostatic Neoplasms/genetics/pathology/mortality",
+      "*Machine Learning",
+      "Exome Sequencing",
+      "Prognosis",
+      "Retrospective Studies",
+      "Middle Aged",
+      "*Mutation",
+      "Aged",
+      "Dioxygenases/genetics",
+      "*DNA-Binding Proteins/genetics",
+      "*Proto-Oncogene Proteins/genetics",
+      "*Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yutong",
+        "Yu, Ailing",
+        "Gao, Ziping",
+        "Yuan, Xiaoying",
+        "Du, Xiaochen",
+        "Shi, Peng",
+        "Guan, Haoyun",
+        "Wen, Shuang",
+        "Wang, Honglong",
+        "Wang, Liang",
+        "Fan, Bo",
+        "Liu, Zhiyu"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Yu A",
+        "Gao Z",
+        "Yuan X",
+        "Du X",
+        "Shi P",
+        "Guan H",
+        "Wen S",
+        "Wang H",
+        "Wang L",
+        "Fan B",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+        "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Colorectal Surgery, Dalian Municipal Central Hospital, Dalian, Liaoning, China.",
+        "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+        "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "First Clinical College, Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+        "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Anatomy, College of Basic Medicine, Dalian Medical University, Dalian, Liaoning, China.",
+        "College of Humanities and Social Sciences, Dalian Medical University, Dalian, Liaoning, China.",
+        "Second Clinical College, Dalian Medical University, Dalian, Liaoning, China.",
+        "Second Clinical College, Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Pathology, Dalian Friendship Hospital, Dalian, China.",
+        "Department of Pathology, Dalian Friendship Hospital, Dalian, China.",
+        "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+        "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+        "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+        "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yutong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+          "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Department of Colorectal Surgery, Dalian Municipal Central Hospital, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Ailing",
+        "short_name": "Yu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+          "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "First Clinical College, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ziping",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+          "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Xiaoying",
+        "short_name": "Yuan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, College of Basic Medicine, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Du, Xiaochen",
+        "short_name": "Du X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Humanities and Social Sciences, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Peng",
+        "short_name": "Shi P",
+        "identifiers": [],
+        "affiliations": [
+          "Second Clinical College, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Haoyun",
+        "short_name": "Guan H",
+        "identifiers": [],
+        "affiliations": [
+          "Second Clinical College, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Shuang",
+        "short_name": "Wen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Dalian Friendship Hospital, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Honglong",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Dalian Friendship Hospital, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+          "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Bo",
+        "short_name": "Fan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+          "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiyu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Liaoning Provincial Key Laboratory of Urological Digital Precision Diagnosis and Treatment, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Department of Urology, Liaoning Engineering Research Center of Integrated Precision Diagnosis and Treatment Technology for Urological Cancer, Dalian, Liaoning, China.",
+          "Dalian Key Laboratory of Prostate Cancer Research, Second Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/29 06:25",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37550284",
+      "37337076",
+      "36932191",
+      "36417856",
+      "35869277",
+      "35285957",
+      "34819066",
+      "34667303",
+      "34515615",
+      "34396987",
+      "34316057",
+      "34163028",
+      "33750801",
+      "33067609",
+      "32814769",
+      "32683896",
+      "32462107",
+      "32297439",
+      "32071245",
+      "32068492",
+      "32025018",
+      "31908823",
+      "31720024",
+      "30719152",
+      "30509763",
+      "29906450",
+      "29527510",
+      "29032717",
+      "28614706",
+      "27825428",
+      "27819678",
+      "27036965",
+      "26813233",
+      "26637902",
+      "26551669",
+      "26404510",
+      "25651787",
+      "25610714",
+      "25431634",
+      "24812344",
+      "23945592",
+      "23396013",
+      "23143029",
+      "23128226",
+      "22759861",
+      "22581179",
+      "22012619",
+      "21782758",
+      "21741597",
+      "20952539",
+      "20952405",
+      "19451168",
+      "19031184",
+      "18769336",
+      "17139633",
+      "16015592",
+      "11999464",
+      "11717329",
+      "11125122",
+      "8911519",
+      "3202246",
+      "1895423",
+      "1376199"
+    ],
+    "similar": [
+      "40297177",
+      "30917865",
+      "39604917",
+      "31200836",
+      "40433378",
+      "41450576",
+      "41207909",
+      "33008340",
+      "38070051",
+      "23985253",
+      "18799332",
+      "40865937",
+      "35279121",
+      "39586954",
+      "35737091",
+      "40918137",
+      "27486019",
+      "41281377",
+      "27819678",
+      "41286896",
+      "40850977",
+      "40510016",
+      "33535978",
+      "31742675",
+      "33241418",
+      "31187216",
+      "40873563",
+      "31640781",
+      "26223693",
+      "38918844",
+      "40165301",
+      "39996409",
+      "41249564",
+      "40963603",
+      "26746117",
+      "40849239",
+      "32859160",
+      "30701625",
+      "40755316",
+      "31836856",
+      "38308042",
+      "33321450",
+      "31023266",
+      "40702542",
+      "25412851",
+      "40676748",
+      "40804780",
+      "35246070",
+      "34362476",
+      "31200842",
+      "34039392",
+      "40526100",
+      "39956870",
+      "33620180",
+      "32209730",
+      "40391963",
+      "38937469",
+      "41438758",
+      "35322943",
+      "38770632",
+      "28039446",
+      "40804387",
+      "33549512",
+      "28521175",
+      "40274312",
+      "24836057",
+      "22759231",
+      "28350084",
+      "40849083",
+      "20693430",
+      "25973080",
+      "26181256",
+      "39844252",
+      "41177875",
+      "25456371",
+      "41488620",
+      "40113952",
+      "39891059",
+      "39543663",
+      "37898914",
+      "39921715",
+      "31441600",
+      "35339897",
+      "12837427",
+      "36717792",
+      "30181068",
+      "40533764",
+      "23569316",
+      "40619463",
+      "41394847",
+      "40467750",
+      "41278162",
+      "34480478",
+      "29795413",
+      "39212933",
+      "41141353",
+      "26498442",
+      "38191330",
+      "27270314",
+      "38837026"
+    ],
+    "review": [
+      "40297177",
+      "31023266",
+      "28521175"
+    ],
+    "pmc": [
+      "12034557"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40297177/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2025.1568665",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

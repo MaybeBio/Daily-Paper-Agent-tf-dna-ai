@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-2chhz",
+  "title": "Calculating Binding Free Energies in Model Host-Guest Systems with Unrestrained Advanced Sampling",
+  "authors": "Andrew V. Marquardt; Mohsen Farshad; Jonathan K. Whitmer",
+  "journal": "ChemRxiv",
+  "published_date": "2023-10-26",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用自适应偏置力增强采样计算主客体体系结合自由能，虽涉及分子结合与自由能方法，但对象为小分子主客体而非蛋白质-DNA互作，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Host--guest interactions are important to the design of pharmaceuticals, and more broadly to soft materials, as they can enable targeted, strong, and specific interactions between molecules. The binding process between host and guest may be classified as a ``rare event'' when viewing the system at atomic scales, such as those explored in molecular dynamics simulations. To obtain equilibrium binding conformations and dissociation constants from these simulations, it is essential to resolve such rare events. Advanced sampling methods such as Adaptive Biasing Force (ABF) promote the occurrence of less probable configurations in a system, therefore facilitating the sampling of essential collective variables (CVs) which characterize the host--guest interactions. Here, we present the application of ABF to a rod--cavitand coarse-grained (CG) model of host-guest systems to acquire the potential of mean force (PMF). We show that the employment of ABF enables the computation of configurational and thermodynamic properties of bound and unbound states, including the free energy landscape. Moreover, we identify important dynamical bottlenecks that limit sampling and discuss how these may be addressed in more general systems.",
+  "abstract_zh": "主-客体相互作用对于药物设计以及更广泛的软材料设计至关重要，因为它们能够实现分子间的靶向、强效和特异性相互作用。当在原子尺度（如分子动力学模拟所探索的尺度）观察系统时，主客体之间的结合过程可被归类为“稀有事件”。为了从这些模拟中获得平衡结合构象和解离常数，解决此类稀有事件至关重要。高级采样方法，如自适应偏置力（Adaptive Biasing Force, ABF），能促进系统中较少概率构象的出现，从而便于对表征主客体相互作用的关键集体变量（collective variables, CVs）进行采样。在此，我们展示了将ABF应用于主客体系统的棒-穴状配体粗粒化（coarse-grained, CG）模型，以获取平均力势（potential of mean force, PMF）。我们表明，采用ABF能够计算结合态和非结合态的构象及热力学性质，包括自由能景观。此外，我们识别了限制采样的重要动力学瓶颈，并讨论了如何在更一般的系统中解决这些问题。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-2chhz",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-2chhz",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-2chhz/index.html"
+}

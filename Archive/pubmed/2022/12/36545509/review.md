@@ -1,0 +1,119 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusion. No supplementary material was provided.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to presented evidence, and clarity of presentation. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to study protein diffusion on force-induced stretched DNA. They report a B-DNA to Σ-DNA to S-DNA conformational transition with increasing force, characterize base-pair clusters (doublets, triplets, quadruplets) in stretched DNA, find that triplets are energetically most stable, show that a diffusing protein (Sap-1) favors triplet formation, and propose that triplet population reduces the ruggedness of the protein-DNA binding energy landscape, thereby enhancing protein diffusion efficiency and base recognition.
+- **Visible evidence base** Main text figures referenced: Figure 1 (force-strain curve, DNA conformations), Figure 2 (helical parameters, free energy surfaces, probability distributions), Figure 3 (cluster probabilities with/without protein), Figure 4 (Shannon entropy, roughness, search efficiency, translocation modes), Figure 5 (low-force regime analysis, electrostatic potential), Figure 6 (high-force regime analysis). Supplementary figures and videos referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures S1-S11, Supplementary videos S1, Supplementary text (criteria for sliding/hopping/3D diffusion, roughness calculation details, probability definitions), raw simulation data, and simulation parameter files. These materials are essential for verifying methodological details and quantitative results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely question about how mechanical stretching of DNA affects protein diffusion and base recognition. The authors employ a well-established coarse-grained DNA model (3SPN.2C) and a structure-based protein model to explore this problem. The central claim that protein diffusion favors triplet formation and that this reduces energy landscape ruggedness is intriguing. However, the evidence presented in the main text is insufficient to fully establish this claim. Several quantitative results are presented without adequate statistical analysis, the connection between triplet formation and enhanced base recognition is asserted rather than demonstrated, and the biological relevance of the force regimes studied is not critically discussed. The manuscript would benefit from clearer presentation of methods, additional control simulations, and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational biology, and molecular recognition would be interested. Specifically, those studying protein-DNA interactions, facilitated diffusion mechanisms, DNA mechanics under force, and the structure-function relationship of stretched DNA conformations. The potential link between Σ-DNA triplet structure and the genetic code could also attract interest from researchers in molecular evolution and genomics.
+- **Major strengths** The study addresses a novel question that has not been previously explored in detail. The use of a validated coarse-grained DNA model is appropriate for studying large-scale conformational changes and protein diffusion. The systematic variation of applied force (0-200 pN) allows a comprehensive characterization of the conformational landscape. The identification of distinct force regimes and the analysis of translocation modes (sliding, hopping, 3D diffusion) provide useful mechanistic insights. The connection between base-pair cluster stability and protein diffusion is a creative hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the relative population of it [triplets] governs the ruggedness of the protein-DNA binding energy landscape and enhances the efficiency of DNA base recognition."
+  - **Evidence pointer** Section 3.4, Figures 4A and 4B
+  - **Concern** The causal link between triplet population, energy landscape ruggedness, and base recognition efficiency is not directly established. The authors show correlations (roughness decreases with force, search efficiency increases with force, triplet probability increases with force), but correlation does not imply causation. No control simulation is presented where triplet formation is artificially suppressed or enhanced to test whether this directly affects diffusion. Furthermore, "efficiency of DNA base recognition" is not directly measured; the authors measure search efficiency (number of positions probed), which is a proxy but not equivalent to recognition of specific bases.
+  - **Why it matters** The central thesis of the paper rests on this causal chain. Without direct evidence linking triplet formation to enhanced recognition, the conclusion is overstated. The distinction between search efficiency and recognition specificity is important; a protein could probe more positions without recognizing bases more accurately.
+  - **Resolution test** The authors should either (a) perform simulations where triplet formation is prevented (e.g., by modifying the DNA model or using a sequence that cannot form triplets) and show that diffusion and search efficiency are reduced, or (b) directly measure base recognition events (e.g., specific binding to target sequences) and show that these are enhanced in the presence of triplets. Alternatively, the claim should be softened to state that triplet formation correlates with reduced ruggedness and increased search efficiency, without asserting enhanced recognition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the resulting stretched DNA conformations exhibit non-uniform base-pair clusters such as doublets, triplets, and quadruplets, of which triplets are energetically more stable than others."
+  - **Evidence pointer** Section 3.2, Figure 2
+  - **Concern** The energetic stability comparison is based on stacking energies of -3.01, -3.06, and -2.93 kcal/mol for doublets, triplets, and quadruplets, respectively. The differences between these values (0.05-0.13 kcal/mol) are extremely small and likely within the statistical error of the coarse-grained model. No error bars or statistical significance tests are provided. The claim that triplets are "energetically more stable" is therefore not supported by the presented data.
+  - **Why it matters** The relative stability of triplets is a key premise for the subsequent argument that proteins favor triplet formation. If the stability differences are not statistically significant, the entire argument is weakened.
+  - **Resolution test** Provide error estimates (e.g., standard deviation across independent simulations) and perform a statistical test (e.g., t-test or ANOVA) to demonstrate that the stacking energy differences are significant. If they are not significant, the claim should be revised.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "protein favors the triplet formation compared to its unbound form while interacting non-specifically along DNA."
+  - **Evidence pointer** Section 3.3, Figure 3B
+  - **Concern** The comparison between protein-bound and protein-free conditions is not clearly described. The text states that in the presence of the protein, triplets are identified within a segment (i-6, i+6) around the protein's recognition region, while in the absence of the protein, the analysis is performed on "the protein-excluded region." This is not a controlled comparison: the protein-bound analysis is localized to a specific region, while the protein-free analysis covers a different region. The criteria for identifying clusters in the two conditions may also differ. Without a matched comparison (e.g., same DNA segment with and without protein), the claim that the protein "favors" triplet formation is not established.
+  - **Why it matters** The claim that the protein actively promotes triplet formation is central to the paper's thesis. If the comparison is biased, the conclusion is invalid.
+  - **Resolution test** Perform a controlled comparison where the same DNA segment is analyzed with and without the protein present, using identical cluster identification criteria. Alternatively, compare triplet probability across the entire DNA in the presence and absence of the protein, rather than restricting to a local segment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "we use a coarse-grained model of protein and DNA" and describe the DNA model as 3SPN.2C, but the protein model is not described in sufficient detail.
+  - **Evidence pointer** Section 2.1
+  - **Concern** The protein model is described only as "one bead per amino acid located at the respective C-alpha position" with a "structure-based Lennard-Jones potential." Key details are missing: the specific force field parameters, the source of the Sap-1 structure (PDB ID: 1BC8 is mentioned), how the protein-DNA interaction parameters were determined, and whether the protein was allowed to undergo conformational changes. Without these details, the simulations cannot be reproduced.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The lack of methodological detail prevents other researchers from verifying or building upon these results.
+  - **Resolution test** Provide a complete description of the protein model, including all force field parameters, interaction potentials, and any constraints applied. If the model has been described elsewhere, provide a clear reference and specify any modifications.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that their findings on triplet formation "provides a plausible framework for understanding the structure-function relationship between triplet formation and base recognition by a DBP and helps to understand gene regulation in complex regulatory processes."
+  - **Evidence pointer** Section 4 (Conclusion)
+  - **Concern** The leap from coarse-grained simulations of a single protein (Sap-1) on a 100-bp DNA to general conclusions about gene regulation is not justified. The force range studied (0-200 pN) includes forces far above those typically experienced by DNA in vivo (which are typically in the pN range). The biological relevance of the high-force regime is not discussed. Additionally, Sap-1 is a specific transcription factor, and it is unclear whether the results would generalize to other DNA-binding proteins with different structures and DNA-binding modes.
+  - **Why it matters** Overstating the biological implications of simulation results can mislead readers and undermine the credibility of the work. The authors should either provide evidence for the biological relevance of their force range or temper their conclusions.
+  - **Resolution test** Discuss the physiological relevance of the force range studied, citing relevant literature on forces experienced by DNA in vivo. If the high-force regime is not physiologically relevant, clearly state that the findings in this regime are of biophysical interest but may not directly apply to cellular conditions. Alternatively, perform simulations at lower, more physiologically relevant forces and show that the key findings persist.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Equation for Estretch
+  - **Issue** The equation Estretch = -F.dz is written with vector notation but the explanation is unclear. The text states "the DNA molecule is stretched along the Z-direction" but does not clarify whether the force is applied to both 3' ends in opposite directions or in the same direction.
+  - **Required correction** Clarify the direction of force application and define all variables in the equation. Specify whether the force is constant in magnitude and direction throughout the simulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Equation 2
+  - **Issue** The equation for the chemical potential of a cell is presented without derivation or explanation of the integration limits. The text refers to "the aforementioned integral" but the discretization procedure is not described in the main text.
+  - **Required correction** Provide a brief explanation of how the integral is discretized and how the cell size (50 A^3) was chosen. If this is described in the supplementary material, state this explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Figure 1B
+  - **Issue** The force-strain curve is presented without error bars or indication of variability across the 40 independent simulations. It is unclear whether the curve represents an average or a single representative simulation.
+  - **Required correction** Add error bars or shaded regions indicating the standard deviation or standard error across independent simulations. State clearly how the curve was computed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Figure 5A
+  - **Issue** The text states that in the low-force regime, "the average number of sliding events decreases with F, and the corresponding time duration increases." However, the figure is not described in sufficient detail to verify this claim. It is unclear what the error bars represent and whether the trends are statistically significant.
+  - **Required correction** Provide statistical analysis of the trends (e.g., correlation coefficients, p-values) and clarify what error bars represent.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Simulation protocol
+  - **Issue** The simulation protocol states that 40 independent simulations were performed at each force, but the total simulation time, equilibration procedure, and criteria for reaching steady state are not described.
+  - **Required correction** Provide details on simulation length, equilibration time, and how the system was determined to be in equilibrium. This is essential for assessing the statistical quality of the results.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Figure 3
+  - **Issue** The definition of "recognition region" of Sap-1 is not provided. It is unclear which residues constitute this region and how it was identified.
+  - **Required correction** Define the recognition region explicitly, either by residue numbers or by structural criteria, and explain how it was determined.
+
+## Risk / unsupported claims
+- The claim that triplet formation "enhances the efficiency of DNA base recognition" is not directly supported by the presented data. The authors measure search efficiency (positions probed), not recognition accuracy or specificity.
+- The claim that the protein "favors" triplet formation is based on a potentially biased comparison between a localized protein-bound region and a different protein-free region.
+- The energetic stability ranking of doublets, triplets, and quadruplets is based on differences that may not be statistically significant, as no error estimates are provided.
+- The extrapolation of findings from simulations at forces up to 200 pN to biological gene regulation is not justified, as the physiological relevance of these force magnitudes is not discussed.
+- The statement that the 3SPN.2C model "has not been applied previously in the context of force-induced DNA stretching" is presented as a novelty claim but is not verified against the literature.
+- The claim that the coarse-grained model "precisely captures the correct two-state transition" is based on qualitative agreement with experimental force-strain curves, but no quantitative comparison (e.g., matching transition forces or plateau heights) is provided.
+- The biological significance of the Σ-DNA triplet structure in relation to the genetic code is speculated but not tested or supported by the simulation results.
+
+## Assessment against Nature-style criteria
+- **Originality** The question of how force-induced DNA stretching affects protein diffusion is relatively unexplored, and the specific focus on base-pair cluster formation (triplets) as a modulator of protein diffusion is a novel angle. However, the conceptual framework builds heavily on prior work by the same group and others on facilitated diffusion and DNA stretching. The originality is moderate.
+- **Scientific importance** The potential link between mechanical stretching, base-pair clustering, and protein recognition could have implications for understanding DNA transactions under force. However, the biological relevance of the force range studied is not established, which limits the immediate importance. The connection to the genetic code is speculative and not substantiated.
+- **Interdisciplinary readership** The topic bridges biophysics, computational biology, and molecular biology. The findings could interest researchers in these fields, but the presentation is heavily focused on simulation details without sufficient biological context to attract a broad readership.
+- **Technical soundness** The use of a validated DNA model is appropriate, and the simulation protocol is generally reasonable. However, several technical concerns undermine confidence: lack of statistical analysis for key quantitative claims, potential bias in the protein-bound vs. protein-free comparison, and insufficient methodological detail for reproducibility. The correlation between triplet formation and reduced ruggedness is suggestive but not causally established.
+- **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with coarse-grained simulation methods and DNA biophysics. The introduction provides useful context, but the results section is dense and would be challenging for nonspecialists to follow. Key concepts such as Σ-DNA and the significance of base-pair clusters are explained, but the connection to broader biological questions could be made more explicit.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and preliminary simulation results, but the central claims are not fully supported by the evidence presented. The lack of statistical rigor, potential bias in the key comparison, and insufficient methodological detail prevent a definitive assessment. The authors should address the major concerns, particularly the causal link between triplet formation and enhanced recognition, the statistical significance of the energetic comparisons, and the biological relevance of the force range. If these issues are resolved with additional analyses and clearer presentation, the work could become a valuable contribution to the field.

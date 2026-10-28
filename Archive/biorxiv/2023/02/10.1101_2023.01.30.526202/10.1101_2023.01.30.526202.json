@@ -1,0 +1,713 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.30.526202",
+  "title": "Spatially resolved multiomics of human cardiac niches",
+  "doi": "10.1101/2023.01.30.526202",
+  "abstract": "A cell’s function is defined by its intrinsic characteristics and its niche: the tissue microenvironment in which it dwells. Here, we combine single-cell and spatial transcriptomic data to discover cellular niches within eight regions of the human heart. We map cells to micro-anatomic locations and integrate knowledge-based and unsupervised structural annotations. For the first time, we profile the cells of the human cardiac conduction system, revealing their distinctive repertoire of ion channels, G-protein coupled receptors, and cell interactions using a custom CellPhoneDB.org module. We show that the sinoatrial node is compartmentalised, with a core of pacemaker cells, fibroblasts and glial cells supporting paracrine glutamatergic signalling. We introduce a druggable target prediction tool, drug2cell, which leverages single-cell profiles and drug-target interactions, providing unexpected mechanistic insights into the chronotropic effects of drugs, including GLP-1 analogues. In the epicardium, we show enrichment of both IgG+ and IgA+ plasma cells forming immune niches which may contribute to infection defence. We define a ventricular myocardial-stress niche enriched for activated fibroblasts and stressed cardiomyocytes, cell states that are expanded in cardiomyopathies. Overall, we provide new clarity to cardiac electro-anatomy and immunology, and our suite of computational approaches can be deployed to other tissues and organs.",
+  "authors": [
+    "Kanemaru K",
+    "Cranley J",
+    "Muraro D",
+    "Miranda AM",
+    "Pett JP",
+    "Litvinukova M",
+    "Kumasaka N",
+    "Ho SY",
+    "Polanski K",
+    "Richardson L",
+    "Mach L",
+    "Dabrowska M",
+    "Richoz N",
+    "Barnett SN",
+    "Perera S",
+    "Wilbrey-Clark A",
+    "Talavera-López C",
+    "Mulas I",
+    "Mahbubani KT",
+    "Bolt L",
+    "Mamanova L",
+    "Tuck L",
+    "Wang L",
+    "Huang MM",
+    "Prete M",
+    "Pritchard S",
+    "Dark J",
+    "Saeb-Parsy K",
+    "Patel M",
+    "Clatworthy MR",
+    "Hübner N",
+    "Chowdhury RA",
+    "Noseda M",
+    "Teichmann SA"
+  ],
+  "published_date": "2023-02-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.30.526202",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.30.526202.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR611400",
+    "raw_record": {
+      "id": "PPR611400",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR611400"
+        ]
+      },
+      "doi": "10.1101/2023.01.30.526202",
+      "title": "Spatially resolved multiomics of human cardiac niches",
+      "authorString": "Kanemaru K, Cranley J, Muraro D, Miranda AM, Pett JP, Litvinukova M, Kumasaka N, Ho SY, Polanski K, Richardson L, Mach L, Dabrowska M, Richoz N, Barnett SN, Perera S, Wilbrey-Clark A, Talavera-López C, Mulas I, Mahbubani KT, Bolt L, Mamanova L, Tuck L, Wang L, Huang MM, Prete M, Pritchard S, Dark J, Saeb-Parsy K, Patel M, Clatworthy MR, Hübner N, Chowdhury RA, Noseda M, Teichmann SA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kanemaru K",
+            "lastName": "Kanemaru",
+            "firstName": "Kazumasa",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0018-8966"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cranley J",
+            "lastName": "Cranley",
+            "firstName": "James",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Muraro D",
+            "lastName": "Muraro",
+            "firstName": "Daniele",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miranda AM",
+            "lastName": "Miranda",
+            "firstName": "Antonio M.A.",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4281-614X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pett JP",
+            "lastName": "Pett",
+            "firstName": "Jan Patrick",
+            "initials": "JP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5249-444X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Litvinukova M",
+            "lastName": "Litvinukova",
+            "firstName": "Monika",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6713-3647"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                },
+                {
+                  "affiliation": "Max Delbrück Center for Molecular Medicine in the Helmholtz Association (MDC), 13125 Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumasaka N",
+            "lastName": "Kumasaka",
+            "firstName": "Natsuhiko",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ho SY",
+            "lastName": "Ho",
+            "firstName": "Siew Yen",
+            "initials": "SY",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3913-5637"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiac Morphology Unit, Royal Brompton Hospital and Imperial College London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polanski K",
+            "lastName": "Polanski",
+            "firstName": "Krzysztof",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richardson L",
+            "lastName": "Richardson",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mach L",
+            "lastName": "Mach",
+            "firstName": "Lukas",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                },
+                {
+                  "affiliation": "Royal Brompton Hospital, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dabrowska M",
+            "lastName": "Dabrowska",
+            "firstName": "Monika",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richoz N",
+            "lastName": "Richoz",
+            "firstName": "Nathan",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Immunity Unit, Department of Medicine, University of Cambridge, MRC Laboratory of Molecular Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barnett SN",
+            "lastName": "Barnett",
+            "firstName": "Sam",
+            "initials": "SN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perera S",
+            "lastName": "Perera",
+            "firstName": "Shani",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8021-2078"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilbrey-Clark A",
+            "lastName": "Wilbrey-Clark",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Talavera-López C",
+            "lastName": "Talavera-López",
+            "firstName": "Carlos",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Health Centre, Helmholtz Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mulas I",
+            "lastName": "Mulas",
+            "firstName": "Ilaria",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mahbubani KT",
+            "lastName": "Mahbubani",
+            "firstName": "Krishnaa",
+            "initials": "KT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Surgery, University of Cambridge, and Cambridge Biorepository for Translational Medicine, NIHR Cambridge Biomedical Centre, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bolt L",
+            "lastName": "Bolt",
+            "firstName": "Liam",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mamanova L",
+            "lastName": "Mamanova",
+            "firstName": "Lira",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tuck L",
+            "lastName": "Tuck",
+            "firstName": "Liz",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Lu",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang MM",
+            "lastName": "Huang",
+            "firstName": "Margaret",
+            "initials": "MM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Surgery, University of Cambridge, and Cambridge Biorepository for Translational Medicine, NIHR Cambridge Biomedical Centre, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prete M",
+            "lastName": "Prete",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pritchard S",
+            "lastName": "Pritchard",
+            "firstName": "Sophie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dark J",
+            "lastName": "Dark",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saeb-Parsy K",
+            "lastName": "Saeb-Parsy",
+            "firstName": "Kourosh",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Surgery, University of Cambridge, and Cambridge Biorepository for Translational Medicine, NIHR Cambridge Biomedical Centre, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Patel M",
+            "lastName": "Patel",
+            "firstName": "Minal",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clatworthy MR",
+            "lastName": "Clatworthy",
+            "firstName": "Menna",
+            "initials": "MR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                },
+                {
+                  "affiliation": "Molecular Immunity Unit, Department of Medicine, University of Cambridge, MRC Laboratory of Molecular Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hübner N",
+            "lastName": "Hübner",
+            "firstName": "Norbert",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Delbrück Center for Molecular Medicine in the Helmholtz Association (MDC), 13125 Berlin, Germany"
+                },
+                {
+                  "affiliation": "Charité-Universitätsmedizin, 10117 Berlin, Germany"
+                },
+                {
+                  "affiliation": "DZHK (German Centre for Cardiovascular Research), Partner Site Berlin, 13347 Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chowdhury RA",
+            "lastName": "Chowdhury",
+            "firstName": "Rasheda",
+            "initials": "RA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4204-1014"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Noseda M",
+            "lastName": "Noseda",
+            "firstName": "Michela",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9553-5029"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Teichmann SA",
+            "lastName": "Teichmann",
+            "firstName": "Sarah",
+            "initials": "SA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6294-6366"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK"
+                },
+                {
+                  "affiliation": "Department of Physics, Cavendish Laboratory, University of Cambridge, JJ Thomson Ave, Cambridge CB3 0HE, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8021-2078"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3913-5637"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5249-444X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6294-6366"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6713-3647"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9553-5029"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0018-8966"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4204-1014"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4281-614X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "A cell’s function is defined by its intrinsic characteristics and its niche: the tissue microenvironment in which it dwells. Here, we combine single-cell and spatial transcriptomic data to discover cellular niches within eight regions of the human heart. We map cells to micro-anatomic locations and integrate knowledge-based and unsupervised structural annotations. For the first time, we profile the cells of the human cardiac conduction system, revealing their distinctive repertoire of ion channels, G-protein coupled receptors, and cell interactions using a custom  CellPhoneDB.org module. We show that the sinoatrial node is compartmentalised, with a core of pacemaker cells, fibroblasts and glial cells supporting paracrine glutamatergic signalling. We introduce a druggable target prediction tool, drug2cell, which leverages single-cell profiles and drug-target interactions, providing unexpected mechanistic insights into the chronotropic effects of drugs, including GLP-1 analogues. In the epicardium, we show enrichment of both IgG+ and IgA+ plasma cells forming immune niches which may contribute to infection defence. We define a ventricular myocardial-stress niche enriched for activated fibroblasts and stressed cardiomyocytes, cell states that are expanded in cardiomyopathies. Overall, we provide new clarity to cardiac electro-anatomy and immunology, and our suite of computational approaches can be deployed to other tissues and organs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT206194",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "SP/19/1/34461",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/03/2023.01.30.526202.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.01.30.526202"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR611400"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR611400&type=FILE&fileName=EMS168232-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37438528",
+            "reference": "Nature. 2023 Jul;619(7971):801-810",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS168232",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-02-05",
+      "firstPublicationDate": "2023-02-01",
+      "firstIndexDate": "2023-02-05",
+      "fullTextReceivedDate": "2023-03-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

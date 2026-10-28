@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "41115648",
+    "doi": "10.1016/j.cca.2025.120676",
+    "title": "Unveiling manganese metabolism-related biomarkers in Alzheimer's disease: Insights into diagnosis and therapeutic targets."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Alzheimer's disease (AD), a neurodegenerative disorder with multifactorial etiologies, has been closely associated with disturbances in manganese metabolism. However, its specific biomarkers remain insufficiently characterized. This study aimed to identify manganese metabolism-related biomarkers implicated in AD. METHODS: Differentially expressed genes (DEGs) in AD were extracted from the GSE63060 dataset. A total of 1399 manganese metabolism-related genes were curated from the literature. Weighted gene co-expression network analysis was applied to isolate AD-related module genes. The intersection of these three datasets produced manganese metabolism-related DEGs (MMR-DEGs). Candidate biomarkers were subsequently screened through machine learning approaches and validated by expression analyses. Bioinformatics investigations, including nomogram modeling, immune infiltration analysis, gene set enrichment analysis (GSEA), gene-gene interaction (GGI) network construction, molecular regulatory network mapping, and drug prediction, were conducted to delineate potential functions. Finally, quantitative reverse transcription-PCR (qRT-PCR) was performed to verify mRNA expression levels of the biomarkers. RESULTS: Nine MMR-DEGs were identified, among which four genes (OPTN, HSP90AA1, NDUFS4, and HSPE1) demonstrated favorable predictive performance as biomarkers for AD. Immune infiltration analysis indicated a consistent negative correlation between these biomarkers and M0 macrophages. GSEA revealed predominant enrichment in translation-associated pathways. Within the molecular regulatory network, 24 transcription factors and 72 microRNAs were predicted to target these biomarkers. Additionally, 107 candidate drugs were identified as potential therapeutic agents, and 16 genes exhibited functional interactions with these biomarkers in the GGI network. Moreover, qRT-PCR confirmed that the expression of OPTN, HSP90AA1, and NDUFS4 was significantly down-regulated in AD samples, in agreement with computational predictions. CONCLUSIONS: OPTN, HSP90AA1, NDUFS4, and HSPE1 were identified as manganese metabolism-related potential biomarkers in AD. These findings may advance understanding of AD pathophysiology and may provide potential molecular targets for diagnosis and therapeutic intervention.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Bioinformatics",
+      "Biomarker",
+      "Manganese metabolism",
+      "Quantitative reverse transcription-PCR"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/diagnosis/metabolism/genetics/drug therapy",
+      "Humans",
+      "*Manganese/metabolism",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mou, Qianqian",
+        "Zhao, Li",
+        "Niu, Huiling",
+        "Li, Hongyan",
+        "Jin, Haiqing",
+        "Wang, Wenjing",
+        "Tian, Wenjing",
+        "Feng, Nana",
+        "Wu, Bing"
+      ],
+      "short_names": [
+        "Mou Q",
+        "Zhao L",
+        "Niu H",
+        "Li H",
+        "Jin H",
+        "Wang W",
+        "Tian W",
+        "Feng N",
+        "Wu B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China.",
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China.",
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China.",
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China.",
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China.",
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China.",
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China.",
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China.",
+        "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China. Electronic address: 110931817@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mou, Qianqian",
+        "short_name": "Mou Q",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Li",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Huiling",
+        "short_name": "Niu H",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongyan",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Haiqing",
+        "short_name": "Jin H",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenjing",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Wenjing",
+        "short_name": "Tian W",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Nana",
+        "short_name": "Feng N",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Bing",
+        "short_name": "Wu B",
+        "identifiers": [],
+        "affiliations": [
+          "940th Hospital of the Joint Support Force of the People's Liberation Army of China, No. 333, Nanbinhe Road, Qilihe District, Lanzhou City, Gansu Province, China. Electronic address: 110931817@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinica chimica acta; international journal of clinical chemistry"
+    ],
+    "journal_abbrev": [
+      "Clin Chim Acta"
+    ],
+    "pub_date": "2026 Jan 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/21 00:28",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "42515735",
+      "42303625"
+    ],
+    "refs": [],
+    "similar": [
+      "41115648",
+      "41291841",
+      "39507054",
+      "39920860",
+      "39375405",
+      "36195955",
+      "36635346",
+      "41197132",
+      "39965013",
+      "40753530",
+      "40192032",
+      "39905093",
+      "41009659",
+      "39188714",
+      "39730451",
+      "41081092",
+      "40207815",
+      "32019384",
+      "33541173",
+      "39819531",
+      "40642087",
+      "37545529",
+      "40148430",
+      "41300833",
+      "39875978",
+      "41132152",
+      "39919076",
+      "39202387",
+      "39732800",
+      "41300737",
+      "31984950",
+      "41132791",
+      "40329774",
+      "40406126",
+      "34243818",
+      "38537674",
+      "40074694",
+      "37520121",
+      "38682214",
+      "37619853",
+      "40108056",
+      "35929619",
+      "34225819",
+      "40338387",
+      "40165133",
+      "41146237",
+      "39215110",
+      "40055592",
+      "34536521",
+      "39028999",
+      "37736681",
+      "41479901",
+      "39953505",
+      "38871989",
+      "32812532",
+      "41390089",
+      "40374840",
+      "39506420",
+      "36918839",
+      "39875572",
+      "39093073",
+      "38329682",
+      "40263537",
+      "38595695",
+      "34367470",
+      "38176925",
+      "31346329",
+      "41364313",
+      "35016690",
+      "40532306",
+      "41143248",
+      "36071897",
+      "38692009",
+      "40286336",
+      "39992588",
+      "41214111",
+      "37100862",
+      "41251907",
+      "36994393",
+      "38374756",
+      "35278479",
+      "39760808",
+      "27748870",
+      "40293705",
+      "40340571",
+      "40025954",
+      "28578378",
+      "41052072",
+      "40374866",
+      "32468026",
+      "40927188",
+      "31390578",
+      "35669784",
+      "40411685",
+      "41030501",
+      "40362543",
+      "39394418",
+      "40315768",
+      "38987624",
+      "37715200"
+    ],
+    "review": [
+      "41115648",
+      "40025954"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-8981(25)00555-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

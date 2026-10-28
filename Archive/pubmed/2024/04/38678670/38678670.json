@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "38678670",
+    "doi": "10.1016/j.intimp.2024.112138",
+    "title": "Identification and functional analysis of the hub Ferroptosis-Related gene EZH2 in diabetic kidney disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic kidney disease (DKD) is a common microvascular complication and one of the main causes of death in diabetes. Ferroptosis, an iron-dependent mode of cell death characterized by lipid ROS accumulation, was found to be associated with a number of diseases and has great potential for kidney diseases. It has great value to identify potential ferroptosis-related genes and their biological mechanisms in DKD. METHODS: We obtained the GSE30122 dataset from Gene Expression Omnibus (GEO) database and ferroptosis-related genes from the Ferrdb database. After differential expression analysis, and three machine learning algorithms, the hub ferroptosis-related gene EZH2 was identified. In order to investigate the function of EZH2, Gene Set Enrichment Analysis (GSEA), Gene Set Variation Analysis (GSVA) and single cell analysis were conducted. The expression of EZH2 was validated in DKD patients, HK-2 cell models and DKD mouse models. EZH2 knockdown HK-2 cells and HK-2 cells treated with GSK126 were performed to verify whether EZH2 affected ferroptosis in DKD. CHIP assay was used to detect whether EZH2 regulated ferroptosis by suppressing SLC7A11. Molecular docking was performed to explore EZH2 and four traditional Chinese medicine (Sennoside A, Berberine, Umbelliferone, Platycodin D) related to ferroptosis in DKD treatment. RESULTS: According to the GSE30122 dataset in GEO and ferroptosis-related genes from the Ferrb database, we obtained the hub ferroptosis-related gene EZH2 in DKD via diversified machine learning methods. The increasing of EZH2 expression was shown in single cell analysis, DKD patients, DKD mouse models and high glucose induced DKD cell models. Further study showed that EZH2 knockdown and inhibition can alleviate HG-induced ferroptosis in vitro. CHIP assay showed EZH2-mediated epigenetic silencing regulated the expression of SLC7A11. Molecular docking results showed that EZH2 had strong binding stability with Sennoside A, Berberine, Umbelliferone, and Platycodin D. CONCLUSION: Overall, our data shouwed that histone H3K27 methyltransferase EZH2 could regulate the renal tubular epithelial cell ferroptosis by suppressing SLC7A11 in DKD, which may serve as a credible reliable indicator for diagnosing DKD and a potential target for treatment.",
+    "keywords": [
+      "Diabetic kidney disease",
+      "EZH2",
+      "Ferroptosis",
+      "Renal tubular epithelial cell"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Male",
+      "Mice",
+      "Amino Acid Transport System y+/genetics/metabolism",
+      "Cell Line",
+      "*Diabetic Nephropathies/genetics",
+      "*Enhancer of Zeste Homolog 2 Protein/genetics/metabolism",
+      "*Ferroptosis/genetics",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Han",
+        "Wang, Jiajia",
+        "Ran, Qingsen",
+        "Leng, Yan",
+        "Liu, Tiejun",
+        "Xiong, Zhuang",
+        "Zou, Dixin",
+        "Yang, Weipeng"
+      ],
+      "short_names": [
+        "Wang H",
+        "Wang J",
+        "Ran Q",
+        "Leng Y",
+        "Liu T",
+        "Xiong Z",
+        "Zou D",
+        "Yang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China; Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing 100700, China. Electronic address: wanghan2020tcm@163.com.",
+        "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China.",
+        "Shenzhen Pingle Orthopedic Hospital (Shenzhen Pingshan Traditional Chinese Medicine Hospital), Shenzhen, Guangdong, China.",
+        "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China.",
+        "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China.",
+        "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing 100700, China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing 100700, China. Electronic address: hrbywp@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Han",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China; Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing 100700, China. Electronic address: wanghan2020tcm@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiajia",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Ran, Qingsen",
+        "short_name": "Ran Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Pingle Orthopedic Hospital (Shenzhen Pingshan Traditional Chinese Medicine Hospital), Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Leng, Yan",
+        "short_name": "Leng Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tiejun",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Zhuang",
+        "short_name": "Xiong Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital to Changchun University of Chinese Medicine, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Dixin",
+        "short_name": "Zou D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Weipeng",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing 100700, China. Electronic address: hrbywp@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2024 May 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/29 01:01",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42416898",
+      "42142580",
+      "42022570",
+      "41813868",
+      "41685570",
+      "41326356",
+      "40958203",
+      "40828784",
+      "40097518"
+    ],
+    "refs": [],
+    "similar": [
+      "38678670",
+      "36466094",
+      "38198194",
+      "38972525",
+      "38169402",
+      "34614259",
+      "39051085",
+      "36581059",
+      "34615538",
+      "38992588",
+      "36516169",
+      "32854097",
+      "36585417",
+      "39356055",
+      "38390317",
+      "30496037",
+      "36960398",
+      "39344139",
+      "37752199",
+      "38403669",
+      "38104515",
+      "37396184",
+      "37552124",
+      "39137626",
+      "38465879",
+      "33558472",
+      "38286833",
+      "35167383",
+      "38643193",
+      "39333211",
+      "38055118",
+      "39026057",
+      "37523837",
+      "38368866",
+      "37324941",
+      "37063851",
+      "35432190",
+      "38428828",
+      "36157062",
+      "38832484",
+      "31914694",
+      "32868134",
+      "37064878",
+      "38028994",
+      "36386135",
+      "38971568",
+      "30516825",
+      "38365731",
+      "37690659",
+      "38831322",
+      "31092221",
+      "34609072",
+      "33609540",
+      "31266808",
+      "35692198",
+      "37276148",
+      "37517171",
+      "33664859",
+      "36597492",
+      "34908186",
+      "30566000",
+      "35158113",
+      "37001184",
+      "35634488",
+      "30971429",
+      "38375694",
+      "29789597",
+      "36440653",
+      "26534922",
+      "38776855",
+      "35993021",
+      "38626544",
+      "30820607",
+      "35278496",
+      "32178558",
+      "36153434",
+      "37373116",
+      "37337470",
+      "32715764",
+      "38650009",
+      "30394366",
+      "38766319",
+      "33097254",
+      "38008711",
+      "28315733",
+      "35966076",
+      "35587919",
+      "38417568",
+      "34811833",
+      "37776100",
+      "37150518",
+      "33246425",
+      "30348828",
+      "33116120",
+      "33868295",
+      "35522946",
+      "36633709",
+      "35226829",
+      "37503932",
+      "34925339",
+      "34716298",
+      "39092227",
+      "38952087",
+      "39070131",
+      "39021818",
+      "39081773",
+      "39398062",
+      "36860636",
+      "39353481",
+      "39360161",
+      "39200152"
+    ],
+    "review": [
+      "38678670",
+      "37324941",
+      "35432190"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(24)00656-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://www.ovid.com/38678670.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

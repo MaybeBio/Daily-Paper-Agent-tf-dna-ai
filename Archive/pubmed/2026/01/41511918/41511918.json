@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "41511918",
+    "doi": "10.1371/journal.pone.0338309",
+    "title": "Mechanisms of cellular senescence combined with molecular docking strategies: A biomarker study of potential therapeutic targets for allergic rhinitis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Bioinformatics and molecular docking methods were used to screen potential biomarkers of cellular senescence in allergic rhinitis (Allergic rhinitis AR), which provided a theoretical basis for revealing the mechanism of AR and exploring new therapeutic approaches. METHODS: Four AR-related gene chips (GSE19187, GSE43523, GSE44037, and GSE51392) were downloaded from the gene expression database (GEO) for data pooling. Screening differential genes (DEGs) were taken to intersect with cellular senescence-related genes (SRGs) to obtain differential senescence genes (DESRGs). The differential senescence genes were subjected to Gene Ontology Database (GO) functional analysis, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis, and GSEA enrichment analysis. Protein-protein interaction (PPI) networks were constructed through the STRING database, MCODE plugin weights were analyzed to identify important gene cluster modules, and Hub genes were screened using the CytoHubba plugin topological network algorithm. Hub gene protein interactions network (GeneMANIA) was constructed by the GeneMANIA database. Predict Hub gene construct mRNA-miNA-lncRNA interactions by miRanda, miRDB, miRWalk, TargetScan, and spongeScan databases; construct Hub gene transcription factor regulatory networks by TRRUST database; analyze Hub gene-drug interactions by DGIdb database and select commonly used drugs in the clinic for molecular docking validation. RESULTS: A total of 264 differential genes were screened in the training set with corrected P.adj < 0.05 and |log2FC| >/= 1.2 as the filtering condition, and a total of 866 cellular senescence genes, and 20 differential senescence genes (DESRGs) were obtained by taking the intersection of the two. A total of 19 Hub genes were obtained after PPI analysis, which were CCL2, STAT1, TLR2, IGFBP3, TLR3, KLF4, IL1RN, IRF1, SERPINB2, DPP4, MME, NQO1, SAMHD1, XAF1, PHGDH, EIF4EBP1, CTH, HSPA2, AHR The gene-protein interaction network identified 19 Hub genes associated with 21 functional proteins. 5 of the Hub gene loci were associated with 29 miRNAs and 53 lncRNAs. The transcription factor regulatory network obtained 15 transcription factors capable of regulating Hub genes. The analysis of drug-gene interactions identified 489 drugs that target hub genes. For example, in the case of budesonide, the interacting genes STAT1, TLR2, TLR3, and AHR were selected for molecular docking. Similarly, for mometasone, the interacting genes TLR2 and CTH were chosen for molecular docking. CONCLUSION: Mining AR-related Hub senescence genes by bioinformatics analysis, constructing PPI network, ceRNA network, transcription factor regulatory network, gene-drug interaction network and molecular docking validation, we screened 19 CCL2, STAT1, TLR2, IGFBP3, TLR3, KLF4, IL1RN, IRF1, SERPINB2, DPP4, MME, NQO1, SAMHD1, XAF1, PHGDH, EIF4EBP1, CTH, HSPA2, and AHR are expected to be Hub genes for potential diagnostic and therapeutic biomarkers, which will provide targets and new insights for further in-depth explorations of AR cellular senescence-related mechanisms of action and therapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Humans",
+      "Protein Interaction Maps",
+      "*Rhinitis, Allergic/genetics/metabolism/drug therapy/pathology",
+      "*Cellular Senescence/genetics",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Qingyong",
+        "Zhang, Han",
+        "Wu, Yue",
+        "Liu, Jixin",
+        "Wang, Dongqing",
+        "Sun, Dezhong",
+        "Chen, Zhipeng",
+        "Lin, Liqiang",
+        "Lv, Huaiqing",
+        "Shao, Qiang"
+      ],
+      "short_names": [
+        "Chen Q",
+        "Zhang H",
+        "Wu Y",
+        "Liu J",
+        "Wang D",
+        "Sun D",
+        "Chen Z",
+        "Lin L",
+        "Lv H",
+        "Shao Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-1403-3563",
+        "ORCID: 0009-0009-9149-1303"
+      ],
+      "affiliations": [
+        "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China.",
+        "No.One Clinical Medicine School of Binzhou Medical University, Bing Zhou, China.",
+        "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China.",
+        "Junan County People's Hospital, Linyi, China.",
+        "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China.",
+        "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China.",
+        "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China.",
+        "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China.",
+        "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China.",
+        "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Qingyong",
+        "short_name": "Chen Q",
+        "identifiers": [
+          "0009-0008-1403-3563"
+        ],
+        "affiliations": [
+          "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Han",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "No.One Clinical Medicine School of Binzhou Medical University, Bing Zhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yue",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jixin",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Junan County People's Hospital, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongqing",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Dezhong",
+        "short_name": "Sun D",
+        "identifiers": [],
+        "affiliations": [
+          "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhipeng",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Liqiang",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Huaiqing",
+        "short_name": "Lv H",
+        "identifiers": [],
+        "affiliations": [
+          "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Qiang",
+        "short_name": "Shao Q",
+        "identifiers": [
+          "0009-0009-9149-1303"
+        ],
+        "affiliations": [
+          "Linyi People's Hospital Affiliated to Shandong Second Medical University, Linyi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/09 18:30",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40496069",
+      "39367803",
+      "38639267",
+      "38551028",
+      "37953380",
+      "37442061",
+      "36964157",
+      "36882993",
+      "36866529",
+      "36601108",
+      "36566515",
+      "36421442",
+      "36370105",
+      "35924735",
+      "35609983",
+      "35359830",
+      "35243888",
+      "35050240",
+      "34147127",
+      "34095322",
+      "34058439",
+      "33328614",
+      "33233810",
+      "30758914",
+      "30368403",
+      "30321428",
+      "29912392",
+      "29696986",
+      "29087512",
+      "26522455",
+      "26252159",
+      "25254143",
+      "24954210",
+      "24058746",
+      "24049053",
+      "23908379",
+      "23630350",
+      "21738880",
+      "20966874",
+      "19608721",
+      "17919711",
+      "17350064",
+      "16176260",
+      "12525261"
+    ],
+    "similar": [
+      "41511918",
+      "40091022",
+      "40561071",
+      "35975032",
+      "35762549",
+      "41005317",
+      "40859027",
+      "40307356",
+      "41288681",
+      "36627660",
+      "31987036",
+      "41562054",
+      "40574839",
+      "32842359",
+      "30542696",
+      "41544137",
+      "40603423",
+      "38957433",
+      "34334005",
+      "38736878",
+      "37430199",
+      "38062833",
+      "39328407",
+      "38073349",
+      "33299863",
+      "36291136",
+      "39556279",
+      "42109727",
+      "36238478",
+      "35757392",
+      "39326197",
+      "38852219",
+      "41196851",
+      "32626989",
+      "40821971",
+      "39673621",
+      "38764052",
+      "41044520",
+      "40901831",
+      "41079183",
+      "39434198",
+      "41261616",
+      "37063926",
+      "37287284",
+      "34722763",
+      "29286093",
+      "35313524",
+      "42278407",
+      "40289127",
+      "35281953",
+      "42289108",
+      "40790764",
+      "39107483",
+      "31424263",
+      "40063555",
+      "37553608",
+      "38701256",
+      "33501609",
+      "38319987",
+      "39387979",
+      "39738612",
+      "41863100",
+      "34844599",
+      "39712025",
+      "32435051",
+      "32925795",
+      "39844421",
+      "36582740",
+      "40406126",
+      "40977739",
+      "40592131",
+      "32008037",
+      "39111872",
+      "30506958",
+      "41492010",
+      "31304055",
+      "34218797",
+      "32481304",
+      "39118438",
+      "35909518",
+      "37250717",
+      "38650009",
+      "41940395",
+      "40659785",
+      "39833772",
+      "36532015",
+      "39251231",
+      "40093012",
+      "35545337",
+      "41253465",
+      "41258630",
+      "32598242",
+      "39293329",
+      "37770919",
+      "41533020",
+      "39342024",
+      "38701300",
+      "30825595",
+      "39949372",
+      "40843941"
+    ],
+    "review": [
+      "41511918",
+      "39387979"
+    ],
+    "pmc": [
+      "12788676"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0338309",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41511918/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1292",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

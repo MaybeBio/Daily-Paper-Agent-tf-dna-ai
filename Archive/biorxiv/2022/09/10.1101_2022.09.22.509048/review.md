@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present Motif2Site, a Bioconductor package that detects transcription factor binding sites from ChIP-seq data by prioritizing motifs near peak summits using the original ChIP-seq signal. They claim comparable binding region accuracy to existing methods, substantially improved binding site accuracy, improved accuracy via recentering across developmental conditions and homologous TFs, and demonstrate utility in studying co-binding properties and TF footprints in heart-specific enhancers.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, methods description, figures, tables, benchmark comparisons, statistical analyses, and software documentation are not available. The abstract lacks specific performance metrics, dataset descriptions, and validation protocols.
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful post-processing tool for TF binding site detection, addressing a recognized limitation in standard motif prioritization approaches. The core idea, that motifs closer to peak summits are more likely to be true binding sites, is biologically plausible and consistent with existing literature. However, the abstract provides insufficient quantitative evidence to evaluate the claimed improvements. The lack of specific accuracy metrics, benchmark details, and statistical comparisons prevents assessment of whether the method genuinely outperforms existing approaches. The claims about recentering across conditions and homologous TFs are intriguing but unsupported by visible data. The application to co-binding and footprint analysis suggests broader utility, but again without methodological detail or results, these claims cannot be evaluated.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, computational genomics, and bioinformatics would be interested. Specifically, those studying TF co-binding, cis-regulatory element function, and developmental gene regulation would benefit from improved binding site resolution. The Bioconductor package format makes the tool accessible to a broad genomics community. The application to heart development and mESC systems would interest developmental biologists studying these models.
+- **Major strengths** The abstract addresses a clear and important problem in the field, namely the gap between peak calling and accurate binding site identification. The proposed approach leverages the original ChIP-seq signal rather than relying solely on motif scores, which is a conceptually sound strategy. The emphasis on recentering across experiments and homologous TFs is a novel contribution that could improve cross-condition comparability. The demonstrated applications to co-binding and footprint analysis suggest the tool has practical utility beyond simple binding site detection.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Motif2Site could detect binding regions with comparable accuracy to the existing state-of-the-art while it substantially increased the accuracy of the detected binding sites"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims comparable binding region accuracy and substantially improved binding site accuracy, but provides no quantitative metrics, no benchmark datasets, no comparison methods, and no statistical significance tests. The terms "comparable" and "substantially increased" are undefined without numerical support.
+  - **Why it matters** The central value proposition of the tool rests on this performance claim. Without quantitative evidence, readers cannot assess whether the improvement is meaningful or whether the method is competitive with existing tools. The claim is the primary basis for recommending adoption of the package.
+  - **Resolution test** Provide specific accuracy metrics (e.g., precision, recall, F1 score, area under the precision-recall curve) for Motif2Site versus at least one established method across multiple datasets. Include confidence intervals or statistical tests demonstrating the significance of the improvement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "We developed a novel post-processing Bioconductor package called Motif2Site to detect TFs binding sites from user provided motif sets and recenter them across experiments"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the algorithmic approach in sufficient detail. How are motifs scored relative to peak summits? What is the distance threshold or weighting scheme? How is recentering performed across experiments? What are the input requirements and computational costs? None of these details are visible.
+  - **Why it matters** For a software package, methodological transparency is essential for users to understand the tool's behavior, limitations, and appropriate use cases. Without this information, the novelty and utility of the approach cannot be assessed, and potential users cannot determine if the tool fits their needs.
+  - **Resolution test** Provide a detailed methods section describing the algorithm, including the scoring function, distance model, recentering procedure, and any parameters or defaults. Include a workflow diagram or pseudocode.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** "Motif2Site could future improve the accuracy of binding sites prediction by recentering binding sites across developmental conditions (fetal/P0 heart) and across homologous TFs (ex. GATA4/GATA6 and MEF2A/MEF2C)"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim that recentering improves accuracy across conditions and homologous TFs is presented without any validation data. How was accuracy measured in these cross-condition and cross-TF comparisons? What was the ground truth? Were the improvements consistent across all tested conditions and TFs?
+  - **Why it matters** This is a distinctive feature of the tool that goes beyond simple binding site detection. If validated, it would enable more reliable cross-condition and cross-TF comparisons, which is valuable for developmental and evolutionary studies. Without evidence, this claim remains speculative.
+  - **Resolution test** Provide validation results showing accuracy metrics before and after recentering for each condition and TF pair tested. Include the number of binding sites analyzed, the ground truth definition, and statistical tests for improvement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validation
+  - **Claim pointer** "Purifying high-confidence binding sites in mouse fetal heart, enabled us to study the co-binding properties of TFs in cis-regulatory elements. We could also traced TFs footprints in selected heart-specific VISTA enhancers chromatin accessible regions"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims biological insights from the purified binding sites, including co-binding properties and TF footprints, but provides no specific findings. What co-binding patterns were observed? How do the footprints compare to known binding events? Are these results validated by independent experiments?
+  - **Why it matters** These applications demonstrate the biological utility of the tool beyond technical accuracy. Concrete findings would strengthen the case that improved binding site detection translates into meaningful biological discovery. Without specifics, the value of these applications is unclear.
+  - **Resolution test** Provide specific examples of co-binding patterns or footprint analyses with supporting evidence, such as motif enrichment statistics, footprint depth comparisons, or validation by independent methods (e.g., ChIP-qPCR, reporter assays).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "We developed a novel post-processing Bioconductor package" contains a typographical error ("We" should be "we") and the sentence structure is awkward. Additionally, the abstract states "Motif2Site could future improve" which appears to be a typo for "further improve."
+  - **Required correction** Correct the typographical errors and revise the sentences for clarity and grammatical accuracy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the software license, version, or availability of the package beyond stating it is a Bioconductor package. It is unclear whether the package is publicly available, deposited in a repository, or under active development.
+  - **Required correction** State the package version, license, and repository URL or Bioconductor submission status.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses exclusively on mouse systems (mESC and heart). It is unclear whether the method is applicable to other species, ChIP-seq protocols, or data types (e.g., ATAC-seq, CUT&Tag).
+  - **Required correction** Briefly state the expected applicability to other species and data types, or acknowledge current limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative performance evidence), R1-M2 (insufficient methodological detail), R1-M3 (no validation of recentering claims). These are blocking because the core claims of the tool cannot be evaluated from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of using peak summit proximity to prioritize motifs is not entirely new, but the systematic recentering across conditions and homologous TFs appears to be a novel contribution. The originality is moderate and cannot be fully assessed without the methods.
+  - Scientific importance: Accurate TF binding site detection is a fundamental need in regulatory genomics. The tool addresses a real bottleneck, and the applications to co-binding and footprints have potential importance. However, the importance is not demonstrated with concrete findings.
+  - Interdisciplinary readership: The tool would appeal to computational biologists, bioinformaticians, and experimental biologists studying gene regulation. The Bioconductor format enhances accessibility. The abstract is written in a way that is understandable to a broad genomics audience.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of algorithmic detail and quantitative validation prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is generally readable, but contains some awkward phrasing and undefined terms (e.g., "recentering" is not explained). The biological context is clear, but the technical claims are vague.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially useful tool, but the absence of quantitative results, methodological detail, and validation data means the core claims cannot be evaluated. The manuscript would need to provide substantial evidence of performance and validation before the case for the tool's utility is established.
+
+## Risk / unsupported claims
+- The claim of "comparable accuracy" for binding region detection is unsupported without benchmark comparisons.
+- The claim of "substantially increased accuracy" for binding site detection is unsupported without quantitative metrics.
+- The claim that recentering across developmental conditions and homologous TFs improves accuracy is unsupported without validation data.
+- The claim of enabling co-binding property studies is unsupported without specific findings.
+- The claim of tracing TF footprints in VISTA enhancers is unsupported without results or validation.
+- The general applicability of the method beyond the tested mouse systems is unstated and therefore unassessable.

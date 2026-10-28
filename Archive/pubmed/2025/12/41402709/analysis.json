@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41402709",
+  "title": "ProMoHGT: a heterogeneous graph transformer with graph contrastive learning for robust microbial protein function prediction.",
+  "authors": "Sui, Jianan; Wang, Xiaomiao; Su, Yufeng; Gao, Menglong; Huang, Huanjie; Liu, Hao; Zhang, Jianfeng; Tang, Yaohan",
+  "journal": "BMC genomics",
+  "published_date": "2025-12-17",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于异构图Transformer和对比学习的微生物蛋白功能预测模型ProMoHGT，虽涉及DNA结合等转录因子功能预测，但核心是通用蛋白功能注释而非TF-DNA互作机制建模，方法可迁移但对象与互作深度有限。",
+  "abstract": "Proteins serve as the central executors of life activities, performing diverse functions such as metabolic catalysis, genetic regulation, signal transduction, and cytoskeletal maintenance. However, microbial proteins face unique challenges: their rapid evolution leads to low sequence conservation, and structural diversity complicates functional inference. Experimental annotation lags far behind due to scalability limits-over 70% of microbial proteins in UniProt remain uncharacterized, compared to roughly 50% for model eukaryotes. Traditional homology-based tools (e.g., FASTA/BLAST) often fail on highly divergent microbial families, and existing machine-learning methods rarely account for microbial-specific signals such as horizontal gene transfer. To address this gap, this study presents the first publicly available dataset for microbial protein function annotation and introduces ProMoHGT, a novel model that extracts evolutionary and contextual sequence features using ESM-2, constructs three-dimensional spatial proximity graphs from AlphaFold2 predictions, and encodes residue-specific physicochemical properties. Its core heterogeneous Transformer architecture incorporates super-nodes and multi-head self-attention to integrate global topology with long-range dependencies, while graph contrastive learning adds regularization to enhance robustness and prevent overfitting. ProMoHGT outperforms state-of-the-art methods across all three Gene Ontology categories (MF, BP, CC) and in Enzyme Commission number prediction, with the smallest performance decay observed across varying homology scenarios, thereby validating its superior generalization capability. A case study on three representative microbial proteins (ArcA, CodY, and SPT16) further confirmed these advantages, where ProMoHGT most accurately recovered key experimentally validated functions such as DNA binding, transcription activation, chromatin remodeling, and metabolic regulation, achieving the highest F1 scores among all methods.",
+  "abstract_zh": "蛋白质是生命活动的核心执行者，承担着代谢催化、遗传调控、信号转导和细胞骨架维持等多种功能。然而，微生物蛋白质面临独特挑战：其快速进化导致序列保守性低，结构多样性使功能推断复杂化。由于可扩展性限制，实验注释远远滞后——UniProt中超过70%的微生物蛋白质仍未表征，而模式真核生物约为50%。传统的基于同源性的工具（如FASTA/BLAST）在高度分化的微生物家族上常常失效，现有机器学习方法也鲜少考虑水平基因转移等微生物特异性信号。为弥补这一空白，本研究首次公开了用于微生物蛋白质功能注释的数据集，并提出了ProMoHGT，这是一种新颖模型，利用ESM-2提取进化与上下文序列特征，从AlphaFold2预测构建三维空间邻近图，并编码残基特异性理化性质。其核心异构Transformer架构整合了超节点和多头自注意力，以融合全局拓扑与长程依赖，同时图对比学习提供正则化，增强鲁棒性并防止过拟合。ProMoHGT在所有三个基因本体论类别（MF、BP、CC）及酶委员会编号预测中均优于最先进方法，并在不同同源性场景下表现出最小的性能衰减，从而验证了其卓越的泛化能力。对三种代表性微生物蛋白质（ArcA、CodY和SPT16）的案例研究进一步证实了这些优势，其中ProMoHGT最准确地恢复了关键实验验证功能，如DNA结合、转录激活、染色质重塑和代谢调控，在所有方法中取得了最高的F1分数。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41402709/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41402709/",
+  "paper_page_path": "papers/pubmed/41402709/index.html"
+}

@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "pmid": "33780341",
+    "doi": "10.1109/TCBB.2021.3069263",
+    "title": "IDRBP-PPCT: Identifying Nucleic Acid-Binding Proteins Based on Position-Specific Score Matrix and Position-Specific Frequency Matrix Cross Transformation."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs) are two important nucleic acid-binding proteins (NABPs), which play important roles in biological processes such as replication, translation and transcription of genetic material. Some proteins (DRBPs) bind to both DNA and RNA, also play a key role in gene expression. Identification of DBPs, RBPs and DRBPs is important to study protein-nucleic acid interactions. Computational methods are increasingly being proposed to automatically identify DNA- or RNA-binding proteins based only on protein sequences. One challenge is to design an effective protein representation method to convert protein sequences into fixed-dimension feature vectors. In this study, we proposed a novel protein representation method called Position-Specific Scoring Matrix (PSSM) and Position-Specific Frequency Matrix (PSFM) Cross Transformation (PPCT) to represent protein sequences. This method contains the evolutionary information in PSSM and PSFM, and their correlations. A new computational predictor called IDRBP-PPCT was proposed by combining PPCT and the two-layer framework based on the random forest algorithm to identify DBPs, RBPs and DRBPs. The experimental results on the independent dataset and the tomato genome proved the effectiveness of the proposed method. A user-friendly web-server of IDRBP-PPCT was constructed, which is freely available at http://bliulab.net/IDRBP-PPCT.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Algorithms",
+      "Amino Acid Sequence",
+      "Computational Biology/methods",
+      "DNA/genetics/metabolism",
+      "DNA-Binding Proteins/genetics/metabolism",
+      "Databases, Protein",
+      "Position-Specific Scoring Matrices",
+      "RNA-Binding Proteins/genetics/metabolism",
+      "*Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ning",
+        "Zhang, Jun",
+        "Liu, Bin"
+      ],
+      "short_names": [
+        "Wang N",
+        "Zhang J",
+        "Liu B"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ning",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2022 Jul-Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/30 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "40864782",
+      "40439671",
+      "40391089",
+      "38747369",
+      "38739759",
+      "38660008",
+      "38491248",
+      "37674132",
+      "36119976",
+      "35649392",
+      "34938741"
+    ],
+    "refs": [],
+    "similar": [
+      "33780341",
+      "34932484",
+      "36044786",
+      "32920048",
+      "28841194",
+      "35447463",
+      "25708928",
+      "20677174",
+      "31123959",
+      "31722485",
+      "22408447",
+      "34291709",
+      "30668479",
+      "35521556",
+      "35378437",
+      "33410688",
+      "27732957",
+      "35242211",
+      "33442949",
+      "22574904",
+      "27452983",
+      "24475169",
+      "23747746",
+      "29753757",
+      "26482832",
+      "38295475",
+      "28851273",
+      "27213337",
+      "31621050",
+      "30032213",
+      "25184541",
+      "28802824",
+      "36211019",
+      "38986796",
+      "38491248",
+      "22489173",
+      "28606086",
+      "32448129",
+      "16568445",
+      "31693872",
+      "38856168",
+      "34455627",
+      "27993780",
+      "33505516",
+      "29990004",
+      "35709747",
+      "19008251",
+      "28088356",
+      "20549269",
+      "27759121",
+      "37307968",
+      "33238837",
+      "40391089",
+      "32300371",
+      "35799660",
+      "26788119",
+      "30323214",
+      "29532347",
+      "39270885",
+      "27378005",
+      "39098908",
+      "29652843",
+      "15720719",
+      "31430892",
+      "37029385",
+      "28483566",
+      "27565741",
+      "37405873",
+      "28423569",
+      "27740495",
+      "21935457",
+      "37158175",
+      "31472418",
+      "39215231",
+      "30476229",
+      "36457083",
+      "28854211",
+      "30395157",
+      "31319578",
+      "20658312",
+      "24067326",
+      "22316312",
+      "17237068",
+      "28764871",
+      "34320027",
+      "32420339",
+      "33476047",
+      "22868682",
+      "34749096",
+      "20522253",
+      "29253082",
+      "35176130",
+      "33481715",
+      "24607742",
+      "19091029",
+      "32908888",
+      "31856704",
+      "28961273",
+      "27383535",
+      "25935161"
+    ],
+    "review": [
+      "33780341",
+      "29253082"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2021.3069263",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2021.3069263",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_idrbp-ppct",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33780341",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

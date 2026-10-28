@@ -1,0 +1,39 @@
+{
+  "source": "arxiv",
+  "source_id": "2303.12775v2",
+  "title": "System-specific parameter optimization for non-polarizable and polarizable force fields",
+  "doi": "",
+  "abstract": "The accuracy of classical force fields (FFs) has been shown to be limited for the simulation of cation-protein systems despite their importance in understanding the processes of life. Improvements can result from optimizing the parameters of classical FFs or by extending the FF formulation by terms describing charge transfer and polarization effects. In this work, we introduce our implementation of the CTPOL model in OpenMM, which extends the classical additive FF formula by adding charge transfer (CT) and polarization (POL). Furthermore, we present an open-source parameterization tool, called FFAFFURR that enables the (system specific) parameterization of OPLS-AA and CTPOL models. The performance of our workflow was evaluated by its ability to reproduce quantum chemistry energies and by molecular dynamics simulations of a Zinc finger protein.",
+  "authors": [
+    "Xiaojuan Hu",
+    "Kazi S. Amin",
+    "Markus Schneider",
+    "Carmay Lim",
+    "Dennis Salahub",
+    "Carsten Baldauf"
+  ],
+  "published_date": "2023-03-22T17:42:01Z",
+  "updated_date": "2023-10-09T12:12:04Z",
+  "journal": "",
+  "category": "q-bio.BM, cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2303.12775v2",
+  "pdf_url": "https://arxiv.org/pdf/2303.12775v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.BM",
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2303.12775v2",
+    "raw_categories": [
+      "q-bio.BM",
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

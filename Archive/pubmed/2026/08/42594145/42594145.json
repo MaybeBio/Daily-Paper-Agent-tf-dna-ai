@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "42594145",
+    "doi": "10.1371/journal.pone.0355548",
+    "title": "Unraveling the molecular Nexus of Alzheimer's Disease and HIV encephalitis: The role of cellular senescence and transcriptional regulation."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease (AD) and HIV-associated neurocognitive disorder (HAND) share progressive cognitive decline. Their common molecular mechanisms remain poorly understood. Current therapeutic approaches lack effective biomarkers for early diagnosis and intervention. We integrated transcriptomic profiles from multiple independent cohorts across brain tissues and blood. We systematically evaluated diagnostic performance using machine learning algorithms including Random Forest, Support Vector Machine, and XGBoost. Notably, FOXO3 emerged as the top cross-disease biomarker. FOXO3 achieved diagnostic accuracy in AD temporal cortex (area under the curve [AUC] = 0.922, 95% CI: 0.885-0.959). FOXO3 showed diagnostic performance in HAND frontal cortex (AUC = 0.771, 95% CI: 0.724-0.818). FOXO3 expression positively correlated with APP (R = 0.558). FOXO3 expression negatively correlated with MAPT (R = -0.690) and SORL1 (R = -0.856). ACE showed strong positive correlation with FOXO3 (R = 0.685), suggesting vascular involvement. STAT3 and ZNF341 were identified from 21 transcription factor candidates. STAT3 ranked first in HAND integrated cohort (n = 107, AUC = 0.759). STAT3 may function as an inflammatory mediator through JAK-STAT signaling. ZNF341 showed strongest transcriptional association with disease status (beta = 5.09 in AD, beta = 4.85 in HAND). The two-gene panel (FOXO3-ZNF341) achieved diagnostic accuracy in blood samples (AUC = 0.764, n = 329). This performance approaches clinical utility thresholds. Blood-based detection offers non-invasive diagnostic potential. Saturation analysis identified three molecules as optimal panel size. Marginal AUC gains declined below 0.02 beyond this threshold. FOXO3, STAT3, and ZNF341 showed stable selection frequency (97%, 65%, and 100%, respectively). PI3K-Akt and FoxO signaling pathways were enriched, which are known to regulate apoptosis and cell survival. Taken together, these computational findings indicate FOXO3 transcriptional regulatory activity in neurodegeneration. The three-molecule panel represents candidate blood-based diagnostic biomarkers. These candidate biomarkers warrant further investigation in independent clinical cohorts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Alzheimer Disease/genetics/metabolism/diagnosis/pathology",
+      "Forkhead Box Protein O3/genetics/metabolism",
+      "*Cellular Senescence/genetics",
+      "Biomarkers/metabolism",
+      "Gene Expression Regulation",
+      "Female",
+      "Male",
+      "Transcription, Genetic",
+      "STAT3 Transcription Factor/metabolism/genetics",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hao",
+        "Chen, WenJun",
+        "Yuan, ShuYou",
+        "Ding, ShaoXiang",
+        "Bao, HongXia",
+        "Cai, Bo",
+        "Sun, JunKai",
+        "Lu, Wei",
+        "Zhu, HaoGang",
+        "Shi, GuoXun"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Chen W",
+        "Yuan S",
+        "Ding S",
+        "Bao H",
+        "Cai B",
+        "Sun J",
+        "Lu W",
+        "Zhu H",
+        "Shi G"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-6566-5368"
+      ],
+      "affiliations": [
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China.",
+        "Neurology Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China.",
+        "Laboratory Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China.",
+        "Pathology department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China.",
+        "Department of Interventional Radiology, Wuxi No. 5 People's Hospital, Wuxi, Jiangsu Province, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China.",
+        "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China.",
+        "Rheumatology Department, Wuxi Second People's Hospital, Wuxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hao",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, WenJun",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Neurology Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, ShuYou",
+        "short_name": "Yuan S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory Department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Ding, ShaoXiang",
+        "short_name": "Ding S",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Bao, HongXia",
+        "short_name": "Bao H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Bo",
+        "short_name": "Cai B",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology department, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Sun, JunKai",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, Wuxi No. 5 People's Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Wei",
+        "short_name": "Lu W",
+        "identifiers": [
+          "0009-0008-6566-5368"
+        ],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, HaoGang",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Center, Wuxi Second Geriatric Hospital, Wuxi, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Shi, GuoXun",
+        "short_name": "Shi G",
+        "identifiers": [],
+        "affiliations": [
+          "Rheumatology Department, Wuxi Second People's Hospital, Wuxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 21:31",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42394645",
+      "42272938",
+      "42162073",
+      "42072300",
+      "41978384",
+      "41882441",
+      "41743742",
+      "40943171",
+      "40574756",
+      "40540437",
+      "40292531",
+      "40203953",
+      "40189500",
+      "39820861",
+      "39456951",
+      "39306559",
+      "38659061",
+      "38339231",
+      "38030088",
+      "37719839",
+      "37683957",
+      "37078495",
+      "36939886",
+      "36399495",
+      "36153614",
+      "35871112",
+      "35011699",
+      "34754655",
+      "34644108",
+      "34016717",
+      "33781839",
+      "33682374",
+      "33652870",
+      "33421931",
+      "33096140",
+      "33065212",
+      "32967128",
+      "32866164",
+      "32682335",
+      "32601397",
+      "32468465",
+      "32276639",
+      "32127770",
+      "32032278"
+    ],
+    "similar": [
+      "42594145",
+      "42010706",
+      "39507054",
+      "35154571",
+      "40238799",
+      "39394418",
+      "40581531",
+      "41291841",
+      "39584743",
+      "36195955",
+      "41630199",
+      "41323652",
+      "42475469",
+      "41004623",
+      "38645862",
+      "42554796",
+      "41415264",
+      "39375405",
+      "39920860",
+      "41320776",
+      "42474555",
+      "32333900",
+      "39594668",
+      "42161063",
+      "40315768",
+      "40557159",
+      "42107160",
+      "42216097",
+      "42509823",
+      "42024670",
+      "42326009",
+      "40830558",
+      "28157684",
+      "41611834",
+      "39857095",
+      "41461777",
+      "24913723",
+      "41436831",
+      "24818077",
+      "42216376",
+      "29370177",
+      "41992956",
+      "41148349",
+      "34418401",
+      "40076442",
+      "40563446",
+      "41879435",
+      "40207815",
+      "20123982",
+      "31984950",
+      "42123445",
+      "25344604",
+      "41656803",
+      "38157927",
+      "23406646",
+      "42123756",
+      "41238997",
+      "42032766",
+      "41892599",
+      "24634832",
+      "42178007",
+      "42351234",
+      "33629272",
+      "42558367",
+      "42292668",
+      "41580850",
+      "42589294",
+      "31929156",
+      "40753530",
+      "42565562",
+      "41867210",
+      "41888956",
+      "40520536",
+      "25312773",
+      "40685632",
+      "42113045",
+      "41498558",
+      "40181481",
+      "41322408",
+      "39497321",
+      "39385222",
+      "29995978",
+      "42009747",
+      "34247441",
+      "38472245",
+      "40943145",
+      "42477639",
+      "42429909",
+      "31849586",
+      "42051535",
+      "41691306",
+      "42045900",
+      "39498523",
+      "41200172",
+      "36988771",
+      "39730451",
+      "32851102",
+      "35151693",
+      "40592256",
+      "27799057"
+    ],
+    "review": [
+      "42594145",
+      "24913723"
+    ],
+    "pmc": [
+      "13472368"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0355548",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42594145/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2597",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

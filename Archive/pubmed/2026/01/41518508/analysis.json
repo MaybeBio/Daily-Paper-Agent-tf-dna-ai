@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41518508",
+  "title": "Inferring Gene Networks from High-Throughput Transcriptomes.",
+  "authors": "Navarro-Paya, David; Orduna, Luis; Fernandez, Jose D; Santiago, Antonio; Vidal, Elena A; Matus, Jose Tomas",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2026-01-10",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文基于转录组数据构建基因共表达网络和调控网络，虽涉及转录因子-靶基因关系，但仅用GENIE3算法做统计推断，无三维互作建模或AI/物理模拟方法，与TF-DNA结合机制研究关联较弱。",
+  "abstract": "Systems biology has helped to better understand the complexity of gene-to-gene interactions at a genome-wide level through the practical application of network theory. Over the last decade, different types of gene networks have been built to assist in gene function prediction and the modeling of transcriptional regulation in plants. While gene co-expression networks (GCNs) focus on general gene-to-gene relationships, gene regulatory networks (GRNs) depict the hierarchical connections among transcription factors and target genes. Here, we provide two strategies to produce gene networks based on high-throughput transcriptomic data-aggregated GCNs (aggGCNs) and inferred GRNs. A custom in-house pipeline is presented to build aggGCNs, while GRNs are inferred through the implementation of the GENIE3 algorithm. All of the presented code is publicly available, both in this chapter and associated Git repositories, and even though the workflows have been developed for particular plant species such as grapevine and tomato, they can be adapted to any other plant species or eukaryotes.",
+  "abstract_zh": "系统生物学通过网络理论的实际应用，有助于更好地理解全基因组水平上基因间相互作用的复杂性。在过去十年中，已构建了不同类型的基因网络，以辅助植物中的基因功能预测和转录调控建模。基因共表达网络（GCNs）侧重于一般的基因间关系，而基因调控网络（GRNs）则描绘了转录因子与靶基因之间的层级连接。在此，我们提供了两种基于高通量转录组数据生成基因网络的策略——聚合GCNs（aggGCNs）和推断GRNs。我们展示了一个自定义的内部流程来构建aggGCNs，而GRNs则通过实施GENIE3算法进行推断。所有提供的代码均可公开获取，既包含在本章中，也包含在相关的Git仓库中，尽管这些工作流是为特定植物物种（如葡萄和番茄）开发的，但它们可以适应于任何其他植物物种或真核生物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41518508/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41518508/",
+  "paper_page_path": "papers/pubmed/41518508/index.html"
+}

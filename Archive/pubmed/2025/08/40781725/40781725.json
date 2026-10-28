@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "40781725",
+    "doi": "10.1186/s41065-025-00525-1",
+    "title": "Screening, identification, and experimental validation of SUMOylation biomarkers in Parkinson's disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Parkinson's disease (PD) is a common neurodegenerative disorder. The role of protein post-translational modifications (PTMs), especially small ubiquitin-like modifier (SUMO) conjugation (SUMOylation), in PD pathogenesis remains unclear. This study aimed to investigate the relationship between SUMOylation and PD. METHODS: The analysis included the GSE22491 dataset, GSE18838 dataset, and 189 SUMO related genes. Differentially expressed genes (DEGs) between the PD group and the control group were identified in GSE22491; these were then intersected with SUMO related genes to identify candidate genes. Machine learning was used to select biomarkers consistent across both datasets, which were validated in GSE6631. Further analyses included back propagation (BP) neural network analysis, enrichment analysis, immune infiltration analysis, regulatory network construction, drug prediction, and molecular docking. Reverse transcription-quantitative polymerase chain reaction (RT-qPCR) was used to validate the biomarkers. RESULTS: An overlap analysis of 3,222 DEGs and 189 SUMO related genes identified 25 candidate genes. Subsequent validation using the GSE22491 and GSE18838 datasets narrowed these biomarkers down to SUMO3 and SEH1L, which are involved in pathways (such as the nuclear pore pathway) associated with PD. Significant positive correlations were observed between specific immune cell subtypes and both biomarkers. Based on these correlations, relevant transcription factors (ZNF394, IRF4, FOXM1, EGR1) and drugs (Cianidanol, Methylmethanesulfonate, Valproic acid) were predicted. Additionally, RT-qPCR results confirmed that SUMO3 is significantly downregulated in PD. CONCLUSION: SUMO3 and SEH1L were identified as novel biomarkers for PD, offering potential targets for early diagnosis and therapy in PD.",
+    "keywords": [
+      "Biomarker",
+      "Machine learning",
+      "Parkinson's disease",
+      "SEH1L",
+      "SUMO3",
+      "SUMOylation"
+    ],
+    "mesh_terms": [
+      "*Parkinson Disease/genetics/metabolism",
+      "Humans",
+      "*Sumoylation",
+      "*Biomarkers/metabolism",
+      "*Small Ubiquitin-Related Modifier Proteins/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Ubiquitins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Yifo",
+        "Zhang, Xinning",
+        "Zuo, Rui",
+        "Dang, Wenxin",
+        "Chen, Lu",
+        "Liu, Fan",
+        "Yao, Jia",
+        "Ran, Weizheng",
+        "Chen, Zhigang",
+        "Wang, Xiaoyan",
+        "Lv, Furong",
+        "Yu, Yue"
+      ],
+      "short_names": [
+        "Wei Y",
+        "Zhang X",
+        "Zuo R",
+        "Dang W",
+        "Chen L",
+        "Liu F",
+        "Yao J",
+        "Ran W",
+        "Chen Z",
+        "Wang X",
+        "Lv F",
+        "Yu Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-1786-2819",
+        "ORCID: 0009-0004-6217-7124"
+      ],
+      "affiliations": [
+        "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China.",
+        "Shaanxi University of Chinese Medicine, Xianyang, China.",
+        "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China.",
+        "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China.",
+        "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China.",
+        "Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China.",
+        "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China.",
+        "The First Medical Center of PLA General Hospital, Beijing, China.",
+        "Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China.",
+        "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China. 465019198@qq.com.",
+        "The Eighth Medical Center of PLA General Hospital, Beijing, China. yue199090@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Yifo",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China.",
+          "Shaanxi University of Chinese Medicine, Xianyang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinning",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Rui",
+        "short_name": "Zuo R",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Dang, Wenxin",
+        "short_name": "Dang W",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lu",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fan",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Jia",
+        "short_name": "Yao J",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Ran, Weizheng",
+        "short_name": "Ran W",
+        "identifiers": [],
+        "affiliations": [
+          "The First Medical Center of PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhigang",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Dongfang Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoyan",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Furong",
+        "short_name": "Lv F",
+        "identifiers": [
+          "0009-0004-1786-2819"
+        ],
+        "affiliations": [
+          "Xi'an Hospital of Traditional Chinese Medicine, Xi'an, China. 465019198@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Yue",
+        "short_name": "Yu Y",
+        "identifiers": [
+          "0009-0004-6217-7124"
+        ],
+        "affiliations": [
+          "The Eighth Medical Center of PLA General Hospital, Beijing, China. yue199090@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2025 Aug 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/09 13:48",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42622678",
+      "42426326",
+      "42210083",
+      "42206661",
+      "41766856"
+    ],
+    "refs": [
+      "40293705",
+      "40189878",
+      "40078451",
+      "39890052",
+      "39466447",
+      "39321070",
+      "39095556",
+      "38505924",
+      "38254718",
+      "38110400",
+      "38063197",
+      "37874518",
+      "37797687",
+      "37686205",
+      "37641038",
+      "37305556",
+      "36983630",
+      "36943668",
+      "36842454",
+      "36809765",
+      "36761351",
+      "36338988",
+      "36299582",
+      "36222765",
+      "35790774",
+      "35751589",
+      "35746980",
+      "35566391",
+      "35220492",
+      "35182267",
+      "35011166",
+      "34739911",
+      "34557778",
+      "34060470",
+      "34056754",
+      "34003454",
+      "33977962",
+      "33826699",
+      "33710677",
+      "33633562",
+      "33498876",
+      "33352233",
+      "33226625",
+      "32887693",
+      "32781782",
+      "32671737",
+      "32666886",
+      "32392191",
+      "32237992",
+      "32233089",
+      "31991247",
+      "31891690",
+      "31881980",
+      "31602316",
+      "31505513",
+      "31384434",
+      "31254094",
+      "30879893",
+      "30267336",
+      "29751824",
+      "29618633",
+      "29530319",
+      "29217476",
+      "29180403",
+      "29057912",
+      "28763744",
+      "27173016",
+      "26932327",
+      "26865512",
+      "25778619",
+      "25631236",
+      "25607946",
+      "25605792",
+      "25569155",
+      "25284487",
+      "23937229",
+      "22871147",
+      "21414208",
+      "20934123",
+      "20824097",
+      "20401516",
+      "19765382",
+      "17082464",
+      "15976810",
+      "14597658"
+    ],
+    "similar": [
+      "40781725",
+      "41189222",
+      "32237992",
+      "26932327",
+      "40379803",
+      "30776463",
+      "26223657",
+      "41291978",
+      "34536521",
+      "40859216",
+      "24569813",
+      "35278479",
+      "40274894",
+      "41152463",
+      "31752909",
+      "40186271",
+      "40885831",
+      "23979994",
+      "39211047",
+      "32276105",
+      "39556279",
+      "35731466",
+      "38626069",
+      "40664780",
+      "41465132",
+      "38051734",
+      "39080336",
+      "28455449",
+      "39552415",
+      "40435035",
+      "28951443",
+      "40859027",
+      "36918862",
+      "40614927",
+      "38272954",
+      "26269422",
+      "27424763",
+      "27247387",
+      "39264583",
+      "39467967",
+      "38589732",
+      "30412791",
+      "40779572",
+      "39973855",
+      "41044520",
+      "40374840",
+      "41291841",
+      "41214111",
+      "21291420",
+      "40362543",
+      "38453824",
+      "27761832",
+      "24267727",
+      "38280996",
+      "38671425",
+      "40757418",
+      "27631798",
+      "40943064",
+      "30665415",
+      "25380826",
+      "34284443",
+      "28765971",
+      "24797264",
+      "40207215",
+      "41013856",
+      "24257756",
+      "40674408",
+      "39739972",
+      "41329689",
+      "39859268",
+      "41350331",
+      "41146237",
+      "29257331",
+      "41221285",
+      "23077236",
+      "41422136",
+      "41357242",
+      "22291911",
+      "37418066",
+      "41115648",
+      "39779759",
+      "37664910",
+      "22942423",
+      "40066251",
+      "23470489",
+      "32976759",
+      "36359791",
+      "23078246",
+      "40240887",
+      "40406126",
+      "24279728",
+      "41052072",
+      "40124361",
+      "25755297",
+      "36189230",
+      "39142001",
+      "21832256",
+      "38139032",
+      "29936662",
+      "39559355"
+    ],
+    "review": [
+      "40781725",
+      "26932327",
+      "23979994",
+      "30412791",
+      "38280996"
+    ],
+    "pmc": [
+      "12335102"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-025-00525-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40781725/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

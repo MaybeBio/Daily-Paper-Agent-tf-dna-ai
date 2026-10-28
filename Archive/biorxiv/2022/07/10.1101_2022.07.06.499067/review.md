@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present DeepBend, a convolutional neural network with interpretable (visible) convolutions, trained on Loop-Seq data to model DNA bendability. They claim performance on par with alternative machine learning and deep learning models, identification of known and novel bendability motifs, characterization of spatial motif patterns, and genome-wide predictions linking bendability to chromatin conformation and topologically associated domain (TAD) boundaries.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmarking details, model architecture specifications, or validation metrics are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, model code, and benchmarking details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the interpretable modeling of DNA bendability, a topic of relevance to chromatin biology and gene regulation. The concept of a visible neural network for motif discovery is timely and aligns with broader efforts toward mechanistic interpretability in genomics. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, the validity of the benchmarking claims, or the biological significance of the reported findings. Several claims are stated without quantitative support, and the absence of methodological detail precludes a rigorous assessment. The work may be of interest to computational biologists and chromatin researchers, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists developing interpretable deep learning methods for genomics; chromatin biologists studying sequence determinants of DNA packaging; researchers working on protein-DNA binding and 3D genome organization. The promise of interpretable motif discovery with performance comparable to black-box models would appeal to those seeking mechanistic insights from high-throughput sequencing data.
+- **Major strengths** The central idea of designing convolutions to be directly interpretable, rather than post hoc, is conceptually strong and addresses a recognized limitation in genomic deep learning. The focus on DNA bendability, a biophysically meaningful and under-modeled phenotype, is timely. The claim of confirming known motifs while revealing novel ones suggests the model may have discovery utility. The extension to genome-wide predictions and TAD boundaries indicates an attempt to connect sequence-level features to higher-order chromatin structure.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DeepBend consistently performs on par with alternative machine learning and deep learning models"
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract states that DeepBend performs on par with alternatives but provides no quantitative metrics, no comparison methods, no dataset splits, and no statistical tests. Without these, the claim is unverifiable.
+  - **Why it matters** Benchmarking claims are central to establishing that the interpretable model does not sacrifice predictive performance. If this claim is unsupported, the core value proposition of the work is weakened.
+  - **Resolution test** Provide a benchmarking table with metrics (e.g., AUC, Pearson correlation) across multiple datasets and model baselines, including confidence intervals and significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "DeepBend, a convolutional neural network model built as a visible neural network where we designed the convolutions to directly capture the motifs"
+  - **Evidence pointer** location not provided
+  - **Concern** No architectural details are given. The term "visible neural network" is not defined, and the specific design of the convolutions, the number of layers, the motif length range, the pooling strategy, and the training procedure are absent.
+  - **Why it matters** Without architectural and training details, the method cannot be reproduced or evaluated for novelty relative to existing interpretable models (e.g., BPNet, DeepSEA, or attention-based approaches).
+  - **Resolution test** Include a full methods section with model architecture, hyperparameters, training data, and code availability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validation
+  - **Claim pointer** "DeepBend also revealed several novel motifs and showed how the spatial patterns of motif occurrences influence bendability"
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract claims novel motif discovery and spatial pattern analysis but provides no examples, no validation (e.g., electrophoretic mobility shift assays, reporter assays, or comparison to independent datasets), and no statistical significance measures for motif enrichment.
+  - **Why it matters** Novel motif claims require experimental or independent computational validation to rule out artifacts of the model or the training data. Without this, the biological relevance of the findings is uncertain.
+  - **Resolution test** Provide a list of novel motifs with enrichment statistics, validation against independent bendability assays, and a clear description of how spatial patterns were quantified and tested.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** "DeepBend’s genome-wide prediction of bendability further showed how bendability is linked to chromatin conformation and revealed the motifs controlling bendability of topologically associated domains and their boundaries"
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract asserts a link between predicted bendability and chromatin conformation, and claims to reveal motifs controlling TAD bendability. No correlation statistics, genomic annotations, or comparison to Hi-C or other conformation data are provided.
+  - **Why it matters** This is a strong biological claim that extends beyond sequence modeling into 3D genome organization. Without quantitative association analyses, the claim is speculative.
+  - **Resolution test** Provide correlation analyses between predicted bendability and Hi-C-derived features, and show motif enrichment at TAD boundaries with appropriate statistical controls.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence of the methods description
+  - **Issue** The term "visible neural network" is used without definition or citation. It is unclear whether this is a novel concept or a known architecture.
+  - **Required correction** Define the term and cite prior work if applicable, or clarify the novelty of the architecture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmarking scope
+  - **Evidence pointer** Abstract, benchmarking statement
+  - **Issue** The abstract mentions "alternative machine learning and deep learning models" but does not name them. This makes it difficult to assess the fairness or breadth of the comparison.
+  - **Required correction** List the specific baseline models and their configurations in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract, Loop-Seq data reference
+  - **Issue** The abstract does not specify which Loop-Seq dataset was used, its accession, or how it was preprocessed.
+  - **Required correction** Provide dataset accession and preprocessing details in the methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Motif analysis
+  - **Evidence pointer** Abstract, motif discovery claim
+  - **Issue** The abstract does not clarify how motif "periodic occurrences" or "relative arrangements" were defined or quantified.
+  - **Required correction** Define the spatial pattern metrics and how they were derived from the model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking without metrics), R1-M2 (no architectural details), R1-M3 (novel motifs without validation), R1-M4 (genome-wide claims without quantitative support)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of a visible neural network for bendability is somewhat original, but the abstract does not distinguish it sufficiently from existing interpretable deep learning approaches in genomics. The novelty claim is not fully established.
+  - Scientific importance: DNA bendability is a relevant phenotype, and interpretable models are of general interest. However, the abstract does not demonstrate that the findings change current understanding of bendability determinants beyond known motifs.
+  - Interdisciplinary readership: The topic bridges computational biology and chromatin biology, which could attract a broad audience. However, the abstract is too technical for nonspecialists and lacks biological context that would make the findings accessible.
+  - Technical soundness: Not assessable from the abstract. The absence of metrics, architecture details, and validation undermines confidence.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with deep learning and genomics. The biological significance of the findings is not explained in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the absence of quantitative results, methodological detail, and biological validation means the claims cannot be evaluated. A full manuscript with rigorous benchmarking, architectural transparency, and independent validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- "DeepBend consistently performs on par with alternative machine learning and deep learning models" is unsupported due to lack of metrics and comparison details.
+- "DeepBend also revealed several novel motifs" is unsupported without motif lists, enrichment statistics, or validation.
+- "Spatial patterns of motif occurrences influence bendability" is unsupported without defined metrics or statistical tests.
+- "Bendability is linked to chromatin conformation" is unsupported without correlation analyses.
+- "Revealed the motifs controlling bendability of topologically associated domains and their boundaries" is unsupported without genomic enrichment analyses.
+- The overall claim of interpretability providing "an extra edge" is not quantifiable from the abstract.

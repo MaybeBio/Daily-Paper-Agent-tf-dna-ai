@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "41588925",
+    "doi": "10.1002/jnr.70114",
+    "title": "The Identification of Mitochondrial-Related Biomarkers of Ruptured Intracranial Aneurysms Based on Bioinformatics Analysis and Machine Learning."
+  },
+  "content": {
+    "abstract": "Intracranial aneurysms (IAs) are pathological dilatations of cerebral blood vessels, and their rupture can lead to severe mortality and disability. Therefore, identifying those at risk of rupture is of considerable clinical significance. We screened 3740 differentially expressed genes (DEGs) in ruptured IA (RIA) versus unruptured IA (UIA) from the GSE13353 dataset. Weighted gene co-expression network analysis (WGCNA) was used to identify RIA-related module genes. After the intersection of DEGs and module genes with mitochondria-related genes (MRGs), MTX1, BCL2A1, BID, UCP2, ME2, VAV1, CYBA, and CYBB were identified as mitochondria-associated signatures of RIA. MTX1 was identified as the key diagnostic biomarker using three machine learning methods. While the diagnostic potential of this eight-gene signature was supported by an independent dataset (GSE122897), experimental validation in clinical and animal models confirmed significant dysregulation of ME2, UCP2, BCL2A1, and CYBA in RIA. Notably, MTX1 showed a consistent but non-significant trend of downregulation in these experimental assays. Immune infiltration analysis revealed a pro-inflammatory and stromal-enriched microenvironment in RIA, characterized by significantly elevated abundances of fibroblasts, smooth muscle cells, and macrophages, and showing distinct correlation patterns between key mitochondrial genes and specific immune and stromal cell populations. The construction of transcription factors and endogenous RNA networks was used to identify the underlying molecular mechanisms. Finally, potential therapeutic drugs such as rosiglitazone were identified by drug prediction, and the molecular docking of ME2 with cryptotanshinone suggested a new therapeutic approach. This study may provide a new strategy for the diagnosis and treatment of RIA targeting mitochondria.",
+    "keywords": [
+      "differentially expressed genes",
+      "immune infiltration",
+      "machine learning",
+      "molecular docking",
+      "ruptured intracranial aneurysms"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Machine Learning",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Mitochondria/metabolism/genetics",
+      "*Intracranial Aneurysm/genetics/metabolism",
+      "*Aneurysm, Ruptured/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yao",
+        "Huang, Dezhang",
+        "Wu, Zeyu",
+        "Liu, Tao",
+        "Sun, Peng"
+      ],
+      "short_names": [
+        "Li Y",
+        "Huang D",
+        "Wu Z",
+        "Liu T",
+        "Sun P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7795-2822",
+        "ORCID: 0000-0002-1931-3694"
+      ],
+      "affiliations": [
+        "Department of Emergency Surgery, Qilu Hospital of Shandong University (Qingdao), Qingdao, Shandong Province, China.",
+        "Department of Emergency Surgery, Qilu Hospital of Shandong University (Qingdao), Qingdao, Shandong Province, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Qingdao University, Qingdao, Shandong Province, China.",
+        "Department of Emergency Surgery, Qilu Hospital of Shandong University (Qingdao), Qingdao, Shandong Province, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Qingdao University, Qingdao, Shandong Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yao",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-7795-2822"
+        ],
+        "affiliations": [
+          "Department of Emergency Surgery, Qilu Hospital of Shandong University (Qingdao), Qingdao, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Dezhang",
+        "short_name": "Huang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Surgery, Qilu Hospital of Shandong University (Qingdao), Qingdao, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zeyu",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Qingdao University, Qingdao, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tao",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Surgery, Qilu Hospital of Shandong University (Qingdao), Qingdao, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Peng",
+        "short_name": "Sun P",
+        "identifiers": [
+          "0000-0002-1931-3694"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Qingdao University, Qingdao, Shandong Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of neuroscience research"
+    ],
+    "journal_abbrev": [
+      "J Neurosci Res"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/27 07:07",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41588925",
+      "41787391",
+      "40851533",
+      "39206894",
+      "33567366",
+      "41703488",
+      "40313967",
+      "36248807",
+      "37597661",
+      "41479901",
+      "39920860",
+      "40374840",
+      "40966021",
+      "41052072",
+      "40247428",
+      "33313152",
+      "42158856",
+      "41316541",
+      "40406126",
+      "40374866",
+      "39559355",
+      "40313958",
+      "37752552",
+      "32589050",
+      "40274954",
+      "40340571",
+      "39265357",
+      "40244055",
+      "30366668",
+      "41810912",
+      "39069636",
+      "42123445",
+      "40421012",
+      "36330394",
+      "40532306",
+      "41487007",
+      "37041519",
+      "35711443",
+      "38518032",
+      "40328901",
+      "41044520",
+      "39823156",
+      "42292668",
+      "40503237",
+      "41013727",
+      "41305746",
+      "42302029",
+      "40885831",
+      "38685029",
+      "29729990",
+      "41291841",
+      "41214111",
+      "34997174",
+      "41665703",
+      "38650140",
+      "41824480",
+      "39139563",
+      "41665627",
+      "41132649",
+      "41789070",
+      "39762477",
+      "41731716",
+      "39142001",
+      "38987624",
+      "41824857",
+      "40087350",
+      "38979407",
+      "41334450",
+      "39762849",
+      "41677970",
+      "40751069",
+      "41107920",
+      "41432483",
+      "39026250",
+      "38291374",
+      "41013556",
+      "42233387",
+      "40362543",
+      "39869603",
+      "41229415",
+      "24938844",
+      "40332792",
+      "38863714",
+      "40685483",
+      "42210330",
+      "39512836",
+      "38538213",
+      "38767974",
+      "39730379",
+      "40830558",
+      "41909133",
+      "38384969",
+      "39707377",
+      "41678948",
+      "41436831",
+      "35034029",
+      "38154549",
+      "41262249",
+      "28930970",
+      "42064079"
+    ],
+    "review": [
+      "41588925",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/brainaneurysm.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Aneurysm"
+      },
+      {
+        "url": "https://doi.org/10.1002/jnr.70114",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1181",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

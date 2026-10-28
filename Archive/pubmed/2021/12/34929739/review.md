@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose D-SSCA, a deep convolutional attention network combining DNA sequence and shape features, for predicting transcription factor binding sites (TFBSs). They claim significant performance improvement over state-of-the-art methods on 165 ENCODE ChIP-seq datasets, demonstrate the utility of a channel attention module, analyze the contribution of five DNA shape features, and report cross-cell line prediction capability.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, or dataset descriptions are provided beyond those summarized in the abstract
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, source code repository contents, and detailed experimental protocols are not available for assessment
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to computational TFBS prediction by integrating sequence and shape features with an attention mechanism. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness, statistical rigor, or generalizability of the claims. The performance improvement claim lacks quantitative support, and the interpretability and cross-cell line claims require detailed validation that is not visible here.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, transcription factor binding prediction, and deep learning applications to DNA sequence analysis would be interested. The integration of shape features and attention mechanisms may also appeal to researchers developing interpretable models for genomic regulatory elements.
+- **Major strengths** The problem is well motivated, as TFBS prediction remains an active area where combining multiple feature types is of practical value. The use of 165 ENCODE datasets suggests a broad evaluation scale. The stated focus on interpretability and cross-cell line prediction addresses important practical needs beyond simple accuracy benchmarks.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that D-SSCA "significantly outperforms several state-of-the-art methods" is central to the paper's contribution.  
+  - **Evidence pointer** Abstract, performance comparison statement; location not provided  
+  - **Concern** No quantitative results, statistical significance measures, or comparison metrics are reported in the abstract. The term "significantly" is used without supporting data such as AUC, precision-recall, or p-values.  
+  - **Why it matters** Without quantitative evidence, the core performance claim cannot be independently assessed, and the reader cannot determine whether the improvement is meaningful or marginal.  
+  - **Resolution test** Provide specific performance metrics with confidence intervals or statistical tests comparing D-SSCA to each baseline method on the 165 datasets.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical reproducibility  
+  - **Claim pointer** The abstract states that D-SSCA combines sequence and shape features using a "Deep Convolution Attention network" with a "channel attention module."  
+  - **Evidence pointer** Abstract, model description; location not provided  
+  - **Concern** The architectural details, hyperparameters, training procedure, and feature encoding methods are not described. The source code link is provided, but the repository contents cannot be verified from the abstract alone.  
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without architectural and training details, other researchers cannot implement or validate the method.  
+  - **Resolution test** Include a full methods section with network architecture diagram, hyperparameter settings, and a working source code repository with documentation and example data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretability claim  
+  - **Claim pointer** The abstract claims the method has "limitation in interpretability and knowledge discovery" addressed by D-SSCA, and that the analysis of five shapes demonstrates their contribution.  
+  - **Evidence pointer** Abstract, interpretability and shape analysis statements; location not provided  
+  - **Concern** The abstract does not specify what interpretability analyses were performed, how shape contributions were quantified, or whether these analyses are biologically validated.  
+  - **Why it matters** Interpretability claims are often over-stated in deep learning papers. Without concrete analysis details, the claim that D-SSCA improves knowledge discovery is not substantiated.  
+  - **Resolution test** Provide specific interpretability outputs such as attention weight visualizations, shape contribution scores with statistical support, and biological validation against known motifs or experimental data.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability claim  
+  - **Claim pointer** The abstract claims "cross-cell line prediction of TFBSs, indicating the occupancy of common interplay patterns concerning both sequence and shape across various cell lines."  
+  - **Evidence pointer** Abstract, cross-cell line statement; location not provided  
+  - **Concern** No details are given on which cell lines were used for training and testing, how cross-cell line evaluation was designed, or what performance level was achieved.  
+  - **Why it matters** Cross-cell line generalization is a strong claim that requires careful experimental design to avoid data leakage or trivial transfer due to sequence similarity.  
+  - **Resolution test** Describe the cross-cell line experimental setup, report performance metrics for held-out cell lines, and compare against appropriate baselines that also use sequence and shape features.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model name and acronym  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The acronym D-SSCA is introduced but the full expansion is not consistently used. The abstract states "Deep Convolution Attention network combining Sequence and Shape, dubbed as D-SSCA," which is acceptable, but the acronym is not defined again in the abstract.  
+  - **Required correction** Ensure the acronym is defined at first use and used consistently throughout the full manuscript.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Source code availability  
+  - **Evidence pointer** Abstract, last sentence  
+  - **Issue** The source code link is provided, but the repository name is not given and the URL is incomplete in the sense that it points to a user page rather than a specific repository.  
+  - **Required correction** Provide a direct and complete URL to the specific repository, and include a version or release identifier if applicable.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Shape" features  
+  - **Evidence pointer** Abstract, throughout  
+  - **Issue** The term "shape" is used without specifying which DNA shape features are included. The abstract later mentions "five shapes," but these are not named.  
+  - **Required correction** Name the five shape features (e.g., minor groove width, roll, helix twist, etc.) in the abstract or ensure they are clearly defined in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance claim cannot be evaluated without quantitative results, and the method cannot be reproduced without architectural and training details. R1-M3 and R1-M4 are non-blocking but require substantial additional evidence to support the interpretability and generalizability claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of sequence and shape features with a channel attention mechanism is a reasonable incremental contribution, but the abstract does not demonstrate conceptual novelty beyond existing deep learning approaches for TFBS prediction.  
+  - **Scientific importance** TFBS prediction is an important problem, and improvements in accuracy or interpretability would be of value. However, the importance of the specific contribution cannot be assessed without performance data.  
+  - **Interdisciplinary readership** The topic is relevant to computational biology and genomics, but the abstract is written in a way that is accessible to specialists. The broader interdisciplinary appeal is limited unless the method offers generalizable insights for other DNA sequence analysis tasks.  
+  - **Technical soundness** Cannot be assessed from the abstract. The lack of architectural details and quantitative results prevents evaluation of the method's validity.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but terms like "channel attention module" and "shape profiles" may require domain knowledge. The writing is acceptable for a specialist audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach, but the core performance and reproducibility claims are unsupported. A revised manuscript with full methods, quantitative results, and detailed interpretability and cross-cell line analyses would be required to assess whether the case can be established.
+
+## Risk / unsupported claims
+- The claim of "significantly outperforms" is unsupported without quantitative metrics or statistical tests.
+- The claim that D-SSCA "fully utilize[s] the latent features" is not defined or evidenced.
+- The claim that the method addresses "limitation in interpretability and knowledge discovery" is not substantiated with specific analyses.
+- The cross-cell line prediction claim is not supported by any experimental details or results.
+- The contribution of "five shapes" to prediction is stated but not quantified or named.
+- The source code availability is stated, but the repository contents and functionality cannot be verified from the abstract.

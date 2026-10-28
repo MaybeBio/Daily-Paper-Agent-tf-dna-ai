@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary information references.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and alignment with Nature-style criteria. Editorial or formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors propose that transcription factors (TFs) regulate intron retention (IR) co-transcriptionally. Using deep learning models on DNase I hypersensitive sites (DHSs), they identify TF motifs enriched in IR-associated regions, validate these predictions with ChIP-seq data for zinc finger TFs, and use knockdown RNA-seq to suggest these TFs act as splicing enhancers. They further infer TF-TF interactions via attention-based analysis.
+- **Visible evidence base** Main text figures (Fig. 1, 2, 3, 4), tables (Table 1, 2), methods section, and references to supplementary files (Additional file 1, 2). No raw data or code output were provided for independent verification.
+- **Missing materials affecting confidence** Supplementary figures and tables (e.g., Fig. S1, S2, Tables S1–S5) are referenced but not included in the provided material. Detailed hyperparameter settings, model training curves, and full lists of motif hits and interactions are not available. The review history (Additional file 2) is also absent.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel computational framework linking TF binding to IR via chromatin accessibility, with promising validation using public ChIP-seq and RNA-seq data. The core hypothesis is timely and relevant, but the evidence is largely correlative, and several methodological details are insufficiently described to fully assess robustness. The claim of a "role" for TFs in IR regulation is supported by enrichment and knockdown data, but causal mechanisms remain speculative. The work is of interest to the splicing and gene regulation communities, though its impact would be strengthened by more direct functional validation and clearer presentation of model performance and limitations.
+- **Who would be interested in the results, and why** Researchers studying alternative splicing, particularly IR, and its regulation by chromatin state and TFs. Computational biologists developing deep learning models for genomic regulatory elements would also find the approach relevant. The findings may inform studies on disease-associated splicing defects, given the link between IR and tumor suppressors.
+- **Major strengths** 1) Addresses an underexplored area (TF regulation of IR) with a clear hypothesis. 2) Integrates multiple data types (DNase-seq, ChIP-seq, RNA-seq) and computational methods (deep learning, motif analysis, interaction inference). 3) Provides public code and data availability, supporting reproducibility. 4) The use of multiple architectures and a baseline (gkm-SVM) strengthens the classification claim. 5) Validation with independent ChIP-seq and knockdown data adds credibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "can distinguish with good accuracy regions of open chromatin associated with IR from other intronic regions of open chromatin" (Results, first paragraph).
+  - **Evidence pointer** Figure 3a, Methods section "Network training and evaluation"
+  - **Concern** The reported AUC-PRC of 0.546 is only marginally above the baseline (0.503) and close to random performance (0.5). The authors do not report AUC-ROC values, confidence intervals, or statistical significance of the difference from baseline. The claim of "good accuracy" is not substantiated by the presented metric.
+  - **Why it matters** If the model cannot reliably distinguish IR-associated DHSs, the subsequent motif analysis and TF predictions are built on a weak foundation, undermining the central conclusion.
+  - **Resolution test** Provide AUC-ROC and AUC-PRC with confidence intervals, and a statistical test (e.g., DeLong test) comparing the model to the baseline. Report performance on validation and test sets separately, and discuss the practical significance of the achieved accuracy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We found that 22 IR-associated motifs had significant hits against multiple known human TFs at a q-value < 0.01" (Results, second paragraph).
+  - **Evidence pointer** Figure 3c, Methods section "Motif extraction and analysis"
+  - **Concern** The motif analysis relies on a threshold of prediction probability >0.65 for positive examples, but the rationale for this cutoff is not justified beyond a trade-off statement. The number of motifs analyzed, the total number of filters, and the multiple testing correction method are not fully described. The comparison of motif hits between IR and non-IR sets is not statistically framed.
+  - **Why it matters** Without clear details on the motif extraction and significance testing, the enrichment of zinc finger TFs could be an artifact of the chosen thresholds or analysis pipeline.
+  - **Resolution test** Specify the number of filters, the distribution of prediction scores, and the exact procedure for selecting significant motifs. Provide a statistical comparison of motif enrichment between IR and non-IR sets, including a proper multiple testing correction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "All the TFs demonstrated highly significant enrichment in IR events" (Results, third paragraph, referring to Table 1).
+  - **Evidence pointer** Table 1, Methods section "TF ChIP-seq analysis"
+  - **Concern** The ChIP-seq validation shows enrichment for six TFs, but the effect sizes are small (e.g., 12.5% vs 7.16% for EGR1). The authors do not discuss whether these differences are biologically meaningful. Additionally, the analysis is limited to K562 cells, and no comparison is made to other cell types or to a negative control set of TFs.
+  - **Why it matters** Small effect sizes and lack of generalizability weaken the claim that TFs broadly regulate IR, which is a central conclusion of the paper.
+  - **Resolution test** Include a discussion of effect size and biological relevance. Validate findings in at least one additional cell line. Include a negative control analysis using TFs not predicted by the model to show specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Knockdown experiments of some of these TFs suggest they function as splicing enhancers" (Results, fourth paragraph).
+  - **Evidence pointer** Table 2, Methods section "TF knockdown RNA-seq analysis"
+  - **Concern** The knockdown analysis shows an increase in IR upon TF knockdown, but the authors do not report the magnitude of knockdown efficiency, the number of replicates, or the statistical significance of the differential IR events beyond a p-value threshold. The analysis is limited to four TFs, and the functional interpretation as "splicing enhancers" is inferred from directionality alone.
+  - **Why it matters** The claim of a functional role for TFs in IR regulation requires robust evidence that the observed changes are due to TF loss and not off-target effects or technical variability.
+  - **Resolution test** Provide knockdown efficiency data, replicate information, and effect sizes. Consider rescue experiments or additional validation to confirm the splicing enhancer role.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The background on alternative splicing and IR is brief and assumes familiarity with the field. A brief explanation of co-transcriptional splicing and its significance would improve accessibility.
+  - **Required correction** Add one or two sentences defining co-transcriptional splicing and why it is relevant to IR regulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Data collection, processing, and representation"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of DHS processing is concise but lacks details on how IR events were defined (e.g., percent spliced in index) and how overlapping DHSs were assigned to IR events.
+  - **Required correction** Provide a more detailed description of IR event extraction and the criteria for DHS overlap.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, first paragraph
+  - **Evidence pointer** Figure 3a
+  - **Issue** The comparison between the convolutional model and the attention-based model is mentioned but not shown in the main text. The reader cannot assess whether the simpler model is sufficient.
+  - **Required correction** Include a supplementary figure or table comparing the performance of all architectures, or state that the attention-based model did not improve performance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of potential mechanisms is speculative and does not cite specific evidence for how TFs might slow RNAPII or recruit splicing factors in the context of IR.
+  - **Required correction** Add references to support the proposed mechanisms, or clearly label them as hypotheses.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model accuracy), R1-M2 (motif analysis rigor), R1-M3 (ChIP-seq effect size and generalizability). These are blocking because they directly affect the validity of the central claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of deep learning to link TF motifs with IR via chromatin accessibility is novel, though it builds on prior work on splicing regulation by chromatin. The focus on zinc finger TFs is a new angle.
+  - **Scientific importance** The topic is important, as IR is prevalent and disease-associated, but the findings are preliminary and correlative. The paper does not establish a mechanistic link, limiting its immediate impact.
+  - **Interdisciplinary readership** The work bridges computational biology, genomics, and RNA biology, and would appeal to researchers in these areas. However, the technical depth may limit accessibility to a broader audience.
+  - **Technical soundness** The computational pipeline is reasonable, but the model performance is weak, and several analyses lack statistical rigor. The validation with public data is a strength, but the effect sizes are small.
+  - **Readability for nonspecialists** The manuscript is generally clear, but the methods and results require domain knowledge. The abstract and introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the current evidence does not fully establish the role of TFs in IR regulation. The authors must address the model performance, provide more rigorous statistical analyses, and strengthen the functional validation to make the case convincing.
+
+## Risk / unsupported claims
+- The claim that "the majority of transcription factors that affect intron retention come from the zinc finger family" is based on motif enrichment and ChIP-seq in K562 only; this is not generalizable without additional cell types or tissues.
+- The statement that TFs "function as splicing enhancers" is inferred from knockdown data but lacks direct evidence of mechanism.
+- The prediction of TF-TF interactions via SATORI is presented without experimental validation, and the biological relevance of these interactions is speculative.
+- The model's ability to "distinguish with good accuracy" is not supported by the reported AUC-PRC of 0.546, which is close to random.
+- The claim of "strong over-representation" for ChIP-seq peaks in IR events is based on p-values, but effect sizes are not reported, making the biological significance unclear.

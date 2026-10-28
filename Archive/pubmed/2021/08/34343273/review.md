@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present SAMPDI-3D, a gradient boosting decision tree machine learning method for predicting changes in protein–DNA binding free energy upon mutations in either the protein or the DNA. They report Pearson correlation coefficients of 0.76 and 0.80 in benchmarking tests against experimental data for protein and DNA mutations, respectively, and claim superior performance over existing state-of-the-art methods in blind benchmarks using three literature-derived datasets. The method is described as fast and suitable for genome-scale investigations, with availability as a web server and standalone code.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, benchmarking protocols, or performance metrics beyond the two Pearson correlation coefficients are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, dataset definitions, training and test set compositions, cross-validation procedures, baseline method descriptions, and statistical significance assessments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful extension of the SAMPDI framework to include DNA mutations, an area the authors correctly note has been underexplored. However, the evidence provided in the abstract is insufficient to evaluate the validity, robustness, or generalizability of the reported performance. Key methodological details and benchmarking practices are not described, and the absence of error metrics, dataset characteristics, and comparison protocols limits the ability to assess whether the claims are well supported. The work may be of interest to the computational biology community, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics focused on protein–DNA interactions, mutation effect prediction, and variant interpretation would be interested. Clinically oriented groups studying the molecular basis of genetic diseases involving transcription factor binding or DNA regulatory elements may also find the tool relevant, particularly if DNA mutation effects are accurately captured. The claim of genome-scale applicability could attract users interested in high-throughput variant screening.
+- **Major strengths** The abstract addresses a clear gap in existing tools by considering DNA mutations in addition to protein mutations. The reported Pearson correlation coefficients suggest reasonable predictive performance, and the claim of outperforming existing methods in blind benchmarks is a strong selling point if substantiated. The availability of both a web server and standalone code enhances practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves Pearson correlation coefficient of 0.76 and 0.80 in benchmarking tests against experimentally determined change of binding free energy for protein and DNA mutations, respectively.
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract reports only Pearson correlation coefficients without any accompanying error metrics, such as root mean square error, mean absolute error, or confidence intervals. No information is given on the number of mutations used in the benchmarking tests, the composition of the training and test sets, or whether the reported correlations are from cross-validation, holdout tests, or independent datasets. The absence of these details makes it impossible to judge the reliability and generalizability of the reported performance.
+  - **Why it matters** Pearson correlation alone can be misleading, as it does not reflect the magnitude of prediction errors or systematic biases. Without error metrics and dataset descriptions, the reported coefficients cannot be interpreted meaningfully, and the claim of accurate prediction is not established.
+  - **Resolution test** Provide the full benchmarking details, including dataset sizes, train/test splits, cross-validation scheme, and additional performance metrics such as root mean square error and mean absolute error. Report confidence intervals or standard deviations for the correlation coefficients.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method outperforms all existing state-of-the-art methods in blind benchmarks using three datasets collected from literature.
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract claims superior performance over all existing state-of-the-art methods but provides no details on which methods were compared, how the comparison was conducted, what metrics were used, or the statistical significance of the differences. The term "blind benchmark" is used without defining the protocol, and the three datasets are not described in terms of size, mutation types, or overlap with training data.
+  - **Why it matters** Comparative claims are only meaningful if the comparison is fair, the baseline methods are clearly identified, and the results are statistically robust. Without this information, the claim of outperforming all existing methods cannot be verified and may be overstated.
+  - **Resolution test** Describe the benchmark protocol in detail, list the compared methods and their versions, report all performance metrics for each method on each dataset, and provide statistical tests for the significance of performance differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method is very fast allowing for genome-scale investigations.
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The claim of genome-scale applicability is not supported by any runtime measurements, computational complexity analysis, or demonstration on a genome-scale dataset. No information is provided on the hardware used, the time required per prediction, or the scalability of the method with increasing sequence length or number of mutations.
+  - **Why it matters** Genome-scale investigations require methods that can process large numbers of mutations efficiently. Without quantitative evidence of runtime and scalability, the claim of genome-scale applicability is speculative and cannot be assessed.
+  - **Resolution test** Provide runtime benchmarks on datasets of increasing size, specify the computational environment, and demonstrate the method on a representative genome-scale application with reported total processing time.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The abstract does not specify the units of the predicted binding free energy change or the range of mutations covered, such as single nucleotide variants versus larger insertions or deletions.
+  - **Required correction** State the units of the predicted free energy change and clarify the types of mutations that the method can handle.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Availability section
+  - **Evidence pointer** Abstract, Availability and implementation section; location not provided
+  - **Issue** The abstract mentions a web server and standalone code but does not indicate the programming language, dependencies, or operating system requirements for the standalone version.
+  - **Required correction** Provide basic implementation details, such as the programming language and key dependencies, to facilitate user adoption.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The abstract does not state whether the benchmarking datasets are publicly available or how they can be accessed, which limits the reproducibility of the reported results.
+  - **Required correction** Indicate the availability of the benchmarking datasets or provide accession numbers or links.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking concerns. The lack of detailed benchmarking information, comparative analysis, and runtime evidence means the core claims of predictive accuracy, superiority over existing methods, and genome-scale applicability are not established from the provided material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The extension to DNA mutations is a novel contribution relative to existing tools, which the authors correctly note have focused on protein mutations. This addresses a genuine gap.  
+  - Scientific importance: Accurate prediction of protein–DNA binding free energy changes upon mutation has potential relevance for understanding disease mechanisms and variant interpretation, which is of scientific value.  
+  - Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The abstract does not clearly articulate broader implications for experimental biologists or clinical researchers, limiting its interdisciplinary appeal.  
+  - Technical soundness: Not assessable from the abstract alone. The reported correlation coefficients lack supporting metrics and methodological detail, and the comparative claims are unsubstantiated.  
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms such as "gradient boosting decision tree" and "Pearson correlation coefficient" are used without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the absence of methodological detail, performance metrics, and comparative benchmarking data means the core claims cannot be evaluated. The authors should be encouraged to provide the full manuscript and supplementary materials for a complete assessment.
+
+## Risk / unsupported claims
+- The claim of achieving Pearson correlation coefficients of 0.76 and 0.80 is unsupported without dataset sizes, error metrics, and validation protocols.
+- The claim of outperforming all existing state-of-the-art methods is unsupported without details on the compared methods, benchmark protocol, and statistical significance.
+- The claim of genome-scale applicability is unsupported without runtime measurements or scalability demonstrations.
+- The general statement that the method is "very fast" is not quantifiable from the abstract.

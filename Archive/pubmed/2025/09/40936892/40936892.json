@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "40936892",
+    "doi": "10.3389/fimmu.2025.1662004",
+    "title": "CEACAM6 as a machine learning derived immune biomarker for predicting neoadjuvant chemotherapy response in HR+/HER2- breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) breast cancer is the most common subtype, characterized by heterogeneous neoadjuvant chemotherapy (NAC) responses and low pCR rates. Existing biomarkers have limited predictive accuracy, hindering personalized treatment. This study aimed to identify predictive biomarkers for NAC response and explore their therapeutic potential in HR+/HER2- breast cancer. METHODS: We integrated 497 HR+/HER2- samples from TCGA and 956 from nine GEO datasets (training set: n=708; test set: n=248). Differentially expressed genes (DEGs) between tumors and normal tissues (TCGA) and between pCR and residual disease (RD) groups (GEO) were identified. Overlapping DEGs were further screened using LASSO, random forest, and SVM-RFE algorithms. Predictive models were constructed with 10 machine learning algorithms and interpreted using SHAP. Gene set enrichment analysis (GSEA), CIBERSORT-based immune infiltration, and drug sensitivity prediction using oncoPredict and GDSC2 were performed. Immunohistochemistry (IHC) was conducted on paired pre/post-NAC samples (n=9). Clinical correlation was analyzed in a retrospective cohort of 106 HR+/HER2- NAC patients. RESULTS: Thirty-eight overlapping DEGs were identified, and four key genes (CEACAM6, MELK, RARRES1, BIRC5) were selected. NeuralNet showed the best model performance (AUC=0.816). CEACAM6 was the top-ranked SHAP feature, with high expression predicting RD and was associated with poor survival (p=0.014). GSEA revealed CEACAM6-high tumors were enriched in drug resistance pathways (such as oxidative phosphorylation), while low expression correlated with immune activation. Immune analysis showed pCR tumors had more effector cells (Tfh, gammadelta T cells, M1 macrophages), whereas RD tumors were enriched in Tregs and resting mast cells. CEACAM6 positively correlated with Tregs and naive CD4+ T cells, and negatively with CD8+ T cells and M1 macrophages. CEACAM6-high tumors had higher IC50 for six NAC-related drugs. IHC confirmed persistent CEACAM6 expression in RD tumors post-NAC. Clinically, pCR patients had higher lymphocyte counts and more frequent N2-N3 nodal status. CONCLUSION: CEACAM6 is a promising predictive biomarker in HR+/HER2- breast cancer, associated with chemoresistance and immune suppression. Machine learning models integrating immune signatures and pathway features may optimize personalized NAC strategies.",
+    "keywords": [
+      "CEACAM6",
+      "HR+/HER2-breast cancer",
+      "immune infiltration",
+      "machine learning",
+      "neoadjuvant chemotherapy (NAC)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/drug therapy/immunology/genetics/metabolism",
+      "Female",
+      "*Machine Learning",
+      "*Biomarkers, Tumor/genetics/immunology",
+      "Neoadjuvant Therapy",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "GPI-Linked Proteins/genetics/metabolism",
+      "Receptors, Estrogen/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "*Antigens, CD/genetics/metabolism",
+      "Prognosis",
+      "Receptors, Progesterone/metabolism",
+      "Gene Expression Profiling",
+      "Treatment Outcome",
+      "Cell Adhesion Molecules"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Dalang",
+        "Lin, Jie",
+        "Wang, Jin",
+        "Nong, Qingxiao",
+        "Tao, Shouwen",
+        "Lu, Bimin",
+        "Yu, Yanrong",
+        "Peng, Hao",
+        "Tian, Yingying",
+        "Su, Qunying",
+        "Ma, Yanfei",
+        "Huang, Yuanlu"
+      ],
+      "short_names": [
+        "Fang D",
+        "Lin J",
+        "Wang J",
+        "Nong Q",
+        "Tao S",
+        "Lu B",
+        "Yu Y",
+        "Peng H",
+        "Tian Y",
+        "Su Q",
+        "Ma Y",
+        "Huang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Pathology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Pathology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Pathology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China.",
+        "Department of Gland Surgery, Baise People's Hospital, Baise, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Dalang",
+        "short_name": "Fang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jie",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Nong, Qingxiao",
+        "short_name": "Nong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Shouwen",
+        "short_name": "Tao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Bimin",
+        "short_name": "Lu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yanrong",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Hao",
+        "short_name": "Peng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Yingying",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Su, Qunying",
+        "short_name": "Su Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yanfei",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Affiliated Hospital of Youjiang Medical University for Nationalities, Key Laboratory of Tumor Molecular Pathology of Baise, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuanlu",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gland Surgery, Baise People's Hospital, Baise, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/12 12:09",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42582767",
+      "42152095",
+      "41793564",
+      "41373749"
+    ],
+    "refs": [
+      "40574844",
+      "40281554",
+      "40208504",
+      "39674878",
+      "39660488",
+      "39341128",
+      "39315102",
+      "39242276",
+      "38872062",
+      "38796667",
+      "38660305",
+      "38476641",
+      "38467634",
+      "38240103",
+      "38230766",
+      "38141462",
+      "37836576",
+      "37452026",
+      "37417951",
+      "37229486",
+      "36945713",
+      "36769287",
+      "36694209",
+      "36596352",
+      "36381332",
+      "36341435",
+      "36257173",
+      "36099919",
+      "35800743",
+      "35523804",
+      "35485606",
+      "35304677",
+      "35141051",
+      "35082925",
+      "35044810",
+      "34975339",
+      "34875674",
+      "33538338",
+      "32648688",
+      "32601304",
+      "31494037",
+      "30566372",
+      "30477520",
+      "30321288",
+      "29860917",
+      "29233559",
+      "27367583",
+      "25908171",
+      "25822800",
+      "25605792",
+      "22455463",
+      "20808728",
+      "18223215"
+    ],
+    "similar": [
+      "40936892",
+      "40963050",
+      "30058236",
+      "40597935",
+      "33667252",
+      "21562709",
+      "29138067",
+      "33198673",
+      "41239478",
+      "40332226",
+      "39948624",
+      "39955556",
+      "39954110",
+      "39117925",
+      "39706338",
+      "29981025",
+      "32423453",
+      "38368871",
+      "36175898",
+      "31061067",
+      "24186057",
+      "19758440",
+      "23679233",
+      "38943737",
+      "31829264",
+      "39317942",
+      "40830558",
+      "38827304",
+      "41084879",
+      "23318089",
+      "28916978",
+      "28005906",
+      "25400769",
+      "26511263",
+      "30666563",
+      "40288025",
+      "33112958",
+      "28521821",
+      "30679318",
+      "39477071",
+      "28685357",
+      "27704268",
+      "40216945",
+      "38815444",
+      "40810832",
+      "32229175",
+      "39754712",
+      "22621334",
+      "37344170",
+      "40016785",
+      "40614190",
+      "31471838",
+      "24742606",
+      "29956095",
+      "31574500",
+      "19685074",
+      "40877552",
+      "40579360",
+      "23103368",
+      "32002765",
+      "25099655",
+      "26704052",
+      "28041972",
+      "21472434",
+      "40956534",
+      "27495815",
+      "40705266",
+      "30633152",
+      "40604083",
+      "36547175",
+      "27770345",
+      "39250898",
+      "40730725",
+      "22444717",
+      "41261821",
+      "38615482",
+      "27737921",
+      "35676188",
+      "27090210",
+      "38366907",
+      "30778520",
+      "29564743",
+      "37900131",
+      "25383894",
+      "29954674",
+      "31806448",
+      "26384297",
+      "33039708",
+      "23436342",
+      "38858721",
+      "29786125",
+      "40917012",
+      "39561272",
+      "26631838",
+      "38335419",
+      "34989844",
+      "26130454",
+      "29181679",
+      "40496857",
+      "40849380"
+    ],
+    "review": [
+      "40936892",
+      "31471838",
+      "37900131"
+    ],
+    "pmc": [
+      "12420257"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40936892/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1662004",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

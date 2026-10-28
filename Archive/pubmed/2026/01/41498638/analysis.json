@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41498638",
+  "title": "CellPolaris: Transfer Learning for Gene Regulatory Network Construction to Guide Cell State Transitions.",
+  "authors": "Feng, Guihai; Qin, Xin; Zhang, Jiahao; Huang, Wuliang; Zhang, Yiyang; Cui, Wentao; Chen, Yao; Li, Shirui; Liu, Wenhao; Tian, Yao; Liu, Yana; Dong, Jingxi; Xu, Ping; Man, Zhenpeng; Liu, Guole; Liang, Zhongming; Jiang, Xinlong; Yang, Xiaodong; Wang, Pengfei; Yang, Ge; Wang, Hongmei; Wang, Xuezhi; Tong, Ming-Han; Zhou, Yuanchun; Zhang, Shihua; Chen, Yiqiang; Wang, Yong; Li, Xin",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-01-07",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用迁移学习构建转录因子为中心的基因调控网络并模拟扰动，虽涉及TF调控但缺乏DNA结合位点与三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Cell fate decisions are orchestrated by intricate gene regulatory networks (GRNs), which govern gene expression with precise spatiotemporal control. However, accurately capturing context-specific nature of gene regulation remains challenging, particularly when integrating multi-omics data at bulk and single-cell level across diverse cellular contexts. Here, we present CellPolaris, a unified computational framework designed to decode the roles of transcription factors (TFs) in developmental processes. CellPolaris performs TF-centered GRN construction, master TF identification, and TF perturbation simulation. By leveraging transfer learning, the framework generates tissue-specific or cell-type-specific GRNs using pre-constructed high-confidence GRNs of diverse contexts and requires only transcriptomic data as input. Using these learned GRNs, CellPolaris identifies underlying master TFs critical for cell fate transitions and simulates the effects of TF perturbations on developmental processes. Benchmarking tests demonstrate the robust performance of CellPolaris in GRN construction. The efficacy of CellPolaris is supported by the significant overlap between predicted top-ranked master regulators and known TF combinations experimentally validated in cell fate conversion experiments. Furthermore, CellPolaris accurately simulates the developmental consequences of Rfx2 knockout during round spermatid differentiation. In summary, we present CellPolaris, a comprehensive framework that enables GRN construction through transfer learning, identification of key TFs driving cell fate transitions, and simulation of TF perturbations. This tool allows us to further elucidate the regulatory mechanisms underlying developmental processes and cell state transitions.",
+  "abstract_zh": "细胞命运决定由复杂的基因调控网络（gene regulatory networks, GRNs）协调，这些网络以精确的时空控制方式调控基因表达。然而，准确捕捉基因调控的上下文特异性仍然具有挑战性，尤其是在整合不同细胞背景下批量及单细胞水平的多组学数据时。在此，我们提出CellPolaris，一个统一的计算框架，旨在解码转录因子（transcription factors, TFs）在发育过程中的作用。CellPolaris执行以TF为中心的GRN构建、主调控TF识别以及TF扰动模拟。通过利用迁移学习，该框架使用预构建的多种背景高置信度GRN生成组织特异性或细胞类型特异性的GRN，且仅需转录组数据作为输入。利用这些学习到的GRN，CellPolaris识别对细胞命运转变至关重要的潜在主调控TF，并模拟TF扰动对发育过程的影响。基准测试表明CellPolaris在GRN构建中具有稳健性能。CellPolaris的有效性得到支持，其预测的高排名主调控因子与在细胞命运转换实验中经实验验证的已知TF组合之间存在显著重叠。此外，CellPolaris准确模拟了Rfx2敲除在圆形精子细胞分化过程中的发育后果。总之，我们提出CellPolaris，一个综合框架，通过迁移学习实现GRN构建、识别驱动细胞命运转变的关键TF，并模拟TF扰动。该工具使我们能够进一步阐明发育过程和细胞状态转变背后的调控机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41498638/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41498638/",
+  "paper_page_path": "papers/pubmed/41498638/index.html"
+}

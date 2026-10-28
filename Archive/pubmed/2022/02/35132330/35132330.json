@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "35132330",
+    "doi": "10.1155/2022/3993509",
+    "title": "Identifying Obstructive Sleep Apnea Syndrome-Associated Genes and Pathways through Weighted Gene Coexpression Network Analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Obstructive sleep apnea syndrome (OSAS) is the most common type of sleep apnea disorder. The disease seriously affects the patient's respiratory system. At present, the prognosis of the disease is poor and there is a lack of effective treatments. Therefore, it is urgent to explore its pathogenesis and treatment methods. METHOD: We downloaded a set of expression profile data from GSE75097 related to OSAS based on the Gene Expression Omnibus (GEO) database and selected the representative differentially expressed genes (DEGs) from the sample of the GSE75097 dataset. WGCNA was used to find genes related to OSAS and obtain coexpression modules. The Gene Ontology (GO) function and the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway were used to analyze genes from key modules. Finally, Cytoscape software was used to construct a protein-protein interaction (PPI) network and analyze the hub genes. RESULT: We obtained a total of 7565 DEGs. Through WGCNA, we got four coexpression modules and the modules most related to OSAS were green-yellow, magenta, purple, and turquoise, and we screened out eight hub genes (DDX46, RNF115, COPA, FBXO4, PA2G4, NHP2L1, CDC20, and PCNA). GO and KEGG analyses indicated that the key modules were mainly enriched in tRNA modification, nucleobase metabolic process, DNA ligation, regulation of cellular component movement, basal transcription factors, Huntington disease, and vitamin digestion and absorption. CONCLUSION: These pathways and hub genes can facilitate understanding the molecular mechanism of OSAS and provide a meaningful reference for finding biological targets of OSAS treatment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Computational Biology/methods",
+      "Databases, Genetic",
+      "Gene Expression Profiling/methods",
+      "Gene Ontology",
+      "*Gene Regulatory Networks",
+      "Genetic Markers",
+      "Humans",
+      "Protein Interaction Maps/genetics",
+      "Sleep Apnea, Obstructive/*genetics",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yan",
+        "Li, Li",
+        "Zhao, Hua",
+        "Gao, Xiwen",
+        "Li, Shanqun"
+      ],
+      "short_names": [
+        "Li Y",
+        "Li L",
+        "Zhao H",
+        "Gao X",
+        "Li S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1437-4866",
+        "ORCID: 0000-0002-0094-6168"
+      ],
+      "affiliations": [
+        "Department of Respiratory, Minhang Hospital, Fudan University, 170 Xinsong Road, Minhang District, Shanghai, China 201199.",
+        "Department of Pulmonary Medicine, Minhang Branch, Zhongshan Hospital, Fudan University, 180 Fenglin Rd, Shanghai, China 200032.",
+        "Department of Respiratory, Minhang Hospital, Fudan University, 170 Xinsong Road, Minhang District, Shanghai, China 201199.",
+        "Department of Respiratory, Minhang Hospital, Fudan University, 170 Xinsong Road, Minhang District, Shanghai, China 201199.",
+        "Department of Pulmonary Medicine, Minhang Branch, Zhongshan Hospital, Fudan University, 180 Fenglin Rd, Shanghai, China 200032."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory, Minhang Hospital, Fudan University, 170 Xinsong Road, Minhang District, Shanghai, China 201199."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary Medicine, Minhang Branch, Zhongshan Hospital, Fudan University, 180 Fenglin Rd, Shanghai, China 200032."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hua",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory, Minhang Hospital, Fudan University, 170 Xinsong Road, Minhang District, Shanghai, China 201199."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiwen",
+        "short_name": "Gao X",
+        "identifiers": [
+          "0000-0003-1437-4866"
+        ],
+        "affiliations": [
+          "Department of Respiratory, Minhang Hospital, Fudan University, 170 Xinsong Road, Minhang District, Shanghai, China 201199."
+        ]
+      },
+      {
+        "full_name": "Li, Shanqun",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0002-0094-6168"
+        ],
+        "affiliations": [
+          "Department of Pulmonary Medicine, Minhang Branch, Zhongshan Hospital, Fudan University, 180 Fenglin Rd, Shanghai, China 200032."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and mathematical methods in medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Math Methods Med"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/09 06:00",
+    "fetched_at": "2026-09-28 05:06:57"
+  },
+  "links": {
+    "cites": [
+      "40439392",
+      "36468038"
+    ],
+    "refs": [
+      "34680580",
+      "34326892",
+      "33143650",
+      "32938217",
+      "32643448",
+      "32553631",
+      "32445090",
+      "31940071",
+      "31696455",
+      "31487798",
+      "31297185",
+      "31115544",
+      "31113821",
+      "30613379",
+      "30391853",
+      "30065219",
+      "29417853",
+      "28889796",
+      "28659501",
+      "28552790",
+      "26948884",
+      "26775793",
+      "26201496",
+      "25747430",
+      "24892904",
+      "22399416",
+      "22193297",
+      "22081340",
+      "19650716",
+      "16646834",
+      "13148316",
+      "10319778"
+    ],
+    "similar": [
+      "35132330",
+      "28432618",
+      "38858671",
+      "31987036",
+      "33640831",
+      "32853947",
+      "32627011",
+      "31339875",
+      "33102593",
+      "34868339",
+      "34239024",
+      "38749785",
+      "35558576",
+      "30825595",
+      "32598242",
+      "30719767",
+      "28731166",
+      "34840971",
+      "34435051",
+      "29845250",
+      "35128826",
+      "32626989",
+      "38007161",
+      "30132538",
+      "34182903",
+      "34852788",
+      "38736878",
+      "33758323",
+      "31772617",
+      "34916831",
+      "32546690",
+      "31424263",
+      "32468072",
+      "29240723",
+      "31794546",
+      "34358255",
+      "34553293",
+      "32214815",
+      "28623929",
+      "31875420",
+      "32616722",
+      "32598174",
+      "30502083",
+      "39187104",
+      "33149760",
+      "32127012",
+      "30664180",
+      "34257537",
+      "34856750",
+      "30525236",
+      "31562292",
+      "33407587",
+      "28952134",
+      "35990248",
+      "30916045",
+      "35749386",
+      "32578582",
+      "31114135",
+      "32219041",
+      "30045016",
+      "35860189",
+      "31886571",
+      "33032291",
+      "38993198",
+      "34931168",
+      "32811479",
+      "30213925",
+      "31181055",
+      "32008037",
+      "33892654",
+      "39252231",
+      "26636516",
+      "29305979",
+      "33174045",
+      "31173250",
+      "32059076",
+      "39197622",
+      "34215202",
+      "38961143",
+      "31899762",
+      "31115544",
+      "34326892",
+      "32147961",
+      "24969630",
+      "39003404",
+      "33530245",
+      "34284443",
+      "33582701",
+      "32602534",
+      "32435051",
+      "30506958",
+      "36305413",
+      "35172670",
+      "32455133",
+      "34949204",
+      "34174849",
+      "33144895",
+      "33099311",
+      "32567431",
+      "34124269",
+      "34271942",
+      "31460784",
+      "31076281",
+      "33501609",
+      "36013591",
+      "32959187",
+      "34020624",
+      "35958279",
+      "37213066",
+      "36076300",
+      "35475279",
+      "35356930",
+      "38965970",
+      "38316731",
+      "35659152",
+      "34986855",
+      "37153570",
+      "36937508",
+      "38678595",
+      "34522169",
+      "37238642",
+      "34775094",
+      "34733317",
+      "36147639",
+      "35091780",
+      "36092962",
+      "34899963",
+      "37400220",
+      "35571562",
+      "35711567",
+      "33504890",
+      "34815668",
+      "35557984",
+      "34225819",
+      "35367598",
+      "37621558",
+      "33574831",
+      "35813617",
+      "28834917",
+      "35637434",
+      "37291580",
+      "36193198",
+      "35333927",
+      "36505315",
+      "35550122",
+      "35669499",
+      "33052139",
+      "35754546",
+      "34368360",
+      "36229207",
+      "38433435",
+      "32756109",
+      "38185016",
+      "35705063",
+      "36509426",
+      "37000492",
+      "36690080",
+      "35893690",
+      "35874515",
+      "34245661",
+      "35757636",
+      "21121029",
+      "39220737",
+      "37116607",
+      "37665067",
+      "38166912",
+      "37017816",
+      "35799661",
+      "37054694",
+      "37213148",
+      "35178459",
+      "37699925",
+      "36054897",
+      "37656243",
+      "37101686",
+      "36187340",
+      "36394070",
+      "38443855",
+      "38266128",
+      "35949842",
+      "39073152",
+      "34697589",
+      "36482897",
+      "37560208",
+      "35979045",
+      "36212719",
+      "35538407",
+      "36439361",
+      "36421809",
+      "36125368",
+      "35489534",
+      "37258774",
+      "37164163",
+      "36276281",
+      "38697003",
+      "31089336",
+      "32051402"
+    ],
+    "review": [
+      "35132330",
+      "33504890"
+    ],
+    "pmc": [
+      "8817882"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35132330/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35132330",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/3993509",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-558",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38323915",
+  "title": "Addressing Suboptimal Poses in Nonequilibrium Alchemical Calculations.",
+  "authors": "Karrenbrock, Maurice; Rizzi, Valerio; Procacci, Piero; Gervasio, Francesco Luigi",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-02-07",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用非平衡自由能计算结合哈密顿副本交换，从次优对接姿态可靠估算配体-蛋白绝对结合自由能，虽非TF-DNA体系，但方法可迁移至蛋白-DNA结合自由能建模。",
+  "abstract": "Alchemical transformations can be used to quantitatively estimate absolute binding free energies at a reasonable computational cost. However, most of the approaches currently in use require knowledge of the correct (crystallographic) pose. In this paper, we present a combined Hamiltonian replica exchange nonequilibrium alchemical method that allows us to reliably calculate absolute binding free energies, even when starting from suboptimal initial binding poses. Performing a preliminary Hamiltonian replica exchange enhances the sampling of slow degrees of freedom of the ligand and the target, allowing the system to populate the correct binding pose when starting from an approximate docking pose. We apply the method on 6 ligands of the first bromodomain of the BRD4 bromodomain-containing protein. For each ligand, we start nonequilibrium alchemical transformations from both the crystallographic pose and the top-scoring docked pose that are often significantly different. We show that the method produces statistically equivalent binding free energies, making it a useful tool for computational drug discovery pipelines.",
+  "abstract_zh": "炼金术变换可用于在合理的计算成本下定量估算绝对结合自由能。然而，目前使用的大多数方法需要已知正确的（晶体学）结合姿态。在本文中，我们提出了一种结合哈密顿副本交换的非平衡炼金术方法，即使从次优的初始结合姿态出发，也能可靠地计算绝对结合自由能。进行初步的哈密顿副本交换可增强配体和靶标慢自由度的采样，使系统在从近似对接姿态开始时能够填充正确的结合姿态。我们将该方法应用于BRD4含溴结构域蛋白的第一个溴结构域的6个配体。对于每个配体，我们从晶体学姿态和最高评分的对接姿态（通常显著不同）出发进行非平衡炼金术变换。我们表明，该方法产生统计上等效的结合自由能，使其成为计算药物发现流程中的有用工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38323915/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38323915/",
+  "paper_page_path": "papers/pubmed/38323915/index.html"
+}

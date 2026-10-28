@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41237543",
+  "title": "Deep learning and molecular dynamics reveal promising EZH2 inhibitors for epigenetic cancer targeting.",
+  "authors": "Omoboyowa, Damilola A; Aribigbola, Temitope C; Aiyeku, Babasola; Bodun, Damilola S; Oyeneyin, Oluwatoba E",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2025-11-15",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度生成模型与分子动力学筛选EZH2抑制剂，属于蛋白-小分子药物设计，无蛋白质-DNA互作体系，与本课题仅方法学部分可借鉴。",
+  "abstract": "Fine-tuned REINVENT generative model integrated with structure- and ligand-based computational approaches was applied to identify novel EZH2 inhibitors. The generated molecules closely reproduced the structural and physicochemical property distributions of ChEMBL compounds, confirming their relevance to drug-like chemical space. Classification performance was robust (ROC-AUC >/= 0.87 across training, test, and validation sets), enabling the prioritization of 511 PAINS-filtered compounds for structure-based screening. Molecular docking identified four lead compounds (161, 225, 234, and 383) with binding affinities (-5.616 to -6.403 kcal/mol) stronger than the reference inhibitor Tazemetostat (-4.481 kcal/mol). Hydrogen bonding analyses and MM/GBSA free energy estimates further supported the stability of these complexes. QSAR modeling (R(2) = 0.7233, Q(2) = 0.6901) and DFT-derived descriptors provided mechanistic insights into electronic structures, donor-acceptor characteristics, and chemical reactivity. Pharmacokinetic predictions indicated that compounds 234 and 225 possessed superior oral absorption, permeability, and reduced cardiotoxic liability compared with Tazemetostat, while all hits satisfied Lipinski's rule of five. Molecular dynamics simulations confirmed that ligand binding stabilized the protein structure, with compound 383 achieving the lowest RMSD (3.58 A) and RMSF (1.68 A), outperforming the reference drug. Overall, compounds 234, 225, and 383 emerged as the most promising scaffolds: compound 234 for oral bioavailability, compound 225 for high absorption and safety, and compound 383 for conformational stability. These findings highlight the power of combining deep generative modeling with computational drug design to accelerate EZH2 inhibitor discovery.",
+  "abstract_zh": "将微调后的REINVENT生成模型与基于结构和配体的计算方法相结合，用于识别新型EZH2抑制剂。生成的分子紧密重现了ChEMBL化合物的结构和理化性质分布，确认了其与药物样化学空间的相关性。分类性能稳健（训练集、测试集和验证集的ROC-AUC ≥ 0.87），使得能够优先筛选出511个经PAINS过滤的化合物用于基于结构的筛选。分子对接识别出四个先导化合物（161、225、234和383），其结合亲和力（-5.616至-6.403 kcal/mol）强于参考抑制剂Tazemetostat（-4.481 kcal/mol）。氢键分析和MM/GBSA自由能估算进一步支持了这些复合物的稳定性。QSAR建模（R² = 0.7233，Q² = 0.6901）和DFT衍生描述符提供了关于电子结构、供体-受体特性和化学反应性的机制性见解。药代动力学预测表明，化合物234和225相比Tazemetostat具有更优的口服吸收、渗透性和降低的心脏毒性风险，而所有命中化合物均满足Lipinski五规则。分子动力学模拟确认配体结合稳定了蛋白质结构，其中化合物383实现了最低的RMSD（3.58 Å）和RMSF（1.68 Å），优于参考药物。总体而言，化合物234、225和383成为最有前景的骨架：化合物234用于口服生物利用度，化合物225用于高吸收和安全性，化合物383用于构象稳定性。这些发现突显了将深度生成建模与计算药物设计相结合以加速EZH2抑制剂发现的强大力量。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41237543/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41237543/",
+  "paper_page_path": "papers/pubmed/41237543/index.html"
+}

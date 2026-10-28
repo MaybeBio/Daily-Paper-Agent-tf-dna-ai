@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "42270806",
+    "doi": "10.1038/s41598-026-56434-4",
+    "title": "Integrative single-cell and spatial transcriptomics with machine learning identify a Luminal-inflam malignant program and reveal an RPN1-PERK UPR vulnerability in triple-negative breast cancer."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer is marked by extensive cellular heterogeneity and limited availability of actionable targeted treatments, which contributes to an unfavorable prognosis. In this work, single-cell and spatial transcriptomic profiling was integrated with network-based analyses and machine-learning approaches to characterize malignant epithelial programs in TNBC and to pinpoint prognostic biomarkers.Single-cell RNA sequencing identified a malignant epithelial subpopulation, Luminal_inflam, characterized by elevated inferred copy number variation, a terminal pseudotime state, and enrichment of cell cycle-associated transcriptional programs. Cell-cell communication analysis indicated microenvironmental remodeling in TNBC and prioritized a fibroblast-associated S100A4-EGFR axis that may regulate Luminal_inflam-associated gene expression. Gene regulatory network analysis further revealed increased activities of transcription factors including MYBL2, TFDP1, CEBPD, and MBD2. A 12-gene risk signature constructed from Luminal_inflam-associated modules and survival cohorts effectively stratified overall survival and captured differences in immune features and potential drug sensitivities. In our MDA-MB-231 model, RPN1 knockdown was associated with reduced cell viability, which could be partially rescued by 4-PBA. We further found that RPN1 depletion was accompanied by increased intracellular ROS and Ca(2+) levels, altered cell-cycle distribution, and elevated apoptosis, and that these changes were also partially reversible upon 4-PBA treatment. These data support the view that loss of RPN1 perturbs ER homeostasis and is linked to stress-associated cell fate changes in TNBC cells. At the same time, these findings should be interpreted in the context of prior work showing that RPN1 depletion can induce ER-stress-dependent apoptosis in breast cancer models. Thus, rather than establishing an entirely new mechanism, our study extends previous observations by connecting this stress-related phenotype to a specific malignant epithelial program and a clinically derived risk framework.Collectively, this study delineates a key malignant epithelial state in TNBC and suggests that RPN1-associated proteostasis vulnerability may represent a potential therapeutic opportunity.",
+    "keywords": [
+      "Endoplasmic reticulum stress",
+      "Luminal_inflam",
+      "RPN1",
+      "Single-cell RNA sequencing",
+      "Triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "*Triple Negative Breast Neoplasms/genetics/pathology/metabolism",
+      "Humans",
+      "Female",
+      "Spatial Transcriptomics",
+      "*Machine Learning",
+      "Gene Expression Regulation, Neoplastic",
+      "Single-Cell Gene Expression Analysis",
+      "*Proteasome Endopeptidase Complex/metabolism/genetics",
+      "*Unfolded Protein Response/genetics",
+      "Single-Cell Analysis",
+      "Cell Line, Tumor",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Jinpeng",
+        "Fan, Jingjing",
+        "Sha, Tong",
+        "Li, Hongtao"
+      ],
+      "short_names": [
+        "Wu J",
+        "Fan J",
+        "Sha T",
+        "Li H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast and Thyroid Surgery, Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China.",
+        "Department of Breast and Thyroid Surgery, Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China.",
+        "Department of Breast and Thyroid Surgery, Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China.",
+        "Department of Breast and Thyroid Surgery, Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China. lht4656@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Jinpeng",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Jingjing",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Sha, Tong",
+        "short_name": "Sha T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongtao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China. lht4656@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/11 05:41",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41203997",
+      "41145665",
+      "40857034",
+      "40300683",
+      "39749324",
+      "39705151",
+      "39633094",
+      "39289562",
+      "38556549",
+      "37709773",
+      "37426759",
+      "37280296",
+      "37024021",
+      "36864178",
+      "36283023",
+      "35987766",
+      "35625405",
+      "35076871",
+      "35073169",
+      "35053115",
+      "35027729",
+      "34778038",
+      "34754128",
+      "34678411",
+      "33950524",
+      "32561888",
+      "32457508",
+      "32405060",
+      "31819264",
+      "31178118",
+      "30679171",
+      "30345906",
+      "29713086",
+      "28991892",
+      "28825705",
+      "28640249",
+      "27694802",
+      "27184417",
+      "26289314",
+      "25887482",
+      "25867923",
+      "25822800",
+      "25145482",
+      "24702237",
+      "23000897",
+      "21067385",
+      "19740107",
+      "18607003",
+      "17671126",
+      "17264154",
+      "11752295",
+      "10963602",
+      "9044528"
+    ],
+    "similar": [
+      "42270806",
+      "42023218",
+      "42035196",
+      "40438115",
+      "42212139",
+      "42136962",
+      "42495647",
+      "41655499",
+      "41164195",
+      "41566505",
+      "42511503",
+      "41399382",
+      "42140356",
+      "41710887",
+      "39206896",
+      "41595458",
+      "41436831",
+      "41246350",
+      "40496864",
+      "24670641",
+      "42500577",
+      "41058682",
+      "42614523",
+      "42625209",
+      "40541706",
+      "41751794",
+      "40145099",
+      "40994257",
+      "42642681",
+      "41580768",
+      "42032729",
+      "41208987",
+      "40635123",
+      "39271768",
+      "42159784",
+      "42582384",
+      "40604083",
+      "42111497",
+      "41716413",
+      "41715136",
+      "41188946",
+      "41601694",
+      "42223885",
+      "41425594",
+      "41511527",
+      "41299328",
+      "41488652",
+      "41567189",
+      "41759266",
+      "39116958",
+      "42045912",
+      "42211756",
+      "42475469",
+      "41235227",
+      "42192326",
+      "42142700",
+      "40557143",
+      "38704606",
+      "41987092",
+      "41294154",
+      "41635010",
+      "42486346",
+      "41209020",
+      "41325182",
+      "41656832",
+      "42212140",
+      "42195019",
+      "41727639",
+      "39736453",
+      "40616092",
+      "42304476",
+      "41193432",
+      "41098738",
+      "41743703",
+      "42265520",
+      "34053447",
+      "40642093",
+      "39865508",
+      "41482351",
+      "41319208",
+      "41696905",
+      "40211710",
+      "42589661",
+      "41293150",
+      "37767092",
+      "30791886",
+      "42611083",
+      "42613601",
+      "39206892",
+      "42018572",
+      "41290930",
+      "41518478",
+      "39000156",
+      "40217291",
+      "42040898",
+      "42220063",
+      "40241579",
+      "41761191",
+      "37190091",
+      "41666644"
+    ],
+    "review": [
+      "42270806",
+      "41319208"
+    ],
+    "pmc": [
+      "13503918"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-56434-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42270806/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3551",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

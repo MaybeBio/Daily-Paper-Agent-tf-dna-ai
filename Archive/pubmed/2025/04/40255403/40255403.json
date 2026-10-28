@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40255403",
+    "doi": "10.3389/fimmu.2025.1449355",
+    "title": "Identification and validation of HOXC6 as a diagnostic biomarker for Ewing sarcoma: insights from machine learning algorithms and in vitro experiments."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Early diagnosis of Ewing sarcoma (ES) is critical for improving patient prognosis. However, the accurate diagnosis of ES remains challenging, underscoring the need for novel diagnostic biomarkers to enhance diagnostic precision and reliability. This study aimed to identify potential gene expression-based biomarkers for the diagnosis of ES. METHODS: We selected the GSE17679, GSE45544, and GSE68776 datasets from the Gene Expression Omnibus (GEO) database. After correcting for batch effects, we combined ES and normal tissue samples from the GSE17679 and GSE45544 datasets to create a combined cohort. Two-thirds of both the tumor and normal samples from the combined cohort were randomly selected for the training cohort, while the remaining one-third served as the internal validation cohort. Additionally, the GSE68776 dataset was used for external validation. To identify key diagnostic genes, we applied three machine learning algorithms: least absolute shrinkage and selection operator (LASSO), support vector machine recursive feature elimination (SVM-RFE), and random forest (RF). RESULTS: HOXC6 was identified as a key diagnostic biomarker for ES. It demonstrated strong diagnostic performance across all cohorts, with area under the curve (AUC) values of 0.956 (95% CI: 0.909-0.990) in the training cohort, 0.995 (95% CI: 0.977-1.000) in the internal validation cohort, and 0.966 (95% CI: 0.910-0.999) in the external validation cohort. Functional validation through HOXC6 knockdown in the RD-ES cell line revealed that its suppression significantly inhibited cell proliferation and migration. Furthermore, transcriptome sequencing suggested potential oncogenic mechanisms underlying HOXC6 function. DISCUSSION: These findings highlight HOXC6 as a promising diagnostic biomarker for ES, demonstrating robust performance across multiple datasets. Additionally, its functional role suggests potential as a therapeutic target.",
+    "keywords": [
+      "Ewing sarcoma",
+      "HOXC6",
+      "bioinformatics",
+      "diagnostic biomarker",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sarcoma, Ewing/diagnosis/genetics/metabolism",
+      "*Homeodomain Proteins/genetics/metabolism",
+      "*Machine Learning",
+      "*Biomarkers, Tumor/genetics",
+      "Cell Line, Tumor",
+      "*Bone Neoplasms/genetics/diagnosis",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Cell Proliferation",
+      "Reproducibility of Results",
+      "Cell Movement"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pang, Yonghua",
+        "Liang, Jiahui",
+        "Deng, Yakai",
+        "Chen, Weinan",
+        "Shen, Yunyan",
+        "Li, Jing",
+        "Wang, Xin",
+        "Ren, Zhiyao"
+      ],
+      "short_names": [
+        "Pang Y",
+        "Liang J",
+        "Deng Y",
+        "Chen W",
+        "Shen Y",
+        "Li J",
+        "Wang X",
+        "Ren Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, The 904th Hospital of the Joint Logistics Support Force, People's Liberation Army of China, Wuxi, Jiangsu, China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Department of Orthopedics, The 904th Hospital of the Joint Logistics Support Force, People's Liberation Army of China, Wuxi, Jiangsu, China.",
+        "Department of Orthopedics, The 904th Hospital of the Joint Logistics Support Force, People's Liberation Army of China, Wuxi, Jiangsu, China.",
+        "Department of Orthopedics, The 904th Hospital of the Joint Logistics Support Force, People's Liberation Army of China, Wuxi, Jiangsu, China.",
+        "Department of Orthopedics, Linyi People's Hospital, Linyi, Shandong, China.",
+        "Faculty of Medicine and Health Sciences, Ghent University, Ghent, Belgium.",
+        "Faculty of Medicine and Health Sciences, Ghent University, Ghent, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pang, Yonghua",
+        "short_name": "Pang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The 904th Hospital of the Joint Logistics Support Force, People's Liberation Army of China, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Jiahui",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Department of General Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yakai",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The 904th Hospital of the Joint Logistics Support Force, People's Liberation Army of China, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Weinan",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The 904th Hospital of the Joint Logistics Support Force, People's Liberation Army of China, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yunyan",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The 904th Hospital of the Joint Logistics Support Force, People's Liberation Army of China, Wuxi, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Linyi People's Hospital, Linyi, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Health Sciences, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ren, Zhiyao",
+        "short_name": "Ren Z",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Health Sciences, Ghent University, Ghent, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/21 06:25",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "42321827"
+    ],
+    "refs": [
+      "39518034",
+      "39432469",
+      "39281384",
+      "39215852",
+      "39019365",
+      "38079572",
+      "38012642",
+      "37891494",
+      "37654555",
+      "37446311",
+      "37097079",
+      "36917948",
+      "36776843",
+      "36584935",
+      "36505483",
+      "36076302",
+      "35682689",
+      "35488304",
+      "35303060",
+      "34952871",
+      "34537824",
+      "33961701",
+      "33919988",
+      "33894338",
+      "33765161",
+      "33707620",
+      "33564405",
+      "33433946",
+      "33195475",
+      "31898537",
+      "31271305",
+      "30661654",
+      "30509141",
+      "29977059",
+      "29192214",
+      "25822800",
+      "25725483",
+      "25605792",
+      "24907368",
+      "22896703",
+      "22682888",
+      "21942527",
+      "21546393",
+      "18339881",
+      "10953349",
+      "9695021"
+    ],
+    "similar": [
+      "40255403",
+      "32968877",
+      "35126643",
+      "39507054",
+      "34403115",
+      "36988561",
+      "29425745",
+      "39616855",
+      "39370621",
+      "39553728",
+      "40315768",
+      "39142001",
+      "40328901",
+      "40129981",
+      "39169865",
+      "37926573",
+      "36746103",
+      "40302006",
+      "39923303",
+      "28748534",
+      "39415336",
+      "25243408",
+      "40313958",
+      "29328472",
+      "38951833",
+      "39396400",
+      "36532018",
+      "39085446",
+      "38649912",
+      "40084401",
+      "38427643",
+      "39799234",
+      "36725810",
+      "37454542",
+      "39139563",
+      "40312440",
+      "39007147",
+      "40256740",
+      "35932551",
+      "36627791",
+      "39394418",
+      "39333719",
+      "36050939",
+      "39332854",
+      "37866944",
+      "29059150",
+      "39862324",
+      "39509434",
+      "39015570",
+      "39170142",
+      "38863714",
+      "40304918",
+      "39904830",
+      "38965675",
+      "39026664",
+      "32115849",
+      "39488307",
+      "39433800",
+      "39697326",
+      "29582409",
+      "39213172",
+      "38243323",
+      "40082607",
+      "37783761",
+      "34997546",
+      "38711508",
+      "36589450",
+      "24005033",
+      "39263286",
+      "39351221",
+      "36545400",
+      "31802230",
+      "34372798",
+      "25625846",
+      "30570875",
+      "39351238",
+      "39754246",
+      "39650552",
+      "30221671",
+      "36660690",
+      "36792688",
+      "39341981",
+      "38933262",
+      "40305445",
+      "36253715",
+      "36250071",
+      "27363011",
+      "37434738",
+      "39344350",
+      "40060994",
+      "37779906",
+      "39388708",
+      "28055964",
+      "38291374",
+      "32171324",
+      "39654884",
+      "33354250",
+      "24517182",
+      "39375405",
+      "40104981"
+    ],
+    "review": [
+      "40255403",
+      "31802230"
+    ],
+    "pmc": [
+      "12006176"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40255403/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-999",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1449355",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

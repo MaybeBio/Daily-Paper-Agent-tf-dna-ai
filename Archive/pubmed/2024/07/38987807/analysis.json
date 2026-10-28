@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38987807",
+  "title": "TFscope: systematic analysis of the sequence features involved in the binding preferences of transcription factors.",
+  "authors": "Romero, Raphael; Menichelli, Christophe; Vroland, Christophe; Marin, Jean-Michel; Lebre, Sophie; Lecellier, Charles-Henri; Brehelin, Laurent",
+  "journal": "Genome biology",
+  "published_date": "2024-07-11",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发机器学习方法TFscope，系统分析不同条件下TF结合偏好差异的序列特征，虽聚焦序列特征而非三维互作建模，但核心对象为TF-DNA结合，方法可迁移至结合位点预测研究。",
+  "abstract": "Characterizing the binding preferences of transcription factors (TFs) in different cell types and conditions is key to understand how they orchestrate gene expression. Here, we develop TFscope, a machine learning approach that identifies sequence features explaining the binding differences observed between two ChIP-seq experiments targeting either the same TF in two conditions or two TFs with similar motifs (paralogous TFs). TFscope systematically investigates differences in the core motif, nucleotide environment and co-factor motifs, and provides the contribution of each key feature in the two experiments. TFscope was applied to > 305 ChIP-seq pairs, and several examples are discussed.",
+  "abstract_zh": "表征不同细胞类型和条件下转录因子（TFs）的结合偏好，是理解它们如何协调基因表达的关键。在此，我们开发了TFscope，一种机器学习方法，用于识别解释两个ChIP-seq实验之间观察到的结合差异的序列特征，这些实验要么针对同一TF在两种条件下的结合，要么针对具有相似基序的两个TF（旁系同源TF）。TFscope系统性地研究了核心基序、核苷酸环境和共因子基序的差异，并提供了每个关键特征在两个实验中的贡献。TFscope被应用于超过305个ChIP-seq配对，并讨论了若干实例。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38987807/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38987807/",
+  "paper_page_path": "papers/pubmed/38987807/index.html"
+}

@@ -1,0 +1,275 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.03.651954",
+  "title": "Computational Model of Flower Pattern Evolution Predicts Spontaneous Emergence of Boundary Cell Types Across Petal Epidermis",
+  "doi": "10.1101/2025.05.03.651954",
+  "abstract": "Petal patterns play an important role in the reproductive success of flowering plants by attracting pollinators and protecting reproductive organs from environmental factors. Some transcription factors (TFs) that control pigment production and cuticle elaboration in petal epidermal cells have been identified. However, little is known about the upstream developmental processes that pre-pattern the petal surface to first establish the different domains where these regulators will later be expressed. Here, we developed a computational model of the evolution and development of petal patterns to investigate this early pre-patterning phase. We selected for gene regulatory networks (GRNs) that could divide the petal surface into proximal and distal domains to create a bullseye, a very common type of petal pattern across the angiosperms. The evolved GRNs showed robust patterning dynamics and could generate a variety of bullseye proportions. We found that the evolution of bullseye patterns was often accompanied by the spontaneous emergence of a third cell type with a unique gene expression profile at the boundary between the proximal and distal regions. These bullseye boundary cells appeared in most simulations despite not being explicitly selected for, and we validated their presence experimentally in Hibiscus trionum , a model system whose flowers display a bullseye pattern. Although boundary cell types emerged spontaneously in our simulations, they evolved more often and were more important for pattern formation when gene expression was modelled as a noisy process. This suggests that GRNs producing this emergent cell type may support reproducible bullseye formation by buffering against developmental variability. Altogether, the results from our evolutionary simulations illuminate the early steps of petal pattern formation and demonstrate that novel cell types can arise spontaneously and repeatedly from selection on other cell types when developmental robustness is considered.",
+  "authors": [
+    "Oud S",
+    "Żurowski MM",
+    "van der Jagt PL",
+    "Yeo MTS",
+    "Walker JF",
+    "Moyroud E",
+    "Vroomans RMA"
+  ],
+  "published_date": "2025-05-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.03.651954",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.03.651954.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1013370",
+    "raw_record": {
+      "id": "PPR1013370",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1013370"
+        ]
+      },
+      "doi": "10.1101/2025.05.03.651954",
+      "title": "Computational Model of Flower Pattern Evolution Predicts Spontaneous Emergence of Boundary Cell Types Across Petal Epidermis",
+      "authorString": "Oud S, Żurowski MM, van der Jagt PL, Yeo MTS, Walker JF, Moyroud E, Vroomans RMA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Oud S",
+            "lastName": "Oud",
+            "firstName": "Steven",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, , Bateman Street , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, Downing Site, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Żurowski MM",
+            "lastName": "Żurowski",
+            "firstName": "Maciej",
+            "initials": "MM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Downing Site, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van der Jagt PL",
+            "lastName": "van der Jagt",
+            "firstName": "Pjotr",
+            "initials": "PL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, , Bateman Street , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, Downing Site, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yeo MTS",
+            "lastName": "Yeo",
+            "firstName": "May",
+            "initials": "MTS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-7224-6808"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, , Bateman Street , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, Downing Site, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walker JF",
+            "lastName": "Walker",
+            "firstName": "Joseph",
+            "initials": "JF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2928-8899"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moyroud E",
+            "lastName": "Moyroud",
+            "firstName": "Edwige",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7908-3205"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, , Bateman Street , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, Downing Site, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vroomans RMA",
+            "lastName": "Vroomans",
+            "firstName": "Renske",
+            "initials": "RMA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, , Bateman Street , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, Downing Site, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7908-3205"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2928-8899"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-9512-3382"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-7224-6808"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Petal patterns play an important role in the reproductive success of flowering plants by attracting pollinators and protecting reproductive organs from environmental factors. Some transcription factors (TFs) that control pigment production and cuticle elaboration in petal epidermal cells have been identified. However, little is known about the upstream developmental processes that pre-pattern the petal surface to first establish the different domains where these regulators will later be expressed. Here, we developed a computational model of the evolution and development of petal patterns to investigate this early pre-patterning phase. We selected for gene regulatory networks (GRNs) that could divide the petal surface into proximal and distal domains to create a bullseye, a very common type of petal pattern across the angiosperms. The evolved GRNs showed robust patterning dynamics and could generate a variety of bullseye proportions. We found that the evolution of bullseye patterns was often accompanied by the spontaneous emergence of a third cell type with a unique gene expression profile at the boundary between the proximal and distal regions. These bullseye boundary cells appeared in most simulations despite not being explicitly selected for, and we validated their presence experimentally in  Hibiscus trionum , a model system whose flowers display a bullseye pattern. Although boundary cell types emerged spontaneously in our simulations, they evolved more often and were more important for pattern formation when gene expression was modelled as a noisy process. This suggests that GRNs producing this emergent cell type may support reproducible bullseye formation by buffering against developmental variability. Altogether, the results from our evolutionary simulations illuminate the early steps of petal pattern formation and demonstrate that novel cell types can arise spontaneously and repeatedly from selection on other cell types when developmental robustness is considered.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/03/2025.05.03.651954.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.03.651954"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1013370"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1013370&type=FILE&fileName=EMS205231-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42206349",
+            "reference": "Development (Cambridge, England). \n    2026 May;:dev.205745",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205231",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gca",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-05-05",
+      "firstPublicationDate": "2025-05-03",
+      "firstIndexDate": "2025-05-05",
+      "fullTextReceivedDate": "2025-12-09",
+      "hasEvaluations": "Y"
+    }
+  }
+}

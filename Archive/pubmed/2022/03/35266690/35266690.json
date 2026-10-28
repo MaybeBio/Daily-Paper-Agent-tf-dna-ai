@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "35266690",
+    "doi": "10.1021/acs.jctc.1c01208",
+    "title": "Comparing the Performance of Different AMBER Protein Forcefields, Partial Charge Assignments, and Water Models for Absolute Binding Free Energy Calculations."
+  },
+  "content": {
+    "abstract": "Identifying chemical starting points is a vital first step in small molecule drug discovery and can take significant time and money. For this reason, computational approaches to virtual screening are of great interest as they can lower the cost and shorten timeframes. However, simple approaches such as molecular docking and pharmacophore screening are of limited accuracy and provide a low probability of success. Alchemical binding free energies represent a promising approach for virtual screening as they naturally incorporate the key effects of water molecules, protein flexibility, and binding entropy. However, the calculations are technically very challenging, with performance depending on the specific forcefield used. For this reason, it is important that the community has access to benchmark test sets to assess prediction accuracy. In this paper, we present an approach to alchemical binding free energies using OpenMM. We identify effective simulation parameters using an existing BRD4(1) test set and present two new benchmark sets (cMET and PDE2A) that can be used in the community for validation purposes. Our findings also highlight the effectiveness of some AMBER forcefields, in particular, AMBER ff15ipq.",
+    "keywords": [],
+    "mesh_terms": [
+      "Entropy",
+      "Ligands",
+      "Molecular Docking Simulation",
+      "*Molecular Dynamics Simulation",
+      "Nuclear Proteins",
+      "Protein Binding",
+      "Thermodynamics",
+      "Transcription Factors",
+      "*Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huggins, David J"
+      ],
+      "short_names": [
+        "Huggins DJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1579-2496"
+      ],
+      "affiliations": [
+        "Tri-Institutional Therapeutics Discovery Institute, New York, New York 10021, United States.",
+        "Department of Physiology and Biophysics, Weill Cornell Medical College of Cornell University, New York, New York 10065, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huggins, David J",
+        "short_name": "Huggins DJ",
+        "identifiers": [
+          "0000-0003-1579-2496"
+        ],
+        "affiliations": [
+          "Tri-Institutional Therapeutics Discovery Institute, New York, New York 10021, United States.",
+          "Department of Physiology and Biophysics, Weill Cornell Medical College of Cornell University, New York, New York 10065, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2022 Apr 12",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/11 06:00",
+    "fetched_at": "2026-09-28 06:03:24"
+  },
+  "links": {
+    "cites": [
+      "41979361",
+      "41970871",
+      "41546627",
+      "40766644",
+      "40621891",
+      "39715001",
+      "39378441",
+      "39254715",
+      "39088306",
+      "37676592",
+      "37285579",
+      "37163419",
+      "36752937",
+      "36399655",
+      "36363988",
+      "36225254",
+      "35948614"
+    ],
+    "refs": [],
+    "similar": [
+      "35266690",
+      "36225254",
+      "38323915",
+      "22198475",
+      "32539386",
+      "30411639",
+      "33307679",
+      "35258972",
+      "38959405",
+      "28600826",
+      "34990555",
+      "28564537",
+      "33037549",
+      "32936637",
+      "34521199",
+      "37450482",
+      "28786670",
+      "36350600",
+      "29594774",
+      "29243483",
+      "36197451",
+      "38157475",
+      "38147877",
+      "23267463",
+      "31555923",
+      "37042797",
+      "37902715",
+      "37285579",
+      "30218199",
+      "33905257",
+      "31984465",
+      "36450130",
+      "37167486",
+      "30182836",
+      "38980667",
+      "36222107",
+      "31396905",
+      "21491494",
+      "24549784",
+      "33213150",
+      "29771936",
+      "34464129",
+      "31677003",
+      "38538531",
+      "33759130",
+      "35609233",
+      "25541527",
+      "24032517",
+      "29756561",
+      "23651068",
+      "22497310",
+      "31960251",
+      "27886114",
+      "32101691",
+      "27984798",
+      "27787702",
+      "34888724",
+      "39088306",
+      "29112430",
+      "31701109",
+      "31560539",
+      "24976024",
+      "27565797",
+      "37824848",
+      "37948537",
+      "36399655",
+      "17291029",
+      "30661460",
+      "32639159",
+      "26085821",
+      "27668885",
+      "27996253",
+      "17870536",
+      "25229694",
+      "35490003",
+      "22731511",
+      "25343332",
+      "33886305",
+      "33150463",
+      "27494802",
+      "20170220",
+      "30404450",
+      "33906354",
+      "31894691",
+      "34978000",
+      "27185199",
+      "34014672",
+      "27562018",
+      "35642423",
+      "20186976",
+      "27092480",
+      "22397751",
+      "36179112",
+      "29532496",
+      "24504704",
+      "36878475",
+      "32635537",
+      "21452852",
+      "24932669",
+      "33764050",
+      "28901664",
+      "30415122",
+      "27638809",
+      "29064326",
+      "33230742",
+      "30776430",
+      "27796788",
+      "37862058",
+      "32234678",
+      "28318252",
+      "38338727",
+      "35485139",
+      "25761118",
+      "27485604",
+      "27981421",
+      "36469232",
+      "35286093",
+      "35972903",
+      "35759413",
+      "36923913",
+      "37093848"
+    ],
+    "review": [
+      "35266690",
+      "37902715",
+      "30182836",
+      "29756561",
+      "37824848",
+      "36179112",
+      "27796788",
+      "36469232",
+      "36923913"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.1c01208",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

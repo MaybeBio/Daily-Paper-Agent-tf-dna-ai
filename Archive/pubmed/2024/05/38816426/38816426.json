@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "38816426",
+    "doi": "10.1038/s41540-024-00388-8",
+    "title": "Identification of drug responsive enhancers by predicting chromatin accessibility change from perturbed gene expression profiles."
+  },
+  "content": {
+    "abstract": "Individual may response to drug treatment differently due to their genetic variants located in enhancers. These variants can alter transcription factor's (TF) binding strength, affect enhancer's chromatin activity or interaction, and eventually change expression level of downstream gene. Here, we propose a computational framework, PERD, to Predict the Enhancers Responsive to Drug. A machine learning model was trained to predict the genome-wide chromatin accessibility from transcriptome data using the paired expression and chromatin accessibility data collected from ENCODE and ROADMAP. Then the model was applied to the perturbed gene expression data from Connectivity Map (CMAP) and Cancer Drug-induced gene expression Signature DataBase (CDS-DB) and identify drug responsive enhancers with significantly altered chromatin accessibility. Furthermore, the drug responsive enhancers were related to the pharmacogenomics genome-wide association studies (PGx GWAS). Stepping on the traditional drug-associated gene signatures, PERD holds the promise to enhance the causality of drug perturbation by providing candidate regulatory element of those drug associated genes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/genetics/drug effects",
+      "Humans",
+      "*Machine Learning",
+      "*Genome-Wide Association Study/methods",
+      "Enhancer Elements, Genetic/genetics",
+      "Computational Biology/methods",
+      "Transcriptome/genetics/drug effects",
+      "Transcription Factors/genetics",
+      "Gene Expression Profiling/methods",
+      "Pharmacogenetics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yongcui",
+        "Wang, Yong"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0695-5273"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Phytochemistry and Plant Resources in West China, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming, 650201, China. wangyongcui@mail.kib.ac.cn.",
+        "CEMS, NCMIS, HCMS, MDIS, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, 100190, Beijing, China. ywang@amss.ac.cn.",
+        "Key Laboratory of Systems Biology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Hangzhou, 330106, China. ywang@amss.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yongcui",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Phytochemistry and Plant Resources in West China, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming, 650201, China. wangyongcui@mail.kib.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0003-0695-5273"
+        ],
+        "affiliations": [
+          "CEMS, NCMIS, HCMS, MDIS, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, 100190, Beijing, China. ywang@amss.ac.cn.",
+          "Key Laboratory of Systems Biology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Hangzhou, 330106, China. ywang@amss.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2024 May 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/31 00:42",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "41823837",
+      "41795653",
+      "40945847"
+    ],
+    "refs": [
+      "38113076",
+      "37889038",
+      "33689683",
+      "33591943",
+      "32393976",
+      "30325405",
+      "29887377",
+      "29195078",
+      "29051481",
+      "28605766",
+      "28359147",
+      "28358394",
+      "28273065",
+      "27886167",
+      "26283676",
+      "25520196",
+      "24831277",
+      "24670763",
+      "24316577",
+      "23827673",
+      "23824865",
+      "23341781",
+      "22924393",
+      "22690667",
+      "22675074",
+      "22652625",
+      "22630332",
+      "22094949",
+      "21890647",
+      "21819236",
+      "21619428",
+      "21368754",
+      "21358745",
+      "20639796",
+      "20404130",
+      "20300088",
+      "20156170",
+      "19901334",
+      "19736561",
+      "19474294",
+      "18523153",
+      "17571346",
+      "17486121",
+      "17130149",
+      "17008526",
+      "15539566",
+      "11156391"
+    ],
+    "similar": [
+      "38816426",
+      "37170707",
+      "34699533",
+      "32431014",
+      "30589856",
+      "23526891",
+      "24127591",
+      "35887306",
+      "28056037",
+      "28621677",
+      "21415370",
+      "34197622",
+      "30905748",
+      "28069634",
+      "31635067",
+      "22555596",
+      "30341348",
+      "26340055",
+      "28576882",
+      "31114856",
+      "31500627",
+      "27789687",
+      "39283462",
+      "36705030",
+      "22421546",
+      "32142172",
+      "38672444",
+      "26890492",
+      "34226917",
+      "21160473",
+      "32744316",
+      "33010223",
+      "25849986",
+      "32690972",
+      "30137428",
+      "32689977",
+      "30375457",
+      "30892142",
+      "31554806",
+      "28193859",
+      "34273410",
+      "26912062",
+      "24497837",
+      "35751107",
+      "33516170",
+      "27490187",
+      "28536147",
+      "36674677",
+      "24614317",
+      "33626337",
+      "38622459",
+      "30247654",
+      "31701553",
+      "24920305",
+      "24039560",
+      "19094206",
+      "37012250",
+      "32443951",
+      "28732548",
+      "25762337",
+      "23341446",
+      "25378307",
+      "22270183",
+      "28335009",
+      "26780995",
+      "25228660",
+      "33581335",
+      "37207350",
+      "27662872",
+      "33537074",
+      "34244796",
+      "31553718",
+      "22537144",
+      "30704404",
+      "32732264",
+      "32479598",
+      "36351387",
+      "26818008",
+      "31039173",
+      "34382191",
+      "23685394",
+      "36671456",
+      "24967590",
+      "29284524",
+      "28351896",
+      "27831498",
+      "21307941",
+      "37852600",
+      "32188700",
+      "35293310",
+      "29717274",
+      "33941239",
+      "38946113",
+      "38430365",
+      "39226889"
+    ],
+    "review": [
+      "38816426",
+      "28069634",
+      "31635067",
+      "22555596",
+      "32142172",
+      "36674677",
+      "24614317",
+      "32443951",
+      "26780995",
+      "23685394",
+      "28351896",
+      "29717274"
+    ],
+    "pmc": [
+      "11139989"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41540-024-00388-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38816426/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38816426",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

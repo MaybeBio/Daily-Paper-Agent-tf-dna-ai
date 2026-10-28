@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, theory, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations at elevated pressures to sample conformational substates of the LacI dimer. They report that increased pressure prevents the Open-to-Closed conformational transition observed under ambient conditions, that the Open state has a smaller volume and is more hydrated, and that residue-level volume changes implicate the hinge helix region as a key hydration-sensitive element. They propose pressure perturbation simulations as a tool for probing hydration changes accompanying functional conformational transitions.
+- **Visible evidence base** Simulation trajectories (100 ns unit cell; dimer simulations at 1 bar, 3 kbar, 6 kbar), RMSD time histories (supplementary), angle/distance distributions (Figures 3–5, 7–8), residue volume changes (Table 3, Figures 6, S4), hydration time series (Figure 11), water distribution functions (Figure S5), comparison with crystal structures (Table 1)
+- **Missing materials affecting confidence** Supplementary figures S1–S8 referenced but not provided; force field parameters for ONPG provided in SI but not visible; simulation convergence metrics beyond RMSD not shown; no error estimates or replicate information for key distributions; no explicit statistical tests reported
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting application of pressure-perturbation MD simulations to probe hydration differences between conformational substates of LacI. The central observation, that elevated pressure stabilizes the Open conformation and that this correlates with residue-level hydration changes in the hinge helix region, is plausible and potentially useful. However, the evidence as presented has significant gaps. The simulations are short (100 ns), single-trajectory, and lack replicate information or statistical error estimates. The key claim that pressure "prevents" the Open-to-Closed transition is based on a single trajectory per condition. The residue volume decomposition, while thermodynamically rigorous in total, relies on a subjective assignment of waters to residues, and the authors acknowledge this but do not test robustness. The connection between simulated pressure effects and functional relevance (e.g., DNA binding affinity) is speculative. The manuscript would benefit from additional validation, replicate simulations, and a more critical treatment of the limitations of the approach.
+- **Who would be interested in the results, and why** Researchers studying protein conformational ensembles, allostery, and the role of hydration in protein function. The methodological approach (pressure perturbation in MD combined with Kirkwood-Buff volume analysis) may interest computational biophysicists developing tools for probing hydration. The LacI system is a model for allosteric regulation, so the broader allostery community may find the observations relevant, though the functional implications are not directly tested.
+- **Major strengths** 1. The use of pressure as a perturbation to probe hydration differences is conceptually elegant and underutilized in MD studies of protein conformational transitions. 2. The Kirkwood-Buff based volume decomposition provides a thermodynamically rigorous framework for quantifying volume changes, and the residue-level resolution is a useful extension. 3. The comparison with multiple crystal structures (Table 1) grounds the simulation results in experimental data. 4. The observation that pressure effects are ligand-dependent (ONPG vs. free) adds a layer of biological relevance. 5. The writing is generally clear and the logic of the study is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The effect of increasing the pressure on the LacI dimer was to resist the Open to Closed transition that occurred under ambient conditions."
+  - **Evidence pointer** Figure 7; Methods (Molecular Dynamics Simulations)
+  - **Concern** The central claim that pressure prevents the Open-to-Closed transition is based on a single trajectory per condition (1 bar, 3 kbar, 6 kbar). No replicate simulations are reported, and no statistical measures (e.g., standard errors, confidence intervals) are provided for the angle and distance distributions. The 100 ns timescale is short for a conformational transition of this nature, and it is possible that the observed differences reflect sampling limitations rather than true pressure effects. The authors do not report whether the simulations reached equilibrium or whether the distributions converged.
+  - **Why it matters** The primary conclusion of the manuscript rests on this observation. Without replicate simulations or convergence assessment, the claim that pressure "prevents" the transition is not robustly supported. A single trajectory cannot distinguish a genuine pressure effect from stochastic variation or insufficient sampling.
+  - **Resolution test** Provide at least 3 independent replicate simulations per condition, report the distributions of angle and distance metrics with error estimates, and demonstrate convergence (e.g., block averaging, split-half analysis). Alternatively, perform longer simulations (e.g., 500 ns or more) to confirm the stability of the observed states.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results suggest the hydration of specific residues play a significant role in determining the population of different LacI substates."
+  - **Evidence pointer** Table 3; Figures 6, S4, S5, 11
+  - **Concern** The residue-level volume decomposition assigns each water molecule to a single residue based on proximity to the nearest heavy atom. The authors acknowledge this is subjective, but they do not test the robustness of the assignment scheme. The claim that specific residues (N50, V52, A53) are key drivers of the pressure effect depends entirely on this assignment. Different assignment criteria (e.g., Voronoi tessellation, distance cutoffs) could yield different conclusions. Additionally, the volume changes are reported without error estimates, so it is unclear whether the differences between residues are statistically significant.
+  - **Why it matters** The mechanistic interpretation, that specific residues in the hinge helix region are hydration-sensitive and functionally relevant, is a key contribution of the paper. If the assignment scheme is not robust, the specific residue identifications may be artifacts.
+  - **Resolution test** Test the sensitivity of the residue-level volume changes to the water assignment criteria (e.g., different distance cutoffs, alternative assignment methods). Provide error estimates for the volume changes, either from replicate simulations or from block averaging. If the key residues remain consistent across assignment schemes, the claim is strengthened.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The results suggest the hydration of specific residues play a significant role in determining the population of different LacI substates and that simulating pressure perturbation could be useful for assessing the role of hydration changes that accompany functionally-relevant amino acid substitutions."
+  - **Evidence pointer** Discussion; Conclusions
+  - **Concern** The functional relevance of the observed pressure effects is not directly tested. The authors speculate that hydration changes in the hinge helix region may relate to functional effects of amino acid substitutions, but no simulations or experiments are presented to support this link. The connection between the simulated pressure response and the actual functional mechanism of LacI (e.g., DNA binding affinity changes) is not established.
+  - **Why it matters** The broader significance of the work, and its potential utility for studying functional mutations, depends on this link. Without direct evidence, the claim that pressure perturbation simulations can assess hydration changes accompanying functional substitutions remains speculative.
+  - **Resolution test** Perform simulations of LacI variants with known functional effects (e.g., V52 mutations) and test whether the pressure response and hydration changes correlate with functional outcomes. Alternatively, compare the simulated hydration changes with experimental data on water occupancy or thermodynamic measurements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Theory section
+  - **Evidence pointer** Theory
+  - **Issue** The derivation of the Kirkwood-Buff volume expression is presented very briefly, and the connection between Equation 3 and the residue-level decomposition is not fully explained. Nonspecialist readers may struggle to understand why the volume is related to water counts in this way.
+  - **Required correction** Expand the Theory section to provide a more intuitive explanation of the Kirkwood-Buff approach and the physical meaning of the pseudo-volume. A brief step-by-step derivation or a schematic figure would help.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods (Molecular Dynamics Simulations)
+  - **Evidence pointer** Methods
+  - **Issue** The equilibration protocol is described as "up to 100 ps" with gradual temperature increases, but the production run lengths are not explicitly stated for each system. The text mentions "100 ns" for the unit cell but does not clearly specify the lengths of the dimer simulations at different pressures.
+  - **Required correction** Provide a table or explicit statement of the production run length for each simulation condition, including the truncated LacI and isolated hinge helix systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results (Performance of the force field)
+  - **Evidence pointer** Results
+  - **Issue** The force field validation is based on RMSD stability, which is a necessary but not sufficient check. The authors do not compare simulated structural properties (e.g., secondary structure content, hydrogen bonding patterns) with experimental data at ambient conditions.
+  - **Required correction** Add a brief comparison of key structural features (e.g., RMSF, secondary structure) with available experimental structures or solution data to strengthen the validation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion (Comparison of high pressure simulations and experimental data)
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of experimental pressure studies on LacI is brief and does not fully contextualize the simulation results. The authors mention fluorescence and NMR studies but do not explain how the simulation timescales and pressures relate to the experimental conditions.
+  - **Required correction** Expand the discussion to clarify the relationship between the simulated pressures (3, 6 kbar) and the experimental pressures used in the cited studies, and discuss the limitations of comparing simulation timescales with experimental observations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results (Simulation of the Unit Cell)
+  - **Evidence pointer** Results
+  - **Issue** The description of the unit cell simulation is dense and includes many details (e.g., 18 copies, 9 truncated dimers) that may distract from the main point. The relevance of this simulation to the overall conclusions is not immediately clear.
+  - **Required correction** Briefly state the purpose of the unit cell simulation (e.g., to assess the stability of the Open state in a crystal-like environment) and summarize the key finding before presenting the details.
+
+## Risk / unsupported claims
+- The claim that pressure "prevents" the Open-to-Closed transition is not robustly supported due to single-trajectory sampling and lack of convergence assessment.
+- The identification of specific residues (N50, V52, A53) as key hydration-sensitive elements depends on a subjective water assignment scheme that is not tested for robustness.
+- The claim that pressure perturbation simulations could be useful for assessing hydration changes accompanying functional amino acid substitutions is speculative and not directly tested.
+- The statement that "the Open conformation has a smaller overall volume" is supported by the total volume change, but the magnitude is small (less than two water molecules) and no error estimate is provided.
+- The comparison with experimental pressure studies is qualitative and does not establish quantitative agreement or disagreement.
+- The force field validation is limited to RMSD stability and does not include comparison with experimental observables beyond structural stability.

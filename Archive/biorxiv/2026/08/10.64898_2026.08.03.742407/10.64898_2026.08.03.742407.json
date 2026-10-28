@@ -1,0 +1,364 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.03.742407",
+  "title": "Deep learning-guided identification of bacteriophage receptor-binding protein candidates for foodborne pathogen detection",
+  "doi": "10.64898/2026.08.03.742407",
+  "abstract": "Foodborne pathogens including Salmonella spp., Escherichia coli and Listeria monocytogenes cause an estimated 600 million illnesses annually. Yet conventional detection methods remain slow, costly, or insufficiently specific for routine food safety surveillance. Phage receptor-binding proteins (RBPs) are attractive recognition elements for biosensors, but their extensive sequence diversity limits reliable computational identification. Here, we present a systematic open-source computational pipeline for identifying and structurally characterising high-confidence RBP candidates from phage genomes targeting these three priority pathogens. The pipeline integrates four stages: deep learning-based RBP prediction, protein structure prediction, structural homology validation, and exploratory molecular docking. Applied to a quality-controlled dataset of 247 complete phage genomes retrieved from the National Center for Biotechnology Information Nucleotide database (31,752 total protein sequences), PhageRBPdetect, built on the ESM-2 protein language model, identified 653 high-confidence RBP candidates. Foldseek structural homology validation against PDB100 confirmed 13 candidates with a structural match probability of 1.0 to known phage adsorption proteins, spanning four structural archetypes. ESMFold-predicted structures showed strong confidence, with a mean model confidence score of 0.89 and a 90.2% prediction success rate. Exploratory rigid-body docking identified YDV08491.1, an E. coli-targeting candidate, as having the most energetically favourable predicted interaction, with a predicted binding energy of −132.3 kcal/mol against OmpF, supporting experimental prioritisation. These candidates’ structural diversity and predicted host specificity support their future development as phage-based biosensors and biocontrol tools, and this reproducible, accessible pipeline offers a transferable strategy for prioritising RBP candidates in downstream functional studies, pending experimental validation. Author Summary Foodborne bacterial infections cause an estimated 600 million illnesses every year worldwide, with Salmonella , Escherichia coli , and Listeria monocytogenes among the most significant contributors. Detecting these pathogens quickly and specifically in food supply chains remains a major challenge for global food safety. Bacteriophages viruses that infect bacteria use surface proteins called receptor-binding proteins (RBPs) to recognize their bacterial hosts with remarkable precision, making RBPs promising building blocks for pathogen-specific biosensors. However, the huge sequence diversity of RBPs across phage genomes has made it difficult to reliably identify good candidates computationally. We built an open-source pipeline that combines deep learning, protein structure prediction, and molecular docking to screen phage genomes for high-confidence RBP candidates. Applied to 247 phage genomes targeting the three pathogens above, our pipeline flagged 653 candidate RBPs, of which 13 showed strong structural similarity to known phage adsorption proteins. One candidate, targeting E. coli , showed a particularly strong predicted binding interaction with a bacterial surface protein, making it a priority target for experimental testing. This pipeline gives researchers a reproducible, publicly available strategy for prioritizing phage proteins toward the development of biosensors and biocontrol tools for food safety.",
+  "authors": [
+    "Danitza Xiomara Romero-Calle",
+    "Cristhian Carrasco",
+    "Bilal Javed",
+    "Elena-Alexandra Alexa"
+  ],
+  "published_date": "2026-08-06",
+  "updated_date": "2026-08-07T04:51:04Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742407",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742407.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            9
+          ]
+        ],
+        "date-time": "2026-08-09T10:41:50Z",
+        "timestamp": 1786272110332,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 18,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                6
+              ]
+            ],
+            "date-time": "2026-08-06T00:00:00Z",
+            "timestamp": 1785974400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Foodborne pathogens including\n                  <jats:italic>Salmonella</jats:italic>\n                  spp.,\n                  <jats:italic>Escherichia coli</jats:italic>\n                  and\n                  <jats:italic>Listeria monocytogenes</jats:italic>\n                  cause an estimated 600 million illnesses annually. Yet conventional detection methods remain slow, costly, or insufficiently specific for routine food safety surveillance. Phage receptor-binding proteins (RBPs) are attractive recognition elements for biosensors, but their extensive sequence diversity limits reliable computational identification.\n                </jats:p>\n                <jats:p>Here, we present a systematic open-source computational pipeline for identifying and structurally characterising high-confidence RBP candidates from phage genomes targeting these three priority pathogens. The pipeline integrates four stages: deep learning-based RBP prediction, protein structure prediction, structural homology validation, and exploratory molecular docking.</jats:p>\n                <jats:p>Applied to a quality-controlled dataset of 247 complete phage genomes retrieved from the National Center for Biotechnology Information Nucleotide database (31,752 total protein sequences), PhageRBPdetect, built on the ESM-2 protein language model, identified 653 high-confidence RBP candidates. Foldseek structural homology validation against PDB100 confirmed 13 candidates with a structural match probability of 1.0 to known phage adsorption proteins, spanning four structural archetypes. ESMFold-predicted structures showed strong confidence, with a mean model confidence score of 0.89 and a 90.2% prediction success rate. Exploratory rigid-body docking identified YDV08491.1, an E. coli-targeting candidate, as having the most energetically favourable predicted interaction, with a predicted binding energy of −132.3 kcal/mol against OmpF, supporting experimental prioritisation.</jats:p>\n                <jats:p>These candidates’ structural diversity and predicted host specificity support their future development as phage-based biosensors and biocontrol tools, and this reproducible, accessible pipeline offers a transferable strategy for prioritising RBP candidates in downstream functional studies, pending experimental validation.</jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>\n                    Foodborne bacterial infections cause an estimated 600 million illnesses every year worldwide, with\n                    <jats:italic>Salmonella</jats:italic>\n                    ,\n                    <jats:italic>Escherichia coli</jats:italic>\n                    , and\n                    <jats:italic>Listeria monocytogenes</jats:italic>\n                    among the most significant contributors. Detecting these pathogens quickly and specifically in food supply chains remains a major challenge for global food safety. Bacteriophages viruses that infect bacteria use surface proteins called receptor-binding proteins (RBPs) to recognize their bacterial hosts with remarkable precision, making RBPs promising building blocks for pathogen-specific biosensors. However, the huge sequence diversity of RBPs across phage genomes has made it difficult to reliably identify good candidates computationally.\n                  </jats:p>\n                  <jats:p>\n                    We built an open-source pipeline that combines deep learning, protein structure prediction, and molecular docking to screen phage genomes for high-confidence RBP candidates. Applied to 247 phage genomes targeting the three pathogens above, our pipeline flagged 653 candidate RBPs, of which 13 showed strong structural similarity to known phage adsorption proteins. One candidate, targeting\n                    <jats:italic>E. coli</jats:italic>\n                    , showed a particularly strong predicted binding interaction with a bacterial surface protein, making it a priority target for experimental testing.\n                  </jats:p>\n                  <jats:p>This pipeline gives researchers a reproducible, publicly available strategy for prioritizing phage proteins toward the development of biosensors and biocontrol tools for food safety.</jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.08.03.742407",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2026-08-07T04:51:04Z",
+        "timestamp": 1786078264000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Deep learning-guided identification of bacteriophage receptor-binding protein candidates for foodborne pathogen detection"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3119-9302",
+          "authenticated-orcid": false,
+          "given": "Danitza Xiomara",
+          "family": "Romero-Calle",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Instituto de Investigación y Desarrollo de Procesos Químicos, Chemical Engineering, Faculty of Engineering, Universidad Mayor de San Andrés, La Paz, Bolivia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cristhian",
+          "family": "Carrasco",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Instituto de Investigación y Desarrollo de Procesos Químicos, Chemical Engineering, Faculty of Engineering, Universidad Mayor de San Andrés, La Paz, Bolivia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bilal",
+          "family": "Javed",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Food Science and Environment Health, Technological University Dublin, Dublin, Ireland"
+            },
+            {
+              "name": "Nanolab Research Centre, Physical to Life Sciences Research Hub, Technological University Dublin, Dublin, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elena-Alexandra",
+          "family": "Alexa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Food Science and Environment Health, Technological University Dublin, Dublin, Ireland"
+            },
+            {
+              "name": "Centre for AMR and One-Health Research, Technological University Dublin, Dublin, Ireland"
+            },
+            {
+              "name": "Green Chemistry and Biotechnology Centre, Technological University Dublin, Dublin, Ireland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.1",
+          "unstructured": "WHO. (2015). WHO estimates of the global burden of foodborne diseases. World Health Organization, Geneva. https://www.who.int/activities/estimating-the-burden-of-food-borne-diseases"
+        },
+        {
+          "issue": "12",
+          "key": "2026080902500648000_2026.08.03.742407v1.2",
+          "first-page": "e9106",
+          "article-title": "The European Union One Health 2023 Zoonoses Report",
+          "volume": "22",
+          "year": "2024",
+          "journal-title": "EFSA Journal"
+        },
+        {
+          "issue": "3",
+          "key": "2026080902500648000_2026.08.03.742407v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "138",
+          "DOI": "10.3390/antibiotics8030138",
+          "article-title": "Bacteriophages as alternatives to antibiotics in clinical care",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Antibiotics"
+        },
+        {
+          "issue": "1",
+          "key": "2026080902500648000_2026.08.03.742407v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1186/s13643-023-02352-9",
+          "article-title": "Systematic review and meta-analysis: the efficiency of bacteriophages previously patented against pathogenic bacteria on food",
+          "volume": "12",
+          "year": "2023",
+          "journal-title": "Systematic Reviews"
+        },
+        {
+          "issue": "5",
+          "key": "2026080902500648000_2026.08.03.742407v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1336",
+          "DOI": "10.1016/j.celrep.2019.09.062",
+          "article-title": "Reprogramming bacteriophage host range through structure-guided design of chimeric receptor binding proteins",
+          "volume": "29",
+          "year": "2019",
+          "journal-title": "Cell reports"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41579-018-0070-8"
+        },
+        {
+          "issue": "2",
+          "key": "2026080902500648000_2026.08.03.742407v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1763",
+          "DOI": "10.3390/s130201763",
+          "article-title": "Recent advances in bacteriophage based biosensors for food-borne pathogen detection",
+          "volume": "13",
+          "year": "2013",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2004.07.022"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-05865-w"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-023-01773-0"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v9040070"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-024-00738-6"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.12134"
+        },
+        {
+          "issue": "1",
+          "key": "2026080902500648000_2026.08.03.742407v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "342",
+          "DOI": "10.1186/s12915-025-02445-y",
+          "article-title": "Insights into the molecular determinants of host specificity in Pseudomonas aeruginosa-infecting phages: a structural and functional analysis of tail fibre proteins",
+          "volume": "23",
+          "year": "2025",
+          "journal-title": "BMC biology"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Santos, L. H. , Ferreira, R. S. , & Caffarena, E. R . (2019). Integrating molecular docking and molecular dynamics simulations. In Docking screens for drug discovery (pp. 13–34). New York, NY: Springer New York.",
+          "DOI": "10.1007/978-1-4939-9752-7_2"
+        },
+        {
+          "key": "2026080902500648000_2026.08.03.742407v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.copbio.2021.02.006"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.08.03.742407",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            9
+          ]
+        ],
+        "date-time": "2026-08-09T09:50:16Z",
+        "timestamp": 1786269016000
+      },
+      "score": 106.32784,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.08.03.742407"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            6
+          ]
+        ]
+      },
+      "references-count": 18,
+      "URL": "https://doi.org/10.64898/2026.08.03.742407",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "41933146",
+    "doi": "10.1038/s41598-026-47184-4",
+    "title": "Comprehensive analysis of programmed cell death and oridonin target identification in primary lung cancer for prognostic prediction and therapeutic strategies."
+  },
+  "content": {
+    "abstract": "This study investigated the involvement of Oridonin-related prognostic genes in programmed cell death (PCD) in primary lung cancer and constructed a corresponding prognostic model. Transcriptomic, mutation, and clinical data from the TCGA database, including the TCGA-LUSC (Lung Squamous Cell Carcinoma) and TCGA-LUAD (Lung Adenocarcinoma) cohorts with 989 primary lung cancer samples, were analyzed. A total of 38 potential Oridonin-related target genes were identified from the PubChem database, among which 15 demonstrated prognostic significance. Weighted Gene Co-expression Network Analysis (WGCNA) revealed correlations between these genes and 13 types of PCD. LASSO and random forest algorithms constructed risk score models and identified FLNC and FOSL1 as independent prognostic biomarkers. Molecular docking analysis confirmed strong binding affinities between FLNC, FOSL1, and Oridonin, suggesting their potential as therapeutic targets. The results showed that the tumor mutation burden (TMB) of the high-risk group was significantly higher than that of the low-risk group. Analysis of immune profiles revealed that the heterogeneity in risk scores was closely linked to distinct patterns of immune cell infiltration and differential activation of immune responses in the tumor microenvironment. Additionally, experimental validation through Western blot demonstrated elevated protein expression of FLNC and FOSL1 in tumor cell lines, and immunohistochemistry (IHC) confirmed their high expression in tumor tissues. The results highlight the critical role of FLNC and FOSL1 as prognostic markers in lung cancer, while also providing new perspectives on the development of Oridonin-based therapeutic interventions.",
+    "keywords": [
+      "FLNC",
+      "FOSL1",
+      "Immune Microenvironment",
+      "Molecular Docking",
+      "Nomogram",
+      "Oridonin",
+      "Primary Lung Cancer",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diterpenes, Kaurane/pharmacology/chemistry",
+      "*Lung Neoplasms/genetics/drug therapy/pathology/metabolism",
+      "Prognosis",
+      "*Apoptosis/drug effects/genetics",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Proto-Oncogene Proteins c-fos/genetics/metabolism",
+      "Fos-Related Antigen 1",
+      "Molecular Docking Simulation",
+      "Mutation",
+      "Gene Expression Profiling",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiang, Xiaoqin",
+        "Yu, Xiang",
+        "Li, Jing",
+        "Cao, Wei",
+        "Miao, Rongrong",
+        "Zhao, Xin"
+      ],
+      "short_names": [
+        "Xiang X",
+        "Yu X",
+        "Li J",
+        "Cao W",
+        "Miao R",
+        "Zhao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China. xiangxq2024@sina.com.",
+        "Huzhou Central Hospital, The Fifth School of Clinical Medicine of Zhejiang Chinese Medical University, Huzhou, 313000, Zhejiang, China.",
+        "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China.",
+        "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China.",
+        "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China.",
+        "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China. zhaox202303@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiang, Xiaoqin",
+        "short_name": "Xiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China. xiangxq2024@sina.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Xiang",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "Huzhou Central Hospital, The Fifth School of Clinical Medicine of Zhejiang Chinese Medical University, Huzhou, 313000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Wei",
+        "short_name": "Cao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Rongrong",
+        "short_name": "Miao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xin",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Affiliated Children's Hospital of Xiangya School of Medicine, Central South University (Hunan Children's Hospital), Changsha, 410007, Hunan, China. zhaox202303@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Apr 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/04 00:35",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40635056",
+      "40152390",
+      "39418514",
+      "38836673",
+      "38685305",
+      "38203695",
+      "38169587",
+      "38129399",
+      "38104096",
+      "37895022",
+      "37601110",
+      "37329709",
+      "37096570",
+      "36973755",
+      "36775079",
+      "36633525",
+      "36389728",
+      "36370105",
+      "35963853",
+      "35673561",
+      "35298241",
+      "35298069",
+      "34985916",
+      "34976434",
+      "34627742",
+      "34273294",
+      "34217831",
+      "33776057",
+      "33495651",
+      "33151290",
+      "32168416",
+      "32102694",
+      "32015325",
+      "31378236",
+      "31212216",
+      "30610714",
+      "30598000",
+      "30568239",
+      "30563891",
+      "30425290",
+      "30104472",
+      "29255269",
+      "29112457",
+      "28616588",
+      "28052254",
+      "27188576",
+      "26925794",
+      "26718746",
+      "26291008",
+      "25822800",
+      "25316557",
+      "23163853",
+      "21295154",
+      "20427518",
+      "17210947",
+      "15001782",
+      "11420279"
+    ],
+    "similar": [
+      "41933146",
+      "39354528",
+      "37378675",
+      "41583466",
+      "41436831",
+      "41394854",
+      "42499036",
+      "42244292",
+      "38682187",
+      "41339815",
+      "41731832",
+      "42495647",
+      "41742055",
+      "41634895",
+      "40469299",
+      "42079738",
+      "33256552",
+      "41430351",
+      "41383634",
+      "41180485",
+      "38841624",
+      "38708353",
+      "41822495",
+      "39148731",
+      "41656832",
+      "36703911",
+      "35254116",
+      "38728242",
+      "40210478",
+      "40463372",
+      "40777041",
+      "40460484",
+      "41815152",
+      "35833114",
+      "39331210",
+      "40515720",
+      "40672941",
+      "41872824",
+      "40746552",
+      "41760846",
+      "41239716",
+      "40179422",
+      "42186940",
+      "41208974",
+      "39383787",
+      "39950044",
+      "37841237",
+      "39963131",
+      "37898914",
+      "41562084",
+      "36311724",
+      "41049291",
+      "40353888",
+      "38186574",
+      "42120472",
+      "41606426",
+      "32795325",
+      "34416861",
+      "41559128",
+      "41371106",
+      "38764064",
+      "42238598",
+      "39871215",
+      "38757752",
+      "40152390",
+      "40519919",
+      "41123817",
+      "40682067",
+      "38988926",
+      "39794414",
+      "40057601",
+      "38044747",
+      "41540361",
+      "41500779",
+      "39488588",
+      "41948338",
+      "39478862",
+      "39850875",
+      "41895243",
+      "40956482",
+      "38740381",
+      "42292425",
+      "42079608",
+      "41798945",
+      "39267750",
+      "40330470",
+      "39806313",
+      "34745015",
+      "39823156",
+      "41342621",
+      "40181976",
+      "39018675",
+      "40860289",
+      "41320661",
+      "40114488",
+      "42469385",
+      "36479114",
+      "42530271",
+      "42488648",
+      "40418400"
+    ],
+    "review": [
+      "41933146"
+    ],
+    "pmc": [
+      "13199421"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-47184-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41933146/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

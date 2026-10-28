@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, experimental design, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The manuscript compares alignment-based PSSM features with pretrained ESM-1b features for DNA-binding protein identification, reporting that ESM representations outperform PSSM-derived features, and that an ensemble model (FSEiDBP) integrating multiple feature selection models improves classification performance.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusion, Data Availability, Conflicts of Interest, Authors' Contributions, Supplementary Materials, Acknowledgments
+- **Missing materials affecting confidence** Supplementary tables (Table S1, Table S21), full result tables (Tables 2-5), code availability, hyperparameter settings, and detailed experimental configurations are not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in computational biology, namely whether pretrained protein language model representations can replace alignment-based PSSM features for DNA-binding protein identification. The comparative framework is systematic and the authors make an effort to ensure fair comparison through unified feature extraction operations. However, several methodological details are missing, the statistical rigor of the comparisons is not established, and the claimed superiority of ESM features is not fully supported by the evidence presented. The ensemble model, while showing improvement, is not compared against state-of-the-art methods that use pretrained representations, limiting the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in bioinformatics and computational biology working on protein function prediction, particularly those interested in applying pretrained language models to downstream tasks. The comparison between traditional alignment-based features and modern deep learning representations is of broad interest to the protein function annotation community.
+- **Major strengths** The manuscript addresses an important practical question about the utility of pretrained language models versus traditional alignment-based features. The experimental design includes multiple feature extraction operations, multiple feature selection methods, and multiple classifiers, providing a reasonably comprehensive comparison. The authors make an effort to ensure fair comparison by using unified averaging operations for both feature types. The ensemble approach is a sensible strategy to leverage multiple models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that "the pretrained ESM representation outperforms the PSSM-derived features in a fair comparison perspective" and that the ensemble model "significantly improves the classification performance."
+  - **Evidence pointer** Tables 2-5, Section 3
+  - **Concern** The manuscript reports performance metrics but does not provide any statistical significance testing (e.g., paired t-tests, Wilcoxon signed-rank tests, or confidence intervals) to support the claim that ESM features outperform PSSM features. The word "significantly" is used without statistical backing. Additionally, the five-fold cross-validation results are reported as single values without variance estimates, making it impossible to assess the stability of the observed differences.
+  - **Why it matters** Without statistical testing, the observed performance differences could be within the range of random variation, especially given the relatively small dataset size (808 positive and 808 negative samples). The central claim of the manuscript depends on demonstrating a reliable, reproducible advantage of ESM over PSSM features.
+  - **Resolution test** Provide mean and standard deviation (or confidence intervals) across cross-validation folds, and perform appropriate statistical tests (e.g., paired tests across folds or repeated cross-validation) to demonstrate that the ESM advantage is statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript describes a two-stage feature selection procedure and an ensemble model, but the details are insufficient for reproduction.
+  - **Evidence pointer** Sections 2.4, 2.5, Tables 3-4
+  - **Concern** The manuscript does not specify several critical methodological details: (1) the exact hyperparameters for the SVM classifier (C value, gamma, kernel parameters); (2) the number of features selected in the RFECV stage for each case; (3) how the "optimal" number of features was determined in the importance-based ranking stage (e.g., was it based on cross-validation performance?); (4) the computational cost of generating ESM features versus PSSM features, which is relevant to the practical utility argument; (5) the runtime for the ensemble model. Without these details, the experiments cannot be reproduced or independently verified.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The lack of hyperparameter details and feature selection criteria undermines the reliability of the reported results and prevents other researchers from building on this work.
+  - **Resolution test** Provide complete experimental configurations, including all hyperparameters, feature selection criteria, and computational resource requirements. Consider making code and data publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative validity
+  - **Claim pointer** The manuscript compares FSEiDBP with 13 existing DBP predictors and claims superior performance, but the comparison may not be fair or complete.
+  - **Evidence pointer** Section 3.4, Table 5
+  - **Concern** The comparison with existing predictors is problematic for several reasons. First, the existing predictors were not retrained on the same training set (PDB1616) used for FSEiDBP, so the comparison may reflect differences in training data rather than methodological superiority. Second, the manuscript does not specify whether the existing predictors were used with their default parameters or optimized for this dataset. Third, the comparison does not include any recent methods that use pretrained language models, which would be the most relevant baseline for the central claim of the manuscript. Finally, the manuscript states that "the proposed classification model of DBPs is not state-of-the-art," which undermines the significance of the reported improvements.
+  - **Why it matters** The claim of superior performance over existing predictors is central to the practical utility of the proposed approach. An unfair or incomplete comparison weakens this claim and limits the conclusions that can be drawn.
+  - **Resolution test** Retrain existing predictors on the same training set with appropriate hyperparameter tuning, include recent pretrained-representation-based methods in the comparison, and clarify the relationship between FSEiDBP and state-of-the-art performance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dataset representativeness
+  - **Claim pointer** The manuscript uses a new dataset (PDB1616) for training and the established PDB186 for testing, but the dataset construction and potential biases are not fully addressed.
+  - **Evidence pointer** Section 2.1
+  - **Concern** The construction of the negative set (non-DNA-binding proteins) is described only briefly as "randomly selected from sequences deposited in PDB after January 2018." This raises concerns about potential biases: (1) the negative set may contain proteins that are actually DNA-binding but not yet annotated; (2) the temporal cutoff (after January 2018) may introduce structural or functional biases; (3) the manuscript does not report the sequence length distribution, domain composition, or other characteristics of the positive and negative sets, which could affect the generalizability of the results. Additionally, the manuscript does not discuss whether the PDB186 test set is representative of the diversity of DNA-binding proteins.
+  - **Why it matters** Dataset bias can lead to overoptimistic performance estimates and poor generalization. The validity of the comparative conclusions depends on the quality and representativeness of the benchmark datasets.
+  - **Resolution test** Provide detailed characterization of the datasets, including sequence length distributions, functional annotations, and potential redundancy analysis. Discuss potential biases and their impact on the conclusions. Consider using additional independent test sets to validate the findings.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Feature extraction rationale
+  - **Claim pointer** The manuscript states that "the number of features from the former representation is much more than that of the latter representation" as a potential explanation for ESM superiority, but this is not adequately investigated.
+  - **Evidence pointer** Section 3.2, Figures 1-3
+  - **Concern** The manuscript acknowledges that ESM features have higher dimensionality (1280 per residue) compared to PSSM features (20 per residue), which could explain performance differences due to increased model capacity rather than intrinsic feature quality. While the authors attempt to address this through equal-feature-count comparisons (Figure 3), the analysis is limited to a few feature counts and does not systematically investigate the relationship between feature dimensionality and performance. Additionally, the manuscript does not explore whether dimensionality reduction techniques (e.g., PCA) on ESM features would maintain the performance advantage.
+  - **Why it matters** The central claim that ESM representations are intrinsically better than PSSM representations for DBP identification requires ruling out the alternative explanation that the performance difference is simply due to higher feature dimensionality. Without this analysis, the conclusion is not fully supported.
+  - **Resolution test** Perform a systematic analysis of performance as a function of feature dimensionality for both ESM and PSSM features, including dimensionality reduction techniques, to determine whether the ESM advantage persists when feature counts are matched.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3.4, Equation 6
+  - **Evidence pointer** Section 2.3.4
+  - **Issue** The definition of the residue-residue correlation feature in Equation 6 is unclear. The notation uses the Hadamard product symbol but the text does not explain the intuition behind this feature or why it captures residue-residue correlations. Additionally, the manuscript does not specify how the three values of phi (1, 2, 3) are combined into the final feature vector.
+  - **Required correction** Provide a clearer explanation of the residue-residue correlation feature, including the intuition and how the different phi values are concatenated or aggregated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.1, Table 2
+  - **Evidence pointer** Section 3.1
+  - **Issue** The manuscript states that "the support vector machine (SVM) with the Gaussian kernel has generally achieved the best prediction results" but does not provide the full results for all classifiers in the text. The reader is referred to Table 2, but the table is not included in the provided material.
+  - **Required correction** Summarize the key results in the text and ensure that all tables are complete and accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2.2
+  - **Evidence pointer** Section 2.2.2
+  - **Issue** The manuscript refers to ESM-1b as a "pretrained language model" but does not clarify the distinction between the ESM-1b model and the ESM-1v variant mentioned in the same section. The relevance of ESM-1v to this study is unclear.
+  - **Required correction** Clarify the relationship between ESM-1b and ESM-1v and explain why ESM-1v is mentioned if it is not used in the experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data Availability
+  - **Evidence pointer** Data Availability section
+  - **Issue** The data availability statement says that data are available in the manuscript and supplementary file, but the supplementary file is not provided for review. Additionally, no code availability statement is included.
+  - **Required correction** Provide the supplementary file for review and include a code availability statement if code is used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Abstract and Conclusion
+  - **Evidence pointer** Abstract, Section 4
+  - **Issue** The phrase "pretrained feature presentation" in the Conclusion appears to be a typo for "pretrained feature representation." Additionally, the Abstract states that "the pretrained feature presentation deserves wide application," which is awkwardly phrased.
+  - **Required correction** Correct the typo and rephrase for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical significance), R1-M2 (methodological completeness), R1-M3 (comparative validity)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The comparison of PSSM versus pretrained language model features for DBP identification is a useful contribution, but the approach is not conceptually novel. The use of averaging operations for feature extraction is straightforward and does not introduce new methodology.
+  - Scientific importance: Moderate. The question of whether pretrained representations can replace alignment-based features is relevant to the field, but the impact is limited by the narrow scope (only DBP identification) and the lack of state-of-the-art comparisons.
+  - Interdisciplinary readership: Limited. The manuscript is primarily of interest to bioinformatics researchers working on protein function prediction. The methods and results are unlikely to attract readers from outside this subfield.
+  - Technical soundness: The experimental design is reasonable but the lack of statistical testing and incomplete methodological details undermine the technical rigor. The dataset construction and comparison methodology have potential biases that are not adequately addressed.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible to readers with a background in bioinformatics. However, some sections (e.g., the feature extraction equations) could benefit from clearer explanations.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the experimental framework is systematic, but the central claims require additional statistical support, methodological details, and more rigorous comparisons to be convincing. The authors should address the major concerns before the case for ESM superiority over PSSM features can be considered established.
+
+## Risk / unsupported claims
+- The claim that "the pretrained ESM representation outperforms the PSSM-derived features" is not supported by statistical testing and may be confounded by feature dimensionality differences.
+- The claim that the ensemble model "significantly improves the classification performance" is not supported by statistical evidence.
+- The claim that "it is time to abstain from the time-consuming alignment-based evolutionary profile such as PSSM" is an overgeneralization not fully supported by the presented results, especially given the acknowledged lack of state-of-the-art performance.
+- The comparison with 13 existing predictors is potentially unfair because the existing predictors were not retrained on the same dataset, and the manuscript does not specify the conditions under which they were evaluated.
+- The dataset construction and potential biases in the negative set are not adequately characterized, making the generalizability of the results uncertain.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36119976",
+  "title": "Identifying Transcription Factors That Prefer Binding to Methylated DNA Using Reduced G-Gap Dipeptide Composition.",
+  "authors": "Nguyen, Quang H; Tran, Hoang V; Nguyen, Binh P; Do, Trang T T",
+  "journal": "ACS omega",
+  "published_date": "2022-09-20",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习方法识别偏好结合甲基化DNA的转录因子，虽涉及TF-DNA结合预测，但主要基于序列特征分类，缺乏三维互作建模与机制研究，方法可迁移但深度有限。",
+  "abstract": "Transcription factors (TFs) play an important role in gene expression and regulation of 3D genome conformation. TFs have ability to bind to specific DNA fragments called enhancers and promoters. Some TFs bind to promoter DNA fragments which are near the transcription initiation site and form complexes that allow polymerase enzymes to bind to initiate transcription. Previous studies showed that methylated DNAs had ability to inhibit and prevent TFs from binding to DNA fragments. However, recent studies have found that there were TFs that could bind to methylated DNA fragments. The identification of these TFs is an important steppingstone to a better understanding of cellular gene expression mechanisms. However, as experimental methods are often time-consuming and labor-intensive, developing computational methods is essential. In this study, we propose two machine learning methods for two problems: (1) identifying TFs and (2) identifying TFs that prefer binding to methylated DNA targets (TFPMs). For the TF identification problem, the proposed method uses the position-specific scoring matrix for data representation and a deep convolutional neural network for modeling. This method achieved 90.56% sensitivity, 83.96% specificity, and an area under the receiver operating characteristic curve (AUC) of 0.9596 on an independent test set. For the TFPM identification problem, we propose to use the reduced g-gap dipeptide composition for data representation and the support vector machine algorithm for modeling. This method achieved 82.61% sensitivity, 64.86% specificity, and an AUC of 0.8486 on another independent test set. These results are higher than those of other studies on the same problems.",
+  "abstract_zh": "转录因子（TFs）在基因表达和三维基因组构象调控中发挥重要作用。TFs具有结合特定DNA片段（称为增强子和启动子）的能力。一些TFs结合位于转录起始位点附近的启动子DNA片段，并形成复合物，使聚合酶能够结合以启动转录。先前研究表明，甲基化DNA具有抑制和阻止TFs结合DNA片段的能力。然而，近期研究发现存在能够结合甲基化DNA片段的TFs。识别这些TFs是更好理解细胞基因表达机制的重要基石。然而，由于实验方法通常耗时且费力，开发计算方法至关重要。在本研究中，我们针对两个问题提出了两种机器学习方法：（1）识别TFs和（2）识别偏好结合甲基化DNA靶标的TFs（TFPMs）。对于TF识别问题，所提出的方法使用位置特异性评分矩阵进行数据表示，并使用深度卷积神经网络进行建模。该方法在独立测试集上实现了90.56%的敏感性、83.96%的特异性，以及接收者操作特征曲线下面积（AUC）为0.9596。对于TFPM识别问题，我们提出使用减少的g-gap二肽组成进行数据表示，并使用支持向量机算法进行建模。该方法在另一个独立测试集上实现了82.61%的敏感性、64.86%的特异性，以及AUC为0.8486。这些结果高于其他针对相同问题的研究结果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36119976/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36119976/",
+  "paper_page_path": "papers/pubmed/36119976/index.html"
+}

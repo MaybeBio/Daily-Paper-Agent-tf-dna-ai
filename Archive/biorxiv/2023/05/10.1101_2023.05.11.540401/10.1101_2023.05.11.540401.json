@@ -1,0 +1,1062 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.11.540401",
+  "title": "<i>De novo</i> distillation of thermodynamic affinity from deep learning regulatory sequence models of <i>in vivo</i> protein-DNA binding",
+  "doi": "10.1101/2023.05.11.540401",
+  "abstract": "Transcription factors (TF) are proteins that bind DNA in a sequence-specific manner to regulate gene transcription. Despite their unique intrinsic sequence preferences, in vivo genomic occupancy profiles of TFs differ across cellular contexts. Hence, deciphering the sequence determinants of TF binding, both intrinsic and context-specific, is essential to understand gene regulation and the impact of regulatory, non-coding genetic variation. Biophysical models trained on in vitro TF binding assays can estimate intrinsic affinity landscapes and predict occupancy based on TF concentration and affinity. However, these models cannot adequately explain context-specific, in vivo binding profiles. Conversely, deep learning models, trained on in vivo TF binding assays, effectively predict and explain genomic occupancy profiles as a function of complex regulatory sequence syntax, albeit without a clear biophysical interpretation. To reconcile these complementary models of in vitro and in vivo TF binding, we developed Affinity Distillation (AD), a method that extracts thermodynamic affinities de-novo from deep learning models of TF chromatin immunoprecipitation (ChIP) experiments by marginalizing away the influence of genomic sequence context. Applied to neural networks modeling diverse classes of yeast and mammalian TFs, AD predicts energetic impacts of sequence variation within and surrounding motifs on TF binding as measured by diverse in vitro assays with superior dynamic range and accuracy compared to motif-based methods. Furthermore, AD can accurately discern affinities of TF paralogs. Our results highlight thermodynamic affinity as a key determinant of in vivo binding, suggest that deep learning models of in vivo binding implicitly learn high-resolution affinity landscapes, and show that these affinities can be successfully distilled using AD. This new biophysical interpretation of deep learning models enables high-throughput in silico experiments to explore the influence of sequence context and variation on both intrinsic affinity and in vivo occupancy.",
+  "authors": [
+    "Amr M. Alexandari",
+    "Connor A. Horton",
+    "Avanti Shrikumar",
+    "Nilay Shah",
+    "Eileen Li",
+    "Melanie Weilert",
+    "Miles A. Pufall",
+    "Julia Zeitlinger",
+    "Polly M. Fordyce",
+    "Anshul Kundaje"
+  ],
+  "published_date": "2023-05-11",
+  "updated_date": "2023-05-12T00:25:39Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540401",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540401.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            26
+          ]
+        ],
+        "date-time": "2026-09-26T04:09:45Z",
+        "timestamp": 1790395785416,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            11
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 129,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Transcription factors (TF) are proteins that bind DNA in a sequence-specific manner to regulate gene transcription. Despite their unique intrinsic sequence preferences,\n                  <jats:italic>in vivo</jats:italic>\n                  genomic occupancy profiles of TFs differ across cellular contexts. Hence, deciphering the sequence determinants of TF binding, both intrinsic and context-specific, is essential to understand gene regulation and the impact of regulatory, non-coding genetic variation. Biophysical models trained on\n                  <jats:italic>in vitro</jats:italic>\n                  TF binding assays can estimate intrinsic affinity landscapes and predict occupancy based on TF concentration and affinity. However, these models cannot adequately explain context-specific,\n                  <jats:italic>in vivo</jats:italic>\n                  binding profiles. Conversely, deep learning models, trained on\n                  <jats:italic>in vivo</jats:italic>\n                  TF binding assays, effectively predict and explain genomic occupancy profiles as a function of complex regulatory sequence syntax, albeit without a clear biophysical interpretation. To reconcile these complementary models of\n                  <jats:italic>in vitro</jats:italic>\n                  and\n                  <jats:italic>in vivo</jats:italic>\n                  TF binding, we developed Affinity Distillation (AD), a method that extracts thermodynamic affinities\n                  <jats:italic>de-novo</jats:italic>\n                  from deep learning models of TF chromatin immunoprecipitation (ChIP) experiments by marginalizing away the influence of genomic sequence context. Applied to neural networks modeling diverse classes of yeast and mammalian TFs, AD predicts energetic impacts of sequence variation within and surrounding motifs on TF binding as measured by diverse\n                  <jats:italic>in vitro</jats:italic>\n                  assays with superior dynamic range and accuracy compared to motif-based methods. Furthermore, AD can accurately discern affinities of TF paralogs. Our results highlight thermodynamic affinity as a key determinant of\n                  <jats:italic>in vivo</jats:italic>\n                  binding, suggest that deep learning models of\n                  <jats:italic>in vivo</jats:italic>\n                  binding implicitly learn high-resolution affinity landscapes, and show that these affinities can be successfully distilled using AD. This new biophysical interpretation of deep learning models enables high-throughput\n                  <jats:italic>in silico</jats:italic>\n                  experiments to explore the influence of sequence context and variation on both intrinsic affinity and\n                  <jats:italic>in vivo</jats:italic>\n                  occupancy.\n                </jats:p>",
+      "DOI": "10.1101/2023.05.11.540401",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2023-05-12T00:25:39Z",
+        "timestamp": 1683851139000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 9,
+      "title": [
+        "<i>De novo</i>\n                  distillation of thermodynamic affinity from deep learning regulatory sequence models of\n                  <i>in vivo</i>\n                  protein-DNA binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8655-8109",
+          "authenticated-orcid": false,
+          "given": "Amr M.",
+          "family": "Alexandari",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6018-3556",
+          "authenticated-orcid": false,
+          "given": "Connor A.",
+          "family": "Horton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6443-4671",
+          "authenticated-orcid": false,
+          "given": "Avanti",
+          "family": "Shrikumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0081-8537",
+          "authenticated-orcid": false,
+          "given": "Nilay",
+          "family": "Shah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eileen",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8683-4580",
+          "authenticated-orcid": false,
+          "given": "Melanie",
+          "family": "Weilert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7022-6916",
+          "authenticated-orcid": false,
+          "given": "Miles A.",
+          "family": "Pufall",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5172-3335",
+          "authenticated-orcid": false,
+          "given": "Julia",
+          "family": "Zeitlinger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9505-0638",
+          "authenticated-orcid": false,
+          "given": "Polly M.",
+          "family": "Fordyce",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3084-2287",
+          "authenticated-orcid": false,
+          "given": "Anshul",
+          "family": "Kundaje",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "12",
+          "key": "2023051308250567000_2023.05.11.540401v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2693",
+          "DOI": "10.1002/jcb.25605",
+          "article-title": "Transcription Factor Drug Targets",
+          "volume": "117",
+          "year": "2016",
+          "journal-title": "J Cell Biochem"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/1389201003379022"
+        },
+        {
+          "issue": "1",
+          "key": "2023051308250567000_2023.05.11.540401v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1016/j.trecan.2015.07.001",
+          "article-title": "Targeting Transcription Factors in Cancer",
+          "volume": "1",
+          "year": "2015",
+          "journal-title": "Trends Cancer Res"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc906"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.136127.111"
+        },
+        {
+          "issue": "6099",
+          "key": "2023051308250567000_2023.05.11.540401v1.6",
+          "first-page": "1190",
+          "article-title": "Systematic localization of common disease-associated variation in regulatory DNA",
+          "volume": "7",
+          "year": "2012",
+          "journal-title": "Science"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.07.012"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Machens F , Balazadeh S , Mueller-Roeber B , Messerschmidt K . Synthetic Promoters and Transcription Factors for Heterologous Protein Expression in Saccharomyces cerevisiae. Front Bioeng Biotechnol. 2017 Oct 19;5:63.",
+          "DOI": "10.3389/fbioe.2017.00063"
+        },
+        {
+          "issue": "18",
+          "key": "2023051308250567000_2023.05.11.540401v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "5265",
+          "DOI": "10.1111/febs.15652",
+          "article-title": "A guide to the design of synthetic gene networks in mammalian cells",
+          "volume": "288",
+          "year": "2021",
+          "journal-title": "FEBS J"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2926"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2005.02.007"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.13",
+          "unstructured": "Rydenfelt MSO , California Institute of Technology. Division of Physics, Mathematics and Astronomy. The Combinatorics of Transcriptional Regulation. 2014. 362 p."
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/10.9.2997"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(98)01187-6"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/15.7.563"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.86.4.1183"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003214"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2008.195"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2013.03.014"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-1242-1_16"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1131007"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.5.1255"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1162327"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "229",
+          "DOI": "10.1016/bs.mcb.2018.09.011",
+          "article-title": "BET-seq: Binding energy topographies revealed by microfluidics and high-throughput sequencing",
+          "volume": "148",
+          "year": "2018",
+          "journal-title": "Methods Cell Biol"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt221"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.112.138685"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000154"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang Y , Ho TD , Buchler NE , Gordân R . Competition for DNA binding between paralogous transcription factors determines their genomic occupancy and regulatory functions. Genome Res [Internet]. 2021 May 11; Available from: http://dx.doi.org/10.1101/gr.275145.120",
+          "DOI": "10.1101/gr.275145.120"
+        },
+        {
+          "issue": "4",
+          "key": "2023051308250567000_2023.05.11.540401v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "470",
+          "DOI": "10.1016/j.cels.2018.02.009",
+          "article-title": "Divergence in DNA Specificity among Paralogous Transcription Factors Contributes to Their Differential In Vivo Binding",
+          "volume": "6",
+          "year": "2018",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1410569111"
+        },
+        {
+          "issue": "3",
+          "key": "2023051308250567000_2023.05.11.540401v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "287a",
+          "DOI": "10.1016/j.bpj.2021.11.1305",
+          "article-title": "Short tandem repeats recruit transcription factors to tune eukaryotic gene expression",
+          "volume": "121",
+          "year": "2022",
+          "journal-title": "Biophys J"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1112"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1002610"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rhee HS , Pugh BF . ChIP-exo method for identifying genomic location of DNA-binding proteins with near-single-nucleotide accuracy. Curr Protoc Mol Biol. 2012 Oct;Chapter 21(1):Unit 21.24.",
+          "DOI": "10.1002/0471142727.mb2124s100"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3121"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "129",
+          "DOI": "10.1007/978-1-0716-2257-5_9",
+          "article-title": "RUN Profiling of the Budding Yeast Epigenome",
+          "volume": "2477",
+          "year": "2022",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1006",
+          "DOI": "10.1038/nprot.2018.015",
+          "article-title": "Targeted in situ genome-wide profiling with high efficiency for low cell numbers [Internet]",
+          "volume": "13",
+          "year": "2018",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03314-8"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1160"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1315"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Neikes HK , Lindeboom RGH , Gräwe C , Lamers LA , Baltissen MP , Jansen PWT , et al. Chromatin regulates genome-wide transcription factor binding affinities [Internet]. bioRxiv. 2022 [cited 2022 Apr 26]. p. 2022.04.04.486948. Available from: https://www.biorxiv.org/content/10.1101/2022.04.04.486948v1.abstract",
+          "DOI": "10.1101/2022.04.04.486948"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3547"
+        },
+        {
+          "issue": "3",
+          "key": "2023051308250567000_2023.05.11.540401v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "354",
+          "DOI": "10.1038/s41588-021-00782-6",
+          "article-title": "Base-resolution models of transcription-factor binding reveal soft motif syntax",
+          "volume": "53",
+          "year": "2021",
+          "journal-title": "Nat Genet"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.48",
+          "unstructured": "Hinton G , Vinyals O , Dean J. Distilling the Knowledge in a Neural Network. 2015 Mar 9 [cited 2022 Apr 26]; Available from: http://dx.doi.org/10.48550/arXiv.1503.02531"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.49",
+          "first-page": "1324",
+          "article-title": "Marginal Contribution Feature Importance – an Axiomatic Approach for Explaining Data",
+          "volume": "139",
+          "year": "2021",
+          "journal-title": "Proc Mach Learn Res"
+        },
+        {
+          "issue": "5",
+          "key": "2023051308250567000_2023.05.11.540401v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1008925",
+          "DOI": "10.1371/journal.pcbi.1008925",
+          "article-title": "Global importance analysis: An interpretability method to quantify importance of genomic features in deep neural networks",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fu W , Menzies T . Easy over Hard: A Case Study on Deep Learning [Internet]. arXiv [cs.SE]. 2017. Available from: http://arxiv.org/abs/1703.00133",
+          "DOI": "10.1145/3106237.3106256"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.229518.117"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.53",
+          "unstructured": "Zhang C , Bengio S , Hardt M , Recht B , Vinyals O . Understanding deep learning requires rethinking generalization [Internet]. arXiv [cs.LG]. 2016. Available from: http://arxiv.org/abs/1611.03530"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.54",
+          "unstructured": "Liu J , Jiang G , Bai Y , Chen T , Wang H . Understanding Why Neural Networks Generalize Well Through GSNR of Parameters [Internet]. arXiv [cs.LG]. 2020. Available from: http://arxiv.org/abs/2001.07384"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.55",
+          "unstructured": "Allen-Zhu Z , Li Y , Liang Y . Learning and Generalization in Overparameterized Neural Networks, Going Beyond Two Layers [Internet]. arXiv [cs.LG]. 2018. Available from: http://arxiv.org/abs/1811.04918"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.56",
+          "unstructured": "Ba LJ , Caruana R . Do Deep Nets Really Need to be Deep? [Internet]. arXiv [cs.LG]. 2013. Available from: http://arxiv.org/abs/1312.6184"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2001238117"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.58",
+          "unstructured": "Guo C , Pleiss G , Sun Y , Weinberger KQ . On Calibration of Modern Neural Networks [Internet]. arXiv [cs.LG]. 2017. Available from: http://arxiv.org/abs/1706.04599"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw489"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1053"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li N , Tompa M . Analysis of computational approaches for motif discovery. Algorithms Mol Biol. 2006 May 19;1:8.",
+          "DOI": "10.1186/1748-7188-1-8"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.62",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bailey TL . STREME: Accurate and versatile sequence motif discovery. Bioinformatics [Internet]. 2021 Mar 24; Available from: http://dx.doi.org/10.1093/bioinformatics/btab203",
+          "DOI": "10.1101/2020.11.23.394619"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.63",
+          "unstructured": "Shrikumar A , Tian K , Shcherbina A , Avsec Ž , Banerjee A , Sharmin M , et al. Tf-Modisco v0. 4.4. 2-Alpha. arXiv preprint arXiv:1811 00416. 2018;"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1016/j.coisb.2020.08.002",
+          "article-title": "Seven myths of how transcription factors read the cis-regulatory code",
+          "volume": "23",
+          "year": "2020",
+          "journal-title": "Curr Opin Syst Biol"
+        },
+        {
+          "issue": "12",
+          "key": "2023051308250567000_2023.05.11.540401v1.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "4309",
+          "DOI": "10.1091/mbc.11.12.4309",
+          "article-title": "New Components of a System for Phosphate Accumulation and Polyphosphate Metabolism in Saccharomyces cerevisiaeRevealed by Genomic Expression Analysis",
+          "volume": "11",
+          "year": "2000",
+          "journal-title": "MBoC"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.7939631"
+        },
+        {
+          "issue": "5246",
+          "key": "2023051308250567000_2023.05.11.540401v1.67",
+          "first-page": "209",
+          "article-title": "Regulation of PHO4 nuclear localization by the PHO80-PHO85 cyclin-CDK complex",
+          "volume": "12",
+          "year": "1996",
+          "journal-title": "Science"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.05.025"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt210"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2011.89"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.06.019"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.72",
+          "doi-asserted-by": "crossref",
+          "unstructured": "72. DNA-binding specificity changes in the evolution of forkhead transcription factors [Internet]. PNAS. [cited 2022 Apr 26]. Available from: https://www.pnas.org/content/pnas/110/30/12349",
+          "DOI": "10.1073/pnas.1310430110"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Morgunova E , Yin Y , Das PK , Jolma A , Zhu F , Popov A , et al. Two distinct DNA sequences recognized by transcription factors represent enthalpy and entropy optima. Elife [Internet]. 2018 Apr 11;7. Available from: http://dx.doi.org/10.7554/eLife.32963",
+          "DOI": "10.7554/eLife.32963"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.01.019"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2013.08.033"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.76",
+          "first-page": "18613",
+          "article-title": "RandAugment: Practical automated data augmentation with a reduced search space",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Adv Neural Inf Process Syst"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.77",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anicet Zanini R , Luna Colombini E . Parkinson’s Disease EMG Data Augmentation and Simulation with DCGANs and Style Transfer. Sensors [Internet]. 2020 May 3;20(9). Available from: http://dx.doi.org/10.3390/s20092605",
+          "DOI": "10.3390/s20092605"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.188193.114"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl565"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3884"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(86)90339-9"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tips.2013.07.003"
+        },
+        {
+          "issue": "3",
+          "key": "2023051308250567000_2023.05.11.540401v1.83",
+          "first-page": "1752",
+          "article-title": "Bickel PJ",
+          "volume": "5",
+          "year": "2011",
+          "journal-title": "Measuring reproducibility of high-throughput experiments. aoas"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11245"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt230"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1675"
+        },
+        {
+          "issue": "1",
+          "key": "2023051308250567000_2023.05.11.540401v1.87",
+          "doi-asserted-by": "crossref",
+          "first-page": "1987",
+          "DOI": "10.1038/s41467-021-22234-9",
+          "article-title": "Genome-wide binding potential and regulatory activity of the glucocorticoid receptor’s monomeric and dimeric forms",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.88",
+          "doi-asserted-by": "crossref",
+          "first-page": "1693",
+          "DOI": "10.3389/fimmu.2019.01693",
+          "article-title": "GR Dimerization and the Impact of GR Dimerization on GR Protein Stability and Half-Life",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Front Immunol"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.89",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schiller BJ , Chodankar R , Watson LC , Stallcup MR , Yamamoto KR . Glucocorticoid receptor binds half sites as a monomer and regulates specific target genes [Internet]. Vol. 15, Genome Biology. 2014. Available from: http://dx.doi.org/10.1186/s13059-014-0418-y",
+          "DOI": "10.1186/s13059-014-0418-y"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1715888115"
+        },
+        {
+          "issue": "2",
+          "key": "2023051308250567000_2023.05.11.540401v1.91",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1016/j.cels.2020.11.012",
+          "article-title": "High-Throughput Affinity Measurements of Transcription Factor and DNA Mutations Reveal Affinity and Specificity Determinants",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3695"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2016.05.030"
+        },
+        {
+          "issue": "2",
+          "key": "2023051308250567000_2023.05.11.540401v1.94",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1002/pro.4222",
+          "article-title": "Substitutions at a rheostat position in human aldolase A cause a shift in the conformational population",
+          "volume": "31",
+          "year": "2022",
+          "journal-title": "Protein Sci"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-019-53464-z"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks806"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi800443k"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(91)90457-A"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1184"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.08.026"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.08.033"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc2231"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bcmd.2003.09.005"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.104",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Denechaud P-D , Fajas L , Giralt A . E2F1, a Novel Regulator of Metabolism. Front Endocrinol. 2017 Nov 10;8:311.",
+          "DOI": "10.3389/fendo.2017.00311"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1893"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt0806-959"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt250"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.108",
+          "unstructured": "Rastogi C , Feng S , Kribelbauer JF , Li A , Becerra B , Melo LAN , et al. Probing molecular specificity with deep sequencing and biophysically interpretable machine learning. 2021; Available from: https://europepmc.org/article/ppr/ppr364369"
+        },
+        {
+          "issue": "1",
+          "key": "2023051308250567000_2023.05.11.540401v1.109",
+          "doi-asserted-by": "crossref",
+          "first-page": "98",
+          "DOI": "10.1186/s13059-022-02661-7",
+          "article-title": "MAVE-NN: learning genotype-phenotype maps from multiplex assays of variant effect",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.110",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tareen A , Kinney JB . Biophysical models of cis-regulation as interpretable neural networks [Internet]. arXiv [q-bio.MN]. 2019. Available from: http://arxiv.org/abs/2001.03560",
+          "DOI": "10.1101/835942"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1605085113"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth0508-374"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1075090"
+        },
+        {
+          "issue": "1",
+          "key": "2023051308250567000_2023.05.11.540401v1.114",
+          "doi-asserted-by": "crossref",
+          "first-page": "10",
+          "DOI": "10.14806/ej.17.1.200",
+          "article-title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+          "volume": "17",
+          "year": "2011",
+          "journal-title": "EMBnet.journal"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.115",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Langmead B . Aligning short sequencing reads with Bowtie. Curr Protoc Bioinformatics. 2010 Dec;Chapter 11(1):Unit 11.7.",
+          "DOI": "10.1002/0471250953.bi1107s32"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.117",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.118",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbw023"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.119",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gaspar JM . Improved peak-calling with MACS2 [Internet]. bioRxiv. 2018 [cited 2022 Apr 26]. p. 496521. Available from: https://www.biorxiv.org/content/biorxiv/early/2018/12/17/496521",
+          "DOI": "10.1101/496521"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.120",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shrikumar A , Greenside P , Kundaje A . Reverse-complement parameter sharing improves deep learning models for genomics [Internet]. bioRxiv. 2017 [cited 2022 Apr 26]. p. 103663. Available from: https://www.biorxiv.org/content/10.1101/103663",
+          "DOI": "10.1101/103663"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.121",
+          "unstructured": "Chollet F . Keras: The Python Deep Learning library [Internet]. Astrophysics Source Code Library. 2018. p. ascl:1806.022. Available from: https://ui.adsabs.harvard.edu/abs/2018ascl.soft06022C"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.122",
+          "unstructured": "Abadi M , Agarwal A , Barham P , Brevdo E , Chen Z , Citro C , et al. TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems [Internet]. arXiv [cs.DC]. 2016. Available from: http://arxiv.org/abs/1603.04467"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.123",
+          "unstructured": "Kingma DP , Ba J . Adam: A Method for Stochastic Optimization [Internet]. arXiv [cs.LG]. 2014. Available from: http://arxiv.org/abs/1412.6980"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.124",
+          "unstructured": "Lundberg S , Lee S-I . A Unified Approach to Interpreting Model Predictions [Internet]. arXiv [cs.AI]. 2017. Available from: http://arxiv.org/abs/1705.07874"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.125",
+          "unstructured": "Shrikumar A , Greenside P , Kundaje A . Learning Important Features Through Propagating Activation Differences. In: Precup D, Teh YW, editors. Proceedings of the 34th International Conference on Machine Learning. PMLR; 06--11 Aug 2017. p. 3145–53. (Proceedings of Machine Learning Research; vol. 70)."
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.126",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bailey TL , Boden M , Buske FA , Frith M , Grant CE , Clementi L , et al. MEME SUITE: tools for motif discovery and searching. Nucleic Acids Res. 2009 Jul;37(Web Server issue):W202-8.",
+          "DOI": "10.1093/nar/gkp335"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.127",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2014.083"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.128",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pavesi G , Mereghetti P , Mauri G , Pesole G . Weeder Web: discovery of transcription factor binding sites in a set of sequences from co-regulated genes. Nucleic Acids Res. 2004 Jul 1;32(Web Server issue):W199-203.",
+          "DOI": "10.1093/nar/gkh465"
+        },
+        {
+          "key": "2023051308250567000_2023.05.11.540401v1.129",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Castro-Mondragon JA , Riudavets-Puig R , Rauluseviciute I , Lemma RB , Turchi L , Blanc-Mathieu R , et al. JASPAR 2022: the 9th release of the open-access database of transcription factor binding profiles. Nucleic Acids Res. 2022 Jan 7;50(D1):D165–73.",
+          "DOI": "10.1093/nar/gkab1113"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.11.540401",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:38:51Z",
+        "timestamp": 1768451931000
+      },
+      "score": 125.93195,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.05.11.540401"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            11
+          ]
+        ]
+      },
+      "references-count": 129,
+      "URL": "https://doi.org/10.1101/2023.05.11.540401",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "41616469",
+    "doi": "10.1016/j.biopha.2026.119072",
+    "title": "Cyanidin-3-glucoside confers neuroprotection in ischemic stroke by targeting NOX4-mediated oxidative stress: A network pharmacology and experimental validation study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: To investigate the neuroprotective effect of the dietary anthocyanin cyanidin-3-glucoside (C-3-G) in cerebral ischemia-reperfusion injury and elucidate its underlying molecular mechanisms by a network pharmacology and transcriptomics methods. METHODS: We employed a network pharmacology and transcriptomics approach to identify NOX4 as a key therapeutic target. This prediction was validated in silico via molecular docking and Boolean network modeling, and experimentally in a mouse model of middle cerebral artery occlusion (MCAO) and in a neuronal oxygen-glucose deprivation/reoxygenation (OGD/R) model. RESULTS: Network pharmacology and PPI analysis identified NOX4 as a central target, and molecular docking supported a stable interaction between C-3-G and NOX4. Transcriptomic profiling showed Nox4 upregulation with enrichment of oxidative-stress and cell-death pathways; Boolean network simulations indicated that inhibiting Nox4 attenuates the ROS-injury cascade. In experimental validation, C-3-G reduced infarct size and cerebral edema and improved neurological function in the MCAO mouse model, accompanied by decreased MDA, restoration of SOD and GSH activities, inhibition of Nox4 activity, and normalization of the Nrf2-Keap1-HO-1 axis toward homeostasis. The in vitro findings were concordant with the in vivo results. Co-administration of C-3-G with the Nox4-selective inhibitor GLX351322 produced no additive benefit, indicating that C-3-G exerts its neuroprotective effects predominantly via the Nox4 pathway.Crucially, the neuroprotective effects of C-3-G were not additive with a selective NOX4 inhibitor, confirming NOX4 as its primary molecular target. CONCLUSION: C-3-G mitigates ischemia-reperfusion-induced oxidative stress and tissue injury by targeting Nox4 and modulating the Nrf2-Keap1-HO-1 antioxidant axis, supporting its potential as an adjunct therapy in the acute phase of ischemic stroke.",
+    "keywords": [
+      "Cyanidin-3-glucoside (C-3-G)",
+      "Ischemia-reperfusion injury",
+      "Ischemic stroke",
+      "Network pharmacology",
+      "Nox4",
+      "RNA-seq"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NADPH Oxidase 4/metabolism/genetics/antagonists & inhibitors",
+      "*Oxidative Stress/drug effects",
+      "*Anthocyanins/pharmacology",
+      "*Neuroprotective Agents/pharmacology",
+      "*Glucosides/pharmacology",
+      "*Ischemic Stroke/drug therapy/enzymology/pathology",
+      "Male",
+      "Molecular Docking Simulation",
+      "Infarction, Middle Cerebral Artery/drug therapy",
+      "Mice",
+      "Network Pharmacology",
+      "Mice, Inbred C57BL",
+      "Reperfusion Injury",
+      "NF-E2-Related Factor 2/metabolism",
+      "*Neuroprotection/drug effects",
+      "Disease Models, Animal",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiaoting",
+        "Gao, Yikun",
+        "Ye, Yingze",
+        "Wang, Jin",
+        "Xiong, Xiaoxing",
+        "Zhang, Jiehua",
+        "Wei, Liang",
+        "Gu, Lijuan"
+      ],
+      "short_names": [
+        "Li X",
+        "Gao Y",
+        "Ye Y",
+        "Wang J",
+        "Xiong X",
+        "Zhang J",
+        "Wei L",
+        "Gu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan 430000, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan 430000, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China.",
+        "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China; Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430000, China.",
+        "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430000, China.",
+        "Department of Stomatology, Renmin Hospital of Wuhan University, Wuhan 430000, China. Electronic address: zhangjiehua@whu.edu.cn.",
+        "Center of Translational Medicine, Sichuan Taikang Hospital, Chengdu 610000, China. Electronic address: weiliang05@tkhealthcare.com.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan 430000, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China. Electronic address: gulijuan@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiaoting",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan 430000, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yikun",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan 430000, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Yingze",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China; Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430000, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Xiaoxing",
+        "short_name": "Xiong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Renmin Hospital of Wuhan University, Wuhan 430000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiehua",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Renmin Hospital of Wuhan University, Wuhan 430000, China. Electronic address: zhangjiehua@whu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wei, Liang",
+        "short_name": "Wei L",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Translational Medicine, Sichuan Taikang Hospital, Chengdu 610000, China. Electronic address: weiliang05@tkhealthcare.com."
+        ]
+      },
+      {
+        "full_name": "Gu, Lijuan",
+        "short_name": "Gu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan 430000, China; Central Laboratory, Renmin Hospital of Wuhan University, Wuhan 430000, China. Electronic address: gulijuan@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie"
+    ],
+    "journal_abbrev": [
+      "Biomed Pharmacother"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/31 00:29",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41616469",
+      "29454613",
+      "37714424",
+      "41014668",
+      "34712383",
+      "40714419",
+      "40170790",
+      "42049119",
+      "42172986",
+      "30753053",
+      "39725365",
+      "39957706",
+      "42004947",
+      "40024424",
+      "40682985",
+      "39454290",
+      "34522084",
+      "39894416",
+      "40283984",
+      "39029135",
+      "40403934",
+      "40972263",
+      "40035314",
+      "35550220",
+      "31767824",
+      "38266765",
+      "38574838",
+      "41167534",
+      "39052059",
+      "38909494",
+      "30235876",
+      "41690037",
+      "37672972",
+      "36878093",
+      "38520834",
+      "35222793",
+      "41005470",
+      "34824669",
+      "40222690",
+      "41084257",
+      "41811028",
+      "39515096",
+      "41759700",
+      "38697555",
+      "41273058",
+      "39241893",
+      "41455169",
+      "40289338",
+      "26780453",
+      "30504729",
+      "40975038",
+      "24720662",
+      "40914225",
+      "40744419",
+      "33443681",
+      "40835193",
+      "39096875",
+      "38669967",
+      "41067203",
+      "41903303",
+      "42305693",
+      "40064243",
+      "38493721",
+      "41214337",
+      "38246696",
+      "34881386",
+      "41713810",
+      "41265218",
+      "41038331",
+      "38579641",
+      "38588987",
+      "36567616",
+      "40272768",
+      "41979605",
+      "39702961",
+      "32212827",
+      "41172920",
+      "37742604",
+      "40961540",
+      "42214028",
+      "42025248",
+      "41317220",
+      "27910195",
+      "39522841",
+      "42069171",
+      "39190389",
+      "35505050",
+      "41022671",
+      "40480024",
+      "35689902",
+      "40432445",
+      "25452227",
+      "30815818",
+      "42000414",
+      "35435747",
+      "38677275",
+      "35306470",
+      "41265260",
+      "40481933",
+      "40378509"
+    ],
+    "review": [
+      "41616469"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0753-3322(26)00104-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0753-3322(26)00104-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

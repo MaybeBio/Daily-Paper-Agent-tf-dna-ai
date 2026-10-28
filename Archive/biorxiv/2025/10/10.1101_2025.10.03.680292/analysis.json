@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.03.680292",
+  "title": "A Convolutional Deep Learning Approach to identify DNA Sequences for Gene Prediction",
+  "authors": "Jesus Antonio Motta; Pedro David Gomez",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-06",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用CNN识别编码基因的DNA序列，属于基因预测而非蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "In this work, we present a highly efficient machine learning method for identifying DNA sequences that code for genes. The learning process is based on Human Genome Build 38 (GRCh38) sequences extracted from various specialized databases. The DNA sequences were then translated into amino acid sequences and used to build matrices that facilitate the extraction of features with the TF×IDF vectorization for the creation of the training space. The prediction functions are learned using a convolutional neural network (CNN) deep learning model. The training spaces were created using the 24 chromosomes of the human genome and approximately 36,000 genes and pseudogenes whose names were fetched from the HUGO Gene Nomenclature Committee (HGNC). Performance analysis was performed on 24 genes associated with genetic disorders, as well as the surrounding DNA regions. The metrics used were precision, recall, F_score measure, accuracy and ROC curves for the genes of interest. The results achieved exceed all our expectations and place the work at the level of the state of the art for gene prediction.",
+  "abstract_zh": "在本项工作中，我们提出了一种高效机器学习方法，用于识别编码基因的DNA序列。学习过程基于从多个专业数据库提取的人类基因组构建38（GRCh38）序列。随后，这些DNA序列被翻译成氨基酸序列，并用于构建矩阵，以通过TF×IDF向量化促进特征提取，从而创建训练空间。预测函数通过卷积神经网络（CNN）深度学习模型进行学习。训练空间利用人类基因组的24条染色体以及约36,000个基因和假基因构建，这些基因和假基因的名称取自HUGO基因命名委员会（HGNC）。性能分析针对与遗传疾病相关的24个基因及其周围DNA区域进行。所用指标包括精确度、召回率、F_score度量、准确率以及针对目标基因的ROC曲线。所获结果远超我们的预期，使本工作达到基因预测领域的最先进水平。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.03.680292",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.03.680292",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.03.680292/index.html"
+}

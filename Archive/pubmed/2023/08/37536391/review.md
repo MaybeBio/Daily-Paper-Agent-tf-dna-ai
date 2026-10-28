@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that charge engineering of the nucleic acid binding cleft of a thermostable HIV-1 group O reverse transcriptase (RT), specifically at positions 473-477, 499-502, and 505, yields mutants with varied cDNA synthesis efficiencies at elevated temperatures. Substitutions Q500K and Q500R enhance cDNA synthesis at 50 and 65 degrees C without altering binding affinity for model nucleic acid duplexes. Molecular dynamics simulations predict that these substitutions inactivate RNase H activity by altering catalytic site geometry, a prediction experimentally confirmed in wild-type and engineered RT backgrounds, revealing a novel mechanism of RNase H inactivation.
+- **Visible evidence base** Abstract text only; no experimental data, simulation parameters, statistical analyses, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, molecular dynamics simulation setup and validation, raw activity and binding data, statistical analyses, and sequence alignments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding a novel mechanism of RNase H inactivation through distal charge substitutions in the nucleic acid binding cleft. However, the evidence base is limited to the abstract, and several claims, particularly the mechanistic interpretation from molecular dynamics simulations and the functional enhancement at elevated temperatures, cannot be adequately evaluated without access to the full data. The work may be of interest to researchers in RT enzymology and molecular diagnostics, but the current evidence does not fully establish the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers developing improved reverse transcriptases for RT-PCR and RNA detection applications, enzymologists studying HIV-1 RT structure-function relationships, and computational biologists interested in molecular dynamics predictions of enzyme catalysis. The potential to enhance RT performance at high temperatures without compromising DNA binding is directly relevant to diagnostic assay optimization.
+- **Major strengths** The abstract identifies a specific and testable hypothesis linking charge substitutions in the nucleic acid binding cleft to RNase H inactivation. The combination of experimental characterization with molecular dynamics simulations provides a multidisciplinary approach. The finding that Q500K and Q500R enhance cDNA synthesis at elevated temperatures without altering binding affinity is a potentially useful practical outcome.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that molecular dynamics simulations predicted that Q500K and Q500R inactivate RNase H activity by altering the geometry of the catalytic site, and that this was confirmed experimentally.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no details on the molecular dynamics simulation methodology, including force field, simulation length, system setup, or convergence criteria. The claim that simulations "predicted" a mechanism is not supported by any quantitative data or statistical measures. Furthermore, the experimental confirmation is described only as "proof of this unexpected effect" without presenting the actual activity data or controls.
+  - **Why it matters** The central mechanistic claim of the paper rests on the correlation between simulation predictions and experimental results. Without evidence that the simulations are robust and that the experimental data clearly demonstrate RNase H inactivation, the proposed novel mechanism cannot be distinguished from alternative explanations, such as indirect effects on substrate binding or enzyme stability.
+  - **Resolution test** Provide simulation details, including validation against known RT structures, and present experimental RNase H activity data for the relevant mutants with appropriate controls and statistical analysis. Show that the observed inactivation is specifically due to altered catalytic site geometry rather than other factors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that Q500K and Q500R produce a slight increase of cDNA synthesis efficiency at 50 and 65 degrees C without altering the K(D) for model DNA/DNA and RNA/DNA heteroduplexes.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not report the magnitude of the "slight increase" in cDNA synthesis efficiency, nor does it provide the K(D) values or the error ranges for these measurements. Without quantitative data, it is impossible to assess whether the observed effects are statistically significant or biologically meaningful. The claim that binding affinity is unaltered requires comparison of K(D) values with appropriate statistical testing.
+  - **Why it matters** The practical utility of these mutants for RT-PCR applications depends on the reproducibility and significance of the enhanced cDNA synthesis. If the effect is marginal or within experimental noise, the claim of improved performance is not substantiated.
+  - **Resolution test** Present quantitative cDNA synthesis data with replicates and statistical analysis, and report K(D) values with confidence intervals for the mutants and appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that the results reveal a novel mechanism of RNase H inactivation that preserves RT DNA binding and polymerization efficiency without substituting RNase H active site residues.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The novelty of the mechanism is asserted but not contextualized against existing literature on RNase H inactivation. The abstract does not discuss whether similar distal effects have been observed in other RTs or related enzymes, nor does it explain how this mechanism differs from previously described modes of RNase H inhibition.
+  - **Why it matters** The claim of novelty is central to the paper's significance. Without a clear comparison to prior work, the contribution to the field is unclear.
+  - **Resolution test** Provide a literature review in the full manuscript that explicitly contrasts the proposed mechanism with known RNase H inactivation strategies and demonstrates the distinctiveness of the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses technical terms such as "nucleic acid binding cleft" and "catalytic site geometry" without brief definitions, which may limit accessibility for readers outside the RT enzymology field.
+  - **Required correction** Add a brief explanatory phrase when introducing these terms, such as "the region of the enzyme that contacts the template-primer" and "the spatial arrangement of residues that catalyze RNA cleavage."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Mutant nomenclature
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists positions 473-477, 499-502, and 505 but does not specify the numbering system (e.g., HIV-1 group O versus HXB2) or the wild-type residues at these positions, which could cause confusion.
+  - **Required correction** Clarify the numbering system and provide the wild-type amino acid at each position in the abstract or a table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Context for applications
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions RT-PCR applications but does not specify the type of RNA targets or the assay conditions, which would help readers assess the practical relevance.
+  - **Required correction** Include a brief statement on the assay format and representative RNA targets tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claim and the practical performance claim are not quantitatively supported by the abstract. R1-M3 is non-blocking but requires contextualization for the novelty claim to be credible.
+- **Assessment against Nature-style criteria** Originality: The proposed mechanism of RNase H inactivation via distal charge substitutions appears potentially novel, but this cannot be confirmed without comparison to prior literature. Scientific importance: The findings could be significant for RT engineering and diagnostic applications, but the magnitude of the reported effects is unclear. Interdisciplinary readership: The work bridges enzymology, computational biology, and molecular diagnostics, but the abstract lacks sufficient context for nonspecialists. Technical soundness: The abstract does not provide enough methodological detail to assess the reliability of the simulations or the experimental measurements. Readability for nonspecialists: The abstract is concise but uses jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary results, but the lack of quantitative data and methodological detail prevents a definitive assessment. I would be supportive if the full manuscript addresses the blocking concerns with robust data and clear contextualization.
+
+## Risk / unsupported claims
+- The claim that Q500K and Q500R inactivate RNase H activity via altered catalytic site geometry is unsupported without simulation details and experimental activity data.
+- The claim that these substitutions enhance cDNA synthesis efficiency at elevated temperatures is unsupported without quantitative data and statistical analysis.
+- The claim that binding affinity is unaltered is unsupported without reported K(D) values and error estimates.
+- The claim of a "novel mechanism" is unverifiable without comparison to existing literature on RNase H inactivation.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary information descriptions.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and presentation quality. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors present a CNN-based framework to predict cell type-active CTCF binding sites (CBSs) in the human genome using ChIP-seq data from 67 ENCODE cell lines. They report that chromatin accessibility (DNase-seq) and the binding of cofactors RAD21/SMC3 are more predictive than DNA sequence motifs or histone modifications, achieving AUPRC values above 0.868 when integrated.
+- **Visible evidence base** Main text figures (Figs. 1-6), tables (Tables 1-5), and referenced supplementary files (Additional files 1 and 2, Tables S1-S4, Figs. S1-S4). No raw data or code output were provided for independent verification.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced in the text were not provided. The GitHub repository link was not accessible for verification. Details on hyperparameter tuning, model architecture specifics, and statistical significance testing were not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in regulatory genomics, namely the prediction of cell type-active CTCF binding. The dataset construction from 67 cell lines is a valuable resource. However, the study is largely descriptive and the predictive modeling approach, while functional, does not offer substantial methodological novelty. The central claims regarding the relative importance of different feature types are supported by the presented AUPRC values, but the analysis lacks rigorous statistical comparisons and the generalizability claims are based on a limited set of external cell lines. The manuscript would benefit from clearer articulation of the biological insights derived from the model and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in computational genomics, gene regulation, and chromatin biology would find the dataset and feature importance analysis of interest. The work may also be relevant to those developing machine learning models for transcription factor binding prediction, as it provides a comparative assessment of feature types for a specific factor (CTCF).
+- **Major strengths** The construction of a comprehensive dataset of CTCF binding sites across 67 cell lines is a significant effort and a potentially useful community resource. The systematic comparison of different feature types (chromatin accessibility, histone modifications, cofactor binding, sequence motifs) within a unified modeling framework is a clear and logical approach. The cross-cell-type validation experiments provide some evidence for the model's generalizability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "transcription factors RAD21/SMC3 and chromatin accessibility are more predictive compared to sequence motifs and histone modifications."
+  - **Evidence pointer** Results sections "Chromatin accessibility is predictive for CBS", "Key HMs are predictive for CBSs", "RAD21 and SMC3's cofactor roles in CBSs prediction", Tables 1-3, Figures 2-4.
+  - **Concern** The claim of differential feature importance is based on comparing AUPRC values across models trained with different single feature types. However, no statistical significance testing (e.g., paired tests across cell lines or confidence intervals) is reported. The observed differences, particularly between histone modifications and other features, may not be statistically robust. Furthermore, the comparison between models using different feature types is confounded by the varying number of cell lines available for each feature (e.g., 59 for DNase-seq, 13 for histone modifications, 9 for RAD21). A fairer comparison would require evaluating all features on the same set of cell lines.
+  - **Why it matters** The central conclusion of the paper rests on the relative predictive power of different biological signals. Without statistical support, the claim is not rigorously established, and the conclusions drawn about the biology of CTCF binding may be premature.
+  - **Resolution test** Provide statistical significance tests (e.g., Wilcoxon signed-rank test) comparing AUPRC distributions across cell lines for different feature types. Alternatively, perform the comparison on a common subset of cell lines where all features are available. Report confidence intervals for the AUPRC values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the model has "broad applicability and generalizability" based on testing in 8 external cell lines.
+  - **Evidence pointer** Results section "Broad applicability and generalizability of the CNN model in CBSs prediction", Figure 6, Table 5.
+  - **Concern** The external validation is performed on only 8 cell lines, and the selection criteria for these cell lines and the "matched data and optimal predictive performance" used to choose the training cell line are not clearly defined. This introduces potential selection bias. The performance metric used for external validation (percentage of peaks identified) is not directly comparable to the AUPRC used in the main analysis, making it difficult to assess the absolute quality of predictions. The claim of generalizability is therefore not strongly supported.
+  - **Why it matters** Generalizability is a key selling point of predictive models. If the external validation is not rigorously designed, the claim of broad applicability is overstated.
+  - **Resolution test** Clearly state the criteria for selecting external cell lines and the corresponding training cell lines. Report AUPRC (or a comparable metric) for the external cell lines, not just the percentage of peaks identified. Discuss potential biases in the selection process.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The manuscript implies novelty in applying deep learning to predict cell type-active CTCF binding, but similar approaches exist.
+  - **Evidence pointer** Introduction, Discussion.
+  - **Concern** The methodological approach (CNN on signal matrices) is standard in the field of TF binding prediction. The novelty appears to lie primarily in the specific application to cell type-active CTCF binding and the feature comparison. However, the discussion does not sufficiently differentiate this work from existing deep learning models for TF binding, such as DeepBind, DeepSEA, or Basenji, which have also been applied to cell-type-specific predictions. The claim of a "specialized prediction model" needs to be better contextualized against these prior works.
+  - **Why it matters** For a journal with broad readership, the novelty of the approach must be clearly articulated to justify its contribution to the field.
+  - **Resolution test** Expand the discussion to explicitly compare and contrast the proposed method with existing deep learning approaches for TF binding prediction, highlighting any specific architectural or feature engineering innovations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction use terms like "cell type-active binding sites" without a clear, concise definition for a general reader. The distinction between "binding sites" and "active binding sites" is central to the paper and should be explained more explicitly early on.
+  - **Required correction** Provide a brief, clear definition of "cell type-active" in the abstract and introduction, perhaps with a simple example.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "CNN and SVM models"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The description of the CNN architecture is minimal. Details such as the number of layers, filter sizes, pooling strategies, dropout rates, and training epochs are not provided. This limits the reproducibility of the work.
+  - **Required correction** Provide a full description of the CNN architecture, including all hyperparameters, in the Methods section or as a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Enhancing active CBSs predictions through combined signals"
+  - **Evidence pointer** Table 1
+  - **Concern** The text states that adding histone modifications to DNase-seq "led to an increase in AUPRC values by approximately 0.003." This is a very small effect and may not be meaningful. The authors should comment on whether this increase is significant or within the noise of the model.
+  - **Required correction** Add a brief comment on the practical significance of such a small improvement, and consider whether it supports the conclusion that histone modifications are not critical for prediction.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical testing for the main comparative claim (R1-M1) is a primary technical failing. The external validation protocol (R1-M2) also needs to be more rigorous. The incomplete description of the model architecture (R1-m2) hinders reproducibility.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application is specific, but the methodology is largely derivative of existing deep learning approaches for TF binding prediction. The feature comparison is useful but not conceptually novel.  
+  - **Scientific importance** Moderate. Understanding cell type-specific CTCF binding is important, but the study provides incremental insights rather than a major conceptual advance. The dataset could be a valuable resource.  
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biologists and genomics researchers. The biological insights are not deep enough to attract a broader life science audience.  
+  - **Technical soundness** Currently not fully established. The main comparative claim lacks statistical support, and the external validation is not rigorously designed.  
+  - **Readability for nonspecialists** The paper is generally well-written but uses jargon without sufficient definition. The logic of the analysis is clear, but the broader significance could be better explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is relevant, and the dataset is potentially valuable. However, the main claims need to be backed by rigorous statistical analysis, and the external validation must be more carefully designed and reported. The manuscript would also benefit from a clearer articulation of its novelty relative to existing methods.
+
+## Risk / unsupported claims
+- The claim that RAD21/SMC3 and chromatin accessibility are "more predictive" than other features is unsupported without statistical significance testing.
+- The claim of "broad applicability and generalizability" is not fully supported by the limited and potentially biased external validation.
+- The statement that "integrating them together achieved AUPRC values consistently above 0.868" is presented as a key result, but the range of values and the specific conditions under which this holds are not fully detailed.
+- The biological interpretation that RAD21/SMC3 "play a pivotal role in influencing CTCF's cell type-active binding" is inferred from predictive performance, which is correlational and does not establish causation.

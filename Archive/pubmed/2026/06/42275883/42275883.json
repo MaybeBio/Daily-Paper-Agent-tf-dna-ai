@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "42275883",
+    "doi": "10.1016/j.phymed.2026.158379",
+    "title": "Jianpi Huayu decoction suppresses hepatocellular carcinoma invasion and metastasis by inhibiting SIRT5-regulated Nrf2 activation and mitochondrial metabolic reprogramming."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) and its subsequent lung metastasis represent a significant clinical challenge with limited therapeutic options. Jianpi Huayu Decoction (JPHYD) is an empirically effective formula derived from our clinical practice in treating hepatocellular carcinoma, demonstrating significant efficacy in inhibiting metastasis and improving prognosis. PURPOSE: The research aims to evaluate the therapeutic potential and elucidate the underlying mechanisms of JPHYD against HCC progression and metastasis. STUDY DESIGN AND METHODS: The anti-tumor efficacy of JPHYD was evaluated in an HCCLM3 xenograft model, whereas its anti-metastatic activity was assessed in an H22 experimental lung metastasis model. Proteomics and network pharmacology combined analysis were employed to identify key molecular targets. Functional validation was performed in HCCLM3 and HepG2 cells in vitro. The regulatory effect of JPHYD on the interaction between SIRT5 and Nrf2 was confirmed by co-immunoprecipitation and immunofluorescence. Functional rescue was achieved through transient transfection of a SIRT5 overexpression plasmid in HCCLM3 and HepG2 cells, and the interaction between JPHYD's bioactive compounds and the identified target was verified by molecular docking simulations. RESULTS: JPHYD treatment significantly inhibited the growth of primary HCC tumors and suppressed lung metastasis in vivo. Proteomic and functional analyses identified sirtuin 5 (SIRT5) as a key functional target candidate of JPHYD against HCC. Downregulation of SIRT5 by JPHYD impaired oxidative phosphorylation (OXPHOS) and promoted apoptosis, while molecular docking supported the stable binding of JPHYD-derived bioactive components to SIRT5. Mechanistically, JPHYD disrupted the SIRT5/Nrf2 protein interaction, which suppressed Nrf2 nuclear translocation and decreased its downstream antioxidant proteins. Consequently, this led to reactive oxygen species (ROS) accumulation, mitochondrial dysfunction, and diminished ATP production. Crucially, SIRT5 overexpression partially reversed the anti-metastatic effects of JPHYD, highlighting its pivotal role in the drug's mechanism of action. CONCLUSION: Our findings demonstrated that JPHYD effectively inhibited HCC growth and lung metastasis by dually modulating the SIRT5/Nrf2 signaling axis. This action simultaneously induced oxidative stress and disrupted mitochondrial metabolic reprogramming. JPHYD thus presents a promising multi-target therapeutic strategy for advanced HCC.",
+    "keywords": [
+      "Hepatocellular carcinoma",
+      "Invasion and metastasis",
+      "Jianpi Huayu decoction",
+      "Mitochondrial metabolic reprogramming",
+      "SIRT5/Nrf2 pathway"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Liver Neoplasms/drug therapy/pathology/metabolism",
+      "*Sirtuins/metabolism",
+      "Animals",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "*Carcinoma, Hepatocellular/drug therapy/pathology/metabolism",
+      "Metabolic Reprogramming/drug effects",
+      "Mitochondria/metabolism/drug effects",
+      "Hep G2 Cells",
+      "Mice",
+      "Neoplasm Invasiveness",
+      "*Antineoplastic Agents, Phytogenic/pharmacology",
+      "Male",
+      "Lung Neoplasms/secondary/drug therapy",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "Xenograft Model Antitumor Assays",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Xilin",
+        "Zhu, Xiaoyu",
+        "Chen, Xinqiu",
+        "Liu, Shiyi",
+        "Ying, Bing",
+        "Zhao, Yuying",
+        "Liu, Shuwei",
+        "Huang, Hanlin",
+        "Yao, Ruiwei",
+        "Shi, Hanqian",
+        "Luo, Rui",
+        "Lai, Yongheng",
+        "Zhong, Chong"
+      ],
+      "short_names": [
+        "Zhao X",
+        "Zhu X",
+        "Chen X",
+        "Liu S",
+        "Ying B",
+        "Zhao Y",
+        "Liu S",
+        "Huang H",
+        "Yao R",
+        "Shi H",
+        "Luo R",
+        "Lai Y",
+        "Zhong C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, China; Biliary and Pancreatic Surgery of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China; Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China; The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China.",
+        "Guangzhou Medical University Affiliated Women and Children Medical Center, Guangzhou, China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, China; Biliary and Pancreatic Surgery of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangzhou Medical University Affiliated Women and Children Medical Center, Guangzhou, China. Electronic address: zhongchong1732@gzucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Xilin",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, China; Biliary and Pancreatic Surgery of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China; Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiaoyu",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China; The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xinqiu",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shiyi",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Bing",
+        "short_name": "Ying B",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuying",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Medical University Affiliated Women and Children Medical Center, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shuwei",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hanlin",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China."
+        ]
+      },
+      {
+        "full_name": "Yao, Ruiwei",
+        "short_name": "Yao R",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China."
+        ]
+      },
+      {
+        "full_name": "Shi, Hanqian",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China."
+        ]
+      },
+      {
+        "full_name": "Luo, Rui",
+        "short_name": "Luo R",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China."
+        ]
+      },
+      {
+        "full_name": "Lai, Yongheng",
+        "short_name": "Lai Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China; Lingnan Medicine Research Center, Guangzhou University of Chinese Medicine, Guangzhou. China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Chong",
+        "short_name": "Zhong C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, China; Biliary and Pancreatic Surgery of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China; Guangzhou Medical University Affiliated Women and Children Medical Center, Guangzhou, China. Electronic address: zhongchong1732@gzucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 00:37",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42275883",
+      "41101075",
+      "40412057",
+      "40615101",
+      "40543691",
+      "33075668",
+      "40992442",
+      "42214227",
+      "39461200",
+      "41175589",
+      "40450984",
+      "37856990",
+      "40944546",
+      "40316156",
+      "42176510",
+      "41558058",
+      "41795151",
+      "41858177",
+      "41316098",
+      "30909929",
+      "41344272",
+      "42284354",
+      "40424981",
+      "39586558",
+      "20487542",
+      "39427522",
+      "39341077",
+      "42119450",
+      "38885324",
+      "41564520",
+      "40557149",
+      "40322038",
+      "40543694",
+      "39674355",
+      "40883741",
+      "39880887",
+      "38677269",
+      "41177238",
+      "41866005",
+      "41635857",
+      "34029939",
+      "41130376",
+      "38901205",
+      "39521704",
+      "28284560",
+      "25496992",
+      "41650503",
+      "21513518",
+      "39805761",
+      "39672234",
+      "39894307",
+      "40902811",
+      "36657316",
+      "40058474",
+      "42067013",
+      "39305745",
+      "35568116",
+      "27931237",
+      "39023830",
+      "31666108",
+      "39427519",
+      "39419302",
+      "40450982",
+      "40480453",
+      "41293954",
+      "41430562",
+      "41477978",
+      "40499802",
+      "39348778",
+      "40670490",
+      "42069175",
+      "40466508",
+      "29115436",
+      "41126368",
+      "40057142",
+      "39862789",
+      "41534777",
+      "41242299",
+      "27213353",
+      "28314430",
+      "40147679",
+      "40382941",
+      "41097228",
+      "41578084",
+      "37032730",
+      "41524817",
+      "38520835",
+      "40274347",
+      "41763175",
+      "28650465",
+      "37934581",
+      "36043445",
+      "27259268",
+      "31899205",
+      "39675939",
+      "41127994",
+      "38522311",
+      "41357200",
+      "25066210",
+      "40850070"
+    ],
+    "review": [
+      "42275883"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00611-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

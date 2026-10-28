@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, methods, and supplementary figure references
+- **Assessment boundary** Scientific content, methodological rigor, evidence quality, and internal consistency of claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that GATA3, a pioneer transcription factor, binds to nucleosomal DNA with only one of its two zinc finger domains in solution, and that this binding asymmetrically affects DNA end dynamics: N-finger binding promotes dissociation at the unbound DNA end, while C-finger binding promotes dissociation at the bound end. These effects are proposed to facilitate nucleosome conformational changes relevant to chromatin opening.
+- **Visible evidence base** SAXS experimental data, MD simulation trajectories, ABMD simulations, cryo-EM fitting simulations, χ² goodness-of-fit analyses, and population distribution analyses of DNA end distances
+- **Missing materials affecting confidence** Supplementary figures (S1–S7) referenced but not provided; experimental SAXS curves not shown in main text; no raw simulation trajectory analysis details; no statistical error bars or replicate information for SAXS measurements; no negative control simulations with mutated GATA3 or alternative binding sites
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in chromatin biology: how pioneer factor binding alters nucleosome dynamics. The combination of SAXS, molecular modeling, and MD simulations is appropriate and potentially powerful. However, the central claim that only one GATA3 finger binds in solution rests on indirect evidence (χ² fitting) that is not fully presented or validated. The MD simulation results are suggestive but the connection between simulated dynamics and functional chromatin outcomes remains speculative. The manuscript would benefit from clearer presentation of the SAXS fitting quality, additional validation of the single-finger binding model, and more direct experimental support for the proposed asymmetric DNA unwrapping mechanism.
+- **Who would be interested in the results, and why** Researchers studying pioneer transcription factors, nucleosome dynamics, chromatin remodeling, and gene regulation. The work is also relevant to those developing computational approaches for modeling protein-nucleosome interactions and interpreting SAXS data with molecular simulations. The proposed mechanism of asymmetric DNA unwrapping upon transcription factor binding could inform models of how pioneer factors initiate chromatin opening.
+- **Major strengths** The study combines multiple biophysical and computational approaches to address a mechanistically important question. The use of SAXS as an experimental constraint for MD-derived models is methodologically sound. The authors explicitly consider alternative binding modes and test them against experimental data. The observation that single-finger binding produces asymmetric effects on DNA end dynamics is a novel and potentially significant finding. The authors acknowledge limitations including the use of truncated GATA3 and the Widom 601 DNA sequence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that only one of the two GATA3 DNA binding domains binds to nucleosomal DNA in solution, based on SAXS fitting
+  - **Evidence pointer** Results section, Figures 2(a) and 2(b), Figure S1–S3
+  - **Concern** The authors state that both-fingers-bound conformations produced large χ² values (minimum 23.9) and therefore concluded that only one finger binds in solution. However, the SAXS profiles with minimum χ² values are only shown in supplementary figures, and the quality of fit is not quantitatively compared across models in the main text. The χ² values for the single-finger models (reported as 5.5 and 4.0 for C-finger and N-finger bound forms, respectively) are presented as minima but the distribution of χ² across the ensemble is not shown. It is unclear whether the difference between χ² = 23.9 and χ² = 4.0 represents a statistically robust model discrimination or could arise from other factors such as conformational heterogeneity, buffer mismatch, or model incompleteness.
+  - **Why it matters** The single-finger binding model is the foundational claim of the paper. If both fingers actually bind in solution, the subsequent analysis of asymmetric DNA end dynamics would need to be reinterpreted. The distinction between one-finger and two-finger binding has direct implications for how GATA3 engages nucleosomal DNA and how it might initiate chromatin opening.
+  - **Resolution test** Provide the full SAXS profiles with overlaid computed curves for the best-fitting models of each type (both-fingers, N-finger only, C-finger only) in the main text. Report χ² values with uncertainty estimates (e.g., from bootstrap or cross-validation). Show the distribution of χ² across the MD ensemble, not just the minimum. If possible, perform an explicit model comparison using an information criterion that penalizes model complexity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The claim that GATA3 binding "leads to triggering a conformational change in the chromatin" (Abstract) and that asymmetric DNA unwrapping "would facilitate the nucleosome sliding" (Discussion)
+  - **Evidence pointer** Abstract, Discussion section
+  - **Concern** The manuscript demonstrates that GATA3 binding correlates with increased DNA end fluctuations in MD simulations. However, no direct evidence is provided that these increased fluctuations lead to nucleosome sliding, eviction, or any specific chromatin conformational change. The connection between the observed DNA end dynamics and functional chromatin outcomes is purely speculative. The authors reference prior work on nucleosome sliding but do not test whether the asymmetric unwrapping they observe actually promotes sliding in their system.
+  - **Why it matters** The broader significance of the work depends on the claim that GATA3 binding facilitates chromatin opening. If the observed DNA end dynamics do not translate to functional chromatin changes, the physiological relevance of the findings is substantially weakened. The title and abstract promise insights into how GATA3 binding affects nucleosome structure and dynamics, but the functional consequences are not demonstrated.
+  - **Resolution test** Either temper the claims to describe only the observed structural and dynamic changes without asserting functional consequences, or provide additional evidence linking the observed DNA unwrapping to nucleosome sliding or eviction. This could include simulations with longer timescales showing complete DNA unwrapping, experiments with nucleosome sliding assays, or comparison with known sliding intermediates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** The claim that the initial GATA3-nucleosome complex model was built by cryo-EM fitting and that nine conformations were selected for subsequent MD simulations
+  - **Evidence pointer** Methods section, "Intact complex structural model construction by Cryo-EM fitting simulation"
+  - **Concern** The cryo-EM fitting procedure is described but the selection of the nine conformations is not justified in detail. The authors state that CaBLAM outliers increased at WEM > 2.0 × 10⁴, but the relationship between model quality metrics and the choice of WEM is not fully explained. It is unclear whether the nine selected conformations represent a diverse or redundant set of starting structures, and whether the subsequent MD results depend on this specific choice.
+  - **Why it matters** The MD simulation results may be sensitive to the initial conformations. If the nine starting structures are not representative of the true conformational ensemble, the conclusions about DNA end dynamics could be biased. The reproducibility of the findings depends on the starting structure selection being well-justified and robust.
+  - **Resolution test** Provide a more detailed description of the selection criteria for the nine conformations, including the specific MolProbity metrics for each. Show that the MD results are robust to the choice of starting structures by repeating key analyses with different subsets or with additional starting conformations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Control conditions
+  - **Claim pointer** The claim that GATA3 binding specifically causes the observed changes in DNA end dynamics, as opposed to non-specific protein-DNA interactions
+  - **Evidence pointer** Results section, Figures 3 and 4
+  - **Concern** The MD simulations compare GATA3-bound nucleosomes to free nucleosomes. However, no control simulations are performed with a non-specific DNA binding protein or with a mutated GATA3 that cannot bind DNA. The observed differences in DNA end dynamics could potentially arise from non-specific protein-DNA interactions, excluded volume effects, or the presence of any protein near the nucleosome rather than from GATA3-specific effects.
+  - **Why it matters** The specificity of the proposed mechanism is important for understanding how GATA3, as opposed to other DNA binding proteins, affects nucleosome dynamics. Without appropriate controls, the observed effects cannot be attributed specifically to GATA3 binding.
+  - **Resolution test** Perform control simulations with a non-specific DNA binding protein or with a DNA-binding-deficient GATA3 mutant. Alternatively, compare the effects of GATA3 binding at different positions on the nucleosome to demonstrate position-specific effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "only one of the two DNA binding domains, N- and C-fingers, of GATA3 binds to an end of the DNA in solution" but does not specify which finger binds in the preferred model. This is clarified later in the results but the abstract would benefit from this detail.
+  - **Required correction** Specify in the abstract which finger (N or C) binds in the preferred model, or state that both single-finger binding modes are possible with different structural consequences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, χ² analysis
+  - **Evidence pointer** Results section, "MD simulations of GATA3 – nucleosome complex to equilibrate the system"
+  - **Issue** The χ² values are reported as single numbers without uncertainty estimates or information about the number of data points used in the fitting. This makes it difficult to assess the statistical significance of the differences between models.
+  - **Required correction** Report χ² values with degrees of freedom or reduced χ², and provide uncertainty estimates where possible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section, ABMS simulations
+  - **Evidence pointer** Methods section, "ABMD conditions"
+  - **Issue** The ABMD simulation parameters are described but the convergence criteria are not stated. It is unclear how the authors determined that the ABMD simulations had converged and that the sampled conformations were representative.
+  - **Required correction** Describe the convergence criteria used for the ABMD simulations, such as the time evolution of the free energy profile or the reproducibility of results across independent runs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the "compensation for the loss in entropy" is presented as a physical principle but is not quantitatively supported by the simulation data. The authors do not calculate entropy changes or free energy differences to support this interpretation.
+  - **Required correction** Either provide quantitative estimates of entropy changes from the simulations or present this as a qualitative hypothesis rather than a demonstrated mechanism.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, force field parameters
+  - **Evidence pointer** Methods section, "The systems in water"
+  - **Issue** The zinc AMBER force field (ZAFF) is mentioned but the specific parameters used for the zinc coordination are not provided. This limits the reproducibility of the simulations.
+  - **Required correction** Provide the specific ZAFF parameters used or a reference to where they can be obtained.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SAXS model discrimination), R1-M2 (causal claims beyond evidence), R1-M3 (starting structure selection justification)
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific focus on single-finger GATA3 binding and asymmetric DNA end dynamics, though the general concept of pioneer factor-induced nucleosome destabilization is established. Scientific importance: The question of how pioneer factors initiate chromatin opening is of high importance, but the manuscript does not yet establish the functional significance of the observed dynamics. Interdisciplinary readership: The work bridges structural biology, computational biophysics, and chromatin biology, which could appeal to a broad readership if the claims are properly supported. Technical soundness: The methodological approach is sound in principle, but the key model discrimination step (SAXS fitting) is not presented with sufficient rigor to fully support the central claim. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some simulation details could be better explained for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is important and the methodological approach is promising, but the central claim of single-finger binding requires stronger evidence, and the functional implications need to be either demonstrated or appropriately tempered.
+
+## Risk / unsupported claims
+- The claim that only one GATA3 finger binds to nucleosomal DNA in solution is not fully supported by the evidence presented, as the SAXS fitting quality is not shown in the main text and no statistical comparison between models is provided.
+- The claim that GATA3 binding "leads to triggering a conformational change in the chromatin" is unsupported by direct experimental evidence.
+- The claim that asymmetric DNA unwrapping "would facilitate the nucleosome sliding" is speculative and not tested in this study.
+- The claim that the observed effects represent "compensation for the loss in entropy" is not quantitatively supported.
+- The relationship between the cryo-EM structure (which presumably shows both fingers bound) and the solution state (where only one finger binds) is not discussed or reconciled.

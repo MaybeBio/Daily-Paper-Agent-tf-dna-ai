@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "40256837",
+    "doi": "10.1002/hed.28154",
+    "title": "Accurate and Efficient Detection of Nasopharyngeal Carcinoma Using Multi-Dimensional Features of Plasma Cell-Free DNA."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The incidence of Nasopharyngeal carcinoma (NPC) is rising in recent years, especially in some non-developed parts of the world. Hence, cost-efficient means for sensitive detection of NPC are vital. METHODS: We recruited 646 participants, including healthy individuals, patients with benign nasopharyngeal diseases, and NPC patients for plasma cell-free DNA(cfDNA), which underwent low-depth whole-genome sequencing (WGS) to extract multi-dimensional molecular features, including fragmentation pattern, end motif, copy number variation(CNV), and transcription factors(TF). Based on these features, we employed a machine learning algorithm to build prediction models for NPC detection. RESULTS: We achieved a sensitivity of 95.8% and a specificity of 99.4% to discriminate NPC patients from healthy individuals. CONCLUSIONS: This study can be a proof-of-concept for these multi-dimensional molecular features to be implemented as a noninvasive approach for the detection and even early detection of NPC.",
+    "keywords": [
+      "cell-free DNA",
+      "copy number variations (CNV)",
+      "machine learning",
+      "nasopharyngeal carcinoma",
+      "whole genome sequencing (WGS)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Nasopharyngeal Carcinoma/diagnosis/genetics/blood",
+      "Male",
+      "*Cell-Free Nucleic Acids/blood",
+      "Female",
+      "*Nasopharyngeal Neoplasms/diagnosis/genetics/blood",
+      "Middle Aged",
+      "Adult",
+      "Sensitivity and Specificity",
+      "Machine Learning",
+      "Whole Genome Sequencing",
+      "DNA Copy Number Variations",
+      "Case-Control Studies",
+      "Aged",
+      "Biomarkers, Tumor/blood"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Song",
+        "Tang, Jiahui",
+        "Cui, Pin",
+        "He, Weihuang",
+        "Lin, Xiaohui",
+        "Wang, Shubing",
+        "Liu, Yuanxian",
+        "Tan, Xiaohua",
+        "Xu, Shu",
+        "Feng, Mingji",
+        "Lai, Hanming"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Tang J",
+        "Cui P",
+        "He W",
+        "Lin X",
+        "Wang S",
+        "Liu Y",
+        "Tan X",
+        "Xu S",
+        "Feng M",
+        "Lai H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4047-3104"
+      ],
+      "affiliations": [
+        "Department of Otolaryngology, Shenzhen Guangming District People's Hospital, Shenzhen, China.",
+        "Department of Otolaryngology, Shenzhen Guangming District People's Hospital, Shenzhen, China.",
+        "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China.",
+        "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China.",
+        "Department of Oncology, People's Hospital of Shenzhen Baoan District, The Second Affiliated Hospital of Shenzhen University, Shenzhen, China.",
+        "Department of Oncology, Shenzhen Key Laboratory of Gastrointestinal Cancer Translational Research, Cancer Institute, Peking University Shenzhen Hospital, Shenzhen-Peking University-Hong Kong University of Science and Technology Medical Center, Shenzhen, China.",
+        "Department of Otolaryngology, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, China.",
+        "Department of Oncology, Shenzhen Third People's Hospital, Shenzhen, China.",
+        "Department of Oncology, Shenzhen Guangming District People's Hospital, Shenzhen, China.",
+        "Department of Oncology, Shenzhen Key Laboratory of Gastrointestinal Cancer Translational Research, Cancer Institute, Peking University Shenzhen Hospital, Shenzhen-Peking University-Hong Kong University of Science and Technology Medical Center, Shenzhen, China.",
+        "Department of Oncology, Shenzhen Key Laboratory of Gastrointestinal Cancer Translational Research, Cancer Institute, Peking University Shenzhen Hospital, Shenzhen-Peking University-Hong Kong University of Science and Technology Medical Center, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Song",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0003-4047-3104"
+        ],
+        "affiliations": [
+          "Department of Otolaryngology, Shenzhen Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Jiahui",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Shenzhen Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Pin",
+        "short_name": "Cui P",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "He, Weihuang",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xiaohui",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, People's Hospital of Shenzhen Baoan District, The Second Affiliated Hospital of Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shubing",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shenzhen Key Laboratory of Gastrointestinal Cancer Translational Research, Cancer Institute, Peking University Shenzhen Hospital, Shenzhen-Peking University-Hong Kong University of Science and Technology Medical Center, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuanxian",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Xiaohua",
+        "short_name": "Tan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shenzhen Third People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shu",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shenzhen Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Mingji",
+        "short_name": "Feng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shenzhen Key Laboratory of Gastrointestinal Cancer Translational Research, Cancer Institute, Peking University Shenzhen Hospital, Shenzhen-Peking University-Hong Kong University of Science and Technology Medical Center, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Hanming",
+        "short_name": "Lai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shenzhen Key Laboratory of Gastrointestinal Cancer Translational Research, Cancer Institute, Peking University Shenzhen Hospital, Shenzhen-Peking University-Hong Kong University of Science and Technology Medical Center, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Head & neck"
+    ],
+    "journal_abbrev": [
+      "Head Neck"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/21 06:25",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39035212",
+      "38849019",
+      "38430908",
+      "38430391",
+      "37646678",
+      "37270068",
+      "36973940",
+      "36640362",
+      "36509772",
+      "36220554",
+      "35780566",
+      "35499636",
+      "35195030",
+      "34417454",
+      "34321242",
+      "34307888",
+      "33833439",
+      "33590861",
+      "33279516",
+      "32111602",
+      "31922974",
+      "31863816",
+      "31604930",
+      "31443703",
+      "31178151",
+      "31142840",
+      "30423086",
+      "30100054",
+      "28779026",
+      "28686671",
+      "26771485",
+      "25651787",
+      "25421652",
+      "23255783",
+      "21909401",
+      "19451168",
+      "4055129"
+    ],
+    "similar": [
+      "40256837",
+      "39265506",
+      "40016817",
+      "40474105",
+      "39213787",
+      "38849019",
+      "32726136",
+      "29971780",
+      "31159814",
+      "41394826",
+      "32324312",
+      "25196065",
+      "40618071",
+      "39466000",
+      "31705522",
+      "40133038",
+      "29807404",
+      "36056434",
+      "31856390",
+      "40374239",
+      "41500466",
+      "39909829",
+      "40500793",
+      "41366809",
+      "40543210",
+      "40712972",
+      "34074258",
+      "41318553",
+      "38905450",
+      "34464388",
+      "34750844",
+      "40170144",
+      "29295705",
+      "40311105",
+      "31811000",
+      "37499745",
+      "40033021",
+      "36641505",
+      "31469434",
+      "24477877",
+      "38917926",
+      "41631491",
+      "40136052",
+      "38849905",
+      "28693532",
+      "40184223",
+      "31527689",
+      "38545735",
+      "30236142",
+      "37552128",
+      "40472984",
+      "40597842",
+      "39500018",
+      "34133846",
+      "31328403",
+      "31694073",
+      "39075419",
+      "15073117",
+      "42132266",
+      "40303496",
+      "26730743",
+      "39233043",
+      "36346614",
+      "38834154",
+      "40398958",
+      "30698824",
+      "40001587",
+      "39406379",
+      "33737344",
+      "39073362",
+      "30950204",
+      "23790641",
+      "38037868",
+      "21536588",
+      "31101027",
+      "29927011",
+      "40542787",
+      "38171488",
+      "40594369",
+      "26233568",
+      "34490703",
+      "21805179",
+      "30102338",
+      "32512514",
+      "24080422",
+      "33728743",
+      "31743768",
+      "40097593",
+      "31443703",
+      "39264275",
+      "36121076",
+      "30935424",
+      "40579709",
+      "38976830",
+      "28716111",
+      "39342276",
+      "33973727",
+      "29764493",
+      "31289279",
+      "39093127"
+    ],
+    "review": [
+      "40256837",
+      "37552128"
+    ],
+    "pmc": [
+      "12338027"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40256837.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40256837/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/hed.28154",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

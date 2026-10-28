@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41731833",
+    "doi": "10.1097/MD.0000000000047576",
+    "title": "Predicting hormone receptor status in tumors: An innovative approach using breast ultrasound-radiomics combined model."
+  },
+  "content": {
+    "abstract": "Hormone receptor (HR) status is a critical biomarker used to formulate treatment programs and prognosis in breast cancer. Traditional immunohistochemistry relies on invasive tissue samples and may not accurately reflect tumor heterogeneity. Radiomics is a noninvasive technique that involves extracting quantitative imaging characteristics from molecular profiles. The purpose of this study is to develop a combined ultrasound (US)-radiomics model to predict HR status in invasive breast cancer. A retrospective cohort of 186 patients with invasive breast carcinoma, which had been pathologically confirmed, was used in this study, comprising 150 cases (HR-positive (ER+/PR-, HER-2-)) and 36 cases (HR-negative (ER-/PR-, HER-2-)). B-mode US images of the tumor regions were manually segmented, and 463 radiomic features were obtained. T tests, ANOVA, and recursive methods were applied to create a list of features. A support vector machine with a radial basis function kernel was trained using leave-one-out cross-validation. To measure model performance, accuracy, sensitivity, specificity, area under the curve (AUC), and 95% confidence intervals (CIs) were used. The hybrid model had an AUC of 0.728 (95% CI: 0.701-0.755) and an accuracy of 67.9. The model with the highest AUC (0.753, 95% CI: 0.7240.782) was the internal echo-based model. HR-negative tumors were larger, had higher marker of proliferation (Ki-67) indices, and showed greater textural heterogeneity than HR-positive lesions (P < .05). US-radiomics combined modeling is a promising, cost-effective, and radiation-free approach to noninvasive imaging that can predict HR status in breast cancer. US biomarkers can be quantitative, providing insights into tumor microstructure to personalize diagnostic and therapeutic approaches.",
+    "keywords": [
+      "breast cancer",
+      "hormone receptor",
+      "machine learning",
+      "noninvasive diagnosis",
+      "ultrasound radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Radiomics",
+      "Female",
+      "*Breast Neoplasms/diagnostic imaging/pathology/metabolism",
+      "Retrospective Studies",
+      "*Receptors, Progesterone/metabolism",
+      "*Receptors, Estrogen/metabolism",
+      "*Ultrasonography, Mammary/methods",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Middle Aged",
+      "Biomarkers, Tumor",
+      "Adult",
+      "Support Vector Machine",
+      "Prognosis",
+      "Sensitivity and Specificity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yin, Xue",
+        "Wang, Zhen",
+        "Zhao, Qinxian",
+        "Zhang, Xincun",
+        "Sang, Tian",
+        "Shao, Changjie"
+      ],
+      "short_names": [
+        "Yin X",
+        "Wang Z",
+        "Zhao Q",
+        "Zhang X",
+        "Sang T",
+        "Shao C"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-5643-6112"
+      ],
+      "affiliations": [
+        "Special Inspection Department, Shandong Cancer Hospital and Institute, Shandong First Medical University, and Shandong Academy of Medical Sciences, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yin, Xue",
+        "short_name": "Yin X",
+        "identifiers": [],
+        "affiliations": [
+          "Special Inspection Department, Shandong Cancer Hospital and Institute, Shandong First Medical University, and Shandong Academy of Medical Sciences, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0009-0006-5643-6112"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhao, Qinxian",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Xincun",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sang, Tian",
+        "short_name": "Sang T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shao, Changjie",
+        "short_name": "Shao C",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Feb 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/24 06:34",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [
+      "42380391"
+    ],
+    "refs": [
+      "39254446",
+      "38572751",
+      "38508797",
+      "36959807",
+      "35734587",
+      "35345516",
+      "35299744",
+      "34656085",
+      "34478336",
+      "32923392",
+      "32847835",
+      "30120041",
+      "29914892",
+      "29782246",
+      "27700229",
+      "27144536",
+      "26579733",
+      "26196250",
+      "22257792",
+      "22098854",
+      "20404251",
+      "19132008",
+      "18477782",
+      "11248153"
+    ],
+    "similar": [
+      "41731833",
+      "42251269",
+      "41786866",
+      "40744681",
+      "39080346",
+      "41013799",
+      "28890183",
+      "41723040",
+      "40976768",
+      "39431304",
+      "41129497",
+      "41462365",
+      "40598678",
+      "41398654",
+      "39953417",
+      "41545974",
+      "38742356",
+      "40958270",
+      "41814215",
+      "39843718",
+      "42172853",
+      "42116412",
+      "42528422",
+      "41405264",
+      "39893143",
+      "39051517",
+      "27743431",
+      "38808580",
+      "40814040",
+      "39627056",
+      "41287110",
+      "40629283",
+      "41176437",
+      "40145094",
+      "42081023",
+      "41062358",
+      "39413232",
+      "40831385",
+      "34233259",
+      "41390830",
+      "41688957",
+      "25880075",
+      "38820391",
+      "41528926",
+      "37583930",
+      "33373867",
+      "42135547",
+      "39912929",
+      "39254446",
+      "19256737",
+      "41444699",
+      "34856951",
+      "40974664",
+      "40195667",
+      "39545625",
+      "31432552",
+      "34490107",
+      "40389828",
+      "42095876",
+      "38853220",
+      "38780895",
+      "29330212",
+      "37217246",
+      "38724768",
+      "39924532",
+      "41916803",
+      "31463822",
+      "42340785",
+      "39470030",
+      "42329472",
+      "40241518",
+      "34001017",
+      "41350639",
+      "40348609",
+      "40000353",
+      "40068996",
+      "31696388",
+      "31899528",
+      "40137571",
+      "40753025",
+      "29043992",
+      "41654967",
+      "41690021",
+      "39248049",
+      "39427545",
+      "35986969",
+      "41329436",
+      "41186132",
+      "38088478",
+      "42325623",
+      "41061345",
+      "39927116",
+      "41329305",
+      "40636126",
+      "40457214",
+      "41547718",
+      "41906961",
+      "42126725",
+      "41709333",
+      "41289056"
+    ],
+    "review": [
+      "41731833",
+      "38820391"
+    ],
+    "pmc": [
+      "12928956"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=105&issue=8&spage=e47576&aulast=Yin",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41731833/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000047576",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

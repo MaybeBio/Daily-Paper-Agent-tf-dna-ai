@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report a computational workflow combining molecular docking, molecular dynamics (MD) simulation, ADME profiling, and MM-GBSA binding free energy calculations to identify small-molecule modulators of the Myc-Max heterodimer protein-protein interaction (PPI). Four hit compounds are proposed as putative inhibitors/modulators based on intermolecular contacts with hotspot residues at the dimer interface.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, compound identifiers, or numerical results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, compound structures and identifiers, docking scores, MD simulation parameters and trajectories, MM-GBSA values, ADME data, statistical analyses, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible computational pipeline for identifying Myc-Max PPI modulators, but the evidence presented is insufficient to evaluate the technical rigor, validity, or significance of the findings. The claims are broad relative to the limited methodological detail and absence of quantitative results. The work may be of interest to computational drug discovery researchers, but the current abstract does not establish the case for the four identified compounds as credible modulators.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on protein-protein interaction inhibition, particularly those targeting transcription factor complexes such as Myc-Max. Researchers in cancer drug discovery may also find the approach relevant, though the lack of experimental validation limits immediate translational interest.
+- **Major strengths** The study addresses a biologically important target, the Myc-Max interaction, which is a well-recognized but challenging PPI for drug discovery. The use of multiple computational techniques, including docking, MD simulation, and binding free energy estimation, reflects a reasonable multi-step screening strategy. The authors appropriately acknowledge the need for further optimization and biophysical validation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that four identified inhibitors/modulators have a considerable number of intermolecular contacts with hotspot residues in the Myc-Max PPI interface.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No quantitative data are provided to support this claim. The abstract does not report docking scores, contact counts, residue identities, or any comparative metrics against known binders or decoys. The term "considerable" is subjective and unverifiable without numerical context.  
+  - **Why it matters** The central conclusion of the study rests on the identification of these four compounds. Without quantitative evidence, the reader cannot assess whether the contacts are statistically significant or merely incidental.  
+  - **Resolution test** Provide a table listing the four compounds with their docking scores, number of interface contacts, specific hotspot residues involved, and comparison to a control set or known Myc-Max inhibitors.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that long-range interaction stability was analyzed through MD simulation.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No MD simulation details are given, including simulation length, force field, water model, temperature/pressure coupling, equilibration protocol, or convergence criteria. Stability is claimed but no metrics such as RMSD, RMSF, or binding free energy over time are reported.  
+  - **Why it matters** MD simulation is a central pillar of the workflow, and its validity depends entirely on the simulation setup and analysis. Without these details, the stability claim is not assessable.  
+  - **Resolution test** Report simulation parameters and provide RMSD and RMSF plots or tables for the protein-ligand complexes, along with a statement on convergence.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims MM-GBSA-based binding free energy estimations were performed for all screened hit compounds.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No DeltaG values are reported, nor is the MM-GBSA protocol described (e.g., number of frames, dielectric constant, entropy contributions). The claim is therefore unverifiable.  
+  - **Why it matters** Binding free energy is a key metric for ranking hits. Without values, the relative quality of the four compounds cannot be judged.  
+  - **Resolution test** Provide a table of DeltaG values for all hits and, ideally, for known controls to calibrate the method.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract implies that the four identified compounds are credible modulators of the Myc-Max PPI.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No experimental validation is presented, and the authors themselves note that further biophysical analyses are needed. The claim of "identification" is therefore premature.  
+  - **Why it matters** Computational predictions without experimental confirmation are hypothesis-generating, not conclusive. The significance of the work depends on whether the compounds show activity in vitro or in cells.  
+  - **Resolution test** Add experimental data such as surface plasmon resonance, fluorescence polarization, or cellular assays demonstrating Myc-Max disruption. If not available, reframe the claim as "predicted" rather than "identified."
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract uses jargon such as "multi-chemometric techniques" and "bHLH-ZIP" without explanation, which may hinder nonspecialist readers.  
+  - **Required correction** Define "multi-chemometric techniques" and briefly explain the bHLH-ZIP domain context.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract does not state the number of compounds screened at each stage of the virtual screening workflow, making it impossible to assess the hit rate or selectivity of the process.  
+  - **Required correction** Include the number of compounds at each screening step (e.g., initial library size, post-docking, post-MD, post-MM-GBSA).  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** No software versions, docking programs, or scoring functions are named.  
+  - **Required correction** Specify the software and versions used for docking, MD, and MM-GBSA calculations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative results, methodological details, and experimental validation means the central claims are not supported by the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The target is well known, and the computational approach is standard. No novel methodology or conceptual advance is evident from the abstract.  
+  - **Scientific importance** The Myc-Max interaction is a significant cancer target, but the abstract does not demonstrate that the identified compounds are functionally relevant. Importance is therefore potential, not established.  
+  - **Interdisciplinary readership** The work may appeal to computational biologists and medicinal chemists, but the abstract lacks the context and clarity needed to attract a broader biological or clinical audience.  
+  - **Technical soundness** Not assessable from the abstract due to missing methodological and quantitative details.  
+  - **Readability for nonspecialists** The abstract is dense with jargon and lacks explanatory context, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible workflow but does not provide sufficient data to support the claims. A revised manuscript with full methodological transparency, quantitative results, and ideally experimental validation would be required to reconsider.
+
+## Risk / unsupported claims
+- The claim that four compounds are "identified" as modulators is unsupported without experimental validation or at least robust quantitative computational evidence.
+- The claim of "long-range interaction stability" is unsupported without MD simulation metrics.
+- The claim of "considerable" intermolecular contacts is unsupported without numerical contact data.
+- The MM-GBSA binding free energy claim is unsupported without reported values.
+- The overall implication that the workflow is "highly precise" is not substantiated by any accuracy or benchmarking data.

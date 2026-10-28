@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "41075792",
+    "doi": "10.1016/j.xgen.2025.101037",
+    "title": "Epigenome and interactome profiling uncovers principles of distal regulation in the barley genome."
+  },
+  "content": {
+    "abstract": "Regulation of transcription initiation is the ground level of modulating gene expression during plant development. This process relies on interactions between transcription factors and cis-regulatory elements (CREs), which become promising targets for crop bioengineering. To annotate CREs in the barley genome and understand mechanisms of distal regulation, we profiled several epigenetic features across three stages of barley embryo and leaves and performed HiChIP to identify activating and repressive genomic interactions. Using machine learning, we integrated the data into seven chromatin states, predicting  approximately 77,000 CRE candidates, collectively representing 1.43% of the barley genome. Identified genomic interactions, often spanning multiple genes, linked thousands of predicted CREs with their putative targets and revealed notably frequent promoter-promoter contacts. Using the LEA gene family as an example, we discuss possible roles of these interactions in transcription regulation. On the Vrn3 gene, we demonstrate the potential of our datasets to predict CREs for other developmental stages.",
+    "keywords": [
+      "Hordeum vulgare",
+      "LEA genes",
+      "Morex",
+      "Vrn3",
+      "chromatin states",
+      "embryo",
+      "epigenetics",
+      "genome browser",
+      "regulome"
+    ],
+    "mesh_terms": [
+      "*Hordeum/genetics",
+      "*Genome, Plant/genetics",
+      "*Gene Expression Regulation, Plant",
+      "*Epigenome/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "Promoter Regions, Genetic/genetics",
+      "Plant Proteins/genetics/metabolism",
+      "Chromatin/genetics/metabolism",
+      "Machine Learning",
+      "Epigenesis, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Navratilova, Pavla",
+        "Pavlu, Simon",
+        "Zhu, Zihao",
+        "Tulpova, Zuzana",
+        "Kopecky, Ondrej",
+        "Novak, Petr",
+        "Stein, Nils",
+        "Simkova, Hana"
+      ],
+      "short_names": [
+        "Navratilova P",
+        "Pavlu S",
+        "Zhu Z",
+        "Tulpova Z",
+        "Kopecky O",
+        "Novak P",
+        "Stein N",
+        "Simkova H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic. Electronic address: pavla.navratilova@ceitec.muni.cz.",
+        "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic; Department of Cell Biology and Genetics, Faculty of Science, Palacky University, Olomouc, Czech Republic.",
+        "Leibniz Institute of Plant Genetics and Crop Plant Research, Gatersleben, Germany.",
+        "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic.",
+        "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic; Department of Cell Biology and Genetics, Faculty of Science, Palacky University, Olomouc, Czech Republic.",
+        "Czech Academy of Sciences, Institute of Plant Molecular Biology, Ceske Budejovice, Czech Republic.",
+        "Leibniz Institute of Plant Genetics and Crop Plant Research, Gatersleben, Germany; Crop Plant Genetics, Martin Luther University of Halle-Wittenberg, Halle (Saale), Germany.",
+        "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic. Electronic address: simkovah@ueb.cas.cz."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Navratilova, Pavla",
+        "short_name": "Navratilova P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic. Electronic address: pavla.navratilova@ceitec.muni.cz."
+        ]
+      },
+      {
+        "full_name": "Pavlu, Simon",
+        "short_name": "Pavlu S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic; Department of Cell Biology and Genetics, Faculty of Science, Palacky University, Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zihao",
+        "short_name": "Zhu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz Institute of Plant Genetics and Crop Plant Research, Gatersleben, Germany."
+        ]
+      },
+      {
+        "full_name": "Tulpova, Zuzana",
+        "short_name": "Tulpova Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kopecky, Ondrej",
+        "short_name": "Kopecky O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic; Department of Cell Biology and Genetics, Faculty of Science, Palacky University, Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Novak, Petr",
+        "short_name": "Novak P",
+        "identifiers": [],
+        "affiliations": [
+          "Czech Academy of Sciences, Institute of Plant Molecular Biology, Ceske Budejovice, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Stein, Nils",
+        "short_name": "Stein N",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz Institute of Plant Genetics and Crop Plant Research, Gatersleben, Germany; Crop Plant Genetics, Martin Luther University of Halle-Wittenberg, Halle (Saale), Germany."
+        ]
+      },
+      {
+        "full_name": "Simkova, Hana",
+        "short_name": "Simkova H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Experimental Botany of the Czech Academy of Sciences, Olomouc, Czech Republic. Electronic address: simkovah@ueb.cas.cz."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2026 Jan 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/12 00:33",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [
+      "42103768"
+    ],
+    "refs": [
+      "39659015",
+      "39623466",
+      "39537924",
+      "39255248",
+      "39167800",
+      "39080779",
+      "39080503",
+      "38982288",
+      "38974863",
+      "38664394",
+      "38635902",
+      "38621828",
+      "38513612",
+      "38430521",
+      "38336688",
+      "38253712",
+      "38173877",
+      "37953337",
+      "37780497",
+      "36921607",
+      "36864100",
+      "36639687",
+      "36471071",
+      "36087348",
+      "36071071",
+      "36028557",
+      "35691341",
+      "35617427",
+      "35544234",
+      "35501845",
+      "35338551",
+      "35177836",
+      "35073966",
+      "34925430",
+      "34918159",
+      "34859126",
+      "34557778",
+      "34455096",
+      "34290042",
+      "34064912",
+      "34034755",
+      "33872375",
+      "33767193",
+      "33749795",
+      "33737754",
+      "33710295",
+      "33320174",
+      "33165320",
+      "32879011",
+      "32349780",
+      "32321567",
+      "31740773",
+      "31740772",
+      "31701126",
+      "31605096",
+      "31530818",
+      "31477927",
+      "31409785",
+      "31375807",
+      "31307500",
+      "31201335",
+      "31201330",
+      "31106290",
+      "30423889",
+      "30407531",
+      "30287902",
+      "30115783",
+      "29743678",
+      "29471333",
+      "29270235",
+      "28985562",
+      "28808136",
+      "28645171",
+      "28447635",
+      "28391329",
+      "27643841",
+      "27635052",
+      "27593567",
+      "27557775",
+      "27079975",
+      "26619908",
+      "26424858",
+      "26255869",
+      "25938943",
+      "25765347",
+      "25762111",
+      "25653163",
+      "25516281",
+      "25383968",
+      "24614317",
+      "24234003",
+      "23657480",
+      "23104886",
+      "22388286",
+      "22373907",
+      "22265404",
+      "21816040",
+      "21789182",
+      "21493656",
+      "21278375",
+      "21209072",
+      "20148030",
+      "20110278",
+      "18798982",
+      "18047696",
+      "17984227",
+      "17158798",
+      "15797199",
+      "12837695",
+      "10973062"
+    ],
+    "similar": [
+      "41075792",
+      "22985436",
+      "39251952",
+      "40594669",
+      "41673553",
+      "40619360",
+      "20409301",
+      "38635902",
+      "41392309",
+      "41776219",
+      "40624271",
+      "39681766",
+      "24567495",
+      "31740772",
+      "41677925",
+      "42174423",
+      "34219317",
+      "24594978",
+      "42118379",
+      "40127931",
+      "40652302",
+      "22409646",
+      "25173685",
+      "20117010",
+      "39766899",
+      "12953112",
+      "36613901",
+      "39080779",
+      "38444770",
+      "19480686",
+      "31740773",
+      "38773546",
+      "39454526",
+      "19470089",
+      "31137473",
+      "27598245",
+      "7548822",
+      "39462454",
+      "39701794",
+      "40332394",
+      "40369872",
+      "40341060",
+      "26255869",
+      "15821866",
+      "42475469",
+      "40827700",
+      "41683776",
+      "30592743",
+      "39436452",
+      "34544387",
+      "40657825",
+      "33023833",
+      "12856949",
+      "32581321",
+      "34069581",
+      "35594855",
+      "39025865",
+      "42406911",
+      "27193099",
+      "22213809",
+      "19134169",
+      "39273331",
+      "27503086",
+      "40623546",
+      "31038680",
+      "41456595",
+      "38859561",
+      "32947963",
+      "25625239",
+      "37294468",
+      "30813913",
+      "18643973",
+      "28064247",
+      "39604476",
+      "31201335",
+      "27844244",
+      "33169329",
+      "21414429",
+      "26057533",
+      "17467282",
+      "25303887",
+      "38790207",
+      "39420254",
+      "39390531",
+      "26327607",
+      "25420105",
+      "32423019",
+      "40488763",
+      "31623562",
+      "24175960",
+      "40076657",
+      "23126376",
+      "41468566",
+      "41465400",
+      "28335009",
+      "15821867",
+      "41963792",
+      "16616588",
+      "40419952",
+      "38173877"
+    ],
+    "review": [
+      "41075792",
+      "33023833",
+      "25625239",
+      "37294468"
+    ],
+    "pmc": [
+      "12926201"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-979X(25)00293-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41075792/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-979X(25)00293-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

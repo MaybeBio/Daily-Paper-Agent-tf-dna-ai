@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a variant of the neural relational inference (NRI) model that integrates a multi-head self-attention module from transformer architectures. They compare this variant against dynamical network analysis and the initial NRI model for predicting p53-DNA allosteric pathways. They report that the variant model focuses more on long-range allosteric interactions than dynamical network analysis, and achieves superior accuracy and comprehensiveness relative to the initial NRI model. They further report divergent allosteric pathways between wild-type (WT) and mutant (MT) p53, with pathways propagating from mutation sites toward DNA even when ending nodes are undefined, and longer pathway lengths in MT p53. They interpret these findings as evidence that mutation sites impair long-range allosteric communication and signal transmission efficiency.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model architecture details, training and validation procedures, dataset descriptions, statistical analyses, and comparison metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative study of computational methods for analyzing protein allostery, with a plausible biological application to p53-DNA interactions. However, the current evidence base is insufficient to evaluate the validity of the core claims. The abstract lacks quantitative results, methodological specifics, and validation details. The claims of "superior accuracy and comprehensiveness" and the biological interpretations are not supported by any visible data. The work may be of interest to computational biologists and structural biologists, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein allostery prediction and network-based methods would be interested in the methodological comparison. Structural biologists studying p53-DNA interactions and mutation effects on allosteric communication would also find the biological application relevant. Researchers developing deep learning approaches for biological network inference may be interested in the architectural modification to the NRI model.
+- **Major strengths** The study addresses a relevant and challenging problem in protein allostery. The comparative design, evaluating a modified deep learning model against an established computational method, is a reasonable approach. The application to WT versus MT p53 provides a potentially meaningful biological context. The observation about pathway propagation from mutation sites toward DNA, even without defined ending nodes, is an interesting qualitative finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The variant model "enhances superior accuracy and comprehensiveness compared to initial NRI model"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims superior accuracy and comprehensiveness of the variant model over the initial NRI model, but no quantitative metrics, benchmark datasets, or statistical comparisons are provided. It is unclear what "accuracy" and "comprehensiveness" mean in this context, how they were measured, and whether the differences are statistically significant.
+  - **Why it matters** Without defined metrics and quantitative results, the claim of superiority cannot be evaluated or reproduced. This is a central claim of the study and must be substantiated with concrete evidence.
+  - **Resolution test** Provide specific evaluation metrics (e.g., precision, recall, F1-score, pathway recovery rate) with numerical values and statistical significance tests for the comparison between the variant model and the initial NRI model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The variant model "is more focused on long-range allosteric than dynamical network in predicting p53-DNA allosteric pathways"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that the variant model focuses more on long-range allosteric interactions than dynamical network analysis is qualitative and lacks operational definition. There is no description of how "long-range" is defined, how focus is measured, or what comparison was performed to support this conclusion.
+  - **Why it matters** This is a key comparative claim that distinguishes the proposed method from an established approach. Without a clear definition and quantitative comparison, the claim is not testable.
+  - **Resolution test** Define a quantitative measure of long-range focus (e.g., distribution of pathway lengths, contact distance thresholds) and provide comparative results between the variant model and dynamical network analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "Divergent allosteric pathways in wild-type (WT) versus mutant (MT) p53 may underlie their substantially different DNA recognition and binding behaviors"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a causal or mechanistic link between predicted allosteric pathway differences and experimentally observed differences in DNA recognition and binding between WT and MT p53. However, no experimental data, correlation analysis, or functional validation is presented to support this link.
+  - **Why it matters** This claim extends beyond computational prediction into biological interpretation. Without supporting evidence, the statement is speculative and may overstate the significance of the computational results.
+  - **Resolution test** Provide experimental or literature-based evidence linking the predicted pathway differences to known functional differences, or temper the claim to reflect that the computational predictions are consistent with, but not proof of, functional divergence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Even with undefined ending nodes, allosteric pathways consistently propagate from mutation sites toward DNA, and the length of pathways in MT p53 is significantly longer than that of WT p53"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of consistent directional propagation and significant length differences is presented without any statistical details. No sample sizes, variance measures, or significance tests are reported. The phrase "significantly longer" implies statistical testing, but no p-values or confidence intervals are given.
+  - **Why it matters** Statistical claims require statistical evidence. Without these details, the reliability of the finding cannot be assessed.
+  - **Resolution test** Report the number of pathways analyzed, the distribution of pathway lengths for WT and MT, and the statistical test used with corresponding p-values or effect sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "neural relational inference" and "multi-head self-attention module" without brief contextual explanation, which may limit accessibility for readers outside the deep learning community.
+  - **Required correction** Add a brief parenthetical explanation of these terms or their purpose in the context of the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Biological interpretation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that "mutation sites impair long-range allosteric communication, potentially disrupting signal transmission efficiency" is presented as a conclusion, but the abstract does not clarify whether this is a novel finding or consistent with prior knowledge.
+  - **Required correction** Clarify the novelty of this interpretation relative to existing literature on p53 mutations and allostery.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the model was "modified" by integrating a multi-head self-attention module, but does not specify what was modified or how the integration was implemented.
+  - **Required correction** Provide a brief description of the architectural change or refer to a methods section where this is detailed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative results, defined metrics, statistical details, and supporting evidence for biological interpretations means the core claims cannot be evaluated from the provided material.
+- **Assessment against Nature-style criteria** Originality: The combination of a transformer-based attention mechanism with the NRI model for allostery prediction may be novel, but this cannot be fully assessed from the abstract alone. Scientific importance: The topic is relevant, and the application to p53 mutations is potentially significant, but the importance is not demonstrated without robust results. Interdisciplinary readership: The work bridges deep learning and structural biology, which could appeal to a broad audience, but the abstract is not sufficiently accessible. Technical soundness: Not established due to missing methodological and quantitative details. Readability for nonspecialists: The abstract is reasonably clear in structure but uses technical terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the absence of quantitative results, methodological details, and validation makes it impossible to assess the validity of the claims. A full manuscript with detailed methods, results, and statistical analyses would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim of "superior accuracy and comprehensiveness" of the variant model over the initial NRI model is unsupported due to lack of quantitative metrics.
+- The claim that the variant model "is more focused on long-range allosteric" than dynamical network analysis is unsupported due to lack of operational definition and comparative data.
+- The claim that divergent allosteric pathways "may underlie" different DNA recognition and binding behaviors is speculative without supporting evidence.
+- The claim of "significantly longer" pathway lengths in MT p53 is unsupported without statistical details.
+- The interpretation that mutation sites "impair long-range allosteric communication" is not substantiated by the provided evidence.

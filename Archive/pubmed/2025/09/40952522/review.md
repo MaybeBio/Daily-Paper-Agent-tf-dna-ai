@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure legends, supplementary information descriptions)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript text; no external data or unpublished materials consulted
+- **Shared manuscript claim summary** The authors report the synthesis and characterisation of elongated dinuclear metallo-cylinders [M2(L2)3]4+ (M = Fe, Ni) and investigate their interactions with DNA three-way and four-way junctions using gel electrophoresis and molecular dynamics simulations. They claim that the elongated cylinder binds both 3WJ and 4WJ structures, prefers junctions over duplex DNA, and that its increased length enables distinct binding modes compared to the shorter parent cylinder.
+- **Visible evidence base** Main text figures (Figs. 1–6), supplementary information descriptions (Figs. S1–S20, Videos 1–12), NMR, ESI-MS, UV-Vis, PAGE, CD, LD, DFT and MD simulation data as described
+- **Missing materials affecting confidence** Full experimental methods section, detailed synthesis procedures, complete characterisation data (NMR spectra, mass spectra), MD simulation parameters and force field details, analysis scripts, raw gel images, and the supplementary information file itself were not available for review
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic study of elongated dinuclear metallo-cylinders and their DNA junction binding properties. The work extends a well-established research programme from the authors' laboratory and addresses a relevant question: how does increasing the length and π-surface of a metallo-supramolecular cylinder affect its interaction with DNA junctions? The combination of experimental biophysics (PAGE, CD, LD) and computational methods (DFT, MD) is appropriate and generally well executed. However, several technical concerns regarding compound stability, quantitative binding analysis, and the interpretation of MD results need to be addressed before the conclusions are fully supported. The study is of interest to the bioinorganic chemistry and DNA nanotechnology communities, though its broader impact is limited by the acknowledged instability of the compounds and the authors' own conclusion that they do not merit further cellular studies.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, supramolecular chemistry, and DNA structure recognition would find this work relevant. The study contributes to the growing understanding of how metallo-supramolecular assemblies recognise non-canonical DNA structures, which is of interest for the design of new DNA-targeting agents. The MD simulation methodology for probing junction binding may also be of interest to computational chemists working on DNA-ligand interactions.
+- **Major strengths** The study addresses a clear and well-defined question building logically on prior work. The combination of experimental and computational approaches is appropriate. The authors are transparent about the limitations of their compounds, including instability and isomerism. The MD simulations provide atomistic insight into binding modes that complement the experimental observations. The competition assays provide useful selectivity information.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the [Ni2(L2)3]4+ cylinder binds to 3WJ and 4WJ structures based on PAGE assays, but the quantitative interpretation is limited by compound instability.
+  - **Evidence pointer** Fig. 3, Fig. 5A, Figs. S10–S12
+  - **Concern** The authors report that [Fe2(L2)3](OAc)4 is unstable in sodium-containing buffers and that [Ni2(L2)3](OAc)4 shows "some instability" over 12 h, with ESI-MS revealing hydrolysis products. The PAGE experiments are performed under conditions where the compound is at least partially degrading. The authors state they used "freshly dissolved compound each time," but the time course of degradation relative to the experimental timescale of the gel electrophoresis and competition assays is not quantified. If a significant fraction of the compound degrades during the experiment, the observed binding may be attributable to degradation products or the intact compound in an unknown proportion. This fundamentally compromises the quantitative interpretation of the binding data.
+  - **Why it matters** The central claims of the paper rest on the binding behaviour of the intact cylinder. If the compound is degrading during the experiments, the observed gel shifts and competition data cannot be unambiguously attributed to the intact [Ni2(L2)3]4+ species. Without quantitative stability data under the exact experimental conditions, the conclusions are not robust.
+  - **Resolution test** Provide quantitative stability data (e.g., time-dependent UV-Vis or ESI-MS) for [Ni2(L2)3](OAc)4 under the exact PAGE buffer conditions over the full duration of the experiment. If degradation is significant, repeat key experiments under conditions where the compound is stable, or provide evidence that the binding observed is due to the intact species (e.g., by isolating and testing the degradation products as controls).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the elongated cylinder binds 4WJ in a distinct manner compared to the shorter cylinder, based on MD simulations showing a rhombus-shaped cavity.
+  - **Evidence pointer** Fig. 5C–E, Videos 7–12
+  - **Concern** The MD simulations are used to support distinct binding modes for the helicate and mesocate forms in the 4WJ. However, the manuscript does not provide sufficient detail on the simulation methodology: force field parameters for the metal centres, the protocol for generating starting configurations, the number of replicates, convergence criteria, or error estimates. The observation that "the majority (5 out of 6) simulations settled into a metastable state" suggests limited sampling, and the claim that the mesocate and helicate "adequately explore the energy landscape" is not supported by the data presented. The transition between conformations was observed in only one simulation, which is insufficient to establish that the observed binding modes are representative.
+  - **Why it matters** The MD simulations are a key component of the paper's mechanistic claims. If the simulations are not converged or the methodology is not robust, the proposed binding modes and the distinction between helicate and mesocate behaviour are not reliable. This affects the central conclusion that increased length enables different 4WJ binding modes.
+  - **Resolution test** Provide full simulation details including force field parameters, equilibration protocols, number of replicates, and convergence metrics. Show that the observed binding modes are reproducible across multiple independent simulations with different starting conditions. Quantify the free energy differences between the proposed binding modes if possible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "by increasing the π surfaces, larger junction structures can be targeted" and that this provides a design principle for future junction binders.
+  - **Evidence pointer** Conclusion section
+  - **Concern** The study demonstrates that the elongated cylinder binds 3WJ and 4WJ, but the claim that this provides a general design principle is not fully supported. The authors themselves note that the compounds are unstable and do not merit further cellular studies. The comparison between the elongated and parent cylinders is largely qualitative, and no quantitative binding affinities are reported. The conclusion that increased π-surface is the key parameter enabling 4WJ binding is plausible but not rigorously established, as other factors (e.g., flexibility, isomerism, charge distribution) also differ between the two systems.
+  - **Why it matters** The broader significance of the work depends on whether it provides transferable design principles. If the conclusion is overstated relative to the evidence, the impact of the study is diminished.
+  - **Resolution test** Provide quantitative binding data (e.g., dissociation constants) for the elongated and parent cylinders with 3WJ and 4WJ. If possible, include a systematic variation of cylinder length or π-surface to demonstrate a direct correlation with 4WJ binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Fig. 2B and C
+  - **Evidence pointer** Fig. 2B, C
+  - **Issue** The DFT models and MD snapshots in Fig. 2 are described in the text but the figure itself is not shown in the provided manuscript text. The description of the mesocate interconversion is complex and would benefit from a clearer schematic representation of the chirality changes.
+  - **Required correction** Ensure the figure clearly labels the metal centres, biphenyl units, and the chirality descriptors. Consider adding a simplified schematic to illustrate the interconversion mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Competition assay analysis
+  - **Evidence pointer** Fig. 5B, Fig. S17
+  - **Issue** The competition assay data are presented as normalised intensity curves, but the fitting procedure and the method for determining the 50% and 85% values are not described. The error bars are shown but the number of replicates and the statistical analysis are not fully detailed.
+  - **Required correction** Provide details of the data analysis, including the fitting function, the number of replicates, and the statistical test used to determine significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction is somewhat dense and assumes familiarity with the authors' prior work. A brief summary of the key structural features of the parent [M2(L1)3]4+ cylinder and its known DNA binding properties would help readers who are not specialists in this specific area.
+  - **Required correction** Add a concise summary of the parent cylinder's structure and DNA binding behaviour, with appropriate references.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** CD and LD experiments
+  - **Evidence pointer** Fig. 6
+  - **Issue** The CD and LD experiments are described qualitatively. The authors state that there is "little change" in the negative CD peak and a "slight increase" in the LD signal, but no quantitative analysis is provided. The noise at higher loadings is attributed to aggregation, but this is not verified experimentally.
+  - **Required correction** Provide quantitative analysis of the CD and LD spectra, including the concentration dependence of the signals. If aggregation is suspected, include dynamic light scattering or other evidence to support this interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (compound stability under experimental conditions), R1-M2 (MD simulation methodology and convergence)
+- **Assessment against Nature-style criteria** Originality: The work is incremental, building directly on the authors' prior studies of the parent cylinder. The question of how cylinder length affects junction binding is a reasonable extension, but the conceptual advance is modest. Scientific importance: The study provides useful information for the design of DNA junction binders, but the impact is limited by the compounds' instability and the lack of quantitative binding data. The broader therapeutic relevance is acknowledged by the authors to be minimal for these specific compounds. Interdisciplinary readership: The work will appeal primarily to bioinorganic chemists and those working on DNA recognition by synthetic agents. The methods and findings are less likely to attract a broader readership. Technical soundness: The experimental design is generally sound, but the compound stability issue and the lack of quantitative binding analysis are significant weaknesses. The MD simulations lack sufficient methodological detail to assess their reliability. Readability for nonspecialists: The manuscript is clearly written but assumes significant background knowledge in metallo-supramolecular chemistry and DNA structure. The figures and figure legends are informative, but the text could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and provides a reasonable combination of experimental and computational approaches. However, the compound stability issue (R1-M1) and the insufficient MD methodology details (R1-M2) must be addressed before the conclusions can be considered robust. The authors should also strengthen the quantitative analysis of their binding data and temper the broader design principle claims.
+
+## Risk / unsupported claims
+- The claim that the elongated cylinder binds 3WJ and 4WJ in preference to dsDNA is supported by the competition assay data, but the quantitative extent of this preference is not established.
+- The claim that the elongated cylinder does not coil dsDNA, unlike the parent cylinder, is based on qualitative CD/LD observations and requires quantitative confirmation.
+- The claim that the mesocate and helicate forms exhibit different 4WJ binding modes is based on a limited number of MD simulations and is not fully supported.
+- The claim that "increasing the π surfaces" is the key design parameter for targeting larger junctions is plausible but not rigorously established, as other structural differences between the cylinders are not controlled for.
+- The statement that the compounds "do not merit further study in cells" is an honest assessment but limits the broader significance of the work.

@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "42323473",
+    "doi": "10.1007/s00011-026-02298-3",
+    "title": "Rutin attenuates liver fibrosis via the IRG1-itaconate-Nrf2 axis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Liver fibrosis is a common consequence of chronic liver injury, driven by persistent inflammation, oxidative stress, and excessive extracellular matrix deposition. The natural flavonoid rutin possesses antioxidant and anti-inflammatory properties and has shown hepatoprotective potential; however, its anti-fibrotic mechanism remains incompletely understood. This study aimed to investigate the protective effects of rutin and its underlying molecular mechanism in a carbon tetrachloride (CCl(4))-induced mouse model of liver fibrosis, with a particular focus on the role of immune-responsive gene 1 (IRG1). METHODS: Liver fibrosis was induced in mice by CCl(4) administration. Hepatic injury, collagen deposition, inflammatory activation, and oxidative stress were evaluated using histological, biochemical, molecular, and transcriptomic approaches. The involvement of IRG1 was assessed by employing IRG1-deficient mice. Direct binding between rutin and IRG1 was examined through molecular docking, molecular dynamics simulations, and the cellular thermal shift assay (CETSA). RESULTS: Rutin treatment markedly alleviated CCl(4)-induced hepatic injury, fibrotic deposition, inflammatory cytokine production, and reactive oxygen species accumulation. Mechanistically, rutin directly bound to and stabilized IRG1, which was associated with enhanced IRG1 enzymatic activity and increased endogenous itaconate production. This led to activation of Nrf2-mediated antioxidant signaling and suppression of NLRP3 inflammasome activation. Importantly, the protective effects of rutin were largely abolished in IRG1-deficient mice, confirming that IRG1 is essential for rutin-mediated hepatoprotection. CONCLUSION: These findings identify rutin as a potential anti-fibrotic agent that targets the IRG1/itaconate axis to coordinate antioxidant and anti-inflammatory responses during liver fibrosis.",
+    "keywords": [
+      "IRG1",
+      "Itaconate",
+      "Liver fibrosis",
+      "NLRP3 inflammasome",
+      "Oxidative stress",
+      "Rutin"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Rutin/pharmacology/therapeutic use",
+      "Carbon Tetrachloride",
+      "*Liver Cirrhosis/drug therapy/chemically induced/metabolism/pathology",
+      "Male",
+      "*Succinates/metabolism",
+      "Liver/pathology/drug effects/metabolism",
+      "Mice, Inbred C57BL",
+      "Mice, Knockout",
+      "Oxidative Stress/drug effects",
+      "Mice",
+      "Reactive Oxygen Species/metabolism",
+      "Cytokines",
+      "Signal Transduction/drug effects",
+      "*Anti-Inflammatory Agents/pharmacology/therapeutic use",
+      "Humans",
+      "Hydro-Lyases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Ningman",
+        "Zhang, Jiao",
+        "Kuang, Ge",
+        "Liu, Guohao",
+        "Wan, Jingyuan",
+        "Wang, Bin",
+        "Zhao, Zizuo"
+      ],
+      "short_names": [
+        "Jiang N",
+        "Zhang J",
+        "Kuang G",
+        "Liu G",
+        "Wan J",
+        "Wang B",
+        "Zhao Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, China.",
+        "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China.",
+        "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China.",
+        "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China.",
+        "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China.",
+        "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China. jywan@cqmu.edu.cn.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, China. wb@hospital.cqmu.edu.cn.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, China. zhaozz513@hospital.cqmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Ningman",
+        "short_name": "Jiang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, China.",
+          "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiao",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China."
+        ]
+      },
+      {
+        "full_name": "Kuang, Ge",
+        "short_name": "Kuang G",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guohao",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China."
+        ]
+      },
+      {
+        "full_name": "Wan, Jingyuan",
+        "short_name": "Wan J",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Key Laboratory of Biochemistry and Molecular Pharmacology, Chongqing Medical University, Chongqing, 400016, PR China. jywan@cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Bin",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, China. wb@hospital.cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zizuo",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, 400016, China. zhaozz513@hospital.cqmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation research : official journal of the European Histamine Research Society ... [et al.]"
+    ],
+    "journal_abbrev": [
+      "Inflamm Res"
+    ],
+    "pub_date": "2026 Jun 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/21 22:29",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40633785",
+      "40552161",
+      "39935754",
+      "39430606",
+      "35257898",
+      "35231555",
+      "34894966",
+      "34778375",
+      "34321623",
+      "33791807",
+      "33774477",
+      "33058407",
+      "32791101",
+      "32763266",
+      "32496768",
+      "31997373",
+      "31704924",
+      "31332308",
+      "30266282",
+      "30213667",
+      "29670287",
+      "29590092",
+      "28902427",
+      "28167322",
+      "28045404",
+      "27374498",
+      "26867493",
+      "26681794",
+      "26206574",
+      "25835733",
+      "25074909",
+      "24815012",
+      "23867319",
+      "23813842",
+      "23664668",
+      "23610393",
+      "23567086",
+      "23294312",
+      "23175281",
+      "22850880",
+      "21959987",
+      "21884178",
+      "21073339",
+      "15620528",
+      "15520857",
+      "12821287",
+      "12708612",
+      "11264022",
+      "10473555"
+    ],
+    "similar": [
+      "42323473",
+      "38788445",
+      "40846099",
+      "33862553",
+      "31997373",
+      "39724735",
+      "39910615",
+      "35231555",
+      "35367821",
+      "39853881",
+      "34425095",
+      "39706064",
+      "39800144",
+      "32432601",
+      "41429385",
+      "40724913",
+      "41690038",
+      "39476567",
+      "35240537",
+      "40596643",
+      "40855408",
+      "24815012",
+      "41936306",
+      "41412261",
+      "41759558",
+      "36232707",
+      "38244950",
+      "41741731",
+      "40913317",
+      "41411733",
+      "42066824",
+      "40683441",
+      "29794447",
+      "32105750",
+      "41308396",
+      "38471319",
+      "40683423",
+      "37573684",
+      "32816567",
+      "20438794",
+      "42173390",
+      "38642169",
+      "41110354",
+      "40296302",
+      "28423499",
+      "41455169",
+      "30668448",
+      "41151450",
+      "42202917",
+      "29355602",
+      "33388347",
+      "35963297",
+      "40618820",
+      "41314270",
+      "41887383",
+      "39732297",
+      "39321687",
+      "40052242",
+      "21790536",
+      "38453127",
+      "42019124",
+      "23341968",
+      "39919455",
+      "33977953",
+      "41443484",
+      "39366075",
+      "39549551",
+      "41997405",
+      "34457120",
+      "27017478",
+      "30871359",
+      "30822691",
+      "40992063",
+      "29469035",
+      "38815774",
+      "41966031",
+      "38833791",
+      "32535387",
+      "31186013",
+      "34902361",
+      "39068811",
+      "34664134",
+      "33276196",
+      "29174446",
+      "41967782",
+      "27151496",
+      "33421604",
+      "41260554",
+      "39306885",
+      "40280981",
+      "28794616",
+      "38959553",
+      "41796616",
+      "41740338",
+      "41905442",
+      "41437173",
+      "41636749",
+      "33116250",
+      "29590092",
+      "24727148"
+    ],
+    "review": [
+      "42323473"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cirrhosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cirrhosis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00011-026-02298-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

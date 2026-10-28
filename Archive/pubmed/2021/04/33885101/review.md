@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a molecular dynamics investigation of cGAS activation upon DNA binding, providing insights into the motion of the activation loop from a mechanical perspective and its role in catalysis, and shedding light on the reaction leading to cGAMP synthesis. Two possible catalytic routes, GTP-ATP and ATP-GTP, are proposed based on active site occupancy.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force fields, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, system setup details, trajectory analyses, free energy calculations, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study of cGAS activation and catalysis, but the information provided is insufficient to evaluate the technical soundness or the validity of the proposed mechanistic conclusions. The central claims regarding activation loop motion and the two catalytic routes are stated without supporting quantitative evidence or methodological context. The work may be of interest to the computational enzymology community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biochemists and enzymologists studying nucleic acid sensing pathways, particularly those interested in cGAS structure-function relationships and the molecular basis of cyclic dinucleotide synthesis. Researchers developing MD-based approaches to study enzyme catalysis and conformational activation may also find the methodological framework relevant.
+- **Major strengths** The study addresses a biologically important question, namely the molecular mechanism of cGAS activation and catalysis, which has implications for innate immunity. The proposal of two distinct catalytic routes based on active site occupancy is a conceptually useful framework that could guide future mechanistic studies. The focus on activation loop dynamics as a mechanical element of catalysis is a reasonable and potentially insightful angle.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to provide insights into the motion of the activation loop and its role in catalysis, and to shed light on the reaction resulting in cGAMP synthesis.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no methodological details regarding the MD simulations, including force field parameters, water model, ionic conditions, simulation length, temperature and pressure coupling schemes, or convergence assessment. Without this information, the reliability of the reported activation loop dynamics and any derived mechanistic conclusions cannot be evaluated.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup and force field choice. The absence of these details prevents assessment of whether the observed motions and proposed catalytic routes are physically meaningful or artifacts of the simulation conditions.
+  - **Resolution test** The full manuscript must provide complete simulation protocols, including force field versions, system construction, equilibration procedures, production run lengths, and convergence metrics. The authors should also demonstrate that the activation loop dynamics are stable across independent simulations or enhanced sampling approaches.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The authors propose two possible catalytic routes, GTP-ATP and ATP-GTP, based on active site occupancy.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that two catalytic routes are proposed based on active site occupancy, but no quantitative data are presented to support this proposal. It is unclear how occupancy was calculated, what threshold was used to define a "route," and whether the two routes are kinetically or thermodynamically distinguishable. The claim that this "paves the way toward further exploration" suggests the routes are speculative rather than established.
+  - **Why it matters** The central mechanistic contribution of the study appears to be the identification of these two routes. If the evidence for them is not robust, the main conclusion of the paper is not supported.
+  - **Resolution test** The full manuscript must provide occupancy calculations, free energy profiles or barriers for both routes, and a clear explanation of how the two routes differ mechanistically. If the routes are only hypotheses, this should be stated explicitly and the evidence for their plausibility should be presented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The study is described as a molecular dynamics investigation of cGAS activation.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided about the starting structure of cGAS, the DNA construct used for activation, the binding mode of GTP and ATP, or the protonation states of catalytic residues. These details are essential for reproducing the simulations and for assessing whether the system setup is biologically relevant.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, other researchers cannot replicate the work or build upon it, and the biological relevance of the simulation system cannot be assessed.
+  - **Resolution test** The full manuscript must specify the PDB structures used, the DNA sequence and length, the ligand placement protocol, and the protonation state assignment method.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "from a mechanical point of view" is vague and could be interpreted in multiple ways, such as mechanical force, conformational mechanics, or molecular mechanics.
+  - **Required correction** Clarify the intended meaning, for example by specifying "from a conformational dynamics perspective" or "in terms of the mechanical work performed by the loop."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Reaction mechanism description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the study "sheds light on the reaction resulting in cGAMP synthesis" but does not indicate whether this refers to the full two-step reaction or only the first nucleotidyl transfer step.
+  - **Required correction** Specify the scope of the reaction studied, for example whether both phosphoryl transfer steps were simulated or only the initial step.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not place the findings in the context of previous experimental or computational studies of cGAS catalysis, making it difficult to assess the novelty of the proposed routes.
+  - **Required correction** Add a brief statement in the abstract or introduction indicating how the proposed GTP-ATP and ATP-GTP routes relate to or differ from previously proposed mechanisms.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of simulation details and quantitative support for the proposed catalytic routes means the central claims cannot be evaluated from the supplied material. R1-M3, while not blocking, must also be addressed for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposal of two distinct catalytic routes based on active site occupancy is a potentially original contribution, but the abstract does not demonstrate how this differs from prior mechanistic proposals for cGAS or related nucleotidyltransferases.
+  - Scientific importance: The topic is important for understanding innate immune signaling, but the abstract does not establish that the findings materially advance mechanistic understanding beyond what is already known.
+  - Interdisciplinary readership: The work may appeal to computational chemists and structural biologists, but the abstract is written in a way that is accessible to a broad biophysical audience.
+  - Technical soundness: Not assessable from the abstract due to missing methodological details.
+  - Readability for nonspecialists: The abstract is concise and generally readable, though terms such as "activation loop" and "active site occupancy" assume some background in enzymology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the absence of methodological detail and quantitative support for the central claims prevents a positive assessment. The authors should be encouraged to resubmit with a complete manuscript that addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that the study provides insights into activation loop motion and its role in catalysis is unsupported in the abstract due to the absence of any quantitative results or trajectory analyses.
+- The proposal of two catalytic routes, GTP-ATP and ATP-GTP, is unsupported as a finding; it is presented as a hypothesis based on occupancy, but no occupancy data or energetic comparisons are provided.
+- The statement that the study "sheds light on the reaction resulting in cGAMP synthesis" is not assessable because no reaction coordinate, free energy profile, or mechanistic detail is described.
+- Any implied biological or therapeutic relevance of the findings is not supported by the abstract.

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors used computational modelling and docking to study the RWP-RK DNA-binding domain from NIN/NLP and RKD transcription factors, focusing on the conserved serine residue at position four of the RWPSRK motif. They modelled wild-type and variant domains (E, Y, H substitutions), docked them against a modelled pCLE13 cis-element, and performed molecular dynamics simulations. They report that the wild-type complex has the most negative binding free energy, that the serine residue maintains significant hydrogen bonding with DNA, and that variants show energetic frustration and loss of residue correlation. They conclude that serine is crucial for appropriate protein-DNA interaction and biological relevance.
+- **Visible evidence base** Abstract text only; no numerical data, methodological details, figures, or tables
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, statistical analyses, and any validation of the modelled structures
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing an interesting evolutionary question about the RWP-RK domain. However, the evidence base is limited to a summary of results without any quantitative data, methodological detail, or validation. The core claims about binding free energies, hydrogen bond occupancy, and energetic frustration cannot be independently assessed from the supplied material. The study may be of interest to researchers in plant developmental biology and transcription factor evolution, but the case for the central conclusion is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying legume nodulation, NIN/NLP transcription factor function, plant developmental signalling, and the evolution of DNA-binding domains. The work could also interest computational biologists working on protein-DNA docking and molecular dynamics simulations of transcription factor complexes.
+- **Major strengths** The study addresses a specific and biologically meaningful question about the functional significance of a conserved residue. The comparison between NIN/NLP and RKD domains provides an evolutionary framework. The combination of docking and simulation is appropriate for the question posed.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The wild-type HTH-DNA complex exhibited the most negative binding free energy, indicating a strong interaction, particularly hydrogen bonds acting between them.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports binding free energy values and hydrogen bond interactions without providing any numerical data, error estimates, or the method used to compute these quantities. No comparison of the magnitude of differences between wild-type and variants is given, so it is impossible to judge whether the reported differences are meaningful or within the noise of the computational method.
+  - **Why it matters** Binding free energy differences are the central quantitative evidence for the claim that serine is crucial for interaction strength. Without values, uncertainties, and methodological context, the claim is unsupported.
+  - **Resolution test** Provide the computed binding free energies for all constructs with standard errors, the method used (e.g. MM-PBSA, MM-GBSA), and a statistical test showing that the wild-type value is significantly different from the variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The hydrogen bond occupancy percentage indicated that the fourth serine residue is vital for maintaining a significant percentage of hydrogen bonds with DNA.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that hydrogen bond occupancy percentages were calculated but does not report the actual percentages, the simulation length, the number of replicates, or the criteria used to define a hydrogen bond. The word "significant" is used without statistical support.
+  - **Why it matters** Hydrogen bond occupancy is a time-averaged quantity that depends heavily on simulation parameters and analysis criteria. Without these details, the claim that serine is "vital" cannot be evaluated.
+  - **Resolution test** Report the occupancy percentages for each residue in the RWP-RK domain for all constructs, the simulation time, the number of independent simulations, and a statistical comparison between wild-type and variants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The variants substituting this conserved serine residue displayed energetic frustration upon binding to DNA and lost correlation among their residues.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The terms "energetic frustration" and "lost correlation" are not defined in the abstract. No metric, analysis method, or quantitative result is provided to support these claims. It is unclear what was measured and how it relates to the biological function of the domain.
+  - **Why it matters** These claims are presented as key findings but are not operationalised. Without a clear definition of the metrics and the numerical results, the claims are not testable.
+  - **Resolution test** Define the frustration metric and the correlation measure used, provide the numerical values for wild-type and variants, and show how these relate to binding affinity or stability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Overall, it suggested that serine residue of the RWP-RK domain of all NINs/NLPs is crucial for appropriate protein-DNA interaction, which might be required for their biological relevance.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The conclusion extends the computational findings to a general biological claim about all NINs/NLPs and their biological relevance. The abstract provides no experimental validation, no functional assay, and no evidence that the modelled pCLE13 interaction represents the in vivo binding mode. The phrase "might be required" is appropriately cautious, but the preceding claims are stated more strongly than the evidence allows.
+  - **Why it matters** The biological significance of the serine residue is the main point of interest for the readership. A computational prediction without experimental support cannot establish this claim.
+  - **Resolution test** Provide experimental evidence such as electrophoretic mobility shift assays with wild-type and variant domains, or cite existing experimental data that supports the computational prediction.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract assumes familiarity with the RWP-RK domain, NIN/NLP and RKD transcription factors, and the autoregulation of nodulation. A nonspecialist reader would benefit from a brief statement of why this domain matters beyond the specific system.
+  - **Required correction** Add one sentence explaining the broader significance of RWP-RK domains in plant development and the relevance of the NIN-CLE interaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model construction
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the domains were "modelled" and "docked" but does not specify the template structures, the modelling method, or the docking software. This is important for reproducibility.
+  - **Required correction** Include the modelling and docking methods in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation analysis
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "simulation analysis" without specifying the force field, simulation time, or software used. This limits the reader's ability to judge the quality of the simulations.
+  - **Required correction** Provide the simulation parameters in the abstract or refer to a methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Evolutionary interpretation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract notes that RKDs have tyrosine or histidine at the serine position but does not discuss what this means for RKD function. The evolutionary argument would be strengthened by addressing whether RKDs have a different binding mechanism or target different elements.
+  - **Required correction** Add a brief statement on the functional implications of the serine substitution in RKDs.
+
+## Risk / unsupported claims
+- The claim that the wild-type complex exhibits the most negative binding free energy is unsupported because no numerical values or statistical comparisons are provided.
+- The claim that serine is vital for maintaining a significant percentage of hydrogen bonds is unsupported because occupancy percentages and simulation details are not given.
+- The claim that variants display energetic frustration and lost residue correlation is unsupported because the metrics are not defined and no results are reported.
+- The conclusion that serine is crucial for biological relevance is not established from computational data alone and requires experimental validation.
+- The generalisation to "all NINs/NLPs" is not supported by the evidence presented, which is limited to a single modelled complex with pCLE13.

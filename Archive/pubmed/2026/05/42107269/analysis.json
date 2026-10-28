@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42107269",
+  "title": "Identification of non-hydroxamate histone deacetylase 8 inhibitors using deep learning-based screening of two-dimensional molecular images.",
+  "authors": "Yamashita, Yasunobu; Yun, Juhyun; Asai, Ayumu; Kato, Hiroki; Taki, Yuuki; Izuhara, Moeha; Yamanaka, Takuya; Tsuji, Motonori; Nakamura, Junya; Takada, Yuri; Itoh, Yukihiro; Sakurai, Yasushi; Suzuki, Takayoshi",
+  "journal": "Bioorganic & medicinal chemistry",
+  "published_date": "2026-05-11",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习筛选HDAC8小分子抑制剂，对象为酶-小分子互作，与蛋白质-DNA互作及TF-DNA体系无关。",
+  "abstract": "Histone deacetylase 8 (HDAC8) is a zinc-dependent enzyme that deacetylates proteins and is involved in cancer development, making its inhibition a potential anticancer strategy. Most reported HDAC8 inhibitors contain a hydroxamate zinc-binding group; however, hydroxamate moieties have been associated with potential mutagenicity, motivating the search for non-hydroxamate inhibitors. In this study, we applied a two-dimensional (2D) molecular image-based deep learning approach to identify non-hydroxamate HDAC8 inhibitors. We first assessed DEEPScreen, a reported convolutional neural network-based platform that uses a 2D molecular image model; however, the original architecture exhibited limited predictive performance for HDAC8 (F1-score < 0.7). Incorporating a ResNet architecture into DEEPScreen improved the classification accuracy of HDAC8 inhibitors (F1-score = 0.84) and outperformed conventional descriptor-based methods. Using the trained ResNet model, we screened the Osaka University library and experimentally assessed the resulting virtual hit compounds. This workflow identified a non-hydroxamate HDAC8 inhibitor hit S29 (61.6% inhibition at 30 muM; IC(50) = 14.1 muM). Subsequent straightforward structural optimization revealed that the alpha-methyl substituent on the ester moiety was not essential for HDAC8 inhibition and resulted in the identification of compound 1, a more potent non-hydroxamate HDAC8 inhibitor (72% inhibition at 30 muM; IC(50) = 7.8 muM). This study demonstrates that 2D image-based deep learning-integrated with experimental validation and structural optimization-can facilitate the discovery of non-hydroxamate HDAC8 inhibitors and expand the accessible chemical space for this target.",
+  "abstract_zh": "组蛋白去乙酰化酶8（HDAC8）是一种锌依赖性酶，可对蛋白质进行去乙酰化，并参与癌症发展，因此其抑制成为一种潜在的抗癌策略。大多数已报道的HDAC8抑制剂含有羟肟酸锌结合基团；然而，羟肟酸部分与潜在的致突变性相关，促使人们寻找非羟肟酸抑制剂。在本研究中，我们应用了一种基于二维（2D）分子图像的深度学习方法，以识别非羟肟酸HDAC8抑制剂。我们首先评估了DEEPScreen，一个已报道的基于卷积神经网络的平台，该平台使用2D分子图像模型；然而，原始架构对HDAC8的预测性能有限（F1分数 < 0.7）。将ResNet架构整合到DEEPScreen中，提高了HDAC8抑制剂的分类准确性（F1分数 = 0.84），并优于传统的基于描述符的方法。使用训练好的ResNet模型，我们筛选了大阪大学库，并对所得的虚拟命中化合物进行了实验评估。该工作流程识别出一个非羟肟酸HDAC8抑制剂命中化合物S29（在30 μM下抑制率为61.6%；IC(50) = 14.1 μM）。随后的直接结构优化表明，酯部分上的α-甲基取代基对HDAC8抑制并非必需，并由此鉴定出化合物1，一种更有效的非羟肟酸HDAC8抑制剂（在30 μM下抑制率为72%；IC(50) = 7.8 μM）。本研究证明，基于2D图像的深度学习——结合实验验证和结构优化——可以促进非羟肟酸HDAC8抑制剂的发现，并扩展该靶点的可及化学空间。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42107269/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42107269/",
+  "paper_page_path": "papers/pubmed/42107269/index.html"
+}

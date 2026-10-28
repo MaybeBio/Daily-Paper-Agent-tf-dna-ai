@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "41233737",
+    "doi": "10.1186/s11658-025-00821-8",
+    "title": "E0703 targets ERbeta to facilitate the upregulation of GLI3, thereby alleviating irradiation-induced DNA damage on lymphocytes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Radiotherapy for malignant tumor treatment and irradiation (IR)-related diagnosis damage lymphocytes, which inevitably suppresses immunity and leads to unwanted clinical outcomes. However, a few agents have been approved by the Food and Drug Administration (FDA) to alleviate IR-induced injury. Here, the radioprotective effect and underlying mechanism of a new steroidal compound optimized from estradiol (E0703) were investigated. METHODS: Mice were exposed to gamma-ray IR to establish an in vivo model of radiation injury, and human peripheral blood B lymphocytes (AHH-1) were employed to investigate injury in lymphocytes. Protein level changes in cell and tissue samples were detected by western blot and immunofluorescence. DNA damage was assessed by the comet assay and gammaH2AX staining. RNA sequencing was used to screen the critical genes mediating the radioprotective effect of E0703. To determine the direct target of E0703, cellular thermal shift (CETSA), drug affinity responsive target stability (DARTS), molecular docking, and surface plasmon resonance (SPR) assays were adopted. GLI3 transactivation by estrogen receptor beta (ERbeta) was determined by the chromatin immunoprecipitation (ChIP) assay, while protein interactions were detected by coimmunoprecipitation (Co-IP). IP products were subjected to label-free proteomics assay to screen GLI3 conjugates. RESULTS: E0703 significantly improved survival and tissue injury in mice exposed to IR damage. In lymphocytes, IR-induced DNA damage was ameliorated with E0703 in an ataxia-telangiectasia mutated protein (ATM)-checkpoint kinase 2 (CHK2)-dependent manner. ERbeta but not ERalpha was a direct target of E0703, wherein ERbeta enhancement on the promoter region of GLI3 triggered by E0703 could sustain its protein expression. The interaction between GLI3 and eIF4G1 favored by E0703 was critical for the formation of the eIF4F translation-initiation complex. eIF4F assembly was indispensable for the stimulation of ATM-CHK2 signaling involved in DNA damage repair. CONCLUSIONS: E0703 alleviated IR-induced DNA damage in lymphocytes by selectively targeting ERbeta. The formation of the eIF4F complex in a GLI3-dependent manner was critical for ATM-CHK2 activation triggered by E0703. Our study provides an alternative countermeasure to alleviate IR-induced lymphopenia in individuals undergoing radiotherapy or IR-related diagnosis.",
+    "keywords": [
+      "ATM-CHK2 signaling",
+      "E0703",
+      "EIF4F complex",
+      "Estrogen receptor beta",
+      "GLI3",
+      "Ionizing radiation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*DNA Damage/drug effects/radiation effects",
+      "Mice",
+      "*Estrogen Receptor beta/metabolism",
+      "Humans",
+      "*Lymphocytes/drug effects/metabolism/radiation effects",
+      "*Zinc Finger Protein Gli3/metabolism/genetics",
+      "*Up-Regulation/drug effects",
+      "*Estradiol/pharmacology/analogs & derivatives",
+      "Gamma Rays/adverse effects",
+      "Radiation-Protective Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liao, Zebin",
+        "Zhang, Liangliang",
+        "Wu, Zekun",
+        "Hu, Changkun",
+        "Tang, Xianglin",
+        "Xiao, Chengrong",
+        "Qian, Liren",
+        "Gao, Yue"
+      ],
+      "short_names": [
+        "Liao Z",
+        "Zhang L",
+        "Wu Z",
+        "Hu C",
+        "Tang X",
+        "Xiao C",
+        "Qian L",
+        "Gao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5677-7052"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, Beijing Institute of Radiation Medicine, 27 Taiping Road, Beijing, 100850, People's Republic of China.",
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, People's Republic of China.",
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, People's Republic of China.",
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, People's Republic of China.",
+        "Department of Pharmaceutical Sciences, Beijing Institute of Radiation Medicine, 27 Taiping Road, Beijing, 100850, People's Republic of China.",
+        "Department of Pharmaceutical Sciences, Beijing Institute of Radiation Medicine, 27 Taiping Road, Beijing, 100850, People's Republic of China.",
+        "Senior Department of Hematology, Chinese PLA General Hospital, Dongda Street 8, Beijing, 100071, People's Republic of China. qlr2007@126.com.",
+        "Department of Pharmaceutical Sciences, Beijing Institute of Radiation Medicine, 27 Taiping Road, Beijing, 100850, People's Republic of China. gaoyue@bmi.ac.cn.",
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, People's Republic of China. gaoyue@bmi.ac.cn.",
+        "State Key Laboratory of Kidney Diseases, Chinese PLA General Hospital, Beijing, 100853, People's Republic of China. gaoyue@bmi.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liao, Zebin",
+        "short_name": "Liao Z",
+        "identifiers": [
+          "0000-0001-5677-7052"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Beijing Institute of Radiation Medicine, 27 Taiping Road, Beijing, 100850, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liangliang",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zekun",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hu, Changkun",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tang, Xianglin",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Beijing Institute of Radiation Medicine, 27 Taiping Road, Beijing, 100850, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Chengrong",
+        "short_name": "Xiao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Beijing Institute of Radiation Medicine, 27 Taiping Road, Beijing, 100850, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qian, Liren",
+        "short_name": "Qian L",
+        "identifiers": [],
+        "affiliations": [
+          "Senior Department of Hematology, Chinese PLA General Hospital, Dongda Street 8, Beijing, 100071, People's Republic of China. qlr2007@126.com."
+        ]
+      },
+      {
+        "full_name": "Gao, Yue",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Beijing Institute of Radiation Medicine, 27 Taiping Road, Beijing, 100850, People's Republic of China. gaoyue@bmi.ac.cn.",
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, People's Republic of China. gaoyue@bmi.ac.cn.",
+          "State Key Laboratory of Kidney Diseases, Chinese PLA General Hospital, Beijing, 100853, People's Republic of China. gaoyue@bmi.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular & molecular biology letters"
+    ],
+    "journal_abbrev": [
+      "Cell Mol Biol Lett"
+    ],
+    "pub_date": "2025 Nov 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/14 00:28",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40275106",
+      "39809742",
+      "39797694",
+      "39555075",
+      "39481608",
+      "39425547",
+      "39303997",
+      "38982062",
+      "38964743",
+      "38808157",
+      "38513102",
+      "38474292",
+      "38065233",
+      "36696484",
+      "36368026",
+      "36089330",
+      "35930681",
+      "35709009",
+      "35456989",
+      "35145123",
+      "34707113",
+      "33693953",
+      "33077885",
+      "33065293",
+      "33045089",
+      "32782329",
+      "32479946",
+      "32355263",
+      "32105647",
+      "31604087",
+      "31158607",
+      "31038675",
+      "30992459",
+      "30926591",
+      "29987188",
+      "29361554",
+      "28657406",
+      "28657400",
+      "28650707",
+      "28622525",
+      "28533268",
+      "28487292",
+      "28242755",
+      "28189183",
+      "27979317",
+      "26603897",
+      "25349983",
+      "23112151",
+      "21921919",
+      "21747117",
+      "21191102",
+      "21163312",
+      "20547749",
+      "15855276",
+      "12730626",
+      "12459017",
+      "10381840",
+      "5821204",
+      "5321680"
+    ],
+    "similar": [
+      "41233737",
+      "33347954",
+      "26521794",
+      "30992459",
+      "25483091",
+      "27692296",
+      "15546858",
+      "22004065",
+      "38695243",
+      "18436471",
+      "31054162",
+      "19486865",
+      "17376776",
+      "38474292",
+      "15533933",
+      "23009583",
+      "12192050",
+      "18561333",
+      "29804541",
+      "28690887",
+      "18197824",
+      "21944902",
+      "21464397",
+      "28503683",
+      "32944396",
+      "12861053",
+      "32448107",
+      "41135621",
+      "30782847",
+      "24238855",
+      "30323167",
+      "21946110",
+      "24498326",
+      "17363488",
+      "24500925",
+      "20516478",
+      "32943060",
+      "18769933",
+      "22264334",
+      "33464136",
+      "31124426",
+      "12588868",
+      "10744722",
+      "23911387",
+      "26015225",
+      "25812588",
+      "31378106",
+      "15795059",
+      "22173400",
+      "19650866",
+      "22761813",
+      "22258824",
+      "25181965",
+      "18593910",
+      "25696973",
+      "23846672",
+      "16461339",
+      "21031634",
+      "25863274",
+      "17980860",
+      "33933460",
+      "27260225",
+      "38382170",
+      "15361830",
+      "10435585",
+      "12208749",
+      "17981442",
+      "28766757",
+      "10973490",
+      "31407246",
+      "28074659",
+      "37980806",
+      "16434448",
+      "35011623",
+      "39985567",
+      "33901880",
+      "23462183",
+      "22682873",
+      "15456759",
+      "17644025",
+      "11287291",
+      "26756427",
+      "24480460",
+      "40421718",
+      "30379881",
+      "24210080",
+      "24991881",
+      "31419512",
+      "31140903",
+      "31101118",
+      "25956916",
+      "40422185",
+      "16940182",
+      "11239001",
+      "26824362",
+      "23266271",
+      "22494620",
+      "11438675",
+      "23362266",
+      "11298456"
+    ],
+    "review": [
+      "41233737"
+    ],
+    "pmc": [
+      "12616896"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cmbl.biomedcentral.com/articles/10.1186/s11658-025-00821-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41233737/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s11658-025-00821-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ATM-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-912",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

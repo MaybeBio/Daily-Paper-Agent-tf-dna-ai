@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report all-atom molecular dynamics simulations of the p53 core tetramer, claiming that the symmetric interface is highly conserved, the dimer-dimer interface is flexible, a novel salt bridge at the dimer-dimer interface contributes significantly to interaction energy, DNA affinity is more than twice that of protein-protein interactions driven by five key residues, and independent simulations of two dimeric models explain why only the symmetric dimer is observed experimentally.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, force field parameters, convergence criteria, energy decomposition details, structural figures, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study of p53 tetramer stability, but the claims are stated without quantitative support or methodological detail. The central conclusions, particularly the novel salt bridge and the explanation for experimental observation of only the symmetric dimer, cannot be evaluated from the supplied material. The work may be of interest to the structural biology and computational biophysics community, but the evidence base is insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers studying p53 structure and function, particularly those interested in tetramerization mechanisms and DNA binding. Computational biophysicists working on protein-protein and protein-DNA interaction energetics would also find relevance, as would experimentalists seeking residue-level targets for mutagenesis or therapeutic intervention.
+- **Major strengths** The study addresses a biologically important question regarding p53 tetramer stability and its cooperative interfaces. The use of all-atom molecular dynamics is appropriate for investigating dynamic interactions. The identification of a potentially novel salt bridge and the comparative analysis of DNA versus protein-protein affinity offer specific, testable hypotheses.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that a novel salt bridge at the dimer-dimer interface significantly contributes to interaction energy
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that a novel salt bridge was identified and that it significantly contributes to interaction energy, but no quantitative energy values, comparison to other interactions, or statistical significance are provided. The term "novel" implies a comparison to prior literature that is not described.
+  - **Why it matters** Without quantitative energy decomposition and a clear definition of "significant," the claim cannot be assessed for robustness. A salt bridge observed in one simulation trajectory may be an artifact of the force field or insufficient sampling.
+  - **Resolution test** Provide interaction energy values with standard errors, a comparison to other interface contacts, and evidence that the salt bridge is stable across independent simulations or replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DNA affinity is more than twice that of protein-protein interactions, driven primarily by five key residues
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a quantitative comparison of binding affinities but does not specify how affinity was calculated, what metric was used (e.g., binding free energy, interaction energy), or the uncertainty in the estimate. The identification of five key residues is stated without supporting data.
+  - **Why it matters** A factor of two in affinity is a specific quantitative claim that requires robust free energy calculations or at least consistent energy decomposition. Without error estimates or methodological detail, the claim is not verifiable.
+  - **Resolution test** Report the computational method used to estimate affinity, provide values with confidence intervals, and show per-residue contributions for the five key residues.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that independent simulations of two dimeric models provide a theoretical explanation for why only the symmetric dimeric structure has been observed experimentally
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts a theoretical explanation for an experimental observation but does not describe the nature of the explanation, the differences between the two dimeric models, or the criteria used to judge which is more stable or observable.
+  - **Why it matters** This is a central conclusion that connects simulation to experiment. Without details on the models, simulation conditions, and the specific structural or energetic differences, the claim is unfalsifiable from the provided material.
+  - **Resolution test** Describe the two dimeric models, the simulation protocol, and the quantitative differences (e.g., free energy, structural stability, interface contacts) that support the explanation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "symmetric interface maintains highly conserved interactions" is ambiguous. It is unclear whether "conserved" refers to evolutionary conservation across species or to structural conservation across simulation time.
+  - **Required correction** Clarify the meaning of "conserved" in the context of the simulation, or rephrase to specify whether the interactions are evolutionarily conserved or dynamically stable.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention simulation length, number of replicates, force field, or water model. These are essential for assessing convergence and reliability of the results.
+  - **Required correction** Add a brief statement of simulation parameters in the abstract or ensure they are prominently described in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Novelty claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state how the identified salt bridge is novel relative to prior structural or computational studies of p53 tetramerization.
+  - **Required correction** Provide a brief comparison to previously reported p53 tetramer structures or simulations to substantiate the novelty claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data, methodological detail, and statistical validation means the core claims are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of comparing interface energetics and dimeric models is not clearly novel from the abstract alone. The potential novelty of the salt bridge is stated but not substantiated.
+  - Scientific importance: The p53 tetramer is a well-studied system, and the questions addressed are relevant. However, the abstract does not demonstrate that the findings substantially advance understanding beyond existing structural and computational work.
+  - Interdisciplinary readership: The topic is of interest to structural biologists, computational chemists, and cancer researchers, but the abstract is written in a way that assumes familiarity with molecular dynamics terminology.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative results prevents evaluation of the technical quality.
+  - Readability for nonspecialists: The abstract is concise but uses field-specific terms without definition, and the ambiguous use of "conserved" reduces clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses but lacks the quantitative and methodological support needed to evaluate the claims. A full manuscript with detailed methods, results, and statistical analyses would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of a novel salt bridge at the dimer-dimer interface is unsupported without structural or energetic evidence.
+- The quantitative claim that DNA affinity is more than twice that of protein-protein interactions is unsupported without defined affinity metrics and error estimates.
+- The theoretical explanation for the experimental observation of only the symmetric dimer is unsupported without details of the dimeric models and simulation outcomes.
+- The statement that the symmetric interface maintains "highly conserved interactions" is ambiguous and not assessable without definition of "conserved."
+- The identification of five key residues driving DNA affinity is unsupported without per-residue data.

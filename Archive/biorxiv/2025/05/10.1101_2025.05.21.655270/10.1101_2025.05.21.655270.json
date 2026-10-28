@@ -1,0 +1,715 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.21.655270",
+  "title": "A protein-DNA surface hydrogel mechanically reinforces the cell nucleus and protects the genome",
+  "doi": "10.1101/2025.05.21.655270",
+  "abstract": "The nuclear envelope protects the genome from mechanical stress during processes such as migration, division, and compression 1–6 , but how it buffers forces at the scale of DNA remains unclear. Here, we utilize optical tweezers to show that a multivalent protein–DNA co-condensate containing the nuclear envelope protein LEM2 7,8 and the DNA-binding protein BAF 9,10 shield DNA beyond its melting point at 65 pN 11 . Under load, their collective assembly induces an unconventional DNA stiffening effect that provides mechanical reinforcement, dependent on the intrinsically disordered region (IDR) of LEM2. At the nuclear surface, these components form an elastic surface hydrogel in which LEM2 IDR-IDR interactions contract the surface hydrogel relative to its relaxed state, introducing a pre-stress in the lamin network. Inside cells, this surface hydrogel model can recapitulate elastic properties of the nuclear envelope measured via AFM indentation experiments as well as nuclear morphology, using parameters obtained at the molecular scale by use of optical tweezers. Disruption of the surface hydrogel increases DNA damage and micronuclei formation during nuclear deformation. These findings reveal a load-bearing, mesoscale surface hydrogel that reinforces the nucleus and expands the functional repertoire of biomolecular condensates to include DNA protection under mechanical stress.",
+  "authors": [
+    "Ramesh Adakkattil",
+    "Pranay Mandal",
+    "Yahor Savich",
+    "Valentin Ruffine",
+    "Mareike A. Jordan",
+    "Henrik Dahl Pinholt",
+    "Elisabeth Fischer Friedrich",
+    "Frank Jülicher",
+    "Stephan W Grill",
+    "Alexander von Appen"
+  ],
+  "published_date": "2025-05-26",
+  "updated_date": "2025-05-26T20:00:11Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655270",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655270.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T20:14:15Z",
+        "timestamp": 1790280855476,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            26
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 73,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                26
+              ]
+            ],
+            "date-time": "2025-05-26T00:00:00Z",
+            "timestamp": 1748217600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Funding by the Max Planck Society"
+        },
+        {
+          "name": "European Research Council-Organelloids",
+          "award": [
+            "101117619"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "101117619"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "German Research Foundation SPP2191"
+        },
+        {
+          "name": "Heineman Foundation through Minerva"
+        },
+        {
+          "DOI": "10.13039/501100001663",
+          "name": "Volkswagen Foundation",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/501100001663",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The nuclear envelope protects the genome from mechanical stress during processes such as migration, division, and compression\n                  <jats:sup>1–6</jats:sup>\n                  , but how it buffers forces at the scale of DNA remains unclear. Here, we utilize optical tweezers to show that a multivalent protein–DNA co-condensate containing the nuclear envelope protein LEM2\n                  <jats:sup>7,8</jats:sup>\n                  and the DNA-binding protein BAF\n                  <jats:sup>9,10</jats:sup>\n                  shield DNA beyond its melting point at 65 pN\n                  <jats:sup>11</jats:sup>\n                  . Under load, their collective assembly induces an unconventional DNA stiffening effect that provides mechanical reinforcement, dependent on the intrinsically disordered region (IDR) of LEM2. At the nuclear surface, these components form an elastic surface hydrogel in which LEM2 IDR-IDR interactions contract the surface hydrogel relative to its relaxed state, introducing a pre-stress in the lamin network. Inside cells, this surface hydrogel model can recapitulate elastic properties of the nuclear envelope measured via AFM indentation experiments as well as nuclear morphology, using parameters obtained at the molecular scale by use of optical tweezers. Disruption of the surface hydrogel increases DNA damage and micronuclei formation during nuclear deformation. These findings reveal a load-bearing, mesoscale surface hydrogel that reinforces the nucleus and expands the functional repertoire of biomolecular condensates to include DNA protection under mechanical stress.\n                </jats:p>",
+      "DOI": "10.1101/2025.05.21.655270",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            26
+          ]
+        ],
+        "date-time": "2025-05-26T20:00:11Z",
+        "timestamp": 1748289611000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "A protein-DNA surface hydrogel mechanically reinforces the cell nucleus and protects the genome"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1464-6158",
+          "authenticated-orcid": false,
+          "given": "Ramesh",
+          "family": "Adakkattil",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pranay",
+          "family": "Mandal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yahor",
+          "family": "Savich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Valentin",
+          "family": "Ruffine",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mareike A.",
+          "family": "Jordan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Henrik Dahl",
+          "family": "Pinholt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elisabeth Fischer",
+          "family": "Friedrich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4731-9185",
+          "authenticated-orcid": false,
+          "given": "Frank",
+          "family": "Jülicher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stephan W",
+          "family": "Grill",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "von Appen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2020.11.037"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201210040"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aad7297"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aad7611"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2016.153"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2016.12.008"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2232-x"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1613916114"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.07.038"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.10",
+          "unstructured": "Skoko, D. et al. Barrier-to-Autointegration Factor (BAF) Condenses DNA by Looping."
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0904322106"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0534-z"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/cvr/cvad061"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.2019103701"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CELL.2020.03.052"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06157-7"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2019.02.021"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Caravia, X. M. et al. Loss of function of the nuclear envelope protein LEMD2 causes DNA damage-dependent cardiomyopathy. J. Clin. Invest. 132, (2022).",
+          "DOI": "10.1172/JCI158897"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2015.03.005"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0116196"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1088176"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2006.10.060"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201901116"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E20-01-0009"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.201694574"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1172046"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10879"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1132516"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.04.017"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41567-021-01285-1"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2107871119"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Keenen, M. M. et al. HP1 proteins compact DNA into mechanically and positionally stable phase separated domains. Elife 10, (2021).",
+          "DOI": "10.7554/eLife.64563"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.150240197"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.10.02.616352"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0021-9258(18)98599-6"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.97.1.127"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0607526103"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-conmatphys-031720-032917"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz6694"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.nanolett.7b04842"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx460"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-022-01042-3"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-020-0537-5"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "762",
+          "DOI": "10.1038/s41556-025-01648-3",
+          "article-title": "Nuclear pores safeguard the integrity of the nuclear envelope",
+          "volume": "27",
+          "year": "2025",
+          "journal-title": "Nat. Cell Biol"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2024.12.008"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adh1411"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature21382"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-025-01622-5"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aad8857"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ou, H. D. et al. ChromEMT: Visualizing 3D chromatin structure and compaction in interphase and mitotic cells. Science 357, (2017).",
+          "DOI": "10.1126/science.aag0025"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-025-56823-9"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky736"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.02701"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.01357"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "297",
+          "DOI": "10.1002/cm.21835",
+          "article-title": "Microstructure-based nuclear lamina constitutive model",
+          "volume": "81",
+          "year": "2024",
+          "journal-title": "Cytoskeleton (Hoboken)"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2307404",
+          "DOI": "10.1002/advs.202307404",
+          "article-title": "Tough Hydrogels for Load-Bearing Applications",
+          "volume": "11",
+          "year": "2024",
+          "journal-title": "Adv Sci (Weinh)"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.01.009"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1240104"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1669-2"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, M. et al. Lamin A/C safeguards replication initiation by orchestrating chromatin accessibility and PCNA recruitment. bioRxivorg 2025.03.06.641818 (2025).",
+          "DOI": "10.1101/2025.03.06.641818"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cherdyntseva, V. et al. Nucleoplasmic Lamin A/C controls replication fork restart upon stress by modulating local H3K9me3 and ADP-ribosylation levels. bioRxivorg 2025.01.18.633737 (2025).",
+          "DOI": "10.1101/2025.01.18.633737"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-06135-5"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae752"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M700576200"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb989"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.3943"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abi6983"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-66259-4"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.mie.2022.03.010"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-33957-8"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3791/64435"
+        },
+        {
+          "key": "2025080909250749000_2025.05.21.655270v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jsbi.1996.0013"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.21.655270",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T08:46:49Z",
+        "timestamp": 1768466809000
+      },
+      "score": 63.960484,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.21.655270"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            26
+          ]
+        ]
+      },
+      "references-count": 73,
+      "URL": "https://doi.org/10.1101/2025.05.21.655270",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

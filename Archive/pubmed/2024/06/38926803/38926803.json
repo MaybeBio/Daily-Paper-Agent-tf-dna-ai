@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "38926803",
+    "doi": "10.1186/s13046-024-03085-w",
+    "title": "Neddylation activated TRIM25 desensitizes triple-negative breast cancer to paclitaxel via TFEB-mediated autophagy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Paclitaxel (PTX) treatment resistance is an important factor leading to poor prognosis in triple-negative breast cancer (TNBC), therefore there is an urgent need to identify new target for combination therapy. Neddylation is a post-translational process that introduces a ubiquitin-like protein called neural precursor cell expressed developmentally downregulated protein 8 (NEDD8). Previous studies have found that neddylation is activated in multiple tumors, but its relationship with PTX chemotherapy sensitivity has not been reported. METHODS: Differences in UBC12 and NEDD8 expression levels between PTX-sensitive and PTX-insensitive TNBC tissues were validated using public databases and immunohistochemistry. The in vitro and in vivo functional experiments were used to observe the effect of neddylation inhibition combined with PTX therapy on tumor progression. Co-IP, western blot and PCR assays were used to investigate the molecular mechanisms. Molecular docking was used to simulate the protein binding of UBC12 and TRIM25. Molecular dynamics simulation was used to observe the changes in TRIM25 protein conformation. RESULTS: We found that in TNBC that is insensitive to PTX, NEDD8 and NEDD8 conjugating enzyme UBC12 are highly expressed. Treatment with the NEDD8-activating enzyme (NAE) inhibitor mln4924 or knockdown of UBC12 significantly increased the sensitivity of the tumor to PTX, and this increase in sensitivity is related to UBC12-mediated autophagy activation. Mechanistically, UBC12 can transfer NEDD8 to E3 ubiquitin ligase tripartite motif containing 25 (TRIM25) at K117. Molecular dynamics simulations indicate that the neddylation modification of TRIM25 reduces steric hindrance in its RING domain, facilitating the binding of TRIM25 and ubiquitylated substrates. Subsequently, TRIM25 promotes the nuclear translocation of transcription factor EB (TFEB) and transcription of autophagy related genes by increasing K63-polyubiquitination of TFEB, thereby reducing tumor sensitivity to PTX. CONCLUSIONS: Neddylation is activated in PTX-insensitive TNBC. Specifically, autophagy gene transcriptional activation mediated by the UBC12/TRIM25/TFEB axis reduces TNBC sensitivity to PTX. Neddylation suppression combination with PTX treatment shows a synergistic anti-tumor effect.",
+    "keywords": [
+      "Autophagy",
+      "Neddylation",
+      "PTX resistance",
+      "TFEB",
+      "TRIM25"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Triple Negative Breast Neoplasms/drug therapy/metabolism/pathology",
+      "*Paclitaxel/pharmacology/therapeutic use",
+      "Female",
+      "Mice",
+      "Animals",
+      "*Autophagy/drug effects",
+      "*NEDD8 Protein/metabolism",
+      "*Ubiquitin-Protein Ligases/metabolism/genetics",
+      "*Tripartite Motif Proteins/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Transcription Factors/metabolism/genetics",
+      "Cyclopentanes/pharmacology",
+      "Drug Resistance, Neoplasm",
+      "Xenograft Model Antitumor Assays",
+      "Ubiquitin-Conjugating Enzymes/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Bowen",
+        "Qian, Fengyuan",
+        "Wang, Xuehui",
+        "Wang, Yuying",
+        "Zhou, Baian",
+        "Fang, Lin"
+      ],
+      "short_names": [
+        "Zheng B",
+        "Qian F",
+        "Wang X",
+        "Wang Y",
+        "Zhou B",
+        "Fang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China.",
+        "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China.",
+        "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China.",
+        "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China.",
+        "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China.",
+        "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China. fanglin2017@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Bowen",
+        "short_name": "Zheng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Fengyuan",
+        "short_name": "Qian F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuehui",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Baian",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Lin",
+        "short_name": "Fang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, 301 Yanchang Middle Road, Shanghai, 200072, China. fanglin2017@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2024 Jun 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/27 00:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42630505",
+      "42314059",
+      "42193333",
+      "41890763",
+      "41878691",
+      "41858526",
+      "41714918",
+      "41674102",
+      "41646943",
+      "41540013",
+      "41490883",
+      "41315221",
+      "41147004",
+      "41114878",
+      "41112955",
+      "41053033",
+      "41039188",
+      "41009794",
+      "40629335",
+      "40431746",
+      "40163091",
+      "40083935",
+      "39851496",
+      "39792087",
+      "39482684"
+    ],
+    "refs": [
+      "38306978",
+      "38128537",
+      "37771771",
+      "37766429",
+      "37541251",
+      "37343564",
+      "37226898",
+      "37096846",
+      "37024667",
+      "37012494",
+      "36987696",
+      "36864290",
+      "36749723",
+      "36626230",
+      "36441024",
+      "36190501",
+      "35662396",
+      "35228523",
+      "35048968",
+      "33966039",
+      "33827629",
+      "33105796",
+      "33089874",
+      "32651357",
+      "32517735",
+      "32457294",
+      "31953436",
+      "31387632",
+      "31208947",
+      "30100205",
+      "29764979",
+      "28754656",
+      "27884298",
+      "27400265",
+      "27230526",
+      "26679222",
+      "25720963",
+      "25427136",
+      "24410571",
+      "22576015",
+      "22343943",
+      "21617040",
+      "20144757",
+      "19509147",
+      "19360080",
+      "18793140",
+      "16980297",
+      "15242646",
+      "12075357",
+      "9353319"
+    ],
+    "similar": [
+      "38926803",
+      "31208947",
+      "32449166",
+      "31898237",
+      "30545630",
+      "24853380",
+      "30833270",
+      "28475037",
+      "24821572",
+      "32576271",
+      "31898235",
+      "25229838",
+      "35101976",
+      "24525735",
+      "33648498",
+      "20603103",
+      "38126621",
+      "25782162",
+      "29667067",
+      "22874562",
+      "36258187",
+      "28831681",
+      "39214012",
+      "30885218",
+      "30660004",
+      "30898011",
+      "31782573",
+      "24410571",
+      "38627816",
+      "34452475",
+      "32671412",
+      "27063292",
+      "25904638",
+      "27245101",
+      "33807046",
+      "38959602",
+      "30797711",
+      "34662580",
+      "31002342",
+      "38390831",
+      "33905671",
+      "34082605",
+      "22951983",
+      "34998818",
+      "35180471",
+      "37734566",
+      "29301501",
+      "33025631",
+      "31907687",
+      "36138144",
+      "30341788",
+      "23995842",
+      "32513696",
+      "38604544",
+      "38823344",
+      "18826954",
+      "32398095",
+      "27626314",
+      "29387232",
+      "27348078",
+      "22608973",
+      "28861931",
+      "33629745",
+      "31044422",
+      "25918018",
+      "31057046",
+      "31953436",
+      "29379164",
+      "38960037",
+      "31740251",
+      "30323259",
+      "33827629",
+      "29331584",
+      "31301771",
+      "34416231",
+      "28958384",
+      "28717191",
+      "21527421",
+      "22927439",
+      "38978293",
+      "22004789",
+      "38303029",
+      "35014689",
+      "35880551",
+      "12565873",
+      "27072400",
+      "31842382",
+      "30198810",
+      "38334171",
+      "31293590",
+      "30587576",
+      "31882005",
+      "38928449",
+      "38888849",
+      "31308851",
+      "27223074",
+      "36732923",
+      "28060952",
+      "30943988",
+      "27591266",
+      "38864249",
+      "35761360",
+      "19617556",
+      "37401656",
+      "30854973",
+      "30635009",
+      "34284965",
+      "35115401",
+      "38714850",
+      "38280941",
+      "38951906",
+      "38290972",
+      "39009452",
+      "39062453",
+      "22110742",
+      "39019009",
+      "39033271",
+      "38885797",
+      "39265821",
+      "39333095",
+      "37031300",
+      "38803048",
+      "29074978",
+      "38885136",
+      "39297891",
+      "37525282",
+      "39312939",
+      "39349831",
+      "39353916",
+      "38588830",
+      "38084501",
+      "37484164",
+      "37398150",
+      "39214303",
+      "39230512",
+      "39022855"
+    ],
+    "review": [
+      "38926803",
+      "31898237",
+      "31898235",
+      "39214012",
+      "24410571",
+      "33025631",
+      "33827629",
+      "29331584",
+      "30943988",
+      "30854973",
+      "39062453",
+      "38885797",
+      "38885136"
+    ],
+    "pmc": [
+      "11201311"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-024-03085-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38926803/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38926803",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4051",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

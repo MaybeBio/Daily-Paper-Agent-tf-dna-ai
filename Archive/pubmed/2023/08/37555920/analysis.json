@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37555920",
+  "title": "Identification of potential diagnostic biomarkers and therapeutic targets for endometriosis based on bioinformatics and machine learning analysis.",
+  "authors": "Hosseini, Maryam; Hammami, Behnaz; Kazemi, Mohammad",
+  "journal": "Journal of assisted reproduction and genetics",
+  "published_date": "2023-08-09",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于GEO数据构建TF-mRNA-miRNA调控网络并利用机器学习筛选子宫内膜异位症诊断标志物，虽涉及TF-DNA调控网络和分子对接，但核心是疾病生物标志物而非TF-DNA结合机制建模，方法可迁移但深度有限。",
+  "abstract": "PURPOSE: Endometriosis (EMs) is a major gynecological condition in women. Due to the absence of definitive symptoms, its early detection is very challenging; thus, it is crucial to find biomarkers to ease its diagnosis and therapy. Here, we aimed to identify potential diagnostic and therapeutic targets for EMs by constructing a regulatory network and using machine learning approaches. METHODS: Three Gene Expression Omnibus (GEO) datasets were merged, and differentially expressed genes (DEGS) were identified after preprocessing steps. Using the DEGs, a transcription factor (TF)-mRNA-miRNA regulatory network was constructed, and hub genes were detected based on four different algorithms in CytoHubba. The hub genes were used to build a GaussianNB diagnostic model and also in docking analysis that were performed using Discovery Studio and AutoDock Vina software. RESULTS: A total of 119 DEGs were identified between EMs and non-EMs samples. A regulatory network consisting of 52 mRNAs, 249 miRNAs, and 37 TFs was then constructed. The diagnostic model was introduced using the hub genes selected from the network (GATA6, HMOX1, HS3ST1, NFASC, and PTGIS) that its area under the curve (AUC) was 0.98 and 0.92 in the training and validation cohorts, respectively. Based on docking analysis, two chemical compounds, rofecoxib and retinoic acid, had potential therapeutic effects on EMs. CONCLUSION: In conclusion, this study identified potential diagnostic and therapeutic targets for EMs which demand more experimental confirmations.",
+  "abstract_zh": "目的：子宫内膜异位症（EMs）是女性中一种主要的妇科疾病。由于缺乏明确症状，其早期检测非常具有挑战性；因此，寻找生物标志物以促进其诊断和治疗至关重要。在此，我们旨在通过构建调控网络并采用机器学习方法，识别EMs的潜在诊断和治疗靶点。方法：合并三个基因表达综合数据库（GEO）数据集，并在预处理步骤后识别差异表达基因（DEGs）。利用这些DEGs构建了一个转录因子（TF）-mRNA-miRNA调控网络，并基于CytoHubba中的四种不同算法检测核心基因。使用核心基因构建高斯朴素贝叶斯（GaussianNB）诊断模型，并利用Discovery Studio和AutoDock Vina软件进行对接分析。结果：在EMs与非EMs样本之间共识别出119个DEGs。随后构建了一个包含52个mRNAs、249个miRNAs和37个TFs的调控网络。利用从网络中选择的核心基因（GATA6、HMOX1、HS3ST1、NFASC和PTGIS）引入了诊断模型，其在训练和验证队列中的曲线下面积（AUC）分别为0.98和0.92。基于对接分析，两种化合物罗非昔布和维甲酸对EMs具有潜在治疗作用。结论：总之，本研究识别了EMs的潜在诊断和治疗靶点，这些靶点需要更多的实验验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37555920/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37555920/",
+  "paper_page_path": "papers/pubmed/37555920/index.html"
+}

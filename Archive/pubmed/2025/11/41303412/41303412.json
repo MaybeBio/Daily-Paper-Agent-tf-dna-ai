@@ -1,0 +1,471 @@
+{
+  "identity": {
+    "pmid": "41303412",
+    "doi": "10.3390/ijms262210925",
+    "title": "Advances in Artificial Intelligence (AI) Models and Generative Algorithms Represent a New Paradigm for Genomics Research."
+  },
+  "content": {
+    "abstract": "Genomics has developed in step with progress in computing. As computational capabilities have grown, analyses have expanded from simple statistics to artificial intelligence (AI)-based approaches within genomics. The decline in sequencing costs has led to the accumulation of diverse genomic datasets, rapidly accelerating AI for genomic analysis. AI models are now developed and applied across many functional domains, including the prediction of transcription factor binding sites, epigenetic elements, DNA methylation, and noncoding sequence functional annotation. With the maturation of architectures such as deep neural networks, convolutional neural networks, recurrent neural networks, and transformers, many genomic models now accommodate longer inputs, capture long-range context, and integrate complex multi-omics data, thereby steadily improving predictive accuracy. Moreover, the emergence of generative AI has enabled models that can simulate and design genomic sequences. The introduction of generative AI into genomics goes beyond inferring function to the capability of replicating functional genomes. These advances will help advance genome interpretation and accelerate our ability to chart and navigate the genomic landscape.",
+    "keywords": [
+      "artificial intelligence",
+      "bioinformatics",
+      "deep learning",
+      "generative algorithms",
+      "genomics",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Genomics/methods",
+      "*Artificial Intelligence",
+      "Humans",
+      "*Algorithms",
+      "Neural Networks, Computer",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Du Hyeong",
+        "Park, Eun Gyung",
+        "Lee, Yun Ju",
+        "Jeong, Hyeon-Su",
+        "Roh, Hyun-Young",
+        "Jeong, Ga-Ram",
+        "Kim, Sang-Woo",
+        "Kim, Heui-Soo"
+      ],
+      "short_names": [
+        "Lee DH",
+        "Park EG",
+        "Lee YJ",
+        "Jeong HS",
+        "Roh HY",
+        "Jeong GR",
+        "Kim SW",
+        "Kim HS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8403-4395",
+        "ORCID: 0000-0002-9575-7043",
+        "ORCID: 0000-0002-4578-3323",
+        "ORCID: 0009-0001-7403-1729",
+        "ORCID: 0009-0002-0566-8010",
+        "ORCID: 0009-0001-8415-7608",
+        "ORCID: 0000-0002-5226-6594"
+      ],
+      "affiliations": [
+        "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+        "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+        "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+        "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+        "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+        "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+        "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+        "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Biological Sciences, College of Natural Sciences, Pusan National University, Busan 46241, Republic of Korea.",
+        "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Biological Sciences, College of Natural Sciences, Pusan National University, Busan 46241, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Du Hyeong",
+        "short_name": "Lee DH",
+        "identifiers": [
+          "0000-0001-8403-4395"
+        ],
+        "affiliations": [
+          "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+          "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Eun Gyung",
+        "short_name": "Park EG",
+        "identifiers": [
+          "0000-0002-9575-7043"
+        ],
+        "affiliations": [
+          "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+          "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Yun Ju",
+        "short_name": "Lee YJ",
+        "identifiers": [
+          "0000-0002-4578-3323"
+        ],
+        "affiliations": [
+          "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+          "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Hyeon-Su",
+        "short_name": "Jeong HS",
+        "identifiers": [
+          "0009-0001-7403-1729"
+        ],
+        "affiliations": [
+          "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+          "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Roh, Hyun-Young",
+        "short_name": "Roh HY",
+        "identifiers": [
+          "0009-0002-0566-8010"
+        ],
+        "affiliations": [
+          "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+          "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Ga-Ram",
+        "short_name": "Jeong GR",
+        "identifiers": [
+          "0009-0001-8415-7608"
+        ],
+        "affiliations": [
+          "Department of Integrated Biological Science, Pusan National University, Busan 46241, Republic of Korea.",
+          "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Sang-Woo",
+        "short_name": "Kim SW",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+          "Department of Biological Sciences, College of Natural Sciences, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Heui-Soo",
+        "short_name": "Kim HS",
+        "identifiers": [
+          "0000-0002-5226-6594"
+        ],
+        "affiliations": [
+          "Institute of Systems Biology, Pusan National University, Busan 46241, Republic of Korea.",
+          "Department of Biological Sciences, College of Natural Sciences, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Nov 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 06:27",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [
+      "42509546",
+      "42213636",
+      "42123533",
+      "42100489",
+      "41596344"
+    ],
+    "refs": [
+      "40478140",
+      "40185915",
+      "39990426",
+      "39963877",
+      "39779956",
+      "39696471",
+      "39609566",
+      "39541441",
+      "39060028",
+      "38066713",
+      "37916871",
+      "37387181",
+      "37384816",
+      "36918529",
+      "36892770",
+      "36892769",
+      "36229538",
+      "36011034",
+      "35907020",
+      "35751201",
+      "35499292",
+      "34920719",
+      "34875006",
+      "34765093",
+      "34608324",
+      "34265844",
+      "34111009",
+      "33979731",
+      "33834200",
+      "33733182",
+      "33635801",
+      "33603233",
+      "33539374",
+      "33538820",
+      "33375658",
+      "33154517",
+      "33125335",
+      "33051704",
+      "32551184",
+      "32504078",
+      "32400262",
+      "32181478",
+      "31881831",
+      "30729177",
+      "30661751",
+      "30147283",
+      "29970003",
+      "29931149",
+      "29579165",
+      "29278490",
+      "29275361",
+      "29086090",
+      "28395661",
+      "28334830",
+      "28254616",
+      "27929098",
+      "27587684",
+      "27386492",
+      "27197224",
+      "27084946",
+      "26390495",
+      "26213851",
+      "25948244",
+      "25338716",
+      "24409142",
+      "23095127",
+      "22888763",
+      "22686303",
+      "22538991",
+      "21911355",
+      "21672907",
+      "21029849",
+      "20676068",
+      "20416077",
+      "20090771",
+      "19763935"
+    ],
+    "similar": [
+      "41303412",
+      "40553344",
+      "40553343",
+      "40553329",
+      "41206113",
+      "31744524",
+      "41596454",
+      "40884650",
+      "42132948",
+      "41348251",
+      "42322793",
+      "40184941",
+      "40455159",
+      "42379586",
+      "42611956",
+      "33001599",
+      "42481850",
+      "42366266",
+      "41222234",
+      "41154856",
+      "42003104",
+      "42211230",
+      "41520911",
+      "41751160",
+      "39275870",
+      "33039710",
+      "42490893",
+      "40063929",
+      "40549427",
+      "42688306",
+      "40517231",
+      "39332994",
+      "42348079",
+      "29522900",
+      "42475469",
+      "41844874",
+      "41776108",
+      "41440512",
+      "33844136",
+      "38424184",
+      "40991422",
+      "34493371",
+      "40483546",
+      "37757969",
+      "39205391",
+      "41782801",
+      "41025068",
+      "41806059",
+      "41518203",
+      "39388235",
+      "42044246",
+      "42195036",
+      "42575519",
+      "40163820",
+      "35091121",
+      "42289215",
+      "39948530",
+      "41628813",
+      "39523267",
+      "40429619",
+      "39518140",
+      "41965741",
+      "40886665",
+      "40508402",
+      "38160265",
+      "40543913",
+      "29373082",
+      "41410327",
+      "41076006",
+      "42349054",
+      "40847227",
+      "38600621",
+      "38409223",
+      "34750410",
+      "40983504",
+      "41922965",
+      "38438821",
+      "42173625",
+      "40887563",
+      "42377676",
+      "40613890",
+      "40155814",
+      "39666835",
+      "31651216",
+      "40874818",
+      "42528297",
+      "30832569",
+      "39303095",
+      "39013268",
+      "36768346",
+      "41168799",
+      "42274624",
+      "39931986",
+      "41530914",
+      "41778634",
+      "35808184",
+      "42153319",
+      "42492189",
+      "42391906",
+      "42680994"
+    ],
+    "review": [
+      "41303412",
+      "40553329",
+      "41206113",
+      "31744524",
+      "41596454",
+      "40884650",
+      "42132948",
+      "41348251",
+      "42322793",
+      "40184941",
+      "42379586",
+      "42611956",
+      "33001599",
+      "42481850",
+      "42366266",
+      "41222234",
+      "41154856",
+      "42211230",
+      "41520911",
+      "41751160",
+      "39275870",
+      "42490893",
+      "40063929",
+      "40549427",
+      "42688306",
+      "40517231",
+      "42348079",
+      "29522900",
+      "41776108",
+      "41440512",
+      "33844136",
+      "38424184",
+      "37757969",
+      "41025068",
+      "41806059",
+      "41518203",
+      "42195036",
+      "42575519",
+      "35091121",
+      "42289215",
+      "39948530",
+      "41628813",
+      "39523267",
+      "40429619",
+      "39518140",
+      "41965741",
+      "40886665",
+      "40508402",
+      "40543913",
+      "41410327",
+      "41076006",
+      "42349054",
+      "40847227",
+      "40983504",
+      "41922965",
+      "38438821",
+      "42173625",
+      "40887563",
+      "42377676",
+      "40613890",
+      "39666835",
+      "40874818",
+      "42528297",
+      "39013268",
+      "36768346",
+      "41168799",
+      "42274624",
+      "39931986",
+      "41778634",
+      "42153319",
+      "42492189",
+      "42391906"
+    ],
+    "pmc": [
+      "12652821"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms262210925",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41303412/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

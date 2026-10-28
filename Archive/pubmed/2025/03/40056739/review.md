@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use deep learning-based molecular modeling, docking, and multi-nanosecond simulations (totaling 2 microseconds) with end-state free energy calculations to propose that distinct phosphorylation states of NPR1 (at Ser11, Ser15, Ser55, Ser59) modulate its conformational dynamics and differentially control binding to the transcriptional activator TGA3 versus the repressor WRKY70, with SUMOylation playing a stabilizing role in the salicylic-acid-induced state.
+- **Visible evidence base** Abstract text only; no simulation details, force field parameters, system setup, convergence metrics, free energy values, or structural figures are available
+- **Missing materials affecting confidence** Full methods, simulation parameters, validation of deep learning models, docking scores, free energy calculation details, error estimates, structural figures, trajectory analyses, and any comparison with experimental data beyond the cited literature
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a biologically important question, namely how post-translational modifications of NPR1 control its switch between activating and repressing immune gene expression. However, the current abstract is written in a highly technical and at times unclear manner, with several structural notations that are difficult to interpret. The central claims about conformational switching and binding selectivity are not supported by quantitative evidence in the abstract, and the absence of methodological detail prevents assessment of technical soundness. The work may be of interest to plant immunity researchers and computational biologists, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Plant molecular biologists studying systemic acquired resistance and NPR1 signaling would be interested in the atomic-level hypotheses about how phosphorylation and SUMOylation control NPR1 conformation and partner selection. Computational biophysicists interested in post-translational modification effects on protein dynamics may also find the simulation approach relevant. The potential to guide mutagenesis experiments in crop improvement for enhanced disease resistance would appeal to translational plant science groups.
+- **Major strengths** The study addresses a mechanistically important and unresolved question about how multisite phosphorylation and SUMOylation coordinate NPR1 function. The use of long multi-nanosecond simulations (2 microseconds total) is a reasonable approach for exploring conformational dynamics. The focus on specific salt bridges and hydrogen bonds provides testable hypotheses for experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that specific phosphorylation states "stabilize helices and the flexible activation loop" and "switch association with TGA3" based on simulation results.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative data are presented to support the claimed stabilization or switching. There are no free energy values, no binding affinity estimates, no RMSD or RMSF numbers, and no statistical measures of conformational stability. The phrase "end-state free energy calculations" is mentioned but no results from these calculations are reported.
+  - **Why it matters** Without quantitative support, the central mechanistic claims are assertions rather than demonstrated findings. The reader cannot evaluate whether the observed differences between phosphorylation states are significant or within simulation error.
+  - **Resolution test** Provide binding free energy values with error estimates for each complex, and show quantitative measures of conformational stability (for example RMSD, RMSF, or secondary structure persistence) that distinguish phosphorylated from unphosphorylated states with statistical support.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodology
+  - **Claim pointer** The abstract states that "deep learning-based molecular modeling, docking, and multi-nanosecond simulations" were used, but provides no methodological detail.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No information is given about which deep learning models were used, how structures were generated or validated, what docking protocol was employed, which force field and water model were used, how many replicas were run, or how convergence was assessed. The notation "totaling 2 mus" is ambiguous regarding the number of independent simulations and their lengths.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, the technical validity of the simulations cannot be assessed, and other groups cannot replicate or build upon the work.
+  - **Resolution test** Provide a complete methods section including software versions, model names, simulation parameters, system construction details, equilibration protocols, and convergence criteria. Specify the number and length of independent simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clarity and interpretability
+  - **Claim pointer** The abstract describes specific structural contacts such as "(alpha22)Lys423 - (alpha1)Arg50 & (L35)Asp467-Arg51alpha(5)1, and Gly27(L3)" and "(L10)Arg99-Glu323(alpha9) and (alpha14)Glu280-Pro264(L6)".
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The structural notation is inconsistent and confusing. Elements such as "Arg51alpha(5)1" and "alpha3(10)" are not standard and are not defined. The reader cannot map these notations to specific residues or secondary structure elements without a figure or a clear legend. This obscures rather than clarifies the proposed interactions.
+  - **Why it matters** The specific contacts are presented as key mechanistic findings. If they cannot be interpreted, the central claims about salt bridges and hydrogen bonds cannot be evaluated or tested experimentally.
+  - **Resolution test** Rewrite the structural descriptions using standard residue numbering and secondary structure nomenclature, and provide a figure with labeled elements that clearly shows the contacts described.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental grounding
+  - **Claim pointer** The abstract states that NPR1 regulation by phosphorylation and SUMOylation is "experimentally well studied" and that the findings "will illuminate future investigations into enhancing plant immunity."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No direct comparison is made between the simulation predictions and existing experimental data beyond the general statement that the system is well studied. The abstract does not state whether the simulations reproduce known experimental observations, such as specific phosphorylation effects on NPR1 localization or degradation, or whether the predicted TGA3 versus WRKY70 selectivity is consistent with prior in vivo or in vitro binding data.
+  - **Why it matters** Computational predictions gain credibility when they are anchored to experimental observations. Without such anchoring, the reader cannot judge whether the simulations are capturing biologically relevant behavior or producing artifacts.
+  - **Resolution test** Include a comparison of key simulation predictions with published experimental results, and discuss any discrepancies explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract sentence structure
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The first sentence is grammatically incomplete and difficult to parse. The phrase "serving as a master switch for effector-triggered plant immunity through a transcriptional activator (TGA3) and repressor (WRKY70) are experimentally well studied" mixes a claim about NPR1 function with a claim about experimental study in a way that is confusing.
+  - **Required correction** Split into two clear sentences, for example "NPR1 is regulated by multisite phosphorylation and SUMOylation and serves as a master switch for effector-triggered plant immunity. Its function through the transcriptional activator TGA3 and repressor WRKY70 has been experimentally well studied."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Use of the term "un-phosphorylation"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "un-phosphorylation states" is not standard. The correct term is "unphosphorylated states."
+  - **Required correction** Replace "un-phosphorylation" with "unphosphorylated" throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Free energy results
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "end-state free energy calculations" but reports no numerical results from these calculations.
+  - **Required correction** Report the calculated free energy values for at least the key comparisons, such as phosphorylated versus unphosphorylated NPR1 binding to TGA3 and WRKY70.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "mus"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abbreviation "mus" for microseconds is nonstandard and could be confused with the Greek letter mu. The standard abbreviation is "microseconds" or "us" with a clear definition.
+  - **Required correction** Write "microseconds" in full or define the abbreviation at first use.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative support for central claims), R1-M2 (insufficient methodological detail for reproducibility), R1-M3 (uninterpretable structural notation)
+- **Assessment against Nature-style criteria** Originality: The question of how multisite phosphorylation and SUMOylation coordinate NPR1 conformational switching is timely and the computational approach is potentially novel, but the abstract does not clearly differentiate this work from prior computational studies of NPR1. Scientific importance: The topic is important for plant immunity, but the abstract does not demonstrate that the findings advance understanding beyond what is already known experimentally. Interdisciplinary readership: The work could appeal to both plant biologists and computational chemists, but the current writing is too specialized and unclear for a broad audience. Technical soundness: Cannot be assessed from the abstract alone due to missing methodological detail and absence of quantitative results. Readability for nonspecialists: Poor, due to undefined structural notation, grammatical issues, and lack of context for the biological significance of the specific contacts described.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible computational study with potentially interesting hypotheses, but the absence of quantitative results, methodological detail, and clear structural descriptions prevents assessment of validity. The authors should be encouraged to resubmit with a revised abstract that includes specific numerical findings, clear structural notation, and a comparison with experimental data.

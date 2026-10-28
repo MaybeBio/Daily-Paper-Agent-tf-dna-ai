@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "41450215",
+    "doi": "10.1093/bioinformatics/btaf678",
+    "title": "MegaPlantTF: a machine learning framework for comprehensive identification and classification of plant transcription factors."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Understanding the role of transcription factors (TFs) in plants is essential for the study of gene regulation and various biological processes. However, both TF detection and classification remain challenging due to the great diversity and complexity of these proteins. Conventional approaches, such as BLAST, often suffer from high computational complexity and limited performance on less common TF families. RESULTS: We introduce MegaPlantTF, the first comprehensive machine learning and deep learning framework for the prediction (TF versus non-TF) and classification (family-level) of plant TFs. Our method employs k-mer-based protein representations and a two-stage architecture combining a deep feed-forward neural network with a stacking ensemble classifier. To ensure robust performance assessment, we report micro-, macro-, and weighted-average performance metrics, providing a holistic evaluation of both frequent and underrepresented TF families. Additionally, we employ threshold-based evaluation to calibrate confidence in TF detection. The results show that MegaPlantTF achieves strong accuracy and precision, particularly with a k-mer size of 3 and a classification threshold of 0.5, and maintains stable performance even under stringent thresholds. In addition to the standard cross-validation tests, a use case study on Sorghum bicolor confirms that our method performs strongly in the genome-wide analysis, making it highly suitable for large-scale TF identification and classification tasks. MegaPlantTF represents a novel contribution by integrating k-mer encoding, binary family-specific classifiers, and a two-stage stacking ensemble into a unified, reproducible framework for large-scale plant TF identification and classification. AVAILABILITY AND IMPLEMENTATION: MegaPlantTF is freely accessible through a public web server available at https://bioinformatics.um6p.ma/MegaPlantTF. The complete source code, including pretrained models and example datasets, is available at https://github.com/Bioinformatics-UM6P/MegaPlantTF.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/classification/genetics/metabolism/chemistry",
+      "*Machine Learning",
+      "*Plant Proteins/classification/genetics/metabolism/chemistry",
+      "*Computational Biology/methods",
+      "Neural Networks, Computer",
+      "*Plants/genetics/metabolism",
+      "*Software",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akotenou, Genereux",
+        "Hassan, Asmaa H",
+        "Mokhtar, Morad M",
+        "El Allali, Achraf"
+      ],
+      "short_names": [
+        "Akotenou G",
+        "Hassan AH",
+        "Mokhtar MM",
+        "El Allali A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9540-0458",
+        "ORCID: 0000-0002-4561-2161"
+      ],
+      "affiliations": [
+        "Bioinformatics Laboratory, College of Computing, University Mohammed VI Polytechnic, Ben Guerir 43150, Morocco.",
+        "Bioinformatics Laboratory, College of Computing, University Mohammed VI Polytechnic, Ben Guerir 43150, Morocco.",
+        "Chemical and Biochemical Sciences-Green Process Engineering, University Mohammed VI Polytechnic, Ben Guerir 43150, Morocco.",
+        "Bioinformatics Laboratory, College of Computing, University Mohammed VI Polytechnic, Ben Guerir 43150, Morocco."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akotenou, Genereux",
+        "short_name": "Akotenou G",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Laboratory, College of Computing, University Mohammed VI Polytechnic, Ben Guerir 43150, Morocco."
+        ]
+      },
+      {
+        "full_name": "Hassan, Asmaa H",
+        "short_name": "Hassan AH",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Laboratory, College of Computing, University Mohammed VI Polytechnic, Ben Guerir 43150, Morocco."
+        ]
+      },
+      {
+        "full_name": "Mokhtar, Morad M",
+        "short_name": "Mokhtar MM",
+        "identifiers": [
+          "0000-0002-9540-0458"
+        ],
+        "affiliations": [
+          "Chemical and Biochemical Sciences-Green Process Engineering, University Mohammed VI Polytechnic, Ben Guerir 43150, Morocco."
+        ]
+      },
+      {
+        "full_name": "El Allali, Achraf",
+        "short_name": "El Allali A",
+        "identifiers": [
+          "0000-0002-4561-2161"
+        ],
+        "affiliations": [
+          "Bioinformatics Laboratory, College of Computing, University Mohammed VI Polytechnic, Ben Guerir 43150, Morocco."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Jan 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/26 07:40",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40605274",
+      "38443818",
+      "37668677",
+      "37185711",
+      "36074230",
+      "35956475",
+      "31701126",
+      "31328026",
+      "28250372",
+      "27924042",
+      "27717919",
+      "24219505",
+      "19858103",
+      "19036138",
+      "16381856",
+      "15640029",
+      "12952881",
+      "2231712"
+    ],
+    "similar": [
+      "41450215",
+      "42475469",
+      "38490467",
+      "20827602",
+      "41294241",
+      "42099803",
+      "37271050",
+      "41662352",
+      "42561589",
+      "40133779",
+      "40102719",
+      "29763967",
+      "40411397",
+      "28881969",
+      "40820010",
+      "40183298",
+      "42248989",
+      "34073774",
+      "18426580",
+      "37020337",
+      "39786868",
+      "38048895",
+      "35043942",
+      "41288963",
+      "33740884",
+      "33407069",
+      "24349230",
+      "34498677",
+      "31995498",
+      "41643219",
+      "37387156",
+      "35266510",
+      "24219505",
+      "41396754",
+      "39576667",
+      "41419964",
+      "39013383",
+      "39602828",
+      "40662821",
+      "34460382",
+      "40421657",
+      "38871100",
+      "41927866",
+      "38940155",
+      "35997560",
+      "31336830",
+      "31319964",
+      "38799058",
+      "41762162",
+      "40439671",
+      "33372147",
+      "41947423",
+      "41134033",
+      "40689530",
+      "41687774",
+      "41580658",
+      "39701486",
+      "29028906",
+      "41042660",
+      "35293310",
+      "38096313",
+      "41451540",
+      "40158097",
+      "41729651",
+      "41564724",
+      "18221524",
+      "35325031",
+      "38316843",
+      "35526094",
+      "42096457",
+      "40863882",
+      "35006529",
+      "39150804",
+      "38871095",
+      "39570595",
+      "31723409",
+      "21729923",
+      "17933783",
+      "34002774",
+      "42123672",
+      "34242708",
+      "41241820",
+      "40848288",
+      "39499152",
+      "34534646",
+      "25547126",
+      "41782896",
+      "41035197",
+      "41151193",
+      "41498638",
+      "39121059",
+      "39366143",
+      "33416862",
+      "22549903",
+      "33371891",
+      "38972032",
+      "32054475",
+      "30395277",
+      "39453508",
+      "34487501"
+    ],
+    "review": [
+      "41450215",
+      "31319964"
+    ],
+    "pmc": [
+      "12803907"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41450215.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41450215/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf678",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

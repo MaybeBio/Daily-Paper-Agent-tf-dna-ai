@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40037709",
+  "title": "Deep learning-based cell-specific gene regulatory networks inferred from single-cell multiome data.",
+  "authors": "Xu, Junlin; Lu, Changcheng; Jin, Shuting; Meng, Yajie; Fu, Xiangzheng; Zeng, Xiangxiang; Nussinov, Ruth; Cheng, Feixiong",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-03-05",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习整合单细胞多组学数据推断TF调控网络，虽聚焦GRN而非直接建模TF-DNA三维互作，但TF调控网络推断与结合位点预测相关，方法可迁移至本课题。",
+  "abstract": "Gene regulatory networks (GRNs) provide a global representation of how genetic/genomic information is transferred in living systems and are a key component in understanding genome regulation. Single-cell multiome data provide unprecedented opportunities to reconstruct GRNs at fine-grained resolution. However, the inference of GRNs is hindered by insufficient single omic profiles due to the characteristic high loss rate of single-cell sequencing data. In this study, we developed scMultiomeGRN, a deep learning framework to infer transcription factor (TF) regulatory networks via unique integration of single-cell genomic (single-cell RNA sequencing) and epigenomic (single-cell ATAC sequencing) data. We create scMultiomeGRN to elucidate these networks by conceptualizing TF network graph structures. Specifically, we build modality-specific neighbor aggregators and cross-modal attention modules to learn latent representations of TFs from single-cell multi-omics. We demonstrate that scMultiomeGRN outperforms state-of-the-art models on multiple benchmark datasets involved in diseases and health. Via scMultiomeGRN, we identified Alzheimer's disease-relevant regulatory network of SPI1 and RUNX1 for microglia. In summary, scMultiomeGRN offers a deep learning framework to identify cell type-specific gene regulatory network from single-cell multiome data.",
+  "abstract_zh": "基因调控网络（GRNs）提供了遗传/基因组信息在生命系统中传递的全局表示，是理解基因组调控的关键组成部分。单细胞多组学数据为以细粒度分辨率重建GRNs提供了前所未有的机会。然而，由于单细胞测序数据特有的高丢失率，GRNs的推断受到单组学图谱不足的阻碍。在本研究中，我们开发了scMultiomeGRN，一种深度学习框架，通过独特整合单细胞基因组（单细胞RNA测序）和表观基因组（单细胞ATAC测序）数据来推断转录因子（TF）调控网络。我们构建scMultiomeGRN，通过概念化TF网络图结构来阐明这些网络。具体而言，我们构建了模态特异性邻居聚合器和跨模态注意力模块，以从单细胞多组学中学习TF的潜在表示。我们证明，scMultiomeGRN在涉及疾病和健康的多个基准数据集上优于最先进模型。通过scMultiomeGRN，我们识别了小胶质细胞中与阿尔茨海默病相关的SPI1和RUNX1调控网络。总之，scMultiomeGRN提供了一种深度学习框架，用于从单细胞多组学数据中识别细胞类型特异性基因调控网络。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40037709/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40037709/",
+  "paper_page_path": "papers/pubmed/40037709/index.html"
+}

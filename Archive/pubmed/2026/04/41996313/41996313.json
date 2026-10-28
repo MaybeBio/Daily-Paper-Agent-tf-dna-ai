@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "41996313",
+    "doi": "10.1371/journal.pone.0347204",
+    "title": "A pyroptosis-related gene signature for the diagnosis of acute pancreatitis."
+  },
+  "content": {
+    "abstract": "Acute pancreatitis (AP) is a severe inflammatory disorder in which pyroptosis-a pro-inflammatory form of programmed cell death-may contribute to pathogenesis. However, the complete transcriptional profile of pyroptosis-related genes (PRGs) in AP and their potential as diagnostic biomarkers remain underexplored. This study aimed to systematically characterize pyroptosis-associated transcriptional signatures and identify the reliable biomarkers for diagnostic purposes. Three transcriptomic datasets from murine AP models were integrated to identify pyroptosis-related differentially expressed genes (PRDEGs). Functional enrichment and immune cell infiltration analyses were conducted to elucidate the biological pathways and immune microenvironment alterations associated with these genes. mRNA-transcription factor (TF) and mRNA-microRNA (miRNA) regulatory networks were constructed to investigate underlying molecular interactions. Machine learning techniques, including support vector machine (SVM) and least absolute shrinkage and selection operator (LASSO), were applied for feature selection, leading to the identification of key diagnostic markers and the development of a logistic regression model. The regression model were then assessed using an independent cohort of human peripheral blood samples. Eleven PRDEGs were identified, with enrichment observed in processes such as cytoskeletal organization, cell-substrate adhesion, and critical inflammatory signaling pathways, including MAPK and NF-kappaB. Immune infiltration analysis revealed significant correlations between these PRDEGs and various immune cell subsets, particularly M1 macrophages, Treg cells, and monocytes. A four-gene diagnostic signature, comprising ANXA3, IQGAP1, RELA, and VTN, was established through SVM and LASSO analysis. In the independent human cohort, the fixed-coefficient four-gene model demonstrated reduced discrimination, which likely reflects interspecies and tissue-specific variations. However, after optimizing the model to exclude non-significant predictors, a refined two-gene signature (ANXA3 and IQGAP1) exhibited improved accuracy, with excellent calibration and clinical net benefit. This study offers a comprehensive transcriptomic analysis of the pyroptosis-mediated landscape and immune microenvironment in AP. An optimized two-gene signature, comprising ANXA3 and IQGAP1, was validated in a human cohort with superior accuracy, reflecting critical disruptions in inflammatory pathways and cytoskeletal organization. Notably, ANXA3 demonstrated potential for stratifying disease severity. Although these markers hold potential for molecular diagnosis, further prospective studies are essential to establish their clinical specificity and generalizability across diverse populations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Pancreatitis/diagnosis/genetics",
+      "Humans",
+      "Animals",
+      "*Pyroptosis/genetics",
+      "Gene Expression Profiling",
+      "Biomarkers/metabolism",
+      "Mice",
+      "Acute Disease",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yuting",
+        "Li, Jun",
+        "Yu, Zhongsu",
+        "Li, Shuyuan",
+        "Chen, Yuxia",
+        "Pan, Yun",
+        "Cheng, Liangping",
+        "Yu, Guangyuan"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Li J",
+        "Yu Z",
+        "Li S",
+        "Chen Y",
+        "Pan Y",
+        "Cheng L",
+        "Yu G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5255-402X"
+      ],
+      "affiliations": [
+        "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "National Clinical Key Cardiovascular Specialty; Key Laboratory of Children's Important Organ Development and Diseases of Chongqing Municipal Health Commission, Chongqing, China.",
+        "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+        "Chongqing Key Laboratory of Pediatric Metabolism and Inflammatory Diseases, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yuting",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jun",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhongsu",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shuyuan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuxia",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Yun",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Liangping",
+        "short_name": "Cheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "National Clinical Key Cardiovascular Specialty; Key Laboratory of Children's Important Organ Development and Diseases of Chongqing Municipal Health Commission, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Guangyuan",
+        "short_name": "Yu G",
+        "identifiers": [
+          "0000-0001-5255-402X"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing, China.",
+          "Chongqing Key Laboratory of Pediatric Metabolism and Inflammatory Diseases, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/18 13:10",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38734287",
+      "38187037",
+      "37563309",
+      "36866529",
+      "36865686",
+      "35918536",
+      "35786033",
+      "34948200",
+      "34659246",
+      "34439095",
+      "33737122",
+      "32882586",
+      "32753619",
+      "32558385",
+      "31843293",
+      "31443682",
+      "31231358",
+      "30525268",
+      "30453885",
+      "30241973",
+      "30139658",
+      "29602770",
+      "28972134",
+      "27932073",
+      "27924033",
+      "27322403",
+      "27282980",
+      "26107390",
+      "25879289",
+      "25822800",
+      "25605792",
+      "24297251",
+      "23896955",
+      "23622135",
+      "23100216",
+      "22455463",
+      "22257669",
+      "21546393",
+      "21414208",
+      "20179076",
+      "19148178",
+      "17711870",
+      "17496320",
+      "17484894",
+      "17032204",
+      "16199517",
+      "15928709",
+      "15531878",
+      "11270363",
+      "10592173",
+      "7888681",
+      "1725600"
+    ],
+    "similar": [
+      "41996313",
+      "41078717",
+      "39512836",
+      "41208987",
+      "38649912",
+      "42195052",
+      "42292668",
+      "40613560",
+      "41840546",
+      "42642681",
+      "40830558",
+      "42263089",
+      "40659785",
+      "39378104",
+      "40532306",
+      "39507054",
+      "41902830",
+      "42650150",
+      "42431430",
+      "41388523",
+      "42326009",
+      "41563994",
+      "41548166",
+      "41611834",
+      "40918403",
+      "41858783",
+      "41291841",
+      "42123445",
+      "41224720",
+      "41722245",
+      "41878449",
+      "41220724",
+      "39586719",
+      "37525915",
+      "41836445",
+      "41243389",
+      "42315974",
+      "41265166",
+      "41984330",
+      "41200172",
+      "41044520",
+      "42363518",
+      "38656456",
+      "42088521",
+      "40091022",
+      "39341981",
+      "39509434",
+      "41013556",
+      "42510870",
+      "41219826",
+      "41656832",
+      "41006883",
+      "41146237",
+      "41781900",
+      "41635814",
+      "42483177",
+      "42023218",
+      "42123756",
+      "42154180",
+      "42056344",
+      "41324863",
+      "42175497",
+      "41716401",
+      "42274933",
+      "41479901",
+      "40901831",
+      "42562173",
+      "37386410",
+      "40374866",
+      "42024670",
+      "39351221",
+      "42404879",
+      "42233387",
+      "42647555",
+      "41291978",
+      "41310117",
+      "41601670",
+      "38277535",
+      "40819095",
+      "40670404",
+      "41316541",
+      "42164373",
+      "42565562",
+      "38406324",
+      "39061076",
+      "41826854",
+      "38681131",
+      "41102315",
+      "38017285",
+      "41686563",
+      "42536689",
+      "40753530",
+      "40350654",
+      "40821793",
+      "40607411",
+      "40307356",
+      "42558367",
+      "40461517",
+      "40977739",
+      "41410587"
+    ],
+    "review": [
+      "41996313"
+    ],
+    "pmc": [
+      "13089757"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreatitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatitis"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0347204",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41996313/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-17",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

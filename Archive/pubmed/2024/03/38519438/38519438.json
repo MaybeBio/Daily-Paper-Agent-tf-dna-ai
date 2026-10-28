@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "38519438",
+    "doi": "10.1002/adbi.202300659",
+    "title": "Exploring the NRF2-TP53 Signaling Network Through Machine Learning and Pan-Cancer Analysis: Identifying Potential targets for Cancer Prognosis Related to Oxidative Stress."
+  },
+  "content": {
+    "abstract": "Oxidative stress (OXS) is closely related to tumor prognosis and immune response, while TP53 integrated with NRF2 is closely associated with the regulation of cancer-related OXS. Hence, constructing a TP53-NRF2 integrated OXS signature of pan-cancer is essential in predicting survival prognosis and facilitating cancer drug treatment. The pan-cancer analysis acquired the Cancer Genome Atlas (TCGA) transcriptome sequencing data from UCSC Xena, which consisted of 33 cancer types (n = 10 440). The Random Forest, Lasso regression, and Cox regression analyses are used to construct an OXS score based on 25 OXS genes. Following this, based on the OXS signature, patients are categorized into low- and high-risk groups. The disparities between the two cohorts regarding survival prognosis, immune infiltration, and drug sensitivity are delved deeply. The expression level of genes is confirmed using immunohistochemistry. The prognosis of pan-cancer patients is adequately predicted by the OXS signature with the assistance of the machine-learning algorithm. A highly accurate nomogram is developed by combining the OXS signature and clinical features. The presence of immune cells indicated that the OXS signature can be associated with the critical pathways of immunotherapy for all types of cancer, and BCL2 showed promising results. Distinct inter-group differences are observed in the OXS signature for frequently utilized antineoplastic medications in clinical settings, including first-line drugs suggested in the guidelines. In summary, by conducting a thorough analysis of OXS genes, a new model based on OXSscore is successfully developed. This model can predict the clinical prognosis and drug sensitivity of pan-cancer with high accuracy. Potential stars in the field of cancer-related anti-OXS may include drugs that target BCL2.",
+    "keywords": [
+      "drug sensitivity",
+      "gene signature",
+      "machine learning",
+      "oxidative stress",
+      "pan cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplasms/genetics/drug therapy/metabolism",
+      "*NF-E2-Related Factor 2/genetics/metabolism",
+      "*Machine Learning",
+      "*Oxidative Stress/drug effects",
+      "Prognosis",
+      "*Tumor Suppressor Protein p53/genetics/metabolism",
+      "*Signal Transduction/genetics/drug effects",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Yuchen",
+        "Fu, Ao",
+        "Liu, Chunjun"
+      ],
+      "short_names": [
+        "Cao Y",
+        "Fu A",
+        "Liu C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2186-3943",
+        "ORCID: 0000-0002-4741-058X"
+      ],
+      "affiliations": [
+        "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China.",
+        "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China.",
+        "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Yuchen",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0000-0002-2186-3943"
+        ],
+        "affiliations": [
+          "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Ao",
+        "short_name": "Fu A",
+        "identifiers": [],
+        "affiliations": [
+          "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chunjun",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0002-4741-058X"
+        ],
+        "affiliations": [
+          "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100144, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced biology"
+    ],
+    "journal_abbrev": [
+      "Adv Biol (Weinh)"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/23 05:42",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41160298"
+    ],
+    "refs": [],
+    "similar": [
+      "38519438",
+      "35242279",
+      "38180104",
+      "29306329",
+      "36467027",
+      "35990668",
+      "37653150",
+      "36248822",
+      "33789615",
+      "36978029",
+      "36405735",
+      "38520254",
+      "32534425",
+      "38279987",
+      "37540264",
+      "36275774",
+      "36699466",
+      "30908539",
+      "37378675",
+      "37312528",
+      "32333046",
+      "35337291",
+      "33391264",
+      "33926488",
+      "38507067",
+      "18769717",
+      "38847472",
+      "37898914",
+      "36467500",
+      "27263465",
+      "30120041",
+      "36186436",
+      "36133439",
+      "34315405",
+      "33314730",
+      "34315402",
+      "34706720",
+      "35958598",
+      "35322324",
+      "36714595",
+      "32754268",
+      "36993976",
+      "37600786",
+      "34660598",
+      "37839160",
+      "38299230",
+      "35492358",
+      "38664705",
+      "31365877",
+      "36081904",
+      "35958575",
+      "38918844",
+      "36059494",
+      "35667517",
+      "35872794",
+      "36189298",
+      "38817665",
+      "36357897",
+      "38069266",
+      "24970682",
+      "37965307",
+      "38647237",
+      "38482436",
+      "38689382",
+      "32605658",
+      "35048799",
+      "36451813",
+      "35095892",
+      "35937602",
+      "37649103",
+      "36333388",
+      "35688556",
+      "35341013",
+      "33836688",
+      "36561981",
+      "36830707",
+      "33557781",
+      "38404588",
+      "38362684",
+      "36313417",
+      "38714579",
+      "37291405",
+      "36292719",
+      "31590928",
+      "34497681",
+      "26420858",
+      "38226313",
+      "32046766",
+      "32045271",
+      "37275552",
+      "36568383",
+      "35783281",
+      "38642129",
+      "39156727",
+      "31797609",
+      "39277681",
+      "34439350"
+    ],
+    "review": [
+      "38519438",
+      "36405735"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1002/adbi.202300659",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "34456333",
+    "doi": "10.1038/s41598-021-95698-w",
+    "title": "PCA-based unsupervised feature extraction for gene expression analysis of COVID-19 patients."
+  },
+  "content": {
+    "abstract": "Coronavirus disease 2019 (COVID-19) is raging worldwide. This potentially fatal infectious disease is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). However, the complete mechanism of COVID-19 is not well understood. Therefore, we analyzed gene expression profiles of COVID-19 patients to identify disease-related genes through an innovative machine learning method that enables a data-driven strategy for gene selection from a data set with a small number of samples and many candidates. Principal-component-analysis-based unsupervised feature extraction (PCAUFE) was applied to the RNA expression profiles of 16 COVID-19 patients and 18 healthy control subjects. The results identified 123 genes as critical for COVID-19 progression from 60,683 candidate probes, including immune-related genes. The 123 genes were enriched in binding sites for transcription factors NFKB1 and RELA, which are involved in various biological phenomena such as immune response and cell survival: the primary mediator of canonical nuclear factor-kappa B (NF-kappaB) activity is the heterodimer RelA-p50. The genes were also enriched in histone modification H3K36me3, and they largely overlapped the target genes of NFKB1 and RELA. We found that the overlapping genes were downregulated in COVID-19 patients. These results suggest that canonical NF-kappaB activity was suppressed by H3K36me3 in COVID-19 patient blood.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "COVID-19/*genetics/metabolism",
+      "Case-Control Studies",
+      "Epigenesis, Genetic",
+      "Gene Expression Profiling/*methods",
+      "Gene Expression Regulation",
+      "*Gene Regulatory Networks",
+      "Genetic Predisposition to Disease",
+      "Histones/*metabolism",
+      "Humans",
+      "Machine Learning",
+      "NF-kappa B p50 Subunit/*metabolism",
+      "Signal Transduction",
+      "Transcription Factor RelA/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fujisawa, Kota",
+        "Shimo, Mamoru",
+        "Taguchi, Y-H",
+        "Ikematsu, Shinya",
+        "Miyata, Ryota"
+      ],
+      "short_names": [
+        "Fujisawa K",
+        "Shimo M",
+        "Taguchi YH",
+        "Ikematsu S",
+        "Miyata R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0867-8986"
+      ],
+      "affiliations": [
+        "School of Life Science and Technology, Tokyo Institute of Technology, Tokyo, 152-8550, Japan. fujisawa.k.ab@m.titech.ac.jp.",
+        "Graduate School of Engineering and Science, University of the Ryukyus, Okinawa, 903-0213, Japan.",
+        "Department of Physics, Chuo University, Tokyo, 112-8551, Japan.",
+        "Department of Bioresources Engineering, National Institute of Technology, OkinawaCollege, Okinawa, 905-2192, Japan.",
+        "Faculty of Engineering, University of the Ryukyus, Okinawa, 903-0213, Japan. miyata26@tec.u-ryukyu.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fujisawa, Kota",
+        "short_name": "Fujisawa K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Tokyo Institute of Technology, Tokyo, 152-8550, Japan. fujisawa.k.ab@m.titech.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Shimo, Mamoru",
+        "short_name": "Shimo M",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Engineering and Science, University of the Ryukyus, Okinawa, 903-0213, Japan."
+        ]
+      },
+      {
+        "full_name": "Taguchi, Y-H",
+        "short_name": "Taguchi YH",
+        "identifiers": [
+          "0000-0003-0867-8986"
+        ],
+        "affiliations": [
+          "Department of Physics, Chuo University, Tokyo, 112-8551, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikematsu, Shinya",
+        "short_name": "Ikematsu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioresources Engineering, National Institute of Technology, OkinawaCollege, Okinawa, 905-2192, Japan."
+        ]
+      },
+      {
+        "full_name": "Miyata, Ryota",
+        "short_name": "Miyata R",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, University of the Ryukyus, Okinawa, 903-0213, Japan. miyata26@tec.u-ryukyu.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Aug 30",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/31 06:00",
+    "fetched_at": "2026-09-27 23:03:16"
+  },
+  "links": {
+    "cites": [
+      "42007334",
+      "41860894",
+      "40605246",
+      "40337130",
+      "37719701",
+      "36971504",
+      "36809830",
+      "36617124",
+      "35565454",
+      "35504973",
+      "34855909"
+    ],
+    "refs": [
+      "34147035",
+      "33973063",
+      "33905376",
+      "33661376",
+      "33589635",
+      "33096026",
+      "33096020",
+      "32838362",
+      "32788292",
+      "32751171",
+      "32659237",
+      "32606422",
+      "32459353",
+      "32392183",
+      "32307550",
+      "32296168",
+      "32271722",
+      "32171170",
+      "32109013",
+      "32015508",
+      "32015507",
+      "31978945",
+      "31837471",
+      "31781050",
+      "31514170",
+      "31188585",
+      "30944313",
+      "30853521",
+      "30531897",
+      "30116046",
+      "29760166",
+      "29287829",
+      "28276456",
+      "27534621",
+      "27366210",
+      "27171078",
+      "27141961",
+      "26822621",
+      "26677731",
+      "26538415",
+      "25925353",
+      "25611383",
+      "25605792",
+      "25521548",
+      "25516281",
+      "25352553",
+      "25215888",
+      "24565165",
+      "23874370",
+      "23855671",
+      "23650583",
+      "23586463",
+      "23152743",
+      "21408081",
+      "21388882",
+      "19910308",
+      "19114008",
+      "18299388",
+      "18267068",
+      "17355113",
+      "16619030",
+      "11983155",
+      "11752295",
+      "11309499",
+      "2869248"
+    ],
+    "similar": [
+      "34456333",
+      "26801246",
+      "22334708",
+      "30135182",
+      "26988706",
+      "17895971",
+      "21813505",
+      "20001340",
+      "32973783",
+      "30862497",
+      "19965984",
+      "31730277",
+      "30717434",
+      "24059932",
+      "27051065",
+      "20969857",
+      "27203220",
+      "35777990",
+      "24860143",
+      "16205698",
+      "30440055",
+      "31362988",
+      "33555182",
+      "24602731",
+      "34722158",
+      "26147201",
+      "27941215",
+      "27450326",
+      "17982039",
+      "23771139",
+      "34873064",
+      "26872379",
+      "21255844",
+      "17237265",
+      "24067962",
+      "21628458",
+      "17292554",
+      "33212164",
+      "19664134",
+      "36532040",
+      "24413684",
+      "20966071",
+      "34523966",
+      "16285952",
+      "19683540",
+      "26394554",
+      "24019758",
+      "22971966",
+      "15563086",
+      "19278579",
+      "17240450",
+      "23886618",
+      "8413215",
+      "22389501",
+      "24174526",
+      "22001963",
+      "16998793",
+      "17720813",
+      "18756949",
+      "21249144",
+      "19458123",
+      "26179215",
+      "21572107",
+      "16513841",
+      "33857149",
+      "25355951",
+      "17707233",
+      "19094066",
+      "22623725",
+      "29625198",
+      "15718492",
+      "10490645",
+      "34603483",
+      "21224428",
+      "18215660",
+      "23637609",
+      "25614461",
+      "25611383",
+      "32386462",
+      "19066718",
+      "17292587",
+      "17641044",
+      "26477771",
+      "23041330",
+      "18362142",
+      "16272352",
+      "16452207",
+      "21368872",
+      "34031419",
+      "33400022",
+      "23689134",
+      "16181613",
+      "20596086",
+      "33903618",
+      "36551164"
+    ],
+    "review": [
+      "34456333"
+    ],
+    "pmc": [
+      "8403676"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-021-95698-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34456333/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34456333",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

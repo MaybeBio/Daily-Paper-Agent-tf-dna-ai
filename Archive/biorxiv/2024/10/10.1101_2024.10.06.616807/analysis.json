@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.06.616807",
+  "title": "E(Q)AGNN-PPIS: Attention Enhanced Equivariant Graph Neural Network for Protein-Protein Interaction Site Prediction",
+  "authors": "Animesh; Rishi Suvvada; Plaban Kumar Bhowmick; Pralay Mitra",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-06",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用等变图神经网络预测蛋白质结合位点，虽为蛋白-蛋白互作体系，但其三维结构建模与注意力增强方法可迁移至TF-DNA互作位点预测，属广义互作建模启发文献。",
+  "abstract": "Identifying protein binding sites, the specific regions on a protein’s surface where interactions with other molecules occur, is crucial for understanding disease mechanisms and facilitating drug discovery. Although numerous computational techniques have been developed to identify protein binding sites, serving as a valuable screening tool that reduces the time and cost associated with conventional experimental approaches, achieving significant improvements in prediction accuracy remains a formidable challenge. Recent advancements in protein structure prediction, notably through tools like AlphaFold, have made vast numbers of 3-D protein structures available, presenting an opportunity to enhance binding site prediction methods. The availability of detailed 3-D structures has led to the development of Equivariant Graph Neural Networks (GNNs), which can analyze complex spatial relationships in protein structures while maintaining invariance to rotations and translations. However, current equivariant GNN methods still face limitations in fully exploiting the geometric features of protein structures. To address this, we introduce E(Q)AGNN-PPIS 1 , an Equivariant Attention-Enhanced Graph Neural Network designed for predicting protein binding sites by leveraging 3-D protein structure. Our method augments the Equivariant GNN framework by integrating an attention mechanism. This attention component allows the model to focus on the most relevant structural features for binding site prediction, significantly enhancing its ability to capture complex spatial patterns and interactions within the protein structure. Our experimental findings underscore the enhanced performance of E(Q)AGNN-PPIS compared to current state-of-the-art approaches, exhibiting gains of 8.33% in the Area Under the Precision-Recall Curve (AUPRC) and 10% in the Matthews Correlation Coefficient (MCC) across benchmark datasets. Additionally, our method demonstrates robust generalization across proteins with varying sequence lengths, outperforming baseline methods.",
+  "abstract_zh": "识别蛋白质结合位点，即蛋白质表面与其他分子发生相互作用的特定区域，对于理解疾病机制和促进药物发现至关重要。尽管已开发出众多计算技术来识别蛋白质结合位点，作为减少传统实验方法时间和成本的有价值筛选工具，但在预测准确性上实现显著提升仍是一项艰巨挑战。蛋白质结构预测的最新进展，尤其是通过AlphaFold等工具，已使大量三维蛋白质结构可供使用，为增强结合位点预测方法提供了机遇。详细三维结构的可用性促进了等变图神经网络（Equivariant Graph Neural Networks, GNNs）的发展，该网络能够分析蛋白质结构中的复杂空间关系，同时保持对旋转和平移的不变性。然而，当前等变GNN方法在充分利用蛋白质结构的几何特征方面仍存在局限。为解决此问题，我们引入E(Q)AGNN-PPIS 1，一种用于通过利用三维蛋白质结构预测蛋白质结合位点的等变注意力增强图神经网络。我们的方法通过集成注意力机制增强了等变GNN框架。该注意力组件使模型能够聚焦于结合位点预测最相关的结构特征，显著增强其捕捉蛋白质结构内复杂空间模式和相互作用的能力。我们的实验发现强调了E(Q)AGNN-PPIS相较于当前最先进方法的性能提升，在基准数据集上，精确率-召回率曲线下面积（AUPRC）提高了8.33%，马修斯相关系数（MCC）提高了10%。此外，我们的方法在不同序列长度的蛋白质上展现出稳健的泛化能力，优于基线方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.06.616807",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.06.616807",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.06.616807/index.html"
+}

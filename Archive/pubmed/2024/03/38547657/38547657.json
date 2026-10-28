@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "38547657",
+    "doi": "10.1016/j.compbiomed.2024.108307",
+    "title": "Identification of CREB5 as a prognostic and immunotherapeutic biomarker in glioma through multi-omics pan-cancer analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The functional relevance of cyclic adenosine monophosphate (cAMP)-response element-binding protein 5 (CREB5) in cancers remains elusive, despite its significance as a member of the CREB family. The current research aims to explore the role of CREB5 in multiple cancers. METHODS: Pan-cancer analysis was performed to explore the expression patterns, prognostic value, mutational landscape as well as single-cell omic, immunologic, and drug sensitivity profiles of CREB5. Furthermore, we incorporated five distinct machine learning algorithms and determined that the least absolute shrinkage and selection operator-COX (LASSO-COX) algorithm, which exhibited the highest C index, was the optimal selection. Subsequently, we constructed a prognostic model centered around CREB5-associated genes. To elucidate the biological function of CREB5 in glioma cells, several assays including cell counting kit-8 (CCK-8), wound healing, transwell, flow cytometric were performed. RESULTS: CREB5 was overexpressed in pan-cancer and was linked to unfavorable prognosis, particularly in glioma. Furthermore, genetic alterations were determined in various types of cancer, and modifications in the CREB5 gene were linked to the prognosis. The single-cell omics and enrichment analyses showed that CREB5 was predominantly expressed in malignant glioma cells and was critically involved in the regulation of various oncogenic processes. Elevated levels of CREB5 were strongly linked with the infiltration of cancer-associated fibroblasts and the Th1 subset of CD4(+) T cells. The validated CREB5-associated prognostic model reliably predicted the prognosis and drug response of glioma patients. The in vitro experiments showed that CREB5 promoted glioma cell proliferation, invasion, migration, and gap phase 2/mitotic (G2/M) phase arrest and recruited M2 macrophages into glioma cells. CONCLUSION: CREB5 has the potential to act as an oncogene and a biological marker in multiple cancers, particularly glioma.",
+    "keywords": [
+      "Cyclic adenosine monophosphate response element binding protein 5",
+      "Glioma",
+      "Multi-omics",
+      "Pan-cancer",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Biomarkers",
+      "*Cyclic AMP Response Element-Binding Protein A",
+      "*Glioma/diagnosis/genetics",
+      "Immunotherapy",
+      "*Multiomics",
+      "Prognosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Zhixuan",
+        "Wang, Xiaowu",
+        "Wu, Haodong",
+        "Du, Shengwei",
+        "Wang, Ziqiong",
+        "Xie, Shicheng",
+        "Zhang, Rongrong",
+        "Chen, Guorong",
+        "Chen, Hanbin"
+      ],
+      "short_names": [
+        "Wu Z",
+        "Wang X",
+        "Wu H",
+        "Du S",
+        "Wang Z",
+        "Xie S",
+        "Zhang R",
+        "Chen G",
+        "Chen H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China; Department of Burns and Skin Repair Surgery, The Third Affiliated Hospital of Wenzhou Medical University, Ruian, 325200, Zhejiang, China; The Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou, Zhejiang, 324000, China.",
+        "Department of Burns and Skin Repair Surgery, The Third Affiliated Hospital of Wenzhou Medical University, Ruian, 325200, Zhejiang, China.",
+        "Department of Oncology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China.",
+        "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China.",
+        "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China.",
+        "Department of Oncology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China.",
+        "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China. Electronic address: rtperfect@163.com.",
+        "The Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou, Zhejiang, 324000, China. Electronic address: chengr1978@aliyun.com.",
+        "Department of Oncology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China. Electronic address: chenhanbin@wmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Zhixuan",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China; Department of Burns and Skin Repair Surgery, The Third Affiliated Hospital of Wenzhou Medical University, Ruian, 325200, Zhejiang, China; The Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou, Zhejiang, 324000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaowu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns and Skin Repair Surgery, The Third Affiliated Hospital of Wenzhou Medical University, Ruian, 325200, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Haodong",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Du, Shengwei",
+        "short_name": "Du S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziqiong",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Shicheng",
+        "short_name": "Xie S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Rongrong",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China. Electronic address: rtperfect@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Guorong",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "The Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou, Zhejiang, 324000, China. Electronic address: chengr1978@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Hanbin",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, Zhejiang, China. Electronic address: chenhanbin@wmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/29 00:45",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42156597",
+      "42023823",
+      "41954995",
+      "41145436",
+      "40770411",
+      "40699665",
+      "40170838",
+      "39861138",
+      "39165717"
+    ],
+    "refs": [],
+    "similar": [
+      "38547657",
+      "35444654",
+      "36761737",
+      "32843066",
+      "39703515",
+      "37170390",
+      "37006287",
+      "36205192",
+      "38918441",
+      "39747410",
+      "36003063",
+      "37748218",
+      "30395767",
+      "38824202",
+      "37114595",
+      "35955624",
+      "37275857",
+      "38629068",
+      "39737177",
+      "36163046",
+      "39574472",
+      "37564657",
+      "35662106",
+      "36531205",
+      "39574473",
+      "37997255",
+      "37901236",
+      "38250074",
+      "40124371",
+      "39863609",
+      "38914714",
+      "38599441",
+      "36685506",
+      "38549156",
+      "39340957",
+      "37358720",
+      "39624961",
+      "37809064",
+      "40246858",
+      "32714316",
+      "40270974",
+      "31949566",
+      "39031404",
+      "36872806",
+      "36565037",
+      "38348047",
+      "38717048",
+      "39393272",
+      "40226617",
+      "39455949",
+      "39989140",
+      "40075453",
+      "33889156",
+      "38037058",
+      "39181686",
+      "38837011",
+      "40330458",
+      "29250192",
+      "38656888",
+      "38685772",
+      "35401558",
+      "39405927",
+      "38424407",
+      "39707188",
+      "32256212",
+      "39735553",
+      "37936713",
+      "37730879",
+      "38568083",
+      "37564635",
+      "39732954",
+      "38528630",
+      "38549717",
+      "40130175",
+      "39127414",
+      "40098960",
+      "38820773",
+      "38682182",
+      "39352539",
+      "39123194",
+      "38476239",
+      "39391958",
+      "39669580",
+      "34539626",
+      "37391787",
+      "37699361",
+      "37848933",
+      "37606290",
+      "37248320",
+      "40308576",
+      "39145097",
+      "36717836",
+      "37264314",
+      "40171811",
+      "38947325",
+      "38859773",
+      "40259382",
+      "39286258",
+      "25076032",
+      "39454876"
+    ],
+    "review": [
+      "38547657"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(24)00391-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38547657/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(24)00391-3",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

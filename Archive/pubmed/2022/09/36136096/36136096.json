@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "36136096",
+    "doi": "10.1007/s12539-022-00537-9",
+    "title": "Improving language model of human genome for DNA-protein binding prediction based on task-specific pre-training."
+  },
+  "content": {
+    "abstract": "The DNA-protein binding plays a pivotal role in regulating gene expression and evolution, and computational identification of DNA-protein has drawn more and more attention in bioinformatics. Recently, variants of BERT are also used to capture the semantic information of DNA sequences for predicting DNA-protein bindings. In this study, we leverage a task-specific pre-training strategy on BERT using large-scale multi-source DNA-protein binding data and present TFBert. TFBert treats DNA sequences as natural sentences and k-mer nucleotides as words. It can effectively extract upstream and downstream nucleotide context information by pre-training the 690 unlabeled ChIP-seq datasets. Experiments show that the pre-trained model can achieve promising performance on every single dataset in the 690 ChIP-seq datasets after simple fine tuning, especially on small datasets. The average AUC is 94.7%, outperforming existing popular methods. In conclusion, this study provides a variant of BERT based on pre-training and achieved state-of-the-art results in predicting DNA-protein bindings. We believe that TFBert can provide insights into other biological sequence classification problems.",
+    "keywords": [
+      "BERT",
+      "Biological sequence",
+      "DNA-protein binding",
+      "Pre-training"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Protein Binding",
+      "*Genome, Human",
+      "*Proteins",
+      "Language",
+      "DNA"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Hanyu",
+        "Shan, Wenyu",
+        "Chen, Cheng",
+        "Ding, Pingjian",
+        "Luo, Lingyun"
+      ],
+      "short_names": [
+        "Luo H",
+        "Shan W",
+        "Chen C",
+        "Ding P",
+        "Luo L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8239-9056"
+      ],
+      "affiliations": [
+        "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China.",
+        "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China.",
+        "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China.",
+        "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China.",
+        "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China. luoly@usc.edu.cn.",
+        "Hunan Medical Big Data International Science and Technology Innovation Cooperation Base, Hengyang, Hunan, 421001, People's Republic of China. luoly@usc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Hanyu",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shan, Wenyu",
+        "short_name": "Shan W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Cheng",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ding, Pingjian",
+        "short_name": "Ding P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Luo, Lingyun",
+        "short_name": "Luo L",
+        "identifiers": [
+          "0000-0002-8239-9056"
+        ],
+        "affiliations": [
+          "School of Computer Science, University of South China, Hengyang, Hunan, 421001, People's Republic of China. luoly@usc.edu.cn.",
+          "Hunan Medical Big Data International Science and Technology Innovation Cooperation Base, Hengyang, Hunan, 421001, People's Republic of China. luoly@usc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Interdisciplinary sciences, computational life sciences"
+    ],
+    "journal_abbrev": [
+      "Interdiscip Sci"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/23 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "42430786",
+      "42286057",
+      "41634097",
+      "41162866",
+      "40709306",
+      "40448683",
+      "40265190",
+      "40213269",
+      "39998912",
+      "39995150",
+      "39650606",
+      "39321458",
+      "39107889",
+      "38385876",
+      "38347788",
+      "38291225",
+      "38259343",
+      "37113248"
+    ],
+    "refs": [
+      "34297803",
+      "34141139",
+      "33876751",
+      "33390682",
+      "32613242",
+      "31701148",
+      "31661923",
+      "31504150",
+      "30624619",
+      "30425802",
+      "29425488",
+      "28427142",
+      "27307608",
+      "26213851",
+      "26100720",
+      "25953851",
+      "23332764",
+      "17932917",
+      "16381825",
+      "15637633",
+      "15131651",
+      "10812473"
+    ],
+    "similar": [
+      "36136096",
+      "35382811",
+      "38089911",
+      "33581474",
+      "37815839",
+      "33539511",
+      "39135093",
+      "36699410",
+      "39150804",
+      "35907966",
+      "33533728",
+      "33538820",
+      "37204192",
+      "38248912",
+      "37559830",
+      "34037687",
+      "34643684",
+      "39357703",
+      "33782629",
+      "36348281",
+      "35389869",
+      "31627032",
+      "39244557",
+      "38052570",
+      "35536244",
+      "33408741",
+      "35319481",
+      "38431236",
+      "38816885",
+      "34843033",
+      "35438145",
+      "36523764",
+      "36071406",
+      "36650800",
+      "38375921",
+      "35436295",
+      "35007754",
+      "34506554",
+      "38564359",
+      "38349057",
+      "36060139",
+      "32364514",
+      "35148686",
+      "38603308",
+      "34892183",
+      "34073774",
+      "32998724",
+      "35863177",
+      "34789238",
+      "35022039",
+      "36180888",
+      "33059047",
+      "36242862",
+      "37986761",
+      "33098987",
+      "36365883",
+      "31501885",
+      "34828233",
+      "38895432",
+      "36520922",
+      "30351403",
+      "36772522",
+      "35448946",
+      "36049552",
+      "31947235",
+      "32477646",
+      "35443054",
+      "23427986",
+      "36068535",
+      "34330244",
+      "35713867",
+      "20158869",
+      "39212609",
+      "33581833",
+      "34657153",
+      "33245291",
+      "35361890",
+      "34591774",
+      "34061736",
+      "34383680",
+      "35265939",
+      "32853205",
+      "24267147",
+      "33951729",
+      "20122241",
+      "26476779",
+      "36084041",
+      "35684778",
+      "35634098",
+      "33601085",
+      "32702106",
+      "36304324",
+      "25708089",
+      "37426456",
+      "39332561",
+      "37909046",
+      "37018268",
+      "38464101"
+    ],
+    "review": [
+      "36136096"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12539-022-00537-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

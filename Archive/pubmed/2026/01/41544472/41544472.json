@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "41544472",
+    "doi": "10.1016/j.phymed.2026.157812",
+    "title": "Morusin targets DNA methyltransferase 1 to trigger senescence and sensitizes colorectal cancer to senolytic therapy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Inducing tumor cell senescence is regarded as a promising strategy for cancer treatment. However, there is an urgent need for active ingredients that can safely and effectively induce tumor cell senescence and be used in combination with senolytics. Morusin, an isoprenylated flavonoid derived from the Morus alba L. (mulberry), exerts anti-inflammatory, antibacterial, and anti-tumor properties. However, the effect of morusin on colorectal cancer (CRC) remains unclear. PURPOSE: To investigate whether morusin can trigger CRC cell senescence and elucidate its potential mechanisms to offer a potential approach for combination therapy with senolytic agents. METHODS: CCK8, EdU assay, colony-formation, cell cycle analysis, calcein/PI staining assay, and SA-beta-Gal staining were conducted to evaluate the suppressive effects of morusin on CRC cells in vitro. Mechanistic investigations were deciphered via molecular docking, network pharmacology, western blot, plasmid construction, cell transfection, molecular interaction assay, biotin affinity pull-down, and ubiquitination analysis. Xenograft mouse models and patient-derived tumor xenograft (PDX) were utilized to evaluate the efficacy of morusin in vivo. RESULTS: We discovered that morusin predisposed CRC cells to cellular senescence. Mechanistically, morusin directly binds to the Q576 site of DNMT1 to facilitate its degradation, subsequently inhibiting the expression of CDK2, and thereby promoting p53 expression. Importantly, morusin exposes the vulnerability of senescent CRC cells to apoptosis resistance, which is selectively eliminated by the senolytic agent ABT263. CONCLUSION: Morusin induces CRC cell senescence via the DNMT1/CDK2/p53 axis, and renders the cells vulnerable to senolytic agents. This study not only broadens the development and utilization of morusin but also provides a novel sequential therapeutic strategy for combating CRC.",
+    "keywords": [
+      "Cellular senescence",
+      "Colorectal cancer",
+      "DNMT1",
+      "Morusin",
+      "Senolytics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/drug therapy/pathology/metabolism",
+      "*Flavonoids/pharmacology",
+      "Animals",
+      "*Cellular Senescence/drug effects",
+      "*DNA (Cytosine-5-)-Methyltransferase 1/metabolism",
+      "Mice",
+      "*Senotherapeutics/pharmacology",
+      "Cell Line, Tumor",
+      "Molecular Docking Simulation",
+      "Mice, Nude",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Cyclin-Dependent Kinase 2/metabolism",
+      "Morus/chemistry",
+      "Xenograft Model Antitumor Assays",
+      "Apoptosis/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Peng",
+        "Kong, Juanjuan",
+        "Li, Xuejia",
+        "Lu, Yu",
+        "Liang, Gang",
+        "Yu, Baofeng",
+        "Wang, Hailong",
+        "Fu, Rong"
+      ],
+      "short_names": [
+        "Yang P",
+        "Kong J",
+        "Li X",
+        "Lu Y",
+        "Liang G",
+        "Yu B",
+        "Wang H",
+        "Fu R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Biotechnology, Key Laboratory of Chemical Biology and Molecular Engineering of National Ministry of Education, Shanxi University, Taiyuan 030006, China.",
+        "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China.",
+        "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China.",
+        "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China.",
+        "Department of Pathology, the First Hospital, Shanxi Medical University, Taiyuan 030001, China.",
+        "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China. Electronic address: shanxiyangcheng@126.com.",
+        "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China. Electronic address: longwty@sxmu.edu.cn.",
+        "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China. Electronic address: ffurong_111@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Peng",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology, Key Laboratory of Chemical Biology and Molecular Engineering of National Ministry of Education, Shanxi University, Taiyuan 030006, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Juanjuan",
+        "short_name": "Kong J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuejia",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yu",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Gang",
+        "short_name": "Liang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the First Hospital, Shanxi Medical University, Taiyuan 030001, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Baofeng",
+        "short_name": "Yu B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China. Electronic address: shanxiyangcheng@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Hailong",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China. Electronic address: longwty@sxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fu, Rong",
+        "short_name": "Fu R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Shanxi Medical University, Taiyuan 030001, China. Electronic address: ffurong_111@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/17 00:37",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [
+      "42189343",
+      "42068388"
+    ],
+    "refs": [],
+    "similar": [
+      "41544472",
+      "41887392",
+      "40619020",
+      "41187650",
+      "40743902",
+      "42208104",
+      "39515101",
+      "40023971",
+      "40252583",
+      "39393329",
+      "40806223",
+      "40886867",
+      "41574471",
+      "41719100",
+      "38669968",
+      "39757707",
+      "38761775",
+      "34689087",
+      "41051594",
+      "39642461",
+      "37931831",
+      "39851228",
+      "40615101",
+      "41423036",
+      "35795731",
+      "41275747",
+      "42034025",
+      "23800091",
+      "39008915",
+      "38216838",
+      "41217576",
+      "38262581",
+      "39938766",
+      "41839279",
+      "42092475",
+      "41780620",
+      "41564520",
+      "37799727",
+      "28182012",
+      "39180983",
+      "41016541",
+      "40656610",
+      "33906076",
+      "42048794",
+      "41328352",
+      "39671783",
+      "40403681",
+      "41858177",
+      "39004030",
+      "30466620",
+      "40976489",
+      "31907647",
+      "41621574",
+      "41620649",
+      "41460614",
+      "29484762",
+      "30477538",
+      "40679559",
+      "41038143",
+      "40116125",
+      "41425720",
+      "32387457",
+      "40235275",
+      "42121020",
+      "40359890",
+      "39383785",
+      "38357981",
+      "29421517",
+      "29972765",
+      "41133455",
+      "39350250",
+      "41687471",
+      "41617994",
+      "41009697",
+      "39471878",
+      "41589439",
+      "39126925",
+      "39197803",
+      "41811692",
+      "22392074",
+      "39522845",
+      "21054888",
+      "39146782",
+      "39823802",
+      "40022092",
+      "38992898",
+      "41101075",
+      "40923240",
+      "38489888",
+      "38762212",
+      "38556136",
+      "40461235",
+      "41151886",
+      "40756270",
+      "33017635",
+      "40767932",
+      "26538209",
+      "38388849",
+      "39864609",
+      "39341077"
+    ],
+    "review": [
+      "41544472",
+      "41620649"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00049-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

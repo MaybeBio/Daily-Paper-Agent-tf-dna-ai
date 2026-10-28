@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "41230809",
+    "doi": "10.1111/jcmm.70942",
+    "title": "FGFR2 is a Crucial Factor for Adipose-Derived Mesenchymal Stem Cells in Promoting Diabetic Foot Ulcer Healing Through Angiogenesis."
+  },
+  "content": {
+    "abstract": "Diabetic foot ulcers (DFUs) remain a significant clinical challenge due to the lack of effective treatments, severely impacting patients' quality of life. Mesenchymal stem cells (MSCs) have shown potential in promoting DFU healing; however, the underlying mechanisms are not yet fully understood. This study investigates the role of adipose-derived mesenchymal stem cells (ADSCs) in DFU healing, with a particular focus on angiogenesis. Gene expression profiles from the GSE7014 and GSE80178 datasets in the Gene Expression Omnibus (GEO) database were analyzed. Differentially expressed genes (DEGs) were intersected with angiogenesis-related genes from the GeneCards database, identifying 35 angiogenesis-related DEGs (An-DEGs). Key genes were selected using Cytoscape software and machine learning. The pro-angiogenic effects of ADSCs were validated through in vivo and in vitro experiments, assessing their role in DFU healing. The DEGs from DFU patients were enriched in pathways such as angiogenesis and collagen-containing extracellular matrix. ADSCs promoted angiogenesis and wound healing by upregulating FGFR2 and secreting FGF, activating the FGF-PI3K/Akt-HIF-1alpha-VEGF axis. Additionally, ADSCs mediated secretion of VEGF concerting this effect. FGFR2 plays a pivotal role in ADSCs' mediated DFU healing by driving angiogenesis.",
+    "keywords": [
+      "FGFR2",
+      "adipose-derived mesenchymal stem cells",
+      "angiogenesis",
+      "diabetic foot ulcers"
+    ],
+    "mesh_terms": [
+      "*Diabetic Foot/pathology/metabolism/genetics/therapy",
+      "*Mesenchymal Stem Cells/metabolism/cytology",
+      "Humans",
+      "*Wound Healing/genetics",
+      "*Neovascularization, Physiologic/genetics",
+      "*Receptor, Fibroblast Growth Factor, Type 2/metabolism/genetics",
+      "Animals",
+      "*Adipose Tissue/cytology/metabolism",
+      "Signal Transduction",
+      "Mice",
+      "Mesenchymal Stem Cell Transplantation",
+      "Male",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Angiogenesis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Jing",
+        "Liu, Zichao",
+        "An, Wenqiang",
+        "Zhang, Xin",
+        "Li, Zhujun",
+        "Li, Lijie",
+        "Ji, Hailian",
+        "Zhang, Sen",
+        "Long, Xiao",
+        "Yang, Yuemei"
+      ],
+      "short_names": [
+        "Cao J",
+        "Liu Z",
+        "An W",
+        "Zhang X",
+        "Li Z",
+        "Li L",
+        "Ji H",
+        "Zhang S",
+        "Long X",
+        "Yang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4651-0505",
+        "ORCID: 0000-0003-0136-2508"
+      ],
+      "affiliations": [
+        "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China.",
+        "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China.",
+        "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China.",
+        "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China.",
+        "Department of Plastic & Cosmetic Surgery, Peking Union Medical College Hospital, Beijing, China.",
+        "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China.",
+        "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China.",
+        "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "Department of Plastic & Cosmetic Surgery, Peking Union Medical College Hospital, Beijing, China.",
+        "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Jing",
+        "short_name": "Cao J",
+        "identifiers": [
+          "0009-0004-4651-0505"
+        ],
+        "affiliations": [
+          "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zichao",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "An, Wenqiang",
+        "short_name": "An W",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhujun",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic & Cosmetic Surgery, Peking Union Medical College Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lijie",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Hailian",
+        "short_name": "Ji H",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sen",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Long, Xiao",
+        "short_name": "Long X",
+        "identifiers": [
+          "0000-0003-0136-2508"
+        ],
+        "affiliations": [
+          "Department of Plastic & Cosmetic Surgery, Peking Union Medical College Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuemei",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing AegleStem Therapeutics Co., Ltd, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular and molecular medicine"
+    ],
+    "journal_abbrev": [
+      "J Cell Mol Med"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/13 12:31",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40764444",
+      "39884341",
+      "39773633",
+      "39004727",
+      "38911504",
+      "38882056",
+      "37884128",
+      "37874529",
+      "37808198",
+      "37169756",
+      "37154169",
+      "36815234",
+      "36548709",
+      "35765085",
+      "35751795",
+      "35020204",
+      "33138861",
+      "32848793",
+      "32209136",
+      "32075181",
+      "31510789",
+      "30620372",
+      "30404559",
+      "29556344",
+      "28614678",
+      "27585063",
+      "27252357",
+      "25853951",
+      "25772309",
+      "25043058",
+      "25027388",
+      "23696246",
+      "22688339",
+      "22455463",
+      "21788830",
+      "21030723",
+      "19247306",
+      "19027922",
+      "18627349",
+      "18371435",
+      "17476357",
+      "17476353",
+      "16291066",
+      "16022668",
+      "14993122",
+      "12737879",
+      "12224009",
+      "10564562"
+    ],
+    "similar": [
+      "41230809",
+      "39987303",
+      "36064604",
+      "34720043",
+      "41921800",
+      "41819469",
+      "40529896",
+      "37848931",
+      "40796870",
+      "38659271",
+      "39985096",
+      "41581639",
+      "40518546",
+      "40038579",
+      "26332145",
+      "29651102",
+      "42226067",
+      "40001190",
+      "41915247",
+      "39680129",
+      "39923118",
+      "41983566",
+      "41566865",
+      "38738548",
+      "37874529",
+      "41301422",
+      "31520606",
+      "41703625",
+      "32556903",
+      "39627883",
+      "38759745",
+      "34542841",
+      "42584542",
+      "42684027",
+      "27664897",
+      "31079353",
+      "34773968",
+      "41278441",
+      "24328551",
+      "39165237",
+      "42067603",
+      "42033160",
+      "39625539",
+      "38041940",
+      "40999534",
+      "32484226",
+      "28202074",
+      "32294623",
+      "39227906",
+      "42257551",
+      "39725699",
+      "40024299",
+      "36714584",
+      "40001185",
+      "30663158",
+      "32791151",
+      "42043593",
+      "40930901",
+      "36299206",
+      "40555342",
+      "30359296",
+      "39924779",
+      "29075038",
+      "42274279",
+      "40748036",
+      "40038782",
+      "40351704",
+      "37459652",
+      "33933426",
+      "40261295",
+      "31035003",
+      "40033506",
+      "30404559",
+      "34887659",
+      "32248837",
+      "33875793",
+      "42733811",
+      "40297404",
+      "38661547",
+      "30710751",
+      "42034938",
+      "39864666",
+      "40394598",
+      "28927334",
+      "39020413",
+      "38849105",
+      "40445390",
+      "36537855",
+      "35870977",
+      "37342375",
+      "39509294",
+      "28386568",
+      "23423568",
+      "29415626",
+      "40525423",
+      "39991734",
+      "33807864",
+      "34697696",
+      "42218551",
+      "27770835"
+    ],
+    "review": [
+      "41230809",
+      "39227906",
+      "42274279",
+      "40351704",
+      "37459652",
+      "28386568",
+      "40525423"
+    ],
+    "pmc": [
+      "12613079"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabeticfoot.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Foot"
+      },
+      {
+        "url": "https://www.ovid.com/41230809.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41230809/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.70942",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3806",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "39589706",
+    "doi": "10.1007/s12094-024-03802-z",
+    "title": "Single-cell transcriptome analysis identifies subclusters and signature with N-glycosylation in endometrial cancer."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Endometrial cancer (EC) is a prevalent gynecologic cancer, with worldwide increasing incidence and disease-associated mortality. N-glycosylation, a critical post-translational modification, has been implicated in cancer progression and immune response modulation. We aimed to elucidate the role of N-glycosylation-related genes on EC cell heterogeneity, prognosis, and immunotherapy response. METHODS: Data from single-cell RNA sequencing (scRNA) of five patients with EC were acquired from the Gene Expression Omnibus (GEO) database. Nonnegative matrix factorization (NMF) was used to identify cell subtypes related to N-glycosylation from a scRNA matrix. Subsequently, a consensus prognostic signature by integrating 101 combinations of 10 machine learning algorithms. The response to immunotherapy in EC was further examined by multiple algorithms. RESULTS: Our findings identified 11,020 differentially expressed genes (DEGs), of which 34 N-glycosylation-related DEGs were remarkably associated with overall survival (OS) in EC. Single-cell RNA sequencing analysis revealed 30,233 cells divided into eight clusters, with T cells and epithelial cells showing distinct functional characteristics. NMF clustering further classified malignant cells into four subtypes: N-glycosylation-C0, Glycosphingolipid-C1, O-GalNAc-C2, and Elongation-C3. The O-GalNAc-C2 subtype exhibited the highest metabolic pathway activity and activation of transcription factors SOX4, JUND, and FOS. Additionally, cell-cell interaction networks highlighted the MK signaling pathway as a critical mediator of intercellular communication. An integrated machine learning framework generated a prognostic model comprising eight DEGs (LAMC2, KRT7, IL32, KRT18, SERPINA1, PGR, AKAP12, EDN2), achieving an average C-index of 0.712 in training and validation cohorts. A low-risk score implies more significant immune cell infiltration and better response to immunotherapy. CONCLUSIONS: Our study underscores the role of N-glycosylation-related genes in EC prognosis and immunotherapy response prediction, and may provide a basis for the development of targeted therapies and personalized treatment strategies.",
+    "keywords": [
+      "Endometrial cancer",
+      "Immunotherapy",
+      "N-glycosylation",
+      "ScRNA-seq",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/genetics/metabolism/pathology/mortality/therapy",
+      "Glycosylation",
+      "*Single-Cell Analysis",
+      "*Gene Expression Profiling",
+      "Prognosis",
+      "*Transcriptome",
+      "Immunotherapy",
+      "Machine Learning",
+      "Gene Expression Regulation, Neoplastic",
+      "Biomarkers, Tumor/genetics",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Min",
+        "Zhang, Yuefeng",
+        "Song, Wei"
+      ],
+      "short_names": [
+        "Zhou M",
+        "Zhang Y",
+        "Song W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4576-1949"
+      ],
+      "affiliations": [
+        "Department of Gynecology and Obstetrics, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Hepatobiliary Surgery, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Gastrointestinal Surgery II, Renmin Hospital of Wuhan University, No. 238, Jiefang Road, Wuhan, 430060, China. whdxsw@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Min",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuefeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Song, Wei",
+        "short_name": "Song W",
+        "identifiers": [
+          "0000-0003-4576-1949"
+        ],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery II, Renmin Hospital of Wuhan University, No. 238, Jiefang Road, Wuhan, 430060, China. whdxsw@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico"
+    ],
+    "journal_abbrev": [
+      "Clin Transl Oncol"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/26 12:31",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "42366266",
+      "41746589",
+      "40868286",
+      "39936948"
+    ],
+    "refs": [
+      "39794935",
+      "39409952",
+      "38856041",
+      "38749608",
+      "38584169",
+      "38486989",
+      "38260844",
+      "38035101",
+      "37662958",
+      "37511325",
+      "37487942",
+      "37382751",
+      "37081869",
+      "37060513",
+      "37024870",
+      "37023314",
+      "36791751",
+      "36581331",
+      "36376293",
+      "36148016",
+      "35974300",
+      "35844605",
+      "35397864",
+      "35143040",
+      "35116579",
+      "34290732",
+      "34188523",
+      "34035252",
+      "33365025",
+      "33336406",
+      "33207095",
+      "33063473",
+      "32940073",
+      "32860257",
+      "32440006",
+      "31467405",
+      "30594556",
+      "30531897",
+      "30127393",
+      "29443960",
+      "29344893",
+      "29092952",
+      "28546465",
+      "28223235",
+      "27765066",
+      "27572267",
+      "27079802",
+      "26771021",
+      "26354523",
+      "26289314",
+      "25964580",
+      "25727145",
+      "21867926",
+      "21436444",
+      "20179076",
+      "19190080"
+    ],
+    "similar": [
+      "39589706",
+      "39079132",
+      "39896800",
+      "39773448",
+      "39799269",
+      "39870964",
+      "38221616",
+      "40308576",
+      "40321814",
+      "40340806",
+      "40141028",
+      "38720279",
+      "37081869",
+      "39355255",
+      "40330470",
+      "39730507",
+      "40330458",
+      "40243888",
+      "38947396",
+      "39759507",
+      "39033778",
+      "39221762",
+      "38880903",
+      "40200221",
+      "37583701",
+      "35251475",
+      "39966486",
+      "39238647",
+      "38616208",
+      "34970268",
+      "39138733",
+      "32074080",
+      "38108937",
+      "38870270",
+      "39516442",
+      "39798003",
+      "40352269",
+      "39267056",
+      "38849409",
+      "38727936",
+      "40377806",
+      "39732954",
+      "39654198",
+      "39886973",
+      "40102789",
+      "39507529",
+      "37936457",
+      "39953119",
+      "39324703",
+      "39108264",
+      "38809517",
+      "39524444",
+      "34158412",
+      "39850878",
+      "39530087",
+      "40235334",
+      "38994352",
+      "38962008",
+      "39676856",
+      "38795156",
+      "37369799",
+      "39849233",
+      "40379825",
+      "39165353",
+      "39742262",
+      "39859524",
+      "39332020",
+      "38894657",
+      "38594466",
+      "38824904",
+      "39384856",
+      "39806429",
+      "39904693",
+      "35337291",
+      "40034693",
+      "40332226",
+      "39076986",
+      "40303412",
+      "37807645",
+      "35095892",
+      "37889617",
+      "38689382",
+      "40103807",
+      "39712016",
+      "34763648",
+      "40068177",
+      "39742274",
+      "39085893",
+      "40145099",
+      "35069566",
+      "39273449",
+      "34704492",
+      "39407301",
+      "40151638",
+      "35154287",
+      "34193185",
+      "40064955",
+      "39987127",
+      "39948301",
+      "36973787"
+    ],
+    "review": [
+      "39589706"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12094-024-03802-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3631",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

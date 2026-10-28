@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "36180886",
+    "doi": "10.1186/s13148-022-01343-2",
+    "title": "Identification of DNA methylation-regulated genes as potential biomarkers for coronary heart disease via machine learning in the Framingham Heart Study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: DNA methylation-regulated genes have been demonstrated as the crucial participants in the occurrence of coronary heart disease (CHD). The machine learning based on DNA methylation-regulated genes has tremendous potential for mining non-invasive predictive biomarkers and exploring underlying new mechanisms of CHD. RESULTS: First, the 2085 age-gender-matched individuals in Framingham Heart Study (FHS) were randomly divided into training set and validation set. We then integrated methylome and transcriptome data of peripheral blood leukocytes (PBLs) from the training set to probe into the methylation and expression patterns of CHD-related genes. A total of five hub DNA methylation-regulated genes were identified in CHD through dimensionality reduction, including ATG7, BACH2, CDKN1B, DHCR24 and MPO. Subsequently, methylation and expression features of the hub DNA methylation-regulated genes were used to construct machine learning models for CHD prediction by LightGBM, XGBoost and Random Forest. The optimal model established by LightGBM exhibited favorable predictive capacity, whose AUC, sensitivity, and specificity were 0.834, 0.672, 0.864 in the validation set, respectively. Furthermore, the methylation and expression statuses of the hub genes were verified in monocytes using methylation microarray and transcriptome sequencing. The methylation statuses of ATG7, DHCR24 and MPO and the expression statuses of ATG7, BACH2 and DHCR24 in monocytes of our study population were consistent with those in PBLs from FHS. CONCLUSIONS: We identified five DNA methylation-regulated genes based on a predictive model for CHD using machine learning, which may clue the new epigenetic mechanism for CHD.",
+    "keywords": [
+      "Coronary heart disease",
+      "DNA methylation",
+      "Machine learning",
+      "Monocyte",
+      "Transcriptome"
+    ],
+    "mesh_terms": [
+      "Basic-Leucine Zipper Transcription Factors/genetics",
+      "Biomarkers",
+      "*Coronary Disease/diagnosis/genetics",
+      "*DNA Methylation",
+      "Humans",
+      "Longitudinal Studies",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaokang",
+        "Wang, Chen",
+        "He, Dingdong",
+        "Cheng, Yating",
+        "Yu, Li",
+        "Qi, Daoxi",
+        "Li, Boyu",
+        "Zheng, Fang"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Wang C",
+        "He D",
+        "Cheng Y",
+        "Yu L",
+        "Qi D",
+        "Li B",
+        "Zheng F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China.",
+        "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China.",
+        "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China.",
+        "Department of Clinical Laboratory Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China.",
+        "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China.",
+        "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China.",
+        "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China.",
+        "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China. zhengfang@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaokang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chen",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "He, Dingdong",
+        "short_name": "He D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China.",
+          "Department of Clinical Laboratory Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yating",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Li",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Daoxi",
+        "short_name": "Qi D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Li, Boyu",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Fang",
+        "short_name": "Zheng F",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Gene Diagnosis and Department of Clinical Laboratory Medicine, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China. zhengfang@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2022 Sep 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/01 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "42647202",
+      "42062546",
+      "41869535",
+      "41792391",
+      "41381984",
+      "41074112",
+      "41022596",
+      "40776938",
+      "40564627",
+      "40346834",
+      "40176068",
+      "40135555",
+      "39732727",
+      "39535476",
+      "39187864",
+      "38847653",
+      "38662186",
+      "38602535",
+      "38553562",
+      "37372412"
+    ],
+    "refs": [
+      "35750033",
+      "35460889",
+      "35310995",
+      "35308237",
+      "35078371",
+      "34937574",
+      "34782454",
+      "34707562",
+      "34627379",
+      "34347013",
+      "34148365",
+      "34022925",
+      "33894761",
+      "33688915",
+      "33634169",
+      "33033488",
+      "32581223",
+      "32078488",
+      "32015323",
+      "31911440",
+      "31043077",
+      "30723273",
+      "30685450",
+      "30619297",
+      "30567402",
+      "30381360",
+      "30025494",
+      "29496659",
+      "29293675",
+      "28084332",
+      "27655435",
+      "27247223",
+      "26812015",
+      "25821782",
+      "25613291",
+      "23497278",
+      "21993341",
+      "19861417",
+      "11448281",
+      "11368702"
+    ],
+    "similar": [
+      "36180886",
+      "29293675",
+      "37982274",
+      "36060667",
+      "34148365",
+      "38246423",
+      "30567402",
+      "37507725",
+      "32628616",
+      "31684966",
+      "36896513",
+      "35964014",
+      "39285429",
+      "28577936",
+      "35309227",
+      "30673762",
+      "37923103",
+      "31881887",
+      "32565312",
+      "25084356",
+      "37840506",
+      "39406876",
+      "33092459",
+      "34627379",
+      "23555769",
+      "34906845",
+      "35111213",
+      "30867120",
+      "37702023",
+      "29991969",
+      "37372412",
+      "35151267",
+      "33367533",
+      "32790754",
+      "34868268",
+      "34104645",
+      "39202774",
+      "33033488",
+      "24479926",
+      "25244506",
+      "30907085",
+      "39323093",
+      "32618141",
+      "35740428",
+      "28841467",
+      "35845157",
+      "39009577",
+      "26429603",
+      "31783053",
+      "29270239",
+      "26733571",
+      "35045866",
+      "33509101",
+      "28420383",
+      "31590287",
+      "35562622",
+      "36093132",
+      "30576806",
+      "32357880",
+      "33513891",
+      "31501353",
+      "35749951",
+      "31253200",
+      "34241544",
+      "28213390",
+      "30545403",
+      "27594927",
+      "33859751",
+      "36467345",
+      "24671110",
+      "24858026",
+      "25228812",
+      "32620102",
+      "29925314",
+      "33228504",
+      "32049268",
+      "36261477",
+      "32806782",
+      "35505216",
+      "33691657",
+      "30744671",
+      "32733620",
+      "32299435",
+      "35812327",
+      "36032780",
+      "31618096",
+      "33902696",
+      "35141217",
+      "34308907",
+      "32043895",
+      "32633782",
+      "34116660",
+      "36619306",
+      "36249027",
+      "35628812",
+      "37524859",
+      "38903861"
+    ],
+    "review": [
+      "36180886",
+      "28577936",
+      "34627379",
+      "37702023",
+      "39009577",
+      "33509101"
+    ],
+    "pmc": [
+      "9526342"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-022-01343-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36180886/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36180886",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MPO-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1237",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
